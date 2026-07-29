@@ -4,7 +4,7 @@ type: deliverable
 subject: Non-sugar (artificial) sweeteners appraised on health — a population-level question, applied per person at layer 3
 question: Are non-sugar sweeteners harmful, beneficial, or neutral — on cancer, appetite/cravings, insulin, and weight — and against which comparator?
 aliases: [Are Artificial Sweeteners Bad, Non-Sugar Sweeteners Deliverable, Artificial Sweeteners Health, Should I Use Sweeteners]
-sources: [WHO - Non-Sugar Sweeteners 2023, Free Sugars Intake, Surrogate Outcomes]
+sources: [WHO - Non-Sugar Sweeteners 2023]
 confidence: low
 created: 2026-07-29
 updated: 2026-07-29

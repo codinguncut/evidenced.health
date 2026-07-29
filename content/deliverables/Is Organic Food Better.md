@@ -4,7 +4,7 @@ type: deliverable
 subject: The health axis of the "organic" label — a population-level appraisal, decomposed into its real exposures
 question: Does organic food deliver a health benefit (fewer residues, more nutrients, better outcomes) large enough to change what you buy — and is it the certification or an underlying exposure doing the work?
 aliases: [Is Organic Food Better, Organic vs Conventional, Organic Food Health]
-sources: [Is the Food Category Doing Any Work, Surrogate Outcomes, Measurement Error in Dietary Assessment]
+sources: []  # frame-first: no domain sources held yet; leans on held appraisal machinery (pages linked in body)
 confidence: low
 created: 2026-07-29
 updated: 2026-07-29

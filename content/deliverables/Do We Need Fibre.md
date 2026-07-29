@@ -4,7 +4,7 @@ type: deliverable
 subject: Dietary fibre appraised on health — essentiality reframed as effect-size, decomposed by fibre-type and outcome
 question: Is fibre essential, and how large are its effects on cholesterol, gut transit, gastric emptying, LDL, glycaemia and satiety — with what downsides?
 aliases: [Do We Need Fibre, Is Fibre Essential, Dietary Fibre Health, Soluble vs Insoluble Fibre]
-sources: [SACN - Carbohydrates and Health 2015, Whole Grains Refined Grains and Pulses, Antinutrients in Plant Foods]
+sources: [SACN - Carbohydrates and Health 2015]
 confidence: low
 created: 2026-07-29
 updated: 2026-07-29

@@ -17,8 +17,6 @@ created: 2026-07-27
 updated: 2026-07-28
 ---
 
-# Which Objective Moved This Recommendation
-
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
 evidence *plus* considerations that have nothing to do with whether the exposure works. This page is
 the diagnostic for separating them — and the central finding is that on the guidance the wiki holds,

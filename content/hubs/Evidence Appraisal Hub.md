@@ -5,8 +5,6 @@ created: 2026-07-25
 updated: 2026-07-25
 ---
 
-# Evidence Appraisal Hub
-
 Navigator for the `evidence-appraisal` cluster — the machinery for moving from a body of studies to a
 graded recommendation. Nucleus: [[Certainty of Evidence vs Strength of Recommendation]].
 

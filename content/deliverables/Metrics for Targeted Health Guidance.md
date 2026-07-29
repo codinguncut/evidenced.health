@@ -11,8 +11,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# What to Measure: A Minimal Health Checklist
-
 **What to measure so the guidance can be targeted.** The evidence speaks in *strata* — a reference class,
 not a person; targeted advice needs your data to place you in the right class. This is the **input list**:
 the minimal, readily-capturable set that does most of that placing, ordered by *decision-impact x

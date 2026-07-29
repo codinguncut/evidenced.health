@@ -15,8 +15,6 @@ updated: 2026-07-28
 self_critiqued: 2026-07-27
 ---
 
-# Upgrading Observational Evidence
-
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
 of GRADE that its hierarchy reputation obscures: the framework has an explicit, criteria-bound route
 by which non-randomized evidence can end up rated **high**.

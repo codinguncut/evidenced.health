@@ -17,8 +17,6 @@ created: 2026-07-26
 updated: 2026-07-26
 ---
 
-# Carbohydrate Restriction and Type 2 Diabetes Remission
-
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined
 **<26% of energy or <130 g/day** -- materially stricter than the <45% used by broader reviews.
 

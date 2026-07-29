@@ -18,8 +18,6 @@ updated: 2026-07-28
 self_critiqued: 2026-07-28
 ---
 
-# Statins for Primary Prevention and the Power of Zero CAC
-
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
 statin is roughly constant; the absolute benefit scales with how high the risk was to begin with
 ([[Baseline Risk and the Relative-Absolute Split]]). Two sources set the decision: **USPSTF 2022** gives

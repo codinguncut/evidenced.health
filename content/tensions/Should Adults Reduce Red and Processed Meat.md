@@ -16,8 +16,6 @@ relationships:
     - Protein Quality and the DIAAS Score
 ---
 
-# Should Adults Reduce Red and Processed Meat
-
 Two guideline families, the same cohort evidence, opposite instructions. WCRF 2018: *limit red meat,
 eat little if any processed meat.* NutriRECS 2019: *adults may continue current consumption* (weak
 recommendation). The evidence is on [[Red and Processed Meat and Cancer]]; this page is the joined

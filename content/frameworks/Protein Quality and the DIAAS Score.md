@@ -19,8 +19,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Protein Quality and the DIAAS Score
-
 **What "protein quality" measures — and what it does not.** Quality is two things multiplied:
 **amino-acid composition** (how well a food's indispensable amino acids match human requirement — the
 *limiting* amino acid caps the score) times **digestibility** (how much is actually absorbed). It says

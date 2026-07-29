@@ -2,8 +2,8 @@
 type: framework
 question: How much saturated fat, replaced by what, and how confident is that?
 aliases: [SFA, Saturated Fatty Acid Intake, SFA Replacement, Dietary Fat Recommendations, WHO SFA Guideline, 10% Energy Threshold]
-authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020]
+authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 cluster: dietary-fat
 nucleus: true
 confidence: medium
@@ -19,8 +19,6 @@ created: 2026-07-25
 updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
-
-# Saturated Fat Intake and Replacement
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
 wiki. Its structure matters as much as its numbers: **the recommendation splits by replacement
@@ -599,3 +597,71 @@ changes here:
 Astrup's LDL-surrogate argument (diet-induced LDL-C may not track the atherogenic apoB-particle burden)
 is woven onto [[LDL ApoB and Cumulative Exposure]]; his food-matrix program (dairy, meat, chocolate) onto
 [[Is the Food Category Doing Any Work]].
+
+## PURE 2017 — the observational arm, grounded (and its income confound) `[2026-07-29]`
+
+[[Dehghan - PURE Fats Carbohydrate Mortality 2017]] is the large prospective cohort (135 335 adults,
+18 countries, median 7.4 y) that the Astrup reassessment leans on for its observational pillar — so
+this **grounds the observational arm** already referenced in [[Does Reducing Saturated Fat Reduce Cardiovascular Events]] with the actual data. It is **F (grounding), not `[E-independent]`**: it is the
+cohort base Astrup already cited, not a second independent route.
+
+PURE's SFA associations (quintile 5 [median 13.2%E] vs quintile 1 [2.8%E]):
+
+- Total mortality **HR 0.86 (0.76-0.99)**, p-trend 0.0088 — *inverse* (higher SFA, lower mortality).
+- Stroke **HR 0.79 (0.64-0.98)**, p-trend 0.0498 — *inverse*.
+- Major CVD 0.95 (0.83-1.10), MI 1.17 (0.94-1.45), CVD mortality 0.83 (0.65-1.07) — all **null**.
+
+[EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Table 3]
+
+**Attempt the contradiction, then scope it.** Read naively, PURE reverses this page: SFA *lowers*
+mortality, guidelines are wrong. The parameter table forbids that reading — PURE and the RCT evidence
+this page rests on are **not the same quantity**:
+
+| Parameter | PURE (Dehghan) | Hooper RCT / WHO Annex 6 | Same quantity? |
+|---|---|---|---|
+| Design | observational cohort, FFQ at baseline | 15 RCTs, assigned-diet, >=24 mo | **NO — observational vs randomised** |
+| Exposure contrast | *high vs low SFA intake* (13% vs 3%E) across an income/diet gradient | *reduce SFA vs usual*, within-trial | **NO — level-contrast vs change** |
+| Hard-outcome finding | SFA null on major CVD/MI/CVD death; *inverse* on total mortality + stroke | reducing SFA → CV **events** RR 0.83 (15 fewer/1000); mortality null | **partial — both null on MORTALITY** |
+| Confounding structure | residual confounding by **income** (highest-carb = poorest, refined-carb subsistence diets); could not measure trans fat | randomisation balances confounders | **NO — the whole point** |
+| Replacement modelled | carb→PUFA lowers mortality (HR 0.89); carb→SFA null on mortality, but lowers stroke (0.80) | SFA→PUFA lowers CV events; SFA→carb does not | **near — both rank PUFA replacement first** |
+
+**The load-bearing weakness, stated plainly (the authors' own).** PURE's highest-carbohydrate quintiles
+are dominated by **low-income populations eating refined-carbohydrate subsistence diets**; higher fat =
+higher income = better outcomes. The authors concede it twice: «high consumption of carbohydrate and low
+consumption of animal products might simply reflect lower incomes; residual confounding as a
+potential reason for our results cannot be completely excluded», and «differences in the ability to
+afford fats and animal proteins, which are more expensive than carbohydrates».
+[EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion] So the SFA-inverse
+and carb-harm signals are the **mirror image of an income gradient**, not a demonstration that SFA
+protects — a worked instance of the confounding machinery -> [[The U-Shaped Association Artifact]].
+
+**What genuinely survives, and it is agreement not reversal.** On **mortality**, PURE finds SFA null-to-
+inverse and the Hooper RCTs find reducing SFA null — *both say reducing SFA does not measurably reduce
+dying*, which this page already holds. On **replacement**, PURE independently ranks **PUFA-for-carb**
+first (HR 0.89), echoing the page's PUFA-strong structure. Where PURE cannot speak is the one place the
+RCTs do: the SFA→CV-*events* RR 0.83. PURE's own **event** outcomes (major CVD, MI, CVD death) are all
+null — but as an unrandomised level-contrast confounded by income, that null does **not** overturn the
+randomised events estimate.
+
+**One directional refinement PURE adds (mechanistic, via the companion Mente 2017 lipid paper).** Higher
+SFA raised LDL **but** also HDL, and lowered triglycerides, TC/HDL and ApoB/ApoA1; higher carbohydrate
+lowered LDL **but** raised ApoB/ApoA1 (the stronger predictor) — so «predicting the net clinical effect
+based on considering only the effects of nutrient intake on LDL cholesterol is not reliable».
+[EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion] This grounds Astrup's
+LDL-surrogate caveat with data -> [[LDL ApoB and Cumulative Exposure]]; it does **not** contradict LDL's
+*causal* status (apoB is the agent), it says diet-induced LDL-C is a poor summary of the whole lipid
+change.
+`[INFERRED (Dehghan - PURE Fats Carbohydrate Mortality 2017) — each cell is quoted; the not-the-same-
+quantity reading and the income-confound weighting are this page's]`
+
+**Self-critique (PURE weave) `[run 2026-07-29, before commit]`.** *Laundered-E:* PURE is explicitly F
+(grounding), NOT `[E-independent]` — it is the cohort base Astrup already cited, stated three times.
+*Overclaim:* the contrarian headline (*fats safe, carbs harmful*) is engaged with full data (symmetric
+standards — PURE is a large, well-conducted cohort, not dismissed) and then weighted down by the
+authors' own twice-conceded residual confounding, not hand-waved; no claim that PURE overturns the RCT
+consensus survives. *Parameter table:* built before the prose, «same quantity?» = NO on design, exposure
+contrast and confounding structure — the same-quantity failure the rule exists to catch (an observational
+level-contrast read as if it were the randomised change). *No new tension filed* — the joined issue
+already exists and is not re-adjudicated here. *Counter-passage:* the RCT side is represented at its
+strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
+the mortality nulls both sides share, not on suppressing the events signal.

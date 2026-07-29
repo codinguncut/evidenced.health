@@ -18,8 +18,6 @@ updated: 2026-07-28
 self_critiqued: 2026-07-28
 ---
 
-# Free Sugars Intake
-
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
 cardiometabolic disease. **Dental caries.**
 

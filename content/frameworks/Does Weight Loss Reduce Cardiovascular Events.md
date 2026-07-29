@@ -19,8 +19,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-28
 ---
 
-# Does Weight Loss Reduce Cardiovascular Events
-
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
 route** — was tested head-on in the largest, longest randomized trial of its kind, **Look AHEAD**, which
 **failed** on its primary cardiovascular endpoint. This does not make weight loss useless; it bounds the

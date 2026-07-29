@@ -13,8 +13,6 @@ created: 2026-07-25
 updated: 2026-07-28
 ---
 
-# Surrogate Outcomes
-
 ## Why it matters
 
 Outcomes people care about are often rare or slow, so investigators measure something faster and

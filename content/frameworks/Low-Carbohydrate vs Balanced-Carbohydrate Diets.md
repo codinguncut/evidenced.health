@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
-authors: [Naude, Celeste E]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F]
+authors: [Naude, Celeste E; Dehghan, Mahshid]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -18,8 +18,6 @@ self_critiqued: 2026-07-26
 created: 2026-07-26
 updated: 2026-07-29
 ---
-
-# Low-Carbohydrate vs Balanced-Carbohydrate Diets
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
 June 2021. **Synthesis mode: aggregative** — a common metric and an identical hypothesis, so the answer
@@ -304,9 +302,28 @@ design is a live rival explanation for any between-review gap.
   telos route-(c) contraindication stated by the source.
 - **Direction, stated plainly:** every subgroup and stratum point estimate favours low-carbohydrate.
   The verdict is *not meaningfully different*, not *no difference in any direction*.
-- `AWAITS` a source on whether carbohydrate restriction changes hard outcomes at all. The review points
-  outside its own evidence base to cohort data showing *«harm at the extremes of intake»* -- which cuts
-  against **both** diet poles rather than favouring either.
+- **Cohort data on hard outcomes at the extremes — PURE 2017 (partially cashes the AWAITS below).**
+  [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] (135 335 adults, 18 countries) speaks to what this
+  RCT review structurally cannot — hard outcomes across the intake range — and it **cuts against both
+  poles, not one**: higher carbohydrate (spline rise above ~60%E) associated with higher **total
+  mortality** (Q5 vs Q1 HR 1.28 [1.12-1.46]), yet «the absence of association between low carbohydrate
+  intake (eg, <50% of energy) and health outcomes does not provide support for very low carbohydrate
+  diets», with «moderate intakes (eg, 50-55% of energy)... more appropriate than either very high or
+  very low». So PURE licenses neither a high-carb nor a very-low-carb optimum.
+  [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion]
+  - **Two discounts before it is used.** PURE is **observational** (mortality, not the weight outcome
+    this page pools) and its high-carb signal is **confounded by income** — the highest-carb quintiles
+    are the poorest, and «carbohydrate consumption in low-income and middle-income countries is mainly
+    from refined sources» (it was «unable to quantify separately the types of carbohydrate (refined vs
+    whole grains)»). So the
+    high-carb harm is largely a **refined-carb / poverty** signal, not carbohydrate per se
+    -> [[Is the Food Category Doing Any Work]], [[The U-Shaped Association Artifact]]. It is grounding
+    for *«harm at the extremes»*, not a clean dose-response on carbohydrate.
+    [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion]
+- `AWAITS` a source on whether carbohydrate restriction changes hard outcomes at all **in a randomised
+  design** — PURE (above) supplies the observational cut but not the interventional one. The review
+  points outside its own evidence base to cohort data showing *«harm at the extremes of intake»* -- which
+  cuts against **both** diet poles rather than favouring either.
 
 ## Held, not filed
 

@@ -17,8 +17,6 @@ created: 2026-07-27
 updated: 2026-07-27
 ---
 
-# The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not
-
 **Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's
 four-determinant structure and this wiki's own telos. Tagged `[INFERRED]` throughout; the two
 `[EXTRACTED]` anchors are marked.

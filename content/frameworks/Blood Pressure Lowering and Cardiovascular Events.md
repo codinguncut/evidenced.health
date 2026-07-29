@@ -18,8 +18,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Blood Pressure Lowering and Cardiovascular Events
-
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
 is proven to reach primary prevention** — the partial exception to
 [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]. The largest randomised

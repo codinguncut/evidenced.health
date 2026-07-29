@@ -14,8 +14,6 @@ created: 2026-07-25
 updated: 2026-07-26
 ---
 
-# Rating Outcome Importance
-
 Outcomes are not interchangeable, and which ones a recommendation rests on is a **decision made
 before the evidence is read**, then revisited after. GRADE rates every candidate outcome into three
 ordinal categories: **critical and important outcomes both bear on the recommendation**, while only

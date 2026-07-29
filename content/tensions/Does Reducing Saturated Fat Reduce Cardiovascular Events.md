@@ -2,8 +2,8 @@
 type: tension
 question: Does the trial evidence establish that reducing dietary saturated fat reduces cardiovascular events — and if a benefit exists, is it SFA avoidance or the replacement doing the work?
 aliases: [SFA Reassessment, Astrup vs Hooper, Saturated Fat Stigma, Is Saturated Fat Harmful, SFA Harm vs PUFA Benefit, Saturated Fat Cardiovascular Tension]
-authors: [Astrup, Arne; Krauss, Ronald M; Hooper, Lee; World Health Organization (org)]
-sources: [Astrup - Saturated Fats Reassessment 2020, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Saturated and Trans Fatty Acid Intake 2023]
+authors: [Astrup, Arne; Krauss, Ronald M; Hooper, Lee; World Health Organization (org); Dehghan, Mahshid]
+sources: [Astrup - Saturated Fats Reassessment 2020, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 cluster: dietary-fat
 confidence: medium
 relationships:
@@ -18,8 +18,6 @@ relationships:
 created: 2026-07-29
 updated: 2026-07-29
 ---
-
-# Does Reducing Saturated Fat Reduce Cardiovascular Events
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
 combined cardiovascular events (RR 0.83, Moderate certainty), so limit SFA to <10%E. **Astrup et al.
@@ -147,6 +145,27 @@ The two views are **not** evidentially symmetric, and saying so is the standard 
   their own confounding (PURE's high-carb populations are poverty markers; reverse causation in LMIC
   settings), and its large-vs-small-LDL argument is substantially superseded by apoB particle number
   ([[LDL ApoB and Cumulative Exposure]] — which holds LDL/apoB *causal*, a point Astrup concedes).
+
+## View B's observational pillar, now grounded — PURE 2017 `[2026-07-29]`
+
+The cohort evidence View B leans on is [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] (135 335
+adults, 18 countries) — now held, so the pillar can be read as data rather than a citation. It is the
+**observational arm of this same joined issue, not an independent route** (Astrup already cited it): F,
+not `[E-independent]`. What it grounds, and its limit:
+
+- **It reinforces the mortality AGREEMENT, not the events clash.** PURE finds higher SFA intake
+  *inversely* associated with total mortality (HR 0.86 [0.76-0.99]) and stroke (HR 0.79 [0.64-0.98]),
+  and **null** on major CVD / MI / CVD mortality. On mortality this is the same direction as Hooper's
+  null — both camps' evidence says reducing SFA does not reduce dying.
+  [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Table 3]
+- **It does NOT reach the RR-0.83 events estimate.** PURE is an unrandomised *level*-contrast (13% vs
+  3%E SFA) confounded by income — the authors concede «residual confounding... cannot be completely
+  excluded» because the highest-carb quintiles are the poorest, on refined-carb subsistence diets. So
+  PURE's null on CV events cannot overturn Hooper's randomised RR 0.83; it is the mirror of an income
+  gradient -> [[The U-Shaped Association Artifact]]. The full parameter table (PURE vs Hooper RCT, «same
+  quantity?» = NO) is on [[Saturated Fat Intake and Replacement]].
+- **It independently ranks the PUFA replacement first** (carb→PUFA lowers mortality HR 0.89; carb→SFA
+  null on mortality) — consistent with *the substitution sets the sign*, the tension's own payoff.
 - **Provenance flag (record, do not adjudicate):** the review derives from a workshop funded by the
   Nutrition Coalition (self-described nonpartisan-educational, campaigning to revise US nutrition
   policy), and several authors disclose dairy/beef/low-carb-industry ties. Per the

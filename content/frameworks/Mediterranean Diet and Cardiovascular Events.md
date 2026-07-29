@@ -18,8 +18,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Mediterranean Diet and Cardiovascular Events
-
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
 cardiometabolic cluster is a single nutrient (SFA, sugar, sodium) or a weight-loss trial; PREDIMED
 (Estruch 2018) tests a *pattern* — Mediterranean diet vs a low-fat control — against *events*, not a

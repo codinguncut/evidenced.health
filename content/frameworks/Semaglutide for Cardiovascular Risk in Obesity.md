@@ -20,8 +20,6 @@ updated: 2026-07-28b
 self_critiqued: 2026-07-28b
 ---
 
-# Semaglutide for Cardiovascular Risk in Obesity
-
 The telos puts pharmacotherapy in scope because **a drug is often the realistic alternative to a
 lifestyle change** — and for the biggest lever in an obese stratum (weight), semaglutide is now the
 best-evidenced drug route. The SELECT trial (Lincoff, NEJM 2023) is the landmark: the **first**

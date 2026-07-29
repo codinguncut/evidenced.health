@@ -18,8 +18,6 @@ created: 2026-07-27
 updated: 2026-07-29
 ---
 
-# Whole Grains Refined Grains and Pulses
-
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [[NNR - Nordic Nutrition Recommendations 2023]] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
 **It does not raise confidence, and the section at the bottom explains why: NNR read SACN.** The
 questions this page answers are ones the maintainer holds a stated prior on (`SC-11`) — a reason for

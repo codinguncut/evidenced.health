@@ -11,8 +11,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# The Biggest Health Levers After 70
-
 **A stratum, not a person, and not everyone.** The representative adult here is **around 70, obese with
 sarcopenic obesity** (visceral fat *plus* mild muscle loss), commonly **hypertensive, prediabetic/diabetic,
 MASLD-leaning**, with **reduced bone density, some anabolic resistance, and increasing polypharmacy** —

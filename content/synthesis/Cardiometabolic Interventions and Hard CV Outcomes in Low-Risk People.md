@@ -21,8 +21,6 @@ created: 2026-07-28
 updated: 2026-07-29
 ---
 
-# Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
-
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
 a **drug for lipids** ([[Statins for Primary Prevention and the Power of Zero CAC]]), **lifestyle weight
 loss** ([[Does Weight Loss Reduce Cardiovascular Events]]), and **blood-pressure lowering**

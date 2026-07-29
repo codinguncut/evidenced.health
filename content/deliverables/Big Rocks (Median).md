@@ -11,8 +11,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# The Biggest Health Levers for a Typical Adult
-
 **A general stratum — not a person, and not everyone.** This applies the general fabric to one reference
 class; the leaner and the more-impaired tails need the conditionality flags below, not this exact list.
 

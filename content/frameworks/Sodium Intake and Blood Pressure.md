@@ -17,8 +17,6 @@ created: 2026-07-26
 updated: 2026-07-28
 ---
 
-# Sodium Intake and Blood Pressure
-
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
 The word *conditional* does not appear in the document.
 

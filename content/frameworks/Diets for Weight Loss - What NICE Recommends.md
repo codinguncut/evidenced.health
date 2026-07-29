@@ -17,8 +17,6 @@ created: 2026-07-26
 updated: 2026-07-26
 ---
 
-# Diets for Weight Loss - What NICE Recommends
-
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a
 dose, a duration and a population** — rather than an exposure and an association.
 

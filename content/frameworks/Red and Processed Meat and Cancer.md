@@ -16,8 +16,6 @@ relationships:
     - Which Objective Moved This Recommendation
 ---
 
-# Red and Processed Meat and Cancer
-
 Two guideline families read **the same cohort evidence** and issue **opposite instructions** — WCRF
 2018 says limit it, NutriRECS 2019 says adults may continue. The disagreement is not about the numbers
 below; it is about what they warrant, and that lives on

@@ -16,8 +16,6 @@ updated: 2026-07-28
 self_critiqued: 2026-07-28
 ---
 
-# SCORE2 Baseline Risk and the ESC Treatment Thresholds
-
 **The conversion layer.** [[Baseline Risk and the Relative-Absolute Split]] holds the machinery and, as
 of today, study-control-rate baselines; this supplies the missing piece — a **prognostic** baseline for
 a named stratum rather than a trial population's event rate. Every relative effect in the corpus becomes an absolute one

@@ -17,8 +17,6 @@ created: 2026-07-26
 updated: 2026-07-28b
 ---
 
-# Risk Modifiers - When Extra Information Changes a Risk Estimate
-
 A risk model gives a number; a modifier is anything proposed to adjust it. ESC sets a bar that
 *"very few potential modifiers"* clear, and the bar is more interesting than the list.
 

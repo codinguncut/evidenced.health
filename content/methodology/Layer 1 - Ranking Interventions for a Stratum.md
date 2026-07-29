@@ -15,8 +15,6 @@ updated: 2026-07-28
 self_critiqued: 2026-07-28
 ---
 
-# Layer 1 - Ranking Interventions for a Stratum
-
 **Mostly a compilation.** Every row of the table below is copied from a claim page with its own source;
 that part combines nothing. The point of the page is the **shape of what is held and what is missing** —
 per the telos, *the ceiling is itself a finding*.

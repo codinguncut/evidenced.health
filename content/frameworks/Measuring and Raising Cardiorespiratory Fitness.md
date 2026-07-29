@@ -17,8 +17,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-28
 ---
 
-# Measuring and Raising Cardiorespiratory Fitness
-
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
 scientific statement (Ross 2016) supplies the three things that make CRF actionable: you can **measure**

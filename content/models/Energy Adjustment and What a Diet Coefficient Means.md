@@ -16,8 +16,6 @@ created: 2026-07-25
 updated: 2026-07-28
 ---
 
-# Energy Adjustment and What a Diet Coefficient Means
-
 **Nucleus of the `nutrition-methods` cluster.** The comparator problem
 ([[Framing a Decision Question]]) has a technical form in nutrition that has no analogue in most
 fields: **the analytic model silently decides what the nutrient is being compared against.** Two

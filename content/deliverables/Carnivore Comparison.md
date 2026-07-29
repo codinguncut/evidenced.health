@@ -11,8 +11,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Carnivore vs Animal-Based: A Head-to-Head
-
 **A stratum, not a person, and not everyone.** This critiques two animal-based patterns for one reference
 class — the **drifting-median, metabolically-impaired adult**: late 40s, BMI ~30 with central/visceral
 adiposity, hypertension, dysglycemia-leaning (elevated triglycerides, low-grade inflammation, toward

@@ -15,8 +15,6 @@ created: 2026-07-25
 updated: 2026-07-28
 ---
 
-# Framing a Decision Question
-
 ## Ordinary framing
 
 *Is X good for you?* — a question with no comparator, no population, and an unstated outcome, which

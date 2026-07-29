@@ -17,8 +17,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Physical Activity Dose and Mortality
-
 **Primarily WHO's 2020 evidence profiles** (plus Willett on measurement). WHO's own evidence base is
 *other guidance bodies' reviews* — so agreement with PAGAC or the Canadian/Australian guidelines would be
 **structurally guaranteed and worth nothing**. A genuinely independent check was hoped for from

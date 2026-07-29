@@ -2,19 +2,19 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Cappuccio, Francesco P]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013]
+authors: [Stockwell, Tim; Millwood, Iona Y; Cappuccio, Francesco P; Dehghan, Mahshid]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-28
+created: 2026-07-28
+updated: 2026-07-29
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
     - Sodium Intake and Blood Pressure
     - Measurement Error in Dietary Assessment
 ---
-
-# The U-Shaped Association Artifact
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
 J-shaped** association — risk lowest at some *intermediate* exposure, higher at both zero and high —
@@ -82,7 +82,20 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   no upturn; the outcomes whose upturn lacks a mechanism show one** — plus very-low GRADE, self-reported
   exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
   unbelieved; the lower arm (a small effective dose) is kept.
-- **Sodium — named, never adjudicated.** WHO cited a J-shaped hypothesis (harm below ~2 g/day) as the
+- **Macronutrients in PURE — confounding-by-income, the machinery without (mostly) the U.**
+  [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] found higher carbohydrate → higher mortality and
+  higher fat/SFA → *lower* mortality across an 18-country income gradient. The associations are largely
+  **monotone**, not U-shaped — so this is not a lower-arm case — but it is a clean instance of the
+  concept's **confounding-by-lifestyle/frailty** mechanism in its socioeconomic form: the highest-carb
+  quintiles are the poorest (refined-carb subsistence diets), so the fat-protective / carb-harmful
+  signals are the mirror of an income gradient, which the authors concede («residual confounding...
+  cannot be completely excluded»). [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk
+  01, Discussion] The **one candidate U-arm** is the authors' suggestion that «a very low intake (ie,
+  below about 7% of energy) [of saturated fat] might even be harmful» — a low-SFA arm that would be the
+  artifact-suspect region (very low SFA tracks very low animal-food intake, i.e. poverty/frailty), and
+  is **unadjudicated**: no referent-correction or genetic check isolates it from the income confound.
+  The decision rule applies unchanged — the protective/harmful arm is not believed until it survives a
+  confounder-immune check -> [[Saturated Fat Intake and Replacement]].
   reason for its review, then «never returned to» it, and excluded a priori the strata where a
   lower-arm harm is most plausible -> [[Sodium Intake and Blood Pressure]]. The concept says exactly
   what would settle it: a referent-corrected or MR analysis of the low-intake arm, which the corpus

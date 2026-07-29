@@ -18,8 +18,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Muscle-Strengthening Activity and Mortality
-
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
 **independently of aerobic activity**, and it does so at a **small dose**. Both come from one
 meta-analysis (Momma 2022) of **observational** cohorts, graded «very low» — so this is a real but

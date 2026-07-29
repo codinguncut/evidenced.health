@@ -18,8 +18,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Protein and Resistance Training for Muscle and Strength
-
 This is the **adaptation** side of the resistance-training lever, and it is the evidence Challenge #10
 flagged as missing when it separated *training-for-strength-gain* from *training-for-mortality*
 ([[Muscle-Strengthening Activity and Mortality]]). Two things distinguish it: it is **RCT-grade** (unlike

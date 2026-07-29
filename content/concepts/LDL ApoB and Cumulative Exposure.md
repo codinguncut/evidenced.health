@@ -2,8 +2,8 @@
 type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
-authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020]
+authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -18,8 +18,6 @@ created: 2026-07-29
 updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
-
-# LDL ApoB and Cumulative Exposure
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
 (cholesterol *mass*). The EAS Consensus (Ference et al. 2017) supplies the causal framework underneath
@@ -136,8 +134,17 @@ and where it stands against this page:
 - **The argument:** SFA restriction lowers mainly "large LDL particle subspecies... which are much
   less strongly related to CVD risk," not the small dense LDL, and also lowers HDL — so the total:HDL
   ratio barely moves and "the potential benefit of dietary restriction of saturated fat could be
-  substantially overestimated by reliance on the change in LDL cholesterol levels alone." PURE: the
-  SFA-CVD hazard tracked the **apoB/apoA1 ratio**, which was *lower* in higher-SFA consumers.
+  substantially overestimated by reliance on the change in LDL cholesterol levels alone."
+- **PURE grounds the diet-lipid discordance with data (now a held source).**
+  [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] (via its companion Mente 2017 lipid analysis)
+  reports higher SFA → higher LDL **but** higher HDL, lower triglycerides, and lower **ApoB/ApoA1**
+  ratio (the stronger predictor), while higher carbohydrate → lower LDL **but** higher ApoB/ApoA1 —
+  concluding «predicting the net clinical effect based on considering only the effects of nutrient
+  intake on LDL cholesterol is not reliable».
+  [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion] This is the
+  discordance-in-the-diet-direction claim in cohort data — and note it is itself an **apoB argument**
+  (the hazard tracked apoB/apoA1, not LDL-C), so it reinforces *measure apoB*, this page's held view,
+  rather than displacing it. Observational and confounded by income, so directional not decisive.
 - **Where it lands against this page's model.** This page already holds the discordance mechanism — in
   the metabolic-syndrome/diabetic/hypertriglyceridemic state, LDL-C under-states apoB particle number,
   so **measure apoB**. Astrup and Ference agree LDL-C is an imperfect proxy and apoB is the target; they

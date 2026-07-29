@@ -16,8 +16,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Dietary AGEs and Cooking Method
-
 **The decision (Challenge #12).** Should low-direct-heat cooking (steaming, slow-cooking, sous-vide) be
 *preferred* over frying/roasting/grilling because it produces fewer advanced glycation end products
 (AGEs)? The efficacy question is whether eating fewer dietary AGEs moves a health outcome.

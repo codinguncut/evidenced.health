@@ -19,8 +19,6 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
 ---
 
-# Cardiorespiratory Fitness and Mortality
-
 Opens the `fitness` cluster. Cardiorespiratory fitness (CRF, peak VO2, measured in METs — 1 MET =
 3.5 mL/kg/min) is **one of the strongest mortality predictors in medicine** — but the wiki's other
 lever, physical activity, is measured as *dose* (minutes); this is measured as the *outcome* (capacity).

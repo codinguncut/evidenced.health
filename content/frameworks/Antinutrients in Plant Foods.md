@@ -17,8 +17,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Antinutrients in Plant Foods
-
 **The decision.** Is the presence of "antinutrient" compounds a reason to avoid plant foods, or to
 prepare them a particular way? Petroski & Minich (2020) review six classes and conclude the alarm is
 largely mis-scaled — but the honest reading keeps the genuine harms it also documents.

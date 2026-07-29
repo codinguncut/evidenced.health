@@ -16,8 +16,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Exercise Energy Compensation
-
 **The decision (Challenge #11).** The concern was that high-exertion exercise (HIIT) is offset by
 compensatory NEAT downregulation or increased intake, so the extra expenditure does not translate. Two
 questions: does compensation happen, and does *intensity* make it worse?

@@ -2,8 +2,8 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sugars Intake 2015, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sugars Intake 2015, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-29
@@ -17,8 +17,6 @@ relationships:
 created: 2026-07-27
 updated: 2026-07-29
 ---
-
-# Is the Food Category Doing Any Work
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
 the estimate behind it is an average over everything inside. **The diagnostic question is whether the
@@ -73,6 +71,15 @@ different object.
   *white*, *fatty*, *freshwater*) occur roughly **five** times in total.
 - **Legumes.** SACN places roughly **fourteen** legume outcome cells in its `insufficient evidence`
   tables against one graded conclusion.
+- **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] reports higher total carbohydrate → higher total mortality (Q5 vs Q1
+  HR 1.28), but was «unable to quantify separately the types of carbohydrate (refined vs whole grains)», and
+  notes «carbohydrate consumption in low-income and middle-income countries is mainly from refined
+  sources». [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion] So the
+  harm attaches to a category that pools refined and whole grains, and almost certainly runs through the
+  refined sub-type — the exact case-3 trap: a category-level harm that **looks** like "carbohydrate is
+  bad" while the boundary that matters (refined vs whole) sits unmeasured inside it. Contrast SACN, which
+  *could* test refined-vs-whole and found it null on hard outcomes (case 2 above) — PURE could not test
+  it at all.
 
 **This third case is the common one, and it is the dangerous one** — an unresolved category looks
 exactly like a resolved one in a recommendation.

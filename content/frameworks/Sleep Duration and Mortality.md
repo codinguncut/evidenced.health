@@ -16,8 +16,6 @@ relationships:
     - Measurement Error in Dietary Assessment
 ---
 
-# Sleep Duration and Mortality
-
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
 around a ~7-8 h reference. But the two arms are **not the same kind of finding**, and reading them as
 one (*any deviation from 7-8 h shortens life*) is the error this page exists to prevent.

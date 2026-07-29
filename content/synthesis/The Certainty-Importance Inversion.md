@@ -18,8 +18,6 @@ relationships:
     - Physical Activity Dose and Mortality
 ---
 
-# The Certainty-Importance Inversion
-
 **Type-A synthesis (a structure induced across sources, present as a general claim in none).** Two
 dietary exposures the wiki holds — saturated fat and sodium — share one shape: **the guideline is rated
 most certain about the surrogate and least certain about the patient-important outcome the surrogate

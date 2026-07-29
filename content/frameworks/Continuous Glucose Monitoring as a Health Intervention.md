@@ -16,8 +16,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Continuous Glucose Monitoring as a Health Intervention
-
 **The decision.** Should someone — particularly a non-diabetic optimizing their diet — wear a CGM to
 guide eating? The efficacy question is whether CGM-driven behaviour change moves a health outcome, not
 whether the trace is interesting.

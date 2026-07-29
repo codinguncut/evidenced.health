@@ -15,8 +15,6 @@ created: 2026-07-26
 updated: 2026-07-26
 ---
 
-# Lifetime Benefit - The Frame for Younger Adults
-
 A 10-year horizon under-states the case for acting in younger adults, and ESC says so plainly. **But
 ESC applies the construct at every age and in both directions** — the title reflects where it bites
 hardest, not where the guideline confines it.

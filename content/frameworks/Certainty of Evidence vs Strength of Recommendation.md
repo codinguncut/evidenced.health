@@ -17,8 +17,6 @@ created: 2026-07-25
 updated: 2026-07-28
 ---
 
-# Certainty of Evidence vs Strength of Recommendation
-
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
 strongly you should recommend acting on it are **two separate judgments**, and neither determines the
 other. GRADE calls the separation "the defining feature" of its approach and attributes the confusion

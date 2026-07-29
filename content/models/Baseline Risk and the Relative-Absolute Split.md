@@ -17,8 +17,6 @@ self_critiqued: 2026-07-28
 updated: 2026-07-28
 ---
 
-# Baseline Risk and the Relative-Absolute Split
-
 ## The decomposition
 
     absolute risk difference  =  relative risk REDUCTION  x  baseline risk

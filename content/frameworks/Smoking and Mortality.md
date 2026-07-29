@@ -17,8 +17,6 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Smoking and Mortality
-
 **The telos's #1 modifiable exposure, finally quantified in the fabric.** The wiki names smoking as the
 dominant big rock but held no source for it; Jha 2013 (216,917 US adults, NHIS linked to death records)
 supplies the contemporary magnitude — and, more decision-relevant, the shape of what *cessation* buys as

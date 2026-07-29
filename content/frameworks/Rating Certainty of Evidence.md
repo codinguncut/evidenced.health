@@ -16,8 +16,6 @@ created: 2026-07-25
 updated: 2026-07-27
 ---
 
-# Rating Certainty of Evidence
-
 Four grades — **high / moderate / low / very low** — assigned to a *body* of evidence, starting from
 study design and moved by eight named factors. [EXTRACTED (GRADE - Handbook) §5, §5.1]
 

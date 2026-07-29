@@ -17,8 +17,6 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 ---
 
-# Alcohol and Mortality and Vascular Disease
-
 Opens the `alcohol` cluster. The famous finding that *moderate drinkers outlive abstainers* — the
 J-curve — is the textbook case of a protective lower arm that dissolves under scrutiny. Two
 independent methods say the protection is largely not real.

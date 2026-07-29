@@ -15,8 +15,6 @@ created: 2026-07-25
 updated: 2026-07-27
 ---
 
-# Indirectness of Evidence
-
 **GRADE's transportability machinery, expressed as a certainty penalty.** Direct evidence "directly
 compares the interventions which we are interested in, delivered to the populations in which we are
 interested, and measures the outcomes important to patients." A departure from that

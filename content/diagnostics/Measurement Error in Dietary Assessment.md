@@ -17,8 +17,6 @@ created: 2026-07-25
 updated: 2026-07-28
 ---
 
-# Measurement Error in Dietary Assessment
-
 ## Why it matters
 
 Diet is measured indirectly, by asking people. The resulting error is large enough to be the dominant

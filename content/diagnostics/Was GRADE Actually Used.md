@@ -14,8 +14,6 @@ created: 2026-07-25
 updated: 2026-07-28
 ---
 
-# Was GRADE Actually Used
-
 ## Why it matters
 
 *Developed using GRADE* is a claim about method, and it is checkable. GRADE publishes seven

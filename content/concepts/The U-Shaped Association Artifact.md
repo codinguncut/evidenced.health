@@ -2,11 +2,11 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Cappuccio, Francesco P; Dehghan, Mahshid]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013, Dehghan - PURE Fats Carbohydrate Mortality 2017]
+authors: [Stockwell, Tim; Millwood, Iona Y; Cappuccio, Francesco P; Dehghan, Mahshid; World Health Organization (org)]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013, Dehghan - PURE Fats Carbohydrate Mortality 2017, WHO - Non-Sugar Sweeteners 2023]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-28
+self_critiqued: 2026-07-29
 created: 2026-07-28
 updated: 2026-07-29
 relationships:
@@ -14,6 +14,7 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
     - Sodium Intake and Blood Pressure
     - Measurement Error in Dietary Assessment
+    - Non-Sugar Sweeteners
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -96,6 +97,30 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   is **unadjudicated**: no referent-correction or genetic check isolates it from the income confound.
   The decision rule applies unchanged — the protective/harmful arm is not believed until it survives a
   confounder-immune check -> [[Saturated Fat Intake and Replacement]].
+- **Non-sugar sweeteners — reverse-causation machinery that did NOT dissolve the association (only weak
+  checks exist).** Not a U-curve: higher NSS use shows *monotone* positive associations with type 2 diabetes
+  (HR 1.23-1.34), CVDs (1.32), stroke (1.19) and all-cause mortality (1.12) in long-term cohorts, while
+  short-term RCTs show flat cardiometabolic biomarkers -> [[Non-Sugar Sweeteners]]. The textbook
+  reverse-causation story fits (people already heavy/dysglycaemic switch *to* NSS *because* of their
+  condition), and WHO ran the reverse-causation battery — BMI adjustment, weight stratification,
+  excluding pre-baseline weight-losers, dropping early follow-up. Its verdict is the honest middle:
+  «although reverse causation and residual confounding may be contributing factors … the associations …
+  cannot be dismissed as being solely a result of reverse causation or residual confounding.»
+  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 02]
+  - **This is the instance where the machinery neither dissolved nor confirmed the signal.** Contrast
+    alcohol, where referent-correction + Mendelian randomization *removed* the protective arm. **NSS has
+    had only this page's WEAK checks** (covariate adjustment + early-follow-up exclusion); the STRONG
+    check — a genetic/MR instrument immune to reverse causation — **does not exist for NSS**. So by the
+    decision rule, the NSS→disease association is **unadjudicated, not established**: it survived the weak
+    checks (which alcohol's artifact also survived) and has never faced the strong one.
+  - **A trap the case exposes: adjustment cannot tell a confounder from a mediator.** WHO notes that since
+    the associations «largely persist when body weight is controlled for … increased body weight
+    (resulting from chronic NSS use) may be an intermediary step … rather than a confounding factor» — so
+    *the association survived BMI adjustment* is ambiguous: if weight is a *mediator* on an NSS→disease
+    path, adjusting for it wrongly *attenuates* a real effect; if a *confounder*, adjusting is correct.
+    The persistence-after-adjustment that reads as robustness cuts both ways. AWAITS a Mendelian-
+    randomization source on NSS — the only instrument that would adjudicate the arm.
+- **Sodium — named, never adjudicated.** WHO cited a J-shaped hypothesis (harm below ~2 g/day) as the
   reason for its review, then «never returned to» it, and excluded a priori the strata where a
   lower-arm harm is most plausible -> [[Sodium Intake and Blood Pressure]]. The concept says exactly
   what would settle it: a referent-corrected or MR analysis of the low-intake arm, which the corpus

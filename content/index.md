@@ -2,13 +2,10 @@
 title: A Source-Grounded Guide to Nutrition & Lifestyle Evidence
 ---
 
-# What actually moves the needle on health — and how sure we are
-
 This is a **source-grounded appraisal** of the nutrition, exercise, and lifestyle evidence: what an
 exposure does, *for whom*, *how much*, and *how confident we should be* — with every claim traced back
-to the study or guideline it came from.
-
-It is built to answer one question: **would this change what someone should do, on an outcome they
+to the study or guideline it came from. It is built to answer one question:
+**would this change what someone should do, on an outcome they
 care about, in a way they couldn't already have reached?** If not, it isn't here.
 
 ## The guides

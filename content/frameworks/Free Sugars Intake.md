@@ -3,19 +3,20 @@ type: framework
 question: How much free sugar, and which outcome is the limit actually protecting?
 aliases: [Free Sugars, Added Sugars, Sugar Intake, Sugars, WHO Sugars Guideline, 10% Energy Sugars]
 authors: [World Health Organization (org)]
-sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023]
+sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023]
 cluster: cardiometabolic-exposures
 confidence: medium
 relationships:
   related_to:
+    - Non-Sugar Sweeteners
     - Sodium Intake and Blood Pressure
     - What Kind of Evidence Sits Behind a Nutrient Recommendation
     - Energy Adjustment and What a Diet Coefficient Means
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-07-28
-self_critiqued: 2026-07-28
+updated: 2026-07-29
+self_critiqued: 2026-07-29
 ---
 
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
@@ -497,6 +498,30 @@ across them is this page's.]
 **What this does NOT establish.** It is not a criticism of WHO's process — commissioning reviews and
 using their ratings is how guideline development is supposed to work, and WHO discloses it throughout.
 The finding is about **how the wiki must count**, not about whether the guideline is sound.
+
+## The companion guideline — do NSS help you hit this limit? `[2026-07-29, WHO NSS 2023]`
+
+WHO's free-sugars limit prompts an obvious follow-on: use non-sugar sweeteners to get there? WHO's 2023
+NSS guideline answers no — «WHO suggests that non-sugar sweeteners not be used as a means of achieving
+weight control or reducing the risk of noncommunicable diseases (conditional recommendation)»
+(-> [[Non-Sugar Sweeteners]]). The two guidelines **chain** into the substitution decision; they do not
+disagree.
+
+| Parameter | WHO Sugars 2015 (this page) | WHO NSS 2023 | Same quantity? |
+|---|---|---|---|
+| Target exposure | free sugars intake | non-sugar sweeteners (a *route* to cutting free sugars) | **No** — different exposures |
+| Recommendation | reduce free sugars, <10%E (strong) | do not use NSS for weight/NCD control (conditional) | **No** — complementary, not competing |
+| Preferred sugar substitute | (not addressed) | water, unsweetened foods, whole fruit — NOT NSS | — |
+
+**The join is a distinction, not a tension (not-joined check (ii): different scope).** WHO Sugars sets
+the goal; WHO NSS rules on one *means* to the goal, and prefers water/fruit over the NSS route because a
+sugar→NSS swap leaves «the overall quality of the diet … largely unaffected». No shared quantity is
+compared, so nothing here is a `[[tension]]`.
+
+**NON-INDEPENDENT — same body.** WHO NSS 2023 is the same organization as WHO Sugars 2015 (and shares the
+NUGAG Subgroup and reviewer pool), so its agreement is **not** type-E independent corroboration — the same
+counting rule as *Why WHO and its own reviews are one source, not three* above. It extends this page's
+substitution frame; it does not add an independent backing.
 
 ## Decision relevance
 

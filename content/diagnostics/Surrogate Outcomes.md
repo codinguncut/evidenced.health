@@ -3,14 +3,16 @@ type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023]
 cluster: evidence-appraisal
 relationships:
   related_to:
     - Rating Outcome Importance
     - Certainty of Evidence vs Strength of Recommendation
+    - Non-Sugar Sweeteners
+    - The U-Shaped Association Artifact
 created: 2026-07-25
-updated: 2026-07-28
+updated: 2026-07-29
 ---
 
 ## Why it matters
@@ -314,3 +316,34 @@ hierarchy, not with it**, which is why it needs stating rather than assuming.
 **The guard that keeps this honest:** two exposures is two, and both are WHO's. **A third body grading
 the same inversion on a different exposure would make this a property of the literature; two WHO
 guidelines make it a hypothesis with two instances.**
+
+## The mirror case — a surrogate WHO DECLINED to credit `[2026-07-29, WHO NSS 2023]`
+
+The LDL and ESC cases above are surrogates argued *up* to target status. [[Non-Sugar Sweeteners]] is the
+opposite move by the same body: a moving surrogate WHO refused to bank. In the NSS trials, short-term
+**body weight** falls (MD -0.71 kg pooled), yet WHO ruled that «evidence of minor weight loss or reduced
+BMI over several months or less … does not represent a health benefit», because weight «must be sustained
+over the long term» to matter — and the long-term cohorts point the other way.
+[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+
+**The same second-criterion test, opposite verdict.** This page's load-bearing test (Example 9) is
+whether the outcome can be *predicted* from the surrogate — whether the chain **transmits**. WHO applied
+exactly that test to two of its own surrogates and split on the evidence:
+
+| Case | Surrogate | Transmission evidence WHO cited | WHO's verdict | Same quantity? |
+|---|---|---|---|---|
+| SFA/TFA 2023 | LDL cholesterol | «considered by many to be a causal factor for atherosclerosis» (genetic/MR/RCT elsewhere) | **credited** — declined indirectness downgrade | — |
+| NSS 2023 | short-term body weight | none that short-term loss persists; discordant long-term cohorts | **declined** — «does not represent a health benefit» | **No** — different surrogates, one rule |
+
+**Why this is a refinement, not a tension (not-joined check (ii): different surrogates).** The two are
+different quantities judged under the *same* rule — credit a surrogate only where its transmission to the
+patient-important outcome is evidenced. LDL cleared it; short-term weight did not. So the NSS case is the
+**negative worked instance** of this page's decision rule: the discipline the page asks for, applied by a
+guideline body against itself. **NON-independent (both WHO)** — this corroborates the *rule*, not via an
+independent field, so no `[E-independent]` is claimed.
+
+**The sharper point:** the surrogate here was not merely weak — it was **moving in the *good* direction
+while the hard-outcome cohorts moved the other way** (weight down in RCTs; obesity/T2D/CVD/mortality
+associations up in cohorts). That is the textbook *marker moved the right way while patients did worse*
+warning made concrete — and it is why a moving surrogate is bankable only when transmission is shown, not
+assumed. The cohort direction is itself unadjudicated (-> [[The U-Shaped Association Artifact]]).

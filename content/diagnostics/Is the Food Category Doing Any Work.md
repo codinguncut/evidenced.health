@@ -355,10 +355,12 @@ half of [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. This is a 
 RCT nutrient-substitution evidence, not joined with it (different unit: observational *food* intake vs
 randomised *nutrient* exchange).
 
-**The fat-vs-fatty-acid move (Test 3 at the nutrient level).** "saturated fats are complex chemical
-mixtures of all major SFAs in differing proportions, along with many other fatty acids" and non-fatty-
-acid components — so "the healthfulness of fats is not a simple function of their SFA content, but
-rather is a result of the various components in the food, often referred to as the 'food matrix.'" The
+**The fat-vs-fatty-acid move (Test 3 at the nutrient level).** Astrup distinguishes a *saturated fat*
+(a food) from *saturated fatty acids* (chemical structures): a saturated fat is a complex mixture of all
+major SFAs in differing proportions plus odd-/branched-chain SFAs, unsaturated fatty acids, and
+non-fatty-acid components [EXTRACTED (Astrup - Saturated Fats Reassessment 2020) chunk 01] — so "the
+healthfulness of fats is not a simple function of their SFA content, but rather is a result of the
+various components in the food, often referred to as the 'food matrix.'" The
 SFA label groups foods whose within-category variance (short/medium/long-chain profile, matrix, carrier
 nutrients) plausibly swamps the between-category "SFA" contrast — this page's opening variance argument,
 applied to a macronutrient.

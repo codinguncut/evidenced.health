@@ -1,4 +1,5 @@
 ---
+title: "What to Measure: A Minimal Health Checklist"
 type: deliverable
 subject: The minimal readily-capturable metric set that places a person in the strata the fabric stratifies on
 question: What is the smallest set of readily-capturable health metrics that supports targeted guidance, added only where each significantly moves a decision?
@@ -10,7 +11,7 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Metrics for Targeted Health Guidance
+# What to Measure: A Minimal Health Checklist
 
 **What to measure so the guidance can be targeted.** The evidence speaks in *strata* — a reference class,
 not a person; targeted advice needs your data to place you in the right class. This is the **input list**:

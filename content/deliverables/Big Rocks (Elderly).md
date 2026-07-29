@@ -1,4 +1,5 @@
 ---
+title: "The Biggest Health Levers After 70"
 type: deliverable
 subject: The obese older adult with sarcopenic obesity (a stratum, not a person) — where the younger big rocks invert
 question: For the obese ~70-year-old, which exposures carry the largest expected benefit on the outcomes that matter at this age, and where do the younger levers invert into hazards?
@@ -10,7 +11,7 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Big Rocks (Elderly)
+# The Biggest Health Levers After 70
 
 **A stratum, not a person, and not everyone.** The representative adult here is **around 70, obese with
 sarcopenic obesity** (visceral fat *plus* mild muscle loss), commonly **hypertensive, prediabetic/diabetic,

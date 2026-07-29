@@ -11,6 +11,24 @@ to the study or guideline it came from.
 It is built to answer one question: **would this change what someone should do, on an outcome they
 care about, in a way they couldn't already have reached?** If not, it isn't here.
 
+## The guides
+
+Start here — each is a short, ranked, honestly-caveated guide for a particular situation:
+
+- [[Big Rocks (Median)|The Biggest Health Levers for a Typical Adult]] — the largest levers for a
+  typical drifting-into-middle-age Western adult, sorted so the guidance helps the majority without
+  harming the leaner minority.
+- [[Big Rocks (Elderly)|The Biggest Health Levers After 70]] — how those priorities **invert** with
+  age: function, muscle, bone and falls move to the front, and aggressive weight loss flips from a
+  lever into a hazard.
+- [[Carnivore Comparison|Carnivore vs Animal-Based: A Head-to-Head]] — a strict-carnivore vs a
+  medium-fat animal-based pattern, for someone with elevated cardiometabolic risk.
+- [[Metrics for Targeted Health Guidance|What to Measure: A Minimal Health Checklist]] — the small set
+  of readily-capturable health metrics that do most of the work of placing you in the right group.
+
+Beyond the guides, you can follow the links into the underlying **claim pages** — the frameworks,
+concepts, tensions and diagnostics the guides are built from.
+
 ## What makes it different
 
 - **Ranked by effect size × certainty — big rocks first.** Most of the achievable benefit sits in a
@@ -27,22 +45,6 @@ care about, in a way they couldn't already have reached?** If not, it isn't here
   contrarian claim earns none from novelty. The same scrutiny applies to both.
 - **Gaps are findings.** When the levers left for you are small and uncertain, that *is* the answer —
   it tells you it's okay to stop optimizing.
-
-## The guides
-
-Start here — each is a short, ranked, honestly-caveated guide for a particular situation:
-
-- [[Big Rocks (Median)]] — the largest levers for a typical drifting-into-middle-age Western adult,
-  sorted so the guidance helps the majority without harming the leaner minority.
-- [[Big Rocks (Elderly)]] — how those priorities **invert** with age: function, muscle, bone and falls
-  move to the front, and aggressive weight loss flips from a lever into a hazard.
-- [[Carnivore Comparison]] — a head-to-head appraisal of a strict-carnivore vs a medium-fat
-  animal-based pattern, for someone with elevated cardiometabolic risk.
-- [[Metrics for Targeted Health Guidance]] — the small set of readily-capturable health metrics that
-  do most of the work of placing you in the right group.
-
-Beyond the guides, you can follow the links into the underlying **claim pages** — the frameworks,
-concepts, tensions and diagnostics the guides are built from.
 
 ## Read this first — the honest limits
 

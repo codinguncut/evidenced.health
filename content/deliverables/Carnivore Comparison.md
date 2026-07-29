@@ -1,4 +1,5 @@
 ---
+title: "Carnivore vs Animal-Based: A Head-to-Head"
 type: deliverable
 subject: Two animal-based dietary patterns for the drifting-median, metabolically-impaired adult (a stratum, not a person)
 question: For the obese, hypertensive, dysglycemic-leaning median Western adult at a matched 10% caloric deficit, how do a clean-carnivore and a medium-fat animal-based pattern compare on the axes the evidence can speak to?
@@ -10,7 +11,7 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Carnivore Comparison
+# Carnivore vs Animal-Based: A Head-to-Head
 
 **A stratum, not a person, and not everyone.** This critiques two animal-based patterns for one reference
 class — the **drifting-median, metabolically-impaired adult**: late 40s, BMI ~30 with central/visceral

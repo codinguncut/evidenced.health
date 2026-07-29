@@ -1,4 +1,5 @@
 ---
+title: "The Biggest Health Levers for a Typical Adult"
 type: deliverable
 subject: A general stratum — the drifting-median Western adult (NOT a person, NOT everyone)
 question: For the drifting-median Western adult, which dietary and lifestyle exposures carry the largest expected benefit, sorted by robustness across the distribution?
@@ -10,7 +11,7 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-# Big Rocks (Median)
+# The Biggest Health Levers for a Typical Adult
 
 **A general stratum — not a person, and not everyone.** This applies the general fabric to one reference
 class; the leaner and the more-impaired tails need the conditionality flags below, not this exact list.

@@ -13,6 +13,7 @@ relationships:
     - The U-Shaped Association Artifact
 created: 2026-07-25
 updated: 2026-07-29
+self_critiqued: 2026-07-29
 ---
 
 ## Why it matters
@@ -326,14 +327,15 @@ BMI over several months or less … does not represent a health benefit», becau
 over the long term» to matter — and the long-term cohorts point the other way.
 [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
 
-**The same second-criterion test, opposite verdict.** This page's load-bearing test (Example 9) is
-whether the outcome can be *predicted* from the surrogate — whether the chain **transmits**. WHO applied
-exactly that test to two of its own surrogates and split on the evidence:
+**The same second-criterion test, opposite verdict — read through this page's lens.** This page's
+load-bearing test (Example 9) is whether the outcome can be *predicted* from the surrogate — whether the
+chain **transmits**. WHO did not cite Example 9 for either exposure, but its stated reasons map cleanly
+onto that test, and land oppositely for two of its own surrogates:
 
-| Case | Surrogate | Transmission evidence WHO cited | WHO's verdict | Same quantity? |
+| Case | Surrogate | WHO's stated reason (mapped to transmission) | WHO's verdict | Same quantity? |
 |---|---|---|---|---|
-| SFA/TFA 2023 | LDL cholesterol | «considered by many to be a causal factor for atherosclerosis» (genetic/MR/RCT elsewhere) | **credited** — declined indirectness downgrade | — |
-| NSS 2023 | short-term body weight | none that short-term loss persists; discordant long-term cohorts | **declined** — «does not represent a health benefit» | **No** — different surrogates, one rule |
+| SFA/TFA 2023 | LDL cholesterol | «considered by many to be a causal factor for atherosclerosis» — transmission asserted (genetic/MR/RCT elsewhere) | **credited** — declined indirectness downgrade | — |
+| NSS 2023 | short-term body weight | short-term loss «does not represent a health benefit» absent evidence it is «sustained over the long term» — no evidence the marker predicts the outcome | **declined** — not banked as benefit | **No** — different surrogates, one rule |
 
 **Why this is a refinement, not a tension (not-joined check (ii): different surrogates).** The two are
 different quantities judged under the *same* rule — credit a surrogate only where its transmission to the

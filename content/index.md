@@ -2,10 +2,13 @@
 title: A Source-Grounded Guide to Nutrition & Lifestyle Evidence
 ---
 
+# What actually moves the needle on health — and how sure we are
+
 This is a **source-grounded appraisal** of the nutrition, exercise, and lifestyle evidence: what an
 exposure does, *for whom*, *how much*, and *how confident we should be* — with every claim traced back
-to the study or guideline it came from. It is built to answer one question:
-**would this change what someone should do, on an outcome they
+to the study or guideline it came from.
+
+It is built to answer one question: **would this change what someone should do, on an outcome they
 care about, in a way they couldn't already have reached?** If not, it isn't here.
 
 ## The guides
@@ -23,8 +26,20 @@ Start here — each is a short, ranked, honestly-caveated guide for a particular
 - [[Metrics for Targeted Health Guidance|What to Measure: A Minimal Health Checklist]] — the small set
   of readily-capturable health metrics that do most of the work of placing you in the right group.
 
+## Common questions, answered honestly
+
+Appraisals of the questions people actually ask — with the effect sizes where they exist, and a plain
+statement of what the evidence can't yet settle:
+
+- [[Are Artificial Sweeteners Bad|Are artificial sweeteners bad for us?]] — cancer, appetite, insulin,
+  weight, cravings — and why the answer depends entirely on *what the sweetener replaces*.
+- [[Is Organic Food Better|Is organic food better for us?]] — pesticides, nutrients, and outcomes, and why
+  "pasture vs grain" often matters more than the organic label itself.
+- [[Do We Need Fibre|Do we need fibre in our diet?]] — cholesterol, gut transit, blood sugar and satiety,
+  soluble vs insoluble — and why "essential" oversells a modest, supporting lever.
+
 Beyond the guides, you can follow the links into the underlying **claim pages** — the frameworks,
-concepts, tensions and diagnostics the guides are built from.
+concepts, tensions and diagnostics they are built from.
 
 ## What makes it different
 

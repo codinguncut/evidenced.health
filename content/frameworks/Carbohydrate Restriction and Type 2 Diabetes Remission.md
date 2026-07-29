@@ -2,11 +2,11 @@
 type: framework
 question: Does restricting carbohydrate put type 2 diabetes into remission, and does it last?
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
-authors: [Goldenberg, Joshua Z]
-sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021]
+authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy]
+sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018]
 cluster: weight-management
 confidence: medium
-self_critiqued: 2026-07-26
+self_critiqued: 2026-07-29
 relationships:
   related_to:
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-07-29
 ---
 
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined
@@ -149,6 +149,22 @@ and insulin resistance met or surpassed their threshold at six months. HbA1c is 
 -0.47% did not clear the review's own bar** -- a decision-relevant fact, and one recoverable by
 counting the outcomes rather than concluding it unknowable because the main text does not say so
 directly.
+
+## The mechanism this review does not isolate — weight loss, not carbohydrate per se
+
+Low-carbohydrate diets cause weight loss, and this review's remission effect **attenuates to null by
+12 months in step with its weight advantage** (weight MD -3.46 kg at 6 months -> **+0.29 kg at 12
+months**). A remission effect that decays as the weight advantage decays is consistent with a
+*weight-loss* effect delivered via a low-carb route, rather than a carbohydrate effect independent of
+weight. DiRECT (Lean 2018) makes this near-decisive: it achieves **46% remission on an 825-853
+kcal/day formula diet that is 59% carbohydrate** — the opposite of low-carb — with remission scaling
+monotonically with kilograms lost (0% at weight gain -> 86% at >=15 kg).
+[EXTRACTED (Lean - DiRECT T2D Remission 2018) Results; Findings]
+So carbohydrate restriction is **not necessary** for remission, and is best read as **one lever for the weight loss that drives
+remission** — with no evidence here that it adds a remission effect *beyond* the weight loss it
+produces (an added glycaemic contribution is untested, not excluded). A person should optimize for the
+weight loss they can *sustain*, by whichever route they will adhere to
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
 ## Limits
 

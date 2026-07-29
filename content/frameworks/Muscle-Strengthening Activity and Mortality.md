@@ -84,7 +84,15 @@ persisting to ~130-140 min/week and the hazard then rising above 1.0 — the J's
   risk of diabetes sharply decreasing until up to 60 min/week... followed by a gradual decrease», no
   upturn, and with a clear muscle-glucose mechanism. The same MSA cannot protect monotonically for
   diabetes and turn harmful for mortality at high volume unless the mortality upturn is a measurement or
-  confounding artifact. **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
+  confounding artifact.
+  - **What the muscle-glucose mechanism IS (Challenge #24, average adult):** skeletal muscle is the
+    principal site of insulin-stimulated glucose disposal, so building and using muscle enlarges the
+    body's glucose «sink» and improves glucose tolerance. This makes resistance training a **glycaemic
+    lever, not only a function/mortality one** — decision-relevant specifically for the dysglycaemic /
+    metabolic-syndrome stratum (the drifting-median adult), where the held diabetes L-shape is the
+    outcome this mechanism produces. `[INFERRED — the accepted physiology; the diabetes L-shape outcome
+    it explains is [EXTRACTED (Momma - Muscle-Strengthening Activities and Mortality 2022)]; a dedicated
+    glucose-disposal/insulin-sensitivity RCT source is not held -> a named acquirable gap.]` **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
   whose upturn lacks a mechanism (mortality/CVD/cancer) show one** — the diagnostic signature of an
   artifactual arm.
 

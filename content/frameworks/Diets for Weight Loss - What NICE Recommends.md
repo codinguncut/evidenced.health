@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-07-29
 ---
 
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a
@@ -136,6 +136,23 @@ analysed together"* — the exact lumping this section was worried about.
 **A shared trial sorted into opposite bands** settles it: NICE classes **Layman 2009** as *very low
 carbohydrate*; Naude places the same trial in its **non-ketogenic** subgroup. The bands are not
 co-extensive in application even where their definitions match.
+
+## What the TDR recommendation rests on — DiRECT supplies the trial and the maintenance scaffold
+
+NICE's low-energy TDR "consider" is the recommendation form of the DiRECT-type evidence the wiki now
+holds directly. DiRECT (Lean 2018) delivered an **825-853 kcal/day** formula diet — at the bottom of
+NICE's stated **800-1200 kcal** band — for a matching population (overweight/obese + T2D), and
+achieved 46% diabetes remission with -10 kg mean loss
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]]. Two points of contact:
+
+- **DiRECT fills the maintenance gap NICE names but does not specify.** NICE bounds the TDR at 12
+  weeks inside a "multicomponent... strategy with long term support" but leaves the *structure*
+  unstated; DiRECT's stepped food reintroduction (2-8 weeks) + monthly-visit maintenance phase is the
+  concrete scaffold, and its phase-wise regain data (+1.0 kg reintroduction, +1.9 kg maintenance
+  after -14.5 kg TDR) quantify what maintenance must hold against.
+- **The weight-cycling harm NICE weighted its recommendation down for is visible in DiRECT** — regain
+  begins immediately after the TDR trough, and 24% withdrew — so NICE's "weak not strong" call reads
+  as calibrated, not over-cautious.
 
 ## Decision relevance
 

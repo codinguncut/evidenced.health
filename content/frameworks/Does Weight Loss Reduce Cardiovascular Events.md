@@ -169,7 +169,16 @@ Effects Lifestyle T2D 2013) — cross-trial contrast, populations differ]`
 - **Weight loss stays strongly indicated — for the outcomes it demonstrably moves.** Look AHEAD itself
   confirmed greater HbA1c reduction, fitness, and risk-factor improvement; the wiki holds its benefits
   for glycemic control, diabetes prevention/remission, MASLD ([[Fatty Liver MASLD and Weight Loss]]),
-  function and quality of life. The lever is real.
+  function and quality of life. The lever is real. **DiRECT is the sharpest worked case**: an
+  energy-restricted TDR programme put **46% of short-duration T2D patients into remission** (off drugs)
+  with a monotone remission-by-weight-loss gradient — a patient-important benefit weight loss plainly
+  moves, set against the CV-event null here -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+- **The >=10%-responder CV signal has a second mention.** DiRECT independently cites the Look AHEAD
+  post-hoc — "a 10% weight loss in the first year... associated with a 21% decrease in occurrence of
+  cardiovascular outcomes over a median follow-up of 10.2 years" [EXTRACTED (Lean - DiRECT T2D
+  Remission 2018) Discussion] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
+  mention (DiRECT reports, does not re-derive it), so the primary post-hoc paper is still AWAITED; but
+  two independent trials now point to the same >=10% dose threshold for a CV benefit.
 - **Do not oversell a cardiovascular-event reduction the largest trial failed to show.** For a person
   pursuing lifestyle weight loss, *this will lower your risk of a heart attack* is weakly evidenced —
   honest framing is to pursue weight loss for its many proven benefits and treat CV-event reduction as

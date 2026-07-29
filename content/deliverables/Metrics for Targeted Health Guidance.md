@@ -11,82 +11,71 @@ updated: 2026-07-29
 self_critiqued: 2026-07-29
 ---
 
-**What to measure so the guidance can be targeted.** The evidence speaks in *strata* — a reference class,
-not a person; targeted advice needs your data to place you in the right class. This is the **input list**:
-the minimal, readily-capturable set that does most of that placing, ordered by *decision-impact x
-capturability*. A metric is here only if knowing it **changes a stratum or a decision** the fabric can
-act on — not because it can be measured.
+**What to measure, so advice can be tailored to you.** Health evidence is about *groups* — a type of
+person, not you specifically — so tailored advice needs a few numbers to place you in the right group.
+This is that **short input list**: the handful of easily-obtained measures that do most of the placing,
+ranked by *how much a decision hinges on them × how easy they are to get*. A measure earns a spot only if
+knowing it **changes a group or a decision** — not just because it can be measured.
 
-**This is a capture list, not a diagnosis.** Reference ranges, interpretation, and acting on a number are
-clinician acts. Naming *what to measure* is in scope; *what it means for you* is not.
+**This is a list of what to capture, not a diagnosis.** Normal ranges, what a number means, and acting on
+it are a clinician's job. Naming *what to measure* is in scope; *what it means for you* is not.
 
-## Tier 1 — free or trivial, and they do most of the placing
+## Tier 1 — free or trivial, and they do most of the work
 
-- **Age and sex** — define the reference class; the first inputs to any cardiovascular-risk estimate
+- **Age and sex** — they define your group and are the first inputs to any heart-risk estimate
   ([[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]).
-- **Smoking status** — the single largest modifiable exposure and a risk-estimate input; free to ask.
-- **Blood pressure** — the cardiometabolic lever with the best proven primary-prevention benefit
-  ([[Blood Pressure Lowering and Cardiovascular Events]]); a risk-estimate input; a home cuff suffices.
-- **Resting heart rate** — a cheap co-marker, and an input to a no-test fitness estimate (below).
-- **Waist circumference** (plus **height/weight -> BMI**) — visceral adiposity is the dominant *metabolic*
-  lever and a MASLD criterion ([[Fatty Liver MASLD and Weight Loss]]); **waist beats BMI for visceral
-  fat**, but BMI is universal and free, so record both. A tape measure is the whole apparatus.
+- **Smoking status** — the single largest changeable risk, and a risk-estimate input. Free to ask.
+- **Blood pressure** — the metabolic lever with the best-proven benefit in healthy people
+  ([[Blood Pressure Lowering and Cardiovascular Events]]); a home cuff is enough.
+- **Resting heart rate** — a cheap extra marker, and an input to a no-test fitness estimate (below).
+- **Waist size** (plus **height and weight → BMI**) — fat around the organs is the dominant *metabolic*
+  driver and part of the fatty-liver picture ([[Fatty Liver MASLD and Weight Loss]]). **Waist beats BMI**
+  for that belly fat, but BMI is universal and free, so note both. A tape measure is the whole kit.
 
 ## Tier 2 — one standard GP blood draw
 
-- **HbA1c** — places the dysglycemia / metabolic-syndrome stratum ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]); preferred over fasting glucose (no fast, less day-to-day noise).
-- **Lipid panel -> total cholesterol, HDL, triglycerides, and the CALCULATED non-HDL.** Non-HDL is the
-  cheap, standard **apoB proxy** — it counts all the atherogenic (apoB-containing) particles — and for
-  the metabolically-impaired it beats LDL-C, which *under-states* the particle burden when small-dense
-  LDL predominates ([[LDL ApoB and Cumulative Exposure]]). **Read non-HDL, not LDL-C, as the headline
-  here.**
-- **ALT** — the cheapest MASLD screen ([[Fatty Liver MASLD and Weight Loss]]); standard, and this stratum
-  leans MASLD.
+- **HbA1c** (your 3-month average blood sugar) — places you on the blood-sugar-drift spectrum
+  ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]); better than a fasting glucose (no
+  fasting, less day-to-day noise).
+- **A lipid panel — but read the *non-HDL* number.** Non-HDL cholesterol is a cheap, standard stand-in
+  for **apoB** (a count of the cholesterol particles that actually cause artery disease). For someone
+  metabolically drifting it beats the usual LDL number, which *under-counts* those particles here
+  ([[LDL ApoB and Cumulative Exposure]]). **Read non-HDL, not LDL, as your headline.**
+- **ALT** (a liver enzyme) — the cheapest fatty-liver screen ([[Fatty Liver MASLD and Weight Loss]]);
+  standard, and this group leans toward fatty liver.
 
-## Tier 3 — add ONLY where it significantly moves the needle (and note the capture cost)
+## Tier 3 — add only where it genuinely changes a decision
 
-- **Lp(a)** — an independent, genetically-set apoB particle ([[LDL ApoB and Cumulative Exposure]]);
-  **measure once in a lifetime**, increasingly standard, and decision-changing for the ~1 in 5 who carry
-  a high level. High yield for a one-off test.
-- **ApoB** — the *direct* causal particle count, better than any proxy — but not yet universally on the
-  standard panel. **Take it as the upgrade over non-HDL where it is available**, not as a baseline
-  requirement.
-- **VO2max / cardiorespiratory fitness** — among the strongest mortality predictors
-  ([[Cardiorespiratory Fitness and Mortality]]); but it needs a test, so the **non-exercise estimate**
-  (from age + resting heart rate + activity, all already in Tier 1) is the population-available route
+- **Lp(a)** — an inherited cholesterol particle you cannot change ([[LDL ApoB and Cumulative Exposure]]).
+  **Measure it once in a lifetime:** it's decision-changing for the roughly **1 in 5** who carry a high
+  level. High value for a one-off test.
+- **ApoB** — the *direct* particle count, better than any stand-in — but not yet on every standard panel.
+  Take it as an **upgrade over non-HDL where it's available**, not a baseline must-have.
+- **Fitness (VO2max)** — among the strongest predictors of living longer
+  ([[Cardiorespiratory Fitness and Mortality]]) — but it needs a proper test, so the **no-test estimate**
+  (from age, resting heart rate, and activity — all already in Tier 1) is the practical route
   ([[Measuring and Raising Cardiorespiratory Fitness]]).
-- **Grip strength** — a cheap hand dynamometer, and among the strongest mortality predictors
-  ([[Muscle-Strengthening Activity and Mortality]]); not yet a standard GP measure but trivial to add —
-  high-yield-if-available.
+- **Grip strength** — a cheap hand-grip meter, and also a strong predictor of living longer
+  ([[Muscle-Strengthening Activity and Mortality]]); not yet a routine GP measure, but trivial to add.
 
-## What NOT to capture (it does not move the needle enough)
+## What NOT to bother measuring (it doesn't change enough)
 
-- **Body-fat % (DEXA/BIA)** — waist is the cheaper, population-available visceral proxy and carries most
-  of the decision value; DEXA/BIA is not a standard GP battery. **Waist covers it.**
-- **hsCRP** — moves an inflammatory *marker* but is weakly tied to decisions, and the wiki's own worked
-  case shows the marker can fall while outcomes do not ([[Does Weight Loss Reduce Cardiovascular Events]]: CRP dropped ~42% with no event benefit). **Optional, not baseline.**
-- **Fasting glucose** — largely redundant with HbA1c. **Skip as a separate line.**
-- **LDL-C as the headline lipid** — kept in the panel, but **read non-HDL/apoB instead** for the
-  metabolically-impaired (it under-states particle burden). Not dropped, de-emphasised.
+- **Body-fat scans (DEXA/BIA)** — waist is the cheaper, everywhere-available stand-in and carries most of
+  the value; the scans aren't standard. **Waist covers it.**
+- **hsCRP (an inflammation marker)** — it moves a *marker* but is only loosely tied to decisions, and our
+  own worked example shows the marker can fall while outcomes don't ([[Does Weight Loss Reduce Cardiovascular Events]]: it dropped ~42% with no benefit to events). Optional, not baseline.
+- **Fasting glucose** — largely redundant with HbA1c. Skip it as a separate line.
+- **LDL as your headline number** — keep it on the panel, but **read non-HDL / apoB instead** here (LDL
+  under-counts the harmful particles). Not dropped — just not the number to lead with.
 
 ## The honest limits
 
-- **Open loop:** the impact ranking grades what the held evidence says *changes a decision*, never
-  whether capturing these metrics improves a real outcome. And the wiki holds **no head-to-head
-  added-value study** (apoB over non-HDL, VO2max over the estimate, grip over nothing) — the tiering
-  rests on predictor/mechanism strength, not a reclassification trial.
-- **Capture, not interpret or prescribe:** this names what to measure; ranges, diagnosis and action are
+- **This grades what changes a decision, not what improves your health.** And we hold **no head-to-head
+  study** proving that apoB beats non-HDL, or a fitness test beats the estimate, or grip beats nothing —
+  the ranking rests on how strong each measure is as a predictor, not on a trial that reshuffled people
+  by it.
+- **Capture, not interpret or prescribe:** this names what to measure; ranges, diagnosis, and action are
   a clinician's.
-- **A general default, tuned per person:** which metrics matter most shifts by stratum (a lean
-  25-year-old and the drifting-median adult need different emphases); the tiers are the starting default,
-  not a fixed prescription.
-
-## Self-critique `[run 2026-07-29, before commit]`
-
-- **Inclusion bar held:** every metric is tied to a *held page that makes it decision-relevant*, and the
-  skip-list names four candidates rejected on the move-the-needle test (body-fat%, hsCRP, fasting
-  glucose, LDL-C-as-headline) — so the list is Pareto, not a data-dump.
-- **Capturability honoured:** ApoB is placed as an *upgrade-if-available* over the non-HDL proxy, VO2max
-  behind its no-test estimate, grip flagged as non-standard — matching the population-available constraint.
-- **Scope guard:** no reference ranges or interpretation; the open-loop and capture-not-prescribe caveats
-  are explicit; the no-added-value-study gap is named rather than papered over.
+- **A starting default, tuned to you:** which measures matter most shifts by situation (a lean
+  25-year-old and a drifting middle-aged adult need different emphases). Treat the tiers as the default,
+  not a fixed rule.

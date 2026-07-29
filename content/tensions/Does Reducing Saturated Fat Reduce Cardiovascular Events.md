@@ -17,6 +17,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-29
 updated: 2026-07-29
+self_critiqued: 2026-07-29
 ---
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts

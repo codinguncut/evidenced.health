@@ -25,6 +25,8 @@ self_critiqued: 2026-07-29
 nothing about how much protein a food carries, nor whether eating higher-quality protein changes any
 outcome a person cares about. It is a **surrogate**, and the section at the bottom holds that line.
 
+
+``
 ## DIAAS replaces PDCAAS, and the reason matters for plant proteins
 
 The 2013 FAO Expert Consultation recommends a new metric:
@@ -89,6 +91,8 @@ high carb load and high bulk."* Decompose it against what the wiki now holds:
   composition tables. **Do not fabricate the arithmetic.** `-> ingest-queue.md` (a food-composition /
   FAO INFOODS-class source).
 
+
+``
 ## "Unprocessed" may be the binding constraint — not "plant"
 
 FAO names the digestibility drag on plant proteins explicitly:
@@ -161,6 +165,8 @@ different ways (quality favours animal/dairy; the cancer axis mildly favours cut
 the antinutrient worry is defused by preparation, [[Antinutrients in Plant Foods]]) — so the decision is
 multi-axis, not a single verdict, and the quality axis is the one this page supplies.
 
+
+``
 ## The surrogate line — do not let a high score become a recommendation
 
 DIAAS is a **surrogate**: it predicts how well a protein *could* meet amino-acid demand. The wiki holds
@@ -171,6 +177,8 @@ here -> [[Surrogate Outcomes]]. For someone eating a varied diet with any animal
 complementation, the limiting-amino-acid problem is largely solved at the *diet* level regardless of
 any single food's score — which is [[Is the Food Category Doing Any Work]] applied to protein.
 
+
+``
 ## Provenance and limits
 
 - **FAO 2013 is guideline-grade** (an FAO Expert Consultation), but it is a *methods* report — it

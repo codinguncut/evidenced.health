@@ -24,6 +24,8 @@ most certain about the surrogate and least certain about the patient-important o
 stands for.** Each source states its own split; neither states the regularity, and neither holds the
 counter-instance that reveals what actually drives it.
 
+
+``
 ## The pattern — matched on within-exposure certainty
 
 The compared parameter is **GRADE certainty on the surrogate vs certainty on the patient-important
@@ -42,6 +44,8 @@ for reducing risk of cardiovascular disease»* — the outcome recommendation is
 transferred down one level (WHO Sodium Annex 8, on [[Sodium Intake and Blood Pressure]]). The sodium gap
 quoted above is floor-to-ceiling; the *effective* gap after that transfer is narrower.
 
+
+[@who2012] [@who2023saturated]
 ## The counter-instance, and what it reveals about the cause
 
 **The inversion is NOT a law, and physical activity breaks it:** it is rated **HIGH certainty on
@@ -80,6 +84,8 @@ patient-important outcome (events, death). Its lower certainty comes from few, s
 medication withdrawal, not from a surrogate-to-outcome transmission gap. Recorded as a **distinction**,
 not folded in — including it would stretch the pattern to fit.
 
+
+``
 ## Why it is a decision-change, not a curiosity
 
 **When a dietary guideline sounds confident, check what the confidence is attached to.** For these
@@ -93,6 +99,8 @@ three levels lower — so:
 - **What would raise the certainty is a hard-outcome trial, not another marker study** — the gap does
   not close by measuring LDL or blood pressure more precisely.
 
+
+``
 ## Limits
 
 - **Two instances and one counter-instance** — a pattern with a boundary, not a proven law.
@@ -104,6 +112,8 @@ three levels lower — so:
   it is *right*. A high-certainty surrogate may transmit to the outcome exactly as claimed; the
   inversion is about warrant, not truth.
 
+
+``
 ## Self-critique `[run 2026-07-28, before commit — two defects caught and fixed]`
 
 - **The first mechanism was self-refuting and was replaced.** The draft blamed *self-reported diet* and
@@ -117,3 +127,5 @@ three levels lower — so:
   outcome), both grades from the same body's own profile — not LDL compared to blood pressure across
   exposures.
 - **Independence checked and denied:** both instances are WHO/GRADE — recorded as a limit, no E-claim.
+
+## References

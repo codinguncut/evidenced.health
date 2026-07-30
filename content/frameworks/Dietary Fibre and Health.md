@@ -27,6 +27,8 @@ food-matrix pages; two meta-analyses now anchor it — Reynolds 2019 (the WHO-co
 **LDL mechanism**. Read together they give the honest shape: **fibre is a real but modest lever, and the
 strongest evidence sits on the smallest effect.**
 
+
+[@reynolds2019] [@brown1999]
 ## The bottom line
 
 - **The big, impressive numbers are observational.** Highest-vs-lowest fibre intake tracks a **15-30%
@@ -67,6 +69,8 @@ sum into one big causal number. The composite claim is *fibre is beneficial and 
 with a modest measured effect on the endpoints we can actually trial* — the mortality magnitude stays
 observational.
 
+
+``
 ## Why the observational leg is more than *just correlation* — but not RCT-grade
 
 Reynolds argues causality by triangulation: «The consistency between the trial and prospective study
@@ -111,6 +115,8 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   benefits and that fibre's higher GRADE «could reflect the high fibre content of whole grains»
   -> [[Whole Grains Refined Grains and Pulses]].
 
+
+[@brown1999]
 ## Decision relevance
 
 - **Target \~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
@@ -122,6 +128,8 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 - **Rank honestly.** Fibre is a real supporting lever, not a big rock; glycaemic index/load is a weaker
   marker than fibre or whole-grain content and not worth optimizing for on this evidence.
 
+
+``
 ## Certainty and gaps
 
 - **`confidence: medium`** — the LDL/surrogate leg is RCT-grade (Brown, GRADE moderate-high); the

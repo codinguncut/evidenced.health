@@ -13,7 +13,8 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Measurement Error in Dietary Assessment
 created: 2026-07-25
-updated: 2026-07-28
+updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **Nucleus of the `nutrition-methods` cluster.** The comparator problem
@@ -21,6 +22,8 @@ updated: 2026-07-28
 fields: **the analytic model silently decides what the nutrient is being compared against.** Two
 studies can report "the effect of saturated fat" and mean different comparisons.
 
+
+[@willett]
 ## Why energy must be handled at all
 
 Three reasons, per Willett: energy intake may itself cause disease; individual differences in total
@@ -116,10 +119,13 @@ The load-bearing quotes:
 - 2012 source; the modelling conventions are stable but the worked examples predate the current
   literature.
 
-## Energy adjustment usually makes the measurement problem WORSE `[2026-07-28, Willett ch.3]`
+
+` quoted inline]`
+## Energy adjustment's effect on measurement error is two-sided `[2026-07-28, Willett ch.3 + ch.11; scoped 2026-07-30 self-critique]`
 
 This page argues energy adjustment is necessary to make a nutrient coefficient mean anything. **Willett
-records a cost that runs the other way, and it is not small.**
+records a cost that runs the other way — but also a benefit, and both are his; the honest reading holds
+the two together rather than headlining only the cost.**
 
 > «The ratio of within-person to between-person variation is usually substantially greater when the
 > nutrient is expressed in relation to energy intake (energy-adjusted).»
@@ -136,10 +142,19 @@ ratio rises for total fat (1.70 -> 1.94), monounsaturated fat (1.80 -> 2.12), po
 cholesterol (2.61 -> 2.55). The full table sits on
 [[Measurement Error in Dietary Assessment]] with the ratio arithmetic shown.
 
-**The reason the cost is worth paying anyway is on this page already** — an unadjusted nutrient
+**And Willett records the benefit running the other way, in the same book.** By holding diet composition
+within a narrow energy range, energy adjustment «can also reduce measurement error, sometimes
+substantially» — it cancels the correlated component of error that total energy induces across nutrients.
+[@willett, ch.11 p.278] So the *net* effect on
+measurement error is **not one-signed**: the within-to-between ratio can rise (weakening the
+individual-level estimate) while correlated-error cancellation can improve validity. Willett holds both;
+reading only the variance-ratio cost is the one-sided error.
+
+**The reason the interpretive fix is worth it anyway is on this page already** — an unadjusted nutrient
 coefficient answers a question nobody asked (*more of this nutrient, and more food overall*). **So the
-honest statement is a trade, not a free improvement:** adjustment fixes *what the coefficient means*
-and worsens *how precisely it can be estimated from a given number of measurement days*.
+honest statement is a trade with effects on both sides, not a pure cost:** adjustment fixes *what the
+coefficient means*, can cancel correlated error, and can *also* raise the within-to-between ratio for
+some nutrients — the sign of that last effect varies by nutrient (Table 3-6 above).
 ``
 
 ## The adjustment term stops meaning what its label says `[2026-07-28, Willett ch.13]`

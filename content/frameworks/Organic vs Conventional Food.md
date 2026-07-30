@@ -48,6 +48,8 @@ unproven health consequence at real-world levels), **small nutrient differences*
 directions), and **a pasture-driven fatty-acid profile in animal products** — which is a **feed effect,
 not a label effect**. The hard-outcome case is the weakest link and is heavily confounded.
 
+
+``
 ## Sub-question 1 — pesticide / toxin residues: lower on organic, health consequence unproven
 
 Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014 (meta-analyses over 343
@@ -206,6 +208,8 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
 - **type-G** — no RCT on hard outcomes; residue-to-outcome transmission unevidenced at real-world levels;
   a grass-fed-specific (vs organic-certified) outcome comparison is unheld.
 
+
+``
 ## Limits and gaps
 
 - **Open loop:** this grades coherence and source-fidelity, never validity. It appraises, does not
@@ -221,5 +225,8 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   the wiki cannot compute; the cohort evidence is confounded and the trials do not exist.
 - `AWAITS` a grass-fed-vs-grain-fed animal-product outcome source that separates feed from certification;
   and any residue-level human-outcome source that could move residues from surrogate to outcome.
+
+
+``
 
 ## References

@@ -36,6 +36,8 @@ would invert that** — the telos is explicit that the wiki *"is never built aro
 situation"*, and that stratification and outcome-weighting belong to **layer 3, per case, after the
 fact**. Any actual person's values live outside the graph, never in it.
 
+
+``
 ## The honest answer first
 
 **The wiki cannot yet rank these interventions against one another, and the reason is specific: it
@@ -44,6 +46,8 @@ holds no baseline risk for this stratum, and no magnitude at all for the two lar
 Layer 1 ranks by **effect size x certainty**, and effect size means *absolute* effect at a stated
 baseline risk. Of eight exposures below, **one** has an absolute effect on a hard outcome.
 
+
+``
 ## What is held
 
 | Exposure | Effect | Outcome type | Certainty | Source page |
@@ -68,6 +72,8 @@ outcome — a marker can move the right way while patients do worse.
   carries NICE's recommendation, its bounds and its strength, but **not its effect size**. The review
   reports one; this wiki never extracted it. **The cheapest single fix on this page.**
 
+
+``
 ## What is EMPTY — and this is the finding
 
 | Lever | Status | Why it is empty |
@@ -102,6 +108,8 @@ outcome — a marker can move the right way while patients do worse.
    lever is no longer *unquantified* on hard CV outcomes — it is *quantified as unproven/null* via the
    lifestyle route, which is the ceiling itself.
 
+
+``
 ## What would change the answer
 
 In priority order, all from already-staged material:
@@ -115,6 +123,8 @@ In priority order, all from already-staged material:
 3. **Ingest WHO Physical Activity + PAGAC** and record, as a G-gap, that the absolute layer is
    structurally absent from the activity literature as it reaches guidance.
 
+
+``
 ## Limits
 
 - **One illustrative stratum, chosen to make the gaps concrete, not induced from the corpus.** The telos
@@ -126,6 +136,8 @@ In priority order, all from already-staged material:
 - **No independent re-checking was done for this page.** Each row is carried from its claim page and
   inherits that page's audit status — nothing more.
 
+
+``
 ## Activity enters the hierarchy with a magnitude `[2026-07-27]`
 
 Layer 1 requires magnitudes *comparable enough to make the ordering visible* — *"an effect stated only
@@ -147,6 +159,8 @@ large: **HR 0.34 (0.27-0.43)** at the maximum for device-measured total activity
 estimate is observational and between-quartile, so reverse causation is not excluded by design. A
 large HR from cohorts does not outrank a smaller one from trials automatically.
 
+
+`]]`
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
 [@nnr2023] is the first source the wiki holds that **publishes an
@@ -335,6 +349,8 @@ pharmacotherapy, weight loss as an exposure, alcohol, sleep and smoking remain e
 filled one cell of one row — the SFA line — and demonstrated how much work an absolute layer takes per
 exposure.**
 
+
+`]]`
 ## A heavily-discussed lever that ranks near the bottom — meal timing `[2026-07-29, TREAT + eTRF]`
 
 [[Time-Restricted Eating]] enters the hierarchy as a **worked instance of *attention-is-an-anti-signal***:
@@ -346,5 +362,8 @@ signal from a careless late window. **It ranks below every hard-outcome row in t
 belongs with sodium/free-sugars as a small/surrogate lever — its prominence is a fact about the
 literature, not about its effect size. It is not added as a table row: there is no absolute hard-outcome
 effect to rank, which is itself the placement.
+
+
+`]]`
 
 ## References

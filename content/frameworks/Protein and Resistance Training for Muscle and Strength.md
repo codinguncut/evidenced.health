@@ -25,6 +25,8 @@ the observational mortality data), but it is on **surrogates** (muscle mass and 
 patient-important outcomes. The headline: **resistance training is the driver; protein is a modest
 adjunct, and only up to about 1.6 g/kg/day.**
 
+
+``
 ## Protein augments resistance-training gains — modestly
 
 From «Data from 49 studies with 1863 participants» (RCTs, «RET ≥6 weeks»), protein supplementation added
@@ -45,6 +47,8 @@ training are *small* increments on top of what the training itself delivers — 
 muscle, it lets the training build slightly more. (And it did not move total body mass or maximal
 voluntary contraction at all.)
 
+
+[@morton2018]
 ## How much protein — a plateau near 1.6 g/kg/day, with real uncertainty
 
 The decision-relevant number is a dose-response knee: «Protein supplementation beyond total protein
@@ -62,6 +66,8 @@ This is a legitimate located knee in a curve — the kind the dose-response voca
 **saturable mechanism** exists, and distinct from the nutrition-reduction curves the wiki has found to be
 monotone. A saturating supply (protein → synthesis) plateaus; a risk-reduction curve need not.
 
+
+[@morton2018]
 ## Who it helps more, and who less
 
 - **Reduced with age:** «reduced with increasing age (−0.01 kg (−0.02,–0.00), p=0.002)» — older adults
@@ -69,6 +75,8 @@ monotone. A saturating supply (protein → synthesis) plateaus; a risk-reduction
 - **Greater in the already-trained:** «more effective in resistance-trained individuals (0.75 kg (0.09,
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
+
+[@morton2018]
 ## The surrogate boundary — this is the mechanism, not the outcome
 
 Muscle mass and strength are **surrogates** ([[Surrogate Outcomes]]), not patient-important endpoints.
@@ -113,5 +121,8 @@ surrogate is not worthless, it is just not the mortality endpoint.
 - **The plateau CI is wide** (1.03-2.20); the fibre-CSA effect is fragile; healthy adults only.
 - One meta-analysis; the moderator model overall explained little variance, so age/training effects are
   subgroup signals, not a full explanation.
+
+
+``
 
 ## References

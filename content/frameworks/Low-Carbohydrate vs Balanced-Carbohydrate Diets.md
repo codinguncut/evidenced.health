@@ -23,6 +23,8 @@ updated: 2026-07-29
 June 2021. **Synthesis mode: aggregative** — a common metric and an identical hypothesis, so the answer
 is a pooled magnitude. Most questions in this wiki are configurative; this one is not.
 
+
+[@naude2022]
 ## The answer, in one line
 
 **Both diets produce weight loss the review treats as approaching clinical meaningfulness — its own
@@ -180,6 +182,8 @@ diet trials is impractical.
   judging a diet by week-two scale change is reading a hydration signal.
 - **Nothing here speaks to mortality or cardiovascular events**, in either direction.
 
+
+``
 ## Where it stands relative to guidance
 
 The review's findings sit **comfortably inside prevailing guidance**, and it says what that guidance

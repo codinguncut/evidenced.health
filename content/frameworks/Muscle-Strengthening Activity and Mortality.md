@@ -23,6 +23,8 @@ Strength training earns its place in a lever list on two claims: it lowers morta
 meta-analysis (Momma 2022) of **observational** cohorts, graded «very low» — so this is a real but
 **weakly-warranted** lever, held one tier below the RCT-grade BP and lipid evidence.
 
+
+[@momma2022]
 ## The effects — modest, broad, and independent of aerobic exercise
 
 Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activities»:
@@ -41,6 +43,8 @@ strength-guideline finding on [[Physical Activity Dose and Mortality]] (both-gui
 **not** independent backing (same observational PA-epidemiology lineage, overlapping US cohorts), so it
 is a refinement, not an [E-independent] convergence.
 
+
+[@momma2022]
 ## The dose — small, and a J-shape whose upper arm should not be believed yet
 
 The dose-response is the interesting part, and it is a worked case for
@@ -114,6 +118,8 @@ does not: any reason to fear or to chase high MSA volume for mortality — nor a
   lean mass; aerobic/interval work raises CRF ([[Measuring and Raising Cardiorespiratory Fitness]]). Both
   belong in an untrained person's program.
 
+
+``
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -138,6 +144,8 @@ So strength training's **weak** card is the mortality evidence; its **strong** c
 stratum the case is *stronger* than the very-low mortality number alone implies — the lever's value is
 in keeping function and staying off the floor, not (on current evidence) a proven mortality reduction.
 
+
+``
 ## Limits
 
 - One meta-analysis, observational, «very low» GRADE; mostly US cohorts; self-reported exposure; high
@@ -145,5 +153,8 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 - The dose-response upper arm is not usable (above); the diabetes L-shape is the more trustworthy dose
   curve.
 - Frequency vs total-time could not be separated; the target-dose is a region, not a number.
+
+
+``
 
 ## References

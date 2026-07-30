@@ -26,6 +26,8 @@ claim. Read together with the drug result ([[Semaglutide for Cardiovascular Risk
 drug route *did* cut events), the lesson is that **weight loss per se is not a guaranteed cardiovascular
 lever — the route, the delivered dose, and the population all matter.**
 
+
+[@look2013]
 ## What Look AHEAD did, and the result
 
 5,145 overweight/obese adults with type 2 diabetes, randomized to intensive lifestyle intervention (ILI;
@@ -43,6 +45,8 @@ intensity physical activity») vs diabetes support and education (DSE). Primary 
 The conclusion is unambiguous for what it tested: ILI «focused on weight loss did not reduce
 cardiovascular events in overweight or obese adults with type 2 diabetes».
 
+
+[@look2013]
 ## Why the null does NOT mean *weight loss is useless for the heart*
 
 Four reasons the ITT null is narrower than it sounds — this is the load-bearing part of the page:
@@ -101,6 +105,8 @@ benefit of weight loss is unproven by the lifestyle route (Look AHEAD) and prove
 secondary-prevention obesity by the drug route (SELECT)** — neither establishes that shedding weight, by
 itself, prevents events in a low-risk person.
 
+
+`, SELECT figures via [[Semaglutide for Cardiovascular Risk in Obesity]]]`
 ## Ma 2017 — the meta-analysis generalizes the test [@ma2017]: CV-null holds, all-cause mortality falls (non-CV)
 
 Look AHEAD is one (large, important) trial in one population. **The higher-tier evidence on the mortality
@@ -201,5 +207,7 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 - **ITT with arm convergence** and a **mid-trial endpoint change**; powered for a large (18%) effect.
 - The single-trial gap is **cashed**: the weight-loss-on-mortality SR/MA (Ma 2017 BMJ, 54 RCTs) is now
   held and woven above — the CV-null generalizes, all-cause mortality falls (non-CV).
+
+``
 
 ## References

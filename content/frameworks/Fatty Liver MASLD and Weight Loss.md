@@ -8,7 +8,7 @@ cluster: masld
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-30
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -68,8 +68,11 @@ damage.»
 - **Diet quality (LoE 2, strong):** a Mediterranean pattern, limiting ultra-processed food and avoiding
   sugar-sweetened beverages. It «has repeatedly been shown to provide hepatic... benefits... even
   without weight loss»; low-carb and low-fat are «similarly effective» for liver fat, with the
-  Mediterranean diet the preferred, more-maintainable option. Ketogenic and time-restricted eating are
-  «insufficient evidence». But: «little evidence that improving diet quality beneficially impacts
+  Mediterranean diet the preferred, more-maintainable option. Very-low-carbohydrate/ketogenic diets have
+  «insufficient evidence on the efficacy or safety» (with «potential cardiovascular, kidney and other side
+  effects»); time-restricted eating has «very little evidence for a beneficial effect of time-restricted
+  eating over regular caloric restriction» on liver fat — the two were previously conflated under one
+  quote (corrected 2026-07-30). But: «little evidence that improving diet quality beneficially impacts
   clinical liver-related outcomes» (LoE 3).
 - **Exercise (LoE 1 for steatosis; only LoE 5 for histology):** «>150 min/week of moderate or 75
   min/week of vigorous» — and «exercise alone, without... significant weight loss, reduces liver
@@ -125,5 +128,7 @@ so the glycemia levers apply too -> [[Carbohydrate Restriction and Type 2 Diabet
 - **Observational confounding** on diet and coffee, flagged by the guideline itself.
 - Coherence, not validity (R1): these are graded recommendations, not proof that acting changes a given
   person's liver or life.
+
+``
 
 ## References

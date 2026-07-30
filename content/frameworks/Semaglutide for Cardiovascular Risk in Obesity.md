@@ -27,6 +27,8 @@ demonstration that treating obesity pharmacologically reduces hard cardiovascula
 this in **one population only**, and the population is not the one most of the wiki's low-risk strata
 belong to. Both halves of that sentence are the finding.
 
+
+[@lincoff2023]
 ## What SELECT proved, and the population it proved it in
 
 A single large event-driven RCT (n=17,604), on top of standard secondary-prevention care (90% on
@@ -90,6 +92,8 @@ downstream is a point estimate, not a confirmed effect:
 - **Non-fatal MI «0.72 (0.61 to 0.85)»** and coronary revascularization «0.77 (0.68 to 0.87)» carry
   most of the composite.
 
+
+[@lincoff2023]
 ## Weight loss: the drug route to the biggest lever
 
 > body weight «-9.39» % vs «-0.88» % (difference «-8.51 (-8.75 to -8.27)» percentage points at week 104);
@@ -103,6 +107,8 @@ reached weight loss «substantially lower than the mean 9.4% decrease observed w
 first to clear the bar. The drug and the lifestyle change are **not either/or** — same lever, different
 route, combinable.
 
+
+[@lincoff2023]
 ### STEP-1: the primary-prevention arm — a bigger number, on a surrogate
 
 SELECT's 9.4% was measured in an older, established-CVD population. STEP-1 (Wilding, NEJM 2021) ran the
@@ -138,6 +144,8 @@ least part of the cardiovascular benefit» — SBP fell «-3.31» mmHg and hsCRP
 statin use. Mechanism is explicitly **speculative** in the source; do not treat any one surrogate as the
 transmission channel.
 
+
+[@wilding2021]
 ## The adherence cost is part of the effect
 
 An intervention not taken has no effect, and semaglutide has a real tolerability tax:
@@ -150,6 +158,8 @@ weight benefit reverses on stopping — so this is a **sustained commitment**, t
 *return-on-investment* framing [[Lifetime Benefit - The Frame for Younger Adults]] attaches to lifelong
 preventive therapy: a longer horizon is a longer treatment duration, not only a larger gain.
 
+
+[@lincoff2023]
 ## Diabetes prevention — a secondary signal that fits the prediabetic stratum
 
 Two-thirds of SELECT was prediabetic. Progression to diabetes was cut sharply:
@@ -160,6 +170,8 @@ plausibly-relevant benefit — though on a **surrogate** (glycemic threshold), n
 outcome, and whether it lowers hard diabetes-related outcomes in primary prevention inherits the same
 caveat.
 
+
+[@lincoff2023]
 ## Provenance and limits
 
 - **Industry origin:** both trials were «Funded by Novo Nordisk» and sponsor-designed («The sponsor
@@ -193,6 +205,8 @@ caveat.
 - **Against lifestyle:** not a substitution question with a fixed answer — same lever, and the swing
   factors are adherence, cost, GI tolerability, and reversibility on stopping, all elicited at layer 3.
 
+
+``
 ## Gaps this opens
 
 - **No primary-prevention CV-outcome trial** for any obesity drug — the single largest hole for applying
@@ -200,5 +214,8 @@ caveat.
 - **No head-to-head** of drug vs sustained lifestyle vs bariatric surgery on hard outcomes.
 - **Weight loss on hard outcomes as an exposure in its own right** (independent of the drug) is still
   unheld -> [[Weight Loss and Mortality]] (a future page, not yet a held source).
+
+
+``
 
 ## References

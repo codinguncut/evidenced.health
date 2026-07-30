@@ -78,6 +78,8 @@ sufficiently different that the organism "may be far less responsive to antivira
   the decision threshold rather than the studies alone (§5.2.4.1) — but it is the one that prices
   *population* difference directly.
 
+
+``
 ## Limits
 
 - **For populations**, GRADE prices indirectness but does not say *which* differences matter — *how

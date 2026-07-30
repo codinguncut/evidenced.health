@@ -105,6 +105,8 @@ actually breaks the comparison. Rebuilt below with located quotes only.
 | Comparator | active diet arm **and** *"No intervention"* (Lim 2010 pooled) | *"no dietary intervention"* control **excluded** | mostly low-fat; one no-treatment arm | **NO — inverted from what I first wrote** |
 | Outcome unit, HbA1c | *"% Change in HbA1c"* | change in HbA1c (%) | change in HbA1c (%) | **NO — NICE reports % CHANGE, not points** |
 
+
+[@nice]
 ### What the honest table forces — and it reverses my first conclusion
 
 **Row 2 is the row I ignored, and it is the one that matters.** All three sources define the deep band
@@ -167,6 +169,8 @@ achieved 46% diabetes remission with -10 kg mean loss
 - **A quoted low-carb null must be checked against its delivered exposure**, not its label. NICE's
   trials averaged \~35% energy carbohydrate; that is not what most readers mean by "low carb".
 
+
+``
 ## Limits
 
 - The numbered recommendation text (1.16.1-1.16.12) is **not in this document** — it lives in NG246
@@ -175,5 +179,8 @@ achieved 46% diabetes remission with -10 kg mean loss
 - Ethnic-minority and low-socioeconomic-status subgroups: evidence **absent**, stated as such.
 - The committee lists six trials lacking a control-arm deficit and the study tables flag Layman 2009 as
   a seventh; the recovered table truncates one row, so **treat "seven" as unverified**.
+
+
+``
 
 ## References

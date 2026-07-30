@@ -65,6 +65,8 @@ reverse, which is the easier misreading.)
   tighter confidence interval on the relative effect buys little when the absolute difference is
   small either way.
 
+
+``
 ## Failure modes
 
 - **Reporting relative effects alone.** A relative figure without a baseline is uninterpretable for a
@@ -102,6 +104,8 @@ specifically *in the protocol*). [@grade, §2.1]
   first needs prognostic information only; the second needs interaction evidence and is the more
   common source of false positives.
 
+
+``
 ## Refinement — varying absolute effects are NOT inconsistency (chunk 02)
 
 GRADE returns to this when defining the inconsistency downgrade, and draws a consequence the §2.1

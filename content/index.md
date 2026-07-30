@@ -12,15 +12,15 @@ care about, in a way they couldn't already have reached?** If not, it isn't here
 
 Start here — each is a short, ranked, honestly-caveated guide for a particular situation:
 
-- [[Big Rocks (Median)|The Biggest Health Levers for a Typical Adult]] — the largest levers for a
+- [[Big Rocks (Median)|Health Levers - Typical Adult]] — the largest levers for a
   typical drifting-into-middle-age Western adult, sorted so the guidance helps the majority without
   harming the leaner minority.
-- [[Big Rocks (Elderly)|The Biggest Health Levers After 70]] — how those priorities **invert** with
+- [[Big Rocks (Elderly)|Health Levers - After 70]] — how those priorities **invert** with
   age: function, muscle, bone and falls move to the front, and aggressive weight loss flips from a
   lever into a hazard.
-- [[Carnivore Comparison|Carnivore vs Animal-Based: A Head-to-Head]] — a strict-carnivore vs a
+- [[Carnivore Comparison|Carnivore vs. Animal-Based]] — a strict-carnivore vs a
   medium-fat animal-based pattern, for someone with elevated cardiometabolic risk.
-- [[Metrics for Targeted Health Guidance|What to Measure: A Minimal Health Checklist]] — the small set
+- [[Metrics for Targeted Health Guidance|Health Metrics]] — the small set
   of readily-capturable health metrics that do most of the work of placing you in the right group.
 
 ## Common questions, answered honestly
@@ -28,18 +28,23 @@ Start here — each is a short, ranked, honestly-caveated guide for a particular
 Appraisals of the questions people actually ask — with the effect sizes where they exist, and a plain
 statement of what the evidence can't yet settle:
 
-- [[Are Artificial Sweeteners Bad|Are artificial sweeteners bad for us?]] — cancer, appetite, insulin,
+- [[Are Artificial Sweeteners Bad|Artificial Sweeteners]] — cancer, appetite, insulin,
   weight, cravings — and why the answer depends entirely on *what the sweetener replaces*.
-- [[Is Organic Food Better|Is organic food better for us?]] — pesticides, nutrients, and outcomes, and why
+- [[Is Organic Food Better|Organic Food]] — pesticides, nutrients, and outcomes, and why
   "pasture vs grain" often matters more than the organic label itself.
-- [[Do We Need Fibre|Do we need fibre in our diet?]] — cholesterol, gut transit, blood sugar and satiety,
+- [[Do We Need Fibre|Fibre]] — cholesterol, gut transit, blood sugar and satiety,
   soluble vs insoluble — and why "essential" oversells a modest, supporting lever.
-- [[Is Meal Timing a Life Hack|Is meal timing a life hack?]] — time-restricted eating, fasting,
+- [[Is Meal Timing a Life Hack|Meal Timing]] — time-restricted eating, fasting,
   skipping breakfast — and why *when* you eat mostly matters only because it changes *how much*.
-- [[Is Red Meat Harmful|Is red meat harmful?]] — processed vs unprocessed, heart events vs lifespan vs
+- [[Fasting Benefits and Risks|Fasting]] — autophagy, muscle loss, BMR, and long fasts — why most of
+  what fasting does traces to the calorie deficit, and where a prolonged fast turns risky.
+- [[Is Red Meat Harmful|Red Meat]] — processed vs unprocessed, heart events vs lifespan vs
   cancer, and why "eat leaner cuts" beats "banish meat" — with the environmental case kept separate.
-- [[Whats Up With the Microbiome|What's up with the microbiome?]] — probiotics, prebiotics, "leaky gut,"
+- [[Whats Up With the Microbiome|Microbiome]] — probiotics, prebiotics, "leaky gut,"
   candida — which claims are evidence-backed, which are "not yet," and which are just sellable.
+- [[GLP-1 Do the Benefits Outweigh the Risks|GLP-1]] —
+  Ozempic/Wegovy and the newer agents — the large, proven weight and cardiometabolic benefits against
+  the real risks and the still-unknowns, and which stratum the trade-off actually favours.
 
 Beyond the guides, you can follow the links into the underlying **claim pages** — the frameworks,
 concepts, tensions and diagnostics they are built from.

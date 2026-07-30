@@ -21,6 +21,8 @@ self_critiqued: 2026-07-29
 prepare them a particular way? Petroski & Minich (2020) review six classes and conclude the alarm is
 largely mis-scaled — but the honest reading keeps the genuine harms it also documents.
 
+
+[@petroski2020]
 ## Appraise the source first — symmetric standards cut both ways
 
 `Petroski - Antinutrients Narrative Review 2020` is a **narrative** (not systematic) review in
@@ -30,6 +32,8 @@ alarm it corrects: its "benefit" claims often rest on mechanism or epidemiology,
 caveat below). It is graded low, and the net verdict here leans on the parts where whole-food human
 evidence exists, not on the mechanistic optimism.
 
+
+``
 ## The six classes — concern, the preparation lever, and who still needs care
 
 | Compound | Main concern | Preparation effect | Nuance / benefit | Stratum that still needs care |
@@ -100,6 +104,8 @@ names as the plant-protein **digestibility discount**, and the *same* preparatio
 quality while lowering the toxicity concern. One variable, one lever, two framings
 -> [[Protein Quality and the DIAAS Score]] (Synthesis section).
 
+
+``
 ## Limits
 
 - **Single narrative-review source, `confidence: low`.** A systematic review or whole-food human RCTs
@@ -109,6 +115,8 @@ quality while lowering the toxicity concern. One variable, one lever, two framin
   value is licensing someone to stop avoiding prepared plant staples, not promising a benefit from
   eating them.
 
+
+``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Reverse-halo check: FIRED and guarded.** The attractive line was *antinutrients are a myth*; the

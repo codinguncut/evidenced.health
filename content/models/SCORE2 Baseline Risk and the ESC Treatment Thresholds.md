@@ -21,6 +21,8 @@ of today, study-control-rate baselines; this supplies the missing piece — a **
 a named stratum rather than a trial population's event rate. Every relative effect in the corpus becomes an absolute one
 once a stratum-specific 10-year risk exists.
 
+
+`]`
 ## The thresholds — and they move with age
 
 | | **<50 years** | **50-69 years** | **>=70 years** |
@@ -127,6 +129,8 @@ Note also that WHO grades this estimate **Moderate** certainty; the RR should no
 - **The threshold is the decision, not the percentage.** SCORE2 outputs a number; Table 5 is what turns
   a number into an action — and it is the part most often dropped when the model is quoted.
 
+
+``
 ## Limits
 
 - **Two ESC conditions the charts carry and this page must not drop:** they apply only to people whose

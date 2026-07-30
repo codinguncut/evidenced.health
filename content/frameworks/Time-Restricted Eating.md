@@ -24,6 +24,8 @@ does *when* you eat — the clock position of the eating window — change weigh
 **independent of what and how much you eat**? Two RCTs answer it with opposite designs, and read
 together they **decompose** the popular claim rather than settling it as a single number.
 
+
+``
 ## The bottom line, up front
 
 - **The weight-loss rationale for TRE is weak.** In the one adequately-powered free-living RCT (TREAT,
@@ -38,6 +40,8 @@ together they **decompose** the popular claim rather than settling it as a singl
   (parameter table below). The lever, where it exists, is **circadian timing**, not the *window* per
   se — and it is small, short-tested, and on surrogates only.
 
+
+``
 ## The parameter table — why TREAT and eTRF are NOT the same quantity (op-weave 2a)
 
 | Parameter | TREAT (Lowe 2020) | eTRF (Sutton 2018) | Same quantity? |
@@ -57,6 +61,8 @@ about a shared quantity; they measure two different interventions. So there is *
 the honest artifact is a **decomposition** (type-A emergent synthesis): the popular umbrella term *TRE*
 hides at least two distinct exposures that behave differently.
 
+
+[@lowe2020] [@sutton2018]
 ## The decomposition — three separable claims
 
 1. ***Restrict your eating window whenever, change nothing else* → little independent effect on weight.**
@@ -88,6 +94,8 @@ window «might not be optimal for the metabolic advantages of TRE». Same-questi
 absent; this is one exposure term splitting into two. Recorded as a decomposition (distinction), not a
 `[[tension]]`.
 
+
+[@lowe2020, Discussion]
 ## Decision relevance
 
 - **Do not sell TRE as a weight-loss method on its own.** For someone whose goal is weight, the honest
@@ -105,6 +113,8 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   weight-independent effect — the telos's *attention-is-an-anti-signal* rule applies with force
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
+
+``
 ## Certainty and gaps
 
 - **`confidence: low`.** The *weak weight-loss rationale* leg is reasonably firm (one adequately-powered
@@ -118,6 +128,8 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   fast, so the efficacious protocol may be the least feasible one — an 8h+ early window is the realistic
   target.
 
+
+``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Overclaim check.** The central claim is a *decomposition*, not a discovery that *early TRE works* —

@@ -8,6 +8,7 @@ cluster: cardiometabolic-exposures
 confidence: medium
 created: 2026-07-28
 updated: 2026-07-30
+self_critiqued: 2026-07-30
 relationships:
   related_to:
     - Should Adults Reduce Red and Processed Meat
@@ -21,6 +22,8 @@ Two guideline families read **the same cohort evidence** and issue **opposite in
 below; it is about what they warrant, and that lives on
 [[Should Adults Reduce Red and Processed Meat]]. This page holds the shared evidence.
 
+
+[@wcrf2018] [@nutrirecs2019]
 ## The association — modest, and red meat's is not even significant
 
 | Exposure -> colorectal cancer | Relative risk (per stated dose) | Source |
@@ -33,10 +36,11 @@ below; it is about what they warrant, and that lives on
 
 **The red-meat pooled estimate is not statistically significant** — "no statistically significant
 association between the risk of colorectal cancer and consumption of red meat (RR 1.12 [95% CI
-1.00-1.25], per 100 grams increase per day)" (WCRF's own words); the
-significance WCRF relied on came from the colon-only stratum (RR 1.22, 1.06 to 1.39) and the European
-stratum (RR 1.23, 1.08 to 1.41), not the pooled point estimate.
+1.00-1.25], per 100 grams increase per day)" (WCRF's own words); significance did appear in the
+colon-only stratum (RR 1.22, 1.06 to 1.39) and the European stratum (RR 1.23, 1.08 to 1.41), not in the
+pooled point estimate.
 [@wcrf2018, 5.1.1.1]
+``
 Processed meat's association is significant and consistent. WCRF also records the confounding candidly:
 "an apparent effect of red meat could possibly be due, at least in part, to low intakes of these other
 foods... Further analysis of adjustment factors was not performed in the CUP."
@@ -115,5 +119,8 @@ has a very small causal effect" — the disagreement is about certainty and magn
   their divergence is in appraisal and standpoint, not in separate data (no [E-independent]).
 - Coherence, not validity (R1): the associations are what the cohorts report; whether reducing meat
   reduces a given person's cancer is not established by either.
+
+
+``
 
 ## References

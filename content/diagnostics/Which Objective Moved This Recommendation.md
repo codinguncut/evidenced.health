@@ -22,6 +22,8 @@ evidence *plus* considerations that have nothing to do with whether the exposure
 the diagnostic for separating them — and the central finding is that on the guidance the wiki holds,
 **the separation is already published**, so this is a reading skill rather than an accusation.
 
+
+``
 ## The structure — GRADE names four determinants, only one of which is evidence
 
 Certainty is *one* input to strength, alongside the balance of desirable and undesirable consequences,
@@ -170,6 +172,8 @@ guidance bodies reluctant to contradict their predecessors, which NASEM does evi
 revision inertia — is a different thing from *population* internalization, which the held evidence
 contradicts. `AWAITS` a source on public nutrition beliefs before the population limb is carried.
 
+
+[@who2023saturated]
 ## Tests / indicators
 
 - **Is there an EtD table at all?** If yes, the analysis is a reading task. If no, this diagnostic
@@ -186,6 +190,8 @@ contradicts. `AWAITS` a source on public nutrition beliefs before the population
   to an individual decision; the feasibility and acceptability judgements are population-scale and
   mostly do not. -> [[Framing a Decision Question]]
 
+
+``
 ## The guard — this diagnostic is easy to abuse
 
 This wiki's own telos names *process defect* the most easily abused of the five reasons guidance may
@@ -201,6 +207,8 @@ cost.
   The defect would be a body *concealing* which consideration moved it — which is the opposite of what
   a published EtD table does.
 
+
+``
 ## Limits
 
 - **One worked case, one body.** WHO SFA 2023 is the only EtD table the wiki holds in full. Whether
@@ -212,6 +220,8 @@ cost.
 - GRADE's own EtD chapter is only lightly represented in the held handbook chunks; the fuller EtD
   framework literature is not held.
 
+
+``
 ## A second body blends health and environment — and concedes the health effect may be null `[2026-07-28, ESC]`
 
 [@nnr2023] is this page's worked case for environmental reasoning

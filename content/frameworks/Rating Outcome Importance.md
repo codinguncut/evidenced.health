@@ -12,6 +12,7 @@ relationships:
     - Framing a Decision Question
 created: 2026-07-25
 updated: 2026-07-26
+self_critiqued: 2026-07-30
 ---
 
 Outcomes are not interchangeable, and which ones a recommendation rests on is a **decision made

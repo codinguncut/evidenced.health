@@ -196,4 +196,7 @@ as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
 - **Coherence, not validity (R1):** a strong single trial, not proof the effect transports or
   persists.
 
+
+``
+
 ## References

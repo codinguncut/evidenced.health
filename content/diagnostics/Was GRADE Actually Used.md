@@ -11,7 +11,8 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-07-28
+updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 ## Why it matters
@@ -73,6 +74,8 @@ discount a recommendation.
 - Footnotes recording close calls, including factors considered and *declined*.
 - An explicit statement of perspective and of how resource use was treated.
 
+
+``
 ## Decision relevance
 
 - **A failed criterion is a specific, citable finding** — *certainty was not rated per outcome* is
@@ -84,6 +87,8 @@ discount a recommendation.
   enough to be argued with. That is what GRADE claims for itself
   ([[Rating Certainty of Evidence]]), and no more.
 
+
+``
 ## Limits
 
 - The criteria test **conformance and transparency, not correctness**. A document can satisfy all
@@ -94,6 +99,8 @@ discount a recommendation.
 - **Source currency:** §8 is flagged in-source as rewritten in the 2024 GRADE Book (as
   *requirements for claiming the use of GRADE*).
 
+
+``
 ## Run against a real guideline for the first time `[2026-07-28, WHO SFA 2023 Annexes 6-7]`
 
 This page held seven criteria and no worked application. **WHO's SFA guideline is now readable against
@@ -141,6 +148,8 @@ files of the source]`
 diagnostic exists to turn vague suspicion into an auditable finding — **which cuts both ways, and here
 it cuts toward the guideline.**
 
+
+``
 ### The one real gap is in the CHECKLIST, not in WHO
 
 **Annex 7 publishes every domain judgement and the reasoning inside each domain. It publishes no rule
@@ -157,10 +166,17 @@ for how the domains were combined.** WHO issued a **strong** recommendation on S
 
 [@who2023saturated, Annex 7]
 
-**Two unfavourable-or-unknown non-health domains did not prevent a strong recommendation, and nothing
-states why.** The *Balance* judgement's own justification text argues from cardiovascular benefit,
-all-cause mortality and absence of adverse effects — **health evidence only** — and the annex then ends
-on feasibility with no concluding synthesis.
+**Two unfavourable-or-unknown non-health domains did not prevent a strong recommendation.** WHO *does*
+state a per-recommendation rationale in its Evidence-to-recommendations narrative — Recommendation 1
+«was assessed as strong because evidence of moderate certainty... suggested reduced risk of CVDs with
+lower SFA intake. No undesirable effects or other mitigating factors were identified that would argue
+against a lower SFA intake» [@who2023saturated, 
+Evidence to recommendations]. **But that rationale argues from health evidence plus the *absence* of a
+countervailing factor — it is a qualitative why, not a published rule for how the Acceptability *Varies*
+and Cost-effectiveness *Don't know* judgements were weighed against the health benefit.** So the
+corrected claim is narrow: WHO states *that* the balance favoured the health evidence, but publishes **no
+formal weight or combination rule** for the non-health domains — and the annex ends on feasibility with
+no concluding synthesis.
 
 **Here is the part that matters, and it relocates a standing question.** **Criterion 7 asks that
 strength *judgements* be transparently reported. It does not ask for a combination rule.** So WHO's

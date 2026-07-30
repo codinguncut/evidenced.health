@@ -23,7 +23,7 @@ is proven to reach primary prevention** — the partial exception to
 [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]. The largest randomised
 evidence base (BPLTTC 2021, «344 716 participants from 48 randomised clinical trials») settles two long-
 contested questions: the benefit does **not** require pre-existing heart disease, and it does **not**
-vanish at lower baseline blood pressure.
+vanish at lower baseline blood pressure. [@bplttc2021, Abstract]
 
 ## The effect, and why its independence from baseline is the point
 
@@ -59,7 +59,7 @@ the cost of treatment, and patient preferences». They even «caution against us
 risk differences from clinical trials for making policy decisions» — the trials' populations were
 higher-risk (absolute rates «31·9... in the comparator group and 25·9... in the intervention group» per
 1000 person-years without prior CVD, i.e. a \~2.4%/yr baseline, far above a low-risk primary-prevention
-person).
+person). [@bplttc2021, Discussion]
 
 **So BP-lowering refines, not refutes, the ceiling.** Its *relative* benefit is proven where weight-loss
 and GLP-1 CV benefit are not — but the *absolute* benefit still scales with baseline risk, exactly the
@@ -73,6 +73,8 @@ ceiling's mechanism, and the paper legislates the same rule (treat on absolute r
   separate question — *now partly held via SPRINT below*.
 - **Not the drug/adverse-effect trade-off** for an individual — adverse effects, cost and preferences are
   named as decision inputs but not quantified — *SPRINT supplies the harm side, below*.
+
+[@bplttc2021, Discussion]
 
 ## SPRINT — the intensive-target trial that operationalises *treat on absolute risk*
 
@@ -100,11 +102,13 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
 The intro records the standing controversy: registries show a «J-shaped association» between BP and
 events (lowest risk \~130/75, implying harm below), which had been read as a reason not to lower BP far.
 The randomised evidence shows benefit «down to less than 120 mm Hg» with no rising HR in any low-BP
-stratum — so the observational J-curve is not a treatment effect. A worked instance of
+stratum — so the observational J-curve is not a treatment effect. [@bplttc2021, Introduction] A worked instance of
 [[The U-Shaped Association Artifact]]: the protective-looking lower arm of an observational curve does
-not survive the randomised (here, interventional) check.
+not survive the randomised (here, interventional) check. ``
 
 ## Decision relevance
+
+``
 
 - **BP-lowering is the cardiometabolic lever with the best hard-outcome warrant, and it applies in
   primary prevention** — for a hypertensive person it is the one place a proven CV-event reduction is on
@@ -124,5 +128,7 @@ not survive the randomised (here, interventional) check.
   transportable quantity, by the authors' own caution.
 - One (very large) collaboration's IPD; the target-BP and adverse-effect questions are out of its design.
 - Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
+
+`.]`
 
 ## References

@@ -25,6 +25,8 @@ lever, physical activity, is measured as *dose* (minutes); this is measured as t
 The distinction is load-bearing: both sources here are observational, so CRF is a **predictor, not a
 proven causal lever**.
 
+
+``
 ## The dose-response — each MET matters, and there is no ceiling
 
 - **Per 1-MET higher CRF (Kodama meta-analysis, dose-response):** all-cause mortality «RR 0.87 (95% CI,
@@ -106,5 +108,8 @@ randomized, on a hospitalization-inclusive composite). The upgrade is real and b
   its METs are estimated, not measured.
 - Coherence, not validity (R1): a strong, graded, mechanism-plausible association — but not proof that
   acting on it changes a given person's life.
+
+
+``
 
 ## References

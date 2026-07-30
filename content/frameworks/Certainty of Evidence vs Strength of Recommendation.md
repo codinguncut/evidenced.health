@@ -28,6 +28,8 @@ Better evidence -> stronger recommendation. Grading systems that produce a singl
 rating collapse the two, so a reader cannot tell whether a weak recommendation reflects thin evidence
 or a genuinely close call on well-established effects.
 
+
+``
 ## The reframing — certainty is ONE of four inputs to strength, and the mapping is asymmetric
 
 The separation is not merely *record two numbers*: certainty is one of **four** determinants of
@@ -81,6 +83,8 @@ of those is high quality.)
 - **The practical test when reading any recommendation:** ask which of the two judgments produced its
   strength. If the source does not let you tell them apart, you cannot use its strength rating.
 
+
+``
 ## What sets strength, once certainty is fixed (chunk 03)
 
 Strength is "the extent to which a guideline panel is confident that desirable effects of an
@@ -334,6 +338,8 @@ recommendations, this section's pattern is WHO-and-nutrition-specific and must b
 Recorded as a prediction rather than a conclusion, because a 7-cell single-body sample is exactly the
 size at which a pattern is most tempting and least supported.
 
+
+``
 ### The prediction is partly met — NutriRECS, where VALUES set the strength `[2026-07-29]`
 
 The corpus now holds a non-WHO, non-nutrient-threshold graded recommendation, and it breaks the WHO-only

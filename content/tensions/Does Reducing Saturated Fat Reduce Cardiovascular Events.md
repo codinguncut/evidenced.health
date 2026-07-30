@@ -63,6 +63,8 @@ framing advertises: **on mortality and coronary outcomes the two AGREE — both 
 clash is narrow: the **combined-events composite** (the one estimate that clears the null) and the
 **attribution** of any benefit.
 
+
+``
 ## It decomposes — one distinction, one genuine joined issue
 
 **Most of the apparent contradiction is agreement or a scope difference (not-joined checks apply).**
@@ -132,6 +134,8 @@ but with a live, unadjudicated internal-validity challenge** (the trans-fat-comp
 food-matrix diagnostic. Keep the recommendation as a *substitution*, and let the layer-3 weighting be
 the person's.
 
+
+``
 ## Evidential asymmetry — symmetric standards, asymmetric conclusion
 
 The two views are **not** evidentially symmetric, and saying so is the standard working, not bias:
@@ -147,6 +151,8 @@ The two views are **not** evidentially symmetric, and saying so is the standard 
   settings), and its large-vs-small-LDL argument is substantially superseded by apoB particle number
   ([[LDL ApoB and Cumulative Exposure]] — which holds LDL/apoB *causal*, a point Astrup concedes).
 
+
+``
 ## View B's observational pillar, now grounded — PURE 2017 `[2026-07-29]`
 
 The cohort evidence View B leans on is [@dehghan2017] (135 335
@@ -187,6 +193,8 @@ with a mechanism — not a symmetric stalemate.
   — that would adjudicate joined-issue 2. Until then the attribution stays open, and *replace SFA with
   PUFA/whole foods* is the move robust across both causal models.
 
+
+``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Not-joined checks run, and they split the page.** The draft risk was filing the whole "SFA

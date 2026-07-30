@@ -10,8 +10,6 @@ updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-# GLP-1 Receptor Agonists: Do the Benefits Outweigh the Risks?
-
 **The answer is not one answer — it flips by who is asking.** The same drug
 (semaglutide/Wegovy/Ozempic; tirzepatide/Mounjaro/Zepbound) is a large, well-evidenced lever for one
 person and a small-benefit / fixed-risk bet for another. The variable that flips it is **baseline
@@ -229,7 +227,7 @@ part of the effect*: an intervention not continued has no continued effect.
 strategies against each other, not against an idealized no-loss baseline:
 
 - **Sustained lifestyle change** — a large effect *if achieved*, but low population adherence; proven for
-  diabetes remission and mortality (Ma 2017), unproven for cardiovascular events (Look AHEAD).
+  diabetes remission and mortality [@ma2017], unproven for cardiovascular events (Look AHEAD) [@look2013].
 - **Bariatric surgery** — larger and more durable weight/metabolic effect (in EASL's liver-histology
   head-to-head, MASH resolution «55%» after surgery vs «15%» after lifestyle), at the cost of surgical
   risk («about 6%» severe adverse events) and long-term nutritional risk

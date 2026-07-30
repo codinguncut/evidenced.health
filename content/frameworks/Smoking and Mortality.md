@@ -22,6 +22,8 @@ dominant big rock but held no source for it; Jha 2013 (216,917 US adults, NHIS l
 supplies the contemporary magnitude — and, more decision-relevant, the shape of what *cessation* buys as
 a function of age. It is the exposure against which every nutrition lever in this vault is small.
 
+
+[@jha2013]
 ## The hazard: \~3x mortality, a decade of life
 
 - **Current smokers die at about three times the rate of never-smokers:** all-cause HR **3.0 (99% CI
@@ -69,6 +71,8 @@ rates fall. This is [[Baseline Risk and the Relative-Absolute Split]] in its cle
 relative effect (HR \~3) sitting on a high absolute baseline yields an enormous absolute gain, unlike the
 diet levers whose relative effects are small AND sit on lower baselines.
 
+
+[@jha2013]
 ## The sick-quitter correction — a worked reverse-causation fix
 
 Jha handles the exact bias the [[The U-Shaped Association Artifact]] diagnostic warns about: «Life-
@@ -79,6 +83,8 @@ within 5 years of death as a current smoker**, and check by excluding the first 
 frailty/sick-quitter artifact. It biases *against* overstating cessation's benefit, so the large benefit
 survives the conservative handling.
 
+
+[@jha2013]
 ## Why confidence is high
 
 - **Effect size + dose + independence.** An HR of \~3 is far too large to be plausibly confounded away;
@@ -88,6 +94,8 @@ survives the conservative handling.
   is why this sits at `confidence: high` on a single ingested source: the source is one, but the backing
   it reports is not.
 
+
+``
 ## Limits
 
 - **Observational** (no one randomizes smoking) — but the effect size, dose-response, adjustment
@@ -98,6 +106,8 @@ survives the conservative handling.
 - **US population, cross-sectional smoking status at baseline** — some baseline smokers later quit,
   which would *understate* the true hazard of continued smoking, not overstate it.
 
+
+``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Over-claim check:** every magnitude is quoted or tabled from Jha; the "90% reduction" is paired with

@@ -19,6 +19,8 @@ A 10-year horizon under-states the case for acting in younger adults, and ESC sa
 ESC applies the construct at every age and in both directions** — the title reflects where it bites
 hardest, not where the guideline confines it.
 
+
+[@esc2021]
 ## The problem with the 10-year number under 50
 
 > *"The 10-year CVD risk in relatively young, apparently healthy people is on average low, even in the
@@ -86,6 +88,8 @@ young persons compared to older people. Both treatment effect and treatment dura
 individual 'return on investment'."* **A young person's longer horizon is a longer treatment commitment,
 not only a larger gain.**
 
+
+[@esc2021, Box 1]
 ## How the numbers are built
 
 > *"The lifetime benefit is calculated by estimating lifetime CVD risk with the LIFE-CVD model
@@ -128,6 +132,8 @@ non-HDL and falling steeply with age — by 90+ the same intervention buys \~0.0
 render alone. A stated range is honest where a misaligned row would not be. A coordinate-clustered
 extraction of all three grids is owed.
 
+
+[@esc2021]
 ## Decision relevance
 
 - **Under 50, ask for the lifetime number before accepting a low 10-year one.** ESC's own rule makes
@@ -143,6 +149,8 @@ extraction of all three grids is owed.
 - **Competing risk cuts the other way at older ages**, which is why the grids fall so sharply: an
   intervention cannot buy CVD-free years to someone who will die of something else first.
 
+
+``
 ## Limits
 
 - **Calibrated for low- and moderate-risk regions only**: *"The model is currently validated for low-
@@ -155,5 +163,8 @@ extraction of all three grids is owed.
   process in which patient preference, expected treatment harms, and costs can be taken into account."*
   It informs a decision by routing it to shared decision-making, not by leaving it open.
 - One guidance body; whether others endorse lifetime framing or this model is **unprobed**.
+
+
+``
 
 ## References

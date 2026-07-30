@@ -23,6 +23,8 @@ Diet is measured indirectly, by asking people. The resulting error is large enou
 consideration in reading almost any observational nutrition finding — and it does **not** push in one
 direction, which is what makes it hard to reason about.
 
+
+``
 ## The taxonomy that governs everything else
 
 Error is random or systematic, within-person or between-person. The consequential split:
@@ -111,6 +113,8 @@ which is a much stronger and more specific allegation.
   predicted cancer risk, but the associations "were entirely accounted for by BMI" — the calibration
   had contributed nothing.
 
+
+``
 ## Willett's counter to the strong sceptical reading
 
 He rejects using energy under-reporting to discredit diet studies generally: total energy "is rarely

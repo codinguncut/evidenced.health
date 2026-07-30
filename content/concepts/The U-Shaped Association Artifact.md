@@ -23,6 +23,8 @@ the **lower arm** (the apparent benefit of a little vs none) is the fragile part
 causal. Alcohol is the worked case; the same shape sits unadjudicated for sodium and, by the telos's
 own flag, for sleep.
 
+
+``
 ## The recipe that manufactures a false protective arm
 
 The lower arm can be produced with **no true benefit at all**, by any of:
@@ -63,6 +65,8 @@ referent-correction or a genetic/quasi-experimental check. If it has only surviv
 and early-follow-up exclusion, treat the protective arm as **unadjudicated, not established** — a shape
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
+
+``
 ## Where it applies in the wiki
 
 - **Alcohol — adjudicated, artifact.** The protective lower arm is largely non-causal

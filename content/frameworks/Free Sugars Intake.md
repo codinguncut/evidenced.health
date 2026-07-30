@@ -532,6 +532,8 @@ substitution frame; it does not add an independent backing.
   guideline — the wiki's clearest live example of a widely-cited number whose own sources claim little
   for it.
 
+
+``
 ## Limits
 
 - 2015. Free-sugars/cardiometabolic outcomes beyond weight and caries are not covered here.
@@ -544,6 +546,8 @@ substitution frame; it does not add an independent backing.
   and SACN; SACN read WHO's commissioned reviews. **No two of the three are independent witnesses to
   the primary data**, so agreement anywhere among them must not be counted as corroboration.
 
+
+``
 ## Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
 - **Over-claim: FOUND and fixed.** The first draft read *"three positions, three warrants — the

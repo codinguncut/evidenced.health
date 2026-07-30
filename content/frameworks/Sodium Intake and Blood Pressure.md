@@ -14,7 +14,8 @@ relationships:
     - What Kind of Evidence Sits Behind a Nutrient Recommendation
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-26
-updated: 2026-07-28
+updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -178,6 +179,8 @@ PURE, the Cochrane and Graudal lines, and the reviews rebutting them).
   and New Zealand; cohorts in Europe, Japan and the USA. The PICO setting is "All countries" and
   transportability is never discussed -- while the guideline's stated motivation is LMIC-framed.
 
+
+``
 ## Limits
 
 - 2012; self-dated for review "by the end of 2017". The post-2011 sodium controversy is by construction
@@ -197,6 +200,8 @@ PURE, the Cochrane and Graudal lines, and the reviews rebutting them).
   reappear as *"no association"* in the Executive summary, which is the four-states error the telos
   names.
 
+
+``
 ## The exposure measure here is in a different class from the rest of the corpus `[2026-07-28, Willett ch.8]`
 
 Almost every dietary exposure the wiki holds is measured by food-frequency questionnaire. **Sodium is
@@ -255,9 +260,11 @@ roughly 3:1 hypertensive-to-normotensive gradient.
 ### That agreement is NOT independent backing, and the check is what shows it
 
 **Both trace to the same investigators.** ESC's cited source for this sentence is **He FJ, Tan M, Ma Y,
-MacGregor GA** (*JACC* 2020), and **He FJ / MacGregor GA studies sit inside WHO's own included-studies
-list**. So the convergence runs through one research group's primary work reaching two guideline
-committees.
+MacGregor GA** (*JACC* 2020), and **He FJ / MacGregor GA studies sit inside WHO's own cited evidence
+base**. So the convergence runs through one research group's primary work reaching two guideline
+committees. (Not the stronger claim that both bodies pooled the *identical* study set — WHO's actual
+pooled lists are in unpublished in-house reviews this page's Limits calls unverifiable; see the
+width-of-claim note below.)
 
 **No `[E-independent]` is claimable here.** Every surface marker points the wrong way — different body,
 different continent, different decade, near-identical ratio — and the substantive marker is absent.

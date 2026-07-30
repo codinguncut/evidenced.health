@@ -24,6 +24,8 @@ cardiometabolic cluster is a single nutrient (SFA, sugar, sodium) or a weight-lo
 surrogate. It is the source that lets the fabric say something about patterns-vs-nutrients, and its
 result is genuinely informative in both directions.
 
+
+[@estruch2018]
 ## The headline: a pattern cut CV events \~30%, at high baseline risk — but read the components
 
 In 7447 high-CV-risk adults with no CVD at baseline (Spain, median 4.8 yr), a Mediterranean diet
@@ -69,6 +71,8 @@ adds the whole-pattern, hard-outcome version of that channel: a mono/polyunsatur
 events. `[E-independent]` is NOT claimed — the mechanism overlaps the SFA-replacement channel rather
 than arriving from a separate route, so this is refinement/consistency, not independent backing.
 
+
+``
 ## The provenance caveat travels with the estimate (symmetric standards)
 
 PREDIMED's 2013 report was **withdrawn** (Carlisle 2017 flagged non-random baseline distributions);
@@ -81,6 +85,8 @@ validity is therefore RCT-with-propensity-repair, not a
 clean randomized contrast** — a real, quantified discount that a favourable result does not earn
 exemption from. Held here as a `medium`-confidence finding for that reason.
 
+
+[@estruch2018]
 ## Parameter table — the pattern-vs-weight-loss contrast (BLOCKING cross-source check)
 
 | Parameter | PREDIMED (this) | Look AHEAD / Ma ([[Does Weight Loss Reduce Cardiovascular Events]]) | Same quantity? |
@@ -96,6 +102,8 @@ the **weight-loss** channel are distinct, and here the pattern channel delivered
 not — *with the caveat that the populations and comparators differ*, so this is a reasoned cross-trial
 contrast (type-A synthesis), not a head-to-head.
 
+
+``
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
@@ -108,6 +116,8 @@ contrast (type-A synthesis), not a head-to-head.
 - **Not a component-isolation trial** — it cannot say whether EVOO, nuts, fish, or the whole gestalt
   did the work (the observed-healthy-pattern-is-not-evidence-for-a-component caveat applies).
 
+
+``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Over-claim check:** the composite 0.70 is not read as a mortality or MI claim — the stroke-driven

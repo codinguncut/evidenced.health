@@ -24,6 +24,8 @@ self_critiqued: 2026-07-29
 wiki. Its structure matters as much as its numbers: **the recommendation splits by replacement
 nutrient, and the strength differs across the splits.**
 
+
+[@who2023saturated]
 ## The recommendations, with their strength and certainty
 
 | # | Recommendation | Strength | Overall certainty |
@@ -212,6 +214,8 @@ rather than closed.
 - **Do not read the LDL evidence as the outcome evidence.** High certainty attaches to the lipid
   change; moderate-to-low certainty attaches to what follows from it.
 
+
+`]`
 ## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
 
 A tension page was minted claiming WHO and Willett clash on whether LDL licenses the
@@ -290,6 +294,8 @@ changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
   2026-07-29) is *not* that: it is the **upstream** Cochrane MA whose RCT estimates WHO adopted, so it
   strengthens warrant on the numbers without adding an independent witness (see the Hooper section).
 
+
+``
 ## Why SFA intake cannot be rescued by a biomarker `[2026-07-28, Willett ch.8]`
 
 Everything on this page rests on **self-reported** saturated-fat intake. The obvious remedy — measure
@@ -420,6 +426,8 @@ more flattering estimate lower.
 nutrients; the replacement-specific profiles (5 and 9) are the ones already on this page, and they are
 a different cut of the evidence. **Do not add a row from this table to a row from those.**
 
+
+[@who2023saturated, Annex 6]
 ## Hooper 2020 — the Cochrane RCT meta-analysis underneath WHO's numbers `[2026-07-29]`
 
 [@hooper2020] is the primary Cochrane review

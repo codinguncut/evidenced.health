@@ -25,6 +25,8 @@ it — and it reframes three things: *what* causes the disease (apoB particles, 
 se), *how* the dose works (cumulative exposure, not current level), and *which number to trust* (apoB
 over LDL-C in the metabolically-impaired).
 
+
+[@ference2017]
 ## LDL/apoB CAUSES ASCVD — a causality verdict, not an association
 
 The consensus assessed the LDL-ASCVD link against Bradford Hill-style causality criteria across **four
@@ -120,6 +122,8 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
   deleterious off-target effects* — a real diet or drug can lower LDL and still net-harm through another
   pathway, so this validates the *lipid channel*, not any intervention wholesale.
 
+
+``
 ## A contested refinement — is a DIET-induced LDL-C change a good apoB proxy? (Astrup et al. 2020) `[2026-07-29]`
 
 [@astrup2020] presses the concordance proviso above in a specific

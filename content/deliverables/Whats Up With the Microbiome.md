@@ -83,7 +83,7 @@ shown to be sustained. [@who2023nonsugar] Suez is the template not
 because it settles sweeteners — it does not — but because it *followed a composition shift all the way to
 an outcome and a cause.* Almost nothing else in the field does.
 
-## (1) What actually moves the microbiome: diet, and mostly fibre
+## What actually moves the microbiome: diet, and mostly fibre
 
 The dominant modifiable lever is diet, and within diet, **fermentable fibre**. Gut bacteria ferment it
 into **short-chain fatty acids** (SCFAs — acetate, propionate, butyrate, the main energy currency the
@@ -106,7 +106,7 @@ supports ([[Dietary Fibre and Health]]):
 - **So: eat \~25-30 g/day of fibre from varied plants** (whole grains, legumes, fruit, veg). It is a genuine
   supporting lever, not a miracle, and a bowl of beans is the intervention — not a probiotic capsule.
 
-## (5) Prebiotics: mostly fibre wearing a lab coat
+## Prebiotics: mostly fibre wearing a lab coat
 
 A prebiotic is «A selectively fermented ingredient that results in specific changes in the composition and/or activity of the gastrointestinal microbiota, thus conferring benefit(s) upon host health» — which is largely fermentable fibre by another name.
 [@wgo2023] The composition and SCFA
@@ -116,7 +116,7 @@ is: act on prebiotics by eating fibre-rich food; a purified prebiotic sachet is 
 something a varied plant diet already delivers, and the outcome evidence attaches to the diet, not the
 sachet.
 
-## (6) Probiotics: strain- and indication-specific, NOT a general tonic
+## Probiotics: strain- and indication-specific, NOT a general tonic
 
 The single most useful discipline in the whole field comes from the WGO guideline: «the effects of
 probiotics are strain-specific and dose-specific», and «the most robust approach to probiotic evidence is
@@ -151,7 +151,7 @@ Where the evidence is genuinely there:
 **Bottom line:** match a specific strain to a specific condition, or don't bother. As a daily "gut health"
 tonic, probiotics are unsupported.
 
-## (7) FMT: the field's strongest win — for one thing so far
+## FMT: the field's strongest win — for one thing so far
 
 Faecal microbiota transplant (transferring a screened donor's stool microbiome into a patient) is the
 clearest proof that the microbiome is causal in humans: it «is effective in cases of severe drug refractory
@@ -167,17 +167,19 @@ something to attempt at home.
 yet ingested, so this rests on the Valdes overview and the WGO guideline; a later refresh will fold in the
 primary trial.)*
 
-## (2) Do antibiotics harm the microbiome — and does it matter?
+## Do antibiotics harm the microbiome — and does it matter?
 
 Yes, antibiotics measurably perturb the microbiome — that part is real and uncontested. The
 decision-relevant question is whether that perturbation causes *lasting patient-important harm* or largely
-recovers, and the fabric does not yet hold the outcome evidence to settle it — it is a **named gap**. What already stands, independently of the microbiome question, is the sound rule: **don't take
+recovers, and the fabric does not yet hold the outcome evidence to settle it — it is a **named gap**
+([[Gut Microbiome and Health]] carries the antibiotic-perturbation question as unresolved). What already
+stands, independently of the microbiome question, is the sound rule: **don't take
 antibiotics you don't need** — justified by antimicrobial resistance and side-effects regardless of what the
 microbiome does. The microbiome argument does not add a new action here so much as a second reason for one
 already justified. Resist the leap from "antibiotics change your bacteria" to any specific downstream
 disease claim until an outcome study supports it.
 
-## (3) "Leaky gut": keep the physiology, demarcate the syndrome
+## "Leaky gut": keep the physiology, demarcate the syndrome
 
 **Intestinal permeability is real, measurable, and genuinely altered in specific conditions** — coeliac
 disease, inflammatory bowel disease, some infections. That physiology stays. **"Leaky gut syndrome" as a
@@ -187,10 +189,12 @@ supplement seals it" is unevidenced. Two things keep
 the demarcation fair: the underlying phenomenon is legitimate (do not dismiss the real conditions), and the
 **direction of causation is usually unestablished** — increased permeability may be a *consequence* of
 disease rather than its cause, which is precisely why "fix the leak to cure the disease" is speculation. An
-intestinal-permeability review is a named acquisition gap; until it lands, the syndrome sits in the
-demarcated bucket, not the evidence bucket.
+intestinal-permeability review is a named acquisition gap ([[Gut Microbiome and Health]] holds it as a
+deferred demarcation, `AWAITS` Camilleri); until it lands, the syndrome sits in the demarcated bucket, not
+the evidence bucket. The demarcation itself is the wiki's falsifiable-vs-unfalsifiable test applied
+([[Surrogate Outcomes]] for the marker-vs-outcome half).
 
-## (4) Candida: real infection, imaginary "overgrowth"
+## Candida: real infection, imaginary "overgrowth"
 
 *Candida* is a real organism causing real disease — oral/vaginal thrush, and invasive candidiasis in
 immunocompromised patients (both legitimate medical conditions with real treatments). **"Chronic candida
@@ -198,7 +202,8 @@ overgrowth" as a systemic condition treated by "anti-candida diets" is the effec
 version** — a diffuse symptom list with no measurable, testable claim on a real outcome, and no supported
 diet cure. As with leaky gut, the discipline is
 to keep the demarcation crisp *and* non-dismissive of the genuine conditions: the medical infection is real
-and treatable; the wellness syndrome is not a diagnosis the evidence recognizes.
+and treatable; the wellness syndrome is not a diagnosis the evidence recognizes ([[Gut Microbiome and Health]]
+holds candida in the same deferred-demarcation bucket as leaky gut).
 
 ## How this diverges from popular "gut health" framing
 
@@ -210,7 +215,9 @@ and it treats "probiotic" as a single beneficial thing rather than thousands of 
 distinct, mostly-unproven effects. Where the field *does* have real wins — FMT for *C. difficile*, named
 strains for named conditions, and above all just eating enough fibre — they are narrower and less glamorous
 than the marketing. The honest map is small levers you already knew about, a few genuine clinical tools, and
-a large "not yet" held open rather than sold.
+a large "not yet" held open rather than sold. This is the *attention-is-an-anti-signal* pattern
+([[Layer 1 - Ranking Interventions for a Stratum]]): a topic discussed far out of proportion to its
+established, outcome-level effect sizes, selling the surrogate ([[Surrogate Outcomes]]) as the outcome.
 
 ## What we cannot yet answer (the gaps)
 
@@ -221,7 +228,9 @@ a large "not yet" held open rather than sold.
 - **Direction of causation** — does dysbiosis cause disease, or disease/diet cause dysbiosis — is the field's
   pervasive, mostly-unresolved confound.
 - The leaky-gut and candida sections rest on the wiki's demarcation machinery, not on held microbiome
-  sources; they sort the physiology from the syndrome but await primary reviews to say more.
+  sources; they sort the physiology from the syndrome but await primary reviews to say more. The full gap
+  register lives on [[Gut Microbiome and Health]] (the `AWAITS` list: FMT-CDI trial, Cochrane FMT-CDI,
+  AGA probiotics guideline, Camilleri permeability review).
 
 ## Mandatory caveats
 

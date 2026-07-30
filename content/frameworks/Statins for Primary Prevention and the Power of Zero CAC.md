@@ -40,6 +40,8 @@ The relative effects are real and consistent; the **absolute** differences are a
 *higher-risk* trial populations. Harms were reassuring — no increase in serious adverse events, myalgia,
 or (except high-intensity JUPITER, confined to those with diabetes risk factors) new diabetes.
 
+
+[@uspstf2022]
 ## The USPSTF decision rule — and where a low-risk person falls
 
 The threshold is explicit, and it is a **10-year-risk** threshold, because «the magnitude of benefit of
@@ -60,6 +62,8 @@ Equations, which it concedes overpredict in many populations.
 **USPSTF does not use CAC:** it «addressed the use of coronary artery calcium score for CVD risk
 assessment in a separate recommendation» — i.e. deliberately kept it out of the statin rule.
 
+
+``
 ## The power of zero (Nasir / MESA 2015)
 
 Where a body *does* allow CAC, a zero score moves the decision. In 4,758 MESA adults (45–84 yr, median
@@ -99,6 +103,8 @@ more — and CAC re-stratified them sharply:
 - **Population bounds:** MESA is 45–84 (so it says nothing about adults <45) and may select healthier
   volunteers; USPSTF's ARDs come from trial populations enriched for risk factors.
 
+
+[@nasir2015]
 ## The unresolved divergence — lodged, not adjudicated
 
 Whether CAC *should* guide the statin decision is contested across guidance families, and the evidence
@@ -113,6 +119,8 @@ This is a genuine joined-issue candidate (risk-score-threshold vs imaging-guided
 **not adjudicated here** — it AWAITS a source that either randomizes CAC-guided treatment or is an
 independent institutional appraisal of the imaging-vs-score question.
 
+
+``
 ## Decision relevance
 
 - **Get the 10-year risk first; the threshold is the decision.** Below \~7.5%, USPSTF says not a statin
@@ -128,6 +136,8 @@ independent institutional appraisal of the imaging-vs-score question.
   the realistic alternative to a statin is lifestyle plus monitoring, not nothing and not a drug with a
   fraction-of-a-percentage-point absolute benefit.
 
+
+``
 ## Limits
 
 - **The CAC-guided-statin question has no RCT** — the standing open-loop (R1) problem in a sharp form.
@@ -135,5 +145,8 @@ independent institutional appraisal of the imaging-vs-score question.
   ARDs are population-specific and it declines to rule on CAC.
 - Neither source quantifies the CAC=0 negative predictive value *by age band* below 45 — the gap
   [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] already flagged.
+
+
+``
 
 ## References

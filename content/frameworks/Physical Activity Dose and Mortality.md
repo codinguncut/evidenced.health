@@ -27,6 +27,8 @@ all-cause RR 0.85 sits beside the strength-guideline HR 0.80 below) but does not
 backing. A genuinely independent family (a different method — e.g. objectively-measured fitness change,
 or an RCT-grade outcome) is still owed.
 
+
+`]`
 ## The decision this page changes
 
 **Most of the mortality benefit arrives at a dose far below what people assume they need — and the

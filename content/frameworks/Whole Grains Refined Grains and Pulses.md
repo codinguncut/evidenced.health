@@ -27,6 +27,8 @@ Reynolds 2019 is now **held and woven** (the fibre-benefit section below; ingest
 leans on Reynolds for its whole-grain dose-response, so that dependency runs through this page too. The
 convergence it appears to add is therefore shared-source, not type-E.
 
+
+``
 ## The headline: refined grains are NOT found harmful
 
 | Exposure -> outcome | Estimate | SACN grade |
@@ -244,6 +246,8 @@ opposite direction to its usual use. **What survives is narrower and still usefu
 looking at overlapping literature reached *"measured and null"* and *"barely studied"*, and a reader
 told only one of the two would form a different picture of how settled this is.
 
+
+``
 ### What NNR adds that SACN does not have
 
 - **An explicit carve-out for refined grains, on an energy-adequacy warrant.** NNR's science advice

@@ -99,7 +99,7 @@ cholesterol number and the atherogenic *particle* count come apart: LDL-C can **
 particle burden, because these people carry more small, dense, cholesterol-poor particles
 [@ference2017]. So apoB, not LDL-C, is the number to trust
 here -- and if anything the LDL-C reading *understates* the carnivore arm's particle problem. A
-contested counter-argument (Astrup 2020) holds that a *diet-induced* saturated-fat LDL rise falls
+contested counter-argument holds that a *diet-induced* saturated-fat LDL rise falls
 mainly on the benign large-particle fraction and so overstates harm; the corpus records it as real but
 substantially superseded by apoB particle number as the summary quantity, and dated
 [@astrup2020]. Net: measure apoB; the concern stands.

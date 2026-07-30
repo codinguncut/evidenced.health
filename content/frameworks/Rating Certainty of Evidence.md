@@ -114,6 +114,8 @@ downgrade for and why. Its own summary of what the system delivers:
 - **Design tells you where the rating started, not where it ended.** Both "an RCT, therefore
   reliable" and *observational, therefore weak* skip the eight factors that do the work.
 
+
+``
 ## Aggregating across outcomes -- 5.4's second half
 
 This page rates certainty **per outcome**; a recommendation carries one label. GRADE 5.4 governs the
@@ -314,6 +316,8 @@ observation. What it does support is narrower and still useful: **a "GRADE-grade
 guidance is the exception, not the default**, so the appraisal spine this wiki uses is not the one the
 field uniformly runs on. `-> [[Was GRADE Actually Used]]`
 
+
+[@sacn2015] [@who2020] [@nasem]
 ## The third position: wanting GRADE's properties without adopting GRADE `[2026-07-27]`
 
 The three-body table above listed NASEM as *"declined to mandate any single standard."* Its stated

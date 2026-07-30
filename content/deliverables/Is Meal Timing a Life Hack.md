@@ -49,7 +49,7 @@ at meals. So a late/short window can trade the fat you wanted to lose for muscle
 ## Sub-question 2 — Glycaemic control: the one place timing may be real
 
 **Verdict: a genuine but tiny weight-independent signal — from eating EARLY, not from the window
-length.** eTRF (Sutton 2018) is the only trial here that isolates timing from calories. It fed 8
+length.** eTRF is the only trial here that isolates timing from calories. It fed 8
 overweight men with prediabetes enough to hold their weight steady, meal-by-meal matched, and
 compared a 6-hour **early** window (dinner before 3pm) against a 12-hour window over 5 weeks each.
 With **zero weight change** («body weight ... approximately stable») it found:

@@ -70,6 +70,8 @@ intensity), 11% (low / high), 18% (high / high). Interval training beats equal-e
 in one trial near-maximal intervals gave «20.6%» vs «9.4%» for moderate continuous. Older adults gain too
 (a 41-trial meta-analysis: +16.3%).
 
+
+[@ross2016]
 ## Does raising it help? — the modifiability evidence
 
 This is the partial answer to the nucleus's predictor-not-lever caveat. **Within-person CRF change** (a
@@ -92,6 +94,8 @@ therapy», and improvement «should be communicated to patients» — a modifiab
 ([[Physical Activity Dose and Mortality]]); CRF is best read as the **trackable, measurable outcome** of
 adherence to that lever.
 
+
+[@ross2016]
 ## CRF sharpens a risk estimate — but only if it reclassifies
 
 Adding CRF to a traditional risk model (age, BMI, SBP, diabetes, cholesterol, smoking) improves
@@ -109,6 +113,8 @@ what earns CRF the reclassification claim; the association alone would not. **CR
 from every current risk model** (SCORE2, Framingham, PREVENT) — a standing gap the statement argues to
 close.
 
+
+[@ross2016]
 ## The guidance move, and how to read it
 
 The statement's thesis is that CRF should be «an accepted "vital sign"» — the "only major risk factor
@@ -118,6 +124,8 @@ reclassification evidence was then judged inconclusive, and this statement marsh
 argue the exclusion should be revisited. Read it as a well-supported argument, not a neutral guideline —
 symmetric standards apply to a body making the case for its own risk factor.
 
+
+[@ross2016]
 ## Decision relevance
 
 - **You can know your CRF for free.** An eCRF equation from routine clinical numbers gives a first
@@ -146,6 +154,8 @@ symmetric standards apply to a body making the case for its own risk factor.
   mortality curve + adherence, not a compensation penalty. Net for this stratum: *doing regular
   activity at all* is the lever; HIIT-vs-walking is a second-order, adherence-bound refinement.
 
+
+``
 ## Limits
 
 - **Expert-consensus scientific statement, not a systematic review or GRADE appraisal** — «not intended
@@ -154,5 +164,8 @@ symmetric standards apply to a body making the case for its own risk factor.
   finding upgrades but does not resolve the nucleus's predictor caveat.
 - **\~50% of CRF is heritable** — the trainable fraction is real but bounded.
 - One body (AHA), 2016; whether other bodies endorse the vital-sign framing is unprobed.
+
+
+``
 
 ## References

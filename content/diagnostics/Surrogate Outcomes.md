@@ -92,6 +92,8 @@ likely to be low"*, and a dedicated list of *"Key questions when using test accu
   which presumes the link is an inference rather than an observation. The strength of *that* link is
   the whole question, and it is a separate evidential claim from the intervention -> marker effect.
 
+
+``
 ## Red flags
 
 - A marker used because it is measurable, where the patient-important outcome was never named
@@ -99,12 +101,16 @@ likely to be low"*, and a dedicated list of *"Key questions when using test accu
 - A target expressed as a threshold on a marker, with no statement of which outcome it is a route to.
 - Certainty ratings that look high for a body of evidence entirely composed of marker studies.
 
+
+``
 ## Green flags
 
 - The evidence profile names the patient-important outcome, shows the surrogate used for it, and
   carries an explicit indirectness downgrade.
 - The direction *and magnitude* of the marker -> outcome transmission is cited, not assumed.
 
+
+``
 ## Decision relevance
 
 A surrogate may legitimately serve as a **target to steer toward** even where it is a weak stand-in
@@ -127,6 +133,8 @@ cases: not all surrogates are equal, and this one has earned target status. (The
 the transmission holds only where the LDL-C drop reflects a real particle-number drop and carries no
 off-target harm.)
 
+
+``
 ## Applied — WHO downgrades strength because the evidence is a surrogate
 
 WHO's 2023 fat guideline supplies a worked instance of a surrogate costing *strength*, not just
@@ -200,6 +208,8 @@ survives is the observation above and the habit -- not an allegation.
   standards; whether one exists that guideline bodies actually apply is **unprobed here**.
 - **Source currency:** §3 is flagged in-source as rewritten in the 2024 GRADE Book.
 
+
+``
 ## A guidance-level version of the same critique `[2026-07-28, Willett ch.16]`
 
 This page asks when a recommendation may rest on a marker. Willett's policy chapter makes the same

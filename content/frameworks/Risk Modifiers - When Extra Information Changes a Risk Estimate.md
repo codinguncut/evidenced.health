@@ -20,6 +20,8 @@ updated: 2026-07-28b
 A risk model gives a number; a modifier is anything proposed to adjust it. ESC sets a bar that
 *"very few potential modifiers"* clear, and the bar is more interesting than the list.
 
+
+[@esc2021, 3.3]
 ## The five criteria a modifier must meet
 
 > - *"It improves measures of risk prediction, such as discrimination or reclassification"*
@@ -78,6 +80,8 @@ statement of the wiki's standing R1 problem. Also: *"the exact way of integratin
 on top of regular risk calculator input parameters is mostly unknown."* Even where a modifier qualifies,
 **how to combine it with the model is not specified.**
 
+
+[@esc2021, 3.3]
 ## ESC's four recommendations, in ESC's own order of strength
 
 **Read in ESC's order, not in order of technological interest.** CAC is the most discussed of the four
@@ -182,6 +186,8 @@ best-established among imaging, at Class IIb, is the accurate reading.
 alternative when CAC is unavailable, and ESC judges it *"probably also reclassifies CVD risk"* on
 evidence *«less extensive than it is for CAC»*.
 
+
+[@esc2021, 3.3]
 ## Decision relevance
 
 - **Ask first whether a test can move you across a threshold.** If the answer is no, the test cannot
@@ -201,6 +207,8 @@ evidence *«less extensive than it is for CAC»*.
 - **Check ethnicity before ordering an imaging test.** It is graded higher than CAC, costs nothing, and
   is the only modifier with a published multiplier.
 
+
+``
 ## Limits
 
 - One guidance body. Whether other bodies set the same bar or endorse the same shortlist is **unprobed**
@@ -210,6 +218,8 @@ evidence *«less extensive than it is for CAC»*.
   are cited to references not held here, so this page carries ESC's *verdicts* and not the evidence
   behind them.
 
+
+``
 ## A modifier that DID clear the bar — with a number and a grade `[2026-07-28, ESC chunk 03]`
 
 This page records ESC's five criteria and its verdict that *«very few potential modifiers»* clear them.

@@ -34,6 +34,8 @@ heterogeneous set strips the mechanism and yields a washed-out average that answ
 **This page extends the same rule one step earlier, to how the exposure is DEFINED.** Same failure,
 different object.
 
+
+``
 ## The evidence cuts three ways — and that is the finding
 
 > **Extended 2026-07-28:** a **fourth** case was added at the bottom of this page — a boundary that
@@ -65,6 +67,8 @@ different object.
   may be more difficult to detect an association."* **The category is too wide to carry anything, and
   SACN says so.**
 
+
+[@sacn2015]
 ### 3. The split was never resolved — and you cannot tell which case you are in
 
 - **Fish.** In WCRF's 80-page review, `fish` occurs **247 times** while type distinctions (*oily*,
@@ -132,6 +136,8 @@ wrong because the organism or the schedule **compensates** elsewhere, so net eff
 nothing at all on nutrient combinations or digestive effects. `AWAITS` sources; do not write these as
 claims from mechanism alone.
 
+
+``
 ## Tests
 
 1. **Does the source analyse sub-categories separately, or fold them?** If it folds them, the estimate
@@ -152,6 +158,8 @@ claims from mechanism alone.
    low-power null, not evidence of no effect: SACN's legume-fibre increment is **1 g/day** against
    7 g/day for total fibre.
 
+
+``
 ## Decision relevance
 
 - **Convergence across a boundary is actionable information.** SACN's refined-grain null says the
@@ -164,6 +172,8 @@ claims from mechanism alone.
   *positive* is also unreliable — it may be driven by one sub-type. This test is not a licence to
   discard inconvenient categories only.
 
+
+``
 ## Limits
 
 - **The within/between variance ratio is almost never measured for food categories**, so this is

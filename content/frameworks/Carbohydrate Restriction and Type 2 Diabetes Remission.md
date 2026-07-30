@@ -146,6 +146,8 @@ and insulin resistance met or surpassed their threshold at six months. HbA1c is 
 counting the outcomes rather than concluding it unknowable because the main text does not say so
 directly.
 
+
+[@goldenberg2021]
 ## The mechanism this review does not isolate — weight loss, not carbohydrate per se
 
 Low-carbohydrate diets cause weight loss, and this review's remission effect **attenuates to null by

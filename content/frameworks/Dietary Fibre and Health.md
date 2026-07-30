@@ -41,9 +41,9 @@ strongest evidence sits on the smallest effect.**
   (-0.37 kg, GRADE High), total cholesterol and blood pressure (Reynolds RCTs). Brown's own verdict:
   «The effect is small within the practical range of intake ... 3 g soluble fiber from oats ... can
   decrease total and LDL cholesterol by <0.13 mmol/L» and «can make only a small contribution to dietary
-  therapy to lower cholesterol.» [EXTRACTED @brown1999 chunk 01]
+  therapy to lower cholesterol.» [@brown1999]
 - **So: eat enough fibre, don't expect a miracle.** It is a genuine supporting lever — worth reaching
-  ~25-30 g/day — but its measured causal effect (on the surrogate we can trial) is modest, and the large
+  \~25-30 g/day — but its measured causal effect (on the surrogate we can trial) is modest, and the large
   mortality numbers should not be read as if they were RCT-proven.
 
 ## The two legs are DIFFERENT quantities (BLOCKING parameter table — op-weave 2a)
@@ -72,7 +72,7 @@ observational.
 Reynolds argues causality by triangulation: «The consistency between the trial and prospective study
 results, together with the dose-response relationships, provide support that the effect on cardiometabolic
 diseases is likely to be causal and not a consequence of confounding variables.»
-[EXTRACTED @reynolds2019 chunk 01] That is a legitimate
+[@reynolds2019] That is a legitimate
 observational-upgrading move ([[Upgrading Observational Evidence]]) — a monotone dose-response plus a
 concordant RCT surrogate arm raises confidence above bare correlation. But the hard-outcome arm is still
 cohorts of self-reported eaters; symmetric standards forbid reading it as if a mortality RCT had run. Hence
@@ -85,13 +85,13 @@ Fibre is the falsification prior's cleanest fabric instance, now with a **second
 Reynolds finds the fibre-outcome curves «many of which are linear with no sign of a plateau within the
 available data», with «the greatest benefits ... for individuals consuming 25-29 g per day» and
 recommends «no less than 25-29 g per day with additional benefits likely to accrue with higher intakes.»
-[EXTRACTED @reynolds2019 chunk 01]
+[@reynolds2019]
 
 - **This confirms SACN's reading** (SACN's 30 g marks where confidence intervals widen, not a knee) from a
   *separate* meta-analysis and evidence base — genuine independent backing (`[E-independent]`) for the
   decision default *every reduction pays; the burden is on whoever claims a knee to locate it*.
 - **But the shape is outcome-specific** (the gate-6 refinement). Brown's **LDL-surrogate** curve *does*
-  attenuate above ~8-10 g/d — a located knee on a surrogate — while Reynolds' **hard-outcome** curves stay
+  attenuate above \~8-10 g/d — a located knee on a surrogate — while Reynolds' **hard-outcome** curves stay
   linear. So *fibre has no plateau* is true of the outcomes and false of the LDL marker; the curve you get
   depends on the endpoint you pick. This is exactly why a plateau on a surrogate must not be read across to
   the outcome ([[Surrogate Outcomes]]).
@@ -113,7 +113,7 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 
 ## Decision relevance
 
-- **Target ~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
+- **Target \~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
   is fine and probably better (no plateau shown on outcomes). A realistic, sustained increase beats a
   supplement someone abandons ([[Free Sugars Intake]]: carbohydrate *quality* over quantity gimmicks).
 - **For LDL specifically**, viscous fibre (oats, psyllium) is a legitimate *adjunct* but a small one — a
@@ -131,7 +131,7 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   soluble-vs-insoluble and legume-vs-cereal outcome breakdown is too sparse in Reynolds to separate;
   fibre's colonic/**transit** mechanism is not covered by either source (the constipation / gut-transit
   sub-question the Fibre deliverable still routes as unheld). `AWAITS` a fibre-transit source. The
-  **microbiome** mechanism is now partly held: fermentable fibre is the substrate bacteria turn into  [EXTRACTED @valdes2018 chunk 01]
+  **microbiome** mechanism is now partly held: fermentable fibre is the substrate bacteria turn into  [@valdes2018]
   short-chain fatty acids, and it is the dominant modifiable lever on microbial diversity — so
   *prebiotics are largely fermentable fibre by another name*, and the prebiotic evidence reduces to the
   fibre evidence on this page -> [[Gut Microbiome and Health]] `[2026-07-29, Valdes + WGO]`.

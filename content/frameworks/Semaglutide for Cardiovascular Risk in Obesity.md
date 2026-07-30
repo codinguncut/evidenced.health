@@ -36,15 +36,13 @@ statins, 86% on antiplatelets):
 > semaglutide vs «701 of the 8801 patients (8.0%)» on placebo — «hazard ratio, 0.80; 95% confidence
 > interval, 0.72 to 0.90; P<0.001», a reduction «by 20%» over a mean 39.8 months.
 
-Absolute risk reduction is **1.5 percentage points over ~3.3 years -> NNT ~67**
-[INFERRED (Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023) — arithmetic on the two event
-rates; the trial states no NNT]. That is a real, incremental benefit **on top of** guideline therapy —
+Absolute risk reduction is **1.5 percentage points over \~3.3 years -> NNT \~67**. That is a real, incremental benefit **on top of** guideline therapy —
 not instead of it.
 
 **Who was enrolled fixes what the number means:** «patients 45 years of age or older who had preexisting
 cardiovascular disease and a body-mass index... of 27 or greater but no history of diabetes». This is a
 **secondary-prevention** population (prior MI, stroke, or symptomatic PAD), non-diabetic, with a placebo
-event rate of 8% over 3.3 years (~2.4%/yr).
+event rate of 8% over 3.3 years (\~2.4%/yr).
 
 ## The primary-prevention gap — stated by the trialists themselves
 
@@ -59,7 +57,7 @@ coronary-calcium score — the hard-outcome benefit of semaglutide is **not prov
 **insufficient-evidence** state, not the **no-effect** state (the two are kept distinct): SELECT gives
 no reason to think the drug stops working in primary prevention, only that it was never tested there.
 
-**The two trials bracket the hole precisely.** STEP-1 [EXTRACTED @wilding2021] *is* a primary-prevention population (no CVD
+**The two trials bracket the hole precisely.** STEP-1 [@wilding2021] *is* a primary-prevention population (no CVD
 required) — but its endpoint is weight and cardiometabolic surrogates, not events. SELECT *is* a
 hard-outcome trial — but only in secondary prevention. So: primary prevention has strong **surrogate**
 evidence and **zero hard-outcome** evidence; secondary prevention has the hard-outcome evidence. **No
@@ -71,8 +69,8 @@ population.
 [[Baseline Risk and the Relative-Absolute Split]] and [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]:
 
 1. **Absolute benefit scales with baseline risk.** A primary-prevention person at, say, 5% 10-year risk
-   (~0.5%/yr) sits roughly 5x below SELECT's placebo event rate. Apply the same HR 0.80 and the absolute
-   reduction shrinks ~5-fold — from ~1.5 pp/3.3 yr toward a fraction of a percentage point. The relative
+   (\~0.5%/yr) sits roughly 5x below SELECT's placebo event rate. Apply the same HR 0.80 and the absolute
+   reduction shrinks \~5-fold — from \~1.5 pp/3.3 yr toward a fraction of a percentage point. The relative
    effect is the fragile assumption; the absolute one is small by construction.
 2. **The relative effect itself may not transport.** Mechanism (plaque already present vs not) differs
    between secondary and primary prevention; SELECT cannot speak to it.
@@ -97,7 +95,7 @@ downstream is a point estimate, not a confirmed effect:
 > body weight «-9.39» % vs «-0.88» % (difference «-8.51 (-8.75 to -8.27)» percentage points at week 104);
 > waist circumference difference «-6.53» cm.
 
-~9% weight loss is the mechanism-adjacent reason this matters for [[Fatty Liver MASLD and Weight Loss]]
+\~9% weight loss is the mechanism-adjacent reason this matters for [[Fatty Liver MASLD and Weight Loss]]
 and for [[Layer 1 - Ranking Interventions for a Stratum]]: it is a **pharmacological route to the same
 weight lever** a lifestyle programme targets. The trialists note that prior non-surgical approaches
 reached weight loss «substantially lower than the mean 9.4% decrease observed with semaglutide» and had
@@ -110,7 +108,7 @@ route, combinable.
 SELECT's 9.4% was measured in an older, established-CVD population. STEP-1 (Wilding, NEJM 2021) ran the
 same drug in the population the wiki's obese strata actually resemble — «a body-mass index... of 30 or
 greater (≥27 in persons with ≥1 weight-related coexisting condition), who did not have diabetes», mean
-age 46, ~60% at BMI ≥35, only 2.5% with coronary artery disease — i.e. essentially **primary
+age 46, \~60% at BMI ≥35, only 2.5% with coronary artery disease — i.e. essentially **primary
 prevention**, as an adjunct to lifestyle (a 500-kcal deficit plus 150 min/week of activity). Its
 coprimary endpoint is **weight, a surrogate**, not events.
 
@@ -131,7 +129,7 @@ The two trials differ on exactly the axes that move weight response, so the comp
 | Follow-up at measurement | week 104 | week 68 | No — different window |
 | Population | established CVD, age 61.6, 72% male | no CVD required, age 46, 74% female | No — older/sicker vs younger |
 
-The honest read is **~15% in a primary-prevention obese adult, ~9% in an older secondary-prevention
+The honest read is **\~15% in a primary-prevention obese adult, \~9% in an older secondary-prevention
 one** — a population-and-window difference, not evidence of a prevention-setting effect on the drug.
 
 Benefit separated «early after the initiation of treatment», before much weight was lost, so «more rapid
@@ -185,11 +183,11 @@ caveat.
 
 ## Decision relevance
 
-- **Obese + established CVD + non-diabetic:** semaglutide is a strong incremental option — NNT ~67 for
-  MACE over ~3.3 years, on top of statins/antiplatelets, with a net-favourable serious-AE profile.
+- **Obese + established CVD + non-diabetic:** semaglutide is a strong incremental option — NNT \~67 for
+  MACE over \~3.3 years, on top of statins/antiplatelets, with a net-favourable serious-AE profile.
 - **Obese + primary prevention (low 10-year risk, CAC=0):** the hard-outcome benefit is **unproven** and
   would be **small in absolute terms even if it transported**. What *is* well-evidenced there (STEP-1) is
-  large and reliable: **~15% weight loss** (half lose ≥15%), waist/BP/CRP improvement, and diabetes
+  large and reliable: **\~15% weight loss** (half lose ≥15%), waist/BP/CRP improvement, and diabetes
   prevention (84% revert from prediabetes) — all real, all **surrogate**. Rank the drug for such a person
   on the **weight lever and diabetes prevention**, not on a promised CV-event reduction.
 - **Against lifestyle:** not a substitution question with a fixed answer — same lever, and the swing

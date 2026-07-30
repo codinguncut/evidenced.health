@@ -17,7 +17,7 @@ updated: 2026-07-26
 Outcomes are not interchangeable, and which ones a recommendation rests on is a **decision made
 before the evidence is read**, then revisited after. GRADE rates every candidate outcome into three
 ordinal categories: **critical and important outcomes both bear on the recommendation**, while only
-critical ones set the overall certainty rating. [EXTRACTED @grade §3.1]
+critical ones set the overall certainty rating. [@grade, §3.1]
 
 ## The three categories
 
@@ -28,7 +28,7 @@ critical ones set the overall certainty rating. [EXTRACTED @grade §3.1]
 An optional 1-9 numeric aid maps 7-9 critical, 4-6 important, 1-3 limited — used "to distinguish
 between importance categories," not as a cardinal weight. **Only outcomes rated critical determine
 the overall certainty of evidence supporting a recommendation**; critical and important outcomes both
-appear in the evidence tables. [EXTRACTED @grade §3.1, §4.1]
+appear in the evidence tables. [@grade, §3.1, §4.1]
 
 ## Mechanism — importance is chosen by what matters, NOT by what was measured
 
@@ -37,11 +37,11 @@ The load-bearing rule, and the one most often violated in practice:
 > "Guideline developers must base the choice of outcomes on what is important, not on what outcomes
 > are measured and for which evidence is available. If evidence is lacking for an important outcome,
 > this should be acknowledged, rather than ignoring the outcome."
-> [EXTRACTED @grade §3]
+> [@grade, §3]
 
 Operationalized by the **empty row**: an outcome the panel selected but for which no evidence exists
 still gets a row in the evidence profile, and "an empty row in an evidence profile can be informative
-in that it identifies research gaps." [EXTRACTED @grade §3.4]
+in that it identifies research gaps." [@grade, §3.4]
 
 This is an explicit anti-streetlight device — it prevents the outcome set from being silently
 redefined as *whatever the literature happened to measure*, which is the mechanism by which a body of
@@ -52,10 +52,10 @@ evidence comes to look more complete than it is.
 Importance "is likely to vary within and across cultures or when considered from the perspective of
 the target population, clinicians or policy-makers," so a panel **must declare whose perspective it
 is taking**; where the audience is clinicians and their patients, "the perspective would generally be
-that of the patient." [EXTRACTED @grade §3.2] Where evidence on values and preferences is
+that of the patient." [@grade, §3.2] Where evidence on values and preferences is
 absent, "panel members should use their prior experiences with the target population to assume the
-relevant values and preferences" [EXTRACTED @grade §3.3] — a fallback the handbook
-elsewhere concedes is *likely to be uncertain* [EXTRACTED @grade §6.2.1.2].
+relevant values and preferences" [@grade, §3.3] — a fallback the handbook
+elsewhere concedes is *likely to be uncertain* [@grade, §6.2.1.2].
 
 Declaring perspective before rating importance is the same discipline as declaring role, stage,
 materials and objective before an appraisal ([[Standpoint (Role Stage Materials Objective)]]).
@@ -67,20 +67,19 @@ to add outcomes the reviews surfaced and to re-weigh existing ones. GRADE's work
 for abdominal aortic aneurysm, where all-cause mortality starts as critical, the evidence establishes
 a cause-specific reduction without a demonstrable all-cause reduction, and all-cause mortality
 «ceases to be a critical outcome» because the cause-specific finding is judged sufficiently
-compelling. [EXTRACTED @grade §3.1]
+compelling. [@grade, §3.1]
 
 - **This is a live abuse surface, and GRADE's guard is an invariance test.** Demoting an outcome the
   evidence failed to move is how a disappointing result becomes a reframed success. The handbook's
   own trigger for the demotion: *"**An outcome** turns out to be not necessary if, across the range of
   possible effects of the intervention on that outcome, the recommendation and its strength would
   remain unchanged"* — and such judgments *"require careful consideration and are probably rare."*
-  [EXTRACTED @grade §5.4]
+  [@grade, §5.4]
   **Note the subject: it is the OUTCOME that becomes unnecessary, not the re-rating.** The sentence
   says when an outcome may be dropped from the critical set — it is not a licence to skip re-rating.
   Read the other way it becomes permissive rather than restrictive, which is the reverse of its role.
   That constrains motivated demotion without excluding it — the
   test asks whether the outcome could have mattered, not whether the demoter wanted it to.
-  [INFERRED (GRADE - Handbook) — entailment: an invariance test is insensitive to motive.]
 
 ## Decision relevance
 
@@ -93,7 +92,7 @@ compelling. [EXTRACTED @grade §3.1]
 - **A missing outcome is a finding.** If harms, burden or quality-of-life do not appear in the
   outcome set, the recommendation was scoped to exclude them — GRADE notes that "many, if not most,
   systematic reviews fail to address some key outcomes, particularly harms."
-  [EXTRACTED @grade §3]
+  [@grade, §3]
 
 ## Importance is also a MAGNITUDE threshold, not only an outcome ranking (2026-07-26)
 
@@ -102,7 +101,7 @@ change on a chosen outcome counts as meaningful.** Naude's Cochrane review state
 outcome and then reads every estimate against it -- weight *"about 4 to 6 kg... would start to become
 clinically meaningful"*, DBP *"greater than 2 mmHg"*, LDL *"greater than 0.26 mmol/L"*, HbA1c
 *"greater than 0.5%"*.
-[EXTRACTED @naude2022 Discussion]
+[@naude2022, Discussion]
 
 **Why this matters for reading any review:** without a stated threshold, "no significant difference"
 and *no meaningful difference* are indistinguishable, and so are "significant" and "worth doing." With
@@ -125,6 +124,6 @@ instrument as pre-specification.
   the operative object.
 - The re-rating step's only guard is the invariance test above, which is insensitive to motive.
 - **Source currency:** §3 is flagged in-source as rewritten in the 2024 GRADE Book.
-  [EXTRACTED @grade §3]
+  [@grade, §3]
 
 ## References

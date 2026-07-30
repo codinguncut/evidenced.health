@@ -26,16 +26,16 @@ Riou et al. 2015 (SR of 61 studies, 928 subjects; compensation = body-energy cha
 energy expended):
 
 - **Compensation is real, and wildly variable:** «The overall mean energy compensation was 18% ± 93%.»
-  [EXTRACTED @riou2015 chunk 01] So on average ~18% of the exercise
+  [@riou2015] So on average \~18% of the exercise
   energy deficit is offset (by increased intake or reduced non-exercise expenditure) — but the ±93% SD
   means the individual response ranges enormously, from over-compensation to none.
 - **Duration is the dominant driver, and it gets worse over time:** for short interventions compensation
   is low; «For studies of longer duration (about 80 weeks), the energy compensation approached 84%.»
-  [EXTRACTED @riou2015 chunk 01] This is the mechanism behind
+  [@riou2015] This is the mechanism behind
   *exercise alone underdelivers weight loss* -> [[Does Weight Loss Reduce Cardiovascular Events]] (why
   the weight lever disappoints) and the constrained-energy-expenditure picture.
 - **The intensity-specific worry is REFUTED:** «Sex, frequency, intensity and dose of exercise energy
-  expenditure were not significant predictors of energy compensation.» [EXTRACTED @riou2015 chunk 01] What predicts it is «the interaction between initial fat mass,
+  expenditure were not significant predictors of energy compensation.» [@riou2015] What predicts it is «the interaction between initial fat mass,
   age and duration» (48% of variance). **So HIIT does not compensate *more* than moderate work** — the
   maintainer's general concern (compensation is real) is upheld; the specific version (high exertion ->
   more NEAT downregulation) is not supported by this evidence.
@@ -48,12 +48,12 @@ interventions:
 
 - **A cleaner magnitude, and the mechanism:** «energy compensation by a typical human averages 28% due
   to reduced BEE; this suggests that only 72% of the extra calories we burn from additional activity
-  translates into extra calories burned that day.» [EXTRACTED @careau2021 chunk 01] So compensation is not only behavioural (eating more) — a measurable part is a drop in
+  translates into extra calories burned that day.» [@careau2021] So compensation is not only behavioural (eating more) — a measurable part is a drop in
   **basal energy expenditure**, a metabolic adjustment.
 - **The adiposity gradient — the decision-relevant twist:** «People that are at the 10th percentile of
   the BMI distribution compensate 27.7% of activity calories, whereas people at the 90th percentile
   compensate 49.2% of activity calories ... individuals with greater fat levels ... are stronger energy
-  compensators or ... become stronger compensators as they get fatter.» [EXTRACTED @careau2021 chunk 01] **The person carrying the most fat — who most wants to burn it
+  compensators or ... become stronger compensators as they get fatter.» [@careau2021] **The person carrying the most fat — who most wants to burn it
   off with exercise — compensates the most**, so exercise "counts" least exactly where the weight goal
   is greatest. Careau flags the causality as undetermined (do compensators get fatter, or does getting
   fatter raise compensation?), so read it as an association, not a proven within-person law.
@@ -61,7 +61,7 @@ interventions:
 **Independent backing `[E-independent]` — qualified, tells acknowledged.** Riou (61 exercise-*intervention*
 studies, body-composition change) and Careau (1,754 free-living adults, cross-sectional TEE-vs-BEE
 regression on the IAEA DLW database, explicitly excluding athletes/prescribed-exercise cohorts) reach the
-same qualitative claim — *a substantial fraction (~1/5 to ~1/4) of activity energy is offset* — by
+same qualitative claim — *a substantial fraction (\~1/5 to \~1/4) of activity energy is offset* — by
 genuinely different datasets and methods, with neither estimate derived from the other. **The
 independence is at the level of the estimate, and two tells are flagged rather than hidden:** Careau
 *cites* the exercise-intervention literature (Riou 2015 among its refs) as contextual motivation — but as
@@ -95,8 +95,8 @@ scale*, not a shared number.
   benefit does not depend on the un-compensated calories.
 - **Do not down-rank HIIT for a compensation reason** — intensity is not a compensation predictor. If
   HIIT is deprioritized, let it be for adherence or the small incremental-outcome argument, not NEAT.
-- **The higher someone's body fat, the less exercise "counts" toward the deficit** (Careau: ~28% ->
-  ~49% compensation across the BMI range) — a reason the higher-adiposity person should anchor weight
+- **The higher someone's body fat, the less exercise "counts" toward the deficit** (Careau: \~28% ->
+  \~49% compensation across the BMI range) — a reason the higher-adiposity person should anchor weight
   change on intake and use exercise for its fitness/function/mortality benefits, which do not run through
   the compensated calories.
 

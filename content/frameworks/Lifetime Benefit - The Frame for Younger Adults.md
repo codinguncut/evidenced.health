@@ -38,7 +38,7 @@ hardest, not where the guideline confines it.
 > drug treatment are not usually considered, except for patients with FH or specific BP disorders. **A
 > healthy lifestyle that is maintained throughout life is more relevant for the very young.**"*
 
-[EXTRACTED @esc2021 3.2.3.6]
+[@esc2021, 3.2.3.6]
 
 **So ESC bounds the very frame this page is about.** The lifetime argument is not a licence to treat the
 young pharmacologically — below 40 the predictions themselves are called imprecise, and the guideline
@@ -48,8 +48,6 @@ source**, which is why it is reproduced here rather than cited.
 **The mechanism:** risk-factor exposure compounds over decades while a 10-year window sees only the
 first slice. ESC states that *«Age is the major driver of CVD risk»*, so a young person with a bad
 risk-factor profile still scores low over ten years.
-[INFERRED (ESC - CVD Prevention Guidelines 2021) — entailment from the age-banded thresholds and the
-under-50 passage; the compounding framing is this page's, not ESC's wording.]
 
 ## The route ESC provides — generic across every age band, not an under-50 exception
 
@@ -64,7 +62,7 @@ verbatim in all three age sections, with only the threshold changing — `<2.5%`
 And it runs **bidirectionally** — ESC uses the same construct to treat *less* in the old:
 *"lifetime benefit of treatment in terms of time gained free of CVD is lower in older people. Therefore,
 the CVD risk thresholds for risk factor treatment are higher in apparently healthy people >=70 years."*
-[EXTRACTED @esc2021 3.2.3.4; 3.2.3.5; 3.2.3.6]
+[@esc2021, 3.2.3.4; 3.2.3.5; 3.2.3.6]
 
 **Governing recommendation class: IIa, Level C** — expert opinion, not trial evidence.
 
@@ -95,7 +93,7 @@ not only a larger gain.**
 
 > *"For 2 mmol/L LDL-C lowering, the average effect is almost twice as large, and so on."*
 
-[EXTRACTED @esc2021 Figure 12 caption]
+[@esc2021, Figure 12 caption]
 
 **Read that construction carefully — it is the wiki's own conversion move, done by the guideline.**
 A lifetime baseline risk multiplied by a relative effect from a meta-analysis, expressed in absolute
@@ -118,12 +116,12 @@ Figures 12 and 15 are by **age x sex x smoking x SBP x non-HDL-C**; **Figure 11 
 everyone in the smoking-cessation grid is a smoker by construction. All are live text in the PDF.
 
 **Two directions worth stating because they are counterintuitive:** women gain **more** than men from
-the same LDL reduction (45-49 non-smoking: ~0.9-2.0 years vs ~0.6-1.6), and **smokers gain less**
-(men 45-49 smoking ~0.5-1.4). Competing risk is why.
+the same LDL reduction (45-49 non-smoking: \~0.9-2.0 years vs \~0.6-1.6), and **smokers gain less**
+(men 45-49 smoking \~0.5-1.4). Competing risk is why.
 
 **Magnitudes, stated as a range rather than transcribed cell-by-cell.** For a middle-aged man in the
 45-49 band, 1 mmol/L of LDL-C lowering buys **roughly 0.6 to 1.6 CVD-free years**, rising with SBP and
-non-HDL and falling steeply with age — by 90+ the same intervention buys ~0.0-0.3 years.
+non-HDL and falling steeply with age — by 90+ the same intervention buys \~0.0-0.3 years.
 
 **Deliberately not transcribed cell-by-cell:** the published figure misprints the 45-49 systolic labels
 (they read `100-119 / 120-139 / 160-179 / 100-119`), so row alignment cannot be established from the

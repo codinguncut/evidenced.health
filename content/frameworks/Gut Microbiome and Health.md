@@ -32,7 +32,7 @@ Almost all microbiome research reports a *composition* change (which bacteria, h
 the limit plainly: «observational studies can show cross-sectional associations between microbes and health
 traits but are limited by the inability to measure causal relations. The strongest level of evidence is
 obtained from interventional clinical studies — in particular, randomised controlled trials.»
-[EXTRACTED @valdes2018 chunk 01] So low diversity is a *marker* of
+[@valdes2018] So low diversity is a *marker* of
 dysbiosis, not a demonstrated cause of disease, and the direction of the arrow (does dysbiosis cause the
 illness, or the illness/diet cause the dysbiosis?) is usually unresolved. Treat a composition-shift as a
 surrogate that earns belief only when followed through to an outcome ([[Surrogate Outcomes]]). The template
@@ -48,14 +48,14 @@ microbiome story largely *reduces to the fibre story* the fabric already holds: 
 plant-diverse diet ([[Dietary Fibre and Health]]). It also reframes **prebiotics** — a prebiotic is a
 substrate «selectively utilized by host microorganisms that confers a health benefit» (WGO), i.e. mostly
 fermentable fibre by another name, so the prebiotic evidence largely *is* the fibre evidence.
-[EXTRACTED @wgo2023 chunk 01]
+[@wgo2023]
 
 ## Probiotics: strain- and indication-specific, NOT a general tonic
 
 The WGO guideline's central discipline is that «the effects of probiotics are strain-specific and
 dose-specific» and «the most robust approach to probiotic evidence is to link benefits ... to specific
 strains or strain combinations of probiotics at the effective dose».
-[EXTRACTED @wgo2023 chunk 01] So "take a probiotic for gut
+[@wgo2023] So "take a probiotic for gut
 health" is not a claim the evidence supports; the evidence attaches to specific *strain x indication x
 dose* triples (WGO Tables 8-9). Where the evidence is real:
 
@@ -72,7 +72,7 @@ dose* triples (WGO Tables 8-9). Where the evidence is real:
 - The NEC finding is the most striking patient-important outcome: «The number needed to treat to prevent
   one death from all causes by treatment with probiotics is 20» in preterm neonates — but «not all
   probiotic preparations tested are effective», so it is a strain-quality claim, not a class claim.
-  [EXTRACTED @wgo2023 chunk 01]
+  [@wgo2023]
 - **Meta-analysis caveat (a method point that travels):** WGO warns that pooling across different strains
   without a shared-mechanism rationale «should be avoided» — a strain-blind probiotic meta-analysis can
   manufacture or wash out an effect. This is the [[Is the Food Category Doing Any Work]] problem at the
@@ -86,7 +86,7 @@ Faecal microbiota transplant is the clearest demonstration that the microbiome i
 procedure is effective in cases of severe drug refractory Clostridium difficile infection and is now
 routinely used for this purpose around the world. For other pathologies, faecal transplants are not yet
 clinical practice but have been explored.»
-[EXTRACTED @valdes2018 chunk 01] So FMT-for-recurrent-*C. difficile*
+[@valdes2018] So FMT-for-recurrent-*C. difficile*
 is the anchor of "what real microbiome evidence looks like"; the speculative uses (obesity, mood, metabolic
 disease) are explicitly *not yet*.
 

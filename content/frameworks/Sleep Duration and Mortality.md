@@ -17,17 +17,17 @@ relationships:
 ---
 
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
-around a ~7-8 h reference. But the two arms are **not the same kind of finding**, and reading them as
+around a \~7-8 h reference. But the two arms are **not the same kind of finding**, and reading them as
 one (*any deviation from 7-8 h shortens life*) is the error this page exists to prevent.
 
 ## The U-curve — two arms, very different footing
 
-| Arm (vs ~7-8 h reference) | Pooled RR (95% CI) | Heterogeneity | Source |
+| Arm (vs \~7-8 h reference) | Pooled RR (95% CI) | Heterogeneity | Source |
 |---|---|---|---|
 | **Short sleep** (commonly <7 h, often <5 h) | **1.12 (1.06-1.18)** | I2 = 39% | Cappuccio |
 | **Long sleep** (commonly >8-9 h) | **1.30 (1.22-1.38)** | I2 = 71% | Cappuccio |
 
-[EXTRACTED @cappuccio2010 chunk 01, Results]
+[@cappuccio2010, Results]
 
 16 studies, 27 cohorts, 1.38 million people, 112k deaths, all-cause mortality; reference «7 to 8 h per
 night». Short-follow-up studies (<3 y) were «excluded a priori... to avoid measurements of sleep
@@ -47,7 +47,7 @@ level of physical activity, undiagnosed health conditions, poor general health, 
 fatigue». The authors' framing: long sleep «may be a powerful additional marker of ill-health» and
 «sleeping 9 h or more per night may represent a useful diagnostic tool for detecting subclinical or
 undiagnosed co-morbidity».
-[EXTRACTED @cappuccio2010 chunk 01, Discussion]
+[@cappuccio2010, Discussion]
 
 **Three tells confirm the long arm is artifact-shaped, not dose-shaped** — each is exactly what the
 concept says to look for:
@@ -58,7 +58,7 @@ concept says to look for:
   RR 1.46 vs <60 y 1.22) and rising «>8 h, >=9 h... >=10 h» (>=10 h RR 1.54) — a frailty/illness gradient,
   not a physiological dose-response. The short arm, by contrast, is **flat across every subgroup**
   (age, cutoff; heterogeneity P=0.89).
-[EXTRACTED @cappuccio2010 chunk 01, Sources of Heterogeneity; Figure 5]
+[@cappuccio2010, Sources of Heterogeneity; Figure 5]
 
 **The short-sleep arm has the causal footing the long arm lacks.** It carries a named mechanism —
 «reciprocal changes in circulating levels of leptin and ghrelin... increase appetite, caloric intake,
@@ -67,16 +67,16 @@ cortisol, growth hormone, and low-grade inflammation — and cause-specific dire
 Whitehall II: those who **curtailed** sleep died «predominantly from cardiovascular causes (2.04)»
 while those who **increased** sleep died mainly of «non-cardiovascular» causes (2.06) — the pattern
 expected if short sleep is causal and long sleep tracks illness.
-[EXTRACTED @cappuccio2010 chunk 01, Potential Mechanisms; Study Limitations]
+[@cappuccio2010, Potential Mechanisms; Study Limitations]
 
 ## Decision relevance
 
 - **The actionable arm is short sleep.** Chronic short sleep (<7 h, especially <5 h) carries a real
-  ~12% higher mortality with a plausible causal mechanism — a lever worth pulling toward ~7-8 h.
+  \~12% higher mortality with a plausible causal mechanism — a lever worth pulling toward \~7-8 h.
 - ***Sleep less to live longer* is not supported.** The 30% long-sleep risk is mostly a *marker* of
   underlying illness; shortening a long sleeper's sleep is optimising a symptom, not the cause. A
   habitual long sleeper is a candidate for evaluation of occult illness, not a sleep-reduction target.
-- **The reference is ~7-8 h**, and the curve is shallow near it — precision beyond "adequate, not
+- **The reference is \~7-8 h**, and the curve is shallow near it — precision beyond "adequate, not
   chronically short" is not warranted by this evidence.
 
 ## Limits

@@ -37,7 +37,7 @@ Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activi
 The independence matters: these are adjusted for aerobic activity, and **combined MSA + aerobic gives a
 much larger benefit — «a 40% lower risk of all-cause mortality (RR 0.60; 95% CI 0.54 to 0.67)»** — so
 strength and aerobic are additive, not substitutes. This corroborates and refines the held
-strength-guideline finding on [[Physical Activity Dose and Mortality]] (both-guideline HR ~0.71); it is
+strength-guideline finding on [[Physical Activity Dose and Mortality]] (both-guideline HR \~0.71); it is
 **not** independent backing (same observational PA-epidemiology lineage, overlapping US cohorts), so it
 is a refinement, not an [E-independent] convergence.
 
@@ -51,8 +51,8 @@ The dose-response is the interesting part, and it is a worked case for
 > min/week»
 
 The pooled nadir is «The lowest RR (RR 0.83; 95% CI 0.79 to 0.86)... at 40 min/week», with benefit
-persisting to ~130-140 min/week and the hazard then rising above 1.0 — the J's upper arm, suggesting
-*more is worse* past ~2 hours/week.
+persisting to \~130-140 min/week and the hazard then rising above 1.0 — the J's upper arm, suggesting
+*more is worse* past \~2 hours/week.
 
 **Two cautions on that «40 min/week», because the point is fragile and easy to over-read
 `[user-challenge 2026-07-29]`:**
@@ -61,14 +61,14 @@ persisting to ~130-140 min/week and the hazard then rising above 1.0 — the J's
   («approximately 30–60 min/week»), and a key constituent study puts it higher: «the lowest risk of
   all-cause mortality was observed at 82 min/week of strength training» (Kamada). On very-low-GRADE,
   sparse, self-reported data the single pooled point (40) should be read as *somewhere in the
-  ~30–80+ min/week region*, not a precise target.
+  \~30–80+ min/week region*, not a precise target.
 - **This is total weekly MINUTES, not FREQUENCY — Momma «could not directly examine the frequency of
   muscle-strengthening activities».** So the curve says nothing about 2x vs 3x/week or session spacing;
   40 min/week could be two 20-minute sessions as easily as one. In particular it does **not** speak to
-  the training-physiology heuristic of stimulating each muscle group every ~48 h — that is advice for
+  the training-physiology heuristic of stimulating each muscle group every \~48 h — that is advice for
   **muscle/strength adaptation** (hypertrophy, protein synthesis), a *different outcome* on a *different*
   evidence base -> [[Protein and Resistance Training for Muscle and Strength]] (Morton 2018, now held:
-  RT is the driver, protein a modest RCT-grade adjunct up to ~1.6 g/kg/day). The mortality dose-response
+  RT is the driver, protein a modest RCT-grade adjunct up to \~1.6 g/kg/day). The mortality dose-response
   and the strength-adaptation question are two things, and *this* source answers only the first.
 
 **Do not act on the upper arm.** Three reasons it is likely an artifact, not a dose feature:
@@ -90,23 +90,22 @@ persisting to ~130-140 min/week and the hazard then rising above 1.0 — the J's
     body's glucose «sink» and improves glucose tolerance. This makes resistance training a **glycaemic
     lever, not only a function/mortality one** — decision-relevant specifically for the dysglycaemic /
     metabolic-syndrome stratum (the drifting-median adult), where the held diabetes L-shape is the
-    outcome this mechanism produces. `[INFERRED — the accepted physiology; the diabetes L-shape outcome
-    it explains is [EXTRACTED @momma2022]; a dedicated
+    outcome this mechanism produces. `; a dedicated
     glucose-disposal/insulin-sensitivity RCT source is not held -> a named acquirable gap.]` **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
   whose upturn lacks a mechanism (mortality/CVD/cancer) show one** — the diagnostic signature of an
   artifactual arm.
 
 **What survives:** the *lower* arm — a real, modest benefit reached by a **modest weekly volume** (a wide,
-imprecise ~30-80+ min/week region; the standard «at least 2 days/week» sits comfortably inside it). What
+imprecise \~30-80+ min/week region; the standard «at least 2 days/week» sits comfortably inside it). What
 does not: any reason to fear or to chase high MSA volume for mortality — nor any reading of an optimal
 *frequency*, which this source cannot supply.
 
 ## Decision relevance
 
-- **Add strength training — a modest weekly volume reaches most of the mortality benefit** (~30-80+
+- **Add strength training — a modest weekly volume reaches most of the mortality benefit** (\~30-80+
   min/week, imprecise; the standard «at least 2 days/week» is inside it), and it adds benefit *on top of*
   aerobic (the two combined are the best-evidenced activity state). The effective *volume* is small; the
-  optimal *frequency / spacing* (e.g. every ~48 h) is a strength-**adaptation** question this mortality
+  optimal *frequency / spacing* (e.g. every \~48 h) is a strength-**adaptation** question this mortality
   evidence does not address.
 - **But weight the warrant honestly.** This is observational, self-reported, very-low-GRADE evidence —
   a plausible, directionally-robust association, not an RCT-grade effect. It belongs below the BP and

@@ -8,6 +8,7 @@ sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Gluco
 confidence: low
 created: 2026-07-30
 updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **Verdict up front: it depends entirely on what you would drink or eat instead.** Non-sugar sweeteners
@@ -30,7 +31,7 @@ than the *specific thing* it replaces." Two comparators, two different answers:
 
 - **vs sugar:** modestly better, in the short term (see weight, below).
 - **vs water / nothing:** no measurable benefit — which is the comparison the WHO leans on when it
-  advises against using NSS to manage weight [EXTRACTED @who2023nonsugar chunk 01].
+  advises against using NSS to manage weight [@who2023nonsugar].
 
 Every claim that follows names its comparator. A verdict without one is not an answer.
 -> [[Non-Sugar Sweeteners]]
@@ -40,7 +41,7 @@ Every claim that follows names its comparator. A verdict without one is not an a
 Short-term randomized trials (RCTs) and long-term observational cohorts point in opposite directions,
 and reconciling them is the whole game.
 
-| Outcome | Short-term RCTs | Long-term cohorts (up to ~13 yr) |
+| Outcome | Short-term RCTs | Long-term cohorts (up to \~13 yr) |
 |---|---|---|
 | Body weight | MD **-0.71 kg** (95% CI -1.13 to -0.28) | ns / +0.14 BMI (0.03 to 0.25) |
 | Incident obesity | -- | **HR 1.76** (1.25 to 2.49) |
@@ -52,13 +53,13 @@ and reconciling them is the whole game.
 | All-cause mortality | -- | **HR 1.12** (1.05 to 1.19) |
 | Cancer (any) | -- | HR 1.02 (0.95 to 1.09) -- **null** |
 
-[EXTRACTED @who2023nonsugar chunk 01, Table 1]
+[@who2023nonsugar, Table 1]
 
 The obvious explanation is **reverse causation**: people who are already heavy or heading toward diabetes
 switch *to* sweeteners *because* of their weight, so the sweetener looks guilty for the very condition
 that drove them to it. The RCT biomarkers back this up — over months, NSS move fasting glucose (MD -0.01
 mmol/L), insulin (-0.49 pmol/L), HbA1c (0.02%) and blood pressure essentially not at all
-[EXTRACTED @who2023nonsugar chunk 01]. There is no short-term metabolic havoc to see.
+[@who2023nonsugar]. There is no short-term metabolic havoc to see.
 
 **But here is the honest part most write-ups skip.** WHO actually ran the reverse-causation battery —
 adjusting for BMI, stratifying by weight, dropping people who lost weight before the study started,
@@ -66,7 +67,7 @@ excluding the early follow-up years — and the associations mostly survived. It
 
 > «the associations observed between NSS use and health outcomes in observational studies cannot be
 > dismissed as being solely a result of reverse causation or residual confounding»
-> [EXTRACTED @who2023nonsugar chunk 02].
+> [@who2023nonsugar].
 
 So the cohort signal is **genuinely open** — not confirmed as harm, not explained away. This is the
 [[The U-Shaped Association Artifact]] machinery applied and returning a *not-dissolved* result. That
@@ -86,23 +87,23 @@ In July 2023, IARC classified aspartame as "possibly carcinogenic to humans" (Gr
 evidence, while the food-additive committee JECFA left the acceptable daily intake (ADI) unchanged --
 the primary evaluations are named acquisition targets, not yet independently held here. Group 2B is a
 *hazard* statement, and it is the same category as aloe vera extract and pickled vegetables; reaching the
-ADI would take roughly 9-14 cans of diet soda a day. "Possibly carcinogenic" is a statement about
+ADI would take roughly 9-14 cans of diet soda a day (a widely-cited figure, not yet verified against the not-yet-held JECFA evaluation). "Possibly carcinogenic" is a statement about
 whether something belongs on the list at all, not about your can of soda.
 
 What the wiki *does* hold on the outcome side is mixed and unresolved:
 
 - WHO's pooled cohorts show **overall cancer null** (HR 1.02, 0.95 to 1.09)
-  [EXTRACTED @who2023nonsugar chunk 01].
+  [@who2023nonsugar].
 - One newer French cohort (NutriNet-Sante, 102,865 adults) found the opposite: total artificial
   sweeteners and **overall cancer HR 1.13 (1.03 to 1.25, P-trend 0.002)**, aspartame HR 1.15 (1.03 to
   1.28), acesulfame-K HR 1.13 (1.01 to 1.26), breast cancer HR 1.22 (1.01 to 1.48)
-  [EXTRACTED @debras2022 chunk 01]. But this is a single
+  [@debras2022]. But this is a single
   observational cohort, self-reported diet, a self-selected health-conscious volunteer sample, a small
   absolute effect -- and it *disagrees with WHO's own null*. So the cohort cancer evidence is internally
   inconsistent.
 - A narrative safety review reports EFSA's standing position that «aspartame and its breakdown products
   are safe for human consumption at current levels of exposure», while calling the cancer link «still
-  highly controversial and under investigation» [EXTRACTED @aspartame2023 chunk 01].
+  highly controversial and under investigation and seems to be confirmed by some recent cohort studies» [@aspartame2023].
 
 Net: a contested, discordant observational *hazard* signal sits against a regulatory *risk* judgment of
 "safe at the ADI." No cancer risk is demonstrated at dietary intake.
@@ -111,32 +112,32 @@ Net: a contested, discordant observational *hazard* signal sits against a regula
 
 **vs sugar: a little, briefly. vs water: no.** Pooled across 29 RCTs (n=2433), NSS lowered body weight
 by **-0.71 kg (95% CI -1.13 to -0.28)**, with BMI change non-significant
-[EXTRACTED @who2023nonsugar chunk 01]. But that pooled number dissolves the moment you
+[@who2023nonsugar]. But that pooled number dissolves the moment you
 pin down the comparator:
 
 - **vs sugar** -> largest effect («with the largest effects when NSS were compared with sugars»).
 - **vs water / placebo** -> «no effect on body weight and a non-significant increase in BMI».
 - **As an actual sugar *replacement*** (telling habitual sugar-users to switch) -> the effect «was
   significantly weakened», shrinking to **-0.61 kg (95% CI -1.28 to 0.06), non-significant**, BMI change
-  gone [EXTRACTED @who2023nonsugar chunk 01].
+  gone [@who2023nonsugar].
 
 The reason is telling: the weight loss «is mediated at least in part by lower energy intake as a result
 of decreased free sugars intake, rather than primarily by an inherent property of NSS»
-[EXTRACTED @who2023nonsugar chunk 01]. It is the calories you *removed* doing the work,
+[@who2023nonsugar]. It is the calories you *removed* doing the work,
 not the sweetener you added. And WHO refuses to bank even this as a health benefit, because a few months
 of minor weight loss «does not represent a health benefit» unless «sustained over the long term» -- and
-the long-term cohorts run the other way [EXTRACTED @who2023nonsugar chunk 01]. Body
+the long-term cohorts run the other way [@who2023nonsugar]. Body
 weight over a few months is a *surrogate* for the sustained outcome that matters
 -> [[Surrogate Outcomes]]. This is the WHO's headline conclusion: it «suggests that non-sugar sweeteners
 not be used as a means of achieving weight control» -- a *conditional* recommendation on *low-certainty*
 evidence, i.e. a suggestion against, not a demonstration of harm
-[EXTRACTED @who2023nonsugar chunk 01].
+[@who2023nonsugar].
 
 ## Sub-question 3 -- Do they spike insulin or blood sugar? (two answers, kept apart)
 
 **The direct answer: for most NSS, no meaningful insulin or glucose response** -- fasting glucose MD
 -0.01 mmol/L (-0.05 to 0.04), fasting insulin -0.49 pmol/L, HbA1c 0.02%, all flat
-[EXTRACTED @who2023nonsugar chunk 01]. This is also why a continuous glucose monitor
+[@who2023nonsugar]. This is also why a continuous glucose monitor
 (CGM) shows nothing when you drink a diet soda: it measures glucose, and there is no glucose to see. (A
 CGM is a partial instrument anyway -- blind to fructose, galactose and the insulin response itself --
 and its benefit even in people it *is* studied in is a modest surrogate move, HbA1c -0.28%, with almost
@@ -145,7 +146,7 @@ no data in healthy non-diabetics -> [[Continuous Glucose Monitoring as a Health 
 **The separate, live signal is the gut microbiome, and here the news is more interesting.** A 2022 RCT
 gave 120 healthy adults who normally avoid sweeteners saccharin, sucralose, aspartame or stevia for two
 weeks at «doses lower than the acceptable daily intake». Findings
-[EXTRACTED @suez2022 chunk 01]:
+[@suez2022]:
 
 - **None were inert** -- each «distinctly altered stool and oral microbiome and plasma metabolome, whereas saccharin and sucralose significantly impaired glycemic responses».
 - **The class split:** saccharin and sucralose «impaired glycemic responses»; aspartame and stevia did
@@ -158,8 +159,7 @@ weeks at «doses lower than the acceptable daily intake». Findings
 **What this does and does not change.** It establishes a *real causal pathway* (some NSS -> microbiome ->
 glucose handling) in humans, which is why the long-term cohort signal is *less* dismissible as pure
 reverse causation. But the endpoint is a **two-week glucose surrogate**, not diabetes; the effect is
-personalized, not universal; and causal-on-the-marker is not causal-on-the-disease
-[INFERRED -- wiki synthesis across Suez and WHO]. The open verdict narrows; it does not close.
+personalized, not universal; and causal-on-the-marker is not causal-on-the-disease. The open verdict narrows; it does not close.
 
 ## Sub-question 4 -- Do they make you hungrier? Sub-question 5 -- Do they keep sweet cravings alive?
 
@@ -167,14 +167,14 @@ personalized, not universal; and causal-on-the-marker is not causal-on-the-disea
 (sweetness without calories might blunt learned satiety; habitual sweetness might keep the "sweet
 setpoint" high), but the human trial evidence is thin, mixed and mostly short-term. WHO's own review
 treats appetite/cravings and the microbiome route as *insufficient evidence*, not established benefit or
-harm [EXTRACTED @who2023nonsugar chunk 02]. A mechanism you can tell a story about is
+harm [@who2023nonsugar]. A mechanism you can tell a story about is
 not a demonstrated effect -- these stay flagged, not asserted.
 
 ## They are not one thing -- class vs member
 
 WHO deliberately issues its recommendation at the level of NSS «as a class of compounds», because «the
 evidence is currently insufficient to make recommendations for individual NSS», even though each «may
-have different physiological effects in humans» [EXTRACTED @who2023nonsugar chunk 01].
+have different physiological effects in humans» [@who2023nonsugar].
 The Suez trial proves the point: saccharin and sucralose moved glucose; aspartame and stevia did not. So
 a finding on one sweetener does not automatically transfer to another. Treat "artificial sweeteners" as a
 category of chemically distinct substances, not a single verdict.
@@ -186,19 +186,19 @@ category of chemically distinct substances, not a single verdict.
   drink.
 - **If your alternative is water or unsweetened food:** there is no benefit to gain. WHO's stated
   preference is «naturally occurring sweetness, such as fruits, as well as minimally processed
-  unsweetened foods and beverages» [EXTRACTED @who2023nonsugar chunk 01]. Swapping sugar
-  for a sweetener leaves «the overall quality of the diet largely unaffected».
+  unsweetened foods and beverages» [@who2023nonsugar]. Swapping sugar
+  for a sweetener leaves «the overall quality of the diet is largely unaffected».
 - **NSS are «not essential dietary factors and have no nutritional value»** -- so *not* using them costs
-  nothing [EXTRACTED @who2023nonsugar chunk 01].
+  nothing [@who2023nonsugar].
 - **Strata that change the answer:** the guideline **does not apply to people with existing diabetes**
   (excluded from the evidence). Higher NSS use in **pregnancy** is associated with preterm birth (OR 1.25,
-  1.07 to 1.46, low certainty) [EXTRACTED @who2023nonsugar chunk 01]. **Aspartame is
+  1.07 to 1.46, low certainty) [@who2023nonsugar]. **Aspartame is
   forbidden in phenylketonuria** and cautioned in some neurological conditions
-  [EXTRACTED @aspartame2023 chunk 01].
+  [@aspartame2023].
 
 The bigger lever, for almost everyone, is reducing free sugars in the first place -- WHO's separate strong
 recommendation is to keep free sugars below 10% of energy (and conditionally below 5%)
-[EXTRACTED @who2015 Recommendations, p.4 and p.16]. A sweetener is a tactic for getting
+[@who2015, Recommendations, p.4 and p.16]. A sweetener is a tactic for getting
 there, not a health intervention in its own right.
 
 ## Where this agrees and disagrees with official guidance

@@ -8,6 +8,7 @@ sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, 
 confidence: low
 created: 2026-07-30
 updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **The verdict, up front.** On the *health* axis, buying organic is a small, low-certainty lever at
@@ -41,20 +42,20 @@ live in the pieces. Below, the four pieces, each with its own number.
 
 ## Piece 1 -- Pesticide residues: lower on organic, but no proven health difference
 
-This is where organic has its clearest measured edge. The crop meta-analysis (over 343 publications)
+This is where organic has its clearest measured edge. The crop meta-analysis (343 publications)
 found "the frequency of occurrence of pesticide residues was found to be four times higher in
 conventional crops, which also contained significantly higher concentrations of the toxic metal Cd"
-(cadmium) [EXTRACTED @baranski2014]. Cadmium
+(cadmium) [@baranski2014]. Cadmium
 ran "on average 48 %" lower in organic crops — though that percentage estimate had a wide interval
 (95% CI -112, 16), so the *significant* cadmium difference rests on a different statistical measure, not
-the headline percentage [EXTRACTED @baranski2014].
+the headline percentage [@baranski2014].
 
 But a detectable difference in residues is not a health difference. The residue level is a **surrogate**
 -- a marker standing in for the outcome you actually care about, which is harm at real-world exposure
 -> [[Surrogate Outcomes]]. The Annals systematic review supplies the missing link, and it is missing:
 organic produce carried a lower residue-contamination risk (risk difference 30%), but "differences in
 risk for exceeding maximum allowed limits were small"
-[EXTRACTED @smithspangler2012]. When both
+[@smithspangler2012]. When both
 organic and conventional sit largely *below* the regulatory limit, a difference in detectable residues
 does not transmit to a difference in harm. Decades of residue-comparison data exist; an outcome trial
 showing harm at these levels does not. Lower residues are a fair *precautionary* reason to prefer
@@ -63,25 +64,27 @@ organic — they are not a demonstrated health benefit.
 One cleaner safety signal did show up, and it was not about pesticides: bacteria resistant to three or
 more antibiotics were commoner on conventional chicken and pork (risk difference 33%), while *E. coli*
 contamination did not differ by farming method
-[EXTRACTED @smithspangler2012].
+[@smithspangler2012].
 
 ## Piece 2 -- Nutrient content: small differences, running BOTH ways
+
+(Caveat: the three composition meta-analyses behind Pieces 1-3 are one research consortium (one Newcastle-led research consortium, with one organic-sector-affiliated author) -- so they are not independent backing; "volume is not independence", reinforcing the low confidence.)
 
 The crop meta-analysis found antioxidants and (poly)phenolics "substantially higher in organic," with
 individual phenolic classes an estimated 19% (95% CI 5, 33), 69% (13, 125), 28% (12, 44), 26% (3, 48),
 50% (28, 72) and 51% (17, 86) higher (phenolic acids, flavanones, stilbenes, flavones, flavonols,
-anthocyanins) [EXTRACTED @baranski2014].
+anthocyanins) [@baranski2014].
 
 Those look like large relative numbers, but the review that actually weighted nutrients for clinical
 importance found almost nothing worth acting on. Smith-Spangler: "The published literature lacks strong
 evidence that organic foods are significantly more nutritious than conventional foods" — of all the
 nutrients compared, only phosphorus reached significance, a difference the authors themselves call not
-clinically significant [EXTRACTED @smithspangler2012].
+clinically significant [@smithspangler2012].
 
 And the differences do **not** all favour organic — an important check, because uniformly favourable
 findings are a warning sign about the appraisal, not a fact about the food. Organic milk was higher in
 alpha-tocopherol (vitamin E) and iron but **lower in iodine and selenium**
-[EXTRACTED @srednickatober2016milk]. The honest picture is
+[@srednickatober2016milk]. The honest picture is
 mixed and small against the backdrop of a whole diet.
 
 ## Piece 3 -- The cattle case: the label tracks the FEED, not the certificate
@@ -93,25 +96,24 @@ coming apart. Organic milk and meat do carry a more desirable fatty-acid profile
 **Milk** (170 studies): no significant difference in total saturated or monounsaturated fat, but n-3
 (omega-3) polyunsaturated fats were 56% higher in organic (95% CI 38, 74), alpha-linolenic acid +69%
 (53, 84), the very-long-chain omega-3s EPA+DPA+DHA +57% (27, 87), and conjugated linoleic acid (CLA)
-+41% (14, 68) [EXTRACTED @srednickatober2016milk].
++41% (14, 68) [@srednickatober2016milk].
 
 **Meat** (67 studies): saturated fat "similar," monounsaturated "slightly lower" in organic; total and
 omega-3 polyunsaturated fats an estimated 23% (95% CI 11, 35) and 47% (10, 84) higher in organic meat.
 Heterogeneity was high and "could be explained by differences between animal species/meat types"
-[EXTRACTED @srednickatober2016meat].
+[@srednickatober2016meat].
 
 Both meta-analyses say, in their own voice, that the cause is feed, not certification. Milk: "the higher
 grazing/conserved forage intakes in organic systems were the main reason for milk composition
-differences" [EXTRACTED @srednickatober2016milk]. Meat: "the
+differences" [@srednickatober2016milk]. Meat: "the
 high grazing/forage-based diets prescribed under organic farming standards may be the main reason for
-differences in FA profiles" [EXTRACTED @srednickatober2016meat].
+differences in FA profiles" [@srednickatober2016meat].
 
 So the real lever is **grass versus grain**. Organic certification only *correlates* with pasture — it
 mandates outdoor access, not a forage-dominated diet. That means a pasture-raised *conventional* animal
 can beat an *organic grain-fed* one on the very nutrient that reaches the milk or meat. The right thing
 to steer by is the exposure (grass-fed / pasture), not the word (organic); the label is only a partial
-proxy for it [INFERRED — the label-vs-feed decoupling is the wiki's reasoning from the certification
-rules; the sources supply the feed-is-the-driver attribution] -> [[Is the Food Category Doing Any Work]].
+proxy for it -> [[Is the Food Category Doing Any Work]].
 
 One number is still missing, and it matters: these are *relative* lifts in the product. Whether a
 +40-70% relative rise in omega-3 in milk or meat is *large in absolute terms* against your total daily
@@ -127,14 +129,14 @@ There is exactly one sizeable study linking organic eating to a hard outcome, an
 The NutriNet-Sante cohort (68,946 French adults, 1,340 incident cancers) reported "High organic food
 scores were inversely associated with the overall risk of cancer (hazard ratio for quartile 4 vs
 quartile 1, 0.75; 95% CI, 0.63-0.88; ... absolute risk reduction, 0.6%; hazard ratio for a 5-point
-increase, 0.92; 95% CI, 0.88-0.96)" [EXTRACTED @baudry2018].
+increase, 0.92; 95% CI, 0.88-0.96)" [@baudry2018].
 
 At face value that is a 25% lower relative risk. The problem is *who buys organic*. In the study's own
 Table 1, higher organic scores tracked higher income, more postsecondary education, more physical
 activity, and former (not current) smoking; overall diet quality rose (score 7.41 -> 8.19 from lowest
 to highest quartile), BMI fell (24.46 -> 22.92), fibre rose (17.9 -> 22.6 g/day), and processed meat
 (23.7 -> 15.1 g/day) and red meat (48.7 -> 31.4 g/day) fell
-[EXTRACTED @baudry2018]. Organic buyers differ from
+[@baudry2018]. Organic buyers differ from
 non-buyers on nearly every established cancer risk factor *at once*. The organic score is a marker of a
 healthier overall life, and that life predicts less cancer on its own — the classic trap of reading a
 healthy population as evidence for one of its components.
@@ -146,18 +148,18 @@ construction -> [[Measurement Error in Dietary Assessment]]). More tellingly, th
 check points *away* from organic itself: "Combining both a high-quality diet and a high frequency of
 organic food consumption did not seem to be associated with a reduced risk of overall cancer compared
 with a low-quality diet and a low frequency of organic food consumption"
-[EXTRACTED @baudry2018]. The signal appeared where diet
+[@baudry2018]. The signal appeared where diet
 quality was low, not stacked on top of an already-good diet — consistent with diet quality, not the
 label, doing the work. The authors are explicit that "these factors should be carefully accounted for
 in etiological studies in this research field"
-[EXTRACTED @baudry2018]. The expected answer for this
+[@baudry2018]. The expected answer for this
 piece was "cannot cleanly attribute," and that is what the evidence delivers.
 
 ## Putting it together
 
 | Piece | What's measured | Effect | Reaches a health outcome? |
 |---|---|---|---|
-| Pesticide residues | ~4x lower residue incidence in organic crops; contamination risk difference 30% | real | No -- both arms mostly below limits; a surrogate |
+| Pesticide residues | \~4x lower residue incidence in organic crops; contamination risk difference 30% | real | No -- both arms mostly below limits; a surrogate |
 | Antibiotic-resistant bacteria | 33% lower risk difference on organic chicken/pork | real | Plausible but unproven |
 | Nutrients | +19-69% some polyphenols; lower iodine/selenium in organic milk | small, mixed | No -- weighting SR found no clinical superiority |
 | Animal-product omega-3/CLA | +40-70% relative in organic milk/meat | real, relative | It's a FEED (pasture) effect; absolute share unquantified |

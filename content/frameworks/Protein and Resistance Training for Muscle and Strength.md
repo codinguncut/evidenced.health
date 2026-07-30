@@ -53,7 +53,7 @@ intakes of 1.62 g/kg/day resulted in no further RET-induced gains in FFM». This
 relationship», so above the point where synthesis saturates, extra protein has nothing to add.
 
 **But hold the number loosely** (the lesson from Challenge #10): the break point is «1.62 (1.03, 2.20)»
-g/kg/day — the confidence interval runs from ~1.0 to ~2.2, so "~1.6" is a central estimate with wide
+g/kg/day — the confidence interval runs from \~1.0 to \~2.2, so "\~1.6" is a central estimate with wide
 uncertainty, not a precise threshold. And the baseline matters: control groups were already eating «pre:
 1.4±0.3» g/kg/day, so the useful move is *reaching* roughly 1.6, not exceeding it — going higher buys no
 further lean mass.
@@ -72,7 +72,7 @@ monotone. A saturating supply (protein → synthesis) plateaus; a risk-reduction
 ## The surrogate boundary — this is the mechanism, not the outcome
 
 Muscle mass and strength are **surrogates** ([[Surrogate Outcomes]]), not patient-important endpoints.
-Morton [EXTRACTED @morton2018] is the *mechanism* half of the resistance-training story — RT (plus adequate protein) builds
+Morton [@morton2018] is the *mechanism* half of the resistance-training story — RT (plus adequate protein) builds
 muscle, RCT-grade — while [[Muscle-Strengthening Activity and Mortality]] is the *outcome* half — strength
 activity associates with lower mortality, observational-grade. **Neither shows that protein
 supplementation reduces mortality**; the composite is "RT builds muscle (proven) and strength associates
@@ -83,11 +83,11 @@ surrogate is not worthless, it is just not the mortality endpoint.
 ## Decision relevance
 
 - **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — that is where the
-  muscle-building benefit plateaus; more is not better for lean mass. Most people who already eat ~1.4
+  muscle-building benefit plateaus; more is not better for lean mass. Most people who already eat \~1.4
   g/kg are close, so the move is topping up, not loading.
   - **The target is protein *quantity*, and it silently assumes quality.** Morton's trials were mostly
-    high-quality supplemental protein (whey). Hitting ~1.6 g/kg from low-DIAAS plant sources (peas 64,
-    wheat 40 vs milk 122) delivers fewer digestible indispensable amino acids per gram, so it needs more  [EXTRACTED @fao2013 chunk 02]
+    high-quality supplemental protein (whey). Hitting \~1.6 g/kg from low-DIAAS plant sources (peas 64,
+    wheat 40 vs milk 122) delivers fewer digestible indispensable amino acids per gram, so it needs more  [@fao2013]
     grams — hence more food mass — or deliberate complementation to be equivalent
     -> [[Protein Quality and the DIAAS Score]]. This is a source caveat on the number, not a change to it.
 - **The training is the lever; protein is the adjunct.** Do not expect protein alone (without the
@@ -102,7 +102,7 @@ surrogate is not worthless, it is just not the mortality endpoint.
     20-30% — the authors attribute it to a short ad-libitum window cutting protein intake (protein is
     eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
-    the window. [EXTRACTED @lowe2020 chunk 01]
+    the window. [@lowe2020]
 
 ## Limits
 

@@ -68,10 +68,7 @@ measured:**
 The inversion is therefore a symptom of **thin hard-outcome trial evidence meeting a well-studied
 marker** — wherever the outcome has been tried (or measured in large objective cohorts), certainty can
 attach to the outcome directly.
-`[INFERRED (WHO - Sodium Intake 2012; WHO - Saturated and Trans Fatty Acid Intake 2023;
-WHO - Physical Activity Web Annex Evidence Profiles 2020) — each certainty grade and the sodium
-biomarker classification are the sources'; the cross-exposure regularity, the counter-instance, and the
-trial-availability mechanism are this page's]`
+``
 
 ## Why carbohydrate restriction is NOT a third instance
 

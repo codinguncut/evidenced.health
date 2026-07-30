@@ -41,7 +41,7 @@ evidence exists, not on the mechanistic optimism.
 | **Goitrogens** | thyroid interference | cooking reduces progoitrin | most human studies neutral; Brassica levels usually below a physiological threshold | suboptimal-iodine status |
 | **Phytoestrogens** | endocrine disruption | (source/processing dependent) | evidence mixed; gut-microbiome and source dependent | infants (small size, immature gut) |
 
-[EXTRACTED @petroski2020 sections 2.6, 3.6, 4.6, 5.6, 6.6, 7.6]
+[@petroski2020, sections 2.6, 3.6, 4.6, 5.6, 6.6, 7.6]
 
 ## The transferable claim — an isolated compound in an animal is not a cooked food in a person
 
@@ -49,11 +49,11 @@ This is the diagnostic worth keeping, beyond any single compound:
 
 > «Harmful (and even beneficial) effects of an individual, isolated compound or phytochemical are often
 > quite different than when the same compound is within the complex food matrix.»
-> [EXTRACTED @petroski2020 section 7.6]
+> [@petroski2020, section 7.6]
 
 > «much of the research on antinutritional components are performed using isolated compounds in animal
 > models, which are not representative of a balanced diet.»
-> [EXTRACTED @petroski2020 section 8]
+> [@petroski2020, section 8]
 
 The alarming findings are overwhelmingly from **isolated compounds, in animal models or cell culture,
 often at raw-food or supraphysiological doses**; whole-food human trials mostly do not reproduce them.
@@ -74,7 +74,7 @@ academic in a varied diet. For lectins in the highest-lectin legumes it is **not
 > methods that can significantly reduce lectin content. In the case of particularly high-lectin
 > legumes, such as soybeans and kidney beans, boiling or autoclaving is required to eliminate lectins,
 > as reduced cooking temperatures do not significantly affect lectin content.»
-> [EXTRACTED @petroski2020 section 2.6]
+> [@petroski2020, section 2.6]
 
 So the correct message is not *antinutrients are harmless* but *properly prepared plant foods in a
 balanced diet carry no meaningful net antinutrient harm* — and the phrase *properly prepared* is
@@ -86,7 +86,7 @@ The review's own text refuses the blanket all-clear, and so should the page:
 
 > «Nonetheless, some studies still advise that those with low iron stores, especially females, consume
 > tannin-rich beverages, such as tea, after or in-between meals»
-> [EXTRACTED @petroski2020 section 7.6]
+> [@petroski2020, section 7.6]
 
 Real, in-stratum concerns survive: raw/undercooked high-lectin legumes (an acute toxicity, not a
 chronic-diet claim); low iron stores + tannin timing; recurrent kidney-stone formers + oxalate load;

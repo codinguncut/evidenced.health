@@ -29,7 +29,7 @@ once a stratum-specific 10-year risk exists.
 | High: *"risk factor treatment should be considered"* | 2.5 to <7.5% | 5 to <10% | 7.5 to <15% |
 | Very high: *"risk factor treatment generally recommended"* | >=7.5% | >=10% | >=15% |
 
-[EXTRACTED @esc2021 Table 5]
+[@esc2021, Table 5]
 
 **The same 10-year risk can mean two different things at two ages** — 8% is *very high* under 50 and
 *high* at 72. **It cannot mean three** — the thresholds are monotone, so no single number can be
@@ -56,7 +56,7 @@ Two qualifiers ESC attaches itself:
 | 120-139 | 7 · 8 · 9 · 10 | 11 · 13 · 14 · 15 |
 | 100-119 | 6 · 7 · 7 · 8 | 9 · 10 · 11 · 12 |
 
-[EXTRACTED @esc2021 Figure 3, moderate-risk region chart, read directly
+[@esc2021, Figure 3, moderate-risk region chart, read directly
 from the rendered page per `CLAUDE.source-prep.md` -> *Tables*, tier 3]
 
 **Moderate-risk region = Austria, Cyprus, Finland, Germany, Greece, Iceland, Ireland, Italy, Malta,
@@ -85,8 +85,8 @@ in assumed inputs and manufacture a decision-change out of the writer's own defa
 The wiki holds [[Saturated Fat Intake and Replacement]]: reducing SFA gives **RR 0.83 (0.70-0.98)** for
 cardiovascular disease. At a 10% baseline:
 
-> absolute reduction = 10% x (1 - 0.83) = **1.7 percentage points, or ~17 fewer CVD events per 1000**
-> over 10 years — with the interval running ~2 to 30 fewer per 1000.
+> absolute reduction = 10% x (1 - 0.83) = **1.7 percentage points, or \~17 fewer CVD events per 1000**
+> over 10 years — with the interval running \~2 to 30 fewer per 1000.
 
 **Three assumptions, none of them free, and all of them the reader's to accept or reject:**
 
@@ -99,9 +99,6 @@ cardiovascular disease. At a 10% baseline:
    base model — and this stratum has metabolic syndrome, which sits adjacent to that exclusion.
    **SCORE2-Diabetes exists precisely because the base model does not cover diabetes**, and it is
    staged but not ingested.
-
-[INFERRED (ESC - CVD Prevention Guidelines 2021; WHO - Saturated and Trans Fatty Acid Intake 2023) —
-arithmetic on the two held quantities.]
 
 **The novelty here is narrow, and the tempting larger claim is false.** It is *not* the case that
 neither source performs this conversion: **WHO performs it throughout** — its evidence profiles carry an
@@ -141,7 +138,7 @@ Note also that WHO grades this estimate **Moderate** certainty; the RR should no
 - **Base model excludes diabetes**, which bounds its use for exactly the stratum the wiki is targeting. (staged; augments the base model for the T2D stratum).
 - **Charts read at tier 3** (direct rendered-page read) because `find_tables()` returns nothing usable
   on this layout. Values above are transcribed from the rendered grid; the full four-region chart set is
-  ~2 560 cells and only the moderate-region men's 60-64 block is carried here.
+  \~2 560 cells and only the moderate-region men's 60-64 block is carried here.
 - No calibration or discrimination statistics are held — those live in the SCORE2 source papers
   (staged, not ingested). **PROBAST+AI does not rank these against each other**: it lists calibration,
   discrimination and net benefit symmetrically, and an apparent emphasis on calibration comes from the

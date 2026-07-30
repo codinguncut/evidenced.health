@@ -4,17 +4,18 @@ type: deliverable
 subject: Meal timing (TRE, OMAD, intermittent fasting, breakfast-skipping) as an independent health lever
 question: Is meal timing an independent lever on health, or mostly a convenient way to eat less?
 aliases: [Is Meal Timing a Life Hack, Meal Timing Life Hack, Time-Restricted Eating Deliverable, Intermittent Fasting Appraisal, Is Skipping Breakfast a Free Lunch]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, GRADE - Handbook]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018]
 confidence: low
 created: 2026-07-30
 updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **Verdict up front: mostly no.** Time-restricted eating (TRE), one-meal-a-day (OMAD),
 intermittent fasting and skipping breakfast are, for the most part, **a convenient delivery
 system for eating less** — not a metabolic trick that works through the clock. When the honest
-test is run — the *calorie-matched* trial, where the fasting and control arms eat the same
-amount — the timing advantage largely disappears. There is **one** narrow exception worth
+test is run — the one small *calorie-matched* trial (eTRF, n=8) shows only surrogate effects, and the weight null
+comes from the free-living TREAT trial — the timing advantage does not survive as a weight lever. There is **one** narrow exception worth
 separating out: eating **earlier** in the day may improve glucose handling and blood pressure a
 little, independent of weight. Everything else that "works" about meal timing works because a
 shorter eating window makes you eat less and is easy to remember.
@@ -36,12 +37,12 @@ headline; the clever protocol is usually the small print ([[Free Sugars Intake]]
 adequately-powered free-living trial — TREAT, n=116, a self-selected 16:8 window (eat noon-8pm,
 skip breakfast) with *nothing else changed* — TRE produced **no weight advantage** over normal
 three-meal eating: a between-group difference of «-0.26 kg» with «P = .63»
-[EXTRACTED @lowe2020 chunk 01]. Adherence was good; the timing
+[@lowe2020]. Adherence was good; the timing
 simply did not do anything on its own.
 
 Worse, the modest weight it did shed was **disproportionately muscle**: «approximately 65% ...
 lean mass» versus the normal 20-30% for weight loss, with a significant between-group deficit in
-appendicular lean mass [EXTRACTED @lowe2020 chunk 01]. The
+appendicular lean mass [@lowe2020]. The
 likely mechanism is that a short, unplanned window quietly cuts **protein**, which is eaten mostly
 at meals. So a late/short window can trade the fat you wanted to lose for muscle you did not.
 
@@ -58,7 +59,7 @@ With **zero weight change** («body weight ... approximately stable») it found:
 - improved beta-cell responsiveness and lower oxidative stress
 - fasting **glucose itself was null** — the primary endpoint did not move
 
-[EXTRACTED @sutton2018 chunk 01]
+[@sutton2018]
 
 If real, this is a true circadian effect: metabolism is better aligned to food earlier in the
 day, and eating late is the worse pattern. But the caveats are severe. It is **n=8**, men only,
@@ -92,13 +93,13 @@ weakly evidenced; skipping it is neither a metabolic trick nor a guaranteed win.
 Meal timing "works" by creating a calorie deficit, and the body is good at quietly refilling
 deficits. The clearest worked case is exercise ([[Exercise Energy Compensation]]): across 61
 studies (928 subjects), «the overall mean energy compensation was 18% +/- 93%»
-[EXTRACTED @riou2015 chunk 01] — and it **grows over time**, so
+[@riou2015] — and it **grows over time**, so
 that «for studies of longer duration (about 80 weeks), the energy compensation approached 84%»
-[EXTRACTED @riou2015 chunk 01]. A doubly-labelled-water study of
+[@riou2015]. A doubly-labelled-water study of
 1,754 adults found compensation «averages 28% due to reduced BEE» — a measurable drop in basal
 metabolism — «so ... only 72% of the extra calories we burn ... translates into extra calories
 burned that day», rising from «27.7%» at the leanest to «49.2%» at the heaviest
-[EXTRACTED @careau2021 chunk 01].
+[@careau2021].
 
 The lesson transfers: a naive intervention that opens an energy gap is partly offset by
 behaviour and metabolism, and **the offset is largest in the person who most wants the effect**.
@@ -112,14 +113,14 @@ itself buys. The honest picture:
 - **On hard cardiovascular events, lifestyle weight loss underdelivers.** Look AHEAD (5,145
   adults with type 2 diabetes) lost more weight in the intensive arm yet hit its CV endpoint at
   «hazard ratio 0.95; 95% CI 0.83 to 1.09» — no reduction
-  [EXTRACTED @look2013 chunk 01]. A 54-trial
+  [@look2013]. A 54-trial
   meta-analysis (30,206 adults) confirms it: CV events «risk ratio 0.93, 95% CI 0.83 to 1.04»
   (null), while all-cause mortality did fall — «risk ratio 0.82, 95% CI 0.71 to 0.95» — a benefit
-  **not routed through the heart** [EXTRACTED @ma2017].
+  **not routed through the heart** [@ma2017].
 - **But for the outcomes weight loss does move, the effect is large.** DiRECT put **46%** of
   short-duration type 2 diabetics into remission (vs 4% control, «OR 19.7»), and remission scaled
   monotonically with kilograms lost — from **0%** in those who gained weight to **86%** in those
-  losing >=15 kg [EXTRACTED @lean2018 Results]. Notably DiRECT did this on
+  losing >=15 kg [@lean2018, Results]. Notably DiRECT did this on
   a **59%-carbohydrate** formula diet, showing the operative variable is the weight lost, not the
   protocol's gimmick.
 
@@ -151,7 +152,7 @@ baseline risk is lowest).
 
 ## Confidence, gaps, and mandatory caveats
 
-- **[INFERRED]** The synthesis that TRE is "a deficit in a costume, with a narrow early-eating
+- **** The synthesis that TRE is "a deficit in a costume, with a narrow early-eating
   exception" is the wiki's reading across TREAT, eTRF and the compensation evidence; no single
   source states it.
 - **The evidence base is thin.** The two anchor trials are **TREAT (n=116)** and **eTRF (n=8)** —

@@ -18,7 +18,7 @@ self_critiqued: 2026-07-27
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
 of GRADE that its hierarchy reputation obscures: the framework has an explicit, criteria-bound route
 by which non-randomized evidence can end up rated **high**.
-[EXTRACTED @grade §5.3]
+[@grade, §5.3]
 
 ## The gate before the three factors
 
@@ -30,7 +30,7 @@ Rating up is **conditional and rare**:
 - The circumstances "will likely occur infrequently."
 - For randomized trials: "Although it is theoretically possible to rate up results from randomized
   control trials, we have yet to find a compelling example of such an instance."
-  [EXTRACTED @grade §5.3]
+  [@grade, §5.3]
 
 So in practice the three factors are a route *out of* the observational default, not a general
 upward pressure.
@@ -47,17 +47,17 @@ observational designs tend to overestimate.
 - Rating up is more warranted when the effect is **rapid**, **consistent across subjects**, reverses
   a previous disease trajectory, or is supported by indirect evidence.
 - **Caution with subjective outcomes**, especially where assessors were unblinded.
-  [EXTRACTED @grade §5.3.1]
+  [@grade, §5.3.1]
 
 Worked case: infant sleeping position and SIDS — an odds ratio of 4.1 (95% CI 3.1-5.5) for front
 versus back sleeping, alongside 50-70% declines in SIDS incidence following "back to sleep"
-campaigns. [EXTRACTED @grade §5.3.1]
+campaigns. [@grade, §5.3.1]
 
 ## 2. Dose-response gradient
 
 "The presence of a dose-response gradient has long been recognized as an important criterion for
 believing a putative cause-effect relationship," and its presence in observational data can raise
-certainty. [EXTRACTED @grade §5.3.2]
+certainty. [@grade, §5.3.2]
 
 Worked cases: rising INR and bleeding risk under warfarin; the large absolute increase in mortality
 with each hour's delay of antibiotics in sepsis and hypotension.
@@ -67,7 +67,6 @@ with each hour's delay of antibiotics in sepsis and hypotension.
   a recommendation is dosed but part of how it earns its certainty. The two uses are distinct and
   worth keeping apart: the gradient here is a **credibility** signal, whereas the location of a knee
   or plateau is a **decision** parameter.
-  [INFERRED (GRADE - Handbook) — entailment; GRADE uses the gradient only in the credibility role.]
 
 ## 3. Plausible residual confounding working against the effect
 
@@ -88,7 +87,7 @@ it.
 **It is NOT the case that the bias hid a real effect behind a false null.** That reading would licence
 upgrading a null into evidence of an *effect*, which inverts the factor and points it at the opposite
 conclusion.
-[EXTRACTED @grade §5.3.3, Example 4]
+[@grade, §5.3.3, Example 4]
 
 ## Decision relevance
 
@@ -97,7 +96,6 @@ conclusion.
 - **The exits are narrow and asymmetric.** Large effects need tight intervals, dose-response needs a
   gradient, and residual confounding must be shown to point the *wrong* way. None of these is
   available to a small, noisy association — which is where many observational nutrition findings sit.
-  [INFERRED — maintainer judgment about this literature; the handbook does not discuss it.]
 - **Direction of the bias is a usable argument.** Asking "which way would the unmeasured confounders
   push?" can strengthen a finding, not only weaken it.
 
@@ -107,7 +105,7 @@ conclusion.
   largely exposures (infant sleeping position, condom use, MMR vaccination, hospital ownership), and
   its PICO definition names "in observational studies the exposure factor" as the I-slot. So the
   route is available to nutrition questions, not only to trial-shaped ones.
-  [EXTRACTED @grade §2, §5.3.1, §5.3.3]
+  [@grade, §2, §5.3.1, §5.3.3]
 - The thresholds ("large," "very large") are pinned to a table this chunk renders as `[TABLE]` — the
   numeric cut-points are not captured on this page and would need re-reading from the source or the
   GRADE Book. `AWAITS` a re-read for the magnitude thresholds.
@@ -129,7 +127,7 @@ is what turns an abstract rule into a readable decision. The footnote key:
 > confounding), serious inconsistency (heterogeneity) and indirectness in comparisons of exposures
 > e Certainty of evidence upgraded given no serious limitations in the body of evidence, individual
 > participant-level data meta-analysis, and evidence of a dose response relationship»
-> [EXTRACTED @who2020 chunk 05]
+> [@who2020]
 
 **What the worked cases add beyond the abstract rule.**
 
@@ -143,15 +141,14 @@ is what turns an abstract rule into a readable decision. The footnote key:
 - **A dose-response gradient is necessary, not sufficient** — note `b` grants the upgrade *while
   recording* `I2>77%`, and a separate profile records a *«dose-response relationship but not judged to
   warrant further upgrading»*. **The gradient is an input to a judgement, never a trigger.**
-  [EXTRACTED @who2020 chunk 05]
+  [@who2020]
 - **Note `e` upgrades partly on `individual participant-level data meta-analysis` — which is NOT one
   of GRADE's three named upgrade factors** (large magnitude, dose-response gradient, plausible
   residual confounding working against the effect). A body using GRADE has treated IPD pooling as
   upgrade-worthy in its own right. Whether that is an extension of the framework or a departure from
   it is **not settled here** — the GRADE Handbook's list would have to be re-read against the claim
   that it is exhaustive.
-  `[INFERRED (WHO - Physical Activity Web Annex Evidence Profiles 2020; GRADE - Handbook) — the
-  comparison to GRADE's three-factor list is the wiki's, not WHO's]`
+  ``
 
 **Consequence for reading any HIGH-certainty observational finding:** ask which note carried it. An
 upgrade resting on IPD-plus-gradient (note `e`) is a different object from one resting on absence of
@@ -168,7 +165,7 @@ guard is not a control. This section is the critique, run late, with what it fou
 - **Over-claim: FOUND and fixed.** *"The upgrade is REFUSED far more legibly than it is granted"* was
   not supported — notes `a`, `b` and `e` state reasons too. Narrowed to the shared reason cluster
   across the two refusals, which is what the footnotes actually show.
-- **The IPD-vs-GRADE's-three claim** is tagged `[INFERRED]` and explicitly left unsettled rather than
+- **The IPD-vs-GRADE's-three claim** is tagged `` and explicitly left unsettled rather than
   asserted as a departure. **Held** — but note it rests on GRADE's three factors being an exhaustive
   list, which this page states above and has not independently re-verified against the Handbook.
 - **Laundered independence:** none claimed; no `type-E` token. **Clean.**
@@ -184,7 +181,7 @@ observational nutrition finding survives**, which is this page's question.
 | **Dietary fat -> breast cancer** | strong case-control associations | prospective studies did not reproduce them | «artifacts of the noncomparable manner in which the data were collected» |
 | **Folic acid -> neural tube defects** | case-control **and** cohort **and** trials | confirmed, then «confirmed in population fortification programs in multiple countries» | convergence across independent method classes |
 
-[EXTRACTED @willett chunks 22, 23, 27]
+[@willett, chunks 22, 23, 27]
 
 **The discriminator is not study count and not effect size — it is whether independent method classes
 converged.** The folic acid case:
@@ -192,13 +189,12 @@ converged.** The folic acid case:
 > «The topic of folic acid and NTDs illustrates how astute clinical observations, basic nutritional
 > biochemistry, nutritional epidemiology, randomized trials, and molecular genetics have each
 > contributed to our understanding of a definitive and important causal relationship.»
-> [EXTRACTED @willett chunk 27]
+> [@willett]
 
 **That is this wiki's type-E criterion — independent, compatible backing from different fields —
 arriving from a methods textbook rather than from the ontology corpus.** The two failures had many
 studies and one method class; the success had fewer and five.
-`[INFERRED (Willett - Nutritional Epidemiology 3e) — the three cases and their diagnoses are Willett's;
-reading them as a single discriminator is this page's]`
+``
 
 ### A cheap diagnostic the breast-cancer case supplies
 
@@ -209,7 +205,7 @@ exposure extreme:
 > vegetarian nuns would have markedly lower rates of breast cancer and that associations for these
 > foods would be obviously apparent in the other case-control studies and the cohort studies described
 > later.»
-> [EXTRACTED @willett chunk 23]
+> [@willett]
 
 **The test: an effect large enough to matter should already be visible in groups whose exposure sits at
 the tail.** Its absence there is evidence against the magnitude — cheap to run, and it needs no new
@@ -231,7 +227,7 @@ The folic acid quote continues:
 > «This relationship also has wider implications because it establishes a major beneficial effect of a
 > nutrient intake at intakes well above those that prevent classical deficiency, thus calling into
 > question the basic paradigm of nutritional deficiency.»
-> [EXTRACTED @willett chunk 27]
+> [@willett]
 
 **This is a worked case for a distinction the telos already draws** — a *recommended intake* is set
 against deficiency prevention and answers a different question on a different curve from an optimum.

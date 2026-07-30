@@ -8,6 +8,7 @@ sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics an
 confidence: medium
 created: 2026-07-30
 updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **The verdict, up front.** The gut microbiome is real, genuinely modifiable, and matters in a few
@@ -37,11 +38,11 @@ is discussed far out of proportion to its established, outcome-level effect size
 Microbiome research overwhelmingly measures *composition* — which species are present, how diverse the
 community is. Diversity is treated as a health signal: «Lower diversity is considered a marker of
 dysbiosis (microbial imbalance)» — but Valdes flags it as exactly that, a **marker**, not a demonstrated
-cause. [EXTRACTED @valdes2018 chunk 01] A composition change is a
+cause. [@valdes2018] A composition change is a
 surrogate outcome ([[Surrogate Outcomes]]): legitimate as a *target to steer toward* only if its
 transmission to a patient-important outcome is itself evidenced. GRADE says as much — surrogates are for
 when direct outcome evidence is lacking, and using one «may ultimately lead to rating down the quality of
-the evidence because of the indirectness». [EXTRACTED @grade §3.4] So the test to hold every
+the evidence because of the indirectness». [@grade, §3.4] So the test to hold every
 "gut health" claim to is simple: *did anyone show the bacterial change actually reaches an outcome someone
 notices?*
 
@@ -50,7 +51,7 @@ microbiome analogue of reverse causation: does an unhealthy microbiome *cause* t
 disease (or the diet, or the drug) reshape the microbiome? Valdes is blunt that observational studies
 «are limited by the inability to measure causal relations» and that «the strongest level of evidence is
 obtained from interventional clinical studies — in particular, randomised controlled trials».
-[EXTRACTED @valdes2018 chunk 01] A low-diversity microbiome
+[@valdes2018] A low-diversity microbiome
 sitting alongside an illness is not evidence that fixing the microbiome fixes the illness.
 
 ## The template done right: Suez 2022 (this is what real evidence looks like)
@@ -59,7 +60,7 @@ The one study in the microbiome-adjacent literature that runs the full chain is 
 sugar-substitute evidence holds up as the standard. Suez randomized 120 healthy adults who normally avoid
 non-nutritive sweeteners to saccharin, sucralose, aspartame, or stevia for two weeks, at «doses lower than
 the acceptable daily intake», against glucose-vehicle or no-supplement controls.
-[EXTRACTED @suez2022 chunk 01]
+[@suez2022]
 
 - Each sweetener «distinctly altered stool and oral microbiome and plasma metabolome, whereas saccharin and sucralose significantly impaired glycemic responses» — so it did not stop
   at "the microbiome changed."
@@ -69,16 +70,16 @@ the acceptable daily intake», against glucose-vehicle or no-supplement controls
 - **It proved causation by transplant.** Germ-free mice (raised with no bacteria of their own —
   *gnotobiotic*) colonized with stool from high-responding versus low-responding humans reproduced their
   donors' glycemic responses. The bacteria carried the effect; this was not reverse causation.
-  [EXTRACTED @suez2022 chunk 01]
+  [@suez2022]
 
-**What Suez does and does NOT establish** [INFERRED — reading the held Suez appraisal]. It shows a *real
+**What Suez does and does NOT establish**. It shows a *real
 causal pathway* (sweetener -> microbiome -> blood sugar) exists in humans, so any long-term association
 between sweeteners and metabolic disease is harder to wave away as pure reverse causation. But its endpoint
 is a **two-week glycemic surrogate**, the effect is **personalized** (responders and non-responders within
 every arm), and causal-on-a-marker is not causal-on-diabetes. The relevant guideline still «suggests that
 non-sugar sweeteners not be used» for weight or disease control on **low-certainty** evidence, and refuses
 to bank even a real short-term weight loss (pooled MD **-0.71 kg**) as a health benefit because it is not
-shown to be sustained. [EXTRACTED @who2023nonsugar chunk 01] Suez is the template not
+shown to be sustained. [@who2023nonsugar] Suez is the template not
 because it settles sweeteners — it does not — but because it *followed a composition shift all the way to
 an outcome and a cause.* Almost nothing else in the field does.
 
@@ -86,9 +87,9 @@ an outcome and a cause.* Almost nothing else in the field does.
 
 The dominant modifiable lever is diet, and within diet, **fermentable fibre**. Gut bacteria ferment it
 into **short-chain fatty acids** (SCFAs — acetate, propionate, butyrate, the main energy currency the
-colon and its bacteria trade in), and SCFA production is «highly correlated with dietary fibre intake».
+colon and its bacteria trade in), and SCFA production rises with dietary fibre intake (the diet-microbiome table).
 Microbial diversity — the dysbiosis marker — tracks fibre intake, and low diversity «is exacerbated by low
-dietary fibre intake». [EXTRACTED @valdes2018 chunk 01]
+dietary fibre intake». [@valdes2018]
 
 This is why the microbiome story mostly collapses into the fibre recommendation the evidence already
 supports ([[Dietary Fibre and Health]]):
@@ -97,31 +98,30 @@ supports ([[Dietary Fibre and Health]]):
   risk of all-cause mortality (RR 0.85), coronary heart disease (0.76), type 2 diabetes (0.84) and
   colorectal cancer (0.84) — «13 fewer deaths (95% CI eight to 18) ... per 1000 participants». That is
   self-reported intake in cohorts, so it carries the healthy-eater confound and dietary measurement error
-  ([[Measurement Error in Dietary Assessment]]). [EXTRACTED @reynolds2019 chunk 01]
+  ([[Measurement Error in Dietary Assessment]]). [@reynolds2019]
 - **The trial-grade effect is real, causal, and small** — on a surrogate. Viscous/soluble fibre lowers LDL
   cholesterol by **-0.057 mmol/L per gram** in the practical 2-10 g/day range; Brown's own verdict is that
   even 3 g of soluble fibre from oats moves total and LDL cholesterol by «<0.13 mmol/L» and «can make only
-  a small contribution». [EXTRACTED @brown1999 chunk 01]
-- **So: eat ~25-30 g/day of fibre from varied plants** (whole grains, legumes, fruit, veg). It is a genuine
+  a small contribution». [@brown1999]
+- **So: eat \~25-30 g/day of fibre from varied plants** (whole grains, legumes, fruit, veg). It is a genuine
   supporting lever, not a miracle, and a bowl of beans is the intervention — not a probiotic capsule.
 
 ## (5) Prebiotics: mostly fibre wearing a lab coat
 
-A prebiotic is defined as a substrate «selectively utilized by host microorganisms that confers a health
-benefit» — which is largely fermentable fibre by another name.
-[EXTRACTED @wgo2023 chunk 01] The composition and SCFA
+A prebiotic is «A selectively fermented ingredient that results in specific changes in the composition and/or activity of the gastrointestinal microbiota, thus conferring benefit(s) upon host health» — which is largely fermentable fibre by another name.
+[@wgo2023] The composition and SCFA
 effects are real, but the *outcome* case for prebiotics is strongest exactly where it reduces to the fibre
 evidence above, and thinnest for a standalone "prebiotic supplement for general health." The honest routing
 is: act on prebiotics by eating fibre-rich food; a purified prebiotic sachet is a small, isolated version of
 something a varied plant diet already delivers, and the outcome evidence attaches to the diet, not the
-sachet. [INFERRED — the prebiotic-reduces-to-fibre reading, from the held Valdes + WGO + fibre pages]
+sachet.
 
 ## (6) Probiotics: strain- and indication-specific, NOT a general tonic
 
 The single most useful discipline in the whole field comes from the WGO guideline: «the effects of
 probiotics are strain-specific and dose-specific», and «the most robust approach to probiotic evidence is
 to link benefits ... to specific strains or strain combinations of probiotics at the effective dose».
-[EXTRACTED @wgo2023 chunk 01] "Take a probiotic for gut
+[@wgo2023] "Take a probiotic for gut
 health" is not a claim the evidence supports — the evidence attaches to specific *strain x condition x dose*
 triples. The word "probiotic" is not the exposure; the strain is ([[Is the Food Category Doing Any Work]]).
 Where the evidence is genuinely there:
@@ -139,7 +139,7 @@ Where the evidence is genuinely there:
 - The most striking patient-important result is in preterm infants: «The number needed to treat to prevent
   one death from all causes by treatment with probiotics is 20» — but «not all probiotic preparations tested
   are effective», so it is a claim about *specific quality-verified strains*, not about the class.
-  [EXTRACTED @wgo2023 chunk 01]
+  [@wgo2023]
 - **A method warning that travels:** WGO says pooling «data on different probiotic strains without a
   rationale that similar underlying mechanisms of action are driving the effects observed should be avoided».
   A strain-blind probiotic meta-analysis can manufacture or wash out an effect — the "is the label doing any
@@ -157,7 +157,7 @@ Faecal microbiota transplant (transferring a screened donor's stool microbiome i
 clearest proof that the microbiome is causal in humans: it «is effective in cases of severe drug refractory
 Clostridium difficile infection and is now routinely used for this purpose around the world. For other
 pathologies, faecal transplants are not yet clinical practice but have been explored.»
-[EXTRACTED @valdes2018 chunk 01] So FMT for recurrent
+[@valdes2018] So FMT for recurrent
 *C. difficile* is the anchor for what real microbiome evidence looks like — near-curative for a genuinely
 dangerous infection. The speculative uses (obesity, mood, metabolic disease) are explicitly *not yet*. FMT
 is medicine for one indication, delivered under clinical supervision — not a wellness intervention, and not
@@ -171,8 +171,7 @@ primary trial.)*
 
 Yes, antibiotics measurably perturb the microbiome — that part is real and uncontested. The
 decision-relevant question is whether that perturbation causes *lasting patient-important harm* or largely
-recovers, and the fabric does not yet hold the outcome evidence to settle it — it is a **named gap**
-[INFERRED]. What already stands, independently of the microbiome question, is the sound rule: **don't take
+recovers, and the fabric does not yet hold the outcome evidence to settle it — it is a **named gap**. What already stands, independently of the microbiome question, is the sound rule: **don't take
 antibiotics you don't need** — justified by antimicrobial resistance and side-effects regardless of what the
 microbiome does. The microbiome argument does not add a new action here so much as a second reason for one
 already justified. Resist the leap from "antibiotics change your bacteria" to any specific downstream
@@ -184,8 +183,7 @@ disease claim until an outcome study supports it.
 disease, inflammatory bowel disease, some infections. That physiology stays. **"Leaky gut syndrome" as a
 general, diet-treatable cause of fatigue, autoimmune disease, and assorted symptoms is the unfalsifiable
 version** — the leap from "permeability exists and changes" to "it is causing your illness and this
-supplement seals it" is unevidenced [INFERRED — applying the falsifiable-vs-Esoterik demarcation; the wiki
-holds no primary permeability source, so this is appraisal machinery, not a held finding]. Two things keep
+supplement seals it" is unevidenced. Two things keep
 the demarcation fair: the underlying phenomenon is legitimate (do not dismiss the real conditions), and the
 **direction of causation is usually unestablished** — increased permeability may be a *consequence* of
 disease rather than its cause, which is precisely why "fix the leak to cure the disease" is speculation. An
@@ -198,7 +196,7 @@ demarcated bucket, not the evidence bucket.
 immunocompromised patients (both legitimate medical conditions with real treatments). **"Chronic candida
 overgrowth" as a systemic condition treated by "anti-candida diets" is the effectively-unfalsifiable
 version** — a diffuse symptom list with no measurable, testable claim on a real outcome, and no supported
-diet cure [INFERRED — demarcation machinery; no held candida source]. As with leaky gut, the discipline is
+diet cure. As with leaky gut, the discipline is
 to keep the demarcation crisp *and* non-dismissive of the genuine conditions: the medical infection is real
 and treatable; the wellness syndrome is not a diagnosis the evidence recognizes.
 

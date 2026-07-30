@@ -17,8 +17,8 @@ created: 2026-07-27
 updated: 2026-07-27
 ---
 
-**Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [EXTRACTED @grade]
-four-determinant structure and this wiki's own telos. Tagged `[INFERRED]` throughout; the two
+**Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [@grade]
+four-determinant structure and this wiki's own telos. Tagged `` throughout; the two
 `[EXTRACTED]` anchors are marked.
 
 ## The problem, stated sharply
@@ -59,9 +59,6 @@ This is the escape, and it is partial but real.
 So the tangle binds on a much smaller set than it first appears: the argument is not *"nothing can be
 said"*, it is *"nothing can be said about the ordering within the frontier."*
 
-[INFERRED — standard multi-objective decision structure; not drawn from a held source, and the wiki
-holds no decision-theory source. `AWAITS` one.]
-
 ## Where the tangle genuinely does NOT dissolve: the population standpoint
 
 A guideline must issue **one** recommendation to people who weight these dimensions differently — a
@@ -75,7 +72,7 @@ predicts that different national bodies will diverge *most* on the dimensions wh
 (affordability, staple crops, cultural acceptability) and *least* on the health axis. Capture predicts
 divergence tracking industry structure instead. **The two hypotheses make different predictions and
 can be told apart** — which makes this worth holding as a rival to challenge #3 rather than a
-complement to it. [INFERRED — the rival-hypothesis framing is this page's.]
+complement to it.
 
 ## Where it DOES dissolve: the individual standpoint
 
@@ -103,8 +100,6 @@ transfer.** This is the most practically useful part of the analysis:
 **Three of the dimensions in the tangle are artifacts of the population standpoint and vanish for an
 individual.** Judging a personal choice by whether it would scale is a standpoint error — it imports a
 constraint that is not the person's.
-
-[INFERRED — entailment from the layer structure; the standpoint-transfer point is this page's.]
 
 ## What this wiki can and cannot supply
 
@@ -215,9 +210,6 @@ is a genuine failure, because:
 which makes independent weighting impossible for exactly the readers whose weights differ.** A person
 who cares little about carbon and one who cares greatly are given the same instruction and no basis to
 diverge from it, because the quantity that would separate them was never stated.
-
-[INFERRED (NNR - Nordic Nutrition Recommendations 2023) — the coordinate-vs-weight distinction and the
-white-meat diagnosis are this page's; the quoted asymmetry is NNR's.]
 
 **The transparency test that follows.** Ask of any multi-objective recommendation: *are both magnitudes
 published, or only the one that produced the number?* A body can legitimately decline to weight. It

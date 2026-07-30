@@ -36,10 +36,10 @@ absolute baseline is still a small absolute gain.
 
 | Intervention | Hard-CV-outcome evidence, and where it applies | For a low-risk / primary-prevention person |
 |---|---|---|
-| **Semaglutide** (drug→weight) | MACE «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90» — but only in **secondary prevention** (established CVD); primary prevention «were not studied» [EXTRACTED @lincoff2023] | **Unproven.** Weight + surrogates transfer; the CV-event benefit does not |
-| **Statin** (drug→lipids) | Efficacy real and roughly constant per mmol/L; USPSTF acts only at **≥7.5–10% 10-year risk** because benefit is *proportional to risk*; CAC=0 lifts NNT to 64 vs 28 [EXTRACTED @nasir2015] | **Small, below the threshold.** USPSTF: below ~7.5% risk, not a candidate at all [EXTRACTED @uspstf2022] |
-| **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a −42% CRP drop [EXTRACTED @look2013] | **Unproven / null via this route** |
-| **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg [EXTRACTED @bplttc2021] — relative benefit **proven in primary prevention** | **Proven relative, small absolute.** ~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
+| **Semaglutide** (drug→weight) | MACE «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90» — but only in **secondary prevention** (established CVD); primary prevention «were not studied» [@lincoff2023] | **Unproven.** Weight + surrogates transfer; the CV-event benefit does not |
+| **Statin** (drug→lipids) | Efficacy real and roughly constant per mmol/L; USPSTF acts only at **≥7.5–10% 10-year risk** because benefit is *proportional to risk*; CAC=0 lifts NNT to 64 vs 28 [@nasir2015] | **Small, below the threshold.** USPSTF: below \~7.5% risk, not a candidate at all [@uspstf2022] |
+| **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a −42% CRP drop [@look2013] | **Unproven / null via this route** |
+| **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg [@bplttc2021] — relative benefit **proven in primary prevention** | **Proven relative, small absolute.** \~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
 
 Each per-page cross-source comparison already carries its own parameter table; this page **configures**
 those settled findings, it does not re-derive a magnitude.
@@ -48,7 +48,7 @@ those settled findings, it does not re-derive a magnitude.
 
 1. **Absolute benefit scales with baseline risk** ([[Baseline Risk and the Relative-Absolute Split]]).
    A constant relative effect on a low baseline is a small absolute effect. This is *why* USPSTF sets a
-   risk threshold, *why* SELECT's benefit would shrink ~5-fold at a primary-prevention baseline, and *why*
+   risk threshold, *why* SELECT's benefit would shrink \~5-fold at a primary-prevention baseline, and *why*
    a CAC=0 person's statin NNT balloons. The machinery is identical across all three.
 2. **The hard-outcome trials were run where the events are** — in secondary prevention or high-risk
    populations, because that is where a trial can accrue events. So the evidence that *exists* is
@@ -66,7 +66,7 @@ answer sharpens the ceiling rather than breaking it. The levers with the **large
 hard outcomes are not the four above — they are **activity and fitness**, and they are *absent from the
 proven-lever table on purpose*:
 
-- Aerobic activity: all-cause HR ~**0.34** at the top of the dose-response ([[Physical Activity Dose and Mortality]]) — the single largest association the vault holds, dwarfing every RCT-proven lever here.
+- Aerobic activity: all-cause HR \~**0.34** at the top of the dose-response ([[Physical Activity Dose and Mortality]]) — the single largest association the vault holds, dwarfing every RCT-proven lever here.
 - Cardiorespiratory fitness: **RR 0.87 per 1-MET** ([[Cardiorespiratory Fitness and Mortality]]).
 - Muscle-strengthening: all-cause **RR 0.85** ([[Muscle-Strengthening Activity and Mortality]]).
 
@@ -111,15 +111,15 @@ Unlike the other three, its *relative* hard-outcome benefit is directly proven i
 intervention has a proven relative effect in primary prevention*, BP-lowering would have broken it. But
 the claim is about **large absolute** benefit **for a low-risk person**, and there BP-lowering lands
 exactly where the mechanism predicts: the paper's own decision rule is *treat on absolute cardiovascular
-risk, not the blood-pressure number*, so a proven ~10%-per-5-mmHg relative effect still buys little for
+risk, not the blood-pressure number*, so a proven \~10%-per-5-mmHg relative effect still buys little for
 someone at low absolute risk. **The one intervention that could speak to primary prevention confirmed
 mechanism 1 rather than escaping it.**
 
-**PREDIMED is the second confirming test — a HIGH-risk contrast, not a counterexample.** A dietary  [EXTRACTED @estruch2018 chunk 01]
-*pattern* (Mediterranean diet, energy-unrestricted) cut CV events ~30% (HR 0.70) with a real absolute
-benefit of ~1.7-2.1 percentage points over 5 years ([[Mediterranean Diet and Cardiovascular Events]]).
+**PREDIMED is the second confirming test — a HIGH-risk contrast, not a counterexample.** A dietary  [@estruch2018]
+*pattern* (Mediterranean diet, energy-unrestricted) cut CV events \~30% (HR 0.70) with a real absolute
+benefit of \~1.7-2.1 percentage points over 5 years ([[Mediterranean Diet and Cardiovascular Events]]).
 That looks like a lifestyle intervention with a proven hard-outcome effect — but it lands exactly where
-the mechanism predicts, because its population was **high** absolute risk (~49% T2D, ~82% hypertensive),
+the mechanism predicts, because its population was **high** absolute risk (\~49% T2D, \~82% hypertensive),
 and its authors say outright that generalization «to persons at lower risk requires further research».
 Like BP-lowering, it **refines** the ceiling: an intervention *can* buy hard-outcome benefit where
 baseline risk is high; it says nothing about the low-risk person, where the absolute benefit of the same

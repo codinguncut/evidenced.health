@@ -26,26 +26,26 @@ studies can report "the effect of saturated fat" and mean different comparisons.
 Three reasons, per Willett: energy intake may itself cause disease; individual differences in total
 energy produce variation in every nutrient unrelated to dietary *composition*; and where energy is
 associated with disease **but is not a direct cause**, it confounds specific nutrients.
-[EXTRACTED @willett Ch 11, Abstract]
+[@willett, Ch 11, Abstract]
 
 The driver is that **essentially every nutrient correlates with total energy**, including ones that
 supply none: "the correlation with energy was 0.36 for fiber, 0.45 for vitamin A, and 0.34 for
 vitamin C... This tendency for all nutrients, even minerals and vitamins, to be correlated with total
 energy intake results from the tendency of larger, more active, and less metabolically efficient
 persons to eat more food in general."
-[EXTRACTED @willett Ch 11, Relation of Energy Intake with Specific Nutrient Intake]
+[@willett, Ch 11, Relation of Energy Intake with Specific Nutrient Intake]
 
 And energy intake is mostly *not* a dietary choice: between-person differences are largely body size,
 physical activity and metabolic efficiency — so much so that "in most instances total energy intake
 can be interpreted as a crude measure of physical activity, particularly after controlling for body
 size, age, and gender."
-[EXTRACTED @willett Ch 11, Determinants of Between-Person Variation]
+[@willett, Ch 11, Determinants of Between-Person Variation]
 
 **Why composition is therefore the exposure:** "even relatively small changes in caloric intake
 cannot be made unless changes in weight or physical activity also occur. In the absence of such
 alterations, therefore, most changes in nutrient intake must be accomplished by changing the
 composition of the diet rather than the total amount of food."
-[EXTRACTED @willett Ch 11, Adjustment for Energy Intake]
+[@willett, Ch 11, Adjustment for Energy Intake]
 
 ## The models, and the comparison each implies
 
@@ -68,7 +68,7 @@ The load-bearing quotes:
 - Two-nutrient models: "The effect of fat would then be interpreted as the effect of substituting the
   specific number of calories from fat... for the same number of calories... from carbohydrate (with
   the macronutrient not included in the model), with total energy held constant."
-  [EXTRACTED @willett Ch 11, Energy-Adjusted or Residual Method; The Energy Partition Method; More Complex Models]
+  [@willett, Ch 11, Energy-Adjusted or Residual Method; The Energy Partition Method; More Complex Models]
 
 ## Failure modes
 
@@ -86,7 +86,7 @@ The load-bearing quotes:
   did not specifically compare saturated fat with another source of energy; in most countries, these
   other... calories would be predominately derived from refined grains and sugar **but would also
   include protein and other types of fat**."
-  [EXTRACTED @willett Ch 19 (p.436)]
+  [@willett, Ch 19 (p.436)]
 - **Heteroscedasticity manufacturing a shape.** Uncorrected, residuals at both extremes carry the
   highest energy intakes, which "would create a U-shaped relation between energy-adjusted intake
   (residuals) and disease risk" — a curve produced by the analysis, not the biology. Directly relevant
@@ -104,8 +104,7 @@ The load-bearing quotes:
   exposure presumes long-run balance. He names *"**one of the few exceptions**"* — *"when **adiposity
   or weight change** is the outcome"* — explicitly signalling the list is not exhaustive, plus the
   "overcontrol" case where caloric excess is itself the exposure. The chapter does **not** treat a
-  reduce-without-replacement regime. [INFERRED (Willett - Nutritional Epidemiology 3e) — the chapter's
-  silence, not a claim about any other source.]
+  reduce-without-replacement regime.
 
 ## Limits
 
@@ -124,7 +123,7 @@ records a cost that runs the other way, and it is not small.**
 
 > «The ratio of within-person to between-person variation is usually substantially greater when the
 > nutrient is expressed in relation to energy intake (energy-adjusted).»
-> [EXTRACTED @willett chunk 03, abstract]
+> [@willett, abstract]
 
 **Why this matters here:** the within-to-between variance ratio is what sets how many days of dietary
 measurement are needed to place a person correctly. **Raising it means the same data support a weaker
@@ -141,8 +140,7 @@ cholesterol (2.61 -> 2.55). The full table sits on
 coefficient answers a question nobody asked (*more of this nutrient, and more food overall*). **So the
 honest statement is a trade, not a free improvement:** adjustment fixes *what the coefficient means*
 and worsens *how precisely it can be estimated from a given number of measurement days*.
-`[INFERRED (Willett - Nutritional Epidemiology 3e) — the variance ratios and the direction are
-Willett's; framing them as a trade against this page's own argument is this page's]`
+``
 
 ## The adjustment term stops meaning what its label says `[2026-07-28, Willett ch.13]`
 
@@ -153,7 +151,7 @@ thing happening to the *covariate*, which is easier to miss:**
 > substituting saturated fat for other types of fat influence disease risk? In this model, the term for
 > total fat no longer has the biological meaning of total fat because a major component, saturated fat,
 > is included separately; its meaning then becomes monounsaturated and polyunsaturated fat.»
-> [EXTRACTED @willett chunk 18]
+> [@willett]
 
 **A model containing both saturated fat and total fat does not contain a total-fat term at all — it
 contains an unsaturated-fat term wearing the total-fat label.** The variable's name in the table and
@@ -167,8 +165,7 @@ the quantity it estimates have come apart, silently.
 - **Any coefficient reported for the adjustment term is uninterpretable as labelled.** A reader
   scanning a table for *"total fat: RR 0.98"* is reading the effect of **unsaturated** fat. **Reading
   the covariate list is not optional bookkeeping; it is where the comparator is defined.**
-  `[INFERRED (Willett - Nutritional Epidemiology 3e) — the relabelling is Willett's; the
-  reading-the-table consequence is this page's]`
+  ``
 
 ## A displayed dose-response can show the model rather than the data `[2026-07-28, Willett ch.13]`
 
@@ -178,7 +175,7 @@ the quantity it estimates have come apart, silently.
 > coefficient (see Table 13-1). This provides the potentially misleading impression of a clearly
 > monotonic relationship, as well as confidence intervals that are too narrow for a specific level
 > because they are based on the overall data.»
-> [EXTRACTED @willett chunk 18]
+> [@willett]
 
 **The defect is circular by construction.** If every displayed level is generated from **one** slope,
 the picture *cannot* show a knee, a plateau or a threshold — monotonicity is an output of the model
@@ -202,7 +199,7 @@ dose-response `[PRIOR]` in CLAUDE.md.
 high end of the distribution due to the skewed distributions of most nutrients, and they can be
 heavily influential when nutrients are considered as continuous variables» — so the tail that would
 locate a knee is both sparse and high-leverage.
-[EXTRACTED @willett chunk 18]
+[@willett]
 
 ## A positive plateau claim — and it cuts the other way from chunk 18 `[2026-07-28, ESC]`
 
@@ -214,7 +211,7 @@ The sentence is split across a page break in the source; both fragments locate:
 > «A meta-analysis reported a 4% lower risk in CV mortality for each additional serving of fruits»
 > ... «(equivalent to 77 g) and vegetables (equivalent to 80 g) per day, while all-cause mortality was
 > not reduced further with intakes of more than five servings.»
-> [EXTRACTED @esc2021 chunk 04]
+> [@esc2021]
 
 **Two outcomes, one exposure, two different shapes:**
 

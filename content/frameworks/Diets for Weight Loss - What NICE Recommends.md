@@ -36,7 +36,7 @@ Bounds, all stated:
   reasoning, since *"they were not aware of wider evidence on the relationship between the duration of
   type 2 diabetes and the likelihood of remission with weight loss"*
 
-[EXTRACTED @nice 1.1.10]
+[@nice, 1.1.10]
 
 **Why weak rather than strong, in the committee's own words:** *"the committee were aware that,
 sometimes, weight regain could occur rapidly and be harmful if people experience weight cycling.
@@ -49,7 +49,7 @@ evidence base did not measure** — not by certainty.
 NICE CG189 had recommended a 600 kcal/day deficit. NG246 removes it — *"because they felt this was an
 arbitrarily specific number"*, replacing it with *"dietary approaches to support weight loss should
 maintain an energy deficit and this can be achieved by lowering specific macronutrient content."*
-[EXTRACTED @nice 1.1.10.3]
+[@nice, 1.1.10.3]
 
 **No evidence in the review tested 600 against any other deficit.** A number can be withdrawn for
 having no warrant, without anything having shown it wrong — a distinct move from a refuted claim, and
@@ -64,14 +64,14 @@ NICE's entire low-carbohydrate verdict:
 > (usually low-fat) diets, apart from a small improvement in waist circumference for females. Evidence
 > on very-low carbohydrate diets did show a reduction in weight at 1 year, but this was not sustained
 > at 2 years and there was no improvement in quality of life for people with type 2 diabetes."*
-[EXTRACTED @nice 1.1.10.3]
+[@nice, 1.1.10.3]
 
 **No recommendation is attached to it — for it or against it.** But **NICE does make a research
 recommendation covering it**, which is a different thing from silence: Appendix K research
 recommendation 3 (adverse
 events of dietary approaches) names both *"Low carbohydrate diet (defined as under 130g of
 carbohydrates)"* and *"Very low carbohydrate (defined as under 50g of carbohydrates)"* in its PICO.
-[EXTRACTED @nice Appendix K, RR3]
+[@nice, Appendix K, RR3]
 
 ## The evidence-vs-practice move, stated openly
 
@@ -82,7 +82,7 @@ carbohydrates)"* and *"Very low carbohydrate (defined as under 50g of carbohydra
 **"Have shown to be effective" carries no citation and contradicts the review's own finding** — and it
 is the immediate premise for the only change the committee made in this section. The same appeal to
 unreferenced practice experience appears four more times, but only here is it used to assert *effectiveness* against the review's result.
-[EXTRACTED @nice 1.1.10.3]
+[@nice, 1.1.10.3]
 
 Recorded as a **process observation**, not a verdict on the recommendation. Under the telos's five
 divergence classes this is a candidate class-5 (process defect) — and the wiki **cannot currently
@@ -113,7 +113,7 @@ null**:
 
 > weight at 1 year `MD -2.38 (-4.22 to -0.55)` **"Favours very low carb diet"**;
 > `% Change in HbA1c MD -0.38 (-0.66 to -0.1)` **"Favours very low carb diet"**
-[EXTRACTED @nice Tables 25-26]
+[@nice, Tables 25-26]
 
 So the claim I first wrote — **NICE's result says nothing about Goldenberg's exposure** — is **false**,
 and it was reached by silently narrowing "NICE's trials" to the low-carbohydrate stratum while the
@@ -130,7 +130,7 @@ systematic reviews** — *"Naude 2022 - 61 RCTs [19 matched our inclusion criter
 low-carb and very-low-carb primary studies come from the Cochrane review already held. Shared backing,
 never type-E. NICE separately **excluded Goldenberg 2021** for *"Incorrect analysis VLCK and LCD
 analysed together"* — the exact lumping this section was worried about.
-[EXTRACTED @nice Table 2; excluded-studies table]
+[@nice, Table 2; excluded-studies table]
 
 **A shared trial sorted into opposite bands** settles it: NICE classes **Layman 2009** as *very low
 carbohydrate*; Naude places the same trial in its **non-ketogenic** subgroup. The bands are not
@@ -139,7 +139,7 @@ co-extensive in application even where their definitions match.
 ## What the TDR recommendation rests on — DiRECT supplies the trial and the maintenance scaffold
 
 NICE's low-energy TDR "consider" is the recommendation form of the DiRECT-type evidence the wiki now
-holds directly. DiRECT (Lean 2018) delivered an **825-853 kcal/day** formula diet — at the bottom of  [EXTRACTED @lean2018 chunk 01]
+holds directly. DiRECT (Lean 2018) delivered an **825-853 kcal/day** formula diet — at the bottom of  [@lean2018]
 NICE's stated **800-1200 kcal** band — for a matching population (overweight/obese + T2D), and
 achieved 46% diabetes remission with -10 kg mean loss
 -> [[Total Diet Replacement and Type 2 Diabetes Remission]]. Two points of contact:
@@ -165,7 +165,7 @@ achieved 46% diabetes remission with -10 kg mean loss
 - **Weight cycling is treated as a real harm** and is what lowered the recommendation's strength —
   though no trial in the review measured it.
 - **A quoted low-carb null must be checked against its delivered exposure**, not its label. NICE's
-  trials averaged ~35% energy carbohydrate; that is not what most readers mean by "low carb".
+  trials averaged \~35% energy carbohydrate; that is not what most readers mean by "low carb".
 
 ## Limits
 

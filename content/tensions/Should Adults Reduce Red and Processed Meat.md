@@ -28,13 +28,13 @@ issue.
   cancer — grades that «generally justify making public health recommendations.» A cancer-prevention
   body: «we want to live in a world where no one develops a preventable cancer.» It does not compute an
   absolute effect and does not weigh consumers' preferences.
-  [EXTRACTED @wcrf2018 chunk 02, 5.x.1.4; chunk 01, Mission]
+  [@wcrf2018, 5.x.1.4; , Mission]
 - **NutriRECS (continue).** The same evidence is low-to-very-low certainty under strict GRADE; the
   absolute effect of a realistic 3-servings/week cut is "very small and often trivial" (about 7 fewer
   cancer deaths per 1000 over a lifetime); and "given peoples' attachment to their meat-based diet...
   the associated risk reduction is not likely to provide sufficient motivation." It takes "the
   perspective of individual decision making rather than a public health perspective."
-  [EXTRACTED @nutrirecs2019 chunk 01, Rationale; Discussion]
+  [@nutrirecs2019, Rationale; Discussion]
 
 ## Parameter table — where the two actually meet, and where they only appear to
 
@@ -42,7 +42,7 @@ issue.
 |---|---|---|---|
 | The decision | should adults limit red/processed meat? | should adults reduce red/processed meat? | **YES — same decision** |
 | Underlying evidence | observational cohorts, CRC | largely the same cohort literature | **YES — shared base** |
-| Red meat -> CRC estimate | RR 1.12 (1.00-1.25) /100 g/d | same associations, re-pooled | **~YES** |
+| Red meat -> CRC estimate | RR 1.12 (1.00-1.25) /100 g/d | same associations, re-pooled | **\~YES** |
 | **Grade of that evidence** | "probable" / "convincing" (strong) | **low / very low** (GRADE) | **NO — the crux** |
 | Absolute effect stated | **none given** | 7 fewer/1000 lifetime per -3 svg/wk | NO — one computes it, one does not |
 | Values/preferences weighed | no | **yes** (systematic review of values) | NO |
@@ -60,15 +60,15 @@ The parameter table's "shared base / low grade" rows were previously abstract; t
   red meat directly. Diets lower in red meat showed «little or no effect on all-cause mortality (hazard
   ratio [HR], 0.99 [95% CI, 0.95 to 1.03])», CV mortality 0.98, colorectal cancer 1.04 — but «rated down
   for serious indirectness» because «the trial investigated reducing dietary fat intake, which led to
-  reduction of red meat intake (rather than directly investigating reduction of red meat intake)» (WHI, a ~1.4-serving/wk incidental gradient).
-  [EXTRACTED @zeraatkar2019 chunk 01] **This cuts both ways:** the RCT
+  reduction of red meat intake (rather than directly investigating reduction of red meat intake)» (WHI, a \~1.4-serving/wk incidental gradient).
+  [@zeraatkar2019] **This cuts both ways:** the RCT
   evidence *against* red meat is near-absent, but so is any clean RCT *exoneration* — direct powered
   red-meat trials essentially do not exist (a structural G-gap).
 - **Cohort arm (Vernooij, 70 cohorts / 6,035,051 people):** «very small or possibly small decreases in
   all-cause mortality, cancer mortality and incidence, cardiovascular mortality... and type 2 diabetes»,
   at low-to-very-low certainty, with «no significant differences... for the studies judged to have high
   versus low risk of bias».
-  [EXTRACTED @vernooij2019 chunk 01] So both families genuinely see the
+  [@vernooij2019] So both families genuinely see the
   same small associations — the divergence is entirely in the grade-and-recommendation step on top.
 - **This confirms the page's core claim mechanically:** the disagreement is NOT about the numbers (RCT
   null-but-indirect + cohort very-small, both low-certainty) — it is about whether that warrants a public
@@ -92,7 +92,7 @@ association warrant a reduce-recommendation at all?* Here they genuinely clash o
   NutriRECS states the disagreement in its own terms: "other guidelines have not used the GRADE
   approach for rating certainty of evidence... As a result, we are less convinced of meat consumption
   as a cause of cancer."
-  [EXTRACTED @nutrirecs2019 chunk 01, Discussion]
+  [@nutrirecs2019, Discussion]
 - **whether trivial-but-real warrants action.** NutriRECS concedes "this does not preclude the
   possibility that meat has a very small causal effect" — so it is not disputing causation outright, it
   is judging a small, uncertain effect insufficient to override preference. WCRF's grade-to-recommendation
@@ -130,7 +130,7 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
   third pillar is a mixed-methods SR (41 quantitative + 13 qualitative studies) concluding «omnivores are
   attached to meat and are unwilling to change this behavior when faced with potentially undesirable health
   effects» — 18 studies found people «consider meat an essential component of a healthy diet».
-  [EXTRACTED @valli2019 chunk 01] **The caveat survives contact:** the
+  [@valli2019] **The caveat survives contact:** the
   review is self-rated *low certainty* and descriptive, and — decision-relevantly — it makes the
   recommendation *track existing preferences*, which is legitimate for setting a **weak** recommendation
   but is not evidence about health effects and cannot carry a *headline reversal* on its own. It is the
@@ -141,7 +141,7 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
   ILSI funding for the lead author). Per the telos this is a process-flag to record, not a refutation —
   the argument stands or falls on its GRADE reasoning, not its funding, and the class-5 process-defect
   charge needs an independent institutional review, not an advocate's objection.
-  [EXTRACTED @nutrirecs2019 chunk 01, Correction]
+  [@nutrirecs2019, Correction]
 
 ## Self-critique `[run 2026-07-28; re-run 2026-07-29 after ingesting the NutriRECS evidence base]`
 

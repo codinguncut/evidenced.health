@@ -8,6 +8,7 @@ sources: [ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation 
 confidence: medium
 created: 2026-07-30
 updated: 2026-07-30
+self_critiqued: 2026-07-30
 ---
 
 **The verdict first.** You can place yourself in almost every stratum this wiki gives targeted
@@ -28,13 +29,13 @@ most of the placing value sits in a few cheap measures, so capture those first.
   estimate ([[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]). They also move the *thresholds*
   themselves: the same 10-year CVD risk means different things at different ages — an 8% risk is
   *very high* under 50 but only *high* at 72, because «Age is the major driver of CVD risk»
-  [EXTRACTED @esc2021 Table 5]. Free, and nothing downstream reads
+  [@esc2021, Table 5]. Free, and nothing downstream reads
   correctly without them.
 
 - **Smoking status.** The single largest modifiable exposure, and free to capture. Continuing to smoke
   carries an all-cause mortality hazard around **3x**; quitting by age 40 recovers roughly **10 years of
   life** and removes about **90% of the excess risk**, and quitting still pays at any age
-  [EXTRACTED @jha2013 chunk 01]. It is also a direct
+  [@jha2013]. It is also a direct
   cardiovascular-risk-model input. If you smoke, this one line dominates the ranking until it is
   addressed ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
@@ -42,18 +43,18 @@ most of the placing value sits in a few cheap measures, so capture those first.
   hard-outcome benefit that reaches primary prevention: a 5 mmHg systolic reduction cuts major
   cardiovascular events by about 10% even in people without prior heart disease and even at normal or
   high-normal starting pressures — HR **0.91 (0.89-0.94)** without prior CVD
-  [EXTRACTED @bplttc2021 Results]. So your
+  [@bplttc2021, Results]. So your
   BP band both places you for risk and flags a lever that works. It is also a SCORE2 input. Resting
   heart rate is a near-free co-marker and feeds the cheap fitness estimate below
   ([[Measuring and Raising Cardiorespiratory Fitness]]).
   - The decision is driven by *overall risk*, not the exact BP number — so measure it, but do not
-    chase a threshold: a ~10%-per-5-mmHg relative effect buys little at low absolute risk and a lot at
+    chase a threshold: a \~10%-per-5-mmHg relative effect buys little at low absolute risk and a lot at
     high risk ([[Baseline Risk and the Relative-Absolute Split]]).
 
 - **Waist circumference (with height and weight for BMI).** Visceral adiposity is the dominant
   *metabolic* lever and a defining criterion for fatty-liver disease. EASL counts a waist «>=94 cm in
   men and >=80 cm in women (Europeans)» or BMI >=25 among its cardiometabolic criteria
-  [EXTRACTED @easl2024 chunk 01, Table 3]. Waist beats BMI for
+  [@easl2024, Table 3]. Waist beats BMI for
   visceral fat, but BMI is universal and free — so capture both. These are classification thresholds
   (do you carry the risk factor), not targets to hit.
 
@@ -62,59 +63,57 @@ most of the placing value sits in a few cheap measures, so capture those first.
 - **HbA1c.** Places you on the dysglycemia / metabolic-syndrome axis, and it is the lever's own outcome:
   carbohydrate restriction moves HbA1c by **-0.47%** at 6 months (High certainty) and can drive T2D
   remission (risk difference **0.32**, an NNT of about 3, when medication is allowed to continue)
-  [EXTRACTED @goldenberg2021 Table 2; Results] — and DiRECT
+  [@goldenberg2021, Table 2; Results] — and DiRECT
   showed **46% remission** scaling monotonically with weight lost
-  [EXTRACTED @lean2018 Results]. HbA1c is preferred over fasting glucose: no
+  [@lean2018, Results]. HbA1c is preferred over fasting glucose: no
   fast needed, less day-to-day noise.
 
 - **Lipid panel: total cholesterol, HDL, triglycerides, and the calculated non-HDL cholesterol.** The
   causal agent in atherosclerosis is not cholesterol mass but the **apoB-containing particles** that
   carry it, and «LDL causes ASCVD» on genetic, Mendelian-randomization and trial evidence together
-  [EXTRACTED @ference2017 chunk 01]. The catch for this stratum:
+  [@ference2017]. The catch for this stratum:
   «in certain conditions (e.g. the metabolic syndrome, diabetes, and hypertriglyceridaemia), plasma
   LDL-C and LDL particle concentration can become discordant» — small dense particles pack more apoB
   into a given cholesterol mass, so **LDL-C can under-state the atherogenic burden**
-  [EXTRACTED @ference2017 chunk 01]. Non-HDL cholesterol (total minus
+  [@ference2017]. Non-HDL cholesterol (total minus
   HDL) is the cheap, standard proxy: it captures all the apoB-carrying fractions, so for the
   metabolically-impaired, emphasise **non-HDL over LDL-C** as the headline lipid.
-  `[INFERRED (Ference - LDL Cause ASCVD EAS Consensus 2017) — Ference establishes apoB as the causal
-  particle count and LDL-C as discordant in this stratum; that non-HDL is the standard particle-burden
-  proxy is the wiki's read, not Ference's word.]`
+  ``
 
 - **ALT (a liver aminotransferase).** The standard first-pass screen for the fatty-liver stratum, which
   this population leans toward: MASLD is «steatotic liver disease... in the presence of one or more
   cardiometabolic risk factor(s)», so a person with central adiposity plus metabolic syndrome
-  effectively has it by definition [EXTRACTED @easl2024 chunk 01,
+  effectively has it by definition [@easl2024, 
   Preamble]. Read it knowing its limit: for MASLD the risk that matters tracks **fibrosis stage, not
   liver fat or enzymes** — «the presence of steatosis in the general population is not associated with a
   clinically meaningful increase in the risk of liver-related outcomes»
-  [EXTRACTED @easl2024 chunk 01, Obesity]. So ALT flags the
+  [@easl2024, Obesity]. So ALT flags the
   stratum cheaply; it does not stage it, and for most people the dominant MASLD risk is cardiovascular,
   handled by the same weight lever already indicated.
 
 ## Tier 3 — add only where it significantly moves the needle (note the capturability cost)
 
 - **Lp(a), once in a lifetime.** An independent, largely genetic apoB-containing particle
-  [EXTRACTED @ference2017 chunk 01]; it is stable over life, so a
+  [@ference2017]; it is stable over life, so a
   single measurement suffices. High-impact for the roughly one-in-five who carry an elevated level and
   increasingly a standard order. Add it once.
 
 - **ApoB, where available — the upgrade over non-HDL.** The direct particle count, better than any
-  proxy, and «apoB is the target» for reflecting atherogenic-particle burden
-  [EXTRACTED @ference2017 chunk 01]. It is still at the edge of the
+  proxy, and apoB is the more accurate target for reflecting atherogenic-particle burden
+  [@ference2017]. It is still at the edge of the
   standard battery (not universally available), so treat it as the upgrade you use *instead of* non-HDL
   where you can get it, not a baseline requirement.
 
 - **Cardiorespiratory fitness (VO2max / CRF).** Among the strongest mortality predictors in medicine —
   each 1-MET higher CRF carries **13%** lower all-cause and **15%** lower cardiovascular mortality, with
-  «no observed upper limit of benefit», and being unfit is a *larger* mortality signal (Low-vs-High HR
-  3.90) than smoking (1.41) or diabetes (1.40) in the same model
-  [EXTRACTED @kodama2009 chunk 01;
-  (Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018) chunk 01]. A precise number needs
+  «no observed upper limit of benefit», and being unfit is a *larger* mortality signal (low-vs-elite HR
+  5.04) than smoking (1.41) or diabetes (1.40) in the same model
+  [@kodama2009, 
+  (Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018)]. A precise number needs
   an exercise test, so the population-available route is the **non-exercise estimated CRF (eCRF)**: 13
   cross-validated equations predict fitness from routine inputs (age, sex, BMI, resting heart rate,
-  self-reported activity) and «predict long-term mortality comparably to measured CRF»
-  [EXTRACTED @ross2016] — every input already captured
+  self-reported activity) and predict long-term mortality comparably to measured CRF
+  [@ross2016] — every input already captured
   in Tier 1. Note this is a *predictor*, and the observational evidence cannot fully prove that raising
   it lengthens life; the proven lever underneath is physical activity, and CRF is how you track whether
   it is working ([[Cardiorespiratory Fitness and Mortality]]).
@@ -122,7 +121,7 @@ most of the placing value sits in a few cheap measures, so capture those first.
 - **Grip strength — high-yield if available, but currently unheld here.** A cheap hand dynamometer
   reading is among the strongest mortality, falls and disability predictors, and strength training's
   best-evidenced payoff runs through function and falls, not the very-low-certainty mortality signal
-  ([[Muscle-Strengthening Activity and Mortality]]) [EXTRACTED @momma2022]. It is trivial to add but not yet a standard GP measure — and, like CRF, it is a
+  ([[Muscle-Strengthening Activity and Mortality]]) [@momma2022]. It is trivial to add but not yet a standard GP measure — and, like CRF, it is a
   predictor rather than proof that acting on it moves the outcome. The wiki holds **no dedicated
   grip-strength source**, so this is flagged high-yield-if-available at that honest strength, not banked.
 
@@ -134,9 +133,9 @@ most of the placing value sits in a few cheap measures, so capture those first.
 - **hsCRP (high-sensitivity C-reactive protein).** It moves an inflammatory *marker* but is weakly tied
   to a decision, and the wiki's own worked case shows the trap: in Look AHEAD, intensive lifestyle cut
   CRP by roughly **42-45%** on top of statins — «Weight loss was significantly associated with a
-  reduction in CRP levels» [EXTRACTED @belalcazar2013] — yet the
+  reduction in CRP levels» [@belalcazar2013] — yet the
   cardiovascular events did not follow (HR **0.95; 95% CI 0.83 to 1.09**)
-  [EXTRACTED @look2013]. A marker moving the right way is
+  [@look2013]. A marker moving the right way is
   not the outcome moving ([[Surrogate Outcomes]]). **Low priority / optional**, not baseline.
 
 - **Fasting glucose.** Largely redundant with HbA1c, which is preferred (no fast, less noise).

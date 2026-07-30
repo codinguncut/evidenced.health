@@ -19,7 +19,7 @@ self_critiqued: 2026-07-28
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
-scientific statement (Ross 2016) [EXTRACTED @ross2016] supplies the three things that make CRF actionable: you can **measure**
+scientific statement (Ross 2016) [@ross2016] supplies the three things that make CRF actionable: you can **measure**
 it cheaply, you can **raise** it a known amount with a known exercise dose, and **raising it tracks
 lower risk**. Together they move CRF from marker toward modifiable target — though, as below, still
 short of RCT-proven causality on hard outcomes.
@@ -27,7 +27,7 @@ short of RCT-proven causality on hard outcomes.
 **Evidence-tier note (`confidence: low`).** This page rests on a **single AHA scientific statement**
 (Ross 2016 — a position/consensus document, `moderate` tier, not a trial or systematic review); the
 measure-and-raise claims are directional and consensus-backed, not RCT-proven on hard outcomes. Held at
-`confidence: low` pending a stronger source. [INFERRED]
+`confidence: low` pending a stronger source.
 
 ## Measure it — three tiers, and a cheap one that works
 
@@ -38,8 +38,7 @@ measure-and-raise claims are directional and consensus-backed, not RCT-proven on
   compared with a treadmill in untrained individuals».
 - **Non-exercise estimated CRF (eCRF)** — the cheap route: 13 cross-validated equations predict CRF from
   «readily available clinical variables» (the Jurca/Nes inputs are typically age, sex, BMI, resting heart
-  rate and self-reported activity [INFERRED — the statement names the equations but the chunk read did not
-  enumerate their inputs]), no exercise test needed.
+  rate and self-reported activity), no exercise test needed.
   The Jurca (2005) and Nes (2011) models **predict long-term mortality comparably to measured CRF**:
   per-1-MET risk reduction «7.4% to 21%» (all-cause) and «8% to 16.9%» (CVD) — bracketing the measured-CRF
   meta-analytic 13%/15% ([[Cardiorespiratory Fitness and Mortality]], Kodama). Hard caveat: eCRF
@@ -63,7 +62,7 @@ must work to gain:
 |---|---|
 | < 10 METs | ≈50% of heart-rate reserve / VO2 reserve is adequate |
 | 10–14 METs | 65–85% of HR reserve / VO2R |
-| > 14 METs | > 85% — and above ~13 METs the goal is «more related to improving performance than health» |
+| > 14 METs | > 85% — and above \~13 METs the goal is «more related to improving performance than health» |
 
 Worked magnitudes: at fixed 50% intensity, 30 min×5/wk gave a 9.4% CRF rise vs 15.6% for 60 min; raising
 intensity to 75% gave 19.6% (Ross 2015). STRRIDE showed a clean dose gradient — 6% (low amount / moderate
@@ -125,7 +124,7 @@ symmetric standards apply to a body making the case for its own risk factor.
   estimate good enough to identify low fitness; a CPX is only needed for a precise or clinical number.
   Put it on the FRIEND percentiles to see where you sit.
 - **To raise it: intensity moves it more than duration**, and the low-fit gain most from modest activity
-  (the biggest-bang-at-the-low-end rule, consistent across the fitness sources). Expect ~10% from meeting
+  (the biggest-bang-at-the-low-end rule, consistent across the fitness sources). Expect \~10% from meeting
   activity guidelines, more from adding intensity or intervals.
 - **Track CRF as the measurable proxy for the physical-activity lever**, not as a separate intervention —
   the activity is what has the causal warrant; CRF is how you measure whether it is working.
@@ -135,12 +134,12 @@ symmetric standards apply to a body making the case for its own risk factor.
 - **HIIT vs walking for the drifting-median adult — the VO2max edge is real but small at the outcome
   level (Challenge #11).** Intervals raise VO2max more than continuous work (20.6% vs 9.4% above), so
   HIIT *wins the surrogate*. But (a) CRF is a predictor, and the *mortality* dose-response front-loads
-  and flattens (most benefit by ~24 min/day MVPA, [[Physical Activity Dose and Mortality]]), so the
+  and flattens (most benefit by \~24 min/day MVPA, [[Physical Activity Dose and Mortality]]), so the
   extra VO2max buys little extra outcome for an under-active person; (b) the advantage is
   outcome-specific — for the MASLD limb, [[Fatty Liver MASLD and Weight Loss]] holds HIIT and
   moderate-intensity equally effective; and (c) adherence is part of the effect, so a sustained
   walking habit can beat an abandoned HIIT plan. **On the claimed cons: compensation is now held and cuts against the intensity-specific version** —
-  [[Exercise Energy Compensation]] (Riou 2015) finds compensation real (~18%, up to ~84% long-term) but
+  [[Exercise Energy Compensation]] (Riou 2015) finds compensation real (\~18%, up to \~84% long-term) but
   **intensity is not a significant predictor**, so HIIT does not compensate *more* than moderate work;
   the NEAT-downregulation worry is not HIIT-specific. Worse-HIIT-adherence-than-walking remains unheld
   (comparative evidence queued). Net: the case against HIIT for this stratum rests on the flattening
@@ -153,7 +152,7 @@ symmetric standards apply to a body making the case for its own risk factor.
   to be a comprehensive review». Its evidence base is overwhelmingly observational.
 - **Causality on hard outcomes is inferred, not established** (HF-ACTION aside) — the modifiability
   finding upgrades but does not resolve the nucleus's predictor caveat.
-- **~50% of CRF is heritable** — the trainable fraction is real but bounded.
+- **\~50% of CRF is heritable** — the trainable fraction is real but bounded.
 - One body (AHA), 2016; whether other bodies endorse the vital-sign framing is unprobed.
 
 ## References

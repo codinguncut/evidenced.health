@@ -17,7 +17,7 @@ updated: 2026-07-27
 ---
 
 Four grades — **high / moderate / low / very low** — assigned to a *body* of evidence, starting from
-study design and moved by eight named factors. [EXTRACTED @grade §5, §5.1]
+study design and moved by eight named factors. [@grade, §5, §5.1]
 
 ## Two definitions, depending on who is asking
 
@@ -25,7 +25,7 @@ study design and moved by eight named factors. [EXTRACTED @grade §5, §5.1]
   to support a particular recommendation" — certainty *relative to a decision*.
 - **Systematic review:** "the extent to which we are confident that an estimate of the effect is
   correct" — certainty about the estimate itself, with no decision in view.
-  [EXTRACTED @grade §5]
+  [@grade, §5]
 
 The same body of evidence can therefore carry different ratings depending on what it is being used
 for. Certainty is not a property of the studies alone.
@@ -34,14 +34,14 @@ for. Certainty is not a property of the studies alone.
 
 Rating is done **per outcome across studies**, never per study as a unit: "quality may differ -
 indeed, is likely to differ - from one outcome to another within a single study."
-[EXTRACTED @grade §5]
+[@grade, §5]
 
 The handbook's cases make the point sharply: in unblinded trials measuring both stroke and all-cause
 mortality, *"it is possible that"* stroke is downgraded for risk of bias while mortality is not
 (subjective adjudication);
 loss to follow-up may be trivial for death and severe for quality of life; fracture measured via bone
 mineral density is downgraded for indirectness while directly-measured side effects are not.
-[EXTRACTED @grade §5]
+[@grade, §5]
 
 **Consequence:** *the evidence is high quality* is an incomplete statement. High quality *for which
 outcome?* A single study routinely supports confident conclusions about one outcome and weak ones
@@ -54,7 +54,7 @@ about another.
 - Case series / case reports -> usually downgraded from low to **very low**
 - "**Expert opinion is not a category of quality of evidence**" — it is an interpretation of
   evidence, and what matters is describing which evidence is being interpreted.
-  [EXTRACTED @grade §5.1.1]
+  [@grade, §5.1.1]
 
 Both starting points move: "limitations or special strengths can modify the quality of the evidence
 of both randomized trials and observational studies." A hierarchy that *ended* at design would make
@@ -71,7 +71,7 @@ dose-response gradient · plausible residual confounding working *against* the o
 
 Ordering is mandatory: "consideration of factors reducing quality of evidence must precede
 consideration of reasons for rating it up," and rating up "should only rarely be made if serious
-limitations are present in any of these areas." [EXTRACTED @grade §5.3]
+limitations are present in any of these areas." [@grade, §5.3]
 
 ## Mechanism — additive in form, judgmental in substance
 
@@ -79,7 +79,7 @@ The factors are additive, but GRADE is emphatic that this does not make the syst
 
 > "**GRADE is not a quantitative system for grading the quality of evidence.** Each factor for
 > downgrading or upgrading reflects not discrete categories but a continuum within each category and
-> among the categories." [EXTRACTED @grade §5.1]
+> among the categories." [@grade, §5.1]
 
 Where several factors are individually borderline, two reviewers can legitimately reach different
 grades. GRADE's instruction is not to resolve this but to **surface it**: pick the one or two
@@ -87,15 +87,12 @@ factors you downgrade for, footnote the choice, and footnote the factors you dec
 downgrade for and why. Its own summary of what the system delivers:
 
 > "The great merit of GRADE is not that it ensures reproducible judgments but that it **requires
-> explicit judgment that is made transparent to users**." [EXTRACTED @grade §5.1]
+> explicit judgment that is made transparent to users**." [@grade, §5.1]
 
 - This is the same finding as [[Mechanical Objectivity (Quantification as a Technology of Distrust)]]
   reached from inside a grading system rather than from its sociology: a structured procedure buys
   auditability, not the elimination of judgment. GRADE stating it about *itself* is stronger than an
   outside critique, and it forecloses the common misreading that a certainty rating is a measurement.
-  [INFERRED (GRADE - Handbook) — entailment; the convergence with Porter is noted, NOT an E-type
-  claim: Porter is in the method corpus, not this page's evidence base, and one source cannot bank
-  independence with itself.]
 
 ## Aggregating risk of bias across studies — five stated principles
 
@@ -106,7 +103,7 @@ downgrade for and why. Its own summary of what the system delivers:
    *most* of the body of evidence.
 4. Consider risk of bias against the other limitations; in a close call across two factors, rate
    down for at least one.
-5. Acknowledge close calls explicitly and give reasons. [EXTRACTED @grade §5.2.1]
+5. Acknowledge close calls explicitly and give reasons. [@grade, §5.2.1]
 
 ## Decision relevance
 
@@ -137,7 +134,7 @@ GRADE's worked case: statins, with *"consistent reductions in myocardial infarct
 **high** -- because *"knowing whether coronary mortality also decreases is no longer necessary for the
 decision **(as long as it is very unlikely that it increases)**."* Coronary death leaves the critical
 set; MI and stroke are both high; lowest-of-remaining is high.
-[EXTRACTED @grade 5.4]
+[@grade, 5.4]
 
 **The distinction is not pedantic.** Under reclassification, three critical outcomes at high / moderate
 / low where only the *low* one is demoted roll up to **moderate**; a take-the-highest rule would say
@@ -153,19 +150,19 @@ step most often left unstated.
 
 ## Imprecision is judged against an importance threshold, not against zero (2026-07-26)
 
-A worked instance. Naude 2022 reports a weight difference of ~1 kg with intervals well inside its own
+A worked instance. Naude 2022 reports a weight difference of \~1 kg with intervals well inside its own
 4-6 kg importance bar, and **does not downgrade for imprecision** on the primary outcomes -- because
 the interval excludes an important effect in *both* directions. Where the same review's intervals *do*
 span an important effect, it downgrades, and its footnotes say so in absolute terms: a CI *"consistent
 with the possibility for important benefit (245 per 1000 absolute increase) and unimportant harm (47
 per 1000 absolute reduction)"* is rated down twice.
-[EXTRACTED @naude2022 Summary of findings 1, footnotes]
+[@naude2022, Summary of findings 1, footnotes]
 
 **So a precise-looking estimate can be rated down and a wide one need not be.** What governs is where
 the interval sits relative to the threshold that matters -- which is why an appraisal without a stated
 threshold cannot rate imprecision coherently at all.
 
-## The instrument itself is a choice, and it moves ~half the ratings (2026-07-26)
+## The instrument itself is a choice, and it moves \~half the ratings (2026-07-26)
 
 Every appraisal page in this wiki is built from GRADE. Goldenberg 2021 supplies **a** measurement of
 what that choice costs (it claims no priority; the wiki holds no survey establishing it is the first), by re-rating its own 30 outcomes under **NutriGRADE**, a nutrition-specific
@@ -174,7 +171,7 @@ alternative:
 > *"NutriGRADE analysis resulted in 16/30 (53%) outcomes with the same rating as GRADE; 10 (33%) of
 > outcomes were judged to be of higher certainty using NutriGRADE, and 4 (13%) were judged to be of
 > lower certainty using NutriGRADE."*
-[EXTRACTED @goldenberg2021 Discussion]
+[@goldenberg2021, Discussion]
 
 **Instrument choice changes the certainty rating on 47% of outcomes, and the disagreement is not
 symmetric** -- NutriGRADE raises certainty 2.5 times as often as it lowers it.
@@ -205,13 +202,13 @@ appraisal instruments against realized outcomes -- which is the R1 open-loop pro
 
 - Discretization of continua is acknowledged as "some degree of arbitrariness," accepted because
   "advantages of simplicity, transparency, and vividness outweigh these limitations."
-  [EXTRACTED @grade §5]
+  [@grade, §5]
 - Reproducibility is **not what GRADE rests its case on** — its stated merit is explicit,
   transparent judgment rather than reproducible output. The handbook does separately cite evidence
   that trained raters assess quality reliably (Mustafa et al. 2013, §1.1), so "GRADE disclaims
   reliability" would be an inversion. What follows is narrower: on genuinely borderline evidence, two
   defensible ratings are a normal outcome rather than a sign one is wrong.
-  [EXTRACTED @grade §1.1, §5.1]
+  [@grade, §1.1, §5.1]
 - **Source currency:** §5 is flagged in-source as rewritten in the 2024 GRADE Book.
 
 ## Certainty rating sits ON TOP of a review-credibility layer the held GRADE text does not describe `[2026-07-27]`
@@ -232,7 +229,7 @@ text the wiki holds — **not** that GRADE's wider guidance never addresses it.
 | **1b. Primary-study quality** | **Newcastle-Ottawa Scale** | pooled cohort studies | poor-quality excluded |
 | **2. Certainty of evidence** | GRADE (or equivalent) | the body of evidence per outcome | the eight factors above |
 
-[EXTRACTED @who2020 chunk 01]
+[@who2020]
 
 **Three things this changes about reading a certainty rating.**
 
@@ -247,7 +244,7 @@ text the wiki holds — **not** that GRADE's wider guidance never addresses it.
    equivalent methodology that was clearly described and documented**»*. **A second body, reached
    independently of NASEM, declining to require GRADE** — NASEM reached the same conclusion about the
    DGA process. `-> [[Was GRADE Actually Used]]`
-   [EXTRACTED @who2020 chunk 01]
+   [@who2020]
 
 **Not a type-E convergence, and marked so it is not later mistaken for one.** WHO and NASEM agreeing
 that GRADE is not mandatory is **two bodies describing their own practice**, not two independent
@@ -281,7 +278,7 @@ SACN considered GRADE for its 2015 carbohydrates report and declined it, with a 
 > not to offer the flexibility required for a risk assessment of this nature. Using the SACN framework
 > for the evaluation of evidence as a basis, a grading system specifically for use in this report was
 > devised.»
-> [EXTRACTED @sacn2015 A2.13]
+> [@sacn2015, A2.13]
 
 **This is the only occurrence of the token `GRADE` in the entire report.**
 
@@ -294,7 +291,7 @@ SACN considered GRADE for its 2015 carbohydrates report and declined it, with a 
 
 Where the verdict is `Effect`, two further bullets attach — a plain-language statement of residual
 confounding, and a separate binary judgement, *"the effect is biologically relevant"*.
-[EXTRACTED @sacn2015 chapter 5 conclusion boxes; S.16-S.25]
+[@sacn2015, chapter 5 conclusion boxes; S.16-S.25]
 
 **The structural difference is larger than the labels, and it is the decision-relevant part.**
 SACN grades **exposure-outcome conclusions, not recommendations**. No recommendation in the report
@@ -327,7 +324,7 @@ reasoning is sharper than that summary, and it is a genuinely distinct third pos
 > However, this National Academies committee believes the NEL and DGSAC need to have the flexibility
 > to align with appropriate standards or methods and **does not recommend that any one standard be
 > adopted**, which may be subject to change and evolve over time.»
-> [EXTRACTED @nasem ch.4]
+> [@nasem, ch.4]
 
 **Yet NASEM's three named complaints about the existing rubric are precisely what GRADE supplies:**
 define *"large, high-quality, and/or consistent"*; use quantitative confidence intervals; and define
@@ -337,18 +334,17 @@ explicit mechanisms for moving grades up or down.
 without binding a durable process charter to one brand that may itself evolve.** That is a coherent
 argument this page should hold, and it is not the same as either pole (WHO's *GRADE-or-equivalent*,
 SACN's bespoke instrument).
-`[INFERRED (NASEM - Redesigning the DGA Process) — the mapping of NASEM's complaints onto GRADE's
-features is the wiki's; NASEM lists the complaints without making the connection]`
+``
 
 ### The evidence base underneath is thinning, and that bounds every grade above it
 
 | DGA cycle | Questions answered by an **original** systematic review | By existing publications |
 |---|---|---|
-| 2005 | ~44% (17 of 32) — NASEM's term here is **"evidence-based literature review"**, not "original systematic review" | ~ same |
-| 2010 | **76%** (44 of 59) | ~20% (12) |
+| 2005 | \~44% (17 of 32) — NASEM's term here is **"evidence-based literature review"**, not "original systematic review" | \~ same |
+| 2010 | **76%** (44 of 59) | \~20% (12) |
 | **2015** | **25% (23 of 91)** | **44% (40 of 91)** |
 
-[EXTRACTED @nasem ch.6]
+[@nasem, ch.6]
 
 **The question count nearly doubled while original review coverage fell from three quarters to a
 quarter.** *(Same-quantity note: the 2010 and 2015 rows are NASEM's own phrase "answered by an
@@ -358,7 +354,7 @@ evidence for a trend than the 2010->2015 comparison, which is like-for-like.)* A
 publicly available, they are not peer reviewed.»* NASEM also records that *«It was not clear why the
 2015 DGAC chose to update some systematic reviews and not others»*, and that the NEL runs **two
 protocols with two different grading criteria**, the *non*-DGAC one being the better.
-[EXTRACTED @nasem ch.6]
+[@nasem, ch.6]
 
 **Consequence for reading any DGA-derived claim:** ask which of the three routes answered the question
 — de novo review, existing publication, or neither — because the certainty language does not
@@ -372,8 +368,8 @@ distinguish them. `-> [[Was GRADE Actually Used]]`
   the 2005 activity an *"evidence-based literature review"*. Not established that these name the same
   thing, so the row is annotated and the trend claim narrowed to the like-for-like 2010->2015 leg.
 - **Figures verified individually, not as a block.** 2015 (23 of 91, 40 of 91) and 2010 (44 of 59,
-  76%) confirmed verbatim; 2005 (17 of 32, ~44%) confirmed with the terminology caveat above.
-- **The GRADE-properties mapping is `[INFERRED]` and marked so** — NASEM lists three complaints and
+  76%) confirmed verbatim; 2005 (17 of 32, \~44%) confirmed with the terminology caveat above.
+- **The GRADE-properties mapping is `` and marked so** — NASEM lists three complaints and
   never connects them to GRADE; the connection is the wiki's. All three complaints verified present
   (define *"large, high-quality, and/or consistent"*; quantitative confidence intervals; *«Define explicit mechanisms for moving study
   grades up or down (e.g., explicit definition of "methodological or generalizability concerns")»*).

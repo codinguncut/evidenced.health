@@ -46,7 +46,7 @@ together they **decompose** the popular claim rather than settling it as a singl
 | Calories held constant? | **NO** — ad libitum, deficit permitted | **YES** — «fed enough food to maintain their weight», meal-by-meal matched | **NO** — the decisive difference |
 | Setting | free-living, remote (app + scale) | supervised controlled feeding | **NO** — effectiveness vs efficacy |
 | Weight changed? | small loss, **no advantage vs control** («−0.26 kg ... P = .63») | **held stable by design** («D = 0.5 ± 0.3 kg; p = 0.12») | **NO** — one permits weight change, one forbids it |
-| Population | n=116, BMI 27-43, both sexes, non-diabetic | n=8, prediabetic men, BMI ~32 | **NO** — different size + risk + sex |
+| Population | n=116, BMI 27-43, both sexes, non-diabetic | n=8, prediabetic men, BMI \~32 | **NO** — different size + risk + sex |
 | Primary endpoint | **weight** (null between groups) | **glucose** (null); insulin/BP secondary | **NO** — different primary |
 | Design | RCT, parallel, 12 wk | RCT, crossover, 5 wk/arm | partly |
 | Insulin / glycaemia | fasting insulin/glucose/HOMA-IR/HbA1c all **null** | mean insulin **−26 mU/L**; insulin resistance **−36 U/mg (p=.005)**; glucose null | **NO** — free-living null vs controlled improvement |
@@ -64,19 +64,19 @@ hides at least two distinct exposures that behave differently.
    metabolic movement. This is the same shape as the wiki's macronutrient findings — *energy is the
    headline; the clever protocol is the small print* ([[Free Sugars Intake]]). TRE *works* in
    uncontrolled reports mostly because a shorter window **cuts intake** and helps adherence, not
-   because the timing itself does something. [EXTRACTED @lowe2020 chunk 01]
+   because the timing itself does something. [@lowe2020]
 2. ***Shift eating EARLY, calories constant* → a real but small weight-independent metabolic signal.**
    eTRF is the only trial here that isolates timing from energy, and it found improvements in insulin
    sensitivity, β-cell responsiveness, BP and oxidative stress with **zero** weight change. If real,
    this is a genuine circadian effect — metabolism «is optimized for food intake in the morning», so
-   eating aligned to it helps. [EXTRACTED @sutton2018 chunk 01]
+   eating aligned to it helps. [@sutton2018]
    The mirror is that **late** eating tends to be worse (Sutton cites prior late-TRF trials that were
    null or harmful) — so direction-of-shift, not window-length, carries the signal.
 3. **The window can add a specific HARM: lean-mass loss.** TREAT's decision-relevant find is that TRE's
    weight loss was «approximately 65% ... lean mass» vs a normal 20-30%, with a significant
    between-group appendicular-lean-mass deficit — plausibly because a short ad-libitum window cuts
    **protein** intake and protein is eaten mostly at meals. A late/short window that quietly under-feeds
-   protein trades fat-loss you wanted for muscle you didn't -> [[Protein and Resistance Training for Muscle and Strength]]. [EXTRACTED @lowe2020 chunk 01]
+   protein trades fat-loss you wanted for muscle you didn't -> [[Protein and Resistance Training for Muscle and Strength]]. [@lowe2020]
 
 ## Why this is not a filed tension (the not-joined check)
 

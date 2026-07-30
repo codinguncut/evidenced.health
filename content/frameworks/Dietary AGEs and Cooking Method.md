@@ -26,12 +26,12 @@ Baye et al. 2017 (MA of 17 RCTs, 560 participants, low- vs high-AGE diets):
 
 - **What improved (all surrogates, and small):** «Low AGE diets decreased insulin resistance (mean
   difference [MD] −1.3, 95% CI −2.3, −0.2), total cholesterol (MD −8.5 mg/dl, 95% CI −9.5, −7.4) and
-  low-density lipoprotein (MD −2.4 mg/dl, 95% CI −3.4, −1.3).» [EXTRACTED @baye2017 chunk 01] The LDL effect is **−2.4 mg/dl ≈ −0.06 mmol/L** — trivially small; the
-  TC effect ~−0.22 mmol/L. Some inflammatory markers moved too (TNF-alpha −4.7; adiponectin +7.0), but
+  low-density lipoprotein (MD −2.4 mg/dl, 95% CI −3.4, −1.3).» [@baye2017] The LDL effect is **−2.4 mg/dl ≈ −0.06 mmol/L** — trivially small; the
+  TC effect \~−0.22 mmol/L. Some inflammatory markers moved too (TNF-alpha −4.7; adiponectin +7.0), but
   **CRP did not** (−0.06 mg/dl, 95% CI −0.4, 0.2, NS) — so even the "inflammation" story is mixed.
 - **What did NOT move — the parameters a person actually cares about:** «There were no changes in weight,
   fasting glucose, 2-h glucose and insulin, haemoglobin A1c, high-density lipoprotein or blood pressure.»
-  [EXTRACTED @baye2017 chunk 01] Weight, glycaemia (HbA1c −0.01%,
+  [@baye2017] Weight, glycaemia (HbA1c −0.01%,
   essentially zero), and BP — all null.
 - **No hard outcomes.** Every endpoint is a surrogate marker; there is no event or mortality trial of
   dietary-AGE reduction. So the causal transmission from *fewer dietary AGEs* to a patient-important

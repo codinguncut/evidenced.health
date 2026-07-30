@@ -34,9 +34,9 @@ about 1 kg, which the review judges not clinically important.**
 achieved reductions of **12.2 to 0.33 kg** short-term, and the review's bar is *"a loss of at least 5%
 of initial weight"*, i.e. *"reductions from around the middle of these ranges (about 4 to 6 kg in most
 trials) would start to become clinically meaningful."* **That 4-6 kg is a within-arm loss from
-baseline, achieved by both diets — not a between-group threshold.** The ~1 kg figures below are
+baseline, achieved by both diets — not a between-group threshold.** The \~1 kg figures below are
 between-group mean differences and must not be set against it as though they were the same quantity.
-[EXTRACTED @naude2022 Discussion]
+[@naude2022, Discussion]
 
 ## The magnitudes
 
@@ -53,7 +53,7 @@ observed in the balanced-carbohydrate arms.
 Other outcomes at >=12 months, without T2DM: DBP **0.09 mmHg lower** (1.29 lower to 1.12 higher);
 LDL **0.04 mmol/L higher** (0.05 lower to 0.12 higher). With T2DM: HbA1c **0.14% lower** (0.38 lower to
 0.10 higher); LDL **0.12 mmol/L higher** (0.03 lower to 0.26 higher).
-[EXTRACTED @naude2022 Summary of findings 1-4]
+[@naude2022, Summary of findings 1-4]
 
 ## Why this is a *no meaningful effect* verdict and NOT an "insufficient evidence" one
 
@@ -64,10 +64,10 @@ importance bar for that outcome:
 | Outcome | Between-group difference | Bar the review states | Ratio |
 |---|---|---|---|
 | DBP | <0.5 mmHg | *"changes in DBP of greater than 2 mmHg"* | >4x |
-| LDL (T2DM) | 0.12 mmol/L | *"changes in LDL cholesterol of greater than 0.26 mmol/L"* | ~2.2x |
-| HbA1c | 0.14% | *"changes in HbA1c of greater than 0.5%"* | ~3.6x |
+| LDL (T2DM) | 0.12 mmol/L | *"changes in LDL cholesterol of greater than 0.26 mmol/L"* | \~2.2x |
+| HbA1c | 0.14% | *"changes in HbA1c of greater than 0.5%"* | \~3.6x |
 
-[EXTRACTED @naude2022 Discussion]
+[@naude2022, Discussion]
 
 **Two things keep this honest.** The LDL row in T2DM has an upper bound of **exactly 0.26** — the
 review's own threshold — so that outcome touches the bar rather than clearing it. And the subgroup
@@ -76,14 +76,14 @@ estimates below reach **-2.71** and **-2.29 kg**, which are not trivially small.
 What converts a small estimate into a positive finding of *no meaningful difference* is the imprecision
 judgement, and the review states it outright, four times: *"we did not downgrade for imprecision"* —
 because the intervals excluded an appreciable effect in **both** directions.
-[EXTRACTED @naude2022 Discussion]
+[@naude2022, Discussion]
 
 **Pre-specification, split by outcome.** The weight bar is **protocol-anchored**: the Methods carry
 *"five to ten per cent of initial body weight (clinically meaningful)"* and "weight loss of at least
 5%" is a pre-specified primary outcome with its own SoF row. The DBP, LDL and HbA1c bars appear only in
 the **Discussion** — stated, not demonstrably pre-specified. Do not apply one caveat to all four.
 
-## Two mechanistic deflators that make ~1 kg smaller than it looks
+## Two mechanistic deflators that make \~1 kg smaller than it looks
 
 Both from Authors' Conclusions, and both are **priors the authors bring to interpretation, not findings
 of this review** -- it measured no body composition or hydration outcome that could test either.
@@ -96,9 +96,9 @@ of this review** -- it measured no body composition or hydration outcome that co
    diet-induced diuresis from glycogen depletion and production of ketone bodies, **which is restored
    when carbohydrates are eaten again**."*
 
-[EXTRACTED @naude2022 Authors' conclusions]
+[@naude2022, Authors' conclusions]
 
-A 2-3 kg reversible water shift fully absorbs a ~1 kg between-arm difference. **So the observed
+A 2-3 kg reversible water shift fully absorbs a \~1 kg between-arm difference. **So the observed
 difference may not be a fat-mass difference at all** -- and that is a claim about what the outcome
 *measures*, not about how big it is.
 
@@ -133,7 +133,7 @@ average effects between subgroups**, with mean differences in weight reduction..
 kg and 2.71 kg across the various subgroups."* Naude reads the same spread as clinically unimportant
 and uses the subgrouping to explain **heterogeneity**, not to establish a gradient. Reporting this as a
 reading the review "does not draw" understates a denial as a silence.
-[EXTRACTED @naude2022 Analyses 1.2 and 1.3]
+[@naude2022, Analyses 1.2 and 1.3]
 
 **When the arms are matched on energy, the advantage collapses to under half a kilogram with zero
 heterogeneity.** This is [[Energy Adjustment and What a Diet Coefficient Means]] operating on whole
@@ -146,13 +146,11 @@ of the answer.
   Methods *"to explore substantial heterogeneity and the stability of findings in different study
   subgroups"* -- a heterogeneity investigation, not an interaction hypothesis. Reading a declined
   route-(b) claim into them would be reading a defect into correctly-applied method.
-  [EXTRACTED @naude2022 Methods]
+  [@naude2022, Methods]
 - **The two subgroup tests are not independent.** The matched-energy subgroup and the
   non-ketogenic subgroup share heavily overlapping trial lists, and both collapse to I2 = 0% near null.
   The larger effects concentrate in the same ad-libitum, high-heterogeneity trials. No meta-regression
   disentangles them.
-  [INFERRED (Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022) — entailment from the trial lists
-  in Analyses 1.2 and 1.3.]
 
 ## What no trial measured
 
@@ -162,7 +160,7 @@ of the answer.
 
 And: *"No trials reported on outcomes after two years, and 60% of trials had a duration of six months
 or less."*
-[EXTRACTED @naude2022 Results; Discussion]
+[@naude2022, Results; Discussion]
 
 **Cardiovascular mortality is a "not measured" row in all four summary-of-findings tables** -- the only
 hard patient-important endpoint the authors carried into them, empty in every stratum. So **every
@@ -188,7 +186,7 @@ The review's findings sit **comfortably inside prevailing guidance**, and it say
 permits rather than asserting agreement with it: *"Current dietary guidance allows for flexibility in
 the proportion of macronutrients, including a wide range of carbohydrate intakes, with greater emphasis
 on quality over quantity and on total dietary patterns over single nutrients."*
-[EXTRACTED @naude2022 Authors' conclusions ->
+[@naude2022, Authors' conclusions ->
 Implications for practice]
 
 Recorded because *convention held here* is a reportable finding under the telos, not a non-result --
@@ -198,12 +196,12 @@ and because agreement reached with better warrant defeats the guidance null as s
 the trial literature for its weight-management guideline, NICE found low-carbohydrate diets «did not
 result in improvements in weight, BMI, waist circumference, or HbA1c, relative to conventional (usually
 low-fat) diets, apart from a small improvement in waist circumference for females»
-[EXTRACTED @nice 1.1.10.3] -- and left low-carb **without a recommendation,
+[@nice, 1.1.10.3] -- and left low-carb **without a recommendation,
 for it or against it** ([[Diets for Weight Loss - What NICE Recommends]]). This **corroborates** the
 *no-meaningful-superiority* verdict from a second guidance family. Two refinements it adds:
 
 - **Durability, not just magnitude.** For *very*-low-carb, NICE found weight loss «did show a reduction
-  in weight at 1 year, but this was not sustained at 2 years» -- the ~1 kg (or its VLC amplification)
+  in weight at 1 year, but this was not sustained at 2 years» -- the \~1 kg (or its VLC amplification)
   fades, which is the maintenance-phase caution the wiki otherwise holds only mechanistically
   (cf. the rate/maintenance gap, Challenge #20).
 - **Corroboration, NOT independent backing.** This is **F, not `[E-independent]`**: NICE is a guideline
@@ -214,7 +212,7 @@ for it or against it** ([[Diets for Weight Loss - What NICE Recommends]]). This 
 ## Paired with Goldenberg 2021 — the two reviews DISAGREE about depth of restriction
 
 [[Carbohydrate Restriction and Type 2 Diabetes Remission]] asks a different primary question --
-remission in people who already have T2D. But both report **weight change at ~6 months in kg**, and on
+remission in people who already have T2D. But both report **weight change at \~6 months in kg**, and on
 the sub-question of *whether deeper carbohydrate restriction produces more weight loss* **they point in
 opposite directions**:
 
@@ -243,7 +241,7 @@ inclusive vs exclusive) and the outcome and unit match. **But two cells fail, no
 
 **So the direction clash is not established.** It may still be real, but this table cannot show it.
 
-[EXTRACTED @naude2022 Analysis 1.3 ·
+[@naude2022, Analysis 1.3 ·
 (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Results]
 
 **The inviting error here is a monotone dose-response ladder** (-0.36 -> -1.07 -> -2.29 -> -3.46)
@@ -280,7 +278,7 @@ design is a live rival explanation for any between-review gap.
 
 ## Limits
 
-- **~40% of included trials had food/diet industry funding.** A pre-planned sensitivity analysis
+- **\~40% of included trials had food/diet industry funding.** A pre-planned sensitivity analysis
   removing them found **no consistent direction**: the short-term non-diabetic estimate moved slightly
   *away* from null (-1.07 to -1.20), the long-term estimate *toward* null and to non-significance
   (-0.93 to -0.62). So the honest reading is *no detectable funding effect*, not *funding inflated the
@@ -298,19 +296,19 @@ design is a live rival explanation for any between-review gap.
 - **The review reports a stratum where caution is warranted, and it belongs in any recommendation drawn
   from this page:** *"In people with lipid disorders and variability with atherogenic lipoprotein
   response, caution in recommending low-carbohydrate and consequent high-fat diets is warranted."*
-  [EXTRACTED @naude2022 Authors' conclusions] That is a
+  [@naude2022, Authors' conclusions] That is a
   telos route-(c) contraindication stated by the source.
 - **Direction, stated plainly:** every subgroup and stratum point estimate favours low-carbohydrate.
   The verdict is *not meaningfully different*, not *no difference in any direction*.
 - **Cohort data on hard outcomes at the extremes — PURE 2017 (partially cashes the AWAITS below).**
   [@dehghan2017] (135 335 adults, 18 countries) speaks to what this
   RCT review structurally cannot — hard outcomes across the intake range — and it **cuts against both
-  poles, not one**: higher carbohydrate (spline rise above ~60%E) associated with higher **total
+  poles, not one**: higher carbohydrate (spline rise above \~60%E) associated with higher **total
   mortality** (Q5 vs Q1 HR 1.28 [1.12-1.46]), yet «the absence of association between low carbohydrate
   intake (eg, <50% of energy) and health outcomes does not provide support for very low carbohydrate
   diets», with «moderate intakes (eg, 50-55% of energy)... more appropriate than either very high or
   very low». So PURE licenses neither a high-carb nor a very-low-carb optimum.
-  [EXTRACTED @dehghan2017 chunk 01, Discussion]
+  [@dehghan2017, Discussion]
   - **Two discounts before it is used.** PURE is **observational** (mortality, not the weight outcome
     this page pools) and its high-carb signal is **confounded by income** — the highest-carb quintiles
     are the poorest, and «carbohydrate consumption in low-income and middle-income countries is mainly
@@ -319,7 +317,7 @@ design is a live rival explanation for any between-review gap.
     high-carb harm is largely a **refined-carb / poverty** signal, not carbohydrate per se
     -> [[Is the Food Category Doing Any Work]], [[The U-Shaped Association Artifact]]. It is grounding
     for *«harm at the extremes»*, not a clean dose-response on carbohydrate.
-    [EXTRACTED @dehghan2017 chunk 01, Discussion]
+    [@dehghan2017, Discussion]
 - `AWAITS` a source on whether carbohydrate restriction changes hard outcomes at all **in a randomised
   design** — PURE (above) supplies the observational cut but not the interventional one. The review
   points outside its own evidence base to cohort data showing *«harm at the extremes of intake»* -- which
@@ -336,7 +334,7 @@ obviously side with the review.
 The low-carb-first *advocacy* position was to be sourced from Feinman 2015, but that source was
 **assessed and dropped as non-gold** (a narrative critical review); the contrarian case is taken
 from the held systematic reviews (Naude, Goldenberg) rather than from its advocates, so no
-advocacy-voiced tension is filed. [INFERRED]
+advocacy-voiced tension is filed.
 
 ## Why a small weight-CHANGE difference is a harder measurement than it looks `[2026-07-28, Willett ch.9]`
 
@@ -350,7 +348,7 @@ sentence has to come first or the point inverts:
 > a few years, precision in measurement is much more critical, as measurement errors contribute twice
 > (at the beginning and the end) and the magnitude of weight changes is usually small compared with
 > differences in attained weight between persons.»
-> [EXTRACTED @willett chunk 12]
+> [@willett]
 
 **Weight is one of the best-measured variables in nutritional epidemiology. Weight *change* is not**,
 and the two failure modes are structural:
@@ -360,24 +358,23 @@ and the two failure modes are structural:
 - **The signal is small relative to between-person spread.** The quantity of interest is a few kg
   against a between-person range of tens of kg.
 
-**What this does and does not say about this page's ~1 kg.** It does **not** impeach the estimate:
+**What this does and does not say about this page's \~1 kg.** It does **not** impeach the estimate:
 these were randomised trials with measured (not self-reported) weights, and randomisation plus pooling
 addresses what unsystematic error does to a mean difference. **What it does is explain why the
 confidence intervals are wide relative to the effect, and why the review's *not clinically important*
 verdict is robust** — a 1 kg difference sits inside the noise band of the measurement problem it is
 estimated through, quite apart from whether it matters to a patient.
-`[INFERRED (Willett - Nutritional Epidemiology 3e) — the double-error and signal-to-spread points are
-Willett's; applying them to this page's estimate is this page's]`
+``
 
 **Where it bites harder: any observational weight-change finding**, and any self-reported one. Willett
 records that self-reported BMI runs low — NHANES III mean 25.07 vs 25.52 technician-measured, from
 underreporting weight (**-0.56 kg**) *and* overreporting height (**+0.76 cm**), two errors compounding
 in the same direction on the ratio.
-[EXTRACTED @willett chunk 12]
+[@willett]
 
 ## What the trials actually delivered — the fidelity seam `[2026-07-28]`
 
-This page's ~1 kg rests on 61 randomised trials. **The review records an *«Extent of intervention
+This page's \~1 kg rests on 61 randomised trials. **The review records an *«Extent of intervention
 fidelity»* field for every arm, and that field was never read.** A targeted pass over the
 characteristics tables gives the following.
 
@@ -392,7 +389,7 @@ reported by their opening token]`
 > and 29% for LFD and LCD, respectively). Overall, participants were more compliant with the PA compo-
 > nent of the intervention (66% and 61% among those randomised to the LFD and LCD arms, respective-
 > ly).»
-> [EXTRACTED @naude2022 chunk 07]
+> [@naude2022]
 
 Others read simply «Adherence was reported as poor», or record participants «excluded during follow-up
 due to non-compliance».
@@ -406,11 +403,11 @@ unavailable:
 > «Extent of intervention fidelity: Dietary adherence scores could not be calculated due to the
 > multiple dimensions of the intervention programme's recommended goals. In all 4 diet groups, 85% to
 > 89% of participants attended at least 75% of their assigned classes (>= 6 of 8).»
-> [EXTRACTED @naude2022 chunk 08]
+> [@naude2022]
 
 ### What this does and does not change
 
-- **It does NOT impeach the ~1 kg.** These are randomised trials analysed by intention to treat, and
+- **It does NOT impeach the \~1 kg.** These are randomised trials analysed by intention to treat, and
   under ITT **poor adherence is part of the effect being estimated**, not a bias in it. The estimate is
   sound for what it estimates.
 - **It sharpens what that is: the effect of ASSIGNING a diet, at the adherence these trials achieved.**
@@ -421,11 +418,9 @@ unavailable:
   to tell* predict the same 1 kg. **Separating them needs a per-arm exposure contrast**, and with 27%
   of arms reporting no fidelity at all and the rest measuring it incommensurably, **this review cannot
   supply one.**
-  `[INFERRED (Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022) — the fidelity entries are the
-  review's; the count, the incommensurability observation and the two-explanations point are this
-  page's]`
+  ``
 - **It strengthens rather than weakens the *not clinically important* verdict for a chooser.** If
-  advice-as-delivered moves weight by ~1 kg, that is what advice does in practice, whatever the diets
+  advice-as-delivered moves weight by \~1 kg, that is what advice does in practice, whatever the diets
   would do if followed.
 
 **The same structure the corpus already holds on sugars.** [[Free Sugars Intake]] records that an
@@ -437,7 +432,6 @@ with the fidelity field counted.** -> [[Framing a Decision Question]]
 **94%** and **9%**. A 9% mean with an SE of 4.8% is possible, but so is an OCR truncation of 90% —
 **and no recovered-tables sidecar exists for this source to check against**, so the digit is
 unverifiable. **An extreme differential-adherence example was available and has been left out**, since
-the finding above does not need it. `[AMBIGUOUS (Naude - Low-Carbohydrate vs Balanced-Carbohydrate
-2022) chunk 10 — OCR-unverifiable]`
+the finding above does not need it. ``
 
 ## References

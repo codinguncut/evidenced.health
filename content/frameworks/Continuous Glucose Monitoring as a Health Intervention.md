@@ -27,24 +27,24 @@ Richardson et al. 2024 (SR+MA of RCTs where CGM feedback was the intervention vs
 - **The effect is on a surrogate, and modest:** «Interventions incorporating CGM-based feedback reduced
   HbA1c by 0.28% (95% CI 0.15, 0.42, p < 0.001; I^2 = 88%), and increased time in range by 7.4% (95% CI
   2.0, 12.8, p < 0.008; I^2 = 80.5%) compared to arms without CGM, **with non-significant effects on
-  time above range, BMI, and weight**.» [EXTRACTED @richardson2024 chunk 01]
+  time above range, BMI, and weight**.» [@richardson2024]
   The heterogeneity is high (I^2 88%), and HbA1c/TIR are surrogates -> [[Surrogate Outcomes]], not
   patient-important endpoints.
 - **The evidence is overwhelmingly diabetes, not the healthy self-optimizer:** «Most studies were
   conducted in adults with type 2 diabetes (n = 17/25; 68%), followed by type 1 diabetes (n = 3/25,
-  12%), gestational diabetes (n = 3/25, 12%), and obesity (n = 3/25, 12%).» [EXTRACTED @richardson2024 chunk 01] **The "without diabetes" arm is 3 obesity trials** — there is
+  12%), gestational diabetes (n = 3/25, 12%), and obesity (n = 3/25, 12%).» [@richardson2024] **The "without diabetes" arm is 3 obesity trials** — there is
   essentially no trial evidence in metabolically-healthy non-diabetics, exactly where CGMs are now
   marketed. Reading the pooled HbA1c gain across to a healthy person is a transportability leap the data
   do not support.
 - **The behaviour-change *mechanism* is barely measured:** «Only 4/25 studies evaluated the effect of
-  CGM on dietary changes; 5/25 evaluated physical activity.» [EXTRACTED @richardson2024 chunk 01] So *how* CGM would help a non-diabetic (by changing what they eat) is largely
+  CGM on dietary changes; 5/25 evaluated physical activity.» [@richardson2024] So *how* CGM would help a non-diabetic (by changing what they eat) is largely
   unmeasured even in this evidence base.
 - **Conflicts of interest are pervasive:** «Eleven (44%) studies reported CGM-affiliated conflicts of
-  interest.» [EXTRACTED @richardson2024 chunk 01] Symmetric standards: this
+  interest.» [@richardson2024] Symmetric standards: this
   raises the scrutiny on an already-modest surrogate effect.
 
 The authors' own summary is calibrated: «favourable, though modest, effects of CGM-based feedback on
-glycaemic control in adults with and without diabetes» [EXTRACTED @richardson2024 chunk 01] — glycaemic control, i.e. the surrogate, not a hard outcome.
+glycaemic control in adults with and without diabetes» [@richardson2024] — glycaemic control, i.e. the surrogate, not a hard outcome.
 
 ## The measurement limits sit on top of the thin efficacy (Challenge #14)
 
@@ -58,7 +58,7 @@ non-diabetics is **unevidenced**.
 
 ## Decision relevance
 
-- **For a person with diabetes:** CGM plausibly helps glycaemic control modestly (HbA1c ~-0.28%) — a
+- **For a person with diabetes:** CGM plausibly helps glycaemic control modestly (HbA1c \~-0.28%) — a
   prescriber-managed decision, out of this wiki's scope.
 - **For the metabolically-healthy self-optimizer:** the efficacy case is **not made** — no healthy-
   non-diabetic trials, a null on weight/BMI, an unmeasured behaviour mechanism, a partial surrogate, and

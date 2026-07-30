@@ -21,7 +21,7 @@ self_critiqued: 2026-07-29
 ---
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
-combined cardiovascular events (RR 0.83, Moderate certainty), so limit SFA to <10%E [EXTRACTED @who2023saturated]. **Astrup et al.
+combined cardiovascular events (RR 0.83, Moderate certainty), so limit SFA to <10%E [@who2023saturated]. **Astrup et al.
 2020:** the evidence does not support a population SFA limit — the events signal rests on a
 comparator-contaminated trial base, any real benefit may be the *replacement* not SFA-avoidance, and
 guidance should be food-based. The held evidence is on [[Saturated Fat Intake and Replacement]] and
@@ -35,14 +35,14 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
   (0.70-0.98), 15 fewer per 1000, **Moderate** certainty, the one hard outcome clearing the null.
   Meta-regression finds the benefit runs through serum-cholesterol lowering and «strengthens our
   belief that there is a true eﬀect». WHO adopts these numbers into its <10%E strong recommendation.
-  [EXTRACTED @hooper2020 chunk 01, 03]
+  [@hooper2020, 03]
 - **Astrup et al. (do not limit SFA; go food-based).** A JACC narrative *State-of-the-Art Review*:
   "the evidence from both cohort studies and randomized trials does not support the assertion that
   further restriction of dietary saturated fat will reduce clinical events." "the dietary
   recommendation to reduce intake of SFAs without considering specific fatty acids and food sources is
   not aligned with the current evidence base." No new trial — the case is re-appraisal + observational
   (PURE, UK Biobank) + mechanistic.
-  [EXTRACTED @astrup2020 chunk 01, Evidence on the Health Effects of SF;
+  [@astrup2020, Evidence on the Health Effects of SF;
   Research Gaps]
 
 ## Parameter table — where the two actually meet, and where they only appear to
@@ -91,7 +91,7 @@ clash is narrow: the **combined-events composite** (the one estimate that clears
    joined issue is therefore at the **trial-base level** — *is the classic diet-heart evidence
    trans-fat-confounded, and does that contamination reach the pooled estimates guidance relies on?* —
    an appraisal question the two answer oppositely -> [[Certainty of Evidence vs Strength of Recommendation]].
-   [EXTRACTED @astrup2020 chunk 01, From Single Nutrients to Whole Foods]
+   [@astrup2020, From Single Nutrients to Whole Foods]
 2. **If RR 0.83 is real, is it SFA harm or PUFA benefit?** Astrup: even granting the reduction, it
    "could be attributed to a possible beneficial effect of polyunsaturated fatty acids and not
    necessarily to an adverse effect of SFAs." **Hooper cannot refute this** — its own replacement
@@ -101,7 +101,7 @@ clash is narrow: the **combined-events composite** (the one estimate that clears
    attribution is genuinely underdetermined by the trials. (A subgroup null taken at face value would,
    if anything, point *toward* SFA-removal doing the work; it is the imprecision, not the null, that
    keeps the attribution open.)
-   [EXTRACTED @astrup2020 chunk 01, Evidence on the Health Effects of SF]
+   [@astrup2020, Evidence on the Health Effects of SF]
 
 ## The hidden insight
 
@@ -158,7 +158,7 @@ not `[E-independent]`. What it grounds, and its limit:
   *inversely* associated with total mortality (HR 0.86 [0.76-0.99]) and stroke (HR 0.79 [0.64-0.98]),
   and **null** on major CVD / MI / CVD mortality. On mortality this is the same direction as Hooper's
   null — both camps' evidence says reducing SFA does not reduce dying.
-  [EXTRACTED @dehghan2017 chunk 01, Table 3]
+  [@dehghan2017, Table 3]
 - **It does NOT reach the RR-0.83 events estimate.** PURE is an unrandomised *level*-contrast (13% vs
   3%E SFA) confounded by income — the authors concede «residual confounding... cannot be completely
   excluded» because the highest-carb quintiles are the poorest, on refined-carb subsistence diets. So

@@ -26,7 +26,7 @@ per the telos, *the ceiling is itself a finding*.
 > *what layer-1 ranking is*, not about any one exposure. The compilation description is retained for
 > the table; it no longer describes the whole page.
 
-**Worked against one illustrative stratum — a man of ~60 with central adiposity and metabolic syndrome,
+**Worked against one illustrative stratum — a man of \~60 with central adiposity and metabolic syndrome,
 no established CVD** — because the telos names *"obesity with visceral adiposity and hypertension"* as a
 dominant exposure and a hierarchy is meaningless without a stratum to hold it fixed.
 
@@ -48,13 +48,13 @@ baseline risk. Of eight exposures below, **one** has an absolute effect on a har
 
 | Exposure | Effect | Outcome type | Certainty | Source page |
 |---|---|---|---|---|
-| **Quit smoking (vs continue)** | **all-cause HR ~3.0; ~10 yr of life recovered if quit by 40 (removes ~90% of excess risk); still pays at any age** | **hard, mortality** | **High** | [[Smoking and Mortality]] |  [EXTRACTED @jha2013 chunk 01]
+| **Quit smoking (vs continue)** | **all-cause HR \~3.0; \~10 yr of life recovered if quit by 40 (removes \~90% of excess risk); still pays at any age** | **hard, mortality** | **High** | [[Smoking and Mortality]] |  [@jha2013]
 | **Reduce SFA to 10%E** | **15 fewer CVD events per 1000** (RR 0.83, 0.70-0.98) | **hard, composite** | Moderate | [[Saturated Fat Intake and Replacement]] |
 | Replace SFA with PUFA | 50 fewer CVD per 1000 — **at a 23.8% control event rate** | hard, composite | Low | [[Saturated Fat Intake and Replacement]] |
-| Low-carb for T2D remission | RD 0.32 at 6 mo, **NNT ~3**; attenuates to 0.10 by 12 mo | intermediate (HbA1c-defined) | Moderate | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
+| Low-carb for T2D remission | RD 0.32 at 6 mo, **NNT \~3**; attenuates to 0.10 by 12 mo | intermediate (HbA1c-defined) | Moderate | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
 | Low-carb, glycaemic control | HbA1c -0.47% at 6 mo | surrogate | **High** | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
 | Very-low-carb (NICE stratum) | weight -2.38 kg at 1 yr; HbA1c -0.38 | intermediate + surrogate | Very low / Low | [[Diets for Weight Loss - What NICE Recommends]] |
-| Low-carb vs balanced-carb, weight | ~1 kg — **judged not clinically important** | intermediate | Moderate | [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]] |
+| Low-carb vs balanced-carb, weight | \~1 kg — **judged not clinically important** | intermediate | Moderate | [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]] |
 | Reduce sodium | **-3.39 mmHg** systolic; hard outcomes all **very low** | surrogate | High (BP only) | [[Sodium Intake and Blood Pressure]] |
 | Reduce free sugars | isoenergetic swap for other carbohydrate: **null (0.04 kg)** | intermediate | Moderate | [[Free Sugars Intake]] |
 
@@ -76,7 +76,7 @@ outcome — a marker can move the right way while patients do worse.
 | ~~**Weight loss as an exposure on hard outcomes**~~ | **FILLED 2026-07-28 — as a NULL/ceiling** | [[Does Weight Loss Reduce Cardiovascular Events]] (Look AHEAD): lifestyle weight loss did NOT reduce hard CV events in T2D (HR 0.95). The lever is real for many outcomes; its *hard-CV-event* benefit is unproven via the lifestyle route |
 | **Baseline risk** | **FILLED as machinery (2026-07-26)** | [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]] holds the ESC thresholds and a read-off grid. **A stratum defined by age and condition alone cannot use it** — the chart also needs smoking status, a BP band, a cholesterol band and a region, and the ESC category moves between *high* and *very high* across plausible values. Those four are **case inputs, supplied at layer 3**, not fabric |
 | ~~**Pharmacotherapy**~~ | **FILLED 2026-07-28** | [[Semaglutide for Cardiovascular Risk in Obesity]] (SELECT+STEP-1) + [[Statins for Primary Prevention and the Power of Zero CAC]] (USPSTF+Nasir). Both the realistic drug comparators the telos names. Key finding is a ceiling, not a lever: see below |
-| ~~**Alcohol · sleep · smoking**~~ | **ALL HELD 2026-07-29** | Alcohol ([[Alcohol and Mortality and Vascular Disease]]) + sleep ([[Sleep Duration and Mortality]]) + **smoking now ingested ([[Smoking and Mortality]], Jha 2013) — the #1 dominant exposure, all-cause HR ~3.0 and a decade of life, now quantified and at the TOP of the ranked table above** |
+| ~~**Alcohol · sleep · smoking**~~ | **ALL HELD 2026-07-29** | Alcohol ([[Alcohol and Mortality and Vascular Disease]]) + sleep ([[Sleep Duration and Mortality]]) + **smoking now ingested ([[Smoking and Mortality]], Jha 2013) — the #1 dominant exposure, all-cause HR \~3.0 and a decade of life, now quantified and at the TOP of the ranked table above** |
 
 ## What this page establishes
 
@@ -138,7 +138,7 @@ large: **HR 0.34 (0.27-0.43)** at the maximum for device-measured total activity
 1. **The big-rock framing holds for the inactive.** Near-total inactivity is already named as a
    dominant exposure; the magnitude now supports that placement rather than merely asserting it.
 2. **For someone already active, the ceiling arrives early — and that is itself the finding.** Maximal
-   risk reduction is reached at **~24 min/day of MVPA**. Above that, the curve flattens, so additional
+   risk reduction is reached at **\~24 min/day of MVPA**. Above that, the curve flattens, so additional
    activity is a small lever competing with other small levers. Per the ceiling rule, *"your remaining
    levers here are small"* is a result that licenses someone to stop optimizing, not a failure to find
    something.
@@ -158,13 +158,13 @@ Global Burden of Disease project:
 > Baltic countries. Across all countries, low whole grains diets are responsible for one fifth of the
 > total burden of disease attributed to dietary factors and it is the greatest overall contributor to
 > ischemic heart disease and colon and rectum cancer (Knudsen et al, 2025).»
-> [EXTRACTED @nnr2023 chunk 06]
+> [@nnr2023]
 
 > «Despite their conservative methodology, the collaboration between GBD and the NNR2023 project
 > observed that a diet high in red meat is the fourth-highest dietary risk factor for Disability
 > Adjusted Life Years (DALYs) in the Nordic and Baltic countries. It is ranked second highest in
 > Denmark and Iceland»
-> [EXTRACTED @nnr2023 chunk 06]
+> [@nnr2023]
 
 **This looks like exactly what this page says it lacks. It is not, and the difference is the point.**
 
@@ -182,8 +182,7 @@ far down the same list while being the dominant lever for the person who has it.
 a public-health resource-allocation question; layer 1 asks a personal one.** Reading the first as the
 second is a unit-of-analysis error, and it is a seductive one because both are honestly called
 "ranking dietary risk factors".
-`[INFERRED (NNR - Nordic Nutrition Recommendations 2023) — the two rankings are NNR's; the
-prevalence-wedge distinction is this page's]`
+``
 
 **What it does license, which is not nothing:**
 
@@ -207,7 +206,7 @@ there is a weak association between unprocessed red meat consumption and colorec
 cancer, ischemic heart disease and type 2 diabetes»*. **So a fourth-place burden rank coexists with a
 weak underlying association** — which is the prevalence wedge visible inside NNR's own text, and the
 cleanest available demonstration that a high rank is not a large individual effect.
-[EXTRACTED @nnr2023 chunk 06]
+[@nnr2023]
 
 ## Self-critique of the NNR/GBD addition `[run 2026-07-28, before commit]`
 
@@ -222,7 +221,7 @@ cleanest available demonstration that a high rank is not a large individual effe
   the empty `sources:` were both falsified by this addition; the supersession is noted in place rather
   than silently rewritten.
 - **Attribution split.** The two rankings and the *«Despite their conservative methodology»* caveat are
-  NNR's, quoted. The prevalence-wedge argument is the wiki's and is tagged `[INFERRED]`.
+  NNR's, quoted. The prevalence-wedge argument is the wiki's and is tagged ``.
 - **Absence claim, scoped.** *"the first source the wiki holds that publishes an explicit ordering of
   dietary risk factors"* is a claim about **the wiki's holdings**, verifiable from the registry, not a
   claim about the literature.
@@ -237,11 +236,11 @@ sizes that dwarf most of them — for exposures that are not individually modifi
 
 > «The strongest association has been found between low income and CVD mortality, with a RR of 1.76
 > [95% confidence interval (CI) 1.45-2.14].»
-> [EXTRACTED @esc2021 chunk 03]
+> [@esc2021]
 
 And on psychosocial stress: it «is associated, in a dose-response pattern, with the development and
 progression of ASCVD, independently of conven- tional risk factors and sex».
-[EXTRACTED @esc2021 chunk 03]
+[@esc2021]
 
 **RR 1.76 is larger than any dietary relative effect this wiki holds.** It is also a *social position*,
 not a behaviour — and that is the finding, not an aside.
@@ -260,8 +259,7 @@ not a behaviour — and that is the finding, not an aside.
   behavioural risk factors (e.g. smoking, poor adherence)». **Smoking and adherence are exactly the
   behavioural exposures the telos names as dominant**, so part of what the 1.76 measures is already
   accounted for elsewhere in any ranking, and treating it as additive would double-count.
-  `[INFERRED (ESC - CVD Prevention Guidelines 2021) — the figures and the correlation warning are ESC's;
-  the double-counting caution and the placement decision are this page's]`
+  ``
 
 **What would make this actionable rather than merely sobering:** a source on interventions that change
 the *stressor* rather than the *social position* — job control, social connection, stress-management
@@ -277,7 +275,7 @@ constraint that breaks that assumption:**
 > «The incremental benefit of medication when added to an already complex regimen is often uncertain.
 > Moreover, care for multimorbid CVD patients is often fragmented and given by multiple providers,
 > complicating decision- making and adherence to recommended treatment.»
-> [EXTRACTED @esc2021 chunk 06]
+> [@esc2021]
 
 **Why this belongs on a ranking page rather than a clinical one.** A ranked list invites the reading
 *do the top item, then the next, then the next*. **If each addition erodes adherence to the ones
@@ -298,8 +296,7 @@ guidance body saying so about its own recommendations**, which is stronger than 
 - **It does not reorder anything on this page.** It bears on **how far down the list is worth going**,
   which is a different question from which item is largest — and it reinforces the ceiling finding
   above rather than competing with it.
-`[INFERRED (ESC - CVD Prevention Guidelines 2021) — the quoted constraint is ESC's; applying it to the
-additivity assumption behind a ranked list is this page's]`
+``
 
 ## The absolute layer arrives for one exposure — and it shrinks the lever `[2026-07-28, WHO SFA Annex 6]`
 

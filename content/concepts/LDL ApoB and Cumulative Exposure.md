@@ -33,14 +33,14 @@ LDL-lowering RCTs — and reached an unusually strong verdict:
 
 > «Consistent evidence from numerous and multiple different types of clinical and genetic studies
 > unequivocally establishes that LDL causes ASCVD.»
-> [EXTRACTED @ference2017 chunk 01]
+> [@ference2017]
 
 The causal agent is not LDL-cholesterol as such but the **apoB-containing particles** that carry it:
 
 > «cholesterol-rich LDL and other apolipoprotein B (apoB)-containing lipoproteins, including very
 > low-density lipoproteins (VLDL) and their remnants, intermediate density lipoproteins (IDL), and
 > lipoprotein(a) [Lp(a)], are directly implicated in the development of ASCVD.»
-> [EXTRACTED @ference2017 chunk 01]
+> [@ference2017]
 
 This is the strongest form of the surrogate-vs-outcome question resolved in the *validated* direction:
 LDL/apoB is the exemplar of a surrogate whose **causal transmission to the hard outcome is itself
@@ -59,7 +59,7 @@ with time:
 > proportional to the absolute reduction in LDL-C and the cumulative duration of exposure to lower
 > LDL-C, provided that the achieved reduction in LDL-C is concordant with the reduction in LDL particle
 > number and that there are no competing deleterious off-target effects.»
-> [EXTRACTED @ference2017 chunk 01]
+> [@ference2017]
 
 Two decision consequences follow:
 
@@ -83,7 +83,7 @@ stratum sits:
 > concentration or its effect on cardiovascular risk. Under these conditions, direct measurement of LDL
 > particle number or apoB concentration (recognizing that each LDL particle contains a single apoB
 > molecule) may more accurately reflect the causal effect of LDL on ASCVD.»
-> [EXTRACTED @ference2017 chunk 01]
+> [@ference2017]
 
 So for an insulin-resistant, hypertriglyceridemic adult, **LDL-C can *under-state* the atherogenic
 particle burden** — the small-dense-LDL pattern packs more particles (more apoB) into a given
@@ -130,7 +130,7 @@ and where it stands against this page:
 - **It CONCEDES the causal core** — «LDL particles play a causal role in the development of CVD» and
   there is "a relationship between lowering of LDL cholesterol and CVD benefit." So this is not
   LDL-denial; it is a claim about the *diet-induced* change specifically.
-  [EXTRACTED @astrup2020 chunk 01, LDL Cholesterol and Other Biomarkers]
+  [@astrup2020, LDL Cholesterol and Other Biomarkers]
 - **The argument:** SFA restriction lowers mainly "large LDL particle subspecies... which are much
   less strongly related to CVD risk," not the small dense LDL, and also lowers HDL — so the total:HDL
   ratio barely moves and "the potential benefit of dietary restriction of saturated fat could be
@@ -141,7 +141,7 @@ and where it stands against this page:
   ratio (the stronger predictor), while higher carbohydrate → lower LDL **but** higher ApoB/ApoA1 —
   concluding «predicting the net clinical effect based on considering only the effects of nutrient
   intake on LDL cholesterol is not reliable».
-  [EXTRACTED @dehghan2017 chunk 01, Discussion] This is the
+  [@dehghan2017, Discussion] This is the
   discordance-in-the-diet-direction claim in cohort data — and note it is itself an **apoB argument**
   (the hazard tracked apoB/apoA1, not LDL-C), so it reinforces *measure apoB*, this page's held view,
   rather than displacing it. Observational and confounded by income, so directional not decisive.
@@ -155,9 +155,7 @@ and where it stands against this page:
   the honest status: **the diet-induced-LDL-C caveat is real and this page already carries its mechanism
   (measure apoB, not LDL-C); the further claim that SFA's LDL rise is benign-by-particle-size is
   contested and dated, and does not overturn apoB causality.**
-`[INFERRED (Astrup - Saturated Fats Reassessment 2020; Ference - LDL Cause ASCVD EAS Consensus 2017) —
-the reconciliation (agree on apoB target, diverge on the SFA direction; particle-size superseded by
-apoB number) is this page's; each source's own claim is quoted/attributed]`
+``
 -> full joined issue: [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
 
 ## Self-critique `[run 2026-07-29, before commit]`

@@ -25,7 +25,7 @@ The word *conditional* does not appear in the document.
 > "WHO recommends a reduction in sodium intake to reduce blood pressure and risk of cardiovascular
 > disease, stroke and coronary heart disease in adults (strong recommendation). WHO recommends a
 > reduction to <2 g/day sodium (5 g/day salt) in adults (strong recommendation)."
-[EXTRACTED @who2012 Recommendations, p.18]
+[@who2012, Recommendations, p.18]
 
 For children: reduce to control blood pressure (strong), with the adult 2 g/day figure "adjusted
 downward based on the energy requirements of children relative to those of adults" -- a scaling rule,
@@ -40,7 +40,7 @@ same bare *"(strong recommendation)"* form on its recommendation lines — there
 *does* add is an **overall certainty stated per recommendation** in its Rationale (*"The overall
 certainty in the evidence for recommendation 1 was moderate, and for recommendation 2 was very low"*);
 this 2012 guideline issues no overall certainty anywhere.
-[EXTRACTED @who2023saturated Recommendations; Rationale — a
+[@who2023saturated, Recommendations; Rationale — a
 cross-guideline check, so cited here in body rather than added to this page's `sources:`]
 
 ## The evidence split — this is the whole story
@@ -56,7 +56,7 @@ cross-guideline check, so cited here in body rather than added to this page's `s
 | Coronary heart disease | RR 1.04 (0.86 to 1.24) -- inconclusive | 6 cohorts, n=37 343 | **VERY LOW** |
 | Cardiovascular disease | RR 0.84 (0.57 to 1.23) -- inconclusive | **2 RCTs**, n=720 | **MODERATE** |
 
-[EXTRACTED @who2012 Summary of evidence, pp.11-13; Annex 1]
+[@who2012, Summary of evidence, pp.11-13; Annex 1]
 
 **The surrogate is rated HIGH; most -- not all -- hard cohort outcomes are rated VERY LOW.** The
 exception matters and the table above omitted it: **fatal stroke, RR 1.63 (1.27-2.10), is rated LOW**,
@@ -67,7 +67,7 @@ omissions tend to run. WHO's own summary states the split: *"Higher sodium intak
 higher risk of incident stroke, fatal stroke and fatal coronary heart disease. There was no association
 between sodium intake and all-cause mortality, incident cardiovascular disease and non-fatal coronary
 heart disease."*
-[EXTRACTED @who2012 Executive summary; Summary of evidence]
+[@who2012, Executive summary; Summary of evidence]
 
 But note the
 last row: a 2-RCT meta-analysis of cardiovascular disease is rated **moderate** -- direct hard-outcome
@@ -78,7 +78,7 @@ itself:
 > quality, whereas the evidence regarding sodium intake and all-cause mortality, cardiovascular
 > disease, stroke and coronary heart disease was of lower quality. Therefore, these recommendations
 > should be reviewed when more evidence... becomes available."
-[EXTRACTED @who2012 Remarks, p.18]
+[@who2012, Remarks, p.18]
 
 ## How the gap is bridged — a disclosed surrogate transfer
 
@@ -88,7 +88,7 @@ The bridge is explicit, and it is the guideline's most consequential methodologi
 > outcomes, the evidence of an effect of sodium on blood pressure was **also considered
 > moderate-quality evidence** that reduced sodium is beneficial for reducing risk of cardiovascular
 > disease, stroke and coronary heart disease."
-[EXTRACTED @who2012 Annex 8, p.37]
+[@who2012, Annex 8, p.37]
 
 High-certainty surrogate evidence is transferred to hard outcomes **one level down**, and the direct
 very-low-certainty cohort evidence on those same outcomes is superseded rather than combined. There is
@@ -103,7 +103,7 @@ heart disease / all cause mortality] as an outcome which addressed this question
 > "High and moderate-quality evidence that consuming <2 g sodium/day compared with consuming >=2 g
 > sodium/day is beneficial for reducing blood pressure **and risk of cardiovascular disease, stroke and
 > coronary heart disease** in adults."
-[EXTRACTED @who2012 Annex 1 p.24; Annex 8 p.37]
+[@who2012, Annex 1 p.24; Annex 8 p.37]
 
 **This is not a contradiction, and "no studies" does not mean "no evidence."** Two qualifiers do the
 work, and both are printed on the cell itself:
@@ -116,13 +116,12 @@ work, and both are printed on the cell itself:
   of cardiovascular disease, coronary heart disease and all cause mortality were not statistically
   significant."
 
-[EXTRACTED @who2012 Annex 1 p.24, footnote 2]
+[@who2012, Annex 1 p.24, footnote 2]
 
 So the threshold claim rests on **high-certainty BP evidence at that threshold, transferred at moderate,
 plus 5 indirect cohort comparisons showing a stroke effect**. What is absent is a *directly assessed*
 trial of the threshold against a hard outcome -- which is a narrower and more accurate statement than
 "zero evidence."
-[INFERRED (WHO - Sodium Intake 2012) — entailment from the annexes and the cell footnote read together.]
 
 ## Response heterogeneity — measured, then deliberately not acted on
 
@@ -136,13 +135,12 @@ A roughly **three-fold difference**, which WHO records as "statistically signifi
 normotensives -- and then declines to stratify the recommendation, on a stated population-level ground:
 the high global prevalence of hypertension and the breadth of benefit. **The reason given is a
 public-health-standpoint reason, not an evidentiary one** (telos divergence class 1).
-[EXTRACTED @who2012 Final considerations, p.16]
+[@who2012, Final considerations, p.16]
 
 By **baseline intake**, point estimates rise monotonically with intake (1.79 -> 2.97 -> 3.07 -> 3.91 ->
 5.74 mmHg across intake bands) and WHO reads the subgroup test as null (P=0.17), concluding the effect
 is "independent of baseline sodium intake." **A monotone gradient declared absent on a non-significant
 interaction test is a claim about power as much as about biology.**
-[INFERRED (WHO - Sodium Intake 2012) — entailment from the reported estimates and the stated P value.]
 
 ## The J-curve — named as the reason for the review, then never adjudicated
 
@@ -152,12 +150,12 @@ stroke" as part of the justification for commissioning the review. **Neither stu
 anywhere in the evidence summary, the final considerations, or the annexes**, and whether they were among
 the 15 included cohorts is not stated. The terms *reverse causation*, *sick-quitter* and *U-shaped* do
 not appear in the document.
-[EXTRACTED @who2012 Background p.6; Justification p.7]
+[@who2012, Background p.6; Justification p.7]
 
 **Compounding this:** the strata where a lower-arm harm is most plausible were excluded *a priori* --
 "individuals with illnesses or taking drug therapy that may lead to hyponatraemia... (e.g. patients with
 heart failure and those with type I diabetes)... were not considered in the review of the evidence."
-[EXTRACTED @who2012 Remarks, p.18]
+[@who2012, Remarks, p.18]
 
 So the guideline **cannot** answer the J-curve question, and does not claim to. Per the expectancy test
 this is *unprobed*, not *disproved* -- and it is the wiki's largest open question on sodium.
@@ -207,7 +205,7 @@ name, alongside urinary nitrogen, urinary potassium and doubly-labelled-water en
 
 > «In addition to urinary nitrogen, urinary potassium, urinary sodium, and energy intake estimated
 > using the doubly labeled water technique are recovery biomarkers.»
-> [EXTRACTED @willett chunk 09]
+> [@willett]
 
 A recovery biomarker has «a quantitative relationship... between values for the biomarker and dietary
 intake in a specific time period», so it yields **absolute** intake rather than a ranking. Full
@@ -227,8 +225,7 @@ taxonomy and its consequences: [[Measurement Error in Dietary Assessment]].
   person against a cutpoint. **Sodium escapes it**, because an absolute intake can be measured
   directly. WHO's «<2 g/day sodium» is therefore one of the few guidance numbers in this corpus a
   person could actually be measured against.
-  `[INFERRED (Willett - Nutritional Epidemiology 3e; WHO - Sodium Intake 2012) — the classification is
-  Van Dam & Hunter's and the threshold is WHO's; the auditability consequence is this page's]`
+  ``
 
 ## A second guidance family on the same stratification — and it is NOT a second witness `[2026-07-28, ESC]`
 
@@ -237,7 +234,7 @@ already holds from WHO:
 
 > «A reduction in sodium intake may reduce SBP by, on average, 5.8 mmHg in hypertensive, and 1.9 mmHg
 > in normotensive patients.»
-> [EXTRACTED @esc2021 chunk 04]
+> [@esc2021]
 
 **Parameter table** (op-weave 2a) — built because the surface agreement is striking:
 
@@ -266,8 +263,7 @@ committees.
 different continent, different decade, near-identical ratio — and the substantive marker is absent.
 This is the laundering trap in its textbook form, and it was caught by checking the reference rather
 than by the numbers looking suspicious.
-`[INFERRED (ESC - CVD Prevention Guidelines 2021; WHO - Sodium Intake 2012) — the figures are each
-body's; the shared-lineage finding is this page's]`
+``
 
 **Stated at the width the evidence supports:** what is established is **shared primary-study lineage**,
 not that the two pooled estimates were computed from identical study sets. **The wiki has not
@@ -283,7 +279,7 @@ established that**, and the differing magnitudes suggest they were not.
   (9-10 g/day), whereas the recommended maximum intake is 5 g/day.» **A halving, population-wide** —
   which is an adherence fact, not an efficacy one, and belongs in any realistic reading of what the
   recommendation asks.
-[EXTRACTED @esc2021 chunk 04]
+[@esc2021]
 
 ## A blood-pressure number is not a blood-pressure number `[2026-07-28, ESC chunk 05]`
 
@@ -295,19 +291,18 @@ than the resting one, on the same exposure. **ESC supplies the mechanism.**
 
 > «It occurs in up to 30-40% of patients. The risk associated with white-coat hyperten- sion is lower
 > than sustained hypertension but may be higher than normotension.»
-> [EXTRACTED @esc2021 chunk 05]
+> [@esc2021]
 
 So **office/resting measurement misclassifies a large minority**, in a direction that adds variance
 uncorrelated with the exposure. **An intervention effect measured against a noisier, upward-contaminated
 baseline attenuates**, which is the expected direction of the WHO resting-vs-ambulatory gap.
-`[INFERRED (ESC - CVD Prevention Guidelines 2021; WHO - Sodium Intake 2012) — the white-coat prevalence
-and risk gradient are ESC's, the two SBP figures are WHO's; the attenuation reading is this page's]`
+``
 
 ### ESC applies a measurement correction to SPRINT's headline number
 
 > «the even lower SBP in the intensively treated group in SPRINT (Systolic Blood Pressure Intervention
 > Trial) (mean 124 mmHg) probably reflects a conventional office SBP range of 130-139 mmHg»
-> [EXTRACTED @esc2021 chunk 05]
+> [@esc2021]
 
 **A landmark trial's most-quoted number is restated as 130-139 in the units a clinic actually uses** —
 a shift of roughly 6-15 mmHg, larger than the entire sodium effect this page reports. **The trial is

@@ -15,7 +15,7 @@ relationships:
     - Statins for Primary Prevention and the Power of Zero CAC
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -121,12 +121,9 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
 - **Off-target caveat is load-bearing:** the *any-mechanism-works* claim is conditioned on *no competing
   deleterious off-target effects* — a real diet or drug can lower LDL and still net-harm through another
   pathway, so this validates the *lipid channel*, not any intervention wholesale.
-
-
-``
 ## A contested refinement — is a DIET-induced LDL-C change a good apoB proxy? (Astrup et al. 2020) `[2026-07-29]`
 
-[@astrup2020] presses the concordance proviso above in a specific
+Astrup presses the concordance proviso above in a specific
 direction: it argues a **diet-induced** LDL-C reduction from SFA restriction is an *unusually poor*
 proxy for the atherogenic-particle change, so CVD benefit inferred from it is overstated. The claim,
 and where it stands against this page:
@@ -140,7 +137,7 @@ and where it stands against this page:
   ratio barely moves and "the potential benefit of dietary restriction of saturated fat could be
   substantially overestimated by reliance on the change in LDL cholesterol levels alone."
 - **PURE grounds the diet-lipid discordance with data (now a held source).**
-  [@dehghan2017] (via its companion Mente 2017 lipid analysis)
+  Dehghan (via its companion Mente 2017 lipid analysis)
   reports higher SFA → higher LDL **but** higher HDL, lower triglycerides, and lower **ApoB/ApoA1**
   ratio (the stronger predictor), while higher carbohydrate → lower LDL **but** higher ApoB/ApoA1 —
   concluding «predicting the net clinical effect based on considering only the effects of nutrient
@@ -159,7 +156,6 @@ and where it stands against this page:
   the honest status: **the diet-induced-LDL-C caveat is real and this page already carries its mechanism
   (measure apoB, not LDL-C); the further claim that SFA's LDL rise is benign-by-particle-size is
   contested and dated, and does not overturn apoB causality.**
-``
 -> full joined issue: [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
 
 ## Self-critique `[run 2026-07-29, before commit]`

@@ -85,7 +85,7 @@ inference from its table.
 sugar-specific by mechanism, and the isoenergetic swap says nothing about it.
 
 **And the primary review bounds the mechanism claim further than the guideline's rendering does.**
-[@te2013] calls energy imbalance *"**a major**
+Te Morenga calls energy imbalance *"**a major**
 determinant"*, then immediately: *"However, other less direct mechanisms independent of energy balance
 have been proposed"* — naming fructose/uric-acid and ectopic-fat pathways that act *"independently of
 an effect on body weight"* and declaring them *"beyond the scope of this review"*. So the isoenergetic
@@ -95,7 +95,7 @@ heading above is written in the narrower form for this reason.
 
 ### What the primary review adds to these rows
 
-All five figures verified exactly against [@te2013] — the
+All five figures verified exactly against Te Morenga — the
 transmission is numerically faithful. What the guideline's compression drops changes how much weight
 they carry.
 
@@ -194,7 +194,7 @@ visible where the numbers get quoted.
 
 ### What the primary review adds — and it changes what the thresholds mean
 
-Reading [@moynihan2014], the WHO-commissioned review these caries
+Reading Moynihan, the WHO-commissioned review these caries
 figures come from, recovers four bounds the guideline's rendering does not carry.
 
 - **The two thresholds rest on evidence with different fluoride standing.** For `<10%`: *"All of the
@@ -249,7 +249,7 @@ independent evidence of it**, since both are the same body's process.
 
 ## The second guidance family arrives — and the 5% agreement dissolves
 
-[@sacn2015] is the independent reading gate 4 said was missing. It agrees
+SACN is the independent reading gate 4 said was missing. It agrees
 with WHO's `<5%` figure. **That agreement is not corroboration, and the reason is unusually clean: the
 two bodies excluded each other's evidence.**
 
@@ -297,7 +297,7 @@ SACN's, not WHO's.**
 
 ## A third guidance family — and it sets no 5% tier at all
 
-[@nnr2023] is the third Tier-A body the wiki holds on this
+NNR is the third Tier-A body the wiki holds on this
 question, and it lands on neither of the two positions above.
 
 > «Intake of added and free sugars should be below 10 E%, and preferentially lower»
@@ -427,7 +427,6 @@ mechanism reading is this page's]`
 - **NNR does not say this is why it declined a lower tier.** The adjacency is suggestive and the
   inference is tempting, but NNR never joins them, so the causal reading is the wiki's, not the
   report's, and is marked as such.
-  ``
 - **Note the second-order irony, which is real and worth keeping:** the same data-gaps sentence flags
   *«a lack of a standardized definition for dietary sugars (free and added sugars)»* as a field-level
   gap, while NNR's own glossary supplies a definition that matches WHO's. Those are compatible — a body
@@ -531,9 +530,6 @@ substitution frame; it does not add an independent backing.
   the <5% threshold rests on three ecological studies rated *very low* by both the review and the
   guideline — the wiki's clearest live example of a widely-cited number whose own sources claim little
   for it.
-
-
-``
 ## Limits
 
 - 2015. Free-sugars/cardiometabolic outcomes beyond weight and caries are not covered here.
@@ -545,9 +541,6 @@ substitution frame; it does not add an independent backing.
 - **The three-body comparison is an appraisal comparison, not an evidence comparison.** NNR read WHO
   and SACN; SACN read WHO's commissioned reviews. **No two of the three are independent witnesses to
   the primary data**, so agreement anywhere among them must not be counted as corroboration.
-
-
-``
 ## Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
 - **Over-claim: FOUND and fixed.** The first draft read *"three positions, three warrants — the

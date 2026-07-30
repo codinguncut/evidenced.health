@@ -113,9 +113,6 @@ downgrade for and why. Its own summary of what the system delivers:
   judgment lives; the letter alone hides it.
 - **Design tells you where the rating started, not where it ended.** Both "an RCT, therefore
   reliable" and *observational, therefore weak* skip the eight factors that do the work.
-
-
-``
 ## Aggregating across outcomes -- 5.4's second half
 
 This page rates certainty **per outcome**; a recommendation carries one label. GRADE 5.4 governs the
@@ -338,7 +335,6 @@ explicit mechanisms for moving grades up or down.
 without binding a durable process charter to one brand that may itself evolve.** That is a coherent
 argument this page should hold, and it is not the same as either pole (WHO's *GRADE-or-equivalent*,
 SACN's bespoke instrument).
-``
 
 ### The evidence base underneath is thinning, and that bounds every grade above it
 
@@ -373,7 +369,7 @@ distinguish them. `-> [[Was GRADE Actually Used]]`
   thing, so the row is annotated and the trend claim narrowed to the like-for-like 2010->2015 leg.
 - **Figures verified individually, not as a block.** 2015 (23 of 91, 40 of 91) and 2010 (44 of 59,
   76%) confirmed verbatim; 2005 (17 of 32, \~44%) confirmed with the terminology caveat above.
-- **The GRADE-properties mapping is `` and marked so** — NASEM lists three complaints and
+- **The GRADE-properties mapping is and marked so** — NASEM lists three complaints and
   never connects them to GRADE; the connection is the wiki's. All three complaints verified present
   (define *"large, high-quality, and/or consistent"*; quantitative confidence intervals; *«Define explicit mechanisms for moving study
   grades up or down (e.g., explicit definition of "methodological or generalizability concerns")»*).

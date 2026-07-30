@@ -103,10 +103,7 @@ prevention), diabetes status, weight-loss magnitude, and the drug's early, weigh
 The defensible joint reading is not a ranking of drug over lifestyle; it is that **a hard-CV-outcome
 benefit of weight loss is unproven by the lifestyle route (Look AHEAD) and proven only in
 secondary-prevention obesity by the drug route (SELECT)** — neither establishes that shedding weight, by
-itself, prevents events in a low-risk person.
-
-
-`, SELECT figures via [[Semaglutide for Cardiovascular Risk in Obesity]]]`
+itself, prevents events in a low-risk person., SELECT figures via [[Semaglutide for Cardiovascular Risk in Obesity]]]`
 ## Ma 2017 — the meta-analysis generalizes the test [@ma2017]: CV-null holds, all-cause mortality falls (non-CV)
 
 Look AHEAD is one (large, important) trial in one population. **The higher-tier evidence on the mortality
@@ -146,7 +143,6 @@ effect is *larger* with the dominant trial removed, and I^2 = 0%.
 **One confound worth naming:** Ma's trials were «usually low in fat and saturated fat», so part of that
 benefit could travel the SFA-reduction -> LDL/apoB channel ([[LDL ApoB and Cumulative Exposure]]) rather
 than weight loss per se — the trials cannot separate the two.
-``
 
 ## The pattern channel is distinct from the weight channel — PREDIMED cut events WITHOUT weight loss
 
@@ -166,7 +162,7 @@ you weigh* did not — for CV events specifically. **Caveat (the not-joined chec
 comparators differ (Look AHEAD = established T2D targeting weight; PREDIMED = high-risk primary
 prevention targeting composition), so this is a reasoned cross-trial contrast, not a head-to-head — and
 PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's win is on (mostly stroke)
-*events*, not death. ``
+*events*, not death.
 
 ## Decision relevance
 
@@ -207,7 +203,5 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 - **ITT with arm convergence** and a **mid-trial endpoint change**; powered for a large (18%) effect.
 - The single-trial gap is **cashed**: the weight-loss-on-mortality SR/MA (Ma 2017 BMJ, 54 RCTs) is now
   held and woven above — the CV-null generalizes, all-cause mortality falls (non-CV).
-
-``
 
 ## References

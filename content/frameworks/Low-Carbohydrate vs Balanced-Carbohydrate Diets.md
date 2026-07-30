@@ -181,9 +181,6 @@ diet trials is impractical.
 - **Early rapid loss on carbohydrate restriction is partly water and reverses on refeeding.** Someone
   judging a diet by week-two scale change is reading a hydration signal.
 - **Nothing here speaks to mortality or cardiovascular events**, in either direction.
-
-
-``
 ## Where it stands relative to guidance
 
 The review's findings sit **comfortably inside prevailing guidance**, and it says what that guidance
@@ -305,7 +302,7 @@ design is a live rival explanation for any between-review gap.
 - **Direction, stated plainly:** every subgroup and stratum point estimate favours low-carbohydrate.
   The verdict is *not meaningfully different*, not *no difference in any direction*.
 - **Cohort data on hard outcomes at the extremes — PURE 2017 (partially cashes the AWAITS below).**
-  [@dehghan2017] (135 335 adults, 18 countries) speaks to what this
+  Dehghan (135 335 adults, 18 countries) speaks to what this
   RCT review structurally cannot — hard outcomes across the intake range — and it **cuts against both
   poles, not one**: higher carbohydrate (spline rise above \~60%E) associated with higher **total
   mortality** (Q5 vs Q1 HR 1.28 [1.12-1.46]), yet «the absence of association between low carbohydrate
@@ -368,7 +365,6 @@ addresses what unsystematic error does to a mean difference. **What it does is e
 confidence intervals are wide relative to the effect, and why the review's *not clinically important*
 verdict is robust** — a 1 kg difference sits inside the noise band of the measurement problem it is
 estimated through, quite apart from whether it matters to a patient.
-``
 
 **Where it bites harder: any observational weight-change finding**, and any self-reported one. Willett
 records that self-reported BMI runs low — NHANES III mean 25.07 vs 25.52 technician-measured, from
@@ -422,7 +418,6 @@ unavailable:
   to tell* predict the same 1 kg. **Separating them needs a per-arm exposure contrast**, and with 27%
   of arms reporting no fidelity at all and the rest measuring it incommensurably, **this review cannot
   supply one.**
-  ``
 - **It strengthens rather than weakens the *not clinically important* verdict for a chooser.** If
   advice-as-delivered moves weight by \~1 kg, that is what advice does in practice, whatever the diets
   would do if followed.
@@ -436,6 +431,6 @@ with the fidelity field counted.** -> [[Framing a Decision Question]]
 **94%** and **9%**. A 9% mean with an SE of 4.8% is possible, but so is an OCR truncation of 90% —
 **and no recovered-tables sidecar exists for this source to check against**, so the digit is
 unverifiable. **An extreme differential-adherence example was available and has been left out**, since
-the finding above does not need it. ``
+the finding above does not need it.
 
 ## References

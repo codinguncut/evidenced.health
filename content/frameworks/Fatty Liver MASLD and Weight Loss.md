@@ -129,6 +129,4 @@ so the glycemia levers apply too -> [[Carbohydrate Restriction and Type 2 Diabet
 - Coherence, not validity (R1): these are graded recommendations, not proof that acting changes a given
   person's liver or life.
 
-``
-
 ## References

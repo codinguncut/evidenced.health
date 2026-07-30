@@ -64,9 +64,6 @@ reverse, which is the easier misreading.)
 - Insensitive to the relative estimate's precision in the range where baseline risk is very low: a
   tighter confidence interval on the relative effect buys little when the absolute difference is
   small either way.
-
-
-``
 ## Failure modes
 
 - **Reporting relative effects alone.** A relative figure without a baseline is uninterpretable for a
@@ -103,9 +100,6 @@ specifically *in the protocol*). [@grade, §2.1]
 - **Stratifying on baseline risk is cheap; stratifying on effect modification is expensive.** The
   first needs prognostic information only; the second needs interaction evidence and is the more
   common source of false positives.
-
-
-``
 ## Refinement — varying absolute effects are NOT inconsistency (chunk 02)
 
 GRADE returns to this when defining the inconsistency downgrade, and draws a consequence the §2.1
@@ -231,7 +225,6 @@ in England had tooth decay».
 multiplication is never performed.** No risk differences, no NNTs, no absolute benefit at a stated
 baseline. So the failure is not missing data — it is an unexecuted step, which is a different and more
 tractable defect than the usual one.
-``
 
 ### The per-SD increment bounds this page's central claim
 
@@ -256,7 +249,6 @@ route-(a)/route-(b) machinery will not catch it, because nothing about the *rati
 **Practical rule this adds:** before applying a relative effect, ask what the denominator of the
 increment is. *Per gram*, *per serving* and *per SD* are not interchangeable, and only the last one
 changes meaning when the population changes.
-``
 
 **Still owed, and SACN does not supply it:** a genuine route-(a) illustration — one intervention, one
 relative effect, two baseline-risk strata. SACN has no such case; it never stratifies its estimates by

@@ -68,9 +68,6 @@ and supplies a mechanism (viscous fibre -> lower LDL, independent of fat displac
 sum into one big causal number. The composite claim is *fibre is beneficial and at least partly causal,
 with a modest measured effect on the endpoints we can actually trial* — the mortality magnitude stays
 observational.
-
-
-``
 ## Why the observational leg is more than *just correlation* — but not RCT-grade
 
 Reynolds argues causality by triangulation: «The consistency between the trial and prospective study
@@ -127,9 +124,6 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   ([[Saturated Fat Intake and Replacement]]). Do not oversell it as cholesterol therapy.
 - **Rank honestly.** Fibre is a real supporting lever, not a big rock; glycaemic index/load is a weaker
   marker than fibre or whole-grain content and not worth optimizing for on this evidence.
-
-
-``
 ## Certainty and gaps
 
 - **`confidence: medium`** — the LDL/surrogate leg is RCT-grade (Brown, GRADE moderate-high); the

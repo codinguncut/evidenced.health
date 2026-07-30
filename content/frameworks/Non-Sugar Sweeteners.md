@@ -266,9 +266,6 @@ classification nor the JECFA 2023 ADI re-affirmation is held yet — those remai
   and of each other — but they answer *different* questions (surrogate mechanism vs cohort cancer), so this
   is type-F refinement, not type-E convergence on one claim. WHO NSS stays NON-independent of the WHO
   free-sugars family ([[Free Sugars Intake]]).
-
-
-``
 ## Self-critique `[run 2026-07-29, second pass — the Suez/Debras/review additions]`
 
 - **Over-claim check.** Suez is explicitly NOT read as confirming the hard-outcome harm — the parameter

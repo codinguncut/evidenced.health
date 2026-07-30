@@ -8,6 +8,7 @@ cluster: evidence-appraisal
 relationships:
   related_to:
     - Rating Certainty of Evidence
+    - Indirectness of Evidence
     - Baseline Risk and the Relative-Absolute Split
     - Physical Activity Dose and Mortality
 created: 2026-07-25
@@ -148,7 +149,6 @@ is what turns an abstract rule into a readable decision. The footnote key:
   upgrade-worthy in its own right. Whether that is an extension of the framework or a departure from
   it is **not settled here** — the GRADE Handbook's list would have to be re-read against the claim
   that it is exhaustive.
-  ``
 
 **Consequence for reading any HIGH-certainty observational finding:** ask which note carried it. An
 upgrade resting on IPD-plus-gradient (note `e`) is a different object from one resting on absence of
@@ -165,7 +165,7 @@ guard is not a control. This section is the critique, run late, with what it fou
 - **Over-claim: FOUND and fixed.** **The upgrade is REFUSED far more legibly than it is granted** was
   not supported — notes `a`, `b` and `e` state reasons too. Narrowed to the shared reason cluster
   across the two refusals, which is what the footnotes actually show.
-- **The IPD-vs-GRADE's-three claim** is tagged `` and explicitly left unsettled rather than
+- **The IPD-vs-GRADE's-three claim** is tagged and explicitly left unsettled rather than
   asserted as a departure. **Held** — but note it rests on GRADE's three factors being an exhaustive
   list, which this page states above and has not independently re-verified against the Handbook.
 - **Laundered independence:** none claimed; no `type-E` token. **Clean.**
@@ -194,7 +194,6 @@ converged.** The folic acid case:
 **That is this wiki's type-E criterion — independent, compatible backing from different fields —
 arriving from a methods textbook rather than from the ontology corpus.** The two failures had many
 studies and one method class; the success had fewer and five.
-``
 
 ### A cheap diagnostic the breast-cancer case supplies
 

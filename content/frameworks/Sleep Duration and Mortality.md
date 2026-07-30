@@ -19,9 +19,6 @@ relationships:
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
 around a \~7-8 h reference. But the two arms are **not the same kind of finding**, and reading them as
 one (*any deviation from 7-8 h shortens life*) is the error this page exists to prevent.
-
-
-``
 ## The U-curve — two arms, very different footing
 
 | Arm (vs \~7-8 h reference) | Pooled RR (95% CI) | Heterogeneity | Source |
@@ -80,9 +77,6 @@ expected if short sleep is causal and long sleep tracks illness.
   habitual long sleeper is a candidate for evaluation of occult illness, not a sleep-reduction target.
 - **The reference is \~7-8 h**, and the curve is shallow near it — precision beyond "adequate, not
   chronically short" is not warranted by this evidence.
-
-
-``
 ## Limits
 
 - **All exposure is self-reported, single-timepoint** — «sleep questionnaires» that often «did not
@@ -96,8 +90,5 @@ expected if short sleep is causal and long sleep tracks illness.
   guideline (AASM) for the recommendation-level read.
 - Coherence, not validity (R1): the association is what the cohorts report; the causal split between
   arms is the authors' mechanistic argument, not a settled fact.
-
-
-``
 
 ## References

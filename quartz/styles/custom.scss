@@ -25,6 +25,8 @@ a.dcard {
   flex-direction: column;
   gap: 0.55rem;
   padding: 1.1rem 1.05rem 1.2rem;
+  aspect-ratio: 4 / 3;   // uniform cards: every column is equal-width (grid 1fr), so a fixed
+  overflow: hidden;      // ratio makes every card the same size; height = 3/4 width
   border-radius: 14px;
   border: 1px solid var(--lightgray);
   background: var(--light);
@@ -49,14 +51,23 @@ a.dcard:hover {
 .deliverable-grid a.dcard:nth-child(4n + 2) .hicon { color: #3fa876; }
 .deliverable-grid a.dcard:nth-child(4n + 3) .hicon { color: #d8922f; }
 .deliverable-grid a.dcard:nth-child(4n)     .hicon { color: #8b6ff0; }
-.hicon-wrap { position: relative; display: inline-flex; width: 46px; height: 46px; }
-.hicon { width: 46px; height: 46px; color: var(--secondary); }
+.hicon-wrap { position: relative; display: inline-flex; align-self: flex-start; }
+// .hicon is an <iconify-icon> web component (Iconify CDN). It sizes to its FONT-SIZE (like a
+// glyph), not width/height, so size it with font-size; it renders a monotone SVG in
+// currentColor, so the per-card `.hicon { color }` rules above still apply.
+.hicon { font-size: 3em; color: var(--secondary); }
 .dcard-title { font-weight: 650; font-size: 1.14rem; line-height: 1.22; color: var(--dark); }
-.dcard-desc { font-size: 0.92rem; line-height: 1.45; color: var(--darkgray); }
+.dcard-desc {
+  font-size: 0.92rem; line-height: 1.45; color: var(--darkgray);
+  // graceful truncation inside the fixed-ratio card: clamp to N lines with an ellipsis
+  // (flex-fills the space under the title, then "…" rather than a hard clip)
+  flex: 1 1 auto; min-height: 0; overflow: hidden;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4;
+}
 .dcard--fasting .hicon-wrap::after {
   content: "";
-  position: absolute; left: -1px; top: 50%;
-  width: 48px; height: 3px; border-radius: 2px;
+  position: absolute; left: 50%; top: 50%;
+  width: 3em; height: 3px; border-radius: 2px;
   background: #3fa876;  // matches the fasting card's icon hue (10th card = green)
-  transform: translateY(-50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
 }

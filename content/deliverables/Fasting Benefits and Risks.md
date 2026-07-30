@@ -53,7 +53,7 @@ it is thinnest exactly on the prolonged arm that the hype leans on hardest.
 
 ## The load-bearing question: does the schedule beat an isocaloric deficit?
 
-**Default answer: the deficit is doing the work** ``. The clean meal-timing lesson
+**Default answer: the deficit is doing the work**. The clean meal-timing lesson
 generalizes — *when* you eat moves outcomes mostly because it changes *how much*
 ([[Is Meal Timing a Life Hack]]). TREAT is
 the tidy demonstration: adherence was good, yet the window alone bought no weight advantage
@@ -88,7 +88,7 @@ restriction systematic review or meta-analysis — ADF/5:2 vs an isocaloric cont
 and cardiometabolic outcomes — is the number behind this whole section, and it is **not in the corpus**
 (gap, below). For the ADF/5:2 and prolonged arms specifically the corpus holds **no head-to-head**, so
 the *deficit-does-the-work* default is **inferred by transfer** from TRE and the non-fasting weight-loss
-routes ``, not evidenced for those schedules — both direction and magnitude are unproven
+routes, not evidenced for those schedules — both direction and magnitude are unproven
 there.
 
 ## Autophagy: a mechanism and a "not yet," not a demonstrated benefit
@@ -97,8 +97,7 @@ there.
 fasting runs mostly on **rodent and cell** data; the human data are short-term surrogate markers, and
 no source held here links a fasting-induced autophagy signal to a patient-important human outcome.
 Under the transportability caveat (animal != human, in vitro != in vivo), autophagy is admitted only
-**directionally, discounted, and marked as mechanism**
-``. It is
+**directionally, discounted, and marked as mechanism**. It is
 exactly the trap [[Surrogate Outcomes]] guards: a *measurable marker* is not the outcome a person
 values, and a marker can move in the intended direction while the outcome does not. Autophagy
 graduates from "not yet" to "benefit" only when human outcome evidence arrives — and a human-autophagy
@@ -133,8 +132,7 @@ never rapid [[Big Rocks (Elderly)]]. This is route (c) (a harm firing in a strat
 transient rise in catecholamines can hold basal expenditure up acutely. Sustained large deficits are
 the opposite story: the body defends against a persistent energy gap, and measured basal rate can fall
 somewhat below what body composition predicts (adaptive thermogenesis — the reduction in resting
-energy expenditure beyond what fat and muscle loss alone would cause)
-``. This is
+energy expenditure beyond what fat and muscle loss alone would cause). This is
 the same defend-the-deficit behaviour the compensation evidence shows for other interventions: the
 body quietly offsets an opened energy gap, and the offset is largest in the person who most wants the
 effect ([[Is Meal Timing a Life Hack]]). Two overclaims to resist symmetrically: **"fasting boosts
@@ -149,8 +147,7 @@ tool. The strata where the sign flips:
 
 - **On glucose-lowering medication (sulfonylureas, insulin) or with type 1 diabetes.** Withholding
   food while glucose-lowering drugs continue risks **hypoglycaemia**, and in type 1 diabetes,
-  **diabetic ketoacidosis**. This is a prescriber-managed contraindication, not a lifestyle choice
-  ``. Note how carefully even a *supervised*
+  **diabetic ketoacidosis**. This is a prescriber-managed contraindication, not a lifestyle choice. Note how carefully even a *supervised*
   deficit programme handles this: DiRECT discontinued all oral antidiabetic and antihypertensive drugs
   on day 1 and reintroduced them only per protocol
   [@lean2018, Procedures] — an aggressive energy restriction and the
@@ -165,12 +162,11 @@ tool. The strata where the sign flips:
   [@easl2024]. The specific worry with a
   *prolonged fast* — that rapid lipolysis mobilizes free fatty acids to the liver and can transiently
   worsen steatosis, and that rapid weight loss raises gallstone risk — is **mechanism, not a held
-  finding** ``. What the corpus supports is the *gradual-not-rapid* preference;
+  finding**. What the corpus supports is the *gradual-not-rapid* preference;
   the prolonged-fast-specific harm is a named gap.
 - **Underweight, eating-disorder history, pregnancy, frail elderly.** Out-of-scope harm strata, named
   as do-not: a deliberate prolonged energy withdrawal in someone with no reserve, an active or
-  historical eating disorder, a pregnancy, or established frailty is a hazard, not a health lever
-  `]]`.
+  historical eating disorder, a pregnancy, or established frailty is a hazard, not a health lever]]`.
 
 ## Refeeding: the fast and the refeed are one protocol
 
@@ -178,8 +174,7 @@ tool. The strata where the sign flips:
 a prolonged fast in a depleted person carries **refeeding-syndrome** risk — dangerous electrolyte
 shifts (hypophosphatemia; thiamine depletion) when carbohydrate intake resumes and insulin drives
 electrolytes intracellularly. The clinical point is that the refeed is *part of the intervention*, not
-an afterthought, and it is a prescriber matter for anyone doing a genuinely prolonged (>=72 h) fast
-``. The closest held analog is a
+an afterthought, and it is a prescriber matter for anyone doing a genuinely prolonged (>=72 h) fast. The closest held analog is a
 supervised very-low-energy protocol with structured, protocol'd food reintroduction
 ([[Total Diet Replacement and Type 2 Diabetes Remission]]) — a refeeding-syndrome clinical source proper
 is **not held** (gap, below); the risk is named, not sized.

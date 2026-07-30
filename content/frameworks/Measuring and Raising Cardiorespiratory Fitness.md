@@ -153,9 +153,6 @@ symmetric standards apply to a body making the case for its own risk factor.
   (comparative evidence queued). Net: the case against HIIT for this stratum rests on the flattening
   mortality curve + adherence, not a compensation penalty. Net for this stratum: *doing regular
   activity at all* is the lever; HIIT-vs-walking is a second-order, adherence-bound refinement.
-
-
-``
 ## Limits
 
 - **Expert-consensus scientific statement, not a systematic review or GRADE appraisal** — «not intended
@@ -164,8 +161,5 @@ symmetric standards apply to a body making the case for its own risk factor.
   finding upgrades but does not resolve the nucleus's predictor caveat.
 - **\~50% of CRF is heritable** — the trainable fraction is real but bounded.
 - One body (AHA), 2016; whether other bodies endorse the vital-sign framing is unprobed.
-
-
-``
 
 ## References

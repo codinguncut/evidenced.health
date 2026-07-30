@@ -117,10 +117,7 @@ The load-bearing quotes:
 - Energy adjustment does not fully remove energy confounding when energy itself is measured with
   error: "control of confounding may not be complete."
 - 2012 source; the modelling conventions are stable but the worked examples predate the current
-  literature.
-
-
-` quoted inline]`
+  literature. quoted inline]`
 ## Energy adjustment's effect on measurement error is two-sided `[2026-07-28, Willett ch.3 + ch.11; scoped 2026-07-30 self-critique]`
 
 This page argues energy adjustment is necessary to make a nutrient coefficient mean anything. **Willett
@@ -155,7 +152,6 @@ coefficient answers a question nobody asked (*more of this nutrient, and more fo
 honest statement is a trade with effects on both sides, not a pure cost:** adjustment fixes *what the
 coefficient means*, can cancel correlated error, and can *also* raise the within-to-between ratio for
 some nutrients — the sign of that last effect varies by nutrient (Table 3-6 above).
-``
 
 ## The adjustment term stops meaning what its label says `[2026-07-28, Willett ch.13]`
 
@@ -180,7 +176,6 @@ the quantity it estimates have come apart, silently.
 - **Any coefficient reported for the adjustment term is uninterpretable as labelled.** A reader
   scanning a table for *"total fat: RR 0.98"* is reading the effect of **unsaturated** fat. **Reading
   the covariate list is not optional bookkeeping; it is where the comparator is defined.**
-  ``
 
 ## A displayed dose-response can show the model rather than the data `[2026-07-28, Willett ch.13]`
 

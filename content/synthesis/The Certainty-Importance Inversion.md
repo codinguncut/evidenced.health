@@ -23,9 +23,6 @@ dietary exposures the wiki holds — saturated fat and sodium — share one shap
 most certain about the surrogate and least certain about the patient-important outcome the surrogate
 stands for.** Each source states its own split; neither states the regularity, and neither holds the
 counter-instance that reveals what actually drives it.
-
-
-``
 ## The pattern — matched on within-exposure certainty
 
 The compared parameter is **GRADE certainty on the surrogate vs certainty on the patient-important
@@ -72,7 +69,6 @@ measured:**
 The inversion is therefore a symptom of **thin hard-outcome trial evidence meeting a well-studied
 marker** — wherever the outcome has been tried (or measured in large objective cohorts), certainty can
 attach to the outcome directly.
-``
 
 ## Why carbohydrate restriction is NOT a third instance
 
@@ -83,9 +79,6 @@ stricter cut of the same marker (plus medication status), not a surrogate standi
 patient-important outcome (events, death). Its lower certainty comes from few, short trials and
 medication withdrawal, not from a surrogate-to-outcome transmission gap. Recorded as a **distinction**,
 not folded in — including it would stretch the pattern to fit.
-
-
-``
 ## Why it is a decision-change, not a curiosity
 
 **When a dietary guideline sounds confident, check what the confidence is attached to.** For these
@@ -98,9 +91,6 @@ three levels lower — so:
   LDL, all-cause mortality a Moderate-certainty null).
 - **What would raise the certainty is a hard-outcome trial, not another marker study** — the gap does
   not close by measuring LDL or blood pressure more precisely.
-
-
-``
 ## Limits
 
 - **Two instances and one counter-instance** — a pattern with a boundary, not a proven law.
@@ -111,9 +101,6 @@ three levels lower — so:
 - **Coherence, not validity** (method-risks R1): the pattern says where guidance is *certain*, not where
   it is *right*. A high-certainty surrogate may transmit to the outcome exactly as claimed; the
   inversion is about warrant, not truth.
-
-
-``
 ## Self-critique `[run 2026-07-28, before commit — two defects caught and fixed]`
 
 - **The first mechanism was self-refuting and was replaced.** The draft blamed *self-reported diet* and

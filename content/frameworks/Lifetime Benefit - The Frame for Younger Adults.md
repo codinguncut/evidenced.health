@@ -148,9 +148,6 @@ extraction of all three grids is owed.
   qualify for risk factor treatment"*, and that under 40 drug treatment *"is not usually considered"*.
 - **Competing risk cuts the other way at older ages**, which is why the grids fall so sharply: an
   intervention cannot buy CVD-free years to someone who will die of something else first.
-
-
-``
 ## Limits
 
 - **Calibrated for low- and moderate-risk regions only**: *"The model is currently validated for low-
@@ -163,8 +160,5 @@ extraction of all three grids is owed.
   process in which patient preference, expected treatment harms, and costs can be taken into account."*
   It informs a decision by routing it to shared decision-making, not by leaving it open.
 - One guidance body; whether others endorse lifetime framing or this model is **unprobed**.
-
-
-``
 
 ## References

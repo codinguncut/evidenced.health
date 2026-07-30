@@ -73,9 +73,6 @@ discount a recommendation.
   ([[Rating Outcome Importance]]).
 - Footnotes recording close calls, including factors considered and *declined*.
 - An explicit statement of perspective and of how resource use was treated.
-
-
-``
 ## Decision relevance
 
 - **A failed criterion is a specific, citable finding** — *certainty was not rated per outcome* is
@@ -86,9 +83,6 @@ discount a recommendation.
 - **Meeting all seven does not make a recommendation correct** — it means the judgments are visible
   enough to be argued with. That is what GRADE claims for itself
   ([[Rating Certainty of Evidence]]), and no more.
-
-
-``
 ## Limits
 
 - The criteria test **conformance and transparency, not correctness**. A document can satisfy all
@@ -98,9 +92,6 @@ discount a recommendation.
   dispute with a body that rejects the framework rather than misapplying it.
 - **Source currency:** §8 is flagged in-source as rewritten in the 2024 GRADE Book (as
   *requirements for claiming the use of GRADE*).
-
-
-``
 ## Run against a real guideline for the first time `[2026-07-28, WHO SFA 2023 Annexes 6-7]`
 
 This page held seven criteria and no worked application. **WHO's SFA guideline is now readable against
@@ -147,9 +138,6 @@ files of the source]`
 *"convention held here" is a reportable, valued finding*, and this page's own framing says the
 diagnostic exists to turn vague suspicion into an auditable finding — **which cuts both ways, and here
 it cuts toward the guideline.**
-
-
-``
 ### The one real gap is in the CHECKLIST, not in WHO
 
 **Annex 7 publishes every domain judgement and the reasoning inside each domain. It publishes no rule
@@ -183,7 +171,6 @@ strength *judgements* be transparently reported. It does not ask for a combinati
 silence about weighting is **not** a conformance failure — **GRADE does not require it.** A
 process-defect charge on this ground would fail this page's own bar, which demands the defect be
 documented against the standard the body is held to.
-``
 
 **Bearing on the standing `[PRIOR — test me]` about undisclosed weighting, recorded and NOT scored**
 (adjudication is out of ingest scope). The prior's surviving form holds that *considerations are

@@ -164,6 +164,5 @@ question-framing time — before any evidence was graded. **So the guideline's o
 a step in the causal chain rather than an endpoint**, and it is then graded **High** while every
 endpoint it stands for is graded lower. **The surrogate status was declared in advance and the
 certainty inversion arrived anyway** -> [[Surrogate Outcomes]].
-``
 
 ## References

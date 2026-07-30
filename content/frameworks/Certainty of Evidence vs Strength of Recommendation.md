@@ -27,9 +27,6 @@ in earlier grading systems to their failure to make it. [@grade, §1.2]
 Better evidence -> stronger recommendation. Grading systems that produce a single letter or star
 rating collapse the two, so a reader cannot tell whether a weak recommendation reflects thin evidence
 or a genuinely close call on well-established effects.
-
-
-``
 ## The reframing — certainty is ONE of four inputs to strength, and the mapping is asymmetric
 
 The separation is not merely *record two numbers*: certainty is one of **four** determinants of
@@ -82,9 +79,6 @@ of those is high quality.)
   ignoring it does.
 - **The practical test when reading any recommendation:** ask which of the two judgments produced its
   strength. If the source does not let you tell them apart, you cannot use its strength rating.
-
-
-``
 ## What sets strength, once certainty is fixed (chunk 03)
 
 Strength is "the extent to which a guideline panel is confident that desirable effects of an
@@ -196,12 +190,11 @@ or accept only parts of conclusions from the scientific report.»*
 departures occur and are not currently explained. **What this does NOT establish is that any specific
 recommendation was distorted** — NASEM asks for transparency about the handoff, it does not document a
 case.
-``
 `-> [[Which Objective Moved This Recommendation]]`
 
 ## A third axis the two-axis frame does not hold: how PRECISE is the number `[2026-07-28]`
 
-[@nnr2023] attaches **no strength or certainty grade to any
+NNR attaches **no strength or certainty grade to any
 recommendation it issues** — not one, across 374 pages.
 `[searched: "strong recommendation"/"conditional recommendation"/"GRADE approach"/"certainty of
 evidence" across all 10 NNR chunks — 1 hit total, and it is NNR describing WHO's grading of WHO's
@@ -232,7 +225,6 @@ that whole-grain intake lowers risk, recommend it strongly, and still have picke
 consensus rather than derived it from a curve. **Certainty about a relationship does not transmit to
 precision about a cutpoint** — and a reader who sees only a strong recommendation attached to a round
 number will assume it does.
-``
 
 **This sharpens a rule the corpus already carries rather than contradicting it.** The dose-response
 section of the telos holds that *where a threshold appears in guidance, the first hypothesis is that it
@@ -326,8 +318,6 @@ certainty, weak recommendation — occurs zero times**, and so does the rare one
   rationale for the strong PUFA recommendation cites «moderate certainty overall» — i.e. it reaches
   for certainty to justify strength rather than for the other three determinants.
 
-``
-
 ### The falsifier, stated in advance
 
 **A guideline whose recommendations vary in values/preferences should produce the off-diagonal** —
@@ -337,9 +327,6 @@ screening decisions, drugs carrying burden or side-effects, interventions with r
 recommendations, this section's pattern is WHO-and-nutrition-specific and must be narrowed to say so.**
 Recorded as a prediction rather than a conclusion, because a 7-cell single-body sample is exactly the
 size at which a pattern is most tempting and least supported.
-
-
-``
 ### The prediction is partly met — NutriRECS, where VALUES set the strength `[2026-07-29]`
 
 The corpus now holds a non-WHO, non-nutrient-threshold graded recommendation, and it breaks the WHO-only
@@ -364,9 +351,9 @@ free sugars <5%E is thinness-driven (more research could) — identical labels, 
 
 ### Two bodies that do not have the axis at all
 
-- **[@sacn2015] issues no strength axis whatsoever** — its bespoke
+- **SACN issues no strength axis whatsoever** — its bespoke
   instrument grades evidence and stops, so the certainty/strength question cannot even be posed of it.
-- **WHO - Sodium Intake 2012 issues strength without certainty** [@who2012] — every recommendation is
+- **WHO issues strength without certainty** [@who2012] — every recommendation is
   «strong», the word *conditional* does not appear in the document, and **no certainty rating is
   attached to any recommendation line**. Certainty exists only in its per-outcome profiles.
 

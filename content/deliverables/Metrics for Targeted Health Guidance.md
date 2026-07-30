@@ -78,7 +78,6 @@ most of the placing value sits in a few cheap measures, so capture those first.
   [@ference2017]. Non-HDL cholesterol (total minus
   HDL) is the cheap, standard proxy: it captures all the apoB-carrying fractions, so for the
   metabolically-impaired, emphasise **non-HDL over LDL-C** as the headline lipid.
-  ``
 
 - **ALT (a liver aminotransferase).** The standard first-pass screen for the fatty-liver stratum, which
   this population leans toward: MASLD is «steatotic liver disease... in the presence of one or more

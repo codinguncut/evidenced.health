@@ -14,7 +14,7 @@ relationships:
     - Upgrading Observational Evidence
     - Physical Activity Dose and Mortality
 created: 2026-07-25
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## Why it matters
@@ -22,9 +22,6 @@ updated: 2026-07-29
 Diet is measured indirectly, by asking people. The resulting error is large enough to be the dominant
 consideration in reading almost any observational nutrition finding — and it does **not** push in one
 direction, which is what makes it hard to reason about.
-
-
-``
 ## The taxonomy that governs everything else
 
 Error is random or systematic, within-person or between-person. The consequential split:
@@ -112,9 +109,6 @@ which is a much stronger and more specific allegation.
 - Calibration that smuggles in a covariate: in one published case, "calibrated energy intake"
   predicted cancer risk, but the associations "were entirely accounted for by BMI" — the calibration
   had contributed nothing.
-
-
-``
 ## Willett's counter to the strong sceptical reading
 
 He rejects using energy under-reporting to discredit diet studies generally: total energy "is rarely
@@ -183,7 +177,6 @@ attenuation claim stands on its own footing — the DLW validation substudy, and
 attribution of its failed dose-response to *"a considerable degree of measurement error even when
 using validated methods"*. The PA contrast is **consistent with** that mechanism and **does not
 evidence** it.
-``
 
 **Consequence for the telos.** The `every reduction pays` default was induced from four
 self-reported-exposure sources. It should be **scoped to that condition** rather than asserted as a
@@ -273,13 +266,11 @@ wide as the four-week one.
 comes from few-day assessment it is too wide, so *"one SD"* is a **larger** exposure contrast than the
 label implies, and the relative risk attached to it describes a bigger change than the reader thinks.
 
-**This lands directly on a form the corpus holds.** [@sacn2015]
+**This lands directly on a form the corpus holds.** SACN
 standardises its cohort increments to «one standard deviation of intake» (50 g/day total sugars,
 20 g/day individual sugars), and [[Baseline Risk and the Relative-Absolute Split]] records that a
 per-SD relative risk does not transport without its population's SD. **Willett adds the prior
 problem: the SD may not be right for its own population either.**
-
-``
 
 **Stated as a conditional, because the wiki has not established SACN's assessment method:** *if* the
 SD behind an increment was estimated from a small number of days per subject, that increment is
@@ -343,7 +334,6 @@ confounder in most of this literature.** It can therefore create, erase or rever
 rather than merely shrink it. A measured association between any reported intake and obesity is partly
 a measurement artifact of exactly the size shown above, and **the direction is not predictable from
 first principles.**
-``
 
 **Consistency check against what the wiki already holds, and the full SACN sentence adds a stratum
 the corpus had been dropping:**
@@ -420,7 +410,6 @@ gradient can be perfectly adequate for that job while being the wrong tool for a
 against a cutpoint. **The two failures the wiki should keep separate:** a threshold can be poorly
 located (a claim about the evidence) *or* well located and unmeasurable in practice (a claim about the
 instrument). **Chapter 4 speaks only to the second.**
-``
 
 ## A validity coefficient is itself biased — correlated error inflates it `[2026-07-28, Willett ch.6]`
 
@@ -461,7 +450,6 @@ property of the instrument.** Move the biomarker a year away and the two methods
   is below the published coefficient, the true effect being attenuated is larger than the correction
   implies. **This does not change the direction of any correction — it means the corrections
   understate.**
-  ``
 
 **What this does NOT establish.** Willett describes the artifact and one demonstration (a conference
 presentation plus Bingham 2008); he does not quantify how much of the published validation literature
@@ -533,7 +521,7 @@ Willett's verdict on the pair of designs:
 > frequently be seriously distorted by a combination of recall and selection bias.»
 > [@willett]
 
-**[@sacn2015] excluded case-control studies by design** — *«case-control,
+**SACN excluded case-control studies by design** — *«case-control,
 cross-sectional and ecological studies were not considered»* — on stated concerns about their
 limitations. **Willett supplies the mechanism and the measured demonstration behind that rule.**
 
@@ -541,7 +529,6 @@ limitations. **Willett supplies the mechanism and the measured demonstration beh
 rule; Willett is a methods textbook documenting why the rule is warranted, from cohort-nested recall-
 bias substudies. Different fields, different methods, neither citing the other for this claim — so the
 convergence is **not** self-stated. `[E-independent]`
-``
 
 **Recall horizons, held for transportability judgments** — quoted whole, because the qualifier is in
 the same sentence as the reassuring half:
@@ -603,7 +590,6 @@ of intake at the same time**, which is the confusion the single word invites.
 water, i.e. against a *recovery* biomarker. **The reason those studies could establish a magnitude
 rather than merely a correlation is that the reference method was in the one class that yields
 absolute intake.** Where no recovery biomarker exists, misreporting can be detected but not sized.
-``
 
 ### The consequence that is decision-relevant, and it favours one exposure the corpus holds
 
@@ -621,7 +607,6 @@ class from the FFQ-based evidence behind sugars, fibre, saturated fat and grains
   shows a single day is a poor estimate of habitual intake. **A recovery biomarker fixes the
   *calibration* problem, not the *day-to-day variation* problem** — the two are independent, and a
   single 24-hour urine inherits the second in full.
-  ``
 
 ### A biomarker is not automatically the safer instrument `[chunk 10]`
 
@@ -649,11 +634,10 @@ intuition motivating the whole exercise:
 does not care about the quantity.* Anything physiologically important enough to be regulated is, for
 that reason, badly measured in blood. **This is a structural trade, not a technical limitation to be
 engineered away.**
-``
 
 ## Why a self-reported exposure cannot cleanly attribute — the organic-food cohort `[2026-07-29]`
 
-The [@baudry2018] cohort is a worked case of this page's
+The Baudry cohort is a worked case of this page's
 constraint deciding what a study can conclude. The exposure is a **self-reported organic-food-frequency
 score**, and the reported association (cancer HR Q4 vs Q1 = 0.75, 95% CI 0.63-0.88) has to survive two
 error channels at once: the ordinary self-report error on the diet the score encodes, and a

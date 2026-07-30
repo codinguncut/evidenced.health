@@ -31,9 +31,6 @@ alarm it corrects: its "benefit" claims often rest on mechanism or epidemiology,
 *harm* evidence is the two hard cases it reports itself (raw-legume lectin poisoning; the tannin-iron
 caveat below). It is graded low, and the net verdict here leans on the parts where whole-food human
 evidence exists, not on the mechanistic optimism.
-
-
-``
 ## The six classes — concern, the preparation lever, and who still needs care
 
 | Compound | Main concern | Preparation effect | Nuance / benefit | Stratum that still needs care |
@@ -103,9 +100,6 @@ The digestibility-acting subset here — **phytate, tannins, trypsin inhibitors*
 names as the plant-protein **digestibility discount**, and the *same* preparation lever raises protein
 quality while lowering the toxicity concern. One variable, one lever, two framings
 -> [[Protein Quality and the DIAAS Score]] (Synthesis section).
-
-
-``
 ## Limits
 
 - **Single narrative-review source, `confidence: low`.** A systematic review or whole-food human RCTs
@@ -114,9 +108,6 @@ quality while lowering the toxicity concern. One variable, one lever, two framin
 - **No patient-important outcome is moved here** either way — the page adjudicates a *worry*, and its
   value is licensing someone to stop avoiding prepared plant staples, not promising a benefit from
   eating them.
-
-
-``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Reverse-halo check: FIRED and guarded.** The attractive line was *antinutrients are a myth*; the

@@ -152,7 +152,6 @@ is real, but its **framing** ("low-carb for remission") is better read as "weigh
 low-carb being one delivery route". A person choosing a diet for remission should optimize for the
 **weight loss they can sustain**, by whichever route they will adhere to
 ([[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]).
-``
 
 DiRECT states the same logic for surgery: "The essential mechanisms behind bariatric surgery are
 weight loss and decrease in body fat content, rather than any direct surgical effect" — and "The very
@@ -195,8 +194,5 @@ as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
   colic + abdominal pain, same participant), none causing withdrawal.
 - **Coherence, not validity (R1):** a strong single trial, not proof the effect transports or
   persists.
-
-
-``
 
 ## References

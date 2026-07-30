@@ -24,7 +24,7 @@ Mediterranean pattern cut cardiovascular events in *high-risk* primary preventio
 trial carries an internal-validity discount, below). Where good patterns have been tested head to head,
 the differences are small. The measured gap between any two decent patterns is far smaller than the gap
 between *any* decent pattern and a typical Western diet -- and what a person actually *keeps eating*,
-plus their total energy intake and body fat, dominates the named label. ``
+plus their total energy intake and body fat, dominates the named label.
 
 ## Sort the evidence by quality before comparing patterns
 

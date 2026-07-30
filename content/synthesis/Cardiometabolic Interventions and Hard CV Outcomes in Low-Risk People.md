@@ -17,6 +17,8 @@ relationships:
     - Statins for Primary Prevention and the Power of Zero CAC
     - Does Weight Loss Reduce Cardiovascular Events
     - Blood Pressure Lowering and Cardiovascular Events
+    - Does Reducing Saturated Fat Reduce Cardiovascular Events
+    - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-28
 updated: 2026-07-30
 ---
@@ -31,9 +33,6 @@ large *absolute* reduction in hard cardiovascular events.** The first three are 
 below the action threshold*; the fourth, BP-lowering, is the sharp test — its *relative* benefit **is**
 proven in primary prevention, and the claim survives only because a proven relative effect on a low
 absolute baseline is still a small absolute gain.
-
-
-``
 ## The four, on the one question
 
 | Intervention | Hard-CV-outcome evidence, and where it applies | For a low-risk / primary-prevention person |
@@ -59,10 +58,10 @@ those settled findings, it does not re-derive a magnitude.
 3. **Surrogate improvement does not carry the outcome** ([[Surrogate Outcomes]];
    [[The Certainty-Importance Inversion]]). Look AHEAD is the worked case: weight, HbA1c, fitness, blood
    pressure and CRP all moved the right way and the events did not follow. A good-looking risk-factor
-   profile after an intervention is not evidence of an averted event.
-
-
-``
+   profile after an intervention is not evidence of an averted event. The **dietary** instance is the
+   same shape: reducing saturated fat reliably lowers LDL, yet whether that lowers *events* is genuinely
+   contested ([[Does Reducing Saturated Fat Reduce Cardiovascular Events]]) — the surrogate signal (LDL)
+   is firmer than the outcome evidence it stands in for.
 ## The largest levers are missing from the table — because their evidence is observational
 
 The obvious objection to a ceiling finding is *"but exercise."* It is worth answering, because the
@@ -86,9 +85,6 @@ proven causal lever.
 small-for-low-risk, and the **large** lever (activity/fitness) is the one whose causal effect on hard
 outcomes is structurally *unprovable by RCT*. So the low-risk person's honest position is unchanged — no
 *proven* large CV-event lever — even after the biggest association in the vault is on the table.
-
-
-``
 ## The decision-change — this is a ceiling finding
 
 This is [[Layer 1 - Ranking Interventions for a Stratum]]'s *the ceiling is itself a finding* made
@@ -108,9 +104,6 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
 - **Not a claim about high-risk people.** For established CVD, high 10-year risk, or a high CAC, the same
   machinery runs the other way: absolute benefit is large and the interventions are strongly indicated.
   The pattern is a statement about the **low-risk tail**, where most of the wiki's healthy strata sit.
-
-
-``
 ## What tested it — and why the test sharpened rather than broke it
 
 BP-lowering was the candidate refutation, and it is instructive that it **refined** the claim instead.

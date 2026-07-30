@@ -33,9 +33,6 @@ distance between them.
 heterogeneous set strips the mechanism and yields a washed-out average that answers nobody's question.
 **This page extends the same rule one step earlier, to how the exposure is DEFINED.** Same failure,
 different object.
-
-
-``
 ## The evidence cuts three ways — and that is the finding
 
 > **Extended 2026-07-28:** a **fourth** case was added at the bottom of this page — a boundary that
@@ -45,7 +42,7 @@ different object.
 
 ### 1. The split carried signal — the category was hiding a real difference
 
-- **Sugar-sweetened beverages inside "free sugars."** Te Morenga - Dietary Sugars and Body Weight 2013 [@te2013]: *"Fourteen of these 15 studies reported the sugars exposure as a sugar sweetened beverage"*,
+- **Sugar-sweetened beverages inside "free sugars."** Te Morenga [@te2013]: *"Fourteen of these 15 studies reported the sugars exposure as a sugar sweetened beverage"*,
   and for non-beverage exposures the review *"showed no consistent associations between other measures
   of sugars intake and adiposity."* **The child-cohort signal is a beverage signal.** Reading it as a
   free-sugars signal generalises past what the vote-count carries.
@@ -54,7 +51,7 @@ different object.
 
 ### 2. The split carried NOTHING — the boundary was decorative
 
-- **Refined versus whole grain.** [@sacn2015] tested refined grains
+- **Refined versus whole grain.** SACN tested refined grains
   directly: **RR 1.00 (95% CI 0.98, 1.01)** for cardiovascular events and **RR 1.00 (0.98, 1.01)** for
   type 2 diabetes, both `No association · Moderate`. And every whole-vs-refined **randomised** trial
   was null on blood pressure, lipids, fasting glucose, insulin and insulin sensitivity. SACN's own
@@ -121,7 +118,7 @@ one source most supportive of the matrix reading (SACN on isolates) explicitly m
 **That is the honest state: unresolved, with the burden currently on the matrix claim.**
 
 **Why this matters for the fortification case specifically.** If refined-grain harm were a matrix
-effect, refined grains should underperform — and [@sacn2015] tested that
+effect, refined grains should underperform — and SACN tested that
 directly and found **RR 1.00** for both cardiovascular events and type 2 diabetes. That is a **direct
 test of the matrix prediction on hard outcomes, and it did not find one.** It does not refute matrix
 effects in general — micronutrient status, satiety and glycaemic response were not the outcomes tested
@@ -135,9 +132,6 @@ wrong because the organism or the schedule **compensates** elsewhere, so net eff
 **The others are largely unheld**: the wiki has bioavailability only as a gap (the protein block), and
 nothing at all on nutrient combinations or digestive effects. `AWAITS` sources; do not write these as
 claims from mechanism alone.
-
-
-``
 ## Tests
 
 1. **Does the source analyse sub-categories separately, or fold them?** If it folds them, the estimate
@@ -157,9 +151,6 @@ claims from mechanism alone.
 5. **Check the increment against the population's spread.** A null over a narrow slice of intake is a
    low-power null, not evidence of no effect: SACN's legume-fibre increment is **1 g/day** against
    7 g/day for total fibre.
-
-
-``
 ## Decision relevance
 
 - **Convergence across a boundary is actionable information.** SACN's refined-grain null says the
@@ -171,9 +162,6 @@ claims from mechanism alone.
 - **The variance argument cuts both ways.** If within-category variance is large, a category-level
   *positive* is also unreliable — it may be driven by one sub-type. This test is not a licence to
   discard inconvenient categories only.
-
-
-``
 ## Limits
 
 - **The within/between variance ratio is almost never measured for food categories**, so this is
@@ -260,7 +248,6 @@ energy dense products, high in added or free sugars, salt and total fat/saturate
 and micronutrients.» Every one of those is a variable NNR already sets a recommendation on. **If the
 category's predictive power runs through variables you already regulate, regulating the category too is
 double-counting, not new information.**
-``
 
 ### The within-category heterogeneity, with named instances
 
@@ -332,7 +319,7 @@ heterodox lens imported onto the literature but a question the literature's own 
   validity table, and in *What this does NOT establish*. The unscoped form ("Nova adds nothing") is
   what the source does not support.
 - **New-claim check on the fourth case.** The variance/incremental-validity distinction is **this
-  page's**, tagged ``; NNR states the redundancy verdict and the shared-variable list but
+  page's**, tagged; NNR states the redundancy verdict and the shared-variable list but
   never frames it as incremental validity.
 - **Evidential symmetry: applied against the finding as well as for it.** The «no qualified SRs» fact
   weakens NNR's *«strong evidence»* claim just as much as it contextualises the declination, and is
@@ -368,7 +355,7 @@ that the two behave alike.
 
 ## SFA as a nutrient label that fails to predict its foods — Astrup et al. 2020 `[2026-07-29]`
 
-[@astrup2020] is this diagnostic's question stated as a whole thesis:
+Astrup is this diagnostic's question stated as a whole thesis:
 **does the nutrient "saturated fat" carry information about the foods that contain it?** Its answer is
 the strongest *no-the-nutrient-is-the-wrong-exposure* case the corpus holds — and it is the friction
 half of [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. This is a **distinction** from the
@@ -411,9 +398,9 @@ the certificate or an underlying exposure it only partly captures carries the co
 
 The animal-product case answers cleanly, because both meta-analyses attribute the difference to **feed**,
 not certification, in their own voice. Organic milk and meat carry higher n-3 PUFA and CLA (milk n-3
-+56%, CLA +41%; meat n-3 +47%), but [@srednickatober2016milk]
++56%, CLA +41%; meat n-3 +47%), but Srednicka-Tober
 finds "the higher grazing/conserved forage intakes in organic systems were the main reason for milk
-composition differences", and [@srednickatober2016meat] that
+composition differences", and Srednicka-Tober that
 "the high grazing/forage-based diets prescribed under organic farming standards may be the main reason
 for differences in FA profiles."
 [@srednickatober2016milk, Abstract]
@@ -424,18 +411,16 @@ for differences in FA profiles."
 is Test 3 at the production level: the presumed mechanism (n-3/CLA) lives in the feed, so the category
 whose mechanism sits in a sub-component (here, forage intake) should be replaced by that sub-component
 (grass-fed / pasture) in any decision. The label and the exposure come apart.
-``
 
 **Two guards keep this honest (symmetric standards).**
 
 - **The observational-food evidence carries its own confounding**, exactly the trap this page's third
   case warns of: whole-fat-dairy consumers and unprocessed-meat-vs-processed-meat eaters differ
-  systematically (this is the [@nnr2023] UPF-is-a-diet-quality-
+  systematically (this is the NNR UPF-is-a-diet-quality-
   marker problem), so an inverse food association is not a clean matrix verdict.
 - **A favourable-to-whole-fat-dairy conclusion on partly dairy-funded authorship is a halo tell** — the
   matrix argument is admissible as a distinction (the nutrient does not predict the food), NOT yet as a
   positive claim that these foods are protective. What survives is the diagnostic point: **at matched
   SFA, the foods diverge, so "saturated fat" is not one exposure.**
-``
 
 ## References

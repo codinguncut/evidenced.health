@@ -13,6 +13,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - What Kind of Evidence Sits Behind a Nutrient Recommendation
     - Baseline Risk and the Relative-Absolute Split
+    - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
 updated: 2026-07-30
 self_critiqued: 2026-07-30
@@ -178,9 +179,6 @@ PURE, the Cochrane and Graudal lines, and the reviews rebutting them).
 - **Any low- or middle-income-country evidence.** All RCTs were run in Australia, Europe, North America
   and New Zealand; cohorts in Europe, Japan and the USA. The PICO setting is "All countries" and
   transportability is never discussed -- while the guideline's stated motivation is LMIC-framed.
-
-
-``
 ## Limits
 
 - 2012; self-dated for review "by the end of 2017". The post-2011 sodium controversy is by construction
@@ -199,9 +197,6 @@ PURE, the Cochrane and Graudal lines, and the reviews rebutting them).
   guideline does not do is apply it to the efficacy outcomes — those stay "inconclusive" in the body and
   reappear as *"no association"* in the Executive summary, which is the four-states error the telos
   names.
-
-
-``
 ## The exposure measure here is in a different class from the rest of the corpus `[2026-07-28, Willett ch.8]`
 
 Almost every dietary exposure the wiki holds is measured by food-frequency questionnaire. **Sodium is
@@ -230,11 +225,10 @@ taxonomy and its consequences: [[Measurement Error in Dietary Assessment]].
   person against a cutpoint. **Sodium escapes it**, because an absolute intake can be measured
   directly. WHO's «<2 g/day sodium» is therefore one of the few guidance numbers in this corpus a
   person could actually be measured against.
-  ``
 
 ## A second guidance family on the same stratification — and it is NOT a second witness `[2026-07-28, ESC]`
 
-[@esc2021] reports the same hypertensive/normotensive split this page
+ESC reports the same hypertensive/normotensive split this page
 already holds from WHO:
 
 > «A reduction in sodium intake may reduce SBP by, on average, 5.8 mmHg in hypertensive, and 1.9 mmHg
@@ -270,7 +264,6 @@ width-of-claim note below.)
 different continent, different decade, near-identical ratio — and the substantive marker is absent.
 This is the laundering trap in its textbook form, and it was caught by checking the reference rather
 than by the numbers looking suspicious.
-``
 
 **Stated at the width the evidence supports:** what is established is **shared primary-study lineage**,
 not that the two pooled estimates were computed from identical study sets. **The wiki has not
@@ -303,7 +296,6 @@ than the resting one, on the same exposure. **ESC supplies the mechanism.**
 So **office/resting measurement misclassifies a large minority**, in a direction that adds variance
 uncorrelated with the exposure. **An intervention effect measured against a noisier, upward-contaminated
 baseline attenuates**, which is the expected direction of the WHO resting-vs-ambulatory gap.
-``
 
 ### ESC applies a measurement correction to SPRINT's headline number
 

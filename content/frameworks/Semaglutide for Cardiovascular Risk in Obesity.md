@@ -204,9 +204,6 @@ caveat.
   on the **weight lever and diabetes prevention**, not on a promised CV-event reduction.
 - **Against lifestyle:** not a substitution question with a fixed answer — same lever, and the swing
   factors are adherence, cost, GI tolerability, and reversibility on stopping, all elicited at layer 3.
-
-
-``
 ## Gaps this opens
 
 - **No primary-prevention CV-outcome trial** for any obesity drug — the single largest hole for applying
@@ -214,8 +211,5 @@ caveat.
 - **No head-to-head** of drug vs sustained lifestyle vs bariatric surgery on hard outcomes.
 - **Weight loss on hard outcomes as an exposure in its own right** (independent of the drug) is still
   unheld -> [[Weight Loss and Mortality]] (a future page, not yet a held source).
-
-
-``
 
 ## References

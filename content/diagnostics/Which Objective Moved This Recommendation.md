@@ -14,16 +14,13 @@ relationships:
     - Rating Outcome Importance
     - Framing a Decision Question
 created: 2026-07-27
-updated: 2026-07-28
+updated: 2026-07-30
 ---
 
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
 evidence *plus* considerations that have nothing to do with whether the exposure works. This page is
 the diagnostic for separating them — and the central finding is that on the guidance the wiki holds,
 **the separation is already published**, so this is a reading skill rather than an accusation.
-
-
-``
 ## The structure — GRADE names four determinants, only one of which is evidence
 
 Certainty is *one* input to strength, alongside the balance of desirable and undesirable consequences,
@@ -117,7 +114,7 @@ Intake 2023) EtD table]
 
 ### The purest observable case: a ceiling anchored to current consumption
 
-[@nnr2023] on white meat is status-quo anchoring with nothing else
+NNR on white meat is status-quo anchoring with nothing else
 mixed in, and it is worth holding as the worked example.
 
 - **Health is neutral** — *"no currently available evidence for beneficial or detrimental effects of
@@ -189,9 +186,6 @@ contradicts. `AWAITS` a source on public nutrition beliefs before the population
 - **Separate the recommendation from the estimate when transporting it.** The effect estimate travels
   to an individual decision; the feasibility and acceptability judgements are population-scale and
   mostly do not. -> [[Framing a Decision Question]]
-
-
-``
 ## The guard — this diagnostic is easy to abuse
 
 This wiki's own telos names *process defect* the most easily abused of the five reasons guidance may
@@ -206,9 +200,6 @@ cost.
 - **A non-evidence consideration entering is not a defect.** GRADE's design puts it there deliberately.
   The defect would be a body *concealing* which consideration moved it — which is the opposite of what
   a published EtD table does.
-
-
-``
 ## Limits
 
 - **One worked case, one body.** WHO SFA 2023 is the only EtD table the wiki holds in full. Whether
@@ -219,13 +210,10 @@ cost.
   page should not be read as saying non-evidence domains rarely matter.
 - GRADE's own EtD chapter is only lightly represented in the held handbook chunks; the fuller EtD
   framework literature is not held.
-
-
-``
 ## A second body blends health and environment — and concedes the health effect may be null `[2026-07-28, ESC]`
 
-[@nnr2023] is this page's worked case for environmental reasoning
-entering a dietary recommendation. **[@esc2021] does it too, in one
+NNR is this page's worked case for environmental reasoning
+entering a dietary recommendation. **ESC does it too, in one
 sentence, and in a sharper configuration** — a cardiology guideline, not a body with an environmental
 mandate.
 
@@ -271,7 +259,6 @@ argument, and ESC never says.
   a positive (if small) associational health signal and an LDL-C substitution benefit, either of which
   could carry *«lower consumption»* on its own. **The counterfactual is unavailable**, and claiming
   environment moved this one would be exactly the over-read this page exists to prevent.
-``
 
 ## Divergence class 4 (lag), self-documented `[2026-07-28, ESC chunk 05]`
 

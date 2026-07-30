@@ -61,9 +61,6 @@ Equations, which it concedes overpredict in many populations.
 
 **USPSTF does not use CAC:** it «addressed the use of coronary artery calcium score for CVD risk
 assessment in a separate recommendation» — i.e. deliberately kept it out of the statin rule.
-
-
-``
 ## The power of zero (Nasir / MESA 2015)
 
 Where a body *does* allow CAC, a zero score moves the decision. In 4,758 MESA adults (45–84 yr, median
@@ -118,9 +115,6 @@ does not settle it (no RCT):
 This is a genuine joined-issue candidate (risk-score-threshold vs imaging-guided allocation) but is
 **not adjudicated here** — it AWAITS a source that either randomizes CAC-guided treatment or is an
 independent institutional appraisal of the imaging-vs-score question.
-
-
-``
 ## Decision relevance
 
 - **Get the 10-year risk first; the threshold is the decision.** Below \~7.5%, USPSTF says not a statin
@@ -135,9 +129,6 @@ independent institutional appraisal of the imaging-vs-score question.
   of [[Semaglutide for Cardiovascular Risk in Obesity]] on the weight axis. For a low-risk, CAC=0 person
   the realistic alternative to a statin is lifestyle plus monitoring, not nothing and not a drug with a
   fraction-of-a-percentage-point absolute benefit.
-
-
-``
 ## Limits
 
 - **The CAC-guided-statin question has no RCT** — the standing open-loop (R1) problem in a sharp form.
@@ -145,8 +136,5 @@ independent institutional appraisal of the imaging-vs-score question.
   ARDs are population-specific and it declines to rule on CAC.
 - Neither source quantifies the CAC=0 negative predictive value *by age band* below 45 — the gap
   [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] already flagged.
-
-
-``
 
 ## References

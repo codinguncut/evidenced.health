@@ -206,9 +206,6 @@ evidence *«less extensive than it is for CAC»*.
   restriction; both readings are kept rather than one suppressed.
 - **Check ethnicity before ordering an imaging test.** It is graded higher than CAC, costs nothing, and
   is the only modifier with a published multiplier.
-
-
-``
 ## Limits
 
 - One guidance body. Whether other bodies set the same bar or endorse the same shortlist is **unprobed**
@@ -217,9 +214,6 @@ evidence *«less extensive than it is for CAC»*.
 - The reclassification statistics themselves (net reclassification index values, C-statistic changes)
   are cited to references not held here, so this page carries ESC's *verdicts* and not the evidence
   behind them.
-
-
-``
 ## A modifier that DID clear the bar — with a number and a grade `[2026-07-28, ESC chunk 03]`
 
 This page records ESC's five criteria and its verdict that *«very few potential modifiers»* clear them.
@@ -241,7 +235,6 @@ This page records ESC's five criteria and its verdict that *«very few potential
   direction only because the condition is present or absent — there is no *«more favourable risk
   modifier»* reading to be had, which is exactly the asymmetry ESC warns about elsewhere. **A binary
   condition-based modifier sidesteps the reassurance trap; a continuous one does not.**
-  ``
 
 **Adjacent, and weaker:** ESC also lists chronic inflammatory conditions generally at **IIb/B**
 (*«Assessment of total CVD risk may be considered»*) — a recommendation to *assess*, not a multiplier.

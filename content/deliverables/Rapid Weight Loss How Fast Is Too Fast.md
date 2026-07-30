@@ -69,8 +69,7 @@ the *same* target and compare regain - and that evidence is **not held here** (s
 Purcell-2014-type trial). Where such trials exist they tend to run *against* the folk wisdom (rapid initial
 losers reach target more often, with no worse regain), but the wiki does not hold the magnitude, so this is
 flagged as the likely-but-unconfirmed direction, not asserted. **Evidence state: the speed upper-arm is
-contested/confounded, not established.**
-`] decision rule to the speed question; the
+contested/confounded, not established.**] decision rule to the speed question; the
 adjudicating rate-of-loss trial is a named gap, not held]`
 
 ## Does regain track speed? Weak at best - and everyone regains
@@ -133,13 +132,13 @@ the *severity/method* of the loss far more than a modest sustained rate.
   that weight is typically regained toward «a net weight loss of about 5% at 12-24 months and partial
   regain of liver lipid content and stiffness» [@easl2024]. The specific rapid-phase worry - that very fast lipolysis floods the liver with free fatty acids
   and can *transiently* worsen steatosis before sustained loss improves it - is **mechanism, not a held
-  finding here** ``. Net direction is benefit; the rapid-phase worsening is the caveat.
+  finding here**. Net direction is benefit; the rapid-phase worsening is the caveat.
   Same guideline: «very little evidence for a beneficial effect of time-restricted eating over regular
   caloric restriction» on liver fat [@easl2024] - i.e. the
   schedule does not beat the isocaloric deficit.
 - **Gallstones (gap).** Rapid weight loss, especially via a very-low-calorie diet, raises gallstone risk
   via bile stasis (bile sitting still in a gallbladder that is emptying less) - a genuinely *rate/method*-
-  linked harm, but the sizing source is **not held** ``. A DiRECT adverse-event note is consistent (a serious
+  linked harm, but the sizing source is **not held**. A DiRECT adverse-event note is consistent (a serious
   event of biliary colic plus abdominal pain in one intervention participant) but is a single case, not an
   incidence [@lean2018].
 - **Kidney / metabolic (mechanism).** Very restrictive loss can raise uric acid (gout flares), and severe
@@ -199,7 +198,6 @@ because the body compensates.
 exercise a bad diet."** Adding exercise (especially resistance) to a diet-created deficit is muscle-sparing
 and preferentially trims visceral fat, at the cost of energy compensation, injury risk and adherence; but a
 purely exercise-driven deficit hits the compensation ceiling and cannot match what diet can create.
-``
 
 **The magnitude that would settle the composition question - an exercise-vs-hypocaloric-diet (and combined)
 body-composition / visceral-fat systematic review (Verheggen-2016 / Khalafi-2023-type) - is not held**

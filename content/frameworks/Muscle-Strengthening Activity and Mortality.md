@@ -94,7 +94,7 @@ persisting to \~130-140 min/week and the hazard then rising above 1.0 — the J'
     body's glucose «sink» and improves glucose tolerance. This makes resistance training a **glycaemic
     lever, not only a function/mortality one** — decision-relevant specifically for the dysglycaemic /
     metabolic-syndrome stratum (the drifting-median adult), where the held diabetes L-shape is the
-    outcome this mechanism produces. `; a dedicated
+    outcome this mechanism produces.; a dedicated
     glucose-disposal/insulin-sensitivity RCT source is not held -> a named acquirable gap.]` **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
   whose upturn lacks a mechanism (mortality/CVD/cancer) show one** — the diagnostic signature of an
   artifactual arm.
@@ -117,9 +117,6 @@ does not: any reason to fear or to chase high MSA volume for mortality — nor a
 - **For fitness (VO2max) it is complementary, not the same lever.** Strength training raises strength and
   lean mass; aerobic/interval work raises CRF ([[Measuring and Raising Cardiorespiratory Fitness]]). Both
   belong in an untrained person's program.
-
-
-``
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -143,9 +140,6 @@ So strength training's **weak** card is the mortality evidence; its **strong** c
 (held) plus the muscle-mass/strength predictor literature (unheld). For an older or sarcopenia-risk
 stratum the case is *stronger* than the very-low mortality number alone implies — the lever's value is
 in keeping function and staying off the floor, not (on current evidence) a proven mortality reduction.
-
-
-``
 ## Limits
 
 - One meta-analysis, observational, «very low» GRADE; mostly US cohorts; self-reported exposure; high
@@ -153,8 +147,5 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 - The dose-response upper arm is not usable (above); the diabetes L-shape is the more trustworthy dose
   curve.
 - Frequency vs total-time could not be separated; the target-dose is a region, not a number.
-
-
-``
 
 ## References

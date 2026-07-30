@@ -47,12 +47,9 @@ The measured differences that survive appraisal are: **a lower pesticide-residue
 unproven health consequence at real-world levels), **small nutrient differences** (that run in *both*
 directions), and **a pasture-driven fatty-acid profile in animal products** — which is a **feed effect,
 not a label effect**. The hard-outcome case is the weakest link and is heavily confounded.
-
-
-``
 ## Sub-question 1 — pesticide / toxin residues: lower on organic, health consequence unproven
 
-Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014 (meta-analyses over 343
+Baranski (meta-analyses over 343
 publications) found "the frequency of occurrence of pesticide residues was found to be four times higher
 in conventional crops, which also contained significantly higher concentrations of the toxic metal Cd."
 [@baranski2014, Abstract]
@@ -62,7 +59,7 @@ Cd difference rests on the standardized-mean-difference analysis, not the percen
 [@baranski2014]
 
 **The decision question is not whether a difference is detectable but whether it reaches a
-patient-important outcome.** Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012
+patient-important outcome.** Smith-Spangler
 (Annals SR) supplies the discipline: organic produce carried a lower residue-contamination risk (risk
 difference 30%), but «differences in risk for exceeding maximum allowed limits were small.»
 [@smithspangler2012]
@@ -100,14 +97,14 @@ This is the worked example of the label and the causal exposure coming apart. Or
 carry a more desirable fatty-acid profile — **and the driver is pasture/forage, which the organic
 certificate does not guarantee.**
 
-**Milk** (Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, 170 studies): "There were
+**Milk** (Srednicka-Tober, 170 studies): "There were
 no significant differences in total SFA and MUFA concentrations between organic and conventional milk."
 n-3 PUFA were higher in organic «by an estimated 7 (95 % CI −1, 15) %» for total PUFA and 56% (CI 38,
 74) for n-3 PUFA; alpha-linolenic acid +69% (CI 53, 84), very-long-chain n-3 (EPA+DPA+DHA) +57% (CI 27,
 87), conjugated linoleic acid +41% (CI 14, 68).
 [@srednickatober2016milk, Abstract]
 
-**Meat** (Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, 67 studies): SFA "similar",
+**Meat** (Srednicka-Tober, 67 studies): SFA "similar",
 MUFA "slightly lower" in organic; total PUFA and "n-3 PUFA, which were an estimated 23 (95 % CI 11, 35) %
 and 47 (95 % CI 10, 84) % higher in organic meat, respectively." Heterogeneity was high and "could be
 explained by differences between animal species/meat types" — the boundary is doing little work across
@@ -131,11 +128,10 @@ actually reaches the milk/meat. **Specify the exposure (grass-fed / pasture), no
 the label is a partial proxy for the thing that matters. This is [[Is the Food Category Doing Any Work]]
 Test 3 at the production level: the presumed mechanism (n-3/CLA) is carried by *feed*, and "organic" is
 the wrong exposure to steer by.
-``
 
 ## Sub-question 4 — hard outcomes: one cohort, and it exists here to DEMONSTRATE the confound
 
-Baudry - Organic Food Consumption Cancer NutriNet 2018 (NutriNet-Sante, 68,946 French adults, 1340
+Baudry (NutriNet-Sante, 68,946 French adults, 1340
 incident cancers) reports "High organic food scores were inversely associated with the overall risk of
 cancer (hazard ratio for quartile 4 vs quartile 1, 0.75; 95% CI, 0.63-0.88; P for trend = .001; absolute
 risk reduction, 0.6%; hazard ratio for a 5-point increase, 0.92; 95% CI, 0.88-0.96)."
@@ -186,7 +182,6 @@ attribute*, exactly as the spec predicted.
   product-level difference; whether it is large in *absolute* terms against total-diet n-3 is a
   `G`-gap — **no held source quantifies dairy/meat's share of total n-3 intake**, so the absolute
   magnitude is unestablished here rather than known to be small.
-  ``
 - **Hard outcomes:** one confounded cohort; no clean attribution, no RCT.
 
 **Ranked (Layer 1), "organic" is a small, low-certainty lever at best** — dominated for anyone by the
@@ -207,9 +202,6 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   clinically significant); Baudry bounds the outcome claim (confounded).
 - **type-G** — no RCT on hard outcomes; residue-to-outcome transmission unevidenced at real-world levels;
   a grass-fed-specific (vs organic-certified) outcome comparison is unheld.
-
-
-``
 ## Limits and gaps
 
 - **Open loop:** this grades coherence and source-fidelity, never validity. It appraises, does not
@@ -225,8 +217,5 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   the wiki cannot compute; the cohort evidence is confounded and the trials do not exist.
 - `AWAITS` a grass-fed-vs-grain-fed animal-product outcome source that separates feed from certification;
   and any residue-level human-outcome source that could move residues from surrogate to outcome.
-
-
-``
 
 ## References

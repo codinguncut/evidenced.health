@@ -26,9 +26,6 @@ Reynolds 2019 is now **held and woven** (the fibre-benefit section below; ingest
 **note Reynolds shares an author with Te Morenga, so it cannot corroborate independently**, and NNR
 leans on Reynolds for its whole-grain dose-response, so that dependency runs through this page too. The
 convergence it appears to add is therefore shared-source, not type-E.
-
-
-``
 ## The headline: refined grains are NOT found harmful
 
 | Exposure -> outcome | Estimate | SACN grade |
@@ -93,7 +90,6 @@ is faecal weight, which SACN itself bounds:
    and legume fibre's SD is **1 g/day** against **7 g/day** for total fibre. A null estimated across a
    distribution one-seventh as wide, in a low-consumption population, is close to uninformative about
    what happens at high intake.
-   ``
 
 **Pulses appear in exactly one SACN recommendation, and it is about weaning** — *"from about six
 months of age gradual diversification of the diet to provide increasing amounts of whole grains,
@@ -131,8 +127,7 @@ do nothing at the intakes someone considering them would actually eat. `-> SC-11
   scoped to this source, not to the literature. **Held.**
 - **Laundered independence:** none claimed. The page flags in advance that Reynolds shares an author
   with Te Morenga and cannot corroborate independently. **Clean.**
-- **Residual risk:** single-source, `confidence: low`, and the pulses section leans on an
-  `` power argument that is the wiki's, not SACN's. Marked as such.
+- **Residual risk:** single-source, `confidence: low`, and the pulses section leans on an power argument that is the wiki's, not SACN's. Marked as such.
 
 ## Fibre ISOLATES are better evidenced than fibre-bearing foods — and SACN bounds why `[chunk 09]`
 
@@ -160,7 +155,6 @@ randomised at a chosen dose; whole-grain intake mostly cannot, so it is observed
 tracks the better design, not the better food** — and SACN attaches the transportability caveat
 itself, twice, in the same clause as the finding: the effect is demonstrated *at supplement-level
 intakes*, which is not a claim about eating more of a fibre-bearing food.
-``
 `-> [[Is the Food Category Doing Any Work]]`, `-> [[Upgrading Observational Evidence]]`
 
 ## The 30 g target against what people actually eat `[chunk 08/10]`
@@ -194,7 +188,7 @@ reading the NSP number against the 30 g AOAC target would overstate the shortfal
   SACN supplies the correct AOAC-terms comparison itself; the near miss is documented on
   [[Measurement Error in Dietary Assessment]] rather than quietly dropped.
 - **Over-claim check on the isolate asymmetry.** The claim that better grades track better *design*
-  rather than better *food* is tagged `` — SACN states the supplementation bound but does not
+  rather than better *food* is tagged — SACN states the supplementation bound but does not
   draw the design contrast. **Held, and correctly attributed to the wiki.**
 - **Adjudication check (the new rule):** no `SC-NN` row was scored and no challenge adjudicated in
   this pass. The fibre-isolate material bears on `SC-07` and `SC-18`; the handles are noted in the
@@ -204,7 +198,7 @@ reading the NSP number against the 30 g AOAC target would overstate the shortfal
 
 ## The second guidance family arrives — and it is not a second witness `[2026-07-28]`
 
-[@nnr2023] cashes the `AWAITS` above. **The first thing it
+NNR cashes the `AWAITS` above. **The first thing it
 establishes is that it cannot corroborate this page**, and NNR says so itself by listing its inputs:
 
 > «Seven qSRs are available on the role of cereals (grains) and health outcomes (Fogelholm et al.,
@@ -245,9 +239,6 @@ its individual constituents are not — which is [[Is the Food Category Doing An
 opposite direction to its usual use. **What survives is narrower and still useful:** two Tier-A bodies
 looking at overlapping literature reached *"measured and null"* and *"barely studied"*, and a reader
 told only one of the two would form a different picture of how settled this is.
-
-
-``
 ### What NNR adds that SACN does not have
 
 - **An explicit carve-out for refined grains, on an energy-adequacy warrant.** NNR's science advice
@@ -263,7 +254,7 @@ told only one of the two would form a different picture of how settled this is.
   SACN's 30 g/day is *AOAC fibre*. **Different substances, different measures, not comparable**, and
   the page's existing NSP-vs-AOAC warning applies with more force here.
   [@nnr2023]
-- **A dose-response statement that may or may not describe a knee — recorded as ``.**
+- **A dose-response statement that may or may not describe a knee — recorded as.**
   > «Dose-response curves show that risk reduction for all-cause mortality is observed for intakes up
   > to 50-60 g/day of whole grains. Higher intakes (i.e. 90 g/day) confer even greater risk reduction
   > for coronary heart disease, type 2 diabetes and colorectal and breast cancer (Reynolds et al.,
@@ -279,7 +270,6 @@ told only one of the two would form a different picture of how settled this is.
   again (a number marking the edge of the evidence, not a feature of the curve), and it is consistent
   with, not a counter-instance to, the dose-response prior.
   `[@reynolds2019]`
-  ``
 
 ### Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
@@ -297,7 +287,7 @@ told only one of the two would form a different picture of how settled this is.
 - **Same-quantity near miss: AVOIDED.** NNR's 90 g/day whole grains was about to sit near SACN's 30
   g/day fibre target. **Dry weight of a food against an AOAC fibre measure** — recorded in the body as
   a non-comparison.
-- **Dose-response: declined to score.** The `` sentence is the only candidate knee in the
+- **Dose-response: declined to score.** The sentence is the only candidate knee in the
   corpus and the temptation was to bank it against the falsified prior. Left open, source named.
 - **Residual:** `confidence` stays `low` and the source count going from one to two changes nothing
   epistemically, which is the whole point of the section.
@@ -305,7 +295,7 @@ told only one of the two would form a different picture of how settled this is.
 ## The pulses gap gets a first number — from a third guidance family `[2026-07-28, ESC]`
 
 This page files pulses as a **`G` gap, stated as one**: the wiki could not say whether pulses help,
-harm or do nothing at realistic intakes. [@esc2021] supplies the first
+harm or do nothing at realistic intakes. ESC supplies the first
 quantified claim the corpus holds.
 
 > «A single portion of pulses (legumes) a day low- ers LDL-C by 0.2 mmol/L and is associated with a

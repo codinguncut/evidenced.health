@@ -19,9 +19,6 @@ self_critiqued: 2026-07-29
 **The decision.** Should someone — particularly a non-diabetic optimizing their diet — wear a CGM to
 guide eating? The efficacy question is whether CGM-driven behaviour change moves a health outcome, not
 whether the trace is interesting.
-
-
-``
 ## Efficacy verdict — a modest surrogate effect concentrated in diabetes; thin-to-absent for the healthy
 
 Richardson et al. 2024 (SR+MA of RCTs where CGM feedback was the intervention vs a no-CGM control):
@@ -57,9 +54,6 @@ Optimizing the glucose trace can therefore mean optimizing an incomplete picture
 system. These limits were sound as stated (challenge #14); the efficacy evidence above is the reason
 they matter — the instrument is a partial surrogate whose transmission to a patient-important outcome in
 non-diabetics is **unevidenced**.
-
-
-``
 ## Decision relevance
 
 - **For a person with diabetes:** CGM plausibly helps glycaemic control modestly (HbA1c \~-0.28%) — a
@@ -67,18 +61,12 @@ non-diabetics is **unevidenced**.
 - **For the metabolically-healthy self-optimizer:** the efficacy case is **not made** — no healthy-
   non-diabetic trials, a null on weight/BMI, an unmeasured behaviour mechanism, a partial surrogate, and
   pervasive COI. The honest read is *insufficient evidence of benefit*, not *proven useless*.
-
-
-``
 ## Limits
 
 - **Single SR/MA, `confidence: low`.** No hard-outcome (event/mortality) trial exists in any population
   here; everything is HbA1c/TIR/anthropometry.
 - **Not a prescriber tool assessment** — CGM in diabetes management (dosing, hypoglycaemia detection) is
   a different question this page does not address.
-
-
-``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Over-claim check:** the verdict is scoped to *behaviour-change efficacy on measured outcomes*; it

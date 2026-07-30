@@ -93,9 +93,6 @@ survives the conservative handling.
   US series, a Japanese cohort). That triangulation — different populations, eras, and designs agreeing —
   is why this sits at `confidence: high` on a single ingested source: the source is one, but the backing
   it reports is not.
-
-
-``
 ## Limits
 
 - **Observational** (no one randomizes smoking) — but the effect size, dose-response, adjustment
@@ -105,9 +102,6 @@ survives the conservative handling.
   length claim; the *shape* of decline (COPD morbidity, post-stroke disability) is not quantified here.
 - **US population, cross-sectional smoking status at baseline** — some baseline smokers later quit,
   which would *understate* the true hazard of continued smoking, not overstate it.
-
-
-``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Over-claim check:** every magnitude is quoted or tabled from Jha; the "90% reduction" is paired with

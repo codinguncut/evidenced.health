@@ -19,9 +19,6 @@ self_critiqued: 2026-07-29
 **The decision (Challenge #11).** The concern was that high-exertion exercise (HIIT) is offset by
 compensatory NEAT downregulation or increased intake, so the extra expenditure does not translate. Two
 questions: does compensation happen, and does *intensity* make it worse?
-
-
-``
 ## Efficacy verdict — compensation is real and large, but intensity is NOT what drives it
 
 Riou et al. 2015 (SR of 61 studies, 928 subjects; compensation = body-energy change over exercise
@@ -89,9 +86,6 @@ scale*, not a shared number.
 - **Two framings of the same finding.** Compensation is why *exercise for weight loss* disappoints
   (the energy deficit is partly refilled), yet it says nothing against *exercise for fitness/mortality*
   — the CRF and mortality benefits do not run through the energy balance that compensation offsets.
-
-
-``
 ## Decision relevance
 
 - **Do not expect exercise (of any intensity) to fully "count" toward an energy deficit**, especially
@@ -103,9 +97,6 @@ scale*, not a shared number.
   \~49% compensation across the BMI range) — a reason the higher-adiposity person should anchor weight
   change on intake and use exercise for its fitness/function/mortality benefits, which do not run through
   the compensated calories.
-
-
-``
 ## Limits
 
 - **Two sources, `confidence: low`.** Riou's ±93% SD means its mean is a weak summary of a highly
@@ -113,9 +104,6 @@ scale*, not a shared number.
   (its stated caveat). Both rest on energy measurement (DLW is the good instrument; intervention
   body-composition is noisier). The convergence raises confidence in *direction and rough scale*, not in
   any single magnitude.
-
-
-``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Anti-flip-flop / Challenge #11:** this does not reverse the challenge's core (compensation is real);

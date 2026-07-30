@@ -91,26 +91,17 @@ likely to be low"*, and a dedicated list of *"Key questions when using test accu
 - **Is the marker -> outcome link itself evidenced?** GRADE places surrogate use under indirectness,
   which presumes the link is an inference rather than an observation. The strength of *that* link is
   the whole question, and it is a separate evidential claim from the intervention -> marker effect.
-
-
-``
 ## Red flags
 
 - A marker used because it is measurable, where the patient-important outcome was never named
   (the failure [[Rating Outcome Importance]] guards with the empty-row rule).
 - A target expressed as a threshold on a marker, with no statement of which outcome it is a route to.
 - Certainty ratings that look high for a body of evidence entirely composed of marker studies.
-
-
-``
 ## Green flags
 
 - The evidence profile names the patient-important outcome, shows the surrogate used for it, and
   carries an explicit indirectness downgrade.
 - The direction *and magnitude* of the marker -> outcome transmission is cited, not assumed.
-
-
-``
 ## Decision relevance
 
 A surrogate may legitimately serve as a **target to steer toward** even where it is a weak stand-in
@@ -132,9 +123,6 @@ so lowering it (by diet or drug) reduces events in proportion to the reduction a
 cases: not all surrogates are equal, and this one has earned target status. (The proviso still bites —
 the transmission holds only where the LDL-C drop reflects a real particle-number drop and carries no
 off-target harm.)
-
-
-``
 ## Applied — WHO downgrades strength because the evidence is a surrogate
 
 WHO's 2023 fat guideline supplies a worked instance of a surrogate costing *strength*, not just
@@ -207,9 +195,6 @@ survives is the observation above and the habit -- not an allegation.
   framework (trial-level and individual-level association measures) would convert both into checkable
   standards; whether one exists that guideline bodies actually apply is **unprobed here**.
 - **Source currency:** §3 is flagged in-source as rewritten in the 2024 GRADE Book.
-
-
-``
 ## A guidance-level version of the same critique `[2026-07-28, Willett ch.16]`
 
 This page asks when a recommendation may rest on a marker. Willett's policy chapter makes the same
@@ -246,7 +231,7 @@ point above stands on its own reasoning and does not depend on that claim being 
 
 The telos distinguishes a **surrogate** (stands in for an outcome *in the evidence*) from a **target**
 (something to steer toward), and licenses a target **only if its causal transmission to a named
-patient-important outcome is itself an evidenced claim**. [@esc2021]
+patient-important outcome is itself an evidenced claim**. ESC
 makes exactly that argument for LDL-C, and its structure is worth extracting whatever one concludes
 about the conclusion.
 
@@ -315,7 +300,6 @@ a lipid response can be randomised, measured in weeks, in small samples, while a
 of a general claim about this literature** — that wherever a nutrient acts through a measurable
 intermediate, the intermediate will be better graded than the endpoint, **structurally and
 permanently**, because the designs that grade well are the ones the intermediate admits.
-``
 
 **Why this is the practical core of the surrogate problem.** The pressure to act on the marker is not
 irrationality — **it is a rational response to the marker being the better-evidenced quantity.** A
@@ -364,7 +348,7 @@ assumed. The cohort direction is itself unadjudicated (-> [[The U-Shaped Associa
 The organic-food case is this page's rule applied to a *contaminant* marker rather than a physiological
 one. Organic produce carries measurably fewer synthetic-pesticide residues — Smith-Spangler - Organic
 Foods Safer or Healthier Systematic Review 2012 found a residue-contamination risk difference of 30%,
-and Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014 [@baranski2014] a fourfold higher residue
+and Baranski [@baranski2014] a fourfold higher residue
 incidence in conventional crops. **But residue *presence* is a surrogate, and the patient-important
 outcome is harm at real-world exposure.** Smith-Spangler supplies the transmission gap directly:
 differences in risk for exceeding maximum allowed limits were small.

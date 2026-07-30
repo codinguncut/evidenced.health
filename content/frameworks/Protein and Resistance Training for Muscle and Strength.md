@@ -24,9 +24,6 @@ flagged as missing when it separated *training-for-strength-gain* from *training
 the observational mortality data), but it is on **surrogates** (muscle mass and strength), not
 patient-important outcomes. The headline: **resistance training is the driver; protein is a modest
 adjunct, and only up to about 1.6 g/kg/day.**
-
-
-``
 ## Protein augments resistance-training gains — modestly
 
 From «Data from 49 studies with 1863 participants» (RCTs, «RET ≥6 weeks»), protein supplementation added
@@ -121,8 +118,5 @@ surrogate is not worthless, it is just not the mortality endpoint.
 - **The plateau CI is wide** (1.03-2.20); the fibre-CSA effect is fragile; healthy adults only.
 - One meta-analysis; the moderator model overall explained little variance, so age/training effects are
   subgroup signals, not a full explanation.
-
-
-``
 
 ## References

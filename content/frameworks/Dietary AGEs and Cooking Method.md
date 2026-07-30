@@ -19,9 +19,6 @@ self_critiqued: 2026-07-29
 **The decision (Challenge #12).** Should low-direct-heat cooking (steaming, slow-cooking, sous-vide) be
 *preferred* over frying/roasting/grilling because it produces fewer advanced glycation end products
 (AGEs)? The efficacy question is whether eating fewer dietary AGEs moves a health outcome.
-
-
-``
 ## Efficacy verdict — some surrogate markers move, the headline cardiometabolic ones do not, no hard outcomes
 
 Baye et al. 2017 (MA of 17 RCTs, 560 participants, low- vs high-AGE diets):
@@ -63,9 +60,6 @@ only a weak version:
 - **Net effect, not intended effect:** a recommendation must weigh the realistic alternative — charring
   and browning carry palatability and adherence value, and the wiki holds no evidence that the *net* of
   switching cooking methods improves any outcome.
-
-
-``
 ## Decision relevance
 
 - **The strong claim is not supported:** *low-heat cooking should be preferred* as a general health
@@ -73,17 +67,11 @@ only a weak version:
   and untested on hard outcomes.
 - **A defensible weak version:** for someone eating a lot of high-temperature-cooked red/processed meat,
   gentler cooking has a narrow, firmer rationale (the HCA/PAH carcinogen axis), not the AGE axis.
-
-
-``
 ## Limits
 
 - **Single MA, `confidence: low`, surrogate-only, advocacy-adjacent authorship.** A hard-outcome trial
   could revise this in either direction; the expectancy test says the field is under-studied on
   outcomes, not that AGEs are proven harmless or harmful.
-
-
-``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Halo/COI guard: FIRED.** The Uribarri authorship and the upbeat abstract framing are flagged, and

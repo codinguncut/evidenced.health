@@ -90,7 +90,7 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
 - **It confirms BPLTTC's own logic rather than competing with it.** SPRINT selected a *high-risk*
   population — exactly where BPLTTC says the *absolute* benefit of a given relative effect is largest —
   and the \~15 mmHg achieved gap, at BPLTTC's \~0.91 per 5 mmHg, predicts a composite HR near 0.75, which
-  is what SPRINT observed. ``
+  is what SPRINT observed.
 - **The harm side BPLTTC did not quantify:** intensive treatment raised serious «hypotension, syncope,
   electrolyte abnormalities, and acute kidney injury or failure, but not ... injurious falls».
   [@sprint2015] So a lower target buys real
@@ -104,11 +104,9 @@ events (lowest risk \~130/75, implying harm below), which had been read as a rea
 The randomised evidence shows benefit «down to less than 120 mm Hg» with no rising HR in any low-BP
 stratum — so the observational J-curve is not a treatment effect. [@bplttc2021, Introduction] A worked instance of
 [[The U-Shaped Association Artifact]]: the protective-looking lower arm of an observational curve does
-not survive the randomised (here, interventional) check. ``
+not survive the randomised (here, interventional) check.
 
 ## Decision relevance
-
-``
 
 - **BP-lowering is the cardiometabolic lever with the best hard-outcome warrant, and it applies in
   primary prevention** — for a hypertensive person it is the one place a proven CV-event reduction is on
@@ -127,8 +125,6 @@ not survive the randomised (here, interventional) check. ``
 - Trials 1972-2013 — older drug regimens and co-treatment; relative (not absolute) effects are the
   transportable quantity, by the authors' own caution.
 - One (very large) collaboration's IPD; the target-BP and adverse-effect questions are out of its design.
-- Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
-
-`.]`
+- Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route..]`
 
 ## References

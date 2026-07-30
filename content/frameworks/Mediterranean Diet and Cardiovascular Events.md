@@ -49,7 +49,7 @@ supplemented with extra-virgin olive oil or nuts, vs advice to reduce fat, cut t
    change — not calorie restriction, not weight loss — moved events. This is the striking complement to
    [[Does Weight Loss Reduce Cardiovascular Events]]: lifestyle **weight loss** did not cut CV events
    (Look AHEAD null; the 54-RCT meta-analysis null on events), yet a dietary **pattern** did. The lever
-   for CV events here is *what you eat*, not *how much you weigh*. ``
+   for CV events here is *what you eat*, not *how much you weigh*.
 2. **High baseline risk is why the absolute benefit is real.** These were high-risk adults (\~49% T2D,
    \~82% hypertensive); absolute benefit scales with baseline risk
    ([[Baseline Risk and the Relative-Absolute Split]]). Author-stated: «whether the results can be
@@ -70,9 +70,6 @@ same replacement [[Saturated Fat Intake and Replacement]] argues for on LDL/apoB
 adds the whole-pattern, hard-outcome version of that channel: a mono/polyunsaturated-rich pattern cut
 events. `[E-independent]` is NOT claimed — the mechanism overlaps the SFA-replacement channel rather
 than arriving from a separate route, so this is refinement/consistency, not independent backing.
-
-
-``
 ## The provenance caveat travels with the estimate (symmetric standards)
 
 PREDIMED's 2013 report was **withdrawn** (Carlisle 2017 flagged non-random baseline distributions);
@@ -101,9 +98,6 @@ exemption from. Held here as a `medium`-confidence finding for that reason.
 the **weight-loss** channel are distinct, and here the pattern channel delivered where weight loss did
 not — *with the caveat that the populations and comparators differ*, so this is a reasoned cross-trial
 contrast (type-A synthesis), not a head-to-head.
-
-
-``
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
@@ -115,14 +109,11 @@ contrast (type-A synthesis), not a head-to-head.
   eaters is the open question the authors themselves flag.
 - **Not a component-isolation trial** — it cannot say whether EVOO, nuts, fish, or the whole gestalt
   did the work (the observed-healthy-pattern-is-not-evidence-for-a-component caveat applies).
-
-
-``
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Over-claim check:** the composite 0.70 is not read as a mortality or MI claim — the stroke-driven
   decomposition and the null all-cause HR are stated up front; the *pattern beats weight loss* claim is
-  tagged `` and gated behind a parameter table naming the population/comparator differences,
+  tagged and gated behind a parameter table naming the population/comparator differences,
   not asserted as head-to-head.
 - **Laundered-E avoided:** the SFA-replacement overlap is explicitly called refinement/consistency, NOT
   `[E-independent]`, because the mechanism is shared, not a separate route; the within-source

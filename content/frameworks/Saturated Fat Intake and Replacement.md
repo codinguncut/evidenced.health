@@ -212,10 +212,7 @@ rather than closed.
   CVDs with SFA intakes of less than 10%", at very low certainty.
 - **If you are in energy surplus and reducing intake, the replacement question may not arise at all.**
 - **Do not read the LDL evidence as the outcome evidence.** High certainty attaches to the lipid
-  change; moderate-to-low certainty attaches to what follows from it.
-
-
-`]`
+  change; moderate-to-low certainty attaches to what follows from it.]`
 ## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
 
 A tension page was minted claiming WHO and Willett clash on whether LDL licenses the
@@ -293,9 +290,6 @@ changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
   independent appraisal of the **same evidence base** by a second guidance body — Hooper 2020 (added
   2026-07-29) is *not* that: it is the **upstream** Cochrane MA whose RCT estimates WHO adopted, so it
   strengthens warrant on the numbers without adding an independent witness (see the Hooper section).
-
-
-``
 ## Why SFA intake cannot be rescued by a biomarker `[2026-07-28, Willett ch.8]`
 
 Everything on this page rests on **self-reported** saturated-fat intake. The obvious remedy — measure
@@ -326,7 +320,6 @@ energy balance and insulin status. **The biomarker measures the sum and cannot s
   *introduce* bias and confounding «not present for studies of fatty acid intakes» — so substituting a
   biomarker is not a strictly-safer choice. **The apparent objectivity of a biochemical measure is not
   the same as freedom from confounding**, and here it can run the other way.
-  ``
 
 **What this does NOT do.** It does not weaken any specific estimate on this page. WHO's trials measured
 *assigned* diets, not biomarkers, and the cohort evidence's measurement problem was already recorded.
@@ -334,7 +327,7 @@ energy balance and insulin status. **The biomarker measures the sum and cannot s
 
 ## A third guidance family — same number, same replacement hierarchy `[2026-07-28, ESC]`
 
-[@esc2021] Table 8:
+ESC Table 8:
 
 > «Saturated fatty acids should account for <10% of total energy intake, through replacement by PUFAs,
 > MUFAs, and carbohydrates from whole grains»
@@ -358,7 +351,6 @@ replacements are *not* equivalent, and that PUFA's stronger recommendation is ov
 both the largest lipid effect and the firmer evidence. **The information loss is in the presentation,
 not the position:** ESC's ordering happens to match WHO's strength ordering, but nothing in the table
 says so.
-``
 
 **NOT filed as independent corroboration.** Two guidance bodies reaching the same threshold is the
 configuration this corpus has repeatedly found to be non-independent, and **the wiki has not checked
@@ -430,7 +422,7 @@ a different cut of the evidence. **Do not add a row from this table to a row fro
 [@who2023saturated, Annex 6]
 ## Hooper 2020 — the Cochrane RCT meta-analysis underneath WHO's numbers `[2026-07-29]`
 
-[@hooper2020] is the primary Cochrane review
+Hooper is the primary Cochrane review
 (15 RCTs, 16 comparisons, 56 675 participants, all interventions >=24 months) that WHO's RCT evidence
 profile rests on — WHO names it directly («Subgroup analysis of RCTs in the systematic review by
 Hooper et al.»). So this is **not an independent second witness**: the WHO Annex 6 RCT column above
@@ -457,10 +449,9 @@ WHO grades the identical estimate Low (WHO applied one further downgrade); neith
 absolute (1 fewer per 1000) moves. So this page's RCT numbers are confirmed *as Hooper's*, and the
 `[E-independent]` bar is **not** met: two guideline/review layers over one trial base is exactly the
 non-independence this page already flags for the WHO/ESC threshold agreement.
-``
 
 **The events-not-mortality finding, now stated by the primary source.** This page derived *exactly one
-outcome clears the null, and it is not mortality* as an `` reading of WHO's Annex 6 (which *WHO
+outcome clears the null, and it is not mortality* as an reading of WHO's Annex 6 (which *WHO
 does not summarize this way*). Hooper summarizes it **exactly** this way, as the review's headline:
 
 > «We found little or no eﬀect of reducing saturated fat on all-cause mortality (RR 0.96; 95% CI 0.90 to
@@ -531,7 +522,6 @@ case, not route-(b): personalize by **baseline risk** (absolute benefit scales w
 [[Baseline Risk and the Relative-Absolute Split]]), not by a claimed effect-modifier. That is the same
 logic this page's PUFA-vs-carbohydrate absolute-gap discussion already ran (23.8% vs 7.6% control-rate
 populations), now confirmed by a **direct subgroup test** rather than inferred from event rates.
-``
 
 **Replacement nutrient — PUFA and carbohydrate not distinguishable on hard events.**
 
@@ -548,7 +538,7 @@ replacement contrast is underpowered.
 
 ## The heterodox reassessment — Astrup et al. 2020 `[2026-07-29]`
 
-[@astrup2020] (a JACC narrative *State-of-the-Art Review*, 12 authors)
+Astrup (a JACC narrative *State-of-the-Art Review*, 12 authors)
 argues the population SFA limit is not supported and should be replaced with **food-based** guidance.
 It contests threads on this page rather than adding new trials — the full joined issue is filed as
 **[[Does Reducing Saturated Fat Reduce Cardiovascular Events]]** (the vault's 2nd tension). What it
@@ -581,7 +571,7 @@ changes here:
   diet but instead tends to track more closely with dietary carbohydrate intake" (a 2-3x SFA rise on a
   low-carb background leaves serum SFAs flat or lower, via reduced de novo lipogenesis + increased fat
   oxidation). A substrate-competition frame: the harm of a high-SFA diet is modulated by
-  carbohydrate/insulin status. ``
+  carbohydrate/insulin status.
 - **A claimed SFA-sensitive subgroup (route-b, unconfirmed).** APOE4 / APOA2 gene-diet interactions
   lead Astrup to "It is this segment of the population (the SFA-sensitive) in which the reduction in
   SFA intake may be beneficial and could therefore be recommended" — but he concedes that "in the
@@ -597,7 +587,7 @@ is woven onto [[LDL ApoB and Cumulative Exposure]]; his food-matrix program (dai
 
 ## PURE 2017 — the observational arm, grounded (and its income confound) `[2026-07-29]`
 
-[@dehghan2017] is the large prospective cohort (135 335 adults,
+Dehghan is the large prospective cohort (135 335 adults,
 18 countries, median 7.4 y) that the Astrup reassessment leans on for its observational pillar — so
 this **grounds the observational arm** already referenced in [[Does Reducing Saturated Fat Reduce Cardiovascular Events]] with the actual data. It is **F (grounding), not `[E-independent]`**: it is the
 cohort base Astrup already cited, not a second independent route.
@@ -648,7 +638,6 @@ based on considering only the effects of nutrient intake on LDL cholesterol is n
 LDL-surrogate caveat with data -> [[LDL ApoB and Cumulative Exposure]]; it does **not** contradict LDL's
 *causal* status (apoB is the agent), it says diet-induced LDL-C is a poor summary of the whole lipid
 change.
-``
 
 **Self-critique (PURE weave) `[run 2026-07-29, before commit]`.** *Laundered-E:* PURE is explicitly F
 (grounding), NOT `[E-independent]` — it is the cohort base Astrup already cited, stated three times.

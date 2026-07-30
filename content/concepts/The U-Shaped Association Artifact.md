@@ -22,9 +22,6 @@ J-shaped** association — risk lowest at some *intermediate* exposure, higher a
 the **lower arm** (the apparent benefit of a little vs none) is the fragile part, and is often not
 causal. Alcohol is the worked case; the same shape sits unadjudicated for sodium and, by the telos's
 own flag, for sleep.
-
-
-``
 ## The recipe that manufactures a false protective arm
 
 The lower arm can be produced with **no true benefit at all**, by any of:
@@ -64,9 +61,6 @@ optimal.** Before recommending *a little is better than none*, require that the 
 referent-correction or a genetic/quasi-experimental check. If it has only survived covariate adjustment
 and early-follow-up exclusion, treat the protective arm as **unadjudicated, not established** — a shape
 equally consistent with the causal and the artifact explanation has no diagnostic value.
-
-
-``
 ## Where it applies in the wiki
 
 - **Alcohol — adjudicated, artifact.** The protective lower arm is largely non-causal
@@ -88,7 +82,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
   unbelieved; the lower arm (a small effective dose) is kept.
 - **Macronutrients in PURE — confounding-by-income, the machinery without (mostly) the U.**
-  [@dehghan2017] found higher carbohydrate → higher mortality and
+  Dehghan found higher carbohydrate → higher mortality and
   higher fat/SFA → *lower* mortality across an 18-country income gradient. The associations are largely
   **monotone**, not U-shaped — so this is not a lower-arm case — but it is a clean instance of the
   concept's **confounding-by-lifestyle/frailty** mechanism in its socioeconomic form: the highest-carb

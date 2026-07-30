@@ -29,11 +29,11 @@ once a stratum-specific 10-year risk exists.
 | High: *"risk factor treatment should be considered"* | 2.5 to <7.5% | 5 to <10% | 7.5 to <15% |
 | Very high: *"risk factor treatment generally recommended"* | >=7.5% | >=10% | >=15% |
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) Table 5]
+[EXTRACTED @esc2021 Table 5]
 
 **The same 10-year risk can mean two different things at two ages** — 8% is *very high* under 50 and
 *high* at 72. **It cannot mean three** — the thresholds are monotone, so no single number can be
-very-high in one band and low-to-moderate in another. The stated reason for the banding: *"Age is the major driver of CVD risk"*, so a fixed
+very-high in one band and low-to-moderate in another. The stated reason for the banding: *«Age is the major driver of CVD risk»*, so a fixed
 threshold would over-treat the old and under-treat the young.
 
 Two qualifiers ESC attaches itself:
@@ -56,7 +56,7 @@ Two qualifiers ESC attaches itself:
 | 120-139 | 7 · 8 · 9 · 10 | 11 · 13 · 14 · 15 |
 | 100-119 | 6 · 7 · 7 · 8 | 9 · 10 · 11 · 12 |
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) Figure 3, moderate-risk region chart, read directly
+[EXTRACTED @esc2021 Figure 3, moderate-risk region chart, read directly
 from the rendered page per `CLAUDE.source-prep.md` -> *Tables*, tier 3]
 
 **Moderate-risk region = Austria, Cyprus, Finland, Germany, Greece, Iceland, Ireland, Italy, Malta,
@@ -138,8 +138,7 @@ Note also that WHO grades this estimate **Moderate** certainty; the RR should no
   upwards as the person approaches the next age category."*
 - **Region-calibrated, and the region does most of the work at the margin.** A risk read from the wrong
   chart is wrong by more than most interventions move.
-- **Base model excludes diabetes**, which bounds its use for exactly the stratum the wiki is targeting.
-  AWAITS [[SCORE2-Diabetes 2023]] (staged).
+- **Base model excludes diabetes**, which bounds its use for exactly the stratum the wiki is targeting. (staged; augments the base model for the T2D stratum).
 - **Charts read at tier 3** (direct rendered-page read) because `find_tables()` returns nothing usable
   on this layout. Values above are transcribed from the rendered grid; the full four-region chart set is
   ~2 560 cells and only the moderate-region men's 60-64 block is carried here.
@@ -147,3 +146,5 @@ Note also that WHO grades this estimate **Moderate** certainty; the RR should no
   (staged, not ingested). **PROBAST+AI does not rank these against each other**: it lists calibration,
   discrimination and net benefit symmetrically, and an apparent emphasis on calibration comes from the
   title of a paper it cites, not from the tool's own position.
+
+## References

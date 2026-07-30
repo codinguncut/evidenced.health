@@ -2,8 +2,8 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org)]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org)]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013]
 cluster: nutrition
 confidence: low
 self_critiqued: 2026-07-28
@@ -15,17 +15,17 @@ relationships:
     - Antinutrients in Plant Foods
     - Protein Quality and the DIAAS Score
 created: 2026-07-27
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
-**Two-source page, `confidence: low`.** The body below is SACN 2015; [[NNR - Nordic Nutrition Recommendations 2023]] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
+**Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
 **It does not raise confidence, and the section at the bottom explains why: NNR read SACN.** The
 questions this page answers are ones the maintainer holds a stated prior on (`SC-11`) — a reason for
 *more* scrutiny of agreement, not less.
-Still AWAITS [[Reynolds - Carbohydrate Quality and Human Health 2019]]
-(staged; **note Reynolds shares an author with Te Morenga, so it cannot corroborate independently** —
-and NNR leans on Reynolds for its whole-grain dose-response, so that dependency now runs through this
-page too).
+Reynolds 2019 is now **held and woven** (the fibre-benefit section below; ingested 2026-07-30) — but
+**note Reynolds shares an author with Te Morenga, so it cannot corroborate independently**, and NNR
+leans on Reynolds for its whole-grain dose-response, so that dependency runs through this page too. The
+convergence it appears to add is therefore shared-source, not type-E.
 
 ## The headline: refined grains are NOT found harmful
 
@@ -34,20 +34,20 @@ page too).
 | Refined grains -> cardiovascular events | **RR 1.00 (95% CI 0.98, 1.01)** per half serving/day, p=0.5 | `No association · Moderate` |
 | Refined grains -> type 2 diabetes | **RR 1.00 (95% CI 0.98, 1.01)**, p=0.7 | `No association · Moderate` |
 
-[EXTRACTED (SACN - Carbohydrates and Health 2015) 7.20-7.25]
+[EXTRACTED @sacn2015 7.20-7.25]
 
 **And the randomised comparisons are null across the board.** SACN states the comparator explicitly —
 «All trials compared whole grain diets to refined grain control diets.» — then reports no effect on
 systolic BP (0.2 mmHg, 95% CI -1.6 to 2.0; p=0.85), diastolic, total cholesterol (0.04 mmol/L,
 95% CI -0.12 to 0.20; p=0.49), triacylglycerol, fasting glucose (-0.05 mmol/L, 95% CI -0.12 to 0.02;
 p=0.14), fasting insulin and insulin sensitivity — several at `Adequate evidence`.
-[EXTRACTED (SACN - Carbohydrates and Health 2015) 8.126-8.149]
+[EXTRACTED @sacn2015 8.126-8.149]
 
 **The one non-null randomised outcome favours whole grains, on an intermediate:**
 «An effect is demonstrated for higher whole grains consumption on reducing energy intake (-360 kJ,
 95% CI -642, -79; p=0.01)» — graded `Effect · Limited evidence`, and **SACN notes one trial
 contributes 75% of the pooled estimate.**
-[EXTRACTED (SACN - Carbohydrates and Health 2015) 8.126-8.149]
+[EXTRACTED @sacn2015 8.126-8.149]
 
 ## The claim that survives is narrower than the popular one
 
@@ -55,7 +55,7 @@ Whole-grain *benefit* is cohort-only and mostly `Limited` — CVD RR 0.95, strok
 RR 0.97, the last graded **`No association`**. And SACN attaches its own attribution caveat:
 
 > «Any associations indicated for whole grain may be related to its cereal fibre component.»
-> [EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 05]
+> [EXTRACTED @sacn2015 chunk 05]
 
 **So the supported claim is *whole grains are associated with lower risk in cohorts, possibly via
 fibre* — NOT *refined grain causes harm*.** Those are different claims and SACN separates them.
@@ -81,7 +81,7 @@ is faecal weight, which SACN itself bounds:
 
 > «The biological relevance is unclear due to the size of supplements, and it is unclear whether this
 > finding is applicable to all legume fibres.»
-> [EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 08]
+> [EXTRACTED @sacn2015 chunk 08]
 
 **Two reasons those nulls are weak evidence of absence, not evidence of no effect.**
 
@@ -104,13 +104,13 @@ do nothing at the intakes someone considering them would actually eat. `-> SC-11
 ## What this page does NOT establish
 
 - **Nothing about preparation** — *now held on a sibling page.* Soaking, cooking, fermenting and
-  germinating are untouched by SACN; `Petroski - Antinutrients Narrative Review 2020` was ingested
+  germinating are untouched by SACN; `Petroski - Antinutrients Narrative Review 2020` was ingested  [INFERRED]
   2026-07-29 and addresses them directly -> [[Antinutrients in Plant Foods]] (preparation defuses the
   antinutrient concern for prepared plant staples; raw high-lectin legumes are the exception that
   *requires* a full boil).
 - **Nothing about carbohydrate load or bulk tolerance** — *partly held on a sibling page.* SACN
   **excluded** gastrointestinal tolerance from its remit. The related *protein* question — that hitting
-  a protein target from plants costs more food mass because plant DIAAS is low (peas 64, wheat 40 vs
+  a protein target from plants costs more food mass because plant DIAAS is low (peas 64, wheat 40 vs  [EXTRACTED @fao2013 chunk 02]
   milk 122) — is now held at [[Protein Quality and the DIAAS Score]]; the exact carb/bulk arithmetic
   remains a `G` gap (needs a food-composition dataset).
 - **Nothing about ultra-processing.** "Refined" here is a grain-milling property, not a processing
@@ -140,12 +140,12 @@ This cuts against the usual intuition that whole food beats supplement, and SACN
 > «• Effect • Adequate evidence • The direction of the effect demonstrates higher consumption of fibre
 > isolates and gum supplements is beneficial to health • The effect is biologically relevant, **but
 > demonstrated at intakes achieved through supplementation**»
-> [EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 09]
+> [EXTRACTED @sacn2015 chunk 09]
 
 > «• Effect • Moderate evidence • The direction of the effect demonstrates consumption of cellulose is
 > potentially beneficial to health • The effect is potentially biologically relevant, **but
 > demonstrated at concentration of intake achieved through supplementation**»
-> [EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 09]
+> [EXTRACTED @sacn2015 chunk 09]
 
 | Form | SACN's strongest grade for it | Design |
 |---|---|---|
@@ -167,7 +167,7 @@ the supplementation bound but does not draw the design contrast]`
 
 > «Setting the dietary reference value for AOAC fibre at 30g/day for adults means that current mean
 > intakes would be 10-11g below the dietary reference value for men and 13g below for women.»
-> [EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 08]
+> [EXTRACTED @sacn2015 chunk 08]
 
 **A ~40% shortfall against the target, population-wide.** Two consequences:
 
@@ -204,13 +204,13 @@ reading the NSP number against the 30 g AOAC target would overstate the shortfal
 
 ## The second guidance family arrives — and it is not a second witness `[2026-07-28]`
 
-[[NNR - Nordic Nutrition Recommendations 2023]] cashes the `AWAITS` above. **The first thing it
+[@nnr2023] cashes the `AWAITS` above. **The first thing it
 establishes is that it cannot corroborate this page**, and NNR says so itself by listing its inputs:
 
 > «Seven qSRs are available on the role of cereals (grains) and health outcomes (Fogelholm et al.,
 > 2012; Hauner et al., 2012; Reynolds et al., 2019; SACN, 2015; WCRF/AICR, 2018b, j; Åkesson et al.,
 > 2013).»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+> [EXTRACTED @nnr2023 chunk 06]
 
 **SACN 2015 is one of the seven.** So NNR agreeing with SACN on grains is a body agreeing with a
 review it read — **not** independent backing, and no `[E-independent]` is claimable. The surface
@@ -253,31 +253,31 @@ told only one of the two would form a different picture of how settled this is.
   justifies allowing some refined cereals in the diet.» **SACN issues no equivalent** — it reports a
   null and stops. This is a decision-change for one identifiable stratum (high energy requirement:
   athletes, heavy manual work, high-growth adolescence), and it converts a null into a permission.
-  [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+  [EXTRACTED @nnr2023 chunk 06]
 - **A quantified whole-grain target with a stated direction beyond it:** «It is recommended to consume
   at least 90 g/day (dry weight) of whole grains (including whole grains in products), with likely
   further benefits of higher intakes. Such further intakes have no adverse effects».
   **Compare the units before comparing the numbers** — NNR's 90 g/day is *dry weight of whole grains*;
   SACN's 30 g/day is *AOAC fibre*. **Different substances, different measures, not comparable**, and
   the page's existing NSP-vs-AOAC warning applies with more force here.
-  [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+  [EXTRACTED @nnr2023 chunk 06]
 - **A dose-response statement that may or may not describe a knee — recorded as `[AMBIGUOUS]`.**
   > «Dose-response curves show that risk reduction for all-cause mortality is observed for intakes up
   > to 50-60 g/day of whole grains. Higher intakes (i.e. 90 g/day) confer even greater risk reduction
   > for coronary heart disease, type 2 diabetes and colorectal and breast cancer (Reynolds et al.,
   > 2019).»
-  > [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+  > [EXTRACTED @nnr2023 chunk 06]
 
-  **«observed for intakes up to 50-60 g/day» is genuinely two-way.** It reads either as *benefit
-  accrues up to 50-60 g/d and then flattens* (a plateau on all-cause mortality, with other outcomes
-  still climbing at 90 g/d — which would be the corpus's **first outcome-specific knee**) or as *the
-  studied range only extends that far* (no shape claim at all). **NNR does not disambiguate it, and the
-  underlying source — Reynolds 2019 — is staged but not ingested, so the wiki cannot settle it here.**
-  Recorded as an open question rather than scored against the dose-response prior, because a knee
-  claimed on an ambiguous sentence is precisely the artifact that prior exists to guard against.
+  **«observed for intakes up to 50-60 g/day» read two ways — and Reynolds 2019 (now held) settles it
+  as the data edge, not a knee.** NNR attributes the sentence to Reynolds, and Reynolds' own
+  dose-response is explicit: «Figure 1 shows dose-response relationships ... many of which are linear
+  with no sign of a plateau within the available data», with whole-grain benefit still *climbing* to
+  90 g/day for CHD, T2D and cancer. So the «up to 50-60 g/day» marks how far the all-cause data
+  extend, not a flattening — **there is no outcome-specific knee here.** This is the SACN pattern
+  again (a number marking the edge of the evidence, not a feature of the curve), and it is consistent
+  with, not a counter-instance to, the dose-response prior.
+  `[EXTRACTED @reynolds2019]`
   `[AMBIGUOUS (NNR - Nordic Nutrition Recommendations 2023) chunk 06]`
-  AWAITS [[Reynolds - Carbohydrate Quality and Human Health 2019]] — **it would resolve the shape
-  directly**, and NNR attributes the sentence to it.
 
 ### Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
@@ -303,12 +303,12 @@ told only one of the two would form a different picture of how settled this is.
 ## The pulses gap gets a first number — from a third guidance family `[2026-07-28, ESC]`
 
 This page files pulses as a **`G` gap, stated as one**: the wiki could not say whether pulses help,
-harm or do nothing at realistic intakes. [[ESC - CVD Prevention Guidelines 2021]] supplies the first
+harm or do nothing at realistic intakes. [@esc2021] supplies the first
 quantified claim the corpus holds.
 
 > «A single portion of pulses (legumes) a day low- ers LDL-C by 0.2 mmol/L and is associated with a
 > lower risk of CHD.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 04]
+> [EXTRACTED @esc2021 chunk 04]
 
 **Read the sentence's two halves separately — they are different evidence classes**, and ESC runs them
 together:
@@ -337,7 +337,7 @@ rather than pulses.
 
 ESC's Table 8 specifies **«3045 g of fibre of per day, preferably from wholegrains»** (i.e. 30-45 g;
 the hyphen is lost in the source's OCR).
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 04, Table 8]
+[EXTRACTED @esc2021 chunk 04, Table 8]
 
 | Body | Fibre target | Form | Method specified? |
 |---|---|---|---|
@@ -351,3 +351,17 @@ value and a range are not four estimates of one quantity; and **only SACN names 
 which this page already records as the thing that makes 30 g and 25 g non-comparable. **ESC's upper
 bound of 45 g is the highest figure in the corpus and comes with no stated warrant**, so it is recorded
 as a held position, not as evidence that more is better.
+
+## The whole-grain benefit is probably the FIBRE benefit `[2026-07-29, Reynolds]`
+
+Reynolds 2019 (the WHO-commissioned Lancet meta-analysis) tracks whole grains and total fibre in the
+**same** study, and the parallel is close: higher whole-grain intake tracks a 13-33% risk reduction across
+critical outcomes (per 15 g/day, all-cause mortality RR 0.94, 0.92-0.95), while total fibre tracks 15-30%
+(per 8 g/day, all-cause 0.93). Reynolds grades **fibre moderate but whole grains only low-to-moderate**,
+and notes the gap «could reflect the high fibre content of whole grains» — i.e. whole grains likely act
+*through* their fibre rather than as a separate lever. This is the component-not-category reading on this
+page, now with a magnitude on both sides -> [[Dietary Fibre and Health]]. It also sharpens the target: if
+fibre is the active fraction, *fibre content* (not the word "whole grain") is what to steer by.
+`[EXTRACTED @reynolds2019]`
+
+## References

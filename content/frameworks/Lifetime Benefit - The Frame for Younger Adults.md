@@ -38,7 +38,7 @@ hardest, not where the guideline confines it.
 > drug treatment are not usually considered, except for patients with FH or specific BP disorders. **A
 > healthy lifestyle that is maintained throughout life is more relevant for the very young.**"*
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.2.3.6]
+[EXTRACTED @esc2021 3.2.3.6]
 
 **So ESC bounds the very frame this page is about.** The lifetime argument is not a licence to treat the
 young pharmacologically — below 40 the predictions themselves are called imprecise, and the guideline
@@ -64,7 +64,7 @@ verbatim in all three age sections, with only the threshold changing — `<2.5%`
 And it runs **bidirectionally** — ESC uses the same construct to treat *less* in the old:
 *"lifetime benefit of treatment in terms of time gained free of CVD is lower in older people. Therefore,
 the CVD risk thresholds for risk factor treatment are higher in apparently healthy people >=70 years."*
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.2.3.4; 3.2.3.5; 3.2.3.6]
+[EXTRACTED @esc2021 3.2.3.4; 3.2.3.5; 3.2.3.6]
 
 **Governing recommendation class: IIa, Level C** — expert opinion, not trial evidence.
 
@@ -95,7 +95,7 @@ not only a larger gain.**
 
 > *"For 2 mmol/L LDL-C lowering, the average effect is almost twice as large, and so on."*
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) Figure 12 caption]
+[EXTRACTED @esc2021 Figure 12 caption]
 
 **Read that construction carefully — it is the wiki's own conversion move, done by the guideline.**
 A lifetime baseline risk multiplied by a relative effect from a meta-analysis, expressed in absolute
@@ -157,3 +157,5 @@ extraction of all three grids is owed.
   process in which patient preference, expected treatment harms, and costs can be taken into account."*
   It informs a decision by routing it to shared decision-making, not by leaving it open.
 - One guidance body; whether others endorse lifetime framing or this model is **unprobed**.
+
+## References

@@ -91,7 +91,7 @@ persisting to ~130-140 min/week and the hazard then rising above 1.0 — the J's
     lever, not only a function/mortality one** — decision-relevant specifically for the dysglycaemic /
     metabolic-syndrome stratum (the drifting-median adult), where the held diabetes L-shape is the
     outcome this mechanism produces. `[INFERRED — the accepted physiology; the diabetes L-shape outcome
-    it explains is [EXTRACTED (Momma - Muscle-Strengthening Activities and Mortality 2022)]; a dedicated
+    it explains is [EXTRACTED @momma2022]; a dedicated
     glucose-disposal/insulin-sensitivity RCT source is not held -> a named acquirable gap.]` **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
   whose upturn lacks a mechanism (mortality/CVD/cancer) show one** — the diagnostic signature of an
   artifactual arm.
@@ -146,3 +146,5 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 - The dose-response upper arm is not usable (above); the diabetes L-shape is the more trustworthy dose
   curve.
 - Frequency vs total-time could not be separated; the target-dose is a region, not a number.
+
+## References

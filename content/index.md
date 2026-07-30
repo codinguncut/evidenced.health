@@ -2,13 +2,10 @@
 title: A Source-Grounded Guide to Nutrition & Lifestyle Evidence
 ---
 
-# What actually moves the needle on health — and how sure we are
-
 This is a **source-grounded appraisal** of the nutrition, exercise, and lifestyle evidence: what an
 exposure does, *for whom*, *how much*, and *how confident we should be* — with every claim traced back
-to the study or guideline it came from.
-
-It is built to answer one question: **would this change what someone should do, on an outcome they
+to the study or guideline it came from. It is built to answer one question:
+**would this change what someone should do, on an outcome they
 care about, in a way they couldn't already have reached?** If not, it isn't here.
 
 ## The guides
@@ -37,6 +34,12 @@ statement of what the evidence can't yet settle:
   "pasture vs grain" often matters more than the organic label itself.
 - [[Do We Need Fibre|Do we need fibre in our diet?]] — cholesterol, gut transit, blood sugar and satiety,
   soluble vs insoluble — and why "essential" oversells a modest, supporting lever.
+- [[Is Meal Timing a Life Hack|Is meal timing a life hack?]] — time-restricted eating, fasting,
+  skipping breakfast — and why *when* you eat mostly matters only because it changes *how much*.
+- [[Is Red Meat Harmful|Is red meat harmful?]] — processed vs unprocessed, heart events vs lifespan vs
+  cancer, and why "eat leaner cuts" beats "banish meat" — with the environmental case kept separate.
+- [[Whats Up With the Microbiome|What's up with the microbiome?]] — probiotics, prebiotics, "leaky gut,"
+  candida — which claims are evidence-backed, which are "not yet," and which are just sellable.
 
 Beyond the guides, you can follow the links into the underlying **claim pages** — the frameworks,
 concepts, tensions and diagnostics they are built from.

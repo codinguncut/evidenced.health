@@ -26,26 +26,26 @@ studies can report "the effect of saturated fat" and mean different comparisons.
 Three reasons, per Willett: energy intake may itself cause disease; individual differences in total
 energy produce variation in every nutrient unrelated to dietary *composition*; and where energy is
 associated with disease **but is not a direct cause**, it confounds specific nutrients.
-[EXTRACTED (Willett - Nutritional Epidemiology 3e) Ch 11, Abstract]
+[EXTRACTED @willett Ch 11, Abstract]
 
 The driver is that **essentially every nutrient correlates with total energy**, including ones that
 supply none: "the correlation with energy was 0.36 for fiber, 0.45 for vitamin A, and 0.34 for
 vitamin C... This tendency for all nutrients, even minerals and vitamins, to be correlated with total
 energy intake results from the tendency of larger, more active, and less metabolically efficient
 persons to eat more food in general."
-[EXTRACTED (Willett - Nutritional Epidemiology 3e) Ch 11, Relation of Energy Intake with Specific Nutrient Intake]
+[EXTRACTED @willett Ch 11, Relation of Energy Intake with Specific Nutrient Intake]
 
 And energy intake is mostly *not* a dietary choice: between-person differences are largely body size,
 physical activity and metabolic efficiency — so much so that "in most instances total energy intake
 can be interpreted as a crude measure of physical activity, particularly after controlling for body
 size, age, and gender."
-[EXTRACTED (Willett - Nutritional Epidemiology 3e) Ch 11, Determinants of Between-Person Variation]
+[EXTRACTED @willett Ch 11, Determinants of Between-Person Variation]
 
 **Why composition is therefore the exposure:** "even relatively small changes in caloric intake
 cannot be made unless changes in weight or physical activity also occur. In the absence of such
 alterations, therefore, most changes in nutrient intake must be accomplished by changing the
 composition of the diet rather than the total amount of food."
-[EXTRACTED (Willett - Nutritional Epidemiology 3e) Ch 11, Adjustment for Energy Intake]
+[EXTRACTED @willett Ch 11, Adjustment for Energy Intake]
 
 ## The models, and the comparison each implies
 
@@ -68,7 +68,7 @@ The load-bearing quotes:
 - Two-nutrient models: "The effect of fat would then be interpreted as the effect of substituting the
   specific number of calories from fat... for the same number of calories... from carbohydrate (with
   the macronutrient not included in the model), with total energy held constant."
-  [EXTRACTED (Willett - Nutritional Epidemiology 3e) Ch 11, Energy-Adjusted or Residual Method; The Energy Partition Method; More Complex Models]
+  [EXTRACTED @willett Ch 11, Energy-Adjusted or Residual Method; The Energy Partition Method; More Complex Models]
 
 ## Failure modes
 
@@ -86,7 +86,7 @@ The load-bearing quotes:
   did not specifically compare saturated fat with another source of energy; in most countries, these
   other... calories would be predominately derived from refined grains and sugar **but would also
   include protein and other types of fat**."
-  [EXTRACTED (Willett - Nutritional Epidemiology 3e) Ch 19 (p.436)]
+  [EXTRACTED @willett Ch 19 (p.436)]
 - **Heteroscedasticity manufacturing a shape.** Uncorrected, residuals at both extremes carry the
   highest energy intakes, which "would create a U-shaped relation between energy-adjusted intake
   (residuals) and disease risk" — a curve produced by the analysis, not the biology. Directly relevant
@@ -124,7 +124,7 @@ records a cost that runs the other way, and it is not small.**
 
 > «The ratio of within-person to between-person variation is usually substantially greater when the
 > nutrient is expressed in relation to energy intake (energy-adjusted).»
-> [EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 03, abstract]
+> [EXTRACTED @willett chunk 03, abstract]
 
 **Why this matters here:** the within-to-between variance ratio is what sets how many days of dietary
 measurement are needed to place a person correctly. **Raising it means the same data support a weaker
@@ -153,7 +153,7 @@ thing happening to the *covariate*, which is easier to miss:**
 > substituting saturated fat for other types of fat influence disease risk? In this model, the term for
 > total fat no longer has the biological meaning of total fat because a major component, saturated fat,
 > is included separately; its meaning then becomes monounsaturated and polyunsaturated fat.»
-> [EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 18]
+> [EXTRACTED @willett chunk 18]
 
 **A model containing both saturated fat and total fat does not contain a total-fat term at all — it
 contains an unsaturated-fat term wearing the total-fat label.** The variable's name in the table and
@@ -178,7 +178,7 @@ the quantity it estimates have come apart, silently.
 > coefficient (see Table 13-1). This provides the potentially misleading impression of a clearly
 > monotonic relationship, as well as confidence intervals that are too narrow for a specific level
 > because they are based on the overall data.»
-> [EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 18]
+> [EXTRACTED @willett chunk 18]
 
 **The defect is circular by construction.** If every displayed level is generated from **one** slope,
 the picture *cannot* show a knee, a plateau or a threshold — monotonicity is an output of the model
@@ -202,7 +202,7 @@ dose-response `[PRIOR]` in CLAUDE.md.
 high end of the distribution due to the skewed distributions of most nutrients, and they can be
 heavily influential when nutrients are considered as continuous variables» — so the tail that would
 locate a knee is both sparse and high-leverage.
-[EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 18]
+[EXTRACTED @willett chunk 18]
 
 ## A positive plateau claim — and it cuts the other way from chunk 18 `[2026-07-28, ESC]`
 
@@ -214,7 +214,7 @@ The sentence is split across a page break in the source; both fragments locate:
 > «A meta-analysis reported a 4% lower risk in CV mortality for each additional serving of fruits»
 > ... «(equivalent to 77 g) and vegetables (equivalent to 80 g) per day, while all-cause mortality was
 > not reduced further with intakes of more than five servings.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 04]
+> [EXTRACTED @esc2021 chunk 04]
 
 **Two outcomes, one exposure, two different shapes:**
 
@@ -242,3 +242,5 @@ meta-analysis, with **no interval, no certainty rating, and no reference to the 
 and *«not reduced further»* in a guideline sentence may reflect the studied range ending near five
 servings rather than a true flattening — **the same ambiguity flagged on the Willett whole-grain
 sentence, and unresolved for the same reason.**
+
+## References

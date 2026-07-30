@@ -26,7 +26,7 @@ the diagnostic for separating them — and the central finding is that on the gu
 
 Certainty is *one* input to strength, alongside the balance of desirable and undesirable consequences,
 **values and preferences**, and **resource use**.
-[EXTRACTED (GRADE - Handbook) §6.1, §6.2] -> [[Certainty of Evidence vs Strength of Recommendation]]
+[EXTRACTED @grade §6.1, §6.2] -> [[Certainty of Evidence vs Strength of Recommendation]]
 
 So a recommendation can legitimately be strong on weak evidence, or weak on strong evidence, and
 neither is an error. **The question is never *did non-evidence considerations enter?* — they are supposed to. It is
@@ -47,7 +47,7 @@ infrastructure... and the available resources"*, and by the fact that *"widespre
 of certain food items high in SFA and/or TFA may pose challenges in decreasing consumption to meet the
 recommended intake."*
 
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex, evidence-to-decision table]
+[EXTRACTED @who2023saturated Annex, evidence-to-decision table]
 
 **A guidance body naming national economies among its considerations is the strongest available
 evidence that the multi-objective concern is real — and it is the body's own disclosure.**
@@ -69,7 +69,7 @@ current, popular perception that diets high in SFA do not pose a health risk"* �
 recommendation regardless, justified on evidence alone: *"Recommendation 1 was assessed as strong
 because evidence of moderate certainty overall from different study types assessing both risk factors
 and incidence of CVDs suggested reduced risk of CVDs with lower SFA intake."*
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Rationale; evidence-to-decision table]
+[EXTRACTED @who2023saturated Rationale; evidence-to-decision table]
 
 **So the claim that multiple objectives make guidance *less stringent* is not entailed, and here is
 falsified.** The
@@ -112,12 +112,12 @@ WHO's EtD feasibility row says the same from the other side: *"widespread use an
 certain food items high in SFA and/or TFA may pose challenges in decreasing consumption to meet the
 recommended intake."*
 
-[EXTRACTED (NASEM - Redesigning the DGA Process) ch.5, ch.6; (WHO - Saturated and Trans Fatty Acid
+[EXTRACTED @nasem ch.5, ch.6; (WHO - Saturated and Trans Fatty Acid
 Intake 2023) EtD table]
 
 ### The purest observable case: a ceiling anchored to current consumption
 
-[[NNR - Nordic Nutrition Recommendations 2023]] on white meat is status-quo anchoring with nothing else
+[@nnr2023] on white meat is status-quo anchoring with nothing else
 mixed in, and it is worth holding as the worked example.
 
 - **Health is neutral** — *"no currently available evidence for beneficial or detrimental effects of
@@ -139,7 +139,7 @@ quo, functioning as the recommendation's location.
 levels"* has no individual referent — a person eating 80 g/d exceeds every country's average, one
 eating 10 g/d is under all of them. **A reader who accepts the constraint still cannot apply it.**
 
-[EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) ch.3, ch.7]
+[EXTRACTED @nnr2023 ch.3, ch.7]
 
 ### Why the symmetry matters — it makes the thesis testable
 
@@ -218,8 +218,8 @@ cost.
 
 ## A second body blends health and environment — and concedes the health effect may be null `[2026-07-28, ESC]`
 
-[[NNR - Nordic Nutrition Recommendations 2023]] is this page's worked case for environmental reasoning
-entering a dietary recommendation. **[[ESC - CVD Prevention Guidelines 2021]] does it too, in one
+[@nnr2023] is this page's worked case for environmental reasoning
+entering a dietary recommendation. **[@esc2021] does it too, in one
 sentence, and in a sharper configuration** — a cardiology guideline, not a body with an environmental
 mandate.
 
@@ -229,7 +229,7 @@ mandate.
 > soy, and legumes) does improve LDL-C concentrations. A recent analysis showed that higher intake of
 > processed meat and unprocessed red meat is associated with a 7% and 3%, respectively, increased risk
 > of ASCVD.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 04]
+> [EXTRACTED @esc2021 chunk 04]
 
 **Quoted whole, because the four sentences pull in different directions and any subset misrepresents
 it.** ESC states, in order: a joint health-and-environment recommendation; a concession that
@@ -275,7 +275,7 @@ to evidence — it usually has to be inferred from publication dates. **ESC stat
 
 > «Evidence now suggests that the BP targets in the previous iteration of this guideline were too
 > conservative, especially for older patients.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 05]
+> [EXTRACTED @esc2021 chunk 05]
 
 **A guidance body recording that its own prior edition was wrong, in the direction of under-treatment,
 with the revision reasoned.** ESC gives the grounds (targets «are safely achieved in many older
@@ -295,3 +295,5 @@ strong for very old people (>80 years) and those who are frail».
 - **It is NOT a process defect (class 5).** ESC followed its method and updated on new evidence.
   **Reading self-correction as a defect would penalise exactly the behaviour a sound process
   produces**, and this page should say so plainly.
+
+## References

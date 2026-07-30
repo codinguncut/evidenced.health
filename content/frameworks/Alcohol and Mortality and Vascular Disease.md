@@ -26,12 +26,12 @@ independent methods say the protection is largely not real.
 - **All-cause mortality (Stockwell, 87 studies).** Unadjusted, the «classic J-shaped curve» appears:
   low-volume drinkers (1.3-24.9 g/day) «RR = 0.86, 95% CI [0.83, 0.90]» vs abstainers; occasional
   drinkers «0.84 [0.79, 0.89]»; former drinkers elevated «1.22 [1.14, 1.31]».
-  [EXTRACTED (Stockwell - Moderate Drinkers Mortality Risk 2016) chunk 01, Table 2]
+  [EXTRACTED @stockwell2016 chunk 01, Table 2]
 - **Vascular disease (Millwood, China Kadoorie, 500k).** Self-reported intake had «U-shaped
   associations with the incidence of ischaemic stroke... intracerebral haemorrhage... and acute
   myocardial infarction; men who reported drinking about 100 g of alcohol per week... had lower risks
   of all three diseases than non-drinkers or heavier drinkers.»
-  [EXTRACTED (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) chunk 01, Findings]
+  [EXTRACTED @millwood2019 chunk 01, Findings]
 
 ## Why the lower arm is an artifact — two independent adjudications
 
@@ -46,7 +46,7 @@ they are ill, counted as *abstainers*, making the referent look unhealthy):
   evidence of health protective effects for low-volume drinkers or any other category.»
 - the corrected pattern is «more consistent with a linear dose response than a J-shaped curve.»
 
-[EXTRACTED (Stockwell - Moderate Drinkers Mortality Risk 2016) chunk 01, Results; Discussion; Conclusions]
+[EXTRACTED @stockwell2016 chunk 01, Results; Discussion; Conclusions]
 
 **2. Mendelian randomization (Millwood).** Genetic variants (ALDH2 rs671, ADH1B) that strongly lower
 alcohol tolerance act as instruments free of reverse causation and lifestyle confounding. The
@@ -61,13 +61,13 @@ genotype-predicted (causal) relationship is **monotonic, with no protective lowe
   (genetic) — convergent, so the confounding is specific to the *protective* claim, not to alcohol's
   BP effect.
 
-[EXTRACTED (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) chunk 01, Results]
+[EXTRACTED @millwood2019 chunk 01, Results]
 
 Millwood's verdict: «the apparently protective effects of moderate alcohol intake against stroke are
 not mainly caused by alcohol itself, and are largely artifacts of reverse causation and confounding.»
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
-[EXTRACTED (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) chunk 01, Research in context;
+[EXTRACTED @millwood2019 chunk 01, Research in context;
 (Stockwell - Moderate Drinkers Mortality Risk 2016) chunk 01, Conclusions]
 
 ## Two independent methods, one conclusion `[E-independent]`
@@ -109,11 +109,11 @@ This is the first *how-much-is-too-much* number the corpus holds for alcohol, an
 the decision-relevant part — a woman's threshold sits at roughly half a man's.
 
 **F, not a third E witness (laundering guard).** Zhao 2023 is Stockwell's own group — it «updates our
-earlier systematic review» (its ref 8 is [[Stockwell - Moderate Drinkers Mortality Risk 2016]]), same
+earlier systematic review» (its ref 8 is [@stockwell2016]), same
 team and method. It **refines** the observational arm (more studies, occasional referent, the
 threshold); it is **not** an independent method, so the `[E-independent]` convergence above stays
 Stockwell ∥ Millwood, unchanged.
-[EXTRACTED (Zhao - Daily Alcohol Intake and Mortality 2023) chunk 01, Results; Discussion; Table 4]
+[EXTRACTED @zhao2023 chunk 01, Results; Discussion; Table 4]
 
 ## The honest boundary — stroke is not myocardial infarction
 
@@ -123,7 +123,7 @@ suggests alcohol's BP harm «could be offset by cardio-protective changes in oth
 the MI case count was limited so «some real benefit or hazard cannot be excluded». So "alcohol is
 uniformly harmful" holds for **stroke and BP**; for **coronary heart disease the causal picture is
 genuinely unresolved**, and that is the one place a small real benefit is not excluded.
-[EXTRACTED (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) chunk 02, Discussion]
+[EXTRACTED @millwood2019 chunk 02, Discussion]
 
 ## What this probes `[PRIOR handle — not scored here]`
 
@@ -145,3 +145,5 @@ still-open sodium J-hypothesis -> [[Sodium Intake and Blood Pressure]], [[The U-
   observational meta-analysis is what carries it.
 - Coherence, not validity (R1): the causal read rests on the MR assumptions (instrument validity, no
   pleiotropy — Millwood checks the latter via women as a negative control).
+
+## References

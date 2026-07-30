@@ -2,8 +2,8 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org)]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Kodama - Cardiorespiratory Fitness and Mortality 2009, Momma - Muscle-Strengthening Activities and Mortality 2022]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018]
 cluster: cvd-risk-estimation
 confidence: high
 self_critiqued: 2026-07-29
@@ -18,7 +18,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -36,10 +36,10 @@ absolute baseline is still a small absolute gain.
 
 | Intervention | Hard-CV-outcome evidence, and where it applies | For a low-risk / primary-prevention person |
 |---|---|---|
-| **Semaglutide** (drug→weight) | MACE «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90» — but only in **secondary prevention** (established CVD); primary prevention «were not studied» | **Unproven.** Weight + surrogates transfer; the CV-event benefit does not |
-| **Statin** (drug→lipids) | Efficacy real and roughly constant per mmol/L; USPSTF acts only at **≥7.5–10% 10-year risk** because benefit is *proportional to risk*; CAC=0 lifts NNT to 64 vs 28 | **Small, below the threshold.** USPSTF: below ~7.5% risk, not a candidate at all |
-| **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a −42% CRP drop | **Unproven / null via this route** |
-| **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg — relative benefit **proven in primary prevention** | **Proven relative, small absolute.** ~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
+| **Semaglutide** (drug→weight) | MACE «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90» — but only in **secondary prevention** (established CVD); primary prevention «were not studied» [EXTRACTED @lincoff2023] | **Unproven.** Weight + surrogates transfer; the CV-event benefit does not |
+| **Statin** (drug→lipids) | Efficacy real and roughly constant per mmol/L; USPSTF acts only at **≥7.5–10% 10-year risk** because benefit is *proportional to risk*; CAC=0 lifts NNT to 64 vs 28 [EXTRACTED @nasir2015] | **Small, below the threshold.** USPSTF: below ~7.5% risk, not a candidate at all [EXTRACTED @uspstf2022] |
+| **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a −42% CRP drop [EXTRACTED @look2013] | **Unproven / null via this route** |
+| **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg [EXTRACTED @bplttc2021] — relative benefit **proven in primary prevention** | **Proven relative, small absolute.** ~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
 
 Each per-page cross-source comparison already carries its own parameter table; this page **configures**
 those settled findings, it does not re-derive a magnitude.
@@ -115,7 +115,7 @@ risk, not the blood-pressure number*, so a proven ~10%-per-5-mmHg relative effec
 someone at low absolute risk. **The one intervention that could speak to primary prevention confirmed
 mechanism 1 rather than escaping it.**
 
-**PREDIMED is the second confirming test — a HIGH-risk contrast, not a counterexample.** A dietary
+**PREDIMED is the second confirming test — a HIGH-risk contrast, not a counterexample.** A dietary  [EXTRACTED @estruch2018 chunk 01]
 *pattern* (Mediterranean diet, energy-unrestricted) cut CV events ~30% (HR 0.70) with a real absolute
 benefit of ~1.7-2.1 percentage points over 5 years ([[Mediterranean Diet and Cardiovascular Events]]).
 That looks like a lifestyle intervention with a proven hard-outcome effect — but it lands exactly where
@@ -133,3 +133,5 @@ genuinely LOW-risk population** — any would move a *large-absolute-at-low-risk
 toward *proven*. Until then the pattern holds, and its confidence is **high**: five intervention
 classes across drug, diet-pattern and lifestyle — including the ones with the strongest
 primary-prevention evidence — all land in the same place by the same mechanism.
+
+## References

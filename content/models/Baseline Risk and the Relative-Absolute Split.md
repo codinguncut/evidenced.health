@@ -32,18 +32,18 @@ The relative effect of an intervention versus a specific comparator "is usually 
 variety of baseline risks," which is why a single pooled relative estimate across broad
 subpopulations is usually legitimate. The **absolute** benefit is that relative *reduction* applied to the
 person's own baseline risk, and therefore varies across groups even when the relative effect does
-not. [EXTRACTED (GRADE - Handbook) §2.1]
+not. [EXTRACTED @grade §2.1]
 
 ## The consequence GRADE draws
 
 > "Recommendations, however, may differ across subgroups of patients at different baseline risk of an
 > outcome, **despite there being a single relative risk that applies to all of them**. Thus, guideline
 > panels must often define separate questions (and produce separate evidence summaries) for high- and
-> low-risk patients." [EXTRACTED (GRADE - Handbook) §2.1]
+> low-risk patients." [EXTRACTED @grade §2.1]
 
 Worked case: warfarin, which carries inconvenience and serious bleeding risk, has a "much stronger"
 case in atrial-fibrillation patients at substantial rather than minimal stroke risk — the relative
-effect is the same for both. [EXTRACTED (GRADE - Handbook) §2.1]
+effect is the same for both. [EXTRACTED @grade §2.1]
 
 ## Intuition
 
@@ -52,7 +52,7 @@ The relative effect is a property of the **intervention**; the absolute effect i
 a large risk and a third of a negligible one. Where the harm rate is roughly constant in absolute
 terms, the benefit-harm balance therefore tips with baseline risk even though nothing about the
 treatment's potency changed. GRADE states only that "baseline risk (control event rate) can influence
-the balance of desirable and undesirable outcomes" [EXTRACTED (GRADE - Handbook) §6.2.1.1]; it does
+the balance of desirable and undesirable outcomes" [EXTRACTED @grade §6.2.1.1]; it does
 not claim harms are baseline-invariant. (**Note what varies in GRADE's warfarin case**: it is
 **stroke** risk that differs between patients, with bleeding as the fixed counterweight -- not the
 reverse, which is the easier misreading.)
@@ -85,13 +85,13 @@ Before pooling, GRADE asks whether pooling is legitimate at all: "for the patien
 defined, the underlying biology should suggest that across the range of patients and interventions it
 is plausible that the magnitude of effect on the key outcomes is more or less the same. If that is
 not the case the review or guideline will generate misleading estimates for at least some
-subpopulations." [EXTRACTED (GRADE - Handbook) §2.1]
+subpopulations." [EXTRACTED @grade §2.1]
 
 So there are two distinct reasons a recommendation can differ by group, and they carry different
 evidential burdens: **differing baseline risk** (arithmetic; no subgroup claim needed) and **differing
 relative effect** (a biological claim requiring its own evidence, and pre-specified where possible —
-GRADE's guard is *"a priori specification of subgroup effects"* — the handbook says a priori, not
-specifically *in the protocol*). [EXTRACTED (GRADE - Handbook) §2.1]
+GRADE's guard is *«a priori specification of subgroup effects»* — the handbook says a priori, not
+specifically *in the protocol*). [EXTRACTED @grade §2.1]
 
 ## Decision relevance
 
@@ -111,7 +111,7 @@ passage leaves implicit. Consistency is judged on **relative** measures — "whe
 inconsistencies in effect size, we are referring to relative measures (risk ratios and hazard ratios,
 which are preferred, or odds ratios)" — precisely because absolute risk differences "tend to vary
 widely" across subpopulations while relative reductions "tend to be similar."
-[EXTRACTED (GRADE - Handbook) §5.2.2]
+[EXTRACTED @grade §5.2.2]
 
 Therefore:
 
@@ -119,7 +119,7 @@ Therefore:
 > subpopulations at appreciably different risk, absolute differences in outcome between intervention
 > and control groups will differ substantially between these subpopulations. This may well warrant
 > **differences in recommendations across subpopulations, rather than downgrading the quality of
-> evidence for inconsistency** in effect size." [EXTRACTED (GRADE - Handbook) §5.2.2]
+> evidence for inconsistency** in effect size." [EXTRACTED @grade §5.2.2]
 
 That is an explicit routing rule: varying absolute benefit across risk strata is a reason to
 **stratify the recommendation**, not a reason to lose confidence in the estimate. Mistaking the first
@@ -127,7 +127,7 @@ for the second penalizes a body of evidence for behaving exactly as the arithmet
 
 Also recorded there: **direction of effect is not a criterion for inconsistency** — studies pointing
 opposite ways are not per se inconsistent; what counts is spread of point estimates, non-overlapping
-intervals, and heterogeneity statistics. [EXTRACTED (GRADE - Handbook) §5.2.2]
+intervals, and heterogeneity statistics. [EXTRACTED @grade §5.2.2]
 
 ## Applied — WHO computes absolute effects exactly this way
 
@@ -136,13 +136,13 @@ WHO's 2023 fat guideline states the conversion explicitly in its evidence profil
 > "absolute effect = 1000 x [event rate x (1 - RR)]" — with the caveat that "the magnitude of
 > absolute effect in 'real world' settings **depends on baseline risk, which can vary across
 > different populations**."
-> [EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6, evidence-profile footnotes]
+> [EXTRACTED @who2023saturated Annex 6, evidence-profile footnotes]
 
 That is this page's decomposition in the source's own hand, with one caution: `event rate` is the
 **study** event rate — "in the control group for RCTs and the total cohort for prospective
 observational studies" — which WHO then explicitly distinguishes from a reader's real-world baseline
 risk. `(1 - RR)` is the relative risk reduction.
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6, evidence-profile footnotes]
+[EXTRACTED @who2023saturated Annex 6, evidence-profile footnotes]
 The identity holds, and it confirms that the quantity which travels is the
 *ratio*, while the quantity that matters to a person is the *difference*, reconstructed locally from
 their own baseline.
@@ -164,7 +164,7 @@ the table:
 | Relative effect (RR) | 0.79 (0.62-1.00) | 0.84 (0.67-1.06) |
 | Absolute per 1000 | **50 fewer** | **12 fewer** |
 
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6, evidence profiles 5 and 9]
+[EXTRACTED @who2023saturated Annex 6, evidence profiles 5 and 9]
 
 **The relative effects differ by 0.05. The absolute effects differ by 4x** -- and the arithmetic
 decomposes cleanly: the baseline ratio (23.8/7.6 = 3.13x) carries most of the 4.17x absolute gap, the
@@ -196,7 +196,7 @@ The per-1000 machinery above needs a baseline risk. For a **continuous** outcome
 thing, and Cochrane's device is worth copying: the assumed-risk column becomes *"the range of change
 values reported in the balanced-carbohydrate weight-reducing diet groups across the studies"* -- e.g.
 comparator arms losing between 11.34 and 2.3 kg, against which a 1.07 kg between-arm difference is read.
-[EXTRACTED (Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022) Summary of findings 1]
+[EXTRACTED @naude2022 Summary of findings 1]
 
 **The decision consequence is real:** a 1 kg advantage against comparators already losing 2-11 kg is a
 marginal adjustment to a working intervention, not a stand-alone effect. Reading the MD without the
@@ -213,20 +213,20 @@ comparator's own trajectory makes a small increment look like a whole result.
 
 ## A body that held BOTH halves and never multiplied them `[2026-07-28, SACN revisit]`
 
-The *Failure modes* list above names **reporting relative effects alone**. [[SACN - Carbohydrates and Health 2015]] is the worked instance, and it is the sharp version of the failure: **SACN had the
+The *Failure modes* list above names **reporting relative effects alone**. [@sacn2015] is the worked instance, and it is the sharp version of the failure: **SACN had the
 baselines and still did not convert.**
 
 Its effect estimates are relative throughout — «the relative risks for total sugars intake are
 presented for each 50g/day increase and for individual sugars for each 20g/day increase as this is
 equivalent to one standard deviation of intake», with «330ml/day increase in consumption as this is
 equivalent to a standard can of beverage» for SSBs.
-[EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 03, 6.3]
+[EXTRACTED @sacn2015 chunk 03, 6.3]
 
 **And chapter 4 supplies UK baselines, in the same report, unattached to any effect estimate:**
 coronary heart disease «responsible for almost 74,000 deaths each year»; diabetes at «In 2013, 6% of
 the UK population, over 3.2 million people»; caries at «In 2012 almost a third (27.9%) of 5-year olds
 in England had tooth decay».
-[EXTRACTED (SACN - Carbohydrates and Health 2015) chunk 02, ch.4]
+[EXTRACTED @sacn2015 chunk 02, ch.4]
 
 **Both factors of the identity at the top of this page are present in one document, and the
 multiplication is never performed.** No risk differences, no NNTs, no absolute benefit at a stated
@@ -295,7 +295,7 @@ does not:**
 > no value, because the effect of diet in a high-risk subgroup can be of great importance even when
 > there is no formal statistical interaction, or even if the relative risk (but not the absolute
 > excess risk) is identical in all genotypes.»
-> [EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 20]
+> [EXTRACTED @willett chunk 20]
 
 **The parenthetical is the whole content: identical relative risk, different absolute excess risk.**
 That is this page's decomposition, arrived at through gene-diet interaction testing rather than through
@@ -308,7 +308,7 @@ stratification can matter while the interaction test is correctly null.** And he
 the power reason it will often be null regardless — «adequate power for tests of interaction usually
 require at least four times the sample size as do tests for main effects (Smith and Day, 1984)».
 **A null interaction test in a study powered for main effects is close to uninformative.**
-[EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 20]
+[EXTRACTED @willett chunk 20]
 
 **This does NOT discharge the route-(a) illustration this page owes.** That debt needs *numbers* — one
 intervention, one relative effect, two stated baseline risks, two absolute effects. **Willett states
@@ -324,7 +324,7 @@ null-interaction-test consequence and its power basis — rather than independen
 > «The absolute benefit of lowering LDL-C depends on the absolute risk of ASCVD and the absolute
 > reduction in LDL-C, so even a small absolute reduction in LDL-C may be beneficial in a high- or
 > very-high-risk patient.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 02]
+> [EXTRACTED @esc2021 chunk 02]
 
 **This is this page's decomposition stated by a guideline, with the consequence attached** — and the
 consequence is the half that usually goes missing. The arithmetic (absolute benefit = relative
@@ -348,3 +348,5 @@ supply them.** That conversion is now a small, well-defined job rather than an o
 
 **Type: F.** ESC refines a claim the page already held from GRADE by attaching the practical
 consequence; it does not independently establish the decomposition. No `[E-independent]`.
+
+## References

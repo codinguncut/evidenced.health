@@ -2,8 +2,8 @@
 type: framework
 question: Should non-sugar (artificial) sweeteners be used to control weight or reduce NCD risk — and against which comparator?
 aliases: [NSS, Artificial Sweeteners, Non-Sugar Sweeteners, Non-Nutritive Sweeteners, Low-Calorie Sweeteners, Sugar Substitutes, Aspartame, Sucralose, Saccharin, Stevia, Acesulfame K]
-authors: [World Health Organization (org)]
-sources: [WHO - Non-Sugar Sweeteners 2023]
+authors: [World Health Organization (org); Suez, Jotham; Segal, Eran; Elinav, Eran; Debras, Charlotte; Touvier, Mathilde]
+sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023]
 cluster: cardiometabolic-exposures
 confidence: low
 relationships:
@@ -23,28 +23,28 @@ and **the discordance between short-term trials and long-term cohorts is left ge
 resolved either way. NSS are defined as «all synthetic and naturally occurring or modified non-nutritive
 sweeteners that are not classified as sugars» (acesulfame K, aspartame, sucralose, saccharin, stevia,
 neotame, cyclamates, advantame); sugar alcohols/polyols are excluded.
-[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+[EXTRACTED @who2023nonsugar chunk 01]
 
 ## The recommendation
 
 > «WHO suggests that non-sugar sweeteners not be used as a means of achieving weight control or reducing
 > the risk of noncommunicable diseases (conditional recommendation).»
-[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+[EXTRACTED @who2023nonsugar chunk 01]
 
 - **Conditional recommendation, LOW certainty overall** — both stated plainly: «The recommendation is
   based on evidence of low certainty overall». Read them together — this is a *suggestion against* on
   weak evidence, not a *strong recommendation against*. It says the expected value of using NSS for
   weight control is not positive on current evidence, **not** that NSS are demonstrated to harm.
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  [EXTRACTED @who2023nonsugar chunk 01]
 - **Scope guard — does NOT apply to people with existing diabetes** (excluded from the reviewed
   evidence), and does not apply to NSS in medicines/hygiene products. Weight control means both weight
   *loss* in overweight/obesity and *preventing* unhealthy gain.
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  [EXTRACTED @who2023nonsugar chunk 01]
 - **Class-level, not per-sweetener.** The recommendation covers NSS «as a class of compounds», because
   «the evidence is currently insufficient to make recommendations for individual NSS» — even though each
   has a distinct structure and «may have different physiological effects in humans». So a finding on
   saccharin or aspartame is not automatically a finding on stevia. `type-B` (one label, chemically
-  distinct objects). [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  distinct objects). [EXTRACTED @who2023nonsugar chunk 01]
 
 ## The comparator IS the effect (adults, RCTs)
 
@@ -60,7 +60,7 @@ uncertainty: Low certainty (RCTs); most trials <=3 months
 certainty: Low
 confidence: low
 ```
-[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+[EXTRACTED @who2023nonsugar chunk 01]
 
 The pooled -0.71 kg dissolves once the comparator is pinned:
 
@@ -72,7 +72,7 @@ The pooled -0.71 kg dissolves once the comparator is pinned:
   consumers to switch to NSS versions, «the effect on body weight was significantly weakened … and an
   effect on BMI was no longer observed» — quantified as body weight MD **-0.61 kg (95% CI -1.28 to
   0.06), non-significant**, BMI **-0.01 (-0.38 to 0.35)**.
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  [EXTRACTED @who2023nonsugar chunk 01]
 
 **Mechanism is displacement, not the molecule.** The weight effect «is mediated at least in part by
 lower energy intake as a result of decreased free sugars intake, rather than primarily by an inherent
@@ -80,7 +80,7 @@ property of NSS» — a significant weight/BMI difference appeared «only … in
 reduction in energy intake, and energy intake was only significantly different in the arms of trials
 that compared NSS with free sugars». Energy intake fell -569 kJ/day (95% CI -859 to -278) and sugars
 intake -38.4 g/day (-57.8 to -19.1) — **but only vs sugar, not vs water/placebo.**
-[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01, chunk 02]
+[EXTRACTED @who2023nonsugar chunk 01, chunk 02]
 
 ## The RCT-vs-cohort discordance (adults)
 
@@ -102,7 +102,7 @@ observational cohorts show the opposite-signed associations with hard disease.
 | Cancer mortality | — | HR 1.02 (0.92 to 1.13) — **null** | Very low |
 | Bladder cancer (saccharin, case-control) | — | OR 1.31 (1.06 to 1.62) | Very low |
 
-[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01, Table 1]
+[EXTRACTED @who2023nonsugar chunk 01, Table 1]
 
 **Two things the table says on its own:**
 
@@ -126,7 +126,7 @@ it does not accept them as proven harm either. It ran the check and returned a *
   sustained outcome (-> [[Surrogate Outcomes]]). «The discordant results between the RCTs and prospective
   cohort studies suggest that the small amount of weight loss … in short-term experimental settings may
   not be relevant to … long-term NSS use in the general population.»
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  [EXTRACTED @who2023nonsugar chunk 01]
 - **The reverse-causation check was RUN — and the association survived it (weakened).** Reverse
   causation here = «those already at elevated risk of disease initiated or increased use of NSS because
   of their risk status» (people already heavy/dysglycaemic switch *to* sweeteners *because* of their
@@ -139,13 +139,13 @@ it does not accept them as proven harm either. It ran the check and returned a *
   > factors, the available evidence suggests that the associations observed between NSS use and health
   > outcomes in observational studies cannot be dismissed as being solely a result of reverse causation
   > or residual confounding.»
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 02]
+  [EXTRACTED @who2023nonsugar chunk 02]
 
 - **The conservative move.** «Because of lack of certainty about the overall balance … including the
   possibility that reverse causation may have contributed to one or more of the associations …, a
   conservative approach was taken, leading to a conditional recommendation.» The uncertainty about *which
   direction the cohort arrow points* is exactly what makes the recommendation conditional rather than
-  strong. [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  strong. [EXTRACTED @who2023nonsugar chunk 01]
 
 **The honest read (symmetric standards).** Do not report this as *the cohorts are just reverse
 causation* — WHO explicitly refused that framing. Nor as *NSS cause diabetes and CVD* — the certainty is
@@ -153,6 +153,68 @@ Low/Very-low and the RCT biomarkers are flat. The defensible statement is: *the 
 unexplained, cannot be fully attributed to reverse causation, and is not established as causal.* This is
 the [[The U-Shaped Association Artifact]] machinery applied and returning **not-dissolved**, which is a
 different outcome from alcohol (dissolved) — file it there.
+
+## The microbiome route is now evidenced — and it is CAUSAL (Suez 2022) `[2026-07-29]`
+
+Suez is the worked microbiome-causation template the fabric's microbiome nucleus
+([[Gut Microbiome and Health]]) holds up as the standard — a composition shift followed through to an
+outcome and confirmed by transplant. WHO named this gap («AWAITS a sweetener-microbiome RCT»). Suez 2022
+(Cell) fills it with a **randomized
+controlled trial** — 120 NNS-avoiding healthy adults given saccharin, sucralose, aspartame or stevia for
+2 weeks at «doses lower than the acceptable daily intake», vs vehicle-glucose or no-supplement controls —
+and it changes the reverse-causation picture materially:
+
+- **NNS are not inert.** Each of the four «distinctly altered stool and oral microbiome and plasma
+  metabolome» vs controls. [EXTRACTED @suez2022 chunk 01]
+- **Saccharin and sucralose «impaired glycemic responses»**; aspartame and stevia shifted the microbiome
+  but did not significantly move glucose in the window — the class splits, vindicating WHO's `type-B`
+  refusal to treat NSS as one object. [EXTRACTED @suez2022 chunk 01]
+- **The effect is causal, not reverse causation.** Germ-free mice colonized with stool from high- vs
+  low-responding humans reproduced the donors' glycemic responses — a microbiome-transfer causal step. And
+  it is **personalized**: responders and non-responders within each arm.
+  [EXTRACTED @suez2022 chunk 01]
+
+**What this does and does NOT do to WHO's open verdict (BLOCKING parameter table — different quantities):**
+
+| Parameter | WHO cohort signal | Suez 2022 | Same quantity? |
+|---|---|---|---|
+| Design | prospective cohort (observational) | **RCT + gnotobiotic causal transfer** | **NO** |
+| Exposure contrast | habitual high vs low NSS users | randomized 2-week NNS vs control | **NO** |
+| Endpoint | **hard outcomes** (T2D HR 1.23, CVD 1.32, mortality 1.12) | **short-term glycemic response** (OGTT/CGM) | **NO — outcome vs surrogate** |
+| Causal status | reverse causation *cannot be dismissed*, not confirmed | **causal** (microbiome transplant) on the surrogate | **NO** |
+| Population effect | population association | **personalized** (responders only) | **NO** |
+
+**Defensible synthesis (type F — refinement of WHO's OPEN verdict):** Suez shows a *real causal pathway*
+(NNS -> microbiome -> glycemia) exists in humans, so the long-term cohort signal is **less dismissible as
+pure reverse causation** — WHO's refusal to wave the cohorts away now has a mechanism behind it. But Suez
+does **not** confirm the hard-outcome harm: its endpoint is a **2-week glycemic surrogate**, the effect is
+**personalized**, and causal-on-the-marker is not causal-on-diabetes ([[Surrogate Outcomes]]). So the
+honest update is *a causal glycemic mechanism is now demonstrated for saccharin/sucralose; the T2D/CVD/
+mortality outcomes remain unproven* — the OPEN verdict narrows, it does not close.
+
+## The aspartame / cancer signal WHO deferred (Debras cohort + narrative review) `[2026-07-29]`
+
+WHO deferred the aspartame/cancer question to IARC/JECFA. Two lower-tier sources now populate it — without
+resolving it:
+
+- **Debras 2022 (NutriNet-Sante, 102,865 adults):** total artificial sweeteners -> «overall cancer (HR for
+  higher consumers versus non-consumers = 1.13 [95% CI 1.03 to 1.25], P-trend = 0.002)»; aspartame HR 1.15
+  (1.03-1.28), acesulfame-K 1.13 (1.01-1.26), breast cancer 1.22 (1.01-1.48).
+  [EXTRACTED @debras2022 chunk 01] **But this is observational,
+  small in absolute terms, and — importantly — DISCORDANT with WHO's own cohort table, where overall cancer
+  was NULL (HR ~1.02).** So the cohort cancer evidence is internally inconsistent (a null pooled estimate vs
+  a positive single newer cohort), and Debras is the same self-selected, self-reported NutriNet-Sante cohort
+  as the organic-cancer study ([[Organic vs Conventional Food]]) — same healthy-user caveat.
+- **Narrative safety review (Nutrients 2023):** EFSA's position is that «aspartame and its breakdown
+  products are safe for human consumption at current levels of exposure»; the cancer association «is still
+  highly controversial and under investigation». It adds the **contraindications** that matter at layer 3:
+  **phenylketonuria (forbidden)**, seizures/neurological conditions (caution), pregnancy (restrict).
+  [EXTRACTED (aspartame-safety-review-nutrients-2023) chunk 01] It is a *narrative* review — regulatory
+  summary and contraindication list, not independent quantitative evidence.
+
+**The hazard-vs-risk split stands:** an observational cohort *hazard* signal (contested, discordant) sits
+against a regulatory *risk* judgement of "safe at the ADI". Neither the primary IARC 2023 hazard
+classification nor the JECFA 2023 ADI re-affirmation is held yet — those remain the named gap.
 
 ## Decision relevance — substitution frame
 
@@ -162,9 +224,9 @@ different outcome from alcohol (dissolved) — file it there.
   in the diet with sources of naturally occurring sweetness, such as fruits, as well as minimally
   processed unsweetened foods and beverages … should be the preferred alternatives». Swapping sugar for
   NSS leaves «the overall quality of the diet … largely unaffected».
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  [EXTRACTED @who2023nonsugar chunk 01]
 - **NSS are «not essential dietary factors and have no nutritional value»** — so the null-benefit finding
-  carries no offsetting cost of *not* using them. [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  carries no offsetting cost of *not* using them. [EXTRACTED @who2023nonsugar chunk 01]
 - **Layer-3 caveat:** for a person whose realistic alternative is sugar-sweetened soda and who will not
   switch to water, NSS is still the better of *those two* — the guideline optimizes a population question
   (don't build policy on NSS), not this individual's next drink.
@@ -177,26 +239,47 @@ different outcome from alcohol (dissolved) — file it there.
 - **Pregnancy:** higher NSS use associated with **preterm birth, OR 1.25 (1.07 to 1.46), Low certainty**
   (three cohorts, dose-response in two); offspring birth-weight/adiposity associations inconsistent.
   Extrapolated from adult evidence «without downgrading for indirectness».
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+  [EXTRACTED @who2023nonsugar chunk 01]
 
 ## Named gaps
 
-- **Aspartame / cancer HAZARD (IARC 2023) and the ADI (JECFA 2023) are NOT in this guideline.** WHO NSS
-  2023 covers the *outcome* side (cohort cancer null; saccharin-bladder case-control) and explicitly
-  defers the hazard identification and risk-assessment to IARC and JECFA, whose 2023 evaluations post-date
-  it. The hazard-vs-risk distinction for the *Are Artificial Sweeteners Bad* deliverable needs those
-  sources — a `G`-gap here, not held. AWAITS IARC Aspartame 2023 / JECFA Aspartame 2023 — closes the
-  cancer sub-question (hazard label + unchanged ADI).
-- **Appetite / cravings / gut-microbiome routes** are named as putative mechanisms (sweet-taste receptors
-  outside the mouth; microbiota) but «a detailed discussion … is beyond the scope of this guideline» — so
-  they stay *insufficient evidence*, not findings. AWAITS a sweetener-microbiome RCT — closes the
-  glucose-tolerance/microbiome sub-question.
+- **Aspartame / cancer HAZARD (IARC 2023) and the ADI (JECFA 2023) are still NOT held directly.** WHO NSS
+  2023 defers hazard identification / risk-assessment to IARC and JECFA. **Partly populated
+  `[2026-07-29]`** by Debras 2022 (cohort cancer signal, observational, discordant with WHO's null) and a
+  narrative review (EFSA "safe at ADI"; cancer "highly controversial") — see the cancer section above — but
+  the **primary IARC/JECFA 2023 evaluations remain unheld.** Still a `G`-gap for the definitive
+  hazard-label + ADI..
+- **Gut-microbiome / glycaemic route — CASHED `[2026-07-29]` by Suez 2022** (RCT + gnotobiotic causal
+  transfer): a causal NNS -> microbiome -> glycemia pathway is now demonstrated for saccharin/sucralose, on
+  a short-term surrogate, personalized (see the microbiome section above). Appetite / cravings routes remain
+  *insufficient evidence*.
 
 ## Limits
 
-- **Single-source page** (WHO NSS 2023). The reverse-causation adjudication rests on the systematic-review
-  authors' own sensitivity analyses as WHO reports them, not on an independent re-analysis.
-- **Open loop (R1):** this grades WHO's reasoning for coherence and source-fidelity; whether NSS actually
-  move a hard outcome is a validity fact no operation here can see.
-- **NON-independent of the WHO free-sugars family** — see [[Free Sugars Intake]]. This is the same body's
-  companion guideline, so agreement between them is *not* type-E independent corroboration.
+- **Now four sources**, but the additions are surrogate/observational: Suez is an RCT but on a **short-term
+  glycemic surrogate** (personalized); Debras is **observational** and discordant with WHO's null; the
+  aspartame review is **narrative**. So the *hard-outcome* certainty is unchanged — `confidence: low` holds.
+  What improved is the *mechanistic* picture (a causal glycemic route exists) and the aspartame
+  contraindication list.
+- **Open loop (R1):** this grades the sources' reasoning for coherence and source-fidelity; whether NSS
+  actually move a hard outcome is a validity fact no operation here can see.
+- **Independence:** Suez (Weizmann RCT group) and Debras (NutriNet-Sante) are genuinely independent of WHO
+  and of each other — but they answer *different* questions (surrogate mechanism vs cohort cancer), so this
+  is type-F refinement, not type-E convergence on one claim. WHO NSS stays NON-independent of the WHO
+  free-sugars family ([[Free Sugars Intake]]).
+
+## Self-critique `[run 2026-07-29, second pass — the Suez/Debras/review additions]`
+
+- **Over-claim check.** Suez is explicitly NOT read as confirming the hard-outcome harm — the parameter
+  table's all-NO column gates it to "causal on a surrogate, personalized"; the OPEN verdict is said to
+  *narrow, not close*. Debras is flagged as discordant with WHO's own null cohort, not as proof of cancer
+  risk. No superlative scoped to the vault.
+- **Laundered-E avoided.** The additions are typed F (refinement), not E — Suez and Debras answer different
+  questions and neither is independent *backing for one claim*; stated in Limits.
+- **Reverse-causation handling.** The one genuinely new causal fact (microbiome transfer) is used only for
+  the surrogate it measured; the leap to T2D/CVD is explicitly withheld.
+- **Symmetric standards.** Debras (a signal in the "sweeteners are bad" direction) is held to the same
+  observational/healthy-user discount as the organic-cohort was — not waved through because it fits the
+  cautionary prior.
+
+## References

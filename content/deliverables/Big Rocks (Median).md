@@ -1,137 +1,198 @@
 ---
 title: "The Biggest Health Levers for a Typical Adult"
 type: deliverable
-subject: A general stratum — the drifting-median Western adult (NOT a person, NOT everyone)
-question: For the drifting-median Western adult, which dietary and lifestyle exposures carry the largest expected benefit, sorted by robustness across the distribution?
-aliases: [Big Rocks Median Western Adult, Nutrition and Lifestyle Big Rocks, Average Westerner Big Rocks, Big Rocks for the Median Western Adult]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, EASL - MASLD Clinical Practice Guidelines 2024, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Cappuccio - Sleep Duration and Mortality 2010, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Ma - Weight Loss Interventions Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017]
-confidence: low
-created: 2026-07-29
-updated: 2026-07-29
-self_critiqued: 2026-07-29
+subject: The largest, most robust dietary and lifestyle levers for a drifting-median Western adult in their late 40s with early metabolic impairment
+question: For this drifting-median adult, which dietary AND lifestyle exposures carry the largest expected benefit, and which guidance is robust across the distribution (helps the drifting majority without harming the leaner minority)?
+aliases: [Big Rocks Median, Big Rocks for the Median Adult, Drifting Median Big Rocks]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, NutriRECS - Red and Processed Meat Recommendations 2019, WCRF - Meat Fish and Dairy Products and Cancer 2018, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Estruch - PREDIMED Mediterranean Diet 2018]
+confidence: medium
+created: 2026-07-30
+updated: 2026-07-30
 ---
 
-**This is a reference class, not a person — and not everyone.** It applies general evidence to one common
-profile; people who are leaner or further along than this need the conditionality flags below, not this
-exact list.
+**Who this is for.** A representative Western adult in their late 40s (roughly 45-50), around the
+metabolic-drift median, with obesity-associated impairment: central adiposity, borderline hypertension,
+borderline dysglycemia (impaired fasting glucose / prediabetes-leaning, not diabetic), elevated
+triglycerides, low-grade inflammation, a modestly raised resting heart rate. **Drifting, not diseased.**
+This is a stratum, not a person and not everyone. Someone leaner and metabolically healthy needs the
+conditionality flags below, not this exact list.
 
-## Who this is for
+## The verdict, up front
 
-A Western adult in their late 40s sliding toward metabolic syndrome: central (visceral) adiposity,
-borderline hypertension, prediabetic-range glucose, raised triglycerides, low-grade inflammation, and
-early fatty liver (MASLD). **Drifting, not diseased** — which is precisely why the large, safe levers
-matter far more than fine-tuning.
+**Movement and energy are the headline. Carbs-versus-fat-versus-protein composition is the small
+print.** The levers with the largest, safest, best-warranted payoff for this adult are: get active,
+build and keep muscle with enough protein, and shed visceral fat. The macronutrient wars everyone
+argues about (low-carb vs low-fat, saturated fat, sugar, salt, red meat) are real but *small* here, and
+some are outright contested. If this adult smokes, that dominates everything else combined.
 
-## Read this first — two framings that reorder everything
+The sort below is the deliverable's whole value: **(a)** big rocks that help the drifting 60% and are
+near-harmless to the leaner 40%; **(b)** levers whose benefit is conditional on metabolic status; **(c)**
+over-published, small, or contested levers you should not lead with. The "harms the 40%" line in (b) is
+reasoning from mechanism plus held stratum-dependence, not measured subgroup harm.
 
-- **Movement and adiposity are the headline; the carbs-vs-fat-vs-protein wars are the small print.** The
-  best-measured levers are activity and body fat; macronutrient composition is second-order — an
-  isocaloric sugar swap is null on weight, low- vs balanced-carb differs by ~1 kg (not clinically
-  meaningful), and cutting saturated fat moves cardiovascular events a little and mortality not at all.
-- **Sorted by *robustness across the distribution*, because advice for this drifting majority must not
-  backfire on the leaner ~40%.** Each lever is graded: **(a)** helps this profile, harms no one;
-  **(b)** helps the metabolically impaired but is needless or mildly counterproductive for the healthy;
-  **(c)** small or genuinely contested.
+## (a) Robust big rocks -- lead with these
 
-## (a) The big rocks — pull these; they help this profile and harm no one
+**0. If you smoke, this is the whole game.** Smoking status is not specified for this stratum, but if it
+is present it dwarfs every other lever: current smokers die at about three times the rate of
+never-smokers (all-cause HR 3.0 [99% CI 2.7-3.3] in women, 2.8 [2.4-3.1] in men) and lose more than a
+decade of life [EXTRACTED @jha2013]. Quitting before ~40 removes
+about 90% of the excess risk -- but not all of it (a residual HR ~1.2, so "safe until 40" is a misread);
+quitting at 45-54 still removes roughly two-thirds. There is no age at which quitting is not a smoker's
+largest lever. See [[Smoking and Mortality]].
 
-**1. Aerobic activity — the largest well-measured lever.**
+**1. Aerobic activity -- the single largest association the fabric holds, and it flattens early.**
+Device-measured total activity carries an all-cause mortality HR of **0.34 (0.27-0.43)** at the top of
+the dose-response, at HIGH certainty [EXTRACTED @who2020]. The good news for a busy adult: most of that benefit arrives by about **24 min/day of
+moderate-to-vigorous activity** (or a larger volume of light activity), then the curve flattens. So the
+message is "become active," not "train like an athlete." The estimate is observational (reverse
+causation not excluded by design), which is why it is not treated as commensurable with the RCT-grade BP
+evidence below. See [[Physical Activity Dose and Mortality]].
 
-- Total activity carries an all-cause mortality **HR of 0.34** (95% CI 0.27-0.43) at high certainty — the
-  most robust finding in this whole document ([[Physical Activity Dose and Mortality]]).
-- Most of that benefit is reached by **~24 min/day of moderate-to-vigorous activity**; the curve then
-  flattens. You do not need to be an athlete.
-- Sedentary time is a *separate* lever: risk climbs above roughly **6-8 h/day** of total sitting.
+- **Fitness is the outcome to track, and it predicts strongly.** Each 1-MET higher cardiorespiratory
+  fitness (VO2max) carries all-cause mortality RR **0.87 (0.84-0.90)** and CVD RR 0.85 (0.82-0.88), with
+  no observed plateau; in one 122,000-patient cohort being unfit outranked smoking (HR 1.41) and diabetes
+  (1.40) as a mortality signal [EXTRACTED @kodama2009]
+  [EXTRACTED @mandsager2018]. Fitness is a
+  *predictor*, not a proven causal lever -- the proven lever underneath is the activity that raises it.
+  You can estimate your fitness for free from age, sex, BMI, resting heart rate and activity, then track
+  it up [EXTRACTED @ross2016]. A modestly raised
+  resting heart rate fits the lower-fitness picture and falls with aerobic training -- treat it as a
+  progress marker, not a target with an evidenced cutoff. See [[Cardiorespiratory Fitness and Mortality]],
+  [[Measuring and Raising Cardiorespiratory Fitness]].
 
-**2. Resistance training — for function, muscle retention, and a metabolic bonus.**
+**2. Strength training plus adequate protein -- additive to cardio, small dose, and a glycaemic bonus
+for this stratum.** Any muscle-strengthening activity vs none carries all-cause RR **0.85 (0.79-0.93)**,
+CVD 0.83, cancer 0.88, and diabetes **0.83 (0.77-0.89)**, independent of aerobic activity; doing both
+gives RR **0.60 (0.54-0.67)** [EXTRACTED @momma2022].
+The effective dose is small -- most benefit by a wide, imprecise ~30-80+ min/week (the standard "2
+days/week" sits inside it); the mortality data are observational and very-low GRADE, so hold this a tier
+below cardio and BP. For a dysglycemic adult the diabetes signal has a clean mechanism: muscle is the
+main sink for insulin-stimulated glucose disposal, so building and using it improves glucose tolerance.
 
-- Its strongest evidence is *proven but on surrogates*: trials show it preserves lean mass during a
-  weight-loss deficit ([[Protein and Resistance Training for Muscle and Strength]]) — you want to lose
-  visceral fat, not muscle — and builds strength. And it harms no one.
-- **The metabolic bonus that lands here:** skeletal muscle is the main site of insulin-stimulated glucose
-  disposal, so building it improves glucose tolerance — directly relevant for this dysglycaemic profile,
-  and why strength training tracks with lower diabetes risk ([[Muscle-Strengthening Activity and Mortality]]).
-- Its own mortality signal (~RR 0.85 alone; ~0.60 combined with aerobic) is real but very-low certainty
-  (observational, self-reported) — a weakly-warranted bonus, not the reason it earns a place. A couple of
-  sessions a week suffices; no need to chase volume.
+- **Protein is the adjunct, not the driver.** Resistance training builds the muscle; protein up to about
+  **1.6 g/kg/day** (CI 1.03-2.20) lets it build slightly more -- roughly +2.5 kg on a 1RM and +0.3 kg
+  lean mass over weeks, and no more above the plateau [EXTRACTED @morton2018]. Most people already eat ~1.4 g/kg, so this is topping up, not loading. Its
+  practical role here is keeping lean mass while losing fat. Hitting the target from low-quality plant
+  sources (pea DIAAS 64, wheat 40 vs milk 122) needs more grams or deliberate complementation
+  [EXTRACTED @fao2013]. See
+  [[Protein and Resistance Training for Muscle and Strength]].
 
-**3. Lose the visceral fat (primarily via an energy deficit) — the dominant metabolic lever.**
+**3. Lose visceral fat -- pursue it for what it demonstrably moves, and do not oversell the heart.**
+This is the central cardiometabolic lever for a drifting adult, but be precise about which outcomes it
+buys. Lifestyle weight loss did **not** reduce hard cardiovascular events: Look AHEAD HR **0.95
+(0.83-1.09)** despite real weight loss and a -42% CRP drop [EXTRACTED @look2013], and a 54-RCT meta-analysis confirms it (CV events RR 0.93, NS). What weight
+loss *does* move: all-cause mortality falls modestly (RR **0.82**, ~6 fewer deaths per 1000, via a
+non-CV route) [EXTRACTED @ma2017]; glycaemia and diabetes
+remission (an 825-853 kcal/day total-diet-replacement programme put **46%** of short-duration type 2
+diabetics into remission, off drugs, scaling monotonically with kilograms lost)
+[EXTRACTED @lean2018]; and fatty liver, where sustained loss of **>=5%** cuts
+liver fat, **7-10%** improves inflammation, and **>=10%** improves fibrosis
+[EXTRACTED @easl2024]. For this stratum the fatty-liver lever is
+not separate -- it is the same weight-loss lever, and MASLD's dominant risk is cardiovascular, not
+hepatic (non-fatal CVD HR 1.40; >2x incident diabetes). See [[Does Weight Loss Reduce Cardiovascular Events]], [[Fatty Liver MASLD and Weight Loss]].
 
-It acts on blood pressure, glycaemia, the fatty liver, and the overall drift simultaneously. The honest
-version:
+- **On the how:** the only diet a guideline body will positively recommend for weight loss is defined by
+  *energy*, not macronutrient -- low-energy total diet replacement (800-1200 kcal, max 12 weeks, with
+  specialist support), a time-boxed clinical intervention, not a way of eating [EXTRACTED @nice]. NICE deleted the old "600 kcal deficit" figure as arbitrary and replaced it with
+  *maintain a deficit* by whatever route sticks; its rapid-regain / weight-cycling caution is a *weak*
+  recommendation on unmeasured harm, so the maintenance phase, not the loss phase, is the hard part. See
+  [[Diets for Weight Loss - What NICE Recommends]].
 
-- It did **not** reduce cardiovascular events in the definitive trial (Look AHEAD null; a 54-RCT
-  meta-analysis agrees) — so don't sell it as cardiac protection ([[Does Weight Loss Reduce Cardiovascular Events]]).
-- It **does** lower all-cause mortality (RR 0.82, ~6 fewer deaths per 1,000) by a non-cardiovascular
-  route — so pursue it for the liver, glycaemia, blood pressure, function, and that real survival benefit.
-- **Held targets:** **≥5%** loss clears liver fat; **7-10%** reverses the steatohepatitis behind long-term
-  liver damage ([[Fatty Liver MASLD and Weight Loss]]).
-- **Method matters less than a sustained deficit.** The one diet with a clear positive recommendation is
-  defined by energy, not macros — an 800-1,200 kcal total diet replacement for up to 12 weeks
-  ([[Diets for Weight Loss - What NICE Recommends]]).
+**4. Blood pressure -- the one lever with a proven hard-outcome benefit in primary prevention.** A 5
+mmHg systolic reduction cuts major CV events by about 10% (HR **0.91 [0.89-0.94]** even without prior
+CVD, no heterogeneity down to <120 mmHg) [EXTRACTED @bplttc2021]; the intensive-target SPRINT trial cut its composite (HR 0.75) and all-cause
+mortality (HR 0.73), NNT 61 over 3.26 years, but at a real adverse-event cost (hypotension, syncope,
+acute kidney injury) in a *high-risk* population [EXTRACTED @sprint2015]. **The decision rule is treat on absolute risk, not a BP number.** For this adult at
+*borderline* BP and lowish absolute risk, the pharmacological question is marginal -- lifestyle (weight,
+activity, sodium) is the move. See [[Blood Pressure Lowering and Cardiovascular Events]].
 
-**4. Adequate protein (~1.6 g/kg/day).** Preserves lean mass during a deficit and supports the training.
-Benefit *plateaus* near 1.6 g/kg — more buys no additional muscle ([[Protein and Resistance Training for Muscle and Strength]]).
+## (b) Stratum-dependent -- conditional on metabolic status, not universal
 
-**5. Sleep ~7-8 h.** Avoid chronic short sleep. More is not a lever, and the elevated risk in long
-sleepers is a marker of underlying illness, not a target ([[Sleep Duration and Mortality]]).
+**Carbohydrate restriction -- real benefit for the insulin-resistant, needless (and mildly
+counterproductive) for the metabolically healthy.** This is the clearest "helps the 60%, not the 40%"
+case. In type 2 diabetes it delivers HbA1c **-0.47%** at 6 months (HIGH certainty) and remission RD
+**0.32** (NNT ~3) *with medication continued* -- but the effect attenuates to ~0.10 by 12 months, and
+medication-free remission is not significant in the pooled estimate (though it is in the non-insulin
+stratum, RD 0.20) [EXTRACTED @goldenberg2021]. The mechanism is
+mostly the weight loss, not the carbohydrate per se (DiRECT reached 46% remission on a 59%-carbohydrate
+diet). **Two reasons it is conditional:** it raises LDL (MD +0.14 mmol/L at 12 months, and Naude flags
+caution in people with atherogenic lipid responses [EXTRACTED @naude2022]), and it needs active medication management this wiki cannot provide. For a
+metabolically healthy person it offers little the balanced-carbohydrate diet does not. See
+[[Carbohydrate Restriction and Type 2 Diabetes Remission]].
 
-## (b) Metabolism-dependent — conditional, not universal
+## (c) Over-published, small, or contested -- do NOT lead with these
 
-**Carbohydrate restriction — for the dysglycaemic only.**
+**Saturated fat -> unsaturated fat.** Reduce to 10%E (strong recommendation, moderate certainty),
+ideally replacing with polyunsaturated fat. The absolute payoff is small: **15 fewer cardiovascular
+events per 1000** (RR 0.83 [0.70-0.98]) -- the *only* hard outcome that clears the null. All-cause
+mortality is unmoved (RR 0.96, ~2 fewer per 1000, moderate certainty), i.e. reducing saturated fat does
+not measurably reduce dying [EXTRACTED @who2023saturated]
+[EXTRACTED @hooper2020]. NNTB ~56 (primary
+prevention) over ~4 years; the relative effect is constant across baseline risk, so personalize by
+absolute risk, not by claimed subgroup. See [[Saturated Fat Intake and Replacement]].
 
-- In the insulin-resistant or prediabetic, it lowers **HbA1c ~0.47%** and drives short-term type-2
-  diabetes remission (**NNT ~3 at 6 months**) ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
-- **Two catches:** the effect attenuates by 12 months, and it raises **LDL (~+0.14 mmol/L)**. For the
-  metabolically *healthier* member of this class it is needless, and that LDL rise is a net negative — the
-  clearest "helps the impaired, could mildly harm the healthy" call.
-- For weight alone, low- vs balanced-carb differs by ~1 kg — not worth the argument
-  ([[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]).
+**Free sugars.** The <10%E limit is a *dental* recommendation (caries), not a weight or
+cardiometabolic one: swap sugar for other carbohydrate at equal energy and body weight barely moves
+(0.04 kg) -- the weight effect of sugar runs through calories [EXTRACTED @who2015]. See
+[[Free Sugars Intake]].
 
-## (c) Small, over-published, or contested — do not lead with these
+**Sodium.** <2 g/day lowers systolic BP by **3.39 mmHg** (high certainty), but hard-outcome evidence is
+very low, and hypertensives respond ~3x more than normotensives (4.06 vs 1.38 mmHg)
+[EXTRACTED @who2012] [EXTRACTED @esc2021]. Worth doing
+for a borderline-hypertensive adult; not a big rock. See [[Sodium Intake and Blood Pressure]].
 
-- **Saturated fat → unsaturated:** a small effect on cardiovascular events (RR 0.83; ~15 fewer per 1,000
-  at high baseline risk, fewer here) and **none on mortality** ([[Saturated Fat Intake and Replacement]]).
-  - The mechanism is real: cutting saturated fat lowers **apoB** (the count of atherogenic, apoB-bearing
-    particles), which *causally* drives atherosclerosis and accumulates over a lifetime ([[LDL ApoB and Cumulative Exposure]]). So a *sustained* small reduction is worth more than a short trial shows. For
-    this metabolically-impaired profile, track **non-HDL (a cheap apoB proxy)**, not LDL-C, which
-    under-counts the particles here.
-- **Free sugars:** the lever is *energy*, not sugar per se — an isocaloric swap is null on weight
-  ([[Free Sugars Intake]]).
-- **Alcohol:** moderate drinking is **not** protective — the apparent J-curve is an artefact of reverse
-  causation and sick-quitter bias — so there's nothing to chase upward, and for this fatty-liver-prone
-  profile, less is better ([[Alcohol and Mortality and Vascular Disease]]).
-- **Sodium:** a small blood-pressure lever, worth *relatively* more here (hypertensive-leaning: ~4-6 mmHg
-  vs ~1.4 in normotensives) ([[Sodium Intake and Blood Pressure]]). Pharmacological BP-lowering has proven
-  hard-outcome benefit even in primary prevention ([[Blood Pressure Lowering and Cardiovascular Events]]),
-  but at borderline pressures the lifestyle route (weight, sodium, activity) is the move, not a drug.
-- **Red / processed meat:** genuinely *contested* — one guideline family says reduce it, another says
-  current intake is defensible on the same evidence; the clash is the standard of proof and whose values
-  set the threshold, not whether meat causes cancer. Presented as the open question
-  ([[Should Adults Reduce Red and Processed Meat]]).
+**Red and processed meat -- present the tension, do not pick a side.** WCRF says limit (processed meat a
+"convincing" colorectal-cancer cause); NutriRECS says adults may continue, because the absolute effect
+of a realistic 3-servings/week cut is small -- about **7 fewer cancer deaths per 1000 over a lifetime**
+-- and the evidence is low certainty [EXTRACTED @wcrf2018]
+[EXTRACTED @nutrirecs2019]. The disagreement is
+decision-theoretic (what standard of proof, and whose values), not empirical -- both sides see the same
+small association. A processed-meat cut has firmer footing than a red-meat cut; and cutting red meat
+shifts protein toward lower-quality sources unless dairy/eggs/fish stay in. See [[Should Adults Reduce Red and Processed Meat]].
 
-## Why diet composition is second-order for this person
+**The macronutrient split itself, for weight.** Low-carb vs balanced-carbohydrate differs by about **1
+kg**, judged not clinically important -- and it collapses to under half a kilogram when the diets are
+matched on energy [EXTRACTED @naude2022]. For weight loss,
+the decision is adherence, cost and preference, not carbohydrate percentage. Meal timing (e.g. 16:8)
+ranks near the bottom -- much discussed, small measured effect. See [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 
-This profile is higher-risk than a lean adult but **still not high-risk**, so the levers act mostly on
-metabolism, liver and function; the hard cardiovascular payoff of any single cardiometabolic intervention
-is modest at this risk level, with blood-pressure lowering the partial exception
-([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]). Absolute benefit scales with
-baseline risk, so a large *relative* effect on a modest risk is a modest *absolute* one
-([[Baseline Risk and the Relative-Absolute Split]]).
+## The frame that ties it together
 
-## Gaps (stated honestly; routed for later)
+- **Absolute benefit = relative reduction x baseline risk.** A constant relative effect on a low
+  baseline is a small absolute effect; the same effect on this drifting adult's somewhat elevated risk is
+  larger. This is why the composition levers, with small relative effects, matter little here, and why
+  the same list would rank differently for a high-risk person. See [[Baseline Risk and the Relative-Absolute Split]].
+- **The ceiling is itself a finding.** No cardiometabolic intervention the fabric holds delivers a large,
+  *proven*, absolute reduction in hard CV events for a low-risk person -- weight-loss and obesity-drug CV
+  benefits are unproven or confined to established disease [EXTRACTED @lincoff2023], and even a dietary *pattern* that cut events ~30% did so in a
+  high-risk population [EXTRACTED @estruch2018]. Pursue these levers for
+  the outcomes they *do* move (glycaemia, weight, liver, function, fitness), and stop optimizing for a
+  heart-attack reduction the evidence does not promise a lower-risk person. See [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]], [[Layer 1 - Ranking Interventions for a Stratum]].
 
-- **Pulses / plant-protein quality:** the wiki holds almost nothing — the top acquirable gap for a
-  nutrition guide.
-- **The "could harm the healthy 40%" sort is reasoned, not measured** — it rests on mechanism and held
-  metabolic-state differences (carb→LDL, remission only in the dysglycaemic), not quantified subgroup harm.
-- **No population statistics** — the profile is a stated hypothetical, by design.
-- **No proven targets for waist or resting heart rate** — treat them as progress markers, not cutoffs.
+## Gaps in this cut (stated honestly)
 
-## The honest limits
+- **Plant-protein quality is thin-to-empty** -- the top acquirable gap for a nutrition guide (FAO DIAAS
+  and antinutrients staged, not fully ingested).
+- **Subgroup harm is mostly un-quantified** -- the "harms the 40%" sort is mechanism plus held
+  stratum-dependence, not measured interaction.
+- **No evidenced resting-HR, waist, or VO2max outcome targets are held** -- these are progress markers
+  that move with training, not cutoffs.
+- **Rate of weight loss and the maintenance phase:** the held finding is *maintain a deficit*, not *hit a
+  rate* (the specific number was deleted as arbitrary), with the rapid-regain caution resting on
+  unmeasured weight-cycling harm. A measured rate/maintenance-outcome trial is the residual gap.
+- **No sourced population statistics** -- the stratum is a stated hypothetical, by design.
 
-- **This grades the evidence, not the outcome** — never whether acting on it improves a real one.
-- **It appraises, it does not prescribe** — carbohydrate restriction in particular needs medication
-  management this cannot do.
-- **A reference class, not a person or everyone** — outcome priorities and constraints are the
-  individual's; the tails need the conditionality flags, not this exact ordering.
+## Mandatory caveats
+
+- **Open loop:** this fabric grades coherence and source-fidelity, never validity. A clean audit is not a
+  validated recommendation -- nothing here has been checked against a realized outcome.
+- **Appraise, do not prescribe:** no drug choice or dose. Carbohydrate restriction specifically needs
+  medication management the wiki cannot do.
+- **A stratum, not a person and not everyone:** the leaner and the more-impaired tails need the
+  conditionality flags, not this exact list.
+- **Guidance-null:** this mostly agrees with mainstream guidance (activity, weight, BP, the modest place
+  of composition) but with better-warranted confidence -- it says *where* each lever's benefit is proven
+  and where it is not, and treats the macronutrient debates as the small print they are. It diverges from
+  the popular framing that makes carbs-vs-fat the main event.
+
+## References

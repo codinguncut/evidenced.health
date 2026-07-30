@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Cappuccio, Francesco P; Dehghan, Mahshid; World Health Organization (org)]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013, Dehghan - PURE Fats Carbohydrate Mortality 2017, WHO - Non-Sugar Sweeteners 2023]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-29
 created: 2026-07-28
-updated: 2026-07-29
+updated: 2026-07-30
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
@@ -32,7 +32,7 @@ The lower arm can be produced with **no true benefit at all**, by any of:
   looks protected. In alcohol this is decisive: including former drinkers among *abstainers* «will bias
   drinking risk estimates downward, thereby magnifying the appearance of health benefits from low-level
   drinking», and former drinkers carried «a 38% increased risk» (Stockwell).
-  [EXTRACTED (Stockwell - Moderate Drinkers Mortality Risk 2016) chunk 01, Conclusions]
+  [EXTRACTED @stockwell2016 chunk 01, Conclusions]
 - **Reverse causation** — poor health lowers the exposure, not the reverse.
 - **Confounding by lifestyle / frailty** — the intermediate-exposure group differs systematically
   (Naimi 2005, reported by Stockwell: «27 (90%) of 30 potential adverse confounders for coronary heart
@@ -48,7 +48,7 @@ disease were more prevalent among abstainers than among moderate drinkers»).
 | **Mendelian randomization** | genetic instruments fix lifetime exposure, immune to reverse causation | monotonic harm for stroke, no protective arm (Millwood) |
 | **Exclude early follow-up / sick baseline** | remove the reverse-causation window | U-shape *persisted* observationally — so this alone is insufficient (Millwood) |
 
-[EXTRACTED (Stockwell - Moderate Drinkers Mortality Risk 2016) chunk 01, Results;
+[EXTRACTED @stockwell2016 chunk 01, Results;
 (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) chunk 01, Results]
 
 **The load-bearing lesson:** excluding early follow-up is the *weak* check (the alcohol U-shape survived
@@ -68,7 +68,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **Alcohol — adjudicated, artifact.** The protective lower arm is largely non-causal
   -> [[Alcohol and Mortality and Vascular Disease]].
 - **Sleep — adjudicated, and it sharpens the concept.** The sleep-duration U-curve's *long*-sleep arm
-  (RR 1.30) has no demonstrated mechanism and is «a powerful additional marker of ill-health» (reverse
+  (RR 1.30) has no demonstrated mechanism and is «a powerful additional marker of ill-health» (reverse  [EXTRACTED @cappuccio2010 chunk 01]
   causation), while the *short*-sleep arm (RR 1.12) carries a mechanism and cause-specific evidence
   -> [[Sleep Duration and Mortality]]. **New nuance: the artifact can occupy ONE arm of a U-curve while
   the other arm is causal** — so *adjudicate the arm*, not the curve. The tells that flagged it were the
@@ -84,13 +84,13 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
   unbelieved; the lower arm (a small effective dose) is kept.
 - **Macronutrients in PURE — confounding-by-income, the machinery without (mostly) the U.**
-  [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] found higher carbohydrate → higher mortality and
+  [@dehghan2017] found higher carbohydrate → higher mortality and
   higher fat/SFA → *lower* mortality across an 18-country income gradient. The associations are largely
   **monotone**, not U-shaped — so this is not a lower-arm case — but it is a clean instance of the
   concept's **confounding-by-lifestyle/frailty** mechanism in its socioeconomic form: the highest-carb
   quintiles are the poorest (refined-carb subsistence diets), so the fat-protective / carb-harmful
   signals are the mirror of an income gradient, which the authors concede («residual confounding...
-  cannot be completely excluded»). [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk
+  cannot be completely excluded»). [EXTRACTED @dehghan2017 chunk
   01, Discussion] The **one candidate U-arm** is the authors' suggestion that «a very low intake (ie,
   below about 7% of energy) [of saturated fat] might even be harmful» — a low-SFA arm that would be the
   artifact-suspect region (very low SFA tracks very low animal-food intake, i.e. poverty/frailty), and
@@ -106,7 +106,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   excluding pre-baseline weight-losers, dropping early follow-up. Its verdict is the honest middle:
   «although reverse causation and residual confounding may be contributing factors … the associations …
   cannot be dismissed as being solely a result of reverse causation or residual confounding.»
-  [EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 02]
+  [EXTRACTED @who2023nonsugar chunk 02]
   - **This is the instance where the machinery neither dissolved nor confirmed the signal.** Contrast
     alcohol, where referent-correction + Mendelian randomization *removed* the protective arm. **NSS has
     had only this page's WEAK checks** (covariate adjustment + early-follow-up exclusion); the STRONG
@@ -126,7 +126,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   what would settle it: a referent-corrected or MR analysis of the low-intake arm, which the corpus
   does not yet hold.
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
-  ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers
+  ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [EXTRACTED @jha2013 chunk 01]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking
   recently in opposite ways» — and applies the canonical fix: **reclassify anyone who quit within 5 years
   of death as a current smoker**, then check by dropping the first 2 years of follow-up (unchanged). It is
@@ -154,3 +154,5 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   unequal-precision one) is still untested.
 - **Coherence, not validity** (R1): the concept says when a protective arm is *unwarranted*, not that
   the exposure is harmful; it is a rule about evidence, not about the world.
+
+## References

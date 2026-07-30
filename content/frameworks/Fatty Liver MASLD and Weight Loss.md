@@ -25,13 +25,13 @@ Opens the `masld` cluster. MASLD (renamed from NAFLD in 2023) is «steatotic liv
 presence of one or more cardiometabolic risk factor(s) and the absence of harmful alcohol intake» —
 so a person with obesity + metabolic syndrome effectively has it by definition. The evidence was
 «transferred» from NAFLD given «a nearly complete overlap» (99.8%).
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 01, Preamble]
+[EXTRACTED @easl2024 chunk 01, Preamble]
 
 The cardiometabolic criteria (Table 3, adults; any one qualifies): waist «>=94 cm in men and >=80 cm in
 women (Europeans)» or BMI >=25; prediabetes/T2D (fasting glucose 5.6-6.9 / >=7.0 mmol/L); triglycerides
 «>=1.7 mmol/L»; low HDL; BP «>=130/85 mmHg». These are *classification* thresholds (they mark whether a
 factor counts), not outcome targets.
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 01, Table 3]
+[EXTRACTED @easl2024 chunk 01, Table 3]
 
 ## The lever, and its dose-response — the actionable finding
 
@@ -48,7 +48,7 @@ The recommendation: weight loss «should aim at a sustained reduction of [>=5%] 
 7-10% to improve liver inflammation, and [>=10%] to improve fibrosis»; «There is a dose-dependent
 association between the amount of weight loss and the extent of improvement in biomarkers of liver
 damage.»
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 03, Non-pharmacological therapy]
+[EXTRACTED @easl2024 chunk 03, Non-pharmacological therapy]
 
 **Three caveats the guideline attaches, all decision-relevant:**
 
@@ -61,7 +61,7 @@ damage.»
 - **No proven effect on advanced fibrosis/cirrhosis** — «evidence for an effect of weight reduction by
   lifestyle modification on advanced fibrosis or cirrhosis is insufficient». So the lever works on the
   *reversible* stages; once bridging fibrosis/cirrhosis is present, lifestyle is not shown to reverse it.
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 03, Non-pharmacological therapy]
+[EXTRACTED @easl2024 chunk 03, Non-pharmacological therapy]
 
 ## The other lifestyle levers, with their grades
 
@@ -81,7 +81,7 @@ damage.»
 - **Coffee (LoE 4, observational only):** «>=3 cups of coffee per day» associated with lower fibrosis
   markers, «stronger and more consistent for fibrosis than for steatosis» — but «RCTs... are scarce
   and negative or inconclusive, no firm conclusions can be drawn».
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 03, diet quality / physical activity]
+[EXTRACTED @easl2024 chunk 03, diet quality / physical activity]
 
 ## Bariatric surgery — the large lever for class II/III obesity
 
@@ -93,7 +93,7 @@ severe adverse events». A *separate* post-surgery cohort (not BRAVES) found «a
 persisted in 47%» years later despite weight loss — so surgery does not reliably reverse the advanced
 stage either. **BRAVES is the one held head-to-head of surgery vs lifestyle on liver histology** — and
 its surgery arm is much larger than the lifestyle arm.
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 04, bariatric surgery]
+[EXTRACTED @easl2024 chunk 04, bariatric surgery]
 
 ## The reframe that matters for a metabolic patient — the risk is mostly NOT the liver
 
@@ -106,7 +106,7 @@ hepatic.** Two guideline facts drive this:
 - **The extrahepatic risk is the real load:** MASLD carries «higher risk of non-fatal cardiovascular
   disease (HR 1.40)», coronary heart disease, heart failure, chronic kidney disease, and «a more than
   two-fold increased risk of an incident diagnosis of T2D».
-[EXTRACTED (EASL - MASLD Clinical Practice Guidelines 2024) chunk 01, Obesity; chunk 02]
+[EXTRACTED @easl2024 chunk 01, Obesity; chunk 02]
 
 **So for the metabolic-syndrome stratum, the NAFLD lever is the SAME weight-loss lever already ranked
 #1-2 for cardiometabolic reasons** — MASLD does not add a separate intervention, it adds a reason and a
@@ -125,3 +125,5 @@ so the glycemia levers apply too -> [[Carbohydrate Restriction and Type 2 Diabet
 - **Observational confounding** on diet and coffee, flagged by the guideline itself.
 - Coherence, not validity (R1): these are graded recommendations, not proof that acting changes a given
   person's liver or life.
+
+## References

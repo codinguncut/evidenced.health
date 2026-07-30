@@ -30,7 +30,7 @@ Its pathophysiological premise is Taylor's *twin cycle hypothesis* — that T2D 
 driven by excess fat in liver and pancreas and is reversible by negative energy balance. Earlier
 mechanistic work had normalised liver insulin resistance within 7 days and pancreatic function over
 8 weeks on a 600-700 kcal/day diet; DiRECT tests whether this is *practicable* at scale.
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Introduction]
+[EXTRACTED @lean2018 Introduction]
 
 ## The intervention — an energy target, NOT a macronutrient one
 
@@ -46,7 +46,7 @@ The Counterweight-Plus programme, in three phases:
 
 «All oral antidiabetic and antihypertensive drugs were discontinued on day 1», reintroduced only per
 protocol if glucose or blood pressure required it.
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Procedures]
+[EXTRACTED @lean2018 Procedures]
 
 **Population and design:** aged 20-65, T2D diagnosed within 6 years, BMI 27-45, **not on insulin**.
 Open-label, cluster-randomised at 49 primary-care practices (the practice, not the patient, was the
@@ -54,7 +54,7 @@ randomisation unit); 149 per group in the ITT population. Co-primary outcomes, a
 hierarchically: "weight loss of 15 kg or more, and remission of diabetes, defined as glycated
 haemoglobin (HbA1c) of less than 6.5% (<48 mmol/mol) after at least 2 months off all antidiabetic
 medications, from baseline to 12 months".
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Methods]
+[EXTRACTED @lean2018 Methods]
 
 ## The headline result
 
@@ -66,13 +66,13 @@ medications, from baseline to 12 months".
 | HbA1c change | -0.9% | +0.1% | adj diff -0.85% (-1.10 to -0.59) |
 | QoL (EQ-5D VAS) | +7.2 | -2.9 | adj diff +6.4 (2.5 to 10.3) |
 
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Results; Table 2]
+[EXTRACTED @lean2018 Results; Table 2]
 
 The 46% remission rate "greatly exceeded" the 22% deemed a-priori clinically important. On
 medication: at 12 months **73.6% of the intervention group were on zero oral antidiabetic drugs**
 (vs 18.2% of control), and **68% remained off antihypertensives** with no rise in mean blood
 pressure.
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Results; Discussion; Table 2]
+[EXTRACTED @lean2018 Results; Discussion; Table 2]
 
 ## The jewel — remission scales with weight loss (dose-response)
 
@@ -87,11 +87,11 @@ months.** "Remission varied with weight loss in the whole study population":
 | 10-15 kg loss | 16 of 28 | 57% |
 | **>=15 kg loss** | **31 of 36** | **86%** |
 
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Results; Findings]
+[EXTRACTED @lean2018 Results; Findings]
 
 The discussion states the composite the table implies: "86% of participants with at least 15 kg
 weight loss, and 73% of those with weight loss of 10 kg or more" achieved remission.
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Discussion]
+[EXTRACTED @lean2018 Discussion]
 
 **Why this is the high-value finding.** A monotone gradient from 0% (weight gain) to 86% (>=15 kg),
 in a *within-population* comparison, is direct evidence that **the amount of weight lost — not the
@@ -108,7 +108,7 @@ DiRECT is unusual in designing for maintenance "from the outset". Among engagers
 in TDR then partly regained: **-14.5 kg** (95% CI 13.4-15.5) during TDR, then **+1.0 kg** during food
 reintroduction and **+1.9 kg** during maintenance — a net ~-11.6 kg trajectory for completers, against
 the -10.0 kg ITT mean.
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Results]
+[EXTRACTED @lean2018 Results]
 
 Adherence: "79% completed the intensive total diet replacement phase"; the ~25% "dropout rate" (6
 never engaged, 26 withdrew — 15 during TDR, 6 during reintroduction, 5 during maintenance) marks the
@@ -160,7 +160,7 @@ weight loss and decrease in body fat content, rather than any direct surgical ef
 large weight losses targeted by bariatric surgery are not essential for achievement of remission". So
 across three routes (formula diet, low-carb, surgery) the common cause is weight/fat loss, not the
 route.
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Discussion]
+[EXTRACTED @lean2018 Discussion]
 
 ## Remission is a real benefit weight loss moves — but it is intermediate
 
@@ -175,7 +175,7 @@ complications" and remission can relapse. DiRECT itself reaches for the hard-out
 citing a Look AHEAD post-hoc: "a 10% weight loss in the first year... was associated with a 21%
 decrease in occurrence of cardiovascular outcomes" — the same >=10%-responder signal that page holds
 as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Discussion]
+[EXTRACTED @lean2018 Discussion]
 
 ## Limits and bias — read honestly
 
@@ -196,3 +196,5 @@ as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
   colic + abdominal pain, same participant), none causing withdrawal.
 - **Coherence, not validity (R1):** a strong single trial, not proof the effect transports or
   persists.
+
+## References

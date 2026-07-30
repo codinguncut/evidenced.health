@@ -33,7 +33,7 @@ The 2013 FAO Expert Consultation recommends a new metric:
 > replace PDCAAS. DIAAS is defined as: DIAAS % = 100 x [(mg of digestible dietary indispensable amino
 > acid in 1 g of the dietary protein) / (mg of the same dietary indispensable amino acid in 1g of the
 > reference protein)].»
-> [EXTRACTED (FAO - Dietary Protein Quality Evaluation 2013) chunk 01]
+> [EXTRACTED @fao2013 chunk 01]
 
 Two DIAAS choices bear directly on plant-vs-animal appraisal:
 
@@ -44,7 +44,7 @@ Two DIAAS choices bear directly on plant-vs-animal appraisal:
 - **DIAAS is not truncated.** PDCAAS capped any score above 100% back to 100%; DIAAS does not (whole
   milk powder scores **122**, below). The FAO expert panel flagged the cost of truncation directly:
   *«Additional benefit of proteins with higher scores in complementing less nutritious proteins is not
-  captured»* [EXTRACTED (FAO - Dietary Protein Quality Evaluation 2013) chunk 02]. An uncapped score is
+  captured»* [EXTRACTED @fao2013 chunk 02]. An uncapped score is
   what makes **complementation** legible — a high-quality protein above 100% can lift a lysine-poor
   cereal, and truncation hid exactly that.
 
@@ -58,7 +58,7 @@ FAO's Table 6 (illustrating regulatory protein-content claims) is the decision-r
 | Peas | 21 | **64** | Low |
 | Whole milk powder | 28 | **122** | High |
 
-[EXTRACTED (FAO - Dietary Protein Quality Evaluation 2013) chunk 02, Table 6]
+[EXTRACTED @fao2013 chunk 02, Table 6]
 
 Read it as the maintainer's claim made concrete. Both plant foods are graded **Low** quality even
 though peas carry a respectable 21 g protein per 100 g: the score is capped by the *limiting* amino
@@ -96,22 +96,19 @@ FAO names the digestibility drag on plant proteins explicitly:
 > «Many foods, including novel protein sources, may contain high levels of known antinutritional
 > factors, which may be naturally occurring (e.g. tannins, phytates, trypsin inhibitors, glucosinolates,
 > isothiocyanates), formed during processing (e.g. D-amino acids, lysinoalanine)»
-> [EXTRACTED (FAO - Dietary Protein Quality Evaluation 2013) chunk 02]
+> [EXTRACTED @fao2013 chunk 02]
 
 — and draws the line that scopes this page's synthesis: *«Many of these affect digestion and will be
 taken into account in the determination of true ileal amino acid digestibility but others, such as
-glucosinolates, isothiocyanates, etc., have more general metabolic effects»* [EXTRACTED (FAO - Dietary
-Protein Quality Evaluation 2013) chunk 02]. The digestion-acting ones show up *as* a lower DIAAS (so the
-remedy is *«proper processing to minimize their levels»* [EXTRACTED (FAO - Dietary Protein Quality
-Evaluation 2013) chunk 02]); the goitrogenic ones act elsewhere and are not part of the protein story. Traditional processing — soaking, fermentation, sprouting, and the transformations
+glucosinolates, isothiocyanates, etc., have more general metabolic effects»* [EXTRACTED @fao2013 chunk 02]. The digestion-acting ones show up *as* a lower DIAAS (so the
+remedy is *«proper processing to minimize their levels»* [EXTRACTED @fao2013 chunk 02]); the goitrogenic ones act elsewhere and are not part of the protein story. Traditional processing — soaking, fermentation, sprouting, and the transformations
 that make tofu and tempeh — lowers antinutrients and raises digestibility, i.e. raises DIAAS. So the
 constraint the maintainer felt as *"plant"* may be substantially *"unprocessed"*: a hypothesis this
 page holds open, pointing at a different intervention (prepare differently) than the claim implied
 (eat animal protein) -> [[Antinutrients in Plant Foods]].
 
 **Processing cuts both ways, though.** FAO recommends that *«for foods susceptible to damage from
-processing, 'reactive' rather than 'total' lysine»* be used [EXTRACTED (FAO - Dietary Protein Quality
-Evaluation 2013) chunk 01] — heat/Maillard damage destroys available lysine. Processing that removes
+processing, 'reactive' rather than 'total' lysine»* be used [EXTRACTED @fao2013 chunk 01] — heat/Maillard damage destroys available lysine. Processing that removes
 antinutrients can also degrade the limiting amino acid; the net effect on DIAAS is the object, not
 either half.
 
@@ -125,7 +122,7 @@ toxicity side*, and shows they are largely defused by the same step:
 > «Phytates should not significantly impair mineral status when included as part of a diverse and
 > balanced diet, especially if using traditional processing methods such as soaking, germinating,
 > fermenting, and cooking.»
-> [EXTRACTED (Petroski - Antinutrients Narrative Review 2020) section 6.6]
+> [EXTRACTED @petroski2020 section 6.6]
 
 So the maintainer's two separate questions — *"is soaking worth it?"* and *"is plant protein
 bioavailable?"* — are **one variable (antinutrient load) with one lever (traditional processing) seen
@@ -203,3 +200,5 @@ any single food's score — which is [[Is the Food Category Doing Any Work]] app
   total-protein-matched outcome equalization and by the above-adequacy small-lever point, and the
   blend exception is attributed to the held complementation mechanism, not asserted anew. No
   patient-important outcome claimed for whey over plant.
+
+## References

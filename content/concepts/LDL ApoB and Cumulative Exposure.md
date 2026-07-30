@@ -33,14 +33,14 @@ LDL-lowering RCTs — and reached an unusually strong verdict:
 
 > «Consistent evidence from numerous and multiple different types of clinical and genetic studies
 > unequivocally establishes that LDL causes ASCVD.»
-> [EXTRACTED (Ference - LDL Cause ASCVD EAS Consensus 2017) chunk 01]
+> [EXTRACTED @ference2017 chunk 01]
 
 The causal agent is not LDL-cholesterol as such but the **apoB-containing particles** that carry it:
 
 > «cholesterol-rich LDL and other apolipoprotein B (apoB)-containing lipoproteins, including very
 > low-density lipoproteins (VLDL) and their remnants, intermediate density lipoproteins (IDL), and
 > lipoprotein(a) [Lp(a)], are directly implicated in the development of ASCVD.»
-> [EXTRACTED (Ference - LDL Cause ASCVD EAS Consensus 2017) chunk 01]
+> [EXTRACTED @ference2017 chunk 01]
 
 This is the strongest form of the surrogate-vs-outcome question resolved in the *validated* direction:
 LDL/apoB is the exemplar of a surrogate whose **causal transmission to the hard outcome is itself
@@ -59,7 +59,7 @@ with time:
 > proportional to the absolute reduction in LDL-C and the cumulative duration of exposure to lower
 > LDL-C, provided that the achieved reduction in LDL-C is concordant with the reduction in LDL particle
 > number and that there are no competing deleterious off-target effects.»
-> [EXTRACTED (Ference - LDL Cause ASCVD EAS Consensus 2017) chunk 01]
+> [EXTRACTED @ference2017 chunk 01]
 
 Two decision consequences follow:
 
@@ -83,7 +83,7 @@ stratum sits:
 > concentration or its effect on cardiovascular risk. Under these conditions, direct measurement of LDL
 > particle number or apoB concentration (recognizing that each LDL particle contains a single apoB
 > molecule) may more accurately reflect the causal effect of LDL on ASCVD.»
-> [EXTRACTED (Ference - LDL Cause ASCVD EAS Consensus 2017) chunk 01]
+> [EXTRACTED @ference2017 chunk 01]
 
 So for an insulin-resistant, hypertriglyceridemic adult, **LDL-C can *under-state* the atherogenic
 particle burden** — the small-dense-LDL pattern packs more particles (more apoB) into a given
@@ -122,26 +122,26 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
 
 ## A contested refinement — is a DIET-induced LDL-C change a good apoB proxy? (Astrup et al. 2020) `[2026-07-29]`
 
-[[Astrup - Saturated Fats Reassessment 2020]] presses the concordance proviso above in a specific
+[@astrup2020] presses the concordance proviso above in a specific
 direction: it argues a **diet-induced** LDL-C reduction from SFA restriction is an *unusually poor*
 proxy for the atherogenic-particle change, so CVD benefit inferred from it is overstated. The claim,
 and where it stands against this page:
 
-- **It CONCEDES the causal core** — "LDL particles play a causal role in the development of CVD" and
+- **It CONCEDES the causal core** — «LDL particles play a causal role in the development of CVD» and
   there is "a relationship between lowering of LDL cholesterol and CVD benefit." So this is not
   LDL-denial; it is a claim about the *diet-induced* change specifically.
-  [EXTRACTED (Astrup - Saturated Fats Reassessment 2020) chunk 01, LDL Cholesterol and Other Biomarkers]
+  [EXTRACTED @astrup2020 chunk 01, LDL Cholesterol and Other Biomarkers]
 - **The argument:** SFA restriction lowers mainly "large LDL particle subspecies... which are much
   less strongly related to CVD risk," not the small dense LDL, and also lowers HDL — so the total:HDL
   ratio barely moves and "the potential benefit of dietary restriction of saturated fat could be
   substantially overestimated by reliance on the change in LDL cholesterol levels alone."
 - **PURE grounds the diet-lipid discordance with data (now a held source).**
-  [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] (via its companion Mente 2017 lipid analysis)
+  [@dehghan2017] (via its companion Mente 2017 lipid analysis)
   reports higher SFA → higher LDL **but** higher HDL, lower triglycerides, and lower **ApoB/ApoA1**
   ratio (the stronger predictor), while higher carbohydrate → lower LDL **but** higher ApoB/ApoA1 —
   concluding «predicting the net clinical effect based on considering only the effects of nutrient
   intake on LDL cholesterol is not reliable».
-  [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion] This is the
+  [EXTRACTED @dehghan2017 chunk 01, Discussion] This is the
   discordance-in-the-diet-direction claim in cohort data — and note it is itself an **apoB argument**
   (the hazard tracked apoB/apoA1, not LDL-C), so it reinforces *measure apoB*, this page's held view,
   rather than displacing it. Observational and confounded by income, so directional not decisive.
@@ -171,3 +171,5 @@ apoB number) is this page's; each source's own claim is quoted/attributed]`
   of the genetic/MR evidence AND the LDL-lowering RCTs (the source's own pillar; the RCTs are its *most
   compelling* causal evidence), not to genetic/MR alone — the top of the mechanism-strength gradient, not
   a mechanistic plausibility story.
+
+## References

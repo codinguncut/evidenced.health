@@ -5,7 +5,7 @@ aliases: [Measuring CRF, Raising CRF, Non-Exercise CRF, eCRF, FRIEND Standards, 
 authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan]
 sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016]
 cluster: fitness
-confidence: medium
+confidence: low
 relationships:
   related_to:
     - Physical Activity Dose and Mortality
@@ -13,16 +13,21 @@ relationships:
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-28
 ---
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
-scientific statement (Ross 2016) supplies the three things that make CRF actionable: you can **measure**
+scientific statement (Ross 2016) [EXTRACTED @ross2016] supplies the three things that make CRF actionable: you can **measure**
 it cheaply, you can **raise** it a known amount with a known exercise dose, and **raising it tracks
 lower risk**. Together they move CRF from marker toward modifiable target — though, as below, still
 short of RCT-proven causality on hard outcomes.
+
+**Evidence-tier note (`confidence: low`).** This page rests on a **single AHA scientific statement**
+(Ross 2016 — a position/consensus document, `moderate` tier, not a trial or systematic review); the
+measure-and-raise claims are directional and consensus-backed, not RCT-proven on hard outcomes. Held at
+`confidence: low` pending a stronger source. [INFERRED]
 
 ## Measure it — three tiers, and a cheap one that works
 
@@ -150,3 +155,5 @@ symmetric standards apply to a body making the case for its own risk factor.
   finding upgrades but does not resolve the nucleus's predictor caveat.
 - **~50% of CRF is heritable** — the trainable fraction is real but bounded.
 - One body (AHA), 2016; whether other bodies endorse the vital-sign framing is unprobed.
+
+## References

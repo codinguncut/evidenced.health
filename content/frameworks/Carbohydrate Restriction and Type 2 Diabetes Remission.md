@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate put type 2 diabetes into remission, and does it last?
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
-authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy]
-sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018]
+authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E]
+sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022]
 cluster: weight-management
 confidence: medium
 self_critiqued: 2026-07-29
@@ -14,10 +14,10 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
-BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined
+BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [EXTRACTED @naude2022 chunk 02]
 **<26% of energy or <130 g/day** -- materially stricter than the <45% used by broader reviews.
 
 ## The answer depends entirely on what "remission" means
@@ -27,7 +27,7 @@ BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carb
 | **HbA1c <6.5%** | **RD 0.32** (0.17 to 0.47), RR 1.87 (1.18 to 2.97), 8 RCTs, n=264, **Moderate** | RD 0.10 (-0.02 to 0.21), 3 RCTs, n=171, Moderate |
 | **HbA1c <6.5% AND no diabetes medication** | RD 0.05 (-0.05 to 0.14), 5 RCTs, n=199, Low | **RD -0.04** (-0.16 to 0.09), 2 RCTs, n=126, Low |
 
-[EXTRACTED (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Table 2; Results]
+[EXTRACTED @goldenberg2021 Table 2; Results]
 
 **This is the finding.** The headline **32 per 100 more remissions** -- an NNT of about 3 -- is remission
 **with medication allowed to continue**. Under the definition that also requires coming off medication,
@@ -39,7 +39,7 @@ negative**.
 5**, against **0.00 (-0.07 to 0.07)** where insulin users were included (test for subgroup difference
 **P=0.03**). For the medication-permitted definition the split is starker still -- **0.51 (0.36 to
 0.65)** vs 0.14 (0.03 to 0.25), P<0.001.
-[EXTRACTED (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Results]
+[EXTRACTED @goldenberg2021 Results]
 So "never significant" holds for the **pooled** medication-free estimate and **not** for the
 non-insulin stratum -- which is the stratum in which a low-carbohydrate diet would most plausibly be
 offered. Per the telos's layer-2 rule the narrowest credible reference class is the one to quote.
@@ -62,7 +62,7 @@ and the Limitations note on medication permission.]
 **Medication reduction and triglycerides go the other way** (0.24 -> 0.33; -0.30 -> -0.32), so the
 source's own wording is the accurate one: *"most benefits diminished at 12 months."*
 
-[EXTRACTED (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Table 3; Results]
+[EXTRACTED @goldenberg2021 Table 3; Results]
 
 The HbA1c estimate at 6 months is the only High-certainty row **among the primary outcomes**. Table 3
 carries five more (LDL at 6 months, HDL and triglycerides at both timepoints).
@@ -74,7 +74,7 @@ carries less weight than the a-priori subgroups above.** The review is explicit 
 that shorter term trials **may be** an effect modifier"*). Trials of 3 to <6 months give RD **0.49**
 (0.30 to 0.68); trials of 6 to 9 months give **0.25** (0.08 to 0.42). Medication-free: 0.20 (0.03 to
 0.38) vs 0.00 (-0.07 to 0.07).
-[EXTRACTED (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Limitations]
+[EXTRACTED @goldenberg2021 Limitations]
 
 **Note a coincidence worth not over-reading:** the medication-free figures here (0.20 / 0.00) are
 numerically identical to the insulin-exclusion subgroup's. That is consistent with the two splits being
@@ -89,7 +89,7 @@ Not adjusted for -- **co-reported**. The review's stated reasoning:
 > *"Reductions in medication may blunt the effect on mean HbA1c levels, biasing results towards the null
 > and masking any effect; however, any improvement can still be captured if reduction of medication is
 > included as an outcome of interest."*
-[EXTRACTED (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Limitations]
+[EXTRACTED @goldenberg2021 Limitations]
 
 So medication appears (1) inside two of the four remission definitions, (2) as a standalone outcome,
 (3) as a named bias mechanism, and (4) as a subgroup variable. **The HbA1c mean difference and the
@@ -119,7 +119,7 @@ co-intervention change as its own outcome rather than to adjust it away.
 
 > *"clinicians might consider short term LCDs for management of type 2 diabetes, while actively
 > monitoring and adjusting diabetes medication as needed."*
-[EXTRACTED (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Conclusions]
+[EXTRACTED @goldenberg2021 Conclusions]
 
 Two conditions attached -- **short term**, and **active medication management**. Note the reason for the
 time limit is partly *external* to this review's own evidence: it cites a cohort review suggesting
@@ -159,7 +159,7 @@ months**). A remission effect that decays as the weight advantage decays is cons
 weight. DiRECT (Lean 2018) makes this near-decisive: it achieves **46% remission on an 825-853
 kcal/day formula diet that is 59% carbohydrate** — the opposite of low-carb — with remission scaling
 monotonically with kilograms lost (0% at weight gain -> 86% at >=15 kg).
-[EXTRACTED (Lean - DiRECT T2D Remission 2018) Results; Findings]
+[EXTRACTED @lean2018 Results; Findings]
 So carbohydrate restriction is **not necessary** for remission, and is best read as **one lever for the weight loss that drives
 remission** — with no evidence here that it adds a remission effect *beyond* the weight loss it
 produces (an added glycaemic contribution is untested, not excluded). A person should optimize for the
@@ -176,5 +176,5 @@ weight loss they can *sustain*, by whichever route they will adhere to
   resistance is the shared hub (MASLD carries a >2x risk of incident T2D), and the weight-loss and
   glycemia levers here are the same ones that reduce liver fat -> [[Fatty Liver MASLD and Weight Loss]].
 - A guidance benchmark is needed to run the guidance-null on this question; both are staged.
-  AWAITS [[ADA-EASD - Nutrition Therapy for Diabetes 2019]]
-  AWAITS [[EASD - DNSG Dietary Management of Diabetes 2023]]
+
+## References

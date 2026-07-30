@@ -2,8 +2,8 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sugars Intake 2015, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-29
@@ -15,7 +15,7 @@ relationships:
     - Free Sugars Intake
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
 created: 2026-07-27
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -43,7 +43,7 @@ different object.
 
 ### 1. The split carried signal — the category was hiding a real difference
 
-- **Sugar-sweetened beverages inside "free sugars."** [[Te Morenga - Dietary Sugars and Body Weight 2013]]: *"Fourteen of these 15 studies reported the sugars exposure as a sugar sweetened beverage"*,
+- **Sugar-sweetened beverages inside "free sugars."** Te Morenga - Dietary Sugars and Body Weight 2013 [EXTRACTED @te2013]: *"Fourteen of these 15 studies reported the sugars exposure as a sugar sweetened beverage"*,
   and for non-beverage exposures the review *"showed no consistent associations between other measures
   of sugars intake and adiposity."* **The child-cohort signal is a beverage signal.** Reading it as a
   free-sugars signal generalises past what the vote-count carries.
@@ -52,7 +52,7 @@ different object.
 
 ### 2. The split carried NOTHING — the boundary was decorative
 
-- **Refined versus whole grain.** [[SACN - Carbohydrates and Health 2015]] tested refined grains
+- **Refined versus whole grain.** [@sacn2015] tested refined grains
   directly: **RR 1.00 (95% CI 0.98, 1.01)** for cardiovascular events and **RR 1.00 (0.98, 1.01)** for
   type 2 diabetes, both `No association · Moderate`. And every whole-vs-refined **randomised** trial
   was null on blood pressure, lipids, fasting glucose, insulin and insulin sensitivity. SACN's own
@@ -71,10 +71,10 @@ different object.
   *white*, *fatty*, *freshwater*) occur roughly **five** times in total.
 - **Legumes.** SACN places roughly **fourteen** legume outcome cells in its `insufficient evidence`
   tables against one graded conclusion.
-- **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** [[Dehghan - PURE Fats Carbohydrate Mortality 2017]] reports higher total carbohydrate → higher total mortality (Q5 vs Q1
+- **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** [@dehghan2017] reports higher total carbohydrate → higher total mortality (Q5 vs Q1
   HR 1.28), but was «unable to quantify separately the types of carbohydrate (refined vs whole grains)», and
   notes «carbohydrate consumption in low-income and middle-income countries is mainly from refined
-  sources». [EXTRACTED (Dehghan - PURE Fats Carbohydrate Mortality 2017) chunk 01, Discussion] So the
+  sources». [EXTRACTED @dehghan2017 chunk 01, Discussion] So the
   harm attaches to a category that pools refined and whole grains, and almost certainly runs through the
   refined sub-type — the exact case-3 trap: a category-level harm that **looks** like "carbohydrate is
   bad" while the boundary that matters (refined vs whole) sits unmeasured inside it. Contrast SACN, which
@@ -93,7 +93,7 @@ speaks to this directly, and it does **not** settle the way the substitutability
 **Substitutability turns out to be OUTCOME-DEPENDENT, not simply true or false.** In WHO's own sugars
 evidence, swapping free sugars for other carbohydrate **at equal energy** moves body weight by
 **0.04 kg (-0.04 to 0.13) — null**. So within-carbohydrate units *are* substitutable for weight. They
-are **not** substitutable for caries, which is sugar-specific by mechanism. **Same category, same
+are **not** substitutable for caries, which is sugar-specific by mechanism [EXTRACTED @moynihan2014]. **Same category, same
 swap, opposite answer depending on the outcome** — so "are carbohydrates interchangeable?" has no
 answer until the outcome is named. -> [[Free Sugars Intake]]
 
@@ -117,7 +117,7 @@ one source most supportive of the matrix reading (SACN on isolates) explicitly m
 **That is the honest state: unresolved, with the burden currently on the matrix claim.**
 
 **Why this matters for the fortification case specifically.** If refined-grain harm were a matrix
-effect, refined grains should underperform — and [[SACN - Carbohydrates and Health 2015]] tested that
+effect, refined grains should underperform — and [@sacn2015] tested that
 directly and found **RR 1.00** for both cardiovascular events and type 2 diabetes. That is a **direct
 test of the matrix prediction on hard outcomes, and it did not find one.** It does not refute matrix
 effects in general — micronutrient status, satiety and glycaemic response were not the outcomes tested
@@ -179,10 +179,9 @@ claims from mechanism alone.
   same evidence type.** [INFERRED — the structural-cause reading is this page's.]
 - The three-way classification above rests on four sources on two food groups. Whether it generalises
   is **unprobed**; treat it as a lens, not a law.
-- **The protein case is named here but not evidenced** — single-plant versus complementary protein,
-  whole food versus isolate, whey versus casein are exactly this structure at the nutrient level, and
-  the wiki holds no protein-quality source yet (the DIAAS report).
-  AWAITS [[FAO - Dietary Protein Quality Evaluation 2013]]
+- **The protein case is the same structure at the nutrient level** — single-plant versus complementary
+  protein, whole food versus isolate, whey versus casein — now evidenced on its own page
+  -> [[Protein Quality and the DIAAS Score]] (the DIAAS report, FAO 2013, is held).
 
 ## The isolate-vs-food case, where the ISOLATE has the better evidence `[2026-07-27, SACN chunk 09]`
 
@@ -193,7 +192,7 @@ than the food carrying it.**
 Fibre isolates and gum supplements are graded `Effect · Adequate` — SACN's top strength grade — while
 whole-grain benefit is cohort-only and mostly `Limited`, with SACN itself noting that whole-grain
 associations *«may be related to its cereal fibre component»*.
-[EXTRACTED (SACN - Carbohydrates and Health 2015) chunks 05, 09]
+[EXTRACTED @sacn2015 chunks 05, 09]
 
 **Why this does NOT license "take the isolate instead."** SACN bounds its own finding in the same
 clause — the effect is *«demonstrated at intakes achieved through supplementation»*. So the grade
@@ -206,21 +205,30 @@ fact about study design, not about which form to eat.
 the isolate was *trialled* and the food merely *observed* before concluding the component is what
 matters. Design asymmetry masquerades as mechanistic insight.
 
+**A worked instance of exactly this, now held `[2026-07-29, Brown 1999]`.** Brown's meta-analysis of 67
+controlled trials pins the *soluble/viscous fibre* isolate (oat, psyllium, pectin, guar) to an LDL drop of  [EXTRACTED @brown1999 chunk 01]
+-0.057 mmol/L per gram — GRADE-worthy precisely because a single-source fibre *can* be dosed and controlled
+against a low-fibre placebo. The whole-food fibre that Reynolds 2019 ties to 15-30% lower mortality cannot
+be blinded or dosed, so it stays observational. Same design asymmetry, same trap: the isolate's better
+grade is a fact about trialability, not evidence that a psyllium sachet beats a bowl of beans for outcomes
+-> [[Dietary Fibre and Health]]. And the isolate's effect is *small* (Brown: «only a small contribution»),
+so even the well-graded object does not carry a large decision.
+
 ## A fourth case: the boundary IS predictive and still adds nothing `[2026-07-28]`
 
-The three-way split above sorts categories by whether the boundary **carries signal**. [[NNR - Nordic Nutrition Recommendations 2023]] supplies a case that does not fit any of the three, because the
+The three-way split above sorts categories by whether the boundary **carries signal**. [@nnr2023] supplies a case that does not fit any of the three, because the
 boundary carries signal *and* the body using it judged it not worth adopting.
 
 **NNR acknowledges the association, at strength, and then declines to recommend on it:**
 
 > «As discussed in the background paper by Juul and Bere (Juul & Bere, 2023), there is strong evidence
 > for an association between ultra-processed foods as a group and weight gain and obesity.»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+> [EXTRACTED @nnr2023 chunk 07]
 
 > «Science advice: Despite the observed association between ultra-processed food and health outcomes,
 > the NNR2023 Committee decided not to formulate any specific recommendations on ultra-processed foods.
 > NNR2023 includes several recommendations related to specific processing of foods.»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+> [EXTRACTED @nnr2023 chunk 07]
 
 **Read the two together, because either alone misrepresents the position.** This is **not** case 2 —
 NNR is not saying the split carried nothing. It is saying the split carries something that **is already
@@ -228,7 +236,7 @@ carried** by the classifications it uses:
 
 > «The NNR committee's view is that the current categorization of foods as ultra- processed foods does
 > not add to the already existing food classifications and recommendations in NNR2023.»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+> [EXTRACTED @nnr2023 chunk 07]
 
 **That is an incremental-validity argument, and it is a different test from the variance argument this
 page opens with.** The variance test asks: *does the boundary separate things that differ?* The
@@ -256,7 +264,7 @@ Where this page has mostly argued heterogeneity in the abstract, NNR names it:
 > «In the NOVA framework many foods such as infant formulas, industry produced baby foods, industry- or
 > bakery produced whole grain breads, yoghurt, fish-, fruits and vegetable products, and many other
 > products are also classified as ultra-processed foods depending on their formulation and processing.»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+> [EXTRACTED @nnr2023 chunk 07]
 
 **«depending on their formulation and processing» is the load-bearing clause.** The same food — a whole
 grain bread, a yoghurt — sits inside or outside the category according to how it was made. **A boundary
@@ -265,7 +273,7 @@ consumer cannot determine at the point of decision**, which is a distinct defect
 even a *perfectly* informative category is unusable if you cannot tell what is in it. NNR's food-group
 infographic states the consequence flatly — «Some UPFs are considered healthy from a nutritional point
 of view.»
-[EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+[EXTRACTED @nnr2023 chunk 07]
 
 ### NNR poses this page's question as a research need
 
@@ -273,7 +281,7 @@ of view.»
 > the various types and degrees of processing. More data  are also needed to define whether the NOVA
 > classification of ultra-processed foods add value compared to the conventional food categorizations
 > used in the NNR2023 FBDGs.»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+> [EXTRACTED @nnr2023 chunk 07]
 
 **A Tier-A body naming *does this category add value over the ones we already use* as an open question
 is this diagnostic stated in a guidance body's own voice** — and it means the page's framing is not a
@@ -285,13 +293,13 @@ heterodox lens imported onto the literature but a question the literature's own 
   effect of UPF.» So the *«strong evidence»* wording comes from a commissioned background paper, not
   from a qualified systematic review — a **weaker evidential footing than any of NNR's graded
   positions**, and the asymmetry cuts against the association as much as it cuts against the
-  declination. [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+  declination. [EXTRACTED @nnr2023 chunk 07]
 - **NNR names a confounding structure that would produce the association without the category being
   causal:** «Diets high in ultra-processed foods tend to be nutritiously unbalanced and are less likely
   to adhere to the overall NNR2023 recommendations than minimally processed foods», and «Intake of
   ultra-processed foods is linked to social inequalities and deprived groups.» **UPF intake is a marker
   of overall diet quality and of socioeconomic position**, both of which predict the same outcomes.
-  [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 07]
+  [EXTRACTED @nnr2023 chunk 07]
 
 ### What this does NOT establish
 
@@ -303,7 +311,7 @@ heterodox lens imported onto the literature but a question the literature's own 
 - **The wiki holds no primary UPF source.** `Hall - Ultra-Processed Diets Inpatient RCT 2019` is
   staged and would bear directly, because it is the design that separates the category from its
   correlates — an inpatient feeding trial matching diets on the very nutrients NNR says carry the
-  effect. AWAITS [[Hall - Ultra-Processed Diets Inpatient RCT 2019]]: if UPF still moves intake at matched composition, NNR's collinearity
+  effect.: if UPF still moves intake at matched composition, NNR's collinearity
   argument fails and the boundary is doing independent work.
 - **No tension is filed.** NNR is the only source the wiki holds on this question, so there is nothing
   for it to be joined against.
@@ -337,7 +345,7 @@ chose against it:
 > industrially produced and ruminant TFA behaved in a similar manner with respect to effects on health
 > and therefore formulated recommendations for total TFA (i.e. the total intake from both industrially
 > produced and ruminant TFA).»
-> [EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 8]
+> [EXTRACTED @who2023saturated Annex 8]
 
 **The boundary is intuitively load-bearing and empirically was not.** Industrial and ruminant TFA
 differ in origin, in isomer profile, and in how a consumer encounters them — every reason to expect the
@@ -355,7 +363,7 @@ that the two behave alike.
 
 ## SFA as a nutrient label that fails to predict its foods — Astrup et al. 2020 `[2026-07-29]`
 
-[[Astrup - Saturated Fats Reassessment 2020]] is this diagnostic's question stated as a whole thesis:
+[@astrup2020] is this diagnostic's question stated as a whole thesis:
 **does the nutrient "saturated fat" carry information about the foods that contain it?** Its answer is
 the strongest *no-the-nutrient-is-the-wrong-exposure* case the corpus holds — and it is the friction
 half of [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. This is a **distinction** from the
@@ -365,13 +373,13 @@ randomised *nutrient* exchange).
 **The fat-vs-fatty-acid move (Test 3 at the nutrient level).** Astrup distinguishes a *saturated fat*
 (a food) from *saturated fatty acids* (chemical structures): a saturated fat is a complex mixture of all
 major SFAs in differing proportions plus odd-/branched-chain SFAs, unsaturated fatty acids, and
-non-fatty-acid components [EXTRACTED (Astrup - Saturated Fats Reassessment 2020) chunk 01] — so "the
+non-fatty-acid components [EXTRACTED @astrup2020 chunk 01] — so "the
 healthfulness of fats is not a simple function of their SFA content, but rather is a result of the
 various components in the food, often referred to as the 'food matrix.'" The
 SFA label groups foods whose within-category variance (short/medium/long-chain profile, matrix, carrier
 nutrients) plausibly swamps the between-category "SFA" contrast — this page's opening variance argument,
 applied to a macronutrient.
-[EXTRACTED (Astrup - Saturated Fats Reassessment 2020) chunk 01, From Single Nutrients to Whole Foods]
+[EXTRACTED @astrup2020 chunk 01, From Single Nutrients to Whole Foods]
 
 **Named instances where the boundary carries signal the SFA label suppresses:**
 
@@ -379,9 +387,9 @@ applied to a macronutrient.
 |---|---|---|---|
 | Cheese, yogurt | "yogurt intakes are inversely associated with CVD risk"; whole-fat dairy may protect vs T2D | harm (SFA-rich) | **matrix beats nutrient** |
 | Dark chocolate | stearic acid (18:0) neutral; other constituents plausibly beneficial | harm | matrix beats nutrient |
-| Unprocessed vs processed meat | processed meat associates with CHD/T2D, unprocessed red meat does not — "the SFA content of meat is unlikely to be responsible for this association" | same harm (SFA common to both) | **the split is NOT the SFA** |
+| Unprocessed vs processed meat | processed meat associates with CHD/T2D, unprocessed red meat does not — «the SFA content of meat is unlikely to be responsible for this association» | same harm (SFA common to both) | **the split is NOT the SFA** |
 
-[EXTRACTED (Astrup - Saturated Fats Reassessment 2020) chunk 01, Health Effects of Differing Food Sources]
+[EXTRACTED @astrup2020 chunk 01, Health Effects of Differing Food Sources]
 
 **The processed/unprocessed meat row is the cleanest Test-3 instance:** the fatty-acid content is shared
 across the boundary while the risk is not, so whatever carries the risk, it is not the SFA — the
@@ -389,11 +397,37 @@ category "saturated fat" is the wrong exposure and the sub-structure (processing
 lives. This aligns with [[Should Adults Reduce Red and Processed Meat]] (processed vs unprocessed is
 load-bearing) and with the trans-fat *processing* story on the SFA page.
 
+## "Organic" as a label that tracks the feed, not the certificate `[2026-07-29]`
+
+The diagnostic usually asks whether a *food* boundary hides heterogeneity. The organic label is the same
+structure at the **production** level: "organic" is a certification bundle, and the question is whether
+the certificate or an underlying exposure it only partly captures carries the compositional signal.
+-> [[Organic vs Conventional Food]]
+
+The animal-product case answers cleanly, because both meta-analyses attribute the difference to **feed**,
+not certification, in their own voice. Organic milk and meat carry higher n-3 PUFA and CLA (milk n-3
++56%, CLA +41%; meat n-3 +47%), but [@srednickatober2016milk]
+finds "the higher grazing/conserved forage intakes in organic systems were the main reason for milk
+composition differences", and [@srednickatober2016meat] that
+"the high grazing/forage-based diets prescribed under organic farming standards may be the main reason
+for differences in FA profiles."
+[EXTRACTED @srednickatober2016milk chunk 01, Abstract]
+[EXTRACTED @srednickatober2016meat chunk 01, Abstract]
+
+**So the causal lever is grass vs grain, and "organic" is a partial proxy for it** — a pasture-raised
+*conventional* animal can beat an *organic grain-fed* one on the nutrient that reaches the product. This
+is Test 3 at the production level: the presumed mechanism (n-3/CLA) lives in the feed, so the category
+whose mechanism sits in a sub-component (here, forage intake) should be replaced by that sub-component
+(grass-fed / pasture) in any decision. The label and the exposure come apart.
+`[INFERRED (Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016;
+Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016) — the feed-vs-certificate reading applied
+as a Test-3 instance is this page's; the pasture-as-driver attribution is the sources' own]`
+
 **Two guards keep this honest (symmetric standards).**
 
 - **The observational-food evidence carries its own confounding**, exactly the trap this page's third
   case warns of: whole-fat-dairy consumers and unprocessed-meat-vs-processed-meat eaters differ
-  systematically (this is the [[NNR - Nordic Nutrition Recommendations 2023]] UPF-is-a-diet-quality-
+  systematically (this is the [@nnr2023] UPF-is-a-diet-quality-
   marker problem), so an inverse food association is not a clean matrix verdict.
 - **A favourable-to-whole-fat-dairy conclusion on partly dairy-funded authorship is a halo tell** — the
   matrix argument is admissible as a distinction (the nutrient does not predict the food), NOT yet as a
@@ -401,3 +435,5 @@ load-bearing) and with the trans-fat *processing* story on the SFA page.
   SFA, the foods diverge, so "saturated fat" is not one exposure.**
 `[INFERRED (Astrup - Saturated Fats Reassessment 2020) — the Test-3 reading and the guards are this
 page's; the food associations and the fat-vs-fatty-acid distinction are Astrup's]`
+
+## References

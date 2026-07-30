@@ -32,7 +32,7 @@ supplemented with extra-virgin olive oil or nuts, vs advice to reduce fat, cut t
 
 - **Combined MedDiet primary composite HR 0.70 (0.55-0.89)** — «a relative difference of 30% and an
   absolute difference of 1.7 to 2.1 percentage points» over 5 yr (5-yr absolute risk 3.8% vs 5.7%).
-  [EXTRACTED (Estruch - PREDIMED Mediterranean Diet 2018) chunk 01]
+  [EXTRACTED @estruch2018 chunk 01]
 - **The composite is carried by STROKE — HR 0.58 (0.42-0.82).** MI (0.80) and CV death (0.80) are
   individually **non-significant**, and **all-cause mortality is NULL — 0.98 (0.77-1.24).** So the
   honest claim is *the pattern reduced (mostly) stroke events in high-risk primary prevention over ~5
@@ -121,3 +121,5 @@ contrast (type-A synthesis), not a head-to-head.
   observational corroboration is flagged as non-independent.
 - **Symmetric standards:** the retraction/reanalysis discount is applied to a *favourable* result — the
   exact case where motivated reasoning would wave it through.
+
+## References

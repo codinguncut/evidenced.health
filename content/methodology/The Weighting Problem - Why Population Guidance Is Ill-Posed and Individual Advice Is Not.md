@@ -17,7 +17,7 @@ created: 2026-07-27
 updated: 2026-07-27
 ---
 
-**Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's
+**Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [EXTRACTED @grade]
 four-determinant structure and this wiki's own telos. Tagged `[INFERRED]` throughout; the two
 `[EXTRACTED]` anchors are marked.
 
@@ -176,7 +176,7 @@ claim rather than a method.
 
 ## The real failure is not the missing weight — it is the missing COORDINATE
 
-[[NNR - Nordic Nutrition Recommendations 2023]] is the first worked case the wiki holds, and it
+[@nnr2023] is the first worked case the wiki holds, and it
 exposes a distinction this page needed.
 
 **NNR publishes one axis quantified and the other not.** Health: 350 g red meat/week, 300-450 g
@@ -258,3 +258,5 @@ currently tell those apart, and the distinction matters for whether this is a fa
 - Non-health axes are asserted qualitatively in the tables above (*poor / good*) from general
   knowledge, **not from held sources**. They illustrate the structure; they are not claims the wiki
   can defend, and should not be cited as such.
+
+## References

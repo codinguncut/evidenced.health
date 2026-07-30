@@ -2,8 +2,8 @@
 type: framework
 question: Does intentional weight loss via lifestyle reduce hard cardiovascular events?
 aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle Intervention, Weight Loss Hard Outcomes, Does Losing Weight Prevent Heart Attacks]
-authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M]
-sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018]
+authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ]
+sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -15,7 +15,7 @@ relationships:
     - Surrogate Outcomes
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-28
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-28
 ---
 
@@ -71,7 +71,7 @@ background cardiovascular care had improved since the trial was designed.
 ## The surrogates moved — inflammation included — and the events still didn't
 
 Look AHEAD is a clean worked case of the surrogate-versus-outcome disconnect. A Look AHEAD substudy
-(Belalcazar 2013, published *two months before* the primary result) showed the intervention drove a large
+(Belalcazar 2013, published *two months before* the primary result) [EXTRACTED @belalcazar2013] showed the intervention drove a large
 drop in C-reactive protein — «ILI and statin therapy may have substantial additive anti-inflammatory
 benefits»: CRP fell «−44.9 and −42.3 %» (men, women on statins + ILI) vs «−13.7 and −21.0 %» on statins
 with usual care, and «Weight loss was significantly associated with a reduction in CRP levels in both
@@ -102,7 +102,7 @@ benefit of weight loss is unproven by the lifestyle route (Look AHEAD) and prove
 secondary-prevention obesity by the drug route (SELECT)** — neither establishes that shedding weight, by
 itself, prevents events in a low-risk person.
 
-## Ma 2017 — the meta-analysis generalizes the test: CV-null holds, all-cause mortality falls (non-CV)
+## Ma 2017 — the meta-analysis generalizes the test [EXTRACTED @ma2017]: CV-null holds, all-cause mortality falls (non-CV)
 
 Look AHEAD is one (large, important) trial in one population. **The higher-tier evidence on the mortality
 question is the meta-analysis** — Ma et al. 2017 (BMJ) pools **54 RCTs, 30,206 obese adults** (mostly
@@ -170,13 +170,12 @@ Effects Lifestyle T2D 2013) — cross-trial contrast, populations differ]`
   confirmed greater HbA1c reduction, fitness, and risk-factor improvement; the wiki holds its benefits
   for glycemic control, diabetes prevention/remission, MASLD ([[Fatty Liver MASLD and Weight Loss]]),
   function and quality of life. The lever is real. **DiRECT is the sharpest worked case**: an
-  energy-restricted TDR programme put **46% of short-duration T2D patients into remission** (off drugs)
+  energy-restricted TDR programme put **46% of short-duration T2D patients into remission** (off drugs)  [EXTRACTED @lean2018 chunk 01]
   with a monotone remission-by-weight-loss gradient — a patient-important benefit weight loss plainly
   moves, set against the CV-event null here -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 - **The >=10%-responder CV signal has a second mention.** DiRECT independently cites the Look AHEAD
   post-hoc — "a 10% weight loss in the first year... associated with a 21% decrease in occurrence of
-  cardiovascular outcomes over a median follow-up of 10.2 years" [EXTRACTED (Lean - DiRECT T2D
-  Remission 2018) Discussion] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
+  cardiovascular outcomes over a median follow-up of 10.2 years" [EXTRACTED @lean2018 Discussion] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
   mention (DiRECT reports, does not re-derive it), so the primary post-hoc paper is still AWAITED; but
   two independent trials now point to the same >=10% dose threshold for a CV benefit.
 - **Do not oversell a cardiovascular-event reduction the largest trial failed to show.** For a person
@@ -185,6 +184,11 @@ Effects Lifestyle T2D 2013) — cross-trial contrast, populations differ]`
   unproven via this route ([[Layer 1 - Ranking Interventions for a Stratum]]).
 - **Dose and sustainability matter more than the label.** The ITT delivered ~2.5 points; the post-hoc
   signal lived at ≥10%. A larger, *sustained* loss is a different exposure than the trial's average.
+- **And the delivery vehicle matters — some popular ones don't even deliver the weight.** Time-restricted
+  eating is a case in point: in the one adequately-powered free-living RCT it produced **no weight
+  advantage** over normal eating (and lost disproportionate muscle) -> [[Time-Restricted Eating]]. So a
+  protocol that is *marketed* as a weight lever may deliver neither the weight loss nor (per this page)
+  the CV benefit that weight loss itself does not reliably confer via the lifestyle route.
 - **Absolute benefit still scales with baseline risk** ([[Baseline Risk and the Relative-Absolute Split]])
   — even if a true small CV effect exists, it is smallest exactly where risk is lowest.
 
@@ -199,3 +203,5 @@ Effects Lifestyle T2D 2013) — cross-trial contrast, populations differ]`
 - **ITT with arm convergence** and a **mid-trial endpoint change**; powered for a large (18%) effect.
 - The single-trial gap is **cashed**: the weight-loss-on-mortality SR/MA (Ma 2017 BMJ, 54 RCTs) is now
   held and woven above — the CV-null generalizes, all-cause mortality falls (non-CV).
+
+## References

@@ -87,8 +87,12 @@ plugins:
       renderEngine: katex
     order: 80
   - source: "@quartz-community/citations"
-    enabled: false
+    enabled: true
     order: 85
+    options:
+      bibliographyFile: ./content/bibliography.bib
+      csl: apa
+      linkCitations: true
   - source: "@quartz-community/hard-line-breaks"
     enabled: false
     order: 90
@@ -246,7 +250,7 @@ plugins:
       includedProperties:
         - sources
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

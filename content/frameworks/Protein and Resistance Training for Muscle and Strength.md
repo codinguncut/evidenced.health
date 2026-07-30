@@ -2,8 +2,8 @@
 type: framework
 question: Does protein supplementation add to resistance training for muscle and strength, how much protein, and for whom?
 aliases: [Protein Supplementation, Protein and Resistance Training, Protein Intake Muscle, 1.6 g/kg Protein, Protein Break Point, Muscle Protein]
-authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M]
-sources: [Morton - Protein Supplementation and Resistance Training 2018]
+authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org)]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013]
 cluster: activity
 confidence: medium
 relationships:
@@ -14,7 +14,7 @@ relationships:
     - Surrogate Outcomes
     - Protein Quality and the DIAAS Score
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -72,7 +72,7 @@ monotone. A saturating supply (protein → synthesis) plateaus; a risk-reduction
 ## The surrogate boundary — this is the mechanism, not the outcome
 
 Muscle mass and strength are **surrogates** ([[Surrogate Outcomes]]), not patient-important endpoints.
-Morton is the *mechanism* half of the resistance-training story — RT (plus adequate protein) builds
+Morton [EXTRACTED @morton2018] is the *mechanism* half of the resistance-training story — RT (plus adequate protein) builds
 muscle, RCT-grade — while [[Muscle-Strengthening Activity and Mortality]] is the *outcome* half — strength
 activity associates with lower mortality, observational-grade. **Neither shows that protein
 supplementation reduces mortality**; the composite is "RT builds muscle (proven) and strength associates
@@ -87,7 +87,7 @@ surrogate is not worthless, it is just not the mortality endpoint.
   g/kg are close, so the move is topping up, not loading.
   - **The target is protein *quantity*, and it silently assumes quality.** Morton's trials were mostly
     high-quality supplemental protein (whey). Hitting ~1.6 g/kg from low-DIAAS plant sources (peas 64,
-    wheat 40 vs milk 122) delivers fewer digestible indispensable amino acids per gram, so it needs more
+    wheat 40 vs milk 122) delivers fewer digestible indispensable amino acids per gram, so it needs more  [EXTRACTED @fao2013 chunk 02]
     grams — hence more food mass — or deliberate complementation to be equivalent
     -> [[Protein Quality and the DIAAS Score]]. This is a source caveat on the number, not a change to it.
 - **The training is the lever; protein is the adjunct.** Do not expect protein alone (without the
@@ -97,6 +97,12 @@ surrogate is not worthless, it is just not the mortality endpoint.
 - **During weight loss, adequate protein + resistance training is how you keep lean mass** while losing
   fat (the fat-mass fell and lean mass rose here) — the practical reason it belongs in a weight-loss
   program, not just a strength one.
+  - **A worked failure of exactly this:** in the TREAT time-restricted-eating trial, a self-selected
+    16:8 window (no protein guidance) lost weight that was «approximately 65% ... lean mass» vs a normal
+    20-30% — the authors attribute it to a short ad-libitum window cutting protein intake (protein is
+    eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
+    -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
+    the window. [EXTRACTED @lowe2020 chunk 01]
 
 ## Limits
 
@@ -107,3 +113,5 @@ surrogate is not worthless, it is just not the mortality endpoint.
 - **The plateau CI is wide** (1.03-2.20); the fibre-CSA effect is fragile; healthy adults only.
 - One meta-analysis; the moderator model overall explained little variance, so age/training effects are
   subgroup signals, not a full explanation.
+
+## References

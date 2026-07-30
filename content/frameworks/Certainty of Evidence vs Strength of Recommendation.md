@@ -2,10 +2,10 @@
 type: framework
 question: Does knowing how good the evidence is tell you how strongly to recommend something?
 aliases: [Quality of Evidence vs Strength of Recommendation, Certainty vs Strength, The GRADE Separation, Strong vs Weak Recommendation, Conditional Recommendation]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org); Valli, Claudia; Johnston, Bradley C]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015, Valli - Values and Preferences Meat 2019, NutriRECS - Red and Processed Meat Recommendations 2019]
 cluster: evidence-appraisal
-self_critiqued: 2026-07-28
+self_critiqued: 2026-07-29
 nucleus: true
 relationships:
   related_to:
@@ -14,13 +14,13 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-28
+updated: 2026-07-30
 ---
 
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
 strongly you should recommend acting on it are **two separate judgments**, and neither determines the
 other. GRADE calls the separation "the defining feature" of its approach and attributes the confusion
-in earlier grading systems to their failure to make it. [EXTRACTED (GRADE - Handbook) §1.2]
+in earlier grading systems to their failure to make it. [EXTRACTED @grade §1.2]
 
 ## Ordinary framing
 
@@ -37,13 +37,13 @@ off-diagonal cases are **not symmetric**, and the page must not flatten them:
 
 - **High certainty -> weak (conditional) recommendation** is *common*: panels facing important
   variability in values and preferences "are likely to offer a weak recommendation despite high
-  quality evidence." [EXTRACTED (GRADE - Handbook) §1.2]
+  quality evidence." [EXTRACTED @grade §1.2]
 - **Low or very low certainty -> strong recommendation** is **allowed but rare.** GRADE "allows for"
   it where *"the benefits **of antibiotic therapy** clearly outweigh the downsides in most patients
   independent of the quality assessment"* — a clause about one worked example, not a general licensing
   condition — while separately *discouraging* panels from making strong recommendations on
   low or very low confidence, confining the legitimate cases to a small set of paradigmatic
-  situations. [EXTRACTED (GRADE - Handbook) §1.2, §6.3.2]
+  situations. [EXTRACTED @grade §1.2, §6.3.2]
 
 ## Mechanism — what drives strength once certainty is fixed
 
@@ -51,7 +51,7 @@ Strength is set by the balance of desirable and undesirable consequences, the **
 and preferences** among those affected, and resource use. Where patients with differing values would
 predictably make different choices, panels are **likely to** offer a weak recommendation even on high
 quality evidence — because a strong recommendation asserts that most or all would choose the same
-way. [EXTRACTED (GRADE - Handbook) §1.2]
+way. [EXTRACTED @grade §1.2]
 
 Worked cases the handbook gives:
 
@@ -65,7 +65,7 @@ Worked cases the handbook gives:
 - *Low certainty, strong recommendation (GRADE's counterfactual illustration, not a reported case).*
   Rapid antibiotics in severe infection or sepsis has never been randomized against delay; on
   observational evidence rated low, panels "would be very likely to" make a strong recommendation.
-  [EXTRACTED (GRADE - Handbook) §1.2]
+  [EXTRACTED @grade §1.2]
 
 ## Decision relevance
 
@@ -87,7 +87,7 @@ Strength is "the extent to which a guideline panel is confident that desirable e
 intervention outweigh undesirable effects, or vice versa, **across the range of patients for whom the
 recommendation is intended**." Four factors drive direction and strength: the **balance of desirable
 and undesirable consequences**, **certainty in the effect estimates**, **confidence in values and
-preferences**, and **resource use**. [EXTRACTED (GRADE - Handbook) §6.1, §6.2]
+preferences**, and **resource use**. [EXTRACTED @grade §6.1, §6.2]
 
 - **Strong** — the panel is confident the desirable effects outweigh the undesirable (or the
   reverse); "most or all individuals will be best served by the recommended course of action."
@@ -96,19 +96,19 @@ preferences**, and **resource use**. [EXTRACTED (GRADE - Handbook) §6.1, §6.2]
   preferences need more careful weighing than usual.
 - **Default under uncertainty is weak:** where the panel is unsure whether the balance is clear, or
   the information bearing on the four factors is unavailable, "it would opt to make a weak
-  recommendation." [EXTRACTED (GRADE - Handbook) §6.1, §6.1.1, §6.1.2]
+  recommendation." [EXTRACTED @grade §6.1, §6.1.1, §6.1.2]
 
 On the balance itself: large relative effects **pointing the same way** favour a strong
 recommendation; large desirable effects accompanied by large undesirable ones favour a weak one.
 Large **absolute** effects favour strength more than small ones — and since baseline risk drives
 absolute effect, "the strength of recommendations and its direction will likely differ in high- and
 low-risk groups" ([[Baseline Risk and the Relative-Absolute Split]]).
-[EXTRACTED (GRADE - Handbook) §6.2.1.1]
+[EXTRACTED @grade §6.2.1.1]
 
 ### Two cautions GRADE states about its own output
 
 - **"Strong recommendations are not necessarily high priority recommendations."**
-  [EXTRACTED (GRADE - Handbook) §6.1.1] Strength expresses confidence in the *direction of net
+  [EXTRACTED @grade §6.1.1] Strength expresses confidence in the *direction of net
   benefit*, not the *size* of the benefit or its rank against other things a person could do. An
   intervention hierarchy therefore cannot be read off recommendation strength — a confidently-correct
   small effect and a confidently-correct large one are both "strong."
@@ -119,7 +119,7 @@ low-risk groups" ([[Baseline Risk and the Relative-Absolute Split]]).
   following some strong recommendations based on the high quality evidence will be a mistake for some
   patients," because no guideline "can take into account all of the often compelling unique features
   of individual patients." Applying recommendations "by rote or in a blanket fashion" is explicitly
-  disclaimed. [EXTRACTED (GRADE - Handbook) §6.1]
+  disclaimed. [EXTRACTED @grade §6.1]
 
 ## Applied — WHO SFA 2023, and how the four determinants show up in a real rationale
 
@@ -137,7 +137,7 @@ linkage cleanly ([[Saturated Fat Intake and Replacement]]):
 recording that "**no undesirable effects or other mitigating factors were identified** that would
 argue against" it — so the conditionality is not a balance judgment at all. It is driven by certainty
 alone: "a conservative approach was therefore taken, leading to a conditional recommendation."
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Rationale for SFA recommendations 1 and 2]
+[EXTRACTED @who2023saturated Rationale for SFA recommendations 1 and 2]
 
 - **CORRECTED 2026-07-26 — this is GRADE's default rule, not a new pattern.** It was previously
   written up here as a *fifth pattern alongside GRADE's own paradigm cases.* That claim is refuted by a
@@ -162,14 +162,14 @@ alone: "a conservative approach was therefore taken, leading to a conditional re
 - **GRADE does not remove judgment, and says so.** "Applying the GRADE approach does not minimize the
   importance of judgment or [suggest] that quality can always be objectively determined"; there will
   be cases of "legitimate disagreement about the interpretation of evidence." Its claim is that
-  judgments become *explicit rather than implicit*. [EXTRACTED (GRADE - Handbook) §1.1]
+  judgments become *explicit rather than implicit*. [EXTRACTED @grade §1.1]
 - The framework governs *guideline panels* offering "recommendations for the management of typical
-  patients." [EXTRACTED (GRADE - Handbook) §1.1] Carrying a strength rating to a specific individual
+  patients." [EXTRACTED @grade §1.1] Carrying a strength rating to a specific individual
   requires a transportability step the rating itself does not perform.
   [INFERRED (GRADE - Handbook) — entailment from the population-level framing.]
 - **Source currency:** this handbook (updated October 2013) is being phased out in favour of the
   GRADE Book (2024); §§1-3 are flagged in-source as already rewritten there.
-  [EXTRACTED (GRADE - Handbook) front matter]
+  [EXTRACTED @grade front matter]
 
 ## A real process where appraisal and recommendation are done by DIFFERENT PEOPLE `[2026-07-27]`
 
@@ -181,7 +181,7 @@ inherited feature, not a design it endorses:
 > process for developing *DGA* recommendations does not follow typical guidelines development
 > processes **because the experts assessing the evidence do not write the guidelines and
 > recommendations themselves**.»
-> [EXTRACTED (NASEM - Redesigning the DGA Process) ch.3, footnote 6]
+> [EXTRACTED @nasem ch.3, footnote 6]
 
 **Why this matters beyond the DGA.** The certainty/strength split is normally a *distinction within one
 panel's reasoning*; here it is a **handoff between two bodies**, which creates a failure mode the
@@ -191,7 +191,7 @@ because no one person owns both.
 **NASEM's response is not to close the seam but to make it auditable** — Recommendation 2 asks that
 *«the secretaries of USDA and HHS should provide the public with a clear explanation when the DGA omit
 or accept only parts of conclusions from the scientific report.»*
-[EXTRACTED (NASEM - Redesigning the DGA Process) ch.3]
+[EXTRACTED @nasem ch.3]
 
 **That the safeguard is *requested* is the finding.** A recommendation to explain departures implies
 departures occur and are not currently explained. **What this does NOT establish is that any specific
@@ -203,7 +203,7 @@ reading; NASEM assembles the parts without naming it]`
 
 ## A third axis the two-axis frame does not hold: how PRECISE is the number `[2026-07-28]`
 
-[[NNR - Nordic Nutrition Recommendations 2023]] attaches **no strength or certainty grade to any
+[@nnr2023] attaches **no strength or certainty grade to any
 recommendation it issues** — not one, across 374 pages.
 `[searched: "strong recommendation"/"conditional recommendation"/"GRADE approach"/"certainty of
 evidence" across all 10 NNR chunks — 1 hit total, and it is NNR describing WHO's grading of WHO's
@@ -216,7 +216,7 @@ NNR gives, which introduces a distinction this page did not hold:
 > foods and health outcomes can be stronger than for nutrients and health outcomes. As with DRVs, there
 > are seldom precise calculations behind the quantitative FBDGs. The precise FBDGs are based on best
 > scientific knowledge and most often decided as consensus among expert groups.»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 02]
+> [EXTRACTED @nnr2023 chunk 02]
 
 **Read the first clause before the third, because it reverses the obvious reading.** This is not a body
 confessing that its evidence is weak. NNR says the causal association behind a food-based guideline can
@@ -249,7 +249,7 @@ including its own; it is not conceding that any particular NNR number is arbitra
 grounds them in *«best scientific knowledge»*. **Consensus-derived is not evidence-free** — it is
 un-graded, which is a different and narrower claim.
 
-**Where this leaves the three ungraded bodies the wiki now holds.** SACN issues no strength axis; NASEM
+**Where this leaves the three ungraded bodies the wiki now holds.** SACN issues no strength axis [EXTRACTED @sacn2015]; NASEM
 wants GRADE's properties without the brand; NNR grades nothing and says why. **None of these is
 evidence for the others** — three bodies independently declining to grade is a fact about the field's
 norms, not a converging judgment about grading's value, and no `[E-independent]` is claimed.
@@ -300,9 +300,9 @@ finding about guideline-making.**
 | WHO Sugars 2015 | free sugars <10%E | **strong** | **moderate** (observational, caries) |
 | WHO Sugars 2015 | free sugars <5%E | conditional | **very low** (ecological) |
 
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) chunk 01 — «The overall certainty in the
+[EXTRACTED @who2023saturated chunk 01 — «The overall certainty in the
 evidence for recommendation 1 was moderate, and for recommendation 2 was very low»]
-[EXTRACTED (WHO - Sugars Intake 2015) Remarks, p.16]
+[EXTRACTED @who2015 Remarks, p.16]
 
 **Seven recommendations, seven diagonal cells, zero off-diagonal.** Strong pairs with moderate every
 time; conditional pairs with low or very low every time. **The case GRADE calls *common* — high
@@ -338,16 +338,38 @@ page's]`
 **A guideline whose recommendations vary in values/preferences should produce the off-diagonal** —
 screening decisions, drugs carrying burden or side-effects, interventions with real opportunity cost.
 `AWAITS` [[ADA-EASD - Nutrition Therapy for Diabetes 2019]] and
-[[NASEM - Clinical Practice Guidelines We Can Trust]]; **if either shows high-certainty conditional
+[@nasem2011]; **if either shows high-certainty conditional
 recommendations, this section's pattern is WHO-and-nutrition-specific and must be narrowed to say so.**
 Recorded as a prediction rather than a conclusion, because a 7-cell single-body sample is exactly the
 size at which a pattern is most tempting and least supported.
 
+### The prediction is partly met — NutriRECS, where VALUES set the strength `[2026-07-29]`
+
+The corpus now holds a non-WHO, non-nutrient-threshold graded recommendation, and it breaks the WHO-only
+monotone pattern in exactly the predicted way. NutriRECS 2019 issued a **weak** recommendation to continue
+red/processed meat — and the strength is driven not only by low certainty but explicitly by the  [EXTRACTED @nutrirecs2019 chunk 01]
+**values/preferences** determinant, which the WHO sample held constant. The engine is a dedicated
+systematic review of those values (Valli 2019): «omnivores are attached to meat and are unwilling to  [EXTRACTED @valli2019 chunk 01]
+change this behavior when faced with potentially undesirable health effects».
+[EXTRACTED @valli2019 chunk 01] NutriRECS combines that with a small,
+uncertain benefit to reach *weak* — and states it would stay weak even granting a small causal effect. So
+here the strength axis carries information the certainty axis does not: two of GRADE's other three
+determinants (balance of benefits/harms; variability in values) are doing visible work
+-> [[Should Adults Reduce Red and Processed Meat]].
+
+**This is still not the pure off-diagonal** (NutriRECS's certainty is also low, so certainty and strength
+remain aligned in *level*). What it establishes is subtler and more useful: the WHO monotone mapping was a
+property of *population nutrient thresholds with stable values*, not of guideline-making in general — as
+soon as a body reviews values explicitly and takes the individual-decision standpoint, the values
+determinant becomes the audible driver of strength. The reader-side problem sharpens: NutriRECS's *weak* is
+values-driven (more research will NOT move it; the reader's values decide), whereas WHO's *conditional* on
+free sugars <5%E is thinness-driven (more research could) — identical labels, opposite action-implications.
+
 ### Two bodies that do not have the axis at all
 
-- **[[SACN - Carbohydrates and Health 2015]] issues no strength axis whatsoever** — its bespoke
+- **[@sacn2015] issues no strength axis whatsoever** — its bespoke
   instrument grades evidence and stops, so the certainty/strength question cannot even be posed of it.
-- **[[WHO - Sodium Intake 2012]] issues strength without certainty** — every recommendation is
+- **WHO - Sodium Intake 2012 issues strength without certainty** [EXTRACTED @who2012] — every recommendation is
   «strong», the word *conditional* does not appear in the document, and **no certainty rating is
   attached to any recommendation line**. Certainty exists only in its per-outcome profiles.
 
@@ -378,3 +400,5 @@ generalise it.
 - **Residual:** the strongest unverified step is that WHO's five SFA strength ratings and two sugars
   ratings were each set independently. If a single committee applied one implicit rule across both,
   the seven cells are closer to one observation than to seven.
+
+## References

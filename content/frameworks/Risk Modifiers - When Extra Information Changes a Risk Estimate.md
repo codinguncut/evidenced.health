@@ -29,7 +29,7 @@ A risk model gives a number; a modifier is anything proposed to adjust it. ESC s
 >   how risk decreases if the modifier shows a favourable result**"*
 > - *"The literature on this potential modifier is not distorted by publication bias"*
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.3]
+[EXTRACTED @esc2021 3.3]
 
 **The fourth criterion is the one with an operating instruction attached** — a marker studied only in
 the direction of harm cannot be used to reassure: *"Care should be taken not to use risk modifiers
@@ -40,7 +40,7 @@ profile than would be expected based on other patient characteristics must have 
 resisted, because **ESC names criterion five**:
 *"Very few potential modifiers meet all of these criteria. Meta-analyses in this field are, for example,
 susceptible to substantial publication bias"* — and returns to publication bias twice more.
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.3]
+[EXTRACTED @esc2021 3.3]
 
 ## Three constraints that bound the whole idea
 
@@ -91,7 +91,7 @@ this section by salience rather than by class sends a reader to the weakest test
 | *"CAC scoring may be considered to improve risk classification around treatment decision thresholds. Plaque detection by carotid ultrasound is an alternative when CAC scoring is unavailable or not feasible."* | **IIb** | B |
 | Routine collection of other modifiers | **III** (not recommended) | B |
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.3, recommendation table]
+[EXTRACTED @esc2021 3.3, recommendation table]
 
 **"Should be considered" is IIa; "may be considered" is IIb.** The wording carries the class, and
 reading the class off the wording is the check that would have caught the error above.
@@ -106,7 +106,7 @@ reading the class off the wording is the check that would have caught the error 
 > - **Black Caribbean: x0.85**
 > - **Black African and Chinese: x0.7**
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.3]
+[EXTRACTED @esc2021 3.3]
 
 **This is the one place ESC says by how much**, and the multipliers are large enough to move someone
 across a threshold on their own — a 9% estimate becomes 15% for a Pakistani patient and 6% for a Black
@@ -126,7 +126,7 @@ in the section:
 > *"Although the associations of psychosocial stress with CV health are robust, **only 'vital
 > exhaustion' has been proven to improve risk reclassification**."*
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.3.1]
+[EXTRACTED @esc2021 3.3.1]
 
 **A robust association is not a reclassification.** That distinction is the whole point of the five
 criteria, stated by the source about its own second-highest-graded modifier.
@@ -143,7 +143,7 @@ criteria, stated by the source about its own second-highest-graded modifier.
 > same sex and age. Higher-than-expected CAC increases the person's calculated risk, whereas **absent or
 > lower-than-expected CAC is associated with lower than calculated risk**."*
 
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) 3.3.3.1]
+[EXTRACTED @esc2021 3.3.3.1]
 
 **The rule is AGE-RELATIVE; reading it as unconditional is an error.** The comparison is against *"what would be expected for a patient of the same
 sex and age"* — so **a zero score is informative only where a non-zero score was the expectation.**
@@ -219,7 +219,7 @@ This page records ESC's five criteria and its verdict that *«very few potential
 
 > «Multiplication of calculated total CVD risk by a factor of 1.5 should be considered in adults with
 > rheu- matoid arthritis.»  — **Class IIa, Level B**
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 03]
+> [EXTRACTED @esc2021 chunk 03]
 
 **Three things make this the useful worked case.**
 
@@ -240,3 +240,5 @@ This page records ESC's five criteria and its verdict that *«very few potential
 (*«Assessment of total CVD risk may be considered»*) — a recommendation to *assess*, not a multiplier.
 **The two should not be conflated:** rheumatoid arthritis gets a number, the broader category gets a
 prompt.
+
+## References

@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -22,7 +22,7 @@ Outcomes people care about are often rare or slow, so investigators measure some
 commoner instead — a marker standing in for the outcome. Substitution generally costs certainty, and
 GRADE **restricts its use** rather than merely asking that it be recorded: surrogates are for cases
 where evidence on population-important outcomes is lacking.
-[EXTRACTED (GRADE - Handbook) §3.4]
+[EXTRACTED @grade §3.4]
 
 ## The rule
 
@@ -37,7 +37,7 @@ GRADE's conditions, stated tightly:
 - Substituting "may ultimately lead to rating down the quality of the evidence because of the
   indirectness"; §5.2.3 puts it more firmly — "in general, the use of a surrogate outcome requires
   rating down ... by one, or even two, levels."
-  [EXTRACTED (GRADE - Handbook) §3.4, §5.2.3]
+  [EXTRACTED @grade §3.4, §5.2.3]
 
 ## How GRADE grades a surrogate — causal-pathway proximity
 
@@ -50,7 +50,7 @@ patient-important outcome.
 - **Close to the endpoint -> rate down one level.** Coronary artery calcification for myocardial
   infarction; bone mineral density for fractures; soft-tissue calcification for pain.
 - The judgment draws on "consideration of the biology, mechanism, and natural history of the
-  disease." [EXTRACTED (GRADE - Handbook) §5.2.3]
+  disease." [EXTRACTED @grade §5.2.3]
 
 So a marker's standing is not binary. *How far down the chain* it sits is the question, and it is
 answered biologically rather than statistically.
@@ -67,7 +67,7 @@ a **validation** criterion, addressing whether the surrogate *predicts* the outc
 > overall survival using progression-free survival remained uncertain**. Rating down quality by one
 > level for indirectness would be appropriate in this situation."*
 
-[EXTRACTED (GRADE - Handbook) §5.2.3, Example 9]
+[EXTRACTED @grade §5.2.3, Example 9]
 
 **This is the criterion that does the work the proximity rule cannot.** A significant marker-outcome
 association was *not* sufficient — what GRADE asks is whether the outcome can be **predicted** from the
@@ -135,7 +135,7 @@ reasons: while LDL "is a well-established biomarker for measuring the effects of
 considered by many to be a causal factor for atherosclerosis and coronary heart disease, **it is not
 a physical manifestation or confirmation of disease. Therefore, a conservative approach was taken,
 leading to a conditional recommendation.**"
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Rationale for TFA recommendation 3]
+[EXTRACTED @who2023saturated Rationale for TFA recommendation 3]
 
 Two things worth carrying:
 
@@ -146,7 +146,7 @@ Two things worth carrying:
   as a *critical* outcome and states it *"was not downgraded for indirectness when determining the
   certainty in the evidence within the GRADE framework"*. The surrogate discount was taken at the
   **strength** step instead.
-  [EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6 footnotes; Summary of evidence]
+  [EXTRACTED @who2023saturated Annex 6 footnotes; Summary of evidence]
   - **WHO's warrant is the MARKER-to-OUTCOME link, not the exposure-to-marker one**, and the direction
     matters because it is what criterion 2 above asks for. Annex 6 fn 14: *"LDL cholesterol is an
     indirect measure of patient-important CVD outcomes. However, LDL cholesterol is a well-established
@@ -179,7 +179,7 @@ A scoped observation, worth carrying because it is visible only in the annex. In
 for replacing SFA with PUFA, **every disease outcome is rated Low or Very low, and the one High-certainty
 row in the profile is LDL cholesterol** (-0.055 mmol/L per 1% energy exchange; all-cause mortality Low,
 CVD mortality Very low, CVDs Low, CHD Low, stroke Low, type 2 diabetes Very low).
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6, evidence profile 5]
+[EXTRACTED @who2023saturated Annex 6, evidence profile 5]
 
 **The disciplined reading, and the trap beside it.** The useful habit is to *ask which outcome carried a
 headline certainty label*. The trap is to answer that question from the profile alone: WHO states
@@ -188,7 +188,7 @@ moderate rating for the PUFA replacement from an RCT subgroup analysis (Hooper) 
 profile. A first attempt at this page's neighbourhood asserted the surrogate had silently carried the
 roll-up; **a blind critique falsified it against that sentence, and the claim is withdrawn.** What
 survives is the observation above and the habit -- not an allegation.
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Summary of evidence]
+[EXTRACTED @who2023saturated Summary of evidence]
 
 ## Limits
 
@@ -210,7 +210,7 @@ objection about how nutrition guidance has historically been built:
 > outcome. While these can be important, such studies examine the effect of the dietary factor through
 > a very narrow window because they do not consider the many pathways by which a dietary factor can
 > influence health and the many steps in a pathway from dietary intake to occurrence of disease.»
-> [EXTRACTED (Willett - Nutritional Epidemiology 3e) chunk 21]
+> [EXTRACTED @willett chunk 21]
 
 **Note the concessive clause — «While these can be important» — is Willett's, not a hedge added here.**
 He is not rejecting feeding studies; he is bounding what a single physiological endpoint can carry.
@@ -236,7 +236,7 @@ point above stands on its own reasoning and does not depend on that claim being 
 
 The telos distinguishes a **surrogate** (stands in for an outcome *in the evidence*) from a **target**
 (something to steer toward), and licenses a target **only if its causal transmission to a named
-patient-important outcome is itself an evidenced claim**. [[ESC - CVD Prevention Guidelines 2021]]
+patient-important outcome is itself an evidenced claim**. [@esc2021]
 makes exactly that argument for LDL-C, and its structure is worth extracting whatever one concludes
 about the conclusion.
 
@@ -248,7 +248,7 @@ Then the load-bearing attribute:
 
 > «The relative reduction in CVD risk is proportional to the absolute size of the change in LDL-C,
 > irrespective of the drug(s) used to achieve such change.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 02]
+> [EXTRACTED @esc2021 chunk 02]
 
 **Why *«irrespective of the drug»* is the whole argument.** A marker is a mere surrogate when the
 benefit might belong to the *intervention* rather than to the marker's movement. **If several drugs
@@ -292,7 +292,7 @@ WHO's SFA Annex 6 grades every outcome for one exposure. **The ordering is the f
 | CVD / CHD mortality, type 2 diabetes | Low |
 | Stroke, CHD events | Very low |
 
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6, pp.79-80]
+[EXTRACTED @who2023saturated Annex 6, pp.79-80]
 
 **The best-known quantity is the one nobody cares about directly**, and the outcomes a person would
 actually choose on are known least well. **This is not a defect in WHO's grading** — it reflects that
@@ -325,7 +325,7 @@ opposite move by the same body: a moving surrogate WHO refused to bank. In the N
 **body weight** falls (MD -0.71 kg pooled), yet WHO ruled that «evidence of minor weight loss or reduced
 BMI over several months or less … does not represent a health benefit», because weight «must be sustained
 over the long term» to matter — and the long-term cohorts point the other way.
-[EXTRACTED (WHO - Non-Sugar Sweeteners 2023) chunk 01]
+[EXTRACTED @who2023nonsugar chunk 01]
 
 **The same second-criterion test, opposite verdict — read through this page's lens.** This page's
 load-bearing test (Example 9) is whether the outcome can be *predicted* from the surrogate — whether the
@@ -349,3 +349,41 @@ while the hard-outcome cohorts moved the other way** (weight down in RCTs; obesi
 associations up in cohorts). That is the textbook *marker moved the right way while patients did worse*
 warning made concrete — and it is why a moving surrogate is bankable only when transmission is shown, not
 assumed. The cohort direction is itself unadjudicated (-> [[The U-Shaped Association Artifact]]).
+
+## Pesticide-residue level as a surrogate for harm `[2026-07-29, organic-food cluster]`
+
+The organic-food case is this page's rule applied to a *contaminant* marker rather than a physiological
+one. Organic produce carries measurably fewer synthetic-pesticide residues — Smith-Spangler - Organic
+Foods Safer or Healthier Systematic Review 2012 found a residue-contamination risk difference of 30%,
+and Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014 [EXTRACTED @baranski2014] a fourfold higher residue
+incidence in conventional crops. **But residue *presence* is a surrogate, and the patient-important
+outcome is harm at real-world exposure.** Smith-Spangler supplies the transmission gap directly:
+«differences in risk for exceeding maximum allowed limits were small.»
+[EXTRACTED @smithspangler2012 chunk 01]
+
+**When both arms sit largely below the regulatory limit, a difference in detectable residues does not
+transmit to a difference in harm** — the marker moved, but the chain to the outcome is unevidenced at
+those levels (the expectancy test: decades of residue-difference data, still no outcome trial). Organic's
+residue advantage is real and is a legitimate *reason to prefer it* on a precautionary axis, but it is
+**not** a demonstrated health benefit — the same discipline this page asks of LDL and of short-term
+weight. -> [[Organic vs Conventional Food]]
+
+## Meal-timing that moves markers but nothing patient-important `[2026-07-29, Sutton eTRF]`
+
+The eTRF trial ([[Time-Restricted Eating]]) is a clean worked case of surrogates moving with **no weight
+change and no hard outcome**. Under supervised, weight-matched controlled feeding, shifting eating earlier
+lowered morning systolic/diastolic BP «by 11 ± 4 mm Hg ... and 10 ± 4 mm Hg», cut mean insulin
+«by 26 ± 9 mU/L», improved insulin resistance «by 36 ± 10 U/mg (p = 0.005)», and reduced an oxidative-
+stress marker — while fasting **glucose** (the trial's *primary* endpoint) was null.
+[EXTRACTED @sutton2018 chunk 01]
+
+**Everything credited to eTRF is a surrogate, and the transmission to a patient-important outcome is
+unevidenced here** (n=8, 5 weeks, prediabetic men, no events, no trajectory). Worse for the marker story,
+two surrogates moved in *opposite* directions — insulin/BP improved while **fasting triglycerides rose
+57 ± 13 mg/dL** — and the trial cannot say which, if any, tracks the outcome a person cares about. So
+eTRF's numbers are a legitimate *target* candidate only if the marker->outcome chain is later shown to
+transmit; on this evidence they are markers, not a benefit. Note the direction-of-effect asymmetry: a
+short-fast-before-testing artifact plausibly manufactured the triglyceride rise, which is exactly why a
+single marker in isolation is not diagnostic.
+
+## References

@@ -13,7 +13,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Alcohol and Mortality and Vascular Disease
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -26,7 +26,7 @@ a function of age. It is the exposure against which every nutrition lever in thi
 
 - **Current smokers die at about three times the rate of never-smokers:** all-cause HR **3.0 (99% CI
   2.7-3.3) for women, 2.8 (2.4-3.1) for men**, adjusted for age, education, alcohol, and adiposity.
-  [EXTRACTED (Jha - Smoking Hazards Cessation Benefits 2013) chunk 01]
+  [EXTRACTED @jha2013 chunk 01]
 - **At least a decade of life lost** — «Life expectancy was shortened by more than 10 years» (~11 in
   women, ~12 in men). Survival to age 80 roughly halves: women 70% (never) vs 38% (current); men 61% vs
   26%.
@@ -53,7 +53,7 @@ The benefit of quitting is large and depends heavily on *when*:
 
 - **Cessation before ~40 removes about 90% of the excess risk** of death from continued smoking —
   «Cessation before the age of 40 years reduces the risk of death associated with continued smoking by
-  about 90%.» [EXTRACTED (Jha - Smoking Hazards Cessation Benefits 2013) chunk 01]
+  about 90%.» [EXTRACTED @jha2013 chunk 01]
 - **But it is not a clean reset — the "safe to smoke until 40" misread.** Quitting by ~39 still left a
   **~20% excess risk (HR 1.2)**: «about one in six of these former smokers who dies before the age of 80
   years would not have died» had they never smoked. So *earlier is strictly better*, and "quit by 40" is
@@ -107,3 +107,5 @@ survives the conservative handling.
   the surviving benefit is conservative — not laundered.
 - **Scope discipline:** kept to mortality/life-expectancy (what Jha measures); did not import cessation
   *methods* (pharmacotherapy, behavioural support) — a prescriber act and a different question.
+
+## References

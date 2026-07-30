@@ -25,7 +25,7 @@ then an explicit floor:** evidence tables *"**should** be used as the basis for 
 methods that were used... should be clearly described."* Only the evidence-profile clause is an
 aspiration; the surrounding requirement binds. It exists because "modified" variants proliferate —
 the Working Group "discourage[s] the use of 'modified' GRADE approaches that differ substantially
-from the approach described." [EXTRACTED (GRADE - Handbook) §8]
+from the approach described." [EXTRACTED @grade §8]
 
 This turns a vague suspicion (*this guideline seems under-argued*) into a **specific, auditable
 finding** — which is the standard a process-defect claim has to meet before it can be used to
@@ -50,7 +50,7 @@ discount a recommendation.
 6. **Two strength categories** (strong / weak, or conditional for weak), with interpretation and
    implications preserved even if wording differs.
 7. **Judgments about strength transparently reported.**
-   [EXTRACTED (GRADE - Handbook) §8]
+   [EXTRACTED @grade §8]
 
 ## Red flags
 
@@ -124,7 +124,7 @@ fatty acids. Upgraded once»), and **residual confounding** (8 occurrences).
 `[searched with bin/srcgrep.py, which folds dash/ligature/line-break variance: "dose-response",
 "magnitude of effect", "plausible confounding", "residual confounding", "large effect" across all 7
 files of the source]`
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) chunk 05]
+[EXTRACTED @who2023saturated chunk 05]
 
 > **Two false absences, from one cause, recorded because the pattern matters more than the cell.**
 > **(1)** `dose-response` searched with a hyphen returned **zero**; WHO writes it with an **en-dash**,
@@ -157,7 +157,7 @@ for how the domains were combined.** WHO issued a **strong** recommendation on S
 | Feasibility | **Probably yes** |
 | Cost-effectiveness | **Don't know** |
 
-[EXTRACTED (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 7]
+[EXTRACTED @who2023saturated Annex 7]
 
 **Two unfavourable-or-unknown non-health domains did not prevent a strong recommendation, and nothing
 states why.** The *Balance* judgement's own justification text argues from cardiovascular benefit,
@@ -177,3 +177,5 @@ WHO's and the criteria are GRADE's; the observation that the gap sits in the ins
 disclosed and weights are not*. **This case supports the description and reassigns the cause:** the
 absent weight is what the instrument asks for, not what a body chose to withhold. Handle: the
 weighting `[PRIOR]` in CLAUDE.md.
+
+## References

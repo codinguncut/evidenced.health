@@ -2,8 +2,8 @@
 type: methodology
 question: For this stratum, what is the largest remediable gap — and can the wiki rank anything yet?
 aliases: [Layer 1 Hierarchy, Intervention Hierarchy, Ranking Interventions, Largest Remediable Gap, What Can Be Ranked]
-authors: [Nordic Council of Ministers (org); European Society of Cardiology (org)]
-sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021]
+authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat]
+sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013]
 cluster: decision-hub
 relationships:
   related_to:
@@ -11,7 +11,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-26
-updated: 2026-07-28
+updated: 2026-07-30
 self_critiqued: 2026-07-28
 ---
 
@@ -48,7 +48,7 @@ baseline risk. Of eight exposures below, **one** has an absolute effect on a har
 
 | Exposure | Effect | Outcome type | Certainty | Source page |
 |---|---|---|---|---|
-| **Quit smoking (vs continue)** | **all-cause HR ~3.0; ~10 yr of life recovered if quit by 40 (removes ~90% of excess risk); still pays at any age** | **hard, mortality** | **High** | [[Smoking and Mortality]] |
+| **Quit smoking (vs continue)** | **all-cause HR ~3.0; ~10 yr of life recovered if quit by 40 (removes ~90% of excess risk); still pays at any age** | **hard, mortality** | **High** | [[Smoking and Mortality]] |  [EXTRACTED @jha2013 chunk 01]
 | **Reduce SFA to 10%E** | **15 fewer CVD events per 1000** (RR 0.83, 0.70-0.98) | **hard, composite** | Moderate | [[Saturated Fat Intake and Replacement]] |
 | Replace SFA with PUFA | 50 fewer CVD per 1000 — **at a 23.8% control event rate** | hard, composite | Low | [[Saturated Fat Intake and Replacement]] |
 | Low-carb for T2D remission | RD 0.32 at 6 mo, **NNT ~3**; attenuates to 0.10 by 12 mo | intermediate (HbA1c-defined) | Moderate | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
@@ -149,7 +149,7 @@ large HR from cohorts does not outrank a smaller one from trials automatically.
 
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
-[[NNR - Nordic Nutrition Recommendations 2023]] is the first source the wiki holds that **publishes an
+[@nnr2023] is the first source the wiki holds that **publishes an
 explicit ordering of dietary risk factors** for a defined population, via its collaboration with the
 Global Burden of Disease project:
 
@@ -158,13 +158,13 @@ Global Burden of Disease project:
 > Baltic countries. Across all countries, low whole grains diets are responsible for one fifth of the
 > total burden of disease attributed to dietary factors and it is the greatest overall contributor to
 > ischemic heart disease and colon and rectum cancer (Knudsen et al, 2025).»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+> [EXTRACTED @nnr2023 chunk 06]
 
 > «Despite their conservative methodology, the collaboration between GBD and the NNR2023 project
 > observed that a diet high in red meat is the fourth-highest dietary risk factor for Disability
 > Adjusted Life Years (DALYs) in the Nordic and Baltic countries. It is ranked second highest in
 > Denmark and Iceland»
-> [EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+> [EXTRACTED @nnr2023 chunk 06]
 
 **This looks like exactly what this page says it lacks. It is not, and the difference is the point.**
 
@@ -207,7 +207,7 @@ there is a weak association between unprocessed red meat consumption and colorec
 cancer, ischemic heart disease and type 2 diabetes»*. **So a fourth-place burden rank coexists with a
 weak underlying association** — which is the prevalence wedge visible inside NNR's own text, and the
 cleanest available demonstration that a high rank is not a large individual effect.
-[EXTRACTED (NNR - Nordic Nutrition Recommendations 2023) chunk 06]
+[EXTRACTED @nnr2023 chunk 06]
 
 ## Self-critique of the NNR/GBD addition `[run 2026-07-28, before commit]`
 
@@ -237,11 +237,11 @@ sizes that dwarf most of them — for exposures that are not individually modifi
 
 > «The strongest association has been found between low income and CVD mortality, with a RR of 1.76
 > [95% confidence interval (CI) 1.45-2.14].»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 03]
+> [EXTRACTED @esc2021 chunk 03]
 
 And on psychosocial stress: it «is associated, in a dose-response pattern, with the development and
 progression of ASCVD, independently of conven- tional risk factors and sex».
-[EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 03]
+[EXTRACTED @esc2021 chunk 03]
 
 **RR 1.76 is larger than any dietary relative effect this wiki holds.** It is also a *social position*,
 not a behaviour — and that is the finding, not an aside.
@@ -277,7 +277,7 @@ constraint that breaks that assumption:**
 > «The incremental benefit of medication when added to an already complex regimen is often uncertain.
 > Moreover, care for multimorbid CVD patients is often fragmented and given by multiple providers,
 > complicating decision- making and adherence to recommended treatment.»
-> [EXTRACTED (ESC - CVD Prevention Guidelines 2021) chunk 06]
+> [EXTRACTED @esc2021 chunk 06]
 
 **Why this belongs on a ranking page rather than a clinical one.** A ranked list invites the reading
 *do the top item, then the next, then the next*. **If each addition erodes adherence to the ones
@@ -337,3 +337,17 @@ Full profile with relative effects and study counts:
 pharmacotherapy, weight loss as an exposure, alcohol, sleep and smoking remain empty rows. **Annex 6
 filled one cell of one row — the SFA line — and demonstrated how much work an absolute layer takes per
 exposure.**
+
+## A heavily-discussed lever that ranks near the bottom — meal timing `[2026-07-29, TREAT + eTRF]`
+
+[[Time-Restricted Eating]] enters the hierarchy as a **worked instance of *attention-is-an-anti-signal***:
+enormous public discussion, small measured effect. The two RCTs the wiki holds decompose it — a
+self-selected eating window produced **no weight advantage** (and lost muscle); shifting eating *early*
+improved insulin/BP **surrogates** with no weight change (n=8, no hard outcome). So meal timing offers,
+at most, a small weight-independent surrogate signal from eating earlier, plus a *negative* lean-mass
+signal from a careless late window. **It ranks below every hard-outcome row in the table above** and
+belongs with sodium/free-sugars as a small/surrogate lever — its prominence is a fact about the
+literature, not about its effect size. It is not added as a table row: there is no absolute hard-outcome
+effect to rank, which is itself the placement.
+
+## References

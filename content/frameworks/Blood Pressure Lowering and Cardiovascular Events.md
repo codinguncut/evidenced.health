@@ -32,8 +32,7 @@ vanish at lower baseline blood pressure.
 > high–normal blood pressure values».
 
 Per 5 mmHg SBP reduction, the hazard ratio for a major CV event was **0.91 (0.89-0.94) in people without
-prior CVD** and **0.89 (0.86-0.92) in those with it** [EXTRACTED (BPLTTC - Blood Pressure Lowering
-Primary and Secondary Prevention 2021) Results]. Across seven baseline-SBP strata from <120 to >=170
+prior CVD** and **0.89 (0.86-0.92) in those with it** [EXTRACTED @bplttc2021 Results]. Across seven baseline-SBP strata from <120 to >=170
 mmHg there was «no reliable evidence of heterogeneity», and «in no subgroup was the HR above 1·0».
 Component reductions per 5 mmHg: stroke 13%, heart failure 13%, ischaemic heart disease 8%, CV death 5%.
 
@@ -85,7 +84,7 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
 - **Intensive won on hard outcomes:** primary composite (MI/ACS/stroke/HF/CV-death) «hazard ratio ...
   0.75; 95% CI 0.64 to 0.89»; and **all-cause mortality «hazard ratio, 0.73; 95% CI 0.60 to 0.90»** — a
   25% and 27% relative reduction, «number needed to treat ... to prevent one primary outcome event was
-  61» over 3.26 years. [EXTRACTED (SPRINT - Intensive vs Standard Blood Pressure 2015) chunk 01]
+  61» over 3.26 years. [EXTRACTED @sprint2015 chunk 01]
 - **It confirms BPLTTC's own logic rather than competing with it.** SPRINT selected a *high-risk*
   population — exactly where BPLTTC says the *absolute* benefit of a given relative effect is largest —
   and the ~15 mmHg achieved gap, at BPLTTC's ~0.91 per 5 mmHg, predicts a composite HR near 0.75, which
@@ -94,7 +93,7 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
   independent confirmation.]`
 - **The harm side BPLTTC did not quantify:** intensive treatment raised serious «hypotension, syncope,
   electrolyte abnormalities, and acute kidney injury or failure, but not ... injurious falls».
-  [EXTRACTED (SPRINT - Intensive vs Standard Blood Pressure 2015) chunk 01] So a lower target buys real
+  [EXTRACTED @sprint2015 chunk 01] So a lower target buys real
   events in the high-risk but at a real adverse-event cost — the target decision is a net-effect
   judgement, not *lower is always better*.
 
@@ -127,3 +126,5 @@ not survive the randomised (here, interventional) check.
   transportable quantity, by the authors' own caution.
 - One (very large) collaboration's IPD; the target-BP and adverse-effect questions are out of its design.
 - Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
+
+## References

@@ -20,7 +20,7 @@ self_critiqued: 2026-07-28
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
 statin is roughly constant; the absolute benefit scales with how high the risk was to begin with
-([[Baseline Risk and the Relative-Absolute Split]]). Two sources set the decision: **USPSTF 2022** gives
+([[Baseline Risk and the Relative-Absolute Split]]). Two sources set the decision: **USPSTF 2022** [EXTRACTED @uspstf2022] gives
 the efficacy magnitudes and a risk threshold; **Nasir/MESA 2015** shows a zero coronary-calcium score
 re-stratifies about half of statin-eligible people into a range where the benefit is small.
 
@@ -72,7 +72,7 @@ more — and CAC re-stratified them sharply:
   in the *considered* group, «1.5 per 1,000 person- years».
 - **Estimated 10-year NNT** (applying an assumed 30% relative reduction to the observed rates): in the
   recommended group, **64 for CAC=0 vs 28 for CAC>100**; in the considered group, **223 vs 46**
-  [EXTRACTED (Nasir - Coronary Artery Calcium Statin Candidates MESA 2015) chunk 01, Table 3 — the "¼ 0"
+  [EXTRACTED @nasir2015 chunk 01, Table 3 — the "¼ 0"
   spans are OCR for "= 0"].
 - The headline: «the absence of CAC reclassifies approximately one-half of candidates as not eligible for
   statin therapy», resting on the principle that «the net benefit from treatment is directly proportional
@@ -135,3 +135,5 @@ independent institutional appraisal of the imaging-vs-score question.
   ARDs are population-specific and it declines to rule on CAC.
 - Neither source quantifies the CAC=0 negative predictive value *by age band* below 45 — the gap
   [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] already flagged.
+
+## References

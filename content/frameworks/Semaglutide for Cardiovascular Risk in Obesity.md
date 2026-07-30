@@ -59,7 +59,7 @@ coronary-calcium score — the hard-outcome benefit of semaglutide is **not prov
 **insufficient-evidence** state, not the **no-effect** state (the two are kept distinct): SELECT gives
 no reason to think the drug stops working in primary prevention, only that it was never tested there.
 
-**The two trials bracket the hole precisely.** STEP-1 *is* a primary-prevention population (no CVD
+**The two trials bracket the hole precisely.** STEP-1 [EXTRACTED @wilding2021] *is* a primary-prevention population (no CVD
 required) — but its endpoint is weight and cardiometabolic surrogates, not events. SELECT *is* a
 hard-outcome trial — but only in secondary prevention. So: primary prevention has strong **surrogate**
 evidence and **zero hard-outcome** evidence; secondary prevention has the hard-outcome evidence. **No
@@ -201,4 +201,6 @@ caveat.
   this to a low-risk stratum. G.
 - **No head-to-head** of drug vs sustained lifestyle vs bariatric surgery on hard outcomes.
 - **Weight loss on hard outcomes as an exposure in its own right** (independent of the drug) is still
-  unheld -> AWAITS [[Weight Loss and Mortality]].
+  unheld -> [[Weight Loss and Mortality]] (a future page, not yet a held source).
+
+## References

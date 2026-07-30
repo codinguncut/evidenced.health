@@ -26,17 +26,16 @@ Riou et al. 2015 (SR of 61 studies, 928 subjects; compensation = body-energy cha
 energy expended):
 
 - **Compensation is real, and wildly variable:** «The overall mean energy compensation was 18% ± 93%.»
-  [EXTRACTED (Riou - Energy Compensation Exercise 2015) chunk 01] So on average ~18% of the exercise
+  [EXTRACTED @riou2015 chunk 01] So on average ~18% of the exercise
   energy deficit is offset (by increased intake or reduced non-exercise expenditure) — but the ±93% SD
   means the individual response ranges enormously, from over-compensation to none.
 - **Duration is the dominant driver, and it gets worse over time:** for short interventions compensation
   is low; «For studies of longer duration (about 80 weeks), the energy compensation approached 84%.»
-  [EXTRACTED (Riou - Energy Compensation Exercise 2015) chunk 01] This is the mechanism behind
+  [EXTRACTED @riou2015 chunk 01] This is the mechanism behind
   *exercise alone underdelivers weight loss* -> [[Does Weight Loss Reduce Cardiovascular Events]] (why
   the weight lever disappoints) and the constrained-energy-expenditure picture.
 - **The intensity-specific worry is REFUTED:** «Sex, frequency, intensity and dose of exercise energy
-  expenditure were not significant predictors of energy compensation.» [EXTRACTED (Riou - Energy
-  Compensation Exercise 2015) chunk 01] What predicts it is «the interaction between initial fat mass,
+  expenditure were not significant predictors of energy compensation.» [EXTRACTED @riou2015 chunk 01] What predicts it is «the interaction between initial fat mass,
   age and duration» (48% of variance). **So HIIT does not compensate *more* than moderate work** — the
   maintainer's general concern (compensation is real) is upheld; the specific version (high exertion ->
   more NEAT downregulation) is not supported by this evidence.
@@ -49,14 +48,12 @@ interventions:
 
 - **A cleaner magnitude, and the mechanism:** «energy compensation by a typical human averages 28% due
   to reduced BEE; this suggests that only 72% of the extra calories we burn from additional activity
-  translates into extra calories burned that day.» [EXTRACTED (Careau - Energy Compensation Adiposity
-  2021) chunk 01] So compensation is not only behavioural (eating more) — a measurable part is a drop in
+  translates into extra calories burned that day.» [EXTRACTED @careau2021 chunk 01] So compensation is not only behavioural (eating more) — a measurable part is a drop in
   **basal energy expenditure**, a metabolic adjustment.
 - **The adiposity gradient — the decision-relevant twist:** «People that are at the 10th percentile of
   the BMI distribution compensate 27.7% of activity calories, whereas people at the 90th percentile
   compensate 49.2% of activity calories ... individuals with greater fat levels ... are stronger energy
-  compensators or ... become stronger compensators as they get fatter.» [EXTRACTED (Careau - Energy
-  Compensation Adiposity 2021) chunk 01] **The person carrying the most fat — who most wants to burn it
+  compensators or ... become stronger compensators as they get fatter.» [EXTRACTED @careau2021 chunk 01] **The person carrying the most fat — who most wants to burn it
   off with exercise — compensates the most**, so exercise "counts" least exactly where the weight goal
   is greatest. Careau flags the causality as undetermined (do compensators get fatter, or does getting
   fatter raise compensation?), so read it as an association, not a proven within-person law.
@@ -129,3 +126,5 @@ scale*, not a shared number.
   make it a *qualified* E — recorded, not laundered. Magnitudes (18% vs 28%) deliberately NOT pooled.
   Careau brings distinct new content (BEE mechanism, adiposity gradient), earning its `sources:` slot on
   the dual test.
+
+## References

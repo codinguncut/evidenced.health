@@ -38,14 +38,25 @@ a.dcard:hover {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.10);
   border-color: var(--secondary);
 }
-.hicon-wrap { position: relative; display: inline-flex; width: 44px; height: 44px; }
-.hicon { width: 44px; height: 44px; color: var(--secondary); }
-.dcard-title { font-weight: 600; font-size: 1.03rem; line-height: 1.2; color: var(--dark); }
-.dcard-desc { font-size: 0.82rem; line-height: 1.4; color: var(--gray); }
+// A faint pastel tint per card, rotated for colour + shape. color-mix over var(--light)
+// keeps it theme-aware (the base flips in dark mode, so text stays readable). The icon
+// picks up the same hue as its card.
+.deliverable-grid a.dcard:nth-child(4n + 1) { background: color-mix(in srgb, #4c9be8 10%, var(--light)); }
+.deliverable-grid a.dcard:nth-child(4n + 2) { background: color-mix(in srgb, #57bd8a 10%, var(--light)); }
+.deliverable-grid a.dcard:nth-child(4n + 3) { background: color-mix(in srgb, #e8a34c 10%, var(--light)); }
+.deliverable-grid a.dcard:nth-child(4n)     { background: color-mix(in srgb, #a78bfa 10%, var(--light)); }
+.deliverable-grid a.dcard:nth-child(4n + 1) .hicon { color: #3f86cf; }
+.deliverable-grid a.dcard:nth-child(4n + 2) .hicon { color: #3fa876; }
+.deliverable-grid a.dcard:nth-child(4n + 3) .hicon { color: #d8922f; }
+.deliverable-grid a.dcard:nth-child(4n)     .hicon { color: #8b6ff0; }
+.hicon-wrap { position: relative; display: inline-flex; width: 46px; height: 46px; }
+.hicon { width: 46px; height: 46px; color: var(--secondary); }
+.dcard-title { font-weight: 650; font-size: 1.14rem; line-height: 1.22; color: var(--dark); }
+.dcard-desc { font-size: 0.92rem; line-height: 1.45; color: var(--darkgray); }
 .dcard--fasting .hicon-wrap::after {
   content: "";
   position: absolute; left: -1px; top: 50%;
-  width: 46px; height: 3px; border-radius: 2px;
-  background: var(--secondary);
+  width: 48px; height: 3px; border-radius: 2px;
+  background: #3fa876;  // matches the fasting card's icon hue (10th card = green)
   transform: translateY(-50%) rotate(-45deg);
 }

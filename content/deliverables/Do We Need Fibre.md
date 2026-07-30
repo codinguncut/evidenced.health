@@ -1,213 +1,241 @@
 ---
 title: "Do We Need Fibre In Our Diet?"
 type: deliverable
-subject: Dietary fibre — is it essential, and how large are its effects by fibre-type and outcome?
-question: Is dietary fibre essential, how big are its effects on cholesterol/LDL, gut transit, gastric emptying, blood sugar, satiety and hard outcomes, does it have downsides, and does the soluble/insoluble split change the answer?
-aliases: [Do We Need Fibre, Do We Need Fiber, Is Fibre Essential, Fibre Deliverable]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, NNR - Nordic Nutrition Recommendations 2023, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Petroski - Antinutrients Narrative Review 2020]
+question: What does the evidence show about dietary fibre — how large are its effects, on which outcomes, how certain, and what are its downsides, and does the soluble/insoluble split change the answer?
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, Valdes - Gut Microbiota Nutrition and Health 2018, ESC - CVD Prevention Guidelines 2021, NNR - Nordic Nutrition Recommendations 2023, Petroski - Antinutrients Narrative Review 2020]
 confidence: medium
 created: 2026-07-30
 updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-**The verdict up front.** Fibre is not *essential* in the strict sense — there is no fibre-deficiency
-disease and no requirement the way there is for vitamin C, so your body will not acutely fail without it.
-But "essential yes/no" is the wrong question. The right one is *how big is the benefit, on which outcome,
-and how sure are we* — and on that test fibre is **a real but modest supporting lever**, with the honest
-twist that **the most impressive numbers rest on the weakest evidence, and the firmest evidence sits on
-the smallest effect.** Aim for roughly **25-30 g/day from food**; more is fine and probably slightly
-better. Do not expect a miracle, and do not treat a fibre supplement as therapy.
+**The short answer: fibre is a real but modest lever, and the strongest evidence sits on the smallest
+effect.** Eating enough of it is worth doing — but *eat more fibre* is a supporting move, not a big rock,
+and it is not one intervention. Soluble/viscous fibre (oats, psyllium, pulses), insoluble/bulking fibre
+(wheat bran, cellulose) and fermentable fibre (the substrate your gut bacteria live on) act by different
+mechanisms on different outcomes, so the honest answer is given per fibre-type per outcome, never as a
+single *eat more fibre* number. The big impressive figures — 15-30% lower risk of dying, of heart disease,
+of diabetes, of colorectal cancer — are observational, from cohorts of self-reported eaters. Where fibre is
+tested as a dosable ingredient in randomised trials, its measured causal effect is genuine but small: a few
+tenths of a mmol/L off LDL cholesterol, a fraction of a kilogram off body weight. Reasonable target: reach
+roughly 25-30 g/day from food, mostly whole grains, legumes and fruit/veg; more is fine and probably
+slightly better. Do not expect a miracle, and do not treat fibre as costless — the downsides are minor but
+real and depend on dose and preparation.
 
-Two things frame everything below:
+## Is fibre *essential*? Recast the question
 
-- **Fibre is not one substance.** *Soluble/viscous* fibre (oats, psyllium, pulses, pectin) dissolves and
-  thickens; *insoluble/bulking* fibre (wheat bran, cellulose) adds bulk and speeds transit; *fermentable*
-  fibre feeds gut bacteria. They act by different mechanisms on different outcomes, so a single "eat more
-  fibre" number hides the real picture. This deliverable answers **per fibre-type, per outcome**
-  ([[Is the Food Category Doing Any Work]]).
-- **The 30 g figure is where the evidence thins, not a biological cliff.** Treat it as a sensible target,
-  not a threshold below which fibre does nothing and above which it does nothing more.
+*Is fibre essential* is a loaded binary that hides the useful answer. Fibre does *not* behave like a
+classic required nutrient: there is no fibre-deficiency disease the way there is scurvy for vitamin C, and
+its recommended intake is set against health outcomes, not against preventing a deficiency syndrome. So on
+the strict biochemical meaning of *essential*, fibre is not essential. That tells you almost nothing about
+whether to eat it. The appraisable question is the one every exposure gets — **how big is the benefit, on
+which outcome, and how certain** — and by that measure fibre is a modest but genuine positive. The rest of
+this page answers it outcome by outcome.]]`
 
-## The two legs of the evidence — and why you must not stack them
+## Fibre is not one thing — decompose it
 
-Almost all confusion about fibre comes from stacking two findings that are *different quantities*:
+A single verdict on *fibre* averages over ingredients that do different jobs. Three functional types carry
+the page:
 
-| | The big numbers (observational) | The firm number (trial-grade) |
-|---|---|---|
-| Source | Reynolds 2019 (185 prospective cohorts + 58 RCTs) | Brown 1999 (67 controlled feeding trials) |
-| Exposure | **total** dietary fibre, from food, self-reported | **soluble/viscous** fibre isolate, dosed |
-| Endpoint | hard outcomes: death, heart disease, diabetes, cancer | the **LDL cholesterol** surrogate |
-| Effect | 15-30% lower risk (high vs low intake) | LDL down **0.057 mmol/L per gram** |
-| Confound risk | high (healthy-user + measurement error) | low (dosed vs placebo) |
+- **Soluble / viscous** (oats, psyllium, pectin, guar, pulses) — forms a gel, slows digestion, binds bile
+  acids. This is the fraction that lowers LDL cholesterol and blunts blood-sugar spikes.
+- **Insoluble / bulking** (wheat bran, cellulose) — adds stool bulk and speeds transit. This is the
+  constipation lever; it does little to LDL.
+- **Fermentable** (much soluble fibre, resistant starch, inulin) — feeds gut bacteria, which turn it into
+  short-chain fatty acids. This is the *prebiotic* channel and the main dietary lever on the microbiome.
 
-The temptation is to read "fibre cuts death by 15-30% *and* it's proven in trials." It isn't. The trials
-prove a **small effect on a blood marker**; the large mortality numbers come from **observational** data
-on self-reported eaters, which carries the healthy-user confound and heavy dietary measurement error
-([[Measurement Error in Dietary Assessment]]). The honest composite: **fibre is beneficial and at least
-partly causal, with a modest measured effect on the endpoints we can actually put in a trial** — the big
-mortality figure stays observational. [@reynolds2019, 
-] [@brown1999]
+The types overlap (oat beta-glucan is soluble, viscous *and* fermentable), but the split matters because a
+psyllium supplement, a bowl of bran and a plate of beans are not interchangeable across outcomes.]]`
 
-## The outcomes, one at a time
+## Outcome by outcome
 
-### (1) Cholesterol / LDL — soluble fibre, real mechanism, small effect
+### Hard outcomes (mortality, heart disease, diabetes, colorectal cancer) — the strongest leg, and it is observational
 
-*Soluble/viscous* fibre binds bile acids in the gut; the liver then pulls cholesterol out of the blood to
-make more bile, which lowers LDL. This is the best-evidenced fibre mechanism because a single fibre *can*
-be dosed and blinded. Brown's 67-trial meta-analysis pins it to **-0.057 mmol/L of LDL per gram** of
-soluble fibre in the practical 2-10 g/day range — and oat, psyllium, pectin and guar were each
-significant, with the fibre *type* not mattering once dose was accounted for (the viscous property is what
-does the work). [@brown1999]
+This is where the large numbers live, and where the evidence is weakest by design. In Reynolds'
+WHO-commissioned meta-analysis (185 prospective studies plus 58 trials), the highest fibre intakes track
+about **15-30% lower risk** versus the lowest: all-cause mortality RR 0.85, coronary heart disease RR 0.76,
+type 2 diabetes RR 0.84, colorectal cancer RR 0.84, or roughly a 0.93 relative risk per additional 8 g/day.
+[@reynolds2019] In absolute terms that is
+modest: Reynolds puts it at «13 fewer deaths (95% CI eight to 18) and six fewer cases of coronary heart
+disease (four to seven) per 1000 participants over the duration of the studies».
+[@reynolds2019]
 
-Keep the size in view. Brown's own verdict: *3 g of soluble fibre from oats can decrease total and LDL
-cholesterol by <0.13 mmol/L* and *can make only a small contribution to dietary therapy to lower
-cholesterol.* [@brown1999] Reynolds'
-trials agree on scale: total cholesterol -0.15 mmol/L, LDL -0.09 mmol/L for higher vs lower fibre.
-[@reynolds2019] A separate whole-food signal:
-a daily portion of pulses lowers LDL by about **0.2 mmol/L** ([[Whole Grains Refined Grains and Pulses]]).
-[@esc2021]
+The catch: this is prospective-cohort data on *self-reported* intake, so it carries the healthy-user
+confound (people who eat more fibre differ in dozens of ways) and dietary measurement error
+([[Measurement Error in Dietary Assessment]]). It is more than bare correlation — a monotone dose-response
+plus a concordant trial arm on surrogates is a legitimate observational-upgrading move
+([[Upgrading Observational Evidence]]) — but symmetric standards forbid reading a mortality cohort as if a
+mortality RCT had run. Hence the whole page carries `confidence: medium`, not high, on the outcome claim.
 
-**Bottom line:** viscous fibre (oats, psyllium, beans) is a legitimate LDL adjunct but a small one — a few
-tenths of a mmol/L — dwarfed by saturated-fat replacement and by statins. Use it as support, not as
-cholesterol treatment.
+**The dose-response shows no plateau within the studied data on these outcomes — and 30 g is the edge of the data, not a knee.**
+Reynolds finds the fibre-outcome curves «many of which are linear with no sign of a plateau within the
+available data», with the «greatest benefits ... for individuals consuming 25-29 g per day».
+[@reynolds2019] The widely-quoted 30 g figure
+marks where the evidence thins, not a biological threshold beyond which extra fibre stops helping. Read it
+as *every realistic increase probably pays a little more*, and treat any claimed *minimum effective dose*
+sceptically — the burden is on whoever asserts a knee to locate it.]]`
 
-### (2) Constipation, gut transit, gastric emptying — mechanistically clear, thinly quantified here
+### LDL cholesterol — real, causal, and small (soluble/viscous fibre only)
 
-*Insoluble/bulking* fibre (wheat bran, cellulose) adds stool bulk and speeds transit — the classic
-constipation lever. *Viscous* fibre does the opposite at the top of the gut: it **slows gastric emptying**,
-which is part of the blood-sugar and satiety story below. These directions are well established
-mechanistically, but neither Reynolds nor Brown covers gut transit as an outcome, so the wiki holds **no
-quantified transit effect** — this is a **named gap** rather than a number. Treat "fibre helps
-regularity" as directionally sound and unquantified.
+This is the one place fibre's effect is trial-grade, because a soluble fibre can be dosed and blinded.
+Brown's meta-analysis of 67 controlled feeding trials pins viscous/soluble fibre (oat, psyllium, pectin,
+guar) to an LDL drop of about **-0.057 mmol/L per gram** in the practical 2-10 g/day range — fibre *type*
+was not a predictor once dose was accounted for, so it is the viscosity, not the source, doing the work.
+[@brown1999] The mechanism is
+bile-acid sequestration: viscous fibre binds bile acids (cholesterol-rich digestive fluid) in the gut so
+the liver pulls cholesterol from the blood to make more. Brown's own verdict is the honest headline:
+«Increasing soluble fiber can make only a small contribution to dietary therapy to lower cholesterol.»
+[@brown1999] At a realistic 3 g of
+oat soluble fibre, that is under 0.13 mmol/L — a legitimate adjunct, dwarfed by the saturated-fat-
+replacement and drug levers ([[Saturated Fat Intake and Replacement]]). A daily portion of pulses lands in
+the same range: ESC reports «A single portion of pulses (legumes) a day lowers LDL-C by 0.2 mmol/L and is
+associated with a lower risk of CHD». [@esc2021] Note the
+sentence runs two evidence classes together — the LDL figure is a magnitude (trial-like), the CHD half is
+bare association with no number.
 
-### (3) Blood sugar (glycaemia) — viscous fibre blunts the post-meal spike, but as a marker it is weak
+Insoluble/cereal fibre does *not* carry this LDL effect; it works through bulk, transit and fermentation
+instead.
 
-Viscous fibre slows glucose absorption, flattening the post-meal glucose rise. In Reynolds' trials higher
-fibre moved HbA1c by a standardised -0.35, but this was **not statistically significant**, and fibre's
-diabetes benefit shows most in the long-run cohort data (type 2 diabetes risk **0.85 per 8 g/day**).
-[@reynolds2019] Notably, Reynolds found
-**fibre and whole-grain content** predict outcomes better than **glycaemic index/load** does — the low-GI
-diabetes benefit shrank from 11% to 5% (95% CI -13 to 4) on sensitivity analysis, and the authors judge GI
-*might be less useful as overall measures of carbohydrate quality than dietary fibre and whole grain content.* So steer by fibre, not by chasing a low
-glycaemic index. [@reynolds2019]
+### Blood-sugar response — directionally held, not yet quantified
 
-### (4) Satiety / weight — a genuine but small trial effect
+Viscous fibre slows glucose absorption, blunting the post-meal blood-sugar rise — part of why whole-grain
+and lower-glycaemic foods beat refined ones. The direction is supported (fibre is a component of the
+carbohydrate-quality story, [[Free Sugars Intake]]), and Reynolds records improvements in intermediate
+markers in its trial arm, but the wiki does not hold a clean quantified fibre-to-glycaemia effect size.
+**This is a gap** — stated plainly, not glossed as settled.] / [[Free Sugars Intake]]]`
 
-Fibre increases fullness through bulk and slowed gastric emptying. The one hard number: in Reynolds' RCTs,
-higher fibre lowered bodyweight by **-0.37 kg (GRADE High)** — real, causal, and small.
-[@reynolds2019] The subjective
-"fibre keeps me full" claim beyond this weight figure is plausible but thinly quantified in what the wiki
-holds.
+### Body weight and satiety — small, trial-grade
 
-### (5) Hard outcomes (death, heart disease, cancer) — the strongest leg, and it is observational
+Fibre adds bulk and slows gastric emptying, which increases fullness. In Reynolds' trials, higher fibre
+intake lowered body weight by about **-0.37 kg** (GRADE High) alongside small reductions in total
+cholesterol and blood pressure. [@reynolds2019]
+SACN's whole-grain trials point the same way on the intermediate: higher whole-grain consumption reduced
+energy intake by -360 kJ (95% CI -642 to -79) — though one trial supplied 75% of that pooled estimate, so
+it is thin. [@sacn2015, 8.126-8.149] Satiety as a stand-alone,
+directly-measured outcome is thinly quantified — treat the weight number as the anchor and satiety as its
+plausible mechanism.
 
-This is where the large numbers live. Highest-vs-lowest fibre intake tracks **15-30% lower** risk of
-all-cause mortality (RR 0.85), coronary heart disease (0.76), type 2 diabetes (0.84) and colorectal cancer
-(0.84). Per 8 g/day: all-cause mortality **0.93**, CHD **0.81**, T2D **0.85**, colorectal cancer **0.92**.
-In absolute terms, Reynolds translates the mortality effect to *13 fewer deaths (95% CI 8 to 18) per 1000
-participants over the duration of the studies.* [@reynolds2019] SACN independently links higher fibre to lower CVD and colorectal cancer.
-[@sacn2015]
+### Gut transit and constipation — mechanistically clear, evidentially thin here
 
-Two honesty checks. First, this is cohort data on self-reported eaters — Reynolds argues it is *likely
-causal* from the consistency of trial + cohort + dose-response, which is a legitimate confidence-raiser
-([[Upgrading Observational Evidence]]) but not a mortality trial. Second, **the dose-response curve is
-linear with no sign of a plateau** on hard outcomes — so *every increment pays*, and the 25-29 g figure is
-merely where the best-populated benefit sits, *not* a knee. Reynolds recommends *no less than 25-29 g per
-day with additional benefits likely to accrue with higher intakes.* [@reynolds2019]
+Insoluble/bulking fibre adds stool bulk and speeds transit — the standard, uncontroversial constipation
+lever — while viscous fibre slows gastric emptying (part of the satiety and glycaemia story). The wiki holds
+no dedicated source on fibre and GI transit, so the specific effect sizes (which fibre, how much, how fast)
+are **a named gap**, not a settled number. The direction is not in doubt; the quantification is unheld.]]`
 
-Note the shape is **outcome-specific**: Brown's LDL curve *does* flatten above \~8-10 g/day (a real plateau
-on the surrogate), while the hard-outcome curves keep climbing. A plateau on a blood marker must not be
-read across to the outcomes you actually care about ([[Surrogate Outcomes]]).
+### The microbiome — fermentable fibre is the real lever
 
-### (6) Fermentation / the microbiome — prebiotics are mostly just fibre
+The dominant modifiable lever on the gut microbiome is diet, and within diet, fermentable fibre: bacteria
+ferment it into short-chain fatty acids, and microbial diversity (the dysbiosis marker) tracks fibre intake
+— long-term weight gain correlating with low diversity is, in Valdes' words, «exacerbated by low dietary
+fibre intake». [@valdes2018] Two disciplines
+apply. First, a microbiome *composition* shift is a surrogate, not an outcome ([[Surrogate Outcomes]]).
+Second, this means **the microbiome story largely reduces to the fibre story** — and a *prebiotic* is mostly
+fermentable fibre by another name, so the prebiotic aisle adds little over eating a fibre-rich, plant-diverse
+diet ([[Gut Microbiome and Health]]).
 
-*Fermentable* fibre is the substrate gut bacteria turn into short-chain fatty acids (acetate, propionate,
-butyrate), and microbial diversity — the marker of a "healthy" gut — tracks fibre intake; low diversity
-*is exacerbated by low dietary fibre intake.* [@valdes2018] This means the microbiome story **largely reduces to the fibre story**: a prebiotic is a
-selectively fermentable fibre by another name, so most prebiotic benefit *is* fibre benefit. You do not
-need a supplement aisle to act on it ([[Gut Microbiome and Health]]). [@wgo2023]
+## The isolate-vs-food trap — better evidence does not mean better food
 
-## Does the soluble/insoluble split change the answer? Mostly a mechanistic distinction
+A recurring confusion: fibre *isolates* and gum supplements are better-graded than fibre-bearing whole foods
+— SACN grades isolates `Effect · Adequate` (its top strength) while whole-grain benefit is cohort-only and
+mostly `Limited`, and Brown's soluble-fibre LDL effect is GRADE-worthy. **This is a design artifact, not a
+verdict that supplements beat food.** An isolate can be randomised at a fixed dose against a placebo; a bowl
+of beans cannot be blinded, so its evidence stays observational. The better grade tracks the better-*trialable*
+form, not the better food — a psyllium sachet is not shown to beat a plate of pulses for hard outcomes, and
+the food carries fibre types and a matrix the isolate lacks. [@sacn2015]
+And even the well-graded object is small (Brown's «only a small contribution»). -> [[Is the Food Category Doing Any Work]]
 
-Reynolds found soluble vs insoluble effects broadly similar, with limited data to distinguish them on hard outcomes -- so this is a mechanistic split, not one the outcome data resolve.
-
-| Fibre type | Where it comes from | What it moves | Evidence |
-|---|---|---|---|
-| **Soluble / viscous** | oats, psyllium, pulses, pectin, guar | LDL (down \~0.057 mmol/L per g); slows gastric emptying -> glycaemia + satiety | trial-grade, small |
-| **Insoluble / bulking** | wheat bran, cellulose | stool bulk, faster transit (constipation) | mechanistic; unquantified here (gap) |
-| **Fermentable** | pulses, whole grains, many plants | short-chain fatty acids, microbial diversity | mechanistic + observational |
-
-The single "eat more fibre" verdict is right in direction but hides that the LDL lever is a soluble-fibre
-lever, the regularity lever is an insoluble-fibre lever, and the microbiome lever is a fermentable-fibre
-lever. Because most **whole foods carry a mix**, eating varied plant foods covers all three at once — which
-is why "get fibre from food, not a single supplement" is the sound rule.
-
-## Food or supplement? A design artifact people misread
-
-Counterintuitively, fibre **isolates** are *better graded* than fibre-bearing foods. SACN grades fibre
-isolates and gum supplements *Effect, Adequate* on energy intake (the isolate lipid grades are Limited/Moderate) — while whole-grain benefit is
-cohort-only and mostly *Limited*. [@sacn2015] But this is a
-**study-design artifact, not a verdict that supplements beat food**: an isolate can be randomised at a
-fixed dose, so it earns trial-grade evidence; whole-food fibre cannot be blinded, so it stays
-observational. The better grade tracks the more *trialable form*, not the better food — and a psyllium
-sachet does not beat a bowl of beans, which carries multiple fibre types plus a food matrix the isolate
-lacks ([[Is the Food Category Doing Any Work]]). A realistic, sustained increase from food beats a
-supplement someone abandons.
+Relatedly, the whole-grain benefit is probably largely the *fibre* benefit: Reynolds tracks both in the same
+study and grades fibre above whole grains, noting the gap «could reflect the high fibre content of whole
+grains». [@reynolds2019] So steer by fibre
+content, not by the word *whole grain*. SACN attaches the same caveat in its own voice: «Any associations
+indicated for whole grain may be related to its cereal fibre component». [@sacn2015]
 
 ## The downsides — fibre is not costless
 
-- **Gas and bloating** from fermentation, especially with a rapid increase or from very fermentable
-  sources (pulses, inulin). Usually mild and adaptive; ramp up gradually.
-- **Very high intake with low fluid** can worsen constipation and, rarely, contribute to obstruction —
-  the bulking effect needs water.
-- **Mineral binding.** Phytate (in whole grains and legumes) binds zinc, iron and calcium, and tannins
-  inhibit non-heme iron absorption in isolation. In practice this is **defused by ordinary preparation**
-  (soaking, cooking, fermenting) and by adequate overall intake; whole-diet studies show no iron-status
-  correlation. The strata that still need care: people with low iron stores (especially menstruating
-  women, who may time tea away from meals) and monotonous high-phytate diets with marginal mineral status
-  ([[Antinutrients in Plant Foods]]). [@petroski2020, sections
-  3.6, 7.6]
-
-**Net:** the downsides are mild, dose- and preparation-dependent, and manageable — not a reason to avoid
+The question asks, so state them; they are minor and dose-/preparation-dependent, not a reason to avoid
 fibre.
 
-## How much, and how this sits against mainstream guidance
+- **Bloating and gas.** Fermentation of fibre produces gas — the direct flip side of the microbiome
+  benefit. It is dose-dependent and usually eases as intake ramps up gradually; a sudden jump from a low-
+  fibre diet is the common trigger.]; magnitude not separately sourced]`
+- **Constipation or, rarely, obstruction with too little fluid.** A very high bulking-fibre intake without
+  enough water can worsen, not relieve, constipation. This is a preparation/hydration caveat, not a property
+  of fibre itself.
+- **Mineral binding (phytate).** Phytate in whole grains and legumes binds zinc, iron and calcium, lowering
+  their absorption — the *antinutrient* concern. But ordinary preparation defuses it: soaking, sprouting,
+  fermenting and cooking all reduce phytate, and whole-diet studies do not show a mineral-status problem in
+  balanced diets. It matters mainly for monotonous high-phytate diets with already-marginal mineral status,
+  or (for the tannin/iron version) low-iron individuals — Petroski's own stratum here is populations
+  reliant on tannin-rich staple foods [@petroski2020, section 7.6];
+  the classic high-income iron-deficient stratum being menstruating women — route-(c)
+  contraindications firing in a named stratum, not a general warning.
+  -> [[Antinutrients in Plant Foods]]
 
-Guidance bodies broadly agree fibre is beneficial and the direction is *more is better*, but the exact
-number is soft and each body uses a different construct:
+One acute, non-fibre caveat rides along with high-fibre foods: raw or undercooked kidney beans and soybeans
+cause real lectin poisoning — «boiling or autoclaving is required to eliminate lectins, as reduced cooking
+temperatures do not significantly affect lectin content». [@petroski2020, section 2.6]
+That is a cooking instruction, not an argument against legumes.
 
-| Body | Fibre target | Note |
+**Net:** the downsides are small, mostly transient, and preparation- and dose-managed. They shift the
+*how* (ramp up gradually, drink water, cook legumes properly), not the *whether*.
+
+## How much, and the target confusion
+
+Guidance bodies converge on the rough magnitude and diverge on the construct — and the wiki cannot rank the
+numbers because they measure different things:
+
+| Body | Fibre target | Form |
 |---|---|---|
-| SACN | **30 g/day** (AOAC) | the one that names its measurement method |
-| Reynolds 2019 | **25-29 g/day**, more likely better | the best-populated benefit range, not a knee |
-| ESC | **30-45 g/day**, a range | upper bound is the corpus's highest, no stated warrant |
-| NNR | 25 g/day (women), 35 g/day (men) | energy-scaled; also 90 g/day whole grains (a *different* measure) |
+| SACN | 30 g/day | point value, AOAC method specified |
+| NNR | 25 g/day (women), 35 g/day (men); \~3 g/MJ | energy-scaled + sex-split |
+| ESC | 30-45 g/day | range, no method stated |
 
-These are four constructs, not four estimates of one number — a point, a range, and sex-split values are
-not directly comparable, and only SACN names its analytical method.
-[@sacn2015] [@esc2021] [@nnr2023] Most people fall well
-short: SACN notes UK mean intakes run **10-13 g/day below** the 30 g target, so "get to 30 g" is a real
-behaviour change, not a tweak. [@sacn2015]
+[@sacn2015] [@nnr2023] [@esc2021]
 
-**Practical target:** \~25-30 g/day of total fibre from food — mostly whole grains and cereal fibre,
-legumes, and fruit/veg — which naturally delivers the soluble, insoluble and fermentable fractions
-together. Rank it honestly: fibre is a genuine supporting lever, not a big rock.
+A point, a sex-split energy-scaled value and a range are not four estimates of one quantity, and only SACN
+names its analytical method — so the numbers are not strictly comparable, and ESC's 45 g upper bound (the
+corpus's highest) comes with no stated warrant. NNR also recommends at least 90 g/day of whole grains (dry
+weight) with further benefits above that — but that is dry weight of a food, not an AOAC fibre measure, and
+must not be read against the 30 g figure. [@nnr2023]
 
-## Caveats
+**The practical reading:** aim for roughly 25-30 g/day of total fibre from food — mostly cereal/whole-grain
+plus legumes plus fruit/veg — and treat more as fine, probably slightly better, with no plateau shown on
+outcomes. Note that most people fall well short: SACN records that at a 30 g target, «current mean intakes
+would be 10-11g below the dietary reference value for men and 13g below for women» — a \~40% population
+shortfall. [@sacn2015] So *get to 30 g* is a real behaviour
+change, and a sustained realistic increase beats a supplement someone abandons — adherence is part of the
+effect.
 
-- **Open loop.** This appraisal grades how well the wiki's claims match their sources and hang together —
-  **never** whether they are true of the world. No step here tests a claim against a real health outcome.
-- **Appraise, do not prescribe.** This is a general, population-level appraisal, not medical advice and not
-  a personal fibre-gram prescription.
-- **Applied per person.** Tolerance, gut conditions (IBS, strictures), iron status and baseline intake
-  vary; the general fabric is stratified only when applied to an individual.
-- **Guidance-null.** This broadly *agrees* with mainstream guidance (25-30 g/day, benefit real, the exact
-  number soft) — the added value is separating the trial-grade LDL effect from the observational mortality
-  numbers, splitting the answer by fibre-type, and flagging the transit/gastric-emptying/satiety
-  mechanisms as genuine gaps rather than settled facts.
-- **Confidence: medium.** The LDL/surrogate leg is trial-grade; the hard-outcome leg is observational with
-  a supportive dose-response — better than bare correlation, short of RCT proof. The gut-transit and
-  soluble-vs-insoluble outcome breakdowns are unresolved gaps.
+## Where this sits against mainstream guidance
+
+The verdict here agrees with mainstream bodies and adds calibration rather than divergence. Mainstream
+guidance recommends roughly 25-30 g/day and treats the benefit as real; this page keeps that, and sharpens
+three things guidance often blurs: the large mortality numbers are observational (not RCT-proven); the
+trial-grade causal effects are small and live in specific fibre types (viscous fibre for LDL and glycaemia,
+bulking fibre for transit, fermentable fibre for the microbiome); and the 30 g figure is the edge of the
+evidence, not a threshold. Agreement with better warrant, not contrarianism.]]`
+
+## Gaps (stated plainly)]]`
+
+- **Quantified fibre-to-glycaemia effect** is unheld — direction only.
+- **Fibre and GI transit / constipation / gastric emptying** has no dedicated source — mechanistically clear,
+  numerically unheld.
+- **Satiety as a directly-measured outcome** is thin; the -0.37 kg weight effect is the anchor.
+- **A whole-food fibre RCT on hard outcomes** does not and largely cannot exist (you cannot blind food), so
+  the mortality leg stays observational by construction.
+- **Soluble-vs-insoluble and legume-vs-cereal outcome breakdowns** are too sparse in the held sources to
+  separate cleanly.
+
+## Mandatory caveats
+
+- **Open loop.** This appraisal grades coherence and fidelity to its sources, never real-world validity — no
+  step here checks a fibre recommendation against a realized patient outcome. A clean audit is not a
+  validated recommendation.
+- **Appraise, do not prescribe.** This is a general appraisal of fibre's health effects, not personal
+  advice, and not a specific gram prescription.
+- **Applied per person.** Tolerance, GI conditions (IBS, diverticular disease), medications, and baseline
+  intake vary; the general finding is placed on an individual at the point of use, not before it.
+- **A general appraisal of health effects only** — decomposed by fibre-type and outcome, with downsides. It
+  is not a supplement-vs-food ruling and not a fibre-gram target for any individual.
 
 ## References

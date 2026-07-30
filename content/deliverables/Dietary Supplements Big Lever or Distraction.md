@@ -64,7 +64,7 @@ your labs, and your situation, not about the pill ([[Baseline Risk and the Relat
 - **Creatine monohydrate** — **widely regarded as the best-evidenced sports supplement**, cheap, with a
   large randomized literature for strength, power, and lean-mass gains *when paired with resistance
   training* (and emerging signals for muscle in older adults). This is a *performance/function* benefit,
-  not disease prevention ([[Layer 1 - Ranking Interventions for a Stratum]]) — a **provisional KEEP**, pending that source. `[creatine MA — acquisition gap]`
+  not disease prevention ([[Layer 1 - Ranking Interventions for a Stratum]]) — a **provisional KEEP**, pending that source.
 - **Protein powder (whey/casein/soy) — is not a magic supplement; it is food in powder form.** Its evidence
   is simply the evidence that hitting your **total daily protein** target supports muscle and strength
   ([[Protein and Resistance Training for Muscle and Strength]], [[Protein Quality and the DIAAS Score]]).
@@ -89,7 +89,7 @@ pregnancy** (to prevent neural-tube defects — the single strongest supplement 
 recommended by the USPSTF [@uspstf2022supp]);
 **B12** for vegans, older adults, and malabsorption; **iron** for documented iron-deficiency anemia (and
 harmful if you are *not* iron-deficient). **Gap:** the wiki does not yet hold the primary trials for these
-repletion cases, so no magnitudes are quoted. `[deficiency-repletion sources — acquisition gap]`
+repletion cases, so no magnitudes are quoted.
 
 ### Tier 3 — "not yet": a plausible mechanism, but the human evidence is thin, short, or surrogate-only
 
@@ -102,7 +102,7 @@ Typical members — **magnesium, CoQ10 / ubiquinol, curcumin, berberine, NAC, as
 glycine, zinc**, and many more. Some have a documented role in *deficiency* (magnesium, zinc) or in
 specific medical uses (NAC, not as a general supplement); several have short human trials on surrogate
 markers. They sit, honestly, in the *insufficient-evidence* bucket — neither proven nor
-disproven. `[Tier-3 compounds — acquisition gap]`
+disproven.
 
 ### Tier 4 — essentially no credible human-outcome evidence (marketing, or unfalsifiable)
 

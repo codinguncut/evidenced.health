@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org)]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -15,6 +15,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - The U-Shaped Association Artifact
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
+    - Rating Certainty of Evidence
 created: 2026-07-30
 updated: 2026-07-30
 self_critiqued: 2026-07-30
@@ -120,12 +121,66 @@ lung cancer, and across trials it raised CV-disease mortality [@uspstf2022supp]:
 > mortality associated with beta carotene supplementation ... (Peto OR, 1.10 [95% CI, 1.02-1.19]).»
 > [@uspstf2022supp]
 
-This is the upper-bound harm arm of a dose-response, not a threshold or plateau — supplementing a
-micronutrient above repletion can move a hard outcome the *wrong* way
--> [[The U-Shaped Association Artifact]] (the *more is better* fallacy, here realized on cancer and CV
-mortality). USPSTF also catalogues dose-dependent harms for vitamin E (haemorrhagic stroke), vitamin A
+A single dose above repletion moved a hard outcome the *wrong* way — consistent with an upper-bound harm region, the
+*more is better* fallacy realized on cancer and CV mortality -> [[The U-Shaped Association Artifact]]. USPSTF also catalogues dose-dependent harms for vitamin E (haemorrhagic stroke), vitamin A
 (reduced BMD, hip fracture), vitamin D (hypercalcaemia / kidney stones at >=1000 IU/day), and vitamin C
 (kidney stones) [@uspstf2022supp].
+
+**The primary trial behind the pooled figure — CARET, stopped early for harm.** The pooled RR rests on
+actual trials, chief among them **CARET**, which randomized 18,314 smokers and asbestos-exposed workers
+to beta carotene (30 mg/day) plus retinol vs placebo and was **halted 21 months early** [@omenn1996]:
+
+> «The active-treatment group had a relative risk of lung cancer of 1.28 (95 percent confidence interval,
+> 1.04 to 1.57 ... the relative risk of death from any cause was 1.17 (95 percent confidence interval,
+> 1.03 to 1.33); of death from lung cancer, 1.46 (95 percent confidence interval, 1.07 to 2.00) ... the
+> randomized trial was stopped 21 months earlier than planned» [EXTRACTED (Omenn - CARET Beta Carotene
+> Lung Cancer 1996) chunk 01]
+
+CARET is **not an independent second witness** of the USPSTF figure — it is one of the trials *inside*
+that pool (no `[E-independent]`); what it adds is the stratum-specific magnitude (a lung-cancer death RR
+**1.46** in this smoker/asbestos population) and the fact the harm was strong enough to stop a trial, both of which
+a pooled point estimate flattens.
+
+**The harm is broader than beta carotene and broader than cancer — the antioxidant-CLASS mortality
+signal.** A meta-analysis of 68 antioxidant RCTs (232,606 participants) found that, in the
+methodologically-sound (low-risk-of-bias) trials, supplemental antioxidants *raised all-cause mortality*
+[@bjelakovic2007]:
+
+> «In 47 low-bias trials with 180 938 participants, the antioxidant supplements significantly increased
+> mortality (RR, 1.05; 95% CI, 1.02-1.08). In low-bias risk trials, after exclusion of selenium trials,
+> beta carotene (RR, 1.07; 95% CI, 1.02-1.11), vitamin A (RR, 1.16; 95% CI, 1.10-1.24), and vitamin E
+> (RR, 1.04; 95% CI, 1.01-1.07), singly or combined, significantly increased mortality.» [EXTRACTED
+> (Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]
+
+So the harm arm is broader than beta-carotene-in-smokers: **in the low-risk-of-bias trials, supplemental
+beta carotene, vitamin A, and vitamin E each raise all-cause mortality**, while «Vitamin C and selenium
+had no significant effect on mortality» [@bjelakovic2007, 
+] — the four evidence states again, one per compound. **Two caveats bind it**: the **all-trials pool is null** (RR 1.02, 95% CI 0.98-1.06 [EXTRACTED
+(Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]) — the harm surfaces *only* after
+restricting to low-bias trials; and **vitamin A's 1.16 (the largest number) rests on this single
+meta-analysis's low-bias subset alone** — USPSTF graded only beta carotene and vitamin E, so it is the
+least-corroborated claim here.
+
+**The two beta-carotene figures do not independently reinforce each other**: USPSTF's beta-carotene pool and Bjelakovic's beta-carotene arm share CARET/ATBC as constituent
+trials, so the genuinely *new* content is vitamin A, vitamin E, and the all-cause endpoint — not a second,
+independent beta-carotene signal.
+
+**Vitamin E — the SAME endpoint, reconciled by bias restriction (not a tension).** USPSTF also examined
+vitamin E on all-cause mortality and found it null: OR 1.02 (95% CI 0.97-1.07; 9 RCTs; n = 107,772)
+[@uspstf2022supp] — the *same* outcome on
+which Bjelakovic's low-bias subset shows
+a small increase (1.04). So this is one endpoint, reconciled the same way as the rest: the broad pool is
+null, the low-bias restriction surfaces a small signal.
+
+**Two method lessons the pooled estimate carries**:
+(1) **risk-of-bias restriction surfaces the signal, it does not manufacture it** — the all-trials pool is
+null (1.02), the high-bias trials *alone* show apparent *benefit* (RR 0.91, 95% CI 0.83-1.00 [EXTRACTED
+(Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]), and the low-bias trials show harm (1.05),
+so pooling everything lets the spuriously-favourable high-bias trials cancel the harm — risk-of-bias
+appraisal was decision-determining -> [[Rating Certainty of Evidence]]; (2) the finding is about
+**synthetic isolates, not food** — the authors state it «should not be translated to potential effects of
+fruits and vegetables» [@bjelakovic2007] ->
+[[Is the Food Category Doing Any Work]].
 
 ## The one notable non-primary signal — n-3 and myocardial infarction
 

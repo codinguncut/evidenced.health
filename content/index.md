@@ -8,9 +8,9 @@ This is a **source-grounded appraisal** of the nutrition, exercise, and lifestyl
 exposure does, *for whom*, *how much*, and *how confident we should be*, with every claim traced back to
 the study or guideline it came from.
 
-[Read more about how this works and its honest limits →](about)
+[Read more about this project →](about)
 
-## Topics
+## Evidenced Topics
 
 Please click on one of the cards below to read about evidence-based topics.
 

@@ -1,142 +1,217 @@
 ---
 title: "The Biggest Health Levers After 70"
 type: deliverable
-subject: The big rocks for the obese older adult (\~70), robustness-sorted and function-first
-question: For the obese older adult, which exposures carry the largest expected benefit on the outcomes that matter at this age — and where do the levers that help a younger adult invert into hazards here?
-aliases: [Big Rocks Elderly, Big Rocks for the Obese Older Adult, Elderly Big Rocks]
-sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, ESC - CVD Prevention Guidelines 2021, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, NutriRECS - Red and Processed Meat Recommendations 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Cappuccio - Sleep Duration and Mortality 2010]
+sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, ESC - CVD Prevention Guidelines 2021, USPSTF - Statin Use Primary Prevention 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013]
 confidence: low
-created: 2026-07-30
 updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-**Who this is for.** A representative adult around 70 who is obese with a *sarcopenic* edge — extra
-visceral fat sitting on top of quietly-shrinking muscle — plus the usual travelling companions:
-hypertension (near-universal), prediabetes or diabetes, fatty liver (MASLD), thinning bone, some
-anabolic resistance, and a growing medication list. This is the functionally-drifting older adult, not
-the frail or institutionalised one (a different stratum) and not the fit 70-year-old (different again).
+This is a robustness-sorted outline of the big levers for **one reference class**: the obese older
+adult, roughly 70, carrying *sarcopenic obesity* (extra visceral fat plus some muscle loss), usually
+with high blood pressure, often with prediabetes or diabetes and fatty liver, some bone-density loss,
+and a growing medicine list. It is the functionally-drifting older adult, **not** the frail or
+institutionalised elderly (a different stratum), and not the fit 70-year-old (different again). It is a
+stratum, not a person: it names which levers move which outcomes and how good the evidence is; the
+weighing of length against function against burden stays the reader's
+([[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]).
 
-**The verdict up front.** Two things flip the younger-adult playbook. First, the outcomes that matter
-change: **muscle, function, bone, falls and independence become endpoints in their own right**, and a
-shrinking runway means pure longevity bets pay less. Second — and this is the headline — **the #1 lever
-for a younger drifting adult, "lose the visceral fat," partly inverts here.** Aggressive calorie
-restriction in this body burns muscle and bone it cannot spare. So the top of the list is no longer
-weight loss; it is **resistance training with enough protein, plus everyday aerobic activity for
-falls.** Weight loss stays useful but becomes *conditional and muscle-protective only*.
+The interesting result is that this is **not** simply the younger-adult big-rock list re-graded. Two
+things move at once, and they reorder the whole page.
 
-## Robust levers (a) — function first
+## What is different at 70 — two shifts
 
-**1. Resistance (strength) training + adequate-to-high protein — the top lever here.** This fights the
-sarcopenia that defines the stratum, preserves strength and independence, and the strength signal tracks
-lower mortality. Any muscle-strengthening activity versus none is associated with roughly 15% lower
-all-cause mortality (RR 0.85, 0.79-0.93), \~17% lower cardiovascular disease (RR 0.83), \~12% lower cancer
-(RR 0.88) and \~17% lower diabetes (RR 0.83) — independent of aerobic exercise, and additive with it
-(both together: RR 0.60, a 40% lower mortality risk) [@momma2022]. Weight it honestly: this is observational, self-reported, *very-low* certainty, so
-it sits below the blood-pressure evidence. Its **stronger** card is function and falls (below), plus the
-muscle-mass-predicts-mortality literature (real but not yet held here). The *dose* is small — most of the
-benefit by \~30-60 min/week — but treat the apparent "more is worse" upturn past \~2 h/week as an
-artifact, not a ceiling to fear. On protein, aim for **roughly 1.6 g/kg/day of total protein** — the
-point where extra protein stops adding lean mass (break point 1.62 g/kg/day, CI 1.03-2.20); the training
-is the driver, protein a modest RCT-grade adjunct (+2.49 kg on a 1RM, +0.30 kg lean mass) [@morton2018]. Caveat specific to this stratum:
-Morton's data show the *supplement's* extra benefit is **reduced with age** — that is not evidence older
-adults need *more* protein (the higher-target claim is unheld here; see gaps), only that the training
-still works and the top-up does a little less. Protein-plus-training is also the **guardrail on any
-weight loss**: it is how you drop fat without dropping muscle.
+**1. The outcomes that matter change.** For a younger drifting adult the target is mostly future
+cardiovascular events and long-run mortality. At 70, **function, muscle, bone, falls and independence
+become patient-important endpoints in their own right** — losing the ability to climb stairs, or
+avoiding a hip fracture, is the payoff, not a surrogate for it. And *competing risk shrinks the runway*
+for pure-longevity plays: the same intervention buys fewer disease-free years the older you are. The
+European cardiology guideline puts numbers on this — for a 1 mmol/L LDL reduction the modelled gain
+falls from roughly 0.6-1.6 CVD-free years at 45-49 to about 0-0.3 years by age 90
+[@esc2021, Figure 12] — and it drops lipid-lowering to a weaker
+recommendation class (IIb, "may be considered") at age >=70 even in its highest-risk band
+[@esc2021]. So the ranking is sorted on
+function-and-independence first, not on mortality alone ([[Lifetime Benefit - The Frame for Younger Adults]]).
 
-**2. Aerobic activity — for falls, and they are a patient-important outcome.** Long-term exercise
-reduces «falls, injurious falls, and probably fractures in older adults», the most confidently graded outcome class
-the evidence carries for this age [@who2020].
-Most of the mortality benefit arrives early and then flattens: maximal risk reduction at about **24
-min/day of moderate-to-vigorous activity**, or a larger volume of light activity (total-activity HR 0.34,
-0.27-0.43) [@who2020]. Sitting less is a
-*separate* lever (thresholds \~6-8 h/day total sitting, \~3-4 h/day TV). One honest limit: *frailty itself
-cannot be targeted* from this evidence — it is too ill-defined — so aim at falls and function, not at a
-"frailty score."
+**2. Does the headline younger lever — lose visceral fat — invert into a hazard? Partly, and the honest
+answer is "it becomes conditional, not forbidden."** The mechanism is real: aggressive energy
+restriction costs muscle and bone, which this stratum can least afford. But the wiki holds **no
+elderly-specific trial** of muscle-preserving weight loss, so the hazard is *reasoned from mechanism and
+age-moderation, not measured*. The result is a reclassification — weight loss drops from unqualified #1
+big rock to a **conditional, muscle-and-bone-protective** lever — rather than an outright reversal. It
+is detailed under the conditional levers below.
 
-## Conditional / inverted levers (b)
+Every lever is sorted **(a) robust**, **(b) conditional or age-bounded**, or **(c) small or contested**,
+re-graded for this stratum. This is a configuration, not a league table: the effects sit on different
+outcomes (falls vs events vs HbA1c vs mmHg) and cannot be lined up as one ranking
+([[Layer 1 - Ranking Interventions for a Stratum]]).
 
-**3. Weight / visceral fat — INVERTED, handle with care.** Do **not** prescribe aggressive energy
-restriction: in this body it accelerates the muscle and bone loss already underway. If weight loss is
-pursued — for the fatty liver, glycaemia, blood pressure or mobility — it must be **muscle-and-bone-
-protective: paired with resistance training and higher protein, and modest, never rapid.** And keep expectations calibrated to what weight loss actually moves: for
-the *liver*, sustained loss is dose-graded — «>=5%» cuts liver fat, «7-10%» improves inflammation, «>=10%»
-improves fibrosis [@easl2024]; for *diabetes*, an
-intensive programme put «46%» of short-duration patients into remission [@lean2018]. But for **hard heart attacks and strokes**, lifestyle weight loss did **not** cut
-events even in a large trial (HR 0.95, 0.83-1.09) [@look2013]; a 54-trial review confirms the CV-event null while finding a modest **all-cause**
-mortality benefit not routed through the heart (RR 0.82, 0.71-0.95; \~6 fewer deaths per 1000) [@ma2017]. So: pursue weight loss for glycaemia, liver and
-function, do it muscle-protectively, and do not oversell a heart-attack reduction the trials did not
-show.
+## (a) Robust for this stratum — function first
 
-**4. Blood pressure and glycaemia — real benefit, but age-adjusted and polypharmacy-cautious.** Higher
-absolute risk at this age means BP-lowering buys real absolute benefit: each 5 mmHg drop cuts major CV
-events by \~10%, even without prior disease and even at near-normal pressures (HR 0.91, 0.89-0.94)
-[@bplttc2021]; an intensive target
-cut events and death in high-risk adults (composite HR 0.75; all-cause HR 0.73; NNT 61 over \~3.3 years)
-[@sprint2015]. **But age flips the thresholds and the
-harms.** Intensive lowering raised hypotension, syncope, electrolyte problems and acute kidney injury
-[@sprint2015] — real costs when someone is already on
-several drugs and prone to orthostatic falls. Guidance pulls back accordingly: lipid-lowering drops to a
-"may be considered" class at «>=70» [@esc2021], and statin
-*initiation* is rated insufficient-evidence at >=76 yr [@uspstf2022]. Competing risk shrinks the lifetime payoff of any prevention lever [@esc2021]. **Treat on absolute risk, not a number — and here over-treatment is
-its own hazard.** Decide, dose and deprescribe are prescriber acts; this guide appraises, it does not
-set targets.
+**Resistance (strength) training, with adequate protein.** This is the lever that rises most at 70,
+because it defends exactly what this stratum is losing. In observational cohorts any muscle-strengthening
+activity carries all-cause mortality RR 0.85 (0.79-0.93) and diabetes RR 0.83 (0.77-0.89), independent of
+aerobic activity, with most of the benefit reached at a *small* weekly volume (\~30-60+ min/week)
+[@momma2022] — but that mortality signal is
+graded very low (self-reported, observational), so it is not the reason to do it. The stronger case runs
+through **function and falls**: long-term exercise reduces falls, injurious falls and probably fractures
+in older adults, including those with cardiometabolic disease — a patient-important outcome and the
+strongest outcome class the physical-activity evidence carries for this stratum
+[@who2020]. Building and using muscle
+also enlarges the body's glucose "sink," which is why the diabetes curve keeps falling with no upturn
+[@momma2022]. And resistance training plus
+adequate protein is the **guardrail on any weight loss below** — it is how you shed fat while keeping
+lean mass ([[Protein and Resistance Training for Muscle and Strength]]).
 
-## Small / contested levers (c) — further demoted vs function
+- **On the protein number, be precise about what is and isn't held.** For healthy adults, protein
+  supplementation adds muscle up to a plateau near **1.6 g/kg/day (95% CI \~1.0-2.2)**; above that, more
+  buys no further lean mass, and resistance training — not the protein — is the driver
+  [@morton2018]. The one age signal the
+  wiki holds is that the *supplement's* added lean-mass benefit is **reduced with age**
+  [@morton2018] — which does **not**
+  establish that older adults need *more* protein. The widely-cited higher elderly target (\~1.2-1.6+
+  g/kg, \~25-40 g per meal to overcome anabolic resistance) is **not held here** and is not asserted; it
+  is a named gap below.
+- **Why protein matters more during weight loss:** in a time-restricted-eating trial that gave no protein
+  guidance, roughly **65% of the weight lost was lean mass** (versus a normal 20-30%), flagged as a
+  caution for people at risk of sarcopenia [@lowe2020].
+  The mitigation is exactly this lever: keep protein and resistance training up.
 
-- **Saturated fat:** reducing it cuts cardiovascular *events* (15 fewer per 1000, RR 0.83; NNT \~56 over
-  \~4 years) but does **not** measurably reduce dying (mortality nulls at moderate certainty) [@who2023saturated, EXTRACTED (Hooper - Saturated Fat Reduction
-  Cardiovascular Cochrane 2020)]. Replace it with polyunsaturated fat or whole-grain carbohydrate — the
-  substitution sets the sign.
-- **Free sugars:** the «<10%» limit is really a *dental* recommendation; swapping sugar for other
-  carbohydrate at equal calories moves weight by 0.04 kg (null) [@who2015].
-- **Sodium:** lowering it drops systolic BP \~3.39 mmHg (hard outcomes only very-low certainty)
-  [@who2012]. Flag the flip side in the old: **over-restriction of salt (and
-  of calories) can worsen appetite and intake and feed frailty** — aggressive is not better here.
-- **Red / processed meat:** the absolute cancer signal is small (\~7 fewer cancer deaths per 1000 over a
-  lifetime for cutting \~3 servings/week) and guidance bodies split on whether to act on it [@nutrirecs2019]. It matters *more* here for a different
-  reason: red meat is high-quality protein, so cutting it shifts the protein budget the muscle lever
-  depends on ([[Protein Quality and the DIAAS Score]]).
-- **Alcohol:** the "moderate drinking protects" J-curve is largely an artifact (shown by bias-correction
-  and by genetics) [@millwood2019]. Harm
-  begins earlier for women (\~25 g/day) than men (\~45 g/day) [@zhao2023] — and at this age it interacts with the medication list and the liver.
-- **Sleep:** aim for \~7-8 h. Short sleep (<7 h) carries a real \~12% higher mortality with a plausible
-  mechanism; the larger "long sleep" risk (RR 1.30) is mostly a *marker* of underlying illness, so
-  shortening a long sleeper's sleep optimises a symptom, not the cause [@cappuccio2010].
+**Aerobic activity** — for falls, function, and mortality. Roughly 24 min/day of moderate-to-vigorous
+activity reaches most of the measured mortality benefit, after which the curve flattens
+[@who2020]; for this stratum the
+falls/fracture and function payoff above weighs more than the mortality number. One honesty note the
+evidence forces: **frailty itself cannot be targeted** — it is too ill-defined for an optimal
+intervention to be built, per the guideline's own review
+[@who2020]. Aim at strength,
+balance and aerobic capacity, which are measurable; not at "frailty."
 
-## The gaps — this guide's main product
+## (b) Conditional or age-bounded
 
-The evidence here is genuinely thin on the *elderly-specific* questions. Stated plainly so they can be
-acquired, not papered over:
+**Weight / visceral fat — real benefits, but conditional and muscle-protective, never rapid.** Weight
+loss keeps genuine, patient-important benefits at this age: it is the base lever for fatty liver, where
+the histological gain is dose-dependent (>=5% of body weight reduces liver fat, 7-10% improves
+inflammation, >=10% improves fibrosis) [@easl2024];
+and an energy-restricted programme put **46% of shorter-duration type-2-diabetics into remission** off
+drugs, on a weight-loss gradient [@lean2018]. What it does
+**not** reliably buy is fewer heart attacks: the largest lifestyle weight-loss trial was null on
+cardiovascular events (HR 0.95, 0.83-1.09) despite real weight loss, and a 54-trial meta-analysis
+confirms the CV-event null while finding a modest all-cause mortality reduction (RR 0.82, 0.71-0.95)
+that runs *around* the heart rather than through it
+[@look2013] [@ma2017].
 
-- **Sarcopenia / anabolic-resistance protein dosing.** The wiki holds only Morton's age-moderation; a
-  dedicated older-adult protein target (per-meal threshold, \~1.2-1.6+ g/kg) is **unheld** — the top
-  acquirable gap.
-- **Bone mineral density.** Interventions (loading exercise, protein, weight) for BMD are essentially
-  unheld.
-- **Muscle-and-bone-preserving weight loss in the elderly.** The central trade-off of this whole guide,
-  and no elderly-specific trial is held. The *rate* of loss and the maintenance phase are mechanism, not
-  a measured threshold.
-- **Obesity paradox in the very old** (whether moderate overweight is protective via reserve/competing
-  risk) — unheld, and it bears directly on the weight lever.
-- **Deprescribing / polypharmacy** — unheld and largely *out of scope* (a prescriber act): named, not
-  appraised.
-- **Elderly-specific CV trials** (SCORE2-OP for older persons; BP/statin trials in the old) — not held.
+So for this stratum the framing is: **pursue weight loss for the liver, glycaemia, blood pressure and
+mobility it does move — but make it muscle-and-bone-protective (paired with resistance training and
+adequate protein) and modest, not rapid.** The "aggressive restriction accelerates
+sarcopenia and bone loss" concern is mechanism plus the held age-moderation, **not** a measured elderly
+harm — the wiki holds no elderly trial of muscle-preserving weight loss, and no obesity-paradox source,
+so this is stated as conditionality, not evidenced hazard. That gap is the single biggest hole in this
+deliverable ([[Does Weight Loss Reduce Cardiovascular Events]], [[Fatty Liver MASLD and Weight Loss]]).
 
-## Caveats (the fine print that binds harder here)
+**Blood pressure, glycaemia and lipids — age-adjusted, competing-risk-aware, polypharmacy-cautious.**
+Higher *absolute* cardiovascular risk at 70 means blood-pressure lowering has real absolute benefit here:
+its relative effect is proven even in primary prevention (HR 0.91 per 5 mmHg, 0.89-0.94, with no
+pre-existing heart disease and no fall-off at lower baseline BP)
+[@bplttc2021], and in a high-risk
+trial an intensive target cut the composite by 25% and all-cause mortality by 27% (NNT 61 over 3.3 years)
+— but at a real cost of hypotension, syncope, electrolyte disturbance and acute kidney injury (though
+*not*, in that trial, injurious falls) [@sprint2015].
+Two age qualifiers bound the lipid and glycaemia levers: the cardiology guideline drops lipid-lowering
+to class IIb at >=70 [@esc2021], and the US preventive
+task force finds statin *initiation* insufficiently evidenced at age >=76
+[@uspstf2022]. Competing risk caps the lifetime payoff, and
+**polypharmacy plus fall and orthostatic risk make over-treatment its own harm**. Read the low-risk
+"ceiling" finding in reverse: this stratum is *high* absolute risk, so the BP and lipid levers do buy
+real absolute benefit — until competing risk closes the window, leaving a narrower, age-bounded one
+([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]],
+[[Baseline Risk and the Relative-Absolute Split]]). *Appraise, do not prescribe* binds hardest here
+(see caveats).
 
-- **Open loop.** This grades coherence and fidelity to sources, never validity. Nothing here has been
-  checked against a realised outcome; a clean guide is not a validated recommendation.
-- **Appraise, do not prescribe — and this binds harder at 70.** Polypharmacy, deprescribing, drug
-  interactions, fall-risk titration and BP/glucose target-setting are prescriber acts this guide cannot
-  do.
+## (c) Small or contested — weighed against the function-first outcomes
+
+- **Saturated fat / PUFA.** Reducing saturated fat prevents about **15 cardiovascular events per 1000**
+  (RR 0.83, 0.70-0.98, moderate certainty) — events only; every mortality outcome is null
+  [@who2023saturated, Annex 6]. In trial terms that is a number
+  needed to treat of \~56 over four years [@hooper2020].
+  The relative effect is constant across baseline risk, so the *absolute* benefit is somewhat larger at
+  this stratum's higher risk — but a four-year horizon shrinks as competing risk grows. A small lever
+  ([[Saturated Fat Intake and Replacement]]).
+- **Free sugars.** The 10%-of-energy limit is essentially a **dental** recommendation; the weight effect
+  is an energy effect, not a sugar-specific one (swapping sugars for other carbohydrate at equal calories
+  moved weight by 0.04 kg, null) [@who2015]. Little bearing on this stratum's
+  priority outcomes ([[Free Sugars Intake]]).
+- **Sodium — and here the lever is genuinely double-edged for the old.** Reducing sodium lowers blood
+  pressure (about 3.39 mmHg systolic, high certainty) but its hard-outcome evidence is very low certainty
+  [@who2012], and the guideline deliberately *excluded* people prone to low
+  sodium (heart failure, on certain drugs) [@who2012, Remarks]. **Aggressive
+  sodium (or energy) restriction can worsen appetite and intake in a frailty-prone older adult**, so this
+  is not a lever to push hard here ([[Sodium Intake and Blood Pressure]]).
+- **Red / processed meat.** The evidence is a standing tension: one body says limit it, another says
+  adults may continue, over the same low-certainty cohort data and a small absolute effect (about 7 fewer
+  cancer deaths per 1000 over a lifetime for a 3-servings/week cut)
+  [@wcrf2018] [@nutrirecs2019].
+  For this stratum a second axis pulls the other way: **meat is a high-quality protein source, and protein
+  matters more here** — cutting it shifts protein toward lower-quality plant sources unless dairy, eggs or
+  fish fill the gap ([[Should Adults Reduce Red and Processed Meat]]).
+- **Alcohol.** The "moderate drinking protects" J-curve is largely an artifact of how ex-drinkers are
+  counted — bias-corrected observational and genetic (Mendelian-randomization) analyses both remove the
+  protective arm [@stockwell2016] [@millwood2019].
+  Mortality harm becomes significant at a **sex-specific** threshold — from \~25 g/day in women, \~45 g/day
+  in men [@zhao2023]. For this stratum the
+  interaction with polypharmacy and the fatty liver sharpens the case to keep intake low
+  ([[Alcohol and Mortality and Vascular Disease]]).
+- **Sleep.** Aim for roughly 7-8 h; chronic short sleep carries a real \~12% higher mortality (RR 1.12)
+  with a plausible mechanism, but the larger *long*-sleep association (RR 1.30) has no mechanism and is
+  mostly a **marker of underlying illness**
+  [@cappuccio2010]. In an older adult a new pattern
+  of long sleep is a prompt to look for occult illness, not a sleep-reduction target
+  ([[Sleep Duration and Mortality]]).
+
+## The big rock that does not invert — smoking
+
+For a smoker at any age, cessation stays the largest available lever. Current smokers die at about three
+times the never-smoker rate, and even quitting at 45-54 still gains about **6 years of life expectancy**
+[@jha2013]. No nutrition or activity lever on
+this page approaches it; for an elderly smoker it dominates the ranking ([[Smoking and Mortality]]).
+
+## The gaps — this deliverable's main product
+
+The fabric is genuinely thin on the elderly-*specific* questions. These are stated plainly because they
+are what the cut is for; each is routed for acquisition.
+
+- **Sarcopenia / anabolic-resistance protein dosing.** The wiki holds only the general \~1.6 g/kg plateau
+  and the age-moderation of the supplement's benefit. A dedicated older-adult source (per-meal leucine
+  threshold, \~1.2-1.6+ g/kg guidance) is the **top acquirable gap** — and until it lands, no elevated
+  elderly protein target is asserted here.
+- **Bone mineral density.** Interventions for BMD (loading exercise, protein, weight) are essentially
+  unheld — a hole directly under the weight-loss trade-off.
+- **Muscle-and-bone-preserving weight loss in the elderly.** The central trade-off of this whole cut,
+  and the wiki holds no elderly-specific trial. This is why the weight lever is graded conditional rather
+  than robust or hazardous.
+- **Rate of weight loss and the maintenance phase.** No held trial on how fast to lose or how to hold it;
+  "gradual, not rapid" is mechanism, not a measured threshold.
+- **Obesity paradox in the very old.** Whether moderate overweight is protective at advanced age
+  (competing risk / reserve) is unheld, and it bears directly on whether to pursue weight loss at all.
+- **Deprescribing / polypharmacy.** Unheld, and largely a prescriber act — named, not appraised.
+- **Elderly-specific cardiovascular trials** (older-persons risk models; intensive-BP and statin trials
+  in the old) are staged or unheld.
+- **Grip strength / muscle mass as mortality predictors** — robust as predictors, unheld, and predictors
+  are not proof that the intervention moves the outcome.
+
+## Mandatory caveats
+
+- **The loop is open.** The wiki grades coherence and fidelity to its sources, never validity. Nothing
+  here has been checked against a realized outcome; a clean internal audit is not a validated
+  recommendation.
+- **Appraise, do not prescribe — and this binds hardest here.** Polypharmacy, deprescribing, drug
+  interactions, fall-risk titration, and setting BP or glucose targets in an older adult are prescriber
+  acts requiring this person's labs, medicines and history — which the wiki does not hold.
 - **A stratum, not a person and not everyone.** The frail or institutionalised elderly are a different
-  stratum; the fit older adult differs again. The weighting of function-vs-length, and of any non-health
-  concern, is the person's.
-- **Guidance-null.** This mostly *agrees* with mainstream geriatric guidance — protect muscle and bone,
-  avoid aggressive restriction in the old, pull back on aggressive prevention thresholds past 70 — while
-  being sharper than a single guideline on why the weight lever inverts. Where it diverges (e.g. treating
-  strength/protein as the top rock rather than weight loss), the divergence is the reorder, not new
-  evidence.
+  stratum; the fit older adult differs again. The weighing of length against function against treatment
+  burden is the person's, elicited case by case.
+- **Guidance-null.** This broadly agrees with mainstream geriatric guidance on protecting muscle and
+  function and on treating cardiovascular risk more cautiously with age; where it goes further is in
+  naming, out loud, how thin the elderly-specific weight-loss and protein-dosing evidence actually is,
+  and in refusing to assert an elevated elderly protein target the fabric does not hold.
 
 ## References

@@ -1,277 +1,250 @@
 ---
 type: deliverable
-subject: GLP-1 / GIP-GLP-1 receptor agonists (semaglutide, tirzepatide) taken primarily for weight
-question: Does the expected benefit of a GLP-1 receptor agonist outweigh the expected harm on patient-important outcomes, and does that answer flip by stratum?
-aliases: [GLP-1 Benefit Risk, Ozempic Wegovy Benefit Risk, Semaglutide Do Benefits Outweigh Risks, GLP-1 Weight Loss Appraisal, Should I Take a GLP-1 for Weight]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, EASL - MASLD Clinical Practice Guidelines 2024, GRADE - Handbook]
-confidence: low
-created: 2026-07-30
+question: For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum?
+authors: [Lincoff, A Michael; Wilding, John P H; Look AHEAD Research Group (org); Ma, Chaoyang; European Association for the Study of the Liver (org); Morton, Robert W; Momma, Haruki]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, EASL - MASLD Clinical Practice Guidelines 2024, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, GRADE - Handbook]
+confidence: medium
 updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-**The answer is not one answer — it flips by who is asking.** The same drug
-(semaglutide/Wegovy/Ozempic; tirzepatide/Mounjaro/Zepbound) is a large, well-evidenced lever for one
-person and a small-benefit / fixed-risk bet for another. The variable that flips it is **baseline
-risk**: how much cardiovascular and metabolic danger the person already carries.
+There is no single answer, and pretending there is one is the main way this question goes wrong. A
+GLP-1 receptor agonist (semaglutide, liraglutide, or the dual GIP/GLP-1 agonist tirzepatide) taken
+primarily for weight is **two different decisions wearing one name**, because the benefit and the harm
+do not move together across strata. For a person with class II/III obesity **and** established
+cardiovascular disease, the drug has a proven benefit on a hard outcome and the balance is favourable.
+For a near-normal-BMI person taking it for cosmetic loss — the tail actually driving the unprecedented
+scale of adoption — the proven benefit shrinks to surrogates, the hard-outcome benefit is unproven, and
+the risk side is mostly **not yet knowable from the evidence that exists**. The honest verdict is
+stratum-dependent, and the second stratum's answer is dominated by a gap, not by a number.
 
-- **For class-II/III obesity (BMI >=35) with established heart disease or metabolic comorbidity:** the
-  benefits are large and, on the hardest endpoint, proven. This is a big lever, and the weight/adiposity
-  it removes *is* the biggest modifiable rock in that stratum
-  ([[Layer 1 - Ranking Interventions for a Stratum]]).
-- **For a near-normal-BMI person taking it for cosmetic loss** (the group driving the drug's
-  unprecedented scale of adoption): the proven hard-outcome benefit shrinks toward zero, while the harm
-  profile and the long-horizon unknowns stay the same size. Here the benefit-risk ratio can **invert**.
+Two disciplines run underneath everything below. **Weight is a surrogate, not an outcome** — a weight or
+HbA1c number earns decision weight only where its causal transmission to something a person cares about
+(an event, function, mortality, quality of life) is itself evidenced [@grade]
+-> [[Surrogate Outcomes]]. And **the honest comparator is a lifetime strategy including its exit**, not a
+68-week trial result — because the effect is contingent on continuing the drug.
 
-*Same drug, opposite verdict.* Everything below is an appraisal of what the drug does, for
-whom, and how much — **not** a prescription (see the load-bearing caveat at the foot).
+## The two strata, and why they diverge
 
-## The one-line verdict, by stratum
+The engine is arithmetic, not opinion: absolute benefit = relative risk reduction x baseline risk
+[@grade] -> [[Baseline Risk and the Relative-Absolute Split]]. A drug that
+removes a fifth of cardiovascular risk removes a fifth of a large risk and a fifth of a negligible one.
+So the same relative effect is decisive in one stratum and immaterial in another, with no disagreement
+about the evidence.
 
-| Stratum | Proven hard-outcome benefit | Net verdict (this cut) |
-|---|---|---|
-| Obese + established cardiovascular disease, non-diabetic | **Yes** — MACE cut 20% (see below) | Strong lever; benefit clears the known harms |
-| Obese + type 2 diabetes or prediabetes | Glycaemia/diabetes-prevention benefit large; CV-event benefit high-risk-only | Favourable in this stratum |
-| Obese, low cardiovascular risk (no established disease) | **Unproven** — never tested for events here | Weight/metabolic gains real (surrogates); CV promise not earned |
-| Near-normal BMI, cosmetic use | **None demonstrated** | Small benefit vs fixed harm + large unknowns; the ratio can invert |
+- **High-risk stratum** — obesity (BMI >=27) with established atherosclerotic disease, non-diabetic.
+  Baseline event rate \~2.4%/year. This is the population the landmark hard-outcome trial actually
+  enrolled.
+- **Lean / cosmetic stratum** — near-normal BMI, no established disease, low 10-year risk (often
+  \~0.5%/year, roughly 5x below the trial population). This person was **never studied** for a
+  hard-outcome benefit, and sits outside the tested support factors on almost every axis.
 
-"MACE" = major adverse cardiovascular events (the composite of cardiovascular death, non-fatal heart
-attack, non-fatal stroke). "HR" = hazard ratio, a relative effect: HR 0.80 means a 20% lower rate.
-"Surrogate" = a marker measured as a stand-in for the outcome a person actually cares about (weight and
-HbA1c are surrogates; heart attacks, function, and death are the real endpoints).
+## What is proven — the benefit side (held evidence)
 
-## Why the same drug gives opposite answers: baseline risk
+**Weight and appetite: large, reliable, dose-dependent — but a surrogate plus a patient-reported
+outcome, not a hard endpoint.** In STEP-1 (semaglutide 2.4 mg, essentially a primary-prevention obese
+population, mean age 46), mean weight change was -14.9% vs -2.4% on placebo at week 68 (a -12.4
+percentage-point difference); half the treated group lost >=15% and a third lost >=20%, the latter
+approaching what is reported after bariatric surgery. Waist fell -9.4 cm and systolic BP -5.1 mmHg
+[@wilding2021] -> [[Semaglutide for Cardiovascular Risk in Obesity]]. Tirzepatide's pivotal obesity trial (SURMOUNT-1) reports a larger weight effect
+still and is the class's high-water mark for the surrogate.
 
-The machinery is one line of arithmetic ([[Baseline Risk and the Relative-Absolute Split]]):
+**Cardiovascular events: proven — but only in secondary prevention.** SELECT (n=17,604, on top of 90%
+lipid-lowering therapy [mostly statins] and 86% antiplatelet use) cut the primary MACE composite (cardiovascular death, non-fatal
+myocardial infarction, non-fatal stroke) from 8.0% to 6.5%, hazard ratio 0.80 (95% CI 0.72-0.90) over a
+mean 3.3 years — an absolute reduction of 1.5 percentage points, NNT \~67, on top of guideline therapy
+[@lincoff2023]. Read the composite
+carefully: only the primary result is confirmatory. CV death was HR 0.85 (0.71-1.01, P=0.07) and failed
+the pre-specified gatekeeping test, so all-cause mortality (0.81, 0.71-0.93) and the heart-failure
+composite are directionally favourable but statistically **non-confirmatory** — "semaglutide reduces
+mortality" is a common overread of this trial. Non-fatal MI (0.72, 0.61-0.85) carries most of the
+benefit; non-fatal stroke (0.93, 0.74-1.15) was not reduced. The trialists state the load-bearing limit
+themselves: only patients with pre-existing cardiovascular disease were included, and primary prevention
+was not studied [@lincoff2023].
 
-    absolute benefit  =  relative risk reduction  x  baseline risk
+**Diabetes prevention: large, on a glycaemic surrogate.** Two-thirds of SELECT was prediabetic;
+progression to diabetes was cut sharply (HR 0.27, 0.24-0.31), and in STEP-1's younger population 84% of
+prediabetics reverted to normoglycaemia vs 48% on placebo [@lincoff2023, EXTRACTED (Wilding - Semaglutide STEP-1 Weight Management 2021)].
 
-The *relative* effect (the HR) is roughly constant across people; the *absolute* benefit is that constant
-reduction applied to the person's own risk, so it scales with how much risk they start with
-[@grade]. A therapy that removes a fifth of a large risk removes a fifth of a
-negligible one — which is a large gain in the first case and a rounding error in the second. This is why
-a high-risk obese patient and a lean cosmetic user can face *the same* HR and *opposite* net verdicts,
-with no disagreement about the evidence.
+**Fatty liver (MASLD): a dose-dependent histological benefit on a common comorbidity.** Sustained weight
+loss reduces liver fat at >=5% of body weight, improves inflammation at 7-10%, and improves fibrosis at
+>=10% [@easl2024] -> [[Fatty Liver MASLD and Weight Loss]]. Two caveats bind: the benefit is on the reversible stages (lifestyle weight loss is not
+shown to reverse advanced fibrosis or cirrhosis), and weight tends to regain — maximal loss at 6 months
+with partial regain of liver fat by 12-24 months. Kidney and sleep-apnoea hard-outcome benefits are
+claimed for the class but are **not yet held** here (the FLOW renal trial; the HFpEF and sleep-apnoea trials are
+named but un-acquired).
 
-## What is proven, and where (the benefit side)
+## The stratum flip — do not transport the benefit
 
-### Cardiovascular events — the hard endpoint, high-risk only
+The high-risk stratum's proven CV benefit is routinely misapplied to the lean cosmetic user. It does
+**not** reach that user, for two independent reasons:
 
-The landmark is the **SELECT** trial (Lincoff, NEJM 2023; n=17,604), the first demonstration that
-treating obesity with a drug reduces hard cardiovascular events. On top of standard care (90% on statins,
-86% on antiplatelets), semaglutide cut the primary MACE composite: «569 of the 8803 patients (6.5%)» on
-drug vs «701 of the 8801 patients (8.0%)» on placebo — **HR 0.80 (95% CI 0.72 to 0.90), a 20% reduction**
-over a mean 39.8 months [@lincoff2023]. In
-absolute terms that is **1.5 percentage points over \~3.3 years, an NNT of about 67** (67 people treated
-for \~3.3 years to prevent one event).
+- **Absolute benefit scales with baseline risk.** A primary-prevention person at \~5% 10-year risk sits
+  roughly 5x below SELECT's placebo event rate. Apply the same HR 0.80 and the absolute reduction shrinks
+  \~5-fold, from \~1.5 pp toward a fraction of a percentage point — *even if the relative effect
+  transported*.
+- **The relative effect itself may not transport.** Secondary and primary prevention differ on the exact
+  axis (plaque already present vs not) that plausibly drives the effect, and SELECT cannot speak to it.
+  This is the **insufficient-evidence** state, not the **no-effect** state: the drug was not shown to
+  stop working in primary prevention, it was never tested there [@lincoff2023].
 
-**The population is the whole point.** SELECT enrolled only «patients ... who had preexisting
-cardiovascular disease» (prior heart attack, stroke, or symptomatic peripheral artery disease) — a
-**secondary-prevention** group (already has the disease). The trialists state the limit themselves:
+So for the lean user the honest benefit ledger is: **large, reliable weight loss and metabolic-surrogate
+improvement, and diabetes prevention if prediabetic — with the cardiovascular-event benefit unproven and
+small-by-construction even if real.** The corpus reinforces this from the other side: no cardiometabolic
+intervention it holds — semaglutide, statin, or lifestyle weight loss — has a proven *large* reduction in
+hard CV events for a genuinely low-risk person; that ceiling is itself a finding, not a gap
+-> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
 
-> «The effects of semaglutide on primary prevention of cardiovascular events in persons with overweight
-> or obesity but without previous atherosclerotic disease were not studied.»
-[@lincoff2023]
+## The risk side — mostly a named gap, and that is the finding
 
-So for an obese person **without** established heart disease, the hard-outcome benefit is **not proven** —
-this is the *insufficient-evidence* state, not the *no-effect* state (they are different: nobody showed
-the drug stops working, only that it was never tested there). And even if the relative effect transported,
-the *absolute* benefit at a low baseline would be several-fold smaller by the arithmetic above. For the
-lean cosmetic user, transporting SELECT's MACE result is doubly unwarranted — wrong population, and a
-small number even if it held.
+The alarm that "we may not know enough for this scale" has to be cashed out into specific, testable
+unknowns rather than left as an unfalsifiable "it's complicated". Doing so is what separates a real gap
+from hand-waving. Here is the risk side by evidence state.
 
-One more caution inside SELECT: only the primary MACE result is confirmatory. Cardiovascular death alone
-was «HR 0.85; 95% CI 0.71 to 1.01; P = 0.07» — it **failed** the pre-specified gate, so everything
-downstream (including all-cause mortality «0.81, 0.71 to 0.93») is a point estimate, not a confirmed
-effect. *Semaglutide reduces mortality* is a common but unlicensed reading of this trial. Non-fatal
-stroke «0.93 (0.74 to 1.15)» was **not** reduced; the heart-attack and revascularization components carry
-the composite [@lincoff2023].
+**Held now (from the trials above):**
 
-### Weight and appetite — large, well-evidenced, but a surrogate
+- **Gastrointestinal adverse events — common, dose/titration-dependent, mostly transient.** In STEP-1,
+  more participants discontinued for GI events than on placebo (4.5% vs 0.8%), with GI events the
+  dominant tolerability cost, mostly mild-to-moderate and subsiding with time
+  [@wilding2021]. Countervailing: **serious** adverse
+  events were *lower* on the drug in the high-risk SELECT population (33.4% vs 36.4%) and *higher* in
+  STEP-1's healthy population (9.8% vs 6.4%) — not a contradiction but the baseline-risk arithmetic again,
+  since the sicker population has more background events for the CV benefit to offset.
+- **Continuation-dependence — the effect reverses on stopping.** The held trials establish that the
+  weight benefit is not durable off-drug; this is a sustained commitment, not a course of treatment
+  [@wilding2021]. The precise rebound magnitude (the
+  STEP-1 withdrawal extension reported roughly two-thirds of lost weight regained) is **not yet held**.
 
-This is the drug's headline effect and it is real. In **STEP-1** (Wilding, NEJM 2021), run in an
-essentially primary-prevention obese population (mean age 46, no cardiovascular disease required),
-semaglutide produced mean body-weight change «-14.9%» vs «-2.4%», a **12.4-percentage-point** difference;
-responders losing >=10% were «69.1%» vs «12.0%», >=15% «50.5%» vs «4.9%», and >=20% «32.0%» vs «1.7%» —
-the last «approaching that reported 1 to 3 years after bariatric surgery»
-[@wilding2021]. Systolic blood pressure fell \~5 mmHg
-and fat mass fell more than lean mass. Many users also report reduced "food noise" (intrusive food
-thoughts), a patient-reported benefit.
+**Unheld — stated as gaps, not as reassurance (silence in a short trial is not a null):**
 
-Tirzepatide (a dual GIP/GLP-1 agonist) produces even larger weight loss, but its landmark efficacy trial
-is **not yet held in this wiki** — and
-it has **no** dedicated cardiovascular-outcome trial, so its hard-endpoint standing is weaker than
-semaglutide's, not stronger.
+- **Lean-mass loss / sarcopenia risk.** STEP-1 held that fat mass fell more than lean mass, which is
+  reassuring on its face; but a dedicated body-composition meta-analysis quantifying the lean-mass
+  fraction, and separating drug-specific loss from the loss that *any* rapid large weight reduction
+  produces, is **not yet held**. The
+  attribution question is the sharp one: lean-mass loss of roughly a quarter to a third of total mass
+  lost is generic to fast weight loss by any route (diet, bariatric), so it is a cost of the *goal* where
+  it is weight-loss-generic, and a debit of the *drug* only where appetite suppression drives protein
+  intake down. Either way the mitigation is held and decisive: **resistance training plus adequate
+  protein (\~1.6 g/kg/day) preserves lean mass during weight loss** [@morton2018] -> [[Protein and Resistance Training for Muscle and Strength]]. The worked failure is instructive — an unguided 16:8 eating window lost \~65% of its weight
+  as lean mass vs a normal 20-30%, attributed to a short window cutting protein intake
+  [@lowe2020]. This makes lean-mass loss a "modify
+  the strategy, don't discard it" case, not a veto — and muscle, function, and falls are patient-important
+  outcomes, not cosmetic ones -> [[Muscle-Strengthening Activity and Mortality]].
+- **Gallbladder disease, pancreatitis, gastroparesis / ileus (with anaesthesia-aspiration relevance) —**
+  established-to-signal, dose-dependence unquantified here.
+- **Reward / mood / anhedonia — the "loss of joy" beyond food.** Mechanistically linked to the appetite
+  pathway and a real quality-of-life cost, but systematically under-measured because trials count events
+  and weight, not the trajectory of what a person values (the streetlight effect on the outcome side). It
+  is unmeasured, which is distinct from absent.
+- **Thyroid C-cell / medullary carcinoma —** a rodent signal, not established in humans; this is the
+  transportability trap (animal != human). Held as insufficient/candidate, not as a human finding.
+- **NAION (an eye disorder), bone density, pregnancy exposure, adolescent long-term development, and
+  psychiatric outcomes —** mostly *insufficient evidence*, long-horizon. State as unknowns, never as
+  nulls.
 
-**But weight is a surrogate.** A weight number is a legitimate *target* only if its causal transmission to
-a patient-important outcome is itself evidenced ([[Surrogate Outcomes]]). That transmission is established
-for **cardiovascular events in the high-risk stratum** (SELECT) and is **not** established for events in
-low-risk people, nor for mortality — see the next section.
+The pharmacovigilance umbrella that would grade several of these together is registered but **not yet
+ingested**, as is the sarcopenia
+consensus that would ground the muscle stakes. Until they land, the risk half of
+this deliverable is deliberately a **named gap** with
+its evidence states kept distinct — not a quantified harm ledger, and not a clean bill of health.
 
-### Glycaemia and diabetes prevention — large in the diabetic/prediabetic stratum
+## Efficacy-while-taken is not the lifetime net
 
-Two-thirds of SELECT was prediabetic, and progression to diabetes was cut sharply (HbA1c >=6.5%: «0.27,
-0.24 to 0.31»). STEP-1 shows the same: among prediabetic participants, «84.1%» reverted to normoglycaemia
-by week 68 vs «47.8%» on placebo [@lincoff2023, (Wilding - Semaglutide STEP-1 Weight Management 2021)]. Real and relevant for an obese person with
-impaired glucose — though this is a glycaemic *threshold* (a surrogate), not yet a demonstrated reduction
-in hard diabetes complications in primary prevention.
+The trials measure the drug while it is being taken. The decision is about a lifetime, and the two come
+apart at the exit. Because the effect reverses on discontinuation, the drug scores poorly on **structural
+leverage** — the property of reshaping physiology or environment so future choices are easier. It
+substitutes for the behaviour rather than reshaping it, and the substitution unwinds on stopping
+-> [[Does Weight Loss Reduce Cardiovascular Events]]. That is not a verdict against it — a substitute you
+take indefinitely can beat a sustainable change you never achieve, and adherence is part of the effect —
+but it reframes the comparator. The honest contest is
+**lifetime drug (including its cost, its GI tax, and its rebound if stopped) vs a sustainable behavioural
+or environmental change**, judged on net effect over the realistic horizon, not drug-while-taken vs
+nothing.
 
-### Liver, kidney, and other organ endpoints
+## The known-unknowns, estimated honestly
 
-For fatty liver (MASLD), weight loss is the base-layer treatment and its benefit is dose-dependent: EASL's
-ladder is **>=5%** loss to cut liver fat, **7-10%** to improve inflammation (steatohepatitis), **>=10%** to
-improve fibrosis [@easl2024]. GLP-1-driven weight loss of
-\~15% comfortably reaches those thresholds, so the liver benefit is mechanistically expected — though
-formal GLP-1 liver-histology and the kidney-outcome evidence are separate trials, one of which is **not
-yet held**. Note the reframe MASLD
-carries: for most people its dominant danger is cardiovascular/metabolic, not hepatic (MASLD raises
-non-fatal cardiovascular disease risk «HR 1.40» and more than doubles diabetes risk) — so the liver is
-another reason to move the *same* weight lever, not a separate intervention
-([[Fatty Liver MASLD and Weight Loss]]).
+You cannot quantify unknown unknowns by construction. What you *can* size is the **evidence-horizon vs
+use-horizon mismatch**, and that mismatch is itself the estimate of exposure to them. Trials ran 1-4
+years in defined populations — high-BMI, often high-CV-risk or diabetic. Mass adoption is lifetime,
+frequently off-label, and reaches the lean, the adolescent, the peri-partum, and the psychiatric —
+populations outside the tested support factors, so neither the effect nor the safety transports by
+evidence grade alone -> [[transportability]]. The fraction of real-world, lifetime, lean-population
+drug-exposure that the trial base has actually observed is small. **That small fraction is the
+quantifiable core of "we may not know enough for this scale"** — and it is a statement about the
+evidence, not a claimed harm. It is also, crucially, *permanent until time passes*: no amount of
+searching now closes a gap whose only cure is decades of follow-up.
 
-## The surrogate trap: weight loss is not a guaranteed heart lever
+## Net effect against the realistic alternatives
 
-The most important discipline in this whole appraisal: **a favourable weight/marker change is not a proven
-averted event.** The cleanest evidence is from the lifestyle route.
+Obesity itself carries large risk, so "no drug" is not "no risk", and the comparison must be between
+complete strategies:
 
-- **Look AHEAD** (the largest, longest trial of intensive lifestyle weight loss, in 5,145 adults with type
-  2 diabetes) drove real weight loss, better HbA1c, fitness, blood pressure and inflammatory markers — nearly every *surrogate* moved the right way — and yet the cardiovascular composite
-  was **null: HR 0.95 (95% CI 0.83 to 1.09)**, stopped early for futility
-  [@look2013].
-- A **54-trial meta-analysis** (Ma 2017, 30,206 obese adults) generalizes it: cardiovascular events were
-  null (RR 0.93, 0.83 to 1.04), but **all-cause mortality fell (RR 0.82, 0.71 to 0.95)** — a benefit *not
-  routed through the heart* [@ma2017].
+- **Sustained lifestyle weight loss** has a large effect *if achieved*, but low population adherence and
+  an unproven hard-CV-event benefit via this route: Look AHEAD's intensive lifestyle arm was null on CV
+  events (HR 0.95, 0.83-1.09) despite real weight loss [@look2013], and a 54-RCT meta-analysis — whose pool *includes* Look AHEAD, so it is
+  consistent with rather than independent corroboration of that null — reports the same CV-event null
+  (RR 0.93, 0.83-1.04) alongside a modest all-cause mortality benefit (RR 0.82, 0.71-0.95) that does
+  **not** run through the heart [@ma2017] -> [[Does Weight Loss Reduce Cardiovascular Events]].
+- **Bariatric surgery** — larger and more durable weight loss, at the cost of surgical and long-term
+  nutritional risk (named as a comparator only, not appraised here).
+- **Tirzepatide** — a larger weight effect than semaglutide, with no dedicated CV-outcome trial yet held.
 
-The lesson is not that weight loss is useless — it plainly moves diabetes remission, liver disease,
-function and (via the mortality signal) probably other outcomes. The lesson is that **for hard
-cardiovascular events in a lower-risk person, weight loss per se is an unproven lever by the lifestyle
-route, and the drug route is proven only in secondary prevention.** No held evidence shows that shedding
-weight, by itself, prevents heart attacks in a genuinely low-risk person — by drug or by diet
-([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]],
-[[Does Weight Loss Reduce Cardiovascular Events]]).
+The preferred move, where the drug is chosen, is to **modify the strategy rather than discard it**: add
+resistance training and adequate protein to protect lean mass, titrate to the tolerated dose to manage
+the GI tax, and plan the exit rather than discover it. The drug and a lifestyle change are the same
+weight lever by different routes — combinable, not either/or.
 
-## What this cut cannot yet answer: the risk half (awaited, not established)
+## One axis only — health
 
-**This is a partial appraisal.** The benefit/cardiovascular side is woven into the fabric; the **risk
-half is staged for ingestion but not yet held**, so the sub-questions below are presented as **named gaps
-with awaited sources** — *not* as findings, and *not* as harm numbers this wiki can stand behind. Where a
-claim is commonly repeated, it is marked as awaited evidence. **"Not yet established here" is the
-insufficient-evidence state, not a clean bill of health.**
-
-- **(R1) Gastrointestinal adverse events** — nausea, vomiting, constipation; common, largely dose- and
-  titration-dependent, mostly transient. The held trials already show the tolerability tax:
-  AE-driven discontinuation «16.6%» vs «8.2%» in SELECT, predominantly GI
-  [@lincoff2023]. The systematic
-  adverse-event profile (rates, dose-dependence) **awaits**.
-- **(R2) Lean-mass / muscle loss (negative recomposition, sarcopenia)** — the headline risk, and a
-  *patient-important* outcome (muscle drives function, falls, metabolic rate, healthspan), not a cosmetic
-  one. The held STEP-1 reports fat mass fell more than lean mass — favourable framing — but the
-  function-relevant magnitude of lean-mass loss and its **attribution** are **not yet held**,. The sharp unresolved question:
-  is lean-mass loss a **GLP-1-specific** effect or a **generic consequence of losing a lot of weight fast
-  by any route** (diet, surgery)? It should be judged against the realistic alternative that
-  achieves the *same* loss — where it is weight-loss-generic it is a cost of the goal; where the drug's
-  appetite suppression drives low protein intake with no training stimulus, that is the drug's own debit.
-  The **mitigations are already held elsewhere in the fabric** — resistance training and adequate protein
-  ([[Protein and Resistance Training for Muscle and Strength]],
-  [[Muscle-Strengthening Activity and Mortality]]) — which makes this a *modify the strategy, don't
-  discard it* case, and the risk is **stratum-specific** (highest in older adults and non-trainers).
-- **(R3) Discontinuation rebound / lifetime dependence** — the effect is contingent on continuation. The
-  held evidence implies the weight benefit reverses on stopping, but the **magnitude** of rebound (commonly cited as roughly
-  two-thirds of lost weight regained) comes from the withdrawal extension, which is **not yet held**.
-- **(R4) Reward / mood / anhedonia ("loss of joy")** — the appetite mechanism plausibly blunts reward
-  beyond food; a real patient-reported quality-of-life cost that trials systematically under-measure (the
-  streetlight effect on the outcome side — trials count events and weight, rarely the trajectory or the
-  felt quality of life). **Unmeasured, not shown absent.**
-- **(R5) Gallbladder disease, pancreatitis (contested), gastroparesis / ileus (with anaesthesia
-  aspiration risk)** — established-to-signal; certainty **awaits**.
-- **(R6) Thyroid C-cell / medullary carcinoma** — a **rodent** signal, **not established in humans**. This
-  is the transportability trap (animal =/= human): held as a candidate/insufficient-evidence item, neither
-  asserted as a human finding nor dismissed. **Awaits**.
-- **(R7) NAION (a sudden optic-nerve eye condition), bone density, pregnancy exposure, adolescent
-  long-term development, psychiatric effects** — mostly *insufficient evidence*, long-horizon. **State as
-  unknowns, not nulls.** **Awaits**.
-
-## The honest core: an evidence-horizon vs use-horizon mismatch
-
-The maintainer's alarm ("we don't know enough for this scale") and the enthusiast's confidence ("benefits
-obviously outweigh") are held to the **same bar**, and the honest middle is a nameable gap, not a verdict
-in either direction.
-
-- **Four evidence states, kept distinct** — benefit / harm / no-effect / **insufficient**. Most
-  long-latency and rare signals (R6, R7) sit in *insufficient*, not *no-effect*. Apply the **expectancy
-  test**: could a decades-latency or rare outcome realistically have shown up in trials of 1-4 years? If
-  not, silence is not reassurance ([[Framing a Decision Question]]).
-- **Transportability at scale.** Trials established the effect in defined populations (high-BMI, often
-  high-cardiovascular-risk or diabetic). Mass adoption is lifetime, off-label, lean, adolescent,
-  peri-partum, psychiatric — populations *outside the tested support factors* — so neither the effect nor
-  the safety transports by evidence grade alone.
-- **The estimate, stated honestly.** You cannot quantify unknown unknowns by construction — but you *can*
-  size the mismatch: the fraction of **lifetime, off-label, lean-population** drug-exposure that the trial
-  base has actually observed is small. **That mismatch IS the quantifiable core of "we may not know enough
-  for this scale"** — and it is a statement about the *evidence*, not a claimed harm. No risk number is
-  invented here.
-
-## Discontinuation and lifetime use: structural leverage, inverted
-
-A useful lens the fabric applies to lifestyle change is **structural leverage** — an intervention that
-reshapes physiology or the environment so future choices are easier outranks a point optimization of
-similar size. GLP-1 scores *worse* on this rule even as it scores better on efficacy-while-taken: it does
-not reshape future choices, it **substitutes** for them, and it reverses on stopping (R3). So the honest
-comparator is **lifetime drug vs a sustainable behavioural/environmental change**, judged on net effect
-over the realistic horizon *including the exit* — not on a 68-week trial result. *Adherence is
-part of the effect*: an intervention not continued has no continued effect.
-
-## The right comparison is between complete strategies
-
-"No drug" is not "no risk" — obesity itself carries large cardiometabolic risk. Judge complete, realistic
-strategies against each other, not against an idealized no-loss baseline:
-
-- **Sustained lifestyle change** — a large effect *if achieved*, but low population adherence; proven for
-  diabetes remission and mortality [@ma2017], unproven for cardiovascular events (Look AHEAD) [@look2013].
-- **Bariatric surgery** — larger and more durable weight/metabolic effect (in EASL's liver-histology
-  head-to-head, MASH resolution «55%» after surgery vs «15%» after lifestyle), at the cost of surgical
-  risk («about 6%» severe adverse events) and long-term nutritional risk
-  [@easl2024].
-- **Tirzepatide** — larger weight effect than semaglutide, but no cardiovascular-outcome trial; efficacy
-  evidence **not yet held**.
-- **Other cardiovascular levers** (statins, blood-pressure lowering) — proven, but small for a low-risk
-  person by the same baseline-risk arithmetic ([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]).
-
-The disciplined default for someone in a favourable stratum is **modify the GLP-1 strategy** (add
-resistance training and adequate protein, plan the exit) rather than discard it — but that presupposes the
-stratum where the benefit is real.
+Cost, insurance access, supply shortages, and equity are real and are pushing the adoption debate
+hardest of all. They are also a **different axis** with no data held here, and this appraisal will not
+price them into the health verdict — it names that the trade-off exists and stops
+-> [[Which Objective Moved This Recommendation]]. A recommendation that silently absorbed an
+affordability or scarcity objective would be the same defect as an undisclosed weighting.
 
 ## Bottom line, by stratum
 
-- **High-risk obesity (established cardiovascular disease or heavy metabolic burden):** benefits outweigh
-  the known harms. Proven 20% MACE reduction on top of standard care (NNT \~67), \~15% weight loss, diabetes
-  prevention, likely liver benefit — the weight is the biggest rock and the drug is the best-evidenced way
-  to move it. The awaited risk half is a reason to *manage* the strategy (muscle, exit plan), not to
-  withhold it.
-- **Low-risk / lean / cosmetic use:** the proven hard-outcome benefit is **absent**, the weight and
-  metabolic gains are real but *surrogate*, and the harms plus long-horizon unknowns are unchanged in size.
-  Here the case is weakest and the benefit-risk ratio can invert — this is precisely the stratum driving
-  mass adoption and precisely the one the trials did not study.
+This is [[Layer 1 - Ranking Interventions for a Stratum]] applied to one drug: the largest remediable gap,
+and the honest ceiling, differ by who is asking -> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
 
-**The one-axis note:** cost, access, equity and supply are real forces in the adoption debate but sit on
-a *different axis* with no data held here. Named, never priced into the health verdict
-([[Which Objective Moved This Recommendation]]).
+- **Class II/III obesity with established cardiovascular disease (non-diabetic).** Benefit outweighs
+  known risk on current evidence: a proven hard-outcome reduction (MACE HR 0.80, NNT \~67 over 3.3 years
+  on top of guideline therapy), a net-favourable serious-adverse-event profile, plus large weight loss,
+  diabetes prevention, and MASLD benefit. The GI tax and lifetime-dependence are the real costs; the drug
+  is a strong incremental option.
 
-## Caveats
+- **Near-normal-BMI person seeking cosmetic loss.** The answer is *not* "benefits clearly outweigh" on
+  hard outcomes, and it is *not* "dangerous" either. What is proven is large weight loss and
+  metabolic-surrogate improvement (and diabetes prevention if prediabetic). What is unproven is any
+  cardiovascular-event benefit. What is unknown — lean-mass loss attribution, long-horizon and rare
+  signals, the loss-of-joy cost, and the entire lifetime / off-label exposure — is a **named gap**, sized
+  by the evidence-horizon-vs-use-horizon mismatch, not a reassurance. For this person the drug earns its
+  place, if at all, on the weight and metabolic levers weighed by that person against costs the evidence
+  cannot yet quantify — with resistance training, protein, and a discontinuation plan built in from the
+  start.
 
-- **Open loop.** This wiki grades coherence and source-fidelity, **never validity** — no operation here
-  scores a GLP-1 recommendation against a realized long-term outcome. A clean appraisal is not a validated
-  recommendation.
-- **Appraise, do NOT prescribe (load-bearing).** Selecting, dosing, titrating, screening
-  contraindications and managing drug interactions are **prescriber acts** requiring this person's labs,
-  medications and history — **out of scope.** This states what the drug does, for whom, how much, and net;
-  it is **not medical advice and not a substitute for a prescriber.**
-- **A stratum-level appraisal, applied per person.** Baseline risk (BMI, comorbidity, age, cardiovascular
-  risk), the realistic alternative, and the person's own weighting of function / joy / longevity decide
-  the individual verdict — elicited per case, not supplied here.
-- **Health axis only.** Cost, access, equity and supply are named, not weighed.
-- **Partial cut.** The entire risk half (R1-R7), the discontinuation magnitude, the muscle-attribution
-  question, and the tirzepatide and kidney benefits are **awaited sources**, presented as gaps under the
-  expectancy-test framing — not as established findings. The definitive appraisal waits on their ingest.
+Both priors this question invites are rejected by the same bar: the weight-loss magnitude does not
+license "the benefits obviously outweigh" for the lean user (weight is a surrogate; the hard-outcome
+benefit is stratum-limited), and the scale-of-adoption alarm does not license "we know it's harmful"
+(most feared long-horizon signals are *insufficient-evidence*, not established harm). The defensible
+finding is the mismatch itself.
+
+## Mandatory caveats
+
+- **This is an appraisal, not a prescription.** Selecting, dosing, titrating, screening
+  contraindications, and managing interactions are prescriber acts requiring this person's labs,
+  medications, and history — all out of scope. This deliverable states what the drug does, for whom, how
+  much, and net; it is not medical advice and not a substitute for a prescriber.
+- **A stratum-level appraisal, applied per person.** Baseline risk (BMI, comorbidity, age, CV risk), the
+  realistic alternative, and the person's own weighting of function, joy, and longevity decide the
+  individual verdict.
+- **Health axis only.** Cost, access, equity, and supply are real and named, never priced into the health
+  verdict.
+- **Open loop.** This wiki grades coherence and source-fidelity, never validity — no operation here
+  scores a GLP-1 recommendation against a realized long-term outcome. A clean appraisal is not a
+  validated recommendation.
+- **The risk half is a partial cut.** Several risk endpoints above rest on staged-but-unheld sources
+  (the [AWAITS] tags); the definitive risk ledger waits on that ingest, and the current cut states those
+  endpoints as gaps rather than quantified harms.
 
 ## References

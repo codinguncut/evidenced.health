@@ -1,214 +1,268 @@
 ---
 type: deliverable
-subject: allocating a fixed weekly exercise-minute budget across cardio, resistance training, and walking
-question: Given a fixed weekly time budget (\~30 min/day, \~3.5 h/week), how should a sedentary, overweight, late-40s adult split it across cardio, resistance training, and walking to buy the most patient-important benefit — a fixed split or one steered by current fitness and muscle mass?
-aliases: [Exercise Budget Deliverable, How to Spend Exercise Time]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017]
-confidence: low
+question: Given a fixed weekly exercise-minute budget, how should a sedentary overweight late-40s adult allocate it across cardio, resistance training, and walking to buy the most patient-important benefit?
+aliases: [Exercise Budget Allocation, How to Spend Exercise Time, Cardio vs Resistance vs Walking, Exercise Minute Budget]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Kodama - Cardiorespiratory Fitness and Mortality 2009, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, FAO - Dietary Protein Quality Evaluation 2013]
+confidence: medium
 created: 2026-07-30
 updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-If you have about half an hour a day and you are starting from sedentary, the single most valuable
-thing that budget can buy is **being active at all** — the first tranche of minutes is worth far more
-than any later refinement of how you spend them. For a sedentary, overweight adult in their late 40s,
-the mortality dose-response is steepest right at the bottom: the largest risk reductions come from the
-*first* moves out of inactivity, and the curve then flattens
-([[Physical Activity Dose and Mortality]]). So the framing that matters is **benefit-per-minute x
-adherence**, not benefit-per-session — and the honest headline is that once you are doing *something*
-regular, the remaining choices between modalities are second-order.
+The scenario is a sedentary, overweight adult in their late 40s with roughly **30 minutes a day, about
+3.5 hours a week**, to spend on exercise, and one question: how to split it across cardio, resistance
+training, and walking. The honest lead is that **the split is a second-order question**. The
+first-order move — the one that dwarfs every allocation decision downstream — is simply **doing
+regular activity at all**. For someone starting from sedentary, the return on the first minutes is the
+largest it will ever be, and no clever division of the budget comes close to the gain from crossing the
+line from inactive to active.
 
-Within that, a workable default for this stratum is a **rough balance**: enough hard-enough cardio to
-move your cardiorespiratory fitness, enough resistance work to build and hold muscle and metabolic
-control, and walking captured as a **free base** that mostly does not touch the dedicated budget. The
-*tilt* is set by whichever dial you are lowest on — low fitness tilts toward cardio, low muscle or a
-dominant metabolic problem tilts toward resistance. What the wiki does **not** hold is a precise
-minute-split, and the sharpest missing number — how much fitness a hard minute buys versus an easy
-one — is a named gap, not a figure you should trust anyone to quote.
+Once that is granted, the evidence does point somewhere specific for the remaining minutes: **split the
+dedicated budget between cardio and resistance rather than pouring it all into one**, let **walking run
+free as folded-in daily movement outside the budget**, and **tilt the split toward whatever you are
+most deficient in** — low fitness pulls toward cardio, low muscle or a metabolic problem pulls toward
+resistance. The confident lever here is cardio, because cardiorespiratory fitness is one of the
+best-evidenced mortality predictors in medicine; resistance training rides on softer mortality
+evidence but a strong case through function, muscle, and blood sugar. The precise intensity split and
+the exact combined optimum are places where the evidence thins out, and this guide names them rather
+than inventing numbers. The ordering below is the Layer-1 discipline — rank by effect times certainty
+for *this* stratum — applied to exercise ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
-## Rank the levers for this stratum (the Layer-1 move)
+## The move that dominates the whole question: get off the couch
 
-The first job is to say what is worth thinking about at all, ranked by **effect size x certainty**, not
-by how much is written about each option ([[Layer 1 - Ranking Interventions for a Stratum]]). For a
-sedentary starter the ranking is:
+The dose-response between physical activity and mortality is steepest at the very bottom — the first
+tranche of activity out of inactivity buys most of the available benefit, and the curve then flattens.
+In the WHO's 2020 evidence profiles, built from eight prospective cohorts that all used accelerometers
+rather than self-report, maximal risk reduction for moderate-to-vigorous activity arrives at about
+**24 minutes a day**, and for total activity the maximal risk reduction reaches **HR 0.34 (95% CI
+0.27-0.43)**, rated high certainty [@who2020].
+Any activity, at any intensity, lowered mortality [@who2020];
+the different intensities are **different routes to the same maximum** — roughly 24 minutes of harder
+work, or a much larger volume of light movement, reaches most of the benefit.
 
-- **Going from sedentary to active at all — the big rock.** Device-measured total activity carries an
-  «adjusted HR = 0.34 [95% CI 0.27 to 0.43]» at the point of maximal risk reduction, at HIGH certainty
-  from a harmonized meta-analysis of eight accelerometer cohorts [@who2020]. The maximum is reached at only «MVPA at \~24 min/day»
-  [@who2020] — i.e. most of the
-  available benefit sits inside a budget this size. Read that as *substitution, not a target menu*: \~24
-  minutes of moderate-to-vigorous work **or** a much larger volume of light activity reaches most of
-  the same benefit.
-- **Cardiorespiratory fitness (CRF) — the strongest mortality predictor held.** CRF (your VO2max
-  expressed in METs; 1 MET = 3.5 mL/kg/min — a measured vital sign, not a self-report) predicts
-  mortality even more strongly than activity dose, and with **no ceiling**: Mandsager's 122,000-patient
-  cohort found CRF «inversely associated with long-term mortality with no observed upper limit of
-  benefit», falling into the elite band («elite vs high: adjusted HR, 0.77 (95% CI, 0.63-0.95)»)
-  [@mandsager2018]. Being
-  unfit is a *larger* mortality signal than the classic risk factors in the same model — «Low vs
-  Elite» adjusted HR «5.04 (4.10-6.20)», against «smoking ... 1.41» and «diabetes ... 1.40»
-  [@mandsager2018]. Kodama's
-  meta-analysis gives the per-unit slope: each 1-MET higher CRF carries «RR 0.87 (95% CI, 0.84-0.90)»
-  for all-cause and «0.85 (95% CI, 0.82-0.88)» for CHD/CVD — «13% and 15%» lower risk per MET
-  [@kodama2009]. **Cardio is the lever
-  that raises CRF** ([[Measuring and Raising Cardiorespiratory Fitness]]).
-- **Resistance training — real, broad, but low-certainty on mortality.** Any muscle-strengthening
-  activity versus none, adjusted for aerobic activity, carries «RR 0.85; 95% CI 0.79 to 0.93» for
-  all-cause mortality — but graded **very low** (one meta-analysis, observational, self-reported)
-  [@momma2022]. Its firmer cards are
-  strength/function, the metabolic/insulin channel (diabetes «0.83 (0.77 to 0.89)», graded low —
-  muscle is the main site of insulin-stimulated glucose disposal), and muscle preservation under any
-  weight loss ([[Protein and Resistance Training for Muscle and Strength]]).
-- **Walking — the accessible, integrable base** (see the free-NEAT move below).
+Two honest bounds on that HR 0.34: it is a between-group contrast in observational cohorts, so reverse
+causation (illness reduces activity) is not excluded by design, and the exposure is raw accelerometer
+counts, not a prescription anyone can follow directly [@who2020].
+But the direction and the shape are robust, and the shape is the decision: **for a sedentary starter,
+the marginal minute is worth the most it will ever be, and it is worth the most at the bottom.** That
+is why the allocation debate is downstream — whatever you do with the 3.5 hours, doing them beats not
+doing them by more than any internal reshuffle can add.
 
-**The two certainty grades must not bleed into each other.** The cardio/CRF case is strong (HIGH for
-the activity dose-response, a large graded per-MET slope for fitness); the resistance-training mortality
-case is **very-low GRADE** — a real but weakly-warranted lever, held one tier below. GRADE certainty is
-the review's own rating of how much the evidence can bear, and here it is candid: strength training's
-mortality number is directionally robust, not RCT-grade.
+## Rank the levers for this person
 
-## Cardio vs resistance — different outcomes, so not interchangeable
+The levers below are ordered by expected effect times **certainty** — not by how much is written about
+each (attention runs inversely to effect size in a mature field). Read the certainty column as
+carefully as the effect column: it is deliberately asymmetric.
 
-These two levers do not buy the same thing, which is exactly why the budget should not go entirely to
-one.
+| Lever | What it buys | Best-held magnitude | Certainty |
+|---|---|---|---|
+| Any activity from a sedentary start | all-cause mortality | HR 0.34 (0.27-0.43) at the max; most benefit by \~24 min/day MVPA | High (observational) |
+| Cardiorespiratory fitness (raised by cardio) | all-cause + CV mortality | RR 0.87 (0.84-0.90) per 1-MET, no plateau | High as predictor; causal step partial |
+| Resistance training | function, muscle, glucose control; mortality | mortality RR 0.85 (0.79-0.93); combined w/ aerobic RR 0.60 | Very low for mortality; higher for muscle/function |
+| Walking | the integrable base of the above | folds into daily life outside the budget | — |
 
-- **Cardio raises CRF, the strongest mortality *predictor* the wiki holds — large, and with no
-  plateau (strong evidence).** Whether *raising* CRF delivers that mortality benefit is the causal step
-  the (observational) evidence cannot fully close; treat the predictor strength as the firm part
-  ([[Cardiorespiratory Fitness and Mortality]]).
-- **Resistance training buys muscle, strength, function, and glycaemic control** — RCT-grade on the
-  *surrogates* (muscle mass and strength), observational and very-low-GRADE on mortality
-  ([[Muscle-Strengthening Activity and Mortality]], [[Protein and Resistance Training for Muscle and Strength]]). On the muscle side the numbers are modest: over weeks of training, adding protein to
-  resistance work adds «2.49 kg (0.64, 4.33)» to 1RM strength and «0.30 kg (0.09, 0.52)» of lean mass
-  [@morton2018] — the training is the
-  driver, protein a small adjunct that plateaus near «1.62 (1.03, 2.20)» g/kg/day [@morton2018].
+The ranking is **stratum-dependent, not a universal list** [[Layer 1 - Ranking Interventions for a Stratum]].
+For this sedentary, overweight, late-40s person the big levers are still unpulled, so the allocation
+question is genuinely live — unlike for someone already lean and active, for whom the remaining gains
+are small by construction.
 
-Because the outcomes differ, the two are complementary, not substitutes — and for an overweight adult
-both carry metabolic weight (fitness and muscle both feed insulin sensitivity) and both bend the
-age-related decline that a late-40s starter is already on.
+## Cardio: the higher-certainty lever, because fitness predicts mortality hard
 
-## Combined beats concentrating — which argues for a split
+Cardiorespiratory fitness (CRF) — your VO2max, measured in METs, where 1 MET is 3.5 mL/kg/min — is one
+of the strongest mortality predictors in medicine. In Kodama's meta-analysis each 1-MET-higher
+fitness level carried **13% lower all-cause mortality (RR 0.87, 0.84-0.90)** and **15% lower CHD/CVD
+events (fatal + non-fatal, RR 0.85, 0.82-0.88)** [@kodama2009].
+In Mandsager's 122,000-patient cohort the benefit had **«no observed upper limit»** — mortality kept
+falling into the elite fitness band [@mandsager2018].
+Being unfit was a **larger** mortality signal than the classic risk factors in the same model: low
+versus elite fitness carried HR 5.04, against 1.41 for smoking, 1.40 for diabetes, and 1.29 for
+coronary artery disease [@mandsager2018].
 
-The evidence leans against spending the whole budget on one modality. Momma holds that **aerobic and
-strengthening together** carry a much lower hazard than either alone: combined muscle-strengthening plus
-aerobic gives «a 40% lower risk of all-cause mortality (RR 0.60; 95% CI 0.54 to 0.67)»
-[@momma2022], and WHO's annex reports
-meeting **both** aerobic and strengthening guidelines at HR 0.71 versus neither
-[@who2020].
+**The load-bearing caveat: CRF is a predictor, not a proven cause.** Both sources are observational and
+both say so — the degree to which high fitness *preselects* healthier people rather than *causing*
+lower mortality is not resolved by cross-sectional data [@kodama2009] [@mandsager2018].
+What partly closes the gap is within-person change: people who went from unfit to fit between two exams
+had **44% lower mortality** than those who stayed unfit, and the one exercise-training RCT (HF-ACTION,
+in heart-failure patients) linked a 6% rise in measured fitness to a 4% lower risk of CV death or
+hospitalization [@ross2016]. So the
+operative reading is: **the proven lever is the activity that raises fitness, and CRF is how you check
+that it worked** — not a separate thing to chase, but the trackable output of the cardio minutes.
 
-**State this as directional, not a precise split.** The resistance-training arm inside that combined
-figure is the low-certainty one, so the combined-optimum is a lean toward *not* concentrating the whole
-budget — not a warranted 50/50 or any other exact ratio. A firmer number would need a concurrent-training
-outcome source (cardio + resistance tested together), which the wiki does **not** hold — a named gap.
+Cardio raises CRF a known amount: meeting standard activity recommendations buys roughly a **10%**
+fitness gain in previously sedentary adults [@ross2016].
+You can also estimate your fitness for free from routine clinical numbers (age, sex, BMI, resting heart
+rate, self-reported activity) via a non-exercise equation good enough to flag low fitness, without any
+treadmill test [@ross2016].
 
-## The intensity/time trade-off — the core of a minute-budget, and the sharpest gap
+## Resistance training: softer mortality evidence, stronger case through function and glucose
 
-For a *minute*-budget the central question is whether harder-but-shorter beats easier-but-longer. The
-**direction** is held: fitness responds more to intensity than to duration. Ross's AHA statement is
-explicit — «Increases in CRF appear more responsive to increases in intensity than increases in session
-duration or frequency» [@ross2016] — and the
-worked magnitudes point the same way: STRRIDE showed a clean gradient (6% low-amount/moderate, 11% low/
-high, 18% high/high), and interval training beat equal-energy continuous work, «20.6%» versus «9.4%»
-[@ross2016]. Meeting activity guidelines at
-all buys «≈10% improvement in CRF in previously sedentary adults» [@ross2016]. The dose you need is baseline-stratified — the fitter you are, the
-harder you must work for the next MET:
+Resistance training earns a place in the budget on a different footing. Its **mortality** evidence is
+genuinely weak — one meta-analysis of observational cohorts (Momma 2022), graded **very low**: any
+muscle-strengthening activity versus none carried **RR 0.85 (0.79-0.93)** for all-cause mortality, RR
+0.83 for CVD, and RR 0.83 for diabetes [@momma2022].
+Hold that number one tier below the cardio evidence; do not let the confident lever's certainty bleed
+onto it.
 
-| Baseline CRF | Intensity for a clinically meaningful (>=1 MET) gain |
-|---|---|
-| < 10 METs | \~50% of heart-rate reserve / VO2 reserve |
-| 10-14 METs | 65-85% of HR reserve / VO2R |
-| > 14 METs | > 85% (above \~13 METs the goal shifts from health toward performance) |
+Three things make resistance training worth budget minutes anyway, none of which is the mortality
+number:
 
-[@ross2016]
+- **The combined state is the best-evidenced one.** Muscle-strengthening *plus* aerobic activity
+  carried **RR 0.60 (0.54-0.67)** — a 40% lower mortality risk, larger than either modality alone
+  [@momma2022]. The two are additive, not
+  substitutes. This is the single strongest reason to **split** rather than concentrate the budget,
+  with the honest caveat that the resistance arm inside that combination is the soft one.
+- **Muscle and strength are RCT-grade, and they matter for function.** Resistance training builds
+  muscle and strength (proven in trials, though on surrogate endpoints), and function and falls are
+  patient-important outcomes people care about directly. Protein is a modest adjunct here, not a
+  driver: adding protein to training raised lean mass by only **\~0.3 kg** and 1RM strength by **\~2.5
+  kg**, with the benefit plateauing near **1.6 g/kg/day** of total protein [@morton2018]
+  — and most people already eating \~1.4 g/kg are close, so the move is topping up, not loading. (One
+  quiet assumption: that target is protein *quantity*, and it silently assumes decent *quality* —
+  hitting 1.6 g/kg from low-score plant sources takes more grams and more food mass than from dairy or
+  meat [@fao2013].)
+- **The glucose channel is decision-relevant for an overweight person.** Skeletal muscle is the
+  principal site of insulin-stimulated glucose disposal, so building and using muscle enlarges the
+  body's glucose sink. In Momma the diabetes dose-response was **L-shaped** — risk falling to a floor
+  with no upturn — unlike the noisier mortality curve, and with a clear mechanism [@momma2022].
+  For a sedentary, overweight, likely-dysglycaemic person this makes resistance training a metabolic
+  lever, not only a function one.
 
-**But the magnitude for a fixed budget is a genuine [G] gap — do not invent it.** The wiki holds the
-*direction* (intensity is time-efficient for CRF) but **no head-to-head HIIT-vs-moderate (MICT)
-dose-response** on VO2max per unit time for a fixed minute-budget. A time-efficiency meta-analysis
-(Milanovic — interval vs continuous training on VO2max) is **staged but not ingested**, and a general
-exercise-training -> VO2max dose-response meta-analysis is likewise **not held**. Until one is, the
-size of the intensity advantage for a fixed budget is unquantified.
+One thing Momma's data cannot tell you: the optimal *frequency* or session spacing. It measured total
+weekly minutes, not how they were divided, so it says nothing about training each muscle group every
+\~48 hours — that is a muscle-adaptation heuristic on a different evidence base, not a mortality finding
+[@momma2022].
 
-**Two counterweights sit against the intensity edge, both worse in this stratum:**
+## Walking: spend it for free, outside the budget
 
-- **Injury and recovery.** Higher-impact, higher-intensity work carries non-trivial injury risk for an
-  overweight, sedentary, late-40s starter; injury-risk-by-modality for this age/BMI band is
-  coaching-lore-heavy and thin on patient-outcome evidence — a named gap, not a held page.
-- **Adherence and the flattening curve.** The *mortality* dose-response front-loads and flattens
-  (most benefit by \~24 min/day MVPA above), and CRF is a predictor rather than a proven lever, so the
-  extra VO2max that intensity buys converts to little extra *outcome* for an under-active person
-  ([[Measuring and Raising Cardiorespiratory Fitness]]). One worry can be **dropped**: intensity does
-  **not** make energy compensation worse — «Sex, frequency, intensity and dose of exercise energy
-  expenditure were not significant predictors of energy compensation» [@riou2015], so if HIIT is deprioritized it is for injury and adherence,
-  not a NEAT penalty.
+Walking's distinguishing property is not its per-minute yield — it is that it **integrates**. It folds
+into commuting, errands, phone calls, and general daily movement, so much of it can land *outside* the
+30-minute dedicated slot, where higher-intensity or loaded work cannot. The structural read follows:
+**capture walking as free everyday movement, and spend the scarce dedicated budget on what cannot be
+integrated** — the intensity that raises fitness and the load that builds muscle. This is not a claim
+that walking is worthless; it is the accessible base that gets you off the couch (the dominant move
+above), and for a sedentary starter it may be the entire on-ramp. It is a claim about *where the
+budget's scarce minutes earn the most* — the structural-leverage read on walking as folded-in daily
+movement ([[Exercise Energy Compensation]], [[Physical Activity Dose and Mortality]]).
 
-## Walking is mostly free minutes — do not spend the scarce budget on it
+## The intensity-versus-duration trade-off: real, but second-order here
 
-Walking's distinguishing property is **integrability**: it folds into commuting, errands, and phone
-calls, so much of it lands *outside* the dedicated 30-minute slot as **NEAT** (non-exercise activity
-thermogenesis — the calories of incidental daily movement), unlike interval work or lifting, which need
-the slot ([[Exercise Energy Compensation]]). The structural read follows directly: **capture walking as
-free NEAT, and reserve the scarce budget for what cannot be integrated** — cardio hard enough to move
-CRF, and the load work — where per-minute yield is highest.
+Because the unit being spent is **minutes**, the sharpest-looking question is whether harder, shorter
+sessions beat longer, easier ones. On the fitness surrogate, higher intensity does win per minute:
+**«Increases in CRF appear more responsive to increases in intensity than increases in session duration
+or frequency»** [@ross2016]. Worked
+magnitudes back this — a clean dose gradient of 6% / 11% / 18% fitness gain across rising amount and
+intensity, and interval training beating equal-energy continuous training (20.6% versus 9.4% in one
+trial) [@ross2016]. So a time-constrained
+person genuinely gets more fitness from fewer harder minutes.
 
-One caution keeps walking honest about what it is *for*. Do not treat any exercise as fully "counting"
-toward an energy deficit: «The overall mean energy compensation was 18% ± 93%» and «For studies of
-longer duration (about 80 weeks), the energy compensation approached 84%» [@riou2015]; a measurable part is a drop in basal expenditure — «only 72% of
-the extra calories we spend on additional activity translates into extra calories burned that day»
-[@careau2021]. And the offset is worst exactly in
-this stratum: it rises across the BMI range from «27.7%» at the 10th percentile to «49.2%» at the 90th
-[@careau2021]. So walking earns its place as the
-integrable fitness/function base, and weight change is planned around intake — not as the budget's
-calorie-burning centrepiece.
+But three things demote this from headline to refinement for *this* person:
 
-## Adherence bounds the whole plan
+- **The outcome curve flattens where the surrogate keeps climbing.** Intervals win the VO2max
+  comparison, but the *mortality* dose-response front-loads and flattens by \~24 min/day of moderate
+  activity. The extra fitness that intensity buys therefore purchases little extra outcome for an
+  under-active person who has not yet captured the front-loaded benefit.
+- **Injury, perceived exertion, and adherence all run the wrong way** for a sedentary, overweight,
+  late-40s starter — the person for whom hard intervals are least comfortable and most likely to end
+  in a strain or a quit.
+- **The magnitude is a genuine gap.** The wiki holds the *direction* (intensity is time-efficient for
+  fitness) but **no held head-to-head dose-response** for intervals versus longer moderate training at
+  a fixed minute-budget on a patient-important outcome. That number is not invented here.
 
-Adherence is part of the effect: a punishing intervals-plus-lifting block abandoned in three weeks loses
-in reality to a sustainable mix, and under a flattening dose-response a smaller *sustained* dose beats a
-larger *dropped* one ([[Exercise Energy Compensation]]). The realistic allocation is the one this person
-will keep — which, for a sedentary starter, argues for a gentler on-ramp than the intensity evidence
-alone would suggest.
+Net: intensity is a lever to reach for *after* the habit is established and *if* the person tolerates
+it, not the organizing principle of the first budget.
 
-## Even split, or steered? — steer toward the deficit, at layer 3
+## Why exercise won't do your weight-loss work — and why that doesn't matter for this budget
 
-The general default is a rough balance; the **tilt** is set per person by whichever dial is lowest:
+A predictable hope for an overweight person is that these minutes will burn off the fat. The evidence
+says: mostly not, and the reason is compensation. Across 61 exercise studies, **«The overall mean
+energy compensation was 18% ± 93%»** — on average about a fifth of the exercise energy deficit is
+refilled (by eating more or moving less elsewhere), rising toward **84%** over long interventions
+[@riou2015]. A landmark doubly-labelled-water study
+reached the same place by a different route: about **28%** of activity calories are offset through a
+drop in *basal* energy expenditure, and the offset **rises with body fat** — from \~28% at the low end
+of the BMI range to \~49% at the high end [@careau2021].
+**The person carrying the most fat compensates the most**, so exercise "counts" least toward a deficit
+exactly where the weight goal is largest.
 
-- **Low CRF -> tilt cardio** (the fitness deficit is the strongest mortality signal held).
-- **Low muscle / sarcopenia risk / a dominant metabolic problem -> tilt resistance** (muscle, function,
-  and the glucose-disposal channel).
+Two consequences, and neither shrinks the exercise budget:
 
-VO2max and muscle mass are the two dials, and both are **elicited, not assumed** — this is a
-stratum-level appraisal that an individual reads against their own current fitness, muscle, injury
-history, and what they will actually sustain. The **overweight** feature adds a weight lever to the
-picture, but note its limit: lifestyle weight loss did **not** reduce hard cardiovascular events in the
-largest trial («hazard ratio 0.95; 95% CI 0.83 to 1.09») [@look2013], though the meta-analytic picture shows all-cause mortality falling by a route that
-is *not* the heart («risk ratio 0.82, 95% confidence interval 0.71 to 0.95») [@ma2017] ([[Does Weight Loss Reduce Cardiovascular Events]]). The weight
-lever is named here, not prescribed.
+- **Anchor weight change on intake, not on burning calories through exercise.** The largest, longest
+  lifestyle-weight-loss trial (Look AHEAD) did not reduce hard cardiovascular events (**HR 0.95,
+  0.83-1.09**) [@look2013]. Pooling the wider
+  evidence confirmed the CV-event null (**RR 0.93**) while finding a modest all-cause mortality benefit
+  (**RR 0.82**, \~6 fewer deaths per 1000) that did not run through the heart — a meta-analysis of 54
+  randomized trials [@ma2017]. Weight loss is real for
+  glucose control, function, and fatty liver — but do not spend the exercise budget expecting it to be
+  the weight lever.
+- **Do not down-rank hard exercise on a compensation argument.** Intensity was explicitly **not** a
+  predictor of compensation [@riou2015], so intervals
+  do not "compensate away" more than moderate work. The fitness, muscle, and mortality benefits of the
+  budget do **not** run through the energy balance that compensation offsets — so compensation is an
+  argument about weight, not about whether the minutes are worth spending.
 
-## What the evidence does NOT yet hold (named gaps)
+## How to steer the split
 
-These gaps are why the intensity/time trade-off stays directional, not sized ([[Layer 1 - Ranking Interventions for a Stratum]] holds where this lever ranks):
+The general default for a sedentary, overweight starter is a **rough balance**: enough cardio to move
+fitness ([[Cardiorespiratory Fitness and Mortality]], [[Measuring and Raising Cardiorespiratory Fitness]]),
+enough resistance to build and hold muscle and improve glucose control ([[Muscle-Strengthening Activity and Mortality]],
+[[Protein and Resistance Training for Muscle and Strength]]), and walking as the free base. But the
+*tilt* is set by what the person is lowest on — two dials, both elicited per person, not assumed:
 
-- **HIIT-vs-moderate time-efficiency magnitude** — the size of intensity's fitness advantage for a
-  fixed minute-budget. The direction is held; the number is not (Milanovic-type interval-vs-continuous
-  meta-analysis staged, not ingested).
-- **An exercise-training -> VO2max dose-response** — how many minutes at what intensity move CRF how
-  much. **Not held.**
-- **A concurrent-training outcome source** — cardio and resistance tested together, to firm up the
-  combined-optimum beyond Momma's very-low-GRADE combined arm. **Not held.**
-- **Injury-risk-by-modality** for this age/BMI stratum — thin on patient-outcome evidence; a named
-  gap, not a page.
+- **Low cardiorespiratory fitness -> tilt toward cardio.** If an estimated or measured VO2max lands in
+  the low band for age and sex, the fitness deficit is the largest remediable gap and the minutes go
+  there first.
+- **Low muscle mass, sarcopenia risk, or a dominant metabolic problem -> tilt toward resistance.** An
+  overweight, dysglycaemic, or muscle-poor profile pulls the split toward loaded work for the glucose
+  sink and the function/falls protection.
 
-## Caveats
+Above all, **the allocation that wins is the one this person will actually keep.** Adherence is part of
+the effect: a smaller, sustained dose beats a larger one abandoned in three weeks. A punishing
+interval-plus-lifting block that ends in a month loses on paper to a modest mix that becomes a habit.
+This is why the intensity refinement sits where it does — the theoretically time-efficient plan is
+worthless if it is the one that gets dropped.
 
-- **Open loop.** This grades coherence and source-fidelity, never validity — no operation here checks a
-  claim against a realized outcome. A clean audit is not a validated recommendation.
-- **Appraise, not prescribe.** This appraises what each modality does to a patient-important outcome and
-  how the minutes trade off. It is **not** a training program: sets/reps/periodisation, technique, and
-  contraindication screening are out of scope.
-- **A stratum-level appraisal, applied per person.** Current CRF, muscle mass, injury history, and what
-  the person will actually sustain set the individual split at layer 3; VO2max and muscle mass are the
-  two dials.
-- **Health axis only.** Where an exposure carries load on another axis, that is not priced here.
+## A worked allocation of the 3.5 hours
+
+Illustrative, not prescriptive — the split is steered per person, and this is not a training program.
+It applies the levers appraised above ([[Physical Activity Dose and Mortality]],
+[[Cardiorespiratory Fitness and Mortality]], [[Muscle-Strengthening Activity and Mortality]]):
+
+- **Walking / daily movement: unbudgeted.** Capture it free — commute, errands, calls, a post-meal
+  walk. It is the on-ramp off the couch (the dominant lever) and it does not consume the dedicated
+  slot.
+- **Cardio: roughly half the dedicated budget (\~90 min/week).** This is the higher-certainty lever
+  (fitness -> mortality) and it is what raises the CRF you can track. Intensity is optional and
+  earned: start with what is tolerable and sustainable; add harder intervals only once the habit holds
+  and the body tolerates them.
+- **Resistance: roughly the other half (\~90 min/week, at least two days).** Even a modest weekly volume
+  captures most of the held mortality signal, and it delivers the muscle, function, and glucose
+  benefits cardio does not. Pair it with adequate protein (\~1.6 g/kg/day) if muscle is a goal.
+
+The 50/50 dedicated split is a **starting default**, not a magic ratio — the evidence supports *both,
+and together* over *all-in-one*, but not a precise number. Move the dial toward the deficit.
+
+## Where the evidence runs out (stated plainly)
+
+- **No held intensity-versus-duration magnitude at a fixed budget.** The direction (intensity is
+  time-efficient for fitness) is held ([[Measuring and Raising Cardiorespiratory Fitness]]); the
+  head-to-head dose-response on a patient-important outcome is not. This is the sharpest gap.
+- **No precise combined optimum.** That the split beats concentration is held directionally; the exact
+  cardio-to-resistance ratio is not a held magnitude, and the resistance arm's mortality evidence is
+  very low certainty.
+- **No injury-risk-by-modality evidence for this age and BMI.** The stratum's non-trivial injury risk
+  is real but the literature here is coaching lore, thin on patient-outcome evidence — a named gap, not
+  a page.
+
+## Mandatory caveats
+
+- **Open loop.** This grades coherence and source-fidelity, never validity. Nothing here has been
+  tested against a realized outcome; it can be internally sound and still wrong about the world.
+- **Appraise, do not prescribe.** This appraises what each modality does to a patient-important outcome
+  and how the minutes trade off. It is **not** a training program: sets, reps, periodisation,
+  technique, and contraindication screening are out of scope.
+- **A stratum-level appraisal, applied per person.** Current fitness, muscle mass, injury history, and
+  what the person will actually sustain set the individual split (layer 3). VO2max and muscle mass are
+  the two dials.
+- **Health axis only.** No environmental, ethical, or cost axis is priced in.
 
 ## References

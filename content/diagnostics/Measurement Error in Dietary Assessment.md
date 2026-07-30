@@ -182,8 +182,6 @@ evidence** it.
 self-reported-exposure sources. It should be **scoped to that condition** rather than asserted as a
 general property of decision-relevant curves — knees exist in this corpus, they are simply not in the
 half of it that is measured by asking people.
-`[REVIEW: re-scope the falsified knees prior in CLAUDE.md to name the measurement condition — owning
-op is a telos review, not this weave]`
 `-> [[Physical Activity Dose and Mortality]]`
 
 ### Self-critique of the section above `[2026-07-27]`

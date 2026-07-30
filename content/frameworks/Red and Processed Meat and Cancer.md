@@ -112,11 +112,7 @@ has a very small causal effect" — the disagreement is about certainty and magn
   moderate amounts" of red meat and "little, if any" processed meat; the quantified 350-500 g figure
   lives in a separate full-report Recommendations document, not ingested. Do not attribute a gram
   number to this source.
-- `[REVIEW: the "350 g" numeral is not commensurable across bodies — NNR 2023 states 350 g cooked
-  (ready-to-eat) weight, ESC 2021 gives 350-500 g with the weight basis unspecified; cooked weighs
-  materially less than the raw meat it came from, so a matching numeral is not a matching
-  recommendation. Awaits a cooked-to-raw yield-factor source (none held) to state the direction —
-  re-homed here from HELD-REDMEAT-1, cashed 2026-07-30.]`
+-
 - **Cancer only for WCRF; NutriRECS spans cardiometabolic + cancer + mortality.** The two do not cover
   identical outcome sets — matched only where both report colorectal cancer.
 - **Not independent on the evidence.** Both draw on largely the same observational cohort literature;

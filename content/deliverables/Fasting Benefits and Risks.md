@@ -1,243 +1,250 @@
 ---
 type: deliverable
-subject: Fasting (TRE, ADF/5:2, prolonged fasts, fasting-mimicking diets) and what it does to patient-important outcomes over and above the calorie deficit
-question: For an adult considering fasting, what does the schedule add over and above the calorie deficit it creates, and in which stratum does a prolonged (>=36 h) fast flip to net harm?
-aliases: [Fasting Deliverable, Fasting Benefits and Risks, Intermittent Fasting Guide]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Morton - Protein Supplementation and Resistance Training 2018, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, NICE - NG246 Evidence Review F]
+subject: What fasting does to patient-important outcomes over and above the calorie deficit it delivers, and the strata where a prolonged fast flips to net harm
+question: For an adult considering fasting, what does the eating schedule add — benefit or harm — beyond the energy deficit it creates, and for whom is a prolonged (>=36 h) fast a net harm?
+aliases: [Fasting, Intermittent Fasting, Time-Restricted Eating Deliverable, ADF, 5:2, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Morton - Protein Supplementation and Resistance Training 2018, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021]
 confidence: low
 created: 2026-07-30
 updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-**Verdict up front: fasting is a delivery schedule for an energy deficit, and almost everything it
-reliably does traces to the deficit, not to the clock.** The honest test is never "does fasting beat
-eating whatever you want" — of course a shorter or skipped eating window usually cuts intake — but
-**does a fasting schedule beat the same calorie deficit delivered as continuous daily restriction?**
-On the evidence held here, the answer is mostly *no added metabolic magic*: the schedule's real value
-is **adherence** (for some people a fasting rule is the deficit they can actually keep) and its real
-cost is **muscle** (an aggressive or careless deficit burns lean mass, and that harm inverts from
-minor to major as you move from a young overweight adult to an older sarcopenia-risk one). The touted
-longevity payoff — autophagy — is a mechanism and a "not yet," not a demonstrated human benefit. And a
-*prolonged* (>=36 h) fast is not a universal tool: on glucose-lowering medication or with type 1
-diabetes it is a prescriber-managed hazard, and in the underweight, eating-disordered, pregnant or
-frail it is a do-not.
+**The verdict up front.** Fasting is not a metabolism trick; it is a *delivery schedule* for an energy
+deficit. On the evidence held here — and for the schedules actually tested head-to-head (time-restricted
+eating, on weight and liver fat) — the schedule adds very little that the same deficit delivered
+continuously does not: the one held gold-tier guideline that looked directly finds *very little
+evidence for a beneficial effect of time-restricted eating over regular caloric restriction* for the
+outcome it measured (liver fat) [@easl2024].
+For the alternate-day and 5:2 schedules there is no held head-to-head trial, so their equivalence to
+continuous restriction is a directional expectation here, not a measured result (the gap is named below).
+What the schedule *does* add, reliably, is a set of **specific harms the continuous route avoids**:
+muscle loss from a careless short window, and — in the prolonged (>=36 h) arm — hypoglycaemia on
+glucose-lowering medication, refeeding risk, and plausibly worsened fatty liver. The celebrated
+longevity payoff (autophagy) is **insufficient evidence in humans**, not a demonstrated benefit. So for
+most people the honest framing is: fasting is a legitimate *adherence vehicle* for a deficit if it is
+the deficit you can actually keep — and it ranks as a small, heavily-marketed lever whose prominence is
+an artifact of attention, not of effect size. The prolonged arm is a different object: for identifiable
+strata it flips from lever to hazard, and its management is a prescriber's job, not a lifestyle choice.
 
-This is a stratum-level appraisal of thin evidence, applied per person at layer 3
-([[Layer 1 - Ranking Interventions for a Stratum]] for where this ranks). Treat the
-confidence as **low** throughout — several of the load-bearing magnitudes (fasting vs continuous
-restriction head-to-head, human autophagy outcomes, refeeding risk, lean-mass and BMR effects) are
-**not held here** and are named as gaps rather than guessed at.
+This appraises what fasting *does*; it is **not a fasting protocol**. The individual answer is set per
+person (weight, metabolic status, medications, age, muscle) at the point of use.
 
-## Operationalize first: "fasting" is at least four different exposures
+## The unit is not *fasting* — separate the schedules first
 
-The word names several distinct interventions with different evidence and different risk. A benefit or
-harm shown for one does not transport to another — the label is not the exposure
-([[Is the Food Category Doing Any Work]]).
+*Fasting* is one word for several distinct exposures with different evidence and very different risk. A
+benefit or harm shown for one does not transport to another — the label is not the exposure
+([[Is the Food Category Doing Any Work]]). Keep four apart:
 
-- **Time-restricted eating (TRE)** — a daily eating window (16:8, or a shorter early window). Held on
-  [[Time-Restricted Eating]]. Mostly a calorie-reduction vehicle: in the one adequately-powered
-  free-living RCT (TREAT, n=116), a self-selected 16:8 window with nothing else changed produced no
-  weight advantage over normal eating — a between-group difference of «-0.26 kg» with «P = .63»
-  [@lowe2020]. This deliverable references TRE; it
-  does not re-litigate it.
-- **Intermittent fasting (ADF / 5:2)** — alternate-day, or two very-low-intake days a week. The main
-  weight-loss evidence base and the key comparator against continuous restriction.
+- **Time-restricted eating (TRE)** — a daily eating window (e.g. 16:8, or a 6-hour early window). Mostly
+  a calorie-reduction vehicle; the arm with the most controlled human data. Its full appraisal lives on
+  [[Time-Restricted Eating]] and [[Is Meal Timing a Life Hack]]; this deliverable references it rather
+  than re-litigating it.
+- **Intermittent fasting / alternate-day fasting (ADF) / 5:2** — alternate-day or two-days-a-week
+  very-low-intake. The main weight-loss evidence base and the key comparator against continuous
+  restriction.
 - **Prolonged / periodic fasting (>=36-72 h)** — the arm that carries the autophagy claim *and* the
   contraindication and refeeding risks. Thinnest human-outcome evidence, highest harm potential.
-- **Fasting-mimicking diets (FMD)** — an engineered low-calorie protocol, not water fasting; named
-  separately, not merged with the others.
+- **Fasting-mimicking diets** — an engineered low-calorie protocol; named here, not merged with water
+  fasting, and not evidenced in the held corpus.
 
-The evidence held here is strongest on TRE and on the deficit-delivered-by-other-routes comparisons;
-it is thinnest exactly on the prolonged arm that the hype leans on hardest.
+## The right comparator is isocaloric restriction — not eating whatever you want
 
-## The load-bearing question: does the schedule beat an isocaloric deficit?
+The honest test of any fasting schedule is not *does it beat ad-lib eating?* (a deficit beats surplus —
+that tells you nothing about the schedule). It is: **does ADF / 5:2 / a fasting window beat the same
+calorie deficit delivered continuously?** The held meal-timing lesson generalizes directly: *when* you
+eat moves outcomes mostly because it changes *how much* ([[Is Meal Timing a Life Hack]]). So frame every
+claimed benefit as a **schedule effect on top of a deficit effect**, and default to *the deficit is
+doing the work* unless a head-to-head shows otherwise.
 
-**Default answer: the deficit is doing the work**. The clean meal-timing lesson
-generalizes — *when* you eat moves outcomes mostly because it changes *how much*
-([[Is Meal Timing a Life Hack]]). TREAT is
-the tidy demonstration: adherence was good, yet the window alone bought no weight advantage
-[@lowe2020]. The only trial held here that
-isolates *timing* from *calories* is eTRF (n=8, weight held constant by design): shifting the same
-food earlier improved surrogate markers — mean insulin **-26 mU/L**, insulin resistance **-36 U/mg
-(p=.005)**, blood pressure **-11 / -10 mm Hg (p=.03)** — with **zero weight change**, while fasting
-glucose (the primary endpoint) was null and fasting triglycerides actually *rose* 57 mg/dL
-[@sutton2018] — a rise the authors attribute to
-the longer (18 h) pre-test fast in the early-eating arm, a likely transient testing artifact rather than a
-demonstrated harm. So the one weight-independent
-signal is small, on surrogates only, from eating *early* rather than from the fast itself
-([[Surrogate Outcomes]]).
+Where the corpus can look at that head-to-head, the schedule adds nothing detectable:
 
-The converging evidence from non-fasting routes says the same thing — **it is the weight lost, not the
-protocol's gimmick, that moves outcomes.** DiRECT put **46%** of short-duration type 2 diabetics into
-remission on an **825-853 kcal/day** formula diet that was **59% carbohydrate** — a high-carb,
-low-*energy* diet — with remission scaling monotonically with kilograms lost, from **0%** in those who
-gained weight to **86%** in those losing >=15 kg [@lean2018, 
-Results; Findings]. And the low-carb remission signal *decays in step with its weight advantage*
-(weight MD -3.46 kg at 6 months, back to +0.29 kg by 12 months), which reads as a weight-loss effect
-delivered via a diet route, not a macronutrient effect independent of weight
-[@goldenberg2021, Table 3]. The lesson transfers to
-fasting: **frame every benefit as schedule-effect on top of deficit-effect, and default to the deficit
-unless a head-to-head shows the schedule adding something.** NICE's own reading is consistent — the
-only diet it will positively recommend is defined by **energy** (total diet replacement, 800-1200
-kcal, 12-week ceiling), not by macronutrient or timing
-[@nice, 1.1.10].
+- **Liver fat:** EASL finds very little evidence that time-restricted eating beats regular caloric
+  restriction [@easl2024].
+- **Weight, in the one adequately-powered free-living TRE trial:** TREAT (n=116) gave a self-selected
+  16:8 window with no other instruction and found **no weight advantage** over normal eating
+  (between-group difference about -0.26 kg, P=.63), and every cardiometabolic marker (fasting insulin,
+  glucose, HbA1c, blood pressure, lipids) was null [@lowe2020, 
+].
 
-**What is NOT held: the ADF/5:2 evidence at all.** An intermittent-fasting-vs-continuous-calorie-
-restriction systematic review or meta-analysis — ADF/5:2 vs an isocaloric continuous deficit, on weight
-and cardiometabolic outcomes — is the number behind this whole section, and it is **not in the corpus**
-(gap, below). For the ADF/5:2 and prolonged arms specifically the corpus holds **no head-to-head**, so
-the *deficit-does-the-work* default is **inferred by transfer** from TRE and the non-fasting weight-loss
-routes, not evidenced for those schedules — both direction and magnitude are unproven
-there.
+**Gap (stated plainly, because it is the load-bearing magnitude this deliverable cannot supply):** the
+wiki does **not yet hold** a systematic review or meta-analysis of ADF/5:2 *versus isocaloric continuous
+restriction* on weight and cardiometabolic outcomes. A gold-tier network meta-analysis of intermittent
+fasting strategies is acquired but not yet ingested; until it is read,
+the magnitude of any IF-vs-CR difference is stated as a direction (small-to-none, from the meal-timing
+prior), not a number.
 
-## Autophagy: a mechanism and a "not yet," not a demonstrated benefit
+## The one weight-independent signal — small, surrogate-only, and from eating *early*
 
-**Evidence state: insufficient — held open, not credited as a benefit.** The longevity story pinned to
-fasting runs mostly on **rodent and cell** data; the human data are short-term surrogate markers, and
-no source held here links a fasting-induced autophagy signal to a patient-important human outcome.
-Under the transportability caveat (animal != human, in vitro != in vivo), autophagy is admitted only
-**directionally, discounted, and marked as mechanism**. It is
-exactly the trap [[Surrogate Outcomes]] guards: a *measurable marker* is not the outcome a person
-values, and a marker can move in the intended direction while the outcome does not. Autophagy
-graduates from "not yet" to "benefit" only when human outcome evidence arrives — and a human-autophagy
-/ fasting-longevity review is **not held** (gap, below). Do not let its *insufficient* status blur
-into a *benefit*.
+There is one place the schedule looks like it does something on its own, and it is worth stating
+precisely so it is neither oversold nor dismissed. In eTRF (Sutton, n=8), a tightly controlled
+crossover that held calories constant *by design* — participants were fed enough to keep their weight
+stable — shifting the same food to a 6-hour early window improved insulin sensitivity, blood pressure
+(morning systolic/diastolic down about 11 / 10 mmHg, p=.03) and an oxidative-stress marker, with
+**zero weight change** — improvements *«Even without Weight Loss»*
+[@sutton2018].
 
-## Muscle / lean-mass loss: the standing cost, and it inverts by stratum
+Read the bounds before the headline:
 
-**Evidence state: harm — real, and dominant in the wrong stratum.** Any large deficit risks fat-free
-mass (FFM — muscle) loss, and a fasting schedule can make this worse by quietly under-feeding protein,
-which is eaten mostly at meals. TREAT is the worked failure: the modest weight lost on a self-selected
-16:8 window was «approximately 65% ... lean mass» versus the normal 20-30% for weight loss, with a
-significant between-group deficit in appendicular lean mass — the authors flag it as a caution for
-populations at risk of sarcopenia [@lowe2020]. The
-mitigation is not exotic: **adequate protein plus resistance training preserves lean mass while you
-lose fat.** Aim for roughly **1.6 g/kg/day** of total protein — the point where extra protein stops
-adding lean mass (break point **1.62 g/kg/day, CI 1.03-2.20**); training is the driver, protein a
-modest RCT-grade adjunct (+2.49 kg on a 1RM, +0.30 kg FFM)
-[@morton2018]
--> [[Protein and Resistance Training for Muscle and Strength]].
+- **It is n=8, five weeks, prediabetic men, on surrogate markers with no hard outcome and no weight
+  change** — a genuine circadian signal *if real*, but preliminary, and everything it moved is a marker,
+  not an outcome a person values ([[Surrogate Outcomes]]).
+- **The markers did not even agree with each other:** fasting triglycerides *rose* about 57 mg/dL in the
+  same trial, plausibly a short-fast-before-the-blood-draw artifact — which is exactly why a single
+  marker in isolation is not diagnostic [@sutton2018, 
+].
+- **The signal is from timing (eat earlier), not from the window or from fasting length.** It does not
+  license a long daily fast; it points, weakly, toward eating aligned to the morning.
 
-**The sign of this cost flips by stratum.** For a young overweight adult, some lean-mass loss inside a
-large fat loss is minor. For the older, sarcopenia-risk adult, **muscle and function are front-line
-outcomes in their own right, and aggressive weight loss flips from lever to hazard** — the top lever
-becomes resistance training plus protein, and any weight loss must be muscle-protective and gradual,
-never rapid [[Big Rocks (Elderly)]]. This is route (c) (a harm firing in a stratum) and route (d)
-(the outcome priorities themselves change) acting together.
+Bottom line on benefit: the schedule's isolated, weight-independent effect is small, on surrogates, and
+tied to *early* eating — not to going longer without food.
 
-## BMR and metabolic adaptation: separate the acute from the chronic, oversell neither
+## Autophagy is a mechanism and a *not yet* — never a demonstrated human benefit
 
-**Direction held, magnitude a gap.** Short fasts do **not** immediately suppress metabolic rate — a
-transient rise in catecholamines can hold basal expenditure up acutely. Sustained large deficits are
-the opposite story: the body defends against a persistent energy gap, and measured basal rate can fall
-somewhat below what body composition predicts (adaptive thermogenesis — the reduction in resting
-energy expenditure beyond what fat and muscle loss alone would cause). This is
-the same defend-the-deficit behaviour the compensation evidence shows for other interventions: the
-body quietly offsets an opened energy gap, and the offset is largest in the person who most wants the
-effect ([[Is Meal Timing a Life Hack]]). Two overclaims to resist symmetrically: **"fasting boosts
-your metabolism"** and **"fasting wrecks your metabolism"** — neither is a decisive lever, and the
-magnitude and persistence of adaptive thermogenesis under a fasting schedule specifically are **not
-held here** (gap, below).
+The marquee longevity claim for prolonged fasting is autophagy — the cell's self-clearance process.
+The evidence for it as a *human* benefit runs mostly on rodent and cell-culture work; the human data
+are short-term surrogate markers, and **no source held here links a fasting-induced autophagy signal to
+a patient-important human outcome** (longevity, healthspan, disease). Under the wiki's four evidence
+states this is squarely **insufficient evidence** — unproven, not disproved — and it must not be blurred
+into *benefit* ([[Surrogate Outcomes]]). Admit it directionally, heavily discounted, and marked as
+mechanism. It graduates to a finding only on human outcome evidence.
 
-## Contraindications: where a prolonged (>=36 h) fast flips to net harm
+**Gap:** a human-autophagy / fasting-longevity review is **not held**. The measurable marker is not the
+outcome people are buying, and treating the marker as the outcome is the streetlight error the wiki
+guards against — do not let a bright, measurable autophagy signal stand in for a dim, unmeasured
+lifespan one.
 
-**Evidence state: harm — in-stratum, and the half the hype omits.** A >=36 h fast is not a universal
-tool. The strata where the sign flips:
+## The standing harm of any aggressive deficit — muscle loss, and it inverts by stratum
 
-- **On glucose-lowering medication (sulfonylureas, insulin) or with type 1 diabetes.** Withholding
-  food while glucose-lowering drugs continue risks **hypoglycaemia**, and in type 1 diabetes,
-  **diabetic ketoacidosis**. This is a prescriber-managed contraindication, not a lifestyle choice. Note how carefully even a *supervised*
-  deficit programme handles this: DiRECT discontinued all oral antidiabetic and antihypertensive drugs
-  on day 1 and reintroduced them only per protocol
-  [@lean2018, Procedures] — an aggressive energy restriction and the
-  medication list must be managed *together*.
-- **NAFLD / MASLD and metabolic syndrome (the user's flag).** The held liver guidance frames the lever
-  as **sustained, gradual** weight loss with a dose-graded histological payoff — «>=5%» reduces liver
-  fat, «7-10%» improves inflammation, «>=10%» improves fibrosis — and documents that weight is
-  typically regained toward a net \~5% by 12-24 months
-  [@easl2024]. And the guideline finds «very
-  little evidence for a beneficial effect of time-restricted eating over regular caloric restriction» on
-  liver fat in MASLD — the isocaloric comparator, stated by a guideline body
-  [@easl2024]. The specific worry with a
-  *prolonged fast* — that rapid lipolysis mobilizes free fatty acids to the liver and can transiently
-  worsen steatosis, and that rapid weight loss raises gallstone risk — is **mechanism, not a held
-  finding**. What the corpus supports is the *gradual-not-rapid* preference;
-  the prolonged-fast-specific harm is a named gap.
-- **Underweight, eating-disorder history, pregnancy, frail elderly.** Out-of-scope harm strata, named
-  as do-not: a deliberate prolonged energy withdrawal in someone with no reserve, an active or
-  historical eating disorder, a pregnancy, or established frailty is a hazard, not a health lever]]`.
+A large energy deficit — however delivered — risks losing **fat-free (lean) mass**, not just fat, and
+an ad-libitum short fasting window makes this worse by quietly cutting protein (protein is eaten mostly
+at meals, and a compressed window drops a meal). TREAT is the worked failure: its modest weight loss
+was about **65% lean mass**, versus a normal 20-30%, with a significant between-group deficit in
+appendicular lean mass — the authors flag it as a caution for anyone at risk of sarcopenia
+[@lowe2020].
 
-## Refeeding: the fast and the refeed are one protocol
+The mitigation is not exotic and it is the same as for any deficit: **adequate protein plus resistance
+training preserve lean mass while fat falls.** Aim for roughly **1.6 g/kg/day of total protein** — the
+point where extra protein stops adding lean mass (break point 1.62 g/kg/day, wide CI 1.03-2.20); the
+training is the driver, protein a modest adjunct (about +2.5 kg on a one-rep-max, +0.3 kg lean mass)
+[@morton2018]. If a fasting window makes
+hitting that protein target harder, that is a direct cost of the schedule.
 
-**Evidence state: harm (of the long arm) — real, prescriber-managed, and unquantified here.** Breaking
-a prolonged fast in a depleted person carries **refeeding-syndrome** risk — dangerous electrolyte
-shifts (hypophosphatemia; thiamine depletion) when carbohydrate intake resumes and insulin drives
-electrolytes intracellularly. The clinical point is that the refeed is *part of the intervention*, not
-an afterthought, and it is a prescriber matter for anyone doing a genuinely prolonged (>=72 h) fast. The closest held analog is a
-supervised very-low-energy protocol with structured, protocol'd food reintroduction
-([[Total Diet Replacement and Type 2 Diabetes Remission]]) — a refeeding-syndrome clinical source proper
-is **not held** (gap, below); the risk is named, not sized.
+**This is where the sign flips by stratum.** For a young, overweight adult, some lean-mass loss is
+minor. For the **elderly / sarcopenia-risk** adult, muscle and function are the front-line outcomes,
+and aggressive weight loss flips from lever to hazard — the whole ranking inverts (a fuller treatment on
+[[Big Rocks (Elderly)]] and [[Protein and Resistance Training for Muscle and Strength]]). Morton's data
+add a stratum caveat: the *supplement's* extra benefit is reduced with age — the training still works,
+the protein top-up does a little less [@morton2018]. A fasting schedule that under-feeds protein is a bad trade in exactly the people who
+can least afford it.
 
-## The ranking verdict: a schedule for adherence, not a metabolically superior lever
+## Metabolic rate — separate the acute from the chronic, and oversell neither direction
 
-Rank the whole topic by **effect x certainty, discounting for attention.** Fasting is a heavily
-marketed fad, and the telos rule *attention is an anti-signal* bites hard: the loud effects reduce to
-the calorie deficit and to adherence ([[Layer 1 - Ranking Interventions for a Stratum]], where meal
-timing already ranks near the bottom as a small, surrogate-only lever). Two honest results:
+Two opposite overclaims circulate, and both are wrong. *Fasting boosts your metabolism* points at a
+real but transient acute effect (a short fast raises catecholamines; resting metabolic rate is not
+immediately suppressed). *Fasting wrecks your metabolism* points at a real chronic one (a sustained
+large deficit provokes adaptive thermogenesis — measured resting metabolic rate falling somewhat below
+what body-size predicts). Neither is a decisive lever, and they operate on different time horizons. This channel is one reason weight regain is the norm after any aggressive deficit — the
+documented post-loss regain trajectory sits on [[Total Diet Replacement and Type 2 Diabetes Remission]],
+and it is not specific to fasting.
 
-- **Adherence is part of the effect.** For some people a fasting rule ("nothing after 8pm," "two low
-  days a week") is simply the deficit they can *keep* — a real, if unglamorous, benefit, since a
-  smaller sustained deficit can beat a larger abandoned one. For others a fasting schedule drives
-  compensatory overeating on feed days and closes the deficit. It is a **schedule choice for fit**,
-  not a metabolic trick ([[Is Meal Timing a Life Hack]]).
-- **And weight loss itself, the thing fasting delivers, is bounded on hard outcomes.** Even when
-  lifestyle weight loss is achieved, hard cardiovascular events did not fall in the large Look AHEAD
-  trial — «hazard ratio 0.95; 95% CI 0.83 to 1.09»
-  [@look2013]. A 54-trial
-  meta-analysis confirms the CV-event null («risk ratio 0.93, 95% CI 0.83 to 1.04») while finding a
-  modest all-cause mortality benefit not routed through the heart («risk ratio 0.82, 95% CI 0.71 to
-  0.95») [@ma2017]. So even the deficit fasting
-  delivers is a real-but-bounded lever, largest for the outcomes weight loss actually moves (diabetes
-  remission) and unproven for others (heart attacks).
+**Gap:** the wiki holds **no source with a magnitude** for adaptive thermogenesis or its persistence
+after fasting specifically. State the direction and horizon; do not attach a number, and resist both
+marketing claims (symmetric standards).
 
-**Bottom line for the ranking:** for someone whose big rocks (smoking, heavy alcohol, obesity,
-inactivity, chronic sleep loss) are unaddressed, the fasting *schedule* is not the question — the
-deficit and those levers are. For someone already lean, active and metabolically well, a fasting
-window is a plausible small refinement chosen for adherence, held with low confidence, and best done
-*early* with protein guarded.
+## Where a prolonged (>=36 h) fast flips to net harm
 
-## What we cannot yet answer (named gaps, not guesses)
+A prolonged fast is not a universal tool, and this is the half the hype omits. In these strata the sign
+flips, and each is a **prescriber matter** — screening, dosing and management are out of scope here:
 
-The thin parts of this topic are load-bearing, so they are stated plainly for acquisition rather than
-papered over with invented numbers:
+- **On glucose-lowering medication (sulfonylureas, insulin) or with type 1 diabetes:** hypoglycaemia,
+  and in type 1 diabetes ketoacidosis, are real dangers of withdrawing food while the drug keeps
+  working. This is a managed medical situation, not a self-directed experiment]]. **Gap:** a prolonged-fasting clinical
+  safety source is not held.
+- **Fatty liver (MASLD) / metabolic syndrome:** rapid weight loss can transiently worsen the picture —
+  rapid fat mobilization loads the liver, and gallstone risk rises with fast weight loss. EASL's held
+  guidance supports *gradual* loss and the dose-graded ladder for the liver: sustained loss of >=5%
+  reduces liver fat, 7-10% improves inflammation, >=10% improves fibrosis
+  [@easl2024]. Whether a *prolonged fast
+  specifically* is contraindicated (versus rapid weight loss in general) needs a source the wiki does
+  not hold — stated as mechanism, not a finding. **Gap:** a NAFLD/MASLD-and-fasting source.
+- **Underweight, eating-disorder history, pregnancy, the frail elderly:** out-of-scope harm strata,
+  named as do-not. A prolonged fast has no place here.
 
-- **An intermittent-fasting-vs-continuous-calorie-restriction SR/MA** — the magnitude behind the
-  load-bearing comparator (ADF/5:2 vs isocaloric continuous restriction, on weight and cardiometabolic
-  outcomes); would firm up [[Time-Restricted Eating]] and this whole appraisal. Direction inferred by
-  transfer; size **not held**.
-- **A human-autophagy / fasting-longevity review** — to place autophagy on the benefit-vs-"not yet"
-  line with human outcome evidence rather than rodent/cell mechanism, and settle whether the marker
-  reaches an outcome ([[Surrogate Outcomes]]). **Not held.**
-- **A prolonged-fasting safety / refeeding-syndrome clinical source** — for the contraindication and
-  electrolyte-risk claims of the >=36-72 h arm. **Not held.**
-- **A NAFLD/MASLD-and-fasting source** — to settle whether a prolonged fast *specifically* is
-  contraindicated, versus the merely rapid-weight-loss caution the held EASL page supports. **Not
-  held.**
-- **A fasting-and-lean-mass / adaptive-thermogenesis source** — to put a magnitude on the muscle-loss
-  and BMR channels (how much FFM, how far basal rate falls, how persistently). **Not held.**
+## Refeeding is part of the intervention, not an afterthought
+
+Breaking a prolonged fast carries **refeeding syndrome** — dangerous electrolyte shifts
+(hypophosphatemia, thiamine depletion) when a depleted body is fed again. The fast and the refeed are
+**one protocol**, and this is a real risk of the >=72 h arm and a prescriber-managed matter. **Gap:** a refeeding-syndrome clinical
+source. Any honest account of prolonged fasting has to carry the refeed; an account that describes only
+the fast has described half the intervention. The corpus's nearest analog is the *stepped* food
+reintroduction phase of a structured low-energy programme ([[Total Diet Replacement and Type 2 Diabetes Remission]]) — controlled precisely because feeding a depleted body back up is a managed step, not a
+switch to flip.
+
+## Ranking, and adherence — why fasting sits low despite the noise
+
+Rank fasting by demonstrated effect x certainty, and discount hard for attention: it is one of the
+most heavily marketed interventions in the field, and *attention runs inversely to effect size* in a
+mature area ([[Layer 1 - Ranking Interventions for a Stratum]]). What the held evidence supports is a
+**small, largely surrogate, weight-independent effect at best, plus specific harms** — which places
+fasting with meal timing near the bottom of the lever list, well below the hard-outcome levers.
+
+The one place the schedule genuinely earns its keep is **adherence**, and adherence is part of the
+effect: for some people a fasting rhythm is simply the deficit they can sustain, and a smaller sustained
+deficit beats a larger abandoned one. For others the same schedule drives compensatory overeating on
+feed days and nets nothing. So the recommendation is conditional on the person: *if a fasting window is
+the deficit you will actually keep, it is a reasonable delivery route; if it is not, a continuous
+deficit is not inferior and carries less muscle-loss risk.*
+
+## What actually moves the outcomes — the deficit, by whatever route you will keep
+
+Because the deficit does the work, the levers with real held magnitudes are the ones that *deliver a
+sustained deficit* — and none of them requires fasting:
+
+- **Total diet replacement (formula diet), the NICE-recommended route:** an 800-1200 kcal/day
+  nutritionally complete diet for a **maximum of 12 weeks** inside a supported programme — which NICE
+  states *«should not be used as a long-term strategy to manage obesity»*
+  [@nice].
+- **DiRECT is the proof the route, not the fasting, matters:** an 825-853 kcal/day formula diet that is
+  **59% carbohydrate** — the opposite of a low-carb or ketogenic fast — produced -10 kg mean loss and
+  **46% type 2 diabetes remission**, with remission rising monotonically with kilograms lost (0% at
+  weight gain to 86% at >=15 kg) [@lean2018]. The operative variable
+  is the weight lost, not the macronutrient split and not the eating schedule.
+- **Low-carbohydrate routes work through the same deficit and fade with it:** Goldenberg's low-carb
+  remission and weight advantage both attenuate toward null by 12 months as weight is regained — a
+  weight-loss effect delivered via a low-carb route, not a carbohydrate effect independent of weight
+  [@goldenberg2021].
+
+The lesson transfers to fasting exactly: it is one more delivery route for the deficit, to be chosen on
+**what you can sustain**, not on a metabolic claim it does not earn.
+
+## The gaps — this deliverable's main product
+
+A gap is itself a finding — it bounds what can be claimed and drives the next source choice
+([[Layer 1 - Ranking Interventions for a Stratum]]). The magnitude evidence that would let this move
+from directional to quantitative is **not held**, named here so it can be acquired rather than guessed:
+
+- **IF (ADF/5:2) versus isocaloric continuous restriction** — the load-bearing magnitude. A gold-tier
+  network meta-analysis is acquired but not yet ingested.
+- **Human autophagy / fasting-longevity** — to place the autophagy claim on the benefit / not-yet line.
+- **Prolonged-fasting safety and refeeding syndrome** — the clinical source behind the contraindications
+  and the electrolyte risk.
+- **NAFLD/MASLD and fasting specifically** — to settle whether a prolonged fast is contraindicated or
+  merely the general rapid-weight-loss caution.
+- **Fasting and lean mass / adaptive thermogenesis** — to put magnitudes on the muscle and metabolic-rate
+  channels.
 
 ## Caveats
 
-- **Open loop (R1).** This grades coherence and fidelity to the sources it cites, never real-world
-  validity. Nothing here was tested against a realized health outcome; a clean appraisal is not a
-  validated recommendation.
-- **Appraise, do not prescribe.** This appraises *what fasting does to outcomes and where it harms* —
-  it is **not** a fasting protocol. Prolonged fasting on glucose-lowering medication, with
-  NAFLD/metabolic syndrome, or in the frail/underweight/pregnant is a **prescriber** matter: dosing,
-  contraindication screening and refeeding management are out of scope.
-- **A stratum-level appraisal, applied per person.** Current weight, metabolic status, medications,
-  age, muscle mass and what a person can actually sustain set the individual answer (layer 3).
-- **Health axis only.** This weighs health outcomes; it prices no other objective.
+- **Open loop.** This grades coherence and fidelity to its sources, never validity. Nothing here has
+  been checked against a realized outcome; a clean appraisal is not a validated recommendation.
+- **Appraise, do not prescribe.** This is not a fasting protocol. Prolonged fasting on glucose-lowering
+  medication, with NAFLD or metabolic syndrome, or in the frail, underweight, pregnant, or
+  eating-disorder-history person is a **prescriber** matter — dosing, contraindication screening and
+  refeeding management are out of scope.
+- **A stratum-level appraisal, applied per person.** Current weight, metabolic status, medications, age,
+  muscle mass and what the person can sustain set the individual answer.
+- **Health axis only.** Where fasting carries load on any non-health axis (cost, convenience, cultural
+  or religious practice), that trade-off exists and is the person's to weigh; it is not priced here.
 
 ## References

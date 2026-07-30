@@ -60,7 +60,7 @@ The parameter table's "shared base / low grade" rows were previously abstract; t
   red meat directly. Diets lower in red meat showed «little or no effect on all-cause mortality (hazard
   ratio [HR], 0.99 [95% CI, 0.95 to 1.03])», CV mortality 0.98, colorectal cancer 1.04 — but «rated down
   for serious indirectness» because «the trial investigated reducing dietary fat intake, which led to
-  reduction of red meat intake» (WHI, a ~1.4-serving/wk incidental gradient).
+  reduction of red meat intake (rather than directly investigating reduction of red meat intake)» (WHI, a ~1.4-serving/wk incidental gradient).
   [EXTRACTED @zeraatkar2019 chunk 01] **This cuts both ways:** the RCT
   evidence *against* red meat is near-absent, but so is any clean RCT *exoneration* — direct powered
   red-meat trials essentially do not exist (a structural G-gap).

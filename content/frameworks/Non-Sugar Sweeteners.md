@@ -64,7 +64,7 @@ confidence: low
 
 The pooled -0.71 kg dissolves once the comparator is pinned:
 
-- **vs free sugars → largest effect.** «with the largest effects when NSS were compared with sugars».
+- **vs free sugars → largest effect.** «with the largest effects when NSS were compared with sugars. However, NSS compared with water showed no effect on body weight and a non-significant increase in BMI».
 - **vs water / nothing / placebo → no effect.** «NSS compared with water showed no effect on body
   weight and a non-significant increase in BMI»; «When NSS were compared with nothing/placebo or water …
   no effects on body weight or BMI were observed.»
@@ -129,7 +129,7 @@ it does not accept them as proven harm either. It ran the check and returned a *
   [EXTRACTED @who2023nonsugar chunk 01]
 - **The reverse-causation check was RUN — and the association survived it (weakened).** Reverse
   causation here = «those already at elevated risk of disease initiated or increased use of NSS because
-  of their risk status» (people already heavy/dysglycaemic switch *to* sweeteners *because* of their
+  of their risk status, rather than NSS leading to increased risk in otherwise healthy or low-risk individuals» (people already heavy/dysglycaemic switch *to* sweeteners *because* of their
   condition). Study authors attacked it: adjusting for BMI, stratifying by weight, excluding those who
   lost weight before baseline, and dropping early follow-up years. The result was mixed — «some results
   were attenuated, some were strengthened» — but «in the majority of studies, particularly for type 2
@@ -164,8 +164,7 @@ controlled trial** — 120 NNS-avoiding healthy adults given saccharin, sucralos
 2 weeks at «doses lower than the acceptable daily intake», vs vehicle-glucose or no-supplement controls —
 and it changes the reverse-causation picture materially:
 
-- **NNS are not inert.** Each of the four «distinctly altered stool and oral microbiome and plasma
-  metabolome» vs controls. [EXTRACTED @suez2022 chunk 01]
+- **NNS are not inert.** Each of the four «distinctly altered stool and oral microbiome and plasma metabolome, whereas saccharin and sucralose significantly impaired glycemic responses» vs controls. [EXTRACTED @suez2022 chunk 01]
 - **Saccharin and sucralose «impaired glycemic responses»**; aspartame and stevia shifted the microbiome
   but did not significantly move glucose in the window — the class splits, vindicating WHO's `type-B`
   refusal to treat NSS as one object. [EXTRACTED @suez2022 chunk 01]

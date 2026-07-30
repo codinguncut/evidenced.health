@@ -61,7 +61,7 @@ non-nutritive sweeteners to saccharin, sucralose, aspartame, or stevia for two w
 the acceptable daily intake», against glucose-vehicle or no-supplement controls.
 [EXTRACTED @suez2022 chunk 01]
 
-- Each sweetener «distinctly altered stool and oral microbiome and plasma metabolome» — so it did not stop
+- Each sweetener «distinctly altered stool and oral microbiome and plasma metabolome, whereas saccharin and sucralose significantly impaired glycemic responses» — so it did not stop
   at "the microbiome changed."
 - **Saccharin and sucralose «impaired glycemic responses»**; aspartame and stevia shifted the microbiome
   but did not move glucose in the window. The class splits — a warning that even "sweeteners" is too coarse

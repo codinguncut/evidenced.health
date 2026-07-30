@@ -147,7 +147,7 @@ gave 120 healthy adults who normally avoid sweeteners saccharin, sucralose, aspa
 weeks at «doses lower than the acceptable daily intake». Findings
 [EXTRACTED @suez2022 chunk 01]:
 
-- **None were inert** -- each «distinctly altered stool and oral microbiome and plasma metabolome».
+- **None were inert** -- each «distinctly altered stool and oral microbiome and plasma metabolome, whereas saccharin and sucralose significantly impaired glycemic responses».
 - **The class split:** saccharin and sucralose «impaired glycemic responses»; aspartame and stevia did
   not significantly move glucose in that window.
 - **The effect was causal, not reverse causation:** germ-free mice given stool from high- vs

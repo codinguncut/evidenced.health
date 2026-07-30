@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -121,7 +121,7 @@ contrast (type-A synthesis), not a head-to-head.
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Over-claim check:** the composite 0.70 is not read as a mortality or MI claim — the stroke-driven
-  decomposition and the null all-cause HR are stated up front; the "pattern beats weight loss" claim is
+  decomposition and the null all-cause HR are stated up front; the *pattern beats weight loss* claim is
   tagged `` and gated behind a parameter table naming the population/comparator differences,
   not asserted as head-to-head.
 - **Laundered-E avoided:** the SFA-replacement overlap is explicitly called refinement/consistency, NOT

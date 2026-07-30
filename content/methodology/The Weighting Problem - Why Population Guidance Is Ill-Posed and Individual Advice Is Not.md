@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-07-30
 ---
 
 **Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [@grade]
@@ -127,7 +127,7 @@ on the others. *Nuts are healthy*, therefore the water column goes unexamined. A
 milk inherit the same halo.
 
 **This is the telos's central anti-bias rule, operating one level out.** That rule names asymmetric
-scrutiny — *"demanding more of evidence you dislike than of evidence you like"* — as **"the primary way
+scrutiny — **demanding more of evidence you dislike than of evidence you like** — as **"the primary way
 motivated reasoning survives an 'evidence-based' framing."** The halo is that same asymmetry applied
 **across dimensions** rather than across evidence: a favourable health score buys exemption from the
 carbon, water and welfare columns. Structurally identical, and it needs the same fix — *symmetric
@@ -135,7 +135,7 @@ standards*, applied per column.
 
 **And the halo is self-reinforcing on the health axis too, which is the sharper version of the
 concern.** *Healthy food* categories are exactly where the observed-healthy-population problem bites:
-the telos holds that such populations *"are not evidence for any one of their components"*, since
+the telos holds that such populations **are not evidence for any one of their components**, since
 consumption of a halo food tracks the whole dietary pattern and the socio-economic position behind it.
 **So the halo can inflate the health claim AND suppress the environmental one at once** — the same
 mechanism operating on both columns, not a fair trade of one against the other.
@@ -207,7 +207,7 @@ A reader is told not to increase an exposure while being given **neither number*
 ### The tension this resolves — and it is a tension in the critique too
 
 **A quantified trade-off IS an imposed weight.** So a demand for both *"do not impose weights"* and
-*"quantify the compromise"* cannot be satisfied: the second is the first. NNR's refusal to publish an
+**quantify the compromise** cannot be satisfied: the second is the first. NNR's refusal to publish an
 exchange rate is therefore **correct**, not handwaving — it is the right response to the problem this
 page describes, and NNR says as much (*"Weighing... is essential and dependent on many factors and
 priorities"*, so it *"describe[s] the considerations transparently"* instead).
@@ -230,7 +230,7 @@ auditable by someone with different values. -> [[Which Objective Moved This Reco
 
 **Honest limit:** NNR's environmental evidence base may not support magnitudes — its own data-gap notes
 say evidence beyond climate is largely missing, and it rejected optimisation modelling on transparency
-grounds. **So "publish the coordinate" may be blocked by the evidence, not chosen.** The wiki cannot
+grounds. **So *publish the coordinate* may be blocked by the evidence, not chosen.** The wiki cannot
 currently tell those apart, and the distinction matters for whether this is a failure or a limit.
 
 ## Decision relevance

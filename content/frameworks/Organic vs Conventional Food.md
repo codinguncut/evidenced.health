@@ -76,7 +76,7 @@ did not differ by farming method.
 
 ## Sub-question 2 — nutrient content: small differences, running BOTH ways
 
-Baranski found antioxidants/(poly)phenolics "substantially higher in organic", with the phenolic classes
+Baranski found antioxidants/(poly)phenolics *substantially higher in organic*, with the phenolic classes
 "an estimated 19 (95 % CI 5, 33) %, 69 (95 % CI 13, 125) %, 28 (95 % CI 12, 44) %, 26 (95 % CI 3, 48) %,
 50 (95 % CI 28, 72) % and 51 (95 % CI 17, 86) % higher, respectively" (phenolic acids, flavanones,
 stilbenes, flavones, flavonols, anthocyanins).

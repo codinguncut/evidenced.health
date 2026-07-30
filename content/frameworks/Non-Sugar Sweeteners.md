@@ -14,7 +14,7 @@ relationships:
     - Continuous Glucose Monitoring as a Health Intervention
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -272,7 +272,7 @@ classification nor the JECFA 2023 ADI re-affirmation is held yet — those remai
 ## Self-critique `[run 2026-07-29, second pass — the Suez/Debras/review additions]`
 
 - **Over-claim check.** Suez is explicitly NOT read as confirming the hard-outcome harm — the parameter
-  table's all-NO column gates it to "causal on a surrogate, personalized"; the OPEN verdict is said to
+  table's all-NO column gates it to *causal on a surrogate, personalized*; the OPEN verdict is said to
   *narrow, not close*. Debras is flagged as discordant with WHO's own null cohort, not as proof of cancer
   risk. No superlative scoped to the vault.
 - **Laundered-E avoided.** The additions are typed F (refinement), not E — Suez and Debras answer different

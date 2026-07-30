@@ -200,7 +200,7 @@ whole-grain benefit is cohort-only and mostly `Limited`, with SACN itself noting
 associations *«may be related to its cereal fibre component»*.
 [@sacn2015, chunks 05, 09]
 
-**Why this does NOT license "take the isolate instead."** SACN bounds its own finding in the same
+**Why this does NOT license *take the isolate instead.*** SACN bounds its own finding in the same
 clause — the effect is *«demonstrated at intakes achieved through supplementation»*. So the grade
 attaches to a dose nobody reaches by eating differently. **The category question and the evidence-grade
 question come apart here**: the better-graded object is the one that could be randomised, which is a

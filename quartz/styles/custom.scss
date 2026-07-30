@@ -12,3 +12,40 @@
   text-indent: -2em;
   line-height: 1.5;
 }
+
+// --- deliverable cards on the landing page (healthicons, theme-aware) ---
+.deliverable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 2.2rem;
+}
+a.dcard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1.1rem 1.05rem 1.2rem;
+  border-radius: 14px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  text-decoration: none !important;
+  background-image: none !important;
+  transition: transform 0.13s ease, box-shadow 0.13s ease, border-color 0.13s ease;
+}
+a.dcard::after { display: none !important; }
+a.dcard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.10);
+  border-color: var(--secondary);
+}
+.hicon-wrap { position: relative; display: inline-flex; width: 44px; height: 44px; }
+.hicon { width: 44px; height: 44px; color: var(--secondary); }
+.dcard-title { font-weight: 600; font-size: 1.03rem; line-height: 1.2; color: var(--dark); }
+.dcard-desc { font-size: 0.82rem; line-height: 1.4; color: var(--gray); }
+.dcard--fasting .hicon-wrap::after {
+  content: "";
+  position: absolute; left: -1px; top: 50%;
+  width: 46px; height: 3px; border-radius: 2px;
+  background: var(--secondary);
+  transform: translateY(-50%) rotate(-45deg);
+}

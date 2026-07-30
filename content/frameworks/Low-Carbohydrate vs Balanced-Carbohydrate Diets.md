@@ -16,7 +16,7 @@ relationships:
     - Free Sugars Intake
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -238,7 +238,7 @@ inclusive vs exclusive) and the outcome and unit match. **But two cells fail, no
 
 - **Population** — Naude's Analysis 1.3 is without-T2DM, Goldenberg's is entirely T2D.
 - **The reference band** — and this one was missing from the table entirely, which is what let the
-  "they point OPPOSITE ways" verdict stand. A subgroup contrast is deep-*minus-shallow*; if the shallow
+  *they point OPPOSITE ways* verdict stand. A subgroup contrast is deep-*minus-shallow*; if the shallow
   arms differ, the two contrasts are not the same quantity even when the deep arms match. Goldenberg's
   reference band (10-26% of calories) sits **inside** what Naude counts as restricted at all, so its
   "less restrictive" comparator is closer to Naude's ketogenic arm than to Naude's non-ketogenic one.

@@ -63,7 +63,7 @@ cross-guideline check, so cited here in body rather than added to this page's `s
 exception matters and the table above omitted it: **fatal stroke, RR 1.63 (1.27-2.10), is rated LOW**,
 and **fatal coronary heart disease, RR 1.32 (1.13-1.53)**, is the other statistically significant
 cohort result. Both were left out while the four null rows were listed -- an omission running in the
-direction of the "surrogate high, hard outcomes very low" reading, which is exactly the direction such
+direction of the *surrogate high, hard outcomes very low* reading, which is exactly the direction such
 omissions tend to run. WHO's own summary states the split: *"Higher sodium intake was associated with
 higher risk of incident stroke, fatal stroke and fatal coronary heart disease. There was no association
 between sodium intake and all-cause mortality, incident cardiovascular disease and non-fatal coronary

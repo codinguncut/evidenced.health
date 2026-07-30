@@ -13,7 +13,7 @@ relationships:
     - Upgrading Observational Evidence
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-07-27
+updated: 2026-07-30
 ---
 
 Four grades — **high / moderate / low / very low** — assigned to a *body* of evidence, starting from
@@ -320,7 +320,7 @@ field uniformly runs on. `-> [[Was GRADE Actually Used]]`
 [@sacn2015] [@who2020] [@nasem]
 ## The third position: wanting GRADE's properties without adopting GRADE `[2026-07-27]`
 
-The three-body table above listed NASEM as *"declined to mandate any single standard."* Its stated
+The three-body table above listed NASEM as **declined to mandate any single standard.** Its stated
 reasoning is sharper than that summary, and it is a genuinely distinct third position:
 
 > «Conduct of original systematic reviews will need to be transparent and follow state-of-the-art

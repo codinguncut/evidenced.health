@@ -368,7 +368,7 @@ guidance set rather than as added confidence.
 
 ## Annex 6 — the full evidence profile, with absolute effects `[2026-07-28]`
 
-The source page called this **«the single highest-value unextracted block in the wiki»**. Read from the
+The source page called this **the single highest-value unextracted block in the wiki**. Read from the
 recovered-tables sidecar (pp 79-80), which preserves the grid the flattened chunk text loses.
 
 **Reducing saturated fat intake — every graded outcome:**

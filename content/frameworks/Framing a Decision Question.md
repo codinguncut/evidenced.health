@@ -12,7 +12,7 @@ relationships:
     - Rating Outcome Importance
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-25
-updated: 2026-07-28
+updated: 2026-07-30
 ---
 
 ## Ordinary framing
@@ -128,7 +128,7 @@ into this page's frontmatter during the weave **without the critique being perfo
 `merge_gate`'s "self-critique stamped" check pass on a control that had not run. A self-certified
 guard is not a control. This section is the critique, run late, with what it found.
 
-- **Over-claim check:** *"worth stealing as a template"* is a recommendation about method, not a
+- **Over-claim check:** **worth stealing as a template** is a recommendation about method, not a
   claim about the world, and the two sub-questions are quoted verbatim. **Held.**
 - **The bridge to [[Is the Food Category Doing Any Work]]** asserts the two questions are the same
   structure. That is the wiki's inference, not WHO's — it is stated as such in the text.

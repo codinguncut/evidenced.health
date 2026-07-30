@@ -12,7 +12,7 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-27
+updated: 2026-07-30
 ---
 
 **GRADE's transportability machinery, expressed as a certainty penalty.** Direct evidence "directly
@@ -129,10 +129,10 @@ into this page's frontmatter during the weave **without the critique being perfo
 `merge_gate`'s "self-critique stamped" check pass on a control that had not run. A self-certified
 guard is not a control. This section is the critique, run late, with what it found.
 
-- **Absence claim, scoped:** *"only two of the four sources are named"* is scoped to the quoted
-  footnote and hedged (*"though they may be applied unstated"*). **Held** — it describes the
+- **Absence claim, scoped:** **only two of the four sources are named** is scoped to the quoted
+  footnote and hedged (**though they may be applied unstated**). **Held** — it describes the
   operational definition, not WHO's whole practice.
-- **Over-claim check:** *"functions less as a downgrade lever and more as an upgrade blocker"* rests
+- **Over-claim check:** **functions less as a downgrade lever and more as an upgrade blocker** rests
   on two footnotes (`c`, `d`). Small n, and the page says "in this source". **Held, but thin** — a
   second guidance family would settle it.
 - The closing question about `300 cpm` being indirect for *how much should I move* is posed as an

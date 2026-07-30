@@ -231,7 +231,7 @@ cleanest available demonstration that a high rank is not a large individual effe
 - **Unit-of-analysis check: this is the failure mode the table catches.** Population attributable
   burden and individual absolute benefit are both honestly describable as "how much this exposure
   matters", differ by a prevalence factor, and are reported in the same document.
-- **Prior-page reconciliation: done in the open.** The header's *"nothing here combines sources"* and
+- **Prior-page reconciliation: done in the open.** The header's **nothing here combines sources** and
   the empty `sources:` were both falsified by this addition; the supersession is noted in place rather
   than silently rewritten.
 - **Attribution split.** The two rankings and the *«Despite their conservative methodology»* caveat are

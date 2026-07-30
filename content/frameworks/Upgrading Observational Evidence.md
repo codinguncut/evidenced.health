@@ -11,7 +11,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Physical Activity Dose and Mortality
 created: 2026-07-25
-updated: 2026-07-28
+updated: 2026-07-30
 self_critiqued: 2026-07-27
 ---
 
@@ -162,7 +162,7 @@ into this page's frontmatter during the weave **without the critique being perfo
 `merge_gate`'s "self-critique stamped" check pass on a control that had not run. A self-certified
 guard is not a control. This section is the critique, run late, with what it found.
 
-- **Over-claim: FOUND and fixed.** *"The upgrade is REFUSED far more legibly than it is granted"* was
+- **Over-claim: FOUND and fixed.** **The upgrade is REFUSED far more legibly than it is granted** was
   not supported — notes `a`, `b` and `e` state reasons too. Narrowed to the shared reason cluster
   across the two refusals, which is what the footnotes actually show.
 - **The IPD-vs-GRADE's-three claim** is tagged `` and explicitly left unsettled rather than

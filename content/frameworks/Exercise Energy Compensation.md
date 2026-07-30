@@ -12,7 +12,7 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -67,8 +67,8 @@ same qualitative claim — *a substantial fraction (\~1/5 to \~1/4) of activity 
 genuinely different datasets and methods, with neither estimate derived from the other. **The
 independence is at the level of the estimate, and two tells are flagged rather than hidden:** Careau
 *cites* the exercise-intervention literature (Riou 2015 among its refs) as contextual motivation — but as
-the *contrast* it is testing against («is compensation the default in normal life, not just under
-prescribed exercise?»), deriving no magnitude from it; and Careau (Ottawa, Biology) shares a university,
+the *contrast* it is testing against (is compensation the default in normal life, not just under
+prescribed exercise?), deriving no magnitude from it; and Careau (Ottawa, Biology) shares a university,
 not a research programme or department, with Riou/Doucet (Ottawa, kinetics/nutrition). Under the strict
 rule (no shared lineage of the *estimate*, no citing-as-antecedent-of-the-claim) this remains an E, not a
 laundered one — but it is a *qualified* E. **Do not pool the magnitudes** — 18% (intervention) and 28%

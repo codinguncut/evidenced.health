@@ -8,7 +8,7 @@ cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-30
 self_critiqued: 2026-07-28
 relationships:
   related_to:
@@ -54,12 +54,12 @@ they are ill, counted as *abstainers*, making the referent look unhealthy):
 alcohol tolerance act as instruments free of reverse causation and lifestyle confounding. The
 genotype-predicted (causal) relationship is **monotonic, with no protective lower arm**:
 
-- ischaemic stroke «RR per 280 g per week 1.27 (1.13-1.43)»; intracerebral haemorrhage «1.58
+- ischaemic stroke RR per 280 g per week 1.27 (1.13-1.43); intracerebral haemorrhage «1.58
   (1.36-1.84)»; total stroke «1.38 (1.26-1.51)» — «no suggestion of increased stroke risk at very low
   levels» that would indicate an abstinence penalty, and «no material deviation from log-linear
   relationships.»
 - the causal mechanism is shared by both methods where the observational result *is* real: blood
-  pressure rises «4.8 mm Hg (4.5-5.1) per 280 g per week» (conventional) and «4.3 mm Hg (3.7-4.9)»
+  pressure rises 4.8 mm Hg (4.5-5.1) per 280 g per week (conventional) and «4.3 mm Hg (3.7-4.9)»
   (genetic) — convergent, so the confounding is specific to the *protective* claim, not to alcohol's
   BP effect.
 
@@ -122,7 +122,7 @@ Stockwell ∥ Millwood, unchanged.
 ## The honest boundary — stroke is not myocardial infarction
 
 MR shows **clear causal harm for stroke and blood pressure**, but for myocardial infarction the genetic
-estimate is **null**: «RR per 280 g per week 0.96 (0.78-1.18), p=0.69» — «little net effect». Millwood
+estimate is **null**: RR per 280 g per week 0.96 (0.78-1.18), p=0.69 — «little net effect». Millwood
 suggests alcohol's BP harm «could be offset by cardio-protective changes in other factors», and cautions
 the MI case count was limited so «some real benefit or hazard cannot be excluded». So "alcohol is
 uniformly harmful" holds for **stroke and BP**; for **coronary heart disease the causal picture is

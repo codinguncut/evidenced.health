@@ -6,7 +6,7 @@ authors: [World Cancer Research Fund International (org); Johnston, Bradley C; G
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019]
 cluster: cardiometabolic-exposures
 confidence: medium
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 relationships:
   related_to:
@@ -152,7 +152,7 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
 ## Self-critique `[run 2026-07-28; re-run 2026-07-29 after ingesting the NutriRECS evidence base]`
 
 - **2026-07-29 addition — symmetric standards held while deepening.** The now-held Zeraatkar RCT null is
-  explicitly NOT read as "RCTs prove red meat safe" (its own indirectness + the near-absence of direct
+  explicitly NOT read as *RCTs prove red meat safe* (its own indirectness + the near-absence of direct
   trials are stated); the Vernooij cohort "very small" is not inflated; Valli's values review is flagged as
   low-certainty preference-tracking, not effect evidence — so cashing the AWAITS did not tilt the page
   toward the "meat is fine" pole. The decomposition (empirical agreement, decision-theoretic disagreement)

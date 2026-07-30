@@ -307,7 +307,7 @@ certainty, weak recommendation — occurs zero times**, and so does the rare one
 
 ### What this does and does not license
 
-- **It is NOT "WHO collapsed certainty into strength."** If the other three determinants — balance of
+- **It is NOT *WHO collapsed certainty into strength.*** If the other three determinants — balance of
   benefits and harms, variability in values and preferences, resource use — **happen not to vary much
   across population nutrient-threshold recommendations**, then a monotone mapping is the *correct*
   output, not a defect. Population thresholds for a nutrient are close to a best case for stable

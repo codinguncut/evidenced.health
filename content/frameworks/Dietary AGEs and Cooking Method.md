@@ -12,7 +12,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Red and Processed Meat and Cancer
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -68,7 +68,7 @@ only a weak version:
 ``
 ## Decision relevance
 
-- **The strong claim is not supported:** *«low-heat cooking should be preferred»* as a general health
+- **The strong claim is not supported:** *low-heat cooking should be preferred* as a general health
   recommendation outruns the evidence — the effect is on small surrogates, null on weight/glucose/BP,
   and untested on hard outcomes.
 - **A defensible weak version:** for someone eating a lot of high-temperature-cooked red/processed meat,

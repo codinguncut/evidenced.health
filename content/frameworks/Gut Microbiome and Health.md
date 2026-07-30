@@ -16,7 +16,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -89,7 +89,7 @@ procedure is effective in cases of severe drug refractory Clostridium difficile 
 routinely used for this purpose around the world. For other pathologies, faecal transplants are not yet
 clinical practice but have been explored.»
 [@valdes2018] So FMT-for-recurrent-*C. difficile*
-is the anchor of "what real microbiome evidence looks like"; the speculative uses (obesity, mood, metabolic
+is the anchor of *what real microbiome evidence looks like*; the speculative uses (obesity, mood, metabolic
 disease) are explicitly *not yet*.
 
 ## Decision relevance

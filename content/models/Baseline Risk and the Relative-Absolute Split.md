@@ -14,7 +14,7 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-25
 self_critiqued: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-30
 ---
 
 ## The decomposition
@@ -269,7 +269,7 @@ baseline risk at all.
   SD-equivalence, and the consequence is the wiki's. Tagged. The weaker reading (that SACN simply chose
   interpretable units) is compatible with the text, and the table above is written so both readings
   survive: the distinction is about *what the denominator is*, not about SACN's intent.
-- **Absence claim, scoped.** *"no risk differences, no NNTs, no absolute benefit"* is scoped to what
+- **Absence claim, scoped.** **no risk differences, no NNTs, no absolute benefit** is scoped to what
   this wiki has read of SACN — which is now effectively the full report (chunks 11-13 are the
   bibliography). Recorded on the source page rather than restated as a claim about the literature.
 - **Not a route-(a) case, and said so.** The temptation on this page is to treat any new source as

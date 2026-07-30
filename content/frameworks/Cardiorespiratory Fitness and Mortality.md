@@ -8,7 +8,7 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-28b
+updated: 2026-07-30
 self_critiqued: 2026-07-28b
 relationships:
   related_to:
@@ -61,7 +61,7 @@ low-vs-high CRF «RR for all-cause mortality of 1.70 (1.51-1.92)».
 There are two anchors the wiki holds:
 
 - **A minimal floor (Kodama):** «a minimal CRF of 7.9 METs may be important» (50-year-old man reference);
-  age/sex-specific, «approximately 9 and 7 METs (at 40), 8 and 6 (at 50), 7 and 5 (at 60)» for men and
+  age/sex-specific, approximately 9 and 7 METs (at 40), 8 and 6 (at 50), 7 and 5 (at 60) for men and
   women — women run \~2 METs below men, and the floor falls \~0.1 MET/year with age.
   [@kodama2009, Comment; Conclusion]
 - **Percentile bands (Mandsager, age x sex MET grid):** low (<25th), below-average (25-49th),

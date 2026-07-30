@@ -121,9 +121,9 @@ number is now read *inside* the meta-analytic picture, not as the headline.
 |---|---|---|---|
 | Population | T2D, overweight/obese | obese adults, mostly non-diabetic | **NO** |
 | Intervention | intensive lifestyle (calorie + activity) | weight-reducing diets, low-fat/low-SFA, +-exercise | **NO** |
-| CV events | «hazard ratio 0.95; 95% CI 0.83 to 1.09» | «risk ratio 0.93, 95% CI 0.83 to 1.04» (high quality) | **YES — both null on CV events** |
-| CV mortality | (within the composite) | «risk ratio 0.93, 95% CI 0.67 to 1.31» | \~yes — both null |
-| All-cause mortality | null | «risk ratio 0.82, 95% CI 0.71 to 0.95» (high quality), six fewer per 1000 | **the divergence** |
+| CV events | «hazard ratio 0.95; 95% CI 0.83 to 1.09» | «risk ratio 0.93, 95% confidence interval 0.83 to 1.04» (high quality) | **YES — both null on CV events** |
+| CV mortality | (within the composite) | «risk ratio 0.93, 95% confidence interval 0.67 to 1.31» | \~yes — both null |
+| All-cause mortality | null | «risk ratio 0.82, 95% confidence interval 0.71 to 0.95» (high quality), six fewer per 1000 | **the divergence** |
 
 **On the heart, the meta-analysis CONFIRMS Look AHEAD and generalizes it:** across 54 trials, CV events
 (RR 0.93, NS) and CV mortality (0.93, NS) are null — dietary/lifestyle weight loss does not measurably cut

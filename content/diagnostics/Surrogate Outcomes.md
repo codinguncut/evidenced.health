@@ -12,7 +12,7 @@ relationships:
     - Non-Sugar Sweeteners
     - The U-Shaped Association Artifact
 created: 2026-07-25
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -128,7 +128,7 @@ a marker whose transmission to a patient-important outcome is unevidenced.
 transmission *is* evidenced is a legitimate target. LDL/apoB-particle burden is the strongest such case
 the wiki holds — genetic, Mendelian-randomization and RCT evidence together establish it *causes* ASCVD,
 so lowering it (by diet or drug) reduces events in proportion to the reduction achieved
--> [[LDL ApoB and Cumulative Exposure]]. It is the opposite of the "marker moved, patient did worse"
+-> [[LDL ApoB and Cumulative Exposure]]. It is the opposite of the *marker moved, patient did worse*
 cases: not all surrogates are equal, and this one has earned target status. (The proviso still bites —
 the transmission holds only where the LDL-C drop reflects a real particle-number drop and carries no
 off-target harm.)
@@ -367,7 +367,7 @@ Foods Safer or Healthier Systematic Review 2012 found a residue-contamination ri
 and Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014 [@baranski2014] a fourfold higher residue
 incidence in conventional crops. **But residue *presence* is a surrogate, and the patient-important
 outcome is harm at real-world exposure.** Smith-Spangler supplies the transmission gap directly:
-«differences in risk for exceeding maximum allowed limits were small.»
+differences in risk for exceeding maximum allowed limits were small.
 [@smithspangler2012]
 
 **When both arms sit largely below the regulatory limit, a difference in detectable residues does not

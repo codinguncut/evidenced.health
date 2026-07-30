@@ -15,7 +15,7 @@ relationships:
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-07-29
+updated: 2026-07-30
 self_critiqued: 2026-07-29
 ---
 
@@ -369,7 +369,7 @@ not corroboration because they are not measuring the same quantity.** That is a 
 reason, and it was missed when this page had only two guidance families on it.
 
 **The construct row is the one that had to be checked, and it reverses this page's earlier reading.**
-The NNR source page recorded that «NNR defines neither term here», treating the comparison as a
+The NNR source page recorded that NNR defines neither term here, treating the comparison as a
 same-quantity failure. **That was wrong**: NNR's front-matter glossary defines *free sugars* in
 essentially WHO's words, and since added sugars are a subset of free sugars under that definition, the
 phrase "added and free sugars" has the extension *free sugars*. The denominators match too. **So the
@@ -559,7 +559,7 @@ substitution frame; it does not add an independent backing.
   adjacent"*. It is not baseline-risk stratification; it is a property of the displacement mechanism.
   The route label was removed rather than swapped, because the correct route is not established here.
 - **Unsearched absence claim: FOUND and removed.** The draft asserted the energy-intake stratification
-  is one *"the other two bodies do not make"*. **That absence was never searched in the WHO or SACN
+  is one **the other two bodies do not make**. **That absence was never searched in the WHO or SACN
   documents** — only in what this page holds of them. Replaced with a mechanism statement about caries
   thresholds that does not depend on an unsearched absence.
 - **Same-quantity check: RUN, and it reversed the prior reading.** The NNR source page had recorded the

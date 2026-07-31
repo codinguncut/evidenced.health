@@ -84,14 +84,17 @@ The popular model is a U/J-curve on speed — too slow is ineffective and demora
 and harms — with an optimum in the middle. The two arms are different kinds of claim and need different
 tests.
 
-**The lower arm (*too slow*) is an adherence and effectiveness question, not a safety one.** A deficit
+### The lower arm (*too slow*) is an adherence and effectiveness question, not a safety one
+
+A deficit
 so small it produces no meaningful loss, or so slow that motivation fails before the target is reached,
 *fails* for behavioural reasons, not because slow loss is biologically harmful. Adherence is part of the
 effect: a smaller sustained deficit can beat a larger abandoned one, but a deficit too trivial to move
 the scale is simply an ineffective dose. There is no held evidence that slow loss, *per se*, harms.
 
-**The upper arm (*too fast rebounds*) is the contested one, and it should be read through the
-artifact lens** ([[The U-Shaped Association Artifact]]). The observation that people who lose weight
+### The upper arm (*too fast rebounds*) is the contested one, and it should be read through the artifact lens
+
+([[The U-Shaped Association Artifact]]). The observation that people who lose weight
 fastest regain the most is exactly the shape that reverse causation and confounding-by-indication
 manufacture without any causal contribution from speed: the fastest losers are disproportionately those
 on the most extreme, least sustainable regimens, and those regimens — not the kilograms-per-week —
@@ -108,8 +111,9 @@ The decision rule transfers: **a *rapid loss rebounds* association is not, by
 itself, evidence that speed causes regain — it must survive a design that separates the rate from the
 method and from who chose it.** The randomized rate-of-loss trial is that design, and it is the gap.
 
-**What the held evidence says instead: regain is driven by the maintenance phase, not the initial
-speed.** The body defends against a sustained energy gap regardless of how fast it was opened — the same
+### What the held evidence says instead: regain is driven by the maintenance phase, not the initial speed
+
+The body defends against a sustained energy gap regardless of how fast it was opened — the same
 defend-the-deficit behaviour the compensation evidence shows for other interventions
 ([[Exercise Energy Compensation]]).
 
@@ -142,7 +146,8 @@ resistance training is the driver, protein a modest RCT-grade adjunct (**+2.49 k
 often fast) deficit is real but conditional: **protein + resistance training is how you lose fat without
 losing muscle, at any rate.**
 
-**The sign of this cost flips by stratum, and that is where rate genuinely becomes a hazard variable.**
+### The sign of this cost flips by stratum, and that is where rate genuinely becomes a hazard variable
+
 For a young overweight adult, some lean-mass loss inside a large fat loss is minor and recoverable. For
 the older, sarcopenia-risk adult, muscle and function are front-line patient-important outcomes in their
 own right, and aggressive or rapid loss flips from lever to hazard — the top lever becomes resistance
@@ -205,8 +210,9 @@ fast loss, under defined bounds, and it works.
   phase* runs, not a verdict that rapid is unsafe — DiRECT's 825-853 kcal sits at the bottom of exactly
   this band.
 
-**The one place the guidance treats rate as a genuine harm is regain-related, and it does so
-cautiously.** NICE lowered its recommendation from strong to weak partly because «weight regain could
+### The one place the guidance treats rate as a genuine harm is regain-related, and it does so cautiously
+
+NICE lowered its recommendation from strong to weak partly because «weight regain could
 occur rapidly and be harmful if people experience weight cycling»
 [@nice, 1.1.10] — note this is strength lowered by a harm the
 evidence base did *not* measure, i.e. a precautionary weighting, not a demonstrated rate effect. So even
@@ -242,8 +248,9 @@ held mechanism says yes — with an important ceiling.
   significant predictors of energy compensation» [@riou2015, 
 ] — what predicts it is the interaction of initial fat mass, age and duration.
 
-**The defensible reading: use diet to create the deficit and exercise (especially resistance training)
-to protect the body while it runs.** The exercise-widened deficit buys better body composition (muscle
+### The defensible reading: use diet to create the deficit and exercise (especially resistance training) to protect the body while it runs
+
+The exercise-widened deficit buys better body composition (muscle
 spared, visceral fat preferentially cut) at the cost of energy compensation, injury risk, and adherence —
 so it is a composition tool, not an efficient scale-weight tool. **The magnitude of the body-composition
 trade-off — how much muscle spared and visceral fat preferentially lost, diet-only vs diet-plus-exercise

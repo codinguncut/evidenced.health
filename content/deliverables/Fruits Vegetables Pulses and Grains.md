@@ -44,7 +44,9 @@ structural, not a temporary gap.
   differ more within the group than between groups; where the active agent is a component (fibre), the
   food is a proxy for it, and the component is what to steer by.
 
-**The ceiling is itself the finding.** *The evidence does not resolve at the individual-food level, so
+### The ceiling is itself the finding
+
+*The evidence does not resolve at the individual-food level, so
 eat the pattern and stop optimising between plant foods* is a real decision-change — it licenses
 someone to stop chasing a best-fruit answer that does not exist.
 
@@ -53,7 +55,7 @@ someone to stop chasing a best-fruit answer that does not exist.
 Lead with the number: aim for roughly **25-30 g/day of total fibre from food**, more is fine and
 probably better. That single target carries most of the defensible plant-food benefit.
 
-**The honest shape is that the big numbers are observational and the causal effect is small.**
+### The honest shape is that the big numbers are observational and the causal effect is small
 
 - **Observational, large, confounded.** Highest-versus-lowest fibre intake tracks **15-31% lower**
   risk of all-cause mortality (RR 0.85), CHD (0.76), type 2 diabetes (0.84) and colorectal cancer
@@ -65,7 +67,9 @@ probably better. That single target carries most of the defensible plant-food be
   range [@brown1999]. Brown's
   own verdict is that this is «only a small contribution» to lowering cholesterol.
 
-**The dose-response has no plateau on the outcomes.** Reynolds finds the fibre-outcome curves «linear
+### The dose-response has no plateau on the outcomes
+
+Reynolds finds the fibre-outcome curves «linear
 with no sign of a plateau within the available data», recommending «no less than 25-29 g per day with
 additional benefits likely to accrue with higher intakes»
 [@reynolds2019]. The LDL *surrogate* curve
@@ -73,7 +77,9 @@ does flatten above \~8-10 g/day (Brown), but a plateau on a marker does not tran
 -> [[Surrogate Outcomes]]. Getting to 30 g is a large behaviour change: population intakes run \~40%
 below it [@sacn2015].
 
-**One caution against overselling fibre isolates.** SACN grades fibre *supplements* higher than
+### One caution against overselling fibre isolates
+
+SACN grades fibre *supplements* higher than
 fibre-bearing *foods* — but only because a supplement can be dosed and trialled and a food cannot, and
 SACN bounds the finding to effects «demonstrated at intakes achieved through supplementation»
 [@sacn2015]. That is a fact about study design, not
@@ -85,7 +91,7 @@ The evidence states below are **configured, not ranked** — they answer differe
 outcomes at different grades, and stacking them into a single ordering would misrepresent all of them
 -> [[Is the Food Category Doing Any Work]].
 
-#### Whole grains — a probable small benefit, routed through fibre
+### Whole grains — a probable small benefit, routed through fibre
 
 Whole-grain intake tracks a 13-33% lower risk across critical outcomes (per 15 g/day, all-cause
 mortality RR 0.94), close enough to the fibre numbers in the *same* meta-analysis that Reynolds notes
@@ -100,7 +106,7 @@ attribution: «Any associations indicated for whole grain may be related to its 
   fibre lever, not an independent one (NNR read SACN and Reynolds, so it is not a second witness).
 - **The benefit is cohort-only and mostly graded low** -> [[Whole Grains Refined Grains and Pulses]].
 
-#### Refined grains — not found harmful
+### Refined grains — not found harmful
 
 The intuitive *refined = bad* claim is not supported on hard outcomes. SACN tested refined grains
 directly: **RR 1.00 (95% CI 0.98, 1.01)** for both cardiovascular events and type 2 diabetes, and every
@@ -119,7 +125,7 @@ whole-versus-refined randomised trial was null on blood pressure, lipids, glucos
   A category-level harm that looks like *carbs are bad* while the boundary that matters sits unmeasured
   inside it -> [[Is the Food Category Doing Any Work]].
 
-#### Pulses / legumes — a marker moves, the outcome is thin
+### Pulses / legumes — a marker moves, the outcome is thin
 
 ESC gives the one quantified claim the corpus holds: «A single portion of pulses (legumes) a day lowers LDL-C by 0.2 mmol/L and is associated with a lower risk of CHD.»
 [@esc2021].
@@ -136,7 +142,7 @@ ESC gives the one quantified claim the corpus holds: «A single portion of pulse
   target, largely irrelevant for someone already meeting one from a mixed diet
   -> [[Protein Quality and the DIAAS Score]].
 
-#### Fruit and vegetables — benefit is real but the curve is outcome-specific
+### Fruit and vegetables — benefit is real but the curve is outcome-specific
 
 The dose-response is not one shape. ESC reports a per-serving cardiovascular/stroke gradient (11% lower
 stroke risk at 3-5 servings/day, 26% at 5/day versus fewer than 3), while **all-cause mortality was
@@ -155,7 +161,9 @@ The direct answer to the maintainer's sub-question: for a generally-nourished pe
 prepared plant foods, the *antinutrients* are **not** a net reason to avoid or specially treat plant
 staples. The alarm is largely mis-scaled because it rests on the wrong exposure.
 
-**Why the scary findings mostly do not transfer.** They come overwhelmingly from *isolated compounds,
+### Why the scary findings mostly do not transfer
+
+They come overwhelmingly from *isolated compounds,
 in animals or cell culture, at raw or supraphysiological doses* — «Harmful (and even beneficial)
 effects of an individual, isolated compound or phytochemical are often quite different than when the
 same compound is within the complex food matrix.»
@@ -164,7 +172,9 @@ do not reproduce them — a transportability failure, and the same isolate-versu
 section flags. The expectancy test seals the staple case: billions eat prepared legumes and grains
 daily, so a large chronic harm from *properly prepared* staples would be visible by now.
 
-**The preparation lever, and where it is mandatory not optional.** Soaking, sprouting, fermenting,
+### The preparation lever, and where it is mandatory not optional
+
+Soaking, sprouting, fermenting,
 boiling and cooking reduce all six classes; for most, this makes the concern academic. The exception is
 raw high-lectin legumes: «In the case of particularly high-lectin legumes, such as soybeans and kidney
 beans, boiling or autoclaving is required to eliminate lectins, as reduced cooking temperatures do not
@@ -177,7 +187,7 @@ framing, so the same scrutiny applies to its reassurance as to the alarm it corr
 `low`, and the net leans on the parts where whole-food human evidence exists
 -> [[Antinutrients in Plant Foods]].
 
-#### The six classes — concern, preparation, and the stratum that still needs care
+### The six classes — concern, preparation, and the stratum that still needs care
 
 Held evidence covers the four classes below plus tannins and phytoestrogens. For each, the general-eater
 verdict is *prepared food is fine*; the value is in the *named stratum* where a genuine concern survives
@@ -204,7 +214,7 @@ All the digestibility-acting compounds (phytate, tannins, trypsin inhibitors) ar
 lowers plant-protein DIAAS, and the *same* preparation lever raises protein quality while lowering the
 toxicity concern — one variable, one lever, two framings -> [[Protein Quality and the DIAAS Score]].
 
-#### Two named classes the held evidence does NOT cover — stated as gaps
+### Two named classes the held evidence does NOT cover — stated as gaps
 
 - **Solanine / glycoalkaloids** (potato and other nightshades; the green-potato dose) — **not covered
   by any held source.** This is a real dose-dependent toxicity managed by not eating greened or
@@ -233,7 +243,9 @@ no reported evidence of adverse effects [@who2015, Remarks, p.16]. Fruit
   exposure as a sugar-sweetened beverage [@te2013, Results];
   reading it as a whole-fruit signal generalises past what the data carry -> [[Free Sugars Intake]].
 
-**Does a fruit's sugar-to-fibre ratio change an outcome?** On the held evidence, no demonstrated one. A
+### Does a fruit's sugar-to-fibre ratio change an outcome?
+
+On the held evidence, no demonstrated one. A
 higher-sugar/lower-fibre fruit produces a larger *glycaemic response* — but glycaemic response is a
 **surrogate**, and its transmission to a patient-important outcome is itself a claim that must be
 evidenced, not assumed -> [[Surrogate Outcomes]]. The whole-food matrix (fibre, intact cell walls,

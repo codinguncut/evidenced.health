@@ -179,8 +179,8 @@ because LDL/apoB is the validated exception to the wiki's surrogate scepticism: 
 disease in proportion to how much and how long it is lowered ([[LDL ApoB and Cumulative Exposure]];
 [[Surrogate Outcomes]]). It also forgoes fibre entirely. None of this is a hard-outcome verdict -- it is
 mechanism plus the absence of a trial -- and the fibre/micronutrient-adequacy question for a
-muscle-meat-only diet is unheld. The full head-to-head appraisal against a medium-fat animal-based diet is
-carried separately ([[Carnivore Comparison]]).
+muscle-meat-only diet is unheld. A full head-to-head appraisal against a medium-fat animal-based diet is
+not held here.
 
 ### The carbohydrate-quantity picture is a U, not a slope, and it is substitution-dependent
 

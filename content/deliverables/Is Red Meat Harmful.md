@@ -355,7 +355,7 @@ realistic alternative you would actually eat instead.
 
 ---
 
-**Mandatory caveats.**
+### Mandatory caveats
 
 - **Open loop.** This wiki grades internal coherence and fidelity to its sources — never whether a
   recommendation actually improves outcomes in the world. A clean appraisal is not a validated result.

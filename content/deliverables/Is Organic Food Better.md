@@ -19,7 +19,9 @@ this against everything else. And it appraises **health only**. Many people buy 
 environment, for animal welfare, or to support a particular farming system — those are legitimate reasons
 this appraisal does not touch and cannot price.
 
-**The short verdict.** On health, the *organic* label is a **small, low-certainty lever at best**, and for
+### The short verdict
+
+On health, the *organic* label is a **small, low-certainty lever at best**, and for
 most people it is dominated by the big rocks — not smoking, staying lean, staying active, and the overall
 shape of the diet.
 
@@ -49,8 +51,9 @@ where the reasoning goes wrong. -> [[Is the Food Category Doing Any Work]]
 
 ## Sub-question 1 — pesticide residues: genuinely lower, health consequence unproven
 
-**Organic produce carries fewer synthetic-pesticide residues, and the difference is real and large in
-relative terms.** Baranski's meta-analyses over 343 publications found that the
+### Organic produce carries fewer synthetic-pesticide residues, and the difference is real and large in relative terms
+
+Baranski's meta-analyses over 343 publications found that the
 frequency of occurrence of pesticide residues was «four times higher in conventional crops, which also
 contained significantly higher concentrations of the toxic metal Cd»
 [@baranski2014]. Cadmium ran
@@ -59,7 +62,9 @@ about 48% lower in organic crops, though the confidence interval on that percent
 difference) analysis, not on the headline percentage
 [@baranski2014].
 
-**But lower residues is not the decision.** The decision is whether that difference reaches a
+### But lower residues is not the decision
+
+The decision is whether that difference reaches a
 patient-important outcome — whether it makes anyone healthier. Here residue *level* is a surrogate (a
 marker standing in for harm), and the marker has to be shown to transmit to the outcome before it counts
 -> [[Surrogate Outcomes]]. The systematic review that took this seriously, Smith-Spangler in the Annals of
@@ -84,7 +89,9 @@ phenolic acids +19% (95% CI 5, 33), flavanones +69% (13, 125), stilbenes +28%, f
 +50%, anthocyanins +51%
 [@baranski2014].
 
-**But the review that tested clinical significance found almost nothing.** Smith-Spangler concluded that
+### But the review that tested clinical significance found almost nothing
+
+Smith-Spangler concluded that
 «the published literature lacks strong evidence that organic foods are significantly more nutritious than
 conventional foods» — of all the nutrients examined, only phosphorus reached statistical significance, and
 that difference the authors themselves call not clinically significant
@@ -111,7 +118,9 @@ acid (CLA) +41% (14, 68) [@srednickatober2016milk]. For meat (67 studies), satur
 between animal species
 [@srednickatober2016meat].
 
-**Both meta-analyses attribute the difference to what the animals ate — in their own words.** For milk,
+### Both meta-analyses attribute the difference to what the animals ate — in their own words
+
+For milk,
 «the higher grazing/conserved forage intakes in organic systems were the main reason for milk composition
 differences» [@srednickatober2016milk]. For
 meat, «the high grazing/forage-based diets prescribed under organic farming standards may be the main
@@ -144,8 +153,9 @@ cancer (hazard ratio for quartile 4 vs quartile 1, 0.75; 95% CI, 0.63-0.88; P fo
 risk reduction, 0.6%; hazard ratio for a 5-point increase, 0.92; 95% CI, 0.88-0.96)»
 [@baudry2018].
 
-**Read this as a demonstration of the healthy-buyer confound, not as evidence that organic prevents
-cancer.** People who buy more organic differ from those who buy less on nearly every established risk factor
+### Read this as a demonstration of the healthy-buyer confound, not as evidence that organic prevents cancer
+
+People who buy more organic differ from those who buy less on nearly every established risk factor
 at once: in this cohort, higher organic scores tracked higher income and education, more physical activity,
 and former (not current) smoking, and as organic score rose across quartiles the diet-quality score climbed
 (7.41 -> 8.19), BMI fell (24.46 -> 22.92), fibre rose (17.9 -> 22.6 g/day), and processed meat (23.7 ->
@@ -184,7 +194,9 @@ to.**
   grass-fed, not by the certificate.
 - **Hard outcomes:** one confounded cohort, no trial, no clean attribution.
 
-**Ranked against everything else you could do, *organic* is a small and low-certainty lever.** For anyone,
+### Ranked against everything else you could do, *organic* is a small and low-certainty lever
+
+For anyone,
 it is dominated by the big rocks — smoking, adiposity, physical activity, and the overall diet pattern —
 and even on the narrow nutrient axis it is out-specified by the grass-vs-grain choice
 -> [[Is the Food Category Doing Any Work]]. That the topic gets

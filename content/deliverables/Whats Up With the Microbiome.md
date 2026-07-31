@@ -170,24 +170,26 @@ Two of the most-marketed microbiome ideas need the same functional test — *is 
 on a real outcome?* — applied crisply, and kept separate from the real conditions that share their
 names ([[Gut Microbiome and Health]]).
 
-- **Intestinal permeability is real; *leaky gut syndrome* as a general disease is not established.**
-  The gut lining's permeability is a genuine, measurable physiological property, and it is altered in
-  coeliac disease, inflammatory bowel disease, and some infections. The broader claim — that a
-  general *leaky gut* is a *diet-treatable cause* of systemic and autoimmune disease — is a different,
-  much larger assertion, and it runs straight into the field's central confound: increased permeability
-  may be a *consequence* of disease rather than its cause. Treat the physiology as real and the
-  systemic-syndrome framing as unproven; do not let a marketable label borrow the credibility of the
-  measurable phenomenon. The primary review that would let the wiki sort these cleanly (Camilleri on
-  intestinal permeability) is **not yet held** — a named gap.
+### Intestinal permeability is real; *leaky gut syndrome* as a general disease is not established
 
-- **Medical candidiasis is real; *chronic candida overgrowth* as a diet-treatable systemic condition
-  is not.** *Candida* causes real disease — oral/vaginal thrush, and invasive candidiasis in
-  immunocompromised people — and those are clinical conditions with real treatments. The popular
-  *chronic candida overgrowth* narrative — a systemic yeast burden in otherwise healthy people, fixed
-  by an *anti-candida diet* — makes no falsifiable, quantified claim on a measured human outcome, and
-  belongs on the *Esoterik* side of the demarcation line ([[Surrogate Outcomes]]). The distinction is
-  not dismissiveness toward the real conditions; it is refusing to let the real conditions launder the
-  unfalsifiable one.
+The gut lining's permeability is a genuine, measurable physiological property, and it is altered in
+coeliac disease, inflammatory bowel disease, and some infections. The broader claim — that a
+general *leaky gut* is a *diet-treatable cause* of systemic and autoimmune disease — is a different,
+much larger assertion, and it runs straight into the field's central confound: increased permeability
+may be a *consequence* of disease rather than its cause. Treat the physiology as real and the
+systemic-syndrome framing as unproven; do not let a marketable label borrow the credibility of the
+measurable phenomenon. The primary review that would let the wiki sort these cleanly (Camilleri on
+intestinal permeability) is **not yet held** — a named gap.
+
+### Medical candidiasis is real; *chronic candida overgrowth* as a diet-treatable systemic condition is not
+
+*Candida* causes real disease — oral/vaginal thrush, and invasive candidiasis in
+immunocompromised people — and those are clinical conditions with real treatments. The popular
+*chronic candida overgrowth* narrative — a systemic yeast burden in otherwise healthy people, fixed
+by an *anti-candida diet* — makes no falsifiable, quantified claim on a measured human outcome, and
+belongs on the *Esoterik* side of the demarcation line ([[Surrogate Outcomes]]). The distinction is
+not dismissiveness toward the real conditions; it is refusing to let the real conditions launder the
+unfalsifiable one.
 
 ## Attention is an anti-signal — rank the topic low
 

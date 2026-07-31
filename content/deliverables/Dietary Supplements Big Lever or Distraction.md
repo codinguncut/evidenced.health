@@ -40,31 +40,41 @@ The appraisable question is never *does compound X have a plausible mechanism?* 
 It is: **for a person already eating adequately, does this specific product, at this dose and in this
 form, move a real outcome — and how good is the evidence?** Five moves do the work.
 
-- **Sort every compound into ONE of four evidence states, and keep them apart.** *Benefit* (RCT
+### Sort every compound into ONE of four evidence states, and keep them apart
+
+*Benefit* (RCT
   evidence on a patient-important outcome, in a named circumstance); *no meaningful effect* (measured and
   null in humans at realistic doses); *insufficient / not-yet* (mechanistically reasonable, or a
   surrogate / small / short-term human signal, but **not** established on a real outcome — held as a
   candidate, not a finding); and *harm*. The two nulls are not the same: *insufficient* means we have
   not looked hard enough, *no meaningful effect* means we looked and there was nothing there.
 
-- **Judge against the honest comparator, not against placebo alone.** The real alternatives to a pill
+### Judge against the honest comparator, not against placebo alone
+
+The real alternatives to a pill
   are (a) getting the nutrient from **food**, (b) correcting a **documented deficiency**, and (c) doing
   **nothing** and spending the money and attention on the big rocks. A supplement has to beat the
   relevant one of those, not merely beat an empty capsule.
 
-- **The unit is the specified compound + dose + FORM + circumstance — never the label.** Magnesium is
+### The unit is the specified compound + dose + FORM + circumstance — never the label
+
+Magnesium is
   several salts that absorb differently; omega-3 spans an over-the-counter fish-oil capsule and a \~4 g/day
   prescription drug; protein powder is food in powder form. Judge the measured product, not the category
   ([[Is the Food Category Doing Any Work]]).
 
-- **The isolate trap and the streetlight.** A nutrient pulled out of its food matrix is a *different
+### The isolate trap and the streetlight
+
+A nutrient pulled out of its food matrix is a *different
   exposure* than the food, and isolates are **over-studied precisely because they are cheap to dose and
   blind** — the evidence base is skewed toward whatever is easy to measure, not toward what matters
   ([[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]]). A clean RCT of
   a supplement isolate can come back null *because the isolate is not the food* — that is a finding about
   the pill, not a refutation of the food.
 
-- **Attention is an anti-signal, and cost is a real constraint.** In a mature area, the loudest,
+### Attention is an anti-signal, and cost is a real constraint
+
+In a mature area, the loudest,
   most-published exposures tend to be the small contested ones; the big settled levers are boring.
   Supplements are the paradigm case. Money, attention, and adherence spent on a low-lever stack are
   genuine costs traded against the big rocks ([[Layer 1 - Ranking Interventions for a Stratum]]) — the
@@ -185,9 +195,12 @@ can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
 
 ### Benefit — but only in a stated circumstance
 
-- **Correcting a documented deficiency.** This is the one robust *benefit* mechanism, and it is
+#### Correcting a documented deficiency
+
+This is the one robust *benefit* mechanism, and it is
   **repletion, not enhancement**: the effect fires *only if the person is actually deficient*, and does
   nothing — or harms, for the fat-solubles — if they are already replete.
+
   - Establish the deficiency
     (measure it, or apply a strong stratum prior such as B12 in long-term vegans, iron in
     iron-deficiency anaemia, vitamin D in the institutionalized or minimally sun-exposed), do not guess.
@@ -200,8 +213,11 @@ can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
     benefit in a defined stratum, explicitly set apart from the general-adult prevention nulls above
     [@uspstf2022supp].
 
-- **Protein powder — which is just food, judged as protein.** Whey, casein, and soy powders are a
+#### Protein powder — which is just food, judged as protein
+
+Whey, casein, and soy powders are a
   *delivery vehicle*; their evidence is the evidence for total daily protein adequacy.
+
   - With resistance
     training, protein supplementation adds a **modest** amount on top of what the training itself delivers:
     +2.49 kg on 1-rep-max strength and +0.30 kg of lean mass across 49 RCTs, with **no effect** on total
@@ -218,10 +234,13 @@ can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
     circumstance where a powder earns its place is narrow: you are training, and you cannot hit the target
     from food.** -> [[Protein and Resistance Training for Muscle and Strength]], [[Protein Quality and the DIAAS Score]].
 
-- **Viscous / soluble fibre for LDL — real, causal, and small.** As a dosable, blindable isolate (oat,
+#### Viscous / soluble fibre for LDL — real, causal, and small
+
+As a dosable, blindable isolate (oat,
   psyllium, pectin, guar), soluble fibre lowers LDL cholesterol by about **-0.057 mmol/L per gram** in
   the practical 2-10 g/day range — but the author's own verdict bounds it: «Increasing soluble fiber can
   make only a small contribution to dietary therapy to lower cholesterol» [@brown1999].
+
   - This is the isolate trap in miniature:
     the fibre *isolate* out-grades whole-food fibre (SACN grades fibre isolates and gums `Effect · Adequate`,
     its top strength grade, while whole-grain benefit stays cohort-only) **because it can be dosed and
@@ -231,7 +250,9 @@ can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
       [@reynolds2019]; the supplement is a
     legitimate small adjunct for LDL, not cholesterol therapy -> [[Dietary Fibre and Health]].
 
-- **Specific probiotic strains for specific indications.** The evidence attaches to *strain x indication
+#### Specific probiotic strains for specific indications
+
+The evidence attaches to *strain x indication
   x dose* triples, never to *probiotics* as a class: «the effects of probiotics are strain-specific and
   dose-specific» [@wgo2023]. Where the
   benefit is real: necrotizing enterocolitis in preterm neonates (reduced death, number-needed-to-treat
@@ -242,7 +263,9 @@ can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
   fermentable fibre by another name, so their evidence largely reduces to the fibre evidence
   [@valdes2018] -> [[Gut Microbiome and Health]].
 
-- **Situational and ergogenic uses — narrower than marketed.** **Electrolytes** have a genuine case
+#### Situational and ergogenic uses — narrower than marketed
+
+**Electrolytes** have a genuine case
   under heavy sweat loss, endurance in heat, or specific medical contexts, and no case for the ordinary
   well-hydrated eater. **Creatine monohydrate** is widely regarded as having real RCT support for
   strength, power, and lean mass with resistance training (and older-adult muscle / cognition signals) —

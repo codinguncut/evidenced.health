@@ -39,8 +39,9 @@ do not contradict each other once you see they test different things ([[Time-Res
 
 ## Sub-question 1 — Weight: the window alone buys nothing
 
-**Lead: in the one adequately-powered, real-world trial, a 16:8 window with no other change produced no
-weight advantage over normal eating.** TREAT randomized 116 overweight adults to a self-selected
+### Lead: in the one adequately-powered, real-world trial, a 16:8 window with no other change produced no weight advantage over normal eating
+
+TREAT randomized 116 overweight adults to a self-selected
 12pm-8pm window (skip breakfast, eat late) versus three structured meals, with **no calorie or
 macronutrient target** — the pure *just restrict the window* version of TRE, tested free-living
 [@lowe2020]. Both arms lost a little weight; the
@@ -57,14 +58,17 @@ sufficient to lead to short-term weight loss»
 [@lowe2020]. That is exactly the deficit-in-disguise
 effect the one test is built to catch.
 
-**Verdict: no independent effect on weight.** TRE's real-world value, where it has one, is that a short
+### Verdict: no independent effect on weight
+
+TRE's real-world value, where it has one, is that a short
 window tends to *cut intake* and is a single simple rule to follow — the effect is the deficit and the
 adherence, relabeled.
 
 ## Sub-question 2 — Glycaemia and blood pressure: the one place timing may act on its own
 
-**Lead: shifting the same food earlier in the day improved blood pressure and insulin sensitivity with
-zero weight change — a real timing signal, but tiny and preliminary.** eTRF is the mirror-image trial: a
+### Lead: shifting the same food earlier in the day improved blood pressure and insulin sensitivity with zero weight change — a real timing signal, but tiny and preliminary
+
+eTRF is the mirror-image trial: a
 supervised, controlled-feeding crossover in 8 men with prediabetes, comparing a 6-hour *early* window
 (dinner before 3pm) against a 12-hour window, with **calories matched meal-by-meal and body weight held
 constant by design** — «feeding participants enough food to maintain their weight»
@@ -89,7 +93,9 @@ aligned to the body clock helps, and **late** eating tends to be worse
 [@sutton2018]. If real, this is a genuine timing
 effect distinct from *eat less* — the one hypothesis worth keeping separate.
 
-**But hold the enthusiasm.** This rests on **eight prediabetic men, five weeks, surrogate markers with no
+### But hold the enthusiasm
+
+This rests on **eight prediabetic men, five weeks, surrogate markers with no
 hard outcome and no weight change**. Three caveats bite:
 
 - (1) the trial did not match fasting duration
@@ -104,13 +110,16 @@ hard outcome and no weight change**. Three caveats bite:
 - (3) Men-only, prediabetic, and glucose and BP
   measured only in the morning.
 
-**Verdict: a real but small weight-independent signal from eating *early* — on surrogates only, from one
-tiny trial.** This is the honest exception to *timing does nothing.* It is not a licence to sell early TRE
+### Verdict: a real but small weight-independent signal from eating *early* — on surrogates only, from one tiny trial
+
+This is the honest exception to *timing does nothing.* It is not a licence to sell early TRE
 as proven.
 
 ## The specific harm the window can add: lean-mass loss
 
-**Lead: in TREAT, the modest weight the fasting arm lost was disproportionately muscle, not fat.** Of the
+### Lead: in TREAT, the modest weight the fasting arm lost was disproportionately muscle, not fat
+
+Of the
 1.70 kg the in-person TRE group lost, «approximately 65% of weight lost» was lean mass
 [@lowe2020] — against a normal 20-30% during weight
 loss. Appendicular (limb) lean mass showed a significant between-group deficit (−0.47 kg, P=.009), while

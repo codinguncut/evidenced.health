@@ -24,9 +24,12 @@ sells. They are: **correcting a documented deficiency** (a repletion effect that
 actually short); **hitting a protein target you cannot reach from food** (protein powder is just food); a
 handful of **situational or functional uses** (electrolytes under heavy sweat loss; specific probiotic
 strains for specific gut conditions); and a small **adjunct** effect of viscous fibre on LDL cholesterol.
+
 For almost everything else — the long tail of magnesium, CoQ10, curcumin, berberine, ashwagandha, and the
 branded stacks — the human-outcome evidence is either **insufficient** (mechanism and surrogate signals
-that have not been carried through to a real outcome) or **not held by this wiki at all**. This document
+that have not been carried through to a real outcome) or **not held by this wiki at all**.
+
+This document
 grades each from the held evidence and says which state it is in; where the wiki holds no source, it says
 so rather than inventing a number. The core disease-prevention evidence is consolidated on
 [[Vitamin and Mineral Supplements for Disease Prevention]].
@@ -159,11 +162,17 @@ trials, supplemental antioxidants **raised all-cause mortality** [@bjelakovic200
 Two things keep this honest, in both directions. First, the **all-trials pool is null** (RR
 1.02, 0.98-1.06); the harm surfaces only after restricting to low-bias trials — which is the point, not a
 weakness, because the *high*-bias trials alone showed spurious *benefit* (RR 0.91), so pooling everything
-lets bad trials cancel the harm. Risk-of-bias appraisal was decision-determining here. Second, vitamin
+lets bad trials cancel the harm. Risk-of-bias appraisal was decision-determining here.
+
+Second, vitamin
 A's 1.16 (the largest number) rests on this one meta-analysis's low-bias subset; USPSTF graded only beta
-carotene and vitamin E, so vitamin A is the least-corroborated of the three. The class verdict stands:
+carotene and vitamin E, so vitamin A is the least-corroborated of the three.
+
+The class verdict stands:
 **for the well-nourished, high-dose antioxidant supplements do not help and can kill**, the *more is
-better* fallacy realized on hard outcomes -> [[The U-Shaped Association Artifact]]. And the meta-analysis
+better* fallacy realized on hard outcomes -> [[The U-Shaped Association Artifact]].
+
+And the meta-analysis
 itself insists this is a fact about **synthetic isolates, not food** — it «should not be translated to
 potential effects of fruits and vegetables» [@bjelakovic2007] -> [[Is the Food Category Doing Any Work]].
 
@@ -178,41 +187,49 @@ can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
 
 - **Correcting a documented deficiency.** This is the one robust *benefit* mechanism, and it is
   **repletion, not enhancement**: the effect fires *only if the person is actually deficient*, and does
-  nothing — or harms, for the fat-solubles — if they are already replete. Establish the deficiency
-  (measure it, or apply a strong stratum prior such as B12 in long-term vegans, iron in
-  iron-deficiency anaemia, vitamin D in the institutionalized or minimally sun-exposed), do not guess.
-  The wiki holds the *principle* firmly (the VITAL nulls are all in replete people, and USPSTF carves
-  deficiency out) but holds **no repletion trial** to attach a magnitude to — so this is *benefit in
-  principle, magnitude not held* rather than a quantified claim. One guideline-anchored exception the
-  held evidence names directly: the same USPSTF statement notes it **separately recommends a daily
-  0.4-0.8 mg folic acid supplement for all persons planning or capable of pregnancy** — a repletion-style
-  benefit in a defined stratum, explicitly set apart from the general-adult prevention nulls above
-  [@uspstf2022supp].
+  nothing — or harms, for the fat-solubles — if they are already replete.
+  - Establish the deficiency
+    (measure it, or apply a strong stratum prior such as B12 in long-term vegans, iron in
+    iron-deficiency anaemia, vitamin D in the institutionalized or minimally sun-exposed), do not guess.
+  - The wiki holds the *principle* firmly (the VITAL nulls are all in replete people, and USPSTF carves
+    deficiency out) but holds **no repletion trial** to attach a magnitude to — so this is *benefit in
+    principle, magnitude not held* rather than a quantified claim.
+  - One guideline-anchored exception the
+    held evidence names directly: the same USPSTF statement notes it **separately recommends a daily
+    0.4-0.8 mg folic acid supplement for all persons planning or capable of pregnancy** — a repletion-style
+    benefit in a defined stratum, explicitly set apart from the general-adult prevention nulls above
+    [@uspstf2022supp].
 
 - **Protein powder — which is just food, judged as protein.** Whey, casein, and soy powders are a
-  *delivery vehicle*; their evidence is the evidence for total daily protein adequacy. With resistance
-  training, protein supplementation adds a **modest** amount on top of what the training itself delivers:
-  +2.49 kg on 1-rep-max strength and +0.30 kg of lean mass across 49 RCTs, with **no effect** on total
-  body mass or maximal voluntary contraction [@morton2018]. The benefit plateaus at a total intake near **1.6 g/kg/day** — «Protein
-  supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains
-  in FFM» — with a wide confidence interval (1.03 to 2.20) [@morton2018]. Two bounds: the outcomes are **surrogates** (muscle mass and
-  strength, which matter for function and sarcopenia but are not mortality); and the target is protein
-  *quantity*, which silently assumes *quality* — hitting 1.6 g/kg from low-DIAAS plant sources (a
-  digestible-amino-acid score of peas 64, wheat 40 vs milk 122) needs more grams or deliberate
-  complementation [@fao2013]. **The
-  circumstance where a powder earns its place is narrow: you are training, and you cannot hit the target
-  from food.** -> [[Protein and Resistance Training for Muscle and Strength]], [[Protein Quality and the DIAAS Score]].
+  *delivery vehicle*; their evidence is the evidence for total daily protein adequacy.
+  - With resistance
+    training, protein supplementation adds a **modest** amount on top of what the training itself delivers:
+    +2.49 kg on 1-rep-max strength and +0.30 kg of lean mass across 49 RCTs, with **no effect** on total
+    body mass or maximal voluntary contraction [@morton2018].
+  - The benefit plateaus at a total intake near **1.6 g/kg/day** — «Protein
+    supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains
+    in FFM» — with a wide confidence interval (1.03 to 2.20) [@morton2018].
+  - Two bounds: the outcomes are **surrogates** (muscle mass and
+    strength, which matter for function and sarcopenia but are not mortality); and the target is protein
+    *quantity*, which silently assumes *quality* — hitting 1.6 g/kg from low-DIAAS plant sources (a
+    digestible-amino-acid score of peas 64, wheat 40 vs milk 122) needs more grams or deliberate
+    complementation [@fao2013].
+  - **The
+    circumstance where a powder earns its place is narrow: you are training, and you cannot hit the target
+    from food.** -> [[Protein and Resistance Training for Muscle and Strength]], [[Protein Quality and the DIAAS Score]].
 
 - **Viscous / soluble fibre for LDL — real, causal, and small.** As a dosable, blindable isolate (oat,
   psyllium, pectin, guar), soluble fibre lowers LDL cholesterol by about **-0.057 mmol/L per gram** in
   the practical 2-10 g/day range — but the author's own verdict bounds it: «Increasing soluble fiber can
-  make only a small contribution to dietary therapy to lower cholesterol» [@brown1999]. This is the isolate trap in miniature:
-  the fibre *isolate* out-grades whole-food fibre (SACN grades fibre isolates and gums `Effect · Adequate`,
-  its top strength grade, while whole-grain benefit stays cohort-only) **because it can be dosed and
-  blinded, not because a psyllium sachet beats a bowl of beans** [@sacn2015]. A sustained increase in dietary fibre is the better lever, and its own
-  hard-outcome evidence (all-cause mortality, T2D, CHD) is observational, not RCT-grade
-  [@reynolds2019]; the supplement is a
-  legitimate small adjunct for LDL, not cholesterol therapy -> [[Dietary Fibre and Health]].
+  make only a small contribution to dietary therapy to lower cholesterol» [@brown1999].
+  - This is the isolate trap in miniature:
+    the fibre *isolate* out-grades whole-food fibre (SACN grades fibre isolates and gums `Effect · Adequate`,
+    its top strength grade, while whole-grain benefit stays cohort-only) **because it can be dosed and
+    blinded, not because a psyllium sachet beats a bowl of beans** [@sacn2015].
+  - A sustained increase in dietary fibre is the better lever, and its own
+    hard-outcome evidence (all-cause mortality, T2D, CHD) is observational, not RCT-grade
+      [@reynolds2019]; the supplement is a
+    legitimate small adjunct for LDL, not cholesterol therapy -> [[Dietary Fibre and Health]].
 
 - **Specific probiotic strains for specific indications.** The evidence attaches to *strain x indication
   x dose* triples, never to *probiotics* as a class: «the effects of probiotics are strain-specific and
@@ -255,7 +272,9 @@ comparator controversy; it does not transport to a general-population 1 g/day fi
 ### Insufficient / not-yet — mechanism or surrogate, not carried through to an outcome
 
 This is the largest bucket, and the discipline is to hold it **distinct from no-effect**: these compounds
-have not been shown null; they have not been shown to move a real outcome either. Magnesium (documented
+have not been shown null; they have not been shown to move a real outcome either.
+
+Magnesium (documented
 deficiency plus a blood-pressure / sleep surrogate signal), CoQ10 / ubiquinol (statin-myalgia and
 heart-failure signals), curcumin (bioavailability-limited, anti-inflammatory surrogates), berberine
 (glycaemic surrogate RCTs), ashwagandha (stress / cortisol surrogates), glycine (sleep surrogate),
@@ -263,8 +282,12 @@ inositol (PCOS surrogate), zinc (cold-duration signal; deficiency), and the mark
 *Super K*, boron, magnesium L-threonate, R-ALA, TUDCA, L-carnitine, milk thistle and grapeseed extract
 outside diagnosed disease, and multi-ingredient *stacks* generally — all sit here **until human
 outcome evidence arrives**, under the transportability caveat (a mouse is not a human, a moved marker is
-not an averted event). Crucially, **the wiki holds no primary source on any of these**, so their
-placement is *insufficient by default* — a named gap, neither a finding nor a dismissal. NAC has genuine,
+not an averted event).
+
+Crucially, **the wiki holds no primary source on any of these**, so their
+placement is *insufficient by default* — a named gap, neither a finding nor a dismissal.
+
+NAC has genuine,
 specific medical uses (paracetamol overdose, mucolytic) that are not in question; its *general* use sits
 here. -> [[Surrogate Outcomes]] for why a moved marker earns belief only when followed
 through to an outcome.

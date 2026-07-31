@@ -2,8 +2,8 @@
 type: diagnostic
 question: When guidance and evidence diverge, which objective moved the recommendation — and can I see it?
 aliases: [Evidence to Decision, EtD, EtD Domains, Multiple Objectives, Feasibility and Acceptability, Resource Use, Guidelines Serve Two Masters]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-27
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Framing a Decision Question
 created: 2026-07-27
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
@@ -287,5 +287,30 @@ strong for very old people (>80 years) and those who are frail».
 - **It is NOT a process defect (class 5).** ESC followed its method and updated on new evidence.
   **Reading self-correction as a defect would penalise exactly the behaviour a sound process
   produces**, and this page should say so plainly.
+
+## A body that draws the single-axis line explicitly — and puts the seam in a decision-relevant place `[2026-07-31, USPSTF]`
+
+The telos's *one axis, named — never blended* rule asks a guideline body to keep health separate from
+cost/economics. **USPSTF states exactly this cut, in one sentence:**
+
+> «The USPSTF does not consider the financial costs of providing a service in its assessment of the
+> balance of benefits and harms, but may provide contextual information regarding costs for use by
+> providers, including cost-effectiveness studies.»
+> [@uspstfmanual2022]
+
+**But the seam is not where "no economics" would put it — and that is the interesting part.** USPSTF
+excludes *financial* cost yet **includes opportunity cost inside the harm axis**: «Harms may also be
+considered in the form of opportunity costs for both patients and providers. The Task Force may consider
+the time and effort required by both patients and the health care system». So the line is not
+health-vs-everything-non-health; it is **dollars out, patient/provider time-and-effort in** — the latter
+reclassified as a *harm* rather than a *cost*. [@uspstfmanual2022]
+
+**Why this sharpens the diagnostic rather than just corroborating it.** This page's finding is that
+bodies *disclose considerations but not weights*. USPSTF does something cleaner: it **excludes a whole
+axis by rule and says which one**, so there is no weighting question to hide for financial cost —
+cost-effectiveness is provided as *contextual information*, outside the graded balance. **This is the
+telos's discipline enacted, not evaded:** name the axis and stop. The one judgement it does fold in
+(opportunity cost) it re-labels as a harm and grades on the same net-benefit scale, which keeps it
+inside the health/burden axis rather than importing a second maximand. -> [[Net Benefit and the USPSTF Recommendation Grid]]
 
 ## References

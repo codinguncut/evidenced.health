@@ -2,8 +2,8 @@
 type: framework
 question: How is confidence in a body of evidence rated, and what can raise or lower it?
 aliases: [Quality of Evidence, Certainty of Evidence, GRADE Rating, Five Downgrade Factors, Three Upgrade Factors, Evidence Grading]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org)]
-sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 self_critiqued: 2026-07-27
 relationships:
@@ -13,7 +13,7 @@ relationships:
     - Upgrading Observational Evidence
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 Four grades — **high / moderate / low / very low** — assigned to a *body* of evidence, starting from
@@ -312,6 +312,36 @@ independent routes to a fact about the world — it is three data points on one 
 observation. What it does support is narrower and still useful: **a "GRADE-graded" claim in nutrition
 guidance is the exception, not the default**, so the appraisal spine this wiki uses is not the one the
 field uniformly runs on. `-> [[Was GRADE Actually Used]]`
+
+## USPSTF runs a 3-level certainty on a DIFFERENT object, over a nested 4-level layer `[2026-07-31]`
+
+USPSTF is a fourth non-GRADE body — but unlike SACN/NASEM/NNR (which decline or bespoke a grading
+system) it runs a **fully specified alternative**, and its certainty scale differs from GRADE's on two
+axes at once.
+
+**Granularity: three, not four.** «the Task Force rates the certainty of the evidence as one of three
+categories: high, moderate, or low» — no *very low*. [@uspstfmanual2022]
+
+**Object: certainty of NET BENEFIT, not of an effect estimate per outcome.** «The Task Force defines
+certainty as "likelihood that the USPSTF assessment of the net benefit of a preventive service is
+correct."» — a single rating «across the entire analytic framework», with benefits and harms already
+netted, «not a quantitative calculation, but rather a judgment based on the six critical appraisal
+questions». **So "moderate certainty" here and in GRADE grade different things**: GRADE = confidence in
+one outcome's effect estimate; USPSTF = confidence in the whole service's benefit-minus-harm verdict.
+-> [[GRADE vs USPSTF - Two Appraisal Systems]] [@uspstfmanual2022]
+
+**There IS a per-outcome GRADE-like layer underneath — with a 4th grade GRADE lacks.** The EPC hands the
+Task Force a per-outcome **strength-of-evidence** grade that is **high / moderate / low / insufficient**
+(Appendix Table 3), worded almost verbatim like GRADE («very confident that the estimate of effect lies
+close to the true effect») but substituting *insufficient* for GRADE's *very low*: «We have no evidence,
+we are unable to estimate an effect, or we have no confidence in the estimate of effect for this
+outcome.» So the structure is **two-layer**: per-outcome EPC strength-of-evidence (4-level, incl.
+insufficient) -> Task-Force certainty of net benefit (3-level). -> [[The Insufficient-Evidence Statement]]
+[@uspstfmanual2022]
+
+**Where this lands the "how many bodies use GRADE" thread.** USPSTF makes the corpus count clearer: of
+the guideline-family bodies the wiki holds, GRADE-or-adopt is one option among several *fully worked*
+alternatives, not a default the field runs on. -> [[Was GRADE Actually Used]]
 
 
 [@sacn2015] [@who2020] [@nasem]

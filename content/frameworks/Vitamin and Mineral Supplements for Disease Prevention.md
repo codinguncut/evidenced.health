@@ -79,6 +79,8 @@ vitamin D deficiency, low bone mass, or osteoporosis» [@leboff2022]. **Two thin
   milliliter» might show stronger effects [@manson2019vitd] — so
   deficiency correction remains a live, separate question this trial does not answer. Repletion is route (a)/(c) on
   [[Baseline Risk and the Relative-Absolute Split]]; enhancement-in-the-replete is what tested null here.
+  The distinction has its own home: -> [[Deficiency Repletion vs Enhancement]] (the two-arm concept this
+  page instantiates).
 
 ## The guideline map — USPSTF 2022 (general adults, RCT-pooled hard endpoints)
 

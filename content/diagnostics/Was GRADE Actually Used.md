@@ -2,8 +2,8 @@
 type: diagnostic
 question: A document says it used GRADE — how do you check whether it did?
 aliases: [GRADE Conformance, Criteria for Claiming GRADE, Modified GRADE, GRADE Checklist]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -11,7 +11,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-30
 ---
 
@@ -177,5 +177,26 @@ documented against the standard the body is held to.
 disclosed and weights are not*. **This case supports the description and reassigns the cause:** the
 absent weight is what the instrument asks for, not what a body chose to withhold. Handle: the
 weighting `[PRIOR]` in CLAUDE.md.
+
+## The prior question this page skips: what if the body does NOT use GRADE at all `[2026-07-31, USPSTF]`
+
+This diagnostic checks whether a body *claiming* GRADE actually conformed. **USPSTF is the case the page
+did not hold: a major guideline body that runs a fully specified appraisal system and never claims
+GRADE.** So the seven-criteria conformance check does not apply to it — the *right* audit for a USPSTF
+recommendation is against **its own** manual (per-outcome EPC strength-of-evidence; six critical-
+appraisal questions; certainty of net benefit; the A/B/C/D/I grid), not against GRADE's checklist.
+-> [[Net Benefit and the USPSTF Recommendation Grid]], [[GRADE vs USPSTF - Two Appraisal Systems]]
+
+**The trap this page must add: a "GRADE" label that is not the GRADE system.** USPSTF's own
+adequacy/certainty tool (Appendix XI) labels its recommendation-grade cell **«GRADE (A, B, C, D, or
+I)»** — USPSTF calls its *letter-grade output* "GRADE". A reader auditing a USPSTF document who sees
+"GRADE" and reaches for this page's seven criteria is checking the wrong thing: the word names the
+A-through-I output, not Grading of Recommendations Assessment, Development and Evaluation.
+[@uspstfmanual2022]
+
+**So the diagnostic gains a precondition:** before running the seven criteria, confirm the document
+means *the GRADE method*. A body can (a) use GRADE and claim it (run the check), (b) use a different
+system and say so (audit against that system — USPSTF), or (c) use the token "GRADE" for something else
+entirely (a naming collision, not a method claim). Only (a) is this page's job.
 
 ## References

@@ -2,10 +2,10 @@
 type: framework
 question: Does knowing how good the evidence is tell you how strongly to recommend something?
 aliases: [Quality of Evidence vs Strength of Recommendation, Certainty vs Strength, The GRADE Separation, Strong vs Weak Recommendation, Conditional Recommendation]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org); Valli, Claudia; Johnston, Bradley C]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015, Valli - Values and Preferences Meat 2019, NutriRECS - Red and Processed Meat Recommendations 2019]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org); Valli, Claudia; Johnston, Bradley C; US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015, Valli - Values and Preferences Meat 2019, NutriRECS - Red and Processed Meat Recommendations 2019, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
-self_critiqued: 2026-07-29
+self_critiqued: 2026-07-31
 nucleus: true
 relationships:
   related_to:
@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
@@ -384,5 +384,59 @@ generalise it.
 - **Residual:** the strongest unverified step is that WHO's five SFA strength ratings and two sugars
   ratings were each set independently. If a single committee applied one implicit rule across both,
   the seven cells are closer to one observation than to seven.
+
+## A body that has NO strength axis at all — USPSTF replaces it with certainty x magnitude `[2026-07-31]`
+
+This page holds GRADE's separation of *certainty* from *strength*. USPSTF, a major guideline body not
+using GRADE, **dissolves the strength axis entirely** and builds the recommendation from a different
+pair.
+
+**The output is a letter grade A/B/C/D/I read off a grid whose two axes are certainty and magnitude of
+net benefit** — «The recommendation grade for a preventive service is derived from separate assessments
+of the certainty of evidence for a service and the magnitude of net benefit the service offers».
+Magnitude of net benefit is «substantial, moderate, small, or zero/negative». There is no
+strong/weak(conditional) rating anywhere. -> [[Net Benefit and the USPSTF Recommendation Grid]]
+[@uspstfmanual2022]
+
+**Where GRADE's four strength-determinants go under USPSTF:**
+
+| GRADE strength determinant | Where it lands in USPSTF |
+|---|---|
+| balance of desirable/undesirable effects | **inside net benefit** — certainty is «likelihood that the... net benefit... is correct»; the balance is the graded object, not a separate weighing |
+| certainty in the effect estimate | one grid axis (3-level certainty of net benefit) |
+| **values / preferences** | **grade C** — «recommends selectively offering... based on professional judgment and patient preferences» — + shared decision-making, *not* a determinant that weakens a recommendation |
+| resource use | **financial cost excluded**; opportunity cost folded into harms («Harms may also be considered in the form of opportunity costs») |
+
+[@uspstfmanual2022] -> [[Which Objective Moved This Recommendation]]
+
+**The decision-relevant contrast with this page's whole thesis.** GRADE's central move is that a *weak*
+recommendation can mean *high-certainty, values vary*. **USPSTF cannot express that**: values-variability
+is not a strength lever; it surfaces as grade **C** (a *small net benefit*, at least moderately certain)
+plus shared decision-making. So the GRADE off-diagonal (high certainty -> weak) has **no USPSTF
+analogue** — the two systems place the identical judgement (this depends on the person's values) in
+structurally different outputs. A GRADE "conditional" and a USPSTF "C" are **not the same quantity**:
+GRADE conditional can be high-certainty-values-vary or thin-evidence; USPSTF "C" is specifically a
+confidently-small net benefit. -> [[GRADE vs USPSTF - Two Appraisal Systems]]
+
+**And the fourth-state handling differs at the recommendation level, not just the outcome level.** GRADE
+permits (rarely) a strong recommendation on low certainty; USPSTF forecloses it — low certainty of net
+benefit is always **I**, «unable to assess the magnitude of net benefit».
+-> [[The Insufficient-Evidence Statement]] [@uspstfmanual2022]
+
+### Self-critique of the USPSTF section `[run 2026-07-31, before commit]`
+
+- **The central new claim — "GRADE conditional != USPSTF C" — is INFERRED and tagged.** Verified sound:
+  a GRADE conditional can be high-certainty-values-vary *or* thin-evidence; a USPSTF "C" is specifically
+  *small net benefit at ≥ moderate certainty*. The two label-sets are not co-extensive, so treating them
+  as equivalent would be the error this page's whole thesis warns against.
+- **"No USPSTF analogue of the GRADE off-diagonal" — checked, held.** USPSTF has no values-variability
+  strength lever; a high-certainty-values-vary case routes to its net-benefit magnitude (any of A/B/C)
+  plus shared decision-making, never to a distinct "weak-despite-high-certainty" output. So the off-
+  diagonal has no *single* USPSTF cell — defensible, and stated as INFERRED.
+- **Independence: denied.** GRADE and USPSTF share the EBM/certainty-first lineage; the determinant-
+  placement table is a type-C catalogue of one body's design against another's, not type-E corroboration.
+- **No fabricated equivalence.** Each cell of the determinant-placement table is sourced to USPSTF's own
+  text (grade C, cost exclusion, net-benefit definition); GRADE's four determinants are this page's
+  existing extracted content.
 
 ## References

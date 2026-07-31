@@ -19,8 +19,9 @@ near-free measures.** The Tier 1 metrics below — age, sex, smoking status, blo
 nothing beyond a tape measure and a cuff, yet they place a person against the two levers with the
 strongest hard-outcome evidence the wiki holds: quitting smoking (roughly a three-fold mortality
 difference) and blood-pressure lowering (one of the few cardiometabolic interventions with a hard-outcome
-benefit proven to reach primary prevention — LDL-lowering via statins, per Ference, is another). The
-expensive metrics — apoB, VO2max, grip strength — mostly *sharpen* a
+benefit proven to reach primary prevention — LDL-lowering via statins, per Ference, is another).
+
+The expensive metrics — apoB, VO2max, grip strength — mostly *sharpen* a
 picture the cheap ones already draw, or track predictors and surrogates rather than proven levers. So
 the tiering is not incidental: it mirrors the intervention hierarchy itself
 ([[Layer 1 - Ranking Interventions for a Stratum]]), where most of the achievable effect sits in a few
@@ -111,15 +112,18 @@ the cheaper metrics leave open.
   calculated non-HDL *where the assay is available* — it is at the edge of the standard battery, so
   non-HDL remains the population-available default.
 
-- **Cardiorespiratory fitness (VO2max), by the free eCRF proxy first.** Fitness is one of the strongest
-  mortality predictors in medicine: each 1-MET higher fitness carries about 13% lower all-cause mortality
-  and 15% lower CHD/CVD events (fatal + non-fatal) [@kodama2009], and being unfit is a *larger* mortality signal than smoking, diabetes or coronary disease
-  in the same model — low-vs-elite fitness HR 5.04 (4.10-6.20), with no upper limit of benefit
-  [@mandsager2018]. A direct
-  test needs equipment, so the population-available route is **estimated CRF (eCRF)** — equations that
-  predict fitness from age, sex, BMI, resting heart rate and self-reported activity (all captured in
-  Tier 1), and predict mortality comparably to measured fitness [@ross2016, eCRF equations]. The honest boundary: fitness is a *predictor* and
-  a trackable *outcome* of the physical-activity lever, not a proven cause of longer life on its own.
+- **Cardiorespiratory fitness (VO2max), by the free eCRF proxy first.**
+  - Fitness is one of the strongest
+    mortality predictors in medicine: each 1-MET higher fitness carries about 13% lower all-cause mortality
+    and 15% lower CHD/CVD events (fatal + non-fatal) [@kodama2009], and being unfit is a *larger* mortality signal than smoking, diabetes or coronary disease
+    in the same model — low-vs-elite fitness HR 5.04 (4.10-6.20), with no upper limit of benefit
+    [@mandsager2018].
+  - A direct
+    test needs equipment, so the population-available route is **estimated CRF (eCRF)** — equations that
+    predict fitness from age, sex, BMI, resting heart rate and self-reported activity (all captured in
+    Tier 1), and predict mortality comparably to measured fitness [@ross2016, eCRF equations].
+  - The honest boundary: fitness is a *predictor* and
+    a trackable *outcome* of the physical-activity lever, not a proven cause of longer life on its own.
 
 - **Grip strength — high-yield if available, but flagged.** Low grip strength is among the strongest
   mortality predictors and is trivial to capture with a hand dynamometer. The wiki holds it only

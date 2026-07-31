@@ -15,11 +15,15 @@ tracks the *method*, not the rate of loss itself.** The folk claim — *lose it 
 and hurts you* — silently welds together three different things: the **rate** (kilograms per week), the
 **method** (a moderate protein-adequate deficit vs a very-low-calorie liquid diet vs a drug vs surgery),
 and **confounding by indication** (the fact that the people who crash-diet, and the circumstances that
-make them, are not the people who lose weight slowly). Pull the three apart and much of the folk claim
+make them, are not the people who lose weight slowly).
+
+Pull the three apart and much of the folk claim
 reassigns to method and circumstance rather than speed. This is a *framing* move, not a demonstrated
 fact: the held evidence speaks to method, and the randomized trial that would isolate rate with method
 and total loss held fixed **is not in this corpus** (the load-bearing caveat below) — so read it as
-"the harm has not been shown to attach to speed per se", not "speed is proven safe". What genuinely
+"the harm has not been shown to attach to speed per se", not "speed is proven safe".
+
+What genuinely
 does track rate or severity is specific and mostly
 organ-level: gallstones, a transient worsening of liver fat before the net benefit, and — at the
 extreme historical end — the deaths from the crash liquid-protein diets of the early 1980s. And muscle
@@ -29,13 +33,17 @@ resistance training, not an inevitable tax on speed.
 The single most decisive piece of held evidence points the same way: the supervised rapid protocols
 work and are safe *when the method is right*. DiRECT put people on an **825-853 kcal/day** formula diet
 — a genuinely rapid loss — under supervision, and produced 46% diabetes remission with remission rising
-monotonically with kilograms lost [@lean2018, Results]. NICE will
+monotonically with kilograms lost [@lean2018, Results].
+
+NICE will
 positively recommend that same rapid regimen (total diet replacement, **800-1200 kcal**) but caps it at
 **12 weeks** [@nice, 1.1.10] — a limit on *duration*, not proof that
 fast is bad. So the honest headline is not **too fast is dangerous** and not **speed is free**; it is
 **the rate is a second-order knob, safe within bounds set by method (protein adequacy, supervision above
 a threshold, and duration), and the first-order questions are whether a sustained deficit exists at all
-and whether muscle is protected while it runs.** Where rate matters most is where it flips a lever into
+and whether muscle is protected while it runs.**
+
+Where rate matters most is where it flips a lever into
 a hazard — the older, sarcopenia-risk adult, for whom aggressive loss burns muscle and bone that cannot
 be spared ([[Big Rocks (Elderly)]]).
 
@@ -87,22 +95,30 @@ artifact lens** ([[The U-Shaped Association Artifact]]). The observation that pe
 fastest regain the most is exactly the shape that reverse causation and confounding-by-indication
 manufacture without any causal contribution from speed: the fastest losers are disproportionately those
 on the most extreme, least sustainable regimens, and those regimens — not the kilograms-per-week —
-predict the regain. The alcohol case is the worked template for how such an arm dissolves under a proper
+predict the regain.
+
+The alcohol case is the worked template for how such an arm dissolves under a proper
 check: the apparent protection of moderate drinking, robust across dozens of cohorts, collapsed to null
 once ex-drinkers were removed from the referent group (RR 0.97, 95% CI 0.88-1.07; bias-free studies 0.90,
 0.76-1.06) [@stockwell2016] and showed monotone
 harm with no protective arm under Mendelian randomization — genetic instruments that fix lifetime
-exposure and are immune to reverse causation [@millwood2019]. The decision rule transfers: **a *rapid loss rebounds* association is not, by
+exposure and are immune to reverse causation [@millwood2019].
+
+The decision rule transfers: **a *rapid loss rebounds* association is not, by
 itself, evidence that speed causes regain — it must survive a design that separates the rate from the
 method and from who chose it.** The randomized rate-of-loss trial is that design, and it is the gap.
 
 **What the held evidence says instead: regain is driven by the maintenance phase, not the initial
 speed.** The body defends against a sustained energy gap regardless of how fast it was opened — the same
 defend-the-deficit behaviour the compensation evidence shows for other interventions
-([[Exercise Energy Compensation]]). DiRECT is the clean worked case: after a rapid **-14.5 kg** loss on
+([[Exercise Energy Compensation]]).
+
+DiRECT is the clean worked case: after a rapid **-14.5 kg** loss on
 the formula diet, weight crept back **+1.0 kg** during food reintroduction and **+1.9 kg** during
 maintenance [@lean2018, Results] — the regain begins at the trough and
-is governed by what the maintenance structure holds against, not by the speed of the descent. The liver
+is governed by what the maintenance structure holds against, not by the speed of the descent.
+
+The liver
 guidance shows the same trajectory from a different literature: across MASLD lifestyle trials, weight
 reaches its nadir at 6 months, «followed by a gradual weight regain to a net weight loss of about 5% at
 12-24 months» [@easl2024]. Regain is the
@@ -131,7 +147,9 @@ For a young overweight adult, some lean-mass loss inside a large fat loss is min
 the older, sarcopenia-risk adult, muscle and function are front-line patient-important outcomes in their
 own right, and aggressive or rapid loss flips from lever to hazard — the top lever becomes resistance
 training plus protein, and any weight loss must be muscle-protective and gradual, never rapid
-([[Big Rocks (Elderly)]]). This is route (c) (a harm firing in one stratum) and route (d) (the outcome
+([[Big Rocks (Elderly)]]).
+
+This is route (c) (a harm firing in one stratum) and route (d) (the outcome
 priorities themselves change) acting together. **The magnitude of lean-mass loss *by rate of loss*
 specifically — how much fat-free mass per kilogram at 0.5 vs 1 vs 1.5 kg/week, with and without
 protein+RT — is not held** (gap below); what is held is that it scales with deficit size and is

@@ -2,19 +2,20 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org)]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-29
 created: 2026-07-28
-updated: 2026-07-30
+updated: 2026-07-31
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
     - Sodium Intake and Blood Pressure
     - Measurement Error in Dietary Assessment
     - Non-Sugar Sweeteners
+    - P-Hacking and Researcher Degrees of Freedom
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -38,6 +39,14 @@ The lower arm can be produced with **no true benefit at all**, by any of:
 disease were more prevalent among abstainers than among moderate drinkers»).
 - **Unequal between-group precision** — per the telos, differential reporting/measurement precision can
   bend a flat relationship into a U with no bias and no confounder, passing both standard checks.
+- **Analytic multiplicity / the garden of forking paths** — an analyst free to choose the referent, the
+  covariate set, the exposure cut-points, and the subgroup can *land on* a protective arm among many
+  paths, and selection publishes the significant one. NASEM's worked case is the post-hoc astrological
+  subgroup that found «Geminis and Libras did not benefit from aspirin, while Capricorns benefited the
+  most» — «This obviously spurious relationship illustrates the dangers of analyzing data with
+  hypotheses and subgroups that were not prespecified.» A curve's *shape* is one of those choices, so an
+  un-prespecified U carries the same discount -> [[P-Hacking and Researcher Degrees of Freedom]].
+  [@nasem2019, Peto 2011]
 
 ## The three adjudication routes — and what they showed for alcohol
 

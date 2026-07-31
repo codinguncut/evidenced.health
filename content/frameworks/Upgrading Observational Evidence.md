@@ -2,8 +2,8 @@
 type: framework
 question: When can observational evidence support more confidence than its design alone would allow?
 aliases: [Upgrading Evidence, Rating Up, Large Magnitude of Effect, Dose-Response Gradient, Plausible Residual Confounding]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org)]
-sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org)]
+sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -11,8 +11,9 @@ relationships:
     - Indirectness of Evidence
     - Baseline Risk and the Relative-Absolute Split
     - Physical Activity Dose and Mortality
+    - Confidence in Science Without a Replication Crisis
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-27
 ---
 
@@ -234,5 +235,12 @@ against deficiency prevention and answers a different question on a different cu
 above the deficiency threshold and the gap large enough to justify national fortification.
 **So the rule *never read a reference intake as an optimum* is not merely a definitional caution; there
 is at least one nutrient where reading it that way would have missed a major preventable harm.**
+
+Corroborated by NASEM (chunk 06): the confidence engine is «the consistency of effect sizes across the
+studies, especially when a variety of methods, each with different weaknesses, converge on the same
+conclusion» — the same triangulation criterion, reached from replication science rather than a nutrition
+textbook. Same-domain-external corroboration of the type-E move, not independent proof of any single
+claim -> [[Confidence in Science Without a Replication Crisis]], [[Sources of Non-Replicability]].
+[@nasem2019]
 
 ## References

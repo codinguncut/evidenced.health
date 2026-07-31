@@ -21,11 +21,15 @@ this appraisal does not touch and cannot price.
 
 **The short verdict.** On health, the *organic* label is a **small, low-certainty lever at best**, and for
 most people it is dominated by the big rocks — not smoking, staying lean, staying active, and the overall
-shape of the diet. Three real differences survive scrutiny (fewer pesticide residues, small and mixed
+shape of the diet.
+
+Three real differences survive scrutiny (fewer pesticide residues, small and mixed
 nutrient differences, and a better fat profile in animal products), but the first has no demonstrated
 health consequence at real-world levels, the second is too small to matter against total diet, and the
 third turns out to be driven by what the animal *ate* (grass vs grain), which the organic certificate does
-not guarantee. There is no trial showing organic eating makes you healthier, and the one large cohort that
+not guarantee.
+
+There is no trial showing organic eating makes you healthier, and the one large cohort that
 points that way is riddled with the classic healthy-buyer confound. This is a thin-evidence field by its
 nature, not because the right study has yet to be done — you cannot blind or randomise a lifetime of
 buying organic.
@@ -153,11 +157,15 @@ inverse association here is expected whether or not the label does anything.
 Two things keep this reading honest. The model **did** adjust for a large confounder set (income,
 education, activity, smoking, alcohol, BMI, energy, diet quality, fibre, processed and red meat) and the
 association survived — so this is a residual-confounding concern, weaker than an unadjusted artifact but
-not nothing, and self-reported diet guarantees the adjustment is incomplete. More tellingly, the paper's
+not nothing, and self-reported diet guarantees the adjustment is incomplete.
+
+More tellingly, the paper's
 own internal check points away from the label: «combining both a high-quality diet and a high frequency of
 organic food consumption did not seem to be associated with a reduced risk of overall cancer compared with
 a low-quality diet and a low frequency of organic food consumption»
-[@baudry2018]. The signal appeared where
+[@baudry2018].
+
+The signal appeared where
 diet quality was low, not stacked on top of an already-good diet — consistent with diet quality, not
 organic certification, doing the work. **The design cannot cleanly attribute an effect, and no trial exists
 to.**

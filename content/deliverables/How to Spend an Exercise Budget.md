@@ -21,9 +21,13 @@ Once that is granted, the evidence does point somewhere specific for the remaini
 dedicated budget between cardio and resistance rather than pouring it all into one**, let **walking run
 free as folded-in daily movement outside the budget**, and **tilt the split toward whatever you are
 most deficient in** — low fitness pulls toward cardio, low muscle or a metabolic problem pulls toward
-resistance. The confident lever here is cardio, because cardiorespiratory fitness is one of the
+resistance.
+
+The confident lever here is cardio, because cardiorespiratory fitness is one of the
 best-evidenced mortality predictors in medicine; resistance training rides on softer mortality
-evidence but a strong case through function, muscle, and blood sugar. The precise intensity split and
+evidence but a strong case through function, muscle, and blood sugar.
+
+The precise intensity split and
 the exact combined optimum are places where the evidence thins out, and this guide names them rather
 than inventing numbers. The ordering below is the Layer-1 discipline — rank by effect times certainty
 for *this* stratum — applied to exercise ([[Layer 1 - Ranking Interventions for a Stratum]]).
@@ -81,10 +85,13 @@ coronary artery disease [@mandsager2018].
 **The load-bearing caveat: CRF is a predictor, not a proven cause.** Both sources are observational and
 both say so — the degree to which high fitness *preselects* healthier people rather than *causing*
 lower mortality is not resolved by cross-sectional data [@kodama2009] [@mandsager2018].
+
 What partly closes the gap is within-person change: people who went from unfit to fit between two exams
 had **44% lower mortality** than those who stayed unfit, and the one exercise-training RCT (HF-ACTION,
 in heart-failure patients) linked a 6% rise in measured fitness to a 4% lower risk of CV death or
-hospitalization [@ross2016]. So the
+hospitalization [@ross2016].
+
+So the
 operative reading is: **the proven lever is the activity that raises fitness, and CRF is how you check
 that it worked** — not a separate thing to chase, but the trackable output of the cardio minutes.
 
@@ -177,10 +184,13 @@ A predictable hope for an overweight person is that these minutes will burn off 
 says: mostly not, and the reason is compensation. Across 61 exercise studies, **«The overall mean
 energy compensation was 18% ± 93%»** — on average about a fifth of the exercise energy deficit is
 refilled (by eating more or moving less elsewhere), rising toward **84%** over long interventions
-[@riou2015]. A landmark doubly-labelled-water study
+[@riou2015].
+
+A landmark doubly-labelled-water study
 reached the same place by a different route: about **28%** of activity calories are offset through a
 drop in *basal* energy expenditure, and the offset **rises with body fat** — from \~28% at the low end
 of the BMI range to \~49% at the high end [@careau2021].
+
 **The person carrying the most fat compensates the most**, so exercise "counts" least toward a deficit
 exactly where the weight goal is largest.
 

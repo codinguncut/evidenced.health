@@ -24,7 +24,9 @@ things move at once, and they reorder the whole page.
 **1. The outcomes that matter change.** For a younger drifting adult the target is mostly future
 cardiovascular events and long-run mortality. At 70, **function, muscle, bone, falls and independence
 become patient-important endpoints in their own right** — losing the ability to climb stairs, or
-avoiding a hip fracture, is the payoff, not a surrogate for it. And *competing risk shrinks the runway*
+avoiding a hip fracture, is the payoff, not a surrogate for it.
+
+And *competing risk shrinks the runway*
 for pure-longevity plays: the same intervention buys fewer disease-free years the older you are. The
 European cardiology guideline puts numbers on this — for a 1 mmol/L LDL reduction the modelled gain
 falls from roughly 0.6-1.6 CVD-free years at 45-49 to about 0-0.3 years by age 90
@@ -53,11 +55,15 @@ because it defends exactly what this stratum is losing. In observational cohorts
 activity carries all-cause mortality RR 0.85 (0.79-0.93) and diabetes RR 0.83 (0.77-0.89), independent of
 aerobic activity, with most of the benefit reached at a *small* weekly volume (\~30-60+ min/week)
 [@momma2022] — but that mortality signal is
-graded very low (self-reported, observational), so it is not the reason to do it. The stronger case runs
+graded very low (self-reported, observational), so it is not the reason to do it.
+
+The stronger case runs
 through **function and falls**: long-term exercise reduces falls, injurious falls and probably fractures
 in older adults, including those with cardiometabolic disease — a patient-important outcome and the
 strongest outcome class the physical-activity evidence carries for this stratum
-[@who2020]. Building and using muscle
+[@who2020].
+
+Building and using muscle
 also enlarges the body's glucose "sink," which is why the diabetes curve keeps falling with no upturn
 [@momma2022]. And resistance training plus
 adequate protein is the **guardrail on any weight loss below** — it is how you shed fat while keeping
@@ -93,7 +99,9 @@ loss keeps genuine, patient-important benefits at this age: it is the base lever
 the histological gain is dose-dependent (>=5% of body weight reduces liver fat, 7-10% improves
 inflammation, >=10% improves fibrosis) [@easl2024];
 and an energy-restricted programme put **46% of shorter-duration type-2-diabetics into remission** off
-drugs, on a weight-loss gradient [@lean2018]. What it does
+drugs, on a weight-loss gradient [@lean2018].
+
+What it does
 **not** reliably buy is fewer heart attacks: the largest lifestyle weight-loss trial was null on
 cardiovascular events (HR 0.95, 0.83-1.09) despite real weight loss, and a 54-trial meta-analysis
 confirms the CV-event null while finding a modest all-cause mortality reduction (RR 0.82, 0.71-0.95)
@@ -116,10 +124,13 @@ pre-existing heart disease and no fall-off at lower baseline BP)
 trial an intensive target cut the composite by 25% and all-cause mortality by 27% (NNT 61 over 3.3 years)
 — but at a real cost of hypotension, syncope, electrolyte disturbance and acute kidney injury (though
 *not*, in that trial, injurious falls) [@sprint2015].
+
 Two age qualifiers bound the lipid and glycaemia levers: the cardiology guideline drops lipid-lowering
 to class IIb at >=70 [@esc2021], and the US preventive
 task force finds statin *initiation* insufficiently evidenced at age >=76
-[@uspstf2022]. Competing risk caps the lifetime payoff, and
+[@uspstf2022].
+
+Competing risk caps the lifetime payoff, and
 **polypharmacy plus fall and orthostatic risk make over-treatment its own harm**. Read the low-risk
 "ceiling" finding in reverse: this stratum is *high* absolute risk, so the BP and lipid levers do buy
 real absolute benefit — until competing risk closes the window, leaving a narrower, age-bounded one

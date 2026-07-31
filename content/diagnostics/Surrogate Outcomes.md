@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -12,7 +12,7 @@ relationships:
     - Non-Sugar Sweeteners
     - The U-Shaped Association Artifact
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-29
 ---
 
@@ -378,5 +378,38 @@ eTRF's numbers are a legitimate *target* candidate only if the marker->outcome c
 transmit; on this evidence they are markers, not a benefit. Note the direction-of-effect asymmetry: a
 short-fast-before-testing artifact plausibly manufactured the triglyceride rise, which is exactly why a
 single marker in isolation is not diagnostic.
+
+## The surrogate discount as a NON-GRADE guideline body builds it in `[2026-07-31, USPSTF]`
+
+USPSTF operationalizes the surrogate penalty structurally, in its own vocabulary — **intermediate**
+outcomes vs **health** outcomes. Health outcomes are «symptoms, functional levels, and conditions that
+patients can feel or experience»; intermediate outcomes (blood pressure, serum cholesterol, weight,
+dietary intake) «are not health outcomes in and of themselves». The rule:
+
+> «The USPSTF gives greater weight to evidence of an effect on health outcomes than evidence of an
+> effect on risk factors or intermediate outcomes. The fact that a preventive service has a proven
+> effect on an intermediate outcome does not necessarily establish that it can improve outcomes that
+> are perceptible to patients.»
+> [@uspstfmanual2022]
+
+**Where USPSTF is HARSHER than GRADE's one-or-two-level discount.** In its analytic framework the
+intermediate->health-outcome step is a distinct key question (KQ6), and USPSTF near-forecloses banking
+benefit through it: «Due to the inherent limitations of the evidence that will be used to link
+intermediate and health outcomes, it is very unlikely that the evidence for this key question will be
+deemed convincing. This is due to the likely need to depend on observational evidence and the high
+potential for confounding.» [@uspstfmanual2022]
+
+**This is the same transmission test this page's Example-9 criterion asks, made near-structural.** GRADE
+downgrades one-or-two levels and lets a reasoned biology judgement escape the penalty (WHO's LDL case
+above). USPSTF instead makes the intermediate->health linkage *presumptively unconvincing*, so a
+recommendation resting on a marker is pushed toward its indirect-evidence pathway and the certainty of
+net benefit is capped accordingly. **Two instruments, same concern, different severity of the default.** -> [[GRADE vs USPSTF - Two Appraisal Systems]]
+
+**And the mortality corollary is stated plainly:** «few preventive interventions have a measurable
+effect on all-cause mortality» — so USPSTF routinely grades on a health outcome one step short of death,
+and names the three reasons all-cause and cause-specific mortality diverge (competing harms; rare
+condition; competing mortality at old age). A marker moving is not a life saved; a cause-specific death
+averted is not an all-cause death averted. -> [[Rating Outcome Importance]]
+[@uspstfmanual2022]
 
 ## References

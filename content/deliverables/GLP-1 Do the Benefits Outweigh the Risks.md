@@ -53,14 +53,17 @@ still and is the class's high-water mark for the surrogate.
 lipid-lowering therapy [mostly statins] and 86% antiplatelet use) cut the primary MACE composite (cardiovascular death, non-fatal
 myocardial infarction, non-fatal stroke) from 8.0% to 6.5%, hazard ratio 0.80 (95% CI 0.72-0.90) over a
 mean 3.3 years — an absolute reduction of 1.5 percentage points, NNT \~67, on top of guideline therapy
-[@lincoff2023]. Read the composite
-carefully: only the primary result is confirmatory. CV death was HR 0.85 (0.71-1.01, P=0.07) and failed
-the pre-specified gatekeeping test, so all-cause mortality (0.81, 0.71-0.93) and the heart-failure
-composite are directionally favourable but statistically **non-confirmatory** — "semaglutide reduces
-mortality" is a common overread of this trial. Non-fatal MI (0.72, 0.61-0.85) carries most of the
-benefit; non-fatal stroke (0.93, 0.74-1.15) was not reduced. The trialists state the load-bearing limit
-themselves: only patients with pre-existing cardiovascular disease were included, and primary prevention
-was not studied [@lincoff2023].
+[@lincoff2023].
+
+Read the composite carefully: only the primary result is confirmatory. CV death was HR 0.85 (0.71-1.01,
+P=0.07) and failed the pre-specified gatekeeping test, so all-cause mortality (0.81, 0.71-0.93) and the
+heart-failure composite are directionally favourable but statistically **non-confirmatory** —
+"semaglutide reduces mortality" is a common overread of this trial.
+
+Non-fatal MI (0.72, 0.61-0.85) carries most of the benefit; non-fatal stroke (0.93, 0.74-1.15) was not
+reduced. The trialists state the load-bearing limit themselves: only patients with pre-existing
+cardiovascular disease were included, and primary prevention was not studied
+[@lincoff2023].
 
 **Diabetes prevention: large, on a glycaemic surrogate.** Two-thirds of SELECT was prediabetic;
 progression to diabetes was cut sharply (HR 0.27, 0.24-0.31), and in STEP-1's younger population 84% of
@@ -120,16 +123,17 @@ from hand-waving. Here is the risk side by evidence state.
 - **Lean-mass loss / sarcopenia risk.** STEP-1 held that fat mass fell more than lean mass, which is
   reassuring on its face; but a dedicated body-composition meta-analysis quantifying the lean-mass
   fraction, and separating drug-specific loss from the loss that *any* rapid large weight reduction
-  produces, is **not yet held**. The
-  attribution question is the sharp one: lean-mass loss of roughly a quarter to a third of total mass
-  lost is generic to fast weight loss by any route (diet, bariatric), so it is a cost of the *goal* where
-  it is weight-loss-generic, and a debit of the *drug* only where appetite suppression drives protein
-  intake down. Either way the mitigation is held and decisive: **resistance training plus adequate
-  protein (\~1.6 g/kg/day) preserves lean mass during weight loss** [@morton2018] -> [[Protein and Resistance Training for Muscle and Strength]]. The worked failure is instructive — an unguided 16:8 eating window lost \~65% of its weight
-  as lean mass vs a normal 20-30%, attributed to a short window cutting protein intake
-  [@lowe2020]. This makes lean-mass loss a "modify
-  the strategy, don't discard it" case, not a veto — and muscle, function, and falls are patient-important
-  outcomes, not cosmetic ones -> [[Muscle-Strengthening Activity and Mortality]].
+  produces, is **not yet held**.
+  - The attribution question is the sharp one: lean-mass loss of roughly a quarter to a third of total
+    mass lost is generic to fast weight loss by any route (diet, bariatric), so it is a cost of the
+    *goal* where it is weight-loss-generic, and a debit of the *drug* only where appetite suppression
+    drives protein intake down.
+  - Either way the mitigation is held and decisive: **resistance training plus adequate protein
+    (\~1.6 g/kg/day) preserves lean mass during weight loss** [@morton2018] -> [[Protein and Resistance Training for Muscle and Strength]]. The worked failure is instructive — an unguided 16:8 eating window lost \~65% of its
+    weight as lean mass vs a normal 20-30%, attributed to a short window cutting protein intake
+    [@lowe2020]. This makes lean-mass loss a
+    "modify the strategy, don't discard it" case, not a veto — and muscle, function, and falls are
+    patient-important outcomes, not cosmetic ones -> [[Muscle-Strengthening Activity and Mortality]].
 - **Gallbladder disease, pancreatitis, gastroparesis / ileus (with anaesthesia-aspiration relevance) —**
   established-to-signal, dose-dependence unquantified here.
 - **Reward / mood / anhedonia — the "loss of joy" beyond food.** Mechanistically linked to the appetite

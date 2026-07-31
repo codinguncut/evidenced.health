@@ -2,8 +2,8 @@
 type: diagnostic
 question: How much can measurement error in diet studies hide a real effect, or manufacture a false one?
 aliases: [Measurement Error, Attenuation, Regression Dilution, De-attenuation, Regression Calibration, Validation Study, Differential Misclassification]
-authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle]
-sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018]
+authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org)]
+sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019]
 cluster: nutrition-methods
 confidence: medium
 self_critiqued: 2026-07-27
@@ -13,8 +13,9 @@ relationships:
     - Rating Certainty of Evidence
     - Upgrading Observational Evidence
     - Physical Activity Dose and Mortality
+    - Sources of Non-Replicability
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Why it matters
@@ -657,5 +658,23 @@ consumption."
 **So the cohort cannot separate the organic label from the lifestyle it marks** — an instance of the
 *observed-healthy-population-is-not-evidence-for-a-component* trap, sharpened by covariate measurement
 error. -> [[Organic vs Conventional Food]], [[Is the Food Category Doing Any Work]]
+
+## The general version — NASEM names measurement fidelity as a non-replicability driver `[2026-07-31]`
+
+NASEM's replication report generalizes this page's binding-constraint finding beyond diet: among the
+system-inherent factors that raise a result's susceptibility to non-replication are the **noise /
+signal-to-noise ratio** and the **fidelity of the available measures to the construct (direct vs
+indirect measurement)** -> [[Sources of Non-Replicability]]. Dietary self-report is the low-fidelity,
+high-noise case of a general phenomenon — so "a null dose-response is weak evidence of no gradient" is
+one instance of NASEM's rule that indirectly-measured complex systems replicate least.
+[@nasem2019]
+
+**And the precision trap, stated cleanly:** «one must not presume that a more precise set of measures is
+necessarily more accurate; the results may simply be subject to a more consistent bias, moving them in a
+consistent way in a particular direction and distance from the true target.» A tight confidence
+interval / low SE is **not** evidence of correctness — a well-powered instrument can be precisely
+biased, which is exactly this page's differential-error and correlated-error results seen from the
+accuracy-vs-precision angle.
+[@nasem2019]
 
 ## References

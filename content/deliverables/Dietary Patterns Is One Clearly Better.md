@@ -153,12 +153,16 @@ continue -- but the effect **attenuates by 12 months** (the 6-month remission ri
 to 0.10), and under the stricter definition requiring people to come off medication it is never
 statistically significant [@goldenberg2021, Table 2].
 Weight follows the same decay (MD -3.46 kg at 6 months to +0.29 kg at 12), and LDL rises (+0.14 mmol/L at
-12 months, above the review's own clinical threshold) [@goldenberg2021, Table 3]. Crucially, the remission is best read as a **weight-loss effect delivered by a
+12 months, above the review's own clinical threshold) [@goldenberg2021, Table 3].
+
+Crucially, the remission is best read as a **weight-loss effect delivered by a
 low-carb route, not a carbohydrate effect per se**: the DiRECT trial put **46% of people into remission
 on an 825-853 kcal formula diet that was 59% carbohydrate** -- the opposite of low-carb -- with remission
 scaling with kilograms lost [@lean2018, Findings]. So carbohydrate
 restriction is *one* lever for the weight loss that drives remission, not a necessary one
-([[Carbohydrate Restriction and Type 2 Diabetes Remission]]). The Cochrane review also flags a
+([[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
+
+The Cochrane review also flags a
 contraindication in its own voice: caution in people with atherogenic-lipoprotein hyper-response to
 high-fat, low-carbohydrate eating [@naude2022, 
 Authors' conclusions].
@@ -178,14 +182,18 @@ carried separately ([[Carnivore Comparison]]).
 PURE cohort found higher carbohydrate associated with higher total mortality (top-vs-bottom quintile HR
 1.28, 95% CI 1.12 to 1.46), yet found no support for very-low-carbohydrate intakes either -- moderate
 intake (\~50-55% of energy) looked more appropriate than either extreme
-[@dehghan2017]. The highest-carbohydrate
+[@dehghan2017].
+
+The highest-carbohydrate
 quintiles are also the poorest, eating largely refined-carbohydrate subsistence diets, so the signal is
 plausibly a refined-carb and poverty one rather than carbohydrate per se. But this must be lodged as a
 *residual*-confounding caveat, not a demonstrated artifact: PURE adjusted for education, household
 income, household wealth and country economic level and reported the association **robust** and its
 results **unchanged** [@dehghan2017]. So measured
 socioeconomic status does not explain it away; the caveat is that measured SES may not fully capture the
-refined-carb/poverty channel ([[The U-Shaped Association Artifact]]). A cohort analysis reframing
+refined-carb/poverty channel ([[The U-Shaped Association Artifact]]).
+
+A cohort analysis reframing
 low-carb mortality as depending on *what replaces* the carbohydrate (plant vs animal) is a named gap, not
 held.
 

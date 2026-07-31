@@ -58,10 +58,14 @@ largest, longest trial (Look AHEAD, in people with type 2 diabetes) found intens
 loss did not reduce a composite of cardiovascular death, heart attack, stroke or hospitalised angina —
 **hazard ratio 0.95, 95% CI 0.83 to 1.09**, despite real weight loss and improvement in nearly every
 risk-factor surrogate (weight, HbA1c, fitness, blood pressure, inflammation)
-[@look2013]. Pooling 54 trials
+[@look2013].
+
+Pooling 54 trials
 confirms and generalises that: cardiovascular events null (**RR 0.93, 0.83 to 1.04**), but **all-cause
 mortality falls (RR 0.82, 0.71 to 0.95, \~6 fewer deaths per 1000)** — a benefit not routed through the
-heart [@ma2017]. So the honest promise to this person is:
+heart [@ma2017].
+
+So the honest promise to this person is:
 either diet, if sustained, pulls the biggest lever they have — for their liver, blood sugar, function,
 and probably longevity — but *not* a promised reduction in heart attacks. Because weight loss is matched,
 it does **not** discriminate the two arms; it is the shared backdrop against which the composition
@@ -108,10 +112,14 @@ LDL higher, the medium-fat arm runs it lower.**
 baseline risk: a constant relative effect on a low baseline is a small effect, and on a high baseline a
 larger one [@grade, §2.1]. This person is hypertensive with central adiposity and
 metabolic impairment — elevated risk — so an LDL difference between the two diets translates into a
-larger absolute event difference than it would for someone low-risk. As a scale anchor: reducing
+larger absolute event difference than it would for someone low-risk.
+
+As a scale anchor: reducing
 saturated fat's RR 0.83, applied at a 10% ten-year baseline, is roughly **1.7 percentage points (\~17
 fewer CVD events per 1000 over 10 years)**]], versus a handful per
-1000 at low risk. For context on where drug therapy sits: a statin becomes a candidate only above \~7.5-10%
+1000 at low risk.
+
+For context on where drug therapy sits: a statin becomes a candidate only above \~7.5-10%
 ten-year risk [@uspstf2022], and a zero coronary-calcium score
 can roughly halve-to-quarter that benefit [@nasir2015] — i.e. the lipid axis is real but its size depends entirely on this person's measured
 risk, which is why lipid monitoring, not assumption, is the right response.
@@ -120,11 +128,15 @@ risk, which is why lipid monitoring, not assumption, is the right response.
 insulin resistance, high triglycerides — LDL-C (the cholesterol *mass*) can **understate** the atherogenic
 particle burden, because the same cholesterol is packed into more, smaller particles; apoB (particle
 *number*) is the number to trust [@ference2017]. So a
-carnivore-arm LDL-C reading could look reassuring while apoB is worse than it appears. Symmetric standards,
+carnivore-arm LDL-C reading could look reassuring while apoB is worse than it appears.
+
+Symmetric standards,
 though: there is a genuine counter-argument that a *diet-induced* LDL rise from saturated fat may be a
 poorer proxy for the harmful particle change than a drug-induced one (saturated fat also raises HDL and
 lowers triglycerides), so the diet-LDL harm could be *overstated* by the LDL number alone
-[@astrup2020] [@dehghan2017]. Both caveats point the same practical way: **measure apoB, don't
+[@astrup2020] [@dehghan2017].
+
+Both caveats point the same practical way: **measure apoB, don't
 infer events from a single LDL-C snapshot.**
 
 **Gap:** the wiki holds the *mean* carbohydrate-to-LDL and saturated-fat-to-LDL effects, but **not the
@@ -199,11 +211,15 @@ Both patterns are beef-heavy, so the contested meat-and-cancer evidence applies 
 cannot separate them. For the record: processed meat carries a small, statistically significant colorectal
 association (**RR 1.16, 1.08 to 1.26, per 50 g/day**); unprocessed red meat's is weaker and its pooled
 estimate is **not** significant (**RR 1.12, 1.00 to 1.25, per 100 g/day**)
-[@wcrf2018]. In absolute terms a realistic
+[@wcrf2018].
+
+In absolute terms a realistic
 cut of 3 servings/week is estimated at about **7 fewer cancer deaths per 1000 over a lifetime**, at low
 certainty [@nutrirecs2019] — which is why
 two guideline families reading the same data split between "limit it" and "adults may continue": the
-disagreement is a value-and-certainty judgment, not a dispute about effect size. Since neither of these
+disagreement is a value-and-certainty judgment, not a dispute about effect size.
+
+Since neither of these
 diets is *reducing* red meat, this axis is a shared exposure both carry, not a reason to prefer one.
 Cooking method is a marginal within-axis difference (a seared ribeye forms somewhat more
 high-temperature-cooking carcinogens than a roasted round), not a diet-level discriminator.
@@ -216,7 +232,9 @@ matters more here than for a normotensive person: the blood-pressure benefit of 
 hypertensives versus 1.38 mmHg in normotensives** [@who2012, Summary of
 evidence], a ratio a second guideline family reports convergently (5.8 versus 1.9 mmHg) — likely resting
 on overlapping sodium-BP trials, so convergent guidance rather than independent replication
-[@esc2021]. (As with LDL, the certainty is high on the
+[@esc2021].
+
+(As with LDL, the certainty is high on the
 blood-pressure surrogate and much lower on hard outcomes.) The medium-fat arm's steamed vegetables also
 add **dietary potassium**, which the carnivore arm's zero-plant pattern forgoes — a second small
 blood-pressure-favouring point for the medium-fat arm in a hypertensive person. Neither diet's sodium

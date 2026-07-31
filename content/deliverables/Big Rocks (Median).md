@@ -53,13 +53,17 @@ benefit arrives early and then flattens: maximal risk reduction is reached at ab
 moderate-to-vigorous activity** [@who2020, 
 ]. So for an under-active person this is the biggest lever available; for someone already active
 the ceiling arrives early, and "your remaining activity gains are small" is itself a result that licenses
-stopping. Resistance training is additive, not a substitute — muscle-strengthening cuts all-cause
+stopping.
+
+Resistance training is additive, not a substitute — muscle-strengthening cuts all-cause
 mortality RR **0.85** and diabetes RR **0.83** independently of aerobic activity, and doing both gives
 RR **0.60** for all-cause mortality [@momma2022]. A modest weekly volume (\~30-60 min) reaches most of the strength benefit. Two features make
 resistance training especially apt for *this* stratum: its diabetes dose-response is L-shaped with no
 harmful upper arm (skeletal muscle is the main site of glucose disposal, so building it enlarges the
 glucose "sink"), and it protects function and falls — patient-important outcomes on a firmer footing
-than the mortality signal. Caveat on certainty: the activity and strength numbers are observational, so
+than the mortality signal.
+
+Caveat on certainty: the activity and strength numbers are observational, so
 reverse causation is not excluded by design; treat them as strong predictors, not RCT-proven causes.
 Cardiorespiratory fitness is best used as the free, trackable *proxy* for whether the movement lever is
 working (a non-exercise estimate from age, sex, BMI, resting heart rate and activity is good enough to
@@ -73,14 +77,18 @@ It is the *same* lever as the fatty-liver and diabetes levers, not a separate on
 [@easl2024]; an 825-853 kcal/day formula diet
 put **46%** of short-duration type-2-diabetics into drug-free remission, scaling with kilograms lost
 [@lean2018]; and pooled across 54 RCTs, weight-loss diets
-lower all-cause mortality RR **0.82** (\~6 fewer deaths per 1000, high quality) [@ma2017]. **But sell it for what it demonstrably moves, not for heart
+lower all-cause mortality RR **0.82** (\~6 fewer deaths per 1000, high quality) [@ma2017].
+
+**But sell it for what it demonstrably moves, not for heart
 attacks.** The largest, longest lifestyle-weight-loss trial was *null* on hard cardiovascular events
 (HR **0.95**, 0.83-1.09) despite real weight loss and broadly improved risk-factor markers
 [@look2013]. A meta-analysis of **54 RCTs**
 [@ma2017] confirms the CV-event null (RR **0.93**,
 0.83-1.04, high quality). So the honest pitch is glycaemia, liver,
 weight, function and overall mortality — with cardiovascular-event reduction via the lifestyle route
-unproven. For fatty liver, the reframe that matters: for most people with it the dominant risk it
+unproven.
+
+For fatty liver, the reframe that matters: for most people with it the dominant risk it
 carries is cardiovascular and metabolic, not hepatic (non-fatal CVD HR 1.40, a more-than-doubled
 diabetes risk) [@easl2024].
 
@@ -99,7 +107,9 @@ claim is needed [@hooper2020].
 But it is **small**: the only hard outcome that clears no-effect is cardiovascular *events* — **15
 fewer per 1000** (RR 0.83, Moderate) — while all-cause mortality is null (RR 0.96, Moderate) [EXTRACTED
 (WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6]. In person-terms that is a number-needed-to-
-treat of about **56 over four years** [@hooper2020]. Two rules keep it honest: the *replacement* sets the sign (SFA-to-PUFA helps;
+treat of about **56 over four years** [@hooper2020].
+
+Two rules keep it honest: the *replacement* sets the sign (SFA-to-PUFA helps;
 SFA-to-refined-carbohydrate does not), so "eat less saturated fat" without naming the replacement is
 half a recommendation; and the firm evidence is on LDL, not on living longer — do not read the lipid
 change as the mortality evidence.
@@ -108,13 +118,17 @@ change as the mortality evidence.
 everything: current smokers die at about **three times** the never-smoker rate and lose a decade of
 life, and quitting before \~40 removes about 90% of the excess (earlier is strictly better; it is never
 too late to be the largest available lever) [@jha2013, 
-]. *Alcohol*: the "moderate drinking is protective" J-curve is largely an artifact of counting
+].
+
+*Alcohol*: the "moderate drinking is protective" J-curve is largely an artifact of counting
 sick ex-drinkers as abstainers — bias-corrected meta-analysis (RR 0.97, not significant) and Mendelian
 randomization (a genetic natural experiment) both erase the protective arm [@stockwell2016] [@millwood2019]. There is no cardioprotection to preserve; reducing intake is the
 lever. Mortality risk begins rising above about **25 g/day** (non-significant, RR 1.05) and becomes
 statistically significant above about **45 g/day** (RR 1.19); women showed higher overall risk than men
 at a given intake, but these are overall dose bands, not sex-specific cutoffs
-[@zhao2023]. *Sleep*: fix
+[@zhao2023].
+
+*Sleep*: fix
 chronic short sleep (a real \~12% higher mortality with a plausible metabolic mechanism, via appetite and
 glycaemic control) toward \~7-8 h; do not chase *less* sleep — the larger long-sleep association (RR
 1.30) is mostly a marker of underlying illness, not a target [@cappuccio2010].
@@ -125,7 +139,9 @@ glycaemic control) toward \~7-8 h; do not chase *less* sleep — the larger long
 systolic blood pressure by about **3.39 mmHg** overall (HIGH certainty), but the response is roughly
 threefold larger in the already-hypertensive (**4.06 mmHg**) than in the normotensive (**1.38 mmHg**)
 [@who2012]. So for this borderline-hypertensive stratum it is a real lever;
-for a lean, normotensive person the benefit is small and the effort closer to needless. The hard-outcome
+for a lean, normotensive person the benefit is small and the effort closer to needless.
+
+The hard-outcome
 evidence for sodium itself is very-low certainty, but *pharmacological* blood-pressure lowering is
 proven to cut events even in primary prevention and even at normal pressure (HR **0.91 per 5 mmHg**),
 so the blood-pressure channel is real — the caveat is that a sodium-induced drop transmitting to events
@@ -134,12 +150,16 @@ is an assumption, not the same evidence [@bplttc2021]. Western intake runs \~9-1
 **Carbohydrate restriction — a route to glycaemic control for the insulin-resistant, not a universal
 rule.** For the dysglycemic end of this stratum, restricting carbohydrate genuinely improves glycaemia
 (HbA1c -0.47% at 6 months, HIGH certainty) and lifts drug-permitted diabetes remission (risk difference
-0.32 at 6 months, NNT \~3), though most benefits attenuate by 12 months [@goldenberg2021]. Three things make it conditional, not a big rock. It is **not
+0.32 at 6 months, NNT \~3), though most benefits attenuate by 12 months [@goldenberg2021].
+
+Three things make it conditional, not a big rock. It is **not
 necessary** — DiRECT achieved remission on a 59%-carbohydrate formula diet, so what drives remission is
 the weight loss, and carbohydrate restriction is one *route* to it, best chosen for sustainable adherence
 [@lean2018]. For weight itself it beats a balanced-carbohydrate diet
 by only about **1 kg**, judged not clinically important, and part of even that is reversible water
-[@naude2022]. And it carries a route-specific
+[@naude2022].
+
+And it carries a route-specific
 harm and contraindication: LDL tends to rise (\~0.14 mmol/L at 12 months), and the source flags caution
 for people with lipid disorders and atherogenic-lipoprotein hyper-response — for the metabolically
 healthy it is largely needless. No mainstream body positively recommends any macronutrient-defined diet;
@@ -159,7 +179,9 @@ hitting a sugar percentage.
 cohort evidence and issue opposite instructions: limit it (a precautionary reading of a "probable"
 colorectal-cancer cause) versus continue current intake (the identical evidence graded low-certainty,
 with a realistic cut averting only a handful of cancer deaths per 1000 over a lifetime) [EXTRACTED
-(WCRF - Meat Fish and Dairy Products and Cancer 2018) chunk 02] [@nutrirecs2019]. The disagreement is decision-theoretic, not empirical — how much
+(WCRF - Meat Fish and Dairy Products and Cancer 2018) chunk 02] [@nutrirecs2019].
+
+The disagreement is decision-theoretic, not empirical — how much
 proof a public recommendation needs, and whose values set the threshold — so the wiki picks neither
 side: report the small absolute effect and the low certainty, keep the precautionary option available
 for someone who weights a possible cancer cause heavily, and let the weighting be the person's. Processed

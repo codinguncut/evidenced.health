@@ -86,12 +86,16 @@ The impressive fibre numbers — highest-versus-lowest intake tracking roughly *
 all-cause mortality (RR 0.85), coronary heart disease (0.76), type 2 diabetes (0.84) and colorectal
 cancer (0.84) — are observational, on self-reported intake, so they carry the healthy-user confound
 and dietary measurement error ([[Measurement Error in Dietary Assessment]]).
-[@reynolds2019] The RCT-grade effects
-(fibre lowers LDL, bodyweight, blood pressure) are real, causal, and small — Brown's meta-analysis of
-67 trials found soluble fibre makes «only a small contribution» to lowering cholesterol.
-[@brown1999] The practical
-upshot: reach \~25-30 g/day of fibre from food, expect a genuine supporting lever, and do not expect a
-miracle — and note that *feed your microbiome* and *eat enough fibre* are the same instruction.
+[@reynolds2019]
+
+The RCT-grade effects (fibre lowers LDL, bodyweight, blood pressure) are real, causal, and small —
+Brown's meta-analysis of 67 trials found soluble fibre makes «only a small contribution» to lowering
+cholesterol.
+[@brown1999]
+
+The practical upshot: reach \~25-30 g/day of fibre from food, expect a genuine supporting lever, and do
+not expect a miracle — and note that *feed your microbiome* and *eat enough fibre* are the same
+instruction.
 
 ## Probiotics: strain- and indication-specific, not a general tonic
 

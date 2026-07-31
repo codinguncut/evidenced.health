@@ -2,7 +2,7 @@
 type: hub
 question: How is a body of evidence judged, and how does a judgement become a recommendation?
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-31
 ---
 
 Navigator for the `evidence-appraisal` cluster — the machinery for moving from a body of studies to a
@@ -34,6 +34,13 @@ graded recommendation. Nucleus: [[Certainty of Evidence vs Strength of Recommend
   recommendations are not dictates
 - [[Baseline Risk and the Relative-Absolute Split]] — why one relative effect can serve everyone
   while the recommendation still differs by group; the arithmetic-vs-effect-modification distinction
+- [[Net Benefit and the USPSTF Recommendation Grid]] — the **non-GRADE** alternative: certainty x
+  magnitude of net benefit -> A/B/C/D/I, no strength axis; values live in grade C, financial cost is
+  excluded
+- [[The Insufficient-Evidence Statement]] — the fourth evidence-state operationalized ("I" vs "D");
+  low certainty forecloses a graded recommendation in USPSTF, not in GRADE
+- [[GRADE vs USPSTF - Two Appraisal Systems]] — the two instruments by parameter table: where they
+  agree (input discipline) and where the output architecture diverges
 
 ## Applied — a guideline read through this machinery
 
@@ -43,6 +50,27 @@ graded recommendation. Nucleus: [[Certainty of Evidence vs Strength of Recommend
   ~~**internally inconsistent certainty ratings** under the guideline's strongest replacement claim.~~
   **RETRACTED at gate 1 (2026-07-26)** — the ratings are per-design (Reynolds observational vs Hooper
   RCT), which is correct GRADE practice. See the page's `[REVIEW]` marker.
+
+## Research-process integrity — why a published estimate is less trustworthy than its p-value
+
+The mechanisms that discount a finding *upstream* of the appraisal grid — how the study was made,
+selected, and analysed (NASEM 2019). Appraisal machinery, not domain findings.
+
+- [[Reproducibility vs Replicability]] — one loose word, three distinct objects (same-data recompute /
+  new-study redo / holds-elsewhere); the asymmetry (reproducibility expected, replicability not); and
+  reproducible is not correct
+- [[Sources of Non-Replicability]] — the taxonomy: inherent/helpful variability vs avoidable defects
+  (publication bias, p-hacking, incentives, errors, incomplete reporting; fraud rare); the aggregate
+  "rate" is not a health grade
+- [[Publication Bias and Selective Reporting]] — the significance filter biases the *literature* not
+  the study; effect-size inflation / winner's curse (published originals over-estimate; replications
+  shrink)
+- [[P-Hacking and Researcher Degrees of Freedom]] — analytic flexibility within one study (p-hacking,
+  HARKing, multiplicity, garden of forking paths); the p-value does not invert; precision is not
+  accuracy
+- [[Confidence in Science Without a Replication Crisis]] — NASEM's measured stance: non-replication is
+  expected, the aggregate rate unknowable, confidence comes from convergence of independent methods;
+  the symmetric single-study caution
 
 ## Checking someone else's appraisal
 

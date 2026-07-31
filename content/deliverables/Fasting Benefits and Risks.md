@@ -18,10 +18,13 @@ evidence for a beneficial effect of time-restricted eating over regular caloric 
 outcome it measured (liver fat) [@easl2024].
 For the alternate-day and 5:2 schedules there is no held head-to-head trial, so their equivalence to
 continuous restriction is a directional expectation here, not a measured result (the gap is named below).
+
 What the schedule *does* add, reliably, is a set of **specific harms the continuous route avoids**:
 muscle loss from a careless short window, and — in the prolonged (>=36 h) arm — hypoglycaemia on
 glucose-lowering medication, refeeding risk, and plausibly worsened fatty liver. The celebrated
-longevity payoff (autophagy) is **insufficient evidence in humans**, not a demonstrated benefit. So for
+longevity payoff (autophagy) is **insufficient evidence in humans**, not a demonstrated benefit.
+
+So for
 most people the honest framing is: fasting is a legitimate *adherence vehicle* for a deficit if it is
 the deficit you can actually keep — and it ranks as a small, heavily-marketed lever whose prominence is
 an artifact of attention, not of effect size. The prolonged arm is a different object: for identifiable

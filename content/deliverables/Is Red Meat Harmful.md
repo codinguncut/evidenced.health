@@ -11,10 +11,14 @@ self_critiqued: 2026-07-30
 
 **The short answer: "red meat" is not one thing, and once you split it, the harm is smaller and
 narrower than the headlines imply — but it is not zero, and where it is real it sits in *processed*
-meat and in cooking char, not in a lean, gently-cooked steak.** For an individual, red meat is a
+meat and in cooking char, not in a lean, gently-cooked steak.**
+
+For an individual, red meat is a
 **small lever**: the best-measured hard-outcome effect anywhere in this evidence base is a modest one,
 reducing red meat has **never been shown to measurably reduce dying**, and the whole question ranks far
-below smoking, adiposity, and inactivity. The defensible move is not "banish red meat" and not "eat all
+below smoking, adiposity, and inactivity.
+
+The defensible move is not "banish red meat" and not "eat all
 you like" — it is *prefer unprocessed over processed, keep the char off, choose leaner cuts, and mind
 what replaces it.* Everything below earns that verdict from the evidence, and tests it against both the
 "red meat is demonized" framing and the orthodox "red meat causes disease" position by the same
@@ -304,9 +308,13 @@ Red meat is the exposure where non-health objectives push guidance hardest. ESC'
 eat less meat is explicitly justified "from both a health and an environmental point of view"
 [@esc2021], and NNR (whose 2023 edition integrates
 environmental aspects by design) sets its meat ceilings partly to limit environmental impact
-[@nnr2023]. **These are real reasons and they are the
+[@nnr2023].
+
+**These are real reasons and they are the
 buyer's to weigh — but they are not health findings, and this appraisal neither prices them into the
-health verdict nor argues against them.** Where guidance blends the two in adjacent sentences without
+health verdict nor argues against them.**
+
+Where guidance blends the two in adjacent sentences without
 saying how much weight each carries, that is worth noticing: you cannot tell how much of "eat less red
 meat" rests on the (small) health signal and how much on the environmental one, and the sources rarely
 say. Keep the axes separate; the health axis, kept clean, is what this document reports.

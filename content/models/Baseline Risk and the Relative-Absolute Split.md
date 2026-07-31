@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -14,7 +14,7 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-25
 self_critiqued: 2026-07-28
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## The decomposition
@@ -337,5 +337,33 @@ supply them.** That conversion is now a small, well-defined job rather than an o
 
 **Type: F.** ESC refines a claim the page already held from GRADE by attaching the practical
 consequence; it does not independently establish the decomposition. No `[E-independent]`.
+
+## A guideline body that makes ARR-over-RRR a stated rule `[2026-07-31, USPSTF]`
+
+The *Failure modes* list names **reporting relative effects alone** as the core defect. USPSTF codifies
+the opposite as policy:
+
+> «The Task Force examines both relative risk reduction (RRR) and absolute risk reduction (ARR) from
+> intervention studies. It generally prioritizes ARR over RRR. That is, it places less emphasis on a
+> large RRR in situations of low ARR; it remains interested in an intervention with a low RRR if its ARR
+> is high. Even a low ARR may be important for critical outcomes (e.g., mortality).»
+> [@uspstfmanual2022]
+
+**This is not just a preference — the absolute frame is structural to USPSTF's whole instrument.** Its
+graded quantity is *net benefit* «as implemented in a general primary care population», an absolute
+per-1000-persons figure; its outcomes tables are standardized «per 1,000 persons targeted», 10-year
+horizon, with NNT/NNS/NNH «in outcome terms»; and «The absolute benefit from a service is often greater
+for persons at increased risk than for those at lower risk». So this page's decomposition is not merely
+endorsed by USPSTF — it is the load-bearing arithmetic of the recommendation grid.
+-> [[Net Benefit and the USPSTF Recommendation Grid]]
+[@uspstfmanual2022]
+
+**A device worth stealing — the conceptual confidence interval.** Where direct evidence is thin, USPSTF
+places «conceptual upper or lower bounds on the magnitude of benefit»: a trial in high-risk male smokers
+run by expert centres is treated as the *upper bound* for a general population, and extrapolation to
+lower-risk groups sets a *lower bound*. That is baseline-risk reasoning used to **bound** an absolute
+effect qualitatively when the numbers to compute it are missing — a partial answer to the owed route-(a)
+illustration, though still not a worked pair of numbers.
+[@uspstfmanual2022]
 
 ## References

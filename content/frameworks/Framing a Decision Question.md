@@ -2,8 +2,8 @@
 type: framework
 question: What must be specified before a question about an intervention can be answered at all?
 aliases: [PICO, Framing the Question, Question Formulation, Comparator Specification, PICOTS]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org)]
-sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, WHO - Saturated and Trans Fatty Acid Intake 2023]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 self_critiqued: 2026-07-27
 relationships:
@@ -12,7 +12,7 @@ relationships:
     - Rating Outcome Importance
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Ordinary framing
@@ -164,5 +164,34 @@ question-framing time — before any evidence was graded. **So the guideline's o
 a step in the causal chain rather than an endpoint**, and it is then graded **High** while every
 endpoint it stands for is graded lower. **The surrogate status was declared in advance and the
 certainty inversion arrived anyway** -> [[Surrogate Outcomes]].
+
+## A body that USES the extensions GRADE rejects — but for a different object `[2026-07-31, USPSTF]`
+
+GRADE declines the PICOTS extensions as «neither helpful nor necessary». **USPSTF uses PICOTS
+explicitly** — «the PICOTS (population, intervention, comparator, outcome, timing, and setting)
+framework» — to scope its decision models, and structures its evidence reviews around an **analytic
+framework + key questions**: a graphical logic model whose arrows are the questions, «a logic model of
+the minimal, sequential clinical assumptions that must be verified using empirical evidence in order to
+determine the net benefit of a preventive service». [@uspstfmanual2022]
+
+**Is this a tension with GRADE? Run the not-joined check — and it fires (different object).** GRADE
+rejects PICOTS as a *recommendation-question* template (T is carried by specifying the outcome, S by the
+population). USPSTF uses PICOTS to scope a *decision model*, and its review-question structure is the
+analytic framework, not PICOTS at all. **So the two are answering different framing tasks:** GRADE
+disciplines the form of one recommendation question; USPSTF's analytic framework decomposes a whole
+preventive-service pathway into a *chain* of linked key questions (screening accuracy -> treatment
+efficacy -> intermediate->health linkage), each its own review. **Recorded as a distinction, not a
+`[[tension]]`** — the disagreement about T and S is real at the label level but dissolves once the object
+each framework governs is named.
+
+**What USPSTF adds that GRADE's single-question PICO does not carry:** the analytic framework makes the
+**indirect-evidence chain explicit and auditable** — an «evidence map» where an empty linkage is a
+visible gap, and «a linkage in the chain of evidence for screening usually includes key questions about
+the accuracy of screening tests, the efficacy and harms of early treatment, and the association between
+changes in intermediate measures... and changes in health outcomes». This is the multi-step version of
+this page's comparator discipline: for a screening/prevention decision, the question is not one PICO but
+a *graph* of them, and net benefit cannot be read off until the chain closes.
+-> [[Net Benefit and the USPSTF Recommendation Grid]], [[Surrogate Outcomes]]
+[@uspstfmanual2022]
 
 ## References

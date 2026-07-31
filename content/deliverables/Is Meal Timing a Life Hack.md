@@ -90,15 +90,19 @@ aligned to the body clock helps, and **late** eating tends to be worse
 effect distinct from *eat less* — the one hypothesis worth keeping separate.
 
 **But hold the enthusiasm.** This rests on **eight prediabetic men, five weeks, surrogate markers with no
-hard outcome and no weight change**. Three caveats bite: (1) the trial did not match fasting duration
-before testing — participants had fasted 18 hours in the eTRF arm versus 12 in the control — which biases
-*against* the insulin finding (so that one is probably real) but may *manufacture* the one adverse result,
-a 57 mg/dL rise in fasting triglycerides likely reflecting lipolysis from the longer fast
-[@sutton2018]. (2) Everything measured is a
-surrogate — a marker that stands in for an outcome in the evidence, not the outcome itself; a favourable
-marker is a legitimate *target* only if its transmission to something patient-important is itself
-evidenced, which it is not here ([[Surrogate Outcomes]]). (3) Men-only, prediabetic, and glucose and BP
-measured only in the morning.
+hard outcome and no weight change**. Three caveats bite:
+
+- (1) the trial did not match fasting duration
+  before testing — participants had fasted 18 hours in the eTRF arm versus 12 in the control — which biases
+  *against* the insulin finding (so that one is probably real) but may *manufacture* the one adverse result,
+  a 57 mg/dL rise in fasting triglycerides likely reflecting lipolysis from the longer fast
+  [@sutton2018].
+- (2) Everything measured is a
+  surrogate — a marker that stands in for an outcome in the evidence, not the outcome itself; a favourable
+  marker is a legitimate *target* only if its transmission to something patient-important is itself
+  evidenced, which it is not here ([[Surrogate Outcomes]]).
+- (3) Men-only, prediabetic, and glucose and BP
+  measured only in the morning.
 
 **Verdict: a real but small weight-independent signal from eating *early* — on surrogates only, from one
 tiny trial.** This is the honest exception to *timing does nothing.* It is not a licence to sell early TRE
@@ -110,7 +114,9 @@ as proven.
 1.70 kg the in-person TRE group lost, «approximately 65% of weight lost» was lean mass
 [@lowe2020] — against a normal 20-30% during weight
 loss. Appendicular (limb) lean mass showed a significant between-group deficit (−0.47 kg, P=.009), while
-fat mass did not differ between arms at all [@lowe2020]. The likely reason: an ad-libitum short window cuts total intake and, with it, **protein** — which is
+fat mass did not differ between arms at all [@lowe2020].
+
+The likely reason: an ad-libitum short window cuts total intake and, with it, **protein** — which is
 eaten mostly at meals — and the fix is to raise meal frequency or protein inside the window
 [@lowe2020]. The authors flag this as «a caution for
 patient populations at risk for sarcopenia» [@lowe2020]. So a late/short window can trade the fat-loss you wanted for muscle you did not
@@ -118,15 +124,20 @@ patient populations at risk for sarcopenia» [@lowe2020]. So a late/short window
 
 ## Even if it did cause weight loss, weight loss by lifestyle is not a proven heart lever
 
-A second layer of honesty: suppose TRE *did* reliably drop weight. Would that prevent heart attacks? The
-largest, longest randomized trial of lifestyle weight loss (Look AHEAD, 5,145 adults with type 2 diabetes)
+A second layer of honesty: suppose TRE *did* reliably drop weight. Would that prevent heart attacks?
+
+The largest, longest randomized trial of lifestyle weight loss (Look AHEAD, 5,145 adults with type 2 diabetes)
 was stopped early for futility — the cardiovascular composite came in at **HR 0.95 (95% CI 0.83-1.09)**,
 null, despite greater weight loss and better risk factors in the intervention arm
-[@look2013]. A 54-trial meta-analysis whose pool
+[@look2013].
+
+A 54-trial meta-analysis whose pool
 *includes* Look AHEAD (so it is consistent with, not independent corroboration of, the CV-null) reaches
 the same cardiovascular-events null (RR 0.93) and adds — across its other populations — a modest cut in
 **all-cause mortality (RR 0.82)** that is *not* routed through the heart
-[@ma2017]. The point for meal timing: a protocol marketed
+[@ma2017].
+
+The point for meal timing: a protocol marketed
 as a weight lever may deliver neither the weight loss (TREAT) nor, even if it did, a reliable
 cardiovascular-event reduction via the lifestyle route ([[Does Weight Loss Reduce Cardiovascular Events]]).
 Weight loss stays strongly indicated for what it *does* move — glycaemic control, diabetes remission, liver

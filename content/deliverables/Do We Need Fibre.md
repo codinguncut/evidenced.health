@@ -14,10 +14,14 @@ effect.** Eating enough of it is worth doing — but *eat more fibre* is a suppo
 and it is not one intervention. Soluble/viscous fibre (oats, psyllium, pulses), insoluble/bulking fibre
 (wheat bran, cellulose) and fermentable fibre (the substrate your gut bacteria live on) act by different
 mechanisms on different outcomes, so the honest answer is given per fibre-type per outcome, never as a
-single *eat more fibre* number. The big impressive figures — 15-30% lower risk of dying, of heart disease,
+single *eat more fibre* number.
+
+The big impressive figures — 15-30% lower risk of dying, of heart disease,
 of diabetes, of colorectal cancer — are observational, from cohorts of self-reported eaters. Where fibre is
 tested as a dosable ingredient in randomised trials, its measured causal effect is genuine but small: a few
-tenths of a mmol/L off LDL cholesterol, a fraction of a kilogram off body weight. Reasonable target: reach
+tenths of a mmol/L off LDL cholesterol, a fraction of a kilogram off body weight.
+
+Reasonable target: reach
 roughly 25-30 g/day from food, mostly whole grains, legumes and fruit/veg; more is fine and probably
 slightly better. Do not expect a miracle, and do not treat fibre as costless — the downsides are minor but
 real and depend on dose and preparation.
@@ -81,11 +85,15 @@ This is the one place fibre's effect is trial-grade, because a soluble fibre can
 Brown's meta-analysis of 67 controlled feeding trials pins viscous/soluble fibre (oat, psyllium, pectin,
 guar) to an LDL drop of about **-0.057 mmol/L per gram** in the practical 2-10 g/day range — fibre *type*
 was not a predictor once dose was accounted for, so it is the viscosity, not the source, doing the work.
-[@brown1999] The mechanism is
+[@brown1999]
+
+The mechanism is
 bile-acid sequestration: viscous fibre binds bile acids (cholesterol-rich digestive fluid) in the gut so
 the liver pulls cholesterol from the blood to make more. Brown's own verdict is the honest headline:
 «Increasing soluble fiber can make only a small contribution to dietary therapy to lower cholesterol.»
-[@brown1999] At a realistic 3 g of
+[@brown1999]
+
+At a realistic 3 g of
 oat soluble fibre, that is under 0.13 mmol/L — a legitimate adjunct, dwarfed by the saturated-fat-
 replacement and drug levers ([[Saturated Fat Intake and Replacement]]). A daily portion of pulses lands in
 the same range: ESC reports «A single portion of pulses (legumes) a day lowers LDL-C by 0.2 mmol/L and is

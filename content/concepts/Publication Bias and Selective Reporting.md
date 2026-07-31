@@ -2,8 +2,8 @@
 type: concept
 question: How does the filter deciding which results get published make a body of literature overstate an effect — and how much should a reader discount for it?
 aliases: [Publication Bias, Selective Reporting, Selective Outcome Reporting, File-Drawer Problem, Effect-Size Inflation, Winner's Curse, Small-Study Effect]
-authors: [National Academies of Sciences Engineering and Medicine (org)]
-sources: [NASEM - Reproducibility and Replicability in Science 2019]
+authors: [National Academies of Sciences Engineering and Medicine (org); Page, Matthew J; Higgins, Julian PT; Sterne, Jonathan AC]
+sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
@@ -80,5 +80,52 @@ published a positive" pattern is the winner's-curse he formalizes
 -> [[Most Published Findings Are False (PPV of a Field)]]. NASEM **institutionalizes and itemizes** it
 rather than re-deriving it independently (F-refinement, same lineage — NASEM cites Ioannidis 2005),
 so this is not type-E corroboration and adds no independent-backing confidence.]]`
+
+## From concept to assessable procedure — Cochrane Ch 13 operationalizes detection `[2026-07-31]`
+
+NASEM (above) gives the *concept*; Cochrane's Chapter 13 makes it an **assessable procedure** — how a
+reviewer detects and grades missing-result bias. **F-refinement, not a second concept** — the composite
+beats either alone: NASEM says the literature is filtered, Cochrane says how to catch the filter.
+
+**Two mechanisms, and the within-study one is quantifiable.** Cochrane splits the bias into whole-study
+non-publication vs within-study selective non-reporting of specific results (prefers the term «non-reporting
+bias»), and notes the within-study kind is tractable because its denominator is known: «the impact of
+selective non-reporting or under-reporting of results can be quantified more easily than the impact of
+selective non-publication of an unknown number of studies».
+[@cochranehandbook2024]
+
+**The primary, most-valuable procedure is protocol/registry-to-report comparison — NOT funnel plots.**
+«If study plans are available (e.g. in a trials register, protocol or statistical analysis plan),
+details of outcomes that were assessed can be compared with those for which results are available.»
+[@cochranehandbook2024] Supporting machinery: ClinicalTrials.gov
+results fields, the ORBIT classification of *why* a result is missing (benign vs suppressed), a
+study×meta-analysis availability matrix, and **ROB-ME** — «the first structured approach for assessing
+the risk of bias that arises when entire studies, or particular results within studies, are missing…
+because of the P value, magnitude or direction» (8 signalling questions → low/some-concerns/high).
+[@cochranehandbook2024]
+
+**Funnel plots are DEMOTED to a caveated fallback — a correction to common folk practice.**
+
+- «funnel plot asymmetry should not be considered to be diagnostic for the presence of non-reporting
+  bias» [@cochranehandbook2024];
+- «the funnel plot should be seen as a generic means of displaying **small-study effects**»
+  [@cochranehandbook2024] — whose competing causes are
+  true heterogeneity, poor small-study methodological quality, chance, and artefact, not only
+  non-reporting bias;
+- tests apply «only when there are at least 10 studies included in the meta-analysis» — and only \~28%
+  of meta-analyses have that many, so the test is inapplicable to most.
+  [@cochranehandbook2024]
+
+**Direction — corroborates the held page (E-line, not a sources argument for independence).** «selective
+dissemination of study reports and results leads to an over-estimate of the benefits and under-estimate
+of the harms». [@cochranehandbook2024] Same direction as
+NASEM's effect-size-inflation finding; Cochrane and NASEM are **not independent routes** (both rest on
+the same meta-research literature — Sterne, Egger, Ioannidis appear in both), so no `[E-independent]`.
+
+**Decision consequence for reading a nutrition meta-analysis:** an asymmetric funnel plot is *not*
+proof of publication bias — ask whether the review compared registered protocols to reports (the strong
+check), and treat funnel asymmetry as a small-study-effects flag with several explanations.
+→ [[Synthesis Without Meta-Analysis]], [[Risk of Bias Assessment Tools]] (domain 5 covers *within-study*
+result selection; cross-study missingness is this page / ROB-ME).
 
 ## References

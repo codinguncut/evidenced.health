@@ -79,4 +79,7 @@ Not all evidence is equal, and we try not to pretend otherwise.
   **not** whether following it made anyone better off. A clean, well-sourced page can still be wrong about
   the world. Nothing here has been tested against real outcomes, and we don't pretend otherwise.
 
+For how the guide is made, how sources are chosen, and how to challenge it, see
+[Can you trust this guide?](trust)
+
 [← Back to the guides](.)

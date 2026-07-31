@@ -248,4 +248,14 @@ evidence, not a threshold. Agreement with better warrant, not contrarianism.]]`
 - **A general appraisal of health effects only** — decomposed by fibre-type and outcome, with downsides. It
   is not a supplement-vs-food ruling and not a fibre-gram target for any individual.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | What does the evidence show about dietary fibre — how large are its effects, on which outcomes, how certain, and what are its downsides, and does the soluble/insoluble split change the answer? |
+> | **Evidence included** | 7 sources — 4 gold, 1 high, 2 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 2 non-gold source(s) feed this page: Valdes (narrative review); Petroski (narrative review). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Do%20We%20Need%20Fibre.md) |
+
 ## References

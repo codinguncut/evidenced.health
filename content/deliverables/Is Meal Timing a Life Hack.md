@@ -219,4 +219,14 @@ useful; *the fasting window fixed my metabolism* is not supported.
   n=8 controlled) plus the weight-loss-outcome frame. No hard outcomes, no long-term data, no trajectory
   measurement anywhere. `confidence: low`.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | Is meal-timing (TRE, OMAD, intermittent fasting, breakfast-skipping) an independent health lever beyond the calorie reduction it usually causes, and how good is the evidence? |
+> | **Evidence included** | 4 sources — 2 high, 2 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 2 non-gold source(s) feed this page: Lowe (RCT); Sutton (RCT). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Meal%20Timing%20a%20Life%20Hack.md) |
+
 ## References

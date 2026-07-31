@@ -258,4 +258,14 @@ finding is the mismatch itself.
   (the [AWAITS] tags); the definitive risk ledger waits on that ingest, and the current cut states those
   endpoints as gaps rather than quantified harms.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum? |
+> | **Evidence included** | 9 sources — 1 gold, 6 high, 1 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 1 non-gold source(s) feed this page: Lowe (RCT). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Do%20the%20Benefits%20Outweigh%20the%20Risks.md) |
+
 ## References

@@ -232,4 +232,14 @@ are what the cut is for; each is routed for acquisition.
   naming, out loud, how thin the elderly-specific weight-loss and protein-dosing evidence actually is,
   and in refusing to assert an elevated elderly protein target the fabric does not hold.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | _(not set)_ |
+> | **Evidence included** | 23 sources — 11 gold, 11 high, 1 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 1 non-gold source(s) feed this page: Lowe (RCT). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+
 ## References

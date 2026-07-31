@@ -15,7 +15,7 @@ relationships:
     - Antinutrients in Plant Foods
     - Protein Quality and the DIAAS Score
 created: 2026-07-27
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -355,5 +355,10 @@ and notes the gap «could reflect the high fibre content of whole grains» — i
 page, now with a magnitude on both sides -> [[Dietary Fibre and Health]]. It also sharpens the target: if
 fibre is the active fraction, *fibre content* (not the word "whole grain") is what to steer by.
 `[@reynolds2019]`
+
+
+## Appraising this observational evidence — the instrument `[2026-07-31]`
+
+The whole-grain benefit is **cohort-only**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal tool, with domain 1 (confounding) and domain 3 (classification — what counts as “whole grain”) the likely caps. Re-appraisal candidate on the RoB-tools page; not re-graded here.
 
 ## References

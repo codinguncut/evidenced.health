@@ -3,7 +3,7 @@ type: diagnostic
 question: A document says it used GRADE — how do you check whether it did?
 aliases: [GRADE Conformance, Criteria for Claiming GRADE, Modified GRADE, GRADE Checklist]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, USPSTF - Procedure Manual 2022]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -12,7 +12,7 @@ relationships:
     - Rating Outcome Importance
 created: 2026-07-25
 updated: 2026-07-31
-self_critiqued: 2026-07-30
+self_critiqued: 2026-07-31
 ---
 
 ## Why it matters
@@ -198,5 +198,20 @@ A-through-I output, not Grading of Recommendations Assessment, Development and E
 means *the GRADE method*. A body can (a) use GRADE and claim it (run the check), (b) use a different
 system and say so (audit against that system — USPSTF), or (c) use the token "GRADE" for something else
 entirely (a naming collision, not a method claim). Only (a) is this page's job.
+
+## This checks GRADE conformance; the SR PROCESS has its own standard now `[2026-07-31, IOM]`
+
+This page audits whether a body that *claims GRADE* conformed — a check on the **certainty/strength
+grading** step. It says nothing about whether the underlying **systematic review** was trustworthy: the
+search, screening, extraction, and synthesis that produced the body of evidence GRADE then grades. That
+is a different object with its own admissible institutional bar —
+[[What a Trustworthy Systematic Review Requires]] (IOM 2011, 21 standards / 82 elements).
+
+**The two audits compose and do not overlap.** A recommendation can conform to GRADE (this page's seven
+criteria) while resting on an SR that failed the IOM search or dual-screening standards — a
+GRADE-conformant grade computed over an untrustworthy evidence base. Conversely a rigorous SR can be
+graded by a non-GRADE system (USPSTF) and pass the IOM bar while this page's check does not apply. **Run
+both:** IOM for the review process, this page for the GRADE claim. Same shared lineage (IOM built its
+Chapter 4 body-of-evidence standard *from* GRADE), so their agreement is F, not independent corroboration.
 
 ## References

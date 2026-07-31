@@ -252,4 +252,14 @@ from directional to quantitative is **not held**, named here so it can be acquir
 - **Health axis only.** Where fasting carries load on any non-health axis (cost, convenience, cultural
   or religious practice), that trade-off exists and is the person's to weigh; it is not priced here.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | For an adult considering fasting, what does the eating schedule add — benefit or harm — beyond the energy deficit it creates, and for whom is a prolonged (>=36 h) fast a net harm? |
+> | **Evidence included** | 7 sources — 2 gold, 3 high, 2 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 2 non-gold source(s) feed this page: Lowe (RCT); Sutton (RCT). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fasting%20Benefits%20and%20Risks.md) |
+
 ## References

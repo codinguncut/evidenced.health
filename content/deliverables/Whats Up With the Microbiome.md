@@ -242,4 +242,14 @@ divergence where it oversells (the general tonic).
 - **One axis.** The wiki holds a health axis only. It says nothing about the cost, marketing, or
   ecology of the *gut health* industry beyond whether its claims move a health outcome.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | Which gut-microbiome claims and interventions change a patient-important outcome, which are mechanistically plausible but unproven, and which are effectively unfalsifiable? |
+> | **Evidence included** | 5 sources — 2 gold, 1 high, 2 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 2 non-gold source(s) feed this page: Valdes (narrative review); Suez (RCT). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Whats%20Up%20With%20the%20Microbiome.md) |
+
 ## References

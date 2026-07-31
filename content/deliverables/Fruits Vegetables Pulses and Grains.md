@@ -307,4 +307,14 @@ These are stated plainly because the ceiling is a finding -> [[Whole Grains Refi
 - **Health axis only.** Cost, environment and food access ride along with these choices; they are real
   and they are the buyer's to weigh, but they are named here and not priced into the health verdict.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | Among fruits, vegetables, pulses and grains, what does the evidence show about net benefit and net harm on patient-important outcomes — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? |
+> | **Evidence included** | 12 sources — 6 gold, 3 high, 3 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 3 non-gold source(s) feed this page: Petroski (narrative review); Valdes (narrative review); Dehghan (cohort). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fruits%20Vegetables%20Pulses%20and%20Grains.md) |
+
 ## References

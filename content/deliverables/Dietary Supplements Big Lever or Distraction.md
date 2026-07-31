@@ -403,4 +403,40 @@ not invented numbers (the gaps are tracked against the nucleus,
   mislabelled dose are a supplement-specific harm vector that exists regardless of whether the compound's
   own evidence is favourable.
 
+ — how to weigh this page
+> **Question** — For dietary supplements, where and for whom is there an effect on hard outcomes, and
+> how do they rank against the big rocks?
+>
+> **Applies to** — Generally-nourished adults with no diagnosed deficiency.
+>
+> **Priority outcomes** — Mortality, cancer, cardiovascular disease, fractures (patient-important).
+>
+> **Evidence included** — 13 sources: gold guidelines (USPSTF, WGO, SACN) plus FAO and Reynolds SR;
+> landmark RCTs (VITAL vitamin-D / omega-3 / fractures, CARET beta-carotene); meta-analyses
+> (Bjelakovic antioxidants-mortality, Morton protein, Brown fibre). A strong RCT + meta-analysis
+> backbone.
+>
+> **Overall certainty** — **Medium** (see [[Rating Certainty of Evidence]]).
+>
+> **Main uncertainties** — Null benefit findings are in *replete* people and may not transport to
+> deficiency; the harm signal is specific to beta-carotene in smokers; the long tail is *insufficient
+> evidence*, kept apart from *no effect*.
+>
+> **Source-selection note** — One non-gold source (Valdes, a narrative review) feeds only the
+> peripheral probiotic thread; the core benefit/harm claims rest on gold guidelines plus landmark RCTs
+> (VITAL, CARET) and meta-analyses (Bjelakovic).
+>
+> **Last updated** — 2026-07-30 · **Independently reviewed:** No ·
+> [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md)
+
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
+> | **Evidence included** | 13 sources — 5 gold, 7 high, 1 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 1 non-gold source(s) feed this page: Valdes (narrative review). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |
+
 ## References

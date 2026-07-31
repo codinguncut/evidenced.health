@@ -223,4 +223,14 @@ Which metrics matter most depends on the individual: a lean,
 active 25-year-old and a drifting-median metabolic adult need different emphases. The tiers are the
 starting default, not a fixed prescription — the weighting is done per case when the fabric is applied.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | What is the smallest set of readily-capturable health metrics that places a person in the strata the fabric stratifies on, ordered by decision-impact x capturability? |
+> | **Evidence included** | 13 sources — 4 gold, 6 high, 3 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 3 non-gold source(s) feed this page: Dehghan (cohort); Kodama (meta-analysis); Ross (narrative review). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Metrics%20for%20Targeted%20Health%20Guidance.md) |
+
 ## References

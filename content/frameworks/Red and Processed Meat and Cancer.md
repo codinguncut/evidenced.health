@@ -7,7 +7,7 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: cardiometabolic-exposures
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-30
 relationships:
   related_to:
@@ -119,5 +119,10 @@ has a very small causal effect" — the disagreement is about certainty and magn
   their divergence is in appraisal and standpoint, not in separate data (no [E-independent]).
 - Coherence, not validity (R1): the associations are what the cohorts report; whether reducing meat
   reduces a given person's cancer is not established by either.
+
+
+## Appraising this observational evidence — the instrument `[2026-07-31]`
+
+The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here.
 
 ## References

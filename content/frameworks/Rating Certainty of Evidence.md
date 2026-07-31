@@ -2,10 +2,10 @@
 type: framework
 question: How is confidence in a body of evidence rated, and what can raise or lower it?
 aliases: [Quality of Evidence, Certainty of Evidence, GRADE Rating, Five Downgrade Factors, Three Upgrade Factors, Evidence Grading]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; Higgins, Julian PT; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org)]
+sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022, Cochrane - Handbook for Systematic Reviews 6.5, NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
-self_critiqued: 2026-07-27
+self_critiqued: 2026-07-31
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -409,5 +409,62 @@ distinguish them. `-> [[Was GRADE Actually Used]]`
   cut before its parenthetical, which is the part naming *what* needs defining. Fifth such catch in
   this session, all self-inflicted; the checker continues to outperform care.
 - **Adjudication check:** no challenge or standing-challenge row scored in this pass.
+
+## How the study-level risk-of-bias verdict FEEDS this domain — the crosswalk `[2026-07-31]`
+
+The "risk of bias (study limitations)" downgrade factor above is stated but not operationalized: *how*
+does a per-study risk-of-bias judgement become an across-study certainty downgrade? Cochrane Ch 14
+supplies the mapping (Cochrane **adopts GRADE** — Ch 14 authored by Schünemann & Guyatt, GRADE's own
+originators — so this is **shared-lineage F-refinement, not independent type-E corroboration**). The
+instruments are [[Risk of Bias Assessment Tools]] (RoB 2 for RCTs, ROBINS-I for observational studies).
+
+The verdict feeds the domain directly — «These assessments should feed directly into this GRADE
+domain» — via an explicit crosswalk:
+
+| Study-level RoB verdict | GRADE study-limitations downgrade |
+|---|---|
+| Low risk of bias | no limitation |
+| Some concerns (RoB 2) | no limitation OR serious limitation |
+| High risk of bias | serious OR very serious limitation |
+| Critical (ROBINS-I) | extremely serious limitations |
+
+[@cochranehandbook2024]
+
+**Two things this pins that the abstract factor left open.**
+
+1. **High certainty requires the WEIGHT of evidence to be low-RoB, not merely some of it.** «A rating
+   of high certainty evidence can be achieved only when most evidence comes from studies that met the
+   criteria for low risk of bias». [@cochranehandbook2024]
+   This is the information-size weighting of principle 2 in the *Aggregating risk of bias* section
+   above, made concrete: a few pristine trials do not lift a body dominated by high-RoB studies.
+2. **The ROBINS-I "start high, downgrade two" harmonization.** «when using the… ROBINS-I tool… all
+   studies may start as high certainty of the evidence» — reconciled with GRADE's "observational starts
+   low" because «a body of evidence from NRSI should generally be downgraded by two levels due to the
+   inherent risk of bias… namely confounding and selection bias».
+   [@cochranehandbook2024] Same endpoint as
+   [[Upgrading Observational Evidence]]'s low starting point; the difference is procedural — ROBINS-I
+   makes the two-level confounding penalty an explicit, justifiable move, and *not* downgrading needs
+   «transparent and detailed justification».
+
+**Reading consequence:** a certainty grade is only as trustworthy as the RoB tool underneath it. A
+"moderate" built from ROBINS-I assessments that never seriously probed confounding is a moderate on
+paper only — which is exactly where the held nutrition-cohort pages sit
+(→ [[Risk of Bias Assessment Tools]], re-appraisal candidates).
+
+## GRADE's eight factors are embedded in the IOM SR standard — shared lineage, not corroboration `[2026-07-31, IOM]`
+
+The IOM 2011 systematic-review standard mandates this exact per-outcome assessment as a *required
+element*. Standard 4.1.1: «For each outcome, systematically assess... Risk of bias, Consistency,
+Precision, Directness, Reporting bias» — GRADE's five downgrade factors — and 4.1.2 adds, for
+observational bodies, «Dose-response association, Plausible confounding that would change the observed
+effect, Strength of association» — GRADE's three upgrade factors.
+[@nasem2011fww]
+
+**This is NOT an independent second body reaching GRADE's factor set — it is GRADE, adopted.** The IOM
+report names GRADE «a primary source for Chapter 4» and its Box 4-2 is «Key Concepts Used in the GRADE
+Approach». So IOM, Cochrane, and GRADE stating the same eight factors is **one methodology lineage, F /
+shared-school, never independent type-E** — no `[E-independent]`. What the IOM adds is *object type*: it
+makes the eight-factor assessment a **checkable standard** a completed review either met or failed, not
+just a method to apply. -> [[What a Trustworthy Systematic Review Requires]]
 
 ## References

@@ -17,7 +17,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-29
 ---
 
@@ -152,5 +152,11 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   figures — a distinction, not a tension.
 - **Symmetric standards.** The observational leg is held to the confound caveat even though its direction
   is the conventional/expected one; the causal claim is the authors', flagged as interpretation.
+
+
+
+## Appraising this observational evidence — the instrument `[2026-07-31]`
+
+The mortality/T2D numbers here are **observational** (Reynolds 2019 cohorts). The instrument that would appraise them is **ROBINS-I** ([[Risk of Bias Assessment Tools]]): domain 1 (confounding — healthy-user) and domain 6 (measurement — [[Measurement Error in Dietary Assessment]]) are where the grade would most likely be capped below «comparable to a well-performed randomized trial». A per-domain read is a deliberate future Revisit, flagged there as a re-appraisal candidate, not done here.
 
 ## References

@@ -370,4 +370,14 @@ realistic alternative you would actually eat instead.
   NutriRECS differ on the same low-certainty evidence — a disagreement about standards of proof and
   values, not about the numbers.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | _(not set)_ |
+> | **Evidence included** | 15 sources — 8 gold, 4 high, 2 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 2 non-gold source(s) feed this page: Astrup (narrative review); Dehghan (cohort). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Red%20Meat%20Harmful.md) |
+
 ## References

@@ -16,7 +16,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-29
 ---
 
@@ -126,5 +126,10 @@ disease) are explicitly *not yet*.
   `[E-independent]` is claimed.
 - **Demarcation deferred honestly** — "leaky gut" / candida sorting needs Camilleri (unheld); named as a
   gap rather than adjudicated from the overview.
+
+
+## Appraising this observational evidence — the instrument `[2026-07-31]`
+
+The composition-shift → outcome cohorts here are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding / reverse causation) and domain 6 (measurement of a surrogate) the likely caps. Named as a re-appraisal candidate on the RoB-tools page; not re-graded here.
 
 ## References

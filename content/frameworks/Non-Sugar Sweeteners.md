@@ -14,7 +14,7 @@ relationships:
     - Continuous Glucose Monitoring as a Health Intervention
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-29
 ---
 
@@ -279,5 +279,10 @@ classification nor the JECFA 2023 ADI re-affirmation is held yet — those remai
 - **Symmetric standards.** Debras (a signal in the "sweeteners are bad" direction) is held to the same
   observational/healthy-user discount as the organic-cohort was — not waved through because it fits the
   cautionary prior.
+
+
+## Appraising this observational evidence — the instrument `[2026-07-31]`
+
+The sweetener → cancer/glucose signals (Debras 2022, Suez 2022) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding / reverse causation — people switch to NSS *because* of weight or dysglycaemia) and domain 6 (measurement) the likely caps. Re-appraisal candidate on the RoB-tools page; not re-graded here.
 
 ## References

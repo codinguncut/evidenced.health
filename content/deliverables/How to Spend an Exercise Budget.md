@@ -277,4 +277,14 @@ and together* over *all-in-one*, but not a precise number. Move the dial toward 
   the two dials.
 - **Health axis only.** No environmental, ethical, or cost axis is priced in.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | Given a fixed weekly exercise-minute budget, how should a sedentary overweight late-40s adult allocate it across cardio, resistance training, and walking to buy the most patient-important benefit? |
+> | **Evidence included** | 11 sources — 2 gold, 7 high, 2 non-gold |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 2 non-gold source(s) feed this page: Kodama (meta-analysis); Ross (narrative review). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/How%20to%20Spend%20an%20Exercise%20Budget.md) |
+
 ## References

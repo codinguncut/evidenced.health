@@ -233,4 +233,14 @@ yours, weighed against your budget and priorities.
   meat, so the *absolute* size of the pasture fat-profile advantage against total diet is unestablished
   here rather than known.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | Does the "organic" label deliver a health benefit — fewer toxins, more nutrients, better outcomes — large and certain enough to change what someone buys, and where it tracks something, is it the certification or an underlying exposure doing the work? |
+> | **Evidence included** | 5 sources — 5 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 5 non-gold source(s) feed this page: Baranski (meta-analysis); Srednicka-Tober (meta-analysis); Srednicka-Tober (meta-analysis); Smith-Spangler (systematic review); Baudry (cohort). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Organic%20Food%20Better.md) |
+
 ## References

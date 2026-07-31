@@ -327,4 +327,14 @@ honest move, and inventing a number would be the dishonest one.
 - **Health axis only.** Where a pattern carries an environmental or ethical axis (plant-based, EAT-Lancet),
   the trade-off is named, never priced against the health finding.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | Across the major named dietary patterns, is any clearly superior or inferior on patient-important outcomes, how good is the evidence, and how much does the pattern label matter versus the shared core, total energy, and adherence? |
+> | **Evidence included** | 13 sources — 8 gold, 4 high, 1 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 1 non-gold source(s) feed this page: Dehghan (cohort). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns%20Is%20One%20Clearly%20Better.md) |
+
 ## References

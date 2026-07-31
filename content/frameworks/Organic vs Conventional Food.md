@@ -16,7 +16,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Should Adults Reduce Red and Processed Meat
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 **Nucleus of the `organic` cluster.** This page holds the health appraisal of the "organic" label:
@@ -217,5 +217,10 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   the wiki cannot compute; the cohort evidence is confounded and the trials do not exist.
 - `AWAITS` a grass-fed-vs-grain-fed animal-product outcome source that separates feed from certification;
   and any residue-level human-outcome source that could move residues from surrogate to outcome.
+
+
+## Appraising this observational evidence — the instrument `[2026-07-31]`
+
+The cohort signal (organic → lower cancer, Baudry 2018) is **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal tool, with domain 1 (confounding — organic buyers differ on many exposures) and domain 2 (selection) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here.
 
 ## References

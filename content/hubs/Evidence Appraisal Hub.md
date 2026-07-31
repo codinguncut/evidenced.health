@@ -25,6 +25,11 @@ graded recommendation. Nucleus: [[Certainty of Evidence vs Strength of Recommend
   and "it will work here", priced as lost certainty
 - [[Upgrading Observational Evidence]] — the three narrow exits from the observational floor: large
   magnitude, dose-response gradient, residual confounding pointing the wrong way
+- [[Risk of Bias Assessment Tools]] — the study-level instruments GRADE's RoB domain leaves
+  unspecified: RoB 2 (5 domains, RCTs) and ROBINS-I (7 domains + target-trial + confounding-ceiling,
+  observational); the RoB→certainty crosswalk; COI as a lens over the domains, not a domain
+- [[Synthesis Without Meta-Analysis]] — vote-counting by significance is unacceptable (power → 0 as
+  studies accumulate); the direction-vs-significance line; the fallback ladder answers weaker questions
 - [[Surrogate Outcomes]] — when a marker may stand in for an outcome, and what it costs
 
 ## Turning evidence into a recommendation
@@ -74,6 +79,12 @@ selected, and analysed (NASEM 2019). Appraisal machinery, not domain findings.
 
 ## Checking someone else's appraisal
 
+- [[What a Trustworthy Systematic Review Requires]] — the IOM 2011 bar (21 standards / 82 elements) an
+  outside reader holds a finished SR to; the standard-vs-method distinction from Cochrane; the admissible
+  **class-5 process-defect** instrument the wiki previously lacked; grades process, not truth (open loop)
+- [[Is This Actually a Systematic Review]] — the SR-vs-narrative-review test; the reproducible
+  prespecified search is the diagnostic feature; flags held premises resting on a single narrative review
+  (Petroski antinutrients, Astrup SFA, Valdes microbiome)
 - [[Was GRADE Actually Used]] — the seven suggested criteria for claiming GRADE; how to turn a
   suspicion of under-argued method into a specific, citable finding
 - [[Which Objective Moved This Recommendation]] — a recommendation is a composite of evidence and

@@ -3,10 +3,10 @@ type: diagnostic
 question: When guidance and evidence diverge, which objective moved the recommendation — and can I see it?
 aliases: [Evidence to Decision, EtD, EtD Domains, Multiple Objectives, Feasibility and Acceptability, Resource Use, Guidelines Serve Two Masters]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-27
+self_critiqued: 2026-07-31
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -200,6 +200,15 @@ cost.
 - **A non-evidence consideration entering is not a defect.** GRADE's design puts it there deliberately.
   The defect would be a body *concealing* which consideration moved it — which is the opposite of what
   a published EtD table does.
+- **The process-defect (class-5) charge now has an admissible referent for the review layer.** This page
+  handles non-evidence objectives moving a *recommendation*; the separate question — was the *systematic
+  review* underneath the recommendation trustworthy — is auditable against
+  [[What a Trustworthy Systematic Review Requires]] (IOM 2011), the gold-tier institutional standard the
+  telos's class-5 rule demands ("documented by a source that meets the same appraisal bar"). Before it,
+  the wiki could name a suspected process defect but had no external standard to cite; now a class-5
+  charge can point to a failed IOM standard number (unregistered protocol, single-reviewer screening,
+  unreported funding) rather than resting on an opinion. Scope it to the failed standard, and check the
+  deviation was not justified — both guards live on that page.
 ## Limits
 
 - **One worked case, one body.** WHO SFA 2023 is the only EtD table the wiki holds in full. Whether

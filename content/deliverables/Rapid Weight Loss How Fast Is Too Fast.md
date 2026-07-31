@@ -324,4 +324,14 @@ stated plainly for acquisition rather than papered over with invented numbers:
   individual rate (layer 3). The individual rate is not derivable from this page.
 - **Health axis only.** This weighs health outcomes; it prices no other objective.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | For an adult who has decided to lose weight, does the rate of loss change regain, muscle loss, and organ harm over and above the amount lost and the method used — and does a diet-created deficit differ from an exercise-widened one for body composition? |
+> | **Evidence included** | 11 sources — 2 gold, 8 high, 1 non-gold |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 1 non-gold source(s) feed this page: Lowe (RCT). Labelled-weak, not load-bearing. |
+> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Rapid%20Weight%20Loss%20How%20Fast%20Is%20Too%20Fast.md) |
+
 ## References

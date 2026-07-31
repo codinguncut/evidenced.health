@@ -41,15 +41,18 @@ about the evidence.
 
 ## What is proven — the benefit side (held evidence)
 
-**Weight and appetite: large, reliable, dose-dependent — but a surrogate plus a patient-reported
-outcome, not a hard endpoint.** In STEP-1 (semaglutide 2.4 mg, essentially a primary-prevention obese
+### Weight and appetite: large, reliable, dose-dependent — but a surrogate plus a patient-reported outcome, not a hard endpoint
+
+In STEP-1 (semaglutide 2.4 mg, essentially a primary-prevention obese
 population, mean age 46), mean weight change was -14.9% vs -2.4% on placebo at week 68 (a -12.4
 percentage-point difference); half the treated group lost >=15% and a third lost >=20%, the latter
 approaching what is reported after bariatric surgery. Waist fell -9.4 cm and systolic BP -5.1 mmHg
 [@wilding2021] -> [[Semaglutide for Cardiovascular Risk in Obesity]]. Tirzepatide's pivotal obesity trial (SURMOUNT-1) reports a larger weight effect
 still and is the class's high-water mark for the surrogate.
 
-**Cardiovascular events: proven — but only in secondary prevention.** SELECT (n=17,604, on top of 90%
+### Cardiovascular events: proven — but only in secondary prevention
+
+SELECT (n=17,604, on top of 90%
 lipid-lowering therapy [mostly statins] and 86% antiplatelet use) cut the primary MACE composite (cardiovascular death, non-fatal
 myocardial infarction, non-fatal stroke) from 8.0% to 6.5%, hazard ratio 0.80 (95% CI 0.72-0.90) over a
 mean 3.3 years — an absolute reduction of 1.5 percentage points, NNT \~67, on top of guideline therapy
@@ -65,11 +68,15 @@ reduced. The trialists state the load-bearing limit themselves: only patients wi
 cardiovascular disease were included, and primary prevention was not studied
 [@lincoff2023].
 
-**Diabetes prevention: large, on a glycaemic surrogate.** Two-thirds of SELECT was prediabetic;
+### Diabetes prevention: large, on a glycaemic surrogate
+
+Two-thirds of SELECT was prediabetic;
 progression to diabetes was cut sharply (HR 0.27, 0.24-0.31), and in STEP-1's younger population 84% of
 prediabetics reverted to normoglycaemia vs 48% on placebo [@lincoff2023, EXTRACTED (Wilding - Semaglutide STEP-1 Weight Management 2021)].
 
-**Fatty liver (MASLD): a dose-dependent histological benefit on a common comorbidity.** Sustained weight
+### Fatty liver (MASLD): a dose-dependent histological benefit on a common comorbidity
+
+Sustained weight
 loss reduces liver fat at >=5% of body weight, improves inflammation at 7-10%, and improves fibrosis at
 >=10% [@easl2024] -> [[Fatty Liver MASLD and Weight Loss]]. Two caveats bind: the benefit is on the reversible stages (lifestyle weight loss is not
 shown to reverse advanced fibrosis or cirrhosis), and weight tends to regain — maximal loss at 6 months
@@ -104,7 +111,7 @@ The alarm that "we may not know enough for this scale" has to be cashed out into
 unknowns rather than left as an unfalsifiable "it's complicated". Doing so is what separates a real gap
 from hand-waving. Here is the risk side by evidence state.
 
-**Held now (from the trials above):**
+### Held now (from the trials above):
 
 - **Gastrointestinal adverse events — common, dose/titration-dependent, mostly transient.** In STEP-1,
   more participants discontinued for GI events than on placebo (4.5% vs 0.8%), with GI events the
@@ -118,7 +125,7 @@ from hand-waving. Here is the risk side by evidence state.
   [@wilding2021]. The precise rebound magnitude (the
   STEP-1 withdrawal extension reported roughly two-thirds of lost weight regained) is **not yet held**.
 
-**Unheld — stated as gaps, not as reassurance (silence in a short trial is not a null):**
+### Unheld — stated as gaps, not as reassurance (silence in a short trial is not a null):
 
 - **Lean-mass loss / sarcopenia risk.** STEP-1 held that fat mass fell more than lean mass, which is
   reassuring on its face; but a dedicated body-composition meta-analysis quantifying the lean-mass

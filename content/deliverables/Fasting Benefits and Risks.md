@@ -10,7 +10,9 @@ updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-**The verdict up front.** Fasting is not a metabolism trick; it is a *delivery schedule* for an energy
+### The verdict up front
+
+Fasting is not a metabolism trick; it is a *delivery schedule* for an energy
 deficit. On the evidence held here — and for the schedules actually tested head-to-head (time-restricted
 eating, on weight and liver fat) — the schedule adds very little that the same deficit delivered
 continuously does not: the one held gold-tier guideline that looked directly finds *very little

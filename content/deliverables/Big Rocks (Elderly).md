@@ -50,7 +50,9 @@ outcomes (falls vs events vs HbA1c vs mmHg) and cannot be lined up as one rankin
 
 ## (a) Robust for this stratum — function first
 
-**Resistance (strength) training, with adequate protein.** This is the lever that rises most at 70,
+### Resistance (strength) training, with adequate protein
+
+This is the lever that rises most at 70,
 because it defends exactly what this stratum is losing. In observational cohorts any muscle-strengthening
 activity carries all-cause mortality RR 0.85 (0.79-0.93) and diabetes RR 0.83 (0.77-0.89), independent of
 aerobic activity, with most of the benefit reached at a *small* weekly volume (\~30-60+ min/week)
@@ -83,7 +85,9 @@ lean mass ([[Protein and Resistance Training for Muscle and Strength]]).
   caution for people at risk of sarcopenia [@lowe2020].
   The mitigation is exactly this lever: keep protein and resistance training up.
 
-**Aerobic activity** — for falls, function, and mortality. Roughly 24 min/day of moderate-to-vigorous
+### Aerobic activity
+
+— for falls, function, and mortality. Roughly 24 min/day of moderate-to-vigorous
 activity reaches most of the measured mortality benefit, after which the curve flattens
 [@who2020]; for this stratum the
 falls/fracture and function payoff above weighs more than the mortality number. One honesty note the
@@ -94,7 +98,9 @@ balance and aerobic capacity, which are measurable; not at "frailty."
 
 ## (b) Conditional or age-bounded
 
-**Weight / visceral fat — real benefits, but conditional and muscle-protective, never rapid.** Weight
+### Weight / visceral fat — real benefits, but conditional and muscle-protective, never rapid
+
+Weight
 loss keeps genuine, patient-important benefits at this age: it is the base lever for fatty liver, where
 the histological gain is dose-dependent (>=5% of body weight reduces liver fat, 7-10% improves
 inflammation, >=10% improves fibrosis) [@easl2024];
@@ -116,7 +122,8 @@ harm — the wiki holds no elderly trial of muscle-preserving weight loss, and n
 so this is stated as conditionality, not evidenced hazard. That gap is the single biggest hole in this
 deliverable ([[Does Weight Loss Reduce Cardiovascular Events]], [[Fatty Liver MASLD and Weight Loss]]).
 
-**Blood pressure, glycaemia and lipids — age-adjusted, competing-risk-aware, polypharmacy-cautious.**
+### Blood pressure, glycaemia and lipids — age-adjusted, competing-risk-aware, polypharmacy-cautious
+
 Higher *absolute* cardiovascular risk at 70 means blood-pressure lowering has real absolute benefit here:
 its relative effect is proven even in primary prevention (HR 0.91 per 5 mmHg, 0.89-0.94, with no
 pre-existing heart disease and no fall-off at lower baseline BP)

@@ -82,7 +82,9 @@ Being unfit was a **larger** mortality signal than the classic risk factors in t
 versus elite fitness carried HR 5.04, against 1.41 for smoking, 1.40 for diabetes, and 1.29 for
 coronary artery disease [@mandsager2018].
 
-**The load-bearing caveat: CRF is a predictor, not a proven cause.** Both sources are observational and
+### The load-bearing caveat: CRF is a predictor, not a proven cause
+
+Both sources are observational and
 both say so — the degree to which high fitness *preselects* healthier people rather than *causing*
 lower mortality is not resolved by cross-sectional data [@kodama2009] [@mandsager2018].
 

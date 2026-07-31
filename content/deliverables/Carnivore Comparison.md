@@ -31,7 +31,9 @@ arms equally by the matched deficit. So this is a lean, not a knockout, and the 
 sustainability (which the evidence cannot measure) and the person's actual lipid response and
 cardiovascular risk (which must be measured, not assumed).
 
-**The open loop, stated first because it frames everything below.** There is **no** trial of "carnivore"
+### The open loop, stated first because it frames everything below
+
+There is **no** trial of "carnivore"
 or of this specific medium-fat pattern against heart attacks, cancer, or death. Both diets are assembled
 here from evidence about their *components*. Everything that follows grades coherence and fidelity to
 that component evidence — it never grades either diet against a realized outcome in a real person.
@@ -77,8 +79,9 @@ This is where the diets diverge most. Clean carnivore (70% fat, ribeye) maximise
 medium-fat (35% fat, round roast) explicitly cuts it. Two things make this axis live for *this* person
 specifically.
 
-**First, saturated fat's own effect on events is small and its effect on mortality is essentially
-nil.** Reducing saturated fat cuts cardiovascular *events* by a modest amount — **RR 0.83 (0.70 to 0.98),
+### First, saturated fat's own effect on events is small and its effect on mortality is essentially nil
+
+Reducing saturated fat cuts cardiovascular *events* by a modest amount — **RR 0.83 (0.70 to 0.98),
 about 15 fewer events per 1000**, at moderate certainty [@who2023saturated, Annex 6] [@hooper2020]
 — which the Cochrane review restates as a **number-needed-to-treat of \~56 over four years**
 [@hooper2020]. But it does **not**
@@ -86,8 +89,9 @@ measurably reduce dying: all-cause mortality **RR 0.96 (0.90 to 1.03)**, a well-
 [@hooper2020]. So nobody should
 sell either diet as a longevity move on the saturated-fat axis.
 
-**Second — and this is the mechanism that carries the axis — saturated fat's harm runs through LDL
-cholesterol, LDL is causal for heart disease, and the dose is cumulative.** The consensus verdict is that
+### Second — and this is the mechanism that carries the axis — saturated fat's harm runs through LDL cholesterol, LDL is causal for heart disease, and the dose is cumulative
+
+The consensus verdict is that
 LDL and other apoB-containing particles *cause* atherosclerotic disease (established across genetics,
 cohorts, Mendelian randomization, and LDL-lowering trials), that the dose-response is log-linear, and
 that risk falls in proportion to *how much* LDL is lowered *times how long* — lower-for-longer beats
@@ -96,7 +100,9 @@ reliably lowers LDL at high certainty (**-0.055 mmol/L per 1% of energy swapped 
 [@who2023saturated, Annex 6]. This is the rare surrogate whose
 transmission to the hard outcome is itself evidenced.
 
-**Now stack the two diets.** The carnivore arm combines two LDL-*raising* moves: very high saturated fat,
+### Now stack the two diets
+
+The carnivore arm combines two LDL-*raising* moves: very high saturated fat,
 **and** near-total carbohydrate restriction, which independently nudges LDL up (in the Cochrane
 low-carb-vs-balanced review, LDL ran **0.04 mmol/L higher** without diabetes and **0.12 mmol/L higher**
 with it, the latter's interval touching the review's own importance bar of 0.26)
@@ -108,7 +114,9 @@ LDL rise. The matched deficit itself modestly lowers LDL in both arms, which *pa
 carnivore arm's increase but does not reverse the direction of the gap. **Net: the carnivore arm runs
 LDL higher, the medium-fat arm runs it lower.**
 
-**Why this matters *here* and would not for a lean 30-year-old.** Absolute benefit (or harm) scales with
+### Why this matters *here* and would not for a lean 30-year-old
+
+Absolute benefit (or harm) scales with
 baseline risk: a constant relative effect on a low baseline is a small effect, and on a high baseline a
 larger one [@grade, §2.1]. This person is hypertensive with central adiposity and
 metabolic impairment — elevated risk — so an LDL difference between the two diets translates into a
@@ -124,7 +132,9 @@ ten-year risk [@uspstf2022], and a zero coronary-calcium score
 can roughly halve-to-quarter that benefit [@nasir2015] — i.e. the lipid axis is real but its size depends entirely on this person's measured
 risk, which is why lipid monitoring, not assumption, is the right response.
 
-**A caveat that cuts against the carnivore arm harder, not softer.** In exactly this metabolic state —
+### A caveat that cuts against the carnivore arm harder, not softer
+
+In exactly this metabolic state —
 insulin resistance, high triglycerides — LDL-C (the cholesterol *mass*) can **understate** the atherogenic
 particle burden, because the same cholesterol is packed into more, smaller particles; apoB (particle
 *number*) is the number to trust [@ference2017]. So a
@@ -148,12 +158,16 @@ much larger than the mean suggests, and this deliverable cannot quantify it.
 
 The medium-fat pattern's 3.5 g/kg protein is its signature. Two readings.
 
-**Against it:** muscle-building from protein plateaus near **1.6 g/kg/day** (break point 1.62, wide CI
+### Against it
+
+Muscle-building from protein plateaus near **1.6 g/kg/day** (break point 1.62, wide CI
 1.03 to 2.20), because muscle protein synthesis saturates; above that, extra protein buys no further lean
 mass [@morton2018]. At maintenance, 3.5 g/kg
 is more than double that plateau — gratuitous.
 
-**For it:** under a calorie deficit the rationale improves. Adequate protein plus resistance training is
+### For it
+
+Under a calorie deficit the rationale improves. Adequate protein plus resistance training is
 how lean mass is preserved while fat is lost (protein itself modestly raised lean mass and cut fat mass in
 the trials), and the useful target rises somewhat in a deficit [@morton2018]. So "high protein, \~1.6-2+ g/kg" is well-justified here for both arms.
 **But 3.5 g/kg still overshoots even the deficit-adjusted need** — the defensible target is high, not
@@ -172,8 +186,9 @@ do not read it as a safety verdict.
 
 Clean carnivore has essentially zero fibre and no vegetables; medium-fat has steamed carrots and broccoli.
 
-**Carbohydrate restriction genuinely helps the dysglycemic — but temporarily, and it raises LDL.** In
-people with type 2 diabetes, low-carb eating produced real short-term gains: **HbA1c -0.47% and weight
+### Carbohydrate restriction genuinely helps the dysglycemic — but temporarily, and it raises LDL
+
+In people with type 2 diabetes, low-carb eating produced real short-term gains: **HbA1c -0.47% and weight
 -3.46 kg at 6 months, with 32 more remissions per 100** (medication allowed to continue). But **most of
 this attenuated by 12 months** — weight went from -3.46 kg back to +0.29 kg, HbA1c to -0.23%, and under a
 stricter remission definition requiring coming *off* medication the effect was never significant
@@ -182,7 +197,8 @@ noted, deep restriction raises LDL. So the carnivore arm's near-zero carbohydrat
 glycemic edge for this dysglycemic person, bought at a lipid cost — and, per DiRECT above, the durable
 glycemic benefit comes from the weight loss both arms share, not from the carbohydrate cut itself.
 
-**The fibre and plant-diversity benefit is real but modest, and the carnivore arm forgoes it entirely.**
+### The fibre and plant-diversity benefit is real but modest, and the carnivore arm forgoes it entirely
+
 Higher fibre and whole-grain intake track lower risk in cohorts (whole grains \~13-33% risk reduction
 across outcomes, closely paralleling fibre, which is likely the active fraction)
 [@reynolds2019]; a daily portion of pulses lowers LDL
@@ -193,7 +209,9 @@ is strongest at ordinary food intakes; the wiki also records that fibre *isolate
 *foods*, which is a study-design artifact (isolates can be trial-tested), not proof that supplements beat
 food [@sacn2015].
 
-**Cooking method is a minor, gentle-favouring nudge, not a decider.** The medium-fat arm's steaming is
+### Cooking method is a minor, gentle-favouring nudge, not a decider
+
+The medium-fat arm's steaming is
 low-heat, producing fewer advanced glycation end products (AGEs) — but a meta-analysis of low-AGE diets
 found only small surrogate movements (insulin resistance, some lipids) and **null on the things that
 matter: weight, fasting glucose, HbA1c, blood pressure**, with no hard-outcome evidence
@@ -257,12 +275,16 @@ medium-fat pattern, and the lean is driven by Axis 1:
 - **Axis 5 (sodium / potassium):** favours **medium-fat** modestly (added potassium; the hypertensive
   stratum makes it live).
 
-**But the deficit interacts with Axis 1 and softens the gap:** because the shared \~10% deficit itself
+### But the deficit interacts with Axis 1 and softens the gap
+
+Because the shared \~10% deficit itself
 lowers LDL, the net-lipid comparison is "both lowering" in the medium-fat arm versus "deficit-lowering
 partly offsetting saturated-fat-raising" in the carnivore arm — a narrower gap than the raw macros
 suggest.
 
-**The live discriminator the evidence cannot settle is sustainability.** A zero-plant, all-fat pattern and
+### The live discriminator the evidence cannot settle is sustainability
+
+A zero-plant, all-fat pattern and
 a higher-protein-plus-vegetables pattern differ in monotony and tolerability, and under diminishing
 returns a diet someone actually keeps beats a "better" one they abandon — but the wiki holds no data on
 which of these two a given person sustains. **This is a genuine gap, not a claim: the wiki cannot quantify

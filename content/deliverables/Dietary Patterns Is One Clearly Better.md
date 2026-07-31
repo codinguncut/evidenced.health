@@ -147,7 +147,9 @@ or observational, and how large is the confounding discount.
 
 Two rows need their numbers stated in full.
 
-**Low-carb / keto.** In people with type 2 diabetes, a low-carbohydrate diet produced short-term
+### Low-carb / keto
+
+In people with type 2 diabetes, a low-carbohydrate diet produced short-term
 remission -- **32 more remissions per 100 at 6 months (NNT \~3)** under the definition that lets medication
 continue -- but the effect **attenuates by 12 months** (the 6-month remission risk difference of 0.32 falls
 to 0.10), and under the stricter definition requiring people to come off medication it is never
@@ -167,7 +169,9 @@ contraindication in its own voice: caution in people with atherogenic-lipoprotei
 high-fat, low-carbohydrate eating [@naude2022, 
 Authors' conclusions].
 
-**Animal-based / carnivore.** This is a clear worked instance of *attention is an anti-signal*:
+### Animal-based / carnivore
+
+This is a clear worked instance of *attention is an anti-signal*:
 enormous discussion, **zero hard-outcome evidence.** Its short-term metabolic signal is the low-carb one
 above (shared, not distinctive), and its distinctive feature -- maximal saturated fat plus near-zero
 carbohydrate -- pushes LDL, and hence apoB-bearing particle number, upward, which is a genuine concern
@@ -178,7 +182,9 @@ mechanism plus the absence of a trial -- and the fibre/micronutrient-adequacy qu
 muscle-meat-only diet is unheld. The full head-to-head appraisal against a medium-fat animal-based diet is
 carried separately ([[Carnivore Comparison]]).
 
-**The carbohydrate-quantity picture is a U, not a slope, and it is substitution-dependent.** The large
+### The carbohydrate-quantity picture is a U, not a slope, and it is substitution-dependent
+
+The large
 PURE cohort found higher carbohydrate associated with higher total mortality (top-vs-bottom quintile HR
 1.28, 95% CI 1.12 to 1.46), yet found no support for very-low-carbohydrate intakes either -- moderate
 intake (\~50-55% of energy) looked more appropriate than either extreme

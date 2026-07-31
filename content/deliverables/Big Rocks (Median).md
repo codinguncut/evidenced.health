@@ -11,7 +11,9 @@ updated: 2026-07-30
 self_critiqued: 2026-07-30
 ---
 
-**Who this is for.** A representative Western adult in their late 40s (roughly 45-50) sitting around
+## Who this is for
+
+A representative Western adult in their late 40s (roughly 45-50) sitting around
 the metabolic-drift median: central adiposity, borderline-high blood pressure, borderline-high fasting
 glucose (prediabetes-leaning, not diabetic), elevated triglycerides, low-grade inflammation, a modestly
 raised resting heart rate, drifting toward metabolic syndrome and fatty liver. **Drifting, not
@@ -19,7 +21,9 @@ diseased.** This is a stratum, not a person and not everyone: about 40% of the p
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
 
-**The finding, stated first.** For this stratum the two largest levers are **movement** (aerobic plus
+## The finding, stated first
+
+For this stratum the two largest levers are **movement** (aerobic plus
 resistance) and **losing visceral fat** — both are large, both are robust across the distribution, and
 both act on the whole metabolic cluster the person is drifting through. The exposures that generate the
 most argument and content — low-carb versus low-fat, sugar percentages, saturated-fat fine-tuning — are
@@ -28,7 +32,9 @@ intuition; it is what the held magnitudes say once you rank by effect size rathe
 been written ([[Layer 1 - Ranking Interventions for a Stratum]]). Attention runs *inverse* to effect
 size in a mature field: the big effects are settled and boring, the small ones contested and loud.
 
-**How the levers are sorted.** Every lever below is placed into one of three buckets by what the
+## How the levers are sorted
+
+Every lever below is placed into one of three buckets by what the
 evidence shows it does for the drifting majority *and* to the leaner minority:
 
 - **(a) Robust big rocks** — help the impaired majority and are near-harmless to the leaner minority.
@@ -45,7 +51,9 @@ bucket (b) as *conditionality*, not as evidenced harm.
 
 ## (a) Robust big rocks — lead here
 
-**Move — aerobic and resistance, together.** This is among the largest associations the wiki holds among
+### Move — aerobic and resistance, together
+
+This is among the largest associations the wiki holds among
 the modifiable levers (smoking cessation's current-vs-never mortality gap is comparable or larger).
 Device-measured total activity reaches an all-cause mortality hazard ratio of
 **0.34 (95% CI 0.27-0.43)** at the top of its dose-response, HIGH certainty [@who2020]. The decision-shaping detail is that most of the
@@ -70,7 +78,9 @@ working (a non-exercise estimate from age, sex, BMI, resting heart rate and acti
 place you), not as a separate intervention [@ross2016]. The raised resting heart rate in this stratum is a progress marker that falls with aerobic
 training, not an outcome target — no evidenced resting-HR cutoff is held.
 
-**Lose visceral fat — energy down.** For this stratum specifically, weight loss is the base lever that
+### Lose visceral fat — energy down
+
+For this stratum specifically, weight loss is the base lever that
 moves the entire metabolic cluster, and it is near-harmless to the lean (who simply have less to lose).
 It is the *same* lever as the fatty-liver and diabetes levers, not a separate one. Sustained loss of
 **>=5%** reduces liver fat, **7-10%** reduces liver inflammation, and **>=10%** improves fibrosis
@@ -92,7 +102,9 @@ For fatty liver, the reframe that matters: for most people with it the dominant 
 carries is cardiovascular and metabolic, not hepatic (non-fatal CVD HR 1.40, a more-than-doubled
 diabetes risk) [@easl2024].
 
-**Keep protein adequate and hold onto muscle.** Aim for roughly **1.6 g/kg/day** of total protein if
+### Keep protein adequate and hold onto muscle
+
+Aim for roughly **1.6 g/kg/day** of total protein if
 you resistance-train — that is where the muscle-building benefit plateaus (break point 1.62 g/kg/day,
 CI 1.03-2.20), and more buys no further lean mass [@morton2018]. This is RCT-grade but on surrogates (muscle and strength, which matter
 directly for function). Its main job here is defensive: during an energy deficit, adequate protein plus
@@ -100,7 +112,9 @@ resistance training is how you lose fat without losing disproportionate muscle. 
 \~1.4 g/kg, so the move is topping up, not loading; hitting the target from lower-quality plant sources
 needs more grams or deliberate complementation.
 
-**Replace saturated fat with polyunsaturated fat.** Reducing saturated fat to 10% of energy and
+### Replace saturated fat with polyunsaturated fat
+
+Reducing saturated fat to 10% of energy and
 replacing it with PUFA is a genuine robust lever — its relative benefit is constant across baseline
 risk, sex and duration, so the metabolically healthy benefit as much as the high-risk, and no subgroup
 claim is needed [@hooper2020].
@@ -114,7 +128,9 @@ SFA-to-refined-carbohydrate does not), so "eat less saturated fat" without namin
 half a recommendation; and the firm evidence is on LDL, not on living longer — do not read the lipid
 change as the mortality evidence.
 
-**The non-diet big rocks — usually larger than any of the above.** *Smoking*, if present, dominates
+### The non-diet big rocks — usually larger than any of the above
+
+*Smoking*, if present, dominates
 everything: current smokers die at about **three times** the never-smoker rate and lose a decade of
 life, and quitting before \~40 removes about 90% of the excess (earlier is strictly better; it is never
 too late to be the largest available lever) [@jha2013, 
@@ -135,7 +151,9 @@ glycaemic control) toward \~7-8 h; do not chase *less* sleep — the larger long
 
 ## (b) Stratum-dependent — conditional on metabolic status
 
-**Reduce sodium — most useful if your blood pressure is already drifting up.** Cutting sodium lowers
+### Reduce sodium — most useful if your blood pressure is already drifting up
+
+Cutting sodium lowers
 systolic blood pressure by about **3.39 mmHg** overall (HIGH certainty), but the response is roughly
 threefold larger in the already-hypertensive (**4.06 mmHg**) than in the normotensive (**1.38 mmHg**)
 [@who2012]. So for this borderline-hypertensive stratum it is a real lever;
@@ -147,8 +165,9 @@ proven to cut events even in primary prevention and even at normal pressure (HR 
 so the blood-pressure channel is real — the caveat is that a sodium-induced drop transmitting to events
 is an assumption, not the same evidence [@bplttc2021]. Western intake runs \~9-10 g salt against a 5 g target [@esc2021]. Treat on overall risk, not the number.
 
-**Carbohydrate restriction — a route to glycaemic control for the insulin-resistant, not a universal
-rule.** For the dysglycemic end of this stratum, restricting carbohydrate genuinely improves glycaemia
+### Carbohydrate restriction — a route to glycaemic control for the insulin-resistant, not a universal rule
+
+For the dysglycemic end of this stratum, restricting carbohydrate genuinely improves glycaemia
 (HbA1c -0.47% at 6 months, HIGH certainty) and lifts drug-permitted diabetes remission (risk difference
 0.32 at 6 months, NNT \~3), though most benefits attenuate by 12 months [@goldenberg2021].
 
@@ -168,14 +187,18 @@ to 12 weeks, within a support service) [@nice, 1.1.10].
 
 ## (c) Over-published, small, or contested — do not lead
 
-**Free sugars.** The famous 10%-of-energy limit is, on the evidence, a **dental** recommendation; on
+### Free sugars
+
+The famous 10%-of-energy limit is, on the evidence, a **dental** recommendation; on
 body weight the effect is an *energy* effect, not a sugar-specific one — swapping free sugars for other
 carbohydrate at equal calories moves weight by **0.04 kg** (null) [@who2015, 
 Summary of evidence]. The real cardiometabolic value of cutting sugar for this stratum is removing
 liquid calories (sugar-sweetened beverages), which belongs to the energy-down big rock above — not to
 hitting a sugar percentage.
 
-**Red and processed meat — a live tension, present as such.** Two guideline families read the *same*
+### Red and processed meat — a live tension, present as such
+
+Two guideline families read the *same*
 cohort evidence and issue opposite instructions: limit it (a precautionary reading of a "probable"
 colorectal-cancer cause) versus continue current intake (the identical evidence graded low-certainty,
 with a realistic cut averting only a handful of cancer deaths per 1000 over a lifetime) [EXTRACTED
@@ -187,7 +210,9 @@ side: report the small absolute effect and the low certainty, keep the precautio
 for someone who weights a possible cancer cause heavily, and let the weighting be the person's. Processed
 meat has a firmer footing than unprocessed red meat and should not be treated as one exposure with it.
 
-**Meal timing and macronutrient fine-tuning.** Time-restricted eating draws enormous attention and, in
+### Meal timing and macronutrient fine-tuning
+
+Time-restricted eating draws enormous attention and, in
 the one adequately-powered free-living trial, produced no weight advantage (and lost disproportionate
 muscle) [@lowe2020]. Exact carbohydrate percentages, sodium precision below target, and HIIT-versus-walking are
 second-order refinements — the first-order move is *doing regular activity at all* and *reducing excess

@@ -206,7 +206,9 @@ corpus's highest) comes with no stated warrant. NNR also recommends at least 90 
 weight) with further benefits above that — but that is dry weight of a food, not an AOAC fibre measure, and
 must not be read against the 30 g figure. [@nnr2023]
 
-**The practical reading:** aim for roughly 25-30 g/day of total fibre from food — mostly cereal/whole-grain
+### The practical reading:
+
+aim for roughly 25-30 g/day of total fibre from food — mostly cereal/whole-grain
 plus legumes plus fruit/veg — and treat more as fine, probably slightly better, with no plateau shown on
 outcomes. Note that most people fall well short: SACN records that at a 30 g target, «current mean intakes
 would be 10-11g below the dietary reference value for men and 13g below for women» — a \~40% population

@@ -305,7 +305,7 @@ split, and the trial-versus-cohort tension all in view at once, and refusing to 
 > | | |
 > |---|---|
 > | **Question** | Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them? |
-> | **Evidence included** | 4 sources — 1 gold, 3 non-gold |
+> | **Evidence included** | 4 sources — 1 high, 3 non-gold |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 non-gold source(s) feed this page: Suez (RCT); Debras (cohort); Aspartame Safety Review Nutrients 2023 (narrative review). Labelled-weak, not load-bearing. |
 > | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Are%20Artificial%20Sweeteners%20Bad.md) |

@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-07-31
 self_critiqued: 2026-07-29
 ---
 
@@ -41,6 +41,14 @@ supplemented with extra-virgin olive oil or nuts, vs advice to reduce fat, cut t
   years*; it did not measurably move total mortality in that window. The trial was underpowered for the
   components (lower-than-expected event rates).
 - **Adherence mattered:** the per-protocol (adherence-adjusted) primary HR was 0.42 (0.24-0.63).
+
+**A second design singles out the same pattern (corroboration on a different outcome, F).** In Ge's
+121-RCT network meta-analysis of 14 named diets, weight and cardiovascular risk-factor gains decay by 12
+months for every diet «except for the Mediterranean diet», and Mediterranean is «the most effective» for
+LDL reduction at moderate certainty -> [[Named Diet Programs Compared]] [@ge2020]. Keep the outcomes distinct: Ge measures the **LDL
+surrogate** over <=12 months, PREDIMED measures **hard events** over \~5 years — so this is not a second
+witness to the *event* finding, but two unrelated designs both flagging Mediterranean as the pattern with
+something durable. (Corroboration line; Ge is not a `sources:` entry here.)
 
 ## Why this matters at the pattern level — three decision-relevant reads
 

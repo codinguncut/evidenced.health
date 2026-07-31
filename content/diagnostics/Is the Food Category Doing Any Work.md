@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-29
+self_critiqued: 2026-07-31
 relationships:
   related_to:
     - Framing a Decision Question
@@ -15,7 +15,7 @@ relationships:
     - Free Sugars Intake
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
 created: 2026-07-27
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -327,6 +327,34 @@ heterodox lens imported onto the literature but a question the literature's own 
 - **Residual:** everything here is one body's methodological judgment about its own guideline set, with
   no primary evidence behind it. The section's weight rests on the distinction it introduces, not on
   NNR's authority — and the AWAITS line above names the source that could overturn it.
+
+### UPF, second source — Lane 2024 supplies the direct within-category evidence NNR argued abstractly `[2026-07-31]`
+
+NNR's UPF case above is an *incremental-validity* argument made largely in the abstract («most
+ultra-processed foods are energy dense... high in added or free sugars, salt...»). Lane's umbrella review
+[[Ultra-Processed Food and Health Outcomes]] supplies the concrete within-category evidence, and it lands
+squarely on this diagnostic:
+
+- **Named protective subcategories inside the harmful aggregate.** Within a T2D meta-analysis Lane
+  includes (Chen 2023), «while certain subcategories of ultra-processed foods further showed higher risk,
+  others were inversely associated, such as ultra-processed cereals, dark/wholegrain bread, packaged sweet
+  and savoury snacks, fruit based products and yoghurt, and dairy based desserts».
+  [@lane2024upf] **This is the variance test failing on
+  its own data** — the category pools items that harm and items that protect, so the category-level HR
+  describes no single food. (NNR named the same heterogeneity as a list of borderline foods; Lane shows it
+  as *opposite-signed outcome associations*.)
+- **The adjustment that would settle it is not the adjustment Lane ran.** Lane's defense against the
+  confounding critique is that «adjusting for diet quality or patterns does not change the consistent
+  evidence». [@lane2024upf] But diet-quality-*pattern*
+  adjustment is **not** nutrient-profile matching — the sugar/salt/fat/fibre content is what makes a food
+  both *ultra-processed* and *nutrient-poor*, so a residual association after pattern adjustment still does
+  not separate the boundary from its composition. Only a composition-matched design does.: at matched composition, if UPF still moves
+  intake, the boundary does independent work.
+
+This is Lane **refining** NNR on the same question (a second gold body, direct subcategory data), not a
+new tension — both hold the category's predictive power runs largely through correlates. The live
+disagreement is what to *do*: Lane recommends targeting UPF, NNR declines. That decision-level clash lives
+on [[Ultra-Processed Food and Health Outcomes]].
 
 ### Ruminant vs industrial trans fat — a boundary WHO tested and dropped `[2026-07-28, Annex 8]`
 

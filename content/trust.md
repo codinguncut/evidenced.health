@@ -68,6 +68,10 @@ We are not pretending otherwise, and we are not claiming retroactive rigor. What
 - **disclosing the rest** — where a gap or a loose selection cannot be repaired, we mark it rather
   than paper over it.
 
+Going forward, each literature search that feeds a new source is **logged** — the question, what was
+searched, and what was included or excluded — so the *how-sources-were-found* trail exists from now
+on, even though it does not for the back-catalogue.
+
 ## How to read a claim
 
 The guide is built to let you descend from a fast read to the full evidence trail:
@@ -76,8 +80,8 @@ The guide is built to let you descend from a fast read to the full evidence trai
   labelled as such. You can tell what came from a study from what we inferred.
 - **Four states, kept apart:** *benefit*, *harm*, *no meaningful effect*, and *not enough evidence to
   say*. The last two are not the same, and we never blur them.
-- **Words are calibrated.** *Established* / *probably* / *may* / *insufficient evidence* map to
-  strength of evidence, not to how confident the writing sounds.
+- **Words are calibrated** (see the table below) — *established* / *probably* / *may* /
+  *insufficient evidence* map to strength of evidence, not to how confident the writing sounds.
 - **Certainty is not the same as a recommendation.** How sure we are about an effect is a different
   question from how strongly anyone should act on it — see the machinery in the
   [[Evidence Appraisal Hub]].
@@ -85,6 +89,25 @@ The guide is built to let you descend from a fast read to the full evidence trai
   tier), the overall certainty, a note flagging any weaker sources, and a link to the page's full
   public edit history — the "why should I believe this?" layer, with links down into the method behind
   each field.
+
+## The words we use, and what each means
+
+To keep confidence out of the writing style and in an explicit scale, these phrases carry fixed
+meanings across the guide. They track the four evidence states — *benefit*, *harm*, *no meaningful
+effect*, *insufficient* — and the certainty machinery behind them ([[Rating Certainty of Evidence]],
+[[The Insufficient-Evidence Statement]]).
+
+| Phrase | What it means about the evidence |
+|---|---|
+| **Established** | Consistent evidence at moderate-to-high certainty |
+| **Probably** | Moderate certainty |
+| **May** / **might** | Low certainty |
+| **Insufficient evidence** | Very low certainty, or serious gaps — we cannot say yet |
+| **No meaningful effect** | Measured in humans, and a worthwhile effect is adequately excluded |
+| **Not adequately studied** | Absence of evidence, *not* evidence of absence |
+
+The last two are kept firmly apart: *no meaningful effect* means we looked and found nothing worth
+acting on; *not adequately studied* means the question has not yet been asked well enough to answer.
 
 ## How to challenge it
 

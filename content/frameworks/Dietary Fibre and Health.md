@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018]
+authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -18,7 +18,7 @@ relationships:
     - Free Sugars Intake
 created: 2026-07-29
 updated: 2026-07-31
-self_critiqued: 2026-07-29
+self_critiqued: 2026-07-31
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -158,5 +158,82 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The mortality/T2D numbers here are **observational** (Reynolds 2019 cohorts). The instrument that would appraise them is **ROBINS-I** ([[Risk of Bias Assessment Tools]]): domain 1 (confounding — healthy-user) and domain 6 (measurement — [[Measurement Error in Dietary Assessment]]) are where the grade would most likely be capped below «comparable to a well-performed randomized trial». A per-domain read is a deliberate future Revisit, flagged there as a re-appraisal candidate, not done here.
+
+
+## The umbrella review bounds the outcome breadth — Veronese 2018 `[2026-07-31]`
+
+Reynolds is one WHO-commissioned SR/MA. Veronese 2018 is an **umbrella review of 18 prior
+meta-analyses** (298 prospective observational studies, 21 outcomes) that applied Ioannidis-style
+credibility diagnostics (excess-significance test, small-study effect, 95% prediction interval,
+heterogeneity) on top of the pooled estimates. It is a **type-F refinement**: it does not change the
+fibre magnitude, it grades *which* fibre-outcome associations survive bias screening.
+
+**The headline tempers the broad reading.** «even though 85% of the associations were significant, a
+higher intake of dietary fibers was convincingly associated only with a decreased likelihood of early
+mortality and CVD».
+[@veronese2018] Of 21 outcomes only 3 reached
+class-I convincing, and «only CVD and all-cause mortality were based on prospective studies» (the
+third, pancreatic cancer, rested on 13 case-control + 1 prospective study).
+[@veronese2018]
+
+- **The robust core is mortality + CVD**, not the long cancer list. T2D is class-III suggestive;
+  most cancer associations are class III/IV and «largely based on case-control studies that suffer
+  inherent limitations including recall bias and inability to examine temporal associations».
+  [@veronese2018] Breast cancer and coronary
+  artery disease carried outright excess-significance bias. Prostate cancer was non-significant.
+- **A located RCT-null on colorectal adenoma** — the observational fibre-cancer signal is not
+  confirmed where it *has* been trialled: «our findings are in agreement with a Cochrane review of
+  randomized and quasi-randomized controlled trials in which the authors found that increased dietary
+  fiber intake did not reduce the incidence or recurrence of adenomatous polyps in ∼5000
+  participants». [@veronese2018] So the
+  colorectal arm is exactly the [[Surrogate Outcomes]] hazard: an observational association whose one
+  RCT test on the precancerous lesion came back null.
+
+### The umbrella does NOT out-rank Reynolds (correcting the hierarchy intuition)
+
+An umbrella review sits above a single SR in the tidy pyramid, but Veronese **excluded RCTs** —
+«meta-analyses including data from randomized controlled trials» were an exclusion criterion.
+[@veronese2018] So on the *causal* axis it is
+weaker than Reynolds (which carries 58 RCTs on the surrogates); its authors concede «future
+randomized controlled trials in large sample sizes are needed to confirm these observational
+findings». [@veronese2018] Its value is the
+**bias-diagnostic + breadth layer**, not a higher grade.
+
+### Parameter table — Veronese vs Reynolds (BLOCKING, op-weave 2a)
+
+The temptation is to read Veronese's near-identical mortality RR as an *independent* confirmation of
+Reynolds. It is not independent — both pool the **same underlying prospective cohort literature**
+(Veronese's all-cause-mortality MA is Yang 2015; its CVD MA is Threapleton 2013 — the very cohorts
+Reynolds' own meta-analysis re-pools). Shared primary studies = shared-evidence agreement, **not**
+type-E independent backing.
+
+| Parameter | Veronese 2018 | Reynolds 2019 | Same quantity? |
+|---|---|---|---|
+| Design | umbrella of 18 observational MAs (298 cohorts), **RCTs excluded** | own SR/MA: 185 prospective cohorts **+ 58 RCTs** | **NO** — observational-only vs SR-with-RCT arm |
+| All-cause mortality | RR 0.835 (0.797-0.875), highest-vs-lowest | RR 0.85 highest-vs-lowest | **\~SAME** direction+magnitude, but shared cohorts |
+| CVD / CHD | RR 0.913 (0.893-0.932) per **7 g/d** | CHD RR 0.76 hi-vs-lo; \~0.93 per **8 g/d** | **NO** — 7g vs 8g increment, different contrast |
+| Evidence appraisal | Ioannidis credibility class I-IV + excess-sig/small-study/PI | GRADE certainty | **NO** — different instruments |
+| Causal stance | needs future RCTs to confirm (no RCT arm; authors' own caveat) | likely-causal by trial + cohort triangulation | **NO** — Reynolds triangulates an RCT arm |
+| Independence | pools same cohort literature Reynolds uses | same underlying cohorts | **NOT independent** -> F/shared, not E |
+
+**Defensible synthesis (type F):** Veronese *corroborates the mortality/CVD magnitude* from the same
+observational base and *adds a bias-diagnostic grading* that Reynolds did not run — confirming the
+robust core (mortality, CVD) while flagging the cancer periphery as weak and case-control-driven. It
+raises confidence in *which outcomes to believe*, not in the causal status (still observational,
+still `confidence: medium`). It says nothing about dose-response **shape** (it used highest-vs-lowest
+contrasts, not per-increment curves), so it neither confirms nor tempers the no-plateau reading.
+
+### Self-critique `[run 2026-07-31, before commit — Veronese section]`
+
+- **Over-claim.** The section leads with the *bounding* reading (only mortality/CVD convincing) and
+  explicitly denies the umbrella out-ranks Reynolds. No superlative scoped to the vault's holdings.
+- **Laundered-E.** Independence is *denied*, not claimed — the parameter table's final row and the
+  shared-cohort note (Yang 2015 / Threapleton 2013) are the guard. No `[E-independent]` token added.
+- **Not-joined / counter-passage.** No tension filed: Veronese concludes fibre intake should be
+  promoted and «our results support dietary recommendations that promote a higher fiber intake» —
+  same direction as Reynolds. The apparent friction is on *certainty/breadth*, resolved as an
+  F-refinement, not an opposed claim (checked against Veronese's own Discussion + Conclusion).
+- **Symmetric standards.** The mortality corroboration (conventional direction) is held to the
+  same shared-cohort / observational caveat as any contested claim.
 
 ## References

@@ -16,7 +16,7 @@ relationships:
     - Free Sugars Intake
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -181,6 +181,17 @@ diet trials is impractical.
 - **Early rapid loss on carbohydrate restriction is partly water and reverses on refeeding.** Someone
   judging a diet by week-two scale change is reading a hydration signal.
 - **Nothing here speaks to mortality or cardiovascular events**, in either direction.
+
+**Broadened to the whole named-diet field by Ge 2020 (F, shared-evidence — NOT independent).** The
+pairwise near-equivalence here generalises: a 121-RCT network meta-analysis across 14 branded diets and
+three macronutrient patterns finds low-carbohydrate and low-fat near-identical on 6-month weight (4.63 v
+4.37 kg vs usual diet) and between-diet differences «typically small to trivial», with weight benefit
+decaying \~1.5 kg per diet and cardiovascular risk-factor gains «largely disappear[ing]» by 12 months
+-> [[Named Diet Programs Compared]]. This **corroborates** the *macronutrient-split-is-close-to-
+irrelevant* verdict from a network design, but is **not** independent backing — Ge pools the same
+low-carb-vs-low-fat RCT class (e.g. Bazzano 2014, Yancy 2004) and cites the earlier Naude 2014 MA, so a
+shared missing-trial or confounding structure would move both. Ge is a corroboration line here, not a
+`sources:` entry (its distinct extraction lives on the paired page).
 ## Where it stands relative to guidance
 
 The review's findings sit **comfortably inside prevailing guidance**, and it says what that guidance

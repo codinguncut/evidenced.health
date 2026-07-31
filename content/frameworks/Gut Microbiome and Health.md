@@ -17,14 +17,18 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
 updated: 2026-07-31
-self_critiqued: 2026-07-29
+self_critiqued: 2026-07-31
 ---
 
-**The fabric's microbiome nucleus.** Two gold-standard sources anchor it: Valdes 2018 (BMJ) for the
-evidence-map and the causation problem, and the WGO 2023 Global Guideline for probiotics/prebiotics
-evidence *by indication*. The through-line: **the microbiome is genuinely modifiable and matters in
-specific places, but "it altered the microbiome" is a surrogate, and most popular interventions are either
-strain-and-indication-specific or not-yet-evidenced.**
+**The fabric's microbiome nucleus.** Two sources anchor it, and they are **not** the same tier — read
+each accordingly: **WGO 2023, a Global Guideline (gold),** carries the probiotics/prebiotics evidence
+*by indication*; **Valdes 2018, a BMJ narrative review / evidence-map (moderate tier),** supplies the
+causation problem and the field overview. Valdes is the *weaker* witness — a non-systematic overview,
+not a pooled or graded synthesis — so its role here is deliberately confined to a **methodological
+caution** (composition-shift is not an outcome) and to widely-established clinical facts (FMT for
+recurrent *C. difficile*), never to carry a contested magnitude. The through-line: **the microbiome is
+genuinely modifiable and matters in specific places, but "it altered the microbiome" is a surrogate, and
+most popular interventions are either strain-and-indication-specific or not-yet-evidenced.**
 ## The load-bearing epistemics: composition-shift is not an outcome, and causation is the central confound
 
 Almost all microbiome research reports a *composition* change (which bacteria, how diverse). Valdes states
@@ -103,10 +107,12 @@ disease) are explicitly *not yet*.
   elsewhere (fibre, diet quality).
 ## Certainty and gaps
 
-- **`confidence: medium`** — the probiotics-by-indication claims rest on a gold-standard guideline (WGO)
-  citing RCT/meta-analytic evidence, and FMT-CDI is routine clinical practice; but the general
-  microbiome-health story is mostly observational (Valdes's own caution), and the guideline aggregates
-  primary evidence the fabric has not individually appraised.
+- **`confidence: medium`** — the grade rests on **WGO (gold guideline)** for the probiotics-by-indication
+  claims (citing RCT/meta-analytic evidence) plus FMT-CDI being routine clinical practice; **it is NOT
+  carried by Valdes** (a moderate-tier BMJ narrative review), whose role is confined to the surrogate
+  caution and field overview. The general microbiome-health story is mostly observational (Valdes's own
+  caution), and the guideline aggregates primary evidence the fabric has not individually appraised — so
+  `medium`, not higher, and it survives stripping the Valdes leg.
 - **Independence note:** Valdes (BMJ review) and WGO (guideline) agree on the strain-specificity and the
   FMT-CDI win, but both partly rest on the same primary literature — so this is *consistent gold-standard
   corroboration*, not strict `[E-independent]` backing.
@@ -126,6 +132,21 @@ disease) are explicitly *not yet*.
   `[E-independent]` is claimed.
 - **Demarcation deferred honestly** — "leaky gut" / candida sorting needs Camilleri (unheld); named as a
   gap rather than adjudicated from the overview.
+
+## Self-critique `[re-run 2026-07-31, tilt-audit relabel, before commit]`
+
+- **Tier mislabel fixed (the tilt).** The header previously called **both** anchors *gold-standard*,
+  which over-graded **Valdes** — a moderate-tier BMJ *narrative* review / evidence-map, not a pooled or
+  GRADE-graded synthesis. Corrected to tier each source explicitly (WGO gold; Valdes moderate) and to
+  confine Valdes's load-bearing role to a **methodological caution** (composition-shift is not an outcome)
+  and to established clinical facts (FMT-for-recurrent-*C. difficile*), never to a contested magnitude.
+  Verified against the registry tier (`valdes2018` = `moderate` / `narrative-review`).
+- **Confidence re-checked, held at `medium`.** The decision-relevant probiotics/FMT claims rest on WGO
+  (gold) and on FMT-CDI being routine practice — not on Valdes — so `medium` is earned by the gold leg and
+  survives stripping the Valdes leg. Not demoted (the fix was the *label*, not the underlying grade); not
+  inflated (the general microbiome-health framing stays hedged as mostly observational).
+- **No new source-attributed claim.** This pass changed the wiki's own tier characterization, not any
+  `[EXTRACTED]` quote or attribution; the Valdes/WGO quotes and their loci are untouched.
 
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`

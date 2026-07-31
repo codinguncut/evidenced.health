@@ -297,7 +297,7 @@ stated plainly for acquisition rather than papered over with invented numbers:
 - **A gradual-vs-rapid weight-loss RCT / SR on regain and target achievement** (the TEMPO / Purcell 2014
   Lancet Diabetes & Endocrinology type) — the randomized test that would separate a genuine speed effect
   on regain from method and confounding. It is the single most decisive missing piece, behind the
-  U-curve upper arm and the regain claim. **Not held.**
+  U-curve upper arm and the regain claim. **Not held.**] (Sumithran 2011: appetite hormones defend the higher weight at 12mo); cite it for the physiological driver of regain, distinct from the still-missing rate-of-loss trial]
 - **An exercise-vs-hypocaloric-diet (and combined) body-composition / visceral-fat SR/MA** (Verheggen
   2016; Khalafi 2023 dose-response) — the magnitude behind the deficit-source body-composition trade-off.
   **Not held.**

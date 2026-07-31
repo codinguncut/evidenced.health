@@ -2,11 +2,11 @@
 type: framework
 question: Does WHEN you eat, independent of what and how much, change body weight or cardiometabolic outcomes?
 aliases: [TRE, Time-Restricted Feeding, TRF, eTRF, Early Time-Restricted Feeding, Intermittent Fasting Window, 16:8 Eating, Skipping Breakfast]
-authors: [Lowe, Dylan A; Weiss, Ethan J; Sutton, Elizabeth F; Peterson, Courtney M; Ravussin, Eric]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018]
+authors: [Lowe, Dylan A; Weiss, Ethan J; Sutton, Elizabeth F; Peterson, Courtney M; Ravussin, Eric; Liu, Deying; Zhang, Huijie]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Liu - Calorie Restriction Time-Restricted Eating 2022]
 cluster: cardiometabolic-exposures
 nucleus: true
-confidence: low
+confidence: medium
 relationships:
   related_to:
     - Does Weight Loss Reduce Cardiovascular Events
@@ -15,8 +15,8 @@ relationships:
     - Protein and Resistance Training for Muscle and Strength
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-07-29
-self_critiqued: 2026-07-29
+updated: 2026-07-31
+self_critiqued: 2026-07-31
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster's meal-timing facet.** The decision question:
@@ -25,9 +25,18 @@ does *when* you eat — the clock position of the eating window — change weigh
 together they **decompose** the popular claim rather than settling it as a single number.
 ## The bottom line, up front
 
-- **The weight-loss rationale for TRE is weak.** In the one adequately-powered free-living RCT (TREAT,
-  n=116), a self-selected 16:8 window with *no other change* produced **no weight advantage** over
-  normal eating — and its modest weight loss was disproportionately **muscle** (a harm signal).
+- **The weight-loss rationale for TRE is weak — and this is now RCT-evidenced, not inferred.** The
+  schedule-isolating test is **Liu 2022** (NEJM, n=139, 12 months): both arms were prescribed the *same*
+  calorie deficit and only the 8-hour window differed, so it isolates the window from the intake it
+  induces. Adding the window bought **no significant extra weight loss** («net difference, −1.8 kg; 95%
+  CI, −4.0 to 0.4; P = 0.11»), and every metabolic secondary was null between groups. The earlier
+  free-living RCT (TREAT, n=116) pointed the same way against ad-libitum eating; Liu is the cleaner
+  isocaloric head-to-head. The thesis *timing acts on weight mainly via energy intake, the window adds
+  little beyond the deficit* is thus **evidenced by a 12-month high-tier RCT**, no longer transferred by
+  analogy. [@liu2022]
+- **The muscle-loss harm is NOT intrinsic to the window — it tracks protein.** TREAT's disproportionate
+  lean-mass loss did **not** reproduce in Liu, which supplied a daily protein shake for 6 months and
+  found no between-group lean-mass difference (refinement below).
 - **But there is a real, weight-INDEPENDENT metabolic signal from eating EARLY.** In a tightly
   controlled, weight-matched crossover (eTRF, n=8), shifting the same food earlier in the day improved
   insulin sensitivity, blood pressure and oxidative stress **with no weight change at all.**
@@ -78,6 +87,65 @@ hides at least two distinct exposures that behave differently.
    **protein** intake and protein is eaten mostly at meals. A late/short window that quietly under-feeds
    protein trades fat-loss you wanted for muscle you didn't -> [[Protein and Resistance Training for Muscle and Strength]]. [@lowe2020]
 
+
+[@liu2022]
+## Liu 2022 — the RCT that isolates the schedule from the deficit
+
+The load-bearing gap the page previously named (*a calorie-matched TRE-vs-continuous-restriction test —
+does the null generalize?*) is now held. Liu et al. (NEJM 2022) randomized **n=139** obese, non-diabetic
+adults (BMI 28-45, Guangzhou) to an 8-hour window (8:00am-4:00pm) **plus** calorie restriction vs the
+**same** daily calorie restriction **without** a window, for **12 months**. Both arms got an identical
+prescribed deficit (men 1500-1800, women 1200-1500 kcal/day), high and equal adherence («84.0±16.1% ...
+83.8±12.6%»), 85% completion. So the only difference between arms *is the clock*, which is exactly the
+quantity TREAT could not isolate. [@liu2022]
+
+- **Weight (primary): null between groups.** −8.0 kg (TRE) vs −6.3 kg (CR); «Changes in weight were not
+  significantly different in the two groups at the 12-month assessment (net difference, −1.8 kg; 95% CI,
+  −4.0 to 0.4; P = 0.11)». Both arms lost real weight — the *deficit* worked; the *window* added nothing
+  detectable. [@liu2022]
+- **Every secondary null between groups too:** body fat (−5.9 vs −4.5 kg), visceral fat, waist, BMI, lean
+  mass (−1.7 vs −1.4 kg), systolic/diastolic BP, fasting and 2-h glucose, HOMA-IR, insulin disposition
+  index, and lipids — no significant between-arm difference on any. Adverse events similar; no deaths.
+  [@liu2022]
+- **Authors' own verdict:** «caloric intake restriction explained most of the beneficial effects seen
+  with the» time-restricted-eating regimen, which «did not produce greater weight loss than the regimen
+  of daily calorie restriction, with both regimens» reaching similar caloric deficits.
+  [@liu2022]
+
+### Why Liu is a cleaner quantity than TREAT — matched parameters (op-weave 2a)
+— cells are extracted per source; the *same quantity?* judgment is the wiki's.
+
+| Parameter | TREAT (Lowe 2020) | Liu 2022 | Same quantity? |
+|---|---|---|---|
+| Comparator arm | window vs **ad libitum** (no deficit prescribed to control) | window vs **isocaloric** continuous deficit (same target both arms) | **NO** — Liu matches the deficit out; TREAT does not |
+| What is isolated | the window **+ whatever intake change it causes** | the **window alone** (schedule) | **NO** — Liu isolates the clock, TREAT confounds it with intake |
+| Window clock position | **late** (12-8pm) | **early/midday** (8am-4pm) | **NO** — different circadian placement |
+| Endpoint | weight, 12 wk | weight, **12 mo** | partly — same measure, longer horizon |
+| Between-arm weight verdict | null vs ad libitum | null vs isocaloric CR | consistent — **both null**, but against different comparators |
+
+The two nulls agree in *direction* and Liu is the stronger design for the schedule question — but they are
+**not the same comparison**: TREAT asks *does a window beat eating freely?*, Liu asks *does a window beat
+the identical deficit delivered without one?* Liu answering **no** is the decisive one for *is the clock
+itself a lever* — it removes the intake difference TREAT leaves in. type-F (Liu bounds TREAT's reading with
+the cleaner design).
+
+### The lean-mass harm does NOT reproduce — it was protein, not the window (type-F)
+
+Liu **explicitly joins** TREAT's muscle-loss finding: it cites Lowe and reports the opposite result,
+attributing the difference to protein. This is the source's own contrast, not a manufactured one.
+
+| Parameter | TREAT (Lowe 2020) | Liu 2022 | Same quantity? |
+|---|---|---|---|
+| Lean-mass result | \~65% of weight lost was lean; significant appendicular-lean deficit | «no significant differences between the groups in gains in body lean mass» (−1.7 vs −1.4 kg) | **NO** — within-arm loss share vs between-arm difference |
+| Protein provision | none; ad-libitum short window | **daily protein shake, first 6 months** + balanced-macro prescription | **NO** — the decisive difference |
+| Liu's own reading | (contrast cited) | «the importance of a balanced diet and adequate protein consumption in patients who are adhering to a diet regimen of time-restricted eating» | — |
+
+**Refinement:** the lean-mass loss is a **downstream consequence of a window that under-feeds protein**,
+not an intrinsic effect of restricting the eating window. Guard protein and it does not appear — which is
+exactly the decision-relevant instruction the page already gives (*eat earlier, keep protein up*), now with
+a direct RCT contrast behind it. [@liu2022]
+
+
 ## Why this is not a filed tension (the not-joined check)
 
 Ran the counter-passage check on both sources' own design/limits statements end to end. The apparent
@@ -108,13 +176,19 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
 ## Certainty and gaps
 
-- **`confidence: low`.** The *weak weight-loss rationale* leg is reasonably firm (one adequately-powered
-  RCT + the field). The *real early-timing benefit* leg rests on a **single n=8 crossover** with the
-  fasting-duration confound (18h vs 12h fast before testing) and morning-only measurement — genuinely
-  preliminary. No hard outcomes anywhere; no long-term data; eTRF is men-only, prediabetic.
-- **Gaps (G):** a calorie-matched TRE-vs-continuous-restriction meta-analysis (does the null generalize?);
-  an early-vs-late head-to-head at the same window length; a breakfast-skipping RCT; any hard-outcome or
-  trajectory data. `AWAITS` these.
+- **`confidence: medium` (raised from low on Liu).** The *weak weight-loss rationale* leg is now firm — two
+  RCTs, including a 12-month high-tier isocaloric head-to-head (Liu, n=139) that isolates the window and
+  finds it adds nothing. The *real early-timing benefit* leg still rests on a **single n=8 crossover** (eTRF)
+  with the fasting-duration confound and morning-only measurement — genuinely preliminary, and Liu does not
+  test it (Liu's window is early-ish but its control is also calorie-matched, so it speaks to *window vs no
+  window*, not *early vs late*). No hard outcomes anywhere; weight/waist are measured endpoints but CV/mortality
+  trajectory is unmeasured; eTRF is men-only, prediabetic; Liu is non-diabetic Chinese adults, no diabetes/CVD.
+- **Gaps (G):** the calorie-matched TRE-vs-continuous-restriction **RCT is now held (Liu)** — still open is a
+  TRE-vs-CR **SR/MA** (does the null generalize across protocols and populations?); an early-vs-late head-to-head
+  at the same window length (the eTRF question at scale); a breakfast-skipping RCT; any hard-outcome or
+  trajectory data. `AWAITS [@semnaniazad2025] — the
+  IF network-MA that would tell whether Liu's single-RCT null is the pooled picture (Liu is almost certainly
+  inside it; that would make it type-F/shared, not type-E).`
 - **Adherence caveat cuts both ways:** eTRF participants found *eating within 6h* harder than the 18h
   fast, so the efficacious protocol may be the least feasible one — an 8h+ early window is the realistic
   target.
@@ -131,5 +205,27 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 - **Attribution.** Both trials read directly; quotes located via source. TREAT authors' approving
   citation of Sutton is the counter-passage that closes the apparent clash — verified in TREAT's
   Discussion.
+
+## Self-critique `[re-run 2026-07-31, Liu append, before commit]`
+
+- **Overclaim check.** Liu is stated precisely as a **null for the window's ADDED effect on an isocaloric
+  deficit** — *not* a null for weight loss (both arms lost 6-8 kg; the deficit worked). The wording «did
+  not produce greater weight loss than the regimen of daily calorie restriction» and «caloric intake
+  restriction explained most of the beneficial effects» are the source's own; I did not upgrade the
+  between-arm null (P=0.11, CI crossing 0) into a claim of equivalence — reported as *no significant
+  difference*, which is what it is. Confidence raised low->medium survives stripping the −1.8 kg number:
+  even without it, two RCTs + the field carry *the window is mainly a deficit-delivery vehicle*; the eTRF
+  early-timing leg is untouched and stays weak, so `high` is not earned.
+- **Parameter-table discipline.** Both cross-source claims (Liu vs TREAT on the isolated quantity; Liu vs
+  TREAT on lean mass) carry a matched-parameter table with a *same quantity?* column, individually quoted.
+  The tables' NO cells are the point: Liu's between-arm null and TREAT's window-vs-adlib null are *not* the
+  same comparison — flagged, not laundered into one.
+- **type-E guard (single RCT vs the MA).** Liu is a single RCT; Semnani-Azad 2025 is an IF network-MA that
+  almost certainly *includes* Liu -> shared evidence, **F not E**. No type-E backing asserted; the
+  AWAITS states the F/shared expectation explicitly so it is not later mis-scored as E.
+- **Counter-passage.** Read Liu's full Discussion end to end before writing the lean-mass refinement — Liu
+  itself cites Lowe (#11) and states the opposite lean-mass result with the protein explanation, so the
+  contrast is the source's own joined issue, not a manufactured tension. Verified.
+- **Attribution.** All quotes emitted via `bin/cite.py` in the verified «...» form, slug-pinned to chunk 01.
 
 ## References

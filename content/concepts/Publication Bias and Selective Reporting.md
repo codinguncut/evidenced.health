@@ -2,8 +2,8 @@
 type: concept
 question: How does the filter deciding which results get published make a body of literature overstate an effect — and how much should a reader discount for it?
 aliases: [Publication Bias, Selective Reporting, Selective Outcome Reporting, File-Drawer Problem, Effect-Size Inflation, Winner's Curse, Small-Study Effect]
-authors: [National Academies of Sciences Engineering and Medicine (org); Page, Matthew J; Higgins, Julian PT; Sterne, Jonathan AC]
-sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5]
+authors: [National Academies of Sciences Engineering and Medicine (org); Page, Matthew J; Higgins, Julian PT; Sterne, Jonathan AC; Veronese, Nicola; Lane, Melissa M; Marx, Wolfgang]
+sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5, Veronese - Dietary Fibre Health Umbrella 2018, Lane - Ultra-Processed Food Umbrella 2024]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
@@ -127,5 +127,30 @@ proof of publication bias — ask whether the review compared registered protoco
 check), and treat funnel asymmetry as a small-study-effects flag with several explanations.
 → [[Synthesis Without Meta-Analysis]], [[Risk of Bias Assessment Tools]] (domain 5 covers *within-study*
 result selection; cross-study missingness is this page / ROB-ME).
+
+## Worked case — the excess-significance screen applied to a nutrition literature `[2026-07-31]`
+
+The abstract machinery above (test of excess significance, small-study effects, prediction intervals)
+is what an **umbrella review** runs across a body of meta-analyses to grade credibility. Veronese
+2018 applied all three to 18 fibre meta-analyses (21 outcomes): 17 of 21 outcomes had the largest
+study more conservative than the random-effects pooled estimate (the small-study signature), and
+**breast cancer and coronary artery disease carried outright excess-significance bias** — nominally
+significant, but with more significant component studies than their power should produce.
+[@veronese2018] This is the body-level filter
+made operational: the credibility gate that separated «convincing» from «suggestive» was chiefly the
+**95% prediction interval excluding the null**, not the summary P value → [[Dietary Fibre and Health]]
+(the fibre-outcome grading), [[Risk of Bias Assessment Tools]].
+
+**Second worked case — Lane 2024 (ultra-processed food umbrella).** The same apparatus, run across 45
+UPF-outcome pooled analyses, and the instructive result is *where the screen fired*: excess-significance
+bias in **9 of 28 (32%)** analyses with >=3 studies, and small-study effects in **5 of 28 (18%)** —
+including **all-cause mortality, obesity, and type 2 diabetes**, the outcomes the review headlines.
+[@lane2024upf] The lesson refines the Veronese case:
+the bias screens are not confined to the weak associations — a **nominally-convincing (class I)**
+association can still carry excess-significance bias, so the screen's diagnostic value is precisely that
+it flags the strong-looking associations, not only the fragile ones → [[Ultra-Processed Food and Health Outcomes]].
+Lane also shows the credibility class and GRADE quality are **distinct axes**: its class-I CVD-mortality
+association is GRADE *very low* — the bias-screened strength of an association is not its causal certainty
+→ [[Rating Certainty of Evidence]].
 
 ## References

@@ -434,7 +434,7 @@ not invented numbers (the gaps are tracked against the nucleus,
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 13 sources — 5 gold, 7 high, 1 non-gold |
+> | **Evidence included** | 13 sources — 3 gold, 9 high, 1 non-gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 non-gold source(s) feed this page: Valdes (narrative review). Labelled-weak, not load-bearing. |
 > | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |

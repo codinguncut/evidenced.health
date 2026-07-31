@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org)]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-29
 created: 2026-07-28
 updated: 2026-07-31
+self_critiqued: 2026-07-31
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
@@ -126,11 +126,21 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     path, adjusting for it wrongly *attenuates* a real effect; if a *confounder*, adjusting is correct.
     The persistence-after-adjustment that reads as robustness cuts both ways. AWAITS a Mendelian-
     randomization source on NSS — the only instrument that would adjudicate the arm.
-- **Sodium — named, never adjudicated.** WHO cited a J-shaped hypothesis (harm below \~2 g/day) as the
-  reason for its review, then «never returned to» it, and excluded a priori the strata where a
-  lower-arm harm is most plausible -> [[Sodium Intake and Blood Pressure]]. The concept says exactly
-  what would settle it: a referent-corrected or MR analysis of the low-intake arm, which the corpus
-  does not yet hold.
+- **Sodium — named, argued-but-not-adjudicated.** WHO cited a J-shaped hypothesis (harm below \~2 g/day)
+  as the reason for its review, then «never returned to» it, and excluded a priori the strata where a
+  lower-arm harm is most plausible -> [[Sodium Intake and Blood Pressure]]. **He 2013 rebuts the same
+  J-curve papers** invoking «measurement error … confounding … and reverse causality» — this concept's
+  recipe, named — **but only as a critique, from CASH/WASH advocates, with no referent-correction or
+  MR** on the low-intake arm. [@he2013] So it is
+  the textbook case of the decision rule: a partisan *argument* that the arm is artifact is **not** the
+  strong check, and the arm stays **unadjudicated**. The concept says exactly what would settle it: a
+  referent-corrected or MR analysis of the low-intake arm, which the corpus does not yet hold.
+  **Huang 2020 (same lineage) adds a second such argument, not the check:** it frames the low-intake
+  mortality signal as «an artefact attributable to factors such as reverse causation and biased
+  estimation of sodium intake» and directly contradicts PURE's high-intake *BP*-association threshold
+  with RCT effects «far below this» — but this is the concept's recipe *named* again, still without an
+  MR or referent-correction on the arm. [@huang2020, 
+] Two same-lineage critiques do not compound into an adjudication; the arm stays open.
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
   ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [@jha2013]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking

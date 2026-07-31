@@ -276,7 +276,7 @@ wisdom.
 > | | |
 > |---|---|
 > | **Question** | For a drifting-median metabolic-drift adult, which diet and lifestyle exposures carry the largest expected benefit, and which guidance is robust across the distribution rather than only for the impaired? |
-> | **Evidence included** | 25 sources — 12 gold, 11 high, 2 non-gold |
+> | **Evidence included** | 25 sources — 9 gold, 14 high, 2 non-gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 non-gold source(s) feed this page: Ross (narrative review); Lowe (RCT). Labelled-weak, not load-bearing. |
 > | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |

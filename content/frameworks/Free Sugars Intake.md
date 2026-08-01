@@ -15,8 +15,8 @@ relationships:
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-07-30
-self_critiqued: 2026-07-29
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
@@ -218,7 +218,7 @@ figures come from, recovers four bounds the guideline's rendering does not carry
   chapter of a multi-position author.
   **The bottom line nonetheless agrees** — both rate the `<5%` evidence *very low* overall — so this is
   a disagreement about *which domain carries the downgrade*, not about how confident to be. Recorded as
-  a distinction with a live disagreement inside it, not filed as a page-level `[[tension]]`, because
+  a distinction with a live disagreement inside it, not filed as a page-level *tension*, because
   nothing downstream of it changes.
   **And it is direct evidence against an over-strong reading of the section below**: a commissioned
   review that contradicts its commissioner on a domain rating is not the same witness as it.
@@ -277,7 +277,7 @@ WHO's evidence for it.** Two arguments landing on one number.
   WHO and SACN as two witnesses for `<5%` would be the laundering the guard exists to catch — and it
   would be an easy mistake, because the surface facts (different country, different body, different
   instrument, same number) all point the wrong way.
-- **What it IS: a genuine [[tension]]-grade finding about the number's warrant.** The `<5%` figure is
+- **What it IS: a genuine *tension*-grade finding about the number's warrant.** The `<5%` figure is
   robust to method in a way *neither body alone* can show — but only if you accept that two
   incompatible evidence standards both point there. That is weaker than corroboration and stronger
   than a single very-low-quality result.
@@ -510,7 +510,7 @@ disagree.
 **The join is a distinction, not a tension (not-joined check (ii): different scope).** WHO Sugars sets
 the goal; WHO NSS rules on one *means* to the goal, and prefers water/fruit over the NSS route because a
 sugar→NSS swap leaves «the overall quality of the diet … largely unaffected». No shared quantity is
-compared, so nothing here is a `[[tension]]`.
+compared, so nothing here is a *tension*.
 
 **NON-INDEPENDENT — same body.** WHO NSS 2023 is the same organization as WHO Sugars 2015 (and shares the
 NUGAG Subgroup and reviewer pool), so its agreement is **not** type-E independent corroboration — the same
@@ -567,5 +567,16 @@ substitution frame; it does not add an independent backing.
   whose extension is *free sugars*. It follows from NNR's own glossary, but NNR never states the
   identity, and a reader who takes the phrase as naming a deliberately broader construct would get a
   different comparison. Tagged in place.
+
+
+## Does fructose's MASLD biochemistry make high-fructose FRUIT a concern? (deliverable-critique, 2026-08-01)
+
+No - not whole fruit at normal intakes, and WHO's definition already encodes why. The MASLD-relevant
+fructose harm is a **dose + form** story: a large *free*-fructose bolus (sugar-sweetened beverages, fruit
+juice, HFCS) drives hepatic de novo lipogenesis; whole fruit delivers a **modest** fructose dose packaged
+in a fibre matrix that slows absorption and blunts the hepatic flux. This is exactly why the free-sugars
+limit **excludes intrinsic whole-fruit sugars and includes fruit juice** (the definition above) - *fruit
+juice is in, whole fruit is out.* So the decision-relevant lever is cutting free fructose in **beverages**,
+not avoiding whole fruit -> [[Fatty Liver MASLD and Weight Loss]].
 
 ## References

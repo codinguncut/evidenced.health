@@ -12,7 +12,8 @@ relationships:
     - Risk Modifiers - When Extra Information Changes a Risk Estimate
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 A 10-year horizon under-states the case for acting in younger adults, and ESC says so plainly. **But
@@ -160,5 +161,19 @@ extraction of all three grids is owed.
   process in which patient preference, expected treatment harms, and costs can be taken into account."*
   It informs a decision by routing it to shared decision-making, not by leaving it open.
 - One guidance body; whether others endorse lifetime framing or this model is **unprobed**.
+
+
+## The elderly-end companion - the diet levers transition with age, they do not flip at one (2026-08-01)
+
+The "both directions" logic also answers a common question: *at what age (say 45 to 70) do
+restrict-energy / lose-visceral-fat recommendations flip?* **There is no single flip age.** Two
+continuous gradients govern it, not a birthday: the benefit of longevity plays declines with age (the
+lifetime-benefit gradient this page describes), shifting the outcome menu from mortality toward
+function; and energy restriction's sarcopenia hazard rises as muscle reserve falls, so weight loss is
+reclassified from an unqualified lever to a conditional, muscle-protective one
+-> [[Protein and Resistance Training for Muscle and Strength]], [[Does Weight Loss Reduce Cardiovascular Events]].
+So the decision-relevant trigger is **muscle status + remaining life expectancy + baseline risk, not
+chronological age** - a sarcopenic 58-year-old is already on the preserve-muscle side; a robust,
+high-visceral-fat 68-year-old is not.
 
 ## References

@@ -13,8 +13,8 @@ relationships:
     - Upgrading Observational Evidence
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-27
-updated: 2026-07-30
-self_critiqued: 2026-07-29
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 **Primarily WHO's 2020 evidence profiles** (plus Willett on measurement). WHO's own evidence base is
@@ -97,7 +97,7 @@ LOW** certainty. [@who2020]
 between all-cause mortality and meeting strength recommendations (and not aerobic PA
 recommendations)»* — which looks opposed to Stamatakis. It is not: **Siahpush's profile is about
 smokers**, Stamatakis pools 11 general-population cohorts. Different population, consistent once
-matched. Recorded here so the apparent clash is not re-filed later as a `[[tension]]`.
+matched. Recorded here so the apparent clash is not re-filed later as a *tension*.
 [@who2020]
 
 ## Sedentary time is a separate exposure with its own thresholds
@@ -176,5 +176,18 @@ be measured differently**, which is a transportability problem, not an attenuati
 the estimate on this page may behave differently, and **this wiki holds no source establishing that
 either way**. Recorded as a caution about the *class* of instrument, not as a defect in the specific
 estimate.
+
+
+## Is "24 min/day" false precision? Read it as a flat-region central estimate (deliverable-critique, 2026-08-01)
+
+The \~24 min/day MVPA figure is a real source value - the point where the mortality dose-response is
+«close to the maximum», i.e. where the curve FLATTENS - not an invented threshold. But the concern is
+right: it should not be read as a precise minimum effective dose. Two held rules make it a REGION, not a
+number: *a minimum effective dose is a region, not a number* (outcome-specific), and *required precision
+scales with local curvature* - near a plateau the exact figure carries little decision weight. So 24 min
+is the central estimate of a broad flattening zone (\~20-40 min/day of MVPA); whether it is 20, 24 or 40
+barely changes the decision, and the decision-relevant shape is the one this page already gives: the
+marginal minute is worth the most at the bottom, and most of the benefit is banked well before the number
+is reached.
 
 ## References

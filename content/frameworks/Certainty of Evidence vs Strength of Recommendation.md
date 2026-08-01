@@ -321,9 +321,7 @@ certainty, weak recommendation — occurs zero times**, and so does the rare one
 ### The falsifier, stated in advance
 
 **A guideline whose recommendations vary in values/preferences should produce the off-diagonal** —
-screening decisions, drugs carrying burden or side-effects, interventions with real opportunity cost.
-`AWAITS` [[ADA-EASD - Nutrition Therapy for Diabetes 2019]] and
-[@nasem2011]; **if either shows high-certainty conditional
+screening decisions, drugs carrying burden or side-effects, interventions with real opportunity cost. and; **if either shows high-certainty conditional
 recommendations, this section's pattern is WHO-and-nutrition-specific and must be narrowed to say so.**
 Recorded as a prediction rather than a conclusion, because a 7-cell single-body sample is exactly the
 size at which a pattern is most tempting and least supported.

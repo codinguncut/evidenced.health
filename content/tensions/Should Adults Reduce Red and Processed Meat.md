@@ -6,8 +6,8 @@ authors: [World Cancer Research Fund International (org); Johnston, Bradley C; G
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019]
 cluster: cardiometabolic-exposures
 confidence: medium
-updated: 2026-07-30
-self_critiqued: 2026-07-29
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 relationships:
   related_to:
     - Red and Processed Meat and Cancer
@@ -159,5 +159,21 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
   backing), never an E.
 - **The COI is flagged, not weaponised** — recorded as a process note with the telos's class-5 bar, so
   the disagreement is adjudicated on reasoning.
+
+
+## What "continue current consumption" means - and why it does not license an all-meat diet (deliverable-critique, 2026-08-01)
+
+The critique is right that "continue current consumption" reads as under-specified. Two clarifications:
+
+- **It is a WEAK recommendation about the EVIDENCE, not an endorsement of any level.** It means the
+  low-certainty evidence does not justify telling people to *change* - the right choice depends on values
+  (the weak-recommendation reading above). It is calibrated to the STUDIED range - typical Western intake
+  \~2-4 servings/week.
+- **It does NOT transport to an all-meat / carnivore diet.** That intake sits far outside the studied
+  exposure range (a transportability failure - the trials/cohorts never tested it), so "no change is fine"
+  does not speak to it. A carnivore pattern also raises *separate* questions this red-meat-cancer
+  recommendation never addressed - zero fibre, maximal SFA / LDL load, and micronutrient adequacy
+  -> [[Saturated Fat Intake and Replacement]], [[Whole Grains Refined Grains and Pulses]]. "No change"
+  applies to someone already within the typical range, not as a green light for an extreme.
 
 ## References

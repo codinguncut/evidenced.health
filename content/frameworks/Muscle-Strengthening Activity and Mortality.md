@@ -14,8 +14,8 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - The U-Shaped Association Artifact
 created: 2026-07-29
-updated: 2026-07-29
-self_critiqued: 2026-07-29
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
@@ -147,5 +147,24 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 - The dose-response upper arm is not usable (above); the diabetes L-shape is the more trustworthy dose
   curve.
 - Frequency vs total-time could not be separated; the target-dose is a region, not a number.
+
+
+## Why the diabetes curve is clean but the mortality curve is not (deliverable-critique, 2026-08-01)
+
+A reasonable puzzle (deliverable-critique): how can the diabetes dose-response be clean and L-shaped while
+all-cause mortality is noisy - does glycaemic control not reach mortality? It does: RT lowers **both**
+(mortality RR 0.85, diabetes 0.83), so the glycaemic lever is not divorced from mortality. Two reasons the
+shapes differ, neither implying inertness:
+
+- **Dilution into a distal composite.** Diabetes is a proximate disease endpoint with a direct mechanism
+  (the muscle glucose «sink»); all-cause mortality is a COMPOSITE of every cause, so a real diabetes
+  reduction moves it only in proportion to diabetes's share of deaths - the signal is diluted and noisier
+  (and here sits at very-low certainty), not absent.
+- **Glucose is a SURROGATE.** Its transmission to all-cause mortality is imperfect: Look AHEAD improved
+  glycaemia and weight without cutting hard CV events, and intensive glucose-lowering has even raised
+  mortality via hypoglycaemia -> [[Surrogate Outcomes]], [[Does Weight Loss Reduce Cardiovascular Events]].
+
+So "clean diabetes, noisy mortality" is the expected shape of a diluted, surrogate-mediated distal outcome,
+not evidence the channel does nothing.
 
 ## References

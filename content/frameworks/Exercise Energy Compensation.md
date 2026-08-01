@@ -12,8 +12,8 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-07-29
-updated: 2026-07-30
-self_critiqued: 2026-07-29
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 **The decision (Challenge #11).** The concern was that high-exertion exercise (HIIT) is offset by
@@ -122,5 +122,19 @@ scale*, not a shared number.
   make it a *qualified* E — recorded, not laundered. Magnitudes (18% vs 28%) deliberately NOT pooled.
   Careau brings distinct new content (BEE mechanism, adiposity gradient), earning its `sources:` slot on
   the dual test.
+
+
+## Reading "18% ± 93%" - it is a standard deviation, not a range (deliverable-critique, 2026-08-01)
+
+The «± 93%» is the **dispersion (SD), not a 7-34% interval** - and it is the actual finding. A mean of 18%
+with an SD \~93% (five times the mean) means compensation is so heterogeneous that the population mean
+barely predicts an individual: some people compensate >100% (eat back more than they burned), some near
+zero, some negatively. So "\~one fifth on average" is right for the *mean*, but the decision-relevant
+message is the SPREAD - you cannot read your own compensation off the average.
+
+The estimate also **pools across energy-balance states and durations**, which the source does not stratify:
+compensation rises with duration («approached 84%» at \~80 weeks), consistent with the intuition that a
+sustained deficit recruits a stronger compensatory (survival) response - so deficit-vs-maintenance-vs-
+surplus plausibly shifts it, and the pooled 18% hides that.
 
 ## References

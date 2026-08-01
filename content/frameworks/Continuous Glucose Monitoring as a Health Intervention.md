@@ -12,7 +12,7 @@ relationships:
     - Sodium Intake and Blood Pressure
     - Is the Food Category Doing Any Work
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-01
 self_critiqued: 2026-07-29
 ---
 
@@ -51,7 +51,14 @@ Even where CGM moves the surrogate, it optimizes a *partial* one. A CGM measures
 only** — it is blind to fructose and galactose, and (measuring glucose, not insulin) blind to the
 insulin response, so a protein- or fat-driven insulin excursion with little glucose rise is invisible.
 Optimizing the glucose trace can therefore mean optimizing an incomplete picture of the regulated
-system. These limits were sound as stated (challenge #14); the efficacy evidence above is the reason
+system. And the blindness is **exploitable in the harmful
+direction**: chasing a flatter trace rewards displacing glucose with what the monitor cannot see —
+**fructose** (the sugar most implicated in hepatic / MASLD harm) or **fat/protein** (whose response is
+glucose-invisible) — so optimizing the measured surrogate could *actively push* intake toward an
+unmeasured, plausibly-worse pattern, not merely give an incomplete one (a Goodhart failure). No
+CGM-behaviour trial measures whether this substitution actually happens, so it is a hypothesis, not a
+finding -> [[Fatty Liver MASLD and Weight Loss]], [[Surrogate Outcomes]].
+These limits were sound as stated (challenge #14); the efficacy evidence above is the reason
 they matter — the instrument is a partial surrogate whose transmission to a patient-important outcome in
 non-diabetics is **unevidenced**.
 ## Decision relevance

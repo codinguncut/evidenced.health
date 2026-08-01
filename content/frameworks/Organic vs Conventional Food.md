@@ -7,7 +7,7 @@ sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, 
 cluster: organic
 nucleus: true
 confidence: low
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-01
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,7 +16,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Should Adults Reduce Red and Processed Meat
 created: 2026-07-29
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 
 **Nucleus of the `organic` cluster.** This page holds the health appraisal of the "organic" label:
@@ -222,5 +222,17 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The cohort signal (organic → lower cancer, Baudry 2018) is **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal tool, with domain 1 (confounding — organic buyers differ on many exposures) and domain 2 (selection) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here.
+
+
+## "Free range" / "outdoor access" is a weak label - and that sharpens the exposure-vs-certification point (deliverable-critique, 2026-08-01)
+
+A labelling-integrity note on the WELFARE / consumer axis (named, not priced - the wiki adjudicates only
+the health axis): "free range" and "outdoor access" are **minimal regulatory standards** (a nominal door
+or brief access), not a guarantee of genuine pasture - the fig-leaf gap between the term and consumer
+expectation is real. The health-relevant consequence reinforces this page's frame: any compositional
+benefit that would actually track *pasture* (e.g. the grass-fed fat / omega-3 profile in animal products)
+is driven by the **underlying exposure**, which the label captures only loosely - so the certification is
+an even weaker proxy for the thing doing the work -> [[Is the Food Category Doing Any Work]]. Welfare
+adequacy itself is out of the health axis and not adjudicated here.
 
 ## References

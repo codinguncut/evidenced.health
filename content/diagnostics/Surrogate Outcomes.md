@@ -15,7 +15,7 @@ relationships:
     - Stress Management and Cardiometabolic Health
 created: 2026-07-25
 updated: 2026-08-01
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-01
 ---
 
 ## Why it matters
@@ -118,8 +118,8 @@ moves some lipid/inflammation markers, null on weight/glucose/BP, no hard outcom
 a marker whose transmission to a patient-important outcome is unevidenced.
 
 **The validated counter-exemplar — LDL / apoB.** The rule cuts both ways: a surrogate whose causal
-transmission *is* evidenced is a legitimate target. LDL/apoB-particle burden is the strongest such case
-the wiki holds — genetic, Mendelian-randomization and RCT evidence together establish it *causes* ASCVD,
+transmission *is* evidenced is a legitimate target. LDL/apoB-particle burden is a well-evidenced such case
+— genetic, Mendelian-randomization and RCT evidence together establish it *causes* ASCVD,
 so lowering it (by diet or drug) reduces events in proportion to the reduction achieved
 -> [[LDL ApoB and Cumulative Exposure]]. It is the opposite of the *marker moved, patient did worse*
 cases: not all surrogates are equal, and this one has earned target status. (The proviso still bites —
@@ -159,7 +159,7 @@ Two things worth carrying:
     that judgment, on the transmission question, with its reason on the record. A reasoned,
     documented, biology-based decision not to downgrade is **the judgment GRADE invites**, not a
     departure from a mandate — the not-joined check fires, and what is recorded here is a
-    *distinction*, not a `[[tension]]`.
+    *distinction*, not a *tension*.
   - What remains genuinely notable is narrower and still worth holding: **the same marker was judged
     direct enough to escape the certainty downgrade and indirect enough to cost strength.** WHO's
     stated reason for the second is that LDL *"is not a physical manifestation or confirmation of
@@ -229,7 +229,7 @@ this wiki has not adjudicated. **Recorded as Willett's stated position, not adop
 `SC-12`, and the handle is noted here without scoring it, per the ingest-scope rule. The surrogate
 point above stands on its own reasoning and does not depend on that claim being right.
 
-## The strongest surrogate-to-TARGET argument the corpus holds `[2026-07-28, ESC]`
+## A well-evidenced surrogate-to-target argument (LDL/apoB) `[2026-07-28, ESC]`
 
 The telos distinguishes a **surrogate** (stands in for an outcome *in the evidence*) from a **target**
 (something to steer toward), and licenses a target **only if its causal transmission to a named
@@ -369,7 +369,7 @@ The eTRF trial ([[Time-Restricted Eating]]) is a clean worked case of surrogates
 change and no hard outcome**. Under supervised, weight-matched controlled feeding, shifting eating earlier
 lowered morning systolic/diastolic BP «by 11 ± 4 mm Hg ... and 10 ± 4 mm Hg», cut mean insulin
 «by 26 ± 9 mU/L», improved insulin resistance «by 36 ± 10 U/mg (p = 0.005)», and reduced an oxidative-
-stress marker — while fasting **glucose** (the trial's *primary* endpoint) was null.
+stress marker — while fasting **glucose** (a pre-specified glycaemic outcome) was null.
 [@sutton2018]
 
 **Everything credited to eTRF is a surrogate, and the transmission to a patient-important outcome is
@@ -444,12 +444,16 @@ showed that testosterone im- proved many measures of bone structure and quality�
 | The surrogate | bone mineral density | areal + volumetric BMD (raised by T in prior trials) | **Yes** — both BMD |
 | The patient-important outcome | fractures | clinical fractures | **Yes** |
 | GRADE's stance | BMD is *proximate* -> rate down only one level | — | — |
-| Assumed direction of transmission | BMD up -> fewer fractures | BMD up, **fractures up (HR 1.43)** | the outcome **contradicts** the surrogate |
+| Assumed direction of transmission | BMD up -> fewer fractures | BMD **not measured in TRAVERSE** (up in prior trials), **fractures up (HR 1.43)** | the outcome **contradicts** the surrogate |
 
 **Why this instance is distinct on the page.** The LDL case is a surrogate argued *up* to target status
 (transmission evidenced); the NSS and organic cases are surrogates *declined* (transmission unevidenced).
 This is a third kind: a surrogate whose transmission was assumed on GRADE's own *proximity* grounds and
-then **empirically inverted** by an adequately powered RCT. Proximity plus a plausible mechanism plus a
+then **empirically inverted** by an adequately powered RCT. **Scope caveat:** the inversion is inferred
+*across studies*, not observed within one — the BMD-up leg is transported from prior trials in
+partly-different hypogonadal populations, and TRAVERSE (CVD-enriched men, osteoporosis *not* an entry
+criterion) did not itself measure BMD. That the surrogate was never measured in the population where the
+outcome inverted is itself part of the lesson, not a hole in it. Proximity plus a plausible mechanism plus a
 consistently-moving marker were **still not enough** — exactly Example 9's point (correlation is not
 prediction), made concrete on a patient-important outcome. It is the textbook *marker moved the right way
 while patients did worse* warning, realised. (Bound it: one RCT substudy, HR 1.43 with a CI that barely

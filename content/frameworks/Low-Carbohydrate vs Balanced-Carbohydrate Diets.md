@@ -264,7 +264,7 @@ threshold is <26% energy or <130 g/day, which is LOOSER than Naude's ketogenic b
 **Goldenberg's own credibility-tested subgroup decomposes its -3.46 kg the other way**: the pooled
 figure is driven by its *less* restrictive trials, not its deepest ones.
 
-**Why this is NOT filed as a `[[tension]]` — the scope check fires twice.** Naude's Analysis 1.3 is
+**Why this is NOT filed as a *tension* — the scope check fires twice.** Naude's Analysis 1.3 is
 from its **without-T2DM** comparison; Goldenberg's population is **entirely T2D**. Under the not-joined
 checks, two claims holding at different scope are not opposed until matched — and the reference-band
 mismatch above means the estimands do not match either.

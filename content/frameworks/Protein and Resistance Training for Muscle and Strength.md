@@ -16,7 +16,7 @@ relationships:
     - Testosterone Adiposity and Muscle
 created: 2026-07-29
 updated: 2026-08-01
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-01
 ---
 
 This is the **adaptation** side of the resistance-training lever, and it is the evidence Challenge #10
@@ -110,6 +110,14 @@ held — this is an evidence-weighting judgment, not a trial result.)
   training) to build muscle — every effect here is *during* resistance training.
 - **Age and training status modulate it**, not whether to do it: a 46-year-old sits near the age boundary
   (Morton splits at 45) where the supplement's edge is modestly reduced but the training's is not.
+- **"From what age is resistance training essential rather than nice-to-have?" is the wrong axis — it is
+  a lifelong lever with no on/off age.** Its mortality/CVD benefit runs across adulthood at a small dose
+  ([[Muscle-Strengthening Activity and Mortality]]); what rises with age is its *priority*, because muscle
+  and strength decline from midlife and RT is the primary lever preserving function, balance and
+  independence — outcomes that themselves become critical with age
+  ([[Lifetime Benefit - The Frame for Younger Adults]]). So "essential" tracks **falling muscle/function
+  status, not a birthday**: RT's rank rises continuously with sarcopenia risk rather than switching on at
+  an age.
 - **During weight loss, adequate protein + resistance training is how you keep lean mass** while losing
   fat (the fat-mass fell and lean mass rose here) — the practical reason it belongs in a weight-loss
   program, not just a strength one.

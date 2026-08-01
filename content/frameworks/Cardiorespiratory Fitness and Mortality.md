@@ -8,8 +8,8 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-30
-self_critiqued: 2026-07-28b
+updated: 2026-08-01
+self_critiqued: 2026-08-01b
 relationships:
   related_to:
     - Muscle-Strengthening Activity and Mortality
@@ -104,5 +104,60 @@ randomized, on a hospitalization-inclusive composite). The upgrade is real and b
   its METs are estimated, not measured.
 - Coherence, not validity (R1): a strong, graded, mechanism-plausible association — but not proof that
   acting on it changes a given person's life.
+
+
+## CRF is a measured CAPACITY, not a behaviour - and the predictor claim is cited (deliverable-critique, 2026-08-01)
+
+Two clarifications the critique asked for. First, "CRF is one of the best-evidenced mortality predictors"
+is **cited, not asserted**: Kodama's meta-analysis, Mandsager's large cohort, and the Ross AHA statement
+are the backing (this page + [[Measuring and Raising Cardiorespiratory Fitness]]). Second, CRF is not the
+same object as the total-activity mortality finding, and both are real:
+
+- **CRF / VO2max = a measured fitness CAPACITY** (partly trainable, partly genetic) - its per-1-MET
+  mortality gradient is objectively measured, part of why it predicts so strongly.
+- **Total physical activity = a BEHAVIOUR** - the HR \~0.34 lever -> [[Physical Activity Dose and Mortality]].
+- **Resistance training = a behaviour whose channel is muscle/strength** (Momma RR 0.85, largely
+  independent of aerobic) -> [[Muscle-Strengthening Activity and Mortality]]; RT *counts* as activity but
+  raises CRF only modestly - aerobic work is what raises CRF.
+
+So the "two dials" are real distinct channels: aerobic -> CRF, resistance -> muscle. The low-HR
+total-activity number and the CRF-predictor claim are different (both valid) findings, not one restated.
+
+
+## "Per 1-MET" - what it means, and why you cannot compound it to 0.87^5 (deliverable-critique, 2026-08-01)
+
+"Per 1-MET" is per 1 metabolic-equivalent of CRF *capacity* (VO2max; 1 MET = 3.5 ml/kg/min), NOT per
+MET-hour of activity - a capacity, not a dose (above). So RR 0.87 per 1-MET is a between-person
+association: each 1-MET-fitter stratum has \~13% lower mortality across the studied range. It does **not**
+compound to a personal promise (5 METs -> 0.87^5 \~ 0.50) for two reasons:
+
+- **The per-MET effect is not constant - it is front-loaded.** The gradient is *steepest at the low end*
+  (low-vs-elite RR \~5; low-vs-below-average is most of it), so a MET gained from a sedentary base buys far
+  more than a MET added near elite; a single averaged coefficient hides this.
+- **It is observational, not a causal individual effect.** Between-person fitness tracks many things
+  besides training (baseline health, genetics; reverse causation), so causally raising *your own* VO2max
+  by 5 METs does not deliver the between-person gradient -> [[The U-Shaped Association Artifact]] and the
+  causal discount in the next section. Read it as: escaping the low-fitness bottom is where the large,
+  decision-relevant benefit sits - not as a compoundable multiplier.
+
+
+## The causal discount - VO2max is part lever, part marker (deliverable-critique, 2026-08-01)
+
+The observational gradient is real and large, but a "healthier people are fitter" tautology inflates it as
+a *personal* target - the critique is right, and it is the artifact lens applied to a protective
+association -> [[The U-Shaped Association Artifact]]. Three discounts sit between the between-person
+association and the effect of raising *your own* fitness:
+
+- **Reverse causation / confounding by health.** Subclinical disease lowers CRF, so low CRF is partly a
+  MARKER of ill health rather than its cause; Ross 2016 flags exactly this marker-vs-lever gap
+  -> [[Measuring and Raising Cardiorespiratory Fitness]].
+- **Genetics.** A large share of VO2max is heritable and non-modifiable, so the gradient (which includes
+  genetic high-responders) overstates trainable upside.
+- **Intervention < observational.** Causally raising CRF by training lowers mortality by less than the
+  observational gradient implies.
+
+Net: VO2max is *part lever, part marker*. The decision-relevant claim survives but shrinks - **escaping the
+low-fitness bottom by training helps** (a real, smaller causal benefit, concentrated at the low end) - it
+is NOT the between-person \~5x read as a personal promise.
 
 ## References

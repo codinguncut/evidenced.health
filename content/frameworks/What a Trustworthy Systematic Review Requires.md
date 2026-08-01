@@ -96,7 +96,7 @@ Two concrete practices where both sources speak, checked for same-quantity:
 [@cochranehandbook2024]
 
 **The same-quantity column is NO in both rows, and that is the finding, not a defect:** the two sources
-are different *objects* (a normative bar vs an operational manual), so filing a `[[tension]]` would be
+are different *objects* (a normative bar vs an operational manual), so filing a *tension* would be
 the error. Where they agree on substance (RoB matters; pooling is earned) the agreement is
 **shared-lineage F-refinement, NOT independent type-E** — the IOM committee built these standards *from*
 AHRQ / CRD / Cochrane guidance, with GRADE «a primary source for Chapter 4» and PRISMA «for Chapter 5»,

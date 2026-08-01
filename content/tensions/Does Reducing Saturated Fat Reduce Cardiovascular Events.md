@@ -177,7 +177,7 @@ with a mechanism — not a symmetric stalemate.
 
 ## What would move this
 
-- **AWAITS** [[Ramsden Minnesota Coronary Experiment Reanalysis]] or an independent institutional
+- **AWAITS** the Ramsden Minnesota Coronary Experiment reanalysis or an independent institutional
   re-appraisal of whether the classic diet-heart RCT pool is trans-fat-confounded (the class-5
   process-defect charge needs a source meeting the same bar as the guidance, bearing on *this*
   estimate) — that would adjudicate joined-issue 1.

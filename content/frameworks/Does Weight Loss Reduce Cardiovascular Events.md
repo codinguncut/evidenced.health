@@ -15,8 +15,8 @@ relationships:
     - Surrogate Outcomes
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-28
-updated: 2026-07-30
-self_critiqued: 2026-07-28
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
@@ -203,5 +203,16 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 - **ITT with arm convergence** and a **mid-trial endpoint change**; powered for a large (18%) effect.
 - The single-trial gap is **cashed**: the weight-loss-on-mortality SR/MA (Ma 2017 BMJ, 54 RCTs) is now
   held and woven above — the CV-null generalizes, all-cause mortality falls (non-CV).
+
+
+## Then why is fat loss still a top lever? Not on hard CV events (deliverable-critique, 2026-08-01)
+
+The critique's meta-question: if Look AHEAD is null on hard CV events, why rank fat loss so high? Because
+its priority never rested on a proven hard-CV-event reduction - it rests on **other, better-evidenced
+endpoints**: T2D remission and prevention (DiRECT, a strong RCT -> [[Total Diet Replacement and Type 2 Diabetes Remission]]), glycaemic control, MASLD regression, and function/mobility, plus being THE lever
+for the metabolic-drift stratum. So Look AHEAD's null **refines the claim** (weight loss is prioritized on
+remission/glycaemia/MASLD/function, with hard-CV-event benefit UNPROVEN in established T2D on good
+background care) rather than undermining the priority. The honest ranking is calibrated on the endpoints
+the evidence actually supports, not on the CV-events endpoint it does not.
 
 ## References

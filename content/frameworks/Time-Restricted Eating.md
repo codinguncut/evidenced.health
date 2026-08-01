@@ -15,8 +15,8 @@ relationships:
     - Protein and Resistance Training for Muscle and Strength
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-07-31
-self_critiqued: 2026-07-31
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster's meal-timing facet.** The decision question:
@@ -154,7 +154,7 @@ deficit and shifts eating *late*; eTRF holds calories fixed and shifts eating *e
 consistent once matched — indeed TREAT's authors **cite** Sutton approvingly and note their own late
 window «might not be optimal for the metabolic advantages of TRE». Same-question-clashing-backing is
 absent; this is one exposure term splitting into two. Recorded as a decomposition (distinction), not a
-`[[tension]]`.
+*tension*.
 
 
 [@lowe2020, Discussion]
@@ -227,5 +227,22 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   itself cites Lowe (#11) and states the opposite lean-mass result with the protein explanation, so the
   contrast is the source's own joined issue, not a manufactured tension. Verified.
 - **Attribution.** All quotes emitted via `bin/cite.py` in the verified «...» form, slug-pinned to chunk 01.
+
+
+## The 65% lean-mass figure - read the denominator (deliverable-critique, 2026-08-01)
+
+A reasonable "hard to believe" (deliverable-critique). Three caveats make the alarming *percentage*
+fragile, and two are already on this page:
+
+- **It is a large fraction of a SMALL total loss.** TREAT's net weight change was tiny and not different
+  from control («-0.26 kg ... P = .63»), so "65% of the loss was lean" is \~0.65 kg lean against \~0.51 kg
+  fat - a ratio that is numerically unstable when the denominator is near zero, not a stable law. Read the
+  absolute (\~0.65 kg lean), not the headline share.
+- **It did not replicate** (Liu, with a daily protein shake, showed no between-group lean-mass difference -
+  the section above), and it tracks **protein, not the 16:8 window** itself.
+
+So the honest read: the *percentage* is fragile and contested; the durable instruction is *keep protein up
+in any window*, and milder schedules (12:12, 14:10, or simply not eating in the \~3 h before sleep) carry
+even less of this risk.
 
 ## References

@@ -6,7 +6,7 @@ authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Mi
 sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-07-28
+self_critiqued: 2026-08-01
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -15,7 +15,7 @@ relationships:
     - Antinutrients in Plant Foods
     - Protein Quality and the DIAAS Score
 created: 2026-07-27
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -71,6 +71,43 @@ strength grade.
 > conclusion is unchanged; its stated strength was inflated.
 `-> [[Is the Food Category Doing Any Work]]` — "grain" may be the wrong unit; the fibre caveat says
 so in SACN's own voice.
+
+## Challenge — "surely refined grains cause diabetes/obesity?" — disaggregate the exposure (2026-08-01)
+
+A common, reasonable doubt (deliverable-critique). The RR 1.00 is a **population main-effect,
+incidence** estimate and it stands — but the harm intuition survives in three disaggregated forms the
+flat null does not touch, and conflating them with "refined grains" is what makes the null feel wrong:
+
+- **Refined grains =/= free sugars / SSBs.** The evidenced carbohydrate harm on adiposity is *free
+  sugars*, above all sugar-sweetened beverages -> [[Free Sugars Intake]] — a different exposure from the
+  starchy refined-grain category tested here. The "refined carbs are bad" prior borrows most of its
+  force from the sugar evidence.
+- **Incidence (null here) is not glycaemic control in the already-impaired.** In *established* T2D /
+  insulin resistance, reducing carbohydrate / glycaemic load improves glycaemic control and can drive
+  remission -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]]. That is a route-(b/c)
+  management finding *in a stratum*; it does not contradict a null on refined-grain -> T2D *incidence*
+  in the general population, and the general null does not close the stratum question.
+- **The null is substitution- and measurement-error-attenuated.** RR 1.00 is "per half serving/day"
+  with the replacement unspecified, and self-reported grain intake carries large error that biases a
+  real gradient toward the null -> [[Measurement Error in Dietary Assessment]]. Read it as "no
+  *main-effect* harm detected," not "refined grain proven inert."
+
+Net: the population null is sound; the decision-relevant residue is (i) cut *free sugars/SSBs*, and
+(ii) cut *glycaemic load if you are insulin-resistant* — neither of which is "avoid refined grain as a
+food category."
+
+## Is "fibre content" the whole target? Added fibre =/= intrinsic whole-grain fibre (2026-08-01)
+
+SACN attributes the whole-grain signal to its cereal-fibre component, so *fibre content* is a better
+target than *the word "whole grain"* — this much is directionally right. But it is **necessary, not
+shown sufficient**, and it does NOT license "refined grain + added isolated fibre = whole grain"
+(deliverable-critique). Two held reasons: the **isolate-vs-food caveat** — isolated fibre is proven only
+on the LDL surrogate, not on the cohort mortality endpoint -> [[Dietary Fibre and Health]]; and the
+**intact-grain matrix** — cell-wall structure, particle size and fibre type/fermentability plausibly do
+work a milled grain plus a fibre additive does not -> [[Is the Food Category Doing Any Work]]. So the
+equivalence of fortified/added fibre to intrinsic whole-grain fibre on hard outcomes is **not
+established** — an open question, not a demonstrated sameness; "target fibre" ranks fibre above the label,
+it does not flatten the matrix.
 
 ## Pulses — SACN largely did not look, and that is the finding
 

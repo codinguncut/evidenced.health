@@ -6,7 +6,7 @@ authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org)]
 sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023]
 cluster: evidence-appraisal
 confidence: low
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-01
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -17,7 +17,7 @@ relationships:
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
@@ -213,7 +213,7 @@ page say processing does independent work on energy intake, rather than merely c
   hedge, so it is not quoting Lane against itself.
 - **Not-joined check on the Lane/NNR clash:** the two partly talk past each other (Lane adjusts for
   *diet-quality pattern*; NNR argues collinearity with *specific nutrients*) — which is *why* this is
-  framed as the live category question rather than a filed hard `[[tension]]`; the hidden insight IS that
+  framed as the live category question rather than a filed hard *tension*; the hidden insight IS that
   the two adjustments differ. A formal tension page is a candidate deferred to the maintainer.
 - **Over-claim check:** the page asserts no causal processing effect and no independent-lever status;
   every strength claim is scoped to *association* and paired with its GRADE grade. The class-I labels are
@@ -223,5 +223,44 @@ page say processing does independent work on energy intake, rather than merely c
 - **Residual:** everything here is observational and low-certainty; the page's weight rests on the
   two-axis-disagreement reading and the category critique, and the AWAITS-Hall line names the source that
   would let it say more.
+
+
+## "But processed food is all over the guidelines" - non-uniform, and heuristic where used (deliverable-critique, 2026-08-01)
+
+The critique: if "processed food is bad" is not a confirmable category claim, why is it in the guidelines
+(like "5 a day")? Two reconciliations, no contradiction:
+
+- **Guidance is NOT uniform on it.** NNR - a gold-tier body - **declined to recommend against UPF as a
+  category**, concluding the signal reduces to energy density and fibre (variables already regulated),
+  reaching this fabric's own position. So it is not settled guidance; where families disagree, that is
+  itself the finding (the guidance-null is the guidance SET).
+- **Where it IS used, it is a population heuristic on confounded data, not a confirmed category
+  mechanism** - like "5 a day" (deliverable-critique #16): a communication shorthand for "eat less of the
+  SSB / snack / refined-energy-dense cluster", resting on observational UPF associations that track overall
+  diet quality, energy and SES. The harm attaches to the **components** (energy density, hyper-palatability,
+  SSBs, contaminants), which is what a person should price -> [[Is the Food Category Doing Any Work]].
+
+So "in the guidelines" and "not a confirmable category claim" coexist: the strongest appraisal declines the
+category recommendation, and the softer uses are heuristic.
+
+
+## Additives are not homogeneous - "thin" means insufficient, not safe (deliverable-critique, 2026-08-01)
+
+"Thin patient-important-outcome evidence" is the INSUFFICIENT-evidence state, not "safe" - so a person's
+wariness is not irrational, and the additives should be calibrated per compound rather than lumped
+(symmetric standards: neither assert harm from mechanism nor dismiss a named one):
+
+- **Some named compounds carry regulatory / mechanistic signal beyond intuition** - e.g. titanium dioxide
+  (E171), the subject of EU regulatory action on unresolved genotoxicity, and nitrites/nitrates, whose
+  N-nitroso pathway ties into processed meat's carcinogen status -> [[Red and Processed Meat and Cancer]].
+  Directional, NOT demonstrated human hard-outcome harm; primary sources are queued to ground them.
+- **Others are genuinely "not yet"** - emulsifiers (CMC, polysorbate-80): mechanistic gut / inflammation
+  data plus at most a small human trial, no hard-outcome evidence; most common preservatives (sorbates,
+  benzoates, propionates) are low-concern. Admit directionally, marked mechanism, not as findings.
+
+**Layer separation:** the wiki (layer 2) names the mechanism and the evidence-state; whether to avoid a
+named-mechanism compound *precautionarily* is a **layer-3 personal weighting** - legitimate, and not the
+same as the wiki asserting harm. The blanket "additive therefore harmful" is the fallacy; a specific named
+mechanism is not.
 
 ## References

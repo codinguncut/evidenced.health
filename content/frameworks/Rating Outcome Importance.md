@@ -11,8 +11,8 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-26
-self_critiqued: 2026-07-30
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 Outcomes are not interchangeable, and which ones a recommendation rests on is a **decision made
@@ -81,6 +81,19 @@ compelling. [@grade, §3.1]
   Read the other way it becomes permissive rather than restrictive, which is the reverse of its role.
   That constrains motivated demotion without excluding it — the
   test asks whether the outcome could have mattered, not whether the demoter wanted it to.
+
+## A cause-specific benefit without a mortality benefit is not a null (2026-08-01)
+
+The AAA case above has a frequent mirror: an intervention moves a **non-fatal morbidity** outcome
+while all-cause mortality stays null — SFA reduction cuts combined CV events (RR 0.83) with mortality
+null (RR 0.96) -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. This is **not** a null,
+and the events are **not** irrelevant: a non-fatal MI or stroke is itself a critical/important patient
+outcome (disability, lost function — surviving *with* impairment), so the lever buys **healthspan**
+(fewer disabling events) even where it does not extend **lifespan** — a distinct good, not a failure.
+Reading *events down, mortality flat* as *does nothing* collapses the outcome menu onto mortality
+alone, the exact error the three-category rating exists to prevent (critical AND important outcomes
+both bear on a recommendation). How much a disabling-but-non-fatal event weighs against length of life
+is then the person's layer-3 call.
 
 ## Decision relevance
 

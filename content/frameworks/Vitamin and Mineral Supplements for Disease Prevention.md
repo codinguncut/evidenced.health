@@ -17,8 +17,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Rating Certainty of Evidence
 created: 2026-07-30
-updated: 2026-07-30
-self_critiqued: 2026-07-30
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -215,5 +215,21 @@ does **not** price cost or opportunity cost [@uspstf2022supp], so the expense of
 person. **Scope:** this page is *general-population disease prevention*; it
 is **not** deficiency correction, not ergogenic/performance supplements (creatine, protein), and not
 pregnancy folic acid (which USPSTF separately recommends) — those are different decisions.
+
+
+## Two boundaries the general-population null does not settle (deliverable-critique, 2026-08-01)
+
+A reasonable surprise (deliverable-critique) - "no multivitamin indication? omega-3 no benefit?" Two
+scope limits keep the null honest without overturning it:
+
+- **Multivitamins: USPSTF's verdict is "I - insufficient", not "no benefit".** Insufficient evidence is
+  the fourth evidence-state, not a demonstrated null -> [[Deficiency Repletion vs Enhancement]]. Contested
+  *positive* signals (a cognition trial; a modest total-cancer signal in male physicians) are a separate
+  open question the fabric does not yet hold, flagged for acquisition. "Half-dosing a multivitamin" has no
+  evidence base either way.
+- **Omega-3: the null is standard-dose (1 g/day) enhancement in a general, replete population.** It does
+  NOT transport to high-dose prescription EPA (\~4 g/day) in a high-triglyceride / high-CV-risk stratum -
+  a different exposure, dose and stratum (and whose landmark trial carries a contested comparator). That
+  stratum question is not held here - flagged for acquisition; the general-population finding stands.
 
 ## References

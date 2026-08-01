@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-30
-self_critiqued: 2026-07-29
+updated: 2026-08-01
+self_critiqued: 2026-08-01
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -502,6 +502,13 @@ strengthens our belief that there is a true eﬀect of reducing saturated fat on
 [@hooper2020]. It is a **monotone**
 dose-response on the events outcome (no knee located; more reduction, more benefit, over the studied
 range) — a data point for the dose-response-shape question -> [[The U-Shaped Association Artifact]].
+
+**The monotone reading does not license extrapolation to zero (2026-08-01).** *Over the studied range*
+is load-bearing: the trials contrast typical intakes against reduced ones (WHO's target is **<10%E, not
+0%E**), so the RR 0.83 gradient says nothing about a 1%->0%E move — that extreme is unobserved, and a
+curve measured monotone *within* a range is not evidence it continues below it (the corpus rule: an
+endpoint marks the edge of the evidence, not a feature of the curve). The cholesterol-mediated mechanism
+also bounds the claim to LDL/apoB lowering, not to SFA-avoidance as an end in itself.
 
 **Effect-modification NULLS — the relative effect does not vary by stratum (route-b negatives).**
 

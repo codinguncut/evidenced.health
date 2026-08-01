@@ -181,7 +181,7 @@ analytic framework, not PICOTS at all. **So the two are answering different fram
 disciplines the form of one recommendation question; USPSTF's analytic framework decomposes a whole
 preventive-service pathway into a *chain* of linked key questions (screening accuracy -> treatment
 efficacy -> intermediate->health linkage), each its own review. **Recorded as a distinction, not a
-`[[tension]]`** — the disagreement about T and S is real at the label level but dissolves once the object
+*tension*** — the disagreement about T and S is real at the label level but dissolves once the object
 each framework governs is named.
 
 **What USPSTF adds that GRADE's single-question PICO does not carry:** the analytic framework makes the

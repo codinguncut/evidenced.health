@@ -5,7 +5,6 @@ aliases: [Systematic vs Narrative Review, Narrative Review, Rapid Review, Is It 
 authors: [Institute of Medicine (org)]
 sources: [NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
-confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
 updated: 2026-07-31

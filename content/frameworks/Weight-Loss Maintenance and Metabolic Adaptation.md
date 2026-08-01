@@ -135,8 +135,9 @@ specific hormones -> prevent regain*.
   (via [@sumithran2011]) for persistent *adaptive
   thermogenesis* (reduced energy expenditure) in weight-reduced people — a second, independent limb of the
   same set-point defense measured on a different variable. An independent replication of the metabolic-rate
-  arm would strengthen the *defended set-point* synthesis
-  [AWAITS (Fothergill - Biggest Loser Metabolic Adaptation 2016) — independent (Biggest Loser cohort, resting metabolic rate not hormones) corroboration of persistent adaptive thermogenesis; would upgrade the set-point-defense claim from single-study to type-E].
+  arm would strengthen the *defended set-point* synthesis, but **no adequate one is held**: the candidate
+  long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
+  the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
 
 ## Synthesis The unit-of-analysis shift this page
 installs: **weight-loss maintenance is not *weight loss, continued* — it is a distinct problem against an

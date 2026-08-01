@@ -92,28 +92,23 @@ Knowing how the pages are produced is part of being able to trust them. Here is 
 terms — the information flow first, then each stage.
 
 ```mermaid
-flowchart TD
-    Q["Human curator: selects sources,<br/>poses questions, reviews, approves"]
-    SRC[("Source literature:<br/>reviews, trials, guidelines")]
-    ING["Ingest: read in full, extract<br/>decision-relevant claims"]
-    WEA["Weave: link by the question<br/>answered, confront conflicts"]
-    CHK{"Source-grounding checks:<br/>provenance tags, tool-emitted quotes,<br/>blind cold-audit, cross-page consistency"}
-    TENS["Tension: a genuine conflict is<br/>filed, not flattened"]
-    GRAPH[("Interlinked claim graph")]
-    COM["Compile: cut a<br/>standalone deliverable"]
-    PUB["Reader-facing topic pages"]
+flowchart LR
+    Q["Human curator<br/>selects, poses questions, approves"]
+    SRC[("Source<br/>literature")]
+    ING["Ingest<br/>extract claims"]
+    WEA["Weave<br/>link by question"]
+    CHK{"Source-grounding<br/>checks (gate)"}
+    TENS["Tension<br/>conflict filed, not flattened"]
+    GRAPH[("Interlinked<br/>claim graph")]
+    COM["Compile<br/>cut a deliverable"]
+    PUB["Reader-facing<br/>topic pages"]
 
-    Q --> SRC
-    SRC --> ING
-    ING --> WEA
-    WEA --> CHK
+    Q --> SRC --> ING --> WEA --> CHK
     CHK -->|passes| GRAPH
-    CHK -. "fix or demote" .-> ING
-    WEA -. conflict .-> TENS
-    TENS --> GRAPH
-    GRAPH --> COM
-    COM --> PUB
-    Q -. "reviews and approves" .-> PUB
+    CHK -. "fix / demote" .-> ING
+    WEA -. conflict .-> TENS --> GRAPH
+    GRAPH --> COM --> PUB
+    Q -. approves .-> PUB
 ```
 
 Two things the diagram deliberately shows. The **source-grounding checks are a gate, not an

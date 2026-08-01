@@ -58,19 +58,35 @@ a documented evidence base) down through *high*, *moderate*, *weak*, to *mechani
 test-tube). A weak source is not deleted — it is *labelled*, because in a thin field a clearly-labelled
 weak source beats silence — but it cannot quietly prop up a confident claim.
 
-**An honest caveat about our own history.** Source selection *up to July 2026 was not especially
-systematic* — it grew breadth-first and opportunistically, without a documented search for each topic.
-We are not pretending otherwise, and we are not claiming retroactive rigor. What we *are* doing:
+**An honest caveat about our own history — and what we have since reconstructed.** Source selection
+*up to July 2026 was not especially systematic* — it grew breadth-first and opportunistically, without
+a prespecified search for each topic. That much is unchanged, and we do not claim retroactive rigor.
+
+What *has* changed is transparency. Much of how the back-catalogue was actually found has since been
+reconstructed, so the trail is **substantially documented rather than opaque**:
+
+- **most sources trace to a recorded search.** The large majority came from literature searches (with
+  a smaller set from a separately-recorded research reading-list), and those searches have been
+  recovered and linked back to the sources they produced wherever the record allowed — partially, and
+  labelled as partial, not pretended complete.
+- **the roads not taken are recorded too** — candidates that were surfaced and *not* acquired are kept
+  with a brief reason (surrogate-only, superseded, redundant, off-scope), so exclusion is visible
+  rather than silent.
+- **why each source was ingested** is recovered for most held sources, from the running work log.
+
+So the position is narrower than a blanket disclaimer: the *process* was not a systematic review, but
+it is now largely *documented*. Transparency is not the same as rigor, and we still claim only the
+first. What we are actively doing:
 
 - **healing what can be healed** — re-checking older weak sources against better ones, flagging
   sources that entered ad-hoc, and identifying topics that have *no* solid backbone source yet (so we
   can go find one, or say honestly that none exists);
-- **disclosing the rest** — where a gap or a loose selection cannot be repaired, we mark it rather
-  than paper over it.
+- **disclosing the residual** — where the trail is only partial, or a loose selection cannot be
+  repaired, we mark it rather than paper over it.
 
-Going forward, each literature search that feeds a new source is **logged** — the question, what was
-searched, and what was included or excluded — so the *how-sources-were-found* trail exists from now
-on, even though it does not for the back-catalogue.
+Going forward, each literature search that feeds a new source is **logged** at the time — the question,
+what was searched, and what was included or excluded — so the *how-sources-were-found* trail is
+complete from here on, and partially reconstructed behind us.
 
 ## How to read a claim
 

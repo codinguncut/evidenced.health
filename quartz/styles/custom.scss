@@ -89,3 +89,13 @@ a.dcard:hover {
   background: #3fa876;  // matches the fasting card's icon hue (10th card = green)
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+// Mobile portrait: 2 cards across. The default `auto-fill, minmax(210px, 1fr)` needs ~440px for two
+// columns (2 x 210px + gap), so phones in portrait (~360-430px) fall back to ONE column. Below 500px
+// pin exactly two equal columns. The 4/3 desktop ratio would make the narrower 2-up cards too short
+// to read, so use a taller ratio + a slightly smaller gap. Placed AFTER the base a.dcard rule so these
+// overrides win (equal specificity -> later source wins).
+@media (max-width: 500px) {
+  .deliverable-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
+  a.dcard { aspect-ratio: 3 / 4; }   // taller than desktop's 4/3 so title + desc stay readable at 2-up
+}

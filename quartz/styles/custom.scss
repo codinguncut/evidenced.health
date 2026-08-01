@@ -27,6 +27,13 @@ a.dcard {
   padding: 1.1rem 1.05rem 1.2rem;
   aspect-ratio: 4 / 3;   // uniform cards: every column is equal-width (grid 1fr), so a fixed
   overflow: hidden;      // ratio makes every card the same size; height = 3/4 width
+  min-height: 0;         // make aspect-ratio AUTHORITATIVE: a grid/flex item defaults to
+                         // min-height:auto (=min-content), so a long desc / late-loading icon
+                         // gives the box a SECOND candidate height; on scroll re-raster the card
+                         // oscillates between the two -> the "grows taller + flickers off the top
+                         // edge" bug. min-height:0 lets the ratio win; content clips (line-clamp).
+  contain: layout paint; // isolate each card's layout/paint so an off-screen re-raster cannot
+                         // reflow it (belt-and-braces against the same flicker)
   border-radius: 14px;
   border: 1px solid var(--lightgray);
   background: var(--light);

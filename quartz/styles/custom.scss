@@ -59,7 +59,17 @@ a.dcard:hover {
 .deliverable-grid a.dcard:nth-child(4n + 2) .hicon { color: #3fa876; }
 .deliverable-grid a.dcard:nth-child(4n + 3) .hicon { color: #d8922f; }
 .deliverable-grid a.dcard:nth-child(4n)     .hicon { color: #8b6ff0; }
-.hicon-wrap { position: relative; display: inline-flex; align-self: flex-start; }
+.hicon-wrap {
+  position: relative;
+  align-self: flex-start;
+  flex: 0 0 auto;                                 // flex never grows/shrinks this box
+  width: 3em; height: 3em;                        // RESERVE a constant icon box. iconify-icon
+  overflow: hidden;                               // (the <iconify-icon> web component) can
+  display: flex;                                  // collapse/re-render as it scrolls off-screen;
+  align-items: center; justify-content: center;   // a fixed-size wrapper means that can no longer
+}                                                 // change the card's content height -> kills the
+                                                  // "card grows taller by ~the icon height as the
+                                                  // svg leaves the viewport" reflow/flicker.
 // .hicon is an <iconify-icon> web component (Iconify CDN). It sizes to its FONT-SIZE (like a
 // glyph), not width/height, so size it with font-size; it renders a monotone SVG in
 // currentColor, so the per-card `.hicon { color }` rules above still apply.

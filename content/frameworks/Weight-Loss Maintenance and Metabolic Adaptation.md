@@ -2,8 +2,8 @@
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds]
-authors: [Sumithran, Priya; Proietto, Joseph]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017]
 cluster: weight-management
 confidence: low
 relationships:
@@ -13,9 +13,11 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
     - Layer 1 - Ranking Interventions for a Stratum
     - Exercise Energy Compensation
+    - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
+    - Testosterone Adiposity and Muscle
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -56,6 +58,15 @@ person's own baseline, significant at week 62):
 
 Net: nearly every satiety signal is suppressed and the main hunger signal is elevated, a year out —
 a coordinated, sustained pressure toward eating more.
+
+**A review corroborates the defended-set-point framing (not independently).** Hall & Guo 2017 (energetics
+review) reads current data as «most commensurate» with a **set-point model** with feedback control of both
+intake and expenditure, and records adaptive thermogenesis persisting «for years after energy balance is
+reestablished at a lower weight» [@hallguo2017]. This
+is convergent framing on the *energy-expenditure* limb (Sumithran's is the *hormonal/appetite* limb), but it
+is **not** independent type-E backing — both trace the thermogenesis limb to the same Rosenbaum/Leibel
+antecedent. It also settles a nearby question: the defended weight is defended against *energy* deficit, not
+carbohydrate specifically -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
 ## The reframe — regain is defended physiology, not (only) a lapse of resolve
 

@@ -14,9 +14,10 @@ relationships:
     - Is the Food Category Doing Any Work
     - Surrogate Outcomes
     - Rating Certainty of Evidence
+    - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**
@@ -80,6 +81,13 @@ states are cleanly separable on this page:
 **So *no named diet is clearly superior* is a *no-meaningful-difference* finding on surrogates, not an
 *insufficient-evidence* one** — the comparison was run, at scale, and came back near-null. That is a
 different and stronger statement than *we don't know*.
+
+**Why the label barely matters, mechanistically:** at equal calories the macronutrient source confers no
+metabolic advantage — isocaloric controlled feeding (Hall & Guo 2017) finds no meaningful body-fat or
+energy-expenditure edge for carbohydrate restriction, refuting the carbohydrate-insulin model's
+metabolic-advantage prediction -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]
+(where that evidence is held). Ge's near-equivalence across 14 named diets is the free-living,
+whole-programme face of that same null.]]`
 
 ## The one exception: Mediterranean holds at 12 months
 

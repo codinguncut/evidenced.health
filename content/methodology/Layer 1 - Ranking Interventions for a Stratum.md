@@ -10,6 +10,7 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
     - Does Weight Loss Reduce Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
+    - Menopause and the Shifting Levers
 created: 2026-07-26
 updated: 2026-07-30
 self_critiqued: 2026-07-28

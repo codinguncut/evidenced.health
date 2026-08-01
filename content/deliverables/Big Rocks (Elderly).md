@@ -3,7 +3,7 @@ title: "The Biggest Health Levers After 70"
 type: deliverable
 sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, ESC - CVD Prevention Guidelines 2021, USPSTF - Statin Use Primary Prevention 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013]
 confidence: low
-updated: 2026-07-30
+updated: 2026-08-01
 self_critiqued: 2026-07-30
 ---
 
@@ -14,7 +14,7 @@ and a growing medicine list. It is the functionally-drifting older adult, **not*
 institutionalised elderly (a different stratum), and not the fit 70-year-old (different again). It is a
 stratum, not a person: it names which levers move which outcomes and how good the evidence is; the
 weighing of length against function against burden stays the reader's
-([[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]).
+([[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]).] and the bone-vs-fracture / HRT comparator in [[Hormone Therapy After Menopause]] (estrogen's BMD->fracture chain holds where testosterone's inverted); deferred because deliverables are not edited from an ingest]
 
 The interesting result is that this is **not** simply the younger-adult big-rock list re-graded. Two
 things move at once, and they reorder the whole page.
@@ -195,7 +195,9 @@ this page approaches it; for an elderly smoker it dominates the ranking ([[Smoki
 ## The gaps — this deliverable's main product
 
 The fabric is genuinely thin on the elderly-*specific* questions. These are stated plainly because they
-are what the cut is for; each is routed for acquisition.
+are what the cut is for; each is routed for acquisition.], and bears
+on this cut's gaps below: testosterone as a (rejected) anabolic lever, weight loss restoring T, and the
+BMD-vs-fracture surrogate inversion. Route through a Compile pass, not a fabric edit here.]
 
 - **Sarcopenia / anabolic-resistance protein dosing.** The wiki holds only the general \~1.6 g/kg plateau
   and the age-moderation of the supplement's benefit. A dedicated older-adult source (per-meal leucine

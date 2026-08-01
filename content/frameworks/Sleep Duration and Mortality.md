@@ -8,12 +8,13 @@ cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-01
 relationships:
   related_to:
     - The U-Shaped Association Artifact
     - Alcohol and Mortality and Vascular Disease
     - Measurement Error in Dietary Assessment
+    - Sleep and Metabolic Health
 ---
 
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
@@ -67,6 +68,14 @@ Whitehall II: those who **curtailed** sleep died «predominantly from cardiovasc
 while those who **increased** sleep died mainly of «non-cardiovascular» causes (2.06) — the pattern
 expected if short sleep is causal and long sleep tracks illness.
 [@cappuccio2010, Potential Mechanisms; Study Limitations]
+
+**Caveat on the leptin/ghrelin mechanism — the RCT evidence does not support it.** The appetite-hormone
+axis cited above is the popular *explanation*; a meta-analysis of sleep-manipulation RCTs found **no**
+significant pooled effect of sleep restriction on leptin or ghrelin, and concludes hedonic factors
+likely dominate. Sleep restriction does reliably raise food intake experimentally, but not via the
+hormonal route named here — so hold leptin/ghrelin as a discounted mechanism, not a demonstrated one
+-> [[Sleep and Metabolic Health]] (Capers 2015, where this refinement and the T2D/adiposity evidence
+live).].]`
 
 ## Decision relevance
 

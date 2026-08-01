@@ -13,8 +13,9 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - Surrogate Outcomes
     - Protein Quality and the DIAAS Score
+    - Testosterone Adiposity and Muscle
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-08-01
 self_critiqued: 2026-07-29
 ---
 
@@ -84,6 +85,16 @@ supplementation reduces mortality**; the composite is "RT builds muscle (proven)
 with living longer (associational)", with protein a small lever on the first half only. Muscle
 mass/strength do matter directly for **function and sarcopenia**, which are on the outcome menu — so the
 surrogate is not worthless, it is just not the mortality endpoint.
+## The hormonal alternative lever — and why it does not displace this one
+
+Testosterone therapy is the other anabolic lever aimed at the same surrogates (lean mass, strength), and
+the comparison sharpens why *this* page's lever is preferred: TRT raises lean mass +1.6 to 3.6 kg but its
+strength/function gains are modest and, in the TRAVERSE RCT, it **increased fractures (HR 1.43)** and added
+AFib/AKI/PE while showing no mortality benefit -> [[Testosterone Adiposity and Muscle]]. Resistance
+training is the proven driver of strength here and carries none of those harms; in an obese man, losing fat
+also *raises testosterone naturally* (secondary hypogonadism is reversible). So the hormone is a narrow
+option for confirmed hypogonadism, not a substitute for the training. (No head-to-head RT-vs-TRT trial is
+held — this is an evidence-weighting judgment, not a trial result.)
 
 ## Decision relevance
 

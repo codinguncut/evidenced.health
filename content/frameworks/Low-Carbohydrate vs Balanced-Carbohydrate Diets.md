@@ -14,9 +14,10 @@ relationships:
     - Rating Outcome Importance
     - Energy Adjustment and What a Diet Coefficient Means
     - Free Sugars Intake
+    - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-07-31
+updated: 2026-08-01
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -347,6 +348,15 @@ The low-carb-first *advocacy* position was to be sourced from Feinman 2015, but 
 **assessed and dropped as non-gold** (a narrative critical review); the contrarian case is taken
 from the held systematic reviews (Naude, Goldenberg) rather than from its advocates, so no
 advocacy-voiced tension is filed.
+
+**The mechanistic *why* behind the matched-energy null is now filed as its own tension.** The
+carbohydrate-insulin model predicts a metabolic advantage for carb restriction at equal calories;
+isocaloric-controlled-feeding evidence (Hall & Guo 2017) refutes that prediction in *direction* — the small
+edge runs the other way, toward lower-fat -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] (where that evidence is held). This is the metabolic-ward counterpart to this
+page's whole-diet matched-energy subgroup (-0.48 kg, I2=0%): a different design reaching the same *no
+carb-specific advantage* verdict, though both share isocaloric-comparison logic (convergent, not clean
+independent backing). The candidate appetite/ad-libitum joined issue held above is the CIM's one surviving
+live channel — GL/protein acting on *intake*, not on metabolism.
 
 ## Why a small weight-CHANGE difference is a harder measurement than it looks `[2026-07-28, Willett ch.9]`
 

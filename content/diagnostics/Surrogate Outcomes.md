@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -11,8 +11,10 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Non-Sugar Sweeteners
     - The U-Shaped Association Artifact
+    - Testosterone Adiposity and Muscle
+    - Stress Management and Cardiometabolic Health
 created: 2026-07-25
-updated: 2026-07-31
+updated: 2026-08-01
 self_critiqued: 2026-07-29
 ---
 
@@ -411,5 +413,47 @@ and names the three reasons all-cause and cause-specific mortality diverge (comp
 condition; competing mortality at old age). A marker moving is not a life saved; a cause-specific death
 averted is not an all-cause death averted. -> [[Rating Outcome Importance]]
 [@uspstfmanual2022]
+
+## The surrogate that INVERTED — bone density up, fractures up (testosterone) `[2026-08-01, Snyder TRAVERSE]`
+
+A striking worked refutation of a surrogate — and a rare one, because it lands on GRADE's *own named
+example*. This page's proximity rule (above) lists **«bone mineral density for fractures»** as a surrogate
+*close* to the endpoint — rate down only **one** level [@grade, §5.2.3]. Testosterone
+therapy is the case where that proximate, credentialed surrogate moved the intended way while the
+patient-important outcome moved the **opposite** way.
+
+Prior trials established the surrogate: «Testosterone treatment in men with hypogonadism improves bone
+density and quality, but trials with a sufficiently large sample and a sufficiently long duration to
+determine the effect of testosterone on the incidence of fractures are needed.»
+[@snyder2024]. The TRAVERSE fracture RCT (n=5204,
+powered 80% to detect a **30% fracture reduction**) then measured the outcome:
+
+> «A total of 91 of 2601 participants (3.50%) in the testosterone group and 64 of 2603 participants (2.46%)
+> in the placebo group had one or more clinical fractures, excluding fractures of the ster- num, fingers,
+> toes, facial bones, and skull (haz- ard ratio, 1.43; 95% confidence interval [CI], 1.04 to 1.97)»
+> [@snyder2024]
+
+The authors state the surprise directly: «We did not expect these results, because most previous studies
+showed that testosterone im- proved many measures of bone structure and quality»
+[@snyder2024].
+
+**The parameter comparison — same surrogate, opposite verdict from the outcome:**
+
+| Parameter | GRADE Handbook | Snyder 2024 (TRAVERSE fracture RCT) | Same quantity? |
+|---|---|---|---|
+| The surrogate | bone mineral density | areal + volumetric BMD (raised by T in prior trials) | **Yes** — both BMD |
+| The patient-important outcome | fractures | clinical fractures | **Yes** |
+| GRADE's stance | BMD is *proximate* -> rate down only one level | — | — |
+| Assumed direction of transmission | BMD up -> fewer fractures | BMD up, **fractures up (HR 1.43)** | the outcome **contradicts** the surrogate |
+
+**Why this instance is distinct on the page.** The LDL case is a surrogate argued *up* to target status
+(transmission evidenced); the NSS and organic cases are surrogates *declined* (transmission unevidenced).
+This is a third kind: a surrogate whose transmission was assumed on GRADE's own *proximity* grounds and
+then **empirically inverted** by an adequately powered RCT. Proximity plus a plausible mechanism plus a
+consistently-moving marker were **still not enough** — exactly Example 9's point (correlation is not
+prediction), made concrete on a patient-important outcome. It is the textbook *marker moved the right way
+while patients did worse* warning, realised. (Bound it: one RCT substudy, HR 1.43 with a CI that barely
+excludes 1 [1.04-1.97], mechanism unknown — a striking instance, not a settled law.)
+-> [[Testosterone Adiposity and Muscle]]
 
 ## References

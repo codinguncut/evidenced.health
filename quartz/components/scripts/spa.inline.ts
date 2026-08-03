@@ -24,6 +24,9 @@ const isSamePage = (url: URL): boolean => {
   return sameOrigin && samePath
 }
 
+const isStandalonePath = (url: URL): boolean =>
+  url.pathname === "/investigation" || url.pathname.startsWith("/investigation/")
+
 const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined => {
   if (!isElement(target)) return
   if (target.attributes.getNamedItem("target")?.value === "_blank") return
@@ -32,7 +35,9 @@ const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined 
   if ("routerIgnore" in a.dataset) return
   const { href } = a
   if (!isLocalUrl(href)) return
-  return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : undefined }
+  const url = new URL(href)
+  if (isStandalonePath(url)) return
+  return { url, scroll: "routerNoscroll" in a.dataset ? false : undefined }
 }
 
 function notifyNav(url: FullSlug) {

@@ -8,14 +8,32 @@
       content="The Longevity Commission: a Blob World investigation into health-study evidence."
     />
     <title>The Longevity Commission</title>
-    <script type="module" crossorigin src="/investigation/assets/index-PCri5UAO.js"></script>
-    <link rel="stylesheet" crossorigin href="/investigation/assets/index-Lk7eJpJT.css">
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; min-width: 320px; min-height: 100%; background: #777; }
+      .investigation-loading { min-height: 100vh; padding: 1.5rem clamp(0.75rem, 3vw, 2.5rem) 3rem; color: #282b27; }
+      .investigation-loading-cover, .investigation-loading-paper { width: min(100%, 940px); margin: 0 auto; }
+      .investigation-loading-cover { padding: clamp(1.4rem, 3vw, 2.1rem) clamp(1.5rem, 7vw, 5rem) clamp(1.5rem, 3vw, 2rem); color: #f8f1df; background: #344b40; border: 1px solid #26372f; box-shadow: 0 10px 28px rgb(0 0 0 / 25%); }
+      .investigation-loading-cover a { color: #eee4ce; font: 700 0.72rem Inter, system-ui, sans-serif; text-underline-offset: 0.25rem; }
+      .investigation-loading-cover p { margin: 1rem 0 0.65rem; color: #d9c7a7; font: 800 0.68rem Inter, system-ui, sans-serif; letter-spacing: 0.15em; text-transform: uppercase; }
+      .investigation-loading-cover h1 { max-width: 730px; margin: 0; font: 500 clamp(2.4rem, 5.5vw, 4.2rem) / 0.92 Georgia, "Times New Roman", serif; }
+      .investigation-loading-cover div { max-width: 650px; margin-top: 0.9rem; color: #e6decb; font: clamp(0.95rem, 1.8vw, 1.15rem) / 1.45 Georgia, "Times New Roman", serif; }
+      .investigation-loading-paper { min-height: 80vh; background: #fffdf7; border: 1px solid #5f5b52; border-top: 0; box-shadow: 0 14px 35px rgb(0 0 0 / 24%); }
+      @media (max-width: 620px) { .investigation-loading { padding: 0.6rem 0.45rem 1.5rem; } }
+    </style>
+    <script type="module" crossorigin src="/investigation/assets/index-B3BvQ2nw.js"></script>
+    <link rel="stylesheet" crossorigin href="/investigation/assets/index-qBaxS_VB.css">
   </head>
   <body>
     <div id="app">
-      <main style="padding: 2rem; font-family: system-ui, sans-serif">
-        <h1>The Longevity Commission</h1>
-        <p>Loading the investigation...</p>
+      <main class="investigation-loading" aria-label="Loading the investigation" aria-busy="true">
+        <header class="investigation-loading-cover">
+          <a href="/">Back to Evidenced Health</a>
+          <p>Blob Village Department of Questionable Longevity</p>
+          <h1>The Longevity Commission</h1>
+          <div>A field investigation into signs, causes, treatments, and the regrettable difference between them.</div>
+        </header>
+        <section class="investigation-loading-paper" aria-hidden="true"></section>
       </main>
     </div>
   </body>

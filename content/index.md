@@ -10,7 +10,7 @@ the study or guideline it came from.
 
 [Read more about this project →](about) &nbsp;·&nbsp; [Can you trust this guide? →](trust)
 
-[An playful Guide to understanding Health Research”](/investigation/)
+[An playful Guide to understanding Health Research”](https://evidenced.health/investigation/)
 
 ## Evidenced Topics
 

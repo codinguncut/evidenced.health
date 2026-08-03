@@ -10,6 +10,8 @@ the study or guideline it came from.
 
 [Read more about this project →](about) &nbsp;·&nbsp; [Can you trust this guide? →](trust)
 
+[An playful Guide to understanding Health Research”](/investigation/)
+
 ## Evidenced Topics
 
 Please click on one of the cards below to read about evidence-based topics.

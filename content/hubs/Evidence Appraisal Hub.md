@@ -31,6 +31,11 @@ graded recommendation. Nucleus: [[Certainty of Evidence vs Strength of Recommend
 - [[Synthesis Without Meta-Analysis]] — vote-counting by significance is unacceptable (power → 0 as
   studies accumulate); the direction-vs-significance line; the fallback ladder answers weaker questions
 - [[Surrogate Outcomes]] — when a marker may stand in for an outcome, and what it costs
+- [[Measurement Error in Dietary Assessment]] — how much error in self-reported diet can hide a real
+  effect or manufacture a false one; the binding constraint on reading almost any observational
+  nutrition finding
+- [[Energy Adjustment and What a Diet Coefficient Means]] — what a nutrient coefficient is actually
+  comparing against; how the analytic model silently decides what the nutrient is substituted for
 
 ## Turning evidence into a recommendation
 

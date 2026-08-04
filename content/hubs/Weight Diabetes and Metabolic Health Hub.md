@@ -1,0 +1,43 @@
+---
+type: hub
+question: For weight loss, type 2 diabetes, and metabolic health, which dietary approach or drug works, at what dose, and does the effect last?
+created: 2026-08-04
+updated: 2026-08-04
+---
+
+# Weight, Diabetes, and Metabolic Health Hub
+
+Navigator for the weight-management and metabolic clusters — whether any diet is superior for weight,
+whether type 2 diabetes can be put into remission, and where drugs enter as the realistic alternative.
+Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
+
+## Is any diet superior for weight loss?
+
+- [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]] — whether cutting carbohydrate beats a balanced
+  diet for weight loss, answered as a pooled magnitude
+- [[Named Diet Programs Compared]] — across branded programmes, whether any is clearly superior for
+  weight and CV risk factors, and whether the benefit lasts
+- [[Diets for Weight Loss - What NICE Recommends]] — which dietary approach to offer, to whom, and for
+  how long, named as intervention/dose/duration rather than association
+- [[Time-Restricted Eating]] — whether WHEN you eat, independent of what and how much, changes weight
+  or cardiometabolic outcomes
+
+## Type 2 diabetes — control and remission
+
+- [[Diets for Weight Management in Type 2 Diabetes]] — for someone who already has T2D, whether any
+  dietary approach is clearly superior for weight and glycaemic control
+- [[Carbohydrate Restriction and Type 2 Diabetes Remission]] — whether restricting carbohydrate puts
+  T2D into remission, and whether it lasts
+- [[Total Diet Replacement and Type 2 Diabetes Remission]] — whether an energy-restricted total-diet-
+  replacement programme achieves remission, and whether remission scales with weight loss
+
+## Why maintenance is hard, and drug/monitoring routes
+
+- [[Weight-Loss Maintenance and Metabolic Adaptation]] — why maintaining diet-induced loss is hard and
+  whether the body physiologically defends the higher weight
+- [[Semaglutide for Cardiovascular Risk in Obesity]] — whether treating obesity with a drug reduces CV
+  events, and whether that evidence reaches primary prevention
+- [[Fatty Liver MASLD and Weight Loss]] — for fatty liver, which modifiable lever works, at what dose,
+  and what outcome it actually changes
+- [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating
+  improves outcomes, especially in people without diabetes

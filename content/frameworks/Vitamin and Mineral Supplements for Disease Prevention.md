@@ -74,8 +74,7 @@ vitamin D deficiency, low bone mass, or osteoporosis» [@leboff2022]. **Two thin
 - **Within the range VITAL could study, effects did NOT vary by baseline 25(OH)D** — the null is not
   rescued by *it only helps the low-D people* for the strata present. This weakens the
   helps-only-the-deficient hypothesis *inside the studied range*.
-- **But the frankly-deficient tail (<12 ng/mL, 2.4%; [@leboff2022, 
-]) was underpowered**, and the authors note a trial in people «well below the 20 ng per
+- **But the frankly-deficient tail (<12 ng/mL, 2.4%; [@leboff2022]) was underpowered**, and the authors note a trial in people «well below the 20 ng per
   milliliter» might show stronger effects [@manson2019vitd] — so
   deficiency correction remains a live, separate question this trial does not answer. Repletion is route (a)/(c) on
   [[Baseline Risk and the Relative-Absolute Split]]; enhancement-in-the-replete is what tested null here.
@@ -100,8 +99,7 @@ literature — the healthy-user confound is largely designed out; that is a stre
 
 > «there is no net benefit of supplementation with vitamin E ... the evidence is insufficient to
 > determine the balance of benefits and harms of supplementation with multivitamins ... Evidence is
-> lacking and the balance of benefits and harms cannot be determined.» [EXTRACTED (USPSTF - Vitamin
-> Mineral Multivitamin Supplements 2022) chunk 01]
+> lacking and the balance of benefits and harms cannot be determined.» [@uspstf2022supp]
 
 **Keep the two nulls apart**: vitamin E is *no
 meaningful effect* (a graded null on hard outcomes); multivitamins are *insufficient evidence* (a
@@ -135,8 +133,7 @@ to beta carotene (30 mg/day) plus retinol vs placebo and was **halted 21 months 
 > «The active-treatment group had a relative risk of lung cancer of 1.28 (95 percent confidence interval,
 > 1.04 to 1.57 ... the relative risk of death from any cause was 1.17 (95 percent confidence interval,
 > 1.03 to 1.33); of death from lung cancer, 1.46 (95 percent confidence interval, 1.07 to 2.00) ... the
-> randomized trial was stopped 21 months earlier than planned» [EXTRACTED (Omenn - CARET Beta Carotene
-> Lung Cancer 1996) chunk 01]
+> randomized trial was stopped 21 months earlier than planned» [@omenn1996]
 
 CARET is **not an independent second witness** of the USPSTF figure — it is one of the trials *inside*
 that pool (no `[E-independent]`); what it adds is the stratum-specific magnitude (a lung-cancer death RR
@@ -151,14 +148,11 @@ methodologically-sound (low-risk-of-bias) trials, supplemental antioxidants *rai
 > «In 47 low-bias trials with 180 938 participants, the antioxidant supplements significantly increased
 > mortality (RR, 1.05; 95% CI, 1.02-1.08). In low-bias risk trials, after exclusion of selenium trials,
 > beta carotene (RR, 1.07; 95% CI, 1.02-1.11), vitamin A (RR, 1.16; 95% CI, 1.10-1.24), and vitamin E
-> (RR, 1.04; 95% CI, 1.01-1.07), singly or combined, significantly increased mortality.» [EXTRACTED
-> (Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]
+> (RR, 1.04; 95% CI, 1.01-1.07), singly or combined, significantly increased mortality.» [@bjelakovic2007]
 
 So the harm arm is broader than beta-carotene-in-smokers: **in the low-risk-of-bias trials, supplemental
 beta carotene, vitamin A, and vitamin E each raise all-cause mortality**, while «Vitamin C and selenium
-had no significant effect on mortality» [@bjelakovic2007, 
-] — the four evidence states again, one per compound. **Two caveats bind it**: the **all-trials pool is null** (RR 1.02, 95% CI 0.98-1.06 [EXTRACTED
-(Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]) — the harm surfaces *only* after
+had no significant effect on mortality» [@bjelakovic2007] — the four evidence states again, one per compound. **Two caveats bind it**: the **all-trials pool is null** (RR 1.02, 95% CI 0.98-1.06 [@bjelakovic2007]) — the harm surfaces *only* after
 restricting to low-bias trials; and **vitamin A's 1.16 (the largest number) rests on this single
 meta-analysis's low-bias subset alone** — USPSTF graded only beta carotene and vitamin E, so it is the
 least-corroborated claim here.
@@ -176,8 +170,7 @@ null, the low-bias restriction surfaces a small signal.
 
 **Two method lessons the pooled estimate carries**:
 (1) **risk-of-bias restriction surfaces the signal, it does not manufacture it** — the all-trials pool is
-null (1.02), the high-bias trials *alone* show apparent *benefit* (RR 0.91, 95% CI 0.83-1.00 [EXTRACTED
-(Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]), and the low-bias trials show harm (1.05),
+null (1.02), the high-bias trials *alone* show apparent *benefit* (RR 0.91, 95% CI 0.83-1.00 [@bjelakovic2007]), and the low-bias trials show harm (1.05),
 so pooling everything lets the spuriously-favourable high-bias trials cancel the harm — risk-of-bias
 appraisal was decision-determining -> [[Rating Certainty of Evidence]]; (2) the finding is about
 **synthetic isolates, not food** — the authors state it «should not be translated to potential effects of
@@ -189,8 +182,7 @@ fruits and vegetables» [@bjelakovic2007] ->
 VITAL's marine n-3 arm carried a **secondary** signal on total MI even as its MACE composite stayed
 null (stroke and CV-death were flat) [@manson2019n3]:
 
-> «for total myocardial infarction, 0.72 (95% CI, 0.59 to 0.90)» [EXTRACTED (Manson - VITAL Marine
-> Omega-3 2019) chunk 01]
+> «for total myocardial infarction, 0.72 (95% CI, 0.59 to 0.90)» [@manson2019n3]
 
 **Read it as hypothesis-generating, not a finding**: it is a secondary endpoint with no
 multiplicity control, the composite it sits in was null, and a prespecified low-fish-intake subgroup
@@ -198,8 +190,7 @@ multiplicity control, the composite it sits in was null, and a prespecified low-
 pharmacologic effect of the pill. A separate exposure — **high-dose (\~4 g/day) prescription EPA in
 high-triglyceride statin-treated patients** — is a different question with its own trial evidence, and
 does not transport to a general-population 1 g/day capsule. VITAL also notes the n-3 dose ceiling: «The
-dose-response curve for most effects plateaus at 1 g or less of n-3 fatty acids per day» [EXTRACTED
-(Manson - VITAL Marine Omega-3 2019) chunk 01] — one of the few explicitly located **plateaus** in the
+dose-response curve for most effects plateaus at 1 g or less of n-3 fatty acids per day» [@manson2019n3] — one of the few explicitly located **plateaus** in the
 corpus's dose-response holdings.
 ## Layer-1 placement — a low/absent lever for the well-nourished
 

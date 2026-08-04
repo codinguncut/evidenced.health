@@ -92,8 +92,7 @@ drug. But the MBI estimate is the *least* trustworthy of the three (unblinded, h
 null where it should be cleanest — unmedicated patients), while the sodium effect is HIGH-certainty and
 the drug effect is proven all the way to CV events. **The larger point estimate carries the smaller
 warranted effect.** A person choosing where to spend effort gets more certain BP benefit from salt
-reduction than from an 8-week MBSR course on this evidence.: three
-different exposures, not one claim reached independently.]`
+reduction than from an 8-week MBSR course on this evidence.: three different exposures, not one claim reached independently.]`
 
 ## Decision relevance
 

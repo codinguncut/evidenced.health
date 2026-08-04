@@ -158,9 +158,7 @@ refutation of it.
 - **The high-insulin-secretor / genotype subgroup (route-b effect-modification claim).** The CIM's strongest
   surviving prediction is that people with high insulin secretion respond worse to high-GL diets. A direct
   test exists and is not yet held
-  [AWAITS (Gardner - DIETFITS Low-Fat vs Low-Carb 2018) — a weight-loss RCT pre-specifying insulin-secretion
-  and genotype as effect modifiers of low-fat vs low-carb response; its interaction result would confirm or
-  refute the CIM's one live subgroup limb].
+  [AWAITS (Gardner - DIETFITS Low-Fat vs Low-Carb 2018) — a weight-loss RCT pre-specifying insulin-secretion and genotype as effect modifiers of low-fat vs low-carb response; its interaction result would confirm or refute the CIM's one live subgroup limb].
 - **Independence caveat (type-F, not type-E).** The EBM pole here rests on **one author/school** — Hall &
   Guo 2017 (the isocaloric SR/MA) and Hall 2022 (the EBM statement) are the same voice, so the two do not
   corroborate each other independently. A genuinely different design points the same way — the nucleus

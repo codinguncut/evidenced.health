@@ -1,10 +1,11 @@
 ---
 type: deliverable
+title: GLP-1 Receptor Agonists for Weight Loss
 question: For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum?
 authors: [Lincoff, A Michael; Wilding, John P H; Look AHEAD Research Group (org); Ma, Chaoyang; European Association for the Study of the Liver (org); Morton, Robert W; Momma, Haruki]
 sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, EASL - MASLD Clinical Practice Guidelines 2024, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, GRADE - Handbook]
 confidence: medium
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -28,9 +29,10 @@ HbA1c number earns decision weight only where its causal transmission to somethi
 
 The engine is arithmetic, not opinion: absolute benefit = relative risk reduction x baseline risk
 [@grade] -> [[Baseline Risk and the Relative-Absolute Split]]. A drug that
-removes a fifth of cardiovascular risk removes a fifth of a large risk and a fifth of a negligible one.
-So the same relative effect is decisive in one stratum and immaterial in another, with no disagreement
-about the evidence.
+removes a fifth of cardiovascular risk removes a fifth of a *large* risk for a high-risk person, but only
+a fifth of a *negligible* one for a low-risk person — a meaningful absolute benefit in the first case, a
+trivial one in the second. So the same relative effect is decisive in one stratum and immaterial in
+another, with no disagreement about the evidence.
 
 - **High-risk stratum** — obesity (BMI >=27) with established atherosclerotic disease, non-diabetic.
   Baseline event rate \~2.4%/year. This is the population the landmark hard-outcome trial actually
@@ -77,8 +79,8 @@ prediabetics reverted to normoglycaemia vs 48% on placebo [@lincoff2023, EXTRACT
 ### Fatty liver (MASLD): a dose-dependent histological benefit on a common comorbidity
 
 Sustained weight
-loss reduces liver fat at >=5% of body weight, improves inflammation at 7-10%, and improves fibrosis at
->=10% [@easl2024] -> [[Fatty Liver MASLD and Weight Loss]]. Two caveats bind: the benefit is on the reversible stages (lifestyle weight loss is not
+loss reduces liver fat at 5% or more of body weight, improves inflammation at 7-10%, and improves
+fibrosis at 10% or more [@easl2024] -> [[Fatty Liver MASLD and Weight Loss]]. Two caveats bind: the benefit is on the reversible stages (lifestyle weight loss is not
 shown to reverse advanced fibrosis or cirrhosis), and weight tends to regain — maximal loss at 6 months
 with partial regain of liver fat by 12-24 months. Kidney and sleep-apnoea hard-outcome benefits are
 claimed for the class but are **not yet held** here (the FLOW renal trial; the HFpEF and sleep-apnoea trials are
@@ -142,7 +144,8 @@ from hand-waving. Here is the risk side by evidence state.
     "modify the strategy, don't discard it" case, not a veto — and muscle, function, and falls are
     patient-important outcomes, not cosmetic ones -> [[Muscle-Strengthening Activity and Mortality]].
 - **Gallbladder disease, pancreatitis, gastroparesis / ileus (with anaesthesia-aspiration relevance) —**
-  established-to-signal, dose-dependence unquantified here.
+  evidence strength ranges from established (gallbladder, pancreatitis) to an early safety signal
+  (gastroparesis/ileus); dose-dependence unquantified here.
 - **Reward / mood / anhedonia — the "loss of joy" beyond food.** Mechanistically linked to the appetite
   pathway and a real quality-of-life cost, but systematically under-measured because trials count events
   and weight, not the trajectory of what a person values (the streetlight effect on the outcome side). It
@@ -192,10 +195,10 @@ complete strategies:
 
 - **Sustained lifestyle weight loss** has a large effect *if achieved*, but low population adherence and
   an unproven hard-CV-event benefit via this route: Look AHEAD's intensive lifestyle arm was null on CV
-  events (HR 0.95, 0.83-1.09) despite real weight loss [@look2013], and a 54-RCT meta-analysis — whose pool *includes* Look AHEAD, so it is
+  events (HR 0.95, 0.83-1.09) despite real weight loss [@look2013], and a 54-RCT meta-analysis [@ma2017] — whose pool *includes* Look AHEAD, so it is
   consistent with rather than independent corroboration of that null — reports the same CV-event null
   (RR 0.93, 0.83-1.04) alongside a modest all-cause mortality benefit (RR 0.82, 0.71-0.95) that does
-  **not** run through the heart [@ma2017] -> [[Does Weight Loss Reduce Cardiovascular Events]].
+  **not** run through the heart -> [[Does Weight Loss Reduce Cardiovascular Events]].
 - **Bariatric surgery** — larger and more durable weight loss, at the cost of surgical and long-term
   nutritional risk (named as a comparator only, not appraised here).
 - **Tirzepatide** — a larger weight effect than semaglutide, with no dedicated CV-outcome trial yet held.
@@ -263,9 +266,9 @@ finding is the mismatch itself.
 > | | |
 > |---|---|
 > | **Question** | For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum? |
-> | **Evidence included** | 9 sources — 1 gold, 6 high, 1 non-gold |
+> | **Evidence included** | 9 sources — 1 gold, 6 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 non-gold source(s) feed this page: Lowe (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Do%20the%20Benefits%20Outweigh%20the%20Risks.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Do%20the%20Benefits%20Outweigh%20the%20Risks.md) |
 
 ## References

@@ -1,11 +1,11 @@
 ---
-title: "Is Red Meat Harmful?"
 type: deliverable
+title: "Is Red Meat Harmful?"
 aliases: [Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health]
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, GRADE - Handbook]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -46,7 +46,7 @@ finding about all.
 Keep these apart. A processed-meat cancer signal is not an unprocessed-meat signal; a charred-steak
 mechanism is not a lean-steak finding.
 
-## Does red meat cause cancer?
+## Red meat and cancer
 
 **Verdict: a real but small colorectal-cancer signal that concentrates in processed meat; for
 unprocessed red meat the association is weak and does not even reach statistical significance in the
@@ -65,8 +65,7 @@ The World Cancer Research Fund's 2018 review gives the association per standard 
 
 WCRF also records the confounding candidly — an apparent red-meat effect could partly reflect *low
 intakes of protective foods* (fibre, vegetables) that red-meat eaters skip, and it did not run the
-adjustment to rule that out [@wcrf2018, 
-4.2.1.1].
+adjustment to rule that out [@wcrf2018, 4.2.1.1].
 
 ### The absolute effect — the number that reframes it
 
@@ -88,8 +87,7 @@ honest. The absolute framing is the one a personal decision actually uses.
 
 Two authoritative bodies read essentially the same cohort evidence and graded it oppositely. WCRF calls
 processed meat a "convincing" cause and red meat a "probable" cause of colorectal cancer — strong-enough
-to justify a public recommendation [@wcrf2018, 
-, 5.1.1.4]. NutriRECS, applying strict GRADE (a formal certainty-rating system), calls the
+to justify a public recommendation [@wcrf2018, 5.1.1.4]. NutriRECS, applying strict GRADE (a formal certainty-rating system), calls the
 identical evidence **low-to-very-low certainty**, on the grounds that observational studies without a
 large effect or a compelling dose-response gradient support only low-certainty causal claims, and it
 declined to rate up for dose-response because of residual confounding
@@ -119,7 +117,7 @@ formation by stimulating carcinogenic N-nitroso compounds, and curing/processing
 which is why WCRF rates the mechanism "robust" for processed meat but only "moderate" for red meat, the
 same split as its convincing/probable grades [@wcrf2018, 5.1.1.3].
 
-## Does red meat cause heart disease?
+## Red meat and heart disease
 
 **Verdict: the red-meat-specific cardiovascular signal is small and mostly associational; the one
 channel with a measured hard-outcome effect is saturated fat, and even there the effect is modest,
@@ -140,8 +138,7 @@ about 17%:
 
 In absolute terms that is **RR 0.83 (0.70 to 0.98), about 15 fewer cardiovascular events per 1000**,
 moderate certainty — a number-needed-to-treat of roughly 56 people over four years for one avoided
-event [@who2023saturated, Annex 6; (Hooper - Saturated Fat
-Reduction Cardiovascular Cochrane 2020)]. But three caveats shrink what this says about red
+event [@who2023saturated, Annex 6; (Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020)]. But three caveats shrink what this says about red
 meat specifically:
 
 - **It depends on the replacement.** What replaces the saturated fat sets the sign of the effect: the
@@ -186,7 +183,7 @@ largely the mirror image of an income gradient, not proof that saturated fat pro
 enough to overturn the randomized events estimate, but it does converge with the trials on one point:
 on *mortality*, reducing saturated fat does nothing measurable.
 
-## Does red meat shorten your life?
+## Red meat and mortality
 
 **Verdict: no — on the evidence held, reducing red meat has not been shown to measurably reduce
 all-cause mortality. This is a well-graded null, not merely an absence of study.**
@@ -206,7 +203,7 @@ Anyone reading red-meat reduction as a longevity intervention is reading past th
 signal, such as it is, lives in disease *events* (mostly colorectal cancer, secondarily cardiovascular
 events), not in how long you live.
 
-## Does the cooking method matter?
+## The cooking method
 
 **Verdict: mechanistically plausible and worth acting on at the extreme (charred, blackened processed
 or red meat), but the evidence stops at mechanisms and surrogate markers — no trial has shown that
@@ -215,8 +212,7 @@ gentler cooking changes a patient-important outcome. This is a genuine gap, stat
 Two mechanisms are real. High-temperature cooking forms HCAs and PAHs, which WCRF grades as a "robust"
 carcinogen mechanism for processed meat [@wcrf2018, 5.2.1.3]. And low-AGE diets (achieved largely by steaming, poaching or slow-cooking
 instead of frying and grilling) do move some markers — a meta-analysis of 17 RCTs found small drops in
-insulin resistance, total and LDL cholesterol [@baye2017, 
-]. But the LDL effect is trivially small (about -0.06 mmol/L), and the parameters people
+insulin resistance, total and LDL cholesterol [@baye2017]. But the LDL effect is trivially small (about -0.06 mmol/L), and the parameters people
 actually care about did not move: **no change in weight, fasting glucose, HbA1c, HDL or blood
 pressure**, and no CRP change. Every endpoint is a surrogate marker; there is no event or mortality
 trial of AGE reduction, and the research programme's own advocacy authorship warrants caution about the
@@ -375,9 +371,9 @@ realistic alternative you would actually eat instead.
 > | | |
 > |---|---|
 > | **Question** | _(not set)_ |
-> | **Evidence included** | 15 sources — 7 gold, 5 high, 2 non-gold |
+> | **Evidence included** | 15 sources — 7 gold, 5 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Astrup (narrative review); Dehghan (cohort). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Red%20Meat%20Harmful.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Red%20Meat%20Harmful.md) |
 
 ## References

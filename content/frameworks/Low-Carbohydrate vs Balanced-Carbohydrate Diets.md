@@ -199,8 +199,7 @@ The review's findings sit **comfortably inside prevailing guidance**, and it say
 permits rather than asserting agreement with it: *"Current dietary guidance allows for flexibility in
 the proportion of macronutrients, including a wide range of carbohydrate intakes, with greater emphasis
 on quality over quantity and on total dietary patterns over single nutrients."*
-[@naude2022, Authors' conclusions ->
-Implications for practice]
+[@naude2022, Authors' conclusions -> Implications for practice]
 
 Recorded because *convention held here* is a reportable finding under the telos, not a non-result --
 and because agreement reached with better warrant defeats the guidance null as surely as divergence.
@@ -254,8 +253,7 @@ inclusive vs exclusive) and the outcome and unit match. **But two cells fail, no
 
 **So the direction clash is not established.** It may still be real, but this table cannot show it.
 
-[@naude2022, Analysis 1.3 ·
-(Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Results]
+[@naude2022, Analysis 1.3 · (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Results]
 
 **The inviting error here is a monotone dose-response ladder** (-0.36 -> -1.07 -> -2.29 -> -3.46)
 built by treating Goldenberg's whole set as the deepest rung. Two things falsify it. **Goldenberg's inclusion

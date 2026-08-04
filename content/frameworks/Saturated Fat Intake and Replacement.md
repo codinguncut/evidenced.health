@@ -55,8 +55,7 @@ nutrient, and the strength differs across the splits.**
 > evidence-to-decision table** all assign **moderate to plant-based MUFA and low to PUFA** — and the
 > Annex 6 evidence profile for the PUFA replacement shows every hard outcome at Low or Very low.
 > Similarly rec 2 is "very low" in its rationale and **"low"** in three other places.
-> [@who2023saturated, Rationale for SFA recommendation 3;
-> Summary of evidence; Evidence to recommendations; Annex 6; Annex 7]
+> [@who2023saturated, Rationale for SFA recommendation 3; Summary of evidence; Evidence to recommendations; Annex 6; Annex 7]
 >
 > **This is a finding, not a transcription problem.** WHO's *strength* rationale for the strong PUFA
 > recommendation cites "moderate certainty overall" — so the strongest replacement recommendation in
@@ -101,8 +100,7 @@ magnitudes are explicitly rank-ordered: "the greatest reduction in LDL cholester
 polyunsaturated fatty acids, followed by monounsaturated fatty acids and then carbohydrates" —
 **-0.055 / -0.042 / -0.033 mmol/L per 1% of energy exchanged**. PUFA and MUFA additionally lowered
 triglycerides and both cholesterol ratios.
-[@who2023saturated, Rationale for SFA recommendation 3;
-Summary of evidence]
+[@who2023saturated, Rationale for SFA recommendation 3; Summary of evidence]
 
 So PUFA's stronger recommendation is **over-determined**: it has both the largest lipid effect and
 (on the rec-3 rationale) the better hard-outcome evidence. What the structure *does* show is that
@@ -255,8 +253,7 @@ exactly this reason.
 their use... was less certain." Willett argues the total/HDL ratio is the better predictor and that
 **total cholesterol** — not LDL — should not carry the diet-CHD inference; he explicitly holds that
 prediction "using serum total cholesterol is less powerful than by using... the LDL and HDL lipid
-fractions." [@who2023saturated, Summary of evidence;
-(Willett - Nutritional Epidemiology 3e) Ch 19 (pp.431-432)]
+fractions." [@who2023saturated, Summary of evidence; (Willett - Nutritional Epidemiology 3e) Ch 19 (pp.431-432)]
 
 **And WHO engages Willett's mechanism rather than missing it:** it records the Mensink finding of
 "a slight increase in triglycerides and a reduction in high-density lipoprotein (HDL) cholesterol

@@ -1,13 +1,13 @@
 ---
-title: "Is Organic Food Better For Us?"
 type: deliverable
+title: "Is Organic Food Better For Us?"
 question: Does the "organic" label deliver a health benefit — fewer toxins, more nutrients, better outcomes — large and certain enough to change what someone buys, and where it tracks something, is it the certification or an underlying exposure doing the work?
 aliases: [Is Organic Healthier, Organic vs Conventional, Organic Food Health]
 authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spangler, Crystal; Bravata, Dena M; Baudry, Julia; Kesse-Guyot, Emmanuelle]
 sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baudry - Organic Food Consumption Cancer NutriNet 2018]
 confidence: low
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -70,8 +70,7 @@ marker standing in for harm), and the marker has to be shown to transmit to the 
 -> [[Surrogate Outcomes]]. The systematic review that took this seriously, Smith-Spangler in the Annals of
 Internal Medicine, found the residue difference real but the health gap unbridged: organic produce had a
 lower contamination risk (risk difference 30%), «but differences in risk for exceeding maximum allowed
-limits were small» [@smithspangler2012, 
-]. When both organic and conventional residues sit largely **below regulatory limits**, a
+limits were small» [@smithspangler2012]. When both organic and conventional residues sit largely **below regulatory limits**, a
 detectable difference in residues is not a demonstrated difference in harm — and decades of residue-
 comparison data have produced no outcome trial that closes the gap.
 
@@ -226,7 +225,7 @@ yours, weighed against your budget and priorities.
 - **A general map, applied per person.** Your budget, your priorities, and the non-health axes are yours to
   weigh — none of them enter this appraisal.
 - **Thin evidence, by the nature of the field.** The health-outcome evidence for the *label* is uniformly
-  non-gold — composition meta-analyses plus one self-selected cohort — and no outcome trial exists or is
+  below the gold evidence bar — composition meta-analyses plus one self-selected cohort — and no outcome trial exists or is
   likely, because a certification cannot be blinded. The low confidence is a structural feature, not a gap
   that acquiring more of the same evidence would close.
 - **A stated gap.** No held source quantifies how much of your total omega-3 intake comes from dairy and
@@ -238,9 +237,9 @@ yours, weighed against your budget and priorities.
 > | | |
 > |---|---|
 > | **Question** | Does the "organic" label deliver a health benefit — fewer toxins, more nutrients, better outcomes — large and certain enough to change what someone buys, and where it tracks something, is it the certification or an underlying exposure doing the work? |
-> | **Evidence included** | 5 sources — 5 non-gold |
+> | **Evidence included** | 5 sources — 4 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 5 non-gold source(s) feed this page: Baranski (meta-analysis); Srednicka-Tober (meta-analysis); Srednicka-Tober (meta-analysis); Smith-Spangler (systematic review); Baudry (cohort). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Organic%20Food%20Better.md) |
+> | **Source-selection note** | 5 source(s) below the gold evidence bar feed this page: Baranski (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Smith-Spangler (systematic review, moderate); Baudry (cohort, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Organic%20Food%20Better.md) |
 
 ## References

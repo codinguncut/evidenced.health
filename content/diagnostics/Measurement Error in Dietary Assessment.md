@@ -292,8 +292,7 @@ Within- and between-person coefficients of variation, 194 women, unadjusted and 
 | Cholesterol | 62.2 | 23.8 | **2.61** | 61.5 | 24.1 | **2.55** |
 | Carbohydrate | 29.9 | 26.5 | **1.13** | 18.7 | 13.5 | **1.39** |
 
-[@willett, Table 3-6 — CVs are Willett's; the ratio
-column is computed here]
+[@willett, Table 3-6 — CVs are Willett's; the ratio column is computed here]
 
 **Willett says the ratio is *usually* substantially greater when energy-adjusted. On his own table it
 rises for four of six nutrients and FALLS for protein (2.01 -> 1.79) and cholesterol (2.61 -> 2.55).**
@@ -323,8 +322,7 @@ And at the extreme, from food records:
 > «The extent of underreporting of total energy intake varied among individuals. Obese individuals
 > tended to underreport as much as 47% (Lichtman et al., 1992) and 53% (Lansky and Brownell, 1982),
 > substantially more than lean individuals ...»
-> [@willett, — the sentence continues into a
-> citation list only; elision marked]
+> [@willett, — the sentence continues into a citation list only; elision marked]
 
 **Why this is the dangerous kind of error and not just noise.** Non-differential error attenuates
 toward the null — it makes a real effect look smaller. **Error that varies with adiposity is

@@ -1,12 +1,13 @@
 ---
 type: deliverable
+title: Fasting Benefits and Risks
 subject: What fasting does to patient-important outcomes over and above the calorie deficit it delivers, and the strata where a prolonged fast flips to net harm
 question: For an adult considering fasting, what does the eating schedule add — benefit or harm — beyond the energy deficit it creates, and for whom is a prolonged (>=36 h) fast a net harm?
 aliases: [Fasting, Intermittent Fasting, Time-Restricted Eating Deliverable, ADF, 5:2, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting]
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Morton - Protein Supplementation and Resistance Training 2018, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021]
 confidence: low
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -69,8 +70,7 @@ Where the corpus can look at that head-to-head, the schedule adds nothing detect
 - **Weight, in the one adequately-powered free-living TRE trial:** TREAT (n=116) gave a self-selected
   16:8 window with no other instruction and found **no weight advantage** over normal eating
   (between-group difference about -0.26 kg, P=.63), and every cardiometabolic marker (fasting insulin,
-  glucose, HbA1c, blood pressure, lipids) was null [@lowe2020, 
-].
+  glucose, HbA1c, blood pressure, lipids) was null [@lowe2020].
 
 **Gap (stated plainly, because it is the load-bearing magnitude this deliverable cannot supply):** the
 wiki does **not yet hold** a systematic review or meta-analysis of ADF/5:2 *versus isocaloric continuous
@@ -79,30 +79,16 @@ fasting strategies is acquired but not yet ingested; until it is read,
 the magnitude of any IF-vs-CR difference is stated as a direction (small-to-none, from the meal-timing
 prior), not a number.
 
-## The one weight-independent signal — small, surrogate-only, and from eating *early*
+## The one weight-independent signal is a *timing* effect — appraised under meal timing
 
-There is one place the schedule looks like it does something on its own, and it is worth stating
-precisely so it is neither oversold nor dismissed. In eTRF (Sutton, n=8), a tightly controlled
-crossover that held calories constant *by design* — participants were fed enough to keep their weight
-stable — shifting the same food to a 6-hour early window improved insulin sensitivity, blood pressure
-(morning systolic/diastolic down about 11 / 10 mmHg, p=.03) and an oxidative-stress marker, with
-**zero weight change** — improvements *«Even without Weight Loss»*
-[@sutton2018].
-
-Read the bounds before the headline:
-
-- **It is n=8, five weeks, prediabetic men, on surrogate markers with no hard outcome and no weight
-  change** — a genuine circadian signal *if real*, but preliminary, and everything it moved is a marker,
-  not an outcome a person values ([[Surrogate Outcomes]]).
-- **The markers did not even agree with each other:** fasting triglycerides *rose* about 57 mg/dL in the
-  same trial, plausibly a short-fast-before-the-blood-draw artifact — which is exactly why a single
-  marker in isolation is not diagnostic [@sutton2018, 
-].
-- **The signal is from timing (eat earlier), not from the window or from fasting length.** It does not
-  license a long daily fast; it points, weakly, toward eating aligned to the morning.
-
-Bottom line on benefit: the schedule's isolated, weight-independent effect is small, on surrogates, and
-tied to *early* eating — not to going longer without food.
+The single place a schedule looks like it acts on its own is *early* eating, not fasting length: in a
+tightly calorie-controlled crossover (Sutton eTRF), shifting the same food to an early window improved
+insulin sensitivity and blood pressure with **zero weight change** — a small, surrogate-only, preliminary
+circadian signal that points toward eating earlier, not toward going longer without food
+[@sutton2018]. Because it is a *timing* effect
+rather than a *fasting* one, the full appraisal — the bounds (n=8, five weeks, surrogates only), the
+markers that disagreed with each other, and why it licenses no long daily fast — lives on
+[[Is Meal Timing a Life Hack]] -> [[Surrogate Outcomes]].
 
 ## Autophagy is a mechanism and a *not yet* — never a demonstrated human benefit
 
@@ -121,12 +107,11 @@ lifespan one.
 
 ## The standing harm of any aggressive deficit — muscle loss, and it inverts by stratum
 
-A large energy deficit — however delivered — risks losing **fat-free (lean) mass**, not just fat, and
-an ad-libitum short fasting window makes this worse by quietly cutting protein (protein is eaten mostly
-at meals, and a compressed window drops a meal). TREAT is the worked failure: its modest weight loss
-was about **65% lean mass**, versus a normal 20-30%, with a significant between-group deficit in
-appendicular lean mass — the authors flag it as a caution for anyone at risk of sarcopenia
-[@lowe2020].
+A large energy deficit — however delivered, and a prolonged fast is one — risks losing **fat-free (lean)
+mass**, not just fat. A compressed *eating window* makes this worse by quietly cutting protein intake
+(protein is eaten mostly at meals, and a short window drops one); that window-specific failure — most of
+TREAT's modest weight loss came off as lean mass, not fat — is detailed on [[Is Meal Timing a Life Hack]].
+The mechanism generalizes to any aggressive deficit, the prolonged fast included.
 
 The mitigation is not exotic and it is the same as for any deficit: **adequate protein plus resistance
 training preserve lean mass while fat falls.** Aim for roughly **1.6 g/kg/day of total protein** — the
@@ -257,9 +242,9 @@ from directional to quantitative is **not held**, named here so it can be acquir
 > | | |
 > |---|---|
 > | **Question** | For an adult considering fasting, what does the eating schedule add — benefit or harm — beyond the energy deficit it creates, and for whom is a prolonged (>=36 h) fast a net harm? |
-> | **Evidence included** | 7 sources — 2 gold, 3 high, 2 non-gold |
+> | **Evidence included** | 7 sources — 2 gold, 3 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Lowe (RCT); Sutton (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fasting%20Benefits%20and%20Risks.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fasting%20Benefits%20and%20Risks.md) |
 
 ## References

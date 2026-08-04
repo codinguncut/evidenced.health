@@ -94,8 +94,7 @@ persisting to \~130-140 min/week and the hazard then rising above 1.0 — the J'
     body's glucose «sink» and improves glucose tolerance. This makes resistance training a **glycaemic
     lever, not only a function/mortality one** — decision-relevant specifically for the dysglycaemic /
     metabolic-syndrome stratum (the drifting-median adult), where the held diabetes L-shape is the
-    outcome this mechanism produces.; a dedicated
-    glucose-disposal/insulin-sensitivity RCT source is not held -> a named acquirable gap.]` **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
+    outcome this mechanism produces.; a dedicated glucose-disposal/insulin-sensitivity RCT source is not held -> a named acquirable gap.]` **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
   whose upturn lacks a mechanism (mortality/CVD/cancer) show one** — the diagnostic signature of an
   artifactual arm.
 

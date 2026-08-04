@@ -109,8 +109,7 @@ WHO's EtD feasibility row says the same from the other side: *"widespread use an
 certain food items high in SFA and/or TFA may pose challenges in decreasing consumption to meet the
 recommended intake."*
 
-[@nasem, ch.5, ch.6; (WHO - Saturated and Trans Fatty Acid
-Intake 2023) EtD table]
+[@nasem, ch.5, ch.6; (WHO - Saturated and Trans Fatty Acid Intake 2023) EtD table]
 
 ### The purest observable case: a ceiling anchored to current consumption
 

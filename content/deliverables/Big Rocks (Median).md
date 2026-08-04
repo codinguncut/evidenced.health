@@ -1,13 +1,13 @@
 ---
-title: "The Biggest Health Levers for a Typical Adult"
 type: deliverable
+title: "The Biggest Health Levers for a Typical Adult"
 question: For a drifting-median metabolic-drift adult, which diet and lifestyle exposures carry the largest expected benefit, and which guidance is robust across the distribution rather than only for the impaired?
 aliases: [Big Rocks Median, Drifting Median Big Rocks, Median Western Adult Levers]
 authors: [World Health Organization (org); Hooper, Lee; Momma, Haruki; Look AHEAD Research Group (org); Ma, Chenjie; Lean, Michael EJ; European Association for the Study of the Liver (org); Goldenberg, Joshua Z; Naude, Celeste E; Morton, Robert W; European Society of Cardiology (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Jha, Prabhat; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Cappuccio, Francesco P; National Institute for Health and Care Excellence (org); Ross, Robert; World Cancer Research Fund International (org); Johnston, Bradley C]
 sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Morton - Protein Supplementation and Resistance Training 2018, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Jha - Smoking Hazards Cessation Benefits 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, NICE - NG246 Evidence Review F, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Lowe - Time-Restricted Eating TREAT 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -55,17 +55,18 @@ bucket (b) as *conditionality*, not as evidenced harm.
 
 This is among the largest associations the wiki holds among
 the modifiable levers (smoking cessation's current-vs-never mortality gap is comparable or larger).
-Device-measured total activity reaches an all-cause mortality hazard ratio of
-**0.34 (95% CI 0.27-0.43)** at the top of its dose-response, HIGH certainty [@who2020]. The decision-shaping detail is that most of the
+Device-measured total activity — predominantly aerobic movement — reaches an all-cause mortality hazard
+ratio of **0.34 (95% CI 0.27-0.43)** at the top of its dose-response, HIGH certainty [@who2020]. The decision-shaping detail is that most of the
 benefit arrives early and then flattens: maximal risk reduction is reached at about **24 min/day of
-moderate-to-vigorous activity** [@who2020, 
-]. So for an under-active person this is the biggest lever available; for someone already active
+moderate-to-vigorous activity** — anything that noticeably raises breathing and heart rate, from brisk
+walking upward (cycling, swimming, jogging, hard yard-work) [@who2020]. So for an under-active person this is the biggest lever available; for someone already active
 the ceiling arrives early, and "your remaining activity gains are small" is itself a result that licenses
 stopping.
 
 Resistance training is additive, not a substitute — muscle-strengthening cuts all-cause
-mortality RR **0.85** and diabetes RR **0.83** independently of aerobic activity, and doing both gives
-RR **0.60** for all-cause mortality [@momma2022]. A modest weekly volume (\~30-60 min) reaches most of the strength benefit. Two features make
+mortality RR **0.85** and diabetes RR **0.83** independently of aerobic activity, and doing both (aerobic
+plus strength) gives RR **0.60** for all-cause mortality — a further drop beyond aerobic movement alone
+[@momma2022]. A modest weekly volume (\~30-60 min) reaches most of the strength benefit. Two features make
 resistance training especially apt for *this* stratum: its diabetes dose-response is L-shaped with no
 harmful upper arm (skeletal muscle is the main site of glucose disposal, so building it enlarges the
 glucose "sink"), and it protects function and falls — patient-important outcomes on a firmer footing
@@ -115,12 +116,12 @@ needs more grams or deliberate complementation.
 ### Replace saturated fat with polyunsaturated fat
 
 Reducing saturated fat to 10% of energy and
-replacing it with PUFA is a genuine robust lever — its relative benefit is constant across baseline
+replacing it with PUFA — polyunsaturated fat, the dominant fat in vegetable and seed oils (sunflower,
+soybean, corn), nuts, seeds and oily fish — is a genuine robust lever — its relative benefit is constant across baseline
 risk, sex and duration, so the metabolically healthy benefit as much as the high-risk, and no subgroup
 claim is needed [@hooper2020].
 But it is **small**: the only hard outcome that clears no-effect is cardiovascular *events* — **15
-fewer per 1000** (RR 0.83, Moderate) — while all-cause mortality is null (RR 0.96, Moderate) [EXTRACTED
-(WHO - Saturated and Trans Fatty Acid Intake 2023) Annex 6]. In person-terms that is a number-needed-to-
+fewer per 1000** (RR 0.83, Moderate) — while all-cause mortality is null (RR 0.96, Moderate) [@who2023saturated, Annex 6]. In person-terms that is a number-needed-to-
 treat of about **56 over four years** [@hooper2020].
 
 Two rules keep it honest: the *replacement* sets the sign (SFA-to-PUFA helps;
@@ -133,8 +134,7 @@ change as the mortality evidence.
 *Smoking*, if present, dominates
 everything: current smokers die at about **three times** the never-smoker rate and lose a decade of
 life, and quitting before \~40 removes about 90% of the excess (earlier is strictly better; it is never
-too late to be the largest available lever) [@jha2013, 
-].
+too late to be the largest available lever) [@jha2013].
 
 *Alcohol*: the "moderate drinking is protective" J-curve is largely an artifact of counting
 sick ex-drinkers as abstainers — bias-corrected meta-analysis (RR 0.97, not significant) and Mendelian
@@ -191,8 +191,7 @@ to 12 weeks, within a support service) [@nice, 1.1.10].
 
 The famous 10%-of-energy limit is, on the evidence, a **dental** recommendation; on
 body weight the effect is an *energy* effect, not a sugar-specific one — swapping free sugars for other
-carbohydrate at equal calories moves weight by **0.04 kg** (null) [@who2015, 
-Summary of evidence]. The real cardiometabolic value of cutting sugar for this stratum is removing
+carbohydrate at equal calories moves weight by **0.04 kg** (null) [@who2015, Summary of evidence]. The real cardiometabolic value of cutting sugar for this stratum is removing
 liquid calories (sugar-sweetened beverages), which belongs to the energy-down big rock above — not to
 hitting a sugar percentage.
 
@@ -201,8 +200,7 @@ hitting a sugar percentage.
 Two guideline families read the *same*
 cohort evidence and issue opposite instructions: limit it (a precautionary reading of a "probable"
 colorectal-cancer cause) versus continue current intake (the identical evidence graded low-certainty,
-with a realistic cut averting only a handful of cancer deaths per 1000 over a lifetime) [EXTRACTED
-(WCRF - Meat Fish and Dairy Products and Cancer 2018) chunk 02] [@nutrirecs2019].
+with a realistic cut averting only a handful of cancer deaths per 1000 over a lifetime) [@wcrf2018] [@nutrirecs2019].
 
 The disagreement is decision-theoretic, not empirical — how much
 proof a public recommendation needs, and whose values set the threshold — so the wiki picks neither
@@ -236,8 +234,8 @@ this stratum's own risk profile is arrested.
 Mostly **agreement, with better calibration** (the guidance-null read; see
 [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]] and
 [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]). It agrees
-with guidance on moving more, losing central adiposity, replacing saturated with unsaturated fat, and
-limiting sodium in the hypertension-prone. It diverges in emphasis and honesty: it ranks by held
+with guidance on moving more, losing central adiposity, replacing saturated fat specifically with
+polyunsaturated fat (not merely with any unsaturated fat), and limiting sodium in the hypertension-prone. It diverges in emphasis and honesty: it ranks by held
 magnitude rather than by attention (so it declines
 to lead with sugar and saturated-fat fine-tuning); it flags that lifestyle weight loss's
 cardiovascular-*event* benefit is unproven and that the saturated-fat benefit is on events, not
@@ -276,9 +274,9 @@ wisdom.
 > | | |
 > |---|---|
 > | **Question** | For a drifting-median metabolic-drift adult, which diet and lifestyle exposures carry the largest expected benefit, and which guidance is robust across the distribution rather than only for the impaired? |
-> | **Evidence included** | 25 sources — 9 gold, 14 high, 2 non-gold |
+> | **Evidence included** | 25 sources — 9 gold, 14 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Ross (narrative review); Lowe (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
 
 ## References

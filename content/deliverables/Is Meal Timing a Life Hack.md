@@ -1,13 +1,13 @@
 ---
-title: "Is Meal Timing a Life Hack?"
 type: deliverable
+title: "Is Meal Timing a Life Hack?"
 question: Is meal-timing (TRE, OMAD, intermittent fasting, breakfast-skipping) an independent health lever beyond the calorie reduction it usually causes, and how good is the evidence?
 aliases: [Time-Restricted Eating Deliverable, Intermittent Fasting Life Hack, Is Meal Timing a Metabolic Hack, OMAD, Skipping Breakfast]
 authors: [Lowe, Dylan A; Sutton, Elizabeth F; Peterson, Courtney M; Look AHEAD Research Group (org); Ma, Chenhan]
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017]
 confidence: low
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -28,7 +28,7 @@ the eating *window* alone adds nothing to weight, and the calorie-matched trial 
 constant by design, found its only benefit — on blood pressure and insulin sensitivity — from eating
 *early*, which is the opposite of the breakfast-skipping most people actually practise.
 
-## The one test everything runs through: beyond the deficit?
+## The one test everything runs through: effect beyond the deficit
 
 TRE reliably produces weight loss in uncontrolled reports. But so does joining any weight-loss study. The
 honest question is never *does TRE work?* — it is **whether TRE beats a control eating the same number
@@ -224,9 +224,9 @@ useful; *the fasting window fixed my metabolism* is not supported.
 > | | |
 > |---|---|
 > | **Question** | Is meal-timing (TRE, OMAD, intermittent fasting, breakfast-skipping) an independent health lever beyond the calorie reduction it usually causes, and how good is the evidence? |
-> | **Evidence included** | 4 sources — 2 high, 2 non-gold |
+> | **Evidence included** | 4 sources — 2 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Lowe (RCT); Sutton (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Meal%20Timing%20a%20Life%20Hack.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Meal%20Timing%20a%20Life%20Hack.md) |
 
 ## References

@@ -1,11 +1,11 @@
 ---
-title: "Are Artificial Sweeteners Bad?"
 type: deliverable
+title: "Are Artificial Sweeteners Bad?"
 question: Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them?
 sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023]
 confidence: low
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -28,6 +28,9 @@ The World Health Organization's 2023 guideline reviewed the whole evidence base 
 > the risk of noncommunicable diseases (conditional recommendation).»
 [@who2023nonsugar]
 
+(*Noncommunicable diseases* here means the chronic conditions the swap is meant to help prevent — heart
+disease, type 2 diabetes, cancer.)
+
 Read the two halves together, because the headlines dropped one of them. It is a **conditional**
 recommendation on **low-certainty** evidence — a *suggestion against*, not a *strong warning*. WHO's own
 words: the recommendation is «based on evidence of low certainty overall». [@who2023nonsugar] That means: the expected value of using sweeteners *as a health strategy* is
@@ -47,7 +50,7 @@ Three things frame everything below:
   [@who2023nonsugar] A finding about saccharin is not automatically
   a finding about stevia.
 
-## The one move that settles most of the argument: compared with what?
+## The one move that settles most of the argument: the comparator
 
 The most important reading of the trial evidence is that any weight benefit from sweeteners comes from
 **displacing sugar**, not from the molecule itself — and it shrinks toward zero the closer a trial gets
@@ -63,8 +66,7 @@ to the real-world question.
 - **As an actual sugar swap → the benefit fades to non-significant.** In the trials that told habitual
   sugar consumers to switch to the sweetened-alternative version — the closest thing to what a person
   actually does — the weight effect weakened to **-0.61 kg (95% CI -1.28 to 0.06), not significant**, and
-  the BMI effect disappeared (-0.01, 95% CI -0.38 to 0.35). [@who2023nonsugar, 
-]
+  the BMI effect disappeared (-0.01, 95% CI -0.38 to 0.35). [@who2023nonsugar]
 
 The mechanism confirms it: weight fell «only … in trials that reported a reduction in energy intake, and
 energy intake was only significantly different in the arms of trials that compared NSS with free sugars»
@@ -73,7 +75,7 @@ energy intake was only significantly different in the arms of trials that compar
 is standing in for the calories you removed by dropping the sugar. Take a different route to those same
 calories — water, unsweetened food — and the sweetener adds nothing.
 
-## Sub-question 1 — Do they cause cancer? (hazard is not risk)
+## Cancer — hazard is not risk
 
 This is the single most-misread part of the whole topic, and it turns on one distinction:
 
@@ -97,8 +99,7 @@ inconsistent:
 
 - **WHO's pooled cohort table: cancer is null.** Overall cancer HR \~1.02 (95% CI 0.95-1.09), cancer
   mortality \~1.02 — flat, at very-low certainty. The one exception is an old saccharin-and-bladder-cancer
-  case-control signal (OR 1.31), also very-low certainty. [@who2023nonsugar, 
-]
+  case-control signal (OR 1.31), also very-low certainty. [@who2023nonsugar]
 - **One newer cohort points the other way.** The French NutriNet-Sante study (102,865 adults) found total
   artificial sweeteners associated with a 13% higher overall cancer rate (HR 1.13, 95% CI 1.03-1.25;
   aspartame HR 1.15, acesulfame-K HR 1.13; breast cancer HR 1.22). [@debras2022] But this is a single observational cohort — self-selected,
@@ -113,7 +114,7 @@ question «is still highly controversial and under investigation». [@aspartame2
 should treat *possibly carcinogenic* as a demonstrated dietary cancer risk — and nobody should call the
 question fully closed either.
 
-## Sub-question 2 — Do they make you hungrier?
+## Appetite and hunger
 
 The mechanistic worry is real-sounding: sweetness without calories might uncouple the learned link
 between sweet taste and energy, disrupting satiety. But a plausible mechanism is not a finding. The
@@ -122,7 +123,7 @@ intake from sweeteners versus water or placebo (energy intake fell only in the s
 This sub-question sits at **insufficient evidence** — not benefit, not harm — and should stay there until
 outcome data arrives, rather than being upgraded on the strength of the story. -> [[Non-Sugar Sweeteners]]
 
-## Sub-question 3 — Do they spike insulin or disturb glucose?
+## Insulin and glucose
 
 Two distinct routes, and they must be kept apart.
 
@@ -155,12 +156,11 @@ What Route B *does* is important: it shows a real biological pathway (sweetener 
 handling) exists in humans, so the long-term cohort worry cannot be waved away as pure statistical
 artifact. What it does **not** do is prove sweeteners cause diabetes or heart disease.
 
-## Sub-question 4 — Do they help you lose weight? (answer per comparator)
+## Weight loss — the answer depends on the comparator
 
 - **Versus sugar:** yes, a little, and briefly — the 0.71 kg pooled figure, which weakens to
   non-significant in true-replacement trials and rests entirely on the calories you removed with the sugar.
-- **Versus water / unsweetened:** no. No weight effect at all. [@who2023nonsugar, 
-]
+- **Versus water / unsweetened:** no. No weight effect at all. [@who2023nonsugar]
 
 And WHO declines to bank even the sugar-comparison benefit as a *health* benefit, because short-term
 weight loss is a surrogate for the thing that matters (sustained weight, over years):
@@ -176,7 +176,7 @@ largely unaffected», and NSS «are not essential dietary factors and have no nu
 [@who2023nonsugar] The flip side of having *no nutritional value* is that
 there is no cost to *not* using them.
 
-## Sub-question 5 — Do they keep your sweet cravings alive?
+## Sweet cravings
 
 A plausible behavioural mechanism — a sweetener keeps the *sweet setpoint* high, so you keep wanting
 sweet things. Like the appetite question, this is a mechanism the outcome evidence does not yet carry.
@@ -244,7 +244,7 @@ points — is exactly why WHO issued a *conditional*, not a strong, recommendati
 - **Children:** limited data; one RCT showed reduced body-fatness but pooled BMI z-score showed no
   effect; two stevia trials showed better dental-caries markers. [@who2023nonsugar]
 
-## So — should you use them?
+## When they are worth using
 
 There is no population answer, only a comparator answer (the substitution frame -> [[Non-Sugar Sweeteners]],
 [[Free Sugars Intake]]):
@@ -305,9 +305,9 @@ split, and the trial-versus-cohort tension all in view at once, and refusing to 
 > | | |
 > |---|---|
 > | **Question** | Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them? |
-> | **Evidence included** | 4 sources — 1 high, 3 non-gold |
+> | **Evidence included** | 4 sources — 1 high, 1 moderate, 2 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 non-gold source(s) feed this page: Suez (RCT); Debras (cohort); Aspartame Safety Review Nutrients 2023 (narrative review). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Are%20Artificial%20Sweeteners%20Bad.md) |
+> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Are%20Artificial%20Sweeteners%20Bad.md) |
 
 ## References

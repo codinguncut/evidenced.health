@@ -1,11 +1,11 @@
 ---
 type: deliverable
-title: Is Processed Food Bad
+title: Processed Food and Health
 question: What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful?
 sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, SACN - Carbohydrates and Health 2015, WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Baye - Low AGE Diet Cardiometabolic 2017, WHO - Saturated and Trans Fatty Acid Intake 2023]
 confidence: low
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 ## The short answer
@@ -81,8 +81,7 @@ randomised and blinded, foods cannot), not evidence that the supplement beats th
 
 Where the matrix has been tested directly on hard outcomes it did not carry harm: SACN found refined
 grains gave RR 1.00 (95% CI 0.98, 1.01) for cardiovascular events and RR 1.00 (0.98, 1.01) for type 2
-diabetes, both `No association · Moderate` [@sacn2015, 
-7.20-7.25]. So matrix disruption plausibly drives intake (a real effect) but is not shown to poison the
+diabetes, both `No association · Moderate` [@sacn2015, 7.20-7.25]. So matrix disruption plausibly drives intake (a real effect) but is not shown to poison the
 food. Grade: benefit-relevant on intake/satiety, weak-to-null on measured disease endpoints.
 
 ### Additives -- mostly a named gap
@@ -99,8 +98,7 @@ trials show a small weight benefit only when the sweetener displaces sugar (pool
 -1.28 to 0.06) [@who2023nonsugar]. Long-term cohorts point the
 opposite way on hard outcomes -- incident obesity HR 1.76 (1.25 to 2.49), type 2 diabetes HR 1.23
 (1.14 to 1.32), all-cause mortality HR 1.12 (1.05 to 1.19), all low-to-very-low certainty -- and WHO
-explicitly refused to dismiss these as reverse causation [@who2023nonsugar, 
-, Table 1] -> [[Non-Sugar Sweeteners]].
+explicitly refused to dismiss these as reverse causation [@who2023nonsugar, Table 1] -> [[Non-Sugar Sweeteners]].
 
 A causal mechanism now exists for part of it: a randomised trial gave 120 adults saccharin, sucralose,
 aspartame or stevia for two weeks; saccharin and sucralose «significantly impaired glycemic responses»,
@@ -116,8 +114,7 @@ harm attaches to the components, not to the act of refining.
 
 Free sugars: WHO's `<10%` limit is a *dental caries* recommendation, not a metabolic one. On body
 weight the effect is an energy effect -- swapping free sugars for other carbohydrate at equal energy
-moves weight by 0.04 kg (95% CI -0.04 to 0.13), i.e. null [@who2015, Summary
-of evidence, pp.12-13]. Reducing free sugars (mostly via advice) lowered weight by 0.80 kg (95% CI 0.39
+moves weight by 0.04 kg (95% CI -0.04 to 0.13), i.e. null [@who2015, Summary of evidence, pp.12-13]. Reducing free sugars (mostly via advice) lowered weight by 0.80 kg (95% CI 0.39
 to 1.21) [@te2013, Results], and the child cohort
 signal is really a *beverage* signal -- highest-vs-lowest sugar-sweetened beverage intake OR 1.55 (1.32
 to 1.82) [@who2015, Annex 1] -> [[Free Sugars Intake]]. Caries is
@@ -152,8 +149,7 @@ The broader *cooking by-products* story is weaker. A meta-analysis of 17 RCTs (5
 low- versus high-AGE diets moved some surrogates (insulin resistance MD -1.3, 95% CI -2.3 to -0.2;
 LDL -2.4 mg/dl approx -0.06 mmol/L) but was null on the parameters people care about -- «no changes in
 weight, fasting glucose, 2-h glucose and insulin, haemoglobin A1c, high-density lipoprotein or blood
-pressure» -- with no hard-outcome data at all [@baye2017, 
-] -> [[Dietary AGEs and Cooking Method]]. Grade: firm-but-narrow for charred processed meat;
+pressure» -- with no hard-outcome data at all [@baye2017] -> [[Dietary AGEs and Cooking Method]]. Grade: firm-but-narrow for charred processed meat;
 insufficient for the general low-AGE claim.
 
 ## The category gradient: which processed foods, ranked
@@ -166,8 +162,7 @@ Sugar-sweetened beverages and processed meat carry most of the defensible signal
 blanket *UPF* number largely comes from.
 
 - Processed meat -> colorectal cancer: RR 1.16 (95% CI 1.08 to 1.26) per 50 g/day, WCRF-graded a
-  «convincing» cause [@wcrf2018, Table
-  5.1 / 5.2.1.4]. In absolute terms a realistic 3-servings/week reduction gives roughly 1 to 8 fewer
+  «convincing» cause [@wcrf2018, Table 5.1 / 5.2.1.4]. In absolute terms a realistic 3-servings/week reduction gives roughly 1 to 8 fewer
   cancers per 1000 over a lifetime and 1 to 12 fewer cardiometabolic events per 1000 over \~11 years,
   at low certainty [@nutrirecs2019, Table 1]. Note the
   processed/unprocessed split is load-bearing -> [[Red and Processed Meat and Cancer]].
@@ -178,8 +173,7 @@ blanket *UPF* number largely comes from.
 
 - Unprocessed red meat -> cancer mortality: about 7 fewer per 1000 over a lifetime for a 3-servings/week
   cut (9 fewer to 6 fewer), low certainty; the pooled colorectal association is not even significant
-  (RR 1.12, 95% CI 1.00 to 1.25 per 100 g/day) [@wcrf2018, 5.1.1.1] [@nutrirecs2019, 
-].
+  (RR 1.12, 95% CI 1.00 to 1.25 per 100 g/day) [@wcrf2018, 5.1.1.1] [@nutrirecs2019].
 - Refined-grain, high-free-sugar and energy-dense hyper-palatable snacks: harm runs through the free
   sugars, the lost fibre and the overconsumption channel, as above -- not through *refining* per se.
 
@@ -205,8 +199,7 @@ replacement sets the sign -> [[Saturated Fat Intake and Replacement]] [@who2023s
 Everything except the inpatient RCT is observational, and the confounding is severe. Lane's umbrella
 review -- 14 meta-analysis studies, 45 pooled analyses, n=9,888,373 -- is the breadth layer, and it is
 observational throughout by necessity: «We found no existing pooled analyses of randomised controlled
-trials during the pilot phase of this review» [@lane2024upf, 
-].
+trials during the pilot phase of this review» [@lane2024upf].
 Its headline associations look strong but grade weak:
 
 - Cardiovascular-disease-related mortality RR 1.50 (1.37 to 1.63): class I convincing on the credibility
@@ -230,7 +223,7 @@ settle it, because pattern adjustment is not the same as matching the nutrient p
 both ultra-processed and nutrient-poor. Only a composition-matched design (the Hall trial) can separate
 processing from composition.
 
-## Does *reduce ultra-processed food* survive as its own lever?
+## *Reduce ultra-processed food* as a standalone lever
 
 Mostly not, once the specific culprits are pulled. The magnitudes are modest (relative effects clustering
 RR/OR 1.2-1.66), observational, and confounded by the poor diets, lower income and lower activity that
@@ -279,9 +272,9 @@ runs through markers and short-term surrogates, not hard endpoints -> [[Surrogat
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful? |
-> | **Evidence included** | 14 sources — 6 gold, 7 high, 1 non-gold |
+> | **Evidence included** | 14 sources — 6 gold, 7 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 non-gold source(s) feed this page: Suez (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-08-01 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Processed%20Food%20Bad.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Processed%20Food%20Bad.md) |
 
 ## References

@@ -1,11 +1,12 @@
 ---
 type: deliverable
+title: Comparing the Major Dietary Patterns
 question: Across the major named dietary patterns, is any clearly superior or inferior on patient-important outcomes, how good is the evidence, and how much does the pattern label matter versus the shared core, total energy, and adherence?
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better]
 sources: [Estruch - PREDIMED Mediterranean Diet 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, ESC - CVD Prevention Guidelines 2021]
 confidence: low
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -166,8 +167,7 @@ restriction is *one* lever for the weight loss that drives remission, not a nece
 
 The Cochrane review also flags a
 contraindication in its own voice: caution in people with atherogenic-lipoprotein hyper-response to
-high-fat, low-carbohydrate eating [@naude2022, 
-Authors' conclusions].
+high-fat, low-carbohydrate eating [@naude2022, Authors' conclusions].
 
 ### Animal-based / carnivore
 
@@ -179,8 +179,7 @@ because LDL/apoB is the validated exception to the wiki's surrogate scepticism: 
 disease in proportion to how much and how long it is lowered ([[LDL ApoB and Cumulative Exposure]];
 [[Surrogate Outcomes]]). It also forgoes fibre entirely. None of this is a hard-outcome verdict -- it is
 mechanism plus the absence of a trial -- and the fibre/micronutrient-adequacy question for a
-muscle-meat-only diet is unheld. A full head-to-head appraisal against a medium-fat animal-based diet is
-not held here.
+muscle-meat-only diet is unheld.
 
 ### The carbohydrate-quantity picture is a U, not a slope, and it is substitution-dependent
 
@@ -223,8 +222,7 @@ best-graded and hardest outcomes.
   Whole-grain benefit probably runs *through* the fibre; **refined grains are not found harmful** (RR 1.00
   for cardiovascular events and diabetes), so this is a benefit-of-fibre story, not a harm-of-grains one
   [@sacn2015, 7.9, 7.11] ([[Whole Grains Refined Grains and Pulses]]).
-  A daily portion of pulses lowers LDL by \~0.2 mmol/L [@esc2021, 
-].
+  A daily portion of pulses lowers LDL by \~0.2 mmol/L [@esc2021].
 - **Less processed meat.** Processed meat's colorectal-cancer association is significant (RR 1.16, 95% CI
   1.08 to 1.26 per 50 g/day); unprocessed red meat's is not (RR 1.12, 1.00 to 1.25 per 100 g/day). In
   absolute terms a realistic reduction is on the order of **7 fewer cancer deaths per 1000 over a
@@ -237,13 +235,12 @@ core. Much of each pattern's established benefit is therefore attributable to th
 the distinguishing feature -- though the exact split between core and distinguishing feature is not
 cleanly estimated by any held source, and should not be asserted as a number.
 
-## How much does the pattern label matter, versus energy, adiposity, and adherence?
+## The pattern label versus energy, adiposity, and adherence
 
 Decompose the real-world effect of "choosing a pattern" into four terms, and the label comes out small.
 
 - **Total energy and adiposity dominate the metabolic outcomes.** DiRECT's remission scaled with
-  kilograms lost regardless of macronutrient composition [@lean2018, 
-  Findings]; the head-to-head weight advantage shrinks to a small, zero-heterogeneity subgroup effect
+  kilograms lost regardless of macronutrient composition [@lean2018, Findings]; the head-to-head weight advantage shrinks to a small, zero-heterogeneity subgroup effect
   once energy prescription is matched
   [@naude2022, Analysis 1.2].
 - **Adherence is part of the effect, and it is poorly delivered.** In the 61-trial low-carb review, the
@@ -332,9 +329,9 @@ honest move, and inventing a number would be the dishonest one.
 > | | |
 > |---|---|
 > | **Question** | Across the major named dietary patterns, is any clearly superior or inferior on patient-important outcomes, how good is the evidence, and how much does the pattern label matter versus the shared core, total energy, and adherence? |
-> | **Evidence included** | 13 sources — 7 gold, 5 high, 1 non-gold |
+> | **Evidence included** | 13 sources — 7 gold, 5 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 non-gold source(s) feed this page: Dehghan (cohort). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns%20Is%20One%20Clearly%20Better.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns%20Is%20One%20Clearly%20Better.md) |
 
 ## References

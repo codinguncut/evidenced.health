@@ -158,8 +158,7 @@ for how the domains were combined.** WHO issued a **strong** recommendation on S
 state a per-recommendation rationale in its Evidence-to-recommendations narrative — Recommendation 1
 «was assessed as strong because evidence of moderate certainty... suggested reduced risk of CVDs with
 lower SFA intake. No undesirable effects or other mitigating factors were identified that would argue
-against a lower SFA intake» [@who2023saturated, 
-Evidence to recommendations]. **But that rationale argues from health evidence plus the *absence* of a
+against a lower SFA intake» [@who2023saturated, Evidence to recommendations]. **But that rationale argues from health evidence plus the *absence* of a
 countervailing factor — it is a qualitative why, not a published rule for how the Acceptability *Varies*
 and Cost-effectiveness *Don't know* judgements were weighed against the health benefit.** So the
 corrected claim is narrow: WHO states *that* the balance favoured the health evidence, but publishes **no

@@ -88,8 +88,7 @@ mortality HR 0.95 (0.89-1.01), colorectal-cancer incidence HR **1.04 (0.90-1.20)
 certainty and «rated down for serious indirectness» (the evidence is one low-fat trial, not a red-meat  [@zeraatkar2019]
 trial). [@zeraatkar2019] The cohort SR (Vernooij, 70
 cohorts / 6M people) found «very small or possibly small decreases» in cancer incidence/mortality from
-lower-meat patterns, low/very-low certainty. [@vernooij2019, 
-] So across RCTs and cohorts the cancer signal is small/uncertain and (in the RCT) null-but-
+lower-meat patterns, low/very-low certainty. [@vernooij2019] So across RCTs and cohorts the cancer signal is small/uncertain and (in the RCT) null-but-
 indirect — reinforcing that the WCRF-vs-NutriRECS split is a grading-and-standpoint disagreement, not a
 dispute about the effect size.
 

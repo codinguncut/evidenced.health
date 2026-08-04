@@ -1,11 +1,11 @@
 ---
-title: "Do We Need Fibre In Our Diet?"
 type: deliverable
+title: "Do We Need Fibre In Our Diet?"
 question: What does the evidence show about dietary fibre — how large are its effects, on which outcomes, how certain, and what are its downsides, and does the soluble/insoluble split change the answer?
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, Valdes - Gut Microbiota Nutrition and Health 2018, ESC - CVD Prevention Guidelines 2021, NNR - Nordic Nutrition Recommendations 2023, Petroski - Antinutrients Narrative Review 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -26,7 +26,7 @@ roughly 25-30 g/day from food, mostly whole grains, legumes and fruit/veg; more 
 slightly better. Do not expect a miracle, and do not treat fibre as costless — the downsides are minor but
 real and depend on dose and preparation.
 
-## Is fibre *essential*? Recast the question
+## *Essential* is the wrong question for fibre
 
 *Is fibre essential* is a loaded binary that hides the useful answer. Fibre does *not* behave like a
 classic required nutrient: there is no fibre-deficiency disease the way there is scurvy for vitamin C, and
@@ -34,7 +34,7 @@ its recommended intake is set against health outcomes, not against preventing a 
 the strict biochemical meaning of *essential*, fibre is not essential. That tells you almost nothing about
 whether to eat it. The appraisable question is the one every exposure gets — **how big is the benefit, on
 which outcome, and how certain** — and by that measure fibre is a modest but genuine positive. The rest of
-this page answers it outcome by outcome.]]`
+this page answers it outcome by outcome.
 
 ## Fibre is not one thing — decompose it
 
@@ -49,7 +49,7 @@ the page:
   short-chain fatty acids. This is the *prebiotic* channel and the main dietary lever on the microbiome.
 
 The types overlap (oat beta-glucan is soluble, viscous *and* fermentable), but the split matters because a
-psyllium supplement, a bowl of bran and a plate of beans are not interchangeable across outcomes.]]`
+psyllium supplement, a bowl of bran and a plate of beans are not interchangeable across outcomes.
 
 ## Outcome by outcome
 
@@ -77,7 +77,7 @@ available data», with the «greatest benefits ... for individuals consuming 25-
 [@reynolds2019] The widely-quoted 30 g figure
 marks where the evidence thins, not a biological threshold beyond which extra fibre stops helping. Read it
 as *every realistic increase probably pays a little more*, and treat any claimed *minimum effective dose*
-sceptically — the burden is on whoever asserts a knee to locate it.]]`
+sceptically — the burden is on whoever asserts a knee to locate it.
 
 ### LDL cholesterol — real, causal, and small (soluble/viscous fibre only)
 
@@ -110,7 +110,7 @@ Viscous fibre slows glucose absorption, blunting the post-meal blood-sugar rise 
 and lower-glycaemic foods beat refined ones. The direction is supported (fibre is a component of the
 carbohydrate-quality story, [[Free Sugars Intake]]), and Reynolds records improvements in intermediate
 markers in its trial arm, but the wiki does not hold a clean quantified fibre-to-glycaemia effect size.
-**This is a gap** — stated plainly, not glossed as settled.] / [[Free Sugars Intake]]]`
+**This is a gap** — stated plainly, not glossed as settled.
 
 ### Body weight and satiety — small, trial-grade
 
@@ -128,7 +128,7 @@ plausible mechanism.
 Insoluble/bulking fibre adds stool bulk and speeds transit — the standard, uncontroversial constipation
 lever — while viscous fibre slows gastric emptying (part of the satiety and glycaemia story). The wiki holds
 no dedicated source on fibre and GI transit, so the specific effect sizes (which fibre, how much, how fast)
-are **a named gap**, not a settled number. The direction is not in doubt; the quantification is unheld.]]`
+are **a named gap**, not a settled number. The direction is not in doubt; the quantification is unheld.
 
 ### The microbiome — fermentable fibre is the real lever
 
@@ -165,7 +165,7 @@ fibre.
 
 - **Bloating and gas.** Fermentation of fibre produces gas — the direct flip side of the microbiome
   benefit. It is dose-dependent and usually eases as intake ramps up gradually; a sudden jump from a low-
-  fibre diet is the common trigger.]; magnitude not separately sourced]`
+  fibre diet is the common trigger.
 - **Constipation or, rarely, obstruction with too little fluid.** A very high bulking-fibre intake without
   enough water can worsen, not relieve, constipation. This is a preparation/hydration caveat, not a property
   of fibre itself.
@@ -223,9 +223,9 @@ guidance recommends roughly 25-30 g/day and treats the benefit as real; this pag
 three things guidance often blurs: the large mortality numbers are observational (not RCT-proven); the
 trial-grade causal effects are small and live in specific fibre types (viscous fibre for LDL and glycaemia,
 bulking fibre for transit, fermentable fibre for the microbiome); and the 30 g figure is the edge of the
-evidence, not a threshold. Agreement with better warrant, not contrarianism.]]`
+evidence, not a threshold. Agreement with better warrant, not contrarianism.
 
-## Gaps (stated plainly)]]`
+## Gaps (stated plainly)
 
 - **Quantified fibre-to-glycaemia effect** is unheld — direction only.
 - **Fibre and GI transit / constipation / gastric emptying** has no dedicated source — mechanistically clear,
@@ -253,9 +253,9 @@ evidence, not a threshold. Agreement with better warrant, not contrarianism.]]`
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary fibre — how large are its effects, on which outcomes, how certain, and what are its downsides, and does the soluble/insoluble split change the answer? |
-> | **Evidence included** | 7 sources — 4 gold, 1 high, 2 non-gold |
+> | **Evidence included** | 7 sources — 4 gold, 1 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Valdes (narrative review); Petroski (narrative review). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Do%20We%20Need%20Fibre.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Do%20We%20Need%20Fibre.md) |
 
 ## References

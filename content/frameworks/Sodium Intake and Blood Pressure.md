@@ -42,8 +42,7 @@ same bare *"(strong recommendation)"* form on its recommendation lines — there
 *does* add is an **overall certainty stated per recommendation** in its Rationale (*"The overall
 certainty in the evidence for recommendation 1 was moderate, and for recommendation 2 was very low"*);
 this 2012 guideline issues no overall certainty anywhere.
-[@who2023saturated, Recommendations; Rationale — a
-cross-guideline check, so cited here in body rather than added to this page's `sources:`]
+[@who2023saturated, Recommendations; Rationale — a cross-guideline check, so cited here in body rather than added to this page's `sources:`]
 
 ## The evidence split — this is the whole story
 

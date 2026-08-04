@@ -66,8 +66,7 @@ Millwood's verdict: «the apparently protective effects of moderate alcohol inta
 not mainly caused by alcohol itself, and are largely artifacts of reverse causation and confounding.»
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
-[@millwood2019, Research in context;
-(Stockwell - Moderate Drinkers Mortality Risk 2016) , Conclusions]
+[@millwood2019, Research in context; (Stockwell - Moderate Drinkers Mortality Risk 2016) , Conclusions]
 
 ## Two independent methods, one conclusion `[E-independent]`
 

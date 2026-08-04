@@ -55,8 +55,7 @@ Two qualifiers ESC attaches itself:
 | 120-139 | 7 · 8 · 9 · 10 | 11 · 13 · 14 · 15 |
 | 100-119 | 6 · 7 · 7 · 8 | 9 · 10 · 11 · 12 |
 
-[@esc2021, Figure 3, moderate-risk region chart, read directly
-from the rendered page per `CLAUDE.source-prep.md` -> *Tables*, tier 3]
+[@esc2021, Figure 3, moderate-risk region chart, read directly from the rendered page per `CLAUDE.source-prep.md` -> *Tables*, tier 3]
 
 **Moderate-risk region = Austria, Cyprus, Finland, Germany, Greece, Iceland, Ireland, Italy, Malta,
 Portugal, San Marino, Slovenia, Sweden.** Region is not a detail — the four charts differ substantially for identical inputs. **The size of that

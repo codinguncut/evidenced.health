@@ -1,11 +1,12 @@
 ---
 type: deliverable
+title: Allocating a Weekly Exercise Budget
 question: Given a fixed weekly exercise-minute budget, how should a sedentary overweight late-40s adult allocate it across cardio, resistance training, and walking to buy the most patient-important benefit?
 aliases: [Exercise Budget Allocation, How to Spend Exercise Time, Cardio vs Resistance vs Walking, Exercise Minute Budget]
 sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Kodama - Cardiorespiratory Fitness and Mortality 2009, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, FAO - Dietary Protein Quality Evaluation 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -109,8 +110,8 @@ Resistance training earns a place in the budget on a different footing. Its **mo
 genuinely weak — one meta-analysis of observational cohorts (Momma 2022), graded **very low**: any
 muscle-strengthening activity versus none carried **RR 0.85 (0.79-0.93)** for all-cause mortality, RR
 0.83 for CVD, and RR 0.83 for diabetes [@momma2022].
-Hold that number one tier below the cardio evidence; do not let the confident lever's certainty bleed
-onto it.
+Treat that estimate as one level less certain than the cardiorespiratory-fitness evidence: the
+well-established cardio finding must not lend the weaker muscle-strengthening number false confidence.
 
 Three things make resistance training worth budget minutes anyway, none of which is the mortality
 number:
@@ -282,9 +283,9 @@ and together* over *all-in-one*, but not a precise number. Move the dial toward 
 > | | |
 > |---|---|
 > | **Question** | Given a fixed weekly exercise-minute budget, how should a sedentary overweight late-40s adult allocate it across cardio, resistance training, and walking to buy the most patient-important benefit? |
-> | **Evidence included** | 11 sources — 2 gold, 7 high, 2 non-gold |
+> | **Evidence included** | 11 sources — 2 gold, 7 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Kodama (meta-analysis); Ross (narrative review). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/How%20to%20Spend%20an%20Exercise%20Budget.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/How%20to%20Spend%20an%20Exercise%20Budget.md) |
 
 ## References

@@ -374,8 +374,7 @@ same-quantity failure. **That was wrong**: NNR's front-matter glossary defines *
 essentially WHO's words, and since added sugars are a subset of free sugars under that definition, the
 phrase "added and free sugars" has the extension *free sugars*. The denominators match too. **So the
 three thresholds are comparable, and the divergence between them is real rather than definitional.**
-`[@nnr2023, — the glossary entries; the
-subset step is this page's]` `[searched: "monosaccharide"/"disaccharide"/"naturally present in
+`[@nnr2023, — the glossary entries; the subset step is this page's]` `[searched: "monosaccharide"/"disaccharide"/"naturally present in
 honey"/"definition of sugar"/"intrinsic sugar" across all 10 NNR chunks]`
 
 **The three-body picture, now that they can be compared:**
@@ -409,8 +408,7 @@ low energy intake» — which follows from the displacement mechanism: a fixed *
 from sugar crowds out proportionally more of a smaller nutrient budget. **A caries threshold carries no
 such stratification**, because caries risk tracks frequency and exposure rather than the surrounding
 energy budget.
-`[@nnr2023, — the stratification is NNR's; the
-mechanism reading is this page's]`
+`[@nnr2023, — the stratification is NNR's; the mechanism reading is this page's]`
 
 **And NNR names an evidence gap exactly where the other two set their second tier.** Its carbohydrate
 *Main data gaps* block reads:

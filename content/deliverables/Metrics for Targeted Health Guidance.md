@@ -1,11 +1,11 @@
 ---
-title: "What to Measure: A Minimal Health Checklist"
 type: deliverable
+title: "What to Measure: A Minimal Health Checklist"
 question: What is the smallest set of readily-capturable health metrics that places a person in the strata the fabric stratifies on, ordered by decision-impact x capturability?
 sources: [ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, EASL - MASLD Clinical Practice Guidelines 2024, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Ference - LDL Cause ASCVD EAS Consensus 2017, Dehghan - PURE Fats Carbohydrate Mortality 2017, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -61,14 +61,13 @@ reduction in systolic pressure cuts major cardiovascular events by about 10% (HR
 people without prior CVD), with no threshold below which the benefit vanishes
 [@bplttc2021, Results]. Capture
 **resting heart rate** at the same time — it is free, and it is an input to the non-exercise fitness
-estimate in Tier 3 [@ross2016, eCRF
-equations].
+estimate in Tier 3 [@ross2016, eCRF equations].
 
 ### Waist circumference (plus height and weight for BMI)
 
 Visceral adiposity is the dominant
-*metabolic* lever, and waist is a cardiometabolic criterion for fatty-liver disease (MASLD): a waist
->=94 cm in men or >=80 cm in women (European thresholds), or BMI >=25, is one of the factors that
+*metabolic* lever, and waist is a cardiometabolic criterion for fatty-liver disease (MASLD): a waist of
+94 cm or more in men or 80 cm or more in women (European thresholds), or a BMI of 25 or more, is one of the factors that
 places a person in that stratum [@easl2024].
 Waist beats BMI for visceral fat specifically, but BMI is universal and free — so capture both, and
 read waist as the metabolic signal. A person with obesity plus metabolic syndrome is at high likelihood
@@ -228,9 +227,9 @@ starting default, not a fixed prescription — the weighting is done per case wh
 > | | |
 > |---|---|
 > | **Question** | What is the smallest set of readily-capturable health metrics that places a person in the strata the fabric stratifies on, ordered by decision-impact x capturability? |
-> | **Evidence included** | 13 sources — 4 gold, 6 high, 3 non-gold |
+> | **Evidence included** | 13 sources — 4 gold, 6 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 non-gold source(s) feed this page: Dehghan (cohort); Kodama (meta-analysis); Ross (narrative review). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Metrics%20for%20Targeted%20Health%20Guidance.md) |
+> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate); Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Metrics%20for%20Targeted%20Health%20Guidance.md) |
 
 ## References

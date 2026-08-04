@@ -1,12 +1,13 @@
 ---
 type: deliverable
+title: The Rate of Weight Loss and Its Effects
 subject: Whether the RATE of intentional weight loss changes patient-important outcomes over and above the total lost and the method used
 question: For an adult who has decided to lose weight, does the rate of loss change regain, muscle loss, and organ harm over and above the amount lost and the method used — and does a diet-created deficit differ from an exercise-widened one for body composition?
 aliases: [Rapid Weight Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss, Speed of Weight Loss]
 sources: [EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, NICE - NG246 Evidence Review F, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019]
 confidence: low
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -75,10 +76,9 @@ So every claimed harm below is sorted by which of three things it actually track
   regression-to-the-mean; the fast loser and the slow loser differ before either steps on the scale.
 
 This is the same discipline the wiki uses for any exposure: attribute each risk from the evidence,
-rather than assuming it attaches to the most visible variable (here, the number on the scale).] and the confounding-by-indication logic of
-[[The U-Shaped Association Artifact]]]`
+rather than assuming it attaches to the most visible variable (here, the number on the scale).
 
-## The speed U-curve: is *too fast rebounds* a real curve or a confound?
+## The speed U-curve — curve or confound
 
 The popular model is a U/J-curve on speed — too slow is ineffective and demoralizing, too fast rebounds
 and harms — with an optimum in the middle. The two arms are different kinds of claim and need different
@@ -199,8 +199,7 @@ fast loss, under defined bounds, and it works.
   **46%** type 2 diabetes remission, with remission rising monotonically with kilograms lost: **0%** in
   those who gained, 7% at 0-5 kg, 34% at 5-10 kg, 57% at 10-15 kg, and **86%** at >=15 kg
   [@lean2018, Results]. Crucially, «All oral antidiabetic and
-  antihypertensive drugs were discontinued on day 1» [@lean2018, 
-  Procedures] — the aggressive deficit and the medication list were managed *together*, which is exactly
+  antihypertensive drugs were discontinued on day 1» [@lean2018, Procedures] — the aggressive deficit and the medication list were managed *together*, which is exactly
   why a rapid regimen on glucose-lowering or antihypertensive drugs is a prescriber-supervised matter,
   not a self-administered one.
 - **NICE bounds the rapid phase by duration.** NICE will positively (if weakly — *consider*) recommend
@@ -245,8 +244,7 @@ held mechanism says yes — with an important ceiling.
   offsets the most, so exercise *counts* least where the deficit is wanted most.
 - **And intensity is not the lever.** The worry that high-exertion work (HIIT) is offset *more* than
   moderate work is refuted: «Sex, frequency, intensity and dose of exercise energy expenditure were not
-  significant predictors of energy compensation» [@riou2015, 
-] — what predicts it is the interaction of initial fat mass, age and duration.
+  significant predictors of energy compensation» [@riou2015] — what predicts it is the interaction of initial fat mass, age and duration.
 
 ### The defensible reading: use diet to create the deficit and exercise (especially resistance training) to protect the body while it runs
 
@@ -255,8 +253,7 @@ spared, visceral fat preferentially cut) at the cost of energy compensation, inj
 so it is a composition tool, not an efficient scale-weight tool. **The magnitude of the body-composition
 trade-off — how much muscle spared and visceral fat preferentially lost, diet-only vs diet-plus-exercise
 at a matched deficit — is not held** (the Verheggen 2016 / Khalafi 2023 type SR, gap below); what is held
-is the compensation ceiling and the muscle-preservation mechanism.] and [[Exercise Energy Compensation]]; the compensation magnitudes are extracted; a
-head-to-head body-composition SR is a gap]`
+is the compensation ceiling and the muscle-preservation mechanism.] and [[Exercise Energy Compensation]]; the compensation magnitudes are extracted; a head-to-head body-composition SR is a gap]`
 
 ## The ranking verdict: rate is a second-order knob with stratum-dependent teeth
 
@@ -276,9 +273,8 @@ metabolism* narrative outruns the evidence for a speed effect independent of met
   older/sarcopenia-risk stratum, where aggressive loss inverts from lever to hazard.
 - **And the ceiling on the whole enterprise:** weight loss itself is a bounded lever on hard outcomes.
   Even sustained lifestyle weight loss did not reduce cardiovascular events in the large Look AHEAD trial
-  (HR 0.95, 95% CI 0.83-1.09) [@look2013], and a 54-trial meta-analysis confirms the CV-event null (RR 0.93, 0.83-1.04) while finding a
-  modest all-cause mortality benefit not routed through the heart (RR 0.82, 0.71-0.95)
-  [@ma2017]. The rate of a lever is a refinement of a
+  (HR 0.95, 95% CI 0.83-1.09) [@look2013], and a 54-trial meta-analysis [@ma2017] confirms the CV-event null (RR 0.93, 0.83-1.04) while finding a
+  modest all-cause mortality benefit not routed through the heart (RR 0.82, 0.71-0.95). The rate of a lever is a refinement of a
   lever whose own ceiling is already known — largest for the outcomes weight loss demonstrably moves
   (diabetes remission), unproven for others (heart attacks) ([[Does Weight Loss Reduce Cardiovascular Events]]).
 
@@ -329,9 +325,9 @@ stated plainly for acquisition rather than papered over with invented numbers:
 > | | |
 > |---|---|
 > | **Question** | For an adult who has decided to lose weight, does the rate of loss change regain, muscle loss, and organ harm over and above the amount lost and the method used — and does a diet-created deficit differ from an exercise-widened one for body composition? |
-> | **Evidence included** | 11 sources — 2 gold, 8 high, 1 non-gold |
+> | **Evidence included** | 11 sources — 2 gold, 8 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 non-gold source(s) feed this page: Lowe (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Rapid%20Weight%20Loss%20How%20Fast%20Is%20Too%20Fast.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Rapid%20Weight%20Loss%20How%20Fast%20Is%20Too%20Fast.md) |
 
 ## References

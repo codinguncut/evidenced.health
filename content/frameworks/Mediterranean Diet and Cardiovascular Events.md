@@ -2,8 +2,8 @@
 type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
-authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018]
+authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020]
 cluster: cardiometabolic-exposures
 confidence: medium
 relationships:
@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
 created: 2026-07-29
-updated: 2026-07-31
+updated: 2026-08-04
 self_critiqued: 2026-07-29
 ---
 
@@ -48,7 +48,8 @@ months for every diet «except for the Mediterranean diet», and Mediterranean i
 LDL reduction at moderate certainty -> [[Named Diet Programs Compared]] [@ge2020]. Keep the outcomes distinct: Ge measures the **LDL
 surrogate** over <=12 months, PREDIMED measures **hard events** over \~5 years — so this is not a second
 witness to the *event* finding, but two unrelated designs both flagging Mediterranean as the pattern with
-something durable. (Corroboration line; Ge is not a `sources:` entry here.)
+something durable. (Ge enters as an F-refinement — a different design flagging the same pattern — and is a
+listed source.)
 
 ## Why this matters at the pattern level — three decision-relevant reads
 

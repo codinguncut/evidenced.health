@@ -57,8 +57,7 @@ disease were more prevalent among abstainers than among moderate drinkers»).
 | **Mendelian randomization** | genetic instruments fix lifetime exposure, immune to reverse causation | monotonic harm for stroke, no protective arm (Millwood) |
 | **Exclude early follow-up / sick baseline** | remove the reverse-causation window | U-shape *persisted* observationally — so this alone is insufficient (Millwood) |
 
-[@stockwell2016, Results;
-(Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) , Results]
+[@stockwell2016, Results; (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) , Results]
 
 **The load-bearing lesson:** excluding early follow-up is the *weak* check (the alcohol U-shape survived
 it); the referent correction and MR are the *strong* ones, and where a genetic instrument exists it is
@@ -151,8 +150,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   mortality signal as «an artefact attributable to factors such as reverse causation and biased
   estimation of sodium intake» and directly contradicts PURE's high-intake *BP*-association threshold
   with RCT effects «far below this» — but this is the concept's recipe *named* again, still without an
-  MR or referent-correction on the arm. [@huang2020, 
-] Two same-lineage critiques do not compound into an adjudication; the arm stays open.
+  MR or referent-correction on the arm. [@huang2020] Two same-lineage critiques do not compound into an adjudication; the arm stays open.
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
   ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [@jha2013]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking

@@ -105,9 +105,7 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
   counts only LDL. Those remnant/IDL particles are elevated precisely in the hypertriglyceridemic /
   metabolic-syndrome state, so LDL-P *misses* the extra atherogenic particles apoB captures right where
   discordance arises. apoB is also the more standardised, widely-available assay. **So LDL-P is a good
-  LDL-only proxy for apoB; apoB is the target.** `[EXTRACTED for the correlation + single-apoB-per-particle
-  + the particle list; INFERRED for the remnant-coverage ranking, which follows from apoB's particle set
-  vs LDL-P's]`
+  LDL-only proxy for apoB; apoB is the target.** `[EXTRACTED for the correlation + single-apoB-per-particle + the particle list; INFERRED for the remnant-coverage ranking, which follows from apoB's particle set vs LDL-P's]`
 
 ## Limits
 

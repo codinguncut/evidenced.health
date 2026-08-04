@@ -1,9 +1,10 @@
 ---
 type: deliverable
+title: Fruits Vegetables Pulses and Grains
 question: Among fruits, vegetables, pulses and grains, what does the evidence show about net benefit and net harm on patient-important outcomes — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level?
 sources: [Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, FAO - Dietary Protein Quality Evaluation 2013, Valdes - Gut Microbiota Nutrition and Health 2018, Dehghan - PURE Fats Carbohydrate Mortality 2017]
 confidence: low
-updated: 2026-07-31
+updated: 2026-08-04
 self_critiqued: 2026-07-31
 ---
 
@@ -104,7 +105,8 @@ attribution: «Any associations indicated for whole grain may be related to its 
   (dry weight) of whole grains ... with likely further benefits of higher intakes»
   [@nnr2023] — a food-level restatement of the
   fibre lever, not an independent one (NNR read SACN and Reynolds, so it is not a second witness).
-- **The benefit is cohort-only and mostly graded low** -> [[Whole Grains Refined Grains and Pulses]].
+- **The benefit rests on observational cohort studies only — no randomized trials — and is mostly graded
+  low-certainty** -> [[Whole Grains Refined Grains and Pulses]].
 
 ### Refined grains — not found harmful
 
@@ -243,7 +245,7 @@ no reported evidence of adverse effects [@who2015, Remarks, p.16]. Fruit
   exposure as a sugar-sweetened beverage [@te2013, Results];
   reading it as a whole-fruit signal generalises past what the data carry -> [[Free Sugars Intake]].
 
-### Does a fruit's sugar-to-fibre ratio change an outcome?
+### A fruit's sugar-to-fibre ratio and outcomes
 
 On the held evidence, no demonstrated one. A
 higher-sugar/lower-fibre fruit produces a larger *glycaemic response* — but glycaemic response is a
@@ -312,9 +314,9 @@ These are stated plainly because the ceiling is a finding -> [[Whole Grains Refi
 > | | |
 > |---|---|
 > | **Question** | Among fruits, vegetables, pulses and grains, what does the evidence show about net benefit and net harm on patient-important outcomes — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? |
-> | **Evidence included** | 12 sources — 5 gold, 4 high, 3 non-gold |
+> | **Evidence included** | 12 sources — 5 gold, 4 high, 3 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 non-gold source(s) feed this page: Petroski (narrative review); Valdes (narrative review); Dehghan (cohort). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fruits%20Vegetables%20Pulses%20and%20Grains.md) |
+> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate); Valdes (narrative review, moderate); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fruits%20Vegetables%20Pulses%20and%20Grains.md) |
 
 ## References

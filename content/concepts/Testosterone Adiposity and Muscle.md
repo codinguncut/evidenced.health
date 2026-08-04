@@ -64,8 +64,7 @@ younger, non-diabetic, more-obese men and those with higher baseline T.
 
 **The mechanism names why this is central and not incidental.** Obesity-related male hypogonadism is
 **secondary (central), not testicular**: «obesity-related male hypogonadism is now considered as a form of
-hypogonadotropic hypogonad- ism» [@corona2013, 
-]. Fat tissue over-expresses aromatase, so estrogen rises and feeds back to suppress the pituitary:
+hypogonadotropic hypogonad- ism» [@corona2013]. Fat tissue over-expresses aromatase, so estrogen rises and feeds back to suppress the pituitary:
 «The increased amount of estrogen levels might, in turn, play a negative feedback on both the hypothalamus
 and the pituitary, leading to decreased LH secretion»
 [@corona2013]. Weight loss reverses

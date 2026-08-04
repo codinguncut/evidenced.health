@@ -1,12 +1,12 @@
 ---
-title: "What's Up With the Microbiome?"
 type: deliverable
+title: "What's Up With the Microbiome?"
 question: Which gut-microbiome claims and interventions change a patient-important outcome, which are mechanistically plausible but unproven, and which are effectively unfalsifiable?
 aliases: [Microbiome, Gut Health, Probiotics Prebiotics FMT, Leaky Gut, Candida Diet]
 authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa]
 sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
 confidence: medium
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -247,9 +247,9 @@ divergence where it oversells (the general tonic).
 > | | |
 > |---|---|
 > | **Question** | Which gut-microbiome claims and interventions change a patient-important outcome, which are mechanistically plausible but unproven, and which are effectively unfalsifiable? |
-> | **Evidence included** | 5 sources — 1 gold, 2 high, 2 non-gold |
+> | **Evidence included** | 5 sources — 1 gold, 2 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 non-gold source(s) feed this page: Valdes (narrative review); Suez (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Whats%20Up%20With%20the%20Microbiome.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Whats%20Up%20With%20the%20Microbiome.md) |
 
 ## References

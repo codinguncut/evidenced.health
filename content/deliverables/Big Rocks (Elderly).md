@@ -1,9 +1,9 @@
 ---
-title: "The Biggest Health Levers After 70"
 type: deliverable
+title: "The Biggest Health Levers After 70"
 sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, ESC - CVD Prevention Guidelines 2021, USPSTF - Statin Use Primary Prevention 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013]
 confidence: low
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -239,9 +239,9 @@ BMD-vs-fracture surrogate inversion. Route through a Compile pass, not a fabric 
 > | | |
 > |---|---|
 > | **Question** | _(not set)_ |
-> | **Evidence included** | 23 sources — 7 gold, 15 high, 1 non-gold |
+> | **Evidence included** | 23 sources — 7 gold, 15 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 non-gold source(s) feed this page: Lowe (RCT). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 ## References

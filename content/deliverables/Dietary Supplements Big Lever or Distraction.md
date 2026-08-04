@@ -1,12 +1,13 @@
 ---
 type: deliverable
+title: Dietary Supplements and Health
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org)]
 sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, SACN - Carbohydrates and Health 2015]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 ---
 
@@ -40,41 +41,27 @@ The appraisable question is never *does compound X have a plausible mechanism?* 
 It is: **for a person already eating adequately, does this specific product, at this dose and in this
 form, move a real outcome — and how good is the evidence?** Five moves do the work.
 
-### Sort every compound into ONE of four evidence states, and keep them apart
-
-*Benefit* (RCT
-  evidence on a patient-important outcome, in a named circumstance); *no meaningful effect* (measured and
-  null in humans at realistic doses); *insufficient / not-yet* (mechanistically reasonable, or a
-  surrogate / small / short-term human signal, but **not** established on a real outcome — held as a
-  candidate, not a finding); and *harm*. The two nulls are not the same: *insufficient* means we have
-  not looked hard enough, *no meaningful effect* means we looked and there was nothing there.
-
-### Judge against the honest comparator, not against placebo alone
-
-The real alternatives to a pill
-  are (a) getting the nutrient from **food**, (b) correcting a **documented deficiency**, and (c) doing
+- **Sort every compound into ONE of four evidence states, and keep them apart.** *Benefit* (RCT evidence
+  on a patient-important outcome, in a named circumstance); *no meaningful effect* (measured and null in
+  humans at realistic doses); *insufficient / not-yet* (mechanistically reasonable, or a surrogate /
+  small / short-term human signal, but **not** established on a real outcome — held as a candidate, not a
+  finding); and *harm*. The two nulls are not the same: *insufficient* means we have not looked hard
+  enough, *no meaningful effect* means we looked and there was nothing there.
+- **Judge against the honest comparator, not against placebo alone.** The real alternatives to a pill are
+  (a) getting the nutrient from **food**, (b) correcting a **documented deficiency**, and (c) doing
   **nothing** and spending the money and attention on the big rocks. A supplement has to beat the
   relevant one of those, not merely beat an empty capsule.
-
-### The unit is the specified compound + dose + FORM + circumstance — never the label
-
-Magnesium is
+- **The unit is the specified compound + dose + FORM + circumstance — never the label.** Magnesium is
   several salts that absorb differently; omega-3 spans an over-the-counter fish-oil capsule and a \~4 g/day
   prescription drug; protein powder is food in powder form. Judge the measured product, not the category
   ([[Is the Food Category Doing Any Work]]).
-
-### The isolate trap and the streetlight
-
-A nutrient pulled out of its food matrix is a *different
+- **The isolate trap and the streetlight.** A nutrient pulled out of its food matrix is a *different
   exposure* than the food, and isolates are **over-studied precisely because they are cheap to dose and
   blind** — the evidence base is skewed toward whatever is easy to measure, not toward what matters
-  ([[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]]). A clean RCT of
-  a supplement isolate can come back null *because the isolate is not the food* — that is a finding about
+  ([[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]]). A clean RCT of a
+  supplement isolate can come back null *because the isolate is not the food* — that is a finding about
   the pill, not a refutation of the food.
-
-### Attention is an anti-signal, and cost is a real constraint
-
-In a mature area, the loudest,
+- **Attention is an anti-signal, and cost is a real constraint.** In a mature area, the loudest,
   most-published exposures tend to be the small contested ones; the big settled levers are boring.
   Supplements are the paradigm case. Money, attention, and adherence spent on a low-lever stack are
   genuine costs traded against the big rocks ([[Layer 1 - Ranking Interventions for a Stratum]]) — the
@@ -166,8 +153,7 @@ trials, supplemental antioxidants **raised all-cause mortality** [@bjelakovic200
 > «In 47 low-bias trials with 180 938 participants, the antioxidant supplements significantly increased
 > mortality (RR, 1.05; 95% CI, 1.02-1.08). In low-bias risk trials, after exclusion of selenium trials,
 > beta carotene (RR, 1.07; 95% CI, 1.02-1.11), vitamin A (RR, 1.16; 95% CI, 1.10-1.24), and vitamin E
-> (RR, 1.04; 95% CI, 1.01-1.07), singly or combined, significantly increased mortality.» [EXTRACTED
-> (Bjelakovic - Antioxidant Supplements Mortality 2007) chunk 01]
+> (RR, 1.04; 95% CI, 1.01-1.07), singly or combined, significantly increased mortality.» [@bjelakovic2007]
 
 Two things keep this honest, in both directions. First, the **all-trials pool is null** (RR
 1.02, 0.98-1.06); the harm surfaces only after restricting to low-bias trials — which is the point, not a
@@ -403,40 +389,14 @@ not invented numbers (the gaps are tracked against the nucleus,
   mislabelled dose are a supplement-specific harm vector that exists regardless of whether the compound's
   own evidence is favourable.
 
- — how to weigh this page
-> **Question** — For dietary supplements, where and for whom is there an effect on hard outcomes, and
-> how do they rank against the big rocks?
->
-> **Applies to** — Generally-nourished adults with no diagnosed deficiency.
->
-> **Priority outcomes** — Mortality, cancer, cardiovascular disease, fractures (patient-important).
->
-> **Evidence included** — 13 sources: gold guidelines (USPSTF, WGO, SACN) plus FAO and Reynolds SR;
-> landmark RCTs (VITAL vitamin-D / omega-3 / fractures, CARET beta-carotene); meta-analyses
-> (Bjelakovic antioxidants-mortality, Morton protein, Brown fibre). A strong RCT + meta-analysis
-> backbone.
->
-> **Overall certainty** — **Medium** (see [[Rating Certainty of Evidence]]).
->
-> **Main uncertainties** — Null benefit findings are in *replete* people and may not transport to
-> deficiency; the harm signal is specific to beta-carotene in smokers; the long tail is *insufficient
-> evidence*, kept apart from *no effect*.
->
-> **Source-selection note** — One non-gold source (Valdes, a narrative review) feeds only the
-> peripheral probiotic thread; the core benefit/harm claims rest on gold guidelines plus landmark RCTs
-> (VITAL, CARET) and meta-analyses (Bjelakovic).
->
-> **Last updated** — 2026-07-30 · **Independently reviewed:** No ·
-> [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md)
-
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 13 sources — 3 gold, 9 high, 1 non-gold |
+> | **Evidence included** | 13 sources — 3 gold, 9 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 non-gold source(s) feed this page: Valdes (narrative review). Labelled-weak, not load-bearing. |
-> | **Last updated** | 2026-07-30 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |
 
 ## References

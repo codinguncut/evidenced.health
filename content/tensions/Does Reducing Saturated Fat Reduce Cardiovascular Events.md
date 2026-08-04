@@ -43,8 +43,7 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
   recommendation to reduce intake of SFAs without considering specific fatty acids and food sources is
   not aligned with the current evidence base." No new trial — the case is re-appraisal + observational
   (PURE, UK Biobank) + mechanistic.
-  [@astrup2020, Evidence on the Health Effects of SF;
-  Research Gaps]
+  [@astrup2020, Evidence on the Health Effects of SF; Research Gaps]
 
 ## Parameter table — where the two actually meet, and where they only appear to
 

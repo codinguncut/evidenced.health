@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate put type 2 diabetes into remission, and does it last?
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
-authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E]
-sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022]
+authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long]
+sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020]
 cluster: weight-management
 confidence: medium
 self_critiqued: 2026-07-29
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@naude2022]
@@ -67,8 +67,8 @@ source's own wording is the accurate one: *"most benefits diminished at 12 month
 pattern and named diet diminishes by 12 months (down \~1.5 kg per diet) and cardiovascular risk-factor
 gains «largely disappear» -> [[Named Diet Programs Compared]] [@ge2020]. That the remission effect here decays *in step with* its
 weight advantage is consistent with the reading below — a weight-loss effect on a low-carb route, riding
-the same attenuation curve every diet shows. (Corroboration line; Ge is not a `sources:` entry — it
-measures no remission outcome.)
+the same attenuation curve every diet shows. (Ge enters as an F-refinement — it measures no remission
+outcome itself, but its cross-diet weight-decay finding refines the reading here — and is a listed source.)
 
 The HbA1c estimate at 6 months is the only High-certainty row **among the primary outcomes**. Table 3
 carries five more (LDL at 6 months, HDL and triglycerides at both timepoints).

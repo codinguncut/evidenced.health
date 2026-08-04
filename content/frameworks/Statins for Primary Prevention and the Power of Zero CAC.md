@@ -73,8 +73,7 @@ more — and CAC re-stratified them sharply:
   in the *considered* group, «1.5 per 1,000 person- years».
 - **Estimated 10-year NNT** (applying an assumed 30% relative reduction to the observed rates): in the
   recommended group, **64 for CAC=0 vs 28 for CAC>100**; in the considered group, **223 vs 46**
-  [@nasir2015, Table 3 — the "¼ 0"
-  spans are OCR for "= 0"].
+  [@nasir2015, Table 3 — the "¼ 0" spans are OCR for "= 0"].
 - The headline: «the absence of CAC reclassifies approximately one-half of candidates as not eligible for
   statin therapy», resting on the principle that «the net benefit from treatment is directly proportional
   to the absolute risk».

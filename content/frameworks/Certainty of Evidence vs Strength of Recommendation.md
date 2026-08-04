@@ -289,8 +289,7 @@ finding about guideline-making.**
 | WHO Sugars 2015 | free sugars <10%E | **strong** | **moderate** (observational, caries) |
 | WHO Sugars 2015 | free sugars <5%E | conditional | **very low** (ecological) |
 
-[@who2023saturated, — «The overall certainty in the
-evidence for recommendation 1 was moderate, and for recommendation 2 was very low»]
+[@who2023saturated, — «The overall certainty in the evidence for recommendation 1 was moderate, and for recommendation 2 was very low»]
 [@who2015, Remarks, p.16]
 
 **Seven recommendations, seven diagonal cells, zero off-diagonal.** Strong pairs with moderate every

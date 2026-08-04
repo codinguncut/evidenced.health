@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -189,9 +189,10 @@ null (stroke and CV-death were flat) [@manson2019n3]:
 **Read it as hypothesis-generating, not a finding**: it is a secondary endpoint with no
 multiplicity control, the composite it sits in was null, and a prespecified low-fish-intake subgroup
 (MACE HR 0.81) suggests any benefit may be repletion of an inadequate baseline intake rather than a
-pharmacologic effect of the pill. A separate exposure — **high-dose (\~4 g/day) prescription EPA in
-high-triglyceride statin-treated patients** — is a different question with its own trial evidence, and
-does not transport to a general-population 1 g/day capsule. VITAL also notes the n-3 dose ceiling: «The
+pharmacologic effect of the pill. A separate exposure — **high-dose (4 g/day) prescription EPA in
+high-triglyceride statin-treated patients** — is a different question with its own trial evidence
+(REDUCE-IT), resolved in the section below; it does **not** transport to a general-population 1 g/day
+capsule. VITAL also notes the n-3 dose ceiling: «The
 dose-response curve for most effects plateaus at 1 g or less of n-3 fatty acids per day» [@manson2019n3] — one of the few explicitly located **plateaus** in the
 corpus's dose-response holdings.
 
@@ -208,9 +209,31 @@ that **fails to reduce hard events** in a low-risk population
 obtained from food (the isolate-vs-food discipline -> [[Is the Food Category Doing Any Work]]); USPSTF
 does **not** price cost or opportunity cost [@uspstf2022supp], so the expense of a null stack is a real layer-3 constraint this evidence leaves to the
 person. **Scope:** this page is *general-population disease prevention*; it
-is **not** deficiency correction, not ergogenic/performance supplements (creatine, protein), and not
-pregnancy folic acid (which USPSTF separately recommends) — those are different decisions.
+is **not** deficiency correction, not ergogenic/performance supplements (creatine ->
+[[Creatine Supplementation]], protein -> [[Protein and Resistance Training for Muscle and Strength]]),
+and not pregnancy folic acid (which USPSTF separately recommends) — those are different decisions,
+answered on *surrogate performance* outcomes, not the hard disease-prevention endpoints this page holds.
 
+
+## The counter-example boundary — periconceptional folic acid DOES work, now held as PRIMARY evidence `[2026-08-04, De-Regil]`
+
+This page's null is *general-population disease prevention* — enhancement in the replete on chronic
+endpoints. The standing **counter-example** is **periconceptional folic acid for neural-tube-defect (NTD)
+prevention**, which this page previously acknowledged only **second-hand** (via USPSTF's separate
+recommendation). De-Regil 2015 (a gold Cochrane-review SR/MA) **upgrades that mention to held PRIMARY evidence with a
+magnitude**: periconceptional folate cut NTDs to **RR 0.31 (95% CI 0.17-0.58); 5 RCTs; 6708 births; GRADE
+high**, recurrence RR 0.34, absolute **35 -> 11 per 1000**, **no harm** (miscarriage RR 1.10)
+[@deregil2015]. Authors: «Folic acid ...
+prevents NTDs» [EXTRACTED chunk 01].
+
+**So supplements are not uniformly a distraction: for the pregnancy-planning stratum, on a HARD outcome (a
+birth defect, not a surrogate), a supplement clearly works** — the clean opposite pole to this page's
+replete-adult null [inferred from @deregil2015]. It is a **different decision**
+(a life-stage-defined stratum, a critical periconceptional window, a supra-adequate outcome-specific target
+\~9x above the deficiency threshold), placed precisely as a *distinct window-gated flavor of repletion* — **not**
+the enhancement-in-the-replete this page holds -> [[Deficiency Repletion vs Enhancement]] (operative detail
++ the distinct-flavor appraisal). *This refines the scope line below: pregnancy folic acid is answered on a
+**hard** outcome, unlike the performance-surrogate carve-outs (creatine/protein).*
 
 ## Two boundaries the general-population null does not settle (deliverable-critique, 2026-08-01)
 
@@ -223,11 +246,62 @@ scope limits keep the null honest without overturning it:
   open question the fabric does not yet hold, flagged for acquisition. "Half-dosing a multivitamin" has no
   evidence base either way.
 - **Omega-3: the null is standard-dose (1 g/day) enhancement in a general, replete population.** It does
-  NOT transport to high-dose prescription EPA (\~4 g/day) in a high-triglyceride / high-CV-risk stratum -
+  NOT transport to high-dose prescription EPA (4 g/day) in a high-triglyceride / high-CV-risk stratum -
   a different exposure, dose and stratum (and whose landmark trial carries a contested comparator). That
-  stratum question is not held here - flagged for acquisition; the general-population finding stands.
+  stratum question is now held (REDUCE-IT) and resolved as a distinction below; the general-population
+  finding stands.
 
 
+
+## REDUCE-IT cashes the high-dose stratum — and it is a DIFFERENT exposure, not a contradiction of VITAL `[2026-08-04, Bhatt]`
+
+The reflex on seeing REDUCE-IT (benefit) beside VITAL (null) is to file a tension: *does omega-3 prevent
+CV events or not?* **It is not a tension — it is a distinction.** The two trials give the same word
+("omega-3") to **different compounds, at a 4-fold dose gap, in different strata, on different composites**.
+Run the parameter table before any comparison:
+
+| Parameter | REDUCE-IT (Bhatt 2019) | VITAL n-3 arm (Manson 2019) | Same quantity? |
+|---|---|---|---|
+| Analyte / form | purified EPA ethyl **ester, no DHA** [@bhatt2019] | **EPA+DHA mix** (460 EPA + 380 DHA) [@manson2019n3] | **NO** |
+| Dose | **4 g/day** [@bhatt2019] | **1 g/day** (840 mg) [@manson2019n3] | **NO** (4x) |
+| Population | statin-treated, established CVD (70.7%) or DM+risk; TG 135-499 (median 216); high CV risk [@bhatt2019] | general primary prevention (men ≥50 / women ≥55), **not** TG-selected, replete [@manson2019n3] | **NO** |
+| Primary composite | 5-point (CV death, MI, stroke, **coronary revasc, unstable angina**) [@bhatt2019] | 3-point MACE (CV death, MI, stroke) [@manson2019n3] | **NO** |
+| Comparator | **mineral oil** (contested; LDL rose \~10% in placebo) [@bhatt2019] | placebo (not characterized in held extract) | unknown |
+| Primary result | **HR 0.75 (0.68-0.83), ARR 4.8 pp, NNT 21** [@bhatt2019] | **HR 0.92 (0.80-1.06), null** [@manson2019n3] | — |
+
+**Every input row is NO.** The not-joined check (ii) fires — *different scope/exposure/population,
+consistent once matched*: a different compound at 4x the dose in a high-risk stratum producing a different
+result is exactly what transportability predicts, not a clash about one exposure. **No tension is filed.**
+Bhatt says the same in his own voice — the prior n-3 nulls may reflect «the low dose or... the low ratio
+of EPA to docosahexaenoic acid (DHA)», and the results «should not be generalized to other n−3 fatty acid
+preparations — in particular, dietary-supplement preparations of n−3 fatty acid mixtures»
+[@bhatt2019]. -> [[Is the Food Category Doing Any Work]]
+(the label-is-not-the-exposure diagnostic).
+[inferred from @bhatt2019; @manson2019n3]
+
+**What REDUCE-IT establishes, decision-form (route (a)/(b), high baseline risk).** For a **statin-treated
+patient with established CVD or diabetes and elevated triglycerides (135-499 mg/dL)**, 4 g/day icosapent
+ethyl is a **real lever**: over 4.9 y, NNT 21 for the primary composite and a significant 20% lower CV
+death (HR 0.80, 0.66-0.98) [@bhatt2019]. Three bounds
+keep it honest, held to the same bar as any favourable finding:
+
+- **It is a PRESCRIPTION drug, not the supplement aisle.** Icosapent ethyl is a regulated, dosed, purified
+  drug — the realistic alternative here is *pharmacotherapy*, not an OTC fish-oil capsule (which is the
+  null VITAL exposure). This is a pharmacotherapy finding admitted because a drug is often the realistic
+  comparator to a lifestyle change.
+- **The comparator is contested.** The mineral-oil placebo raised LDL \~10%, which *may* have inflated the
+  effect; the authors argue the small LDL gap cannot explain a 25% RRR and that a post-hoc analysis was
+  robust to it, and cite open-label JELIS (no mineral oil, 19% RRR) [@bhatt2019]. Unresolved by this trial; a clean-comparator trial (STRENGTH, corn-oil placebo)
+  was null — not held here, flagged for acquisition. So the *magnitude* carries a discount even though the
+  stratum-benefit direction is credible.
+- **Harms travel with it:** AFib/flutter hospitalization 3.1% vs 2.1% (P=0.004) and a non-significant
+  bleeding signal (2.7% vs 2.1%) [@bhatt2019] — real
+  layer-3 considerations, not dealbreakers, for the person weighing it.
+
+**All-cause mortality was NOT significantly reduced** (HR 0.87, 0.74-1.02) [@bhatt2019] — so this is a hard-CV-event lever with a favourable but unproven
+survival effect, not a demonstrated longevity intervention. **Scope firewall:** this section is the
+*high-risk-stratum prescription* boundary; it does NOT loosen this page's general-population supplement
+null, which is 1 g/day OTC enhancement in the replete and stands unchanged.
 
 ## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
 

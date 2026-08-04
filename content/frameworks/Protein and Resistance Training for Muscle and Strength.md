@@ -122,6 +122,14 @@ held — this is an evidence-weighting judgment, not a trial result.)
     -> [[Protein Quality and the DIAAS Score]]. This is a source caveat on the number, not a change to it.
 - **The training is the lever; protein is the adjunct.** Do not expect protein alone (without the
   training) to build muscle — every effect here is *during* resistance training.
+- **Creatine is the *second* ergogenic adjunct, through a different pathway — additive, not redundant.**
+  Where protein feeds muscle-protein synthesis, creatine buffers ATP resynthesis (the phosphocreatine
+  energy system), so it augments the *same* resistance-training surrogates (strength, lean mass) by a
+  distinct mechanism and stacks with protein rather than substituting for it — including in older adults,
+  where creatine + RT beat RT alone on muscle mass, strength and functional capacity
+  -> [[Creatine Supplementation]]. Same boundary as this page: RT is the driver, the supplement is a small
+  adjunct on surrogates, and creatine monohydrate (3-5 g/day) is the cheap, best-evidenced form.
+
 - **Age and training status modulate it**, not whether to do it: a 46-year-old sits near the age boundary
   (Morton splits at 45) where the supplement's edge is modestly reduced but the training's is not.
 - **"From what age is resistance training essential rather than nice-to-have?" is the wrong axis — it is

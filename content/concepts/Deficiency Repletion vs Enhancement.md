@@ -4,8 +4,8 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015]
 confidence: medium
 created: 2026-07-30
 updated: 2026-08-04
@@ -353,6 +353,61 @@ mother's provision of positive stimulation rather than the child's iodine suffic
 large and design-robust (consistent across four designs); the *precise* size and the pure-iodine
 attribution carry real uncertainty. The direction and the deficient-benefit leg are secure; hold the
 point estimate loosely.
+
+## A DISTINCT flavor of repletion — periconceptional folic acid and NTDs (window-gated, stratum-DEFINED, not baseline-status-modification)
+
+The trio above (vit-D/iron/iodine) are one structural kind: **route-(b) baseline-STATUS modification** — the
+supplement's benefit concentrates in the *measured*-deficient and fades in the *measured*-replete, within
+one population. **Periconceptional folic acid for neural-tube-defect (NTD) prevention is a different kind of
+repletion, and forcing it into the trio's pattern would be a category error** [inferred from @deregil2015]. It is the **clearest
+supplement-benefit the wiki holds on a HARD patient-important outcome**, and it earns a clean statement:
+
+- **Magnitude (De-Regil 2015 SR/MA, GRADE high).** Periconceptional folate vs no folate cut NTDs
+  to **RR 0.31 (95% CI 0.17 to 0.58)**; 5 RCTs; 6708 births; recurrence RR **0.34 (0.18-0.64)**; absolute
+  **35 -> 11 per 1000 (6 to 20)** [@deregil2015]. Authors' conclusion: «Folic acid, alone or in combination with vitamins and minerals, prevents
+  NTDs, but does not have a clear effect on other birth defects» [EXTRACTED chunk 01] — the benefit is
+  specific to NTDs. **No harm signal** (miscarriage RR 1.10, 0.94-1.28) [EXTRACTED chunk 01].
+
+**Why it is a distinct flavor, in three appraisal moves:**
+
+1. **The stratum is defined by LIFE-STAGE, not by a lab value.** The "who" is *women capable of / planning
+   pregnancy, periconceptionally* — a reproductive-window stratum, not a biochemically-deficient subgroup.
+   The whole stratum benefits, and the effect is **not** modified by dose above \~0.36 mg or by folate-alone
+   vs -combined (a plateau, no route-(a) scaling by measured shortfall within the stratum)
+   [@deregil2015]. Contrast the trio,
+   where absolute benefit scales with *measured* deficiency severity.
+2. **The protective target sits \~9x ABOVE the deficiency threshold.** Deficiency is RBC folate <100 nmol/L,
+   but «the optimal folate level associated with lowest risk of NTDs is 906 nmol/L or above»
+   [@deregil2015]. So this is **not
+   correcting a frank deficiency** — it is reaching a *supra-adequate, outcome-specific* target. A woman with
+   "adequate" folate by the anaemia-prevention standard can still be NTD-*insufficient*. This is why the
+   effect is population-wide for the stratum rather than concentrated in the lab-deficient tail.
+3. **It is window-gated — Axis 2, the same gating structure as iodine.** The neural tube closes within \~28
+   days of conception [@deregil2015],
+   so the exposure must be present *periconceptionally* (before most women know they are pregnant); trials
+   that started supplementation after the first trimester were out of scope. This is the fabric's **Axis 2
+   (WHETHER a benefit fires — gating support factor)** instantiated again, and the closest structural
+   parallel to Bougma's fetal-brain window (early-pregnancy iodine *d* 0.51 vs late 0.17) — repletion after
+   the window largely fails [inferred from @deregil2015; @bougma2013].
+
+**Higher-risk sub-stratum (route (a), baseline risk).** For women with a prior NTD pregnancy, diabetes, or
+on anticonvulsants, the recommended dose is **5 mg/day** (vs 0.4 mg general) [@deregil2015] — a higher-baseline-risk stratum getting a larger dose,
+route (a) on [[Baseline Risk and the Relative-Absolute Split]].
+
+**Kept OUT of the `[E-independent]` count, deliberately.** Folate/NTD is **not** a fourth
+baseline-status-modification instance — it does not demonstrate a *measured*-deficient-vs-*measured*-replete
+interaction on one outcome. It is a different structural flavor (window-gated, stratum-defined, supra-adequate
+target), so the three-nutrient E-claim on the *baseline-status-modification principle* is **unchanged**; folate
+adds breadth to *what repletion can look like*, not a fourth witness of the trio's specific pattern
+[inferred from @deregil2015; @martineau2017; @falkingham2010; @bougma2013].
+
+**Decision-change.** For a **woman planning or capable of pregnancy**, 400 ug/day periconceptional folic acid
+(5 mg if higher-risk) is a **real lever on a hard outcome** — it *flips* supplementation for this stratum from
+bottom-of-hierarchy (where the general-population disease-prevention null puts it,
+-> [[Vitamin and Mineral Supplements for Disease Prevention]]) to a genuine big rock. This is the standing
+counter-example to *supplements are a distraction*: for **this** stratum, on **this** outcome, a supplement
+clearly works. The population-scale analogue is **folic-acid fortification** of staple foods (delivery vehicle,
+not a different exposure) [@deregil2015].
 
 ## Guard — this is the REAL dose-response U, not the artifact
 

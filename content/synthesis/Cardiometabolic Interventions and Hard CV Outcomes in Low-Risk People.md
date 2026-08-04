@@ -2,8 +2,8 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019]
 cluster: cvd-risk-estimation
 confidence: high
 self_critiqued: 2026-08-04
@@ -139,12 +139,25 @@ baseline risk is high; it says nothing about the low-risk person, where the abso
 relative effect shrinks toward the mechanism-1 floor. (And PREDIMED's all-cause mortality was null over
 4.8 yr, so even at high risk the event benefit did not extend to death in-window.)
 
+**REDUCE-IT is the third confirming test — and the only one that shows mechanism 1 INSIDE a single trial
+`[2026-08-04]`.** A lipid-lever drug (icosapent ethyl 4 g/day) cut the primary CV composite by 25% in a
+**high-risk** statin-treated, high-triglyceride population (NNT 21 overall; NNT \~16 in the
+established-CVD arm) [@bhatt2019] — again exactly where a
+trial can accrue events. The sharp part is its own two strata: the **lower-risk primary-prevention arm
+(DM + risk factor, event rate 13.6%) was attenuated to HR 0.88 (0.70-1.10), CI crossing 1, ARR \~1.4 pp**,
+versus the secondary-prevention arm's HR 0.73 / ARR 6.2 pp [@bhatt2019]. So the one trial displays the whole pattern — proven where risk is high, fading toward the
+floor where it is low — and it does **not** supply a low-risk lever. (Bound: it is a prescription drug in a
+selected hypertriglyceridemic stratum, and its mineral-oil comparator is contested, so it does not even
+speak to the general low-risk person.) -> [[Baseline Risk and the Relative-Absolute Split]].
+[inferred from @bhatt2019]
+
 **What still would break it:** a primary-prevention cardiovascular-outcome trial of an obesity drug
 (does not yet exist), a weight-loss-mortality review finding benefit beyond T2D, a CAC-randomized
 statin trial with benefit at CAC=0, or **a dietary-pattern RCT showing hard-outcome benefit in a
 genuinely LOW-risk population** — any would move a *large-absolute-at-low-risk* cell from *unproven*
-toward *proven*. Until then the pattern holds, and its confidence is **high**: five intervention
+toward *proven*. Until then the pattern holds, and its confidence is **high**: six intervention
 classes across drug, diet-pattern and lifestyle — including the ones with the strongest
-primary-prevention evidence — all land in the same place by the same mechanism.
+primary-prevention evidence, and one (REDUCE-IT) that displays the baseline-risk gradient within a
+single trial — all land in the same place by the same mechanism.
 
 ## References

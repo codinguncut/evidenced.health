@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -13,7 +13,7 @@ relationships:
     - Rating Outcome Importance
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-25
-self_critiqued: 2026-07-28
+self_critiqued: 2026-08-04
 updated: 2026-08-04
 ---
 
@@ -377,5 +377,35 @@ lower-risk groups sets a *lower bound*. That is baseline-risk reasoning used to 
 effect qualitatively when the numbers to compute it are missing — a partial answer to the owed route-(a)
 illustration, though still not a worked pair of numbers.
 [@uspstfmanual2022] [inferred from @uspstfmanual2022]
+
+## A worked pair of numbers, at last — REDUCE-IT's two risk strata `[2026-08-04, Bhatt]`
+
+The debt above («one intervention, one relative effect, two stated baseline risks, two absolute effects»)
+is finally supplied *inside a single trial*, by REDUCE-IT's two prespecified risk strata. One
+intervention (icosapent ethyl 4 g/day), same 4.9-y horizon, primary composite:
+
+| Stratum | Baseline risk (placebo event rate) | Relative effect (HR) | Absolute effect (ARR) | NNT |
+|---|---|---|---|---|
+| **Secondary prevention** (established CVD) | **25.5%** (738/2893) | 0.73 (0.65-0.81) | **6.2 pp** | **\~16** |
+| **Primary prevention** (DM + risk factor) | **13.6%** (163/1197) | 0.88 (0.70-1.10) | **1.4 pp** | **\~71** |
+
+[@bhatt2019] — event rates and HRs are from the primary
+subgroup forest; the ARR and NNT are computed from the two event rates
+[inferred from @bhatt2019].
+
+**The decision consequence made concrete:** the same drug, same dose, is worth an NNT of \~16 in the
+higher-risk arm and \~71 in the lower-risk arm — a \~4-fold swing in absolute value driven by baseline risk,
+which is exactly the inference the ESC and USPSTF sections state in principle.
+
+**But this is NOT a clean route-(a) isolation, and saying so is the honest reading `[the page has twice
+logged the error of declaring this debt prematurely discharged].`** Under a *constant* relative effect
+(HR 0.75), the lower-risk arm's ARR should be \~3.4 pp (13.6% × 0.25), not the observed 1.4 pp — because
+the primary-prevention **point-estimate HR is attenuated to 0.88** (CI crosses 1). So the 4-fold ARR swing
+blends route (a) (baseline risk, \~1.9-fold on its own) with a *possible* route-(b) relative-effect
+modification. **The interaction test cannot resolve which:** P for the risk-stratum interaction is 0.14
+(non-significant), so the trial licenses treating the relative effect as constant while *not excluding*
+attenuation. **Read it as the worked pair the page owed, with the caveat that one trial's subgroups cannot
+separate route (a) from route (b) when the interaction is underpowered** — the very reason route (b)
+demands positive interaction evidence, which 0.14 is not. [inferred from @bhatt2019]
 
 ## References

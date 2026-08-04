@@ -2,8 +2,8 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-08-04
@@ -528,5 +528,29 @@ caffeine axis nor the whole-cup label is the right decision variable* — for th
 **matrix / decaf-equivalence**; for the lipid harm, name the **brew method**. A recommendation phrased as
 "caffeine is bad" or "coffee raises cholesterol" is wrong on both axes. -> [[Coffee Consumption and Health]]
 [inferred from @poole2017]
+
+## "Omega-3" as a label spanning a benefit AND a null — the unit is compound × dose × stratum `[2026-08-04, Bhatt vs Manson]`
+
+This diagnostic usually runs on a *food* label. The supplement literature supplies the same failure one
+level in, at the **isolated-nutrient** label — and it is unusually sharp because the two trials under one
+word land on **opposite outcomes**. "Omega-3" (or "fish oil") names REDUCE-IT and VITAL alike, yet:
+
+| Parameter | REDUCE-IT (benefit) | VITAL n-3 (null) | Same? |
+|---|---|---|---|
+| Compound | purified EPA ester, **no DHA** | EPA+DHA mix | **NO** |
+| Dose | 4 g/day | 1 g/day | **NO** |
+| Stratum | statin-treated, high-TG, high CV risk | general, replete, primary prevention | **NO** |
+| Result | HR 0.75, NNT 21 [@bhatt2019] | HR 0.92, null [@manson2019n3] | opposite |
+
+**Every input differs, so the divergent results are a distinction, not a tension** — Test 3 at the nutrient
+level. The word "omega-3" is *not the exposure*; the exposure is **the specified compound, at a specified
+dose, in a specified stratum**. Bhatt says exactly this: prior n-3 nulls may reflect «the low dose or... the
+low ratio of EPA to docosahexaenoic acid (DHA)», and REDUCE-IT «should not be generalized to other n−3
+fatty acid preparations — in particular, dietary-supplement preparations of n−3 fatty acid mixtures»
+[@bhatt2019]. This composes with case 3's fish note above
+(if the active agent is long-chain n-3, "fish" is the wrong exposure): here the label fails even after you
+descend from *fish* to the *isolated n-3*, because EPA-ester ≠ EPA+DHA-mix and 4 g ≠ 1 g. The full
+parameter table and the decision-form finding live on [[Vitamin and Mineral Supplements for Disease Prevention]].
+[inferred from @bhatt2019; @manson2019n3]
 
 ## References

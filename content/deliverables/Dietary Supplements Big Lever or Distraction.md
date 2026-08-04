@@ -3,8 +3,8 @@ type: deliverable
 title: Dietary Supplements and Health
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Martineau, Adrian R; Falkingham, Martin; Bougma, Karim]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, SACN - Carbohydrates and Health 2015]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; Bhatt, Deepak L; Kreider, Richard B; De-Regil, Luz Maria]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, SACN - Carbohydrates and Health 2015]
 confidence: medium
 created: 2026-07-30
 updated: 2026-08-04
@@ -94,6 +94,18 @@ co-primary endpoints:
 
 > «Supplementation with n-3 fatty acids did not result in a lower incidence of major cardiovascular
 > events or cancer than placebo.» [@manson2019n3]
+
+**But "omega-3" is not one exposure — dose and form flip the answer.** VITAL's null tested OTC-strength
+marine omega-3 (1 g/day EPA+DHA) in primary prevention. REDUCE-IT tested a *different* product — **4 g/day
+of prescription purified EPA** (icosapent ethyl) — in 8179 statin-treated patients with high triglycerides
+and high cardiovascular risk, and **reduced** the primary composite of major cardiovascular events, HR
+**0.75** (0.68-0.83), a \~25% relative reduction [@bhatt2019].
+
+Two things stop this becoming "fish oil works": the placebo was **mineral oil**, which raised LDL and CRP
+in the control arm and may have inflated the apparent benefit (a clean-comparator trial is not yet held);
+and the benefit is in a **high-risk, high-triglyceride, statin-treated stratum**, not general prevention —
+plus icosapent ethyl is a **prescription drug**, not the shelf capsule. The decision is *form + dose +
+stratum*, not "omega-3" ([[Is the Food Category Doing Any Work]]).
 
 **Fractures were null too.** The VITAL fracture ancillary found vitamin D3 did not reduce total (HR 0.98,
 0.89-1.08), nonvertebral (0.97), or hip (1.01, 0.70-1.47) fractures [@leboff2022]:
@@ -212,6 +224,15 @@ This is the one robust *benefit* mechanism, and it is
     0.4-0.8 mg folic acid supplement for all persons planning or capable of pregnancy** — a repletion-style
     benefit in a defined stratum, explicitly set apart from the general-adult prevention nulls above
     [@uspstf2022supp].
+  - **Folate is now held as PRIMARY evidence, not just a guideline aside — the clearest supplement benefit
+    on a hard outcome the wiki holds.** A Cochrane review of 5 RCTs (6708 births) finds periconceptional
+    folic acid cuts neural-tube defects by \~70% — RR **0.31** (0.17-0.58), **GRADE high**, absolute
+    \~35 → 11 per 1000, with no excess miscarriage; the effect plateaus above \~0.36 mg, and a 5 mg dose is
+    used for the high-risk sub-stratum (prior affected pregnancy, diabetes, anticonvulsants)
+    [@deregil2015]. This is a
+    *window-gated, life-stage-defined* repletion — a distinct flavour from the baseline-status trio above —
+    and it makes the deliverable's headline precise: "supplements are mostly a distraction" is a
+    *stratum-dependent* claim, not a universal one.
 
 #### Protein powder — which is just food, judged as protein
 
@@ -267,11 +288,21 @@ The evidence attaches to *strain x indication
 
 **Electrolytes** have a genuine case
   under heavy sweat loss, endurance in heat, or specific medical contexts, and no case for the ordinary
-  well-hydrated eater. **Creatine monohydrate** is widely regarded as having real RCT support for
-  strength, power, and lean mass with resistance training (and older-adult muscle / cognition signals) —
-  but **the wiki holds no creatine source**, so it is named here as a candidate-benefit whose magnitude
-  is an acquisition gap, **not** appraised from held evidence. Do not read
-  its inclusion as a graded finding.
+  well-hydrated eater.
+
+**Creatine monohydrate** is the one item on this list with a *real* benefit case — and the wiki now holds
+  the source. Its **ergogenic** benefit is cross-body consensus (ISSN / ADA / ACSM): with resistance
+  training it raises high-intensity exercise performance and adds strength and lean mass beyond training
+  alone [@kreider2017]. But keep
+  the states apart: that benefit is on **performance and body-composition surrogates**, not a disease
+  outcome — which is why creatine sits here, not on the prevention nucleus; the **cognitive and clinical**
+  claims are *emerging / insufficient*, and neurodegenerative-disease trials came back **null**; and the
+  ISSN stand is industry-funded with heavy author conflicts, so its magnitudes are *borrowed from the
+  primary studies*, not this document.
+
+Practical: **monohydrate** is the only well-evidenced form
+  (cheapest = best), and creatine raises the **creatinine** blood marker without any real kidney change —
+  disclose it before a creatinine test [@kreider2017].
 
 ### No meaningful effect — measured, and null
 
@@ -374,13 +405,16 @@ This domain is thinly held, and several of the magnitudes that would sharpen it 
 not invented numbers (the gaps are tracked against the nucleus,
 [[Vitamin and Mineral Supplements for Disease Prevention]]):
 
-- **A creatine meta-analysis** (strength / lean mass, and older-adult muscle / cognition) is **not held**
-  — creatine is named as a candidate-benefit whose magnitude the wiki cannot yet state.
-- **Repletion sources are not held** — no trial quantifies the benefit of correcting a documented
-  vitamin D, B12, iron, folate, iodine, or calcium deficiency in its stratum; the wiki holds the
-  *principle* (via the VITAL replete-population nulls and the USPSTF deficiency carve-out), not the
-  effect size.
-- **Prescription high-dose EPA (icosapent ethyl)** — the fish-oil / drug boundary — is awaited.
+- **A creatine strength/lean-mass meta-analysis** is not held — creatine's ergogenic benefit *is* now held
+  (the ISSN position stand), but its magnitude is *borrowed from primary studies*; a dedicated pooled MA
+  (and a clean older-adult muscle / cognition estimate) would upgrade it from a conflicted consensus.
+- **Repletion effect sizes are now held for four nutrients** — vitamin D (respiratory infection, NNT 4 in
+  the deficient), iron (cognition, +2.5 IQ anaemic), iodine (child development, +7.4 IQ deficient) and
+  folate (neural-tube defects, RR 0.31) — so the deficient arm is *quantified*, no longer "principle only."
+  Still absent: B12 and calcium repletion effect sizes, and a *same-outcome* dose-response traced from the
+  deficient edge to the plateau for any single endpoint.
+- **A clean-comparator omega-3 trial** — the held REDUCE-IT benefit rests on a contested mineral-oil
+  placebo; STRENGTH (corn-oil placebo, EPA+DHA, null) would settle it and is not yet held.
 - **Most of the insufficient-bucket compounds** (magnesium, CoQ10, curcumin, berberine, ashwagandha,
   and the stack tier) have **no primary source held** — their *insufficient* placement is a default from
   absence, and could move to *benefit* or *no-effect* once real human-outcome evidence is appraised.
@@ -408,7 +442,7 @@ not invented numbers (the gaps are tracked against the nucleus,
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 16 sources — 6 gold, 9 high, 1 moderate |
+> | **Evidence included** | 19 sources — 8 gold, 10 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |

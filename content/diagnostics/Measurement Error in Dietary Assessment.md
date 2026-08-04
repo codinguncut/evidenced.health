@@ -2,8 +2,8 @@
 type: diagnostic
 question: How much can measurement error in diet studies hide a real effect, or manufacture a false one?
 aliases: [Measurement Error, Attenuation, Regression Dilution, De-attenuation, Regression Calibration, Validation Study, Differential Misclassification]
-authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org)]
-sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019]
+authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org); Li, Jun]
+sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020]
 cluster: nutrition-methods
 confidence: medium
 self_critiqued: 2026-08-04
@@ -14,6 +14,7 @@ relationships:
     - Upgrading Observational Evidence
     - Physical Activity Dose and Mortality
     - Sources of Non-Replicability
+    - Linoleic Acid and Cardiovascular Disease
 created: 2026-07-25
 updated: 2026-08-04
 ---
@@ -693,5 +694,29 @@ interval / low SE is **not** evidence of correctness — a well-powered instrume
 biased, which is exactly this page's differential-error and correlated-error results seen from the
 accuracy-vs-precision angle.
 [@nasem2019]
+
+## The escape route works — but only for fatty acids the body cannot make `[2026-08-04]`
+
+The obvious remedy for self-report error is an objective biomarker, and whether that escape is available
+is **mechanism-gated by endogenous synthesis.** Two worked cases now bracket the gate, cross-linked
+rather than lifted here (convergent, not a tension): [[Linoleic Acid and Cardiovascular Disease]] is the
+*positive* case — LA is essential, so its tissue level is a genuine intake marker and a 30-cohort
+biomarker pool sidesteps the FFQ error this page is about; [[Saturated Fat Intake and Replacement]]
+(Van Dam & Hunter) is the *negative* case — for even-chain saturated and monounsaturated fats, de novo
+lipogenesis makes the tissue level a function of intake **and** carbohydrate/energy status, so the
+biomarker cannot separate the terms. **Same instrument, opposite verdict; the discriminator is whether
+the body can synthesise the analyte** — a within-category boundary that carries real information.
+[inferred from @willett]
+
+- **The escape route and the error-laden route agree — a within-source check.** Li 2020's LA-mortality
+  SR+MA ran *both* arms in parallel — a self-report dietary pool (FFQ, the error this page is about) and
+  an objective-biomarker pool — and they land on the same answer (all-cause mortality RR **0.87**
+  dietary vs **0.91** biomarker; same for CVD and cancer), which Li calls «reassuring». This is the
+  reassuring case of the escape route: where the biomarker is valid (essential fatty acid), the
+  error-laden FFQ gradient is **not** so flattened that it disagrees with the objective marker — so for
+  LA the self-report attenuation is tolerable, not fatal. Note the asymmetry with the general rule: the
+  agreement licenses trusting the *direction*, not treating the FFQ magnitude as unbiased (both arms are
+  observational, and Li's dietary route still carries the standard recall error).
+  [inferred from @li2020]
 
 ## References

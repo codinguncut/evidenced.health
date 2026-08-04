@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -11,11 +11,13 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Non-Sugar Sweeteners
     - The U-Shaped Association Artifact
+    - Linoleic Acid and Cardiovascular Disease
     - Testosterone Adiposity and Muscle
     - Stress Management and Cardiometabolic Health
+    - Sarcopenia Definition and Diagnosis
 created: 2026-07-25
-updated: 2026-08-01
-self_critiqued: 2026-08-01
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 ## Why it matters
@@ -199,6 +201,17 @@ profile. A first attempt at this page's neighbourhood asserted the surrogate had
 roll-up; **a blind critique falsified it against that sentence, and the claim is withdrawn.** What
 survives is the observation above and the habit -- not an allegation.
 [@who2023saturated, Summary of evidence]
+
+**The contrast case — where surrogate and hard outcome AGREE.** The SFA profile above shows surrogate
+and outcome *diverging in certainty* (LDL High, every disease outcome Low). The opposite configuration
+is on [[Linoleic Acid and Cardiovascular Disease]]: the same nutrient (LA) lowers LDL/apoB *and* its
+objective biomarker tracks lower hard CVD, mortality and stroke — surrogate and patient-important
+outcome pointing the same way. **The lesson is symmetric, not reversed:** agreement is added warrant
+(here the apoB-mediated pathway, [[LDL ApoB and Cumulative Exposure]]) but still does not license
+reading the surrogate *as* the outcome — the LA outcome evidence stands on its own biomarker-cohort
+footing. The disciplined habit (ask which outcome carried the certainty; do not let the marker stand in)
+is the same whether the two agree or diverge.
+
 
 ## Limits
 
@@ -478,5 +491,62 @@ excludes 1 [1.04-1.97], mechanism unknown — a striking instance, not a settled
 -> [[Testosterone Adiposity and Muscle]]
 
 [inferred from @grade; @snyder2024]
+
+
+## A guideline body rewrites its CASE DEFINITION to demote a surrogate `[2026-08-04, EWGSOP2]`
+
+The prior instances are surrogates argued up, declined, or inverted *inside an evidence appraisal*. This
+is a fourth, structurally different form: a guideline body reorganising its own **diagnostic definition**
+around the surrogate discipline. For three decades sarcopenia was defined by low muscle **mass**. The
+EWGSOP2 (2019) consensus demotes mass to a *confirmatory* role and promotes muscle **strength** to the
+primary criterion, on exactly this page's grounds: «muscle strength comes to the forefront, as it is
+recognised that strength is better than mass in predicting adverse outcomes»
+[@cruzjentoft2019].
+
+Two of the page's own tells drove the demotion, stated by an independent body in a different domain
+(muscle, not lipids/BMD) — a generality instance for the rule (`type-E` flavour, corroboration not pad):
+
+- **Outcome-proximity:** strength predicts falls/fractures/disability/mortality better than mass — so the
+  closer-to-outcome measure wins primacy. Reinforced by a rate asymmetry EWGSOP2 reports: after 50,
+  strength declines faster than mass (1.5-5% vs 1-2%/year), so a mass number *under-reads* the functional
+  loss.
+- **Measurement reliability compounds it:** mass/quality «remain problematic as primary parameters»
+  because they are technically hard to measure accurately, while grip strength is cheap and reliable — so
+  the *worse* predictor was also the *noisier* one. Both considerations pointed the same way.
+
+**Bound it:** this is a definitional/prognostic reorganisation by expert consensus, not an RCT showing
+that steering strength changes outcomes — the loop stays open, and the value here is the *appraisal move*
+(pick the marker closest to the outcome), independently enacted -> [[Sarcopenia Definition and Diagnosis]],
+[[Testosterone Adiposity and Muscle]].
+
+## The inverse use — a surrogate NULL that rebuts a HARM mechanism `[2026-08-04, Johnson LA-inflammation]`
+
+Every case above uses a surrogate to argue *for* something (a benefit, a target) or asks whether a body
+should *credit* a moved marker. Johnson 2012 is the mirror: a surrogate deployed to argue *harm* —
+the seed-oil thesis that dietary linoleic acid (LA) drives disease *via inflammation*, with inflammatory
+markers (CRP, IL-6, TNF-alpha) as the surrogate for the pathway. A systematic review of RCTs finds
+feeding LA does **not** raise those markers: *«virtually no evidence is available from randomized,
+controlled intervention studies among healthy, noninfant human beings to show that addition of LA to the
+diet increases the concentration of inflammatory markers»*
+[@johnson2012, Discussion/Abstract].
+
+**The asymmetry of a surrogate null — what it does and does not license [inferred from @johnson2012]:**
+
+- **It rebuts the *mechanism*, not the *outcome*.** A null on the surrogate breaks the proposed
+  harm *pathway* (LA -> inflammation -> disease) on its own terms. That is a real move — the harm story
+  was *built* on the surrogate, so a null on the surrogate collapses the story's own logic.
+- **It is NOT proof of safety on hard outcomes, nor of benefit.** The surrogate-to-outcome chain is
+  unproven in *either* direction, so a marker that fails to rise says nothing about disease or death —
+  the same gap that stops a marker that *does* move from proving harm. Johnson himself claims only
+  *«a measure of reassurance regarding current dietary recommendations»*, not benefit -> [[Linoleic Acid and Cardiovascular Disease]].
+- **The direction of the argument does not relax the discipline.** A reader sympathetic to seed oils is
+  tempted to read the null as vindication; symmetric standards forbid it — the surrogate is exactly as
+  weak a proxy when it *helps* your prior as when it hurts it. The correct output is *the harm mechanism
+  is not supported*, not *seed oils are safe* — those are different claims resting on different (here,
+  observational) evidence.
+
+**Generality for the rule:** a surrogate is a two-edged proxy — its evidentiary weakness is invariant to
+whether it is wielded to *establish* an effect or to *rebut* one. Filing a marker-null as a
+mechanism-rebuttal (not an outcome verdict) is the surrogate discipline applied in the negative.
 
 ## References

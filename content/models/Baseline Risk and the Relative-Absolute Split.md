@@ -14,7 +14,7 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-25
 self_critiqued: 2026-07-28
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 ## The decomposition

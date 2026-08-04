@@ -3,7 +3,7 @@ type: model
 question: When a study reports an effect of a nutrient, what exactly is being substituted for what?
 aliases: [Energy Adjustment, Residual Method, Nutrient Density, Energy Partition, Isocaloric Substitution, Substitution Models]
 authors: [Willett, Walter]
-sources: [Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021]
+sources: [Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Ding - Coffee and Type 2 Diabetes 2014]
 cluster: nutrition-methods
 nucleus: true
 confidence: medium
@@ -13,8 +13,8 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Measurement Error in Dietary Assessment
 created: 2026-07-25
-updated: 2026-07-30
-self_critiqued: 2026-07-30
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 **Nucleus of the `nutrition-methods` cluster.** The comparator problem
@@ -200,6 +200,26 @@ each level borrows precision from the whole dataset rather than from the data at
 **The diagnostic, stated so it can be run:** for any published dose-response table or figure, ask
 whether the per-level estimates come from **separate category-specific coefficients** or from **one
 continuous coefficient evaluated at several points**. Only the first can evidence a shape.
+
+**A worked instance of running the diagnostic, where it passes on one display and would fail on another
+`[2026-08-04, Ding]`.** Ding's coffee-T2D dose-response MA [@ding2014] presents *both* display types in one paper, which makes it a clean test case:
+
+- The **1-6 cup dose-response curve** comes from a **restricted cubic-spline (3-knot) model** that
+  formally *detected* nonlinearity — «A cubic spline model accounted for more variance in the outcome
+  than did a linear model (likelihood ratio test P , 0.001), suggesting that the association was not
+  fully linear». [@ding2014] A spline that can bend and
+  did bend is **not** the single-coefficient artifact — its shape (monotone, mildly concave) is a real
+  fit, and the diagnostic **passes**.
+- The **caffeinated-vs-decaf comparison** is reported as **single linear per-cup coefficients** (0.91,
+  0.94 per cup/day) [@ding2014] — these *cannot*
+  evidence any shape and must not be read as one; here the diagnostic would **fail** if a shape were
+  claimed from them (it is not — Ding uses them only for a magnitude contrast).
+
+So the same paper answers the diagnostic's question two ways, and the answer tracks the model, exactly as
+this section predicts. Note this makes Ding's monotone T2D curve a **counter-example** to the reflexive
+"monotone display = single-coefficient artifact" worry — a properly-fitted spline can be monotone
+*because the data are*.
+[inferred from @ding2014]
 
 **Recorded as bearing on the corpus's dose-response `[PRIOR]`, NOT scored** — adjudication sits outside
 an ingest. Stating the bearing precisely: CLAUDE.md records the knees-and-plateaus prior as falsified

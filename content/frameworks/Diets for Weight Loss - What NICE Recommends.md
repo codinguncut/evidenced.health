@@ -20,6 +20,7 @@ updated: 2026-08-04
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a
 dose, a duration and a population** — rather than an exposure and an association.
 
+
 ## The recommendation
 
 **Low-energy total diet replacement (800-1200 kcal/day): "consider"** — a deliberate weak

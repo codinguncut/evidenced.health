@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-27
-updated: 2026-07-30
+updated: 2026-08-04
 ---
 
 **Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [@grade]

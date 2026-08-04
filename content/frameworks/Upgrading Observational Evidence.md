@@ -2,8 +2,8 @@
 type: framework
 question: When can observational evidence support more confidence than its design alone would allow?
 aliases: [Upgrading Evidence, Rating Up, Large Magnitude of Effect, Dose-Response Gradient, Plausible Residual Confounding]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org)]
-sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org); Poole, Robin; Ding, Ming; van Dam, Rob M; Hu, Frank B]
+sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -12,9 +12,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Physical Activity Dose and Mortality
     - Confidence in Science Without a Replication Crisis
+    - Linoleic Acid and Cardiovascular Disease
 created: 2026-07-25
-updated: 2026-07-31
-self_critiqued: 2026-07-27
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
@@ -55,6 +56,18 @@ Worked case: infant sleeping position and SIDS — an odds ratio of 4.1 (95% CI 
 versus back sleeping, alongside 50-70% declines in SIDS incidence following "back to sleep"
 campaigns. [@grade, §5.3.1]
 
+**A nutrition worked case where the threshold BINDS `[2026-08-04, Poole]`.** Poole's coffee umbrella
+review applied GRADE across 218 meta-analyses (67+ outcomes), almost all observational and rated low or
+very low. It records exactly which outcomes cleared the large-magnitude bar: «Large effect sizes of >2
+or <0.5 can permit observational evidence to be upgraded in GRADE, and only the association between high
+versus low coffee consumption and both liver cancer and chronic liver disease reached this magnitude.»
+[@poole2017] So of dozens of coffee benefits, only
+the two liver outcomes (RR \~0.35) were large enough to consider rating up — the all-cause-mortality
+(RR 0.83) and CVD (0.85) associations, though consistent, sit far inside the threshold and stay very-low.
+This is the SIDS logic in a field where the criterion mostly **fails to fire**, which is itself the
+finding: it disciplines the common temptation to upgrade a *consistent* nutritional association that is
+merely *modest*. -> [[Coffee Consumption and Health]].
+
 ## 2. Dose-response gradient
 
 "The presence of a dose-response gradient has long been recognized as an important criterion for
@@ -91,6 +104,29 @@ it.
 upgrading a null into evidence of an *effect*, which inverts the factor and points it at the opposite
 conclusion.
 [@grade, §5.3.3, Example 4]
+
+### A case exhibiting two upgrade criteria at once — yet NOT upgraded `[2026-08-04, Ding coffee-T2D]`
+
+Ding's coffee-T2D dose-response MA (28 cohorts, 1.11M) [@ding2014] is instructive because it displays **both** the dose-response criterion (§2) and the
+confounding-against-the-effect criterion (§3), and the evidence still is not upgraded — which shows the
+criteria are permissive, not automatic.
+
+- **Dose-response gradient:** a monotone 1-6 cup gradient, RR 0.92 -> 0.67, with nonlinearity formally
+  detected (spline > linear, LR P<0.001) [@ding2014].
+- **Confounding runs toward the null:** «higher coffee consumption was generally associated with a less
+  healthy lifestyle... Thus, the true association between coffee and diabetes risk might be stronger than
+  observed», and adjusted ≈ unadjusted spline
+  [@ding2014] — the §3 configuration (the bias should
+  weaken, not manufacture, the finding).
+
+**Why it is still not upgraded, and why that is the honest reading.** The high-vs-low RR (0.70) is not a
+§1 large effect (not <0.5); Poole's umbrella rates the coffee-T2D evidence **low/very-low**; and the
+Mendelian-randomisation studies Poole cites found **no genetic causal signal** for coffee->T2D — a
+disconfirming input that the two upgrade criteria do not override. So the criteria being *present* raises
+the question of upgrading without settling it — exactly the *«exits are narrow»* point below. (Contrast
+the coffee **liver-disease** case earlier on this page, which *did* clear the §1 magnitude bar.) This
+records the criteria as met; it does not issue an upgrade verdict (adjudication sits outside an ingest).
+[inferred from @ding2014; @poole2017]
 
 ## Decision relevance
 

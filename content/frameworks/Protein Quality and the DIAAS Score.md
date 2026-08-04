@@ -181,6 +181,8 @@ any single food's score — which is [[Is the Food Category Doing Any Work]] app
 
 ## Provenance and limits
 
+
+
 - **FAO 2013 is guideline-grade** (an FAO Expert Consultation), but it is a *methods* report — it
   standardises how quality is scored, not what eating high- vs low-DIAAS protein does to people.
 - **Single hard-outcome evidence: none here.** Everything on this page is composition/digestibility

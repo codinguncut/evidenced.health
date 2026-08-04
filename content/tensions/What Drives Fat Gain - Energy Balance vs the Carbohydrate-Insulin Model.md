@@ -2,8 +2,8 @@
 type: tension
 question: Does dietary carbohydrate, via insulin, drive fat storage and lower energy expenditure independently of calories (a metabolic advantage of carb restriction), or is fat gain governed by energy balance with macronutrient split close to irrelevant at equal calories?
 aliases: [Carbohydrate-Insulin Model, CIM vs EBM, Energy Balance Model of Obesity, Is a Calorie a Calorie, Metabolic Advantage of Low-Carb, Does Insulin Drive Obesity, Carbohydrate Insulin Hypothesis]
-authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R]
-sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021]
+authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D]
+sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -16,7 +16,7 @@ relationships:
     - LDL ApoB and Cumulative Exposure
 created: 2026-08-01
 updated: 2026-08-04
-self_critiqued: 2026-08-01
+self_critiqued: 2026-08-04
 ---
 
 **The decision this bears on:** for someone choosing what to eat to lose or avoid gaining fat, does the
@@ -121,6 +121,57 @@ the CIM-vs-EBM framing makes it sound**.
   adipose-first causal reversal, its residual live claim is *glycemic load acts on appetite* — which is an
   energy-intake pathway, i.e. inside the EBM.
 
+## The insulin-secretor subgroup limb, directly tested — DIETFITS (route-b, null) `[2026-08-04]`
+
+The CIM's one surviving live *whole-organism* prediction — that people with **high insulin secretion**
+lose more on a low-carbohydrate diet, so insulin status tells you which diet to assign — got a direct,
+**pre-specified, well-powered RCT** test in DIETFITS (Gardner 2018), and the interaction did not appear.
+This is an **independent research group** (Stanford, Ioannidis a co-author), not the Hall/EBM school, so
+it is a genuinely separate route testing the CIM's subgroup limb — distinct from the isocaloric-feeding
+refutation above.
+
+- **Design.** 609 non-diabetic adults, BMI 28-40, healthy-low-fat (n=305) vs healthy-low-carb (n=304),
+  12 months, \~90% powered (post hoc) for the interactions; both arms cut to 20 g/d fat-or-carb then
+  titrated, **both emphasising diet quality**, calories not prescribed and **total energy intake equal
+  between arms at every timepoint**. [@gardner2018]
+- **The result.** «Weight change at 12 months was −5.3 kg for the HLF diet vs −6.0 kg for the HLC diet
+  (mean between-group difference, 0.7 kg [95% CI, −0.2 to 1.6 kg]). There was no significant
+  diet-genotype pattern interaction (P = .20) or diet-insulin secretion (INS-30) interaction (P = .47)
+  with 12-month weight loss.» [@gardner2018]
+  Interaction coefficients: diet x INS-30 beta **0.08 kg** per 10-uIU/mL [−0.13 to 0.28]; diet x genotype
+  beta **1.38 kg** [−0.72 to 3.49] (a European-descent-restricted re-analysis trended, beta 2.58 [−0.18
+  to 5.34], **P=.07 — still NS**, reported here rather than suppressed). «neither of the 2 hypothesized predisposing factors was helpful in
+  identifying which diet was better for whom.» [@gardner2018]
+- **This is a *no-meaningful-effect-modification-found* result, not *insufficient evidence* (four
+  states).** The interactions were pre-specified primary hypotheses and the trial was «well positioned to
+  detect significant interactions by the primary variables of interest if they existed. However, no such
+  effects were observed.» [@gardner2018]
+
+**Symmetric-standards guard — what this does and does NOT constrain.** It tests **one** CIM lever (the
+personalization/subgroup limb), not the whole model, and it does not weaken the isocaloric-feeding
+refutation above — it adds a *separate* refutation of a *separate* claim. Three bounds keep it honest:
+
+- **Population + index.** DIETFITS **excluded diabetes** (BMI 28-40, non-diabetic), while the prior
+  small/short positive studies (Ebbeling & Ludwig 2007; Pittas 2005) reached into insulin-resistant
+  samples; and INS-30 is one insulin index — others reported interactions on *fasting* insulin. So the
+  null binds this stratum and this index, not every insulin phenotype. This is a *«no interaction
+  found»*, not proof no insulin phenotype ever modifies diet response.
+- **Gardner's own boundary condition.** The null holds *when both arms are high-quality*: «when equal
+  emphasis is given to high dietary quality for both low-fat and low-carbohydrate eating plans, it is not
+  helpful to preferentially direct an individual with high insulin secretion status ... to follow a
+  lower-carbohydrate eating plan.» [@gardner2018] His
+  read is that diet *quality*, not macronutrient split or insulin status, is the operative lever.
+- **The route-(b) false-positive generator, named by the source.** «Effect modification claims observed
+  in single randomized trials are often spurious and this result is even more frequent when small sample
+  sizes and post hoc analyses are involved; validation of such claims is infrequent.» [@gardner2018]
+  DIETFITS is the large, pre-specified non-replication of small post-hoc positives — the mechanism-
+  plausible interaction that a powered test dissolves -> [[Over-Personalization]].
+
+**Net for the CIM.** Its surviving subgroup limb is now **directly tested and unsupported in the studied
+stratum**, leaving the model's live remainder as the **appetite/adherence** channel (GL and protein
+acting on spontaneous *intake*) — which sits inside the energy-balance account, not against it.
+[inferred from @gardner2018; @ludwig2021cim]
+
 ## Hidden insight
 
 The debate's heat comes from conflating a **law of physics** (energy balance — uncontested; both models
@@ -151,6 +202,19 @@ refutation of it.
 - **Nothing here is about hard outcomes.** The endpoints are EE, fat mass, weight and appetite — surrogates.
   Neither pole's dispute touches mortality or CV events.
 
+**A clean EBM worked example — the Hall UPF RCT (same school, so NOT independent corroboration)
+`[2026-08-04]`.** Hall's inpatient ultra-processed-vs-unprocessed trial is the residual-CIM insight above
+made concrete: at matched presented macros/sugar/fibre, UPF drove **+508 kcal/day** of ad libitum intake
+and 0.9 kg weight gain, through **energy density and eating rate** — an *appetite/intake* channel below
+conscious awareness, exactly the EBM's *«food environment... mostly below our conscious awareness»* account,
+and **not** a glycaemic one. Tellingly, **glucose tolerance and insulin sensitivity were unchanged despite
+the weight gain** (Matsuda 3.9 vs 4.5, p = 0.1), and energy expenditure did not fall
+[@hall2019] — a data point against insulin-first
+causation in this setting. **Independence caveat:** this is Hall again (a third Hall/EBM-school source), so
+it does **not** independently corroborate the isocaloric-feeding result — it is a different *design* (ad
+libitum vs isocaloric) pointing the same way from the same voice. -> [[Ultra-Processed Food and Health Outcomes]]
+[inferred from @hall2019]
+
 [inferred from @hallguo2017; @ludwig2021cim]
 
 ## What would move this — the live remainder and the gaps
@@ -159,10 +223,13 @@ refutation of it.
   intake constant over the long term while varying GL and measured body composition. Impractical to run
   cleanly (you cannot lock free-living intake for months), so this is a structural absence, not a queue
   item — but it is the one place the strong CIM is *not* yet refuted, only unsupported.
-- **The high-insulin-secretor / genotype subgroup (route-b effect-modification claim).** The CIM's strongest
-  surviving prediction is that people with high insulin secretion respond worse to high-GL diets. A direct
-  test exists and is not yet held
-  [AWAITS (Gardner - DIETFITS Low-Fat vs Low-Carb 2018) — a weight-loss RCT pre-specifying insulin-secretion and genotype as effect modifiers of low-fat vs low-carb response; its interaction result would confirm or refute the CIM's one live subgroup limb].
+- **The high-insulin-secretor / genotype subgroup (route-b effect-modification claim) — now DIRECTLY
+  TESTED, null.** The CIM's strongest surviving prediction is that people with high insulin secretion
+  respond better to carbohydrate restriction. DIETFITS (Gardner 2018) pre-specified and powered exactly
+  this interaction and found none (diet x INS-30 P=.47; diet x genotype P=.20) — see the section above.
+  The limb is now unsupported in the studied stratum (non-diabetic, INS-30 index). **Residual gap:** an
+  insulin-*resistant* or diabetic population, and other insulin indices (e.g. fasting insulin, on which
+  some smaller trials did report an interaction), are not covered by this null.
 - **Independence caveat (type-F, not type-E).** The EBM pole here rests on **one author/school** — Hall &
   Guo 2017 (the isocaloric SR/MA) and Hall 2022 (the EBM statement) are the same voice, so the two do not
   corroborate each other independently. A genuinely different design points the same way — the nucleus

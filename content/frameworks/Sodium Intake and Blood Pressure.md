@@ -15,7 +15,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
-updated: 2026-07-31
+updated: 2026-08-04
 self_critiqued: 2026-07-31
 ---
 
@@ -360,7 +360,7 @@ rebuttal, not the adjudication.
   transportability is never discussed -- while the guideline's stated motivation is LMIC-framed.
 
 
-
+[inferred from @who2012]
 ## Limits
 
 - 2012; self-dated for review "by the end of 2017". The post-2011 sodium controversy is by construction
@@ -381,7 +381,7 @@ rebuttal, not the adjudication.
   names.
 
 
-
+[inferred from @who2012]
 ## The exposure measure here is in a different class from the rest of the corpus `[2026-07-28, Willett ch.8]`
 
 Almost every dietary exposure the wiki holds is measured by food-frequency questionnaire. **Sodium is

@@ -162,6 +162,14 @@ would move both together.
 [@ge2020]
 [inferred from @ge2020]
 
+**A large individual RCT in this exact comparison points the same way (corroboration, not a sources
+entry).** DIETFITS (Gardner 2018; n=609, healthy-low-fat vs healthy-low-carb, 12 mo) found near-identical
+weight loss (−5.3 vs −6.0 kg, between-group 0.7 kg, NS) and, uniquely, **pre-specified and refuted diet
+personalization** by genotype (P=.20) and insulin secretion (P=.47) — a route-(b) test Ge's average-effect
+network could not run -> [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]],
+[[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]. Shared-pool (likely inside
+Ge's search window), so corroboration, not independent backing.
+
 Ge's own external corroborations are also shared-standpoint, not independent witnesses: it aligns with
 the 2014 AHA/ACC/TOS guideline «concluding that evidence was inadequate to recommend any particular diet»
 [@ge2020] and with NICE leaving every

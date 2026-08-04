@@ -6,7 +6,7 @@ authors: [World Cancer Research Fund International (org); Johnston, Bradley C; G
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019]
 cluster: cardiometabolic-exposures
 confidence: medium
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 relationships:
   related_to:
@@ -104,6 +104,8 @@ association warrant a reduce-recommendation at all?* Here they genuinely clash o
   construction.
 
 ## The hidden insight
+
+
 
 **The controversy is packaged as "does meat cause cancer?" and that is not what the experts disagree
 about.** Both accept a plausible, modest, mostly-colorectal association. The live disagreement is

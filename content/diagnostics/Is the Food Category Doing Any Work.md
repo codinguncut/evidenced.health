@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Framing a Decision Question
@@ -14,6 +14,7 @@ relationships:
     - Indirectness of Evidence
     - Free Sugars Intake
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
+    - Coffee Consumption and Health
 created: 2026-07-27
 updated: 2026-08-04
 ---
@@ -315,13 +316,23 @@ heterodox lens imported onto the literature but a question the literature's own 
   a judgment about redundancy against **NNR's own FBDG set**, not about Nova's merit in general. A body
   with a sparser set of existing recommendations could reach the opposite conclusion on the same
   evidence.
-- **The wiki holds no primary UPF source.** `Hall - Ultra-Processed Diets Inpatient RCT 2019` is
-  staged and would bear directly, because it is the design that separates the category from its
-  correlates — an inpatient feeding trial matching diets on the very nutrients NNR says carry the
-  effect.: if UPF still moves intake at matched composition, NNR's collinearity
-  argument fails and the boundary is doing independent work.
+- **The primary UPF source is now held, and it splits the verdict by outcome `[2026-08-04]`.** The Hall
+  inpatient RCT matched UPF and unprocessed diets on presented calories, energy density, macros, sugar,
+  sodium and fibre, fed them ad libitum, and found UPF **still drove +508 kcal/day and 0.9 kg weight gain**
+  [@hall2019]. So on the **intake** outcome
+  NNR's collinearity argument fails: the boundary does independent work at matched *total* composition.
+  **But the finding reinforces this diagnostic rather than overturning it** — the work ran through
+  **identifiable sub-components** (85% higher non-beverage energy density; faster eating rate/soft texture,
+  correlated with intake r = 0.45; protein dilution explaining «at most 50%»)
+  [@hall2019], the very *«energy dense... low in
+  fibre»* properties NNR named as the collinear channel. Test 3 stands: **replace the NOVA label with the
+  measurable property (energy density, eating rate, protein) in any decision** — the category is doing work,
+  but a nameable sub-component is doing it. The *hard-outcome* boundary remains untested; Hall is a surrogate
+  (intake/weight, 2 weeks, n=20).
+  [inferred from @hall2019]
 - **No tension is filed.** NNR is the only source the wiki holds on this question, so there is nothing
   for it to be joined against.
+
 
 ### Self-critique `[run 2026-07-28, before commit]`
 
@@ -363,8 +374,10 @@ squarely on this diagnostic:
   evidence». [@lane2024upf] But diet-quality-*pattern*
   adjustment is **not** nutrient-profile matching — the sugar/salt/fat/fibre content is what makes a food
   both *ultra-processed* and *nutrient-poor*, so a residual association after pattern adjustment still does
-  not separate the boundary from its composition. Only a composition-matched design does.: at matched composition, if UPF still moves
-  intake, the boundary does independent work.
+  not separate the boundary from its composition. Only a composition-matched design does — and the Hall RCT
+  now supplies one **for the intake outcome**: at matched presented composition UPF still moved intake, via
+  identifiable sub-components (energy density, eating rate, protein). See *A Tier-A body naming...* above and
+  [[Ultra-Processed Food and Health Outcomes]]. The hard-outcome boundary is still composition-confounded.
 
 This is Lane **refining** NNR on the same question (a second gold body, direct subcategory data), not a
 new tension — both hold the category's predictive power runs largely through correlates. The live
@@ -468,5 +481,52 @@ whose mechanism sits in a sub-component (here, forage intake) should be replaced
   positive claim that these foods are protective. What survives is the diagnostic point: **at matched
   SFA, the foods diverge, so "saturated fat" is not one exposure.**
 [inferred from @astrup2020]
+
+## Coffee — the presumed component (caffeine) is NOT the driver, and the load-bearing boundary is BREW `[2026-08-04, Poole]`
+
+Coffee is this diagnostic run twice on one exposure, and the two runs point opposite ways — which is the
+finding.
+
+**Run 1 (Test 3): the presumed active component fails the sub-component test.** The intuitive read is
+that coffee's effect *is* the caffeine. The decaf comparison refutes it for the main benefits: high-vs-low
+decaffeinated coffee lowered all-cause and CV mortality (similar magnitude to caffeinated), and for T2D
+«Consumption of decaffeinated coffee also seemed to have similar associations of comparable magnitude».
+[@poole2017] The mortality/metabolic/liver signal
+survives removing caffeine, so the exposure is the **coffee matrix** (chlorogenic acids, diterpenes,
+\~1000 bioactives), not caffeine — Poole chose «coffee, rather than caffeine» as the exposure for exactly
+this reason [@poole2017]. This is Test 3: replace the
+label ("coffee = caffeine") with the sub-component that actually carries the mechanism. Note the caveat
+runs the *other* way here from the fibre/organic cases — caffeine is present but **inactive** for these
+outcomes, where in those cases the sub-component was the active part.
+
+**Run 1, quantified on T2D — Ding 2014 refines the decaf test with numbers `[2026-08-04]`.** Where Poole
+states the decaf-equivalence qualitatively, Ding's gold-tier dose-response MA (28 cohorts, 1.11M) gives
+the per-cup figures: **caffeinated RR 0.91 (0.89-0.94) vs decaffeinated 0.94 (0.91-0.98) per cup/day,
+P for difference = 0.17 (NS)** [@ding2014]. Ding draws
+this page's exact conclusion in its own voice: «These results suggest that components of coffee other
+than caffeine are responsible for this putative beneﬁcial effect» [@ding2014]. It also sharpens the trap: the caffeine-*alone* association (per 140 mg/day
+RR 0.92) is not clean either — «none of the included studies controlled for coffee intake when modeling
+caffeine intake», so it is «likely to be confounded by other components of coffee because of the
+collinearity» [@ding2014]. **The presumed active
+component (caffeine) is collinear with the matrix that actually carries the effect — so a study crediting
+caffeine is measuring the matrix under a caffeine label.** (Bound kept: categorically the caffeinated arm
+is *slightly* stronger, P=0.07 at the highest group — decaf works, caffeine may add a marginal increment,
+so "caffeine does nothing" would overstate it.) A second coffee source, same evidence base as Poole
+(F-refinement, not independent-E). -> [[Coffee Consumption and Health]]
+[inferred from @ding2014]
+
+**Run 2 (case 1): a DIFFERENT within-coffee boundary carries a real signal — brewing method.** Filtered
+vs unfiltered is load-bearing for the lipid outcome via the diterpenes cafestol/kahweol: unfiltered
+(boiled, cafetière, espresso) raises LDL/total cholesterol, and «The increases in cholesterol
+concentration were mitigated with filtered coffee... no significant changes to low density lipoprotein
+cholesterol or triglycerides compared with unfiltered (boiled) coffee».
+[@poole2017] So «coffee» pools two exposures that
+differ on a hard-mechanism sub-boundary — exactly case 1.
+
+**The decision consequence of running both:** «coffee» as a category is doing work, but *neither the
+caffeine axis nor the whole-cup label is the right decision variable* — for the benefits, name the
+**matrix / decaf-equivalence**; for the lipid harm, name the **brew method**. A recommendation phrased as
+"caffeine is bad" or "coffee raises cholesterol" is wrong on both axes. -> [[Coffee Consumption and Health]]
+[inferred from @poole2017]
 
 ## References

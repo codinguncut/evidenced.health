@@ -2,8 +2,8 @@
 type: concept
 question: How do the modifiable-exposure levers and risks shift across the menopause transition, and what actually changes versus what merely tracks aging?
 aliases: [Menopause Body Composition, Menopause Visceral Fat, Menopause as a Stratum, Perimenopause Levers, Menopause Cardiometabolic and Bone, Fat Redistribution Menopause]
-authors: [Ambikairajah, Ananthan; Walsh, Erin; Tabatabaei-Jafari, Hossein; Cherbuin, Nicolas; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org)]
-sources: [Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022]
+authors: [Ambikairajah, Ananthan; Walsh, Erin; Tabatabaei-Jafari, Hossein; Cherbuin, Nicolas; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org); Cruz-Jentoft, Alfonso J]
+sources: [Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -15,7 +15,7 @@ relationships:
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Surrogate Outcomes
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -168,8 +168,13 @@ menopause. -> [[Surrogate Outcomes]].
   [[Surrogate Outcomes]]).
 - **No muscle-preserving-weight-loss trial in midlife women** — the fat-loss-vs-lean/bone-loss trade-off is
   reasoned from mechanism, not measured (`type-G`; also flagged in [[Testosterone Adiposity and Muscle]]).
-- **Sarcopenia has no held page yet** — `AWAITS (Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019)`
-  to anchor a definition/diagnosis page (shared gap with the testosterone page).
+- **Sarcopenia now has a held page** -> [[Sarcopenia Definition and Diagnosis]] (EWGSOP2). It supports
+  limb 2's measurement point from the muscle side: strength (not mass) is the primary criterion, and BMI
+  is explicitly confounded by the muscle/bone changes of ageing — measure strength and waist, not the
+  scale. **Caveat it hardens into a gap:** *sarcopenic obesity* — the exact construct this stratum sits
+  in — is «outside of the scope of this article» and EWGSOP2 sets no cut-off for it
+  [@cruzjentoft2019], so the lean-mass
+  lever here rests on a construct with no agreed operational definition (`type-G`).
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here checks
   a recommendation against a realized outcome.
 

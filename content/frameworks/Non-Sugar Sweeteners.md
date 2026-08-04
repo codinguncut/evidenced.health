@@ -2,8 +2,8 @@
 type: framework
 question: Should non-sugar (artificial) sweeteners be used to control weight or reduce NCD risk — and against which comparator?
 aliases: [NSS, Artificial Sweeteners, Non-Sugar Sweeteners, Non-Nutritive Sweeteners, Low-Calorie Sweeteners, Sugar Substitutes, Aspartame, Sucralose, Saccharin, Stevia, Acesulfame K]
-authors: [World Health Organization (org); Suez, Jotham; Segal, Eran; Elinav, Eran; Debras, Charlotte; Touvier, Mathilde]
-sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023]
+authors: [World Health Organization (org); Suez, Jotham; Segal, Eran; Elinav, Eran; Debras, Charlotte; Touvier, Mathilde; Riboli, Elio (IARC Monographs Working Group); Joint FAO WHO Expert Committee on Food Additives (org)]
+sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023]
 cluster: cardiometabolic-exposures
 confidence: low
 relationships:
@@ -15,7 +15,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
 updated: 2026-08-04
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-04
 ---
 
 WHO's 2023 NSS guideline. The whole verdict turns on two moves: **the comparator decides the effect**,
@@ -211,9 +211,93 @@ resolving it:
   [EXTRACTED (aspartame-safety-review-nutrients-2023) chunk 01] It is a *narrative* review — regulatory
   summary and contraindication list, not independent quantitative evidence.
 
-**The hazard-vs-risk split stands:** an observational cohort *hazard* signal (contested, discordant) sits
-against a regulatory *risk* judgement of "safe at the ADI". Neither the primary IARC 2023 hazard
-classification nor the JECFA 2023 ADI re-affirmation is held yet — those remain the named gap.
+## IARC 2023 — the primary hazard classification (now held) `[2026-08-04]`
+
+The primary IARC hazard evaluation (Lancet Oncol summary of Monographs Vol 134) is now held directly —
+not merely the reported label. IARC does **hazard identification** (can aspartame cause cancer at *any*
+dose, is the hazard excludable?), never dose/risk.
+
+- **Aspartame classified «possibly carcinogenic to humans» (Group 2B)** on **«limited»** evidence for
+  cancer in humans, **«limited»** in experimental animals, and **«limited»** mechanistic evidence — the
+  weakest positive tier, on limited evidence across all three streams.
+  [@iarc2023]
+- **The human signal is liver cancer (hepatocellular carcinoma).** Via ASB-as-proxy cohorts; in a
+  10-European-country study each weekly 330 mL ASB serving carried a «6% increase in risk of
+  hepatocellular carcinoma» (95% CI 3-9%). The comprehensively-assessed NutriNet-Sante cohort (= Debras
+  above) reported breast/obesity-related/overall associations but **not consistent** across studies and
+  **did not assess liver**. [@iarc2023]
+- **Why it stayed "limited", not sufficient.** Despite positive findings in confounder-controlled
+  studies, the Working Group concluded **«chance, bias, or confounding could not be ruled out»** with
+  reasonable confidence. Animal evidence was positive but design-questioned (litter effects) — a
+  minority favoured Group 2A on the animal data. Mechanistic: oxidative stress, inflammation,
+  angiogenesis, raised rodent insulin, some limited genotoxicity.
+  [@iarc2023]
+
+**Hazard != risk, and 2B != "causes cancer" (`type-B` disambiguation).** Two distinctions the headlines
+collapse, kept apart here:
+
+- **Hazard vs risk.** IARC answers *could aspartame cause cancer under some conditions?* (hazard); it
+  does **not** answer *does it, at the doses people consume?* (risk — JECFA's question). A Group-2B
+  hazard flag is consistent with a "safe at normal intake" risk verdict; the two bodies answer different
+  questions. The same hazard/risk split already recurs in the fabric for the IARC red-meat labels
+  (processed = Group 1, red meat = Group 2A) -> [[Is Red Meat Harmful]].
+- **2B is the weakest positive tier.** 2B «possibly» (limited evidence) sits below 2A «probably»
+  (methyleugenol, in the same evaluation, on sufficient animal + strong mechanistic evidence) and below
+  Group 1 «carcinogenic». Reading 2B as "aspartame causes cancer" inflates a limited-evidence,
+  can't-exclude-confounding hazard signal into a demonstrated dietary risk. Symmetric standards cut both
+  ways: it is a *finding* (a positive hazard classification, not dismissible), but a **weak** one.
+  [inferred from @iarc2023]
+
+## JECFA 2023 — the risk assessment (now held) `[2026-08-04]`
+
+The regulatory **risk** counterpart, released the same day as IARC under the same WHO umbrella, is now
+held directly. JECFA answers *is realistic dietary intake unsafe?* (dose/risk), not IARC's *can it cause
+cancer at any dose?* (hazard).
+
+- **ADI 0-40 mg/kg bw/day, reaffirmed.** «The Committee concluded that the data evaluated at the present
+  meeting indicated no reason to change the previously established ADI of 0-40 mg/kg bw for aspartame».
+  It rests on a «no-observed-adverse-effect limit (NOAEL) of 4000 mg/kg bw per day, the highest dose
+  tested, in a 104-week study in rats», with a 100-fold uncertainty factor (4000 / 100 = 40).
+  [@jecfa2023]
+- **The mechanistic reason JECFA is unconcerned — no systemic exposure.** «Aspartame is fully hydrolysed
+  in the gastrointestinal tract ... into three metabolites: phenylalanine, aspartic acid and methanol.
+  The Committee therefore reaffirmed that there is no systemic exposure to aspartame after dietary
+  exposure»; those metabolites «enter the systemic circulation at levels lower than those derived from
+  consumption of common foods». The parent compound never reaches the bloodstream; the breakdown
+  products are the same as, and lower than, those from ordinary food.
+  [@jecfa2023]
+- **First-ever dietary-exposure assessment — the decision magnitude.** «Dietary exposure estimates ...
+  at the mean of up to 10 mg/kg bw per day for children and 5 mg/kg bw per day for adults, and for high
+  dietary exposures up to 20 mg/kg bw per day for children and 12 mg/kg bw per day for adults» «do not
+  exceed the ADI», so «dietary exposure to aspartame does not pose a health concern».
+  [@jecfa2023] So even a *high*-consuming adult (12
+  mg/kg/day) reaches only \~30% of the ADI, and \~333x below the animal NOAEL; the mean adult \~12%.
+  [inferred from @jecfa2023]
+  For a 70 kg adult the ADI equals \~2,800 mg/day; at \~180-200 mg aspartame per can of diet soda that is
+  on the order of a dozen-plus cans per day sustained —
+.
+
+**Same evidence, opposite headline — a distinction, NOT a joined tension (parameter table).** The
+public reading («IARC says cancer, JECFA says safe») looks like a contradiction; the table shows the two
+bodies agree on every *shared* quantity and differ only in the *question* each asks.
+
+| Parameter | IARC (hazard) | JECFA (risk) | Same quantity? |
+|---|---|---|---|
+| Question answered | can aspartame cause cancer at *any* dose? (hazard) | is realistic dietary intake unsafe? (ADI / dose-risk) | NO — different question by design |
+| Human cohort cancer evidence | «limited» evidence, liver/HCC; «chance, bias, or confounding could not be ruled out» | «not convincing»; «Reverse causality, chance, bias and confounding ... cannot be ruled out»; «a consistent association ... was not observed» | YES — same cohorts, same caveat |
+| Soffritti/Ramazzini animal studies | positive but «limited» (design questioned, litter effects) | «of uncertain relevance and therefore cannot be used for the risk assessment» (natural-death protocol confounds with ageing) | YES — same studies, both discount |
+| Output / verdict form | Group 2B classification (a hazard tier) | ADI 0-40 mg/kg reaffirmed; exposure <=12 mg/kg/day | NO — different output type |
+
+Where the two bodies assess the *same* quantity (human cohort evidence + its caveat; the Soffritti
+studies) they **agree** — same data, same limitations. Their bottom lines diverge only because they
+answer **different questions** with different output types. Per the not-joined checks — (i) no shared
+quantity is in opposition, (ii) different scope, consistent once matched — this is a **distinction**,
+not a `[[tension]]`. **The hidden insight:** the apparent contradiction dissolves entirely under the
+hazard-vs-risk frame — a Group-2B *hazard* flag on limited, confounding-not-excludable evidence is fully
+consistent with a *risk* verdict that realistic intake is far below the safe bound. This reinforces (does
+not clash with) the `type-B` hazard-vs-risk disambiguation above.
+[inferred from @iarc2023; @jecfa2023]
+CASHED `[2026-08-04]`.
 
 ## Decision relevance — substitution frame
 
@@ -242,30 +326,37 @@ classification nor the JECFA 2023 ADI re-affirmation is held yet — those remai
 
 ## Named gaps
 
-- **Aspartame / cancer HAZARD (IARC 2023) and the ADI (JECFA 2023) are still NOT held directly.** WHO NSS
-  2023 defers hazard identification / risk-assessment to IARC and JECFA. **Partly populated
-  `[2026-07-29]`** by Debras 2022 (cohort cancer signal, observational, discordant with WHO's null) and a
-  narrative review (EFSA "safe at ADI"; cancer "highly controversial") — see the cancer section above — but
-  the **primary IARC/JECFA 2023 evaluations remain unheld.** Still a `G`-gap for the definitive
-  hazard-label + ADI..
+- **Aspartame / cancer HAZARD (IARC 2023) + RISK (JECFA 2023) — BOTH CASHED `[2026-08-04]`.** The IARC
+  hazard evaluation (Group 2B, limited evidence, liver-cancer signal, confounding-not-excludable) and the
+  JECFA risk assessment (ADI 0-40 mg/kg reaffirmed; realistic exposure \~1/3 of the ADI) are now both held
+  directly — see the IARC and JECFA sections above. WHO NSS 2023 had deferred hazard/ADI to IARC/JECFA.
+  The hazard-vs-risk relation resolved as a **distinction, not a tension** (parameter table above): the
+  two bodies agree on every shared quantity and differ only in the question each answers.
 - **Gut-microbiome / glycaemic route — CASHED `[2026-07-29]` by Suez 2022** (RCT + gnotobiotic causal
   transfer): a causal NNS -> microbiome -> glycemia pathway is now demonstrated for saccharin/sucralose, on
   a short-term surrogate, personalized (see the microbiome section above). Appetite / cravings routes remain
   *insufficient evidence*.
 
+
 ## Limits
 
-- **Now four sources**, but the additions are surrogate/observational: Suez is an RCT but on a **short-term
-  glycemic surrogate** (personalized); Debras is **observational** and discordant with WHO's null; the
-  aspartame review is **narrative**. So the *hard-outcome* certainty is unchanged — `confidence: low` holds.
-  What improved is the *mechanistic* picture (a causal glycemic route exists) and the aspartame
-  contraindication list.
+- **Now six sources.** IARC 2023 (gold) is a **hazard identification on limited evidence** and JECFA 2023
+  (gold) a **risk assessment** — together they close the aspartame/cancer question WHO deferred, but
+  neither is a *new hard-outcome* estimate: IARC does not raise hard-outcome certainty, and JECFA's
+  reassurance rests on a *no-adverse-effect* read of the same weak evidence plus the no-systemic-exposure
+  mechanism, not a demonstrated benefit. The other additions are surrogate/observational: Suez is an RCT
+  on a **short-term glycemic surrogate** (personalized); Debras is **observational** and discordant with
+  WHO's null; the aspartame review is **narrative**. So the *hard-outcome* certainty on whether NSS help
+  is unchanged — `confidence: low` holds. What the aspartame pair adds is the cancer *hazard* + *risk*
+  cleanly held and the hazard-vs-risk disambiguation completed as a distinction.
 - **Open loop (R1):** this grades the sources' reasoning for coherence and source-fidelity; whether NSS
   actually move a hard outcome is a validity fact no operation here can see.
 - **Independence:** Suez (Weizmann RCT group) and Debras (NutriNet-Sante) are genuinely independent of WHO
   and of each other — but they answer *different* questions (surrogate mechanism vs cohort cancer), so this
   is type-F refinement, not type-E convergence on one claim. WHO NSS stays NON-independent of the WHO
-  free-sugars family ([[Free Sugars Intake]]).
+  free-sugars family ([[Free Sugars Intake]]). **IARC and JECFA are NOT independent of each other** —
+  same WHO umbrella, same evidence base, released the same day — so their agreement where they overlap is
+  shared-source, not type-E backing.
 
 
 
@@ -283,9 +374,52 @@ classification nor the JECFA 2023 ADI re-affirmation is held yet — those remai
   observational/healthy-user discount as the organic-cohort was — not waved through because it fits the
   cautionary prior.
 
+## Self-critique `[run 2026-08-04, third pass — the IARC 2023 hazard addition]`
+
+- **No inflation of 2B.** The IARC section states Group 2B is the *weakest* positive tier on *limited*
+  evidence and that «chance, bias, or confounding could not be ruled out» — explicitly not read as
+  "aspartame causes cancer". Symmetric standards named in both directions (a finding, but a weak one).
+- **Hazard-vs-risk relation resolved as a DISTINCTION on the JECFA ingest `[2026-08-04]`** — not a
+  premature `[[tension]]` at the IARC pass, and (correctly) not a tension at all: the JECFA parameter
+  table shows the bodies agree on every shared quantity, so the not-joined checks fire. Recorded as a
+  distinction, not a joined clash.
+- **Type-B, not fabricated independence.** The 2B<2A<1 ordering and hazard/risk split are marked
+ (read off the classifications/grades in the one source), not laundered as
+  cross-source convergence. IARC and Debras are *not* independent backing for one claim — IARC's human
+  evidence explicitly rests partly on the NutriNet-Sante (= Debras) cohort, so no type-E claimed.
+- **Provenance quality.** The source PDF carries embedded line-numbers; long verbatim quotes avoided,
+  numerics stated as faithful `[EXTRACTED]` paraphrase, short clean spans (`«possibly carcinogenic to
+  humans»`, `«hepatocellular carcinoma»`, `«6% increase in risk of hepatocellular carcinoma»`) verified
+  to locate via `cite.py`.
+
+## Self-critique `[run 2026-08-04, fourth pass — the JECFA 2023 risk addition]`
+
+- **Distinction, not a manufactured tension.** The parameter table was built before the prose: the two
+  bodies agree on every shared quantity (human cohort evidence + caveat; the Soffritti animal studies)
+  and differ only in question + output type. The not-joined checks (i) + (ii) fire, so no `[[tension]]`
+  was filed — the predicted, correct outcome for a deliberately-complementary pair. No fake friction to
+  fill a quota.
+- **Independence not laundered.** IARC and JECFA are explicitly flagged NON-independent (same WHO
+  umbrella, same evidence base, same day) — their agreement is shared-source, not type-E. No
+  `[E-independent]` token claimed.
+- **No over-claim on safety.** JECFA's verdict is stated as *no convincing evidence of adverse effect at
+  realistic intake* (a risk-side null on the same weak evidence + the no-systemic-exposure mechanism),
+  NOT as proof aspartame is beneficial or as raising the hard-outcome certainty on whether NSS help.
+  `confidence: low` unchanged. No superlative scoped to the vault.
+- **Decision magnitude honestly bounded.** The %-of-ADI and NOAEL-fold ratios and the 2,800 mg/day figure
+  are marked arithmetic on JECFA's quoted exposure/ADI/NOAEL numbers; the diet-soda-can
+  illustration is explicitly flagged as NOT in the JECFA summary (added for grip, not attributed).
+- **Symmetric standards.** The reassuring JECFA verdict gets the same scrutiny as the cautionary
+  Debras/IARC signals — its ADI is shown to rest on a single old rat NOAEL + a 100-fold factor, and its
+  cancer null on the *same* confounding-not-excludable cohorts IARC read the other way.
+
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
-The sweetener → cancer/glucose signals (Debras 2022, Suez 2022) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding / reverse causation — people switch to NSS *because* of weight or dysglycaemia) and domain 6 (measurement) the likely caps. Re-appraisal candidate on the RoB-tools page; not re-graded here.
+The sweetener cancer and glucose signals held on this page (the NutriNet-Sante cohort and the Suez
+RCT) are **observational** in the cancer arm; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the
+appraisal instrument, with domain 1 (confounding / reverse causation — people switch to NSS *because* of
+weight or dysglycaemia) and domain 6 (measurement) the likely caps. Re-appraisal candidate on the
+RoB-tools page; not re-graded here.
 
 ## References

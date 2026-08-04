@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
-authors: [Naude, Celeste E; Dehghan, Mahshid]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017]
+authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -15,7 +15,7 @@ relationships:
     - Energy Adjustment and What a Diet Coefficient Means
     - Free Sugars Intake
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-07-26
+self_critiqued: 2026-08-04
 created: 2026-07-26
 updated: 2026-08-04
 ---
@@ -155,6 +155,38 @@ of the answer.
   The larger effects concentrate in the same ad-libitum, high-heterogeneity trials. No meta-regression
   disentangles them.
   [inferred from @naude2022]
+
+## The one RCT that pre-specified diet personalization — DIETFITS, null (route-b) `[2026-08-04]`
+
+The route-(b) cautions above ask whether a low-carb estimate should be *personalized* by a biomarker.
+DIETFITS (Gardner 2018) is a large RCT purpose-built to answer exactly that, and its distinct
+contribution over Naude/Ge — which pool *average* effects, not interactions — is a direct, pre-specified,
+powered test of personalization by genotype and insulin.
+
+- **On weight it is a component, not an independent witness.** n=609 non-diabetic adults, healthy-low-fat
+  −5.3 kg vs healthy-low-carb −6.0 kg, between-group **0.7 kg [95% CI −0.2 to 1.6], NS** — a single-RCT
+  instance of this page's pooled near-equivalence, and DIETFITS sits **inside Naude's search window
+  (to June 2021)**, so on weight it is pooled *within* the nucleus estimate, not a separate route.
+  [@gardner2018]
+- **The distinct value is the interaction nulls.** Two candidate effect modifiers were pre-specified as
+  primary hypotheses and powered \~90%: a 3-SNP genotype pattern (diet x genotype **P=.20**) and insulin
+  secretion INS-30 (diet x INS-30 **P=.47**). Both null: «neither of the 2 hypothesized predisposing
+  factors was helpful in identifying which diet was better for whom.» [@gardner2018]
+- **So this is the positive-evidence-of-effect-modification the route-(b) rule demands — and it is
+  absent** for these two candidate modifiers. It directly instantiates *personalize beyond the population
+  estimate only on positive evidence of effect modification* (telos route b): mechanistic plausibility
+  for an insulin-secretor subgroup was **not** enough; the powered test dissolved it. The mechanistic
+  framing (this is the CIM's surviving subgroup limb) is held on
+  [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
+- **Bounds (symmetric standards).** The null holds *when both arms emphasise diet quality* (Gardner's own
+  boundary condition), and is confined to non-diabetics and the INS-30 index — some smaller trials
+  reported an interaction on *fasting* insulin, uncovered by this result.
+- **LDL corroboration.** DIETFITS's low-carb arm **raised LDL**, and the between-group change
+  significantly favoured low-fat (\~5%), while HDL rose more and triglycerides fell more on low-carb —
+  matching the atherogenic-lipid signal this page already holds -> [[LDL ApoB and Cumulative Exposure]].
+  [@gardner2018]
+
+[inferred from @gardner2018]
 
 ## What no trial measured
 

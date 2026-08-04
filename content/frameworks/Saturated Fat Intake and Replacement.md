@@ -2,22 +2,23 @@
 type: framework
 question: How much saturated fat, replaced by what, and how confident is that?
 aliases: [SFA, Saturated Fatty Acid Intake, SFA Replacement, Dietary Fat Recommendations, WHO SFA Guideline, 10% Energy Threshold]
-authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017]
+authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017]
 cluster: dietary-fat
 nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
+    - Linoleic Acid and Cardiovascular Disease
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-08-01
-self_critiqued: 2026-08-01
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -214,6 +215,11 @@ rather than closed.
 - **If you are in energy surplus and reducing intake, the replacement question may not arise at all.**
 - **Do not read the LDL evidence as the outcome evidence.** High certainty attaches to the lipid
   change; moderate-to-low certainty attaches to what follows from it.
+- **The PUFA replacement is predominantly linoleic acid** — its own direct outcome evidence (an
+  objective-biomarker cohort pool, and the omega-6/seed-oil controversy) is held separately on
+  [[Linoleic Acid and Cardiovascular Disease]]. The omega-6 RCT source has now landed and does **not**
+  independently corroborate the PUFA-events benefit — it tempers it (see *Omega-6 RCTs do not
+  corroborate the PUFA arm*, below).
 
 
 
@@ -576,6 +582,15 @@ changes here:
   the contamination flips the pooled RR 0.83 is an untested inference (View B is a narrative review, and
   post-hoc exclusion carries the selection-bias risk it names). Unadjudicated here.
   [@astrup2020, From Single Nutrients to Whole Foods]
+  - **Hamley 2017 now runs that reanalysis for the SFA->n-6-PUFA-replacement pool `[2026-08-04]`:**
+    splitting the 11 diet-heart trials by confounding (trans fats, multifactorial advice, vitamin E,
+    cardiotoxic meds), the significant all-trials benefit (total CHD events RR 0.80) vanishes in the
+    confounder-free subset (RR 1.02, 0.84-1.23; subgroup difference P=0.002). So Astrup's contamination
+    critique is **demonstrated on the replacement pool** — but Hamley's pool is *not* Hooper's broader
+    SFA-reduction pool (the RR 0.83 above), his adequacy filter is post-hoc and single-author
+    (`moderate`), so it grounds the critique without recomputing this page's number. Full parameter table
+    + symmetric-standards appraisal on
+    [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. [@hamley2017, Discussion]
 - **The attribution is genuinely open: SFA harm or PUFA benefit?** Even granting a lower CVD risk with
   PUFA-for-SFA substitution, it "could be attributed to a possible beneficial effect of polyunsaturated
   fatty acids and not necessarily to an adverse effect of SFAs." Hooper's own subgroup null (PUFA vs
@@ -669,5 +684,38 @@ level-contrast read as if it were the randomised change). *No new tension filed*
 already exists and is not re-adjudicated here. *Counter-passage:* the RCT side is represented at its
 strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
 the mortality nulls both sides share, not on suppressing the events signal.
+
+## Omega-6 RCTs do not corroborate the PUFA arm — Hooper 2018 `[2026-08-04]`
+
+The PUFA replacement here is predominantly linoleic acid, so the obvious question is whether the *direct*
+omega-6 RCT evidence independently confirms the SFA->PUFA events benefit (Annex 6 profile 5: RR 0.79,
+Low). The omega-6 Cochrane review — **same team as Hooper 2020 above** — says it does **not**: increasing
+omega-6 gave CVD events **RR 0.97 (0.81-1.15), Low certainty** and all-cause mortality **RR 1.00, Low**;
+only MI (RR 0.88, Low) and total cholesterol (High) moved.
+[@hooper2018, Summary of findings 1 and 2]
+
+**The authors run the cross-review comparison themselves**, and it is the parameter table (they state the
+trials are distinct sets, so the two quantities are not commensurable):
+
+> «only where PUFA was replacing SFA did this protection occur (RR 0.73, 95% CI 0.58 to 0.92 ...). The
+> trials included in the saturated fat review and this one are distinct due to rather diﬀerent inclusion
+> criteria ... The implications of the reviews are diﬀerent, but related: Hooper 2015 and Sacks 2017
+> suggest that reducing saturated fat and replacement by polyunsaturated fats reduces the risk of CVD
+> events, while the present review suggests that increasing omega-6 fats may reduce the risk of
+> myocardial infarction, but we did not find evidence of an eﬀect on CVD events.»
+> [@hooper2018, Agreements and disagreements]
+
+**So the events protection lives in the SFA-reduction-with-PUFA *package*, not in omega-6 *addition* per
+se** — the CVD-events benefit appears when PUFA *replaces* SFA (RR 0.73 subgroup; the 0.79 profile here),
+but isolating "increase omega-6" (often displacing SFA *or* MUFA, over shorter, adherence-diluted trials)
+does not reproduce it. This is the **attribution-openness** the Astrup thread and
+[[Does Reducing Saturated Fat Reduce Cardiovascular Events]] raise — *SFA harm or PUFA benefit?* — with a
+directional refinement: the demonstrable RCT lever is the **substitution** (reduce SFA, replace with
+PUFA), consistent with this page's standing rule that *the substitution sets the sign*, not "eat more
+seed oil." **F-refinement, NOT `[E-independent]`** — Hooper 2020 and Hooper 2018 share a team and method,
+so their agreement is method-shared; the two reviews' trial sets are distinct but the confirmation is not
+an independent route. The omega-6 outcome evidence in full is on
+[[Linoleic Acid and Cardiovascular Disease]].
+[inferred from @hooper2018; @hooper2020]
 
 ## References

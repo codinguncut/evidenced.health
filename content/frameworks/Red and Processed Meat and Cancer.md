@@ -126,6 +126,6 @@ has a very small causal effect" — the disagreement is about certainty and magn
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
-The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here.
+The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
 
 ## References

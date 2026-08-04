@@ -2,8 +2,8 @@
 type: tension
 question: Does the trial evidence establish that reducing dietary saturated fat reduces cardiovascular events — and if a benefit exists, is it SFA avoidance or the replacement doing the work?
 aliases: [SFA Reassessment, Astrup vs Hooper, Saturated Fat Stigma, Is Saturated Fat Harmful, SFA Harm vs PUFA Benefit, Saturated Fat Cardiovascular Tension]
-authors: [Astrup, Arne; Krauss, Ronald M; Hooper, Lee; World Health Organization (org); Dehghan, Mahshid]
-sources: [Astrup - Saturated Fats Reassessment 2020, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, Dehghan - PURE Fats Carbohydrate Mortality 2017]
+authors: [Astrup, Arne; Krauss, Ronald M; Hooper, Lee; World Health Organization (org); Dehghan, Mahshid; Hamley, Steven]
+sources: [Astrup - Saturated Fats Reassessment 2020, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017]
 cluster: dietary-fat
 confidence: medium
 relationships:
@@ -17,8 +17,8 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-29
-updated: 2026-07-30
-self_critiqued: 2026-07-29
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
@@ -64,7 +64,7 @@ clash is narrow: the **combined-events composite** (the one estimate that clears
 **attribution** of any benefit.
 
 
-
+[inferred from @hooper2020; @who2023saturated; @astrup2020]
 ## It decomposes — one distinction, one genuine joined issue
 
 **Most of the apparent contradiction is agreement or a scope difference (not-joined checks apply).**
@@ -104,6 +104,89 @@ clash is narrow: the **combined-events composite** (the one estimate that clears
    if anything, point *toward* SFA-removal doing the work; it is the imprecision, not the null, that
    keeps the attribution open.)
    [@astrup2020, Evidence on the Health Effects of SF]
+   - **A second Hooper Cochrane review leans the attribution *away* from PUFA-addition (2026-08-04).**
+     The omega-6 RCT review — same team, distinct trials — finds that *increasing* omega-6 does **not**
+     reduce CVD events (RR 0.97 [0.81-1.15], Low) or mortality (RR 1.00, Low); only MI (RR 0.88, Low)
+     and total cholesterol (High) move. The authors state the contrast themselves: *«Hooper 2015 and
+     Sacks 2017 suggest that reducing saturated fat and replacement by polyunsaturated fats reduces the
+     risk of CVD events, while the present review suggests that increasing omega-6 fats may reduce the
+     risk of myocardial infarction, but we did not find evidence of an eﬀect on CVD events.»* So the
+     demonstrable RCT lever is the **SFA-reduction-with-PUFA package**, not PUFA *addition* per se —
+     mild evidence that removing/replacing SFA, not adding omega-6, carries the events signal. It does
+     not *close* the attribution (both Low certainty, distinct trial sets), but it narrows it. Same
+     team/method -> F, not `[E-independent]`; full weave on [[Saturated Fat Intake and Replacement]].
+     [@hooper2018, Agreements and disagreements]
+
+## Hamley 2017 grounds joined-issue 1 — the trial-adequacy reanalysis `[2026-08-04]`
+
+Joined-issue 1 was filed with the benefit's trial-base confounding held as an **untested inference**
+(Astrup scoped the drop-3 move at the AHA advisory's 4-core selection, not at a pooled MA). Hamley 2017
+is the source that **runs the reanalysis** — so the inference is now *demonstrated, on the
+replacement-specific pool, and contestable* rather than merely asserted. It is an **F-refinement of this
+tension, not a new one** (the joined issue already exists here).
+
+**What Hamley did.** He took the **11 SFA->mostly-n-6-PUFA-replacement diet-heart trials** and split
+them by whether the arms differed in something *other* than the SFA/PUFA swap — trans fats in
+control-arm margarines, multifactorial advice (ODHS, STARS), a vitamin-E-deficient control arm (LAVAT),
+more cardiotoxic thioridazine in the FMHS control arm — calling the confounder-free set **adequately
+controlled** (RCOT, MRCT, SDHS, MCS, DART) and the rest **inadequately controlled**.
+[@hamley2017, Categorisation]
+
+**The result is the joined-issue-1 mechanism made visible:** the one significant benefit (all-trials
+total CHD events **RR 0.80, 0.65-0.98**) **vanishes in the adequately-controlled subset** (RR **1.02,
+0.84-1.23**), the confounded subset alone carries it (RR 0.60), and the subgroup difference is
+significant (P=0.002). Even dropping *only* the inadequately-randomised FMHS loses significance (0.83,
+P=0.10). Hamley: *«The suggestion of benefits reported in earlier meta-analyses is due to the inclusion
+of inadequately controlled trials.»* [@hamley2017, Discussion]
+
+**Parameter table — does this reach the RR 0.83 this page rests on? (same-quantity discipline).**
+
+| Parameter | Hamley 2017 | Hooper 2020 / WHO Annex 6 (the RR 0.83 here) | Same quantity? |
+|---|---|---|---|
+| Intervention | replace SFA with **mostly n-6 PUFA** (11 diet-heart trials) | **reduce SFA, any replacement** (15 trials, broader) | **NO — replacement-specific vs any-SFA-reduction** |
+| Outcome | **CHD** events (total incl. angina; major = MI+sudden death) | **CVD** events (composite) | **NO — CHD-incl-soft vs CVD composite** |
+| All-trials estimate | total CHD **0.80 (0.65-0.98)**; major CHD 0.87 (ns) | CVD events **0.83 (0.70-0.98)** | **near — both \~0.80-0.83, both include the confounded trials** |
+| Adequacy-filtered estimate | total CHD **1.02 (0.84-1.23)**, null | **no matching cell** — Hooper never ran Hamley's adequacy split | **NO — Hooper has no such subgroup** |
+
+**So the honest reading, even-handed.** Hamley demonstrates the confounding-sensitivity on the pool
+*closest* to the replacement question, and his all-trials 0.80 sits right beside Hooper's 0.83 — material
+grounding for joined-issue 1's mechanism (though a single-author `moderate` reanalysis, adequate-subset
+n=5, is grounding not proof). But Hooper's **broader** SFA-reduction pool (RR 0.83) has
+**not** been re-run through the adequacy filter, so «Hamley flips the RR 0.83» remains an inference, now
+better-supported but still not a like-for-like recomputation. The joined issue upgrades from *untested*
+to **demonstrated-on-the-replacement-pool, unadjudicated on Hooper's**.
+[inferred from @hamley2017; @hooper2020; @who2023saturated]
+
+**Symmetric standards — Hamley gets the same bar as the pro-consensus pole, and it cuts both ways.**
+
+- **Against Hamley:** the adequacy categorisation was **not pre-specified** — Hamley concedes *«the
+  categorisation is difficult to be based on criteria developed prior to the litera-ture review»* and
+  registered no protocol, so his *exclusion* move carries the post-hoc-selection-bias risk that mirrors
+  the *inclusion* bias he charges (excluding trials can manufacture a null as readily as including them
+  manufactures a benefit). The adequate subset is **5 trials (4 without SDHS)** — the wide CI (1.02,
+  0.84-1.23) is consistent with a real modest benefit *and* the null; his own verdict is «unlikely to
+  reduce», not «shown no effect». He further concedes the adequate trials may themselves carry residual
+  TFA confounding, so *«the actual RR ... may be higher [more beneficial] than what is reported»*.
+  [@hamley2017, Discussion; , Discussion]
+- **For Hamley (the halo-check the other way):** single-author `moderate`, but **no funding and no
+  declared competing interests** — a *cleaner* COI than the pro-LA biomarker pole (Marklund's Unilever
+  support), so it must not be discounted merely for being contrarian. And the confounders he names are
+  real and specific (measured TFA in STARS; documented thioridazine in FMHS), not hand-waving.
+
+**A convergence worth naming (not independence).** Hamley's adequately-controlled **hard-CHD null**
+(major CHD 1.06, total CHD 1.02) points the **same way** as Hooper's own 2018 omega-6 Cochrane review,
+where *increasing* omega-6 gave CVD events RR 0.97 (Low) — both say that **isolating the n-6 PUFA
+intervention removes the hard-events signal**. That is shared-evidence-base convergence (overlapping
+diet-heart trials, both RCT-MAs), **NOT** an `[E-independent]` route. The residual clash is narrow and
+is exactly this tension's joined issue: the **SFA->PUFA-replacement events benefit the mainstream reviews
+report** — the SFA Cochrane review's replacement subgroup RR **0.73** (0.58-0.92, reported inside
+Hooper 2018's discussion; NOT Hooper 2018's *own* omega-6-increase estimate, which is 0.97), and
+AHA-Sacks **0.71** — vs Hamley's adequate-only **1.02**. **Note this figure is itself trial-selection-
+sensitive within the mainstream:** Hooper *2020*'s own update found the replacement subgroups
+*underpowered / not significantly different* (quoted under joined-issue 2 above), so even the pro-benefit
+side does not hold 0.73 firmly. The disagreement turns on **which trials are adequately controlled**, not
+on the direction of the underlying data -> [[Linoleic Acid and Cardiovascular Disease]].
+[inferred from @hamley2017; @hooper2018; @hooper2020]
 
 ## The hidden insight
 
@@ -185,10 +268,13 @@ with a mechanism — not a symmetric stalemate.
 
 ## What would move this
 
-- **AWAITS** the Ramsden Minnesota Coronary Experiment reanalysis or an independent institutional
-  re-appraisal of whether the classic diet-heart RCT pool is trans-fat-confounded (the class-5
-  process-defect charge needs a source meeting the same bar as the guidance, bearing on *this*
-  estimate) — that would adjudicate joined-issue 1.
+- **Joined-issue 1 is now partly grounded (Hamley 2017), but the institutional-grade adjudication still
+  AWAITS.** Hamley demonstrates the confounding-sensitivity on the replacement-specific pool, but it is a
+  single-author `moderate`-tier reanalysis with a post-hoc adequacy filter — it does **not** meet the
+  class-5 bar (a source appraised as rigorously as the guidance, bearing on Hooper's *own* pooled
+  estimate). So the AWAITS stands: the Ramsden Minnesota Coronary Experiment reanalysis (the recovered-RCT-harm arm), and an
+  **independent institutional re-appraisal** running an adequacy/confounding filter over Hooper's
+  *broader* SFA-reduction pool (RR 0.83), would adjudicate joined-issue 1 properly.
 - **AWAITS** a trial or MR design that separates a PUFA benefit from an SFA harm at matched replacement
   — that would adjudicate joined-issue 2. Until then the attribution stays open, and *replace SFA with
   PUFA/whole foods* is the move robust across both causal models.
@@ -226,5 +312,27 @@ with a mechanism — not a symmetric stalemate.
   pooled estimates?*) with the Hooper-pool flip marked an **untested inference** — the exact failure the
   parameter-table rule exists to catch. Joined-issue 2 gained the **underpowered** qualifier (a subgroup
   null alone points *toward* SFA-removal; imprecision is what keeps attribution open).
+
+## Self-critique `[Hamley weave, run 2026-08-04, before commit]`
+
+- **F-refinement, no new tension.** Hamley operationalises the *existing* joined-issue 1; folded in as
+  grounding rather than minting a duplicate tension. The blind self-critique confirmed this is the right
+  call (the SFA->PUFA-replacement \~0.71-0.73 vs Hamley adequate-only 1.02 is a genuine joined issue on
+  trial-adequacy, not a fake tension).
+- **Same-quantity discipline held.** The parameter table marks Hamley's replacement-specific CHD-events
+  pool as NOT Hooper 2020's broader SFA-reduction CVD-events pool (RR 0.83); the prose does not slip into
+  «Hamley refutes 0.83» — it upgrades joined-issue 1 only from *untested inference* to
+  *demonstrated-on-the-replacement-pool, unadjudicated on Hooper's*.
+- **Convergence marked NOT-E.** Hamley's adequate-only null (1.02) converging with Hooper 2018's omega-6
+  null (0.97) is shared-evidence-base (overlapping RCTs), `[E-independent]` withheld.
+- **Blind self-critique caught a real attribution defect (fixed before commit).** The residual-clash
+  RR **0.73** was first labelled «Hooper 2018's PUFA-replacing-SFA subgroup». It is the **SFA Cochrane
+  review's** replacement subgroup, quoted *inside* Hooper 2018's discussion — Hooper 2018's own
+  omega-6-increase estimate is 0.97, so one label was carrying two different reviews' numbers. Relabelled
+  to the SFA-review lineage and reconciled with Hooper 2020's underpowered-subgroup finding. Same fix
+  applied on [[Linoleic Acid and Cardiovascular Disease]].
+- **Symmetric standards, evenhanded.** Hamley's post-hoc adequacy filter (author-conceded), 5-trial
+  subset and null!=no-effect are flagged; its cleaner declared COI (no funding, none declared) is noted
+  without privileging. «strong grounding» softened to «material grounding».
 
 ## References

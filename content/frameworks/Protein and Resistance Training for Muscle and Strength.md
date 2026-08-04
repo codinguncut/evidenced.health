@@ -2,8 +2,8 @@
 type: framework
 question: Does protein supplementation add to resistance training for muscle and strength, how much protein, and for whom?
 aliases: [Protein Supplementation, Protein and Resistance Training, Protein Intake Muscle, 1.6 g/kg Protein, Protein Break Point, Muscle Protein]
-authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org)]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013]
+authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
 cluster: activity
 confidence: medium
 relationships:
@@ -88,6 +88,14 @@ supplementation reduces mortality**; the composite is "RT builds muscle (proven)
 with living longer (associational)", with protein a small lever on the first half only. Muscle
 mass/strength do matter directly for **function and sarcopenia**, which are on the outcome menu — so the
 surrogate is not worthless, it is just not the mortality endpoint.
+
+- **Among the two surrogates, strength beats mass — so read this page's strength effect (+2.49 kg 1RM) as
+  the more outcome-relevant one.** The sarcopenia case definition demotes muscle *mass* precisely because
+  «strength is better than mass in predicting adverse outcomes»
+  [@cruzjentoft2019], and EWGSOP2 names
+  inadequate protein/energy intake as a *secondary-sarcopenia cause* — direct support for this page's
+  lever from the geriatric side -> [[Sarcopenia Definition and Diagnosis]]. Protein's +0.30 kg lean-mass
+  effect moves the *confirmatory* parameter; its +2.49 kg strength effect moves the *primary* one.
 
 
 ## The hormonal alternative lever — and why it does not displace this one

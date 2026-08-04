@@ -2,13 +2,13 @@
 type: concept
 question: How does the filter deciding which results get published make a body of literature overstate an effect — and how much should a reader discount for it?
 aliases: [Publication Bias, Selective Reporting, Selective Outcome Reporting, File-Drawer Problem, Effect-Size Inflation, Winner's Curse, Small-Study Effect]
-authors: [National Academies of Sciences Engineering and Medicine (org); Page, Matthew J; Higgins, Julian PT; Sterne, Jonathan AC; Veronese, Nicola; Lane, Melissa M; Marx, Wolfgang]
-sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5, Veronese - Dietary Fibre Health Umbrella 2018, Lane - Ultra-Processed Food Umbrella 2024]
+authors: [National Academies of Sciences Engineering and Medicine (org); Page, Matthew J; Higgins, Julian PT; Sterne, Jonathan AC; Veronese, Nicola; Lane, Melissa M; Marx, Wolfgang; Hamley, Steven]
+sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5, Veronese - Dietary Fibre Health Umbrella 2018, Lane - Ultra-Processed Food Umbrella 2024, Hamley - Saturated Fat PUFA Coronary 2017]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Sources of Non-Replicability
@@ -73,6 +73,16 @@ domain-uncertain and not read off the "halved" figure.**
 - **The streetlight corollary:** the filter runs *toward* the well-lit, publishable positive and
   *against* the null and the incremental — the same directional distortion the telos names, made
   concrete for the literature.
+- **But the direction is the *prevailing hypothesis*, not «positive» in the abstract — a worked
+  illustration `[2026-08-04]`.** In the diet-heart RCT literature the orthodoxy *was* the diet-heart
+  benefit, so the suppressed results were the ones *unfavourable* to it: Hamley notes SDHS did not
+  originally report CHD/CVD mortality and MCS took \~16 years to publish, and *«Both SDHS and MCS were
+  unfavourable trials for the popular diet heart hypothesis.»* [@hamley2017, Publication bias]
+  A single contrarian author's observation (he flags it *might* «simply reflect methodological
+  differences»), so held as illustration, not established selective-reporting — but a useful reminder
+  that the file-drawer points wherever the field's expectation points -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
+
+
 
 ## Relation to the held validity model (differential seam)
 

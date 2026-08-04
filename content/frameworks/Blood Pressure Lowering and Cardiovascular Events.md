@@ -14,7 +14,7 @@ relationships:
     - The U-Shaped Association Artifact
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-04
 self_critiqued: 2026-07-29
 ---
 

@@ -125,14 +125,16 @@ leptin/ghrelin surrogate. Route the appetite-hormone story as mechanism only, di
 
 ## Limits
 
-- **Shan: all exposure self-reported, single-timepoint** questionnaires (validation r=0.47 vs
-  actigraphy) -> [[Measurement Error in Dietary Assessment]]; observational, cannot exclude residual
-  confounding.
+- **Shan: all exposure self-reported, single-timepoint** questionnaires — actigraphy and
+  polysomnography (the gold standard) were not used, so exposure misclassification is likely
+  -> [[Measurement Error in Dietary Assessment]]; a meta-analysis of observational data cannot
+  directly control for residual or unmeasured confounding.
+  [@shan2015]
 - **Capers: few, small, short RCTs** (mostly crossover, n<=20, most <4 weeks, only 2 >=4 weeks); sleep
   **cannot be blinded** (>60% did not blind assessors), and no long-term trial exists — the causal arm
   is direction-fixed but under-powered on magnitude.
 - Coherence, not validity (R1): the U-shape is what the cohorts report; the short-arm causal reading
   rests on the experimental arm + mechanism, not the pooled association alone.
-[inferred from @shan2015; @capers2015]
+[inferred from @capers2015]
 
 ## References

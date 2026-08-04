@@ -13,7 +13,7 @@ relationships:
     - Upgrading Observational Evidence
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 Four grades — **high / moderate / low / very low** — assigned to a *body* of evidence, starting from
@@ -316,6 +316,8 @@ independent routes to a fact about the world — it is three data points on one 
 observation. What it does support is narrower and still useful: **a "GRADE-graded" claim in nutrition
 guidance is the exception, not the default**, so the appraisal spine this wiki uses is not the one the
 field uniformly runs on. `-> [[Was GRADE Actually Used]]`
+
+
 
 ## USPSTF runs a 3-level certainty on a DIFFERENT object, over a nested 4-level layer `[2026-07-31]`
 

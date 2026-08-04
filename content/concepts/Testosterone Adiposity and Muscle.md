@@ -2,8 +2,8 @@
 type: concept
 question: Does raising testosterone — by losing fat or by taking it — improve muscle, function, fractures and survival in men, or is the T number a surrogate?
 aliases: [Testosterone and Muscle, Testosterone Replacement Therapy, TRT, Obesity Hypogonadism, Testosterone Adiposity Muscle Axis, Androgen Therapy Older Men, Testosterone and Fractures, Testosterone Cardiovascular Safety, TRAVERSE]
-authors: [Corona, Giovanni; Rastrelli, Giulia; Maggi, Mario; Lopez Hilario, Pedro P; Cano-Ibanez, Naomi; Lincoff, A Michael; Bhasin, Shalender; Nissen, Steven E; Snyder, Peter J; Bauer, Douglas C]
-sources: [Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Lincoff - TRAVERSE Testosterone Cardiovascular Safety 2023, Snyder - Testosterone Treatment Fractures 2024]
+authors: [Corona, Giovanni; Rastrelli, Giulia; Maggi, Mario; Lopez Hilario, Pedro P; Cano-Ibanez, Naomi; Lincoff, A Michael; Bhasin, Shalender; Nissen, Steven E; Snyder, Peter J; Bauer, Douglas C; Cruz-Jentoft, Alfonso J]
+sources: [Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Lincoff - TRAVERSE Testosterone Cardiovascular Safety 2023, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -117,6 +117,8 @@ discrepancy; the \~20,846 headline is used and the conflict flagged, not resolve
 
 ## Limb 3 — the hard outcomes: cardiovascular SAFETY (not benefit), and fractures UP
 
+
+
 This is where the surrogate story is refuted by the outcomes, and both come from the **same trial family**
 (TRAVERSE), so they are one evidence base read on two endpoints — not independent confirmations.
 
@@ -196,6 +198,8 @@ and the held resistance-training pages, NOT a head-to-head trial** — see the g
 
 ### Guard — "exercise beats T" is not a head-to-head result (parameter check)
 
+
+
 | Parameter | TRT (Lopez umbrella) | Resistance training (Morton, held) | Same quantity? |
 |---|---|---|---|
 | Intervention | testosterone by any route | progressive resistance training + protein | **No** |
@@ -243,10 +247,14 @@ overturn.
 - **No muscle-preserving-weight-loss trial in the elderly** — the trade-off between fat loss and lean/bone
   loss in older adults is reasoned from mechanism, not measured (`type-G`, also flagged in
   [[Big Rocks (Elderly)]]).
-- **Sarcopenia is defined but not yet a held page.** The umbrella cites the EWGSOP2 consensus
-  (Cruz-Jentoft) that sarcopenia is reduced lean mass *plus* impaired strength/performance — the very
-  mass-vs-function split limb 2 surfaces. `AWAITS (Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2
-  2019)` to anchor a sarcopenia definition/diagnosis page.
+- **Sarcopenia is now a held page** -> [[Sarcopenia Definition and Diagnosis]]. EWGSOP2 (the consensus
+  the umbrella cites) resolves the mass-vs-function split limb 2 surfaces in the *opposite* order to the
+  older definition: low muscle **strength** is now the primary criterion, low muscle **mass** only
+  *confirms* — «strength is better than mass in predicting adverse outcomes»
+  [@cruzjentoft2019]. This *sharpens* limb
+  2's finding: TRT builds mass reliably but function unreliably — i.e. it moves the demoted, confirmatory
+  parameter, not the primary one. Mass is the surrogate; strength is closer to the outcome
+  -> [[Surrogate Outcomes]].
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here
   checks a recommendation against a realized outcome.
 

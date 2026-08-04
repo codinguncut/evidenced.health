@@ -17,8 +17,10 @@ created: 2026-07-26
 updated: 2026-08-04
 ---
 
-BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@naude2022]
-**<26% of energy or <130 g/day** -- materially stricter than the <45% used by broader reviews.
+BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@goldenberg2021]
+**<26% of energy or <130 g/day** -- materially stricter than the **<45% of total energy** used by
+broader reviews such as Naude 2022.
+[@naude2022]
 
 ## The answer depends entirely on what "remission" means
 

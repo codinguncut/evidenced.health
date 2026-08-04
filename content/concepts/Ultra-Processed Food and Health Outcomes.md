@@ -2,11 +2,11 @@
 type: concept
 question: Does greater exposure to ultra-processed food (Nova classification) raise the risk of patient-important outcomes — and does "ultra-processed" carry a causal effect of its own, beyond the sugar/salt/fat/energy-density it correlates with?
 aliases: [Ultra-Processed Food, UPF, Nova Classification, Ultra-Processed Diet, UPF Health Outcomes, Processed Food Health]
-authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org)]
-sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023]
+authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019]
 cluster: evidence-appraisal
 confidence: low
-self_critiqued: 2026-08-01
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -28,12 +28,15 @@ does greater UPF exposure raise risk of patient-important outcomes, and at what 
 (2) does *processing itself* carry any of that effect, or is *"ultra-processed"* a proxy for the
 sugar/salt/saturated-fat/energy-density and low fibre it correlates with — the [[Is the Food Category Doing Any Work]] question, of which UPF is the paradigm case.
 
-**The one-line answer the corpus supports:** the associations are broad and consistent but the evidence
-is **observational throughout and low-certainty**, and the corpus **cannot yet isolate a processing
-effect from a nutrient effect**. The observational breadth is Lane 2024; the causal test that would
-separate the two is an inpatient feeding trial not yet held.: an inpatient RCT matching UPF and
-non-UPF diets on the nutrients NNR says carry the effect — if UPF still moves energy intake at matched
-composition, processing is doing independent work.
+**The one-line answer the corpus supports:** on **hard/patient-important outcomes** the associations are
+broad and consistent but the evidence is **observational throughout and low-certainty**. On the **energy-
+intake surrogate**, that is no longer the whole story: the Hall inpatient RCT — held primary since
+2026-08-04 — matched UPF and unprocessed diets on presented calories, energy density, macros, sugar,
+sodium and fibre, fed them ad libitum, and found UPF **still drove +508 kcal/day and 0.9 kg of weight
+gain**. So **processing does independent work on energy intake at matched composition** (moderate certainty,
+surrogate endpoint); whether that transmits to the hard outcomes Lane catalogues remains the observational,
+low-certainty layer. See *The causal foothold* below.
+[inferred from @hall2019; @lane2024upf]
 
 [inferred from @lane2024upf; @nnr2023]
 
@@ -149,7 +152,10 @@ meta-analysis found that adjusting for diet quality or patterns does not change 
 [@lane2024upf] **But adjusting for a diet-quality
 *pattern* is not the same as matching the *nutrient profile*** — the very sugar/salt/fat/fibre content
 that *makes* a food ultra-processed and nutrient-poor at once. A residual association after diet-quality
-adjustment does not separate processing from composition; only a design that holds composition fixed can.
+adjustment does not separate processing from composition; only a design that holds composition fixed can —
+and that design now exists **for the energy-intake outcome** (Hall 2019, below), where UPF moves intake at
+matched composition. It does **not** yet exist for the hard outcomes Lane catalogues, which remain
+composition-confounded. -> *The causal foothold*
 [inferred from @lane2024upf; @nnr2023]
 
 **Lane's own data contain the counter-evidence.** Within the T2D meta-analysis it includes (Chen 2023),
@@ -174,23 +180,63 @@ phthalates). [@lane2024upf] These are the *insufficient-
 evidence / "not yet"* state — mechanistically reasonable, mostly **not yet evidenced on human patient-
 important outcomes**. Admit them directionally at most; do not write them as findings from mechanism alone.
 
-**The one causal foothold is energy intake, and it is single-source.** Lane cites experimental evidence
-of «a robust causal relation between ultra-processed diets and increased energy intake and weight gain
-(approximately 500 kcal (2000 kJ) per day and 0.9 kg during the ultra-processed diet)».
-[@lane2024upf] That is the Hall inpatient RCT reached
-*via* Lane (secondary citation) — the design that *does* hold composition roughly fixed and still finds
-UPF drives overconsumption. It is the causal complement to Lane's observational breadth and is: holding it primary is what would let this
-page say processing does independent work on energy intake, rather than merely citing that it might.
+## The causal foothold — energy intake, now held primary (Hall 2019 RCT) `[2026-08-04]`
+
+The corpus previously reached this only through Lane's secondary citation; the trial is now held primary.
+It is the design that **holds composition roughly fixed and still finds UPF drives overconsumption** — the
+one place the observational breadth above is complemented by randomized causal evidence.
+
+**The trial.** 20 weight-stable adults (age 31 ± 1.6, BMI 27), 28-day inpatient NIH metabolic-ward stay,
+2-week ultra-processed vs unprocessed crossover, meals «designed to be well matched across diets for total
+calories, energy density, macronutrients, ﬁber, sugars, and sodium, but widely differing in the percentage
+of calories derived from ultra-processed versus unprocessed foods»
+[@hall2019] and eaten ad libitum. Result:
+metabolizable energy intake was **508 ± 106 kcal/day greater on UPF** (p = 0.0001; final-week 459 ± 105,
+p = 0.0003) — from carbohydrate (+280) and fat (+230), **not protein** (+2, NS). Participants **gained
+0.9 ± 0.3 kg on UPF and lost 0.9 ± 0.3 kg on unprocessed** (weight change vs intake r = 0.8), with body fat
+tracking. [@hall2019] Author verdict: «limiting
+consumption of ultra-processed foods may be an effective strategy for obesity prevention and treatment.»
+[@hall2019]
+
+**What this does and does not settle.**
+
+- **It IS a processing effect on intake, not a palatability or reported-appetite one.** Pleasantness,
+  familiarity, hunger, fullness and satisfaction ratings «were not signiﬁcant between the diets»
+  [@hall2019] — so the excess intake is not
+  subjects simply liking UPF more or feeling hungrier.
+- **The proximate levers are identifiable — and this matters for the category question.** UPF was eaten
+  **faster** (+17 kcal/min, +7.4 g/min, both p < 0.0001; eating-rate difference correlated with intake
+  difference r = 0.45), had **85% higher non-beverage energy density**, and provided slightly less protein
+  (protein leverage modelled to explain «at most 50%» of the gap).
+  [@hall2019] So the effect is not opaque
+  *NOVA magic*: it runs through **energy density, eating rate/texture, and protein dilution** — measurable
+  properties that a decision can target directly. -> [[Is the Food Category Doing Any Work]]
+- **It is a SURROGATE result.** Endpoints are intake, weight and fat mass over 2 weeks — not the mortality/
+  cardiometabolic hard outcomes Lane catalogues. It licenses «processing drives overconsumption», not
+  «processing causes CVD». And energy expenditure did **not** fall on UPF (+171 kcal/day by DLW), while
+  glucose tolerance and insulin sensitivity were **unchanged** despite the weight gain
+  [@hall2019] — the overconsumption is an intake
+  phenomenon, not a metabolic-defect or glycaemic one, in this short trial.
+- **Bounds:** n=20, single trial, 2-week arms (no run-in/washout, partly addressed by the final-week
+  comparison), and the presented diets were not matched on non-beverage energy density, protein, or
+  sub-composition — the very properties that likely carry the effect. Hall calls for future trials matching
+  those and using slowly-eaten UPF. So the trial establishes **that** processing moves intake, and points
+  at **which** properties, without isolating a single lever.
+
+[inferred from @hall2019]
 
 ## Decision relevance
 
-- **Direction is clear; magnitude and mechanism are not.** Reducing UPF is a low-regret direction on
-  cardiometabolic and mortality grounds — but the effect is modest, observational, and may run entirely
-  through nutrients already targeted. It is **not** established as an independent lever.
-- **Act on the composition you can see, not the label you cannot apply.** Because the category reassigns
-  foods by manufacturing detail and pools protective subcategories with harmful ones, the actionable
-  target is the correlated nutrient profile (added sugar, sodium, energy density, low fibre) — which
-  existing guidance already sets — not *"avoid UPF"* as a rule a shopper cannot reliably execute.
+- **On energy intake, UPF IS now an established lever (surrogate); on hard outcomes it is not.** The Hall
+  RCT shows reducing UPF lowers ad libitum intake and body weight at matched composition — a genuine,
+  randomized, independent effect on a surrogate. Whether that transmits to mortality/cardiometabolic
+  endpoints stays observational and low-certainty, and much of the *hard-outcome* association may still run
+  through nutrients already targeted. Do not let the strong intake result read as a strong hard-outcome one.
+- **Act on the composition you can see — and Hall names what to see.** The actionable targets are the
+  measurable properties that drove Hall's overconsumption: **energy density (especially non-beverage),
+  eating rate/soft texture, and adequate protein** — plus the correlated nutrient profile (added sugar,
+  sodium, low fibre) existing guidance already sets. This is *more* actionable than *"avoid UPF"* as a label
+  a shopper cannot reliably apply, and it is what the trial licenses over the raw category. -> [[Is the Food Category Doing Any Work]]
 - **The trajectory outcome is unmeasured.** These are incidence/mortality endpoints; the shape-of-decline
   question the person may care about most is silent.
 - **Do not read this as a big rock.** For someone with a dominant exposure unaddressed (smoking, obesity,

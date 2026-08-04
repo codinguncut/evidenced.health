@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016]
 cluster: evidence-appraisal
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-01
-self_critiqued: 2026-08-01
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
@@ -157,6 +157,62 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   estimation of sodium intake» and directly contradicts PURE's high-intake *BP*-association threshold
   with RCT effects «far below this» — but this is the concept's recipe *named* again, still without an
   MR or referent-correction on the arm. [@huang2020] Two same-lineage critiques do not compound into an adjudication; the arm stays open.
+- **Coffee CANCER mortality — a worked referent-correction whose confounder pushed the OPPOSITE way to
+  alcohol `[2026-08-04, Grosso + Poole]` `type-F`.** Grosso 2016 (dose-response MA, 31 cohorts, 1.6M)
+  performs the smoker/non-smoker **referent correction** the coffee page flagged as pending. Its cleanest,
+  Grosso-attributed instance is **cancer** mortality, whose *sign flips* across the correction: pooled,
+  coffee shows no significant cancer-mortality association, but stratified «cancer mortality was
+  signiﬁcantly decreased only when considering non-smokers, while increased in smokers»
+  [@grosso2016] (non-smoker linear RR 0.98/cup,
+  0.96-1.00). Grosso reads the flip as confounding, not interaction: «it is hardly plausible that any
+  biological effect of coffee causally diﬀers by smoking status... residual confounding by smoking is the
+  most likely the explanation». [@grosso2016]
+  - **The refinement — the correction removes whatever the confounder manufactured, and that need not be
+    a protective signal.** Set the two referent-corrections side by side (same diagnostic move, route 1;
+    note this compares a confounder-*manufactured signal*, not literally a J-arm in each — coffee-cancer
+    is a confounded sign-flip, not a benefit-then-harm curve):
+
+    | Parameter | Alcohol -> all-cause (Stockwell 2016) | Coffee -> cancer (Grosso 2016) | Same quantity? |
+    |---|---|---|---|
+    | Correction | never-drinker referent (drop sick-quitters) | never-smoker stratum (drop smoking confounder) | both route-1 referent/confounder corrections — **yes** |
+    | What the confounder manufactured | a spurious **benefit** (the protective lower arm of the J) | a spurious **harm** (the smoker-stratum increase that masks a real benefit in the pool) | both a confounder-made signal the correction targets — **yes (as a diagnostic move)** |
+    | Direction of the spurious signal | **benefit** | **harm** | **no — opposite** |
+    | After correction | benefit vanishes -> monotone **harm** | harm vanishes -> monotone **benefit** (0.98/cup) | **no — opposite directions** |
+    | Adjudication strength | referent-correction **+ MR** (Millwood) = decisive | referent-correction **only** (observational; Poole's MR is null) | coffee is **less** fully adjudicated |
+
+    The bottom rows are the payoff: the confounder-correction does not "restore the null by killing a
+    protective arm" as a rule — it removes whatever the confounder was *creating*. Smoking manufactured an
+    apparent coffee-*cancer* **harm** (smokers drink more coffee and, because smoking is the dominant
+    cancer risk factor, die more of cancer), so correcting it revealed **more** benefit — the reverse of
+    alcohol. This extends the *adjudicate the arm, not the curve* rule: adjudicate the signal **and note
+    which direction the confounder pushes it** — the artifact is not synonymous with "the protective arm."
+  - **All-cause/CVD linearizes too, but Grosso does not attribute THAT to smoking.** The overall all-cause
+    curve is a J (nadir RR 0.83 at 3 cups -> 0.90 at 7)
+    [@grosso2016, Table 2] while never-smokers
+    show «a linear dose-response... decreased risk by 6 % for each additional cup... for all- cause and
+    CVD mortality (RR = 0.94, 95 % CI = 0.93, 0.96 and RR = 0.94, 95 % CI = 0.91, 0.97, respectively)»
+    [@grosso2016] — so the correction removes
+    the upper-arm attenuation here as well. **But** Grosso reports «No diﬀerences were found between
+    smokers and non-smokers for all-cause and CVD mortality risk»
+    [@grosso2016], attributing the smoking
+    artifact explicitly only to cancer. So the all-cause/CVD upper-arm-as-artifact is the wiki's inference
+    from the linear-vs-J contrast, held against Grosso's own no-difference statement — suggestive, not
+    established. The clean instance is cancer.
+  - **Adjudication status: still only partial.** Grosso removes the *dominant* confounder (smoking) but
+    is observational — SES / reverse causation / other residuals remain, and Poole's Mendelian-
+    randomisation citations found «no genetic evidence for a causal relation» for coffee->mortality
+    [@poole2017]. Consistent, not in
+    tension: the per-cup benefit **survives the smoking referent-correction** yet **not the genetic
+    instrument**, so residual *non-smoking* confounding is the live remaining explanation. By the decision
+    rule the lower-arm benefit stays **not established as causal** — but smoking is no longer a candidate
+    for the *whole* association.
+    -> [[Coffee Consumption and Health]].
+  - **Type guard:** Grosso and Poole share the coffee-cohort evidence base (Poole is an umbrella over MAs
+    of this class), so this is **F-refinement of Poole's mortality arm, NOT independent-E**. Against the
+    *alcohol* instance it is neither E nor a tension — coffee and alcohol do not disagree; they are two
+    exposures exhibiting the one diagnostic. It is the **second route-1 referent-correction** worked on a
+    dose-mortality curve (after alcohol); sleep, by contrast, was adjudicated by mechanism-presence and
+    heterogeneity tells, not by a referent-correction.
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
   ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [@jha2013]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking
@@ -184,6 +240,15 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   stays open. The concept is now banked on two exposures with an arm-level refinement, not one — though
   both rest on the same reverse-causation mechanism, so a genuinely different artifact route (e.g. the
   unequal-precision one) is still untested.
+- **Coffee added a directional sharpening `[2026-08-04]`.** Grosso's smoking referent-correction is the
+  second route-1 instance (after alcohol), and it guards against a latent over-generalization: that the
+  correction always kills a *protective* signal. It does not — in coffee-cancer the correction dissolved a
+  confounder-manufactured *harm* and revealed *more* benefit. So the rule is "the correction removes what
+  the confounder created," not "the correction removes the protection." This is a refinement, not a
+  laundered repeat (it changes what the concept claims). It is honestly scoped: the clean instance is the
+  *cancer* sign-flip (Grosso-attributed), the all-cause/CVD linearization is a flagged inference (Grosso
+  reports no smoker/non-smoker difference there), and the whole thing is *partial* (referent-correction
+  only, MR null), so the coffee lower arm is left not-established rather than over-sold as adjudicated.
 - **Coherence, not validity** (R1): the concept says when a protective arm is *unwarranted*, not that
   the exposure is harmful; it is a rule about evidence, not about the world.
 

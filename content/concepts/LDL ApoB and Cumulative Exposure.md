@@ -15,7 +15,7 @@ relationships:
     - Statins for Primary Prevention and the Power of Zero CAC
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-29
 ---
 

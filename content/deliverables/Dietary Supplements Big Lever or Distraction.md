@@ -3,8 +3,8 @@ type: deliverable
 title: Dietary Supplements and Health
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org)]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, SACN - Carbohydrates and Health 2015]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Martineau, Adrian R; Falkingham, Martin; Bougma, Karim]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, SACN - Carbohydrates and Health 2015]
 confidence: medium
 created: 2026-07-30
 updated: 2026-08-04
@@ -107,8 +107,8 @@ was **not deficient**: mean baseline 25(OH)D was 30.8 ng/mL (above the 20 ng/mL 
 12.7% were below 20 ng/mL [@manson2019vitd], and just 2.4% were frankly
 deficient at under 12 ng/mL [@leboff2022]. So every null
 reads as *adding vitamin D to an already-adequate person buys nothing* — and the frankly-deficient tail
-was too small to test, so **deficiency correction remains a separate, live question these trials do not
-answer** (see *Deficiency vs enhancement*, below). This is the single most important distinction on the
+was too small to test, so **deficiency correction is a separate question these trials do not
+answer** — but which the repletion meta-analyses below now do (see *Deficiency vs enhancement*, below). This is the single most important distinction on the
 page: the VITAL nulls are about *enhancement*, and enhancement is not repletion.
 
 ### USPSTF 2022 — the general-adult guideline verdict
@@ -190,9 +190,23 @@ This is the one robust *benefit* mechanism, and it is
   - Establish the deficiency
     (measure it, or apply a strong stratum prior such as B12 in long-term vegans, iron in
     iron-deficiency anaemia, vitamin D in the institutionalized or minimally sun-exposed), do not guess.
-  - The wiki holds the *principle* firmly (the VITAL nulls are all in replete people, and USPSTF carves
-    deficiency out) but holds **no repletion trial** to attach a magnitude to — so this is *benefit in
-    principle, magnitude not held* rather than a quantified claim.
+  - The wiki now holds **three repletion meta-analyses across three unrelated nutrients**, each with the
+    benefit concentrated in the deficient and near-null in the replete — so the principle is *quantified and
+    independently confirmed*, no longer "benefit in principle only":
+    - **Vitamin D → acute respiratory infection:** NNT **4** in the deficient (baseline 25(OH)D <25 nmol/L)
+      versus little in the replete, effect-modification P=0.006, GRADE high
+      [@martineau2017].
+    - **Iron → cognition:** **+2.5 IQ points** in the anaemic (SMD 0.54), null in the well-powered replete
+      [@falkingham2010].
+    - **Iodine → child mental development:** **+7.4 IQ points** in the deficient (d 0.49, the largest of the
+      three), strongest when repleted in early pregnancy
+      [@bougma2013].
+  - The same *deficient-benefit / replete-null* pattern recurring across three nutrients that share no
+    trials or outcomes is independent corroboration of the **principle**, not of any one effect
+    ([[Deficiency Repletion vs Enhancement]]). Two honesty checks: the iron and iodine trials are small and
+    methodologically weak (held **below** the GRADE-high vitamin-D evidence), and the modification is not
+    universal — it is outcome-specific (iron helped attention regardless of status) and can be timing-gated
+    (iodine's window is early pregnancy).
   - One guideline-anchored exception the
     held evidence names directly: the same USPSTF statement notes it **separately recommends a daily
     0.4-0.8 mg folic acid supplement for all persons planning or capable of pregnancy** — a repletion-style
@@ -394,7 +408,7 @@ not invented numbers (the gaps are tracked against the nucleus,
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 13 sources — 3 gold, 9 high, 1 moderate |
+> | **Evidence included** | 16 sources — 6 gold, 9 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |

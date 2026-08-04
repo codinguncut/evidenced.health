@@ -359,4 +359,14 @@ These are the holes the assembled evidence cannot fill, and they bound every cla
 - **No Mendelian-randomization evidence** on LA is held — the design that could firm the benefit from
   observational-only toward causal is absent, and is now the single most useful thing to acquire.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | What does the evidence show about bottled seed oils and their linoleic acid — for whom, on which patient-important outcomes, how good is it, and do processing, heating or fatty-acid composition change the answer? |
+> | **Evidence included** | 12 sources — 5 gold, 4 high, 2 moderate, 1 weak |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Hamley (meta-analysis, moderate); Astrup (narrative review, weak); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Seed%20Oils.md) |
+
 ## References

@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -18,7 +18,7 @@ relationships:
     - Rating Certainty of Evidence
 created: 2026-07-30
 updated: 2026-08-04
-self_critiqued: 2026-08-01
+self_critiqued: 2026-08-04
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -226,5 +226,59 @@ scope limits keep the null honest without overturning it:
   NOT transport to high-dose prescription EPA (\~4 g/day) in a high-triglyceride / high-CV-risk stratum -
   a different exposure, dose and stratum (and whose landmark trial carries a contested comparator). That
   stratum question is not held here - flagged for acquisition; the general-population finding stands.
+
+
+
+## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
+
+The general-population null above is **enhancement in the replete, on fractures/cancer/CVD**. It does not
+extend to **repletion in the deficient**, and Martineau 2017 (gold IPD meta-analysis, 25 RCTs, 10,933
+participants, GRADE high) is the held demonstration of the other arm — on a different outcome, **acute
+respiratory tract infection (ARI)**. Vitamin D cut ARI overall («adjusted odds ratio 0.88, 95% confidence
+interval 0.81 to 0.96» [@martineau2017], NNT=33), and — the load-bearing part — the benefit was **modified by baseline status**: in the
+deficient (<25 nmol/L) on daily/weekly dosing, OR **0.30 (0.17-0.53), NNT=4**, versus OR 0.75 in the
+replete-ish (P for interaction 0.006) [@martineau2017]. Two constraints keep this from loosening the general-population verdict:
+
+- **It is a different outcome and a different stratum.** ARI is not fracture/cancer/CVD, and the benefit
+  concentrates in the *deficient* — so this **sharpens** the null (it is specifically enhancement-in-the-
+  replete on hard chronic endpoints) rather than overturning it. See [[Deficiency Repletion vs Enhancement]]
+  for the two-arm structure this instantiates.
+- **The exposure that works is daily/weekly, not bolus** — bolus dosing was null even in the deficient
+  (OR 0.82, 0.51-1.33) [@martineau2017]. And this is NOT independent corroboration of VITAL: it is a **different outcome** composing the
+  fuller arc (deficient benefits on ARI / replete does not on chronic disease), not a second witness of the
+  same claim [inferred from @martineau2017; @manson2019vitd].
+
+Decision-change: **for a confirmed vitamin-D-deficient person, daily/weekly D is a real lever on ARI** —
+route (a)/(b) on [[Baseline Risk and the Relative-Absolute Split]], with absolute benefit scaling to
+deficiency (NNT 4 vs 33). This does not license broad supplementation of the replete, whose ARI benefit
+was much smaller and whose chronic-disease benefit was null.
+
+**A second deficient-stratum instance — iron -> cognition (Falkingham 2010, gold MA).** The same
+enhancement-vs-repletion split holds for a different nutrient: iron supplementation raised IQ in the
+**anaemic** by **+2.5 points (95% CI 1.24 to 3.76)** but had «no effect on non-anaemic participants»,
+and the replete null was **well-powered (>1500)** hence reliable
+[@falkingham2010],
+[@falkingham2010]. So iron, like
+vitamin D, is a *repletion* lever for a deficient stratum and an *enhancement* null for the
+replete — a second nutrient x outcome confirming the deficient-benefits / replete-does-not structure
+this page's general null instantiates -> [[Deficiency Repletion vs Enhancement]] (where the two
+instances lift the *principle* to `[E-independent]`). Caveats: the iron RCTs were «generally small,
+short and methodologically weak» with modest publication bias — hold it below the GRADE-high
+vitamin-D evidence [@falkingham2010].
+
+**A third deficient-stratum instance — iodine -> child mental development (Bougma 2013, gold MA).**
+Repleting iodine-**deficient** mothers/children raised child IQ by **+7.4 points** (range 6.9-10.2,
+*d* 0.49) [@bougma2013] — the
+largest repletion effect of the three, tracking the deepest deficiency (severe iodine deficiency ->
+cretinism). This is the iodine analogue of the same enhancement-vs-repletion split: a *repletion* lever
+for a deficient stratum, and — for a well-nourished adult buying an iodine-containing multivitamin —
+enhancement with no such demonstrated gain. Unlike the vitamin-D and iron instances, Bougma directly
+tests only the **deficient-benefit** leg (no supplement-the-replete arm), and its benefit is gated by
+**developmental timing** (early pregnancy *d* 0.51 vs late 0.17) — so the decision-change is
+narrow: *repletion of a confirmed iodine-deficient pregnant/young stratum, in the fetal-brain window*,
+not general-population supplementation -> [[Deficiency Repletion vs Enhancement]] (three independent
+nutrients now lift the *principle* to `[E-independent]`). Hold below the GRADE-high vitamin-D evidence:
+only 2 RCTs, small samples, uncontrolled confounding incl. a maternal-behaviour channel
+[@bougma2013].
 
 ## References

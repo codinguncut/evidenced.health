@@ -1,7 +1,7 @@
 ---
 type: deliverable
 question: What does the evidence show about bottled seed oils and their linoleic acid — for whom, on which patient-important outcomes, how good is it, and do processing, heating or fatty-acid composition change the answer?
-sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Hamley - Saturated Fat PUFA Coronary 2017, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017]
+sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017]
 confidence: low
 created: 2026-08-04
 updated: 2026-08-04
@@ -89,16 +89,35 @@ associated with higher cardiovascular disease (hazard ratio 0.95, 95% CI 0.90-1.
 and *lower* in some analyses), and stable-isotope studies show LA-to-AA conversion in humans is very
 limited [@marklund2019, Discussion; Background]. So the mechanism's predicted outcome does not appear when measured.
 
-### The recovered-trial harm arm — staged, not held
+### The recovered-trial arm — now held, and it does not deliver a harm verdict
 
-There is one genuine open door for a harm signal, and honesty requires flagging it. Ramsden's
-reanalyses of recovered 1960s-70s RCT data (the Minnesota Coronary Experiment and Sydney Diet-Heart)
-suggested LA-rich oil *raised* mortality. **These are not yet ingested here**, so the harm pole is represented only second-hand. Two things bound
-it in advance: those trials are hampered by short duration, small event counts, high dropout and
-confounding by industrial trans fats in control-arm margarines [@marklund2019, Background]; and Hooper's Cochrane review already pools the Ramsden
-trials to a null, not a harm (see below). The trial-selection reanalysis that *is* held (Hamley, next
-section) also found no harm. Until Ramsden is read directly, the recovered-RCT-harm claim is
-**insufficient evidence held here**, not a refuted one.
+The strongest apparent harm signal comes from Ramsden's reanalyses of recovered 1960s-70s trial data,
+now read directly. **Minnesota (primary prevention): a randomized null.** The recovered mortality
+contrast is not significant — pooled coronary-mortality RR 1.13, all-cause 1.07
+[@ramsden2016] — the same little-or-no-effect as
+Hooper's Cochrane pool, which already contains it. Its harm-suggestive figure (a cholesterol-fell-but-
+death-rose gradient) is an *observational* sub-analysis, concentrated in the over-65s and frailty-shaped,
+not the randomized result.
+
+**Sydney (secondary prevention, post-heart-attack men): a randomized signal that still does not survive.**
+Here the higher mortality *is* in the randomized primary outcome — all-cause HR 1.62 (1.00-2.64,
+P=0.051), cardiovascular 1.70, coronary 1.74 [@ramsden2013] — so
+it does not dissolve the way Minnesota's did. But it does not stand as a harm verdict either: one small
+(n=458), single-blind, old, very-high-dose trial with the all-cause interval touching 1.00, and
+Ramsden's *own* updated meta-analysis pools the omega-6-selective trials to non-significance (coronary
+mortality 1.33, P=0.06) [@ramsden2013]; Hooper and Li already
+include Sydney and net to null-or-benefit. The trans-fat confound runs the *other* way here — the
+intervention *removed* the era's margarines and shortenings, so if anything it understates the gap.
+
+**The one nuance worth carrying — omega-6 alone vs omega-6-plus-omega-3.** Ramsden's meta-analysis names
+PUFA *composition* as the major source of disagreement between trials: raising omega-6 *on its own* trends
+adverse, while raising omega-3 and omega-6 *together* shows benefit (RR 0.79)
+[@ramsden2013]. So some of the apparent "PUFA benefit" may be
+omega-3-attributable, and very-high-dose omega-6-*selective* replacement — the Sydney design, not any
+normal diet — is the one place a harm signal is not yet excluded. **What survives across both recovered
+trials: no general-population linoleic-acid harm**, plus a narrow "insufficient evidence, possible harm"
+flag for high-dose omega-6-selective replacement in post-heart-attack patients — a stratum, not a
+general warning.
 
 ## Does linoleic acid benefit the heart?
 
@@ -302,8 +321,11 @@ rather than filling them from mechanism.
 
 ## The bottom line for a decision
 
-- **Four evidence states, named.** *Harm on hard cardiovascular outcomes:* not shown — trials and
-  observational data alike. *Harm via inflammation:* the mechanism's own surrogate is null (Johnson) —
+- **Four evidence states, named.** *Harm on hard cardiovascular outcomes:* not shown in the general
+  population — trials (including the recovered Ramsden reanalyses, which net to a randomized null) and
+  observational data alike; a narrow "possible harm, insufficient evidence" flag survives only for
+  very-high-dose omega-6-*selective* replacement in post-heart-attack patients. *Harm via inflammation:*
+  the mechanism's own surrogate is null (Johnson) —
   no meaningful effect. *Benefit on hard outcomes:* observational benefit (Marklund, Li), not reproduced
   by randomization (Hooper) — so **observational-only** for the strong mortality signal; the durable
   cross-design finding is *not harmful + lowers atherogenic lipids* ([[Linoleic Acid and Cardiovascular Disease]]). *Bottled/heated seed oil as a food, and the composition/ratio/extraction questions:*
@@ -326,11 +348,15 @@ rather than filling them from mechanism.
 These are the holes the assembled evidence cannot fill, and they bound every claim above
 ([[Linoleic Acid and Cardiovascular Disease]]).
 
-- **The recovered-RCT harm arm** (Ramsden's Minnesota and Sydney reanalyses) is staged but not yet
-  read here — the strongest contrarian *harm* pole is represented only second-hand.
+- **The high-dose omega-6-*selective* secondary-prevention stratum** (post-heart-attack, Sydney-style
+  very-high-LA replacement) is the one place the recovered trials leave a harm signal *not excluded* —
+  now read directly, but under-powered (n=458, borderline) and its own meta-analysis non-significant.
+  A narrow stratum flag, not a general-population gap.
 - **Heating/oxidation to a hard human outcome** is a not-yet mechanism, not a finding.
-- **Composition classes, omega-6:omega-3 ratio, and extraction/refining** are largely uncovered.
+- **Composition classes and extraction/refining** are largely uncovered; the omega-6:omega-3 balance is
+  only *partly* addressed — the recovered trials suggest omega-6-alone behaves differently from
+  omega-6-plus-omega-3, but no dedicated ratio evidence is held.
 - **No Mendelian-randomization evidence** on LA is held — the design that could firm the benefit from
-  observational-only toward causal is absent.
+  observational-only toward causal is absent, and is now the single most useful thing to acquire.
 
 ## References

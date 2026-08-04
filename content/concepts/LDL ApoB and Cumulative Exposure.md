@@ -2,8 +2,8 @@
 type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
-authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017]
+authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -16,7 +16,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-29
 updated: 2026-08-04
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-04
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
@@ -159,6 +159,54 @@ and where it stands against this page:
   contested and dated, and does not overturn apoB causality.**
 [inferred from @astrup2020; @ference2017]
 -> full joined issue: [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
+
+## The off-target/concordance proviso, worked — Ramsden MCE 2016 `[2026-08-04]`
+
+Ference's *any-mechanism-works* claim is conditioned twice: *provided the LDL-C drop is concordant with
+the particle-number drop and there are no competing deleterious off-target effects.* The recovered
+Minnesota Coronary Experiment is the corpus's cleanest case of that proviso **biting** — a large
+cholesterol reduction that did **not** transmit to the outcome, in a double-blind RCT.
+
+**What MCE showed.** Replacing SFA with corn-oil LA lowered serum cholesterol **-13.8% vs -1.0%**
+control, yet produced **no mortality benefit** in the full randomized cohort or the 5-trial MA (CHD
+mortality 1.13, all-cause 1.07) -> [[Linoleic Acid and Cardiovascular Disease]]. Ramsden's own reading is
+an explicit off-target/concordance argument: «a decrease in low density lipoprotein can represent widely
+different biochemical phenomena», so «some agents that decrease low density lipoprotein have been shown to
+reduce the risk of coronary heart disease... while others have no clear effect... and still others might
+actually increase risk.» [@ramsden2016, Why didn't lowering serum cholesterol translate to clinical improvement?]
+
+**Same-quantity discipline — this does NOT refute apoB causality; it lands inside the proviso.** MCE
+measured **total serum cholesterol only** (Ramsden concedes LDL/HDL subfractions were not assayed), so it
+cannot show the cholesterol drop was *concordant with a particle-number (apoB) drop* — the first escape
+hatch. And LA plausibly adds a *competing off-target effect* (increased LDL-oxidation susceptibility) —
+the second. So MCE is **consistent with** Ference's framework, not a counterexample to it: it is the
+worked demonstration that the concordance + no-off-target proviso is load-bearing, not boilerplate. The
+decision-relevant transfer: **a diet-induced cholesterol change is not interchangeable with a drug-induced
+apoB change** — validate the marker->outcome transmission *for the agent actually used*
+-> [[Surrogate Outcomes]]. This is the empirical shadow of ESC's «irrespective of the drug» invariance
+claim: the invariance is evidenced across LDL-lowering *drugs*; MCE shows it is *not* automatic for a
+*dietary* LDL change.
+[inferred from @ramsden2016; @ference2017]
+
+**The Sydney companion (Ramsden 2013) is the same proviso, biting harder — the second escape hatch made
+concrete.** SDHS lowered total cholesterol MORE in the LA arm (-13.3% v -5.5%) yet the arm had *higher*
+randomized mortality, and Ramsden proposes exactly the **competing off-target effect** the proviso names:
+oxidized-LA metabolites (OXLAMs) as an atherogenic route independent of the cholesterol drop, strongest
+in the trial's smokers/drinkers. Like MCE it measured total cholesterol only (not apoB/particle number),
+so it too **lands inside** Ference's proviso rather than refuting it — a diet-lowered cholesterol with a
+plausible off-target harm, not a clean apoB-concordant reduction. It sharpens the same decision transfer
+(a dietary cholesterol change is not interchangeable with a drug-induced apoB change) with a randomized
+*adverse* outcome instead of MCE's null. Small single-blind high-dose n-6-selective secondary-prevention
+trial — the appraisal caveats are on [[Linoleic Acid and Cardiovascular Disease]]; not independent-E of
+MCE (same Ramsden program).
+[inferred from @ramsden2013]
+
+**Self-critique (Ramsden MCE weave) `[run 2026-08-04, before commit]`.** *Overclaim:* the section
+explicitly says MCE is **consistent with**, not a counterexample to, apoB causality — the two proviso
+escape hatches (total-cholesterol-only measurement; LA-oxidation off-target) are named and both
+source-grounded, so it does not launder a contrarian RCT into a refutation of Ference. *Not-E:* no
+independence claimed — it is an F/worked-instance. *Same-quantity:* diet-total-cholesterol vs
+drug-apoB-particle kept distinct throughout.
 
 ## Self-critique `[run 2026-07-29, before commit]`
 

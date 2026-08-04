@@ -2,8 +2,8 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016]
 cluster: evidence-appraisal
 confidence: medium
 created: 2026-07-28
@@ -120,6 +120,23 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   is **unadjudicated**: no referent-correction or genetic check isolates it from the income confound.
   The decision rule applies unchanged — the protective/harmful arm is not believed until it survives a
   confounder-immune check -> [[Saturated Fat Intake and Replacement]].
+- **MCE cholesterol-death — the machinery turned on a CONTRARIAN headline (symmetric standards)
+  `[2026-08-04, Ramsden]`.** Not a U-curve but the frailty/reverse-causation machinery in a within-RCT
+  association: in the recovered Minnesota Coronary Experiment, each 30 mg/dL serum-cholesterol *decrease*
+  tracked a **22% higher risk of death (HR 1.22, 1.14-1.32)** — the figure seed-oil skeptics cite as
+  evidence LA-lowering-of-cholesterol *kills*. The tells are this concept's own: the association is
+  **entirely >=65-driven** (age >=65 HR 1.35, age <65 **null 1.01, 0.88-1.16**) — a frailty gradient, not a
+  dose-response — and Ramsden concedes it is «observational in nature», a within-trial cholesterol-change
+  association that «did not differ between the intervention and control group» (so it is *not* the
+  randomized diet contrast). [@ramsden2016, Table 4; Strengths and limitations]
+  Ramsden ran only the **weak** check — a frailty sensitivity analysis adjusting for weight/BP *changes*,
+  which the association survived — but that is a crude proxy, not an instrument immune to reverse
+  causation (low cholesterol is a marker of the frailty/illness that causes death). So by the decision
+  rule the causal reading (*lowering cholesterol raises death*) stays **unadjudicated**: the association
+  is real, its causal interpretation is not established, and it must get the **same** discount the pro-LA
+  observational *benefit* signals get -> [[Linoleic Acid and Cardiovascular Disease]]. The clean part of
+  MCE — the *randomized* cholesterol-fell/mortality-null contrast — needs no U-shape machinery and stands
+  on its own -> [[Surrogate Outcomes]].
 - **Non-sugar sweeteners — reverse-causation machinery that did NOT dissolve the association (only weak
   checks exist).** Not a U-curve: higher NSS use shows *monotone* positive associations with type 2 diabetes
   (HR 1.23-1.34), CVDs (1.32), stroke (1.19) and all-cause mortality (1.12) in long-term cohorts, while

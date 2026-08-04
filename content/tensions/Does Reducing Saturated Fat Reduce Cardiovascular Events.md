@@ -2,8 +2,8 @@
 type: tension
 question: Does the trial evidence establish that reducing dietary saturated fat reduces cardiovascular events — and if a benefit exists, is it SFA avoidance or the replacement doing the work?
 aliases: [SFA Reassessment, Astrup vs Hooper, Saturated Fat Stigma, Is Saturated Fat Harmful, SFA Harm vs PUFA Benefit, Saturated Fat Cardiovascular Tension]
-authors: [Astrup, Arne; Krauss, Ronald M; Hooper, Lee; World Health Organization (org); Dehghan, Mahshid; Hamley, Steven]
-sources: [Astrup - Saturated Fats Reassessment 2020, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017]
+authors: [Astrup, Arne; Krauss, Ronald M; Hooper, Lee; World Health Organization (org); Dehghan, Mahshid; Hamley, Steven; Ramsden, Christopher E]
+sources: [Astrup - Saturated Fats Reassessment 2020, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
 cluster: dietary-fat
 confidence: medium
 relationships:
@@ -188,6 +188,78 @@ side does not hold 0.73 firmly. The disagreement turns on **which trials are ade
 on the direction of the underlying data -> [[Linoleic Acid and Cardiovascular Disease]].
 [inferred from @hamley2017; @hooper2018; @hooper2020]
 
+## Ramsden MCE 2016 grounds the recovered-data arm of joined-issue 1 `[2026-08-04]`
+
+Joined-issue 1 asks whether the classic diet-heart RCT base is trans-fat-confounded and whether that
+reaches the pooled estimates guidance relies on. Hamley operationalised the *adequacy filter*; Ramsden
+supplies the **recovered-data** arm — and it converges with Hamley by a second route. This is an
+**F-refinement of the existing joined issue, not a new tension.**
+
+**What Ramsden did.** Recovered the double-blind MCE RCT (1968-73; corn-oil LA 13.2%E replacing SFA) and
+ran a PRISMA meta-analysis restricted to the SFA->LA-replacement RCTs **not confounded by concomitant
+interventions** (MCE, SDHS, RCOT, LA-Vet, MRC-Soy; n=10 808). The result is a mortality null: «no
+evidence of benefit on mortality from coronary heart disease (1.13, 0.83 to 1.54) or all cause mortality
+(1.07, 0.90 to 1.27).» [@ramsden2016, Results; Fig 7]
+
+**Parameter table — what Ramsden's MA does and does not reach (same-quantity discipline).**
+
+| Parameter | Ramsden 2016 MA | Hooper 2020 / WHO — the RR 0.83 this page rests on | Same quantity? |
+|---|---|---|---|
+| Trial pool | 5 SFA->**LA-replacement** RCTs, **confounder-filtered** | 15 **SFA-reduction, any-replacement** RCTs, unfiltered | **NO — replacement-specific + filtered vs broad** |
+| Outcome | **CHD mortality** 1.13 (0.83-1.54); **all-cause** 1.07 (0.90-1.27) | **combined CV events** 0.83 (0.70-0.98) | **NO — mortality vs combined-events composite** |
+| On mortality | null | Hooper's own mortality rows are **also null** (all-cause 0.96, CVD-mortality 0.94) | **YES — both null, agreement** |
+
+So Ramsden's mortality nulls do **not** reach or overturn the combined-events RR 0.83 (different outcome);
+they **reinforce the mortality AGREEMENT** already banked at the top of this page. What Ramsden adds to
+*joined-issue 1* is the **second confounder-filter route**: like Hamley (adequacy split -> benefit
+vanishes), Ramsden's *unconfounded-only* pool shows no mortality benefit. Both are shared-evidence-base
+RCT-MAs over overlapping diet-heart trials -> **F/convergence, NOT `[E-independent]`**.
+
+**Ramsden's trans-fat REBUTTAL complicates joined-issue 1 in a decision-relevant way.** Astrup's live
+claim was that the classic trials tested PUFA against *trans+SFA* control margarines, so a benefit «cannot
+be assigned to saturated fats alone». Ramsden argues that for **MCE specifically the trans fat was in the
+control and baseline diets, «(but not the intervention diet). Thus, confounding by dietary trans fat is an
+exceedingly unlikely explanation for the lack of benefit of the intervention diet.»**
+[@ramsden2016, Strengths and limitations] The
+direction matters: trans-fat in the *control* arm makes the control worse, which biases *toward* a
+spurious intervention **benefit** — so it can inflate a benefit, it cannot manufacture a null. That cuts
+**against** using the trans-fat confound to rescue the pro-benefit reading, and it is a genuine intra-field
+friction between two recovered-data reanalysts (Ramsden) and the reassessment camp (Astrup) over *which
+direction* the era's trans fats bias the estimate. **Recorded here, not scored** (adjudication is out of
+ingest scope; the handle sits on joined-issue 1).
+
+**Symmetric standards.** Ramsden is a high-tier double-blind RCT with a cleaner declared COI (NIH-funded,
+no financial conflicts) than either pole here — so it is not discounted for being contrarian. But it is one
+old trial in an institutionalized high-LA-dose population, its full randomized dataset was never recovered
+(no clean RCT-contrast on mortality), and its 5-trial MA shares the same small, dated, heterogeneous pool
+whose limits Hamley's critics also raise. Its contribution is the *mortality null on the confounder-filtered
+replacement pool*, converging with Hamley — **material grounding for joined-issue 1's recovered-data arm,
+not a like-for-like recomputation of Hooper's RR 0.83.**
+[inferred from @ramsden2016; @hamley2017; @hooper2020]
+
+**The Sydney companion (Ramsden 2013) adds the SECONDARY-prevention recovered arm — and it points the
+same way on THIS page's question.** SDHS is the second recovered Ramsden trial (single-blind RCT, 458
+post-MI men, safflower-oil n-6-selective LA replacing SFA). Its headline is a *randomized adverse*
+mortality signal in the LA arm (all-cause HR 1.62, CVD 1.70, CHD 1.74, all borderline) — but for the
+SFA question specifically the mediation analysis found «the reduction in SFA was not significantly
+related to any mortality outcome» (the LA *rise*, not the SFA *fall*, tracked death).
+[@ramsden2013, Association of change in PUFA and saturated fat with mortality]
+So SDHS is a **replacement-trial** result on the LA side, not evidence that cutting SFA helped or
+harmed. On scope it matches MCE: a **mortality** signal (not the combined-events RR 0.83), and it
+pools to **non-significance** in Ramsden's own updated MA (LA-selective CHD mortality 1.33, 0.99-1.79,
+P=0.06). Its trans-fat direction is consistent with the MCE rebuttal — the intervention **removed**
+common margarines/shortenings, so «Restriction ... in the intervention group would be expected to
+substantially reduce consumption of trans fatty acids compared with the control group»
+[@ramsden2013, Other dietary considerations] — again biasing
+*against* a spurious benefit, not manufacturing the adverse signal. **Net for joined-issue 1:** SDHS
+reinforces MCE's recovered-data arm (no benefit from replacing SFA with n-6-selective LA on hard
+mortality) and adds a secondary-prevention/high-dose stratum where the isolated n-6 sign is adverse —
+but it is one small single-blind trial, still does not reach RR 0.83, and is already inside Hooper's
+pool. Full appraisal on [[Linoleic Acid and Cardiovascular Disease]] (*The Sydney secondary-prevention
+arm*). NOT independent-E of MCE — same Ramsden recovered-RCT program (Sydney's MA contains the Minnesota
+Survey).
+[inferred from @ramsden2013; @ramsden2016]
+
 ## The hidden insight
 
 **The clash is packaged as *is saturated fat bad for the heart?* and that is not the load-bearing
@@ -272,9 +344,15 @@ with a mechanism — not a symmetric stalemate.
   AWAITS.** Hamley demonstrates the confounding-sensitivity on the replacement-specific pool, but it is a
   single-author `moderate`-tier reanalysis with a post-hoc adequacy filter — it does **not** meet the
   class-5 bar (a source appraised as rigorously as the guidance, bearing on Hooper's *own* pooled
-  estimate). So the AWAITS stands: the Ramsden Minnesota Coronary Experiment reanalysis (the recovered-RCT-harm arm), and an
-  **independent institutional re-appraisal** running an adequacy/confounding filter over Hooper's
-  *broader* SFA-reduction pool (RR 0.83), would adjudicate joined-issue 1 properly.
+  estimate). The Ramsden MCE reanalysis is now held (see *Ramsden MCE 2016 grounds the recovered-data
+  arm* above) — a second confounder-filter route converging with Hamley on the mortality null, but it too
+  reaches only the *mortality* estimate (Hooper already-null there), **not** the combined-events RR 0.83.
+  So the AWAITS narrows: what still stands is an **independent institutional re-appraisal** running an
+  adequacy/confounding filter over Hooper's *broader* SFA-reduction **combined-events** pool (RR 0.83) —
+  that would adjudicate joined-issue 1 properly. The Sydney Diet-Heart companion (secondary prevention)
+  is now **ingested** (*The Sydney companion adds the SECONDARY-prevention recovered arm* above): it
+  reinforces the recovered-data mortality arm but, like MCE, does not reach RR 0.83 and is not an
+  independent route — so the institutional-re-appraisal AWAITS still stands.
 - **AWAITS** a trial or MR design that separates a PUFA benefit from an SFA harm at matched replacement
   — that would adjudicate joined-issue 2. Until then the attribution stays open, and *replace SFA with
   PUFA/whole foods* is the move robust across both causal models.
@@ -334,5 +412,21 @@ with a mechanism — not a symmetric stalemate.
 - **Symmetric standards, evenhanded.** Hamley's post-hoc adequacy filter (author-conceded), 5-trial
   subset and null!=no-effect are flagged; its cleaner declared COI (no funding, none declared) is noted
   without privileging. «strong grounding» softened to «material grounding».
+
+## Self-critique `[Ramsden MCE weave, run 2026-08-04, before commit]`
+
+- **F-refinement, no new tension.** Ramsden grounds the *existing* joined-issue 1 (recovered-data arm),
+  converging with Hamley by a second confounder-filter route; folded in, not minted as a duplicate clash.
+- **Same-quantity discipline held.** The parameter table marks Ramsden's MA as **mortality** (CHD/
+  all-cause), NOT the combined-events RR 0.83; the prose does not slip into «Ramsden refutes 0.83» — it
+  reinforces the mortality *agreement* already banked, and leaves the events estimate untouched.
+- **Convergence marked NOT-E.** Ramsden and Hamley are shared-evidence-base RCT-MAs (overlapping
+  diet-heart trials; MCE sits inside both Hooper's and Hamley's pools), so `[E-independent]` withheld.
+- **Counter-passage / the trans-fat direction read carefully.** Ramsden's trans-fat *rebuttal* (trans fat
+  in control, not intervention -> biases toward benefit, cannot make a null) is represented as a genuine
+  friction against Astrup's use of the confound, and explicitly **recorded not scored** (adjudication is
+  out of ingest scope).
+- **Symmetric standards.** Ramsden's cleaner COI is noted without privileging the contrarian pole; its
+  one-old-trial / never-recovered-full-dataset / high-dose-institutionalized limits are stated.
 
 ## References

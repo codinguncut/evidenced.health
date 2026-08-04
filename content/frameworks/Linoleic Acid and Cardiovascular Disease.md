@@ -2,8 +2,8 @@
 type: framework
 question: Do dietary omega-6 linoleic acid (the main fat in bottled seed oils) and its metabolite arachidonic acid raise or lower cardiovascular risk?
 aliases: [Seed Oils, Seed Oil, Vegetable Oils, Omega-6, Omega-6 Fatty Acids, n-6 PUFA, Linoleic Acid, LA, Arachidonic Acid, AA, Omega-6 and Cardiovascular Disease]
-authors: [Marklund, Matti; Lemaitre, Rozenn N; Mozaffarian, Dariush; Riserus, Ulf; Hooper, Lee; Al-Khudairy, Lena; Abdelhamid, Asmaa S; Li, Jun; Guasch-Ferre, Marta; Li, Yanping; Hu, Frank B; Johnson, Guy H; Fritsche, Kevin; Hamley, Steven]
-sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Hamley - Saturated Fat PUFA Coronary 2017]
+authors: [Marklund, Matti; Lemaitre, Rozenn N; Mozaffarian, Dariush; Riserus, Ulf; Hooper, Lee; Al-Khudairy, Lena; Abdelhamid, Asmaa S; Li, Jun; Guasch-Ferre, Marta; Li, Yanping; Hu, Frank B; Johnson, Guy H; Fritsche, Kevin; Hamley, Steven; Ramsden, Christopher E; Zamora, Daisy; Broste, Steven K]
+sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
 cluster: dietary-fat
 confidence: low
 relationships:
@@ -33,8 +33,15 @@ inflammation-mechanism test** (Johnson 2012 — RCT SR: feeding LA does not rais
 refuting the harm pathway on its own endpoint — see *The inflammation surrogate, tested directly*).
 None shows the predicted harm;
 the observational and RCT arms disagree on the *strength* of benefit, which is a design-difference
-refinement, not a filed tension (see *The RCT arm*). The recovered-RCT contrarian pole (Ramsden's Minnesota/Sydney reanalyses) is still not
-directly ingested — but Hooper already pools those trials to a null (see below). A facet of the
+refinement, not a filed tension (see *The RCT arm*). The **recovered-RCT contrarian pole is now held on BOTH its trials**
+(Ramsden's Minnesota Coronary Experiment reanalysis — randomized mortality **null**; and the Sydney
+Diet-Heart companion — randomized mortality **adverse** in a secondary-prevention stratum; see *The
+recovered-RCT contrarian pole* and *The Sydney secondary-prevention arm*). Neither delivers a
+general-population harm finding: MCE is null, and Sydney's harm — though genuinely randomized and
+stronger than MCE's — is one small single-blind high-dose n-6-selective trial that pools to
+non-significance and is already absorbed into the benefit-netting Hooper/Li pools. What Sydney *does*
+add is a **secondary-prevention / high-dose n-6-selective stratum flag** (possible harm, insufficient
+evidence) and the **n-6-selective-vs-mixed-PUFA distinction**. A facet of the
 `dietary-fat` cluster, linking up to [[Saturated Fat Intake and Replacement]] (LA is *the* PUFA in the
 SFA->PUFA replacement question).
 
@@ -272,6 +279,190 @@ excluded, COI toward the finding recorded (California Walnut Commission); the be
 0.87-0.91), not oversold, and the mortality benefit is flagged observational-only. *Counter-passage:*
 Li's Discussion (RCT limits, dietary-vs-biomarker strengths/limits, guideline spread) read end-to-end.
 
+## The recovered-RCT contrarian pole, now held — Ramsden MCE 2016 `[2026-08-04]`
+
+The is now cashed. The **Minnesota Coronary
+Experiment** (MCE, 1968-73) is the recovered-data pole Marklund pre-empted: a **double-blind, parallel
+RCT** (n=9570; the *largest* diet-heart trial, the only one in large cohorts of women and >=65s, the
+only one with autopsy endpoints), in which corn-oil LA (**13.2%E**, \~2x the average US diet) replaced
+SFA. It is the cleanest available test of the diet-heart *surrogate* logic — and it comes apart at the
+surrogate->outcome step: [@ramsden2016, Design; Study design and participants]
+
+- **The surrogate moved, hard:** serum cholesterol **-13.8% (SD 13.0)** intervention vs **-1.0%** control
+  (P<0.001), in every prespecified subgroup, as the Keys equation predicted.
+- **The outcome did not:** «Kaplan Meier graphs showed no mortality benefit for the intervention group in
+  the full randomized cohort or for any prespecified subgroup.» The updated 5-trial meta-analysis (MCE +
+  SDHS + RCOT + LA-Vet + MRC-Soy, n=10 808) found «no evidence of benefit on mortality from coronary heart
+  disease (1.13, 0.83 to 1.54) or all cause mortality (1.07, 0.90 to 1.27).»
+  [@ramsden2016, Results; Fig 7]
+- **Two harm-suggestive signals, both weaker than the headline** (see the symmetric-standards read
+  below): a within-trial **cholesterol-change -> death** association (per 30 mg/dL drop, HR **1.22
+  (1.14-1.32)**, >=65-driven), and a **provisional autopsy** finding — intervention 41% (31/76) vs control
+  22% (16/73) with >=1 MI, **IRR 1.90 (1.01-3.72)**, no less atherosclerosis (149/295 files).
+  [@ramsden2016, Table 4; Provisional autopsy findings]
+
+**Attempt the contradiction — is this the seed-oil HARM the page's harm thesis wanted? Parameter table
+first (same-quantity discipline).** Marklund's biomarker benefit vs Ramsden's recovered RCT:
+
+| Parameter | Marklund (biomarker cohort) | Ramsden MCE (recovered RCT) | Same quantity? |
+|---|---|---|---|
+| Exposure | *in vivo* LA **status** (biomarker %), habitual | corn-oil LA **13.2%E** replacing SFA, high-dose intervention | **NO — status vs high-dose intervention** |
+| Population | 68 659 general-population adults, 13 countries | institutionalized psychiatric/nursing-home; mean age 52, 25% >=65 | **NO — general vs institutionalized elderly** |
+| Design / horizon | 30 prospective cohorts, medians 2.5-31.9 y | 1 RCT, mean 2.9 y in-hospital | **NO — observational decades vs short RCT** |
+| Outcome tested | CVD mortality HR **0.78 (0.70-0.85)** | all-cause mortality: **no benefit** (randomized); CHD-mortality MA **1.13 (0.83-1.54)** | **NO — CVD-mortality biomarker-contrast vs all-cause randomised-null** |
+
+**Same-quantity? = NO on every row — so the loud «biomarker benefit vs recovered-RCT harm» clash the page
+anticipated does NOT hold as a joined tension** (not-joined check (ii): different exposure construct,
+population, design and outcome, consistent once matched). The honest reading, even-handed:
+
+- **The randomized mortality contrast is NULL, not harm — and consistent with Hooper.** The clean
+  randomized MCE outcome (all-cause mortality, full cohort) shows *no benefit*, and Ramsden's 5-trial MA
+  (1.13 / 1.07, both spanning 1) is the same little-or-no-effect Hooper's 19-RCT Cochrane pool reaches.
+  Hooper **already** pools MCE and Ramsden's nulls (see *Two RCT-side refinements* above: «these results
+  have not altered substantially in their most recent update ... (Ramsden 2016)»). So the recovered data
+  do **not** establish a suppressed harm on hard randomized outcomes — they *confirm the RCT-side null*,
+  the same design-divergence-from-observational already filed as an **F-refinement**.
+- **The harm-suggestive signals do not survive symmetric standards as *harm*.** (a) The cholesterol-death
+  HR 1.22 is, by Ramsden's own concession, «observational in nature» — a within-trial cholesterol-change
+  association, >=65-driven, and exactly the frailty/reverse-causation shape [[The U-Shaped Association Artifact]]
+  warns of (low cholesterol marks the frail/dying); Ramsden's frailty adjustment is crude (weight/BP
+  change) and cannot fully remove it. (b) The autopsy MI IRR 1.90 *is* a randomized between-group contrast
+  and the strongest harm hint, but it rests on **half** the autopsy files (149/295) and Ramsden calls it
+  provisional. Neither is a demonstrated hard-outcome harm.
+- **A real intra-field friction, recorded (not adjudicated in an ingest).** Marklund/Hooper dismiss the
+  old corn-oil trials as trans-fat-confounded; **Ramsden argues the opposite for MCE** — the trans-fat-rich
+  margarines were in the *control/baseline* diets, «(but not the intervention diet). Thus, confounding by
+  dietary trans fat is an exceedingly unlikely explanation for the lack of benefit of the intervention
+  diet.» So the standard pro-LA rebuttal to MCE (trans-fat confound) is itself contested by MCE's own
+  reanalysts -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]] (joined-issue 1, where this
+  is filed). [@ramsden2016, Strengths and limitations]
+
+**Symmetric standards — Ramsden gets the same bar, both directions.** *For it:* NIH-funded, **no
+financial conflicts** — a cleaner COI than this page's Unilever-supported biomarker pole, so it is **not**
+discounted for being contrarian; it is a real double-blind RCT with objective (all-meals-provided)
+exposure. *Against it:* one trial, 1968-73, a very high LA dose in an institutionalized psychiatric/elderly
+population (generalizes poorly, and Ramsden says explicitly the results «should not be generalized to nuts
+or other unprocessed foods»), the full randomized dataset was **never recovered** (so no clean RCT-contrast
+on mortality), heavy censoring, and the harm arms are observational/provisional. Its net contribution here
+is **not a harm finding**: it firms the *RCT-side null* (LA replacement lowers cholesterol/LDL but has not
+been shown to reduce hard outcomes) and supplies the archetypal **surrogate->outcome disconnect**
+-> [[Surrogate Outcomes]]. No `[[tension]]` filed — the contradiction was attempted and did not hold as a
+clean benefit-vs-harm clash.
+[inferred from @ramsden2016; @marklund2019; @hooper2018]
+
+**Self-critique (Ramsden MCE weave) `[run 2026-08-04, before commit]`.** *Not-joined / attempt-
+contradiction:* the parameter table was built before prose, «same quantity?» = NO on all four rows, so the
+anticipated benefit-vs-harm tension is NOT filed — the RCT arm is null-consistent-with-Hooper, an existing
+F-refinement, not a new clash. *Overclaim / symmetric standards:* the two harm-suggestive signals are
+stated at their true weight (cholesterol-death = observational/frailty, author-conceded; autopsy =
+provisional, half files), not read as demonstrated harm; the randomized null is the load-bearing outcome.
+*Laundered-E:* Ramsden shares the diet-heart RCT pool with Hooper (MCE is *in* Hooper), so explicitly
+NOT independent-E of anything — marked shared-evidence. *Counter-passage:* Ramsden's own trans-fat
+*rebuttal* (against the pro-LA dismissal) and his observational-in-nature concession both read end-to-end
+and represented, so neither side is straw-manned.
+
+## The Sydney secondary-prevention arm — the harm signal that does NOT fold the way Minnesota did `[2026-08-04]`
+
+The is now cashed. The **Sydney Diet Heart Study** (SDHS)
+is the second recovered-data Ramsden trial: a **single-blind, parallel-group RCT** (1966-73), **458 men
+aged 30-59 with a recent coronary event** (86% acute MI) — i.e. **secondary prevention** in established
+CHD. The intervention (n=221) replaced SFA with **safflower-oil LA + safflower PUFA margarine**: a
+**concentrated, n-6-SELECTIVE** exposure (\~74.6 g LA/100 g, **no n-3**), raising LA to \~15% E. Median
+follow-up 39 months. Unlike Minnesota, the harm signal here is the **randomized ITT primary outcome
+itself**, not an observational sub-analysis:
+
+- **Serum total cholesterol fell MORE in the LA arm (-13.3% v -5.5%, P<0.001)** — the Keys-predicted
+  surrogate move — yet the LA arm **died more**, three concordant borderline-significant endpoints:
+  all-cause 17.6% v 11.8%, **HR 1.62 (1.00-2.64) P=0.051**; CVD 17.2% v 11.0%, **1.70 (1.03-2.80)
+  P=0.037**; CHD 16.3% v 10.1%, **1.74 (1.04-2.92) P=0.036**.
+  [@ramsden2013, Cumulative death rates; Table 4]
+- **Within-intervention dose-response points to LA specifically:** «an increase of 5% of food energy from
+  n-6 LA predicted 35% and 29% higher risk of cardiovascular death and all cause mortality» while «the
+  reduction in SFA was not significantly related to any mortality outcome» — the LA rise, not the SFA
+  fall, tracked death. And the cholesterol drop: «these reductions were not associated with mortality
+  outcomes» — a **surrogate->outcome disconnect** even cleaner than Minnesota's (adverse, not merely
+  null) -> [[Surrogate Outcomes]].
+  [@ramsden2013, Association of change in PUFA and saturated fat with mortality; Reconciling results ... traditional diet-heart hypothesis]
+
+**Attempt the contradiction — is this the secondary-prevention HARM the harm thesis wanted? Same-quantity
+table first, against the pro-LA nucleus AND against Minnesota.**
+
+| Parameter | Sydney (Ramsden 2013) | Nucleus benefit (Marklund / Li) | Minnesota (Ramsden 2016) | Same quantity? |
+|---|---|---|---|---|
+| Population | secondary-prevention post-MI men 30-59 | general-population adults | institutionalized psychiatric/elderly | **NO** — post-MI vs general |
+| Exposure | high-dose (15%E) n-6-**selective** LA, no n-3 | LA biomarker status / dietary LA | corn-oil LA 13.2%E replacing SFA | **NO** — selective high-dose intervention vs status |
+| Design / blinding | **single-blind** RCT, n=458, 63 deaths | 30-cohort IPD / 38-study SR | **double-blind** RCT, n=9570 | Sydney weaker blinding, MCE larger |
+| Randomized mortality | **adverse** (HR 1.62-1.74, borderline) | benefit (obs) | **null** (5-trial MA 1.07-1.13) | opposed — but obs vs RCT NOT same quantity |
+
+**Verdict: NO tension filed against the nucleus — but the signal is REAL and stronger than Minnesota's,
+so it lands as a stratum flag, not a dismissal.** The even-handed read:
+
+- **FOR a real signal (why it does NOT fold like Minnesota):** the harm sits in the **randomized ITT
+  primary outcome**, not an observational sub-analysis (Minnesota's randomized mortality was null; its
+  harm was an observational cholesterol-death HR and a half-file autopsy count). Three concordant
+  endpoints, a within-arm dose-response, and the trans-fat confound runs the *wrong way* to explain it:
+  the intervention **removed** common margarines/shortenings (major TFA sources), so «Restriction ... in
+  the intervention group would be expected to substantially reduce consumption of trans fatty acids
+  compared with the control group», and MUFA-adjusted sensitivity «did not noticeably alter» the LA-death
+  relation. [@ramsden2013, Other dietary considerations] So the
+  naive intervention-margarine-TFA-manufactures-harm hypothesis does **not** survive the paper's own
+  evidence (caveat: Ramsden is the interested party, MUFA is an imperfect TFA proxy, TFA was never
+  measured).
+- **AGAINST it being a general LA-harm finding (symmetric standards):** one small (n=458, 63 deaths),
+  single-blind, old trial at an **extreme** LA dose Ramsden himself will not generalize — «adverse
+  effects of increasing n-6 LA from 6% of food energy to 15% ... are not necessarily generalizable to
+  lower LA intakes ... [or] populations without established coronary heart disease.»
+  [@ramsden2013, Limitations and strengths of the SDHS] The
+  all-cause CI touches 1.00; the intervention also cut MUFA and cholesterol. **Ramsden's OWN updated MA
+  pools it to non-significance:** LA-selective trials CHD mortality **1.33 (0.99-1.79) P=0.06**, CVD
+  **1.27 (0.98-1.65) P=0.07** — trends, not effects. Only the secondary-prevention subset reaches
+  significance («1.84 (1.11 to 3.04); P=0.02»), and it is **dominated by Sydney itself**.
+  [@ramsden2013, Comparison with other RCTs and updated meta-analysis]
+- **Not-joined against the nucleus (ii + F-absorption).** Sydney answers a *different* question
+  (secondary-prevention, high-dose, n-6-selective) than Marklund/Li (general-population status/intake),
+  so not-joined check (ii) fires — different population and intervention, a **distinction not a clash**.
+  And decisively: **Hooper 2018 and Li 2020 already POOL Sydney** (Li explicitly lists it as a divergent
+  adverse trial) and still net to null/benefit — so at the meta-analytic level Sydney is a *component*
+  of the benefit-netting pools, not a contradictor of them (**F-absorption**). No `[[tension]]`.
+- **The beyond-summary move — the n-6-selective vs mixed-PUFA distinction (type B/A).** Ramsden's MA
+  identifies **PUFA composition** as «a major source of heterogeneity for all mortality outcomes»:
+  n-6-**selective** trials (SDHS, Rose corn-oil, Minnesota Survey) trend **adverse**, while the four
+  trials that raised **n-3 alongside n-6** show **reduced CV mortality (0.79 (0.63-0.99) P=0.04)**. So
+  «benefits previously attributed to greater intake of total PUFA might be specifically attributable to
+  n-3 PUFAs.» This refines the whole LA question: much of the "PUFA benefit" evidence base mixes n-3,
+  and the *isolated* n-6 signal (in these old high-dose secondary-prevention trials) is at best null,
+  at worst adverse. [@ramsden2013, Comparison with other RCTs and updated meta-analysis]
+
+**The decision-relevant residue — a route-(b/c) stratum flag, INSUFFICIENT evidence, possible harm.**
+For a **post-MI patient** weighing a **high-dose, n-6-selective** SFA->LA replacement (safflower/sunflower
+as the near-sole fat, no n-3), the isolated evidence cell is small and its sign is adverse (Sydney's
+randomized harm + the 1.84 secondary-prevention pooled subset + the OXLAM oxidative-stress mechanism,
+which was strongest in Sydney's smokers/drinkers). This is **not** established harm and **not** the
+general-population LA question (where the nucleus holds not-harmful + lipid benefit). It is a genuine
+*insufficient-evidence, possible-harm* stratum the population-level benefit sources do not isolate — the
+honest four-state reading, weighted by the person's stratum at layer 3.
+[inferred from @ramsden2013; @ramsden2016; @hooper2018; @li2020]
+
+**Type-E guard — Sydney is NOT independent corroboration of Minnesota.** Both are Ramsden recovered-RCT
+reanalyses (same author, same method program); Sydney's updated MA literally **contains** the Minnesota
+Coronary Survey; both feed the diet-heart RCT pool Hooper/Li already meta-analyse. So "two recovered
+contrarian trials" is **one program, not two independent backings** — `[E-independent]` explicitly NOT
+claimed. The two are complementary in *design position* (MCE double-blind large/null; Sydney
+single-blind small/adverse), which is informative, but not independent evidence.
+
+**Self-critique (Ramsden Sydney weave) `[run 2026-08-04, before commit]`.** *Not-joined / attempt-
+contradiction:* parameter table built before prose, «same quantity?» = NO on population + exposure vs the
+nucleus, and Hooper/Li already pool Sydney to null/benefit (F-absorption) — so no tension filed, matching
+the Minnesota precedent. *Symmetric standards:* the harm signal is graded as genuinely stronger than
+Minnesota's (randomized ITT vs observational) AND bounded (small, single-blind, extreme dose, pools to
+non-significance in Ramsden's own MA) — not privileged for being contrarian nor dismissed for it; the
+trans-fat confound is examined in the direction the evidence actually runs, with the interested-author
+caveat kept. *Overclaim:* the residue is stated as *insufficient evidence / possible harm in a narrow
+stratum*, explicitly not general-population harm and not established. *Laundered-E:* Sydney↔Minnesota
+non-independence stated outright (shared author/method, MA-containment). *Counter-passage:* Ramsden's own
+generalizability limits, non-significant pooled MA, and trans-fat sensitivity all read end-to-end and
+represented against his headline.
+
 ## The biomarker design sidesteps the binding constraint — but only because LA is essential
 
 The core methodological move: LA status is measured biochemically, not from an FFQ. Marklund's
@@ -487,9 +678,13 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
 
 ## Limits
 
-- **Four sources now held (observational biomarker + RCT + mortality SR+MA + inflammation RCT SR),
-  confidence stays `low`.** Marklund (gold IPD cohort pool) + Hooper 2018 (gold Cochrane RCT MA) + Li 2020
-  (high SR+MA, dietary + biomarker mortality) + Johnson 2012 (high RCT SR, inflammation markers). Johnson
+- **Five sources now held (observational biomarker + RCT MA + mortality SR+MA + inflammation RCT SR +
+  recovered RCT), confidence stays `low`.** Marklund (gold IPD cohort pool) + Hooper 2018 (gold Cochrane
+  RCT MA) + Li 2020 (high SR+MA, dietary + biomarker mortality) + Johnson 2012 (high RCT SR, inflammation
+  markers) + Ramsden 2016 (high recovered RCT + MA). Ramsden firms the **RCT-side null** on hard outcomes
+  (LA replacement lowers cholesterol but has not been shown to reduce CHD/all-cause death) and supplies
+  the surrogate->outcome disconnect, but it does not establish harm and does not move the confidence
+  (which is about the CVD/mortality *benefit*). Johnson
   **firms the harm-refutation to RCT level on the mechanism's own endpoint** (feeding LA does not raise
   inflammatory markers) — but that is a *surrogate* null rebutting the harm pathway, **not** support for
   the benefit claim, so it does not move the page's confidence, which is about the CVD/mortality *benefit*.
@@ -508,14 +703,25 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
   resists sponsor steering), but it is exactly the halo-across-axes signal to keep visible, and a reason
   the contrarian pole must get the *same* appraisal bar when it lands.
   [@marklund2019, Sources of Funding; Disclosures]
-- **The contrarian pole is not yet held — no tension filed.** The staged Ramsden reanalyses (Minnesota
-  Coronary Experiment, Sydney Diet-Heart) recovered RCT data suggesting LA-rich oil *raised* mortality;
-  Marklund itself pre-empts them, arguing those 1960s-70s corn-oil trials are *«hampered by their short
-  duration, small numbers of events, substantial dropout, and confounding by industrial trans fats.»*
-  [@marklund2019, Background] The joined issue
-  (biomarker-cohort benefit vs recovered-RCT harm) will be filed as a `[[tension]]` once the Ramsden
-  reanalyses are ingested — (recovered
-  Minnesota Coronary Experiment RCT data; the Sydney Diet-Heart companion is not yet registered).
+- **The contrarian pole is now HELD (Ramsden MCE 2016) — and no tension was filed, because the
+  contradiction did not hold.** Marklund pre-empted the recovered corn-oil trials as *«hampered by their
+  short duration, small numbers of events, substantial dropout, and confounding by industrial trans
+  fats.»* [@marklund2019, Background] With
+  Ramsden 2016 now ingested (*The recovered-RCT contrarian pole* above), the anticipated
+  biomarker-benefit-vs-recovered-RCT-**harm** tension **fails the same-quantity check**: MCE's randomized
+  mortality contrast is a **null** (5-trial MA: CHD-mortality 1.13, all-cause 1.07 — the same
+  little-or-no-effect as Hooper's pool, which already contains MCE), not a harm. The harm-suggestive
+  signals are observational (cholesterol-death HR 1.22, frailty-shaped) or provisional (autopsy IRR 1.90,
+  half files). Note Ramsden also *rebuts* Marklund's own trans-fat-confound dismissal for MCE specifically
+  (trans fat was in the control, not the intervention). So the recovered-RCT pole firms the **RCT-side
+  null**, not harm.
+  - ~~~~ **CASHED 2026-08-04** — woven above (*The Sydney
+    secondary-prevention arm*). The check resolved: its harm signal is **genuinely stronger** than MCE's
+    (randomized ITT primary outcome, not observational), so it does NOT fold the way Minnesota did — but
+    it is one small single-blind high-dose n-6-selective trial that pools to non-significance (Ramsden's
+    own MA) and is already absorbed into Hooper/Li's benefit-netting pools. Lands as a
+    secondary-prevention / n-6-selective **stratum flag** (insufficient evidence, possible harm) + the
+    n-6-selective-vs-mixed-PUFA distinction. NOT independent-E of MCE (same Ramsden program). No tension.
 - **AWAITS — the cluster this opener anchors:**
   - ~~~~ **CASHED 2026-08-04** — the RCT arm
     is now woven above (*The RCT arm — Hooper 2018 Cochrane*); it tempered rather than upgraded the
@@ -533,7 +739,11 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
     in its adequately-controlled subset; converges with Hooper 2018's omega-6 hard-events null, clashes
     with the SFA-replacement subgroup (0.73/0.71) on trial-adequacy. Grounds joined-issue 1 on
     [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
-  - The recovered-RCT-harm arm (Ramsden Minnesota/Sydney reanalyses) is still not ingested — remains the open contrarian pole for a
-    *harm* signal (Hamley found none).
+  - The recovered-RCT-harm arm (Ramsden Minnesota **and** Sydney reanalyses) is now **fully ingested**
+    (both woven above). Net: MCE randomized-null; Sydney randomized-adverse but small/single-blind/
+    high-dose/n-6-selective and pooled to non-significance. No general-population harm signal survived
+    (Hamley found none either); the surviving contrarian residue is a secondary-prevention /
+    n-6-selective **stratum flag**, not a harm finding. The open lever now is Mendelian-randomisation
+    (the design that would move the observational benefit to causal), not another recovered trial.
 
 ## References

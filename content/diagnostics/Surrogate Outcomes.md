@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -548,5 +548,67 @@ diet increases the concentration of inflammatory markers»*
 **Generality for the rule:** a surrogate is a two-edged proxy — its evidentiary weakness is invariant to
 whether it is wielded to *establish* an effect or to *rebut* one. Filing a marker-null as a
 mechanism-rebuttal (not an outcome verdict) is the surrogate discipline applied in the negative.
+
+## The archetypal DISCONNECT — the surrogate moved, the outcome did not (Ramsden MCE) `[2026-08-04]`
+
+The prior cases argue a surrogate *up* or *down*, or catch one *inverting*. Ramsden's recovered
+**Minnesota Coronary Experiment** is the cleanest *disconnect* the corpus holds, and it is unusually
+strong because it is a **double-blind RCT**, not an observational comparison. Replacing saturated fat with
+corn-oil linoleic acid **lowered serum cholesterol -13.8% vs -1.0% control (P<0.001)** — a large, dose-
+related move in the intended direction — yet «Kaplan Meier graphs showed no mortality benefit for the
+intervention group in the full randomized cohort or for any prespecified subgroup», and the 5-trial
+meta-analysis found «no evidence of benefit on mortality from coronary heart disease (1.13, 0.83 to 1.54)
+or all cause mortality (1.07, 0.90 to 1.27).»
+[@ramsden2016, Results; Fig 7] Ramsden's summary:
+LA replacement «effectively lowers serum cholesterol but does not support the hypothesis that this
+translates to a lower risk of death.» [@ramsden2016, Conclusions]
+
+**Two grades of disconnect, kept distinct (symmetric standards).**
+
+- **The clean, randomized disconnect: the surrogate moved and the randomized outcome did not.** The
+  intervention-vs-control mortality contrast is a *null* — cholesterol fell, death did not. This is the
+  textbook surrogate failure: the marker responded exactly as the theory required, and the endpoint it
+  was standing in for did not follow. It requires no causal claim about *harm* — only that the surrogate
+  did not transmit.
+- **The stronger «patients did worse» claim is real but weaker-graded.** Ramsden also reports that
+  *greater* cholesterol reduction tracked *higher* death (HR 1.22 per 30 mg/dL) and more autopsy MI (IRR
+  1.90) — but he concedes the cholesterol-death arm is «observational in nature», it is >=65-driven and
+  frailty-shaped (low cholesterol marks the frail/dying -> [[The U-Shaped Association Artifact]]), and the
+  autopsy signal rests on half the files. So the corpus banks the **disconnect** as demonstrated and holds
+  the **worse-outcome** overlay as suggestive, not proven.
+
+**Why this is the load-bearing counter to the validated-surrogate exemplar.** The LDL/apoB case above is a
+surrogate whose transmission *is* evidenced — but only under Ference's proviso: *provided the LDL-C drop
+is concordant with the particle-number drop and there are no competing off-target effects*
+-> [[LDL ApoB and Cumulative Exposure]]. MCE is the worked instance of **why that proviso is not
+boilerplate**: the same surrogate (serum cholesterol) lowered by a *different agent* (diet LA rather than
+a statin) did **not** reduce events, and Ramsden's proposed reason is exactly an off-target escape hatch —
+«a decrease in low density lipoprotein can represent widely different biochemical phenomena», so «some
+agents that decrease low density lipoprotein have been shown to reduce the risk of coronary heart disease,
+while others have no clear effect, and still others might actually increase risk.»
+[@ramsden2016, Why didn't lowering serum cholesterol translate to clinical improvement?]
+**The decision-relevant generalisation: a surrogate validated for one *route* of movement is not
+validated for every route** — validate the marker->outcome transmission *for the agent you are actually
+using*, not for the marker in the abstract. This is the same discipline ESC's «irrespective of the drug»
+invariance argument tries to establish for LDL-lowering *drugs*; MCE shows it can fail for a *dietary* LDL
+change.
+[inferred from @ramsden2016]
+
+**Sydney Diet Heart (Ramsden 2013) is the same disconnect, one grade sharper — the outcome moved the
+WRONG way, randomized.** MCE's randomized outcome was a *null*; the companion SDHS (single-blind RCT,
+458 post-MI men, n-6-selective safflower-oil LA) had the surrogate fall MORE in the LA arm (**total
+cholesterol -13.3% v -5.5%, P<0.001**) yet the **randomized ITT mortality go up**: all-cause HR 1.62
+(1.00-2.64), CVD 1.70, CHD 1.74 — and those cholesterol «reductions were not associated with
+mortality outcomes».
+[@ramsden2013, Cumulative death rates; Reconciling results]
+So SDHS is not just a marker that failed to
+transmit (MCE) but a marker that moved the "right" way while the endpoint moved the *opposite* way — a
+sharper grade of surrogate invalidation than MCE's null (an adverse divergence, not merely an absent
+benefit). **The same discipline it teaches, and the same caveat:** the disconnect (surrogate-vs-outcome divergence) is demonstrated, but reading it as
+*LA-causes-death* is over-reading a small single-blind high-dose secondary-prevention trial that pools to
+non-significance -> [[Linoleic Acid and Cardiovascular Disease]] (*The Sydney secondary-prevention arm*).
+The surrogate lesson survives the appraisal even where the harm claim does not: a dietary agent lowering
+cholesterol is **not** thereby shown to lower death.
+[inferred from @ramsden2013]
 
 ## References

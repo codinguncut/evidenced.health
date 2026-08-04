@@ -8,7 +8,7 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Sources of Non-Replicability
@@ -22,6 +22,7 @@ consequences. NASEM's 2019 consensus report fixed definitions to separate them, 
 fields "define and use the terms ... in different and sometimes contradictory ways." This is a
 type-B disambiguation: the terms are not interchangeable, and confusing them is how a weak
 reassurance gets read as a strong one.
+[@nasem2019]
 
 ## The three objects (NASEM's definitions)
 
@@ -83,10 +84,10 @@ The two mappings are in active opposition, so the *word* does not fix the *objec
 
 **So when a paper claims a result "reproduces," ask which object is meant before crediting it** — the
 same-data recompute (cheap, certifies little about truth) or the new-data redo (expensive, the one
-that bears on whether the effect is real). — the decision rule is the wiki's, entailed
-by the definitions above.
+that bears on whether the effect is real).
 
-## Decision relevance — the wiki's own decision-synthesis of the definitions above.
+## Decision relevance
+
 
 - **Three questions, not one.** *Did the numbers recompute?* (reproducibility) is separate from *does
   a fresh study find it again?* (replicability) is separate from *does it hold here?*

@@ -23,6 +23,9 @@ self_critiqued: 2026-08-01
 does *when* you eat — the clock position of the eating window — change weight or cardiometabolic health
 **independent of what and how much you eat**? Two RCTs answer it with opposite designs, and read
 together they **decompose** the popular claim rather than settling it as a single number.
+
+
+
 ## The bottom line, up front
 
 - **The weight-loss rationale for TRE is weak — and this is now RCT-evidenced, not inferred.** The
@@ -45,6 +48,9 @@ together they **decompose** the popular claim rather than settling it as a singl
   does nothing / eTRF says it does everything* tension dissolves once the exposures are separated
   (parameter table below). The lever, where it exists, is **circadian timing**, not the *window* per
   se — and it is small, short-tested, and on surrogates only.
+
+
+
 ## The parameter table — why TREAT and eTRF are NOT the same quantity (op-weave 2a)
 
 | Parameter | TREAT (Lowe 2020) | eTRF (Sutton 2018) | Same quantity? |
@@ -113,6 +119,8 @@ quantity TREAT could not isolate. [@liu2022]
   [@liu2022]
 
 ### Why Liu is a cleaner quantity than TREAT — matched parameters (op-weave 2a)
+
+[inferred from @liu2022; @lowe2020]
 — cells are extracted per source; the *same quantity?* judgment is the wiki's.
 
 | Parameter | TREAT (Lowe 2020) | Liu 2022 | Same quantity? |
@@ -174,6 +182,9 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 - **Ranks LOW as a lever.** Meal timing is heavily discussed relative to a small, surrogate-only,
   weight-independent effect — the telos's *attention-is-an-anti-signal* rule applies with force
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
+
+
+
 ## Certainty and gaps
 
 - **`confidence: medium` (raised from low on Liu).** The *weak weight-loss rationale* leg is now firm — two
@@ -192,6 +203,9 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 - **Adherence caveat cuts both ways:** eTRF participants found *eating within 6h* harder than the 18h
   fast, so the efficacious protocol may be the least feasible one — an 8h+ early window is the realistic
   target.
+
+
+
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Overclaim check.** The central claim is a *decomposition*, not a discovery that *early TRE works* —

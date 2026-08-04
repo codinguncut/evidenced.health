@@ -134,7 +134,8 @@ Two opposite overclaims circulate, and both are wrong. *Fasting boosts your meta
 real but transient acute effect (a short fast raises catecholamines; resting metabolic rate is not
 immediately suppressed). *Fasting wrecks your metabolism* points at a real chronic one (a sustained
 large deficit provokes adaptive thermogenesis — measured resting metabolic rate falling somewhat below
-what body-size predicts). Neither is a decisive lever, and they operate on different time horizons. This channel is one reason weight regain is the norm after any aggressive deficit — the
+what body-size predicts). Neither is a decisive lever, and they operate on different time horizons
+. This channel is one reason weight regain is the norm after any aggressive deficit — the
 documented post-loss regain trajectory sits on [[Total Diet Replacement and Type 2 Diabetes Remission]],
 and it is not specific to fasting.
 
@@ -149,7 +150,7 @@ flips, and each is a **prescriber matter** — screening, dosing and management 
 
 - **On glucose-lowering medication (sulfonylureas, insulin) or with type 1 diabetes:** hypoglycaemia,
   and in type 1 diabetes ketoacidosis, are real dangers of withdrawing food while the drug keeps
-  working. This is a managed medical situation, not a self-directed experiment]]. **Gap:** a prolonged-fasting clinical
+  working. This is a managed medical situation, not a self-directed experiment. **Gap:** a prolonged-fasting clinical
   safety source is not held.
 - **Fatty liver (MASLD) / metabolic syndrome:** rapid weight loss can transiently worsen the picture —
   rapid fat mobilization loads the liver, and gallstone risk rises with fast weight loss. EASL's held

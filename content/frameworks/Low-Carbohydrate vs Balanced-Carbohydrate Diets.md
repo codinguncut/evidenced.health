@@ -17,7 +17,7 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -154,6 +154,7 @@ of the answer.
   non-ketogenic subgroup share heavily overlapping trial lists, and both collapse to I2 = 0% near null.
   The larger effects concentrate in the same ad-libitum, high-heterogeneity trials. No meta-regression
   disentangles them.
+  [inferred from @naude2022]
 
 ## What no trial measured
 
@@ -193,6 +194,9 @@ irrelevant* verdict from a network design, but is **not** independent backing �
 low-carb-vs-low-fat RCT class (e.g. Bazzano 2014, Yancy 2004) and cites the earlier Naude 2014 MA, so a
 shared missing-trial or confounding structure would move both. Ge is a corroboration line here, not a
 `sources:` entry (its distinct extraction lives on the paired page).
+
+
+[inferred from @naude2022]
 ## Where it stands relative to guidance
 
 The review's findings sit **comfortably inside prevailing guidance**, and it says what that guidance
@@ -384,6 +388,7 @@ addresses what unsystematic error does to a mean difference. **What it does is e
 confidence intervals are wide relative to the effect, and why the review's *not clinically important*
 verdict is robust** — a 1 kg difference sits inside the noise band of the measurement problem it is
 estimated through, quite apart from whether it matters to a patient.
+[inferred from @willett]
 
 **Where it bites harder: any observational weight-change finding**, and any self-reported one. Willett
 records that self-reported BMI runs low — NHANES III mean 25.07 vs 25.52 technician-measured, from
@@ -437,6 +442,7 @@ unavailable:
   to tell* predict the same 1 kg. **Separating them needs a per-arm exposure contrast**, and with 27%
   of arms reporting no fidelity at all and the rest measuring it incommensurably, **this review cannot
   supply one.**
+  [inferred from @naude2022]
 - **It strengthens rather than weakens the *not clinically important* verdict for a chooser.** If
   advice-as-delivered moves weight by \~1 kg, that is what advice does in practice, whatever the diets
   would do if followed.

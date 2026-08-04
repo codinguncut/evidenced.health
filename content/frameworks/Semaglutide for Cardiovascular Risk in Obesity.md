@@ -16,7 +16,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-28
-updated: 2026-07-28b
+updated: 2026-08-04
 self_critiqued: 2026-07-28b
 ---
 
@@ -38,7 +38,8 @@ statins, 86% on antiplatelets):
 > semaglutide vs «701 of the 8801 patients (8.0%)» on placebo — «hazard ratio, 0.80; 95% confidence
 > interval, 0.72 to 0.90; P<0.001», a reduction «by 20%» over a mean 39.8 months.
 
-Absolute risk reduction is **1.5 percentage points over \~3.3 years -> NNT \~67**. That is a real, incremental benefit **on top of** guideline therapy —
+Absolute risk reduction is **1.5 percentage points over \~3.3 years -> NNT \~67**
+[inferred from @lincoff2023]. That is a real, incremental benefit **on top of** guideline therapy —
 not instead of it.
 
 **Who was enrolled fixes what the number means:** «patients 45 years of age or older who had preexisting
@@ -193,6 +194,8 @@ caveat.
   (Sattar 2021, «0.86; 95% CI, 0.80 to 0.93») is a *different population* reaching a *similar* HR — an
   echo, not independent backing of the obesity result (and Sattar is not held here).
 
+[inferred from @lincoff2023; @wilding2021]
+
 ## Decision relevance
 
 - **Obese + established CVD + non-diabetic:** semaglutide is a strong incremental option — NNT \~67 for
@@ -204,6 +207,9 @@ caveat.
   on the **weight lever and diabetes prevention**, not on a promised CV-event reduction.
 - **Against lifestyle:** not a substitution question with a fixed answer — same lever, and the swing
   factors are adherence, cost, GI tolerability, and reversibility on stopping, all elicited at layer 3.
+
+
+[inferred from @lincoff2023; @wilding2021]
 ## Gaps this opens
 
 - **No primary-prevention CV-outcome trial** for any obesity drug — the single largest hole for applying

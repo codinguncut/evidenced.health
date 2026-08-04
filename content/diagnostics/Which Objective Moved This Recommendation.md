@@ -21,6 +21,9 @@ updated: 2026-07-31
 evidence *plus* considerations that have nothing to do with whether the exposure works. This page is
 the diagnostic for separating them — and the central finding is that on the guidance the wiki holds,
 **the separation is already published**, so this is a reading skill rather than an accusation.
+
+
+
 ## The structure — GRADE names four determinants, only one of which is evidence
 
 Certainty is *one* input to strength, alongside the balance of desirable and undesirable consequences,
@@ -85,7 +88,7 @@ Non-evidence objectives can push either way, and which way depends on the exposu
 
 A claim that multi-objective reasoning weakens guidance is therefore a **hypothesis about which master
 dominates for this exposure**, and needs the EtD table to settle. It is not a general property of
-guideline-making.
+guideline-making. [inferred from @grade; @who2023saturated]
 
 ## Status-quo anchoring — the best-evidenced non-evidence objective, and it is SYMMETRIC
 
@@ -150,6 +153,7 @@ Status-quo anchoring predicts conservatism in **both** directions, and both pres
 only the second. **This is the better-evidenced rival**: it accounts for the same observations without
 requiring bad faith, and NASEM reaches for it (*"traditional role"*) precisely where an industry
 explanation would have been available.
+[inferred from @nasem]
 
 ### The internalization claim is DIFFERENT, and the held evidence runs against it
 
@@ -185,6 +189,9 @@ contradicts. `AWAITS` a source on public nutrition beliefs before the population
 - **Separate the recommendation from the estimate when transporting it.** The effect estimate travels
   to an individual decision; the feasibility and acceptability judgements are population-scale and
   mostly do not. -> [[Framing a Decision Question]]
+
+
+
 ## The guard — this diagnostic is easy to abuse
 
 This wiki's own telos names *process defect* the most easily abused of the five reasons guidance may
@@ -208,6 +215,10 @@ cost.
   charge can point to a failed IOM standard number (unregistered protocol, single-reviewer screening,
   unreported funding) rather than resting on an opinion. Scope it to the failed standard, and check the
   deviation was not justified — both guards live on that page.
+  [inferred from @nasem2011fww]
+
+
+
 ## Limits
 
 - **One worked case, one body.** WHO SFA 2023 is the only EtD table the wiki holds in full. Whether
@@ -218,6 +229,9 @@ cost.
   page should not be read as saying non-evidence domains rarely matter.
 - GRADE's own EtD chapter is only lightly represented in the held handbook chunks; the fuller EtD
   framework literature is not held.
+
+
+
 ## A second body blends health and environment — and concedes the health effect may be null `[2026-07-28, ESC]`
 
 NNR is this page's worked case for environmental reasoning
@@ -267,6 +281,7 @@ argument, and ESC never says.
   a positive (if small) associational health signal and an LDL-C substitution benefit, either of which
   could carry *«lower consumption»* on its own. **The counterfactual is unavailable**, and claiming
   environment moved this one would be exactly the over-read this page exists to prevent.
+[inferred from @esc2021]
 
 ## Divergence class 4 (lag), self-documented `[2026-07-28, ESC chunk 05]`
 
@@ -320,5 +335,6 @@ cost-effectiveness is provided as *contextual information*, outside the graded b
 telos's discipline enacted, not evaded:** name the axis and stop. The one judgement it does fold in
 (opportunity cost) it re-labels as a harm and grades on the same net-benefit scale, which keeps it
 inside the health/burden axis rather than importing a second maximand. -> [[Net Benefit and the USPSTF Recommendation Grid]]
+[inferred from @uspstfmanual2022]
 
 ## References

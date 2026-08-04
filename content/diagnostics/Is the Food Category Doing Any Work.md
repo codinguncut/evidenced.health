@@ -15,7 +15,7 @@ relationships:
     - Free Sugars Intake
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
 created: 2026-07-27
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -33,6 +33,9 @@ distance between them.
 heterogeneous set strips the mechanism and yields a washed-out average that answers nobody's question.
 **This page extends the same rule one step earlier, to how the exposure is DEFINED.** Same failure,
 different object.
+
+
+
 ## The evidence cuts three ways — and that is the finding
 
 > **Extended 2026-07-28:** a **fourth** case was added at the bottom of this page — a boundary that
@@ -124,6 +127,8 @@ test of the matrix prediction on hard outcomes, and it did not find one.** It do
 effects in general — micronutrient status, satiety and glycaemic response were not the outcomes tested
 — but any fortification argument now has to explain that null rather than assume it away.
 
+[inferred from @sacn2015; @willett; @who2023saturated]
+
 ### The mechanisms the labels suppress
 
 The critique names substrate, bioavailability, nutrient combinations, digestive effects, isolation and
@@ -132,6 +137,9 @@ wrong because the organism or the schedule **compensates** elsewhere, so net eff
 **The others are largely unheld**: the wiki has bioavailability only as a gap (the protein block), and
 nothing at all on nutrient combinations or digestive effects. `AWAITS` sources; do not write these as
 claims from mechanism alone.
+
+
+
 ## Tests
 
 1. **Does the source analyse sub-categories separately, or fold them?** If it folds them, the estimate
@@ -151,6 +159,9 @@ claims from mechanism alone.
 5. **Check the increment against the population's spread.** A null over a narrow slice of intake is a
    low-power null, not evidence of no effect: SACN's legume-fibre increment is **1 g/day** against
    7 g/day for total fibre.
+
+
+
 ## Decision relevance
 
 - **Convergence across a boundary is actionable information.** SACN's refined-grain null says the
@@ -162,6 +173,9 @@ claims from mechanism alone.
 - **The variance argument cuts both ways.** If within-category variance is large, a category-level
   *positive* is also unreliable — it may be driven by one sub-type. This test is not a licence to
   discard inconvenient categories only.
+
+
+
 ## Limits
 
 - **The within/between variance ratio is almost never measured for food categories**, so this is
@@ -248,6 +262,7 @@ energy dense products, high in added or free sugars, salt and total fat/saturate
 and micronutrients.» Every one of those is a variable NNR already sets a recommendation on. **If the
 category's predictive power runs through variables you already regulate, regulating the category too is
 double-counting, not new information.**
+[inferred from @nnr2023]
 
 ### The within-category heterogeneity, with named instances
 
@@ -319,7 +334,7 @@ heterodox lens imported onto the literature but a question the literature's own 
   validity table, and in *What this does NOT establish*. The unscoped form ("Nova adds nothing") is
   what the source does not support.
 - **New-claim check on the fourth case.** The variance/incremental-validity distinction is **this
-  page's**, tagged; NNR states the redundancy verdict and the shared-variable list but
+  page's**, tagged [inferred from @nnr2023]; NNR states the redundancy verdict and the shared-variable list but
   never frames it as incremental validity.
 - **Evidential symmetry: applied against the finding as well as for it.** The «no qualified SRs» fact
   weakens NNR's *«strong evidence»* claim just as much as it contextualises the declination, and is
@@ -355,6 +370,7 @@ This is Lane **refining** NNR on the same question (a second gold body, direct s
 new tension — both hold the category's predictive power runs largely through correlates. The live
 disagreement is what to *do*: Lane recommends targeting UPF, NNR declines. That decision-level clash lives
 on [[Ultra-Processed Food and Health Outcomes]].
+[inferred from @lane2024upf]
 
 ### Ruminant vs industrial trans fat — a boundary WHO tested and dropped `[2026-07-28, Annex 8]`
 
@@ -439,6 +455,7 @@ for differences in FA profiles."
 is Test 3 at the production level: the presumed mechanism (n-3/CLA) lives in the feed, so the category
 whose mechanism sits in a sub-component (here, forage intake) should be replaced by that sub-component
 (grass-fed / pasture) in any decision. The label and the exposure come apart.
+[inferred from @srednickatober2016milk; @srednickatober2016meat]
 
 **Two guards keep this honest (symmetric standards).**
 
@@ -450,5 +467,6 @@ whose mechanism sits in a sub-component (here, forage intake) should be replaced
   matrix argument is admissible as a distinction (the nutrient does not predict the food), NOT yet as a
   positive claim that these foods are protective. What survives is the diagnostic point: **at matched
   SFA, the foods diverge, so "saturated fat" is not one exposure.**
+[inferred from @astrup2020]
 
 ## References

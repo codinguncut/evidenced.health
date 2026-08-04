@@ -25,6 +25,8 @@ does not prescribe it. The whole page turns on one distinction the popular *is H
 **the answer depends on *which outcome*, *which formulation*, and *when it is started* — and two gold
 guideline bodies reading a largely shared evidence base disagree on the last.**
 
+
+
 **The reframing that reorganizes everything.** The 2002 WHI (the trial that made *HRT is risky* common
 knowledge) enrolled women of **mean age 63.3, mostly asymptomatic, testing one oral regimen**, and its own
 verdict was scoped to *primary prevention of chronic disease*:
@@ -93,6 +95,8 @@ and persists >=10 y after stopping. [@niceng23]
 
 
 ## The four evidence-states, by outcome
+
+[inferred from @rossouw2002; @nams2022; @niceng23]
 Kept distinct: benefit · harm · no meaningful effect · insufficient/contested. This is the honest menu the
 *safe or not?* question collapses.
 
@@ -110,6 +114,8 @@ Kept distinct: benefit · harm · no meaningful effect · insufficient/contested
 
 
 ## The tension — does timing modify the cardiovascular effect? (type-D, two gold bodies)
+
+[inferred from @nams2022; @niceng23]
 This is a genuine joined-issue: **the same question — does age / time-since-menopause modify HRT's effect
 on CHD and mortality? — answered oppositely by two gold guideline families reading a largely shared trial
 base.** It is the guidance-null defeated by showing *why* they disagree, not by picking a side.
@@ -143,7 +149,9 @@ for CVD or dementia prevention. Agreement across two families on shared trials s
 points but is **not** independent corroboration (both rest on WHI/Cochrane).
 
 
-## The surrogate note — estrogen's BMD->fracture chain HOLDS (contrast with testosterone)]]`
+## The surrogate note — estrogen's BMD->fracture chain HOLDS (contrast with testosterone)
+
+[inferred from @nams2022]
 A clean contrast with the sibling page. In [[Testosterone Adiposity and Muscle]], the credentialed surrogate
 inverted: testosterone raised bone density but *increased* fractures (TRAVERSE HR 1.43). With estrogen, the
 BMD->fracture chain **transmits correctly** — HRT raises BMD *and* reduces fractures in the same trials
@@ -154,6 +162,8 @@ but *a surrogate earns a target only if its transmission to the outcome is itsel
 
 ## Guideline vs underlying evidence (the R15 lens)
 
+
+
 NAMS and NICE are **guidelines resting on trials**, not independent evidence. For an effect size, cite the
 trial (WHI) not the guideline; the guidelines' value here is (a) the E+P/ET disaggregation, (b) the timing
 appraisal, and (c) the *disagreement* itself. NICE makes its own appraisal method explicit (RCT-restriction
@@ -163,6 +173,8 @@ body's framing is not visible here -> [[Which Objective Moved This Recommendatio
 
 
 ## Decision relevance
+
+
 
 - **The question is never *is HRT safe?* but *for which outcome, which formulation, started when?*** For a
   symptomatic woman <60 or <10 y from menopause with no contraindication, both bodies support HRT for VMS
@@ -182,6 +194,8 @@ body's framing is not visible here -> [[Which Objective Moved This Recommendatio
 
 
 ## Limits and gaps
+
+
 
 - **One hard-outcome RCT, one regimen.** WHI tested only oral CEE+MPA; transdermal/estradiol/progesterone
   hard-outcome RCT data are largely absent — most route/formulation claims are observational (`type-G`;

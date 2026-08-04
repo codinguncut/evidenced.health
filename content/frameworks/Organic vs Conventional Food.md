@@ -16,7 +16,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Should Adults Reduce Red and Processed Meat
 created: 2026-07-29
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 **Nucleus of the `organic` cluster.** This page holds the health appraisal of the "organic" label:
@@ -47,6 +47,9 @@ The measured differences that survive appraisal are: **a lower pesticide-residue
 unproven health consequence at real-world levels), **small nutrient differences** (that run in *both*
 directions), and **a pasture-driven fatty-acid profile in animal products** — which is a **feed effect,
 not a label effect**. The hard-outcome case is the weakest link and is heavily confounded.
+
+
+
 ## Sub-question 1 — pesticide / toxin residues: lower on organic, health consequence unproven
 
 Baranski (meta-analyses over 343
@@ -128,6 +131,7 @@ actually reaches the milk/meat. **Specify the exposure (grass-fed / pasture), no
 the label is a partial proxy for the thing that matters. This is [[Is the Food Category Doing Any Work]]
 Test 3 at the production level: the presumed mechanism (n-3/CLA) is carried by *feed*, and "organic" is
 the wrong exposure to steer by.
+[inferred from @srednickatober2016milk; @srednickatober2016meat]
 
 ## Sub-question 4 — hard outcomes: one cohort, and it exists here to DEMONSTRATE the confound
 
@@ -182,6 +186,7 @@ attribute*, exactly as the spec predicted.
   product-level difference; whether it is large in *absolute* terms against total-diet n-3 is a
   `G`-gap — **no held source quantifies dairy/meat's share of total n-3 intake**, so the absolute
   magnitude is unestablished here rather than known to be small.
+  [inferred from @srednickatober2016milk; @srednickatober2016meat]
 - **Hard outcomes:** one confounded cohort; no clean attribution, no RCT.
 
 **Ranked (Layer 1), "organic" is a small, low-certainty lever at best** — dominated for anyone by the
@@ -202,6 +207,9 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   clinically significant); Baudry bounds the outcome claim (confounded).
 - **type-G** — no RCT on hard outcomes; residue-to-outcome transmission unevidenced at real-world levels;
   a grass-fed-specific (vs organic-certified) outcome comparison is unheld.
+
+
+
 ## Limits and gaps
 
 - **Open loop:** this grades coherence and source-fidelity, never validity. It appraises, does not
@@ -217,6 +225,9 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   the wiki cannot compute; the cohort evidence is confounded and the trials do not exist.
 - `AWAITS` a grass-fed-vs-grain-fed animal-product outcome source that separates feed from certification;
   and any residue-level human-outcome source that could move residues from surrogate to outcome.
+
+
+
 
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`

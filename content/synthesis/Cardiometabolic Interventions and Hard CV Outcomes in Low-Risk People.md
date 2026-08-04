@@ -2,11 +2,11 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013]
 cluster: cvd-risk-estimation
 confidence: high
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -20,7 +20,7 @@ relationships:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-28
-updated: 2026-07-30
+updated: 2026-08-04
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -33,13 +33,16 @@ large *absolute* reduction in hard cardiovascular events.** The first three are 
 below the action threshold*; the fourth, BP-lowering, is the sharp test — its *relative* benefit **is**
 proven in primary prevention, and the claim survives only because a proven relative effect on a low
 absolute baseline is still a small absolute gain.
+
+
+
 ## The four, on the one question
 
 | Intervention | Hard-CV-outcome evidence, and where it applies | For a low-risk / primary-prevention person |
 |---|---|---|
 | **Semaglutide** (drug→weight) | MACE «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90» — but only in **secondary prevention** (established CVD); primary prevention «were not studied» [@lincoff2023] | **Unproven.** Weight + surrogates transfer; the CV-event benefit does not |
 | **Statin** (drug→lipids) | Efficacy real and roughly constant per mmol/L; USPSTF acts only at **≥7.5–10% 10-year risk** because benefit is *proportional to risk*; CAC=0 lifts NNT to 64 vs 28 [@nasir2015] | **Small, below the threshold.** USPSTF: below \~7.5% risk, not a candidate at all [@uspstf2022] |
-| **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a −42% CRP drop [@look2013] | **Unproven / null via this route** |
+| **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a large CRP reduction (\~42-45% with intensive lifestyle on statins, vs 14-21% usual care) [@look2013] [@belalcazar2013] | **Unproven / null via this route** |
 | **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg [@bplttc2021] — relative benefit **proven in primary prevention** | **Proven relative, small absolute.** \~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
 
 Each per-page cross-source comparison already carries its own parameter table; this page **configures**
@@ -62,6 +65,9 @@ those settled findings, it does not re-derive a magnitude.
    same shape: reducing saturated fat reliably lowers LDL, yet whether that lowers *events* is genuinely
    contested ([[Does Reducing Saturated Fat Reduce Cardiovascular Events]]) — the surrogate signal (LDL)
    is firmer than the outcome evidence it stands in for.
+
+
+
 ## The largest levers are missing from the table — because their evidence is observational
 
 The obvious objection to a ceiling finding is *"but exercise."* It is worth answering, because the
@@ -85,6 +91,9 @@ proven causal lever.
 small-for-low-risk, and the **large** lever (activity/fitness) is the one whose causal effect on hard
 outcomes is structurally *unprovable by RCT*. So the low-risk person's honest position is unchanged — no
 *proven* large CV-event lever — even after the biggest association in the vault is on the table.
+
+
+
 ## The decision-change — this is a ceiling finding
 
 This is [[Layer 1 - Ranking Interventions for a Stratum]]'s *the ceiling is itself a finding* made
@@ -104,6 +113,9 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
 - **Not a claim about high-risk people.** For established CVD, high 10-year risk, or a high CAC, the same
   machinery runs the other way: absolute benefit is large and the interventions are strongly indicated.
   The pattern is a statement about the **low-risk tail**, where most of the wiki's healthy strata sit.
+
+
+
 ## What tested it — and why the test sharpened rather than broke it
 
 BP-lowering was the candidate refutation, and it is instructive that it **refined** the claim instead.

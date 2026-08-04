@@ -14,7 +14,7 @@ relationships:
     - Surrogate Outcomes
     - Rating Outcome Importance
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 **The friction this page holds:** the telos names **four** evidence states — benefit · harm · no
@@ -22,6 +22,7 @@ meaningful effect · **insufficient evidence** — and insists the last two are 
 no held source *operationalized* the fourth state: what institutional act marks "unproven" and holds it
 apart from "disproved". **USPSTF's "I" statement is that operationalization**, and the mechanism it uses
 to separate I from "no benefit" (grade D) is a clean, general rule the wiki can carry.
+[inferred from @uspstfmanual2022]
 
 ## The two states, and the quantity that separates them
 
@@ -69,6 +70,7 @@ can be informative in that it identifies research gaps». [@grade, §3.4]
   which is a first-class output that **declines to recommend either way**. There is no USPSTF analogue
   of a strong-recommendation-on-low-certainty; low certainty forecloses a graded recommendation
   entirely. -> [[Certainty of Evidence vs Strength of Recommendation]]
+  [inferred from @uspstfmanual2022; @grade]
 
 ## Why the operationalization matters
 
@@ -84,6 +86,7 @@ can be informative in that it identifies research gaps». [@grade, §3.4]
   The telos's expectancy test (*could we realistically expect to have seen the evidence by now?*) is
   what a reader must still apply on top of an "I". An "I" for a decades-old, heavily-studied question
   carries different information than an "I" for a novel one.
+  [inferred from @uspstfmanual2022]
 - **Reading any appraisal:** if a source reports only three states (works / does-not-work / mixed),
   ask where its "we cannot tell" goes. A framework with no home for insufficiency will silently sort
   unstudied questions into "no effect" — the exact collapse USPSTF's grid prevents by construction.
@@ -99,6 +102,8 @@ can be informative in that it identifies research gaps». [@grade, §3.4]
   not its application.
 - **`AWAITS`** a worked USPSTF "I" statement (e.g. a recommendation the wiki holds that was graded I) to
   move this from the rule to an instance.
+
+[inferred from @uspstfmanual2022; @grade]
 
 ### Self-critique `[run 2026-07-31, before commit]`
 

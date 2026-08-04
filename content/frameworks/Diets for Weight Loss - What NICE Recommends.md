@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-07-30
+updated: 2026-08-04
 ---
 
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a
@@ -168,6 +168,9 @@ achieved 46% diabetes remission with -10 kg mean loss
   though no trial in the review measured it.
 - **A quoted low-carb null must be checked against its delivered exposure**, not its label. NICE's
   trials averaged \~35% energy carbohydrate; that is not what most readers mean by "low carb".
+
+
+[inferred from @nice]
 ## Limits
 
 - The numbered recommendation text (1.16.1-1.16.12) is **not in this document** — it lives in NG246
@@ -176,5 +179,8 @@ achieved 46% diabetes remission with -10 kg mean loss
 - Ethnic-minority and low-socioeconomic-status subgroups: evidence **absent**, stated as such.
 - The committee lists six trials lacking a control-arm deficit and the study tables flag Layman 2009 as
   a seventh; the recovered table truncates one row, so **treat "seven" as unverified**.
+
+
+[inferred from @nice]
 
 ## References

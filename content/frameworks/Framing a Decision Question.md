@@ -51,6 +51,7 @@ GRADE explicitly declines the PICOTS-style extensions (adding T for time, S for 
   - Worth noting against GRADE's reputation as a hierarchy: the question is framed **design-blind**,
     and design enters later as one input to certainty rather than as an admission criterion. A
     hierarchy that ranked designs at the question stage would exclude evidence before appraising it.
+    [inferred from @grade]
 - **Setting** may be folded into the population ("women in low income countries"), and matters
   because "guidelines intended for resource-rich environments will often be inapplicable to
   resource-poor environments." [@grade, §2]
@@ -164,6 +165,7 @@ question-framing time — before any evidence was graded. **So the guideline's o
 a step in the causal chain rather than an endpoint**, and it is then graded **High** while every
 endpoint it stands for is graded lower. **The surrogate status was declared in advance and the
 certainty inversion arrived anyway** -> [[Surrogate Outcomes]].
+[inferred from @who2023saturated]
 
 ## A body that USES the extensions GRADE rejects — but for a different object `[2026-07-31, USPSTF]`
 
@@ -182,7 +184,7 @@ disciplines the form of one recommendation question; USPSTF's analytic framework
 preventive-service pathway into a *chain* of linked key questions (screening accuracy -> treatment
 efficacy -> intermediate->health linkage), each its own review. **Recorded as a distinction, not a
 *tension*** — the disagreement about T and S is real at the label level but dissolves once the object
-each framework governs is named.
+each framework governs is named. [inferred from @uspstfmanual2022; @grade]
 
 **What USPSTF adds that GRADE's single-question PICO does not carry:** the analytic framework makes the
 **indirect-evidence chain explicit and auditable** — an «evidence map» where an empty linkage is a

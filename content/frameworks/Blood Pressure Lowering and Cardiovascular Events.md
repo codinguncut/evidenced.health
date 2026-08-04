@@ -108,6 +108,8 @@ not survive the randomised (here, interventional) check.
 
 ## Decision relevance
 
+
+
 - **BP-lowering is the cardiometabolic lever with the best hard-outcome warrant, and it applies in
   primary prevention** — for a hypertensive person it is the one place a proven CV-event reduction is on
   the table.
@@ -125,6 +127,6 @@ not survive the randomised (here, interventional) check.
 - Trials 1972-2013 — older drug regimens and co-treatment; relative (not absolute) effects are the
   transportable quantity, by the authors' own caution.
 - One (very large) collaboration's IPD; the target-BP and adverse-effect questions are out of its design.
-- Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route..]`
+- Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
 
 ## References

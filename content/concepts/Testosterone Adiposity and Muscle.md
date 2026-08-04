@@ -16,7 +16,7 @@ relationships:
     - Menopause and the Shifting Levers
     - Hormone Therapy After Menopause
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -31,6 +31,9 @@ differently, and the reversal is the point.
 
 Three limbs, four sources (a meta-analysis, an umbrella review, and two RCTs), one through-line:
 *judge the axis by patient-important outcomes, not by the hormone.*
+
+
+
 ## The surrogate at the centre
 
 Testosterone declines with age and is suppressed by adiposity, and it is easy to measure — so it is the
@@ -40,6 +43,7 @@ its transmission to a named patient-important outcome is itself evidenced. For t
 the T->outcome chain **fails that test in the hardest possible way** (limb 3: bone density rose while
 fractures rose). For the CV endpoint the RCT shows **safety, not benefit**. So raising T is licensed
 narrowly, and the real levers on the outcomes are adiposity reduction and resistance training.
+
 
 
 ## Limb 1 — adiposity suppresses testosterone, and weight loss reverses it
@@ -168,6 +172,8 @@ here).
 
 
 ## Synthesis — the axis, read by outcomes
+
+[inferred from @corona2013; @lopezhilario2026; @lincoff2023traverse; @snyder2024]
 Line up the three limbs against the outcome menu and the T number stops being the hero:
 
 | Patient-important outcome | What raising T (TRT) does | What treating adiposity / training does |
@@ -186,6 +192,8 @@ strength and carries no fracture/AFib signal, and losing visceral fat restores T
 liver, glycaemia and blood pressure. TRT buys a surrogate (mass) plus a fracture harm, with no mortality
 benefit shown and function gains that do not reliably translate. **This is a synthesis across the umbrella
 and the held resistance-training pages, NOT a head-to-head trial** — see the guard below.
+
+
 ### Guard — "exercise beats T" is not a head-to-head result (parameter check)
 
 | Parameter | TRT (Lopez umbrella) | Resistance training (Morton, held) | Same quantity? |
@@ -217,6 +225,8 @@ overturn.
   falls and fractures.
 - **Out of scope (appraise, do not prescribe):** who is a candidate for TRT, dosing, monitoring
   hematocrit/PSA, managing the AFib/PE/AKI risks — prescriber acts needing this person's labs and history.
+
+
 
 
 ## Limits and gaps

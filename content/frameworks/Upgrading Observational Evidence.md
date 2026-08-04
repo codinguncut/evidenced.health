@@ -69,6 +69,7 @@ with each hour's delay of antibiotics in sepsis and hypotension.
   a recommendation is dosed but part of how it earns its certainty. The two uses are distinct and
   worth keeping apart: the gradient here is a **credibility** signal, whereas the location of a knee
   or plateau is a **decision** parameter.
+  [inferred from @grade]
 
 ## 3. Plausible residual confounding working against the effect
 
@@ -98,6 +99,7 @@ conclusion.
 - **The exits are narrow and asymmetric.** Large effects need tight intervals, dose-response needs a
   gradient, and residual confounding must be shown to point the *wrong* way. None of these is
   available to a small, noisy association — which is where many observational nutrition findings sit.
+
 - **Direction of the bias is a usable argument.** Asking "which way would the unmeasured confounders
   push?" can strengthen a finding, not only weaken it.
 
@@ -150,6 +152,7 @@ is what turns an abstract rule into a readable decision. The footnote key:
   upgrade-worthy in its own right. Whether that is an extension of the framework or a departure from
   it is **not settled here** — the GRADE Handbook's list would have to be re-read against the claim
   that it is exhaustive.
+  [inferred from @who2020; @grade]
 
 **Consequence for reading any HIGH-certainty observational finding:** ask which note carried it. An
 upgrade resting on IPD-plus-gradient (note `e`) is a different object from one resting on absence of
@@ -195,6 +198,7 @@ converged.** The folic acid case:
 **That is this wiki's type-E criterion — independent, compatible backing from different fields —
 arriving from a methods textbook rather than from the ontology corpus.** The two failures had many
 studies and one method class; the success had fewer and five.
+[inferred from @willett]
 
 ### A cheap diagnostic the breast-cancer case supplies
 

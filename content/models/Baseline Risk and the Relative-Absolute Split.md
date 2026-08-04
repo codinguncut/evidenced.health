@@ -56,6 +56,7 @@ the balance of desirable and undesirable outcomes" [@grade, §6.2.1.1]; it does
 not claim harms are baseline-invariant. (**Note what varies in GRADE's warfarin case**: it is
 **stroke** risk that differs between patients, with bleeding as the fixed counterweight -- not the
 reverse, which is the easier misreading.)
+[inferred from @grade]
 
 ## Sensitivity
 
@@ -64,6 +65,9 @@ reverse, which is the easier misreading.)
 - Insensitive to the relative estimate's precision in the range where baseline risk is very low: a
   tighter confidence interval on the relative effect buys little when the absolute difference is
   small either way.
+
+
+
 ## Failure modes
 
 - **Reporting relative effects alone.** A relative figure without a baseline is uninterpretable for a
@@ -72,6 +76,7 @@ reverse, which is the easier misreading.)
   benefit across risk strata is the *expected* consequence of constant relative effect — it is
   arithmetic, and requires no interaction claim. Treating it as evidence that the treatment "works
   differently" in a subgroup is a category error, and one that invites unnecessary subgroup analysis.
+  [inferred from @grade]
 - **Assuming relative constancy without checking.** GRADE's premise is that relative effects are
   *usually* similar across baseline risks; where the underlying biology suggests otherwise, the
   question should have been split instead (see below).
@@ -100,6 +105,9 @@ specifically *in the protocol*). [@grade, §2.1]
 - **Stratifying on baseline risk is cheap; stratifying on effect modification is expensive.** The
   first needs prognostic information only; the second needs interaction evidence and is the more
   common source of false positives.
+
+
+
 ## Refinement — varying absolute effects are NOT inconsistency (chunk 02)
 
 GRADE returns to this when defining the inconsistency downgrade, and draws a consequence the §2.1
@@ -178,6 +186,7 @@ modification" answers a rival explanation that was never available.
 (0.79, 0.84) produce absolute benefits differing four-fold, so a relative effect cannot be ranked
 against another without its baseline. That lesson is intact. **A genuine route-(a) illustration is
 still owed** -- it needs one intervention, one relative effect, and two baseline-risk strata.
+[inferred from @who2023saturated]
 
 **Why this is the trap and not just an illustration:** the two rows sit in the same annex under the
 same question, and a reader comparing "50 fewer" against "12 fewer" to rank the two swaps would be
@@ -203,6 +212,7 @@ comparator's own trajectory makes a small increment look like a whole result.
   splitting.
 - Baseline risk for a specific person is itself estimated from a population model, so it carries its
   own transportability question — the split does not eliminate the transfer problem, it relocates it.
+  [inferred from @grade]
 
 ## A body that held BOTH halves and never multiplied them `[2026-07-28, SACN revisit]`
 
@@ -225,6 +235,7 @@ in England had tooth decay».
 multiplication is never performed.** No risk differences, no NNTs, no absolute benefit at a stated
 baseline. So the failure is not missing data — it is an unexecuted step, which is a different and more
 tractable defect than the usual one.
+[inferred from @sacn2015]
 
 ### The per-SD increment bounds this page's central claim
 
@@ -249,6 +260,7 @@ route-(a)/route-(b) machinery will not catch it, because nothing about the *rati
 **Practical rule this adds:** before applying a relative effect, ask what the denominator of the
 increment is. *Per gram*, *per serving* and *per SD* are not interchangeable, and only the last one
 changes meaning when the population changes.
+[inferred from @sacn2015]
 
 **Still owed, and SACN does not supply it:** a genuine route-(a) illustration — one intervention, one
 relative effect, two baseline-risk strata. SACN has no such case; it never stratifies its estimates by
@@ -364,6 +376,6 @@ run by expert centres is treated as the *upper bound* for a general population, 
 lower-risk groups sets a *lower bound*. That is baseline-risk reasoning used to **bound** an absolute
 effect qualitatively when the numbers to compute it are missing — a partial answer to the owed route-(a)
 illustration, though still not a worked pair of numbers.
-[@uspstfmanual2022]
+[@uspstfmanual2022] [inferred from @uspstfmanual2022]
 
 ## References

@@ -6,7 +6,7 @@ authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse
 sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019]
 cluster: nutrition-methods
 confidence: medium
-self_critiqued: 2026-07-27
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
@@ -15,7 +15,7 @@ relationships:
     - Physical Activity Dose and Mortality
     - Sources of Non-Replicability
 created: 2026-07-25
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 ## Why it matters
@@ -23,6 +23,9 @@ updated: 2026-07-31
 Diet is measured indirectly, by asking people. The resulting error is large enough to be the dominant
 consideration in reading almost any observational nutrition finding — and it does **not** push in one
 direction, which is what makes it hard to reason about.
+
+
+
 ## The taxonomy that governs everything else
 
 Error is random or systematic, within-person or between-person. The consequential split:
@@ -67,6 +70,7 @@ disclosure test, not a pass/fail bar.
 1.23. So a rule that dismisses observed relative risks below \~1.2 as within confounding range will
 also dismiss genuinely large effects that dietary measurement has flattened. Both readings are
 available for the same number, and only a validation study distinguishes them.
+[inferred from @willett]
 
 Other magnitudes: a true OR of 2.67 observes as **1.71** at sensitivity 0.6 / specificity 0.9; energy
 under-reporting against doubly-labelled water runs **10-30%**, worse in women and people with obesity;
@@ -97,6 +101,7 @@ a wider interval; an observed 1.50 corrects to 2.38.
 So **measurement error explains this null** and **measurement error explains this positive finding**
 are **not symmetric claims**. The first is often plausible; the second requires differential error,
 which is a much stronger and more specific allegation.
+[inferred from @willett]
 
 ## Red flags
 
@@ -110,6 +115,9 @@ which is a much stronger and more specific allegation.
 - Calibration that smuggles in a covariate: in one published case, "calibrated energy intake"
   predicted cancer risk, but the associations "were entirely accounted for by BMI" — the calibration
   had contributed nothing.
+
+
+
 ## Willett's counter to the strong sceptical reading
 
 He rejects using energy under-reporting to discredit diet studies generally: total energy "is rarely
@@ -178,6 +186,7 @@ attenuation claim stands on its own footing — the DLW validation substudy, and
 attribution of its failed dose-response to *"a considerable degree of measurement error even when
 using validated methods"*. The PA contrast is **consistent with** that mechanism and **does not
 evidence** it.
+[inferred from @who2020; @sacn2015; @te2013]
 
 **Consequence for the telos.** The `every reduction pays` default was induced from four
 self-reported-exposure sources. It should be **scoped to that condition** rather than asserted as a
@@ -271,6 +280,8 @@ standardises its cohort increments to «one standard deviation of intake» (50 g
 per-SD relative risk does not transport without its population's SD. **Willett adds the prior
 problem: the SD may not be right for its own population either.**
 
+[inferred from @willett; @sacn2015]
+
 **Stated as a conditional, because the wiki has not established SACN's assessment method:** *if* the
 SD behind an increment was estimated from a small number of days per subject, that increment is
 inflated. **`AWAITS` a targeted read of SACN's dietary-assessment methods** — the question is how many
@@ -300,11 +311,9 @@ rises for four of six nutrients and FALLS for protein (2.01 -> 1.79) and cholest
 takes it as a rule will mis-predict for exactly the two nutrients where it reverses.
 
 **Why the ratio is the quantity that matters:** it sets how many days of measurement are needed.
-Willett gives the formula (Beaton) `n = (Z_alpha x CV_w / D)^2`, and works it: estimating one person's
-**cholesterol** intake to within 20% of their true mean, 95% of the time, at CV_w = 62%, needs
-**about 37 days of records**. **That is the scale of the problem** — and it is why a single 24-hour
+Willett gives the formula (Beaton) `n = (Z_alpha x CV_w / D)^2` [@willett]; worked for **cholesterol** — within 20% of the true mean, 95% of the time,
+at CV_w = 62% — it comes to **about 37 days of records**. **That is the scale of the problem** — and it is why a single 24-hour
 recall cannot support an individual-level exposure claim, however large the study.
-[@willett]
 
 ## Differential error, quantified — the underreporting gradient runs with adiposity `[2026-07-28, Willett ch.4]`
 
@@ -331,6 +340,7 @@ confounder in most of this literature.** It can therefore create, erase or rever
 rather than merely shrink it. A measured association between any reported intake and obesity is partly
 a measurement artifact of exactly the size shown above, and **the direction is not predictable from
 first principles.**
+[inferred from @willett]
 
 **Consistency check against what the wiki already holds, and the full SACN sentence adds a stratum
 the corpus had been dropping:**
@@ -407,6 +417,7 @@ gradient can be perfectly adequate for that job while being the wrong tool for a
 against a cutpoint. **The two failures the wiki should keep separate:** a threshold can be poorly
 located (a claim about the evidence) *or* well located and unmeasurable in practice (a claim about the
 instrument). **Chapter 4 speaks only to the second.**
+[inferred from @willett]
 
 ## A validity coefficient is itself biased — correlated error inflates it `[2026-07-28, Willett ch.6]`
 
@@ -447,6 +458,7 @@ property of the instrument.** Move the biomarker a year away and the two methods
   is below the published coefficient, the true effect being attenuated is larger than the correction
   implies. **This does not change the direction of any correction — it means the corrections
   understate.**
+  [inferred from @willett]
 
 **What this does NOT establish.** Willett describes the artifact and one demonstration (a conference
 presentation plus Bingham 2008); he does not quantify how much of the published validation literature
@@ -522,10 +534,14 @@ Willett's verdict on the pair of designs:
 cross-sectional and ecological studies were not considered»* — on stated concerns about their
 limitations. **Willett supplies the mechanism and the measured demonstration behind that rule.**
 
-**This is a genuine independence worth naming carefully.** SACN is a guidance body stating an inclusion
-rule; Willett is a methods textbook documenting why the rule is warranted, from cohort-nested recall-
-bias substudies. Different fields, different methods, neither citing the other for this claim — so the
-convergence is **not** self-stated. `[E-independent]`
+**This is a warrant-and-application pairing, not independent convergence — type-F, NOT E
+`[demoted 2026-08-04, self-critique]`.** SACN is a guidance body stating an inclusion rule; Willett is
+the methods source documenting why the rule is warranted, from cohort-nested recall-bias substudies.
+Neither cites the other, but SACN's rule is **not an independent arrival** at the recall-bias claim — it
+*applies* the established nutritional-epidemiology principle that Willett's field (Willett a principal of
+it) articulates. So Willett **warrants** the rule SACN **applies**: refinement/attribution, not
+independent-E. The shared field lineage is exactly what the strict-E bar excludes.
+[inferred from @willett; @sacn2015]
 
 **Recall horizons, held for transportability judgments** — quoted whole, because the qualifier is in
 the same sentence as the reassuring half:
@@ -587,6 +603,7 @@ of intake at the same time**, which is the confusion the single word invites.
 water, i.e. against a *recovery* biomarker. **The reason those studies could establish a magnitude
 rather than merely a correlation is that the reference method was in the one class that yields
 absolute intake.** Where no recovery biomarker exists, misreporting can be detected but not sized.
+[inferred from @willett; @sacn2015]
 
 ### The consequence that is decision-relevant, and it favours one exposure the corpus holds
 
@@ -604,6 +621,7 @@ class from the FFQ-based evidence behind sugars, fibre, saturated fat and grains
   shows a single day is a poor estimate of habitual intake. **A recovery biomarker fixes the
   *calibration* problem, not the *day-to-day variation* problem** — the two are independent, and a
   single 24-hour urine inherits the second in full.
+  [inferred from @willett]
 
 ### A biomarker is not automatically the safer instrument `[chunk 10]`
 
@@ -631,6 +649,7 @@ intuition motivating the whole exercise:
 does not care about the quantity.* Anything physiologically important enough to be regulated is, for
 that reason, badly measured in blood. **This is a structural trade, not a technical limitation to be
 engineered away.**
+[inferred from @willett]
 
 ## Why a self-reported exposure cannot cleanly attribute — the organic-food cohort `[2026-07-29]`
 

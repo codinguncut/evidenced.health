@@ -107,6 +107,7 @@ So PUFA's stronger recommendation is **over-determined**: it has both the larges
 certainty on the **surrogate is uniformly higher than certainty on the outcomes it stands for** —
 high for LDL, moderate-to-low for the clinical endpoints. That asymmetry, not an equivalence among
 replacements, is the transferable point.
+[inferred from @who2023saturated]
 
 > **CORRECTION (2026-07-25, blind cold-audit).** This section first claimed the replacements were
 > *near-equivalent on the surrogate* and that PUFA's advantage rested on hard-outcome evidence
@@ -136,6 +137,7 @@ control event rate of 8.5%. **It is the only hard outcome in the profile that ex
 mortality outcome does: all-cause 2 fewer, CVD mortality 1 fewer, CHD mortality 1 fewer, every interval
 spanning no effect. A reader who takes "strong recommendation" to mean *this saves lives, measurably*
 is reading something the profile does not contain.
+[inferred from @who2023saturated]
 
 **By replacement (RCTs, cardiovascular diseases):**
 
@@ -150,6 +152,7 @@ population with a **23.8% control event rate against 7.6%** -- roughly three tim
 That is [[Baseline Risk and the Relative-Absolute Split]] operating in the wild: most of the absolute
 gap is the population, not the nutrient. The relative effects (0.79 vs 0.84) are far closer than the
 absolute ones, and both intervals touch or cross 1.00.
+[inferred from @who2023saturated]
 
 **The MUFA row is a warning about reading certainty labels as evidence weight.** The plant-MUFA RCT
 evidence is **a single trial, 52 participants, 4 events**, giving RR 3.00 with an interval running to
@@ -210,7 +213,10 @@ rather than closed.
   CVDs with SFA intakes of less than 10%", at very low certainty.
 - **If you are in energy surplus and reducing intake, the replacement question may not arise at all.**
 - **Do not read the LDL evidence as the outcome evidence.** High certainty attaches to the lipid
-  change; moderate-to-low certainty attaches to what follows from it.]`
+  change; moderate-to-low certainty attaches to what follows from it.
+
+
+
 ## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
 
 A tension page was minted claiming WHO and Willett clash on whether LDL licenses the
@@ -287,6 +293,9 @@ changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
   independent appraisal of the **same evidence base** by a second guidance body — Hooper 2020 (added
   2026-07-29) is *not* that: it is the **upstream** Cochrane MA whose RCT estimates WHO adopted, so it
   strengthens warrant on the numbers without adding an independent witness (see the Hooper section).
+
+
+
 ## Why SFA intake cannot be rescued by a biomarker `[2026-07-28, Willett ch.8]`
 
 Everything on this page rests on **self-reported** saturated-fat intake. The obvious remedy — measure
@@ -317,6 +326,7 @@ energy balance and insulin status. **The biomarker measures the sum and cannot s
   *introduce* bias and confounding «not present for studies of fatty acid intakes» — so substituting a
   biomarker is not a strictly-safer choice. **The apparent objectivity of a biochemical measure is not
   the same as freedom from confounding**, and here it can run the other way.
+  [inferred from @willett]
 
 **What this does NOT do.** It does not weaken any specific estimate on this page. WHO's trials measured
 *assigned* diets, not biomarkers, and the cohort evidence's measurement problem was already recorded.
@@ -348,6 +358,7 @@ replacements are *not* equivalent, and that PUFA's stronger recommendation is ov
 both the largest lipid effect and the firmer evidence. **The information loss is in the presentation,
 not the position:** ESC's ordering happens to match WHO's strength ordering, but nothing in the table
 says so.
+[inferred from @esc2021; @who2023saturated]
 
 **NOT filed as independent corroboration.** Two guidance bodies reaching the same threshold is the
 configuration this corpus has repeatedly found to be non-independent, and **the wiki has not checked
@@ -446,6 +457,7 @@ WHO grades the identical estimate Low (WHO applied one further downgrade); neith
 absolute (1 fewer per 1000) moves. So this page's RCT numbers are confirmed *as Hooper's*, and the
 `[E-independent]` bar is **not** met: two guideline/review layers over one trial base is exactly the
 non-independence this page already flags for the WHO/ESC threshold agreement.
+[inferred from @hooper2020; @who2023saturated]
 
 **The events-not-mortality finding, now stated by the primary source.** This page derived *exactly one
 outcome clears the null, and it is not mortality* as an reading of WHO's Annex 6 (which *WHO
@@ -507,6 +519,7 @@ curve measured monotone *within* a range is not evidence it continues below it (
 endpoint marks the edge of the evidence, not a feature of the curve). The cholesterol-mediated mechanism
 also bounds the claim to LDL/apoB lowering, not to SFA-avoidance as an end in itself.
 
+
 **Effect-modification NULLS — the relative effect does not vary by stratum (route-b negatives).**
 
 > «The reduction in combined cardiovascular events resulting from reducing saturated fat did not alter by
@@ -526,6 +539,7 @@ case, not route-(b): personalize by **baseline risk** (absolute benefit scales w
 [[Baseline Risk and the Relative-Absolute Split]]), not by a claimed effect-modifier. That is the same
 logic this page's PUFA-vs-carbohydrate absolute-gap discussion already ran (23.8% vs 7.6% control-rate
 populations), now confirmed by a **direct subgroup test** rather than inferred from event rates.
+[inferred from @hooper2020]
 
 **Replacement nutrient — PUFA and carbohydrate not distinguishable on hard events.**
 
@@ -575,7 +589,7 @@ changes here:
   diet but instead tends to track more closely with dietary carbohydrate intake" (a 2-3x SFA rise on a
   low-carb background leaves serum SFAs flat or lower, via reduced de novo lipogenesis + increased fat
   oxidation). A substrate-competition frame: the harm of a high-SFA diet is modulated by
-  carbohydrate/insulin status.
+  carbohydrate/insulin status. [inferred from @astrup2020]
 - **A claimed SFA-sensitive subgroup (route-b, unconfirmed).** APOE4 / APOA2 gene-diet interactions
   lead Astrup to "It is this segment of the population (the SFA-sensitive) in which the reduction in
   SFA intake may be beneficial and could therefore be recommended" — but he concedes that "in the
@@ -642,6 +656,7 @@ based on considering only the effects of nutrient intake on LDL cholesterol is n
 LDL-surrogate caveat with data -> [[LDL ApoB and Cumulative Exposure]]; it does **not** contradict LDL's
 *causal* status (apoB is the agent), it says diet-induced LDL-C is a poor summary of the whole lipid
 change.
+[inferred from @dehghan2017]
 
 **Self-critique (PURE weave) `[run 2026-07-29, before commit]`.** *Laundered-E:* PURE is explicitly F
 (grounding), NOT `[E-independent]` — it is the cohort base Astrup already cited, stated three times.

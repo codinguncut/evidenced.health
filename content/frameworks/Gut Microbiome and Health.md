@@ -16,7 +16,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-07-31
+updated: 2026-08-04
 self_critiqued: 2026-07-31
 ---
 
@@ -29,6 +29,9 @@ caution** (composition-shift is not an outcome) and to widely-established clinic
 recurrent *C. difficile*), never to carry a contested magnitude. The through-line: **the microbiome is
 genuinely modifiable and matters in specific places, but "it altered the microbiome" is a surrogate, and
 most popular interventions are either strain-and-indication-specific or not-yet-evidenced.**
+
+
+
 ## The load-bearing epistemics: composition-shift is not an outcome, and causation is the central confound
 
 Almost all microbiome research reports a *composition* change (which bacteria, how diverse). Valdes states
@@ -105,6 +108,9 @@ disease) are explicitly *not yet*.
   its established, outcome-level effect sizes — the telos's *attention-is-an-anti-signal* rule
   ([[Layer 1 - Ranking Interventions for a Stratum]]). The real levers here are the ones already ranked
   elsewhere (fibre, diet quality).
+
+
+
 ## Certainty and gaps
 
 - **`confidence: medium`** — the grade rests on **WGO (gold guideline)** for the probiotics-by-indication
@@ -120,6 +126,9 @@ disease) are explicitly *not yet*.
   Cochrane FMT-CDI SR, the AGA probiotics guideline, and Camilleri 2019 (the intestinal-permeability /
   "leaky gut" review that would let the fabric sort real permeability from the syndrome). `AWAITS` those.
   Direction-of-causation for dysbiosis-disease associations is the field's open confound.
+
+
+
 ## Self-critique `[run 2026-07-29, before commit]`
 
 - **Composition-vs-outcome discipline held.** The page leads with the surrogate caveat and never credits a

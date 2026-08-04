@@ -7,7 +7,7 @@ sources: [Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sle
 cluster: sleep
 confidence: medium
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 relationships:
   related_to:
@@ -25,6 +25,7 @@ association merely mark illness?** Shan supplies the observational shape (on T2D
 experimental (RCT) arm — which direction-fixes the *energy-intake* link and so rebuts the
 reverse-causation objection, rather than corroborating the T2D magnitude itself (Capers' net-weight and
 appetite-hormone endpoints were null). The composite is stronger than either alone.
+[inferred from @shan2015; @capers2015]
 
 ## The observational shape — a second sleep U-curve, on T2D `[Shan 2015]`
 
@@ -105,6 +106,7 @@ St-Onge:
 So the composite beats either source alone: the intake increase is real (Capers), but the popular
 hormonal *explanation* for it is downgraded — likely hedonic drive plus more waking hours to eat, not a
 leptin/ghrelin surrogate. Route the appetite-hormone story as mechanism only, discounted.
+[inferred from @capers2015]
 
 ## Decision relevance
 
@@ -118,6 +120,9 @@ leptin/ghrelin surrogate. Route the appetite-hormone story as mechanism only, di
   occult illness, not a cause — the long arm is unadjudicated for T2D as for mortality.
 - **Ranking (layer 1):** a moderate-effect, moderate-certainty lever — below the big rocks, above most
   refinements; relevant chiefly for the habitually sleep-deprived stratum.
+
+
+
 ## Limits
 
 - **Shan: all exposure self-reported, single-timepoint** questionnaires (validation r=0.47 vs
@@ -128,5 +133,6 @@ leptin/ghrelin surrogate. Route the appetite-hormone story as mechanism only, di
   is direction-fixed but under-powered on magnitude.
 - Coherence, not validity (R1): the U-shape is what the cohorts report; the short-arm causal reading
   rests on the experimental arm + mechanism, not the pooled association alone.
+[inferred from @shan2015; @capers2015]
 
 ## References

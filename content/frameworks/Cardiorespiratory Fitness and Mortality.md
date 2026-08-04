@@ -8,7 +8,7 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01b
 relationships:
   related_to:
@@ -24,6 +24,9 @@ Opens the `fitness` cluster. Cardiorespiratory fitness (CRF, peak VO2, measured 
 lever, physical activity, is measured as *dose* (minutes); this is measured as the *outcome* (capacity).
 The distinction is load-bearing: both sources here are observational, so CRF is a **predictor, not a
 proven causal lever**.
+
+
+
 ## The dose-response — each MET matters, and there is no ceiling
 
 - **Per 1-MET higher CRF (Kodama meta-analysis, dose-response):** all-cause mortality «RR 0.87 (95% CI,
@@ -42,6 +45,7 @@ physical fitness... as opposed to self-reported activity levels». So the activi
 self-report measurement artifact -> [[The U-Shaped Association Artifact]]. Kodama's own categorical data
 agree on the *shape*: the steepest benefit is at the low end (low-vs-high RR 1.70 >> intermediate-vs-high
 1.13).
+[inferred from @kodama2009; @mandsager2018]
 
 ## How big — low fitness outranks smoking and diabetes
 
@@ -96,14 +100,17 @@ randomized, on a hospitalization-inclusive composite). The upgrade is real and b
 - **Not two independent methods.** A meta-analysis of cohorts (Kodama) and one mega-cohort (Mandsager)
   share the observational, confounded, reverse-causation-prone design — this is corroboration and
   refinement, not an [E-independent] convergence. Kodama's sensitivity analysis: adjusting for smoking
-  weakened the CHD/CVD link but *not* the all-cause link (CRF «independently associated with longevity»).
+  weakened the CHD/CVD link but *not* the all-cause link (CRF «independently associated with longevity»). [@kodama2009]
 - **Reverse causation is the central threat** — subclinical illness lowers fitness; Mandsager's single
   time-point measurement cannot separate *unfit because sick* from *sick because unfit*.
-- **Publication bias** in Kodama (Egger p=.002 all-cause), moderately attenuated by trim-and-fill.
+- **Publication bias** in Kodama (Egger p=.002 all-cause), moderately attenuated by trim-and-fill. [@kodama2009]
 - **Transportability of the bands** — Mandsager's referral population is not the general population, and
   its METs are estimated, not measured.
 - Coherence, not validity (R1): a strong, graded, mechanism-plausible association — but not proof that
   acting on it changes a given person's life.
+
+
+
 
 
 ## CRF is a measured CAPACITY, not a behaviour - and the predictor claim is cited (deliverable-critique, 2026-08-01)
@@ -124,6 +131,7 @@ So the "two dials" are real distinct channels: aerobic -> CRF, resistance -> mus
 total-activity number and the CRF-predictor claim are different (both valid) findings, not one restated.
 
 
+
 ## "Per 1-MET" - what it means, and why you cannot compound it to 0.87^5 (deliverable-critique, 2026-08-01)
 
 "Per 1-MET" is per 1 metabolic-equivalent of CRF *capacity* (VO2max; 1 MET = 3.5 ml/kg/min), NOT per
@@ -139,6 +147,7 @@ compound to a personal promise (5 METs -> 0.87^5 \~ 0.50) for two reasons:
   by 5 METs does not deliver the between-person gradient -> [[The U-Shaped Association Artifact]] and the
   causal discount in the next section. Read it as: escaping the low-fitness bottom is where the large,
   decision-relevant benefit sits - not as a compoundable multiplier.
+
 
 
 ## The causal discount - VO2max is part lever, part marker (deliverable-critique, 2026-08-01)

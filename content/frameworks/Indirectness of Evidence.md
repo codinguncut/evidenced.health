@@ -12,7 +12,7 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-30
+updated: 2026-08-04
 ---
 
 **GRADE's transportability machinery, expressed as a certainty penalty.** Direct evidence "directly
@@ -77,6 +77,9 @@ sufficiently different that the organism "may be far less responsive to antivira
   It is not the only user-relative factor — for guideline panels, imprecision is also judged against
   the decision threshold rather than the studies alone (§5.2.4.1) — but it is the one that prices
   *population* difference directly.
+
+
+[inferred from @grade]
 ## Limits
 
 - **For populations**, GRADE prices indirectness but does not say *which* differences matter — *how
@@ -85,6 +88,7 @@ sufficiently different that the organism "may be far less responsive to antivira
   are graded by distance along the putative causal pathway (§5.2.3 → [[Surrogate Outcomes]]), and
   indirect comparisons by the **similarity assumption** — whether population, interventions,
   co-interventions, outcomes or study methods could explain the observed difference.
+  [inferred from @grade]
 - A one-or-two-level penalty is coarse for a question that is continuous and multidimensional.
 - **Source currency:** §5.2 is flagged in-source as rewritten in the 2024 GRADE Book.
 

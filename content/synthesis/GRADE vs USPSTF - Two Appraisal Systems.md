@@ -7,6 +7,7 @@ sources: [GRADE - Handbook, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -27,6 +28,7 @@ is instructive precisely because it is not a disagreement about evidence.
 **The reason this matters:** a *moderate certainty* from each body is *not the same quantity*, so a
 reader who treats appraisal labels as portable across instruments is comparing things that were never
 the same. The parameter table below is the evidence for that claim.
+[inferred from @grade; @uspstfmanual2022]
 
 ## The parameter table — matched, individually quoted (BLOCKING precondition)
 
@@ -77,6 +79,7 @@ outputs *mean*:
    balance is *inside* the graded object. GRADE certainty is confidence in an effect estimate, with the
    weighing deferred to the strength step. **Consequence:** a USPSTF certainty label cannot be lifted
    onto a single outcome, and a GRADE certainty label cannot be read as a statement about net benefit.
+   [inferred from @grade; @uspstfmanual2022]
 
 2. **USPSTF makes magnitude a first-class axis; GRADE deliberately does not.** GRADE severs strength
    from magnitude («strong recommendations are not necessarily high priority»), so a GRADE output cannot
@@ -112,6 +115,8 @@ Development and Evaluation method. -> [[Was GRADE Actually Used]]
   which is stronger evidence that those disciplines are load-bearing than either body asserting them
   alone. -> the telos: *"convention held here" is a reportable, valued finding*.
 
+[inferred from @grade; @uspstfmanual2022]
+
 ## Limits
 
 - **Both are method documents describing their own instruments** — this compares *designs*, not
@@ -122,6 +127,7 @@ Development and Evaluation method. -> [[Was GRADE Actually Used]]
   tradition, not two. **No `[E-independent]`.**
 - **Coherence, not validity** (R1): a cleaner instrument is not a truer one. Neither system's output is
   evidence about the world; both are technologies for making a recommendation's reasoning auditable.
+[inferred from @grade; @uspstfmanual2022]
 
 ### Self-critique `[run 2026-07-31, before commit]`
 

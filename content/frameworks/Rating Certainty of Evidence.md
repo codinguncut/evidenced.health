@@ -93,6 +93,7 @@ downgrade for and why. Its own summary of what the system delivers:
   reached from inside a grading system rather than from its sociology: a structured procedure buys
   auditability, not the elimination of judgment. GRADE stating it about *itself* is stronger than an
   outside critique, and it forecloses the common misreading that a certainty rating is a measurement.
+  [inferred from @grade]
 
 ## Aggregating risk of bias across studies — five stated principles
 
@@ -113,6 +114,9 @@ downgrade for and why. Its own summary of what the system delivers:
   judgment lives; the letter alone hides it.
 - **Design tells you where the rating started, not where it ended.** Both "an RCT, therefore
   reliable" and *observational, therefore weak* skip the eight factors that do the work.
+
+
+
 ## Aggregating across outcomes -- 5.4's second half
 
 This page rates certainty **per outcome**; a recommendation carries one label. GRADE 5.4 governs the
@@ -365,6 +369,7 @@ explicit mechanisms for moving grades up or down.
 without binding a durable process charter to one brand that may itself evolve.** That is a coherent
 argument this page should hold, and it is not the same as either pole (WHO's *GRADE-or-equivalent*,
 SACN's bespoke instrument).
+[inferred from @nasem]
 
 ### The evidence base underneath is thinning, and that bounds every grade above it
 
@@ -466,5 +471,6 @@ Approach». So IOM, Cochrane, and GRADE stating the same eight factors is **one 
 shared-school, never independent type-E** — no `[E-independent]`. What the IOM adds is *object type*: it
 makes the eight-factor assessment a **checkable standard** a completed review either met or failed, not
 just a method to apply. -> [[What a Trustworthy Systematic Review Requires]]
+[inferred from @nasem2011fww; @grade]
 
 ## References

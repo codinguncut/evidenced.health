@@ -8,7 +8,7 @@ authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (o
 sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996]
 confidence: medium
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 relationships:
   related_to:
@@ -132,6 +132,8 @@ epistemic status from the artifact — a curve to dose along, not a signal to ex
   it reads as *more, in the replete, does not help (and past need can harm)* The nutrient can be
   essential and the supplement still worthless for the already-replete; the two claims live on different
   arms and must not be collapsed.
+
+
 
 ## Gaps
 

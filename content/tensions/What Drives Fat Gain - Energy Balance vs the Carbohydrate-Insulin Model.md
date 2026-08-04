@@ -15,7 +15,7 @@ relationships:
     - Is the Food Category Doing Any Work
     - LDL ApoB and Cumulative Exposure
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -31,6 +31,7 @@ advantage* — has been tested in controlled feeding and **refuted in direction 
 contested causal *hypothesis*, largely refuted in its strong form; it is given space here proportional to
 its evidentiary weight, not to how much it is discussed (R17). What survives of it is narrow and real, and
 stated below.
+[inferred from @hallguo2017; @ludwig2021cim]
 
 ## The robust pole — energy balance, and the isocaloric-feeding test that settles the metabolic-advantage claim
 
@@ -130,6 +131,7 @@ trivial). What remains of the CIM is not a metabolic edge but an **appetite/adhe
 protein influencing spontaneous intake) and a possible **high-insulin-secretor subgroup** — both of which
 live comfortably inside the energy-balance account as *routes to changing energy intake*, not as a
 refutation of it.
+[inferred from @hall2022ebm; @ludwig2021cim]
 
 ## Decision relevance
 
@@ -149,6 +151,8 @@ refutation of it.
 - **Nothing here is about hard outcomes.** The endpoints are EE, fat mass, weight and appetite — surrogates.
   Neither pole's dispute touches mortality or CV events.
 
+[inferred from @hallguo2017; @ludwig2021cim]
+
 ## What would move this — the live remainder and the gaps
 
 - **The chronic controlled-energy human test (type-G gap, conceded by Ludwig).** No study has held energy
@@ -165,5 +169,7 @@ refutation of it.
   page's matched-energy subgroup from free-living whole-diet RCTs (Naude: -0.48 kg, I2=0% when arms are
   energy-matched) — but that shares the *isocaloric-comparison logic*, so it is convergent support, not a
   clean independent route. Do not read the convergence as more than it is.
+
+[inferred from @hallguo2017; @ludwig2021cim]
 
 ## References

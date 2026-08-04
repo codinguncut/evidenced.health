@@ -8,7 +8,7 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Rating Certainty of Evidence
@@ -19,6 +19,7 @@ relationships:
 When a body of studies is too diverse to pool — or reports effects in incompatible forms — reviewers
 fall back on non-meta-analytic synthesis. Some of those methods are legitimate; **one common method is
 fatally flawed**, and spotting it is an appraisal skill.
+[inferred from @cochranehandbook2024]
 
 ## Vote-counting by statistical significance is UNACCEPTABLE — and gets worse with more studies
 
@@ -90,5 +91,7 @@ checkable class-5 finding. -> [[What a Trustworthy Systematic Review Requires]]
 - **No magnitude, no decision.** These methods do not deliver the absolute effect at a stated baseline
   the fabric ranks interventions by — treat a non-pooled synthesis as direction-and-existence evidence,
   not effect-size evidence.
+
+[inferred from @cochranehandbook2024]
 
 ## References

@@ -15,7 +15,7 @@ relationships:
     - Antinutrients in Plant Foods
     - Protein Quality and the DIAAS Score
 created: 2026-07-27
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -26,6 +26,9 @@ Reynolds 2019 is now **held and woven** (the fibre-benefit section below; ingest
 **note Reynolds shares an author with Te Morenga, so it cannot corroborate independently**, and NNR
 leans on Reynolds for its whole-grain dose-response, so that dependency runs through this page too. The
 convergence it appears to add is therefore shared-source, not type-E.
+
+
+
 ## The headline: refined grains are NOT found harmful
 
 | Exposure -> outcome | Estimate | SACN grade |
@@ -127,6 +130,7 @@ is faecal weight, which SACN itself bounds:
    and legume fibre's SD is **1 g/day** against **7 g/day** for total fibre. A null estimated across a
    distribution one-seventh as wide, in a low-consumption population, is close to uninformative about
    what happens at high intake.
+   [inferred from @sacn2015]
 
 **Pulses appear in exactly one SACN recommendation, and it is about weaning** — *"from about six
 months of age gradual diversification of the diet to provide increasing amounts of whole grains,
@@ -142,6 +146,7 @@ do nothing at the intakes someone considering them would actually eat. `-> SC-11
   2026-07-29 and addresses them directly -> [[Antinutrients in Plant Foods]] (preparation defuses the
   antinutrient concern for prepared plant staples; raw high-lectin legumes are the exception that
   *requires* a full boil).
+
 - **Nothing about carbohydrate load or bulk tolerance** — *partly held on a sibling page.* SACN
   **excluded** gastrointestinal tolerance from its remit. The related *protein* question — that hitting
   a protein target from plants costs more food mass because plant DIAAS is low (peas 64, wheat 40 vs  [@fao2013]
@@ -164,7 +169,8 @@ do nothing at the intakes someone considering them would actually eat. `-> SC-11
   scoped to this source, not to the literature. **Held.**
 - **Laundered independence:** none claimed. The page flags in advance that Reynolds shares an author
   with Te Morenga and cannot corroborate independently. **Clean.**
-- **Residual risk:** single-source, `confidence: low`, and the pulses section leans on an power argument that is the wiki's, not SACN's. Marked as such.
+- **Residual risk:** single-source, `confidence: low`, and the pulses section leans on an
+ power argument that is the wiki's, not SACN's. Marked as such.
 
 ## Fibre ISOLATES are better evidenced than fibre-bearing foods — and SACN bounds why `[chunk 09]`
 
@@ -192,6 +198,7 @@ randomised at a chosen dose; whole-grain intake mostly cannot, so it is observed
 tracks the better design, not the better food** — and SACN attaches the transportability caveat
 itself, twice, in the same clause as the finding: the effect is demonstrated *at supplement-level
 intakes*, which is not a claim about eating more of a fibre-bearing food.
+[inferred from @sacn2015]
 `-> [[Is the Food Category Doing Any Work]]`, `-> [[Upgrading Observational Evidence]]`
 
 ## The 30 g target against what people actually eat `[chunk 08/10]`
@@ -276,6 +283,9 @@ its individual constituents are not — which is [[Is the Food Category Doing An
 opposite direction to its usual use. **What survives is narrower and still useful:** two Tier-A bodies
 looking at overlapping literature reached *"measured and null"* and *"barely studied"*, and a reader
 told only one of the two would form a different picture of how settled this is.
+
+
+
 ### What NNR adds that SACN does not have
 
 - **An explicit carve-out for refined grains, on an energy-adequacy warrant.** NNR's science advice

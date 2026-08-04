@@ -12,7 +12,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-07-30
+updated: 2026-08-04
 self_critiqued: 2026-07-28
 ---
 
@@ -36,6 +36,9 @@ application is personal. **Titling a page like this for a specific individual's 
 would invert that** — the telos is explicit that the wiki *"is never built around one person's
 situation"*, and that stratification and outcome-weighting belong to **layer 3, per case, after the
 fact**. Any actual person's values live outside the graph, never in it.
+
+
+
 ## The honest answer first
 
 **The wiki cannot yet rank these interventions against one another, and the reason is specific: it
@@ -43,6 +46,9 @@ holds no baseline risk for this stratum, and no magnitude at all for the two lar
 
 Layer 1 ranks by **effect size x certainty**, and effect size means *absolute* effect at a stated
 baseline risk. Of eight exposures below, **one** has an absolute effect on a hard outcome.
+
+
+
 ## What is held
 
 | Exposure | Effect | Outcome type | Certainty | Source page |
@@ -66,6 +72,9 @@ outcome — a marker can move the right way while patients do worse.
 - **Total diet replacement, 800-1200 kcal, maximum 12 weeks** — [[Diets for Weight Loss - What NICE Recommends]]
   carries NICE's recommendation, its bounds and its strength, but **not its effect size**. The review
   reports one; this wiki never extracted it. **The cheapest single fix on this page.**
+
+
+
 ## What is EMPTY — and this is the finding
 
 | Lever | Status | Why it is empty |
@@ -99,6 +108,9 @@ outcome — a marker can move the right way while patients do worse.
    reduction in hard CV events for a low-risk primary-prevention person. So item 2 sharpens: the weight
    lever is no longer *unquantified* on hard CV outcomes — it is *quantified as unproven/null* via the
    lifestyle route, which is the ceiling itself.
+
+
+
 ## What would change the answer
 
 In priority order, all from already-staged material:
@@ -111,6 +123,9 @@ In priority order, all from already-staged material:
    held without its effect size.
 3. **Ingest WHO Physical Activity + PAGAC** and record, as a G-gap, that the absolute layer is
    structurally absent from the activity literature as it reaches guidance.
+
+
+
 ## Limits
 
 - **One illustrative stratum, chosen to make the gaps concrete, not induced from the corpus.** The telos
@@ -121,6 +136,9 @@ In priority order, all from already-staged material:
   what it lacks — not what is true, and not that acting on it improves any outcome.
 - **No independent re-checking was done for this page.** Each row is carried from its claim page and
   inherits that page's audit status — nothing more.
+
+
+
 ## Activity enters the hierarchy with a magnitude `[2026-07-27]`
 
 Layer 1 requires magnitudes *comparable enough to make the ordering visible* — *"an effect stated only
@@ -140,7 +158,10 @@ large: **HR 0.34 (0.27-0.43)** at the maximum for device-measured total activity
 
 **The caution that keeps this honest:** the ranking is by expected effect **x certainty**, and this
 estimate is observational and between-quartile, so reverse causation is not excluded by design. A
-large HR from cohorts does not outrank a smaller one from trials automatically.]]`
+large HR from cohorts does not outrank a smaller one from trials automatically.
+
+
+
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
 NNR is the first source the wiki holds that **publishes an
@@ -176,6 +197,7 @@ far down the same list while being the dominant lever for the person who has it.
 a public-health resource-allocation question; layer 1 asks a personal one.** Reading the first as the
 second is a unit-of-analysis error, and it is a seductive one because both are honestly called
 "ranking dietary risk factors".
+[inferred from @nnr2023]
 
 **What it does license, which is not nothing:**
 
@@ -252,6 +274,7 @@ not a behaviour — and that is the finding, not an aside.
   behavioural risk factors (e.g. smoking, poor adherence)». **Smoking and adherence are exactly the
   behavioural exposures the telos names as dominant**, so part of what the 1.76 measures is already
   accounted for elsewhere in any ranking, and treating it as additive would double-count.
+  [inferred from @esc2021]
 
 **What would make this actionable rather than merely sobering:** a source on interventions that change
 the *stressor* rather than the *social position* — job control, social connection, stress-management
@@ -288,6 +311,7 @@ guidance body saying so about its own recommendations**, which is stronger than 
 - **It does not reorder anything on this page.** It bears on **how far down the list is worth going**,
   which is a different question from which item is largest — and it reinforces the ceiling finding
   above rather than competing with it.
+[inferred from @esc2021]
 
 ## The absolute layer arrives for one exposure — and it shrinks the lever `[2026-07-28, WHO SFA Annex 6]`
 
@@ -324,7 +348,10 @@ Full profile with relative effects and study counts:
 **What is still empty is unchanged.** Physical activity still has ratios without absolutes;
 pharmacotherapy, weight loss as an exposure, alcohol, sleep and smoking remain empty rows. **Annex 6
 filled one cell of one row — the SFA line — and demonstrated how much work an absolute layer takes per
-exposure.**]]`
+exposure.**
+
+
+
 ## A heavily-discussed lever that ranks near the bottom — meal timing `[2026-07-29, TREAT + eTRF]`
 
 [[Time-Restricted Eating]] enters the hierarchy as a **worked instance of *attention-is-an-anti-signal***:
@@ -335,6 +362,6 @@ at most, a small weight-independent surrogate signal from eating earlier, plus a
 signal from a careless late window. **It ranks below every hard-outcome row in the table above** and
 belongs with sodium/free-sugars as a small/surrogate lever — its prominence is a fact about the
 literature, not about its effect size. It is not added as a table row: there is no absolute hard-outcome
-effect to rank, which is itself the placement.]]`
+effect to rank, which is itself the placement.
 
 ## References

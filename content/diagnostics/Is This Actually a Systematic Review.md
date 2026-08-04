@@ -7,7 +7,7 @@ sources: [NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - What a Trustworthy Systematic Review Requires
@@ -21,6 +21,7 @@ review** applies prespecified, reproducible methods to *all* the eligible eviden
 review** is an expert's curated tour of the literature they chose to cite. The registry grades an SR/MA
 `gold`; a narrative review is `moderate` or `weak` — and the gap is not snobbery, it is a difference in
 what the review structurally *could* have missed. This diagnostic is the test that tells them apart.
+[inferred from @nasem2011fww]
 
 ## Why it matters — the selection the two review types make is different in kind
 
@@ -68,6 +69,8 @@ narrative description or set of tables that simply detail how many studies were 
   none carries an SR's weight.
 - **A single author, no protocol, no dual coding.**
 
+[inferred from @nasem2011fww]
+
 ## Green flags — this IS a systematic review (and how good a one)
 
 - A **registered protocol** (PROSPERO or equivalent) predating the results.
@@ -96,6 +99,7 @@ Revisit knows where to look for a systematic replacement:
 undue weight on weak sole sources; this test supplies the *reason* — a narrative review's selection is
 unaudited — and the `AWAITS` handle for each. `AWAITS` a systematic review or MA on any of these
 questions, which would replace the narrative anchor and let the held claim carry an SR-grade floor.
+[inferred from @nasem2011fww]
 
 ## Limits
 
@@ -109,5 +113,7 @@ questions, which would replace the narrative anchor and let the held claim carry
   same evidence-based-medicine tradition; this is F/shared-school, not type-E corroboration.
 - **Charter caveat.** IOM's SR definition was written for therapeutic comparative-effectiveness reviews;
   transporting it to nutrition reviews is an analogy (the SR machinery is shared), not the chartered use.
+
+[inferred from @nasem2011fww]
 
 ## References

@@ -151,7 +151,8 @@ from hand-waving. Here is the risk side by evidence state.
   and weight, not the trajectory of what a person values (the streetlight effect on the outcome side). It
   is unmeasured, which is distinct from absent.
 - **Thyroid C-cell / medullary carcinoma —** a rodent signal, not established in humans; this is the
-  transportability trap (animal != human). Held as insufficient/candidate, not as a human finding.
+  transportability trap (animal != human). Held as insufficient/candidate, not as a human finding
+.
 - **NAION (an eye disorder), bone density, pregnancy exposure, adolescent long-term development, and
   psychiatric outcomes —** mostly *insufficient evidence*, long-horizon. State as unknowns, never as
   nulls.

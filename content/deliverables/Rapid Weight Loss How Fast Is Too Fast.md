@@ -78,6 +78,7 @@ So every claimed harm below is sorted by which of three things it actually track
 This is the same discipline the wiki uses for any exposure: attribute each risk from the evidence,
 rather than assuming it attaches to the most visible variable (here, the number on the scale).
 
+
 ## The speed U-curve — curve or confound
 
 The popular model is a U/J-curve on speed — too slow is ineffective and demoralizing, too fast rebounds
@@ -182,7 +183,8 @@ transient or method-mediated rather than a blanket *fast is dangerous*.
 - **Kidney / metabolic — severity-tied.** Very restrictive loss raises uric acid and can precipitate gout
   flares, and severe or prolonged restriction carries refeeding-electrolyte risk (hypophosphatemia,
   thiamine depletion) when eating resumes — the refeed is part of the protocol, not an afterthought
-  ([[Fasting Benefits and Risks]]). These track *severity* of restriction rather than rate as such.] without a dedicated held magnitude]`
+  ([[Fasting Benefits and Risks]]). These track *severity* of restriction rather than rate as such.
+
 - **The historical hard stop — the true *too extreme is lethal* evidence.** In the early 1980s,
   very-low-calorie *liquid-protein* diets caused cardiac (arrhythmic) deaths — the reason modern
   very-low-calorie diets are protein-adequate, micronutrient-complete and supervised. This is the real
@@ -253,7 +255,7 @@ spared, visceral fat preferentially cut) at the cost of energy compensation, inj
 so it is a composition tool, not an efficient scale-weight tool. **The magnitude of the body-composition
 trade-off — how much muscle spared and visceral fat preferentially lost, diet-only vs diet-plus-exercise
 at a matched deficit — is not held** (the Verheggen 2016 / Khalafi 2023 type SR, gap below); what is held
-is the compensation ceiling and the muscle-preservation mechanism.] and [[Exercise Energy Compensation]]; the compensation magnitudes are extracted; a head-to-head body-composition SR is a gap]`
+is the compensation ceiling and the muscle-preservation mechanism.
 
 ## The ranking verdict: rate is a second-order knob with stratum-dependent teeth
 

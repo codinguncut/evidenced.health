@@ -88,6 +88,7 @@ This taxonomy is the **institutional, itemized** form of Ioannidis's deflators o
 (bias `u`, flexibility, many teams) -> [[Most Published Findings Are False (PPV of a Field)]]. It is
 **not an independent route to the same conclusion** (F-refinement, same lineage — NASEM Ch 1 cites
 Ioannidis 2005), so the convergence raises no type-E confidence; it operationalizes the model rather
-than corroborating it.]]`
+than corroborating it.
+[inferred from @nasem2019]
 
 ## References

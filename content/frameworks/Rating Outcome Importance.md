@@ -81,6 +81,7 @@ compelling. [@grade, §3.1]
   Read the other way it becomes permissive rather than restrictive, which is the reverse of its role.
   That constrains motivated demotion without excluding it — the
   test asks whether the outcome could have mattered, not whether the demoter wanted it to.
+  [inferred from @grade]
 
 ## A cause-specific benefit without a mortality benefit is not a null (2026-08-01)
 
@@ -94,6 +95,7 @@ Reading *events down, mortality flat* as *does nothing* collapses the outcome me
 alone, the exact error the three-category rating exists to prevent (critical AND important outcomes
 both bear on a recommendation). How much a disabling-but-non-fatal event weighs against length of life
 is then the person's layer-3 call.
+
 
 ## Decision relevance
 

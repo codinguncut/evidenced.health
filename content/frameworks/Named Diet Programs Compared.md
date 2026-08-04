@@ -17,7 +17,7 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**
@@ -27,7 +27,7 @@ paleolithic) and three macronutrient patterns (low-carbohydrate, low-fat, modera
 one network, ranked on weight and five cardiovascular risk factors at 6 and 12 months. It is the wiki's
 **comparative-effectiveness island** for the whole named-diet field, and it answers the "which diet
 wins" question directly rather than one pairwise contrast at a time. **Search to September 2018;
-GRADE-rated throughout; Johnston/Guyatt (McMaster) group.**
+GRADE-rated throughout; Johnston/Guyatt (McMaster) group.** [@ge2020]
 
 Orbiter of the `weight-management` cluster; the nucleus is
 [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]], which holds the low-carb-vs-balanced pairwise case
@@ -87,7 +87,7 @@ metabolic advantage — isocaloric controlled feeding (Hall & Guo 2017) finds no
 energy-expenditure edge for carbohydrate restriction, refuting the carbohydrate-insulin model's
 metabolic-advantage prediction -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]
 (where that evidence is held). Ge's near-equivalence across 14 named diets is the free-living,
-whole-programme face of that same null.]]`
+whole-programme face of that same null. [inferred from @ge2020]
 
 ## The one exception: Mediterranean holds at 12 months
 
@@ -160,6 +160,7 @@ would move both together.
 | Independent backing? | — | — | **NO — shared trial pool, F not E** |
 
 [@ge2020]
+[inferred from @ge2020]
 
 Ge's own external corroborations are also shared-standpoint, not independent witnesses: it aligns with
 the 2014 AHA/ACC/TOS guideline «concluding that evidence was inadequate to recommend any particular diet»
@@ -178,6 +179,8 @@ macronutrient-defined diet without a recommendation
   the only case where the pattern name plausibly carries something past 6 months.
 - **Nothing here speaks to hard outcomes.** The between-diet mortality/event comparison has never been run
   in this literature; the near-equivalence verdict is on surrogates over <=1 year.
+
+[inferred from @ge2020]
 
 ## Limits
 

@@ -32,6 +32,8 @@ the fat-to-lean ratio. So the decision is not *fight menopausal weight gain* —
 (resistance training, visceral-fat reduction) leading and HRT a small, separate adjunct on body
 composition.
 
+
+
 **The endocrine-body-composition facet of the `weight-management` cluster** (orbits the
 [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]] nucleus). It is the female mirror of
 [[Testosterone Adiposity and Muscle]] — the same adiposity <-> sex-hormone axis, read in the other
@@ -91,6 +93,8 @@ waist.
 
 
 ## Limb 3 — the levers that respond (and the one that does not)
+
+[inferred from @ambikairajah2019; @nams2022]
 The stratum-specific changes map onto levers the wiki already holds — this is Layer-1 stratification by
 *baseline-risk shift* (route a) and by *what the mechanism needs*, not a new intervention menu:
 
@@ -112,7 +116,9 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   subgroup — a body-line, not a headline).
 
 
-## Synthesis — the sex-symmetry with testosterone (type-A)]]`
+## Synthesis — the sex-symmetry with testosterone (type-A)
+
+[inferred from @ambikairajah2019]
 Line this page up against [[Testosterone Adiposity and Muscle]] and one axis runs through both, in
 **opposite directions** — a synthesis present in neither source alone:
 
@@ -133,6 +139,8 @@ menopause. -> [[Surrogate Outcomes]].
 
 ## Decision relevance
 
+
+
 - **Do not treat the scale; watch the waist.** Total-fat gain across midlife tracks aging and would happen
   regardless; the menopause-specific, cardiometabolically-relevant change is *central redistribution* —
   measured by WC/WTHR/trunk fat, not BMI.
@@ -147,6 +155,8 @@ menopause. -> [[Surrogate Outcomes]].
 
 
 ## Limits and gaps
+
+
 
 - **Observational base.** Ambikairajah pools mostly cross-sectional studies (201 vs 11 longitudinal), with
   high heterogeneity and some publication-bias asymmetry; magnitudes are descriptive, and cross-sectional

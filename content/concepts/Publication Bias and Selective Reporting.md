@@ -63,6 +63,7 @@ relative effect on a small baseline is doubly discounted. **Caveat — the shrin
 from psychology / social-science replication projects; the *direction* (published originals
 over-estimate) transports, but the *size* of the discount for a nutrition effect estimate is
 domain-uncertain and not read off the "halved" figure.**
+[inferred from @nasem2019]
 
 ## Where this bites in this fabric
 
@@ -79,7 +80,8 @@ Publication bias is one of Ioannidis's bias terms lowering a field's PPV, and th
 published a positive" pattern is the winner's-curse he formalizes
 -> [[Most Published Findings Are False (PPV of a Field)]]. NASEM **institutionalizes and itemizes** it
 rather than re-deriving it independently (F-refinement, same lineage — NASEM cites Ioannidis 2005),
-so this is not type-E corroboration and adds no independent-backing confidence.]]`
+so this is not type-E corroboration and adds no independent-backing confidence.
+[inferred from @nasem2019]
 
 ## From concept to assessable procedure — Cochrane Ch 13 operationalizes detection `[2026-07-31]`
 

@@ -8,7 +8,7 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Is This Actually a Systematic Review
@@ -102,6 +102,7 @@ the error. Where they agree on substance (RoB matters; pooling is earned) the ag
 AHRQ / CRD / Cochrane guidance, with GRADE «a primary source for Chapter 4» and PRISMA «for Chapter 5»,
 and endorses all PRISMA items. Three bodies in one methodology lineage converging is one school, not
 three witnesses. No `[E-independent]` is claimed.
+[inferred from @nasem2011fww; @cochranehandbook2024]
 
 ## Using the standard as a class-5 (process-defect) benchmark — the instrument the wiki lacked
 
@@ -160,6 +161,8 @@ buys transparency, never truth. -> [[Mechanical Objectivity (Quantification as a
   scope the finding to what that standard covers; check the deviation was not justified.
 - **Meeting the standard is necessary, not sufficient.** A conforming review of a distorted evidence
   base is still distorted — hold the bar's own open-loop caveat.
+
+[inferred from @nasem2011fww]
 
 ## Limits
 

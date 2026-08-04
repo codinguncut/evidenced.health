@@ -20,7 +20,10 @@ relationships:
 Two guideline families, the same cohort evidence, opposite instructions. WCRF 2018: *limit red meat,
 eat little if any processed meat.* NutriRECS 2019: *adults may continue current consumption* (weak
 recommendation). The evidence is on [[Red and Processed Meat and Cancer]]; this page is the joined
-issue. / [@nutrirecs2019]]`
+issue.
+
+
+
 ## Both positions in their own terms
 
 - **WCRF (limit).** Processed meat is a "convincing" and red meat a "probable" cause of colorectal
@@ -49,6 +52,9 @@ issue. / [@nutrirecs2019]]`
 
 The last column is the finding: **the sources match on the decision and the data, and diverge on the
 grade, the absolute framing, the values input, and the standpoint.**
+
+
+
 ## The NutriRECS evidence base underneath — now held, and it grounds the "shared data, low grade" crux `[2026-07-29]`
 
 The parameter table's "shared base / low grade" rows were previously abstract; the three underlying Annals
@@ -121,6 +127,9 @@ source, so cutting it shifts protein toward lower-quality plant sources unless d
 complementation is deliberate -> [[Protein Quality and the DIAAS Score]]. This does not change the
 cancer adjudication; it is a second axis the person weighs against it (and the antinutrient worry about
 the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]]).
+
+
+
 ## The one thing that would move this — and a caveat on NutriRECS
 
 - **CASHED `[2026-07-29]` — the values-and-preferences review is now held (Valli 2019).** NutriRECS's

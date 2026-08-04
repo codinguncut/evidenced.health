@@ -17,7 +17,7 @@ relationships:
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-31
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
@@ -34,6 +34,8 @@ effect from a nutrient effect**. The observational breadth is Lane 2024; the cau
 separate the two is an inpatient feeding trial not yet held.: an inpatient RCT matching UPF and
 non-UPF diets on the nutrients NNR says carry the effect — if UPF still moves energy intake at matched
 composition, processing is doing independent work.
+
+[inferred from @lane2024upf; @nnr2023]
 
 ## What Lane 2024 is — and is not
 
@@ -70,7 +72,8 @@ Lane grades every pooled analysis **twice**, and reading only one axis misleads:
 — CVD-related mortality, class I *convincing* — is **GRADE very low**. Only 4 of 45 analyses reach GRADE
 *moderate*; 22 are *low* and 19 *very low*. A class-I credibility grade says *the association is real and
 survived the bias screens*; it does **not** say *the evidence is strong for causation*. Read together, the
-honest summary is: **broad, consistent associations at low-to-very-low causal certainty.** -> [[Rating Certainty of Evidence]], [[Upgrading Observational Evidence]]
+honest summary is: **broad, consistent associations at low-to-very-low causal certainty.**
+[inferred from @lane2024upf] -> [[Rating Certainty of Evidence]], [[Upgrading Observational Evidence]]
 
 ### The headline associations (highest-vs-lowest exposure unless noted; all observational)
 
@@ -109,6 +112,7 @@ heavy alcohol). Since UPF intake is *itself* strongly correlated with the big ro
 quality), much of the ranking weight may already be captured by exposures higher in the
 [[Layer 1 - Ranking Interventions for a Stratum]] hierarchy. *Attention is an anti-signal* applies with
 force: UPF is among the most-discussed exposures and the effect sizes are modest and confounded.
+[inferred from @lane2024upf]
 
 ## The bias screens fired — on the headline outcomes
 
@@ -146,6 +150,7 @@ meta-analysis found that adjusting for diet quality or patterns does not change 
 *pattern* is not the same as matching the *nutrient profile*** — the very sugar/salt/fat/fibre content
 that *makes* a food ultra-processed and nutrient-poor at once. A residual association after diet-quality
 adjustment does not separate processing from composition; only a design that holds composition fixed can.
+[inferred from @lane2024upf; @nnr2023]
 
 **Lane's own data contain the counter-evidence.** Within the T2D meta-analysis it includes (Chen 2023),
 «while certain subcategories of ultra-processed foods further showed higher risk, others were inversely
@@ -190,6 +195,8 @@ page say processing does independent work on energy intake, rather than merely c
   question the person may care about most is silent.
 - **Do not read this as a big rock.** For someone with a dominant exposure unaddressed (smoking, obesity,
   inactivity), no UPF precision changes what to do next. -> [[Layer 1 - Ranking Interventions for a Stratum]]
+
+[inferred from @lane2024upf; @nnr2023]
 
 ## Provenance and halo note (symmetric standards)
 
@@ -242,6 +249,7 @@ The critique: if "processed food is bad" is not a confirmable category claim, wh
 
 So "in the guidelines" and "not a confirmable category claim" coexist: the strongest appraisal declines the
 category recommendation, and the softer uses are heuristic.
+
 
 
 ## Additives are not homogeneous - "thin" means insufficient, not safe (deliverable-critique, 2026-08-01)

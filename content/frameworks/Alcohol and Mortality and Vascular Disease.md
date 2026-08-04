@@ -20,6 +20,9 @@ relationships:
 Opens the `alcohol` cluster. The famous finding that *moderate drinkers outlive abstainers* — the
 J-curve — is the textbook case of a protective lower arm that dissolves under scrutiny. Two
 independent methods say the protection is largely not real.
+
+
+
 ## The observational J-curve — the appearance
 
 - **All-cause mortality (Stockwell, 87 studies).** Unadjusted, the «classic J-shaped curve» appears:
@@ -82,6 +85,9 @@ bias-correction route and a genetic route that share no data or lineage and neit
 as antecedent — a genuine independent-backing lift, not a shared-study echo. The effect *sizes* are not
 matched (different outcomes), so this is an E on the *direction*, not a pooled magnitude.
 Corroborated across [[The U-Shaped Association Artifact]].
+
+
+
 ## The updated meta-analysis, and where harm starts `[Zhao 2023]`
 
 Zhao et al. 2023 updates the observational analysis to **107 studies, 4.8 million people** and confirms
@@ -129,6 +135,9 @@ frequently artifacts of reverse causation or confounding*. This ingest builds th
 alcohol case the prior **holds** (the protective arm is artifact, shown two ways). Per the ingest
 contract, the fabric records this; the `[PRIOR]` is *scored* in a separate pass, against this and the
 still-open sodium J-hypothesis -> [[Sodium Intake and Blood Pressure]], [[The U-Shaped Association Artifact]].
+
+
+
 ## Limits
 
 - **All-cause mortality (Stockwell) and vascular disease (Millwood) are different endpoints** — matched

@@ -93,17 +93,26 @@ likely to be low"*, and a dedicated list of *"Key questions when using test accu
 - **Is the marker -> outcome link itself evidenced?** GRADE places surrogate use under indirectness,
   which presumes the link is an inference rather than an observation. The strength of *that* link is
   the whole question, and it is a separate evidential claim from the intervention -> marker effect.
+
+
+
 ## Red flags
 
 - A marker used because it is measurable, where the patient-important outcome was never named
   (the failure [[Rating Outcome Importance]] guards with the empty-row rule).
 - A target expressed as a threshold on a marker, with no statement of which outcome it is a route to.
 - Certainty ratings that look high for a body of evidence entirely composed of marker studies.
+
+
+
 ## Green flags
 
 - The evidence profile names the patient-important outcome, shows the surrogate used for it, and
   carries an explicit indirectness downgrade.
 - The direction *and magnitude* of the marker -> outcome transmission is cited, not assumed.
+
+
+
 ## Decision relevance
 
 A surrogate may legitimately serve as a **target to steer toward** even where it is a weak stand-in
@@ -125,6 +134,9 @@ so lowering it (by diet or drug) reduces events in proportion to the reduction a
 cases: not all surrogates are equal, and this one has earned target status. (The proviso still bites —
 the transmission holds only where the LDL-C drop reflects a real particle-number drop and carries no
 off-target harm.)
+
+
+
 ## Applied — WHO downgrades strength because the evidence is a surrogate
 
 WHO's 2023 fat guideline supplies a worked instance of a surrogate costing *strength*, not just
@@ -197,6 +209,9 @@ survives is the observation above and the habit -- not an allegation.
   framework (trial-level and individual-level association measures) would convert both into checkable
   standards; whether one exists that guideline bodies actually apply is **unprobed here**.
 - **Source currency:** §3 is flagged in-source as rewritten in the 2024 GRADE Book.
+
+
+
 ## A guidance-level version of the same critique `[2026-07-28, Willett ch.16]`
 
 This page asks when a recommendation may rest on a marker. Willett's policy chapter makes the same
@@ -302,6 +317,7 @@ a lipid response can be randomised, measured in weeks, in small samples, while a
 of a general claim about this literature** — that wherever a nutrient acts through a measurable
 intermediate, the intermediate will be better graded than the endpoint, **structurally and
 permanently**, because the designs that grade well are the ones the intermediate admits.
+[inferred from @who2023saturated; @who2012]
 
 **Why this is the practical core of the surrogate problem.** The pressure to act on the marker is not
 irrationality — **it is a rational response to the marker being the better-evidenced quantity.** A
@@ -405,7 +421,8 @@ potential for confounding.» [@uspstfmanual2022]
 downgrades one-or-two levels and lets a reasoned biology judgement escape the penalty (WHO's LDL case
 above). USPSTF instead makes the intermediate->health linkage *presumptively unconvincing*, so a
 recommendation resting on a marker is pushed toward its indirect-evidence pathway and the certainty of
-net benefit is capped accordingly. **Two instruments, same concern, different severity of the default.** -> [[GRADE vs USPSTF - Two Appraisal Systems]]
+net benefit is capped accordingly. **Two instruments, same concern, different severity of the default.**
+[inferred from @uspstfmanual2022] -> [[GRADE vs USPSTF - Two Appraisal Systems]]
 
 **And the mortality corollary is stated plainly:** «few preventive interventions have a measurable
 effect on all-cause mortality» — so USPSTF routinely grades on a health outcome one step short of death,
@@ -459,5 +476,7 @@ prediction), made concrete on a patient-important outcome. It is the textbook *m
 while patients did worse* warning, realised. (Bound it: one RCT substudy, HR 1.43 with a CI that barely
 excludes 1 [1.04-1.97], mechanism unknown — a striking instance, not a settled law.)
 -> [[Testosterone Adiposity and Muscle]]
+
+[inferred from @grade; @snyder2024]
 
 ## References

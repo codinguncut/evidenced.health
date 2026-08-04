@@ -8,7 +8,7 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Rating Certainty of Evidence
@@ -189,6 +189,7 @@ Design choices feed GRADE *indirectness*, not RoB.
   is pharmacological. Food-industry funding is a live concern, but transporting the drug-trial
   funding-effect magnitude to it is an **inference, not a cited finding**
   `[searched: fund/sponsor/industry/food/sugar across chunk 09 — no food example]`.
+  [inferred from @cochranehandbook2024]
 
 ## Where these tools would sharpen a held grade (re-appraisal candidates — a G-thread)
 
@@ -208,6 +209,7 @@ deliberate future Revisit, out of scope here.
 
 `AWAITS` a deliberate Revisit that applies ROBINS-I domain-by-domain to Reynolds / Vernooij / Baudry —
 resolved when any held observational page carries a per-domain ROBINS-I read rather than this pointer.
+[inferred from @cochranehandbook2024]
 
 ## Decision relevance
 
@@ -220,6 +222,8 @@ resolved when any held observational page carries a per-domain ROBINS-I read rat
 - **The verdict is one-way input to certainty.** A study's RoB feeds GRADE; GRADE certainty is the
   body-level output. Don't read a per-study "High" as a body-level certainty grade.
 
+[inferred from @cochranehandbook2024]
+
 ## Limits
 
 - **Signalling-question algorithms give *proposed* judgements**, overridable — the tool structures
@@ -231,5 +235,7 @@ resolved when any held observational page carries a per-domain ROBINS-I read rat
   claims are cross-referenced to held GRADE material but the tools are described from one handbook.
   `AWAITS` a second methods source that uses or critiques RoB 2 / ROBINS-I to bank a real cross-source
   comparison.
+
+[inferred from @cochranehandbook2024]
 
 ## References

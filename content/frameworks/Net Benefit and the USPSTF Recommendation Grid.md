@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 USPSTF forms a recommendation from **two axes only** — certainty of net benefit, and magnitude of net
@@ -38,7 +38,7 @@ Two consequences the definition forces:
   weighing in first: certainty is certainty *about the netted quantity*. -> [[GRADE vs USPSTF - Two Appraisal Systems]]
 - **It is absolute and population-scoped** — «as implemented in a general primary care population». Net
   benefit is a per-1000-persons quantity, which is why USPSTF «generally prioritizes ARR over RRR»
-  -> [[Baseline Risk and the Relative-Absolute Split]].
+  -> [[Baseline Risk and the Relative-Absolute Split]]. [inferred from @uspstfmanual2022]
 
 ## The two axes
 
@@ -119,6 +119,7 @@ Read literally, the grid encodes three rules:
   priority»), so its output cannot be read as a ranking; USPSTF's can, because magnitude is a named axis.
   -> [[Layer 1 - Ranking Interventions for a Stratum]]. **Caveat: USPSTF's magnitude is of *net*
   benefit (harms already subtracted), Layer 1's is of gross effect** — close, not identical.
+  [inferred from @uspstfmanual2022]
 - **Reading a USPSTF grade: recover the two axes.** A *B* can be high-certainty-moderate or
   moderate-certainty-moderate-to-substantial — different evidence states behind one letter. A *C* is not
   a weak *B*; it is a *small net benefit known with at least moderate certainty*, an affirmatively small
@@ -138,5 +139,7 @@ Read literally, the grid encodes three rules:
   makes.
 - **Coherence, not validity** (method-risks R1): the grid is an instrument for *forming* a recommendation
   transparently, not evidence any recommendation it produces is correct.
+
+[inferred from @uspstfmanual2022]
 
 ## References

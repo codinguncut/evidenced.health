@@ -130,7 +130,7 @@ The consequence for what you buy is direct. The causal lever is **grass vs grain
 certification only *correlates* with pasture — it mandates outdoor access but not a forage-dominated diet.
 So a **pasture-raised conventional** animal can beat an **organic grain-fed** one on exactly the nutrient
 that reaches the milk or meat. If this fat profile is what you are after, the exposure to steer by is
-**grass-fed / pasture**, not the word *organic*. -> [[Is the Food Category Doing Any Work]]
+**grass-fed / pasture**, not the word *organic* [inferred from @srednickatober2016milk; @srednickatober2016meat]. -> [[Is the Food Category Doing Any Work]]
 
 Two honesty checks. **How large this is in absolute terms is unknown here:** the sources report *relative*
 product-level differences, and no held source quantifies dairy and meat's share of your total omega-3

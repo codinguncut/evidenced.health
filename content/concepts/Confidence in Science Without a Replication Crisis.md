@@ -8,7 +8,7 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 relationships:
   related_to:
     - Sources of Non-Replicability
@@ -23,6 +23,7 @@ not**. Its calibrated position is itself the finding: non-replication is expecte
 uninterpretable in aggregate, and confidence comes from the *web* of evidence, not from any two
 studies matching. Represent this measured stance; do **not** import a "science is broken" narrative
 the report resists.
+[inferred from @nasem2019]
 
 ## The report refuses the "crisis" frame
 
@@ -89,5 +90,7 @@ it disrupts least, not wherever it is loudest.
   already uses for its own claims, now sourced from a domain-external consensus body.
 - **The honest register is calibrated, not alarmed** — which is the wiki's own *the loop is open,
   never let a clean audit read as validation* stance, stated for the replication question.
+
+[inferred from @nasem2019]
 
 ## References

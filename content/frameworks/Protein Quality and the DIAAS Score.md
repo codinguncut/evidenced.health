@@ -15,7 +15,7 @@ relationships:
     - Surrogate Outcomes
     - Is the Food Category Doing Any Work
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-04
 self_critiqued: 2026-07-29
 ---
 
@@ -24,6 +24,9 @@ self_critiqued: 2026-07-29
 *limiting* amino acid caps the score) times **digestibility** (how much is actually absorbed). It says
 nothing about how much protein a food carries, nor whether eating higher-quality protein changes any
 outcome a person cares about. It is a **surrogate**, and the section at the bottom holds that line.
+
+
+
 ## DIAAS replaces PDCAAS, and the reason matters for plant proteins
 
 The 2013 FAO Expert Consultation recommends a new metric:
@@ -87,6 +90,9 @@ high carb load and high bulk."* Decompose it against what the wiki now holds:
   wiki does not hold — FAO gives DIAAS and protein-per-100 g for three illustrative foods, not the
   composition tables. **Do not fabricate the arithmetic.** `-> ingest-queue.md` (a food-composition /
   FAO INFOODS-class source).
+
+
+[inferred from @fao2013]
 ## "Unprocessed" may be the binding constraint — not "plant"
 
 FAO names the digestibility drag on plant proteins explicitly:
@@ -124,7 +130,8 @@ toxicity side*, and shows they are largely defused by the same step:
 
 So the maintainer's two separate questions — *"is soaking worth it?"* and *"is plant protein
 bioavailable?"* — are **one variable (antinutrient load) with one lever (traditional processing) seen
-from two sides.** The lever raises protein quality and lowers the toxicity concern at the same time. -> [[Antinutrients in Plant Foods]].
+from two sides.** The lever raises protein quality and lowers the toxicity concern at the same time.
+[inferred from @fao2013; @petroski2020] -> [[Antinutrients in Plant Foods]].
 
 The caveat that keeps this from becoming a slogan: the identity holds for the digestibility-acting
 subset (**phytate, tannins, trypsin inhibitors**). Antinutrients acting elsewhere — oxalate on mineral
@@ -157,6 +164,9 @@ remain or complementation is deliberate, more real for a strict plant shift. The
 different ways (quality favours animal/dairy; the cancer axis mildly favours cutting red/processed meat;
 the antinutrient worry is defused by preparation, [[Antinutrients in Plant Foods]]) — so the decision is
 multi-axis, not a single verdict, and the quality axis is the one this page supplies.
+
+
+[inferred from @fao2013]
 ## The surrogate line — do not let a high score become a recommendation
 
 DIAAS is a **surrogate**: it predicts how well a protein *could* meet amino-acid demand. The wiki holds
@@ -166,6 +176,9 @@ score is a target only if its transmission to a real outcome is itself evidenced
 here -> [[Surrogate Outcomes]]. For someone eating a varied diet with any animal protein or deliberate
 complementation, the limiting-amino-acid problem is largely solved at the *diet* level regardless of
 any single food's score — which is [[Is the Food Category Doing Any Work]] applied to protein.
+
+
+
 ## Provenance and limits
 
 - **FAO 2013 is guideline-grade** (an FAO Expert Consultation), but it is a *methods* report — it

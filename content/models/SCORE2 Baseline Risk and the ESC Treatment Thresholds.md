@@ -12,14 +12,17 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Saturated Fat Intake and Replacement
 created: 2026-07-26
-updated: 2026-07-28
+updated: 2026-08-04
 self_critiqued: 2026-07-28
 ---
 
 **The conversion layer.** [[Baseline Risk and the Relative-Absolute Split]] holds the machinery and, as
 of today, study-control-rate baselines; this supplies the missing piece — a **prognostic** baseline for
 a named stratum rather than a trial population's event rate. Every relative effect in the corpus becomes an absolute one
-once a stratum-specific 10-year risk exists.]`
+once a stratum-specific 10-year risk exists.
+
+
+
 ## The thresholds — and they move with age
 
 | | **<50 years** | **50-69 years** | **>=70 years** |
@@ -98,6 +101,8 @@ cardiovascular disease. At a 10% baseline:
    **SCORE2-Diabetes exists precisely because the base model does not cover diabetes**, and it is
    staged but not ingested.
 
+[inferred from @esc2021; @who2023saturated]
+
 **The novelty here is narrow, and the tempting larger claim is false.** It is *not* the case that
 neither source performs this conversion: **WHO performs it throughout** — its evidence profiles carry an
 "Absolute - per 1000" column and report **15 fewer per 1000 (25 fewer to 2 fewer)** for this exact RR,
@@ -124,12 +129,15 @@ Note also that WHO grades this estimate **Moderate** certainty; the RR should no
   person, [[Lifetime Benefit - The Frame for Younger Adults]] reframes it in CVD-free years gained.
 - **The threshold is the decision, not the percentage.** SCORE2 outputs a number; Table 5 is what turns
   a number into an action — and it is the part most often dropped when the model is quoted.
+
+
+[inferred from @esc2021]
 ## Limits
 
 - **Two ESC conditions the charts carry and this page must not drop:** they apply only to people whose
   risk factors are *untreated or have been stable for several years* — often false in metabolic
   syndrome, where BP and lipids are frequently treated — and *"Risk estimates then need to be adjusted
-  upwards as the person approaches the next age category."*
+  upwards as the person approaches the next age category."* [@esc2021]
 - **Region-calibrated, and the region does most of the work at the margin.** A risk read from the wrong
   chart is wrong by more than most interventions move.
 - **Base model excludes diabetes**, which bounds its use for exactly the stratum the wiki is targeting. (staged; augments the base model for the T2D stratum).

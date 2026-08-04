@@ -51,6 +51,7 @@ the page:
 The types overlap (oat beta-glucan is soluble, viscous *and* fermentable), but the split matters because a
 psyllium supplement, a bowl of bran and a plate of beans are not interchangeable across outcomes.
 
+
 ## Outcome by outcome
 
 ### Hard outcomes (mortality, heart disease, diabetes, colorectal cancer) — the strongest leg, and it is observational
@@ -129,6 +130,7 @@ Insoluble/bulking fibre adds stool bulk and speeds transit — the standard, unc
 lever — while viscous fibre slows gastric emptying (part of the satiety and glycaemia story). The wiki holds
 no dedicated source on fibre and GI transit, so the specific effect sizes (which fibre, how much, how fast)
 are **a named gap**, not a settled number. The direction is not in doubt; the quantification is unheld.
+
 
 ### The microbiome — fermentable fibre is the real lever
 
@@ -225,7 +227,10 @@ trial-grade causal effects are small and live in specific fibre types (viscous f
 bulking fibre for transit, fermentable fibre for the microbiome); and the 30 g figure is the edge of the
 evidence, not a threshold. Agreement with better warrant, not contrarianism.
 
+
 ## Gaps (stated plainly)
+
+
 
 - **Quantified fibre-to-glycaemia effect** is unheld — direction only.
 - **Fibre and GI transit / constipation / gastric emptying** has no dedicated source — mechanistically clear,

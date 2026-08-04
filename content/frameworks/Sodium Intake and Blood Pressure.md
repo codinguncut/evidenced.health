@@ -113,6 +113,7 @@ shared-evidence, no `[E-independent]`**. The magnitudes even differ from WHO's p
 -4.18 vs WHO's 36-RCT/49-comparison **-3.39**), which confirms they are *different pooled sets*, not the
 identical analysis: He 2013 is a verifiable SR the page can cite for the effect, not the literal
 document WHO distilled.
+[inferred from @he2013; @who2012]
 
 **What it does and does not move.** It **raises the warrant on the BP-effect leg** (a published gold SR
 now stands behind the surrogate). It does **not** touch this page's hard-outcome certainty split —
@@ -212,6 +213,7 @@ adverse metabolic effects that do not persist chronically; the full effect needs
 (DASH-Sodium showed a larger fall at week 4 than earlier). **Decision consequence for this page:** the
 pooled surrogate effect it holds is a *lower bound* on the sustained effect — the chronic BP benefit of
 a maintained reduction is larger than a trial-duration-mixed meta-analysis shows.
+[inferred from @huang2020]
 
 **3. The modifier is continuous baseline SBP, not the hypertensive/normotensive dichotomy.** Huang finds
 the **BP-status dichotomy non-significant** (normo/hyper P trend=0.08) while the **continuous
@@ -280,6 +282,7 @@ So the threshold claim rests on **high-certainty BP evidence at that threshold, 
 plus 5 indirect cohort comparisons showing a stroke effect**. What is absent is a *directly assessed*
 trial of the threshold against a hard outcome -- which is a narrower and more accurate statement than
 "zero evidence."
+[inferred from @who2012]
 
 ## Response heterogeneity — measured, then deliberately not acted on
 
@@ -299,6 +302,7 @@ By **baseline intake**, point estimates rise monotonically with intake (1.79 -> 
 5.74 mmHg across intake bands) and WHO reads the subgroup test as null (P=0.17), concluding the effect
 is "independent of baseline sodium intake." **A monotone gradient declared absent on a non-significant
 interaction test is a claim about power as much as about biology.**
+[inferred from @who2012]
 
 ## The J-curve — named as the reason for the review, then never adjudicated
 
@@ -354,6 +358,9 @@ rebuttal, not the adjudication.
 - **Any low- or middle-income-country evidence.** All RCTs were run in Australia, Europe, North America
   and New Zealand; cohorts in Europe, Japan and the USA. The PICO setting is "All countries" and
   transportability is never discussed -- while the guideline's stated motivation is LMIC-framed.
+
+
+
 ## Limits
 
 - 2012; self-dated for review "by the end of 2017". The post-2011 sodium controversy is by construction
@@ -372,6 +379,9 @@ rebuttal, not the adjudication.
   guideline does not do is apply it to the efficacy outcomes — those stay "inconclusive" in the body and
   reappear as *"no association"* in the Executive summary, which is the four-states error the telos
   names.
+
+
+
 ## The exposure measure here is in a different class from the rest of the corpus `[2026-07-28, Willett ch.8]`
 
 Almost every dietary exposure the wiki holds is measured by food-frequency questionnaire. **Sodium is
@@ -400,6 +410,7 @@ taxonomy and its consequences: [[Measurement Error in Dietary Assessment]].
   person against a cutpoint. **Sodium escapes it**, because an absolute intake can be measured
   directly. WHO's «<2 g/day sodium» is therefore one of the few guidance numbers in this corpus a
   person could actually be measured against.
+  [inferred from @willett; @who2012]
 
 ## A second guidance family on the same stratification — and it is NOT a second witness `[2026-07-28, ESC]`
 
@@ -438,7 +449,8 @@ ratio: 2.23** (SBP -5.39 hypertensive / -2.42 normotensive) — against WHO's 2.
 corpus now holds three \~2-3:1 hypertensive-to-normotensive gradients, **all from the same He/MacGregor
 lineage** — which is why none is an independent witness to another. Three numbers on one gradient is
 a robustness *of that group's finding*, not cross-group convergence; the spread (2.23-3.05) reflects
-different pooled sets and unstated doses, not three independent confirmations. (Not the stronger claim that both bodies pooled the *identical* study set — WHO's actual
+different pooled sets and unstated doses, not three independent confirmations.
+[inferred from @he2013] (Not the stronger claim that both bodies pooled the *identical* study set — WHO's actual
 pooled lists are in unpublished in-house reviews this page's Limits calls unverifiable; see the
 width-of-claim note below.)
 
@@ -446,6 +458,7 @@ width-of-claim note below.)
 different continent, different decade, near-identical ratio — and the substantive marker is absent.
 This is the laundering trap in its textbook form, and it was caught by checking the reference rather
 than by the numbers looking suspicious.
+[inferred from @esc2021; @who2012]
 
 **Stated at the width the evidence supports:** what is established is **shared primary-study lineage**,
 not that the two pooled estimates were computed from identical study sets. **The wiki has not
@@ -478,6 +491,7 @@ than the resting one, on the same exposure. **ESC supplies the mechanism.**
 So **office/resting measurement misclassifies a large minority**, in a direction that adds variance
 uncorrelated with the exposure. **An intervention effect measured against a noisier, upward-contaminated
 baseline attenuates**, which is the expected direction of the WHO resting-vs-ambulatory gap.
+[inferred from @esc2021; @who2012]
 
 ### ESC applies a measurement correction to SPRINT's headline number
 

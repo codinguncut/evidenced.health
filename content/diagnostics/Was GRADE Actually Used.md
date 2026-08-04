@@ -63,6 +63,7 @@ discount a recommendation.
 - Strength stated with no indication of **whose values** were assumed (fails 5). Values-variability
   is what makes a recommendation weak *despite* high-quality evidence, so omitting it removes the
   only way to interpret the rating.
+  [inferred from @grade]
 - Upgrade factors never mentioned at all — consistent with observational evidence having been floored
   at low without the three exits being considered, though the handbook makes no claim about how often
   that happens ([[Upgrading Observational Evidence]]).
@@ -73,6 +74,9 @@ discount a recommendation.
   ([[Rating Outcome Importance]]).
 - Footnotes recording close calls, including factors considered and *declined*.
 - An explicit statement of perspective and of how resource use was treated.
+
+
+
 ## Decision relevance
 
 - **A failed criterion is a specific, citable finding** — *certainty was not rated per outcome* is
@@ -83,6 +87,9 @@ discount a recommendation.
 - **Meeting all seven does not make a recommendation correct** — it means the judgments are visible
   enough to be argued with. That is what GRADE claims for itself
   ([[Rating Certainty of Evidence]]), and no more.
+
+
+
 ## Limits
 
 - The criteria test **conformance and transparency, not correctness**. A document can satisfy all
@@ -92,6 +99,9 @@ discount a recommendation.
   dispute with a body that rejects the framework rather than misapplying it.
 - **Source currency:** §8 is flagged in-source as rewritten in the 2024 GRADE Book (as
   *requirements for claiming the use of GRADE*).
+
+
+
 ## Run against a real guideline for the first time `[2026-07-28, WHO SFA 2023 Annexes 6-7]`
 
 This page held seven criteria and no worked application. **WHO's SFA guideline is now readable against
@@ -138,6 +148,9 @@ files of the source]`
 *"convention held here" is a reportable, valued finding*, and this page's own framing says the
 diagnostic exists to turn vague suspicion into an auditable finding — **which cuts both ways, and here
 it cuts toward the guideline.**
+
+
+
 ### The one real gap is in the CHECKLIST, not in WHO
 
 **Annex 7 publishes every domain judgement and the reasoning inside each domain. It publishes no rule
@@ -170,6 +183,7 @@ strength *judgements* be transparently reported. It does not ask for a combinati
 silence about weighting is **not** a conformance failure — **GRADE does not require it.** A
 process-defect charge on this ground would fail this page's own bar, which demands the defect be
 documented against the standard the body is held to.
+[inferred from @who2023saturated; @grade]
 
 **Bearing on the standing `[PRIOR — test me]` about undisclosed weighting, recorded and NOT scored**
 (adjudication is out of ingest scope). The prior's surviving form holds that *considerations are
@@ -197,6 +211,7 @@ A-through-I output, not Grading of Recommendations Assessment, Development and E
 means *the GRADE method*. A body can (a) use GRADE and claim it (run the check), (b) use a different
 system and say so (audit against that system — USPSTF), or (c) use the token "GRADE" for something else
 entirely (a naming collision, not a method claim). Only (a) is this page's job.
+[inferred from @uspstfmanual2022]
 
 ## This checks GRADE conformance; the SR PROCESS has its own standard now `[2026-07-31, IOM]`
 
@@ -212,5 +227,6 @@ GRADE-conformant grade computed over an untrustworthy evidence base. Conversely 
 graded by a non-GRADE system (USPSTF) and pass the IOM bar while this page's check does not apply. **Run
 both:** IOM for the review process, this page for the GRADE claim. Same shared lineage (IOM built its
 Chapter 4 body-of-evidence standard *from* GRADE), so their agreement is F, not independent corroboration.
+[inferred from @nasem2011fww]
 
 ## References

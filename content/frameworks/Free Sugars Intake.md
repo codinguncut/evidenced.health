@@ -15,7 +15,7 @@ relationships:
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -425,6 +425,7 @@ energy budget.
 - **NNR does not say this is why it declined a lower tier.** The adjacency is suggestive and the
   inference is tempting, but NNR never joins them, so the causal reading is the wiki's, not the
   report's, and is marked as such.
+  [inferred from @nnr2023]
 - **Note the second-order irony, which is real and worth keeping:** the same data-gaps sentence flags
   *«a lack of a standardized definition for dietary sugars (free and added sugars)»* as a field-level
   gap, while NNR's own glossary supplies a definition that matches WHO's. Those are compatible — a body
@@ -487,6 +488,8 @@ three".
   independence is present (different authors, journals, years, outcomes) and the substantive ones on
   the appraisal limb are absent. -> [[Certainty of Evidence vs Strength of Recommendation]]
 
+[inferred from @te2013; @moynihan2014; @who2015]
+
 **What this does NOT establish.** It is not a criticism of WHO's process — commissioning reviews and
 using their ratings is how guideline development is supposed to work, and WHO discloses it throughout.
 The finding is about **how the wiki must count**, not about whether the guideline is sound.
@@ -521,13 +524,16 @@ substitution frame; it does not add an independent backing.
   cardiometabolic risk, the caries evidence does not transfer, and the weight evidence says the effect
   runs through energy.
 - **Name the replacement.** Cutting sugar and replacing the calories with other carbohydrate moved
-  weight by 0.04 kg. The realistic alternative determines the effect (telos layer 3).
+  weight by 0.04 kg [@who2015, Summary of evidence, pp.12-13]. The realistic alternative determines the effect (telos layer 3).
 - **Fruit juice sits inside the exposure and whole fruit outside it** -- a food-level distinction that a
   "reduce sugars" instruction loses entirely.
 - **Ecological studies are the weakest design for an individual inference** (the ecological fallacy):
   the <5% threshold rests on three ecological studies rated *very low* by both the review and the
-  guideline — the wiki's clearest live example of a widely-cited number whose own sources claim little
+  guideline [@who2015, Summary of evidence, pp.13-15] — the wiki's clearest live example of a widely-cited number whose own sources claim little
   for it.
+
+
+
 ## Limits
 
 - 2015. Free-sugars/cardiometabolic outcomes beyond weight and caries are not covered here.
@@ -539,6 +545,9 @@ substitution frame; it does not add an independent backing.
 - **The three-body comparison is an appraisal comparison, not an evidence comparison.** NNR read WHO
   and SACN; SACN read WHO's commissioned reviews. **No two of the three are independent witnesses to
   the primary data**, so agreement anywhere among them must not be counted as corroboration.
+
+
+
 ## Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
 - **Over-claim: FOUND and fixed.** The first draft read *"three positions, three warrants — the

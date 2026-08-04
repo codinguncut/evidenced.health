@@ -17,7 +17,7 @@ relationships:
     - Testosterone Adiposity and Muscle
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-01
+updated: 2026-08-04
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -27,6 +27,7 @@ supplies the mechanistic alternative: after diet-induced loss the body's appetit
 in the direction that *promotes eating and regain*, and — the study's contribution over prior acute work —
 **those shifts are still present a full year later, after regain has already begun**. The higher weight is
 being biologically defended.
+[inferred from @sumithran2011]
 
 ## The finding — the hormonal shift persists at 12 months
 
@@ -94,7 +95,9 @@ needed to prevent obesity relapse»
 [@sumithran2011] — i.e. maintenance is a distinct
 problem from loss, and one that unaided willpower is structurally disadvantaged against.
 
-## Why this is the mechanistic keystone for the drug route (GLP-1) — a synthesis]]`
+## Why this is the mechanistic keystone for the drug route (GLP-1) — a synthesis
+
+[inferred from @sumithran2011]
 The signals Sumithran shows are chronically *deficient* after weight loss — GLP-1, PYY, amylin, leptin
 (satiety) down, ghrelin (hunger) up — are precisely the axis obesity pharmacotherapy now targets. A GLP-1
 receptor agonist (semaglutide) does not persuade a patient to want to eat less; it **pharmacologically
@@ -139,7 +142,9 @@ specific hormones -> prevent regain*.
   long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
   the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
 
-## Synthesis The unit-of-analysis shift this page
+## Synthesis
+
+[inferred from @sumithran2011] The unit-of-analysis shift this page
 installs: **weight-loss maintenance is not *weight loss, continued* — it is a distinct problem against an
 active biological headwind.** The same fact reads three ways across the cluster — it is why lifestyle
 regain is modal (NICE's calibrated weak recommendation), why the drug route works while taken and rebounds

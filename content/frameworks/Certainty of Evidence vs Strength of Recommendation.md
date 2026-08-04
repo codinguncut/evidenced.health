@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
@@ -27,6 +27,9 @@ in earlier grading systems to their failure to make it. [@grade, §1.2]
 Better evidence -> stronger recommendation. Grading systems that produce a single letter or star
 rating collapse the two, so a reader cannot tell whether a weak recommendation reflects thin evidence
 or a genuinely close call on well-established effects.
+
+
+
 ## The reframing — certainty is ONE of four inputs to strength, and the mapping is asymmetric
 
 The separation is not merely *record two numbers*: certainty is one of **four** determinants of
@@ -72,13 +75,16 @@ Worked cases the handbook gives:
   depends on the person's values. Reading it as *the evidence is poor* inverts its meaning — and in
   two of GRADE's three **worked examples in §1.2** the evidence was *high* quality. (Not to be confused
 with the **five paradigmatic situations** of §6.3.2, which are the strong-on-low-certainty cases — none
-of those is high quality.)
+of those is high quality.) [@grade, §1.2, §6.3.2]
 - **Conversely, low certainty does not license inaction** — but the exit is narrow. A strong
   recommendation on low-certainty evidence is legitimate where the balance is lopsided enough, and
   GRADE otherwise *discourages* it, so treating it as freely available inverts the rule as surely as
   ignoring it does.
 - **The practical test when reading any recommendation:** ask which of the two judgments produced its
   strength. If the source does not let you tell them apart, you cannot use its strength rating.
+
+
+
 ## What sets strength, once certainty is fixed (chunk 03)
 
 Strength is "the extent to which a guideline panel is confident that desirable effects of an
@@ -110,6 +116,7 @@ low-risk groups" ([[Baseline Risk and the Relative-Absolute Split]]).
   benefit*, not the *size* of the benefit or its rank against other things a person could do. An
   intervention hierarchy therefore cannot be read off recommendation strength — a confidently-correct
   small effect and a confidently-correct large one are both "strong."
+  [inferred from @grade]
 - **Recommendations are not dictates.** "Even strong recommendations based on high-quality evidence
   will not apply to all circumstances and all patients," and users "may reasonably conclude that
   following some strong recommendations based on the high quality evidence will be a mistake for some
@@ -147,6 +154,7 @@ alone: "a conservative approach was therefore taken, leading to a conditional re
   — where the panel could identify nothing against the action and still declined to recommend it
   strongly. Under GRADE's four factors this is certainty operating almost alone, which the handbook
   permits but does not illustrate.
+  [inferred from @grade; @who2023saturated]
 - **Reading consequence:** a conditional recommendation cannot be assumed to mean "the benefit is
   contested." Here it means "we could not rule it out and could not confirm it" — a different message
   with a different action implication.
@@ -160,6 +168,7 @@ alone: "a conservative approach was therefore taken, leading to a conditional re
 - The framework governs *guideline panels* offering "recommendations for the management of typical
   patients." [@grade, §1.1] Carrying a strength rating to a specific individual
   requires a transportability step the rating itself does not perform.
+  [inferred from @grade]
 - **Source currency:** this handbook (updated October 2013) is being phased out in favour of the
   GRADE Book (2024); §§1-3 are flagged in-source as already rewritten there.
   [@grade, front matter]
@@ -190,6 +199,7 @@ or accept only parts of conclusions from the scientific report.»*
 departures occur and are not currently explained. **What this does NOT establish is that any specific
 recommendation was distorted** — NASEM asks for transparency about the handoff, it does not document a
 case.
+[inferred from @nasem]
 `-> [[Which Objective Moved This Recommendation]]`
 
 ## A third axis the two-axis frame does not hold: how PRECISE is the number `[2026-07-28]`
@@ -225,6 +235,7 @@ that whole-grain intake lowers risk, recommend it strongly, and still have picke
 consensus rather than derived it from a curve. **Certainty about a relationship does not transmit to
 precision about a cutpoint** — and a reader who sees only a strong recommendation attached to a round
 number will assume it does.
+[inferred from @nnr2023]
 
 **This sharpens a rule the corpus already carries rather than contradicting it.** The dose-response
 section of the telos holds that *where a threshold appears in guidance, the first hypothesis is that it
@@ -317,6 +328,8 @@ certainty, weak recommendation — occurs zero times**, and so does the rare one
   rationale for the strong PUFA recommendation cites «moderate certainty overall» — i.e. it reaches
   for certainty to justify strength rather than for the other three determinants.
 
+[inferred from @who2023saturated; @who2015]
+
 ### The falsifier, stated in advance
 
 **A guideline whose recommendations vary in values/preferences should produce the off-diagonal** —
@@ -324,6 +337,9 @@ screening decisions, drugs carrying burden or side-effects, interventions with r
 recommendations, this section's pattern is WHO-and-nutrition-specific and must be narrowed to say so.**
 Recorded as a prediction rather than a conclusion, because a 7-cell single-body sample is exactly the
 size at which a pattern is most tempting and least supported.
+
+
+
 ### The prediction is partly met — NutriRECS, where VALUES set the strength `[2026-07-29]`
 
 The corpus now holds a non-WHO, non-nutrient-threshold graded recommendation, and it breaks the WHO-only
@@ -414,6 +430,7 @@ analogue** — the two systems place the identical judgement (this depends on th
 structurally different outputs. A GRADE "conditional" and a USPSTF "C" are **not the same quantity**:
 GRADE conditional can be high-certainty-values-vary or thin-evidence; USPSTF "C" is specifically a
 confidently-small net benefit. -> [[GRADE vs USPSTF - Two Appraisal Systems]]
+[inferred from @uspstfmanual2022; @grade]
 
 **And the fourth-state handling differs at the recommendation level, not just the outcome level.** GRADE
 permits (rarely) a strong recommendation on low certainty; USPSTF forecloses it — low certainty of net

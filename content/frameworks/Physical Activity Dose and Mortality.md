@@ -25,7 +25,10 @@ that it is NOT that check**: Momma is the same observational physical-activity-e
 (overlapping cohorts, cites the same prior metas), so it *corroborates* the strength finding (its
 all-cause RR 0.85 sits beside the strength-guideline HR 0.80 below) but does not supply independent
 backing. A genuinely independent family (a different method — e.g. objectively-measured fitness change,
-or an RCT-grade outcome) is still owed.]`
+or an RCT-grade outcome) is still owed.
+
+
+
 ## The decision this page changes
 
 **Most of the mortality benefit arrives at a dose far below what people assume they need — and the
@@ -171,6 +174,7 @@ domain: the label implies a single underlying quantity and there are two).
 device-measured total activity variable is a weighted mixture whose weights depend on the population's
 activity mix. **Two populations with identical true expenditure but different activity profiles will
 be measured differently**, which is a transportability problem, not an attenuation problem.
+[inferred from @willett]
 
 **Note the vintage:** this is 2012 hardware (Tritrac). Modern accelerometry and the processing behind
 the estimate on this page may behave differently, and **this wiki holds no source establishing that

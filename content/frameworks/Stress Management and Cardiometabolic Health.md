@@ -7,7 +7,7 @@ sources: [Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024]
 cluster: cardiometabolic-exposures
 confidence: low
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 relationships:
   related_to:
@@ -22,6 +22,7 @@ wiki holds it on the same terms as any exposure — on a **falsifiable, quantifi
 physical outcome (BP)**, not on mood or wellbeing as ends. *Attention is an anti-signal* applies with
 force: mindfulness is heavily marketed, so the bar is unchanged and the framing stays BP-anchored and
 proportional. Held single-source, `confidence: low`.
+[inferred from @chen2024mbi]
 
 ## The specified exposure
 
@@ -69,6 +70,7 @@ not as an independent one — which reframes what MBSR *does* and where the telo
 bites. This is one of at least two live explanations for the medicated-only effect — the other being
 plain **expectancy/unblinding inflation** in trials that could not be blinded — and only 2 unmedicated
 trials support it, so it is a hypothesis the data suggest, not a settled mechanism.
+[inferred from @chen2024mbi]
 
 ## How the effect compares to established BP levers `[parameter table, op-weave 2a]`
 
@@ -92,7 +94,8 @@ drug. But the MBI estimate is the *least* trustworthy of the three (unblinded, h
 null where it should be cleanest — unmedicated patients), while the sodium effect is HIGH-certainty and
 the drug effect is proven all the way to CV events. **The larger point estimate carries the smaller
 warranted effect.** A person choosing where to spend effort gets more certain BP benefit from salt
-reduction than from an 8-week MBSR course on this evidence.: three different exposures, not one claim reached independently.]`
+reduction than from an 8-week MBSR course on this evidence.
+[inferred from @chen2024mbi; @he2013; @bplttc2021]
 
 ## Decision relevance
 
@@ -107,6 +110,9 @@ reduction than from an 8-week MBSR course on this evidence.: three different exp
 - **Mental-health effects (anxiety, depression, stress) are peripheral here** and reported with
   implausibly large, highly heterogeneous effect sizes (anxiety SMD -4.10) in only 4 tiny trials — held
   as the telos's secondary axis, not weighted as a physical outcome, and not relied on.
+
+
+[inferred from @chen2024mbi]
 ## Limits
 
 - **Single source, single guidance-family-free**, `confidence: low`. AWAITS an independent SR/MA (ideally
@@ -116,5 +122,6 @@ reduction than from an 8-week MBSR course on this evidence.: three different exp
   stress->BP claim is **not** established by this evidence.
 - Coherence, not validity (R1): the pooled BP drop is what these mostly-low-quality trials report; the
   warranted effect is smaller than the headline.
+[inferred from @chen2024mbi]
 
 ## References

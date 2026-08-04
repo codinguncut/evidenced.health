@@ -119,6 +119,9 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
 - **Off-target caveat is load-bearing:** the *any-mechanism-works* claim is conditioned on *no competing
   deleterious off-target effects* — a real diet or drug can lower LDL and still net-harm through another
   pathway, so this validates the *lipid channel*, not any intervention wholesale.
+
+
+
 ## A contested refinement — is a DIET-induced LDL-C change a good apoB proxy? (Astrup et al. 2020) `[2026-07-29]`
 
 Astrup presses the concordance proviso above in a specific
@@ -154,6 +157,7 @@ and where it stands against this page:
   the honest status: **the diet-induced-LDL-C caveat is real and this page already carries its mechanism
   (measure apoB, not LDL-C); the further claim that SFA's LDL rise is benign-by-particle-size is
   contested and dated, and does not overturn apoB causality.**
+[inferred from @astrup2020; @ference2017]
 -> full joined issue: [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
 
 ## Self-critique `[run 2026-07-29, before commit]`

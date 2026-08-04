@@ -17,7 +17,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
 created: 2026-07-29
-updated: 2026-07-31
+updated: 2026-08-04
 self_critiqued: 2026-07-31
 ---
 
@@ -68,6 +68,9 @@ and supplies a mechanism (viscous fibre -> lower LDL, independent of fat displac
 sum into one big causal number. The composite claim is *fibre is beneficial and at least partly causal,
 with a modest measured effect on the endpoints we can actually trial* — the mortality magnitude stays
 observational.
+
+
+
 ## Why the observational leg is more than *just correlation* — but not RCT-grade
 
 Reynolds argues causality by triangulation: «The consistency between the trial and prospective study
@@ -124,6 +127,9 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   ([[Saturated Fat Intake and Replacement]]). Do not oversell it as cholesterol therapy.
 - **Rank honestly.** Fibre is a real supporting lever, not a big rock; glycaemic index/load is a weaker
   marker than fibre or whole-grain content and not worth optimizing for on this evidence.
+
+
+
 ## Certainty and gaps
 
 - **`confidence: medium`** — the LDL/surrogate leg is RCT-grade (Brown, GRADE moderate-high); the
@@ -157,7 +163,7 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
-The mortality/T2D numbers here are **observational** (Reynolds 2019 cohorts). The instrument that would appraise them is **ROBINS-I** ([[Risk of Bias Assessment Tools]]): domain 1 (confounding — healthy-user) and domain 6 (measurement — [[Measurement Error in Dietary Assessment]]) are where the grade would most likely be capped below «comparable to a well-performed randomized trial». A per-domain read is a deliberate future Revisit, flagged there as a re-appraisal candidate, not done here.
+The mortality/T2D numbers here are **observational** (Reynolds 2019 cohorts). The instrument that would appraise them is **ROBINS-I** ([[Risk of Bias Assessment Tools]]): domain 1 (confounding — healthy-user) and domain 6 (measurement — [[Measurement Error in Dietary Assessment]]) are where the grade would most likely be capped below «comparable to a well-performed randomized trial». A per-domain read is a deliberate future Revisit, flagged there as a re-appraisal candidate, not done here. [inferred from @reynolds2019]
 
 
 ## The umbrella review bounds the outcome breadth — Veronese 2018 `[2026-07-31]`
@@ -206,6 +212,7 @@ Reynolds. It is not independent — both pool the **same underlying prospective 
 (Veronese's all-cause-mortality MA is Yang 2015; its CVD MA is Threapleton 2013 — the very cohorts
 Reynolds' own meta-analysis re-pools). Shared primary studies = shared-evidence agreement, **not**
 type-E independent backing.
+[inferred from @veronese2018; @reynolds2019]
 
 | Parameter | Veronese 2018 | Reynolds 2019 | Same quantity? |
 |---|---|---|---|

@@ -12,7 +12,7 @@ relationships:
     - Risk Modifiers - When Extra Information Changes a Risk Estimate
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-26
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -51,6 +51,7 @@ source**, which is why it is reproduced here rather than cited.
 **The mechanism:** risk-factor exposure compounds over decades while a 10-year window sees only the
 first slice. ESC states that *«Age is the major driver of CVD risk»*, so a young person with a bad
 risk-factor profile still scores low over ten years.
+[inferred from @esc2021]
 
 ## The route ESC provides — generic across every age band, not an under-50 exception
 
@@ -149,6 +150,9 @@ extraction of all three grids is owed.
   qualify for risk factor treatment"*, and that under 40 drug treatment *"is not usually considered"*.
 - **Competing risk cuts the other way at older ages**, which is why the grids fall so sharply: an
   intervention cannot buy CVD-free years to someone who will die of something else first.
+
+
+[inferred from @esc2021]
 ## Limits
 
 - **Calibrated for low- and moderate-risk regions only**: *"The model is currently validated for low-
@@ -161,6 +165,9 @@ extraction of all three grids is owed.
   process in which patient preference, expected treatment harms, and costs can be taken into account."*
   It informs a decision by routing it to shared decision-making, not by leaving it open.
 - One guidance body; whether others endorse lifetime framing or this model is **unprobed**.
+
+
+
 
 
 ## The elderly-end companion - the diet levers transition with age, they do not flip at one (2026-08-01)

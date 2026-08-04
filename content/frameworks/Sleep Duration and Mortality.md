@@ -8,7 +8,7 @@ cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-01
+updated: 2026-08-04
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -20,6 +20,9 @@ relationships:
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
 around a \~7-8 h reference. But the two arms are **not the same kind of finding**, and reading them as
 one (*any deviation from 7-8 h shortens life*) is the error this page exists to prevent.
+
+
+
 ## The U-curve — two arms, very different footing
 
 | Arm (vs \~7-8 h reference) | Pooled RR (95% CI) | Heterogeneity | Source |
@@ -75,7 +78,8 @@ significant pooled effect of sleep restriction on leptin or ghrelin, and conclud
 likely dominate. Sleep restriction does reliably raise food intake experimentally, but not via the
 hormonal route named here — so hold leptin/ghrelin as a discounted mechanism, not a demonstrated one
 -> [[Sleep and Metabolic Health]] (Capers 2015, where this refinement and the T2D/adiposity evidence
-live).].]`
+live).
+
 
 ## Decision relevance
 
@@ -86,6 +90,9 @@ live).].]`
   habitual long sleeper is a candidate for evaluation of occult illness, not a sleep-reduction target.
 - **The reference is \~7-8 h**, and the curve is shallow near it — precision beyond "adequate, not
   chronically short" is not warranted by this evidence.
+
+
+[inferred from @cappuccio2010]
 ## Limits
 
 - **All exposure is self-reported, single-timepoint** — «sleep questionnaires» that often «did not
@@ -99,5 +106,8 @@ live).].]`
   guideline (AASM) for the recommendation-level read.
 - Coherence, not validity (R1): the association is what the cohorts report; the causal split between
   arms is the authors' mechanistic argument, not a settled fact.
+
+
+[inferred from @cappuccio2010]
 
 ## References

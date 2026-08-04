@@ -180,7 +180,8 @@ there is no cost to *not* using them.
 
 A plausible behavioural mechanism — a sweetener keeps the *sweet setpoint* high, so you keep wanting
 sweet things. Like the appetite question, this is a mechanism the outcome evidence does not yet carry.
-It sits at **insufficient evidence**: flagged as a reasonable hypothesis, not asserted as a finding. -> [[Non-Sugar Sweeteners]]
+It sits at **insufficient evidence**: flagged as a reasonable hypothesis, not asserted as a finding.
+ -> [[Non-Sugar Sweeteners]]
 
 ## The elephant: long-term cohorts look worse than the trials
 

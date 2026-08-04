@@ -15,7 +15,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Testosterone Adiposity and Muscle
 created: 2026-07-29
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -25,6 +25,9 @@ flagged as missing when it separated *training-for-strength-gain* from *training
 the observational mortality data), but it is on **surrogates** (muscle mass and strength), not
 patient-important outcomes. The headline: **resistance training is the driver; protein is a modest
 adjunct, and only up to about 1.6 g/kg/day.**
+
+
+[inferred from @morton2018]
 ## Protein augments resistance-training gains — modestly
 
 From «Data from 49 studies with 1863 participants» (RCTs, «RET ≥6 weeks»), protein supplementation added
@@ -85,6 +88,8 @@ supplementation reduces mortality**; the composite is "RT builds muscle (proven)
 with living longer (associational)", with protein a small lever on the first half only. Muscle
 mass/strength do matter directly for **function and sarcopenia**, which are on the outcome menu — so the
 surrogate is not worthless, it is just not the mortality endpoint.
+
+
 ## The hormonal alternative lever — and why it does not displace this one
 
 Testosterone therapy is the other anabolic lever aimed at the same surrogates (lean mass, strength), and
@@ -95,6 +100,7 @@ training is the proven driver of strength here and carries none of those harms; 
 also *raises testosterone naturally* (secondary hypogonadism is reversible). So the hormone is a narrow
 option for confirmed hypogonadism, not a substitute for the training. (No head-to-head RT-vs-TRT trial is
 held — this is an evidence-weighting judgment, not a trial result.)
+
 
 ## Decision relevance
 
@@ -137,5 +143,8 @@ held — this is an evidence-weighting judgment, not a trial result.)
 - **The plateau CI is wide** (1.03-2.20); the fibre-CSA effect is fragile; healthy adults only.
 - One meta-analysis; the moderator model overall explained little variance, so age/training effects are
   subgroup signals, not a full explanation.
+
+
+[inferred from @morton2018]
 
 ## References

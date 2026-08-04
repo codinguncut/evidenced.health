@@ -20,7 +20,8 @@ anyone can feel.
 
 - **The dominant *dietary* lever on your microbiome is fermentable fibre — and that is
   already the fibre recommendation.** (Diet is one key modulator among several the evidence names,
-  medication being another; the ranking of fibre as the top *dietary* lever is the wiki's synthesis.) You do not need a supplement aisle to act on it. Eat \~25-30 g/day
+  medication being another; the ranking of fibre as the top *dietary* lever is the wiki's synthesis
+.) You do not need a supplement aisle to act on it. Eat \~25-30 g/day
   of fibre from a plant-diverse diet ([[Dietary Fibre and Health]]).
 - ***It altered the microbiome* is a surrogate, not a health benefit.** Almost every microbiome study
   reports that an intervention changed which bacteria are present. That is a change in a readout, not

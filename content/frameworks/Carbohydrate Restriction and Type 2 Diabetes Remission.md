@@ -47,6 +47,7 @@ offered. Per the telos's layer-2 rule the narrowest credible reference class is 
 And the two definitions do not draw on the same trials. Only **7 of 23 trials (30%) permitted medication
 reduction and reported usable data**, so the medication-free estimates come from a structurally
 different set of trial designs, not from a stricter reading of the same evidence.
+[inferred from @goldenberg2021]
 
 ## Most benefits attenuate by 12 months — but not all
 
@@ -116,6 +117,7 @@ co-intervention change as its own outcome rather than to adjust it away.
   single trial of 116 people**, with an interval spanning a benefit twice the threshold and a harm eight
   times it, judged important on the point estimate alone. The 6-month estimate points the other way and
   comes from 4 trials -- so the apparent reversal is partly a change of study set, not a trajectory.
+  [inferred from @goldenberg2021]
 - Adverse events: no significant increase, but *"poorly reported among trials and the certainty of
   evidence for safety ranges from low to very low."*
 
@@ -175,7 +177,7 @@ weight loss they can *sustain*, by whichever route they will adhere to
 ## Limits
 
 - Small numbers behind the headline: the 6-month remission estimate is **8 trials, n=264**; by 12 months
-  it is 3 trials, n=171.
+  it is 3 trials, n=171. [@goldenberg2021, Table 2]
 - Only 30% of trials permitted medication reduction, which constrains the definition that matters most.
 - The mortality caution is imported from cohort evidence, not tested here.
 - **Same population, adjacent condition:** this stratum overlaps heavily with fatty liver — insulin

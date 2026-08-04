@@ -17,7 +17,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Rating Certainty of Evidence
 created: 2026-07-30
-updated: 2026-08-01
+updated: 2026-08-04
 self_critiqued: 2026-08-01
 ---
 
@@ -26,7 +26,7 @@ supplementing vitamins, minerals, multivitamins, or marine omega-3 to prevent ca
 cancer, fractures, or death is — on the best evidence — **a null lever, and for one named agent (beta
 carotene) a harmful one**. The decisive caveat runs through everything below: these are trials and reviews of
 **adding a supplement to people who are already replete**, not of **correcting a deficiency** — the two
-are different exposures answering different questions]].
+are different exposures answering different questions.
 
 ## The landmark RCT — VITAL (n=25,871): four co-primary endpoints, all null
 
@@ -86,7 +86,8 @@ vitamin D deficiency, low bone mass, or osteoporosis» [@leboff2022]. **Two thin
 USPSTF graded supplementation for CVD/cancer prevention in community-dwelling adults **without known
 deficiency** (deficiency, pregnancy, and chronic illness are explicitly carved out) [@uspstf2022supp]. Its efficacy estimates are pooled from the
 **RCT** literature (its *harms* estimates also draw on cohorts), so — unlike the observational supplement
-literature — the healthy-user confound is largely designed out; that is a strength of this evidence base:
+literature — the healthy-user confound is largely designed out; that is a strength of this evidence base
+:
 
 | Supplement | USPSTF grade | Basis |
 |---|---|---|
@@ -108,7 +109,8 @@ state. Neither is *benefit*.
 
 **Not an independent second witness of VITAL.** USPSTF's vitamin-D pooled analysis *includes* VITAL as
 one of its largest trials, so the guideline and the trial are **not independent backing** (no
-`[E-independent]`) — the guideline is the RCT base synthesized, one level up.
+`[E-independent]`) — the guideline is the RCT base synthesized, one level up
+.
 
 ## The harm arm — *more is better* is false (the upper-bound)
 
@@ -192,6 +194,8 @@ high-triglyceride statin-treated patients** — is a different question with its
 does not transport to a general-population 1 g/day capsule. VITAL also notes the n-3 dose ceiling: «The
 dose-response curve for most effects plateaus at 1 g or less of n-3 fatty acids per day» [@manson2019n3] — one of the few explicitly located **plateaus** in the
 corpus's dose-response holdings.
+
+
 ## Layer-1 placement — a low/absent lever for the well-nourished
 
 For a generally-nourished adult, supplementation to prevent CVD/cancer/fractures/death **ranks at or

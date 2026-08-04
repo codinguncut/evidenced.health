@@ -7,7 +7,7 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: cardiometabolic-exposures
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-31
+updated: 2026-08-04
 self_critiqued: 2026-07-30
 relationships:
   related_to:
@@ -40,6 +40,7 @@ association between the risk of colorectal cancer and consumption of red meat (R
 colon-only stratum (RR 1.22, 1.06 to 1.39) and the European stratum (RR 1.23, 1.08 to 1.41), not in the
 pooled point estimate.
 [@wcrf2018, 5.1.1.1]
+
 Processed meat's association is significant and consistent. WCRF also records the confounding candidly:
 "an apparent effect of red meat could possibly be due, at least in part, to low intakes of these other
 foods... Further analysis of adjustment factors was not performed in the CUP."
@@ -118,6 +119,9 @@ has a very small causal effect" — the disagreement is about certainty and magn
   their divergence is in appraisal and standpoint, not in separate data (no [E-independent]).
 - Coherence, not validity (R1): the associations are what the cohorts report; whether reducing meat
   reduces a given person's cancer is not established by either.
+
+
+
 
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`

@@ -44,6 +44,9 @@ forbids manufacturing a scalar maximand, on the ground that collapsing quality a
 utility weighting *"that is irreducibly individual and that the evidence does not supply"*, and assigns
 the weighting to the person at layer 3. The argument above is that same argument, widened to
 non-health dimensions. **It generalizes correctly.**
+
+
+
 ## But "you cannot optimize" overstates it — two things are well-defined WITHOUT weights
 
 This is the escape, and it is partial but real.
@@ -57,6 +60,8 @@ This is the escape, and it is partial but real.
 **Weights are needed only to choose *among* frontier options, never to eliminate the dominated ones.**
 So the tangle binds on a much smaller set than it first appears: the argument is not *"nothing can be
 said"*, it is *"nothing can be said about the ordering within the frontier."*
+
+
 
 ## Where the tangle genuinely does NOT dissolve: the population standpoint
 
@@ -100,6 +105,8 @@ transfer.** This is the most practically useful part of the analysis:
 individual.** Judging a personal choice by whether it would scale is a standpoint error — it imports a
 constraint that is not the person's.
 
+
+
 ## What this wiki can and cannot supply
 
 **It holds ONE axis.** It has no carbon data, no welfare data, no affordability data, and should not
@@ -114,6 +121,9 @@ something.** Carbon and welfare figures are contested too, but not by this corpu
 column reads *contested* — and whether it is a large or a small cost decides whether wheat sits on the
 frontier at all. If the health cost is small, no weighting argument is needed to keep it; if large, the
 trade-off is real and the weights matter. **Answering that is layer 2's job, and it is answerable.**
+
+
+
 ## The halo — asymmetric scrutiny ACROSS dimensions, not just across evidence
 
 The mirror image of a body pushing a food up is a food's score on one dimension suppressing scrutiny
@@ -133,6 +143,9 @@ the telos holds that such populations **are not evidence for any one of their co
 consumption of a halo food tracks the whole dietary pattern and the socio-economic position behind it.
 **So the halo can inflate the health claim AND suppress the environmental one at once** — the same
 mechanism operating on both columns, not a fair trade of one against the other.
+
+
+
 ### Two guards before accepting *or* rejecting a footprint claim
 
 **1. Name the functional unit — this decides most footprint disputes on its own.**
@@ -147,6 +160,9 @@ almonds' is the wrong comparison** — the decision-relevant one is almond milk 
 it replaces**, on a matched unit. A food can be water-intensive in isolation and still be the
 lower-footprint option in the substitution actually being made. The reverse is equally possible; the
 point is that neither is settled by the isolated figure.
+
+
+
 ### What this wiki can and cannot say here — stated flatly
 
 **It holds no environmental axis at all.** No water data, no carbon data. So:
@@ -164,6 +180,9 @@ point is that neither is settled by the isolated figure.
 
 `AWAITS` an environmental-footprint source with stated functional units before any of this becomes a
 claim rather than a method.
+
+
+
 ## The real failure is not the missing weight — it is the missing COORDINATE
 
 NNR is the first worked case the wiki holds, and it
@@ -208,6 +227,8 @@ which makes independent weighting impossible for exactly the readers whose weigh
 who cares little about carbon and one who cares greatly are given the same instruction and no basis to
 diverge from it, because the quantity that would separate them was never stated.
 
+[inferred from @nnr2023]
+
 **The transparency test that follows.** Ask of any multi-objective recommendation: *are both magnitudes
 published, or only the one that produced the number?* A body can legitimately decline to weight. It
 cannot legitimately decline to **show what it traded**, because that is what makes the recommendation
@@ -234,6 +255,9 @@ currently tell those apart, and the distinction matters for whether this is a fa
   survive an evidence-based framing — and it inflates the health column at the same time.
 - **Demand the functional unit before accepting any footprint figure**, and state the substitution.
   Most footprint disputes are unit disputes wearing a disagreement's clothes.
+
+
+
 ## Limits
 
 - **No decision-theory source is held.** The dominance/frontier structure here is standard but

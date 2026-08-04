@@ -24,7 +24,9 @@ when calories, sugar, fat and fibre are held fixed, an ultra-processed diet stil
 eat more. That is the closest thing to a genuine effect of processing *itself* -- and it runs through
 appetite, not nutrients. Everything else is observational, modest, and heavily confounded, so a blanket
 *eat less processed food* adds little once you have already cut the specific culprits ->
-[[Ultra-Processed Food and Health Outcomes]]. -- the decomposition and the verdict are this deliverable's; each component below traces
+[[Ultra-Processed Food and Health Outcomes]].
+
+ -- the decomposition and the verdict are this deliverable's; each component below traces
 to its cited source.
 
 ## Why *processed* is not one exposure
@@ -257,7 +259,9 @@ environmental objective in without publishing how it was weighed.
   confound.
 - Long-latency and trajectory outcomes: UPF trials are short (intake, weight); hard-endpoint causal data
   do not exist and cannot easily be produced, because blinding a whole-food-matrix intervention makes it
-  a different exposure -> [[Surrogate Outcomes]]. -- the gap list is this deliverable's, induced across the cited pages.
+  a different exposure -> [[Surrogate Outcomes]].
+
+ -- the gap list is this deliverable's, induced across the cited pages.
 
 ## Coherence, not validity
 

@@ -86,6 +86,7 @@ grade. The surrogate transfer is explicit, and it is the **same GRADE machinery 
 The word **sodium** in a potassium paper's GRADE paragraph is a copy-carryover from the sodium review --
 concrete evidence the two WHO reviews share one methodological template (bears on the independence
 question in the Synthesis).
+[inferred from @aburto2013]
 
 ## Dose -- a plateau near 90-120 mmol/day, no monotone gradient
 
@@ -146,13 +147,15 @@ sodium, urinary nitrogen, doubly-labelled water) -- so potassium, like sodium an
 exposures, yields **absolute** intake and is **auditable against a guideline cutpoint**. The cohorts,
 however, mostly used dietary recall (two were dropped in sensitivity analysis for single-24h-recall
 exposure, stroke RR held at 0.79). Full taxonomy and why this matters:
-[[Measurement Error in Dietary Assessment]].] — the recovery-biomarker classification is Van Dam & Hunter's (held on that page); Aburto's inclusion rule requiring 24h urinary potassium is what places this exposure in that class.]`
+[[Measurement Error in Dietary Assessment]].
+[inferred from @aburto2013]
 
 ## Synthesis -- the electrolyte pair is one lever, not two independent witnesses
 
 **Nucleus link.** This page orbits [[Sodium Intake and Blood Pressure]] (nucleus of the
 `cardiometabolic-exposures` cluster): sodium and potassium are the two arms of one BP/stroke story, and
-the Na:K ratio is the joint target neither guideline scores alone.] — this section is the wiki's cross-page synthesis of the two electrolytes; per-claim provenance is on each sub-claim below.]`
+the Na:K ratio is the joint target neither guideline scores alone.
+[inferred from @aburto2013]
 
 ### The parallel is structural -- and it is NOT independent corroboration
 
@@ -164,7 +167,8 @@ and Elliott here are unpaid CASH/WASH members; He/MacGregor on the sodium side; 
 Cappuccio authored the reused stroke cohort meta). **So the corpus's sodium and potassium findings are
 two arms of one WHO/CASH programme, not cross-group convergence** -- the same laundering trap the sodium
 page caught for the WHO/ESC/He agreement, one level up. **No `[E-independent]` is claimable between the
-two electrolytes' BP-stroke stories.**] — the shared-lineage / not-independent reading is this page's; the competing-interest disclosures are each paper's.]`
+two electrolytes' BP-stroke stories.**
+[inferred from @aburto2013]
 
 ### But the two exposures are NOT mirror images -- a genuine asymmetry
 
@@ -182,7 +186,8 @@ are **different exposures**, so no cell is a *same quantity* match; the object o
 hypertensives); potassium raising lowers BP **only** in hypertensives (normotensive effect is a flat
 zero). So *cut sodium and raise potassium* are **not** symmetric advice -- for a normotensive person the
 sodium lever still moves BP while the potassium lever (on current evidence) does not, though Aburto flags
-the normotensive potassium trials as too short to rule out a prevention effect.] — the potassium strata are Aburto's, the sodium strata are held on that page; the asymmetry reading is this page's.]`
+the normotensive potassium trials as too short to rule out a prevention effect.
+[inferred from @aburto2013]
 
 ### The Na:K ratio is the joint target -- asserted beneficial, not graded
 
@@ -213,7 +218,8 @@ BP-mediated effect). The two are not statistically inconsistent (0.87 sits insid
 *intake* contrast -- and the excess of the cohort effect over the BP-channel prediction is exactly what a
 **BP-independent effect OR residual confounding** would produce. So the chain corroborates *direction*,
 not magnitude. It is strongest **where potassium moves BP** (hypertensives); it does not license a
-hard-outcome benefit in normotensives, where the BP effect is null.] — the BP->events magnitudes are BPLTTC's (held there); the potassium->BP figure is Aburto's; the chain is this page's.]`
+hard-outcome benefit in normotensives, where the BP effect is null.
+[inferred from @aburto2013]
 
 ## What is absent -- the gaps that drive the next source
 
@@ -230,6 +236,8 @@ hard-outcome benefit in normotensives, where the BP effect is null.] — the BP-
 - **Children:** 3 trials, non-significant BP fall, high risk of bias -- an evidenced gap, not a null.
 - **No LMIC hard-outcome data**; and Aburto did not examine the **mechanism** by which potassium lowers
   BP (explicitly deferred).
+
+[inferred from @aburto2013]
 
 ## Limits
 

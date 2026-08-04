@@ -2,11 +2,11 @@
 type: framework
 question: Does restricting carbohydrate put type 2 diabetes into remission, and does it last?
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
-authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long]
-sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020]
+authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long; Szczerba, Edyta]
+sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
 cluster: weight-management
 confidence: medium
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
@@ -175,6 +175,37 @@ remission** — with no evidence here that it adds a remission effect *beyond* t
 produces (an added glycaemic contribution is untested, not excluded). A person should optimize for the
 weight loss they can *sustain*, by whichever route they will adhere to
 -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+## The umbrella review sharpens the reading — no RCT tests low-carb FOR REMISSION at all `[2026-08-04]`
+
+Goldenberg pools low-carb weight and glycaemic outcomes in T2D, and reports remission under its four
+definitions. But the gold-tier T2D umbrella review (Churuangsuk 2022) makes a distinction Goldenberg's
+framing hides: when remission is the **pre-specified primary outcome**, «No RCT has evaluated
+LCDs/ketogenic diets for type 2 diabetes remission.»
+[@churuangsuk2022]
+
+- The much-cited keto-remission figure is a **single non-randomised controlled study** (Virta, 20%
+  remission, mean −13.8 kg) graded **GRADE very low, serious risk of bias** — the weakest cell in the
+  umbrella's whole remission map, below Mediterranean (15%, low) and far below total diet replacement
+  (54%, high). [@churuangsuk2022]
+- Read against DiRECT (46-54% remission at **59% carbohydrate**, GRADE high), the placement is decisive
+  for the causal question: the strongest remission evidence sits on a *high-carbohydrate, energy-
+  controlled* format, and the low-carb remission claim rests on the weakest design available. This is the
+  umbrella-level version of this page's own mechanism section — the effect is weight, not carbohydrate ->
+  [[Diets for Weight Management in Type 2 Diabetes]], [[Total Diet Replacement and Type 2 Diabetes Remission]].
+- **Not independent backing (F, shared-evidence).** Churuangsuk's LCD-weight conclusion pools the same
+  MA class as Goldenberg (and lists Goldenberg 2021 among its high-quality LCD meta-analyses), so its
+  agreement on «low-carb holds no overall advantage» is F-broadening, not a second independent route.
+  Its distinct contribution here is the *remission-design gap*, which Goldenberg does not state.
+- **A second gold umbrella (Szczerba 2023) corroborates the gap and adds the firm non-surrogate finding.**
+  Szczerba, applying a >=12-week-MA-of-RCT filter, places **remission among the low/very-low-certainty
+  outcomes** (not in its high/moderate map) — a second body reaching the same "remission RCT evidence is
+  thin" verdict from a wider base. What it *does* grade firmly for low-carb (<26%E): HbA1c −0.47% (high),
+  triglycerides −0.30 mmol/L (high), and — the firmest clinical outcome in either umbrella — low-carb
+  «reduced the use of drug treatments by an additional 24 per 100 individuals» (risk difference 0.24, 0.12
+  to 0.35; moderate certainty). It also notes the low-carb estimates may be **under**-stated by poor adherence
+  («especially for low carbohydrate and ketogenic diets»). Shared MA base -> F/corroboration, not [E].
+  [@szczerba2023] [@szczerba2023]
 
 ## Limits
 

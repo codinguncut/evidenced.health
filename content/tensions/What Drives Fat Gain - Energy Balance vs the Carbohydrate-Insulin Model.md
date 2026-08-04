@@ -2,8 +2,8 @@
 type: tension
 question: Does dietary carbohydrate, via insulin, drive fat storage and lower energy expenditure independently of calories (a metabolic advantage of carb restriction), or is fat gain governed by energy balance with macronutrient split close to irrelevant at equal calories?
 aliases: [Carbohydrate-Insulin Model, CIM vs EBM, Energy Balance Model of Obesity, Is a Calorie a Calorie, Metabolic Advantage of Low-Carb, Does Insulin Drive Obesity, Carbohydrate Insulin Hypothesis]
-authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D]
-sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018]
+authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D; Szczerba, Edyta]
+sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -235,7 +235,12 @@ libitum vs isocaloric) pointing the same way from the same voice. -> [[Ultra-Pro
   corroborate each other independently. A genuinely different design points the same way — the nucleus
   page's matched-energy subgroup from free-living whole-diet RCTs (Naude: -0.48 kg, I2=0% when arms are
   energy-matched) — but that shares the *isocaloric-comparison logic*, so it is convergent support, not a
-  clean independent route. Do not read the convergence as more than it is.
+  clean independent route. Do not read the convergence as more than it is. A **second** free-living instance
+  points the same way: a gold T2D-diet umbrella reports that where its MAs ran matched/restricted-calorie
+  subgroups, they «did not find differences when calories were restricted or matched with controls»
+  [@szczerba2023] — same isocaloric-logic
+  caveat, and the subgroup analyses are underpowered context rather than a powered test, so it too is
+  convergent, not independent-[E].
 
 [inferred from @hallguo2017; @ludwig2021cim]
 

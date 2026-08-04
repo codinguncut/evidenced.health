@@ -2,10 +2,10 @@
 type: framework
 question: How is confidence in a body of evidence rated, and what can raise or lower it?
 aliases: [Quality of Evidence, Certainty of Evidence, GRADE Rating, Five Downgrade Factors, Three Upgrade Factors, Evidence Grading]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; Higgins, Julian PT; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022, Cochrane - Handbook for Systematic Reviews 6.5, NASEM - Finding What Works in Health Care]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; Higgins, Julian PT; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Szczerba, Edyta; Churuangsuk, Chaitong]
+sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022, Cochrane - Handbook for Systematic Reviews 6.5, NASEM - Finding What Works in Health Care, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022]
 cluster: evidence-appraisal
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -200,6 +200,27 @@ either instrument is better calibrated against outcomes, and none could be from 
 Two caveats on the number itself: the comparison was **post hoc, added at referees' request**, and the
 per-outcome breakdown sits in a supplementary table not held here. `AWAITS` a source that appraises
 appraisal instruments against realized outcomes -- which is the R1 open-loop problem in miniature.
+
+### Same instrument, same evidence, different grade — a worked instance `[2026-08-04]`
+
+NutriGRADE-vs-GRADE holds the evidence fixed and varies the **instrument**. Two gold umbrellas of
+diet-in-T2D let us hold the **instrument** fixed (both use GRADE) and observe the *rater* vary on **the same
+pooled meta-analysis**. Both grade the Noronha-2019 meal-replacement weight estimate (identical point +
+CI): [@szczerba2023]
+
+| Parameter | Churuangsuk 2022 | Szczerba 2023 | Same quantity? |
+|---|---|---|---|
+| Underlying MA | Noronha 2019 | Noronha 2019 | yes |
+| Estimate | −2.4 kg (−3.3, −1.4) | −2.37 kg (−3.30 to −1.44) | yes (same MA) |
+| Instrument | GRADE | GRADE | yes |
+| **Certainty** | **moderate** | **high** | **NO** |
+
+So a certainty label is a statement about the evidence, the instrument, **and the rating team** — the
+Limits note below («two defensible ratings are a normal outcome») is not hypothetical. It confirms the
+practical rule: read the *reasons* for a downgrade, never the one-word label. This is why the paired T2D
+nucleus records the meal-replacement finding as F/shared-evidence corroboration and **withholds
+[E-independent]** — same trials, differently graded, is not two independent witnesses. [inferred from @churuangsuk2022; @szczerba2023]
+-> [[Diets for Weight Management in Type 2 Diabetes]].
 
 ## Limits
 

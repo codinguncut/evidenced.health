@@ -3,7 +3,7 @@ type: framework
 question: Across the popular named diet programmes, is any clearly superior for weight and cardiovascular risk factors, and does the benefit last?
 aliases: [Comparing Named Diets, Are Named Diets Interchangeable, Diet Program Comparison, Best Named Diet, Atkins DASH Zone Ornish Comparison, 14 Named Diets Network Meta-Analysis, Which Diet Is Best]
 authors: [Ge, Long; Johnston, Bradley C; Guyatt, Gordon H]
-sources: [Ge - Named Diets Weight Cardiovascular Network MA 2020]
+sources: [Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -15,7 +15,7 @@ relationships:
     - Surrogate Outcomes
     - Rating Certainty of Evidence
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-04
 created: 2026-07-31
 updated: 2026-08-04
 ---
@@ -175,6 +175,23 @@ the 2014 AHA/ACC/TOS guideline «concluding that evidence was inadequate to reco
 [@ge2020] and with NICE leaving every
 macronutrient-defined diet without a recommendation
 ([[Diets for Weight Loss - What NICE Recommends]]) — all appraising largely the same RCT base.
+
+## The same null holds in the type-2-diabetes stratum (F-broadening, shared evidence)
+
+Ge is general-population. The gold-tier T2D umbrella review (Churuangsuk 2022) reaches the same
+no-diet-superior verdict **within the T2D stratum**, at the umbrella level: meta-analyses «do not support
+any particular macronutrient profile or style over others», and «no one diet type is superior over others
+for weight management in type 2 diabetes.» [@churuangsuk2022]
+It adds the one refinement Ge's flat network cannot — **the energy-delivery *format* does separate the
+diets even though composition does not** (VLED and formula meal replacement beat self-administered
+low-energy diets by delivering less energy) -> [[Diets for Weight Management in Type 2 Diabetes]].
+
+**Broadening, NOT independent backing (F).** Churuangsuk is an umbrella over meta-analyses that pool the
+same RCT class Ge's network draws on; a shared missing-trial or confounding structure would move both, so
+this is not a second independent witness on the shared verdict. It is a listed `sources:` entry because it
+contributes two distinct extractions here — the T2D-stratum confirmation and the energy-format distinction
+Ge's general-population network lacks — not merely a corroboration line; its full certainty-graded map
+lives on [[Diets for Weight Management in Type 2 Diabetes]].
 
 ## Decision relevance
 

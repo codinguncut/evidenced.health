@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
-authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018]
+authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -322,6 +322,33 @@ carbohydrate threshold -- and the two reviews use different thresholds while bot
 "low-carbohydrate". Note also that Goldenberg admits **wait-list and no-intervention comparators**
 while Naude requires the control to be a balanced-carbohydrate *weight-reducing* diet, so comparator
 design is a live rival explanation for any between-review gap.
+
+## Szczerba 2023 (T2D umbrella) — the HbA1c verdict flips with the comparator
+
+The Cochrane head-to-head above gives low-carb **vs a balanced-carbohydrate diet** an HbA1c of only
+**0.14% lower** in T2DM — a *no-meaningful-effect* verdict. Szczerba's gold umbrella grades low-carb (<26%E)
+**vs a usual/higher-carb control** at **−0.47% HbA1c (−0.60 to −0.34, n=17 RCTs, GRADE high)** — clinically
+meaningful. These do **not** contradict: the comparator differs, which is exactly this page's thesis
+(*the comparator does most of the work*). [@szczerba2023]
+
+| Parameter | Naude 2022 (Cochrane) | Szczerba 2023 (umbrella) | Same quantity? |
+|---|---|---|---|
+| Outcome | HbA1c, T2DM | HbA1c, T2D | yes |
+| Comparator | **balanced-carbohydrate weight-reducing diet** | **usual / higher-carb control** | **NO** |
+| Depth | «low-carb» range incl. shallow | **<26%E** (deep) | **NO** |
+| Effect | **0.14% lower** (0.38 lower to 0.10 higher) | **−0.47%** (−0.60 to −0.34) | verdicts differ *because* comparator + depth differ |
+
+Two further Szczerba findings on carbohydrate restriction in T2D, held in full on the nucleus
+[[Diets for Weight Management in Type 2 Diabetes]]:
+
+- **A monotone dose-signal (no knee shown).** A 10% carbohydrate *decrease* moves HbA1c only −0.11% (not
+  clinically meaningful) vs −0.47% at <26%E; weight loss «was greater in interventions with low (<26%) or
+  very low (<15%)... than in... moderate (<45%) carbohydrate intake» — deeper buys more, consistent with the
+  domain default that every reduction pays until a knee is located. The estimates may be **under**-stated
+  (poor adherence «especially for low carbohydrate and ketogenic diets»). [@szczerba2023] [@szczerba2023]
+- **Deprescribing (the firmest non-surrogate finding).** Low-carb (<26%E) «reduced the use of drug
+  treatments by an additional 24 per 100 individuals (risk difference 0.24, 0.12 to 0.35;... moderate
+  certainty)». Also GRADE-high: triglycerides −0.30 mmol/L; HDL +0.06 (moderate). [@szczerba2023]
 
 ## Limits
 

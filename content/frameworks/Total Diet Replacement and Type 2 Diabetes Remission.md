@@ -3,10 +3,10 @@ type: framework
 question: Can an energy-restricted total-diet-replacement programme put type 2 diabetes into remission, and does remission scale with weight loss?
 aliases: [DiRECT, DiRECT Trial, Counterweight-Plus, Total Diet Replacement Diabetes, Formula Diet Diabetes Remission, TDR Remission, Weight Loss Diabetes Remission Dose-Response]
 authors: [Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Taylor, Roy]
-sources: [Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021]
+sources: [Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022]
 cluster: weight-management
 confidence: medium
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Carbohydrate Restriction and Type 2 Diabetes Remission
@@ -92,6 +92,46 @@ months.** "Remission varied with weight loss in the whole study population":
 The discussion states the composite the table implies: "86% of participants with at least 15 kg
 weight loss, and 73% of those with weight loss of 10 kg or more" achieved remission.
 [@lean2018, Discussion]
+
+### An independent design reaches the same per-kilogram gradient `[E-independent]` `[2026-08-04]`
+
+DiRECT's dose-response is a **within-trial** association (responder confounding is live — see Limits). A
+**separate observational design corroborates the same monotone, diet-independent gradient**, which is what
+converts it from a suggestive within-population pattern to an [E-independent] finding. Reported in the
+Churuangsuk umbrella review: ADDITION-Cambridge, a **population cohort of 867 newly-diagnosed T2D patients
+across 49 UK primary-care practices**, followed 5 years — overall 30% remission — found «Every 1 kg of
+weight loss was associated with 7% higher chance of remission at 5 years, regardless of specific diet
+regimens or lifestyle interventions», and «Loss of >10% of baseline body weight in the first year after
+diagnosis was associated with 70% higher chance of remission at 5 years».
+[@churuangsuk2022]
+
+**Parameter table** (op-weave 2a — the two are matched on the claim they jointly back, NOT on magnitude):
+
+| Parameter | DiRECT (Lean 2018) | ADDITION-Cambridge (via Churuangsuk 2022) | Same quantity? |
+|---|---|---|---|
+| Design | within-RCT dose-response, both arms pooled | **population cohort**, 49 practices | **NO — different design** |
+| Population | T2D <6 yr, not on insulin, \~all white | newly-diagnosed T2D, UK primary care | overlapping, both early-disease |
+| Exposure | weight-loss band at 12 mo | per 1 kg / >10% loss in yr 1 | different metric |
+| Outcome / horizon | remission (HbA1c<6.5% off meds), 12 mo | remission, **5 yr** | same outcome, different horizon |
+| The claim backed | remission rises monotonically with kg lost, irrespective of diet | same | **YES — the directional claim** |
+
+The magnitudes are **not** pooled (12-mo band-rate vs 5-yr per-kg association); what is shared is the
+**direction and diet-independence** of the gradient. The independence is genuine on the axes E requires —
+a randomised within-population contrast and an observational cohort, different data, different institution
+(Newcastle/Glasgow vs Cambridge), different confounding structures. The one shared-context caveat: both
+are UK early-disease T2D populations in the weight-centric remission tradition, so transport beyond that
+stratum is corroborated by neither. Neither study cites or formalises the other — this is not laundered-E.
+[inferred from @lean2018; @churuangsuk2022]
+
+### Where DiRECT sits in the umbrella's certainty-graded remission map
+
+Churuangsuk's GRADE table places **total diet replacement (the two low-RoB RCTs, DiRECT + DIADEM-I) at
+the single GRADE-HIGH cell** of the whole remission map — median 54% remission (range 46-61) vs 4-12%
+standard care, N=445 — above formula meal replacement (11%, moderate), Mediterranean (15%, low), and
+ketogenic (20%, very low). [@churuangsuk2022] So
+DiRECT is not an isolated strong trial: it anchors the one high-certainty conclusion in the graded T2D
+remission literature, and that conclusion is a *format* (energy-controlling TDR), not a macronutrient
+class -> [[Diets for Weight Management in Type 2 Diabetes]].
 
 **Why this is the high-value finding.** A monotone gradient from 0% (weight gain) to 86% (>=15 kg),
 in a *within-population* comparison, is direct evidence that **the amount of weight lost — not the

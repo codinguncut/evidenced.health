@@ -14,7 +14,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - The U-Shaped Association Artifact
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-08-04
 ---
 
@@ -203,5 +203,44 @@ follows: the evidence base is «insufficient for definitive conclusions of high 
   meta-analysis, not cashed by Yang. G.
 
 [inferred from @yang2026]
+
+## The moving-target problem — why time does not de-risk a drifting exposure
+
+A tempting argument runs: *every year of widespread use without a large signal is evidence against a
+large long-term risk (the expectancy test applied dynamically), so an incretin's uncertain long-term
+harm shrinks as the years accumulate.* The argument is sound **only for a stable exposure** — and this
+class is not one. The exposure drifts under a constant label on two axes, and each drift **resets the
+long-term-safety clock** back toward zero for the part that changed.
+
+- **Compound iteration.** The mature multi-year outcome evidence sits on *one older molecule*
+  (semaglutide), while prescribing moves to newer agents — tirzepatide adds a **GIP** receptor target,
+  retatrutide adds **glucagon** — that carry receptor exposures the semaglutide record never tested. The
+  umbrella already flags this: agent-specific analyses for tirzepatide «included few studies and should
+  be interpreted as exploratory» [@yang2026].
+  So the ledger is class-level, and the accumulated years belong to a *different molecule* than the one
+  a person starting today may be given.
+- **Dose escalation.** The early cardiovascular / safety trials that anchor the long-term record were run
+  at the lower **glycaemic-control** doses; obesity and lifestyle use runs at **higher** doses, and the
+  umbrella could not check whether harms scale with dose — «inconsistent reporting in primary trials
+  precluded detailed stratification by dose or treatment duration»
+  [@yang2026]. A dose-dependent harm can be
+  absent from the mature low-dose record and present at the dose in use now.
+
+**The consequence — "evidence accumulates" is conditional, not automatic.** Accrued years de-risk the
+*specific compound at the specific dose that accrued them*; they do **not** transfer wholesale to a new
+molecule or a higher dose merely because both wear the *GLP-1 / incretin* label. This is the
+transportability rule and the *identity-drifts-under-a-constant-name* corollary applied to **time**: the
+class label is stable while the exposure under it moves, so temporal de-risking on the *class* is partly
+illusory whenever the field is iterating compound or dose.
+
+**What does still transport (kept symmetric).** The reset is **partial, not total.** GLP-1-receptor
+agonism is shared across the class, so genuinely class-level effects — the robust GI cluster, the
+recognized gallbladder and thyroid-C-cell signals — are informed by every agent at every dose and do
+*not* start over. What resets is the part that is **molecule-specific, dose-specific, or attached to a
+newly-added receptor target** (GIP, glucagon). So the honest reading is not "the clock is always at
+zero" but "the clock is at zero for whatever just changed, and near-mature for the shared mechanism."
+-> [[Is the Food Category Doing Any Work]] (same *specify the exposure, not the label* discipline). The
+dynamic expectancy test carries a stable-exposure precondition that a drifting compound/dose violates —
+silence de-risks only what stayed still long enough to be watched.
 
 ## References

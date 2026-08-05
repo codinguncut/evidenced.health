@@ -12,6 +12,7 @@ updated: 2026-08-05
 self_critiqued: 2026-08-05
 relationships:
   related_to:
+    - Shared Modifiable Levers Across Age-Related Diseases
     - Body Fatness and Cancer Risk
     - Red and Processed Meat and Cancer
     - Alcohol and Mortality and Vascular Disease

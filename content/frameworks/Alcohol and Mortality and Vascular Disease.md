@@ -2,20 +2,21 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org)]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
 updated: 2026-08-05
-self_critiqued: 2026-07-28
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - The U-Shaped Association Artifact
     - Sodium Intake and Blood Pressure
     - Baseline Risk and the Relative-Absolute Split
     - Dementia Prevention and Modifiable Risk Factors
+    - Is the Food Category Doing Any Work
 ---
 
 Opens the `alcohol` cluster. The famous finding that *moderate drinkers outlive abstainers* — the
@@ -185,6 +186,133 @@ with a stronger no-threshold claim) rather than corroborating the mortality/stro
 independent route, so the page's `[E-independent]` convergence (Stockwell ∥ Millwood) is unchanged.
 The cross-outcome pattern — no protective arm survives on mortality, stroke, dementia, *or* cancer — is
 the wiki's synthesis, not WCRF's claim. [inferred from @wcrf2018ter]
+
+
+
+## A distinct axis — drinking PATTERN, holding volume fixed `[Roerecke 2010]`
+
+Every arm above is indexed to *average volume* (grams/week, drinks/day). Roerecke's SR+MA (14 studies,
+31 estimates, 4718 IHD events) opens a **second axis the volume curves cannot see**: at the *same*
+average intake, concentrating the alcohol into irregular heavy occasions carries higher
+ischaemic-heart-disease risk than spreading it out.
+
+- Irregular heavy drinking occasions («60 g of pure alcohol or 5 drinks per occasion at least monthly»)
+  vs **regular moderate drinking at comparable average volume**: pooled random-effects «relative risk of
+  irregular heavy drinking occasions compared with regular moderate drinking was 1.45 (95% confidence
+  interval: 1.24, 1.70)» (fixed-effects 1.36), I²=53.9%; a detrimental effect «even for drinkers whose
+  average consumption is moderate.»
+  [@roerecke2010, Abstract; Results]
+- The comparison **excludes abstainers and former drinkers**, so this is not a sick-quitter artifact:
+  "Because we did not include an abstainer group in our analysis and used risk estimates that separated
+  former drinkers from their analysis, it is unlikely that a sick-quitter effect ... influenced our
+  findings." And it is conservative — non-differential misclassification biases the pooled estimate
+  toward the null.
+  [@roerecke2010, Discussion]
+- Roerecke's verdict: «the cardioprotective effect of moderate alcohol consumption disappears when, on
+  average, light to moderate drinking is mixed with irregular heavy drinking occasions.»
+  [@roerecke2010, Abstract]
+
+**Why this is a refinement, not a tension with the artifact verdict above** — the contrasts are different
+quantities:
+
+| Parameter | Roerecke 2010 | Millwood 2019 (this page) | Same quantity? |
+|---|---|---|---|
+| Contrast | irregular-heavy vs regular-moderate, **at equal average volume** | genetically higher vs lower intake (MR) | **NO** — pattern contrast vs volume contrast |
+| Referent | regular moderate drinkers | genetically lower-alcohol | **NO** |
+| Outcome | ischaemic heart disease (MI + coronary death) | myocardial infarction (and stroke) | partial |
+| Effect | RR 1.45 (1.24, 1.70), heavy-episodic vs regular | MI RR 0.96 (0.78-1.18) per 280 g/wk, null | **NO** — different comparison |
+
+The fourth column is NO on three rows: Roerecke measures a **within-drinker pattern effect at fixed
+volume**; Millwood measures the **drinking-vs-not causal effect**. They are consistent — a given volume
+can still be worse when binged even if drinking carries no net causal MI benefit. What Roerecke *presumes*
+(that regular-moderate is cardioprotective vs not drinking) inherits this page's artifact critique; what
+it robustly *shows* — pattern modifies risk at fixed volume — stands regardless. Honest composite:
+**volume is the dominant axis, pattern is a real second axis**, and the decision-relevant form is *don't
+concentrate a week's drinks into one or two heavy sessions* — a lever available even to someone unwilling
+to cut total intake.
+
+**This fills a gap GBD names explicitly.** GBD flagged the hole itself: «drinking patterns within a year
+are assumed to be consistent; however, past work shows that drinking patterns, rather than average levels
+of consumption such as standard daily drinks, might be related to different levels of risk».
+[@gbd2018alcohol, Discussion] Roerecke (2010) supplies
+exactly the pattern-risk function GBD's population model could not — the composite covers a blind spot
+GBD's own model explicitly names (an F-refinement across the two), not a contest.
+[inferred from @roerecke2010; @gbd2018alcohol]
+
+
+
+## The beverage-matrix story — *it's the red wine / resveratrol* is null at dietary doses `[Semba 2014]`
+
+A common rescue of the J-curve is that the benefit is **not ethanol but the polyphenols in red wine** —
+the *French paradox*, attributed to resveratrol. Semba's InCHIANTI cohort (783 adults 65+, 9-year
+follow-up) tests it with a biomarker instead of a food-frequency proxy: 24-hour urinary resveratrol
+metabolites.
+
+- Resveratrol was **null on every outcome**: «total urinary resveratrol metabolite concentration was not
+  associated with inflammatory markers, cardiovascular disease, or cancer or predictive of all-cause
+  mortality.» Lowest-vs-highest quartile mortality HR «0.80 (95% CI, 0.54-1.17)», ns; incident CVD and
+  cancer also flat across quartiles.
+  [@semba2014, Results; Conclusions]
+- The verdict is scoped to *dietary* doses: «Resveratrol levels achieved with a Western diet did not have
+  a substantial influence on health status and mortality risk of the population in this study.»
+  [@semba2014, Conclusions]
+- The biomarker is really a **wine-intake marker**: urinary resveratrol correlated with alcohol intake at
+  Spearman «0.67 (P < .001)», and «urinary resveratrol levels are a valid biomarker of wine consumption.»
+  [@semba2014, Results; Discussion]
+
+**So the presumed active component of red wine does no measurable work at the doses a drinker actually
+gets** — the same failure mode as coffee's *caffeine* (present but inactive for the outcomes) or the
+refined-vs-whole-grain boundary (null on hard outcomes) -> [[Is the Food Category Doing Any Work]]: a
+category benefit credited to a named sub-component that, measured directly, carries nothing. It does not rule out a supraphysiologic-dose *supplement* effect (the
+trials use doses orders of magnitude above dietary, and one was halted early for renal toxicity) — but it
+removes the *drink-red-wine-for-the-resveratrol* inference. Whatever ethanol does (stroke, BP, cancer,
+above) it does regardless of beverage; the wine-specific benefit is **unmeasured-or-absent**, not
+established — do not let a well-lit polyphenol biomarker stand in for the outcome that matters (the
+streetlight caveat). Semba is a single moderate-tier cohort (a labelled null counterweight — no gold
+resveratrol-outcome MA exists), so it **refutes a folklore claim**; it is not an independent-E witness for
+the mortality/stroke verdict.
+[inferred from @semba2014]
+
+
+
+## Population scale — *no safe level*, and PAF is not a per-person effect `[GBD 2018; Rumgay 2021]`
+
+The arms above are per-person risks. Two population-attributable-fraction (PAF) models add the
+**population magnitude** — a *different unit*, not a larger version of the RRs, and read as such.
+
+**GBD 2016 — the external guidance-null anchor.** Across all 23 outcomes weighted by global disease
+burden, «the level of alcohol consumption that minimised harm across health outcomes was zero (95% UI
+0·0-0·8) standard drinks per week» (1 drink = 10 g ethanol); alcohol «led to 2·8 million deaths» in 2016
+and was the leading risk factor at ages 15-49.
+[@gbd2018alcohol, Findings; , Discussion] GBD
+reaches this by **re-doing the meta-analysis with a controlled reference category** — the same
+sick-quitter correction Stockwell/Zhao applied — so it is population-scale *reinforcement of the same
+artifact finding, not an independent method*. It does find a residual protective minimum for IHD and
+diabetes («0·86 (0·80-0·96) for men and 0·82 (0·72-0·95) for women» at \~0·9 drinks/day) but «these
+protective effects were offset by the risks associated with cancers, which increased monotonically».
+[@gbd2018alcohol, Discussion] It states the guidance
+clash plainly: «the safest level of drinking is none. This level is in conflict with most health
+guidelines, which espouse health benefits associated with consuming up to two drinks per day.»
+[@gbd2018alcohol, Conclusion]
+
+**Rumgay 2021 (IARC) — the cancer-burden leg, and it reinforces no-threshold with scale.** «741 300
+(95% UI 558 500-951 200), or 4·1% (3·1-5·3), of all new cases of cancer in 2020 were attributable to
+alcohol consumption», top sites oesophagus (189 700), liver (154 700), breast (98 300). Crucially for the
+no-safe-threshold claim (WCRF, above), **light-moderate drinking is not exempt**: «moderate drinking (<20
+g per day) contributed 103 100 (13·9%; 95% UI 82 600-207 200) cases», i.e. «moderate drinking still
+contributed one in seven alcohol-attributable cases and more than 100 000 cancer cases worldwide», and
+even «drinking up to 10 g per day contributed 41 300 (35 400-145 800) cases» (\~1 drink).
+[@rumgay2021, Findings; Discussion]
+
+**Read PAF correctly (the unit guard).** A PAF is *how many population cases would not have occurred under
+lifetime abstention* — prevalence × RR — NOT the risk to an individual drinker, and **not commensurable
+with the cohort RRs on this page**. Rumgay's RRs are borrowed from WCRF's CUP; GBD's are its own
+re-meta-analysis. So these two enter the page as **co-membership** (the same cross-outcome verdict at
+population scale), not as effect sizes to line up against Stockwell/Millwood/Zhao. What they add is the
+*magnitude and the guidance-null exercise*: even the fraction attributable to *moderate* drinking is a
+six-figure case count — the population-scale form of *no protective arm survives, and cancer has no lower
+threshold*.
+[inferred from @gbd2018alcohol; @rumgay2021]
 
 ## Limits
 

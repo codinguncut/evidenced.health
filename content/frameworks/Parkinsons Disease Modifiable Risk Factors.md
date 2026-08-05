@@ -12,6 +12,7 @@ updated: 2026-08-05
 self_critiqued: 2026-08-05
 relationships:
   related_to:
+    - Shared Modifiable Levers Across Age-Related Diseases
     - Dementia Prevention and Modifiable Risk Factors
     - Physical Activity Dose and Mortality
     - Coffee Consumption and Health

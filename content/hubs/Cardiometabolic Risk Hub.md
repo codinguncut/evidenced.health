@@ -41,7 +41,9 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Smoking and Mortality]] — the size of smoking's mortality effect and how much cessation recovers as
   a function of age at quitting
 - [[Alcohol and Mortality and Vascular Disease]] — whether moderate intake is protective, harmful, or
-  neutral, and whether the J-curve survives scrutiny
+  neutral, and whether the J-curve survives scrutiny; now also the drinking-PATTERN axis (binge at fixed
+  volume, Roerecke), the red-wine/resveratrol null (Semba), and the population "no safe level" burden
+  (GBD, Rumgay)
 
 ## Neurodegeneration (dementia · Parkinson's)
 

@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - Framing a Decision Question
@@ -16,7 +16,7 @@ relationships:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Coffee Consumption and Health
 created: 2026-07-27
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -529,6 +529,26 @@ caffeine axis nor the whole-cup label is the right decision variable* — for th
 **matrix / decaf-equivalence**; for the lipid harm, name the **brew method**. A recommendation phrased as
 "caffeine is bad" or "coffee raises cholesterol" is wrong on both axes. -> [[Coffee Consumption and Health]]
 [inferred from @poole2017]
+
+## Red wine — the presumed component (resveratrol) is null at dietary doses `[2026-08-05, Semba]`
+
+The *French paradox* credits red wine's benefit to its polyphenol **resveratrol** — a component claim
+about a beverage. Semba's InCHIANTI cohort tests it with a biomarker (24-h urinary resveratrol
+metabolites, the direct exposure) rather than an FFQ, and it fails the sub-component test (Test 3):
+«total urinary resveratrol metabolite concentration was not associated with inflammatory markers,
+cardiovascular disease, or cancer or predictive of all-cause mortality» (lowest-vs-highest quartile
+mortality HR «0.80 (95% CI, 0.54-1.17)», ns); «Resveratrol levels achieved with a Western diet did not
+have a substantial influence on health status and mortality risk».
+[@semba2014, Results; Conclusions]
+
+**This is the coffee=caffeine case run on wine, with the same shape:** the biomarker is really a
+wine-intake marker (resveratrol \~ alcohol intake, Spearman «0.67 (P < .001)»; «a valid biomarker of wine
+consumption») [@semba2014, Discussion], so a study
+crediting "resveratrol" is measuring wine (hence ethanol) under a polyphenol label — the collinearity trap.
+At dietary doses the named component carries nothing; the category benefit, if any, does not run through
+it. The bound: supraphysiologic *supplement* doses (100-1000× dietary) are a different exposure and not
+tested here. The decision link lives on [[Alcohol and Mortality and Vascular Disease]] (the beverage-matrix
+facet). [inferred from @semba2014]
 
 ## "Omega-3" as a label spanning a benefit AND a null — the unit is compound × dose × stratum `[2026-08-04, Bhatt vs Manson]`
 

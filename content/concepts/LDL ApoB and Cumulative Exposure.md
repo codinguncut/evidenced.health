@@ -15,6 +15,7 @@ relationships:
     - Statins for Primary Prevention and the Power of Zero CAC
     - Baseline Risk and the Relative-Absolute Split
     - Dementia Prevention and Modifiable Risk Factors
+    - Soy Products and Health
 created: 2026-07-29
 updated: 2026-08-05
 self_critiqued: 2026-08-04

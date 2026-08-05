@@ -14,8 +14,9 @@ relationships:
     - Whole Grains Refined Grains and Pulses
     - Surrogate Outcomes
     - Is the Food Category Doing Any Work
+    - Soy Products and Health
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-07-29
 ---
 

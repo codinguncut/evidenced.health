@@ -2,12 +2,12 @@
 type: hub
 question: How much sleep, and is the short/long U-curve causal or a marker of illness?
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
-Navigator for the `sleep` cluster — how much sleep to aim for and whether each arm of the
-mortality/metabolic U-curve is a real causal signal or an artifact of illness. Nucleus:
-[[Sleep Duration and Mortality]].
+Navigator for the `sleep` cluster — how much sleep to aim for, whether each arm of the
+mortality/metabolic U-curve is a real causal signal or an artifact of illness, whether *regularity* of
+timing is a distinct lever, and what to do about insomnia. Nucleus: [[Sleep Duration and Mortality]].
 
 ## How much sleep, and is the U-curve real?
 
@@ -15,3 +15,10 @@ mortality/metabolic U-curve is a real causal signal or an artifact of illness. N
   illness, and why the two arms are not the same kind of finding
 - [[Sleep and Metabolic Health]] — whether sleep duration causally affects type 2 diabetes risk and
   adiposity, and which arm of the U-curve is real
+
+## Beyond duration — regularity and treatment
+
+- [[Sleep Regularity and Mortality]] — whether day-to-day consistency of sleep timing (Sleep Regularity
+  Index) is a distinct and stronger mortality lever than hours slept
+- [[Sleep Aids and Insomnia Treatment]] — for chronic insomnia, which works and is safest among CBT-I,
+  prescription hypnotics, and melatonin

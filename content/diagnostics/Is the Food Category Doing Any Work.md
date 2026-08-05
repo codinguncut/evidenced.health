@@ -15,6 +15,7 @@ relationships:
     - Free Sugars Intake
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Coffee Consumption and Health
+    - Soy Products and Health
 created: 2026-07-27
 updated: 2026-08-05
 ---

@@ -2,13 +2,14 @@
 type: framework
 question: Which gut-microbiome interventions (diet/fibre, probiotics by strain, prebiotics, FMT) change a patient-important outcome — and how do you separate a real effect from a composition-shift that reaches no outcome?
 aliases: [Gut Microbiome, Microbiome, Gut Microbiota, Probiotics, Prebiotics, Dysbiosis, Fecal Microbiota Transplant, FMT, Gut Health]
-authors: [Valdes, Ana M; Walter, Jens; Segal, Eran; Spector, Tim D; World Gastroenterology Organisation (org)]
-sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023]
+authors: [Valdes, Ana M; Walter, Jens; Segal, Eran; Spector, Tim D; World Gastroenterology Organisation (org); Wastyk, Hannah C; Sonnenburg, Justin L]
+sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
 relationships:
   related_to:
+    - Fermented Foods and Health
     - Non-Sugar Sweeteners
     - Dietary Fibre and Health
     - Surrogate Outcomes
@@ -16,7 +17,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-07-31
 ---
 
@@ -55,6 +56,24 @@ plant-diverse diet ([[Dietary Fibre and Health]]). It also reframes **prebiotics
 substrate «selectively utilized by host microorganisms that confers a health benefit» (WGO), i.e. mostly
 fermentable fibre by another name, so the prebiotic evidence largely *is* the fibre evidence.
 [@wgo2023]
+
+### Refinement — fermented foods moved diversity where fibre did NOT, head-to-head `[2026-08-05, Wastyk]`
+
+Valdes's claim that microbial diversity «tracks fibre intake» is a *long-term observational association*.
+The Wastyk 2021 RCT [[Fermented Foods and Health]] supplies a short-term interventional test that
+**refines it**: over a 10-week head-to-head, the high-fermented-foods arm steadily raised alpha
+diversity while the high-fibre arm showed «no cohort-wide microbiota diversity increase»
+[@wastyk2021].
+
+This is **not** a contradiction of Valdes (different scope/horizon — a long-term association vs a
+10-week intervention; the not-joined check fires on horizon, so it is a distinction). Wastyk's own
+reading is that fibre's diversity effect likely needs *longer* than 6 weeks of high intake plus a
+source of new microbes, not that fibre fails. **What it does bound is the reduction "the microbiome
+story reduces to the fibre story":** on the diversity marker over an actionable timescale, fermented
+foods were the more reliable lever — an *indirect* remodeling of the resident community, not
+colonization by eaten microbes. The prebiotic (fibre-feeds-resident) and probiotic
+(fermented-adds-microbes) routes are genuinely distinct, and both are surrogate-level here.
+[inferred from @wastyk2021]
 
 ## Probiotics: strain- and indication-specific, NOT a general tonic
 

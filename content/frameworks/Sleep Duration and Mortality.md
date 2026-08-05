@@ -16,6 +16,8 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
     - Measurement Error in Dietary Assessment
     - Sleep and Metabolic Health
+    - Sleep Regularity and Mortality
+    - Sleep Aids and Insomnia Treatment
     - Dementia Prevention and Modifiable Risk Factors
 ---
 
@@ -97,6 +99,15 @@ a small, mechanism-backed risk** (million-woman study RR 1.08, 1.04-1.12 for <7 
 recommend on — dementia is added to the outcomes where the short arm looks causal and the long arm does
 not. Notably the Commission declined to make *any* sleep-duration recommendation, an honest
 insufficient-evidence stop the wiki mirrors.
+
+## Duration is not the only axis — two facets now sit under this nucleus
+
+- **Regularity may be the stronger lever.** Objective accelerometry shows day-to-day *consistency* of
+  sleep timing (Sleep Regularity Index) out-predicts *duration* for mortality in the same cohort — a
+  distinct exposure the duration-centric guidelines miss -> [[Sleep Regularity and Mortality]].
+- **Treatment is its own decision.** Once insomnia is present, the choice among CBT-I, hypnotics and
+  melatonin turns on harm + durability, not sleep-number effect size -> [[Sleep Aids and Insomnia Treatment]].
+[inferred from @windred2023]
 
 ## Decision relevance
 

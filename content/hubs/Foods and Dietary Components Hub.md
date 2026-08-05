@@ -30,6 +30,10 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   whom, at what dose, and how much is causal
 - [[Red and Processed Meat and Cancer]] — whether red or processed meat causes cancer, by how much, and
   whether the evidence warrants reducing intake
+- [[Fermented Foods and Health]] — the `fermented-foods` nucleus: do live-fermented foods move a
+  patient-important outcome, and is the effect the live cultures, the food matrix, or fermentation's
+  biochemistry? Held evidence is thin (one surrogate-outcome RCT + one observational fermented-dairy CVD
+  MA); the live-vs-pasteurized natural experiment is unrun; trendy ferments are a named GAP. No halo
 
 ## Sugars, sweeteners, and seed oils
 
@@ -47,3 +51,8 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   end products improves outcomes
 - [[Antinutrients in Plant Foods]] — whether "antinutrients" are a reason to avoid plant foods, or
   ordinary preparation defuses the concern
+- [[Soy Products and Health]] — the `soy` nucleus: the three fears tested under symmetric standards —
+  hormonal (Reed 2021: male-hormone NULL; isoflavones are SERMs), breast cancer (Chen 2014:
+  neutral-to-protective, menopausal-status/region/design-conditional), LDL (Anderson 1995: modest
+  lowering via isolated soy protein, baseline-dependent, DATED). Forms differ (whole / fermented /
+  isolated / condiment); thyroid + natto-K2 are named GAPs

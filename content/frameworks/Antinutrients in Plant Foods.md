@@ -12,8 +12,9 @@ relationships:
     - Whole Grains Refined Grains and Pulses
     - Is the Food Category Doing Any Work
     - Measurement Error in Dietary Assessment
+    - Soy Products and Health
 created: 2026-07-29
-updated: 2026-07-30
+updated: 2026-08-05
 self_critiqued: 2026-07-29
 ---
 

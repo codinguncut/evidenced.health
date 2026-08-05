@@ -260,6 +260,16 @@ argument rather than a talking point:
   (the streetlight problem) -> [[Limits of Evidence]].
 - It is **conditional on the exposure profile**: expanding to younger users or decades-long exposure
   *reopens* the uncertainty the old profile closed.
+- It assumes a **stable exposure**, and the incretin field is not one — it iterates *compound*
+  (semaglutide -> tirzepatide adds a GIP target -> retatrutide adds glucagon) and *dose* (early
+  glycaemic-control doses -> higher obesity / lifestyle doses), and each drift **resets the
+  long-term-safety clock** for the part that changed. So accrued years de-risk the *specific compound
+  at the specific dose that earned them*, not a newer molecule or higher dose merely because both wear
+  the same class label. The reset is **partial, not total**: shared GLP-1-receptor class effects still
+  transport and do not restart — only the molecule-, dose-, or new-target-specific part begins again.
+  So *evidence accumulates* is conditional on the exposure holding still, not automatic
+  -> [[GLP-1 Non-Cardiometabolic Effects and Safety]], [[Is the Food Category Doing Any Work]] (specify
+  the exposure, not the label).
 
 **Decision-change:** the option value of *waiting* scales **inversely** with benefit magnitude. In the
 high-risk stratum a large certain benefit now dominates the shrinking uncertainty — act. For a low-risk
@@ -284,8 +294,13 @@ on four axes — which is the proof it is not "it depends":
   [@ference2017] — applied to a *measured* exposure
   effect (it raises apoB in many) — **plus** a weak, confounded, discounted observational red-meat leg.
   GLP-1's unknown instead rests on a neutral-to-favorable base.
-- **De-risking.** GLP-1 de-risks yearly (RCTs, surveillance, millions exposed); carnivore's error bars
-  stay huge — near-zero large or long-term studies, self-selected samples, nothing looking.
+- **De-risking.** GLP-1 de-risks yearly (RCTs, surveillance, millions exposed) — but that accrued
+  safety belongs to the *specific compound and dose that earned the years*, not automatically to a
+  newer molecule or higher dose under the same class label (the moving-target caveat above); carnivore's
+  error bars stay huge — near-zero large or long-term studies, self-selected samples, nothing looking.
+  The discriminator holds regardless: even at its slowest, GLP-1's evidenced base is neutral-to-
+  favorable while carnivore's is harm-leaning — only the *pace* of de-risking is qualified, not the
+  direction.
 - **Cumulativeness breaks the reversibility symmetry.** apoB exposure is area-under-the-curve, so years
   of elevation integrate into arterial burden that quitting does not erase -> [[LDL ApoB and Cumulative Exposure]].
 
@@ -433,6 +448,16 @@ a well-reasoned starting point, not a validated promise.
   - **The two general principles are stated for reuse** (mechanism weighted by strength + symmetrically,
     an unmeasured composite is not sub-significance evidence; reversibility assumed != established), each
     banked as a decision-change and cross-linked to [[Limits of Evidence]].
+
+- **Delta (Challenge #25 moving-target) `[run 2026-08-05]`.** Two spots brought into line with the fabric
+  section [[GLP-1 Non-Cardiometabolic Effects and Safety]] -> *the moving-target problem*: a 4th honesty
+  guard in *the uncertain risk de-risks over time*, and a qualifier on the *de-risking* line of the
+  incretin-vs-carnivore contrast. Checks: **(a)** partial-not-total preserved — the reset is scoped to the
+  molecule-/dose-/new-target-specific part while shared GLP-1-receptor class effects still transport, so
+  temporal de-risking is *conditioned*, not denied. **(b)** Discriminator not overcorrected — GLP-1's
+  evidenced base stays neutral-to-favorable vs carnivore's harm-leaning; only the *pace* of de-risking is
+  qualified, not the direction of the verdict. **(c)** No overclaim / no new number — the refinement is
+ from the fabric; every pre-existing quote/number/tag is untouched.
 
 > [!info] Evidence box
 >

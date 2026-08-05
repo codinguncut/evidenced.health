@@ -3,7 +3,7 @@ type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
 authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021]
 cluster: cardiometabolic-exposures
 confidence: medium
 relationships:
@@ -13,9 +13,10 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
+    - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-04
-self_critiqued: 2026-07-29
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
@@ -113,6 +114,24 @@ contrast (type-A synthesis), not a head-to-head.
 
 
 
+## The same pattern and dementia — a second outcome, but observational and probably via the vascular channel
+
+The Mediterranean pattern also carries a **dementia/cognition** signal, but on much weaker evidence than
+its CV-event RCT here. A dose-response MA (Garcia-Casares 2021, 11 studies / 12,458 participants, **all
+observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.84-0.93)**, **MCI RR 0.91
+(0.85-0.97)**, cohort-only 0.91 (0.88-0.94). [@garciacasares2021] Two things keep this from reading as a second hard-outcome win for the pattern:
+
+- **No RCT leg** (PREDIMED tested CV events, not dementia incidence; the randomized cognition evidence is
+  the multicomponent FINGER family, small/null on incidence), and the cohorts carry healthy-user +
+  reverse-causation confounding the authors flag themselves («limit to infer causality»). [EXTRACTED
+  (Garcia-Casares - Mediterranean Diet Alzheimer 2021) chunk 02]
+- **The likely route is the vascular one this page evidences.** The MA frames the AD effect as running
+  «indirectly (being protective factors of cardiovascular and metabolic diseases, which are themselves risk
+  factors for AD)» [@garciacasares2021] — consistent
+  with PREDIMED's demonstrated vascular (stroke-driven) effect being the mediator, so the cognition benefit
+  is probably not an *additional* independent channel. Full appraisal + the double-counting caveat:
+  [[Dementia Prevention and Modifiable Risk Factors]].
+
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
@@ -138,5 +157,16 @@ contrast (type-A synthesis), not a head-to-head.
   observational corroboration is flagged as non-independent.
 - **Symmetric standards:** the retraction/reanalysis discount is applied to a *favourable* result — the
   exact case where motivated reasoning would wave it through.
+
+## Self-critique `[re-run 2026-08-05, after adding the dementia/cognition section]`
+
+- **No outcome-inflation.** The added MedDiet->AD/MCI signal is stated as observational-only, `low`-to-
+  `moderate`, with the RCT gap and the confound named up front — it is NOT presented as a second hard-
+  outcome win to sit beside PREDIMED's CV events. The «probably via the vascular channel» read is tagged
+  as reasoning, not a demonstrated mediation.
+- **Not laundered-E.** Garcia-Casares is a *different outcome* (cognition) on a *weaker design*
+  (observational), so its agreement is not independent corroboration of the CV-event finding; no
+  `[E-independent]` claimed. It enters `sources:` on the dual test (a distinct extracted claim — the AD/MCI
+  RRs — now lives on the page).
 
 ## References

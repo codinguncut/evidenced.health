@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbaek, Geir; Mukadam, Naaheed]
-sources: [Livingston - Dementia Prevention 2024]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021]
 cluster: dementia
 nucleus: true
 confidence: medium
@@ -12,6 +12,7 @@ updated: 2026-08-05
 self_critiqued: 2026-08-05
 relationships:
   related_to:
+    - Parkinsons Disease Modifiable Risk Factors
     - Layer 1 - Ranking Interventions for a Stratum
     - Hearing Loss and Dementia
     - LDL ApoB and Cumulative Exposure
@@ -22,6 +23,8 @@ relationships:
     - Sleep Duration and Mortality
     - The U-Shaped Association Artifact
     - Big Rocks (Elderly)
+    - Mediterranean Diet and Cardiovascular Events
+    - Measurement Error in Dietary Assessment
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
@@ -88,7 +91,7 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
   Layer-1 ranking rather than competing with it -> [[Layer 1 - Ranking Interventions for a Stratum]],
   [[Big Rocks (Elderly)]]. The dementia-specific additions are hearing, vision, education/cognitive
   activity, depression, TBI protection, social contact and air pollution.
-- **Timing: earlier and longer.** «It is never too early or too late to reduce» dementia risk; the
+- **Timing: earlier and longer.** «it is never too early or too late to reduce» dementia risk; the
   operative rule is «decrease risk factor levels early (the earlier, the better) and keep them low
   throughout life (the longer, the better)». [@livingston2024]
   Duration of exposure matters (mid-life diabetes and hypertension carry the risk; the same conditions
@@ -98,6 +101,42 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 - **Compression of morbidity is a trajectory finding, not only a length one.** Healthier lives not only
   lower dementia risk but push its onset back *further than* life expectancy extends, compressing the
   years lived with dementia -> the shape-of-decline outcome the telos centres.
+
+## The diet lever — quantified, observational, and probably NOT additive to the cardiometabolic rocks
+
+**Diet is not one of the Commission's headline 14 factors as a standalone** — it acts *through* its
+components (hypertension, diabetes, obesity, LDL, activity), which are counted separately. A specific
+Mediterranean-diet -> AD/MCI quantification lets us size the lever and, more importantly, see why adding it
+on top of those factors would double-count.
+
+- **The association (Garcia-Casares 2021, dose-response MA, 11 studies / 12,458 participants).** Per
+  one-point rise on the 0-9 MD adherence score: **AD RR 0.89 (0.84-0.93)** («an 11% reduced risk of
+  developing AD»), **MCI RR 0.91 (0.85-0.97)**, composite 0.89 (0.86-0.92). Restricting to the
+  lower-bias cohort designs attenuates it slightly to **RR 0.91 (0.88-0.94)** with no heterogeneity.
+  [@garciacasares2021]
+- **Association, NOT established causation — the confound is the story.** Every pooled study is
+  observational and most are cross-sectional; the authors state this «limit[s] to infer causality»
+  [@garciacasares2021]. Two biases bind hard here:
+  (i) **healthy-user** — «Adherence to MD is included in a lifestyle pattern inﬂuenced by sociocultural,
+  educational, family and economic factors» [@garciacasares2021], several of which (less education, inactivity, depression) are themselves in the 14; and
+  (ii) **reverse causation** over the long prodrome — «cognitive impairment patients could obtain MDs that
+  do not accurately quantify their adherence to MD in the past» [@garciacasares2021]. Dietary self-report also carries large measurement error
+  -> [[Measurement Error in Dietary Assessment]]. So this is a `low`-to-`moderate`-certainty association;
+  do not read the RR as «MedDiet prevents Alzheimer».
+- **Mediation / double-counting flag [inferred from @livingston2024; @garciacasares2021].** The source frames the effect as running «directly (by its
+  neuroprotective effects) as well as indirectly (being protective factors of cardiovascular and metabolic
+  diseases, which are themselves risk factors for AD)» [@garciacasares2021]. Since the Commission already counts hypertension, diabetes, obesity, LDL and
+  inactivity, a MedDiet dementia benefit is likely **substantially mediated by those already-counted
+  levers, not additional to them** — so the diet lever is largely a *route to pull the cardiometabolic
+  rocks*, not a 15th independent PAF slice to add on top.
+- **The RCT leg is separate and weaker.** No RCT met this MA's inclusion; the randomized diet-dementia
+  evidence lives in the multicomponent FINGER family, which shows only a **small** cognitive-composite
+  benefit and a null on dementia *incidence* (see Scope guard). A cohort association of this size has not
+  been reproduced as a randomized incidence effect.
+
+The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PREDIMED, stroke-driven, at
+high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
+mediation reading: the pattern's best-evidenced effect is on the vascular channel that feeds AD risk.
 
 ## Scope guard
 
@@ -113,10 +152,13 @@ prevention framework's scope.
 - **Not laundered / not overclaimed.** The headline 45.3% is presented with all three of the source's own
   limiting frames (population-not-individual, borrowed-RR-assumed-causal, communality-discounted-so-no-sum)
   rather than as a per-person prevention promise — the exact misread the maintainer framing flagged.
-- **Single-source, domain-opener.** This is a *provisional* cluster nucleus (one source); `confidence:
-  medium` reflects consensus-grade backing (SR/MA triangulation) not cross-source corroboration. Each
-  per-factor RR is the Commission's *cited* figure, and where a held page already estimates that exposure
-  (smoking, LDL, BP, activity, alcohol), the dementia bullet is added *there* rather than re-litigated here.
+- **Now two-source (F-refinement added 2026-08-05).** The Garcia-Casares MedDiet -> AD/MCI dose-response
+  quantifies + bounds the diet lever the Commission references; it is folded in with its own confound
+  frame (observational-only, healthy-user, reverse causation) and the mediation/double-counting flag,
+  NOT as a 15th additive PAF. No independence (E) is claimed between the two sources. `confidence: medium`
+  still reflects the Commission's consensus-grade backing; the diet association is explicitly the weaker,
+  `low`-to-`moderate` leg. Where a held page already estimates an exposure (smoking, LDL, BP, activity,
+  alcohol), the dementia bullet is added *there* rather than re-litigated here.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

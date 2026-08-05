@@ -22,3 +22,9 @@ levers, and whether the energy spent on exercise is offset by compensation. Nucl
   disease independently of aerobic activity, and at what dose
 - [[Exercise Energy Compensation]] — whether exercise expenditure is offset by reduced non-exercise
   activity or increased intake, and whether higher intensity worsens the offset
+
+## Falls and fracture prevention (older adults)
+
+- [[Exercise for Preventing Falls in Older Adults]] — the `falls` nucleus: exercise cuts the rate of
+  falls 23% (HIGH certainty, Cochrane 108-RCT SR); the active ingredient is balance/functional training,
+  not volume — resistance alone does not reduce falls; fracture arm promising but low-certainty

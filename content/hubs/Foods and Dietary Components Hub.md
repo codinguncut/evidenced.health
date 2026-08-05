@@ -2,12 +2,23 @@
 type: hub
 question: For specific foods and dietary components, is there a real health effect worth changing intake over, and is it the food or something else doing the work?
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 Navigator for the specific-food and component clusters — whether a named food, additive, or compound
 class moves a patient-important outcome enough to change what someone eats or buys, and whether the
 food category is doing the work. Nucleus of the label side: [[Organic vs Conventional Food]].
+
+## Cancer / neoplasia prevention
+
+The diet/activity/adiposity -> cancer domain (WCRF/AICR CUP). Cross-cutting — a dedicated Cancer
+Prevention Hub is owed once the domain grows beyond these; catalogued here for now.
+
+- [[Diet Physical Activity and Cancer Prevention]] — the `cancer-prevention` nucleus: WCRF's graded
+  causal matrix (convincing/probable/limited), which exposures move cancer risk and how strong the
+  evidence is; the big rocks are body fatness, alcohol, physical activity
+- [[Body Fatness and Cancer Risk]] — the largest diet-adjacent cancer lever: body fatness a convincing/
+  probable cause of \~12 of 17 cancers, its hallmark mechanisms, and the young-adulthood breast paradox
 
 ## Foods and beverages
 

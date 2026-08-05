@@ -2,7 +2,7 @@
 type: framework
 question: Does hearing loss raise dementia risk, does treating it with hearing aids lower that risk, and for whom is the treatment lever largest?
 aliases: [Hearing Loss, Hearing Aids and Dementia, Hearing Impairment Cognition, Age-Related Hearing Loss]
-authors: [Livingston, Gill; Costafreda, Sergi G; Mukadam, Naaheed]
+authors: [Livingston, Gill; Costafreda, Sergi G]
 sources: [Livingston - Dementia Prevention 2024]
 cluster: dementia
 confidence: medium
@@ -25,7 +25,7 @@ where the intervention question is answerable, not just the association.
 
 - **Hearing loss raises dementia risk** — the Commission's new random-effects meta-analysis (6 high-quality
   cohorts, n=666,370): «people with hearing loss had an increased risk of dementia compared to those with
-  normal hearing (HR 1.37, 1.00-1.87, I2 =80%)». [@livingston2024] The estimate is deliberately *conservative* (hearing-aid users kept in, though they sit on the causal
+  normal hearing (HR 1.37, 1.00-1.87, I2 =80%, n=666,370)». [@livingston2024] The estimate is deliberately *conservative* (hearing-aid users kept in, though they sit on the causal
   pathway), and the lower CI touches 1.00.
 - **Dose-response by severity** — «all four studies which have investigated dose-response ... found that
   every 10 dB decrease in hearing ability increases dementia risk», the magnitude ranging «from 4% ... to

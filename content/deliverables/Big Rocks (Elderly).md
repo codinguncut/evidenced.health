@@ -1,10 +1,10 @@
 ---
 type: deliverable
 title: "The Biggest Health Levers After 70"
-sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, ESC - CVD Prevention Guidelines 2021, USPSTF - Statin Use Primary Prevention 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013]
+sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, ESC - CVD Prevention Guidelines 2021, USPSTF - Statin Use Primary Prevention 2022, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Jha - Smoking Hazards Cessation Benefits 2013]
 confidence: low
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 This is a robustness-sorted outline of the big levers for **one reference class**: the obese older
@@ -84,6 +84,55 @@ lean mass ([[Protein and Resistance Training for Muscle and Strength]]).
   guidance, roughly **65% of the weight lost was lean mass** (versus a normal 20-30%), flagged as a
   caution for people at risk of sarcopenia [@lowe2020].
   The mitigation is exactly this lever: keep protein and resistance training up.
+- **Measure strength, not the scale, to catch the loss early.** The European consensus (EWGSOP2) puts
+  muscle **strength first**: sarcopenia is *probable* on low grip strength or a slow chair-stand alone
+  (grip <27 kg men / <16 kg women), because «strength is better than mass in predicting adverse outcomes»
+  and strength falls faster than mass (1.5-5%/year vs 1-2%/year after 50)
+  [@cruzjentoft2019]
+  [@cruzjentoft2019]. So body weight, BMI
+  or a DXA lean-mass number mislead here — the screen is functional, imaging only confirms, and the
+  levers are the same ones already ranked ([[Sarcopenia Definition and Diagnosis]]).
+
+### Balance and functional exercise — the best-evidenced fracture-prevention lever
+
+This lever carries something rare here: a **HIGH-certainty, RCT-based effect on a patient-important
+outcome**. In a Cochrane review of 108 RCTs (23,407 people, mean age 76),
+exercise cut the **rate of falls to RaR 0.77 (0.71-0.83), HIGH certainty** — about **195 (144-246) fewer
+falls per 1000 people per year** at an illustrative control risk
+[@sherrington2019]. Falls are directly observed and hard
+to game, and removing the high-bias trials barely moved the result — so non-blinding did not downgrade it.
+
+**But the active ingredient is balance, not volume.** The decision is not *exercise*, it is *safely
+challenging balance*: balance-and-functional programmes reached RaR 0.76 (0.70-0.81, HIGH), while
+**resistance training ALONE gave no fall benefit — RaR 1.14 (0.67-1.97), very low**, its point estimate
+above 1 [@sherrington2019]. «Exercise programmes that
+reduce falls primarily involve balance and functional exercises, while programmes that probably reduce
+falls include multiple exercise categories (typically balance and functional exercises plus resistance
+exercises).» [@sherrington2019]. So the muscle case for
+lifting (above) and the falls case are *different mechanisms* — strength defends muscle, balance work
+defends against the fall; *walk more* is not fall-prevention advice.
+
+Downstream, **fall-related fractures fell to RR 0.73 (0.56-0.95), 10 RCTs, but only LOW certainty** —
+downgraded for imprecision and likely publication bias, because trials under-report these rarer, harder
+outcomes, not because the effect is absent
+[@sherrington2019].
+
+**The other leg — the vitamin-D/calcium pill — runs the opposite way, and this is the headline
+refinement.** The intuitive bone lever *fails* in this stratum: in the USPSTF evidence review (Kahwati
+2018, 11 RCTs, N=51,419 community-dwelling adults, with the deficient / institutionalised / osteoporotic
+strata excluded), vitamin D +/- calcium showed **no fracture benefit** (total-fracture ARD -0.35%, SoE
+low) and the D-plus-calcium combination **raised kidney stones — RR 1.18 (1.04-1.35), ARD 0.33%,
+moderate certainty** [@kahwati2018].
+
+This is **not "supplements don't work"** — it is the *enhancement* arm of a two-arm curve: the review
+notes the benefit concentrates in the *excluded* high-risk strata (about 1 fewer hip fracture per
+1000/year), so the pill is a **deficiency-repletion** lever, not a community-wide one
+[@kahwati2018]. So the two legs of
+fracture prevention run opposite ways: for the generally-nourished, non-osteoporotic older adult the
+better-evidenced move is the *movement* (balance/functional exercise, with a fracture signal downstream of
+a HIGH-certainty fall reduction), **not** the pill (a fracture null plus a stone harm). Supplementation
+earns its place only in the confirmed-deficient / institutionalised / osteoporotic stratum — a prescriber
+act needing this person's status ([[Deficiency Repletion vs Enhancement]]).
 
 ### Aerobic activity
 
@@ -199,12 +248,17 @@ are what the cut is for; each is routed for acquisition.], and bears
 on this cut's gaps below: testosterone as a (rejected) anabolic lever, weight loss restoring T, and the
 BMD-vs-fracture surrogate inversion. Route through a Compile pass, not a fabric edit here.]
 
-- **Sarcopenia / anabolic-resistance protein dosing.** The wiki holds only the general \~1.6 g/kg plateau
-  and the age-moderation of the supplement's benefit. A dedicated older-adult source (per-meal leucine
-  threshold, \~1.2-1.6+ g/kg guidance) is the **top acquirable gap** — and until it lands, no elevated
-  elderly protein target is asserted here.
-- **Bone mineral density.** Interventions for BMD (loading exercise, protein, weight) are essentially
-  unheld — a hole directly under the weight-loss trade-off.
+- **Sarcopenia / anabolic-resistance protein dosing.** The *definition and screen* are now held — EWGSOP2
+  (strength-first, grip <27/<16 kg) [@cruzjentoft2019]
+  — but the *dosing* is not: the wiki still holds only the general \~1.6 g/kg plateau and the age-moderation
+  of the supplement's benefit. A dedicated older-adult source (per-meal leucine threshold, \~1.2-1.6+ g/kg
+  guidance) is the **top acquirable gap** — and until it lands, no elevated elderly protein target is
+  asserted here. (Sarcopenic obesity itself has **no agreed operational cut-off** — EWGSOP2 leaves it out
+  of scope, so the stratum this cut is built around rests on an undefined construct.)
+- **Bone mineral density.** Fracture *prevention* is now held from two directions — the exercise leg
+  (RR 0.73, LOW) and the supplement null — but **BMD as a target** (loading exercise dosed for bone
+  density, protein-for-bone) is still essentially unheld, a thinner hole directly under the weight-loss
+  trade-off.
 - **Muscle-and-bone-preserving weight loss in the elderly.** The central trade-off of this whole cut,
   and the wiki holds no elderly-specific trial. This is why the weight lever is graded conditional rather
   than robust or hazardous.
@@ -239,9 +293,9 @@ BMD-vs-fracture surrogate inversion. Route through a Compile pass, not a fabric 
 > | | |
 > |---|---|
 > | **Question** | _(not set)_ |
-> | **Evidence included** | 23 sources — 7 gold, 15 high, 1 moderate |
+> | **Evidence included** | 26 sources — 10 gold, 15 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 ## References

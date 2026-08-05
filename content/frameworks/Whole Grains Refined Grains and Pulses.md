@@ -2,11 +2,11 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org)]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-08-01
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -15,7 +15,7 @@ relationships:
     - Antinutrients in Plant Foods
     - Protein Quality and the DIAAS Score
 created: 2026-07-27
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -419,6 +419,25 @@ individual effect tops a population ranking; the rank is a fact about how *wides
 not about how large the per-person gain is -> the prevalence-wedge distinction on the Layer-1 page. So
 the page's `confidence: low` on the effect stands unchanged; GBD adds a population-priority signal, not
 an effect-size upgrade. [inferred from @afshin2019]
+
+## A fifth family — a cancer body grades whole grains, and it lands on colorectal `[2026-08-05, WCRF]`
+
+WCRF's Third Expert Report is the first *cancer-prevention* family on this page, and its grade is
+site-specific: «Consuming wholegrains helps protect against colorectal cancer» — a **probable**
+(strong-enough-to-recommend) protective judgement — with dietary fibre graded the same way, and pulses
+(legumes) folded into the recommended plant-food pattern.
+[@wcrf2018ter, §5.1 Eat a diet rich in wholegrains]
+Its fibre goal — «at least 30 grams per day ... from food sources» — is the **same \~30 g target** the
+guidance families above already converge on, now reached from a cancer endpoint rather than CHD/T2D.
+
+**Two things it corroborates, neither an independent witness.** (i) On refined grains WCRF draws **no
+harm conclusion** (matrix «limited – no conclusion»), consistent with this page's headline that refined
+grains are not *found* harmful. (ii) Its wholegrain->colorectal judgement rests on the CUP cohort SLRs
+that **overlap Reynolds' colorectal-cancer cohorts** — shared observational base, so this is F/shared,
+**not** `[E-independent]` (and WCRF adds no `sources:` strength beyond the extracted grade).
+[inferred from @wcrf2018ter; @reynolds2019]
+The cancer grade's softness is documented on [[Dietary Fibre and Health]] (Veronese's weak colorectal-
+fibre signal + adenoma RCT-null); the whole-grain benefit here stays `confidence: low`, cohort-only.
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 

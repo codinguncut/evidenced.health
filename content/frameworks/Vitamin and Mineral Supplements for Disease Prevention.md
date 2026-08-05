@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -16,9 +16,11 @@ relationships:
     - The U-Shaped Association Artifact
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Rating Certainty of Evidence
+    - Deficiency Repletion vs Enhancement
+    - Exercise for Preventing Falls in Older Adults
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -57,6 +59,25 @@ reduce total (HR 0.98, 0.89-1.08), nonvertebral (0.97), or hip (1.01, 0.70-1.47)
 > «Vitamin D3 supplementation did not result in a significantly lower risk of fractures than placebo
 > among generally healthy midlife and older adults who were not selected for vitamin D deficiency, low
 > bone mass, or osteoporosis.» [@leboff2022]
+
+**An independent trial set reaches the same fracture-null (Kahwati 2018, USPSTF gold SR) `[E-independent]`.**
+Kahwati pooled **11 RCTs, N=51,419** of community-dwelling adults (deficient/institutionalized/osteoporotic/
+prior-fracture strata **excluded**) and — using **no VITAL trial** (its search closed March 2017, before
+VITAL published) — found no fracture benefit: vitamin D + calcium total fracture ARD -0.35% (-1.02 to 0.31),
+hip -0.14%; vitamin D alone hip pooled ARD -0.01% (RR 1.08); calcium alone insufficient. «Vitamin D
+supplementation alone or with calcium was not associated with reduced fracture incidence among
+community-dwelling adults without known vitamin D deficiency, osteoporosis, or prior fracture»
+[@kahwati2018]. Because Kahwati and VITAL
+share **no trials, no group, no lineage**, this is a genuine independent same-outcome witness of the
+**fracture enhancement-null** — strictly that claim, not the point estimates
+[inferred from @kahwati2018; @leboff2022]. And
+Kahwati names the repletion split itself — «The fracture benefits overall appear to be largely attributable
+to benefits among the high-risk populations, with little to no benefit in lower-risk populations (1 fewer
+hip fracture per 1000 community-dwelling adults per year [95% CI, 0 to 2])»
+[@kahwati2018] (reporting the 2014
+Cochrane review, which included high-risk strata) -> [[Deficiency Repletion vs Enhancement]],
+[[Exercise for Preventing Falls in Older Adults]] (where exercise, not the pill, is the community-dwelling
+fracture lever).
 
 ## The load-bearing move: this is ENHANCEMENT in the replete, NOT deficiency correction
 
@@ -128,6 +149,16 @@ A single dose above repletion moved a hard outcome the *wrong* way — consisten
 (reduced BMD, hip fracture), vitamin D (hypercalcaemia / kidney stones at >=1000 IU/day), and vitamin C
 (kidney stones) [@uspstf2022supp].
 
+**The kidney-stone harm is quantified and RCT-pooled (Kahwati 2018).** Vitamin D **combined with calcium**
+significantly raised incident kidney stones — pooled ARD 0.33% (95% CI 0.06 to 0.60), RR 1.18 (1.04-1.35),
+3 RCTs, n=39,213, and this was «a statistically significant association for increase in incidence»
+[@kahwati2018] — SoE **moderate**, the
+only above-low grade in that review. The harm is **specific to the combination**: calcium alone showed no
+association (pooled ARD 0.00%, -0.88 to 0.87) and vitamin D alone was unstudied on stones
+[@kahwati2018]. So a null-benefit
+supplement here also carries a small, real, moderate-certainty harm — a route-c contraindication signal
+for stone-formers, not merely an opportunity cost.
+
 **The primary trial behind the pooled figure — CARET, stopped early for harm.** The pooled RR rests on
 actual trials, chief among them **CARET**, which randomized 18,314 smokers and asbestos-exposed workers
 to beta carotene (30 mg/day) plus retinol vs placebo and was **halted 21 months early** [@omenn1996]:
@@ -178,6 +209,27 @@ appraisal was decision-determining -> [[Rating Certainty of Evidence]]; (2) the 
 **synthetic isolates, not food** — the authors state it «should not be translated to potential effects of
 fruits and vegetables» [@bjelakovic2007] ->
 [[Is the Food Category Doing Any Work]].
+
+## A cancer authority formalises the harm arm — and adds a calcium wrinkle `[2026-08-05, WCRF]`
+
+WCRF's Third Expert Report issues a formal recommendation — «Do not use supplements for cancer
+prevention» — on exactly the harm evidence above: «Taking high-dose beta-carotene supplements is a
+cause of lung cancer in current and former smokers.»
+[@wcrf2018ter, §5.1 Do not use supplements] **Not an
+independent witness** — WCRF's judgement rests on the same CARET/ATBC trials the USPSTF pool does, so it
+is a same-evidence echo, not `[E-independent]`; what it adds is a cancer-prevention body converting the
+RCT harm into an action. [inferred from @wcrf2018ter]
+
+**One genuinely new item — a supplement that helps at one site and may harm at others.** WCRF grades
+calcium supplements (>200 mg/day) a **probable protector against colorectal cancer**, but «some trials
+for other cancer sites have shown potential for unexpected adverse effects».
+[@wcrf2018ter, §5.1 Do not use supplements; matrix
+asset p3, FN52] This is the *net-effect-not-the-intended-effect* rule in one supplement: a real
+site-specific benefit does not license the supplement, because the whole-body ledger (other sites, plus
+the general-population nulls above) is what the recommendation weighs. WCRF's overall stance matches this
+page's core: «for most people ... consumption of the right food and drink is more likely to protect
+against cancer than consumption of dietary supplements.»
+[@wcrf2018ter, §5.1 Do not use supplements]
 
 ## The one notable non-primary signal — n-3 and myocardial infarction
 

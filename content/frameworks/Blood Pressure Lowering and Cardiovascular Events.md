@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -13,8 +13,9 @@ relationships:
     - Sodium Intake and Blood Pressure
     - The U-Shaped Association Artifact
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
+    - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-08-04
 ---
 
@@ -121,6 +122,18 @@ while SSaSS observed 0.86, consistent with a BP-independent electrolyte effect *
 understating the sustained one (adherence dilution). The BPLTTC transmission model is corroborated in
 *direction*; SSaSS does not let the diet-route magnitude be read straight off the BP fall.
 [inferred from @neal2021]
+
+## Second outcome — antihypertensive treatment also lowers dementia risk
+
+Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
+-> [[Dementia Prevention and Modifiable Risk Factors]]. An IPD meta-analysis found «those with untreated
+hypertension had a 42% higher risk of dementia than healthy controls (HR 1.42; 1.15-1.76), but this risk
+was attenuated or lost with treatment» (HR 1.13, 0.99-1.28). [@livingston2024] Antihypertensive-RCT meta-analyses show a modest protective effect on dementia/cognitive
+impairment (OR 0.93, 0.88-0.98; IPD OR 0.87, 0.75-0.99), though a Cochrane review judged trial durations
+too short to prove a dementia-incidence difference. The 2024 Lancet Commission's target — «maintain
+systolic BP of 130 mm Hg or less from age 40 years» — is a *dementia*-prevention framing of the same
+midlife-BP lever. As with CV events, MR studies suggesting BP is protective are discounted as survival-bias
+artifacts, consistent with this page's treat-on-absolute-risk conclusion.
 
 ## Decision relevance
 

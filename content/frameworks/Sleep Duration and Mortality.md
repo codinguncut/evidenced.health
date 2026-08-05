@@ -2,19 +2,21 @@
 type: framework
 question: How much sleep, and is the short/long mortality U-curve causal or a marker of illness?
 aliases: [Sleep Duration, Sleep and Mortality, Short Sleep, Long Sleep, Sleep U-Curve, How Much Sleep]
-authors: [Cappuccio, Francesco P; D'Elia, Lanfranco; Strazzullo, Pasquale; Miller, Michelle A]
-sources: [Cappuccio - Sleep Duration and Mortality 2010]
+authors: [Cappuccio, Francesco P; D'Elia, Lanfranco; Strazzullo, Pasquale; Miller, Michelle A; Livingston, Gill]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Livingston - Dementia Prevention 2024]
 cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-04
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - The U-Shaped Association Artifact
     - Alcohol and Mortality and Vascular Disease
     - Measurement Error in Dietary Assessment
     - Sleep and Metabolic Health
+    - Dementia Prevention and Modifiable Risk Factors
 ---
 
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
@@ -80,6 +82,21 @@ hormonal route named here — so hold leptin/ghrelin as a discounted mechanism, 
 -> [[Sleep and Metabolic Health]] (Capers 2015, where this refinement and the T2D/adiposity evidence
 live).
 
+
+## Second outcome — dementia, and the arm-level split replicates cleanly
+
+The 2024 Lancet Commission examined sleep as a candidate dementia risk factor and its verdict reproduces
+this page's arm-level asymmetry exactly -> [[The U-Shaped Association Artifact]]. The **long-sleep arm is
+an artifact**: «further evidence indicates that prolonged sleep is not a risk factor for dementia, although
+dementia and its prodrome may cause prolonged sleep. People should not curtail their sleep to reduce
+dementia risk.» [@livingston2024] The tell is decisive — a
+Swedish cohort's long-sleep/dementia association «was completely attenuated after cases occurring in the
+first 5 years of follow-up were excluded», the signature of reverse causation. The **short-sleep arm carries
+a small, mechanism-backed risk** (million-woman study RR 1.08, 1.04-1.12 for <7 h; persistent <=6 h at
+50/60/70 a «30% increased dementia risk»), though the Commission judges it not yet clear enough to
+recommend on — dementia is added to the outcomes where the short arm looks causal and the long arm does
+not. Notably the Commission declined to make *any* sleep-duration recommendation, an honest
+insufficient-evidence stop the wiki mirrors.
 
 ## Decision relevance
 

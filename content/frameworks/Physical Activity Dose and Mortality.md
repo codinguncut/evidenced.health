@@ -2,8 +2,8 @@
 type: framework
 question: How much physical activity, of what kind, do I need before the mortality benefit flattens?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Mandsager, Kyle]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018]
+authors: [World Health Organization (org); Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org)]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019]
 cluster: activity
 confidence: medium
 relationships:
@@ -12,8 +12,9 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Upgrading Observational Evidence
     - Layer 1 - Ranking Interventions for a Stratum
+    - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-27
-updated: 2026-08-01
+updated: 2026-08-05
 self_critiqued: 2026-08-01
 ---
 
@@ -125,6 +126,47 @@ viewing is not addressed here, so confounding is not excluded.
 
 Falls and fractures are outcomes people care about directly, not surrogates — the strongest outcome
 class the annex carries for this stratum.
+
+**Quantified and mechanised by a gold Cochrane SR -> [[Exercise for Preventing Falls in Older Adults]].**
+The WHO annex states the *association*; Sherrington's 108-RCT review supplies the *effect and its shape*:
+exercise cuts the rate of falls by 23% (RaR 0.77, 0.71-0.83, HIGH certainty), and the active ingredient
+is **balance/functional training**, not activity volume — resistance training alone does not reduce falls
+[@sherrington2019]. This is a **refinement, not
+independent backing** — the WHO annex's falls conclusion rests on largely the same RCT base the Cochrane
+SR pools, so treat the SR as bounding/mechanising the guideline claim, not corroborating it from a
+separate route. The fracture arm stays lower-certainty on both.
+
+## Second outcome — dementia (same shape: most benefit at the bottom)
+
+Physical inactivity is one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]]. A 58-study SR+MA found «physical activity was associated with a decreased risk
+of all-cause dementia (RR 0.80, 0.77 to 0.84, n=257,983)» across intensities and follow-ups >=20 years,
+with the reduction «greatest when moving from extreme sedentariness to some physical activity».
+[@livingston2024] This replicates the *marginal-minute-worth-
+most-at-the-bottom* shape on a second outcome. Caveat unchanged: the link is «likely to be bidirectional»
+(pre-clinical dementia reduces activity), and the one 5-year RCT of structured exercise found no overall
+cognition/MCI difference — so the observational RR 0.80 is a decreased-risk *association*, not a proven
+prevention effect.
+
+## Third outcome — cancer, and the dose-shape may differ from the mortality curve
+
+WCRF's Third Expert Report grades **physical activity protective against several cancers** — colorectum
+(the evidence «is for colon cancer only», matrix FN56), endometrium and postmenopausal breast (probable),
+with a separate probable judgement for vigorous activity and breast cancer.
+[@wcrf2018ter, §5.1 Be physically active; matrix asset p3, FN54-57] Mechanism: activity «reduces body fatness, in particular
+visceral fat» and lowers circulating insulin, oestrogen and inflammation — the same adiposity/hormone/
+inflammation routes that make body fatness carcinogenic, run in reverse. [@wcrf2018ter, §1.4.1]
+
+**The friction worth naming — the curve's shape is outcome-specific.** This page's headline is that the
+*mortality* benefit **flattens** early (\~24 min/day MVPA). WCRF states the opposite shape for cancer:
+«For cancer prevention, it is likely that the greater the amount of physical activity, the greater the
+benefit» — no plateau asserted. [@wcrf2018ter, §5.1]
+This is not a contradiction: it is the same *outcome-specific dose-shape* pattern the wiki already holds
+(fruit/veg plateaus on all-cause mortality but keeps a gradient on CV mortality in one source). So «most
+benefit at the bottom» is the mortality reading; for cancer the report leaves the upper arm open, and a
+person optimizing specifically for cancer risk cannot bank the mortality plateau as a stopping point.
+[inferred from @wcrf2018ter]
+Caveat symmetric with the rest of the page: WCRF's cancer grades are **observational cohort** judgements,
+so reverse causation (illness lowers activity) is not excluded by design.
 
 ## What this page does NOT support
 

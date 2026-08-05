@@ -4,12 +4,12 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -92,6 +92,39 @@ Two of the three arms are well-populated, and both land against the supplement:
   [@bjelakovic2007], and CARET's beta-carotene
   arm raised lung cancer (RR 1.28) [@omenn1996].
   *More* was not merely useless; past need it was harmful.
+
+### The enhancement-null now has a SAME-OUTCOME second witness — vitamin D/calcium and FRACTURES (Kahwati 2018)
+
+The fracture endpoint was previously held only through VITAL (LeBoff 2022) — a single trial's replete-null.
+**Kahwati 2018 (USPSTF gold SR, 11 RCTs, N=51,419) supplies an independent, same-outcome confirmation**,
+and — unusually — the review names the deficiency-repletion split in its own voice. It sampled the
+enhancement arm by exclusion: «studies of populations that were institutionalized or had known vitamin D
+deficiency, osteoporosis, or prior fracture were excluded»
+[@kahwati2018], and found no fracture
+benefit — «Vitamin D supplementation alone or with calcium was not associated with reduced fracture
+incidence among community-dwelling adults without known vitamin D deficiency, osteoporosis, or prior
+fracture» [@kahwati2018] (vit-D+Ca total
+fracture ARD -0.35% [-1.02 to 0.31], hip -0.14%; SoE low).
+
+- **The review states the repletion pattern itself:** «The fracture benefits overall appear to be largely
+  attributable to benefits among the high-risk populations, with little to no benefit in lower-risk
+  populations (1 fewer hip fracture per 1000 community-dwelling adults per year [95% CI, 0 to 2])»
+  [@kahwati2018] — Kahwati reporting the
+  2014 Cochrane review, which *included* institutionalized/deficient/osteoporotic populations. So on
+  **fractures** the two arms are now both named: null in the community-dwelling (direct), benefit in the
+  high-risk/deficient (reported, second-hand via Cochrane).
+- **Independent same-outcome convergence on the fracture enhancement-null `[E-independent]`.** Kahwati's
+  11 RCTs (search cutoff March 2017) do **not** include VITAL (published 2019/2022), share no trials, no
+  research group, and no lineage with it — so VITAL (LeBoff) and Kahwati are two independent trial sets
+  reaching the **same** result on the **same** outcome (no fracture benefit from D +/- Ca in the
+  non-deficient). This is genuine type-E backing, raising confidence in the **fracture enhancement-null
+  specifically** — strictly that claim, not any point estimate
+  [inferred from @kahwati2018; @leboff2022; @manson2019vitd].
+- **Route-c harm on this arm:** vitamin D + calcium raised **kidney stones** — pooled ARD 0.33%
+  (0.06-0.60), RR 1.18 (1.04-1.35), SoE **moderate** (Kahwati's only above-low grade); calcium alone did
+  not (ARD 0.00%) and vitamin D alone was unstudied
+  [@kahwati2018]. A concrete
+  contraindication-stratum harm from combining, not a pure upper-bound overdose effect.
 
 ## The lower (repletion) arm — now demonstrated for one nutrient x outcome
 
@@ -467,7 +500,10 @@ opposite epistemic status from the artifact — a curve to dose along, not a sig
   nutrients (see the iodine instance above). Still open: a **same-outcome** dose-response traced from
   deficient edge to plateau for any one endpoint (all three instances read the deficient-benefit leg on
   outcomes their replete-arm evidence does not directly test), and repletion effect sizes for further
-  nutrients. `G` further cashed.
+  nutrients. `G` further cashed. **Fractures now have BOTH arms named in one source (Kahwati 2018):**
+  a direct community-dwelling replete-null and a reported high-risk/deficient benefit (via Cochrane) — the
+  closest the fabric holds to a same-outcome two-arm read, though the deficient arm is second-hand
+  (Kahwati's citation of Avenell 2014), not a within-review deficient-vs-replete interaction.
 - **Threshold locations are per-nutrient and per-outcome and mostly unheld** — where the deficiency edge
   and the toxicity edge sit differs by nutrient (25(OH)D in ng/mL is not beta-carotene in mg), so the curve
   is a *shape* the fabric holds, not a set of numbers. Martineau does locate one edge: the ARI benefit

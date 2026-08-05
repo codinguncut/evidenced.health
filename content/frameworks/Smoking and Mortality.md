@@ -2,8 +2,8 @@
 type: framework
 question: How large is smoking's effect on mortality and life expectancy, and how much does cessation recover — as a function of the age at quitting?
 aliases: [Smoking, Smoking Cessation, Tobacco and Mortality, Quitting Smoking, Cessation Benefits]
-authors: [Jha, Prabhat; Peto, Richard; Thun, Michael]
-sources: [Jha - Smoking Hazards Cessation Benefits 2013]
+authors: [Jha, Prabhat; Peto, Richard; Thun, Michael; Livingston, Gill]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024]
 cluster: cardiometabolic-exposures
 confidence: high
 relationships:
@@ -12,8 +12,9 @@ relationships:
     - The U-Shaped Association Artifact
     - Baseline Risk and the Relative-Absolute Split
     - Alcohol and Mortality and Vascular Disease
+    - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-07-29
 ---
 
@@ -85,6 +86,14 @@ survives the conservative handling.
 
 
 [@jha2013]
+## Second outcome — dementia (a further reason the lever is large)
+
+Smoking is also one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]]. The 2024 Lancet Commission reclassified it from a late-life to a **midlife** risk factor: a
+37-study meta-analysis found midlife smoking raised dementia risk (RR 1.30, 1.18-1.45), with «no increased
+risk in former smokers». [@livingston2024] So the cessation
+finding replicates on a *second* patient-important outcome — quitting removes the excess dementia risk as
+it removes the excess mortality risk — which raises, not competes with, smoking's Layer-1 ranking.
+
 ## Why confidence is high
 
 - **Effect size + dose + independence.** An HR of \~3 is far too large to be plausibly confounded away;

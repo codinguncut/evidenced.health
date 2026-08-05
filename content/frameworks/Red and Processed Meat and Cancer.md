@@ -3,12 +3,12 @@ type: framework
 question: Does red or processed meat cause cancer, by how much, and does the evidence warrant reducing intake?
 aliases: [Red Meat, Processed Meat, Red Meat and Cancer, Processed Meat and Cancer, Meat and Colorectal Cancer]
 authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018]
 cluster: cardiometabolic-exposures
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - Should Adults Reduce Red and Processed Meat
@@ -106,13 +106,39 @@ NutriRECS does not dispute a mechanism; it accepts "this does not preclude the p
 has a very small causal effect" — the disagreement is about certainty and magnitude, not existence.
 [@nutrirecs2019, Discussion]
 
+## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`
+
+The WCRF *Recommendations* part (the Third Expert Report Summary) supplies the number the meat-fish-dairy
+exposure part did not: «If you eat red meat, limit consumption to no more than about three portions per
+week. Three portions is equivalent to about **350 to 500 grams ... cooked weight** of red meat. Consume
+very little, if any, processed meat.» The target «was chosen to provide a balance between the advantages
+of eating red meat (as a source of essential macro- and micronutrients) and the disadvantages (an
+increased risk of colorectal cancer and other NCDs)», and for processed meat «there is no level of
+intake that can confidently be associated with a lack of risk of colorectal cancer».
+[@wcrf2018ter, §5.1 Limit red and processed meat]
+
+**Same body, not a second witness.** This is WCRF corroborating WCRF (a different work — the
+Recommendations part vs the meat-fish-dairy exposure part), so it adds the *quantified target* but no
+independent grade support for the convincing/probable judgements above. [inferred from @wcrf2018ter]
+
+**Cooked-to-raw yield factor, now held.** «500 grams of cooked red meat is roughly equivalent to
+700–750 grams of raw meat, but the exact conversion depends on the cut ... and the method and degree of
+cooking.» [@wcrf2018ter, §5.1 Limit red and processed meat, FN3]
+So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral corresponds to \~40-50% *more* raw meat.
+
 ## Limits
 
-- **The gram target is not on the WCRF source held here.** This CUP part gives only "no more than
-  moderate amounts" of red meat and "little, if any" processed meat; the quantified 350-500 g figure
-  lives in a separate full-report Recommendations document, not ingested. Do not attribute a gram
-  number to this source.
--
+- **The gram target is now held — from the WCRF *Recommendations* part** (`350 to 500 g cooked
+  weight/week`, \~3 portions), distinct from the meat-fish-dairy exposure part which gave only "no more
+  than moderate amounts". Attribute the gram number to `WCRF - Diet Nutrition Activity Cancer 2018`, not
+  to the exposure-part source.
+- **Cross-body commensurability — the yield factor now lets the direction be stated (partially cashed).**
+  NNR 2023 states 350 g **cooked** weight; WCRF gives 350-500 g **cooked**; ESC 2021's 350-500 g leaves
+  the basis unspecified. With WCRF's yield factor (cooked ≈ 0.67-0.71 × raw) the direction is now
+  statable: NNR's 350 g cooked equals WCRF's lower bound, and *if* ESC's figure were raw it would be a
+  materially lower true intake than the same cooked numeral. **ESC's weight basis remains the one open
+  leg** — a matching numeral is a matching recommendation only once ESC's basis is confirmed.
+  [inferred from @wcrf2018ter]
 - **Cancer only for WCRF; NutriRECS spans cardiometabolic + cancer + mortality.** The two do not cover
   identical outcome sets — matched only where both report colorectal cancer.
 - **Not independent on the evidence.** Both draw on largely the same observational cohort literature;

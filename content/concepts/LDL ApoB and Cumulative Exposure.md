@@ -3,7 +3,7 @@ type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
 authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -14,8 +14,9 @@ relationships:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Statins for Primary Prevention and the Power of Zero CAC
     - Baseline Risk and the Relative-Absolute Split
+    - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-08-04
 ---
 
@@ -106,6 +107,19 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
   metabolic-syndrome state, so LDL-P *misses* the extra atherogenic particles apoB captures right where
   discordance arises. apoB is also the more standardised, widely-available assay. **So LDL-P is a good
   LDL-only proxy for apoB; apoB is the target.** `[EXTRACTED for the correlation + single-apoB-per-particle + the particle list; INFERRED for the remnant-coverage ranking, which follows from apoB's particle set vs LDL-P's]`
+
+## Second outcome — high LDL-C is a new (2024) dementia risk factor
+
+The 2024 Lancet Commission added **high LDL-C as one of its 14 modifiable dementia risk factors**, the
+midlife-specific case being the strongest -> [[Dementia Prevention and Modifiable Risk Factors]]. A newer
+meta-analysis (3 UK cohorts, n=1,138,488) found «each 1mmol/l increase in LDL-C was associated with 8%
+increased incidence of all cause dementia» (1.08, 1.03-1.14); a 1.19M-participant study put high LDL
+(>3 mmol/L) at HR 1.33 (1.26-1.41). [@livingston2024] The risk
+is **greater in midlife than late life** — consistent with this page's *cumulative-exposure* thesis (the
+brain-vascular / amyloid mechanism accrues with duration). Note the outcome asymmetry: an IPD analysis at
+older baseline age found *no* LDL/HDL association with cognitive decline, so the causal read is a
+midlife-exposure one, not a late-life-level one. This is a decision-relevant *addition* to LDL's outcome
+menu (cognition alongside ASCVD), not a change to the ASCVD verdict above.
 
 ## Limits
 

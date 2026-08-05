@@ -2,19 +2,20 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org)]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-30
+updated: 2026-08-05
 self_critiqued: 2026-07-28
 relationships:
   related_to:
     - The U-Shaped Association Artifact
     - Sodium Intake and Blood Pressure
     - Baseline Risk and the Relative-Absolute Split
+    - Dementia Prevention and Modifiable Risk Factors
 ---
 
 Opens the `alcohol` cluster. The famous finding that *moderate drinkers outlive abstainers* — the
@@ -137,6 +138,53 @@ contract, the fabric records this; the `[PRIOR]` is *scored* in a separate pass,
 still-open sodium J-hypothesis -> [[Sodium Intake and Blood Pressure]], [[The U-Shaped Association Artifact]].
 
 
+
+## Second outcome — dementia, and the same J-curve artifact replicates
+
+Excessive alcohol is one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]], and the dementia literature reproduces this page's verdict on a new outcome. Heavy midlife
+drinking (>21 units/week) raises dementia risk (IPD «HR 1.22, 1.01-1.48»), while the apparent protection of
+light-vs-none is again an artifact — the observational J-curve «is probably because many non-drinkers have
+previously had high alcohol consumption» or other illness that stopped them drinking. [@livingston2024] Mendelian randomization agrees: it «finds a causal relationship between
+alcohol consumption and earlier age of onset of AD», and «suggests that any relationship between not
+drinking and AD is due to survivor bias». The same *sick-quitter / referent-contamination + MR* adjudication
+that
+dissolved the mortality J-curve dissolves the dementia one -> [[The U-Shaped Association Artifact]]. This is
+a second outcome reaching the *same* conclusion by a *different* literature (dementia cohorts + AD-MR), not
+a restatement.
+
+
+## Third outcome — cancer, and here there is *no safe threshold*
+
+WCRF's Third Expert Report grades **alcohol a cause of many cancers** — mouth/pharynx/larynx,
+oesophagus (squamous cell), breast, colorectum, liver and stomach (convincing/probable) — and IARC
+classes alcoholic drinks a **Group 1 (established) human carcinogen**.
+[@wcrf2018ter, §5.1 Limit alcohol; matrix asset p3, FN35]
+The recommendation is blunt: «For cancer prevention, it’s best not to drink alcohol.»
+
+**The cancer axis behaves differently from the mortality axis on threshold.** Where Zhao's all-cause
+harm begins at a *dose* (45 g/day pooled, 25 g/day women), the cancer risk has **no lower threshold**:
+«there is no level of consumption below which there is no increase in the risk of at least some
+cancers.» [@wcrf2018ter, §5.1 Limit alcohol] The
+site-specific numbers in the matrix are **the edge of the evidence base, not safe thresholds** (the
+CLAUDE.md rule: a guideline number is first a marker of where the data thin out): breast «No threshold
+... was identified» (FN38); the colorectal judgement is *based on intakes above* \~30 g/day (\~2 drinks,
+FN37) and the liver/stomach judgements on intakes *above* \~45 g/day (\~3 drinks, FN36) — i.e. that is
+where the graded evidence sits, not a level below which alcohol is safe.
+[@wcrf2018ter, matrix asset p3, FN36-38]
+
+**A genuine J-arm — instantly outweighed.** Alcohol «helps protect against kidney cancer (at least up
+to 30 grams or two drinks per day), but this is far outweighed by the increased risk for other
+cancers.» [@wcrf2018ter, §5.1 Limit alcohol] So a
+real protective association can coexist with net harm — the *net-effect-not-the-intended-effect* rule:
+a single-site benefit is not a reason to drink when the whole-organism cancer ledger is negative.
+
+**Not an independent-E witness (same-body / outcome-extension guard).** WCRF is a guideline synthesis
+of the same observational cohort literature, on a *different outcome* (cancer incidence) — it neither
+shares nor is independent of Stockwell/Millwood/Zhao's methods. It **extends the outcome menu** (cancer,
+with a stronger no-threshold claim) rather than corroborating the mortality/stroke finding by an
+independent route, so the page's `[E-independent]` convergence (Stockwell ∥ Millwood) is unchanged.
+The cross-outcome pattern — no protective arm survives on mortality, stroke, dementia, *or* cancer — is
+the wiki's synthesis, not WCRF's claim. [inferred from @wcrf2018ter]
 
 ## Limits
 

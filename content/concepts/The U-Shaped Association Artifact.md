@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024]
 cluster: evidence-appraisal
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
@@ -238,6 +238,18 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   the template for the correction this concept keeps invoking (alcohol, sleep): the fix biases *against*
   the finding, so a benefit that survives it is conservative, not inflated. A monotone-harm exposure, but
   the reverse-causation machinery is identical.
+- **Dementia — a cross-OUTCOME replication of both adjudicated arms `[2026-08-05, Livingston]`.** The 2024
+  Lancet Commission's dementia analysis reproduces the concept on a *new outcome* for the two exposures it
+  already banks. **Alcohol:** the light-vs-none dementia J-arm is artifact — it «is probably because many
+  non-drinkers have previously had high alcohol consumption», and AD-Mendelian-randomization says «any
+  relationship between not drinking and AD is due to survivor bias». [@livingston2024] **Sleep:** the long-sleep dementia arm is artifact — «prolonged sleep is not a
+  risk factor for dementia, although dementia and its prodrome may cause prolonged sleep», the association
+  «completely attenuated» once the first 5 years of follow-up are dropped, while the short-sleep arm keeps a
+  small mechanism-backed risk. [@livingston2024] Both are the
+  *adjudicate-the-arm* rule confirmed on dementia -> [[Alcohol and Mortality and Vascular Disease]],
+  [[Sleep Duration and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]]. Not independent-E
+  of the mortality instances (same reverse-causation/sick-quitter mechanism, new outcome) -> **type-F**
+  cross-outcome replication.
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.

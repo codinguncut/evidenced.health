@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018]
+authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org)]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -17,8 +17,8 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
 created: 2026-07-29
-updated: 2026-08-04
-self_critiqued: 2026-07-31
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -229,6 +229,32 @@ robust core (mortality, CVD) while flagging the cancer periphery as weak and cas
 raises confidence in *which outcomes to believe*, not in the causal status (still observational,
 still `confidence: medium`). It says nothing about dose-response **shape** (it used highest-vs-lowest
 contrasts, not per-increment curves), so it neither confirms nor tempers the no-plateau reading.
+
+## A grade clash on fibre -> colorectal cancer — WCRF *probable*, Veronese *weak* `[2026-08-05]`
+
+WCRF's Third Expert Report grades **dietary fibre a *probable* (strong-enough-to-recommend) protector
+against colorectal cancer** — «Consuming dietary fibre helps protect against colorectal cancer» — and
+sets the plant-food recommendation's fibre goal at «at least 30 grams per day ... from food sources»
+(AOAC method), the *same* \~25-30 g target this page reaches on the mortality/CVD axis.
+[@wcrf2018ter, §5.1 Eat a diet rich in wholegrains]
+That directly clashes with the Veronese reading above (colorectal-fibre signal weak, class III/IV,
+and the one RCT on colorectal *adenoma* came back null).
+
+| Parameter | WCRF 2018 | Veronese 2018 | Same quantity? |
+|---|---|---|---|
+| Relationship | dietary fibre -> colorectal **cancer** | dietary fibre -> colorectal **cancer** (+ the adenoma RCT) | **\~YES** (adenoma is the precancerous lesion, not cancer) |
+| Grade | **probable** (strong) — recommend | class III/IV **weak**; adenoma RCT null | **NO — the crux** |
+| Instrument | WCRF/AICR (Bradford-Hill: cohort dose-response + mechanism) | Ioannidis credibility class + excess-significance, **RCTs excluded** | NO |
+| Evidence base | prospective cohorts (CUP SLRs) | largely the same cohorts + case-control | \~shared |
+
+**This is the meat pattern again** ([[Should Adults Reduce Red and Processed Meat]]): the *same
+observational colorectal-cancer literature*, graded **strong-enough-to-act** by a precautionary
+cancer-prevention body and **weak** under a strict credibility-class lens — a grading-and-standpoint
+disagreement, not a dispute about the associations -> [[Certainty of Evidence vs Strength of Recommendation]],
+[[Diet Physical Activity and Cancer Prevention]]. The wiki's read is unchanged: the fibre *cancer* arm
+is the softest of the outcome menu (the robust core is mortality + CVD, the causal firmest where the
+effect is smallest — the LDL surrogate), and WCRF's "probable" does not upgrade it to causal here.
+[inferred from @wcrf2018ter; @veronese2018]
 
 ### Self-critique `[run 2026-07-31, before commit — Veronese section]`
 

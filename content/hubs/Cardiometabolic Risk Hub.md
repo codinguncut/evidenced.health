@@ -2,7 +2,7 @@
 type: hub
 question: What raises or lowers hard cardiovascular risk, how is that risk estimated for a person, and which levers are worth pulling?
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 Navigator for the cardiovascular-risk cluster — estimating a person's baseline risk, the exposures and
@@ -42,3 +42,20 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
   a function of age at quitting
 - [[Alcohol and Mortality and Vascular Disease]] — whether moderate intake is protective, harmful, or
   neutral, and whether the J-curve survives scrutiny
+
+## Neurodegeneration (dementia · Parkinson's)
+
+Most modifiable dementia levers ARE the cardiometabolic big rocks (hypertension, diabetes, obesity, LDL,
+smoking, inactivity, alcohol) — pulling them buys cognition as a *second* patient-important outcome.
+Parkinson's, by contrast, has *few* credible levers and mostly critically-low evidence. Home of the
+`dementia` and `parkinsons` clusters until they warrant their own hub.
+
+- [[Dementia Prevention and Modifiable Risk Factors]] — the 14-factor life-course framework and the
+  \~45% population-attributable-fraction headline, with the modelled-attribution caveats (nucleus)
+- [[Hearing Loss and Dementia]] — a dementia-specific, correctable lever: does treating hearing loss with
+  hearing aids lower dementia risk, and for whom is the effect largest?
+- [[Parkinsons Disease Modifiable Risk Factors]] — Chen 2021 umbrella review (46 SRs, 39 critically-low
+  AMSTAR-2); the `parkinsons` cluster nucleus. The thin-field finding: physical activity is the one
+  credible protective lever (already a big rock), most other signals are reverse-causation-suspect (the
+  long prodrome) or confounded-by-indication. Smoking's inverse-PD association is an artifact, never a
+  lever

@@ -6,9 +6,14 @@ aliases: [Exercise Budget Allocation, How to Spend Exercise Time, Cardio vs Resi
 sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Kodama - Cardiorespiratory Fitness and Mortality 2009, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, FAO - Dietary Protein Quality Evaluation 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-07-30
 ---
+
+> [!warning] Applies to a specific group
+> This appraisal is written for a **sedentary, overweight adult in their late 40s** with \~30 minutes a
+> day to spend. If you are already active or starting from a different point, the *allocation* here may
+> not transfer — though the first-order lesson (just do regular activity at all) is universal.
 
 The scenario is a sedentary, overweight adult in their late 40s with roughly **30 minutes a day, about
 3.5 hours a week**, to spend on exercise, and one question: how to split it across cardio, resistance

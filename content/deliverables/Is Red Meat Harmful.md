@@ -5,7 +5,7 @@ aliases: [Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat an
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, GRADE - Handbook]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-07-30
 ---
 
@@ -13,7 +13,14 @@ self_critiqued: 2026-07-30
 narrower than the headlines imply — but it is not zero, and where it is real it sits in *processed*
 meat and in cooking char, not in a lean, gently-cooked steak.**
 
-For an individual, red meat is a
+This is a general, population-level appraisal of red meat for any adult; it is not advice for one
+person. What moves the verdict here is the **type** of meat (processed vs unprocessed) and the
+**preparation** (char), not who is doing the eating — so the population-level picture is barely
+different from a stratum-specific one. Where the stakes genuinely shift by stratum (baseline
+cardiometabolic risk, age, deficiency-prone groups) is flagged where it matters and deferred to the
+end, not assumed up front.
+
+For most people, red meat is a
 **small lever**: the best-measured hard-outcome effect anywhere in this evidence base is a modest one,
 reducing red meat has **never been shown to measurably reduce dying**, and the whole question ranks far
 below smoking, adiposity, and inactivity.
@@ -282,7 +289,7 @@ weights a possible cancer cause heavily, and let the weighting be yours.
 
 ## Where red meat ranks — the size check
 
-**Verdict: for an individual, red meat is a small lever, far down the hierarchy.** The largest
+**Verdict: red meat is a small lever, far down the hierarchy for most people.** The largest
 remediable health gaps for most people are smoking (all-cause hazard ratio around 3.0, roughly a decade
 of life), visceral adiposity and hypertension, heavy alcohol, and near-total inactivity. Against those,
 the best-measured red-meat-adjacent effect — the 15-fewer-cardiovascular-events-per-1000 saturated-fat
@@ -374,6 +381,6 @@ realistic alternative you would actually eat instead.
 > | **Evidence included** | 15 sources — 7 gold, 5 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Red%20Meat%20Harmful.md) |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Red%20Meat%20Harmful.md) |
 
 ## References

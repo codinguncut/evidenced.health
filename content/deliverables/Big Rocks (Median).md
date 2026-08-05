@@ -7,9 +7,16 @@ authors: [World Health Organization (org); Hooper, Lee; Momma, Haruki; Look AHEA
 sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Morton - Protein Supplementation and Resistance Training 2018, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Jha - Smoking Hazards Cessation Benefits 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, NICE - NG246 Evidence Review F, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Lowe - Time-Restricted Eating TREAT 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-07-30
 ---
+
+> [!warning] Applies to a specific group
+> This appraisal is written for a **representative Western adult \~45-50 sitting at the metabolic-drift
+> median** — central adiposity, borderline-high blood pressure and glucose, drifting toward metabolic
+> syndrome (*drifting, not diseased*). If you are leaner and metabolically healthy, or in another group,
+> the specifics here may not transfer — mind the conditionality flags, and the population-level picture
+> can differ.
 
 ## Who this is for
 

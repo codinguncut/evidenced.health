@@ -7,6 +7,11 @@ updated: 2026-08-05
 self_critiqued: 2026-08-05
 ---
 
+> [!warning] Applies to a specific group
+> This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (extra visceral
+> fat plus muscle loss) — *not* the frail or institutionalised elderly, and *not* the fit 70-year-old
+> (different strata). If you are not in this reference class, the recommendations here may not transfer.
+
 This is a robustness-sorted outline of the big levers for **one reference class**: the obese older
 adult, roughly 70, carrying *sarcopenic obesity* (extra visceral fat plus some muscle loss), usually
 with high blood pressure, often with prediabetes or diabetes and fatty liver, some bone-density loss,

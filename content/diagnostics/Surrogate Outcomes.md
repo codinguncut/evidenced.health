@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -409,6 +409,14 @@ eTRF's numbers are a legitimate *target* candidate only if the marker->outcome c
 transmit; on this evidence they are markers, not a benefit. Note the direction-of-effect asymmetry: a
 short-fast-before-testing artifact plausibly manufactured the triglyceride rise, which is exactly why a
 single marker in isolation is not diagnostic.
+
+**And it is not just eTRF's n=8 — the *whole* intermittent-fasting literature lives on this line.** The
+pooled IF network-MA (99 RCTs, 6582 adults, median 12-week follow-up) reports **only** intermediate
+cardiometabolic outcomes — weight, BMI, lipids, glucose markers, BP — with **no hard events, no
+mortality, no trajectory** [@semnaniazad2025].
+So even the best-powered summary of the field cannot say whether any IF regimen changes a
+patient-important outcome; it can only rank the markers — this page's rule instantiated at whole-field
+scale -> [[Time-Restricted Eating]].
 
 ## The surrogate discount as a NON-GRADE guideline body builds it in `[2026-07-31, USPSTF]`
 

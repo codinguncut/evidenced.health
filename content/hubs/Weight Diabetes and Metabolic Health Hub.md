@@ -37,6 +37,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   whether the body physiologically defends the higher weight
 - [[Semaglutide for Cardiovascular Risk in Obesity]] — whether treating obesity with a drug reduces CV
   events, and whether that evidence reaches primary prevention
+- [[GLP-1 Non-Cardiometabolic Effects and Safety]] — the other half of the GLP-1 ledger: which
+  non-cardiometabolic outcomes the class moves and how credible each signal is (gold umbrella)
 - [[Fatty Liver MASLD and Weight Loss]] — for fatty liver, which modifiable lever works, at what dose,
   and what outcome it actually changes
 - [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating

@@ -2,8 +2,8 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org)]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019]
 cluster: nutrition
 confidence: low
 self_critiqued: 2026-08-01
@@ -403,6 +403,22 @@ page, now with a magnitude on both sides -> [[Dietary Fibre and Health]]. It als
 fibre is the active fraction, *fibre content* (not the word "whole grain") is what to steer by.
 `[@reynolds2019]`
 
+
+## Low whole grains tops the GLOBAL burden ranking — but read that as prevalence, not effect size `[2026-08-04, Afshin GBD 2017]`
+
+GBD 2017 ranks **low whole-grain intake the #1 dietary risk factor for DALYs globally** (82 million
+DALYs, \~3 million deaths; leading risk in 16-17 of 21 world regions) — the foundational source behind the
+NNR ranking on [[Layer 1 - Ranking Interventions for a Stratum]].
+[@afshin2019]
+
+**This does NOT upgrade the effect this page holds, and conflating them is the trap.** The whole-grain
+benefit here is **cohort-only, low-to-moderate certainty**, and probably the *fibre* benefit routed
+through a food label. GBD's #1 rank is **attributable burden = that same modest observational RR x the
+near-universal shortfall** (global mean intake is only 23% of optimal). A common exposure with a small
+individual effect tops a population ranking; the rank is a fact about how *widespread* low intake is,
+not about how large the per-person gain is -> the prevalence-wedge distinction on the Layer-1 page. So
+the page's `confidence: low` on the effect stands unchanged; GBD adds a population-priority signal, not
+an effect-size upgrade. [inferred from @afshin2019]
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 

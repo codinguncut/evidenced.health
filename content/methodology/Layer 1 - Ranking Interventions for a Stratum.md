@@ -2,8 +2,8 @@
 type: methodology
 question: For this stratum, what is the largest remediable gap — and can the wiki rank anything yet?
 aliases: [Layer 1 Hierarchy, Intervention Hierarchy, Ranking Interventions, Largest Remediable Gap, What Can Be Ranked]
-authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat]
-sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013]
+authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan]
+sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019]
 cluster: decision-hub
 relationships:
   related_to:
@@ -243,6 +243,86 @@ cleanest available demonstration that a high rank is not a large individual effe
 - **Residual:** the underlying GBD paper (`Knudsen et al. 2025`) is not held. Everything here rests on
   NNR's two-sentence report of it — no attributable fractions, no method, no confidence intervals.
   Recorded as an `AWAITS` rather than treated as a held magnitude.
+
+## The foundational source behind the ranking arrives — global, and it sharpens the wedge `[2026-08-04, Afshin GBD 2017]`
+
+The NNR/GBD section above rested entirely on NNR's **two-sentence second-hand report** of a Nordic GBD
+collaboration (`Knudsen et al. 2025`, still not held), and closed with an `AWAITS` for *"a source
+carrying population attributable fractions with their exposure-prevalence inputs."* **Afshin GBD 2017
+(the global dietary-risks analysis) is that source at the global level** — it supplies the primary
+ranking, the attributable-burden numbers, and the method, first-hand rather than via NNR's paraphrase.
+It **partly cashes the AWAITS**: the global attributable fractions are now held; the *Nordic-specific*
+ones (Knudsen) stay open.
+
+**The global ranking, in GBD's own units** (population-attributable deaths / DALYs, 2017):
+
+> «In 2017, more than half of diet-related deaths and two-thirds of diet-related DALYs were attributable
+> to high intake of sodium (3 million \[95% UI 1--5\] deaths and 70 million \[34--118\] DALYs), low
+> intake of whole grains (3 million \[2--4\] deaths and 82 million \[59--109\] DALYs), and low intake of
+> fruits (2 million \[1--4\] deaths and 65 million \[41--92\] DALYs)...»
+> [@afshin2019]
+
+Globally dietary risks account for **11 million deaths (22% of adult deaths) and 255 million DALYs**;
+low whole grains is the leading risk by DALYs in 16-17 of 21 regions.
+[@afshin2019]
+
+**This does NOT change the page's central holding — it underwrites the distinction the NNR section made
+second-hand.** GBD reports *attributable burden*, not *individual expected benefit*, and the wedge is
+still exposure prevalence. Whole grains tops the DALY ranking because near-universal low intake (global
+mean is **23% of optimal**) multiplies a borrowed observational RR across billions — not because the
+per-person gain is large. The parameter table from the NNR section (population-attributable-DALYs vs
+individual-absolute-effect, **Same quantity? NO**) governs GBD's numbers unchanged.
+
+**The sharpest instance of the wedge: diet outranks tobacco at the population level, while smoking is
+the corpus's largest INDIVIDUAL effect.** GBD states:
+
+> «Our findings show that suboptimal diet is responsible for more deaths than any other risks globally,
+> including tobacco smoking...»
+> [@afshin2019]
+
+Set that against the top row of this page's table: quitting smoking carries **all-cause HR \~3.0** and
+\~10 years of life for a smoker ([[Smoking and Mortality]]) — the largest individual effect the wiki
+holds. **Both are true, and reconciling them IS the wedge:** diet's attributable *burden* exceeds
+tobacco's because sub-optimal diet is near-universal while smoking is a minority exposure with a huge
+per-person hazard. **A population ranking and an individual ranking put diet and tobacco in opposite
+orders, from the same evidence.** Reading GBD's "diet kills more than tobacco" as "improve your diet
+before you quit smoking" is the exact unit-of-analysis error this page exists to name.
+[inferred from @afshin2019; @jha2013]
+
+**GBD independently corroborates *attention-is-an-anti-signal* — the discussed exposures rank low.**
+
+> «High consumption of red meat, processed meat, trans fat, and sugar-sweetened beverages were towards
+> the bottom in ranking of dietary risks for deaths and DALYs for most high-population countries.»
+> [@afshin2019]
+
+The consortium draws the telos's own conclusion: promoting under-consumed healthy foods «might have a
+greater effect than policies only targeting sugar and fat.» So the heavily-litigated levers (meat,
+sugar, fat) sit at the bottom of the attributable-burden ranking, and the boring under-eaten staples
+(whole grains, fruit, nuts) sit at the top — a *population* instance of the anti-signal rule, from a
+source with no stake in the wiki's framing. `[@afshin2019]`
+
+**Four caveats that keep the ranking honest — all GBD's own, and they matter because a burden ranking
+is seductive:**
+
+- **The RRs are borrowed observational estimates**, from meta-analyses of prospective cohorts; residual
+  confounding is not excluded, and GBD says the diet evidence is «generally weaker than» that for tobacco
+  or blood pressure. So the diet>tobacco *burden* claim rests on weaker warrant than the comparison
+  suggests.
+- **Individual effects may be over-stated** because healthy factors co-occur: «the effect size of the
+  individual dietary factors might be overestimated» — a confound GBD cannot remove.
+  [@afshin2019]
+- **The exposure is share-of-diet, not absolute** (energy-adjusted), so every risk is implicitly a
+  *substitution* whose partner is unspecified -> [[Measurement Error in Dietary Assessment]]. A ranking
+  of substitutions with unnamed comparators cannot be read as "eat more X, gain Y."
+- **The #1-ranked risk has the thinnest exposure data** — sodium's data representativeness index is
+  **26.2%** (vs 94.9% for most foods), so the sodium estimate is modelled from \~a quarter of countries.
+  [@afshin2019]
+
+**What it does license:** the same prevalence-weighted coverage check the NNR section named, now global
+and first-hand — and a worked reconciliation of the diet-vs-tobacco paradox that makes the
+population/individual distinction concrete rather than asserted. **What it still does not give:** any
+absolute per-person effect this page could rank a stratum's levers by. GBD is a population instrument;
+the page's binding gap (stratum baseline risk) is untouched.
 
 ## The largest relative effects here are the ones a person cannot change `[2026-07-28, ESC chunk 03]`
 

@@ -2,8 +2,8 @@
 type: framework
 question: Does WHEN you eat, independent of what and how much, change body weight or cardiometabolic outcomes?
 aliases: [TRE, Time-Restricted Feeding, TRF, eTRF, Early Time-Restricted Feeding, Intermittent Fasting Window, 16:8 Eating, Skipping Breakfast]
-authors: [Lowe, Dylan A; Weiss, Ethan J; Sutton, Elizabeth F; Peterson, Courtney M; Ravussin, Eric; Liu, Deying; Zhang, Huijie]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Liu - Calorie Restriction Time-Restricted Eating 2022]
+authors: [Lowe, Dylan A; Weiss, Ethan J; Sutton, Elizabeth F; Peterson, Courtney M; Ravussin, Eric; Liu, Deying; Zhang, Huijie; Semnani-Azad, Zhila]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -14,9 +14,10 @@ relationships:
     - Free Sugars Intake
     - Protein and Resistance Training for Muscle and Strength
     - Layer 1 - Ranking Interventions for a Stratum
+    - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-29
-updated: 2026-08-01
-self_critiqued: 2026-08-01
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster's meal-timing facet.** The decision question:
@@ -154,6 +155,65 @@ exactly the decision-relevant instruction the page already gives (*eat earlier, 
 a direct RCT contrast behind it. [@liu2022]
 
 
+[@semnaniazad2025]
+## The pooled IF picture (Semnani-Azad 2025 NMA) — confirms Liu, disambiguates the regimens
+
+The IF network-MA the page awaited is now held: **99 RCTs, 6582 adults**, CINeMA/GRADE, EASD-commissioned
+(gold-tier, surrogate-only). It does three things for this page. [@semnaniazad2025]
+
+- **(1) It confirms Liu's single-RCT null at the pooled level (type-F, NOT type-E — shared trials).**
+  Across the whole TRE evidence base, **TRE adds essentially nothing to a continuous deficit**: the
+  TRE-vs-CER difference is a trivial 0.39 kg (the CER:TRE cell, moderate certainty; the tiny edge
+  nominally to CER) — as null as Liu's −1.8 kg. And vs ad-libitum, «TRE showed a
+  trivial reduction (−1.72 kg (−2.21 to −1.22), moderate certainty of evidence)» — below the 2.0 kg MID.
+  [@semnaniazad2025]
+- **(2) It disambiguates the IF umbrella (type-B).** "Intermittent fasting" is three distinct regimens
+  with different effects: TRE (daily window), **ADF** (24 h fast alternate days), **WDF** (5:2). Only ADF
+  beats CER: «alternate day fasting was the only form of intermittent fasting diet strategy to show benefit
+  in body weight reduction (mean difference −1.29 kg (95% CI −1.99 to −0.59), moderate certainty of
+  evidence)» — but −1.29 kg is *below* the 2.0 kg MID, so «particularly ADF versus CER (−1.29 kg) fell
+  below this level, suggesting somewhat limited clinical impact». So even the *best* IF form buys a
+  clinically trivial edge over plain calorie restriction. [@semnaniazad2025]
+- **(3) It bounds the claim by duration — even the trivial ADF edge vanishes long-term.** «Estimates were
+  similar among trials with less than 24 weeks follow-up (n=76); however, moderate-to-long-term trials
+  (≥24 weeks, n=17) only showed benefits in weight reduction in diet strategies compared with ad-libitum»
+  — «with no differences between intermittent fasting strategies and CER in these moderate-to-long term
+  studies». The short-term ADF-over-CER advantage is attributed to adherence decline (one WDF trial: 74%
+  at 6 wk -> 22% at 52 wk) and metabolic adaptation. At the horizons that matter, IF == CER.
+  [@semnaniazad2025]
+
+### Why this is shared-evidence (F), not independent backing (E) — the trial-overlap check
+
+[inferred from @semnaniazad2025] The convergence
+with the held pages is **not** an independent second route to the same claim — the NMA pools the very
+trials this page already cites, so a RAG over Semnani-Azad alone reproduces the held finding. Verified
+against its reference list:
+
+| Held trial | In Semnani-Azad's pool? | Reference |
+|---|---|---|
+| Lowe TREAT 2020 | **yes — pooled** | ref 81 (included-studies range 32-128) |
+| Liu 2022 (NEJM) | **yes — pooled** | ref 79 (included) |
+| Sutton eTRF 2018 | **no** — Discussion citation only | ref 134 (outside 32-128) |
+
+So on the *weight* question the NMA is **type-F** (it bounds/quantifies the held single-RCT nulls into a
+pooled magnitude the wiki could not compute itself — type-A aggregation), never `[E-independent]`. On the
+*early-timing* question it brings **no new evidence at all**: Sutton is not in the pool, and Semnani-Azad
+cites the same external proof-of-concept the page already holds. No independence to claim in either place.
+
+### Parameter table — the pooled TRE-vs-CER null vs Liu's single-RCT null (op-weave 2a)
+
+| Parameter | Liu 2022 (single RCT) | Semnani-Azad 2025 (NMA) | Same quantity? |
+|---|---|---|---|
+| Comparison | TRE+deficit vs isocaloric CER | TRE vs CER (network estimate) | **yes** — window vs continuous deficit, weight |
+| Estimate | net −1.8 kg (95% CI −4.0 to 0.4, NS) | 0.39 kg (CER:TRE cell, moderate, NS) | consistent — both trivial/null (nominal signs differ, both non-meaningful) |
+| Evidence | 1 RCT, n=139, 12 mo | pooled TRE arms across 99 RCTs | **NO** — single trial vs pooled (Liu is *inside* the pool) |
+| Horizon | 12 mo | median 12 wk; ≥24 wk stratum also null | partly |
+
+The two nulls agree and are the same conceptual quantity — but they are **not independent** (Liu is one of
+the pooled trials). type-F: the NMA raises the *precision/generality* of Liu's reading, not a second
+witness to it.
+
+
 ## Why this is not a filed tension (the not-joined check)
 
 Ran the counter-passage check on both sources' own design/limits statements end to end. The apparent
@@ -182,6 +242,16 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 - **Ranks LOW as a lever.** Meal timing is heavily discussed relative to a small, surrogate-only,
   weight-independent effect — the telos's *attention-is-an-anti-signal* rule applies with force
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
+- **Which IF form, if any? ADF > TRE/WDF on weight, but the gap is trivial and short-lived.** If someone
+  is set on an IF pattern for weight, the pooled evidence favours **alternate-day fasting** over a daily
+  window or 5:2 (ADF vs TRE −1.69 kg, ADF vs WDF −1.05 kg) — but every one of these is below the 2.0 kg
+  clinical threshold and gone by ≥24 weeks. The honest ranking: pick the pattern you will *adhere to*;
+  the regimen label is second-order to the deficit and to sticking with it. [@semnaniazad2025]
+- **The realistic pharmacological alternative dwarfs it (Layer 1).** Semnani-Azad's own contrast: «GLP-1
+  receptor agonists, such as semaglutide, result in substantial weight reductions of 10-15% body weight
+  (approximately 8-12 kg for an 80 kg individual)» — roughly 3-8x any IF effect, on hard-outcome-backed
+  drugs. For a weight-driven decision at meaningful baseline risk, IF is a small lever beside the drug
+  class ([[Semaglutide for Cardiovascular Risk in Obesity]], [[GLP-1 Non-Cardiometabolic Effects and Safety]]). [@semnaniazad2025]
 
 
 
@@ -194,12 +264,11 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   test it (Liu's window is early-ish but its control is also calorie-matched, so it speaks to *window vs no
   window*, not *early vs late*). No hard outcomes anywhere; weight/waist are measured endpoints but CV/mortality
   trajectory is unmeasured; eTRF is men-only, prediabetic; Liu is non-diabetic Chinese adults, no diabetes/CVD.
-- **Gaps (G):** the calorie-matched TRE-vs-continuous-restriction **RCT is now held (Liu)** — still open is a
-  TRE-vs-CR **SR/MA** (does the null generalize across protocols and populations?); an early-vs-late head-to-head
+- **Gaps (G):** the calorie-matched TRE-vs-continuous-restriction **RCT is now held (Liu)**, and the
+  **TRE-vs-CR SR/MA is now held too** — the Semnani-Azad 2025 network-MA (section below) confirms Liu's
+  single-RCT null generalizes across the pooled TRE literature. Still open: an early-vs-late head-to-head
   at the same window length (the eTRF question at scale); a breakfast-skipping RCT; any hard-outcome or
-  trajectory data. `AWAITS [@semnaniazad2025] — the
-  IF network-MA that would tell whether Liu's single-RCT null is the pooled picture (Liu is almost certainly
-  inside it; that would make it type-F/shared, not type-E).`
+  trajectory data (Semnani-Azad is surrogate-only, median 12-week follow-up).
 - **Adherence caveat cuts both ways:** eTRF participants found *eating within 6h* harder than the 18h
   fast, so the efficacious protocol may be the least feasible one — an 8h+ early window is the realistic
   target.
@@ -242,6 +311,25 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   contrast is the source's own joined issue, not a manufactured tension. Verified.
 - **Attribution.** All quotes emitted via `bin/cite.py` in the verified «...» form, slug-pinned to chunk 01.
 
+
+## Self-critique `[run 2026-08-04, Semnani-Azad NMA append, before commit]`
+
+- **The not-E call is the load-bearing one, and it is verified, not assumed.** Checked Semnani-Azad's
+  reference list directly: Lowe TREAT (ref 81) and Liu (ref 79) are IN the pooled included-studies range;
+  Sutton eTRF (ref 134) is a Discussion-only citation, not pooled. So the convergence with the held nulls
+  is shared-trials -> type-F/A, and `[E-independent]` is *not* asserted anywhere in the append. The
+  trial-overlap table and the parameter table are the evidence the check ran. A RAG over Semnani-Azad
+  alone would reproduce the held claim (it re-pools TREAT+Liu) — the textbook laundered-E case, declined.
+- **Overclaim check.** The pooled TRE-vs-CER −0.39 kg and ADF-vs-CER −1.29 kg are reported as the source
+  states them, with the MID-relative "trivial"/"limited clinical impact" qualifier attached (not upgraded
+  to "equivalent"). The duration finding is stated as the authors' own attribution (too-few-trials +
+  adherence + adaptation), not asserted as established mechanism. Surrogate-only + median-12-week caveats
+  kept.
+- **Confidence held at `medium`, not raised to high.** The weight-loss-rationale leg is now MA-firm (99
+  RCTs), but the early-timing (eTRF) leg is untouched and still n=8, and everything remains surrogate-only
+  with no hard outcomes or trajectory data — so the page as a whole does not earn `high`. Stripping the
+  −0.39 kg number leaves the decomposition and the deficit-delivery reading standing.
+- **Attribution.** All quotes emitted via `bin/cite.py` in the verified «...» form, slug-pinned to chunk 01.
 
 ## The 65% lean-mass figure - read the denominator (deliverable-critique, 2026-08-01)
 

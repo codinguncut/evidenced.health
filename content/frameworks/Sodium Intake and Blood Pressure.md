@@ -2,8 +2,8 @@
 type: framework
 question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -16,7 +16,7 @@ relationships:
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
 updated: 2026-08-04
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-04
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -337,6 +337,83 @@ check that concept requires. So He argues the arm away; he does not adjudicate i
 question directly with a confounder-immune method (the post-2011 literature: PURE, the Cochrane and
 Graudal lines, and a genetic/MR instrument on the low-intake arm) — He 2013 supplies the advocacy
 rebuttal, not the adjudication.
+
+**A third major body encodes the split as uncertainty rather than resolving it `[2026-08-04, Afshin GBD 2017]`.**
+The GBD 2017 dietary-risks analysis needed an *optimal* sodium level to compute attributable burden,
+and rather than pick one it published the RCT-vs-observational disagreement as a deliberately wide band:
+
+> «To reflect the uncertainty in existing evidence on optimal level of intake for sodium, 1--5 g per day
+> was considered as the uncertainty range for the optimal level of sodium where less than 2·3 g per day
+> is the intake level of sodium associated with the lowest level of blood pressure in randomised
+> controlled trials and 4--5 g per day is the level of sodium intake associated with the lowest risk of
+> cardiovascular disease in observational studies.»
+> [@afshin2019]
+
+**This is the exact split this section holds, seen from the modelling side.** The BP-minimising intake
+(RCTs, <2.3 g) and the CVD-minimising intake (observational, 4-5 g) point to *different* optima, which
+is what a J-curve on the hard outcome would produce — and GBD, an independent consortium with no
+salt-advocacy stake, **does not adjudicate it either**: it widens the uncertainty to 1-5 g and carries
+both. So the corpus now holds three postures on the low-intake arm — WHO (names it, cannot answer),
+He/MacGregor (rebut it from advocacy, no strong check), GBD (encode it as uncertainty) — **and none
+runs the confounder-immune adjudication.** GBD corroborates *unprobed, not disproved*; it does not close
+the gap -> [[The U-Shaped Association Artifact]].
+[inferred from @afshin2019]
+
+## The hard-outcome RCT arrives — but on a confounded (Na-down + K-up) exposure `[2026-08-04, Neal SSaSS]`
+
+This page's central gap was that **hard outcomes sit at very low certainty** (all cohort evidence, the
+surrogate-transfer doing the work). SSaSS (Neal 2021, NEJM) is the **large RCT with
+patient-important outcomes** — but it tests a **potassium-enriched salt substitute (75% NaCl / 25% KCl)**,
+so it moves **two exposures at once** and its benefit **cannot be attributed to sodium reduction alone.**
+
+**What it found** (open-label cluster-RCT, 600 rural-China villages, 20,995 people with prior stroke or
+age >=60 + high BP, 4.74 y follow-up; events adjudicated blind to assignment):
+
+| Outcome | Salt sub vs regular (per 1000 py) | Rate ratio (95% CI) | Absolute |
+|---|---|---|---|
+| **Stroke** (primary) | 29.14 vs 33.65 | **0.86 (0.77-0.96)**, P=0.006 | **−4.5 / 1000 py** |
+| **Major adverse CV events** | 49.09 vs 56.29 | **0.87 (0.80-0.94)**, P<0.001 | **−7.2 / 1000 py** |
+| **All-cause death** | 39.28 vs 44.61 | **0.88 (0.82-0.95)**, P<0.001 | **−5.3 / 1000 py** |
+
+[@neal2021]
+
+The achieved contrast: 24h urinary sodium **−15.2 mmol** (−350 mg), potassium **+20.6 mmol** (+803 mg),
+SBP **−3.34 mmHg** (−4.51 to −2.18). [@neal2021]
+
+**Why this is the decision-relevant caveat, not a footnote.** The intervention **raised potassium more
+than it cut sodium** (+20.6 vs −15.2 mmol), and the authors state both exposures «independently lower
+blood pressure and… have synergistic effects». So SSaSS is strong evidence that a **salt substitute**
+reduces stroke, CV events and death in a high-risk stratum — it is **not** clean evidence that *sodium
+reduction per se* delivers that benefit. The corpus's cleanest hard-outcome sodium RCT is therefore a
+**joint Na:K lever**, which is exactly the joint target both this page and [[Potassium Intake and Blood Pressure]] flag as un-adjudicated — SSaSS adjudicates the *lever*, not either electrolyte separately.
+[inferred from @neal2021]
+
+**The absolute benefit rides on high baseline risk (route-a).** These are large absolute effects (−4.5 to
+−7.2 events per 1000 person-years) because the population is extreme: **72.6% prior stroke**, mean BP
+154/89, mean age 65. The \~12-14% *relative* reductions may transport to a lower-risk stratum, but the
+**absolute** benefit shrinks with baseline risk — a lean, normotensive, low-stroke-risk person gets a far
+smaller absolute effect from the same switch. This is [[Baseline Risk and the Relative-Absolute Split]]
+applied: SSaSS earns a strong recommendation *for its own stratum*, not a universal one.
+[inferred from @neal2021]
+
+**The lower-arm / contraindication stratum (route-c) — reassuring but scoped.** The safety worry for a
+K-raising intervention is hyperkalaemia. SSaSS found **no excess** (3.35 vs 3.30 per 1000 py; RR 1.04,
+0.80-1.37; P=0.76) and no excess sudden death — but it **excluded known serious kidney disease,
+potassium-sparing diuretics and K-supplements by history**, did **no biochemical renal prescreening**,
+and did not measure serum potassium serially. So the safety reassurance holds for the *screened*
+population; **CKD / impaired potassium excretion remains a real harm-firing stratum** where a salt
+substitute is contraindicated (concordant with the route-c boundary on [[Potassium Intake and Blood Pressure]]). [@neal2021]
+
+**The events slightly exceed what the measured BP fall predicts — a recurring pattern.** Via
+[[Blood Pressure Lowering and Cardiovascular Events]] (BPLTTC: \~13% stroke reduction per 5 mmHg SBP), a
+−3.34 mmHg fall predicts a stroke RR near **0.91**; SSaSS observed **0.86**. The observed benefit
+outruns the BP-channel prediction — the same excess [[Potassium Intake and Blood Pressure]] found for
+potassium's cohort stroke effect. Three non-exclusive reasons: (i) a **BP-independent** electrolyte
+effect (potassium); (ii) the measured −3.34 mmHg **understates** the sustained effect (adherence
+dilution + a single-day recovery-biomarker + Huang's short-trial underestimate — the page's *lower-bound*
+reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
+between sodium, potassium and dilution is **not identified** by this trial.
+[inferred from @neal2021; @bplttc2021]
 
 ## What is absent
 

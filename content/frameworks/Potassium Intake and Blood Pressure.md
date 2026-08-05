@@ -2,8 +2,8 @@
 type: framework
 question: How much potassium, and what does raising intake actually buy -- for whom?
 aliases: [Potassium, Dietary Potassium, Potassium Intake, Potassium Intake and Cardiovascular Risk, Potassium and Stroke, WHO Potassium Guideline, Potassium Supplementation]
-authors: [Aburto, Nancy J; Hanson, Sara; Gutierrez, Hialy; Hooper, Lee; Elliott, Paul; Cappuccio, Francesco P]
-sources: [Aburto - Potassium Cardiovascular 2013]
+authors: [Aburto, Nancy J; Hanson, Sara; Gutierrez, Hialy; Hooper, Lee; Elliott, Paul; Cappuccio, Francesco P; Neal, Bruce]
+sources: [Aburto - Potassium Cardiovascular 2013, Neal - SSaSS Salt Substitution Cardiovascular 2021]
 cluster: cardiometabolic-exposures
 confidence: medium
 relationships:
@@ -15,8 +15,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-31
-updated: 2026-07-31
-self_critiqued: 2026-07-31
+updated: 2026-08-04
+self_critiqued: 2026-08-04
 ---
 
 The WHO-commissioned SR+MA (Aburto 2013, BMJ) behind WHO's first potassium guideline -- the **potassium
@@ -205,6 +205,33 @@ not a meta-analysis -- an asserted target, not an evidenced one. This is what th
 un-adjudicated on either page**. -> [[Surrogate Outcomes]] (a target is legitimate only if its
 transmission to a hard outcome is itself evidenced).
 
+### The joint Na:K lever now has a hard-outcome RCT — SSaSS `[2026-08-04, Neal SSaSS]`
+
+The AWAITS this page lodged (*a salt-substitute RCT against a hard outcome*) is **cashed**: SSaSS (Neal
+2021, NEJM) randomised 20,995 high-risk rural-Chinese adults (prior stroke or age >=60 + high BP) to a
+**75% NaCl / 25% KCl salt substitute** vs regular salt and found lower **stroke** (RR 0.86, 0.77-0.96),
+**major CV events** (RR 0.87, 0.80-0.94) and **all-cause death** (RR 0.88, 0.82-0.95) over 4.74 y —
+absolute reductions of \~4.5-7.2 events per 1000 person-years.
+[@neal2021]
+
+**This moves the joint Na:K target from asserted to partly-evidenced — but only the *lever*, not the
+ratio.** SSaSS achieved urinary potassium **+20.6 mmol** and sodium **−15.2 mmol** together, with SBP
+−3.34 mmHg. So it is the first hard-outcome RCT of *raising K and cutting Na at once*, and it points the
+joint direction the 1:1-ratio claim asserted. **But the confound runs in this page's favour too:** just
+as the sodium page cannot credit the benefit to sodium alone, **this page cannot credit it to potassium
+alone** — the two exposures move together and SSaSS used a single formulation, so it says nothing about
+which *ratio* is optimal. The Na:K ratio as a graded, dose-optimised target stays open; what is now
+evidenced is that the combined intervention reduces hard outcomes in a high-risk stratum.
+[inferred from @neal2021]
+
+**Hyperkalaemia — SSaSS refines the route-c contraindication with RCT data.** This page held the CKD
+contraindication from Aburto's mechanism (impaired excretion -> hyperkalaemia risk). SSaSS supplies the
+**RCT safety datum**: no excess serious hyperkalaemia (3.35 vs 3.30 per 1000 py; RR 1.04, 0.80-1.37;
+P=0.76) and no excess sudden death — **in a population screened to exclude known kidney disease and
+K-sparing/K-supplement use, with no biochemical prescreening and no serial serum-K measurement.** So the
+contraindication is *confirmed, not lifted*: safe where renal handling is normal (as Aburto predicted),
+untested where it is not. [@neal2021]
+
 ### The surrogate transfer upgrades through BPLTTC (type-F composite)
 
 Aburto's hard-outcome warrant is a **bare assertion** that «blood pressure is recognised as a reliable
@@ -229,10 +256,13 @@ hard-outcome benefit in normotensives, where the BP effect is null.
 - **Hard-outcome RCTs absent.** CVD/CHD/mortality rest on few underpowered cohorts (CVD 4, CHD 3,
   mortality 1) -- «detecting an effect is difficult even through meta-analysis». `G (needs aggregation)`:
   the direct potassium->events effect is a magnitude the current evidence base cannot pin.
-- **The Na:K ratio is un-adjudicated** -- asserted 1:1-beneficial from a 2003 consultation, joint-effect
-  evidence is 2 studies. AWAITS a graded meta-analysis of the sodium:potassium ratio (or the salt-
-  substitute RCTs, e.g. SSaSS) against a hard outcome -- that would move the ratio from asserted target
-  to evidenced one, and is the highest-value next potassium/sodium source.
+- **The Na:K ratio is partly-adjudicated `[updated 2026-08-04]`** -- the *joint lever* now has a
+  hard-outcome RCT (SSaSS, above: salt substitute cut stroke/CV events/death in high-risk adults), so
+  *raising K + cutting Na together reduces hard outcomes* is evidenced. What stays un-adjudicated is the
+  **ratio itself** -- SSaSS used one formulation, so no *optimal* Na:K ratio and no ratio dose-response is
+  established; the 1:1-beneficial figure is still the ungraded 2003 consultation. `AWAITS` a graded
+  meta-analysis of the sodium:potassium *ratio* (or the broader salt-substitute SR, e.g. Jafarnejad 2020
+  / Greer 2020) against a hard outcome to pin the optimal ratio.
 - **Children:** 3 trials, non-significant BP fall, high risk of bias -- an evidenced gap, not a null.
 - **No LMIC hard-outcome data**; and Aburto did not examine the **mechanism** by which potassium lowers
   BP (explicitly deferred).

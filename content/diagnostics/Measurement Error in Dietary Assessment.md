@@ -2,8 +2,8 @@
 type: diagnostic
 question: How much can measurement error in diet studies hide a real effect, or manufacture a false one?
 aliases: [Measurement Error, Attenuation, Regression Dilution, De-attenuation, Regression Calibration, Validation Study, Differential Misclassification]
-authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org); Li, Jun]
-sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020]
+authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org); Li, Jun; Afshin, Ashkan]
+sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019]
 cluster: nutrition-methods
 confidence: medium
 self_critiqued: 2026-08-04
@@ -694,6 +694,39 @@ interval / low SE is **not** evidence of correctness — a well-powered instrume
 biased, which is exactly this page's differential-error and correlated-error results seen from the
 accuracy-vs-precision angle.
 [@nasem2019]
+
+## The world's largest dietary-burden model names these same limits on itself `[2026-08-04, Afshin GBD 2017]`
+
+This page's constraints are usually stated by a methods source (Willett) or a guideline (WHO/SACN). GBD
+2017 supplies a fourth voice from a different vantage — the flagship *modelling* consortium naming the
+same two error channels as binding on its own 195-country ranking. **Not independent backing (type-F /
+corroboration, no `[E-independent]`):** GBD borrows its relative risks from the same prospective-cohort
+meta-analyses this page is about, and the energy-adjustment point below is the established
+nutritional-epidemiology principle [[Energy Adjustment and What a Diet Coefficient Means]] holds from
+Willett — GBD *applies* it, it does not arrive at it independently.
+
+- **Energy adjustment turns every exposure into an unspecified substitution:**
+  > «This energy adjustment means that diet components are defined as risks in terms of the share of diet
+  > and not as absolute levels of exposure... the relative risks estimated from meta-analyses of cohort
+  > studies do not generally specify the type of substitution.»
+  > [@afshin2019]
+
+  The decision-consequence GBD draws is the one this page cares about: a share-of-diet RR is not an
+  absolute-exposure effect, and its comparator is unnamed — so a burden ranking built on it cannot be
+  read as "eat more X, gain Y."
+
+- **Co-occurrence of healthy factors inflates individual effect sizes** — the
+  *observed-healthy-population* confound seen through measurement: «given the intake of healthy dietary
+  factors are generally positively correlated with each other... the effect size of the individual
+  dietary factors might be overestimated.» [@afshin2019]
+
+- **GBD confirms 24h recall as an error-laden gold standard** («not highly reliable... due to recall
+  bias or potential social desirability») — the same instrument-quality verdict this page holds, now
+  stated by the body that used it at global scale.
+
+**What this adds is field-consensus, not a new mechanism:** the binding-constraint reading is not one
+methodologist's position but the stated self-appraisal of the largest analysis in the domain.
+[inferred from @afshin2019]
 
 ## The escape route works — but only for fatty acids the body cannot make `[2026-08-04]`
 

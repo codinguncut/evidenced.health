@@ -2,8 +2,8 @@
 type: framework
 question: For someone with obesity, does treating it with semaglutide reduce cardiovascular events — and does that evidence reach primary prevention?
 aliases: [Semaglutide, GLP-1 Cardiovascular, SELECT Trial, Wegovy CVD, GLP-1 Receptor Agonist Obesity, Obesity Pharmacotherapy CVD]
-authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Kushner, Robert F]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021]
+authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -15,9 +15,10 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Does Weight Loss Reduce Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
+    - Surrogate Outcomes
 created: 2026-07-28
 updated: 2026-08-04
-self_critiqued: 2026-07-28b
+self_critiqued: 2026-08-04
 ---
 
 The telos puts pharmacotherapy in scope because **a drug is often the realistic alternative to a
@@ -172,6 +173,82 @@ outcome, and whether it lowers hard diabetes-related outcomes in primary prevent
 caveat.
 
 
+[@jastreboff2022]
+## Tirzepatide (SURMOUNT-1) — the class efficacy high-water, but surrogate-only and CV-untested
+
+The best-evidenced *drug* on this page is semaglutide, but it is no longer the strongest **weight**
+lever. **Tirzepatide** — a **dual GIP/GLP-1 receptor agonist** — takes off more weight than any prior
+non-surgical agent. SURMOUNT-1 (Jastreboff, NEJM 2022) is its pivotal obesity RCT: n=2539 adults with a
+BMI «of 30 or more, or 27 or more and at least one weight-re- lated complication, excluding
+diabetes», once-weekly SC 5/10/15 mg vs placebo for 72 weeks. This is the **same primary-prevention,
+non-diabetic obese population class as STEP-1** (mean age 44.9, BMI 38.0, no CVD required) — the
+population most of the wiki's obese strata resemble.
+
+**Exposure distinction — do NOT pool it under "GLP-1".** Tirzepatide adds a **second receptor axis**
+rather than intensifying GLP-1 agonism: «the affinity of tirzepatide for GIP receptors was equal to the
+affinity of native GIP for GIP recep- tors, whereas tirzepatide bound GLP-1 receptors with affinity
+approximately five times weaker than native GLP-1». It is a *related-but-different* exposure from
+semaglutide — the isolate/food-category discipline ([[Is the Food Category Doing Any Work]]) applies to
+drug class too. So the page's standing caution — *do not generalize «GLP-1 class reduces CV events» from
+one agent* — is now doubly warranted: tirzepatide differs in **receptor target** and has **no CV trial**.
+
+**The magnitude (weight, a surrogate).** Treatment-regimen estimand: «−15.0%», «−19.5%», «−20.9%»
+(5/10/15 mg) vs «−3.1%» placebo; placebo-adjusted «−11.9 per- centage points» (5 mg) to «−17.8
+percentage points» (15 mg). As-intended (efficacy estimand) absolute loss: «16.1 kg», «22.2 kg»,
+«23.6 kg». Categorical: «50%» and «57%» of participants (10/15 mg) «had a reduction in body weight of
+20% or more, as compared with 3%» placebo; exploratory ≥25% reached «36.2%» at 15 mg — «bariatric
+surgery re- sults in weight reduction of approximately 25 to 30% at 1 to 2 years», so the top dose
+approaches the surgical range on the surrogate.
+
+**Cross-trial vs semaglutide — the paper bars a direct comparison, and so do we.** SURMOUNT-1's
+discussion states the honest limit explicitly:
+
+| Parameter | Tirzepatide (SURMOUNT-1, Jastreboff) | Semaglutide 2.4 mg (STEP-1, Wilding; incl. Jastreboff's own citation) | Same quantity? |
+|---|---|---|---|
+| Population | BMI≥30/≥27+complication, non-diabetic, age 44.9 | BMI≥30/≥27+complication, non-diabetic, age 46 | **Yes — same class** |
+| Endpoint | body weight (surrogate), wk 72 | body weight (surrogate), wk 68 | Yes construct; \~same window |
+| Placebo-adjusted weight, lowest dose | 5 mg «11.9%» | 2.4 mg «12.4%» | Yes construct; cross-trial |
+| Placebo-adjusted weight, top dose | 15 mg «−17.8 percentage points» | 2.4 mg «−12.4 percentage points» (STEP-1, on this page) | Yes construct; cross-trial |
+| ≥20% responders | 57% (15 mg) | 32.0% (STEP-1) | Yes construct; cross-trial |
+| **Hard CV-outcome evidence** | **none** (weight endpoint; MACE only as adjudicated safety AE, 4/5/0 vs 5 placebo — tiny, not powered) | none in STEP-1 — **SELECT supplies it separately** | **G-gap, not a value** |
+
+The source's own words: «It is impor- tant to note that no direct comparison of these trials can be
+made, since trial populations and designs differed.» Even so, tirzepatide's *lowest* dose
+(placebo-adjusted 11.9%) already ≈ semaglutide's *full* effect (12.4%), and the top dose roughly
+doubles it — a real efficacy gap on the surrogate, quoted here as a cross-trial contrast in a matched
+population class, **not** as a head-to-head (the obesity head-to-head does not exist; SURPASS-2 was in
+T2D and is not held).
+
+**The load-bearing limit — bigger surrogate does NOT license a bigger (or any) CV claim.** SURMOUNT-1's
+primary endpoint is **body weight, a surrogate** ([[Surrogate Outcomes]]); the causal transmission from
+weight to patient-important CV events is a **separate evidenced step**, and for tirzepatide that step has
+**never been trialled**. The SELECT-equivalent hard-outcome trial does not exist: — the tirzepatide morbidity-mortality CV outcome
+trial; when it lands it either extends the SELECT hard-outcome finding to the dual agonist or does not.
+This is the **insufficient-evidence** state, not no-effect. And the surrogate-to-outcome gap
+is not hypothetical: [[Does Weight Loss Reduce Cardiovascular Events]] holds the worked case where a
+large weight/CRP/BP surrogate improvement (Look AHEAD) bought **no** measurable CV-event reduction — so
+a record-breaking weight number is exactly the place to *not* assume the hard outcome follows.
+
+**Tolerability + adherence (layer 3), consistent with the class.** «The most common adverse events with
+tirzepatide were gastrointestinal, and most were mild to moderate in severity, occurring primarily
+during dose escalation»; AE-driven discontinuation «4.3%, 7.1%, 6.2%, and 2.6%» (5/10/15 mg / placebo) —
+the same GI tolerability tax carried above for semaglutide and corroborated at umbrella grade on
+[[GLP-1 Non-Cardiometabolic Effects and Safety]]. The 72-week duration «enabled par- ticipants to reach
+a weight plateau in the 5-mg group and near-plateaus in the 10-mg and 15-mg groups» — the effect is a
+*maintained state on chronic drug*, not a one-time correction; like semaglutide, the realistic
+comparator to a lifestyle change must price in **lifelong adherence, cost, and reversibility on
+stopping**.
+
+**Decision relevance (tirzepatide).** For an obese, non-diabetic, primary-prevention adult, tirzepatide
+is the **strongest available weight lever short of surgery** — \~15-21% loss by dose, half losing ≥20% at
+the top dose — but rank it, like semaglutide there, on the **weight/cardiometabolic-surrogate lever and
+its downstream (MASLD, diabetes prevention, function)**, *not* on a promised CV-event reduction, which
+is unproven for this agent. Against semaglutide it offers more weight loss but *less* outcome evidence
+(no CV trial) — a genuine surrogate-vs-outcome trade the person weighs at layer 3.
+
+[inferred from @jastreboff2022; @lincoff2023; @wilding2021]
+
+
 [@lincoff2023]
 ## Provenance and limits
 
@@ -180,8 +257,10 @@ caveat.
   refutation — but the symmetric-standards rule applies, and two sponsor-run trials are not two
   independent lines of evidence.
 - **Two trials, one drug, one sponsor.** SELECT + STEP-1 are both semaglutide 2.4 mg. Tirzepatide (dual
-  agonist, larger weight loss) has **no dedicated CV-outcome trial**; oral formulations are not here. Do
-  not generalize *GLP-1 class reduces CV events in obesity* from one agent.
+  GIP/GLP-1 agonist, \~15-21% weight loss — *larger* than semaglutide) has **no dedicated CV-outcome
+  trial** (SURMOUNT-1 is weight-surrogate only — see the tirzepatide section above); oral formulations
+  are not here. Do not generalize *GLP-1 class reduces CV events in obesity* from one agent — the larger
+  weight loss of the dual agonist does not carry the CV benefit with it.
 - **Net-safety direction is population-dependent, not a contradiction.** Serious AEs were *lower* on
   semaglutide in SELECT («33.4%» vs «36.4%») but *higher* in STEP-1 («9.8%» vs «6.4%»). Not a tension:
   SELECT's established-CVD patients carry a high background serious-event rate the drug's CV benefit
@@ -210,6 +289,24 @@ caveat.
 
 
 [inferred from @lincoff2023; @wilding2021]
+## The non-cardiometabolic ledger has its own home
+
+The CV/weight case above is only half the drug decision; the **non-cardiometabolic effects and harms**
+(GI events, cancer signals, pancreatitis, fracture, dementia, infections) are graded on a gold-tier
+umbrella of 60 meta-analyses and held on [[GLP-1 Non-Cardiometabolic Effects and Safety]]. Three
+findings there bear directly on this page's decision:
+
+- the **GI tolerability tax** carried above (STEP-1 discontinuation) is corroborated at umbrella grade —
+  nausea OR 2.47, vomiting OR 2.78, diarrhea OR 1.94 [@yang2026];
+- the **rodent thyroid-C-cell concern** shows **no robust human signal** (thyroid cancer OR 1.43,
+  0.95-2.13, NS), confirming the transportability read used here [@yang2026];
+- a **protective fracture signal** (OR 0.67, 0.52-0.87) partly offsets the sarcopenia/fall worry that
+  rapid weight loss otherwise raises [@yang2026].
+
+Most other non-cardiometabolic signals are exploratory (single-trial-fragile), so they refine rather
+than reverse the net-benefit picture above.
+
+
 ## Gaps this opens
 
 - **No primary-prevention CV-outcome trial** for any obesity drug — the single largest hole for applying

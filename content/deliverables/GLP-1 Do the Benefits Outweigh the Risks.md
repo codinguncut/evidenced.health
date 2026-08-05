@@ -2,11 +2,11 @@
 type: deliverable
 title: GLP-1 Receptor Agonists for Weight Loss
 question: For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum?
-authors: [Lincoff, A Michael; Wilding, John P H; Look AHEAD Research Group (org); Ma, Chaoyang; European Association for the Study of the Liver (org); Morton, Robert W; Momma, Haruki]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, EASL - MASLD Clinical Practice Guidelines 2024, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, GRADE - Handbook]
+authors: [Lincoff, A Michael; Wilding, John P H; Yang, Kaijie; Jastreboff, Ania M; Cruz-Jentoft, Alfonso J; Look AHEAD Research Group (org); Ma, Chenhan; European Association for the Study of the Liver (org); Morton, Robert W; Momma, Haruki]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, EASL - MASLD Clinical Practice Guidelines 2024, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, GRADE - Handbook]
 confidence: medium
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 There is no single answer, and pretending there is one is the main way this question goes wrong. A
@@ -16,8 +16,9 @@ do not move together across strata. For a person with class II/III obesity **and
 cardiovascular disease, the drug has a proven benefit on a hard outcome and the balance is favourable.
 For a near-normal-BMI person taking it for cosmetic loss — the tail actually driving the unprecedented
 scale of adoption — the proven benefit shrinks to surrogates, the hard-outcome benefit is unproven, and
-the risk side is mostly **not yet knowable from the evidence that exists**. The honest verdict is
-stratum-dependent, and the second stratum's answer is dominated by a gap, not by a number.
+the risk side is now a **graded near-term ledger with the long-horizon, lifetime exposure still not
+knowable**. The honest verdict is stratum-dependent, and the second stratum's answer is dominated by a
+gap, not by a number.
 
 Two disciplines run underneath everything below. **Weight is a surrogate, not an outcome** — a weight or
 HbA1c number earns decision weight only where its causal transmission to something a person cares about
@@ -49,8 +50,17 @@ In STEP-1 (semaglutide 2.4 mg, essentially a primary-prevention obese
 population, mean age 46), mean weight change was -14.9% vs -2.4% on placebo at week 68 (a -12.4
 percentage-point difference); half the treated group lost >=15% and a third lost >=20%, the latter
 approaching what is reported after bariatric surgery. Waist fell -9.4 cm and systolic BP -5.1 mmHg
-[@wilding2021] -> [[Semaglutide for Cardiovascular Risk in Obesity]]. Tirzepatide's pivotal obesity trial (SURMOUNT-1) reports a larger weight effect
-still and is the class's high-water mark for the surrogate.
+[@wilding2021] -> [[Semaglutide for Cardiovascular Risk in Obesity]].
+
+Tirzepatide — a **dual GIP/GLP-1 receptor agonist**, a related-but-different exposure that should not be
+pooled under "GLP-1" (it adds a second receptor axis rather than intensifying GLP-1 agonism) — is the
+class's weight high-water mark. Its pivotal obesity trial (SURMOUNT-1, n=2539, the same non-diabetic
+primary-prevention population class as STEP-1) reports dose-dependent mean weight loss of -15.0%, -19.5%,
+and -20.9% (5/10/15 mg) vs -3.1% on placebo at 72 weeks; at the top dose 57% of participants lost >=20%
+(vs 3% placebo), approaching the bariatric-surgery range on the surrogate
+[@jastreboff2022]. A larger surrogate effect than
+semaglutide — but **surrogate-only**: no tirzepatide cardiovascular-outcome trial exists, so the bigger
+weight number carries no CV benefit with it (the stratum logic below still governs).
 
 ### Cardiovascular events: proven — but only in secondary prevention
 
@@ -107,61 +117,117 @@ intervention it holds — semaglutide, statin, or lifestyle weight loss — has 
 hard CV events for a genuinely low-risk person; that ceiling is itself a finding, not a gap
 -> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
 
-## The risk side — mostly a named gap, and that is the finding
+## The risk side — now a graded ledger, no longer a blank
 
 The alarm that "we may not know enough for this scale" has to be cashed out into specific, testable
-unknowns rather than left as an unfalsifiable "it's complicated". Doing so is what separates a real gap
-from hand-waving. Here is the risk side by evidence state.
+unknowns rather than left as an unfalsifiable "it's complicated". A gold-tier umbrella review of 60
+meta-analyses (116 outcomes, 1751 RCTs, over 3.5 million participants) now grades most of the
+non-cardiometabolic ledger [@yang2026]
+-> [[GLP-1 Non-Cardiometabolic Effects and Safety]]. It converts what was a named gap into *sized,
+graded* signals, and the headline inverts the usual fear: the robust signals are the known GI events plus
+a cluster of *protective* associations, while the most-feared harms (cancers) do not survive the
+credibility filter.
 
-### Held now (from the trials above):
+Read two grading axes, never one: **GRADE** rates certainty of the effect; the umbrella-review
+**credibility class** (convincing I / highly suggestive II / suggestive III / weak IV) rates robustness
+to bias [@yang2026]. A well-estimated effect can
+still be non-robust to a single trial — so a headline quoting one axis misleads.
 
-- **Gastrointestinal adverse events — common, dose/titration-dependent, mostly transient.** In STEP-1,
-  more participants discontinued for GI events than on placebo (4.5% vs 0.8%), with GI events the
-  dominant tolerability cost, mostly mild-to-moderate and subsiding with time
-  [@wilding2021]. Countervailing: **serious** adverse
-  events were *lower* on the drug in the high-risk SELECT population (33.4% vs 36.4%) and *higher* in
-  STEP-1's healthy population (9.8% vs 6.4%) — not a contradiction but the baseline-risk arithmetic again,
-  since the sicker population has more background events for the CV benefit to offset.
-- **Continuation-dependence — the effect reverses on stopping.** The held trials establish that the
-  weight benefit is not durable off-drug; this is a sustained commitment, not a course of treatment
-  [@wilding2021]. The precise rebound magnitude (the
-  STEP-1 withdrawal extension reported roughly two-thirds of lost weight regained) is **not yet held**.
+### The one robust harm cluster: gastrointestinal (established)
 
-### Unheld — stated as gaps, not as reassurance (silence in a short trial is not a null):
+GI events are the most consistent signal and where GRADE quality is highest: nausea OR 2.47 (1.84-3.34),
+vomiting 2.78 (1.91-4.06), diarrhea 1.94 (1.52-2.49)
+[@yang2026]. This corroborates at umbrella grade
+the tolerability tax already held from the trials — STEP-1's excess GI-driven discontinuation (4.5% vs
+0.8%), mostly mild-to-moderate and subsiding with time
+[@wilding2021]. Dose/titration-dependent, and the
+dominant real-world adherence cost. Countervailing on *serious* AEs: lower on the drug in high-risk
+SELECT (33.4% vs 36.4%) and higher in STEP-1's healthy population (9.8% vs 6.4%) — the baseline-risk
+arithmetic again, since the sicker population has more background events for the CV benefit to offset.
 
-- **Lean-mass loss / sarcopenia risk.** STEP-1 held that fat mass fell more than lean mass, which is
-  reassuring on its face; but a dedicated body-composition meta-analysis quantifying the lean-mass
-  fraction, and separating drug-specific loss from the loss that *any* rapid large weight reduction
-  produces, is **not yet held**.
+### The feared cancers: no robust human signal (not proof of safety)
+
+None of the cancer signals meets the credibility threshold. Thyroid cancer OR 1.43 (0.95-2.13, P=.08) is
+non-significant, and its rodent C-cell origin has unconfirmed human relevance (the transportability trap,
+animal != human). Pancreatic cancer's nominal signal ran the *other* way, toward lower odds (OR 0.51,
+0.30-0.85, exploratory); colorectal 1.24 (1.00-1.54) is a bare class-IV signal
+[@yang2026]. Held as **no robust human signal**
+— not a long-latency all-clear, since short-to-medium trials cannot see a slow cancer.
+
+### Gallbladder and pancreatitis are DIFFERENT evidence states — do not lump them
+
+The earlier cut listed these together as "established". The umbrella separates them, and the split changes
+the decision posture:
+
+- **Gallbladder / biliary disease — a statistically significant, well-recognized association:** OR 1.34
+  (1.16-1.55, P<.001). Its "exploratory" credibility label is a robustness-to-future-studies caveat (95%
+  prediction interval close to null), **not** doubt about the harm
+  [@yang2026].
+- **Pancreatitis — causality explicitly unsettled:** conflicting cohorts (a 2025 propensity-matched US
+  analysis found no increased risk after adjustment; a 2026 UK regulatory update flagged rare fatal
+  cases), so the demotion is about *causation*, not just robustness
+  [@yang2026].
+- **GERD** OR 2.19 (1.65-2.90) sits in the same significant-but-credibility-exploratory posture as
+  gallbladder; gastroparesis / ileus (with anaesthesia-aspiration relevance) is an early safety signal.
+  The posture is targeted monitoring in symptomatic or high-risk patients, calibrated to which state
+  applies — not one blanket attribution
+  [@yang2026].
+
+### The surprising protective signals — suggestive, not confirmed
+
+Several off-target *benefits* appear, all below the stringent bar but directionally consistent: serious
+infections OR 0.89 (0.87-0.92, the review's only class-I convincing highlighted signal), respiratory
+disease 0.85 (0.80-0.92), all-cause dementia 0.55 (0.35-0.87), fracture 0.67 (0.52-0.87), and MASH
+resolution 3.39 (2.63-4.36) [@yang2026]. The
+fracture signal matters here specifically: it *offsets* rather than adds to the sarcopenia/fall worry that
+rapid weight loss otherwise raises. None licenses a recommendation — the umbrella calls them
+hypothesis-generating — but they belong in the ledger as directionally protective, not as unmeasured
+blanks.
+
+Why most of the non-GI ledger stays "suggestive" is mechanical and measured: in leave-one-trial-out
+reanalysis the effect direction flipped in \~9 of 39 outcomes and significance was lost in 6 of 39 after
+removing a single trial [@yang2026]. An
+association a single trial can flip is not one to dose a recommendation on.
+
+### Still owed — genuine gaps the umbrella does NOT close
+
+- **Continuation-dependence — the effect reverses on stopping.** The held trials establish the weight
+  benefit is not durable off-drug; this is a sustained commitment, not a course
+  [@wilding2021]. The precise rebound magnitude
+  (roughly two-thirds of lost weight regained) is **not yet held**.
+- **Lean-mass loss / sarcopenia — Yang has no lean-mass arm** (fracture, reduced, is its only
+  musculoskeletal outcome). So the body-composition question stays owed: a dedicated meta-analysis
+  quantifying the lean-mass fraction, and separating drug-specific loss from the loss *any* rapid weight
+  reduction produces, is **not yet held**.
+  The stakes are gradeable, though: sarcopenia is defined **strength-first** (low grip strength or a slow
+  chair-stand flags it before imaging), the outcome to steer toward is *function* — falls avoided,
+  independence retained — not the scale or a lean-mass number, and after 50 strength falls faster than
+  mass (1.5-5%/yr vs 1-2%/yr) [@cruzjentoft2019]
+  -> [[Sarcopenia Definition and Diagnosis]].
   - The attribution question is the sharp one: lean-mass loss of roughly a quarter to a third of total
-    mass lost is generic to fast weight loss by any route (diet, bariatric), so it is a cost of the
-    *goal* where it is weight-loss-generic, and a debit of the *drug* only where appetite suppression
-    drives protein intake down.
+    mass lost is generic to fast weight loss by any route (diet, bariatric) — a cost of the *goal* where
+    weight-loss-generic, a debit of the *drug* only where appetite suppression drives protein intake down.
   - Either way the mitigation is held and decisive: **resistance training plus adequate protein
-    (\~1.6 g/kg/day) preserves lean mass during weight loss** [@morton2018] -> [[Protein and Resistance Training for Muscle and Strength]]. The worked failure is instructive — an unguided 16:8 eating window lost \~65% of its
-    weight as lean mass vs a normal 20-30%, attributed to a short window cutting protein intake
-    [@lowe2020]. This makes lean-mass loss a
-    "modify the strategy, don't discard it" case, not a veto — and muscle, function, and falls are
-    patient-important outcomes, not cosmetic ones -> [[Muscle-Strengthening Activity and Mortality]].
-- **Gallbladder disease, pancreatitis, gastroparesis / ileus (with anaesthesia-aspiration relevance) —**
-  evidence strength ranges from established (gallbladder, pancreatitis) to an early safety signal
-  (gastroparesis/ileus); dose-dependence unquantified here.
+    (\~1.6 g/kg/day) preserves lean mass during weight loss**
+    [@morton2018]
+    -> [[Protein and Resistance Training for Muscle and Strength]]. The worked failure — an unguided 16:8
+    eating window lost \~65% of its weight as lean mass vs a normal 20-30%, attributed to a short window
+    cutting protein intake [@lowe2020] — makes this
+    "modify the strategy, don't discard it", not a veto; muscle, function, and falls are
+    patient-important outcomes -> [[Muscle-Strengthening Activity and Mortality]].
 - **Reward / mood / anhedonia — the "loss of joy" beyond food.** Mechanistically linked to the appetite
   pathway and a real quality-of-life cost, but systematically under-measured because trials count events
-  and weight, not the trajectory of what a person values (the streetlight effect on the outcome side). It
-  is unmeasured, which is distinct from absent.
-- **Thyroid C-cell / medullary carcinoma —** a rodent signal, not established in humans; this is the
-  transportability trap (animal != human). Held as insufficient/candidate, not as a human finding
-.
+  and weight, not the trajectory of what a person values (the streetlight effect on the outcome side).
+  Unmeasured, which is distinct from absent.
 - **NAION (an eye disorder), bone density, pregnancy exposure, adolescent long-term development, and
   psychiatric outcomes —** mostly *insufficient evidence*, long-horizon. State as unknowns, never as
   nulls.
 
-The pharmacovigilance umbrella that would grade several of these together is registered but **not yet
-ingested**, as is the sarcopenia
-consensus that would ground the muscle stakes. Until they land, the risk half of
-this deliverable is deliberately a **named gap** with
-its evidence states kept distinct — not a quantified harm ledger, and not a clean bill of health.
+So the risk half is no longer a blank: the robust harm (GI) is priced into the decision, the most-feared
+harms show no robust human signal, gallbladder and pancreatitis are held at *distinct* evidence states,
+and a handful of protective signals are logged as exploratory. What remains a **named gap** — lean-mass
+quantification, the rebound magnitude, the loss-of-joy cost, and the long-horizon rare signals — is a
+short, specific list now, not the whole risk side.
 
 ## Efficacy-while-taken is not the lifetime net
 
@@ -202,7 +268,11 @@ complete strategies:
   **not** run through the heart -> [[Does Weight Loss Reduce Cardiovascular Events]].
 - **Bariatric surgery** — larger and more durable weight loss, at the cost of surgical and long-term
   nutritional risk (named as a comparator only, not appraised here).
-- **Tirzepatide** — a larger weight effect than semaglutide, with no dedicated CV-outcome trial yet held.
+- **Tirzepatide** — the strongest weight lever short of surgery (\~15-21% loss by dose, half losing >=20%
+  at the top dose), but with **no dedicated CV-outcome trial**: it offers more weight loss than
+  semaglutide and *less* outcome evidence, a surrogate-vs-outcome trade the person weighs at layer 3
+  [@jastreboff2022]. The tirzepatide
+  morbidity-mortality CV trial (SURMOUNT-MMO) is not yet held.
 
 The preferred move, where the drug is chosen, is to **modify the strategy rather than discard it**: add
 resistance training and adequate protein to protect lean mass, titrate to the tolerated dose to manage
@@ -258,18 +328,19 @@ finding is the mismatch itself.
 - **Open loop.** This wiki grades coherence and source-fidelity, never validity — no operation here
   scores a GLP-1 recommendation against a realized long-term outcome. A clean appraisal is not a
   validated recommendation.
-- **The risk half is a partial cut.** Several risk endpoints above rest on staged-but-unheld sources
-  (the [AWAITS] tags); the definitive risk ledger waits on that ingest, and the current cut states those
-  endpoints as gaps rather than quantified harms.
+- **The risk ledger is now graded, but not complete.** The gold-tier umbrella (Yang) grades the
+  non-cardiometabolic harms above; a few endpoints still rest on staged-but-unheld sources (the [AWAITS]
+  tags — lean-mass quantification, the rebound magnitude), stated as gaps rather than quantified harms,
+  and the long-horizon rare signals remain unknowable until time passes regardless of ingest.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum? |
-> | **Evidence included** | 9 sources — 1 gold, 6 high, 1 moderate |
+> | **Evidence included** | 12 sources — 3 gold, 7 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Do%20the%20Benefits%20Outweigh%20the%20Risks.md) |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Do%20the%20Benefits%20Outweigh%20the%20Risks.md) |
 
 ## References

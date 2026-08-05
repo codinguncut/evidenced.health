@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -15,7 +15,7 @@ relationships:
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
 created: 2026-07-29
 updated: 2026-08-04
-self_critiqued: 2026-07-29
+self_critiqued: 2026-08-04
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -105,6 +105,22 @@ The randomised evidence shows benefit «down to less than 120 mm Hg» with no ri
 stratum — so the observational J-curve is not a treatment effect. [@bplttc2021, Introduction] A worked instance of
 [[The U-Shaped Association Artifact]]: the protective-looking lower arm of an observational curve does
 not survive the randomised (here, interventional) check.
+
+## A dietary BP-lowering route that reached hard outcomes — SSaSS `[2026-08-04, Neal]`
+
+The page's caution below is that a **lifestyle-induced** BP drop transmitting to events is «an assumption,
+not the same evidence» as the pharmacological trials here. SSaSS (Neal 2021) is the closest test the
+corpus holds: a **potassium-enriched salt substitute** (a dietary intervention) cut stroke (RR 0.86),
+major CV events (RR 0.87) and death (RR 0.88) in 20,995 high-risk adults, with an achieved SBP fall of
+**−3.34 mmHg**. [@neal2021] So a
+diet-route BP reduction *can* reduce hard events — but two caveats keep it from being a clean confirmation
+of the sodium→events chain: (1) the salt substitute moves **sodium and potassium together** (a joint
+lever, not sodium alone — [[Sodium Intake and Blood Pressure]]); (2) the **event benefit outruns the
+BP-channel prediction** — this page's \~13% stroke reduction per 5 mmHg predicts RR \~0.91 from −3.34 mmHg,
+while SSaSS observed 0.86, consistent with a BP-independent electrolyte effect *or* the measured BP fall
+understating the sustained one (adherence dilution). The BPLTTC transmission model is corroborated in
+*direction*; SSaSS does not let the diet-route magnitude be read straight off the BP fall.
+[inferred from @neal2021]
 
 ## Decision relevance
 

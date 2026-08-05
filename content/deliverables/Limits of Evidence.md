@@ -249,4 +249,14 @@ such — acted on by mechanism, reversibility, and magnitude where a choice must
 uncertain where it need not be. Evidence-based stays the standard. Naming its limits honestly is how you
 keep it one.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | In nutrition and lifestyle, what CAN and what CANNOT be shown by evidence — and given that structural limit, when is a well-founded choice one that must be made ahead of (or without) proof, versus one that should wait for it? |
+> | **Evidence included** | 15 sources — 4 gold, 6 high |
+> | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+
 ## References

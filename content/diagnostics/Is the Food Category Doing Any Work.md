@@ -151,7 +151,8 @@ claims from mechanism alone.
    is not, **and that is a positive finding, not a null result** — it tells you to stop using that
    boundary as a decision variable.
 3. **Is the presumed mechanism carried by the category, or by something inside it?** If the active
-   agent is long-chain n-3, *"fish"* is the wrong exposure — white fish delivers little. If it is
+   agent is long-chain n-3, *"fish"* is the wrong exposure — white fish delivers little
+   -> [[Fish and Seafood Consumption]]. If it is
    cereal fibre, *"whole grain"* is a proxy and SACN says so. **A category whose mechanism lives in a
    sub-component should be replaced by the sub-component in any decision.**
 4. **Would the recommendation change across the category's own range?** *"Eat fish twice a week"* is

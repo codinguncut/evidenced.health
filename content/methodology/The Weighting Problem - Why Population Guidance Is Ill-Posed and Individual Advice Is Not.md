@@ -2,11 +2,11 @@
 type: framework
 question: If a recommendation must serve health, carbon, welfare, affordability and scalability at once, is the problem even well-posed — and for whom?
 aliases: [Weighting Problem, Multi-Objective, Incommensurability, Pareto, Dominated Options, Intersectionality Tangle, Optimizing Ten Dimensions]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew]
-sources: [GRADE - Handbook, NNR - Nordic Nutrition Recommendations 2023]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; European Food Safety Authority (org)]
+sources: [GRADE - Handbook, NNR - Nordic Nutrition Recommendations 2023, EFSA - Seafood Benefits vs Methylmercury Risks 2014]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-27
+self_critiqued: 2026-08-05
 relationships:
   related_to:
     - Which Objective Moved This Recommendation
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-27
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 **Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [@grade]
@@ -238,6 +238,30 @@ auditable by someone with different values. -> [[Which Objective Moved This Reco
 say evidence beyond climate is largely missing, and it rejected optimisation modelling on transparency
 grounds. **So *publish the coordinate* may be blocked by the evidence, not chosen.** The wiki cannot
 currently tell those apart, and the distinction matters for whether this is a failure or a limit.
+
+## A within-health-axis case: benefit vs risk, priced and flipped by stratum (EFSA fish) `[2026-08-05]`
+
+Every case above is a **cross-axis** tangle (health vs carbon/welfare). [[Fish and Seafood Consumption]] supplies the same weighing structure **one axis in**: two *patient-important health* outcomes
+traded against each other — child neurodevelopment (EPA/DHA, iodine) **benefit** vs methylmercury
+neurotoxic **harm** — and it is the rare case a guidance body priced **with numbers**.
+
+**For this case it sidesteps the coordinate-vs-weight problem this page raises, by study design.**
+EFSA still declines an exchange rate, but does not need one *here*: a cohort eating real fish
+**already ate the mercury inside it**, so the observed associations *«refer to seafood per se and
+include beneficial and adverse effects of nutrients and non-nutrients (i.e. including contaminants
+such as methylmercury)»* — the benefit-minus-risk balance is a **single measured coordinate**, not two
+coordinates awaiting a weight.
+(This works only because benefit and risk co-occur in one exposure and are jointly observable; it does
+not generalize to a cross-axis trade-off like health vs carbon, where the two are measured apart.)
+[@efsaseafood2014]
+
+**And the answer is stratum-conditioned rather than one number** — exactly the layer-2 move this page
+argues routes around the tangle. The net flips negative only for the **fetus × apex-predator species**;
+for a general adult, and even for a pregnant woman eating **low-mercury** fish, it stays positive — so
+the population body issues a species-and-stratum rule, and the sensitive stratum's decision-change is a
+**species swap, not abstention** (abstaining is itself the harmful option on the outcome that stratum
+most values).
+[inferred from @efsaseafood2014]
 
 ## Decision relevance
 

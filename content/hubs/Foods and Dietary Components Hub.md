@@ -22,6 +22,10 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
 
 ## Foods and beverages
 
+- [[Fish and Seafood Consumption]] — the `fish-seafood` nucleus: EFSA's benefit-vs-risk weighing with
+  numbers (EPA/DHA -> CHD mortality + fetal neurodevelopment vs methylmercury), why the balance flips
+  by stratum and species (apex predators carry the mercury; oily low-trophic fish carry the benefit),
+  and why "fish" is the wrong exposure
 - [[Coffee Consumption and Health]] — what habitual coffee does to patient-important outcomes, for
   whom, at what dose, and how much is causal
 - [[Red and Processed Meat and Cancer]] — whether red or processed meat causes cancer, by how much, and

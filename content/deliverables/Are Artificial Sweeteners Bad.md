@@ -2,11 +2,11 @@
 type: deliverable
 title: "Are Artificial Sweeteners Bad?"
 question: Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them?
-sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023]
+sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 This is a general, population-level appraisal — what the evidence says about non-sugar sweeteners
@@ -83,19 +83,44 @@ This is the single most-misread part of the whole topic, and it turns on one dis
   the agent.
 - **Risk** = *does it cause cancer at the doses people actually consume?* A question about your exposure.
 
-The two can point different ways, and for aspartame in 2023 they did. IARC — the WHO agency that
-classifies hazards — put aspartame in **Group 2B, *possibly carcinogenic to humans*,** a tier reflecting
-*limited* evidence (the same category as many everyday exposures). On the same day, JECFA (the
-food-additive risk body) reviewed the dose side and left the **acceptable daily intake unchanged at 40
-mg per kg of body weight per day.** For a 70 kg adult that ADI is about 2,800 mg/day — on the order of a
-dozen cans of diet soft drink daily, far above typical consumption.
-So: a low-confidence *hazard* flag sits beside an unchanged *risk* verdict of safe at normal intakes.
-*Possibly carcinogenic* is not *found to cause cancer at the amounts you drink*.
+The two can point different ways, and for aspartame in 2023 they did. On the same day, two WHO bodies
+answered the two different questions — and the wiki now holds both primary evaluations directly.
 
-**Important caveat: the wiki does not yet hold the primary IARC or JECFA evaluations** — the Group-2B
-label and the 40 mg/kg ADI above are their widely-reported conclusions, flagged for acquisition and not
-yet independently appraised here. What the wiki *does* hold on cancer is thinner and, tellingly,
-inconsistent:
+**IARC (the hazard question) classified aspartame Group 2B, *possibly carcinogenic to humans*.** This is
+the weakest positive tier, and it rests on **«limited» evidence for cancer in humans, «limited»
+evidence... in experimental animals and «limited» mechanistic evidence** — limited on all three streams.
+[@iarc2023] The human signal is specifically liver cancer
+(hepatocellular carcinoma): in one study across 10 European countries, each weekly 330 mL serving of
+artificially-sweetened beverage carried a **«6% increase in risk of hepatocellular carcinoma» (95% CI
+3-9%).** [@iarc2023] But the Working Group concluded that
+**«chance, bias, or confounding could not be ruled out with reasonable confidence»** — which is exactly
+why the label is 2B (limited) and not a higher tier. [@iarc2023]
+
+**JECFA (the risk question) reaffirmed the acceptable daily intake at 0-40 mg per kg of body weight per
+day** — «no reason to change the previously established ADI». [@jecfa2023] The ADI derives from a NOAEL of **4000 mg/kg/day** (the highest dose tested, a
+104-week rat study) divided by a 100-fold uncertainty factor. Crucially, JECFA also did the *first-ever*
+dietary-exposure estimate: even a **high**-consuming adult reaches only about **12 mg/kg/day** (mean
+adult \~5), well under the ADI, so «dietary exposure to aspartame does not pose a health concern».
+[@jecfa2023]
+
+For grip on that ceiling: a 70 kg adult's ADI works out to roughly a dozen-plus cans of diet soft drink
+daily, sustained, to reach it.
+
+
+The mechanistic reason JECFA is unconcerned: aspartame is «fully hydrolysed in the gastrointestinal
+tract», so «there is no systemic exposure» — the parent molecule never reaches the bloodstream.
+[@jecfa2023]
+
+**The two do not conflict — they answer different questions.** Where IARC and JECFA assess the *same*
+quantity (the human cohort evidence and its caveats) they **agree**: JECFA likewise found the cancer
+association «not convincing», with «Reverse causality, chance, bias and confounding... cannot be
+ruled out». [@jecfa2023] A Group-2B *hazard* flag on
+limited, confounding-not-excludable evidence is fully consistent with a *risk* verdict of safe at
+realistic intake -> [[Non-Sugar Sweeteners]]. *Possibly carcinogenic* is not *found to cause cancer at the
+amounts you drink* — the same hazard/risk split the fabric holds for the IARC red-meat labels
+(processed = Group 1, red meat = Group 2A) -> [[Is Red Meat Harmful]].
+
+What the wiki holds on the *human observational* side is thinner and, tellingly, inconsistent:
 
 - **WHO's pooled cohort table: cancer is null.** Overall cancer HR \~1.02 (95% CI 0.95-1.09), cancer
   mortality \~1.02 — flat, at very-low certainty. The one exception is an old saccharin-and-bladder-cancer
@@ -104,15 +129,20 @@ inconsistent:
   artificial sweeteners associated with a 13% higher overall cancer rate (HR 1.13, 95% CI 1.03-1.25;
   aspartame HR 1.15, acesulfame-K HR 1.13; breast cancer HR 1.22). [@debras2022] But this is a single observational cohort — self-selected,
   health-conscious, mostly-female volunteers reporting their own diets — it is *discordant with WHO's own
-  null pooled estimate*, and it carries the same reverse-causation problem as everything observational
-  here (people at higher cancer or metabolic risk may adopt sweeteners *because* of that risk).
+  null pooled estimate* (and IARC noted its findings «were not consistent across all available studies»),
+  and it carries the same reverse-causation problem as everything observational here (people at higher
+  cancer or metabolic risk may adopt sweeteners *because* of that risk).
+  [@iarc2023]
 
-**Verdict on cancer:** hazard-versus-risk is the load-bearing frame. The regulatory *risk* judgment is
-safe at realistic intakes; a narrative review confirms EFSA's position that «aspartame and its
-breakdown products are safe for human consumption at current levels of exposure» while the cancer
-question «is still highly controversial and under investigation». [@aspartame2023] The cohort *hazard* signals are weak, inconsistent, and observational. Nobody
-should treat *possibly carcinogenic* as a demonstrated dietary cancer risk — and nobody should call the
-question fully closed either.
+**Verdict on cancer:** hazard-versus-risk is the load-bearing frame, and both primary bodies now sit in
+the fabric. The regulatory *risk* judgment (JECFA) is safe at realistic intakes; a narrative review adds
+EFSA's concurring position that «aspartame and its breakdown products are safe for human consumption at
+current levels of exposure» while the cancer question «is still highly controversial and under
+investigation». [@aspartame2023] The *hazard* signal (IARC 2B)
+is a genuine positive classification but a **weak** one — limited on all three evidence streams, one
+liver-cancer signal against a pooled null. Symmetric standards cut both ways: nobody should treat
+*possibly carcinogenic* as a demonstrated dietary cancer risk, and nobody should dismiss the
+limited-evidence signal as nothing — it is held as *limited*, not refuted.
 
 ## Appetite and hunger
 
@@ -272,8 +302,10 @@ These are the holes the assembled sources collectively cannot fill -> [[Non-Suga
 - **No Mendelian-randomization (genetic) study on sweeteners is held** — the one tool that could
   adjudicate whether the cohort associations are causal or reverse-causation. Until it exists, the
   cohort signal stays *unadjudicated, not established*.
-- **The primary IARC and JECFA 2023 aspartame evaluations are not yet held here** — the hazard label and
-  the ADI above are their reported conclusions, awaiting direct appraisal.
+- **The IARC hazard signal is «limited» on every stream and rests on one liver-cancer proxy signal** —
+  the primary evaluation is now held, but its own Working Group could not rule out chance, bias, or
+  confounding, so the hazard stays *possible*, not established. This gap is intrinsic to the evidence,
+  not to the wiki's holdings.
 - **Appetite, cravings, and the microbiome-to-disease leap all sit at insufficient evidence** — real
   mechanisms, not yet findings.
 
@@ -306,9 +338,9 @@ split, and the trial-versus-cohort tension all in view at once, and refusing to 
 > | | |
 > |---|---|
 > | **Question** | Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them? |
-> | **Evidence included** | 4 sources — 1 high, 1 moderate, 2 weak |
+> | **Evidence included** | 6 sources — 2 gold, 1 high, 1 moderate, 2 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Are%20Artificial%20Sweeteners%20Bad.md) |
+> | **Source-selection note** | The aspartame cancer verdict now rests on two gold-tier primary evaluations (IARC hazard; JECFA risk). 3 source(s) below the gold evidence bar also feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Are%20Artificial%20Sweeteners%20Bad.md) |
 
 ## References

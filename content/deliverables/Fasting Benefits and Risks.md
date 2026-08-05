@@ -4,23 +4,27 @@ title: Fasting Benefits and Risks
 subject: What fasting does to patient-important outcomes over and above the calorie deficit it delivers, and the strata where a prolonged fast flips to net harm
 question: For an adult considering fasting, what does the eating schedule add — benefit or harm — beyond the energy deficit it creates, and for whom is a prolonged (>=36 h) fast a net harm?
 aliases: [Fasting, Intermittent Fasting, Time-Restricted Eating Deliverable, ADF, 5:2, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Morton - Protein Supplementation and Resistance Training 2018, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Morton - Protein Supplementation and Resistance Training 2018, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 ### The verdict up front
 
 Fasting is not a metabolism trick; it is a *delivery schedule* for an energy
-deficit. On the evidence held here — and for the schedules actually tested head-to-head (time-restricted
-eating, on weight and liver fat) — the schedule adds very little that the same deficit delivered
-continuously does not: the one held gold-tier guideline that looked directly finds *very little
+deficit. On the evidence held here the schedule adds very little that the same deficit delivered
+continuously does not. The one held gold-tier guideline that looked directly finds *very little
 evidence for a beneficial effect of time-restricted eating over regular caloric restriction* for the
-outcome it measured (liver fat) [@easl2024].
-For the alternate-day and 5:2 schedules there is no held head-to-head trial, so their equivalence to
-continuous restriction is a directional expectation here, not a measured result (the gap is named below).
+outcome it measured (liver fat) [@easl2024];
+and a gold-tier network meta-analysis of **99 RCTs (6582 adults)** now settles the weight question at
+scale — pooled across every intermittent-fasting form, *«little additional benefit for intermittent
+fasting»* over continuous caloric restriction, with the one exception (alternate-day fasting) coming in
+below the threshold that would matter to a person and gone by 24 weeks
+[@semnaniazad2025].
+
+Every outcome in that analysis is a surrogate marker (weight, glucose, lipids), not a hard event.
 
 What the schedule *does* add, reliably, is a set of **specific harms the continuous route avoids**:
 muscle loss from a careless short window, and — in the prolonged (>=36 h) arm — hypoglycaemia on
@@ -71,13 +75,27 @@ Where the corpus can look at that head-to-head, the schedule adds nothing detect
   16:8 window with no other instruction and found **no weight advantage** over normal eating
   (between-group difference about -0.26 kg, P=.63), and every cardiometabolic marker (fasting insulin,
   glucose, HbA1c, blood pressure, lipids) was null [@lowe2020].
+- **Weight, pooled across 99 RCTs:** the network meta-analysis sets the minimal important difference
+  for weight at **2.0 kg** and finds the time-restricted-eating-versus-continuous-restriction difference
+  a trivial **0.39 kg** (moderate certainty, not meaningful). Of the intermittent-fasting forms *«alternate
+  day fasting was the only … strategy to show benefit in body weight reduction (mean difference −1.29 kg
+  (95% CI −1.99 to −0.59), moderate certainty)»* against continuous restriction — but −1.29 kg is itself
+  below the 2.0 kg threshold, so the authors class even it as *«somewhat limited clinical impact»*
+  [@semnaniazad2025].
 
-**Gap (stated plainly, because it is the load-bearing magnitude this deliverable cannot supply):** the
-wiki does **not yet hold** a systematic review or meta-analysis of ADF/5:2 *versus isocaloric continuous
-restriction* on weight and cardiometabolic outcomes. A gold-tier network meta-analysis of intermittent
-fasting strategies is acquired but not yet ingested; until it is read,
-the magnitude of any IF-vs-CR difference is stated as a direction (small-to-none, from the meal-timing
-prior), not a number.
+That pooled result is **the same evidence at larger scale, not a second independent confirmation.** The
+network meta-analysis re-pools the very trials cited above — TREAT is in its pool — so its agreement with
+the TRE-equals-continuous-restriction reading is shared-trial corroboration (it settles the *magnitude*
+that the single trials only gestured at), not a separate route to the conclusion. Read it as the null
+sharpened, not as two nulls stacked.
+
+**And even the one exception is short-lived.** The ADF-over-continuous-restriction edge holds only in
+short trials: in the 17 trials running 24 weeks or more, *«no differences between intermittent fasting
+strategies and CER in these moderate-to-long term studies»* — the authors attribute the fade to
+adherence decline and metabolic adaptation
+[@semnaniazad2025].
+So at the horizon a person actually cares about, no intermittent-fasting schedule beats the same deficit
+delivered continuously.
 
 ## The one weight-independent signal is a *timing* effect — appraised under meal timing
 
@@ -215,8 +233,10 @@ A gap is itself a finding — it bounds what can be claimed and drives the next 
 ([[Layer 1 - Ranking Interventions for a Stratum]]). The magnitude evidence that would let this move
 from directional to quantitative is **not held**, named here so it can be acquired rather than guessed:
 
-- **IF (ADF/5:2) versus isocaloric continuous restriction** — the load-bearing magnitude. A gold-tier
-  network meta-analysis is acquired but not yet ingested.
+- **Hard endpoints for any fasting schedule** — the network meta-analysis that now settles the
+  IF-versus-continuous-restriction *weight* question is surrogate-only (median 12-week follow-up; no
+  mortality, no cardiovascular events). Whether the trivial marker differences translate to any
+  patient-important outcome is unmeasured.
 - **Human autophagy / fasting-longevity** — to place the autophagy claim on the benefit / not-yet line.
 - **Prolonged-fasting safety and refeeding syndrome** — the clinical source behind the contraindications
   and the electrolyte risk.
@@ -243,9 +263,9 @@ from directional to quantitative is **not held**, named here so it can be acquir
 > | | |
 > |---|---|
 > | **Question** | For an adult considering fasting, what does the eating schedule add — benefit or harm — beyond the energy deficit it creates, and for whom is a prolonged (>=36 h) fast a net harm? |
-> | **Evidence included** | 7 sources — 2 gold, 3 high, 1 moderate, 1 weak |
+> | **Evidence included** | 8 sources — 3 gold, 3 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fasting%20Benefits%20and%20Risks.md) |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fasting%20Benefits%20and%20Risks.md) |
 
 ## References

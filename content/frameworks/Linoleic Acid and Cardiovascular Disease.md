@@ -281,7 +281,7 @@ Li's Discussion (RCT limits, dietary-vs-biomarker strengths/limits, guideline sp
 
 ## The recovered-RCT contrarian pole, now held — Ramsden MCE 2016 `[2026-08-04]`
 
-The is now cashed. The **Minnesota Coronary
+The **Minnesota Coronary
 Experiment** (MCE, 1968-73) is the recovered-data pole Marklund pre-empted: a **double-blind, parallel
 RCT** (n=9570; the *largest* diet-heart trial, the only one in large cohorts of women and >=65s, the
 only one with autopsy endpoints), in which corn-oil LA (**13.2%E**, \~2x the average US diet) replaced
@@ -363,7 +363,7 @@ and represented, so neither side is straw-manned.
 
 ## The Sydney secondary-prevention arm — the harm signal that does NOT fold the way Minnesota did `[2026-08-04]`
 
-The is now cashed. The **Sydney Diet Heart Study** (SDHS)
+The **Sydney Diet Heart Study** (SDHS)
 is the second recovered-data Ramsden trial: a **single-blind, parallel-group RCT** (1966-73), **458 men
 aged 30-59 with a recent coronary event** (86% acute MI) — i.e. **secondary prevention** in established
 CHD. The intervention (n=221) replaced SFA with **safflower-oil LA + safflower PUFA margarine**: a
@@ -715,7 +715,7 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
   half files). Note Ramsden also *rebuts* Marklund's own trans-fat-confound dismissal for MCE specifically
   (trans fat was in the control, not the intervention). So the recovered-RCT pole firms the **RCT-side
   null**, not harm.
-  - ~~~~ **CASHED 2026-08-04** — woven above (*The Sydney
+  - Ramsden Sydney Diet Heart — **CASHED 2026-08-04** — woven above (*The Sydney
     secondary-prevention arm*). The check resolved: its harm signal is **genuinely stronger** than MCE's
     (randomized ITT primary outcome, not observational), so it does NOT fold the way Minnesota did — but
     it is one small single-blind high-dose n-6-selective trial that pools to non-significance (Ramsden's

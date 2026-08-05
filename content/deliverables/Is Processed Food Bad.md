@@ -2,10 +2,10 @@
 type: deliverable
 title: Processed Food and Health
 question: What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful?
-sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, SACN - Carbohydrates and Health 2015, WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Baye - Low AGE Diet Cardiometabolic 2017, WHO - Saturated and Trans Fatty Acid Intake 2023]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, SACN - Carbohydrates and Health 2015, WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Baye - Low AGE Diet Cardiometabolic 2017, WHO - Saturated and Trans Fatty Acid Intake 2023]
 confidence: low
 created: 2026-08-01
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## The short answer
@@ -22,7 +22,7 @@ Two things are nonetheless defensible. First, the *direction* of avoiding the wo
 low-regret. Second, there is one causal foothold that *it's all just confounding* cannot explain away:
 when calories, sugar, fat and fibre are held fixed, an ultra-processed diet still drives people to
 eat more. That is the closest thing to a genuine effect of processing *itself* -- and it runs through
-appetite, not nutrients. Everything else is observational, modest, and heavily confounded, so a blanket
+how much people eat, not the nutrients themselves. Everything else is observational, modest, and heavily confounded, so a blanket
 *eat less processed food* adds little once you have already cut the specific culprits ->
 [[Ultra-Processed Food and Health Outcomes]].
 
@@ -52,22 +52,38 @@ direction.
 
 ## The causal anchor: processing raises intake even at matched nutrients
 
-The single fact that separates *processing does causal work* from *UPF is just a marker of a bad diet*
-is an inpatient feeding trial. Confined subjects were fed ultra-processed versus unprocessed diets
-matched for calories, sugar, fat, fibre and macronutrients, and allowed to eat as much as they liked.
-The ultra-processed arm ate roughly 500 kcal/day more and gained weight.
+The single fact that separates *processing does causal work* from *UPF is just a marker of a bad
+diet* is an inpatient feeding trial, now held as the primary source. Twenty weight-stable adults
+(mean age 31, BMI 27) lived on an NIH metabolic ward for 28 days and crossed over between an
+ultra-processed and an unprocessed diet, two weeks on each, with meals «designed to be well matched
+across diets for total calories, energy density, macronutrients, ﬁber, sugars, and sodium, but
+widely differing in the percentage of calories derived from ultra-processed versus unprocessed
+foods» [@hall2019]. Subjects ate as much
+as they liked.
 
-Reported via Lane's secondary citation: experimental evidence of «a robust causal relation between
-ultra-processed diets and increased energy intake and weight gain (approximately 500 kcal (2000 kJ)
-per day and 0.9 kg during the ultra-processed diet)» [@lane2024upf]. The primary trial -- --
-is staged for ingest but not yet held, so this figure should be re-verified against the primary source;
-it is currently reached one citation removed.
+Despite the matched composition, energy intake was 508 ± 106 kcal/day greater on the ultra-processed
+diet (p = 0.0001), and participants gained 0.9 ± 0.3 kg on it while losing 0.9 ± 0.3 kg on the
+unprocessed one [@hall2019]. The trial
+concludes «limiting consumption of ultra-processed foods may be an effective strategy for obesity
+prevention and treatment.» [@hall2019]
 
-What this establishes and what it does not: at matched composition, processing drives overconsumption,
-so it carries an effect *via appetite and energy intake* independent of nutrient content. It does not
-establish a processing effect on any hard endpoint (mortality, cancer, cardiovascular events) -- those
-remain observational. The mechanism is almost certainly energy density plus hyper-palatability, which
-is aspect four below.
+What this establishes: at matched calories, sugar, fat, fibre and sodium, the ultra-processed
+*format* still drives overconsumption -- a within-person randomized demonstration, not an
+association, that processing does causal work *via energy intake* independent of nutrient profile.
+And it is not simply that people liked the ultra-processed food more: subjective hunger, fullness,
+pleasantness and familiarity ratings did not differ between the diets
+[@hall2019]. The proximate levers are
+measurable -- the ultra-processed food was eaten faster and had 85% higher non-beverage energy
+density -> aspect four below.
+
+What it does NOT settle -- and the symmetry matters. This is n=20 over two weeks on a *surrogate*
+(intake and short-term weight, not mortality, cancer or cardiovascular events), so it licenses
+*processing drives overconsumption*, not *processing causes disease*; the hard-outcome evidence
+stays observational (Lane, below). And it tests the *category* effect without isolating *which*
+property does the work -- additives, texture, energy density and eating rate remain confounded
+within the ultra-processed arm -> [[Is the Food Category Doing Any Work]]. So Hall MECHANIZES Lane's
+association rather than replacing it: the RCT supplies the causal channel on a surrogate, the umbrella
+supplies the breadth of (observational) outcomes.
 
 ## The five aspects of processing, graded separately
 
@@ -137,8 +153,10 @@ than incidental. Ultra-processed products are, in NNR's description, «energy de
 added or free sugars, salt and total fat/saturated fat, and low in fibre and micronutrients»
 [@nnr2023]. Combined with the matched-nutrient
 intake effect above, the most defensible reading is that the bulk of any genuine processing harm runs
-through *overconsumption of energy-dense, hyper-palatable food*, not through a toxin. Grade: causal on
-intake (the strongest aspect), via the one experimental result the field has.
+through *overconsumption of energy-dense, fast-eaten food*, not through a toxin. The Hall trial pins
+the operative levers: not greater reported liking (pleasantness ratings were equal) but 85% higher
+non-beverage energy density and a faster eating rate [@hall2019]. Grade: causal on intake (the strongest aspect), via the one experimental result
+the field has.
 
 ### Processing contaminants -- narrow, real, and category-specific
 
@@ -276,9 +294,9 @@ runs through markers and short-term surrogates, not hard endpoints -> [[Surrogat
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful? |
-> | **Evidence included** | 14 sources — 6 gold, 7 high, 1 moderate |
+> | **Evidence included** | 15 sources — 6 gold, 8 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Processed%20Food%20Bad.md) |
+> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Processed%20Food%20Bad.md) |
 
 ## References

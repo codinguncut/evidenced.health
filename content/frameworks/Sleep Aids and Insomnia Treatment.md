@@ -41,8 +41,7 @@ decide on evidence-type + harm, not on the effect number.
 Because every *same quantity?* cell is **NO**, no cross-source magnitude claim is made. The within-source
 comparisons stand: van Straten's *smallest* effect is on total sleep time (g=0.16) — CBT-I consolidates
 sleep, it does not add hours; Ferracioli's own benchmark puts melatonin's <7-min latency gain *below*
-benzodiazepines' 10.0-19.6 min. [@ferraciolioda2013, 
-, Discussion]
+benzodiazepines' 10.0-19.6 min. [@ferraciolioda2013, Discussion]
 
 ## CBT-I — the first-line, and the only one that restores sleep without a drug `[EXTRACTED]`
 

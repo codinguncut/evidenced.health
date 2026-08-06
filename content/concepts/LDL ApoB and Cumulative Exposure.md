@@ -2,8 +2,8 @@
 type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
-authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024]
+authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -18,7 +18,7 @@ relationships:
     - Soy Products and Health
 created: 2026-07-29
 updated: 2026-08-05
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-05
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
@@ -122,11 +122,51 @@ older baseline age found *no* LDL/HDL association with cognitive decline, so the
 midlife-exposure one, not a late-life-level one. This is a decision-relevant *addition* to LDL's outcome
 menu (cognition alongside ASCVD), not a change to the ASCVD verdict above.
 
+## The magnitude and the metric, now held directly — CTT + Marston `[2026-08-05]`
+
+Ference *asserts* two things this page rested on but did not hold the primary evidence for: that lowering
+apoB reduces risk *in proportion to the reduction*, and that apoB is the number to measure. Two sources now
+supply that evidence directly (both extract the causal magnitude / metric, so both are `sources:`).
+
+**CTT 2010 — the per-mmol magnitude and the monotone shape** (IPD meta-analysis, 26 statin RCTs, 169,138
+participants). Per 1.0 mmol/L LDL-C reduction: major vascular events RR 0.78 (0.76-0.80), all-cause
+mortality RR 0.90 (0.87-0.93), with «no evidence of any threshold within the cholesterol range studied» —
+benefit persisting «even among those reaching 1·8 mmol/L (70 mg/dL) or lower».
+[@ctt2010] This is the **per-unit face of
+the cumulative thesis**: because successive mmol multiply (0.78×0.78≈0.6), *more and longer* both pay, which
+is what *lower for longer* means quantified. Full magnitude home: [[LDL Lowering and Cardiovascular Events]].
+Note this is *statin*-lowering — the concordant, no-off-target case Ference's proviso privileges; the MCE
+counter-cases above show why a *dietary* LDL-C change does not inherit it.
+
+**Marston 2022 — apoB beats LDL-C, directly, at scale** (UK Biobank n=389,529 + FOURIER/IMPROVE-IT
+n=40,430, plus cited Mendelian randomization). Entering the lipids *simultaneously*, «only apoB was
+associated» with MI (aHR 1.27 per SD, 1.15-1.40); non-HDL-C and TG fell to non-significant once apoB was
+held constant [@marston2022]. This upgrades this
+page's *measure apoB* claim from Ference's assertion to a large-cohort + MR demonstration. Two refinements:
+
+- **Particle NUMBER, not TYPE or CONTENT, carries the risk.** Adjusting for apoB, the TG/LDL-C ratio was
+  flat — «for a given concentration of apoB-containing lipoproteins, the relative proportions of particle
+  subpopulations may no longer be a predictor of risk». So the small-dense-vs-large-LDL distinction Astrup
+  leaned on collapses into *count the particles* — apoB — which is this page's held view, now with a direct
+  test behind it.
+- **It confirms this page's remnant-coverage ranking.** The section above inferred apoB > LDL-P >
+  LDL-C because apoB captures remnant/IDL/VLDL particles LDL-C misses. Marston states it directly:
+  «non-HDL-C in particular is the preferred surrogate for apoB, as it incorporates TG-rich lipoproteins in
+  addition to LDL» — the inference now has a source.
+
+**Not independent-E.** Ference co-authors Marston, and CTT is the RCT evidence family Ference's consensus
+already synthesizes — same research programme. These are F/refinement + primary-evidence grounding (the
+magnitude and metric the consensus asserted, now quoted from the underlying studies), *not* an independent
+convergence that would earn `[E-independent]`.
+[inferred from @ctt2010; @marston2022]
+
 ## Limits
 
-- **Single-source (one consensus statement), `confidence: medium`.** The evidence Ference *synthesizes*
-  is strong (genetic/MR/RCT triangulation), but the wiki holds one source for the framework; a second
-  independent statement or the primary MR/RCT evidence would raise it.
+- **Framework still rests on one consensus (Ference), `confidence: medium`.** CTT and Marston now supply the
+  primary magnitude and metric evidence the consensus asserted — a real strengthening — but they share the
+  consensus's research lineage (Ference co-authors Marston; CTT is its RCT family), so this is *not* the
+  independent second statement that would raise confidence. The genetic/MR/RCT triangulation Ference
+  synthesizes is strong; independent-school corroboration is still what is owed.
 - **Causal ≠ the only lever.** LDL/apoB causation does not make it the largest *absolute* lever for a
   given person — absolute benefit still scales with baseline risk
   ([[Baseline Risk and the Relative-Absolute Split]]), and the *net* of a diet or drug depends on the

@@ -2,7 +2,7 @@
 type: hub
 question: For building and keeping muscle and for supplementing a diet, what actually changes a patient-important outcome, for whom, and at what dose?
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 # Protein, Muscle, and Supplements Hub
@@ -15,6 +15,9 @@ taking. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 
 - [[Protein and Resistance Training for Muscle and Strength]] — whether protein supplementation adds to
   resistance training for muscle and strength, how much, and for whom
+- [[Dietary Protein and Mortality]] — the *mortality* half (Naghshi 2020, observational): plant protein
+  associates with lower all-cause/CVD mortality, animal protein is null, total amount does little — a
+  source-substitution decision, distinct from the muscle-quantity target
 - [[Protein Quality and the DIAAS Score]] — how protein quality is scored, and whether hitting a target
   from plant sources costs more food mass and carbohydrate than from animal sources
 - [[Sarcopenia Definition and Diagnosis]] — how age-related muscle loss is defined and diagnosed, and

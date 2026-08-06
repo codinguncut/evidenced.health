@@ -145,7 +145,10 @@ with the reduction «greatest when moving from extreme sedentariness to some phy
 most-at-the-bottom* shape on a second outcome. Caveat unchanged: the link is «likely to be bidirectional»
 (pre-clinical dementia reduces activity), and the one 5-year RCT of structured exercise found no overall
 cognition/MCI difference — so the observational RR 0.80 is a decreased-risk *association*, not a proven
-prevention effect.
+prevention effect. Where a *multidomain* bundle **including** exercise (FINGER RCT) did move a cognitive
+composite, the design cannot attribute that to the exercise component
+-> [[Multidomain Lifestyle Intervention and Cognitive Decline]]; single-domain exercise RCTs on cognition
+stay null.
 
 ## Third outcome — cancer, and the dose-shape may differ from the mortality curve
 

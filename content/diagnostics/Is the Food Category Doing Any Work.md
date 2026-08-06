@@ -2,8 +2,8 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020]
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-08-05
@@ -447,6 +447,28 @@ across the boundary while the risk is not, so whatever carries the risk, it is n
 category "saturated fat" is the wrong exposure and the sub-structure (processing) is where the signal
 lives. This aligns with [[Should Adults Reduce Red and Processed Meat]] (processed vs unprocessed is
 load-bearing) and with the trans-fat *processing* story on the SFA page.
+
+## Animal PROTEIN (nutrient) is null where animal MEAT (food) harms — the author's own Test-3 `[2026-08-05, Naghshi]`
+
+Naghshi's protein-mortality meta-analysis supplies a Test-3 instance drawn **by the authors
+themselves**, which makes the attribution unusually clean (the contrast is cross-review, not
+within-study). Animal *protein* as a nutrient is flatly null on all-cause,
+CVD, and cancer mortality (all-cause «1.00 ... 0.94 to 1.05»), yet red/processed *meat* as a food shows
+harm in other reviews. The paper reconciles the two exactly as this diagnostic predicts: «the exposure
+variable was meat as a food group, whereas our exposure variable was protein as a nutrient. Animal meat
+contains fat, sodium, iron, and B vitamins in addition to protein» — so «findings for animal meat and
+animal protein could be different.»
+[@naghshi2020, Comparison with other studies]
+
+**Two things make this a strong entry.** First, the null runs the *opposite* direction from the usual
+worry: descending from the food (*meat*) to the nutrient (*animal protein*) **removes** the signal — so
+the *aggregate* animal-protein null does not implicate the protein as the agent. (It does not clear it
+either: the animal bucket «combin[es] protein from different animal sources, including poultry, eggs, and
+dairy foods» [@naghshi2020, Comparison with other studies], so a red-meat-specific protein effect diluted to null within the mixed
+bucket cannot be ruled out.) Second, that same heterogeneity means even *within* the nutrient the average
+may describe no single food. The decision consequence is Test 3: **do not read *animal protein is null* as
+*animal-source foods are fine*** — name the food (processed meat) and its actual mechanism, not the
+nutrient. The mortality-side detail lives on [[Dietary Protein and Mortality]].
 
 ## "Organic" as a label that tracks the feed, not the certificate `[2026-07-29]`
 

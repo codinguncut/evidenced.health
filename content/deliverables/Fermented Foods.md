@@ -175,9 +175,9 @@ These gaps are the open front of the fabric's fermented-foods appraisal -> [[Fer
 
 - **The live-versus-pasteurized natural experiment is unrun.** Neither held source tests whether the
   cultures must be alive, so the central mechanism question — probiotic versus matrix versus
-  biochemistry — is open. stands in
-  for the interventional leg; a probiotic-viability / pasteurized-comparison trial is what would close
-  it.
+  biochemistry — is open. Wastyk supplied the interventional leg on surrogates, but a
+  probiotic-viability / pasteurized-comparison trial — the source that would actually close it — is
+  not held (a G-gap, no such trial yet acquired).
 - **No hard-outcome interventional evidence exists.** The one RCT held moved only surrogates and had no
   control arm; every disease-endpoint signal here is observational.
 - **The trendy ferments have essentially no human hard-outcome data** — a true insufficient-evidence

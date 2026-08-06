@@ -2,8 +2,8 @@
 type: framework
 question: For a primary-prevention adult, does a statin help — and does a zero coronary calcium score change that decision?
 aliases: [Statin Primary Prevention, Power of Zero, CAC Zero Statin, Statin CAC, USPSTF Statin, Statin Number Needed to Treat, Statin Deferral]
-authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M]
-sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015]
+authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org)]
+sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -14,8 +14,8 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-28
-updated: 2026-08-04
-self_critiqued: 2026-07-28
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
@@ -80,6 +80,26 @@ more — and CAC re-stratified them sharply:
 - The headline: «the absence of CAC reclassifies approximately one-half of candidates as not eligible for
   statin therapy», resting on the principle that «the net benefit from treatment is directly proportional
   to the absolute risk».
+
+## The premise underneath — CTT supplies the constant-relative-effect backbone `[2026-08-05]`
+
+This page's opening move — *the relative effect of a statin is roughly constant; the absolute benefit
+scales with baseline risk* — is asserted from USPSTF's composite. CTT 2010 (IPD meta-analysis, 26 trials)
+is the direct evidence for the constancy: per 1.0 mmol/L LDL-C reduction the RR is \~0.78 and «did not
+depend on the baseline LDL cholesterol concentration», holding across prior-CHD/none, diabetes, age >75,
+BP, BMI and HDL baseline-risk strata with no material heterogeneity (a nominal sex difference aside) —
+including a significant «proportional
+risk reduction of 25% (99% CI 18-31; p<0·0001) per 1·0 mmol/L reduction in LDL cholesterol in participants
+with no previous history of vascular disease» (the primary-prevention stratum this page is about).
+[@ctt2010] So the constant-relative /
+absolute-scales-with-baseline logic that drives the whole CAC-deferral argument is the cleanest route-(a)
+case the corpus holds -> [[Baseline Risk and the Relative-Absolute Split]], [[LDL Lowering and Cardiovascular Events]].
+
+**Units, kept distinct (parameter discipline).** CTT's RR \~0.78 is *per 1.0 mmol/L LDL-C reduction*;
+USPSTF's composite RR 0.72 and Nasir's assumed 0.70 are *per statin regimen* (a fixed treatment contrast,
+not per-mmol). They are complementary, not the same quantity — CTT gives the dose-scaled backbone, USPSTF
+the per-regimen effect a given statin delivers.
+[inferred from @ctt2010]
 
 ## The honesty on both sides — this is not a settled rule
 

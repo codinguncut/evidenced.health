@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015]
 cluster: dementia
 nucleus: true
 confidence: medium
@@ -12,6 +12,7 @@ updated: 2026-08-05
 self_critiqued: 2026-08-05
 relationships:
   related_to:
+    - Multidomain Lifestyle Intervention and Cognitive Decline
     - Shared Modifiable Levers Across Age-Related Diseases
     - Parkinsons Disease Modifiable Risk Factors
     - Layer 1 - Ranking Interventions for a Stratum
@@ -29,8 +30,7 @@ relationships:
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
-people worldwide in 2019, projected 153 million by 2050 [@livingston2024, 
-]); this page holds the canonical map of *which levers exist* and *when in life they act*. The
+people worldwide in 2019, projected 153 million by 2050 [@livingston2024]); this page holds the canonical map of *which levers exist* and *when in life they act*. The
 2024 Lancet Commission is a consensus triangulation (systematic reviews + new meta-analyses + Mendelian
 randomization where possible), not a single trial — grade its claims accordingly.
 
@@ -45,8 +45,7 @@ modifiable risk factors». [@livingston2024]
 
 - **PAF is not a per-person effect.** It is what *theoretically* would not occur if the whole
   population's exposure were eliminated — «this risk modification affects the population but does not
-  guarantee any individual will avoid dementia». [@livingston2024, 
-] Removing a factor does not remove that share of *one* person's risk.
+  guarantee any individual will avoid dementia». [@livingston2024] Removing a factor does not remove that share of *one* person's risk.
 - **The relative risks are borrowed from observational data and assumed causal.** The Commission «assumed
   risk factors cause dementia»; for several factors (hearing, depression, social isolation, obesity in
   late life) reverse causation over the long prodrome is explicitly a live alternative
@@ -134,10 +133,45 @@ on top of those factors would double-count.
   evidence lives in the multicomponent FINGER family, which shows only a **small** cognitive-composite
   benefit and a null on dementia *incidence* (see Scope guard). A cohort association of this size has not
   been reproduced as a randomized incidence effect.
+- **Umbrella credibility grade + the design discordance (Dinu 2018, F-refinement).** Dinu's umbrella
+  grades the Med-diet -> neurodegenerative-disease association *Convincing* (Sofi RR 0.87), Alzheimer's
+  *Convincing* (Wu RR 0.60) — «convincing evidence in favour of a positive relationship» — which raises
+  the *certainty language* on the cohort signal above. But it also bounds it two ways that reinforce the
+  confound story: (i) «the meta-analysis of cross-sectional studies provided no evidence» — the signal is
+  cohort-only; and (ii) **dementia is internally discordant** — Cao 2015 grades it Convincing (RR 0.69)
+  while Wu 2017 grades the same outcome *No evidence* (RR 1.07). So "convincing" here is design- and
+  MA-selection-dependent, consistent with a `moderate`-at-most read.
+  [@dinu2018, Table 1]
 
 The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PREDIMED, stroke-driven, at
 high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
 mediation reading: the pattern's best-evidenced effect is on the vascular channel that feeds AD risk.
+
+## The RCT leg — FINGER bounds the observational PAF (F-refinement, 2026-08-05)
+
+The whole map above is **observational** — modelled PAFs on relative risks "assumed causal." The one
+landmark *interventional* test is **FINGER** (Ngandu 2015), a 2-year double-blind multidomain RCT (n=1260,
+at-risk CAIDE >=6 elderly) -> [[Multidomain Lifestyle Intervention and Cognitive Decline]]. It confirms
+the **direction** (acting on the levers *as a bundle* improves cognition) at RCT grade, but the two are
+**not the same quantity**, so it *bounds and de-risks* the PAF rather than validating or refuting it:
+
+| Parameter | Livingston (observational) | FINGER / Ngandu (RCT) | Same quantity? |
+|---|---|---|---|
+| Design | consensus of observational SRs/MAs + MR | double-blind multidomain RCT, n=1260 | NO |
+| Exposure unit | 14 *separable* per-factor risk factors | one **non-decomposable** 4-component bundle | NO |
+| Endpoint | dementia **incidence** (modelled PAF **45.3%**) | NTB cognitive **composite** Z-score (surrogate) | NO |
+| Magnitude | \~45% population-attributable | between-group **0.022/yr, Cohen's d 0.13**; incidence NOT measured | NO |
+
+[@ngandu2015, Livingston - Dementia Prevention 2024]
+
+**What the RCT does and does not buy the PAF [inferred from @ngandu2015; @livingston2024]:** (i) it raises confidence that the *aggregate* causal
+assumption is sound — intervening on the bundle really moves cognition; (ii) but it **cannot validate the
+per-factor decomposition** the PAF table depends on (FINGER is bundle-only, author-flagged as needing
+component-level study); and (iii) it leaves the PAF's *own* endpoint — dementia incidence — **open** (the
+significant effect is on a cognitive surrogate, and the effect is small, d=0.13). So the 45.3% figure is
+neither confirmed nor overturned by FINGER; the trial de-risks the direction while the decomposition and
+the incidence claim stay unproven -> the earlier secondhand "FINGER-family" reading below is the
+meta-analytic bound.
 
 ## Scope guard
 
@@ -160,6 +194,13 @@ prevention framework's scope.
   still reflects the Commission's consensus-grade backing; the diet association is explicitly the weaker,
   `low`-to-`moderate` leg. Where a held page already estimates an exposure (smoking, LDL, BP, activity,
   alcohol), the dementia bullet is added *there* rather than re-litigated here.
+- **RCT leg added (FINGER, F-refinement 2026-08-05).** The primary FINGER trial was folded in via a
+  parameter table whose "same quantity?" column is **NO on every row** — so it is filed as a *bounding /
+  refinement* of the observational PAF, **not** a `[[tension]]` (the not-joined guard: an RCT
+  between-group difference on a cognitive composite is not the same quantity as an observational PAF on
+  dementia incidence). No independence (E) is claimed. The reading is deliberately symmetric — FINGER
+  neither confirms nor overturns the 45.3% figure; it de-risks the direction while the per-factor
+  decomposition and the incidence endpoint stay unproven.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

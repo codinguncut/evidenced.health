@@ -29,6 +29,10 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 
 ## Lipids, drugs, and dietary patterns for CV events
 
+- [[LDL Lowering and Cardiovascular Events]] — how much does lowering LDL/apoB buy per unit (CTT: RR 0.78
+  events + RR 0.90 mortality per mmol, no threshold), and which lipid number to target (Marston: apoB)?
+- [[LDL ApoB and Cumulative Exposure]] — the causal model beneath the lipid axis (why LDL/apoB causes
+  disease, why the dose is cumulative, why measure apoB)
 - [[Statins for Primary Prevention and the Power of Zero CAC]] — for a primary-prevention adult, does a
   statin help, and does a zero coronary-calcium score change that decision?
 - [[Mediterranean Diet and Cardiovascular Events]] — whether a whole dietary pattern (not a single
@@ -54,6 +58,8 @@ Parkinson's, by contrast, has *few* credible levers and mostly critically-low ev
 
 - [[Dementia Prevention and Modifiable Risk Factors]] — the 14-factor life-course framework and the
   \~45% population-attributable-fraction headline, with the modelled-attribution caveats (nucleus)
+- [[Multidomain Lifestyle Intervention and Cognitive Decline]] — the FINGER RCT: does intervening on the
+  levers as a bundle actually move cognition? Yes, but small (d=0.13), on a surrogate, non-decomposable
 - [[Hearing Loss and Dementia]] — a dementia-specific, correctable lever: does treating hearing loss with
   hearing aids lower dementia risk, and for whom is the effect largest?
 - [[Parkinsons Disease Modifiable Risk Factors]] — Chen 2021 umbrella review (46 SRs, 39 critically-low

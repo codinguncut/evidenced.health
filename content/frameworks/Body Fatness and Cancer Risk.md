@@ -41,8 +41,7 @@ cardiometabolic cluster -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
 **Risk rises inside the "healthy" range.** «For some cancers the increase in risk is seen with
 increasing body fatness even within the so-called ‘healthy’ range. Nevertheless, most benefit is to be
-gained by avoiding overweight and obesity.» [@wcrf2018ter, 
-, §5.1] So the exposure is graded, not a threshold at BMI 25 — but the decision-relevant mass
+gained by avoiding overweight and obesity.» [@wcrf2018ter, §5.1] So the exposure is graded, not a threshold at BMI 25 — but the decision-relevant mass
 of benefit sits in avoiding overweight/obesity. Body-fatness grades are marked by BMI (± waist
 circumference / waist-hip ratio) [matrix asset p3, FN62-64].
 

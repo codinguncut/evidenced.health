@@ -13,8 +13,9 @@ relationships:
     - Physical Activity Dose and Mortality
     - Confidence in Science Without a Replication Crisis
     - Linoleic Acid and Cardiovascular Disease
+    - The Observational-Trial Discordance
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 

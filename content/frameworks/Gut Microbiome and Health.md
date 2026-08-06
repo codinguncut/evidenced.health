@@ -2,8 +2,8 @@
 type: framework
 question: Which gut-microbiome interventions (diet/fibre, probiotics by strain, prebiotics, FMT) change a patient-important outcome — and how do you separate a real effect from a composition-shift that reaches no outcome?
 aliases: [Gut Microbiome, Microbiome, Gut Microbiota, Probiotics, Prebiotics, Dysbiosis, Fecal Microbiota Transplant, FMT, Gut Health]
-authors: [Valdes, Ana M; Walter, Jens; Segal, Eran; Spector, Tim D; World Gastroenterology Organisation (org); Wastyk, Hannah C; Sonnenburg, Justin L]
-sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021]
+authors: [Valdes, Ana M; Walter, Jens; Segal, Eran; Spector, Tim D; World Gastroenterology Organisation (org); Wastyk, Hannah C; Sonnenburg, Justin L; van Nood, Els; Keller, Josbert J]
+sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, van Nood - Donor Feces Recurrent C difficile 2013]
 cluster: cardiometabolic-exposures
 nucleus: true
 confidence: medium
@@ -18,16 +18,18 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
 updated: 2026-08-05
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-05
 ---
 
-**The fabric's microbiome nucleus.** Two sources anchor it, and they are **not** the same tier — read
-each accordingly: **WGO 2023, a Global Guideline (gold),** carries the probiotics/prebiotics evidence
-*by indication*; **Valdes 2018, a BMJ narrative review / evidence-map (moderate tier),** supplies the
-causation problem and the field overview. Valdes is the *weaker* witness — a non-systematic overview,
-not a pooled or graded synthesis — so its role here is deliberately confined to a **methodological
-caution** (composition-shift is not an outcome) and to widely-established clinical facts (FMT for
-recurrent *C. difficile*), never to carry a contested magnitude. The through-line: **the microbiome is
+**The fabric's microbiome nucleus.** The anchors are **not** the same tier — read each accordingly:
+**WGO 2023, a Global Guideline (gold),** carries the probiotics/prebiotics evidence *by indication*;
+**van Nood 2013, the landmark FMT-for-recurrent-*C. difficile* RCT (high),** carries the one clean
+causal win and its magnitude; **Valdes 2018, a BMJ narrative review / evidence-map (moderate tier),**
+supplies the causation problem and the field overview. Valdes is the *weaker* witness — a non-systematic
+overview, not a pooled or graded synthesis — so its role here is deliberately confined to a
+**methodological caution** (composition-shift is not an outcome) and to the *field bound* on FMT (not yet
+for other pathologies), never to carry the FMT-CDI magnitude, which now rests on the held RCT. The
+through-line: **the microbiome is
 genuinely modifiable and matters in specific places, but "it altered the microbiome" is a surrogate, and
 most popular interventions are either strain-and-indication-specific or not-yet-evidenced.**
 
@@ -107,13 +109,35 @@ dose* triples (WGO Tables 8-9). Where the evidence is real:
 
 ## FMT: the field's strongest win, and only for one thing so far
 
-Faecal microbiota transplant is the clearest demonstration that the microbiome is causal in humans: «This
-procedure is effective in cases of severe drug refractory Clostridium difficile infection and is now
-routinely used for this purpose around the world. For other pathologies, faecal transplants are not yet
-clinical practice but have been explored.»
+Faecal microbiota transplant is the clearest demonstration that the microbiome is causal in humans — and
+the fabric now holds the landmark RCT, not a borrowed summary. In the **van Nood 2013 open-label RCT**
+(recurrent CDI, mainly elderly), donor-feces infusion cured **13/16 (81%) on the first infusion and 15/16
+(94%) overall**, versus **4/13 (31%)** for standard 14-day vancomycin and **3/13 (23%)** for vancomycin +
+bowel lavage (P<0.001 for both *overall-cure* comparisons; the first-infusion comparisons were P=0.008 and
+P=0.003). [@vannood2013]
+That is a **\~63 percentage-point absolute gain (NNT \~2)**, cure rate ratio 3.05-4.05 — so large that
+«The study was stopped after an interim analysis» under the Haybittle-Peto rule.
+[@vannood2013] The huge effect on a tiny
+early-stopped n (99.9% CI upper bounds \~290) means the *magnitude* carries the usual early-stopping upward
+bias, but the *direction* is not in doubt.
+[inferred from @vannood2013]
+
+**Why this is the surrogate done right, not a bare composition claim:** the same trial measured the
+microbiota shift AND followed it to the clinical outcome — Simpson's diversity rose from \~57 to \~179 (into
+the donor range) as patients were cured, and «The mechanism underlying the efficacy of donor-feces infusion
+is probably the reestablishment of the normal microbiota as a host defense against C. difficile.»
+[@vannood2013]
+
+**The scope boundary is the decision-relevant part.** CDI is the case where the pathology *is* the
+dysbiosis — antibiotics collapse diversity and FMT directly restores it — which is exactly why it is both
+the cleanest causal win and a poor template for generalization. It is **not** evidence that manipulating the
+microbiome helps general health, weight, or metabolic disease, where no established dysbiosis-as-cause
+exists for a transplant to reverse. Valdes states the field bound directly: «For other pathologies, faecal
+transplants are not yet clinical practice but have been explored.»
 [@valdes2018] So FMT-for-recurrent-*C. difficile*
-is the anchor of *what real microbiome evidence looks like*; the speculative uses (obesity, mood, metabolic
-disease) are explicitly *not yet*.
+is at once the anchor of *what real microbiome evidence looks like* and a warning against reading the one
+clean win as a general microbiome mandate.
+[inferred from @vannood2013; @valdes2018]
 
 ## Decision relevance
 
@@ -122,7 +146,8 @@ disease) are explicitly *not yet*.
 - **Probiotics: match a specific strain to a specific indication, or don't bother.** They are a real tool
   for AAD, *C. difficile* prevention, NEC in preterm infants, pouchitis, acute infectious diarrhoea, and
   some IBS — at named strains and doses. As a general "gut health" tonic they are unsupported.
-- **FMT is medicine for recurrent *C. difficile*, not a wellness intervention.**
+- **FMT is medicine for recurrent *C. difficile* (RCT-backed, NNT \~2), not a wellness intervention** —
+  the one clean microbiome win, and bounded to the indication where the pathology is itself the dysbiosis.
 - **Rank the topic LOW relative to its attention.** The microbiome is discussed far out of proportion to
   its established, outcome-level effect sizes — the telos's *attention-is-an-anti-signal* rule
   ([[Layer 1 - Ranking Interventions for a Stratum]]). The real levers here are the ones already ranked
@@ -133,18 +158,23 @@ disease) are explicitly *not yet*.
 ## Certainty and gaps
 
 - **`confidence: medium`** — the grade rests on **WGO (gold guideline)** for the probiotics-by-indication
-  claims (citing RCT/meta-analytic evidence) plus FMT-CDI being routine clinical practice; **it is NOT
-  carried by Valdes** (a moderate-tier BMJ narrative review), whose role is confined to the surrogate
-  caution and field overview. The general microbiome-health story is mostly observational (Valdes's own
-  caution), and the guideline aggregates primary evidence the fabric has not individually appraised — so
-  `medium`, not higher, and it survives stripping the Valdes leg.
-- **Independence note:** Valdes (BMJ review) and WGO (guideline) agree on the strain-specificity and the
-  FMT-CDI win, but both partly rest on the same primary literature — so this is *consistent gold-standard
-  corroboration*, not strict `[E-independent]` backing.
-- **Gaps (G):** the landmark primary sources are unheld and paywalled — van Nood 2013 (the FMT-CDI RCT), a
-  Cochrane FMT-CDI SR, the AGA probiotics guideline, and Camilleri 2019 (the intestinal-permeability /
-  "leaky gut" review that would let the fabric sort real permeability from the syndrome). `AWAITS` those.
-  Direction-of-causation for dysbiosis-disease associations is the field's open confound.
+  claims (citing RCT/meta-analytic evidence) plus the **van Nood 2013 RCT (high)** for the FMT-CDI leg,
+  which this ingest upgraded from a borrowed narrative-review assertion to the held primary trial; **it is
+  NOT carried by Valdes** (a moderate-tier BMJ narrative review), whose role is confined to the surrogate
+  caution and the field bound. The general microbiome-health story remains mostly observational (Valdes's
+  own caution), and the probiotics guideline aggregates primary evidence the fabric has not individually
+  appraised — so `medium`, not higher, and it survives stripping the Valdes leg.
+- **Independence note:** Valdes (BMJ review) and WGO (guideline) agree on strain-specificity and the FMT-CDI
+  win, but both partly rest on the same primary literature — *consistent corroboration*, not strict
+  `[E-independent]` backing. van Nood 2013 is the *primary* source under Valdes's FMT summary (a narrative
+  review of trials like it), so it is a **refinement (F)** replacing the secondhand assertion, not
+  independent (E) backing of it.
+- **Gaps (G):** the FMT-CDI leg is now anchored on the held **van Nood 2013 RCT** — this ingest closed that
+  `AWAITS`. Still unheld: a Cochrane FMT-CDI SR (would pool the effect the single early-stopped trial
+  over-estimates with a wide CI), the AGA probiotics guideline, and Camilleri 2019 (the
+  intestinal-permeability / "leaky gut" review that would let the fabric sort real permeability from the
+  syndrome). `AWAITS` those. Direction-of-causation for dysbiosis-disease associations is the field's open
+  confound.
 
 
 
@@ -176,6 +206,21 @@ disease) are explicitly *not yet*.
 - **No new source-attributed claim.** This pass changed the wiki's own tier characterization, not any
   `[EXTRACTED]` quote or attribution; the Valdes/WGO quotes and their loci are untouched.
 
+
+## Self-critique `[re-run 2026-08-05, van Nood FMT-RCT rewove, before commit]`
+
+- **FMT leg de-borrowed.** The FMT-CDI magnitude now rests on the held **van Nood 2013 RCT**, not on
+  Valdes's narrative-review assertion; blind cold-audit returned 10/10 SOUND on the numbers and both
+  quotes. The early-stopping upward bias is stated (not buried), and the \~63pp/NNT\~2 figures are marked
+ arithmetic, not attributed to the paper.
+- **F, not E.** van Nood is the *primary* source under Valdes's FMT summary — a refinement replacing a
+  secondhand claim, not independent backing. No `[E-independent]` claimed; the Independence note says so.
+- **Scope boundary sharpened, not overclaimed.** The one clean win is explicitly bounded to CDI (pathology
+  *is* the dysbiosis) and flagged as a *non*-template for general-health/metabolic FMT — reinforcing, not
+  contradicting, the page's surrogate-vs-outcome thesis (the trial measured diversity AND cure together).
+- **Confidence held at `medium`.** A high-tier RCT strengthened one leg, but the general microbiome-health
+  story stays mostly observational; the grade survives stripping the van Nood/WGO legs (Valdes cannot
+  carry it).
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 

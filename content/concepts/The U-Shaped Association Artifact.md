@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018]
 cluster: evidence-appraisal
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Alcohol and Mortality and Vascular Disease
@@ -17,6 +17,9 @@ relationships:
     - Non-Sugar Sweeteners
     - P-Hacking and Researcher Degrees of Freedom
     - Sleep and Metabolic Health
+    - BMI and All-Cause Mortality
+    - Dietary Protein and Mortality
+    - Low-Carbohydrate vs Balanced-Carbohydrate Diets
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -120,6 +123,43 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   is **unadjudicated**: no referent-correction or genetic check isolates it from the income confound.
   The decision rule applies unchanged — the protective/harmful arm is not believed until it survives a
   confounder-immune check -> [[Saturated Fat Intake and Replacement]].
+- **Carbohydrate -> mortality — a BOTH-arms-harmful U whose arm dissolves into a SUBSTITUTION question
+  (a big-rock-adjacent macronutrient instance) `[2026-08-05, Seidelmann]`.** Seidelmann's ARIC cohort
+  (n=15 428, 25-yr follow-up) + 8-cohort MA (432 179) finds a **U-shaped** carbohydrate->all-cause-
+  mortality curve, **nadir 50-55%E**, both arms elevated: «both low carbohydrate consumption (<40%) and
+  high carbohydrate consumption (>70%) conferred greater mortality risk than did moderate intake ...
+  (pooled hazard ratio 1·20, 95% CI 1·09-1·32 for low carbohydrate consumption; 1·23, 1·11-1·36 for high
+  carbohydrate consumption)». [@seidelmann2018, 
+  Findings] Unlike alcohol/BMI this is **not a protective-lower-arm** case — there is nothing to defend
+  as a benefit; the diagnostic interest is in the LOW arm's *cause*.
+  - **The distinctive adjudication route — a substitution DECOMPOSITION, not MR.** Seidelmann's own
+    analysis dissolves the low-carb arm by decomposing what *replaces* the carbohydrate: «mortality
+    increased when carbohydrates were exchanged for animal-derived fat or protein (1·18, 1·08-1·29) and
+    mortality decreased when the substitutions were plant-based (0·82, 0·78-0·87)». [@seidelmann2018, Findings] The arm's sign **flips** with the
+    replacement source — so «low carbohydrate» is not a well-defined exposure, and the harm reads as a
+    *replacement-food* signal («Low carbohydrate diets have tended to result in lower intake of
+    vegetables, fruits, and grains and increased intakes of protein from animal sources ... which has
+    been associated with higher mortality»). [@seidelmann2018, Discussion] The low-carb quantile is also confounded-by-lifestyle (more smoking 33% vs 22%,
+    more diabetes, higher BMI) [@seidelmann2018, 
+    Table 1] — the artifact recipe's confounding leg.
+  - **What it ADDS to the concept — the exposure can be under-specified.** Alcohol/coffee/BMI adjudicate
+    a *confounder* on a fixed exposure; here the adjudication reveals the *exposure itself* is a composite
+    («low carb» = low-carb-plus-whatever-replaces-it), and the composite's mortality sign is set by the
+    substitution, not the carbohydrate. This is the telos's *frame-as-substitutions* rule meeting the
+    U-artifact: **decompose the arm into its substitution before believing the curve.**
+  - **Adjudication strength — WEAK checks only, so the causal reading stays not-established.** Seidelmann
+    ran a reverse-causation sensitivity analysis («individuals with cardio-vascular disease, diabetes, or
+    cancer at baseline were excluded», findings unchanged) and a time-varying diet update — the *weak*
+    checks the alcohol artifact also survived. [@seidelmann2018, Discussion] **No MR / genetic instrument.** So strong-but-not-decisive, like coffee/BMI.
+  - **The PURE reconciliation — two cohorts trace complementary arms of one U.** ARIC (mean 49%E)
+    populates the **left** arm, PURE/Dehghan (mean 61%E, Asian/low-income; the bullet above) the **right**;
+    overlaid on one reference, «the associations between primarily high carbohydrate intake and mortality
+    in the PURE study still fell within the confidence intervals of those observed in ARIC». [@seidelmann2018, Results] The two headline-clashing
+    literatures are the two arms of a single curve — and the right arm is the same refined-carb/poverty
+    signal Dehghan's bullet flags, not carbohydrate per se. Not independent-E of Dehghan (both
+    observational FFQ cohorts, PURE shared between them) -> **type-F** worked-case extension, reconciling
+    with the Dehghan/PURE bullet above -> [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]],
+    [[Dietary Protein and Mortality]].
 - **MCE cholesterol-death — the machinery turned on a CONTRARIAN headline (symmetric standards)
   `[2026-08-04, Ramsden]`.** Not a U-curve but the frailty/reverse-causation machinery in a within-RCT
   association: in the recovered Minnesota Coronary Experiment, each 30 mg/dL serum-cholesterol *decrease*
@@ -230,6 +270,29 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     exposures exhibiting the one diagnostic. It is the **second route-1 referent-correction** worked on a
     dose-mortality curve (after alcohol); sleep, by contrast, was adjudicated by mechanism-presence and
     heterogeneity tells, not by a referent-correction.
+- **BMI -> all-cause mortality — the cleanest DECOMPOSABLE confounder-strip cascade (a big-rock exposure)
+  `[2026-08-05, Global BMI]`.** The 10.6M-participant IPD-MA is built as a *stepwise* bias-removal cascade,
+  so you can watch the artifact form. The **overweight arm (BMI 25-30)** — the *obesity paradox* — walks
+  from apparent protection to clear harm as each bias is stripped: raw 0.96 (0.95-0.97) -> +adjust
+  smoking/exclude baseline disease 0.99 -> +exclude first 5 y follow-up 1.03 -> +restrict to never-smokers
+  1.11 (1.10-1.11). [@globalbmi2016, eTable 5] The cleanest
+  single confirmation isolates one confounder: holding the 5-y exclusion + no-baseline-disease constant so
+  *only smoking status differs*, overweight is **1.07 (1.06-1.07) in never-smokers vs 0.94 (0.94-0.95) in
+  ex/current smokers** (between-stratum heterogeneity significant for every BMI group; overweight P=0.0003,
+  obesity I P<0.0001). [@globalbmi2016, eTable 6]
+  Smoking is the confounder manufacturing the protection -> [[BMI and All-Cause Mortality]].
+  - **What it adds to the concept.** (i) A **big-rock adiposity** instance, not another peripheral exposure.
+    (ii) Direction: like alcohol, the confounder manufactured a spurious *benefit* (overweight protection),
+    the opposite of the coffee-cancer *harm* — reinforcing *note which direction the confounder pushes*.
+    (iii) **A genuinely mixed artifact route** — the concept's self-critique flagged that alcohol+sleep both
+    rest on reverse causation alone; here the arm is bent by **smoking confounding AND reverse causation AND
+    prevalent disease**, and the cascade *decomposes* their marginal contributions separately (smoking
+    adjustment 0.96->0.99; +early-death exclusion ->1.03; +never-smoker restriction ->1.11). (iv) The
+    *adjudicate-the-arm* rule again: the **overweight arm is entirely artifact** (0.96->1.11), while the
+    **underweight arm is only partly** so — 1.81 (raw) -> 1.47 (primary) but stays elevated, residual real
+    harm. Adjudicated by confounder-removal *only* (no MR), so like coffee it is strong-but-not-decisive.
+    Not independent-E of alcohol/coffee (a different exposure sharing the one diagnostic, not independent
+    backing of one claim) -> **type-F** worked-case extension.
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
   ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [@jha2013]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking
@@ -278,6 +341,15 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   *cancer* sign-flip (Grosso-attributed), the all-cause/CVD linearization is a flagged inference (Grosso
   reports no smoker/non-smoker difference there), and the whole thing is *partial* (referent-correction
   only, MR null), so the coffee lower arm is left not-established rather than over-sold as adjudicated.
+- **Carbohydrate added a distinct refinement `[2026-08-06, Seidelmann]`.** This is the first instance
+  where the adjudication reveals the *exposure* (not just a confounder) is under-specified: «low carb»
+  mortality flips sign with the replacement source (animal 1.18 vs plant 0.82), so the arm decomposes
+  into a substitution rather than dissolving under a confounder-strip. It is NOT a protective-lower-arm
+  case (both arms harmful), so it stretches the concept from "adjudicate the protective arm" toward
+  "decompose the exposure before believing the curve." Honestly scoped: weak checks only (no MR), so the
+  causal reading stays not-established; and it reconciles with — not independently backs — the Dehghan/PURE
+  bullet (shared observational-FFQ-cohort base, PURE shared between them), so type-F, not E.
+
 - **Coherence, not validity** (R1): the concept says when a protective arm is *unwarranted*, not that
   the exposure is harmful; it is a rule about evidence, not about the world.
 

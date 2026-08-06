@@ -81,8 +81,7 @@ hormone-binding globulin (SHBG): 41 studies; TT and FT measured in 1753 and 752 
   CI (−0.33 to 0.32) does *not* exclude a small effect in either direction (n=752 — an imprecise
   estimate, not a tight null). E1/E2 rest on smaller samples (239/1000). The author's sweeping summary
   «neither soy protein nor isoflavone exposure affects TT, FT, E2 or E1 levels in men» is best read as
-  carried by the TT endpoint [@reed2021, 
-].
+  carried by the TT endpoint [@reed2021].
 
 **This is a null, not a gap — most firmly for testosterone.** Apply the expectancy test: if soy
 lowered *testosterone*, a 41-study MA measuring TT in 1753 men, powered to detect it, would have. It

@@ -223,8 +223,7 @@ RCT harm into an action. [inferred from @wcrf2018ter]
 **One genuinely new item — a supplement that helps at one site and may harm at others.** WCRF grades
 calcium supplements (>200 mg/day) a **probable protector against colorectal cancer**, but «some trials
 for other cancer sites have shown potential for unexpected adverse effects».
-[@wcrf2018ter, §5.1 Do not use supplements; matrix
-asset p3, FN52] This is the *net-effect-not-the-intended-effect* rule in one supplement: a real
+[@wcrf2018ter, §5.1 Do not use supplements; matrix asset p3, FN52] This is the *net-effect-not-the-intended-effect* rule in one supplement: a real
 site-specific benefit does not license the supplement, because the whole-body ledger (other sites, plus
 the general-population nulls above) is what the recommendation weighs. WCRF's overall stance matches this
 page's core: «for most people ... consumption of the right food and drink is more likely to protect

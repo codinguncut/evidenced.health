@@ -2,11 +2,12 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015]
 cluster: evidence-appraisal
 relationships:
   related_to:
+    - Multidomain Lifestyle Intervention and Cognitive Decline
     - Rating Outcome Importance
     - Certainty of Evidence vs Strength of Recommendation
     - Non-Sugar Sweeteners
@@ -16,8 +17,8 @@ relationships:
     - Stress Management and Cardiometabolic Health
     - Sarcopenia Definition and Diagnosis
 created: 2026-07-25
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-05
+self_critiqued: 2026-08-05
 ---
 
 ## Why it matters
@@ -137,6 +138,16 @@ cases: not all surrogates are equal, and this one has earned target status. (The
 the transmission holds only where the LDL-C drop reflects a real particle-number drop and carries no
 off-target harm.)
 
+**And the transmission is quantified, not just asserted (CTT 2010).** The strongest form of *the surrogate
+moved AND the patient-important outcome followed*: in the IPD meta-analysis of 26 statin RCTs, a 1.0 mmol/L
+LDL-C reduction cut major vascular events (RR 0.78) **and all-cause mortality** — «all-cause mortality was
+reduced by 10% per 1·0 mmol/L LDL reduction (RR 0·90, 95% CI 0·87-0·93)»
+[@ctt2010]. A surrogate reaching
+all-cause death in randomised evidence is the rare validated case -> [[LDL Lowering and Cardiovascular Events]].
+**But the validation is route-specific:** it is *statin* (drug) lowering. The same marker lowered by *diet*
+did **not** transmit (Ramsden MCE/Sydney, below) — so even a well-validated surrogate must be re-checked for
+the agent actually used.
+
 
 
 ## Applied — WHO downgrades strength because the evidence is a surrogate
@@ -212,6 +223,23 @@ reading the surrogate *as* the outcome — the LA outcome evidence stands on its
 footing. The disciplined habit (ask which outcome carried the certainty; do not let the marker stand in)
 is the same whether the two agree or diverge.
 
+
+## Worked instance — the surrogate moved, the outcome unmeasured (FINGER, 2026-08-05)
+
+A clear illustration of the trap in an RCT (not just in guidance): **FINGER** (Ngandu 2015) is a
+2-year multidomain-lifestyle RCT whose **primary endpoint is a cognitive-test composite** (NTB Z-score),
+a **surrogate for dementia**. The composite moved significantly (between-group 0.022/yr, p=0.030), yet a
+7-year extended follow-up is (only) planned to assess intervention effects on **incidence** of dementia
+and Alzheimer's disease — i.e. the **patient-important outcome was not measured** here.
+[@ngandu2015] -> [[Multidomain Lifestyle Intervention and Cognitive Decline]]
+
+**Two disciplines this instance enforces.** (i) A significant *surrogate* result is **not** a demonstrated
+outcome effect — the trial itself keeps them apart, reading its own result as public-health significance
+that is not easily translated into clinical or personal significance.
+[@ngandu2015] (ii) Whether a 2-year cognitive-composite change is a **validated** surrogate for dementia
+incidence is the open transmission question this page centres — legitimacy needs the causal link to the
+outcome to be *evidenced*, and here it is exactly what the follow-up is meant to test, not assumed.
+[inferred from @ngandu2015]
 
 ## Limits
 

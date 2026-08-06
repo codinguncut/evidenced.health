@@ -14,8 +14,10 @@ relationships:
     - Surrogate Outcomes
     - Protein Quality and the DIAAS Score
     - Testosterone Adiposity and Muscle
+    - The Estimate-to-Action Gap
+    - Dietary Protein and Mortality
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-05
 self_critiqued: 2026-08-01
 ---
 
@@ -89,6 +91,13 @@ with living longer (associational)", with protein a small lever on the first hal
 mass/strength do matter directly for **function and sarcopenia**, which are on the outcome menu — so the
 surrogate is not worthless, it is just not the mortality endpoint.
 
+- **The mortality endpoint IS held now, but for a different decision — protein *source*, not the muscle
+  *amount*.** [[Dietary Protein and Mortality]] (Naghshi 2020, observational) finds plant-protein intake
+  associates with lower all-cause/CVD mortality while animal protein is null and *total* amount does
+  little. That is a **substitution** decision (shift sources plant-ward), orthogonal to this page's
+  \~1.6 g/kg *quantity* decision — you satisfy both by reaching the amount and biasing the sources. The
+  two protein questions are distinct, not two facets of one.
+
 - **Among the two surrogates, strength beats mass — so read this page's strength effect (+2.49 kg 1RM) as
   the more outcome-relevant one.** The sarcopenia case definition demotes muscle *mass* precisely because
   «strength is better than mass in predicting adverse outcomes»
@@ -115,6 +124,18 @@ held — this is an evidence-weighting judgment, not a trial result.)
 - **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — that is where the
   muscle-building benefit plateaus; more is not better for lean mass. Most people who already eat \~1.4
   g/kg are close, so the move is topping up, not loading.
+  - **Treat 1.6 as a REGION, not a point, and for a hypertrophy objective bias UP (\~1.8-2.2 g/kg/day).**
+    The break-point is 1.62 g/kg/day with a *wide* 95% CI of 1.03-2.20, so *"1.6"* is a central estimate,
+    not a threshold — reading it as a precise target is false precision. The direction of the bias follows
+    *bias away from the costly tail* -> [[The Estimate-to-Action Gap]]: for someone whose objective is
+    muscle, the plateau's location is uncertain and *undershoot forfeits the objective* (the costly tail
+    is on the LOW side), while overshoot is low-harm for healthy kidneys — so aim the upper end of the CI
+    plus a margin. The up-bias has a ceiling (\~2.0-2.2 is well-supported; beyond it the evidence thins and
+    the practical costs of displacement, satiety and expense rise), and it shifts *higher* in an energy
+    deficit or older age (to protect lean mass). The one stratum flip is **pre-existing renal disease**,
+    where high protein is a contraindication, not a cheap overshoot. — the CI is Morton's
+    (extracted above); the region-not-point reading and the directional bias are the wiki's, via
+    [[The Estimate-to-Action Gap]].
   - **The target is protein *quantity*, and it silently assumes quality.** Morton's trials were mostly
     high-quality supplemental protein (whey). Hitting \~1.6 g/kg from low-DIAAS plant sources (peas 64,
     wheat 40 vs milk 122) delivers fewer digestible indispensable amino acids per gram, so it needs more  [@fao2013]

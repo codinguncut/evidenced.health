@@ -3,11 +3,11 @@ type: deliverable
 title: "What's Up With the Microbiome?"
 question: Which gut-microbiome claims and interventions change a patient-important outcome, which are mechanistically plausible but unproven, and which are effectively unfalsifiable?
 aliases: [Microbiome, Gut Health, Probiotics Prebiotics FMT, Leaky Gut, Candida Diet]
-authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa]
-sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
+authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa; van Nood, Els; Keller, Josbert J]
+sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013]
 confidence: medium
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 The gut microbiome is invoked for almost everything: immunity, mood, weight, autoimmune disease,
@@ -42,8 +42,9 @@ anyone can feel.
   quality) that were already ranked without the word *microbiome* attached
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
-Confidence is **medium**: the probiotics-by-indication and FMT-for-*C. difficile* claims rest on a
-gold-standard guideline and routine clinical practice, but the broad *microbiome-and-health* story is
+Confidence is **medium**: the probiotics-by-indication claims rest on a gold-standard guideline and the
+FMT-for-*C. difficile* claim now rests on a held landmark RCT (van Nood 2013), but the broad
+*microbiome-and-health* story is
 mostly observational, and the field's central confound — which way the causal arrow points — is
 usually unresolved.
 
@@ -143,15 +144,35 @@ unevidenced increment.
 ## FMT: the field's strongest win, and only for one thing so far
 
 Faecal microbiota transplant is a clinical proof that the microbiome is *causal* in humans — you can
-transfer a phenotype by transferring bacteria. Valdes: «This procedure is effective in cases of severe
-drug refractory *Clostridium difficile* infection and is now routinely used for this purpose around the
-world. For other pathologies, faecal transplants are not yet clinical practice but have been explored.»
-[@valdes2018]
+transfer a phenotype by transferring bacteria — and the wiki now holds the landmark trial rather than a
+borrowed summary. In the van Nood 2013 open-label RCT (recurrent CDI, mostly elderly), a donor-feces
+infusion resolved the infection in **13/16 (81%) after the first infusion and 15/16 (94%) overall**,
+versus **4/13 (31%)** for a standard 14-day vancomycin course and **3/13 (23%)** for vancomycin plus
+bowel lavage.
+[@vannood2013]
 
-So FMT-for-recurrent-*C. difficile* is the anchor of what real microbiome evidence looks like: a
-defined intervention with a large, replicated effect on a hard outcome. The speculative uses — obesity,
-mood, metabolic disease — are explicitly *not yet*. FMT is medicine for one indication, not a wellness
-intervention.
+That is roughly a 63
+percentage-point absolute gain — a number-needed-to-treat of about 2 — and the effect was so large that
+«The study was stopped after an interim analysis» once a pre-set efficacy threshold was crossed.
+[@vannood2013] Because the trial
+was stopped early on a tiny sample, the *magnitude* carries the usual upward bias, but the *direction*
+is not in doubt.
+
+And it is the surrogate done right: the same trial measured the composition shift AND followed it to the
+cure, with microbial diversity restored toward the healthy-donor range as patients recovered — not a
+bacterial census left hanging.
+[@vannood2013]
+
+**The scope boundary is the decision-relevant part.** CDI is the one case where the pathology *is* the
+dysbiosis: antibiotics collapse gut diversity, *C. difficile* fills the vacuum, and FMT works by
+directly refilling it — «the reestablishment of the normal microbiota as a host defense against C.
+difficile».
+[@vannood2013] That is *exactly why the win
+does not transport*: for general health, weight, or mood there is no established dysbiosis-as-cause for a
+transplant to reverse. Valdes marks the field bound directly: «For other pathologies, faecal transplants
+are not yet clinical practice but have been explored.»
+[@valdes2018] So the one clean microbiome win
+is medicine for one indication — not evidence that manipulating the microbiome improves general health.
 
 ## Antibiotics: a real perturbation, but the outcome question is a gap
 
@@ -208,11 +229,12 @@ yet* or unfalsifiable.
   disease, or do disease and diet cause dysbiosis? This is the microbiome analogue of reverse
   causation, and it undercuts most observational *your microbiome is why you're sick* claims
   ([[Gut Microbiome and Health]]).
-- **The landmark primary sources are unheld.** The FMT-versus-*C. difficile* trial (van Nood 2013),
-  a Cochrane FMT review, a strain-level probiotics systematic review, and the intestinal-permeability
-  review (Camilleri) are named acquisition targets — the strain-and-indication wins and the leaky-gut
-  demarcation currently rest on a gold-standard guideline and an evidence review, not on the primary
-  trials.
+- **Some landmark primary sources are now held, others still unheld.** The FMT-versus-*C. difficile*
+  trial (van Nood 2013) is now held and anchors the FMT section above. Still unheld: a Cochrane FMT
+  review (which would pool the effect the single early-stopped trial over-estimates), a strain-level
+  probiotics systematic review, and the intestinal-permeability review (Camilleri) — so the
+  strain-and-indication wins and the leaky-gut demarcation still rest on a gold-standard guideline and an
+  evidence review, not on the primary trials.
 - **Antibiotics-and-long-term-harm** has no held outcome source (above).
 - **Birth mode, early-life colonisation, and fermented foods** as microbiome levers are discussed but
   not held here on patient-important outcomes — *not yet*, not *no*.
@@ -248,9 +270,9 @@ divergence where it oversells (the general tonic).
 > | | |
 > |---|---|
 > | **Question** | Which gut-microbiome claims and interventions change a patient-important outcome, which are mechanistically plausible but unproven, and which are effectively unfalsifiable? |
-> | **Evidence included** | 5 sources — 1 gold, 2 high, 2 moderate |
+> | **Evidence included** | 6 sources — 1 gold, 3 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Whats%20Up%20With%20the%20Microbiome.md) |
+> | **Last updated** | 2026-08-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Whats%20Up%20With%20the%20Microbiome.md) |
 
 ## References

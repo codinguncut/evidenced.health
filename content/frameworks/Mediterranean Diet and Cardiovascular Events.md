@@ -2,8 +2,8 @@
 type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
-authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021]
+authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018]
 cluster: cardiometabolic-exposures
 confidence: medium
 relationships:
@@ -123,14 +123,69 @@ observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.8
 
 - **No RCT leg** (PREDIMED tested CV events, not dementia incidence; the randomized cognition evidence is
   the multicomponent FINGER family, small/null on incidence), and the cohorts carry healthy-user +
-  reverse-causation confounding the authors flag themselves («limit to infer causality»). [EXTRACTED
-  (Garcia-Casares - Mediterranean Diet Alzheimer 2021) chunk 02]
+  reverse-causation confounding the authors flag themselves («limit to infer causality»). [@garciacasares2021]
 - **The likely route is the vascular one this page evidences.** The MA frames the AD effect as running
   «indirectly (being protective factors of cardiovascular and metabolic diseases, which are themselves risk
   factors for AD)» [@garciacasares2021] — consistent
   with PREDIMED's demonstrated vascular (stroke-driven) effect being the mediator, so the cognition benefit
   is probably not an *additional* independent channel. Full appraisal + the double-counting caveat:
   [[Dementia Prevention and Modifiable Risk Factors]].
+
+[@dinu2018]
+## The breadth context — an umbrella review bounds the single trial (F, not independent E)
+
+PREDIMED is one landmark RCT. Dinu's 2018 umbrella review (13 meta-analyses of observational studies +
+16 of RCTs, 37 outcomes, >12.8M subjects) maps the credibility of the *whole* Med-diet evidence base and
+grades each association on the Ioannidis 5-tier scheme (convincing / highly-suggestive / suggestive /
+weak / no-evidence). [@dinu2018] It
+**refines and bounds** this page rather than corroborating it independently:
+Dinu's RCT leg pools the Med-diet CV-outcome trials (Liyanage 2016, Grosso 2015, Martinez-Gonzalez 2014
+are its CVD RCT meta-analyses), a pool PREDIMED dominates — so it is NOT a second independent witness
+and `[E-independent]` is explicitly NOT claimed. [inferred from @dinu2018; @estruch2018]
+
+- **The convincing hard-endpoint story is OBSERVATIONAL.** Twelve outcomes reach
+  «convincing/highly suggestive categories for 12 different health outcomes» — including overall
+  mortality, CVD, CHD, MI and diabetes — but for the five graded by *both* designs, «the latter showing
+  no evidence (except for diabetes)». So the strong Med-diet -> hard-CV-outcome evidence rests on cohort
+  studies; **pooled Med-diet RCTs do not confirm mortality / CVD / CHD.** [@dinu2018]
+- **This is CONSISTENT with PREDIMED's own read, not in tension with it.** PREDIMED's composite was
+  stroke-driven with a **null all-cause mortality HR 0.98** and individually non-significant MI/CV-death;
+  Dinu's pooled-RCT nulls on mortality/CHD say the same thing at the meta-level. The honest composite
+  claim (a pattern reduced mostly stroke events in high-risk primary prevention) is exactly what survives
+  the umbrella. [inferred from @dinu2018; @estruch2018]
+- **Diabetes is the one hard outcome robust across designs** — highly-suggestive observational (RR 0.83)
+  AND a weak-but-present RCT signal (RR 0.70). Dinu names diabetes the umbrella's most robust metabolic
+  outcome, contrasted against a *weaker* metabolic-syndrome signal.
+  [@dinu2018]
+
+### Parameter table — PREDIMED vs the umbrella's pooled RCT grade (BLOCKING cross-source check)
+
+| Parameter | PREDIMED (Estruch 2018) | Dinu pooled RCT MAs | Same quantity? |
+|---|---|---|---|
+| All-cause mortality | HR **0.98** (0.77-1.24), null | RR **0.93** (0.65-1.33), *No evidence* (Liyanage, 3 RCTs) | **Yes** — both null; PREDIMED is IN the pool |
+| CV events | composite **0.70** (0.55-0.89), stroke-driven | CVD mortality *No evidence* (Liyanage) / *Weak* (Grosso, M-Gonzalez) | Related, not identical (single composite vs pooled mortality) |
+| Diabetes | not a primary endpoint | RR **0.70** (0.54-0.91), *Weak* | Different comparator — umbrella only |
+
+**Defensible claim:** the umbrella *bounds* PREDIMED (its pooled RCT evidence is weak/null on hard
+endpoints except diabetes) and *agrees* with PREDIMED's own mortality-null; because PREDIMED is inside
+the pool, this is refinement (F), not independent corroboration.
+
+
+### The LDL-null refinement — the pattern's benefit does not run through LDL
+Across 3 RCT meta-analyses Dinu found «no association was reported for LDL-cholesterol levels» (all
+No evidence), while Med-diet lowered total cholesterol and triglycerides and raised HDL. So the
+fat-quality channel above should NOT be read as an LDL-lowering story at the *whole-pattern* level: the
+cardiometabolic benefit is carried by HDL/TG/BP/glucose/inflammation, not LDL. This refines
+[[Saturated Fat Intake and Replacement]] (a single-nutrient LDL/apoB argument) — the *whole Med pattern*
+moves events without moving LDL, a genuinely distinct claim from the SFA-replacement channel, and a
+surrogate caveat for [[Surrogate Outcomes]]. [@dinu2018, Table 2]
+
+### The adherence-measurement caveat
+The umbrella flags «22 77 indexes quantifying the compliance to the Mediterranean diet have been
+described» (the `77` is an OCR line-number; the count is 22) — the definitional heterogeneity that makes
+pooled Med-diet estimates noisy and partly explains the weak RCT signal.
+[@dinu2018] -> [[Is the Food Category Doing Any Work]],
+[[Measurement Error in Dietary Assessment]].
 
 ## Limits
 
@@ -168,5 +223,18 @@ observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.8
   (observational), so its agreement is not independent corroboration of the CV-event finding; no
   `[E-independent]` claimed. It enters `sources:` on the dual test (a distinct extracted claim — the AD/MCI
   RRs — now lives on the page).
+
+## Self-critique `[run 2026-08-05, after adding the Dinu umbrella section]`
+- **Independence NOT laundered — the load-bearing catch.** Dinu's RCT pool *contains* PREDIMED (Liyanage,
+  Grosso, M-Gonzalez all pool it), so `[E-independent]` is explicitly refused and the relationship is
+  labelled F (bounding/refinement). The umbrella agreeing with PREDIMED's mortality-null is stated as
+  consistency-within-the-same-evidence, not independent corroboration.
+- **No overclaim.** The convincing hard-endpoint grade is attributed to the *observational* leg with the
+  pooled-RCT null stated in the same breath; the umbrella is not read as elevating PREDIMED's certainty.
+  The parameter table's "same quantity?" column marks all-cause mortality as commensurable (both null,
+  PREDIMED in-pool) and CV-events as related-not-identical.
+- **LDL-null is a distinct claim, not a restatement.** The whole-pattern-moves-events-without-moving-LDL
+  point is genuinely new against the SFA single-nutrient LDL argument, so it earns its place (F), and is
+  routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate.
 
 ## References

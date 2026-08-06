@@ -53,8 +53,7 @@ exposures over different ranges, and Windred says so:
 - Cappuccio pooled **self-reported** duration with long-arm cutoffs of **>9-10 h**; Windred's longest
   objective quintile was only **>7.56 h** — «we therefore would not necessarily expect to see a
   heightened risk of mortality in this upper quintile». So Windred simply does not reach the long-sleep
-  range where the illness-marker arm lives. [@windred2023, 
-  Discussion]
+  range where the illness-marker arm lives. [@windred2023, Discussion]
 - Windred *confirms* the short-sleep and cardiometabolic-duration associations. It does not overturn the
   duration finding; it **adds an axis the duration literature omitted** (type-F refinement of the
   duration-centric public-health framing). Duration was «the central focus of current sleep health

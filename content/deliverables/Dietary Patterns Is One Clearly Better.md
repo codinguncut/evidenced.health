@@ -3,11 +3,11 @@ type: deliverable
 title: Comparing the Major Dietary Patterns
 question: Across the major named dietary patterns, is any clearly superior or inferior on patient-important outcomes, how good is the evidence, and how much does the pattern label matter versus the shared core, total energy, and adherence?
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, ESC - CVD Prevention Guidelines 2021]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Dinu - Mediterranean Diet Umbrella Review 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Seidelmann - Carbohydrate Intake Mortality 2018, ESC - CVD Prevention Guidelines 2021]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 ## The verdict up front
@@ -27,7 +27,9 @@ Once the evidence is graded rather than counted, three things fall out.
   pattern cut cardiovascular *events* in a high-risk trial (PREDIMED) -- but the effect was
   stroke-driven, all-cause mortality was flatly null, and it was tested only in high-risk primary
   prevention. It is one trial carrying an internal-validity discount, held here at medium confidence
-  ([[Mediterranean Diet and Cardiovascular Events]]).
+  ([[Mediterranean Diet and Cardiovascular Events]]) -- and an umbrella review confirms the bind: the
+  *convincing* Mediterranean grade is observational, while pooled whole-diet RCTs show no benefit except
+  for diabetes ([[The Observational-Trial Discordance]]).
 - **The head-to-head diet trials find the patterns nearly interchangeable on the outcomes they can
   measure.** Low-carbohydrate versus balanced-carbohydrate diets differ by about 1 kg of weight -- a
   difference the evidence itself judges not clinically important -- and none of those trials measured a
@@ -100,8 +102,35 @@ question ([[Mediterranean Diet and Cardiovascular Events]]). The active contrast
 unsaturated fat -- the same replacement the component evidence supports on hard events
 ([[Saturated Fat Intake and Replacement]]).
 
-**The pooled Mediterranean magnitude beyond this single trial -- Mediterranean-adherence meta-analyses
-and umbrella reviews -- is a named gap, not held.** State it as a gap; do not invent it.
+### The umbrella review confirms the bind: the convincing grade is observational, the RCTs null except diabetes
+
+An umbrella review of the whole Mediterranean-diet base (Dinu: 13 meta-analyses of observational studies
+plus 16 of RCTs, spanning 37 health outcomes and over 12 million subjects) grades each association's
+credibility, and it sharpens rather than softens the picture above
+[@dinu2018].
+
+The pattern reaches *convincing*
+or *highly suggestive* grades on twelve outcomes -- overall mortality, cardiovascular disease, coronary
+disease, heart attack, diabetes -- but where the same outcome was tested by *both* designs, «the latter
+showing no evidence (except for diabetes)»
+[@dinu2018]. So the convincing hard-outcome
+story rests on observational cohorts; pooled whole-diet RCTs show a signal only for diabetes (RR 0.70,
+graded weak), while pooled RCT all-cause mortality is **RR 0.93 (95% CI 0.65 to 1.33) -- flatly null**,
+agreeing with PREDIMED's own null [@dinu2018].
+
+This is the exact shape of [[The Observational-Trial Discordance]]: a large, consistent observational
+signal beside a null-or-weak randomized one. The resolution is not to crown the RCT but to ask whether
+the trial tested the same exposure. PREDIMED did -- it tested the *whole pattern* and moved events --
+whereas the single-nutrient RCTs (the saturated-fat-events null; the weight-loss null) tested a
+*different* exposure and did not. And the umbrella *bounds* PREDIMED rather than corroborating
+it independently: PREDIMED sits inside Dinu's pooled RCT set, so this raises no confidence -- medium still
+stands -- it only shows the broad base carries the same narrow, mostly-observational shape.
+
+**The pattern's benefit does not run through LDL.** Across three RCT meta-analyses Dinu found «no
+association was reported for LDL-cholesterol levels», while the pattern lowered total cholesterol and
+raised HDL [@dinu2018]. So the
+whole-pattern effect is a distinct claim from the single-nutrient LDL/apoB argument the shared core rests
+on -- a pattern can move events without moving LDL ([[Surrogate Outcomes]]).
 
 ## The head-to-head diet trials: near-equivalence on surrogates, silence on hard outcomes
 
@@ -210,9 +239,22 @@ results **unchanged** [@dehghan2017]. So measured
 socioeconomic status does not explain it away; the caveat is that measured SES may not fully capture the
 refined-carb/poverty channel ([[The U-Shaped Association Artifact]]).
 
-A cohort analysis reframing
-low-carb mortality as depending on *what replaces* the carbohydrate (plant vs animal) is a named gap, not
-held.
+A second large cohort closes the left arm of that curve and adds the decision-relevant twist. Seidelmann
+(ARIC plus an 8-cohort meta-analysis, 432,179 participants) overlays with PURE into a single U-shaped
+carbohydrate-to-mortality curve with its **nadir at 50-55% of energy** and both extremes elevated: pooled
+**HR 1.20 (95% CI 1.09 to 1.32) for low-carbohydrate intake and 1.23 (1.11 to 1.36) for high**
+[@seidelmann2018]. So cohort data now cut against
+*both* poles, from both sides.
+
+Crucially for the low-carb question, that arm's sign **flips with what replaces the carbohydrate**:
+«mortality increased when carbohydrates were exchanged for animal-derived fat or protein (1.18, 1.08-1.29)
+and mortality decreased when the substitutions were plant-based (0.82, 0.78-0.87)»
+[@seidelmann2018]. This is the single most useful
+correction to the whole "low-carb" debate: **"low-carbohydrate" is an under-specified exposure** -- an
+animal-based low-carb pattern tracks higher mortality, a plant-based one lower, so the substitution
+source is the lever, not the carbohydrate percentage. The evidence is observational (food-frequency
+questionnaire, weak reverse-causation checks only, no Mendelian randomization), so it grades direction,
+not a clean dose-response ([[The U-Shaped Association Artifact]]).
 
 ## The shared core: where the established benefit actually lives
 
@@ -311,12 +353,10 @@ would extend:
 - **A network meta-analysis of 14 named diets** and **the DIETFITS trial** -- the head-to-head weight
   near-equivalence, and the test of whether genotype or insulin status personalizes the choice; would
   extend [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]. Not held.
-- **Mediterranean-adherence meta-analyses and umbrella reviews** -- the pooled Mediterranean magnitude
-  beyond the single PREDIMED trial ([[Mediterranean Diet and Cardiovascular Events]]). Not held.
 - **Adventist Health Study-2 and a pooled vegetarian/vegan systematic review** -- the plant-based cohort and
   its pooled layer, including the B12/iron/omega-3/protein-quality repletion sub-question. Not held.
-- **A carbohydrate-mortality analysis reframing low-carb as substitution-dependent** (plant vs animal
-  replacement) and **dietary-pattern network meta-analyses for glycaemic outcomes.** Not held.
+- **Dietary-pattern network meta-analyses for glycaemic outcomes.** The between-pattern ranking on
+  HbA1c and glucose, beyond the umbrella-level evidence already held. Not held.
 - **EAT-Lancet** -- a pattern definition plus the health-versus-environment worked case. Not held.
 
 Until these are ingested, magnitudes for the patterns they define are not stated -- naming the gap is the
@@ -341,9 +381,9 @@ honest move, and inventing a number would be the dishonest one.
 > | | |
 > |---|---|
 > | **Question** | Across the major named dietary patterns, is any clearly superior or inferior on patient-important outcomes, how good is the evidence, and how much does the pattern label matter versus the shared core, total energy, and adherence? |
-> | **Evidence included** | 15 sources — 9 gold, 5 high, 1 moderate |
+> | **Evidence included** | 17 sources — 10 gold, 6 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns%20Is%20One%20Clearly%20Better.md) |
+> | **Last updated** | 2026-08-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns%20Is%20One%20Clearly%20Better.md) |
 
 ## References

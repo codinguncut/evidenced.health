@@ -2,11 +2,11 @@
 type: deliverable
 title: "What to Measure: A Minimal Health Checklist"
 question: What is the smallest set of readily-capturable health metrics that places a person in the strata the fabric stratifies on, ordered by decision-impact x capturability?
-sources: [ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, EASL - MASLD Clinical Practice Guidelines 2024, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Ference - LDL Cause ASCVD EAS Consensus 2017, Dehghan - PURE Fats Carbohydrate Mortality 2017, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013]
+sources: [ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, EASL - MASLD Clinical Practice Guidelines 2024, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Dehghan - PURE Fats Carbohydrate Mortality 2017, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 The wiki holds *general* estimates — what an exposure does for a reference class. Turning one into
@@ -87,17 +87,32 @@ glucose: no fast is needed and it is less noisy.
 
 ### Lipid panel, read as non-HDL cholesterol (not LDL-C as the headline)
 
-A standard panel gives total
-cholesterol, HDL and triglycerides; **non-HDL** (total minus HDL) is calculated for free and captures
-*all* apoB-containing atherogenic particles. This matters for exactly the metabolic stratum this list
-is built around. apoB — the count of atherogenic particles — is the causal quantity for atherosclerotic
-disease, and in the metabolically-impaired (metabolic syndrome, diabetes, high triglycerides) LDL-C
-and particle number *diverge*: small dense LDL packs more particles into a given cholesterol mass, so
-LDL-C **under-states** the true atherogenic burden [@ference2017]. Cohort data point the same way — the apoB/apoA1 ratio predicted cardiovascular risk
-better than LDL-C [@dehghan2017]. So for this
-stratum, emphasise non-HDL over LDL-C. Keep LDL-C in the panel — it is a good particle surrogate for
-lean, metabolically-healthy people and it is universally reported — but do not let it be the headline
-where the person is insulin-resistant.
+The lipid panel flags one of the few cardiometabolic levers with a hard-outcome benefit proven to reach
+primary prevention. Lowering LDL-C by 1.0 mmol/L with a statin cuts major vascular events by about 22%
+(RR 0.78, 0.76-0.80) and all-cause mortality by about 10% (RR 0.90, 0.87-0.93) — monotone, with no
+threshold, and the same proportional effect across every baseline-risk stratum
+[@ctt2010]. That proven per-unit
+benefit is what makes the number worth capturing; the caveat is that this is the *drug*-lowering effect,
+and a diet-induced LDL change does not automatically inherit it.
+
+A standard panel gives total cholesterol, HDL and triglycerides; **non-HDL** (total minus HDL) is
+calculated for free and captures *all* apoB-containing atherogenic particles. apoB — the count of those
+particles — is the causal quantity for atherosclerotic disease, and in the metabolically-impaired
+(metabolic syndrome, diabetes, high triglycerides) LDL-C and particle number *diverge*: small dense LDL
+packs more particles into a given cholesterol mass, so LDL-C **under-states** the true atherogenic burden
+[@ference2017].
+
+Entering the lipids *simultaneously*, only apoB independently predicts heart attack (aHR 1.27 per SD,
+1.15-1.40); once apoB is held constant, non-HDL-C and triglycerides fall to non-significant and the
+small-vs-large particle distinction goes flat. It is particle **number**, not cholesterol content or
+particle type, that carries the risk
+[@marston2022]. Cohort data point the same way —
+the apoB/apoA1 ratio predicted cardiovascular risk better than LDL-C
+[@dehghan2017].
+
+So for this stratum, emphasise non-HDL over LDL-C. Keep LDL-C in the panel — it is a good particle
+surrogate for lean, metabolically-healthy people and it is universally reported — but do not let it be
+the headline where the person is insulin-resistant.
 
 ### ALT (liver enzyme)
 
@@ -126,8 +141,10 @@ apoB is the direct particle count and the most
 complete of the lipid measures: it captures LDL plus VLDL remnants, IDL and Lp(a), and that extra
 coverage widens exactly in the hypertriglyceridemic / metabolic-syndrome state where it matters most
 [@ference2017]. Treat it as the upgrade over
-calculated non-HDL *where the assay is available* — it is at the edge of the standard battery, so
-non-HDL remains the population-available default.
+calculated non-HDL *where the assay is available*. Where it is not, non-HDL-C is the best stand-in — it
+incorporates the triglyceride-rich remnant particles that LDL-C misses
+[@marston2022] — which is why non-HDL, not
+LDL-C, is the population-available default.
 
 ### Cardiorespiratory fitness (VO2max), by the free eCRF proxy first
 
@@ -228,9 +245,9 @@ starting default, not a fixed prescription — the weighting is done per case wh
 > | | |
 > |---|---|
 > | **Question** | What is the smallest set of readily-capturable health metrics that places a person in the strata the fabric stratifies on, ordered by decision-impact x capturability? |
-> | **Evidence included** | 13 sources — 4 gold, 6 high, 3 moderate |
+> | **Evidence included** | 15 sources — 5 gold, 7 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate); Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Metrics%20for%20Targeted%20Health%20Guidance.md) |
+> | **Last updated** | 2026-08-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Metrics%20for%20Targeted%20Health%20Guidance.md) |
 
 ## References

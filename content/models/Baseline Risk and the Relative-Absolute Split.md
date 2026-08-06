@@ -3,7 +3,7 @@ type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -13,8 +13,8 @@ relationships:
     - Rating Outcome Importance
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-25
-self_critiqued: 2026-08-04
-updated: 2026-08-04
+self_critiqued: 2026-08-05
+updated: 2026-08-05
 ---
 
 ## The decomposition
@@ -407,5 +407,28 @@ modification. **The interaction test cannot resolve which:** P for the risk-stra
 attenuation. **Read it as the worked pair the page owed, with the caveat that one trial's subgroups cannot
 separate route (a) from route (b) when the interaction is underpowered** — the very reason route (b)
 demands positive interaction evidence, which 0.14 is not. [inferred from @bhatt2019]
+
+## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
+
+REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
+arm attenuated). CTT 2010 supplies the cleaner article: **one relative effect held constant across many
+baseline-risk strata whose control event rates differ substantially** — the textbook route-(a) picture with
+no attenuation to explain away. Per 1.0 mmol/L LDL-C reduction, first major vascular events fell by about a
+fifth «in each subgroup examined» even though «the annual event rates in control groups» differed
+substantially «according to participants' medical history»
+[@ctt2010, Results]. Figure 3's strata —
+prior-CHD vs none, diabetes, age (incl. >75), BP, BMI, HDL tertile, smoking, renal function — all sit
+at HR \~0.77-0.84 with no material heterogeneity across the baseline-risk strata (a nominal sex difference
+aside, p=0.04, which the paper does not emphasise), and the effect is constant across baseline LDL too
+(«the RR per 1·0 mmol/L further reduction ... did not depend on the baseline LDL cholesterol concentration»).
+
+**Why this is the clean illustration and REDUCE-IT was not:** here the relative effect is *demonstrated*
+constant (26-trial IPD, no heterogeneity), so the differing absolute benefit across strata is pure route-(a)
+arithmetic — the primary-prevention subgroup (no prior vascular disease, lower baseline risk) keeps the same
+25%-per-mmol relative effect, its *absolute* benefit simply smaller because its baseline is lower. This is
+exactly the split: constant relative effect, absolute benefit tracking baseline risk, no subgroup claim
+needed. The consequence for the statin decision is worked on [[Statins for Primary Prevention and the Power of Zero CAC]]
+and [[LDL Lowering and Cardiovascular Events]].
+[inferred from @ctt2010]
 
 ## References

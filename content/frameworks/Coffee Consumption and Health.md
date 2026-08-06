@@ -208,8 +208,7 @@ an actionable stratifier).
 ## Gaps (G) + attachment points for the cluster
 
 - **No coffee-sleep meta-analysis existed** at review time (SR only) — so the caffeine/sleep-timing
-  question the deliverable needs is a **named gap here, not a null**. [AWAITS a coffee/caffeine-and-sleep
-  MA] -> would connect to [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]].
+  question the deliverable needs is a **named gap here, not a null**. [AWAITS a coffee/caffeine-and-sleep MA] -> would connect to [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]].
 - **Respiratory outcomes**, and the **natural history of established disease** (only 1 MA, post-MI):
   insufficient evidence.
 - **IARC 2016** (coffee removed from Group 2B "possibly carcinogenic") is *not* cited by Poole —

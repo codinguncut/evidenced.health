@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
-authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
+authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -15,9 +15,9 @@ relationships:
     - Energy Adjustment and What a Diet Coefficient Means
     - Free Sugars Intake
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-06
 created: 2026-07-26
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -392,10 +392,24 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
     -> [[Is the Food Category Doing Any Work]], [[The U-Shaped Association Artifact]]. It is grounding
     for *«harm at the extremes»*, not a clean dose-response on carbohydrate.
     [@dehghan2017, Discussion]
+- **A second cohort traces the complementary arm — Seidelmann 2018 (ARIC + 8-cohort MA)
+  `[2026-08-05]`.** Where PURE populates the high-carb (right) arm, Seidelmann's ARIC (mean 49%E) supplies
+  the **low-to-moderate (left)** arm, and the two overlay into one U-shaped carbohydrate->mortality curve
+  with **nadir 50-55%E** and both extremes elevated (pooled HR «1·20 ... for low carbohydrate
+  consumption; 1·23 ... for high») [@seidelmann2018, 
+  Findings] — so cohort data now cut against **both** poles from both sides. Crucially for *this* page's
+  low-carb question, the low-carb arm's mortality **depends entirely on the replacement source**:
+  «mortality increased when carbohydrates were exchanged for animal-derived fat or protein (1·18,
+  1·08-1·29) and mortality decreased when the substitutions were plant-based (0·82, 0·78-0·87)».
+  [@seidelmann2018, Findings] So a low-carb weight
+  strategy is not mortality-neutral-by-default: an *animal-based* low-carb pattern tracks higher
+  mortality, a *plant-based* one lower — the source of the substituting fat/protein is the lever, not the
+  carbohydrate percentage. Observational (FFQ), weak reverse-causation checks only, no MR
+  -> [[The U-Shaped Association Artifact]], [[Dietary Protein and Mortality]].
 - `AWAITS` a source on whether carbohydrate restriction changes hard outcomes at all **in a randomised
-  design** — PURE (above) supplies the observational cut but not the interventional one. The review
-  points outside its own evidence base to cohort data showing *«harm at the extremes of intake»* -- which
-  cuts against **both** diet poles rather than favouring either.
+  design** — PURE and Seidelmann (above) supply the observational cut but not the interventional one. The
+  review points outside its own evidence base to cohort data showing *«harm at the extremes of intake»*
+  -- which cuts against **both** diet poles rather than favouring either.
 
 ## Held, not filed
 

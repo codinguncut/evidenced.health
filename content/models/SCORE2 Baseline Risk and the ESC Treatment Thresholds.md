@@ -2,8 +2,8 @@
 type: model
 question: What is this person's 10-year CVD risk, and what does that number license?
 aliases: [SCORE2, SCORE2-OP, ESC Risk Thresholds, 10-Year CVD Risk, CVD Risk Categories, Risk Charts]
-authors: [European Society of Cardiology (org)]
-sources: [ESC - CVD Prevention Guidelines 2021, WHO - Saturated and Trans Fatty Acid Intake 2023]
+authors: [European Society of Cardiology (org); Mach, François; Blumenthal, Roger S]
+sources: [ESC - CVD Prevention Guidelines 2021, WHO - Saturated and Trans Fatty Acid Intake 2023, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -11,9 +11,11 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Layer 1 - Ranking Interventions for a Stratum
     - Saturated Fat Intake and Replacement
+    - LDL Lowering and Cardiovascular Events
+    - Which Objective Moved This Recommendation
 created: 2026-07-26
-updated: 2026-08-04
-self_critiqued: 2026-07-28
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 **The conversion layer.** [[Baseline Risk and the Relative-Absolute Split]] holds the machinery and, as
@@ -148,5 +150,67 @@ Note also that WHO grades this estimate **Moderate** certainty; the RR should no
   (staged, not ingested). **PROBAST+AI does not rank these against each other**: it lists calibration,
   discrimination and net benefit symmetrically, and an apparent emphasis on calibration comes from the
   title of a paper it cites, not from the tool's own position.
+
+## The ESC-EAS 2025 focused update endorses SCORE2/SCORE2-OP — this page's instrument, confirmed `[2026-08-06]`
+
+The 2025 ESC/EAS dyslipidaemias focused update formally adopts the calculator this page is built on:
+«this Focused Update endorses the use of risk scores such as SCORE2 and SCORE2-OP (instead of the SCORE
+algorithm) for estimation of the risk of experiencing an MI, ischaemic stroke, or fatal atherosclerotic
+CV event over the next 10 years in persons without known CVD aged between 40 and 89 years»
+[@esceas2025]. Confirmation, not a new estimate —
+the endpoint (fatal **and** non-fatal MI/ischaemic stroke) and the four-country calibration are the ones
+already carried above. The update also notes SCORE2/OP «should not be used ... among persons with
+existing ASCVD or among persons currently on lipid-lowering therapy» — the prognostic-instrument scope
+this page already flags.
+
+## What the risk category licenses — the ESC-EAS 2025 LDL-C goal ladder `[2026-08-06]`
+
+Once SCORE2/OP (or a clinical feature in Table 3) places a person in a category, the category sets the
+LDL-C goal. These numbers were image-only in the source (Fig. 1 / Tables 3-4 did not OCR) and were
+recovered by a direct PDF-page read — so they carry a figure/table locus, not a `«...»` locate-verified
+form (`[@esceas2025, Fig. 1 / Table 3]`):
+
+| Category (Table 3 cut-off) | LDL-C goal (Fig. 1) | Class |
+|---|---|---|
+| Low — SCORE2/OP <2% | <3.0 mmol/L (<116 mg/dL) | IIb |
+| Moderate — >=2% and <10% | <2.6 mmol/L (<100 mg/dL) | IIa |
+| High — >=10% and <20% (or TC >8 / LDL-C >4.9 mmol/L, BP >=180/110, moderate CKD, FH) | <1.8 mmol/L (<70 mg/dL) **and >=50% reduction** | I |
+| Very high — >=20% (or documented ASCVD, severe CKD, DM + target-organ damage) | <1.4 mmol/L (<55 mg/dL) & >=50% reduction | I (IIa for primary-prevention FH) |
+| Extreme — recurrent events on max statin; polyvascular | <1.0 mmol/L (<40 mg/dL) | IIb |
+
+The category cut-offs are total-CVD (fatal + non-fatal) SCORE2/OP percentages — **double** the old
+SCORE fatal-only thresholds (the 2x multiplier this Focused Update applied). And initiation is not a pure
+function of the goal: **Table 4** crosses total CV risk with *untreated* LDL-C band, so a very-high-risk
+person in secondary prevention gets concomitant drug therapy at every LDL band, while low/moderate risk
+stays at lifestyle advice until the untreated LDL is high
+[@esceas2025, Table 4]. The downstream **effect** of hitting
+these targets (the per-mmol event reduction) is CTT/Marston's, not the guideline's -> [[LDL Lowering and Cardiovascular Events]].
+
+
+
+## PREVENT-ASCVD vs SCORE2 — a different calculator answering a DIFFERENT quantity `[2026-08-06]`
+
+The US 2026 ACC/AHA dyslipidaemia guideline stratifies primary prevention with a **different** instrument
+— the **PREVENT-ASCVD** equations, not SCORE2 — and it is tempting to read the two families' primary-
+prevention thresholds as a disagreement. **The parameter table shows they are not the same quantity, so
+the differing thresholds are a distinction, not a tension** (not-joined check (ii): different endpoint,
+different instrument):
+
+| Parameter | ESC SCORE2 / SCORE2-OP | ACC-AHA PREVENT-ASCVD | Same quantity? |
+|---|---|---|---|
+| Endpoint | «MI, ischaemic stroke, or fatal atherosclerotic CV event» (fatal + non-fatal CVD) | 10-y (and 30-y) **ASCVD** | **No** — different composite definitions |
+| Calculator | SCORE2 (40-69) / SCORE2-OP (70-89), region-calibrated | PREVENT-ASCVD equations, ages 30-79 | No |
+| Category cut-offs | age-banded (Table 5 above); e.g. very-high ≥7.5%/10%/15% | «low (<3%), borderline (3% to <5%), intermediate (5% to <10%), or high (≥10%)» | **No** — not comparable numbers |
+| Input | non-HDL-C, SBP, smoking, age, region | PREVENT covariates (adds eGFR, HbA1c, etc.) | No |
+
+[@accaha2026, (ESC-EAS - Dyslipidaemias Focused Update 2025)]
+
+**So a PREVENT «borderline 3-<5%» and a SCORE2 «low <2.5-7.5%» band cannot be lined up as looser-vs-
+stricter** — they estimate different composites over different age ranges with different calibration. The
+guidance families differ here by **instrument and endpoint** (divergence classes 1/2 — standpoint /
+evidence base), not by a disagreement on any effect estimate. What DOES converge is the downstream
+treat-to-target number once a stratum is fixed -> [[LDL Lowering and Cardiovascular Events]]; the
+guidance-null reading of that convergence is on [[Which Objective Moved This Recommendation]].
+[inferred from @accaha2026; @esceas2025]
 
 ## References

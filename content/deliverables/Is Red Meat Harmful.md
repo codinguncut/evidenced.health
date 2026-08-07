@@ -10,8 +10,10 @@ self_critiqued: 2026-07-30
 ---
 
 **The short answer: "red meat" is not one thing, and once you split it, the harm is smaller and
-narrower than the headlines imply — but it is not zero, and where it is real it sits in *processed*
-meat and in cooking char, not in a lean, gently-cooked steak.**
+narrower than the headlines imply — but it is not zero. It is clearest for *processed* meat and for
+high-temperature cooking char; for lean, gently-cooked *unprocessed* red meat the harm is smaller and
+the certainty is low — guideline bodies reviewing the same evidence reach opposite recommendations — so
+read it as *less, and less certain*, not as established-harmless.**
 
 This is a general, population-level appraisal of red meat for any adult; it is not advice for one
 person. What moves the verdict here is the **type** of meat (processed vs unprocessed) and the

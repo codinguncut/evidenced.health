@@ -4,7 +4,7 @@ question: Does restricting carbohydrate beat a balanced-carbohydrate diet for we
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
 authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B]
 sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018]
-cluster: weight-management
+cluster: weight-loss-diets
 nucleus: true
 confidence: medium
 relationships:

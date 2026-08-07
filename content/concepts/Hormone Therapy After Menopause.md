@@ -15,7 +15,7 @@ relationships:
     - Which Objective Moved This Recommendation
     - The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not
 created: 2026-08-01
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
-aliases: [Relative vs Absolute Effect, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
+aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L]
 sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010]
 cluster: cvd-risk-estimation
@@ -216,7 +216,7 @@ comparator's own trajectory makes a small increment look like a whole result.
 
 ## A body that held BOTH halves and never multiplied them `[2026-07-28, SACN revisit]`
 
-The *Failure modes* list above names **reporting relative effects alone**. [@sacn2015] is the worked instance, and it is the sharp version of the failure: **SACN had the
+The *Failure modes* list above names **reporting relative effects alone**. SACN's carbohydrates review is the worked instance, and it is the sharp version of the failure: **SACN had the
 baselines and still did not convert.**
 
 Its effect estimates are relative throughout — «the relative risks for total sugars intake are

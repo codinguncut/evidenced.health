@@ -2,10 +2,10 @@
 type: framework
 question: How do I measure my cardiorespiratory fitness, how much exercise raises it, and does raising it actually lower risk?
 aliases: [Measuring CRF, Raising CRF, Non-Exercise CRF, eCRF, FRIEND Standards, VO2max Measurement, CRF Vital Sign, Exercise Dose to Increase Fitness]
-authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan]
-sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016]
+authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak]
+sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024]
 cluster: fitness
-confidence: low
+confidence: medium
 relationships:
   related_to:
     - Physical Activity Dose and Mortality
@@ -13,8 +13,8 @@ relationships:
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-08-04
-self_critiqued: 2026-07-28
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
@@ -24,10 +24,13 @@ it cheaply, you can **raise** it a known amount with a known exercise dose, and 
 lower risk**. Together they move CRF from marker toward modifiable target — though, as below, still
 short of RCT-proven causality on hard outcomes.
 
-**Evidence-tier note (`confidence: low`).** This page rests on a **single AHA scientific statement**
-(Ross 2016 — a position/consensus document, `moderate` tier, not a trial or systematic review); the
-measure-and-raise claims are directional and consensus-backed, not RCT-proven on hard outcomes. Held at
-`confidence: low` pending a stronger source.
+**Evidence-tier note (`confidence: medium`, raised from `low` 2026-08-06).** The **raise-it** leg is now
+**gold-backed**: Poon 2024, an umbrella of 24 SRs+MAs (429 primary studies, 12 967 participants), confirms
+the exercise→CRF dose from a different body than the AHA and adds the HIIT-vs-MICT head-to-head. The
+**measure-it** and **vital-sign** legs still rest on the single AHA scientific statement (Ross 2016 —
+consensus tier), and the **causal** leg (raising CRF → lower mortality) stays overwhelmingly
+observational. So two of three legs are well-supported and one (causality) is not — `medium`, not `high`.
+[inferred from @ross2016; @poon2024]
 
 ## Measure it — three tiers, and a cheap one that works
 
@@ -69,6 +72,34 @@ intensity to 75% gave 19.6% (Ross 2015). STRRIDE showed a clean dose gradient �
 intensity), 11% (low / high), 18% (high / high). Interval training beats equal-energy continuous training:
 in one trial near-maximal intervals gave «20.6%» vs «9.4%» for moderate continuous. Older adults gain too
 (a 41-trial meta-analysis: +16.3%).
+
+
+[@ross2016]
+## HIIT vs continuous training — the gold umbrella (Poon 2024)
+
+Ross's single-trial interval signal (20.6% vs 9.4% above) is now backed by an umbrella review — «all
+reviews consistently demonstrated that HIIT significantly improves CRF» vs non-exercise control («SMD...
+0.28 to 4.31... WMD... 3.25 to 5.5 mL/kg/min»), and head-to-head «the majority of reviews indicated that
+HIIT leads to similar or greater im­provements in CRF» than moderate-intensity continuous training (MICT)
+(«SMD... 0.18 to 0.99... WMD... 0.52 to 3.76 mL/kg/min»). [@poon2024]
+
+**Read the head-to-head edge as real but modest, and smallest where fitness is already normal.** The
+HIIT-over-MICT SMD is 0.04–0.64 in healthy adults and 0.26–0.99 in overweight/obesity, and **sprint
+interval training vs MICT is essentially a wash (SMD 0.04–0.18)** — so the practical case for HIIT is
+**time-efficiency** (comparable or slightly greater CRF for less total exercise time), not a large fitness
+advantage. Safety is not a differentiator: «The safety concerns associated with HIIT do not appear to be
+significantly greater than those associated with MICT» (compliance generally ≥80%; pre-screen inactive
+at-risk individuals). [@poon2024]
+
+**This refines, it does not contradict, the single-trial number** (parameter-table check): Ross's «20.6%
+vs 9.4%» is a *within-arm percent change* in one trial; Poon's «0.18 to 0.99» is a *between-group
+standardized difference* pooled across reviews — different quantities, so the umbrella upgrades the
+evidence grade and *bounds* the effect (modest between-modality gap), rather than clashing with it.
+**Certainty caveat:** «Most of the systematic reviews received moderate-­to-­critically low AMSTAR-­2
+scores», so the direction is robust but the constituent reviews are low-certainty. Poon is an umbrella of
+HIIT→CRF *intervention* reviews — a different question from the held CRF→mortality cohorts (Kodama /
+Mandsager), so it is a type-F upgrade of the raise-it leg, **not** independent backing for the causal leg
+below. [@poon2024]
 
 
 [@ross2016]
@@ -146,7 +177,10 @@ symmetric standards apply to a body making the case for its own risk factor.
   extra VO2max buys little extra outcome for an under-active person; (b) the advantage is
   outcome-specific — for the MASLD limb, [[Fatty Liver MASLD and Weight Loss]] holds HIIT and
   moderate-intensity equally effective; and (c) adherence is part of the effect, so a sustained
-  walking habit can beat an abandoned HIIT plan. **On the claimed cons: compensation is now held and cuts against the intensity-specific version** —
+  walking habit can beat an abandoned HIIT plan. **Poon's gold umbrella now bounds the surrogate edge
+  itself:** HIIT-over-MICT is SMD 0.04–0.64 in healthy adults and SIT-vs-MICT is a wash (0.04–0.18), so
+  even at the surrogate level the interval advantage is modest for an already-normal-fitness adult — the
+  case for HIIT is time-efficiency, not a large fitness win. **On the claimed cons: compensation is now held and cuts against the intensity-specific version** —
   [[Exercise Energy Compensation]] (Riou 2015) finds compensation real (\~18%, up to \~84% long-term) but
   **intensity is not a significant predictor**, so HIIT does not compensate *more* than moderate work;
   the NEAT-downregulation worry is not HIIT-specific. Worse-HIIT-adherence-than-walking remains unheld

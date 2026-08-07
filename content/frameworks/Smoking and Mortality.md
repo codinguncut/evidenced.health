@@ -4,7 +4,8 @@ question: How large is smoking's effect on mortality and life expectancy, and ho
 aliases: [Smoking, Smoking Cessation, Tobacco and Mortality, Quitting Smoking, Cessation Benefits]
 authors: [Jha, Prabhat; Peto, Richard; Thun, Michael; Livingston, Gill]
 sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024]
-cluster: cardiometabolic-exposures
+cluster: smoking
+nucleus: true
 confidence: high
 relationships:
   related_to:
@@ -14,7 +15,7 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-07-29
 ---
 

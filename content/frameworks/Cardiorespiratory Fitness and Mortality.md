@@ -8,8 +8,8 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-04
-self_critiqued: 2026-08-01b
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Muscle-Strengthening Activity and Mortality
@@ -23,7 +23,10 @@ Opens the `fitness` cluster. Cardiorespiratory fitness (CRF, peak VO2, measured 
 3.5 mL/kg/min) is **one of the strongest mortality predictors in medicine** — but the wiki's other
 lever, physical activity, is measured as *dose* (minutes); this is measured as the *outcome* (capacity).
 The distinction is load-bearing: both sources here are observational, so CRF is a **predictor, not a
-proven causal lever**.
+proven causal lever** — the general prognostic-marker-vs-modifiable-lever distinction
+([[Surrogate Outcomes]] -> *Prognostic marker vs modifiable lever*). The modifiable lever that acts on it
+is exercise ([[Measuring and Raising Cardiorespiratory Fitness]]), which carries its own intervention
+evidence; a high VO2max is otherwise a stratification metric, not a target in itself.
 
 
 

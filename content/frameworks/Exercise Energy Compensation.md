@@ -2,8 +2,8 @@
 type: framework
 question: Is exercise-induced energy expenditure offset by compensation (reduced non-exercise activity / increased intake), and does higher exertion intensity make the offset worse?
 aliases: [Energy Compensation, Exercise Compensation, NEAT, Non-Exercise Activity Thermogenesis, Constrained Energy Expenditure, Compensatory Eating, Activity Compensation]
-authors: [Riou, Marie-Ève; Jomphe-Tremblay, Simon; Lamothe, Gilles; Stacey, Dawn; Szczotka, Agnieszka; Doucet, Éric; Careau, Vincent; Halsey, Lewis G; Pontzer, Herman; Speakman, John R]
-sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021]
+authors: [Riou, Marie-Ève; Jomphe-Tremblay, Simon; Lamothe, Gilles; Stacey, Dawn; Szczotka, Agnieszka; Doucet, Éric; Careau, Vincent; Halsey, Lewis G; Pontzer, Herman; Speakman, John R; Recchia, Francesco; Siu, Parco M]
+sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023]
 cluster: activity
 confidence: low
 relationships:
@@ -11,8 +11,9 @@ relationships:
     - Physical Activity Dose and Mortality
     - Measuring and Raising Cardiorespiratory Fitness
     - Does Weight Loss Reduce Cardiovascular Events
+    - Exercise vs Caloric Restriction for Visceral Fat
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 ---
 
@@ -89,6 +90,13 @@ scale*, not a shared number.
 - **Two framings of the same finding.** Compensation is why *exercise for weight loss* disappoints
   (the energy deficit is partly refilled), yet it says nothing against *exercise for fitness/mortality*
   — the CRF and mortality benefits do not run through the energy balance that compensation offsets.
+- **A third outcome where compensation does NOT erase the benefit — visceral fat.** Recchia 2023
+  (SR+MA, 40 RCTs) finds exercise reduces *visceral* fat more than caloric restriction per unit of
+  prescribed weekly deficit, and cites the same under-reporting/overcompensation confound as the reason
+  head-to-head trials often see no group difference [@recchia2023]. Because exercise's fat-loss is partly *weight-independent*, the
+  compensated calories blunt the *weight* benefit without erasing the *visceral-depot* benefit — so the
+  disappointing weight lever and a comparatively strong visceral lever coexist
+  -> [[Exercise vs Caloric Restriction for Visceral Fat]].
 
 
 

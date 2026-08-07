@@ -2,9 +2,9 @@
 type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
-authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022]
-cluster: cardiometabolic-exposures
+authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Blumenthal, Roger S]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026]
+cluster: lipids
 nucleus: true
 confidence: medium
 relationships:
@@ -16,9 +16,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Dementia Prevention and Modifiable Risk Factors
     - Soy Products and Health
+    - Eggs Dietary Cholesterol and Cardiovascular Risk
 created: 2026-07-29
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
@@ -160,13 +161,109 @@ magnitude and metric the consensus asserted, now quoted from the underlying stud
 convergence that would earn `[E-independent]`.
 [inferred from @ctt2010; @marston2022]
 
+## The genetic disentanglement — apoB is the NECESSARY trait (Richardson MVMR 2020) `[2026-08-06]`
+
+The *measure apoB* claim above rested on Ference's assertion and Marston's *observational* multivariable
+analysis. Richardson supplies the same disentanglement by a **genetic natural experiment** — multivariable
+Mendelian randomisation — the design that removes reverse causation, confounding, and (via genetic
+instruments) much measurement error. A de-novo UK Biobank GWAS (up to 441,016 participants) built
+instruments for LDL-C, triglycerides, and apoB; these were carried into MR against CARDIoGRAMplusC4D
+(60,801 CHD cases). [@richardson2020]
+
+**Univariable, each atherogenic; multivariable, only apoB survives.** Assessed one-at-a-time, LDL-C
+(OR 1.66 per SD), TG (1.34) and apoB (1.73) each raised CHD risk. Entered *together* in multivariable MR:
+
+| Trait (per 1 SD, multivariable MR) | Direct effect on CHD |
+|---|---|
+| **apoB** | **OR 1.92 (95% CI 1.31-2.81); P<0.001 — retained** |
+| LDL-C | OR 0.85 (0.57-1.27); P=0.44 — **reversed to null** |
+| Triglycerides | OR 1.12 (1.02-1.23); P=0.01 — weakened |
+
+> "In multivariable MR, only apolipoprotein B ... retained a robust effect, with the estimate for LDL
+> cholesterol ... reversing and that of triglycerides ... becoming weaker."
+> [@richardson2020, Abstract]
+
+> "These findings suggest that apolipoprotein B is the predominant trait that accounts for the
+> aetiological relationship of lipoprotein lipids with risk of CHD."
+> [@richardson2020, Conclusions]
+
+**Read it correctly — apoB is *necessary*, LDL/TG are not discredited.** The LDL-C null is NOT a claim
+that cholesterol is causally inert; Richardson is explicit that the findings «do not discredit the causal
+roles that LDL cholesterol or triglycerides play», because apoB does not occur in physiological isolation
+but is always accompanied by cholesterol and triglycerides. The source's own verdict is necessity, in its
+words: «apolipoprotein B is the necessary element in order for lipoprotein lipids to exert their causal
+effect on risk of CHD—in other words, apolipoprotein B is a critical entity that underlies the
+relationship of lipid traits and risk of CHD.» [@richardson2020, Discussion] The probabilistic corollary the paper draws: «changes in
+cholesterol or triglycerides that are not accompanied by commensurate changes in apolipoprotein B may not
+lead to altered risks of CHD.»
+[@richardson2020, Discussion] This is the
+**genetic-natural-experiment shadow of Ference's concordance proviso** and of the MCE/Sydney worked cases
+below: a cholesterol change *discordant* with apoB does not transmit to the outcome — now shown in genes,
+not just in a diet trial.
+
+**New extract — the HDL "protection" is apoB-mediated.** Univariable MR made HDL-C (OR 0.80) and apoA-I
+(0.83) look protective; adjusted for apoB both «attenuated substantially to the null» (HDL-C 0.91, P=0.36;
+apoA-I 0.94, P=0.59), while apoB stayed causal (1.68). So HDL-raising therapies «will only have beneficial
+effects if they also lower apolipoprotein B» — the genetic rationale for the failed CETP/HDL-raising
+programme, and a reason not to treat HDL-C as an independent target.
+[@richardson2020, Discussion]
+
+**Decision refinement — target the particle count.** «the primary focus of lipid-modifying therapies ought
+to be the reduction in number of atherogenic lipoproteins (as measured by apolipoprotein B) rather than the
+reduction in cholesterol or triglycerides», especially where drugs have discrepant effects across the lipid
+traits. [@richardson2020, Discussion] This
+grounds the page's held *measure apoB* view with a genetic design, and sharpens it from *measure* to
+*target and dose on* apoB.
+
+**NOT independent-E — the citation chase kills it (the reportable finding).** Richardson looks like the
+independent second school the nucleus lacked (Bristol / MRC-IEU / Davey Smith; a genetic method-class,
+not a consensus). It is not, on three grounds, any one sufficient: **(i)** **Brian A. Ference is a
+co-author** of Richardson (author 5) — the author of the EAS Consensus this nucleus rests on and a
+co-author of Marston; **(ii)** Richardson cites the CTT LDL-lowering RCT meta-analyses as antecedent
+("conclusively shown that lowering of cholesterol in atherogenic lipoproteins ... reduction in risk",
+its refs 1-5 / the CTT collaboration) and explicitly **builds on prior Ference multivariable-MR work** — a
+prior investigation using a form of multivariable MR that «obtained similar findings to those we report in
+the present study» (ref 26 = Ference 2019); **(iii)** the whole apoB-particle-number / response-to-retention thesis
+is one research programme (Sniderman / Ference / Ala-Korpela). So MR is not a *new* independent route — it
+is a sharper instance of one of the four pillars Ference's consensus already synthesizes, co-authored by
+Ference. **Verdict: F (refinement) + primary genetic grounding, NOT `[E-independent]`.** The confidence
+cap therefore **holds** — see Limits.
+[inferred from @richardson2020; @ference2017]
+
+## Current guidance has taken up *measure apoB in the discordant* — and cites this page's own evidence `[2026-08-06]`
+
+The *measure apoB where LDL-C and particle number discord* claim is no longer only the consensus's; the
+2026 US guideline operationalizes it into a clinical rule: «Apolipoprotein B (ApoB) testing can be useful
+to improve risk assessment and guide therapy once LDL-C and non-HDL-C goals are met, particularly in
+those with elevated triglycerides (TG) (≥150 mg/dL), diabetes, or low achieved LDL-C (<70 mg/dL)»
+[@accaha2026] — exactly this page's discordant stratum
+(metabolic/CKM syndrome, diabetes, hypertriglyceridemia, treated-low LDL), where «LDL-C may appear at
+goal while apoB remains elevated, masking residual risk». The guideline also notes the Martin/Hopkins
+LDL-C estimator «markedly reduces discordance with apoB» — narrowing (not closing) the case for a
+separate apoB draw in the concordant majority.
+
+**This is guidance UPTAKE, not independent confirmation — the guideline reproduces the vault's held
+Marston evidence.** ACC-AHA's apoB stance cites the same data this page rests on: «only apoB remains
+significant when assessed together (adjusted hazard ratio per 1 SD, 1.27 [95% CI, ...»
+[@accaha2026] — Marston 2022's exact estimate. So the
+guideline is the same Marston/CTT programme restated as a recommendation; it is **F (a what-to-do
+operationalization of the held claim), not `[E-independent]`**, and does not lift the confidence cap. Its
+value is that the wiki's held *measure apoB* view is now the standing US clinical rule, with a named
+threshold set (TG ≥150 / diabetes / achieved LDL-C <70).
+[inferred from @accaha2026; @marston2022]
+
 ## Limits
 
-- **Framework still rests on one consensus (Ference), `confidence: medium`.** CTT and Marston now supply the
-  primary magnitude and metric evidence the consensus asserted — a real strengthening — but they share the
-  consensus's research lineage (Ference co-authors Marston; CTT is its RCT family), so this is *not* the
-  independent second statement that would raise confidence. The genetic/MR/RCT triangulation Ference
-  synthesizes is strong; independent-school corroboration is still what is owed.
+- **Framework still rests on one research programme (Ference), `confidence: medium` — held after Richardson.**
+  The causal case is now triangulated across three method-classes — RCT (CTT), observational multivariable
+  (Marston), and genetic multivariable MR (Richardson) — all landing apoB-supreme, which is real strengthening
+  of *grounding*. But **all three share the Ference lineage** (Ference co-authors both Marston and Richardson;
+  CTT is the RCT family the consensus rests on), so none is the independent-school second statement that would
+  raise confidence past medium. The genetic/MR/RCT triangulation Ference synthesizes is strong; genuinely
+  independent-school corroboration (a non-Ference group, ideally a different data lineage than UKBB/CARDIoGRAM)
+  is still what is owed. `AWAITS <a non-Ference-lineage apoB-causal analysis> — an apoB-over-LDL-C causal
+  demonstration from a group with no Ference co-authorship and a distinct dataset would be the genuine
+  `[E-independent]` lift and license medium -> high.`
 - **Causal ≠ the only lever.** LDL/apoB causation does not make it the largest *absolute* lever for a
   given person — absolute benefit still scales with baseline risk
   ([[Baseline Risk and the Relative-Absolute Split]]), and the *net* of a diet or drug depends on the

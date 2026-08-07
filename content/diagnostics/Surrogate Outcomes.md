@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -17,8 +17,8 @@ relationships:
     - Stress Management and Cardiometabolic Health
     - Sarcopenia Definition and Diagnosis
 created: 2026-07-25
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 ## Why it matters
@@ -99,6 +99,26 @@ likely to be low"*, and a dedicated list of *"Key questions when using test accu
 
 
 
+## Prognostic marker vs modifiable lever — the same distinction, one step earlier
+
+The tests above assume you are already *intervening* on the marker. A prior version of the error appears
+whenever a measure merely **predicts** an outcome: a strong predictor is a **marker to stratify with**,
+not automatically a **lever to pull**. Three ways the predict->intervene step fails, and a measure that
+predicts can fail any of them:
+
+- **Reverse causation makes it a marker OF the outcome, not a cause of it** — low grip strength, low
+  VO2max, and low muscle mass all predict mortality partly because occult ill-health *lowers them*; the
+  measure sits downstream of the thing you fear, so acting on it need not move the outcome
+  ([[The U-Shaped Association Artifact]] carries the sick-quitter / reverse-causation machinery).
+- **The marker -> outcome link may be unevidenced** (the surrogate test above).
+- **The association may not survive intervention** ([[The Observational-Trial Discordance]]).
+
+So a measure earns the "modifiable lever" label only on **intervention** evidence that acting on it
+changes a patient-important outcome; absent that, it is a **prognostic metric** — genuinely useful for
+placing someone in a stratum (the decision it *does* serve), never assumed to be a treatment target.
+Worked instances: [[Grip Strength and Mortality]] and [[Cardiorespiratory Fitness and Mortality]] (both
+cheap, strong predictors held explicitly as metrics-not-levers); [[Low Muscle Mass and Mortality]]
+(mass predicts, but strength out-predicts and neither is a proven target).
 ## Red flags
 
 - A marker used because it is measurable, where the patient-important outcome was never named
@@ -555,6 +575,17 @@ that steering strength changes outcomes — the loop stays open, and the value h
 (pick the marker closest to the outcome), independently enacted -> [[Sarcopenia Definition and Diagnosis]],
 [[Testosterone Adiposity and Muscle]].
 
+**A refinement worth carrying — a *demoted* surrogate can still independently predict the hard outcome.**
+The demotion above is easy to over-read as *mass is a worthless marker*. de Santana's SR-MA finds low
+appendicular muscle **mass** still predicts all-cause mortality «cannot be completely explained by
+differences in muscle strength» (ASMI SMD −0.18, 95% CI −0.23 to −0.12)
+[@santana2021]. So the marker EWGSOP2 pushed to a
+confirmatory role is not merely a proxy for the closer-to-outcome measure (strength) — it carries
+*independent* prognostic signal. **The surrogate lesson is sharper for it:** a marker demoted for being
+a worse/noisier predictor is still a **predictor**, not a validated **target** — de Santana is
+observational, and no RCT shows raising muscle mass reduces mortality. Predictor, not target: the same
+line this page holds for every moved marker -> [[Low Muscle Mass and Mortality]].
+
 ## The inverse use — a surrogate NULL that rebuts a HARM mechanism `[2026-08-04, Johnson LA-inflammation]`
 
 Every case above uses a surrogate to argue *for* something (a benefit, a target) or asks whether a body
@@ -584,6 +615,28 @@ diet increases the concentration of inflammatory markers»*
 **Generality for the rule:** a surrogate is a two-edged proxy — its evidentiary weakness is invariant to
 whether it is wielded to *establish* an effect or to *rebut* one. Filing a marker-null as a
 mechanism-rebuttal (not an outcome verdict) is the surrogate discipline applied in the negative.
+
+## A body grades DISEASE certainty off surrogates — and its own incidence grades sit higher `[2026-08-06, EFSA sugars]`
+
+EFSA 2022 assigns *causal-relationship certainty* to chronic-disease outcomes for added/free sugars —
+«moderate for obesity and dyslipidaemia (> 50-75% probability), low for NAFLD/NASH and T2DM
+(> 15-50% probability) and very low for hypertension (0-15% probability)» — but names the endpoints the
+RCTs actually measured: «based on data from RCTs which investigated the effect of 'high' vs. 'low' sugar
+intake on **surrogate disease endpoints, i.e. body weight, liver fat, fasting glucose, fasting
+triglycerides and SBP**.» [@efsasugars2022, Summary] So the certainty in the *disease* relationship is transmitted through a
+surrogate — EFSA is transparent about the step, exactly this page's discipline.
+
+**The within-source contrast is the sharp part.** In the *same* opinion, EFSA grades **SSBs** «high for
+obesity, T2DM, HTN and CVD (> 75-100% probability)» — and those come from prospective cohorts on actual
+disease *incidence*, not surrogates. [@efsasugars2022, §12.2] So inside one document, the incidence-graded exposure (SSBs)
+outscores the surrogate-graded one (added/free sugars %E) on the same diseases. That is the certainty-
+follows-measurability gradient (above) seen *within a single body's own assessment*, not just across two
+guidelines — and it is not fully clean, because SSBs are also the additive-energy vehicle, so design and
+exposure both differ; recorded as a corroborating instance of the gradient, not an independent
+controlled contrast. **NON-independent within the source; a fourth body (after WHO SFA, WHO sodium,
+USPSTF) transparently grading disease certainty off surrogates** — corroborates the rule, no
+`[E-independent]` claimed. -> [[Free Sugars Intake]]
+[inferred from @efsasugars2022]
 
 ## The archetypal DISCONNECT — the surrogate moved, the outcome did not (Ramsden MCE) `[2026-08-04]`
 

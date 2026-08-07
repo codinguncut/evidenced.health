@@ -4,7 +4,7 @@ question: How much potassium, and what does raising intake actually buy -- for w
 aliases: [Potassium, Dietary Potassium, Potassium Intake, Potassium Intake and Cardiovascular Risk, Potassium and Stroke, WHO Potassium Guideline, Potassium Supplementation]
 authors: [Aburto, Nancy J; Hanson, Sara; Gutierrez, Hialy; Hooper, Lee; Elliott, Paul; Cappuccio, Francesco P; Neal, Bruce]
 sources: [Aburto - Potassium Cardiovascular 2013, Neal - SSaSS Salt Substitution Cardiovascular 2021]
-cluster: cardiometabolic-exposures
+cluster: sodium-bp
 confidence: medium
 relationships:
   related_to:
@@ -15,7 +15,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 

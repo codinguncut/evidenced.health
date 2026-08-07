@@ -4,7 +4,7 @@ question: Across the popular named diet programmes, is any clearly superior for 
 aliases: [Comparing Named Diets, Are Named Diets Interchangeable, Diet Program Comparison, Best Named Diet, Atkins DASH Zone Ornish Comparison, 14 Named Diets Network Meta-Analysis, Which Diet Is Best]
 authors: [Ge, Long; Johnston, Bradley C; Guyatt, Gordon H]
 sources: [Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022]
-cluster: weight-management
+cluster: weight-loss-diets
 confidence: medium
 relationships:
   related_to:
@@ -17,7 +17,7 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
 self_critiqued: 2026-08-04
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**

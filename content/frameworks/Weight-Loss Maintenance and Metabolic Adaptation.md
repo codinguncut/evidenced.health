@@ -17,7 +17,7 @@ relationships:
     - Testosterone Adiposity and Muscle
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -110,6 +110,13 @@ regain-on-cessation pattern of GLP-1 drugs is the pharmacological mirror image o
 remove the exogenous satiety signal and the endogenous deficit Sumithran measured reasserts itself. This
 is a directional mechanistic synthesis, not an outcome finding — no held trial has tested *correct these
 specific hormones -> prevent regain*.
+
+The STEP-1 off-treatment extension is the clean empirical demonstration of limb (b): one year after
+stopping semaglutide, participants regained \~two-thirds of their prior weight loss and their
+cardiometabolic gains reverted toward baseline — the defended set-point reasserting once the exogenous
+satiety signal is withdrawn (magnitudes on [[Semaglutide for Cardiovascular Risk in Obesity]] → *Durability*;
+extracted there, not re-listed in this page's `sources:`). It is corroboration of the mechanism this page
+holds, not an independent test of it.
 
 ## What it licenses, and the limits that bound it
 

@@ -2,8 +2,8 @@
 type: framework
 question: For a primary-prevention adult, does a statin help — and does a zero coronary calcium score change that decision?
 aliases: [Statin Primary Prevention, Power of Zero, CAC Zero Statin, Statin CAC, USPSTF Statin, Statin Number Needed to Treat, Statin Deferral]
-authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org)]
-sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010]
+authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org); Blumenthal, Roger S]
+sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -13,9 +13,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Semaglutide for Cardiovascular Risk in Obesity
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
+    - LDL Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
@@ -137,6 +138,46 @@ does not settle it (no RCT):
 This is a genuine joined-issue candidate (risk-score-threshold vs imaging-guided allocation) but is
 **not adjudicated here** — it AWAITS a source that either randomizes CAC-guided treatment or is an
 independent institutional appraisal of the imaging-vs-score question.
+
+## ACC-AHA 2026 goes furthest — CAC mapped directly onto LDL-C goals, and a lower start threshold `[2026-08-06]`
+
+The 2026 US dyslipidaemia guideline (superseding the 2018 cholesterol guideline USPSTF sits alongside)
+operationalizes CAC further than any body above: it maps the Agatston score **directly onto a treatment
+goal**, not merely onto a defer/treat call. CAC screening is recommended in «men at least 40 years of age
+and women at least 45 years of age».
+
+| CAC (Agatston) | ACC-AHA 2026 action | LDL-C goal | COR |
+|---|---|---|---|
+| >=1000 AU | statin first-line, >=50% reduction | <55 mg/dL (1.4 mmol/L) | 1 |
+| >=300-999 AU | >=50% reduction (reasonable to intensify to <55) | <70 mg/dL (1.8 mmol/L) | 1/2a |
+| >=100-299 AU or >=75th pctile | treat | <70 mg/dL (1.8 mmol/L) | 1 |
+| 1-99 AU and <75th pctile | mod-intensity statin, >=30-49% reduction | <100 mg/dL (2.6 mmol/L) | 2a |
+
+[@accaha2026] So the same CAC=0 → defer logic this page
+holds (Nasir) is joined, at the top end, by CAC≥1000 → treat-as-very-high (goal <55) — the symmetric
+upward move, and CAC>300 ≈ secondary-prevention risk, which ESC-EAS 2025 also notes.
+
+**And ACC-AHA 2026 starts LLT LOWER than USPSTF — a within-US divergence traced to the calculator.**
+USPSTF prescribes at ≥10% 10-year risk (Pooled Cohort Equations, which it concedes overpredict) and
+selectively offers at 7.5-<10%. ACC-AHA 2026 uses the newer **PREVENT-ASCVD** equations and can act well
+below that: LLT «can be considered» at borderline (3-<5%) and «should be considered» at intermediate
+(5-<10%), ages 30-79.
+
+| Parameter | USPSTF 2022 | ACC-AHA 2026 | Same quantity? |
+|---|---|---|---|
+| Calculator | Pooled Cohort Equations (overpredicts) | PREVENT-ASCVD | **No** |
+| "Prescribe" threshold | ≥10% 10-y risk | high (≥10%); treat-to-goal | partial |
+| Lower action band | 7.5-<10% "selectively offer" | 3-<5% consider / 5-<10% should-consider | **No** — PREVENT reads lower than PCE for the same person |
+
+[@accaha2026]
+
+**So the two US bodies' thresholds are not directly comparable** — PREVENT and the Pooled Cohort Equations
+give *different numbers for the same person* (PREVENT was built partly because PCE overpredicts), so a
+«3-<5% PREVENT» is not a looser «7.5% PCE». This is the same different-instrument distinction as
+PREVENT-vs-SCORE2 -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]], not a genuine
+evidence disagreement. The direction of the change is still notable: ACC-AHA 2026 is willing to *start*
+pharmacotherapy at lower estimated risk than USPSTF, and to name a numeric goal once it does.
+[inferred from @accaha2026; @uspstf2022]
 
 
 

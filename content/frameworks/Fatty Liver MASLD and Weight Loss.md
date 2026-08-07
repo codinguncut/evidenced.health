@@ -2,13 +2,14 @@
 type: framework
 question: For fatty liver (MASLD/NAFLD), what modifiable lever works, at what dose, and what outcome does it actually change?
 aliases: [NAFLD, MASLD, Fatty Liver, MASH, NASH, Hepatic Steatosis, Fatty Liver Disease, MASLD Lifestyle]
-authors: [European Association for the Study of the Liver (org)]
-sources: [EASL - MASLD Clinical Practice Guidelines 2024]
+authors: [European Association for the Study of the Liver (org); Chung, Mei; Lichtenstein, Alice H]
+sources: [EASL - MASLD Clinical Practice Guidelines 2024, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
 cluster: masld
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-07-30
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -17,6 +18,8 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
     - Semaglutide for Cardiovascular Risk in Obesity
     - Does Weight Loss Reduce Cardiovascular Events
+    - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
+    - Free Sugars Intake
 ---
 
 # Fatty Liver (MASLD) and Weight Loss
@@ -85,6 +88,35 @@ damage.»
   markers, «stronger and more consistent for fibrosis than for steatosis» — but «RCTs... are scarce
   and negative or inconclusive, no firm conclusions can be drawn».
 [@easl2024, diet quality / physical activity]
+
+## Is fructose the specific hepatic culprit? Mostly no — it is an energy story `[2026-08-06, Chung 2014]`
+
+EASL's diet lever names «avoiding sugar-sweetened beverages» and finds low-carb and low-fat «similarly
+effective» for liver fat — both consistent with the driver being **energy, not the fructose molecule**. A
+gold SR-MA of controlled-feeding trials pins this down and **defuses the "fructose is uniquely
+hepatotoxic" claim** rather than confirming it:
+
+- **At equal calories, fructose is not shown to raise liver fat more than glucose.** «The 2 isocaloric
+  monosaccharide diets did not alter IHCLs (+0.11% ± 2.1%)»; fructose and glucose «did not differ in any
+  hepatic outcome measure». `[@chung2014, Isocaloric fructose]`
+- **The liver-fat rise is the ADDED-ENERGY arm.** Hypercaloric fructose raised IHCL 54% (95% CI 29-79%)
+  vs weight-maintenance — but in healthy young men, at supra-physiological doses, from a single research
+  group, with baseline liver fat far below the NAFLD threshold; and at equal excess energy fructose ≈
+  glucose. `[@chung2014, Hypercaloric]`
+- **Chung's own verdict:** the liver-health associations «appear to be confounded by excessive energy
+  intake», and evidence is «not sufficiently robust to draw conclusions regarding effects of fructose,
+  HFCS, or sucrose consumption on NAFLD». `[@chung2014, Conclusions]`
+
+**So the decision-relevant lever is cutting the excess (liquid) energy — SSB, fruit juice, HFCS — not
+avoiding the fructose molecule per se, and certainly not whole fruit at normal intakes** (a modest
+fructose dose in a fibre matrix, not a hepatic bolus) -> [[Free Sugars Intake]]. The lever is the same
+energy/weight lever EASL already ranks first; fructose-restriction adds no distinct mechanism beyond the
+calories it removes. This is the hepatic-tissue instance of the energy-balance-vs-nutrient-source finding
+-> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]. **Guard:** Chung's
+isocaloric leg is a *single low-ROB study*, so this is *insufficient evidence* for a fructose-specific
+effect, not proof of no effect; and the fructose->de-novo-lipogenesis mechanism is real even though the
+whole-organism liver-fat outcome at equal energy is null (a mechanism-vs-outcome gap).
+[inferred from @chung2014]
 
 ## Bariatric surgery — the large lever for class II/III obesity
 

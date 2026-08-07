@@ -2,21 +2,24 @@
 type: tension
 question: Does dietary carbohydrate, via insulin, drive fat storage and lower energy expenditure independently of calories (a metabolic advantage of carb restriction), or is fat gain governed by energy balance with macronutrient split close to irrelevant at equal calories?
 aliases: [Carbohydrate-Insulin Model, CIM vs EBM, Energy Balance Model of Obesity, Is a Calorie a Calorie, Metabolic Advantage of Low-Carb, Does Insulin Drive Obesity, Carbohydrate Insulin Hypothesis]
-authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D; Szczerba, Edyta]
-sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
+authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D; Szczerba, Edyta; Chung, Mei; Lichtenstein, Alice H]
+sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
 cluster: weight-management
 confidence: medium
 relationships:
   related_to:
+    - Does Weight Loss Reduce Cardiovascular Events
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
     - Named Diet Programs Compared
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Free Sugars Intake
     - Is the Food Category Doing Any Work
     - LDL ApoB and Cumulative Exposure
+    - Fatty Liver MASLD and Weight Loss
+    - The Observational-Trial Discordance
 created: 2026-08-01
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 **The decision this bears on:** for someone choosing what to eat to lose or avoid gaining fat, does the
@@ -171,6 +174,48 @@ refutation above — it adds a *separate* refutation of a *separate* claim. Thre
 stratum**, leaving the model's live remainder as the **appetite/adherence** channel (GL and protein
 acting on spontaneous *intake*) — which sits inside the energy-balance account, not against it.
 [inferred from @gardner2018; @ludwig2021cim]
+
+## The fructose-hepatotoxicity variant — the same isocaloric test defuses it (Chung 2014) `[2026-08-06]`
+
+The CIM has a **sibling**: the claim that fructose (or sugar) is a *specific hepatic toxin* — that it
+drives liver-fat accumulation and metabolic disease by a molecular route independent of the calories it
+carries (the Lustig-style "fructose hypothesis"). It is the same shape as the CIM — *a particular
+macronutrient does special harm at equal energy* — and it meets the same test: **exchange it for another
+sugar at equal calories and see if the harm survives.** A gold SR-MA of controlled-feeding trials ran
+exactly that partition. It is a **genuinely different research base** (Tufts fructose/NAFLD literature,
+not the Hall/EBM school), a different exposure (the fructose molecule) and a different outcome
+(intrahepatic liver fat), so it is a *separate route* to the energy-balance verdict — though it shares
+the isocaloric-comparison *design logic*, so it is convergent support, not a clean independent-[E] route.
+
+**Parameter table** (op-weave 2a) — built first. The fourth column is the point.
+
+| Parameter | Fructose-hepatotoxicity prediction (the nutrient-source variant) | Chung 2014 controlled-feeding evidence | Same quantity? |
+|---|---|---|---|
+| Liver fat under **isocaloric** fructose-for-glucose exchange | fructose specifically raises liver fat independent of energy | «The 2 isocaloric monosaccharide diets did not alter IHCLs (+0.11% ± 2.1%)»; «the 2 isocaloric fructose and glucose diets did not differ in any hepatic outcome measure» | **YES — same quantity (liver fat, equal energy); no fructose-specific effect** |
+| Liver fat, fructose vs glucose at **equal EXCESS** energy (neutral comparison) | fructose worse than glucose | «no significant difference between the 2 monosaccharides» (I2=0%; CI spans the null) | **YES — no fructose-specific effect once energy is matched** |
+| Liver fat under **hypercaloric fructose** (energy ADDED) | fructose overfeeding raises liver fat | +54% IHCL vs weight-maintenance (95% CI 29-79%), but baseline «much less than 5.5%», healthy young men, single Swiss group, «high potential for a selected outcome reporting bias» | **YES on direction — but this is the ADDED-ENERGY arm, and fructose≈glucose within it** |
+| Chung's own attribution | the fructose molecule is hepatotoxic | associations «appear to be confounded by excessive energy intake»; evidence «not sufficiently robust to draw conclusions» | **NO — Chung attributes to energy, not the molecule** |
+
+[@chung2014]
+
+**The reading — and the guard against overclaiming.** At **equal calories**, fructose is not shown to
+harm the liver more than glucose; the liver-fat rise appears only when fructose is **added as excess
+energy**, and even that arm is small-N, in healthy men, at supra-physiological doses, from a single group,
+with baseline liver fat far below disease range. So the fructose-toxicity claim dissolves the same way the
+CIM does: **the harm tracks excess energy, not the sugar molecule.** But Chung's verdict is *insufficient
+evidence*, not *no effect* — the isocaloric leg is a single low-ROB study — so this **defuses "fructose is
+uniquely hepatotoxic"; it does not prove fructose harmless.** Note also the **mechanism-vs-outcome gap**:
+the fructose->hepatic-de-novo-lipogenesis pathway is real (postprandial DNL rose +48% on fructose vs
+glucose in one RCT), yet the whole-organism liver-fat *outcome* at equal energy is null — a naive
+mechanism reversed by whole-organism energy accounting, exactly the telos's *net-effect-not-intended*
+caution. [inferred from @chung2014]
+
+**Not a tension — a convergent third instance.** The not-joined check fires: Chung and the EBM answer the
+*same* higher-order question (does macronutrient source change fat storage at equal energy?) and reach the
+*same* answer (no), so this is agreement by an independent literature, filed as convergent support, not a
+`[[tension]]`. It **raises confidence in the energy-balance pole modestly** — a third domain (hepatic fat)
+falls to the isocaloric test — without a clean-[E] tag, because the shared isocaloric-design logic is the
+honest limit on the independence. -> [[Fatty Liver MASLD and Weight Loss]], [[Free Sugars Intake]]
 
 ## Hidden insight
 

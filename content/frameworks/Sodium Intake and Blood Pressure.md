@@ -4,7 +4,7 @@ question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline]
 authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce]
 sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021]
-cluster: cardiometabolic-exposures
+cluster: sodium-bp
 nucleus: true
 confidence: medium
 relationships:
@@ -15,7 +15,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 

@@ -4,7 +4,7 @@ question: Does dietary fibre change patient-important outcomes (mortality, T2D, 
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
 authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org)]
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018]
-cluster: cardiometabolic-exposures
+cluster: fibre
 nucleus: true
 confidence: medium
 relationships:
@@ -17,7 +17,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
 created: 2026-07-29
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-08-05
 ---
 

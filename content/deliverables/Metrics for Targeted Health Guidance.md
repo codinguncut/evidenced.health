@@ -167,7 +167,7 @@ mortality predictors and is trivial to capture with a hand dynamometer. The wiki
 second-hand — strength training reduces mortality (all-cause RR 0.85, 0.79-0.93, though on very-low-
 certainty observational evidence) [@momma2022, effects table] — and the grip-strength-as-predictor literature itself is *not ingested*. So grip
 is a reasonable, cheap add for an older or frailty-risk person, but its evidential home in this wiki is
-currently a named gap, not a held source.
+currently a named gap, not a held source.]: UK Biobank n=502,293, all-cause HR \~1.16-1.20 per 5 kg lower grip, \~1.48 per 1 SD (out-ranks SBP + total activity in-model), and +0.013 C-index on an office-based score. Recompile this section to replace "not ingested / named gap" with the held source; grip remains a predictor/metric, not a proven lever. Deferred: deliverable content is recompiled via Compile, not edited in an ingest.]
 
 ## The skip-list — what not to capture, and why
 

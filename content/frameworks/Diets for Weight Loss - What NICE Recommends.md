@@ -4,7 +4,7 @@ question: Which dietary approach to weight loss should be offered, to whom, and 
 aliases: [NICE Weight Loss Diets, Total Diet Replacement, Low Energy Diets, TDR, NG246 Diets, Weight Loss Diet Comparison]
 authors: [National Institute for Health and Care Excellence (org); Lean, Michael EJ]
 sources: [NICE - NG246 Evidence Review F, Lean - DiRECT T2D Remission 2018]
-cluster: weight-management
+cluster: weight-loss-diets
 confidence: medium
 relationships:
   related_to:
@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 self_critiqued: 2026-07-26
 created: 2026-07-26
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a

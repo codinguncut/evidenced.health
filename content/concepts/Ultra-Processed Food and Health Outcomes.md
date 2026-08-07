@@ -4,7 +4,7 @@ question: Does greater exposure to ultra-processed food (Nova classification) ra
 aliases: [Ultra-Processed Food, UPF, Nova Classification, Ultra-Processed Diet, UPF Health Outcomes, Processed Food Health]
 authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D]
 sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019]
-cluster: evidence-appraisal
+cluster: cardiometabolic-exposures
 confidence: low
 self_critiqued: 2026-08-04
 relationships:
@@ -17,7 +17,7 @@ relationships:
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily

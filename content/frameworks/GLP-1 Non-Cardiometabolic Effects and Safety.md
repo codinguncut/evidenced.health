@@ -4,17 +4,20 @@ question: For someone taking a GLP-1 receptor agonist, which non-cardiometabolic
 aliases: [GLP-1 Adverse Events, GLP-1 Safety Ledger, GLP-1 Noncardiometabolic Outcomes, Semaglutide Side Effects, GLP-1 Harm Ledger, GLP-1 Cancer Risk, GLP-1 Pancreatitis, GLP-1 Thyroid]
 authors: [Yang, Kaijie; Liu, Changyuan; Guo, Qiqiang; Li, Yongze]
 sources: [Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
-cluster: weight-management
+cluster: glp1
+nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Semaglutide for Cardiovascular Risk in Obesity
+    - GLP-1 and Lean Mass
+    - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
     - Rating Certainty of Evidence
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
     - The U-Shaped Association Artifact
 created: 2026-08-04
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 
@@ -199,8 +202,11 @@ follows: the evidence base is «insufficient for definitive conclusions of high 
   — passive ascertainment, heterogeneous definitions, no independent adjudication: susceptible to
   misclassification and reporting bias [@yang2026].
 - **Lean-mass / sarcopenia is not in this umbrella** — fracture (reduced) is the only musculoskeletal
-  outcome here; the dedicated body-composition question stays owed to a separate muscle-health
-  meta-analysis, not cashed by Yang. G.
+  outcome here. The dedicated body-composition question is now cashed on
+  [[GLP-1 and Lean Mass]] (Laverde SR+MA): absolute muscle *is* lost (semaglutide −5.44 kg) while the
+  lean-*ratio* improves, function is unmeasured, and the defense is resistance training + protein — the
+  worry inverts in the older/sarcopenia-risk stratum. So this page's *reduced fracture* signal and the
+  lean-mass cost are two musculoskeletal facts that must be read together, not one reassuring the other.
 
 [inferred from @yang2026]
 

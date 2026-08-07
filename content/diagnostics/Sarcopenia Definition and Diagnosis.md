@@ -2,27 +2,34 @@
 type: diagnostic
 question: How is sarcopenia defined and diagnosed in an older adult, and what should be measured — muscle mass, strength, or function?
 aliases: [Sarcopenia, EWGSOP2, Muscle Failure, Low Muscle Strength, Sarcopenia Diagnosis, Sarcopenic Obesity, F-A-C-S]
-authors: [Cruz-Jentoft, Alfonso J; Bahat, Gulistan; Bauer, Jurgen; Boirie, Yves; Bruyere, Olivier]
-sources: [Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
-cluster: activity
+authors: [Cruz-Jentoft, Alfonso J; Bahat, Gulistan; Bauer, Jurgen; Boirie, Yves; Bruyere, Olivier; de Santana, Felipe M]
+sources: [Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021]
+cluster: muscle
+nucleus: true
+confidence: medium
 relationships:
   related_to:
     - Testosterone Adiposity and Muscle
     - Menopause and the Shifting Levers
     - Protein and Resistance Training for Muscle and Strength
     - Muscle-Strengthening Activity and Mortality
+    - Low Muscle Mass and Mortality
+    - Grip Strength and Mortality
     - Surrogate Outcomes
     - Rating Outcome Importance
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
-The operational definition of sarcopenia — the EWGSOP2 (2019) European consensus. Single-source,
-gold-tier consensus; the object here is a **case definition + diagnostic algorithm**, not a
-treatment-effect estimate. A definition is not an outcome finding: the predictive claims below are
-prognostic *association* the group asserts, and the cut-offs are *normative* (set against a
-healthy-young reference, not validated against outcomes).
+[inferred from @cruzjentoft2019]
+The operational definition of sarcopenia — the EWGSOP2 (2019) European consensus, now paired with de
+Santana's SR-MA for the prognostic (mass -> mortality) evidence the definition alone does not carry. The
+definitional object here is a **case definition + diagnostic algorithm**, not a treatment-effect
+estimate. A definition is not an outcome finding: the predictive claims below are prognostic *association*
+the group asserts, and the cut-offs are *normative* (set against a healthy-young reference, not validated
+against outcomes).
 
 ## Why it matters — the reversal from mass to strength
 
@@ -42,6 +49,22 @@ Why mass lost primacy: strength predicts the outcomes better, AND mass/quality �
 primary parameters» because they are technically hard to measure. This is the [[Surrogate Outcomes]]
 discipline enacted on a case definition — the easy-to-image quantity (mass) was the well-lit surrogate;
 strength and function are closer to what the patient cares about (staying on their feet, independent).
+
+**But the demotion is *relative*, not a dismissal — mass still independently predicts mortality
+(de Santana 2021).** EWGSOP2's «strength is better than mass» is a claim about which is the *better/primary*
+predictor; it is not a finding that mass carries no signal. de Santana's gold-tier SR-MA (9 cohorts,
+n=10,028 community-dwelling non-frail ≥65) finds low appendicular muscle mass «inversely associated with
+mortality» (ASMI SMD −0.18, 95% CI −0.23 to −0.12) and — the refinement — the link «cannot be completely
+explained by differences in muscle strength» (grip-strength was a *non-significant, underpowered*
+meta-regression moderator, so mass's independent signal is *consistent with* the data, not proven by it).
+So «not only skeletal muscle quality matters ... but also its quantity»
+[@santana2021]. This **refines, does not contradict**,
+the demotion (not-joined check (ii): different scope — *primary predictor* vs *independent signal*; both
+hold): keep strength as the primary screen (cheaper, more reliable, better single predictor), but read
+mass as prognostically load-bearing, most of all in the **overweight/obese** older adult where the
+mass-mortality link is strongest. Magnitude, modifiers, and the predictor-vs-target line live on
+-> [[Low Muscle Mass and Mortality]]. It remains a **predictor, not a proven treatment target** — no RCT
+shows raising mass cuts mortality, so the open loop below stands.
 
 ## The three-state operational definition
 
@@ -65,7 +88,10 @@ treatment need not wait for imaging.
 - **Find** — SARC-F questionnaire (self-reported; high specificity, low-to-moderate sensitivity, so it
   «will mostly detect severe cases»).
 - **Assess** strength — grip strength (calibrated dynamometer; a reliable surrogate for whole-body
-  strength) or chair-stand (five rises, a leg-strength proxy).
+  strength) or chair-stand (five rises, a leg-strength proxy). The prognostic weight behind screening on
+  strength is now held at scale: low grip predicts all-cause + cause-specific mortality (Celis-Morales, UK
+  Biobank n=502,293) and adds discrimination to an office-based risk score -> [[Grip Strength and Mortality]];
+  Celis-Morales used the near-identical FNIH weakness cut-off (<26 kg men / <16 kg women).
 - **Confirm** quantity — DXA or BIA in clinical care; DXA/MRI/CT in research. (Calf circumference <31 cm
   is a low-resource proxy where no instrument is available.)
 - **Severity** — gait speed (the advised measure), SPPB, TUG, or 400-m walk.
@@ -97,6 +123,9 @@ edge of a reference distribution, not a knee in a dose-response curve.
 - **Primary** (age-related, no other cause) vs **secondary** (a systemic/inflammatory disease, physical
   inactivity, or **inadequate energy/protein intake**) — the secondary causes are the modifiable handle
   and name the levers: activity and protein -> [[Protein and Resistance Training for Muscle and Strength]].
+  The protein handle is stratum-specific here: aging raises the per-meal protein/leucine threshold
+  ([[Anabolic Resistance]]), so the older-adult target (1.0-1.2 g/kg/d, \~25-30 g protein per meal) sits
+  above the general-adult RDA -> [[Protein Intake for Older Adults]].
 - **Acute** (<6 months, usually acute illness/injury) vs **chronic** (≥6 months, progressive, raises
   mortality risk) — newly introduced to motivate **periodic reassessment** so decline is caught early.
 - **Sarcopenic obesity** (reduced lean mass + excess adiposity; obesity worsens sarcopenia via fat
@@ -126,9 +155,13 @@ edge of a reference distribution, not a knee in a dose-response curve.
 
 ## Limits — the open loop
 
-- **Single-source consensus.** Expert working-group synthesis, not a systematic review; symmetric
-  standards apply — the cut-offs and the strength-over-mass claim are asserted with narrative backing,
-  not a pooled effect estimate.
+[inferred from @cruzjentoft2019; @santana2021]
+
+- **The definition is single-source consensus.** The case definition, algorithm and cut-offs are EWGSOP2
+  expert working-group synthesis, not a systematic review; symmetric standards apply — the cut-offs and
+  the strength-over-mass claim are asserted with narrative backing, not a pooled effect estimate. The one
+  cross-source addition is de Santana's SR-MA on the mass -> mortality prognosis (above), which is
+  observational.
 - **Cut-offs are normative, not outcome-anchored** (−2 SD vs healthy young), so they answer *is this
   person low vs a young reference?*, not *below what value does risk rise?*.
 - **Sarcopenic obesity undefined** (above) — a named `type-G` gap the downstream pages inherit.

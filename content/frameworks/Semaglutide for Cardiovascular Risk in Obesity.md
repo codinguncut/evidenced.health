@@ -2,9 +2,9 @@
 type: framework
 question: For someone with obesity, does treating it with semaglutide reduce cardiovascular events — and does that evidence reach primary prevention?
 aliases: [Semaglutide, GLP-1 Cardiovascular, SELECT Trial, Wegovy CVD, GLP-1 Receptor Agonist Obesity, Obesity Pharmacotherapy CVD]
-authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022]
-cluster: weight-management
+authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Van Gaal, Luc F; Lingvay, Ildiko; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022]
+cluster: glp1
 confidence: medium
 relationships:
   related_to:
@@ -16,9 +16,12 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Surrogate Outcomes
+    - Weight-Loss Maintenance and Metabolic Adaptation
+    - GLP-1 and Lean Mass
+    - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
 created: 2026-07-28
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 The telos puts pharmacotherapy in scope because **a drug is often the realistic alternative to a
@@ -159,6 +162,38 @@ Counter-weight: **serious** adverse events were *lower* on semaglutide («33.4%�
 weight benefit reverses on stopping — so this is a **sustained commitment**, the same
 *return-on-investment* framing [[Lifetime Benefit - The Frame for Younger Adults]] attaches to lifelong
 preventive therapy: a longer horizon is a longer treatment duration, not only a larger gain.
+
+
+[@wilding2022]
+### Durability — two-thirds of the loss returns within a year off the drug
+
+*Reverses on stopping* is not a hedge; the STEP-1 off-treatment extension **quantifies** it. When both
+semaglutide 2.4 mg AND the lifestyle programme were stopped at week 68, participants «regained a mean of
+11.6 percentage points (SD: 7.7) of body weight in the semaglutide arm versus 1.9 percentage points (SD:
+4.8) in the placebo arm» over the following year — i.e. «participants regained two-thirds of their prior
+weight loss, with similar changes in cardiometabolic variables»
+[@wilding2022].
+
+| Parameter (extension analysis set) | Week 68 (end of treatment) | Week 120 (1 yr off) | Same quantity? |
+|---|---|---|---|
+| Mean % body-weight change from baseline (sema) | «17.3%» loss | net «5.6%» loss | Yes — same construct, different timepoint |
+| Regain over the off-treatment year (sema) | — | «11.6 percentage points» (≈2/3 of loss) | Yes |
+| Holding ≥5% loss from baseline (sema) | 86.4% | «48.2%» | Yes — same threshold |
+
+Cardiometabolic gains reverted too: «Cardiometabolic improvements seen from week 0 to week 68 with
+semaglutide reverted towards baseline at week 120 for most variables» (SBP/DBP back to baseline; CRP,
+HbA1c, lipids drifted back with only a small residual advantage) — and the trialists conclude «ongoing
+treatment is required to maintain improvements in weight and health»
+[@wilding2022]. Two decision consequences:
+
+- **Adherence is the effect, over years not months.** A GLP-1 course is not a one-time correction that
+  banks a permanent gain; it is a *maintained state* whose benefit decays on the timescale of stopping.
+  The realistic comparator to a lifestyle change must price lifelong cost, tolerability and reversibility.
+- **The regain is defended physiology, not relapse of resolve** -> [[Weight-Loss Maintenance and Metabolic Adaptation]]:
+  removing the exogenous satiety signal lets the post-loss appetite-hormone deficit reassert — the same
+  mechanism that makes *unaided* lifestyle maintenance fail. Note the caveat the source itself flags: the
+  extension also **withdrew the lifestyle support** (unlike STEP-4, which kept it), so part of the rapid
+  regain is the loss of *both* props, not the drug alone.
 
 
 [@lincoff2023]

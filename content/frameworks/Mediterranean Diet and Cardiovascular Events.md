@@ -4,7 +4,8 @@ question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
 authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco]
 sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018]
-cluster: cardiometabolic-exposures
+cluster: dietary-patterns
+nucleus: true
 confidence: medium
 relationships:
   related_to:
@@ -15,7 +16,7 @@ relationships:
     - Surrogate Outcomes
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-08-05
 ---
 
@@ -70,7 +71,7 @@ listed source.)
 3. **The contrast was a small pattern shift, not diet-vs-junk.** Most participants ate near-Mediterranean
    at baseline and the control got healthy-diet advice; the largest between-group differences were in
    **fat subtypes** (the supplied EVOO and nuts) plus more fish and legumes. That the 30% came from a
-   *modest* shift over an already-decent diet cuts both ways — impressive per unit change, but not a
+   *modest* shift over a diet already close to the studied patterns cuts both ways — impressive per unit change, but not a
    licence to expect the same from adding EVOO to a poor diet.
 
 ## The fat-quality channel — corroborates the SFA replacement story on HARD outcomes

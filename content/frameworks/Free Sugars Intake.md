@@ -2,9 +2,10 @@
 type: framework
 question: How much free sugar, and which outcome is the limit actually protecting?
 aliases: [Free Sugars, Added Sugars, Sugar Intake, Sugars, WHO Sugars Guideline, 10% Energy Sugars]
-authors: [World Health Organization (org)]
-sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023]
-cluster: cardiometabolic-exposures
+authors: [World Health Organization (org); European Food Safety Authority (org)]
+sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022]
+cluster: sugars-sweeteners
+nucleus: true
 confidence: medium
 relationships:
   related_to:
@@ -15,8 +16,8 @@ relationships:
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-08-04
-self_critiqued: 2026-08-01
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
@@ -517,6 +518,133 @@ compared, so nothing here is a *tension*.
 NUGAG Subgroup and reviewer pool), so its agreement is **not** type-E independent corroboration — the same
 counting rule as *Why WHO and its own reviews are one source, not three* above. It extends this page's
 substitution frame; it does not add an independent backing.
+
+## The beverage limb — SSB dose-response to cardiometabolic outcomes `[2026-08-06, Qin 2020]`
+
+The body-weight rows above are the guideline's own free-sugars-%E evidence. The **beverage vehicle** —
+sugar-sweetened beverages, the dominant free-sugars carrier and the exposure behind Te Morenga's child
+cohort signal (OR 1.55) — now has an adult cardiometabolic dose-response, from a 39-cohort dose-response
+meta-analysis. Per **250 mL/d increase** in SSB intake [@qin2020, Abstract]:
+
+| Outcome | SSB RR per 250 mL/d (95% CI) | Shape |
+|---|---|---|
+| Type 2 diabetes | **1.19 (1.13-1.25)** | linear (Pnon-lin 0.706) |
+| Obesity | 1.12 (1.05-1.19) | linear (Pnon-lin 0.359) |
+| Hypertension | 1.10 (1.06-1.14) | linear (Pnon-lin 0.510) |
+| All-cause mortality | 1.04 (1.01-1.07) | linear (Pnon-lin 0.259) |
+
+**Every SSB curve is monotone-linear over the studied range — no knee, no plateau**, a fresh instance of
+the falsified knees-and-plateaus prior -> [[The U-Shaped Association Artifact]]. Two things this does and
+does NOT license:
+
+- **It is the ADDITIVE (ad-libitum) arm, not the isocaloric one.** Qin measures SSB *as consumed*, which
+  adds liquid calories on top of the diet — so the positive dose-response is fully consistent with the
+  isoenergetic-exchange **null** two sections up (0.04 kg when free sugars swap for other carbohydrate at
+  equal energy). SSB harms **because it adds energy in a poorly-compensated liquid form** — the same
+  reading the guideline's own weight evidence gives (WHO's Remarks attribute the excess weight to excess
+  *energy* intake, quoted in the body-weight section above). The T2DM/hypertension/mortality limbs are new
+  outcomes Qin adds; the direction is the energy story extended past body weight.
+- **Association, not effect — the authors say so.** «the results should be interpreted cautiously because
+  the present analyses were based on only cohort but not intervention studies», with residual confounding
+  «cannot be ruled out» and self-reported exposure. So these are the observational limb of
+  [[The Observational-Trial Discordance]], not a causal magnitude. The T2DM RR is the firmest (tight CI,
+  19 cohorts) but still cohort-only.
+- **Artificially-sweetened beverages carry a similar-sized positive association** (per 250 mL/d: T2DM
+  1.15, obesity 1.21, mortality 1.06), which is the **reverse-causation candidate** — diet soda is
+  chosen by the already-at-risk — and Qin runs no MR/reverse-causation check. Do not read the ASB
+  association as an ASB *effect*; it is the artifact-suspect arm -> [[The U-Shaped Association Artifact]],
+  [[Non-Sugar Sweeteners]].
+`[@qin2020, /02/03 — magnitudes and shapes are Qin's; the additive-arm reading and the tie to the isoenergetic null are this page's]`
+
+## A fourth body sets NO number at all — EFSA's risk assessment could find no threshold `[2026-08-06, EFSA 2022]`
+
+The three bodies above all attach a number (`<10%`, `<5%`, «preferentially lower»). **EFSA 2022, asked
+for exactly a number, declined to give one** — and the reason is the interesting part, because it is
+**not** disagreement about the evidence.
+
+EFSA's task was a **UL risk assessment**: find the threshold below which sugar poses no risk. The UL is
+«the maximum level of chronic daily intake ... judged to be unlikely to pose a risk of adverse health
+effects», and its whole logic «is that a threshold can be identified below which no risk ... is expected
+... and above which the risk ... increases». No such threshold was found:
+
+> «A level of sugars intake at which the risk of dental caries/chronic metabolic diseases is not
+> increased could not be identified over the range of observed intakes, and thus, a UL or a safe level
+> of intake could not be set. ... the intake of added and free sugars should be as low as possible in
+> the context of a nutritionally adequate diet.»
+> [@efsasugars2022, Abstract]
+
+**Per-outcome certainty (added/free sugars), on RCTs of SURROGATE endpoints:** «moderate for obesity
+and dyslipidaemia (> 50-75% probability), low for NAFLD/NASH and T2DM (> 15-50% probability) and very
+low for hypertension (0-15% probability), based on data from RCTs which investigated the effect of
+'high' vs. 'low' sugar intake on surrogate disease endpoints, i.e. body weight, liver fat, fasting
+glucose, fasting triglycerides and SBP.» [@efsasugars2022, Summary] -> [[Surrogate Outcomes]].
+
+### Is EFSA OPPOSED to WHO, or a different instrument? (attempt the contradiction first)
+
+**Parameter table** (op-weave 2a) — because «WHO sets 10%» vs «EFSA sets nothing» looks like a clash:
+
+| Parameter | WHO 2015 | EFSA 2022 | Same quantity? |
+|---|---|---|---|
+| Output | a public-health **recommendation / target** («recommends reducing ... to less than 10%») | a **UL / safe-level risk assessment** («a UL ... could not be set») | **NO** — a policy target vs a hazard threshold |
+| Question answered | what pragmatic population goal to communicate? | is there a level below which no risk of adverse effects? | **NO** — different constructs |
+| Instrument | GRADE | OHAT/NTP (US National Toxicology Program) | different appraisal systems |
+| Direction on intake | reduce (strong `<10%`, conditional `<5%`) | reduce («as low as possible») | **YES** — both point the same way |
+| A clean safe threshold exists? | not claimed — 10% is a communicable cut, not a «no-risk» floor (the page's caries reading above) | **explicitly could not be identified** | **YES** — neither asserts a safe floor |
+| Target-setting in remit? | WHO sets it | «not under EFSA's remit» — «part of national nutrition policies ... individual EU Member States» | **NO** — different mandates |
+
+**Verdict: a DISTINCTION, not a tension — the not-joined check (ii) fires (different construct /
+purpose).** EFSA and WHO answer different questions. EFSA runs a **hazard characterisation** whose
+output is a threshold-or-nothing, and it found nothing because the dose-response has no identifiable
+no-risk point over observed intakes. WHO issues a **communicable public-health target**, which needs a
+number a population can aim at whether or not a clean threshold exists. **On the substance they agree:
+less is better, and there is no clean safe level.** EFSA even makes explicit that a UL «is not a
+recommended level of intake» [@efsasugars2022, Interpretation of the ToR] — so reading EFSA's «as low as possible» as *softer*
+than WHO's 10%, or WHO's 10% as a *safe threshold* EFSA failed to endorse, is the descriptive-normative
+category error in both directions -> [[The Descriptive-Normative Category Error]]. This is a
+**standpoint** difference (telos divergence reason #1): EFSA firewalls target-setting *out* of its own
+mandate, so the estimate and the recommendation are held by different bodies
+-> [[Which Objective Moved This Recommendation]].
+
+### What EFSA independently CORROBORATES — reached by a separate review
+
+EFSA ran its own systematic reviews (49 RCTs; 104 publications on 66 cohorts) under OHAT/NTP, not GRADE.
+On the **metabolic-disease limb** this is a genuinely independent appraisal route, and it lands on this
+page's existing readings:
+
+- **The energy-mediation core — corroboration of the appraisal, not an independent dataset.** EFSA:
+  «Excess energy intake leading to positive energy balance and body weight gain appears to be the main
+  mechanism by which the intake of dietary sugars may contribute to the development of chronic metabolic
+  diseases» [@efsasugars2022, Summary], and prospective cohorts assessed in isocaloric exchange «do not support a
+  positive relationship» with any metabolic or pregnancy endpoint [@efsasugars2022, Summary]. This is WHO's own
+  isoenergetic-null reading (*«excess body weight ... results from excess energy intake»*, above) reached
+  by a separate **appraisal route** — EFSA's own OHAT systematic review and databases. **No
+  `[E-independent]` is claimed, and deliberately:** EFSA cites WHO 2015, and on the genuinely-*same*
+  claim (energy mediation on body weight) the isocaloric sugar-exchange feeding trials it used overlap
+  the small finite literature WHO used — so that limb is shared-source agreement, not independent
+  backing. What is genuinely new is the **extension** past body weight to all metabolic diseases and
+  pregnancy endpoints (type-F on the reach). The caries limb is separately non-independent: Paula
+  Moynihan (author of WHO's caries review) is among the **authors** of the EFSA opinion.
+- **The additive-vs-isocaloric split is EFSA's own.** SSBs, assessed «not keeping TEI constant», grade
+  «high for obesity, T2DM, HTN and CVD (> 75-100% probability)» — far above the isocaloric %E grades —
+  exactly the additive-arm reading the Qin section above gives. [@efsasugars2022, Summary]
+- **The ASB confound, independently.** «It is unclear ... whether the risk of HTN and CVDs ... could be
+  attributed to their sugar content because the relationship between ... artificially sweetened
+  (sugar-free) beverages and incidence of HTN and CVDs was similar to, or stronger than, for SSBs»
+  [@efsasugars2022, Summary] — the reverse-causation candidate Qin 2020 flagged, reached by a second body
+  -> [[The Observational-Trial Discordance]], [[Non-Sugar Sweeteners]].
+- **Dose-response shapes are monotone-linear** (SSB -> T2DM/HTN/CVD and FJ -> T2DM «positive and linear,
+  with no evidence for non-linearity») [@efsasugars2022, §12.2] — a fresh instance of the falsified knees-and-plateaus
+  prior -> [[The U-Shaped Association Artifact]].
+
+### EFSA sharpens the `<5%` question — the thinnest evidence sits exactly there
+
+EFSA states the sub-10%E region is the least-evidenced: the relationship «could not be adequately
+explored at levels of intake < 10 E% owing to the low number of RCTs available, and ... the uncertainty
+about the shape and direction of the relationship at these levels of intake is higher than at intakes
+≥10 E%.» [@efsasugars2022, Summary] **This is where WHO's conditional `<5%` and SACN's primary `<=5%` both sit.** It does
+*not* say those tiers are wrong (EFSA declines all numbers), but it independently corroborates this
+page's existing reading that the `<5%` region is carried by the weakest evidence — now from a fourth
+body's own systematic review. [inferred from @efsasugars2022]
 
 ## Decision relevance
 

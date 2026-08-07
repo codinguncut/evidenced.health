@@ -2,15 +2,16 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018]
-cluster: evidence-appraisal
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022]
+cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
 updated: 2026-08-06
 self_critiqued: 2026-08-06
 relationships:
   related_to:
+    - The Estimate-to-Action Gap
     - Alcohol and Mortality and Vascular Disease
     - Sodium Intake and Blood Pressure
     - Measurement Error in Dietary Assessment
@@ -20,6 +21,7 @@ relationships:
     - BMI and All-Cause Mortality
     - Dietary Protein and Mortality
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
+    - Dairy and Cardiometabolic Health
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -193,6 +195,12 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     check — a genetic/MR instrument immune to reverse causation — **does not exist for NSS**. So by the
     decision rule, the NSS→disease association is **unadjudicated, not established**: it survived the weak
     checks (which alcohol's artifact also survived) and has never faced the strong one.
+  - **Corroborated as a candidate by Qin 2020 (SSB/ASB dose-response MA) — same unadjudicated status
+    `[2026-08-06]`.** Artificially-sweetened beverages carry a monotone positive dose-response with T2DM
+    (RR 1.15 per 250 mL/d) and obesity (1.21), plus non-linear arms for hypertension and all-cause
+    mortality — and Qin runs *no* reverse-causation or MR check (cohort-only, «residual confounding
+    cannot be ruled out»). So this adds beverage-form data points to the NSS reverse-causation candidate
+    without adjudicating it: still the arm that has faced no strong check -> [[Free Sugars Intake]].
   - **A trap the case exposes: adjustment cannot tell a confounder from a mediator.** WHO notes that since
     the associations «largely persist when body weight is controlled for … increased body weight
     (resulting from chronic NSS use) may be an intermediary step … rather than a confounding factor» — so
@@ -290,9 +298,36 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     adjustment 0.96->0.99; +early-death exclusion ->1.03; +never-smoker restriction ->1.11). (iv) The
     *adjudicate-the-arm* rule again: the **overweight arm is entirely artifact** (0.96->1.11), while the
     **underweight arm is only partly** so — 1.81 (raw) -> 1.47 (primary) but stays elevated, residual real
-    harm. Adjudicated by confounder-removal *only* (no MR), so like coffee it is strong-but-not-decisive.
+    harm.
     Not independent-E of alcohol/coffee (a different exposure sharing the one diagnostic, not independent
     backing of one claim) -> **type-F** worked-case extension.
+  - **The strong check now exists — Wade MR closes the BMI arm, and it is the SECOND exposure (after
+    alcohol) with a genetic instrument `[2026-08-06, Wade]`.** Global BMI adjudicated by confounder-removal
+    *only*; Wade 2018's Mendelian randomization in UK Biobank (77-SNP GRS, 335,308 people, 9,570 deaths)
+    supplies the genetic natural experiment. Its verdict *converges*: «The J-shaped BMI-mortality
+    association remained in MR analyses ... but with a smaller value of BMI at which mortality risk was
+    lowest (\~23 vs. \~26 kg/m2 with observational analyses) and apparently flatter over a larger BMI range»
+    [@wade2018, Linearity] — and Wade names the
+    mechanism the concept predicts: «Reverse causality ... may be the driver of the characteristic J-shaped
+    association». [@wade2018, Discussion]
+    - **What MR does to the two arms sharpens the arm-level rule.** Unlike alcohol (where MR *removed* the
+      protective arm cleanly), BMI's low arm does not vanish — the J *remains* but **deflates**: the nadir
+      shifts down into the normal range (\~23) and the residual J is an extreme-quantile effect (removing the
+      tails -> linear, P=0.999). So MR **deflates the underweight arm** (reverse causation) while
+      **inflating the obesity arm** — the observational curve «overestimate[s] the harmful effects of having
+      underweight while underestimating the harmful effects of having overweight or obesity».
+      [@wade2018, Discussion] The concept's
+      *adjudicate the arm, not the curve* rule is corroborated genetically: the low arm is largely artifact,
+      the high arm is genetically supported (significant for CVD-cause mortality, directional-but-imprecise
+      for all-cause), and severe underweight plausibly keeps a real (non-artifact) residual — matching
+      Global BMI's 1.47.
+    - **BUT the MR is NOT independent of the observational IPD-MA — the lineage chase (Richardson lesson).**
+      Wade's senior author George Davey Smith and co-author Naveed Sattar both sit on the Global BMI
+      Mortality Collaboration writing committee (`Smith GD`, `Sattar N`), and Wade cites Global BMI as ref 5.
+      Two shared authors including the anchor MR figure -> same-lineage **type-F** refinement (supplies the
+      missing genetic leg), **not** independent-E backing. So BMI is MR-adjudicated but by an overlapping
+      group; a genuinely independent MR would upgrade it further. Full parameter table + estimates ->
+      [[BMI and All-Cause Mortality]].
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
   ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [@jha2013]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking
@@ -313,6 +348,84 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   [[Sleep Duration and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]]. Not independent-E
   of the mortality instances (same reverse-causation/sick-quitter mechanism, new outcome) -> **type-F**
   cross-outcome replication.
+- **Milk -> mortality — a single-cohort confounding artifact (an upper-arm case, no U required)
+  `[2026-08-06, Guo]`.** The «high milk drinking doubles mortality» scare is the exposure-*harm* mirror of
+  the protective-arm cases: Guo 2017's pooled milk -> mortality is null (RR 1.00, 0.93-1.07), and the only
+  thing the Swedish Mammography Cohort (Michaelsson) adds is heterogeneity (I2 = 97.4%; excluding it ->
+  70.1%, RR 0.99). The confounder is named in-source — the highest milk drinkers had lowest education and
+  «highest percentage of smokers and those living alone»
+  [@guo2017]. The tell that seals
+  it: the **same** cohort drives the *opposite* (protective) fermented-dairy/cheese arm — «the inverse
+  associations of fermented dairy and cheese with all-cause mortality or CVD disappeared after removing the
+  study of Michaelsson et al.» [@guo2017]. One confounded outlier manufacturing both poles is the recipe with no causal signal.
+  **Adjudication is weak here** — leave-one-out sensitivity + Guo's confounder narrative only; no MR or
+  genetic instrument, and Michaelsson's own D-galactose mechanism is not imported. So the arm is *dismissed
+  as unsupported*, not positively refuted -> [[Dairy and Cardiometabolic Health]]. Not independent-E of the
+  alcohol/sleep instances (same reverse-causation/confounding machinery, new exposure) -> **type-F**.
+- **Milk/dairy -> fracture — a DESIGN-DISCORDANCE instance: the artifact lives in the study *design*, not
+  just a confounder `[2026-08-06, Malmir]` `type-F`.** Malmir 2019's milk/dairy -> osteoporosis+hip-fracture
+  SR-MA is the cleanest corpus case where the protective signal is a property of the **weaker design**:
+  milk/dairy looks protective in cross-sectional/case-control studies (milk -> hip fracture RR 0.75, 25%
+  lower) but is **null in prospective cohorts** (0.93 [0.75-1.15]), and milk even reverses to «a 9% greater
+  risk of hip fracture (RR ¼ 1.09; 95% CI: 1.07–1.11)» per 200 g/day in the cohort meta-regression
+  [@malmir2019]. The author
+  adjudicates by the **design hierarchy** — «findings from cohort studies are closer to the causal
+  associations than those from cross-sectional and case-control studies»
+  [@malmir2019] — because
+  cross-sectional/case-control designs are reverse-causation-prone (fracture/osteoporosis can *lower* dairy
+  intake, or recall differs by disease status; the diagnosis can precede the exposure measurement)
+  -> [[Dairy and Bone Health]], [[The Observational-Trial Discordance]].
+  - **The tie-in to the milk-mortality artifact (same cohort).** The two largest positive, highest-weight
+    points in Malmir's **milk** cohort forest plot are Michaelsson's (female 2014 RR 1.60; 2018 RR 1.55) —
+    the **same** Swedish cohort family that manufactures the milk -> mortality scare on
+    [[Dairy and Cardiometabolic Health]] (where its removal collapses that signal), so one confounded
+    high-milk-drinking population **plausibly** drives *both* apparent harms. But Malmir runs **no**
+    leave-one-out on Michaelsson for fracture and **no** MR — only the design-hierarchy argument — and the
+    pooled milk-cohort RR is itself null (0.93, NS), the positive signal living only in the meta-regression
+    slope; so *Michaelsson is the largest positive contributor* is read off the forest plot while
+    *Michaelsson drives the signal* is untested. By the decision rule the milk -> fracture *harm* arm stays
+    **unadjudicated** (not established as causal), exactly as the milk-mortality arm does. A dairy -> osteoporosis dose-response J (>250 g/d *harm*) sits on the same
+    reverse-causation-prone designs and is likewise unadjudicated. Not independent-E of the Guo
+    milk-mortality bullet (overlapping Michaelsson cohorts, same confounding machinery, new outcome) ->
+    **type-F**.
+- **Eggs -> CVD/CHD — a shallow, near-null protective arm, unadjudicated `[2026-08-06, Godos]` `type-F`.**
+  Godos 2020's egg dose-response shows a **shallow U/J** for CVD and CHD (nadir SRR \~0.95 at 2-5 eggs/wk,
+  attenuating back toward 1.00 at high intake; CHD Pnonlin 0.042) alongside a **null** stroke curve and a
+  **monotone-increasing** heart-failure curve -> [[Eggs Dietary Cholesterol and Cardiovascular Risk]]. The
+  moderate-intake "protection" is at most \~5% relative with CIs touching 1.00, has survived only covariate
+  adjustment (the weak check — Godos concedes reverse causation was «not investigated»), and **reverses** in
+  the diabetic subgroup (CVD 1.22). So by the decision rule the lower arm is **not established** — which
+  here coincides with the page's own de-escalator read (there is no protection to bank). It sharpens the
+  arm-level rule again: the mechanism-bearing outcome (heart failure) is monotone, the mechanism-thin one
+  (moderate-egg CVD "benefit") is the U-arm suspect. Not independent-E (a new exposure sharing the one
+  diagnostic; Grosso is a shared author) -> **type-F**.
+- **Fish -> chronic disease — a NULL instance, plus a region-masking nuance `[2026-08-06, Jayedi]` `type-F`.**
+  The Jayedi 2020 umbrella (34 cohort MAs) ran nonlinear dose-response on 16 associations and found
+  *«no evidence of a U- or J-shaped association between fish consumption and the risk of chronic
+  disease»* — inverse-**linear** for all-cause/CVD mortality, CHD, MI, stroke, heart failure, nonlinear
+  (but not U/J) for CHD mortality/HTN/Alzheimer/AMD
+  [@jayedi2020fish]. So fish is a
+  worked case where the artifact machinery had nothing to bite on — a protective exposure with no
+  suspect upper arm at population intakes. **The nuance that keeps it honest:** the pooled no-U/J can
+  mask region-specific U-shapes — two recent MAs found linear-inverse mortality/MI in Asian cohorts but
+  *«modest U-shaped associations in Western countries»*
+  [@jayedi2020fish], so a global "no U"
+  is a statement about the pooled range, not a guarantee within every stratum -> [[Fish and Seafood Consumption]].
+- **Physical activity / steps -> mortality — a NULL-for-U instance where objective measurement REMOVES a
+  self-report distortion `[2026-08-06, Ekelund + Paluch]` `type-F`.** The device-measured PA dose-response
+  (Ekelund 2019, accelerometry) and the daily-steps curve (Paluch 2022) are **monotone-decreasing to a
+  plateau — no U, no harmful upper arm** at achievable doses, so the artifact machinery has no protective
+  *lower* arm to defend. What the case adds to the concept is the **opposite** of the sick-quitter trap: a
+  place where objective measurement *un-does* a self-report artifact rather than creating one. Self-report
+  underestimates the effect \~2-fold (Ekelund: «about twice as large» vs self-report), so the self-report
+  literature's flatter curves and occasional high-volume plateau are partly a *measurement* artifact —
+  the same reading the CRF page reaches from objectively-measured fitness (no plateau)
+  -> [[Cardiorespiratory Fitness and Mortality]], [[Physical Activity Dose and Mortality]]. **Adjudication
+  is the WEAK check only:** all three sources (Ekelund 2019/2016, Paluch) address reverse causation
+  (frail-move-less) by excluding early deaths, and it survives — but attenuates, and Paluch's effect is
+  stronger at <6 y follow-up (HR 0.32 vs 0.57), a sick-quitter tell. No MR/genetic instrument, so the
+  monotone benefit is *not-fully-adjudicated causal* but is not purely artifact either. Not independent-E
+  of the other instances (shared reverse-causation machinery, new exposure) -> type-F.
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.

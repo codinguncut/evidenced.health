@@ -4,7 +4,7 @@ question: Does raising testosterone — by losing fat or by taking it — improv
 aliases: [Testosterone and Muscle, Testosterone Replacement Therapy, TRT, Obesity Hypogonadism, Testosterone Adiposity Muscle Axis, Androgen Therapy Older Men, Testosterone and Fractures, Testosterone Cardiovascular Safety, TRAVERSE]
 authors: [Corona, Giovanni; Rastrelli, Giulia; Maggi, Mario; Lopez Hilario, Pedro P; Cano-Ibanez, Naomi; Lincoff, A Michael; Bhasin, Shalender; Nissen, Steven E; Snyder, Peter J; Bauer, Douglas C; Cruz-Jentoft, Alfonso J]
 sources: [Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Lincoff - TRAVERSE Testosterone Cardiovascular Safety 2023, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
-cluster: weight-management
+cluster: sex-hormones
 confidence: medium
 relationships:
   related_to:
@@ -13,10 +13,11 @@ relationships:
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Layer 1 - Ranking Interventions for a Stratum
     - Muscle-Strengthening Activity and Mortality
+    - Low Muscle Mass and Mortality
     - Menopause and the Shifting Levers
     - Hormone Therapy After Menopause
 created: 2026-08-01
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 ---
 
@@ -254,7 +255,10 @@ overturn.
   [@cruzjentoft2019]. This *sharpens* limb
   2's finding: TRT builds mass reliably but function unreliably — i.e. it moves the demoted, confirmatory
   parameter, not the primary one. Mass is the surrogate; strength is closer to the outcome
-  -> [[Surrogate Outcomes]].
+  -> [[Surrogate Outcomes]]. (That demoted mass parameter still *independently predicts mortality* —
+  [[Low Muscle Mass and Mortality]] — so TRT-driven lean-mass gain moves a marker that tracks a hard
+  outcome; but predictor is not target, and TRT's own outcome record is the fracture *increase* above,
+  not a mortality benefit.)
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here
   checks a recommendation against a realized outcome.
 

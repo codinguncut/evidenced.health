@@ -4,11 +4,11 @@ question: How does analytic flexibility within a single study manufacture a stat
 aliases: [P-Hacking, Researcher Degrees of Freedom, Garden of Forking Paths, HARKing, Multiplicity, Multiple Comparisons, Exploratory vs Confirmatory, Questionable Research Practices]
 authors: [National Academies of Sciences Engineering and Medicine (org)]
 sources: [NASEM - Reproducibility and Replicability in Science 2019]
-cluster: evidence-appraisal
+cluster: reproducibility
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 relationships:
   related_to:
     - Sources of Non-Replicability

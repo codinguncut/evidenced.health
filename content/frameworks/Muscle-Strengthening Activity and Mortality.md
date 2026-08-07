@@ -13,8 +13,10 @@ relationships:
     - Cardiorespiratory Fitness and Mortality
     - Measuring and Raising Cardiorespiratory Fitness
     - The U-Shaped Association Artifact
+    - Grip Strength and Mortality
+    - Low Muscle Mass and Mortality
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 ---
 
@@ -132,11 +134,14 @@ value, which runs through better-evidenced channels:
   function *is* the healthspan payoff, and it is graded above the mortality signal. *(Caveat: the held
   evidence is for exercise broadly; falls-prevention specifically combines resistance + balance training,
   which the wiki holds at the activity level, not RT-specifically -> a gap.)*
-- **Grip strength and muscle mass are strong mortality PREDICTORS — but un-ingested, and predictors, not
-  proof.** Low grip strength and sarcopenia track mortality, falls and disability (the maintainer's
-  point), and the association is robust — but the wiki has **not ingested** it, and it is the same
-  predictor-vs-cause gap as fitness ([[Cardiorespiratory Fitness and Mortality]]): a strong predictor
-  does not prove the *intervention* (resistance training) moves the outcome. -> acquire.
+- **Grip strength and muscle mass are strong mortality PREDICTORS — now held, and still predictors, not
+  proof.** Low grip strength tracks all-cause and cause-specific mortality (Celis-Morales 2018, UK
+  Biobank n=502,293: all-cause HR 1.16-1.20 per 5 kg lower grip; \~1.48 per 1 SD, out-ranking SBP and
+  total activity in-model) -> [[Grip Strength and Mortality]]; low muscle *mass* likewise
+  -> [[Low Muscle Mass and Mortality]]. But both are the same predictor-vs-cause gap as fitness
+  ([[Cardiorespiratory Fitness and Mortality]]): a strong predictor does not prove the *intervention*
+  (resistance training) moves the outcome — grip is heritable (\~52%) and disease-sensitive, so it is part
+  marker, part lever. The strength-training mortality evidence remains this page's very-low-GRADE number.
 
 So strength training's **weak** card is the mortality evidence; its **strong** card is function/falls
 (held) plus the muscle-mass/strength predictor literature (unheld). For an older or sarcopenia-risk

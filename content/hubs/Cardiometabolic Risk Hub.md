@@ -35,6 +35,9 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
   disease, why the dose is cumulative, why measure apoB)
 - [[Statins for Primary Prevention and the Power of Zero CAC]] — for a primary-prevention adult, does a
   statin help, and does a zero coronary-calcium score change that decision?
+- [[Eggs Dietary Cholesterol and Cardiovascular Risk]] — whether dietary cholesterol from eggs raises CV
+  risk (near-null in general cohorts; the signal, where any, is in diabetics), and why the headline swings
+
 - [[Mediterranean Diet and Cardiovascular Events]] — whether a whole dietary pattern (not a single
   nutrient) reduces hard CV events, in whom and on which outcomes
 - [[Does Weight Loss Reduce Cardiovascular Events]] — whether intentional lifestyle weight loss

@@ -9,7 +9,6 @@ created: 2026-07-30
 updated: 2026-08-06
 self_critiqued: 2026-08-06
 ---
-
 ## The verdict up front
 
 **No named dietary pattern is established as clearly superior on patient-important outcomes, and the

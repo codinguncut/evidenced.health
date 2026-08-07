@@ -32,8 +32,13 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   whether the evidence warrants reducing intake
 - [[Fermented Foods and Health]] — the `fermented-foods` nucleus: do live-fermented foods move a
   patient-important outcome, and is the effect the live cultures, the food matrix, or fermentation's
-  biochemistry? Held evidence is thin (one surrogate-outcome RCT + one observational fermented-dairy CVD
-  MA); the live-vs-pasteurized natural experiment is unrun; trendy ferments are a named GAP. No halo
+  biochemistry? Held evidence is thin (one surrogate-outcome RCT + two observational fermented-dairy CVD
+  MAs, Guo refining Zhang downward); the live-vs-pasteurized natural experiment is unrun; trendy ferments
+  are a named GAP. No halo
+- [[Dairy and Cardiometabolic Health]] — the `dairy` nucleus: what dairy does to CVD, mortality and T2D
+  once you stop treating "dairy" as one food. Broadly neutral (CVD/mortality) to modestly inverse (T2D,
+  women); the milk-mortality scare is a single-cohort confounding artifact; the matrix mechanism AWAITS
+  Thorning. Non-fermented axes only (fermented-dairy CVD lives on the fermented-foods nucleus)
 
 ## Sugars, sweeteners, and seed oils
 

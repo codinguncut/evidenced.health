@@ -4,11 +4,12 @@ question: Given that some studies fail to replicate, how much should that move c
 aliases: [Replication Crisis, Confidence in Science, Is Science Broken, Web of Knowledge, Triangulation, Single-Study Caution]
 authors: [National Academies of Sciences Engineering and Medicine (org)]
 sources: [NASEM - Reproducibility and Replicability in Science 2019]
-cluster: evidence-appraisal
+cluster: reproducibility
+nucleus: true
 confidence: medium
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-06
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 relationships:
   related_to:
     - Sources of Non-Replicability
@@ -56,6 +57,19 @@ independence* rule: what raises confidence is methods with *different* weaknesse
 studies sharing one weakness -> [[Upgrading Observational Evidence]], [[Rating Certainty of Evidence]]. NASEM reaches it from the replication literature rather than from the meta-method corpus,
 but by re-reasoning to the same rule — a **convergent restatement, not a confidence-raising
 independent proof** (the triangulation rule is method-layer; a source re-deriving it does not corroborate it).
+
+**And at the synthesis level, the trustworthy-SR machinery IS the operational antidote — the point where
+this concept meets evidence appraisal.** The replication crisis's mechanisms — p-hacking, selective
+publication, non-reproducible methods ([[P-Hacking and Researcher Degrees of Freedom]],
+[[Publication Bias and Selective Reporting]]) — are precisely what a trustworthy systematic review is
+built to **catch and down-weight** — a pre-registered protocol, dual independent screening, risk-of-bias
+assessment, and an explicit small-study/publication-bias check ([[What a Trustworthy Systematic Review Requires]],
+[[Is This Actually a Systematic Review]], [[Risk of Bias Assessment Tools]]). So *"confidence without a
+crisis"* is not passive: it is **bought** by holding the evidence synthesis to those standards. **But the
+Guard below bounds how much it buys** — a pre-registered protocol is interpretability, not a quality stamp,
+and an SR of a skewed literature still inherits some of that bias; the machinery is where the crisis
+mechanisms are *detected and discounted*, not a guarantee they are erased. A body appraised without those
+steps inherits the crisis unexamined; one appraised with them at least prices it in.
 
 ## The decision-maker rule, and its symmetry (Rec 7-3)
 

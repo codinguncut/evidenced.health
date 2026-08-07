@@ -4,11 +4,11 @@ question: How does the filter deciding which results get published make a body o
 aliases: [Publication Bias, Selective Reporting, Selective Outcome Reporting, File-Drawer Problem, Effect-Size Inflation, Winner's Curse, Small-Study Effect]
 authors: [National Academies of Sciences Engineering and Medicine (org); Page, Matthew J; Higgins, Julian PT; Sterne, Jonathan AC; Veronese, Nicola; Lane, Melissa M; Marx, Wolfgang; Hamley, Steven]
 sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5, Veronese - Dietary Fibre Health Umbrella 2018, Lane - Ultra-Processed Food Umbrella 2024, Hamley - Saturated Fat PUFA Coronary 2017]
-cluster: evidence-appraisal
+cluster: reproducibility
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 relationships:
   related_to:
     - Sources of Non-Replicability

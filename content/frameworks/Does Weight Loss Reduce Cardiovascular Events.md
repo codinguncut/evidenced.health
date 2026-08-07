@@ -5,6 +5,7 @@ aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle I
 authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ]
 sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018]
 cluster: weight-management
+nucleus: true
 confidence: medium
 relationships:
   related_to:
@@ -15,7 +16,7 @@ relationships:
     - Surrogate Outcomes
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-28
-updated: 2026-08-01
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 ---
 

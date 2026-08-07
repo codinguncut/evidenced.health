@@ -4,15 +4,16 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
+    - Vitamin D and Calcium Supplementation for Fracture Prevention
     - Baseline Risk and the Relative-Absolute Split
     - Is the Food Category Doing Any Work
     - The U-Shaped Association Artifact
@@ -125,6 +126,67 @@ fracture ARD -0.35% [-1.02 to 0.31], hip -0.14%; SoE low).
   not (ARD 0.00%) and vitamin D alone was unstudied
   [@kahwati2018]. A concrete
   contraindication-stratum harm from combining, not a pure upper-bound overdose effect.
+
+##### The high-risk/institutionalized BENEFIT leg is now DIRECT, not second-hand (Yao 2019) `[F, NOT E]`
+
+Kahwati named the deficient/high-risk benefit only by **reporting Cochrane** (the «1 fewer hip fracture per
+1000» line above, second-hand). **Yao 2019 (gold SR+MA) supplies the direct, within-review demonstration of
+that leg** — so both arms of the fracture curve are now anchored in primary syntheses, not one direct + one
+reported:
+
+- **D + calcium reduces hip fracture, and the benefit concentrates in the institutionalized (the repletion
+  arm).** «found a 6% reduced risk of any fracture (RR, 0.94; 95% CI, 0.89-0.99) and a 16% reduced risk of
+  hip fracture (RR, 0.84; 95% CI, 0.72-0.97)» [@yao2019],
+  with the effect «more extreme ... in the RCTs of older participants (ie, aged 80 years) living in an
+  institution than those younger than 80 years living in the community (P for heterogeneity = .02)»
+  [@yao2019]. That is the deficient/high-risk arm shown
+  directly, where Kahwati (community-dwelling only) sees the enhancement null.
+- **Vitamin D ALONE is null — calcium is the active co-ingredient.** D alone «did not find a reduced risk of
+  any fracture (RR, 1.06; 95% CI, 0.98-1.14) or hip fracture (RR, 1.14; 95% CI, 0.98-1.32), but these trials
+  were constrained by infrequent intermittent dosing, low daily doses of vitamin D, or an inadequate number
+  of participants» [@yao2019] — so the fracture lever,
+  where it exists, is the **combination**, not vitamin D by itself (and the D-alone null is partly
+  dose-constrained: median 25(OH)D difference 8.4 ng/mL, most trials sub-2000 IU/day).
+- **This is F/refinement, NOT independent type-E.** Yao's D+Ca pool **shares its dominant trial** with
+  Kahwati (WHI/Jackson 2006 dominates both pools; Porthouse 2005 also shared), so it is not an independent
+  second witness — it *upgrades* the second-hand high-risk-benefit leg to direct evidence and adds the
+  D-alone/D+Ca split, no `[E-independent]` claimed [inferred from @yao2019; @kahwati2018]. The **net-effect** of the D+Ca benefit against its CV and kidney-stone
+  harms lives on [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
+
+#### The fracture enhancement-null now generalizes across EXPOSURE FORM — dietary dairy fails too (Malmir 2019) `[E-independent + F]`
+
+The supplement witnesses (VITAL, Kahwati) share a form: an **isolated Ca/D pill in an RCT**. That leaves
+an escape hatch — *supplements are the wrong delivery; real dairy **food**, with its calcium-plus-protein
+matrix, would protect bone.* **Malmir 2019 (gold observational SR-MA, 34 studies, 616k people for
+fracture) removes its empirical support (in cohorts):** dietary milk/dairy is **null** for hip fracture
+in prospective cohorts (total dairy RR 0.90 [0.73-1.11]; milk 0.93 [0.75-1.15], with milk trending to
++9%/200 g harm), protective *only* in the reverse-causation-prone cross-sectional/case-control designs
+-> [[Dairy and Bone Health]]. Malmir *also* draws the parallel to the supplement evidence in his own
+voice — supplemental calcium and/or vitamin D «was not associated with a lower risk of fractures among
+community-dwelling older adults»
+[@malmir2019] (Zhao 2017,
+secondhand) — but that parallel-drawing is **not** part of the independence (Malmir citing the same
+supplement literature Kahwati summarizes adds no corroborative weight); the independence rests **only**
+on Malmir's own dairy-cohort data.
+
+- **A THIRD independent route to the fracture enhancement-null `[E-independent]` — the most
+  methodologically distant of the three.** Malmir (observational cohorts, food-source) shares **no
+  trials, no research group, no lineage** with the supplement RCTs (VITAL, Kahwati), and it differs on
+  *both* axes at once — a **different exposure form** (whole-food matrix vs isolate) AND a **different
+  design family** (observational vs randomized). So it is not merely a third witness of the same kind: it
+  establishes that the fracture-null does **not** depend on the supplement *form*. More calcium, however
+  delivered, does not lower fracture in the **enhancement stratum** — Malmir's general/unscreened
+  (predominantly replete) adult and the RCTs' verified-non-deficient are distinct populations, joined
+  only in being enhancement-territory, not the deficient arm
+  [inferred from @malmir2019; @kahwati2018; @leboff2022].
+- **Scope guards (strict).** The convergence is on the **null direction only**, not on any point estimate
+  — the magnitudes are non-commensurable (RR-per-200 g food vs RCT ARD; the parameter table on
+  [[Dairy and Bone Health]] carries the NO cells). And Malmir does **not** screen calcium/vitamin-D
+  status, so it samples *more dairy across the general (predominantly replete Western) adult*, which is
+  enhancement-territory but not verified-replete; it therefore strengthens the **enhancement** leg, not
+  the deficient-repletion arm, which stays a separate question (a genuinely calcium/D-deficient or
+  osteoporotic person is not what Malmir sampled — Kahwati's secondhand high-risk benefit still governs
+  there).
 
 ## The lower (repletion) arm — now demonstrated for one nutrient x outcome
 

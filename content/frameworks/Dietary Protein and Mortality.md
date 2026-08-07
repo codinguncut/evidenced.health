@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary protein intake change mortality, and does the protein SOURCE (animal vs plant) matter more than the amount?
 aliases: [Protein Source and Mortality, Plant vs Animal Protein Mortality, Protein Intake Mortality, Protein and Longevity, Protein Mortality]
-authors: [Naghshi, Sina; Sadeghi, Omid; Willett, Walter C; Esmaillzadeh, Ahmad; Seidelmann, Sara B]
-sources: [Naghshi - Dietary Protein Mortality 2020, Seidelmann - Carbohydrate Intake Mortality 2018]
+authors: [Naghshi, Sina; Sadeghi, Omid; Willett, Walter C; Esmaillzadeh, Ahmad; Seidelmann, Sara B; Budhathoki, Sanjeev; Sawada, Norie; Iwasaki, Motoki; Tsugane, Shoichiro]
+sources: [Naghshi - Dietary Protein Mortality 2020, Seidelmann - Carbohydrate Intake Mortality 2018, Budhathoki - Animal Plant Protein Mortality 2019]
 cluster: nutrition
 confidence: low
 relationships:
@@ -31,8 +31,11 @@ gap at the foot of the page.)
 **This is the mortality (patient-important, observational) half of the protein story; the muscle/
 strength half (surrogate, RCT-grade, the \~1.6 g/kg dose) lives on
 [[Protein and Resistance Training for Muscle and Strength]]** — a genuinely distinct decision-question
-(what to eat vs how much), not two facets of one. Single gold source (an opener); `confidence: low`
-until a second cohort/MA (Song 2016, Budhathoki 2019) is woven in.
+(what to eat vs how much), not two facets of one. `confidence: low` — and it **stays** low after
+Budhathoki 2019 (the JPHC Japanese cohort) was woven in, because Budhathoki turns out to be a
+**constituent study pooled inside Naghshi**, so it is refinement (type-F), not the independent
+replication (type-E) that would lift confidence. A genuinely independent cohort — one NOT in Naghshi's
+32 — is still owed.
 
 [inferred from @naghshi2020]
 
@@ -146,6 +149,53 @@ consistent with animal protein-the-nutrient being null**. The two *reinforce* th
 distinction rather than clashing -> [[Is the Food Category Doing Any Work]].
 [inferred from @naghshi2020; @seidelmann2018]
 
+## Budhathoki 2019 (JPHC Japan) — same verdict, and it is a CONSTITUENT of Naghshi (type-F, NOT independent-E)
+
+Budhathoki's Japanese cohort (JPHC; 70 696 adults, 18-y follow-up, 12 381 deaths) reaches the identical
+**plant-favourable / animal-null** pattern: «Higher total and animal protein intake was not associated
+with risk of overall mortality or cause-specific mortality», while «higher plant protein intake was
+associated with lower total and CVD-related mortality» (plant all-cause Q5 HR 0.87 [0.78-0.96], P=.01;
+CVD Q5 0.73 [0.59-0.91], P=.002; cancer null).
+[@budhathoki2019, Results/Conclusions]
+
+**It was predicted as the independent-E lift this page lacked, and the prediction FAILED.** The author
+lists are cleanly disjoint (Budhathoki/Sawada/Iwasaki/Tsugane, National Cancer Center Japan — no Willett,
+no NHS-HPFS name), and the dataset is a distinct non-Western population. **But type-E requires
+independence of *data*, and that fails: Naghshi's meta-analysis POOLED Budhathoki as one of its \~32
+constituent cohorts** (Naghshi's included-studies table lists «Budhathoki 2019, Japan» with the exact
+JPHC counts — M 32 201, W 38 495, 12 381 deaths — and Naghshi ref 18 is «Budhathoki S, Sawada N,
+Iwasaki M, et al»). So Budhathoki's data already sits inside Naghshi's pooled estimate; reading it as
+independent corroboration would **double-count the JPHC data** — the laundered-E trap. **Verdict: F**,
+no `[E-independent]` token, **no confidence lift** — the page stays `confidence: low`.
+
+**What Budhathoki genuinely ADDS (why it is a refinement, not an echo).** Naghshi reports pooled
+highest-vs-lowest and a per-3%-energy dose-response; Budhathoki supplies two layers Naghshi's pooling
+blurs — an **isocaloric food-source substitution model** and **absolute risk**:
+
+| Parameter | Naghshi 2020 (pooled MA) | Budhathoki 2019 (JPHC single cohort) | Same quantity? |
+|---|---|---|---|
+| Plant vs animal signal | plant inverse (all-cause 0.92), animal null (1.00) | plant inverse (all-cause Q5 0.87), animal null (Q5 0.98) | **yes — same pattern (but Budhathoki ⊂ Naghshi)** |
+| Plant dose-response | «0.95 ... 0.93 to 0.98» per **+3%E plant-for-carbohydrate** | — | n/a |
+| Food-source swap | not reported | plant-for-**red-meat** protein «0.66 ... 0.55-0.80»; plant-for-**processed-meat** «0.54 ... 0.38-0.75»; **fish**-for-red-meat 0.75 | **NO — food-for-food swap, larger than the plant-for-carb estimand** |
+| Absolute risk | not derivable (highest-vs-lowest) | 15-y ARR plant-for-red-meat **3.60% (2.10-4.86)** total; processed-meat 4.95% | **NO — Budhathoki adds the absolute layer** |
+| Animal-protein food mix | pooled (US-weighted, red-meat-heavy) | **fish 47.1%**, red meat 19.4%, dairy 16.7%, eggs 9.5% | **NO — fish-dominated, the transportability hinge** |
+
+[@naghshi2020, Results · (Budhathoki - Animal Plant Protein Mortality 2019) , Results]
+
+**Note the substitution HRs are a DIFFERENT estimand from Naghshi's dose-response, not a bigger version
+of it.** Naghshi's 0.95 is +3%E plant protein replacing *carbohydrate*; Budhathoki's 0.66 is 3%E plant
+protein replacing *red-meat protein* — a food-for-food swap that captures the plant benefit AND the
+red-meat-removal, so it is necessarily larger. Do not read 0.66 as a stronger plant effect than 0.95.
+
+**The Japanese fish-dominated profile SHARPENS the nutrient-vs-food point** -> [[Is the Food Category Doing Any Work]]. WITHIN "animal protein", the sources diverge: **fish-for-red-meat substitution is itself
+protective (0.75)** while plant-for-dairy and plant-for-fish are null — so aggregate animal protein is
+null precisely because it pools protective fish with harmful red/processed meat. Budhathoki's own
+reconciliation of its animal-null vs the US animal-positive result: «This discrepancy ... may be
+attributable to ... a difference in the main dietary source of animal protein, which was red and
+processed meat in the US study vs fish intake in the present study.»
+[@budhathoki2019, Discussion]
+[inferred from @budhathoki2019]
+
 ## Decision relevance
 
 - **The lever is source-substitution, not a protein target.** Replacing animal-protein foods with
@@ -155,8 +205,11 @@ distinction rather than clashing -> [[Is the Food Category Doing Any Work]].
   [@naghshi2020, Conclusions]
 - **The effect is modest** (\~5% lower all-cause mortality per +3% energy from plant protein, relative,
   observational) — a real but small lever, ranked below the big rocks and delivered on associational
-  evidence, not a causal RCT. The **absolute** risk reduction is baseline-risk-dependent and not
-  derivable from a highest-vs-lowest observational contrast, so no absolute figure is stated.
+  evidence, not a causal RCT. On Naghshi's highest-vs-lowest contrast the **absolute** reduction is not
+  derivable; Budhathoki's JPHC model does supply one for the food-source swap — a 15-year absolute risk
+  reduction of **3.60% (2.10-4.86)** in total mortality for replacing 3%E of red-meat protein with plant
+  protein — but it is **model-derived from a single observational cohort**, so read it as scale, not a
+  treatment effect. [@budhathoki2019, Results]
 - **This does not conflict with the muscle-protein target.** Hitting \~1.6 g/kg for muscle
   ([[Protein and Resistance Training for Muscle and Strength]]) is a *quantity* decision on a surrogate;
   this is a *source* decision on mortality. You can satisfy both: reach the amount, bias the sources
@@ -172,11 +225,14 @@ distinction rather than clashing -> [[Is the Food Category Doing Any Work]].
   a wide mix (the food-category trap).
 - **Western-dominated cohorts** — animal-protein generalisability to low/middle-income (carb-rich, low
   animal-source) diets is limited.
-- **One INDEPENDENT source** — `confidence: low`. Naghshi is the gold opener; Seidelmann corroborates the
-  substitution axis but is **not independent** (shared Willett lineage + NHS/HPFS cohort overlap), so it
-  adds no confidence. AWAITS a genuinely independent cohort/MA
-  ([@song2016]) — off the Willett lineage — to lift the animal-vs-plant
-  question and test whether the plant signal is independent of the fibre/whole-grain lever it may run through.
+- **Still zero genuinely independent sources** — `confidence: low`. Naghshi is the gold opener;
+  Seidelmann is **not independent** (shared Willett lineage + NHS/HPFS overlap); Budhathoki is **not
+  independent** either (its JPHC data is pooled *inside* Naghshi's MA). So all three backings share a
+  data or school lineage. A genuine independent-E lift AWAITS a cohort **not among Naghshi's \~32
+  constituents** — and note [@song2016] (the staged pairing candidate)
+  is NHS-HPFS and near-certainly pooled in Naghshi too, so it will *not* supply independence. The owed
+  source is a large non-Western / non-Naghshi-pooled cohort that could also test whether the plant signal
+  is independent of the fibre/whole-grain lever it may run through.
 
 ## The plant-protein signal may be the fibre/pulse lever under another name (a gap)
 

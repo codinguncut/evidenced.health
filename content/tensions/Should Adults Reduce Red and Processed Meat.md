@@ -4,9 +4,10 @@ question: Does a small, low-certainty association between meat and cancer warran
 aliases: [Red Meat Tension, WCRF vs NutriRECS, Meat Reduction Disagreement, NutriRECS Controversy]
 authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Guyatt, Gordon H; Zeraatkar, Dena; Vernooij, Robin W M; Valli, Claudia]
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019]
-cluster: cardiometabolic-exposures
+cluster: red-meat
+nucleus: true
 confidence: medium
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 relationships:
   related_to:

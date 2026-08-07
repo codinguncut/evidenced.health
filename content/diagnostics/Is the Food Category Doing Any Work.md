@@ -2,13 +2,14 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020]
-cluster: evidence-appraisal
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019]
+cluster: inference-pitfalls
 confidence: medium
-self_critiqued: 2026-08-05
+self_critiqued: 2026-08-06
 relationships:
   related_to:
+    - The Estimate-to-Action Gap
     - Framing a Decision Question
     - Measurement Error in Dietary Assessment
     - Indirectness of Evidence
@@ -16,8 +17,11 @@ relationships:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Coffee Consumption and Health
     - Soy Products and Health
+    - Dairy and Cardiometabolic Health
+    - Fermented Foods and Health
+    - Eggs Dietary Cholesterol and Cardiovascular Risk
 created: 2026-07-27
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -77,7 +81,7 @@ different object.
   *white*, *fatty*, *freshwater*) occur roughly **five** times in total.
 - **Legumes.** SACN places roughly **fourteen** legume outcome cells in its `insufficient evidence`
   tables against one graded conclusion.
-- **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** [@dehghan2017] reports higher total carbohydrate → higher total mortality (Q5 vs Q1
+- **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** Dehghan's PURE analysis reports higher total carbohydrate → higher total mortality (Q5 vs Q1
   HR 1.28), but was «unable to quantify separately the types of carbohydrate (refined vs whole grains)», and
   notes «carbohydrate consumption in low-income and middle-income countries is mainly from refined
   sources». [@dehghan2017, Discussion] So the
@@ -227,7 +231,7 @@ so even the well-graded object does not carry a large decision.
 
 ## A fourth case: the boundary IS predictive and still adds nothing `[2026-07-28]`
 
-The three-way split above sorts categories by whether the boundary **carries signal**. [@nnr2023] supplies a case that does not fit any of the three, because the
+The three-way split above sorts categories by whether the boundary **carries signal**. NNR 2023 supplies a case that does not fit any of the three, because the
 boundary carries signal *and* the body using it judged it not worth adopting.
 
 **NNR acknowledges the association, at strength, and then declines to recommend on it:**
@@ -470,6 +474,23 @@ may describe no single food. The decision consequence is Test 3: **do not read *
 *animal-source foods are fine*** — name the food (processed meat) and its actual mechanism, not the
 nutrient. The mortality-side detail lives on [[Dietary Protein and Mortality]].
 
+**Budhathoki 2019 (JPHC Japan) makes the within-"animal" divergence concrete `[2026-08-06]`.** Where
+Naghshi argues the animal bucket is heterogeneous, Budhathoki's Japanese cohort — where animal protein is
+**fish-dominated** («Fish and seafood products (47.1%), red meats (19.4%)») — measures the sub-boundaries
+directly: **fish**-for-red-meat protein substitution is protective (all-cause HR 0.75, 0.65-0.87), and
+plant-for-red-meat (0.66) and plant-for-processed-meat (0.54) are protective, while plant-for-**dairy**
+(1.07) and plant-for-**fish** (0.91) are null.
+[@budhathoki2019, Results] **So aggregate "animal
+protein" is null precisely because it pools protective fish with harmful red/processed meat** — the
+category-2 failure (a boundary hiding a real difference) demonstrated inside the nutrient. Budhathoki says
+so in reconciling its animal-null against the US animal-positive result: the discrepancy «may be
+attributable to ... a difference in the main dietary source of animal protein, which was red and processed
+meat in the US study vs fish intake in the present study.» [@budhathoki2019, Discussion] Test 3: name the food (fish vs red/processed meat), never the nutrient
+("animal protein"). This is Budhathoki refining Naghshi's own Test-3 instance (a constituent cohort of
+Naghshi's MA, at single-cohort resolution — not an independent source); the confidence call sits on
+[[Dietary Protein and Mortality]].
+[inferred from @budhathoki2019]
+
 ## "Organic" as a label that tracks the feed, not the certificate `[2026-07-29]`
 
 The diagnostic usually asks whether a *food* boundary hides heterogeneity. The organic label is the same
@@ -596,5 +617,27 @@ fatty acid preparations — in particular, dietary-supplement preparations of n�
 descend from *fish* to the *isolated n-3*, because EPA-ester ≠ EPA+DHA-mix and 4 g ≠ 1 g. The full
 parameter table and the decision-form finding live on [[Vitamin and Mineral Supplements for Disease Prevention]].
 [inferred from @bhatt2019; @manson2019n3]
+
+
+## "Dairy" as a label where the aggregate hides null-and-opposite cells `[2026-08-06, Guo]`
+
+The category-2 failure (a boundary hiding a real difference), worked on dairy. Guo 2017's dose-response
+MA splits «dairy» five ways and the aggregate «total dairy» — RR 0.97-0.99 across mortality/CHD/CVD,
+null [@guo2017] — is an average
+over cells that do NOT agree:
+
+- **Milk** null but with I2 = 97.4% (one confounded Swedish cohort drives it — a within-category outlier,
+  not a mean) -> [[The U-Shaped Association Artifact]];
+- **Fermented dairy / cheese** marginally inverse (RR 0.98) but the signal vanishes on removing that same
+  cohort -> [[Fermented Foods and Health]];
+- **Butter** (cited MA): weakly *positive* for mortality yet *inverse* for diabetes — opposite-direction
+  cells under one word;
+- **High-fat vs low-fat** both null — the guidance fault-line the label erases.
+
+So «dairy» is a type-B category (milk ≠ cheese ≠ butter ≠ fermented), and the SFA-per-food matrix
+hypothesis is why: the same saturated fat may behave differently inside cheese vs butter
+[@guo2017]. Never let a butter
+finding read as a cheese finding, or a whole-milk finding as a yogurt finding. Full decomposition +
+verdict -> [[Dairy and Cardiometabolic Health]].
 
 ## References

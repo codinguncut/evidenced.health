@@ -2,31 +2,46 @@
 type: framework
 question: How much physical activity, of what kind, do I need before the mortality benefit flattens?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org)]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019]
+authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org)]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019]
 cluster: activity
+nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Muscle-Strengthening Activity and Mortality
     - Measurement Error in Dietary Assessment
+    - Cardiorespiratory Fitness and Mortality
+    - The U-Shaped Association Artifact
     - Upgrading Observational Evidence
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-27
-updated: 2026-08-05
-self_critiqued: 2026-08-01
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
-**Primarily WHO's 2020 evidence profiles** (plus Willett on measurement). WHO's own evidence base is
-*other guidance bodies' reviews* — so agreement with PAGAC or the Canadian/Australian guidelines would be
-**structurally guaranteed and worth nothing**. A genuinely independent check was hoped for from
-[[Muscle-Strengthening Activity and Mortality]] (Momma 2022) — **now ingested, and the honest outcome is
-that it is NOT that check**: Momma is the same observational physical-activity-epidemiology lineage
-(overlapping cohorts, cites the same prior metas), so it *corroborates* the strength finding (its
-all-cause RR 0.85 sits beside the strength-guideline HR 0.80 below) but does not supply independent
-backing. A genuinely independent family (a different method — e.g. objectively-measured fitness change,
-or an RCT-grade outcome) is still owed.
+**Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
+device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
+annex — but that annex is a **recommendation summary that borrowed its evidence** from the underlying
+harmonised meta-analysis, **Ekelund 2019** (accelerometry). Per the *cite-the-underlying-SR-for-an-
+effect-claim* rule, the effect/certainty claims are re-anchored below on the primary source; the WHO
+quotes are retained as the summary that reproduced them. Two further primaries are now held: **Ekelund
+2016** (sitting x PA interaction) and **Paluch 2022** (steps/day). All three are gold harmonised MAs of
+prospective cohorts — objective/device or harmonised self-report — the objective-measurement corrective
+to the older self-report dose-response literature.
+
+**The independence gap is now partly closed — by measurement modality, not by method.** A genuinely
+independent check was hoped for from [[Muscle-Strengthening Activity and Mortality]] (Momma 2022) and is
+NOT one (same observational PA-epidemiology lineage, overlapping cohorts). But the *measurement-artifact
+reading* itself now has independent backing: Ekelund's accelerometry finds the activity-mortality effect
+is **\~2x larger** than self-report shows, and Mandsager's cardiopulmonary-exercise-testing finds
+objectively-measured *fitness* has **no plateau** where self-reported activity does
+-> [[Cardiorespiratory Fitness and Mortality]]. Two different objective instruments (hip accelerometer;
+maximal exercise test), two non-overlapping author groups, converging on *self-report attenuates the
+true gradient* — a genuine `[E-independent]` corroboration of the measurement reading (not of any single
+effect size). An RCT-grade mortality outcome is still owed.
+[inferred from @ekelundacc2019; @mandsager2018]
 
 
 
@@ -81,6 +96,129 @@ reverse causation (illness reduces activity) is not excluded by design — the p
 reflects consistency and precision, not randomization. And the exposure is total accelerometer
 counts, which is not a prescription anyone can follow directly.
 
+## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
+
+The two maxima above trace to **Ekelund 2019**, a harmonised MA of 8 accelerometry cohorts (n=36 383,
+2149 deaths, model B, least-active referent). The full quartile curve makes the *shape* legible:
+
+| Exposure | Q1 | Q2 | Q3 | Q4 (most active) |
+|---|---|---|---|---|
+| **Total PA** (cpm) | 1.00 | **0.48** (0.43-0.54) | 0.34 (0.26-0.45) | 0.27 (0.23-0.32) |
+| **Light PA** (min/d) | 1.00 | 0.60 (0.54-0.68) | 0.44 (0.38-0.51) | 0.38 (0.28-0.51) |
+| **MVPA** (min/d) | 1.00 | 0.64 (0.55-0.74) | 0.55 (0.40-0.74) | 0.52 (0.43-0.61) |
+
+> «Any physical activity, regardless of intensity, was associated with lower risk of mortality, with a
+> non-linear dose-response. Hazards ratios for mortality were 1.00 (referent) in the first quarter (least
+> active), 0.48 (95% confidence interval 0.43 to 0.54) in the second quarter, 0.34 (0.26 to 0.45) in the
+> third quarter, and 0.27 (0.23 to 0.32) in the fourth quarter (most active).»
+> [@ekelundacc2019]
+
+**The single most decision-relevant feature: the steepest drop is the FIRST step off the floor.** Getting
+out of the least-active quartile roughly *halves* mortality (total PA Q1->Q2 HR 0.48) — and the increment
+was small: «broadly equal to ... 5 min/day of moderate-to- vigorous intensity physical activity» over the
+referent.
+> «the greatest risk reduction for mortality was observed when the second quarter was compared with the
+> referent, for all activity intensities.»
+> [@ekelundacc2019]
+This is the *marginal-minute-worth-most-at-the-bottom* shape, quantified: the near-sedentary person has
+the largest lever in the whole domain, and it is a small one to pull.
+
+**The plateau, stated primarily — and honestly as a plateau, not a "no knee".** Above the maxima the
+curve flattens:
+> «No further risk reductions occurred with higher levels of activity except for low light intensity
+> physical activity where the risk appeared to decrease further.»
+> [@ekelundacc2019]
+So this IS a located plateau (monotone-decreasing then flat — no U/J, no harmful upper arm at achievable
+doses). It survives the *measurement* caveat the wiki attaches to plateaus: measurement error can hide a
+knee but not manufacture one, and here the plateau is on the objectively-measured, un-attenuated curve —
+so it is more credible than a self-report plateau, not less. Cross-check: objectively-measured *fitness*
+shows NO plateau -> [[Cardiorespiratory Fitness and Mortality]] — the two are not the same construct
+(activity dose flattens; the fitness it produces keeps paying).
+
+**Why the effect is this large — the measurement corrective (the type-A/E payoff of holding the primary).**
+> «The observed effect sizes for the associations between physical activity and the risk of death are
+> about twice as large compared with those previously reported in studies assessing physical activity by
+> self report»
+> [@ekelundacc2019]
+Self-report attenuates the true gradient toward the null; objective accelerometry roughly **doubles** the
+observed magnitude and resolves the light-intensity shape self-report could not. This is the
+[[Measurement Error in Dietary Assessment]] binding-constraint lesson firing in the *activity* domain,
+and the reason a device-measured HR is not comparable to a self-report HR for the same behaviour.
+
+**Reverse causation (the frail move less) — handled by the WEAK check only.**
+> «We attempted to minimise bias from reverse causation by excluding all deaths within the first two years
+> in sensitivity analyses. The hazard ratios were materially unchanged for the associations of total
+> physical activity and light intensity or moderate-to-vigorous intensity physical activity with
+> mortality, and slightly attenuated for sedentary time.»
+> [@ekelundacc2019]
+The PA associations survived early-death exclusion (Ekelund adds «bias from reverse causation might
+persist»); there is no MR/genetic instrument, so this is the *weak* adjudication in the
+[[The U-Shaped Association Artifact]] sense — enough that the monotone benefit is not purely sick-quitter
+artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
+sitting sections).
+
+## Steps per day — the practical, wearable-native dose (Paluch 2022)
+
+**Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
+deaths; quartile medians 3553 / 5801 / 7842 / 10 901 steps/day) gives the same shape in the unit a
+fitness tracker reports:
+> «Compared with the lowest quartile, the adjusted HR for all-cause mortality was 0·60 (95% CI 0·51–0·71)
+> for quartile 2, 0·55 (0·49–0·62) for quartile 3, and 0·47 (0·39–0·57) for quartile 4. Restricted cubic
+> splines showed progressively decreasing risk of mortality among adults aged 60 years and older with
+> increasing number of steps per day until 6000–8000 steps per day and among adults younger than 60 years
+> until 8000–10 000 steps per day.»
+> [@paluch2022]
+
+Highest vs lowest quartile = 40-53% lower mortality; overall nadir \~7000-9000 steps/day; monotone-
+decreasing to a plateau (p-nonlinearity <0.0001), same as the MVPA curve.
+
+**The age plateau is genuine effect modification (route-b), not just baseline-risk (route-a).** The
+age x steps interaction is significant (p=0.012): **older adults (>=60) reach the plateau LOWER
+(\~6000-8000 steps) than younger adults (\~8000-10 000)** — the sex interaction is not (p=0.11). Because
+this is *positive interaction evidence*, stratifying the step target by age clears the higher route-(b)
+bar (per [[Transportability and Effect Modification]] / the five-routes table), not only the route-(a)
+absolute-benefit scaling. Decision-change: an older adult can bank the mortality plateau at a lower step
+count than the number a younger adult should aim for.
+
+**10 000 steps is a marketing number.**
+> «Although the goal of 10 000 steps per day is widely promoted as being optimal for general health, it is
+> not based on evidence, but instead originates from a marketing campaign in Japan.»
+> [@paluch2022]
+The benefit plateaus below 10 000 for most adults and well below it for older adults — so 10 000 is not a
+threshold to clear, and treating it as one may discourage the person for whom 6000-8000 already banks
+most of the benefit.
+
+**Cadence adds little beyond volume.**
+> «We found inconsistent evidence that step intensity had an association with mortality beyond total
+> volume of steps.»
+> [@paluch2022]
+Peak-30/60-min stepping rate stayed significant after adjusting for volume, but time spent at a moderate
+cadence did not — total steps carry the signal, so *count the steps, don't chase the pace*. Reverse
+causation handled by the weak check (effect stronger at <6 y follow-up, HR 0.32, vs >=6 y, 0.57 — a
+sick-quitter tell — but the 2-year exclusion left it significant).
+
+## These three metrics are NOT interchangeable numbers — a same-quantity check
+
+Steps/day, MVPA-min/day and sitting-hours/day are **complementary framings of one construct (total
+movement volume), not convertible doses.** The parameter table below is the guard against reading one
+source's number as another's:
+
+| Parameter | Ekelund 2019 (accel) | Paluch 2022 (steps) | Ekelund 2016 (sitting) | Same quantity? |
+|---|---|---|---|---|
+| Exposure unit | MVPA min/d; total-PA cpm | steps/day | sitting h/day; MET-h/week | **NO** — different units |
+| Measurement | hip accelerometer (device) | step-counting device | self-report questionnaire | NO — device vs self-report |
+| Referent | least-active quartile | lowest-steps quartile | least-sitting + most-active | NO — different referents |
+| Where benefit banks | \~24 min/d MVPA (plateau) | \~7-9k steps (age-varying) | 60-75 min/d MVPA offsets sitting | measure a DIFFERENT feature |
+| Top-vs-bottom effect | HR 0.27 (total PA) | HR 0.47 (steps) | HR 1.04 vs 1.27 (joint) | NO — non-comparable contrasts |
+
+**The decision-relevant convergence is qualitative, not numeric:** all three show the same *shape* — a
+steep early drop, then a plateau, on the objectively/harmonised-measured curve — but the HRs cannot be
+equated (a device-measured total-PA Q4 HR of 0.27 is not *the same as* a steps Q4 HR of 0.47; they are
+different exposures, referents and measurement instruments). Use steps for a wearable-native target, MVPA
+minutes for a guideline-aligned target, and the sitting interaction for the offset question — do not
+convert between their hazard ratios.
+[inferred from @ekelundacc2019; @paluch2022; @ekelundsitting2016]
+
 ## Strength training — a real independent association, never ranked above aerobic
 
 | Finding | Effect | Certainty |
@@ -117,6 +255,52 @@ controlling for activity, so sitting less and moving more are not the same lever
 associations.** Two behaviours inside one category, behaving differently — though what accompanies TV
 viewing is not addressed here, so confounding is not excluded.
 `-> [[Is the Food Category Doing Any Work]]` for the same structure in a different domain.
+
+**The objective sitting threshold is HIGHER than the self-report one — measurement again.** Ekelund 2019
+(accelerometry) puts the sitting-mortality inflection at *9.5 h/day*, above the 6-8 h/day from
+self-reported-sitting metas — the same self-report/device gap that doubles the activity effect above,
+running in the sitting direction. Read the WHO 6-8 h number as a self-report figure, not the device one.
+[@ekelundacc2019]
+
+## Does activity OFFSET sitting? Mostly yes — the Ekelund 2016 interaction
+
+The decision this answers: *if I must sit 8+ hours (desk job, commute), can being active cancel the
+risk?* Ekelund 2016 (harmonised MA, >1 million adults, joint sitting x PA analysis) is the source, and
+the answer is **high activity eliminates the sitting-mortality association**:
+
+> «Daily sitting time was not associated with higher all-cause mortality rates among those in the most
+> active quartile. Compared with the referent (<4 h of sitting per day and highest quartile of physical
+> activity [>35.5 MET-hour/week]), there was no increased risk of dying during follow up in those who sat
+> for more than 8h/day but who also reported >35.5 MET-hour/week of activity (HR=1.04; 95% CI, 0.99, 1.10).
+> In contrast, those who sat the least (<4 h/day) and were in the lowest (<2.5 MET- hour/week) activity
+> quartile had a significantly increased risk of dying during follow-up (HR=1.27, 95% CI, 1.22, 1.31).»
+> [@ekelundsitting2016]
+
+The striking comparison: **the most-active + most-sitting group had LOWER mortality than the least-active
++ least-sitting group** — activity dominates sitting when both are pushed. Stratified, the sitting
+penalty (>8 vs <4 h/day) shrinks stepwise across activity quartiles: 1.27 -> 1.12 -> 1.10 -> 1.04 (ns).
+The dose that eliminates it is high — **60-75 min/day of moderate activity**, above the basic guideline:
+
+> «High levels of moderate intensity physical activity (i.e. about 60 to 75 minutes per day) appear to
+> eliminate the increased risk of death associated with high sitting time. However, this high activity
+> level attenuates, but does not eliminate the increased risk associated with high TV viewing time.»
+> [@ekelundsitting2016]
+
+**Two decision-relevant asymmetries.** (i) The offsetting dose (60-75 min/d) is *higher* than the
+mortality-plateau dose (\~24 min/d MVPA) above — so *enough activity to bank the mortality benefit* is not
+automatically *enough to cancel heavy sitting*; the sitting offset asks more. (ii) **TV viewing is only
+attenuated, not eliminated** — even the most active kept excess risk at >5 h/day TV (HR 1.16, 1.05-1.28),
+whereas total sitting was fully offset. TV is not just *sitting*: postprandial-evening timing, snacking,
+and fewer sitting-breaks are the offered mechanisms, so the two sedentary exposures are not one lever
+(consistent with Willett's near-zero sitting/activity correlation above). Magnitude anchor: the
+least-active + >8 h-sitting group's 58% excess risk «is similar to that of smoking and obesity».
+[@ekelundsitting2016]
+
+**Caveats (all three sources).** Ekelund 2016 uses *self-reported* sitting and PA at one timepoint
+(attenuation toward null), mostly >45 y, western; reverse causation addressed only by excluding
+baseline-ill / early deaths — the weak check, same as Ekelund 2019 and Paluch. So the offset is a
+robust, biologically-plausible *association* (1 h moderate activity improves postprandial lipid/glucose
+after prolonged sitting), not a proven causal cancellation.
 
 ## Older adults — falls, which is a patient-important outcome
 

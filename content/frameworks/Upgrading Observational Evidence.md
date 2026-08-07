@@ -7,6 +7,7 @@ sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 
 cluster: evidence-appraisal
 relationships:
   related_to:
+    - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
     - Indirectness of Evidence
     - Baseline Risk and the Relative-Absolute Split

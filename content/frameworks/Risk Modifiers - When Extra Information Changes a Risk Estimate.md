@@ -2,10 +2,11 @@
 type: framework
 question: When does an extra test change a risk estimate enough to change the decision?
 aliases: [Risk Modifiers, CAC Score, Coronary Artery Calcium, Reclassification, Grey Zone, Risk Enhancers]
-authors: [European Society of Cardiology (org)]
-sources: [ESC - CVD Prevention Guidelines 2021]
+authors: [European Society of Cardiology (org); Mach, François; Blumenthal, Roger S]
+sources: [ESC - CVD Prevention Guidelines 2021, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026]
 cluster: cvd-risk-estimation
 confidence: high
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
@@ -14,7 +15,7 @@ relationships:
     - Upgrading Observational Evidence
     - Measuring and Raising Cardiorespiratory Fitness
 created: 2026-07-26
-updated: 2026-07-28b
+updated: 2026-08-06
 ---
 
 A risk model gives a number; a modifier is anything proposed to adjust it. ESC sets a bar that
@@ -248,5 +249,50 @@ This page records ESC's five criteria and its verdict that *«very few potential
 (*«Assessment of total CVD risk may be considered»*) — a recommendation to *assess*, not a multiplier.
 **The two should not be conflated:** rheumatoid arthritis gets a number, the broader category gets a
 prompt.
+
+## Lp(a) crossed the bar — ESC's own 2021→2025 reversal, and ACC-AHA agrees `[2026-08-06]`
+
+This page recorded ESC **2021**'s verdict that Lp(a) *«too provides limited additional value in terms of
+reclassification potential»* — a marker that did **not** clear the five criteria. **ESC's 2025 focused
+update reverses that**, and the reversal is the cleanest class-4 (revision) datum the page holds: the
+same body, on the same modifier, moved it from *below the bar* to a **formal reclassifying risk modifier**
+with an operating threshold.
+
+| | ESC 2021 (held) | ESC-EAS 2025 focused update |
+|---|---|---|
+| Verdict | «limited additional value in ... reclassification» | a risk modifier that reclassifies |
+| Threshold | none | «becomes clinically relevant above 50 mg/dL (105 nmol/L)» |
+| Measurement | not recommended as routine | «should be considered at least once in every adult's lifetime» |
+
+> «this cut-off level should be considered as a risk modifier to potentially reclassify the CV risk
+> category specifically in individuals at moderate risk or individuals close to treatment decision
+> thresholds»
+> [@esceas2025]
+
+**It clears this page's own criteria in the way the earlier verdict said it did not** — the operating
+cut-off is a reclassification instruction for the grey zone (constraint 1), and it is applied only where
+a person is near a threshold. ESC still concedes the outcome loop is open: whether *lowering* Lp(a)
+changes outcomes «has yet to be shown», no Lp(a)-lowering agent is endorsed, and statins «had no effect
+on Lp(a)». So the modifier reclassifies *risk*; it does not yet come with an evidenced *lever*.
+
+**ACC-AHA 2026 concurs, with a graded threshold — cross-family agreement, not independent confirmation.**
+Lp(a) «should be measured at least once»; «considered as a risk-enhancing factor at levels ≥125 nmol/L
+(50 mg/dL), which is associated with about a 1.4-fold increased ASCVD risk, and values ≥250 nmol/L
+(100 mg/dL) are associated with ≥2-fold higher estimated risk».
+[@accaha2026]
+
+**Parameter check — the mass threshold is identical, the molar conversion is not:**
+
+| Parameter | ESC-EAS 2025 | ACC-AHA 2026 | Same quantity? |
+|---|---|---|---|
+| Actionable Lp(a) threshold (mass) | 50 mg/dL | 50 mg/dL | **Yes** |
+| ...stated molar equivalent | 105 nmol/L | 125 nmol/L | No — assay/standardization convention, not a decision difference |
+| Use | reclassify risk category (grey zone) | risk-enhancer → more intensive LDL-C lowering | Compatible |
+
+**Not type-E.** Both bodies rest on the same epidemiologic/genetic Lp(a) literature (Lp(a) as a
+«causal and direct» ASCVD factor), so the convergence is shared-source agreement, not independent
+backing — no `[E-independent]`. The value here is **F/class-4**: a held single-body verdict is updated
+by that body's own newer cycle, and a second family lands on the same actionable mass threshold.
+[inferred from @esceas2025; @accaha2026]
 
 ## References

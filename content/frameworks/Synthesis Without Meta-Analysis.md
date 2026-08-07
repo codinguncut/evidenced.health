@@ -8,9 +8,10 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 relationships:
   related_to:
+    - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
     - Publication Bias and Selective Reporting
     - P-Hacking and Researcher Degrees of Freedom

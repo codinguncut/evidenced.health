@@ -2,8 +2,8 @@
 type: framework
 question: How much does lowering LDL/apoB reduce hard cardiovascular events, per unit of lowering — and which lipid number should the target be?
 aliases: [LDL Lowering Magnitude, Statin Per mmol Effect, CTT Meta-Analysis, LDL Reduction Events, ApoB vs LDL-C, Which Lipid to Target, LDL-C Event Reduction]
-authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A]
-sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022]
+authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S]
+sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -14,9 +14,12 @@ relationships:
     - Statins for Primary Prevention and the Power of Zero CAC
     - Surrogate Outcomes
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
+    - The Observational-Trial Discordance
+    - SCORE2 Baseline Risk and the ESC Treatment Thresholds
+    - Which Objective Moved This Recommendation
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 Two separable questions sit under the lipid lever, and two sources answer them. **How much does
@@ -97,6 +100,18 @@ IMPROVE-IT; n=40,430), each lipid is entered *simultaneously*:
   lipoproteins in addition to LDL» — LDL-C is the weakest of the three because it misses the remnant
   particles.
 
+**The genetic version of the same answer — Richardson MVMR `[2026-08-06]`.** Marston's apoB-supremacy is
+observational; multivariable *Mendelian randomisation* reaches it as a natural experiment. Instrumenting
+LDL-C, TG and apoB from a UK Biobank GWAS (up to 441,016) against CARDIoGRAMplusC4D (60,801 CHD cases):
+each is atherogenic alone, but entered together "only apolipoprotein B ... retained a robust effect, with
+the estimate for LDL cholesterol ... reversing" — apoB OR 1.92 (1.31-2.81), LDL-C 0.85 (0.57-1.27, P=0.44),
+TG weakened. [@richardson2020] So the *metric*
+verdict (target apoB, not LDL-C content) is now backed by RCT-scaling (CTT), observational multivariable
+(Marston), and genetic multivariable MR (Richardson) alike. Note: this does **not** discredit LDL-C's
+causal role — apoB is *necessary* and always accompanies cholesterol; a cholesterol change concordant with
+apoB still moves risk (which is why CTT's LDL-C scaling works for statins). Causal model + the
+not-independent caveat: [[LDL ApoB and Cumulative Exposure]].
+
 ## Synthesis — the two answers reconcile; they do not clash
 
 [inferred from @ctt2010; @marston2022]
@@ -130,10 +145,11 @@ The decision-relevant seam, with its proviso made explicit:
   reduction** (exactly in the concordant; approximately when read off LDL-C, under-counting where they
   discord). The two sources answer *which number* and *how much*, and only together give the whole decision.
 
-**Independence note:** not a type-E robustness convergence. Ference (nucleus) co-authors Marston, and CTT
-is the RCT evidence family the nucleus's consensus already rests on — same research programme. The value
-here is A/F (magnitude × metric assembled into one decision structure; Marston refines what CTT's LDL-C
-scaling *is*), not independent triangulation.
+**Independence note:** not a type-E robustness convergence. Ference (nucleus) co-authors *both* Marston and
+Richardson, and CTT is the RCT evidence family the nucleus's consensus already rests on — one research
+programme across all three. The value here is A/F (magnitude × metric assembled into one decision structure;
+Marston refines what CTT's LDL-C scaling *is*; Richardson adds the genetic-MR leg), **not** independent
+triangulation — so none of the three is tagged `[E-independent]`.
 
 ## Decision relevance
 
@@ -150,6 +166,58 @@ scaling *is*), not independent triangulation.
 - **Drug route only.** CTT is statin-lowering; the magnitude does **not** transfer to a *dietary* LDL-C
   change (the MCE/Sydney disconnects -> [[Surrogate Outcomes]], [[Linoleic Acid and Cardiovascular Disease]]).
 
+## The treat-to-target number — the two guidance families converge, but the NUMBER is not the DIRECTION `[2026-08-06]`
+
+CTT gives the *magnitude* per unit; the guidelines translate it into a **level to treat to**. The
+decision-relevant fact for 2026 is that the two major families now **converge** on the most aggressive
+target, and that convergence must be read correctly: it raises the guidance null for *direction*, not for
+the specific number.
+
+**The very-high-risk secondary-prevention target is the same in both families.**
+
+| Parameter | ESC-EAS (2019, reaffirmed 2025) | ACC-AHA 2026 | Same quantity? |
+|---|---|---|---|
+| Very-high-risk LDL-C goal | <1.4 mmol/L (55 mg/dL) + ≥50% reduction | «a goal of LDL-C <55 mg/dL (1.4 mmol/L)» + ≥50% reduction | **Yes** |
+| High-risk / primary-high goal | <1.8 mmol/L (70 mg/dL) | «goal of LDL-C <70 mg/dL (1.8 mmol/L)» | **Yes** |
+| non-HDL-C secondary goal | — (not set in the 2025 text) | <85 mg/dL (2.2 mmol/L) | ACC-only |
+
+[@accaha2026] — ESC-EAS 2025 states «the LDL-C treatment
+goals ... for persons in each risk category have not changed from the 2019 ESC/EAS Guidelines»
+[@esceas2025]; the ESC numeric figure itself lives
+in that update's Fig. 1 (not in the OCR'd text — do not source the numbers to the 2025 document; they are
+the reaffirmed 2019 targets).
+
+**The delta that makes this a finding: ACC-AHA restored numeric goals.** The 2018 US guideline had
+*abandoned* treat-to-target; 2026 puts it back — «LDL-C and non-HDL-C treatment goals are back to guide
+LLT» [@accaha2026] — and lands on the ESC numbers. So the
+US and European families, which diverged on *whether to name a target* for a decade, now agree on the
+target itself.
+
+**But this is shared-source agreement, and the two families are not two separate witnesses.** Both rest on
+the **same** trial base — CTT for the per-mmol magnitude (ESC states it as its «average 20 % proportional
+... reduction ... per each mmol/L» [@esceas2025]; the
+ACC document rests on CTT 2010 throughout) plus FOURIER/ODYSSEY/IMPROVE-IT/CLEAR. Two guideline committees
+reading the same trials to the same number is convergence of shared warrant, not a second route — so this
+carries no `[E-independent]` weight.
+
+**The load-bearing honesty — the DIRECTION is evidenced, the specific NUMBER is a reasoned extrapolation.**
+A target is legitimate only if its transmission to a patient-important outcome is itself evidenced. Here:
+
+- **Direction (lower LDL/apoB → fewer events, monotone, no threshold) is high-certainty** — CTT's «no
+  evidence of any threshold», benefit persisting «even among those reaching 1·8 mmol/L (70 mg/dL) or
+  lower», and the concordant genetic MR (Richardson). The guidelines' own claim that the per-unit benefit
+  is mechanism-agnostic is the same view: «similar reductions in the risk of CVD as statins ... per unit
+  decrease in LDL-C» [@esceas2025].
+- **The specific cut (why <55 and not <50 or <70) has no head-to-head trial.** No RCT randomized patients
+  to *target* <55 vs <70 mmol/L; the numbers are derived from achieved-LDL strata in the outcome trials
+  and the monotone curve, extrapolated to a round threshold. Under a monotone no-threshold curve a
+  *target* is a pragmatic stopping point, not an evidenced optimum — reducing past it merely keeps paying
+  (or stops being worth the added agent/cost/adherence burden), which is a net-effect judgment, not a
+  measured knee. So the convergence licenses «lower, for the high-risk» with confidence; it does **not**
+  certify 1.4 mmol/L as *the* right number.
+
+[inferred from @accaha2026; @esceas2025; @ctt2010]
+
 ## Limits
 
 - CTT magnitude is a **\~5-year per-mmol** effect from drug trials; the lifetime cumulative effect is larger
@@ -157,6 +225,10 @@ scaling *is*), not independent triangulation.
 - Marston is observational (with cited MR) and shares lineage with the nucleus's consensus — large and
   consistent, but not independent of it; measured on conventional panels, not NMR; not enriched for severe
   hypertriglyceridemia.
+- **The guidelines are WHAT-TO-DO documents; their effect claims are borrowed.** ACC-AHA and ESC-EAS are
+  named here for the *recommendation* (the target, the escalation), never as evidence of the magnitude —
+  the magnitude is CTT's/Marston's, which the guidelines themselves rest on (ACC-AHA even reproduces
+  Marston's aHR 1.27). A guideline's restatement of CTT is not a second confirming study.
 - The open loop stands: no operation here grades either against a realized patient outcome.
 
 ## References

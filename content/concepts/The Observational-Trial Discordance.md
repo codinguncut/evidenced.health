@@ -4,7 +4,7 @@ question: When a large, consistent observational signal meets a null or weak ran
 aliases: [Observational vs Trial Discordance, Big Observational Weak RCT, Observational-RCT Conflict, Credibility vs GRADE, Convincing but Very Low]
 authors: []
 sources: []
-cluster: evidence-appraisal
+cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
 updated: 2026-08-06
@@ -13,12 +13,16 @@ relationships:
   related_to:
     - Upgrading Observational Evidence
     - The U-Shaped Association Artifact
+    - BMI and All-Cause Mortality
     - Measurement Error in Dietary Assessment
     - Is the Food Category Doing Any Work
     - Surrogate Outcomes
     - Ultra-Processed Food and Health Outcomes
     - Mediterranean Diet and Cardiovascular Events
     - Coffee Consumption and Health
+    - Free Sugars Intake
+    - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
+    - Fatty Liver MASLD and Weight Loss
 ---
 
  — a synthesis induced across the fabric's own holdings (UPF, coffee, Mediterranean diet,
@@ -42,10 +46,20 @@ this page's.
 | **Ultra-processed food** | CVD-mortality association graded class-I *convincing* on the credibility scale | GRADE certainty **very low** for that same outcome — BUT Hall's inpatient RCT confirms UPF *causes* overeating (the mechanism) | the trial tested the RIGHT exposure (a whole UPF diet, short) and AGREES on mechanism; the discordance is credibility-vs-GRADE, resolved toward causal -> [[Ultra-Processed Food and Health Outcomes]] |
 | **Coffee** | all-cause mortality RR \~0.83, CVD \~0.85 — consistent across a large umbrella | mostly GRADE very-low; Mendelian-randomization finds **no** genetic causal signal for coffee->T2D; no lifetime RCT is feasible | the natural experiment (MR) nulls one arm -> that arm is likely confounded; hold as insufficient-for-causation, not confirmed -> [[Coffee Consumption and Health]], [[Upgrading Observational Evidence]] |
 | **Mediterranean diet** | CVD/mortality graded *convincing* observationally | pooled whole-diet RCTs mostly null **except diabetes**; the one whole-PATTERN RCT (PREDIMED) moved events, while single-nutrient RCTs (the 54-RCT SFA-events null, Look AHEAD) did not | the RCT that tested the RIGHT exposure (the whole pattern) AGREES; the "null RCTs" tested a DIFFERENT exposure (single nutrients) -> [[Mediterranean Diet and Cardiovascular Events]] |
+| **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
 they are three instances of one *appraisal structure*. That is what makes the page a type-A synthesis
 rather than a corroboration pile.
+
+**On the sugar row, a guidance body now states the structure in its own voice `[2026-08-06]`.** EFSA
+2022 reports the discordance directly — RCTs on surrogate endpoints support a causal sugar->metabolic-
+disease relationship, yet prospective cohorts *in isocaloric exchange* «do not support a positive
+relationship» with any metabolic or pregnancy endpoint — and resolves it the wiki's way: «excess energy
+intake leading to positive energy balance ... appears to be the main mechanism». So the resolution above
+(harm tracks the calories, not the molecule) is no longer only wiki-induced; a fourth body reached it by
+a separate systematic review (loci on [[Free Sugars Intake]]). It corroborates the *structure*, not an
+independent primary dataset.
 
 ## Why the streams disagree — five mechanisms, not one
 
@@ -82,7 +96,23 @@ rather than a corroboration pile.
 2. **Where a natural experiment exists (Mendelian randomization), weight it heavily** — it removes
    healthy-user confounding without needing to blind the food, so an MR null is strong evidence the
    observational arm was confounded (coffee->T2D), and an MR positive is strong evidence it was causal
-   (LDL/apoB -> ASCVD) -> [[LDL ApoB and Cumulative Exposure]].
+   (LDL/apoB -> ASCVD) -> [[LDL ApoB and Cumulative Exposure]]. The LDL/apoB case is the corpus's cleanest
+   MR-positive: *multivariable* MR not only confirms causation but adjudicates *which* correlated trait
+   carries it — entered together, only apoB retains a genetic effect while LDL-C reverses to null — the
+   natural experiment converging with the RCTs rather than clashing with them (the positive-control end of
+   this page's pattern, not a discordance) -> [[LDL Lowering and Cardiovascular Events]].
+   - **BMI -> mortality is a second MR-convergence (positive control) `[2026-08-06]`.** Where coffee's MR
+     *nulled* the observational, BMI's MR *corroborates* it: Wade 2018's genetic instrument reproduces the
+     causal harm the bias-corrected Global BMI IPD-MA found — significant for CVD-cause mortality,
+     directional-but-imprecise for all-cause (MR 1.03, 0.99-1.07) — and shows the observational curve if
+     anything **under**-estimated the obesity arm while **over**-estimating the underweight arm (the J's
+     nadir shifts from \~26 to \~23 kg/m2 under MR; reverse causation is named as the observational J's
+     driver). So an MR that *agrees* is as informative as one that nulls — it moves the observational
+     finding from bias-corrected-strong toward genetically-causal (cause-specifically for CVD; all-cause
+     directional). The caveat is independence, not direction: Wade shares
+     two authors (Davey Smith, Sattar) with the Global BMI collaboration, so it is a type-F genetic
+     refinement of the same lineage, not an independent witness -> [[BMI and All-Cause Mortality]],
+     [[The U-Shaped Association Artifact]].
 3. **Believe it where independent method classes CONVERGE.** The folic-acid case (observational +
    trials + biochemistry + genetics all converging) is the standard for a survived nutrition finding;
    the two classic reversals (beta-carotene, dietary-fat->breast-cancer) had many studies of *one*

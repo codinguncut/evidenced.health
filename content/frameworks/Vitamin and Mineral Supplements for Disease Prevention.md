@@ -2,13 +2,14 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011]
 cluster: supplements
 nucleus: true
 confidence: high
 relationships:
   related_to:
+    - Vitamin D and Calcium Supplementation for Fracture Prevention
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
     - Is the Food Category Doing Any Work
@@ -19,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
 created: 2026-07-30
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -78,6 +79,18 @@ hip fracture per 1000 community-dwelling adults per year [95% CI, 0 to 2])»
 Cochrane review, which included high-risk strata) -> [[Deficiency Repletion vs Enhancement]],
 [[Exercise for Preventing Falls in Older Adults]] (where exercise, not the pill, is the community-dwelling
 fracture lever).
+
+**The OTHER fracture arm — Yao 2019 shows D + calcium reduces hip fracture in the high-risk/institutionalized
+stratum (directly).** Where Kahwati (community-dwelling only) finds the enhancement null, Yao's gold SR+MA
+(6 RCTs, 49,282) finds combined D+Ca cuts hip fracture — «a 6% reduced risk of any fracture (RR, 0.94; 95%
+CI, 0.89-0.99) and a 16% reduced risk of hip fracture (RR, 0.84; 95% CI, 0.72-0.97)»
+[@yao2019] — the benefit «more extreme ... in the RCTs of
+older participants (ie, aged 80 years) living in an institution»
+[@yao2019]. **Vitamin D alone stays null** (hip RR 1.14,
+0.98-1.32), so **calcium is the active co-ingredient**. This is not an independent second witness of Kahwati
+(shared trials: WHI/Jackson, RECORD) — it is the direct evidence for the high-risk-benefit arm Kahwati
+reported second-hand, and the full net-effect (benefit vs CV + stone harm, by stratum) has its own home
+-> [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
 
 ## The load-bearing move: this is ENHANCEMENT in the replete, NOT deficiency correction
 
@@ -158,6 +171,21 @@ association (pooled ARD 0.00%, -0.88 to 0.87) and vitamin D alone was unstudied 
 [@kahwati2018]. So a null-benefit
 supplement here also carries a small, real, moderate-certainty harm — a route-c contraindication signal
 for stone-formers, not merely an opportunity cost.
+
+**A second harm channel for supplemental calcium — cardiovascular (Bolland 2011, `high`, CONTESTED).**
+Beyond kidney stones, calcium supplements with or without vitamin D carry a disputed **cardiovascular** harm
+signal: «Calcium or calcium and vitamin D supplements increased the risk of myocardial infarction (relative
+risk 1.24, P=0.004) and the composite of myocardial infarction/stroke (1.15, P=0.009)»
+[@bolland2011]. **Two guards bind it.** (1) It is
+**contested and subgroup-derived** (a WHI reanalysis restricted to women not on personal calcium; WHI
+investigators and later reviews dispute it) — held as a counterweight, direction credible, magnitude/sign
+disputed. (2) The exposure is the **supplement bolus, not food calcium**: the effect is «independent of
+dietary calcium intake» with the proposed mechanism «the abrupt change in plasma calcium concentration
+after supplement ingestion ... rather than ... the total calcium load ingested»
+[@bolland2011], so it does **not** transport to
+dietary/dairy calcium -> [[Is the Food Category Doing Any Work]]. This CV harm plus the kidney-stone harm are
+the net-effect counterweights on the D+Ca fracture benefit, worked by stratum on
+[[Vitamin D and Calcium Supplementation for Fracture Prevention]].
 
 **The primary trial behind the pooled figure — CARET, stopped early for harm.** The pooled RR rests on
 actual trials, chief among them **CARET**, which randomized 18,314 smokers and asbestos-exposed workers

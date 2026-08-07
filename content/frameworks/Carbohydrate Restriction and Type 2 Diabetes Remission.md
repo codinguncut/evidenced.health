@@ -4,7 +4,7 @@ question: Does restricting carbohydrate put type 2 diabetes into remission, and 
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
 authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long; Szczerba, Edyta]
 sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
-cluster: weight-management
+cluster: weight-loss-diets
 confidence: medium
 self_critiqued: 2026-08-04
 relationships:
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@goldenberg2021]

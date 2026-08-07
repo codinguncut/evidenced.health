@@ -4,7 +4,7 @@ question: Does creatine supplementation change a patient-important outcome — f
 aliases: [Creatine, Creatine Monohydrate, Creatine Loading, Creatine and Muscle, Creatine and Cognition, Creatine Safety]
 authors: [Kreider, Richard B; Kalman, Douglas S; Antonio, Jose; Ziegenfuss, Tim N; Wildman, Robert]
 sources: [Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017]
-cluster: activity
+cluster: supplements
 confidence: medium
 relationships:
   related_to:
@@ -17,7 +17,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 

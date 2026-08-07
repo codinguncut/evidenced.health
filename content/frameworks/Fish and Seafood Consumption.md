@@ -2,12 +2,12 @@
 type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
-authors: [European Food Safety Authority (org)]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014]
+authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020]
 cluster: fish-seafood
 nucleus: true
-confidence: low
-self_critiqued: 2026-08-05
+confidence: medium
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,8 +16,10 @@ relationships:
     - Vitamin and Mineral Supplements for Disease Prevention
     - Deficiency Repletion vs Enhancement
     - Measurement Error in Dietary Assessment
+    - The U-Shaped Association Artifact
+    - The Observational-Trial Discordance
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -180,21 +182,102 @@ labels because their use has been *«inconsistent and their meaning ill defined�
 [@efsaseafood2014] Replace the category with
 the species properties in any decision -> [[Is the Food Category Doing Any Work]] (Test 3).
 
+## The pooled magnitudes EFSA could not supply — Jayedi 2020 umbrella (type-F refinement)
+
+EFSA's benefit arm was **not quantified with certainty** — its CHD/IQ numbers were FDA/FAO-WHO models
+it merely summarized, and it called its own quantitative synthesis *«generally hampered by the
+heterogeneity of the studies»*
+[@efsaseafood2014].
+The Jayedi & Shab-Bidar 2020 umbrella review (**34 meta-analyses of cohorts, 48 SRRs, 298 primary
+cohorts, graded by NutriGrade**) is the first source in the vault to supply **pooled per-100-g/d
+magnitudes with a per-outcome certainty grade**. It does not overturn EFSA — it **firms and bounds**
+it. `[@jayedi2020fish, -02]`
+
+**The pooled benefit, by NutriGrade certainty (all per 100 g/d unless noted):**
+
+| Certainty | Outcome | SRR (95% CI) | Reading (relative, per dose) |
+|---|---|---|---|
+| **Moderate** | CVD mortality | 0.75 (0.65, 0.87) | \~25% lower per +100 g/d |
+| **Moderate** | Myocardial infarction | 0.75 (0.65, 0.93) | \~25% lower per +100 g/d (highest heterogeneity, I2>75%) |
+| **Moderate** | Heart failure | 0.80 (0.67, 0.95) | \~20% lower per +100 g/d |
+| **Moderate** | Stroke | 0.86 (0.75, 0.99) | \~14% lower per +100 g/d |
+| **Moderate** | CHD | 0.88 (0.79, 0.99) | \~12% lower per +100 g/d |
+| **Moderate** | All-cause mortality | 0.92 (0.87, 0.97) | \~8% lower per +100 g/d; 38 studies, 153,998 cases |
+| **Moderate** | Depression | 0.88 (0.79, 0.98) high vs low | new outcome (not on EFSA's arm) |
+| **Moderate** | Liver cancer | 0.65 (0.48, 0.87) | the one cancer that reaches moderate |
+| Low | CHD mortality | 0.65 (0.48, 0.87) | largest effect, but low certainty + nonlinear |
+
+The RRs are **relative, per +100 g/d** (no baseline risk is given in the umbrella, so a true absolute
+risk reduction cannot be computed here — the streetlight caveat -> [[Baseline Risk and the Relative-Absolute Split]]).
+
+[@jayedi2020fish]
+
+**The certainty ceiling is the headline finding, not a footnote:** *«Overall, there was no high-quality
+evidence for the relation of fish consumption and the risk of chronic disease»* — 8/48 SRRs moderate
+(17%), the rest low/very low.
+[@jayedi2020fish]
+The ceiling is **observational** (no fish RCTs; 91% of the pooled cohorts adjusted age but
+**only 33% adjusted family history**), so *moderate* is as high as the fish->mortality evidence goes.
+
+**Nulls and harms that sharpen the food-category point:**
+
+- **Total fish -> T2D, hypertension, atrial fibrillation are all NULL.** But *«higher intake of fatty
+  fish, but not lean fish, was associated with a lower risk of T2D»* (0.89 vs 0.96) — the oily/white
+  split doing decision work again -> [[Is the Food Category Doing Any Work]].
+  [@jayedi2020fish]
+- **Preparation flips the sign:** *«higher intake of fried fish was associated with a higher risk»* of
+  heart failure (RR 1.40, 1.22-1.61) while nonfried fish is protective (0.69). *Fried fish* is a
+  different exposure than *fish*.
+  [@jayedi2020fish]
+- Two low-certainty **cancer harm** signals (gastric 1.16, myeloid leukemia 1.60), few studies each.
+- **Mercury corroboration:** cohort evidence found no association between toenail mercury (the best
+  long-term intake marker) and CVD, and the 2018 AHA statement holds that *«the benefits of 1-2
+  servings/wk... outweigh the potential risks associated with mercury content of fish»* — consistent
+  with EFSA's net-benefit weighing above.
+  [@jayedi2020fish]
+
+### Cross-source parameter table (EFSA 2014 vs Jayedi 2020) — the BLOCKING commensurability check
+
+| Parameter | EFSA 2014 (quoted) | Jayedi 2020 (quoted) | Same quantity? |
+|---|---|---|---|
+| Quantifiability of the benefit | *«generally hampered by the heterogeneity of the studies»* — no endorsed effect size (chunk 03) | 48 pooled SRRs, NutriGrade-graded; *«no high-quality evidence»* but 8 moderate (chunk 01) | **Yes** — Jayedi supplies exactly the graded pooled estimate EFSA said it could not; both converge on an imperfect ceiling (F-refinement) |
+| CHD-mortality dose-response | He 2004 per 20 g/day pooled RR 0.93, cohorts (chunk 03) | CHD mortality 0.65 (0.48, 0.87) per 100 g/d, 17 studies (chunk 02) | **Yes, same outcome+design**; increments differ (0.93/20 g ≈ 0.70/100 g vs 0.65/100 g -> directionally consistent). **NOT independent** — Jayedi's pool includes He 2004 |
+| Dose-response SHAPE, CHD mortality | Zheng 2012 non-linear, benefit may be lost at high intake (chunk 03) | *«nonlinear dose-response relations for CHD mortality»* (chunk 02) | **Yes** — both nonlinear for CHD mortality; consistent |
+| Dose-response SHAPE, all-cause / total CVD mortality | plateau framing (no benefit above \~4-5 servings/wk) — but EFSA's plateau evidence is CHD-mortality-specific | *«inverse linear associations for all-cause and CVD mortality»*; *«no evidence of a U- or J-shaped association»* (chunk 02) | **No — different outcomes.** The plateau EFSA located is CHD-mortality-specific; for all-cause + total CVD mortality Jayedi finds **linear-inverse**. -> a *refinement* (shape is outcome-specific), not a contradiction |
+
+**Verdict:** type-**F** refinement + shared-data corroboration, **not independent type-E** — Jayedi
+re-pools the same cohort literature EFSA's four CHD MAs drew on and rests on the identical EPA/DHA
+mechanism story, so its agreement raises detail and certainty, not independence.
+[inferred from @jayedi2020fish; @efsaseafood2014]
+
+**The dose-response shape reconciliation (decision-relevant):** EFSA reported a **plateau** (benefit
+gone above \~4-5 servings/week); Jayedi reports **linear-inverse** for all-cause and CVD mortality with
+**no U/J shape**. These are not in conflict — EFSA's plateau evidence was CHD-mortality-specific (where
+Jayedi *also* finds nonlinearity), while for the broader mortality outcomes Jayedi finds every
+increment still pays. The shape is **outcome-specific**, matching the corpus's gate-6 finding that a
+curve can be monotone on one outcome and flat on another -> [[The U-Shaped Association Artifact]]. The
+conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
+but may still help all-cause) is unchanged.
+
 ## Limits
 
-- **EFSA could not quantify the benefit with certainty.** Its own verdict: quantitative analyses are
-  *«generally hampered by the heterogeneity of the studies»* — different intake tools, outcome tools,
+- **EFSA could not quantify the benefit with certainty; Jayedi 2020 now can — but only to moderate.**
+  EFSA's quantitative analyses were *«generally hampered by the heterogeneity of the studies»* — different intake tools, outcome tools,
   and confounder adjustment. [@efsaseafood2014]
-  The IQ and CHD magnitudes above are FDA/FAO-WHO **models EFSA summarizes**, not effect sizes EFSA
-  endorses.
+  The IQ and CHD magnitudes in the sections above are FDA/FAO-WHO **models EFSA summarizes**, not effect
+  sizes EFSA endorses. Jayedi's pooled SRRs supply endorsed magnitudes, but at a **moderate certainty
+  ceiling** and still observational.
 - **All the human outcome evidence is observational** (cohorts); the DHA-supplementation RCTs were
   null. Confounding by overall diet quality and socioeconomic position is uncontrolled (the
   observed-healthy-population problem).
 - **Intake is FFQ-measured** — the binding constraint -> [[Measurement Error in Dietary Assessment]].
 - **The risk arm is borrowed.** This opinion is the benefit side; the methylmercury toxicity
   assessment and the TWI derivation are the separate CONTAM 2012 opinion.
-- **Single source, domain-opener.** confidence: low; the cross-source weave is owed as the fish domain
-  grows (an omega-3 RCT source, a mercury-toxicity source).
+- **Two sources, not independent.** EFSA (benefit-risk guidance) + Jayedi 2020 (cohort umbrella) —
+  but they share the underlying cohort literature and the EPA/DHA mechanism, so confidence is medium,
+  not high (the observational ceiling binds both). Still owed for genuine independence: an omega-3
+  **RCT** source (REDUCE-IT/VITAL/ASCEND held only via linked pages) and the mercury-toxicity CONTAM
+  2012 opinion.
 
 [inferred from @efsaseafood2014]
 

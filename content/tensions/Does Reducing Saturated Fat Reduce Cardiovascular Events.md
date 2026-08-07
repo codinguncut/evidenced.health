@@ -17,8 +17,8 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-29
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
@@ -62,6 +62,13 @@ The last column is the finding, and it is the opposite of what the *SFA-reassess
 framing advertises: **on mortality and coronary outcomes the two AGREE — both null.** The genuine
 clash is narrow: the **combined-events composite** (the one estimate that clears the null) and the
 **attribution** of any benefit.
+
+This is a **surrogate-disconnect** in the [[Surrogate Outcomes]] sense: reducing SFA reliably lowers LDL
+(the surrogate the whole case runs through, [[LDL ApoB and Cumulative Exposure]]), yet the effect on the
+*patient-important* endpoints — total and coronary mortality — is null, and only a soft **combined-events**
+composite clears the bar. The same structure recurs for intentional weight loss
+([[Does Weight Loss Reduce Cardiovascular Events]]: Look AHEAD moved every surrogate and missed the hard CV
+endpoint) — a single lever moving a marker is not the same as it moving the outcome.
 
 
 [inferred from @hooper2020; @who2023saturated; @astrup2020]

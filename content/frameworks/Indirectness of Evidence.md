@@ -8,11 +8,12 @@ cluster: evidence-appraisal
 self_critiqued: 2026-07-27
 relationships:
   related_to:
+    - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 **GRADE's transportability machinery, expressed as a certainty penalty.** Direct evidence "directly

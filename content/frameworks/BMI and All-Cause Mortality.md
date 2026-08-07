@@ -2,15 +2,17 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org)]
-sources: [Global BMI - BMI All-Cause Mortality 2016]
-cluster: evidence-appraisal
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018]
+cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - The U-Shaped Association Artifact
+    - The Observational-Trial Discordance
     - Body Fatness and Cancer Risk
     - Layer 1 - Ranking Interventions for a Stratum
     - Does Weight Loss Reduce Cardiovascular Events
@@ -118,6 +120,67 @@ deaths are removed, yet **stays elevated at 1.47** — so low BMI carries residu
 mortality that the corrections do not dissolve, distinct from the fully-artifactual overweight
 signal. [inferred from @globalbmi2016]
 
+## The genetic-instrument confirmation — Wade MR cashes the missing strong check `[2026-08-06, Wade]`
+
+The Global BMI curve above is adjudicated by confounder-*removal* only (no genetic instrument — the gap
+flagged in Limits). Wade 2018's **Mendelian randomization** in UK Biobank (335,308 White British, 9,570
+deaths; a 77-SNP BMI genetic risk score used as an instrumental variable) supplies that check — the
+genetic natural experiment carries orthogonal biases to the observational cascade (immune to the reverse
+causation and smoking confounding the cascade removes by *exclusion*), so it adjudicates the same arms by
+an independent route.
+
+**The causal MR estimates (per 1 kg/m2 higher BMI):** «MR analyses supported a causal association
+between higher BMI and greater risk of all-cause mortality (hazard ratio [HR] per 1 kg/m2: 1.03; 95% CI:
+0.99-1.07) and mortality from cardiovascular diseases (HR: 1.10; 95% CI: 1.01-1.19), specifically
+coronary heart disease (HR: 1.12; 95% CI: 1.00-1.25) and those excluding coronary heart
+disease/stroke/aortic aneurysm (HR: 1.24; 95% CI: 1.03-1.48), stomach cancer (HR: 1.18; 95% CI:
+0.87-1.62), and esophageal cancer (HR: 1.22; 95% CI: 0.98-1.53)».
+[@wade2018, abstract/Table 2] The all-cause
+point estimate (1.03/unit; scaled \~16% per 5 kg/m2, 95% CI -5% to +41%) is directionally supportive but
+**imprecise** — its CI crosses the null, and the Durbin-Wu-Hausman test finds no significant
+observational-vs-MR difference (P=0.96). The **CVD arm is where MR reaches significance** (1.10, 1.01-1.19),
+and MR estimates are of «similar or greater magnitude to observational analyses (with wider CIs)».
+[@wade2018, MR analyses]
+
+**What MR says about the U-curve — the low arm largely deflates, the high arm is genetically corroborated
+(significant for CVD-cause mortality; directional but imprecise for all-cause).**
+«The J-shaped BMI-mortality association remained in MR analyses ... but with a smaller value of BMI at
+which mortality risk was lowest (\~23 vs. \~26 kg/m2 with observational analyses) and apparently flatter
+over a larger BMI range».
+[@wade2018, Linearity] The nadir shifts
+DOWN from \~26 (observational) into the normal range (\~23), and the residual J is driven by the extreme
+BMI quantiles — removing them yields a linear association (P=0.999 for linear trend). Wade names the
+mechanism: «Reverse causality is an important source of bias in observational estimates ... and may be
+the driver of the characteristic J-shaped association», so the observational curve «overestimate[s] the
+harmful effects of having underweight while underestimating the harmful effects of having overweight or
+obesity». [@wade2018, Discussion] The
+*direction* of the correction is the payoff: MR **deflates** the underweight arm (reverse causation) and
+**inflates** the obesity arm — the mirror image of the confounder-strip cascade above, reached
+genetically. Severe underweight plausibly keeps real harm (Wade concedes it «is plausible that
+individuals considered to have severe and unhealthy underweight have a higher risk of mortality»),
+converging with the Global BMI residual underweight 1.47.
+[@wade2018, Discussion]
+
+**Independence verdict — type-F refinement, NOT independent-E (the lineage chase mattered).** Before
+counting Wade as an independent genetic witness, build the parameter table and chase the authorship:
+
+| Parameter | Global BMI 2016 (corrected observational IPD-MA) | Wade 2018 (Mendelian randomization) | Same quantity? |
+|---|---|---|---|
+| Adjudication route | never-smoker restriction + drop first 5 y follow-up + drop baseline disease | 77-SNP genetic instrument (IV ratio estimate) | **NO** — different method class (this IS the F-refinement axis) |
+| Nadir (BMI at min mortality) | 22.5-25 kg/m2 (pre-specified referent) | \~23 kg/m2 (MR), vs \~26 observational in the same UKB | **YES** — same construct, convergent |
+| Underweight / low arm | 1.47, residual after correction (partly reverse causation, not wholly) | J flattens, nadir drops; reverse causation named the J's driver; severe underweight plausibly real | **YES** — same arm, convergent mechanism |
+| Above-nadir (overweight/obese) arm | monotone harm, HR 1.31 per 5 kg/m2 above 25 (corrected association) | causal MR harm; obesity harm *underestimated* by observational (CVD 1.10/unit) | **YES** — same arm; Wade adds the causal warrant |
+
+The estimates converge on the nadir, on the low-arm-is-reverse-causation reading, and on causal harm
+above the nadir. **But they are not independent.** Wade cites Global BMI (ref 5) as corroborative
+context, and — decisively — Wade's senior author **George Davey Smith** and co-author **Naveed Sattar**
+both sit on the **Global BMI Mortality Collaboration writing committee** (`Smith GD`, `Sattar N` in the
+2016 author list). Two shared authors, including the anchor MR investigator, means the two estimates come
+from an overlapping group, so this is a same-lineage **type-F** refinement (the later source supplies the
+earlier's missing genetic-instrument leg) — **not** independent-E backing. The convergence is genuine and
+cashes the missing strong check, but it must not be counted as independent corroboration.
+[inferred from @globalbmi2016; @wade2018]
+
 ## Decision relevance
 
 - **The nadir is 22.5-25, and above it every increment carries risk — there is no protective or
@@ -143,6 +206,12 @@ signal. [inferred from @globalbmi2016]
 - **BMI measurement** — a mix of measured and self-reported BMI across cohorts (self-report biases
   toward the null / mislabels categories) -> [[Measurement Error in Dietary Assessment]]; the paper
   runs a self-reported-vs-measured sensitivity analysis.
+- **The MR gap is now cashed externally, but not independently `[2026-08-06]`.** Wade's genetic
+  instrument (the section above) supplies the strong check Global BMI lacked and converges on the nadir
+  and reverse-causation reading — so the corrected curve is no longer MR-orphaned. The residual limits:
+  the two analyses share investigators (type-F, not independent-E), the all-cause MR is imprecise (CI
+  crosses null), and Wade's MR is one cohort (UK Biobank, White British) vs Global BMI's 239 cohorts on
+  four continents -> [[The Observational-Trial Discordance]].
 - **Cannot separate fat mass from lean mass or distribution** — BMI is the exposure, and the same BMI
   spans different body compositions across age, sex, and ethnicity (a plausible contributor to the
   regional differences, alongside the small-n imprecision of the South Asian estimate).

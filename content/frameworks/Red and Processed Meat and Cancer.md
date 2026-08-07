@@ -4,10 +4,10 @@ question: Does red or processed meat cause cancer, by how much, and does the evi
 aliases: [Red Meat, Processed Meat, Red Meat and Cancer, Processed Meat and Cancer, Meat and Colorectal Cancer]
 authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H]
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018]
-cluster: cardiometabolic-exposures
+cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-08-05
 relationships:
   related_to:

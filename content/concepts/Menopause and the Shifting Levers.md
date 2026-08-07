@@ -4,7 +4,8 @@ question: How do the modifiable-exposure levers and risks shift across the menop
 aliases: [Menopause Body Composition, Menopause Visceral Fat, Menopause as a Stratum, Perimenopause Levers, Menopause Cardiometabolic and Bone, Fat Redistribution Menopause]
 authors: [Ambikairajah, Ananthan; Walsh, Erin; Tabatabaei-Jafari, Hossein; Cherbuin, Nicolas; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org); Cruz-Jentoft, Alfonso J]
 sources: [Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
-cluster: weight-management
+cluster: sex-hormones
+nucleus: true
 confidence: medium
 relationships:
   related_to:
@@ -15,7 +16,7 @@ relationships:
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Surrogate Outcomes
 created: 2026-08-01
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-01
 ---
 

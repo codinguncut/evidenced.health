@@ -4,7 +4,7 @@ question: Which gut-microbiome interventions (diet/fibre, probiotics by strain, 
 aliases: [Gut Microbiome, Microbiome, Gut Microbiota, Probiotics, Prebiotics, Dysbiosis, Fecal Microbiota Transplant, FMT, Gut Health]
 authors: [Valdes, Ana M; Walter, Jens; Segal, Eran; Spector, Tim D; World Gastroenterology Organisation (org); Wastyk, Hannah C; Sonnenburg, Justin L; van Nood, Els; Keller, Josbert J]
 sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, van Nood - Donor Feces Recurrent C difficile 2013]
-cluster: cardiometabolic-exposures
+cluster: microbiome
 nucleus: true
 confidence: medium
 relationships:
@@ -17,7 +17,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-08-05
 ---
 

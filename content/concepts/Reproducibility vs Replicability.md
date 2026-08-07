@@ -4,13 +4,14 @@ question: When someone says a result "reproduces" or "replicates," which of thre
 aliases: [Reproducibility, Replicability, Computational Reproducibility, Generalizability, Reproducibility and Replicability, Replication]
 authors: [National Academies of Sciences Engineering and Medicine (org)]
 sources: [NASEM - Reproducibility and Replicability in Science 2019]
-cluster: evidence-appraisal
+cluster: reproducibility
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 relationships:
   related_to:
+    - Confidence in Science Without a Replication Crisis
     - Sources of Non-Replicability
     - Rating Certainty of Evidence
     - Indirectness of Evidence

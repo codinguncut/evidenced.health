@@ -4,7 +4,7 @@ question: For weight management and glycaemic control in someone who already has
 aliases: [Best Diet for Type 2 Diabetes, Diabetes Diet Umbrella Review, Which Diet for T2D, T2D Weight Management Diets, Diet Type and Diabetes Control, Churuangsuk Umbrella Review]
 authors: [Churuangsuk, Chaitong; Lean, Michael EJ; Reynolds, Andrew; Griffin, Simon J; Szczerba, Edyta; Schlesinger, Sabrina; Schwingshackl, Lukas]
 sources: [Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
-cluster: weight-management
+cluster: weight-loss-diets
 confidence: medium
 self_critiqued: 2026-08-04
 relationships:
@@ -18,7 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Diets for Weight Loss - What NICE Recommends
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 Churuangsuk 2022 (Diabetologia) is the **gold-tier umbrella review** for the T2D-specific version of the

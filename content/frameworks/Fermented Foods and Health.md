@@ -2,9 +2,9 @@
 type: framework
 question: Do live-fermented foods change a patient-important outcome — and if so, is the effect from the live cultures, the food matrix, or the biochemistry fermentation performs? And must the cultures be alive?
 aliases: [Fermented Foods, Fermented Food, Fermented Dairy, Kefir, Kimchi, Kombucha, Sauerkraut, Live Cultures, Fermentation]
-authors: [Wastyk, Hannah C; Fragiadakis, Gabriela K; Perelman, Dalia; Gardner, Christopher D; Sonnenburg, Justin L; Zhang, Kui; Chen, Xiaogang; Zhang, Lin; Deng, Zeyuan]
-sources: [Wastyk - Fermented Foods Microbiota Immune RCT 2021, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019]
-cluster: cardiometabolic-exposures
+authors: [Wastyk, Hannah C; Fragiadakis, Gabriela K; Perelman, Dalia; Gardner, Christopher D; Sonnenburg, Justin L; Zhang, Kui; Chen, Xiaogang; Zhang, Lin; Deng, Zeyuan; Guo, Jing; Astrup, Arne; Soedamah-Muthu, Sabita S]
+sources: [Wastyk - Fermented Foods Microbiota Immune RCT 2021, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017]
+cluster: fermented-foods
 nucleus: true
 confidence: low
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 ---
 
 **The fabric's fermented-foods nucleus, and it opens near-empty.** Two sources anchor it and neither
@@ -120,6 +120,34 @@ subgroups, because the aggregate oversells:
   measurement error is the binding constraint ([[Measurement Error in Dietary Assessment]]), and
   fermented-dairy eaters differ systematically from non-eaters. This is why the finding cannot be read
   as causal on its own.
+
+
+
+## Guo 2017 refines the fermented-dairy CVD signal downward — it is tiny and one-cohort-fragile (type-F)
+
+A second gold dose-response MA (Guo 2017, 29 cohorts) attenuates Zhang's aggregate. Where Zhang reports
+a high-vs-low OR of 0.83, Guo's *per-unit* fermented-dairy slope is a marginal 2%: RR 0.98 (0.97-0.99)
+per 20 g/day for both mortality and CVD, cheese RR 0.98 (0.95-1.00) per 10 g/day for CVD, **yogurt
+null** [@guo2017]. Decisively:
+«the inverse associations of fermented dairy and cheese with all-cause mortality or CVD disappeared
+after removing the study of Michaelsson et al. [6]»
+[@guo2017] — one Swedish cohort
+carries the whole signal (I2 collapsing 94.4->45.2% for mortality, 82.6->0% for cheese-CVD).
+
+| Parameter | Zhang 2019 | Guo 2017 | Same quantity? |
+|---|---|---|---|
+| Exposure | fermented dairy (cheese, yogurt) | fermented dairy / cheese / yogurt, split | partial |
+| Effect form | high-vs-low **OR 0.83** (0.76-0.91) | per-20g/10g dose-response **RR 0.98** | **NO — different contrast** |
+| Robustness | I2 = 94%, leave-one-out reported stable | inverse **vanishes** on removing 1 Swedish cohort | **Guo bounds Zhang's fragility** |
+| Cohort set | 10 cohorts (385k) | 11-19 populations, overlapping | not independent |
+
+**This is type-F (refinement/attenuation), not type-E corroboration:** the two are not independent
+(shared cohorts) and measure different contrasts, so Guo does not *confirm* Zhang — it **bounds** it,
+showing the fermented-dairy CVD inverse is smaller per-unit and hostage to a single confounded cohort
+than the aggregate OR implies. The composite verdict is weaker than either source's own headline:
+*fermented dairy is at best weakly-and-fragilely inverse for CVD, driven by cheese/incidence, artifact-
+sensitive on mortality* -> the milk/dairy-mortality side is worked on [[Dairy and Cardiometabolic Health]]
+and [[The U-Shaped Association Artifact]].
 
 
 

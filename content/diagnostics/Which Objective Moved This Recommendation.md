@@ -2,11 +2,11 @@
 type: diagnostic
 question: When guidance and evidence diverge, which objective moved the recommendation — and can I see it?
 aliases: [Evidence to Decision, EtD, EtD Domains, Multiple Objectives, Feasibility and Acceptability, Resource Use, Guidelines Serve Two Masters]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); European Food Safety Authority (org); Mach, François; Blumenthal, Roger S]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Framing a Decision Question
 created: 2026-07-27
-updated: 2026-07-31
+updated: 2026-08-06
 ---
 
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
@@ -174,6 +174,60 @@ contradicts. `AWAITS` a source on public nutrition beliefs before the population
 
 
 [@who2023saturated]
+## A two-institution standpoint split — a body that produces the estimate and REFUSES the recommendation `[2026-08-06, EFSA]`
+
+This page's cases so far are bodies that *make* a recommendation and disclose (some of) what moved it.
+EFSA 2022 on dietary sugars is the opposite specimen — a clean instance of divergence reason #1
+(different standpoint) split across two institutions: a body that runs the evidence appraisal and then
+**declines to set the target by mandate.**
+
+> «Establishing dietary goals or recommendations for dietary sugars (e.g. a limit of intake) and FBDGs
+> on sugar-containing foods is part of national nutrition policies and thus in the remit of individual
+> EU Member States, not under EFSA's remit.»
+> [@efsasugars2022, Additional information]
+
+EFSA delivers a **UL risk assessment** (hazard characterisation) and states «a UL is not a recommended
+level of intake» [@efsasugars2022, Interpretation of the ToR]. Its output — no threshold identifiable, «as low as possible»
+[@efsasugars2022, Abstract] — is deliberately number-free, and the number-setting (WHO's `<10%`, national FBDGs) is
+handed to a *different actor operating under a different standpoint*.
+
+**Why it sharpens the diagnostic:** the whole difficulty this page addresses — separating the effect
+estimate from the non-evidence considerations that move a recommendation — is here **done for you,
+institutionally**. EFSA holds the estimate/hazard side; Member States hold the values, feasibility and
+communicability side. So WHO-vs-EFSA on sugars is a textbook **divergence-class-1** (different
+standpoint, no error by either): not two bodies disagreeing on evidence, but a hazard assessment and a
+public-health target answering different questions -> [[Free Sugars Intake]]. **The contrast with WHO
+SFA 2023 is instructive:** WHO folds standpoint into one document and publishes an EtD table so the
+seam is *visible*; EFSA puts the seam *between two institutions*, so no EtD table is needed on its side —
+there is no recommendation to weight. Neither hides anything; they cut the estimate-from-recommendation
+join in different places.
+[inferred from @efsasugars2022]
+
+## The negative case — two families differ, and NO non-evidence objective moved it (ACC-AHA 2026 vs ESC-EAS 2025) `[2026-08-06]`
+
+This diagnostic's failure mode is reading *any* guidance difference as objective-driven. The two current
+lipid-guidance families are the clean counter-example: where they **converge**, and where they **differ**,
+the account is entirely on the evidence side — no EtD non-evidence domain is doing work.
+
+- **They converge on the target.** ACC-AHA 2026 restored numeric LDL-C goals (the 2018 US guideline had
+  dropped them) and landed on ESC's long-standing very-high-risk goal — LDL-C <55 mg/dL (1.4 mmol/L) +
+  ≥50% reduction. Both rest on the **same** trial base (CTT per-mmol; FOURIER/ODYSSEY/CLEAR), so the
+  agreement is shared-warrant, not two objectives happening to align
+  -> [[LDL Lowering and Cardiovascular Events]].
+- **Where they differ, the difference is INSTRUMENT, not objective.** ACC-AHA stratifies with
+  PREVENT-ASCVD (10-y ASCVD, ages 30-79); ESC with SCORE2/SCORE2-OP (fatal + non-fatal CVD, region-
+  calibrated, ages 40-89). Different endpoint, calculator, calibration — divergence **classes 1-2**
+  (standpoint / evidence base), not a non-evidence domain moving the number
+  -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
+
+**So the honest verdict is `unprobed for objectives, explained by instruments`** — there is no published
+EtD table to read here, and the visible differences are fully accounted for by calculator and endpoint
+choice, so charging a non-evidence objective would be exactly the over-read the guard below forbids. The
+one place an objective *could* enter — feasibility/cost of universal apoB or Lp(a) testing, or of PCSK9
+agents at population scale — is **not disclosed by either body**, so it stays the corpus's standing
+finding: considerations undisclosed, weights certainly undisclosed.
+[inferred from @accaha2026; @esceas2025]
+
 ## Tests / indicators
 
 - **Is there an EtD table at all?** If yes, the analysis is a reading task. If no, this diagnostic

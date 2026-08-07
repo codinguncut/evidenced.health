@@ -4,7 +4,7 @@ question: Can an energy-restricted total-diet-replacement programme put type 2 d
 aliases: [DiRECT, DiRECT Trial, Counterweight-Plus, Total Diet Replacement Diabetes, Formula Diet Diabetes Remission, TDR Remission, Weight Loss Diabetes Remission Dose-Response]
 authors: [Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Taylor, Roy]
 sources: [Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022]
-cluster: weight-management
+cluster: weight-loss-diets
 confidence: medium
 self_critiqued: 2026-08-04
 relationships:
@@ -17,7 +17,7 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 DiRECT (Lancet 2018) is the first registered trial to set **remission of type 2 diabetes as a

@@ -4,10 +4,11 @@ question: How do you turn an evidence estimate into a decision for a person?
 aliases: [Estimate to Action Gap, Parameter vs Decision, The Transformation Gap, A Parameter Is Not a Decision]
 authors: []
 sources: []
-cluster: evidence-appraisal
+cluster: inference-pitfalls
+nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-06
 self_critiqued: 2026-08-05
 relationships:
   related_to:

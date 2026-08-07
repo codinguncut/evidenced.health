@@ -2,13 +2,13 @@
 type: concept
 question: When is a quantity or label being read as more than it is — a descriptive measure promoted to a normative target — and what is the right-typed instrument instead?
 aliases: [Descriptive Normative Category Error, Is-Ought Jump, Measure to Meaning, Calibration Provenance, Type Promotion Error, Reference Interval Fallacy]
-authors: []
-sources: []
-cluster: evidence-appraisal
+authors: [European Food Safety Authority (org)]
+sources: [EFSA - Dietary Sugars Upper Intake Level 2022]
+cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-06
+self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Surrogate Outcomes
@@ -18,10 +18,12 @@ relationships:
     - Fruits Vegetables Pulses and Grains
     - Metrics for Targeted Health Guidance
     - LDL ApoB and Cumulative Exposure
+    - Eggs Dietary Cholesterol and Cardiovascular Risk
 ---
 
- — the wiki's own epistemology, the consolidating genus behind method-risk R21. No source
-attributions; every claim is the fabric's reasoning.
+ — the wiki's own epistemology, the consolidating genus behind method-risk R21. The
+reasoning is the fabric's; the one source quotation (EFSA, in the UL instance and the corrective) is an
+*illustration* of a body naming the error, not a derivation of it.
 
 **A quantity or label defined DESCRIPTIVELY or operationally is silently promoted to a NORMATIVE or causal
 claim.** A percentile becomes a target; a deficiency floor becomes an adequacy goal; a population ratio
@@ -54,9 +56,26 @@ Each row is one measured/defined object (the *is*) promoted to a norm (the *ough
   carry the outcome — though the fabric holds this as a qualitative judgment, rarely measured, a claim
   about what *would* be found rather than a reported statistic -> [[Is the Food Category Doing Any Work]].
 
+- **Dietary cholesterol** — a food's cholesterol *content* (a compositional descriptor, \~180 mg per egg)
+  promoted to a *serum-cholesterol / CVD effect* (a causal claim): *eggs are high in cholesterol therefore
+  raise blood cholesterol and heart risk.* The dietary->serum transmission is weak for all but a minority
+  of "hyper-responders" (absorption and endogenous synthesis compensate), so the second step is the
+  descriptive->causal jump. The right-typed instrument is the evidenced *outcome* dose-response — which is
+  near-null (Godos 2020: moderate intake CVD SRR 0.95, CIs kiss 1.00) — not the cholesterol content, and the
+  causal lever is apoB particle number reached by other routes -> [[Eggs Dietary Cholesterol and Cardiovascular Risk]],
+  [[LDL ApoB and Cumulative Exposure]].
 - **BMI** — a population *screening ratio* promoted to an individual adiposity/health verdict.
 - **Significant** — a statistical *threshold* promoted to *important / real / large.*
 - **Evidence-based** — a *method* descriptor promoted to *true.*
+- **Tolerable Upper Intake Level (UL)** — a *risk-assessment threshold* (the intake below which no
+  adverse effect is expected — descriptive) read as a *target* (an intake to aim at — normative). The two
+  differ in kind, and EFSA 2022 on dietary sugars is the rare case of a body **naming the error to
+  pre-empt it**: «The Panel wishes to clarify that a UL is not a recommended level of intake»
+  [@efsasugars2022, Interpretation of the ToR]. It runs in *both* directions on sugars: EFSA could set no UL
+  («as low as possible»), so reading that as *softer* than WHO's `<10%` target — or reading WHO's `<10%`
+  as a *safe threshold* — both promote one type into the other -> [[Free Sugars Intake]],
+  [[Which Objective Moved This Recommendation]]. A body that produces the descriptive object and
+  explicitly withholds the normative one is the constructive corrective enacted (below).
 
 ## Calibration provenance — the reference-interval sub-mechanism
 
@@ -145,3 +164,5 @@ throws the instrument away; an honest one replaces it with the right-typed one.
   the calibration-population problem entirely. The reference range is the fallback *only* where no causal
   dose-response is held, and there its provenance problems make it a weak instrument.
 - **Open loop.** This grades the *type* of a claim, never its validity against a realized outcome.
+
+## References

@@ -4,7 +4,7 @@ question: Does WHEN you eat, independent of what and how much, change body weigh
 aliases: [TRE, Time-Restricted Feeding, TRF, eTRF, Early Time-Restricted Feeding, Intermittent Fasting Window, 16:8 Eating, Skipping Breakfast]
 authors: [Lowe, Dylan A; Weiss, Ethan J; Sutton, Elizabeth F; Peterson, Courtney M; Ravussin, Eric; Liu, Deying; Zhang, Huijie; Semnani-Azad, Zhila]
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025]
-cluster: cardiometabolic-exposures
+cluster: fasting
 nucleus: true
 confidence: medium
 relationships:
@@ -16,7 +16,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 

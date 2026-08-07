@@ -7,9 +7,10 @@ sources: [NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-06
 relationships:
   related_to:
+    - Certainty of Evidence vs Strength of Recommendation
     - What a Trustworthy Systematic Review Requires
     - Rating Certainty of Evidence
     - Publication Bias and Selective Reporting

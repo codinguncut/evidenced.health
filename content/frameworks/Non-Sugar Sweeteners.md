@@ -4,7 +4,7 @@ question: Should non-sugar (artificial) sweeteners be used to control weight or 
 aliases: [NSS, Artificial Sweeteners, Non-Sugar Sweeteners, Non-Nutritive Sweeteners, Low-Calorie Sweeteners, Sugar Substitutes, Aspartame, Sucralose, Saccharin, Stevia, Acesulfame K]
 authors: [World Health Organization (org); Suez, Jotham; Segal, Eran; Elinav, Eran; Debras, Charlotte; Touvier, Mathilde; Riboli, Elio (IARC Monographs Working Group); Joint FAO WHO Expert Committee on Food Additives (org)]
 sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023]
-cluster: cardiometabolic-exposures
+cluster: sugars-sweeteners
 confidence: low
 relationships:
   related_to:
@@ -14,7 +14,7 @@ relationships:
     - Continuous Glucose Monitoring as a Health Intervention
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 self_critiqued: 2026-08-04
 ---
 

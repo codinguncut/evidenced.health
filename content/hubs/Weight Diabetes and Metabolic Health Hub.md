@@ -17,6 +17,13 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   nadir 22.5-25, monotone rise above 25 (HR 1.31 per 5 units, steepest in the young/men), and the
   «obesity paradox» shown to be a smoking/reverse-causation artifact — overweight walks from 0.96
   (apparent protection) to 1.11 (harm) as biases are stripped -> [[The U-Shaped Association Artifact]]
+- [[Ectopic Fat and Depot-Specific Risk]] — why BMI misleads at the individual level: risk tracks WHERE
+  fat is stored (liver/pancreas overflow past a *personal fat threshold*) more than total mass. Normal-
+  weight people can be above threshold; metabolically-healthy obesity is not durably benign (Kramer MHO
+  MA); visceral fat is a marker for intra-organ fat, not the pathogenic depot. The `ectopic-fat` nucleus
+- [[Weight Cycling and Cardiometabolic Risk]] — whether "yo-yo" dieting itself harms, and whether fear
+  of it should deter attempting weight loss (confounding-caveated; the signal is in normal-weight
+  body-image dieters, not obese patients — so not a reason to avoid trying)
 
 ## Is any diet superior for weight loss?
 

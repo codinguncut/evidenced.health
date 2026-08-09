@@ -17,8 +17,8 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-05
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -91,9 +91,13 @@ available data», with «the greatest benefits ... for individuals consuming 25-
 recommends «no less than 25-29 g per day with additional benefits likely to accrue with higher intakes.»
 [@reynolds2019]
 
-- **This confirms SACN's reading** (SACN's 30 g marks where confidence intervals widen, not a knee) from a
-  *separate* meta-analysis and evidence base — genuine independent backing (`[E-independent]`) for the
-  decision default *every reduction pays; the burden is on whoever claims a knee to locate it*.
+- **This confirms SACN's reading** (SACN's 30 g marks where confidence intervals widen, not a knee) —
+  but as a **type-F shared-literature corroboration, NOT independent backing**: SACN's dose-response
+  curves rest on the Aune 2011 / Threapleton 2013 cohort pools, the same cohort literature Reynolds
+  re-pools, so the MA-CONSTITUENCY test fails E exactly as this page's own Veronese row rules
+  `[demoted E->F at self-critique 2026-08-08; the ANALYTIC re-derivation is real, the evidence base is
+  shared]`. The decision default *every reduction pays; the burden is on whoever claims a knee to
+  locate it* stands on the shared base, twice-derived.
 - **But the shape is outcome-specific** (the gate-6 refinement). Brown's **LDL-surrogate** curve *does*
   attenuate above \~8-10 g/d — a located knee on a surrogate — while Reynolds' **hard-outcome** curves stay
   linear. So *fibre has no plateau* is true of the outcomes and false of the LDL marker; the curve you get
@@ -106,9 +110,10 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   each significant and type was not a predictor after adjusting for dose (Brown). So *soluble/viscous*
   fibre is the LDL-active fraction; insoluble/cereal fibre works through other routes (bulk, transit,
   fermentation) that Reynolds' outcome data capture but Brown's LDL analysis does not.
-- **The isolate out-grades the food by DESIGN, not by superiority** — Brown's high GRADE for the LDL
-  effect exists *because* soluble fibre can be dosed and controlled; whole-food fibre cannot, so its
-  evidence stays observational. This is the [[Is the Food Category Doing Any Work]] point in miniature:
+- **The isolate out-grades the food by DESIGN, not by superiority** — the LDL effect's trial-grade
+  standing (Brown: controlled-trial meta-analysis) exists *because* soluble fibre can be dosed and
+  controlled; whole-food fibre is far harder to dose and blind, so most of its evidence is
+  observational (though Reynolds' pooled trials are food-based — the split is dominant, not absolute). This is the [[Is the Food Category Doing Any Work]] point in miniature:
   the better grade tracks the better-trialable *form*, and does not mean a psyllium supplement beats a
   bowl of beans for outcomes — the food carries fibre types and a matrix the isolate does not.
 - **Whole grains likely work largely THROUGH their fibre** — Reynolds notes the parallel whole-grain
@@ -132,9 +137,11 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 
 ## Certainty and gaps
 
-- **`confidence: medium`** — the LDL/surrogate leg is RCT-grade (Brown, GRADE moderate-high); the
-  hard-outcome leg is observational-with-dose-response (Reynolds, GRADE moderate) — upgraded above bare
-  correlation but not to RCT status.
+- **`confidence: medium`** — the LDL/surrogate leg is controlled-trial-grade (Brown 1999, a pre-GRADE
+  meta-analysis of 58 controlled trials — no formal GRADE rating exists in the held text; an earlier
+  "GRADE moderate-high" label here was unsupported and is RETRACTED); the hard-outcome leg is
+  observational-with-dose-response (Reynolds, GRADE moderate) — upgraded above bare correlation but not
+  to RCT status.
 - **Gaps (G):** no RCT of whole-food fibre on hard outcomes (structurally hard — can't blind food); the
   soluble-vs-insoluble and legume-vs-cereal outcome breakdown is too sparse in Reynolds to separate;
   fibre's colonic/**transit** mechanism is not covered by either source (the constipation / gut-transit
@@ -149,10 +156,12 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 - **Over-claim check.** The page leads with *the big numbers are observational* and *the causal effect is
   small* — it does not let the 15-30% mortality reduction read as RCT-proven; the parameter table's
   all-NO column is the guard. No superlative scoped to the vault's holdings.
-- **Laundered-E check.** `[E-independent]` is claimed only for the *narrow* Reynolds-vs-SACN agreement on
-  the monotone-no-plateau fibre curve — two separate evidence bases reaching the same shape, not one
-  citing the other. Brown and Reynolds are NOT called independent backing for one claim; they are
-  different quantities (the table), classified A+F.
+- **Laundered-E check `[re-run 2026-08-08 — the earlier pass FAILED its own test]`.** The
+  Reynolds-vs-SACN `[E-independent]` this section previously defended was itself laundered: SACN's
+  curves are Aune 2011 / Threapleton 2013 pools, the same cohort literature Reynolds re-pools — shared
+  DATA defeats E regardless of separate analytic teams (the page's own Veronese row applies the same
+  rule). Demoted to F above; no `[E-independent]` token remains on this page. Brown and Reynolds are NOT
+  called independent backing for one claim; they are different quantities (the table), classified A+F.
 - **Not-joined / counter-passage.** The apparent Reynolds-vs-Brown dose-response clash (linear vs
   attenuating) is resolved as *different endpoints* (outcome vs LDL surrogate), read from each source's own
   figures — a distinction, not a tension.
@@ -218,7 +227,7 @@ type-E independent backing.
 |---|---|---|---|
 | Design | umbrella of 18 observational MAs (298 cohorts), **RCTs excluded** | own SR/MA: 185 prospective cohorts **+ 58 RCTs** | **NO** — observational-only vs SR-with-RCT arm |
 | All-cause mortality | RR 0.835 (0.797-0.875), highest-vs-lowest | RR 0.85 highest-vs-lowest | **\~SAME** direction+magnitude, but shared cohorts |
-| CVD / CHD | RR 0.913 (0.893-0.932) per **7 g/d** | CHD RR 0.76 hi-vs-lo; \~0.93 per **8 g/d** | **NO** — 7g vs 8g increment, different contrast |
+| CVD / CHD | RR 0.913 (0.893-0.932) per **7 g/d** | CHD RR 0.76 hi-vs-lo; 0.81 (0.73-0.90) per **8 g/d** | **NO** — 7g vs 8g increment, different contrast, and the slopes visibly differ |
 | Evidence appraisal | Ioannidis credibility class I-IV + excess-sig/small-study/PI | GRADE certainty | **NO** — different instruments |
 | Causal stance | needs future RCTs to confirm (no RCT arm; authors' own caveat) | likely-causal by trial + cohort triangulation | **NO** — Reynolds triangulates an RCT arm |
 | Independence | pools same cohort literature Reynolds uses | same underlying cohorts | **NOT independent** -> F/shared, not E |

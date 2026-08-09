@@ -4,9 +4,9 @@ question: Does greater exposure to ultra-processed food (Nova classification) ra
 aliases: [Ultra-Processed Food, UPF, Nova Classification, Ultra-Processed Diet, UPF Health Outcomes, Processed Food Health]
 authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D]
 sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019]
-cluster: cardiometabolic-exposures
+cluster: ultra-processed
 confidence: low
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -17,7 +17,7 @@ relationships:
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-08-08
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
@@ -55,7 +55,8 @@ cardiovascular, GI and metabolic health. Two things fix how much it can carry:
   foods) on hard disease endpoints such as cardiovascular disease or cancer will not be possible, for
   obvious ethical reasons.» [@lane2024upf] Only
   short-term trials on intermediate outcomes are feasible — which is exactly why the causal claim rests
-  on a single feeding trial (Hall, AWAITS) rather than a trial literature. This is the
+  on a single feeding trial (Hall 2019, held and extracted below since 2026-08-04) rather than a trial
+  literature. This is the
   [[Measurement Error in Dietary Assessment]] / streetlight structure of the whole field, stated by the
   authors: the long-latency hard-endpoint question is unmeasurable by the design that would settle it.
 

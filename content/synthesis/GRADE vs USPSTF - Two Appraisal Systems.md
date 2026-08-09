@@ -6,8 +6,8 @@ authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; US P
 sources: [GRADE - Handbook, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-31
-updated: 2026-08-04
+self_critiqued: 2026-08-08
+updated: 2026-08-08
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -35,11 +35,11 @@ the same. The parameter table below is the evidence for that claim.
 | Parameter | GRADE — quoted value + locus | USPSTF — quoted value + locus | Same quantity? |
 |---|---|---|---|
 | **Certainty granularity** | four grades: «high, moderate, low, and very low» [@grade, §6] | «rates the certainty of the evidence as one of three categories: high, moderate, or low» [@uspstfmanual2022] | **NO** — 4 vs 3 levels |
-| **What certainty is OF** | «the extent to which we are confident that an estimate of the effect is correct» — **per outcome, per body of evidence** [@grade, §5] | «likelihood that the USPSTF assessment of the **net benefit** of a preventive service is correct» — **whole analytic framework, benefits minus harms** [@uspstfmanual2022] | **NO** — an effect estimate vs a benefit-harm net; per-outcome vs per-service |
+| **What certainty is OF** | «the extent to which we are confident that an estimate of the effect is correct» (SR-context definition) — rated **per outcome**, then in guideline mode «Guideline panels have to determine the overall quality of evidence across all the critical outcomes essential to a recommendation they make» — i.e. aggregated to a single per-recommendation grade (§5.4) [@grade, §5, §5.4] | «likelihood that the USPSTF assessment of the **net benefit** of a preventive service is correct» — **whole analytic framework, benefits minus harms** [@uspstfmanual2022] | **NO** — an effect estimate vs a benefit-harm net (corrected 2026-08-08 — the divergence is the graded OBJECT, not granularity: both terminate in a single per-recommendation / per-service grade, GRADE §5.4, so the earlier *per-outcome vs per-service* contrast is dropped) |
 | **Object of the word *moderate*** | confidence in an *effect estimate* for one outcome | «evidence is sufficient to determine the effects of the preventive service on targeted health outcomes, but confidence in the estimate is constrained» — confidence in a *net-benefit verdict* [@uspstfmanual2022] | **NO** — same word, different graded object (this is the load-bearing non-equivalence) |
 | **Recommendation output** | certainty **+ strength**; strength «strong / weak (conditional)» set by four determinants [@grade, §6.1] | certainty **x magnitude of net benefit** -> letter grade «A, B, C, D, or I» [@uspstfmanual2022] | **NO** — additive two-judgment vs grid lookup |
 | **Magnitude of benefit as a named axis** | none — magnitude sits inside *balance of effects*; «Strong recommendations are not necessarily high priority recommendations» [@grade, §6.1.1] | explicit: «substantial, moderate, small, or zero/negative» [@uspstfmanual2022] | **NO** — USPSTF externalizes an axis GRADE deliberately keeps out of the output |
-| **Values / preferences** | explicit **determinant of strength** — high-certainty-weak «is likely» where values vary [@grade, §1.2] | grade **C** + shared decision-making «based on professional judgment and patient preferences» [@uspstfmanual2022] | **NO** — a strength determinant vs the content of one grade |
+| **Values / preferences** | explicit **determinant of strength** — high-certainty-weak «is likely» where values vary [@grade, §1.2] | grade **C** + shared decision-making «based on professional judgment and patient preferences»; and values also enter grading as a named context factor — «Grade changes may also result from changes in context (clinical context, societal values for specific outcomes, and context of intervention and treatment)» (corrected 2026-08-08 — not confined to the C-grade) [@uspstfmanual2022] | **NO** — a formal strength determinant vs an informal context factor with no output axis |
 | **Financial cost** | «resource use» is a determinant of strength [@grade, §6.1] | «does not consider the financial costs... in its assessment of the balance of benefits and harms» (opportunity cost is considered) [@uspstfmanual2022] | **NO** — cost in vs cost out |
 | **Question-specification formalism** | PICO; rejects extensions — «These modifications are neither helpful nor necessary» [@grade, §2] | analytic framework + key questions; uses **PICOTS** for decision-model scoping [@uspstfmanual2022] | **NO** — opposite verdicts on the same choice |
 
@@ -53,8 +53,12 @@ The divergences are all downstream of the appraisal. On the *appraisal itself*, 
 converge — and this agreement is a genuine type-C finding, since it is reached by two bodies that share
 no framework:
 
-- **Rate per outcome, not per study** — both. USPSTF: «quality may differ... from one outcome to
-  another»-style per-outcome EPC grading feeding the Task Force. -> [[Rating Certainty of Evidence]]
+- **Rate per outcome, not per study** — both. USPSTF: «the strength of evidence for the key question
+  should be outcome-specific when multiple critical outcomes are measured»
+  [@uspstfmanual2022]. (corrected 2026-08-08 — the phrase formerly
+  quoted here, «quality may differ... from one outcome to another», is verbatim GRADE, not USPSTF
+  [srcgrep 0/583 across the USPSTF manual]; re-sourced to a real USPSTF locus. The convergence itself
+  stands.) -> [[Rating Certainty of Evidence]]
 - **Design is a starting point, not a verdict** — both run a design hierarchy then modify it on
   study-level validity. USPSTF: «not all studies with the same research design have equal internal
   validity». [@uspstfmanual2022]
@@ -74,11 +78,17 @@ no framework:
 Beyond the label mismatches, three architectural choices distinguish the systems and change what their
 outputs *mean*:
 
-1. **USPSTF nets benefits and harms BEFORE grading certainty; GRADE grades certainty first, then
-   weighs.** USPSTF certainty is «likelihood that the... net benefit... is correct» — the benefit-harm
-   balance is *inside* the graded object. GRADE certainty is confidence in an effect estimate, with the
-   weighing deferred to the strength step. **Consequence:** a USPSTF certainty label cannot be lifted
-   onto a single outcome, and a GRADE certainty label cannot be read as a statement about net benefit.
+1. **USPSTF grades certainty OF the net-benefit assessment; GRADE grades certainty of an effect
+   estimate, with the weighing deferred to the strength step.** USPSTF certainty is «likelihood that
+   the... net benefit... is correct» — the benefit-harm balance is *inside* the graded object; GRADE
+   certainty is confidence in an effect estimate. (corrected 2026-08-08 — the earlier "nets benefits
+   and harms BEFORE grading certainty" overstated a sequence: USPSTF «is careful to assess the certainty
+   of the evidence and the magnitude of benefit, harm, and net benefit separately»
+   [@uspstfmanual2022], so the two are parallel judgments combined in
+   the grid, not sequenced. What is load-bearing is the *object*, not the order.) **Consequence:** a
+   USPSTF certainty
+   label cannot be lifted onto a single outcome, and a GRADE certainty label cannot be read as a
+   statement about net benefit.
    [inferred from @grade; @uspstfmanual2022]
 
 2. **USPSTF makes magnitude a first-class axis; GRADE deliberately does not.** GRADE severs strength
@@ -110,10 +120,14 @@ Development and Evaluation method. -> [[Was GRADE Actually Used]]
 - **Read for the architecture, not just the letter.** A USPSTF "C" is *small net benefit, at least
   moderately certain* (an affirmative small-effect finding); a GRADE "weak/conditional" can be
   *high-certainty-values-vary*. Neither is "the evidence is poor", and they are not the same off-diagonal.
-- **The agreement is the reportable finding as much as the divergence.** Two bodies sharing no framework
-  converge on per-outcome rating, ARR-over-RRR, surrogate discounting, and explicit transportability —
-  which is stronger evidence that those disciplines are load-bearing than either body asserting them
-  alone. -> the telos: *"convention held here" is a reportable, valued finding*.
+- **The agreement is the reportable finding as much as the divergence.** Two bodies with no shared
+  appraisal framework converge on per-outcome rating, ARR-over-RRR, surrogate discounting, and explicit
+  transportability — modest evidence that those disciplines are load-bearing. (corrected 2026-08-08 —
+  bounded, NOT independent corroboration: the two are in cited methodological conversation [the GRADE
+  handbook cites the USPSTF/Petitti 2009 discussion, chunk 03], so this is convergence within the EBM
+  tradition, not two independent routes — consistent with the Limits' denial of `[E-independent]`, and
+  the earlier *stronger evidence... than either body asserting them alone* is narrowed accordingly.)
+  -> the telos: *"convention held here" is a reportable, valued finding*.
 
 [inferred from @grade; @uspstfmanual2022]
 

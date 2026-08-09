@@ -6,7 +6,7 @@ authors: [Sterne, Jonathan AC; Higgins, Julian PT; Page, Matthew J; Savović, Je
 sources: [Cochrane - Handbook for Systematic Reviews 6.5, GRADE - Handbook, NASEM - Finding What Works in Health Care]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-08
 created: 2026-07-31
 updated: 2026-08-06
 relationships:

@@ -143,6 +143,18 @@ harm-ceiling or a logistical cap, not by an optimum.
     flagship candidate plateau reads as an open-topped monotone line once a second lab looks. Its
     ES-zero crossings (1.9 g/kgBM, 2.5 g/kgFFM) are exactly Route-2 sampling-edge artifacts to read as a
     floor + direction, never a peak. [inferred from @refalo2025]
+  - **A THIRD analysis puts the inflection somewhere ELSE — the knee is population- and
+    estimator-dependent, so there is no single quantity to be *off* about.** Tagawa 2020 (Miyachi lab, no
+    Morton/Refalo author) pooled 138 RT+non-RT trials and put the general-population diminishing-returns
+    inflection at **1.3 g/kg BW/d** via a multivariate-adjusted spline — yet that spline stayed positively
+    correlated with LBM across the whole 0.5-3.5 g/kg range (monotone, no plateau), and
+    its RT subgroup kept rising past 1.3 (verbatim quotes on the protein page). (Not clean independence of Morton — Tagawa cites Morton
+    and shares RT trials; the independence is real only for its without-RT leg — so read this as
+    population-dependence, not a third vote.) Across Morton (RT \~1.6/absent), Tagawa (mixed \~1.3), and
+    Refalo (deficit, monotone-no-knee) the inflection moves with *population and estimator* and no analysis
+    locates a true plateau. That is the underivability: not a numeric disagreement about one quantity, but
+    the absence of a single quantity to derive -> [[Protein and Resistance Training for Muscle and Strength]].
+    [inferred from @tagawa2020]
 
 - **Guard — this route is DEMOTED, and must not rest on *plateaus everywhere*.** The knees-and-plateaus
   prior was **falsified** on the corpus (fibre/sodium/sugar are monotone over the studied range; objective

@@ -18,6 +18,7 @@ relationships:
     - Framing a Decision Question
 created: 2026-07-25
 updated: 2026-08-04
+nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
 self_critiqued: 2026-08-04
 ---
 
@@ -109,12 +110,6 @@ certainty on the **surrogate is uniformly higher than certainty on the outcomes 
 high for LDL, moderate-to-low for the clinical endpoints. That asymmetry, not an equivalence among
 replacements, is the transferable point.
 [inferred from @who2023saturated]
-
-> **CORRECTION (2026-07-25, blind cold-audit).** This section first claimed the replacements were
-> *near-equivalent on the surrogate* and that PUFA's advantage rested on hard-outcome evidence
-> alone. WHO's explicit LDL ranking falsifies that. Recorded rather than silently amended: the
-> original claim was an inference drawn from certainty labels without checking the magnitudes
-> underneath them.
 
 ## The absolute effects (Annex 6 second pass, 2026-07-26)
 
@@ -220,67 +215,6 @@ rather than closed.
   [[Linoleic Acid and Cardiovascular Disease]]. The omega-6 RCT source has now landed and does **not**
   independently corroborate the PUFA-events benefit — it tempers it (see *Omega-6 RCTs do not
   corroborate the PUFA arm*, below).
-
-
-
-## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
-
-A tension page was minted claiming WHO and Willett clash on whether LDL licenses the
-SFA-to-carbohydrate recommendation. **A blind audit found the framing false and it was retracted the
-same day.** What survives is a distinction plus two durable decision rules.
-
-**They report the same answer -- and it is NOT independent confirmation (corrected 2026-07-26).**
-The figures below were previously presented here as WHO and Willett independently converging, under
-the heading **where they AGREE, which is the decisive fact.** That framing was wrong and is retracted.
-Willett attributes his numbers to **"a pooled analysis of original data (Jakobsen et al., 2009)"**
-[@willett, Ch 19].
-
-**But the correction over-shot, and the denial of independence does not hold either.** WHO's
-replacement estimates do not come from Jakobsen. Its RCT figure is *"Subgroup analysis of RCTs in the
-systematic review by **Hooper** et al."* -- 4 trials, 51 104 participants -- and its observational
-replacement evidence is attributed to **Reynolds** et al. Jakobsen 2009 appears in WHO's reference list
-(ref 10) cited in the *Background* narrative; **presence in a reference list is not provenance for an
-estimate.** So the two numbers placed side by side here are a cohort pooled analysis (Willett/Jakobsen)
-and an RCT pooled analysis (WHO/Hooper) -- different designs, different trial sets.
-
-**Which leaves the pairing genuinely unresolved rather than settled either way.** It is not the
-laundered-E it was first written as, and not the shared-primary-study it was then corrected to. What
-can be said: the estimates are not commensurable enough to bank as independent corroboration, because
-nothing here establishes that the cohort and RCT bodies are non-overlapping in their underlying
-populations. The decision rules below rest on the evidence itself, not on a witness count.
-
-**What each source reports:** on disease outcomes for the carbohydrate arm both
-find essentially nothing. WHO's RCT subgroup analysis "showed a reduction in risk of CVDs and
-coronary heart disease when SFA were replaced with polyunsaturated fatty acids (moderate certainty
-evidence), **but not when SFA were replaced by carbohydrates**"; its Annex 6 profile for that arm
-gives CHD RR 0.93 (0.78-1.11).
-[@who2023saturated, Summary of evidence; Annex 6]
-Willett's pooled cohorts give SFA vs carbohydrate RR **0.97** (0.81-1.16), against SFA vs PUFA RR
-**1.25** (1.01-1.56). [@willett, Ch 19 (p.436)]
-Both rank PUFA first. WHO's carbohydrate recommendation is *conditional* on *low* certainty for
-exactly this reason.
-
-**The real difference is a classification one, and WHO states its reason.** WHO grades LDL a
-**critical** outcome and the ratios/triglycerides **important**, "noting that the evidence supporting
-their use... was less certain." Willett argues the total/HDL ratio is the better predictor and that
-**total cholesterol** — not LDL — should not carry the diet-CHD inference; he explicitly holds that
-prediction "using serum total cholesterol is less powerful than by using... the LDL and HDL lipid
-fractions." [@who2023saturated, Summary of evidence; (Willett - Nutritional Epidemiology 3e) Ch 19 (pp.431-432)]
-
-**And WHO engages Willett's mechanism rather than missing it:** it records the Mensink finding of
-"a slight increase in triglycerides and a reduction in high-density lipoprotein (HDL) cholesterol
-when SFA are replaced by carbohydrates of mixed composition. However, the clinical relevance of such
-changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
-[@who2023saturated, Summary of evidence]
-
-**Two durable rules survive, and they were the real product:**
-
-- **Never accept *replace saturated fat* without the replacement named.** The same pooled data give a
-  null against carbohydrate and RR 1.25 against PUFA — the substitution sets the sign.
-- **Carbohydrate quality is load-bearing, and both parties say so.** WHO specifies "whole grains and
-  foods... having a low glycaemic index"; Willett reports the SFA association is "positive if
-  compared with lower GI carbohydrates but null if compared with average or higher GI carbohydrates."
-  [@willett, Ch 19 (p.453)]
 
 ## Limits
 
@@ -673,18 +607,6 @@ LDL-surrogate caveat with data -> [[LDL ApoB and Cumulative Exposure]]; it does 
 change.
 [inferred from @dehghan2017]
 
-**Self-critique (PURE weave) `[run 2026-07-29, before commit]`.** *Laundered-E:* PURE is explicitly F
-(grounding), NOT `[E-independent]` — it is the cohort base Astrup already cited, stated three times.
-*Overclaim:* the contrarian headline (*fats safe, carbs harmful*) is engaged with full data (symmetric
-standards — PURE is a large, well-conducted cohort, not dismissed) and then weighted down by the
-authors' own twice-conceded residual confounding, not hand-waved; no claim that PURE overturns the RCT
-consensus survives. *Parameter table:* built before the prose, «same quantity?» = NO on design, exposure
-contrast and confounding structure — the same-quantity failure the rule exists to catch (an observational
-level-contrast read as if it were the randomised change). *No new tension filed* — the joined issue
-already exists and is not re-adjudicated here. *Counter-passage:* the RCT side is represented at its
-strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
-the mortality nulls both sides share, not on suppressing the events signal.
-
 ## Omega-6 RCTs do not corroborate the PUFA arm — Hooper 2018 `[2026-08-04]`
 
 The PUFA replacement here is predominantly linoleic acid, so the obvious question is whether the *direct*
@@ -717,5 +639,90 @@ so their agreement is method-shared; the two reviews' trial sets are distinct bu
 an independent route. The omega-6 outcome evidence in full is on
 [[Linoleic Acid and Cardiovascular Disease]].
 [inferred from @hooper2018; @hooper2020]
+
+
+## Corrections and revision history (dated strata)
+
+*Dated corrections, retracted framings, and audit strata are preserved below in their original form; the current claims above already incorporate them.*
+
+> **CORRECTION (2026-07-25, blind cold-audit).** This section first claimed the replacements were
+> *near-equivalent on the surrogate* and that PUFA's advantage rested on hard-outcome evidence
+> alone. WHO's explicit LDL ranking falsifies that. Recorded rather than silently amended: the
+> original claim was an inference drawn from certainty labels without checking the magnitudes
+> underneath them.
+
+
+
+## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
+
+A tension page was minted claiming WHO and Willett clash on whether LDL licenses the
+SFA-to-carbohydrate recommendation. **A blind audit found the framing false and it was retracted the
+same day.** What survives is a distinction plus two durable decision rules.
+
+**They report the same answer -- and it is NOT independent confirmation (corrected 2026-07-26).**
+The figures below were previously presented here as WHO and Willett independently converging, under
+the heading **where they AGREE, which is the decisive fact.** That framing was wrong and is retracted.
+Willett attributes his numbers to **"a pooled analysis of original data (Jakobsen et al., 2009)"**
+[@willett, Ch 19].
+
+**But the correction over-shot, and the denial of independence does not hold either.** WHO's
+replacement estimates do not come from Jakobsen. Its RCT figure is *"Subgroup analysis of RCTs in the
+systematic review by **Hooper** et al."* -- 4 trials, 51 104 participants -- and its observational
+replacement evidence is attributed to **Reynolds** et al. Jakobsen 2009 appears in WHO's reference list
+(ref 10) cited in the *Background* narrative; **presence in a reference list is not provenance for an
+estimate.** So the two numbers placed side by side here are a cohort pooled analysis (Willett/Jakobsen)
+and an RCT pooled analysis (WHO/Hooper) -- different designs, different trial sets.
+
+**Which leaves the pairing genuinely unresolved rather than settled either way.** It is not the
+laundered-E it was first written as, and not the shared-primary-study it was then corrected to. What
+can be said: the estimates are not commensurable enough to bank as independent corroboration, because
+nothing here establishes that the cohort and RCT bodies are non-overlapping in their underlying
+populations. The decision rules below rest on the evidence itself, not on a witness count.
+
+**What each source reports:** on disease outcomes for the carbohydrate arm both
+find essentially nothing. WHO's RCT subgroup analysis "showed a reduction in risk of CVDs and
+coronary heart disease when SFA were replaced with polyunsaturated fatty acids (moderate certainty
+evidence), **but not when SFA were replaced by carbohydrates**"; its Annex 6 profile for that arm
+gives CHD RR 0.93 (0.78-1.11).
+[@who2023saturated, Summary of evidence; Annex 6]
+Willett's pooled cohorts give SFA vs carbohydrate RR **0.97** (0.81-1.16), against SFA vs PUFA RR
+**1.25** (1.01-1.56). [@willett, Ch 19 (p.436)]
+Both rank PUFA first. WHO's carbohydrate recommendation is *conditional* on *low* certainty for
+exactly this reason.
+
+**The real difference is a classification one, and WHO states its reason.** WHO grades LDL a
+**critical** outcome and the ratios/triglycerides **important**, "noting that the evidence supporting
+their use... was less certain." Willett argues the total/HDL ratio is the better predictor and that
+**total cholesterol** — not LDL — should not carry the diet-CHD inference; he explicitly holds that
+prediction "using serum total cholesterol is less powerful than by using... the LDL and HDL lipid
+fractions." [@who2023saturated, Summary of evidence; (Willett - Nutritional Epidemiology 3e) Ch 19 (pp.431-432)]
+
+**And WHO engages Willett's mechanism rather than missing it:** it records the Mensink finding of
+"a slight increase in triglycerides and a reduction in high-density lipoprotein (HDL) cholesterol
+when SFA are replaced by carbohydrates of mixed composition. However, the clinical relevance of such
+changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
+[@who2023saturated, Summary of evidence]
+
+**Two durable rules survive, and they were the real product:**
+
+- **Never accept *replace saturated fat* without the replacement named.** The same pooled data give a
+  null against carbohydrate and RR 1.25 against PUFA — the substitution sets the sign.
+- **Carbohydrate quality is load-bearing, and both parties say so.** WHO specifies "whole grains and
+  foods... having a low glycaemic index"; Willett reports the SFA association is "positive if
+  compared with lower GI carbohydrates but null if compared with average or higher GI carbohydrates."
+  [@willett, Ch 19 (p.453)]
+
+
+**Self-critique (PURE weave) `[run 2026-07-29, before commit]`.** *Laundered-E:* PURE is explicitly F
+(grounding), NOT `[E-independent]` — it is the cohort base Astrup already cited, stated three times.
+*Overclaim:* the contrarian headline (*fats safe, carbs harmful*) is engaged with full data (symmetric
+standards — PURE is a large, well-conducted cohort, not dismissed) and then weighted down by the
+authors' own twice-conceded residual confounding, not hand-waved; no claim that PURE overturns the RCT
+consensus survives. *Parameter table:* built before the prose, «same quantity?» = NO on design, exposure
+contrast and confounding structure — the same-quantity failure the rule exists to catch (an observational
+level-contrast read as if it were the randomised change). *No new tension filed* — the joined issue
+already exists and is not re-adjudicated here. *Counter-passage:* the RCT side is represented at its
+strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
+the mortality nulls both sides share, not on suppressing the events signal.
 
 ## References

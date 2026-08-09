@@ -2,13 +2,13 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J]
-sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018]
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007]
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-07
+self_critiqued: 2026-08-07
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -194,7 +194,11 @@ cashes the missing strong check, but it must not be counted as independent corro
 - **This estimates the association, not the benefit of weight loss.** A bias-corrected observational
   curve says where mortality is lowest across people; it does not establish that *reducing* an
   individual's BMI moves them down it -> [[Does Weight Loss Reduce Cardiovascular Events]] holds the
-  intervention evidence (the loop the curve alone cannot close).
+  intervention evidence (the loop the curve alone cannot close). **At the extreme-obesity end the loop
+  is partly closed:** SOS (bariatric surgery, \~14-25% sustained loss, matched **non-RCT** cohort) found
+  reduced all-cause mortality — adjusted HR 0.71 (0.54-0.92) — in severe obesity (BMI >=34/>=38), the
+  interventional counterpart to this curve's steep upper arm. [@sjostrom2007] The design is weaker than an RCT
+  (self-selection), so it warrants the arm directionally, not causally-clean.
 
 ## Limits
 

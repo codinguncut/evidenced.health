@@ -6,7 +6,7 @@ authors: [National Academies of Sciences Engineering and Medicine (org); Page, M
 sources: [NASEM - Reproducibility and Replicability in Science 2019, Cochrane - Handbook for Systematic Reviews 6.5, Veronese - Dietary Fibre Health Umbrella 2018, Lane - Ultra-Processed Food Umbrella 2024, Hamley - Saturated Fat PUFA Coronary 2017]
 cluster: reproducibility
 confidence: medium
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-08
 created: 2026-07-31
 updated: 2026-08-06
 relationships:

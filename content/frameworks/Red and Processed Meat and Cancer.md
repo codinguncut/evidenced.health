@@ -7,8 +7,8 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-06
-self_critiqued: 2026-08-05
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Should Adults Reduce Red and Processed Meat
@@ -48,8 +48,10 @@ foods... Further analysis of adjustment factors was not performed in the CUP."
 
 ## The absolute effect — the number WCRF never states and NutriRECS does
 
-NutriRECS translated the same associations into absolute terms, for a **realistic 3-servings/week
-reduction** (average intake in North America / Western Europe is 2-4 servings/week):
+NutriRECS **re-pooled the same body of cohort evidence** into absolute terms — its own de novo
+dose-response meta-analyses on its own outcome set, not a restatement of WCRF's RRs (corrected
+2026-08-08) — for a **realistic 3-servings/week reduction** (average intake in North America /
+Western Europe is 2-4 servings/week):
 
 - **Unprocessed red meat -> overall cancer mortality: 7 fewer per 1000 over a lifetime** (9 fewer to
   6 fewer), Low certainty — with no significant difference on 8 other cancer outcomes.
@@ -60,11 +62,16 @@ reduction** (average intake in North America / Western Europe is 2-4 servings/we
 
 [@nutrirecs2019, Evidence Summary; Table 1]
 
-**This is [[Baseline Risk and the Relative-Absolute Split]] doing decisive work:** a "16% increased
-risk" (processed meat) and a lifetime absolute reduction of a handful per 1000 are the *same finding*
-stated two ways, and which one a guideline foregrounds largely determines whether it reads as alarming
-or trivial. WCRF states the relative form and no absolute; NutriRECS computes the absolute and builds
-its recommendation on it.
+**This is [[Baseline Risk and the Relative-Absolute Split]] doing decisive work — but on *related*,
+not identical, quantities (corrected 2026-08-08):** WCRF's "16% increased risk" (processed meat) is a
+**colorectal-cancer-incidence** RR per 50 g/day; NutriRECS's handful-per-1000 figures are its own
+absolute estimates on **different endpoints and a different increment** (e.g. overall cancer
+*mortality* per 3 servings/week). They are not one finding restated two ways — they are the same
+*evidence body* re-pooled to different outcomes, so the relative and absolute numbers here are not a
+matched pair. What generalizes is the **framing** effect: whether a guideline foregrounds a relative
+or an absolute magnitude of the *same* endpoint largely determines whether it reads as alarming or
+trivial. WCRF states relative forms and no absolute; NutriRECS computes absolutes and builds its
+recommendation on them.
 
 ## The certainty split — the crux, and it is a grading disagreement
 
@@ -102,8 +109,16 @@ for processed meat** but only **"moderate" for red meat** — a split that track
 grade gap.
 [@wcrf2018, 5.1.1.3 / 5.2.1.3 / 5.2.1.4]
 
-NutriRECS does not dispute a mechanism; it accepts "this does not preclude the possibility that meat
-has a very small causal effect" — the disagreement is about certainty and magnitude, not existence.
+NutriRECS does not *engage* WCRF's biological mechanism — its silence on the haem-iron / NOC account
+is not a dispute of it, but neither is it acceptance (corrected 2026-08-08, F1). And the two bodies
+**do differ on causal status, not only on certainty and magnitude** (corrected 2026-08-08, D2): the
+concession that «this does not preclude the possibility that meat has a very small causal effect» is
+the *tail* of a sentence whose head runs the other way — NutriRECS's own intake-vs-pattern comparison
+suggests red and processed meat are «unlikely to be causal factors for adverse health outcomes», and
+it judges true causation of the observed effect sizes to be one «which we believe to be implausible».
+So WCRF asserts a convincing/probable *cause* while NutriRECS holds causation implausible — a genuine
+disagreement on existence, softened only by NutriRECS declining to rule a very small effect out
+entirely.
 [@nutrirecs2019, Discussion]
 
 ## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`

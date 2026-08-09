@@ -8,8 +8,8 @@ cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-07
+self_critiqued: 2026-08-07
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -121,6 +121,28 @@ insufficient-evidence stop the wiki mirrors.
 
 
 [inferred from @cappuccio2010]
+
+## "7-8 h" is a referent, not a validated target with an upper bound `[2026-08-07, maintainer challenge]`
+
+Three honest limits on reading "aim for 7-8 h" off this evidence:
+
+- **The short arm is POOLED and flat across cutoffs, so 6-7 h is not resolved from <5 h.** Cappuccio's
+  short-sleep category bundles 6-7 h with chronic <5 h, and the short-arm RR is flat across cutoff
+  definitions (heterogeneity P=0.89, above). So \~1.12 is the *pooled* short-sleep RR — not evidence that
+  6-7 h specifically carries it; the risk most plausibly concentrates at *chronic* short sleep (<5-6 h),
+  making the lower bound arguably **6+ h**, not a hard 7 h. (12% is also small for an observational metric,
+  near the range residual confounding alone can produce; it is believed over the long arm only because it
+  carries a mechanism + the Whitehall cause-specific direction, not because 12% is itself compelling.)
+- **No evidenced harm at the upper end — so "up to 8 h" is not a ceiling.** The long-sleep association is
+  the reverse-causation artifact (no mechanism; it strengthens with age/illness/longer cutoff), NOT evidence
+  that sleeping 8+ h harms a healthy person. Stating an *upper bound* launders that artifact into a
+  dose-response cap — and the page's own rule already holds that shortening a long sleeper's sleep optimises
+  a symptom, not a cause.
+- **Between \~7 and 8 h is most plausibly diminishing returns, not a knee or a harm boundary.** The curve is
+  shallow near the referent; precision beyond "adequate, not chronically short" is not warranted, and
+  neither is a stated upper cap.
+[inferred from @cappuccio2010]
+
 ## Limits
 
 - **All exposure is self-reported, single-timepoint** — «sleep questionnaires» that often «did not

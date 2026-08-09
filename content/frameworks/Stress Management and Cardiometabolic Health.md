@@ -4,10 +4,10 @@ question: Does a structured stress-management program (mindfulness-based interve
 aliases: [MBSR, Mindfulness Blood Pressure, Mindfulness-Based Interventions, Stress Management Blood Pressure, MBI Hypertension, Meditation Blood Pressure]
 authors: [Chen, Qiongshan; Liu, Hui; Du, Shizheng]
 sources: [Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024]
-cluster: cardiometabolic-exposures
+cluster: psychosocial
 confidence: low
 created: 2026-08-01
-updated: 2026-08-04
+updated: 2026-08-08
 self_critiqued: 2026-08-01
 relationships:
   related_to:

@@ -18,8 +18,9 @@ relationships:
     - Surrogate Outcomes
     - Rating Outcome Importance
     - Big Rocks (Elderly)
+    - Frailty
 created: 2026-08-04
-updated: 2026-08-06
+updated: 2026-08-09
 self_critiqued: 2026-08-06
 ---
 
@@ -111,7 +112,7 @@ treatment need not wait for imaging.
 | Performance | TUG | ≥20 s | ≥20 s |
 | Performance | 400-m walk | non-completion or ≥6 min | non-completion or ≥6 min |
 
-**These thresholds are normative, not outcome-validated** [EXTRACTED (...) chunk 03]: set against a
+**These thresholds are normative, not outcome-validated** [@cruzjentoft2019]: set against a
 healthy-young-adult reference, usually at **-2 SD** (-2.5 SD for a conservative diagnosis), rounded for
 ease of use — «minor reduction in accuracy» accepted for usability. A threshold quoted here marks the
 edge of a reference distribution, not a knee in a dose-response curve.
@@ -142,7 +143,7 @@ edge of a reference distribution, not a knee in a dose-response curve.
   chair-stand is enough to flag *probable* sarcopenia and act — imaging confirms, it does not gate the
   first intervention. This is why body weight / BMI / lean-mass alone mislead in the elderly stratum.
 - **Strength falls faster than mass.** After 50, leg mass declines 1-2%/year but strength 1.5-5%/year
-  [EXTRACTED (...) chunk 04] — muscle *quality* degrades, so a mass number under-reads the functional
+  [@cruzjentoft2019] — muscle *quality* degrades, so a mass number under-reads the functional
   loss. A second reason mass is the weaker marker.
 - **The levers are the ones already ranked** — resistance training + adequate protein
   ([[Protein and Resistance Training for Muscle and Strength]]), and muscle-strengthening activity
@@ -167,5 +168,15 @@ edge of a reference distribution, not a knee in a dose-response curve.
 - **Sarcopenic obesity undefined** (above) — a named `type-G` gap the downstream pages inherit.
 - **A definition grades nothing against a realized outcome.** The loop is open: this page holds how to
   *identify* sarcopenia, not proof that treating it changes what a person experiences.
+
+## Sarcopenia is not frailty (boundary note)
+
+[inferred from @vermeiren2016frailty]
+Sarcopenia is the **muscle-specific** disorder; [[Frailty]] is the broader **multisystem
+reserve-capacity** syndrome that names sarcopenia (weakness, slow gait, weight loss) as a major physical
+driver but also spans cognitive/psychosocial/medical deficits sarcopenia excludes. Physical-focus
+frailty instruments (Fried phenotype) overlap this page's strength/performance measures heavily;
+multidomain and deficit-accumulation frailty indices do not. Keep the objects distinct: a person can be
+sarcopenic without being frail, and frail without being (primarily) sarcopenic.
 
 ## References

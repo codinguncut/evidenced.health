@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-07
+self_critiqued: 2026-08-07
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -83,6 +83,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 ## Where it applies in the wiki
 
+*Worked-instance catalog — per-exposure applications of the diagnostic; content, not revision history.*
+
 - **Alcohol — adjudicated, artifact.** The protective lower arm is largely non-causal
   -> [[Alcohol and Mortality and Vascular Disease]].
 - **Sleep — adjudicated, and it sharpens the concept.** The sleep-duration U-curve's *long*-sleep arm
@@ -112,6 +114,18 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   no upturn; the outcomes whose upturn lacks a mechanism show one** — plus very-low GRADE, self-reported
   exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
   unbelieved; the lower arm (a small effective dose) is kept.
+- **Weight loss -> mortality — reverse causation manufacturing a false HARM, adjudicated
+  interventionally.** The mirror-image direction: here the *observational* signal is a spurious **harm**,
+  not a spurious benefit. «Most observational epidemiologic studies have indicated that the rate of death
+  from cardio-vascular and all other causes is increased after weight loss» — because they cannot «distin-guish
+  intentional from unintentional weight loss», so «the observed weight loss might be the consequence of
+  conditions that lead to death rather than the cause». [@sjostrom2007, Introduction] SOS supplies a
+  **fourth adjudication route** the alcohol table lacks — a **controlled intervention** that *assigns*
+  intentional weight loss (bariatric surgery vs matched conventional care), removing the intentional-vs-
+  unintentional confound by construction — and the sign flips: intentional loss **reduces** all-cause
+  mortality (adjusted HR 0.71, 0.54-0.92). [@sjostrom2007] The intervention is the strongest reverse-causation
+  check available, even at SOS's non-randomized grade -> [[Does Weight Loss Reduce Cardiovascular Events]],
+  [[BMI and All-Cause Mortality]].
 - **Macronutrients in PURE — confounding-by-income, the machinery without (mostly) the U.**
   Dehghan found higher carbohydrate → higher mortality and
   higher fat/SFA → *lower* mortality across an 18-country income gradient. The associations are largely
@@ -429,6 +443,10 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
+
+## Corrections and revision history (dated strata)
+
+*Dated self-critique and audit strata, preserved in their original form.*
 
 ## Self-critique `[run 2026-07-28, before commit]`
 

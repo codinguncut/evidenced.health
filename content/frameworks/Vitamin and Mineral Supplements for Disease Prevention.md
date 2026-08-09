@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -20,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
 created: 2026-07-30
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-07
+self_critiqued: 2026-08-08
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -274,6 +274,19 @@ high-triglyceride statin-treated patients** — is a different question with its
 capsule. VITAL also notes the n-3 dose ceiling: «The
 dose-response curve for most effects plateaus at 1 g or less of n-3 fatty acids per day» [@manson2019n3] — one of the few explicitly located **plateaus** in the
 corpus's dose-response holdings.
+
+## Marine n-3 and cognition — also null (MAPT) `[2026-08-07]`
+
+Adding cognition to the outcome menu does not rescue marine omega-3. MAPT — «the longest and largest
+randomised controlled trial so far testing the efficacy of omega 3 polyunsaturated fatty acids on cognitive
+decline in elderly adults» (800 mg DHA + 225 mg EPA/day, 3 yr, n≈760 in the supplement arms) — found the
+omega-3 arm **flat** vs placebo on a cognitive-composite (between-group 0·011, 95% CI –0·081 to 0·103;
+adjusted p=0·812) and additive-free inside a lifestyle bundle.
+[@andrieu2017] A **marker-vs-intervention gap**
+worth naming: low *baseline* red-blood-cell DHA+EPA marked more 3-year decline, but supplementing omega-3 did
+not prevent it [inferred from @andrieu2017] — low status is a marker of
+decline, not shown to be a lever, exactly as the low-fish-subgroup reading of VITAL's MI signal above
+suggests repletion rather than a pill effect -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
 
 ## Layer-1 placement — a low/absent lever for the well-nourished

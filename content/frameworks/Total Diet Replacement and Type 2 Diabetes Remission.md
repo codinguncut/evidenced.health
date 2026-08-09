@@ -3,10 +3,10 @@ type: framework
 question: Can an energy-restricted total-diet-replacement programme put type 2 diabetes into remission, and does remission scale with weight loss?
 aliases: [DiRECT, DiRECT Trial, Counterweight-Plus, Total Diet Replacement Diabetes, Formula Diet Diabetes Remission, TDR Remission, Weight Loss Diabetes Remission Dose-Response]
 authors: [Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Taylor, Roy]
-sources: [Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022]
+sources: [Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015]
 cluster: weight-loss-diets
 confidence: medium
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Carbohydrate Restriction and Type 2 Diabetes Remission
@@ -17,7 +17,7 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-08-06
+updated: 2026-08-08
 ---
 
 DiRECT (Lancet 2018) is the first registered trial to set **remission of type 2 diabetes as a
@@ -30,7 +30,22 @@ Its pathophysiological premise is Taylor's *twin cycle hypothesis* — that T2D 
 driven by excess fat in liver and pancreas and is reversible by negative energy balance. Earlier
 mechanistic work had normalised liver insulin resistance within 7 days and pancreatic function over
 8 weeks on a 600-700 kcal/day diet; DiRECT tests whether this is *practicable* at scale.
-[@lean2018, Introduction]
+[@lean2018, Introduction] The premise is now held directly:
+«people with recent onset T2DM could regain normal glucose control and normal β-cell function when the
+fat content of the liver and the pancreas was decreased by a weight loss diet- ary regimen» — the
+depot-drawdown mechanism the remission gradient rides on -> [[Ectopic Fat and Depot-Specific Risk]].
+[@taylor2015pft]
+
+**The stratum DiRECT's BMI cut-off excludes — normal-weight T2D (a decision-change).** DiRECT required
+BMI 27-45, so its evidence is silent on the \~third of T2D patients who are normal-weight, and such patients
+are routinely *not* offered weight loss. Taylor's personal-fat-threshold frame extends the lever there: T2D
+is one condition across BMI (36% of newly-diagnosed UKPDS patients had BMI <25), and reversal is
+«achievable equally readily by people with lower initial BMI» — indeed at a *smaller* required loss (UKPDS:
+\~13% at normal BMI vs \~21% for the whole cohort to reach normoglycaemia). So a normal-weight person with
+short-duration T2D is a candidate for the same energy-deficit lever, sub-threshold BMI notwithstanding — a
+recommendation DiRECT's own population cannot license but the mechanism does.
+[@taylor2015pft]
+[inferred from @taylor2015pft]
 
 ## The intervention — an energy target, NOT a macronutrient one
 
@@ -93,12 +108,12 @@ The discussion states the composite the table implies: "86% of participants with
 weight loss, and 73% of those with weight loss of 10 kg or more" achieved remission.
 [@lean2018, Discussion]
 
-### An independent design reaches the same per-kilogram gradient `[E-independent]` `[2026-08-04]`
+### A different design reaches the same per-kilogram gradient (type-F corroboration, independence CAPPED)
 
 DiRECT's dose-response is a **within-trial** association (responder confounding is live — see Limits). A
-**separate observational design corroborates the same monotone, diet-independent gradient**, which is what
-converts it from a suggestive within-population pattern to an [E-independent] finding. Reported in the
-Churuangsuk umbrella review: ADDITION-Cambridge, a **population cohort of 867 newly-diagnosed T2D patients
+**separate observational design corroborates the same monotone, diet-independent gradient** — which
+strengthens the *direction* without lifting the finding to `[E-independent]` (the independence is capped;
+see below). Reported in the Churuangsuk umbrella review: ADDITION-Cambridge, a **population cohort of 867 newly-diagnosed T2D patients
 across 49 UK primary-care practices**, followed 5 years — overall 30% remission — found «Every 1 kg of
 weight loss was associated with 7% higher chance of remission at 5 years, regardless of specific diet
 regimens or lifestyle interventions», and «Loss of >10% of baseline body weight in the first year after
@@ -116,11 +131,23 @@ diagnosis was associated with 70% higher chance of remission at 5 years».
 | The claim backed | remission rises monotonically with kg lost, irrespective of diet | same | **YES — the directional claim** |
 
 The magnitudes are **not** pooled (12-mo band-rate vs 5-yr per-kg association); what is shared is the
-**direction and diet-independence** of the gradient. The independence is genuine on the axes E requires —
-a randomised within-population contrast and an observational cohort, different data, different institution
-(Newcastle/Glasgow vs Cambridge), different confounding structures. The one shared-context caveat: both
-are UK early-disease T2D populations in the weight-centric remission tradition, so transport beyond that
-stratum is corroborated by neither. Neither study cites or formalises the other — this is not laundered-E.
+**direction and diet-independence** of the gradient. There IS a real independence gain on two axes — a
+randomised within-population contrast vs an observational cohort, and different datasets/institutions
+(Newcastle/Glasgow DiRECT vs Cambridge ADDITION). But the `[E-independent]` token is **withdrawn**
+(2026-08-08), for two reasons the earlier version missed:
+- **Shared confounding, not "different confounding structures."** Both gradients are driven by the SAME
+  dominant threat — **responder confounding** (people who lose more weight differ biologically, so the
+  weight->remission slope is partly reverse-causal in the RCT *and* the cohort). A second design that
+  shares the incumbent's main confounder does not neutralise it, so it cannot lift the finding the way a
+  genuinely orthogonal design would.
+- **The relay runs through DiRECT's own PI.** ADDITION-Cambridge is held ONLY via the Churuangsuk umbrella,
+  whose byline is «...Simon J. Griffin ... & Michael E. J. Lean» — **Lean is DiRECT's joint PI/first
+  author** and Griffin an ADDITION investigator. So the "independent corroboration" is read through a
+  review co-written by the incumbent trial's own lead; that is a lineage tell E forbids, disclosed nowhere
+  before. Same shared-authorship class as the Fibre SACN⟂Reynolds demotion.
+So this is **type-F corroboration by a different design, with independence capped** — real but not
+`[E-independent]`; and transport beyond UK early-disease weight-centric-remission populations is
+corroborated by neither.
 [inferred from @lean2018; @churuangsuk2022]
 
 ### Where DiRECT sits in the umbrella's certainty-graded remission map
@@ -230,6 +257,14 @@ as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
   groups who develop T2D at lower weight.
 - **The dose-response is a within-population association**, not the randomised contrast — responder
   confounding is possible.
+- **The twin-cycle / personal-fat-threshold mechanism is a HYPOTHESIS, not a settled cause.** Taylor's
+  depot-drawdown account is mechanistically corroborated (liver/pancreas fat falls with weight loss and
+  tracks glucose recovery) but the *personal fat threshold* — that each person has an individual fat
+  level above which T2D triggers — remains an inference under test, not an established quantity; the
+  remission gradient is consistent with it but does not prove it.
+- **Sponsor / vendor COI:** DiRECT's formula diet (Counterweight-Plus) is a commercial product; the
+  Counterweight programme and formula-diet vendors have a stake in the result. Disclosed here for
+  symmetric standards — it does not overturn the RCT, but the honest-bias inventory must name it.
 - Adverse events during TDR were common but mild (constipation, cold sensitivity, headache,
   dizziness); 9 serious AEs in 7 (4.5%) intervention participants, 2 possibly related (biliary
   colic + abdominal pain, same participant), none causing withdrawal.

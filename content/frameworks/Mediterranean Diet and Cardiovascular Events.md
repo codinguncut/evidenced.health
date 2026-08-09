@@ -3,7 +3,7 @@ type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
 authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017]
 cluster: dietary-patterns
 nucleus: true
 confidence: medium
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-05
+updated: 2026-08-09
+self_critiqued: 2026-08-08
 ---
 
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
@@ -55,9 +55,12 @@ listed source.)
 
 ## Why this matters at the pattern level — three decision-relevant reads
 
-1. **The pattern worked WITHOUT weight loss or exercise.** The diet was «energy-unrestricted» and
-   physical activity was not promoted; there was little between-group weight change. So a *composition*
-   change — not calorie restriction, not weight loss — moved events. This is the striking complement to
+1. **The pattern worked WITHOUT weight loss or exercise.** The cited chunk states «No total calorie
+   restriction was advised, nor was physical activity promoted» and that the trial «found little
+   difference in changes in physical activity» between groups; a minimal between-group *weight* change is
+   inferred from this energy-unrestricted design (the chunk reports no between-group weight-change result
+   — the fact is not extracted, corrected 2026-08-08). So a *composition* change — not
+   calorie restriction, not weight loss — moved events. This is the striking complement to
    [[Does Weight Loss Reduce Cardiovascular Events]]: lifestyle **weight loss** did not cut CV events
    (Look AHEAD null; the 54-RCT meta-analysis null on events), yet a dietary **pattern** did. The lever
    for CV events here is *what you eat*, not *how much you weigh*. [inferred from @estruch2018]
@@ -123,13 +126,21 @@ observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.8
 (0.85-0.97)**, cohort-only 0.91 (0.88-0.94). [@garciacasares2021] Two things keep this from reading as a second hard-outcome win for the pattern:
 
 - **No RCT leg** (PREDIMED tested CV events, not dementia incidence; the randomized cognition evidence is
-  the multicomponent FINGER family, small/null on incidence), and the cohorts carry healthy-user +
-  reverse-causation confounding the authors flag themselves («limit to infer causality»). [@garciacasares2021]
-- **The likely route is the vascular one this page evidences.** The MA frames the AD effect as running
-  «indirectly (being protective factors of cardiovascular and metabolic diseases, which are themselves risk
-  factors for AD)» [@garciacasares2021] — consistent
-  with PREDIMED's demonstrated vascular (stroke-driven) effect being the mediator, so the cognition benefit
-  is probably not an *additional* independent channel. Full appraisal + the double-counting caveat:
+  the multicomponent FINGER family, small/null on incidence). The design caveat the authors state is that
+  most included studies are «most of them cross-sectional ones, which limit to infer causality» (a
+  *design* limit — the authors name no confounding mechanism; healthy-user + reverse-causation is the
+  wiki's gloss of why cross-sectional design here fails causality, corrected 2026-08-08).
+  [@garciacasares2021]
+- **The vascular route is ONE proposed channel, not the source's frame (corrected 2026-08-08).** The MA
+  proposes the pattern's protective effect «could contribute directly to reduce AD risk (by its
+  neuroprotective effects) as well as indirectly (being protective factors of cardiovascular and metabolic
+  diseases, which are themselves risk factors for AD)»
+  [@garciacasares2021], and its discussion proposes «four different pathways» — metabolic/glucose,
+  vascular, oxidative-stress, anti-inflammatory — vascular being one of the four. [@garciacasares2021]
+  So PREDIMED's demonstrated vascular (stroke-driven) effect is a *plausible mediator* — part of the
+  cognition signal may run through the same channel as the CV benefit — but the source explicitly proposes
+  a **direct neuroprotective route too**, so the cognition benefit may be partly *additional* rather than
+  fully carried by the vascular channel. Full appraisal + the double-counting caveat:
   [[Dementia Prevention and Modifiable Risk Factors]].
 
 [@dinu2018]
@@ -154,9 +165,14 @@ and `[E-independent]` is explicitly NOT claimed. [inferred from @dinu2018; @estr
   Dinu's pooled-RCT nulls on mortality/CHD say the same thing at the meta-level. The honest composite
   claim (a pattern reduced mostly stroke events in high-risk primary prevention) is exactly what survives
   the umbrella. [inferred from @dinu2018; @estruch2018]
-- **Diabetes is the one hard outcome robust across designs** — highly-suggestive observational (RR 0.83)
-  AND a weak-but-present RCT signal (RR 0.70). Dinu names diabetes the umbrella's most robust metabolic
-  outcome, contrasted against a *weaker* metabolic-syndrome signal.
+- **Diabetes is the metabolic outcome present in BOTH designs** — highly-suggestive observational
+  (RR 0.83) AND a weak RCT signal (RR 0.70). Dinu names diabetes the umbrella's most robust metabolic
+  outcome, contrasted against a *weaker* metabolic-syndrome signal. But read the RCT leg with two
+  caveats (corrected 2026-08-08): it is a **single trial** — Dinu discloses «Two meta-analyses of only
+  1 RCT included heart failure and diabetes» — so «robust across designs» overstates a k=1 RCT leg; and
+  that lone Med-diet diabetes RCT (n\~3,541) is plausibly a PREDIMED-family substudy, so the cross-design
+  agreement may partly re-count the same trial family rather than being an independent RCT witness
+  (uncheckable from the held chunk).
   [@dinu2018]
 
 ### Parameter table — PREDIMED vs the umbrella's pooled RCT grade (BLOCKING cross-source check)
@@ -172,14 +188,32 @@ endpoints except diabetes) and *agrees* with PREDIMED's own mortality-null; beca
 the pool, this is refinement (F), not independent corroboration.
 
 
-### The LDL-null refinement — the pattern's benefit does not run through LDL
-Across 3 RCT meta-analyses Dinu found «no association was reported for LDL-cholesterol levels» (all
-No evidence), while Med-diet lowered total cholesterol and triglycerides and raised HDL. So the
-fat-quality channel above should NOT be read as an LDL-lowering story at the *whole-pattern* level: the
-cardiometabolic benefit is carried by HDL/TG/BP/glucose/inflammation, not LDL. This refines
-[[Saturated Fat Intake and Replacement]] (a single-nutrient LDL/apoB argument) — the *whole Med pattern*
-moves events without moving LDL, a genuinely distinct claim from the SFA-replacement channel, and a
-surrogate caveat for [[Surrogate Outcomes]]. [@dinu2018, Table 2]
+### The LDL refinement — a DIFFERENTIAL null vs active controls, not an absolute one (the two sources JOINED, corrected 2026-08-08)
+Two of this page's own sources give apparently clashing LDL verdicts, and they must be JOINED before
+either is used:
+
+- **Dinu:** across 3 RCT meta-analyses «no association was reported for LDL-cholesterol levels» — but
+  explicitly «when compared to control diets» (total cholesterol lowered and HDL raised in the *same*
+  comparison). [@dinu2018, Table 2]
+- **Ge:** among moderate-certainty diets vs *usual diet*, «the Mediterranean diet proved the most
+  effective popular named diet for LDL cholesterol reduction» and was the *only* named diet with «a
+  statistically significant difference compared with usual diet in LDL cholesterol reduction».
+  [@ge2020]
+
+**Joined (not-joined check (ii) — different comparator):** the two are consistent once the comparator is
+matched. Ge's benefit is Med **vs an unimproved usual diet**; Dinu's null is Med **vs active
+control/low-fat diets** that themselves lower LDL — so Dinu reports *no DIFFERENTIAL* LDL advantage over
+an already-LDL-lowering comparator, **not** that the Med pattern fails to move LDL in absolute terms.
+ So do NOT read this as "the whole pattern moves events without moving LDL" (corrected
+2026-08-08 — that over-read Dinu's differential null into an absolute one): against a usual diet the
+pattern *does* lower LDL (Ge), while against an active low-fat control it buys no *extra* LDL reduction
+(Dinu). What the pair genuinely refines against [[Saturated Fat Intake and Replacement]] (a
+single-nutrient LDL/apoB argument) is that the *whole-pattern* event benefit is **not attributable to an
+LDL advantage over an active comparator** — a surrogate caveat for [[Surrogate Outcomes]], since Dinu's
+other markers (total cholesterol lowered, HDL raised) also moved while triglycerides, HDL and BP were
+among outcomes with «disagreements in terms of the significance of the effect» across its
+meta-analyses. Which marker *mediates* the event benefit is not established — Dinu runs no mediation
+analysis (corrected 2026-08-08). [@dinu2018]
 
 ### The adherence-measurement caveat
 The umbrella flags «22 77 indexes quantifying the compliance to the Mediterranean diet have been
@@ -224,6 +258,19 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
   (observational), so its agreement is not independent corroboration of the CV-event finding; no
   `[E-independent]` claimed. It enters `sources:` on the dual test (a distinct extracted claim — the AD/MCI
   RRs — now lives on the page).
+
+[@molendijk2017diet]
+## Adjacent outcome — the pattern also tracks lower depression incidence, but weakly
+
+In prospective cohorts the Mediterranean pattern is associated with lower incident depression: OR «0.75
+(0.67 to 0.84)», part of a linear dose-response across diet-quality patterns (Molendijk 2017). But this
+is a **weaker claim than the CV one** and belongs on [[Depression and Modifiable Exposures]], not here:
+it is observational-only (no RCT), and the association **vanishes when analyses control for baseline
+depressive symptoms or use a formal diagnosis** — a reverse-causation / surrogate-inflation signal. The
+favoured mechanism routes *back through* the cardiometabolic pathway this page is about (diet -> metabolic
+illness -> depression), so it is plausibly not an independent MedDiet benefit but a downstream shadow of
+the same cardiometabolic effect. Named here only as a cross-link; the caveats live on the depression page.
+
 
 ## Self-critique `[run 2026-08-05, after adding the Dinu umbrella section]`
 - **Independence NOT laundered — the load-bearing catch.** Dinu's RCT pool *contains* PREDIMED (Liyanage,

@@ -16,8 +16,8 @@ relationships:
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Surrogate Outcomes
 created: 2026-08-01
-updated: 2026-08-06
-self_critiqued: 2026-08-01
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 Menopause is a **life-stage stratum**, not a disease and not a fringe topic: it changes *which levers
@@ -27,8 +27,9 @@ pharmacotherapy comparator (HRT) lives on its own page -> [[Hormone Therapy Afte
 
 **The frame, stated first — the reversal this page installs:** the intuitive story is *"menopause makes
 women gain weight."* On the best evidence that is the wrong emphasis. Menopause does **not** independently
-add total fat (that tracks aging); what it does is **redistribute** the fat centrally/viscerally and shift
-the fat-to-lean ratio. So the decision is not *fight menopausal weight gain* — it is to attend to the
+add total fat (that tracks aging); what it more likely does — on hedged, mostly cross-sectional evidence
+the source frames as a *possible* shift, not an established one — is **redistribute** the fat
+centrally/viscerally and shift the fat-to-lean ratio. So the decision is not *fight menopausal weight gain* — it is to attend to the
 *central redistribution* and the *lean/bone loss* that ride the hormonal shift, with lifestyle levers
 (resistance training, visceral-fat reduction) leading and HRT a small, separate adjunct on body
 composition.
@@ -41,16 +42,22 @@ composition.
 direction (synthesis below).
 
 
-## Limb 1 — what changes: quantity is aging, distribution is menopause
+## Limb 1 — what changes: quantity is aging, distribution *possibly* menopause
 
 [@ambikairajah2019]
 The largest meta-analysis of the question (201 cross-sectional studies, \~1.05 million women; 11
 longitudinal, 2,472 women) separates two things that get conflated:
 
-- **Fat mass rises across the transition** on nearly every measure: BMI +1.14 kg/m2 (0.95-1.32), body fat
-  +2.88% (2.13-3.63), waist circumference +4.63 cm (3.90-5.35), **visceral fat +26.90 cm2 (13.12-40.68)**,
-  trunk fat +5.49% (3.91-7.06) — **except total leg fat %, which *falls* -3.19% (-5.98 to -0.41).** That
-  divergence (trunk up, legs down) is the redistribution fingerprint.
+- **Fat mass is higher post- than pre-menopause** on nearly every measure — these are **cross-sectional
+  pooled group differences**: the MA states «women classified as perimenopausal were not included», so this
+  is a pre-vs-post *contrast*, not an observed trajectory *across* the transition (corrected 2026-08-08).
+  BMI +1.14 kg/m2 (0.95-1.32), body fat +2.88% (2.13-3.63), waist circumference +4.63 cm (3.90-5.35),
+  **visceral fat +26.90 cm2 (13.12-40.68)**, trunk fat +5.49% (3.91-7.06) — **except total leg fat %,
+  which *falls* -3.19% (-5.98 to -0.41).** That divergence (trunk up, legs down) is a **possible**
+  redistribution fingerprint (the source hedges it — see below and Limits).
+  **The more-precise longitudinal analyses — which the MA calls «more precise than cross-sectional
+  estimates» — give a much smaller VF gain, +12.95 cm2 (8.65-17.25), under half the bolded cross-sectional
+  figure (added 2026-08-08).**
   [@ambikairajah2019]
 - **But the quantity is aging, not menopause per se:**
   > «The change in fat mass quantity was predominantly attributable to increasing age with menopause having
@@ -60,7 +67,9 @@ longitudinal, 2,472 women) separates two things that get conflated:
 
   Meta-regression: ageing explained 9.99-73.90% of the variance, and there was **no interaction between
   menopausal status and age** on any measure. So *total fat gain would have happened anyway*; the
-  *central* shift is the menopause-specific increment.
+  *central* shift is the **possible** menopause-specific increment — the source states it only as a
+  «possible»/«potential change in fat mass distribution», not an established one, and (see Limits) the MA
+  can discriminate menopause-from-aging only for *quantity*, not for distribution (corrected 2026-08-08).
 
 - **Mechanism (the sex-hormone axis):**
   > «These changes are likely to, at least in part, be due to hormonal shifts that occur during midlife
@@ -77,7 +86,12 @@ increase in body fat and a decrease in lean body mass, which results in an incre
 ratio and decreased basal metabolic rate ... Central fat distribution ... occurs after menopause after
 adjustment for aging, total body fat, and physical activity level.»
 [@nams2022] — NAMS adds the *lean-mass* fall and
-\~1.5 lb/y midlife gain, and notes weight changes flatten \~2 y after the final menstrual period.
+\~1.5 lb/y midlife gain, and notes «weight changes flatten» \~2 y after the final menstrual period.
+**Unflagged tension (flagged 2026-08-08):** a gain trajectory *clocked to the FMP* — running through the
+transition, then flattening \~2 y after it — is a menopause-linked time-course in *quantity*, which sits
+awkwardly with the aging-not-menopause quantity claim above (a pure-aging trend has no reason to flatten on
+the FMP clock). Open question, not settled corroboration: does the transition transiently accelerate
+total-fat gain, then plateau? A candidate tension to file (type-D).
 
 
 ## Limb 2 — measure the redistribution, not the scale
@@ -143,8 +157,10 @@ menopause. -> [[Surrogate Outcomes]].
 
 
 - **Do not treat the scale; watch the waist.** Total-fat gain across midlife tracks aging and would happen
-  regardless; the menopause-specific, cardiometabolically-relevant change is *central redistribution* —
-  measured by WC/WTHR/trunk fat, not BMI.
+  regardless; the *plausible* menopause-specific, cardiometabolically-relevant change is *central
+  redistribution* (the source hedges this as *possible*, not established — see Limits) — measured by
+  WC/WTHR/trunk fat, not BMI. The waist-over-BMI advice holds either way: central fat is the risk carrier
+  whether its rise is menopause- or age-driven.
 - **The big lever is visceral fat; the muscle/bone levers are resistance training + protein + weight-bearing
   work.** HRT is the bone adjunct (and a symptom treatment), not the body-composition or muscle lever.
 - **Stratify by baseline-risk shift (route a), not by a new subgroup effect.** Menopause raises the central
@@ -164,15 +180,29 @@ menopause. -> [[Surrogate Outcomes]].
   confounding + measurement error both bias toward noise. The quantity-is-aging conclusion is the MA's own,
   but *no additional menopause influence on quantity* is a *failure to detect*, not proof of no effect
   (expectancy caveat) -> [[The Insufficient-Evidence Statement]].
+- **The redistribution claim is the weaker half — and its weaknesses are not symmetric with the null's
+  (added 2026-08-08).** The MA can separate menopause-from-aging only for *quantity*: there it has an
+  external aging benchmark — «for women aged 18-45 years the typical trends for BMI and BF % is an increase
+  of 0.16 kg/m2/year and 0.41 %/year» — that its longitudinal estimates match. It offers **no** such aging
+  reference for the *distribution* measures, and its own meta-regression finds «ageing significantly
+  predicted the unexplained variance (9.99 - 73.90 %) in fat mass estimates except for HC, AF and SSIF» —
+  i.e. ageing significantly predicts the central measures (WC, WTHR, VF) too. The leg-fat «fingerprint»
+  rests on **k=3 cross-sectional studies** (CI -5.98 to -0.41, barely excluding zero), and Egger's test is
+  significant for exactly the fingerprint measures («ASF, TF % and LF %»). Hence the source's «possible» /
+  «potential», not «established» — the positive/redistribution half gets the same weakness audit as the
+  quantity-null above (symmetric standards).
 - **Trajectory under-measured.** What a woman most wants — sustained function and compressed decline — is
   measured far less than fat-mass surrogates (the streetlight effect on the outcome side ->
   [[Surrogate Outcomes]]).
 - **No muscle-preserving-weight-loss trial in midlife women** — the fat-loss-vs-lean/bone-loss trade-off is
   reasoned from mechanism, not measured (`type-G`; also flagged in [[Testosterone Adiposity and Muscle]]).
 - **Sarcopenia now has a held page** -> [[Sarcopenia Definition and Diagnosis]] (EWGSOP2). It supports
-  limb 2's measurement point from the muscle side: strength (not mass) is the primary criterion, and BMI
-  is explicitly confounded by the muscle/bone changes of ageing — measure strength and waist, not the
-  scale. **Caveat it hardens into a gap:** *sarcopenic obesity* — the exact construct this stratum sits
+  limb 2's measurement point from the muscle side: **strength (not mass) is the primary criterion**
+  [@cruzjentoft2019]. (Re-attributed,
+  corrected 2026-08-08: the *BMI-is-confounded-by-bone/muscle/shrinkage* point is **Ambikairajah's**
+  [limb 2], not EWGSOP2's — the consensus invokes BMI only as an adjustment denominator, ASM/BMI.) The two
+  sources converge on the same instruction: measure strength and waist, not the scale.
+  **Caveat it hardens into a gap:** *sarcopenic obesity* — the exact construct this stratum sits
   in — is «outside of the scope of this article» and EWGSOP2 sets no cut-off for it
   [@cruzjentoft2019], so the lean-mass
   lever here rests on a construct with no agreed operational definition (`type-G`).

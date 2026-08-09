@@ -24,6 +24,8 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
   hard-outcome benefit is proven to reach primary prevention; does benefit depend on baseline BP?
 - [[Sodium Intake and Blood Pressure]] — how much sodium, and what reducing it actually buys
 - [[Potassium Intake and Blood Pressure]] — how much potassium, what raising intake buys, and for whom
+- [[DASH Diet and Blood Pressure]] — the DASH pattern lowers BP/lipids (surrogates); a sodium-independent,
+  whole-pattern lever, not double-counted with sodium reduction; DASH->events unproven, rides BP transmission
 - [[Stress Management and Cardiometabolic Health]] — whether a structured stress-management program
   lowers BP enough to matter, weighed against established BP levers
 
@@ -42,6 +44,10 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
   nutrient) reduces hard CV events, in whom and on which outcomes
 - [[Does Weight Loss Reduce Cardiovascular Events]] — whether intentional lifestyle weight loss
   prevents hard CV events, and what the Look AHEAD null bounds
+- [[Inflammation as a Modifiable Lever]] — inflammation as a second causal axis beside lipids: two RCTs
+  (CANTOS canakinumab, LoDoCo2 colchicine) cut CV events with lipids unchanged, but CRP is a marker not a
+  cause (MR), the benefit is on events not all-cause mortality, and the anti-inflammatory diet is an
+  observational proxy for MedDiet, not a shown independent lever
 
 ## Behavioural big rocks
 

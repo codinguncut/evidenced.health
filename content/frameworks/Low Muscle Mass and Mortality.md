@@ -17,8 +17,9 @@ relationships:
     - Testosterone Adiposity and Muscle
     - BMI and All-Cause Mortality
     - Big Rocks (Elderly)
+    - Frailty
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-08
 self_critiqued: 2026-08-06
 ---
 

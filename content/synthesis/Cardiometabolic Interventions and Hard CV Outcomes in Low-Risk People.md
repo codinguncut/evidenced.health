@@ -2,11 +2,11 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016]
 cluster: cvd-risk-estimation
 confidence: high
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-07
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -20,7 +20,7 @@ relationships:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-28
-updated: 2026-08-04
+updated: 2026-08-07
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -150,6 +150,26 @@ floor where it is low — and it does **not** supply a low-risk lever. (Bound: i
 selected hypertriglyceridemic stratum, and its mineral-oil comparator is contested, so it does not even
 speak to the general low-risk person.) -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @bhatt2019]
+
+**preDIVA is a fourth confirming test — a lifestyle/vascular-care route, but a WEAKER instance whose null
+is over-determined `[2026-08-07]`.** preDIVA (Moll van Charante 2016) delivered 6.7 yr of nurse-led
+multidomain vascular care (lifestyle advice + BP/lipid/glucose drug optimisation) to **3526 *unselected*
+community-dwelling elderly** — and found **null on incident cardiovascular disease (HR 1.06, 0.86-1.31),
+all-cause mortality (HR 0.98, 0.80-1.18), and dementia (HR 0.92)**
+[@mollvancharante2016]. The authors give
+**two** reasons, and the FIRST is not baseline risk: «the contrast between study groups in cardiovascular
+risk reduction was relatively small ... the intensity of the vascular care ... might have been
+insufficient», then «this absence of effect might have been caused by modest baseline cardiovascular risks
+and high standards of usual care» [@mollvancharante2016]. **The small-contrast reason partly confounds the baseline-risk test:** the achieved
+systolic contrast was only -2.06 mm Hg, which through this page's BPLTTC transmission (\~HR 0.91 per
+5 mmHg) predicts HR \~0.96 on CV events — **undetectable at *any* baseline risk**. So preDIVA is a
+**weaker** mechanism-1 instance than BPLTTC/PREDIMED/REDUCE-IT (which achieved real relative effects and
+still faded at low risk, cleanly isolating baseline risk); its near-zero contrast means it confirms only
+the **broad** thesis — *no proven large hard-CV lever in a not-high-risk population* — not a clean
+baseline-risk demonstration. Still directionally consistent: a well-managed, unselected elderly cohort is
+exactly where both a thin contrast and a low absolute risk conspire toward null. (Convergent single-source
+confirmation of the held thesis, **not** an independent-backing claim — no `[E-independent]`.)
+[inferred from @mollvancharante2016]
 
 **What still would break it:** a primary-prevention cardiovascular-outcome trial of an obesity drug
 (does not yet exist), a weight-loss-mortality review finding benefit beyond T2D, a CAC-randomized

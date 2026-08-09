@@ -148,7 +148,7 @@ falls/fracture and function payoff above weighs more than the mortality number. 
 evidence forces: **frailty itself cannot be targeted** — it is too ill-defined for an optimal
 intervention to be built, per the guideline's own review
 [@who2020]. Aim at strength,
-balance and aerobic capacity, which are measurable; not at "frailty."
+balance and aerobic capacity, which are measurable; not at "frailty."] (Racey 2021 SR-MA) — PA interventions do move a "frailty" composite (RR 0.58, moderate GRADE), but Racey's own limitation (frailty measured in only 4/23 trials, heterogeneous definitions) corroborates the "too ill-defined" point; the target-components framing survives, consider citing the reversal magnitude — deferred: deliverable content not edited by ingest]`
 
 ## (b) Conditional or age-bounded
 

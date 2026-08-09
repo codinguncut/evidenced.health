@@ -17,6 +17,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
 created: 2026-07-25
 updated: 2026-08-04
+nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
 ## Why it matters

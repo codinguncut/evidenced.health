@@ -8,7 +8,7 @@ cluster: red-meat
 nucleus: true
 confidence: medium
 updated: 2026-08-06
-self_critiqued: 2026-08-01
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Red and Processed Meat and Cancer

@@ -7,7 +7,7 @@ sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, 
 cluster: organic
 nucleus: true
 confidence: low
-self_critiqued: 2026-08-01
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Is the Food Category Doing Any Work

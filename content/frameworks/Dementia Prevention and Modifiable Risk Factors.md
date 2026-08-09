@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-07
+self_critiqued: 2026-08-07
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -54,8 +54,9 @@ modifiable risk factors». [@livingston2024]
   communality. A principal-components analysis of the 14 factors «found five principal components,
   explaining 54 % of the total variance», so each factor's raw PAF is discounted for its shared variance
   with the others. [@livingston2024] The per-factor *weighted*
-  PAFs live in the report's Table 1 (a figure not recoverable from this accepted-manuscript text)
-  -> — per-factor weighted PAF values from Table 1`.
+  PAFs live in the report's Table 1 — a figure NOT recoverable from the held accepted-manuscript text, so
+  this is a named gap pending the *published-version* PDF (the source slug itself is already held; an token here would false-fire `reconcile awaits-arrived`, which keys on the slug, not
+  the missing table — re-key only if a distinct published-version row is ever registered).
 
 ## The 14 factors, their direction, and their life-course window
 
@@ -178,9 +179,26 @@ meta-analytic bound.
 Multicomponent prevention RCTs (FINGER-family) show only a **small** cognitive-composite benefit (Cochrane
 MD 0.03, 0.01-0.06) and wide, null-spanning effects on dementia *incidence* (RR 0.94, 0.76-1.18) — the
 population PAF is a modelling claim, not a demonstrated trial effect on incidence.
-[@livingston2024] Treatment, diagnosis, biomarkers and drug
-therapy (cholinesterase inhibitors, anti-amyloid antibodies) are appraised on the source page, out of this
-prevention framework's scope.
+[@livingston2024] **That incidence-null is now held first-hand,
+not secondhand:** preDIVA (Moll van Charante 2016), a 6.7-yr multidomain vascular-care cluster-RCT
+(n=3526, unselected elderly), found **HR 0.92 (0.71-1.19)** on clinical dementia incidence — a primary
+constituent of the pooled null above, consistent with it, and detailed with FINGER's surrogate-positive
+contrast on [[Multidomain Lifestyle Intervention and Cognitive Decline]].
+[@mollvancharante2016] Treatment,
+diagnosis, biomarkers and drug therapy (cholinesterase inhibitors, anti-amyloid antibodies) are appraised
+on the source page, out of this prevention framework's scope.
+
+**And no responder subgroup rescues the incidence-null — the PAF's implicit "target the high-risk" hope is
+tested and fails on the hard endpoint `[2026-08-07, Coley]`.** Pooling the MAPT+preDIVA IPD (n=5205, up to
+12 yr), «there was no effect of multidomain intervention on the risk of all-cause dementia (HR 0.98, 95% CI
+0.80–1.21)», with no effect in any of 11 pre-specified risk-factor subgroups and none found by a data-driven
+SIDES search [@coley2025]. This matters for
+how the PAF is used: the observational per-factor map identifies *who is at risk* (route-a prognostics —
+Coley confirms age, APOE ε4, inactivity, low MMSE raise incidence), but it does **not** license a claim that
+*intervening harder on the high-risk converts to prevented dementia* — that route-b step is exactly what the
+pooled trial search could not find. Coley is the pooled COMPOSITE of the two RCTs already cited here (shared
+authorship, FINGER excluded), so it is corroboration of the null by re-analysis, not an independent third
+witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds the full responder verdict.
 
 ## Self-critique `[run 2026-08-05, before commit]`
 

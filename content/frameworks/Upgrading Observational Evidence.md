@@ -16,8 +16,8 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - The Observational-Trial Discordance
 created: 2026-07-25
-updated: 2026-08-06
-self_critiqued: 2026-08-04
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
@@ -64,8 +64,11 @@ very low. It records exactly which outcomes cleared the large-magnitude bar: «L
 or <0.5 can permit observational evidence to be upgraded in GRADE, and only the association between high
 versus low coffee consumption and both liver cancer and chronic liver disease reached this magnitude.»
 [@poole2017] So of dozens of coffee benefits, only
-the two liver outcomes (RR \~0.35) were large enough to consider rating up — the all-cause-mortality
-(RR 0.83) and CVD (0.85) associations, though consistent, sit far inside the threshold and stay very-low.
+the two liver outcomes (liver cancer RR 0.50 [0.43-0.58]; chronic liver disease RR 0.35 [0.22-0.56] —
+the cancer arm sits ON the 0.5 rating-up boundary, not comfortably past it) were large enough to
+consider rating up — the all-cause-mortality (RR 0.83) and CVD (0.85) associations, though consistent,
+sit far inside the threshold and stay low/very-low (the per-outcome GRADE labels live in an appendix
+the held text does not carry — the exact label is not extractable here).
 This is the SIDS logic in a field where the criterion mostly **fails to fire**, which is itself the
 finding: it disciplines the common temptation to upgrade a *consistent* nutritional association that is
 merely *modest*. -> [[Coffee Consumption and Health]].

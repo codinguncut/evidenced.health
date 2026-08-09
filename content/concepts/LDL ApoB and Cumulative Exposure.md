@@ -2,14 +2,15 @@
 type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
-authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Blumenthal, Roger S]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026]
+authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Blumenthal, Roger S; Zuber, Verena; Gill, Dipender; Ala-Korpela, Mika; Burgess, Stephen; Ridker, Paul M]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, Zuber - Multivariable MR ApoB Coronary 2021, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017]
 cluster: lipids
 nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Surrogate Outcomes
+    - Inflammation as a Modifiable Lever
     - Saturated Fat Intake and Replacement
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Statins for Primary Prevention and the Power of Zero CAC
@@ -18,8 +19,8 @@ relationships:
     - Soy Products and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
@@ -230,6 +231,87 @@ Ference. **Verdict: F (refinement) + primary genetic grounding, NOT `[E-independ
 cap therefore **holds** — see Limits.
 [inferred from @richardson2020; @ference2017]
 
+## The non-Ference second opinion — an AGNOSTIC MR reaches apoB-supreme, from a distinct group (Zuber MR-BMA 2021) `[2026-08-07]`
+
+The three lipid sources above (CTT, Marston, Richardson) all share the Ference lineage, which is why the
+causal case — however triangulated across RCT / observational / genetic designs — has stayed
+`confidence: medium`. Zuber is the **non-Ference second opinion** the Limits section has been awaiting:
+a multivariable MR from the **Burgess/Cambridge** group (no Ference co-author) using **MR-BMA** — an
+*agnostic* Bayesian model-averaging algorithm that scores every combination of **30** lipoprotein
+measures / metabolites and lets the data pick, rather than testing a curated LDL-C/TG/apoB triple.
+Instruments from the Global Lipids Genetics Consortium; outcome from CARDIoGRAMplusC4D 2017 + UK Biobank
+(453,595 individuals, 113,937 CAD cases). [@zuber2021]
+
+**apoB wins the agnostic search, and survives its own removal.** The top-ranked model is **apoB alone**
+(model posterior probability 0.464); apoB has the strongest marginal evidence (marginal inclusion
+probability 0.868, FDR <0.005), and no other cholesterol or triglyceride measure is consistently
+selected. The load-bearing robustness test — the one Richardson's *curated* design structurally could not
+run — is the **leave-apoB-out**: remove apoB from the candidate set and
+
+> «No alternative risk fac-tor had similar strength of evidence, suggesting that ApoB is indeed the most
+> important risk factor and not just a rep-resentative of a group of highly correlated lipoprotein
+> measures with similar evidence.»
+> [@zuber2021]
+
+apoB is also selected in *every* sensitivity analysis (an earlier CARDIoGRAMplusC4D release *without* UKBB;
+a 55-variant NMR-GWAS instrument set), with **one honest exception**: in UK-Biobank-*only* outcome data
+apoB ranked second behind very-small-VLDL triglyceride content, which the authors flag «should therefore
+be interpreted with some caution». The conclusion tracks the nucleus exactly — «ApoB, representing the
+number of hepatic-derived lipopro-tein particles, is the key determinant of CAD risk among lipid-related
+measurements» — and, like Richardson, it does **not** discredit LDL-C: «These results do not invalidate
+LDL-cholesterol as a causal risk factor for CAD risk. Indeed, LDL particles con-tain an apolipoprotein B
+molecule.» [@zuber2021]
+
+**Endogenous, not dietary — a transfer caveat that reinforces the MCE/Sydney/Astrup line.** Zuber's
+fasting-derived instruments mean «our analysis is well placed to answer causal questions about endogenous
+lipid pathways, but is less able to answer questions about lipoproteins from die-tary sources.»
+[@zuber2021] So this genetic apoB-supremacy speaks
+to *hepatic/endogenous* metabolism and drug targets — not directly to a *dietary* lipoprotein change,
+consistent with the diet-vs-drug non-interchangeability the proviso sections below establish.
+
+**Independence adjudication — the parameter table (why this is PARTIAL-E, not clean `[E-independent]`).**
+The independence claim is a cross-source claim, so it is built parameter-by-parameter against the closest
+comparator (Richardson), not asserted:
+
+| Parameter | Zuber 2021 | Richardson 2020 | Same quantity? / independence bearing |
+|---|---|---|---|
+| Analytical group | Burgess — Cambridge MRC-BSU + Imperial | Davey Smith — Bristol MRC-IEU | **Different** — independence gain |
+| Ference a co-author? | **No** | Yes (author 5) | **Differ** — Zuber removes the cap's lineage |
+| Shared author | **Ala-Korpela** (author 3) | **Ala-Korpela** (author 4) | **SAME** — shared programme figure |
+| Method | Agnostic MR-BMA over 30 measures | Curated univariable + MVMR of LDL-C/TG/apoB | **Different** — independence gain |
+| Instrument / exposure GWAS | Kettunen NMR metabolomics, 24,925 (mainly Finnish) | de-novo UK Biobank GWAS (up to 441,016) | **Different** — independence gain |
+| Outcome GWAS | CARDIoGRAMplusC4D 2017 + UK Biobank | CARDIoGRAMplusC4D | **SHARED lineage** — NOT independent |
+| Estimand | Marginal inclusion prob 0.868; log-OR 0.392/SD | Frequentist OR 1.92/SD (MVMR) | **Different metric** — convergence is on the *conclusion*, not a shared number |
+| Conclusion | apoB top-ranked across all datasets; LDL-C/TG not independently selected | apoB retained; LDL-C reverses to null | **SAME** — apoB-supreme |
+
+The table shows the two agree on the *conclusion* (apoB is THE causal lipid) via **different group,
+method, and exposure data** — a real independence gain over Richardson — **but share the outcome-data
+lineage (CARDIoGRAMplusC4D/UKBB) and one programme author (Ala-Korpela), and Zuber cites Ference 2019 +
+Richardson 2020 as the «two recent studies» it builds on.** So the witnesses are not fully independent.
+Zuber even states the principle for its *own* internal analyses: «we refer to them as sensitivity
+analyses rather than replication analyses ... rather than providing an independent replication of the
+findings.» [@zuber2021]
+
+**Verdict: partial-E / strong-F — the AWAITS is PARTIALLY cashed, the cap loosens but does not lift.**
+Zuber removes the Ference-lineage objection for *this* witness and adds method + group + exposure-data
+independence, which is the strongest corroboration the nucleus has yet held — enough to move confidence
+*toward* high. But shared outcome data + the shared Ala-Korpela authorship mean it is **not** the clean
+independent-school replication that would license medium -> high on its own. It is therefore **not marked
+`[E-independent]`**; the residual gap narrows to *a non-Ference AND non-Ala-Korpela group on a distinct
+outcome dataset* (see Limits).
+[inferred from @zuber2021; @richardson2020; @ference2017]
+
+**Self-critique (Zuber weave) `[run 2026-08-07, before commit]`.** *Laundered-E check (the R2 risk this
+weave was built to avoid):* the shared outcome-data lineage (CARDIoGRAMplusC4D/UKBB) and the shared
+Ala-Korpela authorship are **surfaced in the parameter table, not buried** — the page explicitly refuses
+the clean `[E-independent]` mark and downgrades to partial-E, so it does not launder shared-data agreement
+as independence. *Same-quantity:* Zuber's marginal-inclusion-probability / log-OR and Richardson's
+frequentist OR are named as **different estimands**; the convergence is filed on the *conclusion*
+(apoB-supreme), not on an equated number. *Overclaim:* confidence stays `medium` (upper), not bumped to
+high — the movement is stated as *loosens the cap, does not lift it*, with the narrowed residual AWAITS
+kept explicit. *Not a fake refinement:* Zuber adds evidence Richardson structurally lacked (the agnostic
+leave-apoB-out test + all-datasets robustness + different exposure data), so it is a real F, not a restate.
+
 ## Current guidance has taken up *measure apoB in the discordant* — and cites this page's own evidence `[2026-08-06]`
 
 The *measure apoB where LDL-C and particle number discord* claim is no longer only the consensus's; the
@@ -252,18 +334,40 @@ value is that the wiki's held *measure apoB* view is now the standing US clinica
 threshold set (TG ≥150 / diabetes / achieved LDL-C <70).
 [inferred from @accaha2026; @marston2022]
 
+## A second causal axis beside apoB — residual inflammatory risk (CANTOS) `[2026-08-08]`
+
+apoB is *a* causal axis, not the only one. CANTOS is the cleanest evidence that inflammation is a
+**separate** causal lever operating on top of well-controlled lipids: canakinumab cut cardiovascular
+events «independent of lipid-level lowering» (LDL/HDL unchanged), in statin-treated post-MI patients
+[@ridker2017cantos], and Ridker names the
+stratum: «statin-treated patients with residual inflammatory risk as assessed by means of a
+high-sensitivity C-reactive protein level of 2 mg or more per liter at baseline have future event rates
+that are at least as high as, if not higher than, those among statin-treated patients with a residual risk
+due to LDL cholesterol level» [@ridker2017cantos].
+
+**What this does and does not do to this page.** It does **not** touch the apoB causality verdict — it
+*bounds* it: lowering apoB is necessary-and-causal for the lipid channel, but a person at goal on apoB can
+still carry residual **inflammatory** risk that lipid-lowering does not address. So "target apoB" is the
+lipid-axis answer, not the whole cardiovascular answer. Full treatment (the marker-vs-lever crux, the
+no-mortality-benefit boundary): [[Inflammation as a Modifiable Lever]].
+[inferred from @ridker2017cantos]
+
 ## Limits
 
-- **Framework still rests on one research programme (Ference), `confidence: medium` — held after Richardson.**
-  The causal case is now triangulated across three method-classes — RCT (CTT), observational multivariable
-  (Marston), and genetic multivariable MR (Richardson) — all landing apoB-supreme, which is real strengthening
-  of *grounding*. But **all three share the Ference lineage** (Ference co-authors both Marston and Richardson;
-  CTT is the RCT family the consensus rests on), so none is the independent-school second statement that would
-  raise confidence past medium. The genetic/MR/RCT triangulation Ference synthesizes is strong; genuinely
-  independent-school corroboration (a non-Ference group, ideally a different data lineage than UKBB/CARDIoGRAM)
-  is still what is owed. `AWAITS <a non-Ference-lineage apoB-causal analysis> — an apoB-over-LDL-C causal
-  demonstration from a group with no Ference co-authorship and a distinct dataset would be the genuine
-  `[E-independent]` lift and license medium -> high.`
+- **The Ference-lineage cap is now LOOSENED but not LIFTED by Zuber — `confidence: medium` (upper), held.**
+  The causal case triangulates across three Ference-lineage method-classes — RCT (CTT), observational
+  multivariable (Marston), genetic multivariable MR (Richardson) — all landing apoB-supreme. **Zuber 2021
+  partially cashes the independence owed**: a genuinely different group (Burgess/Cambridge, no Ference),
+  a different agnostic method (MR-BMA over 30 measures), and different exposure data (Kettunen NMR), all
+  reaching apoB-supreme — the strongest corroboration held. That is enough to push confidence to the *upper*
+  end of medium. **But it is not a clean independent replication:** Zuber shares the outcome-data lineage
+  (CARDIoGRAMplusC4D/UKBB) with Richardson/Marston, shares one programme author (Ala-Korpela, on both Zuber
+  and Richardson), and cites Ference 2019 + Richardson 2020 as antecedent — so the witnesses are not fully
+  independent, and medium -> high is not licensed. `AWAITS <a non-Ference AND non-Ala-Korpela apoB-causal
+  analysis on a distinct outcome dataset> — an apoB-over-LDL-C causal demonstration from a group with no
+  Ference/Ala-Korpela co-authorship and an outcome dataset other than CARDIoGRAMplusC4D/UKBB would be the
+  genuine `[E-independent]` lift and license medium -> high. Zuber narrowed this residual; it did not
+  close it.`
 - **Causal ≠ the only lever.** LDL/apoB causation does not make it the largest *absolute* lever for a
   given person — absolute benefit still scales with baseline risk
   ([[Baseline Risk and the Relative-Absolute Split]]), and the *net* of a diet or drug depends on the

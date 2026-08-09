@@ -6,7 +6,7 @@ authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E;
 sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
 cluster: weight-loss-diets
 confidence: medium
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-08-06
+updated: 2026-08-08
 ---
 
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@goldenberg2021]
@@ -45,6 +45,11 @@ negative**.
 So "never significant" holds for the **pooled** medication-free estimate and **not** for the
 non-insulin stratum -- which is the stratum in which a low-carbohydrate diet would most plausibly be
 offered. Per the telos's layer-2 rule the narrowest credible reference class is the one to quote.
+**But this rescue is a six-month result only (corrected 2026-08-08):** the insulin subgroup split is
+reported at six months, and Goldenberg reports no 12-month insulin subgroup — the 2-3 trials carrying
+12-month remission data are too few to split — so the NNT-5 stratum carries **no durability estimate**,
+and the pooled 12-month row above (RD -0.04) is the only long-term medication-free read the review
+supports. [@goldenberg2021, Results]
 
 And the two definitions do not draw on the same trials. Only **7 of 23 trials (30%) permitted medication
 reduction and reported usable data**, so the medication-free estimates come from a structurally
@@ -170,11 +175,22 @@ weight. DiRECT (Lean 2018) makes this near-decisive: it achieves **46% remission
 kcal/day formula diet that is 59% carbohydrate** — the opposite of low-carb — with remission scaling
 monotonically with kilograms lost (0% at weight gain -> 86% at >=15 kg).
 [@lean2018, Results; Findings]
-So carbohydrate restriction is **not necessary** for remission, and is best read as **one lever for the weight loss that drives
-remission** — with no evidence here that it adds a remission effect *beyond* the weight loss it
-produces (an added glycaemic contribution is untested, not excluded). A person should optimize for the
-weight loss they can *sustain*, by whichever route they will adhere to
--> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+So carbohydrate restriction is **not necessary** for remission, and is best read as **one lever for the
+weight loss that drives remission** — with no evidence here that it adds a remission effect *beyond* the
+weight loss it produces. The carb-vs-calorie question is **weakly probed, not untested (corrected
+2026-08-08)**: Goldenberg ran an a-priori caloric-matching subgroup across all five primary outcomes
+(remission included) and, on 18 studies, «identified no evidence of credible effect modification based on
+caloric matching or lack thereof», while hedging that «self-reported dietary intake data are prone to
+measurement error»
+[@goldenberg2021].
+But that subgroup matches *prescribed intake* — its iso-caloric controls are «per intake not per goal»
+[@goldenberg2021] — not weight loss
+*achieved*, so it under-identifies a weight-mediated effect and cannot cleanly separate a carb-specific
+contribution from the weight-loss one.
+[inferred from @goldenberg2021]
+The added glycaemic contribution is therefore **null on a weak test, not cleanly tested and not
+excluded**. A person should optimize for the weight loss they can *sustain*, by whichever route they will
+adhere to -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
 ## The umbrella review sharpens the reading — no RCT tests low-carb FOR REMISSION at all `[2026-08-04]`
 
@@ -185,10 +201,16 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
 [@churuangsuk2022]
 
 - The much-cited keto-remission figure is a **single non-randomised controlled study** (Virta, 20%
-  remission, mean −13.8 kg) graded **GRADE very low, serious risk of bias** — the weakest cell in the
-  umbrella's whole remission map, below Mediterranean (15%, low) and far below total diet replacement
-  (54%, high). [@churuangsuk2022]
-- Read against DiRECT (46-54% remission at **59% carbohydrate**, GRADE high), the placement is decisive
+  remission, mean −13.8 kg) graded **GRADE very low, serious risk of bias** — the **bottom GRADE tier of
+  the umbrella's remission map** (tied very-low with a food-based VLED, which is graded on *critical* risk
+  of bias from a single n=9 uncontrolled study — so keto is joint-weakest by certainty, not uniquely so;
+  corrected 2026-08-08), below Mediterranean (15%, low) and far below total diet replacement (54%, high).
+  [@churuangsuk2022]
+- Read against DiRECT (**46% remission at 1 year** on an **825-853 kcal, 59%-carbohydrate** formula
+  [@lean2018] — one of the two RCTs in the total-diet-
+  replacement class the umbrella grades **GRADE high** at a median 54% remission, range 46-61%
+  [@churuangsuk2022]; the 46-54% class figure was
+  previously attributed to DiRECT alone, corrected 2026-08-08), the placement is decisive
   for the causal question: the strongest remission evidence sits on a *high-carbohydrate, energy-
   controlled* format, and the low-carb remission claim rests on the weakest design available. This is the
   umbrella-level version of this page's own mechanism section — the effect is weight, not carbohydrate ->

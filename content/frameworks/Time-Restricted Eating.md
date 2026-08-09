@@ -16,8 +16,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-04
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster's meal-timing facet.** The decision question:
@@ -31,16 +31,21 @@ together they **decompose** the popular claim rather than settling it as a singl
 
 - **The weight-loss rationale for TRE is weak — and this is now RCT-evidenced, not inferred.** The
   schedule-isolating test is **Liu 2022** (NEJM, n=139, 12 months): both arms were prescribed the *same*
-  calorie deficit and only the 8-hour window differed, so it isolates the window from the intake it
-  induces. Adding the window bought **no significant extra weight loss** («net difference, −1.8 kg; 95%
+  calorie deficit and only the 8-hour window differed, so it isolates the window from intake **as far as
+  self-reported intake can verify** (both arms had the same prescribed deficit; total energy expenditure
+  was not measured, so a small window-induced intake difference the logs could not see remains possible —
+  corrected 2026-08-08). Adding the window bought **no significant extra weight loss** («net difference, −1.8 kg; 95%
   CI, −4.0 to 0.4; P = 0.11»), and every metabolic secondary was null between groups. The earlier
   free-living RCT (TREAT, n=116) pointed the same way against ad-libitum eating; Liu is the cleaner
   isocaloric head-to-head. The thesis *timing acts on weight mainly via energy intake, the window adds
   little beyond the deficit* is thus **evidenced by a 12-month high-tier RCT**, no longer transferred by
   analogy. [@liu2022]
-- **The muscle-loss harm is NOT intrinsic to the window — it tracks protein.** TREAT's disproportionate
-  lean-mass loss did **not** reproduce in Liu, which supplied a daily protein shake for 6 months and
-  found no between-group lean-mass difference (refinement below).
+- **The muscle-loss harm may not be intrinsic to the window — protein is the leading candidate, not a
+  proven cause (corrected 2026-08-08).** TREAT's disproportionate lean-mass loss did **not** reproduce in
+  Liu, which supplied a daily protein shake for 6 months and found no between-group lean-mass difference.
+  Neither trial randomized protein, so the mechanism is a hypothesis (Lowe's own «it is possible that
+  protein intake was altered by TRE ... this clearly warrants future study»), not an established finding
+  (refinement below).
 - **But there is a real, weight-INDEPENDENT metabolic signal from eating EARLY.** In a tightly
   controlled, weight-matched crossover (eTRF, n=8), shifting the same food earlier in the day improved
   insulin sensitivity, blood pressure and oxidative stress **with no weight change at all.**
@@ -61,7 +66,7 @@ together they **decompose** the popular claim rather than settling it as a singl
 | Setting | free-living, remote (app + scale) | supervised controlled feeding | **NO** — effectiveness vs efficacy |
 | Weight changed? | small loss, **no advantage vs control** («−0.26 kg ... P = .63») | **held stable by design** («D = 0.5 ± 0.3 kg; p = 0.12») | **NO** — one permits weight change, one forbids it |
 | Population | n=116, BMI 27-43, both sexes, non-diabetic | n=8, prediabetic men, BMI \~32 | **NO** — different size + risk + sex |
-| Primary endpoint | **weight** (null between groups) | **glucose** (null); insulin/BP secondary | **NO** — different primary |
+| Primary endpoint | **weight** (null between groups) | **glucose tolerance + postprandial insulin + insulin sensitivity** (3-h OGTT primaries); BP/oxidative-stress secondary (corrected 2026-08-08) | **NO** — different primary |
 | Design | RCT, parallel, 12 wk | RCT, crossover, 5 wk/arm | partly |
 | Insulin / glycaemia | fasting insulin/glucose/HOMA-IR/HbA1c all **null** | mean insulin **−26 mU/L**; insulin resistance **−36 U/mg (p=.005)**; glucose null | **NO** — free-living null vs controlled improvement |
 | Blood pressure | between-group **null** | SBP/DBP **−11 / −10 mm Hg (p=.03)** | **NO** — opposite verdicts, but different exposures |
@@ -81,6 +86,8 @@ hides at least two distinct exposures that behave differently.
    headline; the clever protocol is the small print* ([[Free Sugars Intake]]). TRE *works* in
    uncontrolled reports mostly because a shorter window **cuts intake** and helps adherence, not
    because the timing itself does something. [@lowe2020]
+   The *not-because-timing* attribution is the wiki's inference, not Lowe's data — indeed Lowe found «no
+   differences in estimated energy intake between groups» in its own trial. (corrected 2026-08-08)
 2. ***Shift eating EARLY, calories constant* → a real but small weight-independent metabolic signal.**
    eTRF is the only trial here that isolates timing from energy, and it found improvements in insulin
    sensitivity, β-cell responsiveness, BP and oxidative stress with **zero** weight change. If real,
@@ -88,6 +95,14 @@ hides at least two distinct exposures that behave differently.
    eating aligned to it helps. [@sutton2018]
    The mirror is that **late** eating tends to be worse (Sutton cites prior late-TRF trials that were
    null or harmful) — so direction-of-shift, not window-length, carries the signal.
+   **But the eTRF ledger is not all wins (added 2026-08-08).** eTRF also *raised* morning fasting lipids:
+   «eTRF did increase morning fasting levels of triglycerides by 57 ± 13 mg/dL (p = 0.0007), which
+   translated into a 13 ± 5 mg/dL relative increase in morning fasting levels of total cholesterol (p =
+   0.02)». Sutton attributes the triglyceride rise to the unmatched 18-h fasting duration and flags that
+   future trials are needed to confirm the phenomenon is not pathophysiologic — so it is plausibly an
+   artifact, but the harm-direction finding belongs on the ledger, not just the benefits. Symmetric
+   caveat on the headline BP win: Sutton warns that «measuring only morning fasting values may overestimate
+   eTRF's effects on blood pressure». [@sutton2018]
 3. **The window can add a specific HARM: lean-mass loss.** TREAT's decision-relevant find is that TRE's
    weight loss was «approximately 65% ... lean mass» vs a normal 20-30%, with a significant
    between-group appendicular-lean-mass deficit — plausibly because a short ad-libitum window cuts
@@ -103,8 +118,10 @@ does the null generalize?*) is now held. Liu et al. (NEJM 2022) randomized **n=1
 adults (BMI 28-45, Guangzhou) to an 8-hour window (8:00am-4:00pm) **plus** calorie restriction vs the
 **same** daily calorie restriction **without** a window, for **12 months**. Both arms got an identical
 prescribed deficit (men 1500-1800, women 1200-1500 kcal/day), high and equal adherence («84.0±16.1% ...
-83.8±12.6%»), 85% completion. So the only difference between arms *is the clock*, which is exactly the
-quantity TREAT could not isolate. [@liu2022]
+83.8±12.6%»), 85% completion. So the intended difference between arms *is the clock* — the quantity TREAT
+could not isolate — with the caveat that intake equality rests on prescribed targets plus self-reported
+logs/photos, not measured energy expenditure (Liu notes «total energy expenditure was not assessed in this
+trial»). [@liu2022]
 
 - **Weight (primary): null between groups.** −8.0 kg (TRE) vs −6.3 kg (CR); «Changes in weight were not
   significantly different in the two groups at the 12-month assessment (net difference, −1.8 kg; 95% CI,
@@ -138,10 +155,15 @@ the identical deficit delivered without one?* Liu answering **no** is the decisi
 itself a lever* — it removes the intake difference TREAT leaves in. type-F (Liu bounds TREAT's reading with
 the cleaner design).
 
-### The lean-mass harm does NOT reproduce — it was protein, not the window (type-F)
+### The lean-mass harm does NOT reproduce — protein is the leading candidate explanation (type-F)
 
 Liu **explicitly joins** TREAT's muscle-loss finding: it cites Lowe and reports the opposite result,
-attributing the difference to protein. This is the source's own contrast, not a manufactured one.
+and its Discussion points to protein/diet balance. This is the source's own contrast, not a manufactured
+one — but neither trial randomized protein, so protein is the leading *candidate* explanation for the
+non-replication, not a proven cause (corrected 2026-08-08). Liu gave the shake to *both* arms «to help
+improve adherence to the permitted calorie intake», so it cannot isolate protein either, and the
+Liu-vs-TREAT contrast also differs in window clock position, macro-balanced counselling, population, and
+duration.
 
 | Parameter | TREAT (Lowe 2020) | Liu 2022 | Same quantity? |
 |---|---|---|---|
@@ -149,10 +171,12 @@ attributing the difference to protein. This is the source's own contrast, not a 
 | Protein provision | none; ad-libitum short window | **daily protein shake, first 6 months** + balanced-macro prescription | **NO** — the decisive difference |
 | Liu's own reading | (contrast cited) | «the importance of a balanced diet and adequate protein consumption in patients who are adhering to a diet regimen of time-restricted eating» | — |
 
-**Refinement:** the lean-mass loss is a **downstream consequence of a window that under-feeds protein**,
-not an intrinsic effect of restricting the eating window. Guard protein and it does not appear — which is
-exactly the decision-relevant instruction the page already gives (*eat earlier, keep protein up*), now with
-a direct RCT contrast behind it. [@liu2022]
+**Refinement (corrected 2026-08-08):** the lean-mass loss is **plausibly** a downstream consequence of a
+window that under-feeds protein rather than an intrinsic effect of restricting the eating window — but this
+is a candidate explanation for a non-replication across two very different trials, not a tested causal
+result. The decision-relevant instruction the page gives (*eat earlier, keep protein up*) is supported by
+the direction of both trials; it should not be sold as *guard protein and the loss cannot appear* on a
+certainty neither source claims.
 
 
 [@semnaniazad2025]
@@ -178,8 +202,15 @@ The IF network-MA the page awaited is now held: **99 RCTs, 6582 adults**, CINeMA
   similar among trials with less than 24 weeks follow-up (n=76); however, moderate-to-long-term trials
   (≥24 weeks, n=17) only showed benefits in weight reduction in diet strategies compared with ad-libitum»
   — «with no differences between intermittent fasting strategies and CER in these moderate-to-long term
-  studies». The short-term ADF-over-CER advantage is attributed to adherence decline (one WDF trial: 74%
-  at 6 wk -> 22% at 52 wk) and metabolic adaptation. At the horizons that matter, IF == CER.
+  studies». **The source's FIRST-listed explanation for this loss of association is underpowering, not
+  settled equivalence (restored 2026-08-08):** «The loss of association in the network assessment of
+  moderate to longer term trials (≥24 weeks) may be due to an insufficient number of studies available»
+  (the ≥24-wk stratum is only 17 trials); it then adds adherence decline (one WDF trial: 74% at 6 wk ->
+  22% at 52 wk) and metabolic adaptation. So the long-horizon question is underpowered-and-open on the
+  data — though the authors also state in their own voice that «both intermittent fasting and CER appear
+  to provide similar moderate- to-long term improvements over ad-libitum diets» and call this a «critical
+  take-away for clinicians managing chronic metabolic conditions», which is the warrant for reading IF ==
+  CER at the horizons that matter.
   [@semnaniazad2025]
 
 ### Why this is shared-evidence (F), not independent backing (E) — the trial-overlap check
@@ -225,7 +256,7 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 *tension*.
 
 
-[@lowe2020, Discussion]
+
 ## Decision relevance
 
 - **Do not sell TRE as a weight-loss method on its own.** For someone whose goal is weight, the honest
@@ -233,12 +264,16 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   is a **delivery system for a calorie deficit**, and adherence, not timing, is what it buys
   ([[Does Weight Loss Reduce Cardiovascular Events]]: weight loss itself is not even a proven hard-CV
   lever via lifestyle).
-- **If you do a window, put it EARLY and guard protein.** The only weight-independent benefit signal is
-  from *early* eating; the only clear harm signal is muscle loss from an ad-libitum short window. Both
-  point the same way: eat earlier, and keep protein/meal-frequency up inside the window.
-- **Everything moved is a surrogate.** eTRF's insulin/BP/oxidative-stress wins are markers with **no
-  hard outcome and no weight change** — legitimate as a *target* only if transmission to a
-  patient-important outcome is evidenced, which it is not here ([[Surrogate Outcomes]]).
+- **If you do a window, putting it EARLY is the *better-supported* bet — but the support is weak and
+  contested (corrected 2026-08-08).** The only weight-independent benefit signal is from *early* eating,
+  and it rests on a single n=8 crossover; the page's own 12-month early-window RCT (Liu, matched calories)
+  showed **no between-arm metabolic advantage**, so "put it EARLY" is a low-confidence preference, not an
+  evidenced win. The clearer harm signal is muscle loss from an ad-libitum short window. Net practical
+  read: eat earlier if you do a window, and keep protein/meal-frequency up inside it.
+- **Everything moved is a surrogate — and the ledger is mixed, not all wins.** eTRF's insulin/BP/
+  oxidative-stress improvements *and* its morning-fasting triglyceride/total-cholesterol *rise* are all
+  markers with **no hard outcome and no weight change** — legitimate as a *target* only if transmission to
+  a patient-important outcome is evidenced, which it is not here ([[Surrogate Outcomes]]).
 - **Ranks LOW as a lever.** Meal timing is heavily discussed relative to a small, surrogate-only,
   weight-independent effect — the telos's *attention-is-an-anti-signal* rule applies with force
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
@@ -249,9 +284,11 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   the regimen label is second-order to the deficit and to sticking with it. [@semnaniazad2025]
 - **The realistic pharmacological alternative dwarfs it (Layer 1).** Semnani-Azad's own contrast: «GLP-1
   receptor agonists, such as semaglutide, result in substantial weight reductions of 10-15% body weight
-  (approximately 8-12 kg for an 80 kg individual)» — roughly 3-8x any IF effect, on hard-outcome-backed
-  drugs. For a weight-driven decision at meaningful baseline risk, IF is a small lever beside the drug
-  class ([[Semaglutide for Cardiovascular Risk in Obesity]], [[GLP-1 Non-Cardiometabolic Effects and Safety]]). [@semnaniazad2025]
+  (approximately 8-12 kg for an 80 kg individual)». [@semnaniazad2025] That is **roughly 3-8x any IF effect** (wiki arithmetic
+  against the pooled IF magnitudes above), on drugs the source credits with HbA1c and cardiovascular-risk
+  improvement. (corrected 2026-08-08) For a weight-driven decision at meaningful baseline risk,
+  IF is a small lever beside the drug class ([[Semaglutide for Cardiovascular Risk in Obesity]],
+  [[GLP-1 Non-Cardiometabolic Effects and Safety]]).
 
 
 
@@ -260,9 +297,15 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 - **`confidence: medium` (raised from low on Liu).** The *weak weight-loss rationale* leg is now firm — two
   RCTs, including a 12-month high-tier isocaloric head-to-head (Liu, n=139) that isolates the window and
   finds it adds nothing. The *real early-timing benefit* leg still rests on a **single n=8 crossover** (eTRF)
-  with the fasting-duration confound and morning-only measurement — genuinely preliminary, and Liu does not
-  test it (Liu's window is early-ish but its control is also calorie-matched, so it speaks to *window vs no
-  window*, not *early vs late*). No hard outcomes anywhere; weight/waist are measured endpoints but CV/mortality
+  with the fasting-duration confound and morning-only measurement — genuinely preliminary. **And Liu is a
+  disconfirming constraint on it, not out of bearing (corrected 2026-08-08).** Liu ran an early-ish window
+  (8am-4pm) at *matched* calories — the same weight-independent comparison design as eTRF — for 12 months
+  and found **no between-arm metabolic advantage** on any secondary, including a 12-month systolic-BP
+  between-arm difference of «−0.3 (−3.7 to 3.1)», a CI that excludes eTRF's −11 mm Hg. It is not a clean
+  refutation (Liu's window is 8 h not 6 h, its control window was itself early-ish \~10 h, and its
+  population is non-diabetic Chinese adults vs eTRF's prediabetic US men), so the two do not settle the
+  early-timing question — but they collide, and the n=8 crossover benefit must be read against the
+  12-month RCT null, not shielded from it. No hard outcomes anywhere; weight/waist are measured endpoints but CV/mortality
   trajectory is unmeasured; eTRF is men-only, prediabetic; Liu is non-diabetic Chinese adults, no diabetes/CVD.
 - **Gaps (G):** the calorie-matched TRE-vs-continuous-restriction **RCT is now held (Liu)**, and the
   **TRE-vs-CR SR/MA is now held too** — the Semnani-Azad 2025 network-MA (section below) confirms Liu's
@@ -325,6 +368,11 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
   to "equivalent"). The duration finding is stated as the authors' own attribution (too-few-trials +
   adherence + adaptation), not asserted as established mechanism. Surrogate-only + median-12-week caveats
   kept.
+  **[Correction 2026-08-08: this bullet certified a guard the body did not carry — at the time of writing,
+  the body stated only adherence + adaptation and had DROPPED the source's first-listed too-few-trials
+  explanation. The too-few-trials qualifier has now been restored to the body (Semnani-Azad section,
+  finding (3)), so the certification is accurate going forward. Flagged rather than silently rewritten,
+  per the append-don't-rewrite discipline.]**
 - **Confidence held at `medium`, not raised to high.** The weight-loss-rationale leg is now MA-firm (99
   RCTs), but the early-timing (eTRF) leg is untouched and still n=8, and everything remains surrogate-only
   with no hard outcomes or trajectory data — so the page as a whole does not earn `high`. Stripping the
@@ -336,15 +384,26 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 A reasonable "hard to believe" (deliverable-critique). Three caveats make the alarming *percentage*
 fragile, and two are already on this page:
 
-- **It is a large fraction of a SMALL total loss.** TREAT's net weight change was tiny and not different
-  from control («-0.26 kg ... P = .63»), so "65% of the loss was lean" is \~0.65 kg lean against \~0.51 kg
-  fat - a ratio that is numerically unstable when the denominator is near zero, not a stable law. Read the
-  absolute (\~0.65 kg lean), not the headline share.
+- **Read the absolute correctly — it is 1.10 kg, not 0.65 kg (corrected 2026-08-08).** The 65% was
+  computed on the **in-person DXA cohort's within-arm loss of 1.70 kg**: «the average weight loss in the
+  TRE group was 1.70 kg. Of this, 1.10 kg (approximately 65% of weight lost) was lean mass; only 0.51 kg
+  of weight loss was fat mass». So the absolute lean loss to read is **1.10 kg**, not a fraction of the
+  near-zero total-cohort figure. The earlier "\~0.65 kg lean" was 65% applied to the wrong base and
+  understated the observed lean loss. [@lowe2020]
+- **The near-zero denominator belongs to a DIFFERENT cohort — do not blend them.** The total-cohort
+  between-group net change was tiny and not different from control («-0.26 kg ... P = .63»), but that is a
+  *different cohort, instrument (at-home scale vs DXA visit), and quantity (between-group difference vs
+  within-arm loss)* from the 65% denominator, so it does not license reading the 65% as a near-zero-base
+  ratio. The statistic that is genuinely NOT denominator-fragile is the **between-group appendicular-lean-
+  mass deficit** — «a significant difference between groups (−0.47 kg; 95% CI, −0.82 kg to −0.12 kg; P =
+  .009)» — a real loss on a non-near-zero base. [@lowe2020]
 - **It did not replicate** (Liu, with a daily protein shake, showed no between-group lean-mass difference -
-  the section above), and it tracks **protein, not the 16:8 window** itself.
+  the section above), and protein is one candidate explanation for the non-replication (see the protein
+  caveat above), not the window itself.
 
-So the honest read: the *percentage* is fragile and contested; the durable instruction is *keep protein up
-in any window*, and milder schedules (12:12, 14:10, or simply not eating in the \~3 h before sleep) carry
-even less of this risk.
+So the honest read: the *percentage share* is fragile and base-dependent (though the absolute 1.10 kg and
+the −0.47 kg between-group ALM deficit are not); the durable instruction is *keep protein up in any
+window*, and milder schedules (12:12, 14:10, or simply not eating in the \~3 h before sleep) carry even
+less of this risk.
 
 ## References

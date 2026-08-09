@@ -6,8 +6,8 @@ authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund Internatio
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Body Fatness and Cancer Risk
@@ -16,6 +16,9 @@ relationships:
     - The U-Shaped Association Artifact
     - Big Rocks (Elderly)
     - Menopause and the Shifting Levers
+    - Frailty
+    - Knee Osteoarthritis and Modifiable Levers
+    - Chronic Pain and Physical Activity
   derived_from:
     - Dementia Prevention and Modifiable Risk Factors
     - Parkinsons Disease Modifiable Risk Factors
@@ -127,5 +130,26 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   multi-disease outcome. The synthesis says a well-informed advisor *would* prioritize the shared core
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
+
+## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
+
+ The table above is built from disease-*incidence* bodies. The wiki now also holds
+musculoskeletal / quality-of-life outcomes — [[Frailty]], [[Knee Osteoarthritis and Modifiable Levers]],
+[[Chronic Pain and Physical Activity]] — and the workhorse levers recur on this axis too, in the same
+direction. **Physical activity is the genuinely cross-cutting one:** it improves frailty status,
+mobility and ADLs and is the safe function lever across arthritis and chronic pain — it recurs on all
+three function pages *and* all four incidence rows. **Adiposity / weight loss is narrower on the
+function axis:** it is an evidenced lever for **knee OA specifically** (reduces joint load, inflammation,
+pain), not a general function lever — and it is NOT a frailty lever (weight loss is itself a Fried
+frailty criterion and can harm the frail), so its breadth here is knee-OA-via-overweight, whereas on the
+*incidence* axis it is broad (dementia/cancer/CVD). This is co-membership evidence again, NOT a
+commensurable magnitude — the outcomes here are frailty status, WOMAC pain and physical function, not
+disease incidence, so do not read a shared lever as an equal-size effect. The decision consequence
+*compounds* the Layer-1 point: **physical activity** especially earns its top ranking not only because it
+lowers dementia/CVD/cancer/PD incidence but because the same act preserves function, cuts pain, and can
+improve frailty status (on a thin evidence base — see [[Frailty]]) — one regimen, many patient-important
+outcomes across both the disease-incidence and the function/QoL axes. The break-points differ by outcome
+(weight loss presupposes overweight and is contraindicated in the frail; the falls benefit weakens once
+frailty is established), so the caveats stay outcome-specific -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
 ## References

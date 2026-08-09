@@ -14,8 +14,8 @@ relationships:
     - Continuous Glucose Monitoring as a Health Intervention
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-04
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 WHO's 2023 NSS guideline. The whole verdict turns on two moves: **the comparator decides the effect**,
@@ -87,7 +87,7 @@ intake -38.4 g/day (-57.8 to -19.1) — **but only vs sugar, not vs water/placeb
 The signature tension in the whole file: short-term trials show a small benefit; long-term
 observational cohorts show the opposite-signed associations with hard disease.
 
-| Outcome | RCT (short-term) | Cohort (long-term, \~up to 13 yr follow-up) | Cohort certainty |
+| Outcome | RCT (short-term) | Cohort (long-term; \~13 yr AVERAGE follow-up, range 2 to >30 yr) | Cohort certainty |
 |---|---|---|---|
 | Body weight | MD **-0.71 kg** (-1.13 to -0.28) | MD -0.12 / -0.01 kg, ns | Very low |
 | BMI | -0.14 kg/m2, ns | **+0.14** (0.03 to 0.25) | Very low |
@@ -158,7 +158,8 @@ different outcome from alcohol (dissolved) — file it there.
 
 Suez is the worked microbiome-causation template the fabric's microbiome nucleus
 ([[Gut Microbiome and Health]]) holds up as the standard — a composition shift followed through to an
-outcome and confirmed by transplant. WHO named this gap («AWAITS a sweetener-microbiome RCT»). Suez 2022
+outcome and confirmed by transplant. WHO named this gap (a sweetener-microbiome RCT was the awaited
+design — the wiki's paraphrase, not WHO's words). Suez 2022
 (Cell) fills it with a **randomized
 controlled trial** — 120 NNS-avoiding healthy adults given saccharin, sucralose, aspartame or stevia for
 2 weeks at «doses lower than the acceptable daily intake», vs vehicle-glucose or no-supplement controls —

@@ -4,15 +4,16 @@ question: Does using a continuous glucose monitor to guide diet and behaviour im
 aliases: [CGM, Continuous Glucose Monitoring, Glucose Tracking, Glucose Monitor, Levels, Time in Range]
 authors: [Richardson, Kelli M; Jospe, Michelle R; Bohlen, Lauren C; Crawshaw, Jacob; Saleh, Ahlam A; Schembre, Susan M]
 sources: [Richardson - CGM Behaviour Change 2024]
-cluster: cardiometabolic-exposures
+cluster: weight-management
 confidence: low
 relationships:
   related_to:
+    - Diets for Weight Management in Type 2 Diabetes
     - Surrogate Outcomes
     - Sodium Intake and Blood Pressure
     - Is the Food Category Doing Any Work
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-08
 self_critiqued: 2026-07-29
 ---
 

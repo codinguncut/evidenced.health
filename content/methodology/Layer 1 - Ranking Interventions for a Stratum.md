@@ -13,7 +13,7 @@ relationships:
     - Menopause and the Shifting Levers
 created: 2026-07-26
 updated: 2026-08-04
-self_critiqued: 2026-07-28
+self_critiqued: 2026-08-08
 ---
 
 **Mostly a compilation.** Every row of the table below is copied from a claim page with its own source;

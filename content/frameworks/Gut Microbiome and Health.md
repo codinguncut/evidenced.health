@@ -17,8 +17,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-05
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 **The fabric's microbiome nucleus.** The anchors are **not** the same tier — read each accordingly:
@@ -51,13 +51,22 @@ through to glucose tolerance and proved cause by transplanting the bacteria into
 ## What actually moves the microbiome: diet, and mostly fibre
 
 The dominant modifiable lever is diet, and within diet, **fermentable fibre**: gut bacteria ferment it into
-short-chain fatty acids (acetate, propionate, butyrate), and microbial diversity — the dysbiosis marker —
-tracks fibre intake (low diversity «is exacerbated by low dietary fibre intake», Valdes). This is why the
-microbiome story largely *reduces to the fibre story* the fabric already holds: eat a fibre-rich,
-plant-diverse diet ([[Dietary Fibre and Health]]). It also reframes **prebiotics** — a prebiotic is a
-substrate «selectively utilized by host microorganisms that confers a health benefit» (WGO), i.e. mostly
-fermentable fibre by another name, so the prebiotic evidence largely *is* the fibre evidence.
-[@wgo2023]
+short-chain fatty acids (acetate, propionate, butyrate). The diet-diversity link is real but NOT a clean
+"more fibre -> more diversity": Valdes reports that long-term weight gain «correlates with low microbiota
+diversity, and this association is exacerbated by low dietary fibre intake» — i.e. low fibre worsens the
+*weight-gain/low-diversity association*, not that fibre raises diversity directly `[the earlier reading of
+this quote swapped its subject — corrected 2026-08-08]`. Valdes is in fact two-sided on the intervention
+direction: «Many short term feeding trials with purified dietary fibres or even whole plant based diets
+either have no effect on microbiota diversity or reduce it, but can still have clinical benefits.»
+[@valdes2018] So the microbiome story still
+points to a fibre-rich, plant-diverse diet ([[Dietary Fibre and Health]]) — but via SCFA/clinical benefit,
+not via a simple diversity gradient. It also reframes **prebiotics** — WGO defines a prebiotic as
+«Prebiotic A selectively fermented ingredient that results in specific changes in the composition and/or
+activity of the gastrointestinal microbiota, thus conferring benefit(s) upon host health»
+[@wgo2023] — mostly fermentable fibre by
+another name, so the prebiotic evidence largely *is* the fibre evidence. (The «selectively utilized by host
+microorganisms that confers a health benefit» wording used earlier is WGO's *synbiotic* definition, not the
+prebiotic one — corrected 2026-08-08.)
 
 ### Refinement — fermented foods moved diversity where fibre did NOT, head-to-head `[2026-08-05, Wastyk]`
 
@@ -104,8 +113,15 @@ dose* triples (WGO Tables 8-9). Where the evidence is real:
   without a shared-mechanism rationale «should be avoided» — a strain-blind probiotic meta-analysis can
   manufacture or wash out an effect. This is the [[Is the Food Category Doing Any Work]] problem at the
   organism level: the *strain* is the exposure, not the word "probiotic".
-- **General health / immunity / mood** claims sit outside these indications — *insufficient evidence*, not
-  a finding; and swallowed probiotics are typically transient colonisers.
+- **General health / immunity / mood** — NOT unstudied: both held sources report evidence-bearing states.
+  WGO finds «suggestive evidence that several probiotic strains and the prebiotic oligofructose are useful
+  in improving the immune response» [@wgo2023];
+  Valdes reports meta-analytic benefit for URTI, eczema prevention and depressive symptoms. The honest
+  state is **weak-to-suggestive benefit**, heavily discounted for strain-blind pooling and heterogeneity
+  (Valdes: the studies «were not homogeneous ... which limits precise recommendations») — a *demotion the
+  wiki makes*,, NOT the *insufficient-evidence* state (the earlier "insufficient evidence, not
+  a finding" mis-stated the evidence-state and cut in the deflationary direction — corrected 2026-08-08).
+  And swallowed probiotics are typically transient colonisers.
 
 ## FMT: the field's strongest win, and only for one thing so far
 

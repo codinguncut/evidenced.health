@@ -17,6 +17,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
 updated: 2026-08-06
+nosplit: 696@single-exposure nucleus (one how-much-free-sugar-which-outcome question); length is four guidance families accreted on one decision, not multiple decisions
 self_critiqued: 2026-08-06
 ---
 

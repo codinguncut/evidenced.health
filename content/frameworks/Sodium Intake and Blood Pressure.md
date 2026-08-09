@@ -2,8 +2,8 @@
 type: framework
 question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015]
 cluster: sodium-bp
 nucleus: true
 confidence: medium
@@ -14,9 +14,10 @@ relationships:
     - What Kind of Evidence Sits Behind a Nutrient Recommendation
     - Baseline Risk and the Relative-Absolute Split
     - Blood Pressure Lowering and Cardiovascular Events
+    - DASH Diet and Blood Pressure
 created: 2026-07-26
-updated: 2026-08-06
-self_critiqued: 2026-08-04
+updated: 2026-08-07
+self_critiqued: 2026-08-08
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -438,6 +439,22 @@ between sodium, potassium and dilution is **not identified** by this trial.
 
 
 [inferred from @who2012]
+
+## Sodium is one BP lever among several — the DASH pattern lowers BP independently of it `[2026-08-07, Siervo]`
+
+Sodium reduction is not the only dietary BP lever. The DASH **pattern** lowers SBP by **-5.2 mmHg**
+(-7.0, -3.4) vs control in a 20-RCT MA — and Siervo's meta-regression finds the between-arm **sodium**
+difference does **not** predict that BP change (SBP P=0.67), so DASH's effect is carried by the whole
+pattern (K, Ca, Mg, fibre, nitrate, low SFA), not by its incidental sodium contrast
+-> [[DASH Diet and Blood Pressure]]. [@siervo2015, Meta-regression analysis]
+
+**Decision consequence — do NOT double-count.** DASH's -5.2 mmHg and this page's sodium-reduction
+effect (He -4.18, WHO -3.39) are **different exposures against different comparators**, not two
+independent additive channels, so they cannot be summed. They *do* stack when deliberately combined
+(the DASH-Sodium factorial shows salt restriction adds to DASH), but that is a stacking of two applied
+interventions, not an attribution of DASH's own effect to sodium.
+[inferred from @siervo2015]
+
 ## Limits
 
 - 2012; self-dated for review "by the end of 2017". The post-2011 sodium controversy is by construction

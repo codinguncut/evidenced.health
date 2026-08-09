@@ -12,14 +12,9 @@ the study or guideline it came from.
 
 [A playful Guide to Health Research”](https://evidenced.health/investigation/)
 
-The topics below are grouped by what the evidence actually says — the levers that move health up top, the
-popular worries that turn out small below them, and the genuinely unsettled questions last. Nothing is
-hidden; the order *is* the verdict.
-
 ## From Evidence to Action
 
-How to turn imperfect evidence into a real decision — what to weigh against what, and what the evidence
-can and can't tell you. The part most guides skip.
+Turning imperfect evidence into a real decision — what to weigh, and what the evidence can't tell you.
 
 <div class="deliverable-grid">
 <a class="dcard" href="deliverables/Better-than-What"><span class="hicon-wrap"><iconify-icon class="hicon" icon="material-symbols-light:balance"></iconify-icon></span><span class="dcard-title">Better than What?</span><span class="dcard-desc">Every choice is 'better than what, for whom?' — weighing adherence, competing goals and real-world context when the evidence is partial, without defaulting to 'it depends'.</span></a>
@@ -39,17 +34,16 @@ change these.
 <a class="dcard" href="deliverables/Sleep"><span class="hicon-wrap"><iconify-icon class="hicon" icon="mdi:bed"></iconify-icon></span><span class="dcard-title">Sleep</span><span class="dcard-desc">How much, how regular, how consolidated — which lever actually moves health, the sleep&ndash;obesity loop (and why the leptin/ghrelin story is wrong), and whether sleep aids help or just sedate (CBT-I over pills).</span></a>
 <a class="dcard" href="deliverables/Alcohol"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:alcohol"></iconify-icon></span><span class="dcard-title">Alcohol</span><span class="dcard-desc">No safe level, and no real small-dose benefit — the protective 'J-curve' is a study artifact. Where each outcome's harm starts, and whether pattern (don't binge) or beverage type make drinking less harmful.</span></a>
 <a class="dcard" href="deliverables/GLP-1-Do-the-Benefits-Outweigh-the-Risks"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:syringe"></iconify-icon></span><span class="dcard-title">GLP-1 Drugs</span><span class="dcard-desc">Ozempic/Wegovy and the newer agents — the proven benefits against the real risks, and which stratum the trade-off favours.</span></a>
-<a class="dcard" href="deliverables/Fruits-Vegetables-Pulses-and-Grains"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:fruits"></iconify-icon></span><span class="dcard-title">Plant Foods</span><span class="dcard-desc">Fruits, vegetables, pulses and grains — which earn their place, whether antinutrients (phytates, lectins, oxalates) need avoiding or just cooking, and the fruit sugar-vs-fibre question.</span></a>
-<a class="dcard" href="deliverables/Dietary-Patterns-Is-One-Clearly-Better"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:nutrition"></iconify-icon></span><span class="dcard-title">Dietary Patterns</span><span class="dcard-desc">Mediterranean, DASH, vegetarian, keto, carnivore — no single pattern clearly wins. The evidenced benefits are specific (Mediterranean&rarr;CV events, DASH&rarr;blood pressure) and trace mostly to shared components — the big rocks — not to a general 'good vs bad diet' line.</span></a>
-<a class="dcard" href="deliverables/Rapid-Weight-Loss-How-Fast-Is-Too-Fast"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:weight"></iconify-icon></span><span class="dcard-title">Rapid Weight Loss</span><span class="dcard-desc">How fast is too fast — muscle loss, rebound, liver/gallstone risk, and diet-deficit vs exercise-deficit.</span></a>
+<a class="dcard" href="deliverables/Fruits-Vegetables-Pulses-and-Grains"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:fruits"></iconify-icon></span><span class="dcard-title">Plant Foods</span><span class="dcard-desc">Fruits, vegetables, pulses and grains — which earn their place, whether antinutrients (phytates, lectins, oxalates) need avoiding or just cooking, and the fruit sugar-vs-fibre question.</span></a><a class="dcard" href="deliverables/Rapid-Weight-Loss-How-Fast-Is-Too-Fast"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:weight"></iconify-icon></span><span class="dcard-title">Rapid Weight Loss</span><span class="dcard-desc">How fast is too fast — muscle loss, rebound, liver/gallstone risk, and diet-deficit vs exercise-deficit.</span></a>
 </div>
 
 ## Pebbles
 
-Popular worries, held to the same evidence bar — where the honest answer is usually *the effect is small*.
-Worth reading mostly so you can stop thinking about them.
+Popular worries and 'which is best' debates, held to the same evidence bar — where the honest answer is
+usually *the effect is small*. Worth reading mostly so you can stop thinking about them.
 
 <div class="deliverable-grid">
+<a class="dcard" href="deliverables/Dietary-Patterns-Is-One-Clearly-Better"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:nutrition"></iconify-icon></span><span class="dcard-title">Dietary Patterns</span><span class="dcard-desc">Mediterranean, DASH, vegetarian, keto, carnivore — no single pattern clearly wins. The evidenced benefits are specific (Mediterranean&rarr;CV events, DASH&rarr;blood pressure) and trace mostly to shared components — the big rocks — not to a general 'good vs bad diet' line.</span></a>
 <a class="dcard" href="deliverables/Seed-Oils"><span class="hicon-wrap"><iconify-icon class="hicon" icon="mdi:corn"></iconify-icon></span><span class="dcard-title">Seed Oils</span><span class="dcard-desc">The "seed oils are toxic" claim under symmetric standards — inflammation, heart disease and heating — and why the evidence backs neither the scare nor a confident benefit.</span></a>
 <a class="dcard" href="deliverables/Soy-Products"><span class="hicon-wrap"><iconify-icon class="hicon" icon="fluent-emoji-high-contrast:beans"></iconify-icon></span><span class="dcard-title">Soy Products</span><span class="dcard-desc">Does soy feminize men, raise breast-cancer risk, or harm the thyroid? The three fears under the same standard — plus what soy actually does (a modest LDL drop) and why tofu, tempeh and isolate aren't one thing.</span></a>
 <a class="dcard" href="deliverables/Are-Artificial-Sweeteners-Bad"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:sugar-free"></iconify-icon></span><span class="dcard-title">Artificial Sweeteners</span><span class="dcard-desc">Cancer, appetite, insulin, weight — and why the answer depends on what the sweetener replaces.</span></a>

@@ -16,7 +16,7 @@ relationships:
     - Low Muscle Mass and Mortality
     - Sarcopenia Definition and Diagnosis
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-07
 self_critiqued: 2026-08-06
 ---
 
@@ -92,7 +92,10 @@ across prescriptions** (hypertrophy) or a **modest load-gradient** (strength) �
 effective dose a *region* (\~2 sets, \~2×/week) rather than a point. [inferred from @currier2023] — the categorical-coding
 limit and its *shape-under-determined* consequence are Currier's stated limitation read against the
 wiki's dose-response vocabulary (a threshold quoted from categorical data marks the edge of the
-evidence, not a feature of the curve).
+evidence, not a feature of the curve). This is another instance of [[The Underivable Optimum]] — a broad
+flat region (its Route 1) plus categorical/measurement under-determination (its Route 3), the same
+under-identification the protein \~1.62 g/kg knee carries: **hold the RT dose numbers loosely too**, and
+read the \~2 sets / \~2x per week as a floor, not an optimum.
 
 
 `[@currier2023]`

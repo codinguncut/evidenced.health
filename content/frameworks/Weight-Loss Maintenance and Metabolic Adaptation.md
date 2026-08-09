@@ -2,8 +2,8 @@
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds]
-authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022]
 cluster: weight-management
 confidence: low
 relationships:
@@ -15,9 +15,10 @@ relationships:
     - Exercise Energy Compensation
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Testosterone Adiposity and Muscle
-self_critiqued: 2026-07-31
+    - Weight Cycling and Cardiometabolic Risk
+self_critiqued: 2026-08-08
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-08-08
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -35,6 +36,10 @@ Design (state it plainly, it bounds everything below): a **single-arm, uncontrol
 obese non-diabetic adults did an 8-week very-low-energy diet (VLCD, \~500-550 kcal/day meal replacement);
 hormones and appetite were measured at baseline, week 10 (post-loss), and week 62 (one year into a
 maintenance phase). Only the **34 completers** are analysed [@sumithran2011].
+The 16 non-completers were not all dropouts: of the 50 who began, 4 withdrew on the VLCD and 5 during
+follow-up, but **«an additional 7 participants did not lose the required 10% of body weight»** — i.e. the
+analysed panel is **conditioned on achieved large weight loss** (responder selection), not merely on
+completion (corrected 2026-08-08) [@sumithran2011].
 There is **no control group** — every comparison is each participant against their own baseline.
 
 Weight trajectory: mean loss «13.5±0.5 kg (14.0% of initial weight)» at week 10; participants then regained
@@ -49,11 +54,11 @@ person's own baseline, significant at week 62):
 | Signal | Direction at 12 mo | Effect on intake / storage |
 |---|---|---|
 | Leptin (adiposity / satiety) | **down** — still «35.5±4.7% below baseline» | less satiety, lower energy expenditure |
-| Ghrelin (hunger) | **up** — «remained significantly higher at 62 weeks than at baseline» | more hunger |
+| Ghrelin (hunger) | **up** — «remained significantly higher at 62 weeks than at baseline», though it partially reverted («ghrelin levels fell between week 10 and week 62 (P<0.001)») | more hunger |
 | Peptide YY (satiety) | down (further down at wk 62 than wk 10) | less satiety |
 | Cholecystokinin (satiety) | down | less satiety |
 | Amylin, insulin (satiety/meal signals) | down | less satiety |
-| GLP-1 (satiety) | slightly **down** at wk 62 («significantly lower than baseline», P=0.005) | less satiety |
+| GLP-1 (satiety) | slightly **down** at wk 62 («significantly lower than baseline», P=0.005) — but the *weakest* signal in the panel: «did not change significantly between baseline and week 10» and absent from the abstract's one-year still-significant list (corrected 2026-08-08) | less satiety |
 | Pancreatic polypeptide, GIP | up (GIP may promote storage) | mixed |
 | Subjective hunger / desire to eat | **up** at both wk 10 and wk 62 | conscious drive to eat rises and stays risen [@sumithran2011] |
 
@@ -62,12 +67,22 @@ a coordinated, sustained pressure toward eating more.
 
 **A review corroborates the defended-set-point framing (not independently).** Hall & Guo 2017 (energetics
 review) reads current data as «most commensurate» with a **set-point model** with feedback control of both
-intake and expenditure, and records adaptive thermogenesis persisting «for years after energy balance is
-reestablished at a lower weight» [@hallguo2017]. This
-is convergent framing on the *energy-expenditure* limb (Sumithran's is the *hormonal/appetite* limb), but it
-is **not** independent type-E backing — both trace the thermogenesis limb to the same Rosenbaum/Leibel
-antecedent. It also settles a nearby question: the defended weight is defended against *energy* deficit, not
-carbohydrate specifically -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
+intake and expenditure, and records that adaptive thermogenesis «may continue for years after energy balance
+is reestablished at a lower weight» — but the **same source flags the limb as contested**, «although
+controversy remains regarding its persistence» (two attached citations, one arguing the negative) (corrected
+2026-08-08), so this second limb is *not* settled even in the source that carries it
+[@hallguo2017]. This is convergent framing on the
+*energy-expenditure* limb (Sumithran's is the *hormonal/appetite* limb), but it is **not** independent
+type-E backing — both trace the thermogenesis limb to the same Rosenbaum/Leibel antecedent. It also settles
+a nearby question: the defended weight is defended against *energy* deficit, not carbohydrate specifically
+-> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
+
+Hall also **ranks the two limbs**, and the ranking favours the appetite limb this page emphasises: after
+weight loss, intake rose by «about 100 kcal/d per kilogram of lost weight – an effect more than 3-fold larger
+than the corresponding energy expenditure adaptations to weight loss»
+[@hallguo2017]. So the appetite/hormonal headwind is
+the larger driver, and the contested expenditure limb (above) is also the *smaller* one — a reason the D1
+hedge costs the page's core claim little.
 
 ## The reframe — regain is defended physiology, not (only) a lapse of resolve
 
@@ -111,19 +126,27 @@ remove the exogenous satiety signal and the endogenous deficit Sumithran measure
 is a directional mechanistic synthesis, not an outcome finding — no held trial has tested *correct these
 specific hormones -> prevent regain*.
 
-The STEP-1 off-treatment extension is the clean empirical demonstration of limb (b): one year after
-stopping semaglutide, participants regained \~two-thirds of their prior weight loss and their
-cardiometabolic gains reverted toward baseline — the defended set-point reasserting once the exogenous
-satiety signal is withdrawn (magnitudes on [[Semaglutide for Cardiovascular Risk in Obesity]] → *Durability*;
-extracted there, not re-listed in this page's `sources:`). It is corroboration of the mechanism this page
-holds, not an independent test of it.
+The STEP-1 off-treatment extension shows limb (b) as a *descriptive pattern* — but it does **not** cleanly
+demonstrate the *physiological cause* (corrected 2026-08-08): one year after stopping semaglutide,
+participants regained \~two-thirds of their prior weight loss and their cardiometabolic gains reverted toward
+baseline (fuller magnitudes on [[Semaglutide for Cardiovascular Risk in Obesity]] → *Durability*). The regain
+is consistent with the defended set-point reasserting
+once the exogenous satiety signal is withdrawn, but the trial's own authors decline the clean-cause reading:
+they attribute the regain «driven by physiological and behavioural factors» and note that «the absence of
+structured lifestyle intervention following semaglutide withdrawal ... may also have contributed to the
+trajectory of weight regain» [@wilding2022]. So STEP-1
+cannot separate biological rebound from behavioural drift and loss of support — it is **corroboration of the
+mechanism this page holds, not an independent test of it, and not a discriminating one**.
 
 ## What it licenses, and the limits that bound it
 
 **Decision-relevant, for an identified stratum (the person maintaining a large diet-induced loss):**
 
-- **Recalibrate the expectation.** Maintenance failure is the modal outcome and has a physiological
-  driver, so a maintenance plan that assumes willpower will close the gap is mis-specified. This licenses
+- **Recalibrate the expectation.** Maintenance failure is the modal outcome and has a
+  physiological driver — *inferred*, not proven: Sumithran's own sentence (block-quoted above) only goes as
+  far as *suggesting* a strong physiological basis, and the causal step to regain is associational (above)
+  (corrected 2026-08-08). So a maintenance plan
+  that assumes willpower will close the gap is mis-specified. This licenses
   someone to stop reading regain as personal failure and to seek **structural leverage** — a standing
   environmental / pharmacological prop that does not depend on daily resolve
   -> [[Layer 1 - Ranking Interventions for a Stratum]] (structural > point-optimization).
@@ -133,7 +156,20 @@ holds, not an independent test of it.
 **Limits (all real, keep them visible):**
 
 - **Single-arm, uncontrolled, n=34 completers.** No comparator; regression-to-baseline and time effects
-  cannot be separated by design. Small n.
+  cannot be separated by design. Small n. And the analysed panel is **conditioned on ≥10% achieved loss**
+  (7 of 50 excluded for not reaching it, above), so the hormone profile is measured only in strong
+  responders — transportability is narrower than *VLCD-specific* alone conveys.
+- **The still-lighter-body confound — the central diagnosticity gap** (corrected 2026-08-08).
+  At week 62 participants were still \~7.9 kg (\~8%) below baseline, so *every* week-62-vs-baseline hormone
+  difference is confounded with a genuinely smaller body. The competing explanation — that these are simply
+  the hormone levels **appropriate to a lighter person**, not a persisting adaptation *over and above* the
+  weight difference — is not excluded except for **leptin**: Sumithran ran the fat-mass adjustment for
+  leptin alone («Reductions in leptin levels from baseline at weeks 10 and 62 remained significant when
+  adjusted for fat mass»), and even there notes «leptin levels and body weight rose concurrently»
+  [@sumithran2011]. For ghrelin, PYY, CCK, GIP, PP,
+  amylin, GLP-1 and the appetite ratings, "adaptation beyond the weight difference" is **assumed, not
+  established**. This is the difference between *the body defends the lower weight* (licenses a permanent
+  structural prop) and *hormones track the smaller body you now have* (licenses much less).
 - **VLCD-specific.** The exposure is an aggressive \~500 kcal/day liquid-formula loss. **Whether the same
   hormonal persistence follows a slower, food-based, more moderate deficit is not shown here** — the depth
   and speed of the deficit could modulate the adaptation. — transportability to gradual loss

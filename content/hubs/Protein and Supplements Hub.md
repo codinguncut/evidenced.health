@@ -22,6 +22,9 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   source-substitution decision, distinct from the muscle-quantity target
 - [[Protein Quality and the DIAAS Score]] — how protein quality is scored, and whether hitting a target
   from plant sources costs more food mass and carbohydrate than from animal sources
+- [[Protein Intake and Kidney Function]] — does higher protein harm the kidneys? Devries 2018 SR-MA: no
+  change in GFR in adults *without* CKD (the GFR rise is benign kidney functional reserve); the standing
+  objection to a higher target, defused for the healthy — with a hard stratum flip for established CKD
 
 ## Supplements — worth taking or not
 

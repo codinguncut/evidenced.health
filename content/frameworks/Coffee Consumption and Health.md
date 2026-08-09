@@ -8,8 +8,8 @@ cluster: coffee
 nucleus: true
 confidence: medium
 created: 2026-08-04
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-07
+self_critiqued: 2026-08-07
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -158,6 +158,18 @@ established ASCVD risk has a cheap lever — switch to filtered** — while for 
 effect is marginal. -> [[Is the Food Category Doing Any Work]] (brewing method as the load-bearing
 sub-boundary).
 
+## Additives are a second uncontrolled axis — added sugar most of all `[INFERRED, 2026-08-07 maintainer challenge]`
+
+The cohort "coffee" exposure pools drinks taken black, with milk, and **with sugar** — additives are as
+uncontrolled as brew method is for the T2D estimate (below). Milk's effect is minor (the calcium-offset
+note above); **added sugar changes the exposure** — a sugar-sweetened coffee drink imports the held
+free-sugars / SSB harm -> [[Free Sugars Intake]], so the mortality/T2D benefit here attaches to *coffee
+the beverage*, not to a sugar-loaded coffee drink. Same within-category boundary as filtered-vs-unfiltered
+-> [[Is the Food Category Doing Any Work]]: **"3-4 cups" is not one exposure** — brew, cup size, caffeine,
+milk and added sugar all vary it. The wiki holds no cohort separating sweetened from unsweetened coffee on
+hard outcomes — a named acquire-gap, not a held finding.
+
+
 ## Caffeine is (mostly) NOT the active agent `type-C`
 
 Decaffeinated coffee reproduces the main benefits: it lowered all-cause and CV mortality (similar
@@ -208,11 +220,14 @@ an actionable stratifier).
 ## Gaps (G) + attachment points for the cluster
 
 - **No coffee-sleep meta-analysis existed** at review time (SR only) — so the caffeine/sleep-timing
-  question the deliverable needs is a **named gap here, not a null**. [AWAITS a coffee/caffeine-and-sleep MA] -> would connect to [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]].
+  question the deliverable needs is a **named gap here, not a null**. AWAITS a coffee/caffeine-and-sleep
+  MA (no specific source named yet — class-form gap, not a cashable hold) -> would connect to
+  [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]].
 - **Respiratory outcomes**, and the **natural history of established disease** (only 1 MA, post-MI):
   insufficient evidence.
 - **IARC 2016** (coffee removed from Group 2B "possibly carcinogenic") is *not* cited by Poole —
-  [AWAITS an IARC monograph source] before any claim is written.
+  AWAITS an IARC coffee-monograph source (class-form gap — register a placeholder row if acquisition is
+  ever pointed here) before any claim is written.
 - **Cluster attachment:** Grosso 2016 has landed — it refines the mortality arm via the smoker/non-smoker
   referent split (the U-shape correction, section above) [@grosso2016];
   Ding 2014 has landed — it refines the monotone T2D gradient and the decaf/caffeine split (section

@@ -170,8 +170,8 @@ food matrix reducing lipid absorption and short chain fatty acids produced by th
 intestine» [@guo2017]. This is
 the **dairy-matrix** hypothesis — the same SFA behaving differently inside cheese vs butter — held as a
 mechanism to weigh, not a finding; the SFA verdict itself is deferred to
-[[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
-`AWAITS [@thorning2017] — the controlled-feeding matrix mechanism (cheese vs butter on LDL) that would move this from candidate to directional.`
+[[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. — the controlled-feeding matrix mechanism (cheese vs
+butter on LDL) that would move this from candidate to directional.
 
 
 

@@ -17,6 +17,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-08-04
 updated: 2026-08-04
+nosplit: 728@single-exposure framework (one LA/AA->CVD question); length is dated evidence strata + contrarian poles held on one decision, not multiple decisions
 self_critiqued: 2026-08-04
 ---
 

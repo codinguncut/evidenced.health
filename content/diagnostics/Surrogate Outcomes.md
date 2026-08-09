@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -16,9 +16,11 @@ relationships:
     - Testosterone Adiposity and Muscle
     - Stress Management and Cardiometabolic Health
     - Sarcopenia Definition and Diagnosis
+    - Inflammation as a Modifiable Lever
 created: 2026-07-25
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-08
+nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
+self_critiqued: 2026-08-08
 ---
 
 ## Why it matters
@@ -119,6 +121,33 @@ placing someone in a stratum (the decision it *does* serve), never assumed to be
 Worked instances: [[Grip Strength and Mortality]] and [[Cardiorespiratory Fitness and Mortality]] (both
 cheap, strong predictors held explicitly as metrics-not-levers); [[Low Muscle Mass and Mortality]]
 (mass predicts, but strength out-predicts and neither is a proven target).
+
+## The archetypal predicts-but-does-not-cause marker — CRP, settled by Mendelian randomization `[2026-08-08]`
+
+C-reactive protein is a clean worked instance of the section above: a strong, log-linear *predictor*
+of coronary heart disease that a genetic natural experiment shows is **not a cause** — so it is a marker
+to stratify with, never a target to steer toward. Two large IPD meta-analyses, and the point is that they
+do **not** conflict:
+
+| Parameter | ERFC 2010 (observational) | CCGC 2011 (Mendelian randomization) | Same quantity? |
+|---|---|---|---|
+| Exposure contrast | *circulating* CRP, per 1-SD higher usual ln CRP | *genetically-raised* CRP, per 1-SD higher genetic ln CRP | **No** — same scale, different *source* of variation |
+| Circulating CRP -> CHD (adjusted) | RR 1.37 (95% CI 1.27-1.48) [@erfc2010crp] | RR 1.33 (1.23 to 1.43) [@ccgc2011crpmr] | **Yes** — both observational -> they AGREE |
+| Genetic CRP -> CHD | not estimated | RR 1.00 (0.90 to 1.13) [@ccgc2011crpmr] | N/A — a gap on ERFC's side |
+
+Where the two measure the same quantity they agree; CCGC adds the genetic arm (null) that reveals the
+observational association is confounded — «C reactive protein concentration itself is unlikely to be even
+a modest causal factor in coronary heart disease»
+[@ccgc2011crpmr]. This is a
+**refinement/disambiguation, not a tension**: CCGC itself preserves the prediction claim — «Our findings
+also do not address the separate issue of the value of measurement of circulating C reactive protein in
+prediction of long term vascular risk»
+[@ccgc2011crpmr]. The Example-9 test
+this page centres (can the outcome be *predicted*? is a strictly weaker demand than *causes*) is exactly
+what separates the two: CRP passes prediction, fails causation. Full parameter table, independence
+caveat, and the treat-the-pathway-not-the-molecule consequence: [[Inflammation as a Modifiable Lever]].
+[inferred from @erfc2010crp; @ccgc2011crpmr]
+
 ## Red flags
 
 - A marker used because it is measurable, where the patient-important outcome was never named
@@ -260,6 +289,23 @@ that is not easily translated into clinical or personal significance.
 incidence is the open transmission question this page centres — legitimacy needs the causal link to the
 outcome to be *evidenced*, and here it is exactly what the follow-up is meant to test, not assumed.
 [inferred from @ngandu2015]
+
+**The hard-endpoint companion — preDIVA chose the outcome and got a null `[2026-08-07]`.** The sharpest
+version of the discipline is a trial that *deliberately declined the surrogate*. preDIVA (Moll van Charante
+2016), a 6.7-yr multidomain vascular-care RCT (n=3526), measured clinical **dementia incidence** directly
+and found nothing (HR 0.92, 95% CI 0.71-1.19). Its authors state the choice explicitly: «rather than
+exploring effects on surrogate endpoints, we chose a clinical diagnosis of dementia as the outcome to draw
+conclusions on prevention of dementia with unequivocal clinical relevance» — accepting a higher type-II-error
+risk to buy an unambiguous endpoint. [@mollvancharante2016] So within one cluster (multidomain dementia prevention) the field shows both halves of the
+surrogate gap side by side: the **surrogate moved** (FINGER cognitive composite, 2 yr) and, on a thinner
+intervention in a lower-risk group, the **hard outcome showed no reduction** (preDIVA dementia incidence,
+6.7 yr). The two are **not the same quantity** (different endpoint, intervention, population, duration — a
+distinction, not a contradiction -> [[Multidomain Lifestyle Intervention and Cognitive Decline]]). **Note
+what preDIVA does and does not do here:** it is *not* FINGER's own outcome trial (different intervention,
+no cognitive training; different population), so it cannot test whether FINGER's cognitive-composite
+*transmits* to dementia — FINGER's own extended follow-up is that test. What it illustrates is the general
+discipline: a positive surrogate does not carry the outcome, and a separate, differently-designed outcome
+trial in the same cluster read differently. [inferred from @mollvancharante2016; @ngandu2015]
 
 ## Limits
 

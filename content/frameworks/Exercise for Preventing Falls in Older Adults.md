@@ -2,8 +2,8 @@
 type: framework
 question: Does exercise prevent falls and fall-related fractures in community-dwelling older adults, and which types of exercise work?
 aliases: [Falls Prevention, Fall Prevention Exercise, Preventing Falls in the Elderly, Balance Training Falls, Exercise and Falls]
-authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera]
-sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018]
+authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan]
+sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021]
 cluster: falls
 nucleus: true
 confidence: moderate
@@ -15,8 +15,9 @@ relationships:
     - Sarcopenia Definition and Diagnosis
     - Baseline Risk and the Relative-Absolute Split
     - Deficiency Repletion vs Enhancement
+    - Frailty
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-08
 self_critiqued: 2026-08-05
 ---
 
@@ -156,5 +157,17 @@ intervention. It is the strongest outcome class the activity evidence carries fo
 -> [[Physical Activity Dose and Mortality]]. The loop stays open: no operation here grades this against a
 realised outcome, and *appraise, do not prescribe* binds — programme selection, progression and
 fall-risk titration in a specific person are prescriber/coaching acts. [inferred from @sherrington2019]
+
+## Caveat — the HIGH-certainty result is for the GENERAL older adult, not the already-frail
+
+[inferred from @racey2021frailtypa]
+Sherrington's population is community-dwelling older adults (mean age 76), *not* selected for frailty.
+In the *identified prefrail/frail* stratum, Racey's SR-MA finds physical activity does NOT significantly
+reduce falls (RR 0.80 [0.51-1.26], very low certainty, 7 studies) even while it improves mobility, ADLs
+and frailty status [@racey2021frailtypa].
+This is a distinction, not a contradiction (not-joined check (ii): different population + far thinner
+evidence): balance+functional exercise is the best-evidenced fall lever *before* deep frailty; once
+frailty is established, the falls signal is uncertain, the intervention must be dosed down to avoid
+injury, and the payoff shifts to function/mobility rather than falls -> [[Frailty]].
 
 ## References

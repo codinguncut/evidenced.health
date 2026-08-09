@@ -9,11 +9,12 @@ nucleus: true
 confidence: medium
 relationships:
   related_to:
+    - The Comparator Problem
     - Framing a Decision Question
     - Saturated Fat Intake and Replacement
     - Measurement Error in Dietary Assessment
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-08-08
 self_critiqued: 2026-08-04
 ---
 

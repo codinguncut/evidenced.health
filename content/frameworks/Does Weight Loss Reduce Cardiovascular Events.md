@@ -2,8 +2,8 @@
 type: framework
 question: Does intentional weight loss via lifestyle reduce hard cardiovascular events?
 aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle Intervention, Weight Loss Hard Outcomes, Does Losing Weight Prevent Heart Attacks]
-authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ]
-sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018]
+authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Sjöström, Lars]
+sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -15,9 +15,11 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
+    - Weight Cycling and Cardiometabolic Risk
+    - Ectopic Fat and Depot-Specific Risk
 created: 2026-07-28
-updated: 2026-08-06
-self_critiqued: 2026-08-01
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
@@ -149,6 +151,72 @@ benefit could travel the SFA-reduction -> LDL/apoB channel ([[LDL ApoB and Cumul
 than weight loss per se — the trials cannot separate the two.
 
 
+## SOS — the extreme-dose anchor: extreme surgical loss cuts ALL-CAUSE mortality (non-RCT grade) [@sjostrom2007]
+
+The lifestyle trials above delivered a *modest* sustained loss. **SOS is the opposite end of the
+dose-response** — bariatric surgery in severe obesity, \~14-25% loss sustained at 10 years — and it
+finds the mortality benefit the moderate-dose CV-event trials could not show. It is the single most
+decision-relevant reason not to read Look AHEAD's null as *weight loss does nothing for hard outcomes*.
+
+**Design firewall — SOS is NOT an RCT, and must stay distinct from the RCT evidence above.** It is a
+prospective, matched, **non-randomized** interventional trial (2010 surgery vs 2037 contemporaneously
+matched controls, 18 matching variables, mean 10.9 y, 99.9% vital-status follow-up, blinded
+cause-of-death adjudication) in severe obesity (BMI >=34 men / >=38 women). Surgery patients
+**self-selected** («desiring surgery»), so residual selection confounding is not excluded by design —
+«The main limitation of our study was the absence of randomization». The result: 101 vs 129 deaths,
+unadjusted HR 0.76 (95% CI 0.59-0.99, P=0.04); «the hazard ratio adjusted for sex, age, and risk
+factors was 0.71 (P = 0.01)» (95% CI 0.54-0.92). One reassurance on the confounding direction: the
+surgery arm carried
+baseline *survival disadvantages* (heavier, more smokers), so adjustment **strengthened** the benefit
+(0.76 -> 0.71) rather than eroding it — the opposite of what confounding on *measured* baseline risk
+would do. But that reassurance covers the **measured** confounders only; the **motivational**
+self-selection («desiring surgery») is unmeasured and untouched by the adjustment, so it is not the
+all-clear it can read as.
+
+**Parameter table vs the lifestyle evidence (op-weave 2a) — is SOS-positive-vs-Look-AHEAD-null a
+tension?**
+
+| Parameter | Look AHEAD / Ma 2017 (lifestyle) | SOS (surgical) | Same quantity? |
+|---|---|---|---|
+| Design | RCT (LA); 54-RCT MA (Ma) | matched, prospective, **non-randomized** cohort | **NO** — SOS lower internal validity, self-selection |
+| Sustained weight loss | \~2.5 pp (LA); varied (Ma) | «25%, 16%, and 14%» at 10 y by procedure | **NO** — SOS \~3-10x larger |
+| Population | T2D o/w-obese (LA); obese mostly non-diabetic (Ma) | severe obesity, BMI >=34/>=38 | **NO** — SOS more severe, higher baseline risk |
+| **All-cause mortality** | Ma: RR 0.82 (0.71-0.95), high quality | adjusted HR 0.71 (0.54-0.92) | **YES — same quantity, both reductions (convergent)** |
+| CV events | null (LA HR 0.95; Ma RR 0.93) | CV deaths 43 vs 53; MI deaths 13 vs 25 (**not** a powered/adjusted endpoint, no HR) | **NO** — SOS reports no CV-event HR |
+
+**Deciding check -> NOT a tension; a dose-response refinement + an independent convergence.** The
+apparent clash dissolves on the fourth column: Look AHEAD's *null* is on a **CV-events composite at a
+moderate dose**; SOS's *positive* is on **all-cause mortality at an extreme dose**. On the one quantity
+they share — all-cause mortality — SOS **agrees with Ma** (both show a reduction). So there is nothing
+joined to file. Two value moves instead:
+
+- **Type-F (refinement) — a directional dose-graded PATTERN across interventions, not an evidenced
+  weight-loss dose-response.** Read together, a *moderate* intervention (Ma, RR 0.82) and an *extreme*
+  one (SOS, HR 0.71) both lower all-cause mortality — suggestive that a bigger, sustained intervention
+  buys a larger mortality signal. **But two facts forbid calling this a weight-*loss* dose-response
+  curve.** (1) SOS could not attribute its benefit to weight loss per se (next paragraph). (2) Decisive
+  and internal to SOS: mortality did **not** track the degree of weight loss *within* the study —
+  «we did not find significant differences in mortality ... according to the degree of weight loss
+  during the first year», and «Undergoing any bar-iatric surgery appeared more relevant than ... the
+  degree of subsequent weight loss». So SOS anchors a *large-intervention* point, not cleanly a
+  *large-weight-loss-dose* point; the dose-graded reading is directional, not an established curve. The
+  CV-*event*-specific benefit stays unproven at moderate dose and is only *directionally* present at the
+  extreme (MI deaths halved, but no powered endpoint). [inferred from @ma2017; @sjostrom2007]
+- **Type-E (independent backing) `[E-independent]` on the all-cause-mortality strand.** SOS (surgical,
+  matched cohort, Sjöström) and Ma (lifestyle RCTs, meta-analysis) reach the *same* claim — a
+  **weight-loss-producing intervention** lowers all-cause mortality in obese adults — by
+  **non-overlapping routes**: different authors, different design class, and SOS is non-randomized so it
+  is **not** among Ma's 54 RCTs (no data overlap). The claim they co-back is about *interventions*, not
+  weight loss per se (SOS cannot isolate the latter). The convergence raises confidence on the
+  *mortality* strand specifically (not the CV-event strand, which stays null). [inferred from @ma2017; @sjostrom2007]
+
+**The causal caveat SOS states about itself:** the benefit attaches to *the surgery*, not provably to
+weight loss per se — «we cannot determine whether the fa-vorable survival effect of bariatric surgery
+is ex-plained by weight loss or by other beneficial effects of the surgical procedures» (surgery also
+alters gut hormones, bile acids, satiety independent of grams lost). And surgery carries its own harm
+arm (90-day post-op mortality 0.25% vs 0.10%; 17-31% reoperation) — the net-benefit is *after* that
+cost. [inferred from @sjostrom2007]
+
 ## The pattern channel is distinct from the weight channel — PREDIMED cut events WITHOUT weight loss
 
 The sharpest complement to the weight-loss null comes from the whole-diet-pattern side. In PREDIMED
@@ -197,6 +265,20 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 - **Absolute benefit still scales with baseline risk** ([[Baseline Risk and the Relative-Absolute Split]])
   — even if a true small CV effect exists, it is smallest exactly where risk is lowest.
 
+## The weight-cycling objection — not a reason to avoid trying (F-refinement)
+
+A standing objection to *pursue weight loss*: if most attempts partly regain, isn't the resulting
+weight cycling itself harmful — worse than staying heavy? On the best-available evidence, **no, not for the
+obese/metabolically-ill person**. Montani's review foregrounds that «the topic of health consequences of
+weight cycling has been the source of considerable controversy», the associations attenuate on adjustment
+for overall weight status, and the metabolic signal is «more readily seen in people of normal body weight
+rather than in those who are overweight or obese» — i.e. it concentrates in young, body-image-driven
+*normal-weight* dieters, not in the population weight loss is indicated for.
+[@montani2015cycling] So the honest reading:
+fear of cycling does not offset the established benefits of sustained loss here; it argues for building a
+maintenance phase, not for not trying -> [[Weight Cycling and Cardiometabolic Risk]],
+[[Weight-Loss Maintenance and Metabolic Adaptation]].
+
 ## Limits and provenance
 
 - **Source is the NIH author manuscript, and this capture holds the structured abstract, introduction and
@@ -216,7 +298,7 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 
 The critique's meta-question: if Look AHEAD is null on hard CV events, why rank fat loss so high? Because
 its priority never rested on a proven hard-CV-event reduction - it rests on **other, better-evidenced
-endpoints**: T2D remission and prevention (DiRECT, a strong RCT -> [[Total Diet Replacement and Type 2 Diabetes Remission]]), glycaemic control, MASLD regression, and function/mobility, plus being THE lever
+endpoints**: T2D remission and prevention (DiRECT, a strong RCT -> [[Total Diet Replacement and Type 2 Diabetes Remission]]; and prevention in prediabetes, where an intensive lifestyle program cut incident T2D 58% and out-prevented metformin -> [[Lifestyle vs Metformin for Diabetes Prevention]]), glycaemic control, MASLD regression, and function/mobility, plus being THE lever
 for the metabolic-drift stratum. So Look AHEAD's null **refines the claim** (weight loss is prioritized on
 remission/glycaemia/MASLD/function, with hard-CV-event benefit UNPROVEN in established T2D on good
 background care) rather than undermining the priority. The honest ranking is calibrated on the endpoints

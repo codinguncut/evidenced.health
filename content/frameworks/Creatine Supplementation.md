@@ -5,7 +5,7 @@ aliases: [Creatine, Creatine Monohydrate, Creatine Loading, Creatine and Muscle,
 authors: [Kreider, Richard B; Kalman, Douglas S; Antonio, Jose; Ziegenfuss, Tim N; Wildman, Robert]
 sources: [Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017]
 cluster: supplements
-confidence: medium
+confidence: low
 relationships:
   related_to:
     - Protein and Resistance Training for Muscle and Strength
@@ -17,7 +17,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-08-06
+updated: 2026-08-09
 self_critiqued: 2026-08-04
 ---
 
@@ -25,7 +25,9 @@ self_critiqued: 2026-08-04
 **unestablished** ones, and the whole decision turns on keeping them apart. The single held source is an
 **ISSN position stand** (Kreider 2017), a persuasion-shaped, industry-funded consensus (see *The source
 caveat* below); it is read here against the wiki's own four-evidence-states discipline, not taken at its
-enthusiasm. Sorted by evidence state:
+enthusiasm. Sorted by evidence state. `confidence: low` (demoted from medium 2026-08-09): the sole source
+is `moderate`-tier consensus with a sponsor COI — the ergogenic benefit is real but rests on a single,
+non-systematic, industry-funded document, so the page cannot carry medium confidence.
 
 | Claim | State | Basis |
 |---|---|---|

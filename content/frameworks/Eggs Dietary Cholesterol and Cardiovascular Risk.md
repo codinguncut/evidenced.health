@@ -149,8 +149,8 @@ egg **associated with increased** incident CVD and mortality, an effect the auth
 driven by dietary cholesterol» [@godos2020].
 Godos includes Zhong's cohorts in its pool and still lands near-null. Whether the divergence is a
 different-exposure / different-adjustment / measurement-error artifact is a **tension to adjudicate later**,
-not now. AWAITS (Zhong - Dietary Cholesterol Egg Cardiovascular 2019) — the contested-headline source
-that would let the tension be scored.
+not now. — the
+contested-headline source that would let the tension be scored.
 
 ## The U-shaped-arm read
 
@@ -180,7 +180,7 @@ stratum-specific, exactly the pattern the concept predicts.
 Coherence, not validity (R1): this page says what the *evidence* supports about egg->CVD for identified
 strata; the loop is open — no operation here grades the recommendation against a realized outcome.
 Single-source (Godos 2020, gold MA); `confidence: low` marks corroboration-breadth not yet established.
-AWAITS a dietary-cholesterol / egg RCT-on-lipids source and Zhong 2019 to harden the mechanism leg and
-the tension.
+AWAITS a dietary-cholesterol / egg RCT-on-lipids source, and to harden the
+mechanism leg and the tension.
 
 ## References

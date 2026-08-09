@@ -5,7 +5,7 @@ aliases: [Quality of Evidence vs Strength of Recommendation, Certainty vs Streng
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org); Valli, Claudia; Johnston, Bradley C; US Preventive Services Task Force (org)]
 sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015, Valli - Values and Preferences Meat 2019, NutriRECS - Red and Processed Meat Recommendations 2019, USPSTF - Procedure Manual 2022]
 cluster: evidence-appraisal
-self_critiqued: 2026-07-31
+self_critiqued: 2026-08-08
 nucleus: true
 relationships:
   related_to:

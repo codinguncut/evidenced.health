@@ -3,7 +3,7 @@ type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -13,8 +13,8 @@ relationships:
     - Rating Outcome Importance
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-25
-self_critiqued: 2026-08-05
-updated: 2026-08-05
+self_critiqued: 2026-08-07
+updated: 2026-08-07
 ---
 
 ## The decomposition
@@ -408,6 +408,21 @@ attenuation. **Read it as the worked pair the page owed, with the caveat that on
 separate route (a) from route (b) when the interaction is underpowered** — the very reason route (b)
 demands positive interaction evidence, which 0.14 is not. [inferred from @bhatt2019]
 
+**The complement — a WELL-powered effect-modification search that came up empty (Coley 2025).** Where
+REDUCE-IT is one underpowered trial, the multidomain-dementia responder question was tested on a **pooled
+IPD of two trials (n=5205, 486 dementia cases)** plus a data-driven recursive-partitioning search free to
+combine all factors — and found **no responder subgroup** (overall HR 0.98, null in every one of 11
+pre-specified subgroups) -> [[Multidomain Lifestyle Intervention and Cognitive Decline]]. This is the
+route-(b) demand met with a *clean, well-powered ABSENCE*: the positive interaction evidence a subgroup
+claim needs was not merely missing, it was **searched for with power and not found** — the opposite failure
+mode from REDUCE-IT (underpowered, so uninformative). It is also the corpus's first worked *test* of the
+telos's over-personalization prior (that over-personalization is the likelier failure than
+under-personalization): a data point **supporting** it — the responders the personalized story needs do not
+exist here. Contrast the genuine route-(b) positives held elsewhere (age × step-count; deficiency ×
+repletion) — effect-modification is real *sometimes*, and the discipline is that it must be *shown*, not
+assumed, in either direction.
+[inferred from @coley2025]
+
 ## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
 
 REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
@@ -430,5 +445,39 @@ exactly the split: constant relative effect, absolute benefit tracking baseline 
 needed. The consequence for the statin decision is worked on [[Statins for Primary Prevention and the Power of Zero CAC]]
 and [[LDL Lowering and Cardiovascular Events]].
 [inferred from @ctt2010]
+
+## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
+
+The five-route table calls route (b) (effect modification) «the false-positive generator» and demands
+*positive interaction evidence*, not mechanistic plausibility. **DPP supplies a clean positive — and, in
+the same trial, a second arm that behaves the route-(a) way — so the two routes can be read side by side on
+one page of results** -> [[Lifestyle vs Metformin for Diabetes Prevention]].
+
+Two interventions (metformin, intensive lifestyle) vs placebo, prediabetic adults, diabetes incidence,
+prespecified heterogeneity tests:
+
+| Arm | Across BMI / fasting-glucose strata | Route |
+|---|---|---|
+| **Metformin** | relative effect **modified**: reduction 3% (BMI<30) -> 53% (BMI>=35); 15% (FPG 95-109) -> 48% (FPG 110-125), significant heterogeneity | **(b) — genuine effect modification** |
+| **Lifestyle** | «highly effective in all subgroups», not differing by sex/ethnicity/age (one modifier: stronger at lower post-load glucose) | \~(a) — broadly constant, recommend across strata |
+
+[@knowler2002]
+
+**Why this is a genuine route-(b) positive and not the arithmetic mirage the *Failure modes* list warns
+about.** The mirage is reading a *differing absolute benefit* (constant RR x differing baseline) as
+effect modification. DPP is not that: the **relative** reduction from metformin itself changes across strata
+(3% vs 53%), with a significant prespecified heterogeneity test — «The effect of metformin was less with a
+lower body-mass index or a lower fasting glucose concentration than with higher values for those
+variables. Neither interaction was explained by the other variable or by age.» That is a modified *ratio*,
+which is the thing route (b) requires and route (a) cannot produce. The decision consequence is real and
+opposite for the two arms: metformin is **worth prescribing selectively** (near-null in the lean /
+near-normal-fasting), lifestyle **broadly**.
+
+**This does NOT discharge the owed route-(a) numeric illustration** (CTT already did). DPP's *lifestyle*
+arm is only *approximately* route (a) — it too carries one significant modifier (post-load glucose), so it
+is not a clean constant-RR case. The value here is the **paired contrast**: one trial demonstrating that
+whether stratification needs a subgroup claim depends on the *intervention*, not just the population —
+metformin's relative effect is modified, lifestyle's essentially is not.
+[inferred from @knowler2002]
 
 ## References

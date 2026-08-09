@@ -4,7 +4,7 @@ question: Does reducing dietary advanced glycation end products — by low-heat 
 aliases: [Dietary AGEs, Advanced Glycation End Products, AGE Restriction, Low-AGE Diet, Cooking Method, Sous Vide, Steaming, Browning, Maillard]
 authors: [Baye, Estifanos; Kiriakova, Velislava; Uribarri, Jaime; Moran, Lisa J; de Courten, Barbora]
 sources: [Baye - Low AGE Diet Cardiometabolic 2017]
-cluster: cardiometabolic-exposures
+cluster: red-meat
 confidence: low
 relationships:
   related_to:
@@ -12,7 +12,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Red and Processed Meat and Cancer
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-08
 self_critiqued: 2026-07-29
 ---
 

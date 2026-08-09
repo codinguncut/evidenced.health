@@ -2,8 +2,8 @@
 type: framework
 question: Does protein supplementation add to resistance training for muscle and strength, how much protein, and for whom?
 aliases: [Protein Supplementation, Protein and Resistance Training, Protein Intake Muscle, 1.6 g/kg Protein, Protein Break Point, Muscle Protein]
-authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J; de Santana, Felipe M]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021]
+authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Tagawa, Ryoichi; Miyachi, Motohiko]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020]
 cluster: muscle
 confidence: medium
 relationships:
@@ -20,6 +20,7 @@ relationships:
     - Low Muscle Mass and Mortality
     - GLP-1 and Lean Mass
     - Protein Intake During Energy Restriction
+    - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
 updated: 2026-08-07
@@ -153,6 +154,63 @@ obese target is *unobserved* here.
 
 
 
+## The independent second opinion — Tagawa's 1.3 g/kg knee (a different quantity, not a contradiction)
+
+Tagawa 2020 is a **non-Phillips-lineage** dose-response MA — a Japanese group (Miyachi lab), **zero
+author overlap** with Morton — pooling «138» RT + non-RT trials / «5866» individuals (\~2-3x Morton's 49).
+It lands a diminishing-returns knee at **1.3 g/kg BW/d**, and the first instinct — *1.3 contradicts 1.62*
+— is wrong. The parameter table shows why they are **not the same quantity**:
+
+**Independence is partial, not clean — disclose it before leaning on it.** Zero author overlap is
+necessary, not sufficient: Tagawa *cites* Morton (ref 14) as the finding it is «consistent with», and its
+138-trial pool re-analyzes some of Morton's own RT constituent trials. So for the **RT knee** Tagawa is
+**not independent evidence** (shared trials defeat independence exactly as shared authors do); the genuine
+independence is the **without-RT leg**, built on non-RT trials Morton's RT-only pool excludes. Hence
+F-refinement, not a clean type-E backing. [inferred from @tagawa2020]
+
+| Parameter | Morton 2018 | Tagawa 2020 | Same quantity? |
+|---|---|---|---|
+| Knee location | «break point=1.62 g protein/kg/day, p=0.079» (chunk 02) | «1.3 g/ kg BW/d» slope-drop (chunk 01) | see rows below |
+| Outcome | RET-induced FFM | LBM change | \~yes (LBM≈FFM) |
+| Population | RT adults, «performing RET at least twice per week» (chunk 01) | «diverse population», WITH **or without** RT (chunk 01) | **NO** — Morton RT-only |
+| Estimator | biphasic/segmented break-point (non-sig, p=0.079) | multivariate-adjusted spline slope-drop | **NO** — different method |
+| Shape above knee | plateau: «no further RET-induced gains in FFM» (chunk 01) | overall spline «over a wide range of doses (from 0.5 to 3.5 g/kg BW/d) was positively correlated with an increase in LBM» (no plateau); in model 2, above 1.3 with-RT «continued to rise», without-RT «declined» (chunk 01) | **NO** — Tagawa's overall curve has no plateau, and its RT arm keeps rising |
+
+**Fourth column is NO -> a refinement/distinction, not a tension.** The two measure diminishing returns
+in *different populations by different estimators*, so their numbers are not rival estimates of one knee.
+What Tagawa adds is decisive for the *hold-it-loosely* reading: `[@tagawa2020]`
+
+- **The knee is population-dependent, and Tagawa's RT arm does NOT plateau at 1.3.** «In model 2 ...
+  after a total protein in- take of 1.3 g/kg BW/d was exceeded, the effect on LBM change continued to
+  rise with resistance training and declined without resistance training.» So the post-1.3 *decline* is
+  the **non-RT** subgroup; the **RT** subgroup keeps gaining above 1.3 — directionally *consistent* with
+  a higher RT knee like Morton's 1.62, not against it. The one place a genuine clash *could* live — the RT
+  population above 1.62, where Morton says plateau and Tagawa's RT arm says still-rising — is defused only
+  because Morton's plateau is itself non-significant (p=0.079). The inflection is thus population-dependent
+  (general/non-RT \~1.3, RT higher/absent) -> the target is a **wide, population-dependent region
+  (\~1.3-1.6), not a point** -> [[The Underivable Optimum]].
+- **The curve is monotone-positive to 3.5, never flat.** «total protein intake over a wide range of
+  doses (from 0.5 to 3.5 g/kg BW/d) was positively correlated with an increase in LBM» — the slope drops
+  at 1.3 («0.39 kg (95%CI, 0.36- 0.41) and 0.12 kg (95%CI, 0.11-0.14) per 0.1 g/kg BW/d increment ...
+  below and above 1.3 g/ kg BW/d») but stays positive. This matches Morton's *significantly-better linear
+  fit on the baseline axis* and Refalo's monotone-wins result: no lineage locates a true plateau.
+- **Protein raises LBM even WITHOUT resistance training — new to the fabric.** «this meta-analysis demon-
+  strates for the first time that protein supplementation is significantly effective without resistance
+  training». RT is **additive, not synergistic** («no syner- gistic effects, but it may have a simple
+  additive effect»; Table 2 with-RT 0.48 vs without-RT 0.53 kg). This *refines* the page's headline: RT
+  is the driver of *hypertrophy*, but protein alone still adds \~0.5 kg LBM — relevant where RT is not on
+  the table (frail/elderly/dysphagia). Even «less than 0.3 g/kg BW/d (0.17 g/kg BW/d, on average) was
+  suffi- cient to significantly increase LBM».
+
+**Weighting caveat (symmetric standards).** Tagawa is gold-tier (large SR-MA, spline dose-response) but
+5 of 7 authors incl. the first author «are employees of Meiji Co, Ltd» (a protein/dairy company),
+«No external funds supported this work.», and blinding-related bias was high (whole-food protein cannot
+be double-blinded — same design ceiling Morton hits). With sponsor-employed authors making the analysis
+choices on an unblindable exposure, the commercial interest discounts the framing **and cautions the
+magnitude** (the direction is held by Morton/Refalo independently; the effect *size* is the exposed
+parameter). `[@tagawa2020]`
+
+
 [@morton2018]
 ## Who it helps more, and who less
 
@@ -221,11 +279,13 @@ held — this is an evidence-weighting judgment, not a trial result.)
     not a threshold — reading it as a precise target is false precision. The direction of the bias follows
     *bias away from the costly tail* -> [[The Estimate-to-Action Gap]]: for someone whose objective is
     muscle, the plateau's location is uncertain and *undershoot forfeits the objective* (the costly tail
-    is on the LOW side), while overshoot is low-harm for healthy kidneys — so aim the upper end of the CI
+    is on the LOW side), while overshoot is low-harm for **healthy** kidneys (higher protein does not
+    change GFR in adults without CKD, now source-backed -> [[Protein Intake and Kidney Function]]) — so aim the upper end of the CI
     plus a margin. The up-bias has a ceiling (\~2.0-2.2 is well-supported; beyond it the evidence thins and
     the practical costs of displacement, satiety and expense rise), and it shifts *higher* in an energy
-    deficit or older age (to protect lean mass). The one stratum flip is **pre-existing renal disease**,
-    where high protein is a contraindication, not a cheap overshoot. — the CI is Morton's
+    deficit or older age (to protect lean mass). The one stratum flip is **pre-existing renal disease**
+    (eGFR <30 / CKD), where high protein is a contraindication, not a cheap overshoot
+    -> [[Protein Intake and Kidney Function]]. — the CI is Morton's
     (extracted above); the region-not-point reading and the directional bias are the wiki's, via
     [[The Estimate-to-Action Gap]].
   - **The target is protein *quantity*, and it silently assumes quality.** Morton's trials were mostly

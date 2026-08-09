@@ -2,14 +2,14 @@
 type: framework
 question: For fatty liver (MASLD/NAFLD), what modifiable lever works, at what dose, and what outcome does it actually change?
 aliases: [NAFLD, MASLD, Fatty Liver, MASH, NASH, Hepatic Steatosis, Fatty Liver Disease, MASLD Lifestyle]
-authors: [European Association for the Study of the Liver (org); Chung, Mei; Lichtenstein, Alice H]
-sources: [EASL - MASLD Clinical Practice Guidelines 2024, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
+authors: [European Association for the Study of the Liver (org); Chung, Mei; Lichtenstein, Alice H; Taylor, Roy]
+sources: [EASL - MASLD Clinical Practice Guidelines 2024, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015]
 cluster: masld
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -20,6 +20,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Free Sugars Intake
+    - Ectopic Fat and Depot-Specific Risk
 ---
 
 # Fatty Liver (MASLD) and Weight Loss
@@ -149,6 +150,16 @@ target (>=7-10% for the inflammatory stage) to the weight loss already indicated
 handle (fibrosis, not fat). The dominant risk to act on is still the cardiovascular one
 -> [[Baseline Risk and the Relative-Absolute Split]]. Insulin resistance is the shared pathogenic hub,
 so the glycemia levers apply too -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]].
+
+**Why the levers are shared: liver fat IS the ectopic depot.** MASLD is the clinically-visible edge of
+the intra-organ fat that the personal-fat-threshold frame puts at the centre of cardiometabolic risk —
+Taylor calls liver-fat accumulation «pivotal» to hepatic insulin resistance, and demotes visceral fat:
+«Extent of visceral fat accumulation is a surrogate marker for intra-organ fat ex- cess, but is not
+pathophysiologically related to adverse metabolic consequences». So the >5% / 7-10% / >=10% weight-loss ladder here is depot-drawdown made
+measurable, and the >2-fold incident-T2D risk MASLD carries is the same hepatic-fat -> IR pathway seen
+from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
+[@taylor2015pft]
+[inferred from @taylor2015pft]
 
 ## Limits
 

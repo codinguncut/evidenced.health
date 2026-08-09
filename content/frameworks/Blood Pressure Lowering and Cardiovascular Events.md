@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -14,9 +14,10 @@ relationships:
     - The U-Shaped Association Artifact
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
     - Dementia Prevention and Modifiable Risk Factors
+    - DASH Diet and Blood Pressure
 created: 2026-07-29
-updated: 2026-08-05
-self_critiqued: 2026-08-04
+updated: 2026-08-07
+self_critiqued: 2026-08-07
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -134,6 +135,21 @@ too short to prove a dementia-incidence difference. The 2024 Lancet Commission's
 systolic BP of 130 mm Hg or less from age 40 years» — is a *dementia*-prevention framing of the same
 midlife-BP lever. As with CV events, MR studies suggesting BP is protective are discounted as survival-bias
 artifacts, consistent with this page's treat-on-absolute-risk conclusion.
+
+**preDIVA — BP-lowering in the elderly is cognitively SAFE, and the dementia benefit is stratum-specific
+`[2026-08-07]`.** preDIVA (Moll van Charante 2016), a 6.7-yr nurse-led multidomain vascular-care cluster-RCT
+in 3526 *unselected* elderly (70-78), lowered systolic BP by -2.06 mm Hg but did **not** reduce all-cause
+dementia (HR 0.92, 0.71-1.19) [@mollvancharante2016]. Two decision-relevant reads: (i) **it removes a standing worry** — «our results mitigate fears that
+antihypertensive treatment in older age groups evokes cognitive decline ... they show that such an
+intervention is safe, which is in accordance with findings from the recent SPRINT trial»
+[@mollvancharante2016], so BP-lowering in
+the over-70s carries no cognitive-harm penalty (an inverse late-life BP-dementia association is a
+frailty/reverse-causation artifact -> [[The U-Shaped Association Artifact]]); (ii) **any dementia benefit is
+concentrated where BP is genuinely untreated** — the adherent-untreated-hypertension subgroup reached
+HR 0.54 (0.32-0.92) [@mollvancharante2016],
+a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), consistent with this page's
+treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
+population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
 ## Decision relevance
 

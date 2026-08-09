@@ -2,14 +2,15 @@
 type: framework
 question: How much protein should an older adult eat — daily (g/kg) and per meal — and what modifies that target?
 aliases: [Protein Older Adults, PROT-AGE, Older Adult Protein Target, Protein for the Elderly, 1.2 g/kg Protein, Protein Intake Elderly]
-authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006]
+authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018]
 cluster: muscle
 confidence: medium
 relationships:
   related_to:
     - Anabolic Resistance
     - Protein and Resistance Training for Muscle and Strength
+    - Protein Intake and Kidney Function
     - Sarcopenia Definition and Diagnosis
     - Dietary Protein and Mortality
     - Protein Quality and the DIAAS Score
@@ -113,9 +114,15 @@ The routine worry — that higher protein harms aging kidneys — is not support
 healthy individuals, including those who are older», and 1.0-1.2 g/kg/d «is expected to help maintain
 nitrogen balance without affecting renal function». The contraindication is a genuine **stratum flip**,
 not a general caution: **severe** kidney disease (eGFR <30, not on dialysis) is where protein should be
-limited (route (c) contraindication). This is directional guidance from a consensus review, not a
-dedicated protein-to-kidney-outcome trial — that trial is the named gap the [[Protein Intake]]
-deliverable flags.
+limited (route (c) contraindication).
+
+Bauer's statement is a consensus-review direction; the **pooled RCT evidence now backs it**
+-> [[Protein Intake and Kidney Function]] (Devries 2018 SR-MA, 28 RCTs): in adults *without* CKD, the
+change in GFR does not differ between higher- and lower-protein diets, and the GFR rise HP does produce
+is benign kidney functional reserve, not damage [@devries2018]. Two caveats carry over here: the evidence is low-GRADE
+surrogate-level (GFR, not hard kidney outcomes — the dedicated protein-to-kidney-**outcome** trial is
+still the named gap), and Devries shares Phillips with PROT-AGE, so this is **one lineage's** coherent
+position, not two independent confirmations. The stratum flip (severe CKD -> restrict) is unchanged.
 
 ## Decision relevance
 
@@ -136,6 +143,22 @@ deliverable flags.
 - **The daily amount and the source are two decisions, not one.** This page sets the *amount* and
   *distribution* for the older stratum; the animal-vs-plant *source* choice (mortality) and the
   *hypertrophy* target (RT) are separate -> [[Protein and Resistance Training for Muscle and Strength]].
+- **Protein may raise muscle even where resistance training is NOT on the table — a plausibility pointer,
+  not a stratum-specific proof.** For the frail, the dysphagic, or those who cannot train, the PROT-AGE
+  targets above rest on trials that mostly paired protein with exercise. Tagawa's MA (a *different*
+  research lineage — Miyachi lab, no PROT-AGE overlap) «demon- strates for the first time that protein
+  supplementation is significantly effective without resistance training in a di- verse population», and
+  even «less than 0.3 g/kg BW/d (0.17 g/kg BW/d, on average) was suffi- cient to significantly increase
+  LBM» — «Daily addition of a high-protein food item such as an egg (6-8 g protein) or 1 cup (200 mL) of
+  milk (6.8 g protein)» is Tagawa's named lever for «the elderly or people with dys- phagia, as well as in
+  low-income, food-insufficient populations». **But the finding is in a *diverse* population, not
+  specifically the anabolic-resistant old** — and [[Anabolic Resistance]] predicts a *blunted* fed-state
+  response at low doses in exactly this stratum, so the without-RT effect may attenuate where it is most
+  wanted. So: protein-by-diet-alone is a reasonable move when training is infeasible (small, distributed
+  top-ups, not loading), and it is a *separate lineage* from PROT-AGE (partly answering the *one research
+  school* limit below) — but treat it as a directional pointer to test, not as elderly-specific
+  corroboration; it sets no age-specific dose of its own.
+  `[@tagawa2020]`
 
 ## Limits — consensus on surrogates, one research school, sponsor exposure
 

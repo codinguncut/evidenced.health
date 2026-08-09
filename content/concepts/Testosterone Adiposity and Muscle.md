@@ -17,8 +17,8 @@ relationships:
     - Menopause and the Shifting Levers
     - Hormone Therapy After Menopause
 created: 2026-08-01
-updated: 2026-08-06
-self_critiqued: 2026-08-01
+updated: 2026-08-08
+self_critiqued: 2026-08-08
 ---
 
 **The endocrine-muscle facet of the `weight-management` cluster** (orbits the
@@ -69,11 +69,19 @@ younger, non-diabetic, more-obese men and those with higher baseline T.
 
 **The mechanism names why this is central and not incidental.** Obesity-related male hypogonadism is
 **secondary (central), not testicular**: «obesity-related male hypogonadism is now considered as a form of
-hypogonadotropic hypogonad- ism» [@corona2013]. Fat tissue over-expresses aromatase, so estrogen rises and feeds back to suppress the pituitary:
-«The increased amount of estrogen levels might, in turn, play a negative feedback on both the hypothalamus
-and the pituitary, leading to decreased LH secretion»
-[@corona2013]. Weight loss reverses
-the whole cascade — estradiol falls, LH and FSH rise (+1.31 and +1.79 U/l), T rises. So in an obese man,
+hypogonadotropic hypogonad- ism» [@corona2013] — this central classification is the source's firm finding. The aromatase/estrogen-feedback pathway on top of it
+is the source's **hypothesis**, not a demonstrated mediator (corrected 2026-08-08). Corona proposes that fat tissue
+over-expresses aromatase, so estrogen rises and feeds back to suppress the pituitary: «The increased amount of
+estrogen levels **might**, in turn, play a negative feedback on both the hypothalamus and the pituitary, leading to
+decreased LH secretion» [@corona2013]. But
+Corona's own meta-regression **declines to support circulating E2 as the mediator**: it «did not show any
+association between the D-E2 and TT modifications after weight loss»
+[@corona2013], concludes that «other
+fat-associated factors, besides estrogens, should mediate a weight reduction-induced improvement in
+testosterone levels» [@corona2013], and
+attributes any estrogen role to *local* rather than circulating aromatization. So weight loss reverses the observed
+**pattern** — estradiol falls, LH and FSH rise (+1.31 and +1.79 U/l), T rises — but the E2->LH->T causal chain
+through it is the source's hypothesis, left open by its own data, not an established cascade. So in an obese man,
 **a low T reading is often a readout of the adiposity**, and the outcome-relevant move is to treat the
 adiposity (which carries its own large benefits -> [[Weight-Loss Maintenance and Metabolic Adaptation]],
 [[Does Weight Loss Reduce Cardiovascular Events]]), which restores T as a by-product — rather than to treat
@@ -82,6 +90,14 @@ the number directly.
 - **Bound the claim:** the outcome here is the T level itself — a *surrogate*. Corona shows weight loss
   raises T; it does **not** show that the T rise causes any muscle/function/mortality benefit. Its value is
   that it relocates the *cause* (adiposity) and offers a lever that is not TRT.
+- **The diet-route effect is modest, and the pooled magnitude is likely an over-estimate** (corrected 2026-08-08).
+  Corona itself concludes «Body weight loss and lifestyle interventions should be the ﬁrst approach offered to obese
+  hypogonadal men. However, their effect on testosterone levels is modest»
+  [@corona2013] — the large TT rise is the
+  32%-loss bariatric arm; at \~10% diet-driven loss the restoration is small. The pooled figures are *paired*
+  before/after estimates, and Corona notes «the mean (paired) analysis, which excludes these data, is likely to
+  overestimate the effect of treatments» [@corona2013].
+  So «restores T» reads as *modest* restoration by the realistic (non-bariatric) route.
 - The one non-health confound worth naming: a co-author is employed by a testosterone manufacturer
   (Bayer Schering Pharma) — noted, not weighted; the finding is a within-subject before/after effect
   robust across 24 studies.
@@ -158,12 +174,20 @@ detect a **30% reduction** in fractures. It found the opposite direction:
 > toes, facial bones, and skull (haz- ard ratio, 1.43; 95% confidence interval [CI], 1.04 to 1.97)»
 > [@snyder2024]
 
-The increase was consistent across fracture endpoints, and the authors state the surprise plainly: «We did
+The numerical increase was consistent across fracture endpoints, and the authors state the surprise plainly: «We did
 not expect these results, because most previous studies showed that testosterone im- proved many measures
 of bone structure and quality» [@snyder2024].
-Bone density is exactly the surrogate GRADE names as *proximate* to fractures (rate down only one level);
-here the proximate, credentialed surrogate moved the "right" way while the patient-important outcome moved
-the wrong way -> [[Surrogate Outcomes]]. Mechanism is unknown (bone density/structure were not measured in
+**Read the signal at the hedge the authors themselves set** (corrected 2026-08-08): the *primary* endpoint CI does
+exclude 1 (HR 1.43; 1.04-1.97), but the trial's own conclusion is deliberately weaker — «The fracture incidence
+was **numerically higher** among men who received testosterone than among those who received placebo»
+[@snyder2024] — and the statistics are unadjusted: «no
+adjustment was made for multiple com- parisons. All confidence intervals are unadjust- ed and are not a
+substitute for hypothesis tests» [@snyder2024] (most
+secondary-endpoint CIs cross 1). So this is a directional, unadjusted increase in the primary endpoint — a
+concerning signal that refutes the expected *benefit*, not a settled fracture harm.
+ Bone density is exactly the surrogate GRADE names as *proximate* to fractures (rate down only one
+level) — the wiki's methodology point, not from Snyder (corrected 2026-08-08); here the proximate, credentialed
+surrogate moved the "right" way while the patient-important outcome moved the wrong way -> [[Surrogate Outcomes]]. Mechanism is unknown (bone density/structure were not measured in
 this trial; falls and risk-taking were not assessed).
 
 **Independence note (strict):** TRAVERSE-CV (Lincoff) and the fracture substudy (Snyder) are the **same
@@ -183,7 +207,7 @@ Line up the three limbs against the outcome menu and the T number stops being th
 |---|---|---|
 | **Muscle mass** | rises +1.6 to 3.6 kg (surrogate) | RT + adequate protein builds it (surrogate) -> [[Protein and Resistance Training for Muscle and Strength]] |
 | **Strength / function** | modest, does not reliably translate | RT is the proven driver of strength gains |
-| **Fractures** | **increased (HR 1.43)** | resistance/balance training reduces falls & probably fractures -> [[Big Rocks (Elderly)]] |
+| **Fractures** | **numerically higher — primary HR 1.43 (1.04-1.97), CIs unadjusted; a signal, not a settled harm** | resistance/balance training reduces falls & probably fractures -> [[Big Rocks (Elderly)]] |
 | **CV events** | non-inferior (safe), + AFib/AKI/PE | weight loss: own benefits; hard-CV-event benefit unproven via lifestyle route |
 | **All-cause mortality** | no benefit shown (trial not powered for it) | weight-loss MA: modest reduction (held elsewhere) |
 | **The T level itself** | rises (the point of TRT) | rises as a by-product of fat loss (Corona) |
@@ -222,8 +246,8 @@ overturn.
 - **TRT is a narrow option, not a general anabolic or anti-ageing move.** On the best evidence it improves
   body composition in carefully selected men with *confirmed* hypogonadism; it does not reliably improve
   physical function, shows no mortality benefit (the safety trial was not powered for it), and in TRAVERSE
-  it *increased* fractures and added
-  AFib/AKI/PE while being CV-non-inferior. The heavy marketing of testosterone optimization runs inversely
+  fractures were *numerically higher* (primary-endpoint HR 1.43, unadjusted CIs — a signal, not a settled harm; corrected 2026-08-08)
+  and it added AFib/AKI/PE while being CV-non-inferior. The heavy marketing of testosterone optimization runs inversely
   to its measured outcome benefit (*attention is an anti-signal*).
 - **For muscle and function, the lever is resistance training + adequate protein**
   -> [[Protein and Resistance Training for Muscle and Strength]], plus weight-bearing/balance work for

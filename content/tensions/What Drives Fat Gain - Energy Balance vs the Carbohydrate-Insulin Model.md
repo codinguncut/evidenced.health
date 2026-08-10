@@ -213,7 +213,7 @@ caution. [inferred from @chung2014]
 **Not a tension — a convergent third instance.** The not-joined check fires: Chung and the EBM answer the
 *same* higher-order question (does macronutrient source change fat storage at equal energy?) and reach the
 *same* answer (no), so this is agreement by an independent literature, filed as convergent support, not a
-`[[tension]]`. It **raises confidence in the energy-balance pole modestly** — a third domain (hepatic fat)
+`tension`. It **raises confidence in the energy-balance pole modestly** — a third domain (hepatic fat)
 falls to the isocaloric test — without a clean-[E] tag, because the shared isocaloric-design logic is the
 honest limit on the independence. -> [[Fatty Liver MASLD and Weight Loss]], [[Free Sugars Intake]]
 

@@ -37,23 +37,32 @@ change these.
 <a class="dcard" href="deliverables/Fruits-Vegetables-Pulses-and-Grains"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:fruits"></iconify-icon></span><span class="dcard-title">Plant Foods</span><span class="dcard-desc">Fruits, vegetables, pulses and grains — which earn their place, whether antinutrients (phytates, lectins, oxalates) need avoiding or just cooking, and the fruit sugar-vs-fibre question.</span></a><a class="dcard" href="deliverables/Rapid-Weight-Loss-How-Fast-Is-Too-Fast"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:weight"></iconify-icon></span><span class="dcard-title">Rapid Weight Loss</span><span class="dcard-desc">How fast is too fast — muscle loss, rebound, liver/gallstone risk, and diet-deficit vs exercise-deficit.</span></a>
 </div>
 
-## Pebbles
+## Medium Stones
 
-Popular worries and 'which is best' debates, held to the same evidence bar — where the honest answer is
-usually *the effect is small*. Worth reading mostly so you can stop thinking about them.
+Real levers, but second-order: meaningful dietary decisions where the effect is moderate and the answer
+turns on the specifics. Worth getting right — after the big rocks, not before them.
 
 <div class="deliverable-grid">
 <a class="dcard" href="deliverables/Dietary-Patterns-Is-One-Clearly-Better"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:nutrition"></iconify-icon></span><span class="dcard-title">Dietary Patterns</span><span class="dcard-desc">Mediterranean, DASH, vegetarian, keto, carnivore — no single pattern clearly wins. The evidenced benefits are specific (Mediterranean&rarr;CV events, DASH&rarr;blood pressure) and trace mostly to shared components — the big rocks — not to a general 'good vs bad diet' line.</span></a>
+<a class="dcard" href="deliverables/Is-Processed-Food-Bad"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:unhealthy-food"></iconify-icon></span><span class="dcard-title">Processed Food</span><span class="dcard-desc">Additives, food matrix, refining, energy density — which aspect of 'processing' actually drives harm, why the label spans sugary soda to plain yoghurt, and whether 'eat less processed' survives as its own lever.</span></a>
+<a class="dcard" href="deliverables/Is-Red-Meat-Harmful"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:animal-cow"></iconify-icon></span><span class="dcard-title">Red Meat</span><span class="dcard-desc">Processed vs unprocessed, heart vs lifespan vs cancer — the harm is smaller and narrower than headlines imply, concentrated in processed meat and cooking char.</span></a>
+<a class="dcard" href="deliverables/Fish"><span class="hicon-wrap"><iconify-icon class="hicon" icon="lucide:fish"></iconify-icon></span><span class="dcard-title">Fish</span><span class="dcard-desc">Oily vs lean, apex vs prey, wild vs farmed, and the mercury trade-off — why the choice is usually a species swap, not eat-or-avoid.</span></a>
+<a class="dcard" href="deliverables/Do-We-Need-Fibre"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:intestine"></iconify-icon></span><span class="dcard-title">Fibre</span><span class="dcard-desc">Cholesterol, gut transit, blood sugar and satiety — and why 'essential' oversells a modest lever.</span></a>
+</div>
+
+## Small Pebbles
+
+Popular worries and 'which is best' debates — mostly scares and low-stakes swaps — held to the same
+evidence bar, where the honest answer is usually *the effect is small*. Worth reading mostly so you can
+stop thinking about them.
+
+<div class="deliverable-grid">
 <a class="dcard" href="deliverables/Seed-Oils"><span class="hicon-wrap"><iconify-icon class="hicon" icon="mdi:corn"></iconify-icon></span><span class="dcard-title">Seed Oils</span><span class="dcard-desc">The "seed oils are toxic" claim under symmetric standards — inflammation, heart disease and heating — and why the evidence backs neither the scare nor a confident benefit.</span></a>
 <a class="dcard" href="deliverables/Soy-Products"><span class="hicon-wrap"><iconify-icon class="hicon" icon="fluent-emoji-high-contrast:beans"></iconify-icon></span><span class="dcard-title">Soy Products</span><span class="dcard-desc">Does soy feminize men, raise breast-cancer risk, or harm the thyroid? The three fears under the same standard — plus what soy actually does (a modest LDL drop) and why tofu, tempeh and isolate aren't one thing.</span></a>
 <a class="dcard" href="deliverables/Are-Artificial-Sweeteners-Bad"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:sugar-free"></iconify-icon></span><span class="dcard-title">Artificial Sweeteners</span><span class="dcard-desc">Cancer, appetite, insulin, weight — and why the answer depends on what the sweetener replaces.</span></a>
-<a class="dcard" href="deliverables/Is-Processed-Food-Bad"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:unhealthy-food"></iconify-icon></span><span class="dcard-title">Processed Food</span><span class="dcard-desc">Additives, food matrix, refining, energy density — which aspect of 'processing' actually drives harm, why the label spans sugary soda to plain yoghurt, and whether 'eat less processed' survives as its own lever.</span></a>
 <a class="dcard" href="deliverables/Coffee"><span class="hicon-wrap"><iconify-icon class="hicon" icon="lineicons:coffee-cup-2"></iconify-icon></span><span class="dcard-title">Coffee</span><span class="dcard-desc">Mortality, heart, type-2 diabetes, liver — how much, filtered vs unfiltered, and why the benefits are the bean, not the caffeine.</span></a>
-<a class="dcard" href="deliverables/Is-Red-Meat-Harmful"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:animal-cow"></iconify-icon></span><span class="dcard-title">Red Meat</span><span class="dcard-desc">Processed vs unprocessed, heart vs lifespan vs cancer — the harm is smaller and narrower than headlines imply, concentrated in processed meat and cooking char.</span></a>
-<a class="dcard" href="deliverables/Fish"><span class="hicon-wrap"><iconify-icon class="hicon" icon="lucide:fish"></iconify-icon></span><span class="dcard-title">Fish</span><span class="dcard-desc">Oily vs lean, apex vs prey, wild vs farmed, and the mercury trade-off — why the choice is usually a species swap, not eat-or-avoid.</span></a>
 <a class="dcard" href="deliverables/Meal-Timing-and-Fasting"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:calendar"></iconify-icon></span><span class="dcard-title">Meal Timing &amp; Fasting</span><span class="dcard-desc">Time-restricted eating, one-meal-a-day, alternate-day and prolonged fasting — why <em>when</em> and <em>whether</em> you eat mostly act through the calorie deficit, and where a long fast turns harmful.</span></a>
 <a class="dcard" href="deliverables/Is-Organic-Food-Better"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:agriculture"></iconify-icon></span><span class="dcard-title">Organic Food</span><span class="dcard-desc">Pesticides, nutrients and outcomes — and why pasture-vs-grain often matters more than the label.</span></a>
-<a class="dcard" href="deliverables/Do-We-Need-Fibre"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:intestine"></iconify-icon></span><span class="dcard-title">Fibre</span><span class="dcard-desc">Cholesterol, gut transit, blood sugar and satiety — and why 'essential' oversells a modest lever.</span></a>
 </div>
 
 ## Open Questions

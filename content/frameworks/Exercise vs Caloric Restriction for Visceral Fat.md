@@ -188,7 +188,7 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
   *within-source* head-to-head, reported, not a filed tension. Recchia-vs-[[Exercise Energy Compensation]]
   is NOT a joined tension — they answer different questions (visceral-fat-per-deficit vs
   energy-deficit-delivered) and compose consistently once the outcome is named; filed as a distinction/
-  composition, not a `[[tension]]`.
+  composition, not a `tension`.
 - **Units honesty:** the standardized-ES-not-cm² caveat is stated up front so the primary numbers are not
   read as absolute fat volumes; the only cm figure (WC) is flagged as an imperfect visceral proxy.
 - **Attribution guard:** the 6.1%/no-change figure is attributed to Verheggen (via Recchia), not to

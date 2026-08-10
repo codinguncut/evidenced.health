@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org)]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018]
+authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -13,11 +13,12 @@ relationships:
     - Is the Food Category Doing Any Work
     - Measurement Error in Dietary Assessment
     - Surrogate Outcomes
+    - Autoimmune Disease and Modifiable Risk
     - Upgrading Observational Evidence
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
 created: 2026-07-29
-updated: 2026-08-08
+updated: 2026-08-09
 self_critiqued: 2026-08-08
 ---
 
@@ -120,6 +121,24 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   benefits and that fibre's higher GRADE «could reflect the high fibre content of whole grains»
   -> [[Whole Grains Refined Grains and Pulses]].
 
+
+[@brown1999]
+
+## Fibre and IBD risk — a new outcome, and it is subtype-specific `[2026-08-09]`
+
+A gold-tier SR + dose-response MA (Milajerdi 2021) adds inflammatory bowel disease to fibre's outcome
+menu — and the finding is that fibre is **not one effect across IBD**: protective for Crohn disease but
+null for ulcerative colitis. Highest-vs-lowest fibre intake: CD «RR: 0.59; 95% CI: 0.46, 0.74; I2 =
+0.0%» but UC «RR: 1.09; 95% CI: 0.88, 1.34; I2 = 0.0%»
+[@milajerdi2020ibd] — both homogeneous, so
+the divergence is real, not a pooling artifact. Fibre->CD is nonlinear with «the highest risk reduction ...
+for fiber intake >22 g/d» and a linear «14% reduction in CD risk» per 10 g/d
+[@milajerdi2020ibd]. Same caveats as the
+rest of this page — observational, FFQ-measured, healthy-user + food-matrix confounded, and here with
+reverse causation (preclinical IBD alters intake) acknowledged but unaddressed. So IBD is a **low-confidence
+additional reason** consistent with fibre's other benefits, not a new big lever; the mechanism proposed is
+the gut-microbiota/SCFA route this page already carries (Valdes). The full facet, and the cross-disease
+synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable Risk]].
 
 [@brown1999]
 ## Decision relevance

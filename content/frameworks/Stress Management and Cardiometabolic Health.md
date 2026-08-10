@@ -7,10 +7,11 @@ sources: [Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024]
 cluster: psychosocial
 confidence: low
 created: 2026-08-01
-updated: 2026-08-08
+updated: 2026-08-09
 self_critiqued: 2026-08-01
 relationships:
   related_to:
+    - Allostatic Load and Mortality
     - Sodium Intake and Blood Pressure
     - Blood Pressure Lowering and Cardiovascular Events
     - Surrogate Outcomes
@@ -21,7 +22,10 @@ raises blood pressure (sympathetic activation), so a program that reduces stress
 wiki holds it on the same terms as any exposure — on a **falsifiable, quantified, patient-important-ish
 physical outcome (BP)**, not on mood or wellbeing as ends. *Attention is an anti-signal* applies with
 force: mindfulness is heavily marketed, so the bar is unchanged and the framing stays BP-anchored and
-proportional. Held single-source, `confidence: low`.
+proportional. Held single-source, `confidence: low`. This page is an *intervention-on-a-surrogate* facet
+of the `psychosocial` cluster whose mechanism spine and hard-outcome anchor is
+[[Allostatic Load and Mortality]] (chronic stress -> cumulative physiological dysregulation -> mortality);
+MBSR->BP is one candidate handle on that load, on a surrogate, with the transmission unshown.
 [inferred from @chen2024mbi]
 
 ## The specified exposure

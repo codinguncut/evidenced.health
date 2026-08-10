@@ -2,8 +2,8 @@
 type: concept
 question: What is the causal relationship between LDL / apoB-containing lipoproteins and atherosclerotic cardiovascular disease, and what does it imply about which lipid to measure and when lowering matters?
 aliases: [LDL Causes ASCVD, ApoB, Cumulative LDL Exposure, LDL Particle Number, Causal LDL, Lower for Longer, Cholesterol Causal, ASCVD Lipids]
-authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Blumenthal, Roger S; Zuber, Verena; Gill, Dipender; Ala-Korpela, Mika; Burgess, Stephen; Ridker, Paul M]
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, Zuber - Multivariable MR ApoB Coronary 2021, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017]
+authors: [Ference, Brian A; Ginsberg, Henry N; Graham, Ian; Ray, Kausik K; Packard, Chris J; Catapano, Alberico L; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Ramsden, Christopher E; Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Blumenthal, Roger S; Zuber, Verena; Gill, Dipender; Ala-Korpela, Mika; Burgess, Stephen; Ridker, Paul M; Liu, Xiao]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, Zuber - Multivariable MR ApoB Coronary 2021, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
 cluster: lipids
 nucleus: true
 confidence: medium
@@ -18,8 +18,9 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Soy Products and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
+    - Insulin Resistance Surrogates and Cardiovascular Risk
 created: 2026-07-29
-updated: 2026-08-08
+updated: 2026-08-09
 self_critiqued: 2026-08-08
 ---
 
@@ -110,6 +111,24 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
   metabolic-syndrome state, so LDL-P *misses* the extra atherogenic particles apoB captures right where
   discordance arises. apoB is also the more standardised, widely-available assay. **So LDL-P is a good
   LDL-only proxy for apoB; apoB is the target.** `[EXTRACTED for the correlation + single-apoB-per-particle + the particle list; INFERRED for the remnant-coverage ranking, which follows from apoB's particle set vs LDL-P's]`
+
+### A cheap flag for the discordant stratum — the TyG index `[2026-08-09, Liu]`
+
+How do you *find* the insulin-resistant, hypertriglyceridemic person for whom LDL-C under-states apoB,
+without measuring apoB on everyone? A fasting insulin-resistance readout marks the stratum. The
+triglyceride-glucose (TyG) index — «considered a reliable surrogate marker of insulin resistance»
+[@liu2022tyg] —
+is computed from the same two labs (triglycerides and fasting glucose) that define the discordant state,
+and Liu's mechanism is precisely this atherogenic-dyslipidemia pathway: «Insulin resistance in liver and
+adipose tissues drives the development of atheroscle- rotic dyslipidemia, generates a low-grade
+inflammatory state, and increases release of inflammatory markers»
+[@liu2022tyg].
+So a raised TyG is a **prompt to measure apoB** in that person — the marker points at the discordance;
+apoB, not TyG, is the causal quantity and the target. Reading TyG (or the TG/HDL ratio) as a *rival* to
+LDL/apoB confuses a downstream readout of the atherogenic state for the causal driver within it ->
+[[Insulin Resistance Surrogates and Cardiovascular Risk]], [[Surrogate Outcomes]]. (This bridges the
+insulin-resistance and apoB axes that the wiki had held apart.)
+[inferred from @liu2022tyg; @ference2017]
 
 ## Second outcome — high LDL-C is a new (2024) dementia risk factor
 

@@ -184,7 +184,7 @@ likely to undergo decline—ie, those with a CAIDE dementia risk score of 6 or g
 with a positive amyloid PET scan... all subgroup results should be considered exploratory and need to be
 confirmed» [@andrieu2017].
 
-**Recorded as a REFINEMENT (type F) + a route-(b) effect-modification hypothesis, NOT a `[[tension]]`
+**Recorded as a REFINEMENT (type F) + a route-(b) effect-modification hypothesis, NOT a `tension`
 [inferred from @ngandu2015; @andrieu2017].** The deciding checks: the parameter table's *result* clashes but its *population/intensity* rows
 differ (not-joined ii), and the clash is **internally reconciled** — MAPT's higher-risk subgroups replicate
 FINGER's stratum — which is effect-modification, not contradiction (filing a tension here would be a
@@ -231,7 +231,7 @@ drug treatment, and cognitive training»), the difference that makes the two non
   (11 [1%] vs 23 [2%]; HR 0.37, 0.18-0.76, p=0.007), consistent with a vascular mechanism, but on tiny
   counts and not the prespecified primary [@mollvancharante2016, Table 2]. Alzheimer's itself was null (HR 1.05, 0.78-1.41).
 
-**FINGER vs preDIVA — the parameter table (why this is a DISTINCTION, not a `[[tension]]`).**
+**FINGER vs preDIVA — the parameter table (why this is a DISTINCTION, not a `tension`).**
 
 | Parameter | FINGER (Ngandu 2015) | preDIVA (Moll van Charante 2016) | Same quantity? |
 |---|---|---|---|

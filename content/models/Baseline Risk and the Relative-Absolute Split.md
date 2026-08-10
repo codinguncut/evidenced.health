@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -12,9 +12,10 @@ relationships:
     - Framing a Decision Question
     - Rating Outcome Importance
     - Semaglutide for Cardiovascular Risk in Obesity
+    - Autoimmune Disease and Modifiable Risk
 created: 2026-07-25
-self_critiqued: 2026-08-07
-updated: 2026-08-07
+self_critiqued: 2026-08-09
+updated: 2026-08-09
 ---
 
 ## The decomposition
@@ -479,5 +480,34 @@ is not a clean constant-RR case. The value here is the **paired contrast**: one 
 whether stratification needs a subgroup claim depends on the *intervention*, not just the population —
 metformin's relative effect is modified, lifestyle's essentially is not.
 [inferred from @knowler2002]
+
+## A route-(b) positive whose modifier is NOT a targetable stratum — smoking->RA by serotype `[2026-08-09, Di Giuseppe]`
+
+DPP and the step-count/age case establish route (b) with modifiers that are **pre-exposure person-strata**
+(BMI, fasting glucose, age) — you can place a person in them *before* deciding. Di Giuseppe's smoking->RA
+meta-analysis adds a genuine route-(b) positive that breaks that assumption, and the break is the lesson.
+
+The relative effect of pack-years on RA differs by rheumatoid-factor serotype: highest-vs-lowest category
+RR «2.47 (95% CI 2.02 to 3.02; Pheterogeneity = 0.88), while it was 1.58 (95% CI 1.15 to 2.18,
+Pheterogeneity = 0.39) among RF-negative cases. These estimates were statistically significantly different
+(P-value 0.022)»
+[@digiuseppe2014smoking]. A
+**modified ratio** with a significant heterogeneity test — route (b), not the route-(a) arithmetic mirage
+the *Failure modes* list warns about.
+
+**But RF serotype is a subphenotype of the OUTCOME, measured at RA diagnosis — not a stratum you can put a
+person in beforehand.** So this is genuine effect modification that supplies **no actionable person-level
+stratifier**: nobody knows which serotype of RA they would develop. Its value is **etiologic** — it
+strengthens the causal reading (smoking drives specifically the seropositive, HLA-shared-epitope path, via
+citrullination) — not **prescriptive**. This is the distinction the page did not previously hold: a positive
+interaction test licenses a *causal/mechanistic* claim about which disease-path an exposure drives, which is
+distinct from licensing a *targeting* decision; the five-route table's route (b) silently assumes the
+modifier is knowable pre-exposure, and an outcome-subphenotype modifier satisfies the statistics while
+failing that assumption. (RF-negative rests on only 2 studies, so the contrast is also imprecise.)
+[inferred from @digiuseppe2014smoking]
+
+**Type: F.** Refines the page's route-(b) treatment by adding a distinction (modifier-as-outcome-subphenotype)
+it did not carry; it does not independently reach the decomposition. No `[E-independent]`.
+Full estimate + mechanism live on [[Autoimmune Disease and Modifiable Risk]].
 
 ## References

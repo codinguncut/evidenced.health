@@ -125,7 +125,7 @@ the mechanistic *harm* on hard outcomes — they are underpowered for both.
 
 ### RCT vs observational — a REFINEMENT, not a filed tension
 
-The instinct is to file Marklund-benefit vs Hooper-little-effect as a `[[tension]]`. The **parameter
+The instinct is to file Marklund-benefit vs Hooper-little-effect as a `tension`. The **parameter
 table forbids it** — the two are not the same quantity:
 
 | Parameter | Marklund (observational) | Hooper 2018 (RCT) | Same quantity? |
@@ -347,7 +347,7 @@ or other unprocessed foods»), the full randomized dataset was **never recovered
 on mortality), heavy censoring, and the harm arms are observational/provisional. Its net contribution here
 is **not a harm finding**: it firms the *RCT-side null* (LA replacement lowers cholesterol/LDL but has not
 been shown to reduce hard outcomes) and supplies the archetypal **surrogate->outcome disconnect**
--> [[Surrogate Outcomes]]. No `[[tension]]` filed — the contradiction was attempted and did not hold as a
+-> [[Surrogate Outcomes]]. No `tension` filed — the contradiction was attempted and did not hold as a
 clean benefit-vs-harm clash.
 [inferred from @ramsden2016; @marklund2019; @hooper2018]
 
@@ -424,7 +424,7 @@ so it lands as a stratum flag, not a dismissal.** The even-handed read:
   so not-joined check (ii) fires — different population and intervention, a **distinction not a clash**.
   And decisively: **Hooper 2018 and Li 2020 already POOL Sydney** (Li explicitly lists it as a divergent
   adverse trial) and still net to null/benefit — so at the meta-analytic level Sydney is a *component*
-  of the benefit-netting pools, not a contradictor of them (**F-absorption**). No `[[tension]]`.
+  of the benefit-netting pools, not a contradictor of them (**F-absorption**). No `tension`.
 - **The beyond-summary move — the n-6-selective vs mixed-PUFA distinction (type B/A).** Ramsden's MA
   identifies **PUFA composition** as «a major source of heterogeneity for all mortality outcomes»:
   n-6-**selective** trials (SDHS, Rose corn-oil, Minnesota Survey) trend **adverse**, while the four

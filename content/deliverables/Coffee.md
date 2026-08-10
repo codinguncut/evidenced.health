@@ -1,283 +1,314 @@
 ---
 type: deliverable
 title: Coffee and Health
-question: What does the evidence show about coffee — how much, what form, for whom, on which patient-important outcomes — and how good is that evidence?
+question: What are the effects of coffee on health, longevity, and quality of life — for someone deciding whether, how much, and how to drink it?
 sources: [Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ding - Coffee and Type 2 Diabetes 2014]
 confidence: medium
 created: 2026-08-04
-updated: 2026-08-04
-self_critiqued: 2026-08-04
+updated: 2026-08-10
+self_critiqued: 2026-08-10
 ---
 
-This is a general, population-level appraisal of what the evidence says about coffee for anyone the
-studies speak to. It is not advice for one person; whether you should start, stop, or change your
-coffee depends on your stratum and your goals, which belong at the end, not here.
+For most non-pregnant adults, coffee within about three to four cups a day is a low-cost habit more
+likely to help than harm, with no strong health reason to start, increase, or quit. The umbrella review
+this rests on reaches exactly that: coffee is «generally safe within usual levels of intake, with summary
+estimates indicating largest risk reduction for various health outcomes at three to four cups a day, and
+more likely to benefit health than harm» [@poole2017].
 
-The short version: for most non-pregnant adults, coffee up to about three to four cups a day is a
-low-cost habit that is more likely to help than harm, but the effect is small and the evidence is
-almost entirely observational — so **there is no strong health reason to start drinking coffee, to
-increase it, or to quit within that range.** Reporting that the lever is small and uncertain is itself
-the useful result: it licenses someone to stop optimizing here. The genuinely actionable calls are all
-stratum-specific, and there are three of them (pregnancy; women at high fracture risk with low calcium;
-heavy drinkers of unfiltered coffee at high cardiovascular risk).
+The certainty floor governs how to read everything that follows. Almost all of this evidence is
+observational, GRADE-rated low or very low [@poole2017],
+and the two Mendelian-randomization studies — a genetic natural experiment immune to reverse causation —
+find no causal signal for the mortality or the diabetes benefit [@poole2017].
+So the confidence is medium that coffee is roughly safe and neutral within usual intake — the appraisal
+this cut delivers — and very low for any *specific* causal benefit: read each risk ratio below as an
+association net of residual confounding, not a proven effect.
 
-## How good is the evidence — read this first
+The dose-response has a flat nadir: risk falls to a floor around three to four cups, and beyond that the
+benefit merely attenuates, with no harm signal within studied intakes for mortality
+[@poole2017]. The nadir is a region, not a target — two
+cups versus four barely differ, so the exact cup count carries no decision.
 
-Almost everything below is an **association, not a demonstrated effect.** The anchor is a single
-gold-tier BMJ umbrella review [@poole2017] that
-pooled **201 observational meta-analyses (67 outcomes) plus 17 meta-analyses of RCTs (9 outcomes)** —
-overwhelmingly observational cohort data, GRADE-rated **low (\~25%) or very low (\~75%)**, with the
-underlying reviews of median AMSTAR quality only 5/11. Even the RCT meta-analyses graded low.
+Three places do change a decision, and they are deferred to the end rather than the headline: pregnancy or
+trying to conceive; high-LDL or established-ASCVD-risk drinkers of large volumes of unfiltered coffee; and
+women at high fracture risk with low calcium. Separately, liver disease is the one benefit large enough to
+clear GRADE's rating-up bar and the best candidate for a future trial — the strongest candidate, not yet a
+recommendation [@poole2017].
 
-Two things keep this honest and both cut against reading the numbers as effects:
+Reporting that the lever is small and uncertain is itself the result: it releases attention, money, and
+anxiety rather than calling for action.
 
-- **Confounding by smoking is the dominant threat.** Coffee drinkers have historically been enriched
-  for smokers, and smoking is the strongest single mortality and cancer risk factor — so residual
-  smoking confounding can *manufacture* an apparent harm or *mask* a benefit. Poole notes the apparent
-  harms «were largely nullified by adequate adjustment for smoking, except in pregnancy» [@poole2017]. Coffee also tracks income and education.
-- **The genetic evidence is null.** The two Mendelian-randomization studies Poole cites — natural
-  experiments that use inherited coffee-metabolism genes as an instrument, immune to reverse causation
-  — found **no genetic evidence for a causal coffee->mortality or coffee->type-2-diabetes relation**,
-  «suggesting residual confounding could result in the observed associations» [@poole2017]. The caveat on the caveat: MR assumes a linear
-  dose-response and «might not capture non-linear differences», so it removes the *linear* causal
-  effect without refuting a non-linear one.
+This is a general appraisal for anyone the evidence speaks to; your own stratum and goals belong at the
+end, not here. And every number that follows is an association, not a proven effect — so start with how
+much to believe them.
 
-Net: treat the benefits below as **plausibly-confounded associations pending a randomized trial** —
-which is Poole's own conclusion. -> [[Upgrading Observational Evidence]]
+## The appraisal floor: how much to believe it
 
-### A measurement caveat that runs the other way
+Almost every number that follows is an *association*, not a demonstrated effect, and the design floor is low before any single finding is weighed. Poole's umbrella review pools 201 meta-analyses of observational research (67 outcomes) against just 17 of randomised trials (9 outcomes), so it rests overwhelmingly on observational cohorts, and it grades itself honestly: under GRADE — a structured certainty rating that starts observational evidence low — roughly a quarter of the estimates are *low* certainty and about three-quarters *very low*, the median AMSTAR review-quality score is 5/11, and even the handful of RCT meta-analyses are graded low [@poole2017].
 
-There is no standard cup. Bean, roast, grind, and brew all vary the dose, so cup-based exposure is
-coarse. This misclassification is non-differential (unrelated to who gets sick), which biases estimates
-**toward the null** — so the true gradients could be *steeper* than reported, not shallower. It is a
-reason the associations might understate a real effect, not overstate it. -> [[Measurement Error in Dietary Assessment]]
+The dominant threat is smoking. Coffee and smoking co-occur, so residual smoking confounding can *manufacture* an apparent harm (lung cancer) or *mask* a benefit — it runs in both directions, not one. The strongest disconfirming signal comes from Mendelian randomization (MR, a genetic natural experiment immune to reverse causation): the two MR studies Poole cites find **no genetic causal evidence** for coffee->mortality or coffee->type-2-diabetes, «suggesting residual confounding could result in the observed associations in other studies» [@poole2017]. One caveat bounds that: MR «relies on the assumption of linearity between all categories of coffee intake and might not capture non-linear differences» [@poole2017] — it nulls the *linear* effect, it does not refute a non-linear one.
 
-## How much — the dose-response has a nadir, not a harmful upper arm
+Measurement error pushes the other way. There is no standard cup — bean, roast, grind and brew all vary the dose — so cup-based exposure is coarse, and this non-differential misclassification biases *toward the null*: the true gradients could be steeper, not shallower, not weaker than reported [[Measurement Error in Dietary Assessment]]. None of this makes the associations worthless. Consistency and causal certainty are two different axes that legitimately disagree — a large, consistent association can be graded very-low for causation, and that is two instruments measuring two things, not a contradiction [[The Observational-Trial Discordance]]. For coffee the MR nulls one arm, so the honest verdict is insufficient-for-causation, not confirmed: smoking is not the whole story, but the surviving benefit is not established as causal. With that floor set, the first thing the data show cleanly is the *shape* of the dose-response.
 
-Where Poole found non-linearity (all-cause mortality, cardiovascular mortality, incident CVD, heart
-failure), the curve is a **reverse-J that flattens**: risk falls to a nadir near **three to four cups
-a day**, and «increase in consumption beyond this intake does not seem to be associated with increased
-risk of harm, rather the magnitude of the benefit is reduced» [@poole2017]. Two consequences for the decision:
+## The dose-response shape (how much)
 
-- **The nadir is a region, not a target.** The curve is flat around it, so two versus four cups barely
-  differs, and the burden is on anyone claiming a sharp optimum.
-- **Unlike alcohol, the high end is attenuated benefit, not risk.** There is no harmful upper arm for
-  mortality within studied intakes. So the question of whether the curve is real is primarily about the
-  *lower* (protective) arm — is a little better than none, or is that confounded? -> [[The U-Shaped Association Artifact]]
+The shape of the dose-response curve — where risk falls, where it flattens — is the one feature these
+observational data show reasonably cleanly, and it is **outcome-specific**: coffee's curve for one
+endpoint does not carry over to another.
 
-Grosso's dose-response meta-analysis (31 cohorts, 1,610,543 individuals) gives the pooled numbers
-for all-cause mortality versus no coffee: RR **0.92** at 1 cup, **0.85** at 2, a nadir of **0.83** at
-3, and back up to **0.90 (0.85-0.96)** at 7 — a J that plateaus then drifts toward null, never above
-it [@grosso2016, Table 2]. For type 2
-diabetes the shape is different — monotone with no plateau (below).
+For all-cause and cardiovascular mortality, the curve is a **reverse-J that plateaus**. Risk falls to a
+nadir near 3-4 cups a day; past that point «increase in consumption beyond this intake does not seem to
+be associated with increased risk of harm, rather the magnitude of the benefit is reduced»
+[@poole2017]. There is no harmful upper arm within
+studied intakes — unlike alcohol's J-curve, the high end is attenuated benefit, not added risk. The
+nadir is therefore a **region, not a target**: the curve is flat around it, so 2 versus 4 cups barely
+differs, and precision about the exact cup count carries no decision.
 
-## Is it the coffee or the caffeine? Mostly the coffee
+For type 2 diabetes the shape is different — **monotone-decreasing and mildly concave** across 1-6
+cups, risk falling step by step (RR 0.92, 0.85, 0.79, 0.75, 0.71, 0.67, vs no coffee)
+[@ding2014], with no plateau inside that range. This
+matters because the nonlinearity was **formally fitted, not read off a single coefficient**: «A cubic
+spline model accounted for more variance in the outcome than did a linear model... suggesting that the
+association was not fully linear» [@ding2014]. A curve
+built from one per-cup regression coefficient cannot evidence a shape at all; a fitted spline can, so
+the display diagnostic that fails elsewhere passes here ([[Energy Adjustment and What a Diet Coefficient Means]]).
 
-Decaffeinated coffee reproduces the main benefits. It lowered all-cause and cardiovascular mortality by
-a similar magnitude (nadir 2-4 cups), and for type 2 diabetes «Consumption of decaffeinated coffee also
-seemed to have similar associations of comparable magnitude» [@poole2017]. Poole deliberately chose *coffee*, not caffeine, as the exposure, because
-coffee's \~1000+ bioactives «could be different to effects of caffeine from other sources» [@poole2017].
+Two limits bind every number above. Each dose figure is an **average over an uncontrolled mix** — no
+standard cup size, and brew, milk, and added sugar all vary what a "cup" delivers. And any threshold
+read off these curves marks the **edge of the studied range**, not a proven feature: above roughly 6-7
+cups the cohorts thin out, so an apparent optimum there is more likely the sampling boundary than a
+knee in the curve.
 
-So for the mortality, metabolic, and liver benefits, the active exposure is the **coffee matrix**
-(chlorogenic acids, diterpenes, and the rest), not the caffeine — which usefully decouples the benefit
-from the one component that drives the pregnancy harm and the sleep, blood-pressure, and anxiety
-physiology. -> [[Is the Food Category Doing Any Work]]
+Shape aside, the substantive question is *which* outcomes coffee moves, in which direction, and how
+certainly.
 
-### The type-2-diabetes numbers make this quantitative
+## What coffee moves, by evidence state (the outcome menu)
 
-Ding's gold-tier dose-response meta-analysis (28 prospective cohorts, 1,109,272 participants, 45,335
-incident cases, median 11-year follow-up) is the primary study *inside* Poole's umbrella for diabetes —
-so it refines Poole's summary, it is not a second independent confirmation. Its per-cup figures:
-caffeinated RR **0.91 (0.89-0.94)** versus decaffeinated **0.94 (0.91-0.98)**, with **P for difference
-= 0.17 (not significant)** [@ding2014]. Ding's own
-reading: «These results suggest that components of coffee other than caffeine are responsible for this
-putative beneﬁcial effect» [@ding2014].
+The shape tells you how a benefit accrues with dose; it does not tell you which benefits are real.
+Sorting coffee's outcomes into the four evidence states — benefit, harm, no meaningful effect, and
+insufficient evidence — is the substantive appraisal. Two facts have to be read together for every row
+and never collapsed into one: the **magnitude** of the association, and the **certainty** that coffee
+causes it. A large, consistent association graded low-certainty is not a contradiction — it is a big
+number the evidence cannot yet attribute to coffee. Almost every estimate below is observational and
+GRADE-rated low or very low, and the genetic (Mendelian-randomization) evidence finds no causal signal
+for the mortality or diabetes arms.
 
-Even the caffeine-alone association is not clean: «none of the included studies controlled for coffee
-intake when modeling caffeine intake», so it is «likely to be confounded by other components of coffee
-because of the collinearity» [@ding2014]. The bound
-kept honest: categorically the caffeinated arm is *slightly* stronger (P=0.03 at the second-highest
-category, P=0.07 at the highest), so decaf clearly works and caffeine may add a marginal increment —
-*caffeine does nothing* would overstate it.
+| Outcome | Direction + magnitude (vs low/none) | Evidence state |
+|---|---|---|
+| Liver disease (cirrhosis, fibrosis, chronic liver disease, liver cancer) | benefit, largest + most consistent: chronic liver disease RR 0.35; liver cancer 0.50; cirrhosis 0.61 | benefit (assoc.) — only rows clearing GRADE's magnitude bar |
+| All-cause mortality | benefit, nadir RR **0.83** at 3 cups | benefit (assoc.) — MR-null |
+| CV mortality / CVD | CV mortality 0.81; incident CVD 0.85 at 3-5 cups | benefit (assoc.) — MR-null |
+| Type 2 diabetes | high-vs-low 0.70; monotone 1-6 cups (Ding) | benefit (assoc.) |
+| Total cancer incidence | 0.82, most single sites null | benefit (assoc.) — see below |
+| Parkinson's, Alzheimer's, depression | lower risk, consistent | benefit (assoc.) — reverse-causation caveat |
+| Gallstones, metabolic syndrome, renal stones, gout | lower risk (metabolic syndrome 0.91, 0.86-0.95) | benefit (assoc.) — minor |
+| Blood pressure | RCTs marginal/NS; obs null | no meaningful effect |
+| Fracture (women) | high-vs-low RR 1.14 | harm (women only) — see the two real harms |
+| Lung / cancer mortality in smokers | apparent harm (lung OR 1.59) | confounded — see the smoking correction |
+| Sleep, respiratory | — | insufficient (no MA held) |
 
-### Where caffeine specifically does matter
+Numbers: [@poole2017], T2D dose-response
+[@ding2014].
 
-Two places. **Pregnancy** — fetal caffeine exposure is the mechanism of the one surviving harm (below).
-And a **gene-dose effect on blood pressure**: «Those with alleles for slow caffeine metabolism were at
-increased risk of hypertension compared with those with alleles for fast caffeine metabolism»
-[@poole2017] — a candidate effect-modifier (via
-the CYP1A2 caffeine-metabolizing enzyme), not yet an actionable stratifier because slow-metabolizer
-status is not routinely known.
+**Liver disease is the big rock within the menu.** Poole: «The beneficial associations between
+consumption and liver conditions stand out as consistently having the highest magnitude compared with
+other outcomes across exposure categories» [@poole2017]. Chronic liver disease (RR \~0.35) and liver cancer (\~0.50, sitting on the boundary) are the
+only outcomes whose effect size is large enough to permit a rating-up of observational evidence
+([[Upgrading Observational Evidence]]). The proposed mechanism — antioxidant and anti-inflammatory
+action plus a direct antifibrotic effect on hepatic stellate cells — is biologically plausible but not
+established. That makes liver the strongest RCT candidate on the menu — a candidate, not a
+recommendation.
 
-## Brewing method — the one clean modifiable lever
+**Type 2 diabetes** rests on notably firm observational footing. Its estimate comes
+from Ding's dose-response meta-analysis (28 cohorts, \~1.1M participants)
+[@ding2014], and the residual confounding there runs
+*toward* the null (heavier coffee drinkers tended to have less healthy lifestyles), so it is a weaker
+escape than for mortality. Poole's headline 0.70 is Ding's own highest-category figure, so the effect
+is cited to Ding, not to the umbrella.
 
-The single within-*coffee* boundary that carries a real, mechanistic decision is **filtered versus
-unfiltered.** Coffee overall raises serum lipids in RCT meta-analysis — total cholesterol **+0.19
-mmol/L (0.10-0.28)**, LDL **+0.14**, triglycerides **+0.14** — through the diterpenes **cafestol and
-kahweol**, and the effect tracks the *unfiltered* preparations. Instant and filter coffee contain
-«negligible» diterpenes; espresso more; boiled and cafetière (French press) the most. A paper filter
-removes most of it: «The increases in cholesterol concentration were mitigated with filtered coffee,
-with a marginal rise in concentration (mean difference 0.09 mmol/L, 0.02 to 0.17) and no significant
-changes to low density lipoprotein cholesterol or triglycerides compared with unfiltered (boiled)
-coffee» [@poole2017].
+**Parkinson's, Alzheimer's, and depression** all show consistent lower-risk associations. Parkinson's
+is the most studied and survives adjustment for smoking, but it carries a specific reverse-causation
+suspicion: coffee intake can fall during the years-long prodromal phase before diagnosis, which would
+depress recorded intake among future cases and mimic protection ([[Parkinsons Disease Modifiable Risk Factors]]). **Blood pressure** shows no meaningful effect — RCT changes are marginal and
+non-significant, observational estimates null.
 
-Do not over-weight the lipid signal, though. Poole notes the changes are small, reverse on abstinence,
-and coffee «does not seem to be associated with adverse cardiovascular outcomes» despite them — the LDL
-surrogate moves the wrong way while hard cardiovascular outcomes do not, a [[Surrogate Outcomes]]
-disconnect. The actionable residual is narrow: **someone drinking large volumes of unfiltered coffee
-who has high LDL or established cardiovascular risk has a cheap lever — switch to filtered.** For
-everyone else the diterpene effect is marginal. -> [[Is the Food Category Doing Any Work]]
+**Cancer** splits by row. Total cancer *incidence* carries a benefit association (\~0.82), but most
+single sites are null, and the apparent *harms* (lung cancer OR 1.59; cancer mortality among smokers)
+run through smoking rather than coffee. The IARC 2016 monograph that reclassified coffee is not held in
+the fabric, so no cancer-causation claim is written here in either direction.
 
-## What coffee moves, outcome by outcome
+Bone/fracture and the pregnancy harm are stratum-specific and handled with the two real harms below.
+Two of the benefit rows above — all-cause mortality and total cancer — are hostage to a single
+confounder: coffee drinkers are enriched for smokers, and smoking is the dominant driver of both death
+and cancer. Before either can be read as coffee's doing, it needs the smoking correction.
 
-All magnitudes are versus no coffee unless noted, and all carry the confounding caveat above. States are
-the four the wiki keeps distinct: benefit, harm, no meaningful effect, insufficient.
+## Smoking confounds the curve: Grosso's referent correction
 
-| Outcome | Direction + magnitude | State | Note |
-|---|---|---|---|
-| **Liver disease** (cirrhosis, fibrosis, NAFLD, chronic liver disease) | benefit, LARGEST: chronic liver disease high-vs-low RR 0.35; cirrhosis 0.61; NAFLD 0.71 | benefit | only outcomes reaching GRADE-upgradeable magnitude (RR <0.5) |
-| **All-cause mortality** | 0.83 at 3 cups | benefit (assoc.) | MR-null; confounding caveat |
-| **CV mortality / incident CVD** | CV mortality 0.81 (0.72-0.90); incident CVD 0.85 (0.80-0.90) at 3-5 cups | benefit (assoc.) | MR-null |
-| **Type 2 diabetes** | high-vs-low 0.70 (0.65-0.75); monotone across 1-6 cups | benefit (assoc.) | decaf lowers risk too |
-| **Total cancer incidence** | high-vs-low 0.82 (0.74-0.89) | benefit (assoc.) | most single sites null |
-| **Parkinson's, depression, Alzheimer's** | lower risk, consistent | benefit (assoc.) | Parkinson's survives smoking adjustment |
-| **Gallstones, gout, renal stones, metabolic syndrome** | lower risk | benefit (assoc.) | — |
-| **Blood pressure** | RCTs marginal, non-significant; observational null | no meaningful effect | — |
-| **Lung cancer** | apparent harm OR 1.59 high-vs-low | **confounded to null** | «not seen in never smokers» — residual smoking confounding |
-| **Most cancer sites** (gastric, colorectal, breast, ovarian, pancreatic...) | no significant association | no meaningful effect / insufficient | — |
-| **Pregnancy** (low birth weight, preterm, loss) | harm: LBW OR 1.31; loss 1.46; 1st-trimester preterm 1.22 | **harm** | survives smoking adjustment |
-| **Fracture in women** | high-vs-low RR 1.14 (1.05-1.24); men 0.76 | **harm (women only)** | sex effect-modifier, P<0.001 |
-| **Sleep, respiratory** | — | **insufficient** | no meta-analysis existed — named gaps, not nulls |
+Grosso 2016 — a dose-response meta-analysis of 31 cohorts, 1,610,543 individuals — performs the never-smoker referent correction [[The U-Shaped Association Artifact]] that Poole's evidence base left pending, re-running the coffee-mortality dose-response within smoking strata to see what the dominant confounder was doing. [@grosso2016] Heterogeneity fell in every smoking-stratified model, a sign that smoking status was a major source of between-study variance.
 
-[@poole2017]
+Cancer mortality is the clean sign-flip. Pooled, coffee shows no cancer-mortality association; stratified, «cancer mortality was significantly decreased only when considering non-smokers, while increased in smokers». [@grosso2016] Grosso reads the flip as smoking confounding, not effect-modification: it is «hardly plausible that any biological effect of coffee causally differs by smoking status», so «residual confounding by smoking is the most likely the explanation» — heavy coffee drinkers are enriched for smokers, and smoking is the dominant cancer risk factor. [@grosso2016]
 
-### The liver row is the big rock
+All-cause and CVD mortality linearize too, but Grosso does not attribute that to smoking. In never-smokers the curve is linear-monotone — roughly RR 0.94 per cup, \~6% lower risk each cup — where the pooled curve is a reverse-J (nadir RR 0.83 at 3 cups, rising to 0.90 at 7). [@grosso2016] Removing smokers thus erases the upper-arm attenuation here as well. But Grosso reports «No differences were found between smokers and non-smokers for all-cause and CVD mortality risk», attributing the smoking artifact explicitly only to cancer. [@grosso2016] So reading the all-cause upper arm as a smoking artifact is the wiki's inference from the linear-vs-J contrast, held against Grosso's own no-difference statement — suggestive, not established.
 
-Poole: «The beneficial associations between consumption and liver conditions stand out as consistently
-having the highest magnitude compared with other outcomes across exposure categories» [@poole2017]. Liver cancer and chronic liver disease are the *only*
-outcomes whose effect size (RR below 0.5) is large enough to permit a GRADE upgrade of observational
-evidence — the threshold at which bias is unlikely to explain the whole effect [@poole2017] -> [[Upgrading Observational Evidence]]. An
-antioxidant / anti-inflammatory and direct antifibrotic mechanism on hepatic stellate cells is proposed
-[inferred from @poole2017]. This is the one large, mechanistically-supported benefit that would
-justify a trial — but it is the best causal *candidate*, not yet a recommendation.
+What the correction does not fix: it removes the dominant confounder, not SES or reverse-causation residuals, and Grosso is observational throughout. Poole's Mendelian-randomization citations still find no genetic causal signal for coffee->mortality. [@poole2017] These are consistent, not contradictory: the per-cup benefit survives the smoking correction yet not the genetic instrument, leaving residual non-smoking confounding as the live explanation -> [[The U-Shaped Association Artifact]]. Smoking is not the whole story, but the surviving benefit is not established as causal.
 
-### The type-2-diabetes benefit sits on firmer footing than mortality
+Smoking-confounded or not, two harms are real and stratum-specific — and they, not the averages, gate the recommendation.
 
-Ding's cubic-spline gradient versus no coffee runs **0.92 / 0.85 / 0.79 / 0.75 / 0.71 / 0.67** for
-1 to 6 cups a day — «6 cups/day of coffee was associated with a 33% lower risk of type 2 diabetes»
-[@ding2014]. The shape is monotone-decreasing with
-mildly diminishing per-cup returns and no plateau within the range, and non-linearity was *statistically
-detected* — so it is a genuine spline fit, not an artifact of forcing a single straight-line coefficient
-onto the data.
+## The two real harms — stratum-specific
 
-Two features the mortality arm lacks make diabetes the more robust *observational* case:
-the adjusted and unadjusted curves nearly coincide, and the confounding runs **toward the null** —
-«higher coffee consumption was generally associated with a less healthy lifestyle... the true
-association... might be stronger than observed» [@ding2014]. That is the opposite direction from the mortality arm, where coffee-smoking correlation
-*manufactures* apparent benefit. But causality is still open: the same MR-null covers diabetes, so it
-remains a plausibly-confounded association pending a trial. Magnitudes are relative-only — a person's
-absolute benefit scales with their baseline diabetes risk.
+Two harms do not wash out under the smoking correction or into the population
+averages, and it is they, not the pooled numbers, that gate the recommendation.
+Each is confined to one stratum, and each runs through caffeine.
 
-## Smoking confounds the mortality curve — Grosso's referent correction
+**Pregnancy — a contraindication, not a shift in the general estimate.** Here the
+harm survives smoking adjustment: low birth weight OR 1.31, pregnancy loss 1.46,
+first-trimester preterm birth 1.22
+[@poole2017]. The mechanism is
+dose-amplification of the same intake, not a new pathway: «The half life of caffeine
+is known to double during pregnancy», caffeine is known to «easily cross the
+placenta», and activity of CYP1A2 — the liver enzyme that clears caffeine — is «low
+in the fetus, resulting in prolonged fetal exposure»
+[@poole2017]. An equivalent
+per-cup intake therefore delivers a higher effective fetal dose. This is a
+**contraindication (route c)** for the pregnancy / trying-to-conceive stratum — limit
+caffeine — and it does not move the general-population estimate.
 
-Grosso's move was to **stratify the dose-response by smoking status.** In **never-smokers** the curve
-becomes **linear-monotone** with no upper-arm attenuation: «a linear dose-response analysis showed a
-signiﬁcant decreased risk by 6 % for each additional cup of coffee per day consumed for all-cause and
-CVD mortality (RR = 0.94, 95 % CI = 0.93, 0.96 and RR = 0.94, 95 % CI = 0.91, 0.97, respectively) and
-signiﬁcant decreased risk of 2 % for cancer mortality (RR = 0.98, 95 % CI = 0.96, 1.00)» [@grosso2016]. Heterogeneity fell in every
-smoking-stratified model — a tell that smoking was a major source of between-study variance.
+**Fracture in women — a sex-modified, offsettable harm.** There is no overall
+association, but sex is an effect modifier: «high versus low consumption was
+associated with an increased risk of fracture in women (relative risk 1.14, 95%
+confidence interval 1.05 to 1.24) and a decreased risk in men (0.76, 0.62 to 0.94)»,
+test of interaction P<0.001
+[@poole2017]. Two attenuators
+bound it:
 
-- **Cancer is the clean confounding demonstration** — it *flips sign*: «cancer mortality was
-  signiﬁcantly decreased only when considering non-smokers, while increased in smokers» [@grosso2016]. Grosso pins this to confounding, not
-  biology: «it is hardly plausible that any biological effect of coffee causally diﬀers by smoking
-  status... residual confounding by smoking is the most likely the explanation» [@grosso2016].
-- **For all-cause and CVD the artifact reading is weaker, and Grosso does not make it.** Removing
-  smokers does linearize these curves too, but Grosso reports «No diﬀerences were found between smokers
-  and non-smokers for all-cause and CVD mortality risk» [@grosso2016], attributing the smoking artifact explicitly only to cancer. Treat the
-  all-cause/CVD version as suggestive, not established.
-- **What it does not fix.** Grosso is observational — it removes the dominant confounder but not SES,
-  reverse causation, or other residuals, and Poole's MR found no genetic signal. So the two are
-  consistent: the per-cup benefit **survives the smoking referent-correction yet not the genetic
-  instrument**, pointing to residual *non-smoking* confounding as the live remaining explanation. The
-  \~6% relative reduction per cup is small and given without a baseline risk (relative-only). -> [[The U-Shaped Association Artifact]]
+- a caffeine systematic review found «a caffeine intake of 400 mg/day (about four cups
+  of coffee) was not associated with adverse effects on the risk of fracture, falls,
+  bone mineral density, or calcium metabolism»
+  [@poole2017];
+- «only a small amount of milk added to coffee would be needed to offset any negative
+  effects on calcium absorption»
+  [@poole2017].
 
-## The two real harms — stratum-specific, and they gate the recommendation
+So the harm is plausibly confined to women with inadequate calcium intake and is
+offsettable — a minor caution for a narrow stratum, not a reason to quit.
 
-- **Pregnancy** is the one place harm survives smoking adjustment: low birth weight OR **1.31
-  (1.03-1.67)**, pregnancy loss **1.46 (1.06-1.99)**, first-trimester preterm **1.22 (1.00-1.49)**. The
-  mechanism is dose-amplification of caffeine, not a new pathway: «The half life of caffeine is known
-  to double during pregnancy... Caffeine is also known to easily cross the placenta, and activity of
-  the caffeine metabolising enzyme, CYP1A2, is low in the fetus, resulting in prolonged fetal exposure»
-  [@poole2017]. The same per-cup intake delivers a
-  higher effective fetal dose. This is a contraindication for pregnancy or trying to conceive, not a
-  shift in the general estimate.
-- **Fracture in women** — no overall association, but sex is a genuine effect-modifier: «high versus
-  low consumption was associated with an increased risk of fracture in women (relative risk 1.14, 95%
-  confidence interval 1.05 to 1.24) and a decreased risk in men (0.76, 0.62 to 0.94)... test of
-  interaction... 1.50, 1.20 to 1.88; P<0.001)» [@poole2017]. Two attenuators Poole flags: a caffeine review found 400 mg/day (\~4 cups) *not* associated
-  with fracture or bone-density harm, and «only a small amount of milk added to coffee would be needed
-  to offset any negative effects on calcium absorption». So the harm is plausibly confined to women with
-  inadequate calcium, and adding milk may remove it — a small caution, not a stop.
+Both harms run through caffeine — the pregnancy signal by direct fetal dose, the
+fracture signal via caffeine and calcium — which raises the question the benefit
+evidence answers the other way: whether caffeine is even the active agent for the
+*benefits*.
 
-## Putting it together — the decision
+## What varies within the cup
 
-- **For most non-pregnant adults, coffee is not a big rock.** It is a low-cost, likely-net-favourable
-  or neutral habit — *more likely to benefit than harm* over a flat dose-response — so there is no
-  strong reason to start, increase, or quit for health within about three to four cups a day. That the
-  lever is small and uncertain is the decision-relevant finding.
-- **The genuinely actionable, stratum-specific calls are three:** (1) pregnancy or trying to conceive —
-  limit caffeine (contraindication); (2) women at high fracture risk with low calcium intake — a
-  small caution, offset by adding milk; (3) high LDL or established cardiovascular risk while drinking
-  large volumes of unfiltered coffee — switch to filtered.
-- **The one large, mechanistically-supported benefit worth a trial is liver disease** — the best causal
-  candidate in the whole picture, but not yet a recommendation.
+The dose figures above treat a cup of coffee as a fixed unit, but the cohorts behind them pooled
+drinks that differ on three axes never held constant: caffeinated versus decaffeinated, filtered
+versus unfiltered, and black versus sweetened. Each axis moves a different outcome in a different
+direction, so which one a recommendation is about has to be named before the recommendation means
+anything -> [[Is the Food Category Doing Any Work]].
 
-The full appraisal these calls rest on is [[Coffee Consumption and Health]].
+### Caffeine or the matrix? The decaf test
 
-## Named gaps — what this appraisal cannot yet answer
+Decaffeinated coffee reproduces the main benefits. It lowered all-cause and cardiovascular mortality
+at magnitudes similar to caffeinated coffee [@poole2017], and for type 2 diabetes the per-cup reduction is statistically indistinguishable between
+the two — RR 0.94 (0.91-0.98) decaffeinated versus 0.91 (0.89-0.94) caffeinated, P for difference
+0.17 [@ding2014]. So the agent behind the
+mortality, metabolic and liver benefits is the **coffee matrix** — its chlorogenic acids and roughly
+1,000 other bioactive compounds — not the caffeine; Poole studied «coffee, rather than caffeine» for
+exactly this reason [@poole2017].
 
-- **Cancer classification is not held.** The 2016 IARC monograph that removed coffee from Group 2B
-  ("possibly carcinogenic") — and rated *very hot beverages* as 2A, which is about drinking
-  temperature, not coffee — is not in the corpus, so no claim is written from it here. What the held
-  evidence supports is only the confounding story above (an apparent cancer signal that is largely a
-  smoking artifact).
-- **Sleep and timing is a true gap, not a null.** No coffee-or-caffeine-and-sleep meta-analysis was
-  held — Poole excluded the question because none existed at review time [@poole2017]. Caffeine's half-life is roughly five to six hours, so
-  afternoon and evening consumption plausibly degrades sleep, but the wiki holds no pooled evidence to
-  quantify the time-of-day threshold. Treat *stop drinking coffee by early afternoon* as mechanistically
-  reasonable and formally unadjudicated here.
-- **Effect on established disease is largely unstudied** — only one meta-analysis (post-MI mortality)
-  addressed a diseased population, so the effect on the *natural history* of established disease is
-  insufficient-evidence, not benefit.
-- **No randomized hard-outcome trial exists.** Every benefit above is observational; the causal
-  question stays open, and the Mendelian-randomization evidence is null.
+This decouples the benefit from the one component that carries the downsides. Caffeine — not the
+matrix — drives coffee's acute physiology, and its half-life of roughly 5-6 hours underlies its
+effects on sleep, blood pressure and anxiety; it is also the agent behind the pregnancy
+harm. Where caffeine specifically matters is narrow: the pregnancy harm runs through fetal caffeine
+exposure, and a CYP1A2 gene-dose signal — slow metabolizers at higher hypertension risk than fast
+ones — is a candidate effect-modifier, not yet an actionable one [@poole2017].
 
----
+The equivalence is not perfect: categorically the caffeinated arm is slightly stronger for type 2
+diabetes (P = 0.07 at the highest intake) [@ding2014], so caffeine may add a marginal increment — the claim is that the matrix carries the bulk of the
+benefit, not that caffeine contributes nothing. The caffeine-alone associations are themselves suspect:
+«none of the included studies controlled for coffee intake when modeling caffeine intake and diabetes»
+[@ding2014], so caffeine's apparent solo effect is
+confounded by its collinearity with coffee — which again cuts toward the matrix, not the molecule.
+
+If caffeine is not the lever for the benefits, a different within-cup boundary still carries a real
+one: how the coffee is brewed.
+
+### Brewing method: the diterpene lever
+
+Filtered versus unfiltered is load-bearing for blood lipids, through two diterpenes — **cafestol and
+kahweol** — that survive some brewing methods and not others. Unfiltered preparations (boiled,
+cafetière/French press, espresso) carry them; paper-filtered and instant coffee do not. In RCT
+meta-analysis, unfiltered coffee raised total cholesterol by +0.19 mmol/L (0.10-0.28), LDL by +0.14
+and triglycerides by +0.14, while a paper filter left «no significant changes to low density
+lipoprotein cholesterol or triglycerides compared with unfiltered (boiled) coffee» [@poole2017].
+
+But the lipid signal is a surrogate that does not track the hard outcome: LDL moves the wrong way
+while coffee is not associated with worse cardiovascular events [@poole2017], and the change is small and reverses on stopping -> [[Surrogate Outcomes]]. The residual that is actually actionable is narrow: someone with high LDL or established
+ASCVD risk who drinks large volumes of unfiltered coffee has a cheap lever — switch to filtered. For
+everyone else the diterpene effect is marginal. The brewing boundary, not the word coffee, is the
+decision variable here -> [[Is the Food Category Doing Any Work]].
+
+Brewing is one uncontrolled axis inside the cup; what is added to it is another.
+
+### What's added: sugar changes the exposure
+
+The cohort exposure "coffee" also pools it black, with milk, and with sugar. Milk's effect is minor —
+a little added to coffee offsets its small drag on calcium absorption [@poole2017]. Added sugar is not minor: a sugar-sweetened coffee drink
+imports the free-sugars / sugar-sweetened-beverage harm held elsewhere -> [[Free Sugars Intake]], so
+the mortality and diabetes benefits attach to **coffee (the beverage)**, not to a sugar-loaded coffee
+drink. No held cohort separates sweetened from unsweetened coffee on hard outcomes — a named gap in
+the evidence, so this reading is, not a measured finding.
+
+Sweetened-versus-unsweetened is one question the evidence cannot yet answer — and it is not the only
+one.
+
+## What the evidence does NOT settle (named gaps)
+
+Three questions stay open, and they are *insufficient evidence*, not evidence of no effect — the distinction the four-state discipline keeps: silence from an unstudied question is not a null.
+
+- **Sleep and timing.** No coffee/caffeine-and-sleep meta-analysis is held — Poole's umbrella excluded it, and none existed at review time [@poole2017]. Yet caffeine's half-life means an afternoon or evening cup plausibly still carries an active dose at bedtime, so late-day intake could disrupt sleep. That is a **named gap, mechanism-directional only** — a reason to expect an effect and to time intake earlier, **not** a measured finding and explicitly **not** a null. It attaches to [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]] if a coffee/caffeine-sleep MA is ever acquired.
+
+- **Cancer and the IARC monograph.** The 2016 IARC re-evaluation (which removed coffee from Group 2B, and whose Group 2A "very hot beverages" rating is about *temperature*, not coffee) is **not held**, so no cancer-causation claim is written here [@poole2017]. What the held evidence shows is narrower: total-cancer *incidence* carries a benefit association, the apparent site harms (lung) collapse under smoking correction, and **most single cancer sites are null or insufficient** -> [[The U-Shaped Association Artifact]].
+
+- **Respiratory outcomes and the natural history of established disease.** Respiratory endpoints, and the course of already-diagnosed disease (only one MA, post-MI), rest on too little evidence to state a direction — **insufficient**, held as a gap [@poole2017].
+
+Netting the settled, the confounded, and the still-unknown is what produces the decision.
+
+## Decision summary — for whom, what to do
+
+The population verdict, as an action: for most non-pregnant adults there is **no strong health reason to start coffee, increase it, or quit**, anywhere within roughly 3-4 cups/day. The lever is small and uncertain, and the dose-response is flat near its nadir, so the exact cup count changes nothing. That ceiling **is** the result — it licenses stopping the optimization rather than prescribing a change.
+
+The genuinely stratum-specific calls, deferred to here rather than led with:
+
+- **Pregnancy / trying to conceive** — limit. Harm survives smoking adjustment and runs through caffeine dose-amplification; this is a contraindication for the stratum, not a shift in the general estimate.
+- **High-LDL or established-ASCVD-risk drinkers of large volumes of *unfiltered* coffee** — switch to filtered. A cheap [[Is the Food Category Doing Any Work|brew-method]] lever via the diterpenes cafestol and kahweol; marginal for everyone else.
+- **Women at high fracture risk with low calcium intake** — a minor caution only, and a little milk offsets the calcium loss.
+
+One finding to watch, not yet to act on: **liver disease** is the single benefit large enough to clear GRADE's rating-up bar (chronic liver disease high-vs-low RR 0.35 [@poole2017]; liver cancer \~0.50) and Poole's named best RCT target — a **candidate, not a recommendation**.
+
+Which of these applies, and how the outcomes are weighed, is the individual layer: the appraisal above is general, and the stratum and goals belong here, at the end, not at the top of the page.
 
 ### Mandatory caveats
 
-- **Open loop.** This wiki grades internal coherence and fidelity to its sources — never whether a
-  recommendation actually improves outcomes in the world. A clean appraisal is not a validated result.
 - **Appraise, do not prescribe.** This is a general, population-level appraisal, not medical advice;
-  selecting, dosing, and screening for individual contraindications are prescriber acts requiring
-  information this document does not hold.
-- **A general appraisal, applied per person.** Pregnancy status, sex and calcium intake, baseline LDL
-  and cardiovascular risk, caffeine sensitivity, and your realistic alternative decide the individual
-  weighting.
-- **Health axis only.** This cut weighs coffee on longevity, cardiometabolic, liver, and
-  musculoskeletal outcomes; cost, taste, and ritual are real and yours to weigh, not appraised here.
-- **The target is not agreement or divergence with any guideline.** It is showing how good the coffee
-  evidence is — overwhelmingly observational, confounded by smoking, genetically null — and where,
-  despite that, a small stratum-specific decision changes.
+  selecting a target, screening for individual contraindications (pregnancy, medication interactions,
+  arrhythmia, anxiety disorders), and managing them are prescriber acts requiring information this
+  document does not hold.
+- **Open loop.** This wiki grades internal coherence and fidelity to its sources — never whether a
+  recommendation actually improves outcomes in the world. No step here tests a claim against a realized
+  outcome, so a clean appraisal is not a validated result.
+- **Health axis only.** This cut weighs coffee on longevity, cardiometabolic, liver, and neurological
+  outcomes; taste, ritual, cost, and caffeine-dependence are real and yours to weigh, not appraised here.
+- **A general appraisal, applied per person.** Your stratum — pregnancy, cardiovascular and fracture
+  risk, calcium intake, brew and sweetening habits — and your goals decide the individual weighting, at
+  the end, not the top.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
-> | **Question** | What does the evidence show about coffee — how much, what form, for whom, on which patient-important outcomes — and how good is that evidence? |
+> | **Question** | What are the effects of coffee on health, longevity, and quality of life — for someone deciding whether, how much, and how to drink it? |
 > | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Coffee.md) |
+> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Coffee.md) |
 
 ## References

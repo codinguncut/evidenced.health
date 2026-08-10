@@ -2,471 +2,319 @@
 type: deliverable
 title: Better than What?
 icon: material-symbols-light:balance
-question: 'Is X more likely than Y to help me achieve my patient-important outcomes? — how to choose a lifestyle intervention you will actually do, when the objectives compete, the evidence is partial, and the choice is made in a real environment rather than an RCT arm.'
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, Sumithran - Hormonal Adaptation Weight Loss 2011, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Astrup - Saturated Fats Reassessment 2020, Jha - Smoking Hazards Cessation Benefits 2013, WHO - Saturated and Trans Fatty Acid Intake 2023, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
+question: 'How does the choice of comparator (replace X with what?) change the estimated effect of a dietary or lifestyle exposure, and how should a recommendation frame substitutions when objectives compete, evidence is partial, and the choice is made in a real environment rather than an RCT arm?'
+sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-10
+self_critiqued: 2026-08-10
 ---
 
-## The one question that replaces *is X healthy?*
-
-Almost every health decision is secretly a comparison, and stating it as one dissolves most of the
-confusion. The question worth asking is never *is X good for me?* — it is:
-
-**Is X more likely than Y to help me achieve the outcomes I actually care about?**
-
-That single sentence carries four separate decisions, and naming them is what keeps this guide from
-collapsing into the useless answer *it depends*. It depends on exactly four things, each of which you
-can pin down:
-
-- **more likely** — the choice is probabilistic, made under real uncertainty, never proof. What can and
-  cannot be known here is its own subject -> [[Limits of Evidence]].
-- **than Y** — the realistic comparator. X is never judged against nothing; it is judged against what
-  you would otherwise do.
-- **help me** — your stratum and your baseline risk. The same X helps one person and harms another.
-- **patient-important outcomes** — the things you can feel and live (heart attacks avoided, years of
-  good function), weighted by *you*, not a lab marker standing in for them.
-
-This is anti-bromide by construction: *it depends* becomes a checklist of four answerable variables.
-The rest of this guide cashes each one into specifics, and holds a hard line against the way
-comparative thinking is abused to explain away real harm.
-
-## The choice is comparative, not absolute
-
-*Is fruit juice healthy?* has no answer. Against a can of soda it is an improvement; against a glass of
-water it is a few hundred empty calories you did not need. *Is butter healthy?* Against a
-trans-fat-laden 1980s margarine, yes; against olive oil, no. *Is red meat harmful?* For a frail
-80-year-old losing muscle it may be the easiest high-quality protein available; for a sedentary
-50-year-old with a high apoB it is a lever pushing the wrong way. **Same food, opposite calls — because
-the comparator and the stratum changed, not the food.** -> [[frame-as-substitutions]],
-[[Is Red Meat Harmful]]
-
-### A claim without a comparator is not an effect estimate
-
-The advice *reduce saturated fat* specifies no replacement, and its entire meaning hinges on what fills
-the gap: swap it for refined starch and little happens; swap it for polyunsaturated fat and events fall.
-Formal appraisal frameworks make the comparator a mandatory slot for exactly this reason — a
-recommendation must name the population, intervention, comparison, and outcome, and the comparison is
-the slot most often left implicit, which is what lets an ill-posed claim masquerade as an answer
--> [[Framing a Decision Question]].
-
-The trap runs one level deeper: the label may not even be a single thing. Saturated fat is not one
-exposure — processed meat associates with heart disease and diabetes while unprocessed red meat does
-not, so «the SFA content of meat is unlikely to be responsible for this association»; whatever carries
-the risk, it is not the fat the label names [@astrup2020]. Before you compare X to Y, check that X is one thing -> [[Is the Food Category Doing Any Work]].
-
-**Decision-change:** never accept *is X good*. Force the comparison — *instead of what, for whom, on
-which outcome?* — and if the label hides a mix, name the sub-component that actually does the work
-before you decide.
-
-### The anti-rationalization guard — relativize among reasonable choices only
-
-Comparative thinking is essential and it is simultaneously the single most common way real harm gets
-laundered. The abuse has a signature move: *everything has a cost, everything is a little bit hormetic,
-so it's all relative — who's to say?* That is a false equivalence, and it is worth naming out loud so
-you can catch it in your own reasoning.
-
-**A large, well-evidenced harm is a harm regardless of comparator.** The measurement noise that plagues
-this field flattens findings toward zero, so a harm big enough to survive crude methods is almost
-certainly real — the *large-harms-are-detectable* asymmetry -> [[Limits of Evidence]]. Three examples
-end the conversation rather than open it:
-
-- **Trans fat.** The evidence is strong enough that the recommendation is a strict cap — under 1% of
-  total energy, with elimination of industrially produced trans fat the goal, not mere moderation; and
-  industrial and ruminant trans fats were assessed together and judged to behave the same, so there is
-  no *natural* loophole [@who2023saturated, Annex 8].
-- **Tobacco.** Continuing smokers carry roughly three times the all-cause death rate (hazard ratio \~3.0);
-  quitting by about 40 recovers close to 10 years of life
-  [@jha2013]. No comparator relativizes that.
-- **Heavy alcohol.** A big-rock harm on its own axis, not a matter of framing.
-
-These are the big rocks -> [[Big Rocks (Median)]]. Hormesis — a real benefit from a small dose of a
-stressor — exists only for *specific* exposures with *quantified human outcomes*; the blanket claim that
-*everything is hormetic* makes no falsifiable prediction and is the unfalsifiable over-generalization the
-demarcation line exists to reject.
-
-**Decision-change:** use the comparative frame to rank among *reasonable* options; never to readmit a
-big-rock harm. If one option is a known large harm, the comparison is already over — you are choosing
-among the rest.
-
-## Adherence is a term in the effect, not a footnote
-
-An intervention you abandon has no effect. So the quantity that decides a real outcome is not peak
-efficacy but the **adherence-weighted expected effect** — roughly *efficacy x the fraction of the
-intended dose you actually sustain*. Compare those products, not the headline efficacies of two plans
-you have not yet lived. This is the telos's *adherence is part of the effect*, and a guidance body says
-it too — the incremental benefit of each stacked addition is eroded by the adherence cost it imposes
--> [[Layer 1 - Ranking Interventions for a Stratum]].
-
-### The condition where the *worse* plan wins — stated precisely, not as a slogan
-
-A less-effective plan you stick to can beat a more-effective plan you quit — but only under a specific
-condition, and stating it is what stops this from becoming the lazy maxim *the best diet is the one you
-stick to*. The condition is **diminishing returns plus a small efficacy gap**: when the two options sit
-on the flat part of the dose-response curve and are close in peak effect, sustained adherence to the
-lesser one wins on the product -> [[Layer 1 - Ranking Interventions for a Stratum]].
-
-It is **not** a law. A **big lever sits on the steep part of the curve**, where even mediocre adherence
-banks most of a large effect — quitting smoking, or a drug for a high-risk person, wins on the product
-*even when adherence is poor*, because the efficacy term is enormous. Know which regime you are in
-before you invoke adherence.
-
-### What the diet-trial evidence actually measures
-
-The largest head-to-head diet review makes this concrete. Pooling 61 randomized trials, low-carbohydrate
-diets beat balanced-carbohydrate diets by about **1 kg**, which the review judges not clinically
-important [@naude2022, Discussion]. But 27% of
-trial arms reported nothing about whether the diet was followed at all, and where adherence was
-reported it was often low — one trial recorded 22% and 29% adherence in its two arms
-[@naude2022]. When the two arms were
-matched on prescribed calories, the low-carb advantage collapsed to **-0.48 kg with zero heterogeneity**
-[@naude2022, Analysis 1.2].
-
-So the trial's number is not *the effect of eating low-carb* — it is the effect of *being assigned*
-low-carb advice, at the adherence real people achieved. For someone choosing between two sets of advice,
-that is the decision-relevant quantity, and it says the macronutrient split barely matters at the
-population level. The decision moves to adherence, cost, and preference — with cognitive load, decision
-fatigue, and opportunity cost counted as real constraints, not excuses.
-
-**Decision-change:** choose the intervention with the higher *product* (efficacy x sustained
-adherence), not the higher efficacy — unless the lever is a big one on the steep part of the curve,
-where efficacy dominates and you take it even at poor adherence. State which case you are in.
-
-## Competing outcomes — structure the net effect, do not collapse it
-
-The hardest choices move two patient-important outcomes in opposite directions, and the temptation is to
-net them into a single verdict. Resist it. There is no scalar "health" to maximize, because collapsing
-two outcomes into one number requires a weighting that is irreducibly yours -> the outcome menu
-(CLAUDE.md, *no single maximand*), whose worked case is the lipid axis
--> [[LDL ApoB and Cumulative Exposure]].
-
-### The worked case: a low-carb / animal-based diet
-
-Carbohydrate restriction can reduce visceral fat (a cardiometabolic benefit) while raising apoB / LDL
-cholesterol (an atherosclerotic-risk cost). In the DIETFITS trial the low-carb arm raised LDL, with the
-between-group change significantly favoring the low-fat arm
-[@gardner2018]. You cannot declare this diet "net
-beneficial" — the trade of apoB against visceral fat is a weighting only the person can supply. What
-this guide *does* is lay out each axis honestly so the person can weight it:
-
-- **Does each axis transmit to something you care about?** Both do here. apoB-containing particles
-  causally drive atherosclerotic disease, the dose is cumulative (magnitude x years), and the marker's
-  transmission to hard outcomes is itself evidenced — «unequivocally establishes that LDL causes ASCVD»
-  [@ference2017] -> [[LDL ApoB and Cumulative Exposure]]. Visceral fat transmits to cardiometabolic disease too. Neither cost is a free-floating
-  number.
-- **Is the cost a real risk for this stratum, or a marker artifact?** This is where the "lean-mass
-  hyper-responder" lives — a lean, metabolically healthy person whose LDL leaps on low-carb. The honest
-  read is *measure apoB*, not *dismiss the rise*: in the metabolically impaired, LDL-C understates the
-  apoB particle burden, so the number to trust is apoB, and a large apoB rise is a real cumulative-risk
-  signal, not an artifact to wave away -> [[LDL ApoB and Cumulative Exposure]].
-- **Scale by baseline risk and time horizon.** Because apoB risk is cumulative, an LDL rise sustained
-  for decades in a 40-year-old matters more than the same rise begun at 75 — *lower for longer*
-  outweighs *lower later*.
-
-**Decision-change:** never net competing axes into one verdict. Present each axis's direction, certainty,
-and transmission-to-outcome; scale each by the person's baseline risk and horizon; then hand the
-weighting to the person. Here: measure apoB, weight it against the visceral-fat benefit, and decide
-per case.
-
-## When the trade-off decides clearly — and when to wait
-
-The anti-rationalization guard was one edge of a decisive framework: a large well-evidenced harm
-survives any comparator. This section is the symmetric other edge — a large benefit in a genuinely
-high-risk stratum survives any *weighting* — plus the tools for the harder case where the cost is not a
-competing outcome but an *unknown*. The point of naming both edges is that the framework is decisive at
-the extremes and only truly "weighs" in the middle. It is not relativism -> [[Big Rocks (Median)]],
-[[Limits of Evidence]].
-
-### When the trade-off collapses — the high-baseline-risk stratum
-
-In metabolic syndrome with central obesity (BMI \~35+), the multi-axis trade-off resolves to a near-
-single answer — not by ignoring the weighting, but because every plausible weighting points the same
-way. **Absolute benefit is large** (baseline risk is high and visceral adiposity is a dominant lever),
-and **the competing cost shrinks or reverses**: the apoB rise that bites a *lean* low-carb responder does
-not apply here, because losing fat mass in obesity usually improves the lipid profile. The magnitude is
-real: in DiRECT, an intensive weight-management programme achieved type 2 diabetes remission in 46% of
-the intervention group versus 4% of controls (odds ratio 19.7, 95% CI 7.8-49.8), and remission scaled
-steeply with loss — 86% of those who lost >=15 kg
-[@lean2018]. -> route (a) baseline-risk stratification,
-[[Big Rocks (Median)]]
-
-**The guard — means versus outcome.** The near-unconditional claim is about the *outcome* (reduce
-visceral fat in this stratum), and it is scoped to **safe and sustainable means**. A dangerous or
-unsustainable means — a crash diet that strips muscle and rebounds, a toxic "fat-burner" like DNP —
-still fails its *own* net-effect test. The worthy goal never launders a harmful means; the collapse
-licenses *that this stratum should lose visceral fat*, not *by any method*.
-
-**Magnitude and sustainability are load-bearing.** The collapse holds for **large, sustained** loss (the
-DiRECT / bariatric range). *Modest* lifestyle loss in the same population does not clear the bar: Look
-AHEAD achieved 8.6% versus 0.7% weight loss at year 1 (6.0% vs 3.5% sustained) yet found no reduction in
-cardiovascular events — hazard ratio 0.95, 95% CI 0.83 to 1.09, p=0.505
-[@look2013]. Be exact about how much
-and how durable, not hand-wavy.
-
-**Decision-change:** in a high-baseline-risk stratum, stop agonizing over the weighting and act on the
-dominant lever — but hold the means to its own net-effect test, and require the loss to be large and
-sustained, since a modest, fading loss can be outcome-null.
-
-### A different trade-off: a certain benefit against an *uncertain* risk
-
-The low-carb case traded two *known* axes (visceral fat vs apoB). A second, distinct structure trades a
-well-evidenced **certain benefit** against an **insufficient-evidence uncertain risk** — the incretin
-(GLP-1 / GIP-GLP-1) case for metabolic disease. Three tools resolve it, and the first is the same
-baseline-risk engine: the certain benefit is large *only* in the high-risk stratum, so "the benefit
-outweighs the unknown risk" is stratum-bounded and **inverts** for a lean or cosmetic user, who trades
-an uncertain long-term risk for a small certain gain. That flip is worked in full elsewhere — the
-hard-outcome benefit (SELECT: major cardiovascular events 6.5% vs 8.0%, hazard ratio 0.80, 95% CI 0.72
-to 0.90) belongs to the high-risk stratum, not the tail driving cosmetic adoption
-[@lincoff2023]
--> [[GLP-1 Do the Benefits Outweigh the Risks]] (do not re-derive it here).
-
-The interlock with the companion guide is the guard: the uncertain risk is **insufficient-evidence** —
-neither zero (naive optimism) nor catastrophe (naive precaution). Both errors are the same *silence is
-not a null result* mistake -> [[Limits of Evidence]]. You cannot reason this trade correctly without
-holding both lenses at once.
-
-### "Reversible" is assumed, rarely established
-
-Reversibility is the *weakest* pillar under this kind of decision, and it splits in two. The **benefit**
-demonstrably reverses — stop the drug and weight returns
--> [[GLP-1 Do the Benefits Outweigh the Risks]]. Whether a potential **harm** reverses is unknown and
-plausibly incomplete. Chronic exogenous signalling tends to induce persistent homeostatic adaptation —
-exogenous testosterone downregulates the body's own hormonal axis, with variable recovery after long
-use — and the very fact that weight rebounds on withdrawal is itself evidence the body *adapted* to the
-drug, which cuts against clean reversibility.
-
-So **"you can stop it" is not "stopping restores baseline"** — the latter is its own evidence question,
-usually insufficient-evidence, the same self-discipline as *no evidence of harm is not evidence of
-safety*. The consequence is practical: for a chronic intervention with possibly-persistent effects, the
-load-bearing mitigation is **de-risking (detect it early)**, not reversibility (assume you can undo it).
-
-**Decision-change (a general rule, bank it):** never treat reversibility as free or binary. Separate *can
-I stop* from *does stopping restore baseline*; where the second is unevidenced, lean on surveillance and
-detectability, not on an assumed undo -> [[Limits of Evidence]].
-
-### The uncertain risk de-risks over time — if someone is looking
-
-An uncertain long-term risk is not static. Every year of widespread use without a large signal is
-evidence *against* a large long-term risk — the expectancy test applied dynamically — so the uncertain
-side of the incretin trade **shrinks** while the certain benefit stays, and the trade grows steadily more
-favorable for the exposure profiles that have accumulated the years. Three honesty guards keep this an
-argument rather than a talking point:
-
-- It shrinks **fast** for large, short-latency, well-surveilled harms; the residual concentrates in the
-  small, rare, or *long-latency* tail — a 30-year cancer signal is not retired by 10 years of data.
-- It shrinks **only if surveillance is looking** — an unmeasured outcome does not self-resolve
-  (the streetlight problem) -> [[Limits of Evidence]].
-- It is **conditional on the exposure profile**: expanding to younger users or decades-long exposure
-  *reopens* the uncertainty the old profile closed.
-- It assumes a **stable exposure**, and the incretin field is not one — it iterates *compound*
-  (semaglutide -> tirzepatide adds a GIP target -> retatrutide adds glucagon) and *dose* (early
-  glycaemic-control doses -> higher obesity / lifestyle doses), and each drift **resets the
-  long-term-safety clock** for the part that changed. So accrued years de-risk the *specific compound
-  at the specific dose that earned them*, not a newer molecule or higher dose merely because both wear
-  the same class label. The reset is **partial, not total**: shared GLP-1-receptor class effects still
-  transport and do not restart — only the molecule-, dose-, or new-target-specific part begins again.
-  So *evidence accumulates* is conditional on the exposure holding still, not automatic
-  -> [[GLP-1 Non-Cardiometabolic Effects and Safety]], [[Is the Food Category Doing Any Work]] (specify
-  the exposure, not the label).
-
-**Decision-change:** the option value of *waiting* scales **inversely** with benefit magnitude. In the
-high-risk stratum a large certain benefit now dominates the shrinking uncertainty — act. For a low-risk
-or cosmetic user, waiting is rational: let the risk de-risk before taking an uncertain long-term hazard
-for a small gain. The framework tells you whether to act now or wait, not merely that there is a trade.
-
-### The framework discriminates — incretin versus carnivore
-
-Grant two interventions *equal fat loss* and the same headline structure ("achieves fat loss; long-term
-net outcome unmeasured"), and a relativist would call them a wash. The framework calls them **opposite**,
-on four axes — which is the proof it is not "it depends":
-
-- **Benefit type.** GLP-1's benefit reaches a *hard outcome* (SELECT MACE, above). A carnivore diet's is
-  a *surrogate* (fat loss) carrying a *countervailing* surrogate — it raised LDL in the low-carb arm of
-  DIETFITS, with the between-group change significantly favoring low-fat
-  [@gardner2018] -> [[LDL ApoB and Cumulative Exposure]].
-- **Direction of the evidenced base (the key discriminator).** Same evidence *state* on the composite
-  (whole-diet net outcome unmeasured for both), **opposite** evidenced base. Carnivore's harm side is not
-  vague "prior": it is a **strong causal leg** — apoB -> ASCVD, triangulated across Mendelian
-  randomization, statin/PCSK9 RCTs, and mechanism, and cumulative (magnitude x years),
-  «unequivocally establishes that LDL causes ASCVD»
-  [@ference2017] — applied to a *measured* exposure
-  effect (it raises apoB in many) — **plus** a weak, confounded, discounted observational red-meat leg.
-  GLP-1's unknown instead rests on a neutral-to-favorable base.
-- **De-risking.** GLP-1 de-risks yearly (RCTs, surveillance, millions exposed) — but that accrued
-  safety belongs to the *specific compound and dose that earned the years*, not automatically to a
-  newer molecule or higher dose under the same class label (the moving-target caveat above); carnivore's
-  error bars stay huge — near-zero large or long-term studies, self-selected samples, nothing looking.
-  The discriminator holds regardless: even at its slowest, GLP-1's evidenced base is neutral-to-
-  favorable while carnivore's is harm-leaning — only the *pace* of de-risking is qualified, not the
-  direction.
-- **Cumulativeness breaks the reversibility symmetry.** apoB exposure is area-under-the-curve, so years
-  of elevation integrate into arterial burden that quitting does not erase -> [[LDL ApoB and Cumulative Exposure]].
-
-**No double standard.** Mechanism is weighted by its *strength* (weakest: in-vitro / evolutionary
-"we're designed to eat X"; strongest: Mendelian randomization) and **symmetrically** — a strong mechanism
-counts in *either* direction, a weak one is discounted in either. We reject "a supplement's in-vitro
-antioxidant activity proves benefit" because that mechanism is *weak*, not because mechanism-toward-
-benefit is banned; apoB is the strong end of the same gradient. An *unmeasured composite* is not
-*sub-significance evidence of safety*: a strong measured leg plus an unmeasured net is not weak data.
-
-**Headline.** "No evidence carnivore is unsafe" is **insufficient-evidence**, and on a harm-leaning
-strong-mechanism base that is *not* reassurance — darkness is not neutral when a strong mechanism points
-down. The verdict comes from the evidence *structure*, never from "it's fringe" (symmetric standards).
-Honest residual: net apoB is person-dependent — simultaneous fat loss lowers it by a different route
-while meat/saturated fat raises it, so the lean-mass hyper-responder is the net-up case and someone
-losing large visceral fat may not be. This is a *worked contrast* proving the framework discriminates,
-not a carnivore verdict -> [[Dietary Patterns Is One Clearly Better]], [[Is Red Meat Harmful]].
-
-## Efficacy versus effectiveness — assess in the environment, not the RCT arm
-
-An RCT arm's internal validity is not real-world effectiveness. The trial runs in a supported
-environment; your life has stress, temptation, cost, and a food environment engineered against you. Judge
-an intervention against the realistic alternative you will actually face, not the ideal one
--> [[Weight-Loss Maintenance and Metabolic Adaptation]].
-
-### When willpower goes against biology, biology usually wins — cashed to mechanism
-
-This is not a motivational slogan; it is a specific physiological prediction, and it is why plans built
-on sustained willpower fail predictably rather than randomly.
-
-- **Defended body weight.** After diet-induced weight loss the appetite hormones shift to promote
-  regain — leptin (satiety) stays \~35% below baseline, ghrelin (hunger) stays elevated — and these
-  shifts persist a full year later, *after* regain has already begun. The author's own reading: the high
-  relapse rate «has a strong physiological basis and is not simply the result of the voluntary resumption
-  of old habits» [@sumithran2011]. The higher
-  weight is biologically defended (single-arm, n=34, VLCD — a mechanism, not a proven cause of every
-  regain) -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
-- **Exercise energy compensation.** The calories you burn exercising are partly refunded by eating more
-  and moving less the rest of the day. Across 61 studies compensation averaged «18% ± 93%» — and the SD
-  is the story: it ranges from none to over 100% [@riou2015]. It worsens over time (approaching 84% at \~80 weeks) and, in a doubly-labelled-water landmark,
-  averaged 28% via a drop in basal expenditure, rising from \~28% to \~49% across the BMI range
-  [@careau2021]. Crucially, «intensity... [was] not
-  [a] significant predictor» — so HIIT is not self-defeating; duration and adiposity drive compensation,
-  not exertion [@riou2015] -> [[Exercise Energy Compensation]].
-
-**Decision-change:** expect the counter-regulation and build for it. Do not anchor weight change on
-exercise calories (use exercise for fitness and mortality, where the benefit does not run through the
-refunded calories), and do not design a maintenance plan that assumes willpower will out-argue a
-defended set-point. When the biology pushes back, the answer is a standing prop, not more resolve.
-
-## Structural leverage beats point-optimization
-
-Two interventions can carry the same expected effect and still not be equal, because one changes the
-*efficacy* term and the other changes the *adherence* term. Interventions that reshape your environment
-or your physiology so future choices are easier — or so the counter-regulation is smaller — outrank
-equal-effect point optimizations, because they make themselves sustainable rather than depending on
-daily discipline.
-
-- **Environment as leverage.** Not keeping the tempting food in the house beats resolving to resist it
-  every evening; the first removes the decision, the second re-fights it nightly.
-- **The drug as a structural lever.** A GLP-1 receptor agonist does not persuade a patient to want less
-  food — it pharmacologically resupplies the satiety signalling that weight loss depletes (the same
-  leptin/GLP-1/PYY axis Sumithran measured), lowering the biology it once took willpower to fight
-  [@sumithran2011] -> [[Weight-Loss Maintenance and Metabolic Adaptation]]. That is why the drug route earns a place in the ranking for a defended
-  lever, rather than being dismissed as the easy way out.
-
-**Decision-change:** between two options of equal expected effect, prefer the one that lowers future
-effort or defends itself against the body's pushback. A structural change (reshaping the environment, a
-standing pharmacological prop) beats a point fix that has to be re-won every day.
-
-## What this is not, the gaps, and the boundary
-
-**This is not "it depends."** It depends on four nameable, answerable variables — likelihood,
-comparator, stratum, and outcome-weighting — and the whole guide is the discipline of answering them
-instead of shrugging. And it is **not** a licence for anything-goes: the anti-rationalization guard holds
-a hard line, and a large well-evidenced harm stays a harm no matter the comparator.
-
-**Honest gaps.** Two of them are structural, not oversights:
-
-- **The adherence probability of a given intervention for a given person is itself weakly evidenced.**
-  Effectiveness data (as opposed to efficacy data) is thin, so the adherence term you most need is often
-  the least measured — reason it explicitly rather than assuming the trial's adherence is yours.
-- **Most trade-off weights cannot be pooled.** The weighting of one outcome against another is the
-  person's, not a number the evidence supplies (a G-gap that needs elicitation, not more studies). A
-  guide that handed you a single *net health score* would be manufacturing false objectivity.
-
-**Boundary — three companion guides, none re-covering another:**
-
-- [[Limits of Evidence]] — what evidence *can* and cannot show, and when to act ahead of proof.
-- **This guide** — how to *decide* once you accept the evidence is partial, the objectives compete, and
-  the choice is made in a real environment.
-- [[Big Rocks (Median)]] / [[Big Rocks (Elderly)]] — *which* levers are largest for a given stratum
-  (magnitude x certainty). This guide is how to choose and implement among them.
-
----
-
-**How to read this guide.** It is a general, population-level decision framework, not advice for any one
-person. Its whole point is that the right choice is stratum-specific and outcome-weighted, so the final
-step — placing yourself in the narrowest reference class the evidence supports, and weighting the
-outcomes yourself — is yours. The wiki grades coherence and fidelity to its sources, never whether acting
-on a recommendation improved a real outcome: no operation here closes that loop, so read a clean guide as
-a well-reasoned starting point, not a validated promise.
-
-## Self-critique `[run 2026-08-05, before commit]`
-
-- **Anti-bromide discipline held.** Every section ends in an explicit decision-change, not a maxim: force
-  the comparison; choose the higher product; present-then-hand-over the axis weights; build for the
-  counter-regulation; prefer the self-defending option. No section ends in *depends on you* — where the
-  weighting *is* the person's (competing outcomes), the decision-change is the structuring act plus the
-  elicitation, not a shrug.
-- **The anti-rationalization guard is present and load-bearing**, in its own subsection under the
-  comparative reframe, with three concrete big-rock harms (trans fat, tobacco, heavy alcohol) and the
-  named false-equivalence trap (*everything is hormetic*). It is not decoration: it directly blocks the
-  section's own comparative logic from readmitting a large harm.
-- **Not anti-evidence.** The comparative frame is *frame as substitutions* + PICO, not evidence-nihilism;
-  the guard rests on the large-harms-are-detectable asymmetry, which is an argument *from* the evidence's
-  structure, not against it.
-- **Adherence stated as a condition, not a law.** The *worse plan wins* claim carries its precise
-  precondition (diminishing returns + small gap) and its explicit exception (big lever on a steep curve).
-- **Multi-axis kept structured, not collapsed.** The low-carb case lays out each axis's transmission and
-  refuses a scalar verdict; the lean-mass-hyper-responder is handled as *measure apoB*, not *dismiss the
-  LDL rise*, so a real cumulative-risk signal is not laundered into a marker artifact.
-- **No laundered independence.** Riou and Careau are presented as convergent-but-distinct (SD and the
-  no-pooling caveat stated); no source's synthesis is dressed as an independent second witness.
-
-- **Delta (decisive-not-relativist spine) `[run 2026-08-05]`.** The new section is the symmetric partner
-  to the §1 guard: it makes the guide *decisive at both extremes* (large harm survives any comparator;
-  large benefit in a high-risk stratum survives any weighting), not more relativist. Checks:
-  - **The collapse is scoped, not absolutist.** The high-risk collapse is stated as *outcome*
-    near-unconditional under *safe + sustainable* means (means-vs-outcome guard explicit), and bounded by
-    magnitude — DiRECT-range large loss collapses it, Look AHEAD-modest loss was CV-null. Not "whatever
-    it takes."
-  - **The carnivore contrast stays symmetric-standards, not fringe-dismissal.** The verdict is derived
-    from evidence *structure* (benefit type, direction of the evidenced base, de-risking, cumulativeness),
-    the mechanism is weighted by *strength on a stated gradient and symmetrically* (the explicit "no
-    double standard vs rejecting supplement-mechanism" paragraph), and the honest person-dependent residual
-    (fat loss lowers apoB while meat raises it) is kept. It is flagged a worked *contrast*, not a carnivore
-    verdict (cross-linked out).
-  - **Reversibility is downgraded, not leaned on.** "Can stop" is separated from "stopping restores
-    baseline"; the load-bearing mitigation is named as de-risking, not undo; the TRT/HPG precedent is
-    tagged as an analogy, and the STEP-1 regain point is cross-linked, not re-derived.
-  - **GLP-1 is cross-linked, not re-derived.** The stratum-flip and the reversibility split point to
-    [[GLP-1 Do the Benefits Outweigh the Risks]]; only the single SELECT anchor figure is inlined for the
-    contrast.
-  - **The two general principles are stated for reuse** (mechanism weighted by strength + symmetrically,
-    an unmeasured composite is not sub-significance evidence; reversibility assumed != established), each
-    banked as a decision-change and cross-linked to [[Limits of Evidence]].
-
-- **Delta (Challenge #25 moving-target) `[run 2026-08-05]`.** Two spots brought into line with the fabric
-  section [[GLP-1 Non-Cardiometabolic Effects and Safety]] -> *the moving-target problem*: a 4th honesty
-  guard in *the uncertain risk de-risks over time*, and a qualifier on the *de-risking* line of the
-  incretin-vs-carnivore contrast. Checks: **(a)** partial-not-total preserved — the reset is scoped to the
-  molecule-/dose-/new-target-specific part while shared GLP-1-receptor class effects still transport, so
-  temporal de-risking is *conditioned*, not denied. **(b)** Discriminator not overcorrected — GLP-1's
-  evidenced base stays neutral-to-favorable vs carnivore's harm-leaning; only the *pace* of de-risking is
-  qualified, not the direction of the verdict. **(c)** No overclaim / no new number — the refinement is
- from the fabric; every pre-existing quote/number/tag is untouched.
+An exposure has no effect in the abstract. Every effect estimate is a contrast against an implicit
+comparator — the alternative the exposure displaces — and changing that comparator changes the sign and
+the size of the answer; a bare "X is good" or "X is bad" is unfinished until it says *instead of what?*
+Two things must be pinned before the comparator can even be named: **what the exposure actually is** (a
+category whose within-variance swamps its between-variance describes no real food, so "replace X" is
+undefined until X is), and **what a person would realistically do instead** (judged against the
+realistic alternative, not an ideal).
+
+The effect a person then gets is not the mechanism's isolated prediction. It is that prediction net of
+whatever the organism or the schedule compensates, and net of what adherence and real-world
+execution-drift cost — so a trial's efficacy is an upper structural bound on field effectiveness, not
+the same number. When a substitution moves more than one patient-important outcome, the axes are **laid
+out, not summed**: the wiki supplies each axis's evidenced transmission to its outcome and names any
+non-health axis's direction, but the cross-axis weight is irreducibly the person's — there is no scalar
+maximand.
+
+Finally the honest decision object is a **region and a direction, not a point**, and *which end* of that
+region to act on is a loss-function choice, not an estimate: harms pull toward the bad tail, benefits
+toward the conservative tail, as a reasoned **default** and never a law, with whose-loss-sets-it named
+rather than smuggled in as if it were in the data. The fabric therefore **optimizes allocation** (where
+to act) while it **satisfices dose** (how much, per lever). This is an open loop: it verifies only the
+*would*-form — whether a well-informed advisor would frame the substitution this way — never whether
+anyone was better off.
+
+## Compared to what? Why an effect has no sign until the alternative is named
+
+An effect estimate is never absolute. It is a contrast between an exposure and the alternative that
+exposure displaces, so every "X is beneficial" or "X is harmful" carries a hidden second arm: the
+comparator. Change the comparator and both the sign and the size of the answer change with it. The
+trouble is not that comparisons are hard — it is that the comparator is usually **left unstated**, and
+the unstated default silently does the work. When a study removes a nutrient, its calories are replaced
+by *something*; when a person stops a behaviour, the freed time and energy go *somewhere*. The omitted
+arm is a premise, not a footnote. -> [[The Comparator Problem]]
+
+A comparator-blind claim is therefore not necessarily wrong — it is **unfinished**, and its truth can
+flip once the omitted arm is named. The diagnostic move is to state the counterfactual and ask whether
+the estimate survives a *realistic* one: what the person would actually do instead, not an idealized
+substitution the evidence never tested.
+
+The same move resolves disputes that look unrelated, and it resolves them differently each time — which
+is why the comparator must ride along with every illustration:
+
+- **Saturated fat** — the harm *is* the replacement: cutting it against polyunsaturated fat reads one
+  way, against refined carbohydrate another, so the recommendation splits by what replaces it
+  -> [[Saturated Fat Intake and Replacement]].
+- **Free sugars** — the isocaloric swap (against other carbohydrate at equal energy) is null on weight,
+  which surfaces only once the comparator is pinned at equal calories; a comparator-blind "sugar is
+  fattening" mistakes the molecule for the energy it carries -> [[Free Sugars Intake]].
+- **Dietary patterns** — none is best in the absolute; each evidenced benefit is "better than" a
+  *specified* alternative, so "which diet is best?" has no comparator-free answer
+  -> [[Dietary Patterns Is One Clearly Better]].
+
+Each magnitude, dose-response and curve shape stays on its own lead above; this section names only the
+framing. The companion checks — what the effect is measured *on*, and how a comparator-relative benefit
+must not be promoted into an absolute target — are deferred: surrogate-versus-target and baseline risk
+live on [[Metrics for Targeted Health Guidance]].
+
+One misuse shadows the whole move, and it is the most common way the comparator frame launders a real
+harm: because *everything* carries some cost and some benefit, the frame can be turned to relativize a
+genuine harm away — *it is all a little hormetic, who is to say?* That is not a comparison but the
+unfalsifiable over-generalization the demarcation line rejects. Use the frame to rank among *reasonable*
+options; a large, well-evidenced harm survives every comparator and is never readmitted by it — the
+big-rock stays a big rock -> [[Big Rocks (Median)]].
+
+Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
+often the first place the analysis breaks.
+
+## What is "X", exactly? Specifying the exposure before its comparator
+
+You cannot say "instead of what" until "what" is pinned. A food or nutrient label is only a usable
+exposure if the boundary it draws carries information — and often it does not. Where **within-category
+variance exceeds between-category variance**, the grouping has no explanatory power and the
+category-level estimate describes no actual food: skinless chicken, fatty pork and lean pasture-raised
+beef share one label, and the distance within it can exceed the distance to the next label. "Replace
+X" is undefined until X names something real. -> [[Is the Food Category Doing Any Work]]
+
+Two further failures block the comparator before it can be named:
+
+- **Design asymmetry can flip the grade without changing the advice.** An isolated component can be
+  dosed and blinded where the whole food can only be observed, so the isolate may out-grade the food on
+  study quality alone. SACN grades fibre isolates as showing an effect, but bounds the finding in the
+  same clause — the benefit is «demonstrated at intakes achieved through supplementation»
+  [@sacn2015]. The better-graded object is the one that
+  could be randomised, which is a fact about study design, not about what to eat.
+- **A food's identity drifts under a constant name.** Breeding, processing and reformulation move the
+  thing on the plate while the word stays fixed, so evidence attached to a label may not transport to
+  the current exposure. Specify implementations, not labels.
+
+The specify-the-exposure move is the whole of this section; the verdicts on each category belong to
+their leads:
+
+- **"Omega-3"** spans a benefit and a null under one word once you descend to compound x dose x stratum
+  — the label is not the exposure -> [[Vitamin and Mineral Supplements for Disease Prevention]].
+
+- **"Coffee != caffeine"** — the presumed active component is not the driver, so a study crediting
+  caffeine is measuring the matrix under a caffeine label
+  -> [[Coffee Consumption and Health]].
+
+Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
+that contrast is not the effect a person realizes.
+
+## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
+
+A mechanism earns a *direction*, never a *magnitude*. The whole-organism response is a closed loop with
+counter-regulation, so the naive arithmetic — add this, subtract that — routinely over-predicts and
+occasionally reverses sign. The standing diagnostic is one question: *what compensates?*
+-> [[Net Effect vs Intended Effect]]. One clause each: added exercise energy is partly offset by eating
+more and moving less the rest of the day -> [[Exercise Energy Compensation]]; energy restriction meets a
+defended set-point that actively regains -> [[Weight-Loss Maintenance and Metabolic Adaptation]]; a
+benefit that lasts only while a drug is taken, or is cancelled by an offsetting harm on another pathway
+so the all-cause net is null -> [[Inflammation as a Modifiable Lever]]; a meal-timing schedule whose
+effect may be calorie intake under another name -> [[Time-Restricted Eating]].
+
+This is why efficacy is not effectiveness. Efficacy is the effect of an *assigned, idealized* exposure
+inside a trial; effectiveness is that same parameter after compensation, execution drift, and adherence
+have each taken their cut. The two are not rival estimates of one quantity — the trial's efficacy is an
+**upper structural bound** on field effectiveness, the ceiling the mechanism could deliver if nothing
+leaked, not a competing number. Report the parameter *through* that transformation: neither reify the
+trial mean as the decision (scientism) nor discard it because it will not land exactly
+(science-scepticism). -> [[The Estimate-to-Action Gap]].
+
+Adherence is part of the effect, not a footnote to it: an intervention not done has no effect. Under
+diminishing returns this can invert the naive ranking — a smaller sustained dose beats a larger
+abandoned one. But that is a *condition*, not a slogan, and the condition is curve shape: it holds in a
+flat or diminishing-returns region, and fails on a steep rising arm or below a deficiency floor, where
+the larger dose is what clears the outcome and abandonment is the real failure to fix. Which regime
+applies is the floor-and-direction question the region section takes up.
+-> [[Net Effect vs Intended Effect]].
+
+One input this transformation needs is not held. Adherence-*probability* for a given person is thinly
+evidenced — effectiveness data are sparse — so the wiki names the gap and infers no number for it: the
+direction (a realized effect below efficacy) is licensed, the size is not. Why an estimate is a range
+at all, and what evidence structurally cannot show, is deferred -> [[Limits of Evidence]]; each
+compensation magnitude stays on its exposure-lead above.
+
+Reversibility belongs to the same net-effect accounting and is rarely as free as assumed: *can I stop*
+is not *does stopping restore baseline*. Where restoration is unevidenced, the mitigation is
+detectability and surveillance, not an assumed undo — and how far the evidence bar itself should relax
+for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
+
+Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
+more than one outcome that matters.
+
+## When outcomes compete: laying out the axes instead of summing them
+
+When a substitution moves more than one patient-important outcome, there is no unique optimum without
+weights across those outcomes — and the weights are not an empirical quantity anyone can look up. But
+*"you cannot optimize"* overstates the bind. Dominance rules out any option worse on *every* axis than
+an available alternative, and the Pareto frontier — the set where improving one axis necessarily
+worsens another — is definable, both with no weights at all. Weights are needed only to order options
+*within* the frontier. So the tangle is real but small: it binds on the ordering of the survivors, not
+on the whole field.
+-> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
+
+The wiki's role here is bounded and specific. It supplies each axis's *evidenced transmission* to its
+outcome — the health coordinate, the one an evidence fabric can actually contest — and where a
+substitution loads a non-health axis (carbon, welfare, affordability) it names *that the axis exists and
+which direction it runs*, then stops. It never prices the axis, never nets it against the health
+finding, and asserts no carbon, water, or welfare magnitude, because it holds no such data. Naming the
+axis is the discipline; supplying a cross-axis exchange rate would be the false objectivity the
+no-scalar-maximand rule forbids.
+
+This is why the individual's problem is well-posed where the population's is not. A guideline must issue
+one recommendation to people who weight the axes differently, and aggregating heterogeneous weights into
+a single ordering is ill-posed independent of anyone's bad faith; one person has their own weights. So
+the division of labour is exact: the wiki supplies the **coordinate** (each axis's evidenced
+transmission) and the **interval** (the region on each axis); the person supplies the cross-axis
+**weight**, elicited at layer 3, never estimated. Several population axes — scalability,
+communicability, palatability — do not even transfer to an audience of one.
+
+At guidance level the competing objectives are often already on the page. GRADE names four determinants
+of a recommendation, only one of which is the evidence, and a body publishing an Evidence-to-Decision
+table lists its non-evidence considerations by name — WHO's acceptability domain openly includes
+«potential impact on national economies»
+[@who2023saturated]. So *which objective moved this
+recommendation* is a reading skill, not an accusation — and
+its direction is indeterminate until read: feasibility and acceptability push toward stringency as
+readily as toward laxity (an environmental load pushes red-meat guidance harder; a staple's economics
+push the other way). What bodies disclose is the considerations; what stays unpublished is the weight.
+-> [[Which Objective Moved This Recommendation]].
+
+Two guards. Watch the health-halo running *across* axes: a favourable health score must not buy a food
+exemption from its carbon or welfare column — the same asymmetric scrutiny that lets motivated reasoning
+survive an evidence-based framing, one level out. And keep a trade *within* the health axis distinct
+from a cross-axis one — child-neurodevelopment benefit against methylmercury harm is two
+patient-important health outcomes, priced by stratum, not a health-versus-environment tangle
+-> [[Fish and Seafood Consumption]]. Surrogate-versus-target and the relative/absolute baseline-risk
+split are deferred -> [[Metrics for Targeted Health Guidance]].
+
+Laying out the axes still leaves, on each axis, an estimate that is a region — and a recommendation has
+to say what to actually do with a region.
+
+## From estimate to substitution: a region and a direction, not a point
+
+In this domain the evidence structurally yields a **floor**, a **direction within the studied range**,
+and — where the curve bounds it — a **harm-ceiling**, but not a point optimum: a study can show *below
+here is deficiency*, *more in this range still helps*, *past here it harms*, essentially never *this
+exact intake is best* -> [[The Underivable Optimum]]. *Why* the estimate is a band rather than a point —
+measurement error and the statistical reason an interval is the honest object — is not re-derived here;
+state the conclusion and see -> [[Limits of Evidence]]. So a substitution is framed to clear the floor
+and move the right way within the region, not to land on a peak that was never identified
+-> [[The Estimate-to-Action Gap]].
+
+That is not a counsel of despair, because two different jobs are being confused when it reads as one.
+The fabric **optimizes ALLOCATION** — Layer 1 ranks levers by effect size x certainty and spends
+attention on the largest remediable gap (which lever, magnitudes deferred to the Big Rocks deliverables)
+— and it **satisfices DOSE** — per lever, clear the floor, move in the evidenced direction, stay in
+range rather than chase a point this domain cannot locate. These are a category distinction, not a
+contradiction: *satisfice* is a claim about the dose, never about where to spend attention, and neither
+bleeds into the other.
+
+The division of labour is the same one the competing-axes section drew: the wiki supplies the
+**coordinate** (each axis's evidenced transmission to its outcome) and the **interval** (the region on
+that axis); the person supplies the cross-axis **weight** and — in the next section — the loss **tail**.
+Coordinate and interval are supplied; weight and tail are elicited. Neither is an estimate the wiki
+computes.
+
+One discipline guards the region against being read as more than it is. A comparator-relative benefit
+("better than the refined carbohydrate it replaced") and a floor ("covers the deficiency requirement")
+are **descriptive** objects; promoting either into an absolute *eat this* target is the
+descriptive->normative category error -> [[The Descriptive-Normative Category Error]]. A floor is where a
+benefit begins, not where it is complete: read as a target it tells anyone with an objective above
+deficiency that they are *done* at the *start*. A body can name the trap to pre-empt it — EFSA on
+dietary sugars states that «The Panel wishes to clarify that a UL is not a recommended level of intake»
+[@efsasugars2022]. The estimate travels only with its
+comparator attached.
+
+Two riders keep this honest. First, the earlier point that *a smaller sustained dose can beat a larger
+abandoned one* is a **condition** on curve shape, not a slogan (established above): it holds only near a
+flat/diminishing-returns region -> [[Net Effect vs Intended Effect]]. Second, **structural leverage** — an exposure that reshapes physiology or the choice environment (so
+future choices are easier) can outrank a point optimization of similar expected size. This is a telos
+provision with **no dedicated claim page**; it is carried here on that provision and on the structural
+note in [[The Estimate-to-Action Gap]], and **flagged as a named gap** — a candidate concept page routed
+to Weave/ingest as residual, not a settled fabric claim.
+
+Naming a region raises the one question the region alone cannot answer: *which end* of it a decision
+should act on.
+
+## Which end of the interval? Asymmetric loss and the conservative default
+
+Even a **perfectly symmetric** statistical interval has an **asymmetric** decision-relevant summary, and
+the two do not conflict — they are about different objects. The interval describes where the parameter
+plausibly sits; the decision minimizes expected **loss**, which is rarely symmetric about the estimate.
+So the action's summary is not the mean or the midpoint but a **quantile — a tail** — its position set
+by the ratio of the cost of *under*-shooting to that of *over*-shooting. Where over-estimating a harm is
+cheap and under-estimating it expensive, the decision reads off the upper (bad) tail; where over-shooting
+a benefit's dose is cheap and forgoing it is the loss, off the lower (conservative) tail. The
+precautionary posture is thus **derived** from the cost structure, not asserted — the decision-side twin
+of the *statistical* asymmetry, which lives on -> [[Limits of Evidence]] and is not re-derived here
+ -> [[The Estimate-to-Action Gap]].
+
+Three consequences follow.
+
+- **The decision number is a tail, and WHICH tail is elicited, not estimated.** Same routing as the
+  cross-axis weight above: the wiki supplies the coordinate and the interval; the person supplies the
+  loss tail. Which quantile to act on is a layer-3 loss-function fact about *this* person's costs, not a
+  quantity the evidence computes.
+- **You cannot naively net a harm interval against a benefit interval into one symmetric band.**
+  Collapsing both to their midpoints and subtracting throws away exactly the asymmetry that should drive
+  the choice. Weight **each** side to its own tail, per person, **first** — then net the loss-weighted
+  objects, not the raw intervals.
+- **Symmetric-standards guard: harm-up / benefit-down is a DEFAULT, not a law.** *Always weight the harm
+  tail* is the exact machinery by which manufactured alarm survives an evidence-based framing, and its
+  mirror — *always weight the benefit's upside* — is how false hope does. The conservative direction is
+  the reasoned default because harm is often convex and irreversible; but a cheap, reversible exposure
+  with a real upside can rationally be weighted to a benefit's **upper** tail. The discipline is to
+  **name whose loss sets the direction** and never present the weighting as though it were in the data
+  -> [[The Descriptive-Normative Category Error]] (the don't-smuggle guard).
+
+The loss function is **direction-agnostic**, which is the proof it is bias *away from the costly tail*
+rather than a disguised always-conservative rule: the same rule biases protein *up* toward the upper end
+of its range (overshoot is low-harm for healthy kidneys, under-dosing forfeits the objective)
+-> [[Protein and Resistance Training for Muscle and Strength]] — and biases *further* up for older
+adults, where the cost of under-dosing is higher -> [[Protein Intake for Older Adults]] — while it
+biases training intensity *down* toward the margin (overshoot loads an often-irreversible injury tail).
+Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
+ -> [[The Estimate-to-Action Gap]].
+
+## Caveats and boundaries
+
+- **This is an open loop.** No operation grades a decision here against a realized outcome; the wiki
+  verifies only the *would*-form — whether a well-informed advisor would frame the substitution this way
+  — never whether anyone was better off.
+- **This deliverable carries no exposure estimates.** Every food, drug or behaviour above is an
+  illustration that links its exposure-lead; the dose-response, magnitude and curve shape live there,
+  never here.
+- **Deferrals.** *What the evidence can and cannot show* -> [[Limits of Evidence]];
+  *surrogate-versus-target and how baseline risk enters (relative vs absolute)*
+  -> [[Metrics for Targeted Health Guidance]]; *which levers matter by magnitude x certainty*
+  -> the Big Rocks deliverables.
+- **No scalar maximand.** Where an exposure moves competing outcomes, each axis's evidenced transmission
+  is laid out and any non-health axis is named by direction only; the cross-axis weight and the loss
+  tail are the person's, elicited at layer 3, never computed here.
+- **Named gaps (routed to Weave/ingest, not silently filled):** *structural leverage* has no dedicated
+  claim page (a telos provision only); *adherence-probability for a given person* is not held as a
+  quantified input (effectiveness data are sparse) — direction licensed, magnitude not.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
-> | **Question** | 'Is X more likely than Y to help me achieve my patient-important outcomes? — how to choose a lifestyle intervention you will actually do, when the objectives compete, the evidence is partial, and the choice is made in a real environment rather than an RCT arm.' |
-> | **Evidence included** | 12 sources — 3 gold, 8 high, 1 weak |
+> | **Question** | 'How does the choice of comparator (replace X with what?) change the estimated effect of a dietary or lifestyle exposure, and how should a recommendation frame substitutions when objectives compete, evidence is partial, and the choice is made in a real environment rather than an RCT arm?' |
+> | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
 
 ## References

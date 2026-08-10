@@ -28,6 +28,12 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
   whole-pattern lever, not double-counted with sodium reduction; DASH->events unproven, rides BP transmission
 - [[Stress Management and Cardiometabolic Health]] — whether a structured stress-management program
   lowers BP enough to matter, weighed against established BP levers
+- [[Social Connection and Mortality]] — poor social relationships (objective isolation vs subjective
+  loneliness — two exposures) raise both mortality and incident CHD/stroke (RR \~1.3); HPA/allostatic
+  mechanism, observational, causation unproven
+- [[Purpose in Life and Mortality]] — a higher eudaimonic sense of purpose/meaning predicts lower
+  all-cause mortality + CV events (RR 0.83); same HPA/cortisol channel as connection but a distinct
+  exposure; marker not shown lever, discriminant validity vs depression/connection incomplete
 
 ## Lipids, drugs, and dietary patterns for CV events
 

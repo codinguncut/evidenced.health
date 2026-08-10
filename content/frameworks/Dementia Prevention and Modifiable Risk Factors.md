@@ -214,7 +214,7 @@ witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds th
   alcohol), the dementia bullet is added *there* rather than re-litigated here.
 - **RCT leg added (FINGER, F-refinement 2026-08-05).** The primary FINGER trial was folded in via a
   parameter table whose "same quantity?" column is **NO on every row** — so it is filed as a *bounding /
-  refinement* of the observational PAF, **not** a `[[tension]]` (the not-joined guard: an RCT
+  refinement* of the observational PAF, **not** a `tension` (the not-joined guard: an RCT
   between-group difference on a cognitive composite is not the same quantity as an observational PAF on
   dementia incidence). No independence (E) is claimed. The reading is deliberately symmetric — FINGER
   neither confirms nor overturns the 45.3% figure; it de-risks the direction while the per-factor

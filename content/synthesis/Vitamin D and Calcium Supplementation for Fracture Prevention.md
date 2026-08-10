@@ -178,7 +178,7 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
 
 - **No fake tension.** Yao-vs-Kahwati is filed as a **distinction** on the parameter table: same outcome,
   overlapping point estimates (0.84 vs 0.88), difference is population/inclusion — not-joined (ii). No
-  `[[tension]]` minted, no `contradicts:` edge.
+  `tension` minted, no `contradicts:` edge.
 - **CV harm not overclaimed.** Bolland is marked CONTESTED / subgroup-derived / `high`-not-gold at every use;
   the direction is presented as credible, the magnitude/sign as disputed — not asserted as settled harm.
 - **Supplemental-vs-dietary guard held.** The CV mechanism (acute serum-calcium spike) and dietary-calcium

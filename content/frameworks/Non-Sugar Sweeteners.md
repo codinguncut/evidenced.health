@@ -293,7 +293,7 @@ Where the two bodies assess the *same* quantity (human cohort evidence + its cav
 studies) they **agree** — same data, same limitations. Their bottom lines diverge only because they
 answer **different questions** with different output types. Per the not-joined checks — (i) no shared
 quantity is in opposition, (ii) different scope, consistent once matched — this is a **distinction**,
-not a `[[tension]]`. **The hidden insight:** the apparent contradiction dissolves entirely under the
+not a `tension`. **The hidden insight:** the apparent contradiction dissolves entirely under the
 hazard-vs-risk frame — a Group-2B *hazard* flag on limited, confounding-not-excludable evidence is fully
 consistent with a *risk* verdict that realistic intake is far below the safe bound. This reinforces (does
 not clash with) the `type-B` hazard-vs-risk disambiguation above.
@@ -381,7 +381,7 @@ CASHED `[2026-08-04]`.
   evidence and that «chance, bias, or confounding could not be ruled out» — explicitly not read as
   "aspartame causes cancer". Symmetric standards named in both directions (a finding, but a weak one).
 - **Hazard-vs-risk relation resolved as a DISTINCTION on the JECFA ingest `[2026-08-04]`** — not a
-  premature `[[tension]]` at the IARC pass, and (correctly) not a tension at all: the JECFA parameter
+  premature `tension` at the IARC pass, and (correctly) not a tension at all: the JECFA parameter
   table shows the bodies agree on every shared quantity, so the not-joined checks fire. Recorded as a
   distinction, not a joined clash.
 - **Type-B, not fabricated independence.** The 2B<2A<1 ordering and hazard/risk split are marked
@@ -397,7 +397,7 @@ CASHED `[2026-08-04]`.
 
 - **Distinction, not a manufactured tension.** The parameter table was built before the prose: the two
   bodies agree on every shared quantity (human cohort evidence + caveat; the Soffritti animal studies)
-  and differ only in question + output type. The not-joined checks (i) + (ii) fire, so no `[[tension]]`
+  and differ only in question + output type. The not-joined checks (i) + (ii) fire, so no `tension`
   was filed — the predicted, correct outcome for a deliberately-complementary pair. No fake friction to
   fill a quota.
 - **Independence not laundered.** IARC and JECFA are explicitly flagged NON-independent (same WHO

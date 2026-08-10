@@ -143,7 +143,7 @@ once matched.** Both hold simultaneously: strength is the *better single predict
 reliable measure (so it rightly leads diagnosis), AND mass carries *independent* prognostic signal for
 mortality (so it is not disposable). This is a **claim-refinement (`type-F`)**: de Santana covers the
 blind spot in the *mass is just confirmatory* reading — the composite (*strength primary; mass still
-independently predicts death*) beats either source alone. No `[[tension]]` is filed.
+independently predicts death*) beats either source alone. No `tension` is filed.
 
 ## Decision relevance
 

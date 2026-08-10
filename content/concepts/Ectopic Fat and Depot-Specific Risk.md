@@ -8,7 +8,7 @@ cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-09
 self_critiqued: 2026-08-08
 relationships:
   related_to:
@@ -19,6 +19,7 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Body Fatness and Cancer Risk
     - Layer 1 - Ranking Interventions for a Stratum
+    - Insulin Resistance Surrogates and Cardiovascular Risk
 ---
 
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
@@ -60,7 +61,11 @@ arm is separately gold-backed by the held RCT evidence -> [[Total Diet Replaceme
   [@taylor2015pft]
 
 So waist circumference / visceral fat is a **surrogate for the surrogate** — useful because it correlates
-with intra-organ fat, but a step removed from the depot doing the damage -> [[Surrogate Outcomes]].
+with intra-organ fat, but a step removed from the depot doing the damage -> [[Surrogate Outcomes]]. A
+*fasting-lab* readout of the same insulin resistance the intra-organ fat drives — the triglyceride-glucose
+(TyG) index — sits one further step removed again: it predicts cardiovascular events but is a marker of
+the atherogenic-dyslipidemia / IR state these depots generate, not the depot or a treatment target
+-> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
 
 ## Why BMI misleads — the individual-vs-population gap
 

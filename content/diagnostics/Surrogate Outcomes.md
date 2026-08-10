@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -17,8 +17,10 @@ relationships:
     - Stress Management and Cardiometabolic Health
     - Sarcopenia Definition and Diagnosis
     - Inflammation as a Modifiable Lever
+    - Allostatic Load and Mortality
+    - Insulin Resistance Surrogates and Cardiovascular Risk
 created: 2026-07-25
-updated: 2026-08-08
+updated: 2026-08-09
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
 self_critiqued: 2026-08-08
 ---
@@ -122,6 +124,26 @@ Worked instances: [[Grip Strength and Mortality]] and [[Cardiorespiratory Fitnes
 cheap, strong predictors held explicitly as metrics-not-levers); [[Low Muscle Mass and Mortality]]
 (mass predicts, but strength out-predicts and neither is a proven target).
 
+## The composite-index case — allostatic load predicts mortality, no lever shown `[2026-08-09, Parker]`
+
+The prognostic-marker-vs-lever cases above are single markers (grip, VO2max, muscle mass, CRP).
+Allostatic load (AL) is the same rule on a **composite** — a summed index of dysregulated biomarkers
+across four systems (cardiovascular, metabolic, neuroendocrine, immune). Parker's gold SR-MA finds high
+AL predicts all-cause mortality (pooled HR 1.22, 95% CI 1.14-1.30, n=10) and CVD mortality (1.31,
+1.10-1.57), and that «total AL scores better predict mortality outcomes than any individual AL biomarker»
+[@parker2022allostatic]. Yet «Though no intervention
+studies were included» [@parker2022allostatic] — no
+evidence here that *reducing* AL reduces mortality.
+
+**The composite twist sharpens, not softens, the rule.** Aggregating dysregulation makes AL a *better
+predictor* — that is the whole reason the index exists — but better prediction is not transmission: the
+Example-9 test (can the outcome be predicted? is strictly weaker than does-it-cause) is passed by
+construction and the causal question is untouched. A composite index is doubly a marker: it predicts
+well *and* sits partly downstream of occult illness (an already-sick body accumulates dysregulation),
+so a raised AL is partly a *consequence*. Prognostic (route (a) stratifier) yes; validated target no —
+the same line held for CRP and for muscle mass -> [[Allostatic Load and Mortality]].
+[inferred from @parker2022allostatic]
+
 ## The archetypal predicts-but-does-not-cause marker — CRP, settled by Mendelian randomization `[2026-08-08]`
 
 C-reactive protein is a clean worked instance of the section above: a strong, log-linear *predictor*
@@ -147,6 +169,40 @@ this page centres (can the outcome be *predicted*? is a strictly weaker demand t
 what separates the two: CRP passes prediction, fails causation. Full parameter table, independence
 caveat, and the treat-the-pathway-not-the-molecule consequence: [[Inflammation as a Modifiable Lever]].
 [inferred from @erfc2010crp; @ccgc2011crpmr]
+
+## An insulin-resistance readout on the same line — TyG predicts events, is not a target `[2026-08-09, Liu]`
+
+The triglyceride-glucose (TyG) index — a cheap fasting lab proxy for insulin resistance, «considered a
+reliable surrogate marker of insulin resistance»
+[@liu2022tyg] —
+is a fresh worked case of the prognostic-marker-vs-lever rule, and it sharpens two points the CRP case
+does not.
+
+- **Predicts incidence, not mortality — the split is the finding.** Liu's gold MA (12 cohorts,
+  6,354,990 general-population participants) finds highest-vs-lowest TyG raises CAD (HR 2.01, 95% CI
+  1.68–2.40), MI (1.36, 1.18–1.56) and composite CVD incidence (1.46, 1.23–1.74), but «there was no
+  association between the TyG index and mortality» (CV mortality 1.10, 0.82–1.47; all-cause 1.08,
+  0.92–1.27 — both CIs cross 1)
+  [@liu2022tyg].
+  A predictor's signal is *outcome-specific*: TyG passes prediction on events and is silent on the
+  mortality outcomes people weight most.
+- **A predictor that adds nothing over the incumbent score.** Even the prediction value is bounded:
+  «addition of the TyG index to the Framingham Risk Score (FRS) did not lead to improvement in its
+  predictive power»
+  [@liu2022tyg].
+  A marker can predict in isolation yet carry no *incremental* decision value once the standard factors
+  are in hand — a distinct failure from CRP (whose incremental prediction survives even as its causation
+  falls).
+- **Causation disclaimed, target-status denied.** All 12 studies are observational — «causation cannot
+  be proven»
+  [@liu2022tyg] —
+  and Liu's strongest claim is that TyG «may be considered an independent predictor for CVD incidence»
+  [@liu2022tyg],
+  never a target. Like CRP, it sits downstream of the causal atherogenic state (apoB-bearing
+  dyslipidemia), so it flags the stratum rather than naming the lever ->
+  [[LDL ApoB and Cumulative Exposure]]. Full node:
+  [[Insulin Resistance Surrogates and Cardiovascular Risk]].
+[inferred from @liu2022tyg]
 
 ## Red flags
 

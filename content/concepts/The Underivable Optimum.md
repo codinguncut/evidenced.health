@@ -22,7 +22,7 @@ relationships:
 
  — this page is the wiki's own epistemology. It carries no source attributions: every claim
 is the fabric's reasoning over method rules (the telos's dose-response section) and already-held concept
-pages cited by `[[wikilink]]`. Like [[The Estimate-to-Action Gap]], `sources: []` is legitimate here.
+pages cited by `wikilink`. Like [[The Estimate-to-Action Gap]], `sources: []` is legitimate here.
 
 **In this domain, the evidence structurally yields floors, ranges, directions, and harm-ceilings — but
 not a point OPTIMUM.** A study can show *below here is deficiency*, *this arm beat that arm*, *more in

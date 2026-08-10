@@ -17,6 +17,7 @@ relationships:
     - LDL ApoB and Cumulative Exposure
     - The U-Shaped Association Artifact
     - Is the Food Category Doing Any Work
+    - Allostatic Load and Mortality
 ---
 
 **Nucleus of the `inflammation-cvd` cluster.** Chronic vascular inflammation is a *causal* lever for
@@ -219,7 +220,7 @@ mortality ceiling and the diet gap are exactly where a confident-sounding event 
 - **Fake tension:** the ERFC-vs-CCGC crux is explicitly classified a refinement/disambiguation, NOT a
   tension — the parameter table shows they AGREE where they measure the same quantity, and CCGC's own
   counter-passages (inflammation-still-open; prediction-not-addressed) close the not-joined checks. No
-  `[[tension]]` filed.
+  `tension` filed.
 - **Same-quantity discipline:** the crux parameter table carries a filled "same quantity?" column;
   circulating-CRP (both sources, agree) is kept distinct from genetically-raised-CRP (CCGC only, null).
 - **Selection bias (declared):** these five sources were curated to build one argument; that is weak

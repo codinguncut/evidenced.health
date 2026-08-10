@@ -131,7 +131,7 @@ tension is that the two run on **largely the same cohorts**: they cannot be two 
 when they are two analyses of one body of data. The divergence is therefore a *framing / analytic-choice*
 difference, not an empirical one: Guo tests a per-unit slope (CI crosses 1) and decomposes to find the
 aggregate hides null cells; Mishali contrasts extremes, aggregates across fat content, and — with an
-industry sponsor — reads a \~5% inverse CVD estimate as «beneficial». So **no `[[tension]]` is filed**;
+industry sponsor — reads a \~5% inverse CVD estimate as «beneficial». So **no `tension` is filed**;
 this is a structured distinction. It is also **not type-E independent backing** — the shared cohorts make
 the agreement a re-pooling, not two independent routes.
 

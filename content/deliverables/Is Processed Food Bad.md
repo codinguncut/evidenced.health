@@ -99,7 +99,7 @@ randomised and blinded, foods cannot), not evidence that the supplement beats th
 
 Where the matrix has been tested directly on hard outcomes it did not carry harm: SACN found refined
 grains gave RR 1.00 (95% CI 0.98, 1.01) for cardiovascular events and RR 1.00 (0.98, 1.01) for type 2
-diabetes, both `No association · Moderate` [@sacn2015, 7.20-7.25]. So matrix disruption plausibly drives intake (a real effect) but is not shown to poison the
+diabetes, both `No association · Moderate` [@sacn2015]. So matrix disruption plausibly drives intake (a real effect) but is not shown to poison the
 food. Grade: benefit-relevant on intake/satiety, weak-to-null on measured disease endpoints.
 
 ### Additives -- mostly a named gap
@@ -116,7 +116,7 @@ trials show a small weight benefit only when the sweetener displaces sugar (pool
 -1.28 to 0.06) [@who2023nonsugar]. Long-term cohorts point the
 opposite way on hard outcomes -- incident obesity HR 1.76 (1.25 to 2.49), type 2 diabetes HR 1.23
 (1.14 to 1.32), all-cause mortality HR 1.12 (1.05 to 1.19), all low-to-very-low certainty -- and WHO
-explicitly refused to dismiss these as reverse causation [@who2023nonsugar, Table 1] -> [[Non-Sugar Sweeteners]].
+explicitly refused to dismiss these as reverse causation [@who2023nonsugar] -> [[Non-Sugar Sweeteners]].
 
 A causal mechanism now exists for part of it: a randomised trial gave 120 adults saccharin, sucralose,
 aspartame or stevia for two weeks; saccharin and sucralose «significantly impaired glycemic responses»,
@@ -132,12 +132,12 @@ harm attaches to the components, not to the act of refining.
 
 Free sugars: WHO's `<10%` limit is a *dental caries* recommendation, not a metabolic one. On body
 weight the effect is an energy effect -- swapping free sugars for other carbohydrate at equal energy
-moves weight by 0.04 kg (95% CI -0.04 to 0.13), i.e. null [@who2015, Summary of evidence, pp.12-13]. Reducing free sugars (mostly via advice) lowered weight by 0.80 kg (95% CI 0.39
-to 1.21) [@te2013, Results], and the child cohort
+moves weight by 0.04 kg (95% CI -0.04 to 0.13), i.e. null [@who2015]. Reducing free sugars (mostly via advice) lowered weight by 0.80 kg (95% CI 0.39
+to 1.21) [@te2013], and the child cohort
 signal is really a *beverage* signal -- highest-vs-lowest sugar-sweetened beverage intake OR 1.55 (1.32
-to 1.82) [@who2015, Annex 1] -> [[Free Sugars Intake]]. Caries is
+to 1.82) [@who2015] -> [[Free Sugars Intake]]. Caries is
 sugar-specific by mechanism, carried by consistent observational data upgraded for large effect
-[@moynihan2014, Results].
+[@moynihan2014].
 
 The lost fibre matters on its own axis: higher fibre tracks 15-30% lower risk across mortality, CHD,
 type 2 diabetes and colorectal cancer (all-cause mortality RR 0.85 highest-vs-lowest; RR 0.93 per 8
@@ -162,7 +162,7 @@ the field has.
 
 High-temperature cooking of meat forms heterocyclic amines and polycyclic aromatic hydrocarbons, and
 haem iron promotes endogenous N-nitroso compounds -- WCRF rated the mechanistic evidence «robust» for
-processed meat and «moderate» for red meat [@wcrf2018, 5.1.1.3 / 5.2.1.3]. This is a real but *narrow* axis, tied to specific foods (below),
+processed meat and «moderate» for red meat [@wcrf2018]. This is a real but *narrow* axis, tied to specific foods (below),
 not a general indictment of browning.
 
 The broader *cooking by-products* story is weaker. A meta-analysis of 17 RCTs (560 participants) of
@@ -182,18 +182,18 @@ Sugar-sweetened beverages and processed meat carry most of the defensible signal
 blanket *UPF* number largely comes from.
 
 - Processed meat -> colorectal cancer: RR 1.16 (95% CI 1.08 to 1.26) per 50 g/day, WCRF-graded a
-  «convincing» cause [@wcrf2018, Table 5.1 / 5.2.1.4]. In absolute terms a realistic 3-servings/week reduction gives roughly 1 to 8 fewer
+  «convincing» cause [@wcrf2018]. In absolute terms a realistic 3-servings/week reduction gives roughly 1 to 8 fewer
   cancers per 1000 over a lifetime and 1 to 12 fewer cardiometabolic events per 1000 over \~11 years,
-  at low certainty [@nutrirecs2019, Table 1]. Note the
+  at low certainty [@nutrirecs2019]. Note the
   processed/unprocessed split is load-bearing -> [[Red and Processed Meat and Cancer]].
 - Sugar-sweetened beverages: the child adiposity signal above (OR 1.55) is a beverage signal, and
-  fruit juice sits inside the free-sugars exposure while whole fruit sits outside it [@who2015, Remarks, p.16].
+  fruit juice sits inside the free-sugars exposure while whole fruit sits outside it [@who2015].
 
 ### Probable / moderate
 
 - Unprocessed red meat -> cancer mortality: about 7 fewer per 1000 over a lifetime for a 3-servings/week
   cut (9 fewer to 6 fewer), low certainty; the pooled colorectal association is not even significant
-  (RR 1.12, 95% CI 1.00 to 1.25 per 100 g/day) [@wcrf2018, 5.1.1.1] [@nutrirecs2019].
+  (RR 1.12, 95% CI 1.00 to 1.25 per 100 g/day) [@wcrf2018] [@nutrirecs2019].
 - Refined-grain, high-free-sugar and energy-dense hyper-palatable snacks: harm runs through the free
   sugars, the lost fibre and the overconsumption channel, as above -- not through *refining* per se.
 
@@ -212,7 +212,7 @@ Being industrially made is not a health fact. Several heavily-processed foods ar
 A within-aspect note on fat quality: the same *process the fat* question runs through *which* fat, not
 *processed vs not*. Reducing saturated fat cut cardiovascular events (RR 0.83, 15 fewer per 1000,
 moderate certainty) but not mortality (RR 0.96, 2 fewer, the interval spanning null), and the
-replacement sets the sign -> [[Saturated Fat Intake and Replacement]] [@who2023saturated, Annex 6].
+replacement sets the sign -> [[Saturated Fat Intake and Replacement]] [@who2023saturated].
 
 ## Why the category-average overstates the case
 

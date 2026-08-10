@@ -39,7 +39,7 @@ of initial weight"*, i.e. *"reductions from around the middle of these ranges (a
 trials) would start to become clinically meaningful."* **That 4-6 kg is a within-arm loss from
 baseline, achieved by both diets — not a between-group threshold.** The \~1 kg figures below are
 between-group mean differences and must not be set against it as though they were the same quantity.
-[@naude2022, Discussion]
+[@naude2022]
 
 ## The magnitudes
 
@@ -56,7 +56,7 @@ observed in the balanced-carbohydrate arms.
 Other outcomes at >=12 months, without T2DM: DBP **0.09 mmHg lower** (1.29 lower to 1.12 higher);
 LDL **0.04 mmol/L higher** (0.05 lower to 0.12 higher). With T2DM: HbA1c **0.14% lower** (0.38 lower to
 0.10 higher); LDL **0.12 mmol/L higher** (0.03 lower to 0.26 higher).
-[@naude2022, Summary of findings 1-4]
+[@naude2022]
 
 ## Why this is a *no meaningful effect* verdict and NOT an "insufficient evidence" one
 
@@ -70,7 +70,7 @@ importance bar for that outcome:
 | LDL (T2DM) | 0.12 mmol/L | *"changes in LDL cholesterol of greater than 0.26 mmol/L"* | \~2.2x |
 | HbA1c | 0.14% | *"changes in HbA1c of greater than 0.5%"* | \~3.6x |
 
-[@naude2022, Discussion]
+[@naude2022]
 
 **Two things keep this honest.** The LDL row in T2DM has an upper bound of **exactly 0.26** — the
 review's own threshold — so that outcome touches the bar rather than clearing it. And the subgroup
@@ -79,7 +79,7 @@ estimates below reach **-2.71** and **-2.29 kg**, which are not trivially small.
 What converts a small estimate into a positive finding of *no meaningful difference* is the imprecision
 judgement, and the review states it outright, four times: *"we did not downgrade for imprecision"* —
 because the intervals excluded an appreciable effect in **both** directions.
-[@naude2022, Discussion]
+[@naude2022]
 
 **Pre-specification, split by outcome.** The weight bar is **protocol-anchored**: the Methods carry
 *"five to ten per cent of initial body weight (clinically meaningful)"* and "weight loss of at least
@@ -99,7 +99,7 @@ of this review** -- it measured no body composition or hydration outcome that co
    diet-induced diuresis from glycogen depletion and production of ketone bodies, **which is restored
    when carbohydrates are eaten again**."*
 
-[@naude2022, Authors' conclusions]
+[@naude2022]
 
 A 2-3 kg reversible water shift fully absorbs a \~1 kg between-arm difference. **So the observed
 difference may not be a fat-mass difference at all** -- and that is a claim about what the outcome
@@ -136,7 +136,7 @@ average effects between subgroups**, with mean differences in weight reduction..
 kg and 2.71 kg across the various subgroups."* Naude reads the same spread as clinically unimportant
 and uses the subgrouping to explain **heterogeneity**, not to establish a gradient. Reporting this as a
 reading the review "does not draw" understates a denial as a silence.
-[@naude2022, Analyses 1.2 and 1.3]
+[@naude2022]
 
 **When the arms are matched on energy, the advantage collapses to under half a kilogram with zero
 heterogeneity.** This is [[Energy Adjustment and What a Diet Coefficient Means]] operating on whole
@@ -149,7 +149,7 @@ of the answer.
   Methods *"to explore substantial heterogeneity and the stability of findings in different study
   subgroups"* -- a heterogeneity investigation, not an interaction hypothesis. Reading a declined
   route-(b) claim into them would be reading a defect into correctly-applied method.
-  [@naude2022, Methods]
+  [@naude2022]
 - **The two subgroup tests are not independent.** The matched-energy subgroup and the
   non-ketogenic subgroup share heavily overlapping trial lists, and both collapse to I2 = 0% near null.
   The larger effects concentrate in the same ad-libitum, high-heterogeneity trials. No meta-regression
@@ -196,7 +196,7 @@ powered test of personalization by genotype and insulin.
 
 And: *"No trials reported on outcomes after two years, and 60% of trials had a duration of six months
 or less."*
-[@naude2022, Results; Discussion]
+[@naude2022]
 
 **Cardiovascular mortality is a "not measured" row in all four summary-of-findings tables** -- the only
 hard patient-important endpoint the authors carried into them, empty in every stratum. So **every
@@ -235,7 +235,7 @@ The review's findings sit **comfortably inside prevailing guidance**, and it say
 permits rather than asserting agreement with it: *"Current dietary guidance allows for flexibility in
 the proportion of macronutrients, including a wide range of carbohydrate intakes, with greater emphasis
 on quality over quantity and on total dietary patterns over single nutrients."*
-[@naude2022, Authors' conclusions -> Implications for practice]
+[@naude2022]
 
 Recorded because *convention held here* is a reportable finding under the telos, not a non-result --
 and because agreement reached with better warrant defeats the guidance null as surely as divergence.
@@ -244,7 +244,7 @@ and because agreement reached with better warrant defeats the guidance null as s
 the trial literature for its weight-management guideline, NICE found low-carbohydrate diets «did not
 result in improvements in weight, BMI, waist circumference, or HbA1c, relative to conventional (usually
 low-fat) diets, apart from a small improvement in waist circumference for females»
-[@nice, 1.1.10.3] -- and left low-carb **without a recommendation,
+[@nice] -- and left low-carb **without a recommendation,
 for it or against it** ([[Diets for Weight Loss - What NICE Recommends]]). This **corroborates** the
 *no-meaningful-superiority* verdict from a second guidance family. Two refinements it adds:
 
@@ -289,7 +289,7 @@ inclusive vs exclusive) and the outcome and unit match. **But two cells fail, no
 
 **So the direction clash is not established.** It may still be real, but this table cannot show it.
 
-[@naude2022, Analysis 1.3 · (Goldenberg - Low Carbohydrate Diets T2D Remission 2021) Results]
+[@naude2022]
 
 **The inviting error here is a monotone dose-response ladder** (-0.36 -> -1.07 -> -2.29 -> -3.46)
 built by treating Goldenberg's whole set as the deepest rung. Two things falsify it. **Goldenberg's inclusion
@@ -370,7 +370,7 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
 - **The review reports a stratum where caution is warranted, and it belongs in any recommendation drawn
   from this page:** *"In people with lipid disorders and variability with atherogenic lipoprotein
   response, caution in recommending low-carbohydrate and consequent high-fat diets is warranted."*
-  [@naude2022, Authors' conclusions] That is a
+  [@naude2022] That is a
   telos route-(c) contraindication stated by the source.
 - **Direction, stated plainly:** every subgroup and stratum point estimate favours low-carbohydrate.
   The verdict is *not meaningfully different*, not *no difference in any direction*.
@@ -382,7 +382,7 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
   intake (eg, <50% of energy) and health outcomes does not provide support for very low carbohydrate
   diets», with «moderate intakes (eg, 50-55% of energy)... more appropriate than either very high or
   very low». So PURE licenses neither a high-carb nor a very-low-carb optimum.
-  [@dehghan2017, Discussion]
+  [@dehghan2017]
   - **Two discounts before it is used.** PURE is **observational** (mortality, not the weight outcome
     this page pools) and its high-carb signal is **confounded by income** — the highest-carb quintiles
     are the poorest, and «carbohydrate consumption in low-income and middle-income countries is mainly
@@ -391,17 +391,16 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
     high-carb harm is largely a **refined-carb / poverty** signal, not carbohydrate per se
     -> [[Is the Food Category Doing Any Work]], [[The U-Shaped Association Artifact]]. It is grounding
     for *«harm at the extremes»*, not a clean dose-response on carbohydrate.
-    [@dehghan2017, Discussion]
+    [@dehghan2017]
 - **A second cohort traces the complementary arm — Seidelmann 2018 (ARIC + 8-cohort MA)
   `[2026-08-05]`.** Where PURE populates the high-carb (right) arm, Seidelmann's ARIC (mean 49%E) supplies
   the **low-to-moderate (left)** arm, and the two overlay into one U-shaped carbohydrate->mortality curve
   with **nadir 50-55%E** and both extremes elevated (pooled HR «1·20 ... for low carbohydrate
-  consumption; 1·23 ... for high») [@seidelmann2018, 
-  Findings] — so cohort data now cut against **both** poles from both sides. Crucially for *this* page's
+  consumption; 1·23 ... for high») [@seidelmann2018] — so cohort data now cut against **both** poles from both sides. Crucially for *this* page's
   low-carb question, the low-carb arm's mortality **depends entirely on the replacement source**:
   «mortality increased when carbohydrates were exchanged for animal-derived fat or protein (1·18,
   1·08-1·29) and mortality decreased when the substitutions were plant-based (0·82, 0·78-0·87)».
-  [@seidelmann2018, Findings] So a low-carb weight
+  [@seidelmann2018] So a low-carb weight
   strategy is not mortality-neutral-by-default: an *animal-based* low-carb pattern tracks higher
   mortality, a *plant-based* one lower — the source of the substituting fat/protein is the lever, not the
   carbohydrate percentage. Observational (FFQ), weak reverse-causation checks only, no MR

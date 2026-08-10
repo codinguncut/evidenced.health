@@ -10,18 +10,20 @@ updated: 2026-08-10
 self_critiqued: 2026-08-10
 ---
 
-A number earns a place on a person's dashboard only if it does one of two jobs: it **places** them in
-a stratum the evidence stratifies on, or it **transmits** — moving it is evidenced to move a
-patient-important outcome. Most numbers marketed as health metrics do neither cleanly. Some are
-*surrogates* whose causal transmission to the outcome a person cares about is unestablished — a marker
-can move the right way while mortality, events, or function do not. Others are prognostic *markers*
-that predict risk without being *targets* you can move to change it. The whole spine below is the
-two-part test — **does knowing it move a decision, and does moving it move the outcome?** — applied
-per metric, symmetrically.
+A number belongs on your dashboard only if it does one of two things. Either it **places** you
+— sorting you into a group the evidence treats differently — or it **moves the outcome**:
+change the number and the heart attack, the death, the loss of independence becomes less
+likely. Most numbers sold as health metrics do neither. Some are stand-ins never shown to
+connect to anything you care about, and a stand-in can drift the right way while your real
+risk holds firm. Others forecast trouble accurately but cannot be steered — knowing the risk
+changes nothing you can do about it. The whole page below puts every metric to the same
+two-part test: *does knowing it change a decision, and does changing it change the outcome?*
 
-Baseline risk is the multiplier that turns a constant relative effect into a stratum-specific absolute
-benefit; it is why the same number licenses action in one person and not another. Capture is in scope;
-interpreting or acting on a number is a clinician's act, out of scope.
+
+Beneath that sits baseline risk — the multiplier that turns one fixed relative effect into a
+decisive benefit for one person and a negligible one for another, and the reason the same
+reading calls for action in you but not your neighbour. Measuring a number is in scope here;
+deciding what to do about yours is a clinician's judgment, and is not.
 
 ## What makes a number a target, not just a surrogate? (the transmission test)
 
@@ -175,7 +177,7 @@ intervention *applied to this person*. The two are joined by one identity:
 The relative effect of an intervention versus a specific comparator is usually similar across a wide
 range of baseline risks, which is why a single pooled relative estimate is usually legitimate; the
 absolute benefit is that same reduction applied to the person's own baseline risk, so it varies across
-strata even when the relative effect does not [@grade, §2.1]. GRADE draws the
+strata even when the relative effect does not [@grade]. GRADE draws the
 consequence directly: recommendations «may differ across subgroups of patients at different baseline
 risk of an outcome, despite there being a single relative risk that applies to all of them»
 [@grade]. See [[Baseline Risk and the Relative-Absolute Split]] for the
@@ -184,7 +186,7 @@ full decomposition.
 **This is route (a), and route (a) needs prognostic data only — not a subgroup claim.** Differing
 absolute benefit across risk strata is the *expected* arithmetic of a constant relative effect; reading
 it as evidence the treatment «works differently» in a subgroup is a category error that invites
-unnecessary effect-modification analysis [@grade, §5.2.2]. Effect modification
+unnecessary effect-modification analysis [@grade]. Effect modification
 (route (b)) is a separate, more expensive claim requiring positive interaction evidence.
 
 **A worked pair, same intervention and relative effect, two baselines.** Per 1.0 mmol/L LDL-C
@@ -202,7 +204,7 @@ person's expected benefit are different quantities; baseline-risk logic reconcil
 *ranking* of levers by burden defers out to the Big Rocks integrators. **Frame matters too:** a 10-year
 horizon under-reads a younger adult carrying a high lifetime-exposure number (apoB, BP), where lifetime
 absolute benefit is the right denominator — a stratum-dependent choice, not a contradiction
-[@esc2021, 3.2.3.6] -> [[Lifetime Benefit - The Frame for Younger Adults]].
+[@esc2021] -> [[Lifetime Benefit - The Frame for Younger Adults]].
 Which outcome counts on the target side is [[Rating Outcome Importance]].
 
 ## Does a costlier number earn its cost?
@@ -210,19 +212,19 @@ Which outcome counts on the target side is [[Rating Outcome Importance]].
 A costlier test earns its cost only if it **reclassifies** — moves the estimate across a decision
 threshold — often enough to change what someone does. Association strength alone does not qualify it. The
 governing frame is [[Risk Modifiers - When Extra Information Changes a Risk Estimate]], where a bar that
-«very few potential modifiers» clear does most of the work [@esc2021, 3.3].
+«very few potential modifiers» clear does most of the work [@esc2021].
 
 Two constraints bound the question. An extra test helps only in the **grey zone** near a threshold; in
 clearly low- or very-high-risk cases it rarely alters management. And a modifier's headline relative risk
 overstates what it does to *absolute* risk, so its reclassification yield is heavily discounted
-[@esc2021, 3.3]. CAC illustrates both: it reclassifies up and down
+[@esc2021]. CAC illustrates both: it reclassifies up and down
 around thresholds yet is graded only Class IIb, with no reclassification magnitude held here
-[@esc2021, 3.3.3.1].
+[@esc2021].
 
 **State the standing honestly: this tiering rests on mechanism and predictor strength, not on held
 head-to-head reclassification RCTs.** ESC's own frame concedes the outcome loop is open — trials of
 whether added risk information improves outcomes are «generally lacking»
-[@esc2021, 3.3].
+[@esc2021].
 
 **Named gaps (insufficient evidence — an absence, not a demonstrated null; by the expectancy test the
 fabric could not yet be expected to hold this reclassification evidence):**

@@ -54,45 +54,45 @@ with it [[Dementia Prevention and Modifiable Risk Factors]].
 **The big rocks that matter most: not smoking (tobacco dwarfs every diet lever), avoiding overweight/
 obesity, physical activity, and little or no alcohol -> [[Big Rocks (Median)]] / [[Big Rocks (Elderly)]].**
 By breadth of sites and strength of evidence, the leading *diet-adjacent* cancer exposures after tobacco
-are body fatness, alcohol and physical activity [@wcrf2018ter, Introduction] — all of them big rocks. What follows is only the residue those miss.
+are body fatness, alcohol and physical activity [@wcrf2018ter] — all of them big rocks. What follows is only the residue those miss.
 
 ### Alcohol as a carcinogen — the no-safe-threshold twist
 
 The alcohol lever lives in [[Big Rocks (Median)]], where the *mortality* harm begins at a sex-specific
-**dose** — from \~25 g/day in women and \~45 g/day in men [@zhao2023, Results]. The cancer-specific increment is that on the **cancer** axis there
+**dose** — from \~25 g/day in women and \~45 g/day in men [@zhao2023]. The cancer-specific increment is that on the **cancer** axis there
 is *no* lower threshold: «there is no level of consumption below which there is no increase in the risk
-of at least some cancers» [@wcrf2018ter, §5.1 Limit alcohol], and IARC classes alcoholic drinks a **Group 1** (established) human carcinogen.
+of at least some cancers» [@wcrf2018ter], and IARC classes alcoholic drinks a **Group 1** (established) human carcinogen.
 
 Alcohol is a convincing/probable cause of cancers of the mouth/pharynx/larynx, oesophagus, breast,
 colorectum, liver and stomach. The site numbers in the evidence are the *edge of the data*, not safe
 levels — breast has
 no identified threshold; the colorectal judgement rests on intakes above \~30 g/day, liver/stomach above
-\~45 g/day [@wcrf2018ter, matrix asset p3, FN36-38]. Fuller
+\~45 g/day [@wcrf2018ter]. Fuller
 appraisal: [[Alcohol and Mortality and Vascular Disease]].
 
 ### Processed and red meat — colorectal, small in absolute terms
 
 WCRF grades **processed meat a convincing** cause and **red meat a probable** cause of colorectal
 cancer: per-dose associations of RR **1.16 (1.08-1.26) per 50 g/day** (processed) and RR **1.12
-(1.00-1.25) per 100 g/day** (red, its lower bound touching the null) [@wcrf2018, 5.1.1.1 / 5.2.1.1]. WCRF's target is **no more than \~350 to
-500 g cooked weight of red meat per week** and «very little, if any, processed meat» [@wcrf2018ter, §5.1 Limit red and processed meat].
+(1.00-1.25) per 100 g/day** (red, its lower bound touching the null) [@wcrf2018]. WCRF's target is **no more than \~350 to
+500 g cooked weight of red meat per week** and «very little, if any, processed meat» [@wcrf2018ter].
 
 In absolute terms the lever is small: for a realistic 3-servings/week cut, roughly **7 fewer cancer deaths per 1000 over
-a lifetime** (low certainty) [@nutrirecs2019, Table 1]. Whether that warrants a population recommendation is a live cross-body disagreement, kept
+a lifetime** (low certainty) [@nutrirecs2019]. Whether that warrants a population recommendation is a live cross-body disagreement, kept
 on [[Should Adults Reduce Red and Processed Meat]]; the point here is only that meat is a genuine
 colorectal-specific increment, and a modest one.
 
 ### The supplement trap — beta-carotene in smokers
 
 The one *supplement* WCRF grades a **convincing cause** of cancer is high-dose beta-carotene, which
-raises **lung cancer** risk in current and former smokers [@wcrf2018ter, §5.1]. It is the standing counter-example to "an antioxidant pill can't hurt":
+raises **lung cancer** risk in current and former smokers [@wcrf2018ter]. It is the standing counter-example to "an antioxidant pill can't hurt":
 supplementing an isolated nutrient at high dose is a different exposure from eating the food, and here
 it does measurable harm in the exposed stratum -> [[Dietary Supplements Big Lever or Distraction]].
 
 ### The young-adulthood paradox — noted, not banked
 
 Body fatness in *young adulthood* is associated with **lower** later breast-cancer risk — a probable-
-graded arm running opposite to adult adiposity [@wcrf2018ter, §6.3]. Treat it as a unit-of-analysis warning (the label "body fatness" hides two timing-
+graded arm running opposite to adult adiposity [@wcrf2018ter]. Treat it as a unit-of-analysis warning (the label "body fatness" hides two timing-
 dependent quantities), not a lever: it is an opposite-direction association with no stated mechanism and
 obvious confounders, exactly the profile of a protective-arm artifact
 -> [[The U-Shaped Association Artifact]].

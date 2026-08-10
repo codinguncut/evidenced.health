@@ -36,20 +36,20 @@ convergence it appears to add is therefore shared-source, not type-E.
 | Refined grains -> cardiovascular events | **RR 1.00 (95% CI 0.98, 1.01)** per half serving/day, p=0.5 | `No association · Moderate` |
 | Refined grains -> type 2 diabetes | **RR 1.00 (95% CI 0.98, 1.01)**, p=0.7 | `No association · Moderate` |
 
-[@sacn2015, 7.20-7.25]
+[@sacn2015]
 
 **And the randomised comparisons are null across the board.** SACN states the comparator explicitly —
 «All trials compared whole grain diets to refined grain control diets.» — then reports no effect on
 systolic BP (0.2 mmHg, 95% CI -1.6 to 2.0; p=0.85), diastolic, total cholesterol (0.04 mmol/L,
 95% CI -0.12 to 0.20; p=0.49), triacylglycerol, fasting glucose (-0.05 mmol/L, 95% CI -0.12 to 0.02;
 p=0.14), fasting insulin and insulin sensitivity — several at `Adequate evidence`.
-[@sacn2015, 8.126-8.149]
+[@sacn2015]
 
 **The one non-null randomised outcome favours whole grains, on an intermediate:**
 «An effect is demonstrated for higher whole grains consumption on reducing energy intake (-360 kJ,
 95% CI -642, -79; p=0.01)» — graded `Effect · Limited evidence`, and **SACN notes one trial
 contributes 75% of the pooled estimate.**
-[@sacn2015, 8.126-8.149]
+[@sacn2015]
 
 ## The claim that survives is narrower than the popular one
 
@@ -376,7 +376,7 @@ rather than pulses.
 
 ESC's Table 8 specifies **«3045 g of fibre of per day, preferably from wholegrains»** (i.e. 30-45 g;
 the hyphen is lost in the source's OCR).
-[@esc2021, Table 8]
+[@esc2021]
 
 | Body | Fibre target | Form | Method specified? |
 |---|---|---|---|
@@ -426,7 +426,7 @@ WCRF's Third Expert Report is the first *cancer-prevention* family on this page,
 site-specific: «Consuming wholegrains helps protect against colorectal cancer» — a **probable**
 (strong-enough-to-recommend) protective judgement — with dietary fibre graded the same way, and pulses
 (legumes) folded into the recommended plant-food pattern.
-[@wcrf2018ter, §5.1 Eat a diet rich in wholegrains]
+[@wcrf2018ter]
 Its fibre goal — «at least 30 grams per day ... from food sources» — is the **same \~30 g target** the
 guidance families above already converge on, now reached from a cancer endpoint rather than CHD/T2D.
 

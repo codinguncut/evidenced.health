@@ -77,7 +77,7 @@ steps inherits the crisis unexamined; one appraised with them at least prices it
 serious decision based on the results, no matter how promising, of a single study. Similarly, no one
 should take a new, single contrary study as refutation of scientific conclusions supported by
 multiple lines of previous evidence.»
-[@nasem2019, RECOMMENDATION 7-3]
+[@nasem2019]
 
 **Both limbs matter, and the second is the one usually forgotten:** a single dramatic new study
 neither establishes an effect nor overturns a well-supported body. This is a direct Layer-1 / weave

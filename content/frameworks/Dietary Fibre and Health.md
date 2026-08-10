@@ -264,7 +264,7 @@ WCRF's Third Expert Report grades **dietary fibre a *probable* (strong-enough-to
 against colorectal cancer** — «Consuming dietary fibre helps protect against colorectal cancer» — and
 sets the plant-food recommendation's fibre goal at «at least 30 grams per day ... from food sources»
 (AOAC method), the *same* \~25-30 g target this page reaches on the mortality/CVD axis.
-[@wcrf2018ter, §5.1 Eat a diet rich in wholegrains]
+[@wcrf2018ter]
 That directly clashes with the Veronese reading above (colorectal-fibre signal weak, class III/IV,
 and the one RCT on colorectal *adenoma* came back null).
 

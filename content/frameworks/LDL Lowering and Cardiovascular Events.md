@@ -48,11 +48,11 @@ CTT scales every trial by the LDL-C reduction achieved at 1 year and reports the
 > «similar proportional reductions in major vascular events per 1·0 mmol/L LDL cholesterol reduction were
 > found in all types of patient studied (rate ratio [RR] 0·78, 95% CI 0·76-0·80; p<0·0001), including
 > those with LDL cholesterol lower than 2 mmol/L»
-> [@ctt2010, Findings]
+> [@ctt2010]
 
 > «all-cause mortality was reduced by 10% per 1·0 mmol/L LDL reduction (RR 0·90, 95% CI 0·87-0·93;
 > p<0·0001)»
-> [@ctt2010, Findings]
+> [@ctt2010]
 
 **Mortality moved, not just the marker.** Unlike most of the surrogate cases the wiki holds, the LDL-C
 reduction transmitted all the way to all-cause death in randomised evidence — the validated-surrogate
@@ -63,14 +63,13 @@ for the *drug-lowered* range.
 ## The shape — monotone, no threshold, multiplicative
 
 - **No knee, no plateau in the studied range.** «There was no evidence of any threshold within the
-  cholesterol range studied» [@ctt2010, 
-  Interpretation]. Benefit persisted starting below 2.0 mmol/L (RR 0.71, -29%) and «even among those
+  cholesterol range studied» [@ctt2010]. Benefit persisted starting below 2.0 mmol/L (RR 0.71, -29%) and «even among those
   reaching 1·8 mmol/L (70 mg/dL) or lower» further reduction still produced definite benefit (RR 0.63, 99%
-  CI 0.41-0.95) [@ctt2010, Results]. The
+  CI 0.41-0.95) [@ctt2010]. The
   RR per mmol «did not depend on the baseline LDL cholesterol concentration (trend p=0·2)».
 - **The reduction compounds multiplicatively:** «a 2 mmol/L reduction would reduce the risk by about 40%
   (since the combination of risk ratios of 0·78×0·78 yields a risk ratio of about 0·6)»
-  [@ctt2010, Discussion]. This is the
+  [@ctt2010]. This is the
   per-unit face of the nucleus's *cumulative-exposure* thesis: successive mmol multiply, so **more and
   longer** both pay -> [[LDL ApoB and Cumulative Exposure]].
 - A clean confirmation of the corpus's operative dose-response default — *every reduction pays*; the burden
@@ -87,15 +86,15 @@ IMPROVE-IT; n=40,430), each lipid is entered *simultaneously*:
 - apoB, non-HDL-C and TG each predict MI alone, but **only apoB survives mutual adjustment** — «when
   assessed together, only apoB was associated (adjusted hazard ratio [aHR] per 1 SD, 1.27; 95% CI,
   1.15-1.40; P < .001). Similarly, only apoB was associated with MI in the secondary prevention cohort.»
-  [@marston2022, Results]. Non-HDL-C fell to aHR
+  [@marston2022]. Non-HDL-C fell to aHR
   1.09 (NS) and TG to 1.00 (NS) once apoB was held constant.
 - **Particle TYPE stops mattering once particle NUMBER is fixed** — adjusting for apoB, the TG/LDL-C ratio
   (a proxy for TG-rich vs LDL particles) was flat (aHR 1.04, 0.99-1.09, P=.12): «for a given concentration
   of apoB-containing lipoproteins, the relative proportions of particle subpopulations may no longer be a
-  predictor of risk» [@marston2022, Abstract].
+  predictor of risk» [@marston2022].
 - Verdict: «risk of MI was best captured by the number of apoB-containing lipoproteins, independent from
   lipid content (cholesterol or TG) or type of lipoprotein (LDL or TG-rich)»
-  [@marston2022, Conclusions]. Where apoB is
+  [@marston2022]. Where apoB is
   unavailable, «non-HDL-C in particular is the preferred surrogate for apoB, as it incorporates TG-rich
   lipoproteins in addition to LDL» — LDL-C is the weakest of the three because it misses the remnant
   particles.

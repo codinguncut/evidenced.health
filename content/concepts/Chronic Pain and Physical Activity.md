@@ -27,7 +27,7 @@ patient-important outcomes here — self-reported pain, physical function, QoL �
 
 ## The verdict — safe, probably helps function and pain a little, but the evidence is genuinely weak
 
-[@geneen2017chronicpain, 02]
+[@geneen2017chronicpain]
 Gold-tier Cochrane umbrella (21 SRs, 381 studies, 37,143 participants; 264 studies compared exercise vs
 no/minimal exercise across RA, OA, fibromyalgia, low back pain, claudication, dysmenorrhoea, neck
 disorder, spinal cord injury, postpolio, patellofemoral pain).

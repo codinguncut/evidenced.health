@@ -25,7 +25,7 @@ is proven to reach primary prevention** — the partial exception to
 [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]. The largest randomised
 evidence base (BPLTTC 2021, «344 716 participants from 48 randomised clinical trials») settles two long-
 contested questions: the benefit does **not** require pre-existing heart disease, and it does **not**
-vanish at lower baseline blood pressure. [@bplttc2021, Abstract]
+vanish at lower baseline blood pressure. [@bplttc2021]
 
 ## The effect, and why its independence from baseline is the point
 
@@ -34,7 +34,7 @@ vanish at lower baseline blood pressure. [@bplttc2021, Abstract]
 > high–normal blood pressure values».
 
 Per 5 mmHg SBP reduction, the hazard ratio for a major CV event was **0.91 (0.89-0.94) in people without
-prior CVD** and **0.89 (0.86-0.92) in those with it** [@bplttc2021, Results]. Across seven baseline-SBP strata from <120 to >=170
+prior CVD** and **0.89 (0.86-0.92) in those with it** [@bplttc2021]. Across seven baseline-SBP strata from <120 to >=170
 mmHg there was «no reliable evidence of heterogeneity», and «in no subgroup was the HR above 1·0».
 Component reductions per 5 mmHg: stroke 13%, heart failure 13%, ischaemic heart disease 8%, CV death 5%.
 
@@ -61,7 +61,7 @@ the cost of treatment, and patient preferences». They even «caution against us
 risk differences from clinical trials for making policy decisions» — the trials' populations were
 higher-risk (absolute rates «31·9... in the comparator group and 25·9... in the intervention group» per
 1000 person-years without prior CVD, i.e. a \~2.4%/yr baseline, far above a low-risk primary-prevention
-person). [@bplttc2021, Discussion]
+person). [@bplttc2021]
 
 **So BP-lowering refines, not refutes, the ceiling.** Its *relative* benefit is proven where weight-loss
 and GLP-1 CV benefit are not — but the *absolute* benefit still scales with baseline risk, exactly the
@@ -76,7 +76,7 @@ ceiling's mechanism, and the paper legislates the same rule (treat on absolute r
 - **Not the drug/adverse-effect trade-off** for an individual — adverse effects, cost and preferences are
   named as decision inputs but not quantified — *SPRINT supplies the harm side, below*.
 
-[@bplttc2021, Discussion]
+[@bplttc2021]
 
 ## SPRINT — the intensive-target trial that operationalises *treat on absolute risk*
 
@@ -104,7 +104,7 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
 The intro records the standing controversy: registries show a «J-shaped association» between BP and
 events (lowest risk \~130/75, implying harm below), which had been read as a reason not to lower BP far.
 The randomised evidence shows benefit «down to less than 120 mm Hg» with no rising HR in any low-BP
-stratum — so the observational J-curve is not a treatment effect. [@bplttc2021, Introduction] A worked instance of
+stratum — so the observational J-curve is not a treatment effect. [@bplttc2021] A worked instance of
 [[The U-Shaped Association Artifact]]: the protective-looking lower arm of an observational curve does
 not survive the randomised (here, interventional) check.
 

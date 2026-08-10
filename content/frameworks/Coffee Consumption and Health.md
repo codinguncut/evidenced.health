@@ -60,7 +60,7 @@ consequences:
 Grosso 2016 (a dose-response MA, 31 cohorts, **1,610,543 individuals**) is the smoker/non-smoker
 **referent correction** Poole's page left pending. Two facts frame it: the overall (smoker-mixed)
 all-cause curve is a J that plateaus then rises — nadir RR **0.83 at 3 cups**, back up to
-**0.90 (0.85-0.96) at 7 cups** [@grosso2016, Table 2] —
+**0.90 (0.85-0.96) at 7 cups** [@grosso2016] —
 while in **never-smokers the curve is linear-monotone**, no upper-arm attenuation: «a linear dose-response
 analysis showed a signiﬁcant decreased risk by 6 % for each additional cup of coffee per day consumed
 for all- cause and CVD mortality (RR = 0.94, 95 % CI = 0.93, 0.96 and RR = 0.94, 95 % CI = 0.91, 0.97,

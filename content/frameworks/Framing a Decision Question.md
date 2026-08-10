@@ -25,7 +25,7 @@ therefore has no determinate answer.
 PICO: **P**opulation the recommendation is meant to apply to · **I**ntervention · **C**omparison (the
 alternative; the control-group intervention) · **O**utcome(s) of interest. Each recommendation
 "should answer a focused and sensible health care question that leads to an action."
-[@grade, §2]
+[@grade]
 
 **The comparator is the slot most easily left implicit, and leaving it implicit changes the answer.**
 (GRADE asserts no ranking among the slots; the emphasis here is this page's.)
@@ -34,12 +34,12 @@ clear whether a recommendation means all options are equally endorsed or some ar
 others — GRADE's case is anticoagulant choice where the agents carry *different certainty ratings*,
 so «for use of these agents vs. not using any anticoagulants» and "a preference for one agent over
 the others" are different recommendations that look alike if the comparator is unstated.
-[@grade, §2.2]
+[@grade]
 
 ## Mechanism — why the derivatives are rejected
 
 GRADE explicitly declines the PICOTS-style extensions (adding T for time, S for study design):
-"These modifications are neither helpful nor necessary." [@grade, §2]
+"These modifications are neither helpful nor necessary." [@grade]
 
 - **Time** is already carried by specifying the intervention and outcome properly ("mortality at one
   year") — a separate slot invites stating it twice or neither.
@@ -47,14 +47,14 @@ GRADE explicitly declines the PICOTS-style extensions (adding T for time, S for 
   study design, that inform an answer are often not known when the question is asked. That is,
   observational studies may inform a question when randomized trials are no available **or not
   associated with high confidence in the estimates**." [sic -- "no available"]
-  [@grade, §2]
+  [@grade]
   - Worth noting against GRADE's reputation as a hierarchy: the question is framed **design-blind**,
     and design enters later as one input to certainty rather than as an admission criterion. A
     hierarchy that ranked designs at the question stage would exclude evidence before appraising it.
     [inferred from @grade]
 - **Setting** may be folded into the population ("women in low income countries"), and matters
   because "guidelines intended for resource-rich environments will often be inapplicable to
-  resource-poor environments." [@grade, §2]
+  resource-poor environments." [@grade]
 
 ## How broad to make the question
 
@@ -63,7 +63,7 @@ intervention should be defined broadly enough to be useful but only so far as "t
 should suggest that across the range of patients and interventions it is plausible that the magnitude
 of effect on the key outcomes is more or less the same." Where that fails, subpopulations "should
 be defined separately." Reviews often manage this by starting broad with **a priori** subgroup
-hypotheses to explain any heterogeneity found. [@grade, §2.1]
+hypotheses to explain any heterogeneity found. [@grade]
 
 ## Decision relevance
 
@@ -78,7 +78,7 @@ hypotheses to explain any heterogeneity found. [@grade, §2.1]
   and asserts no frequency ranking either way.
 - **Named errors:** failing to include all patient-important outcomes, "e.g. adverse effects or
   toxicity," and failing to consider all relevant alternatives — "particularly problematic when
-  guidelines target a global audience." [@grade, §2]
+  guidelines target a global audience." [@grade]
 
 ## Limits
 
@@ -86,7 +86,7 @@ hypotheses to explain any heterogeneity found. [@grade, §2.1]
   applies the framework to them anyway (specifying the population and the outcome, optionally refined
   by predictors such as age or severity), says it "has begun to tackle" rating certainty for
   prognosis, and uses the answers both as background for recommendations and to judge whether
-  baseline risk is direct enough. [@grade, §2.3]
+  baseline risk is direct enough. [@grade]
 - The framework says nothing about which questions are *worth* asking — it disciplines the form of a
   question already chosen. Prioritization is a separate act.
 - **Source currency:** §2 is flagged in-source as rewritten in the 2024 GRADE Book.
@@ -158,7 +158,7 @@ specification as an annex, which makes it a worked example rather than an assert
   categorical ▶ Adherence to recommendations ▶ Appropriately matched to intervention group by
   randomization».
 
-[@who2023saturated, Annex 5, pp.59-62]
+[@who2023saturated]
 
 **The item worth carrying to other pages:** WHO designates blood lipids an **intermediate** at
 question-framing time — before any evidence was graded. **So the guideline's own PICO classifies LDL as

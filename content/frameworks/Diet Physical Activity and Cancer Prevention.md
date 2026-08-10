@@ -35,10 +35,10 @@ tobacco — are **body fatness, alcohol, and physical activity**, not the specif
 per cent of all cancer cases are estimated to be preventable through healthy lifestyles» — but that
 figure is broader than diet: the full source sentence adds «avoiding exposure to occupational
 carcinogens, environmental pollution and certain long-term infections», and "healthy lifestyles"
-includes not smoking. [@wcrf2018ter, Introduction] It
+includes not smoking. [@wcrf2018ter] It
 is also a **population-attributable fraction**, not a per-person risk reduction. WCRF warns «If current
 trends continue, overweight and obesity are likely to overtake smoking as the number one risk factor
-for cancer.» [@wcrf2018ter, Introduction]
+for cancer.» [@wcrf2018ter]
 
 ## The grading system — the decision-relevant object, not the raw effect
 
@@ -55,7 +55,7 @@ strong grades drive recommendations. The grade, not a bare association, is what 
 
 «They enable evidence to be categorised as being ‘strong’ (‘convincing’, ‘probable’ or ‘substantial
 effect on risk unlikely’) or ‘limited’ ... Only evidence judged to be strong is usually used as the
-basis for Recommendations.» [@wcrf2018ter, §2.4.2]
+basis for Recommendations.» [@wcrf2018ter]
 The criteria are **Bradford-Hill-derived** (study quality, number of study types/cohorts, heterogeneity,
 dose-response, plausible mechanism at typical human exposures). This is WCRF's *own* system, distinct
 from GRADE — the same evidence graded "convincing/probable" here is graded "low certainty" under strict
@@ -94,25 +94,25 @@ From the §5 recommendation justifications (prose) cross-checked against the col
 | Body fatness in *young adulthood* | breast (pre + postmeno) | Probable | the paradox — a protective arm, direction opposite to adult body fatness |
 | Lactation | breast (mother) | Probable / Convincing | |
 
-[@wcrf2018ter, §5.1 justifications; matrix asset p2 grid + p3 footnotes 36-39, 49, 52, 62-66]
+[@wcrf2018ter]
 
 ## Two structural cautions the report itself raises
 
 **1. The holistic shift — the pattern, not the food, is the causal unit.** The Panel now judges «it
 appears increasingly unlikely that specific foods, nutrients or other components of foods are
 themselves important singular factors ... rather, different patterns of diet and physical activity
-combine to create a metabolic state» conducive to cancer. [@wcrf2018ter, §6.1] This is the wiki's own *observed-healthy-population-is-not-evidence-for-a-
+combine to create a metabolic state» conducive to cancer. [@wcrf2018ter] This is the wiki's own *observed-healthy-population-is-not-evidence-for-a-
 component* rule arriving from a cancer body: confidence in the causal exposure is «always ... greater
 for the aggregated set of dietary factors ... than for any single food». The adherence studies bear it
 out — «the more people adhere to the ... Recommendations, the greater the reductions» — so «confidence
 in the protective effect from following all of the Recommendations is greater than that for any
-individual Recommendation.» [@wcrf2018ter, §5.1.2]
+individual Recommendation.» [@wcrf2018ter]
 
 **2. Population judgements, and the loop is open.** These are population-level causal grades, not
 per-person effects, and they rest on *observational cohorts* (few lifetime-diet RCTs are feasible — a
 fit-to-question limit, not a defect). No source here shows that an *individual's* weight loss or meat
 cut *reduces their* cancer — the survivor evidence is explicitly «limited» on whether changing exposures
-«will alter the clinical course». [@wcrf2018ter, §4.2]
+«will alter the clinical course». [@wcrf2018ter]
 [inferred from @wcrf2018ter]
 
 ## Layer-1 ranking note

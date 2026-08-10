@@ -30,12 +30,12 @@ independent methods say the protection is largely not real.
 - **All-cause mortality (Stockwell, 87 studies).** Unadjusted, the «classic J-shaped curve» appears:
   low-volume drinkers (1.3-24.9 g/day) «RR = 0.86, 95% CI [0.83, 0.90]» vs abstainers; occasional
   drinkers «0.84 [0.79, 0.89]»; former drinkers elevated «1.22 [1.14, 1.31]».
-  [@stockwell2016, Table 2]
+  [@stockwell2016]
 - **Vascular disease (Millwood, China Kadoorie, 500k).** Self-reported intake had «U-shaped
   associations with the incidence of ischaemic stroke... intracerebral haemorrhage... and acute
   myocardial infarction; men who reported drinking about 100 g of alcohol per week... had lower risks
   of all three diseases than non-drinkers or heavier drinkers.»
-  [@millwood2019, Findings]
+  [@millwood2019]
 
 ## Why the lower arm is an artifact — two independent adjudications
 
@@ -50,7 +50,7 @@ they are ill, counted as *abstainers*, making the referent look unhealthy):
   evidence of health protective effects for low-volume drinkers or any other category.»
 - the corrected pattern is «more consistent with a linear dose response than a J-shaped curve.»
 
-[@stockwell2016, Results; Discussion; Conclusions]
+[@stockwell2016]
 
 **2. Mendelian randomization (Millwood).** Genetic variants (ALDH2 rs671, ADH1B) that strongly lower
 alcohol tolerance act as instruments free of reverse causation and lifestyle confounding. The
@@ -65,13 +65,13 @@ genotype-predicted (causal) relationship is **monotonic, with no protective lowe
   (genetic) — convergent, so the confounding is specific to the *protective* claim, not to alcohol's
   BP effect.
 
-[@millwood2019, Results]
+[@millwood2019]
 
 Millwood's verdict: «the apparently protective effects of moderate alcohol intake against stroke are
 not mainly caused by alcohol itself, and are largely artifacts of reverse causation and confounding.»
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
-[@millwood2019, Research in context; (Stockwell - Moderate Drinkers Mortality Risk 2016) , Conclusions]
+[@millwood2019]
 
 ## Two independent methods, one conclusion `[E-independent]`
 
@@ -118,7 +118,7 @@ earlier systematic review» (its ref 8 is Stockwell), same
 team and method. It **refines** the observational arm (more studies, occasional referent, the
 threshold); it is **not** an independent method, so the `[E-independent]` convergence above stays
 Stockwell ∥ Millwood, unchanged.
-[@zhao2023, Results; Discussion; Table 4]
+[@zhao2023]
 
 ## The honest boundary — stroke is not myocardial infarction
 
@@ -128,7 +128,7 @@ suggests alcohol's BP harm «could be offset by cardio-protective changes in oth
 the MI case count was limited so «some real benefit or hazard cannot be excluded». So "alcohol is
 uniformly harmful" holds for **stroke and BP**; for **coronary heart disease the causal picture is
 genuinely unresolved**, and that is the one place a small real benefit is not excluded.
-[@millwood2019, Discussion]
+[@millwood2019]
 
 ## What this probes `[PRIOR handle — not scored here]`
 
@@ -159,23 +159,23 @@ a restatement.
 WCRF's Third Expert Report grades **alcohol a cause of many cancers** — mouth/pharynx/larynx,
 oesophagus (squamous cell), breast, colorectum, liver and stomach (convincing/probable) — and IARC
 classes alcoholic drinks a **Group 1 (established) human carcinogen**.
-[@wcrf2018ter, §5.1 Limit alcohol; matrix asset p3, FN35]
+[@wcrf2018ter]
 The recommendation is blunt: «For cancer prevention, it’s best not to drink alcohol.»
 
 **The cancer axis behaves differently from the mortality axis on threshold.** Where Zhao's all-cause
 harm begins at a *dose* (45 g/day pooled, 25 g/day women), the cancer risk has **no lower threshold**:
 «there is no level of consumption below which there is no increase in the risk of at least some
-cancers.» [@wcrf2018ter, §5.1 Limit alcohol] The
+cancers.» [@wcrf2018ter] The
 site-specific numbers in the matrix are **the edge of the evidence base, not safe thresholds** (the
 CLAUDE.md rule: a guideline number is first a marker of where the data thin out): breast «No threshold
 ... was identified» (FN38); the colorectal judgement is *based on intakes above* \~30 g/day (\~2 drinks,
 FN37) and the liver/stomach judgements on intakes *above* \~45 g/day (\~3 drinks, FN36) — i.e. that is
 where the graded evidence sits, not a level below which alcohol is safe.
-[@wcrf2018ter, matrix asset p3, FN36-38]
+[@wcrf2018ter]
 
 **A genuine J-arm — instantly outweighed.** Alcohol «helps protect against kidney cancer (at least up
 to 30 grams or two drinks per day), but this is far outweighed by the increased risk for other
-cancers.» [@wcrf2018ter, §5.1 Limit alcohol] So a
+cancers.» [@wcrf2018ter] So a
 real protective association can coexist with net harm — the *net-effect-not-the-intended-effect* rule:
 a single-site benefit is not a reason to drink when the whole-organism cancer ledger is negative.
 
@@ -201,16 +201,16 @@ ischaemic-heart-disease risk than spreading it out.
   irregular heavy drinking occasions compared with regular moderate drinking was 1.45 (95% confidence
   interval: 1.24, 1.70)» (fixed-effects 1.36), I²=53.9%; a detrimental effect «even for drinkers whose
   average consumption is moderate.»
-  [@roerecke2010, Abstract; Results]
+  [@roerecke2010]
 - The comparison **excludes abstainers and former drinkers**, so this is not a sick-quitter artifact:
   "Because we did not include an abstainer group in our analysis and used risk estimates that separated
   former drinkers from their analysis, it is unlikely that a sick-quitter effect ... influenced our
   findings." And it is conservative — non-differential misclassification biases the pooled estimate
   toward the null.
-  [@roerecke2010, Discussion]
+  [@roerecke2010]
 - Roerecke's verdict: «the cardioprotective effect of moderate alcohol consumption disappears when, on
   average, light to moderate drinking is mixed with irregular heavy drinking occasions.»
-  [@roerecke2010, Abstract]
+  [@roerecke2010]
 
 **Why this is a refinement, not a tension with the artifact verdict above** — the contrasts are different
 quantities:
@@ -234,7 +234,7 @@ to cut total intake.
 **This fills a gap GBD names explicitly.** GBD flagged the hole itself: «drinking patterns within a year
 are assumed to be consistent; however, past work shows that drinking patterns, rather than average levels
 of consumption such as standard daily drinks, might be related to different levels of risk».
-[@gbd2018alcohol, Discussion] Roerecke (2010) supplies
+[@gbd2018alcohol] Roerecke (2010) supplies
 exactly the pattern-risk function GBD's population model could not — the composite covers a blind spot
 GBD's own model explicitly names (an F-refinement across the two), not a contest.
 [inferred from @roerecke2010; @gbd2018alcohol]
@@ -252,13 +252,13 @@ metabolites.
   associated with inflammatory markers, cardiovascular disease, or cancer or predictive of all-cause
   mortality.» Lowest-vs-highest quartile mortality HR «0.80 (95% CI, 0.54-1.17)», ns; incident CVD and
   cancer also flat across quartiles.
-  [@semba2014, Results; Conclusions]
+  [@semba2014]
 - The verdict is scoped to *dietary* doses: «Resveratrol levels achieved with a Western diet did not have
   a substantial influence on health status and mortality risk of the population in this study.»
-  [@semba2014, Conclusions]
+  [@semba2014]
 - The biomarker is really a **wine-intake marker**: urinary resveratrol correlated with alcohol intake at
   Spearman «0.67 (P < .001)», and «urinary resveratrol levels are a valid biomarker of wine consumption.»
-  [@semba2014, Results; Discussion]
+  [@semba2014]
 
 **So the presumed active component of red wine does no measurable work at the doses a drinker actually
 gets** — the same failure mode as coffee's *caffeine* (present but inactive for the outcomes) or the
@@ -284,16 +284,16 @@ The arms above are per-person risks. Two population-attributable-fraction (PAF) 
 burden, «the level of alcohol consumption that minimised harm across health outcomes was zero (95% UI
 0·0-0·8) standard drinks per week» (1 drink = 10 g ethanol); alcohol «led to 2·8 million deaths» in 2016
 and was the leading risk factor at ages 15-49.
-[@gbd2018alcohol, Findings; , Discussion] GBD
+[@gbd2018alcohol] GBD
 reaches this by **re-doing the meta-analysis with a controlled reference category** — the same
 sick-quitter correction Stockwell/Zhao applied — so it is population-scale *reinforcement of the same
 artifact finding, not an independent method*. It does find a residual protective minimum for IHD and
 diabetes («0·86 (0·80-0·96) for men and 0·82 (0·72-0·95) for women» at \~0·9 drinks/day) but «these
 protective effects were offset by the risks associated with cancers, which increased monotonically».
-[@gbd2018alcohol, Discussion] It states the guidance
+[@gbd2018alcohol] It states the guidance
 clash plainly: «the safest level of drinking is none. This level is in conflict with most health
 guidelines, which espouse health benefits associated with consuming up to two drinks per day.»
-[@gbd2018alcohol, Conclusion]
+[@gbd2018alcohol]
 
 **Rumgay 2021 (IARC) — the cancer-burden leg, and it reinforces no-threshold with scale.** «741 300
 (95% UI 558 500-951 200), or 4·1% (3·1-5·3), of all new cases of cancer in 2020 were attributable to
@@ -302,7 +302,7 @@ no-safe-threshold claim (WCRF, above), **light-moderate drinking is not exempt**
 g per day) contributed 103 100 (13·9%; 95% UI 82 600-207 200) cases», i.e. «moderate drinking still
 contributed one in seven alcohol-attributable cases and more than 100 000 cancer cases worldwide», and
 even «drinking up to 10 g per day contributed 41 300 (35 400-145 800) cases» (\~1 drink).
-[@rumgay2021, Findings; Discussion]
+[@rumgay2021]
 
 **Read PAF correctly (the unit guard).** A PAF is *how many population cases would not have occurred under
 lifetime abstention* — prevalence × RR — NOT the risk to an individual drinker, and **not commensurable

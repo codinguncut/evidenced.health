@@ -10,29 +10,31 @@ updated: 2026-08-10
 self_critiqued: 2026-08-10
 ---
 
-An exposure has no effect in the abstract. Every effect estimate is a contrast against an implicit
-comparator — the alternative the exposure displaces — and changing that comparator changes the sign and
-the size of the answer; a bare "X is good" or "X is bad" is unfinished until it says *instead of what?*
-Two things must be pinned before the comparator can even be named: **what the exposure actually is** (a
-category whose within-variance swamps its between-variance describes no real food, so "replace X" is
-undefined until X is), and **what a person would realistically do instead** (judged against the
-realistic alternative, not an ideal).
+No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
+would have taken its place. So the useful question is rarely *is butter bad for you?* but *bad
+compared with what?* Butter is better than the trans-fat margarine it replaced a generation
+ago and worse than the olive oil that could replace it now — and both comparisons are true at
+once. Name a different alternative and the answer changes with it.
 
-The effect a person then gets is not the mechanism's isolated prediction. It is that prediction net of
-whatever the organism or the schedule compensates, and net of what adherence and real-world
-execution-drift cost — so a trial's efficacy is an upper structural bound on field effectiveness, not
-the same number. When a substitution moves more than one patient-important outcome, the axes are **laid
-out, not summed**: the wiki supplies each axis's evidenced transmission to its outcome and names any
-non-health axis's direction, but the cross-axis weight is irreducibly the person's — there is no scalar
-maximand.
+Naming that alternative takes two steps most advice skips. First, be clear what the food
+actually is: "dairy" and "carbs" are baskets of items so unalike that their average describes
+nothing on a real plate, so *eat less of X* means little until X is specified. Second, name
+what the person would genuinely eat instead — the swap they would actually make, not the ideal
+one a trial assigns.
 
-Finally the honest decision object is a **region and a direction, not a point**, and *which end* of that
-region to act on is a loss-function choice, not an estimate: harms pull toward the bad tail, benefits
-toward the conservative tail, as a reasoned **default** and never a law, with whose-loss-sets-it named
-rather than smuggled in as if it were in the data. The fabric therefore **optimizes allocation** (where
-to act) while it **satisfices dose** (how much, per lever). This is an open loop: it verifies only the
-*would*-form — whether a well-informed advisor would frame the substitution this way — never whether
-anyone was better off.
+Even then, the effect is usually smaller than the biology predicts. The body compensates,
+routines slip, resolve fades; a well-run trial shows the ceiling, not the ordinary week. And
+when a single swap moves several things that matter — easing the heart, say, while costing
+money or effort — this page sets them side by side rather than collapsing them into one grade,
+because how much each outcome weighs is yours to decide, not ours to compute.
+
+So the honest answer is a direction and a range, not a single figure — and which end of the
+range to act on depends on what you would rather be wrong about. Where a real harm is in play,
+lean cautious; where the prize is a likely benefit, there is little to gain from overshooting.
+In short: choose carefully *where* to act, and settle for roughly right on *how much*. One
+limit outlasts the rest — this page can judge only whether a well-informed advisor *would*
+frame a swap this way, never whether anyone who followed it was better off. That loop stays
+open.
 
 ## Compared to what? Why an effect has no sign until the alternative is named
 

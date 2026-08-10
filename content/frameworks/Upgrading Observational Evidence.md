@@ -23,7 +23,7 @@ self_critiqued: 2026-08-08
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
 of GRADE that its hierarchy reputation obscures: the framework has an explicit, criteria-bound route
 by which non-randomized evidence can end up rated **high**.
-[@grade, §5.3]
+[@grade]
 
 ## The gate before the three factors
 
@@ -35,7 +35,7 @@ Rating up is **conditional and rare**:
 - The circumstances "will likely occur infrequently."
 - For randomized trials: "Although it is theoretically possible to rate up results from randomized
   control trials, we have yet to find a compelling example of such an instance."
-  [@grade, §5.3]
+  [@grade]
 
 So in practice the three factors are a route *out of* the observational default, not a general
 upward pressure.
@@ -52,11 +52,11 @@ observational designs tend to overestimate.
 - Rating up is more warranted when the effect is **rapid**, **consistent across subjects**, reverses
   a previous disease trajectory, or is supported by indirect evidence.
 - **Caution with subjective outcomes**, especially where assessors were unblinded.
-  [@grade, §5.3.1]
+  [@grade]
 
 Worked case: infant sleeping position and SIDS — an odds ratio of 4.1 (95% CI 3.1-5.5) for front
 versus back sleeping, alongside 50-70% declines in SIDS incidence following "back to sleep"
-campaigns. [@grade, §5.3.1]
+campaigns. [@grade]
 
 **A nutrition worked case where the threshold BINDS `[2026-08-04, Poole]`.** Poole's coffee umbrella
 review applied GRADE across 218 meta-analyses (67+ outcomes), almost all observational and rated low or
@@ -77,7 +77,7 @@ merely *modest*. -> [[Coffee Consumption and Health]].
 
 "The presence of a dose-response gradient has long been recognized as an important criterion for
 believing a putative cause-effect relationship," and its presence in observational data can raise
-certainty. [@grade, §5.3.2]
+certainty. [@grade]
 
 Worked cases: rising INR and bleeding risk under warfarin; the large absolute increase in mortality
 with each hour's delay of antibiotics in sepsis and hypotension.
@@ -108,7 +108,7 @@ it.
 **It is NOT the case that the bias hid a real effect behind a false null.** That reading would licence
 upgrading a null into evidence of an *effect*, which inverts the factor and points it at the opposite
 conclusion.
-[@grade, §5.3.3, Example 4]
+[@grade]
 
 ### A case exhibiting two upgrade criteria at once — yet NOT upgraded `[2026-08-04, Ding coffee-T2D]`
 
@@ -150,7 +150,7 @@ records the criteria as met; it does not issue an upgrade verdict (adjudication 
   largely exposures (infant sleeping position, condom use, MMR vaccination, hospital ownership), and
   its PICO definition names "in observational studies the exposure factor" as the I-slot. So the
   route is available to nutrition questions, not only to trial-shaped ones.
-  [@grade, §2, §5.3.1, §5.3.3]
+  [@grade]
 - The thresholds ("large," "very large") are pinned to a table this chunk renders as `[TABLE]` — the
   numeric cut-points are not captured on this page and would need re-reading from the source or the
   GRADE Book. `AWAITS` a re-read for the magnitude thresholds.
@@ -226,7 +226,7 @@ observational nutrition finding survives**, which is this page's question.
 | **Dietary fat -> breast cancer** | strong case-control associations | prospective studies did not reproduce them | «artifacts of the noncomparable manner in which the data were collected» |
 | **Folic acid -> neural tube defects** | case-control **and** cohort **and** trials | confirmed, then «confirmed in population fortification programs in multiple countries» | convergence across independent method classes |
 
-[@willett, chunks 22, 23, 27]
+[@willett]
 
 **The discriminator is not study count and not effect size — it is whether independent method classes
 converged.** The folic acid case:

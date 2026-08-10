@@ -60,7 +60,7 @@ maintaining muscle in this stratum it is the start line, not the finish
 
 ## The parameter table — daily and per-meal are DIFFERENT quantities (do not collapse them)
 
-`[@bauer2013, Moore - Protein Requirement Older vs Younger 2014]`
+`[@bauer2013]`
 The single most common error with these numbers is treating a *per-day* target, a *per-meal* dose, and a
 *hypertrophy* target as one quantity. They sit on different denominators; only the same-denominator rows
 are directly comparable.
@@ -96,7 +96,7 @@ are directly comparable.
 
 ## Per-meal distribution — clear the threshold at each meal
 
-`[@bauer2013, Moore - Protein Requirement Older vs Younger 2014]`
+`[@bauer2013]`
 Because anabolic resistance raises the *per-meal* trigger, hitting the daily total is not enough if it
 is unevenly distributed. PROT-AGE: «The per-meal anabolic threshold ... is higher in older individuals
 (ie, 25 to 30 g protein per meal, containing about 2.5 to 2.8 g leucine)». Moore's breakpoint (0.40

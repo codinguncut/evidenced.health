@@ -27,7 +27,7 @@ pressure and metabolic risk factors. It is the wiki's DASH-specific pooling — 
 whole-named-diet network of [[Named Diet Programs Compared]] (which ranks DASH against 13 other
 programmes on weight *and* cardiovascular risk factors, finding between-diet differences trivial) and
 from the single-electrolyte pages ([[Sodium Intake and Blood Pressure]],
-[[Potassium Intake and Blood Pressure]]). [@siervo2015, Abstract + Main search]
+[[Potassium Intake and Blood Pressure]]). [@siervo2015]
 
 **One caveat governs the whole page: every measured endpoint is a SURROGATE** — blood pressure,
 lipids, glucose. **No hard outcome (mortality, MI, stroke, incident CVD) is measured**; the trials are
@@ -45,7 +45,7 @@ does to events is a separate, not-established-here claim (transmission held on
 
 ## The pooled effects — BP and atherogenic lipids move, glucose/HDL/TAG do not
 
-DASH vs control, random-effects pooled mean differences [@siervo2015, Meta-analysis results]:
+DASH vs control, random-effects pooled mean differences [@siervo2015]:
 
 | Risk factor | DASH vs control (95% CI) | P | State |
 |---|---|---|---|
@@ -59,14 +59,14 @@ DASH vs control, random-effects pooled mean differences [@siervo2015, Meta-analy
 
 The BP effect was robust to study design (controlled-feeding vs dietary-advice) and control-diet type,
 though the SBP decline was larger against a *typical* American control than against an already-healthy
-control diet. [@siervo2015, Meta-analysis results]
+control diet. [@siervo2015]
 
 ## Effect modification — larger BP fall at higher baseline BP and higher BMI (route-b)
 
 > «Reductions in systolic and diastolic BP following randomisation to the DASH diet were greater in
 > participants with higher BP or BMI at baseline. For each mmHg increase in baseline systolic and
 > diastolic BP, the effect size for both BP variables increased by about 0·1 mmHg.»
-[@siervo2015, Meta-regression analysis]
+[@siervo2015]
 
 This reads as a route-(b) effect-modification signal, the same pattern the sodium literature shows for
 its own BP effect (hypertensive >> normotensive, [[Sodium Intake and Blood Pressure]]) — **but treat it
@@ -87,7 +87,7 @@ explicitly:
 > «the efﬁcacy of the DASH diet in reducing the risk of complications, reoccurrence of major
 > cardiovascular events, and mortality in patients with more severe heart conditions is currently not
 > known.»
-[@siervo2015, Conclusions]
+[@siervo2015]
 
 So the DASH -> hard-outcome step is carried, not by these trials, but by the general BP -> events
 transmission: a proven \~10% reduction in major CV events per 5 mmHg SBP, reaching even primary
@@ -113,7 +113,7 @@ sweets, total and saturated fat.
 > «the DASH dietary pattern promotes a higher intake of protective nutrients such as K, Ca, Mg, ﬁbre
 > and vegetable proteins and, at the same time, a lower intake of reﬁned carbohydrates and saturated
 > fat.»
-[@siervo2015, Introduction]
+[@siervo2015]
 
 The BP effect «may be due to the combined effects of these molecules on multiple physiological
 mechanisms» (antioxidant capacity, natriuresis, endothelial function, sympathetic activity; the
@@ -121,7 +121,7 @@ authors also flag a high inorganic-nitrate intake, \~1200 mg/d, feeding NO gener
 component can be isolated as the cause from this MA** — it pools whole-pattern-vs-control contrasts, so
 the exposure is the bundle. This is the pattern-as-exposure face of [[Is the Food Category Doing Any Work]]:
 the estimate describes the pattern, and attributing it to any one nutrient is beyond what the design
-identifies. [@siervo2015, Biological mechanisms]
+identifies. [@siervo2015]
 
 **The one component the MA can partly rule OUT is sodium — partly, because a null is weak.** Siervo's
 meta-regression found the between-arm difference in dietary sodium did **not** predict the BP change; a
@@ -131,7 +131,7 @@ a true non-role (the same caveat the sodium page attaches to WHO's null by-intak
 
 > «Differences in dietary Na intake between the DASH and control intervention groups were not associated
 > with changes in systolic and diastolic BP as well as with glucose and lipid concentrations».
-[@siervo2015, Meta-regression analysis]
+[@siervo2015]
 
 **Parameter table** (op-weave 2a) — is DASH's BP effect the same quantity as the sodium-reduction BP effect?
 
@@ -151,7 +151,7 @@ a true non-role (the same caveat the sodium page attaches to WHO's null by-intak
   trials have demonstrated the additive effects of salt restriction on the efﬁcacy of the DASH dietary
   pattern in reducing BP» (the DASH-Sodium factorial design). So *adding* a sodium cut on top of DASH
   buys further BP reduction — a complementary lever — even though DASH's *own* vs-control effect is not
-  driven by sodium. [@siervo2015, Introduction]
+  driven by sodium. [@siervo2015]
 
 [inferred from @siervo2015]
 

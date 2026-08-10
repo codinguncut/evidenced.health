@@ -84,7 +84,7 @@ cardiovascular disease were included, and primary prevention was not studied
 
 Two-thirds of SELECT was prediabetic;
 progression to diabetes was cut sharply (HR 0.27, 0.24-0.31), and in STEP-1's younger population 84% of
-prediabetics reverted to normoglycaemia vs 48% on placebo [@lincoff2023, EXTRACTED (Wilding - Semaglutide STEP-1 Weight Management 2021)].
+prediabetics reverted to normoglycaemia vs 48% on placebo [@lincoff2023].
 
 ### Fatty liver (MASLD): a dose-dependent histological benefit on a common comorbidity
 

@@ -48,7 +48,7 @@ publications often do not say which mode produced a finding.
   patients by the twelve astrological signs found «Geminis and Libras did not benefit from aspirin,
   while Capricorns benefited the most» — «This obviously spurious relationship illustrates the
   dangers of analyzing data with hypotheses and subgroups that were not prespecified.»
-  [@nasem2019, Peto 2011]
+  [@nasem2019]
 
 ## The garden of forking paths — measured
 
@@ -56,7 +56,7 @@ Analytic flexibility is not hypothetical. Given one raw dataset and one question
 teams diverged: «69 percent of the teams reporting a significant positive effect and 31 percent not
 finding a significant relationship» — and «decisions on how to group the data made by the teams were
 also important», so the forking begins at data cleaning, before any model is fit.
-[@nasem2019, Silberzahn 2015]
+[@nasem2019]
 
 ## Two priors this installs about a single "significant" result
 
@@ -65,7 +65,7 @@ also important», so the forking begins at data cleaning, before any model is fi
   is mostly a false positive — worked in the report: a 1% prior at p <= 0.01 leaves only \~1 in 8
   "true" conclusions correct; a 25% prior, >4 in 5. **This is the wiki's *a surprising / newer
   finding carries a lower prior of being true* rule made quantitative** -> [[Rating Certainty of Evidence]].
-  [@nasem2019, Appendix D]
+  [@nasem2019]
 - **Precision is not accuracy.** «one must not presume that a more precise set of measures is
   necessarily more accurate; the results may simply be subject to a more consistent bias». A tight
   confidence interval is not evidence of correctness — a well-powered study can be precisely wrong

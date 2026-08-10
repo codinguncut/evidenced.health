@@ -38,7 +38,7 @@ nutrient, and the strength differs across the splits.**
 | 3b | Replace SFA with **monounsaturated fatty acids from plant sources** | conditional | low * |
 | 3c | Replace SFA with **carbohydrates from foods containing naturally occurring dietary fibre** (whole grains, vegetables, fruits, pulses) | conditional | low |
 
-[@who2023saturated, Executive summary; Recommendations]
+[@who2023saturated]
 
 > **\* There is no inconsistency here, though it looks like one.** WHO does *not* assign
 > contradictory certainty to the same comparison. The "low PUFA / moderate
@@ -57,7 +57,7 @@ nutrient, and the strength differs across the splits.**
 > evidence-to-decision table** all assign **moderate to plant-based MUFA and low to PUFA** — and the
 > Annex 6 evidence profile for the PUFA replacement shows every hard outcome at Low or Very low.
 > Similarly rec 2 is "very low" in its rationale and **"low"** in three other places.
-> [@who2023saturated, Rationale for SFA recommendation 3; Summary of evidence; Evidence to recommendations; Annex 6; Annex 7]
+> [@who2023saturated]
 >
 > **This is a finding, not a transcription problem.** WHO's *strength* rationale for the strong PUFA
 > recommendation cites "moderate certainty overall" — so the strongest replacement recommendation in
@@ -71,12 +71,12 @@ further reduce below 1% (conditional), replace with PUFA or MUFA "primarily from
 
 - **RCTs:** reducing SFA reduced CVD risk in adults (moderate certainty), and **greater reductions
   produced greater risk reduction** — a dose-response gradient.
-  [@who2023saturated, Rationale for SFA recommendations 1 and 2]
+  [@who2023saturated]
 - **All-cause mortality is weaker than WHO's own summary sentence implies.** The summary says lower
   SFA "reduced the risk of all-cause mortality and CVDs", but the pooled estimates for all-cause
   mortality are non-significant (RCT RR 0.96, 95% CI 0.90-1.03; observational RR 0.93, 0.86-1.00),
   and WHO states elsewhere that reducing SFA "did not appear to have an effect on risk of all-cause
-  mortality." [@who2023saturated, Summary of evidence]
+  mortality." [@who2023saturated]
   The CVD finding is the one that carries the recommendation.
 - **The 10% threshold is where the evidence stops, not where the biology does.** Stepwise testing of
   intake thresholds "did not find a clear effect on any cardiovascular or mortality outcome at SFA
@@ -91,7 +91,7 @@ further reduce below 1% (conditional), replace with PUFA or MUFA "primarily from
   carbohydrates all reduced LDL cholesterol (**high certainty**), the effect is cumulative — "the
   more SFA intake is reduced, the more LDL cholesterol is lowered" — and it was observed down to SFA
   intakes of **2% of total energy**.
-  [@who2023saturated, Rationale for SFA recommendations 1 and 2]
+  [@who2023saturated]
   - **That LDL reduction is causally meaningful, not just a moved marker** -> [[LDL ApoB and Cumulative Exposure]] (LDL/apoB *causes* ASCVD; risk falls in proportion to the reduction achieved x its
     duration). This reframes the small events effect below: a modest LDL drop sustained over decades is
     worth more than the short-trial RR suggests — but the caveat cuts too, since the SFA->LDL effect is
@@ -102,7 +102,7 @@ magnitudes are explicitly rank-ordered: "the greatest reduction in LDL cholester
 polyunsaturated fatty acids, followed by monounsaturated fatty acids and then carbohydrates" —
 **-0.055 / -0.042 / -0.033 mmol/L per 1% of energy exchanged**. PUFA and MUFA additionally lowered
 triglycerides and both cholesterol ratios.
-[@who2023saturated, Rationale for SFA recommendation 3; Summary of evidence]
+[@who2023saturated]
 
 So PUFA's stronger recommendation is **over-determined**: it has both the largest lipid effect and
 (on the rec-3 rationale) the better hard-outcome evidence. What the structure *does* show is that
@@ -115,7 +115,7 @@ replacements, is the transferable point.
 
 The recommendations above are stated as strength + certainty. Those cannot be ranked against anything.
 These can. All figures are WHO's own, per 1000 people, at the event rate observed in the studies.
-[@who2023saturated, Annex 6, evidence profiles 1, 5, 7 and 9]
+[@who2023saturated]
 
 **Lower vs higher SFA intake, adults (profile 1, RCTs):**
 
@@ -171,7 +171,7 @@ The guidance on replacement nutrients "is relevant for a state of energy balance
 energy consumed is balanced by total energy expended... **In cases of positive energy balance, and
 where a reduction in total energy intake is desired, SFA intake may be reduced in part or entirely
 without the need for a replacement nutrient.**"
-[@who2023saturated, Remarks for Recommendation 3]
+[@who2023saturated]
 
 So the comparator is not fixed: in energy balance the question is *SFA versus what*, and in energy
 surplus it can be *SFA versus nothing*. A recommendation to *replace SFA with PUFA* is silently
@@ -183,15 +183,15 @@ this a worked case of why a comparator must be stated ([[Framing a Decision Ques
 WHO records that "different SFA-containing foods, such as dairy foods, may have differential effects
 on risk of CVDs and type 2 diabetes, as a result of either differing compositions of SFAs across
 foods, other constituents of the foods (i.e. the 'food matrix') or a combination of the two"
-[@who2023saturated, Background] — and then files it as a
+[@who2023saturated] — and then files it as a
 **research gap**, calling for work to "compare the health effects of SFA from different food sources
 (e.g. plant, animal, dairy, specific oils), taking into consideration the nature of the replacement
-nutrient(s) or food(s)." [@who2023saturated, Research gaps]
+nutrient(s) or food(s)." [@who2023saturated]
 
 The recommendations are therefore **nutrient-level, not food-level** — and the stated reason is a
 **scope decision, not an evidence judgment**: "considering the effects of specific foods or classes
 of foods is beyond the scope of this guideline."
-[@who2023saturated, Scope] WHO's separate
+[@who2023saturated] WHO's separate
 *insufficiency* finding covers **individual SFA** (which specific fatty acids), a different question.
 
 So the guidance does not distinguish butter from cheese from yoghurt at matched SFA, and the reason
@@ -278,7 +278,7 @@ ESC Table 8:
 
 > «Saturated fatty acids should account for <10% of total energy intake, through replacement by PUFAs,
 > MUFAs, and carbohydrates from whole grains»
-> [@esc2021, Table 8]
+> [@esc2021]
 
 **Parameter table** against the WHO recommendations already on this page:
 
@@ -328,7 +328,7 @@ recovered-tables sidecar (pp 79-80), which preserves the grid the flattened chun
 | Type 2 diabetes | — | — | RR 0.98 (0.91 to 1.06) | **1 fewer** (4 fewer to 3 more) | Low |
 | **LDL cholesterol** (mmol/L per 1% energy exchange) | — | — | — | **-0.055 (-0.061 to -0.050)** | **High** |
 
-[@who2023saturated, Annex 6, pp.79-80]
+[@who2023saturated]
 
 **Column mapping verified by arithmetic, not by eye.** The flattened table interleaves outcome labels
 with values, so each absolute was checked against `event rate x (1 - RR)`: CVD events 8.5% x 0.17 = 14.5
@@ -367,7 +367,7 @@ nutrients; the replacement-specific profiles (5 and 9) are the ones already on t
 a different cut of the evidence. **Do not add a row from this table to a row from those.**
 
 
-[@who2023saturated, Annex 6]
+[@who2023saturated]
 ## Hooper 2020 — the Cochrane RCT meta-analysis underneath WHO's numbers `[2026-07-29]`
 
 Hooper is the primary Cochrane review
@@ -389,8 +389,8 @@ the dose-response *mechanism*, and the effect-modification nulls.
 | CHD events | 0.83 (0.68-1.01) / 7 fewer / Very low (11) | 0.83 (0.68-1.01) / 42->35 per 1000 / Very low (11) | **YES — identical** |
 | Stroke | 0.92 (0.68-1.25) / 2 fewer / Very low (7) | 0.92 (0.68-1.25) / 22->20 per 1000 / Very low (7) | **YES — identical** |
 
-[@hooper2020, Summary of findings 1]
-[@who2023saturated, Annex 6]
+[@hooper2020]
+[@who2023saturated]
 
 The **only** difference across shared outcomes is CV-mortality certainty — Hooper grades it Moderate,
 WHO grades the identical estimate Low (WHO applied one further downgrade); neither the RR (0.94) nor the
@@ -506,7 +506,7 @@ changes here:
   observational studies found no beneficial effects of reducing SFA intake on cardiovascular disease
   (CVD) and total mortality." For mortality that is Hooper's RR 0.96 — the reassessment and the
   Cochrane MA are the *same* result. So the apparent contradiction is narrower than the framing.
-  [@astrup2020, Abstract]
+  [@astrup2020]
 - **A comparator-contamination challenge to the classic diet-heart RCT base.** The classic trials had
   partially hydrogenated fish oils (trans fats) in their control-arm margarines, so "the European diets
   are tests of polyunsaturated fats against trans-plus-saturated fats, which means that any effects
@@ -515,7 +515,7 @@ changes here:
   targets the AHA Presidential Advisory's 4-core-trial selection, NOT Hooper's 13-trial pool** — whether
   the contamination flips the pooled RR 0.83 is an untested inference (View B is a narrative review, and
   post-hoc exclusion carries the selection-bias risk it names). Unadjudicated here.
-  [@astrup2020, From Single Nutrients to Whole Foods]
+  [@astrup2020]
   - **Hamley 2017 now runs that reanalysis for the SFA->n-6-PUFA-replacement pool `[2026-08-04]`:**
     splitting the 11 diet-heart trials by confounding (trans fats, multifactorial advice, vitamin E,
     cardiotoxic meds), the significant all-trials benefit (total CHD events RR 0.80) vanishes in the
@@ -524,14 +524,14 @@ changes here:
     SFA-reduction pool (the RR 0.83 above), his adequacy filter is post-hoc and single-author
     (`moderate`), so it grounds the critique without recomputing this page's number. Full parameter table
     + symmetric-standards appraisal on
-    [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. [@hamley2017, Discussion]
+    [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. [@hamley2017]
 - **The attribution is genuinely open: SFA harm or PUFA benefit?** Even granting a lower CVD risk with
   PUFA-for-SFA substitution, it "could be attributed to a possible beneficial effect of polyunsaturated
   fatty acids and not necessarily to an adverse effect of SFAs." Hooper's own subgroup null (PUFA vs
   carbohydrate indistinguishable on events, quoted above) means the RCTs cannot separate the two. **So
   the substitution sets the sign** — the page's existing rule — and *avoid SFA* is not what the events
   evidence licenses; *replace SFA with PUFA/whole foods* is.
-  [@astrup2020, Evidence on the Health Effects of SF]
+  [@astrup2020]
 - **SFA harm is conditioned on carbohydrate context (mechanism, directional).** "It is important to
   distinguish between dietary saturated fat and circulating SFAs" — circulating even-chain SFAs predict
   disease, but "the amount of circulating SFAs in blood is not related to saturated fat intake from the
@@ -546,7 +546,7 @@ changes here:
   to SFAs." An effect-modification claim on observational gene-diet data — a route-(b) hypothesis, not
   a warrant for stratifying yet, and cutting against Hooper's **direct subgroup null** (relative effect
   constant across baseline risk/sex/duration, the route-(a) finding above).
-  [@astrup2020, Tailoring Dietary Saturated Fat Intake]
+  [@astrup2020]
 
 Astrup's LDL-surrogate argument (diet-induced LDL-C may not track the atherogenic apoB-particle burden)
 is woven onto [[LDL ApoB and Cumulative Exposure]]; his food-matrix program (dairy, meat, chocolate) onto
@@ -565,7 +565,7 @@ PURE's SFA associations (quintile 5 [median 13.2%E] vs quintile 1 [2.8%E]):
 - Stroke **HR 0.79 (0.64-0.98)**, p-trend 0.0498 — *inverse*.
 - Major CVD 0.95 (0.83-1.10), MI 1.17 (0.94-1.45), CVD mortality 0.83 (0.65-1.07) — all **null**.
 
-[@dehghan2017, Table 3]
+[@dehghan2017]
 
 **Attempt the contradiction, then scope it.** Read naively, PURE reverses this page: SFA *lowers*
 mortality, guidelines are wrong. The parameter table forbids that reading — PURE and the RCT evidence
@@ -585,7 +585,7 @@ higher income = better outcomes. The authors concede it twice: «high consumptio
 consumption of animal products might simply reflect lower incomes; residual confounding as a
 potential reason for our results cannot be completely excluded», and «differences in the ability to
 afford fats and animal proteins, which are more expensive than carbohydrates».
-[@dehghan2017, Discussion] So the SFA-inverse
+[@dehghan2017] So the SFA-inverse
 and carb-harm signals are the **mirror image of an income gradient**, not a demonstration that SFA
 protects — a worked instance of the confounding machinery -> [[The U-Shaped Association Artifact]].
 
@@ -601,7 +601,7 @@ randomised events estimate.
 SFA raised LDL **but** also HDL, and lowered triglycerides, TC/HDL and ApoB/ApoA1; higher carbohydrate
 lowered LDL **but** raised ApoB/ApoA1 (the stronger predictor) — so «predicting the net clinical effect
 based on considering only the effects of nutrient intake on LDL cholesterol is not reliable».
-[@dehghan2017, Discussion] This grounds Astrup's
+[@dehghan2017] This grounds Astrup's
 LDL-surrogate caveat with data -> [[LDL ApoB and Cumulative Exposure]]; it does **not** contradict LDL's
 *causal* status (apoB is the agent), it says diet-induced LDL-C is a poor summary of the whole lipid
 change.
@@ -614,7 +614,7 @@ omega-6 RCT evidence independently confirms the SFA->PUFA events benefit (Annex 
 Low). The omega-6 Cochrane review — **same team as Hooper 2020 above** — says it does **not**: increasing
 omega-6 gave CVD events **RR 0.97 (0.81-1.15), Low certainty** and all-cause mortality **RR 1.00, Low**;
 only MI (RR 0.88, Low) and total cholesterol (High) moved.
-[@hooper2018, Summary of findings 1 and 2]
+[@hooper2018]
 
 **The authors run the cross-review comparison themselves**, and it is the parameter table (they state the
 trials are distinct sets, so the two quantities are not commensurable):
@@ -625,7 +625,7 @@ trials are distinct sets, so the two quantities are not commensurable):
 > suggest that reducing saturated fat and replacement by polyunsaturated fats reduces the risk of CVD
 > events, while the present review suggests that increasing omega-6 fats may reduce the risk of
 > myocardial infarction, but we did not find evidence of an eﬀect on CVD events.»
-> [@hooper2018, Agreements and disagreements]
+> [@hooper2018]
 
 **So the events protection lives in the SFA-reduction-with-PUFA *package*, not in omega-6 *addition* per
 se** — the CVD-events benefit appears when PUFA *replaces* SFA (RR 0.73 subgroup; the 0.79 profile here),
@@ -663,7 +663,7 @@ same day.** What survives is a distinction plus two durable decision rules.
 The figures below were previously presented here as WHO and Willett independently converging, under
 the heading **where they AGREE, which is the decisive fact.** That framing was wrong and is retracted.
 Willett attributes his numbers to **"a pooled analysis of original data (Jakobsen et al., 2009)"**
-[@willett, Ch 19].
+[@willett].
 
 **But the correction over-shot, and the denial of independence does not hold either.** WHO's
 replacement estimates do not come from Jakobsen. Its RCT figure is *"Subgroup analysis of RCTs in the
@@ -684,9 +684,9 @@ find essentially nothing. WHO's RCT subgroup analysis "showed a reduction in ris
 coronary heart disease when SFA were replaced with polyunsaturated fatty acids (moderate certainty
 evidence), **but not when SFA were replaced by carbohydrates**"; its Annex 6 profile for that arm
 gives CHD RR 0.93 (0.78-1.11).
-[@who2023saturated, Summary of evidence; Annex 6]
+[@who2023saturated]
 Willett's pooled cohorts give SFA vs carbohydrate RR **0.97** (0.81-1.16), against SFA vs PUFA RR
-**1.25** (1.01-1.56). [@willett, Ch 19 (p.436)]
+**1.25** (1.01-1.56). [@willett]
 Both rank PUFA first. WHO's carbohydrate recommendation is *conditional* on *low* certainty for
 exactly this reason.
 
@@ -695,13 +695,13 @@ exactly this reason.
 their use... was less certain." Willett argues the total/HDL ratio is the better predictor and that
 **total cholesterol** — not LDL — should not carry the diet-CHD inference; he explicitly holds that
 prediction "using serum total cholesterol is less powerful than by using... the LDL and HDL lipid
-fractions." [@who2023saturated, Summary of evidence; (Willett - Nutritional Epidemiology 3e) Ch 19 (pp.431-432)]
+fractions." [@who2023saturated]
 
 **And WHO engages Willett's mechanism rather than missing it:** it records the Mensink finding of
 "a slight increase in triglycerides and a reduction in high-density lipoprotein (HDL) cholesterol
 when SFA are replaced by carbohydrates of mixed composition. However, the clinical relevance of such
 changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
-[@who2023saturated, Summary of evidence]
+[@who2023saturated]
 
 **Two durable rules survive, and they were the real product:**
 
@@ -710,7 +710,7 @@ changes is not clear", citing a 2019 rebuttal that postdates Willett's edition.
 - **Carbohydrate quality is load-bearing, and both parties say so.** WHO specifies "whole grains and
   foods... having a low glycaemic index"; Willett reports the SFA association is "positive if
   compared with lower GI carbohydrates but null if compared with average or higher GI carbohydrates."
-  [@willett, Ch 19 (p.453)]
+  [@willett]
 
 
 **Self-critique (PURE weave) `[run 2026-07-29, before commit]`.** *Laundered-E:* PURE is explicitly F

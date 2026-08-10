@@ -107,7 +107,7 @@ subgroups, because the aggregate oversells:
 | **Stroke** | **0.87 (0.75-1.01)** | **NO** |
 | **CHD** | **0.85 (0.67-1.08)** | **NO** |
 
-[@zhang2019, Table 2]
+[@zhang2019]
 
 - **The signal is on incidence, not mortality**, and disappears on stroke and CHD taken alone. An OR
   is treated as the risk measure throughout ([[Relative vs Absolute Risk]] — no absolute risks or

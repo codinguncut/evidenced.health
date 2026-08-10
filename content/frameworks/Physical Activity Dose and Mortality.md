@@ -339,14 +339,14 @@ stay null.
 WCRF's Third Expert Report grades **physical activity protective against several cancers** — colorectum
 (the evidence «is for colon cancer only», matrix FN56), endometrium and postmenopausal breast (probable),
 with a separate probable judgement for vigorous activity and breast cancer.
-[@wcrf2018ter, §5.1 Be physically active; matrix asset p3, FN54-57] Mechanism: activity «reduces body fatness, in particular
+[@wcrf2018ter] Mechanism: activity «reduces body fatness, in particular
 visceral fat» and lowers circulating insulin, oestrogen and inflammation — the same adiposity/hormone/
-inflammation routes that make body fatness carcinogenic, run in reverse. [@wcrf2018ter, §1.4.1]
+inflammation routes that make body fatness carcinogenic, run in reverse. [@wcrf2018ter]
 
 **The friction worth naming — the curve's shape is outcome-specific.** This page's headline is that the
 *mortality* benefit **flattens** early (\~24 min/day MVPA). WCRF states the opposite shape for cancer:
 «For cancer prevention, it is likely that the greater the amount of physical activity, the greater the
-benefit» — no plateau asserted. [@wcrf2018ter, §5.1]
+benefit» — no plateau asserted. [@wcrf2018ter]
 This is not a contradiction: it is the same *outcome-specific dose-shape* pattern the wiki already holds
 (fruit/veg plateaus on all-cause mortality but keeps a gradient on CV mortality in one source). So «most
 benefit at the bottom» is the mortality reading; for cancer the report leaves the upper arm open, and a

@@ -77,7 +77,7 @@ population, and the mirror of the class GI tolerability tax (GI-driven discontin
 weight», and creatinine- and cystatin-C-based eGFR agreed — so this is **not** merely weight loss lowering
 serum creatinine. Mechanism is marked as such: «direct effects of GLP-1 receptor agonists on the kidney
 may include decreases in inflammation, oxidative stress, and fibrosis», with GLP-1 receptors on intrinsic
-kidney and immune cells `[@perkovic2024, — mechanism, human-corroborated by biomarker/mediation data; not an outcome finding]`.
+kidney and immune cells `[@perkovic2024]`.
 
 
 ## Independence — a new endpoint, not new backing for *semaglutide works*

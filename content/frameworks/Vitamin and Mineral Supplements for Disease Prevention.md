@@ -45,7 +45,7 @@ of their co-primary endpoints:
 | Marine n-3 | Major CV events (MACE) | 0.92 (0.80-1.06) | no meaningful effect |
 | Marine n-3 | Invasive cancer | 1.03 (0.93-1.13) | no meaningful effect |
 
-[@manson2019vitd, (Manson - VITAL Marine Omega-3 2019)]
+[@manson2019vitd]
 
 > «Supplementation with vitamin D was not associated with a lower risk of either of the primary end
 > points.» [@manson2019vitd]
@@ -243,7 +243,7 @@ fruits and vegetables» [@bjelakovic2007] ->
 WCRF's Third Expert Report issues a formal recommendation — «Do not use supplements for cancer
 prevention» — on exactly the harm evidence above: «Taking high-dose beta-carotene supplements is a
 cause of lung cancer in current and former smokers.»
-[@wcrf2018ter, §5.1 Do not use supplements] **Not an
+[@wcrf2018ter] **Not an
 independent witness** — WCRF's judgement rests on the same CARET/ATBC trials the USPSTF pool does, so it
 is a same-evidence echo, not `[E-independent]`; what it adds is a cancer-prevention body converting the
 RCT harm into an action. [inferred from @wcrf2018ter]
@@ -251,12 +251,12 @@ RCT harm into an action. [inferred from @wcrf2018ter]
 **One genuinely new item — a supplement that helps at one site and may harm at others.** WCRF grades
 calcium supplements (>200 mg/day) a **probable protector against colorectal cancer**, but «some trials
 for other cancer sites have shown potential for unexpected adverse effects».
-[@wcrf2018ter, §5.1 Do not use supplements; matrix asset p3, FN52] This is the *net-effect-not-the-intended-effect* rule in one supplement: a real
+[@wcrf2018ter] This is the *net-effect-not-the-intended-effect* rule in one supplement: a real
 site-specific benefit does not license the supplement, because the whole-body ledger (other sites, plus
 the general-population nulls above) is what the recommendation weighs. WCRF's overall stance matches this
 page's core: «for most people ... consumption of the right food and drink is more likely to protect
 against cancer than consumption of dietary supplements.»
-[@wcrf2018ter, §5.1 Do not use supplements]
+[@wcrf2018ter]
 
 ## The one notable non-primary signal — n-3 and myocardial infarction
 

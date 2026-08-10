@@ -32,19 +32,19 @@ below; it is about what they warrant, and that lives on
 | **Processed meat** | RR **1.16 (1.08 to 1.26)** per 50 g/day | WCRF |
 | Red + processed combined | RR 1.12 (1.04 to 1.21) per 100 g/day | WCRF |
 
-[@wcrf2018, 5.1.1.1 / 5.2.1.1 / Table 5.1]
+[@wcrf2018]
 
 **The red-meat pooled estimate is not statistically significant** — "no statistically significant
 association between the risk of colorectal cancer and consumption of red meat (RR 1.12 [95% CI
 1.00-1.25], per 100 grams increase per day)" (WCRF's own words); significance did appear in the
 colon-only stratum (RR 1.22, 1.06 to 1.39) and the European stratum (RR 1.23, 1.08 to 1.41), not in the
 pooled point estimate.
-[@wcrf2018, 5.1.1.1]
+[@wcrf2018]
 
 Processed meat's association is significant and consistent. WCRF also records the confounding candidly:
 "an apparent effect of red meat could possibly be due, at least in part, to low intakes of these other
 foods... Further analysis of adjustment factors was not performed in the CUP."
-[@wcrf2018, 4.2.1.1]
+[@wcrf2018]
 
 ## The absolute effect — the number WCRF never states and NutriRECS does
 
@@ -60,7 +60,7 @@ Western Europe is 2-4 servings/week):
 - Processed meat -> cancer / cardiometabolic outcomes: ranges of **1 to 8 fewer** and **1 to 12 fewer**
   per 1000.
 
-[@nutrirecs2019, Evidence Summary; Table 1]
+[@nutrirecs2019]
 
 **This is [[Baseline Risk and the Relative-Absolute Split]] doing decisive work — but on *related*,
 not identical, quantities (corrected 2026-08-08):** WCRF's "16% increased risk" (processed meat) is a
@@ -79,12 +79,12 @@ Both bodies looked at the same observational evidence and graded it oppositely:
 
 - **WCRF:** processed meat is a "convincing" cause and red meat a "probable" cause of colorectal
   cancer — both "strong evidence" that «generally justify making public health recommendations.»
-  [@wcrf2018, 5.1.1.4 / 5.2.1.4]
+  [@wcrf2018]
 - **NutriRECS:** the same evidence is **low-to-very-low certainty**, because under strict GRADE
   "in the absence of a large effect or a compelling dose-response gradient, observational studies
   provide only low- or very low-certainty evidence for causation," and they "did not rate up for
   dose-response, given the potential for residual confounding."
-  [@nutrirecs2019, Discussion; Evidence Summary]
+  [@nutrirecs2019]
 
 **Same evidence, opposite grade** -> [[Certainty of Evidence vs Strength of Recommendation]]. This is a
 methodological joined issue, not a difference in the data, and it is the engine of the recommendation
@@ -107,7 +107,7 @@ endogenous formation of carcinogenic N-nitroso compounds," and high-temperature 
 heterocyclic amines and polycyclic aromatic hydrocarbons. WCRF rated mechanistic evidence **"robust"
 for processed meat** but only **"moderate" for red meat** — a split that tracks the convincing/probable
 grade gap.
-[@wcrf2018, 5.1.1.3 / 5.2.1.3 / 5.2.1.4]
+[@wcrf2018]
 
 NutriRECS does not *engage* WCRF's biological mechanism — its silence on the haem-iron / NOC account
 is not a dispute of it, but neither is it acceptance (corrected 2026-08-08, F1). And the two bodies
@@ -119,7 +119,7 @@ it judges true causation of the observed effect sizes to be one «which we belie
 So WCRF asserts a convincing/probable *cause* while NutriRECS holds causation implausible — a genuine
 disagreement on existence, softened only by NutriRECS declining to rule a very small effect out
 entirely.
-[@nutrirecs2019, Discussion]
+[@nutrirecs2019]
 
 ## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`
 
@@ -130,7 +130,7 @@ very little, if any, processed meat.» The target «was chosen to provide a bala
 of eating red meat (as a source of essential macro- and micronutrients) and the disadvantages (an
 increased risk of colorectal cancer and other NCDs)», and for processed meat «there is no level of
 intake that can confidently be associated with a lack of risk of colorectal cancer».
-[@wcrf2018ter, §5.1 Limit red and processed meat]
+[@wcrf2018ter]
 
 **Same body, not a second witness.** This is WCRF corroborating WCRF (a different work — the
 Recommendations part vs the meat-fish-dairy exposure part), so it adds the *quantified target* but no
@@ -138,7 +138,7 @@ independent grade support for the convincing/probable judgements above. [inferre
 
 **Cooked-to-raw yield factor, now held.** «500 grams of cooked red meat is roughly equivalent to
 700–750 grams of raw meat, but the exact conversion depends on the cut ... and the method and degree of
-cooking.» [@wcrf2018ter, §5.1 Limit red and processed meat, FN3]
+cooking.» [@wcrf2018ter]
 So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral corresponds to \~40-50% *more* raw meat.
 
 ## Limits

@@ -84,7 +84,7 @@ different object.
 - **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** Dehghan's PURE analysis reports higher total carbohydrate → higher total mortality (Q5 vs Q1
   HR 1.28), but was «unable to quantify separately the types of carbohydrate (refined vs whole grains)», and
   notes «carbohydrate consumption in low-income and middle-income countries is mainly from refined
-  sources». [@dehghan2017, Discussion] So the
+  sources». [@dehghan2017] So the
   harm attaches to a category that pools refined and whole grains, and almost certainly runs through the
   refined sub-type — the exact case-3 trap: a category-level harm that **looks** like "carbohydrate is
   bad" while the boundary that matters (refined vs whole) sits unmeasured inside it. Contrast SACN, which
@@ -207,7 +207,7 @@ than the food carrying it.**
 Fibre isolates and gum supplements are graded `Effect · Adequate` — SACN's top strength grade — while
 whole-grain benefit is cohort-only and mostly `Limited`, with SACN itself noting that whole-grain
 associations *«may be related to its cereal fibre component»*.
-[@sacn2015, chunks 05, 09]
+[@sacn2015]
 
 **Why this does NOT license *take the isolate instead.*** SACN bounds its own finding in the same
 clause — the effect is *«demonstrated at intakes achieved through supplementation»*. So the grade
@@ -400,7 +400,7 @@ chose against it:
 > industrially produced and ruminant TFA behaved in a similar manner with respect to effects on health
 > and therefore formulated recommendations for total TFA (i.e. the total intake from both industrially
 > produced and ruminant TFA).»
-> [@who2023saturated, Annex 8]
+> [@who2023saturated]
 
 **The boundary is intuitively load-bearing and empirically was not.** Industrial and ruminant TFA
 differ in origin, in isomer profile, and in how a consumer encounters them — every reason to expect the
@@ -434,7 +434,7 @@ various components in the food, often referred to as the 'food matrix.'" The
 SFA label groups foods whose within-category variance (short/medium/long-chain profile, matrix, carrier
 nutrients) plausibly swamps the between-category "SFA" contrast — this page's opening variance argument,
 applied to a macronutrient.
-[@astrup2020, From Single Nutrients to Whole Foods]
+[@astrup2020]
 
 **Named instances where the boundary carries signal the SFA label suppresses:**
 
@@ -444,7 +444,7 @@ applied to a macronutrient.
 | Dark chocolate | stearic acid (18:0) neutral; other constituents plausibly beneficial | harm | matrix beats nutrient |
 | Unprocessed vs processed meat | processed meat associates with CHD/T2D, unprocessed red meat does not — «the SFA content of meat is unlikely to be responsible for this association» | same harm (SFA common to both) | **the split is NOT the SFA** |
 
-[@astrup2020, Health Effects of Differing Food Sources]
+[@astrup2020]
 
 **The processed/unprocessed meat row is the cleanest Test-3 instance:** the fatty-acid content is shared
 across the boundary while the risk is not, so whatever carries the risk, it is not the SFA — the
@@ -462,13 +462,13 @@ harm in other reviews. The paper reconciles the two exactly as this diagnostic p
 variable was meat as a food group, whereas our exposure variable was protein as a nutrient. Animal meat
 contains fat, sodium, iron, and B vitamins in addition to protein» — so «findings for animal meat and
 animal protein could be different.»
-[@naghshi2020, Comparison with other studies]
+[@naghshi2020]
 
 **Two things make this a strong entry.** First, the null runs the *opposite* direction from the usual
 worry: descending from the food (*meat*) to the nutrient (*animal protein*) **removes** the signal — so
 the *aggregate* animal-protein null does not implicate the protein as the agent. (It does not clear it
 either: the animal bucket «combin[es] protein from different animal sources, including poultry, eggs, and
-dairy foods» [@naghshi2020, Comparison with other studies], so a red-meat-specific protein effect diluted to null within the mixed
+dairy foods» [@naghshi2020], so a red-meat-specific protein effect diluted to null within the mixed
 bucket cannot be ruled out.) Second, that same heterogeneity means even *within* the nutrient the average
 may describe no single food. The decision consequence is Test 3: **do not read *animal protein is null* as
 *animal-source foods are fine*** — name the food (processed meat) and its actual mechanism, not the
@@ -480,12 +480,12 @@ Naghshi argues the animal bucket is heterogeneous, Budhathoki's Japanese cohort 
 directly: **fish**-for-red-meat protein substitution is protective (all-cause HR 0.75, 0.65-0.87), and
 plant-for-red-meat (0.66) and plant-for-processed-meat (0.54) are protective, while plant-for-**dairy**
 (1.07) and plant-for-**fish** (0.91) are null.
-[@budhathoki2019, Results] **So aggregate "animal
+[@budhathoki2019] **So aggregate "animal
 protein" is null precisely because it pools protective fish with harmful red/processed meat** — the
 category-2 failure (a boundary hiding a real difference) demonstrated inside the nutrient. Budhathoki says
 so in reconciling its animal-null against the US animal-positive result: the discrepancy «may be
 attributable to ... a difference in the main dietary source of animal protein, which was red and processed
-meat in the US study vs fish intake in the present study.» [@budhathoki2019, Discussion] Test 3: name the food (fish vs red/processed meat), never the nutrient
+meat in the US study vs fish intake in the present study.» [@budhathoki2019] Test 3: name the food (fish vs red/processed meat), never the nutrient
 ("animal protein"). This is Budhathoki refining Naghshi's own Test-3 instance (a constituent cohort of
 Naghshi's MA, at single-cohort resolution — not an independent source); the confidence call sits on
 [[Dietary Protein and Mortality]].
@@ -505,8 +505,8 @@ finds "the higher grazing/conserved forage intakes in organic systems were the m
 composition differences", and Srednicka-Tober that
 "the high grazing/forage-based diets prescribed under organic farming standards may be the main reason
 for differences in FA profiles."
-[@srednickatober2016milk, Abstract]
-[@srednickatober2016meat, Abstract]
+[@srednickatober2016milk]
+[@srednickatober2016meat]
 
 **So the causal lever is grass vs grain, and "organic" is a partial proxy for it** — a pasture-raised
 *conventional* animal can beat an *organic grain-fed* one on the nutrient that reaches the product. This
@@ -583,11 +583,11 @@ metabolites, the direct exposure) rather than an FFQ, and it fails the sub-compo
 cardiovascular disease, or cancer or predictive of all-cause mortality» (lowest-vs-highest quartile
 mortality HR «0.80 (95% CI, 0.54-1.17)», ns); «Resveratrol levels achieved with a Western diet did not
 have a substantial influence on health status and mortality risk».
-[@semba2014, Results; Conclusions]
+[@semba2014]
 
 **This is the coffee=caffeine case run on wine, with the same shape:** the biomarker is really a
 wine-intake marker (resveratrol \~ alcohol intake, Spearman «0.67 (P < .001)»; «a valid biomarker of wine
-consumption») [@semba2014, Discussion], so a study
+consumption») [@semba2014], so a study
 crediting "resveratrol" is measuring wine (hence ethanol) under a polyphenol label — the collinearity trap.
 At dietary doses the named component carries nothing; the category benefit, if any, does not run through
 it. The bound: supraphysiologic *supplement* doses (100-1000× dietary) are a different exposure and not

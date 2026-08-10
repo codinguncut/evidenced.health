@@ -25,14 +25,14 @@ analog of the WHO sodium evidence**, and the electrolyte partner of [[Sodium Int
 outcomes.** The one-sentence result: raising potassium lowers BP **in people with hypertension but not
 in those without**, is safe for renal function in people with normal potassium handling, and tracks a
 lower stroke risk -- while the harder CV endpoints stay null and underpowered.
-[@aburto2013, Abstract + Conclusions]
+[@aburto2013]
 
 ## The effect on blood pressure -- the HIGH-certainty core
 
 > «Increased potassium intake reduced systolic blood pressure by 3.49 (95% confidence interval 1.82 to
 > 5.15) mm Hg and diastolic blood pressure by 1.96 (0.86 to 3.06) mm Hg in adults, an effect seen in
 > people with hypertension but not in those without hypertension.»
-[@aburto2013, Abstract]
+[@aburto2013]
 
 GRADE **high** for resting SBP (21 RCTs, n=1892). The *un-trimmed* pooled estimate (SBP -5.93) carried
 **I2=96%**; removing one outlier study brought it to the reported **-3.49 at I2=65%**, and **baseline
@@ -43,7 +43,7 @@ it is a strong effect in one stratum diluted by a null in another:
 > studies targeting people with hypertension (systolic blood pressure 5.32 (3.43 to 7.20) mm Hg;
 > diastolic 3.10 (1.66 to 4.53) mm Hg) but not the three studies targeting people without hypertension
 > (systolic 0.09 (−0.77 to 0.95) mm Hg; diastolic (0.56 (−0.42 to 1.55) mm Hg).»
-[@aburto2013, Results]
+[@aburto2013]
 
 **This is a route-b effect-modification finding with an unusually clean signal** ([[Transportability]]'s
 five routes): the normotensive SBP point estimate is **0.09 mmHg -- essentially zero**, not merely
@@ -64,11 +64,11 @@ significance; CVD, CHD and mortality do not.**
 | Coronary heart disease | RR 0.97 (0.77 to 1.24) -- NS | 3 cohorts, n=31 162 | VERY LOW |
 | All-cause mortality | RR 1.08 (0.91 to 1.29) -- NS | 1 cohort, n=1766 | VERY LOW |
 
-[@aburto2013, Results + Table 2]
+[@aburto2013]
 
 > «The meta-analysis of nine cohort studies with nine comparisons detected a protective effect of higher
 > potassium intake on risk of incident stroke (risk ratio 0.76, 0.66 to 0.89).»
-[@aburto2013, Results]
+[@aburto2013]
 
 **The headline blends a direct magnitude with a surrogate-path certainty -- a [[Surrogate Outcomes]]
 tell.** The conclusion reads «a 24% lower risk of stroke (moderate quality evidence)». But 24% *is* the
@@ -81,7 +81,7 @@ grade. The surrogate transfer is explicit, and it is the **same GRADE machinery 
 > «Recognising the limitations of any biomarker, we considered data on change in systolic blood pressure
 > as indirect evidence regarding the effect of sodium intake on risk of cardiovascular disease, stroke,
 > and coronary heart disease.»
-[@aburto2013, Quality of body of evidence]
+[@aburto2013]
 
 The word **sodium** in a potassium paper's GRADE paragraph is a copy-carryover from the sodium review --
 concrete evidence the two WHO reviews share one methodological template (bears on the independence
@@ -93,7 +93,7 @@ question in the Synthesis).
 > «high quality evidence showed that a higher potassium intake of 90-120 mmol/day reduced blood pressure
 > and was associated with a lower risk of incident stroke. Intake above 120 mmol/day did not seem to
 > have any additional benefit. However, the evidence... did not identify a precise optimal level.»
-[@aburto2013, Optimum potassium intake]
+[@aburto2013]
 
 The largest BP fall was at **90-120 mmol/day (SBP -7.16, 1.91 to 12.41)**, «without any dose response»
 and not statistically distinguishable from other intake bands. Aburto's *difference*-subgroups (achieved
@@ -122,7 +122,7 @@ contraindication)**:
 > this review. In people without renal impairment, the body is able to efficiently adapt and excrete
 > excess potassium... Intervention trials including potassium consumption as high as 400 mmol/day from
 > food for several weeks... reported no adverse effects.»
-[@aburto2013, Potential adverse effects]
+[@aburto2013]
 
 **So the benefit is scoped to normal renal handling; in CKD or on potassium-sparing drugs the same
 exposure is a harm.** No toxicity from *food* potassium has been reported (isolated acute cases from
@@ -133,7 +133,7 @@ exposure-stratum interaction of the kind the fabric ranks as decision-relevant, 
 
 > «the vehicle of increased potassium intake can be food and does not have to be a supplement... a
 > beneficial effect of higher potassium intake from food on risk of stroke.»
-[@aburto2013, Discussion]
+[@aburto2013]
 
 Fresh fruit, vegetables and pulses are the named sources; food processing strips potassium, and modern
 intakes (<70-80 mmol/day in many countries) sit far below both the guideline and ancestral (>200
@@ -194,7 +194,7 @@ the normotensive potassium trials as too short to rule out a prevention effect.
 > «if a person consumes 90 mmol/day or more potassium and the WHO recommended sodium intake of less than
 > 2 g/day, his or her intake would have a molar ratio of sodium to potassium of approximately one to one,
 > a ratio considered beneficial for health.»
-[@aburto2013, Optimum potassium intake]
+[@aburto2013]
 
 Potassium is **more effective at higher sodium intake** (greatest SBP fall, -6.91, when sodium >4 g/day),
 but still works at 2-4 g/day -- so the two levers reinforce and studies changing **both** show more
@@ -281,6 +281,6 @@ hard-outcome benefit in normotensives, where the BP effect is null.
   standards, the same discipline applied to the sodium lineage.
 - **Some small-study bias possible** (funnel plots not clear); overall SBP I2=96% before stratifying.
 
-`[@aburto2013, Competing interests + Limitations of study]`
+`[@aburto2013]`
 
 ## References

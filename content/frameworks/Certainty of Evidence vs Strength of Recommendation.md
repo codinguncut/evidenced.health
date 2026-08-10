@@ -20,7 +20,7 @@ updated: 2026-08-04
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
 strongly you should recommend acting on it are **two separate judgments**, and neither determines the
 other. GRADE calls the separation "the defining feature" of its approach and attributes the confusion
-in earlier grading systems to their failure to make it. [@grade, §1.2]
+in earlier grading systems to their failure to make it. [@grade]
 
 ## Ordinary framing
 
@@ -39,13 +39,13 @@ off-diagonal cases are **not symmetric**, and the page must not flatten them:
 
 - **High certainty -> weak (conditional) recommendation** is *common*: panels facing important
   variability in values and preferences "are likely to offer a weak recommendation despite high
-  quality evidence." [@grade, §1.2]
+  quality evidence." [@grade]
 - **Low or very low certainty -> strong recommendation** is **allowed but rare.** GRADE "allows for"
   it where *"the benefits **of antibiotic therapy** clearly outweigh the downsides in most patients
   independent of the quality assessment"* — a clause about one worked example, not a general licensing
   condition — while separately *discouraging* panels from making strong recommendations on
   low or very low confidence, confining the legitimate cases to a small set of paradigmatic
-  situations. [@grade, §1.2, §6.3.2]
+  situations. [@grade]
 
 ## Mechanism — what drives strength once certainty is fixed
 
@@ -53,7 +53,7 @@ Strength is set by the balance of desirable and undesirable consequences, the **
 and preferences** among those affected, and resource use. Where patients with differing values would
 predictably make different choices, panels are **likely to** offer a weak recommendation even on high
 quality evidence — because a strong recommendation asserts that most or all would choose the same
-way. [@grade, §1.2]
+way. [@grade]
 
 Worked cases the handbook gives:
 
@@ -67,7 +67,7 @@ Worked cases the handbook gives:
 - *Low certainty, strong recommendation (GRADE's counterfactual illustration, not a reported case).*
   Rapid antibiotics in severe infection or sepsis has never been randomized against delay; on
   observational evidence rated low, panels "would be very likely to" make a strong recommendation.
-  [@grade, §1.2]
+  [@grade]
 
 ## Decision relevance
 
@@ -75,7 +75,7 @@ Worked cases the handbook gives:
   depends on the person's values. Reading it as *the evidence is poor* inverts its meaning — and in
   two of GRADE's three **worked examples in §1.2** the evidence was *high* quality. (Not to be confused
 with the **five paradigmatic situations** of §6.3.2, which are the strong-on-low-certainty cases — none
-of those is high quality.) [@grade, §1.2, §6.3.2]
+of those is high quality.) [@grade]
 - **Conversely, low certainty does not license inaction** — but the exit is narrow. A strong
   recommendation on low-certainty evidence is legitimate where the balance is lopsided enough, and
   GRADE otherwise *discourages* it, so treating it as freely available inverts the rule as surely as
@@ -91,7 +91,7 @@ Strength is "the extent to which a guideline panel is confident that desirable e
 intervention outweigh undesirable effects, or vice versa, **across the range of patients for whom the
 recommendation is intended**." Four factors drive direction and strength: the **balance of desirable
 and undesirable consequences**, **certainty in the effect estimates**, **confidence in values and
-preferences**, and **resource use**. [@grade, §6.1, §6.2]
+preferences**, and **resource use**. [@grade]
 
 - **Strong** — the panel is confident the desirable effects outweigh the undesirable (or the
   reverse); "most or all individuals will be best served by the recommended course of action."
@@ -100,19 +100,19 @@ preferences**, and **resource use**. [@grade, §6.1, §6.2]
   preferences need more careful weighing than usual.
 - **Default under uncertainty is weak:** where the panel is unsure whether the balance is clear, or
   the information bearing on the four factors is unavailable, "it would opt to make a weak
-  recommendation." [@grade, §6.1, §6.1.1, §6.1.2]
+  recommendation." [@grade]
 
 On the balance itself: large relative effects **pointing the same way** favour a strong
 recommendation; large desirable effects accompanied by large undesirable ones favour a weak one.
 Large **absolute** effects favour strength more than small ones — and since baseline risk drives
 absolute effect, "the strength of recommendations and its direction will likely differ in high- and
 low-risk groups" ([[Baseline Risk and the Relative-Absolute Split]]).
-[@grade, §6.2.1.1]
+[@grade]
 
 ### Two cautions GRADE states about its own output
 
 - **"Strong recommendations are not necessarily high priority recommendations."**
-  [@grade, §6.1.1] Strength expresses confidence in the *direction of net
+  [@grade] Strength expresses confidence in the *direction of net
   benefit*, not the *size* of the benefit or its rank against other things a person could do. An
   intervention hierarchy therefore cannot be read off recommendation strength — a confidently-correct
   small effect and a confidently-correct large one are both "strong."
@@ -122,7 +122,7 @@ low-risk groups" ([[Baseline Risk and the Relative-Absolute Split]]).
   following some strong recommendations based on the high quality evidence will be a mistake for some
   patients," because no guideline "can take into account all of the often compelling unique features
   of individual patients." Applying recommendations "by rote or in a blanket fashion" is explicitly
-  disclaimed. [@grade, §6.1]
+  disclaimed. [@grade]
 
 ## Applied — WHO SFA 2023, and how the four determinants show up in a real rationale
 
@@ -140,7 +140,7 @@ linkage cleanly ([[Saturated Fat Intake and Replacement]]):
 recording that "**no undesirable effects or other mitigating factors were identified** that would
 argue against" it — so the conditionality is not a balance judgment at all. It is driven by certainty
 alone: "a conservative approach was therefore taken, leading to a conditional recommendation."
-[@who2023saturated, Rationale for SFA recommendations 1 and 2]
+[@who2023saturated]
 
 - **CORRECTED 2026-07-26 — this is GRADE's default rule, not a new pattern.** It was previously
   written up here as a *fifth pattern alongside GRADE's own paradigm cases.* That claim is refuted by a
@@ -164,14 +164,14 @@ alone: "a conservative approach was therefore taken, leading to a conditional re
 - **GRADE does not remove judgment, and says so.** "Applying the GRADE approach does not minimize the
   importance of judgment or [suggest] that quality can always be objectively determined"; there will
   be cases of "legitimate disagreement about the interpretation of evidence." Its claim is that
-  judgments become *explicit rather than implicit*. [@grade, §1.1]
+  judgments become *explicit rather than implicit*. [@grade]
 - The framework governs *guideline panels* offering "recommendations for the management of typical
-  patients." [@grade, §1.1] Carrying a strength rating to a specific individual
+  patients." [@grade] Carrying a strength rating to a specific individual
   requires a transportability step the rating itself does not perform.
   [inferred from @grade]
 - **Source currency:** this handbook (updated October 2013) is being phased out in favour of the
   GRADE Book (2024); §§1-3 are flagged in-source as already rewritten there.
-  [@grade, front matter]
+  [@grade]
 
 ## A real process where appraisal and recommendation are done by DIFFERENT PEOPLE `[2026-07-27]`
 
@@ -183,7 +183,7 @@ inherited feature, not a design it endorses:
 > process for developing *DGA* recommendations does not follow typical guidelines development
 > processes **because the experts assessing the evidence do not write the guidelines and
 > recommendations themselves**.»
-> [@nasem, ch.3, footnote 6]
+> [@nasem]
 
 **Why this matters beyond the DGA.** The certainty/strength split is normally a *distinction within one
 panel's reasoning*; here it is a **handoff between two bodies**, which creates a failure mode the
@@ -193,7 +193,7 @@ because no one person owns both.
 **NASEM's response is not to close the seam but to make it auditable** — Recommendation 2 asks that
 *«the secretaries of USDA and HHS should provide the public with a clear explanation when the DGA omit
 or accept only parts of conclusions from the scientific report.»*
-[@nasem, ch.3]
+[@nasem]
 
 **That the safeguard is *requested* is the finding.** A recommendation to explain departures implies
 departures occur and are not currently explained. **What this does NOT establish is that any specific
@@ -300,8 +300,8 @@ finding about guideline-making.**
 | WHO Sugars 2015 | free sugars <10%E | **strong** | **moderate** (observational, caries) |
 | WHO Sugars 2015 | free sugars <5%E | conditional | **very low** (ecological) |
 
-[@who2023saturated, — «The overall certainty in the evidence for recommendation 1 was moderate, and for recommendation 2 was very low»]
-[@who2015, Remarks, p.16]
+[@who2023saturated]
+[@who2015]
 
 **Seven recommendations, seven diagonal cells, zero off-diagonal.** Strong pairs with moderate every
 time; conditional pairs with low or very low every time. **The case GRADE calls *common* — high

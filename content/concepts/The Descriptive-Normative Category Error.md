@@ -71,7 +71,7 @@ Each row is one measured/defined object (the *is*) promoted to a norm (the *ough
   adverse effect is expected — descriptive) read as a *target* (an intake to aim at — normative). The two
   differ in kind, and EFSA 2022 on dietary sugars is the rare case of a body **naming the error to
   pre-empt it**: «The Panel wishes to clarify that a UL is not a recommended level of intake»
-  [@efsasugars2022, Interpretation of the ToR]. It runs in *both* directions on sugars: EFSA could set no UL
+  [@efsasugars2022]. It runs in *both* directions on sugars: EFSA could set no UL
   («as low as possible»), so reading that as *softer* than WHO's `<10%` target — or reading WHO's `<10%`
   as a *safe threshold* — both promote one type into the other -> [[Free Sugars Intake]],
   [[Which Objective Moved This Recommendation]]. A body that produces the descriptive object and

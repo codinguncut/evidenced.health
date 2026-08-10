@@ -46,7 +46,7 @@ evidence) and the **n-6-selective-vs-mixed-PUFA distinction**. A facet of the
 `dietary-fat` cluster, linking up to [[Saturated Fat Intake and Replacement]] (LA is *the* PUFA in the
 SFA->PUFA replacement question).
 
-[@marklund2019, Abstract; Background]
+[@marklund2019]
 
 ## The effect estimate — objective biomarker, hard outcomes
 
@@ -64,12 +64,12 @@ of LA status), pooled by inverse-variance meta-analysis.
 | Total CHD | 0.94 (0.88-1.00) | lower, non-significant (P=0.065) |
 | AA — total CVD | 0.95 (0.90-1.01) | non-significant; NOT elevated |
 
-[@marklund2019, Table 2; Results]
+[@marklund2019]
 
 - **Categorical (quintile) confirmation:** highest vs lowest LA quintile, CVD mortality **HR 0.77
   (0.69-0.86)**; the linear and categorical readings agree, and **no nonlinearity** was detected
   (P-nonlinearity >0.05 each) — a monotone gradient over the studied range, not a U or a plateau ->
-  [[The U-Shaped Association Artifact]]. [@marklund2019, Results]
+  [[The U-Shaped Association Artifact]]. [@marklund2019]
 - **Absolute magnitude is not cleanly derivable here.** The pooled analysis reports relative hazards
   per IQR against a distributional contrast, not a single control event rate per 1000, so an absolute
   per-1000 translation (as WHO Annex 6 gives for SFA) would require importing a baseline the source
@@ -80,7 +80,7 @@ of LA status), pooled by inverse-variance meta-analysis.
   absolute benefit scales with baseline risk, not a claimed effect-modifier — with one exception: the
   LA-stroke inverse association was stronger in FADS1 rs174547 T-allele carriers (P-interaction 0.002),
   which the authors flag as pleiotropic and *«should therefore be viewed cautiously.»*
-  [@marklund2019, Results; Discussion]
+  [@marklund2019]
 
 ## The RCT arm — Hooper 2018 Cochrane, and it is more equivocal `[2026-08-04]`
 
@@ -100,13 +100,13 @@ to uncertain**:
 | **MI** | **0.88 (0.76-1.02)** | **Low** | *may reduce* — NNTB 53 |
 | **Serum total cholesterol** | MD **-0.33 mmol/L (-0.50 to -0.16)** | **High** | reduces (dose-related) |
 
-[@hooper2018, Summary of findings 1 and 2]
+[@hooper2018]
 
 > «We found no evidence that increasing omega-6 fats reduces cardiovascular outcomes other than MI,
 > where 53 people may need to increase omega-6 fat intake to prevent 1 person from experiencing MI.
 > Although benefits of omega-6 fats remain to be proven, increasing omega-6 fats may be of benefit in
 > people at high risk of MI.»
-> [@hooper2018, Authors' conclusions]
+> [@hooper2018]
 
 **Four evidence states, named precisely (the whole point of the distinction).** Increasing omega-6 is
 **little-or-no-effect** on all-cause mortality and CVD events — *at Low certainty*, which is neither a
@@ -121,7 +121,7 @@ on tiny event counts (472 CVD deaths; **54 strokes**, CI 0.45-4.11 spanning larg
 harm). Hooper states the inflammation route only as the untested counter-hypothesis (*«omega-6 fats may
 theoretically worsen cardiovascular risk»*). So the RCTs neither confirm the observational *benefit* nor
 the mechanistic *harm* on hard outcomes — they are underpowered for both.
-[@hooper2018, Background]
+[@hooper2018]
 
 ### RCT vs observational — a REFINEMENT, not a filed tension
 
@@ -159,7 +159,7 @@ dramatic HR-0.78 CV-mortality figure is the fragile, single-design part.
   This is the essential-nutrient dose logic: adding an essential fat helps the deficient, not the
   replete — the same decision-relevant risk (**too little** LA) Marklund flagged for high-oleic
   LA-depleted oils, now with a rough threshold.
-  [@hooper2018, Overall completeness]
+  [@hooper2018]
 - **The Ramsden contrarian pole is partly captured here.** Hooper cites *«Ramsden 2010 ... found no
   significant eﬀects on all-cause mortality (RR 1.16 ...), non-fatal MI (RR 1.03 ...), CHD death (RR
   1.17 ...) or CVD events RR 1.13 ...), and these results have not altered substantially in their most
@@ -171,7 +171,7 @@ dramatic HR-0.78 CV-mortality figure is the fragile, single-design part.
   [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. So when the staged Ramsden reanalysis
   lands, the joined issue is narrower than "benefit vs harm": it is a within-RCT trial-selection
   dispute over a set of trials Hooper has already pooled to a null.
-  [@hooper2018, Agreements and disagreements]
+  [@hooper2018]
 
 **Self-critique (Hooper 2018 weave) `[run 2026-08-04, before commit]`.** *Not-joined:* parameter table
 built before prose, «same quantity?» = NO on exposure construct (status-level vs intervention-change),
@@ -195,7 +195,7 @@ medication) and finds the one significant benefit (all-trials **total CHD events
 **vanishes** in the confounder-free "adequately controlled" subset (RR **1.02, 0.84-1.23**), with a
 significant subgroup difference (P=0.002). His verdict: replacing SFA with mostly n-6 PUFA is *«unlikely
 to have either a beneficial or an adverse effect on CHD events, CHD mortality and total mortality.»*
-[@hamley2017, Discussion]
+[@hamley2017]
 
 **On this page's question (does n-6 PUFA harm the heart?), Hamley is null-on-BOTH — it cuts against the
 harm thesis too.** Even in the confounder-free subset the estimates straddle 1.0 (total CHD 1.02, major
@@ -224,7 +224,7 @@ biases away from it. But it declares **no funding and no competing interests** �
 page's Unilever-supported biomarker pole — so it earns the same scrutiny, no more, no less. Its scope is
 also narrow: extreme trial PUFA doses (>=14.3 %E) from vegetable-oil supplementation, and Hamley states
 *«these results should not be generalised to other foods high in mostly n-6 PUFA such as nuts and
-seeds.»* [@hamley2017, Discussion; , Discussion]
+seeds.»* [@hamley2017]
 
 ## The mortality outcome menu — Li 2020 widens it beyond CVD `[2026-08-04]`
 
@@ -239,7 +239,7 @@ biomarker arm (65,411 participants). Higher LA is associated with lower mortalit
 | CVD mortality | **0.87 (0.82, 0.92)** | **0.89 (0.85, 0.94)** |
 | Cancer mortality | **0.89 (0.85, 0.93)** | **0.91 (0.84, 0.98)** |
 
-[@li2020, Abstract; Results]
+[@li2020]
 
 - **This is an F-refinement, NOT independent-E corroboration of Marklund (the guard, stated).** Li's
   biomarker arm literally *contains* Marklund 2019 — Li's Table 2 attributes nine cohorts (CHS,
@@ -254,7 +254,7 @@ biomarker arm (65,411 participants). Higher LA is associated with lower mortalit
   mortality 0.97 at 5% E → 0.88 at 10% E; cancer 0.96 → 0.83). This is another curve that is *monotone
   or not-estimable, no plateau* on the decision-relevant range -> [[The U-Shaped Association Artifact]],
   and Li states the burden the corpus expects: a threshold is *asserted-absent*, not located.
-  [@li2020, Results; Discussion]
+  [@li2020]
 - **The RCT/observational split persists on all-cause mortality (same refinement, not a new tension).**
   Hooper's RCTs give all-cause mortality **RR 1.00 (0.88-1.12), Low, little-or-no-effect**; Li's
   observational pools give **0.87 / 0.91**. This is the identical design-divergence already adjudicated
@@ -269,7 +269,7 @@ biomarker arm (65,411 participants). Higher LA is associated with lower mortalit
   positive», and excluding baseline-cancer cohorts *strengthened* the protective estimate (0.81 at 10%
   E). Among the already-sick the benefit does not hold — a sick-subgroup marker, consistent with the
   prospective-only design reducing but not removing reverse causation.
-  [@li2020, Results; Discussion]
+  [@li2020]
 
 **Self-critique (Li 2020 weave) `[run 2026-08-04, before commit]`.** *Laundered-E:* explicitly blocked —
 Li's biomarker arm overlaps Marklund's cohorts (nine cohorts shared, read off Table 2), so filed as
@@ -287,7 +287,7 @@ Experiment** (MCE, 1968-73) is the recovered-data pole Marklund pre-empted: a **
 RCT** (n=9570; the *largest* diet-heart trial, the only one in large cohorts of women and >=65s, the
 only one with autopsy endpoints), in which corn-oil LA (**13.2%E**, \~2x the average US diet) replaced
 SFA. It is the cleanest available test of the diet-heart *surrogate* logic — and it comes apart at the
-surrogate->outcome step: [@ramsden2016, Design; Study design and participants]
+surrogate->outcome step: [@ramsden2016]
 
 - **The surrogate moved, hard:** serum cholesterol **-13.8% (SD 13.0)** intervention vs **-1.0%** control
   (P<0.001), in every prespecified subgroup, as the Keys equation predicted.
@@ -295,12 +295,12 @@ surrogate->outcome step: [@ramsden2016, Design; Study design and participants]
   the full randomized cohort or for any prespecified subgroup.» The updated 5-trial meta-analysis (MCE +
   SDHS + RCOT + LA-Vet + MRC-Soy, n=10 808) found «no evidence of benefit on mortality from coronary heart
   disease (1.13, 0.83 to 1.54) or all cause mortality (1.07, 0.90 to 1.27).»
-  [@ramsden2016, Results; Fig 7]
+  [@ramsden2016]
 - **Two harm-suggestive signals, both weaker than the headline** (see the symmetric-standards read
   below): a within-trial **cholesterol-change -> death** association (per 30 mg/dL drop, HR **1.22
   (1.14-1.32)**, >=65-driven), and a **provisional autopsy** finding — intervention 41% (31/76) vs control
   22% (16/73) with >=1 MI, **IRR 1.90 (1.01-3.72)**, no less atherosclerosis (149/295 files).
-  [@ramsden2016, Table 4; Provisional autopsy findings]
+  [@ramsden2016]
 
 **Attempt the contradiction — is this the seed-oil HARM the page's harm thesis wanted? Parameter table
 first (same-quantity discipline).** Marklund's biomarker benefit vs Ramsden's recovered RCT:
@@ -336,7 +336,7 @@ population, design and outcome, consistent once matched). The honest reading, ev
   dietary trans fat is an exceedingly unlikely explanation for the lack of benefit of the intervention
   diet.» So the standard pro-LA rebuttal to MCE (trans-fat confound) is itself contested by MCE's own
   reanalysts -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]] (joined-issue 1, where this
-  is filed). [@ramsden2016, Strengths and limitations]
+  is filed). [@ramsden2016]
 
 **Symmetric standards — Ramsden gets the same bar, both directions.** *For it:* NIH-funded, **no
 financial conflicts** — a cleaner COI than this page's Unilever-supported biomarker pole, so it is **not**
@@ -376,14 +376,14 @@ itself**, not an observational sub-analysis:
   surrogate move — yet the LA arm **died more**, three concordant borderline-significant endpoints:
   all-cause 17.6% v 11.8%, **HR 1.62 (1.00-2.64) P=0.051**; CVD 17.2% v 11.0%, **1.70 (1.03-2.80)
   P=0.037**; CHD 16.3% v 10.1%, **1.74 (1.04-2.92) P=0.036**.
-  [@ramsden2013, Cumulative death rates; Table 4]
+  [@ramsden2013]
 - **Within-intervention dose-response points to LA specifically:** «an increase of 5% of food energy from
   n-6 LA predicted 35% and 29% higher risk of cardiovascular death and all cause mortality» while «the
   reduction in SFA was not significantly related to any mortality outcome» — the LA rise, not the SFA
   fall, tracked death. And the cholesterol drop: «these reductions were not associated with mortality
   outcomes» — a **surrogate->outcome disconnect** even cleaner than Minnesota's (adverse, not merely
   null) -> [[Surrogate Outcomes]].
-  [@ramsden2013, Association of change in PUFA and saturated fat with mortality; Reconciling results ... traditional diet-heart hypothesis]
+  [@ramsden2013]
 
 **Attempt the contradiction — is this the secondary-prevention HARM the harm thesis wanted? Same-quantity
 table first, against the pro-LA nucleus AND against Minnesota.**
@@ -405,7 +405,7 @@ so it lands as a stratum flag, not a dismissal.** The even-handed read:
   the intervention **removed** common margarines/shortenings (major TFA sources), so «Restriction ... in
   the intervention group would be expected to substantially reduce consumption of trans fatty acids
   compared with the control group», and MUFA-adjusted sensitivity «did not noticeably alter» the LA-death
-  relation. [@ramsden2013, Other dietary considerations] So the
+  relation. [@ramsden2013] So the
   naive intervention-margarine-TFA-manufactures-harm hypothesis does **not** survive the paper's own
   evidence (caveat: Ramsden is the interested party, MUFA is an imperfect TFA proxy, TFA was never
   measured).
@@ -413,12 +413,12 @@ so it lands as a stratum flag, not a dismissal.** The even-handed read:
   single-blind, old trial at an **extreme** LA dose Ramsden himself will not generalize — «adverse
   effects of increasing n-6 LA from 6% of food energy to 15% ... are not necessarily generalizable to
   lower LA intakes ... [or] populations without established coronary heart disease.»
-  [@ramsden2013, Limitations and strengths of the SDHS] The
+  [@ramsden2013] The
   all-cause CI touches 1.00; the intervention also cut MUFA and cholesterol. **Ramsden's OWN updated MA
   pools it to non-significance:** LA-selective trials CHD mortality **1.33 (0.99-1.79) P=0.06**, CVD
   **1.27 (0.98-1.65) P=0.07** — trends, not effects. Only the secondary-prevention subset reaches
   significance («1.84 (1.11 to 3.04); P=0.02»), and it is **dominated by Sydney itself**.
-  [@ramsden2013, Comparison with other RCTs and updated meta-analysis]
+  [@ramsden2013]
 - **Not-joined against the nucleus (ii + F-absorption).** Sydney answers a *different* question
   (secondary-prevention, high-dose, n-6-selective) than Marklund/Li (general-population status/intake),
   so not-joined check (ii) fires — different population and intervention, a **distinction not a clash**.
@@ -432,7 +432,7 @@ so it lands as a stratum flag, not a dismissal.** The even-handed read:
   «benefits previously attributed to greater intake of total PUFA might be specifically attributable to
   n-3 PUFAs.» This refines the whole LA question: much of the "PUFA benefit" evidence base mixes n-3,
   and the *isolated* n-6 signal (in these old high-dose secondary-prevention trials) is at best null,
-  at worst adverse. [@ramsden2013, Comparison with other RCTs and updated meta-analysis]
+  at worst adverse. [@ramsden2013]
 
 **The decision-relevant residue — a route-(b/c) stratum flag, INSUFFICIENT evidence, possible harm.**
 For a **post-MI patient** weighing a **high-dose, n-6-selective** SFA->LA replacement (safflower/sunflower
@@ -473,7 +473,7 @@ justification is exactly the mirror image of why the same trick **fails** for sa
 > biomarker (circulating and adipose tissue) levels correlate with dietary consumption. Such objective
 > biomarkers allow the evaluation of dietary exposure of LA status independent of self-reported food
 > habits and estimated nutrient composition of different foods.»
-> [@marklund2019, Background]
+> [@marklund2019]
 
 **This is the decisive intersection with [[Measurement Error in Dietary Assessment]].** Self-reported
 intake is the binding constraint on the whole diet-fat literature (34% under-reporting of energy;
@@ -484,7 +484,7 @@ a function of intake **and** carbohydrate/insulin status, so the marker cannot s
 **LA is essential — no endogenous source — so its tissue level is a genuine (not perfect) intake
 marker.** Marklund still notes that circulating LA levels can be influenced by metabolism (the FADS
 desaturase genotype above is one such determinant) even while calling them established, useful markers
-of diet [@marklund2019, Discussion] — so the
+of diet [@marklund2019] — so the
 biomarker removes the FFQ error, it does not deliver an error-free intake measure. The point is comparative: the same instrument that is a dead end
 for SFA is *usable* for LA. That within-fat-type boundary is real information, not a technicality
 -> [[Is the Food Category Doing Any Work]].
@@ -498,7 +498,7 @@ for SFA is *usable* for LA. That within-fat-type boundary is real information, n
   outranks a bigger FFQ cohort. But *«residual confounding attributable to unmeasured or imprecisely
   measured covariates»* remains the authors' own stated limit, and reverse causation is argued-against
   (prospective-only design, adipose long half-life) rather than excluded.
-  [@marklund2019, Discussion]
+  [@marklund2019]
 
 ## LA vs AA — the *omega-6 -> inflammation via arachidonic acid* claim, tested directly
 
@@ -508,14 +508,14 @@ CVD. Marklund breaks the chain at two points:
 - **Conversion is limited.** *«stable isotope studies suggest very limited conversion of LA to AA in
   humans, and trials show limited effects of increasing dietary LA on plasma and adipose tissue AA
   levels»* — so raising dietary LA does not straightforwardly raise AA.
-  [@marklund2019, Background]
+  [@marklund2019]
 - **AA itself is not associated with higher CVD risk** (HR 0.95, 0.90-1.01; in extreme-quintile and
   total-plasma analyses *lower* risk, 0.92 / 0.81). The eicosanoid story is one-sided: AA is *«also the
   main precursor to key anti-inflammatory metabolites, such as epoxyeicosatrienoic acids and
   prostaglandin E2, and other mediators that actively resolve inflammation, such as lipoxin A4»*, and
   gives rise to prostacyclin (antiaggregatory, vasodilatory). *«These complex biological effects
   preclude simplistic inference on the health effects of AA metabolites.»*
-  [@marklund2019, Discussion]
+  [@marklund2019]
 
 **Decision consequence:** the mechanistic *omega-6-is-proinflammatory* argument is a mechanism claim
 whose predicted outcome (higher CVD) does not appear when measured — the *net-effect-not-intended*
@@ -534,16 +534,16 @@ a **direct null on the harm mechanism's own endpoint**:
 
 - **No effect on any commonly-measured marker.** Across the trials there were no significant
   LA-vs-control differences in CRP, fibrinogen, PAI-1, IL-6, TNF-alpha, or soluble adhesion molecules
-  (ICAM-1, P-/L-selectin). [@johnson2012, Qualitative Data Synthesis; Table 1]
+  (ICAM-1, P-/L-selectin). [@johnson2012]
 - **The two significant signals were eicosanoid metabolites, and their own authors called them
   non-inflammatory** (Blair: urinary PGE2 up / 2,3-dinor-TXB2 down, read as *favorable* vascular
   effects; Adam: tetranorprostanedioic acid, attributed to LA *oxidation* not eicosanoid production).
-  [@johnson2012, Qualitative Data Synthesis]
+  [@johnson2012]
 
 > «We conclude that virtually no evidence is available from randomized, controlled intervention studies
 > among healthy, noninfant human beings to show that addition of LA to the diet increases the
 > concentration of inflammatory markers.»
-> [@johnson2012, Discussion/Abstract]
+> [@johnson2012]
 
 **This mechanizes Marklund's AA-null with systematic RCT backing (an F — mechanism-for-the-null).**
 Marklund stated LA->AA conversion is *«very limited»* as a background assertion; Johnson supplies the
@@ -554,19 +554,19 @@ pooled trial evidence underneath it, and breaks the harm chain at **three** succ
   clinical trials** found *«no effect on the phospholipid pool of plasma/serum AA concentrations of
   decreasing dietary LA by up to 90%»* (P=0.39) *«or of increasing LA intakes by up to 600%»* (P=0.72) —
   the LA->AA step is saturated at low intake, so dietary swings do not move tissue AA.
-  [@johnson2012, Effect of Dietary n-6 PUFA on Tissue AA Concentrations]
+  [@johnson2012]
 - **Link 2 — even preformed AA does not raise cytokines.** Directly supplementing AA (Thies 700 mg/day
   for 12 wk; Kelley 1 500 mg/day for 49 d) left TNF-alpha, IL-1, IL-6 and adhesion molecules unaffected
   (Kelley raised only *in vitro* LTB4/PGE2 in stimulated cells, not secreted cytokines) — so *«there is
   little evidence to suggest that consumption of preformed AA contributes directly to increased
   concentration of markers of chronic inflammation.»*
-  [@johnson2012, Dietary AA and Inflammation]
+  [@johnson2012]
 - **Link 3 — AA-derived eicosanoids are not one-sidedly proinflammatory** (PGE2 also *inhibits* TNF-alpha
   and IL-1 and induces anti-inflammatory lipoxins; AA is precursor to vasodilatory epoxyeicosatrienoic
   acids). This restates Marklund's own dual-eicosanoid point and rests on the **same** underlying reviews
   (Calder, Serhan) — a shared-literature echo, **NOT** an independent-E convergence. (Resolvins are
   derived from the n-3 fatty acids EPA/DHA, not AA — that competition is the *other*, secondary harm
-  route, not this one.) [@johnson2012, Dietary AA and Inflammation]
+  route, not this one.) [@johnson2012]
 
 **Surrogate discipline — a null on the surrogate rebuts the mechanism, it does not prove benefit.**
 Inflammatory markers (CRP, IL-6, TNF-alpha) are **surrogates**, not patient-important outcomes -> [[Surrogate Outcomes]].
@@ -590,7 +590,7 @@ and \~half the trials did not explicitly prohibit NSAIDs. The conclusion is a bo
 calling for *«larger, longer-term, dose-response studies»*. This is a **no-meaningful-effect (bounded)**
 reading of the harm mechanism, distinct from insufficient-evidence: RCTs exist and are consistently
 null, but they are underpowered for a subtle effect.
-[@johnson2012, Limitations of the Data; , Conclusions]
+[@johnson2012]
 
 - **A genetic stratum where the null may not hold (route-b/route-c flag).** Johnson notes genotype may
   account for *«a quarter of the variation in circulating/tissue AA»*: Martinelli found a genetic profile
@@ -599,7 +599,7 @@ null, but they are underpowered for a subtle effect.
   — speculated to partly explain higher CVD incidence. This is the mirror of Marklund's FADS1 rs174547
   stroke-interaction: the population-average inflammation null may not transport to fast-converter
   genotypes. A candidate effect-modification stratum, not an established one (mechanism + association,
-  no in-stratum RCT). [@johnson2012, Limitations of the Data]
+  no in-stratum RCT). [@johnson2012]
 - **Bounded by date — but not superseded within the corpus.** Johnson is 2012; the loud seed-oil
   discourse is 2023-2025, and no *later* dedicated inflammation-marker RCT SR is held here, so the direct
   test is a decade old. Its *direction* is concordant with everything the corpus has ingested since
@@ -624,7 +624,7 @@ The proposed cardioprotective mechanism runs through the lipid surrogates:
 > «In randomized controlled feeding trials, dietary PUFA (primarily LA) as a replacement for either
 > carbohydrates or saturated fat lowers low-density lipoprotein cholesterol, triglycerides, and
 > apolipoprotein B levels, and raises high-density lipoprotein cholesterol»
-> [@marklund2019, Discussion]
+> [@marklund2019]
 
 plus stated effects on HbA1c/insulin resistance, blood pressure, and visceral/liver fat.
 
@@ -646,7 +646,7 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
   not absence**: the highly-controlled Mensink 2016 trials show omega-6 replacing SFA lowers LDL
   (-0.058 mmol/L per 1% E), and Hooper concludes *«we were underpowered to see eﬀects on other lipids.»*
   So the surrogate agrees across observational and RCT arms; the hard-outcome benefit is where they part.
-  [@hooper2018, Summary of findings 2; , Agreements and disagreements]
+  [@hooper2018]
 
 ## Decision relevance
 
@@ -671,7 +671,7 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
 - **A stratum the finding actually flags: LA-*depleted* seed oils.** Marklund notes *«current trends in
   oil production are leading to increased use of high-oleic, LA-depleted seed oils, which can increase
   the risk of insufficient PUFA consumption in population subgroups»* — i.e. the decision-relevant risk
-  the data support is *too little* LA, not too much. [@marklund2019, Discussion]
+  the data support is *too little* LA, not too much. [@marklund2019]
 - **Big-rock ranking:** this is a fat-*type* / substitution lever, not a big rock. It ranks alongside
   the SFA-replacement question, well below smoking/adiposity/inactivity. For someone already lean,
   active and eating LA-containing foods, the marginal seed-oil decision is a small, contested lever —
@@ -703,11 +703,11 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
   the pro-LA finding. This does not refute the result (a large IPD pool with prespecified protocol
   resists sponsor steering), but it is exactly the halo-across-axes signal to keep visible, and a reason
   the contrarian pole must get the *same* appraisal bar when it lands.
-  [@marklund2019, Sources of Funding; Disclosures]
+  [@marklund2019]
 - **The contrarian pole is now HELD (Ramsden MCE 2016) — and no tension was filed, because the
   contradiction did not hold.** Marklund pre-empted the recovered corn-oil trials as *«hampered by their
   short duration, small numbers of events, substantial dropout, and confounding by industrial trans
-  fats.»* [@marklund2019, Background] With
+  fats.»* [@marklund2019] With
   Ramsden 2016 now ingested (*The recovered-RCT contrarian pole* above), the anticipated
   biomarker-benefit-vs-recovered-RCT-**harm** tension **fails the same-quantity check**: MCE's randomized
   mortality contrast is a **null** (5-trial MA: CHD-mortality 1.13, all-cause 1.07 — the same

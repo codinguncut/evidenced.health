@@ -45,7 +45,7 @@ thresholds» [@parker2022allostatic].
   anthropometric/metabolic (BMI, HDL, HbA1c), neuroendocrine (cortisol, catecholamines), immune
   (CRP, IL-6, fibrinogen). All studies included the first two systems; neuroendocrine and immune
   markers were less common (in 6/16 and 11/16 of those reporting operationalization).
-  [@parker2022allostatic, Table 1]
+  [@parker2022allostatic]
 - **The composite out-predicts its parts** — «multiple studies have reported that total AL scores better
   predict mortality outcomes than any individual AL biomarker»
   [@parker2022allostatic]. This is the construct's
@@ -77,7 +77,7 @@ fair in 3, poor in 1 (NOS).
 | Immune/neuroendocrine markers included | 1.25 (1.13, 1.37) | 7 | 93% |
 | Immune/neuroendocrine omitted | 1.13 (1.06, 1.20) | 3 | 29% |
 
-[@parker2022allostatic, Table 2]
+[@parker2022allostatic]
 
 - **Absolute framing.** These are relative hazards; Parker reports no absolute risks. A 22% higher
   all-cause hazard is a *large* effect only where baseline mortality risk is high — the absolute benefit

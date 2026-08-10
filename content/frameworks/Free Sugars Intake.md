@@ -31,7 +31,7 @@ cardiometabolic disease. **Dental caries.**
 > total energy intake (strong recommendation)."
 > "WHO suggests a further reduction of the intake of free sugars to below 5% of total energy intake
 > (conditional recommendation)."
-[@who2015, Recommendations, p.4 and p.16]
+[@who2015]
 
 And what each rests on, in WHO's own words:
 
@@ -40,7 +40,7 @@ And what each rests on, in WHO's own words:
 > "...to less than 5% of total energy intake is based on **very low quality evidence from ecological
 > studies** in which a positive dose-response relationship between free sugars intake and dental caries
 > was observed at free sugars intake of less than 5% of total energy intake."
-[@who2015, Remarks, p.16]
+[@who2015]
 
 The general lifecourse recommendation is **strong with no single GRADE rating attached to it** — WHO
 grades the underlying outcomes rather than that recommendation (see the *totality of evidence* quote
@@ -51,7 +51,7 @@ below, which names the ratings for body weight and caries).
 > "Free sugars include monosaccharides and disaccharides added to foods and beverages by the
 > manufacturer, cook or consumer, and sugars naturally present in honey, syrups, fruit juices and fruit
 > juice concentrates."
-[@who2015, Remarks, p.16]
+[@who2015]
 
 **Excluded:** intrinsic sugars («incorporated within the structure of intact fruit and vegetables») and
 milk sugars (lactose, galactose) -- on the stated ground that "there is no reported evidence of adverse
@@ -69,7 +69,7 @@ date from 1959 and measured *total* sugars.
 | Reduced sugars, children | SMD 0.09 (-0.14 to 0.32) -- null | 5 RCTs | Moderate |
 | Highest vs lowest SSB intake, children | OR 1.55 (1.32 to 1.82) | 5 cohorts | Low |
 
-[@who2015, Summary of evidence, pp.12-13; Annex 1]
+[@who2015]
 
 **The third row is the load-bearing one, and it is the one that gets dropped when the 10% figure is
 quoted on its own.** Swap free sugars for other
@@ -81,7 +81,7 @@ replace the calories with other carbohydrate"* are different interventions with 
 **WHO draws this conclusion itself**, in the Remarks: *"The excess body weight associated with free
 sugars intake results from excess energy intake."* So the reading is the guideline's own, not an
 inference from its table.
-[@who2015, Remarks, p.16]
+[@who2015]
 
 **Note what this does and does not license.** It bears on *body weight only*. Caries is
 sugar-specific by mechanism, and the isoenergetic swap says nothing about it.
@@ -93,7 +93,7 @@ have been proposed"* — naming fructose/uric-acid and ectopic-fat pathways that
 an effect on body weight"* and declaring them *"beyond the scope of this review"*. So the isoenergetic
 null licenses a claim about **the scale**, not about sugar's health effects at large. The wiki's own
 heading above is written in the narrower form for this reason.
-[@te2013, Potential mechanisms]
+[@te2013]
 
 ### What the primary review adds to these rows
 
@@ -152,7 +152,7 @@ they carry.
   caries evidence. The authors attribute the failed dose-response to measurement error ->
   [[Measurement Error in Dietary Assessment]].
 
-[@te2013, Results; Discussion; Conclusions]
+[@te2013]
 
 **Scope limit worth carrying, which both sources state:** weight-loss interventions were excluded by
 design — Te Morenga, *"because the ultimate aim of the review was to facilitate the development of
@@ -166,7 +166,7 @@ none of this speaks to sugar reduction as an obesity *treatment*, only as popula
 but it is not the sole basis. WHO states the recommendations "were based on the **totality of evidence**
 reviewed regarding the relationship between free sugars intake and **body weight** (low and moderate
 quality evidence) **and** dental caries (very low and moderate quality evidence)."
-[@who2015, Remarks, p.16]
+[@who2015]
 Body weight and caries are **both** graded critical outcomes at moderate certainty in the same table --
 and the body-weight row has 5 RCTs and a pooled estimate, which the caries row does not.
 
@@ -188,7 +188,7 @@ that, the evidence base is unusual:
   <15 to <10 kg/person/year), rated very low, plus an explicitly non-evidential argument: that caries
   effects are «cumulative, tracking from childhood to adulthood».
 
-[@who2015, Summary of evidence, pp.13-15; Annex 1 Tables 1-6]
+[@who2015]
 
 **So a strong recommendation (<10%) rests on unpooled observational evidence upgraded by judgment, and
 a conditional one (<5%) on ecological correlation.** Both are honestly labelled by WHO; neither label is
@@ -245,7 +245,7 @@ warrant (same etiology, disease tracking to adulthood), a reasoned indirectness 
 than a skipped one. Same move as WHO's LDL non-downgrade on [[Surrogate Outcomes]] — **and NOT
 independent evidence of it**, since both are the same body's process.
 
-[@moynihan2014, Results; Discussion]
+[@moynihan2014]
 
 **None of this is a second witness.** See *Why these are one source, not three* below.
 
@@ -287,7 +287,7 @@ WHO's evidence for it.** Two arguments landing on one number.
   Moynihan 5. It read WHO's commissioned reviews — it **distinguishes** them on inclusion criteria
   rather than disputing their findings. So the reading is independent by *rule*, not by ignorance.
 
-[@sacn2015, 1.3, 6.67, S.18, A2.13]
+[@sacn2015]
 
 **And SACN adds a warrant WHO does not have.** Its 5% rests jointly on caries *and* total energy
 intake, with the energy limb carried by **randomised trials** (*"increasing or decreasing the
@@ -303,7 +303,7 @@ NNR is the third Tier-A body the wiki holds on this
 question, and it lands on neither of the two positions above.
 
 > «Intake of added and free sugars should be below 10 E%, and preferentially lower»
-> [@nnr2023, Box 7]
+> [@nnr2023]
 
 **Parameter table** (op-weave 2a) — built first, because the construct looked incommensurable:
 
@@ -332,14 +332,14 @@ SACN adopts WHO's **2002** wording, and it does so having quoted the 2015 form i
 > honey, syrups and fruit juices (WHO, 2003). In 2015, the term was elaborated to 'free sugars include
 > monosaccharides and disaccharides added to foods and beverages by the manufacturer, cook or consumer,
 > and sugars naturally present in honey, syrups, fruit juices and fruit juice concentrates (WHO, 2015).»
-> [@sacn2015, 2.26]
+> [@sacn2015]
 
 And then recommends the earlier one for UK adoption:
 
 > «The definition for 'free sugars' be adopted in the UK. This comprises all monosaccharides and
 > disaccharides added to foods by the manufacturer, cook or consumer, plus sugars naturally present in
 > honey, syrups and unsweetened fruit juices.»
-> [@sacn2015, S.17]
+> [@sacn2015]
 
 **The substantive gap is fruit juice concentrates.** SACN's adopted numerator omits them; WHO's 2015
 and NNR's both include them. Fruit juice concentrate is the sweetener of choice in products marketed
@@ -376,7 +376,7 @@ same-quantity failure. **That was wrong**: NNR's front-matter glossary defines *
 essentially WHO's words, and since added sugars are a subset of free sugars under that definition, the
 phrase "added and free sugars" has the extension *free sugars*. The denominators match too. **So the
 three thresholds are comparable, and the divergence between them is real rather than definitional.**
-`[@nnr2023, — the glossary entries; the subset step is this page's]` `[searched: "monosaccharide"/"disaccharide"/"naturally present in
+`[@nnr2023]` `[searched: "monosaccharide"/"disaccharide"/"naturally present in
 honey"/"definition of sugar"/"intrinsic sugar" across all 10 NNR chunks]`
 
 **The three-body picture, now that they can be compared:**
@@ -400,7 +400,7 @@ with adequacy, not disease:
 > «Restricting the intake of added and free sugars is important to ensure adequate intakes of
 > micronutrients and dietary fibre (nutrient density) as well as to support a healthy dietary pattern.
 > This is especially important for children and persons with a low energy intake.»
-> [@nnr2023, Box 7]
+> [@nnr2023]
 
 Caries appears second (*«Frequent consumption of foods with added and free sugars should be avoided to
 reduce the risk of dental caries»*) and environment third. **So NNR's 10% is a displacement threshold —
@@ -410,7 +410,7 @@ low energy intake» — which follows from the displacement mechanism: a fixed *
 from sugar crowds out proportionally more of a smaller nutrient budget. **A caries threshold carries no
 such stratification**, because caries risk tracks frequency and exposure rather than the surrounding
 energy budget.
-`[@nnr2023, — the stratification is NNR's; the mechanism reading is this page's]`
+`[@nnr2023]`
 
 **And NNR names an evidence gap exactly where the other two set their second tier.** Its carbohydrate
 *Main data gaps* block reads:
@@ -418,7 +418,7 @@ energy budget.
 > «There is a lack of studies on carbohydrates and health effects in pregnancy. There is also a lack of
 > a standardized definition for dietary sugars (free and added sugars) and  a lack of long-term studies
 > measuring the impact of reducing intake of free and added sugars (especially below 10 E%)»
-> [@nnr2023, Main data gaps]
+> [@nnr2023]
 
 **Two things follow, and only the first is NNR's.**
 
@@ -525,7 +525,7 @@ substitution frame; it does not add an independent backing.
 The body-weight rows above are the guideline's own free-sugars-%E evidence. The **beverage vehicle** —
 sugar-sweetened beverages, the dominant free-sugars carrier and the exposure behind Te Morenga's child
 cohort signal (OR 1.55) — now has an adult cardiometabolic dose-response, from a 39-cohort dose-response
-meta-analysis. Per **250 mL/d increase** in SSB intake [@qin2020, Abstract]:
+meta-analysis. Per **250 mL/d increase** in SSB intake [@qin2020]:
 
 | Outcome | SSB RR per 250 mL/d (95% CI) | Shape |
 |---|---|---|
@@ -555,7 +555,7 @@ does NOT license:
   chosen by the already-at-risk — and Qin runs no MR/reverse-causation check. Do not read the ASB
   association as an ASB *effect*; it is the artifact-suspect arm -> [[The U-Shaped Association Artifact]],
   [[Non-Sugar Sweeteners]].
-`[@qin2020, /02/03 — magnitudes and shapes are Qin's; the additive-arm reading and the tie to the isoenergetic null are this page's]`
+`[@qin2020]`
 
 ## A fourth body sets NO number at all — EFSA's risk assessment could find no threshold `[2026-08-06, EFSA 2022]`
 
@@ -572,13 +572,13 @@ effects», and its whole logic «is that a threshold can be identified below whi
 > increased could not be identified over the range of observed intakes, and thus, a UL or a safe level
 > of intake could not be set. ... the intake of added and free sugars should be as low as possible in
 > the context of a nutritionally adequate diet.»
-> [@efsasugars2022, Abstract]
+> [@efsasugars2022]
 
 **Per-outcome certainty (added/free sugars), on RCTs of SURROGATE endpoints:** «moderate for obesity
 and dyslipidaemia (> 50-75% probability), low for NAFLD/NASH and T2DM (> 15-50% probability) and very
 low for hypertension (0-15% probability), based on data from RCTs which investigated the effect of
 'high' vs. 'low' sugar intake on surrogate disease endpoints, i.e. body weight, liver fat, fasting
-glucose, fasting triglycerides and SBP.» [@efsasugars2022, Summary] -> [[Surrogate Outcomes]].
+glucose, fasting triglycerides and SBP.» [@efsasugars2022] -> [[Surrogate Outcomes]].
 
 ### Is EFSA OPPOSED to WHO, or a different instrument? (attempt the contradiction first)
 
@@ -599,7 +599,7 @@ output is a threshold-or-nothing, and it found nothing because the dose-response
 no-risk point over observed intakes. WHO issues a **communicable public-health target**, which needs a
 number a population can aim at whether or not a clean threshold exists. **On the substance they agree:
 less is better, and there is no clean safe level.** EFSA even makes explicit that a UL «is not a
-recommended level of intake» [@efsasugars2022, Interpretation of the ToR] — so reading EFSA's «as low as possible» as *softer*
+recommended level of intake» [@efsasugars2022] — so reading EFSA's «as low as possible» as *softer*
 than WHO's 10%, or WHO's 10% as a *safe threshold* EFSA failed to endorse, is the descriptive-normative
 category error in both directions -> [[The Descriptive-Normative Category Error]]. This is a
 **standpoint** difference (telos divergence reason #1): EFSA firewalls target-setting *out* of its own
@@ -615,8 +615,8 @@ page's existing readings:
 - **The energy-mediation core — corroboration of the appraisal, not an independent dataset.** EFSA:
   «Excess energy intake leading to positive energy balance and body weight gain appears to be the main
   mechanism by which the intake of dietary sugars may contribute to the development of chronic metabolic
-  diseases» [@efsasugars2022, Summary], and prospective cohorts assessed in isocaloric exchange «do not support a
-  positive relationship» with any metabolic or pregnancy endpoint [@efsasugars2022, Summary]. This is WHO's own
+  diseases» [@efsasugars2022], and prospective cohorts assessed in isocaloric exchange «do not support a
+  positive relationship» with any metabolic or pregnancy endpoint [@efsasugars2022]. This is WHO's own
   isoenergetic-null reading (*«excess body weight ... results from excess energy intake»*, above) reached
   by a separate **appraisal route** — EFSA's own OHAT systematic review and databases. **No
   `[E-independent]` is claimed, and deliberately:** EFSA cites WHO 2015, and on the genuinely-*same*
@@ -627,14 +627,14 @@ page's existing readings:
   Moynihan (author of WHO's caries review) is among the **authors** of the EFSA opinion.
 - **The additive-vs-isocaloric split is EFSA's own.** SSBs, assessed «not keeping TEI constant», grade
   «high for obesity, T2DM, HTN and CVD (> 75-100% probability)» — far above the isocaloric %E grades —
-  exactly the additive-arm reading the Qin section above gives. [@efsasugars2022, Summary]
+  exactly the additive-arm reading the Qin section above gives. [@efsasugars2022]
 - **The ASB confound, independently.** «It is unclear ... whether the risk of HTN and CVDs ... could be
   attributed to their sugar content because the relationship between ... artificially sweetened
   (sugar-free) beverages and incidence of HTN and CVDs was similar to, or stronger than, for SSBs»
-  [@efsasugars2022, Summary] — the reverse-causation candidate Qin 2020 flagged, reached by a second body
+  [@efsasugars2022] — the reverse-causation candidate Qin 2020 flagged, reached by a second body
   -> [[The Observational-Trial Discordance]], [[Non-Sugar Sweeteners]].
 - **Dose-response shapes are monotone-linear** (SSB -> T2DM/HTN/CVD and FJ -> T2DM «positive and linear,
-  with no evidence for non-linearity») [@efsasugars2022, §12.2] — a fresh instance of the falsified knees-and-plateaus
+  with no evidence for non-linearity») [@efsasugars2022] — a fresh instance of the falsified knees-and-plateaus
   prior -> [[The U-Shaped Association Artifact]].
 
 ### EFSA sharpens the `<5%` question — the thinnest evidence sits exactly there
@@ -642,7 +642,7 @@ page's existing readings:
 EFSA states the sub-10%E region is the least-evidenced: the relationship «could not be adequately
 explored at levels of intake < 10 E% owing to the low number of RCTs available, and ... the uncertainty
 about the shape and direction of the relationship at these levels of intake is higher than at intakes
-≥10 E%.» [@efsasugars2022, Summary] **This is where WHO's conditional `<5%` and SACN's primary `<=5%` both sit.** It does
+≥10 E%.» [@efsasugars2022] **This is where WHO's conditional `<5%` and SACN's primary `<=5%` both sit.** It does
 *not* say those tiers are wrong (EFSA declines all numbers), but it independently corroborates this
 page's existing reading that the `<5%` region is carried by the weakest evidence — now from a fourth
 body's own systematic review. [inferred from @efsasugars2022]
@@ -653,12 +653,12 @@ body's own systematic review. [inferred from @efsasugars2022]
   cardiometabolic risk, the caries evidence does not transfer, and the weight evidence says the effect
   runs through energy.
 - **Name the replacement.** Cutting sugar and replacing the calories with other carbohydrate moved
-  weight by 0.04 kg [@who2015, Summary of evidence, pp.12-13]. The realistic alternative determines the effect (telos layer 3).
+  weight by 0.04 kg [@who2015]. The realistic alternative determines the effect (telos layer 3).
 - **Fruit juice sits inside the exposure and whole fruit outside it** -- a food-level distinction that a
   "reduce sugars" instruction loses entirely.
 - **Ecological studies are the weakest design for an individual inference** (the ecological fallacy):
   the <5% threshold rests on three ecological studies rated *very low* by both the review and the
-  guideline [@who2015, Summary of evidence, pp.13-15] — the wiki's clearest live example of a widely-cited number whose own sources claim little
+  guideline [@who2015] — the wiki's clearest live example of a widely-cited number whose own sources claim little
   for it.
 
 

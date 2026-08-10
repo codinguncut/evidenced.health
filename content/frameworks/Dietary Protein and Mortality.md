@@ -50,7 +50,7 @@ fully-adjusted, random-effects. **All observational — associations, not causal
 | **Animal protein** | «1.00 ... 0.94 to 1.05» **null** | «1.02 ... 0.94 to 1.11» null | «1.00 ... 0.98 to 1.02» null |
 | **Plant protein** | «0.92 ... 0.87 to 0.97» inverse | «0.88 ... 0.80 to 0.96» inverse | «0.99 ... 0.94 to 1.05» null |
 
-[@naghshi2020, Results]
+[@naghshi2020]
 
 - **Animal protein is null on all three outcomes** — the clean finding at the aggregate. But the animal
   bucket pools red meat with dairy, eggs and poultry, so this null does **not** clear the animal-protein
@@ -60,13 +60,13 @@ fully-adjusted, random-effects. **All observational — associations, not causal
 - **Plant protein carries the benefit**, on all-cause and CVD mortality (not cancer).
 - **Total protein's inverse arm is the plant component showing through.** «Given that plant protein is
   part of total protein, the observed inverse association for intake of total protein seems to be
-  related to its plant protein component.» [@naghshi2020, Mechanisms]
+  related to its plant protein component.» [@naghshi2020]
 
 **The magnitude is small and the shape is inverse-monotone, no U.** The one significant dose-response:
 «an additional 3% of energy from plant proteins a day was associated with a 5% lower risk of death from
 all causes (pooled effect size 0.95, 95 0.93 to 0.98, P<0.001)» — with significant non-linearity
 (P=0.05, a steepening of the inverse relation). Total and animal protein dose-response were both flat
-(0.99, NS). [@naghshi2020, Linear and non-linear dose-response analysis]
+(0.99, NS). [@naghshi2020]
 
 No protein type shows an upper-arm harm, so the [[The U-Shaped Association Artifact]] hazard does not
 arise — there is no protective lower arm to adjudicate. The live question is whether the *inverse* arm is
@@ -81,7 +81,7 @@ group, whereas our exposure variable was protein as a nutrient. Animal meat cont
 and B vitamins in addition to protein» — so «findings for animal meat and animal protein could be
 different.» And the animal-protein bucket «combin[es] protein from different animal sources, including
 poultry, eggs, and dairy foods» — a heterogeneous mix whose average may describe no single food.
-[@naghshi2020, Comparison with other studies]
+[@naghshi2020]
 
 **So the null is a null on the *nutrient*, not a green light for the *foods*** — red/processed meat harm
 (a food-level finding elsewhere) is untouched by it.
@@ -92,15 +92,15 @@ poultry, eggs, and dairy foods» — a heterogeneous mix whose average may descr
   studies that had made these adjustments [fat/carbohydrate], the inverse association of plant protein
   with all cause and cardiovascular disease mortality changed little, whereas the inverse association
   between intake of total protein and all cause mortality became non-significant.»
-  [@naghshi2020, Comparison with other studies] The
+  [@naghshi2020] The
   plant-protein result is the sturdier one; the total-protein result is fragile.
 - **But confounded by diet pattern and social class (author's own caveat).** «Consumption of animal and
   plant proteins could be a marker of broader dietary intake patterns—or even of social class, an
   important independent predictor of many health outcomes.»
-  [@naghshi2020, Comparison with other studies]
+  [@naghshi2020]
 - **Measurement error attenuates toward null.** «Measurement errors in dietary assessment are
   inevitable and would have tended to underestimate the associations with protein intake»
-  [@naghshi2020, Strengths and weaknesses] -> the true
+  [@naghshi2020] -> the true
   gradient may be steeper than measured [[Measurement Error in Dietary Assessment]].
 - **Publication bias possible** (Egger's positive for total-all-cause, total-CVD, plant-CVD) but
   trim-and-fill left the estimates unchanged.
@@ -138,7 +138,7 @@ this two *independent* routes.
 | Exposure unit | protein as a nutrient, energy-adjusted | a low-carb dietary *pattern* (protein AND fat) replacing carbohydrate | **NO** |
 | Design / independence | 32-cohort FFQ MA; senior author Willett | ARIC + 8-cohort FFQ MA; senior author Willett; PURE/NHS/HPFS overlap | **shared school + overlapping cohorts — NOT independent** |
 
-[@naghshi2020, Results · (Seidelmann - Carbohydrate Intake Mortality 2018) , Findings]
+[@naghshi2020]
 
 **The animal null (Naghshi) and animal-substitution harm (Seidelmann) do NOT contradict — not-joined
 check (ii) fires on the unit.** Naghshi isolates the *protein nutrient* (null); Seidelmann measures a
@@ -156,7 +156,7 @@ Budhathoki's Japanese cohort (JPHC; 70 696 adults, 18-y follow-up, 12 381 deaths
 with risk of overall mortality or cause-specific mortality», while «higher plant protein intake was
 associated with lower total and CVD-related mortality» (plant all-cause Q5 HR 0.87 [0.78-0.96], P=.01;
 CVD Q5 0.73 [0.59-0.91], P=.002; cancer null).
-[@budhathoki2019, Results/Conclusions]
+[@budhathoki2019]
 
 **It was predicted as the independent-E lift this page lacked, and the prediction FAILED.** The author
 lists are cleanly disjoint (Budhathoki/Sawada/Iwasaki/Tsugane, National Cancer Center Japan — no Willett,
@@ -180,7 +180,7 @@ blurs — an **isocaloric food-source substitution model** and **absolute risk**
 | Absolute risk | not derivable (highest-vs-lowest) | 15-y ARR plant-for-red-meat **3.60% (2.10-4.86)** total; processed-meat 4.95% | **NO — Budhathoki adds the absolute layer** |
 | Animal-protein food mix | pooled (US-weighted, red-meat-heavy) | **fish 47.1%**, red meat 19.4%, dairy 16.7%, eggs 9.5% | **NO — fish-dominated, the transportability hinge** |
 
-[@naghshi2020, Results · (Budhathoki - Animal Plant Protein Mortality 2019) , Results]
+[@naghshi2020]
 
 **Note the substitution HRs are a DIFFERENT estimand from Naghshi's dose-response, not a bigger version
 of it.** Naghshi's 0.95 is +3%E plant protein replacing *carbohydrate*; Budhathoki's 0.66 is 3%E plant
@@ -193,7 +193,7 @@ null precisely because it pools protective fish with harmful red/processed meat.
 reconciliation of its animal-null vs the US animal-positive result: «This discrepancy ... may be
 attributable to ... a difference in the main dietary source of animal protein, which was red and
 processed meat in the US study vs fish intake in the present study.»
-[@budhathoki2019, Discussion]
+[@budhathoki2019]
 [inferred from @budhathoki2019]
 
 ## Decision relevance
@@ -202,14 +202,14 @@ processed meat in the US study vs fish intake in the present study.»
   plant-protein foods (legumes, nuts, whole grains, soy) is associated with lower all-cause and CVD
   mortality; raising or lowering *total* protein does little on its own. «Replacement of foods high in
   animal protein with plant protein sources could be associated with longevity.»
-  [@naghshi2020, Conclusions]
+  [@naghshi2020]
 - **The effect is modest** (\~5% lower all-cause mortality per +3% energy from plant protein, relative,
   observational) — a real but small lever, ranked below the big rocks and delivered on associational
   evidence, not a causal RCT. On Naghshi's highest-vs-lowest contrast the **absolute** reduction is not
   derivable; Budhathoki's JPHC model does supply one for the food-source swap — a 15-year absolute risk
   reduction of **3.60% (2.10-4.86)** in total mortality for replacing 3%E of red-meat protein with plant
   protein — but it is **model-derived from a single observational cohort**, so read it as scale, not a
-  treatment effect. [@budhathoki2019, Results]
+  treatment effect. [@budhathoki2019]
 - **This does not conflict with the muscle-protein target.** Hitting \~1.6 g/kg for muscle
   ([[Protein and Resistance Training for Muscle and Strength]]) is a *quantity* decision on a surrogate;
   this is a *source* decision on mortality. You can satisfy both: reach the amount, bias the sources

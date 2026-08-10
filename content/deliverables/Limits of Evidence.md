@@ -10,23 +10,28 @@ updated: 2026-08-10
 self_critiqued: 2026-08-10
 ---
 
-This field's evidence has structural ceilings that no volume of new studies removes. You cannot blind
-a whole diet, cannot measure habitual intake without large error, cannot randomize a lifetime, and --
-the deepest limit -- no realized outcome ever grades the guidance against what happened to a person
-(the loop is open). Each ceiling bounds a different link in the inference: the **exposure** is
-mismeasured, the **design** rarely isolates the cause, the **outcome** is often a surrogate, the
-**literature** is a filtered and noisy sample of the studies actually run, and *no evidence* is
-routinely confused with *evidence of no effect*. These are not complaints about sloppy studies -- each
-is a reason the best attainable study in this field still cannot answer some questions cleanly.
+Some questions about diet and health cannot be settled cleanly, and no volume of new research
+will change that. You cannot blind people to what they eat, cannot measure a real diet without
+large error, and cannot randomise how someone lives for forty years. The deepest limit is the
+quietest: no finding here has ever been checked against what actually became of a real person.
+The loop from advice to outcome never closes.
+
+Each ceiling weakens a different link in the chain. What people ate is measured poorly. The
+studies that could establish cause seldom can. The thing measured is often a stand-in —
+cholesterol, blood sugar — for the illness or death that is the real point. And the published
+record is a filtered, uneven sample of the research actually done. Running through all of it
+is one recurring confusion: *no one has looked* is read as *there is nothing there*. None of
+this is careless work; it is the ceiling the best possible study in this field still meets.
 
 
-The consequence is neither nihilism nor paralysis but **calibrated triangulation**: weight RCT,
-observational, Mendelian-randomization, dose-response and mechanism by fit-to-question, act on the
-best-warranted bet, and state confidence together with the ceiling that bounds it. One distortion runs
-consistently in a single direction -- the **streetlight effect**: the base is skewed toward what is
-cheap to measure, so absence of evidence keeps being read as evidence of absence. And one disclaimer
-outlasts every section below: this grades **coherence and source-fidelity, never validity**. It can be
-internally sound, faithful to every source it cites, and still be wrong about the world.
+The response is neither to despair nor to feign certainty, but to triangulate — to weigh
+trials, cohorts, genetic experiments, dose-response curves and biological mechanism by how
+well each fits the question, back the best-supported answer, and state the ceiling that bounds
+it. One bias tilts the whole field the same way: the **streetlight effect**, the pull toward
+whatever is easy to measure, which keeps absence of evidence being read as evidence of
+absence. And one caveat outlives every section below — this page grades how well the evidence
+coheres and how faithfully it is reported, never whether it is true. It can be sound on both
+counts and still be wrong about the world.
 
 ## The exposure is mismeasured
 
@@ -62,10 +67,10 @@ A third ceiling sits earlier still, in how the exposure is defined. Where within
 exceeds between-category variance, a food-category estimate describes no actual food -- it averages over
 a heterogeneous mix. PURE's carbohydrate-mortality signal was «unable to quantify separately the
 types of carbohydrate (refined vs whole grains)»
-[@dehghan2017, Discussion], so the harm attaches
+[@dehghan2017], so the harm attaches
 to a pool, not a food. When a category's
 effect actually lives in a sub-component, the label is a proxy: whole-grain benefit «may be related to
-its cereal fibre component» [@sacn2015, chunks 05, 09].
+its cereal fibre component» [@sacn2015].
 -> [[Is the Food Category Doing Any Work]]
 
 **Named gap -- the unblindable whole-diet / food matrix.** A whole food cannot be blinded the way a pill
@@ -104,7 +109,7 @@ discordance is a signal to check exposure-commensurability, never an automatic v
 **A U/J-shaped protective lower arm may be an artifact** -- reverse causation, sick-quitter bias (the
 referent enriched for people who quit the exposure once ill, so it «will bias drinking risk estimates
 downward, thereby magnifying the appearance of health benefits from low-level drinking»
-[@stockwell2016, Conclusions]), frailty
+[@stockwell2016]), frailty
 confounding, or unequal between-group precision. The rule: a protective or plateau arm must survive a
 referent-correction or a genetic/objective check before it is believed; a shape equally consistent with
 the causal and the artifact explanation has no diagnostic value.
@@ -129,7 +134,7 @@ Much of the evidence a recommendation rests on does not measure the outcome a pe
 measures a faster, commoner **marker** standing in for that outcome, or it measures the right outcome
 too early. GRADE files both under **indirectness** -- the general axis on which evidence drifts from the
 question actually being asked: a marker study is indirect, and so is one measuring the outcome at 3
-months rather than 12 [@grade, §5.2.3]. A **structural gap** compounds this:
+months rather than 12 [@grade]. A **structural gap** compounds this:
 diet-health effects unfold over decades, longer than most trials run, and the wiki holds no dedicated
 method-page for that *long latency* -- which is what forces reliance on surrogates and observational
 follow-up in the first place.
@@ -147,7 +152,7 @@ transmission is **route-specific**: a marker validated when moved one way is not
 another, because «some agents that decrease low density lipoprotein have been shown to reduce the risk
 of coronary heart disease, while others have no clear effect, and still others might actually increase
 risk.»
-[@ramsden2016, Why didn't lowering serum cholesterol translate to clinical improvement?]
+[@ramsden2016]
 *Which* marker actually transmits, per metric, is deferred to [[Metrics for Targeted Health Guidance]].
 
 Effects also **leak** below the mechanism. Even the effect a mechanism predicts in isolation diverges
@@ -174,7 +179,7 @@ body-of-evidence defect, not a single-study one -- each published paper can be i
 Selection does not only decide *whether* an effect appears; it inflates the *magnitude*:
 «Efforts to replicate studies aimed at discerning the effect of an intervention in a study population
 may find a similar direction of effect, but a different (often smaller) size of effect.»
-[@nasem2019, FINDING 5-2] Treat a
+[@nasem2019] Treat a
 published original effect size as an over-estimate by default.
 
 Within a single study, analytic flexibility manufactures significance that carries no replicable signal:
@@ -187,7 +192,7 @@ A replication failure should be calibrated, not read as destroying a finding. Tw
 **Reproducibility** (same data and code recompute) is *expected* given transparency; **replicability**
 (a fresh study, new data) is not -- «even when a study was rigorously conducted according to best
 practices, correctly analyzed, and transparently reported, it may fail to be replicated».
-[@nasem2019, FINDING 3-1]
+[@nasem2019]
 
 So non-replication is not prima facie a defect: NASEM splits its causes into inherent variability (helpful,
 advances science) versus avoidable defects (publication bias, p-hacking, error), and a failed
@@ -195,7 +200,7 @@ replication is uninformative until you know which kind produced it
 [@nasem2019]. Hence the symmetric
 decision rule: «no one should take a new, single contrary study as refutation of scientific conclusions
 supported by multiple lines of previous evidence.»
-[@nasem2019, RECOMMENDATION 7-3]
+[@nasem2019]
 -> [[Reproducibility vs Replicability]], [[Sources of Non-Replicability]]
 
 **So what for confidence.** A finding's probability of being true is a property of the *field's
@@ -223,7 +228,7 @@ point estimate is not enough to conclude no-effect -- you must be *confident* of
 could we realistically expect to have seen the evidence by now? Absence of evidence carries information
 only relative to what the claim predicts you would see; silence from an unstudied, unobservable, or
 unsearched question is not a null, and such a hypothesis is unproven, not disproved -- kept alive until
-it can actually be ruled out [@heuer, Ch. 8].
+it can actually be ruled out [@heuer].
 
 **This is where the streetlight effect bites hardest.** The evidence base is systematically skewed
 toward the cheap-to-measure -- short-term surrogates, single nutrients, blindable isolates -- because
@@ -238,12 +243,12 @@ worst.
 **And weight of evidence is not a vote-count.** Baconian weight tracks how *completely* the relevant
 matters have been covered, and testing must be *variative*, not repetitive -- rerunning the same test
 adds no weight, a different-method route does; there is no natural arithmetic unit
-[@anderson, Ch. 9]. Forty studies sharing one instrument and one
+[@anderson]. Forty studies sharing one instrument and one
 confounding structure are not forty independent tests.
 
 **So what.** A named gap is a decision-input, not a dead end. GRADE keeps the empty row precisely
 because «an empty row in an evidence profile can be informative in that it identifies research gaps»
-[@grade, §3.4]. Reporting *we don't know* licenses a different action than *it
+[@grade]. Reporting *we don't know* licenses a different action than *it
 doesn't work* -- the first leaves the question open under the expectancy test; the second forecloses it.
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
@@ -255,9 +260,9 @@ from inside. This body of judgment cannot grade itself against realized outcomes
 scores a claim against what actually happened to a person. Some knowledge projects bump up against
 reality directly and a wrong contribution fails a real-world test; a body of *claims about* the world
 cannot, so it checks itself against the published literature instead
-[@fallis, §4a]. That is real quality control, but it is
+[@fallis]. That is real quality control, but it is
 coherence and source-fidelity, never validity -- the inclusion bar is verifiability, not truth
-[@wikipediaverifiability, note a]. A clean audit certifies that a recommendation is
+[@wikipediaverifiability]. A clean audit certifies that a recommendation is
 faithful to its sources; it never certifies that the recommendation was right. The loop is open, and
 stays open.
 
@@ -279,18 +284,18 @@ cannot fix a point optimum, but it can pin the frame around one:
   usually doing the work. -> [[The Comparator Problem]]
 - **Certainty is not strength.** How good the evidence is and how strongly to recommend acting are two
   separate judgments, neither fixing the other; a weak recommendation can mean values vary, not that
-  evidence is thin [@grade, §1.2].
+  evidence is thin [@grade].
   -> [[Certainty of Evidence vs Strength of Recommendation]], [[Rating Certainty of Evidence]]
 - **Quality is fit-to-question, not pedigree** -- correspondence between a study's methods and the
-  inference wanted, not a rank [@cooper, ch.5]. And a
+  inference wanted, not a rank [@cooper]. And a
   pattern induced *across* studies is associational and hypothesis-generating, never causal
-  [@cooper, ch.2].
+  [@cooper].
 - **Transport by support factors, not demographics.** *It worked there* is not *it will work here*:
   check that the support factors the mechanism needs are present here -- the whole causal cake, not a
-  matching population [@cartwright, ch.II.A].
+  matching population [@cartwright].
   -> [[Will It Work Here (Effectiveness and the Causal Cake)]]
 - **The last mile is reflection-in-action.** Where theory underdetermines the case, the practitioner
-  frames it and lets the situation talk back [@schn, ch.5] --
+  frames it and lets the situation talk back [@schn] --
   but that conversation reads coherence and congruence, again not validity.
   -> [[Technical Rationality vs Reflection-in-Action (the Epistemology of Practice)]]
 - **A parameter is not a decision.** Closing the estimate-to-action gap is a determinate set of steps --

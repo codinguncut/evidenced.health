@@ -9,37 +9,32 @@ updated: 2026-08-10
 self_critiqued: 2026-08-10
 ---
 
-For most non-pregnant adults, coffee within about three to four cups a day is a low-cost habit more
-likely to help than harm, with no strong health reason to start, increase, or quit. The umbrella review
-this rests on reaches exactly that: coffee is «generally safe within usual levels of intake, with summary
-estimates indicating largest risk reduction for various health outcomes at three to four cups a day, and
-more likely to benefit health than harm» [@poole2017].
+For most non-pregnant adults, three to four cups of coffee a day is an inexpensive habit more
+likely to help than harm — and no reason to take it up, drink more, or give it up on health
+grounds. For overall health the benefit settles around three or four cups and flattens beyond,
+with no harm within the range studied, so the exact number rarely carries a decision — the one
+exception being type 2 diabetes, where the risk keeps easing with each additional cup.
 
-The certainty floor governs how to read everything that follows. Almost all of this evidence is
-observational, GRADE-rated low or very low [@poole2017],
-and the two Mendelian-randomization studies — a genetic natural experiment immune to reverse causation —
-find no causal signal for the mortality or the diabetes benefit [@poole2017].
-So the confidence is medium that coffee is roughly safe and neutral within usual intake — the appraisal
-this cut delivers — and very low for any *specific* causal benefit: read each risk ratio below as an
-association net of residual confounding, not a proven effect.
 
-The dose-response has a flat nadir: risk falls to a floor around three to four cups, and beyond that the
-benefit merely attenuates, with no harm signal within studied intakes for mortality
-[@poole2017]. The nadir is a region, not a target — two
-cups versus four barely differ, so the exact cup count carries no decision.
+The harder question is how far to trust any of this. Almost all of the evidence is
+observational — people who already drink coffee compared with people who don't — which GRADE
+rates low to very low, and the two genetic studies able to test cause find no causal signal
+behind either the longevity or the diabetes benefit. So the confidence is medium that coffee
+is roughly safe and neutral at ordinary intakes, and very low for any particular benefit you
+might be counting on. Read every risk figure further down as an association shadowed by
+confounding, not a proven effect.
 
-Three places do change a decision, and they are deferred to the end rather than the headline: pregnancy or
-trying to conceive; high-LDL or established-ASCVD-risk drinkers of large volumes of unfiltered coffee; and
-women at high fracture risk with low calcium. Separately, liver disease is the one benefit large enough to
-clear GRADE's rating-up bar and the best candidate for a future trial — the strongest candidate, not yet a
-recommendation [@poole2017].
+A few people are exceptions, and they are handled at the end rather than the top: pregnancy or
+trying to conceive; heavy drinkers of unfiltered coffee who already carry high cholesterol or
+cardiovascular risk; and women at high fracture risk with low calcium. One benefit — for the
+liver — is strong enough to stand out and would make the best candidate for a proper trial,
+though it remains a candidate, not advice.
 
-Reporting that the lever is small and uncertain is itself the result: it releases attention, money, and
-anxiety rather than calling for action.
-
-This is a general appraisal for anyone the evidence speaks to; your own stratum and goals belong at the
-end, not here. And every number that follows is an association, not a proven effect — so start with how
-much to believe them.
+That the lever is small and the evidence thin is itself the finding: it is permission to stop
+worrying about coffee and to spend attention, money and worry where they matter more. This is
+a general appraisal for anyone the evidence speaks to; where your own situation and goals come
+in belongs at the end, not here — and every number that follows is an association, so begin
+with how much to believe it.
 
 ## The appraisal floor: how much to believe it
 

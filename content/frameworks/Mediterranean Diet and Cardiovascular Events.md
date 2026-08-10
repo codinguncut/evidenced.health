@@ -194,7 +194,7 @@ either is used:
 
 - **Dinu:** across 3 RCT meta-analyses «no association was reported for LDL-cholesterol levels» — but
   explicitly «when compared to control diets» (total cholesterol lowered and HDL raised in the *same*
-  comparison). [@dinu2018, Table 2]
+  comparison). [@dinu2018]
 - **Ge:** among moderate-certainty diets vs *usual diet*, «the Mediterranean diet proved the most
   effective popular named diet for LDL cholesterol reduction» and was the *only* named diet with «a
   statistically significant difference compared with usual diet in LDL cholesterol reduction».

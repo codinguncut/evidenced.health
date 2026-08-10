@@ -42,7 +42,7 @@ measures to the construct (direct vs indirect measurement)**; and the **a priori
 hypothesis**. The organizing axes are **complexity × controllability** — an indirectly-measured,
 low-control, complex system (human behaviour; nutrition) is the most replication-prone-to-fail even
 when *no one errs*.
-[@nasem2019, Fig 5-2]
+[@nasem2019]
 
 The last two factors map straight onto held machinery: fidelity-of-measure is [[Surrogate Outcomes]]
 + [[Measurement Error in Dietary Assessment]]; a priori plausibility is why a surprising result

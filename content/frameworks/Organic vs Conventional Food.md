@@ -55,7 +55,7 @@ not a label effect**. The hard-outcome case is the weakest link and is heavily c
 Baranski (meta-analyses over 343
 publications) found "the frequency of occurrence of pesticide residues was found to be four times higher
 in conventional crops, which also contained significantly higher concentrations of the toxic metal Cd."
-[@baranski2014, Abstract]
+[@baranski2014]
 The cadmium point estimate is "The on average 48 % lower Cd concentrations found in organic crops" —
 but the weighted percentage-difference CI on Cd was wide (−48%, 95% CI −112, 16), so the *significant*
 Cd difference rests on the standardized-mean-difference analysis, not the percentage metric.
@@ -80,7 +80,7 @@ Baranski found antioxidants/(poly)phenolics *substantially higher in organic*, w
 "an estimated 19 (95 % CI 5, 33) %, 69 (95 % CI 13, 125) %, 28 (95 % CI 12, 44) %, 26 (95 % CI 3, 48) %,
 50 (95 % CI 28, 72) % and 51 (95 % CI 17, 86) % higher, respectively" (phenolic acids, flavanones,
 stilbenes, flavones, flavonols, anthocyanins).
-[@baranski2014, Abstract]
+[@baranski2014]
 
 **But the SR that weighted outcomes and tested clinical significance found almost nothing.**
 Smith-Spangler: "The published literature lacks strong evidence that organic foods are significantly
@@ -92,7 +92,7 @@ reached significance, a difference the authors call not clinically significant.
 organic milk higher in alpha-tocopherol and Fe but **lower in iodine and selenium** — organic loses on
 two micronutrients. Uniformly favourable treatment would be a halo tell; the honest reading is a mixed,
 small-magnitude picture against total-diet intake.
-[@srednickatober2016milk, Abstract]
+[@srednickatober2016milk]
 
 ## Sub-question 3 — the cattle case: the label tracks the FEED, not the certificate
 
@@ -105,24 +105,24 @@ no significant differences in total SFA and MUFA concentrations between organic 
 n-3 PUFA were higher in organic «by an estimated 7 (95 % CI −1, 15) %» for total PUFA and 56% (CI 38,
 74) for n-3 PUFA; alpha-linolenic acid +69% (CI 53, 84), very-long-chain n-3 (EPA+DPA+DHA) +57% (CI 27,
 87), conjugated linoleic acid +41% (CI 14, 68).
-[@srednickatober2016milk, Abstract]
+[@srednickatober2016milk]
 
 **Meat** (Srednicka-Tober, 67 studies): SFA "similar",
 MUFA "slightly lower" in organic; total PUFA and "n-3 PUFA, which were an estimated 23 (95 % CI 11, 35) %
 and 47 (95 % CI 10, 84) % higher in organic meat, respectively." Heterogeneity was high and "could be
 explained by differences between animal species/meat types" — the boundary is doing little work across
 species.
-[@srednickatober2016meat, Abstract]
+[@srednickatober2016meat]
 
 **Both meta-analyses attribute the difference to feed, not certification — stated in their own voice:**
 
 - Milk: "Redundancy analysis of data from a large cross-European milk quality survey indicates that the
   higher grazing/conserved forage intakes in organic systems were the main reason for milk composition
   differences."
-  [@srednickatober2016milk, Abstract]
+  [@srednickatober2016milk]
 - Meat: "Evidence from controlled experimental studies indicates that the high grazing/forage-based diets
   prescribed under organic farming standards may be the main reason for differences in FA profiles."
-  [@srednickatober2016meat, Abstract]
+  [@srednickatober2016meat]
 
 **Consequence for the decision.** The causal lever is **grass vs grain**, and organic certification only
 *correlates* with pasture (it mandates outdoor access but not a forage-dominated diet). A
@@ -147,7 +147,7 @@ it vivid. Higher organic score tracked higher income, postsecondary education, m
 and former (not current) smoking; the diet-quality score rose (mPNNS-GS 7.41 -> 8.19 across Q1->Q4), BMI
 fell (24.46 -> 22.92), fibre rose (17.9 -> 22.6 g/d) and processed meat (23.7 -> 15.1 g/d) and red meat
 (48.7 -> 31.4 g/d) fell.
-[@baudry2018, Table 1]
+[@baudry2018]
 **Organic buyers differ from non-buyers on nearly every established cancer risk factor at once** — the
 exposure is a marker of overall diet quality and socioeconomic position, both of which predict the
 outcome independently. The authors say so: "Multiple studies have reported a strong positive association

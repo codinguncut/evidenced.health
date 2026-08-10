@@ -87,12 +87,10 @@ Recchia's own reading, all discussion-level and marked as such:
   weight loss» [@recchia2023]. A
   prior MA (Verheggen 2016, reported by Recchia — not Recchia's own data) is the vivid version: «In the
   absence of weight loss, exercise produced a 6.1% reduction in visceral fat, whereas hypocaloric diets
-  showed essentially no change» [@recchia2023, 
-  , citing Verheggen]. This means the visceral advantage of exercise does **not** run through the
+  showed essentially no change» [@recchia2023]. This means the visceral advantage of exercise does **not** run through the
   scale — the depot moves even when body weight barely does.
 - **Metabolic adaptation blunts diet.** «strong metabolic adaptations might mitigate the effect of caloric
-  restriction on visceral fat» [@recchia2023, 
-] — connecting to the defended-set-point picture on
+  restriction on visceral fat» [@recchia2023] — connecting to the defended-set-point picture on
   [[Weight-Loss Maintenance and Metabolic Adaptation]].
 - **Verdict, appropriately hedged.** «Our results suggest that exercise might be more suit­able than
   caloric restriction for visceral fat loss in overweight and obese individuals»

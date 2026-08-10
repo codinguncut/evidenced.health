@@ -128,7 +128,7 @@ soybean, corn), nuts, seeds and oily fish — is a genuine robust lever — its 
 risk, sex and duration, so the metabolically healthy benefit as much as the high-risk, and no subgroup
 claim is needed [@hooper2020].
 But it is **small**: the only hard outcome that clears no-effect is cardiovascular *events* — **15
-fewer per 1000** (RR 0.83, Moderate) — while all-cause mortality is null (RR 0.96, Moderate) [@who2023saturated, Annex 6]. In person-terms that is a number-needed-to-
+fewer per 1000** (RR 0.83, Moderate) — while all-cause mortality is null (RR 0.96, Moderate) [@who2023saturated]. In person-terms that is a number-needed-to-
 treat of about **56 over four years** [@hooper2020].
 
 Two rules keep it honest: the *replacement* sets the sign (SFA-to-PUFA helps;
@@ -190,7 +190,7 @@ harm and contraindication: LDL tends to rise (\~0.14 mmol/L at 12 months), and t
 for people with lipid disorders and atherogenic-lipoprotein hyper-response — for the metabolically
 healthy it is largely needless. No mainstream body positively recommends any macronutrient-defined diet;
 NICE will positively recommend only an *energy*-defined one (total diet replacement, 800-1200 kcal, up
-to 12 weeks, within a support service) [@nice, 1.1.10].
+to 12 weeks, within a support service) [@nice].
 
 ## (c) Over-published, small, or contested — do not lead
 
@@ -198,7 +198,7 @@ to 12 weeks, within a support service) [@nice, 1.1.10].
 
 The famous 10%-of-energy limit is, on the evidence, a **dental** recommendation; on
 body weight the effect is an *energy* effect, not a sugar-specific one — swapping free sugars for other
-carbohydrate at equal calories moves weight by **0.04 kg** (null) [@who2015, Summary of evidence]. The real cardiometabolic value of cutting sugar for this stratum is removing
+carbohydrate at equal calories moves weight by **0.04 kg** (null) [@who2015]. The real cardiometabolic value of cutting sugar for this stratum is removing
 liquid calories (sugar-sweetened beverages), which belongs to the energy-down big rock above — not to
 hitting a sugar percentage.
 
@@ -262,7 +262,7 @@ wisdom.
 - **Rate of weight loss and the maintenance phase are under-specified.** The one held guideline deleted
   a specific deficit number as arbitrary (maintain a deficit, do not hit a rate) and rests its
   rapid-regain caution on *unmeasured* weight-cycling harm — a measured rate/maintenance-outcome trial
-  is the acquirable gap [@nice, 1.1.10].
+  is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
 ## Caveats

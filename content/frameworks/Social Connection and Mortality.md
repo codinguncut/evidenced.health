@@ -74,7 +74,7 @@ Random-effects (fixed-effects for cancer). All from fully-adjusted original effe
 | **Cancer mortality** | **1.22 (1.18, 1.27)**, I2 42.8%, 13 | 1.09 (1.01, 1.17), I2 0.0%, 3 |
 | Co-existing SI+loneliness (all-cause) | 1.18 (1.05, 1.32), I2 79.2%, 5 | (same pooled row) |
 
-All pooled figures above [@wang2023isolation, Figs 2-4 + abstract]; the prior 2015 MA (Holt-Lunstad) gave SI 1.29, loneliness 1.26 for all-cause — this update pools more cohorts on fully-adjusted effects.
+All pooled figures above [@wang2023isolation]; the prior 2015 MA (Holt-Lunstad) gave SI 1.29, loneliness 1.26 for all-cause — this update pools more cohorts on fully-adjusted effects.
 
 - **All studied here are RELATIVE hazards; Wang reports no absolute risks.** A 32% higher all-cause
   hazard is a *large* effect only where baseline mortality is high — absolute benefit of restoring

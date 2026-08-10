@@ -31,7 +31,7 @@ Outcomes people care about are often rare or slow, so investigators measure some
 commoner instead — a marker standing in for the outcome. Substitution generally costs certainty, and
 GRADE **restricts its use** rather than merely asking that it be recorded: surrogates are for cases
 where evidence on population-important outcomes is lacking.
-[@grade, §3.4]
+[@grade]
 
 ## The rule
 
@@ -46,7 +46,7 @@ GRADE's conditions, stated tightly:
 - Substituting "may ultimately lead to rating down the quality of the evidence because of the
   indirectness"; §5.2.3 puts it more firmly — "in general, the use of a surrogate outcome requires
   rating down ... by one, or even two, levels."
-  [@grade, §3.4, §5.2.3]
+  [@grade]
 
 ## How GRADE grades a surrogate — causal-pathway proximity
 
@@ -59,7 +59,7 @@ patient-important outcome.
 - **Close to the endpoint -> rate down one level.** Coronary artery calcification for myocardial
   infarction; bone mineral density for fractures; soft-tissue calcification for pain.
 - The judgment draws on "consideration of the biology, mechanism, and natural history of the
-  disease." [@grade, §5.2.3]
+  disease." [@grade]
 
 So a marker's standing is not binary. *How far down the chain* it sits is the question, and it is
 answered biologically rather than statistically.
@@ -76,7 +76,7 @@ a **validation** criterion, addressing whether the surrogate *predicts* the outc
 > overall survival using progression-free survival remained uncertain**. Rating down quality by one
 > level for indirectness would be appropriate in this situation."*
 
-[@grade, §5.2.3, Example 9]
+[@grade]
 
 **This is the criterion that does the work the proximity rule cannot.** A significant marker-outcome
 association was *not* sufficient — what GRADE asks is whether the outcome can be **predicted** from the
@@ -263,7 +263,7 @@ reasons: while LDL "is a well-established biomarker for measuring the effects of
 considered by many to be a causal factor for atherosclerosis and coronary heart disease, **it is not
 a physical manifestation or confirmation of disease. Therefore, a conservative approach was taken,
 leading to a conditional recommendation.**"
-[@who2023saturated, Rationale for TFA recommendation 3]
+[@who2023saturated]
 
 Two things worth carrying:
 
@@ -274,7 +274,7 @@ Two things worth carrying:
   as a *critical* outcome and states it *"was not downgraded for indirectness when determining the
   certainty in the evidence within the GRADE framework"*. The surrogate discount was taken at the
   **strength** step instead.
-  [@who2023saturated, Annex 6 footnotes; Summary of evidence]
+  [@who2023saturated]
   - **WHO's warrant is the MARKER-to-OUTCOME link, not the exposure-to-marker one**, and the direction
     matters because it is what criterion 2 above asks for. Annex 6 fn 14: *"LDL cholesterol is an
     indirect measure of patient-important CVD outcomes. However, LDL cholesterol is a well-established
@@ -307,7 +307,7 @@ A scoped observation, worth carrying because it is visible only in the annex. In
 for replacing SFA with PUFA, **every disease outcome is rated Low or Very low, and the one High-certainty
 row in the profile is LDL cholesterol** (-0.055 mmol/L per 1% energy exchange; all-cause mortality Low,
 CVD mortality Very low, CVDs Low, CHD Low, stroke Low, type 2 diabetes Very low).
-[@who2023saturated, Annex 6, evidence profile 5]
+[@who2023saturated]
 
 **The disciplined reading, and the trap beside it.** The useful habit is to *ask which outcome carried a
 headline certainty label*. The trap is to answer that question from the profile alone: WHO states
@@ -316,7 +316,7 @@ moderate rating for the PUFA replacement from an RCT subgroup analysis (Hooper) 
 profile. A first attempt at this page's neighbourhood asserted the surrogate had silently carried the
 roll-up; **a blind critique falsified it against that sentence, and the claim is withdrawn.** What
 survives is the observation above and the habit -- not an allegation.
-[@who2023saturated, Summary of evidence]
+[@who2023saturated]
 
 **The contrast case — where surrogate and hard outcome AGREE.** The SFA profile above shows surrogate
 and outcome *diverging in certainty* (LDL High, every disease outcome Low). The opposite configuration
@@ -467,7 +467,7 @@ WHO's SFA Annex 6 grades every outcome for one exposure. **The ordering is the f
 | CVD / CHD mortality, type 2 diabetes | Low |
 | Stroke, CHD events | Very low |
 
-[@who2023saturated, Annex 6, pp.79-80]
+[@who2023saturated]
 
 **The best-known quantity is the one nobody cares about directly**, and the outcomes a person would
 actually choose on are known least well. **This is not a defect in WHO's grading** — it reflects that
@@ -606,7 +606,7 @@ averted is not an all-cause death averted. -> [[Rating Outcome Importance]]
 
 A striking worked refutation of a surrogate — and a rare one, because it lands on GRADE's *own named
 example*. This page's proximity rule (above) lists **«bone mineral density for fractures»** as a surrogate
-*close* to the endpoint — rate down only **one** level [@grade, §5.2.3]. Testosterone
+*close* to the endpoint — rate down only **one** level [@grade]. Testosterone
 therapy is the case where that proximate, credentialed surrogate moved the intended way while the
 patient-important outcome moved the **opposite** way.
 
@@ -697,7 +697,7 @@ markers (CRP, IL-6, TNF-alpha) as the surrogate for the pathway. A systematic re
 feeding LA does **not** raise those markers: *«virtually no evidence is available from randomized,
 controlled intervention studies among healthy, noninfant human beings to show that addition of LA to the
 diet increases the concentration of inflammatory markers»*
-[@johnson2012, Discussion/Abstract].
+[@johnson2012].
 
 **The asymmetry of a surrogate null — what it does and does not license [inferred from @johnson2012]:**
 
@@ -725,12 +725,12 @@ EFSA 2022 assigns *causal-relationship certainty* to chronic-disease outcomes fo
 (> 15-50% probability) and very low for hypertension (0-15% probability)» — but names the endpoints the
 RCTs actually measured: «based on data from RCTs which investigated the effect of 'high' vs. 'low' sugar
 intake on **surrogate disease endpoints, i.e. body weight, liver fat, fasting glucose, fasting
-triglycerides and SBP**.» [@efsasugars2022, Summary] So the certainty in the *disease* relationship is transmitted through a
+triglycerides and SBP**.» [@efsasugars2022] So the certainty in the *disease* relationship is transmitted through a
 surrogate — EFSA is transparent about the step, exactly this page's discipline.
 
 **The within-source contrast is the sharp part.** In the *same* opinion, EFSA grades **SSBs** «high for
 obesity, T2DM, HTN and CVD (> 75-100% probability)» — and those come from prospective cohorts on actual
-disease *incidence*, not surrogates. [@efsasugars2022, §12.2] So inside one document, the incidence-graded exposure (SSBs)
+disease *incidence*, not surrogates. [@efsasugars2022] So inside one document, the incidence-graded exposure (SSBs)
 outscores the surrogate-graded one (added/free sugars %E) on the same diseases. That is the certainty-
 follows-measurability gradient (above) seen *within a single body's own assessment*, not just across two
 guidelines — and it is not fully clean, because SSBs are also the additive-energy vehicle, so design and
@@ -750,9 +750,9 @@ related move in the intended direction — yet «Kaplan Meier graphs showed no m
 intervention group in the full randomized cohort or for any prespecified subgroup», and the 5-trial
 meta-analysis found «no evidence of benefit on mortality from coronary heart disease (1.13, 0.83 to 1.54)
 or all cause mortality (1.07, 0.90 to 1.27).»
-[@ramsden2016, Results; Fig 7] Ramsden's summary:
+[@ramsden2016] Ramsden's summary:
 LA replacement «effectively lowers serum cholesterol but does not support the hypothesis that this
-translates to a lower risk of death.» [@ramsden2016, Conclusions]
+translates to a lower risk of death.» [@ramsden2016]
 
 **Two grades of disconnect, kept distinct (symmetric standards).**
 
@@ -777,7 +777,7 @@ a statin) did **not** reduce events, and Ramsden's proposed reason is exactly an
 «a decrease in low density lipoprotein can represent widely different biochemical phenomena», so «some
 agents that decrease low density lipoprotein have been shown to reduce the risk of coronary heart disease,
 while others have no clear effect, and still others might actually increase risk.»
-[@ramsden2016, Why didn't lowering serum cholesterol translate to clinical improvement?]
+[@ramsden2016]
 **The decision-relevant generalisation: a surrogate validated for one *route* of movement is not
 validated for every route** — validate the marker->outcome transmission *for the agent you are actually
 using*, not for the marker in the abstract. This is the same discipline ESC's «irrespective of the drug»
@@ -791,7 +791,7 @@ WRONG way, randomized.** MCE's randomized outcome was a *null*; the companion SD
 cholesterol -13.3% v -5.5%, P<0.001**) yet the **randomized ITT mortality go up**: all-cause HR 1.62
 (1.00-2.64), CVD 1.70, CHD 1.74 — and those cholesterol «reductions were not associated with
 mortality outcomes».
-[@ramsden2013, Cumulative death rates; Reconciling results]
+[@ramsden2013]
 So SDHS is not just a marker that failed to
 transmit (MCE) but a marker that moved the "right" way while the endpoint moved the *opposite* way — a
 sharper grade of surrogate invalidation than MCE's null (an adverse divergence, not merely an absent

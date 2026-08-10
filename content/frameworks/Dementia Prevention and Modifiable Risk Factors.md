@@ -142,7 +142,7 @@ on top of those factors would double-count.
   cohort-only; and (ii) **dementia is internally discordant** — Cao 2015 grades it Convincing (RR 0.69)
   while Wu 2017 grades the same outcome *No evidence* (RR 1.07). So "convincing" here is design- and
   MA-selection-dependent, consistent with a `moderate`-at-most read.
-  [@dinu2018, Table 1]
+  [@dinu2018]
 
 The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PREDIMED, stroke-driven, at
 high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
@@ -163,7 +163,7 @@ the **direction** (acting on the levers *as a bundle* improves cognition) at RCT
 | Endpoint | dementia **incidence** (modelled PAF **45.3%**) | NTB cognitive **composite** Z-score (surrogate) | NO |
 | Magnitude | \~45% population-attributable | between-group **0.022/yr, Cohen's d 0.13**; incidence NOT measured | NO |
 
-[@ngandu2015, Livingston - Dementia Prevention 2024]
+[@ngandu2015]
 
 **What the RCT does and does not buy the PAF [inferred from @ngandu2015; @livingston2024]:** (i) it raises confidence that the *aggregate* causal
 assumption is sound — intervening on the bundle really moves cognition; (ii) but it **cannot validate the

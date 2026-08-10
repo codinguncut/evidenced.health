@@ -30,26 +30,26 @@ studies can report "the effect of saturated fat" and mean different comparisons.
 Three reasons, per Willett: energy intake may itself cause disease; individual differences in total
 energy produce variation in every nutrient unrelated to dietary *composition*; and where energy is
 associated with disease **but is not a direct cause**, it confounds specific nutrients.
-[@willett, Ch 11, Abstract]
+[@willett]
 
 The driver is that **essentially every nutrient correlates with total energy**, including ones that
 supply none: "the correlation with energy was 0.36 for fiber, 0.45 for vitamin A, and 0.34 for
 vitamin C... This tendency for all nutrients, even minerals and vitamins, to be correlated with total
 energy intake results from the tendency of larger, more active, and less metabolically efficient
 persons to eat more food in general."
-[@willett, Ch 11, Relation of Energy Intake with Specific Nutrient Intake]
+[@willett]
 
 And energy intake is mostly *not* a dietary choice: between-person differences are largely body size,
 physical activity and metabolic efficiency — so much so that "in most instances total energy intake
 can be interpreted as a crude measure of physical activity, particularly after controlling for body
 size, age, and gender."
-[@willett, Ch 11, Determinants of Between-Person Variation]
+[@willett]
 
 **Why composition is therefore the exposure:** "even relatively small changes in caloric intake
 cannot be made unless changes in weight or physical activity also occur. In the absence of such
 alterations, therefore, most changes in nutrient intake must be accomplished by changing the
 composition of the diet rather than the total amount of food."
-[@willett, Ch 11, Adjustment for Energy Intake]
+[@willett]
 
 ## The models, and the comparison each implies
 
@@ -72,7 +72,7 @@ The load-bearing quotes:
 - Two-nutrient models: "The effect of fat would then be interpreted as the effect of substituting the
   specific number of calories from fat... for the same number of calories... from carbohydrate (with
   the macronutrient not included in the model), with total energy held constant."
-  [@willett, Ch 11, Energy-Adjusted or Residual Method; The Energy Partition Method; More Complex Models]
+  [@willett]
 
 ## Failure modes
 
@@ -90,7 +90,7 @@ The load-bearing quotes:
   did not specifically compare saturated fat with another source of energy; in most countries, these
   other... calories would be predominately derived from refined grains and sugar **but would also
   include protein and other types of fat**."
-  [@willett, Ch 19 (p.436)]
+  [@willett]
 - **Heteroscedasticity manufacturing a shape.** Uncorrected, residuals at both extremes carry the
   highest energy intakes, which "would create a U-shaped relation between energy-adjusted intake
   (residuals) and disease risk" — a curve produced by the analysis, not the biology. Directly relevant
@@ -130,7 +130,7 @@ the two together rather than headlining only the cost.**
 
 > «The ratio of within-person to between-person variation is usually substantially greater when the
 > nutrient is expressed in relation to energy intake (energy-adjusted).»
-> [@willett, abstract]
+> [@willett]
 
 **Why this matters here:** the within-to-between variance ratio is what sets how many days of dietary
 measurement are needed to place a person correctly. **Raising it means the same data support a weaker
@@ -146,7 +146,7 @@ cholesterol (2.61 -> 2.55). The full table sits on
 **And Willett records the benefit running the other way, in the same book.** By holding diet composition
 within a narrow energy range, energy adjustment «can also reduce measurement error, sometimes
 substantially» — it cancels the correlated component of error that total energy induces across nutrients.
-[@willett, ch.11 p.278] So the *net* effect on
+[@willett] So the *net* effect on
 measurement error is **not one-signed**: the within-to-between ratio can rise (weakening the
 individual-level estimate) while correlated-error cancellation can improve validity. Willett holds both;
 reading only the variance-ratio cost is the one-sided error.

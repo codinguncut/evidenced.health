@@ -39,7 +39,7 @@ Error is random or systematic, within-person or between-person. The consequentia
 - **Differential** (differs between cases and non-cases) — "**Systematic differences in measurement
   error between these two groups... have serious consequences that are usually not amenable to
   correction.** This... is the reason that typical case-control studies are treacherous."
-  [@willett, Ch 12, Types of Errors]
+  [@willett]
 
 Also: systematic errors affecting *everyone equally* do not bias measures of association at all.
 
@@ -58,7 +58,7 @@ Table 12-3:
 gamma 0.2-1.0 against true RR 1.5/2.0/3.0/**5.0**; the subset above is faithful. Two things the subset
 loses: at gamma=0.2 a true RR of 5.0 still observes as only **1.38**, and Willett notes **gamma can
 exceed 1.0** -- "this can also result simply from a change in units" -- so it is not a bounded validity
-score. [@willett, Table 12-3 + following paragraph]
+score. [@willett]
 
 His read: "There is no obvious threshold of γ below which a measure of exposure is useless; however,
 for true relative risks of 1.5 or 2.0, epidemiologic effects are difficult to detect if γ is
@@ -66,7 +66,7 @@ substantially less than 0.5." **And the sentence immediately after bounds any us
 credibility threshold:** *"It will be apparent that the value of γ does not readily provide a
 generally interpretable measure of validity."* γ is scale-dependent, so *is γ reported?* is a
 disclosure test, not a pass/fail bar.
-[@willett, Ch 12, Correction of Relative Risks]
+[@willett]
 
 **This is the bridge to any credibility threshold.** A true RR of 2.0 measured at γ=0.3 shows up as
 1.23. So a rule that dismisses observed relative risks below \~1.2 as within confounding range will
@@ -88,7 +88,7 @@ subgroups of men in the Multi-Ethnic Cohort.
 - **Was energy handled?** Failing to measure total energy can hide a real effect entirely: a
   saturated-fat/CHD study could find "an inverse or no association... even if high saturated fat
   composition of the diet truly caused coronary disease."
-  [@willett, Ch 11, Summary]
+  [@willett]
 - **Was correction applied to confounders too?** Error in covariates "can distort relative risk
   estimates in any direction" — and in Willett's Framingham example, correcting covariate error made
   an apparently significant BMI-CHD association *non*-significant.
@@ -98,7 +98,7 @@ subgroups of men in the Multi-Ethnic Cohort.
 Correcting for measurement error **cannot manufacture an effect from a null, but can substantially
 strengthen a real one.** In Willett's worked table, an observed RR of 1.00 corrects to 1.00 with only
 a wider interval; an observed 1.50 corrects to 2.38.
-[@willett, Ch 12, Table 12-2]
+[@willett]
 
 So **measurement error explains this null** and **measurement error explains this positive finding**
 are **not symmetric claims**. The first is often plausible; the second requires differential error,
@@ -127,7 +127,7 @@ of direct interest", the analytic goal is usually to *remove* energy variation, 
 appears roughly composition-neutral — several studies found no relation between under-reporting and
 energy-adjusted macronutrient shares. "Moreover, systematic biases do not hinder the capacity to find
 important associations."
-[@willett, Ch 11, Implications for Food-Frequency Questionnaire Data]
+[@willett]
 
 Recorded as his position, not as settled: this is the field's founder defending the field's core
 instrument, and the corpus holds no independent appraisal of the claim yet. `AWAITS` a source not
@@ -138,7 +138,7 @@ authored by a principal of the method.
 - "Each method requires assumptions that are rarely perfectly satisfied." **His conclusion from that
   is not to abstain:** *"Despite these limitations, careful use of these adjustment procedures will
   provide better estimates... than analyses that ignore the effects of measurement error altogether."*
-  [@willett, Ch 12, Summary]
+  [@willett]
 - **The corrected-value (regression-calibration) method** does nothing for rank-based analyses:
   relative risks by quintile *"are not affected **by this method** because the relative rankings of
   individuals are unchanged"*. Not a limit on correction generally — Willett points to a separate
@@ -250,7 +250,7 @@ the qualifier, which is his and matters:
 > expressed in relation to energy intake (energy-adjusted). Measurements of dietary intake based on a
 > single or small number of 24-hour recalls per subject can provide an accurate estimate of the mean
 > for a group, but the standard deviation will be greatly overestimated.»
-> [@willett, abstract]
+> [@willett]
 
 **Read the two halves separately, because they fail in opposite directions.** A few-day assessment
 gets the **group mean** approximately right and the **spread** badly wrong — inflated, because the
@@ -305,7 +305,7 @@ Within- and between-person coefficients of variation, 194 women, unadjusted and 
 | Cholesterol | 62.2 | 23.8 | **2.61** | 61.5 | 24.1 | **2.55** |
 | Carbohydrate | 29.9 | 26.5 | **1.13** | 18.7 | 13.5 | **1.39** |
 
-[@willett, Table 3-6 — CVs are Willett's; the ratio column is computed here]
+[@willett]
 
 **Willett says the ratio is *usually* substantially greater when energy-adjusted. On his own table it
 rises for four of six nutrients and FALLS for protein (2.01 -> 1.79) and cholesterol (2.61 -> 2.55).**
@@ -333,7 +333,7 @@ And at the extreme, from food records:
 > «The extent of underreporting of total energy intake varied among individuals. Obese individuals
 > tended to underreport as much as 47% (Lichtman et al., 1992) and 53% (Lansky and Brownell, 1982),
 > substantially more than lean individuals ...»
-> [@willett, — the sentence continues into a citation list only; elision marked]
+> [@willett]
 
 **Why this is the dangerous kind of error and not just noise.** Non-differential error attenuates
 toward the null — it makes a real effect look smaller. **Error that varies with adiposity is
@@ -645,7 +645,7 @@ intuition motivating the whole exercise:
   are tightly regulated», while 25(OH)D serves. **Regulation is the enemy of a biomarker of intake** —
   and the converse holds, which is why blood carotenoids work: they «are not closely regulated by
   homeostatic mechanisms».
-  [@willett, chunks 10-11]
+  [@willett]
 
 **The generalisation worth carrying:** *a biomarker measures intake well exactly to the extent the body
 does not care about the quantity.* Anything physiologically important enough to be regulated is, for
@@ -661,7 +661,7 @@ score**, and the reported association (cancer HR Q4 vs Q1 = 0.75, 95% CI 0.63-0.
 error channels at once: the ordinary self-report error on the diet the score encodes, and a
 **healthy-user structure** in which the organic score is correlated with income, education, physical
 activity, non-smoking, lower BMI and a higher overall diet-quality score.
-[@baudry2018, Table 1]
+[@baudry2018]
 
 **The measurement point specific to this page:** even a large confounder-adjusted model cannot fully
 remove a confounder that is itself **measured with error**. This page's own rule — non-differential error

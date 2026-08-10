@@ -23,7 +23,7 @@ interested, and measures the outcomes important to patients." A departure from t
 "downgrade the quality rating by one or even two levels." Where it is not, quality "may not decrease"
 at all — the handbook gives several departures it judges immaterial. **One of the four is not a
 judgment at all** — see item 4.
-[@grade, §5.2.3]
+[@grade]
 
 ## The four sources
 
@@ -32,13 +32,13 @@ judgment at all** — see item 4.
    levels in general, though animal toxicity data "should engender caution" even where it does not
    reliably predict human toxicity. Other non-human evidence can still be high quality: laboratory
    evidence of bacterial resistance patterns may fully support choosing an antibiotic.
-   [@grade, §5.2.3]
+   [@grade]
 2. **Intervention.** The intervention differs, *or is delivered differently*. GRADE's case: music
    therapy trials testing structured approaches common in North America, whose results are
    correspondingly less applicable in Europe. And the instruction that generalizes it — panels should
    consider rating down "if the intervention cannot be implemented with the same rigor or technical
    sophistication in their setting as in the RCTs from which the data come."
-   [@grade, §5.2.3]
+   [@grade]
 3. **Outcome.** Two limbs, and the second is easy to forget. **Time frame** — *"The difference between
    desired and measured outcomes may relate to time frame (e.g. outcome measured at 3-months vs. at
    12-months)"*, which GRADE downgrades a level in its own worked case. And **surrogates**, introduced
@@ -52,7 +52,7 @@ judgment at all** — see item 4.
 ## Mechanism — directness is a property of the question, not of the study
 
 > "Directness is judged by the users of evidence tables, depending on the target population,
-> intervention, and outcomes of interest." [@grade, §5.2.3]
+> intervention, and outcomes of interest." [@grade]
 
 So the same study is direct for one question and indirect for another, and a systematic review's
 directness judgment need not match a guideline panel's — the review answers the question *it* asked.
@@ -63,7 +63,7 @@ stated question ([[Framing a Decision Question]]).
 The worked case for how large the penalty can get: high-quality antiviral trials in *seasonal*
 influenza were rated down **two levels** for avian influenza, because the panel judged the biology
 sufficiently different that the organism "may be far less responsive to antiviral agents."
-[@grade, §5.2.3]
+[@grade]
 
 ## Decision relevance
 

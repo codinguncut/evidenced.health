@@ -52,7 +52,7 @@ smoking estimate dilutes the seropositive signal) — see the closing synthesis.
   | 31 to 40 | 2.02 (1.44 to 2.82) |
   | >40 | 2.07 (1.15 to 3.73) |
 
-  [@digiuseppe2014smoking, Table 2]
+  [@digiuseppe2014smoking]
 
 - **population_and_comparator.** Adults; smokers by lifelong pack-year exposure vs never-smokers.
   Pooled from 3 prospective cohorts + 7 case-control studies (181,100 subjects, 4,552 RA cases).
@@ -62,7 +62,7 @@ smoking estimate dilutes the seropositive signal) — see the closing synthesis.
 - **dose_response_shape — a monotone rise to \~20 pack-years, then a PLATEAU at \~2x, held with
   uncertainty.** «increased risk of developing RA with increasing number of pack-years smoked up to 20
   pack-years, and then the relative risk stabilized approximately at the value of 2»
-  [@digiuseppe2014smoking, Results].
+  [@digiuseppe2014smoking].
   Three facts must travel with the plateau:
   - **Confidence interval:** the top category is imprecise — RR for >40 pack-years = 2.07 (1.15 to 3.73),
     a wide interval overlapping the 21-30 estimate (1.94, 1.65-2.27). The flattening is therefore partly
@@ -96,7 +96,7 @@ vault's other plateaus, and the difference is worth recording:
   plateau that *dissolved* into a smoking artifact (Grosso, on [[The U-Shaped Association Artifact]]),
   here the authors name a **saturation mechanism** for the flattening: «The ob- served non-linear shape
   of the dose-response associ- ation in this meta-analysis is compatible with this triggering mechanism»
-  [@digiuseppe2014smoking, Discussion]
+  [@digiuseppe2014smoking]
   — a *triggering* (threshold-then-saturate) immune process would plateau once the trigger is
   fully engaged.
 - **But this is compatibility, not proof**, and it does not overturn the prior: the top-arm CI is wide,
@@ -110,7 +110,7 @@ Smoking's relative effect is larger for seropositive RA. Highest-vs-lowest pack-
 RR «2.47 (95% CI 2.02 to 3.02; Pheterogeneity = 0.88), while it was 1.58 (95% CI 1.15 to 2.18,
 Pheterogeneity = 0.39) among RF-negative cases. These estimates were statistically significantly different
 (P-value 0.022)»
-[@digiuseppe2014smoking, Discussion].
+[@digiuseppe2014smoking].
 
 This is a genuine **route-(b)** finding, not the route-(a) arithmetic mirage: the *relative* effect (the
 ratio itself) differs across strata with a significant heterogeneity test — the thing route (b) requires
@@ -118,7 +118,7 @@ and route (a) cannot produce -> [[Baseline Risk and the Relative-Absolute Split]
 a gene-environment interaction: «smok- ing interacts with HLA-DR SE genes in triggering ... immunity
 against citrullinated proteins» and «RF-positive RA is more likely to be associated with the HLA-DR4 shared
 epitope ... than RF-negative RA»
-[@digiuseppe2014smoking, Discussion].
+[@digiuseppe2014smoking].
 
 **The load-bearing caveat: the modifier is a subphenotype of the OUTCOME, not a pre-exposure stratum of the
 person.** RF status is measured at RA diagnosis, so this cannot stratify a never-diseased person for

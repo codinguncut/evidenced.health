@@ -102,7 +102,7 @@ observational cohorts show the opposite-signed associations with hard disease.
 | Cancer mortality | — | HR 1.02 (0.92 to 1.13) — **null** | Very low |
 | Bladder cancer (saccharin, case-control) | — | OR 1.31 (1.06 to 1.62) | Very low |
 
-[@who2023nonsugar, Table 1]
+[@who2023nonsugar]
 
 **Two things the table says on its own:**
 

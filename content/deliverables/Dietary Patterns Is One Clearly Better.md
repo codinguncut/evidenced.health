@@ -138,19 +138,19 @@ Cochrane review of low-carbohydrate versus balanced-carbohydrate diets included 
 its weight outcome (37 of them, n=3286, adults without diabetes, 3-to-8.5 months) the between-group
 difference was about **1 kg** (MD 1.07 kg lower, 95% CI 1.55 to 0.59 lower) -- and it judged that **not
 clinically important**, because the intervals excluded an appreciable effect in either direction
-[@naude2022, Summary of findings 1-4]. Two facts
+[@naude2022]. Two facts
 make that \~1 kg smaller than it looks:
 
 - **The comparator does most of the work.** In the subgroup where both arms were matched on energy
   prescription, the low-carb advantage shrank to a small, statistically-significant effect with **zero
   heterogeneity (I2=0%)**; the larger effects came from ad-libitum versus energy-restricted comparisons
-  [@naude2022, Analysis 1.2].
+  [@naude2022].
 - **Early low-carb loss is partly water.** A 2-to-3 kg reversible glycogen-linked diuresis, restored on
-  refeeding, can absorb the whole between-arm difference [@naude2022, Authors' conclusions].
+  refeeding, can absorb the whole between-arm difference [@naude2022].
 
 And the endpoints: **no trial in that review reported all-cause mortality, cardiovascular mortality, heart
 attack, stroke or incident diabetes** -- every measured outcome is a surrogate
-[@naude2022, Results]. Per the expectancy test that
+[@naude2022]. Per the expectancy test that
 is *unprobed*, not *disproved*: long-latency diet trials are impractical, so the hard-outcome comparison
 between these patterns has never been run ([[Surrogate Outcomes]]).
 
@@ -182,14 +182,14 @@ In people with type 2 diabetes, a low-carbohydrate diet produced short-term
 remission -- **32 more remissions per 100 at 6 months (NNT \~3)** under the definition that lets medication
 continue -- but the effect **attenuates by 12 months** (the 6-month remission risk difference of 0.32 falls
 to 0.10), and under the stricter definition requiring people to come off medication it is never
-statistically significant [@goldenberg2021, Table 2].
+statistically significant [@goldenberg2021].
 Weight follows the same decay (MD -3.46 kg at 6 months to +0.29 kg at 12), and LDL rises (+0.14 mmol/L at
-12 months, above the review's own clinical threshold) [@goldenberg2021, Table 3].
+12 months, above the review's own clinical threshold) [@goldenberg2021].
 
 Crucially, the remission is best read as a **weight-loss effect delivered by a
 low-carb route, not a carbohydrate effect per se**: the DiRECT trial put **46% of people into remission
 on an 825-853 kcal formula diet that was 59% carbohydrate** -- the opposite of low-carb -- with remission
-scaling with kilograms lost [@lean2018, Findings]. So carbohydrate
+scaling with kilograms lost [@lean2018]. So carbohydrate
 restriction is *one* lever for the weight loss that drives remission, not a necessary one
 ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
 
@@ -207,7 +207,7 @@ weakest design available.
 
 The Cochrane review also flags a
 contraindication in its own voice: caution in people with atherogenic-lipoprotein hyper-response to
-high-fat, low-carbohydrate eating [@naude2022, Authors' conclusions].
+high-fat, low-carbohydrate eating [@naude2022].
 
 ### Animal-based / carnivore
 
@@ -266,7 +266,7 @@ best-graded and hardest outcomes.
   over four years) -- but was a well-graded **null on mortality** (all-cause RR 0.96, 0.90 to 1.03)
   [@hooper2020]; and the benefit
   depends on what replaces the fat, with unsaturated fat and whole-food carbohydrate setting the sign
-  [@who2023saturated, Annex 6]
+  [@who2023saturated]
   ([[Saturated Fat Intake and Replacement]]).
 - **Fibre and whole grains.** Higher fibre tracks 15-30% lower risk across mortality, coronary disease,
   diabetes and colorectal cancer -- but that is observational (all-cause RR 0.85 highest-vs-lowest; \~13
@@ -274,7 +274,7 @@ best-graded and hardest outcomes.
   fibre -0.057 mmol/L per gram) [@reynolds2019; @brown1999] ([[Dietary Fibre and Health]]).
   Whole-grain benefit probably runs *through* the fibre; **refined grains are not found harmful** (RR 1.00
   for cardiovascular events and diabetes), so this is a benefit-of-fibre story, not a harm-of-grains one
-  [@sacn2015, 7.9, 7.11] ([[Whole Grains Refined Grains and Pulses]]).
+  [@sacn2015] ([[Whole Grains Refined Grains and Pulses]]).
   A daily portion of pulses lowers LDL by \~0.2 mmol/L [@esc2021].
 - **Less processed meat.** Processed meat's colorectal-cancer association is significant (RR 1.16, 95% CI
   1.08 to 1.26 per 50 g/day); unprocessed red meat's is not (RR 1.12, 1.00 to 1.25 per 100 g/day). In
@@ -293,9 +293,9 @@ cleanly estimated by any held source, and should not be asserted as a number.
 Decompose the real-world effect of "choosing a pattern" into four terms, and the label comes out small.
 
 - **Total energy and adiposity dominate the metabolic outcomes.** DiRECT's remission scaled with
-  kilograms lost regardless of macronutrient composition [@lean2018, Findings]; the head-to-head weight advantage shrinks to a small, zero-heterogeneity subgroup effect
+  kilograms lost regardless of macronutrient composition [@lean2018]; the head-to-head weight advantage shrinks to a small, zero-heterogeneity subgroup effect
   once energy prescription is matched
-  [@naude2022, Analysis 1.2].
+  [@naude2022].
 - **Adherence is part of the effect, and it is poorly delivered.** In the 61-trial low-carb review, the
   intervention-fidelity field was often "not reported" (about a quarter of arms) or frankly poor, so the
   estimate is the effect of *assigning* a diet at the adherence achieved -- not the effect of eating it

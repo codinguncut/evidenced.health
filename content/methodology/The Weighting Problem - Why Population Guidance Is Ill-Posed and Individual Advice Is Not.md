@@ -207,7 +207,7 @@ numeric-adjacent `emission|footprint|climate impact` across chunks 06-07 — fou
 A reader is told not to increase an exposure while being given **neither number**.
 
 
-[@nnr2023, chunks 06-07]
+[@nnr2023]
 ### The tension this resolves — and it is a tension in the critique too
 
 **A quantified trade-off IS an imposed weight.** So a demand for both *"do not impose weights"* and

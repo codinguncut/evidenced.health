@@ -67,7 +67,7 @@ certainty: single proof-of-concept RCT; `confidence: low` (unreplicated; surroga
   [@ngandu2015]
 - **Cognitive-decline odds (post-hoc, control vs intervention):** NTB total OR 1.31 (1.01-1.71); executive
   1.29 (1.02-1.64); processing speed 1.35 (1.06-1.71); **memory 1.23 (0.95-1.60) — NS.**
-  [@ngandu2015, Table 2]
+  [@ngandu2015]
 - **Safe, adherable:** all-four-domain participation 72%; "Adverse events occurred in 46 (7%) participants
   in the intervention group compared with six (1%) participants in the control group; the most common
   adverse event was musculoskeletal pain" (exercise-related). No serious intervention-related AEs.
@@ -164,7 +164,7 @@ certainty: single large RCT, null on the primary; `confidence: low` unchanged (t
 | Comparator | **active control** (general health advice) | placebo / no-multidomain (a *weaker* contrast that should favour a positive) | NO (MAPT's is easier to beat) |
 | Result | positive: 0.022/yr, Cohen's d 0.13 (p=0.030) | **NULL**: multidomain 0·079 (adj p=0·179); combined 0·093 (adj p=0·142) | **OPPOSITE** |
 
-[@ngandu2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017]
+[@ngandu2015]
 
 **The endpoint row is YES — the closest same-endpoint comparison of the three trials** (preDIVA's endpoint
 row was NO). So the surrogate itself is now shaky: FINGER barely moved it (d=0.13) and MAPT did not move it at
@@ -212,7 +212,7 @@ intervention list (advice + drugs) against the source's own FINGER contrast («l
 drug treatment, and cognitive training»), the difference that makes the two non-comparable below.
 
 - **Primary outcome — no reduction shown.** Dementia developed in 121/1853 (7%) intervention vs 112/1601
-  (7%) control: **HR 0.92 (95% CI 0.71-1.19), p=0.54** [@mollvancharante2016, Table 2]. The **second co-primary, disability (ALDS), was also null**
+  (7%) control: **HR 0.92 (95% CI 0.71-1.19), p=0.54** [@mollvancharante2016]. The **second co-primary, disability (ALDS), was also null**
   (adjusted mean difference -0.02, 95% CI -0.38 to 0.42, p=0.93), as were all-cause mortality (HR 0.98,
   0.80-1.18) and incident cardiovascular disease (HR 1.06, 0.86-1.31). «A nurse-led, multidomain
   intervention did not result in a reduced incidence of all-cause dementia in an unselected population of
@@ -225,11 +225,11 @@ drug treatment, and cognitive training»), the difference that makes the two non
   for a 33% reduction, an order of magnitude larger than BP-lowering plausibly delivers. (The CVD,
   mortality and disability nulls are more genuinely flat given the small achieved contrast — next bullet.)
 - **The intervention *did* move the risk factor, modestly.** Systolic BP fell more in the intervention arm
-  (adjusted mean difference **-2.06 mm Hg**, 95% CI -3.21 to -0.90, p=0.0005) [@mollvancharante2016, Table 3] — so this is a null *despite* a
+  (adjusted mean difference **-2.06 mm Hg**, 95% CI -3.21 to -0.90, p=0.0005) [@mollvancharante2016] — so this is a null *despite* a
   measured contrast, not a null from an untouched exposure.
 - **One subtype signal, small numbers:** non-Alzheimer's dementia was less frequent in the intervention arm
   (11 [1%] vs 23 [2%]; HR 0.37, 0.18-0.76, p=0.007), consistent with a vascular mechanism, but on tiny
-  counts and not the prespecified primary [@mollvancharante2016, Table 2]. Alzheimer's itself was null (HR 1.05, 0.78-1.41).
+  counts and not the prespecified primary [@mollvancharante2016]. Alzheimer's itself was null (HR 1.05, 0.78-1.41).
 
 **FINGER vs preDIVA — the parameter table (why this is a DISTINCTION, not a `tension`).**
 
@@ -241,7 +241,7 @@ drug treatment, and cognitive training»), the difference that makes the two non
 | Primary endpoint | NTB **cognitive-composite** Z-score (**surrogate**) | clinical **dementia diagnosis** incidence (**hard**) + disability | NO |
 | Result | positive: between-group 0.022/yr, Cohen's d 0.13 (p=0.030) | **NULL**: HR 0.92 (0.71-1.19); disability, CVD, mortality also null | NO |
 
-[@ngandu2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016]
+[@ngandu2015]
 
 **Same-quantity column is NO on every row, so the apparent clash ("multidomain works" vs "multidomain
 fails") is not a joined issue — the not-joined check (ii, different scope/endpoint/intervention/population)
@@ -296,7 +296,7 @@ subgroups: **no pre-specified subgroup showed an effect** — «There was also n
   1.03 (0.76–1.40, P-interaction 0.993)** and **untreated-hypertension — preDIVA's own headline responder
   cell — HR 0.72 (0.44–1.18, P-interaction 0.071)**, both non-significant; the all-cause intervention
   effects across all 11 subgroups were likewise no-difference (Figure 1)
-  [@coley2025, Table 3]. (Table 2's HR
+  [@coley2025]. (Table 2's HR
   column is the subgroup-vs-referent *incidence* ratio — prognostic, e.g. CAIDE>=6-vs-<6 = 1.37 — not the
   intervention effect.)
 data_driven: «the SIDES algorithm did not detect any subgroup showing a differential intervention effect on

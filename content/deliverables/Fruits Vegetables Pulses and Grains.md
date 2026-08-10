@@ -113,7 +113,7 @@ attribution: «Any associations indicated for whole grain may be related to its 
 The intuitive *refined = bad* claim is not supported on hard outcomes. SACN tested refined grains
 directly: **RR 1.00 (95% CI 0.98, 1.01)** for both cardiovascular events and type 2 diabetes, and every
 whole-versus-refined randomised trial was null on blood pressure, lipids, glucose and insulin
-[@sacn2015, 7.9, 7.11].
+[@sacn2015].
 
 - **What survives is choosing whole grain for a small benefit, not avoiding refined grain to prevent
   harm** — different claims, and SACN separates them.
@@ -169,7 +169,7 @@ They come overwhelmingly from *isolated compounds,
 in animals or cell culture, at raw or supraphysiological doses* — «Harmful (and even beneficial)
 effects of an individual, isolated compound or phytochemical are often quite different than when the
 same compound is within the complex food matrix.»
-[@petroski2020, section 7.6]. Whole-food human trials mostly
+[@petroski2020]. Whole-food human trials mostly
 do not reproduce them — a transportability failure, and the same isolate-versus-food trap the fibre
 section flags. The expectancy test seals the staple case: billions eat prepared legumes and grains
 daily, so a large chronic harm from *properly prepared* staples would be visible by now.
@@ -180,7 +180,7 @@ Soaking, sprouting, fermenting,
 boiling and cooking reduce all six classes; for most, this makes the concern academic. The exception is
 raw high-lectin legumes: «In the case of particularly high-lectin legumes, such as soybeans and kidney
 beans, boiling or autoclaving is required to eliminate lectins, as reduced cooking temperatures do not
-significantly affect lectin content.» [@petroski2020, section 2.6].
+significantly affect lectin content.» [@petroski2020].
 Undercooked kidney beans have caused documented mass poisonings — an acute toxicity, not a chronic-diet
 claim.
 
@@ -207,7 +207,7 @@ verdict is *prepared food is fine*; the value is in the *named stratum* where a 
 - **Tannins** (inhibit non-heme iron absorption *in isolation*) — whole-diet studies show no iron-status
   correlation, but the review keeps the caveat: «some studies still advise that those with low iron
   stores, especially females, consume tannin-rich beverages, such as tea, after or in-between meals»
-  [@petroski2020, section 7.6]. **Care:** low iron stores,
+  [@petroski2020]. **Care:** low iron stores,
   especially menstruating women.
 - **Phytoestrogens** (endocrine effects) — evidence mixed, source- and gut-microbiome-dependent.
   **Care:** infants (small size, immature gut).
@@ -233,16 +233,16 @@ toxicity concern — one variable, one lever, two framings -> [[Protein Quality 
 The direct answer: **the sugar inside whole fruit is not free sugar and the outcome evidence treats
 them as different quantities.** WHO's free-sugars limit explicitly *excludes* intrinsic sugars
 «incorporated within the structure of intact fruit and vegetables», on the stated ground that there is
-no reported evidence of adverse effects [@who2015, Remarks, p.16]. Fruit
+no reported evidence of adverse effects [@who2015]. Fruit
 *juice* is inside the limit; whole fruit is outside it.
 
 - **The free-sugars limit is mostly a dental recommendation.** WHO's <10%-energy cap is warranted by
   dental caries, not by body weight or cardiometabolic disease
-  [@moynihan2014, Results]. On weight, swapping free
+  [@moynihan2014]. On weight, swapping free
   sugars for other carbohydrate at equal energy is null (0.04 kg), so even sugar's weight effect is an
-  energy effect, not a sugar-specific one [@who2015, Remarks, p.16].
+  energy effect, not a sugar-specific one [@who2015].
 - **The child cohort *sugar* signal is a *beverage* signal.** Fourteen of fifteen studies measured the
-  exposure as a sugar-sweetened beverage [@te2013, Results];
+  exposure as a sugar-sweetened beverage [@te2013];
   reading it as a whole-fruit signal generalises past what the data carry -> [[Free Sugars Intake]].
 
 ### A fruit's sugar-to-fibre ratio and outcomes

@@ -59,7 +59,7 @@ low is still an estimate held with little confidence, not an abstention. **The U
 
 GRADE's parallel discipline is the **empty row**: an outcome the panel selected but for which no
 evidence exists still gets a row in the evidence profile, because «an empty row in an evidence profile
-can be informative in that it identifies research gaps». [@grade, §3.4]
+can be informative in that it identifies research gaps». [@grade]
 -> [[Rating Outcome Importance]]
 
 **Same fourth state, two placements — and the difference is decision-relevant, not cosmetic:**

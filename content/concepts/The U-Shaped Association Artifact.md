@@ -41,7 +41,7 @@ The lower arm can be produced with **no true benefit at all**, by any of:
   looks protected. In alcohol this is decisive: including former drinkers among *abstainers* «will bias
   drinking risk estimates downward, thereby magnifying the appearance of health benefits from low-level
   drinking», and former drinkers carried «a 38% increased risk» (Stockwell).
-  [@stockwell2016, Conclusions]
+  [@stockwell2016]
 - **Reverse causation** — poor health lowers the exposure, not the reverse.
 - **Confounding by lifestyle / frailty** — the intermediate-exposure group differs systematically
   (Naimi 2005, reported by Stockwell: «27 (90%) of 30 potential adverse confounders for coronary heart
@@ -55,7 +55,7 @@ disease were more prevalent among abstainers than among moderate drinkers»).
   most» — «This obviously spurious relationship illustrates the dangers of analyzing data with
   hypotheses and subgroups that were not prespecified.» A curve's *shape* is one of those choices, so an
   un-prespecified U carries the same discount -> [[P-Hacking and Researcher Degrees of Freedom]].
-  [@nasem2019, Peto 2011]
+  [@nasem2019]
 
 ## The three adjudication routes — and what they showed for alcohol
 
@@ -65,7 +65,7 @@ disease were more prevalent among abstainers than among moderate drinkers»).
 | **Mendelian randomization** | genetic instruments fix lifetime exposure, immune to reverse causation | monotonic harm for stroke, no protective arm (Millwood) |
 | **Exclude early follow-up / sick baseline** | remove the reverse-causation window | U-shape *persisted* observationally — so this alone is insufficient (Millwood) |
 
-[@stockwell2016, Results; (Millwood - Alcohol and Vascular Disease Genetic Evidence 2019) , Results]
+[@stockwell2016]
 
 **The load-bearing lesson:** excluding early follow-up is the *weak* check (the alcohol U-shape survived
 it); the referent correction and MR are the *strong* ones, and where a genetic instrument exists it is
@@ -119,7 +119,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   not a spurious benefit. «Most observational epidemiologic studies have indicated that the rate of death
   from cardio-vascular and all other causes is increased after weight loss» — because they cannot «distin-guish
   intentional from unintentional weight loss», so «the observed weight loss might be the consequence of
-  conditions that lead to death rather than the cause». [@sjostrom2007, Introduction] SOS supplies a
+  conditions that lead to death rather than the cause». [@sjostrom2007] SOS supplies a
   **fourth adjudication route** the alcohol table lacks — a **controlled intervention** that *assigns*
   intentional weight loss (bariatric surgery vs matched conventional care), removing the intentional-vs-
   unintentional confound by construction — and the sign flips: intentional loss **reduces** all-cause
@@ -133,7 +133,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   concept's **confounding-by-lifestyle/frailty** mechanism in its socioeconomic form: the highest-carb
   quintiles are the poorest (refined-carb subsistence diets), so the fat-protective / carb-harmful
   signals are the mirror of an income gradient, which the authors concede («residual confounding...
-  cannot be completely excluded»). [@dehghan2017, Discussion] The **one candidate U-arm** is the authors' suggestion that «a very low intake (ie,
+  cannot be completely excluded»). [@dehghan2017] The **one candidate U-arm** is the authors' suggestion that «a very low intake (ie,
   below about 7% of energy) [of saturated fat] might even be harmful» — a low-SFA arm that would be the
   artifact-suspect region (very low SFA tracks very low animal-food intake, i.e. poverty/frailty), and
   is **unadjudicated**: no referent-correction or genetic check isolates it from the income confound.
@@ -145,19 +145,17 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   mortality curve, **nadir 50-55%E**, both arms elevated: «both low carbohydrate consumption (<40%) and
   high carbohydrate consumption (>70%) conferred greater mortality risk than did moderate intake ...
   (pooled hazard ratio 1·20, 95% CI 1·09-1·32 for low carbohydrate consumption; 1·23, 1·11-1·36 for high
-  carbohydrate consumption)». [@seidelmann2018, 
-  Findings] Unlike alcohol/BMI this is **not a protective-lower-arm** case — there is nothing to defend
+  carbohydrate consumption)». [@seidelmann2018] Unlike alcohol/BMI this is **not a protective-lower-arm** case — there is nothing to defend
   as a benefit; the diagnostic interest is in the LOW arm's *cause*.
   - **The distinctive adjudication route — a substitution DECOMPOSITION, not MR.** Seidelmann's own
     analysis dissolves the low-carb arm by decomposing what *replaces* the carbohydrate: «mortality
     increased when carbohydrates were exchanged for animal-derived fat or protein (1·18, 1·08-1·29) and
-    mortality decreased when the substitutions were plant-based (0·82, 0·78-0·87)». [@seidelmann2018, Findings] The arm's sign **flips** with the
+    mortality decreased when the substitutions were plant-based (0·82, 0·78-0·87)». [@seidelmann2018] The arm's sign **flips** with the
     replacement source — so «low carbohydrate» is not a well-defined exposure, and the harm reads as a
     *replacement-food* signal («Low carbohydrate diets have tended to result in lower intake of
     vegetables, fruits, and grains and increased intakes of protein from animal sources ... which has
-    been associated with higher mortality»). [@seidelmann2018, Discussion] The low-carb quantile is also confounded-by-lifestyle (more smoking 33% vs 22%,
-    more diabetes, higher BMI) [@seidelmann2018, 
-    Table 1] — the artifact recipe's confounding leg.
+    been associated with higher mortality»). [@seidelmann2018] The low-carb quantile is also confounded-by-lifestyle (more smoking 33% vs 22%,
+    more diabetes, higher BMI) [@seidelmann2018] — the artifact recipe's confounding leg.
   - **What it ADDS to the concept — the exposure can be under-specified.** Alcohol/coffee/BMI adjudicate
     a *confounder* on a fixed exposure; here the adjudication reveals the *exposure itself* is a composite
     («low carb» = low-carb-plus-whatever-replaces-it), and the composite's mortality sign is set by the
@@ -166,11 +164,11 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   - **Adjudication strength — WEAK checks only, so the causal reading stays not-established.** Seidelmann
     ran a reverse-causation sensitivity analysis («individuals with cardio-vascular disease, diabetes, or
     cancer at baseline were excluded», findings unchanged) and a time-varying diet update — the *weak*
-    checks the alcohol artifact also survived. [@seidelmann2018, Discussion] **No MR / genetic instrument.** So strong-but-not-decisive, like coffee/BMI.
+    checks the alcohol artifact also survived. [@seidelmann2018] **No MR / genetic instrument.** So strong-but-not-decisive, like coffee/BMI.
   - **The PURE reconciliation — two cohorts trace complementary arms of one U.** ARIC (mean 49%E)
     populates the **left** arm, PURE/Dehghan (mean 61%E, Asian/low-income; the bullet above) the **right**;
     overlaid on one reference, «the associations between primarily high carbohydrate intake and mortality
-    in the PURE study still fell within the confidence intervals of those observed in ARIC». [@seidelmann2018, Results] The two headline-clashing
+    in the PURE study still fell within the confidence intervals of those observed in ARIC». [@seidelmann2018] The two headline-clashing
     literatures are the two arms of a single curve — and the right arm is the same refined-carb/poverty
     signal Dehghan's bullet flags, not carbohydrate per se. Not independent-E of Dehghan (both
     observational FFQ cohorts, PURE shared between them) -> **type-F** worked-case extension, reconciling
@@ -184,7 +182,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   **entirely >=65-driven** (age >=65 HR 1.35, age <65 **null 1.01, 0.88-1.16**) — a frailty gradient, not a
   dose-response — and Ramsden concedes it is «observational in nature», a within-trial cholesterol-change
   association that «did not differ between the intervention and control group» (so it is *not* the
-  randomized diet contrast). [@ramsden2016, Table 4; Strengths and limitations]
+  randomized diet contrast). [@ramsden2016]
   Ramsden ran only the **weak** check — a frailty sensitivity analysis adjusting for weight/BP *changes*,
   which the association survived — but that is a crude proxy, not an instrument immune to reverse
   causation (low cholesterol is a marker of the frailty/illness that causes death). So by the decision
@@ -267,7 +265,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     which direction the confounder pushes it** — the artifact is not synonymous with "the protective arm."
   - **All-cause/CVD linearizes too, but Grosso does not attribute THAT to smoking.** The overall all-cause
     curve is a J (nadir RR 0.83 at 3 cups -> 0.90 at 7)
-    [@grosso2016, Table 2] while never-smokers
+    [@grosso2016] while never-smokers
     show «a linear dose-response... decreased risk by 6 % for each additional cup... for all- cause and
     CVD mortality (RR = 0.94, 95 % CI = 0.93, 0.96 and RR = 0.94, 95 % CI = 0.91, 0.97, respectively)»
     [@grosso2016] — so the correction removes
@@ -297,11 +295,11 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   so you can watch the artifact form. The **overweight arm (BMI 25-30)** — the *obesity paradox* — walks
   from apparent protection to clear harm as each bias is stripped: raw 0.96 (0.95-0.97) -> +adjust
   smoking/exclude baseline disease 0.99 -> +exclude first 5 y follow-up 1.03 -> +restrict to never-smokers
-  1.11 (1.10-1.11). [@globalbmi2016, eTable 5] The cleanest
+  1.11 (1.10-1.11). [@globalbmi2016] The cleanest
   single confirmation isolates one confounder: holding the 5-y exclusion + no-baseline-disease constant so
   *only smoking status differs*, overweight is **1.07 (1.06-1.07) in never-smokers vs 0.94 (0.94-0.95) in
   ex/current smokers** (between-stratum heterogeneity significant for every BMI group; overweight P=0.0003,
-  obesity I P<0.0001). [@globalbmi2016, eTable 6]
+  obesity I P<0.0001). [@globalbmi2016]
   Smoking is the confounder manufacturing the protection -> [[BMI and All-Cause Mortality]].
   - **What it adds to the concept.** (i) A **big-rock adiposity** instance, not another peripheral exposure.
     (ii) Direction: like alcohol, the confounder manufactured a spurious *benefit* (overweight protection),
@@ -321,16 +319,16 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     supplies the genetic natural experiment. Its verdict *converges*: «The J-shaped BMI-mortality
     association remained in MR analyses ... but with a smaller value of BMI at which mortality risk was
     lowest (\~23 vs. \~26 kg/m2 with observational analyses) and apparently flatter over a larger BMI range»
-    [@wade2018, Linearity] — and Wade names the
+    [@wade2018] — and Wade names the
     mechanism the concept predicts: «Reverse causality ... may be the driver of the characteristic J-shaped
-    association». [@wade2018, Discussion]
+    association». [@wade2018]
     - **What MR does to the two arms sharpens the arm-level rule.** Unlike alcohol (where MR *removed* the
       protective arm cleanly), BMI's low arm does not vanish — the J *remains* but **deflates**: the nadir
       shifts down into the normal range (\~23) and the residual J is an extreme-quantile effect (removing the
       tails -> linear, P=0.999). So MR **deflates the underweight arm** (reverse causation) while
       **inflating the obesity arm** — the observational curve «overestimate[s] the harmful effects of having
       underweight while underestimating the harmful effects of having overweight or obesity».
-      [@wade2018, Discussion] The concept's
+      [@wade2018] The concept's
       *adjudicate the arm, not the curve* rule is corroborated genetically: the low arm is largely artifact,
       the high arm is genetically supported (significant for CVD-cause mortality, directional-but-imprecise
       for all-cause), and severe underweight plausibly keeps a real (non-artifact) residual — matching

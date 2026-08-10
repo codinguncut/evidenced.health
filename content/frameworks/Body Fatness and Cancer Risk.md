@@ -23,25 +23,25 @@ The leading *diet-adjacent* cancer exposure by **breadth of sites and strength o
 not quantify a per-person effect). WCRF grades greater body fatness a **convincing or probable cause of
 many cancers** and presents its recommendation **first** because the evidence is «particularly strong
 ... and has grown stronger over the last decade».
-[@wcrf2018ter, §1.2] Facet of the
+[@wcrf2018ter] Facet of the
 [[Diet Physical Activity and Cancer Prevention]] nucleus; the weight-*management* decision lives in the
 cardiometabolic cluster -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
 ## The magnitude of the footprint
 
 - «12 of the 17 cancers reviewed by the CUP are linked to greater body fatness».
-  [@wcrf2018ter, §2.3.2] Convincing/probable sites
+  [@wcrf2018ter] Convincing/probable sites
   include oesophagus (adenocarcinoma), pancreas, liver, colorectum, kidney, endometrium, postmenopausal
   breast, gallbladder, ovary, stomach cardia, advanced prostate, mouth/pharynx/larynx.
 - IARC independently «concluded that greater body fatness is a cause of thyroid cancer, multiple
   myeloma and meningioma» — three more sites beyond WCRF's set.
-  [@wcrf2018ter, §5.1 Be a healthy weight]
+  [@wcrf2018ter]
 - «Maintaining a healthy weight throughout life is one of the most important ways to protect against
-  cancer.» [@wcrf2018ter, §1.2]
+  cancer.» [@wcrf2018ter]
 
 **Risk rises inside the "healthy" range.** «For some cancers the increase in risk is seen with
 increasing body fatness even within the so-called ‘healthy’ range. Nevertheless, most benefit is to be
-gained by avoiding overweight and obesity.» [@wcrf2018ter, §5.1] So the exposure is graded, not a threshold at BMI 25 — but the decision-relevant mass
+gained by avoiding overweight and obesity.» [@wcrf2018ter] So the exposure is graded, not a threshold at BMI 25 — but the decision-relevant mass
 of benefit sits in avoiding overweight/obesity. Body-fatness grades are marked by BMI (± waist
 circumference / waist-hip ratio) [matrix asset p3, FN62-64].
 
@@ -50,7 +50,7 @@ circumference / waist-hip ratio) [matrix asset p3, FN62-64].
 Mechanism informs *direction*; it does not by itself establish causation (the grades above rest on the
 cohort epidemiology, not the pathways). Body fatness does «not act through single discrete pathways —
 instead, they may alter the systemic metabolic milieu» conducive to cancer at many sites
-[@wcrf2018ter, §1.1.6]. Three linked routes onto the
+[@wcrf2018ter]. Three linked routes onto the
 hallmarks of cancer (WCRF Table 2):
 
 - **Hyperinsulinaemia** — elevated fasting insulin signals through mTOR/PI3K/AKT and MAPK ->
@@ -61,7 +61,7 @@ hallmarks of cancer (WCRF Table 2):
 - **Chronic inflammation** — «obesity is now recognised as a chronic inflammatory state that
   predisposes to cancer»; C-reactive protein is «an inflammation marker that is elevated with obesity,
   is related to cancer risk and reduces with weight loss».
-  [@wcrf2018ter, §1.2.6]
+  [@wcrf2018ter]
 
 The CRP-reduces-with-weight-loss link is the closest the report comes to a reversibility signal, but it
 is a **surrogate** (an inflammation marker), not a cancer-incidence outcome -> [[Surrogate Outcomes]].
@@ -70,7 +70,7 @@ is a **surrogate** (an inflammation marker), not a cancer-incidence outcome -> [
 
 Body fatness in *young adulthood* (\~18-30 y) «predicts lower risk» of both pre- and postmenopausal
 breast cancer — the association runs **opposite** to adult body fatness (a probable-graded protective
-arm). [@wcrf2018ter, §6.3; matrix asset p3, FN71]
+arm). [@wcrf2018ter]
 Read it as a unit-of-analysis warning — the label "body fatness" hides two timing-dependent quantities,
 so the adult-adiposity harm is not a claim about body fatness at every age.
 

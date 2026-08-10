@@ -33,7 +33,7 @@ once a stratum-specific 10-year risk exists.
 | High: *"risk factor treatment should be considered"* | 2.5 to <7.5% | 5 to <10% | 7.5 to <15% |
 | Very high: *"risk factor treatment generally recommended"* | >=7.5% | >=10% | >=15% |
 
-[@esc2021, Table 5]
+[@esc2021]
 
 **The same 10-year risk can mean two different things at two ages** — 8% is *very high* under 50 and
 *high* at 72. **It cannot mean three** — the thresholds are monotone, so no single number can be
@@ -60,7 +60,7 @@ Two qualifiers ESC attaches itself:
 | 120-139 | 7 · 8 · 9 · 10 | 11 · 13 · 14 · 15 |
 | 100-119 | 6 · 7 · 7 · 8 | 9 · 10 · 11 · 12 |
 
-[@esc2021, Figure 3, moderate-risk region chart, read directly from the rendered page per `CLAUDE.source-prep.md` -> *Tables*, tier 3]
+[@esc2021]
 
 **Moderate-risk region = Austria, Cyprus, Finland, Germany, Greece, Iceland, Ireland, Italy, Malta,
 Portugal, San Marino, Slovenia, Sweden.** Region is not a detail — the four charts differ substantially for identical inputs. **The size of that
@@ -168,7 +168,7 @@ this page already flags.
 Once SCORE2/OP (or a clinical feature in Table 3) places a person in a category, the category sets the
 LDL-C goal. These numbers were image-only in the source (Fig. 1 / Tables 3-4 did not OCR) and were
 recovered by a direct PDF-page read — so they carry a figure/table locus, not a `«...»` locate-verified
-form (`[@esceas2025, Fig. 1 / Table 3]`):
+form (`[@esceas2025]`):
 
 | Category (Table 3 cut-off) | LDL-C goal (Fig. 1) | Class |
 |---|---|---|
@@ -183,7 +183,7 @@ SCORE fatal-only thresholds (the 2x multiplier this Focused Update applied). And
 function of the goal: **Table 4** crosses total CV risk with *untreated* LDL-C band, so a very-high-risk
 person in secondary prevention gets concomitant drug therapy at every LDL band, while low/moderate risk
 stays at lifestyle advice until the untreated LDL is high
-[@esceas2025, Table 4]. The downstream **effect** of hitting
+[@esceas2025]. The downstream **effect** of hitting
 these targets (the per-mmol event reduction) is CTT/Marston's, not the guideline's -> [[LDL Lowering and Cardiovascular Events]].
 
 
@@ -203,7 +203,7 @@ different instrument):
 | Category cut-offs | age-banded (Table 5 above); e.g. very-high ≥7.5%/10%/15% | «low (<3%), borderline (3% to <5%), intermediate (5% to <10%), or high (≥10%)» | **No** — not comparable numbers |
 | Input | non-HDL-C, SBP, smoking, age, region | PREVENT covariates (adds eGFR, HbA1c, etc.) | No |
 
-[@accaha2026, (ESC-EAS - Dyslipidaemias Focused Update 2025)]
+[@accaha2026]
 
 **So a PREVENT «borderline 3-<5%» and a SCORE2 «low <2.5-7.5%» band cannot be lined up as looser-vs-
 stricter** — they estimate different composites over different age ranges with different calibration. The

@@ -248,7 +248,7 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
   moves, set against the CV-event null here -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 - **The >=10%-responder CV signal has a second mention.** DiRECT independently cites the Look AHEAD
   post-hoc — "a 10% weight loss in the first year... associated with a 21% decrease in occurrence of
-  cardiovascular outcomes over a median follow-up of 10.2 years" [@lean2018, Discussion] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
+  cardiovascular outcomes over a median follow-up of 10.2 years" [@lean2018] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
   mention (DiRECT reports, does not re-derive it), so the primary post-hoc paper is still AWAITED; but
   two independent trials now point to the same >=10% dose threshold for a CV benefit.
 - **Do not oversell a cardiovascular-event reduction the largest trial failed to show.** For a person

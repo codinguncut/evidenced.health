@@ -29,7 +29,7 @@ broader reviews such as Naude 2022.
 | **HbA1c <6.5%** | **RD 0.32** (0.17 to 0.47), RR 1.87 (1.18 to 2.97), 8 RCTs, n=264, **Moderate** | RD 0.10 (-0.02 to 0.21), 3 RCTs, n=171, Moderate |
 | **HbA1c <6.5% AND no diabetes medication** | RD 0.05 (-0.05 to 0.14), 5 RCTs, n=199, Low | **RD -0.04** (-0.16 to 0.09), 2 RCTs, n=126, Low |
 
-[@goldenberg2021, Table 2; Results]
+[@goldenberg2021]
 
 **This is the finding.** The headline **32 per 100 more remissions** -- an NNT of about 3 -- is remission
 **with medication allowed to continue**. Under the definition that also requires coming off medication,
@@ -41,7 +41,7 @@ negative**.
 5**, against **0.00 (-0.07 to 0.07)** where insulin users were included (test for subgroup difference
 **P=0.03**). For the medication-permitted definition the split is starker still -- **0.51 (0.36 to
 0.65)** vs 0.14 (0.03 to 0.25), P<0.001.
-[@goldenberg2021, Results]
+[@goldenberg2021]
 So "never significant" holds for the **pooled** medication-free estimate and **not** for the
 non-insulin stratum -- which is the stratum in which a low-carbohydrate diet would most plausibly be
 offered. Per the telos's layer-2 rule the narrowest credible reference class is the one to quote.
@@ -49,7 +49,7 @@ offered. Per the telos's layer-2 rule the narrowest credible reference class is 
 reported at six months, and Goldenberg reports no 12-month insulin subgroup — the 2-3 trials carrying
 12-month remission data are too few to split — so the NNT-5 stratum carries **no durability estimate**,
 and the pooled 12-month row above (RD -0.04) is the only long-term medication-free read the review
-supports. [@goldenberg2021, Results]
+supports. [@goldenberg2021]
 
 And the two definitions do not draw on the same trials. Only **7 of 23 trials (30%) permitted medication
 reduction and reported usable data**, so the medication-free estimates come from a structurally
@@ -68,7 +68,7 @@ different set of trial designs, not from a stricter reading of the same evidence
 **Medication reduction and triglycerides go the other way** (0.24 -> 0.33; -0.30 -> -0.32), so the
 source's own wording is the accurate one: *"most benefits diminished at 12 months."*
 
-[@goldenberg2021, Table 3; Results]
+[@goldenberg2021]
 
 **The weight-advantage decay is a general property of diet trials, not a diabetes-specific one
 (corroboration, F).** Across 121 RCTs of overweight/obese adults, weight loss on *every* macronutrient
@@ -88,7 +88,7 @@ carries less weight than the a-priori subgroups above.** The review is explicit 
 that shorter term trials **may be** an effect modifier"*). Trials of 3 to <6 months give RD **0.49**
 (0.30 to 0.68); trials of 6 to 9 months give **0.25** (0.08 to 0.42). Medication-free: 0.20 (0.03 to
 0.38) vs 0.00 (-0.07 to 0.07).
-[@goldenberg2021, Limitations]
+[@goldenberg2021]
 
 **Note a coincidence worth not over-reading:** the medication-free figures here (0.20 / 0.00) are
 numerically identical to the insulin-exclusion subgroup's. That is consistent with the two splits being
@@ -103,7 +103,7 @@ Not adjusted for -- **co-reported**. The review's stated reasoning:
 > *"Reductions in medication may blunt the effect on mean HbA1c levels, biasing results towards the null
 > and masking any effect; however, any improvement can still be captured if reduction of medication is
 > included as an outcome of interest."*
-[@goldenberg2021, Limitations]
+[@goldenberg2021]
 
 So medication appears (1) inside two of the four remission definitions, (2) as a standalone outcome,
 (3) as a named bias mechanism, and (4) as a subgroup variable. **The HbA1c mean difference and the
@@ -132,7 +132,7 @@ co-intervention change as its own outcome rather than to adjust it away.
 
 > *"clinicians might consider short term LCDs for management of type 2 diabetes, while actively
 > monitoring and adjusting diabetes medication as needed."*
-[@goldenberg2021, Conclusions]
+[@goldenberg2021]
 
 Two conditions attached -- **short term**, and **active medication management**. Note the reason for the
 time limit is partly *external* to this review's own evidence: it cites a cohort review suggesting
@@ -174,7 +174,7 @@ months**). A remission effect that decays as the weight advantage decays is cons
 weight. DiRECT (Lean 2018) makes this near-decisive: it achieves **46% remission on an 825-853
 kcal/day formula diet that is 59% carbohydrate** — the opposite of low-carb — with remission scaling
 monotonically with kilograms lost (0% at weight gain -> 86% at >=15 kg).
-[@lean2018, Results; Findings]
+[@lean2018]
 So carbohydrate restriction is **not necessary** for remission, and is best read as **one lever for the
 weight loss that drives remission** — with no evidence here that it adds a remission effect *beyond* the
 weight loss it produces. The carb-vs-calorie question is **weakly probed, not untested (corrected
@@ -232,7 +232,7 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
 ## Limits
 
 - Small numbers behind the headline: the 6-month remission estimate is **8 trials, n=264**; by 12 months
-  it is 3 trials, n=171. [@goldenberg2021, Table 2]
+  it is 3 trials, n=171. [@goldenberg2021]
 - Only 30% of trials permitted medication reduction, which constrains the definition that matters most.
 - The mortality caution is imported from cohort evidence, not tested here.
 - **Same population, adjacent condition:** this stratum overlaps heavily with fatty liver — insulin

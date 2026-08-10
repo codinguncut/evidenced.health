@@ -34,11 +34,11 @@ resistance training, not an inevitable tax on speed.
 The single most decisive piece of held evidence points the same way: the supervised rapid protocols
 work and are safe *when the method is right*. DiRECT put people on an **825-853 kcal/day** formula diet
 — a genuinely rapid loss — under supervision, and produced 46% diabetes remission with remission rising
-monotonically with kilograms lost [@lean2018, Results].
+monotonically with kilograms lost [@lean2018].
 
 NICE will
 positively recommend that same rapid regimen (total diet replacement, **800-1200 kcal**) but caps it at
-**12 weeks** [@nice, 1.1.10] — a limit on *duration*, not proof that
+**12 weeks** [@nice] — a limit on *duration*, not proof that
 fast is bad. So the honest headline is not **too fast is dangerous** and not **speed is free**; it is
 **the rate is a second-order knob, safe within bounds set by method (protein adequacy, supervision above
 a threshold, and duration), and the first-order questions are whether a sustained deficit exists at all
@@ -120,7 +120,7 @@ defend-the-deficit behaviour the compensation evidence shows for other intervent
 
 DiRECT is the clean worked case: after a rapid **-14.5 kg** loss on
 the formula diet, weight crept back **+1.0 kg** during food reintroduction and **+1.9 kg** during
-maintenance [@lean2018, Results] — the regain begins at the trough and
+maintenance [@lean2018] — the regain begins at the trough and
 is governed by what the maintenance structure holds against, not by the speed of the descent.
 
 The liver
@@ -200,14 +200,14 @@ fast loss, under defined bounds, and it works.
   a high-carb, *low-energy* diet, not a low-carb one) for 3 months produced **-10.0 kg** mean loss and
   **46%** type 2 diabetes remission, with remission rising monotonically with kilograms lost: **0%** in
   those who gained, 7% at 0-5 kg, 34% at 5-10 kg, 57% at 10-15 kg, and **86%** at >=15 kg
-  [@lean2018, Results]. Crucially, «All oral antidiabetic and
-  antihypertensive drugs were discontinued on day 1» [@lean2018, Procedures] — the aggressive deficit and the medication list were managed *together*, which is exactly
+  [@lean2018]. Crucially, «All oral antidiabetic and
+  antihypertensive drugs were discontinued on day 1» [@lean2018] — the aggressive deficit and the medication list were managed *together*, which is exactly
   why a rapid regimen on glucose-lowering or antihypertensive drugs is a prescriber-supervised matter,
   not a self-administered one.
 - **NICE bounds the rapid phase by duration.** NICE will positively (if weakly — *consider*) recommend
   low-energy total diet replacement at **800-1200 kcal/day** for obesity or overweight-plus-diabetes, but
   caps it at a **maximum of 12 weeks** inside a supervised multicomponent programme
-  [@nice, 1.1.10]. This is a de-facto limit on how long the *rapid
+  [@nice]. This is a de-facto limit on how long the *rapid
   phase* runs, not a verdict that rapid is unsafe — DiRECT's 825-853 kcal sits at the bottom of exactly
   this band.
 
@@ -215,7 +215,7 @@ fast loss, under defined bounds, and it works.
 
 NICE lowered its recommendation from strong to weak partly because «weight regain could
 occur rapidly and be harmful if people experience weight cycling»
-[@nice, 1.1.10] — note this is strength lowered by a harm the
+[@nice] — note this is strength lowered by a harm the
 evidence base did *not* measure, i.e. a precautionary weighting, not a demonstrated rate effect. So even
 the body most cautious about rapid regain is explicit that it is guarding against an unmeasured risk. The
 operative safety bounds that emerge from the held protocols are: **protein adequacy, micronutrient

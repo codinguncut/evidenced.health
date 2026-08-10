@@ -28,7 +28,7 @@ The word *conditional* does not appear in the document.
 > "WHO recommends a reduction in sodium intake to reduce blood pressure and risk of cardiovascular
 > disease, stroke and coronary heart disease in adults (strong recommendation). WHO recommends a
 > reduction to <2 g/day sodium (5 g/day salt) in adults (strong recommendation)."
-[@who2012, Recommendations, p.18]
+[@who2012]
 
 For children: reduce to control blood pressure (strong), with the adult 2 g/day figure "adjusted
 downward based on the energy requirements of children relative to those of adults" -- a scaling rule,
@@ -43,7 +43,7 @@ same bare *"(strong recommendation)"* form on its recommendation lines — there
 *does* add is an **overall certainty stated per recommendation** in its Rationale (*"The overall
 certainty in the evidence for recommendation 1 was moderate, and for recommendation 2 was very low"*);
 this 2012 guideline issues no overall certainty anywhere.
-[@who2023saturated, Recommendations; Rationale — a cross-guideline check, so cited here in body rather than added to this page's `sources:`]
+[@who2023saturated]
 
 ## The evidence split — this is the whole story
 
@@ -58,7 +58,7 @@ this 2012 guideline issues no overall certainty anywhere.
 | Coronary heart disease | RR 1.04 (0.86 to 1.24) -- inconclusive | 6 cohorts, n=37 343 | **VERY LOW** |
 | Cardiovascular disease | RR 0.84 (0.57 to 1.23) -- inconclusive | **2 RCTs**, n=720 | **MODERATE** |
 
-[@who2012, Summary of evidence, pp.11-13; Annex 1]
+[@who2012]
 
 **The surrogate is rated HIGH; most -- not all -- hard cohort outcomes are rated VERY LOW.** The
 exception matters and the table above omitted it: **fatal stroke, RR 1.63 (1.27-2.10), is rated LOW**,
@@ -69,7 +69,7 @@ omissions tend to run. WHO's own summary states the split: *"Higher sodium intak
 higher risk of incident stroke, fatal stroke and fatal coronary heart disease. There was no association
 between sodium intake and all-cause mortality, incident cardiovascular disease and non-fatal coronary
 heart disease."*
-[@who2012, Executive summary; Summary of evidence]
+[@who2012]
 
 But note the
 last row: a 2-RCT meta-analysis of cardiovascular disease is rated **moderate** -- direct hard-outcome
@@ -80,7 +80,7 @@ itself:
 > quality, whereas the evidence regarding sodium intake and all-cause mortality, cardiovascular
 > disease, stroke and coronary heart disease was of lower quality. Therefore, these recommendations
 > should be reviewed when more evidence... becomes available."
-[@who2012, Remarks, p.18]
+[@who2012]
 
 ## The published RCT meta-analysis behind the effect `[2026-07-31, He 2013]`
 
@@ -97,14 +97,14 @@ public-health target).
 | Hypertensive | **-5.39 mmHg** (-6.62 to -4.15), I2=61% | -2.82 (-3.54 to -2.11), I2=52% | 22 / 990 |
 | Normotensive | **-2.42 mmHg** (-3.56 to -1.29), I2=66% | -1.00 (-1.85 to -0.15), I2=66% | 12 / 2240 |
 
-[@he2013, Results]
+[@he2013]
 
 > «A modest reduction in salt intake for four or more weeks causes significant and, from a population
 > viewpoint, important falls in blood pressure in both hypertensive and normotensive individuals,
 > irrespective of sex and ethnic group. Salt reduction is associated with a small physiological
 > increase in plasma renin activity, aldosterone, and noradrenaline and no significant change in lipid
 > concentrations.»
-[@he2013, Conclusions]
+[@he2013]
 
 **This is NOT independent backing of WHO — the check is the reference trail, again.** He/MacGregor
 studies sit inside WHO's cited evidence base (established in the ESC section below), and He 2013's own
@@ -143,7 +143,7 @@ are **not contradictory** — WHO's is baseline-intake-as-modifier, He's is dose
 > systolic blood pressure. The current recommendations to reduce salt intake from 9-12 to 5-6 g/day
 > will have a major effect on blood pressure, but a further reduction to 3 g/day will have a greater
 > effect and should become the long term target for population salt intake.»
-[@he2013, Conclusions]
+[@he2013]
 
 **Width caveat (author's own):** the meta-regression dose-response «should be viewed as exploratory and
 could be prone to confounding» — a between-study (ecological) estimate; He flags that individual-
@@ -152,7 +152,7 @@ supported as **direction/shape**, not as a precise per-gram coefficient. This is
 every-reduction-pays default (telos dose-response section) instantiated on a recovery-biomarker
 exposure. The 3 g/day target is a policy extrapolation beyond the trial range and carries the advocacy
 caveat above.
-[@he2013, Dose-response]
+[@he2013]
 
 ### Huang 2020 refines the dose-response with a duration axis — and it is the SAME lineage, not a witness `[2026-07-31, Huang 2020]`
 
@@ -174,7 +174,7 @@ association** of SBP fall with sodium-reduction magnitude (P trend=0.09; univari
 > change in 24 hour urinary sodium excretion was positively associated with the change in blood pressure
 > after adjusting for intervention duration, mean age, percentage of female sex, percentage of white
 > ethnicity, and baseline blood»
-[@huang2020, Results]
+[@huang2020]
 
 adjusted slope: each 50 mmol -> SBP **-1.10 mmHg** (0.66-1.54), DBP -0.33 (0.04-0.63) — i.e. \~2.2/100
 mmol. This is the gate-6 caution made concrete on this exposure: **the monotone dose-response here is
@@ -206,7 +206,7 @@ What is real is a **very-short-trial underestimate**: each 50 mmol reduction bou
 > dietary sodium reduction require several weeks to become apparent. Very short term studies of sodium
 > reduction are not a sound basis for drawing conclusions about the effects of sodium reduction on blood
 > pressure and are not helpful in formulating policy recommendations for public health.»
-[@huang2020, Discussion]
+[@huang2020]
 
 **Huang reads this as a real biological lag, not a measurement artifact:** short trials use very
 restricted diets -> sudden large reductions -> transient renin-angiotensin / sympathetic activation and
@@ -224,7 +224,7 @@ Response-heterogeneity section above** (route-b effect modification): the real m
 carry is a graded baseline-SBP interaction, of which the \~3:1 hypertensive:normotensive ratio is a
 coarsened summary. Age (older) and non-white ethnicity are independent modifiers; **baseline sodium
 intake is NOT** (P trend=0.20) — corroborating WHO's «independent of baseline sodium intake».
-[@huang2020, Results + Discussion]
+[@huang2020]
 
 **Competing interest (same as He's lineage).** FJH member / GAM chairman of CASH + WASH; NRCC + NC WASH;
 BN received salt substitute from manufacturers for other trials. The RCT-pooled effects are hard data;
@@ -239,7 +239,7 @@ P=0.19) or triglycerides (+0.04, P=0.22) with modest reduction — the small phy
 aldosterone/noradrenaline rises being the compensations WHO also observed. This **corroborates** WHO's
 *high-certainty, no-harmful-effect-on-lipids* rating (this page's Limits), but through the same
 He/MacGregor lineage — a body line, not a `sources:`-padding independent backing.
-[@he2013, Table 3]
+[@he2013]
 
 ## How the gap is bridged — a disclosed surrogate transfer
 
@@ -249,7 +249,7 @@ The bridge is explicit, and it is the guideline's most consequential methodologi
 > outcomes, the evidence of an effect of sodium on blood pressure was **also considered
 > moderate-quality evidence** that reduced sodium is beneficial for reducing risk of cardiovascular
 > disease, stroke and coronary heart disease."
-[@who2012, Annex 8, p.37]
+[@who2012]
 
 High-certainty surrogate evidence is transferred to hard outcomes **one level down**, and the direct
 very-low-certainty cohort evidence on those same outcomes is superseded rather than combined. There is
@@ -264,7 +264,7 @@ heart disease / all cause mortality] as an outcome which addressed this question
 > "High and moderate-quality evidence that consuming <2 g sodium/day compared with consuming >=2 g
 > sodium/day is beneficial for reducing blood pressure **and risk of cardiovascular disease, stroke and
 > coronary heart disease** in adults."
-[@who2012, Annex 1 p.24; Annex 8 p.37]
+[@who2012]
 
 **This is not a contradiction, and "no studies" does not mean "no evidence."** Two qualifiers do the
 work, and both are printed on the cell itself:
@@ -277,7 +277,7 @@ work, and both are printed on the cell itself:
   of cardiovascular disease, coronary heart disease and all cause mortality were not statistically
   significant."
 
-[@who2012, Annex 1 p.24, footnote 2]
+[@who2012]
 
 So the threshold claim rests on **high-certainty BP evidence at that threshold, transferred at moderate,
 plus 5 indirect cohort comparisons showing a stroke effect**. What is absent is a *directly assessed*
@@ -297,7 +297,7 @@ A roughly **three-fold difference**, which WHO records as "statistically signifi
 normotensives -- and then declines to stratify the recommendation, on a stated population-level ground:
 the high global prevalence of hypertension and the breadth of benefit. **The reason given is a
 public-health-standpoint reason, not an evidentiary one** (telos divergence class 1).
-[@who2012, Final considerations, p.16]
+[@who2012]
 
 By **baseline intake**, point estimates rise monotonically with intake (1.79 -> 2.97 -> 3.07 -> 3.91 ->
 5.74 mmHg across intake bands) and WHO reads the subgroup test as null (P=0.17), concluding the effect
@@ -313,12 +313,12 @@ stroke" as part of the justification for commissioning the review. **Neither stu
 anywhere in the evidence summary, the final considerations, or the annexes**, and whether they were among
 the 15 included cohorts is not stated. The terms *reverse causation*, *sick-quitter* and *U-shaped* do
 not appear in the document.
-[@who2012, Background p.6; Justification p.7]
+[@who2012]
 
 **Compounding this:** the strata where a lower-arm harm is most plausible were excluded *a priori* --
 "individuals with illnesses or taking drug therapy that may lead to hyponatraemia... (e.g. patients with
 heart failure and those with type I diabetes)... were not considered in the review of the evidence."
-[@who2012, Remarks, p.18]
+[@who2012]
 
 So the guideline **cannot** answer the J-curve question, and does not claim to. Per the expectancy test
 this is *unprobed*, not *disproved* -- and it is the wiki's largest open question on sodium.
@@ -332,7 +332,7 @@ low-intake arm is artifact is now on the record with mechanism. **But this is a 
 (He/MacGregor are CASH/WASH advocates) and, decisively, it is **only a critique** — no
 referent-corrected or Mendelian-randomization analysis of the low-intake arm, which is the *strong*
 check that concept requires. So He argues the arm away; he does not adjudicate it.
-[@he2013, Effect of salt reduction on CV risk]
+[@he2013]
 
 **The AWAITS therefore stays open.** `AWAITS` a source that *adjudicates* the upper-arm/lower-arm
 question directly with a confounder-immune method (the post-2011 literature: PURE, the Cochrane and
@@ -446,7 +446,7 @@ Sodium reduction is not the only dietary BP lever. The DASH **pattern** lowers S
 (-7.0, -3.4) vs control in a 20-RCT MA — and Siervo's meta-regression finds the between-arm **sodium**
 difference does **not** predict that BP change (SBP P=0.67), so DASH's effect is carried by the whole
 pattern (K, Ca, Mg, fibre, nitrate, low SFA), not by its incidental sodium contrast
--> [[DASH Diet and Blood Pressure]]. [@siervo2015, Meta-regression analysis]
+-> [[DASH Diet and Blood Pressure]]. [@siervo2015]
 
 **Decision consequence — do NOT double-count.** DASH's -5.2 mmHg and this page's sodium-reduction
 effect (He -4.18, WHO -3.39) are **different exposures against different comparators**, not two

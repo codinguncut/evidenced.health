@@ -77,7 +77,7 @@ alarm — **breast cancer runs in opposite directions.**
 | Breast-cancer mortality (20 y) | HR 1.35 (0.94-1.95), NS | **HR 0.60 (0.37-0.97), reduced** | **No** |
 | Endometrial protection | the reason progestogen is added | N/A (no uterus) | different indication |
 
-[@nams2022, NAMS - Hormone Therapy Position Statement 2022]
+[@nams2022]
 Source: «After 20 years of median cumulative follow-up, CEE alone was associated with significantly lower
 breast cancer incidence (HR, 0.78; 95% CI, 0.65-0.93) and breast cancer mortality (HR, 0.60; 95% CI,
 0.37-0.97) ... In contrast, CEE plus MPA was associated with significantly higher breast cancer incidence

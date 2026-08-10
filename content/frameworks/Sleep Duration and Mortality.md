@@ -34,7 +34,7 @@ one (*any deviation from 7-8 h shortens life*) is the error this page exists to 
 | **Short sleep** (commonly <7 h, often <5 h) | **1.12 (1.06-1.18)** | I2 = 39% | Cappuccio |
 | **Long sleep** (commonly >8-9 h) | **1.30 (1.22-1.38)** | I2 = 71% | Cappuccio |
 
-[@cappuccio2010, Results]
+[@cappuccio2010]
 
 16 studies, 27 cohorts, 1.38 million people, 112k deaths, all-cause mortality; reference «7 to 8 h per
 night». Short-follow-up studies (<3 y) were «excluded a priori... to avoid measurements of sleep
@@ -54,7 +54,7 @@ level of physical activity, undiagnosed health conditions, poor general health, 
 fatigue». The authors' framing: long sleep «may be a powerful additional marker of ill-health» and
 «sleeping 9 h or more per night may represent a useful diagnostic tool for detecting subclinical or
 undiagnosed co-morbidity».
-[@cappuccio2010, Discussion]
+[@cappuccio2010]
 
 **Three tells confirm the long arm is artifact-shaped, not dose-shaped** — each is exactly what the
 concept says to look for:
@@ -65,7 +65,7 @@ concept says to look for:
   RR 1.46 vs <60 y 1.22) and rising «>8 h, >=9 h... >=10 h» (>=10 h RR 1.54) — a frailty/illness gradient,
   not a physiological dose-response. The short arm, by contrast, is **flat across every subgroup**
   (age, cutoff; heterogeneity P=0.89).
-[@cappuccio2010, Sources of Heterogeneity; Figure 5]
+[@cappuccio2010]
 
 **The short-sleep arm has the causal footing the long arm lacks.** It carries a named mechanism —
 «reciprocal changes in circulating levels of leptin and ghrelin... increase appetite, caloric intake,
@@ -74,7 +74,7 @@ cortisol, growth hormone, and low-grade inflammation — and cause-specific dire
 Whitehall II: those who **curtailed** sleep died «predominantly from cardiovascular causes (2.04)»
 while those who **increased** sleep died mainly of «non-cardiovascular» causes (2.06) — the pattern
 expected if short sleep is causal and long sleep tracks illness.
-[@cappuccio2010, Potential Mechanisms; Study Limitations]
+[@cappuccio2010]
 
 **Caveat on the leptin/ghrelin mechanism — the RCT evidence does not support it.** The appetite-hormone
 axis cited above is the popular *explanation*; a meta-analysis of sleep-manipulation RCTs found **no**

@@ -95,7 +95,7 @@ honest summary is: **broad, consistent associations at low-to-very-low causal ce
 | Wheezing | RR 1.40 (1.27-1.55) | class II | low |
 | Obesity (prevalent, non-DR) | OR 1.55 (1.36-1.77) | class II | low |
 
-[@lane2024upf, Figs 2-4 + Results]
+[@lane2024upf]
 
 - **The overall spread is not uniformly strong.** Of 45 analyses: 9% class I, 16% class II, 29% class III
   suggestive, 18% class IV weak, **29% class V no evidence**. «direct associations were found between

@@ -120,7 +120,7 @@ intake lowered body weight by about **-0.37 kg** (GRADE High) alongside small re
 cholesterol and blood pressure. [@reynolds2019]
 SACN's whole-grain trials point the same way on the intermediate: higher whole-grain consumption reduced
 energy intake by -360 kJ (95% CI -642 to -79) — though one trial supplied 75% of that pooled estimate, so
-it is thin. [@sacn2015, 8.126-8.149] Satiety as a stand-alone,
+it is thin. [@sacn2015] Satiety as a stand-alone,
 directly-measured outcome is thinly quantified — treat the weight number as the anchor and satiety as its
 plausible mechanism.
 
@@ -176,14 +176,14 @@ fibre.
   fermenting and cooking all reduce phytate, and whole-diet studies do not show a mineral-status problem in
   balanced diets. It matters mainly for monotonous high-phytate diets with already-marginal mineral status,
   or (for the tannin/iron version) low-iron individuals — Petroski's own stratum here is populations
-  reliant on tannin-rich staple foods [@petroski2020, section 7.6];
+  reliant on tannin-rich staple foods [@petroski2020];
   the classic high-income iron-deficient stratum being menstruating women — route-(c)
   contraindications firing in a named stratum, not a general warning.
   -> [[Antinutrients in Plant Foods]]
 
 One acute, non-fibre caveat rides along with high-fibre foods: raw or undercooked kidney beans and soybeans
 cause real lectin poisoning — «boiling or autoclaving is required to eliminate lectins, as reduced cooking
-temperatures do not significantly affect lectin content». [@petroski2020, section 2.6]
+temperatures do not significantly affect lectin content». [@petroski2020]
 That is a cooking instruction, not an argument against legumes.
 
 **Net:** the downsides are small, mostly transient, and preparation- and dose-managed. They shift the

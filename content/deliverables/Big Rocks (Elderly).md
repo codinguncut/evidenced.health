@@ -35,7 +35,7 @@ And *competing risk shrinks the runway*
 for pure-longevity plays: the same intervention buys fewer disease-free years the older you are. The
 European cardiology guideline puts numbers on this — for a 1 mmol/L LDL reduction the modelled gain
 falls from roughly 0.6-1.6 CVD-free years at 45-49 to about 0-0.3 years by age 90
-[@esc2021, Figure 12] — and it drops lipid-lowering to a weaker
+[@esc2021] — and it drops lipid-lowering to a weaker
 recommendation class (IIb, "may be considered") at age >=70 even in its highest-risk band
 [@esc2021]. So the ranking is sorted on
 function-and-independence first, not on mortality alone ([[Lifetime Benefit - The Frame for Younger Adults]]).
@@ -203,7 +203,7 @@ real absolute benefit — until competing risk closes the window, leaving a narr
 
 - **Saturated fat / PUFA.** Reducing saturated fat prevents about **15 cardiovascular events per 1000**
   (RR 0.83, 0.70-0.98, moderate certainty) — events only; every mortality outcome is null
-  [@who2023saturated, Annex 6]. In trial terms that is a number
+  [@who2023saturated]. In trial terms that is a number
   needed to treat of \~56 over four years [@hooper2020].
   The relative effect is constant across baseline risk, so the *absolute* benefit is somewhat larger at
   this stratum's higher risk — but a four-year horizon shrinks as competing risk grows. A small lever
@@ -215,7 +215,7 @@ real absolute benefit — until competing risk closes the window, leaving a narr
 - **Sodium — and here the lever is genuinely double-edged for the old.** Reducing sodium lowers blood
   pressure (about 3.39 mmHg systolic, high certainty) but its hard-outcome evidence is very low certainty
   [@who2012], and the guideline deliberately *excluded* people prone to low
-  sodium (heart failure, on certain drugs) [@who2012, Remarks]. **Aggressive
+  sodium (heart failure, on certain drugs) [@who2012]. **Aggressive
   sodium (or energy) restriction can worsen appetite and intake in a frailty-prone older adult**, so this
   is not a lever to push hard here ([[Sodium Intake and Blood Pressure]]).
 - **Red / processed meat.** The evidence is a standing tension: one body says limit it, another says

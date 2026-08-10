@@ -28,7 +28,7 @@ the diagnostic for separating them — and the central finding is that on the gu
 
 Certainty is *one* input to strength, alongside the balance of desirable and undesirable consequences,
 **values and preferences**, and **resource use**.
-[@grade, §6.1, §6.2] -> [[Certainty of Evidence vs Strength of Recommendation]]
+[@grade] -> [[Certainty of Evidence vs Strength of Recommendation]]
 
 So a recommendation can legitimately be strong on weak evidence, or weak on strong evidence, and
 neither is an error. **The question is never *did non-evidence considerations enter?* — they are supposed to. It is
@@ -49,7 +49,7 @@ infrastructure... and the available resources"*, and by the fact that *"widespre
 of certain food items high in SFA and/or TFA may pose challenges in decreasing consumption to meet the
 recommended intake."*
 
-[@who2023saturated, Annex, evidence-to-decision table]
+[@who2023saturated]
 
 **A guidance body naming national economies among its considerations is the strongest available
 evidence that the multi-objective concern is real — and it is the body's own disclosure.**
@@ -71,7 +71,7 @@ current, popular perception that diets high in SFA do not pose a health risk"* �
 recommendation regardless, justified on evidence alone: *"Recommendation 1 was assessed as strong
 because evidence of moderate certainty overall from different study types assessing both risk factors
 and incidence of CVDs suggested reduced risk of CVDs with lower SFA intake."*
-[@who2023saturated, Rationale; evidence-to-decision table]
+[@who2023saturated]
 
 **So the claim that multiple objectives make guidance *less stringent* is not entailed, and here is
 falsified.** The
@@ -112,7 +112,7 @@ WHO's EtD feasibility row says the same from the other side: *"widespread use an
 certain food items high in SFA and/or TFA may pose challenges in decreasing consumption to meet the
 recommended intake."*
 
-[@nasem, ch.5, ch.6; (WHO - Saturated and Trans Fatty Acid Intake 2023) EtD table]
+[@nasem]
 
 ### The purest observable case: a ceiling anchored to current consumption
 
@@ -138,7 +138,7 @@ quo, functioning as the recommendation's location.
 levels"* has no individual referent — a person eating 80 g/d exceeds every country's average, one
 eating 10 g/d is under all of them. **A reader who accepts the constraint still cannot apply it.**
 
-[@nnr2023, ch.3, ch.7]
+[@nnr2023]
 
 ### Why the symmetry matters — it makes the thesis testable
 
@@ -184,11 +184,11 @@ EFSA 2022 on dietary sugars is the opposite specimen — a clean instance of div
 > «Establishing dietary goals or recommendations for dietary sugars (e.g. a limit of intake) and FBDGs
 > on sugar-containing foods is part of national nutrition policies and thus in the remit of individual
 > EU Member States, not under EFSA's remit.»
-> [@efsasugars2022, Additional information]
+> [@efsasugars2022]
 
 EFSA delivers a **UL risk assessment** (hazard characterisation) and states «a UL is not a recommended
-level of intake» [@efsasugars2022, Interpretation of the ToR]. Its output — no threshold identifiable, «as low as possible»
-[@efsasugars2022, Abstract] — is deliberately number-free, and the number-setting (WHO's `<10%`, national FBDGs) is
+level of intake» [@efsasugars2022]. Its output — no threshold identifiable, «as low as possible»
+[@efsasugars2022] — is deliberately number-free, and the number-setting (WHO's `<10%`, national FBDGs) is
 handed to a *different actor operating under a different standpoint*.
 
 **Why it sharpens the diagnostic:** the whole difficulty this page addresses — separating the effect

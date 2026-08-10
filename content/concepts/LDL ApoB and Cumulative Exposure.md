@@ -201,11 +201,11 @@ instruments for LDL-C, triglycerides, and apoB; these were carried into MR again
 
 > "In multivariable MR, only apolipoprotein B ... retained a robust effect, with the estimate for LDL
 > cholesterol ... reversing and that of triglycerides ... becoming weaker."
-> [@richardson2020, Abstract]
+> [@richardson2020]
 
 > "These findings suggest that apolipoprotein B is the predominant trait that accounts for the
 > aetiological relationship of lipoprotein lipids with risk of CHD."
-> [@richardson2020, Conclusions]
+> [@richardson2020]
 
 **Read it correctly — apoB is *necessary*, LDL/TG are not discredited.** The LDL-C null is NOT a claim
 that cholesterol is causally inert; Richardson is explicit that the findings «do not discredit the causal
@@ -213,10 +213,10 @@ roles that LDL cholesterol or triglycerides play», because apoB does not occur 
 but is always accompanied by cholesterol and triglycerides. The source's own verdict is necessity, in its
 words: «apolipoprotein B is the necessary element in order for lipoprotein lipids to exert their causal
 effect on risk of CHD—in other words, apolipoprotein B is a critical entity that underlies the
-relationship of lipid traits and risk of CHD.» [@richardson2020, Discussion] The probabilistic corollary the paper draws: «changes in
+relationship of lipid traits and risk of CHD.» [@richardson2020] The probabilistic corollary the paper draws: «changes in
 cholesterol or triglycerides that are not accompanied by commensurate changes in apolipoprotein B may not
 lead to altered risks of CHD.»
-[@richardson2020, Discussion] This is the
+[@richardson2020] This is the
 **genetic-natural-experiment shadow of Ference's concordance proviso** and of the MCE/Sydney worked cases
 below: a cholesterol change *discordant* with apoB does not transmit to the outcome — now shown in genes,
 not just in a diet trial.
@@ -226,12 +226,12 @@ not just in a diet trial.
 apoA-I 0.94, P=0.59), while apoB stayed causal (1.68). So HDL-raising therapies «will only have beneficial
 effects if they also lower apolipoprotein B» — the genetic rationale for the failed CETP/HDL-raising
 programme, and a reason not to treat HDL-C as an independent target.
-[@richardson2020, Discussion]
+[@richardson2020]
 
 **Decision refinement — target the particle count.** «the primary focus of lipid-modifying therapies ought
 to be the reduction in number of atherogenic lipoproteins (as measured by apolipoprotein B) rather than the
 reduction in cholesterol or triglycerides», especially where drugs have discrepant effects across the lipid
-traits. [@richardson2020, Discussion] This
+traits. [@richardson2020] This
 grounds the page's held *measure apoB* view with a genetic design, and sharpens it from *measure* to
 *target and dose on* apoB.
 
@@ -407,7 +407,7 @@ and where it stands against this page:
 - **It CONCEDES the causal core** — «LDL particles play a causal role in the development of CVD» and
   there is "a relationship between lowering of LDL cholesterol and CVD benefit." So this is not
   LDL-denial; it is a claim about the *diet-induced* change specifically.
-  [@astrup2020, LDL Cholesterol and Other Biomarkers]
+  [@astrup2020]
 - **The argument:** SFA restriction lowers mainly "large LDL particle subspecies... which are much
   less strongly related to CVD risk," not the small dense LDL, and also lowers HDL — so the total:HDL
   ratio barely moves and "the potential benefit of dietary restriction of saturated fat could be
@@ -418,7 +418,7 @@ and where it stands against this page:
   ratio (the stronger predictor), while higher carbohydrate → lower LDL **but** higher ApoB/ApoA1 —
   concluding «predicting the net clinical effect based on considering only the effects of nutrient
   intake on LDL cholesterol is not reliable».
-  [@dehghan2017, Discussion] This is the
+  [@dehghan2017] This is the
   discordance-in-the-diet-direction claim in cohort data — and note it is itself an **apoB argument**
   (the hazard tracked apoB/apoA1, not LDL-C), so it reinforces *measure apoB*, this page's held view,
   rather than displacing it. Observational and confounded by income, so directional not decisive.
@@ -448,7 +448,7 @@ mortality 1.13, all-cause 1.07) -> [[Linoleic Acid and Cardiovascular Disease]].
 an explicit off-target/concordance argument: «a decrease in low density lipoprotein can represent widely
 different biochemical phenomena», so «some agents that decrease low density lipoprotein have been shown to
 reduce the risk of coronary heart disease... while others have no clear effect... and still others might
-actually increase risk.» [@ramsden2016, Why didn't lowering serum cholesterol translate to clinical improvement?]
+actually increase risk.» [@ramsden2016]
 
 **Same-quantity discipline — this does NOT refute apoB causality; it lands inside the proviso.** MCE
 measured **total serum cholesterol only** (Ramsden concedes LDL/HDL subfractions were not assayed), so it

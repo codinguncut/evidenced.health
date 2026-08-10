@@ -61,7 +61,7 @@ FAO's Table 6 (illustrating regulatory protein-content claims) is the decision-r
 | Peas | 21 | **64** | Low |
 | Whole milk powder | 28 | **122** | High |
 
-[@fao2013, Table 6]
+[@fao2013]
 
 Read it as the maintainer's claim made concrete. Both plant foods are graded **Low** quality even
 though peas carry a respectable 21 g protein per 100 g: the score is capped by the *limiting* amino
@@ -127,7 +127,7 @@ toxicity side*, and shows they are largely defused by the same step:
 > «Phytates should not significantly impair mineral status when included as part of a diverse and
 > balanced diet, especially if using traditional processing methods such as soaking, germinating,
 > fermenting, and cooking.»
-> [@petroski2020, section 6.6]
+> [@petroski2020]
 
 So the maintainer's two separate questions — *"is soaking worth it?"* and *"is plant protein
 bioavailable?"* — are **one variable (antinutrient load) with one lever (traditional processing) seen

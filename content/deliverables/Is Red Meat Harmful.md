@@ -62,7 +62,7 @@ unprocessed red meat the association is weak and does not even reach statistical
 pooled estimate — and both are low certainty.**
 
 The World Cancer Research Fund's 2018 review gives the association per standard dose
-[@wcrf2018, Table 5.1]:
+[@wcrf2018]:
 
 - **Processed meat -> colorectal cancer: relative risk 1.16 (95% CI 1.08 to 1.26) per 50 g/day** —
   significant and consistent.
@@ -74,13 +74,13 @@ The World Cancer Research Fund's 2018 review gives the association per standard 
 
 WCRF also records the confounding candidly — an apparent red-meat effect could partly reflect *low
 intakes of protective foods* (fibre, vegetables) that red-meat eaters skip, and it did not run the
-adjustment to rule that out [@wcrf2018, 4.2.1.1].
+adjustment to rule that out [@wcrf2018].
 
 ### The absolute effect — the number that reframes it
 
 WCRF never states an absolute risk; the NutriRECS consortium did, translating the same associations for
 a **realistic 3-servings-per-week reduction** (typical Western intake is 2 to 4 servings/week)
-[@nutrirecs2019, Table 1]:
+[@nutrirecs2019]:
 
 - **Unprocessed red meat -> overall cancer mortality: 7 fewer deaths per 1000 people over a lifetime**
   (range 9 fewer to 6 fewer), low certainty — with no significant difference across eight other cancer
@@ -96,11 +96,11 @@ honest. The absolute framing is the one a personal decision actually uses.
 
 Two authoritative bodies read essentially the same cohort evidence and graded it oppositely. WCRF calls
 processed meat a "convincing" cause and red meat a "probable" cause of colorectal cancer — strong-enough
-to justify a public recommendation [@wcrf2018, 5.1.1.4]. NutriRECS, applying strict GRADE (a formal certainty-rating system), calls the
+to justify a public recommendation [@wcrf2018]. NutriRECS, applying strict GRADE (a formal certainty-rating system), calls the
 identical evidence **low-to-very-low certainty**, on the grounds that observational studies without a
 large effect or a compelling dose-response gradient support only low-certainty causal claims, and it
 declined to rate up for dose-response because of residual confounding
-[@nutrirecs2019, Discussion].
+[@nutrirecs2019].
 
 The trial and cohort evidence underneath both bodies confirms this is a grading dispute, not a numbers
 dispute:
@@ -124,7 +124,7 @@ The disagreement is entirely in the step on top — whether that warrants tellin
 WCRF's mechanistic account also tracks the processed/unprocessed gap: haem iron promotes tumour
 formation by stimulating carcinogenic N-nitroso compounds, and curing/processing adds nitrites on top —
 which is why WCRF rates the mechanism "robust" for processed meat but only "moderate" for red meat, the
-same split as its convincing/probable grades [@wcrf2018, 5.1.1.3].
+same split as its convincing/probable grades [@wcrf2018].
 
 ## Red meat and heart disease
 
@@ -147,7 +147,7 @@ about 17%:
 
 In absolute terms that is **RR 0.83 (0.70 to 0.98), about 15 fewer cardiovascular events per 1000**,
 moderate certainty — a number-needed-to-treat of roughly 56 people over four years for one avoided
-event [@who2023saturated, Annex 6; (Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020)]. But three caveats shrink what this says about red
+event [@who2023saturated]. But three caveats shrink what this says about red
 meat specifically:
 
 - **It depends on the replacement.** What replaces the saturated fat sets the sign of the effect: the
@@ -219,7 +219,7 @@ or red meat), but the evidence stops at mechanisms and surrogate markers — no 
 gentler cooking changes a patient-important outcome. This is a genuine gap, stated plainly.**
 
 Two mechanisms are real. High-temperature cooking forms HCAs and PAHs, which WCRF grades as a "robust"
-carcinogen mechanism for processed meat [@wcrf2018, 5.2.1.3]. And low-AGE diets (achieved largely by steaming, poaching or slow-cooking
+carcinogen mechanism for processed meat [@wcrf2018]. And low-AGE diets (achieved largely by steaming, poaching or slow-cooking
 instead of frying and grilling) do move some markers — a meta-analysis of 17 RCTs found small drops in
 insulin resistance, total and LDL cholesterol [@baye2017]. But the LDL effect is trivially small (about -0.06 mmol/L), and the parameters people
 actually care about did not move: **no change in weight, fasting glucose, HbA1c, HDL or blood
@@ -246,7 +246,7 @@ lean-eating, low-risk person.
 Red meat is a **high-quality protein source** and a dense source of bioavailable iron, B12 and zinc.
 On protein quality it scores near the top: the FAO's DIAAS metric ranks animal proteins (whole-milk
 powder scores 122) well above unprocessed plant staples (wheat 40, peas 64), because plant proteins are
-capped by a limiting amino acid and lower digestibility [@fao2013, Table 6]. So cutting red meat is not free — it removes a high-quality
+capped by a limiting amino acid and lower digestibility [@fao2013]. So cutting red meat is not free — it removes a high-quality
 protein source, and the substitution's protein quality is a real cost unless dairy, eggs, fish, or
 deliberate plant complementation (e.g. legumes plus grains) remain in the diet.
 
@@ -270,7 +270,7 @@ recommendation:
 
 They do **not** disagree about the numbers — both accept a small, mostly-colorectal, low-certainty
 association. They disagree about a **decision-theoretic** question the evidence cannot settle
-[@grade, §1.2, §6.1]:
+[@grade]:
 
 - **The standard of proof.** WCRF's "probable" grade is precautionary — strong-enough-to-act.
   NutriRECS applies strict GRADE, calls the same evidence low-certainty, and declines to recommend

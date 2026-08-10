@@ -27,7 +27,7 @@ continents, 10.6 million participants** (the primary bias-controlled analysis dr
 -> [[The U-Shaped Association Artifact]]: the *pre-specified primary analysis* restricts to
 never-smokers, drops anyone with chronic disease at baseline, and excludes the first 5 years of
 follow-up — «Primary analyses will also exclude current and former smokers, and the first 5 years of
-follow-up.» [@globalbmi2016, eAppendix 2]
+follow-up.» [@globalbmi2016]
 
 ## The corrected curve — nadir at 22.5-25, monotone rise above it
 
@@ -35,7 +35,7 @@ In the bias-controlled analysis the curve is **J-shaped with a nadir at BMI 22.5
 pre-specified reference category), a shallow, mostly reverse-causation underweight arm to its left,
 and a **steady monotone rise above 25** with no plateau in the studied range. Per 5 kg/m2 above BMI
 25, all-cause mortality rises **HR 1.31 (1.29-1.33)** overall.
-[@globalbmi2016, Figure 1]
+[@globalbmi2016]
 
 WHO 6-group hazard ratios, primary analysis (never-smokers, no baseline chronic disease, first 5
 years excluded; reference = normal weight 18.5-25):
@@ -49,22 +49,22 @@ years excluded; reference = normal weight 18.5-25):
 | Obesity II 35 to <40 | 1.92 (1.86-1.98) |
 | Obesity III 40 to <60 | 2.71 (2.55-2.86) |
 
-[@globalbmi2016, eTable 5 (strictest row) / eTable 7]
+[@globalbmi2016]
 
 **Stratum-dependence (steepness, per 5 kg/m2 above 25) — the relative effect is real but not
 uniform:**
 
 - **Age** — steepest in the young, attenuating with age: 35-49 y **1.52 (1.47-1.56)**, 50-69 y 1.37
-  (1.35-1.39), 70-89 y 1.21 (1.17-1.25). [@globalbmi2016, Figure 2]
+  (1.35-1.39), 70-89 y 1.21 (1.17-1.25). [@globalbmi2016]
 - **Sex** — steeper in men: men **1.51 (1.46-1.56)**, women 1.30 (1.26-1.33).
-  [@globalbmi2016, Figure 3]
+  [@globalbmi2016]
 - **Region** — Europe 1.39, North America 1.29, East Asia 1.39, Australia/NZ 1.31; **South Asia
   1.13 (0.97-1.30)** is the one non-significant region — but on only 3 studies / 4,040 deaths, so its
   flatness is as likely small-n imprecision as a real regional difference (East Asia, with 46 studies,
   shows the *same* steep 1.39 as Europe).
-  [@globalbmi2016, Figure 1]
+  [@globalbmi2016]
 - **Cause** — CHD 1.42, stroke 1.42, respiratory 1.38, cancer 1.19 (cancer the shallowest).
-  [@globalbmi2016, Figure 4]
+  [@globalbmi2016]
 
 ## The obesity paradox is a bias-cascade artifact — watch the overweight arm move
 
@@ -80,7 +80,7 @@ weight, across the eTable 5 cascade (189 studies):
 | + exclude first 5 years of follow-up | 1.03 (1.01-1.04) |
 | + restrict to never-smokers (primary) | 1.11 (1.10-1.11) — clear *harm* |
 
-[@globalbmi2016, eTable 5]
+[@globalbmi2016]
 
 [inferred from @globalbmi2016] The *obesity paradox* (overweight appearing
 protective for mortality) is, on this evidence, **manufactured by smoking confounding, reverse
@@ -103,7 +103,7 @@ sign by smoking stratum:
 | Obesity I 30-35 | 1.39 (1.33-1.44) | 1.13 (1.09-1.17) |
 | Obesity III 40-60 | 2.69 (2.43-2.97) | 2.04 (1.85-2.24) |
 
-[@globalbmi2016, eTable 6]
+[@globalbmi2016]
 
 In ex/current smokers overweight looks *protective* (0.94) and the whole obesity gradient is
 flatter; in never-smokers overweight is *harmful* (1.07) and every grade is steeper. The
@@ -135,31 +135,31 @@ between higher BMI and greater risk of all-cause mortality (hazard ratio [HR] pe
 coronary heart disease (HR: 1.12; 95% CI: 1.00-1.25) and those excluding coronary heart
 disease/stroke/aortic aneurysm (HR: 1.24; 95% CI: 1.03-1.48), stomach cancer (HR: 1.18; 95% CI:
 0.87-1.62), and esophageal cancer (HR: 1.22; 95% CI: 0.98-1.53)».
-[@wade2018, abstract/Table 2] The all-cause
+[@wade2018] The all-cause
 point estimate (1.03/unit; scaled \~16% per 5 kg/m2, 95% CI -5% to +41%) is directionally supportive but
 **imprecise** — its CI crosses the null, and the Durbin-Wu-Hausman test finds no significant
 observational-vs-MR difference (P=0.96). The **CVD arm is where MR reaches significance** (1.10, 1.01-1.19),
 and MR estimates are of «similar or greater magnitude to observational analyses (with wider CIs)».
-[@wade2018, MR analyses]
+[@wade2018]
 
 **What MR says about the U-curve — the low arm largely deflates, the high arm is genetically corroborated
 (significant for CVD-cause mortality; directional but imprecise for all-cause).**
 «The J-shaped BMI-mortality association remained in MR analyses ... but with a smaller value of BMI at
 which mortality risk was lowest (\~23 vs. \~26 kg/m2 with observational analyses) and apparently flatter
 over a larger BMI range».
-[@wade2018, Linearity] The nadir shifts
+[@wade2018] The nadir shifts
 DOWN from \~26 (observational) into the normal range (\~23), and the residual J is driven by the extreme
 BMI quantiles — removing them yields a linear association (P=0.999 for linear trend). Wade names the
 mechanism: «Reverse causality is an important source of bias in observational estimates ... and may be
 the driver of the characteristic J-shaped association», so the observational curve «overestimate[s] the
 harmful effects of having underweight while underestimating the harmful effects of having overweight or
-obesity». [@wade2018, Discussion] The
+obesity». [@wade2018] The
 *direction* of the correction is the payoff: MR **deflates** the underweight arm (reverse causation) and
 **inflates** the obesity arm — the mirror image of the confounder-strip cascade above, reached
 genetically. Severe underweight plausibly keeps real harm (Wade concedes it «is plausible that
 individuals considered to have severe and unhealthy underweight have a higher risk of mortality»),
 converging with the Global BMI residual underweight 1.47.
-[@wade2018, Discussion]
+[@wade2018]
 
 **Independence verdict — type-F refinement, NOT independent-E (the lineage chase mattered).** Before
 counting Wade as an independent genetic witness, build the parameter table and chase the authorship:

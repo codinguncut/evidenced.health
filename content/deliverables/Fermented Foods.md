@@ -88,7 +88,7 @@ composes with the case that the food category, not the saturated fat, is doing t
 | **Stroke** | **0.87 (0.75-1.01)** | **no** |
 | **CHD** | **0.85 (0.67-1.08)** | **no** |
 
-[@zhang2019, Table 2]
+[@zhang2019]
 
 - **The signal is on incidence, not mortality**, and it disappears on stroke and coronary heart disease
   taken alone. An odds ratio is used as the risk measure throughout, and no absolute risks or baseline

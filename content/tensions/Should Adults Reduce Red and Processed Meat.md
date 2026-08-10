@@ -31,13 +31,13 @@ issue.
   cancer — grades that «generally justify making public health recommendations.» A cancer-prevention
   body: «we want to live in a world where no one develops a preventable cancer.» It does not compute an
   absolute effect and does not weigh consumers' preferences.
-  [@wcrf2018, 5.x.1.4; , Mission]
+  [@wcrf2018]
 - **NutriRECS (continue).** The same evidence is low-to-very-low certainty under strict GRADE; the
   absolute effect of a realistic 3-servings/week cut is "very small and often trivial" (about 7 fewer
   cancer deaths per 1000 over a lifetime); and "given peoples' attachment to their meat-based diet...
   the associated risk reduction is not likely to provide sufficient motivation." It takes "the
   perspective of individual decision making rather than a public health perspective."
-  [@nutrirecs2019, Rationale; Discussion]
+  [@nutrirecs2019]
 
 ## Parameter table — where the two actually meet, and where they only appear to
 
@@ -97,7 +97,7 @@ association warrant a reduce-recommendation at all?* Here they genuinely clash o
   NutriRECS states the disagreement in its own terms: "other guidelines have not used the GRADE
   approach for rating certainty of evidence... As a result, we are less convinced of meat consumption
   as a cause of cancer."
-  [@nutrirecs2019, Discussion]
+  [@nutrirecs2019]
 - **whether trivial-but-real warrants action.** NutriRECS concedes "this does not preclude the
   possibility that meat has a very small causal effect" — so it is not disputing causation outright, it
   is judging a small, uncertain effect insufficient to override preference. WCRF's grade-to-recommendation
@@ -150,7 +150,7 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
   ILSI funding for the lead author). Per the telos this is a process-flag to record, not a refutation —
   the argument stands or falls on its GRADE reasoning, not its funding, and the class-5 process-defect
   charge needs an independent institutional review, not an advocate's objection.
-  [@nutrirecs2019, Correction]
+  [@nutrirecs2019]
 
 ## Self-critique `[run 2026-07-28; re-run 2026-07-29 after ingesting the NutriRECS evidence base]`
 

@@ -49,12 +49,12 @@ Selection-on-significance does not only decide *whether* an effect is published;
 *magnitude*. Replications regress toward smaller effects: «Efforts to replicate studies aimed at
 discerning the effect of an intervention in a study population may find a similar direction of
 effect, but a different (often smaller) size of effect.»
-[@nasem2019, FINDING 5-2]
+[@nasem2019]
 
 The large replication projects quantify the shrink: Open Science Collaboration psychology — 36% of
 replications significant vs 97% of originals, and **mean effect sizes were halved**; Many Labs 2 —
 75% of replicated effects smaller than the original; Camerer social-science \~50% of original.
-[@nasem2019, Table 5-1]
+[@nasem2019]
 
 **Decision rule:** treat a *published original* effect size as an **over-estimate** by default; the
 replicated / meta-analytic magnitude is the one to carry into a decision. This is the winner's-curse
@@ -77,7 +77,7 @@ domain-uncertain and not read off the "halved" figure.**
   illustration `[2026-08-04]`.** In the diet-heart RCT literature the orthodoxy *was* the diet-heart
   benefit, so the suppressed results were the ones *unfavourable* to it: Hamley notes SDHS did not
   originally report CHD/CVD mortality and MCS took \~16 years to publish, and *«Both SDHS and MCS were
-  unfavourable trials for the popular diet heart hypothesis.»* [@hamley2017, Publication bias]
+  unfavourable trials for the popular diet heart hypothesis.»* [@hamley2017]
   A single contrarian author's observation (he flags it *might* «simply reflect methodological
   differences»), so held as illustration, not established selective-reporting — but a useful reminder
   that the file-drawer points wherever the field's expectation points -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].

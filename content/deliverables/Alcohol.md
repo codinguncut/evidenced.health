@@ -9,15 +9,28 @@ updated: 2026-08-10
 self_critiqued: 2026-08-10
 ---
 
-Alcohol is ethanol first: the direction, the magnitude, and the dose-response shape all differ by outcome, so the lay question *is a drink good for me?* has no single answer — the outcomes have to be separated and each answered on its own evidence. The most-repeated claim, that moderate drinkers outlive abstainers (the J-curve), does not survive adjudication. Correcting how "abstainers" are defined — many are former drinkers who quit *because* they were ill (sick-quitter misclassification) — erases the apparent low-dose benefit [@stockwell2016, Results; Discussion; Conclusions], and Mendelian randomization — using gene variants that lower alcohol tolerance as a lifelong exposure proxy immune to reverse causation — finds no protective lower arm [@millwood2019, Results]. Two independent methods agree the low-dose benefit is largely not causal.
+*Is a drink good for me?* has no single answer, because alcohol affects different organs
+differently, and an honest reply has to take them one at a time. But the headline is firm: the
+reassuring idea that a moderate drinker outlives a teetotaller does not hold up. Many of the
+"non-drinkers" it rests on are former drinkers who stopped because they were already ill;
+correct for that, then check it against genetics, and the apparent benefit of a daily glass
+disappears.
 
-With that arm set aside, the per-outcome picture is several curves, not one. Ethanol causally raises stroke risk and blood pressure, monotonically, with no low-dose exemption (total stroke RR 1.38 [1.26-1.51] per 280 g/week) [@millwood2019, Results]. For cancer there is no lower threshold — risk rises from the first drink, alcoholic drinks are an IARC Group 1 carcinogen, and moderate drinking is not exempt [@wcrf2018ter, §5.1 Limit alcohol].
+Taken organ by organ, what remains is mostly harm that begins early. Alcohol raises blood
+pressure and stroke risk with no safe lower dose, and it raises the risk of several cancers
+from the very first drink — moderate drinking included. Past a few drinks a day it measurably
+shortens life, and the level at which that shows is lower for women than for men. Only the
+heart is genuinely unresolved: for coronary disease a small real benefit cannot yet be ruled
+out, so the harm alcohol does to the vessels of the brain does not simply extend to it.
 
-All-cause mortality shows detectable harm above a sex-specific dose — pooled about 45 g/day (\~4-5 drinks), women from about 25 g/day (\~2-3 drinks), roughly half a man's — read as the edge of statistical detectability, not a safe level below it [@zhao2023, Results; Discussion; Table 4]. The one genuinely unresolved outcome is coronary heart disease / MI: the genetic estimate is null (0.96 [0.78-1.18]) and a small real benefit cannot be excluded, so the stroke harm does not extend to the heart [@millwood2019, Discussion].
 
-Total grams of ethanol is the dominant axis. Drinking pattern is a real second one — concentrating a week's drinks into heavy sessions raises heart-disease risk at the same average volume — while beverage type carries no measurable benefit at dietary doses: the red-wine / resveratrol story tests null on every outcome [@semba2014, Results; Conclusions]. At population scale the harm-minimizing level is zero [@gbd2018alcohol, Findings], which conflicts with guidelines endorsing up to two drinks a day — a clash this appraisal names but does not price.
-
-Certainty is medium, not high: the causal read rests on Mendelian-randomization assumptions in one (East-Asian) population, carried by its convergence with the Western-heavy observational evidence. And the loop is open — every judgment here is graded for coherence and source-fidelity, never against a realized outcome. This is a calibrated appraisal, not a validated prescription.
+What counts is the total amount of ethanol, not the form it comes in. Saving a week's drinks
+for two heavy nights is worse than spreading them out; the wine-versus-spirits question — and
+the red-wine "resveratrol" story in particular — buys no measurable health. Across a whole
+population the risk is lowest at zero, which sits uneasily beside guidelines that permit a
+daily drink or two; this page names that tension without pricing it. Confidence here is
+medium, not high, and the loop stays open: every judgment is graded for coherence, never
+against what later became of anyone who drank.
 
 ## Does a little drinking protect? The low-dose arm across mortality, stroke, and brain
 
@@ -31,10 +44,10 @@ outcome below reads.
 
 Two large observational analyses show the arm. In Stockwell's meta-analysis (87 studies), low-volume
 drinkers (1.3-24.9 g/day) appear to outlive abstainers — RR 0.86, 95% CI [0.83, 0.90].
-[@stockwell2016, Table 2] In Millwood's
+[@stockwell2016] In Millwood's
 half-million-person China Kadoorie cohort, self-reported intake traces a U-shape for ischaemic stroke,
 intracerebral haemorrhage, and myocardial infarction, with the lowest risk at about 100 g/week.
-[@millwood2019, Findings] Both are
+[@millwood2019] Both are
 the *pre-adjudication appearance* — the shape the data show before the referent is checked — not a
 finding. The 0.86 in particular is not carried forward as the effect of low-volume drinking.
 
@@ -48,14 +61,14 @@ lineage — the convergence, on *direction*, is the crux of this appraisal.
   protection. Using occasional drinkers rather than lifetime abstainers as the referent, «there would
   be no evidence of health protective effects for low-volume drinkers or any other category of
   drinker».
-  [@stockwell2016, Results; Discussion; Conclusions]
+  [@stockwell2016]
 - **Mendelian randomization (Millwood)** — genetic variants (ALDH2, ADH1B) that lower alcohol
   tolerance serve as lifetime-exposure instruments, immune to reverse causation and lifestyle
   confounding. The genetically-predicted relationship is monotone with no protective lower arm — total
   stroke RR 1.38 (1.26-1.51) per 280 g/week. Its verdict: «the apparently protective effects of
   moderate alcohol intake against stroke are not mainly caused by alcohol itself, and are largely
   artifacts of reverse causation and confounding».
-  [@millwood2019, Results; Research in context]
+  [@millwood2019]
 
 Two independent adjudications — a bias-corrected meta-analysis and a genetic natural experiment — reach
 the same qualitative conclusion (the low-dose benefit is not causal). The `[E-independent]` lift is on
@@ -69,7 +82,7 @@ misclassification* — people who quit *because* they became ill (sick-quitters)
 former drinkers carry elevated risk (RR 1.38 [1.24-1.54]). Confounding by frailty compounds it: 27 of
 30 candidate confounders for coronary disease were more prevalent among abstainers than among moderate
 drinkers.
-[@stockwell2016, Conclusions]
+[@stockwell2016]
 
 ### The decision rule
 
@@ -113,7 +126,7 @@ analysis adds is where harm becomes *detectable*, and it is sex-specific:
 - **Men:** null below 45 g/day.
 - Across all levels, women carried higher mortality RR than men — **sex interaction P=.001**.
 
-[@zhao2023, Results; Discussion; Table 4]
+[@zhao2023]
 
 **Read the dose correctly.** 45 g/day (25 for women) is where cohort data can *resolve* an elevation
 above noise — an evidence-detectability edge, **not** a safe threshold. It does not license "below
@@ -133,7 +146,7 @@ from zero with no protective lower arm**:
   280 g/week — the two routes converge, so here the confounding is specific to the *protective*
   claim, not to the BP effect itself.
 
-[@millwood2019, Results]
+[@millwood2019]
 
 This is causal harm (state HARM), rising across the whole studied range. It does not carry a
 threshold: there is no low-dose level shown to be exempt. Blood pressure here is a *surrogate* —
@@ -149,7 +162,7 @@ p=0.69** — «little net effect». The case count was limited, and the authors 
 benefit or hazard cannot be excluded», with any BP harm possibly «offset by cardio-protective
 changes in other factors».
 
-[@millwood2019, Discussion]
+[@millwood2019]
 
 State this as **INSUFFICIENT**, not benefit and not harm: coronary heart disease is the one outcome
 where a small real benefit is not ruled out. The stroke harm above does not transport to it, and the
@@ -168,12 +181,12 @@ consumption below which there is no increase in the risk of at least some cancer
 Breast cancer shows **no threshold**. The site-specific figures — colorectal from \~30 g/day
 (\~2 drinks), liver and stomach from \~45 g/day (\~3 drinks) — are the **edge of the graded evidence
 base, not safe levels**: they mark where the data thin out, below which risk still accrues.
-[@wcrf2018ter, §5.1 Limit alcohol; matrix asset p3, FN36-38]
+[@wcrf2018ter]
 
 A genuine protective association exists for kidney cancer (up to \~30 g/day) but is «far outweighed
 by the increased risk for other cancers» — a single-site benefit inside a net-harmful whole-organism
 ledger (net-effect rule, not a reason to drink).
-[@wcrf2018ter, §5.1 Limit alcohol]
+[@wcrf2018ter]
 
 **This card governs the cross-outcome reading:** because cancer risk starts at the first drink, the
 mortality "45 g/day" figure can never be read as a whole-body safe level.

@@ -36,14 +36,14 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
   (0.70-0.98), 15 fewer per 1000, **Moderate** certainty, the one hard outcome clearing the null.
   Meta-regression finds the benefit runs through serum-cholesterol lowering and «strengthens our
   belief that there is a true eﬀect». WHO adopts these numbers into its <10%E strong recommendation.
-  [@hooper2020, 03]
+  [@hooper2020]
 - **Astrup et al. (do not limit SFA; go food-based).** A JACC narrative *State-of-the-Art Review*:
   "the evidence from both cohort studies and randomized trials does not support the assertion that
   further restriction of dietary saturated fat will reduce clinical events." "the dietary
   recommendation to reduce intake of SFAs without considering specific fatty acids and food sources is
   not aligned with the current evidence base." No new trial — the case is re-appraisal + observational
   (PURE, UK Biobank) + mechanistic.
-  [@astrup2020, Evidence on the Health Effects of SF; Research Gaps]
+  [@astrup2020]
 
 ## Parameter table — where the two actually meet, and where they only appear to
 
@@ -100,7 +100,7 @@ endpoint) — a single lever moving a marker is not the same as it moving the ou
    joined issue is therefore at the **trial-base level** — *is the classic diet-heart evidence
    trans-fat-confounded, and does that contamination reach the pooled estimates guidance relies on?* —
    an appraisal question the two answer oppositely -> [[Certainty of Evidence vs Strength of Recommendation]].
-   [@astrup2020, From Single Nutrients to Whole Foods]
+   [@astrup2020]
 2. **If RR 0.83 is real, is it SFA harm or PUFA benefit?** Astrup: even granting the reduction, it
    "could be attributed to a possible beneficial effect of polyunsaturated fatty acids and not
    necessarily to an adverse effect of SFAs." **Hooper cannot refute this** — its own replacement
@@ -110,7 +110,7 @@ endpoint) — a single lever moving a marker is not the same as it moving the ou
    attribution is genuinely underdetermined by the trials. (A subgroup null taken at face value would,
    if anything, point *toward* SFA-removal doing the work; it is the imprecision, not the null, that
    keeps the attribution open.)
-   [@astrup2020, Evidence on the Health Effects of SF]
+   [@astrup2020]
    - **A second Hooper Cochrane review leans the attribution *away* from PUFA-addition (2026-08-04).**
      The omega-6 RCT review — same team, distinct trials — finds that *increasing* omega-6 does **not**
      reduce CVD events (RR 0.97 [0.81-1.15], Low) or mortality (RR 1.00, Low); only MI (RR 0.88, Low)
@@ -122,7 +122,7 @@ endpoint) — a single lever moving a marker is not the same as it moving the ou
      mild evidence that removing/replacing SFA, not adding omega-6, carries the events signal. It does
      not *close* the attribution (both Low certainty, distinct trial sets), but it narrows it. Same
      team/method -> F, not `[E-independent]`; full weave on [[Saturated Fat Intake and Replacement]].
-     [@hooper2018, Agreements and disagreements]
+     [@hooper2018]
 
 ## Hamley 2017 grounds joined-issue 1 — the trial-adequacy reanalysis `[2026-08-04]`
 
@@ -137,14 +137,14 @@ them by whether the arms differed in something *other* than the SFA/PUFA swap �
 control-arm margarines, multifactorial advice (ODHS, STARS), a vitamin-E-deficient control arm (LAVAT),
 more cardiotoxic thioridazine in the FMHS control arm — calling the confounder-free set **adequately
 controlled** (RCOT, MRCT, SDHS, MCS, DART) and the rest **inadequately controlled**.
-[@hamley2017, Categorisation]
+[@hamley2017]
 
 **The result is the joined-issue-1 mechanism made visible:** the one significant benefit (all-trials
 total CHD events **RR 0.80, 0.65-0.98**) **vanishes in the adequately-controlled subset** (RR **1.02,
 0.84-1.23**), the confounded subset alone carries it (RR 0.60), and the subgroup difference is
 significant (P=0.002). Even dropping *only* the inadequately-randomised FMHS loses significance (0.83,
 P=0.10). Hamley: *«The suggestion of benefits reported in earlier meta-analyses is due to the inclusion
-of inadequately controlled trials.»* [@hamley2017, Discussion]
+of inadequately controlled trials.»* [@hamley2017]
 
 **Parameter table — does this reach the RR 0.83 this page rests on? (same-quantity discipline).**
 
@@ -174,7 +174,7 @@ to **demonstrated-on-the-replacement-pool, unadjudicated on Hooper's**.
   0.84-1.23) is consistent with a real modest benefit *and* the null; his own verdict is «unlikely to
   reduce», not «shown no effect». He further concedes the adequate trials may themselves carry residual
   TFA confounding, so *«the actual RR ... may be higher [more beneficial] than what is reported»*.
-  [@hamley2017, Discussion; , Discussion]
+  [@hamley2017]
 - **For Hamley (the halo-check the other way):** single-author `moderate`, but **no funding and no
   declared competing interests** — a *cleaner* COI than the pro-LA biomarker pole (Marklund's Unilever
   support), so it must not be discounted merely for being contrarian. And the confounders he names are
@@ -206,7 +206,7 @@ supplies the **recovered-data** arm — and it converges with Hamley by a second
 ran a PRISMA meta-analysis restricted to the SFA->LA-replacement RCTs **not confounded by concomitant
 interventions** (MCE, SDHS, RCOT, LA-Vet, MRC-Soy; n=10 808). The result is a mortality null: «no
 evidence of benefit on mortality from coronary heart disease (1.13, 0.83 to 1.54) or all cause mortality
-(1.07, 0.90 to 1.27).» [@ramsden2016, Results; Fig 7]
+(1.07, 0.90 to 1.27).» [@ramsden2016]
 
 **Parameter table — what Ramsden's MA does and does not reach (same-quantity discipline).**
 
@@ -227,7 +227,7 @@ claim was that the classic trials tested PUFA against *trans+SFA* control margar
 be assigned to saturated fats alone». Ramsden argues that for **MCE specifically the trans fat was in the
 control and baseline diets, «(but not the intervention diet). Thus, confounding by dietary trans fat is an
 exceedingly unlikely explanation for the lack of benefit of the intervention diet.»**
-[@ramsden2016, Strengths and limitations] The
+[@ramsden2016] The
 direction matters: trans-fat in the *control* arm makes the control worse, which biases *toward* a
 spurious intervention **benefit** — so it can inflate a benefit, it cannot manufacture a null. That cuts
 **against** using the trans-fat confound to rescue the pro-benefit reading, and it is a genuine intra-field
@@ -250,14 +250,14 @@ post-MI men, safflower-oil n-6-selective LA replacing SFA). Its headline is a *r
 mortality signal in the LA arm (all-cause HR 1.62, CVD 1.70, CHD 1.74, all borderline) — but for the
 SFA question specifically the mediation analysis found «the reduction in SFA was not significantly
 related to any mortality outcome» (the LA *rise*, not the SFA *fall*, tracked death).
-[@ramsden2013, Association of change in PUFA and saturated fat with mortality]
+[@ramsden2013]
 So SDHS is a **replacement-trial** result on the LA side, not evidence that cutting SFA helped or
 harmed. On scope it matches MCE: a **mortality** signal (not the combined-events RR 0.83), and it
 pools to **non-significance** in Ramsden's own updated MA (LA-selective CHD mortality 1.33, 0.99-1.79,
 P=0.06). Its trans-fat direction is consistent with the MCE rebuttal — the intervention **removed**
 common margarines/shortenings, so «Restriction ... in the intervention group would be expected to
 substantially reduce consumption of trans fatty acids compared with the control group»
-[@ramsden2013, Other dietary considerations] — again biasing
+[@ramsden2013] — again biasing
 *against* a spurious benefit, not manufacturing the adverse signal. **Net for joined-issue 1:** SDHS
 reinforces MCE's recovered-data arm (no benefit from replacing SFA with n-6-selective LA on hard
 mortality) and adds a secondary-prevention/high-dose stratum where the isolated n-6 sign is adverse —
@@ -326,7 +326,7 @@ not `[E-independent]`. What it grounds, and its limit:
   *inversely* associated with total mortality (HR 0.86 [0.76-0.99]) and stroke (HR 0.79 [0.64-0.98]),
   and **null** on major CVD / MI / CVD mortality. On mortality this is the same direction as Hooper's
   null — both camps' evidence says reducing SFA does not reduce dying.
-  [@dehghan2017, Table 3]
+  [@dehghan2017]
 - **It does NOT reach the RR-0.83 events estimate.** PURE is an unrandomised *level*-contrast (13% vs
   3%E SFA) confounded by income — the authors concede «residual confounding... cannot be completely
   excluded» because the highest-carb quintiles are the poorest, on refined-carb subsistence diets. So

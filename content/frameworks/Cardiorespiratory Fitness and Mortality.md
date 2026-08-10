@@ -35,11 +35,11 @@ evidence; a high VO2max is otherwise a stratification metric, not a target in it
 - **Per 1-MET higher CRF (Kodama meta-analysis, dose-response):** all-cause mortality «RR 0.87 (95% CI,
   0.84-0.90)» and CHD/CVD «0.85 (95% CI, 0.82-0.88)» — i.e. «a 1-MET higher level of MAC was associated
   with 13% and 15% decrements in risk of all-cause mortality and CHD/CVD».
-  [@kodama2009, Abstract; Comment]
+  [@kodama2009]
 - **No plateau (Mandsager, 122,000-patient cohort):** «Cardiorespiratory fitness is inversely associated
   with long-term mortality with no observed upper limit of benefit» — mortality keeps falling into the
   *elite* band: «elite vs high: adjusted HR, 0.77 (95% CI, 0.63-0.95)».
-  [@mandsager2018, Conclusions; Results]
+  [@mandsager2018]
 
 **A convergence worth naming, and it bears on the U/J-artifact prior.** Self-reported *activity* studies
 show a plateau (and sometimes a U-shape) at high volumes; Mandsager, measuring fitness *objectively*,
@@ -57,7 +57,7 @@ Mandsager's adjusted all-cause-mortality gradient (reference = low performers): 
 ... 1.95». Being unfit is a *larger* mortality signal than the classic risk factors in the same model:
 «smoking ... 1.41», «diabetes ... 1.40», «coronary artery disease ... 1.29». Kodama concurs categorically:
 low-vs-high CRF «RR for all-cause mortality of 1.70 (1.51-1.92)».
-[@mandsager2018, Results; Figure 2C; (Kodama - Cardiorespiratory Fitness and Mortality 2009) , Abstract]
+[@mandsager2018]
 
 ## The target — where a given VO2max sits, by age and sex
 
@@ -66,11 +66,11 @@ There are two anchors the wiki holds:
 - **A minimal floor (Kodama):** «a minimal CRF of 7.9 METs may be important» (50-year-old man reference);
   age/sex-specific, approximately 9 and 7 METs (at 40), 8 and 6 (at 50), 7 and 5 (at 60) for men and
   women — women run \~2 METs below men, and the floor falls \~0.1 MET/year with age.
-  [@kodama2009, Comment; Conclusion]
+  [@kodama2009]
 - **Percentile bands (Mandsager, age x sex MET grid):** low (<25th), below-average (25-49th),
   above-average (50-74th), high (75-97.6th), elite (>=97.7th). E.g. men 50-59: «<8.2 | 8.2-9.9 |
   10.0-11.3 | 11.4-13.9 | >=14.0» METs; women 50-59: «<7.0 | 7.0-8.0 | 8.1-9.9 | 10.0-12.9 | >=13.0».
-  [@mandsager2018, Table 2]
+  [@mandsager2018]
 
 So a VO2max reading converts to METs (/3.5) and drops into a band — the practical *is my fitness good?*
 answer the activity-dose evidence cannot give. **Caveat: Mandsager's bands are from a referral population
@@ -83,7 +83,7 @@ never «causes», and it «suggest[s]... a clinical trial to determine whether a
 CRF by exercise reduces the risk». Mandsager: «the association between CRF and mortality does not prove
 causation... The degree to which high CRF preselects patients with lower mortality vs causes a reduction
 in mortality is not discernible».
-[@kodama2009, Comment; (Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018) , Limitations]
+[@kodama2009]
 
 **So the operative reading:** CRF is a *superb risk marker* and the trackable *outcome* of the physical-
 activity lever -> [[Physical Activity Dose and Mortality]] (which IS an evidenced mortality lever). But

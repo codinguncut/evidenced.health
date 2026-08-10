@@ -15,7 +15,7 @@ relationships:
     - Is the Food Category Doing Any Work
     - The Estimate-to-Action Gap
     - Deficiency Repletion vs Enhancement
-    - Fruits Vegetables Pulses and Grains
+    - Plant Foods
     - Metrics for Targeted Health Guidance
     - LDL ApoB and Cumulative Exposure
     - Eggs Dietary Cholesterol and Cardiovascular Risk
@@ -49,7 +49,7 @@ Each row is one measured/defined object (the *is*) promoted to a norm (the *ough
 
 - **5 a day** — a population dose-response *floor* over a *heterogeneous* basket, promoted to a per-person
   *target* with *interchangeable* units. The fabric already critiques this: a cabbage portion is not grapes
-  is not juice -> [[Fruits Vegetables Pulses and Grains]].
+  is not juice -> [[Plant Foods]].
 
 - **Avoid processed** — a *manufacturing* class (NOVA) promoted to a *health* verdict. The health
   variance *within* a NOVA class plausibly swamps the variance *between* classes, so the label does not

@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: Dietary Supplements and Health
+title: Dietary Supplements
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; Bhatt, Deepak L; Kreider, Richard B; De-Regil, Luz Maria]

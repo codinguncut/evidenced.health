@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: GLP-1 Receptor Agonists for Weight Loss
+title: GLP-1 Drugs
 question: For a person considering a GLP-1 / GIP-GLP-1 receptor agonist primarily for weight, what does the evidence show about benefit and harm on patient-important outcomes, and how does that answer change by stratum?
 authors: [Lincoff, A Michael; Wilding, John P H; Yang, Kaijie; Jastreboff, Ania M; Cruz-Jentoft, Alfonso J; Look AHEAD Research Group (org); Ma, Chenhan; European Association for the Study of the Liver (org); Morton, Robert W; Momma, Haruki]
 sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, EASL - MASLD Clinical Practice Guidelines 2024, Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, Momma - Muscle-Strengthening Activities and Mortality 2022, GRADE - Handbook]

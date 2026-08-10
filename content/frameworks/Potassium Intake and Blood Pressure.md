@@ -137,7 +137,7 @@ exposure-stratum interaction of the kind the fabric ranks as decision-relevant, 
 
 Fresh fruit, vegetables and pulses are the named sources; food processing strips potassium, and modern
 intakes (<70-80 mmol/day in many countries) sit far below both the guideline and ancestral (>200
-mmol/day) levels. -> [[Fruits Vegetables Pulses and Grains]]
+mmol/day) levels. -> [[Plant Foods]]
 
 ## The exposure measure is a recovery biomarker -- like sodium, unlike most of the corpus
 

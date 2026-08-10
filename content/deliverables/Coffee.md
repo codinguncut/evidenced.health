@@ -38,7 +38,7 @@ with how much to believe it.
 
 ## The appraisal floor: how much to believe it
 
-Almost every number that follows is an *association*, not a demonstrated effect, and the design floor is low before any single finding is weighed. Poole's umbrella review pools 201 meta-analyses of observational research (67 outcomes) against just 17 of randomised trials (9 outcomes), so it rests overwhelmingly on observational cohorts, and it grades itself honestly: under GRADE — a structured certainty rating that starts observational evidence low — roughly a quarter of the estimates are *low* certainty and about three-quarters *very low*, the median AMSTAR review-quality score is 5/11, and even the handful of RCT meta-analyses are graded low [@poole2017].
+Almost every number that follows is an *association*, not a demonstrated effect, and the design floor is low before you weigh a single finding. Poole's umbrella review pools 201 meta-analyses of observational research (67 outcomes) against just 17 of randomised trials (9 outcomes), so it rests overwhelmingly on observational cohorts, and it grades itself honestly: under GRADE — a structured certainty rating that starts observational evidence low — roughly a quarter of the estimates are *low* certainty and about three-quarters *very low*, the median AMSTAR review-quality score is 5/11, and even the handful of RCT meta-analyses are graded low [@poole2017].
 
 The dominant threat is smoking. Coffee and smoking co-occur, so residual smoking confounding can *manufacture* an apparent harm (lung cancer) or *mask* a benefit — it runs in both directions, not one. The strongest disconfirming signal comes from Mendelian randomization (MR, a genetic natural experiment immune to reverse causation): the two MR studies Poole cites find **no genetic causal evidence** for coffee->mortality or coffee->type-2-diabetes, «suggesting residual confounding could result in the observed associations in other studies» [@poole2017]. One caveat bounds that: MR «relies on the assumption of linearity between all categories of coffee intake and might not capture non-linear differences» [@poole2017] — it nulls the *linear* effect, it does not refute a non-linear one.
 
@@ -80,8 +80,8 @@ certainly.
 
 The shape tells you how a benefit accrues with dose; it does not tell you which benefits are real.
 Sorting coffee's outcomes into the four evidence states — benefit, harm, no meaningful effect, and
-insufficient evidence — is the substantive appraisal. Two facts have to be read together for every row
-and never collapsed into one: the **magnitude** of the association, and the **certainty** that coffee
+insufficient evidence — is the substantive appraisal. You have to read two facts together for every row,
+never collapsing them into one: the **magnitude** of the association, and the **certainty** that coffee
 causes it. A large, consistent association graded low-certainty is not a contradiction — it is a big
 number the evidence cannot yet attribute to coffee. Almost every estimate below is observational and
 GRADE-rated low or very low, and the genetic (Mendelian-randomization) evidence finds no causal signal
@@ -118,7 +118,7 @@ from Ding's dose-response meta-analysis (28 cohorts, \~1.1M participants)
 [@ding2014], and the residual confounding there runs
 *toward* the null (heavier coffee drinkers tended to have less healthy lifestyles), so it is a weaker
 escape than for mortality. Poole's headline 0.70 is Ding's own highest-category figure, so the effect
-is cited to Ding, not to the umbrella.
+traces to Ding, not the umbrella.
 
 **Parkinson's, Alzheimer's, and depression** all show consistent lower-risk associations. Parkinson's
 is the most studied and survives adjustment for smoking, but it carries a specific reverse-causation
@@ -129,9 +129,9 @@ non-significant, observational estimates null.
 **Cancer** splits by row. Total cancer *incidence* carries a benefit association (\~0.82), but most
 single sites are null, and the apparent *harms* (lung cancer OR 1.59; cancer mortality among smokers)
 run through smoking rather than coffee. The IARC 2016 monograph that reclassified coffee is not held in
-the fabric, so no cancer-causation claim is written here in either direction.
+the fabric, so this appraisal makes no cancer-causation claim in either direction.
 
-Bone/fracture and the pregnancy harm are stratum-specific and handled with the two real harms below.
+Bone/fracture and the pregnancy harm are stratum-specific and appear with the two real harms below.
 Two of the benefit rows above — all-cause mortality and total cancer — are hostage to a single
 confounder: coffee drinkers are enriched for smokers, and smoking is the dominant driver of both death
 and cancer. Before either can be read as coffee's doing, it needs the smoking correction.
@@ -196,7 +196,7 @@ evidence answers the other way: whether caffeine is even the active agent for th
 The dose figures above treat a cup of coffee as a fixed unit, but the cohorts behind them pooled
 drinks that differ on three axes never held constant: caffeinated versus decaffeinated, filtered
 versus unfiltered, and black versus sweetened. Each axis moves a different outcome in a different
-direction, so which one a recommendation is about has to be named before the recommendation means
+direction, so a recommendation has to name which one it is about before it means
 anything -> [[Is the Food Category Doing Any Work]].
 
 ### Caffeine or the matrix? The decaf test
@@ -261,7 +261,7 @@ Three questions stay open, and they are *insufficient evidence*, not evidence of
 
 - **Sleep and timing.** No coffee/caffeine-and-sleep meta-analysis is held — Poole's umbrella excluded it, and none existed at review time [@poole2017]. Yet caffeine's half-life means an afternoon or evening cup plausibly still carries an active dose at bedtime, so late-day intake could disrupt sleep. That is a **named gap, mechanism-directional only** — a reason to expect an effect and to time intake earlier, **not** a measured finding and explicitly **not** a null. It attaches to [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]] if a coffee/caffeine-sleep MA is ever acquired.
 
-- **Cancer and the IARC monograph.** The 2016 IARC re-evaluation (which removed coffee from Group 2B, and whose Group 2A "very hot beverages" rating is about *temperature*, not coffee) is **not held**, so no cancer-causation claim is written here [@poole2017]. What the held evidence shows is narrower: total-cancer *incidence* carries a benefit association, the apparent site harms (lung) collapse under smoking correction, and **most single cancer sites are null or insufficient** -> [[The U-Shaped Association Artifact]].
+- **Cancer and the IARC monograph.** The 2016 IARC re-evaluation (which removed coffee from Group 2B, and whose Group 2A "very hot beverages" rating is about *temperature*, not coffee) is **not held**, so this appraisal makes no cancer-causation claim here [@poole2017]. What the held evidence shows is narrower: total-cancer *incidence* carries a benefit association, the apparent site harms (lung) collapse under smoking correction, and **most single cancer sites are null or insufficient** -> [[The U-Shaped Association Artifact]].
 
 - **Respiratory outcomes and the natural history of established disease.** Respiratory endpoints, and the course of already-diagnosed disease (only one MA, post-MI), rest on too little evidence to state a direction — **insufficient**, held as a gap [@poole2017].
 
@@ -279,7 +279,7 @@ The genuinely stratum-specific calls, deferred to here rather than led with:
 
 One finding to watch, not yet to act on: **liver disease** is the single benefit large enough to clear GRADE's rating-up bar (chronic liver disease high-vs-low RR 0.35 [@poole2017]; liver cancer \~0.50) and Poole's named best RCT target — a **candidate, not a recommendation**.
 
-Which of these applies, and how the outcomes are weighed, is the individual layer: the appraisal above is general, and the stratum and goals belong here, at the end, not at the top of the page.
+Which of these applies, and how you weigh the outcomes, is the individual layer: the appraisal above is general, and the stratum and goals belong here, at the end, not at the top of the page.
 
 ### Mandatory caveats
 

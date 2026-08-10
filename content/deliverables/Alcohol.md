@@ -35,7 +35,7 @@ against what later became of anyone who drank.
 ## Does a little drinking protect? The low-dose arm across mortality, stroke, and brain
 
 The single most-repeated alcohol claim — that a little is better than none — is the first thing to
-test, because the whole outcome menu is read differently once it is settled. It rests on one shape in
+test, because settling it changes how every outcome below reads. It rests on one shape in
 the observational data: risk lowest at a low-but-non-zero dose, higher at zero and higher again above.
 The low-dose segment — the *lower arm* — is the fragile part, and whether it is real decides how every
 outcome below reads.
@@ -49,15 +49,15 @@ half-million-person China Kadoorie cohort, self-reported intake traces a U-shape
 intracerebral haemorrhage, and myocardial infarction, with the lowest risk at about 100 g/week.
 [@millwood2019] Both are
 the *pre-adjudication appearance* — the shape the data show before the referent is checked — not a
-finding. The 0.86 in particular is not carried forward as the effect of low-volume drinking.
+finding. This page does not carry the 0.86 forward as the effect of low-volume drinking.
 
 ### Two independent methods dissolve the arm `[E-independent]`
 
 The lower arm does not survive adjudication, and it fails by two routes that share no data, method, or
 lineage — the convergence, on *direction*, is the crux of this appraisal.
 
-- **Bias-correction (Stockwell).** Once abstainer definitions are corrected and study quality is
-  controlled, the low-volume estimate moves to RR 0.97, 95% CI [0.88, 1.07] — no significant
+- **Bias-correction (Stockwell).** Once Stockwell corrects abstainer definitions and controls
+  study quality, the low-volume estimate moves to RR 0.97, 95% CI [0.88, 1.07] — no significant
   protection. Using occasional drinkers rather than lifetime abstainers as the referent, «there would
   be no evidence of health protective effects for low-volume drinkers or any other category of
   drinker».
@@ -76,7 +76,7 @@ that direction, not on a pooled magnitude; the two address different outcomes.
 
 ### What manufactures the arm
 
-The appearance is produced without any true benefit. The driving mechanism is *former-drinker
+The arm appears with no true benefit behind it. The driving mechanism is *former-drinker
 misclassification* — people who quit *because* they became ill (sick-quitters) are counted among
 "abstainers," making the referent group look unhealthy and everyone who still drinks look protected;
 former drinkers carry elevated risk (RR 1.38 [1.24-1.54]). Confounding by frailty compounds it: 27 of
@@ -106,12 +106,13 @@ reaching the same verdict.
 ## Effect and dose-response shape, outcome by outcome
 
 With the low-dose arm adjudicated as artifact, the per-outcome picture is not one curve but
-several — and their shapes differ. Each outcome below is its own card: direction, magnitude, and
-the shape of the dose-response are read separately, the four evidence-states (harm / no meaningful
-effect / benefit / insufficient) are kept apart, and no single card's threshold governs another.
+several — and their shapes differ. Each outcome below is its own card: read its direction,
+magnitude, and dose-response shape separately, keep the four evidence-states (harm / no
+meaningful effect / benefit / insufficient) apart, and let no single card's threshold govern
+another.
 One recurring trap to name up front: where a harm becomes statistically *detectable* is an edge of
-the evidence base, not a level below which the exposure is safe. Doses are given in grams of ethanol
-(1 standard drink = 10 g) with the drink equivalent.
+the evidence base, not a level below which the exposure is safe. This page gives doses in grams
+of ethanol (1 standard drink = 10 g) with the drink equivalent.
 
 ### All-cause mortality — harm above a sex-specific dose, no net benefit below
 
@@ -203,8 +204,8 @@ State HARM at heavy intake; the light arm is artifact, not benefit.
 
 ### Injury and non-cancer liver disease — named gaps, no direction inferred
 
-Two patient-important outcomes the decision menu lists are **not covered by any dedicated
-dose-response arm in the fabric**, and are named as gaps rather than answered:
+The decision menu lists two patient-important outcomes that **no dedicated dose-response arm in
+the fabric covers**; this page names them as gaps rather than answering them:
 
 - **Injury** — held only inside GBD's 23-outcome population aggregate, with no standalone
   dose-response curve extracted.
@@ -212,12 +213,12 @@ dose-response arm in the fabric**, and are named as gaps rather than answered:
   *cancer* and a MASLD definitional ceiling only; there is no dedicated ALD/cirrhosis dose-response
   arm.
 
-No direction is inferred for either (insufficient evidence *held*, distinct from no-effect); both
-are consolidated with the other named gaps later.
+This page infers no direction for either (insufficient evidence *held*, distinct from no-effect),
+and consolidates both with the other named gaps later.
 
 ## The active axis: total ethanol, drinking pattern, or beverage type?
 
-Every effect in the previous section was indexed to *average volume* — grams of ethanol per week. That
+The previous section indexed every effect to *average volume* — grams of ethanol per week. That
 is the dominant axis: total ethanol drives the stroke, cancer, and mortality gradients, and it does so
 regardless of what the drink is. But volume is not the whole story. Two further axes are live — *how* the
 same weekly total is spread across sessions, and *what* beverage delivers it. This section asks whether
@@ -299,7 +300,7 @@ Move from the individual drinker to the population and a second kind of evidence
 
 **Rumgay adds the cancer count, and it reinforces no-threshold with scale.** «An estimated 741 300 (95% UI 558 500-951 200), or 4.1% (3.1-5.3), of all new cases of cancer in 2020 were attributable to alcohol consumption» [@rumgay2021]. Light-moderate drinking is not exempt: «moderate drinking still contributed one in seven alcohol-attributable cases and more than 100 000 cancer cases worldwide» [@rumgay2021] — the <20 g/day band alone, and even intake up to \~10 g/day (about one drink) contributed 41 300 cases. The population form of *no lower threshold*: cancer cases accrue from the lightest drinking.
 
-**These are population counts, not per-person risks.** A PAF answers *how many cases across a population would not have occurred under lifetime abstention* — prevalence combined with relative risk — not the risk faced by one drinker. It is therefore **not commensurable** with the cohort risk ratios in the per-outcome section: those size an individual's change in risk; these size a national case load. Rumgay's underlying RRs are borrowed from WCRF's cancer review and GBD's from its own re-meta-analysis, so the four figures here add magnitude and reach, not effect sizes to line up against the earlier RRs.
+**These are population counts, not per-person risks.** A PAF answers *how many cases across a population would not have occurred under lifetime abstention* — prevalence combined with relative risk — not the risk faced by one drinker. It is therefore **not commensurable** with the cohort risk ratios in the per-outcome section: those size an individual's change in risk; these size a national case load. Rumgay borrows its underlying RRs from WCRF's cancer review and GBD from its own re-meta-analysis, so the four figures here add magnitude and reach, not effect sizes to line up against the earlier RRs.
 
 **Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. The gap is not a defect on either side but a difference in standpoint: population guidance optimizes an average outcome under communicability and safety-at-scale constraints, while the individual reads the same evidence against personal baseline risk and preferences. That framing load exists and runs toward guidance permitting more than a population-minimizing rule would; this appraisal records its existence and direction and does not price it.
 
@@ -320,7 +321,7 @@ Four things specifically could move the picture:
   **convergence** with the Western-heavy, bias-corrected observational meta-analysis — two independent
   routes, not one. [inferred from @millwood2019]
 
-- **Measurement error flattens, it cannot manufacture.** Self-reported intake is underreported, which
+- **Measurement error flattens, it cannot manufacture.** Drinkers underreport their intake, which
   makes a real dose-response gradient look *shallower*, never steeper. This cuts one way only: it works
   **against** a protective low-dose arm, so it cannot rescue the J-curve — the artifact verdict is if
   anything conservative. [inferred from @millwood2019]

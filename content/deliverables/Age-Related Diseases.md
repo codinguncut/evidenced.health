@@ -87,7 +87,7 @@ colorectal-specific increment, and a modest one.
 The one *supplement* WCRF grades a **convincing cause** of cancer is high-dose beta-carotene, which
 raises **lung cancer** risk in current and former smokers [@wcrf2018ter]. It is the standing counter-example to "an antioxidant pill can't hurt":
 supplementing an isolated nutrient at high dose is a different exposure from eating the food, and here
-it does measurable harm in the exposed stratum -> [[Dietary Supplements Big Lever or Distraction]].
+it does measurable harm in the exposed stratum -> [[Dietary Supplements]].
 
 ### The young-adulthood paradox — noted, not banked
 
@@ -220,7 +220,7 @@ decline is unmeasured, that is a gap to name, not a zero to assume.
 The anti-sprawl payoff: most of what fills longevity discourse ranks **low** against the shared big
 rocks and adds little disease-specific increment. **Supplements** (beyond confirmed-deficiency
 repletion) do not earn a place — the same nutrient that is protective in food can be inert or harmful as
-a high-dose pill (beta-carotene above) -> [[Dietary Supplements Big Lever or Distraction]]. **Meal
+a high-dose pill (beta-carotene above) -> [[Dietary Supplements]]. **Meal
 timing, micronutrient fine-tuning and the specific-superfood hunt** are small-effect and heavily
 published — literature volume runs *inverse* to effect size in a mature field. For someone who has the
 big rocks handled, the honest message is that the remaining disease-specific levers are small and few,

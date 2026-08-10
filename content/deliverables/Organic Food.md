@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: "Is Organic Food Better For Us?"
+title: Organic Food
 question: Does the "organic" label deliver a health benefit — fewer toxins, more nutrients, better outcomes — large and certain enough to change what someone buys, and where it tracks something, is it the certification or an underlying exposure doing the work?
 aliases: [Is Organic Healthier, Organic vs Conventional, Organic Food Health]
 authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spangler, Crystal; Bravata, Dena M; Baudry, Julia; Kesse-Guyot, Emmanuelle]

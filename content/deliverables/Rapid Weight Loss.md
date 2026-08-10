@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: The Rate of Weight Loss and Its Effects
+title: Rapid Weight Loss
 subject: Whether the RATE of intentional weight loss changes patient-important outcomes over and above the total lost and the method used
 question: For an adult who has decided to lose weight, does the rate of loss change regain, muscle loss, and organ harm over and above the amount lost and the method used — and does a diet-created deficit differ from an exercise-widened one for body composition?
 aliases: [Rapid Weight Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss, Speed of Weight Loss]

@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: Allocating a Weekly Exercise Budget
+title: Physical Activity
 question: Given a fixed weekly exercise-minute budget, how should a sedentary overweight late-40s adult allocate it across cardio, resistance training, and walking to buy the most patient-important benefit?
 aliases: [Exercise Budget Allocation, How to Spend Exercise Time, Cardio vs Resistance vs Walking, Exercise Minute Budget]
 sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Kodama - Cardiorespiratory Fitness and Mortality 2009, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Morton - Protein Supplementation and Resistance Training 2018, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, FAO - Dietary Protein Quality Evaluation 2013]

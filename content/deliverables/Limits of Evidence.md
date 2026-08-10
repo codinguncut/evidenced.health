@@ -87,8 +87,8 @@ either direction.
 
 ## The design rarely isolates the cause
 
-The base is observational-dominant, and the observational design cannot randomize its exposure, so a
-common cause of both exposure and outcome -- confounding -- is never fully removed. The instrument for
+The evidence base is observational-dominant, and an observational study cannot randomize its
+exposure, so a common cause of both exposure and outcome -- confounding -- is never fully removed. The instrument for
 non-randomized studies (ROBINS-I) states the ceiling plainly: «Unmeasured confounding can usually not
 be excluded, because we are seldom certain that we know all the confounding domains»
 [@cochranehandbook2024], and «only rarely will design or
@@ -188,7 +188,7 @@ significance is found.» [@nasem2019]
 The defence is disclosure -- pre-specification and the count of outcomes/subgroups tested -- not the
 bare p-value.
 
-A replication failure should be calibrated, not read as destroying a finding. Two vocabularies matter.
+Calibrate a replication failure; don't read it as destroying a finding. Two vocabularies matter.
 **Reproducibility** (same data and code recompute) is *expected* given transparency; **replicability**
 (a fresh study, new data) is not -- «even when a study was rigorously conducted according to best
 practices, correctly analyzed, and transparently reported, it may fail to be replicated».
@@ -266,10 +266,10 @@ coherence and source-fidelity, never validity -- the inclusion bar is verifiabil
 faithful to its sources; it never certifies that the recommendation was right. The loop is open, and
 stays open.
 
-**Named gap, stated sign-neutrally.** The general epistemology of the open loop is held; what is *not*
-held is any page instantiating it for diet-health causal claims specifically. The limit is asserted at
-the level of method, not yet worked through on a domain exposure. That absence is named, not filled.
-
+**Named gap, stated sign-neutrally.** The fabric holds the general epistemology of the open loop, but
+no page yet instantiates it for diet-health causal claims specifically. This limit sits at the level
+of method; no one has worked it through on a domain exposure. This page names that absence rather than
+filling it.
 
 So what confidence does an open loop leave? Not none -- a bounded, disciplined confidence. The evidence
 cannot fix a point optimum, but it can pin the frame around one:
@@ -316,10 +316,10 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
   well enough to be a decision target, per metric -> [[Metrics for Targeted Health Guidance]]; which
   levers matter most by magnitude x certainty -> the Big Rocks deliverables. This page owns the
   *structural why*, not those applications.
-- **Four named structural gaps** were surfaced and left named, not filled: the unblindable whole-diet /
-  food-matrix limit; long latency; the open loop instantiated for diet-health claims specifically; and
-  a consolidated home for the streetlight effect. Each is routed to Weave as a candidate concept page --
-  a gap is a decision-input here, never a silent zero.
+- **Four named structural gaps.** This cut surfaced them and left them named, not filled: the
+  unblindable whole-diet / food-matrix limit; long latency; the open loop instantiated for diet-health
+  claims specifically; and a consolidated home for the streetlight effect. It routes each to Weave as a
+  candidate concept page -- a gap is a decision-input here, never a silent zero.
 - **Two further honesty limits belong to the reader.** Even a sound recommendation built here may
   simply reproduce well-made published guidance applied to the same stratum (the *guidance null*); and
   agreement with authority is not validation, nor disagreement insight -- both are findings, each held

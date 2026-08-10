@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: "Do We Need Fibre In Our Diet?"
+title: Dietary Fibre
 question: What does the evidence show about dietary fibre — how large are its effects, on which outcomes, how certain, and what are its downsides, and does the soluble/insoluble split change the answer?
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, SACN - Carbohydrates and Health 2015, Valdes - Gut Microbiota Nutrition and Health 2018, ESC - CVD Prevention Guidelines 2021, NNR - Nordic Nutrition Recommendations 2023, Petroski - Antinutrients Narrative Review 2020]
 confidence: medium

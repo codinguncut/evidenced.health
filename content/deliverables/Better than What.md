@@ -46,10 +46,10 @@ the unstated default silently does the work. When a study removes a nutrient, it
 by *something*; when a person stops a behaviour, the freed time and energy go *somewhere*. The omitted
 arm is a premise, not a footnote. -> [[The Comparator Problem]]
 
-A comparator-blind claim is therefore not necessarily wrong — it is **unfinished**, and its truth can
-flip once the omitted arm is named. The diagnostic move is to state the counterfactual and ask whether
-the estimate survives a *realistic* one: what the person would actually do instead, not an idealized
-substitution the evidence never tested.
+A comparator-blind claim is therefore not necessarily wrong — it is **unfinished**, and naming the
+omitted arm can flip its truth. So state the counterfactual and ask whether the estimate survives a
+*realistic* one: what the person would actually do instead, not an idealized substitution the
+evidence never tested.
 
 The same move resolves disputes that look unrelated, and it resolves them differently each time — which
 is why the comparator must ride along with every illustration:
@@ -62,7 +62,7 @@ is why the comparator must ride along with every illustration:
   fattening" mistakes the molecule for the energy it carries -> [[Free Sugars Intake]].
 - **Dietary patterns** — none is best in the absolute; each evidenced benefit is "better than" a
   *specified* alternative, so "which diet is best?" has no comparator-free answer
-  -> [[Dietary Patterns Is One Clearly Better]].
+  -> [[Dietary Patterns]].
 
 Each magnitude, dose-response and curve shape stays on its own lead above; this section names only the
 framing. The companion checks — what the effect is measured *on*, and how a comparator-relative benefit
@@ -70,7 +70,7 @@ must not be promoted into an absolute target — are deferred: surrogate-versus-
 live on [[Metrics for Targeted Health Guidance]].
 
 One misuse shadows the whole move, and it is the most common way the comparator frame launders a real
-harm: because *everything* carries some cost and some benefit, the frame can be turned to relativize a
+harm: because *everything* carries some cost and some benefit, you can turn the frame to relativize a
 genuine harm away — *it is all a little hormetic, who is to say?* That is not a comparison but the
 unfalsifiable over-generalization the demarcation line rejects. Use the frame to rank among *reasonable*
 options; a large, well-evidenced harm survives every comparator and is never readmitted by it — the
@@ -81,7 +81,7 @@ often the first place the analysis breaks.
 
 ## What is "X", exactly? Specifying the exposure before its comparator
 
-You cannot say "instead of what" until "what" is pinned. A food or nutrient label is only a usable
+You cannot say "instead of what" until you pin down "what". A food or nutrient label is only a usable
 exposure if the boundary it draws carries information — and often it does not. Where **within-category
 variance exceeds between-category variance**, the grouping has no explanatory power and the
 category-level estimate describes no actual food: skinless chicken, fatty pork and lean pasture-raised
@@ -141,8 +141,9 @@ the larger dose is what clears the outcome and abandonment is the real failure t
 applies is the floor-and-direction question the region section takes up.
 -> [[Net Effect vs Intended Effect]].
 
-One input this transformation needs is not held. Adherence-*probability* for a given person is thinly
-evidenced — effectiveness data are sparse — so the wiki names the gap and infers no number for it: the
+This transformation needs one input the wiki does not hold. Adherence-*probability* for a
+given person is thinly evidenced — effectiveness data are sparse — so the wiki names the gap and
+infers no number for it: the
 direction (a realized effect below efficacy) is licensed, the size is not. Why an estimate is a range
 at all, and what evidence structurally cannot show, is deferred -> [[Limits of Evidence]]; each
 compensation magnitude stays on its exposure-lead above.
@@ -161,7 +162,7 @@ When a substitution moves more than one patient-important outcome, there is no u
 weights across those outcomes — and the weights are not an empirical quantity anyone can look up. But
 *"you cannot optimize"* overstates the bind. Dominance rules out any option worse on *every* axis than
 an available alternative, and the Pareto frontier — the set where improving one axis necessarily
-worsens another — is definable, both with no weights at all. Weights are needed only to order options
+worsens another — is definable, both with no weights at all. You need weights only to order options
 *within* the frontier. So the tangle is real but small: it binds on the ordering of the survivors, not
 on the whole field.
 -> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
@@ -211,11 +212,11 @@ and — where the curve bounds it — a **harm-ceiling**, but not a point optimu
 here is deficiency*, *more in this range still helps*, *past here it harms*, essentially never *this
 exact intake is best* -> [[The Underivable Optimum]]. *Why* the estimate is a band rather than a point —
 measurement error and the statistical reason an interval is the honest object — is not re-derived here;
-state the conclusion and see -> [[Limits of Evidence]]. So a substitution is framed to clear the floor
+state the conclusion and see -> [[Limits of Evidence]]. So frame a substitution to clear the floor
 and move the right way within the region, not to land on a peak that was never identified
 -> [[The Estimate-to-Action Gap]].
 
-That is not a counsel of despair, because two different jobs are being confused when it reads as one.
+That is not a counsel of despair, because reading it as one job confuses two.
 The fabric **optimizes ALLOCATION** — Layer 1 ranks levers by effect size x certainty and spends
 attention on the largest remediable gap (which lever, magnitudes deferred to the Big Rocks deliverables)
 — and it **satisfices DOSE** — per lever, clear the floor, move in the evidenced direction, stay in

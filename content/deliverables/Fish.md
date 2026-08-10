@@ -220,7 +220,7 @@ result *«should not be generalized to other n-3 fatty acid preparations — in 
 preparations of n-3 fatty acid mixtures»* [@bhatt2019].
 
 **The lesson for fish-as-food:** "omega-3" is not the exposure — the exposure is *this compound, at this
-dose, in this stratum* -> [[Is the Food Category Doing Any Work]], [[Dietary Supplements Big Lever or Distraction]]. For a
+dose, in this stratum* -> [[Is the Food Category Doing Any Work]], [[Dietary Supplements]]. For a
 replete general-population adult, the OTC fish-oil capsule did nothing; and whole fish differs from any
 capsule in ways the trials cannot capture — the food matrix, the **selenium that co-occurs with mercury**
 in fish, iodine and vitamin D, and what the fish *displaces* on the plate. None of that is evidence the
@@ -256,7 +256,7 @@ verdict:
 Fish is a **small-to-moderate lever, not a big rock**. The adult coronary benefit is observational (the
 causal loop is open), and the isolated-nutrient trials split by stratum — null in the replete general
 population (VITAL), positive only at a high prescription dose in high-risk statin-treated patients
-(REDUCE-IT) -> [[Dietary Supplements Big Lever or Distraction]]. So a healthy, replete adult should not
+(REDUCE-IT) -> [[Dietary Supplements]]. So a healthy, replete adult should not
 expect the cohort magnitude. The neurodevelopment
 benefit is repletion-only — it matters for a mother with low DHA/iodine status and is a flat zero once
 requirements are met. For someone who still smokes, is obese, or is sedentary, no attainable precision

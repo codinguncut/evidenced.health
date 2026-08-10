@@ -241,7 +241,7 @@ collapse, kept apart here:
   does **not** answer *does it, at the doses people consume?* (risk — JECFA's question). A Group-2B
   hazard flag is consistent with a "safe at normal intake" risk verdict; the two bodies answer different
   questions. The same hazard/risk split already recurs in the fabric for the IARC red-meat labels
-  (processed = Group 1, red meat = Group 2A) -> [[Is Red Meat Harmful]].
+  (processed = Group 1, red meat = Group 2A) -> [[Red Meat]].
 - **2B is the weakest positive tier.** 2B «possibly» (limited evidence) sits below 2A «probably»
   (methyleugenol, in the same evaluation, on sufficient animal + strong mechanistic evidence) and below
   Group 1 «carcinogenic». Reading 2B as "aspartame causes cancer" inflates a limited-evidence,

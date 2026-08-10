@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: "What's Up With the Microbiome?"
+title: Gut Microbiome
 question: Which gut-microbiome claims and interventions change a patient-important outcome, which are mechanistically plausible but unproven, and which are effectively unfalsifiable?
 aliases: [Microbiome, Gut Health, Probiotics Prebiotics FMT, Leaky Gut, Candida Diet]
 authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa; van Nood, Els; Keller, Josbert J]

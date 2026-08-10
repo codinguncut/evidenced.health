@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: Processed Food and Health
+title: Processed Food
 question: What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful?
 sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, SACN - Carbohydrates and Health 2015, WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Baye - Low AGE Diet Cardiometabolic 2017, WHO - Saturated and Trans Fatty Acid Intake 2023]
 confidence: low
@@ -207,7 +207,7 @@ Being industrially made is not a health fact. Several heavily-processed foods ar
   carry no established harm from processing; the fibre-isolate case shows an isolate can even out-grade
   its parent food on design [@sacn2015].
 - Dairy (cheese, yoghurt, butter, milk) is the paradigm case that *processed* spans harmful to
-  beneficial, but its category-by-category adjudication is a separate deliverable -> [[Is Dairy Good or Bad]]. It is cited here only as illustration and is not re-adjudicated.
+  beneficial, but its category-by-category adjudication is a separate deliverable -> [[Dairy]]. It is cited here only as illustration and is not re-adjudicated.
 
 A within-aspect note on fat quality: the same *process the fat* question runs through *which* fat, not
 *processed vs not*. Reducing saturated fat cut cardiovascular events (RR 0.83, 15 fewer per 1000,

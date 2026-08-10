@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: Dietary Fat
+title: Dietary Fat Types
 icon: material-symbols-light:oil-barrel
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on cardiovascular events and all-cause mortality, what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix, or the eater''s metabolic state?'
 sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, ESC - CVD Prevention Guidelines 2021, Astrup - Saturated Fats Reassessment 2020, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
@@ -47,7 +47,7 @@ sub-10% range is thinly studied rather than shown flat; below-10% rests on very 
 
 Second, the **lever is the type of fat and what replaces it**, not the total quantity: replacing
 saturated fat with polyunsaturated fat lowers LDL more than replacing it with monounsaturated fat or
-carbohydrate, and the events benefit is best-evidenced for the polyunsaturated swap (the magnitudes, and
+carbohydrate, and the polyunsaturated swap carries the best-evidenced events benefit (the magnitudes, and
 the open question of how cleanly it separates from a carbohydrate swap, are in the next section). The comparator sets the sign, so *eat less saturated fat* without naming the
 replacement is half a recommendation -> [[Better than What]].
 
@@ -87,8 +87,8 @@ observed down to 2%E [@who2023saturated] (the
 LDL->outcome chain is a later section). On events the point estimate favours the PUFA swap -- RR 0.79
 (0.62-1.00), Low -- over the carbohydrate one -- RR 0.84 (0.67-1.06), Low
 [@who2023saturated] -- but neither is individually
-significant and the direct subgroup test found no clear PUFA-vs-carbohydrate difference (the attribution
-is treated as open in the tension below). So *replace SFA* unspecified is half a claim
+significant and the direct subgroup test found no clear PUFA-vs-carbohydrate difference (the tension below
+treats the attribution as open). So *replace SFA* unspecified is half a claim
 -> [[Better than What]].
 
 **Industrial trans fat -- the one fat with a consistent harm and no safe role.** WHO mirrors the SFA shape
@@ -146,12 +146,12 @@ energy over the studied 1.1-11.6% E range, with «no clear threshold effect».
 
 The randomised replacement arm is more equivocal. Hooper 2018 Cochrane (19 RCTs increasing omega-6,
 usually displacing SFA or MUFA) gives all-cause mortality RR 1.00 (0.88-1.12) and CVD events 0.97
-(0.81-1.15), both Low certainty; MI 0.88 (0.76-1.02), a probable small benefit. So the strong
-observational CV-mortality figure is NOT reproduced by randomisation and stays observational-only; what
-survives both designs is narrower -- LA is not harmful on hard outcomes and lowers atherogenic lipids.
+(0.81-1.15), both Low certainty; MI 0.88 (0.76-1.02), a probable small benefit. So randomisation does
+NOT reproduce the strong observational CV-mortality figure, which stays observational-only; what survives
+both designs is narrower -- LA is not harmful on hard outcomes and lowers atherogenic lipids.
 
 
-Why the biomarker route is admissible here at all is specific to LA: «Because LA cannot be produced
+The biomarker route is admissible here for a reason specific to LA: «Because LA cannot be produced
 endogenously (making tissue levels reasonable markers of intake), biomarker (circulating and adipose
 tissue) levels correlate with dietary consumption.»
 [@marklund2019] For SFA the same
@@ -201,8 +201,8 @@ of any threshold within the cholesterol range studied»
 [@ctt2010]. This is a
 **drug (statin)** effect across the trials' studied LDL range -- not a dietary magnitude.
 
-**The key point -- a diet-induced LDL change is not a drug-induced apoB change.** Ference's transmission
-is conditioned: any lowering mechanism works only where the LDL-C drop is *concordant with the
+**The key point -- a diet-induced LDL change is not a drug-induced apoB change.** Ference conditions that
+transmission: any lowering mechanism works only where the LDL-C drop is *concordant with the
 particle-number (apoB) drop* and carries *no off-target harm*. The old diet-heart RCTs violate the
 proviso. The Minnesota Coronary Experiment lowered serum cholesterol (-13.8% vs -1.0% control) yet found
 «no evidence of benefit on mortality from coronary heart disease (1.13, 0.83 to 1.54) or all cause
@@ -234,7 +234,7 @@ WHO makes the surrogate-vs-outcome logic explicit in its *trans*-fat rationale, 
 call, because LDL «is not a physical manifestation or confirmation of disease. Therefore, a conservative
 approach was taken, leading to a conditional recommendation.»
 [@who2023saturated] The
-reader following *act on the strongest evidence* is steered toward the marker by the grading itself --
+grading itself steers the reader following *act on the strongest evidence* toward the marker --
 which is exactly why the diet-route caveat above has to be stated rather than assumed.
 
 ## What any effect depends on -- the food matrix and the eater's metabolic state

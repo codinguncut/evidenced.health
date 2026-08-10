@@ -1,6 +1,6 @@
 ---
 type: deliverable
-title: "Are Artificial Sweeteners Bad?"
+title: Artificial Sweeteners
 question: Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them?
 sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023]
 confidence: low
@@ -118,7 +118,7 @@ ruled out». [@jecfa2023] A Group-2B *hazard* flag on
 limited, confounding-not-excludable evidence is fully consistent with a *risk* verdict of safe at
 realistic intake -> [[Non-Sugar Sweeteners]]. *Possibly carcinogenic* is not *found to cause cancer at the
 amounts you drink* — the same hazard/risk split the fabric holds for the IARC red-meat labels
-(processed = Group 1, red meat = Group 2A) -> [[Is Red Meat Harmful]].
+(processed = Group 1, red meat = Group 2A) -> [[Red Meat]].
 
 What the wiki holds on the *human observational* side is thinner and, tellingly, inconsistent:
 

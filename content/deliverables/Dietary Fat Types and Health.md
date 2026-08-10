@@ -14,8 +14,9 @@ For cardiovascular outcomes the lever is the **type** of fat and **what it repla
 share of energy within the ranges studied. The best-graded single finding is narrow and outcome-specific:
 reducing saturated fat produces a *moderate reduction in cardiovascular events* (Cochrane RR 0.83, 95% CI
 0.70-0.98) but *no detectable change in all-cause mortality* (RR 0.96, 0.90-1.03, a well-graded null) --
-and the events benefit appears only where saturated fat is replaced by polyunsaturated fat, not by
-carbohydrate or protein. So *the effect of saturated fat* is undefined until the substitution is named.
+and the events benefit tracks *what replaces* the saturated fat: the point estimate favours a
+polyunsaturated-fat swap over a carbohydrate one, though that difference is not statistically resolved. So
+*the effect of saturated fat* is undefined until the substitution is named.
 Industrial *trans* fat is the one fat with a consistent harm signal and no safe role.
 
 The mechanism runs saturated fat -> LDL-C/apoB -> atherosclerotic disease, and that chain is causally
@@ -41,8 +42,8 @@ sub-10% range is thinly studied rather than shown flat; below-10% rests on very 
 
 Second, the **lever is the type of fat and what replaces it**, not the total quantity: replacing
 saturated fat with polyunsaturated fat lowers LDL more than replacing it with monounsaturated fat or
-carbohydrate, and only the polyunsaturated swap carries the cardiovascular-events benefit (the magnitudes
-are in the next section). The comparator sets the sign, so *eat less saturated fat* without naming the
+carbohydrate, and the events benefit is best-evidenced for the polyunsaturated swap (the magnitudes, and
+the open question of how cleanly it separates from a carbohydrate swap, are in the next section). The comparator sets the sign, so *eat less saturated fat* without naming the
 replacement is half a recommendation -> [[Better than What]].
 
 **The gap, named.** No held source is a dedicated anchor for the amount-versus-type distinction; the
@@ -78,10 +79,12 @@ so 10% marks where the data thin out, not a demonstrated knee -> [[The Underivab
 different exposures. On LDL (isocaloric per-1%E exchange, high certainty), WHO ranks the lowering greatest
 for PUFA, then MUFA, then carbohydrate; the pooled reduction is -0.055 mmol/L (-0.061 to -0.050) per 1%E,
 observed down to 2%E [@who2023saturated, Annex 6] (the
-LDL->outcome chain is a later section). The events benefit appears where PUFA replaces SFA -- RR 0.79
-(0.62-1.00), Low -- not carbohydrate, RR 0.84 (0.67-1.06), Low
-[@who2023saturated, Annex 6]. So *replace SFA* unspecified is
-half a claim -> [[Better than What]].
+LDL->outcome chain is a later section). On events the point estimate favours the PUFA swap -- RR 0.79
+(0.62-1.00), Low -- over the carbohydrate one -- RR 0.84 (0.67-1.06), Low
+[@who2023saturated, Annex 6] -- but neither is individually
+significant and the direct subgroup test found no clear PUFA-vs-carbohydrate difference (the attribution
+is treated as open in the tension below). So *replace SFA* unspecified is half a claim
+-> [[Better than What]].
 
 **Industrial trans fat -- the one fat with a consistent harm and no safe role.** WHO mirrors the SFA shape
 at a lower edge: reduce to 1%E (strong), below 1%E (conditional). Unlike even-chain SFA, trans fat is not
@@ -218,9 +221,12 @@ validate transmission for the agent actually used. The general surrogate-vs-targ
 
 **The certainty inversion.** In WHO's SFA evidence profile the best-graded quantity is the *surrogate*:
 LDL cholesterol is the one **High**-certainty row, while all-cause mortality and every disease outcome are
-graded **Low** or **Very low** [@who2023saturated, Annex 6]. WHO
-judged LDL causal enough to escape the *certainty* downgrade yet still cut recommendation *strength*,
-because LDL «is not a physical manifestation or confirmation of disease. Therefore, a conservative
+graded **Low** or **Very low** [@who2023saturated, Annex 6]
+(the SFA reduction to 10%E itself is graded a *strong* recommendation; the inversion is about which
+*quantity* is well-graded, not about the recommendation's strength).
+
+WHO makes the surrogate-vs-outcome logic explicit in its *trans*-fat rationale, where a High-certainty LDL effect still drew a conservative
+call, because LDL «is not a physical manifestation or confirmation of disease. Therefore, a conservative
 approach was taken, leading to a conditional recommendation.»
 [@who2023saturated, Rationale for TFA recommendation 3] The
 reader following *act on the strongest evidence* is steered toward the marker by the grading itself --

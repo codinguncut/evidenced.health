@@ -316,7 +316,7 @@ told only one of the two would form a different picture of how settled this is.
   extend, not a flattening — **there is no outcome-specific knee here.** This is the SACN pattern
   again (a number marking the edge of the evidence, not a feature of the curve), and it is consistent
   with, not a counter-instance to, the dose-response prior.
-  `[@reynolds2019]`
+  [@reynolds2019]
 
 ### Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
@@ -401,7 +401,7 @@ and notes the gap «could reflect the high fibre content of whole grains» — i
 *through* their fibre rather than as a separate lever. This is the component-not-category reading on this
 page, now with a magnitude on both sides -> [[Dietary Fibre and Health]]. It also sharpens the target: if
 fibre is the active fraction, *fibre content* (not the word "whole grain") is what to steer by.
-`[@reynolds2019]`
+[@reynolds2019]
 
 
 ## Low whole grains tops the GLOBAL burden ranking — but read that as prevalence, not effect size `[2026-08-04, Afshin GBD 2017]`

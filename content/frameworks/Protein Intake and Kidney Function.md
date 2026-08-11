@@ -38,7 +38,7 @@ evidence of harm in the healthy* — **not** *protein is safe for everyone*. In 
 not speak to it.
 
 
-`[@devries2018]`
+[@devries2018]
 ## The finding — higher protein does not change kidney function in healthy adults
 
 Devries pooled 28 RCTs (1358 subjects; 1975-2016) comparing higher-protein (HP: mean 1.81 ± 0.60
@@ -61,7 +61,7 @@ comparing only ending values imports that baseline gap — «These findings sugg
 analysis exaggerated an effect of an HP diet on GFR.» The change analysis, which nets out the baseline,
 is the more valid estimate, and it is flat.
 
-**Supporting lines all point the same way** `[@devries2018]`:
+**Supporting lines all point the same way** [@devries2018]:
 
 - **Dose gives no gradient on the outcome that counts.** Protein dose correlated with post-only GFR
   (r=0.332, P=0.03) but **not** with the *change* in GFR (r=0.184, P=0.33); a biphasic fit was
@@ -73,7 +73,7 @@ is the more valid estimate, and it is flat.
   kidney damage), «only 1 trial found that an HP diet increased the albumin excretion rate».
 
 
-`[@devries2018]`
+[@devries2018]
 ## Why the GFR rise is not harm — kidney functional reserve
 
 The worry traces to Brenner (1982): a higher protein load raises GFR (glomerular hyperfiltration), and
@@ -95,7 +95,7 @@ raises GFR"* is a true observation that is **not** evidence of harm — and Devr
 raised GFR «alone is not evidence that the risk of CKD is modified».
 
 
-`[@devries2018]`
+[@devries2018]
 ## Scope — how far the null reaches, and where it stops
 
 The included populations were healthy, obese, hypertensive, and **type-2-diabetic** adults with normal
@@ -123,7 +123,7 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
   need for dialysis) over years. No protein→hard-kidney-**outcome** RCT exists — that is the standing
   **G-gap** the [[Protein Intake for Older Adults]] page also names. The direction of the null is robust
   (change analysis, dose, duration, albumin, and mechanism all agree); its *certainty* is low.
-  `[@devries2018]`
+  [@devries2018]
 - **This is NOT independent corroboration of the protein cluster — same lineage.** Devries shares
   authors **Morton and Phillips** with [[Protein and Resistance Training for Muscle and Strength]]
   (Morton 2018), and **Phillips** also co-authors the PROT-AGE consensus that made the parallel renal-
@@ -137,13 +137,13 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
   Beef Cattlemen's Association» — protein/meat/dairy industry funding on a finding that *removes a barrier
   to eating more protein*. By symmetric standards this discounts the framing and cautions against over-
   reading the null as *proven safe*; it does not by itself overturn a result concordant with independent
-  guidance (below). `[@devries2018]`
+  guidance (below). [@devries2018]
 - **Concordant with guidance (the guidance-null, defeated by agreement-with-warrant, not divergence).**
   The null «are in line with statements from the WHO … and Institute of Medicine … on protein intake and
   kidney function» — bodies outside the Phillips lineage that already dismiss a causal protein→kidney-
   decline role. Devries's contribution over guidance is the *warrant*: the change-from-baseline
   reanalysis and the functional-reserve mechanism, not a new direction.
-  `[@devries2018]`
+  [@devries2018]
 
 
 ## Decision relevance

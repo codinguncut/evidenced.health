@@ -31,7 +31,7 @@ point estimate sits within a few percent of 1.00 with confidence intervals kissi
 whole body is GRADE **low** certainty. This is a *big-worry, small-effect* case — a Layer-1 finding that
 the egg question ranks LOW and that the attention it attracts is an anti-signal, not a magnitude.
 
-## The effect estimates — near-null, outcome-specific shape `[@godos2020]`
+## The effect estimates — near-null, outcome-specific shape [@godos2020]
 
 Summary relative risks (SRR) vs no consumption, from the two-stage random-effects dose-response model
 (restricted cubic splines, 3 knots). Two «arbitrarily defined» reference doses are reported for

@@ -376,7 +376,7 @@ same-quantity failure. **That was wrong**: NNR's front-matter glossary defines *
 essentially WHO's words, and since added sugars are a subset of free sugars under that definition, the
 phrase "added and free sugars" has the extension *free sugars*. The denominators match too. **So the
 three thresholds are comparable, and the divergence between them is real rather than definitional.**
-`[@nnr2023]` `[searched: "monosaccharide"/"disaccharide"/"naturally present in
+[@nnr2023] `[searched: "monosaccharide"/"disaccharide"/"naturally present in
 honey"/"definition of sugar"/"intrinsic sugar" across all 10 NNR chunks]`
 
 **The three-body picture, now that they can be compared:**
@@ -410,7 +410,7 @@ low energy intake» — which follows from the displacement mechanism: a fixed *
 from sugar crowds out proportionally more of a smaller nutrient budget. **A caries threshold carries no
 such stratification**, because caries risk tracks frequency and exposure rather than the surrounding
 energy budget.
-`[@nnr2023]`
+[@nnr2023]
 
 **And NNR names an evidence gap exactly where the other two set their second tier.** Its carbohydrate
 *Main data gaps* block reads:
@@ -555,7 +555,7 @@ does NOT license:
   chosen by the already-at-risk — and Qin runs no MR/reverse-causation check. Do not read the ASB
   association as an ASB *effect*; it is the artifact-suspect arm -> [[The U-Shaped Association Artifact]],
   [[Non-Sugar Sweeteners]].
-`[@qin2020]`
+[@qin2020]
 
 ## A fourth body sets NO number at all — EFSA's risk assessment could find no threshold `[2026-08-06, EFSA 2022]`
 

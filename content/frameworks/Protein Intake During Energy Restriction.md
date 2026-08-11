@@ -30,7 +30,7 @@ confirmatory), and the effect of protein is **small** next to the resistance-tra
 
 ## The target RISES under a deficit — but read it as a region, and the caveats first
 
-`[@refalo2025]`
+[@refalo2025]
 Refalo's exploratory recommendations (their Table 3, their word): «increasing protein intake up to 1.9
 g/kgBM/day or 2.5 g/kgFFM/day, on average, is associated with less FFM loss in the present analysis
 (representing the protein intake levels at which the trend line of our meta-regression crosses an ES of
@@ -48,7 +48,7 @@ zero). Furthermore, intakes above these values, up to the highest analyzed intak
 
 ## The shape: LINEAR, no knee — reached independently of Morton (type-E), across two populations
 
-`[@refalo2025]`
+[@refalo2025]
 Bayes-Factor model comparison found the **linear** model (no additional predictors) beat quadratic and
 cubic: «there was a 97% probability that FFM change becomes more positive as daily protein intake
 (g/kgBW) increases» (per BM, b=0.07, 95% HDI -0.01 to 0.14), rising to 99% per FFM (below). No knee, no
@@ -78,7 +78,7 @@ not a tension.
 
 ## Why per-FFM is the better denominator here
 
-`[@refalo2025]`
+[@refalo2025]
 Only the per-FFM slope's 95% HDI **excludes zero** (0.01 to 0.12), while the per-BM slope's includes it
 (-0.01 to 0.14); direction probability 99% vs 97%. Scaling to FFM avoids a target «too low for lean
 athletes» (Helms' rationale). Decision consequence: **where FFM can be reasonably estimated, prefer the
@@ -88,7 +88,7 @@ because per-FFM is the recommended scaling.
 
 ## Who benefits more per gram — the BF% moderator (leaner benefit MORE)
 
-`[@refalo2025]`
+[@refalo2025]
 «for each additional gram of protein consumed per kilogram of BM and FFM, FFM change increased by 0.14 and
 0.12 in the Low BF% category, 0.10 and 0.07 in the Medium BF% category, and 0.04 and 0.03 in the High BF%
 category». Mechanism (Elia's early-starvation review): «lean individuals have 2-fold to 3-fold higher
@@ -105,7 +105,7 @@ under restriction, so protein defends them more. Protein should therefore **inve
 
 ## Sex, duration, deficit magnitude
 
-`[@refalo2025]`
+[@refalo2025]
 
 - **Sex (tentative):** «the probability of a linear dose-response was stronger for male participants than
   female participants, with the difference more pronounced with protein expressed relative to FFM (99
@@ -119,7 +119,7 @@ under restriction, so protein defends them more. Protein should therefore **inve
 
 ## The load-bearing caveats — do not ship a clean number
 
-`[@refalo2025]`
+[@refalo2025]
 
 - **EXPLORATORY, not confirmatory** — the authors' own verdict: «the heterogeneity between studies
   included in our meta-regression renders the findings exploratory rather than confirmatory» (study-level

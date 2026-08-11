@@ -168,7 +168,7 @@ this page already flags.
 Once SCORE2/OP (or a clinical feature in Table 3) places a person in a category, the category sets the
 LDL-C goal. These numbers were image-only in the source (Fig. 1 / Tables 3-4 did not OCR) and were
 recovered by a direct PDF-page read — so they carry a figure/table locus, not a `«...»` locate-verified
-form (`[@esceas2025]`):
+form ([@esceas2025]):
 
 | Category (Table 3 cut-off) | LDL-C goal (Fig. 1) | Class |
 |---|---|---|

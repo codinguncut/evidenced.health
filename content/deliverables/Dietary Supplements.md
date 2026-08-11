@@ -124,12 +124,12 @@ so this is an enhancement test by construction. Every primary endpoint was null:
 | Marine n-3 | Major CV events | 0.92 (0.80–1.06) |
 | Marine n-3 | Invasive cancer | 1.03 (0.93–1.13) |
 
-`[@manson2019vitd]`
-`[@manson2019n3]`
+[@manson2019vitd]
+[@manson2019n3]
 
 The same trial's bone endpoint was equally flat: vitamin D did not reduce total fractures
 (HR 0.98, 0.89–1.08) or hip fractures (HR 1.01, 0.70–1.47) in this replete cohort.
-`[@leboff2022]`
+[@leboff2022]
 
 **The USPSTF grid** synthesizes this class for primary prevention of CVD and cancer, and
 sorts it into two of the four states, not one:
@@ -142,7 +142,7 @@ sorts it into two of the four states, not one:
   evidence does not reach a verdict. This is the two-nulls distinction made official: vitamin E
   is graded *flat*, the multivitamin is graded *unresolved*.
 
-`[@uspstf2022supp]`
+[@uspstf2022supp]
 
 > **Do not double-count.** USPSTF is *not* independent backing for the VITAL nulls — it
 > pools VITAL among its trials. Agreement between them is one evidence base read twice, not
@@ -155,14 +155,14 @@ beta-carotene (1.07, 1.02–1.11), vitamin A (1.16, 1.10–1.24), and vitamin E 
 with vitamin C and selenium showing no effect. The pool of *all* 68 trials was null
 (RR 1.02, 0.98–1.06); the harm surfaced only once the high-bias trials were removed — the
 opposite of the usual publication-bias direction, and a reason to trust it.
-`[@bjelakovic2007]`
+[@bjelakovic2007]
 
 **CARET** is the mechanism-bearing instance behind that signal: 18,314 smokers and
 asbestos-exposed workers given beta-carotene (30 mg/day) plus retinol, **stopped \~21 months
 early** because the supplement arm did worse — lung cancer RR 1.28 (1.04–1.57), lung-cancer
 death RR 1.46 (1.07–2.00), all-cause death RR 1.17 (1.03–1.33). A real causal U: more was not
 better, it was worse, and the upper arm was demonstrated by randomization, not inferred from a
-curve. `[@omenn1996]`
+curve. [@omenn1996]
 -> [[The U-Shaped Association Artifact]]
 
 CARET is *inside* the Bjelakovic and USPSTF pools, not independent of them — the same trial
@@ -191,15 +191,15 @@ the strong reading rather than any single effect earning it:
   \~0.75 in the replete, P-interaction 0.006. Bolus dosing did not protect even in the deficient
   (OR 0.82, 0.51–1.33) — the
   effect is *both* status-gated and schedule-gated.
-  `[@martineau2017]`
+  [@martineau2017]
 - **Iron / cognition.** Supplementation raised IQ in **anaemic** children (\~+2.5 points,
   1.24–3.76) and was null in the well-powered replete comparisons.
-  `[@falkingham2010]`
+  [@falkingham2010]
 - **Iodine / child mental development.** In **iodine-deficient** populations, supplementation
   raised child IQ by \~7.4 points (best estimate; no CI carried, and the 6.9–10.2 figure is the
   design-dependent spread of the deficiency deficit, not an interval on 7.4), with the effect
   larger when given early in development than late.
-  `[@bougma2013]`
+  [@bougma2013]
 
 Three different nutrients, three different outcomes, three separate evidence bases reaching the
 *same structural claim* — deficiency status is the effect modifier — is genuine independent

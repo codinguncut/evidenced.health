@@ -299,7 +299,7 @@ The consortium draws the telos's own conclusion: promoting under-consumed health
 greater effect than policies only targeting sugar and fat.» So the heavily-litigated levers (meat,
 sugar, fat) sit at the bottom of the attributable-burden ranking, and the boring under-eaten staples
 (whole grains, fruit, nuts) sit at the top — a *population* instance of the anti-signal rule, from a
-source with no stake in the wiki's framing. `[@afshin2019]`
+source with no stake in the wiki's framing. [@afshin2019]
 
 **Four caveats that keep the ranking honest — all GBD's own, and they matter because a burden ranking
 is seductive:**

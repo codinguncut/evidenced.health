@@ -191,7 +191,7 @@ heterogeneity of the studies»*
 The Jayedi & Shab-Bidar 2020 umbrella review (**34 meta-analyses of cohorts, 48 SRRs, 298 primary
 cohorts, graded by NutriGrade**) is the first source in the vault to supply **pooled per-100-g/d
 magnitudes with a per-outcome certainty grade**. It does not overturn EFSA — it **firms and bounds**
-it. `[@jayedi2020fish]`
+it. [@jayedi2020fish]
 
 **The pooled benefit, by NutriGrade certainty (all per 100 g/d unless noted):**
 

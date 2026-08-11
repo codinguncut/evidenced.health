@@ -31,7 +31,7 @@ general-adult RDA is a floor set for a different question and undershoots this s
 **expert consensus on surrogates** (Bauer PROT-AGE, endorsed by four geriatric societies), backed by
 small metabolic studies — *not* a hard-outcome (fracture / disability / mortality) trial.
 
-`[@bauer2013]`
+[@bauer2013]
 ## The target ladder — by health and activity status
 
 PROT-AGE recommends, for adults >65:
@@ -48,7 +48,7 @@ impairment. All figures are g protein per kg **body weight** per **day**.
 
 ## The number this replaces — and why the RDA is a floor, not a target
 
-`[@bauer2013]`
+[@bauer2013]
 The general-adult RDA is **0.8 g/kg BW/d**, defined as the minimum daily protein to prevent deficiency
 in 97% of the population, derived from nitrogen-balance studies. PROT-AGE holds this «too low for older
 people»: N-balance likely *underestimates* requirements (it cannot see muscle redistribution and uses
@@ -60,7 +60,7 @@ maintaining muscle in this stratum it is the start line, not the finish
 
 ## The parameter table — daily and per-meal are DIFFERENT quantities (do not collapse them)
 
-`[@bauer2013]`
+[@bauer2013]
 The single most common error with these numbers is treating a *per-day* target, a *per-meal* dose, and a
 *hypertrophy* target as one quantity. They sit on different denominators; only the same-denominator rows
 are directly comparable.
@@ -96,7 +96,7 @@ are directly comparable.
 
 ## Per-meal distribution — clear the threshold at each meal
 
-`[@bauer2013]`
+[@bauer2013]
 Because anabolic resistance raises the *per-meal* trigger, hitting the daily total is not enough if it
 is unevenly distributed. PROT-AGE: «The per-meal anabolic threshold ... is higher in older individuals
 (ie, 25 to 30 g protein per meal, containing about 2.5 to 2.8 g leucine)». Moore's breakpoint (0.40
@@ -108,7 +108,7 @@ even distribution is the default, not a proven optimum.
 
 ## Renal safety — the healthy-kidney vs impaired-kidney split
 
-`[@bauer2013]`
+[@bauer2013]
 The routine worry — that higher protein harms aging kidneys — is not supported for **healthy** kidneys:
 «reviews of research studies reveal little or no evidence that high-protein diets cause kidney damage in
 healthy individuals, including those who are older», and 1.0-1.2 g/kg/d «is expected to help maintain
@@ -158,7 +158,7 @@ position, not two independent confirmations. The stratum flip (severe CKD -> res
   top-ups, not loading), and it is a *separate lineage* from PROT-AGE (partly answering the *one research
   school* limit below) — but treat it as a directional pointer to test, not as elderly-specific
   corroboration; it sets no age-specific dose of its own.
-  `[@tagawa2020]`
+  [@tagawa2020]
 
 ## Limits — consensus on surrogates, one research school, sponsor exposure
 

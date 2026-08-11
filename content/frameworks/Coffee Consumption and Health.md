@@ -111,7 +111,7 @@ every smoking-stratified model — a tell that smoking status was a major betwee
 | **Fracture in women** | high-vs-low RR 1.14 (1.05-1.24); men 0.76 | **harm (women only)** | sex effect-modifier, P<0.001 |
 | **Sleep, respiratory** | — | **insufficient (no MA existed)** | named gaps, not nulls |
 
-`[@poole2017]`
+[@poole2017]
 
 **The liver row is the big rock.** Poole: «The beneficial associations between consumption and liver
 conditions stand out as consistently having the highest magnitude compared with other outcomes across

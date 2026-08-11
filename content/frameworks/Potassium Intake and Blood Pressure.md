@@ -281,6 +281,6 @@ hard-outcome benefit in normotensives, where the BP effect is null.
   standards, the same discipline applied to the sodium lineage.
 - **Some small-study bias possible** (funnel plots not clear); overall SBP I2=96% before stratifying.
 
-`[@aburto2013]`
+[@aburto2013]
 
 ## References

@@ -349,7 +349,7 @@ ordinary preparation defuses most of them -> [[Antinutrients in Plant Foods]].
   isolation, but soaking, germinating, leavening/fermenting and cooking all
   reduce it, so in a varied diet the concern is academic. It bites only in a
   named route-(c) stratum: monotonous high-phytate diets with already-marginal
-  mineral status. `[@petroski2020]`
+  mineral status. [@petroski2020]
 - **Raw high-lectin legumes** are the one place preparation is mandatory, not
   optional — an acute food-poisoning risk, not a chronic-diet claim:
 
@@ -358,7 +358,7 @@ ordinary preparation defuses most of them -> [[Antinutrients in Plant Foods]].
 > the case of particularly high-lectin legumes, such as soybeans and kidney
 > beans, boiling or autoclaving is required to eliminate lectins, as reduced
 > cooking temperatures do not significantly affect lectin content.»
-> `[@petroski2020]`
+> [@petroski2020]
 
 The generalisation worth keeping is that an isolated compound in an animal is
 not a cooked food in a person:
@@ -366,7 +366,7 @@ not a cooked food in a person:
 > «Harmful (and even beneficial) effects of an individual, isolated compound or
 > phytochemical are often quite different than when the same compound is within
 > the complex food matrix.»
-> `[@petroski2020]`
+> [@petroski2020]
 
 So the downsides are minor, largely preparation- and pace-managed, and the
 real strata that still need care (low iron stores, stone-formers, marginal
@@ -388,7 +388,7 @@ table.
 | NNR | 3 g/MJ (primary); 25 g/d women, 35 g/d men | energy-scaled + sex-split | no |
 | ESC | 30-45 g/day | range | no |
 
-`[@sacn2015]` · `[@esc2021]` · `[@nnr2023]`
+[@sacn2015] · [@esc2021] · [@nnr2023]
 
 A point, a floor, an energy-scaled value and a range are different constructs
 answering different questions, and **only SACN names its analytic method**
@@ -418,7 +418,7 @@ The target is not where people already sit:
 > «Setting the dietary reference value for AOAC fibre at 30g/day for adults
 > means that current mean intakes would be 10-11g below the dietary reference
 > value for men and 13g below for women.»
-> `[@sacn2015]`
+> [@sacn2015]
 
 That is a roughly 40% population shortfall, so *get to 30 g* is a substantial
 change in what people eat, not a tweak — and, under diminishing returns,

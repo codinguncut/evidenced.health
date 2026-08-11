@@ -35,7 +35,7 @@ staged ACSM 2026 stand or of Morton's protein RCT-MA (shared Phillips/McMaster t
 same-lineage source would not raise it. [inferred from @currier2023]
 
 
-`[@currier2023]`
+[@currier2023]
 ## The big rock: any prescription beats none — the between-prescription differences are second-order
 
 Currier compared 12 prescriptions (load H ≥80% 1RM / L <80%; sets M multiset / S single; frequency
@@ -49,7 +49,7 @@ concrete: the first dollar (start RT) buys almost everything; optimizing the pre
 tail.
 
 
-`[@currier2023]`
+[@currier2023]
 ## The decomposition (the value): strength is load-driven, hypertrophy is volume-driven
 
 The one place prescription *does* matter splits by outcome — and the two do not track together, so
@@ -75,7 +75,7 @@ so *load matters for one and not the other* is not a contradiction to reconcile 
 Filing it as a tension would compare non-commensurable quantities.
 
 
-`[@currier2023]`
+[@currier2023]
 ## Minimal effective dose — a floor, not a located knee
 
 - «There was a 95% probability that RT with at least two sets or two sessions per week increased
@@ -98,7 +98,7 @@ under-identification the protein \~1.62 g/kg knee carries: **hold the RT dose nu
 read the \~2 sets / \~2x per week as a floor, not an optimum.
 
 
-`[@currier2023]`
+[@currier2023]
 ## Effect modifiers — mostly absent (route-b is quiet here)
 
 Network meta-regression found **no** obvious modifying effect on relative RTx effects from age, training

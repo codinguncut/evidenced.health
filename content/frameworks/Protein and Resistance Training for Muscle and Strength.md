@@ -178,7 +178,7 @@ F-refinement, not a clean type-E backing. [inferred from @tagawa2020]
 
 **Fourth column is NO -> a refinement/distinction, not a tension.** The two measure diminishing returns
 in *different populations by different estimators*, so their numbers are not rival estimates of one knee.
-What Tagawa adds is decisive for the *hold-it-loosely* reading: `[@tagawa2020]`
+What Tagawa adds is decisive for the *hold-it-loosely* reading: [@tagawa2020]
 
 - **The knee is population-dependent, and Tagawa's RT arm does NOT plateau at 1.3.** «In model 2 ...
   after a total protein in- take of 1.3 g/kg BW/d was exceeded, the effect on LBM change continued to
@@ -208,7 +208,7 @@ What Tagawa adds is decisive for the *hold-it-loosely* reading: `[@tagawa2020]`
 be double-blinded — same design ceiling Morton hits). With sponsor-employed authors making the analysis
 choices on an unblindable exposure, the commercial interest discounts the framing **and cautions the
 magnitude** (the direction is held by Morton/Refalo independently; the effect *size* is the exposed
-parameter). `[@tagawa2020]`
+parameter). [@tagawa2020]
 
 
 [@morton2018]

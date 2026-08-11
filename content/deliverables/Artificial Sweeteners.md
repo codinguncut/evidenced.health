@@ -1,12 +1,13 @@
 ---
 type: deliverable
 title: Artificial Sweeteners
-question: Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them?
+question: 'What does the evidence show about non-sugar / artificial sweeteners'' effect on each patient-important outcome (cancer, appetite/cravings, insulin/glucose, body weight) — in which direction, how large, how certain — always against a stated comparator (vs sugar; vs water/nothing)? How does the effect vary by comparator and across sweetener members (aspartame, sucralose, saccharin, acesulfame-K, stevia)?'
+aliases: [NSS, Non-Sugar Sweeteners, Non-Nutritive Sweeteners, Low-Calorie Sweeteners, Sugar Substitutes, Aspartame, Sucralose, Saccharin, Stevia, Acesulfame K, Are Artificial Sweeteners Bad]
 sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-11
+self_critiqued: 2026-08-11
 ---
 
 This is a general, population-level appraisal — what the evidence says about non-sugar sweeteners
@@ -254,7 +255,8 @@ The honest read demands symmetric standards, and cuts both ways:
 - **Do not report it as *sweeteners cause diabetes and heart disease* either.** The certainty is
   Low-to-Very-low, the trial biomarkers are flat, and the strongest de-confounding tool — a genetic
   (Mendelian randomization) instrument, which fixes lifetime exposure and is immune to reverse causation —
-  **does not yet exist for sweeteners.** The cohort signal has survived only the *weak* checks (the same
+  **is not held here for sweeteners** (the registry carries MR studies for alcohol, apoB, BMI and CRP,
+  none for sweeteners). The cohort signal has survived only the *weak* checks (the same
   ones the alcohol artifact also survived), and has never faced the decisive one.
 
 So the defensible statement is: **the long-term association is unexplained, cannot be fully attributed to
@@ -337,10 +339,10 @@ split, and the trial-versus-cohort tension all in view at once, and refusing to 
 >
 > | | |
 > |---|---|
-> | **Question** | Are non-sugar (artificial) sweeteners harmful, beneficial, or neutral — on cancer, appetite, insulin/glucose, weight, and cravings — and should someone use them? |
+> | **Question** | 'What does the evidence show about non-sugar / artificial sweeteners'' effect on each patient-important outcome (cancer, appetite/cravings, insulin/glucose, body weight) — in which direction, how large, how certain — always against a stated comparator (vs sugar; vs water/nothing)? How does the effect vary by comparator and across sweetener members (aspartame, sucralose, saccharin, acesulfame-K, stevia)?' |
 > | **Evidence included** | 6 sources — 2 gold, 1 high, 1 moderate, 2 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | The aspartame cancer verdict now rests on two gold-tier primary evaluations (IARC hazard; JECFA risk). 3 source(s) below the gold evidence bar also feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Are%20Artificial%20Sweeteners%20Bad.md) |
+> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Artificial%20Sweeteners.md) |
 
 ## References

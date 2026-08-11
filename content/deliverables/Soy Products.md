@@ -1,104 +1,125 @@
 ---
 type: deliverable
 title: Soy Products
-question: 'What does the evidence show about soy products — on which patient-important outcomes, whether the feared hormonal, breast-cancer, thyroid and antinutrient effects are real, and whether the forms (whole, fermented, isolated protein) differ — and how good is that evidence?'
+question: 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?'
+aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari, Does Soy Feminize Men, Does Soy Cause Breast Cancer]
+authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W]
 sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-11
+self_critiqued: 2026-08-11
 ---
 
-This is a general, population-level appraisal of what the evidence says about soy for anyone the
-studies speak to. It is not advice for one person; whether soy helps or matters for you depends on
-your stratum and goals, which belong at the end, not here.
+## §1 — Verdict
 
-The short version: soy is a food, not a hormone. The two loudest fears — that it **feminizes men**
-and that it **causes breast cancer** — do not survive the evidence: the male-hormone effect is a
-well-powered **null**, and breast-cancer risk is **neutral-to-protective**, never raised. What soy
-*does* do is modest and form-specific: **isolated soy protein** lowers LDL cholesterol, mostly in
-people who already have high cholesterol. The single most useful move here is to stop treating
-"soy" as one thing — the isolated protein, the whole bean, the fermented paste, and the soy-sauce
-condiment are **different exposures** carrying different evidence -> [[Is the Food Category Doing Any Work]].
+Soy is a food, not a hormone. The two loudest fears — that it *feminizes men* and that it
+*causes breast cancer* — do not survive the evidence. The male-hormone effect is a well-powered
+**null**, firmest for testosterone. Breast-cancer risk is **neutral-to-protective**, never raised.
+What soy actually does is modest and form-specific: **isolated soy protein** lowers LDL cholesterol,
+mostly in people who already have high cholesterol.
 
-## How good is the evidence — read this first
+The single most useful move is to stop treating "soy" as one thing. The isolated protein, the whole
+bean, the fermented paste, and the soy-sauce condiment are **different exposures** carrying different
+evidence — each fear above was tested on a different one -> [[Is the Food Category Doing Any Work]].
+When a benefit or a fear is pinned on "soy" without saying *which* soy, that is the tell it has
+outrun the evidence.
 
-Three gold-tier meta-analyses anchor this appraisal, one per fear, and each has a distinct evidence
-grade — so read the certainty as claim-by-claim, not as one verdict on "soy":
+Three gold-tier meta-analyses anchor this, one per fear, and each carries its own grade — so read
+the certainty claim-by-claim, not as one verdict on "soy":
 
-- The **male-hormone** question rests on pooled *clinical trials* — the strongest design available
-  here, and the reason that null is the firmest thing on the page.
-- The **breast-cancer** question is entirely **observational** (cohort and case-control), so it can
-  show association but not demonstrate cause, and its headline number is confounded by study design
-  (below). Treat it as *"not a risk, plausibly protective under lifelong high intake"* — not *"soy
-  prevents cancer."* -> [[Upgrading Observational Evidence]]
-- The **LDL** question rests on controlled feeding trials, but the anchor is **dated (1995)** and
-  **industry-funded**, and a newer meta-analysis revises its magnitude downward.
+| Leg | Direction | Certainty |
+|---|---|---|
+| Isoflavone -> male testosterone | null (no effect) | **high (TT)** |
+| Isoflavone -> free testosterone / estradiol | consistent-with-null, less bounded | moderate |
+| Soy isoflavone -> breast cancer | neutral-to-protective, never raised | low-moderate |
+| Isolated soy protein -> LDL | lowering, baseline-dependent | moderate (dated) |
+| Thyroid (iodine-conditional) | unknown | **insufficient** (gap) |
+| Natto / K2 (MK-7) -> bone / vascular | unknown | **insufficient** (gap) |
+| Soy in ER+ breast-cancer survivors | unknown | **insufficient** (gap) |
 
-Each outcome rests on a **single** meta-analysis, which is why overall confidence is medium despite
-three gold-tier sources. Where a fear is simply unstudied in the held evidence (thyroid,
-antinutrients), it is named as a **gap**, not silently scored as safe.
+Two facts bind the whole page. Each outcome rests on a **single** meta-analysis, which is why
+overall confidence is medium despite three gold sources. And the headline effects are all
+**surrogates** — hormone levels and LDL, not events — so their transmission to what a person feels
+is a further, separate claim.
 
-## Fear 1 — Does soy feminize men? No, and this is the firmest finding here
 
-Reed 2021 meta-analyzed **41 clinical studies** of whether soy or isoflavone intake moves male
-reproductive hormones — total testosterone (TT, measured in 1753 men), free testosterone (FT, 752),
-estradiol (E2, 1000), estrone (E1, 239), and sex hormone-binding globulin (SHBG, 967)
-[@reed2021]. Across every
-statistical model, dose, and duration, it found no effect: «neither soy protein nor isoflavone
-exposure affects TT, FT, E2 or E1 levels in men»
-[@reed2021].
+## §2 — How good is the evidence — read this first
 
-The numbers, as standardized mean differences (SMD; 0 = no effect), random-effects
-[@reed2021]:
+Soy is one food, but its evidence is three separate literatures, and they are not
+equally strong. Read the certainty per outcome, not for "soy" as a whole. Each
+outcome rests on a single meta-analysis, so overall confidence is medium.
 
-- **Total testosterone:** SMD −0.06 (95% CI −0.29 to 0.17; P=0.59; 20 groups, 1241 men). Change
-  over time in active arms: 0.09 (−0.02 to 0.20; P=0.12).
-- **Free testosterone:** 0.01 (−0.33 to 0.32; P=0.98).
-- **SHBG:** −0.03 (−0.45 to 0.38; P=0.88). **Estradiol / estrone:** no significant effect on any model.
-- **No dose or duration effect:** splitting by isoflavone dose (<75 vs ≥75 mg/d) and by duration
-  (≤12 vs >12 weeks) changed nothing, and **none of the four studies lasting ≥12 months** found an
-  effect on testosterone.
+- **Hormones** — pooled clinical trials, the strongest design here and the firmest
+  finding. Reed 2021 gathered 41 controlled studies; certainty is high for the
+  total-testosterone null specifically (tight confidence interval, low heterogeneity,
+  no funnel-plot asymmetry), and softer for the estrogen arms.
+  [@reed2021]
+- **Breast cancer** — entirely observational, and confounded by study design: the
+  favourable pooled figure is carried by the weaker retrospective studies. Certainty
+  is low-to-moderate.
+  [@chen2014]
+- **LDL cholesterol** — controlled trials, but the landmark meta-analysis is from 1995
+  and partly industry-funded, and a newer one revises the magnitude down. The direction
+  is well supported; treat the 1995 magnitude as an upper bound.
+  [@anderson1995]
 
-### Why this is a null, not "insufficient evidence"
+Thyroid (goitrogen) and antinutrient (phytate) fears were not searched. They are
+named gaps, not outcomes scored safe. For how these certainty grades are assigned,
+see [[Rating Certainty of Evidence]] and [[Upgrading Observational Evidence]].
 
-Apply the expectancy test: if soy lowered *testosterone*, a 41-study analysis measuring it in 1753
-men, powered to detect it, with low heterogeneity (I2 30% on the change-over-time model) and no
-funnel-plot publication bias, would have seen it. It did not — that is **evidence of no meaningful
-effect**, one of the four evidence states, not an unproven blank
-[@reed2021]. Two honest bounds:
+## §3 — Fear 1 — Does soy feminize men? No, and this is the firmest finding
 
-- **The TT null is high-certainty; the others are softer.** The testosterone estimate has a tight
-  interval (−0.29 to 0.17) that excludes a meaningful effect, and it confirms an earlier 2010
-  meta-analysis. Free testosterone (n=752) and the estrogens (n=239–1000) are *consistent with no
-  effect* but less tightly bounded — the FT interval does not exclude a small change either way.
-- **The scary case reports involved extreme doses.** The published feminization cases (gynecomastia,
-  hypogonadism) involved roughly **360 mg/d isoflavones — about nine times a typical native-Japanese
-  intake** (\~30–50 mg/d), an exposure not reachable from foods
-  [@reed2021].
+Reed 2021 meta-analyzed 41 controlled studies of whether soy or isoflavone intake
+shifts male reproductive hormones — isoflavones being the plant estrogen-like
+compounds in soy, chiefly genistein and daidzein. It covered total testosterone (TT),
+free testosterone (FT), estradiol (E2), estrone (E1), and sex hormone-binding globulin
+(SHBG). TT and FT were measured in 1753 and 752 men.
+[@reed2021]
 
-The mechanism agrees: isoflavones (genistein, daidzein) are not estrogen. They preferentially bind
-and activate ERβ, whereas estrogen binds ERα and ERβ roughly equally, so they act tissue-selectively
-and are classed as **selective estrogen-receptor modulators (SERMs)**, not estrogens
-[@reed2021]. The *phytoestrogen =
-estrogen* intuition is the wrong model; the human null is what a SERM predicts. Mechanism only points
-the direction — the trial evidence is what settles it.
+The estimates cluster on zero:
 
-### The conflict-of-interest flag, applied symmetrically
+- Total testosterone: standardized mean difference (SMD) -0.06 (95% CI -0.29 to 0.17;
+  P=0.59). Free testosterone: 0.01 (-0.33 to 0.32). SHBG: -0.03 (-0.45 to 0.38).
+  Estradiol and estrone: no significant effect on any model. There was no dose or
+  duration effect, and none of the four studies running 12 months or longer found a
+  testosterone effect.
+  [@reed2021]
 
-The corresponding author (Messina, Nutrition Matters, Inc.) and a co-author work in
-soy-industry-adjacent nutrition consultancy
-[@reed2021]. Symmetric standards
-mean this gets *more* scrutiny, not a pass — but the null is not
-carried by the framing: it has low heterogeneity, no funnel-plot asymmetry, and it runs *toward* the
-SERM mechanism's prediction. (It also confirms an earlier 2010 meta-analysis — but that shared several
-of the same authors, so it corroborates rather than independently replicates.) The source is flagged,
-not exempt, and the finding stands on the design.
+This is a null, not a gap — most firmly for testosterone. Apply the expectancy test: if
+soy lowered testosterone, a 41-study analysis powered to detect it in 1753 men would
+have. It did not, across every model, dose, and duration. That is evidence of no
+meaningful effect on the very endpoint the feminization fear is about — not "unproven."
+The certainty splits by hormone. The TT null is high certainty: its interval (-0.29 to
+0.17) excludes a meaningful effect, and a 2010 predecessor reached the same result. The
+FT estimate is only moderate — its interval (-0.33 to 0.32) does not exclude a small
+effect in either direction. Read the author's summary that «neither soy protein nor
+isoflavone exposure affects TT, FT, E2 or E1 levels in men» as carried by the TT arm.
+[@reed2021]
 
-## Fear 2 — Does soy cause breast cancer? No — neutral-to-protective, and design-confounded
+The mechanism predicts this null. Isoflavones preferentially bind and activate ERbeta,
+one of the two estrogen-receptor subtypes, whereas estrogen binds ERalpha and ERbeta
+roughly equally. Because those receptors sit in different tissues and can act in
+opposite directions, isoflavones behave tissue-selectively and are classed as selective
+estrogen-receptor modulators (SERMs) — the same drug category as tamoxifen, not estrogen
+itself. Mechanism carries directional weight, but the trials, not the mechanism, settle
+it. [@reed2021]
 
-Chen 2014 pooled **35 epidemiological studies** (odds ratios, highest-vs-lowest isoflavone intake),
-stratified by menopausal status and region
-[@chen2014]:
+Two boundary conditions. The feared case reports of gynecomastia and hypogonadism
+involved intakes near 360 mg/d isoflavones — roughly nine times a typical native-Japanese
+intake of about 30-50 mg/d, and not reachable from food. And symmetric standards apply to
+the source: the corresponding author works in soy-industry-adjacent consultancy, so the
+paper is flagged rather than exempt. The null survives the flag — low heterogeneity, no
+funnel-plot asymmetry, a matching 2010 result, and it runs toward what the SERM mechanism
+predicts (the low-heterogeneity figure, I2 30%, is from the change-over-time model). Hormone levels
+are themselves a surrogate for the feared endpoints of fertility
+and feminization -> [[Surrogate Outcomes]].
+[@reed2021]
+
+## §4 — Fear 2 — Does soy cause breast cancer? No — neutral-to-protective, design-confounded
+
+Chen 2014 pooled 35 epidemiological studies of high-versus-low isoflavone intake,
+stratified by menopausal status and by country:
 
 | Stratum | Premenopausal OR (95% CI) | Postmenopausal OR (95% CI) |
 |---|---|---|
@@ -108,128 +129,135 @@ stratified by menopausal status and region
 
 [@chen2014]
 
-The direction is inverse (protective) or neutral in **every** stratum — **never a raised risk**. But
-the headline \~25% reduction needs two large caveats before you believe it:
+Read the design before the headline number. The pooled \~25% reduction is confounded by
+study design. The stronger prospective cohort and nested case-control studies showed no
+significant protection — premenopausal cohorts OR 0.94 (0.74–1.14), postmenopausal
+cohorts 0.86 (0.73–1.00), the upper bound touching the null. The inverse signal came from
+retrospective case-control studies, whose recall and selection biases systematically
+inflate a diet-disease association. So the favourable figure tracks the weaker designs.
+This is a weaker-design-inflates-the-favourable-arm pattern — a cousin of
+[[The U-Shaped Association Artifact]], though the mechanism here is recall and selection
+bias rather than unequal reporting precision.
+[@chen2014]
 
-- **The protection is carried by the weaker study designs.** Split by design, the stronger
-  prospective **cohort / nested case-control** studies showed **no** significant protection
-  (premenopausal 0.94, 0.74–1.14; postmenopausal 0.86, 0.73–1.00, upper bound touching the null),
-  while the inverse association came from retrospective **case-control** studies (premenopausal 0.66,
-  0.55–0.76), whose recall and selection biases systematically inflate a diet-disease link
-  [@chen2014]. This is a
-  weaker-design-inflates-the-favourable-arm pattern, a cousin of [[The U-Shaped Association Artifact]].
-- **It is a lifelong-Asian-intake finding, not a Western-adult promise.** The protection concentrates
-  in Asian populations and vanishes in Western ones once stratified by design: «for women in Western
-  countries, pre- or post- menopausal, there is no evidence to suggest an association between intake
-  of soy isoflavone and breast cancer»
-  [@chen2014]. Chen
-  attributes the Asian signal to **early-life and higher lifelong intake**, not adult supplementation
-  — a transportability limit, not a dose you can add later.
+The direction is inverse or neutral — never a raised risk in any stratum. But the finding
+is transportability-limited. The protection concentrates in Asian populations (OR \~0.59);
+the Western signal vanished once stratified by design, and Chen attributes the Asian
+result to early-life and higher lifelong intake rather than to adult supplementation. The
+certainty is low-to-moderate: observational, heterogeneous (I2 up to 84%), with
+publication bias detected on Egger's test, and the strongest designs are null. The
+defensible claim is "not a risk, and plausibly protective under lifelong high intake" —
+not "soy prevents breast cancer."
+[@chen2014]
 
-Certainty is low-to-moderate: observational, heterogeneous (I2 up to 84%), with publication bias
-detected (Egger), and the strongest designs null. The defensible claim is **not a risk, and plausibly
-protective under lifelong high intake** — the feared direction is simply absent.
+## §5 — Fear 3 — What soy actually does: modest LDL lowering, via isolated protein
 
-### The survivor question stays open
+Anderson 1995 is the landmark meta-analysis: 38 controlled trials substituting soy
+protein (mean 47 g/d) for animal protein. Net of the control diet, it found total
+cholesterol -23.2 mg/dL (-9.3%), LDL -21.7 mg/dL (-12.9%), triglycerides -13.3 mg/dL
+(-10.5%), and a non-significant HDL change (+2.4%). Across the soy-diet-alone model, 25,
+50, and 75 g/d mapped to cholesterol falls of 8.9, 17.4, and 26.3 mg/dL — roughly monotone
+over the studied range, with no knee located.
+[@anderson1995]
 
-A separate and prominent clinical worry — that isoflavones might stimulate estrogen-receptor-positive
-tumours or blunt tamoxifen in breast-cancer **survivors** — is **not adjudicated here**: Chen covers
-incidence in healthy women, not survival or treatment interaction
-[@chen2014]. This is a named
-gap, neither reassured nor confirmed by the evidence held -> [[Soy Products and Health]].
+The effect is baseline-dependent, and this is the decisive nuance. Initial cholesterol
+accounted for about 77% of the between-study variance. In people with normal cholesterol
+(under 200 mg/dL) the change was a non-significant -3.3%; in severe hypercholesterolemia
+(over 335 mg/dL) it reached -19.6%. This is a route-(a) baseline-risk effect: the lever is
+real mainly for those who already have high cholesterol. LDL is a surrogate for
+atherosclerotic events, and its causal transmission runs through
+[[LDL ApoB and Cumulative Exposure]] -> [[Surrogate Outcomes]], not assumed here.
+[@anderson1995]
 
-## Fear 3 — Antinutrients and thyroid: named gaps, not findings
+Two caveats bound this figure. First, it is the isolated form only: Anderson excluded
+whole soybeans, so the evidence is for isolated or textured soy protein replacing animal
+protein — not for tofu, edamame, or soy sauce -> [[Is the Food Category Doing Any Work]].
+Second, symmetric standards: the 1995 trial was supported in part by a soy-protein
+manufacturer, with the lead author on its advisory group, so a favourable industry-funded
+result earns more scrutiny, not less. A newer meta-analysis revises the LDL magnitude down
+to roughly 3-5%. Hold the
+direction; treat the 1995 \~13% as an upper bound.
+[@anderson1995]
 
-Symmetric standards cut both ways: where the held evidence does not speak, the honest answer is
-*gap*, not *safe* and not *dangerous*.
+## §6 — Antinutrients and thyroid: named gaps, not findings
 
-- **Thyroid (goitrogen).** No soy-thyroid meta-analysis conditioned on iodine status is held, so this
-  is a **gap**. The mechanistic prior to test (not asserted): soy is a mild goitrogen mainly under
-  **iodine deficiency**; in euthyroid, iodine-replete people any effect is likely not clinically
-  important, and the practical issue is that soy can modestly raise levothyroxine dose needs — an
-  absorption/timing matter, not a disease.
-- **Antinutrients (phytates).** Phytate binds minerals (iron, zinc) and is a real consideration only
-  in marginal-mineral-status diets, not a general harm; **fermentation, soaking, and processing
-  reduce it**. The mineral-binding question is handled at [[Antinutrients in Plant Foods]]; no
-  soy-specific outcome evidence is held here.
+Two recurring soy fears sit outside the evidence appraised above. Naming them as gaps is a
+result in itself: it keeps "unstudied" apart from "shown safe," and neither is asserted nor
+dismissed here.
 
-## What soy actually does — modest LDL lowering, via isolated protein and mostly at high baseline
+- **Thyroid (goitrogen).** No systematic review conditioned on iodine status is held, so
+  this is a gap. The prior to test — not a finding — is that soy is a mild goitrogen mainly
+  under iodine deficiency; in euthyroid, iodine-replete people it likely causes no
+  clinically important harm. The one practical issue is that soy may raise levothyroxine
+  dose needs, an absorption-and-timing effect rather than a thyroid injury.
+- **Antinutrients (phytate).** Phytate is the mineral-binding compound in many plant seeds.
+  Its handling lives at [[Antinutrients in Plant Foods]]: reduced by fermentation and
+  soaking, and a concern only at the margin of mineral status, not a general harm. No
+  soy-specific outcome evidence is extracted here.
 
-Anderson 1995 — the landmark meta-analysis of **38 controlled trials** substituting soy protein
-(mean 47 g/d) for animal protein — is where the real, if modest, effect lives
-[@anderson1995]:
+## §7 — The forms are not interchangeable — specify the exposure
 
-- **Net changes vs the control diet:** total cholesterol −23.2 mg/dL (−9.3%); **LDL −21.7 mg/dL
-  (−12.9%)**; triglycerides −13.3 mg/dL (−10.5%); HDL non-significant (+2.4%)
-  [@anderson1995].
-- **Baseline cholesterol drives almost everything.** Initial cholesterol accounted for \~77% of
-  between-study variance: people with normal cholesterol (<200 mg/dL) got a non-significant −3.3%,
-  while those with severe hypercholesterolemia (>335 mg/dL) got −19.6%
-  [@anderson1995]. This is a baseline-risk
-  effect: the lever is real mainly for people who already have high cholesterol.
-- **Dose-response:** 25 or 50 g/d was estimated to lower cholesterol by 8.9 or 17.4 mg/dL —
-  roughly monotone over the studied range, no plateau located
-  [@anderson1995].
+"Soy" names several exposures with different active fractions and different evidence. This
+is a terminological disambiguation with decision consequences, and it is
+[[Is the Food Category Doing Any Work]] instantiated: the category "soy" is too coarse to
+carry one verdict, and the better-designed evidence tracks the better-specified exposure.
 
-Two caveats change how much weight to give the magnitude, both under symmetric standards:
 
-- **Dated and industry-funded.** The trial was «Supported in part by Protein Technologies
-  International» (a soy-protein manufacturer), with the lead author on its advisory group — a
-  favourable sponsored result earns *more* scrutiny
-  [@anderson1995]. A newer meta-analysis
-  revises the LDL effect **downward to roughly 3–5%**; treat the 1995 \~13% as an upper bound and expect the honest present-day number to be
-  small.
-- **It is a surrogate, and it is the isolated form.** LDL is a marker for cardiovascular events, not
-  an event itself; whether lowering it here translates to fewer heart attacks is the
-  [[LDL ApoB and Cumulative Exposure]] question, not assumed. And the analysis covered **isolated or
-  textured soy protein** — **whole soybeans were excluded** — so this LDL evidence belongs to the
-  protein-isolate form, not to tofu, edamame, or soy sauce.
+- **Isolated or textured soy protein** — the LDL-lowering form, and Anderson's exposure. A
+  high-DIAAS complete plant protein -> [[Protein Quality and the DIAAS Score]].
+- **Whole or minimally processed (tofu, edamame, soy milk)** — the isoflavone-plus-protein
+  workhorse; this is the form carrying the hormone and cancer evidence.
+- **Fermented (miso, tempeh, natto)** — lower phytate, because fermentation defuses the
+  antinutrient concern -> [[Antinutrients in Plant Foods]]. Natto is a notably rich source
+  of vitamin K2 (MK-7, the long-chain menaquinone form); whether that MK-7 moves a bone or
+  vascular outcome is a gap. See [[Fermented Foods and Health]] for the live-culture
+  question; the soy matrix stays here.
+- **Soy sauce / tamari** — a condiment and salt vehicle with a negligible isoflavone dose.
+  Do not credit it with soy's effects.
 
-## The forms are not interchangeable — specify the exposure
+The synthesis across the three meta-analyses is that soy's evidence is unusually
+form-dependent: each fear was tested with a different soy exposure, so the composite answer
+is not "soy does X" but a form-indexed one — the isolated protein moves LDL, the
+isoflavone-bearing foods leave male hormones unmoved and sit neutral-to-protective on
+breast cancer, and the condiment does nothing.
 
-The most decision-relevant fact about soy is that its evidence is **form-indexed**. Each fear above
-was tested with a *different* soy exposure, so "soy does X" is the wrong shape of answer
--> [[Is the Food Category Doing Any Work]]:
+## §8 — The bottom line
 
-- **Isolated / textured soy protein** — the LDL-lowering form (Anderson's exposure); also the
-  high-quality complete plant protein -> [[Protein Quality and the DIAAS Score]].
-- **Whole / minimally processed (tofu, edamame, soy milk)** — the isoflavone-plus-complete-protein
-  workhorse; this is what carries the hormone and cancer evidence (foods, not isolates).
-- **Fermented (miso, tempeh, natto)** — lower phytate (fermentation defuses the antinutrient
-  concern); **natto is a notably rich source of vitamin K2 (MK-7)**, though whether that MK-7 moves a
-  bone or vascular outcome is a gap (below). Cross-links [[Fermented Foods]] for the live-culture
-  question; the soy matrix lives here.
-- **Soy sauce / tamari** — a condiment and salt vehicle with **negligible isoflavone dose**. Do not
-  credit it with soy's effects — a specify-the-exposure catch.
-
-## The bottom line
-
-The category "soy" is too coarse to carry one verdict; the useful answers are form-indexed
--> [[Is the Food Category Doing Any Work]].
-
-- **The two big fears are refuted or neutral.** Soy does not lower testosterone (a well-powered null,
-  firmest for TT), and it does not raise breast-cancer risk — it is neutral-to-protective, with the
-  protection an Asian/lifelong-intake pattern, not a Western-adult dose.
+- **The two big fears are refuted or neutral.** Soy does not lower testosterone — a well-powered
+  null, firmest for total testosterone — and it does not raise breast-cancer risk. On cancer it is
+  neutral-to-protective, with the protection an Asian, lifelong-intake pattern, not a dose a Western
+  adult can add later.
 - **The real effect is small and specific.** Isolated soy protein modestly lowers LDL, mostly in
-  people with high cholesterol, and the honest modern magnitude is a few percent — a minor lever, not
-  a treatment.
-- **Match the claim to the form.** If a benefit or a fear is attached to "soy" without saying *which*
-  soy, that is the tell that it has outrun the evidence.
+  people who already have high cholesterol, and the honest modern magnitude is a few percent — a
+  minor lever, not a treatment, and on a surrogate rather than an event.
+- **Match the claim to the form.** The isolated protein moves LDL; the whole-bean foods carry the
+  hormone and cancer evidence; the fermented pastes shed the phytate concern; the soy-sauce condiment
+  does nothing. A benefit or fear attached to "soy" with no form named has outrun its evidence
+  -> [[Is the Food Category Doing Any Work]].
+- **Judge it against what it replaces.** As a complete plant protein displacing red or processed
+  meat, soy's case rests on the substitution as much as on anything intrinsic; your sex, menopausal
+  status, baseline LDL, iodine status, and realistic alternative set the individual weighting, at
+  layer 3.
 
-## Named gaps — what this appraisal cannot yet answer
+## §9 — Named gaps — what this appraisal cannot yet answer
 
-These are the questions the held evidence cannot close; each is tracked on the fabric nucleus
--> [[Soy Products and Health]].
+The honest edge of this page. Each item is unstudied-here, not scored safe.
 
-- **Soy in ER-positive breast-cancer survivors / isoflavone-tamoxifen interaction** — a real clinical
-  worry, not adjudicated here (Chen covers incidence, not survival). Gap.
-- **Thyroid, conditioned on iodine status** — no meta-analysis held. Gap.
-- **Natto / vitamin K2 (MK-7) -> bone and vascular outcomes** — the compositional fact is well known;
-  the outcome evidence is not held. Gap.
-- **Prostate cancer, menopausal symptoms, bone density** — named in scope, no source held. Gap.
-- **Absolute breast-cancer risk reduction** — Chen reports relative ORs only; the absolute benefit
-  depends on the stratum's baseline incidence, which the meta-analysis does not supply.
-- **Updated LDL magnitude** — pending the newer soy-protein/lipids meta-analysis.
+- **Soy in ER-positive breast-cancer survivors.** The prominent clinical worry that
+  dietary isoflavones might stimulate estrogen-receptor-positive tumour growth or blunt
+  tamoxifen is not adjudicated here — Chen covers incidence, not survival. Gap.
+- **Thyroid, iodine-conditional.** No soy-thyroid systematic review conditioned on iodine
+  status is held. Gap.
+- **Natto and vitamin K2 (MK-7) -> bone and vascular calcification.** Whether natto's MK-7
+  moves a bone or cardiovascular outcome is unresolved; cross-links
+  [[Fermented Foods and Health]]. Gap.
+- **Prostate cancer, menopausal symptoms, bone density.** Named in scope, no source held.
+  Gap.
+- **Absolute breast-cancer risk reduction.** Chen reports relative odds ratios only; the
+  absolute benefit depends on baseline incidence in the stratum, which the analysis does not
+  supply. This needs pooling the wiki cannot perform — `G (needs aggregation)`.
+- **Updated LDL magnitude.** The newer meta-analysis that revises Anderson's \~13% downward
+  is not yet held.
 
 ---
 
@@ -238,13 +266,13 @@ These are the questions the held evidence cannot close; each is tracked on the f
 - **Open loop.** This wiki grades internal coherence and fidelity to its sources — never whether a
   recommendation actually improves outcomes in the world. A clean appraisal is not a validated result.
 - **Appraise, do not prescribe.** This is a general, population-level appraisal, not medical advice;
-  selecting, dosing, and screening for contraindications (thyroid medication timing, survivorship) are
+  selecting, dosing, and screening for contraindications (thyroid-medication timing, survivorship) are
   prescriber acts requiring information this document does not hold.
 - **A general appraisal, applied per person.** Sex, menopausal status, iodine and mineral status,
   baseline LDL and cardiovascular risk, and your realistic alternative decide the individual weighting.
 - **Health axis only.** This cut weighs soy on hormonal, cancer, and cardiometabolic outcomes. Soy
   also carries environmental (low-footprint protein, but entangled with animal-feed and deforestation)
-  and economic loads; that those trade-offs exist is noted, not priced against the health finding.
+  and economic loads; that those trade-offs exist is noted here, never priced against the health finding.
 - **The target is not agreement or divergence with any guideline.** It is showing how good the soy
   evidence is — clinical-trial-firm on male hormones, observational and design-confounded on cancer,
   dated and industry-funded on LDL — and letting the forms carry different verdicts.
@@ -253,10 +281,10 @@ These are the questions the held evidence cannot close; each is tracked on the f
 >
 > | | |
 > |---|---|
-> | **Question** | 'What does the evidence show about soy products — on which patient-important outcomes, whether the feared hormonal, breast-cancer, thyroid and antinutrient effects are real, and whether the forms (whole, fermented, isolated protein) differ — and how good is that evidence?' |
+> | **Question** | 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?' |
 > | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
 
 ## References

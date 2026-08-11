@@ -4,378 +4,515 @@ title: Meal Timing and Fasting
 subject: What manipulating when and whether you eat -- time-restricted eating, one-meal-a-day, alternate-day and whole-day fasting, and prolonged therapeutic fasting -- adds beyond the calorie deficit it creates, and where a long fast flips to net harm
 question: For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm?
 aliases: [Fasting, Intermittent Fasting, Fasting Benefits and Risks, Time-Restricted Eating Deliverable, Meal Timing, Is Meal Timing a Life Hack, ADF, 5:2, OMAD, Skipping Breakfast, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting]
-authors: [Lowe, Dylan A; Sutton, Elizabeth F; Morton, Robert W; European Association for the Study of the Liver (org); Lean, Michael EJ; National Institute for Health and Care Excellence (org); Goldenberg, Joshua Z; Semnani-Azad, Zhila; Look AHEAD Research Group (org); Ma, Chenhan]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Morton - Protein Supplementation and Resistance Training 2018, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, NICE - NG246 Evidence Review F, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017]
+authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Association for the Study of the Liver (org); Lean, Michael EJ; Liu, Deying; Refalo, Martin C; Sumithran, Priya; Montani, Jean-Pierre; Capers, Patrice L; Wilding, John P H; Lincoff, A Michael]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-11
+self_critiqued: 2026-08-11
 ---
 
-### The verdict up front
+## §1 — Verdict
 
-Manipulating *when* or *whether* you eat is not a metabolism trick. Every one of these
-schedules -- a daily eating window, one-meal-a-day, alternate-day or two-days-a-week fasting, a
-multi-day fast -- is a *delivery system* for an energy deficit, and on the evidence held here the
-schedule adds very little that the same deficit delivered continuously does not. A gold-tier network
-meta-analysis of **99 RCTs (6582 adults)** now settles the weight question at scale: pooled across
-every intermittent-fasting form, the finding is *«little additional benefit for intermittent fasting»*
-over continuous caloric restriction, with the one exception (alternate-day fasting) coming in below the
-threshold that would matter to a person and gone by 24 weeks
+For a generally-healthy adult, *when* and *whether* you eat is a refinement, not a big rock.
+An eating schedule -- a daily window, alternate-day fasting, a 5:2 week -- is a way to
+deliver an energy deficit. Match that deficit out, and the schedule adds almost nothing you
+can measure.
+
+The clean test holds the calories equal. Liu's 12-month RCT gave both arms the same
+prescribed deficit; the 8-hour window bought no extra loss -- «net difference, −1.8 kg;
+95% CI, −4.0 to 0.4; P = 0.11»
+[@liu2022] -- and every
+metabolic marker was null between groups.
+
+The best-powered summary reaches the same verdict --
+a network meta-analysis that *pools Liu among its 99 RCTs*, so it summarizes that trial rather
+than corroborating it independently: only alternate-day fasting beat a matched deficit at all,
+by −1.29 kg -- below the 2.0 kg the analysis itself treats as clinically meaningful, and gone by
+24 weeks
 [@semnaniazad2025].
-
-The one gold-tier guideline that looked directly (at liver fat) agrees: *«very little evidence for a
-beneficial effect of time-restricted eating over regular caloric restriction»*
+The one guideline that looked straight at an organ -- liver fat -- found time-restricted
+eating no better than ordinary calorie restriction
 [@easl2024].
 
-Two honest exceptions to *the schedule does nothing*, one small and one negative:
+One possible exception survives, faintly: eating earlier in the day. A weight-matched
+crossover of eight men with prediabetes improved insulin sensitivity and blood pressure with
+no weight change -- but on eight people, over five weeks, with a morning triglyceride marker
+moving the wrong way, and Liu's far larger early-window trial showed nothing between arms. It
+is a preliminary signal, not a lever to bank.
 
-- **Eating early** may act on its own -- a tightly controlled trial shifting the same food to a 6-hour
-  early window improved blood pressure and insulin sensitivity with **zero weight change**. Real, but
-  surrogate-only and from eight men over five weeks.
-- **Prolonged (>=36 h) fasting is a different object** -- it adds *specific harms* the continuous route
-  avoids (hypoglycaemia on glucose-lowering drugs, refeeding risk, muscle loss), and its marquee
-  longevity payoff (autophagy) is **insufficient evidence in humans**, not a demonstrated benefit.
+So the tier is refinement, and the mechanism is prosaic: a schedule works, where it works, by
+making a person eat less and by being easy to keep. Its value is *adherence*, not timing. The
+realistic drug alternative dwarfs it -- semaglutide takes off −14.9% of body weight
+[@wilding2021], several times any
+fasting edge. For someone set on a fasting pattern the honest instruction is short: pick the
+one you will keep, eat earlier if you use a window, keep protein up. The regimen label is
+second-order to the deficit.
 
-Because every outcome measured here is a surrogate marker (weight, glucose, lipids, blood pressure) and
-not a hard event, the honest comparator is never *fasting vs eating whatever you want* -- it is **a whole
-lifetime strategy, adherence included, against the same calorie deficit delivered continuously**. This
-appraises what the schedules *do*; it is **not a protocol**. The individual answer is set per person
-(weight, metabolic status, medications, age, muscle) at the point of use.
+Confidence is low-to-medium, and uneven across the claims:
 
-## 1. The one test: is there an effect beyond the deficit?
+- *schedule ≈ matched deficit* (TRE vs isocaloric continuous restriction) -- **medium** (a
+  12-month RCT plus a 99-RCT network meta-analysis), but surrogate-only, no hard endpoints,
+  short follow-up.
+- *ADF's edge over a matched deficit* -- real but **clinically trivial** (below the 2.0 kg
+  threshold, gone long-term); the long-horizon equivalence is underpowered -- read it as "no
+  durable advantage shown," not "proven equal."
+- *a weight-independent early-timing effect* -- **low** (a single eight-person crossover,
+  colliding with a 12-month null).
+- *lean-mass loss from a short late window* -- **low** (the TREAT signal did not replicate;
+  protein is a candidate, not a proven cause).
+- *adaptive thermogenesis / metabolic rate* -- **low** (single-arm, VLCD-specific, confounded
+  by the still-smaller body).
+- *prolonged fasting, autophagy, longevity in humans* -- **insufficient evidence**; no human
+  source held -- a named gap.
+- *appetite, sleep, breakfast-skipping* -- **insufficient**; no meal-timing RCT held.
 
-*Fasting* and *meal timing* are single words for several distinct exposures with different evidence and
-very different risk. A benefit or harm shown for one does not transport to another -- the label is not
-the exposure ([[Is the Food Category Doing Any Work]]). Keep the schedules apart:
+Everything below is a surrogate on a short horizon. That caveat travels with every number on
+this page.
 
-- **Sub-daily eating windows** -- time-restricted eating (TRE, e.g. 16:8 or 18:6), one-meal-a-day
-  (OMAD), early time-restricted eating (eTRF), skipping breakfast. Mostly a calorie-reduction vehicle;
-  the arm with the most controlled human data.
-- **Whole-day intermittent fasting** -- alternate-day fasting (ADF), 5:2, and whole-day fasting (WDF,
-  cyclical 24-hour fasts). The main weight-loss evidence base and the key comparator against continuous
-  restriction.
-- **Prolonged / therapeutic fasting (>=\~48 h, multi-day)** -- the arm carrying the autophagy claim *and*
-  the contraindication and refeeding risks. Thinnest human-outcome evidence, highest harm potential.
-- **Fasting-mimicking diets** -- an engineered low-calorie protocol; named here, not merged with water
-  fasting, and not evidenced in the held corpus.
+## §2 — Isolate the schedule from the calories
 
-### The comparator is isocaloric restriction, judged as a lifetime strategy
+An eating schedule is a way to deliver an energy deficit. A 16:8 window, alternate-day
+fasting, a 5:2 week -- each mostly works, where it works, by making a person eat less and
+by being easy to stick to. So the question that matters is not *does the schedule change
+weight or metabolism?* but *does it change anything once the calorie deficit is held
+equal?* That is the single test the rest of this page applies, and it turns on one design
+choice: what the schedule is compared against.
 
-The honest test of any schedule is not *does it beat ad-lib eating?* (a deficit beats surplus -- that
-tells you nothing about the schedule). It is: **does the schedule beat the same calorie deficit
-delivered continuously?** *When* you eat moves outcomes mostly because it changes *how much*, so frame
-every claimed benefit as a **schedule effect on top of a deficit effect**, and default to *the deficit is
-doing the work* unless a head-to-head shows otherwise ([[Time-Restricted Eating]]).
+**The comparator decides the verdict -- and the two available comparators give opposite
+answers.**
 
-Two further disciplines bind the whole appraisal. First, **weight is a surrogate**, not the outcome
-people care about -- a favourable marker is a legitimate *target* only if its transmission to something
-patient-important is itself evidenced, which for these schedules it is not ([[Surrogate Outcomes]]).
-Second, **adherence is part of the effect**: the comparator is not an idealized protocol but the one a
-person will actually keep, so a smaller sustained deficit can beat a larger abandoned one.
+- **Against a free-eating (ad-libitum) control,** a fasting schedule looks effective:
+  people on a window lose weight. But an ad-libitum control leaves the deficit *in* the
+  comparison, so the loss is the deficit talking, not the clock.
+- **Against an isocaloric continuous energy restriction (CER) control** -- the same
+  prescribed deficit, delivered without any timing rule -- the window's added effect is
+  what remains. This is the comparator that isolates the schedule, and it is the harder
+  test to pass.
 
-## 2. Sub-daily eating windows -- the "life hack" claims
+The cleanest isocaloric test is **Liu 2022** (NEJM). It «randomly assigned 139 patients
+with obesity to time-restricted eating (eating only between 8:00 a.m. and 4:00 p.m.) with
+calorie restriction or daily calorie restriction alone»
+[@liu2022], for 12
+months, both arms on the same prescribed deficit. The window added nothing detectable:
+−8.0 kg with the window versus −6.3 kg without it, «net difference, −1.8 kg; 95% CI, −4.0
+to 0.4; P = 0.11»
+[@liu2022], and body
+fat, waist, blood pressure, glucose, insulin resistance and lipids were all null between
+groups. Liu's own reading: «caloric intake restriction explained most of the beneficial
+effects seen with the time-restricted-eating regimen»
+[@liu2022].
 
-### The window alone buys no weight advantage
+The earlier free-living TREAT trial (Lowe 2020) pointed the same way against an ad-libitum
+control, finding «no differences in estimated energy intake between groups»
+[@lowe2020] and no weight advantage.
 
-In the one adequately-powered, real-world trial, a 16:8 window with no other change produced no weight
-advantage over normal eating. TREAT randomized 116 overweight adults to a self-selected 12pm-8pm window
-(skip breakfast, eat late) versus three structured meals, with **no calorie or macronutrient target** --
-the pure *just restrict the window* version [@lowe2020].
-Both arms lost a little; the difference was null -- **-0.26 kg between groups (95% CI -1.30 to 0.78;
-P=.63)** -- and every metabolic marker (fasting glucose, insulin, HOMA-IR, HbA1c, triglycerides,
-cholesterol) was flat [@lowe2020]. The authors'
-bottom line: *«Time-restricted eating, in the absence of other interventions, is not more effective in
-weight loss than eating throughout the day»* [@lowe2020].
+**Two disciplines travel with every number below.**
 
-The control-arm lesson is the one to keep: single-arm TRE studies reporting \~3% loss had no comparison
-group, and *«participation in a weight loss study alone (even in the control group) is sufficient to lead
-to short-term weight loss»* [@lowe2020]. The pooled
-network meta-analysis lands the same place: the TRE-versus-continuous-restriction difference is a trivial
-**0.39 kg** (moderate certainty), below the minimal important difference of **2.0 kg** the authors set
-for weight [@semnaniazad2025].
-TRE's real-world value, where it has one, is the deficit and the adherence relabeled.
+- **Everything measured here is a surrogate.** Weight, waist, blood pressure, glucose,
+  insulin sensitivity and lipids are markers, not outcomes people live or die by. No
+  fasting trial in this evidence base reports heart attacks, strokes or deaths, and the
+  transmission from these markers to those outcomes is unevidenced here
+  ([[Surrogate Outcomes]]).
+- **The horizon is short.** Most fasting trials run only weeks; Liu's 12 months is an
+  exception, not the norm. A marker that moves at 8 or 12 weeks says little about a
+  decade.
 
-### The one weight-independent signal: eating early
+**One caveat cuts the other way -- the isocaloric claim rests on prescription, not
+measurement.** Liu's two arms were prescribed the same deficit and tracked by
+self-reported logs, but «total energy expenditure was not assessed in this trial»
+[@liu2022]. Self-reported
+intake carries error large enough to hide a real gap, and a null dose-response is weak
+evidence of no gradient ([[Measurement Error in Dietary Assessment]]). So the reading is
+*no schedule effect was demonstrated on a matched deficit* -- not *the two are proven
+identical down to the last calorie the logs could not see*.
 
-Shifting the same food earlier improved blood pressure and insulin sensitivity with zero weight change --
-a real timing signal, but tiny and preliminary. eTRF is the mirror-image trial: a supervised
-controlled-feeding crossover in 8 men with prediabetes, a 6-hour *early* window (dinner before 3pm)
-versus a 12-hour window, with **calories matched meal-by-meal and body weight held constant by design**
-[@sutton2018]. Weight was stable in both arms
-(difference 0.5 kg, p=0.12), so any effect cannot route through weight loss -- the whole point of the
-trial. What moved:
+## §3 — Per-schedule effects versus an isocaloric deficit
 
-- **Blood pressure fell sharply** -- systolic and diastolic dropped **11 and 10 mm Hg** (both p=0.03),
-  which the authors call *«on par with the effectiveness of anti-hypertensive medications such as
-  angiotensin-converting enzyme (ACE) inhibitors»* (drugs that relax blood vessels)
-  [@sutton2018]. Arterial stiffness, LDL and
-  HDL were unchanged.
-- **Insulin sensitivity improved** even though glucose did not -- mean insulin fell **26 mU/L** and a
-  measure of insulin resistance dropped **36 U/mg (p=0.005)**
-  [@sutton2018]. Oxidative stress fell \~14% and
-  evening appetite dropped. The proposed mechanism is circadian: the body handles food better in the
-  morning, and **late** eating tends to be worse.
+*Intermittent fasting* is not one exposure. The umbrella covers several protocols that
+behave differently, and lumping them hides the answer.
 
-### But hold the enthusiasm on early eating
+- **TRE (time-restricted eating)** -- a daily eating window, e.g. 16:8.
+- **ADF (alternate-day fasting)** -- roughly a 24-hour fast every other day.
+- **WDF / 5:2 (whole-day fasting)** -- one or two fasting or near-fasting days a week.
+- **OMAD (one meal a day)** -- an extreme TRE variant with a roughly one-hour window;
+  thinly evidenced, a variant of TRE rather than a separate regime.
+- **FMD (fasting-mimicking diet)** -- a periodic multi-day low-calorie protocol; a distinct
+  exposure, not appraised here for lack of a held human-outcome source.
 
-This rests on **eight prediabetic men, five weeks, surrogate markers, no hard outcome, no weight change**.
-Three caveats bite. (1) The trial did not match fasting duration before testing -- 18 hours fasted in the
-eTRF arm versus 12 in control -- which biases *against* the insulin finding (so that one is probably real)
-but may *manufacture* the one adverse result, a 57 mg/dL rise in fasting triglycerides likely reflecting
-fat breakdown from the longer fast [@sutton2018].
-(2) Everything measured is a surrogate whose transmission to a patient-important outcome is unevidenced
-([[Surrogate Outcomes]]). (3) Men-only, prediabetic, morning measurement. This is the honest exception to
-*timing does nothing* -- not a licence to sell early TRE as proven.
+The best-powered summary is **Semnani-Azad 2025**, an EASD-commissioned network
+meta-analysis of «99 randomised clinical trials involving 6582 adults»
+[@semnaniazad2025].
+Liu and TREAT are among the 99, so it *summarizes* those trials rather than confirming them
+by an independent route. Read against the isocaloric test of §2, it sorts the regimes cleanly.
 
-### The harm a short window can add: lean-mass loss
+**Only one form beats a matched deficit, and even that edge is clinically trivial.**
+Against isocaloric CER, «alternate day fasting was the only form of intermittent fasting
+diet strategy to show benefit in body weight reduction (mean difference −1.29 kg (95% CI
+−1.99 to −0.59), moderate certainty of evidence)»
+[@semnaniazad2025].
+TRE and WDF show no advantage over CER -- consistent with Liu's isocaloric null for TRE.
 
-In TREAT, the modest weight the fasting arm lost was disproportionately muscle. Of the 1.70 kg the
-in-person TRE group lost, *«approximately 65% of weight lost»* was lean mass
-[@lowe2020] -- against a normal 20-30% during weight
-loss. Appendicular (limb) lean mass showed a significant between-group deficit (-0.47 kg, P=.009), while
-fat mass did not differ between arms at all [@lowe2020].
-
-The likely reason: an ad-libitum short window cuts total intake and, with it, **protein** -- eaten mostly
-at meals, so a short window drops one -- and the authors flag this as *«a caution for patient populations
-at risk for sarcopenia»* [@lowe2020]. A late/short
-window can trade the fat loss you wanted for muscle you did not
--> [[Protein and Resistance Training for Muscle and Strength]].
-
-### Skipping breakfast, appetite and sleep -- mostly named gaps
-
-There is **no held breakfast-skipping RCT**, so the *breakfast is the most important meal* claim cannot be
-adjudicated on held evidence -- an open question, not a settled one. What the held evidence *does* say cuts
-against skipping breakfast as the smart move: the one weight-independent benefit came from eating **early**
-(eTRF), while the trial that skipped breakfast to eat *late* (TREAT) showed no weight advantage and the
-muscle-loss signal. Any benefit of skipping a meal depends on **not compensating** at later meals -- the
-same offsetting by which the body refills a naive deficit ([[Exercise Energy Compensation]]).
-
-Two adjacent gaps: **appetite** is insufficient-evidence (eTRF lowered *evening* appetite
-[@sutton2018], but the satiety hormone PYY fell,
-a discordance the authors flag, and no held trial settles direction); **sleep** is unheld (the late-meal
-story is plausible but unevidenced here -- TREAT's late window did *reduce* daytime movement, about 2,500
-fewer steps/day, but that is activity, not sleep
-[@lowe2020]).
-
-## 3. Whole-day intermittent fasting -- ADF, 5:2 and whole-day fasting
-
-### Only alternate-day fasting beats continuous restriction, and only trivially
-
-The gold-tier network meta-analysis is the anchor: **99 RCTs, 6582 adults**, median 12-week follow-up,
-all outcomes intermediate cardiometabolic markers -- no hard events, no mortality
-[@semnaniazad2025]. It keeps
-the three whole-schedule regimens distinct (TRE, ADF, WDF), which is exactly the operationalize-first
-discipline above. Against **ad-libitum** eating every strategy loses weight -- ADF -3.40 kg, WDF -2.36 kg,
-continuous restriction (CER) -2.11 kg, TRE a trivial -1.72 kg -- but that only shows a deficit beats a
-surplus [@semnaniazad2025].
-
-Against the right comparator -- **continuous restriction** -- the schedule mostly vanishes: *«alternate day
-fasting was the only form of intermittent fasting diet strategy to show benefit in body weight reduction
-(mean difference -1.29 kg (95% CI -1.99 to -0.59), moderate certainty)»*, while WDF (\~0.25 kg) and TRE
-(-0.39 kg) showed no meaningful difference [@semnaniazad2025].
-And even ADF's -1.29 kg is below the 2.0 kg threshold, so the authors class it as *«somewhat limited
-clinical impact»*. On other markers there was no HbA1c or HDL association at all, and only trivial declines
-in fasting glucose and HOMA-IR versus ad-libitum
+And ADF's −1.29 kg sits below the analysis's own bar for a meaningful difference: against a
+2.0 kg minimally important difference, «ADF versus CER (−1.29 kg) fell below this level,
+suggesting somewhat limited clinical impact»
+[@semnaniazad2025].
+ADF also beats the other fasting forms only trivially -- a «trivial reduction in body weight
+compared with both time restricted eating and whole day fasting (mean difference −1.69 kg
+(−2.49 to −0.88) and −1.05 kg (−1.90 to −0.19)»
 [@semnaniazad2025].
 
-### And the one exception fades by the horizon that matters
-
-The ADF edge holds only in short trials. In the 17 trials running 24 weeks or more, *«no differences
-between intermittent fasting strategies and CER in these moderate-to-long term studies»* -- the fade
-attributed to too few long trials, adherence decline, and metabolic adaptation
-[@semnaniazad2025]. So at the
-horizon a person actually cares about, no intermittent-fasting schedule beats the same deficit delivered
-continuously. The authors' own summary: *«little additional benefit for intermittent fasting»* in
-cardiometabolic risk [@semnaniazad2025].
-For scale, they note GLP-1 receptor agonists such as semaglutide cut 10-15% of body weight (\~8-12 kg for
-an 80 kg person) -- dwarfing fasting's \~1-3 kg
+**Even that trivial edge does not survive to the durations that matter.** The pooled
+picture holds in short trials (n=76 under 24 weeks) but not in longer ones: at «≥24 weeks,
+n=17» only diet-versus-ad-libitum benefits remained, with no difference between any fasting
+strategy and CER
 [@semnaniazad2025].
+**Read that as "no durable schedule advantage was demonstrated," not "the two are proven
+equal."** The authors' first-listed reason for the vanished signal is too little data --
+«the loss of association in the network assessment of moderate to longer term trials (≥24
+weeks) may be due to an insufficient number of studies available»
+[@semnaniazad2025]
+(only 17 trials), with adherence decline and metabolic adaptation named after it. A
+17-trial null is underpowered, not a proof of equivalence.
 
-### Why this is the null sharpened, not a second independent confirmation
+**So this is not a league table of winners.** Ranked against an isocaloric deficit, TRE and
+WDF add nothing, ADF adds an amount too small to feel and gone by six months, and none of
+the three carries a hard-outcome benefit. The practical read is that the regime label is
+second-order: the deficit does the work, and the pattern worth choosing is the one a person
+will actually keep to.
 
-The network meta-analysis re-pools the very trials behind the held TRE finding -- TREAT and Liu 2022 are
-both *in* its pool [@semnaniazad2025].
-So its agreement with the TRE-equals-continuous-restriction reading is **shared-trial corroboration** (it
-settles the *magnitude* the single trials only gestured at), not a separate route to the conclusion. The
-eTRF trial is *not* pooled (cited only in the discussion), so it stays a genuinely separate observation.
-Read the pooled result as the null sharpened, not as two independent nulls stacked. The animal-model
-rationale for a fasting-specific benefit -- fat oxidation, adipose browning, metabolic switching --
-*«derives primarily from extensive animal model studies»* and *«has not been substantiated in humans»*
-[@semnaniazad2025].
+## §4 — Is there a weight-independent timing effect (early versus late)?
 
-## 4. Prolonged / therapeutic fasting (>=\~48 h, multi-day)
+The §2--§3 verdict is about *whether* you fast and *how long* your window is. A separate
+question is *when* the window sits -- and here the evidence points, faintly, at a real
+effect that has nothing to do with weight.
 
-### Autophagy is a mechanism and a "not yet" -- never a demonstrated human benefit
+The one trial that isolates timing from calories is **Sutton's eTRF study** (early
+time-restricted feeding): eight men with prediabetes, a weight-matched crossover with
+calories held constant by design, comparing a 6-hour window with dinner before 3 p.m.
+against a 12-hour schedule. Shifting the same food earlier improved several markers with no
+weight change at all: «eTRF improved insulin sensitivity, β cell responsiveness, blood
+pressure, oxidative stress, and appetite», and the authors note «IF's effects are not
+solely due to weight loss»
+[@sutton2018]. Insulin resistance
+fell «by 36 ± 10 U/mg (p = 0.005)», though fasting glucose did not improve
+[@sutton2018].
 
-The marquee longevity claim for prolonged fasting is autophagy -- the cell's self-clearance process. The
-evidence for it as a *human* benefit runs mostly on rodent and cell-culture work; the human data are
-short-term surrogate markers, and **no source held here links a fasting-induced autophagy signal to a
-patient-important human outcome** (longevity, healthspan, disease). Under the four evidence states this is
-**insufficient evidence** -- unproven, not disproved -- and it must not blur into *benefit*
-([[Surrogate Outcomes]]). Admit it directionally, heavily discounted, and marked as mechanism
-.
-It graduates to a finding only on human outcome evidence. Treating the measurable marker as
-the outcome people are buying is the streetlight error the wiki guards against. **Gap:** a human-autophagy
-/ fasting-longevity review is not held.
+**But the eTRF ledger is mixed, and two caveats blunt it.**
 
-### Muscle loss is the standing harm of any aggressive deficit -- and it inverts by stratum
+- **One marker moved the wrong way.** «eTRF did increase morning fasting levels of
+  triglycerides by 57 ± 13 mg/dL (p = 0.0007), which translated into a 13 ± 5 mg/dL
+  relative increase in morning fasting levels of total cholesterol (p = 0.02)»
+  [@sutton2018]. Sutton ties the
+  rise to the longer 18-hour fast before testing, so it is plausibly a fasting-duration
+  artifact rather than a real lipid effect -- but a single marker in isolation cannot say
+  which.
+- **The headline blood-pressure win may be a measurement artifact.** The trial took only
+  morning readings, and Sutton warns that «measuring only morning fasting values may
+  overestimate eTRF's effects on blood pressure»
+  [@sutton2018].
 
-A large deficit -- however delivered, and a prolonged fast is one -- risks losing **fat-free (lean) mass**,
-not just fat; the short-window mechanism above generalizes. The mitigation is the same as for any deficit:
-**adequate protein plus resistance training preserve lean mass while fat falls**. Aim for roughly
-**1.6 g/kg/day** of total protein -- the point where extra protein stops adding lean mass (break point
-1.62 g/kg/day, wide CI 1.03-2.20); the training is the driver, protein a modest adjunct (about +2.5 kg on
-a one-rep-max, +0.3 kg lean mass) [@morton2018].
+**What carries the signal, if anything, is the direction of the shift -- early versus late --
+not the length of the window.** eTRF ate earlier and improved; prior late-window trials did
+not. So the candidate lever is circadian alignment, eating in the part of the day
+metabolism handles best, not the fact of a restricted window.
 
-This is minor for a young overweight adult and **major** for the **elderly / sarcopenia-risk** adult, where
-muscle and function are front-line outcomes and aggressive loss flips from lever to hazard
-([[Big Rocks (Elderly)]]). Morton adds a stratum caveat: the *supplement's* extra benefit is reduced with
-age -- the training still works, the protein top-up does a little less
-[@morton2018]. A fasting schedule that
-under-feeds protein is a bad trade in exactly the people who can least afford it.
+**And this preliminary signal must be read against a directly conflicting result, not
+shielded from it.** Liu's 12-month trial (§2) also ran an early-to-midday window
+(8 a.m.--4 p.m.) at matched calories -- the same weight-independent design as eTRF, but far
+larger and far longer -- and found no between-arm advantage on any metabolic secondary. The
+n=8 crossover benefit and the 12-month null collide. They are not the same exposure (Liu's
+window is 8 hours not 6, its control was itself fairly early, and its participants were
+non-diabetic rather than prediabetic men), so neither settles the question -- but the
+honest position holds both in view.
 
-### Metabolic rate -- separate acute from chronic, oversell neither
+**The two trials that look like they disagree about TRE do not -- they test different
+exposures.** TREAT permitted a calorie deficit and shifted eating *late*; eTRF held
+calories fixed and shifted eating *early*. One umbrella word, *time-restricted eating*,
+hides two distinct interventions that behave differently, which is why "TRE does nothing"
+(the deficit-permitting, late version) and "TRE helps" (the calorie-matched, early version)
+are both true of their own exposure ([[Time-Restricted Eating]]).
 
-Two opposite overclaims circulate, both wrong. *Fasting boosts your metabolism* points at a real but
-transient acute effect (a short fast raises catecholamines; resting metabolic rate is not immediately
-suppressed). *Fasting wrecks your metabolism* points at a real chronic one (a sustained large deficit
-provokes adaptive thermogenesis -- measured resting metabolic rate falling somewhat below what body size
-predicts). Neither is a decisive lever, and they act on different time horizons.
+**Bottom line for the early-versus-late question: low confidence.** The only
+weight-independent benefit rests on a single eight-person crossover, on surrogate markers,
+over five weeks, with a lipid marker moving the wrong way and a larger matched-calorie trial
+showing nothing. It is a preliminary signal worth naming, not a lever to bank.
 
-This channel is one
-reason weight regain is the norm after any aggressive deficit; it is not specific to fasting
--> [[Total Diet Replacement and Type 2 Diabetes Remission]]. **Gap:** no held source with a magnitude for
-adaptive thermogenesis or its persistence. State the direction and horizon; attach no number.
+## §5 — Body composition and metabolic rate
 
-### Where a prolonged fast flips to net harm
+Two worries ride along with any weight loss, and both surface in the fasting literature:
+some of what you lose is muscle, not fat, and your metabolism fights to reclaim the weight.
+Neither turns out to be about the *clock*. Both are consequences of the energy deficit a
+schedule creates, and whether the schedule itself adds anything on top is a named gap, not
+a finding.
 
-A prolonged fast is not a universal tool -- this is the half the hype omits. In these strata the sign
-flips, and each is a **prescriber matter**; screening, dosing and management are out of scope here:
+### Lean mass -- a real TREAT signal, not yet pinned to the window
 
-- **On glucose-lowering medication (sulfonylureas, insulin) or with type 1 diabetes:** hypoglycaemia, and
-  in type 1 diabetes ketoacidosis, are real dangers of withdrawing food while the drug keeps working -- a
-  managed medical situation, not a self-directed experiment.
+In the TREAT trial a 16:8 window shed more muscle than fixed meal timing. The durable
+statistic is the between-group gap in appendicular lean mass -- the window arm lost
+«−0.47 (−0.82 to −0.12) .009» kg more than the control
+[@lowe2020]. The alarming headline
+sometimes quoted -- that \~65% of the weight lost was lean -- is a within-arm ratio on a small
+denominator, and it is the fragile figure, not the durable one.
 
-  **Gap:** a prolonged-fasting clinical safety source.
-- **Fatty liver (MASLD) / metabolic syndrome:** rapid weight loss can transiently worsen the picture, and
-  gallstone risk rises with fast loss. EASL supports *gradual* loss and a dose-graded ladder for the liver:
-  sustained loss of >=5% reduces liver fat, 7-10% improves inflammation, >=10% improves fibrosis
-  [@easl2024]. Whether a *prolonged fast
-  specifically* is contraindicated (versus rapid weight loss in general) needs a source the wiki does not
-  hold -- mechanism, not a finding. **Gap:** a NAFLD/MASLD-and-fasting source.
-- **Underweight, eating-disorder history, pregnancy, the frail elderly:** out-of-scope harm strata, named
-  as do-not. A prolonged fast has no place here.
+The signal did not survive an isocaloric test -- a comparison in which both arms are held to
+the *same* calorie deficit, so only the timing differs. In Liu 2022, an 8-hour window versus
+daily calorie restriction showed «no significant differences between the groups in gains in
+body lean mass over the 12-month intervention period»
+[@liu2022]. The likely
+reason: Liu fed both arms structured protein --
+«Participants were provided with one protein shake» daily for the first six months, plus
+counselling [@liu2022].
 
-### Refeeding is part of the intervention, not an afterthought
+**T4 -- is the muscle loss the window's fault, or the protein's? Unresolved mechanism;
+protein is the leading candidate, not a proven cause.** TREAT gave no protein guidance and
+lost lean; Liu supplied a shake and did not. But neither trial *randomized* protein, and the
+two also differ in clock position, counselling, population and duration -- so the shake is
+confounded with everything else. Keep the durable instruction: eat earlier, keep protein up.
+Do not sell "guard protein and the loss cannot appear" as established.
 
-Breaking a prolonged fast carries **refeeding syndrome** -- dangerous electrolyte shifts (low phosphate,
-thiamine depletion) when a depleted body is fed again. The fast and the refeed are **one protocol**, and
-this is a real risk of the multi-day arm and a prescriber-managed matter.
+### The protein target rises under a deficit
 
-**Gap:** a refeeding-syndrome clinical source. An account that
-describes only the fast has described half the intervention. The corpus's nearest analog is the *stepped*
-food-reintroduction phase of a structured low-energy programme
-([[Total Diet Replacement and Type 2 Diabetes Remission]]) -- controlled precisely because feeding a
-depleted body back up is a managed step, not a switch to flip.
+A calorie deficit raises the protein needed to hold muscle above the \~1.6 g/kg
+energy-balance figure. Refalo's meta-regression puts the crossover -- where average
+fat-free-mass change flips from loss to hold -- at «1.9 g/kgBM/day or 2.5 g/kgFFM/day», with
+intakes up to «3.2 g/kgBM/day and 4.2 g/kgFFM» linked to further gain
+[@refalo2025]. The authors
+call this «exploratory rather than confirmatory»
+[@refalo2025], and fat-free
+mass is a surrogate -- no strength or function endpoint was measured -> [[Surrogate Outcomes]].
 
-## 5. Ranking, adherence, and the gaps
+Two guards travel with the number. First, the resistance-training stimulus is the bigger
+lever; protein is the adjunct, not the driver
+-> [[Protein and Resistance Training for Muscle and Strength]]. Second, leaner people gain
+more per gram -- FFM change rose «by 0.14 and 0.12 in the Low BF% category... and 0.04 and
+0.03 in the High BF%»
+[@refalo2025], so the target
+scales inversely with body fat. The same lean-mass-under-deficit concern arrives by the drug
+route -> [[GLP-1 and Lean Mass]].
 
-### Why the whole topic sits low despite the noise
+### Metabolic rate -- a defended set-point, and a diagnosticity gap
 
-Rank these schedules by demonstrated effect x certainty, and discount hard for attention: fasting and meal
-timing are among the most heavily marketed interventions in the field, and *attention runs inversely to
-effect size* in a mature area ([[Layer 1 - Ranking Interventions for a Stratum]]). What the held evidence
-supports is a **small, largely surrogate, weight-independent effect at best, plus specific harms** -- which
-places the whole family near the bottom of the lever list, well below the hard-outcome levers. For anyone
-still carrying a big rock -- smoking, heavy alcohol, marked inactivity, a large calorie surplus -- this is
-not where the gains are.
+After weight loss the body appears to defend the higher weight. Sumithran 2011 tracked
+appetite hormones through an 8-week very-low-calorie diet (VLCD) and found the shift toward
+hunger and regain still present a year later: «many of these alterations persist for 12
+months after weight loss, even after the onset of weight regain»
+[@sumithran2011]. Paired with reduced
+energy expenditure -- adaptive thermogenesis, the fall in metabolic rate beyond what the
+smaller body predicts -- this is the "defended set-point" picture
+-> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
-The one place a schedule genuinely earns its keep is **adherence**: for some people a fasting rhythm is
-simply the deficit they can sustain, and a smaller sustained deficit beats a larger abandoned one. For
-others the same schedule drives compensatory overeating on feed days and nets nothing. So the
-recommendation is conditional: *if a window or a fasting rhythm is the deficit you will actually keep, it
-is a reasonable delivery route; if it is not, a continuous deficit is not inferior and carries less
-muscle-loss risk.* And if you do a window, put it **early** and **protect protein** -- the only
-weight-independent benefit signal is from eating earlier, and the only clear harm signal is muscle loss
-from an ad-libitum short window; both point the same way.
+**T5 -- persistent adaptation, or hormones tracking a smaller body? Read the defended
+set-point with its confound, not as a clean win.** The study is single-arm, uncontrolled and
+specific to an aggressive VLCD. At 12 months the participants were still substantially
+lighter than baseline, so every hormone difference is confounded with a genuinely smaller
+body. Adaptation *over and above* that weight difference is established only for leptin,
+which stayed «35.5±4.7% below baseline» even after adjustment for fat mass
+[@sumithran2011]; for ghrelin, PYY and
+the rest it is assumed, not shown. Confidence is low, and none of it is schedule-specific.
 
-### What actually moves the outcomes: the deficit, by whatever route you keep
+### The frame
 
-Because the deficit does the work, the levers with real held magnitudes are the ones that *deliver a
-sustained deficit* -- and none requires fasting:
+Both legs of this section are about the *deficit*, not the schedule. Losing muscle and
+defending the lost weight are what large weight loss does, however you drive it -- the eating
+window is one delivery vehicle among several. Whether time-restricted eating adds any
+body-composition or metabolic-rate effect beyond an isocaloric continuous deficit is the open
+question, and the honest answer is a named gap: the schedule-specific magnitude has not been
+measured.
 
-- **Total diet replacement (formula diet), the NICE-recommended route:** an 800-1200 kcal/day
-  nutritionally complete diet for a **maximum of 12 weeks** inside a supported programme -- which NICE
-  states *«should not be used as a long-term strategy to manage obesity»*
-  [@nice].
-- **DiRECT is the proof the route, not the fasting, matters:** an 825-853 kcal/day formula diet that is
-  **59% carbohydrate** -- the opposite of a low-carb or ketogenic fast -- produced -10 kg mean loss and
-  **46% type 2 diabetes remission**, with remission rising monotonically with kilograms lost (0% at weight
-  gain to 86% at >=15 kg lost) [@lean2018]. The operative variable is
-  the weight lost, not the schedule and not the macronutrient split.
-- **Low-carbohydrate routes work through the same deficit and fade with it:** Goldenberg's low-carb
-  remission and weight advantage both attenuate toward null by 12 months as weight is regained -- a
-  weight-loss effect via a low-carb route, not a carbohydrate effect independent of weight
-  [@goldenberg2021].
+## §6 — Prolonged / therapeutic fasting, autophagy, and MASLD
 
-### Even a real weight loss is not a guaranteed heart lever
+**Prolonged fasting is a different exposure -- and the human-outcome evidence is not held.** A
+continuous fast of roughly 48 hours to several days is not a longer daily window; it is a distinct
+intervention. The wiki holds no human trial reporting its effect on any patient-important outcome.
+This is the *insufficient-evidence* state, not a null: the absence of a held trial is neither a
+benefit nor a harm finding. State it and stop. Neither the enthusiast's promise nor the skeptic's
+dismissal follows from silence.
 
-Suppose a schedule *did* reliably drop weight -- would that prevent heart attacks? The largest, longest
-randomized trial of lifestyle weight loss (Look AHEAD, 5,145 adults with type 2 diabetes) was stopped early
-for futility: the cardiovascular composite came in at **HR 0.95 (95% CI 0.83-1.09)**, null, despite greater
-weight loss and better risk factors in the intervention arm
-[@look2013]. A 54-trial meta-analysis whose pool
-*includes* Look AHEAD (so it is consistent with, not independent of, that null) reaches the same
-cardiovascular-events result (RR 0.93) and adds -- across its other populations -- a modest cut in
-**all-cause mortality (RR 0.82)** not routed through the heart
-[@ma2017].
+**Autophagy is a mechanism marker, not a measured human outcome.** The popular case for multi-day
+fasting rests on autophagy -- a cellular-recycling process -- and on longevity signals from animals.
+In live humans no held source measures autophagy against a patient-important outcome, so the
+longevity claim stays a *mechanism*, never a result. A human-autophagy / longevity review is a
+**named gap** the fabric does not fill; do not read the mechanism as an outcome.
 
-So weight loss stays strongly indicated for
-what it *does* move -- glycaemic control, diabetes remission, liver fat, function -- just not as a
-guaranteed cardiovascular-event lever, and certainly not as a reason to credit the eating schedule
-([[Does Weight Loss Reduce Cardiovascular Events]]).
+**Managing a prolonged fast is out of scope.** Dosing the fast, screening who may attempt it, and
+the refeeding that follows are prescriber acts -- they need this person's labs, medications, and
+history, which the wiki does not hold. This deliverable appraises whether the exposure works, not
+how to run one safely.
 
-### The gaps -- this deliverable's main product
+### MASLD: the lever is the deficit, not the schedule
 
-A gap is itself a finding: it bounds what can be claimed and drives the next source choice
-([[Layer 1 - Ranking Interventions for a Stratum]]). The magnitude evidence that would move this from
-directional to quantitative is **not held**, named here so it can be acquired rather than guessed:
+For fatty liver (MASLD), a fasting window is not a distinct lever. EASL finds «There is currently
+very little evidence for a beneficial effect of time-restricted eating over regular caloric
+restriction on hepatic lipid content in individuals with MASLD»
+[@easl2024]. What moves liver fat is the
+same weight/energy lever that works elsewhere, and its benefit is a *surrogate* (liver fat,
+histology stage) staged by how much weight is lost, «a bodyweight reduction of >−5% is required to
+reduce liver lipid content, 7-10% to improve inflammation, and >−10% to improve fibrosis»
+[@easl2024]:
 
-- **Hard endpoints for any schedule** -- the network meta-analysis is surrogate-only (median 12-week
-  follow-up; no mortality, no cardiovascular events). Whether the trivial marker differences translate to
-  any patient-important outcome is unmeasured.
-- **Human autophagy / fasting-longevity** -- to place the autophagy claim on the benefit / not-yet line.
-- **Prolonged-fasting safety and refeeding syndrome** -- the clinical source behind the contraindications
-  and the electrolyte risk.
-- **NAFLD/MASLD and fasting specifically** -- to settle whether a prolonged fast is contraindicated or
-  merely the general rapid-weight-loss caution.
-- **Fasting and lean mass / adaptive thermogenesis** -- to put magnitudes on the muscle and
-  metabolic-rate channels.
-- **Appetite, sleep, and breakfast-skipping RCTs** -- dedicated trials (the last measuring compensation at
-  later meals) to move those sub-questions off *insufficient evidence*.
+- **>=5% sustained loss** reduces liver fat (steatosis).
+- **7-10%** improves inflammation (steatohepatitis / MASH).
+- **>=10%** improves fibrosis.
 
-## Caveats
+The staging matters because the lever runs out before the disease does: «evidence for an effect of
+weight reduction by lifestyle modification on advanced fibrosis or cirrhosis is insufficient»
+[@easl2024]. So the deficit works on the
+reversible stages; once bridging fibrosis or cirrhosis is present, lifestyle is not shown to reverse
+it. And these are surrogate endpoints on short trials -- held data on clinical liver outcomes are
+sparse, so read the ladder as name-the-curve guidance, not proof that acting changes a given
+person's liver.
 
-- **Open loop.** This grades coherence and fidelity to its sources, never validity. Nothing here has been
-  checked against a realized outcome; a clean appraisal is not a validated recommendation.
-- **Appraise, do not prescribe.** This is not a protocol. Prolonged fasting on glucose-lowering medication,
-  with NAFLD or metabolic syndrome, or in the frail, underweight, pregnant, or eating-disorder-history
-  person is a **prescriber** matter -- dosing, contraindication screening and refeeding management are out
-  of scope.
-- **A stratum-level appraisal, applied per person.** Current weight, metabolic status, medications, age,
-  muscle mass and what the person can sustain set the individual answer.
-- **Health axis only.** Where a schedule carries load on any non-health axis (cost, convenience, cultural
-  or religious practice), that trade-off exists and is the person's to weigh; it is not priced here.
+A **fasting-specific** MASLD source -- one isolating a fasting mechanism from the rapid weight loss a
+fast produces -- is a **named gap**; none is held. And the rate of loss (fast versus slow) is not
+re-appraised here: it is cross-linked to the weight-cycling / rapid-loss material
+-> [[Weight Cycling and Cardiometabolic Risk]].
+
+### The schedule inherits the deficit's baseline
+
+The value on the table belongs to the energy deficit, not to any clock. Where a sustained deficit
+has established value, it is on remission and glycaemia: DiRECT's total-diet-replacement programme
+put 46% of short-duration type-2-diabetes patients into remission at 12 months, off medication
+[@lean2018]
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]]. Where its value is *not* established, it
+is on hard cardiovascular events: the largest lifestyle-weight-loss trial, Look AHEAD, found no
+significant between-arm reduction in cardiovascular events
+-> [[Does Weight Loss Reduce Cardiovascular Events]]. Either way, the schedule question inherits the
+deficit's baseline. A fasting protocol earns credit only insofar as it delivers the deficit -- and
+the credit then belongs to the deficit, not the schedule.
+
+## §7 — Contraindication strata: where the sign could flip
+
+**A prolonged fast is not sign-stable across people.** For the generally-healthy adult the schedule
+question is a refinement. But in specific strata a multi-day fast could turn a neutral-or-modest
+effect into a net harm -- flipping the *sign*, not merely the size. Name the strata; do not infer the
+magnitude or even the direction of the flip, which the fabric does not hold:
+
+- **On glucose-lowering medication, or with type 1 diabetes** -- the hypoglycaemia axis.
+- **MASLD or advanced liver disease.**
+- **Underweight, a history of an eating disorder, pregnancy, or frail older age.**
+
+**Managing these strata is a prescriber matter, out of scope here.** Whether to attempt the fast,
+how to adjust medication around it, and how to refeed afterwards all require this person's labs,
+medications, and history. The wiki names the axis and stops.
+
+**Named gap -- refeeding safety.** A source appraising refeeding-syndrome risk and electrolyte safety
+after a prolonged fast is not held. Its absence is precisely why the sign-flip in these strata
+cannot be quantified here: the fabric can name the stratum but holds no evidence to bound the harm.
+Stated, not filled.
+
+### Resolved: fear of weight cycling is not a reason to avoid attempting loss
+
+A standing objection: since most attempts partly regain, isn't the resulting weight cycling itself
+worse than staying heavy? Not for the person losing weight for a metabolic indication. The harm
+signal is confounded and inconsistent, and it concentrates in normal-weight, body-image-driven
+dieters -- «some of the potentially negative health consequences of repeated dieting and weight
+cycling are more readily seen in people of normal body weight rather than in those who are
+overweight or obese» [@montani2015cycling]
+-> [[Weight Cycling and Cardiometabolic Risk]]. This is adjacent to rate-of-loss, cross-linked, not
+core to the schedule question: it argues for building a maintenance phase, not against trying.
+
+**The named gaps this cluster leaves open, stated plainly:** a human-autophagy / longevity review
+(§6); a prolonged-fasting refeeding / electrolyte-safety source (above); and a fasting-specific --
+rather than merely rapid-weight-loss -- MASLD source (§6). No page exists for any of the three; each
+is a hole named, not a direction inferred.
+
+## §8 — Appetite, sleep, breakfast-skipping
+
+Does *when* or *whether* you eat -- a skipped breakfast, a compressed daily window -- change appetite,
+or how much you eat over the rest of the day? On the schedule itself, this is **insufficient evidence,
+not a demonstrated null**: no meal-timing or breakfast-skipping RCT the wiki holds moves the question
+off "not shown." That verdict is deliberate. Silence from a question that has barely been trialled the
+right way is not a finding of no effect, and it must not be read as one.
+
+What *is* on causal footing is a **neighbouring exposure -- sleep, not meal timing**. Meta-analysed RCTs
+that *manipulated* sleep found «sleep restriction increases food intake and total energy expenditure
+with inconsistent effects on integrated energy balance as operationalized by weight change»
+[@capers2015]
+-> [[Sleep and Metabolic Health]]. Because the trials randomised sleep, the direction is fixed by design:
+short sleep drives eating up, not merely accompanies it.
+
+**Hold the boundary -- this is a sleep finding, not a clock finding.** Short sleep raising energy intake
+says nothing about *when* the calories are eaten or whether a fasting window helps; the exposure is
+hours slept, not meal placement. A reader who imports the sleep result as evidence for meal timing has
+crossed exposures. The two only meet at the outcome (energy intake); the causal lever is sleep duration,
+and it belongs to the sleep hierarchy, ranked for the habitually sleep-deprived stratum.
+
+**And the popular hormonal story for it is downgraded.** The leptin-down / ghrelin-up appetite axis is
+the usual explanation, but the RCT evidence does not support it: pooled sleep restriction moved neither
+hormone, and the likelier drivers are hedonic pull plus simply more waking hours in which to eat
+[@capers2015]. Route the
+hormone mechanism as discounted mechanism only, not as a measured pathway.
+
+**The named gap.** A breakfast-skipping RCT that measures *downstream* intake -- does the skipped meal
+get compensated later, and by how much -- is the missing study. Until one exists, breakfast-skipping's
+appetite and intake consequences stay in the insufficient-evidence state, distinct from a null.
+
+## §9 — Layer-1 placement and what the fabric cannot answer
+
+**Where meal timing and fasting sit in the hierarchy: a refinement, not a big rock.** The wiki ranks
+levers by effect size x certainty, and meal timing scores low on both -- heavily discussed, small
+measured effect, surrogate-only. Its very prominence is a warning rather than a credential: *attention
+is an anti-signal*, and the most-litigated small levers are the ones that generate the products and the
+content -> [[Layer 1 - Ranking Interventions for a Stratum]]. Against an isocaloric continuous-restriction
+comparator, no schedule the wiki holds shows a weight edge above the \~2.0 kg minimal important difference
+-> [[Time-Restricted Eating]].
+
+**What a schedule does, where it does anything, is deliver a calorie deficit and support adherence** -- a
+*deficit-delivery vehicle*, not a metabolic switch flipped by the clock. Adherence is in scope, because
+an intervention not done has no effect: a window someone actually keeps can beat a continuous diet they
+abandon. But then the operative ingredient is the sustained deficit and the person's ability to hold it,
+not the timing -- so the schedule is worth exactly what it adds to adherence for *this* person, elicited
+at layer 3, and nothing extra for the timing itself.
+
+**The realistic pharmacological alternative dwarfs it -- on the same weight lever.** Semaglutide takes
+off \~14.9% of body weight in a primary-prevention obese population
+[@wilding2021] and \~9.39% in an older
+secondary-prevention one
+[@lincoff2023]
+-> [[Semaglutide for Cardiovascular Risk in Obesity]]. Set that against a schedule effect that
+sits below the \~2.0 kg MID versus an isocaloric comparator: the drug route to weight is **roughly 3 to 8
+times larger**.
+Both numbers are surrogates, and the drug's hard-outcome benefit is proven
+only in secondary prevention -> [[Surrogate Outcomes]] -- so this compares the *size of the weight lever*,
+not proven outcomes. It still settles the ranking: for weight, the schedule is the small lever.
+
+**The ceiling is itself the finding -- not a failure to find one.** For a generally-healthy adult already
+eating to a reasonable pattern, "your remaining meal-timing levers are small, surrogate-only, and
+short-horizon" is a result. It licenses someone to stop chasing the protocol, which is a decision-change,
+and it is delivered as a result rather than treated as a gap to be filled.
+
+**What the fabric cannot answer -- the named gaps:**
+
+- **Hard endpoints for any schedule.** No mortality or cardiovascular-event data exist for TRE, ADF,
+  5:2, or any fasting regime; even the best-powered summary of the field reports only intermediate
+  cardiometabolic outcomes over a short follow-up -> [[Surrogate Outcomes]].
+- **Human autophagy.** Autophagy is a cellular-recycling *mechanism marker*, not a measured human
+  outcome; whether any schedule raises it in live humans, and whether that transmits to healthspan or
+  longevity, is the insufficient-evidence state. A human-autophagy review is unheld.
+- **Refeeding safety** for prolonged / therapeutic fasting (a continuous fast of \~48 h or more -- a
+  different exposure from any daily or whole-day regime), which the corpus holds no human-outcome source
+  on.
+- **Schedule-specific lean-mass and resting-metabolic-rate magnitude** -- a careless late window carried a
+  negative lean-mass signal, but the per-schedule magnitude is not pinned.
+- **A breakfast-skipping downstream-intake RCT** (the §8 gap), the missing test of whether a skipped meal
+  is compensated later.
+
+**Non-health axes ride along -- named, never priced.** Cost, food culture, and shared family or social
+meals bear on whether a schedule is chosen and kept, and feasibility is real. These are recorded because
+they exist and, where clear, in which direction they push -- a fixed eating window can collide with family
+dinners; a simple rule can be cheaper than a bespoke plan. They are **not** netted into the health
+verdict: the weighting of a missed social meal against a sub-MID weight change is the person's, at
+layer 3, and supplying it here would be false objectivity.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm? |
-> | **Evidence included** | 10 sources — 3 gold, 5 high, 1 moderate, 1 weak |
+> | **Evidence included** | 12 sources — 3 gold, 6 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak); Montani (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
 
 ## References

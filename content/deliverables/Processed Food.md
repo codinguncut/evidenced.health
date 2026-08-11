@@ -1,302 +1,343 @@
 ---
 type: deliverable
 title: Processed Food
-question: What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful?
-sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, SACN - Carbohydrates and Health 2015, WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Baye - Low AGE Diet Cardiometabolic 2017, WHO - Saturated and Trans Fatty Acid Intake 2023]
+question: 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density and hyper-palatability, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?'
+aliases: [Is Processed Food Bad, Ultra-Processed Food, UPF, NOVA Classification, Processing Aspects]
+authors: [Lane, Melissa M; Hall, Kevin D; World Cancer Research Fund International (org); World Health Organization (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); World Cancer Research Fund (org); Suez, Jotham; Qin, Pei; Johnston, Bradley C; Brown, Lisa; Baye, Estifanos; Afshin, Ashkan]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023, WHO - Saturated and Trans Fatty Acid Intake 2023, WCRF - Diet Nutrition Activity Cancer 2018, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Baye - Low AGE Diet Cardiometabolic 2017, Afshin - Health Effects of Dietary Risks GBD 2019]
 confidence: low
 created: 2026-08-01
-updated: 2026-08-05
+updated: 2026-08-11
+self_critiqued: 2026-08-11
 ---
 
-## The short answer
+## Verdict
 
-*Processed food is bad* is not a claim the evidence can either confirm or refute, because *processed*
-is not one exposure. It bundles at least five distinct things -- a disrupted food matrix, added
-chemicals, a refined substrate, engineered energy density, and cooking by-products -- and each carries
-its own evidence, grade, and direction. Some processed foods carry the clearest dietary harm the
-literature holds (sugar-sweetened beverages, processed meat); others are neutral or beneficial despite
-being industrially made (wholegrain bread, frozen vegetables, whey and other protein isolates). A
-single risk number attached to the whole category describes no actual food you can buy.
+"Processed" is a manufacturing description, not a health category. The label spans the clearest dietary
+harms the literature holds — sugar-sweetened beverages, processed meat — and foods that are neutral or
+beneficial despite industrial making — wholegrain bread, frozen vegetables, whey and viscous-fibre
+isolates — so a single risk number attached to the NOVA "ultra-processed" class describes no food a
+shopper can act on (§2).
 
-Two things are nonetheless defensible. First, the *direction* of avoiding the worst categories is
-low-regret. Second, there is one causal foothold that *it's all just confounding* cannot explain away:
-when calories, sugar, fat and fibre are held fixed, an ultra-processed diet still drives people to
-eat more. That is the closest thing to a genuine effect of processing *itself* -- and it runs through
-how much people eat, not the nutrients themselves. Everything else is observational, modest, and heavily confounded, so a blanket
-*eat less processed food* adds little once you have already cut the specific culprits ->
-[[Ultra-Processed Food and Health Outcomes]].
+Two findings survive the decomposition. First, the specific worst categories are real, already-ranked
+levers: cutting sugar-sweetened beverages and processed meat is low-regret (§5). Second, one causal
+foothold confounding cannot dissolve — an inpatient crossover RCT holding calories, sugar, fat, fibre
+and sodium matched still had people eat about 508 kcal/day more and gain weight on the ultra-processed
+arm, so processing does causal work *via energy intake*, on a short-term surrogate (§3). Everything else
+is observational, modest (relative effects clustering around RR/OR 1.2-1.5), GRADE mostly low or
+very-low, and heavily confounded (§6).
 
- -- the decomposition and the verdict are this deliverable's; each component below traces
-to its cited source.
+Headline decision-change: **reduce ultra-processed food does not survive as its own lever** once you have
+cut sugar-sweetened beverages and processed meat, shifted refined grains toward whole grains, and
+stopped over-eating energy-dense palatable food. The residual class effect sits below the smallest lever
+the fabric can rank on an absolute hard outcome, and that ceiling is itself the finding (§7)
+-> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-## Why *processed* is not one exposure
+One frame governs everything below: this page grades coherence and source-fidelity, never validity. No
+claim here is tested against a realized outcome, so a clean internal audit is not a validated
+recommendation (§10).
 
-The decision-relevant move is to stop pricing the label and price the aspect or the specific food
-instead -> [[Is the Food Category Doing Any Work]]. NOVA's *ultra-processed* class lumps a soda, a
-hot dog, a mass-market loaf, a fortified plant-milk, a supermarket yoghurt and a whey isolate into one
-group and attaches one risk number to it. That fails the basic test of a useful category: within-group
-variation swamps the between-group contrast.
+## What "processed" actually names
 
-Lane's own umbrella review contains the proof. Inside a type-2-diabetes meta-analysis it pools,
-«while certain subcategories of ultra-processed foods further showed higher risk, others were inversely
-associated, such as ultra-processed cereals, dark/wholegrain bread, packaged sweet and savoury snacks,
-fruit based products and yoghurt, and dairy based desserts» [@lane2024upf]. Some ultra-processed subcategories are *protective*. A category that pools
-things that harm and things that help cannot deliver a food-specific verdict.
+"Processed" describes how a food is made, not what it does to a body. The label bundles the clearest
+dietary harms the literature holds -- sugar-sweetened beverages, processed meat -- with foods that are
+neutral or beneficial despite industrial making: wholegrain bread, frozen vegetables, whey and viscous-
+fibre isolates. A single risk number pinned to the NOVA "ultra-processed" class averages over foods
+that pull in opposite directions, so it describes no food a shopper can pick up.
 
-NNR, a gold-tier guidance body, reached the same conclusion and declined to recommend against
-ultra-processed food as a class, judging that the category «does not add to the already existing food
-classifications and recommendations» because its predictive power runs through sugar, salt, fat,
-energy density and fibre -- variables already regulated [@nnr2023]. The symmetric guard applies throughout: *processed therefore bad*
-gets exactly the scrutiny *natural therefore good* gets -- provenance argues health in neither
-direction.
+Lane's umbrella review shows the split inside its own data. Within the type-2-diabetes meta-analysis it
+includes, «while certain subcategories of ultra-processed foods further showed higher risk, others were
+inversely associated, such as ultra-processed cereals, dark/wholegrain bread, packaged sweet and
+savoury snacks, fruit based products and yoghurt, and dairy based desserts» [@lane2024upf].
+Protective and harmful subcategories are pooled under one heading, so the class-level association tracks
+no single food.
 
-## The causal anchor: processing raises intake even at matched nutrients
+NNR names the membership problem directly: «In the NOVA framework many foods such as infant formulas... whole grain breads, yoghurt... are also classified as ultra-processed foods depending on their formulation and processing» [@nnr2023].
+A boundary that reassigns the same bread or yoghurt on manufacturing detail is one a consumer cannot
+determine at the point of decision -- a defect distinct from heterogeneity, and one no risk estimate fixes.
 
-The single fact that separates *processing does causal work* from *UPF is just a marker of a bad
-diet* is an inpatient feeding trial, now held as the primary source. Twenty weight-stable adults
-(mean age 31, BMI 27) lived on an NIH metabolic ward for 28 days and crossed over between an
-ultra-processed and an unprocessed diet, two weeks on each, with meals «designed to be well matched
-across diets for total calories, energy density, macronutrients, ﬁber, sugars, and sodium, but
-widely differing in the percentage of calories derived from ultra-processed versus unprocessed
-foods» [@hall2019]. Subjects ate as much
-as they liked.
+On that basis NNR -- a gold-tier body -- acknowledged the association at strength and still declined to
+treat the category as adding anything: «the current categorization of foods as ultra-processed foods does not add to the already existing food classifications and recommendations in NNR2023» [@nnr2023].
+Its reason is collinearity -- most ultra-processed foods are energy-dense and high in free sugars, salt
+and saturated fat while low in fibre, every one of which NNR already sets a recommendation on.
 
-Despite the matched composition, energy intake was 508 ± 106 kcal/day greater on the ultra-processed
-diet (p = 0.0001), and participants gained 0.9 ± 0.3 kg on it while losing 0.9 ± 0.3 kg on the
-unprocessed one [@hall2019]. The trial
-concludes «limiting consumption of ultra-processed foods may be an effective strategy for obesity
-prevention and treatment.» [@hall2019]
+One fact resists the "just confounding" reading of all this. A single experimental trial held those very
+nutrients level and varied only the processing -- and intake still moved.
 
-What this establishes: at matched calories, sugar, fat, fibre and sodium, the ultra-processed
-*format* still drives overconsumption -- a within-person randomized demonstration, not an
-association, that processing does causal work *via energy intake* independent of nutrient profile.
-And it is not simply that people liked the ultra-processed food more: subjective hunger, fullness,
-pleasantness and familiarity ratings did not differ between the diets
-[@hall2019]. The proximate levers are
-measurable -- the ultra-processed food was eaten faster and had 85% higher non-beverage energy
-density -> aspect four below.
+## The causal anchor: processing raises intake at matched nutrients
 
-What it does NOT settle -- and the symmetry matters. This is n=20 over two weeks on a *surrogate*
-(intake and short-term weight, not mortality, cancer or cardiovascular events), so it licenses
-*processing drives overconsumption*, not *processing causes disease*; the hard-outcome evidence
-stays observational (Lane, below). And it tests the *category* effect without isolating *which*
-property does the work -- additives, texture, energy density and eating rate remain confounded
-within the ultra-processed arm -> [[Is the Food Category Doing Any Work]]. So Hall MECHANIZES Lane's
-association rather than replacing it: the RCT supplies the causal channel on a surrogate, the umbrella
-supplies the breadth of (observational) outcomes.
+The foothold is the Hall 2019 inpatient crossover RCT: 20 weight-stable adults on an NIH metabolic ward,
+two weeks each on an ultra-processed and an unprocessed diet, both eaten ad libitum. The menus «were
+designed to be well matched across diets for total calories, energy density, macronutrients, fiber,
+sugars, and sodium, but widely differing in the percentage of calories derived from ultra-processed
+versus unprocessed foods» [@hall2019].
+With the nutrients that usually carry the blame held level, processing was the variable left free to move.
 
-## The five aspects of processing, graded separately
+It moved intake. «metabolizable energy intake was 508 ± 106 kcal/day greater during the ultra-processed diet (p = 0.0001)» [@hall2019],
+and «participants gained 0.9 ± 0.3 kg (p = 0.009) during the ultra-processed diet and lost 0.9 ± 0.3 kg (p = 0.007) during the unprocessed diet» [@hall2019].
+Reported hunger, fullness and satisfaction did not differ between the arms, and the excess intake «was
+not due to greater palatability or familiarity of the ultra-processed diet» [@hall2019]
+-- people ate more without reporting that they wanted more.
 
-### Matrix disruption -- real, causal on intake, small on lipids
+The proximate lever was physical, not preference: «the 85% higher energy density of the non-beverage
+foods in the ultra-processed versus unprocessed diets... likely contributed to the observed excess
+energy intake» [@hall2019].
+This is the one place a causal verb is earned -- processing *drove* overconsumption at matched
+composition -- and it mechanizes Lane's associations through the energy-intake channel rather than
+leaving them to confounding.
 
-Grinding, extruding and refining destroy a food's physical structure, which raises eating rate,
-glycaemic response and energy intake. This is the plausible route behind the inpatient-RCT intake
-effect above. It is also visible in a curious inversion: fibre *isolates* are better-evidenced than the
-fibre-bearing foods -- SACN grades fibre isolates and gum supplements `Effect · Adequate`, its top
-strength grade, while whole-grain benefit is cohort-only and mostly `Limited` [@sacn2015]. That is a fact about study *design* (isolates can be
-randomised and blinded, foods cannot), not evidence that the supplement beats the food ->
-[[Dietary Fibre and Health]], [[Is the Food Category Doing Any Work]].
+Two bounds keep it in scope. The endpoints are a surrogate: intake, weight and fat mass over two weeks
+in 20 people, not the mortality or cardiometabolic outcomes the observational literature counts. And the
+result licenses "processing raises intake," not "processing causes disease" -- the disease claim would
+have to travel the long-latency route the trial could not run.
 
-Where the matrix has been tested directly on hard outcomes it did not carry harm: SACN found refined
-grains gave RR 1.00 (95% CI 0.98, 1.01) for cardiovascular events and RR 1.00 (0.98, 1.01) for type 2
-diabetes, both `No association · Moderate` [@sacn2015]. So matrix disruption plausibly drives intake (a real effect) but is not shown to poison the
-food. Grade: benefit-relevant on intake/satiety, weak-to-null on measured disease endpoints.
+What processing does here is not opaque NOVA magic but a handful of separable aspects -- matrix disruption,
+additives, substrate/refining, energy density, and contaminants. Each carries a different weight of
+evidence, so the next step grades them one at a time.
 
-### Additives -- mostly a named gap
+## The five aspects, graded separately
 
-Emulsifiers, non-sugar sweeteners, preservatives and colours are where *additive therefore harmful*
-intuition is strongest and patient-important-outcome evidence is thinnest. The honest state is
-insufficient evidence, not established harm.
+Each claim below attaches to a *specific aspect* of manufacturing, not to "processing" bare, and each
+is graded on its own evidence -> [[Is the Food Category Doing Any Work]]. The aspects — matrix
+disruption, additives, substrate/refining change, energy density with hyper-palatability, and
+processing contaminants — do not share an evidence base or a verdict. Some carry a causal foothold; one
+is a named gap; most are weak or null where the endpoint is measured disease.
 
-The best-appraised additive is the non-sugar sweetener, and it is a template for reading the rest.
-WHO suggests non-sugar sweeteners not be used for weight control or to reduce disease risk (conditional
-recommendation, low certainty) [@who2023nonsugar]. Short-term
-trials show a small weight benefit only when the sweetener displaces sugar (pooled body weight MD
--0.71 kg, 95% CI -1.13 to -0.28), fading to non-significant as an actual replacement (-0.61 kg, 95% CI
--1.28 to 0.06) [@who2023nonsugar]. Long-term cohorts point the
-opposite way on hard outcomes -- incident obesity HR 1.76 (1.25 to 2.49), type 2 diabetes HR 1.23
-(1.14 to 1.32), all-cause mortality HR 1.12 (1.05 to 1.19), all low-to-very-low certainty -- and WHO
-explicitly refused to dismiss these as reverse causation [@who2023nonsugar] -> [[Non-Sugar Sweeteners]].
+### Matrix disruption
 
-A causal mechanism now exists for part of it: a randomised trial gave 120 adults saccharin, sucralose,
-aspartame or stevia for two weeks; saccharin and sucralose «significantly impaired glycemic responses»,
-and colonising germ-free mice with the responders' stool reproduced the effect -- causal, via the
-microbiome, on a two-week glycaemic surrogate [@suez2022]. That is a real pathway on a marker, not a demonstrated effect on diabetes or
-death. For emulsifiers specifically the wiki holds no human-outcome source -- an explicit gap, reported
-rather than filled with a mechanism-only substitute.
+Grinding, extruding and refining alter a food's physical structure, which changes eating rate,
+glycaemic response and intake. On measured disease endpoints, though, the aspect is weak or null: SACN
+tested refined grains directly and found no association — RR 1.00 (95% CI 0.98-1.01) for both
+cardiovascular events and type 2 diabetes.
+[@sacn2015]
 
-### Substrate / refining change -- the signal is the sugar and the lost fibre, not *refined* as such
+Fibre illustrates why the evidence looks the way it does. A viscous-fibre *isolate* is trial-graded on
+the LDL surrogate because it can be dosed and blinded; whole-food fibre's larger mortality signal stays
+observational because a food cannot. SACN bounds its own isolate grade — the effect is «demonstrated at
+intakes achieved through supplementation».
+[@sacn2015]
+So the better grade tracks the better *design*, not the better food, and matrix disruption does real
+work on intake while remaining weak-to-null where the endpoint is measured disease.
 
-Replacing intact grain and fibre with refined starch and free sugars is a composition change, and its
-harm attaches to the components, not to the act of refining.
+### Additives
 
-Free sugars: WHO's `<10%` limit is a *dental caries* recommendation, not a metabolic one. On body
-weight the effect is an energy effect -- swapping free sugars for other carbohydrate at equal energy
-moves weight by 0.04 kg (95% CI -0.04 to 0.13), i.e. null [@who2015]. Reducing free sugars (mostly via advice) lowered weight by 0.80 kg (95% CI 0.39
-to 1.21) [@te2013], and the child cohort
-signal is really a *beverage* signal -- highest-vs-lowest sugar-sweetened beverage intake OR 1.55 (1.32
-to 1.82) [@who2015] -> [[Free Sugars Intake]]. Caries is
-sugar-specific by mechanism, carried by consistent observational data upgraded for large effect
-[@moynihan2014].
+Additives are a patient-important-outcome gap — not demonstrated harm, and not demonstrated safety. The
+best-appraised additive class, non-sugar sweeteners, shows how thin the ground is. WHO issues a
+conditional recommendation, on low-certainty evidence, that «non-sugar sweeteners not be used as a
+means of achieving weight control or reducing the risk of noncommunicable diseases».
+[@who2023nonsugar]
+Short-term trials show a small weight benefit at higher versus lower NSS intake (MD -0.71 kg, 95% CI
+-1.13 to -0.28), but the cleaner sugar-*replacement* estimate is null (MD -0.61 kg, -1.28 to 0.06), while long-term
+cohorts show opposite-signed associations (obesity HR 1.76, 1.25-2.49; T2D HR 1.23, 1.14-1.32;
+all-cause mortality HR 1.12, 1.05-1.19) that WHO declined to dismiss as reverse causation.
+[@who2023nonsugar]
 
-The lost fibre matters on its own axis: higher fibre tracks 15-30% lower risk across mortality, CHD,
-type 2 diabetes and colorectal cancer (all-cause mortality RR 0.85 highest-vs-lowest; RR 0.93 per 8
-g/day; «13 fewer deaths (95% CI eight to 18)» per 1000 for all-cause mortality) -- but this is
-observational, and the RCT-grade causal effect
-(viscous fibre lowering LDL by -0.057 mmol/L per gram) is small [@reynolds2019] [@brown1999]. So *refined therefore harmful* resolves into: less fibre, more free
-sugars. Steer by those, not by the word *refined* -> [[Whole Grains Refined Grains and Pulses]].
+Suez's RCT showed saccharin and sucralose «impaired glycemic responses» — but causally on a *2-week
+glycaemic surrogate*, personalized to responders, not on any hard outcome.
+[@suez2022]
+For emulsifiers specifically, no human-outcome source is held: the wiki cannot speak to them at all.
+The honest state across additives is *insufficient evidence* — not "no effect," and not an inferred
+direction of harm.
 
-### Energy density + hyper-palatability -- the plausibly dominant, and engineered, channel
+### Substrate / refining change
 
-This is the aspect the inpatient RCT points at, and the one that is deliberately manufactured rather
-than incidental. Ultra-processed products are, in NNR's description, «energy dense products, high in
-added or free sugars, salt and total fat/saturated fat, and low in fibre and micronutrients»
-[@nnr2023]. Combined with the matched-nutrient
-intake effect above, the most defensible reading is that the bulk of any genuine processing harm runs
-through *overconsumption of energy-dense, fast-eaten food*, not through a toxin. The Hall trial pins
-the operative levers: not greater reported liking (pleasantness ratings were equal) but 85% higher
-non-beverage energy density and a faster eating rate [@hall2019]. Grade: causal on intake (the strongest aspect), via the one experimental result
-the field has.
+Where refining changes the substrate, any harm attaches to the *component* that changed, not to
+"refined" as a category. Free sugars are the worked case: swapping free sugars for other carbohydrate
+at equal energy moves body weight by 0.04 kg (95% CI -0.04 to 0.13) — null — so the measured weight
+effect is an energy effect, not a sugar-specific one, and the harm from sugar-sweetened beverages is
+the added energy in a poorly-compensated liquid form rather than "refinement" as such.
+[@who2015]
+On the other side, refining strips fibre, which carries its own modest, partly-causal benefit
+-> [[Dietary Fibre and Health]]. So "refined" names two separable component changes — sugar added,
+fibre lost — and each is the real exposure. Naming the component, not the processing label, is what
+carries a decision -> [[Whole Grains Refined Grains and Pulses]].
 
-### Processing contaminants -- narrow, real, and category-specific
+### Energy density + hyper-palatability
 
-High-temperature cooking of meat forms heterocyclic amines and polycyclic aromatic hydrocarbons, and
-haem iron promotes endogenous N-nitroso compounds -- WCRF rated the mechanistic evidence «robust» for
-processed meat and «moderate» for red meat [@wcrf2018]. This is a real but *narrow* axis, tied to specific foods (below),
-not a general indictment of browning.
+This is the aspect the one experimental result in the field points at, and the plausibly dominant
+channel. Hall's inpatient crossover RCT (§3) isolates it: with nutrients held level and only
+processing varied, the proximate levers were physical and measurable — 85% higher non-beverage energy
+density, faster eating rate, and protein dilution — driving the excess intake and weight gain reported
+in §3.
+[@hall2019]
 
-The broader *cooking by-products* story is weaker. A meta-analysis of 17 RCTs (560 participants) of
-low- versus high-AGE diets moved some surrogates (insulin resistance MD -1.3, 95% CI -2.3 to -0.2;
-LDL -2.4 mg/dl approx -0.06 mmol/L) but was null on the parameters people care about -- «no changes in
-weight, fasting glucose, 2-h glucose and insulin, haemoglobin A1c, high-density lipoprotein or blood
-pressure» -- with no hard-outcome data at all [@baye2017] -> [[Dietary AGEs and Cooking Method]]. Grade: firm-but-narrow for charred processed meat;
-insufficient for the general low-AGE claim.
+So processing does causal work on energy intake at matched nutrients, and it runs through engineered
+properties — energy density, hyper-palatability, eating rate — that a decision can target directly
+rather than through the NOVA label. The endpoint is a short-term surrogate (intake, 2-week weight,
+n=20): it licenses "processing drives overconsumption," not "processing causes disease."
+-> [[Ultra-Processed Food and Health Outcomes]]
+
+### Processing contaminants
+
+The contaminant aspect is real but narrow and category-specific. For processed meat, WCRF grades the
+mechanism strongly: it is a «convincing cause of colorectal cancer», and «There is robust evidence
+for mechanisms operating in humans» — high-temperature cooking forms heterocyclic amines and polycyclic
+aromatic hydrocarbons, and haem iron drives endogenous N-nitroso formation. The effect size and grade
+are carried in §5; the value here is the named carcinogen mechanism.
+[@wcrf2018]
+
+That is a specific mechanism on a specific food, not a blanket "processing" verdict. The broad version
+— that dietary advanced glycation end products (browning) harm health — is insufficient: Baye's MA of
+17 RCTs moved a few surrogates (insulin resistance MD -1.3, 95% CI -2.3 to -0.2) but was null on
+weight, fasting glucose, HbA1c, HDL and blood pressure, with no hard-outcome trial.
+[@baye2017]
+So contaminants matter where a named carcinogen mechanism is graded on a named food, and not as a
+general story about heat or browning.
+
+The five aspects graded, the effect concentrates in a few of them — energy density with
+hyper-palatability, and the processed-meat contaminant mechanism — not in "processing" as a class. With
+the aspects sorted, the question becomes which actual foods carry them, ranked.
 
 ## The category gradient: which processed foods, ranked
 
-The label is useless; the food is not. Ranked by the strength and size of the defensible signal:
+Read endpoint by endpoint, the specific foods the label lumps together do not
+behave alike. Three tiers separate them.
 
 ### Clear harm (specific categories)
 
-Sugar-sweetened beverages and processed meat carry most of the defensible signal, and are where a
-blanket *UPF* number largely comes from.
+Two categories carry harm the evidence treats as real. **Processed meat** raises
+colorectal-cancer risk: RR **1.16 (95% CI 1.08-1.26) per 50 g/day**
+[@wcrf2018],
+and WCRF grades it a «convincing cause of colorectal cancer»
+[@wcrf2018] — its
+strongest evidential grade, with «no level of intake that can confidently be
+associated with a lack of risk»
+[@wcrf2018ter].
+**Sugar-sweetened beverages** are the other: the dominant free-sugars carrier,
+associated per 250 mL/day with type 2 diabetes RR 1.19 (1.13-1.25) and obesity
+RR 1.12 (1.05-1.19)
+[@qin2020],
+and the exposure behind the child-cohort adiposity signal (OR 1.55, 1.32-1.82)
+[@who2015].
 
-- Processed meat -> colorectal cancer: RR 1.16 (95% CI 1.08 to 1.26) per 50 g/day, WCRF-graded a
-  «convincing» cause [@wcrf2018]. In absolute terms a realistic 3-servings/week reduction gives roughly 1 to 8 fewer
-  cancers per 1000 over a lifetime and 1 to 12 fewer cardiometabolic events per 1000 over \~11 years,
-  at low certainty [@nutrirecs2019]. Note the
-  processed/unprocessed split is load-bearing -> [[Red and Processed Meat and Cancer]].
-- Sugar-sweetened beverages: the child adiposity signal above (OR 1.55) is a beverage signal, and
-  fruit juice sits inside the free-sugars exposure while whole fruit sits outside it [@who2015].
+The etiologic grade and the decision are different questions, and keeping them
+apart is not conceding one body is wrong. WCRF grades the *causal association*;
+NutriRECS re-pools the same cohorts into *absolute benefit of reducing* and finds
+a realistic 3-servings/week cut of processed meat averts roughly **1 to 8 fewer
+cancers per 1000 over a lifetime**
+[@nutrirecs2019],
+and a «range, 1 fewer to 12 fewer events per 1000 persons» across cardiometabolic
+outcomes (all-cause and cardiovascular mortality, stroke, MI, type 2 diabetes)
+over \~10.8 years, low-to-very-low certainty
+[@nutrirecs2019].
+A convincing cause on a modest baseline still yields a small absolute effect;
+both readings hold at once.
 
 ### Probable / moderate
 
-- Unprocessed red meat -> cancer mortality: about 7 fewer per 1000 over a lifetime for a 3-servings/week
-  cut (9 fewer to 6 fewer), low certainty; the pooled colorectal association is not even significant
-  (RR 1.12, 95% CI 1.00 to 1.25 per 100 g/day) [@wcrf2018] [@nutrirecs2019].
-- Refined-grain, high-free-sugar and energy-dense hyper-palatable snacks: harm runs through the free
-  sugars, the lost fibre and the overconsumption channel, as above -- not through *refining* per se.
+**Unprocessed red meat** sits a tier down. Its colorectal-cancer association is
+RR **1.12 (95% CI 1.00-1.25) per 100 g/day** — the lower bound touches the null,
+so the pooled estimate is not statistically significant
+[@wcrf2018].
+In absolute terms, NutriRECS pooled 17 cohorts (2.2 million participants) and
+found that cutting unprocessed red meat by 3 servings/week averts «Overall cancer
+mortality 7 fewer per 1000 persons (from 9 fewer to 6 fewer) over lifetime», low
+certainty [@nutrirecs2019]
+— a small effect on a modest baseline, in line with the association's null lower bound.
 
-### Neutral-to-beneficial despite being *processed*
+**Refined-sugar-dense snacks** belong here too, but not as a category of their
+own: their harm routes to the free-sugars and added-energy channels priced
+elsewhere -> [[Free Sugars Intake]]. Cutting free sugars for cardiometabolic
+reasons is an energy story — swapped isoenergetically for other carbohydrate,
+weight moves 0.04 kg (-0.04 to 0.13), null
+[@who2015].
 
-Being industrially made is not a health fact. Several heavily-processed foods are neutral or beneficial:
+### Neutral-to-beneficial despite being processed
 
-- Wholegrain bread and ultra-processed cereals appeared *inversely* associated in Lane's own T2D pool
-  [@lane2024upf].
-- Whey and other protein isolates, frozen and canned vegetables, extra-virgin oils, and fermented foods
-  carry no established harm from processing; the fibre-isolate case shows an isolate can even out-grade
-  its parent food on design [@sacn2015].
-- Dairy (cheese, yoghurt, butter, milk) is the paradigm case that *processed* spans harmful to
-  beneficial, but its category-by-category adjudication is a separate deliverable -> [[Dairy]]. It is cited here only as illustration and is not re-adjudicated.
-
-A within-aspect note on fat quality: the same *process the fat* question runs through *which* fat, not
-*processed vs not*. Reducing saturated fat cut cardiovascular events (RR 0.83, 15 fewer per 1000,
-moderate certainty) but not mortality (RR 0.96, 2 fewer, the interval spanning null), and the
-replacement sets the sign -> [[Saturated Fat Intake and Replacement]] [@who2023saturated].
+Industrial making is not itself the harm. **Wholegrain bread**, **frozen
+vegetables**, and **isolates** are processed and either neutral or beneficial.
+The sharpest case: a soluble-fibre *isolate* out-grades the fibre-bearing food —
+Brown's 67 controlled trials pin viscous fibre to an LDL drop of -0.057 mmol/L
+per gram at GRADE strength, because an isolate can be dosed and blinded while
+whole-food fibre stays observational
+[@brown1999].
+The better grade tracks the better *design*, not the more natural food ->
+[[Is the Food Category Doing Any Work]]. Dairy is a further instance where the
+aggregate hides null-and-opposite cells ([[Dairy]]). A category-average that
+lumps a convincing carcinogen with a cholesterol-lowering isolate describes no
+food a shopper can act on — which is why the average overstates the case.
 
 ## Why the category-average overstates the case
 
-Everything except the inpatient RCT is observational, and the confounding is severe. Lane's umbrella
-review -- 14 meta-analysis studies, 45 pooled analyses, n=9,888,373 -- is the breadth layer, and it is
-observational throughout by necessity: «We found no existing pooled analyses of randomised controlled
-trials during the pilot phase of this review» [@lane2024upf].
-Its headline associations look strong but grade weak:
+The umbrella evidence for "ultra-processed food" as a class is **observational
+throughout** — Lane found no pooled RCTs and confined the review to
+observational studies
+[@lane2024upf]. Its headline
+associations look large — CVD-related mortality RR 1.50 (1.37-1.63), all-cause
+mortality RR 1.21 (1.15-1.27), obesity OR 1.55 (1.36-1.77), T2D per 10% RR 1.12
+(1.11-1.13)
+[@lane2024upf] —
+but among these headline associations only the T2D dose-response reaches GRADE
+**moderate** (4 of 45 pooled analyses do overall — the other three are small or
+null dose-response estimates), 22 are low and 19 very low
+[@lane2024upf].
 
-- Cardiovascular-disease-related mortality RR 1.50 (1.37 to 1.63): class I convincing on the credibility
-  axis, but GRADE *very low* for causation.
-- Type 2 diabetes (dose-response, per 10%) RR 1.12 (1.11 to 1.13): the single arm reaching GRADE
-  moderate.
-- All-cause mortality RR 1.21 (1.15 to 1.27), obesity OR 1.55 (1.36 to 1.77), common mental disorder
-  OR 1.53 (1.43 to 1.63).
+Three things cap what the average can carry. First, the bias screens fired on the
+outcomes the review headlines: excess-significance bias in **9 of 28** analyses
+(including all-cause mortality, obesity, T2D) and small-study effects in **5 of
+28**
+[@lane2024upf] — the flags
+attach to the strong associations, not only the weak ones. Second, dietary intake
+is self-reported, and reported energy runs **34%** below doubly-labelled-water
+expenditure in adults
+[@sacn2015] — error large enough
+to flatten or distort a gradient -> [[Measurement Error in Dietary Assessment]].
 
-[@lane2024upf]
+Third, Lane's defense that the association survives «adjusting for diet quality
+or patterns»
+[@lane2024upf] adjusts for a
+*pattern*, not the *nutrient profile* — the sugar, salt, fat and fibre that make
+a food ultra-processed and nutrient-poor at once. A residual association after
+pattern adjustment does not separate processing from composition.
 
-Only 4 of 45 analyses reach GRADE moderate; 22 are low and 19 very low. Bias screens fired on the
-*headline* outcomes, not just the weak ones -- excess-significance bias in 9 of 28 (32%) and small-study
-effects in 5 of 28 (18%), including all-cause mortality, obesity and type 2 diabetes [@lane2024upf]. And the whole base inherits dietary measurement error:
-self-reported intake runs, in one doubly-labelled-water substudy, «on average, 34% lower than total
-energy expenditure» in adults 16-64 [@sacn2015] ->
-[[Measurement Error in Dietary Assessment]].
+So a category effect is weak evidence of a food-specific causal one: the average
+pools protective and harmful subcategories, fires its bias screens on its own
+headlines, and rests on a mismeasured exposure. The question that follows is
+whether the class survives as a lever of its own once its named culprits are
+already priced.
 
-Lane's defence -- that adjusting for diet-quality patterns does not remove the association -- does not
-settle it, because pattern adjustment is not the same as matching the nutrient profile that makes a food
-both ultra-processed and nutrient-poor. Only a composition-matched design (the Hall trial) can separate
-processing from composition.
+## "Reduce ultra-processed food" as a standalone lever
 
-## *Reduce ultra-processed food* as a standalone lever
+Once the specific culprits are pulled — cut sugar-sweetened beverages, cut processed meat, shift refined grains toward whole grains, stop over-eating energy-dense palatable food — the residual "reduce ultra-processed food" instruction has little left to name. Each of those is an already-ranked lever with its own page, and the class label adds no further action beyond them. What remains is a heavily discussed category carrying a small, confounded residual association — *attention-is-an-anti-signal* operating exactly as the rule predicts: the volume of discourse tracks the contestedness of a small effect, not its size -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-Mostly not, once the specific culprits are pulled. The magnitudes are modest (relative effects clustering
-RR/OR 1.2-1.66), observational, and confounded by the poor diets, lower income and lower activity that
-UPF-heavy eating tracks with -- much of the ranking weight is already captured by exposures higher in the
-hierarchy -> [[Layer 1 - Ranking Interventions for a Stratum]]. The one dietary exposure with a rankable
-absolute hard-outcome effect the wiki holds is saturated-fat reduction (15 fewer cardiovascular events
-per 1000), and that is a small lever. *Attention is an anti-signal* applies with force here: UPF is among
-the most-discussed exposures precisely because the effect is contested and modest.
+Size that ceiling against the one lever the fabric can rank on an absolute hard outcome. Reducing saturated fat to 10% of energy reduced cardiovascular events, RR 0.83 (95% CI 0.70-0.98) — about 15 fewer per 1000, moderate certainty — the single outcome in WHO's profile to clear the null (all-cause mortality RR 0.96, 0.90-1.03, about 2 fewer per 1000, interval spanning no effect) [@who2023saturated] -> [[Saturated Fat Intake and Replacement]]. That is the *smallest* rankable lever the wiki holds, and the residual UPF-class effect sits below it.
 
-So the practical instruction is not *avoid ultra-processed food* (a rule a shopper cannot reliably apply,
-since the same yoghurt or bread moves in and out of the category on manufacturing details). It is: cut
-sugar-sweetened beverages and processed meat, shift refined toward whole grains and fibre, and do not
-overeat energy-dense hyper-palatable food. If you have already done those, the residual UPF lever is
-small -- and that ceiling is itself the finding, not a failure to find something.
+GBD reaches the same place from population data: red meat, processed meat, trans fat and sugar-sweetened beverages sit «towards the bottom in ranking of dietary risks for deaths and DALYs for most high-population countries» [@afshin2019]. The class does not survive as its own lever, and that ceiling is the finding.
+
+So if the class effect collapses, why does some guidance still recommend against ultra-processed food as a category — which objective moved it?
 
 ## Which objective moved the guidance
 
-Guidance bodies split on UPF: Lane recommends population measures to reduce it; NNR declines to
-recommend on it as a class, citing collinearity with nutrients it already regulates [@nnr2023] -> [[Which Objective Moved This Recommendation]]. The
-disagreement is not about the associations -- it is about whether the category adds decision-relevant
-information beyond its correlates. Where a body does recommend against UPF, check whether it rests on the
-confounded category-average or on the specific-category evidence, and note that NNR also folds an
-environmental objective in without publishing how it was weighed.
+Some bodies recommend against ultra-processed food as a class; others decline to. The disagreement is not about the associations — both sides read the same observational base — but about whether the NOVA category carries decision-relevant information *beyond* the sugar, salt, fat, energy density and fibre it correlates with. Lane's umbrella review supports a class-level recommendation; NNR declines, judging the category collinear with variables already covered by existing food-based classifications -> [[Ultra-Processed Food and Health Outcomes]], [[Which Objective Moved This Recommendation]].
+
+This is a genuine disagreement resolved by what each body grades, not by one being wrong. And where NNR moves on adjacent categories, a second objective becomes visible: its meat positions are set partly by an environmental constraint it discloses while leaving the *weight* unpublished, so the reader cannot tell how much of the recommendation rests on health evidence and how much on sustainability -> [[Which Objective Moved This Recommendation]]. That is the corpus's standing pattern — considerations disclosed, weights not — and it means a class-level recommendation against UPF cannot be read as a pure health-evidence verdict.
+
+What the fabric cannot yet say follows from the same evidence base.
 
 ## What we cannot yet say (honest gaps)
 
-- Additive / emulsifier human-outcome evidence is a genuine gap. The wiki holds a sweetener template and
-  a causal microbiome-glycaemia mechanism, but no emulsifier human-outcome source.
-- Attribution of the category signal to a *single* aspect (matrix vs additive vs delivered nutrients)
-  beyond Hall's intake channel is not cleanly partitioned in humans -- the field's central unresolved
-  confound.
-- Long-latency and trajectory outcomes: UPF trials are short (intake, weight); hard-endpoint causal data
-  do not exist and cannot easily be produced, because blinding a whole-food-matrix intervention makes it
-  a different exposure -> [[Surrogate Outcomes]].
+Three gaps are stated as gaps, with no direction inferred.
 
- -- the gap list is this deliverable's, induced across the cited pages.
+
+1. **Additive and emulsifier human-outcome evidence is insufficient.** The best-appraised additive template is the non-sugar-sweetener case — a conditional WHO recommendation, short-term marker movement, opposing long-term cohort associations. For emulsifiers specifically the wiki holds no human patient-important-outcome source at all. This is a gap, not a finding of no effect, and licenses no inference of harm or of safety -> [[Non-Sugar Sweeteners]].
+
+2. **Single-aspect attribution is not partitioned in humans.** Hall's inpatient trial isolates one channel — processing drove higher energy intake at matched nutrients — but how much of any class-level association is matrix disruption versus additives versus nutrient profile is not decomposed in human outcome data. The aspects are graded one at a time; their relative contribution to disease is unquantified.
+
+3. **Long-latency and trajectory hard-endpoint causal data do not exist.** A whole-food-matrix intervention cannot be blinded, and the blindable isolate is a *different exposure* than the food, so the decades-long causal trial the question wants is unavailable in principle, not merely unfunded -> [[Surrogate Outcomes]], [[Is the Food Category Doing Any Work]].
 
 ## Coherence, not validity
 
-This appraisal grades the sources for internal soundness and fidelity, not against realized outcomes.
-The loop is open: no operation here has checked any of these claims against what actually happened to a
-person who cut processed food. The direction (avoid the worst categories) is low-regret; the magnitude,
-and any independent effect of processing beyond intake, remain genuinely uncertain -- most of the signal
-runs through markers and short-term surrogates, not hard endpoints -> [[Surrogate Outcomes]].
+This deliverable grades coherence and source-fidelity, never validity. Every claim here traces to its cited source and the internal reasoning is checkable, but nothing on this page has been tested against a realized outcome — no operation grades a recommendation against whether someone who followed it was better off. The loop is open. A clean internal audit means the fabric is self-consistent and faithful to what its sources say; it is not evidence that acting on any conclusion here improves a patient-important outcome -> [[Surrogate Outcomes]].
+
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
-> | **Question** | What does the evidence show about processed and ultra-processed food and health — which aspect of processing carries the signal, and which categories are more vs less harmful? |
-> | **Evidence included** | 15 sources — 6 gold, 8 high, 1 moderate |
+> | **Question** | 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density and hyper-palatability, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?' |
+> | **Evidence included** | 15 sources — 7 gold, 7 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Processed%20Food%20Bad.md) |
+> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
 
 ## References

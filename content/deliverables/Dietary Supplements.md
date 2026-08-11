@@ -3,448 +3,640 @@ type: deliverable
 title: Dietary Supplements
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; Reynolds, Andrew; Valdes, Ana M; World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; Bhatt, Deepak L; Kreider, Richard B; De-Regil, Luz Maria]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, SACN - Carbohydrates and Health 2015]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-04
-self_critiqued: 2026-07-30
+updated: 2026-08-11
+self_critiqued: 2026-08-11
 ---
 
-For a **generally-nourished adult with no diagnosed deficiency**, dietary supplements taken to prevent
-disease or extend life are — on the best evidence the wiki holds — **a low-to-absent lever, and for one
-class of them a harmful one**. The largest, cleanest randomized trials of the most-marketed products
-(vitamin D, marine omega-3, multivitamins, vitamin E, beta carotene) come back **null on the outcomes
-people actually care about** — heart disease, cancer, fractures, death — and the antioxidant class,
-beta carotene above all, comes back showing *harm*. That is the headline the marketing volume runs
-directly against: the compounds with the most shelf space and the loudest claims are the ones the trials
-have already tested and found empty.
+## 1. The verdict, up front
 
-The honest exceptions are narrow and specific, and they are **not** what the supplement aisle mostly
-sells. They are: **correcting a documented deficiency** (a repletion effect that fires only if you are
-actually short); **hitting a protein target you cannot reach from food** (protein powder is just food); a
-handful of **situational or functional uses** (electrolytes under heavy sweat loss; specific probiotic
-strains for specific gut conditions); and a small **adjunct** effect of viscous fibre on LDL cholesterol.
+For a generally-nourished adult with no diagnosed deficiency, disease-prevention
+supplementation is a **small-to-absent lever** — and for one class, the antioxidants, a
+net-harmful one. The products marketed hardest are precisely the ones the largest and
+cleanest trials have already tested against hard outcomes and found empty. This is not a
+*we don't know yet* verdict for those; it is a *result*.
 
-For almost everything else — the long tail of magnesium, CoQ10, curcumin, berberine, ashwagandha, and the
-branded stacks — the human-outcome evidence is either **insufficient** (mechanism and surrogate signals
-that have not been carried through to a real outcome) or **not held by this wiki at all**.
+The verdict is a **split**, not a slogan. The same compound can be inert for one person
+and decisive for another, and the axis that separates the two is not the pill — it is the
+eater. Correcting a **documented deficiency** in someone who has one (*repletion*) and
+*topping up* someone already sufficient (*enhancement*) are two different quantities, and
+almost every supplement's reputation is built by silently borrowing repletion's evidence
+to sell enhancement. Keep them apart and most of the confusion resolves.
 
-This document
-grades each from the held evidence and says which state it is in; where the wiki holds no source, it says
-so rather than inventing a number. The core disease-prevention evidence is consolidated on
-[[Vitamin and Mineral Supplements for Disease Prevention]].
+That the remaining levers here are small is itself the finding, not a failure to find one.
+Once the big rocks are handled — not smoking, not carrying excess visceral fat, moving,
+sleeping — what is left is small *by construction*, and a supplement aisle is where the
+long tail of small, contested, heavily-marketed levers lives. Reporting *your remaining
+supplement levers are small and mostly not worth pulling* is a decision-change: it licenses
+someone to stop optimizing here and spend the effort where a large lever still stands.
+ -> [[Layer 1 - Ranking Interventions for a Stratum]]
 
-## How to read a supplement claim — the method, stated once
+The five things to carry into the detail below:
 
-The appraisable question is never *does compound X have a plausible mechanism?* — almost all of them do.
-It is: **for a person already eating adequately, does this specific product, at this dose and in this
-form, move a real outcome — and how good is the evidence?** Five moves do the work.
+- **The default for the replete adult is *no meaningful benefit*, and for antioxidants  *harm* — both earned from large trials, not assumed from silence.**
+- **Documented deficiency changes everything: repletion is a different quantity, and the
+  evidence for it is real, specific, and stratum-defined.**
+- **The unit that carries an effect is compound + dose + form + circumstance — never the
+  class label on the bottle.**
+- **A surrogate moved (a blood marker, a bone-density point) is not an outcome moved;
+  several supplements move the marker while the patient does no better or worse.**
+- **How much a supplement is discussed runs inverse to how much it does: attention is an
+  anti-signal in a mature field.**
 
-- **Sort every compound into ONE of four evidence states, and keep them apart.** *Benefit* (RCT evidence
-  on a patient-important outcome, in a named circumstance); *no meaningful effect* (measured and null in
-  humans at realistic doses); *insufficient / not-yet* (mechanistically reasonable, or a surrogate /
-  small / short-term human signal, but **not** established on a real outcome — held as a candidate, not a
-  finding); and *harm*. The two nulls are not the same: *insufficient* means we have not looked hard
-  enough, *no meaningful effect* means we looked and there was nothing there.
-- **Judge against the honest comparator, not against placebo alone.** The real alternatives to a pill are
-  (a) getting the nutrient from **food**, (b) correcting a **documented deficiency**, and (c) doing
-  **nothing** and spending the money and attention on the big rocks. A supplement has to beat the
-  relevant one of those, not merely beat an empty capsule.
-- **The unit is the specified compound + dose + FORM + circumstance — never the label.** Magnesium is
-  several salts that absorb differently; omega-3 spans an over-the-counter fish-oil capsule and a \~4 g/day
-  prescription drug; protein powder is food in powder form. Judge the measured product, not the category
-  ([[Is the Food Category Doing Any Work]]).
-- **The isolate trap and the streetlight.** A nutrient pulled out of its food matrix is a *different
-  exposure* than the food, and isolates are **over-studied precisely because they are cheap to dose and
-  blind** — the evidence base is skewed toward whatever is easy to measure, not toward what matters
-  ([[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]]). A clean RCT of a
-  supplement isolate can come back null *because the isolate is not the food* — that is a finding about
-  the pill, not a refutation of the food.
-- **Attention is an anti-signal, and cost is a real constraint.** In a mature area, the loudest,
-  most-published exposures tend to be the small contested ones; the big settled levers are boring.
-  Supplements are the paradigm case. Money, attention, and adherence spent on a low-lever stack are
-  genuine costs traded against the big rocks ([[Layer 1 - Ranking Interventions for a Stratum]]) — the
-  concern that a stack is an *unnecessary expense* is an in-scope layer-3 constraint, not a separate axis.
+> [!warning] Documented deficiency changes everything
+> Every *no benefit* and *harm* verdict below is a statement about the **already-replete**
+> person. None of it transfers to someone with a *measured, diagnosed* deficiency, for whom
+> the same compound can be one of the largest levers available — the repletion arm of §4 is
+> where those effects live. If you have not measured the status, you do not yet know which
+> arm you are in. This document appraises; it does not diagnose, dose, screen for
+> interactions, or titrate — those are prescriber acts requiring your labs and history,
+> which it does not hold.
 
-## The largest, cleanest RCTs — and what they found
+The rest follows the split. §2 gives the reading discipline; §3 walks the largest, cleanest
+trials (all in replete populations); §4 turns to the repletion arm, where the sign flips.
 
-These are among the highest-quality evidence held on supplements: large, simple, randomized trials in ordinary
-people, where the healthy-user confound that plagues observational supplement studies is designed out.
-They must be reported, not talked around ([[Vitamin and Mineral Supplements for Disease Prevention]]).
+## 2. How to read a supplement claim
 
-### VITAL (n = 25,871): vitamin D and omega-3, four endpoints, all null
+Four evidence states, kept strictly distinct — the whole appraisal turns on not collapsing
+them:
 
-VITAL randomized 25,871 US adults (men >=50, women >=55, selected by **age alone** — no heart disease or
-cancer at entry) to vitamin D3 **2000 IU/day** and/or marine omega-3 **1 g/day**, median follow-up 5.3
-years [@manson2019vitd]. Both agents missed **both** of their
-co-primary endpoints:
+- **Benefit** — a patient-important outcome moved in the good direction.
+- **Harm** — moved in the bad direction.
+- **No meaningful effect** — tested at adequate size and genuinely flat.
+- **Insufficient evidence** — not adequately tested, or tested only on a surrogate.
 
-| Agent | Endpoint | Hazard ratio (95% CI) | State |
-|---|---|---|---|
-| Vitamin D3 | Invasive cancer | 0.96 (0.88-1.06) | no meaningful effect |
-| Vitamin D3 | Major cardiovascular events | 0.97 (0.85-1.12) | no meaningful effect |
-| Marine omega-3 | Major cardiovascular events | 0.92 (0.80-1.06) | no meaningful effect |
-| Marine omega-3 | Invasive cancer | 1.03 (0.93-1.13) | no meaningful effect |
+The last two look alike and are opposites. *No meaningful effect* is a finding you can act
+on (stop taking it); *insufficient* is a question still open (mechanism or a moved blood
+marker is not an answer). Before writing *no evidence that X helps*, apply the expectancy
+test — *if it worked, would a trial this size have seen it?* A well-powered null is a result;
+silence from an unstudied question is not. -> [[Surrogate Outcomes]]
 
-[@manson2019vitd] [@manson2019n3]
+**Judge against the honest comparator, not against nothing.** A supplement's effect depends
+on what it replaces. The real question is rarely *pill vs no pill* but *pill vs the food that
+carries the same compound in its matrix*, or *pill vs correcting the deficiency by diet*, or
+— for the replete person — *pill vs nothing, since there is no gap to fill*. Framed as *does adding this to an adequate diet do anything*, most enhancement claims answer themselves.
 
-> «Supplementation with vitamin D was not associated with a lower risk of either of the primary end
-> points.» [@manson2019vitd]
 
-> «Supplementation with n-3 fatty acids did not result in a lower incidence of major cardiovascular
-> events or cancer than placebo.» [@manson2019n3]
+**The unit is compound + dose + form + circumstance — never the class label.** *Omega-3*
+spans a contested benefit signal (a high-dose ethyl-ester prescription in the
+hypertriglyceridaemic, on a disputed comparator — see the §10 gap) and a null (1 g/day in the
+replete) — same word, different exposures, opposite verdicts. The bottle's
+category is doing no causal work; the specification is. A single food or nutrient studied as
+a blindable, dosable **isolate** routinely out-grades the whole food that carries it — not
+because the isolate is better but because the *design* is cleaner (you can blind a capsule,
+not a meal), and the better grade tracks the better study, not the better exposure.
 
-**But "omega-3" is not one exposure — dose and form flip the answer.** VITAL's null tested OTC-strength
-marine omega-3 (1 g/day EPA+DHA) in primary prevention. REDUCE-IT tested a *different* product — **4 g/day
-of prescription purified EPA** (icosapent ethyl) — in 8179 statin-treated patients with high triglycerides
-and high cardiovascular risk, and **reduced** the primary composite of major cardiovascular events, HR
-**0.75** (0.68-0.83), a \~25% relative reduction [@bhatt2019].
+-> [[Is the Food Category Doing Any Work]]
 
-Two things stop this becoming "fish oil works": the placebo was **mineral oil**, which raised LDL and CRP
-in the control arm and may have inflated the apparent benefit (a clean-comparator trial is not yet held);
-and the benefit is in a **high-risk, high-triglyceride, statin-treated stratum**, not general prevention —
-plus icosapent ethyl is a **prescription drug**, not the shelf capsule. The decision is *form + dose +
-stratum*, not "omega-3" ([[Is the Food Category Doing Any Work]]).
+**Beware the streetlight.** The supplement evidence base is skewed toward what is easy to
+isolate, blind, dose, and measure fast — single compounds, short surrogates — because those
+yield clean data. The hard-to-measure (whole diets over decades, the food matrix,
+long-latency outcomes) yields little and so reads as *no evidence*, which is not the same as
+*no effect*. When a supplement's evidence looks unusually clean, ask what it structurally could
+not see. -> [[Measurement Error in Dietary Assessment]]
 
-**Fractures were null too.** The VITAL fracture ancillary found vitamin D3 did not reduce total (HR 0.98,
-0.89-1.08), nonvertebral (0.97), or hip (1.01, 0.70-1.47) fractures [@leboff2022]:
+**Attention is an anti-signal, and cost is a layer-3 concern.** In a mature area the large
+effects are settled and boring; the small, contested ones generate the papers, products, and
+content. Rank a supplement by expected marginal effect, never by how much is written or sold
+about it. And the money, pill burden, and decision fatigue of a daily regimen are real
+opportunity costs weighed at the point of recommendation — the guideline bodies do not price
+them, so a *no net benefit* verdict on a paid daily pill is effectively a mild net negative.
+ -> [[Layer 1 - Ranking Interventions for a Stratum]]
 
-> «Vitamin D3 supplementation did not result in a significantly lower risk of fractures than placebo
-> among generally healthy midlife and older adults who were not selected for vitamin D deficiency, low
-> bone mass, or osteoporosis.» [@leboff2022]
+## 3. The largest, cleanest trials — all in replete populations
 
-**The decisive caveat — this was enhancement in the replete, not deficiency correction.** VITAL's cohort
-was **not deficient**: mean baseline 25(OH)D was 30.8 ng/mL (above the 20 ng/mL adequacy threshold), only
-12.7% were below 20 ng/mL [@manson2019vitd], and just 2.4% were frankly
-deficient at under 12 ng/mL [@leboff2022]. So every null
-reads as *adding vitamin D to an already-adequate person buys nothing* — and the frankly-deficient tail
-was too small to test, so **deficiency correction is a separate question these trials do not
-answer** — but which the repletion meta-analyses below now do (see *Deficiency vs enhancement*, below). This is the single most important distinction on the
-page: the VITAL nulls are about *enhancement*, and enhancement is not repletion.
+The strongest supplement evidence comes from a handful of very large primary-prevention RCTs
+in generally-nourished adults. Read every result below as a statement about the **replete**
+person; §4 is where the sign changes.
 
-### USPSTF 2022 — the general-adult guideline verdict
+**VITAL** randomized 25,871 US adults to vitamin D3 (2000 IU/day) and marine omega-3
+(1 g/day) in a 2x2 design over a median 5.3 years, against hard endpoints. The population was
+replete at entry (mean baseline 25(OH)D \~30.8 ng/mL; only \~12.7% below 20 and \~2.4% below 12),
+so this is an enhancement test by construction. Every primary endpoint was null:
 
-The US Preventive Services Task Force graded supplementation for cardiovascular and cancer prevention in
-community-dwelling adults **without known deficiency** (deficiency, pregnancy, and chronic illness are
-explicitly carved out), pooling the **RCT** literature for efficacy [@uspstf2022supp]:
-
-| Supplement | USPSTF grade | Meaning |
+| Arm | Endpoint | Hazard ratio (95% CI) |
 |---|---|---|
-| **Beta carotene** | **D — recommend against** | harm outweighs benefit |
-| **Vitamin E** | **D — recommend against** | no net benefit |
-| **Multivitamins** | **I — insufficient** | balance cannot be determined |
-| Other single / paired nutrients | **I — insufficient** | evidence lacking |
+| Vitamin D3 | Invasive cancer | 0.96 (0.88–1.06) |
+| Vitamin D3 | Major CV events | 0.97 (0.85–1.12) |
+| Marine n-3 | Major CV events | 0.92 (0.80–1.06) |
+| Marine n-3 | Invasive cancer | 1.03 (0.93–1.13) |
 
-> «there is no net benefit of supplementation with vitamin E for the prevention of cardiovascular disease
-> or cancer. The USPSTF concludes that the evidence is insufficient to determine the balance of benefits
-> and harms of supplementation with multivitamins for the prevention of cardiovascular disease or
-> cancer.» [@uspstf2022supp]
+`[@manson2019vitd]`
+`[@manson2019n3]`
 
-Keep the two nulls apart: vitamin E is **no meaningful effect** (a graded null on hard outcomes);
-multivitamins are **insufficient evidence** (a modest cancer-incidence signal on short follow-up,
-discordant with cancer mortality). Neither is *benefit*. Note also that USPSTF's vitamin-D analysis
-*includes VITAL* as one of its largest trials, so the guideline and the trial are **not independent
-witnesses** — the guideline is the same RCT base synthesized one level up.
+The same trial's bone endpoint was equally flat: vitamin D did not reduce total fractures
+(HR 0.98, 0.89–1.08) or hip fractures (HR 1.01, 0.70–1.47) in this replete cohort.
+`[@leboff2022]`
 
-### The harm arm — more is not better
+**The USPSTF grid** synthesizes this class for primary prevention of CVD and cancer, and
+sorts it into two of the four states, not one:
 
-Beta carotene is the paradigm case that a supplement can *harm*. In smokers and asbestos-exposed workers
-it **raised lung cancer**, and across trials it raised cardiovascular-disease mortality [@uspstf2022supp]. The primary trial behind the pooled figure is
-**CARET**, which randomized 18,314 smokers and asbestos-exposed workers to beta carotene (30 mg/day) plus
-retinol and was **stopped 21 months early for harm** — lung cancer relative risk 1.28, death from any
-cause 1.17, death from lung cancer 1.46 [@omenn1996]:
+- **Beta-carotene: recommend against (D).** A harm signal, not absence — pooled beta-carotene
+  raised lung-cancer incidence (RR 1.18, 1.03–1.36) and CV mortality (Peto OR 1.10, 1.02–1.19).
+- **Vitamin E: no net benefit (D-grade against).** All-cause mortality flat across 9 RCTs and
+  107,772 participants (OR 1.02, 0.97–1.07) — a well-powered *no meaningful effect*.
+- **Multivitamins and single/paired nutrients: insufficient (I).** Not *no benefit* — the
+  evidence does not reach a verdict. This is the two-nulls distinction made official: vitamin E
+  is graded *flat*, the multivitamin is graded *unresolved*.
 
-> «The active-treatment group had a relative risk of lung cancer of 1.28 (95 percent confidence interval,
-> 1.04 to 1.57 ...» [@omenn1996]
+`[@uspstf2022supp]`
 
-**And the harm is broader than beta carotene and broader than cancer.** A meta-analysis of 68 antioxidant
-RCTs (232,606 participants) found that, once restricted to the methodologically sound (low-risk-of-bias)
-trials, supplemental antioxidants **raised all-cause mortality** [@bjelakovic2007]:
+> **Do not double-count.** USPSTF is *not* independent backing for the VITAL nulls — it
+> pools VITAL among its trials. Agreement between them is one evidence base read twice, not
+> two routes converging; it raises coverage, not confidence.
 
-> «In 47 low-bias trials with 180 938 participants, the antioxidant supplements significantly increased
-> mortality (RR, 1.05; 95% CI, 1.02-1.08). In low-bias risk trials, after exclusion of selenium trials,
-> beta carotene (RR, 1.07; 95% CI, 1.02-1.11), vitamin A (RR, 1.16; 95% CI, 1.10-1.24), and vitamin E
-> (RR, 1.04; 95% CI, 1.01-1.07), singly or combined, significantly increased mortality.» [@bjelakovic2007]
+**The harm arm is real and low-bias.** Bjelakovic's meta-analysis of 68 antioxidant RCTs
+(232,606 participants) found, in the 47 **low-bias** trials (180,938 participants), that
+antioxidant supplements *increased* all-cause mortality (RR 1.05, 1.02–1.08) — driven by
+beta-carotene (1.07, 1.02–1.11), vitamin A (1.16, 1.10–1.24), and vitamin E (1.04, 1.01–1.07),
+with vitamin C and selenium showing no effect. The pool of *all* 68 trials was null
+(RR 1.02, 0.98–1.06); the harm surfaced only once the high-bias trials were removed — the
+opposite of the usual publication-bias direction, and a reason to trust it.
+`[@bjelakovic2007]`
 
-Two things keep this honest, in both directions. First, the **all-trials pool is null** (RR
-1.02, 0.98-1.06); the harm surfaces only after restricting to low-bias trials — which is the point, not a
-weakness, because the *high*-bias trials alone showed spurious *benefit* (RR 0.91), so pooling everything
-lets bad trials cancel the harm. Risk-of-bias appraisal was decision-determining here.
+**CARET** is the mechanism-bearing instance behind that signal: 18,314 smokers and
+asbestos-exposed workers given beta-carotene (30 mg/day) plus retinol, **stopped \~21 months
+early** because the supplement arm did worse — lung cancer RR 1.28 (1.04–1.57), lung-cancer
+death RR 1.46 (1.07–2.00), all-cause death RR 1.17 (1.03–1.33). A real causal U: more was not
+better, it was worse, and the upper arm was demonstrated by randomization, not inferred from a
+curve. `[@omenn1996]`
+-> [[The U-Shaped Association Artifact]]
 
-Second, vitamin
-A's 1.16 (the largest number) rests on this one meta-analysis's low-bias subset; USPSTF graded only beta
-carotene and vitamin E, so vitamin A is the least-corroborated of the three.
+CARET is *inside* the Bjelakovic and USPSTF pools, not independent of them — the same trial
+supplying the mechanism and the meta-analytic weight. Every null and every harm above shares
+one property: it was measured in people who did not lack the nutrient. That is the hinge into
+§4 — repletion is a different quantity, and it is where the effects reappear.
 
-The class verdict stands:
-**for the well-nourished, high-dose antioxidant supplements do not help and can kill**, the *more is
-better* fallacy realized on hard outcomes -> [[The U-Shaped Association Artifact]].
+## 4. The repletion-vs-enhancement split
 
-And the meta-analysis
-itself insists this is a fact about **synthetic isolates, not food** — it «should not be translated to
-potential effects of fruits and vegetables» [@bjelakovic2007] -> [[Is the Food Category Doing Any Work]].
+The organizing distinction of this whole document: **enhancement** (adding a nutrient to an
+already-sufficient person) versus **repletion** (correcting a *measured* deficiency in a stratum
+that has one). §3 was entirely enhancement, and its verdict was null-to-harm. Repletion is a
+separate causal quantity — it maps to a route-(a)/(c) stratification (absolute benefit scales
+with a deficient baseline) or to genuine effect-modification by nutrient status — and there the
+sign flips. -> [[Deficiency Repletion vs Enhancement]],
+[[Baseline Risk and the Relative-Absolute Split]]
 
-## The configurative table — each compound sorted by evidence state and circumstance
+**The repletion principle is corroborated by three independent instances** — different
+nutrients, different outcomes, different trial sets, no shared lineage — which is what earns it
+the strong reading rather than any single effect earning it:
 
-Supplements are not one thing, and the answer is not a ranking of effect sizes — it is a **sorting** of
-compounds into evidence states by circumstance. Read the state and the circumstance together; a compound
-can be *benefit* in the deficient and *no effect* (or *harm*) in the replete
-([[Baseline Risk and the Relative-Absolute Split]]).
+- **Vitamin D / respiratory infection.** In an IPD meta-analysis of 25 RCTs (10,933
+  participants, GRADE high), daily or weekly vitamin D cut acute respiratory infection
+  overall modestly (OR 0.88, 0.81–0.96, NNT \~33) — but the effect was concentrated in the
+  **deficient**: those below 25 nmol/L at baseline had OR 0.30 (0.17–0.53, NNT \~4) versus
+  \~0.75 in the replete, P-interaction 0.006. Bolus dosing did not protect even in the deficient
+  (OR 0.82, 0.51–1.33) — the
+  effect is *both* status-gated and schedule-gated.
+  `[@martineau2017]`
+- **Iron / cognition.** Supplementation raised IQ in **anaemic** children (\~+2.5 points,
+  1.24–3.76) and was null in the well-powered replete comparisons.
+  `[@falkingham2010]`
+- **Iodine / child mental development.** In **iodine-deficient** populations, supplementation
+  raised child IQ by \~7.4 points (best estimate; no CI carried, and the 6.9–10.2 figure is the
+  design-dependent spread of the deficiency deficit, not an interval on 7.4), with the effect
+  larger when given early in development than late.
+  `[@bougma2013]`
 
-### Benefit — but only in a stated circumstance
+Three different nutrients, three different outcomes, three separate evidence bases reaching the
+*same structural claim* — deficiency status is the effect modifier — is genuine independent
+backing, and lifts the **principle** (not any one number) to high confidence. `[E-independent]`
 
-#### Correcting a documented deficiency
+**Folate / neural-tube defects is a distinct flavor of repletion, not a fourth witness to the
+above.** Its repletion is defined by a **developmental window and a stratum** (a pregnancy, its
+closing weeks) rather than by a measured serum deficiency, and it is the one supplement USPSTF
+affirmatively *recommends* — so it is kept out of the three-nutrient E-count while corroborating the
+split's shape all the same. The full numbers, window, and target level are in §6, where folate gets
+its fenced-win treatment.
 
-This is the one robust *benefit* mechanism, and it is
-  **repletion, not enhancement**: the effect fires *only if the person is actually deficient*, and does
-  nothing — or harms, for the fat-solubles — if they are already replete.
+**Honesty checks, so the split does not over-sell:**
 
-  - Establish the deficiency
-    (measure it, or apply a strong stratum prior such as B12 in long-term vegans, iron in
-    iron-deficiency anaemia, vitamin D in the institutionalized or minimally sun-exposed), do not guess.
-  - The wiki now holds **three repletion meta-analyses across three unrelated nutrients**, each with the
-    benefit concentrated in the deficient and near-null in the replete — so the principle is *quantified and
-    independently confirmed*, no longer "benefit in principle only":
-    - **Vitamin D → acute respiratory infection:** NNT **4** in the deficient (baseline 25(OH)D <25 nmol/L)
-      versus little in the replete, effect-modification P=0.006, GRADE high
-      [@martineau2017].
-    - **Iron → cognition:** **+2.5 IQ points** in the anaemic (SMD 0.54), null in the well-powered replete
-      [@falkingham2010].
-    - **Iodine → child mental development:** **+7.4 IQ points** in the deficient (d 0.49, the largest of the
-      three), strongest when repleted in early pregnancy
-      [@bougma2013].
-  - The same *deficient-benefit / replete-null* pattern recurring across three nutrients that share no
-    trials or outcomes is independent corroboration of the **principle**, not of any one effect
-    ([[Deficiency Repletion vs Enhancement]]). Two honesty checks: the iron and iodine trials are small and
-    methodologically weak (held **below** the GRADE-high vitamin-D evidence), and the modification is not
-    universal — it is outcome-specific (iron helped attention regardless of status) and can be timing-gated
-    (iodine's window is early pregnancy).
-  - One guideline-anchored exception the
-    held evidence names directly: the same USPSTF statement notes it **separately recommends a daily
-    0.4-0.8 mg folic acid supplement for all persons planning or capable of pregnancy** — a repletion-style
-    benefit in a defined stratum, explicitly set apart from the general-adult prevention nulls above
-    [@uspstf2022supp].
-  - **Folate is now held as PRIMARY evidence, not just a guideline aside — the clearest supplement benefit
-    on a hard outcome the wiki holds.** A Cochrane review of 5 RCTs (6708 births) finds periconceptional
-    folic acid cuts neural-tube defects by \~70% — RR **0.31** (0.17-0.58), **GRADE high**, absolute
-    \~35 → 11 per 1000, with no excess miscarriage; the effect plateaus above \~0.36 mg, and a 5 mg dose is
-    used for the high-risk sub-stratum (prior affected pregnancy, diabetes, anticonvulsants)
-    [@deregil2015]. This is a
-    *window-gated, life-stage-defined* repletion — a distinct flavour from the baseline-status trio above —
-    and it makes the deliverable's headline precise: "supplements are mostly a distraction" is a
-    *stratum-dependent* claim, not a universal one.
+- The iron and iodine instances rest on **weaker designs** than the vitamin-D IPD analysis —
+  small, short, or few RCTs. The *direction* is corroborated three ways; the *magnitude* on the
+  iron/iodine arms is held loosely.
+- Effect-modification here is **outcome-specific** (Axis 1): iron repletion moves cognition in
+  the anaemic but not every function score, and vitamin D's respiratory benefit does not license
+  a blanket *vitamin D prevents disease*. And it is **support-factor-gated** (Axis 2): the
+  vitamin-D effect needs daily/weekly dosing, iodine and folate need the developmental window.
+  Repletion is a real lever *only when both the status and the gating condition are present*.
+ -> [[Deficiency Repletion vs Enhancement]]
 
-#### Protein powder — which is just food, judged as protein
+Fractures are the newest case of exactly this split — a replete-population null (§3's LeBoff
+result) sitting beside a repletion signal in the deficient — which §5 takes up directly.
 
-Whey, casein, and soy powders are a
-  *delivery vehicle*; their evidence is the evidence for total daily protein adequacy.
+## 5. Vitamin D + calcium for fractures — the new stratum split and its harm ledger
 
-  - With resistance
-    training, protein supplementation adds a **modest** amount on top of what the training itself delivers:
-    +2.49 kg on 1-rep-max strength and +0.30 kg of lean mass across 49 RCTs, with **no effect** on total
-    body mass or maximal voluntary contraction [@morton2018].
-  - The benefit plateaus at a total intake near **1.6 g/kg/day** — «Protein
-    supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains
-    in FFM» — with a wide confidence interval (1.03 to 2.20) [@morton2018].
-  - Two bounds: the outcomes are **surrogates** (muscle mass and
-    strength, which matter for function and sarcopenia but are not mortality); and the target is protein
-    *quantity*, which silently assumes *quality* — hitting 1.6 g/kg from low-DIAAS plant sources (a
-    digestible-amino-acid score of peas 64, wheat 40 vs milk 122) needs more grams or deliberate
-    complementation [@fao2013].
-  - **The
-    circumstance where a powder earns its place is narrow: you are training, and you cannot hit the target
-    from food.** -> [[Protein and Resistance Training for Muscle and Strength]], [[Protein Quality and the DIAAS Score]].
+Fractures are the newest instance of the repletion-vs-enhancement split, and they do not
+collapse to one answer. The question splits three ways: **vitamin D alone** (null),
+**vitamin D + calcium** (a real but small hip-fracture benefit, and it lives in the
+high-risk/institutionalized stratum), and the **net-effect** question — whether even that
+benefit survives the calcium supplement's cardiovascular and kidney-stone harms. For the
+community-dwelling replete person the whole-strategy ledger runs *against* the supplement.
 
-#### Viscous / soluble fibre for LDL — real, causal, and small
+### The three arms — one gold SR-MA (Yao 2019)
 
-As a dosable, blindable isolate (oat,
-  psyllium, pectin, guar), soluble fibre lowers LDL cholesterol by about **-0.057 mmol/L per gram** in
-  the practical 2-10 g/day range — but the author's own verdict bounds it: «Increasing soluble fiber can
-  make only a small contribution to dietary therapy to lower cholesterol» [@brown1999].
+Yao 2019 runs three arms in parallel and they do not agree:
 
-  - This is the isolate trap in miniature:
-    the fibre *isolate* out-grades whole-food fibre (SACN grades fibre isolates and gums `Effect · Adequate`,
-    its top strength grade, while whole-grain benefit stays cohort-only) **because it can be dosed and
-    blinded, not because a psyllium sachet beats a bowl of beans** [@sacn2015].
-  - A sustained increase in dietary fibre is the better lever, and its own
-    hard-outcome evidence (all-cause mortality, T2D, CHD) is observational, not RCT-grade
-      [@reynolds2019]; the supplement is a
-    legitimate small adjunct for LDL, not cholesterol therapy -> [[Dietary Fibre and Health]].
+| Arm | Any fracture | Hip fracture | Read |
+|---|---|---|---|
+| Observational 25(OH)D (11 studies, 39,141) | RR 0.93 (0.89-0.96) per +10 ng/mL | RR 0.80 (0.75-0.86) | status **marker**, confounding-prone |
+| **Vitamin D alone** (11 RCTs, 34,243) | RR **1.06 (0.98-1.14)** | RR **1.14 (0.98-1.32)** | **null** (dose-constrained) |
+| **Vitamin D + calcium** (6 RCTs, 49,282) | RR **0.94 (0.89-0.99)** | RR **0.84 (0.72-0.97)** | 6% / **16%** reduction |
 
-#### Specific probiotic strains for specific indications
+The observational gradient is *associated*, not causal: a higher 25(OH)D marker is
+associated with lower fracture risk, but the randomized arms are the test, and vitamin D
+alone does not reproduce it.
 
-The evidence attaches to *strain x indication
-  x dose* triples, never to *probiotics* as a class: «the effects of probiotics are strain-specific and
-  dose-specific» [@wgo2023]. Where the
-  benefit is real: necrotizing enterocolitis in preterm neonates (reduced death, number-needed-to-treat
-  20), antibiotic-associated diarrhoea, *C. difficile*-associated diarrhoea prevention, acute infectious
-  diarrhoea, pouchitis, and symptom relief in IBS — all at **named strains**, with the guideline noting
-  «not all probiotic preparations tested are effective» [@wgo2023]. As a general *gut health* or *immunity* tonic, probiotics sit in
-  **insufficient evidence**, and swallowed strains are typically transient. Prebiotics are mostly
-  fermentable fibre by another name, so their evidence largely reduces to the fibre evidence
-  [@valdes2018] -> [[Gut Microbiome and Health]].
+The D-alone null is **dose-constrained, not proof D is inert**. The RCTs «did not find a
+reduced risk of any fracture (RR, 1.06; 95% CI, 0.98-1.14) or hip fracture (RR, 1.14; 95%
+CI, 0.98-1.32), but these trials were constrained by infrequent intermittent dosing, low
+daily doses of vitamin D, or an inadequate number of participants»
+[@yao2019]. The median 25(OH)D difference
+achieved was only 8.4 ng/mL, whereas \~2000 IU/day is needed to raise it 20 ng/mL — so the
+null falls within a *studied dose range* that never delivered a large repletion. Seven
+higher-dose RCTs (mean \~2094 IU/day) remain to settle it.
 
-#### Situational and ergogenic uses — narrower than marketed
+The benefit that exists is the **combination** (the D+Ca row above: 6% any-fracture, 16% hip).
+Within this one source, D-alone-null beside D+Ca-benefit isolates **calcium** as the active
+co-ingredient at the vitamin-D doses tested
+[@yao2019].
 
-**Electrolytes** have a genuine case
-  under heavy sweat loss, endurance in heat, or specific medical contexts, and no case for the ordinary
-  well-hydrated eater.
+### Where the D+Ca benefit lives — the repletion (institutionalized) arm
 
-**Creatine monohydrate** is the one item on this list with a *real* benefit case — and the wiki now holds
-  the source. Its **ergogenic** benefit is cross-body consensus (ISSN / ADA / ACSM): with resistance
-  training it raises high-intensity exercise performance and adds strength and lean mass beyond training
-  alone [@kreider2017]. But keep
-  the states apart: that benefit is on **performance and body-composition surrogates**, not a disease
-  outcome — which is why creatine sits here, not on the prevention nucleus; the **cognitive and clinical**
-  claims are *emerging / insufficient*, and neurodegenerative-disease trials came back **null**; and the
-  ISSN stand is industry-funded with heavy author conflicts, so its magnitudes are *borrowed from the
-  primary studies*, not this document.
+The 16% hip-fracture reduction is not uniform. It concentrates in the older
+institutionalized: the effect was «more extreme ... in the RCTs of older participants (ie,
+aged 80 years) living in an institution than those younger than 80 years living in the
+community (P for heterogeneity = .02)»
+[@yao2019], and combined D+Ca «has been
+recommended for prevention of fractures in older adults living in institutions and in those
+with low vitamin D status» [@yao2019].
 
-Practical: **monohydrate** is the only well-evidenced form
-  (cheapest = best), and creatine raises the **creatinine** blood marker without any real kidney change —
-  disclose it before a creatinine test [@kreider2017].
+This is the repletion-vs-enhancement split on fractures: benefit in the
+high-risk/institutionalized (older, often vitamin-D-deficient, low dietary calcium — the
+*repletion* arm), little-to-nothing in the community-dwelling replete (the *enhancement*
+arm). An effect in the deficient is not evidence for the replete
+-> [[Deficiency Repletion vs Enhancement]].
 
-### No meaningful effect — measured, and null
+### Yao vs Kahwati is a DISTINCTION, not a tension — the population differs
 
-- **Vitamin D, marine omega-3, and multivitamins for disease prevention in the well-nourished.** The
-  VITAL and USPSTF evidence above places these here for CVD, cancer, fractures, and death in people who
-  are not deficient. Multivitamins are technically *insufficient* by USPSTF's grade rather than a graded
-  null, but for the practical decision — *should a replete adult take one to live longer or healthier?* —
-  the answer the held evidence supports is that there is no demonstrated benefit.
+Yao (D+Ca reduces hip fracture) sits beside Kahwati 2018 (USPSTF SR: D+Ca does *not* reduce
+fracture in community-dwelling adults). The reflex is to file a tension. It does not survive
+the parameter table:
 
-- **Vitamin E for CVD / cancer.** USPSTF grade D, «no net benefit» [@uspstf2022supp] — and a small mortality *increase* in the low-bias antioxidant
-  trials, so it shades toward harm at dose.
+| Parameter | Yao 2019 (D+Ca, hip) | Kahwati 2018 (D+Ca, hip) | Same quantity? |
+|---|---|---|---|
+| Outcome | hip fracture | hip fracture | **YES** |
+| Intervention | D 400-800 IU + Ca 1000-1200 mg/day | D 400-800 IU + Ca 1000-1600 mg/day | **YES** (std-dose daily) |
+| Pooled effect | RR **0.84 (0.72-0.97)**, 6 RCTs | HR **0.88 (0.72-1.08)**, 2 RCTs | direction + point agree; CIs overlap |
+| Population | **INCLUDES** institutionalized elderly + community | community-dwelling **ONLY** (institutionalized / deficient / osteoporotic / prior-fracture **EXCLUDED**) | **NO** |
 
-One notable non-primary signal, held as **hypothesis-generating, not a finding**: VITAL's omega-3 arm
-carried a secondary reduction in total myocardial infarction (HR 0.72, 0.59-0.90) even as its composite
-was null, with a prespecified low-fish-intake subgroup suggesting any benefit may be *repletion of an
-inadequate baseline intake* rather than a drug effect of the capsule [@manson2019n3]. VITAL also notes the dose ceiling — «The dose-response curve for most effects
-plateaus at 1 g or less of n-3 fatty acids per day» [@manson2019n3]. A separate exposure — **high-dose (\~4 g/day) prescription EPA (icosapent ethyl) in high-triglyceride
-statin-treated patients** — is a *drug*, not the over-the-counter capsule, with its own trial and a
-comparator controversy; it does not transport to a general-population 1 g/day fish-oil pill.
+Not-joined check (ii) fires: the point estimates (0.84 vs 0.88) barely differ and the
+intervals overlap heavily; the only material gap is significance, driven by *which trials
+each pool contains*. Yao includes the institutionalized trials where the effect lives;
+Kahwati excludes exactly those populations by design, leaving a community-dwelling residual
+that is null — and Yao's own P-het .02 says its residual approaches Kahwati's once those
+trials are stripped. **No tension is filed; the distinction is resolved by population.**
+Kahwati states it directly: vitamin D «alone or with calcium was not associated with reduced
+fracture incidence among community-dwelling adults without known vitamin D deficiency,
+osteoporosis, or prior fracture»
+[@kahwati2018].
 
-### Insufficient / not-yet — mechanism or surrogate, not carried through to an outcome
+### The net-effect ledger — the fracture benefit must be netted against CV + stone harm
 
-This is the largest bucket, and the discipline is to hold it **distinct from no-effect**: these compounds
-have not been shown null; they have not been shown to move a real outcome either.
+A supplement taken *for* bone can carry costs elsewhere; the complete strategy is judged on
+net effect, not the intended one. The two harm arms:
 
-Magnesium (documented
-deficiency plus a blood-pressure / sleep surrogate signal), CoQ10 / ubiquinol (statin-myalgia and
-heart-failure signals), curcumin (bioavailability-limited, anti-inflammatory surrogates), berberine
-(glycaemic surrogate RCTs), ashwagandha (stress / cortisol surrogates), glycine (sleep surrogate),
-inositol (PCOS surrogate), zinc (cold-duration signal; deficiency), and the marketing-heavy tier — K2 /
-*Super K*, boron, magnesium L-threonate, R-ALA, TUDCA, L-carnitine, milk thistle and grapeseed extract
-outside diagnosed disease, and multi-ingredient *stacks* generally — all sit here **until human
-outcome evidence arrives**, under the transportability caveat (a mouse is not a human, a moved marker is
-not an averted event).
+| Outcome | Effect (Ca+/-D supplement) | Source | Certainty |
+|---|---|---|---|
+| Hip fracture (**benefit**) | RR 0.84 (0.72-0.97); concentrated in institutionalized | Yao 2019 | low SoE, high-RoB trials |
+| Kidney stones (**harm**, D+**Ca** only) | ARD +0.33% (0.06-0.60), RR 1.18 (1.04-1.35) | Kahwati 2018 | **moderate** SoE |
+| CV — MI (**harm**) | RR **1.24 (1.07-1.45)** Ca+/-D | Bolland 2011 | contested; subgroup-derived |
+| CV — MI or stroke (**harm**) | RR **1.15 (1.03-1.27)** Ca+/-D | Bolland 2011 | contested; subgroup-derived |
+| All-cause mortality | null (RR \~1.04) | Bolland / Kahwati | low |
 
-Crucially, **the wiki holds no primary source on any of these**, so their
-placement is *insufficient by default* — a named gap, neither a finding nor a dismissal.
+The kidney-stone harm is the firmest cell: Kahwati found vitamin D «with calcium was
+associated with an increase in the incidence of kidney stones»
+[@kahwati2018] — RR 1.18
+(1.04-1.35), moderate SoE, its only above-low grade; calcium alone did not.
 
-NAC has genuine,
-specific medical uses (paracetamol overdose, mucolytic) that are not in question; its *general* use sits
-here. -> [[Surrogate Outcomes]] for why a moved marker earns belief only when followed
-through to an outcome.
+The CV-MI signal is **contested and subgroup-derived**. Bolland reported that «Calcium or
+calcium and vitamin D increased the risk of myocardial infarction (relative risk 1.24 (1.07
+to 1.45), P=0.004) and the composite of myocardial infarction or stroke (1.15 (1.03 to
+1.27), P=0.009)» [@bolland2011] — but
+the signal is derived from the WHI subgroup not taking personal calcium, and WHI
+investigators and later reviews dispute it. The direction is credible; the magnitude and
+even the sign are contested. Label it at point of use, never as a settled harm.
 
-### Out — the demarcation line
+The harm is the **supplement bolus, not food calcium**: Bolland's effect is «independent of
+dietary calcium intake» [@bolland2011]
+and is attributed to the acute serum-calcium spike after a pill, so it does not transport to
+dietary or dairy calcium -> [[Is the Food Category Doing Any Work]].
+In Bolland's own community-dwelling replete cohort the ledger runs unfavourable: treating
+1000 patients for five years «would
+cause an additional six myocardial infarctions or strokes (number needed to harm of 178) and
+prevent only three fractures (number needed to treat of 302)»
+[@bolland2011] — computed exactly
+where the fracture benefit is weakest.
 
-A product whose effect claim is **unfalsifiable** — a *detox*, *liver cleanse*, or "cellular
-rejuvenation" for a healthy person with a working liver and kidneys, making no measurable claim on a real
-outcome — is **out**, not *not-yet*. The test is functional: *is there a measurable claim on a real human
-outcome?* If not, there is nothing to appraise ([[Surrogate Outcomes]] — the same distinction between a
-real outcome and a stand-in, taken to the limit where there is no measurable outcome at all). This is the
-same falsifiability line applied throughout, not a judgment of anyone's beliefs. A current fad (fat *browning*, most anti-ageing
-stacks) gets the *same* bar and is demoted to *no meaningful effect* if the human evidence does not hold —
-symmetric standards, in both directions.
+### Decision — by stratum
 
-## Deficiency vs enhancement — the distinction to test on every vitamin and mineral
+- **Community-dwelling, replete, no osteoporosis/prior fracture (enhancement arm).** The
+  whole-strategy ledger runs against the supplement: no fracture benefit (Kahwati direct
+  null; Yao's community residual), plus a contested CV-MI signal (Bolland), plus a
+  moderate-SoE kidney-stone harm (Kahwati). Ca+/-D for fracture prevention is not indicated
+  here; the fracture lever in this stratum is exercise, not the pill.
+- **Institutionalized / older / vitamin-D-deficient / low dietary calcium (repletion arm).**
+  Daily D+Ca (\~800 IU / 1000-1200 mg) carries a real, if small, hip-fracture benefit (Yao
+  0.84, concentrated here). Bolland's CV harm was measured in the community-dwelling replete,
+  not this stratum, so its transport is uncertain and the net-effect is more favourable — but
+  the kidney-stone harm still applies and the benefit rests on low-SoE, high-RoB trials. A
+  defensible lever for this specific stratum, not a general recommendation.
+- **Vitamin D alone, any stratum.** Null at the doses tested; the higher-dose question is
+  open. Not a fracture lever on current evidence
+  [@yao2019].
 
-The single most common error in reading supplement evidence is to treat *correcting a shortfall* and
-*topping up someone already adequate* as the same intervention. They are different exposures answering
-different questions.
+Establishing deficiency is a prescriber act (this person's labs), out of scope — the move
+stays *test, then replete the confirmed shortfall*, not *supplement broadly to prevent
+fracture*. So the fracture lever, where it exists at all, is another genuine win each
+confined to its own narrow circumstance.
 
-- **Repletion in the deficient** corrects a real problem in an identified stratum. Its logic is
-  baseline-risk / contraindication ([[Baseline Risk and the Relative-Absolute Split]]): the benefit
-  depends on actually being deficient. This is where a *benefit* verdict can live — but you must
-  establish the deficiency, and the wiki holds the principle without a repletion magnitude to attach.
+## 6. The narrow genuine wins — folate, protein powder, viscous fibre, probiotic strains, creatine
 
-- **Enhancement in the replete** is what VITAL tested, across the board, and it came back null — and for
-  the fat-soluble vitamins and antioxidants, past adequacy it slides toward **harm** (a U-shaped
-  dose-response: too little is a deficiency, more than enough is a toxicity, and the bottom of the U is
-  simply *adequate*) -> [[The U-Shaped Association Artifact]]. This is why *more is better* is false for
-  the fat-solubles specifically: they are stored, not excreted, so megadoses accumulate.
+Every win below is real, and every one is *fenced*: it fires for a named stratum, on a named
+outcome, at a magnitude that is usually modest and — for three of the five — only on a **surrogate**.
+State the circumstance and the bound with the effect, or the number misleads.
 
-The practical consequence: a blood test that shows you are replete is a reason **not** to supplement that
-nutrient, and the burden is on anyone claiming an enhancement benefit above adequacy to show it on a real
-outcome.
+### Folate for neural-tube defects — a window-gated repletion win on a hard outcome
 
-## The ranking result — supplements are a low lever, and that is the finding
+**State: benefit (patient-important outcome), GRADE high.** A GRADE-high benefit on a hard endpoint —
+rare among supplements, most of which move only surrogates. In periconceptional women, folic acid **reduced** neural-tube
+defects to **RR 0.31 (95% CI 0.17 to 0.58)** (De-Regil 2015 Cochrane SR/MA, 5 RCTs, 6708 births);
+recurrence **RR 0.34 (0.18-0.64)**; absolute **35 -> 11 per 1000 (6 to 20)**, with no harm signal
+(miscarriage RR 1.10, 0.94-1.28) — the authors conclude «Folic acid, alone or in combination with
+vitamins and minerals, prevents NTDs, but does not have a clear eﬀect on other birth defects.»
+[@deregil2015].
 
-Placed in the intervention hierarchy for a generally-nourished adult, disease-prevention supplementation
-**ranks at or near the bottom** ([[Layer 1 - Ranking Interventions for a Stratum]]). The proven big rocks
-sit elsewhere entirely — not smoking (the dominant modifiable exposure, all-cause hazard roughly 3x;
-[[Smoking and Mortality]]), a
-decent overall diet pattern, physical activity, healthy weight, adequate sleep — and a supplement is one
-more intervention with a surrogate or mechanistic rationale that **fails to reduce hard events** in a
-low-risk person, exactly like the other cardiometabolic point-optimizations the wiki has appraised
-([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]).
+**The bounds are what make this a *fenced* win, not a general endorsement of folate pills:**
 
-**Delivering that ranking is itself a decision-change**, in both directions. It licenses a well-nourished
-person to **stop** a null preventive stack and reclaim the money and attention — USPSTF prices neither
-cost nor opportunity cost [@uspstf2022supp],
-so the expense of a null regimen is a real layer-3 constraint the evidence leaves to the person. And it
-licenses a person in a *named deficient stratum*, or an athlete who cannot hit a protein target from food,
-or a patient with a specific probiotic-responsive condition, to **start** the narrow, supported thing.
-The ceiling is the result: once the big rocks are handled, the remaining supplement levers are small by
-construction, and *the nutrients are better obtained from food* is the default the whole page keeps
-returning to.
+- **Stratum is a life-stage, not a lab value** — women planning or capable of pregnancy,
+  periconceptionally. The protective target sits \~9x above the deficiency threshold: «the optimal
+  folate level associated with lowest risk of NTDs is 906 nmol/L or above»
+  [@deregil2015] (deficiency is
+  RBC folate <100 nmol/L). A woman replete by the anaemia standard can still be NTD-insufficient.
+- **Window-gated** — the neural tube closes within \~28 days of conception, before most women know
+  they are pregnant, so the exposure must be present *before* that; supplementation begun after the
+  first trimester is out of scope
+  [@deregil2015].
+- **No dose scaling above \~0.36 mg (studied range 0.36 mg to 4-5 mg).** The general dose is 0.4 mg/d;
+  the benefit did not differ by dose above \~0.36 mg or by folate-alone vs -combined — a plateau, not
+  a rising curve [@deregil2015].
+  The **5 mg/d** dose is a *higher-baseline-risk* stratum (prior NTD pregnancy, diabetes,
+  anticonvulsants), not a bigger general dose
+  [@deregil2015].
 
-## Gaps — named, not guessed
+For this stratum, on this outcome, a supplement *flips* from bottom-of-hierarchy to a genuine big
+rock -> [[Deficiency Repletion vs Enhancement]].
 
-This domain is thinly held, and several of the magnitudes that would sharpen it are acquisition targets,
-not invented numbers (the gaps are tracked against the nucleus,
-[[Vitamin and Mineral Supplements for Disease Prevention]]):
+### Protein powder is food in powder form — a surrogate win, cross-linked out
 
-- **A creatine strength/lean-mass meta-analysis** is not held — creatine's ergogenic benefit *is* now held
-  (the ISSN position stand), but its magnitude is *borrowed from primary studies*; a dedicated pooled MA
-  (and a clean older-adult muscle / cognition estimate) would upgrade it from a conflicted consensus.
-- **Repletion effect sizes are now held for four nutrients** — vitamin D (respiratory infection, NNT 4 in
-  the deficient), iron (cognition, +2.5 IQ anaemic), iodine (child development, +7.4 IQ deficient) and
-  folate (neural-tube defects, RR 0.31) — so the deficient arm is *quantified*, no longer "principle only."
-  Still absent: B12 and calcium repletion effect sizes, and a *same-outcome* dose-response traced from the
-  deficient edge to the plateau for any single endpoint.
-- **A clean-comparator omega-3 trial** — the held REDUCE-IT benefit rests on a contested mineral-oil
-  placebo; STRENGTH (corn-oil placebo, EPA+DHA, null) would settle it and is not yet held.
-- **Most of the insufficient-bucket compounds** (magnesium, CoQ10, curcumin, berberine, ashwagandha,
-  and the stack tier) have **no primary source held** — their *insufficient* placement is a default from
-  absence, and could move to *benefit* or *no-effect* once real human-outcome evidence is appraised.
+**State: benefit on a surrogate (muscle mass, strength), RCT-grade.** Protein powder is not a
+special supplement — it is a convenient way to reach a protein target, and the target and its whole
+dose-response are derived on its own page -> [[Protein and Resistance Training for Muscle and Strength]]
+and -> [[Protein Quality and the DIAAS Score]]. The single magnitude to carry here: added to
+resistance training, supplemental protein raised 1RM strength by «2.49 kg (0.64, 4.33)» and lean mass
+by «0.30 kg (0.09, 0.52)», with a break-point near **1.62 g/kg/day (95% CI 1.03-2.20)**
+[@morton2018].
 
-## Mandatory caveats
+**The bounds:** these are **surrogates**, not a mortality or function endpoint; the training is the
+driver and the powder a modest adjunct; the \~1.6 g/kg is a wide *region*, not a threshold; and the
+number silently assumes protein *quality* — reaching it from low-DIAAS plant sources (peas 64,
+wheat 40 vs milk 122) needs more grams
+[@fao2013]. Do not re-derive; the point is
+only that the *supplement* here is food, and the win is on a surrogate.
 
-- **Open loop.** This wiki grades coherence and source-fidelity, never validity. No operation here checks
-  a recommendation against a realized outcome. A clean appraisal is not a validated recommendation.
+### Viscous fibre lowers LDL — an isolate-trap-in-miniature, cross-linked out
 
-- **This appraises what the evidence shows for groups; it is NOT a regimen, and NOT medical advice.**
-  Dose, form, interactions (vitamin K vs anticoagulants, iron loading, fat-soluble toxicity, drug
-  interactions), pregnancy, and the screening that would establish the deficiency justifying repletion
-  are a clinician's acts, not this page's.
+**State: benefit on a surrogate (LDL cholesterol), controlled-trial-grade — and small.** Soluble /
+viscous fibre isolates (oat, psyllium, pectin, guar) lower LDL by **-0.057 mmol/L per gram
+(95% CI -0.070, -0.044)** across the practical 2-10 g/d range (Brown 1999, 67 controlled trials);
+the author's own verdict is «Increasing soluble fiber can make only a small contribution to dietary
+therapy to lower cholesterol.»
+[@brown1999]. The full
+outcome picture, the whole-food-vs-isolate split, and the surrogate-vs-hard-endpoint boundary live
+on -> [[Dietary Fibre and Health]] — do not re-derive.
 
-- **A stratum-level appraisal, applied per person.** The deficient, the athlete, the pregnant, the
-  vegan, the elderly, and the replete healthy adult get different answers; the individual choice is
-  layer 3.
+**The bounds:** LDL is a **surrogate**; the effect is a few tenths of a mmol/L at practical doses,
+dwarfed by the saturated-fat-replacement and drug levers. This is the isolate trap in miniature — the
+fibre *isolate* out-grades fibre-bearing *foods* only because it can be dosed and blinded, tracking
+the better **design**, not a better food -> [[Is the Food Category Doing Any Work]].
 
-- **The unregulated-industry harm is real and compound-independent.** Contamination, adulteration, and
-  mislabelled dose are a supplement-specific harm vector that exists regardless of whether the compound's
-  own evidence is favourable.
+### Probiotics are a strain x indication x dose triple, not a class — cross-linked out
+
+**State: benefit for *specific* strains on *specific* indications; general use is insufficient.** The
+governing discipline is that «the eﬀects of probiotics are strain- specific and dose-specific»
+[@wgo2023], so *take a probiotic
+for gut health* is not a claim the evidence supports — the evidence attaches to *strain x indication
+x dose* triples. The full map lives on -> [[Gut Microbiome and Health]]; the wins to name:
+
+- **Necrotizing enterocolitis (preterm neonates)** — the striking patient-important outcome:
+  «The number needed to treat to prevent one death from all causes by treatment with probiotics is
+  20.» [@wgo2023], moderate
+  certainty — but «not all probiotic preparations tested are eﬀective», a strain-quality claim, not
+  a class claim.
+- **Antibiotic-associated diarrhoea**, **C. difficile-associated diarrhoea (prevention)**, **acute
+  infectious diarrhoea**, and **IBS symptoms** — real but strain-specific benefits
+  [@wgo2023].
+
+**The bound:** a general-tonic probiotic for a healthy gut is **weak-to-suggestive at best**, heavily
+discounted for strain-blind pooling; swallowed probiotics are typically transient colonisers. The
+strain is the exposure, not the word *probiotic*. **Prebiotics** are largely fermentable fibre, so
+their case reduces to the fibre evidence rather than standing as a separate supplement win
+ -> [[Gut Microbiome and Health]], [[Dietary Fibre and Health]].
+
+### Creatine — an ergogenic win on surrogates, held at LOW confidence
+
+**State: benefit on surrogates (performance, lean mass, strength) — but the fabric holds a single
+industry-funded, non-systematic source, so confidence is LOW.** The one held source is an ISSN
+position stand (Kreider 2017), a `moderate`-tier consensus with a sponsor conflict of interest; its
+magnitudes are *borrowed* from primary trials it cites narratively, not pooled here. Read against the
+four-evidence-states discipline, the claims sort sharply -> [[Creatine Supplementation]]:
+
+- **Ergogenic (surrogate) — benefit.** After loading, «per- formance of high intensity and/or
+  repetitive exercise is generally increased by 10–20% depending on the magnitude of increase in
+  muscle PCr» [@kreider2017].
+  Performance, lean mass and strength are **surrogates**, not patient-important endpoints.
+- **Form — monohydrate is the only evidenced one;** alternative forms show no greater retention. The
+  cheapest, best-studied form is the one to buy — a *label-is-not-the-exposure* case in the buyer's
+  favour [@kreider2017].
+- **Cognition — insufficient / emerging** (small human studies; brain creatine +5-15%), not asserted
+  as benefit [@kreider2017].
+- **Neurodegenerative-disease clinical outcomes — null, from the stand's OWN cited trials:**
+  «Results revealed no clinical benefit on patient outcomes in patients with PD or ALS.»
+  [@kreider2017]. On
+  patient-important outcomes in Parkinson's/ALS, creatine is *no meaningful effect*, not benefit.
+
+**The creatinine trap (a decision-change).** Creatine is metabolised to creatinine — the same marker
+used to *estimate* kidney function — so supplementation can raise serum creatinine (and lower an
+estimated GFR) with no change in actual renal function; controlled GFR studies find «no compelling
+evidence that creatine supplementation negatively aﬀects renal function in healthy or clinical
+populations» [@kreider2017].
+The practical consequence: *disclose creatine use before a creatinine/eGFR test*, or a raised value
+will be misread as kidney damage.
+
+These five are the whole of the source-backed genuine-win list. One further **situational** case
+is held on mechanism alone, no primary outcome source in the corpus: **electrolytes** (sodium and
+potassium losses) have a real case under **heavy sweat loss — endurance exercise in heat, large
+measured fluid deficits** — and no case for the ordinary well-hydrated eater, for whom added
+electrolytes are a solution to a problem they do not have. Everything else is either
+not-yet — mechanism or surrogate-only, no primary source held, held distinct from no-effect — or
+out, below the falsifiability line.
+
+## 7. Insufficient / not-yet — the largest bucket, and it is NOT *no effect*
+
+The compounds that fill most of the supplement aisle sit in neither the benefit nor the
+harm column above. Magnesium, coenzyme Q10, curcumin, berberine, ashwagandha, glycine,
+inositol, zinc for general use, N-acetylcysteine for general use, and the layered *stack* products are each carried on a **mechanism or a moved marker**, and the wiki
+**holds no primary outcome source for any of them**. That places them in the fourth
+evidence state — **insufficient evidence** — by default, and the default is the finding,
+not a placeholder waiting to be upgraded.
+
+**Insufficient is not no-effect, and the distinction is load-bearing.** *No meaningful
+effect* is a graded null: the trial was run, the outcome was measured, and nothing moved.
+*Insufficient* means the outcome-level evidence has not been assembled here at all — the
+expectancy test has not even been applied. Reading the second as the first would invent a
+null; reading it as a hidden benefit would invent a win. Neither sign is licensed, and
+this section asserts **no direction** for any compound in it.
+
+
+- **A moved marker is not an outcome.** Most of the case for these compounds is a
+  surrogate — a lipid, a glucose reading, a fatigue score, an inflammatory marker — whose
+  transmission to a patient-important outcome is unevidenced. A surrogate earns target
+  status only when that transmission is itself an evidenced claim -> [[Surrogate Outcomes]].
+- **Transportability bounds the mechanism.** Much of the enthusiasm rests on in-vitro or
+  animal data. Animal is not human and in-vitro is not in-vivo; a cell or rodent result is
+  a candidate, held under the transportability caveat, never spoken as though it were a
+  human finding.
+- **The honest label is a named gap.** Each is a specific acquisition target — a compound
+  whose outcome literature the corpus should either bring in or explicitly rule thin. Until
+  then it is unranked, not dismissed.
+
+Bridge: the compounds above are *not yet* answered because the human outcome evidence has
+not been assembled. A different class of claim cannot be answered even in principle — and
+those are out, not not-yet.
+
+## 8. Out — the demarcation line
+
+Some products are excluded on a stricter ground than thin evidence: they make **no
+falsifiable claim on a real human outcome at all**. A *detox*, a *cleanse*, a *cellular rejuvenation* promise that cannot in principle be shown wrong — because it names no
+measurable outcome and no direction — fails the demarcation test and is **out**, not held
+in the not-yet bucket. The test is functional: *is there a measurable claim on an outcome
+a person could feel or a clinic could count?* If not, the item never enters the appraisal,
+whatever its popularity.
+
+
+**A fashionable item gets the same bar as a boring one — and the bar cuts both ways.**
+Symmetric standards forbid two moves at once: a supplement is not admitted because it is
+trending, and it is not exempted because it is trending. A fad with a genuinely falsifiable
+outcome claim is tested like any other exposure, and if the human evidence does not hold it
+is demoted to **no meaningful effect** — a graded null, earned, not a permanent question
+mark. Being staged, marketed, or widely discussed is never a pass and never a strike; only
+the outcome evidence is.
+
+Bridge: with the unfalsifiable claims set aside and the not-yet compounds held as gaps, the
+whole domain can be placed against the other things a person could do.
+
+## 9. The ranking result — supplements are a low lever, and that is the finding
+
+Placed in the Layer-1 hierarchy for a **generally-nourished adult with no diagnosed
+deficiency**, disease-prevention supplementation ranks **at or near the bottom**. This is a
+**derived result, not a premise**: it falls out of ranking each specified compound by
+effect size x certainty and finding that the largest, cleanest trials of the most-marketed
+products come back null (and for the antioxidant class, harmful)
+-> [[Layer 1 - Ranking Interventions for a Stratum]]. The ordering was not assumed at the
+top; it is where the sorting landed.
+
+**The big rocks sit elsewhere, and the contrast is not close.** For a person who still has
+a dominant exposure in play, quitting smoking carries an all-cause hazard ratio near three
+(HR 3.0, 99% CI 2.7-3.3 in women; 2.8, 2.4-3.1 in men) and more than a decade of life
+[@jha2013] — the largest
+individual lever the corpus holds. Diet pattern, activity, weight, and sleep occupy the
+same tier. No attainable precision about a capsule changes what a smoker should do next.
+[inferred from @jha2013]
+
+**It is the same shape as every other low-risk point-optimization.** A supplement is one
+more intervention with a surrogate or mechanistic rationale that fails to reduce hard events
+in a low-risk person — the identical ceiling the wiki finds for lifestyle weight loss,
+statins below threshold, and standard-dose omega-3
+-> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]. Supplements
+do not break the pattern; they extend it.
+
+**The ceiling is itself a decision-change, and it runs in BOTH directions.** Telling a
+replete adult *your remaining supplement levers are small or empty* is a result, not a
+failure to find one: it licenses **stopping a null stack and reclaiming its cost**, and it
+equally licenses **starting the one narrow, supported thing** that a real deficiency or
+life-stage stratum makes a genuine lever. The finding frees attention and money in one
+direction and directs them in the other.
+
+
+Bridge: what the ranking rests on is only as good as what the corpus holds — so name the
+holes.
+
+## 10. Gaps — named, not guessed
+
+These are stated as gaps in the wiki's holdings, verifiable from the registry. None is
+filled here, and none is a claim about the world — only about what the corpus does and does
+not carry.
+
+- **Creatine has no pooled outcome meta-analysis held.** The ergogenic case rests on a
+  single position-stand source, which is why creatine sits at low confidence; a pooled MA on
+  its surrogate and any patient-important endpoints is not in the corpus.
+- **B12 and calcium repletion effect sizes are absent.** The repletion arm is instantiated
+  for vitamin D, iron, iodine, and folate, but the corpus holds no magnitude for correcting a
+  documented B12 or calcium deficiency, and no **same-outcome deficient-to-replete
+  dose-response** that would show where repletion benefit plateaus into enhancement null.
+- **A clean-comparator marine omega-3 outcome trial is not held.** The one high-dose benefit
+  signal (REDUCE-IT) carries a contested mineral-oil comparator; the clean-comparator trial
+  (STRENGTH) that would settle it is a named acquisition target, not in the corpus.
+- **The whole insufficient bucket is unheld.** Every compound in §7 (magnesium, CoQ10,
+  curcumin, berberine, ashwagandha, glycine, inositol, zinc, NAC, the stacks) is a gap by
+  the same test — no primary outcome source, so no ranking, so no verdict.
+
+
+
+## 11. Mandatory caveats + Evidence box
+
+- **The loop is open.** Nothing here has been graded against a realized outcome. The wiki
+  grades coherence and source-fidelity, never validity: a clean sorting of these compounds
+  can be internally sound, faithful to every source, and still wrong about the world. A tidy
+  audit is not a validated recommendation.
+- **This is not a regimen and not medical advice.** It is an appraisal of what the evidence
+  says each specified compound-dose-form does, for whom, with what certainty — not a protocol,
+  a stack, or a dosing schedule, and not a substitute for a clinician who holds this person's
+  labs, medications, and history.
+- **The estimates are stratum-level; the choice is the person's.** Every verdict above is
+  placed in the narrowest reference class the evidence supports. Which outcomes matter, how a
+  deficiency changes the answer, and whether a small lever is worth its cost are elicited per
+  case at layer 3, not read off this page.
+- **The unregulated-industry harm is compound-independent.** Supplements carry a harm vector
+  that has nothing to do with any compound's own evidence: contamination, adulteration
+  (including with undeclared pharmaceuticals), and mislabelled or inconsistent dose. A product
+  can be perfectly evidenced as an exposure and still deliver something other than its label
+  says. This harm attaches to the category, applies even to the narrow supported wins, and is
+  weighed at layer 3.
+
+
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 19 sources — 8 gold, 10 high, 1 moderate |
+> | **Evidence included** | 19 sources — 7 gold, 11 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements%20Big%20Lever%20or%20Distraction.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 ## References

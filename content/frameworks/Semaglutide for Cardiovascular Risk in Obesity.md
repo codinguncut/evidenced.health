@@ -178,7 +178,7 @@ weight loss, with similar changes in cardiometabolic variables»
 |---|---|---|---|
 | Mean % body-weight change from baseline (sema) | «17.3%» loss | net «5.6%» loss | Yes — same construct, different timepoint |
 | Regain over the off-treatment year (sema) | — | «11.6 percentage points» (≈2/3 of loss) | Yes |
-| Holding ≥5% loss from baseline (sema) | 86.4% | «48.2%» | Yes — same threshold |
+| Holding ≥5% loss from baseline (sema) | 86.4% | «48.2%» | Yes — same threshold |» at week 68), NOT the Withdrawal 2022 extension the row is tagged to — the extension source contains only the 48.2%/22.6% week-120 figures (verified: 86.4 does not locate in the Withdrawal source; 48.2% of participants (95 of 197) IS the extension's week-120 semaglutide figure). Split the attribution: tag 86.4% to [@wilding2021] and add that slug to sources: (dual test — the row cites a distinct number from it). Route via a Lint/Revisit fabric pass. Surfaced by the GLP-1 Drugs compile.]
 
 Cardiometabolic gains reverted too: «Cardiometabolic improvements seen from week 0 to week 68 with
 semaglutide reverted towards baseline at week 120 for most variables» (SBP/DBP back to baseline; CRP,

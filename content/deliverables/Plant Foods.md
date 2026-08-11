@@ -3,506 +3,407 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Scientific Advisory Committee on Nutrition (org); Brown, Lisa; Te Morenga, Lisa; Reynolds, Andrew; World Cancer Research Fund (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Veronese, Nicola; Milajerdi, Alireza; Valdes, Ana M; Wastyk, Hannah C; Petroski, Weston; World Health Organization (org); Qin, Pei; Afshin, Ashkan]
-sources: [SACN - Carbohydrates and Health 2015, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Te Morenga - Dietary Sugars and Body Weight 2013, Reynolds - Carbohydrate Quality and Human Health 2019, WCRF - Diet Nutrition Activity Cancer 2018, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Veronese - Dietary Fibre Health Umbrella 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Valdes - Gut Microbiota Nutrition and Health 2018, Wastyk - Fermented Foods Microbiota Immune RCT 2021, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019]
+authors: [Scientific Advisory Committee on Nutrition (org); Brown, Lisa; Te Morenga, Lisa; Reynolds, Andrew; World Cancer Research Fund (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Veronese, Nicola; Milajerdi, Alireza; Valdes, Ana M; Wastyk, Hannah C; Petroski, Weston; World Health Organization (org); Qin, Pei; Afshin, Ashkan; World Gastroenterology Organisation (org); van Nood, Els]
+sources: [SACN - Carbohydrates and Health 2015, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Te Morenga - Dietary Sugars and Body Weight 2013, Reynolds - Carbohydrate Quality and Human Health 2019, WCRF - Diet Nutrition Activity Cancer 2018, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Veronese - Dietary Fibre Health Umbrella 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Valdes - Gut Microbiota Nutrition and Health 2018, Wastyk - Fermented Foods Microbiota Immune RCT 2021, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019, WGO - Probiotics and Prebiotics Global Guideline 2023, van Nood - Donor Feces Recurrent C difficile 2013]
 confidence: low
 created: 2026-07-30
 updated: 2026-08-11
 self_critiqued: 2026-08-11
 ---
 
-## Verdict: which plant food you pick is a refinement, not a big rock
+# Fruits, Vegetables, Pulses and Grains
 
-**Which plant food you pick is a refinement, not a big rock.** For a generally-nourished adult, this
-fruit versus that, or this grain versus that pulse, barely moves the needle. The one lever in this
-domain with real outcome evidence is dietary fibre, at about 25-29 g/day. And even that is modest.
-It rests on an observational highest-versus-lowest *association* with lower all-cause mortality. Its
-only causal leg is a small effect on an LDL surrogate, quantified in the fibre section below. Once
-the dominant exposures — smoking, adiposity, inactivity — are handled, the remaining plant-food
-levers are small. Saying so is itself a result: it licenses stopping the search, rather than marking
-a failure to find a winner.
+## 1. Verdict
 
-**The league table the lay question wants is mostly not estimable.** Outcome evidence here resolves
-at the level of a dietary *pattern* or a shared *component* (fibre). It rarely resolves at the level
-of an individual food. That is a structural limit, not a temporary gap, as the next section explains.
-The per-group picture bears this out. Whole-grain benefit routes through fibre (cohort-only, with a
-site-specific colorectal-cancer protection graded probable). *Refined grains are not shown harmful*
-for cardiovascular disease or type 2 diabetes (RR \~1.00). Pulses move an LDL surrogate, but the
-hard-outcome evidence is thin. And the fruit-and-vegetable mortality curve is outcome-specific and
-only fragmentarily held, as the per-group section shows.
+For a generally-nourished adult, *which* plant foods you eat — this fruit over that, this grain over
+that pulse — is a refinement, not a big rock. Only one lever in this domain moves a patient-important
+outcome: dietary fibre, roughly 25-30 g/day. Even that is modest. Its strong leg is an observational
+*association* — the highest fibre eaters die at lower rates — and its only causal leg is a small effect
+on an LDL surrogate (§4). Once the big rocks are handled — not smoking, little visceral fat, moving
+most days — the plant-food levers that remain are small. Saying so is a result. It licenses someone to
+stop hunting for a magic vegetable, not a failure to find one.
 
-**Both harm-framing sub-questions resolve net-favourably for the nourished.** Antinutrients are
-largely defused by ordinary preparation — soaking, cooking, fermenting, sprouting. A few named
-contraindications remain, where the sign flips by nutrient status: an iron-deficient person, a
-calcium-oxalate stone-former, suboptimal iodine status. The antinutrient section works through these.
-Whole-fruit sugar, meanwhile, does not behave as free sugar. It is intrinsic and excluded from the
-free-sugars target, and the harm signal attaches to sugar-sweetened *beverages*, not to the fruit.
-The fruit-sugar section makes that case.
+The league table the question invites *mostly cannot be built*. The outcome evidence resolves at the
+level of a dietary *pattern*, or of a shared *component* like fibre — rarely at the level of a single
+food. That is a structural limit, not a temporary gap (§2). Whole-grain benefit routes through fibre,
+on cohort evidence only, with a site-specific colorectal-cancer protection graded *probable*. Refined
+grains are *not* shown to harm the heart or raise type 2 diabetes risk (pooled RR \~1.00). Pulses move
+an LDL surrogate while the hard-outcome evidence stays thin. The fruit-and-vegetable mortality curve is
+outcome-specific, and only fragments are held (§3).
 
-**One frame governs everything below:** this page grades coherence and source-fidelity, never
-validity. No claim here is tested against a realized outcome. So a clean internal audit is not a
-validated recommendation. The verdict rests on an estimability claim, so the method that establishes
-it comes first.
+Two worries drive people away from whole plant foods. Both mostly dissolve on inspection — with named
+exceptions. Antinutrients are largely defused by ordinary preparation: soaking, cooking, fermenting,
+sprouting. So for someone eating properly cooked beans and grains, the net harm is not meaningful. The
+exceptions are specific strata where the sign flips — an iron-deficient person, a recurrent
+calcium-oxalate stone-former, marginal iodine status (§5). And whole-fruit sugar is not free sugar. It
+is intrinsic, excluded from the free-sugars target, and the diabetes signal tracks sugar-sweetened
+*beverages*, not the fruit that carries it (§6).
 
-## A per-food ranking mostly cannot be estimated
+Confidence is **low** overall, and unevenly so. The fibre-is-the-modest-lever finding is medium. The
+per-food-ranking-is-not-estimable finding is well-supported — structural, not evidence-thin. The
+refined-grains-not-harmful and fruit-sugar-is-not-free-sugar legs are medium. The fruit-and-vegetable
+mortality magnitude and the pulses hard-outcome question are low or insufficient — named gaps (§8).
+This is a refinement-tier deliverable, and the ceiling is itself the finding.
 
-**The lay question asks for a ranking the evidence mostly cannot supply.** *Which plant food is
-best?* — and the reason no ranking comes back is structural, not a temporary gap. Outcome signals in
-this domain resolve at the level of a *dietary pattern* or a shared *component* (fibre). They rarely
-resolve at the level of an individual food. That is why the sections below hand back four evidence
-states per food-group and no ordered table. The ranking the question invites is simply not there to
-be read off. This section sets the discipline the rest of the deliverable is read through: where a
-food-level claim *is* estimable, and where asserting one would need isolation assumptions the data do
-not support.
+## §2 — Why a per-food league table is (mostly) not estimable
 
-**The first test is variance.** When *within-category* variation exceeds *between-category*
-variation, a category-level estimate describes no actual food. It is an average over a mix nobody
-eats -> [[Is the Food Category Doing Any Work]]. "Grains" spans an intact rye kernel and a white
-roll; "vegetables" spans a leafy green and a fried potato. The ratio is almost never measured, so
-this is usually a qualitative judgement. But it is the judgement that decides whether a food label
-carries any information at all.
+The question a reader brings is a ranking: which plant foods to eat more of, which less. For most
+foods that table cannot be built. The limit is structural, and it is the reason this deliverable hands
+back no winner.
 
-**The diagnostic sorts a food boundary three ways.** Either the split hid a real difference
-(sugar-sweetened beverages inside "free sugars"). Or the boundary was decorative (refined vs whole
-grain, null on hard outcomes). Or the split was never resolved, and you cannot tell which case you
-are in (legumes, largely unstudied). The third is the common and dangerous one: an unresolved
-category looks exactly like a resolved one in a recommendation. The operative move, then: where a
-category's mechanism lives in a sub-component, replace the category with the sub-component in any
-decision. If the active agent is cereal fibre, "whole grain" is a proxy — and SACN says as much in
-its own voice, quoted in the per-group section.
+### A food label is an average over everything inside it
 
-**A pattern is not evidence for any one of its components.** Where a benefit is read off a whole diet
-or an observed healthy population rather than a contrast, isolating the part requires assumptions the
-study did not test. That is the *observed-healthy-population-is-not-evidence-for-a-component* trap.
-SACN reaches the same wall from the other side. Total carbohydrate is «neither detrimental nor
-beneficial», because it pools sugars, starch and fibre — components with opposite effects — into a
-term too wide to carry anything.
-[@sacn2015]
+Ask whether the category boundary carries information -> [[Is the Food Category Doing Any Work]]. The
+sharp form: if within-food variance exceeds between-food variance, the category-level estimate is not
+merely imprecise -- it describes no actual food. Skinless chicken and fatty pork share one label; the
+spread inside a food group can exceed the gap between two groups. A number computed over that mix
+answers nobody's question.
 
-**The evidence base is also skewed toward what can be *isolated, dosed and blinded*.** And that skew
-inverts the folk intuition that whole food beats supplement. SACN grades fibre *isolates and gum
-supplements* at `Effect · Adequate`, its top strength grade, while whole-grain benefit stays
-cohort-only and mostly `Limited`. The reason is design, not food: an isolate can be randomised
-against a placebo at a chosen dose, and a fibre-bearing food cannot. SACN bounds its own finding in
-the same clause — the effect is «demonstrated at intakes achieved through supplementation».
-[@sacn2015] So the isolate out-grades the food *by
-design*. The better grade tracks the better study, not the better food.
+### A dietary pattern is not evidence for any one of its foods
 
-**Nor is the well-graded isolate a large lever.** Brown's 67 controlled trials put the soluble-fibre
-effect small — a fraction of an mmol/L of LDL across the practical range of intake, quantified in the
-fibre section.
-[@brown1999]
-The streetlight lights the isolate because it is measurable, not because it carries the decision.
--> [[Surrogate Outcomes]]
+A benefit read off a *pattern* -- people who eat more X live longer -- cannot be assigned to X without
+stating the assumptions that would isolate it. Where a claim comes from an observed healthy population
+rather than a contrast, the component is not identified. So "high-X eaters are healthier" ranks no
+single food. -> [[Is the Food Category Doing Any Work]]
 
-**Two more reasons make a food-level curve hard to trust.** First, exposure is self-reported and the
-error is large. A doubly-labelled-water substudy found reported energy intake «on average, 34% lower
-than total energy expenditure».
-[@sacn2015] Error that size flattens a real gradient,
-so a *null or flat* dose-response is weak evidence of no effect. Te Morenga attributes its own failed
-dose-response to «a considerable degree of measurement error even when using validated methods».
-[@te2013]
--> [[Measurement Error in Dietary Assessment]]. Where a guidance threshold appears, the first
-hypothesis is that it marks the edge of the data, not a feature of the curve.
+### The category-doing-work test -- three cases
 
-**Second, a U- or J-shaped curve hides a fragile arm.** Where a food shows one, the protective arm is
-often not causal. Reverse causation, sick-quitter bias, confounding by frailty, or unequal
-between-group precision can each manufacture it. Before believing *a little is better than none*, the
-arm must survive a referent-correction or a genetic/quasi-experimental check. Covariate adjustment
-alone is the weak check that artifacts also pass -> [[The U-Shaped Association Artifact]].
+The boundary sorts three ways, and which one you are in decides what you may act on:
 
-**Put together, this is why the deliverable returns no ranking.** A per-food league table would need
-four things to hold, food by food. Within-category variance must be small. The signal must not run
-through a shared component. Self-report error must not have flattened the curve. And any protective
-arm must survive a strong check. Those conditions are met at the *pattern* level and at the *fibre*
-level — not at the individual-food level. The non-answer is the finding, not a failure to look.
+- **Signal** -- the boundary hides a real difference. Sugar-sweetened beverages inside "free sugars"
+  carry the child-cohort adiposity signal that other sugars do not
+  [@te2013].
+- **Decorative** -- the boundary separates nothing. Refined versus whole grain is null on hard
+  outcomes [@sacn2015].
+- **Unresolved** -- the split was never tested. "Fish" and "legumes" pool sub-types the studies could
+  not separate, and an unresolved category looks exactly like a resolved one in a recommendation
+  [@sacn2015].
 
-## Each food group lands in an evidence state, not a ranking
+Test 3 is the operative one: where the mechanism lives in a sub-component, name the sub-component and
+rank by that -- not by the label. -> [[Is the Food Category Doing Any Work]]
 
-**Read through the estimability discipline, each food-group resolves into one of four evidence
-states** — benefit, harm, no meaningful effect, insufficient evidence. They do *not* line up into a
-ranking. This is a configuration, not a league table. The groups differ in *which outcome* is
-measured, *what design* measured it, and *whether* the signal survives the isolation discipline.
-State the evidence state per group and stop.
+### The isolate out-grades the food -- by design, not merit
 
-**Whole grains — benefit, observational, routed through fibre.** Higher whole-grain
-intake is *associated* with lower risk across several critical outcomes in cohorts. But
-the benefit is cohort-only, and probably the fibre benefit under a food label. SACN
-attributes the signal to «its cereal fibre component»
-[@sacn2015], and Reynolds' dose-response
-is «linear with no sign of a plateau within the available data»
-[@reynolds2019]. The
-magnitude is a highest-vs-lowest association. Reynolds reports «Observational data
-suggest a 15–30% decrease in all-cause and cardiovascular related mortality ... when
-comparing the highest dietary fibre consumers with the lowest consumers», and «Similar
-findings for whole grain intake were observed»
-[@reynolds2019] — with the
-whole-grain leg graded lower than the fibre one.
+The evidence is skewed toward what can be dosed and blinded. SACN grades fibre *isolates* at
+`Effect - Adequate`, its top strength grade, while whole-grain benefit is cohort-only and mostly
+`Limited`. Brown's 67 controlled trials put the soluble-fibre isolate at an LDL reduction of -0.057
+mmol/L per gram [@brown1999].
+The whole-food fibre that tracks 15-30% lower mortality cannot be blinded, so it stays observational
+[@reynolds2019]. The better grade tracks the
+better *design*, not the better food -- the streetlight effect. And SACN bounds its own isolate
+finding in the same clause: the effect is «demonstrated at intakes achieved through supplementation»
+[@sacn2015] -- a dose nobody reaches by eating
+differently.
+-> [[Is the Food Category Doing Any Work]]
 
-One cancer-prevention body reaches a site-specific verdict: WCRF judges that «Consuming
-wholegrains helps protect against colorectal cancer»
-[@wcrf2018ter] — a probable
-protective grade. The decision residue: steer by *fibre content*, not by the word
-"whole grain" -> [[Whole Grains Refined Grains and Pulses]].
+### A flat curve is weak evidence, not proof of no effect
 
-**Refined grains — no meaningful effect, not harm.** The intuition that refined grains cause
-cardiovascular disease or diabetes is not what the cohort evidence shows. SACN pools to a flat null:
-RR 1.00 (95% CI 0.98, 1.01) per half serving/day, for both cardiovascular events and type 2 diabetes.
-And every randomised whole-vs-refined comparison was null on blood pressure, lipids, glucose and
-insulin sensitivity.
-[@sacn2015] The harm the intuition feels attaches to
-*free sugars* and to overall energy, not to grain refinement per se. (The "refined carbs are bad"
-prior borrows its force from the sugar evidence.) NNR converts the null into a permission for one
-stratum: «At high energy requirements refined grains also have a role.»
-[@nnr2023]
+Self-reported intake carries error large enough to flatten a real gradient, so a null or flat
+dose-response is weak evidence of no gradient -- not evidence of no effect
+-> [[Measurement Error in Dietary Assessment]]. Read a food-level null as "no main effect detected,"
+never as "this food is inert." That is the second reason the table stays unbuilt: even where a food
+*is* estimated, the estimate is pulled toward the null, and misclassifying an attenuated signal as a
+true zero is the standing trap.
 
-**Pulses — a surrogate moves; the hard outcome is a gap.** The one quantified claim the
-corpus holds runs two evidence classes together and only the surrogate limb carries a
-number. ESC: a single daily portion of pulses «low­ers LDL-C by 0.2 mmol/L and is
-associated with a lower risk of CHD».
-[@esc2021] The LDL move is trial-grade. The CHD
-limb is associational, with no magnitude and no interval — a surrogate whose transmission to events
-is not itself shown here -> [[Surrogate Outcomes]]. SACN's legume nulls do not close this. The
-increment was \~1 g/day of legume fibre against 7 g/day for total fibre, a low-power slice. So pulses
--> hard cardiometabolic outcomes is a stated **G-gap** -> [[Whole Grains Refined Grains and Pulses]].
+### What survives
 
-**Fruit and vegetables — an outcome-specific curve, only fragmentarily held.** The
-shape depends on the outcome named. ESC records a plateau on one endpoint —
-«all-cause mortality was not reduced further with intakes of more than five servings» —
-while reporting a graded stroke association (11% lower at three-to-five daily servings,
-26% at five vs fewer than three).
-[@esc2021] Shape is thus
-outcome-specific: a mortality plateau does not license reading a plateau onto the
-disease-specific curves. But the corpus holds only these fragments. The per-serving
-fruit/vegetable -> mortality dose-response SR/MA that would settle magnitude and
-plateau-vs-gradient is **not held**, as the open questions at the end record.
+No ranking survives this. What does is narrower and honest: for each food group, a statement of which
+of the four evidence states -- benefit, harm, no meaningful effect, insufficient -- the literature
+actually supports, and on which outcome.
 
-**The WCRF/Veronese colorectal grades are a distinction, not a tension.** WCRF
-grades whole-grain -> colorectal cancer *probable* (protective)
-[@wcrf2018ter], while the fibre
-umbrella evidence grades fibre -> cancer *weaker* -> [[Dietary Fibre and Health]]. These
-are not opposed. The primary separation is the *evidence base*: WCRF's CUP cohort systematic reviews
-versus a case-control-heavy fibre umbrella. And the two are reached on *partly-overlapping* exposures.
-WCRF grades both whole grain and fibre against colorectal cancer, so the exposures do not cleanly
-separate the two grades. A grade gap driven by study design and study-mix is not a claim-level
-contradiction — a distinction, not a joined tension to file.
+## §3 — What each food-group does, per outcome
 
-## Fibre is the one lever the food question keeps reducing to
+Read each group through §2's discipline: name the outcome, name the evidence state, and do not let a
+category null or a moved surrogate stand in for a proven food effect. This is a configuration, not a
+league table.
 
-**Strip the per-food evidence down to what actually moves an outcome, and one component is left
-standing:** *dietary fibre*, at roughly 25-29 g/day. Whole-grain benefit routes through it, pulses
-carry it, and — as below — the much-discussed gut-microbiome "lever" largely reduces to it. But
-fibre's evidence has *two legs that are not the same quantity*. The composite is honest only if they
-are never summed into one big causal number.
+### Whole grains -- benefit, cohort-only (certainty insufficient for a causal per-food claim)
+
+Higher whole-grain intake *tracks* lower risk. Reynolds ties it to a 13-33% risk reduction across
+critical outcomes -- per 15 g/day, all-cause mortality RR 0.94 (0.92-0.95) -- and total fibre tracks a
+parallel 15-30% [@reynolds2019]. The evidence is
+observational, low-to-moderate certainty; no RCT shows a hard-outcome benefit.
+
+The signal is probably the *fibre* benefit wearing a grain label. SACN attributes it in its own voice:
+«Any associations indicated for whole grain may be related to its cereal fibre component»
+[@sacn2015]. So steer by fibre content, not by the
+word "whole grain."
+
+On cancer, WCRF grades wholegrain-to-colorectal *probably protective* -- its strong-enough-to-recommend
+tier, from a cancer endpoint [@wcrf2018ter]. A
+separate, weaker grade for fibre-to-cancer rests on a case-control-heavy base: different exposure,
+different evidence base, so a distinction, not a joined clash. The fibre detail lives at
+[[Dietary Fibre and Health]].
+
+### Refined grains -- no meaningful effect (not shown harmful)
+
+Refined grains are not found to harm. SACN pools cohort data to RR 1.00 (95% CI 0.98, 1.01) for both
+cardiovascular events and type 2 diabetes, graded `No association - Moderate`
+[@sacn2015]. And the whole-versus-refined randomised
+trials are null across blood pressure, lipids, glucose and insulin sensitivity
+[@sacn2015].
+
+The harm the "refined = bad" intuition feels is real, but it attaches elsewhere: to overall dietary
+pattern and energy, and to free sugars and sugar-sweetened beverages -- not to grain refinement
+itself. NNR draws the consequence for one stratum: «At high energy requirements refined grains also
+have a role. This justifies allowing some refined cereals in the diet»
+[@nnr2023]. A flat null becomes, for the
+athlete or heavy-manual worker, a permission.
+
+### Pulses -- a surrogate benefit over a hard-outcome gap (insufficient)
+
+ESC states it in one sentence, and the two halves are different evidence classes: «A single portion of
+pulses (legumes) a day lowers LDL-C by 0.2 mmol/L and is associated with a lower risk of CHD»
+[@esc2021]. Only the first half carries a number.
+
+The LDL move is a *surrogate*; its transmission to events is itself a claim to be evidenced, never
+assumed -> [[Surrogate Outcomes]]. SACN's legume nulls do not close the gap either -- they are
+low-power, estimated across a 1 g/day increment against 7 g/day for total fibre
+[@sacn2015]. So the honest state is a named G-gap: the
+wiki cannot say whether pulses help, harm, or do nothing on hard outcomes at the intakes someone would
+actually eat. Do not infer a direction from the surrogate.
+
+### Fruit and vegetables -- outcome-specific fragments; the mortality SR/MA is a named gap
+
+The wiki holds no dedicated fruit-and-vegetable mortality systematic review -- only ESC fragments, and
+they already show the curve is *outcome-specific*. All-cause mortality plateaus: intake beyond about
+five servings a day buys no further reduction. Stroke keeps a gradient over the same range -- roughly
+11% lower risk at three-to-five servings, 26% at five, versus fewer than three
+[@esc2021].
+
+One curve does not fit both outcomes, so no single fruit-and-veg dose-response can be asserted. The
+dedicated mortality SR/MA is a **named gap**, not a null -- absence of the review, not evidence of no
+effect.
+
+Two non-health axes ride along this whole group -- cost and food access differ sharply across grains,
+pulses and produce. Name that they exist and stop: they are not priced into the health verdict.
 
 
+## §4 — Fibre: the lever the food question keeps reducing to
 
-### The two legs are different quantities
+Every group signal in §3 that survives the isolation test points at one shared component, and the
+trail keeps ending there: fibre. It carries two legs of evidence, and the first job is not to weld
+them. See [[Dietary Fibre and Health]].
 
-The **observational leg** comes from Reynolds 2019, across 185 prospective cohorts. Higher fibre
-intake is *associated* with lower all-cause mortality. In absolute terms, «this
-reduction translates into 13 fewer deaths (95% CI eight to 18)» per 1000
-participants over the studies' duration.
+**Leg one is observational and large.** Reynolds' WHO-commissioned review (185 prospective cohorts)
+finds that the highest fibre eaters track a lower risk of dying: all-cause mortality RR \~0.85,
+highest-versus-lowest intake
+[@reynolds2019]. This is real but
+self-reported, healthy-user-confounded, and an association only.
+See [[Measurement Error in Dietary Assessment]].
 
-[@reynolds2019]
+**Leg two is causal and small.** Tested as a dosable, blindable isolate in controlled trials, soluble
+fibre lowers LDL by -0.057 mmol/L per gram -- a surrogate, and a modest one
+[@brown1999]. Brown's own
+verdict: «The effect is small within the practical range of intake.»
 
-This is self-reported, whole-diet intake. So it carries the healthy-user confound
-and dietary measurement error ([[Measurement Error in Dietary Assessment]]). Read
-it as an association: the pooled all-cause-mortality estimate is «RR 0·85 (0·79 to
-0·91)», graded «Moderate»
-[@reynolds2019] (\~15%
-lower, highest-vs-lowest) — not a demonstrated effect.
+**The two legs are different quantities (T7).** They differ in exposure (whole-diet fibre vs a soluble
+isolate), endpoint (death vs the LDL surrogate), and design (cohort vs RCT). So the observational RR
+must never read as a causal per-gram outcome effect. Yet the composite beats either leg alone: the
+isolate trials supply the mechanism, the cohorts supply the outcomes -- fibre is beneficial and at
+least partly causal, with a measured effect only on the surrogate we can actually trial.
 
-The **causal leg** comes from Brown 1999, across 67 controlled feeding trials. A dosed, blindable
-soluble-fibre *isolate* reduced LDL by -0.057 mmol/L per gram in the practical
-2-10 g/d range. That is a real, causal effect — but on a *surrogate*, and small: «The
-effect is small within the prac­tical range of intake. For example, 3 g soluble
-fiber from oats (3 servings of oatmeal, 28 g each) can decrease total and LDL
-cho­lesterol by <0.13 mmol/L.»
+**The curve has no outcome plateau.** On hard outcomes Reynolds finds the dose-response «linear with
+no sign of a plateau within the available data», with the greatest benefit around 25-29 g/day
+[@reynolds2019]. Every increment still
+pays; aim for \~25-30 g/day from food. The LDL surrogate is the exception -- that effect attenuates
+above \~8-10 g/day. Shape is outcome-specific, so do not read the surrogate's flattening onto
+mortality. See [[Surrogate Outcomes]].
 
-[@brown1999]
+**Which outcomes to believe.** Veronese's umbrella review (18 meta-analyses) screened the associations
+for bias and found a higher fibre intake «convincingly associated only with a decreased likelihood of
+early mortality and CVD» [@veronese2018]. The long
+cancer list is weaker. One newer, subtype-specific outcome: Milajerdi's meta-analysis ties higher
+fibre to lower Crohn disease risk (RR 0.59; 95% CI 0.46, 0.74) but finds no association with
+ulcerative colitis (RR 1.09; 0.88, 1.34)
+[@milajerdi2020ibd]. Both are
+observational -- a low-confidence addition, not a new lever.
 
-The **composite** beats either leg. The RCT arm corroborates the observational
-direction and supplies a mechanism (viscous fibre lowers LDL, independent of fat
-displacement). It does *not* lend its causal status to the mortality magnitude.
-Never let the observational hi-vs-lo association read as a causal per-gram outcome
-effect — different design, exposure, endpoint, and scale.
+**The microbiome is not a separate lever (T6).** WGO defines a prebiotic as a «selectively fermented
+ingredient that results in specific changes in the composition and/or activity of the gastrointestinal
+microbiota, thus conferring benefit(s) upon host health»
+[@wgo2023]. That is fermentable fibre
+under another name, so the prebiotic case collapses back into the fibre case above.
+See [[Gut Microbiome and Health]]. Rank the microbiome LOW against its attention: it is discussed far
+out of proportion to any outcome-level effect it can demonstrate.
 
-### The dose-response is outcome-specific — no plateau on outcomes, attenuation on LDL
+Two footnotes keep the reduction honest. Fermented foods are a distinct, small refinement -- in a
+10-week head-to-head they nudged microbial diversity where high fibre did not -- but they add microbes
+rather than feed resident ones, so they are not the fibre lever
+[@wastyk2021]. And the microbiome's one
+clean causal win -- faecal transplant for recurrent *C. difficile*, which resolved the infection in 81%
+of patients where repeated antibiotics had failed -- does not transport, because there the pathology is
+itself the dysbiosis the transplant reverses
+[@vannood2013].
 
-On the hard outcomes there is *no plateau*. Reynolds' curves are «many of which
-are linear with no sign of a plateau within the available data», with «the
-greatest benefits ... observed for individuals consuming 25–29 g per day».
+## §5 — Antinutrients at realistic intakes; preparation as the exposure
 
-[@reynolds2019]
+Fibre lives in the same whole plant foods that carry the compounds the "antinutrient" worry names --
+the same beans and grains, read with the opposite sign. The word *antinutrient* prejudges that sign.
+Better to name the compound and its putative effect: a plant molecule that might bind a mineral, nudge
+the thyroid, or slow digestion. One narrative review catalogues six such classes -- phytate, oxalate,
+lectins, goitrogens, tannins/polyphenols, and phytoestrogens
+[@petroski2020]. (Nightshade glycoalkaloids --
+solanine -- sit outside the held source; treat that class as a named gap, not a finding.) The decision
+they raise is rarely *avoid the food*. It is *how do you prepare it?*
 
-But the LDL-*surrogate* leg is where a flattening lives. Brown stresses the per-gram
-effect is «small within the prac­tical range of intake» and that raising fibre «can
-make only a small contribution»
-[@brown1999] —
-a diminishing return whose exact knee the source does not locate.
+Start with why the scary numbers rarely reach a person. Almost all of them come from an isolated
+compound, fed to an animal or a cell line, often raw and at doses no meal delivers:
 
-So the shape depends on the endpoint you pick: monotone on the
-outcomes, attenuating on the marker. A plateau located on a surrogate must not be
-read across to the outcome ([[Surrogate Outcomes]]). The operative default stays
-*every reduction pays*; the burden is on whoever asserts an outcome knee to locate
-it.
+> «Harmful (and even beneficial) effects of an individual, isolated compound or phytochemical are
+> often quite different than when the same compound is within the complex food matrix.»
+[@petroski2020]
 
-### Which outcomes hold up, and one new one
+This is a transportability failure: an effect shown in one support-factor profile (isolated, raw,
+rodent) that does not carry to another (matrixed, cooked, human). Whole-food human trials mostly fail
+to reproduce it, and the expectancy test seals the staple case -- billions eat prepared legumes and
+grains daily, so a large chronic harm would be visible by now.
 
-**Breadth is narrower than the raw association count implies.** Veronese's umbrella
-review found that «even though 85% of the associations were significant, a higher
-intake of dietary fibers was convincingly associated only with a decreased
-likelihood of early mortality and CVD».
-
-[@veronese2018]
-
-So the robust core is mortality + CVD, not the long cancer list. Milajerdi adds
-inflammatory bowel disease, and the finding is subtype-specific. It reports a «significant
-inverse association between dietary fiber intake and risk of CD (RR: 0.59; 95% CI:
-0.46, 0.74; I2 = 0.0%)» but «no significant association between dietary fiber
-intake and risk of UC in the current meta-analysis».
-
-[@milajerdi2020ibd]
-
-Crohn disease protective, ulcerative colitis null — both observational,
-FFQ-measured, and reverse-causation-prone (preclinical disease alters intake). A
-low-confidence *additional* reason consistent with fibre's other benefits, not a
-new lever.
-
-### The microbiome "lever" reduces to this case
-
-**The gut microbiome is discussed far out of proportion to its outcome-level effect.**
-Most of what it recommends is fibre already counted here. A prebiotic is
-largely fermentable fibre by another name, so the prebiotic evidence *is* the
-fibre evidence ([[Gut Microbiome and Health]]). The one clean causal microbiome
-win — FMT for recurrent *C. difficile* — is non-transportable: «For other
-pathologies, faecal transplants are not yet clinical practice but have been
-explored». Because CDI is the case where the pathology *is* the dysbiosis.
-
-[@valdes2018]
-
-**Fermented foods are a genuine but *distinct, small* refinement** — not the fibre
-lever. Head-to-head over 10 weeks, «we did not observe a cohort-wide microbiota
-diversity increase in the high-ﬁber-diet arm» while the fermented-food arm raised
-diversity — a different route (adding microbes vs feeding residents), and still
-surrogate-level.
-
-[@wastyk2021]
-
-Rank the microbiome topic *low* relative to its attention: its real levers are the
-fibre and diet-quality ones already ranked.
-
-## Preparation, not the compound, is what defuses antinutrients
-
-**The label *antinutrient* prejudges the sign.** It names a plant compound by a putative harm before
-the net is known. Five classes are the ones the source here treats: phytate, oxalate, lectins,
-goitrogens, and tannins/polyphenols. Each carries a putative mineral-binding, thyroid, or digestive
-effect. A sixth commonly-named worry, the solanine-type glycoalkaloids of nightshades, is *not held
-here*. No source in the corpus appraises it, so it is a named gap, not a class this page has weighed.
-Read through the estimability discipline, the label's worth depends on one thing: whether the *food
-as eaten* moves a patient-important outcome, not whether an isolated compound does something in a
-dish or a rodent.
-
-**Almost every alarming finding comes from an isolated compound**, in an animal model or cell
-culture, often at raw-food or supraphysiological doses:
-
-> «Harmful (and even beneficial) effects of an individual, isolated compound or phytochemical are often
-> quite different than when the same compound is within the complex food matrix.»
-> [@petroski2020]
-
-That is a transportability failure: an effect established in one support-factor profile (isolated,
-raw, animal) that need not transfer to another (matrixed, cooked, human). The expectancy test seals
-the staple case. Legumes and whole grains feed billions daily. So a large chronic harm from
-*properly prepared* staples would be visible by now, and is not.
-
-**Preparation, not the compound, is the exposure variable.** Soaking, sprouting, fermenting, and
-cooking reduce every class. That makes most of the concern academic in a varied diet. For the
-highest-lectin legumes it is *not* optional:
+For most classes, ordinary cooking makes the worry academic. For the highest-lectin legumes it is not
+optional -- it is the exposure:
 
 > «In the case of particularly high-lectin legumes, such as soybeans and kidney beans, boiling or
 > autoclaving is required to eliminate lectins, as reduced cooking temperatures do not significantly
 > affect lectin content.»
-> [@petroski2020]
+[@petroski2020]
 
-Raw or undercooked kidney beans have caused documented mass poisonings. So mandatory full cooking
-answers a route-(c) harm that fires only on the raw exposure — not a reason to avoid the food.
+Raw or undercooked kidney beans have caused documented mass poisonings. That is a **route-(c)
+contraindication** -- a harm that fires only in a defined stratum (here, whoever eats them raw) -- a
+clause on the preparation, not a reason for anyone else to skip the food.
 
-**The net sign flips with the person's nutrient status.** So the verdict is stratum-conditioned,
-never blanket -> [[Deficiency Repletion vs Enhancement]]. For the generally-nourished, prepared plant
-staples carry no meaningful net antinutrient harm. Genuine route-(c) contraindications survive where a
-harm fires in a named stratum. One is the iron-deficient person, especially menstruating women, and
-tannin timing —
+So the honest verdict is per stratum, and the sign flips with nutrient status. For a
+well-nourished person eating properly prepared plant staples, net antinutrient harm is not meaningful.
+Three named strata still warrant care -- each a route-(c) contraindication, not a population rule:
 
-> «some studies still advise that those with low iron stores, especially females, consume tannin-rich
-> beverages, such as tea, after or in-between meals»
-> [@petroski2020]
+- **Iron-deficient** (especially menstruating women): tannins depress non-heme iron absorption, so
+  time tannin-rich drinks away from meals.
+- **Recurrent calcium-oxalate stone-former**: oxalate load matters; cooking plus adequate calcium
+  lowers it.
+- **Iodine-deficient**: goitrogens bear on the thyroid where iodine is already marginal.
 
-— then a recurrent calcium-oxalate stone-former and oxalate load; suboptimal-iodine status and
-goitrogens; infants and phytoestrogens. These narrow the advice for a named few. They do not reverse
-it for the population.
+[@petroski2020]
 
-**The digestibility-acting subset is one variable seen from two sides** — phytate, tannins, trypsin
-inhibitors. FAO names the same three compounds as the plant-protein *digestibility discount*. And the
-same preparation step that lowers the toxicity worry raises measured protein quality (the DIAAS
-score). One lever, two framings -> [[Protein Quality and the DIAAS Score]]. Oxalate and goitrogens act
-elsewhere and are not part of the protein story, so the identity holds only for that subset.
+One lever moves two problems at once. The digestibility-acting subset -- **phytate, tannins, trypsin
+inhibitors** -- is the very set FAO names as the plant-protein digestibility discount, and the same
+traditional processing (soaking, sprouting, fermenting, cooking) that lowers the toxicity worry raises
+the DIAAS score. One variable (antinutrient load), one lever (preparation), two framings
+-> [[Antinutrients in Plant Foods]], -> [[Protein Quality and the DIAAS Score]]. Oxalate and
+goitrogens act elsewhere and are not part of the protein story -- do not sweep them in.
 
-**Per-class *human-outcome* evidence is largely a structural gap.** The five-class map records a
-narrative review's mechanistic and epidemiological conclusions, not graded human-outcome trials. No
-class here moves a patient-important outcome either way. One class cuts *both* ways.
-Tannins/polyphenols are listed here as an antinutrient for their mineral-binding. Yet the same
-compounds are widely claimed *beneficial* (antioxidant / anti-inflammatory) — a benefit the corpus
-holds no graded outcome source for either. So even the harm-sign of the class is unsettled, and its
-net effect is a gap in both directions. The value of the section is negative and licensing: it lets a
-nourished person stop avoiding prepared plant staples. Do not upgrade a rodent or in-vitro result to
-a human finding -> [[Is the Food Category Doing Any Work]].
+The limit is structural. Per-class human-outcome evidence barely exists; the review is a single
+narrative source, graded low, and moves no patient-important outcome either way -- its value is
+licensing someone to stop avoiding prepared plant staples, not promising a benefit from eating them
+[@petroski2020]. Do not upgrade a rodent or
+in-vitro result to a human finding. T1 is not a standalone tension; it resolves to a
+stratum-conditioned net.
 
-## Whole-fruit sugar does not behave like free sugar
+## §6 — Fruit sugar: does whole-fruit sugar behave as free sugar?
 
-**No — and the definition already encodes why.** WHO separates *intrinsic* sugars from *free* sugars:
+Antinutrients are the harm-framing of a plant *component*; fruit sugar is the harm-framing of a plant
+*macronutrient* -- and the same is-the-component-doing-the-work test answers it. No -- and the
+definition says so before any evidence does. WHO splits sugars by where they sit:
 
 > «The term "sugars" includes intrinsic sugars, which are those incorporated within the structure of
 > intact fruit and vegetables; sugars from milk (lactose and galactose); and free sugars, which are
-> monosaccharides and disaccharides added to foods and beverages by the manufacturer, cook or consumer,
-> and sugars naturally present in honey, syrups, fruit juices and fruit juice concentrates.»
-> [@who2015]
+> monosaccharides and disaccharides added to foods and beverages by the manufacturer, cook or
+> consumer, and sugars naturally present in honey, syrups, fruit juices and fruit juice concentrates.»
+[@who2015]
 
-**Whole-fruit sugar is *intrinsic* and excluded from the free-sugars target; fruit juice is *free*
-and included.** A *reduce sugars* instruction that sweeps in whole fruit loses a food-level
-distinction the guidance draws deliberately -> [[Free Sugars Intake]].
+Whole-fruit sugar is *intrinsic* and excluded from the free-sugars target. **Fruit juice is *free* and
+included.** The line runs between the apple and the apple juice, not between fruit and everything else.
 
-**Two further separations matter.** The 10% target is a *dental* recommendation: the threshold is
-pinned to caries, not to adiposity. And the weight effect is an energy effect, not a sugar-specific
-one. Swapping free sugars for other carbohydrate at equal energy moved body weight by 0.04 kg (-0.04
-to 0.13) — a null. WHO reads it in its own voice:
+And the target that line serves is dental. The <10% free-sugars limit is a caries recommendation; the
+weight effect is an energy effect, not a sugar-specific one. Swap free sugars for other carbohydrate at
+equal energy and body weight barely moves -- **0.04 kg** (95% CI -0.04 to 0.13)
+[@who2015]. WHO says it plainly:
 
 > «The excess body weight associated with free sugars intake results from excess energy intake.»
-> [@who2015]
+[@who2015]
 
-Neither the caries threshold nor the isoenergetic null indicts the fibre-matrixed sugar of whole
-fruit.
+The harm signal lives in the glass, not the fruit bowl. A 39-cohort dose-response meta-analysis finds
+sugar-sweetened beverages associated with type 2 diabetes at **RR 1.19 (1.13-1.25) per 250 mL/day**,
+linear over the studied range with no threshold
+[@qin2020]. This is the
+additive arm -- SSB adds poorly-compensated liquid calories on top of the diet -- fully consistent with
+the isoenergetic null above. It is association, not effect:
 
-**The harm signal attaches to the *beverage* form.** In a 39-cohort dose-response meta-analysis, each
-250 mL/day of sugar-sweetened beverage was associated with 19% higher type-2-diabetes risk (RR 1.19,
-95% CI 1.13-1.25). The obesity, hypertension, and all-cause-mortality curves all ran monotone-linear
-over the studied range [@qin2020].
-The child-cohort weight signal is likewise a beverage signal —
+> «the results should be interpreted cautiously because the present analyses were based on only cohort
+> but not intervention studies.»
+[@qin2020]
 
-> «Fourteen of these 15 studies reported the sugars exposure as a sugar sweetened beverage.»
-> [@te2013]
+The child evidence points the same way: the pediatric adiposity signal is a beverage signal (highest
+vs lowest SSB, OR 1.55, 1.32 to 1.82), and outside the SSB pool the association disappears
+[@who2015].
 
-These are cohort *associations*, not causal effects. And they sit consistently with the isoenergetic
-null: a beverage adds poorly-compensated liquid calories, which whole fruit does not.
+The fructose-and-fatty-liver story is dose *and* form, and it lands the same place. A large *free*-
+fructose bolus -- SSB, fruit juice, HFCS -- drives hepatic de novo lipogenesis; whole fruit delivers a
+modest fructose dose packaged in a fibre matrix that slows absorption and blunts the hepatic flux.
+ The lever is cutting free fructose in beverages, not avoiding whole fruit
+-> [[Free Sugars Intake]].
 
-**The fructose-to-liver-fat concern is also a dose-and-form story.** A large *free*-fructose bolus
-(SSB, fruit juice, HFCS) drives hepatic de novo lipogenesis. Whole fruit delivers a modest fructose
-dose in a fibre matrix that slows absorption. So the MASLD-relevant lever is cutting free fructose in
-*beverages*, not avoiding whole fruit -> [[Fatty Liver MASLD and Weight Loss]]. This is a directional
-mechanism reading, not a whole-fruit outcome finding.
+One caveat on the surrogate. A fruit's glycaemic response is a surrogate, and its transmission to a
+hard outcome *at the whole-fruit level* is not shown here -- the wiki holds no specific-fruit or
+glycaemic-load-to-outcome source, so that step is a named gap, not a verdict. T3 is not a
+tension; it resolves to a distinction by exposure form -- intrinsic fruit sugar and free beverage sugar
+are different exposures with different answers.
 
-**The remaining worry rests on a *surrogate*** — that a fruit's glycaemic response predicts harm.
-Glycaemic response is a marker whose transmission to a patient-important outcome is itself an
-evidenced claim, never assumed -> [[Surrogate Outcomes]]. The wiki holds no specific-fruit or
-glycaemic-load-to-outcome source. So at the whole-fruit level that surrogate-to-outcome step is a
-named gap, not a finding. The decision-relevant answer stands: cut sugary *beverages*; whole fruit is
-not the free-sugars exposure.
+## §7 — Where this sits on Layer 1 — a refinement, and the ceiling is the finding
 
-## On Layer 1, this domain is a refinement — and the ceiling is the finding
+Having priced each sub-question, place the whole domain on the intervention hierarchy. The Global
+Burden of Disease analysis puts plant foods at the top of the diet's death toll. Low whole grains leads
+the ranking, and low fruit sits just behind it:
 
-**The only published ordering of dietary risks the fabric holds places *low whole grains* and *low
-fruit* near the top.** That is easy to read as *these are your biggest plant-food levers*. And it is
-the wrong reading. The ranking is **population-attributable burden**, not **individual expected
-benefit**, and the two are *not the same quantity*. The population number is
-effect-size x baseline-risk x **exposure prevalence**; the individual one drops the prevalence term.
-The wedge between them is how common the exposure is
--> [[Layer 1 - Ranking Interventions for a Stratum]].
+> «Low intake of whole grains was the leading dietary risk factor for DALYs among men and women»
+[@afshin2019]
 
-> «Our findings show that suboptimal diet is responsible for more deaths than any other risks
-> globally, including tobacco smoking,, highlighting the urgent need for improving human diet across
-> nations... the leading dietary risk factors for mortality are diets high in sodium, low in whole
-> grains, low in fruit, low in nuts and seeds, low in vegetables, and low in omega-3 fatty acids;
-> each accounting for more than 2% of global deaths.»
-> [@afshin2019]
+Read that as a personal instruction and it misleads. GBD ranks *population-attributable burden*, not
+*individual expected benefit*, and the two are not the same quantity
+[[Layer 1 - Ranking Interventions for a Stratum]]. The wedge between them is exposure prevalence. Whole
+grains top the list because almost everyone under-eats them -- a borrowed observational risk ratio
+multiplied across billions. No one person gains much from another serving.
 
-A risk factor tops that list because near-universal low intake multiplies a **borrowed observational**
-association across a whole population — not because the per-person gain is large. So a high burden rank
-is a public-health resource-allocation signal. Reading it as *what one generally-nourished person
-should change next* is a unit-of-analysis error.
-[inferred from @afshin2019]
+The exposures people actually argue about sit at the bottom of the same ranking:
 
-**The same source corroborates *attention-is-an-anti-signal*.** The heavily-litigated plant-adjacent
-levers sit at the **bottom** of the burden ranking, not the top.
+> «High consumption of red meat, processed meat, trans fat, and sugar-sweetened beverages were towards the bottom in ranking of dietary risks for deaths and DALYs for most high-population countries»
+[@afshin2019]
 
-> «High consumption of red meat, processed meat, trans fat, and sugar-sweetened beverages were
-> towards the bottom in ranking of dietary risks for deaths and DALYs for most high-population
-> countries.»
-> [@afshin2019]
-
-**For a generally-nourished adult, then, this whole domain is a refinement tier, not a big rock.**
-Once the dominant exposures (smoking, adiposity, inactivity) are handled, *the remaining plant-food
-levers are small*. Stating that is a **result that licenses stopping the search**, not a failure to
-find a winner. The ceiling is itself the finding.
+That is *attention-is-an-anti-signal* read straight off the data: the loud levers are small, the boring
+staples large -- at the population scale [[Layer 1 - Ranking Interventions for a Stratum]].
 
 
-## What the evidence cannot answer, and the non-health axes named and stopped
+For a well-nourished adult, the plant-food lever is small, and that is a result, not a shortfall. Once
+the big rocks are handled -- not smoking, little visceral fat, moving most days -- adding vegetables is
+a Pebble. It is a real but modest refinement, competing with other small levers. "Your remaining
+plant-food gains are small" licenses someone to stop optimizing; it is not a failure to find a winner
+[[Layer 1 - Ranking Interventions for a Stratum]].
 
-**Several questions this deliverable raises are answered by *no source the wiki holds*.** They are
-stated as gaps, with no magnitude and no direction inferred:
+## §8 — What the fabric cannot answer; non-health axes named-and-stopped
 
-- **Fruit/vegetable -> mortality dose-response** — no SR/MA (an Aune-type per-serving magnitude with
-  an all-cause plateau vs per-outcome gradient) is held; only ESC/SACN fragments, which cannot settle
-  the curve's shape.
-- **Legumes/pulses -> cardiometabolic outcomes beyond LDL** — no SR/MA on hard or incidence outcomes
-  is held; the evidence resolves at a surrogate (LDL), whose transmission to a patient-important
-  outcome is a separate evidenced claim -> [[Surrogate Outcomes]].
-- **Specific-fruit / glycaemic-load -> outcome** — no source links a particular fruit or a glycaemic-
-  load contrast to a patient-important outcome; the glycaemic response stays a surrogate (see the
-  fruit-sugar section).
-- **Antinutrient per-class human-outcome evidence** — largely a *structural* gap: the evidence is
-  mechanism / in-vitro / animal, not live-human outcome, so no rodent or cell result is upgraded to a
-  human finding (see the antinutrient section).
+Four holes bound what any plant-food ranking here can claim. Each is a source the wiki does not hold --
+a named gap, not a verdict it declines to state:
 
-**Three non-health considerations ride along with these foods** — **cost**, **environmental load**,
-and **food access**. This page names them and stops there. The wiki holds a single **health** axis and
-no carbon, price, or access data, so none of them is priced into the health verdict. Where an exposure
-carries load on one of them, the page records that a trade-off *exists*. Its weight against health is
-elicited per person, not supplied here (the one-axis rule).
+- Fruit and vegetable intake -> mortality, as a proper dose-response meta-analysis (the Aune-type
+  per-serving magnitude, and whether all-cause risk plateaus while a per-outcome gradient continues).
+  The wiki holds only ESC and SACN fragments, not the SR/MA itself.
+- Legumes and pulses -> cardiometabolic *outcomes*, beyond the LDL surrogate. Not held. A
+  pulse-lowers-LDL result is a marker, and its transmission to a hard outcome is a separate evidenced
+  claim -> [[Surrogate Outcomes]].
+- Any specific fruit, or glycaemic load, tied to a patient-important outcome. No such source is held.
 
+- The plant compounds with a putative mineral-binding, thyroid, or digestive effect. Human outcome
+  evidence per class is largely absent; what exists is mechanism and in-vitro work -- a structural gap,
+  not a human finding.
 
-**One standing caveat governs every line above:** this deliverable grades **coherence and
-source-fidelity, never validity**. Nothing here has been tested against a realized outcome — the loop
-is open. A page can be internally sound and faithful to each source it cites and still be wrong about
-the world. So a clean audit is not a validated recommendation.
-
-
-## What to actually do
-
-For a generally-nourished adult, the decision-facing residue is short:
-
-- **Feed fibre, don't chase the winner.** Aim for roughly 25-29 g/day of dietary fibre — the one
-  plant-food lever with outcome evidence — rather than agonising over which specific fruit or grain to
-  pick.
-- **Steer grains by fibre, not by the label.** Choose whole grains for their fibre; refined grains
-  are not shown harmful for cardiovascular disease or diabetes, and have a role at high energy needs.
-
-- **Don't fear antinutrients in prepared staples.** Ordinary soaking, cooking, fermenting and
-  sprouting defuse them; fully boil high-lectin legumes such as soybeans and kidney beans.
-- **Mind the few named contraindications.** If iron-deficient (especially menstruating women), take
-  tannin-rich drinks like tea between meals, not with them; separate cautions apply to recurrent
-  oxalate stone-formers and to suboptimal-iodine status.
-- **Whole fruit is not the sugar problem — beverages are.** Whole fruit is not the free-sugars
-  exposure and needs no restriction on sugar grounds; cut sugar-sweetened beverages, where the
-  diabetes, obesity and liver-fat signal sits.
-- **Know when to stop.** Once smoking, adiposity and inactivity are handled, treat further plant-food
-  choices as small refinements — stopping the search here is a legitimate result.
+Cost, environmental load, and food access ride along with every plant-food choice. Name them and stop:
+the wiki holds no carbon, water, or price data, and pricing any of them into the health verdict would
+smuggle in a weighting that belongs to the person, not the fabric.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 15 sources — 8 gold, 5 high, 2 moderate |
+> | **Evidence included** | 17 sources — 8 gold, 7 high, 2 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |

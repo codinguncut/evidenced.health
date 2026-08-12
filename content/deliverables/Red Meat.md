@@ -1,19 +1,20 @@
 ---
 type: deliverable
 title: Red Meat
+question: What does the evidence show about red meat's effect on each patient-important outcome (CV events, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)?
 aliases: [Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health]
 sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, GRADE - Handbook]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-05
-self_critiqued: 2026-07-30
+updated: 2026-08-11
+self_critiqued: 2026-08-11
 ---
 
-**The short answer: "red meat" is not one thing, and once you split it, the harm is smaller and
-narrower than the headlines imply — but it is not zero. It is clearest for *processed* meat and for
-high-temperature cooking char; for lean, gently-cooked *unprocessed* red meat the harm is smaller and
-the certainty is low — guideline bodies reviewing the same evidence reach opposite recommendations — so
-read it as *less, and less certain*, not as established-harmless.**
+**The short answer: split red meat into its real exposures — processed, unprocessed, and the char from
+high-temperature cooking — and the harm is smaller and narrower than the headlines imply, though not
+zero. It is clearest for *processed* meat and for charred cooking; for lean, gently-cooked *unprocessed*
+red meat the signal is small and the certainty low, and two guideline bodies reading the same evidence
+reach opposite recommendations. Read it as *less, and less certain*, not as established-harmless.**
 
 This is a general, population-level appraisal of red meat for any adult; it is not advice for one
 person. What moves the verdict here is the **type** of meat (processed vs unprocessed) and the
@@ -102,7 +103,8 @@ large effect or a compelling dose-response gradient support only low-certainty c
 declined to rate up for dose-response because of residual confounding
 [@nutrirecs2019].
 
-The trial and cohort evidence underneath both bodies confirms this is a grading dispute, not a numbers
+The trial and cohort evidence NutriRECS commissioned (Zeraatkar's trials, Vernooij's cohorts —
+post-dating and not used by WCRF's 2018 review) confirms this is a grading dispute, not a numbers
 dispute:
 
 - **Randomized trials (Zeraatkar 2019):** of 12 trials, the credible evidence is essentially one — and
@@ -146,9 +148,10 @@ about 17%:
 > [@hooper2020]
 
 In absolute terms that is **RR 0.83 (0.70 to 0.98), about 15 fewer cardiovascular events per 1000**,
-moderate certainty — a number-needed-to-treat of roughly 56 people over four years for one avoided
-event [@who2023saturated]. But three caveats shrink what this says about red
-meat specifically:
+moderate certainty [@who2023saturated]; separately,
+Hooper's own primary-prevention number-needed-to-treat for one avoided event is 56
+[@hooper2020]. But three caveats
+shrink what this says about red meat specifically:
 
 - **It depends on the replacement.** What replaces the saturated fat sets the sign of the effect: the
   benefit tracks replacement by polyunsaturated fat and whole foods, not by refined carbohydrate — so
@@ -295,7 +298,7 @@ weights a possible cancer cause heavily, and let the weighting be yours.
 remediable health gaps for most people are smoking (all-cause hazard ratio around 3.0, roughly a decade
 of life), visceral adiposity and hypertension, heavy alcohol, and near-total inactivity. Against those,
 the best-measured red-meat-adjacent effect — the 15-fewer-cardiovascular-events-per-1000 saturated-fat
-number — is the *smallest* well-measured lever in the corpus, and reducing red meat itself is smaller
+number — is among the smallest well-measured levers here, and reducing red meat itself is smaller
 and less certain still.
 
 Beware one seductive misread. Population rankings — such as the Global Burden of Disease work NNR
@@ -379,10 +382,10 @@ realistic alternative you would actually eat instead.
 >
 > | | |
 > |---|---|
-> | **Question** | _(not set)_ |
+> | **Question** | What does the evidence show about red meat's effect on each patient-important outcome (CV events, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)? |
 > | **Evidence included** | 15 sources — 7 gold, 5 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Is%20Red%20Meat%20Harmful.md) |
+> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Red%20Meat.md) |
 
 ## References

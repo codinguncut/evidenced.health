@@ -6,7 +6,7 @@ aliases: [Fish, Seafood, Oily Fish, Fatty Fish, Fish Oil, Eating Fish]
 sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-11
+updated: 2026-08-12
 self_critiqued: 2026-08-11
 ---
 
@@ -89,6 +89,14 @@ n-3 LCPUFAs did not show higher benefits than cohort studies»*.
 [@efsaseafood2014] On that basis EFSA set an
 Adequate Intake of 250 mg/day EPA+DHA for cardiovascular health.
 [@efsaseafood2014]
+
+But attributing the fish-eating benefit to EPA+DHA runs ahead of the held data, which **cannot separate
+three explanations**: that the marine omega-3s repair a low baseline (repletion), that the whole-food
+matrix carries the effect, or that fish-eaters simply differ (residual healthy-user confounding). The
+supplement trials that isolate EPA+DHA are null in already-replete populations (see the pill-is-not-the-
+food section below), so the held evidence does not show the omega-3s to be the operative agent; repletion
+of a low baseline best reconciles the fish-benefit with the supplement-null, but no trial has fed people
+fish, so the loop stays open.
 
 Above roughly 1-2 servings a week, the CHD-mortality benefit plateaus — no further gain is expected above
 about 4-5 servings/week. This is not an exotic feature of a food. It is the ordinary shape of a repletion
@@ -218,9 +226,12 @@ evidence that the difference changes a patient-important outcome. State the dire
   label drifts from the wild fish the older evidence was built on -> [[Is the Food Category Doing Any Work]].
 - **Contaminants differ, direction uncertain, no outcome data.** Analytical single-species studies suggest
   some contaminants can run *higher in wild* fish (local pollutant burden) while others historically ran
-  higher in farmed — but no gold-tier meta-analysis ties wild-versus-farmed to a health *outcome*. Treat
-  it as a real compositional difference with no evidenced outcome consequence yet, not grounds to prefer
-  one.
+  higher in farmed — but no gold-tier meta-analysis ties wild-versus-farmed to a health *outcome*. To
+  whatever extent the benefit is carried by EPA and DHA — the **support factor** that mechanism would
+  need — it transports to farmed fish only insofar as farmed fish still delivers them; and since no held
+  source ties wild-versus-farmed to any outcome, there is no health-outcome basis to prefer wild as such.
+  The real watch-item is feed-driven EPA/DHA dilution as farming shifts toward plant oils (identity drifts
+  under a constant name), not a wild-versus-farmed verdict.
 
 [inferred from @efsaseafood2014]
 
@@ -313,6 +324,11 @@ handled — and then, choose oily and low-mercury, and don't fry it.
   uncontrolled. Moderate certainty is the ceiling, not a floor to build on.
 - **Wild vs farmed on hard outcomes** — a stated gap (above), not a null: composition differs via feed,
   but no gold-tier source ties it to an outcome.
+- **Shellfish are not appraised separately.** Held sources fold shellfish into *seafood* and never break
+  it out, so the finfish benefit-risk reading does not transport: crustaceans (shrimp and similar) and
+  bivalves (mussels, oysters) differ from oily finfish in omega-3 content and in contaminant profile, and
+  are distinct exposures no held source separates on any outcome.
+  [inferred from @efsaseafood2014]
 - **Microplastics** are a *"not-yet"*: a mechanistically discussed exposure with no evidenced
   human-outcome effect, held as a candidate, neither asserted nor dismissed.
 

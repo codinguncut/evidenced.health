@@ -3,11 +3,11 @@ type: deliverable
 title: Dietary Fat Types
 icon: material-symbols-light:oil-barrel
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on cardiovascular events and all-cause mortality, what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix, or the eater''s metabolic state?'
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, ESC - CVD Prevention Guidelines 2021, Astrup - Saturated Fats Reassessment 2020, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, ESC - CVD Prevention Guidelines 2021, Astrup - Saturated Fats Reassessment 2020, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-10
-self_critiqued: 2026-08-10
+updated: 2026-08-12
+self_critiqued: 2026-08-12
 ---
 
 For the heart, which fat you eat matters more than how much. Replace the saturated fat in
@@ -30,8 +30,10 @@ survival most of all — is graded lower.
 
 Which unsaturated fat to put in the gap is itself unevenly settled. The evidence is strongest
 for the omega-6 in vegetable oils; for olive-oil fat, for omega-3 as a class, and for plant
-versus marine sources, it thins into gaps. This page grades how well that evidence coheres,
-not whether it is ultimately right; the loop stays open.
+versus marine sources, it thins into gaps. The much-discussed claim that the omega-6 in seed
+oils is pro-inflammatory is tested here on its own terms, and does not hold on the marker it
+was built on. This page grades how well that evidence coheres, not whether it is ultimately
+right; the loop stays open.
 
 ## Is it the amount of fat, or the type?
 
@@ -168,10 +170,112 @@ three facets, each stated as absence, sign-neutral:
 - **plant ALA vs marine EPA/DHA** -- no dedicated within-class contrast page.
 
 Led elsewhere by design: marine EPA/DHA *as food* -> [[Fish]]; the omega-3 capsule/isolate (VITAL,
-REDUCE-IT) -> [[Dietary Supplements]]; the seed-oil-specific controversy (oxidation/heating, n-6:n-3 ratio
-framing, FADS genotype) -> [[Seed Oils]]. The bottom line: the replacements are unequally evidenced --
-n-6 linoleic acid has a real observational gradient (firm on not-harmful and lipid-lowering, its mortality
+REDUCE-IT) -> [[Dietary Supplements]]. The seed-oil-specific questions -- the omega-6/inflammation claim,
+high-dose composition, oxidation and heating, the n-6:n-3 ratio framing, and FADS genotype -- are folded
+into the two sections that follow. The bottom line: the replacements are unequally evidenced -- n-6
+linoleic acid has a real observational gradient (firm on not-harmful and lipid-lowering, its mortality
 benefit observational-only); MUFA, n-3-as-a-class, and ALA-vs-marine are gaps, not directions.
+
+## The omega-6 inflammation claim, tested on its own terms
+
+A widely circulated claim holds that the omega-6 (linoleic acid, LA) concentrated in soybean, corn,
+sunflower and safflower oil is pro-inflammatory and, through that route, promotes heart disease. The
+proposed pathway is explicit and therefore testable: LA is the precursor of arachidonic acid (AA); AA
+feeds eicosanoids cast as pro-inflammatory; chronic inflammation promotes atherosclerosis. Feed people the
+LA and measure the markers.
+
+They do not rise. Johnson's systematic review of 15 RCTs -- 18 LA-vs-control comparisons in healthy,
+non-infant adults, LA doses reaching 27-64 g/day -- found no significant difference on any commonly
+measured marker (CRP, fibrinogen, PAI-1, IL-6, TNF-alpha, ICAM-1, the selectins)
+[@johnson2012]:
+«We conclude that virtually no evidence is available from randomized, controlled intervention studies
+among healthy, noninfant human beings to show that addition of LA to the diet increases the concentration
+of inflammatory markers.» [@johnson2012]
+
+The chain also breaks upstream. Stable-isotope work shows the LA->AA conversion in humans is very limited,
+so raising dietary LA barely moves tissue AA
+[@marklund2019]; and AA itself does
+not carry the harm the story assigns it -- higher AA is not associated with higher cardiovascular risk
+(HR 0.95, 95% CI 0.90-1.01), and AA is precursor to inflammation-*resolving* mediators as much as
+pro-inflammatory ones: «These complex biological effects preclude simplistic inference on the health
+effects of AA metabolites.» [@marklund2019]
+
+The discipline is symmetric, and it bounds the conclusion. Inflammatory markers are surrogates
+([[Surrogate Outcomes]]); a flat marker removes the proposed harm *pathway* on its own terms -- the harm
+claim was built on that marker, so a flat marker collapses its logic -- but it is not evidence that seed
+oils are safe on hard outcomes, nor that they help. A surrogate null is exactly as weak a proxy when it
+flatters seed oils as a rising marker would be when it indicts them. The honest output: the omega-6
+inflammation mechanism is unsupported -- not that seed oils are proven safe.
+
+## Seed oils: dose, composition, and the open questions
+
+For the general-population eater the seed-oil question reduces to the replacement already appraised above:
+LA in place of saturated fat is the supported direction, with no harm signal in the observational pools
+(the biomarker cohorts and the mortality meta-analyses that overlap them) or, independently, in the RCTs,
+and nothing to gain from pouring oil onto a diet that already has enough fat. Three narrower questions remain, and they resolve to one bounded stratum flag and a set of genuine
+gaps.
+
+**A high-dose, omega-6-selective exposure after a heart attack is the one stratum flag.** The Sydney Diet
+Heart Study randomized 458 men who had just survived a coronary event to replace saturated fat with a
+concentrated safflower-oil linoleic acid (about 74.6 g LA/100 g, no omega-3), pushing LA to \~15% of
+energy. Their cholesterol fell further than controls' (-13.3% vs -5.5%) yet they died more -- all-cause
+HR 1.62 (95% CI 1.00-2.64), cardiovascular 1.70 (1.03-2.80), coronary 1.74 (1.04-2.92)
+[@ramsden2013].
+
+Three things keep this short of a
+general-population harm finding: the large syntheses (Hooper 2018, Li 2020) fold Sydney in and still net
+to null-or-benefit; pooling the n-6-selective trials leaves only trends (coronary mortality 1.33,
+0.99-1.79), with significance only in the secondary-prevention subset that Sydney itself dominates (1.84,
+1.11-3.04); and Ramsden declines to extrapolate it -- «The adverse effects of increasing n-6 LA from 6% of
+food energy to 15% in this cohort are not necessarily generalizable to lower LA intakes ... results are
+not necessarily generalizable to women, men aged younger than 30 years or older than 59 years, or
+populations without established coronary heart disease.» [@ramsden2013]
+
+**The composition distinction the evidence supports is n-6-selective versus mixed-PUFA -- not a ratio
+target.** Trials that raised omega-3 alongside omega-6 lowered cardiovascular mortality (RR 0.79,
+0.63-0.99); the n-6-selective trials trended the other way. Ramsden's reading: «benefits previously
+attributed to greater intake of total PUFA might be specifically attributable to n-3 PUFAs», so
+«selective substitution of n-6 LA for SFA is unlikely to be beneficial, particularly in patients with
+established coronary heart disease.» [@ramsden2013] That is a
+selective-versus-mixed distinction, not the popular omega-6:omega-3 *ratio* target -- ratio-framing has no
+human-outcome evidence behind it in this literature and is a named gap, not a finding.
+
+**A genetic effect-modifier is a lead, not a stratification.** Marklund's biomarker pool found the LA
+stroke benefit stronger in FADS1 T-allele carriers (P for interaction 0.002) but calls the signal
+pleiotropic and one that «should therefore be viewed cautiously»
+[@marklund2019] -- a route-(b) hypothesis to
+watch, not to act on. Outside it, LA behaves as a route-(a) exposure (relative effect roughly constant
+across age, sex, diabetes, statin use), so absolute benefit tracks baseline cardiovascular risk, not
+personal responsiveness. The one stratum the data positively flag runs opposite to the harm claim -- the
+risk they support is *too little* LA: «current trends in oil production are leading to increased use of
+high-oleic, LA-depleted seed oils, which can increase the risk of insufficient PUFA consumption in
+population subgroups» [@marklund2019].
+
+**Bottled oil, whole seed, and the frying pan are not one exposure -- and provenance is not an argument.**
+Almost all the evidence above is about the fatty acid, measured as a biomarker or a trial oil; whether it
+transfers to a bottle of soybean oil, and again to nuts and seeds, is the food-category question
+-> [[Is the Food Category Doing Any Work]]. Hamley draws the boundary himself: his reanalysis used extreme
+trial doses delivered as vegetable oil, and «these results should not be generalised to other foods high
+in mostly n-6 PUFA such as nuts and seeds.» [@hamley2017]
+
+Provenance carries no health information in either direction: *industrial/refined therefore bad* is no more
+an argument than *natural/cold-pressed therefore good* (the symmetric appeal-to-nature rule). On heating,
+oxidation, aldehyde breakdown products, hexane extraction, and the n-6:n-3 ratio the wiki holds **no
+human-outcome evidence** -- mechanistic and animal signals keep the questions live, but *unmeasured* is not
+*no effect*; these are insufficient-evidence cells, named as gaps rather than filled with a guess in either
+direction.
+
+**Funding runs to both poles and does not net out.** Toward benefit: Marklund's biomarker pool took a
+restricted Unilever grant, and Unilever sells LA-rich spreads
+[@marklund2019]; Li's mortality review was supported by the
+California Walnut Commission [@li2020]. Toward
+reassessment: the food-based reassessment traces to a Nutrition Coalition workshop whose authors declared
+dairy, beef or low-carbohydrate ties [@astrup2020]. Funding does
+not line up with the mainstream-versus-contrarian split: the cleanest-conflict source here -- Ramsden,
+NIH-funded, no financial
+conflicts -- is the *contrarian* one, so *mainstream nutrition is industry-captured* does not hold. Name
+the funding at every pole, discount none of the science for it, and hold the harm claim and the
+reassurance to the same bar.
 
 ## The surrogate chain: SFA -> LDL/apoB -> ASCVD, and why diet-LDL is not drug-LDL
 
@@ -290,8 +394,9 @@ about a nutrient and becomes advice for a person.
 - **Deferrals.** Substitution / comparator framing -> [[Better than What]]; surrogate-vs-target + how
   baseline risk enters, per metric -> [[Metrics for Targeted Health Guidance]]; what evidence structurally
   can and cannot show -> [[Limits of Evidence]]; marine EPA/DHA *as food* -> [[Fish]]; the omega-3 capsule
-  / isolate -> [[Dietary Supplements]]; the seed-oil-specific controversy -> [[Seed Oils]]. This cut leads
-  the fat-TYPE axis and links those out; it does not re-derive them.
+  / isolate -> [[Dietary Supplements]]. The seed-oil-specific questions (the omega-6/inflammation claim,
+  high-dose composition, oxidation/heating/ratio) are now folded into this cut, not deferred. This cut
+  leads the fat-TYPE axis and links the rest out; it does not re-derive them.
 - **No per-person prescription.** This is an exposure appraisal, not a fat-gram target; selecting,
   dosing, and titrating for an individual are clinician acts the wiki cannot perform.
 - **The loop is open.** No operation here grades a claim against a realized outcome. This deliverable
@@ -302,9 +407,9 @@ about a nutrient and becomes advice for a person.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on cardiovascular events and all-cause mortality, what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix, or the eater''s metabolic state?' |
-> | **Evidence included** | 13 sources — 8 gold, 3 high, 1 moderate, 1 weak |
+> | **Evidence included** | 14 sources — 8 gold, 4 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Hamley (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat%20Types%20and%20Health.md) |
+> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat%20Types.md) |
 
 ## References

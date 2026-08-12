@@ -19,7 +19,7 @@ relationships:
     - The U-Shaped Association Artifact
     - The Observational-Trial Discordance
 created: 2026-08-05
-updated: 2026-08-06
+updated: 2026-08-12
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -276,8 +276,8 @@ but may still help all-cause) is unchanged.
 - **Two sources, not independent.** EFSA (benefit-risk guidance) + Jayedi 2020 (cohort umbrella) —
   but they share the underlying cohort literature and the EPA/DHA mechanism, so confidence is medium,
   not high (the observational ceiling binds both). Still owed for genuine independence: an omega-3
-  **RCT** source (REDUCE-IT/VITAL/ASCEND held only via linked pages) and the mercury-toxicity CONTAM
-  2012 opinion.
+  **RCT** source woven into this page (REDUCE-IT and VITAL are held but reached only via linked pages;
+  ASCEND is not held at all) and the mercury-toxicity CONTAM 2012 opinion.
 
 [inferred from @efsaseafood2014]
 

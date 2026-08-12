@@ -1,11 +1,11 @@
 ---
 type: deliverable
-title: Coffee and Health
+title: Coffee
 question: What are the effects of coffee on health, longevity, and quality of life — for someone deciding whether, how much, and how to drink it?
 sources: [Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ding - Coffee and Type 2 Diabetes 2014]
 confidence: medium
 created: 2026-08-04
-updated: 2026-08-10
+updated: 2026-08-12
 self_critiqued: 2026-08-10
 ---
 
@@ -304,6 +304,6 @@ Which of these applies, and how you weigh the outcomes, is the individual layer:
 > | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Coffee.md) |
+> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Coffee.md) |
 
 ## References

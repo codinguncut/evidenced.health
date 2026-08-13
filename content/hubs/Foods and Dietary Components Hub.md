@@ -28,8 +28,18 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   and why "fish" is the wrong exposure
 - [[Coffee Consumption and Health]] — what habitual coffee does to patient-important outcomes, for
   whom, at what dose, and how much is causal
+- [[Nut Consumption and Mortality]] — the `plant-foods` opener: nuts -> CHD/CVD/cancer/all-cause &
+  cause-specific mortality (Aune dose-response MA, per 28 g/day). Sizeable inverse RRs, an observed
+  plateau at 15-20 g/day, but observational-only (healthy-user ceiling, no MR); "20 g optimal" is a
+  study-edge, not a derived optimum
 - [[Red and Processed Meat and Cancer]] — whether red or processed meat causes cancer, by how much, and
   whether the evidence warrants reducing intake
+- [[Vegetarian Dietary Patterns and Mortality]] — the AHS-2 cohort (Orlich 2013) leg of the
+  `dietary-patterns` cluster: vegetarian/vegan/pesco/lacto-ovo patterns -> all-cause mortality \~0.88
+  (pesco/vegan-in-men steepest, semi null; strictness does not reward), plus a diabetes/renal channel
+  and a male-concentrated CV signal (diet x sex P=.01 for CVD). Single confounded cohort — the
+  healthy-adherent bundle is the ceiling; the EPIC-Oxford divergence shows "vegetarian" is not one
+  exposure
 - [[Fermented Foods and Health]] — the `fermented-foods` nucleus: do live-fermented foods move a
   patient-important outcome, and is the effect the live cultures, the food matrix, or fermentation's
   biochemistry? Held evidence is thin (one surrogate-outcome RCT + two observational fermented-dairy CVD

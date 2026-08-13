@@ -10,13 +10,16 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
     - Indirectness of Evidence
+    - The Insufficient-Evidence Statement
+    - Red and Processed Meat and Cancer
+    - Measurement Error in Dietary Assessment
     - Baseline Risk and the Relative-Absolute Split
     - Physical Activity Dose and Mortality
     - Confidence in Science Without a Replication Crisis
     - Linoleic Acid and Cardiovascular Disease
     - The Observational-Trial Discordance
 created: 2026-07-25
-updated: 2026-08-08
+updated: 2026-08-13
 self_critiqued: 2026-08-08
 ---
 
@@ -143,6 +146,17 @@ records the criteria as met; it does not issue an upgrade verdict (adjudication 
 
 - **Direction of the bias is a usable argument.** Asking "which way would the unmeasured confounders
   push?" can strengthen a finding, not only weaken it.
+- **Significance is not the credibility threshold — a small RR is not "real because significant."**
+  Significance is a CI-excludes-1.0 fact (precision-driven — a big cohort makes RR 1.05 significant),
+  not a point-estimate cutpoint, so "is it 1.1, 1.15 or 1.2?" has no answer there. The magnitude
+  governing *causal credibility from association alone* is GRADE's rate-up bar of **\~2 (or <=0.5)** —
+  far above where most nutritional exposures sit (red/processed meat 1.12/1.16
+  -> [[Red and Processed Meat and Cancer]]). Below it a cohort association needs triangulation
+  (MR/RCT/convergence); below-2 means **insufficient on its own, never false**
+  -> [[The Insufficient-Evidence Statement]]. Applied symmetrically — a small protective RR earns the
+  same doubt as a small harmful one (and measurement error usually attenuates toward the null, so a
+  modest RR can understate a real effect too -> [[Measurement Error in Dietary Assessment]]).
+
 
 ## Limits
 

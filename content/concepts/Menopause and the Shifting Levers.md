@@ -15,9 +15,12 @@ relationships:
     - Protein and Resistance Training for Muscle and Strength
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Surrogate Outcomes
+    - Ectopic Fat and Depot-Specific Risk
+    - Baseline Risk and the Relative-Absolute Split
+    - Upgrading Observational Evidence
 created: 2026-08-01
-updated: 2026-08-08
-self_critiqued: 2026-08-08
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 ---
 
 Menopause is a **life-stage stratum**, not a disease and not a fringe topic: it changes *which levers
@@ -116,6 +119,12 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
 - **Visceral/central fat** -> the visceral-adiposity lever the telos names as a big rock. Reducing it moves
   liver, glycaemia and blood pressure -> [[Weight-Loss Maintenance and Metabolic Adaptation]],
   [[Fatty Liver MASLD and Weight Loss]]. This is where the menopause increment actually sits.
+  [[Ectopic Fat and Depot-Specific Risk]] refines *how* central fat matters: there visceral fat is a
+  **marker for intra-organ (liver/pancreas) fat**, not itself the pathogenic depot (Taylor's demotion of
+  visceral fat to a surrogate) — so *insofar as* menopause redistributes fat centrally (this page's hedged
+  «possible» claim, not an established one), it moves fat toward the compartment that carries the risk, and
+  the waist stays the right thing to measure precisely *as that marker*, a step removed from the fat doing
+  the damage.
 - **Lean-mass / sarcopenia** -> resistance training + adequate protein. Critically, HRT is **not** the
   muscle lever: «Systematic reviews find that hormone therapy had neither a beneficial nor harmful
   association with muscle mass ...; therefore, it is likely that interventions other than hormone therapy
@@ -166,7 +175,9 @@ menopause. -> [[Surrogate Outcomes]].
 - **Stratify by baseline-risk shift (route a), not by a new subgroup effect.** Menopause raises the central
   fat and fracture baselines; the *interventions* are the ones already ranked
   -> [[Layer 1 - Ranking Interventions for a Stratum]]. This is not personalization on an effect-modifier —
-  it is the same levers at a shifted baseline.
+  it is the same levers at a shifted baseline -> [[Baseline Risk and the Relative-Absolute Split]] (the
+  route-(a) case: absolute benefit rises with the shifted baseline while the relative effect is unchanged,
+  so no in-stratum subgroup claim is needed).
 - **Out of scope (appraise, do not prescribe):** individual HRT candidacy, dosing, monitoring — see the
   comparator page and the prescriber boundary there.
 
@@ -179,7 +190,9 @@ menopause. -> [[Surrogate Outcomes]].
   high heterogeneity and some publication-bias asymmetry; magnitudes are descriptive, and cross-sectional
   confounding + measurement error both bias toward noise. The quantity-is-aging conclusion is the MA's own,
   but *no additional menopause influence on quantity* is a *failure to detect*, not proof of no effect
-  (expectancy caveat) -> [[The Insufficient-Evidence Statement]].
+  (expectancy caveat) -> [[The Insufficient-Evidence Statement]]. And the base has no upgrade route: the
+  effect sizes here are modest, cross-sectional, and carry no genetic-instrument or trial check that could
+  raise the confidence a cohort design alone allows -> [[Upgrading Observational Evidence]].
 - **The redistribution claim is the weaker half — and its weaknesses are not symmetric with the null's
   (added 2026-08-08).** The MA can separate menopause-from-aging only for *quantity*: there it has an
   external aging benchmark — «for women aged 18-45 years the typical trends for BMI and BF % is an increase

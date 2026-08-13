@@ -2,8 +2,8 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org)]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024]
 cluster: nutrition
 confidence: low
 self_critiqued: 2026-08-05
@@ -14,8 +14,9 @@ relationships:
     - Free Sugars Intake
     - Antinutrients in Plant Foods
     - Protein Quality and the DIAAS Score
+    - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-27
-updated: 2026-08-05
+updated: 2026-08-13
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -442,5 +443,19 @@ fibre signal + adenoma RCT-null); the whole-grain benefit here stays `confidence
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The whole-grain benefit is **cohort-only**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal tool, with domain 1 (confounding) and domain 3 (classification — what counts as “whole grain”) the likely caps. Re-appraisal candidate on the RoB-tools page; not re-graded here.
+
+## A sixth family adds GI/GL as a co-equal carb-quality marker — Jenkins 2024 `[2026-08-13]`
+
+Jenkins 2024 (gold MA, 10 mega-cohorts) compared **low-GI diets directly against high-whole-grain
+diets in the same cohorts** and found «Associations between diets high in fibre and whole grains and the
+four main outcomes were similar to those for low GI diets».
+[@jenkins2024gi] Most GI-vs-wholegrain
+group-difference p-values were non-significant — but the comparison «only included one or two cohorts for
+most outcomes», so the equivalence is thinly powered. This **strengthens this page's component-not-
+category reading**: whole grain, fibre and GI/GL are collinear markers of one carbohydrate-quality
+pattern (the source itself notes «foods high in carbohydrates also tend to have a high GI»), so their
+near-identical associations do not establish any one as an independent lever. Full GI/GL magnitudes and
+the proxy-vs-lever analysis: [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
+[inferred from @jenkins2024gi]
 
 ## References

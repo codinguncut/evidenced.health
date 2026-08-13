@@ -2,7 +2,7 @@
 type: hub
 question: How much protein, from which sources and at what quality, changes a patient-important outcome — and which supplements are worth taking, for whom, at what dose?
 created: 2026-08-04
-updated: 2026-08-06
+updated: 2026-08-13
 ---
 
 Navigator for the protein-nutrition and supplement clusters — how much protein and which sources change
@@ -25,6 +25,8 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake and Kidney Function]] — does higher protein harm the kidneys? Devries 2018 SR-MA: no
   change in GFR in adults *without* CKD (the GFR rise is benign kidney functional reserve); the standing
   objection to a higher target, defused for the healthy — with a hard stratum flip for established CKD
+- [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
+  deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
 ## Supplements — worth taking or not
 

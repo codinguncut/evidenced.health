@@ -7,316 +7,214 @@ authors: [Wastyk, Hannah C; Zhang, Kui; Guo, Jing; World Gastroenterology Organi
 sources: [Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Wastyk - Fermented Foods Microbiota Immune RCT 2021, WGO - Probiotics and Prebiotics Global Guideline 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-11
-self_critiqued: 2026-08-11
+updated: 2026-08-12
+self_critiqued: 2026-08-12
 ---
 
-## §1 — Verdict
+The honest verdict is that live-fermented foods carry a real but small and mechanistically unresolved
+signal, and that the confident version of the claim — *fermented foods are good for your gut* — runs
+well ahead of what has actually been measured. The strongest thread is fermented dairy, where large
+observational studies find a modest association with less cardiovascular disease; a widely-cited
+experiment raised gut-microbe diversity and lowered inflammation markers, but those are laboratory
+surrogates, not health outcomes, and the trial's own primary result was flat.
 
-Ask *are fermented foods good for my gut?* and you are really asking several questions at once.
-Separate them, hold each to the same standard any hyped food gets, and most come back with the
-same answer: **insufficient evidence**. Not disproven — unstudied. The fermented-food halo is
-mostly unearned.
+The fashionable ferments
+— kimchi, kombucha, sauerkraut, kefir — have essentially no hard-outcome human evidence at all, which
+is a different thing from evidence that they do nothing. And a question the popular story treats as
+settled is in fact untested: nobody has shown whether the *live cultures* are the active ingredient,
+or whether a pasteurized, dead-culture version would work just as well. Treat a fermented-food health
+halo as a claim to check, not a credential — the same scrutiny any hyped food gets.
 
-The fabric holds only two pieces of positive content, and both are weak. One is a fragile
-observational signal that fermented **dairy** tracks lower cardiovascular *incidence* — but it
-vanishes on mortality, stroke and heart disease taken alone, it rests on self-reported intake, and
-a dose-response reanalysis shows the whole inverse association hangs on a single cohort. The other
-is a small, uncontrolled trial in which fermented foods raised gut-microbe diversity and lowered
-some inflammatory proteins — every one a surrogate marker, and the trial's own pre-registered main
-outcome was null. Blood sugar, insulin, lipids, blood pressure and waist size did not move.
+## One lay question splits into four decisions, and the evidence answers each one differently
 
-No fermented food has hard-outcome trial evidence. Kimchi, sauerkraut, kombucha and kefir have
-essentially no human data on mortality, diabetes or symptoms. That is a "not yet," not a verdict
-against them — and not a licence to invent an effect.
+*Are fermented foods good for my gut?* bundles four separable questions that need separate answers, a
+distinction the discriminator [[Is the Food Category Doing Any Work]] makes for a food *process* rather
+than a food category
+[inferred from @wastyk2021].
 
-The mechanism is unresolved, and one missing experiment is why. A fermented food differs from its
-parent three ways — the live microbes, the food matrix, and the biochemistry fermentation performs
-— and only the first requires the cultures to be *alive*. The test that would separate them (compare
-the live food against a pasteurized, dead-culture version) has never been run. So "it works because
-of the live cultures" is a hypothesis. Where any effect exists, it may be the matrix, the
-biochemistry, or simply that fermented-food eaters are healthier to begin with.
+- **What is the effect on a patient-important outcome** (heart disease, diabetes, gut symptoms,
+  death) — and is the endpoint a hard outcome or a surrogate marker?
+- **Where does any effect come from** — the live cultures (a probiotic effect), the food matrix
+  (dairy or vegetable substrate), or the biochemistry fermentation performs (lactose reduction,
+  bioactive peptides, vitamin K2, organic acids)?
+- **Must the cultures be alive?** A pasteurized-after-fermentation version is the natural experiment:
+  if the dead-culture version works too, the effect is matrix or biochemistry, not the live microbes.
+- **Is any effect microbiome-mediated**, and if so, how? -> [[Gut Microbiome and Health]]
 
-As a lever, this is small, and the attention it gets runs far ahead of the established effect —
-which is itself the signal that the large levers lie elsewhere. Confidence is **low**, and uneven:
+Keeping these apart matters because a compelling matrix-or-culture *story* can quietly override the
+thinner *outcome* evidence. The provenance of a food — traditional, natural, fermented — carries no
+health information on its own; only measured outcomes do.
 
-| Leg | Direction | Certainty |
-|---|---|---|
-| Fermented dairy -> CVD incidence | inverse, fragile | **low** |
-| Fermented dairy -> CVD / all-cause mortality | null | **low** |
-| Fermented foods -> inflammatory markers | down (surrogate) | **insufficient** |
-| Fermented foods -> microbiome diversity | up (surrogate) | **low** |
-| Cardiometabolic markers (glucose, lipids, BP, waist) | none | **low** |
-| Must cultures be alive? (mechanism) | unknown | **insufficient** |
-| Kimchi / kombucha / sauerkraut / kefir -> hard outcomes | unknown | **insufficient** |
+## The one randomized trial moved laboratory surrogates, not a single hard outcome
 
-Two caveats bind the whole page: every interventional win here is a *surrogate*, and every
-observational leg rests on food-frequency questionnaires with the healthy-user confound. No
-absolute risks are recoverable — the dairy signal is reported as odds ratios only.
+The interventional anchor is a small Stanford trial (Wastyk 2021, high tier): 39 healthy adults
+randomized to a high-fermented-foods diet or a high-fibre diet, with the fermented arm pushing intake
+from 0.4 to 6.3 servings a day over the intervention
+[@wastyk2021]. Read by evidence weight,
+the results are more modest than they are often presented:
 
-## §2 — The discriminator: live culture vs matrix vs biochemistry
+- **The pre-registered primary outcome was null.** In the study's own words, «Although cytokine
+  response score (primary outcome) was unchanged, three distinct immunological trajectories in
+  high-fiber consumers corresponded to baseline microbiota diversity. Alternatively, the
+  high-fermented-food diet steadily increased microbiota diversity and decreased inflammatory markers.»
+  [@wastyk2021] The diversity and
+  inflammation results are *secondary and exploratory* outcomes — the streetlight caveat is built into
+  the study's own design.
+- **Inflammatory markers did fall:** 19 of 93 serum inflammatory proteins decreased over the fermented
+  intervention, none of them in the fibre arm
+  [@wastyk2021].
+- **Every marker of actual cardiometabolic health stayed flat.** Blood glucose, insulin,
+  triglycerides, LDL and HDL cholesterol, blood pressure and waist circumference were measured, and
+  «no differences were observed in this generally healthy cohort»
+  [@wastyk2021] — the changes the study
+  did see were in the secondary and exploratory surrogates, not these.
 
-A fermented food differs from its unfermented parent in three separable ways, and each licenses a
-different action. Yogurt is not milk, kimchi is not cabbage — but *why* they differ splits three ways,
-and only one of them is about the microbes.
+Microbiome diversity and inflammatory proteins are surrogates: a change in one is not a
+patient-important outcome until its transmission to a real endpoint is itself evidenced, and here it is
+not -> [[Surrogate Outcomes]]. The design bounds what can be claimed — the trial had 18 participants
+per arm, no control arm, and unknown durability
+[@wastyk2021] — and the author line
+carries a founder and shareholder conflict, a halo tell held to the same standard as any other
+[@wastyk2021]. So the fair reading is
+insufficient evidence on hard outcomes, not proof of benefit and not proof of none.
 
-- **Live cultures (probiotic).** The viable microbes fermentation adds, arriving alive in the gut.
-  *Probiotic* here means live microbes eaten for an effect — distinct from *prebiotic* below.
-- **The food matrix.** The dairy or vegetable substrate itself — its structure and nutrients —
-  independent of whether anything fermented it.
-- **The biochemical modification.** What fermentation *does* to the substrate: lactose reduction,
-  bioactive peptides, vitamin K2, fewer antinutrients, organic acids. This survives heat.
+## The cardiovascular signal is real but confined to fermented dairy — and one cohort carries it
 
-The three routes make **different predictions about a dead-culture version**. Only route (1) requires
-the cultures to be alive; the matrix and the biochemical changes are intact whether the microbes live or
-die. So *fermented foods work because of the live cultures* is one specific claim among three, and the
-burden sits on whoever makes it. This is [[Is the Food Category Doing Any Work]] applied to a *process*
-rather than a category: naming which route carries any effect is the whole game, because the routes point
-at different foods and different actions.
+The observational evidence is stronger, and it is entirely about fermented *dairy*, not ferments in
+general. Pooling 10 cohorts (385,122 people), Zhang 2019 (gold tier) found «significantly decreased
+CVD risk was found to be associated with fermented dairy foods intake (OR = 0.83, 95% CI = 0.76-0.91)»
+[@zhang2019]. That is the
+so-called full-fat-dairy paradox: a favourable cardiovascular signal despite the saturated fat, which
+composes with the case that saturated fat is the wrong exposure to track
+-> [[Is the Food Category Doing Any Work]]. But the aggregate oversells, in three ways.
 
-Keep the prebiotic route separate. A **prebiotic** is a substrate — largely fermentable fibre — that
-*feeds* the microbes already resident in the gut; the eater adds food for their own bacteria, not new
-bacteria. A **probiotic** food *adds* microbes. The prebiotic evidence is therefore largely the fibre
-evidence -> [[Dietary Fibre and Health]], and it does not transfer to the live-culture claim.
-Conflating the two lets a fibre finding masquerade as a fermented-food one.
+- **The signal is on disease incidence, not death.** The favourable pooled estimate is carried by CVD
+  *incidence* (OR 0.80, 95% CI 0.72-0.89), while CVD mortality (OR 0.94, 95% CI 0.80-1.11), stroke
+  (0.87, 0.75-1.01) and coronary heart disease taken alone (0.85, 0.67-1.08) all cross 1
+  [@zhang2019].
+- **The studies disagree wildly with each other.** Heterogeneity was extreme (I2 = 94.0%)
+  [@zhang2019]; a pooled average
+  over cohorts this discordant describes no single population.
+- **It is observational and confounded.** Intake was measured by food-frequency questionnaire, whose
+  measurement error is the binding constraint in this field
+  -> [[Measurement Error in Dietary Assessment]], and people who eat fermented dairy differ
+  systematically from people who don't.
 
-## §3 — Outcome by outcome
+A second gold-tier meta-analysis pulls the estimate down rather than confirming it. Guo 2017's
+dose-response slope is a marginal 2% — RR 0.98 (0.97-0.99) per 20 g/day of fermented dairy for both
+mortality and CVD [@guo2017].
+And within fermented dairy the signal is **cheese, not yogurt**: cheese carried a «2% lower risk of CVD
+(RR 0.98, 95% CI 0.95-1.00 ... ) per 10 g/day, but not yogurt»
+[@guo2017]. The slope is also
+fragile: «the inverse associations of fermented dairy and cheese with all-cause mortality or CVD
+disappeared after removing the study of Michaelsson et al.»
+[@guo2017]. One Swedish
+cohort carries the whole signal.
 
-Sort the evidence by what it measures. One leg touches a hard endpoint (cardiovascular events);
-the rest are surrogates — microbiome composition and blood markers — or absent. The honest picture
-is thin, uneven, and mostly not causal.
+Crucially, **these two dairy meta-analyses are not independent replication.** They share cohorts —
+including the same Michaelsson outlier — and they measure different contrasts (a high-versus-low odds
+ratio versus a per-gram dose-response slope), so Guo does not *corroborate* Zhang; it *bounds* it,
+showing the effect is smaller per unit and hostage to a single confounded study.
+[inferred from @guo2017; @zhang2019]
+Neither reports
+absolute risks, so the magnitude that would actually drive a decision cannot be recovered
+-> [[Baseline Risk and the Relative-Absolute Split]]. The wider milk-and-dairy mortality picture, where
+much of the apparent signal looks like artifact, is worked on [[Dairy and Cardiometabolic Health]] and
+[[The U-Shaped Association Artifact]].
 
-**(a) Fermented dairy and cardiovascular events (observational).** Zhang 2019 pooled 10 cohorts
-(385,122 participants) and found «statistical evidence of significantly decreased CVD risk was found
-to be associated with fermented dairy foods intake (OR = 0.83, 95% CI = 0.76-0.91)»
-[@zhang2019]. That aggregate
-oversells. Decompose it by endpoint and the signal is on incidence alone:
+Note also that the trial and the cohorts are not two routes to one conclusion. Wastyk measured a
+*surrogate* (inflammation) in *broad* ferments; Zhang measured *events* in *dairy only*. An
+inflammation-lowering pathway is a plausible bridge to a cardiovascular benefit, but a surrogate in one
+exposure and an event in a different exposure do not confirm each other — the bridge is a hypothesis
+the held evidence cannot close.
+[inferred from @wastyk2021; @zhang2019]
 
-| Endpoint | OR (95% CI) | Significant? |
-|---|---|---|
-| Overall CVD | 0.83 (0.76-0.91) | yes |
-| CVD incidence | 0.80 (0.72-0.89) | yes |
-| CVD mortality | 0.94 (0.80-1.11) | no — crosses 1 |
-| Stroke | 0.87 (0.75-1.01) | no |
-| CHD | 0.85 (0.67-1.08) | no |
+## No study here tests whether the cultures have to be alive
 
-[@zhang2019]
+This is the question the popular account treats as answered and the evidence leaves open. A fermented
+food differs from its unfermented parent in three separable ways, and they license different actions:
+the *live cultures* (viable microbes reaching the gut), the *food matrix* (the substrate itself), and
+the *biochemistry* fermentation performs (which survives pasteurization). The clean way to separate
+them is to compare a live-culture ferment against a pasteurized-after-fermentation version with the
+cultures killed — and **neither held source runs that experiment**
+[inferred from @wastyk2021].
+Until it is run, *fermented foods work because of the
+probiotics* is a mechanism hypothesis, not a finding, and a probiotic-viability / pasteurized-comparison
+review is a named gap the fabric does not hold.
 
-Mortality, stroke, and CHD taken alone all cross 1. Heterogeneity is extreme (I2 = 94.0%), so the
-pooled central estimate describes no single population
-[@zhang2019]. And it is
-odds-ratio-only: no baseline rates are reported, so no absolute risk is recoverable and the
-decision-relevant magnitude cannot be read off ([[Baseline Risk and the Relative-Absolute Split]]).
+What little the trial says about mechanism cuts against the naive picture anyway. The diversity increase
+in the fermented arm was not the eaten microbes colonizing the gut: it «was not primarily due to
+consumed microbes but rather a result of shifts in or new acquisitions to the resident community»
+[@wastyk2021]. So even the microbiome
+route, to the extent it operates, is an *indirect* remodeling of the community you already have, not
+*eat live bacteria -> they take up residence*. This keeps the prebiotic route (fibre feeds resident
+microbes -> [[Dietary Fibre and Health]]) distinct from the probiotic route (fermented foods add
+microbes), and both sit at surrogate level here -> [[Gut Microbiome and Health]].
 
-**(b) The dose-response bounds that signal downward.** Guo 2017 (29 cohorts) is a refinement of the
-same cohort base, not a second witness — it shares studies with Zhang and measures a different
-contrast. Its per-unit slope is a marginal 2%: RR 0.98 (0.97-0.99) per 20 g/day for both mortality
-and CVD, cheese RR 0.98 (0.95-1.00) per 10 g/day, and yogurt null
-[@guo2017]. The inverse
-association is hostage to a single cohort: «the inverse associations of fermented dairy and cheese
-with all-cause mortality or CVD disappeared after removing the study of Michaelsson et al. [6]»
-[@guo2017].
+## A fermented food delivers an undefined dose of undefined strains
 
-Guo therefore bounds Zhang, and the composite verdict is weaker than either headline: fermented dairy is at best
-weakly and fragilely inverse for cardiovascular disease, driven by cheese and by incidence, and
-artifact-sensitive on mortality. Both legs rest on self-reported intake by food-frequency
-questionnaire (FFQ) — large measurement error, and fermented-dairy eaters differ systematically
-from non-eaters (the healthy-user confound), so neither leg is causal.
+Even granting a probiotic mechanism, the broader microbiome evidence sets a bar fermented foods do not
+obviously clear. The World Gastroenterology Organisation's central discipline is that «the effects of
+probiotics are strain-specific and dose-specific»
+[@wgo2023]: benefit attaches to
+particular strains, at particular doses, for particular indications — not to *probiotic* as a class,
+and not to *bacteria* in the abstract. A live ferment is a mixed, unstandardized, often unlabelled
+community of organisms at an unknown dose, which is precisely the situation in which a strain-and-dose
+standard is hardest to meet
+[inferred from @wgo2023].
+Where defined probiotics have real, outcome-level wins — antibiotic-associated
+diarrhoea, *C. difficile* prevention, necrotizing enterocolitis in preterm infants — the evidence is
+tied to named strains, not to eating live-culture yogurt -> [[Gut Microbiome and Health]].
 
-**(c) Inflammation and immune markers (one small RCT, surrogate).** Wastyk 2021's pre-registered
-primary outcome was null: «Although cytokine response score (primary outcome) was unchanged, three
-distinct immunological trajectories in high-fiber consumers corresponded to baseline microbiota
-diversity. Alternatively, the high-fermented-food diet steadily increased microbiota diversity and
-decreased inflammatory markers.»
-[@wastyk2021]. The much-cited result
-— 19 of 93 serum inflammatory proteins fell in the fermented arm — is a *secondary and exploratory*
-outcome, not the primary. The trial had n=18/arm, «The study had no control arm»
-[@wastyk2021], and a founder
-/shareholder conflict on the author line. This is a surrogate signal from an underpowered study:
-insufficient evidence, not a demonstrated benefit.
+## The trendy ferments are unstudied, not disproven
 
-**(d) Cardiometabolic markers (same RCT): flat.** Every measured marker of actual cardiometabolic
-health was unchanged: «blood glucose, insulin, triglycerides, low-density lipoprotein cholesterol
-(LDL-C), high-density lipoprotein cholesterol (HDL-C), blood pressure, and waist circumference ...
-no differences were observed in this generally healthy cohort»
-[@wastyk2021]. So even within the one
-interventional study, the surrogate that moved (inflammatory proteins) sat beside a full panel that
-did not.
+Kimchi, sauerkraut, kombucha and kefir have essentially no hard-outcome human evidence. That is the
+*insufficient-evidence* state — not yet studied enough to say — and it is distinct from *no effect*:
+the honest move is to name the gap, not to manufacture a benefit from mechanism or tradition, and not
+to dismiss the foods either
+[inferred from @wastyk2021].
+Two more specific gaps sit alongside it: a yogurt/fermented-dairy-to-type-2-diabetes dose-response
+meta-analysis, the candidate second hard-ish endpoint for fermented dairy, is not yet held; and the live-versus-pasteurized review
+above. And the fermented *soy* foods (miso, tempeh, natto) are a distinct exposure appraised separately
+-> [[Soy Products and Health]], not covered by the dairy evidence here.
 
-**(e) Everything else: no data.** Mortality, type-2 diabetes, and gastrointestinal symptoms for
-broad fermented foods — kimchi, sauerkraut, kombucha, kefir — have essentially no hard-outcome human
-evidence. That is a named gap (§7), and it is insufficient evidence, not a proven null.
+One structural point keeps this in proportion. Fermented foods are discussed far out of proportion to
+their established effect size, and in a mature area attention runs *inversely* to effect size — the big
+levers are settled and boring, the small ones contested and viral. Rank by expected effect, not by
+volume of discussion -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-## §4 — Where does any effect come from? (mechanism attribution)
+## The bottom line
 
-The fabric holds two positive signals for fermented foods. They point the same friendly direction, which
-invites reading them as two witnesses agreeing. They are not: they measure **different quantities in
-different foods by different designs**, so neither corroborates the other.
-
-The Wastyk RCT fed broad ferments (yogurt, kefir, kimchi, kombucha, brine drinks) to healthy adults and
-watched surrogates — microbiome diversity and inflammatory proteins. The Zhang meta-analysis of cohorts
-watched cardiovascular *events*, and only for fermented **dairy**. Every parameter differs:
-
-| Parameter | Wastyk 2021 | Zhang 2019 | Same quantity? |
-|---|---|---|---|
-| Exposure | broad fermented foods | fermented **dairy only** (cheese, yogurt) | **NO** |
-| Design | 2-arm RCT, no control arm, n=18/arm, 10 wk | MA of 10 FFQ cohorts, 385k | **NO** |
-| Outcome | **surrogate**: diversity, 19/93 inflammatory proteins | CVD **events** (incidence/mortality) | **NO** |
-| Effect form | within-arm change over time | pooled OR 0.83 (0.76-0.91) | **NO** |
-
-[@wastyk2021]
-[@zhang2019]
-
-Every row reads NO, so this is a **distinction, not independent backing and not a clash to resolve** — a
-FFQ (food-frequency questionnaire, self-reported intake) cohort on dairy and a surrogate RCT on broad
-ferments answer different questions. The only thing linking them is a *candidate mechanism*:
-inflammation-lowering is a plausible pathway to a cardiovascular benefit. But a surrogate measured in one
-exposure and an event measured in another do not confirm each other. The inflammation -> CVD bridge is a
-hypothesis the held evidence cannot close, never corroboration.
-
-The probiotics guideline sharpens why the live-culture route resists a blanket claim. Its central
-discipline: «the effects of probiotics are strain-specific and dose-specific»
-[@wgo2023], and «the most robust
-approach to probiotic evidence is to link benefits ... to specific strains or strain combinations of
-probiotics at the effective dose»
-[@wgo2023].
-*Strain-specificity* means the exposure is a named strain at a named dose — not the word
-"probiotic" and not the word "fermented".
-
-That is why the guideline's real wins do **not** license a fermented-food claim. Probiotics prevent
-necrotizing enterocolitis in preterm infants — «The number needed to treat to prevent one death from all
-causes by treatment with probiotics is 20» — but «not all probiotic preparations tested are effective»
-[@wgo2023]. The other wins — antibiotic-
-associated and *C. difficile*-associated diarrhoea — are the same shape: specific supplement strains at
-specific doses for specific indications.
-
-None of these is a bowl of kimchi. A strain x indication x dose win in a supplement trial is not evidence
-for a whole-fermented-food effect; treating the NEC NNT of 20 as a point for fermented foods launders a
-supplement result into a food halo. What the by-indication wins actually support is the deflationary
-reading — probiotics are targeted tools, **not a general tonic**.
-
-Net: whether any fermented-food effect runs through the live cultures, the matrix, or the biochemistry is
-**unresolved**, and the burden stays on the live-culture claim.
-
-## §5 — Must the cultures be alive? (the unrun natural experiment)
-
-There is a clean test that would separate the live-culture route from the other two, and it needs no new
-technology. **Pasteurize the food after fermentation** — heat it once the microbes have done their work.
-This kills the cultures but leaves the matrix and the biochemical modification untouched: the lactose is
-still reduced, the peptides and vitamin K2 and organic acids are still there. If the dead-culture version
-works as well as the live one, the effect was never the probiotics. If it works *less* well, the live
-cultures are carrying something.
-
-**Neither held source runs this experiment.** Wastyk fed live ferments against a fibre arm, never a
-pasteurized-dead arm; Zhang's cohorts recorded fermented-dairy intake without separating live from
-heat-treated products. So the comparison that would attribute the effect simply does not exist in the
-evidence the fabric holds.
-
-That makes *fermented foods work because of the live cultures* a **hypothesis, not a finding**. It is the
-central mechanism question for the whole topic, and its state is **insufficient evidence** — the
-expectancy test applied: the study that would settle it has not been run, so silence is not a null. This
-is not a dismissal of the probiotic route and not a proof that it does nothing; it is an open, named gap.
-
-
-The gap is why the attribution in the section above stays open. Without the pasteurized comparison, three
-explanations for any observed benefit remain live at once: the matrix, the biochemistry, and healthy-user
-confounding — fermented-food eaters differ systematically in diet, activity and income, and FFQ intake
-carries large measurement error. Until someone builds the dead-culture arm, the live-culture story is one
-candidate among several, not the answer.
-
-## §6 — Is any effect microbiome-mediated?
-
-The one place fermented foods clearly moved a biological measure is microbiome diversity — and even
-there, two things must be kept straight. First, the diversity rise was not the eaten microbes taking
-up residence (colonization); it was an indirect remodeling of the resident community — a shift in
-which bacteria the gut already hosts. Wastyk's own reading: «the increase in microbiota diversity in
-the high-fermented-food-diet arm was not primarily due to consumed microbes but rather a result of
-shifts in or new acquisitions to the resident community ... fermented food consumption has an
-indirect effect on microbiota diversity»
-[@wastyk2021].
-
-Second, a composition shift is a *surrogate*, not an outcome a person feels
-([[Surrogate Outcomes]]). The [[Gut Microbiome and Health]] discipline holds throughout: «it altered
-the microbiome» earns belief only when followed through to a patient-important endpoint, and here it
-is not — the diversity change reaches no hard outcome.
-
-Over the 10-week head-to-head, fermented foods raised diversity where the high-fibre arm did not:
-«alpha diversity, as determined by the number of observed amplicon sequence variants (ASVs), Shannon
-diversity, or phylogenetic diversity, did not change cohort-wide over the course of the intervention»
-in the fibre arm [@wastyk2021]. That
-does not contradict the long-term observation that microbial diversity tracks fibre intake. It is a
-distinction on horizon: a 10-week intervention against a multi-year association. Fibre's diversity
-effect plausibly needs longer than 10 weeks plus a source of new microbes; the fibre arm's clinical
-levers run through short-chain fatty acids, not a fast diversity gradient.
-
-The two routes are genuinely different. A prebiotic — fibre that feeds the resident microbes — is a
-distinct mechanism from a probiotic (fermented foods *adding* microbes); the prebiotic evidence is
-largely the fibre evidence ([[Dietary Fibre and Health]]). But both endpoints on offer here are
-surrogates. So even the microbiome result — the strongest thing the interventional evidence has —
-does not reach an outcome a person would notice.
-
-## §7 — Named gaps and the "not-yet" ferments
-
-The honest state of most of this field is insufficient evidence — unstudied, not studied-and-null.
-The expectancy test separates the two: silence from a question no one has asked is not a negative
-result. Each gap below is stated with no assumed direction.
-
-- **The live-vs-pasteurized viability trial is unrun.** Whether the cultures must be alive is the
-  mechanism question, and neither held source tests it. A pasteurized-after-fermentation arm (the
-  same food with the cultures killed) would separate the live probiotic from the food matrix and the
-  biochemistry. Until it runs, "fermented foods work because of the live cultures" is a hypothesis,
-  not a finding ([[Fermented Foods and Health]]).
-- **Kimchi, sauerkraut, kombucha, and kefir have essentially no hard human-outcome data.** They are
-  held as insufficient-evidence — not-yet, not dismissed. The symmetric-standards rule applies: their
-  traditional or "natural" standing carries no health-effect information, and no effect should be
-  manufactured to fill the blank.
-- **Yogurt and type-2 diabetes (dose-response)** would add a second, harder fermented-dairy endpoint,
-  but the source is not yet held.
-- **A pooled fermented-food effect on mortality or hard cardiovascular events across designs** is a
-  magnitude the fabric structurally cannot compute. Zhang (cohort OR) and Wastyk (RCT surrogate)
-  measure non-commensurable quantities, so no combined estimate is available — `G (needs
-  aggregation)`, an honest structural limit.
-- **Absolute risk for the fermented-dairy CVD signal is not recoverable.** The observational leg
-  reports odds ratios only, with no baseline rates, so the decision-relevant per-person magnitude
-  cannot be stated ([[Baseline Risk and the Relative-Absolute Split]]).
-
-## §8 — The decision
-
-- **Fermented foods are a small, optional lever, not a health move to prioritise.** The attention
-  they attract runs far ahead of any established effect — and in a mature field, that gap is itself a
-  clue that the large levers (not smoking, weight, blood pressure, activity) lie elsewhere
-  -> [[Layer 1 - Ranking Interventions for a Stratum]].
-- **If you already eat well and want to add one, live yogurt or fermented dairy is the least-unreasonable
-  choice** — low-cost, plausibly favourable on inflammation, carrying a fragile CVD-incidence signal.
-  Frame it as a substitution (it displaces something), not as a mandate, and expect no measurable change
-  in how you feel.
-- **Do not pay a premium for a probiotic promise the evidence has not earned.** Whether the cultures
-  must be alive is unknown; a strain-specific supplement for a specific indication is a different product
-  with different evidence, and neither warrants the other.
-- **Fermented soy (miso, tempeh, natto) is appraised elsewhere** — its matrix and isoflavone story lives
-  in [[Soy Products and Health]]; only the live-culture question is shared.
-
-The honest ceiling: the mechanism is unresolved, the trendy ferments are unstudied for hard outcomes, and
-the one interventional win is a surrogate. Your baseline health, what the fermented food displaces, and
-your own weighting of a low-cost habit decide the individual call, at layer 3.
+- **If the big levers are already handled** (not smoking, lean, active, sleeping enough), adding
+  live-culture yogurt or fermented dairy is a low-cost, plausibly inflammation-favourable substitution
+  with a supportive-but-confounded cardiovascular signal — but treat it as a *small* lever, not a
+  centrepiece.
+- **Do not switch to fermented foods expecting a measured health payoff on hard outcomes.** The only
+  trial moved surrogates and left cholesterol, glucose, blood pressure and weight unchanged.
+- **Do not read the cardiovascular signal as settled or general.** It is fermented *dairy* only, it is
+  on incidence rather than death, it rests heavily on one cohort, and no absolute-risk figure exists.
+- **Do not assume it is the live cultures.** That has never been tested against a dead-culture control;
+  if you value a ferment, value it for a reason that has been measured (e.g. lower lactose), not for an
+  unverified probiotic story.
+- **Do not treat kimchi, kombucha, sauerkraut or kefir as evidenced.** They are unstudied, which is a
+  reason to withhold judgment, not to recommend or to dismiss.
+- **For a defined microbiome benefit, match a specific strain to a specific indication** — a job for a
+  characterized probiotic, not a food of unknown composition.
 
 ---
 
-### Mandatory caveats
+**Four things this page cannot do for you.**
 
-- **Open loop.** This wiki grades internal coherence and fidelity to its sources — never whether a
-  recommendation actually improves outcomes in the world. A clean appraisal is not a validated result.
-- **Appraise, do not prescribe.** This is a general, population-level appraisal, not medical advice;
-  choosing a probiotic strain, dosing it, and screening for contraindications are prescriber acts
-  requiring information this document does not hold.
-- **A general appraisal, applied per person.** Your baseline health, diet, what a fermented food
-  displaces, and your realistic alternative decide the individual weighting.
-- **Health axis only.** This cut weighs fermented foods on cardiometabolic, immune and GI outcomes;
-  taste, cost, tradition and food culture are real and yours to weigh, named here but never priced into
-  the health verdict.
-- **The target is not agreement or divergence with any guideline.** It is showing how thin the
-  fermented-food evidence is — surrogate-heavy, observational, with the live-vs-dead mechanism untested —
-  and where, despite that, a small decision changes.
+- **The loop is open.** Nothing here has been graded against a realized outcome in a real person; this
+  is a judgment about the *evidence*, which can be internally sound and still wrong about the world.
+- **This appraises evidence; it does not prescribe.** Selecting, dosing and screening for interactions
+  or contraindications are prescriber acts requiring your history, labs and medications, which this page
+  does not hold.
+- **These estimates are population-level by default.** They describe reference classes, not you; an
+  individual causal effect is not identifiable even in principle.
+- **Stratify per person, and on one health axis only.** Weighting outcomes against each other, and
+  against non-health considerations (cost, ethics, environment), is yours to do — this page names the
+  health signal and stops.
 
 > [!info] Evidence box
 >
@@ -326,6 +224,6 @@ your own weighting of a low-cost habit decide the individual call, at layer 3.
 > | **Evidence included** | 4 sources — 2 gold, 2 high |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fermented%20Foods.md) |
+> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fermented%20Foods.md) |
 
 ## References

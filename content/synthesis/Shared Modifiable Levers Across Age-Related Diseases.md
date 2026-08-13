@@ -6,8 +6,8 @@ authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund Internatio
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-08
-self_critiqued: 2026-08-08
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 relationships:
   related_to:
     - Body Fatness and Cancer Risk
@@ -19,6 +19,7 @@ relationships:
     - Frailty
     - Knee Osteoarthritis and Modifiable Levers
     - Chronic Pain and Physical Activity
+    - Lifetime Benefit - The Frame for Younger Adults
   derived_from:
     - Dementia Prevention and Modifiable Risk Factors
     - Parkinsons Disease Modifiable Risk Factors
@@ -41,6 +42,19 @@ outcomes outranks one that moves one at equal per-outcome effect
 pulling the shared levers buys a *second* patient-important outcome (cognition) on top of CV events.
 [inferred from @livingston2024] This page lifts that from a footnote on one disease
 page to a cross-disease structural claim.
+
+**The frame compounds with time, not only across diseases.** The shared core is *midlife-onset with
+long latency* -- in the dementia body's life-course table, LDL, blood pressure, adiposity, smoking and
+diabetes are midlife factors driving *late-life* incidence
+-> [[Dementia Prevention and Modifiable Risk Factors]] -- so a 10-year, single-disease risk calculator
+understates these levers on **both** axes: neither the multi-outcome breadth above nor the decades of
+compounding exposure. The decision counterpart is the lifetime-benefit frame -- act early despite a low
+10-year number -> [[Lifetime Benefit - The Frame for Younger Adults]]. Its *logic* transports beyond CVD
+(the qualitative case for early action); its CVD-specific LIFE-CVD model and CVD-free-years currency do
+**not**, and the PAFs still do not sum (caveat below). The ESC below-40 "lifestyle over drugs" bound
+transports too -- but whether it *strengthens* off-CVD is open, since the shared-substrate hypothesis
+below implies the CVD preventive drugs (statins, antihypertensives, glycaemic control) may themselves be
+dementia levers, not a no-drug case.
 
 ## The parameter table — matched exposure, per-disease direction
 

@@ -1,0 +1,43 @@
+---
+type: hub
+question: Among the peripheral-lifestyle exposures the telos admits through their physical intersection — chronic stress, social connection, sense of purpose, and sun/UV — which move a patient-important physical outcome, by what channel, and are they levers or only markers?
+created: 2026-08-13
+updated: 2026-08-13
+---
+
+Navigator for the **peripheral-lifestyle** cluster the telos admits on the same evidence terms as food
+or activity, kept peripheral by the Layer-1 ranking rather than by a category ban: the psychosocial
+exposures that reach physical health mainly through the **HPA / allostatic (cortisol) channel** (chronic
+stress, isolation, purpose, depression), and the **light/sun (UV)** exposure whose effect is
+opposite-signed across outcomes. Two through-lines run the whole cluster: most of the evidence is
+**observational with the marker-vs-lever question open** (a psychosocial state predicts mortality partly
+as a marker of underlying health, few are proven treatment targets), and the physical intersection — not
+mood or life-satisfaction as ends in themselves — is what earns each page its place.
+
+## Stress and the HPA / allostatic channel
+
+- [[Allostatic Load and Mortality]] — nucleus of the `psychosocial` cluster: whether cumulative
+  multi-system stress physiology is a modifiable mortality *lever* or a prognostic *marker* to stratify
+  with — the physiological spine the chronic-stress exposures share
+- [[Stress Management and Cardiometabolic Health]] — whether a structured stress-management program
+  lowers blood pressure enough to matter, weighed against established BP levers (dual-domain; also in
+  [[Cardiometabolic Risk Hub]])
+- [[Depression and Modifiable Exposures]] — which modifiable lifestyle exposures reduce depression, for
+  whom and by how much — depression carried as a patient-important QoL outcome, not a mood end in itself
+
+## Connection and meaning
+
+- [[Social Connection and Mortality]] — poor social relationships (objective isolation vs subjective
+  loneliness — two distinct exposures) raise all-cause mortality and incident CHD/stroke (RR \~1.3) via
+  the HPA/allostatic channel; observational, causation unproven
+- [[Purpose in Life and Mortality]] — a higher eudaimonic sense of purpose predicts lower all-cause
+  mortality and CV events (RR 0.83) through the same cortisol channel; a marker not shown to be a lever,
+  discriminant validity vs depression/connection incomplete
+
+## Light and sun (UV) exposure
+
+- [[Sun Exposure UV and Health]] — nucleus of the `sun-uv-exposure` cluster (concept): how much sun/UV
+  to get when UV *causes* skin cancer yet sun-exposure habits *associate* with lower all-cause and
+  cardiovascular mortality — UV has opposite-signed effects on different outcomes
+- [[Melanoma and UV Exposure]] — what *pattern* of UV/sun exposure causes cutaneous melanoma (intermittent
+  burning vs cumulative dose are not one exposure), and whether sun protection reduces it

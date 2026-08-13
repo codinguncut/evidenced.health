@@ -2,7 +2,7 @@
 type: hub
 question: What raises or lowers hard cardiovascular risk, how is that risk estimated for a person, and which levers are worth pulling?
 created: 2026-08-04
-updated: 2026-08-05
+updated: 2026-08-13
 ---
 
 Navigator for the cardiovascular-risk cluster — estimating a person's baseline risk, the exposures and
@@ -27,13 +27,13 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[DASH Diet and Blood Pressure]] — the DASH pattern lowers BP/lipids (surrogates); a sodium-independent,
   whole-pattern lever, not double-counted with sodium reduction; DASH->events unproven, rides BP transmission
 - [[Stress Management and Cardiometabolic Health]] — whether a structured stress-management program
-  lowers BP enough to matter, weighed against established BP levers
-- [[Social Connection and Mortality]] — poor social relationships (objective isolation vs subjective
-  loneliness — two exposures) raise both mortality and incident CHD/stroke (RR \~1.3); HPA/allostatic
-  mechanism, observational, causation unproven
-- [[Purpose in Life and Mortality]] — a higher eudaimonic sense of purpose/meaning predicts lower
-  all-cause mortality + CV events (RR 0.83); same HPA/cortisol channel as connection but a distinct
-  exposure; marker not shown lever, discriminant validity vs depression/connection incomplete
+  lowers BP enough to matter, weighed against established BP levers (primary home:
+  [[Psychosocial and Environmental Exposures Hub]])
+
+The wider **psychosocial / HPA-channel exposures** that reach cardiometabolic risk through cortisol —
+social connection, sense of purpose, allostatic load, depression — plus **sun/UV** live in
+[[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
+BP levers.
 
 ## Lipids, drugs, and dietary patterns for CV events
 

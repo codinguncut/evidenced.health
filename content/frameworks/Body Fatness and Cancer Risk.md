@@ -7,7 +7,7 @@ sources: [WCRF - Diet Nutrition Activity Cancer 2018]
 cluster: cancer-prevention
 confidence: low
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-13
 self_critiqued: 2026-08-05
 relationships:
   related_to:
@@ -17,6 +17,7 @@ relationships:
     - Fatty Liver MASLD and Weight Loss
     - Physical Activity Dose and Mortality
     - The U-Shaped Association Artifact
+    - Red and Processed Meat and Cancer
 ---
 
 The leading *diet-adjacent* cancer exposure by **breadth of sites and strength of evidence** (WCRF does
@@ -44,6 +45,16 @@ increasing body fatness even within the so-called ‘healthy’ range. Neverthel
 gained by avoiding overweight and obesity.» [@wcrf2018ter] So the exposure is graded, not a threshold at BMI 25 — but the decision-relevant mass
 of benefit sits in avoiding overweight/obesity. Body-fatness grades are marked by BMI (± waist
 circumference / waist-hip ratio) [matrix asset p3, FN62-64].
+
+**Layer-1 — the larger cancer lever, and the one discussed least.** On WCRF's *own* cancer-prevention
+scale, body fatness spans 12-of-17 sites (IARC adds three) and is «one of the most important ways to
+protect against cancer», whereas red and processed meat earn only a single-site colorectal limit
+-> [[Red and Processed Meat and Cancer]]. Same grader, same convincing/probable scale, so the breadth
+is directly comparable rather than a cross-outcome guess: adiposity is the broader and more strongly
+graded lever, and a meat cut is a small-lever refinement of it. Public discourse runs the opposite way
+— meat carries the controversy, adiposity the quiet first recommendation — an instance of *attention is
+an anti-signal*.
+[inferred from @wcrf2018ter]
 
 ## Mechanism — why adiposity is *plausibly* causal (direction, not proof)
 

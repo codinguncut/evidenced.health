@@ -7,13 +7,14 @@ sources: []
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 relationships:
   related_to:
     - The Estimate-to-Action Gap
     - Measurement Error in Dietary Assessment
     - The U-Shaped Association Artifact
+    - Nut Consumption and Mortality
     - Deficiency Repletion vs Enhancement
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
@@ -164,6 +165,15 @@ harm-ceiling or a logistical cap, not by an optimum.
   manufactures one -> [[Measurement Error in Dietary Assessment]], so a *measured* plateau is weak
   evidence of a *true* one. Route 1 is real where a curve is genuinely flat, but it carries the least
   weight and leans on the other two.
+  - **A worked FOOD instance of both halves of the guard — nuts -> mortality `[2026-08-13]`.** Aune 2016's
+    nut dose-response is genuinely *observed* to flatten at \~15-20 g/day for CHD/CVD/all-cause (a real
+    Route-1 plateau, unlike fibre/sodium/sugar) -> [[Nut Consumption and Mortality]] — a second observed
+    plateau to set beside ESC fruit/veg, so the falsification's demotion (not its reversal) is what
+    nuts support. But it is FFQ-measured, so the flat top is exactly the *Route-3-downstream* case: the
+    measured plateau is weak evidence of a true one. And it carries the **boundary-as-target launder in the
+    wild** — Aune names 20 g/day «the optimal intake» *because* returns flatten there, i.e. a knee-region
+    relabelled a point-optimum. Read it as a floor-for-most-of-the-benefit with its studied range, never a
+    target.
 
 ## What survives — BOUNDED, not nihilism
 

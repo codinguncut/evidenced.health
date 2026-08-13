@@ -11,9 +11,10 @@ relationships:
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
     - Risk Modifiers - When Extra Information Changes a Risk Estimate
     - Baseline Risk and the Relative-Absolute Split
+    - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-07-26
-updated: 2026-08-04
-self_critiqued: 2026-08-01
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 ---
 
 A 10-year horizon under-states the case for acting in younger adults, and ESC says so plainly. **But
@@ -182,5 +183,21 @@ reclassified from an unqualified lever to a conditional, muscle-protective one
 So the decision-relevant trigger is **muscle status + remaining life expectancy + baseline risk, not
 chronological age** - a sarcopenic 58-year-old is already on the preserve-muscle side; a robust,
 high-visceral-fat 68-year-old is not.
+
+
+
+## The cross-disease companion - the frame's logic is not CVD-specific (2026-08-13)
+
+The 10-year-horizon failure applies to every *midlife-onset, long-latency* modifiable lever, not just
+CVD. Dementia is the clearest case: in that body's life-course table, midlife LDL, blood pressure,
+obesity, smoking and diabetes drive *late-life* incidence, so a low 10-year (single-disease) number
+understates them exactly as it does for CVD -- and the same shared core pays into several late-life
+outcomes at once -> [[Shared Modifiable Levers Across Age-Related Diseases]]. What transports is the
+*logic* (act early despite a low short-horizon risk), **not** the apparatus: the LIFE-CVD model and the
+CVD-free-years currency above are CVD-specific, and the wiki holds no dementia/PD lifetime model. The
+below-40 "lifestyle over drugs" bound transports too; whether it goes *further* off-CVD is open, since
+the shared cardiometabolic-vascular substrate implies the CVD preventive drugs may themselves reduce
+dementia risk (unsettled). This extends the frame's **scope** (wiki synthesis) - it is not a second
+guidance body endorsing lifetime framing (the *unprobed* gap in Limits stands).
 
 ## References

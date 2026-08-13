@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020]
+authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -17,8 +17,9 @@ relationships:
     - Upgrading Observational Evidence
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
+    - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-29
-updated: 2026-08-09
+updated: 2026-08-13
 self_critiqued: 2026-08-08
 ---
 
@@ -104,6 +105,17 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   linear. So *fibre has no plateau* is true of the outcomes and false of the LDL marker; the curve you get
   depends on the endpoint you pick. This is exactly why a plateau on a surrogate must not be read across to
   the outcome ([[Surrogate Outcomes]]).
+- **The monotone reading is the BENEFIT arm over the studied range, not the net curve.**
+  Reynolds' *"additional benefits likely to accrue with higher intakes"* is a benefit-arm claim *within
+  the sampled data* (a Route-2 open-topped direction -> [[The Underivable Optimum]]); it is not evidence
+  that the *net* curve keeps rising indefinitely. At high intakes the net plausibly turns non-monotone
+  through **mechanism, not measured outcome**: finite gut bulk displaces energy- and nutrient-dense foods,
+  and phytate co-ingested in fibre-rich foods interferes with mineral absorption, with GI tolerance a
+  further practical ceiling. The displacement bites hardest in the strata with least reserve (young
+  children, the malnourished, very-high-phytate diets). Held as directional mechanism only — no held
+  source dose-locates a net-harm threshold, and typical intakes sit far below where it would bind; the
+  point is narrow: *benefit-arm-monotone over the studied range* must not be read as *more-is-always-
+  better on net*.
 
 ## Fibre type, and the food-vs-isolate question
 
@@ -150,7 +162,10 @@ synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable 
   few tenths of a mmol/L at practical doses, dwarfed by the saturated-fat-replacement and drug levers
   ([[Saturated Fat Intake and Replacement]]). Do not oversell it as cholesterol therapy.
 - **Rank honestly.** Fibre is a real supporting lever, not a big rock; glycaemic index/load is a weaker
-  marker than fibre or whole-grain content and not worth optimizing for on this evidence.
+  marker than fibre or whole-grain content and not worth optimizing for on this evidence. `[2026-08-13:
+  Jenkins 2024 partially contests the "weaker" wording — see the GI/GL section below; the ranking
+  conclusion survives via collinearity, but the honest phrasing is "GI adds little BEYOND fibre/whole
+  grain," not "GI is weaker."]` -> [[Glycaemic Index and Glycaemic Load and Chronic Disease]]
 
 
 
@@ -296,5 +311,25 @@ effect is smallest — the LDL surrogate), and WCRF's "probable" does not upgrad
   F-refinement, not an opposed claim (checked against Veronese's own Discussion + Conclusion).
 - **Symmetric standards.** The mortality corroboration (conventional direction) is held to the
   same shared-cohort / observational caveat as any contested claim.
+
+## GI/GL sits ALONGSIDE fibre as a collinear carb-quality marker — Jenkins 2024 `[2026-08-13]`
+
+Jenkins 2024 (gold MA of 10 mega-cohorts) pooled GI/GL against the four main outcomes and compared them
+to fibre and whole grains **in the same cohorts**: «Associations between diets high in fibre and whole
+grains and the four main outcomes were similar to those for low GI diets.»
+[@jenkins2024gi] The authors read this as
+validating GI as an independent carbohydrate-quality predictor; **the wiki reads it as collinearity** —
+«foods high in carbohydrates also tend to have a high GI», and «only 12 (17%) of the 69 GI main outcome
+assessments controlled for fibre».
+[@jenkins2024gi] Similar magnitude among
+markers that ride together, in shared cohorts with minimal mutual adjustment, cannot attribute the
+effect to GI *rather than* the fibre/whole-grain pattern that carries it.
+
+**So this does not overturn this page's ranking — it re-words it.** GI/GL is not *weaker* than fibre on
+the numbers; it adds *little beyond* fibre/whole grain because it is a proxy for the same pattern.
+Steering by fibre and whole-grain content remains the honest lever. Full magnitudes, the guidance
+divergence (WHO 2019 dismissed GI; Jenkins rebuts), and the measurement-error caveat live on
+[[Glycaemic Index and Glycaemic Load and Chronic Disease]].
+[inferred from @jenkins2024gi]
 
 ## References

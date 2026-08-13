@@ -20,7 +20,7 @@ relationships:
     - Eggs Dietary Cholesterol and Cardiovascular Risk
     - Insulin Resistance Surrogates and Cardiovascular Risk
 created: 2026-07-29
-updated: 2026-08-09
+updated: 2026-08-12
 self_critiqued: 2026-08-08
 ---
 
@@ -127,7 +127,9 @@ So a raised TyG is a **prompt to measure apoB** in that person — the marker po
 apoB, not TyG, is the causal quantity and the target. Reading TyG (or the TG/HDL ratio) as a *rival* to
 LDL/apoB confuses a downstream readout of the atherogenic state for the causal driver within it ->
 [[Insulin Resistance Surrogates and Cardiovascular Risk]], [[Surrogate Outcomes]]. (This bridges the
-insulin-resistance and apoB axes that the wiki had held apart.)
+insulin-resistance and apoB axes that the wiki had held apart; the IR state itself originates in
+ectopic-fat overflow -> [[Ectopic Fat and Depot-Specific Risk]], where "metabolic status matters" is
+causal for the *glycemic* axis but the CVD *lipid* target within it is still apoB.)
 [inferred from @liu2022tyg; @ference2017]
 
 ## Second outcome — high LDL-C is a new (2024) dementia risk factor

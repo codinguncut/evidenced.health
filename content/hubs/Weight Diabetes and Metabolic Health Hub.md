@@ -2,7 +2,7 @@
 type: hub
 question: For weight loss, type 2 diabetes, and metabolic health, which dietary approach or drug works, at what dose, and does the effect last?
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-13
 ---
 
 # Weight, Diabetes, and Metabolic Health Hub
@@ -36,8 +36,11 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - [[Time-Restricted Eating]] — whether WHEN you eat, independent of what and how much, changes weight
   or cardiometabolic outcomes
 
-## Type 2 diabetes — control and remission
+## Type 2 diabetes — prevention, control, and remission
 
+- [[Lifestyle vs Metformin for Diabetes Prevention]] — in prediabetes, whether an intensive lifestyle
+  program or metformin better prevents progression to T2D (the DPP head-to-head), and where the route-(b)
+  effect-modification signal actually sits
 - [[Diets for Weight Management in Type 2 Diabetes]] — for someone who already has T2D, whether any
   dietary approach is clearly superior for weight and glycaemic control
 - [[Carbohydrate Restriction and Type 2 Diabetes Remission]] — whether restricting carbohydrate puts
@@ -53,6 +56,10 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   events, and whether that evidence reaches primary prevention
 - [[GLP-1 Non-Cardiometabolic Effects and Safety]] — the other half of the GLP-1 ledger: which
   non-cardiometabolic outcomes the class moves and how credible each signal is (gold umbrella)
+- [[GLP-1 and Lean Mass]] — when a GLP-1 drug drives rapid loss, how much of what is lost is muscle,
+  whether it exceeds ordinary weight loss, and what defends against it
+- [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]] — for T2D + CKD, whether semaglutide
+  reduces hard kidney and survival outcomes — a benefit beyond the CV/weight case (FLOW)
 - [[Fatty Liver MASLD and Weight Loss]] — for fatty liver, which modifiable lever works, at what dose,
   and what outcome it actually changes
 - [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating

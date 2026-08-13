@@ -7,7 +7,7 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-08
+updated: 2026-08-13
 self_critiqued: 2026-08-08
 relationships:
   related_to:
@@ -15,6 +15,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Baseline Risk and the Relative-Absolute Split
     - Which Objective Moved This Recommendation
+    - Body Fatness and Cancer Risk
 ---
 
 Two guideline families read **the same cohort evidence** and issue **opposite instructions** — WCRF
@@ -156,6 +157,14 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
   [inferred from @wcrf2018ter]
 - **Cancer only for WCRF; NutriRECS spans cardiometabolic + cancer + mortality.** The two do not cover
   identical outcome sets — matched only where both report colorectal cancer.
+- **The bigger cancer lever sits elsewhere (Layer-1).** On WCRF's own cancer-prevention scale the meat
+  limit is a single-site colorectal recommendation, whereas body fatness is graded a convincing/probable
+  cause across 12-of-17 sites and «one of the most important ways to protect against cancer»
+  -> [[Body Fatness and Cancer Risk]]. Same grader, same scale: for a person carrying excess adiposity
+  the meat decision is a small-lever refinement of the broader and more strongly graded adiposity
+  lever — rank the big rock first. (Meat carries the public controversy while adiposity gets the quiet
+  recommendation — *attention is an anti-signal*.)
+  [inferred from @wcrf2018ter]
 - **Not independent on the evidence.** Both draw on largely the same observational cohort literature;
   their divergence is in appraisal and standpoint, not in separate data (no [E-independent]).
 - Coherence, not validity (R1): the associations are what the cohorts report; whether reducing meat

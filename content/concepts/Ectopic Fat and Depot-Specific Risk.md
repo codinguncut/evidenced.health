@@ -8,7 +8,7 @@ cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-09
+updated: 2026-08-13
 self_critiqued: 2026-08-08
 relationships:
   related_to:
@@ -20,6 +20,7 @@ relationships:
     - Body Fatness and Cancer Risk
     - Layer 1 - Ranking Interventions for a Stratum
     - Insulin Resistance Surrogates and Cardiovascular Risk
+    - Menopause and the Shifting Levers
 ---
 
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
@@ -116,6 +117,14 @@ number.
 - **The lever is negative energy balance, whatever delivers it.** Ectopic fat comes down with sustained
   energy deficit; composition is secondary to the deficit for the depot-drawdown itself
   -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
+- **Metabolic status is the glycemic lever and a CVD-risk amplifier — but not a rival to apoB for the
+  CVD *lipid* decision.** The ectopic -> IR state raises cardiovascular risk partly by shifting the
+  lipoprotein profile toward more, smaller, apoB-bearing particles (atherogenic dyslipidemia), so within
+  that state the CVD lipid *target* is apoB particle number, not "improve metabolic status" read as a
+  competing lever -> [[LDL ApoB and Cumulative Exposure]]. Two truths a reader conflates: metabolic
+  status is genuinely causal for the **glycemic** axis (this spine), and genuinely **not** the CVD lipid
+  lever (apoB is); a raised TyG / TG-HDL *flags* the discordance, it does not replace measuring apoB.
+
 
 ## Limits
 

@@ -2,7 +2,7 @@
 type: hub
 question: How do muscle, bone, strength, and physical function change with age, which of them predict outcomes vs are modifiable levers, and how do protein, resistance training, and supplementation move them?
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-13
 ---
 
 Navigator for the muscle-bone-function domain — the substrate of the older-adult health-lever question:
@@ -40,8 +40,11 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily and per meal, and
   why it is complementary to the training stimulus (cross-ref: [[Protein and Supplements Hub]])
 
-## Bone and fracture
+## Bone, joints, and fracture
 
+- [[Knee Osteoarthritis and Modifiable Levers]] — for knee OA, which modifiable exposures reduce pain
+  and preserve function, and how they rank (weight loss the dominant lever; appraises the risk/function
+  levers, not the clinical management of established disease)
 - [[Vitamin D and Calcium Supplementation for Fracture Prevention]] — for whom supplementing vitamin D
   and/or calcium reduces fracture (Yao: null in the replete community-dwelling, benefit concentrated in
   the deficient/institutionalized), and the supplemental-calcium cardiovascular-harm signal (Bolland)

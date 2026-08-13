@@ -2,8 +2,8 @@
 type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
-authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017]
+authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco; Aune, Dagfinn]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Aune - Nut Consumption Mortality 2016]
 cluster: dietary-patterns
 nucleus: true
 confidence: medium
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-09
-self_critiqued: 2026-08-08
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 ---
 
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
@@ -84,6 +84,15 @@ same replacement [[Saturated Fat Intake and Replacement]] argues for on LDL/apoB
 adds the whole-pattern, hard-outcome version of that channel: a mono/polyunsaturated-rich pattern cut
 events. `[E-independent]` is NOT claimed — the mechanism overlaps the SFA-replacement channel rather
 than arriving from a separate route, so this is refinement/consistency, not independent backing.
+
+- **The nut component the RCT cannot isolate — an observational decomposition leg `[2026-08-13, Aune]`.**
+  PREDIMED's «reduced risk ... in subjects randomized to a Mediterranean diet with nuts» cannot say
+  «whether ... due to the Mediterranean diet component, nuts, or a combination of the two»
+  [@aune2016nut]. Aune 2016's nut-specific dose-response MA
+  (per 28 g/day: CVD 0.79, all-cause mortality 0.78) is the observational *component* estimate PREDIMED
+  cannot supply — but it is confounded-by-healthy-user and un-adjudicated (no MR), so it narrows the
+  decomposition gap rather than closing it -> [[Nut Consumption and Mortality]]. Type-F/gap, not
+  independent-E (the RCT and the cohort MA are not independent routes to one claim).
 
 
 

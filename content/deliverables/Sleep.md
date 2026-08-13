@@ -8,7 +8,7 @@ sources: [Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration T
 confidence: medium
 created: 2026-08-05
 updated: 2026-08-12
-self_critiqued: 2026-08-11
+self_critiqued: 2026-08-12
 ---
 
 Sleep matters, but *how much sleep is healthy?* is really several different decisions wearing one
@@ -67,6 +67,14 @@ long-sleep/dementia association «was **completely attenuated** after cases occu
 of follow-up were excluded», the fingerprint of reverse causation.
 [@livingston2024]
 
+The asymmetry holds on this outcome too. Long sleep is the dementia artifact — but the *short* arm keeps a
+small, mechanism-consistent dementia signal of its own: the million-woman study found «a slightly higher
+risk of dementia (RR 1.08, 1.04-1.12) among those who reported shorter but not very short sleep duration
+(<7 hours)», and Whitehall II linked persistent <=6 h across midlife to a «30% increased dementia risk».
+[@livingston2024] The 2024 Commission judged even this not yet
+clear enough and **declined to make any sleep-duration recommendation** — an honest insufficient-evidence
+stop, distinct from a finding of no effect.
+
 The practical consequence is a role reversal. A person who habitually sleeps nine or ten hours and wakes
 unrefreshed is a **candidate for evaluation of occult illness** — depression, sleep apnoea, undiagnosed
 disease, the frailty of age — not a target for a shorter alarm. Cappuccio puts the point at its bluntest:
@@ -80,11 +88,13 @@ round number "7-8 hours" lets on.
 
 Take the short arm at full strength first. Its **RR of 1.12 (1.06-1.18)** is significant and robust as a
 *direction* — it carries a mechanism, the Whitehall cause-specific split, low heterogeneity, and
-independent corroboration from the diabetes literature below. But **1.12 is small for an observational,
-self-reported, single-timepoint exposure — near the range that residual confounding alone can produce.**
-[@cappuccio2010] It is believed over the larger long
-arm because it has a mechanism and a direction, not because 12% is in itself compelling. The number
-points which way to move; it does not certify how far.
+independent corroboration from the diabetes literature below. The estimate itself — **RR 1.12
+(1.06-1.18)** [@cappuccio2010] — is small for an
+observational, self-reported, single-timepoint exposure, near the range that residual confounding alone
+can produce. (Cappuccio invokes «residual confounding» to discount the *long* arm; reading the
+same caution onto a hazard this small on the short arm is the wiki's appraisal, not the source's claim.)
+It is believed over the larger long arm because it has a mechanism and a direction, not because 12% is in
+itself compelling. The number points which way to move; it does not certify how far.
 
 It also does not certify *where* the risk sits. Cappuccio's short-sleep category is **pooled and flat**
 across its definitional cutoffs — <=5 h, <=6 h and <=7 h behave alike (heterogeneity **P=0.89**), so 1.12
@@ -117,16 +127,26 @@ the long arm is «currently considered more speculative», carries higher hetero
 when a single study is dropped.
 [@shan2015]
 
+In absolute terms the
+per-hour figure is modest but real: against a US incidence of 7.6 cases per 1,000 per year, Shan estimates
+«68 cases of diabetes per 100,000 individuals would occur each year for every 1-h reduction of habitual
+sleep duration compared with 7 h per day».
+[@shan2015]
+
 What lifts this above one more observational curve is Capers' meta-analysis of **randomised sleep-
 manipulation trials**, where the direction of causation is fixed by design. Its verdict: «sleep
 restriction increases food intake and total energy expenditure with inconsistent effects on integrated
 energy balance».
 [@capers2015]
-Restriction **reliably raised food intake**; sleep *extension* modestly lowered body weight (**p=0.02**,
-low heterogeneity).
+
+Restriction **reliably raised food intake**; sleep *extension* showed «inconsistent but overall
+significant effects on body weight, p = 0.02» (low heterogeneity). But the weight ledger stays open:
+restriction itself gave «no significant effect overall (p = 0.08)» on body weight, because expenditure
+rose alongside intake.
 [@capers2015]
-That experimental arm removes the pure reverse-causation objection the mortality and diabetes cohorts
-cannot answer on their own.
+So **sleep is not a demonstrated weight-loss lever** — its firmer metabolic signal is on
+glucose, not the scale. What that experimental arm *does* buy is direction: it removes the pure
+reverse-causation objection the mortality and diabetes cohorts cannot answer on their own.
 
 One refinement corrects the popular story. The **leptin/ghrelin appetite-hormone axis is not the operative
 pathway**: Capers found no pooled effect of sleep restriction on **leptin (p=0.84)** or **ghrelin
@@ -136,11 +156,13 @@ mechanism... They assert that **hedonic factors are likely stronger**.»
 increase is real; the hormonal explanation is discounted — more likely reward-driven eating plus more
 waking hours to eat.
 
-One caveat on the weight of all this: **Shan and Capers are not a second independent witness** to
-Cappuccio. They share overlapping cohorts and the same Harvard sleep-cohort lineage, so they *refine* the
-short-arm case on new outcomes (type-F) rather than corroborating it by an independent route. This is all
-still an argument about *how many hours* — and the newest evidence suggests the hours may be the wrong
-knob.
+One caveat on where the independence lies: **Shan is not a fully independent witness** to Cappuccio —
+both are observational, drawing on overlapping cohorts, so Shan *refines* the short-arm case on a new
+outcome (type-F) rather than corroborating it by a wholly separate route. **Capers is the exception that
+carries the weight** precisely because it is not observational at all: its randomised trials fix the
+direction of causation by a design the cohorts cannot. That is why the experimental arm — not a third
+cohort — is what lifts the short-arm reading above association. This is all still an argument about
+*how many hours* — and the newest evidence suggests the hours may be the wrong knob.
 
 ## How regular your sleep is may matter more than how long
 

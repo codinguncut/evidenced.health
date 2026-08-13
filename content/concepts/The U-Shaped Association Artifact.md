@@ -2,16 +2,17 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 relationships:
   related_to:
     - The Estimate-to-Action Gap
+    - Nut Consumption and Mortality
     - Alcohol and Mortality and Vascular Disease
     - Sodium Intake and Blood Pressure
     - Measurement Error in Dietary Assessment
@@ -438,6 +439,20 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   stronger at <6 y follow-up (HR 0.32 vs 0.57), a sick-quitter tell. No MR/genetic instrument, so the
   monotone benefit is *not-fully-adjudicated causal* but is not purely artifact either. Not independent-E
   of the other instances (shared reverse-causation machinery, new exposure) -> type-F.
+- **Nuts -> stroke — a spurious HARM upper arm that dissolves under an OUTCOME-composition stratification
+  `[2026-08-13, Aune]` `type-F`.** Aune 2016's nut dose-response is inverse-and-plateauing for CHD/CVD/
+  all-cause, but the *stroke* curve shows «a slight J-shaped curve with reductions in risk observed up to
+  approximately 10-15 grams per day, but a slight positive association at intakes of 30 grams per day,
+  however, this was not observed when studies were stratified by whether the outcome was stroke incidence
+  or stroke mortality». [@aune2016nut] So the upper (harm)
+  arm is a candidate artifact of **pooling two different outcomes** (incidence + mortality), not a
+  dose-response feature — the split *removes* it. A new flavour of the recipe's confounding leg: the arm
+  is manufactured by **outcome-composition heterogeneity**, adjacent to the *adjudicate the arm, not the
+  curve* rule and to Jayedi's region-masking nuance (a pooled "no U" can hide, or here *invent*, an arm
+  the strata do not share). **Adjudication is the WEAK check only** — an outcome-stratification, no MR or
+  referent-correction — and the whole benefit side is observational healthy-user (nut eaters slimmer /
+  less-smoking / more-active), so neither arm is causally adjudicated -> [[Nut Consumption and Mortality]].
+  Not independent-E (a new exposure sharing the one diagnostic) -> **type-F**.
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.

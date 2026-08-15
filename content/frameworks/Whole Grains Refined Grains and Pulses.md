@@ -2,11 +2,11 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-08-05
+self_critiqued: 2026-08-13
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -457,5 +457,105 @@ pattern (the source itself notes «foods high in carbohydrates also tend to have
 near-identical associations do not establish any one as an independent lever. Full GI/GL magnitudes and
 the proxy-vs-lever analysis: [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
 [inferred from @jenkins2024gi]
+
+## The bare whole-grain RRs get a dose-response, CIs and a studied range — Aune 2016 `[2026-08-13]`
+
+The whole-grain figures above (SACN's cohort RR 0.95 CVD / 0.96 stroke / 0.97 colo-rectal, **no CI, no
+shape**; NNR's bare 90 g/day) were the page's weakest presentation: a bare point estimate carries no
+decision. Aune 2016 (gold dose-response MA, **45 prospective cohorts / 64 publications**, up to
+705 253 participants, 100 726 all-cause deaths) supplies the **per-90 g/day RR + 95% CI + curve shape +
+studied range** the page lacked — a **type-F refinement** of the incumbent bare figures, not a new
+route to the claim.
+
+| Outcome (per **90 g/day** = 3 servings) | RR (95% CI) | I2 | n | |
+|---|---|---|---|---|
+| Coronary heart disease | 0.81 (0.75-0.87) | 9% | 7 | sig |
+| Cardiovascular disease | 0.78 (0.73-0.85) | 40% | 10 | sig |
+| **All-cause mortality** | **0.83 (0.77-0.90)** | 83% | 11 | sig; high I2 |
+| Total cancer mortality | 0.85 (0.80-0.91) | 37% | 6 | sig |
+| Stroke | 0.88 (0.75-1.03) | 56% | 6 | **NS** |
+| Respiratory mortality | 0.78 (0.70-0.87) | 0% | 4 | sig |
+
+> «The summary relative risks per 90 g/day increase in whole grain intake ... was 0.81 (95% confidence
+> interval 0.75 to 0.87; I2=9%, n=7 studies) for coronary heart disease, 0.88 (0.75 to 1.03; I2=56%, n=6)
+> for stroke, and 0.78 (0.73 to 0.85; I2=40%, n=10) for cardiovascular disease»
+> [@aune2016wg]
+
+**90 g/day is a population median, NOT an optimum — benefit keeps climbing to \~7 servings/day.**
+
+> «Reductions in risk were observed up to an intake of 210-225 g/day (seven to seven and a half servings
+> per day) for most of the outcomes.»
+> [@aune2016wg]
+
+All-cause risk is lowest at **225 g/day**; the curves are steeper at low intake then flatten (concave)
+but **stay decreasing to the studied-range edge — no plateau reached within the data, no upper (harm)
+arm** for the headline outcomes. So NNR's 90 g/day threshold marks study density / a median, not a
+ceiling — **the SACN pattern again** (a guideline number marking the evidence edge, not a curve
+feature), consistent with the falsified knees-prior. **No U-artifact:** the lone point estimate above 1
+is nervous-system mortality (1.15, 0.66-2.02, n=2, NS) at low intake only — a weak single outcome, not a
+U on the headline curves -> [[The U-Shaped Association Artifact]].
+
+**Unit caveat — Aune's 90 g =/= NNR's 90 g.** Aune's increment is mostly **fresh weight** (product
+including water: only 2 of the pooled publications used dry weight), whereas NNR's 90 g/day is **dry
+weight**. The numeric coincidence hides a fresh-vs-dry difference; do not read the two *90 g* figures as
+the same dose. [@aune2016wg]
+
+**Refined grains — Aune corroborates the page's headline null (F/shared).** Per 90 g/day: CHD 1.13
+(0.90-1.42, NS), stroke 0.91 (0.81-1.02, NS), CVD 0.98 (0.90-1.06, NS), all-cause 0.95 (0.91-0.99, weak
+inverse). Aune's own summary: «there was little evidence of an association with refined grains, white
+rice, total rice, or total grains.» [@aune2016wg] **Neither
+benefit nor a measured HARM signal** — so the refined-grain carve-out in guidance is **compositional**
+(whole grain carries more of the active fraction), not a demonstrated harm of refined grain, exactly as
+SACN's RR 1.00 and WCRF's «no conclusion» already established. This corroborates, it does not
+independently witness (see below).
+
+**No `[E-independent]` — DENIED on shared-cohort grounds.** Staging notes hypothesised Aune is a genuine
+type-E witness vs Reynolds because the *teams* are independent (Imperial/Aune vs Otago/Reynolds-Te
+Morenga). **Verified and downgraded to F/shared on ingest:** both are cohort-pooling meta-analyses
+drawing on a substantially **overlapping primary cohort base** (Wu 2015 NHS/HPFS, Johnsen 2015 HELGA,
+Jacobs Iowa, ARIC, EPIC, PREDIMED). Same method + same primary data = shared-source agreement, not two
+independent routes — the strict-E rule (re-pooling the same studies is laundered-E), exactly like the
+NNR-reads-SACN and WCRF-shares-Reynolds'-cohorts denials already on this page. **Team-independence is not
+evidence-independence.** Confidence stays `low`: Aune sharpens the *precision and shape* of the estimate,
+it adds no independent backing.
+[inferred from @aune2016wg; @reynolds2019]
+Full extraction, all outcome cells and the observational caveats: [@aune2016wg].
+
+### Self-critique of the Aune addition `[run 2026-08-13, before commit]`
+
+- **Laundered-independence check: FIRED, and `[E-independent]` was NOT claimed.** The attractive claim
+  was *an independent Imperial team confirms Reynolds' whole-grain->mortality signal.* Both are
+  cohort-pooling MAs on a substantially overlapping primary base (Wu/NHS-HPFS, Johnsen/HELGA, Iowa, ARIC,
+  EPIC, PREDIMED) — re-pooling shared studies is laundered-E, so downgraded to F/shared and confidence
+  held `low`. This is the finding the guard exists for; it would have read well as a confidence-raiser.
+- **Same-quantity check on the two *90 g*: AVOIDED.** Aune's 90 g (mostly fresh weight) vs NNR's 90 g
+  (dry weight) — flagged as a non-comparison from Aune's own «only two publications ... (dry weight)»
+  sentence, not silently equated.
+- **No-optimum / no-U claims: correctly attributed.** *90 g is a median not an optimum* and *benefit to
+  225 g/day, no plateau/harm arm within data* are the wiki's reading over Aune's extracted studied-range
+  and non-linearity results — tagged; the numbers themselves are extracted.
+- **Over-claim check:** every effect cell carries RR + CI (+ studied range); NS cells (stroke, diabetes,
+  nervous-system) marked; refined-grain read as *no measured harm*, not *proven inert*.
+- **Residual:** F-not-E means this adds precision/shape, not an independent witness — `confidence: low`
+  is unchanged, which is the honest outcome of the shared-cohort finding.
+
+## The third Aune plant-food MA lands — same lineage, NOT a third independent witness `[2026-08-13]`
+
+Aune 2017 (F&V; ref 192-193 of that paper cite *this* whole-grain MA and the nut MA) completes the
+same-team plant-food trilogy [@aune2017fv].
+All three report an inverse **all-cause** association, but the increments differ, so the magnitudes are
+**not rankable across foods**:
+
+| Parameter | Aune whole grain | Aune F&V | Same quantity? |
+|---|---|---|---|
+| All-cause RR | 0.83 per **90 g/day** grain | 0.90 per **200 g/day** F&V | **NO** — different increment AND different food; not comparable |
+| Lineage | Imperial/NTNU, Aune-Norat-Riboli | same team, overlapping cohorts | **shared** |
+
+- **No `[E-independent]`.** The three MAs share method and a substantially overlapping primary-cohort
+  base (NHS/HPFS, EPIC, ARIC, PREDIMED recur), so their agreement is same-lab **type-F / shared
+  lineage**, exactly as the Reynolds denial above — team-count is not evidence-count. What F&V *does* add
+  here is the recurring **shape lesson**: like whole grain, its guideline number (400 g/day / 5-a-day)
+  marks the evidence density, with lowest risk out at the **800 g/day studied edge** — a guideline
+  threshold reading the data edge, not a curve feature -> [[Fruit and Vegetable Intake and Health]].
 
 ## References

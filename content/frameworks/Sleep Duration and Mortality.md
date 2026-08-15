@@ -2,14 +2,14 @@
 type: framework
 question: How much sleep, and is the short/long mortality U-curve causal or a marker of illness?
 aliases: [Sleep Duration, Sleep and Mortality, Short Sleep, Long Sleep, Sleep U-Curve, How Much Sleep]
-authors: [Cappuccio, Francesco P; D'Elia, Lanfranco; Strazzullo, Pasquale; Miller, Michelle A; Livingston, Gill]
-sources: [Cappuccio - Sleep Duration and Mortality 2010, Livingston - Dementia Prevention 2024]
+authors: [Cappuccio, Francesco P; D'Elia, Lanfranco; Strazzullo, Pasquale; Miller, Michelle A; Livingston, Gill; Yin, Jiawei; Liu, Liegang]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017]
 cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-13
+self_critiqued: 2026-08-13
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -142,6 +142,49 @@ Three honest limits on reading "aim for 7-8 h" off this evidence:
   shallow near the referent; precision beyond "adequate, not chronically short" is not warranted, and
   neither is a stated upper cap.
 [inferred from @cappuccio2010]
+
+## The sub-7 h band, RESOLVED — Yin's per-hour curve `[2026-08-13, Yin]` `type-F`
+
+Cappuccio pools all short sleep into ONE flat category (1.12, invariant across cutoffs, P=0.89), so it
+**cannot say whether 6-7 h carries the penalty or only chronic <5 h**. Yin 2017 — a larger dose-response
+SR+MA (67 articles, 141 reports, 3.58 M participants; restricted-cubic-spline, 7 h reference) — resolves
+the arm per discrete hour. This is a claim-**refinement** (type-F), not independent backing: same design
+class (SR+MA of self-reported prospective cohorts), same outcome, overlapping cohort base — Yin
+disaggregates the quantity Cappuccio pooled.
+
+| Parameter | Cappuccio 2010 (pooled) | Yin 2017 (per-hour spline) | Same quantity? |
+|---|---|---|---|
+| Outcome | all-cause mortality | all-cause mortality | yes |
+| Design | SR+MA, prospective cohorts | SR+MA dose-response, prospective cohorts | yes |
+| Exposure | self-reported sleep | self-reported sleep | yes |
+| Reference | 7-8 h band | 7 h point (8 h already 1.04) | \~yes — Yin's 8 h is slightly above nadir, so the bands differ marginally at the top edge |
+| Short arm | ONE pooled 1.12 (1.06-1.18), flat across cutoffs | 6 h 1.01, 5 h 1.04, 4 h 1.08, 3 h 1.12 (1.10-1.14) | **no — Yin resolves what Cappuccio pools (the refinement)** |
+| Long arm | ONE pooled 1.30 (1.22-1.38) | 9 h 1.15, 10 h 1.32 (1.29-1.35), 11 h 1.53 (1.47-1.59) | **no — same disaggregation; Cappuccio's 1.30 sits at \~10 h** |
+
+[@yin2017]
+
+**What the resolution shows (all-cause):** the short-arm penalty is **concentrated at chronic short
+sleep**. 6 h is barely above the 7 h nadir (1.01, CI 1.00-1.01), 5 h is 1.04, and the arm steepens only
+below \~5 h (3 h 1.12) — so Cappuccio's *pooled* short-sleep RR is necessarily driven by the chronic-short
+(sub-5 h) studies, not the 6-7 h band. (Cappuccio's pooled 1.12 and Yin's 3 h spline point coincide
+numerically but are different quantities — a shortest-vs-referent pool vs a per-hour estimate — so the
+shared finding is the *concentration*, not the number.) This **cashes this page's own hypothesis** (the *referent-not-target* section above:
+*the risk most plausibly concentrates at chronic short sleep, making the lower bound arguably 6+ h*) with
+numbers. The steep, asymmetric **long arm** (9 h 1.15 -> 11 h 1.53) reconfirms the arm-asymmetry framing:
+the larger association is the long-sleep one, and it still has no mechanism.
+
+- **Outcome-specific shape.** CHD is the exception — a *steeper* short arm (4 h 1.16, CI 1.09-1.23) with
+  the nadir nearer 7 h; **stroke** has the flattest short arm (4-6 h CIs cross 1.00) and the steepest long
+  arm (10 h 1.64, CI 1.47-1.82). Read the curve per outcome, not one U for all.
+- **What Yin does NOT close.** Exposure is still self-reported — «nearly all studies relied on sleep
+  duration that was self-reported by questionnaire or interview»
+  [@yin2017] — so this resolves the *shape*,
+  not the measurement-error limit, and the AASM-guideline / objective-actigraphy AWAITS below still stand.
+  Adjudication of the long arm is weak-checks-only (multivariable adjustment; no referent-correction, no
+  MR) — the long arm stays an unadjudicated [[The U-Shaped Association Artifact]] instance. Publication
+  bias is NOT a differential tell: Egger flagged BOTH long-sleep/CVD and short-sleep/all-cause at P=0.01,
+  and BOTH survived trim-and-fill unchanged (imputed 1.22 and 1.04 respectively) — it cuts symmetrically,
+  so it cannot single out the long arm.
 
 ## Limits
 

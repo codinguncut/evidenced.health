@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-14
+self_critiqued: 2026-08-14
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -17,6 +17,7 @@ relationships:
     - Parkinsons Disease Modifiable Risk Factors
     - Layer 1 - Ranking Interventions for a Stratum
     - Hearing Loss and Dementia
+    - Cognitive Stimulation at Work and Dementia
     - LDL ApoB and Cumulative Exposure
     - Smoking and Mortality
     - Blood Pressure Lowering and Cardiovascular Events
@@ -67,7 +68,7 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 
 | Factor | Effect (Commission's cited RR/HR) | Life-course window |
 |---|---|---|
-| Less education | educational attainment protective (cognitive stimulation at work HR 0.79) | early life |
+| Less education | educational attainment protective; adulthood cognitive stimulation at work HR 0.77 (de-secondhanded below) -> [[Cognitive Stimulation at Work and Dementia]] | early + mid life |
 | Hearing loss | HR 1.37 (1.00-1.87), new MA -> [[Hearing Loss and Dementia]] | midlife |
 | High LDL-C **(new 2024)** | +8% per 1 mmol/L (1.08, 1.03-1.14); >3 mmol/L HR 1.33 | midlife |
 | Depression | RR 2.25 (1.69-2.98), new MA (partly reverse-causal) | midlife |
@@ -83,6 +84,29 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 | Uncorrected vision **(new 2024)** | RR 1.47 (1.36-1.60) | late life |
 
 [@livingston2024]
+
+## The cognitive-stimulation number, de-secondhanded (F-refinement, 2026-08-14)
+
+The *less education / cognitive stimulation at work* cell above carries the Commission's *borrowed*
+cognitive-reserve figure. Its **primary source is now held first-hand**: Kivimaki 2021, an IPD multicohort
+study (7 IPD-Work cohorts, 107,896 dementia-free adults, 1143 cases, mean follow-up 16.7 y). Gill
+Livingston co-authored that paper, so this is the Commission's own upstream evidence, not an independent
+second witness — a de-secondhanding (type-F), **not** an `[E-independent]` corroboration.
+
+- **The effect, first-hand:** high vs low cognitive stimulation at work, «age and sex adjusted hazard
+  ratio 0.77, 95% confidence interval 0.65 to 0.92, heterogeneity in cohort specific estimates I2=0%»
+  [@kivimaki2021cognitive]; fully adjusted 0.82
+  (0.68-0.98). The secondhand 0.79 the Commission propagates is this study's *reverse-causation-lag*
+  estimate (dementia arising >=10 y after exposure assessment, HR 0.79, 0.66-0.95) — a robustness figure,
+  not the headline.
+- **What the first-hand source adds that the secondhand cell cannot show:** (i) the association **survives
+  a 10-year lag exclusion**, so it is not merely prodromal dementia lowering engagement
+  -> [[The U-Shaped Association Artifact]]; (ii) it is an **adulthood/mid-life** lever, distinct from the
+  early-life education factor it is bundled with here; and (iii) residual confounding by **childhood IQ**
+  is the unremovable alternative the observational design cannot exclude. Full estimate, mechanism arm,
+  and Layer-1 ranking (RR \~1.3, *below* the cardiometabolic big rocks and below education itself) on
+  [[Cognitive Stimulation at Work and Dementia]].
+[inferred from @kivimaki2021cognitive; @livingston2024]
 
 ## What the framework changes about what to do
 
@@ -219,6 +243,11 @@ witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds th
   dementia incidence). No independence (E) is claimed. The reading is deliberately symmetric — FINGER
   neither confirms nor overturns the 45.3% figure; it de-risks the direction while the per-factor
   decomposition and the incidence endpoint stay unproven.
+- **Cognitive-stimulation de-secondhanding added (F-refinement 2026-08-14).** The Commission's borrowed
+  0.79 is replaced by its first-hand IPD source (Kivimaki 2021), with the reverse-causation-lag origin
+  of that number made explicit and the headline HR 0.77 restored. Filed as F, **not** E: shared authorship
+  (Livingston) and the Commission's reliance on this evidence defeat independence, flagged at the
+. The full estimate/mechanism/ranking is hosted on the sibling page, not re-litigated here.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

@@ -3,7 +3,7 @@ type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
 authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco; Aune, Dagfinn]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Aune - Nut Consumption Mortality 2016]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
 cluster: dietary-patterns
 nucleus: true
 confidence: medium
@@ -293,5 +293,21 @@ the same cardiometabolic effect. Named here only as a cross-link; the caveats li
 - **LDL-null is a distinct claim, not a restatement.** The whole-pattern-moves-events-without-moving-LDL
   point is genuinely new against the SFA single-nutrient LDL argument, so it earns its place (F), and is
   routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate.
+
+## The F&V component leg — the observational estimate PREDIMED cannot isolate `[2026-08-13]`
+
+Fruit and vegetables are a defining MedDiet component, and Aune 2017 supplies the **component-level**
+observational estimate the pattern RCT structurally cannot: per 200 g/day F&V, CVD 0.92 (0.90-0.95),
+CHD 0.92 (0.90-0.94), all-cause 0.90 (0.87-0.93) [@aune2017fv]. This is the same decomposition move as the nut leg above — and it inherits the same
+limit.
+
+- **PREDIMED cannot attribute its effect to F&V any more than to nuts.** A whole-pattern RCT confounds
+  its own components; the F&V contribution is knowable only observationally, at the confounding ceiling.
+  So MedDiet's F&V leg **corroborates the pattern's direction** but does not license "the F&V in the
+  MedDiet is what worked" -> [[Fruit and Vegetable Intake and Health]].
+- **Not `[E-independent]` for the nut+F&V pairing on this page:** both component estimates are Aune-team
+  MAs on overlapping cohorts, so their agreement is shared-lineage F, not two independent witnesses to
+  the MedDiet's benefit. The RCT (Estruch) and the observational legs remain genuinely different routes;
+  the two *observational* legs do not.
 
 ## References

@@ -2,19 +2,20 @@
 type: framework
 question: How strongly does cardiorespiratory fitness (VO2max) predict mortality, is there a target, and does raising it help?
 aliases: [Cardiorespiratory Fitness, CRF, VO2max, VO2 max, Fitness, METs, Aerobic Capacity, Fitness and Mortality, VO2max Target]
-authors: [Kodama, Satoru; Mandsager, Kyle; Jaber, Wael; Ross, Robert]
-sources: [Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016]
+authors: [Kodama, Satoru; Mandsager, Kyle; Jaber, Wael; Ross, Robert; Coenen, Pieter]
+sources: [Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018]
 cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-06
+updated: 2026-08-14
 self_critiqued: 2026-08-06
 relationships:
   related_to:
     - Muscle-Strengthening Activity and Mortality
     - Physical Activity Dose and Mortality
     - The U-Shaped Association Artifact
+    - The Physical Activity Paradox
     - Baseline Risk and the Relative-Absolute Split
     - Measuring and Raising Cardiorespiratory Fitness
 ---
@@ -49,6 +50,13 @@ self-report measurement artifact -> [[The U-Shaped Association Artifact]]. Kodam
 agree on the *shape*: the steepest benefit is at the low end (low-vs-high RR 1.70 >> intermediate-vs-high
 1.13).
 [inferred from @kodama2009; @mandsager2018]
+
+**A candidate role for CRF in the occupational-PA paradox (route-b, UNTESTED) `[2026-08-14, Coenen]`.**
+High occupational physical activity is associated with *higher* mortality in men -> [[The Physical Activity Paradox]], and Coenen reports the harm «appears to be stronger in workers with low compared
+with high cardiorespiratory fitness» but «could not statistically test this in a sensitivity analysis»
+for lack of data [@coenen2018paradox]. So CRF is a *candidate buffer* of the strenuous-work harm — mechanism-consistent (a fitter worker
+operates at a lower relative workload), but it clears only the plausibility bar, not positive
+effect-modification, so it is held as an open interaction, not a finding.
 
 ## How big — low fitness outranks smoking and diabetes
 

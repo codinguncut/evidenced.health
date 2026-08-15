@@ -16,6 +16,10 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   the self-report plateau; the steepest gains are at the least-active end), the step-count targets
   (age-varying plateau \~6-8k older / 8-10k younger), and whether \~60-75 min/day of activity offsets the
   mortality risk of prolonged sitting (it does)
+- [[The Physical Activity Paradox]] — the domain caveat on the dose page: high *occupational* (work) PA
+  associates with *higher* mortality in men (Coenen, HR 1.18), opposite to leisure/total PA — so
+  physically demanding work does not substitute for leisure exercise on the mortality outcome (LOW
+  confidence; observational, healthy-worker selection; opens the `occupation` cluster)
 
 ## Cardiorespiratory fitness — marker and lever
 

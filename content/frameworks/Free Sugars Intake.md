@@ -3,7 +3,7 @@ type: framework
 question: How much free sugar, and which outcome is the limit actually protecting?
 aliases: [Free Sugars, Added Sugars, Sugar Intake, Sugars, WHO Sugars Guideline, 10% Energy Sugars]
 authors: [World Health Organization (org); European Food Safety Authority (org)]
-sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022]
+sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Aune - Fruit Vegetable Mortality 2017]
 cluster: sugars-sweeteners
 nucleus: true
 confidence: medium
@@ -16,9 +16,9 @@ relationships:
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-08-06
+updated: 2026-08-13
 nosplit: 696@single-exposure nucleus (one how-much-free-sugar-which-outcome question); length is four guidance families accreted on one decision, not multiple decisions
-self_critiqued: 2026-08-06
+self_critiqued: 2026-08-13
 ---
 
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
@@ -714,5 +714,24 @@ in a fibre matrix that slows absorption and blunts the hepatic flux. This is exa
 limit **excludes intrinsic whole-fruit sugars and includes fruit juice** (the definition above) - *fruit
 juice is in, whole fruit is out.* So the decision-relevant lever is cutting free fructose in **beverages**,
 not avoiding whole fruit -> [[Fatty Liver MASLD and Weight Loss]].
+
+## What CVD/mortality evidence says about the same forms — a distinction, not a tension `[2026-08-13]`
+
+The free-sugars page reads fruit juice as *inside* the harmful exposure. On a **different outcome axis**,
+Aune 2017 (F&V -> CVD/cancer/mortality) reports the opposite sign for juice and a harm signal for a
+processed form instead — so match the scope before reading a clash:
+
+- **Fruit juice was INVERSELY associated** with stroke (high-vs-low 0.67 [0.60-0.76]; per-100 g 0.72
+  [0.63-0.83]) and CHD (high-vs-low 0.79 [0.63-0.98]) in that cohort evidence
+  [@aune2017fv]. **Tinned fruit** was the
+  form with a **positive** (harm) association with cardiovascular disease.
+- **Why this is a distinction, not a tension (not-joined check ii — different outcome/scope):** the
+  free-sugars concern is the metabolic/hepatic/dental channel (free-fructose bolus -> DNL; caries),
+  whereas Aune measures CVD, stroke, cancer and all-cause. A juice serving can be net-inverse for
+  vascular endpoints (it still carries potassium, vitamin C, flavonoids) while being net-adverse for the
+  metabolic channel where its free-sugar load dominates. Both hold; they are consistent once the outcome
+  is matched, so no `[[tension]]` is filed -> [[Fruit and Vegetable Intake and Health]].
+- The whole-vs-processed axis (tinned-fruit harm) is the more robust processing signal in these data
+  than a blanket fruit-vs-juice rule.
 
 ## References

@@ -32,6 +32,11 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   cause-specific mortality (Aune dose-response MA, per 28 g/day). Sizeable inverse RRs, an observed
   plateau at 15-20 g/day, but observational-only (healthy-user ceiling, no MR); "20 g optimal" is a
   study-edge, not a derived optimum
+- [[Fruit and Vegetable Intake and Health]] — `plant-foods` nucleus: F&V -> CHD/stroke/CVD/cancer/
+  all-cause (Aune 2017 dose-response MA, per 200 g/day; \~8-10% lower CVD/death per serving, cancer weak).
+  Lowest risk at the 800 g/day study-edge (double 5-a-day), not an optimum; the benefit does NOT
+  distribute evenly across types (leafy greens/citrus carry it, grapes/berries too thin); measurement
+  error attenuates toward null; observational, same-lab F-not-E vs the nut/whole-grain MAs
 - [[Red and Processed Meat and Cancer]] — whether red or processed meat causes cancer, by how much, and
   whether the evidence warrants reducing intake
 - [[Vegetarian Dietary Patterns and Mortality]] — the AHS-2 cohort (Orlich 2013) leg of the

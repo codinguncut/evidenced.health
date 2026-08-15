@@ -18,8 +18,9 @@ relationships:
     - Ectopic Fat and Depot-Specific Risk
     - Baseline Risk and the Relative-Absolute Split
     - Upgrading Observational Evidence
+    - Fluoride and Bone Health
 created: 2026-08-01
-updated: 2026-08-13
+updated: 2026-08-14
 self_critiqued: 2026-08-13
 ---
 

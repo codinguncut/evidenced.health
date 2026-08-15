@@ -2,13 +2,13 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-13
-self_critiqued: 2026-08-13
+updated: 2026-08-14
+self_critiqued: 2026-08-14
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -23,6 +23,8 @@ relationships:
     - Dietary Protein and Mortality
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
     - Dairy and Cardiometabolic Health
+    - Fluoride and Bone Health
+    - The Physical Activity Paradox
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -106,6 +108,25 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     so the long-sleep -> T2D arm stays **unadjudicated**. Not an independent witness to Cappuccio —
     overlapping cohorts + shared Hu/Jackson lineage -> **type-F** (same reverse-causation mechanism, new
     outcome) -> [[Sleep and Metabolic Health]].
+  - **Third sleep instance — the per-hour curve QUANTIFIES the asymmetry `[2026-08-13, Yin]` `type-F`.**
+    Yin 2017's dose-response SR+MA (3.58 M participants; restricted-cubic-spline, 7 h reference) resolves
+    the mortality U per discrete hour and the asymmetry the concept predicts is now *measured*, not just
+    argued: the **short arm is shallow** (6 h 1.01, 5 h 1.04, 4 h 1.08, reaching only 1.12 at the 3 h
+    extreme) while the **long arm is steep** (9 h 1.15, 10 h 1.32, 11 h 1.53; stroke steeper still — 10 h
+    1.64). [@yin2017] The tells are
+    this concept's own: the long arm is the *larger* association yet Yin judges «the potential mechanisms
+    underlying the association between long sleep duration and adverse outcomes are considered more
+    speculative» and reports the view that «the elevated risk of long sleep duration most likely
+    represented the confounding effects of subhealthy status»
+    [@yin2017], and the U «was more
+    pronounced among the studies that reported mortality of total CVD» than incidence (long-arm per-h 1.15
+    mortality vs 1.00 incidence) [@yin2017] —
+    the signal strengthens toward death, the frailty/severity gradient. **Adjudication is WEAK-checks-only**
+    (multivariable adjustment; no referent-correction, no MR), so the long arm stays **unadjudicated**.
+    Publication bias does not distinguish the arms — Egger flagged both long-sleep/CVD and
+    short-sleep/all-cause at P=0.01 and both survived trim-and-fill (1.22 / 1.04, unchanged). Not independent-E of Cappuccio
+    (same design class, overlapping cohorts, same reverse-causation reading) -> **type-F** dose-resolution
+    -> [[Sleep Duration and Mortality]].
 - **Muscle-strengthening activity — a J-shape with its own counter-instance built in.** MSA shows a
   J-shaped dose-response for all-cause mortality/CVD/cancer (nadir in a wide, imprecise \~30-80 min/week
   region, hazard rising above 1.0 past \~140 min/week) — but an **L-shape** (no upturn) for **diabetes**,
@@ -439,6 +460,24 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   stronger at <6 y follow-up (HR 0.32 vs 0.57), a sick-quitter tell. No MR/genetic instrument, so the
   monotone benefit is *not-fully-adjudicated causal* but is not purely artifact either. Not independent-E
   of the other instances (shared reverse-causation machinery, new exposure) -> type-F.
+- **Occupational physical activity -> mortality — a spurious-harm-AMPLIFIER via the healthy-worker effect,
+  the SELECTION mirror of sick-quitter `[2026-08-14, Coenen]` `type-F`.** Coenen 2018's occupational-PA
+  meta-analysis (men, high vs low, HR 1.18) is NOT a U-curve and the harm is not dismissed as artifact —
+  but one selection mechanism *inflates* it and belongs in this catalog. The harm looked **stronger in
+  relatively healthy study samples** (the wrong direction for a dose-response), which Coenen attributes to
+  the healthy-worker effect: «this finding is probably due to so-called healthy worker effect, a form of
+  selection bias were more healthy subjects select into and remain in the most physically strenuous
+  occupations». [@coenen2018paradox]
+  This is the **mirror** of sick-quitter: there the *referent* is enriched for the ill (manufacturing a
+  spurious benefit); here the *exposed* (strenuous-job) group is enriched for the healthy, so a real harm
+  shows up **amplified** in healthy subsamples rather than created. Adds a new leg to the recipe — selection
+  *into* the exposure, not out of the referent — and a direction note: the artifact here *strengthens* an
+  apparent harm (opposite to alcohol's manufactured benefit, same direction as milk/weight-loss spurious
+  harms). **Adjudication is WEAK/subgroup only** — a healthy-vs-unhealthy-sample χ2 contrast, plus Coenen's
+  argument that SES may be a *pathway* (over-adjusting it biases conservative), no referent-correction and
+  no MR — so the *causal* size of the harm stays unadjudicated, but the direction of the selection bias is
+  named -> [[The Physical Activity Paradox]]. Not independent-E (a new exposure/mechanism sharing the one
+  diagnostic) -> **type-F**.
 - **Nuts -> stroke — a spurious HARM upper arm that dissolves under an OUTCOME-composition stratification
   `[2026-08-13, Aune]` `type-F`.** Aune 2016's nut dose-response is inverse-and-plateauing for CHD/CVD/
   all-cause, but the *stroke* curve shows «a slight J-shaped curve with reductions in risk observed up to
@@ -453,6 +492,24 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   referent-correction — and the whole benefit side is observational healthy-user (nut eaters slimmer /
   less-smoking / more-active), so neither arm is causally adjudicated -> [[Nut Consumption and Mortality]].
   Not independent-E (a new exposure sharing the one diagnostic) -> **type-F**.
+- **Fluoride -> fracture — a U whose protective LOWER arm the source itself flags as sparse-data
+  artifact `[2026-08-14, Mazzoli]` `type-F`.** Mazzoli's dose-response MA (37 studies; restricted cubic
+  spline) shows «a clear evidence of a U-shaped curve only in females, with the lowest risk around 0.4
+  mg/L and a monotonic increase above 0.9 mg/L»
+  [@mazzoli2025fluoride] — an apparent protective dip at
+  low-moderate drinking-water fluoride, then a rise. Applying *adjudicate the arm, not the curve*: the
+  **upper arm is believed** (fracture rising above \~1.5 mg/L overall; RR 1.26, 95% CI 1.10-1.46 at 1.0
+  mg/L in postmenopausal females — the one CI excluding 1.0), while the **lower/protective arm is NOT** —
+  its CIs all cross 1.0 and the authors themselves attribute it to sparse data: «some types of fractures
+  showed a U-shaped pattern ... Such a pattern might be an artifact due to the more limited number of
+  studies on which such [estimates rest]»
+  [@mazzoli2025fluoride]. **The distinctive mechanism this adds:**
+  *unequal between-group precision* — far fewer studies at low fluoride displace the spline nadir with no
+  bias and no confounder (the gate-6 mechanism), so «lowest risk around 0.4 mg/L» is a **sampling
+  artifact, never an optimum** -> [[The Underivable Optimum]]. **Adjudication is WEAK-checks-only** (RoB
+  stratification, sensitivity by excluding high-RoB; no referent-correction, no MR) on mostly high-RoB
+  ecological data from a single lab -> [[Fluoride and Bone Health]]. Not independent-E (a new exposure
+  sharing the one diagnostic) -> **type-F**.
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.

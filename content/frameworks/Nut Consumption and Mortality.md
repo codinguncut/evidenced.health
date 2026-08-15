@@ -3,11 +3,12 @@ type: framework
 question: Does higher nut consumption reduce cardiovascular disease, cancer, and all-cause/cause-specific mortality — for whom, by how much per serving, and with what dose-response shape?
 aliases: [Nuts, Nut Consumption, Tree Nuts, Peanuts, Nuts and Mortality, Nuts and Cardiovascular Disease]
 authors: [Aune, Dagfinn; Keum, NaNa; Giovannucci, Edward; Fadnes, Lars T; Boffetta, Paolo; Greenwood, Darren C; Tonstad, Serena; Vatten, Lars J; Riboli, Elio; Norat, Teresa]
-sources: [Aune - Nut Consumption Mortality 2016]
+sources: [Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
 cluster: plant-foods
 confidence: low
 created: 2026-08-13
 updated: 2026-08-13
+self_critiqued: 2026-08-13
 relationships:
   related_to:
     - Mediterranean Diet and Cardiovascular Events
@@ -129,5 +130,21 @@ studies), but three things cap the causal reading:
 also authored the parallel whole-grain dose-response MA (ref 47) using the *same* methods and overlapping
 cohort infrastructure — so any future *consistency across Aune's plant-food MAs* is same-lab type-F, NOT
 independent type-E backing.
+
+## Sibling plant-food MA — F&V (Aune 2017) confirms the *pattern*, not independently `[2026-08-13]`
+
+The parallel F&V dose-response MA from the same team recurs on every structural feature this page
+notes, which is a same-lab **type-F consistency, not type-E backing** (F&V explicitly cites this nut MA
+as ref 193) [@aune2017fv]:
+
+- **Subtype non-uniformity, again.** As nut benefit split by type (tree vs peanut; peanut butter null),
+  F&V benefit does **not** distribute evenly onto favourite fruits — grapes and berries are NS (berries
+  point >1), while leafy greens/citrus carry the tight signals. The whole-category pooling hides the
+  seams in both foods -> [[Fruit and Vegetable Intake and Health]].
+- **The plateau/edge reads the same way.** Nut benefit flattened by \~15-20 g/day; F&V's lowest risk sits
+  at the 800 g/day sampling edge — in both, the guideline-relevant number marks study density, not a
+  demonstrated optimum -> [[The Underivable Optimum]].
+- Both are observational, both cap at the confounding ceiling, both argue measurement error attenuates
+  toward the null. Convergence across the two is **shared-lineage**, so it does not raise `confidence:`.
 
 ## References

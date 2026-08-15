@@ -8,8 +8,8 @@ cluster: psychosocial
 nucleus: true
 confidence: low
 created: 2026-08-09
-updated: 2026-08-09
-self_critiqued: 2026-08-09
+updated: 2026-08-14
+self_critiqued: 2026-08-14
 relationships:
   related_to:
     - Surrogate Outcomes
@@ -21,6 +21,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Social Connection and Mortality
     - Purpose in Life and Mortality
+    - Job Strain and Coronary Heart Disease
 ---
 
 **Nucleus of the `psychosocial` cluster** — the physiological spine the chronic-stress exposures
@@ -176,6 +177,16 @@ that monitoring AL longitudinally may better inform mortality risk compared with
     -> lower mortality). Cohen measures no AL index and flags the cortisol link as non-specific to
     purpose, so the mediation stays an unmeasured bridge. So the `psychosocial` cluster now
     holds two distinct exposures (social connection, purpose) routing through this one physiological spine.
+  - **A cross-cluster exposure also attaches:** [[Job Strain and Coronary Heart Disease]] (Kivimaki 2012,
+    a gold IPD-MA) — high work demands + low control raise incident CHD (HR 1.23; SES-adjusted 1.17; PAF
+    3.4%), and the residual survives full adjustment for *behavioural* risk factors (BMI, PA, smoking,
+    alcohol), consistent with a direct-physiology rather than a lifestyle route. That points at the same
+    sustained-HPA-activation channel AL operationalizes, making job strain a **candidate mediator via AL**
+    (job strain -> HPA activation -> AL -> CHD). Kivimaki measures no AL index and the endpoint is a CHD
+    *event* (not the mortality outcome pooled here), so the mediation is an unmeasured bridge and the two
+    numbers are not the same quantity. Job strain lives in the `occupation` cluster (its
+    sibling channel is the physical-demand [[The Physical Activity Paradox]]), so this is a cross-cluster
+    attachment: the AL spine is reached by psychosocial exposures from more than one cluster.
 - **`G`-gaps.** (i) No trial shows reducing AL reduces mortality — the marker/lever gap. (ii) An 8-week
   diet intervention in women with obesity did *not* move AL (major dietary change may itself be a
   stressor), so even AL's modifiability is not clean. (iii) Younger adults (<40) are essentially

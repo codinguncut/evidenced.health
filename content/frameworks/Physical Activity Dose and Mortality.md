@@ -2,8 +2,8 @@
 type: framework
 question: How much physical activity, of what kind, do I need before the mortality benefit flattens?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org)]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019]
+authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -13,11 +13,12 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Cardiorespiratory Fitness and Mortality
     - The U-Shaped Association Artifact
+    - The Physical Activity Paradox
     - Upgrading Observational Evidence
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-27
-updated: 2026-08-06
+updated: 2026-08-14
 self_critiqued: 2026-08-06
 ---
 
@@ -56,6 +57,23 @@ strongly, and with no plateau** -> [[Cardiorespiratory Fitness and Mortality]]. 
 claim: self-reported activity *dose* flattens early here, while objectively-measured *fitness* keeps
 paying — a discrepancy that is itself informative about measurement, not proof that more activity is
 always better.
+
+## Scope — this page is LEISURE / TOTAL PA; occupational PA can run the OTHER way `[2026-08-14, Coenen]`
+
+**Every estimate on this page is leisure-time or total physical activity.** The «more is better»
+reading does **not** transfer to activity performed *at work*: Coenen 2018 (gold SR+MA, 17 studies,
+193,696 participants) finds high *occupational* PA associated with **higher** all-cause mortality in
+men (HR 1.18, 95% CI 1.05-1.34), while women show a non-significant inverse tendency (0.90, 0.80-1.01)
+[@coenen2018paradox]
+-> [[The Physical Activity Paradox]]. This is a **domain disambiguation, not a contradiction**: leisure
+PA (short intense bouts, recovery) and occupational PA (≥40 h/week, static/repetitive, no recovery) are
+different exposures under one word, and a same-quantity check returns NO on exposure, pattern,
+measurement, contrast, and direction. The decision-change for a reader: **do not count physically
+demanding work as the exercise this page evidences** — meeting a step/MVPA target *via the job* may not
+bank the mortality benefit and, in men, may carry cardiovascular risk. The causal reading is
+unadjudicated (observational, self-reported exposure, healthy-worker selection), so this is a
+stratum-level caveat on transferability, not a claim that work activity should be reduced.
+
 
 ## Where the curve bends — named maxima, device-measured
 

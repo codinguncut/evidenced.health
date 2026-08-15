@@ -1,8 +1,8 @@
 ---
 type: hub
-question: Among the peripheral-lifestyle exposures the telos admits through their physical intersection — chronic stress, social connection, sense of purpose, and sun/UV — which move a patient-important physical outcome, by what channel, and are they levers or only markers?
+question: Among the peripheral-lifestyle and environmental exposures the telos admits through their physical intersection — chronic stress, social connection, sense of purpose, sun/UV, and drinking-water fluoride — which move a patient-important physical outcome, by what channel, and are they levers or only markers?
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 Navigator for the **peripheral-lifestyle** cluster the telos admits on the same evidence terms as food
@@ -41,3 +41,13 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   cardiovascular mortality — UV has opposite-signed effects on different outcomes
 - [[Melanoma and UV Exposure]] — what *pattern* of UV/sun exposure causes cutaneous melanoma (intermittent
   burning vs cumulative dose are not one exposure), and whether sun protection reduces it
+
+## Drinking-water fluoride
+
+- [[Fluoride and Health]] — nucleus of the `fluoride` cluster (concept): fluoride is both a
+  deliberately-added caries-prevention exposure and a suspected developmental neurotoxicant — a
+  dose-stratified benefit/harm menu, of which the opening source (NTP 2024) lands only the harm arm and
+  only above \~1.5 mg/L water fluoride
+- [[Fluoride and Child IQ]] — the dose-threshold decision: where a child-IQ decrement is established
+  (moderate confidence >1.5 mg/L, unclear at the 0.7 mg/L US fluoridation dose), and how well the
+  mostly-high-fluoride-region evidence transports to fluoridation levels

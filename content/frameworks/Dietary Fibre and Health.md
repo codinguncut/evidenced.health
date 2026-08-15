@@ -3,7 +3,7 @@ type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
 authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -20,7 +20,7 @@ relationships:
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-29
 updated: 2026-08-13
-self_critiqued: 2026-08-08
+self_critiqued: 2026-08-13
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -331,5 +331,23 @@ Steering by fibre and whole-grain content remains the honest lever. Full magnitu
 divergence (WHO 2019 dismissed GI; Jenkins rebuts), and the measurement-error caveat live on
 [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
 [inferred from @jenkins2024gi]
+
+## Fruit and vegetables are a fibre CARRIER, not clean fibre evidence `[2026-08-13]`
+
+F&V benefit (Aune 2017: all-cause 0.90, CVD 0.92, CHD 0.92 per 200 g/day) is a recurring reason people
+credit fibre, but the source itself blocks that inference: F&V acts through «a myriad of nutrients and
+phytochemicals, including fibre, vitamin C, carotenoids, antioxidants, potassium, flavonoids and other
+unidentified compounds which are likely to act synergistically»
+[@aune2017fv] — fibre is **one of several**
+active fractions, not the isolated agent.
+
+- **The component-not-category trap, stated by the author.** A whole-food F&V association cannot be
+  attributed to any single constituent; Aune cites the fibre-CVD MAs (Threapleton 2013) only as *part*
+  of the mechanism, alongside potassium/BP, flavonoid/vascular and antioxidant/DNA pathways. So F&V
+  outcome data **corroborate the direction** of the fibre story without **isolating** it — the
+  observed-healthy-population rule -> [[Fruit and Vegetable Intake and Health]].
+- **Where fibre *is* isolable** (dosed, blindable isolates — Brown's cholesterol MA; Reynolds' intake
+  gradients) the evidence is cleaner than any F&V contrast can be; that design advantage, not the food,
+  is why isolate evidence out-grades F&V-carrier evidence -> [[Is the Food Category Doing Any Work]].
 
 ## References

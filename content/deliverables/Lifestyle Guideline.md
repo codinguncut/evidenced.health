@@ -3,47 +3,19 @@ type: deliverable
 title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
-authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A]
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018]
+authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Yin - Sleep Duration Mortality Dose-Response 2017, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
 confidence: medium
 created: 2026-08-18
 updated: 2026-08-18
 self_critiqued: 2026-08-18
 ---
 
-**Five things move an adult's health more than everything else put together:** not smoking, moving
-your body a little every day, not carrying excess belly fat, keeping alcohol low, and getting enough
-sleep. Pull those five and you have captured most of what a lifestyle can buy for your health -- the
-rest is real but small. **You can gauge how small by how loudly it is argued:** the big levers are
-settled and boring, so the noise -- the supplement, the superfood, the perfect macro split --
-gathers around the little ones.
-
-**Read the five as a stack, biggest at the base**, ranked by how large an effect each carries and how
-sure we are of it. The order is not fixed for everyone -- a lever only counts if it applies to you.
-"Stop smoking" is no advice for a non-smoker, and "lose the belly fat" is nothing to act on if you are
-already lean and metabolically healthy. Where a lever bites harder for some people than for others, the
-directive below says so.
-
-## What this adds to "eat well and exercise"
-
-If a good doctor applied today's guidelines to your situation and said the same thing, this page has
-added nothing. Here is where it does more than repeat "eat well and exercise":
-
-- **It ranks, rather than lists.** Guidance tends to present a flat menu -- diet, exercise, sleep,
-  alcohol, all worth doing. This page says which lever is largest for you and in what order to spend
-  effort, because effort put into a small lever while a big one stands is not a smaller win, it is the
-  wrong move.
-- **It says what each lever does not buy.** Losing weight reliably improves blood sugar and liver fat,
-  but the trials have not shown it prevents heart attacks -- so it is pulled for metabolic health, not
-  on a cardiac promise. The apparent benefit of "moderate" drinking is largely an artifact of who ends
-  up in the non-drinking comparison group, not a reason to drink. And 10,000 steps is a marketing
-  number, not a threshold -- most of the step benefit banks well below it.
-- **It gives permission to stop.** Once the big levers are handled, the gains that remain are small by
-  construction. "Your remaining levers are small and uncertain" is a finding, not a failure -- it
-  licenses you to stop optimizing.
-- **Only your health is on the scale.** This weighs health effects and nothing else -- not cost, not
-  the environment, not what is fashionable. Where another consideration exists, it is yours to weigh,
-  not folded in here.
+**Five things move an adult's health more than everything else put together:** not smoking, moving a
+little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read them
+as a stack, biggest at the base -- and a lever only counts if it applies to you: there is nothing to quit
+if you don't smoke, nothing to lose if you are already lean and metabolically healthy. Pull these five and
+you have captured most of what a lifestyle can buy your health; the rest is real but small.
 
 ## The five levers, biggest first
 
@@ -56,9 +28,9 @@ added nothing. Here is where it does more than repeat "eat well and exercise":
    comes from leaving the least-active group at all, and it is **mostly light, everyday movement --
    walking, chores, being on your feet -- not workouts.** Going from barely moving to modestly active is
    **linked to roughly halving your risk of dying.** Then the curve flattens: past a modest daily
-   amount, more buys little. Strength follows the same shape -- **a couple of short sessions a week, not
-   four trips to the gym**, captures most of the gain. -> [[Physical Activity Dose and Mortality]],
-   [[Muscle-Strengthening Activity and Mortality]]
+   amount, more buys little. Strength follows the same shape -- **one or two short sessions a week, a
+   small weekly total rather than four trips to the gym**, captures most of the gain. ->
+   [[Physical Activity Dose and Mortality]], [[Muscle-Strengthening Activity and Mortality]]
 3. **Don't carry excess belly fat -- clear it, don't chase a number.** The risk is not weight on the
    scale but fat spilling into your liver and around your organs once you pass your own personal fat
    threshold. The target is the **self-verifiable endpoint** -- waist coming down, blood sugar and liver
@@ -73,10 +45,11 @@ added nothing. Here is where it does more than repeat "eat well and exercise":
    how the comparison group is built, or read the genetic evidence, and the protection disappears. Risk
    of cancer and vascular disease rises from low intake with no safe floor, so this lever is only ever a
    harm to cut, never a rock to add. -> [[Alcohol and Mortality and Vascular Disease]]
-5. **Get enough sleep -- the fix is not being chronically short.** Chronically sleeping under about
-   seven hours -- and especially under five -- carries higher mortality and more diabetes, with a
-   plausible metabolic mechanism. The actionable arm is short sleep; sleeping long is a marker of
-   underlying illness, not a habit to trim. -> [[Sleep Duration and Mortality]]
+5. **Get enough sleep -- the fix is not being chronically short.** Aim for **more than about six hours**
+   a night. The mortality-and-diabetes penalty is small until sleep drops well below that, and it bites
+   hardest **under about five hours**; six-to-seven hours sits barely above the healthiest point. The
+   actionable arm is short sleep -- sleeping long is a marker of underlying illness, not a habit to
+   trim. -> [[Sleep Duration and Mortality]]
 
 ## The smaller levers add a little
 
@@ -95,6 +68,27 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
   person eating normally, it is not a lever worth chasing. ->
   [[Protein and Resistance Training for Muscle and Strength]]
 
+## Things to look out for
+
+A handful of readings tell you whether the levers are working and when to escalate. These are
+self-monitoring signals, not diagnoses -- a reading that stays out of range means pull the owning lever
+harder *and* talk to a clinician. This page never names or doses a drug.
+
+- **Blood pressure** -- the clearest signal that the weight, activity, alcohol and salt levers are
+  working. If it stays up despite them, that is the conversation about medication (off this page).
+- **apoB, or LDL cholesterol** -- the one blood marker that is measurable and even-handed across very
+  different diets. What matters is years of exposure, not a single reading; a level that has run high for
+  years is a clinician conversation.
+- **Fasting glucose or HbA1c** -- your metabolic-status readout, moved by the adiposity and activity
+  levers. A number creeping up is the early warning; it is a marker to act on, not a target to chase with
+  medication on your own.
+- **Waist** -- the at-home proxy for your personal fat threshold; steer the belly-fat lever by it, not
+  the bathroom scale.
+- **(65+) grip strength, or how hard it is to rise from a chair** -- the functional readout of how the
+  muscle levers are holding.
+
+None of these is a sixth lever -- they are the dials on the five you already have.
+
 ## Where it stops being worth the effort
 
 Once the five big levers are handled -- you don't smoke, you move daily, you are not carrying ectopic
@@ -104,10 +98,13 @@ and sleeping well, the large levers are pulled, and "there is little left to opt
 that **licenses you to stop.**
 
 
-One honest gap: **whole-diet patterns** -- Mediterranean, DASH and the like -- are not treated here as
-a single lever. That is an absence of coverage, not a verdict of no effect: the evidence this page
-assembles is built exposure by exposure, and a whole-pattern claim would need its own body of evidence
-pulled in. **Absence here means unmeasured, not null.**
+**Whole-diet patterns** -- Mediterranean, DASH and the like -- are not treated here as a single lever,
+and that is not merely a coverage choice. The whole-pattern evidence on hard outcomes is genuinely thin:
+mostly surrogate markers or confounded observation, with no clean hard-outcome contrast to anchor a claim
+(the one Mediterranean trial with hard endpoints, PREDIMED, is methodology-discounted). So this is a gap
+in the literature, not a body of evidence merely waiting to be pulled in. The even-handed handle the
+evidence does support is **component-level and measurable** -- apoB and metabolic markers -- **not the
+pattern label**. -> [[Dietary Patterns]]
 
 
 ## After about 65, the stack shifts
@@ -147,6 +144,29 @@ In priority order, for most adults:
 Everything past these is small. Do the five, then stop optimizing -- the ceiling is real, and reaching
 it is the goal.
 
+## What this adds to "eat well and exercise"
+
+If a good doctor applied today's guidelines to your situation and said the same thing, this page has
+added nothing. And you can gauge how small the leftover levers are by how loudly they are argued: the big
+levers are settled and boring, so the noise -- the supplement, the superfood, the perfect macro split --
+gathers around the little ones. Here is where this page does more than repeat "eat well and exercise":
+
+- **It ranks, rather than lists.** Guidance tends to present a flat menu -- diet, exercise, sleep,
+  alcohol, all worth doing. This page says which lever is largest for you and in what order to spend
+  effort, because effort put into a small lever while a big one stands is not a smaller win, it is the
+  wrong move.
+- **It says what each lever does not buy.** Losing weight reliably improves blood sugar and liver fat,
+  but the trials have not shown it prevents heart attacks -- so it is pulled for metabolic health, not
+  on a cardiac promise. The apparent benefit of "moderate" drinking is largely an artifact of who ends
+  up in the non-drinking comparison group, not a reason to drink. And 10,000 steps is a marketing
+  number, not a threshold -- most of the step benefit banks well below it.
+- **It gives permission to stop.** Once the big levers are handled, the gains that remain are small by
+  construction. "Your remaining levers are small and uncertain" is a finding, not a failure -- it
+  licenses you to stop optimizing.
+- **Only your health is on the scale.** This weighs health effects and nothing else -- not cost, not
+  the environment, not what is fashionable. Where another consideration exists, it is yours to weigh,
+  not folded in here.
+
 ## What this is, and is not
 
 - **Health only.** This weighs effects on your physical health -- the length and quality of your life.
@@ -162,9 +182,9 @@ it is the goal.
 
 ## The evidence behind each directive
 
-The front of this guideline is deliberately number-free. The magnitudes, certainties and studied ranges
-live here, in a backing layer that does not clutter the directives. Every figure carries its source; a
-number read off a wide interval or the edge of the studied range is not a hard target.
+The front of this guideline is kept to rough magnitudes; the precise figures, certainties and studied
+ranges live here, in a backing layer that does not clutter the directives. Every figure carries its
+source; a number read off a wide interval or the edge of the studied range is not a hard target.
 
 #### Don't smoke
 
@@ -237,9 +257,16 @@ harm to cut at the top end. -> [[Alcohol and Mortality and Vascular Disease]], [
 
 #### Get enough sleep
 
-Chronic short sleep -- under about 7 hours, and especially under 5 -- carries roughly 12% higher mortality
-with a plausible metabolic mechanism (RR 1.12, 1.06-1.18)
-[@cappuccio2010], and raises incident type-2 diabetes
+Yin's per-hour dose-response meta-analysis (67 articles, 3.58 million participants, restricted cubic
+splines, 7 h reference) resolves the short arm hour by hour: 6 h sits barely above the 7 h nadir (RR 1.01),
+5 h is 1.04, and the arm steepens only below \~5 h (3 h RR 1.12)
+[@yin2017]. The pooled short-sleep
+penalty below 7 h is «1.06 (95% CI, 1.04-1.07) per 1-hour reduction», against «1.13 (95% CI, 1.11-1.15) per
+1-hour increment» above it [@yin2017] -- so the
+short-arm risk is driven by the chronic-short (sub-5 h) end, not the 6-7 h band. That is why Cappuccio's
+single pooled short-sleep RR of 1.12 (1.06-1.18), which bundles 6-7 h with chronic <5 h, over-states the
+6-7 h risk [@cappuccio2010]: the actionable floor is
+more than about 6 h, with the real penalty below \~5-6 h. Short sleep also raises incident type-2 diabetes
 about 9% per hour of sleep lost (RR 1.09, 1.04-1.15)
 [@shan2015]. The actionable arm is short
 sleep; long sleep is a marker of illness, not a target to trim. -> [[Sleep Duration and Mortality]]
@@ -269,6 +296,42 @@ sleep; long sleep is a marker of illness, not a target to trim. -> [[Sleep Durat
   \~9-10 g salt against a \~5 g target [@esc2021]. Decide on
   overall risk, not the number. -> [[Blood Pressure Lowering and Cardiovascular Events]]
 
+#### Things to look out for (the readouts)
+
+These are self-monitoring signals, not diagnoses. Each points back to a lever and, when it stays out of
+range, to a clinician -- the guideline itself never names or doses a drug.
+
+- **Blood pressure** is the best-evidenced downstream readout: lowering it cuts major cardiovascular
+  events about 10% per 5 mmHg, the relative benefit broadly constant across baseline pressure
+  [@bplttc2021], with the lifestyle
+  handles being weight, activity, alcohol and sodium (figures under *Sodium and blood pressure* above). A
+  pressure that stays high despite the levers is the medication conversation.
+  -> [[Blood Pressure Lowering and Cardiovascular Events]]
+- **apoB (or LDL cholesterol)** is the one blood marker the fabric treats as an even-handed,
+  individually-measurable discriminator across very different diets. The lipoprotein-ASCVD dose is
+  cumulative -- the log-linear association with risk holds across >2 million participants, and «this effect
+  appears to increase with increasing duration of exposure to LDL-C»
+  [@ference2017] -- so a level that has run high for
+  years matters more than a single reading. In the insulin-resistant /
+  hypertriglyceridemic person LDL-C can under-state the particle burden, where «direct measurement of LDL
+  particle number or apoB concentration ... may more accurately reflect the causal effect of LDL on ASCVD»
+  [@ference2017]. Lifestyle moves it only partly; a
+  persistently high apoB routes to a clinician. -> [[LDL ApoB and Cumulative Exposure]]
+- **Fasting glucose / HbA1c** is a metabolic-status readout, moved by the adiposity and activity levers (the
+  DiRECT remission ladder above is the same axis). Read it as a marker to stratify with, not a lever to pull:
+  cheap insulin-resistance proxies such as the triglyceride-glucose (TyG) index are «considered a reliable
+  surrogate marker of insulin resistance»
+  [@liu2022tyg] and
+  predict cardiovascular *incidence*, but «there was no association between the TyG index and mortality»
+  [@liu2022tyg] -- a
+  surrogate for a surrogate, useful for placing a person, not a number to steer by.
+  -> [[Insulin Resistance Surrogates and Cardiovascular Risk]]
+- **Waist / central adiposity** is the at-home proxy for the personal fat threshold -- steer the adiposity
+  lever by it rather than the scale (Taylor, above). -> [[Ectopic Fat and Depot-Specific Risk]]
+- **(65+) grip strength** is the functional readout of the elderly stack: grip predicts mortality (HR
+  \~1.16-1.20 per 5 kg lower) but is a marker to track, not a target a supplement moves (Celis-Morales,
+  below). -> [[Grip Strength and Mortality]]
+
 #### The sign-flippers to leave to a clinician (older adults)
 
 Testosterone raised fractures in the TRAVERSE trial (HR 1.43, 1.04-1.97) rather than lowering them, with no
@@ -290,7 +353,7 @@ not targets a supplement can move [@celismorales2018].
 > | | |
 > |---|---|
 > | **Question** | 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?' |
-> | **Evidence included** | 33 sources — 15 gold, 17 high, 1 moderate |
+> | **Evidence included** | 36 sources — 18 gold, 17 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |

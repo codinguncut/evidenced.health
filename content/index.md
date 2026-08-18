@@ -19,6 +19,7 @@ Turning imperfect evidence into a real decision — what to weigh, and what the 
 <div class="deliverable-grid">
 <a class="dcard" href="deliverables/Better-than-What"><span class="hicon-wrap"><iconify-icon class="hicon" icon="material-symbols-light:balance"></iconify-icon></span><span class="dcard-title">Better than What?</span><span class="dcard-desc">Every choice is 'better than what, for whom?' — weighing adherence, competing goals and real-world context when the evidence is partial, without defaulting to 'it depends'.</span></a>
 <a class="dcard" href="deliverables/Limits-of-Evidence"><span class="hicon-wrap"><iconify-icon class="hicon" icon="mdi:university-outline"></iconify-icon></span><span class="dcard-title">Limits of Evidence</span><span class="dcard-desc">What nutrition evidence can and can't show — why 'no evidence' usually means <em>unstudied</em>, not disproven, and how to choose when the evidence is silent, without falling back on anecdote.</span></a>
+<a class="dcard" href="deliverables/Lifestyle-Guideline"><span class="hicon-wrap"><iconify-icon class="hicon" icon="ep:guide"></iconify-icon></span><span class="dcard-title">Evidenced Guideline</span><span class="dcard-desc">The five lifestyle levers that move health the most, ranked on one page — what each one actually buys (and what it doesn't), where the gains run out, and how the list shifts after 65. Health evidence only; no feasibility, cost or palatability on the scale.</span></a>
 </div>
 
 ## Big Rocks

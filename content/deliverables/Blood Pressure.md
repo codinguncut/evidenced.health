@@ -3,21 +3,7 @@ type: deliverable
 title: Blood Pressure
 aliases: [Blood Pressure, Hypertension, High Blood Pressure, Lowering Blood Pressure, BP]
 question: 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?'
-sources:
-  - BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021
-  - SPRINT - Intensive vs Standard Blood Pressure 2015
-  - Neal - SSaSS Salt Substitution Cardiovascular 2021
-  - He - Salt Reduction Blood Pressure 2013
-  - Siervo - DASH Diet Cardiovascular Meta-Analysis 2015
-  - Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013
-  - Lean - DiRECT T2D Remission 2018
-  - Millwood - Alcohol and Vascular Disease Genetic Evidence 2019
-  - Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024
-  - Ma - Weight Loss Interventions Mortality 2017
-  - WHO - Sodium Intake 2012
-  - Huang - Sodium Dose Duration Blood Pressure 2020
-  - GRADE - Handbook
-  - ESC - CVD Prevention Guidelines 2021
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, He - Salt Reduction Blood Pressure 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Ma - Weight Loss Interventions Mortality 2017, WHO - Sodium Intake 2012, Huang - Sodium Dose Duration Blood Pressure 2020, GRADE - Handbook, ESC - CVD Prevention Guidelines 2021]
 confidence: medium
 created: 2026-08-10
 updated: 2026-08-17
@@ -495,7 +481,7 @@ a drug's are all unsettled — but the big, reasonably-certain moves above are n
 > | | |
 > |---|---|
 > | **Question** | 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?' |
-> | **Evidence included** | 0 sources |
+> | **Evidence included** | 14 sources — 4 gold, 9 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |

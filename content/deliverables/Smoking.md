@@ -129,4 +129,14 @@ from either source. It is honest about what that does **not** reach:
   the same way with cessation.
 - **For a non-smoker, this lever is already pulled** — the question moves to the next-largest exposure.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | What does the evidence show about smoking and patient-important outcomes — how large is the effect on mortality, life expectancy and specific diseases, how much of any excess risk cessation recovers and how that depends on the age at quitting, and what remains uncertain? |
+> | **Evidence included** | 2 sources — 1 gold, 1 high |
+> | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
+
 ## References

@@ -21,7 +21,7 @@ relationships:
     - Insulin Resistance Surrogates and Cardiovascular Risk
 created: 2026-07-29
 updated: 2026-08-12
-self_critiqued: 2026-08-08
+self_critiqued: 2026-08-18
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C

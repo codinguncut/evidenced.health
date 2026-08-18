@@ -20,9 +20,9 @@ relationships:
     - Allostatic Load and Mortality
     - Insulin Resistance Surrogates and Cardiovascular Risk
 created: 2026-07-25
-updated: 2026-08-09
+updated: 2026-08-18
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
-self_critiqued: 2026-08-08
+self_critiqued: 2026-08-18
 ---
 
 ## Why it matters
@@ -293,8 +293,9 @@ Two things worth carrying:
   - What remains genuinely notable is narrower and still worth holding: **the same marker was judged
     direct enough to escape the certainty downgrade and indirect enough to cost strength.** WHO's
     stated reason for the second is that LDL *"is not a physical manifestation or confirmation of
-    disease"* — which is true of it at the certainty step as well. The two steps were held to
-    different standards, and only the strength step's standard is stated.
+    disease"* — which is true of it at the certainty step as well. WHO invokes this
+    consideration only at the strength step and does not explain why the same fact weakens strength
+    yet not certainty.
 - The evidence on the surrogate can be *stronger* than the evidence on the outcome and still yield a
   weaker recommendation: in the same guideline, replacing SFA with PUFA, MUFA or carbohydrate lowers
   LDL at **high** certainty, while the hard-outcome certainty behind those replacements is moderate
@@ -478,8 +479,8 @@ a lipid response can be randomised, measured in weeks, in small samples, while a
 [[Sodium Intake and Blood Pressure]] has the identical shape: **High** certainty on blood pressure,
 **very low** on hard outcomes. **Two independent exposures showing the same inversion is the beginning
 of a general claim about this literature** — that wherever a nutrient acts through a measurable
-intermediate, the intermediate will be better graded than the endpoint, **structurally and
-permanently**, because the designs that grade well are the ones the intermediate admits.
+intermediate, the intermediate will be better graded than the endpoint, **by construction
+wherever it holds**, because the designs that grade well are the ones the intermediate admits.
 [inferred from @who2023saturated; @who2012]
 
 **Why this is the practical core of the surrogate problem.** The pressure to act on the marker is not
@@ -735,7 +736,7 @@ outscores the surrogate-graded one (added/free sugars %E) on the same diseases. 
 follows-measurability gradient (above) seen *within a single body's own assessment*, not just across two
 guidelines — and it is not fully clean, because SSBs are also the additive-energy vehicle, so design and
 exposure both differ; recorded as a corroborating instance of the gradient, not an independent
-controlled contrast. **NON-independent within the source; a fourth body (after WHO SFA, WHO sodium,
+controlled contrast. **NON-independent within the source; a third distinct body (after WHO and
 USPSTF) transparently grading disease certainty off surrogates** — corroborates the rule, no
 `[E-independent]` claimed. -> [[Free Sugars Intake]]
 [inferred from @efsasugars2022]

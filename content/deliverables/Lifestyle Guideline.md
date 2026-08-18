@@ -4,7 +4,9 @@ title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
 authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao]
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Yin - Sleep Duration Mortality Dose-Response 2017, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024,
+  Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Yin - Sleep Duration Mortality Dose-Response 2017, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012,
+  BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
 confidence: medium
 created: 2026-08-18
 updated: 2026-08-18
@@ -26,9 +28,13 @@ you have captured most of what a lifestyle can buy your health; the rest is real
    absent -- already pulled. -> [[Smoking and Mortality]]
 2. **Move your body a little every day -- the first minutes matter most.** The steepest drop in risk
    comes from leaving the least-active group at all, and it is **mostly light, everyday movement --
-   walking, chores, being on your feet -- not workouts.** Going from barely moving to modestly active is
-   **linked to roughly halving your risk of dying.** Then the curve flattens: past a modest daily
-   amount, more buys little. Strength follows the same shape -- **one or two short sessions a week, a
+   walking, chores, being on your feet -- not workouts.** Going from barely moving to modestly active --
+   **roughly an added hour a day of light movement, or about five extra minutes of something brisk, or a
+   couple of thousand more steps than a sedentary day** -- is **linked to roughly halving your risk of
+   dying.** Then the curve flattens: past a modest daily amount, more buys little. **Long sitting is a
+   separate risk, but activity largely cancels it.** If a desk job or commute keeps you sitting eight
+   hours or more, an hour or so of moderate movement a day offsets it -- and sitting less is not a
+   substitute for moving more. Strength follows the same shape -- **one or two short sessions a week, a
    small weekly total rather than four trips to the gym**, captures most of the gain. ->
    [[Physical Activity Dose and Mortality]], [[Muscle-Strengthening Activity and Mortality]]
 3. **Don't carry excess belly fat -- clear it, don't chase a number.** The risk is not weight on the
@@ -67,6 +73,11 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
   calorie deficit, keeping protein up while you keep lifting protects muscle and bone. For a younger
   person eating normally, it is not a lever worth chasing. ->
   [[Protein and Resistance Training for Muscle and Strength]]
+- **Fibre -- reach \~25-30 g/day, but mostly along for the ride.** People who eat the most fibre die
+  less often, but that comes from observational data on self-reported diets, so much of it is the whole
+  healthy-eating pattern rather than fibre itself. Where fibre is tested cleanly in trials, the effect
+  is real but small -- a little lower cholesterol. Eat enough, from whole plant foods rather than a
+  supplement chase, and don't expect a miracle. -> [[Dietary Fibre and Health]]
 
 ## Things to look out for
 
@@ -201,19 +212,48 @@ all-cause mortality (total-activity HR 0.48, 95% CI 0.43-0.54), with the most-ac
 (0.23-0.32); the increment that bought the first jump was overwhelmingly light, incidental movement, and
 most of the benefit banks by about 24 minutes a day of moderate-to-vigorous activity -- read as the centre
 of a broad flat zone, not a threshold
-[@ekelundacc2019]. In steps, the plateau sits
-near 6,000-8,000/day over age 60 and 8,000-10,000 for younger adults; 10,000 is a marketing number
-[@paluch2022]. Resistance training adds an independent signal
--- about 15% lower all-cause mortality (RR 0.85) and 17% lower type-2 diabetes (RR 0.83), on an L-shaped
-curve with no harmful upper arm [@momma2022];
-the decision that carries the effect is train-versus-not, and roughly two sets twice a week captures most of
-the gain [@currier2023]. Meeting both aerobic and
+[@ekelundacc2019]. In everyday terms that
+first step is small: the least-active-to-second-quarter gap was «broadly equal to 60 min/day of light
+intensity physical activity» -- or, at higher intensity, only about 5 min/day of moderate-to-vigorous
+activity, against roughly 70 min/day less sitting
+[@ekelundacc2019] -- so "a little" is an
+added hour of light movement, or five minutes of something brisk, above a sedentary day. In steps, the
+same lowest-to-second quartile step runs from a median 3553 to 5801 steps/day (about +2,300 steps), and
+the plateau sits near 6,000-8,000/day over age 60 and 8,000-10,000 for younger adults; 10,000 is a
+marketing number [@paluch2022]. Resistance training adds an
+independent signal -- about 15% lower all-cause mortality (RR 0.85) and 17% lower type-2 diabetes (RR
+0.83), on an L-shaped curve with no harmful upper arm
+[@momma2022]; the decision that carries the
+effect is train-versus-not, and roughly two sets twice a week captures most of the gain
+[@currier2023]. Meeting both aerobic and
 strengthening guidelines beats either alone (HR 0.71)
 [@who2020]. **At older ages, balance and
 functional training is the active ingredient for falls** -- it cuts the fall rate about 24% (rate ratio 0.76,
 0.70-0.81, high certainty), while resistance training alone is not proven to (RaR 1.14, 0.67-1.97, very low
 certainty -- the evidence is uncertain, not a demonstrated null)
 [@sherrington2019].
+
+**Sitting is a separate exposure, and activity offsets it.** Sedentary time and activity are only weakly
+correlated -- a person can be high on both -- so the sedentary-mortality gradient survives adjustment for
+activity, and "move more" does not by itself address sitting
+[@ekelundacc2019]. But activity largely
+cancels the sitting risk. In a harmonised meta-analysis of over a million adults, those who sat «more than
+8h/day but who also reported >35.5 MET-hour/week of activity (HR=1.04; 95% CI, 0.99, 1.10)» carried no
+excess mortality, while the least-active, least-sitting group sat at «HR=1.27, 95% CI, 1.22, 1.31» -- the
+most-active heavy sitters did better than the least-active light sitters
+[@ekelundsitting2016]. The offsetting dose is
+higher than the \~24 min/day mortality plateau: «High levels of moderate intensity physical activity (i.e.
+about 60 to 75 minutes per day) appear to eliminate the increased risk of death associated with high
+sitting time» [@ekelundsitting2016]. Two residuals
+matter. Television is the exception -- «this high activity level attenuates, but does not eliminate the
+increased risk associated with high TV viewing time», with «>3 hours/day ... associated with higher
+mortality rates regardless of physical activity, except in the most active quartile, where mortality rates
+were significantly higher only in the >5 hours/day group»
+[@ekelundsitting2016]. And the sitting threshold
+is measurement-dependent: device-measured risk rose «more pronounced at greater than 9.5 hours»
+[@ekelundacc2019], above the >8 h
+self-report figure. All of this is observational with self-reported sitting -- a robust, plausible
+association, not a proven causal cancellation.
 -> [[Physical Activity Dose and Mortality]], [[Exercise for Preventing Falls in Older Adults]]
 
 #### Don't carry excess belly fat
@@ -295,6 +335,15 @@ sleep; long sleep is a marker of illness, not a target to trim. -> [[Sleep Durat
   [@bplttc2021]. Western intake runs
   \~9-10 g salt against a \~5 g target [@esc2021]. Decide on
   overall risk, not the number. -> [[Blood Pressure Lowering and Cardiovascular Events]]
+- **Fibre.** Highest-vs-lowest fibre intake tracks \~15-30% lower all-cause mortality (RR 0.85), CHD (RR
+  0.76) and type 2 diabetes, about 13 fewer deaths per 1000 (CI 8-18)
+  [@reynolds2019] -- but on self-reported intake, so
+  the healthy-user confound and dietary measurement error inflate it
+  ([[Measurement Error in Dietary Assessment]]). The trial-grade effect is real and small: soluble
+  fibre lowers LDL about -0.057 mmol/L per gram over the practical 2-10 g/day range, «only a small
+  contribution to dietary therapy to lower cholesterol»
+  [@brown1999]. Reach \~25-30
+  g/day from food; do not read the mortality numbers as RCT-proven. -> [[Dietary Fibre and Health]]
 
 #### Things to look out for (the readouts)
 
@@ -353,7 +402,7 @@ not targets a supplement can move [@celismorales2018].
 > | | |
 > |---|---|
 > | **Question** | 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?' |
-> | **Evidence included** | 36 sources — 18 gold, 17 high, 1 moderate |
+> | **Evidence included** | 39 sources — 20 gold, 18 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |

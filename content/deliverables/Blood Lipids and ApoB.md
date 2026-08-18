@@ -139,4 +139,14 @@ Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **I
 
 **Still open.** No trial has randomized patients to *target* apoB versus LDL-C on hard outcomes; no trial has randomized statins by calcium score; and the wiki does not yet hold the primary-prevention specifics for ezetimibe, PCSK9 inhibitors, or Lp(a) as a distinct modifiable particle. The loop is open throughout — these are appraisals of what the evidence supports, not verdicts graded against realized outcomes.
 
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted? |
+> | **Evidence included** | 14 sources — 6 gold, 8 high |
+> | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+
 ## References

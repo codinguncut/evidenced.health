@@ -258,7 +258,7 @@ The outcome that pays now is not another year of life but another year of doing 
 
 So the older-adult prescription writes itself in kind but not in quantity: **balance-and-functional work is the evidenced fall lever, strengthening defends the muscle behind it, and the metrics tell you where you stand rather than what to chase.** Which raises the real question for anyone with limited time — if balance, strength, and aerobic work each earn a place, how should a fixed weekly budget be split among them?
 
-<!-- RESIDUAL: The chair-stand ">15 s" cut-off and gait-speed "<=0.8 m/s" are drawn from the EWGSOP2 Table-3 extract on the Sarcopenia page; verified against that page's [EXTRACTED chunk 04] block, not re-cited here. No new claim minted. -->
+
 
 ## Splitting a fixed weekly budget between cardio, strength, and walking
 
@@ -393,8 +393,8 @@ outcome it was never the strong lever for. **The scale is the wrong scoreboard.*
 The real reach of movement is not into body mass at all but into pain and joint
 function, cancer risk, and the brain — which is where the next sections go.
 
-<!-- RESIDUAL: The Careau \~28% point figure carries no CI in the source (Riou reports no CI on 18% either); the existence claim rests on Careau's slope CI, per the fabric page. Flagged so a numeric-CI audit does not read this as a dropped interval. -->
-<!-- RESIDUAL: "largely independent of scale weight" for the mortality/CMD benefit is an composite across the compensation and visceral pages plus the fitness/mortality fabric; no single source states it as one claim. Downstream compile should confirm the fitness->mortality limb is carried by the fitness section it points to. -->
+
+
 
 ## Movement is safe, and it reaches pain, joints, cancer, and the brain
 
@@ -412,7 +412,7 @@ For the overweight or obese person with knee OA, **weight loss is the primary mo
 
 Physical activity is graded by WCRF/AICR (2018, the gold-standard continuously-updated synthesis) as reducing risk of **colon cancer (Convincing)** and **endometrial and postmenopausal breast cancer (Probable)** — placing it, alongside body fatness and alcohol, among the leading *diet-adjacent* cancer levers after tobacco. WCRF reads the gradient as «it is likely that the greater the amount of physical activity, the greater the benefit» [@wcrf2018ter]. Two cautions travel with it: the evidence base is **observational cohorts** (few lifetime-diet RCTs are feasible), and these are **population-level causal grades, not per-person effects** — no source here shows that one person's taking up activity lowers *their* cancer, and WCRF does not quantify a per-person magnitude [@wcrf2018ter]. So: associates with lower risk, strong grade on breadth of sites, but read as risk not prevention -> [[Diet Physical Activity and Cancer Prevention]].
 
-<!-- RESIDUAL (S4c cold-audit): WCRF per-cancer strength GRADES (colon = Convincing; endometrial + postmenopausal breast = Probable) live in the CUP matrix FIGURE, colour-coded, which did not survive text extraction into the chunks -- so the grade-cell mapping is not verbatim-locatable in chunk 02, though the strength words «convincing»/«probable» and the PA->colon scope (footnotes 13 "Colon cancer only" / 14 "Aerobic physical activity only") ARE in-source. The grades are held and grounded on the fabric ([[Diet Physical Activity and Cancer Prevention]] cites matrix FN56; [[Physical Activity Dose and Mortality]] likewise) -- this cross-references them, not a fresh extraction. Flagged so a numeric/grade audit does not read the matrix-figure grades as fabricated. -->
+
 
 ### Cognition and dementia — one of several levers, modest and uncertain
 
@@ -422,7 +422,9 @@ With movement's reach across these outcomes mapped, the last question is not *wh
 
 ## How the levers rank, and what is still open
 
-<!--].
+
+
+Those outcomes do not rank themselves, and where the ceiling sits depends entirely on who is asking. **There is no universal ordering of exercise levers.** Layer 1 ranks by expected effect size x certainty and asks one question — *what is the largest remediable gap in this stratum?* — so the order changes with the person, not with the evidence [[Layer 1 - Ranking Interventions for a Stratum]].
 
 - **For the inactive/sedentary person, "just start" dominates every refinement.** The dose-response curve is steepest at the least-active end, so the first hour a week is the largest lever on the whole menu (device-measured total activity, HR 0.34 [0.27-0.43]). Its warrant is a large, consistent *observational* association across harmonised accelerometry cohorts — not a GRADE-HIGH grade (the one HIGH-certainty result in this deliverable is the Cochrane falls estimate); what makes it the safest move is effect size x consistency, not a certified certainty level [[Physical Activity Dose and Mortality]]. While near-total inactivity stands — a named big rock — no question about intensity, split, or modality competes with it; every other exercise decision is second-order until it is pulled.
 - **For the already-active midlife adult, that big lever is spent, so the marginal questions shift.** They move to strength training — an independent mortality-and-function payoff that aerobic minutes do not buy [[Muscle-Strengthening Activity and Mortality]] — and to intensity and allocation. These are real but smaller levers, now competing among themselves rather than against inactivity.

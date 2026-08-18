@@ -519,7 +519,7 @@ NNR-reads-SACN and WCRF-shares-Reynolds'-cohorts denials already on this page. *
 evidence-independence.** Confidence stays `low`: Aune sharpens the *precision and shape* of the estimate,
 it adds no independent backing.
 [inferred from @aune2016wg; @reynolds2019]
-Full extraction, all outcome cells and the observational caveats: [@aune2016wg].
+Full extraction, all outcome cells and the observational caveats: Aune 2016 source page [@aune2016wg].
 
 ### Self-critique of the Aune addition `[run 2026-08-13, before commit]`
 

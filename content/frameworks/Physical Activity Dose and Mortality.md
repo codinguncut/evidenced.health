@@ -18,7 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-27
-updated: 2026-08-14
+updated: 2026-08-18
 self_critiqued: 2026-08-06
 ---
 
@@ -307,8 +307,9 @@ The dose that eliminates it is high — **60-75 min/day of moderate activity**, 
 **Two decision-relevant asymmetries.** (i) The offsetting dose (60-75 min/d) is *higher* than the
 mortality-plateau dose (\~24 min/d MVPA) above — so *enough activity to bank the mortality benefit* is not
 automatically *enough to cancel heavy sitting*; the sitting offset asks more. (ii) **TV viewing is only
-attenuated, not eliminated** — even the most active kept excess risk at >5 h/day TV (HR 1.16, 1.05-1.28),
-whereas total sitting was fully offset. TV is not just *sitting*: postprandial-evening timing, snacking,
+attenuated, not eliminated** — even the most active kept excess risk at >5 h/day TV (HR 1.16, 1.05-1.28)
+[@ekelundsitting2016], whereas total sitting was
+fully offset. TV is not just *sitting*: postprandial-evening timing, snacking,
 and fewer sitting-breaks are the offered mechanisms, so the two sedentary exposures are not one lever
 (consistent with Willett's near-zero sitting/activity correlation above). Magnitude anchor: the
 least-active + >8 h-sitting group's 58% excess risk «is similar to that of smoking and obesity».

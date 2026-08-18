@@ -8,8 +8,8 @@ cluster: occupation
 nucleus: true
 confidence: low
 created: 2026-08-14
-updated: 2026-08-14
-self_critiqued: 2026-08-14
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 relationships:
   related_to:
     - Physical Activity Dose and Mortality
@@ -18,6 +18,7 @@ relationships:
     - Is the Food Category Doing Any Work
     - Transportability and Effect Modification
     - Job Strain and Coronary Heart Disease
+    - Night Shift Work and Breast Cancer
 ---
 
 Opens the `occupation` cluster. The core claim: **the direction of the physical-activity/mortality
@@ -130,6 +131,7 @@ banked the [[Physical Activity Dose and Mortality]] benefit; leisure-time modera
 person is and what their activity actually consists of), **not** a claim that work activity should be
 reduced — the paper does not support a *reduce-your-work-activity* recommendation, only a
 *don't-count-it-as-your-exercise* one.
+[inferred from @coenen2018paradox]
 
 **Candidate effect modifier — fitness (route-b, UNTESTED).** The harm «appears to be stronger in workers
 with low compared with high cardiorespiratory fitness», but Coenen «could not statistically test this in
@@ -152,10 +154,11 @@ effect-modification bar, and must not yet be stated as an established interactio
 The honest read: a single gold MA establishes a **credible domain-specific association** worth a
 stratum-level caveat, not a settled causal law. It earns a LOW-confidence nucleus that the rest of the
 occupation cluster will test.
+[inferred from @coenen2018paradox]
 
-## The occupation cluster's other channels — strain and cognitive stimulation
+## The occupation cluster's other channels — strain, cognitive stimulation, circadian
 
-Occupation reaches health by more than the physical-demand route this page maps — it is at least **three
+Occupation reaches health by more than the physical-demand route this page maps — it is at least **four
 distinct exposures**, reaching different organ systems by different biology, and a worker can carry any
 combination of them:
 
@@ -170,10 +173,19 @@ combination of them:
   one. Note channels 2 and 3 share the **demand** axis but sit at **opposite poles of the control axis**,
   which flips high-demand work from CHD-harmful (low control) to dementia-protective (high control) — the
   demand-control model is itself not one exposure.
+- **Channel 4 — circadian disruption (a NULL).** [[Night Shift Work and Breast Cancer]] is the
+  most-studied occupational circadian disruptor, and its patient-important verdict runs *opposite* to a
+  harm channel: pooled across 10 prospective studies (1.4M women) night shift work shows **no meaningful
+  effect** on breast cancer incidence (RR 0.99, 0.95-1.03; excludes a moderate effect even at >=20 years),
+  overturning a case-control-driven prior signal and the IARC 2A *probable carcinogen* reading. It is the
+  cluster's demonstration that an occupational channel can resolve to a *credible no-effect*, not only to
+  harm or benefit — and a live instance of prospective evidence overturning retrospective
+  -> [[Upgrading Observational Evidence]].
 
-So "occupation" is at least three exposures for a health decision, with different outcomes (mortality /
-CHD / dementia), different pathways, and different signs; the levers do not collapse into one.
-[inferred from @coenen2018paradox; @kivimaki2012jobstrain; @kivimaki2021cognitive]
+So "occupation" is at least four exposures for a health decision, with different outcomes (mortality /
+CHD / dementia / breast cancer), different pathways, and different signs — including one that resolves to
+a null; the levers do not collapse into one.
+[inferred from @coenen2018paradox; @kivimaki2012jobstrain; @kivimaki2021cognitive; @travis2016nightshift]
 
 ## Self-critique `[run 2026-08-14, before commit]`
 
@@ -189,5 +201,13 @@ CHD / dementia), different pathways, and different signs; the levers do not coll
   dose page, not a separate tension page.
 - **Coherence, not validity** (R1): the page says the association exists and is domain-specific; it does
   not assert that work activity *causes* death, and the open loop (no realized-outcome check) stands.
+
+### Channel-4 addition `[run 2026-08-17, before commit]`
+
+- **The circadian NULL is added without inflating the decomposition.** Channel 4 is presented as a
+  *null* (no meaningful effect on breast cancer), not padded into a harm to make the four-channel story
+  tidier; the effect estimate stays attributed to Travis's own source. The four-exposures claim is a
+  cluster-level read tagged, each estimate left to its own source — no laundered
+  independence across the four channels.
 
 ## References

@@ -12,8 +12,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-08-04
-self_critiqued: 2026-08-08
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
 **Mostly a compilation.** Every row of the table below is copied from a claim page with its own source;
@@ -443,5 +443,136 @@ signal from a careless late window. **It ranks below every hard-outcome row in t
 belongs with sodium/free-sugars as a small/surrogate lever — its prominence is a fact about the
 literature, not about its effect size. It is not added as a table row: there is no absolute hard-outcome
 effect to rank, which is itself the placement.
+
+
+
+
+
+
+## Few high-certainty, high-impact dietary levers — a challenge the assembled fabric confirms, and sharpens `[2026-08-17, Challenge]`
+
+A maintainer doubt, registered as a Challenge: *the evidence for fibre is not convincing or big; the
+big levers are movement/muscle and loss of visceral/ectopic fat and dyslipidaemia; and other than fibre
+there are very few high-certainty, high-impact dietary levers.* Adjudicated against the held fabric —
+never by authority — the doubt is **substantially correct, and the fabric already holds it**, scattered
+across the pages this section now assembles. Assembling it makes one distinction the individual pages do
+not, and adds a certainty-type asterisk to each lever the doubt names.
+
+**The distinction the pieces hide: a "dietary lever" is two different objects.** Split it and the
+apparent emptiness resolves.
+
+- **Composition** — *which* nutrient (more PUFA, less SFA, less free sugar, less sodium, more fibre).
+  Every composition lever the wiki holds is **small, conditional, observational, or mostly spent** (the
+  enumeration below). This is the set the doubt calls nearly empty, and the fabric agrees.
+- **Quantity** — *how much* total energy. This is the one **large** dietary lever, and it acts by
+  changing body fat, so it appears on the ranking not as "diet" but as **fat loss**. The fabric holds
+  that the carbohydrate-insulin "metabolic advantage" is refuted in direction and magnitude — *"a
+  calorie is a calorie"*, *"cutting carbs is not a distinct fat-loss lever at equal calories... the
+  decision moves to energy intake"* -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]];
+  the adiposity lever *"is negative energy balance, whatever delivers it"* -> [[Ectopic Fat and Depot-Specific Risk]].
+
+So the doubt's own framing — big levers = movement + fat loss, dietary levers = small — **is the fabric's
+position once "fat loss" is recognized as the one large dietary lever wearing a body-composition label.**
+
+**The composition set, enumerated — each cross-linked, none re-derived here:**
+
+- **Fibre** — the doubt's granted exception, and the fabric is *more* skeptical than the doubt. The strong
+  signal (CHD RR 0.76) is **observational**; the trialled causal mechanism is transmission-bounded to a
+  **<4% CHD reduction** (challenge #R40), *"an order of magnitude smaller than the association the cohorts
+  report"* — *"a real but modest lever, and the strongest evidence sits on the smallest effect"*
+  -> [[Dietary Fibre and Health]]. The one dietary lever the doubt keeps is itself shakier than granted.
+- **Saturated fat -> PUFA** — the only rankable composition lever, and the smallest thing on the table:
+  15 fewer CV events/1000 on **one composite outcome** (RR 0.83, Moderate), mortality graded null, the
+  SFA-harm premise itself contested -> [[Saturated Fat Intake and Replacement]].
+- **Free sugar** — isoenergetic swap **null** (0.04 kg); the WHO 10% limit is a *dental* recommendation,
+  not a cardiometabolic one -> [[Free Sugars Intake]].
+- **Sodium** — HIGH certainty on the surrogate (SBP -3.39 mmHg), **VERY LOW** on direct hard outcomes;
+  a route-(a) conditional lever that pays with baseline BP risk, not a universal one
+  -> [[Sodium Intake and Blood Pressure]].
+
+**The two honest exceptions the claim must survive (symmetric standards — test the counter-evidence, not
+just the confirming):**
+
+- **Trans fat** is the one *firm* composition finding — *"the firmest fat finding held"* -> [[Dietary Fat]].
+  But it is largely policy-eliminated, so little individual room remains, and WHO issued only a
+  *conditional* recommendation below 1%E because LDL *"is not a physical manifestation... of disease."*
+  A high-certainty lever that is mostly already spent.
+- **The Mediterranean *pattern*** carries the best hard-outcome dietary signal held (PREDIMED primary
+  composite HR 0.70, 0.55-0.89) — but in a **high-baseline-risk** population (\~49% diabetic, \~82%
+  hypertensive), carried by stroke, with **all-cause mortality null (0.98)**, on a provenance-repaired
+  (2018) trial whose authors say generalization to lower-risk people *"requires further research"*, and
+  pooled RCTs are null except diabetes -> [[Mediterranean Diet and Cardiovascular Events]]. It is a
+  multi-component pattern in high-risk people, not a high-certainty lever for the low-risk individual —
+  so it bounds the claim without overturning it.
+
+**The sharpening the fabric adds to the doubt's *big* levers — each is real, and each carries an
+evidence-type asterisk the doubt's framing omits:**
+
+- **Movement** is the largest association the vault holds (HR \~0.34 self-report, \~0.27 device) but it is
+  **observational — structurally unprovable by RCT** for hard CV events; a predictor of large effect, not
+  a proven-by-trial one -> [[Physical Activity Dose and Mortality]], [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
+- **Muscle / grip strength** is a **predictor, not a proven treatment target**: grip is *"a number to
+  MEASURE (it places you in a stratum), not a number to STEER toward"*; that training it lowers mortality
+  is not established -> [[Grip Strength and Mortality]], [[Low Muscle Mass and Mortality]].
+- **Visceral / ectopic fat loss** is outcome-specific: **proven** for T2D remission (DiRECT 46%), MASLD
+  regression, and all-cause mortality (Ma 54-RCT RR 0.82, *"not routed through the heart"*), but the
+  **hard-CV-event benefit by the lifestyle route is unproven** (Look AHEAD HR 0.95; Ma CV events RR 0.93
+  null). *"Pursue fat loss for the outcomes it demonstrably moves... do not count on a lifestyle-route
+  reduction in heart attacks"* -> [[Body Fat]], [[Does Weight Loss Reduce Cardiovascular Events]].
+- **Dyslipidaemia** is where the fabric most corrects the framing: the high-certainty, mortality-moving,
+  high-impact lever is **pharmacological**, not dietary. Statin LDL-lowering per 1.0 mmol/L: major
+  vascular events RR 0.78, all-cause mortality RR 0.90 — but the fabric firewalls it, *"the magnitude does
+  not transfer to a dietary LDL-C change"* -> [[LDL Lowering and Cardiovascular Events]], [[LDL ApoB and Cumulative Exposure]].
+  Naming dyslipidaemia among lifestyle levers conflates a real, large, high-certainty target with a
+  route (diet) that reaches it only weakly.
+
+**The decision-change.** This licenses someone to **stop hunting for a magic dietary-composition lever** —
+there is no large, high-certainty, hard-outcome one for a low-risk individual, and the fabric says so
+across a dozen pages. Redirect instead: the large *dietary* lever is **energy quantity -> adiposity**,
+cashed on metabolic and all-cause outcomes rather than heart-attacks-avoided; movement is the largest
+*behavioural* lever (evidence-type-limited); not-smoking dominates wherever present; and if hard-ASCVD
+prevention at *elevated* baseline risk is the goal, the high-certainty high-impact lever is
+**apoB-lowering, whose proven instantiation is a drug** — a layer-3/prescriber act the wiki appraises but
+does not prescribe.
+
+**Honest posture — this is agreement, not divergence.** Under the telos's symmetric-standards rule a
+*confirmed* convention is as reportable as a refuted one, and manufacturing an overturning here would be
+the bias the rule exists to catch. The value added is configurative (the composition/quantity split; the
+per-lever certainty-type asterisk), not a new magnitude — the doubt was right, the fabric held it, and
+this section states it once instead of leaving it distributed.
+
+
+
+
+## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
+
+The public bands (big rock / medium stone / small pebble) are this page's *effect x certainty* ranking made
+legible, and a lever's band is not read off its **headline relative association** — it is
+*absolute effect at the person's baseline risk, discounted by certainty*. Two levers a maintainer
+questioned show the two ways that distinction bites, and they resolve in **opposite** directions.
+
+- **Plant foods is a MEDIUM lever, not a big rock — and no stratum rescues it.** Its large-looking numbers
+  are **observational associations** (fruit/veg all-cause mortality RR \~0.90 per 200 g/day
+  -> [[Fruit and Vegetable Intake and Health]]; fibre CHD RR 0.76 -> [[Dietary Fibre and Health]]) whose
+  **causal core is small** — the trialled fibre mechanism is transmission-bounded to a <4% CHD reduction
+  (challenge #R40). The evidence is observational *everywhere* (no whole-food RCT to a hard outcome), so
+  there is no baseline stratum at which it becomes large-and-certain. Every owning page already tiers it
+  there — *"a real but modest supporting lever, not a big rock"* -> [[Fibre]]; *"for most people
+  this is a small lever"* -> [[Plant Foods]] — and [[Big Rocks (Median)]] omits it from its big-rock
+  buckets entirely.
+- **Blood pressure is a BIG rock CONDITIONALLY — Big for an elevated-BP/high-risk person, Medium-to-Pebble
+  for a normotensive.** Unlike plant foods it carries a **proven** hard-outcome transmission that reaches
+  primary prevention: 5 mmHg systolic -> \~10% fewer major CV events (BPLTTC, HIGH), so route-(a) baseline
+  scaling makes the *same* millimetres a large absolute gain at high risk and a small one at low. The
+  owning deliverable already holds this as a two-column tier table keyed to baseline risk, governed by
+  *"rank on absolute risk, not the BP number"* -> [[Blood Pressure]]. Its *dietary* levers (sodium, DASH,
+  potassium) are Medium; the big-rock instantiation is the drug route plus weight loss — which is why
+  [[Sodium Intake and Blood Pressure]] tiers below the integrator it feeds.
+
+**The discriminator, stated once.** A large **association** with a small or unproven **causal transmission**
+tiers Medium and cannot be promoted by baseline risk (plant foods); a lever with a **proven** transmission
+tiers by the person's baseline risk and so is **stratum-conditional** (blood pressure). Reading a headline
+RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
+benefit (the prevalence-wedge section above) — one level down, at the individual lever.
 
 ## References

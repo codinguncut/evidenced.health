@@ -17,8 +17,8 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
@@ -266,6 +266,49 @@ pool. Full appraisal on [[Linoleic Acid and Cardiovascular Disease]] (*The Sydne
 arm*). NOT independent-E of MCE — same Ramsden recovered-RCT program (Sydney's MA contains the Minnesota
 Survey).
 [inferred from @ramsden2013; @ramsden2016]
+
+## Hooper's OWN risk-of-bias sensitivity analyses partly answer joined-issue 1 — from inside the review `[2026-08-17]`
+
+Joined-issue 1 (is the events benefit robust to the internal-validity concerns?) was filed here with the
+adjudication held as an **external AWAITS** — an independent institutional re-appraisal running an
+adequacy/confounding filter over Hooper's own pool. But Hooper **already ran a within-review
+risk-of-bias sensitivity analysis**, and it delivers part of that adjudication directly. This is an
+**F-refinement of joined-issue 1, not a new tension.**
+
+- **Combined events (RR 0.83).** The headline survives most sensitivity checks — «This protective
+  eﬀect was confirmed in sensitivity analyses including only trials that aimed to reduce saturated
+  fat..., that significantly reduced saturated fat intake..., that achieved a reduction in total or LDL
+  cholesterol..., or excluding the largest trial (WHI 2006...)» — with the **low-risk-of-bias
+  restriction the exception**: «Analysing including only trials at low summary risk of bias, or using
+  Mantel-Haenszel or Peto fixed-eﬀect analysis suggested more marginal protection (Analysis 1.36...).»
+  The exact figure for the low-RoB combined-events subset is **not narratively reported** (Analysis
+  1.36) — only its direction (weaker).
+  [@hooper2020]
+- **Myocardial infarction (RR 0.90).** Here the low-RoB restriction is quantified and crosses the null:
+  «Sensitivity analyses including only trials at low summary risk of bias (RR 0.93, 95% CI 0.81 to 1.08,
+  Analysis 2.2)... suggested little or no eﬀect, though risk ratios were still all < 1.0.»
+  [@hooper2020]
+
+**The decision-relevant reading.** The events benefit is **robust to most within-review sensitivity
+checks but not to the risk-of-bias one** — restricting to low-RoB trials weakens the combined-events
+signal («more marginal protection») and moves MI to a frank null. This is exactly what GRADE's one-step
+downgrade to **Moderate** already encodes (the estimate is not High-certainty precisely because of such
+limits), so it does **not overturn** RR 0.83 — the primary estimate stands and the consistency across
+the *other* sensitivity analyses is real. What it does is **narrow joined-issue 1's external AWAITS**:
+part of the internal-validity question is answered from *inside* the review — the events benefit is
+real but its magnitude is trial-quality-sensitive, and disappears for MI specifically once the
+low-quality trials are removed. **Caveat (why it narrows rather than closes):** Cochrane's «low summary
+risk of bias» filter is the standard RoB assessment (randomisation, allocation concealment, blinding),
+**not** Hamley's confounding-adequacy filter targeting the trans-fat-comparator specifically — the two
+overlap but are not identical, so the AWAITS for a confounding-specific re-appraisal of the RR-0.83
+**combined-events** pool still stands.
+
+**Correction to a common conflation (the anti-authority catch).** The RR **0.93 (0.81-1.08)** low-RoB
+figure is Hooper's **myocardial-infarction** sensitivity (Analysis 2.2), **not** the combined-events
+one (Analysis 1.36, «more marginal protection», figure unquoted). A critique that pins RR 0.93
+(0.81-1.08) on the *combined cardiovascular events* estimate has swapped the two outcomes — the
+direction of the claim survives, the label does not.
+[inferred from @hooper2020]
 
 ## The hidden insight
 

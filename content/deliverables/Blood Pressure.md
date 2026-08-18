@@ -5,517 +5,490 @@ aliases: [Blood Pressure, Hypertension, High Blood Pressure, Lowering Blood Pres
 question: 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?'
 sources:
   - BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021
-  - USPSTF - Procedure Manual 2022
   - SPRINT - Intensive vs Standard Blood Pressure 2015
   - Neal - SSaSS Salt Substitution Cardiovascular 2021
   - He - Salt Reduction Blood Pressure 2013
   - Siervo - DASH Diet Cardiovascular Meta-Analysis 2015
   - Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013
-  - Aburto - Potassium Cardiovascular 2013
+  - Lean - DiRECT T2D Remission 2018
   - Millwood - Alcohol and Vascular Disease Genetic Evidence 2019
   - Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024
+  - Ma - Weight Loss Interventions Mortality 2017
+  - WHO - Sodium Intake 2012
+  - Huang - Sodium Dose Duration Blood Pressure 2020
   - GRADE - Handbook
   - ESC - CVD Prevention Guidelines 2021
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-10
-self_critiqued: 2026-08-10
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
-## The verdict
+## Pull The Two Steps Apart
 
-Blood pressure is a lever you can reach through several different exposures — what you eat, how
-much you weigh, how much you drink, and the drugs a clinician can prescribe. Only one of those
-routes, lowering pressure with medication, is directly proven to turn a drop in the number into
-fewer strokes and heart attacks. Every lifestyle route borrows that link rather than demonstrating
-it: the pressure falls, and the benefit to the heart and brain is assumed to follow.
--> [[Blood Pressure Lowering and Cardiovascular Events]]
+Two different questions hide inside *lower your blood pressure*. One is whether a given lever — a
+drug, less salt, a lighter body, less alcohol — actually moves the number. The other is whether
+moving the number buys anything a person can feel: fewer strokes, fewer heart attacks, more years.
+**These are separate evidenced steps, and they do not stand or fall together.** A lever can shift the
+reading convincingly and still leave the second step an open assumption.
 
-The large, reasonably certain lifestyle moves are cutting sodium, eating a whole DASH-style dietary
-pattern, losing weight if you carry excess, and — for people who drink — drinking less. Which of
-them is worth the effort is set by a person's absolute cardiovascular risk, not by the pressure
-reading itself: the same fall in pressure is worth a great deal to someone already at high risk and
-little to someone at low risk. The decision follows the risk, not the number.
-[@bplttc2021]
+On that second step the evidence is lopsided. **Only lowering blood pressure with drugs is directly
+proven to turn a smaller number into fewer hard events** — and proven even in people without
+established heart disease [@bplttc2021].
+Every lifestyle route — cutting sodium, eating a whole DASH-style pattern, losing excess weight,
+drinking less — genuinely moves blood pressure, but **borrows** that link rather than demonstrating
+it. The one dietary route shown to reach hard outcomes did so as a joint sodium-and-potassium lever,
+not a clean single exposure — so even the closest lifestyle case does not settle the transfer for the
+others.
 
-Two more cautions shape the rest. The levers overlap — a DASH pattern already contains most of the
-sodium and potassium moves, and weight loss carries much of the diet effect — so their separate
-pressure reductions do not add up. And raising potassium helps people who already have high
-pressure while doing essentially nothing for someone whose pressure is normal, so a lever's worth
-depends on who is pulling it.
+So the levers rank by effect, certainty, and how achievable they are — and the size of the prize is
+set by **absolute cardiovascular risk, not by the blood-pressure number itself**
+([[Layer 1 - Ranking Interventions for a Stratum]]). The same fall in millimetres is worth a great
+deal to a high-risk person and very little to a low-risk one, because a constant relative effect
+scales with the baseline it acts on. For someone already at low risk with a normal reading, the
+honest bottom line is that the remaining levers here are small — a result that licenses stopping, not
+a failure to find one.
 
-Two levers are easy to misplace. Stress-reduction programs post an impressive pressure number on
-paper but rest on the weakest evidence, and likely work mainly by helping people stay on their
-medication — an adjunct, not a substitute. Drug therapy sits on the same shelf as the lifestyle
-levers, weighed on the same effect, certainty and stickability — neither a first nor a last resort
-by default. What the evidence here cannot yet rank is how much exercise lowers pressure, and how it
-compares head-to-head with the drugs.
+That places drug therapy where it belongs: on the **same shelf** as the lifestyle levers, weighed on
+the same effect, certainty, and stickability. It is the realistic alternative — neither a first move
+to reach for by reflex nor a last resort to postpone. *Natural* earns a lever no exemption. A
+lifestyle-induced drop carries the weaker-certainty second step, so its being a food or a habit
+rather than a pill counts for nothing on the question that decides its worth — whether the drop
+becomes fewer events.
 
-Start by pulling the two steps apart, because collapsing them is the mistake that makes a pressure
-number look like a health outcome.
+Collapsing those two steps is the mistake that makes a BP reading look like a health outcome — so
+start by separating them.
 
-## Two questions, not one — what moves BP vs what a BP drop buys
+## What Moves BP Is Not What A BP Drop Buys
 
-Blood pressure is a surrogate — a marker read because it is fast and cheap, standing in for the
-outcomes a person actually cares about: strokes, heart attacks, cardiovascular death, years of
-retained function. It is an intermediate quantity, not something a patient feels or experiences
-[@uspstfmanual2022]. Treating a lower reading as if it were the
-health gain collapses a chain that has two separate links, each carrying its own evidence.
+**Blood pressure is a surrogate** — a fast, cheap number standing in for the outcomes anyone actually cares about: stroke, myocardial infarction, cardiovascular death, death from any cause. Between a lever and those outcomes sit **two separate evidenced steps**, and each has to be shown, not assumed:
 
-Those two links are distinct questions. The first — does a given lever move the pressure, and by
-how much — is answered by the trials that test that lever. The second — does a drop in pressure
-actually buy fewer events — is a different claim resting on different evidence. A lever can be well
-proven on the first step and borrow the second entirely. This is the discipline
-[[Surrogate Outcomes]] holds: a marker earns the standing of a *target* to steer toward only when its
-transmission to a patient-important outcome is itself evidenced, never assumed. Where it is
-assumed, the recommendation inherits the assumption silently.
+- **Lever -> BP change** — does cutting sodium, losing weight, or taking a drug actually move the number, and by how much?
+- **BP change -> events** — does moving the number by that much prevent the strokes and heart attacks?
 
-So every lever in this deliverable carries two facts kept apart: how far it moves the pressure, and
-whether that movement is known to transmit to an outcome. The two are never merged. A reported
-change in pressure is not, by itself, a reported change in health — and the levers with the largest
-pressure numbers are not always the ones with the firmest link to events.
+A lever can be airtight on the first step and silent on the second. That is the whole reason to separate them: **a BP reading is not a health outcome**, and a drop in it earns nothing until its transmission to a patient-important outcome is itself evidenced.
 
-## The transfer step: does lowering BP prevent events?
+This is not a private rule. [[Surrogate Outcomes]] carries the machinery: GRADE restricts surrogate use to where outcome evidence is lacking and tells guideline developers to name the outcome apart from the marker — «Guideline developers should not list the surrogates themselves as their measures of outcome» [@grade]. And it sets the bar **above correlation**: a marker that *tracks* an outcome has still not been shown to *predict* it. In GRADE's own worked case, progression-free survival was significantly associated with overall survival, yet «predicting overall survival using progression-free survival remained uncertain» [@grade]. **A correlation between a lever's BP effect and fewer events is not the transmission; the transmission is a claim that must carry its own evidence.**
 
-The second step — does a lower number actually mean fewer strokes — is settled, but only for
-one kind of lowering. This is where the surrogate stops being a surrogate: the largest randomised
-evidence base ties a *drug-induced* fall in blood pressure directly to fewer hard cardiovascular
-events. The transfer is real. What it does not license is reading that same guarantee off a BP drop
-produced any other way.
+So a legitimate BP **target** — a number to steer toward — exists only where that second step is filled in **for the specific way the number is being lowered**. The second step — does a lower number mean fewer strokes — is settled, but only for one kind of lowering.
 
-### The evidence: per-5-mmHg, and why it reaches primary prevention
+## Does Lowering BP Actually Prevent Events?
 
-Pooling 344,716 people across 48 randomised trials, the Blood Pressure Lowering Treatment
-Trialists' Collaboration found that «a 5 mm Hg reduction of systolic blood pressure reduced the risk
-of major cardiovascular events by about 10%, irrespective of previous diagnoses of cardiovascular
-disease, and even at normal or high–normal blood pressure values» [@bplttc2021]. The per-5-mmHg hazard ratio was **0.91
-(0.89-0.94) in people without prior cardiovascular disease** and **0.89 (0.86-0.92) in those with
-it** [@bplttc2021].
-The component reductions: **stroke and heart failure 13% each, ischaemic heart disease 8%,
-cardiovascular death 5%** per 5 mmHg.
+The second step is settled — for drugs. Pooling **344,716 participants across 48 randomised
+trials**, BPLTTC found «a 5 mm Hg reduction of systolic blood pressure reduced the risk of major
+cardiovascular events by about 10%, irrespective of previous diagnoses of cardiovascular disease,
+and even at normal or high–normal blood pressure values» [@bplttc2021]. **Lowering blood pressure with drugs
+prevents events — this is a settled causal claim**, and it is the reason a BP reading is worth
+steering at all.
 
-The load-bearing fact is the *absence of heterogeneity*. Across baseline-SBP strata there was «no
-reliable evidence of heterogeneity of treatment effects on major cardiovascular events by baseline
-cardiovascular disease status or systolic blood pressure categories», and «in no subgroup was the HR
-above 1·0, and there was no pattern of diminishing proportional effects in subgroups with lower (or
-higher) baseline blood pressure» [@bplttc2021]. The *relative* effect is constant whether you start hypertensive or
-high-normal, and it holds in people with no established disease. Blood-pressure lowering is the one
-cardiometabolic lever with a directly-proven relative benefit in primary prevention.
-
-### SPRINT: an intensive target buys events — at a real cost
-
-BPLTTC fixes a 5 mmHg contrast and is silent on how low to aim. SPRINT supplies the target trial. It
-randomised 9,361 high-CV-risk, non-diabetic hypertensives to a systolic target below 120 mmHg versus
-below 140 (achieved \~121 vs \~136). The intensive arm won on hard outcomes: primary composite «hazard
-ratio with intensive treatment, 0.75; 95% confidence interval [CI], 0.64 to 0.89» and all-cause
-mortality «hazard ratio, 0.73; 95% CI, 0.60 to 0.90» — a 25% and 27% relative reduction, with a
-**number needed to treat of 61** to prevent one primary event over 3.26 years
-[@sprint2015].
-
-The lower target is not free. Serious «hypotension, syncope, electrolyte abnormalities, and acute
-kidney injury or failure, but not ... injurious falls» were more common in the intensive group
-[@sprint2015]. So the target decision is
-a **net-effect judgement**, not *lower is always better*: real events prevented, weighed against a
-real adverse-event cost, in a population selected for high baseline risk.
-
-### The observational diastolic J-curve is an artifact
-
-Registries had shown a J-shaped association — «the lowest risk of events occurring at blood pressure
-levels around 130/75 mm Hg», read as a warning that lowering below this harms
+**The magnitude, with its bounds.** Per 5 mmHg SBP, the hazard ratio for a major CV event was
+**0.91 (95% CI 0.89-0.94) in people without prior CVD and 0.89 (0.86-0.92) in those with it**;
+component reductions were stroke 13%, heart failure 13%, ischaemic heart disease 8%, CV death 5%
 [@bplttc2021]. The
-randomised evidence dissolves it. Benefit held across systolic strata «down to less than 120 mm Hg»
-with no subgroup hazard above 1.0, and the collaboration states plainly that its findings «do not
-substantiate concerns about a J-shaped association between blood pressure and cardiovascular outcomes
-in observational studies» [@bplttc2021]. The protective-looking lower arm did not survive the interventional check.
+decisive fact is what the effect does **not** depend on: «there was no reliable evidence of
+heterogeneity» across seven baseline-SBP strata from <120 to >=170 mmHg, with benefit holding «down
+to less than 120 mm Hg» [@bplttc2021]. So the transfer is proven **even in primary prevention** and **even at
+normal BP** — no baseline-BP subgroup escapes it.
 
-This is a worked instance of the general rule: a U/J-shaped *observational* association is not, by
-itself, evidence that some intermediate exposure is optimal — the lower arm must survive a
-reverse-causation, frailty, or sick-quitter check before it is treated as causal
--> [[The U-Shaped Association Artifact]]. Here the interventional trials supply exactly that check.
-One scope note: BPLTTC stratifies by *systolic* baseline BP, so the refutation is cleanest for the
-systolic arm; a strictly diastolic-perfusion mechanism is subsumed under the general J-shape
-dismissal, not separately adjudicated.
+**How low, and at what cost — SPRINT.** BPLTTC fixes a relative effect but «is unable to directly
+address» a target; SPRINT works one out. It randomised 9,361 high-CV-risk non-diabetic hypertensives
+to an intensive systolic target below 120 mmHg versus a standard target below 140 mmHg, and stopped
+early (median 3.26 y) on a «hazard ratio with intensive treatment, 0.75; 95% confidence interval
+[CI], 0.64 to 0.89» for the primary composite, with all-cause mortality «hazard ratio, 0.73; 95% CI,
+0.60 to 0.90» — NNT 61 over 3.26 years [@sprint2015]. **The intensive target carries a real adverse-event cost:** rates of «hypotension,
+syncope, electrolyte abnormalities, and acute kidney injury or failure, but not of injurious falls,
+were higher in the intensive-treatment group» [@sprint2015]. A lower target is a **net-effect judgment**, not *lower is always better*.
 
-### The transfer is proven for *drug* lowering — a lifestyle drop borrows it
+**The diastolic J-curve is an artifact, not a floor.** Registries show «a J-shaped association
+between cardiovascular events and blood pressure, with the lowest risk of events occurring at blood
+pressure levels around 130/75 mm Hg» [@bplttc2021] — long read as a reason not to lower BP far. It fails the
+interventional check: the randomised benefit persists down to <120 mmHg with no rising HR in **any**
+low-BP stratum, so the protective lower arm is no treatment effect. Run the U-shape diagnostics
+before trusting one — **reverse causation** (low BP marks the sick),
+**frailty**, and the **sick-quitter** pattern each manufacture this curve observationally. The
+refutation is the finding, not the J-curve
+([[The U-Shaped Association Artifact]]).
 
-Every figure above comes from **pharmacological** trials. A BP fall produced by sodium reduction,
-weight loss, or a diet pattern plugs into the *same channel* only by assumption — it is a different
-intervention, unmeasured here, and the halo that lets a "natural" lever inherit a drug's warrant is
-precisely what to resist. The closest dietary-adjacent test the corpus holds is SSaSS: a
-potassium-enriched salt substitute cut stroke (rate ratio **0.86, 0.77-0.96**), major cardiovascular
-events (**0.87, 0.80-0.94**) and death (**0.88, 0.82-0.95**) in 20,995 high-risk adults, with an
-achieved systolic fall of **-3.34 mmHg** [@neal2021].
+**But this transfer is proven for DRUG lowering — a lifestyle BP drop only borrows it.** Keep the two
+facts apart: *lever -> BP change* and *BP change -> events* are separate claims, and BPLTTC evidences the second
+only for pharmacological lowering. That a sodium- or weight-induced BP fall transmits the same way is
+an **assumption**, not the same evidence — a different intervention, unmeasured here.
 
-SSaSS shows a diet-route BP reduction *can* reach hard outcomes — but it is not a clean confirmation
-of the sodium->events chain. Two caveats bind. It is a **joint Na:K lever** (75% NaCl, 25% KCl), not
-sodium alone. And the event benefit **outruns its own BP prediction**: -3.34 mmHg at \~13% stroke
-reduction per 5 mmHg predicts a rate ratio near 0.91, while SSaSS observed 0.86 — consistent with a
-BP-independent potassium effect, or with the measured BP fall understating the sustained one. The
-transmission model is corroborated in *direction*; the diet-route magnitude cannot be read straight
-off the BP number.
+The closest dietary test the corpus holds is **SSaSS**: a potassium-enriched salt substitute cut
+stroke (RR 0.86, 0.77-0.96), major CV events (RR 0.87, 0.80-0.94) and death (RR 0.88, 0.82-0.95) in 20,995
+high-risk adults, at an achieved SBP fall of **−3.34 mmHg**
+[@neal2021].
+Two caveats stop it being a clean confirmation: the substitute moves **sodium and potassium
+together** (a joint Na:K lever, not sodium alone), and the **event benefit outruns the BP-channel
+prediction** — −3.34 mmHg at 13% stroke reduction per 5 mmHg predicts RR \~0.91, while SSaSS observed
+0.86.
 
-## The levers — each one's effect on BP, and how sure we are
+Because the relative effect is the same at any starting BP, what decides whether a lever is worth
+pulling is absolute risk — and which levers actually move the number.
 
-Because the relative event benefit of a BP drop is roughly constant at any starting pressure, what
-decides whether a lever is worth pulling is a person's absolute risk — and which levers actually move
-the number, by how much, and with what certainty. For each lever below, two facts are kept apart:
-*lever -> ΔBP* (the surrogate move) and its *transfer status* (whether a drop of that origin is shown
-to buy fewer events). Only one lever's transfer is directly proven; the rest borrow it (T1).
+## The Levers, One At A Time
 
-### Drug therapy — the realistic alternative
+Take the levers that actually move the number one at a time. For each, hold two facts apart: how far
+it moves blood pressure, and whether that move is *proven* to buy fewer strokes and heart attacks.
+Only the first lever below owns the second fact outright; every other borrows it.
 
-Antihypertensive drugs sit here as a peer lever, not a last resort or a default first move (T7): judged
-on the same effect x certainty x achievability axes as any diet or behaviour change, with "natural"
-earning a lifestyle lever no exemption from its weaker transfer. Drug lowering has the one thing no
-lifestyle lever does — a **directly-proven transfer from a BP drop to fewer events**: a 5 mmHg SBP
-reduction carries a major-CV-event hazard ratio of **0.91** (\~9-10% fewer events), holding even in
-primary prevention [@bplttc2021].
+### Drug therapy — the realistic alternative, on the same axes
 
-The transfer step above owns that derivation -> [[Blood Pressure Lowering and Cardiovascular Events]]; for the
-ranking, drug lowering is the reference against which every lifestyle lever's *borrowed* transfer is
-read. Substitution frame: for a high-risk person, a drug is the realistic comparator to a lifestyle
-change, not an admission of its failure.
+Judge pharmacotherapy on the same effect x certainty x achievability as the diet levers — neither last
+resort nor default first move. On both it wins outright: a **5 mmHg fall in systolic pressure cuts
+major cardiovascular events by about 10%**, the relative effect the same with or without prior heart
+disease (HR 0.91, 0.89-0.94 without prior CVD; 0.89, 0.86-0.92 with it), holding even at normal blood
+pressure [@bplttc2021].
+An intensive target below 120 mmHg cut the composite further (SPRINT HR 0.75, 0.64-0.89) and all-cause
+death (0.73, 0.60-0.90) — but bought more serious adverse events
+[@sprint2015], so the target is a
+net-effect judgment. **Transfer status: this is the one lever whose BP-change-to-events step is directly
+proven.** Watch the halo — "natural" earns the diet levers no exemption from their weaker warrant.
 
-### Sodium reduction
+### Sodium reduction — a measurable cut with a borrowed hard-outcome link
 
-Sodium is **one ranked lever, cross-linked, not re-appraised** here — the full appraisal is
-[[Sodium Intake and Blood Pressure]] and the standalone [[Sodium]] deliverable. *Lever -> ΔBP:* a modest
-salt reduction lowers SBP about **-5.39 mmHg** (-6.62 to -4.15) in hypertensives and **-2.42 mmHg** (-3.56
-to -1.29) in normotensives [@he2013] — moving BP in
-*both* strata, unlike potassium. Certainty is HIGH, and unusually the target is **auditable**: urinary
-sodium is a recovery biomarker, so intake can be measured against a cutpoint. *Transfer:* assumed via
-BPLTTC, plus the one dietary route that reached hard outcomes — SSaSS (full numbers in the transfer step
-above), a joint Na:K lever, not clean sodium. Substitution frame: cut added salt, or switch to a KCl salt
-substitute.
+Cutting salt lowers pressure, most in those with the most to gain:
+**-5.39 mmHg systolic in hypertensives (-6.62 to -4.15), -2.42 in normotensives (-3.56 to -1.29)**,
+pooled -4.18 across 34 RCTs [@he2013]. It is also
+*auditable*: 24-hour urinary sodium reads absolute intake, so a person can be measured against a
+cutpoint, not merely ranked. **Transfer status: the BP effect is high-certainty, the step to hard
+outcomes borrowed** — it rides on BPLTTC plus SSaSS, whose potassium-enriched salt substitute cut
+stroke (rate ratio 0.86, 0.77-0.96) at an achieved -3.34 mmHg
+[@neal2021] — a joint sodium-and-potassium
+lever, not sodium alone. For how much sodium and the low-intake controversy,
+[[Sodium]] is the owner. **Potassium (#R43):** raising it lowers BP in hypertensives, does essentially
+nothing in normotensives, and is contraindicated in CKD -> [[Sodium]] /
+[[Potassium Intake and Blood Pressure]].
 
-### DASH dietary pattern
+### DASH — a whole pattern, and the effect is not its salt
 
-*Lever -> ΔBP:* the whole DASH pattern lowers SBP **-5.2 mmHg** (-7.0 to -3.4) and DBP **-2.6 mmHg** vs a
-control diet across 20 RCTs [@siervo2015],
-larger at higher baseline BP and BMI. Certainty is medium and the horizon is **surrogate-only** (trials
-run 2-24 weeks; no measured hard outcome — the often-quoted CVD-risk cut is a modelled Framingham
-projection, not an event count). *Transfer:* assumed via the same BP -> events chain, unproven for DASH
-directly. Crucially, **DASH's effect is not its sodium content** — the between-arm sodium difference did
-not predict the BP change, so the pattern works through the whole bundle (K, Ca, Mg, fibre, low SFA), and
-its -5.2 mmHg must not be summed with the sodium lever (§5). Substitution frame: adopt the whole DASH
-pattern; a deliberate salt cut *stacks* on top of it.
+Eating the whole DASH pattern — more fruit, vegetables, low-fat dairy and wholegrains, less red meat
+and saturated fat — lowers pressure by **-5.2 mmHg systolic (-7.0 to -3.4) and -2.6 diastolic** against
+a control diet across 20 RCTs, the fall larger in people starting with higher blood pressure or BMI
+[@siervo2015]. Two caveats bound it.
+Every trial is short (2-24 weeks) and every endpoint is a **surrogate** — no mortality, MI or stroke.
+And the effect is the *pattern*, not its incidental salt: the between-arm sodium difference did not
+predict the BP change (P=0.67), so DASH's move rides on the whole bundle of potassium, calcium,
+magnesium and fibre [@siervo2015].
+**Transfer status: surrogate only** — its event benefit is the same borrowed BP-to-events assumption as
+sodium's, weighed by the person's baseline risk.
 
-### Weight loss (if overweight)
+### Weight loss — a real BP lever, ranked on its other proven wins
 
-Weight loss is a **real BP lever** — BP fell in Look AHEAD's intensive-lifestyle arm along with HbA1c,
-fitness and other risk factors — but its rank rests on honest scope (T5). The CV-**event** benefit was
-**null via the lifestyle route**: HR **0.95** (0.83 to 1.09) [@look2013]. So weight loss ranks high on its *other*
-proven benefits — glycaemic control, T2D remission, MASLD regression, function — and on its qualitative BP
-move, **not** on a proven CV-event reduction -> [[Does Weight Loss Reduce Cardiovascular Events]].
+If someone carries excess weight, losing it moves blood pressure — Look AHEAD's lifestyle arm improved
+«all cardiovascular risk factors, except LDL cholesterol» [@look2013]. But **the BP move is held only qualitatively — no clean per-kg mmHg
+figure**], which
+centres events — do not invent one]. The harder fact governs the ranking: **the cardiovascular-event
+benefit was null via the lifestyle route** (Look AHEAD HR 0.95, 0.83-1.09
+[@look2013]; the 54-RCT meta-analysis RR
+0.93, 0.83-1.04 [@ma2017]). So rank weight
+loss high on what it *does* prove — glycaemic control, T2D remission
+(DiRECT put 46% into remission [@lean2018]), MASLD, function
+— plus its BP move, **not** on a proven CV-event reduction. **Transfer status: BP moves, but the event
+benefit via BP is the same lifestyle assumption — and here the direct test was null.**
 
-*Transfer:* the same borrowed lifestyle assumption as the others. **Thin spot:** the fabric is thinner on
-per-kg ΔBP than on events, so the BP move is stated qualitatively and no per-kg figure is invented.
-Substitution frame: a sustained energy deficit, weighed against staying heavy, not against an idealised
-large loss the trials rarely delivered.
+### Alcohol reduction — causal harm shown, the dose-response missing
 
-### Potassium raising
+For a drinker, cutting back lowers blood pressure, and the direction is causal, not merely
+correlational: Mendelian-randomisation frees the estimate from reverse causation, and genotype-predicted
+intake **raised systolic pressure by 4.3 mmHg (3.7-4.9) per 280 g of alcohol per week**
+[@millwood2019]. What the fabric
+does *not* hold is the per-drink BP-change dose-response — how many mmHg a given cutback returns — so that
+magnitude is a **named gap**. **Transfer status: causal on BP by MR; the event step is the usual
+lifestyle assumption.** If Zhao's 45 g/day (men) or 25 g/day (women) thresholds come up, do not read
+them as a safe ceiling — they mark where the all-cause-mortality signal reaches significance, not a
+level below which drinking is harmless.
 
-*Lever -> ΔBP:* raising potassium lowers SBP **-3.49 mmHg** overall (1.82 to 5.15), but the average hides
-an **asymmetry** — **-5.32 mmHg** (3.43 to 7.20) in hypertensives versus **+0.09 mmHg** (-0.77 to 0.95),
-essentially zero, in normotensives [@aburto2013]. Unlike
-sodium, it does nothing for an already-normal pressure. Certainty on the BP effect is HIGH; the dose shows
-a **plateau near 90-120 mmol/day** with no benefit demonstrated above it. *Transfer:* assumed via BP, with
-a cohort **stroke** signal (RR **0.76**, 0.66 to 0.89) [@aburto2013] plus SSaSS's joint hard-outcome result. **Contraindication (route-c):** in CKD or impaired
-potassium excretion the same exposure risks hyperkalaemia and is a harm, not a benefit. Substitution
-frame: food-first (fruit, vegetables, pulses) or a KCl salt substitute, only where renal handling is
-normal.
+### Stress management (MBSR) — the biggest number, the weakest warrant
 
-### Alcohol reduction (in drinkers)
+Here the point estimate and the certainty pull hardest in opposite directions. A structured
+mindfulness-based programme posts a **large systolic drop — -9.12 mmHg (-12.18 to -6.05)** — rivalling
+a drug on paper [@chen2024mbi]. But the warrant is **low**: the trials are unblindable and mostly unblinded, wildly heterogeneous
+(I2=92%), and — the telling crack — the effect **vanishes in unmedicated patients** (MD 0.53, -1.89 to
+2.95) [@chen2024mbi]. The
+likeliest reading is that it works by improving medication adherence, or by expectancy in trials that
+could not blind — not as a standalone physiological antihypertensive. **Transfer status: unproven for
+this exposure.** Treat it as an adjunct to medication, never a substitute.
 
-*Lever -> ΔBP:* Mendelian randomization establishes a **clear causal direction** — BP *rises* about **4.8
-mmHg** (4.5 to 5.1) conventionally and **4.3 mmHg** (3.7 to 4.9) genotype-predicted per 280 g/week of
-alcohol [@millwood2019] — so
-reducing intake lowers BP. *Transfer:* assumed via BP. **Named gap:** the BP-specific dose-response
-*magnitude of reduction* is not held — no salt-substitute-style reduction-to-BP meta-analysis is in the
-fabric (Roerecke 2017 not held; the held Roerecke source addresses drinking *pattern* and ischaemic heart
-disease, not a BP dose-response). State the direction; do not put a mmHg-per-drink-cut figure on it.
-Substitution frame: for a drinker, cutting intake (and not concentrating a week's drinks into heavy
-sessions).
+### Exercise — a named gap, neutral by construction
 
-### Stress management / MBSR
+Exercise plainly belongs on this list, and the fabric cannot yet size its lever. **It holds no
+gold-standard meta-analysis of exercise on systolic pressure, and no network meta-analysis pitting
+exercise against antihypertensive drugs.** So this cut states the absence and asserts nothing about
+how far exercise lowers BP, or whether it beats or loses to medication — either claim would be
+invention. -> [[Physical Activity Dose and Mortality]], [[Measuring and Raising Cardiorespiratory Fitness]].
 
-T1's sharpest instance: the **largest point estimate on the weakest warrant**. *Lever -> ΔBP:*
-mindfulness-based interventions show a pooled SBP fall of **-9.12 mmHg** (-12.18 to -6.05) — nominally
-rivalling a drug — but certainty is **LOW** (unblindable and mostly unblinded, I2=92%, mostly
-moderate-high risk of bias), and the effect is **null in unmedicated patients** (SBP MD 0.53, -1.89 to
-2.95) [@chen2024mbi], which
-points to an adherence/expectancy pathway rather than a direct stress -> BP effect. *Transfer:* unproven
-for this exposure. Rank it as an **adjunct** for an already-medicated person, never a substitute for a
-drug or salt reduction -> [[Stress Management and Cardiometabolic Health]].
+### Dietary nitrate — staged, not held
 
-### Dietary nitrate
+Beetroot and dietary nitrate are a plausible small lever, but the evidence (Siervo 2013) is staged and
+un-ingested, so the fabric carries no magnitude — a gap, named and left open.
 
-**NOT held** — a staged, un-ingested source (Siervo Nitrate MA 2013). No ΔBP magnitude and no transfer
-can be stated; carried as a gap, no inferred direction.
+## Why You Cannot Add The BP Effects Up
 
-### Exercise
+Read as a shopping list, the last section over-counts — **several of those levers are the same
+intervention seen twice.** A DASH plate already carries the potassium, magnesium and fibre that
+appear again as their own line items, and it already displaces much of the sodium. Losing weight
+changes what you eat, so it embeds much of the diet effect. And a potassium-enriched salt substitute
+moves sodium down and potassium up in a single act. **Stack the mmHg figures and total them and you forecast
+a fall nobody has measured.** The correction is one distinction — *attribution* versus *stacking* —
+applied to every overlapping pair.
 
-**NAMED GAP (T6).** The fabric holds no gold exercise -> SBP meta-analysis and no exercise-vs-drug network
-comparison (Naci 2019 not held). This is stated as an *absence*: no ΔBP magnitude, no transfer, and **no
-inferred direction** — neutral by construction, not a small or zero effect.
+**Attribution — do not credit a whole pattern's effect to one of its parts.** DASH lowers SBP by
+**-5.2 mmHg** against a control diet [@siervo2015]. The natural guess is that its low sodium does the work — but Siervo's
+meta-regression across the 20 DASH-vs-control trials tests exactly that and finds nothing:
+«Differences in dietary Na intake between the DASH and control intervention groups were not associated
+with changes in systolic and diastolic BP as well as with glucose and lipid concentrations» (SBP
+P=0.67) [@siervo2015]. **DASH's -5.2 mmHg is not its sodium contrast** — it is the whole bundle (K, Mg, fibre, low
+SFA). So you cannot add DASH's -5.2 to a sodium lever's fall as two independent channels: the DASH
+figure already absorbs the pattern's own sodium change.
 
-## Why you cannot add the BP effects up
+**Stacking — a lever deliberately added on top does add.** Attribution is not the claim that sodium is
+irrelevant to someone eating DASH. When salt restriction is applied *as a separate act* on top of the
+pattern, the two combine — the DASH-Sodium factorial: «feeding trials have demonstrated the additive
+effects of salt restriction on the efﬁcacy of the DASH dietary pattern in reducing BP» [@siervo2015]. A person already on
+DASH who then cuts salt buys further reduction. **The line: DASH's own vs-control effect is not sodium
+(attribution failure), yet a deliberate salt cut layered onto DASH is a genuine extra lever
+(stacking).** The two facts coexist without contradiction.
 
-Read the last section as a shopping list and it over-counts. Several of the
-levers are the same intervention seen from a different angle, so their effects
-on blood pressure cannot be summed. Adding -5.2 mmHg for DASH, a few mmHg for
-sodium reduction, a potassium fall and a weight-loss fall would credit the same
-physiology several times and produce a total no combination of these changes
-would ever deliver.
+**The rule across the whole set.** The same overlap runs through sodium, potassium and weight. Salt
+reduction alone moves SBP by **-4.18 mmHg** [@he2013] (WHO's pooled figure **-3.39 mmHg** [@who2012]) — but the salt substitute that reached hard outcomes cut sodium and raised potassium
+together, so its effect splits into no clean sodium number plus clean potassium number [@neal2021]. Weight loss reshapes the diet that
+carries the DASH and sodium effects, so its BP move is not cleanly additive to theirs either.
+**Do not sum BP changes across DASH, sodium, potassium and weight** — name the overlap, count only the levers
+that are genuinely separate acts, and expect the combined fall to land short of the arithmetic total.
 
-### The levers overlap by construction
+## Rank By Absolute Risk, Not The BP Number
 
-DASH is not a single nutrient but a whole pattern: it raises potassium,
-calcium, magnesium and fibre and lowers saturated fat all at once
-[@siervo2015]. So
-the potassium-raising lever and much of the dietary-pattern lever are one food
-change described twice. Weight loss is itself usually achieved by changing the
-diet, so it embeds much of the DASH effect rather than adding to it. And the one
-dietary route proven to reach hard outcomes — a potassium-enriched salt
-substitute — moves sodium down and potassium up in a single act
-[@neal2021]. These
-are overlapping mechanisms, not independent additive channels.
+With the double-counting removed, the levers can be ranked for a given person. The ranking is a
+[[Layer 1 - Ranking Interventions for a Stratum|Layer-1]] ordering by **effect size x certainty x
+achievability** — and *effect size* means the *absolute* CV-event benefit, not how many millimetres a
+lever moves the reading. The mini-sort below is the whole ranking; the two right-hand columns are the
+same levers re-ordered for two people who differ only in baseline cardiovascular risk.
 
-### Attribution is not stacking
 
-Two different questions hide inside *does sodium drive DASH's effect?* — and
-they have opposite answers, so keep them apart.
-
-- **Attribution.** Is DASH's own effect against control caused by its sodium
-  content? No. Siervo's meta-regression finds «Differences in dietary Na intake
-  between the DASH and control intervention groups were not associated with
-  changes in systolic and diastolic BP»
-  [@siervo2015].
-  DASH's -5.2 mmHg is carried by the whole pattern, so it must not be re-credited
-  to the sodium lever and then counted again there. (A null meta-regression is
-  weak evidence — it *bounds* sodium's role rather than excluding it.)
-
-- **Stacking.** Does deliberately cutting salt *on top of* DASH buy further
-  reduction? Yes. Siervo notes «feeding trials have demonstrated the additive
-  effects of salt restriction on the efﬁcacy of the DASH dietary pattern in
-  reducing BP» — the DASH-Sodium factorial
-  [@siervo2015].
-
-The distinction is the whole of it: DASH's own vs-control effect is not
-attributable to its incidental sodium content, yet DASH and a deliberate salt
-cut *do* add when both are applied. The first fact forbids double-counting; the
-second permits one specific, deliberate combination.
-
-With the double-counting removed — overlap flagged, only the genuinely additive
-combinations stacked — the levers can finally be ranked for a given person.
-
-## The ranking for a stratum
-
-The tier a lever earns depends on the person, and it differs most between someone
-at high cardiovascular risk and someone with merely elevated pressure and little
-else. The table carries both columns.
-
-| Lever | ΔBP certainty | Transfer to events | Tier (elevated-BP / high CV risk) | Tier (normotensive / low CV risk) |
+| Lever | BP-change certainty | Transfer to events | Tier — elevated-BP / high risk | Tier — normotensive / low risk |
 |---|---|---|---|---|
-| Drug therapy (realistic alternative) | HIGH | **proven** (BPLTTC/SPRINT) | **BIG ROCK** | small absolute — decide on risk |
-| Sodium reduction | HIGH | assumed (BPLTTC) + SSaSS joint | **BIG ROCK** | MEDIUM (still moves BP) |
-| DASH / dietary pattern | medium (surrogate-only) | assumed | **BIG ROCK** | MEDIUM |
-| Weight loss (if overweight) | moves BP; CV-event transfer unproven via lifestyle | assumed | **BIG ROCK** (on its other proven benefits) | MEDIUM |
-| Potassium raising | HIGH in hypertensives; **null in normotensives** | assumed; stroke signal | MEDIUM | **PEBBLE** (does nothing for normal BP) |
-| Alcohol reduction (in drinkers) | causal (MR) direction; magnitude GAP | assumed | MEDIUM | MEDIUM (drinkers) |
-| Stress / MBSR | **LOW** (unblinded, null unmedicated) | unproven for this exposure | PEBBLE / adjunct-to-meds | PEBBLE |
-| Dietary nitrate | NOT held (staged) | — | **GAP** | GAP |
-| Exercise | **NOT held** (no ΔBP MA) | — | **GAP** | GAP |
+| Drug therapy (realistic alternative) | high | **proven** (BPLTTC/SPRINT) | big rock | small absolute — decide on risk |
+| Sodium reduction | high | assumed + SSaSS joint-lever | big rock (dietary: medium) | medium |
+| DASH pattern | medium (surrogate, 2-24 wk) | assumed | medium-big | medium |
+| Weight loss (if overweight) | moves BP; CV-event null via lifestyle | assumed | big rock on OTHER benefits | medium |
+| Alcohol reduction (in drinkers) | causal (MR); per-drink magnitude a gap | assumed | medium | medium |
+| Stress / MBSR | low (unblinded, null unmedicated) | unproven for this exposure | pebble / adjunct | pebble |
+| Potassium (pointer, see [[Sodium]]) | high in hypertensives; null in normotensives | assumed | medium | pebble |
+| Exercise | **not held** (no BP-change MA) | — | gap | gap |
+| Dietary nitrate | **not held** (staged) | — | gap | gap |
 
-### Rank on absolute risk, not the BP number
+### Two baselines, and this is the second one
 
-The transfer step (§3) fixes the *relative* benefit of lowering blood pressure at
-roughly one value whatever the starting pressure. So what decides whether a lever
-is worth pulling is not how many millimetres it moves but how much absolute risk
-that movement buys — and absolute benefit is the relative reduction applied to the
-person's own baseline risk (route-a): the absolute risk difference is baseline
-risk times the relative risk reduction
-[@grade]. The instrument that supplies a
-stratum's baseline is SCORE2, whose treatment thresholds are age-banded — the same
-10-year risk that reads *very high* under 50 reads only *high* at 72
-[@esc2021]. Rank the levers by the
-events they prevent at that baseline, which means ranking on SCORE2 risk, not on
-the reading.
+Keep two "baselines" apart. **Baseline BP** sets how many millimetres a lever buys and modifies the
+*relative* BP change (the next section's question). **Baseline cardiovascular risk** sets what those millimetres are
+*worth* — the *absolute* event benefit — and that is what the ranking is keyed to. The reason it can be
+keyed there is that the transfer step is a **constant relative effect**: BPLTTC's IPD meta-analysis found
+a 5 mmHg systolic reduction cut major CV events by \~10% (HR 0.91, 0.89-0.94) **even in people without
+previous cardiovascular disease**, with no heterogeneity down to below 120 mmHg
+[@bplttc2021].
 
-### Two baselines, kept distinct
+Because that relative effect does not change with baseline risk, the arithmetic is
+[[Baseline Risk and the Relative-Absolute Split|route-(a)]]: **absolute benefit = relative reduction x
+baseline risk**. The *same* 5 mmHg is a large absolute gain for a high-risk person and a small one for a
+low-risk person — no subgroup claim required. BPLTTC draws the operating rule itself: consider treatment
+for «any individual who has a sufficiently high absolute risk of cardiovascular disease», treating
+antihypertensives «as a tool for reducing cardiovascular risk, rather than simply reducing blood
+pressure» [@bplttc2021].
+Rank on the absolute risk, not the number.
 
-Two quantities are both called a "baseline" and do different jobs; conflating them
-is the standing error here.
+### The instrument that supplies absolute risk — SCORE2, and its threshold moves with age
 
-- **Baseline BP** modifies the *relative* ΔBP a lever produces. Sodium reduction
-  falls harder in people who start higher — a roughly 2-3:1 hypertensive-to-
-  normotensive gradient (He's own strata: SBP -5.39 vs -2.42 mmHg)
-  [@he2013] — and DASH's fall
-  is larger at higher baseline BP and BMI
-  [@siervo2015]. This
-  sets the *size of the millimetre move*.
+The number the ranking needs is a 10-year absolute CVD risk, and SCORE2 / SCORE2-OP supplies it (fatal
+and non-fatal CVD). Crucially, the treatment threshold is **age-banded**, so the same percentage licenses
+different action at different ages:
 
-- **Baseline CV risk** scales the *absolute* event benefit of whatever move you get,
-  at a constant relative transfer (route-a)
-  [@grade]. This sets *what that move is worth*.
+| ESC risk category (risk-factor treatment) | <50 yr | 50-69 yr | >=70 yr |
+|---|---|---|---|
+| Low-to-moderate — generally not recommended | <2.5% | <5% | <7.5% |
+| High — should be considered | 2.5-<7.5% | 5-<10% | 7.5-<15% |
+| Very high — generally recommended | >=7.5% | >=10% | >=15% |
 
-A hypertensive person is often high on both, so they compound — but they are
-separate axes. Someone with only mildly raised pressure yet high CV risk (age,
-smoking, lipids) gets a modest millimetre move that is nonetheless worth a lot per
-millimetre; the reverse case exists too. Never read a large baseline BP as a large
-CV benefit, or vice versa.
+[@esc2021]
 
-### The ceiling is a finding
+An 8% ten-year risk is *very high* under 50 and only *high* at 72, because «Age is the major driver of CVD
+risk» [@esc2021]. And a person is not a stratum: the
+chart also needs smoking status, a cholesterol band and a region — case inputs supplied at layer 3, not
+properties held in the fabric. The threshold, not the SCORE2 percentage, is what turns a risk into an
+action.
 
-For an already-low-risk normotensive person the right-hand column is mostly MEDIUM,
-PEBBLE and GAP — and that is a result, not a failure to find something. Layer-1
-ranking treats *your remaining levers here are small* as itself decision-relevant:
-it licenses the person to stop optimising rather than implying they should search
-harder.
-Potassium is the sharpest case of the split between the columns — it lowers BP in
-people who already have hypertension but does essentially nothing for normal
-pressure, so it drops from a medium lever to a pebble as the person's BP normalises.
 
-### Where the drug sits
+### The ceiling for the low-risk normotensive is itself the finding
 
-Drug therapy is placed on the same axes as the lifestyle levers — the realistic
-alternative, weighed on effect x certainty x achievability, neither a first move nor
-a last resort by default. It carries the one directly-proven transfer, so at high CV risk it is a big rock; at
-low risk its absolute benefit shrinks alongside everyone else's, and the decision
-turns on the person's risk rather than on the drug. The "natural" levers earn no
-exemption from their weaker-certainty transfer for being natural.
+Read the right-hand column of the ranking: for an already-low-risk, merely-normotensive person, every
+lever lands in the same place — a proven-but-small, or unproven, *absolute* CV-event effect. **That the
+remaining levers are small is a result, not a failure to find something.** It licenses this person to stop
+hunting for a heart-attack reduction the evidence does not promise them, and to pull a lever (if at all)
+for the outcomes it *does* move. The corpus confirms the ceiling across routes: **no cardiometabolic
+intervention the wiki holds delivers a large absolute reduction in hard CV events for a low-risk
+primary-prevention person** — drug and lifestyle alike
+-> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
 
-## For whom, and how low
 
-The ranking shifts with the person not only because absolute benefit tracks baseline
-cardiovascular risk, but because several levers *work differently* by stratum — and "how low to
-go" is a separate question with its own answer.
+### Drug therapy sits inside the ranking, not before it
 
-### The real modifier is continuous baseline SBP, not a hyper/normo label
+Pharmacotherapy is the top row of the table on merit — the highest-certainty BP change and the only **proven**
+transfer to events — not because it is a first or a last resort. It is ranked on the *same* effect x
+certainty x achievability axes as every lifestyle lever, as the realistic alternative a substitution is
+weighed against. Watch the halo the other way: *natural* buys a diet lever no exemption from its
+weaker-certainty transfer, and ranking a lifestyle lever above a drug on provenance rather than on
+absolute effect x certainty is exactly the bias this ordering exists to defeat.
 
-Most levers fall harder the higher the starting pressure, and the clean summary is not a
-hypertensive/normotensive switch but a **continuous baseline-SBP gradient** — the dichotomy is a
-coarsening of it. But one lever breaks the gradient. In Aburto's pooled RCTs, raising potassium
-lowered blood pressure «an effect seen in people with hypertension but not in those without
-hypertension» [@aburto2013], the normotensive
-point estimate essentially zero. That is a genuine **null**, not a shrunken effect — a route-(b)
-effect modification with an unusually clean signal, though route-(b) claims are artifact-prone and
-this one rests on three short normotensive trials. -> [[Potassium Intake and Blood Pressure]]
 
-> **For a normotensive at low CV risk:** raising potassium does essentially nothing to blood
-> pressure — the normotensive trial effect is a flat zero, not a smaller version of the
-> hypertensive benefit. This is the one BP lever that switches off entirely outside hypertension.
+The ranking shifts with the person — most of all between a high-cardiovascular-risk person and a
+merely-normotensive one.
 
-### How low: intensive vs standard targets
+## For Whom, And How Low To Go
 
-Lower treated targets buy fewer events but carry a real adverse-event cost; the choice is a
-**net-effect judgment**, not *lower is always better*. The transfer step and the intensive-target
-trial (SPRINT) that operationalises it — including its adverse-event cost — are established in §3
-and not re-derived here.
+The ranking from the previous section splits hardest along **two different "baselines," and keeping
+them apart is the whole of this one.** *Baseline blood pressure* decides how far a lever moves the
+number; *baseline cardiovascular risk* decides whether that move is worth making. They are not one
+axis and must never be blended: the first is effect modification (route-b), the second is the
+absolute-benefit scaling of a constant relative effect (route-a) -> [[Baseline Risk and the Relative-Absolute Split]].
 
-### The diastolic J-curve lower arm — run the diagnostics before believing it
 
-Observational data show a J-shaped diastolic curve: event risk lowest around a middling DBP and
-apparently *rising* again at low DBP. Treat that protective-looking lower arm as a **suspect, not a
-finding**. Before acting on it, run the U-shape artifact diagnostics — reverse causation, frailty,
-sick-quitter contamination of the referent, unequal between-group precision — any of which can
-manufacture a lower arm with no true harm from low pressure. [[The U-Shaped Association Artifact]]
-The interventional check (§3) is what adjudicates the arm; the observational J alone does not
-settle it, and a shape equally consistent with the causal and the artifact reading carries no
-decision.
+### Baseline BP sets the size of the fall — but read the modifier conservatively
 
-### CKD / impaired potassium excretion — a contraindication, not a caution
+- Salt reduction lowers systolic BP about **2.5x more in hypertensives than normotensives** — He 2013:
+  **−5.39 mmHg** (−6.62 to −4.15) hypertensive vs **−2.42 mmHg** (−3.56 to −1.29) normotensive
+  [@he2013].
+- **The hypertensive/normotensive split is a coarsening.** The real modifier is the *continuous*
+  baseline-SBP gradient: the fall grows smoothly with starting pressure and is still present below
+  120 mmHg, so a dichotomy resting on an arbitrary cut-point understates who benefits
+  [@huang2020].
+- Treat any such **route-(b) modifier as artifact-prone**: a between-arm gradient can be inflated by
+  regression to the mean and by cross-trial meta-regression confounding. Use it to shade the estimate,
+  not to deny a normotensive the lever.
 
-Raising potassium — or using a potassium-based salt substitute — is safe where renal handling is
-normal, but «People with impaired urinary potassium excretion can be at risk of hyperkalaemia»
-[@aburto2013]. In CKD, or on potassium-sparing
-drugs, the same exposure becomes a harm (route-(c) contraindication). SSaSS found no excess
-hyperkalaemia — but only in a population screened to exclude known kidney disease and
-potassium-sparing therapy, with no serial serum-potassium monitoring
-[@neal2021]. So the contraindication is **confirmed, not lifted**:
-safe where excretion is normal, untested where it is not. -> [[Potassium Intake and Blood Pressure]]
+**One asymmetry is a genuine null, not a smaller effect.** Cutting sodium lowers BP in normotensives
+too; *raising potassium does essentially nothing* for someone whose pressure is already normal — its
+normotensive effect is a flat zero, not a shrunken version of the hypertensive one. **A normotensive
+reader must not import the hypertensive potassium finding** -> [[Sodium]],
+[[Potassium Intake and Blood Pressure]].
 
-### Age-banded thresholds, and how small the benefit gets at low risk
+### How Low To Go — The Intensive Target And Its Real Cost
 
-Because absolute benefit is baseline risk × relative reduction
-[[Baseline Risk and the Relative-Absolute Split]], the same BP drop is worth much at high
-cardiovascular risk and little at low. Guidance encodes this by **banding treatment thresholds on
-age**: the ESC/SCORE2 categories place the same 10-year risk in different action bands at different
-ages, so that an identical number licenses treatment in an older person and watchful waiting in a
-younger one [@esc2021]
--> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
+SPRINT is the net-effect case. Targeting SBP <120 versus <140 in high-risk non-diabetics cut the
+primary CV composite (**1.65 vs 2.19% per year, HR 0.75**) and all-cause death (HR 0.73) — an NNT of
+**61 to prevent one primary event and 90 to prevent one death** over a 3.26-year median
+[@sprint2015]. The benefit is real — and
+so is the cost, which SPRINT reports honestly rather than burying.
 
-> **For someone at low CV risk:** the same millimetres of mercury buy very little in absolute terms
-> — a large relative effect on a small baseline risk is still a small effect. That the remaining
-> levers are small here is itself the finding, not a failure to find a bigger one.
+- The cost is **not in total** serious adverse events: those did not differ (**38.3% vs 37.1%,
+  HR 1.04, P=0.25**).
+- It is in **specific, treatment-attributable** harms — hypotension, syncope, electrolyte
+  abnormalities and acute kidney injury all rose, and SAEs judged related to the intervention roughly
+  **doubled: 4.7% vs 2.5% (HR 1.88, P<0.001)** [@sprint2015].
 
-Guidance codes much of this — how low, and for whom — into thresholds that have moved over time;
-it is worth seeing why they move.
+So an intensive target is a **net-positive trade for a high-risk person, not a free one**: «These
+adverse events need to be weighed against the benefits with respect to cardiovascular events and
+death» [@sprint2015]. That adverse-event
+tail weighs heavier the *lower* the person's absolute CV risk — where the benefit side shrinks
+(route-a) while the harm rate holds. This is where the two baselines rejoin.
 
-## What guidance says, and why the threshold keeps moving
+### The Diastolic J-Curve Lower Arm Is An Artifact — Run The Diagnostics First
 
-The hypertension treatment threshold is not a fixed number: it is age-banded, and it has shifted
-between guideline editions. ESC's 2021 prevention guideline records the shift **about itself** —
-evidence now suggests its earlier BP targets «were too conservative, especially for older
-patients» [@esc2021] — and tightened the targets
-accordingly.
+Observational data put lowest risk near 130/75 and show risk *rising* below it, tempting a
+*do not go too low* floor. **Do not treat that lower arm as causal before the artifact check.** A
+rising-risk-at-low-DBP arm is exactly the signature [[The U-Shaped Association Artifact]] exists to
+catch: **reverse causation** (already-sick people run low), **confounding by frailty**, and the
+**sick-quitter** pattern each manufacture it with no true harm present. The interventional evidence
+does not reproduce the predicted harm — SPRINT drove pressure to intensive targets and still gained,
+its excess events being the treatment-attributable harms above, not a J-shaped mortality rise. The
+full BPLTTC/SPRINT refutation is carried on [[Blood Pressure Lowering and Cardiovascular Events]].
+[inferred from @sprint2015]
 
-### A moving threshold is evolution, not error
+**Route-(c) contraindication.** A potassium-enriched salt substitute — the one dietary route with
+hard-outcome evidence — is contraindicated in CKD or otherwise impaired potassium excretion, where
+hyperkalaemia can fire. That harm-firing stratum is derived on [[Sodium]] and not re-argued here.
 
-Read that correctly. A body revising its own targets on new evidence is **divergence-class-4
-(lag)**, and the highest-standing form of it, because it is self-disclosed rather than alleged by a
-critic — no attribution dispute is available. It is *not* a process defect: reading self-correction
-as a defect would penalise exactly the behaviour a sound process produces. The direction is also
-instructive — the revision made guidance *more* aggressive, against any prior that guidance is
-uniformly over-cautious or over-reaching. [[Which Objective Moved This Recommendation]]
 
-### Classify the divergence before crying defect
+## Why The Hypertension Threshold Keeps Moving
 
-Where guidance families differ on blood pressure, ask which of **standpoint / lag / instrument**
-accounts for it before reaching for "wrong." Two families using different calculators for different
-composites (SCORE2 vs PREVENT-ASCVD) differ by *instrument and endpoint*, not by any disagreement
-on an effect estimate [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]. And a
-recommendation legitimately folds in non-evidence objectives — feasibility, acceptability, cost —
-so the diagnostic question is *which* objective moved a given target and by how much, never merely
-that one did. [[Which Objective Moved This Recommendation]]
+A treatment threshold moves for two ordinary reasons, and **neither is a body getting it wrong**. The
+first is built into the instrument: the "treat" line is **age-banded, not fixed**. On ESC's risk
+thresholds the very-high band sits at >=7.5% ten-year CVD risk under 50, >=10% at 50-69, and >=15% at
+>=70 [@esc2021] — so an 8% risk is *very high* under 50
+and merely *high* at 72. ESC bands deliberately, because «Age is the major driver of CVD risk»
+[@esc2021] and a single cut-off would over-treat the
+old and under-treat the young. **A number that changes with the patient's age is the threshold working
+as designed, not drifting** -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
 
-Three things the fabric cannot yet rank close the picture honestly.
+The second reason runs across editions. ESC's 2021 guideline records that its own prior BP targets
+«were too conservative, especially for older patients»
+[@esc2021] and tightened them on new trial evidence —
+while **bounding the reversal itself**, noting the evidence is «less strong for very old people (>80
+years) and those who are frail». This is a body disclosing its own past under-treatment and updating on
+evidence — the highest-standing form of **lag** correction (a legitimate divergence, class 4), the
+exact opposite of a process defect. Reading self-correction as error would penalise the behaviour a
+sound process produces.
 
-## Named gaps, and the bottom line
+So when a threshold shifts, **classify the divergence before calling it wrong** — standpoint,
+instrument, or lag — and name what actually moved it -> [[Which Objective Moved This Recommendation]]. A
+moving number usually means the evidence moved, not that the guideline failed.
 
-State these as **gaps** — the fabric holds no direction for them, and inventing one would be worse
-than naming the hole.
+## What The Evidence Cannot Yet Rank
 
-- **Exercise -> BP magnitude, and exercise-vs-drugs head-to-head.** The fabric holds no gold
-  exercise->SBP meta-analysis and no network meta-analysis ranking exercise against
-  antihypertensive drugs (Naci 2019 not held). How much exercise lowers BP, and whether it matches
-  drug therapy, is **unranked here** — neither asserted nor dismissed.
-- **Alcohol -> BP dose-response magnitude.** Mendelian randomization establishes the *direction*
-  (alcohol raises BP, causally); the BP-specific dose-response *magnitude* is not held (Roerecke
-  2017 not ingested). Direction without magnitude.
-- **Dietary nitrate.** A candidate BP lever whose meta-analysis (Siervo 2013) is **staged but
-  un-ingested**, so the fabric carries no appraised effect for it.
-- **The Na:K ratio as an optimised target.** A one-to-one molar sodium-to-potassium intake is
-  called «a ratio considered beneficial for health»
-  [@aburto2013] — but that is asserted from a 2003
-  consultation and **never graded to a hard
-  outcome**. SSaSS evidenced the joint *lever*, not the optimal *ratio*.
-  [[Potassium Intake and Blood Pressure]]
-- **Whether a lifestyle-induced BP drop transmits to events as the pharmacological one does.** The
-  per-5-mmHg transfer is proven for *drug* lowering; every lifestyle lever borrows it as an
-  **assumption**. SSaSS is the closest lifestyle-adjacent route to reach hard outcomes — and even
-  it is a joint Na:K intervention that outran its own BP prediction, not a clean single exposure
-  [@neal2021].
+Three things the fabric cannot yet rank close the picture honestly. Each is a
+**named absence, not a hidden verdict** — the wiki holds no gold source that would settle it, so it
+states the hole and infers no direction. These are open questions to watch, not leftovers.
 
-### Bottom line
+**Exercise — how much it lowers BP, and how it compares with the drugs.** The fabric ranks physical
+activity on mortality and fitness ([[Physical Activity Dose and Mortality]],
+[[Measuring and Raising Cardiorespiratory Fitness]]), where the benefit front-loads and flattens — but
+those pages carry **no BP magnitude at all**. No gold exercise-to-SBP meta-analysis is held, and no
+network meta-analysis puts exercise head-to-head against antihypertensive drugs on SBP. So the deliverable cannot say how many mmHg
+exercise buys, nor whether it beats, matches, or loses to a drug at equal BP effect. Treat exercise's
+place in the BP ranking as **unfilled**, not small — an absence of evidence, not evidence of a small
+effect.
 
-Keep the two steps apart. *What moves blood pressure* — several exposures, differing in certainty
-and in how they behave by stratum — is a separate question from *what a lower number buys*, which
-is fewer strokes and heart attacks, proven directly only for drug lowering and borrowed by every
-lifestyle route. Decide by **absolute cardiovascular risk, not the blood-pressure number**: the
-same drop is worth a lot to a high-risk person and little to a low-risk one. Where a lever's
-transfer to hard outcomes is only borrowed, say so — and rank on effect × certainty × baseline
-risk, not on the size of the millimetre change alone.
+**Alcohol — the per-drink dose-response.** The alcohol lever holds a *causal direction* — Mendelian
+randomization makes the BP harm genuinely causal, not confounded ([[Alcohol and Mortality and Vascular Disease]]). What it does **not** hold is a per-drink magnitude: how many mmHg a drinker recovers per
+unit cut, and whether that dose-response bends by baseline intake or sex. Direction without magnitude cannot be
+ranked against the other levers — only pointed at.
+
+**Dietary nitrate / beetroot.** A staged meta-analysis of inorganic nitrate and beetroot juice sits
+un-ingested, so the fabric
+carries no appraised BP effect for it. Named as a gap, not a lever — no figure is asserted for an
+unheld source.
+
+**The Na:K ratio as an optimised target.** Cutting sodium and raising potassium each move BP, and the
+salt-substitute route (SSaSS) that reached hard outcomes moved both together. But whether the *ratio*
+itself is an optimisable target — that steering toward some Na:K figure buys fewer events beyond what
+each move buys alone — has **never been graded to a hard outcome**. It is asserted as beneficial, not
+evidenced as a target; hold it as an open question.
+
+**Whether a lifestyle BP drop transmits to events like a drug's does.** This is the load-bearing
+assumption under every dietary lever. The per-5-mmHg-to-fewer-events link is *proven only for drug
+lowering* ([[Blood Pressure Lowering and Cardiovascular Events]]); each lifestyle lever borrows it. The
+closest direct test is the salt substitute — and it is a **joint Na:K lever, not a clean single
+exposure**, and it even outran its own BP prediction, so it corroborates the assumption without
+isolating it. That a diet-induced or weight-induced fall in BP earns the same event reduction as a
+pill-induced one is **assumed, not directly shown**. It is the single most consequential thing the
+evidence here cannot yet rank.
+
+**Where it nets out — what to do.** Keep the two steps apart: *what moves BP* and *what a BP drop
+buys* are separate facts, and the ranking runs on **absolute cardiovascular risk, not the blood-pressure
+number** — the same fall is worth a lot to a high-risk person and little to a low-risk one, so a
+[[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]-style risk read comes before any lever choice.
+For someone with elevated BP and real cardiovascular risk, the levers with both size and warrant are:
+
+- **drug therapy** — the realistic alternative, on the same shelf, and the one route with proven
+  transfer from a BP drop to fewer events;
+- **cutting sodium** and **a whole DASH-style pattern** — the big, reasonably-certain dietary moves;
+- **losing weight if you carry excess** — ranked on its many *other* proven benefits, its BP move a
+  bonus;
+- **drinking less if you drink.**
+
+Do not add their BP effects up — the pattern already contains the sodium and potassium moves, and
+weight loss carries much of the diet effect. And do not wait on the open questions to act. The exercise
+magnitude, the per-drink alcohol curve, the nitrate effect, and whether a lifestyle drop transmits like
+a drug's are all unsettled — but the big, reasonably-certain moves above are not.
 
 > [!info] Evidence box
 >
@@ -525,6 +498,6 @@ risk, not on the size of the millimetre change alone.
 > | **Evidence included** | 0 sources |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
 
 ## References

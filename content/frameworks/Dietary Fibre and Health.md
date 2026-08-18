@@ -19,8 +19,8 @@ relationships:
     - Free Sugars Intake
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-29
-updated: 2026-08-13
-self_critiqued: 2026-08-13
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -85,6 +85,34 @@ cohorts of self-reported eaters; symmetric standards forbid reading it as if a m
 `confidence: medium`, not high, on the outcome claim — and the causal *mechanism* is firmest exactly where
 the *effect* is smallest (the LDL surrogate).
 
+## The trialled mechanism accounts for only a fraction of the association — the transmission bound `[2026-08-17, challenge #R40]`
+
+The sharp form of the two-legs split (challenge #R40): can the trialled viscous-fibre -> LDL effect
+*transmit* to the much larger observational hard-outcome association, or is agreement in direction being
+mistaken for same-hypothesis triangulation? Brown answers it directly, and the answer bounds the causal
+share **downward**. At a practical 3 g/day of soluble fibre, total cholesterol falls «<0.129 mmol/L
+(5 mg/dL), a <2% reduction. On the basis of estimates from clini-cal studies of cholesterol treatment
+(110), this could lower the incidence of coronary artery disease by <4%»
+[@brown1999] — Brown's own verdict
+being that soluble fibre «may exert only a small effect on the risk of heart disease.»
+
+- **The order-of-magnitude read (not a same-quantity subtraction).** Brown's <4% is the CHD contribution
+  of a *specific practical dose of viscous fibre via LDL*; Reynolds' CHD RR 0.76 is a *highest-vs-lowest
+  total-fibre* contrast (different exposure, dose and contrast — the parameter table's all-NO column
+  applies here too, so these are **not** subtracted). What the bound licenses is only the magnitude
+  comparison: the pathway the wiki can actually trial is, at practical intake, **an order of magnitude
+  smaller** than the association the cohorts report. Even granting the LDL effect its full
+  cholesterol-treatment transmission, <4% is not \~24%.
+- **So the honest composite is a slice, not a proof.** A small, causal, LDL-mediated slice sits inside a
+  larger observational association whose **remainder is unattributed** — pattern/substitution, the other
+  fibre fractions Brown's LDL analysis does not capture (bulk, transit, fermentation), or residual
+  confounding, none of them the trialled mechanism. This quantifies the «causal firmest where the effect
+  is smallest» line, and it is the page's strongest internal guard against crediting fibre-the-nutrient
+  with the whole hard-outcome pattern. It does **not** demote fibre to a pure marker (challenge stop
+  condition): the trialled slice is real and causal; what is unresolved is the *independent share* of the
+  larger association.
+
+
 ## The dose-response — a worked case for the CLAUDE.md prior
 
 Fibre is the falsification prior's cleanest fabric instance, now with a **second independent estimate**.
@@ -129,6 +157,15 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   observational (though Reynolds' pooled trials are food-based — the split is dominant, not absolute). This is the [[Is the Food Category Doing Any Work]] point in miniature:
   the better grade tracks the better-trialable *form*, and does not mean a psyllium supplement beats a
   bowl of beans for outcomes — the food carries fibre types and a matrix the isolate does not.
+- **Label grams are not the exposure — added/fortification fibre (challenge #R40).** A processed product
+  can meet a «high fibre» claim with cheap added bran, cellulose or another legally countable isolate,
+  supplying bulk without the viscosity, fermentability, or whole-food matrix of the cohort exposure — so
+  a fortified product **does not inherit Reynolds' hard-outcome estimate**. Do not assume 30 g of
+  analytical/label fibre, 30 g intrinsic food fibre, and an effective dose of viscous or fermentable fibre
+  are interchangeable; that transfer is unevidenced unless the same form is directly tested. This is the
+  [[Is the Food Category Doing Any Work]] fortification case applied to fibre; the general
+  label-equivalence gate (does a matching label gram of *any* nutrient reproduce the studied exposure?)
+  is backlog **#R41**, not decided here.
 - **Whole grains likely work largely THROUGH their fibre** — Reynolds notes the parallel whole-grain
   benefits and that fibre's higher GRADE «could reflect the high fibre content of whole grains»
   -> [[Whole Grains Refined Grains and Pulses]].
@@ -179,7 +216,14 @@ synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable 
 - **Gaps (G):** no RCT of whole-food fibre on hard outcomes (structurally hard — can't blind food); the
   soluble-vs-insoluble and legume-vs-cereal outcome breakdown is too sparse in Reynolds to separate;
   fibre's colonic/**transit** mechanism is not covered by either source (the constipation / gut-transit
-  sub-question the Fibre deliverable still routes as unheld). `AWAITS` a fibre-transit source. The
+  sub-question the Fibre deliverable still routes as unheld). `AWAITS` a fibre-transit source.
+- **The very-low/near-zero-fibre referent may not transport (G, challenge #R40).** Cohort «low fibre» is
+  low *within a normal mixed diet* — typically the refined/energy-dense end, so the low-fibre referent is
+  confounded with high junk-food intake. Whether fibre's benefit gradient extends down to a *minimally
+  processed* near-zero-fibre pattern (a meat-based / carnivore diet) is **untested**: no held source
+  offers that like-for-like contrast, so the cohort estimate does not transport to that stratum. Held as
+  a named gap, not a claim either way — neither bowel-regularity nor anecdote settles long-term outcome
+  equivalence. The
   **microbiome** mechanism is now partly held: fermentable fibre is the substrate bacteria turn into  [@valdes2018]
   short-chain fatty acids, and it is the dominant modifiable lever on microbial diversity — so
   *prebiotics are largely fermentable fibre by another name*, and the prebiotic evidence reduces to the
@@ -349,5 +393,24 @@ active fractions, not the isolated agent.
 - **Where fibre *is* isolable** (dosed, blindable isolates — Brown's cholesterol MA; Reynolds' intake
   gradients) the evidence is cleaner than any F&V contrast can be; that design advantage, not the food,
   is why isolate evidence out-grades F&V-carrier evidence -> [[Is the Food Category Doing Any Work]].
+
+## Self-critique `[run 2026-08-17 — challenge #R40 weave]`
+
+- **Adjudication was covered-with-mechanism, not manufactured divergence.** #R40's central charge (does
+  the fabric over-attribute the hard-outcome pattern to fibre-the-nutrient?) was **already answered** by
+  this page before the challenge — the all-NO parameter table, the carrier-not-component Aune section, the
+  isolate-out-grades-by-design point, the colorectal-adenoma RCT null, and the study-edge (not knee)
+  target. The honest finding is *the fabric already resists the over-attribution*; the challenge is
+  logged upheld-but-largely-already-held, not as a refutation of the page. Reporting the convergence is
+  the symmetric-standards move (a confirmed-convention result is as reportable as a divergence).
+- **Only source-supported increments were woven.** The transmission bound is Brown's own <4% CHD figure
+  (cite.py-emitted, cold-audited); the order-of-magnitude comparison to Reynolds' \~24% is flagged
+ and explicitly **not** a same-quantity subtraction (guarding the exact error the parameter
+  table exists to prevent). The fortification/label point applies held logic and is marked
+  with the general gate routed to #R41 (not decided here — no scope creep into #R41). The near-zero-fibre
+  item asserts an **absence**, not an effect.
+- **No over-claim, no laundered-E.** No superlative scoped to the vault; no independence claimed (Brown
+  and Reynolds stay different quantities, A+F). Confidence stays `medium` — the weave sharpens *why* the
+  causal share is bounded, it does not add certainty to the outcome leg.
 
 ## References

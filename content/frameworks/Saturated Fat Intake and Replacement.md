@@ -17,9 +17,9 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-08-17
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-17
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -341,7 +341,13 @@ CHD 4.2% x 0.17 = 7.1 -> «7 fewer». **Four independent confirmations of the co
 **15 fewer per 1000, RR 0.83 (0.70 to 0.98), Moderate certainty, 13 RCTs.** Every other interval
 crosses no-effect: all-cause mortality, CVD mortality, CHD mortality, CHD events, stroke, type 2
 diabetes. **The page's headline was already the strongest cell in the annex; what was missing is that
-it is the ONLY one.**
+it is the ONLY one.** **And it is trial-quality-sensitive from inside the source:** Hooper's own
+low-summary-risk-of-bias sensitivity analysis weakens the combined-events benefit to «more marginal
+protection» (Analysis 1.36) and drops MI to a frank null (RR 0.93, 0.81-1.08) — the primary RR 0.83
+stands and most other sensitivity checks confirm it, but the low-RoB one does not, which is what the
+Moderate grade encodes -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]] (*Hooper's own
+risk-of-bias sensitivity analyses*).
+[@hooper2020]
 
 **2. Reducing saturated fat does not measurably reduce dying.** All-cause mortality in RCTs is
 **2 fewer per 1000, RR 0.96 (0.90 to 1.03)** at **Moderate** certainty — not a thin-evidence null but a

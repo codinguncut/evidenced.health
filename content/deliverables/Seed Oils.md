@@ -8,12 +8,12 @@ created: 2026-08-04
 updated: 2026-08-12
 ---
 
-*This page has been folded into [[Dietary Fat Types]].*
+*This page has been folded into [[Dietary Fat]].*
 
 Seed oils are not a fat type of their own — they are the n-6 polyunsaturated (linoleic acid)
 end of the same fat-type question, and their evidence sits alongside saturated, monounsaturated,
 n-3 and trans fat rather than apart from it. The seed-oil-specific material now lives in two
-sections of [[Dietary Fat Types]]:
+sections of [[Dietary Fat]]:
 
 - **"The omega-6 inflammation claim, tested on its own terms"** — the proposed
   omega-6 -> arachidonic-acid -> inflammation -> heart-disease pathway, tested on its own marker

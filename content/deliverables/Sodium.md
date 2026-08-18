@@ -1,7 +1,7 @@
 ---
 type: deliverable
-title: Sodium Intake
-aliases: [Sodium, Salt, Dietary Sodium, Salt Reduction, Sodium and Potassium]
+title: Sodium
+aliases: [Sodium Intake, Salt, Dietary Sodium, Salt Reduction, Sodium and Potassium]
 question: 'For an adult deciding what to do about dietary sodium and the coupled potassium: effect of sodium reduction, of raising potassium, and of the Na/K ratio on each patient-important outcome (BP surrogate; CV events + mortality endpoints); dose-response shape across the studied range; variation by stratum (baseline BP, salt-sensitivity).'
 sources: [WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Neal - SSaSS Salt Substitution Cardiovascular 2021, Aburto - Potassium Cardiovascular 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, Afshin - Health Effects of Dietary Risks GBD 2019, GRADE - Handbook, Willett - Nutritional Epidemiology 3e]
 confidence: medium

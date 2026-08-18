@@ -3,356 +3,505 @@ type: deliverable
 title: Dietary Patterns
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
-authors: [Ge, Long; Estruch, Ramon; Naude, Celeste E; Lean, Michael EJ; Goldenberg, Joshua Z; Churuangsuk, Chaitong; Seidelmann, Sara B; Scientific Advisory Committee on Nutrition (org); Dinu, Monica; World Health Organization (org); World Cancer Research Fund International (org); Szczerba, Edyta; Reynolds, Andrew; Brown, Lisa; Bougma, Karim]
-sources: [Ge - Named Diets Weight Cardiovascular Network MA 2020, Estruch - PREDIMED Mediterranean Diet 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Seidelmann - Carbohydrate Intake Mortality 2018, SACN - Carbohydrates and Health 2015, Dinu - Mediterranean Diet Umbrella Review 2018, WHO - Saturated and Trans Fatty Acid Intake 2023, WCRF - Meat Fish and Dairy Products and Cancer 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Bougma - Iodine Child Mental Development Meta-Analysis 2013]
+authors: [Bougma, Karim; Hooper, Lee; Ge, Long; Reynolds, Andrew; Brown, Lisa; Aune, Dagfinn; Scientific Advisory Committee on Nutrition (org); Astrup, Arne; World Health Organization (org); Look AHEAD Research Group (org); Ma, Chenhan; Hall, Kevin D; Gardner, Christopher D; Estruch, Ramon; Siervo, Mario; Orlich, Michael J; Lean, Michael EJ; Churuangsuk, Chaitong; Goldenberg, Joshua Z; Naude, Celeste E; Ference, Brian A; World Cancer Research Fund International (org); Johnston, Bradley C]
+sources: [Bougma - Iodine Child Mental Development Meta-Analysis 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Ge - Named Diets Weight Cardiovascular Network MA 2020, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, SACN - Carbohydrates and Health 2015, Astrup - Saturated Fats Reassessment 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Hall - Obesity Energetics Diet Composition 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Estruch - PREDIMED Mediterranean Diet 2018, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Lean - DiRECT T2D Remission 2018, Churuangsuk - Diabetes Diets Umbrella Review 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ference - LDL Cause ASCVD EAS Consensus 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
-**Ask "which diet is best?" and the honest answer is that the question hides two very different
-questions, with two very different answers.** The first is whether a diet clears a floor: does it
-supply enough energy and enough of every essential nutrient to avoid a deficiency? That question the
-evidence answers comparatively cleanly, and a pattern that genuinely fails it fails hard. The second is whether, *among diets
-that all clear the floor*, one named pattern beats another on the outcomes people actually care about
-— living longer, avoiding a heart attack, staying well. **On that second question the major named
-patterns barely separate, and the evidence is mostly too weak to crown a winner at all.**
+No named dietary pattern is established as superior on the outcomes people care
+about — length of life, heart attacks, strokes, incident diabetes — once a diet
+clears a floor of basic adequacy. The verdict sounds thin, and it is honest about
+why: **you can refute a diet, but you cannot verify one.** The instrument that
+follows is therefore two screens, not a ranking.
 
-The useful way to hold this: **the evidence can refute a diet far more confidently than it can verify
-one.** It can tell you a pattern is inadequate, or that a specific component does harm. It struggles
-to tell you that any whole pattern, above the floor, is meaningfully better than its rivals — because
-the head-to-head trials are short, the long-term evidence is confounded observation, and what
-difference does show up mostly tracks *shared components* and *how much weight you lose*, not the
-label on the diet. So the real levers are not "Mediterranean vs keto vs vegan." They are: clear the
-floor, get the shared components right, lose weight if you carry excess, and pick the pattern you
-will actually keep.
+**Screen 1 is the floor** — a negative screen built from the least-contested
+harms. A diet fails it when it cannot supply essential nutrients or when it pushes
+energy grossly out of balance; deficiency and chronic over- or under-eating are
+evidenced harms, and a pattern that courts either is bad by construction. The
+floor is built from deficiency and energy alone — **not from saturated fat**,
+whose harm is contested. **Screen 2 sits above the floor**, and here the patterns
+that pass cannot be separated. The **label under-determines what is actually on
+the plate** — clean and dirty versions of the same diet differ more than the
+labels do — and what little separates real diets travels with their shared
+components, total energy and adiposity, and adherence, not with the brand.
+Confidence is low, and the loop is open: nothing here has been graded against a
+realized outcome.
 
-## Screen a diet at the floor before you rank it
+Start by seeing that *which diet is best?* runs four separate questions together.
 
-Before comparing patterns on longevity, ask a prior question: does the pattern supply enough? This is
-a **negative screen**, and it is where the evidence is among the strongest — because deficiency and
-its correction are directly measurable, and the effect of fixing a real deficiency is large.
+## Split *which diet is best?* into its four questions
 
-The clearest worked case is iodine. In children who are genuinely iodine-deficient, repletion is
-worth, on the best estimate, «7.4 IQ points», with deficient children scoring in the range «6.9 to
-10.2 IQ points lower in iodine deficient children compared with iodine replete children»
-[@bougma2013]. That is a large,
-patient-important effect — and it is an effect of *correcting a deficiency*, not of pushing a
-nutrient above adequacy. The same asymmetry recurs across nutrients: repletion of a
-deficient person moves outcomes; enhancement of an already-replete person trends null-to-harm (the
-supplement-trial record — VITAL, USPSTF, the beta-carotene harm signals). A recommended intake is a
-*deficiency floor* set to cover the population, not a target to maximize toward
--> [[Deficiency Repletion vs Enhancement]].
+The lay question bundles four decisions that answer to different evidence and
+point in different directions. Separate them before answering any.
 
-This reframes the pattern question. **A named pattern's first job is to clear the floor for every
-essential nutrient; the restrictive patterns are the ones that put the floor at risk.** A vegan
-pattern must solve B12 (and watch iron, iodine, omega-3, and total energy in children); a
-carnivore or strict ketogenic pattern narrows the food base in the other direction. These are
-adequacy questions with measurable answers, and they are logically prior to any longevity comparison
-— a diet that fails the floor is refuted before the ranking starts. Whether a given restrictive
-pattern *does* fail the floor for a given person is a screening judgment that belongs to a clinician
-with that person's labs and life stage, not to a population-level guide.
+- **(a) Superiority, and its evidence state.** Is any pattern actually superior —
+  and on what? A change in a **hard outcome** (mortality, myocardial infarction,
+  stroke, incident diabetes) is a different claim from a change in a **surrogate**
+  (weight, blood pressure, LDL, HbA1c), and each claim resolves to one of four
+  states: benefit, harm, no meaningful effect, or insufficient evidence.
+  *No difference found* and *not studied* are not the same verdict.
+- **(b) The grade of that evidence.** Does the claim rest on a randomized trial or
+  on a confounded cohort? Whole-diet RCTs on hard events are rare; most
+  between-pattern comparisons run on surrogates, or on cohorts where the
+  **healthy-adherent confound** caps what they can show.
+- **(c) The axis that carries any difference.** If two patterns differ, what does
+  the difference actually travel with — the **pattern label**, the shared
+  big-rock components both diets already contain, total energy and adiposity, or
+  adherence? The label is the least likely answer and the most heavily marketed.
+- **(d) Between-pattern versus pattern-vs-baseline magnitude.** How large is the
+  gap between two named diets against the gap between either diet and a person's
+  current baseline? A difference can be real, survive every check, and still be
+  **trivially small next to the move from baseline**.
 
-## Above the floor, the named diets barely separate
+Separated this way, the first move is not to rank the diets but to see which ones
+fail outright — so start with the floor.
 
-Once diets clear the floor, do the named patterns pull apart on outcomes? The best single piece of
-evidence says: not much, and mostly not durably.
+## Start with the floor — you can refute a diet, not verify one
 
-Ge 2020 is a network meta-analysis of **121 randomised trials, 21,942 overweight or obese adults, 14
-branded diets plus 3 broad macronutrient patterns**, GRADE-rated
-[@ge2020]. It is the closest thing
-the field has to a fair head-to-head, because it is randomised — it sidesteps the healthy-user
-confound that wrecks diet cohorts. Its verdict on the between-pattern contrast is blunt:
-**«Differences between diets were typically small to trivial and often based on low certainty
-evidence»** [@ge2020].
+**No named diet can be verified as best, but many can be refuted** — and that asymmetry, not a
+ranking, is what an honest instrument is built on. A diet that leaves a person short of an essential
+nutrient, or that pushes energy badly out of balance, is shown to be harmful; a diet that survives
+every such test has been shown only *not to fail*, never shown to be optimal. Verification is not on
+offer here — the whole-diet, decades-long outcome trial that would supply it does not exist for most
+patterns — so the move that carries weight is the negative one. **The first instrument is a floor: a
+screen that rules diets OUT, not a scale that ranks them up.**
 
-At six months the leading macronutrient patterns are near-identical: **«low carbohydrate and low fat
-diets had a similar effect at six months on weight loss (4.63 v 4.37 kg, both moderate certainty) and
-reduction in systolic blood pressure (5.14 mm Hg, moderate certainty v 5.05 mm Hg, low certainty) and
-diastolic blood pressure (3.21 v 2.85 mm Hg, both low certainty)»**
-[@ge2020]. Against the review's
-own pre-specified importance thresholds — **«weight loss 2 kg, systolic blood pressure 3 mm Hg,
-diastolic blood pressure 2 mm Hg, LDL cholesterol 5 mg/dL»**
-[@ge2020] — the between-diet gaps
-mostly do not clear the bar that would make them matter to a patient.
+Reading a passing grade on that floor as a *target* is a category error the fabric already names.
+The RDA is a deficiency floor — the intake covering 97.5% of a population's requirement — routinely
+deployed as though hitting it were the goal, so *100% of your needs* reads as *done* when it is the
+start -> [[The Descriptive-Normative Category Error]]. The floor here inherits the same discipline:
+**clearing it makes a diet admissible, not good.** A descriptive minimum promoted to a normative
+target is exactly the smuggle a negative screen exists to prevent.
 
-And then the effects fade. **«At 12 months the effects on weight reduction and improvements in
-cardiovascular risk factors largely disappear»**
-[@ge2020]. Two patterns leave a
-residue at 12 months: the Mediterranean diet is the only one to show **«a statistically significant
-difference compared with usual diet in LDL cholesterol reduction»**, while low-carb is the weakest on
-LDL — a 1.01 mg/dL reduction whose confidence interval crosses zero, against 7.08 mg/dL on low-fat
-and 5.22 on the moderate-macronutrient pattern (low-carb instead raises HDL, by 2.31 mg/dL)
-[@ge2020]. But these are
-*surrogate* differences (LDL, BP, weight), not events, and they are small.
+Two harms are least-contested enough to build the floor from. First, **essential-nutrient
+adequacy**: frank deficiency is evidenced harm on patient-important outcomes, not a surrogate
+worry — repletion studies read the damage directly, iodine-deficient children scoring «6.9 to 10.2
+IQ points lower in iodine deficient children compared with iodine replete children»
+[@bougma2013]
+-> [[Deficiency Repletion vs Enhancement]]. Second, **gross energy imbalance**: sustained under- or
+over-feeding moves body composition and its downstream risk in a direction no one disputes. A diet
+failing either test is **bad by construction** — which is what rules out the deficient-by-design
+patterns (all-fast-food, butter-only, strict carnivore on the adequacy axis) without any appeal to a
+contested nutrient.
 
-The review's own conclusion is the decision-relevant one: **«people can choose the diet they prefer
-from among many of the available diets ... without concern about the magnitude of benefits»**
-[@ge2020]. The umbrella evidence
-in type 2 diabetes says the same thing for that stratum — **«no one diet type is superior over others
-for weight management in type 2 diabetes»**
-[@churuangsuk2022].
+That last point is load-bearing, and easy to get wrong. **"Butter-only is bad" is a
+deficiency-and-energy verdict, not an SFA claim.** Butter fails the floor because it delivers almost
+no protein, fibre, or most micronutrients — not because of its saturated fat, whose harm is
+genuinely unsettled. The one randomized signal that cutting SFA lowers risk is soft: combined
+cardiovascular events fall — «a potentially important reduction in combined cardiovascular events»,
+RR 0.83 (0.70-0.98), 15 fewer per 1000, Moderate certainty
+[@hooper2020] — while
+all-cause mortality is a well-graded null (RR 0.96, 0.90-1.03)
+[@hooper2020], and even the
+events signal is contested: the classic trial base is comparator-contaminated, and any real benefit
+may be the polyunsaturated *replacement* rather than SFA avoidance
+-> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. Astrup and Hooper/WHO decompose the
+same evidence to opposite recommendations — precisely what a floor criterion cannot tolerate. **The
+moment the floor is built from a contested component, it stops being a negative screen and becomes an
+un-evidenced pattern-quality ranking again** — the smuggle, reintroduced under a nutrient's name.
 
-**Note the anti-signal.** The patterns that generate the most argument (keto, carnivore, whichever is
-trending) are not the ones carrying the most hard-outcome evidence; the volume of debate runs
-inversely to the size of the settled effect -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+Clear the floor and the picture changes: among diets that pass, the label stops doing work.
+
+## Above the floor, the label barely moves the needle
+
+Clear the floor and the ranking question can finally be asked at scale — and the best evidence
+answers it with a near-null. Ge 2020 is the field's **comparative-effectiveness island**: a network
+meta-analysis of **121 randomised trials and 21,942 overweight or obese adults**, placing **14 named
+diet programmes and three macronutrient patterns** (low-carbohydrate, low-fat,
+moderate-macronutrient) into one network and ranking them on weight and five cardiovascular risk
+factors at **6 and 12 months**, **GRADE-rated throughout**
+[@ge2020].
+
+**One caveat governs everything that follows.** Every outcome Ge measures is a **surrogate** —
+weight, systolic and diastolic blood pressure, LDL, HDL, C-reactive protein — over at most 12
+months; **no hard endpoint** (mortality, MI, stroke, incident diabetes) appears anywhere in it. So
+Ge closes the *between-diet* and *durability* questions on surrogates, and is **silent on hard
+outcomes**. Its near-null between patterns therefore says nothing about the hard-outcome signal that
+whole-pattern trials and cohorts carry for Mediterranean and plant-based eating — a different
+quantity, graded separately below.
+
+**At 6 months every macronutrient pattern beats usual diet by a pre-specified-important margin.**
+Low-carbohydrate and low-fat are near-identical: «low carbohydrate and low fat diets had a similar
+effect at six months on weight loss (4.63 v 4.37 kg, both moderate certainty) and reduction in
+systolic blood pressure (5.14 mm Hg, moderate certainty v 5.05 mm Hg, low certainty) and diastolic
+blood pressure (3.21 v 2.85 mm Hg, both low certainty)»
+[@ge2020]. **That each pattern
+clears the bar against doing nothing is the real benefit; it is the choice *between* them that
+collapses.**
+
+Ge **pre-specified** what a difference has to reach to matter — «weight loss 2 kg, systolic blood
+pressure 3 mm Hg, diastolic blood pressure 2 mm Hg, LDL cholesterol 5 mg/dL»
+[@ge2020] — and the
+between-diet gaps fall short of it:
+
+- **Largest low-carb-vs-moderate-macronutrient gap:** weight **1.57 kg (0.86 to 2.29)**, SBP 1.66
+  mmHg, DBP 1.33 mmHg at 6 months — the weight gap sits **below the 2 kg importance bar**
+  [@ge2020].
+- **Atkins vs Zone**, the largest branded contrast, differs by «only 1.38 kg (95% credible interval
+  0.15 to 2.62)» on weight, with the LDL difference crossing zero
+  [@ge2020].
+
+**By 12 months even the benefit against usual diet is mostly gone.** «At 12 months the effects on
+weight reduction and improvements in cardiovascular risk factors largely disappear»
+[@ge2020]: weight loss falls
+from 4-5 kg at 6 months to about 3 kg, and the blood-pressure and lipid gains «disappeared almost
+completely at 12 months»
+[@ge2020]. The between-diet
+differences are «negligible at 12 months»
+[@ge2020].
+
+Ge's own verdict is blunt: «Differences between diets were typically small to trivial and often
+based on low certainty evidence»
+[@ge2020], so «people can choose
+the diet they prefer from among many of the available diets ... without concern about the magnitude
+of benefits» [@ge2020].
+
+**Read this as a no-meaningful-DIFFERENCE finding, not an insufficient-evidence one.** The
+comparison was run — at scale, GRADE-rated, against a pre-specified importance bar — and it came
+back near-null. That is a **stronger** statement than *we don't know which diet is best*: it is *we
+looked, and above the floor the label is not carrying a difference worth acting on* (on surrogates,
+to 12 months). **Guidance concurs.** NICE, reviewing largely the same trial base, leaves **every
+macronutrient-defined diet without a positive recommendation** — the only diet it will recommend is
+defined by **energy** (total diet replacement, 800-1200 kcal), not by macronutrient split
+-> [[Diets for Weight Loss - What NICE Recommends]].
+
+**And the label barely moves the needle partly because the label barely fixes the plate.** The same
+name spans clean and dirty versions that differ more than the names do, so a macronutrient label
+under-determines the exposure actually eaten -> [[Is the Food Category Doing Any Work]]. If not the
+label, what carries the small real differences? Components, energy, and adherence.
+
+## The difference travels with components and adherence, not the brand
+
+When two named patterns diverge on a hard outcome, the divergence rides on **three
+things underneath the label** — which shared components the pattern actually delivers,
+how much total energy it moves, and whether the person keeps eating it. The brand on the
+front — Mediterranean, DASH, low-carb, Paleo — is a **packaging term for a bundle of these
+components**, and once the bundle is specified the name stops carrying independent signal.
+This section walks the three axes in turn.
+
+### The shared components carry what signal there is
+
+The components that recur across every "healthy" pattern are where the outcome evidence
+actually sits, and each has a held magnitude:
+
+- **Fibre.** Highest-vs-lowest intake tracks lower all-cause mortality (RR 0.85), coronary
+  heart disease (RR 0.76), type 2 diabetes (RR 0.84) and colorectal cancer (RR 0.84) — an
+  absolute \~**13 fewer deaths per 1000** (95% CI 8-18) over the studied follow-up; viscous fibre lowers LDL
+  \~**0.057 mmol/L per gram**, target \~**25-30 g/day**. [@reynolds2019] [@brown1999]
+- **Fruit and vegetables.** Per 200 g/day: all-cause 0.90 (0.87-0.93), CHD 0.92 (0.90-0.94),
+  CVD 0.92 (0.90-0.95), total cancer 0.97 (0.95-0.99); at 800 g/day the reductions reach
+  \~31% all-cause / 24% CHD. The mechanism is **not clean fibre** — F&V act through «a myriad of
+  nutrients and phytochemicals... likely to act synergistically», so the component here is the
+  *whole food*, not an isolable nutrient. [@aune2017fv]
+- **Nuts.** Per 28 g/day: all-cause 0.78 (0.72-0.84), CHD 0.71 (0.63-0.80), with the benefit
+  **plateauing by \~15-20 g/day** — a small handful buys most of it. Observational-grade (no
+  whole-food RCT), so rank it a moderate lever. [@aune2016nut]
+
+**The load-bearing move is that the category LABEL is often decorative — name the component.**
+The clearest worked case is grains. Whole grain per 90 g/day associates with lower all-cause
+(0.83, 0.77-0.90), CHD (0.81, 0.75-0.87) and CVD (0.78, 0.73-0.85) mortality [@aune2016wg] — but the **refined-vs-whole contrast on hard outcomes is null: RR
+1.00 (0.98-1.01)** for CV events and T2D. [@sacn2015] So
+the *"whole"* label is not doing the work: «Any associations indicated for
+whole grain may be related to its cereal fibre component.» The exposure that matters is the
+**fibre**, not the whole/refined branding — attach the number to the component. [@sacn2015]
+
+**Meat is the same lesson with the split in a different place.** The load-bearing division is
+**processed vs unprocessed**, not red vs white: processed meat sits on firmer footing than red
+meat — its colorectal-cancer signal is **RR 1.16 (1.08-1.26) per 50 g/day**, graded convincing,
+its CI clear of null [@wcrf2018]. Red
+meat's signal (RR 1.12, 1.00-1.25 per 100 g/day
+[@wcrf2018]; NutriRECS absolute \~7 fewer
+cancer deaths per 1000 over a lifetime per -3 servings/week
+[@nutrirecs2019]) has a lower bound that
+touches null and is **not attributable to its saturated fat** — «the SFA content of meat is
+unlikely to be responsible for this association»
+[@astrup2020]. Name the processing, not the
+colour.
+
+**Saturated fat is a contested, replacement-framed component — never a floor.** Reducing SFA
+lowers CV events (RR 0.83, 0.70-0.98; \~**15 fewer per 1000** at an 8.5% control rate, moderate
+certainty) but **not all-cause mortality** (0.96, 0.90-1.03, NS). Its LDL effect is set by *what
+replaces it*: −0.055 / −0.042 / −0.033 mmol/L per 1% energy swapped to PUFA / MUFA /
+carbohydrate — **the substitution sets the sign**. So SFA is a component-level, replacement-framed
+claim, not a pass/fail criterion a pattern must clear. [@who2023saturated] [@hooper2020] -> [[Saturated Fat Intake and Replacement]]
+
+- **Less sodium** rounds out the component list on the surrogate side: a modest reduction lowers
+  resting SBP \~**3.4 mmHg** (2.46-4.31, high certainty) — larger in hypertensives (4.06, 2.96-5.15)
+  than normotensives (1.38, 0.02-2.74) — while the hard-outcome certainty stays low. [@who2012] -> [[Sodium Intake and Blood Pressure]]
+
+### Total energy and adiposity are the other axis
+
+The second axis a pattern moves is **total energy**, and through it adiposity — a channel
+largely independent of which components fill the plate. And here the evidence bounds the claim
+sharply: **lifestyle weight loss is a proven lever for glycaemia, T2D remission, MASLD and
+function, but an unproven one for hard CV events.** Look AHEAD, the largest, longest trial,
+was **null on cardiovascular events (HR 0.95, 0.83-1.09)**, and the 54-RCT meta-analysis
+generalizes it — CV events RR 0.93 (0.83-1.04, NS) — while all-cause mortality does fall (RR
+0.82, 0.71-0.95, \~6 fewer per 1000), by a **non-cardiac route**. [@look2013] [@ma2017] -> [[Does Weight Loss Reduce Cardiovascular Events]]
+
+**But "which macronutrient split" is largely the wrong axis for the weight itself.** At equal
+calories, the source of the energy confers **no meaningful body-fat or expenditure advantage** —
+the metabolic-advantage prediction of the carbohydrate-insulin model does not survive
+isocaloric controlled feeding. Hall's 32-study meta-analysis found, if anything, a *slightly*
+greater energy expenditure (26 kcal/day) and fat loss (16 g/day) on **lower-fat** diets — the
+opposite sign to the CIM prediction and trivial in size, so «for all practical purposes "a
+calorie is a calorie"». Free-living, DIETFITS confirmed it: healthy low-fat vs healthy low-carb
+differed by **0.7 kg** (−5.3 vs −6.0 kg; 95% CI −0.2 to 1.6), with **no diet-by-insulin (P=.47)
+or diet-by-genotype (P=.20) interaction**. [@hallguo2017] [@gardner2018] -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] So a pattern that moves weight
+does so through **total energy and adherence**, not through a privileged macronutrient ratio.
+
+### Adherence is part of the effect
+
+The third axis is the one the trials keep re-teaching: **realized effect = efficacy ×
+adherence**, and adherence is not a footnote to the number but a factor inside it. Look AHEAD's
+two arms **converged from a 7.9-point weight gap at 1 year to 2.5 points at study end** — so the
+intention-to-treat contrast was a *modest sustained difference*, not big-loss-vs-none, and part
+of the CV null is a dose that shrank rather than a physiological ceiling. [@look2013] The near-tie between DIETFITS arms carries the
+same message from the other direction: when two diets are matched on **adherence and quality**,
+the macronutrient label barely separates them. [@gardner2018]
+
+**This reframes the between-pattern comparison.** A pattern's realized effect is its component
+signal and its energy effect **each multiplied by the fraction actually sustained**, so a
+smaller, adhered-to change routinely beats a larger, abandoned one — and the twelve-month decay
+seen across diet trials is an **effect × adherence** phenomenon, not evidence that the diet hit a
+biological wall. The person's constraints, preferences and food environment enter here, not as
+excuses but as **determinants of the delivered dose** -> [[Baseline Risk and the Relative-Absolute Split]].
+
+The three axes together say the same thing: the between-pattern difference is **components +
+energy + adherence**, and the brand adds nothing once those are specified. But every magnitude
+above came with a certainty caveat attached — these are mostly reads off surrogates and cohorts,
+so how good is the evidence, pattern by pattern?
+
+## Grade the evidence island by island — one RCT on events, the rest surrogate or cohort
+
+The near-null of §3 and the component reads of §4 sit on very different evidence. Graded by
+*design*, the named-pattern literature is not one island but four, and they do not carry the same
+weight. **Exactly one whole-pattern trial measures hard cardiovascular events; the rest rest on
+surrogates measured over months, or on a single confounded cohort.** Keep the outcomes distinct while
+reading the grades: these islands answer different questions, so a weak grade on one does not overturn
+a signal on another.
+
+**The one RCT on hard events is PREDIMED (Mediterranean).** In 7447 high-CV-risk adults without CVD
+at baseline (\~49% with type-2 diabetes, \~82% hypertensive), a Mediterranean diet supplemented with
+extra-virgin olive oil or nuts cut the primary composite of MI, stroke and CV death versus advice to
+reduce fat: **combined HR 0.70 (0.55-0.89)** — «a relative difference of 30% and an absolute
+difference of 1.7 to 2.1 percentage points» over \~5 years (5-yr absolute risk 3.8% vs 5.7%)
+[@estruch2018]. **Read the composite honestly: it
+is carried by stroke** — stroke HR 0.58 (0.42-0.82), while MI (0.80) and CV death (0.80) are
+individually non-significant and **all-cause mortality is null, 0.98 (0.77-1.24)**. The pattern
+bundles several components (EVOO, nuts, more fish and legumes), and the trial cannot say which did the
+work. Two facts bound the read further: the benefit is real in *absolute* terms **because baseline
+risk was high**, and the internal validity is RCT-with-repair, not a clean randomised contrast.
+
+**The provenance caveat travels with the estimate.** PREDIMED's 2013 report was withdrawn after
+Carlisle 2017 flagged non-random baseline distributions; the 2018 re-analysis found 425 household
+members and one site assigned without proper randomisation, and re-estimated with propensity scores
+over 30 covariates — «methods that do not rely exclusively on the assumption that all the participants
+had been randomly assigned» [@estruch2018]. The
+result held across sensitivity analyses (excluding the 1588 deviating participants, n=5859: HR 0.69
+(0.53-0.92)). So the strongest evidence here is **one landmark trial carrying a documented
+internal-validity discount** — held at medium confidence for that reason, not waved through because
+the result is favourable -> [[Mediterranean Diet and Cardiovascular Events]].
+
+**Ge sits one rung down: moderate-certainty but surrogate-only, over ≤12 months.** The 121-RCT network
+meta-analysis (21,942 adults) that grounds §3's between-pattern near-null is graded throughout, and
+its near-equivalence verdict is a genuine *no-meaningful-difference* finding — but every endpoint is a
+surrogate (weight, blood pressure, LDL, HDL, CRP) and the longest follow-up is a year
+-> [[Named Diet Programs Compared]]. It grades the *comparison between* patterns well; it says nothing
+about hard events. Ge's surrogate near-null does **not** refute PREDIMED's event signal or the
+vegetarian cohort association — those are different quantities on different endpoints.
+
+**DASH is surrogate too — blood pressure and lipids, never a hard outcome.** Siervo's meta-analysis
+(20 RCTs, 1917 participants, 2-24 weeks) pools DASH against a control diet: **SBP -5.2 mmHg (-7.0,
+-3.4)** and **DBP -2.6 mmHg (-3.5, -1.7)**, with a smaller atherogenic-lipid move (total cholesterol
+-0.20 mmol/l; LDL -0.10 mmol/l). **Glucose, HDL and triglycerides did not move** (glucose -0.19,
+P=0.07; HDL +0.003, P=0.95; TAG -0.005, P=0.87) [@siervo2015]. No mortality, MI, stroke or incident CVD is measured; the often-quoted
+CVD-risk reduction is a Framingham projection, not an observed event count
+-> [[DASH Diet and Blood Pressure]].
+
+**A named gap sits underneath the DASH grade.** The controlled-feeding trials that would isolate
+DASH's blood-pressure effect *independent of weight and sodium* — the Appel 1997 DASH feeding trial
+and the Sacks 2001 DASH-Sodium factorial — are **not held as separate sources in the corpus**, so the
+fabric cannot presently grade whether DASH's BP move survives once weight change and sodium are held
+constant. This is a real hole, stated plainly rather than papered over; the wiki holds only the
+whole-pattern-vs-control pooling, which cannot decompose the effect.
+
+**Vegetarian and vegan patterns rest on a single confounded cohort.** Orlich's AHS-2 (73,308
+Adventists, 2,570 deaths, mean 5.79 y) is observational, so the ceiling is confounding, not sampling.
+All vegetarians combined: **all-cause HR 0.88 (0.80-0.97)** — \~12% lower — with vegan 0.85 (0.73-1.01,
+CI crosses 1), lacto-ovo 0.91 (0.82-1.00) and pesco 0.81 (0.69-0.94)
+[@orlich2013]. In absolute terms the gap is
+modest and the horizon short: **6.61 deaths/1000 person-years in nonvegetarians vs 5.40 (vegan) / 5.61
+(lacto-ovo) / 5.33 (pesco)** — about one death per 1000 person-years. **The healthy-adherent confound
+caps certainty at low:** an Adventist vegetarian is leaner, drinks and smokes far less, and exercises
+more, so the pattern travels bundled with every other large mortality lever, and the authors concede
+«Potential for uncontrolled confounding remains»
+[@orlich2013]. No MR instrument, no
+whole-diet RCT — a hard-outcome *association*, not an adjudicated causal effect
+-> [[Vegetarian Dietary Patterns and Mortality]].
+
+**Two discounts run under all four islands.** First, **dietary measurement error flattens every cohort
+read** here: self-reported intake carries error large enough to hide a real gradient (a
+doubly-labelled-water substudy found reported energy 34% below expenditure), so a modest observational
+HR is a floor on the true effect as readily as a ceiling -> [[Measurement Error in Dietary Assessment]]. Second, hold the **surrogate-vs-hard-outcome line**: BP, LDL and weight substitute for
+the outcome *in the evidence*, and a surrogate is a legitimate target only where its transmission to a
+patient-important outcome is itself evidenced — markers have moved the right way while patients did
+worse -> [[Surrogate Outcomes]]. So the grade ladder runs: **one RCT on events (PREDIMED, medium,
+discounted) > a moderate-certainty surrogate comparison (Ge, ≤12 mo) > a surrogate BP pooling (DASH) >
+a single confounded cohort on hard-outcome associations (Orlich, low).** Two of these islands do
+carry a real, decision-relevant signal, and one carries a real stratum-specific harm.
+
+## Three findings clear the floor — two benefits and one stratum-specific harm
+
+Section 3 showed that above the floor the label barely moves the needle on surrogates. That is the
+default, not the whole story. Three findings sit genuinely above the near-null: **one label with a
+residual signal, one large stratum-specific benefit, and one stratum-specific harm.** They are kept
+apart from the surrogate near-null because each earns its place on its own evidence.
+
+### Mediterranean is the one label with a residual signal
+
+Above the floor most named patterns converge — but **Mediterranean is the single label that plausibly
+carries something durable**, and it shows up on two unrelated designs. In Ge's 121-RCT network, the
+weight and cardiovascular-risk-factor gains every other diet posts at 6 months decay by 12 months
+«except for the Mediterranean diet», which also stays «the most effective» named diet for LDL
+reduction at moderate certainty [@ge2020]. It is also the one whole-pattern diet with a hard-endpoint RCT — PREDIMED cut CV events by
+about 30% at high baseline risk (§5). Keep the outcomes distinct: Ge measures an LDL surrogate at
+<=12 months, PREDIMED measures events over \~5 years, so this is not one finding counted twice but
+**two designs both flagging the same pattern** — the closest any label comes to a residual signal
+once the floor is cleared.
+
+### In type-2 diabetes, a large energy deficit can drive remission
+
+The second above-floor finding is stratum-specific and large. In DiRECT, a total-diet-replacement
+programme run in routine primary care put **46% of the intervention group (68 of 149) into diabetes
+remission at 12 months versus 4% of controls (OR 19.7, 95% CI 7.8-49.8)** — against a 22% rate the
+trialists had set as clinically important [@lean2018]. What makes it decision-relevant is the **dose-response: remission rose monotonically with
+weight lost** — 0% among those who gained weight, 7% at 0-5 kg, 34% at 5-10 kg, 57% at 10-15 kg, and
+86% at >=15 kg. The trial states the composite plainly: «86% of participants with at least 15 kg
+weight loss, and 73% of those with weight loss of 10 kg or more» achieved remission
+[@lean2018]. In the gold-tier umbrella, total diet
+replacement anchors the single GRADE-high cell of the remission map — **median 54% remission
+(range 46-61) versus 4-12% for standard care** [@churuangsuk2022].
+
+**The lever is the energy deficit, not the carbohydrate.** DiRECT delivers this on an **825-853 kcal
+formula diet that is 59% carbohydrate** — a high-carbohydrate, low-*energy* diet — so carbohydrate
+restriction is not necessary for remission; what scales with remission is kilograms lost, irrespective
+of composition. The umbrella says it directly: the meta-analyses «do not support any particular
+macronutrient profile or style over others. Very low energy diets and formula meal replacement appear
+the most effective approaches, generally providing less energy than self-administered food-based
+diets.» [@churuangsuk2022] So the intervention
+is an **energy target, and the energy-delivery format (VLED / formula meal replacement) is what
+separates the diets — composition does not.**
+
+A **low-carb route to remission** exists but is weakly grounded. Goldenberg's meta-analysis reports
+32 more remissions per 100 at 6 months (**RD 0.32, 95% CI 0.17-0.47, GRADE moderate**) — but only
+under a definition that lets diabetes medication continue; on the stricter medication-free
+definition the effect is never significant (**RD 0.05, -0.05 to 0.14**) and the 12-month point
+estimate turns negative, decaying in step with the weight advantage
+[@goldenberg2021]. And no trial
+has tested the claim head-on: «No RCT has evaluated LCDs/ketogenic diets for type 2 diabetes
+remission.» [@churuangsuk2022] So low-carb is
+best read as **one route to the weight loss that drives remission, not a separate remission
+mechanism.**
+
+### A low-carb pattern is the poorer choice for the apoB hyper-responder — route (c)
+
+The third finding is a harm, and it fires only in a stratum. Low-carb and balanced-carbohydrate diets
+tie on weight and blood pressure (§3; Naude's matched-energy head-to-head confirms the weight tie —
+**MD -0.48 kg, 95% CI -0.85 to -0.11, 27 RCTs, I2=0%**, a confident near-null, not an underpowered
+one [@naude2022]), but they do
+not tie on atherogenic lipoproteins for everyone.
+Naude names the stratum outright: «In people with lipid disorders and variability with atherogenic
+lipoprotein response, caution in recommending low-carbohydrate and consequent high-fat diets is
+warranted.» [@naude2022]
+For a **lean-mass or lipid hyper-responder — someone whose apoB / LDL rises sharply on carbohydrate
+restriction** — the low-carb pattern is the poorer choice on the atherogenic-lipoprotein axis even
+where it matches on weight and blood pressure. DIETFITS saw its low-carb arm raise LDL, with the
+between-group change favouring low-fat by about 5% [@gardner2018].
+
+This is a genuine route-(c) contraindication because **the atherogenic cost is cumulative**. Risk
+tracks the area under the apoB curve over a lifetime — the consensus makes lowering «proportional to
+the absolute reduction in LDL-C and the cumulative duration of exposure» [@ference2017], and the same principle run in reverse means a sustained
+elevation compounds rather than resets. In this metabolically-impaired stratum LDL-C can under-state
+the particle burden, so apoB is the number to watch. A pattern that holds apoB elevated for years is
+not made safe by tying on weight.
+
+**One bound on this: how much depth of restriction matters is a live disagreement.** Naude and
+Goldenberg point in apparently opposite directions on whether deeper carbohydrate restriction produces
+more weight loss, but the comparison does not resolve — their populations (without-T2DM versus
+entirely T2D) and their reference bands differ, so the direction clash is not established either way
+[@naude2022]. Treat
+depth-of-restriction as an open question, not a settled gradient.
+
+Notice which patterns generated this section — Mediterranean and total diet replacement — and which
+generate the most noise elsewhere.
+
+## Discount the loudest diets, and name the other axis without pricing it
+
+**A pattern's popularity is evidence about the field, not about the exposure.** In a mature area,
+attention runs *inverse* to effect size: the large levers are settled and therefore boring, while the
+small, contested ones generate the papers, products, and content. So the most-discussed named patterns
+— carnivore, keto, specific branded programs — are precisely the ones **not** matched by hard-outcome
+evidence, and their prominence should lower your prior, not raise it. Notice which patterns carried a
+real signal in the sections above: the quiet, component-rich ones (the shared big-rock foods; the one
+whole-pattern events trial), not the loudest. — the *attention-is-an-anti-signal* rule
+of [[Layer 1 - Ranking Interventions for a Stratum]], applied to named diets.
+
+**Where a pattern carries a non-health load, name that the trade-off exists — and stop.** Some
+patterns (plant-based, EAT-Lancet) sit on an environmental or ethical axis as well as a health one.
+Record *that* the trade-off is there and which way it runs; never price it against the health finding.
+This wiki holds no carbon, water, or animal-welfare data and must not simulate an axis it cannot
+measure — the cross-axis weighting is the person's to make, at the point of decision, not the fabric's
+to bake in. — the one-axis-named rule; a recommendation that silently absorbs a non-health
+objective is the same defect as an undisclosed weighting. So what should a person actually do?
+
+## Walk away with a floor, then a pattern you will keep
 
 
-## Read a pattern's evidence as observational unless a trial tested the whole pattern
 
-Most of what people "know" about diet patterns and longevity comes from cohorts — people who chose a
-pattern, followed for years. Those people differ systematically from non-adherers (the healthy-user
-confound), and their intake is self-reported with large error
--> [[Measurement Error in Dietary Assessment]]. So a cohort association is weak evidence the pattern
-*caused* the outcome, and it must not be weighed against a trial as if it were equal.
+**Clear the floor first.** Eat enough of the essential nutrients to stay out of deficiency, and
+do not chronically over- or under-eat energy. That single screen is the only one that reliably
+rules a diet **out** — it is where the all-fast-food plate and the strict-carnivore plate fail, and
+it fails them on adequacy and energy, not on any one contested component. You can refute a diet this
+way; you cannot verify one. So build the floor from the least-contested harm and stop there.
 
-The Mediterranean diet is the instructive case, because it has the field's best whole-pattern trial
-*and* an umbrella review of the trials — and they land differently. PREDIMED (Estruch 2018, the
-propensity-repaired reanalysis after the 2013 version was withdrawn) randomised **7,447 high-CV-risk
-adults, median 4.8 years**, to a Mediterranean diet with extra-virgin olive oil or nuts vs a control
-diet. Its **primary composite (MI, stroke, CV death) fell: HR 0.70 (95% CI 0.55-0.89)**, a relative
-difference of 30%, or a 5-year absolute risk of **3.8% vs 5.7%**
-[@estruch2018].
+**Above the floor, the brand is close to irrelevant — pick a pattern you will actually adhere to.**
+The named patterns that clear the floor are built from the same big rocks: fibre, whole grains,
+fruit and vegetables, nuts, replacing some saturated fat with unsaturated, and less free sugar,
+sodium, and processed meat. Those shared components — together with total energy and adiposity —
+carry what real difference there is; the label on top of them does little. A pattern you sustain
+beats a nominally better one you abandon — adherence is part of the effect, not a footnote to it.
+Choose for preference and fit, not for the name.
 
-But read *which* component of the
-composite moved: **stroke drove it (HR 0.58, 0.42-0.82)**; MI (0.80) and CV death (0.80) did not
-reach significance; and **all-cause mortality was flat — HR 0.98 (0.77-1.24)**
-[@estruch2018]. So even the best whole-pattern
-trial delivers a real but narrow benefit (stroke, in a high-risk group), not a longevity win. And it
-worked in an energy-unrestricted design with little between-group weight change, so a *composition*
-shift — not weight loss — is what moved events here: the mirror image of the weight-driven remission
-result below, and a live counterweight to reading everything through the weight lever.
+**Let the person's own situation set the choice.** Baseline diet, risk profile, cultural fit, and
+what someone can keep up decide between patterns that all clear the floor — this is an individual,
+layer-3 call, not a population verdict. A diet that moves someone's largest remediable gap and that
+they will hold to is the right one for them, whatever it is called.
 
-Widen to the trial *umbrella* and even the CV signal softens. Dinu 2018 finds the pooled Mediterranean
-RCTs do **not** confirm mortality or CVD: all-cause mortality **RR 0.93 (0.65-1.33), rated "No
-evidence"** (Liyanage pool, 3 RCTs); the diabetes-incidence signal (RR 0.70, 0.54-0.91) is graded
-"Weak"; and the LDL benefit is a *differential* null against active-diet controls, not an absolute
-drop [@dinu2018]. Dinu's hard-outcome pool
-overlaps PREDIMED, so this agrees with PREDIMED's own mortality-null rather than adding a second,
-*independent* confirmation. The lesson generalizes:
-where a pattern has been tested as a whole intervention, believe that; where it rests on cohorts,
-discount for the healthy-user confound and measurement error, and do not read the observational
-magnitude as if a mortality trial had produced it.
+**Some strata belong with a clinician, not this page.** A vegan pattern raises B12 and
+micronutrient adequacy; a keto or carnivore pattern raises lipid and renal monitoring, and carries a
+contraindication for the person whose apoB climbs sharply on carbohydrate restriction; pregnancy,
+childhood, and a history of disordered eating raise screening questions this appraisal does not
+answer. Those are prescriber questions — route them to one.
 
-## Look for the shared components, not the label
-
-If the labels barely separate, what *does* carry the differences that exist? Largely the **components
-the evidence-based patterns share** — and those have their own, better-graded evidence. Ask of any
-pattern: is the label doing work its parts do not -> [[Is the Food Category Doing Any Work]]?
-
-- **Saturated-fat replacement** is the component with the one hard-outcome result that clears null.
-  Replacing saturated fat cuts cardiovascular *events*: **RR 0.83 (0.70-0.98), about 15 fewer per
-  1000, GRADE Moderate** (13 RCTs)
-  [@who2023saturated]. But it does **not**
-  measurably reduce dying overall — all-cause mortality RR 0.96 (0.90-1.03), 2 fewer per 1000, Moderate
-  — and the LDL mechanism is High-certainty: replacing 1% of energy from saturated fat with
-  polyunsaturated fat lowers LDL by about -0.055 mmol/L (MUFA -0.042, carbohydrate -0.033)
-  [@who2023saturated]. What replaces the
-  saturated fat is the whole point — a substitution frame, not "eat less fat"
-  -> [[Saturated Fat Intake and Replacement]].
-
-- **Fibre** is a genuine supporting lever whose big numbers are observational and whose causal effect
-  is small. Highest-vs-lowest intake tracks lower all-cause mortality — Reynolds puts it at **«13
-  fewer deaths (95% CI eight to 18) ... per 1000 participants over the duration of the studies»**
-  [@reynolds2019] — but that is
-  self-reported cohort data. Where fibre is trialled as a dosable isolate, the effect is real and
-  modest: viscous fibre lowers LDL by about -0.057 mmol/L per gram, and Brown's own verdict is that it
-  «can make only a small contribution to dietary therapy to lower cholesterol»
-  [@brown1999]. Target \~25-30
-  g/day from food; do not oversell it -> [[Dietary Fibre and Health]].
-
-- **Whole grains vs refined grains** is a case where the *label* nearly vanishes on its own. SACN
-  grades refined grain against events and diabetes at **RR 1.00 (0.98, 1.01) for cardiovascular events
-  and RR 1.00 (0.98, 1.01) for type 2 diabetes, both "No association · Moderate"**
-  [@sacn2015] — the grain-refinement boundary carries
-  almost no independent signal, and the whole-grain benefit tracks its fibre content
-  -> [[Whole Grains Refined Grains and Pulses]].
-
-- **Red and processed meat** is a component-level harm the plant-forward patterns happen to minimize.
-  WCRF: red meat **RR 1.12 (1.00-1.25) per 100 g/day** (the lower bound touches null —
-  not statistically significant pooled), processed meat **RR 1.16 (1.08-1.26) per 50 g/day**, for
-  colorectal cancer
-  [@wcrf2018].
-  In absolute terms the effect is small — a handful of cancer cases per 1000
-  over a lifetime for a realistic reduction -> [[Red and Processed Meat and Cancer]]. Some of the
-  plant-forward patterns' apparent benefit may ride here — on a minimized component — rather than on
-  the pattern label.
-
-The pattern, in other words, is often a *carrier* for a handful of components with their own
-evidence. Optimize the components and much of the between-pattern difference is already captured.
-
-## Judge low-carb by the outcome you care about
-
-Low-carbohydrate patterns are where the "it depends on the outcome" rule bites hardest — the same
-diet looks strong, neutral, or worrying depending on which endpoint you pick.
-
-- **Weight.** Head-to-head against balanced-carbohydrate diets *at matched energy*, low-carb's
-  advantage is trivial: **MD -0.48 kg (-0.85 to -0.11), I2=0%, 27 studies** in Naude's matched-energy
-  subgroup [@naude2022] — a tight
-  interval with zero heterogeneity, so this is a confident near-null, not an underpowered one. The
-  larger differences appear only when the diets are *not* energy-matched — i.e. the weight comes from
-  eating less, not from cutting carbs as such. And some of low-carb's early loss is not fat at all: a
-  «total body water loss (2 to 3 kg)» from glycogen-linked diuresis that is «restored when
-  carbohydrates are eaten again»
-  [@naude2022]
-  -> [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
-
-- **Glycaemia in type 2 diabetes.** Here low-carb has firm, high-certainty surrogate wins. Szczerba's
-  umbrella grades low-carb (<26% energy) vs usual/higher-carb: **HbA1c -0.47% (-0.60 to -0.34, 17
-  RCTs, GRADE high)**, triglycerides **-0.30 mmol/L (GRADE high)**, and drug **deprescribing RD 0.24
-  (0.12-0.35, moderate)** — 24 more people per 100 reducing medication
-  [@szczerba2023]. Real effects on
-  glucose control, at short horizons.
-
-- **Long-term mortality.** Here the shape turns U-shaped, and the *substitution* dominates the carb
-  fraction. Seidelmann finds a mortality nadir around **50-55% energy from carbohydrate**, with **«1·20
-  ... for low carbohydrate consumption; 1·23 ... for high»** at the extremes
-  [@seidelmann2018]. Critically, what
-  you replace the carbohydrate with flips the sign: **«mortality increased when carbohydrates were
-  exchanged for animal-derived fat or protein (1·18, 1·08-1·29) and mortality decreased when the
-  substitutions were plant-based (0·82, 0·78-0·87)»**
-  [@seidelmann2018]. This is
-  observational, so hold the U's upper arm loosely (reverse causation and confounding are live), but
-  it makes the point: "low-carb" is not one exposure — an animal-based and a plant-based low-carb diet
-  point in opposite directions.
-
-**One genuine stratum-specific caution (route c — a harm firing only in a subgroup):** in people with
-lipid disorders or an atherogenic-lipoprotein hyper-response, **«caution in recommending
-low-carbohydrate and consequent high-fat diets is warranted»**
-[@naude2022]. That is a
-contraindication for an identifiable stratum, not a population verdict — and identifying it needs
-someone's lipid response, which is a clinician's call.
-
-## Treat total diet replacement as a real lever for type-2-diabetes remission
-
-The one place a *specified format* clearly beats "pick what you like" is remission of type 2 diabetes
-— and the winning format is defined by energy control, not by a macronutrient camp.
-
-DiRECT (Lean 2018), a cluster-randomised primary-care trial, set diabetes remission as a primary
-outcome. A low-energy total-diet-replacement formula (**825-853 kcal/day, and notably 59%
-carbohydrate — a high-carb, low-*energy* diet**) followed by structured food reintroduction and
-maintenance produced **46% remission vs 4% in controls at 12 months — OR 19.7 (95% CI 7.8-49.8)**
-[@lean2018]. And remission scaled with weight
-lost, from **0% among those who gained weight to 86% among those who lost >=15 kg**
-[@lean2018]. The umbrella review places total
-diet replacement at the single **GRADE-high** cell of the whole remission map — median 54% remission
-across the two low-risk RCTs [@churuangsuk2022].
-
-The macronutrient reading matters here. A low-carbohydrate route *also* produces remission — but the
-effect tracks weight and fades with it. Goldenberg's low-carb remission is **RD 0.32 (0.17-0.47) at 6
-months** on the medication-permitted definition, but by 12 months it is **RD 0.10 (-0.02 to 0.21),
-non-significant**, in step with the weight advantage decaying from **-3.46 kg at 6 months to +0.29 kg
-at 12 months** [@goldenberg2021].
-
-And the definition matters: on the stricter **medication-free** definition (the ADA standard — HbA1c
-below target *and* off diabetes drugs), the low-carb effect is never significant — **RD 0.05 (-0.05 to
-0.14) at 6 months, and a negative point estimate (RD -0.04, -0.16 to 0.09) at 12 months**
-[@goldenberg2021]. The short-term remission
-also carries a lipid cost: LDL rises **MD 0.14 mmol/L (-0.00 to 0.28) at 12 months, graded a harm above
-the review's own clinical threshold** [@goldenberg2021].
-And no trial has actually tested low-carb *for remission as a primary outcome* — **«No RCT has
-evaluated LCDs/ketogenic diets for type 2 diabetes remission»**
-[@churuangsuk2022].
-
-Read together: **remission
-is driven by the magnitude of sustained weight loss, not by the carbohydrate fraction** — DiRECT
-achieves it at 59% carbohydrate. Carbohydrate restriction is one delivery route for weight loss, with
-no evidence it adds a remission effect beyond the weight it produces.
-
-Remission is a patient-important benefit weight loss demonstrably moves — but it is an intermediate
-outcome (HbA1c normalisation), it can relapse, and DiRECT was not powered for hard complications.
-
-## Count adherence and the realistic swap as part of the effect
-
-A diet not kept has no effect. Ge notes that **«adherence to diets was generally not reported»** and
-that «Full adherence would probably yield larger effects»
-[@ge2020] — which cuts both ways:
-the paper-best diet and the diet a person sustains are different quantities, and under diminishing
-returns a smaller sustained change beats a larger abandoned one. The gap can be large: PREDIMED's event
-benefit nearly doubled among those who actually followed the diet — **per-protocol HR 0.42 (0.24-0.63)
-versus intention-to-treat 0.70** [@estruch2018].
-
-Since the named patterns barely separate on effect, **adherence — cultural fit, cost, preference,
-sustainability — is often the largest remaining variable in the realized outcome**, and it is elicited
-from the person, not read off a trial (route e). Judge diets as substitutions against the realistic
-alternative, not against an ideal.
-
-## Name the non-health axis and stop
-
-Some patterns carry loads on axes this guide does not weigh. Plant-forward and plant-based patterns
-carry environmental and ethical considerations; restrictive patterns carry cost and social frictions.
-**Record that the trade-off exists and its direction; do not price it against the health finding.**
-The wiki holds no carbon, water, or welfare data, and a recommendation that silently folds a
-non-health objective into a health verdict has committed the same defect as an undisclosed weighting.
-The cross-axis weight is the person's, set at layer 3.
-
-## What the evidence still cannot tell you
-
-Gaps the assembled evidence cannot yet close — and no magnitude is invented for any of them:
-
-- **A hard-outcome magnitude for DASH.** DASH lowers blood pressure, but that is a surrogate, and no
-  held source puts an events or mortality number on the whole pattern -> [[Sodium Intake and Blood Pressure]].
-- **DIETFITS** — the 12-month low-fat-vs-low-carb head-to-head, and its test of genotype- and
-  insulin-status-based personalization — is not held.
-- **The plant-based cohort leg** — AHS-2 and a pooled vegetarian/vegan systematic review, together
-  with the repletion questions a restrictive pattern raises (B12, iron, omega-3, protein quality).
-- **Glycaemic-outcome network meta-analyses** — the glycaemic analog of the weight/cardiovascular
-  network meta-analysis already held (Ge).
-- **EAT-Lancet** — no held source appraising its combined health claims.
-
-## The bottom line
-
-- **Clear the floor first.** Check that any pattern — especially a restrictive one (vegan, keto,
-  carnivore) — supplies adequate energy and every essential nutrient. A pattern that fails adequacy is
-  ruled out before any longevity ranking; the correction of a real deficiency is a large, measurable
-  benefit, unlike enhancement above adequacy.
-- **Stop agonizing over the label.** Above the floor, the major named patterns differ by small-to-
-  trivial amounts on surrogates and largely converge by 12 months. Pick one you can sustain.
-- **Get the shared components right** — replace saturated fat (with unsaturated fat or whole-food
-  carbohydrate, for a real event benefit), reach \~25-30 g/day fibre from food, keep processed meat
-  low. These carry better-graded evidence than any pattern label.
-- **If you carry excess weight, that is the lever** — for type 2 diabetes remission specifically, a
-  structured low-energy total-diet-replacement programme is the strongest-evidenced format, and
-  remission scales with kilograms lost regardless of the diet's macronutrient split.
-- **Judge low-carb by your target** — firm short-term glycaemic wins in type 2 diabetes; a trivial
-  weight edge at matched energy; and a long-term mortality signal that depends entirely on what
-  replaces the carbohydrate (plant-based better, animal-based worse).
-- **Adherence is part of the effect.** The diet you keep beats the one that scores best on paper.
-
-## Before you act: mandatory caveats
-
-- **The overall certainty here is low.** The one fair head-to-head evidence (Ge's network of RCTs) is
-  itself largely low-to-moderate certainty on small differences; the long-term pattern-and-longevity
-  evidence is confounded observation; and the strongest component and remission results are on
-  surrogates or intermediate outcomes, not on living longer.
-- **These are population-level readings.** Where a claim is stratum-specific it is named as such —
-  iodine repletion applies to the deficient; low-carb caution applies to atherogenic-lipoprotein
-  hyper-responders (route c); low-energy total diet replacement was tested in early, non-insulin-
-  treated type 2 diabetes with BMI 27-45. Do not read a stratum result across to yourself without the
-  matching profile.
-- **This guide appraises exposures; it does not prescribe.** It does not select, dose, or screen for
-  you, and it holds no environmental, ethical, or cost axis — those weights are yours.
-- **The loop is open.** Nothing here has been graded against a realized outcome in a specific person;
-  the evidence is internally appraised, not validated on you.
-
-> [!warning]
-> **Restrictive patterns need a clinician, not a guide.** A vegan pattern (B12, iron, iodine,
-> omega-3, energy in children), a ketogenic or carnivore pattern (lipids, renal, and the
-> atherogenic-lipoprotein hyper-responder subgroup), and any pattern during pregnancy, childhood, or
-> with an eating-disorder history raise adequacy and safety questions that require your labs, your
-> medications, and your history. Coming off diabetes or blood-pressure medication during a weight-loss
-> programme (as in DiRECT) must be medically supervised — the medication is adjusted *because* the
-> diet is working, and that is a prescriber's judgment, not a self-directed one.
+**And name the gap plainly.** No trial has ever pitted two named diets head to head on hard outcomes
+over the years such a comparison would need — it is impractical to run — so the between-pattern
+verdict rests on surrogates and cohorts. Confidence here is **low**, and the loop is open: nothing
+in this appraisal grades a diet against a realized outcome. What holds up is the floor, the shared
+components, and adherence — the rest is a choice the evidence does not make for you.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 15 sources — 10 gold, 5 high |
+> | **Evidence included** | 26 sources — 13 gold, 12 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
 
 ## References

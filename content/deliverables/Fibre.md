@@ -1,14 +1,14 @@
 ---
 type: deliverable
-title: Dietary Fibre
+title: Fibre
 question: 'For a person deciding how much dietary fibre to eat and in what form: what does fibre do to each patient-important outcome -- mortality, heart disease, diabetes, cancer, IBD, LDL, glycaemia, weight, the microbiome, gut transit -- for whom, how large, how certain, and does the answer change by fibre type or by isolate-versus-food?'
-aliases: [Fiber, Dietary Fiber, Soluble Fibre, Insoluble Fibre, Viscous Fibre, Fermentable Fibre, Roughage, Prebiotic Fibre]
+aliases: [Dietary Fibre, Fiber, Dietary Fiber, Soluble Fibre, Insoluble Fibre, Viscous Fibre, Fermentable Fibre, Roughage, Prebiotic Fibre]
 authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; Valdes, Ana M; Wastyk, Hannah C; Petroski, Weston; World Cancer Research Fund (org); European Society of Cardiology (org); World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org)]
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-18
+self_critiqued: 2026-08-18
 ---
 
 Fibre is a **real but modest supporting lever, not a big rock**. Eating enough of it is worth
@@ -61,6 +61,22 @@ synthesis is narrow: **the trial leg confirms the direction of the observational
 a mechanism, but the two do not add up to one large causal number.** Fibre is beneficial and at
 least partly causal, with a modest measured effect on the endpoints anyone can actually trial; the
 mortality magnitude stays observational
+.
+
+**And Brown bounds how much of the big number that mechanism can carry.** Followed one step
+further, to heart disease: 3 g/day of soluble fibre cuts total cholesterol by «<0.129 mmol/L
+(5 mg/dL), a <2% reduction» -- enough, on cholesterol-treatment estimates, that «this could lower
+the incidence of coronary artery disease by <4%»
+[@brown1999]. Soluble
+fibre, Brown concludes, «may exert only a small effect on the risk of heart disease»
+[@brown1999].
+
+That <4% is
+not the same quantity as the \~24% lower coronary risk the cohorts report -- different exposure,
+dose and contrast, so the two are not subtracted -- but the order of magnitude is the point: the
+pathway anyone can actually trial is roughly ten times smaller than the association it is meant to
+explain. Most of the observational number is left to something other than the trialled effect --
+the healthy-user pattern, the other fibre fractions, or residual confounding
 .
 
 **The reason to believe the observational leg is more than correlation is triangulation, not
@@ -310,6 +326,12 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
   drop in LDL cholesterol.
 - **A whole-food fibre trial on hard outcomes does not exist and structurally cannot** -- you
   cannot blind a diet -- so this gap will not close by acquiring more of the same evidence type.
+- **The near-zero-fibre case does not transport.** In the cohorts, *low fibre* means low within a
+  normal mixed diet -- typically the refined, energy-dense end -- so it travels with high
+  junk-food intake. Whether fibre's benefit gradient reaches down to a *minimally processed*
+  near-zero-fibre pattern (a meat-based or carnivore diet) is untested: no held source offers that
+  like-for-like contrast, so the cohort estimate does not transport to that stratum -- a named gap,
+  not a verdict either way.
 - **Glycaemia magnitude, gastric emptying, satiety-as-such, and insoluble-fibre effects on transit
   and constipation are named gaps** -- the direction is plausible, but no held source quantifies
   them against a patient-important outcome.
@@ -329,6 +351,6 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 > | **Evidence included** | 12 sources — 7 gold, 3 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
+> | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
 
 ## References

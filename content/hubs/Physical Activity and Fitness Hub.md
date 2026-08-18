@@ -20,6 +20,10 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   associates with *higher* mortality in men (Coenen, HR 1.18), opposite to leisure/total PA — so
   physically demanding work does not substitute for leisure exercise on the mortality outcome (LOW
   confidence; observational, healthy-worker selection; opens the `occupation` cluster)
+- [[Night Shift Work and Breast Cancer]] — the occupation cluster's circadian channel, and a well-powered
+  NULL: pooled across 10 prospective studies (1.4M women) night shift work shows no meaningful effect on
+  breast cancer (RR 0.99, 0.95-1.03), overturning a case-control-driven prior and the IARC 2A *probable
+  carcinogen* reading (MEDIUM confidence; a symmetric-standards counterweight)
 
 ## Cardiorespiratory fitness — marker and lever
 

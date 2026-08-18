@@ -6,8 +6,8 @@ question: 'What can and cannot be established about diet-health effects given th
 sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-10
-self_critiqued: 2026-08-10
+updated: 2026-08-18
+self_critiqued: 2026-08-18
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -122,6 +122,19 @@ consumption and both liver cancer and chronic liver disease reached this magnitu
 [@poole2017] -- or on a dose-response gradient, or
 where all plausible residual confounding runs *against* the finding, or where independent method classes
 converge. -> [[Upgrading Observational Evidence]]
+
+**Significance is not the credibility bar.** A modest association is not made causally credible by being
+statistically significant -- significance is a CI-excludes-1.0 fact driven by precision (a large enough
+cohort makes even RR 1.05 significant), not a point-estimate cutpoint. The magnitude governing causal
+credibility *from association alone* is the same GRADE rate-up bar of \~2 (or <=0.5) quoted above -- far
+above where most nutritional exposures sit (red and processed meat at 1.12 and 1.16).
+
+
+Below the bar a cohort association needs triangulation -- Mendelian randomization, a trial, or convergent
+methods -- and *below-2* means insufficient on its own, **never false**
+-> [[The Insufficient-Evidence Statement]]. The doubt is symmetric: a small protective RR earns the same
+scrutiny as a small harmful one, and measurement error usually attenuates toward the null, so a modest RR
+can understate a real effect too. -> [[Upgrading Observational Evidence]]
 
 **So what this does to confidence:** for most modest, single-method nutrition associations, none of the
 exits is available, residual confounding stays live, and the honest grade is low -- recommend
@@ -337,6 +350,6 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Evidence included** | 19 sources — 3 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
 
 ## References

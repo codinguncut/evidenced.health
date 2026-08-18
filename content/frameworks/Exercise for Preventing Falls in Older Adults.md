@@ -17,7 +17,7 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Frailty
 created: 2026-08-05
-updated: 2026-08-08
+updated: 2026-08-18
 self_critiqued: 2026-08-05
 ---
 
@@ -116,7 +116,10 @@ largely attributable to benefits among the high-risk populations, with little to
 populations (1 fewer hip fracture per 1000 community-dwelling adults per year [95% CI, 0 to 2])»
 [@kahwati2018] (Kahwati reporting the
 2014 Cochrane review, which *included* institutionalized/deficient/osteoporotic populations). So the
-supplement leg is a **deficiency-repletion** lever, not a community-wide one -> [[Deficiency Repletion vs Enhancement]].
+supplement leg is a **deficiency-repletion** lever, not a community-wide one
+-> [[Deficiency Repletion vs Enhancement]], [[Vitamin D and Calcium Supplementation for Fracture Prevention]]
+(the page that owns the fracture-benefit-net-of-harms verdict, where a broader D+Ca hip-fracture signal
+sits as a population DISTINCTION from Kahwati's community-dwelling null).
 
 **The decision-change for the elderly stratum:** the two legs of fracture prevention run **opposite ways**.
 For the generally-nourished, non-osteoporotic community-dwelling older adult, **exercise (balance +

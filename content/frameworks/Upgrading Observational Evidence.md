@@ -2,8 +2,8 @@
 type: framework
 question: When can observational evidence support more confidence than its design alone would allow?
 aliases: [Upgrading Evidence, Rating Up, Large Magnitude of Effect, Dose-Response Gradient, Plausible Residual Confounding]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org); Poole, Robin; Ding, Ming; van Dam, Rob M; Hu, Frank B]
-sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org); Poole, Robin; Ding, Ming; van Dam, Rob M; Hu, Frank B; Travis, Ruth C]
+sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Travis - Night Shift Work Breast Cancer 2016]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -18,9 +18,10 @@ relationships:
     - Confidence in Science Without a Replication Crisis
     - Linoleic Acid and Cardiovascular Disease
     - The Observational-Trial Discordance
+    - Night Shift Work and Breast Cancer
 created: 2026-07-25
-updated: 2026-08-13
-self_critiqued: 2026-08-08
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
@@ -254,6 +255,34 @@ converged.** The folic acid case:
 arriving from a methods textbook rather than from the ontology corpus.** The two failures had many
 studies and one method class; the success had fewer and five.
 [inferred from @willett]
+
+### A live occupational-epi instance of the design-class flip `[2026-08-17, Travis night-shift]`
+
+Willett's dietary-fat -> breast-cancer reversal has an independent twin in **occupational** epidemiology,
+reached by different authors in a different literature: night shift work -> breast cancer. A
+case-control-heavy prior evidence base supported an association strong enough for IARC's 2007 Group-2A
+(*probable carcinogen*) classification; Travis's meta-analysis of **10 prospective studies** (1.4M women,
+4660 exposed cases) found **RR 0.99 (0.95-1.03)**, narrow enough to exclude a moderate effect even at
+>=20 years -> [[Night Shift Work and Breast Cancer]]. Travis names the discriminator explicitly:
+
+> «Restriction to pro- spective studies is important when trying to detect or refute moderate hazards
+> as it avoids the moderate biases that can re- sult from retrospective methodology.»
+> [@travis2016nightshift]
+
+**Same outcome (breast cancer), same design-class flip (retrospective association -> prospective null),
+different exposure (diet vs occupational schedule), different authors.** This is exactly the
+type-E robustness the folic-acid case models, but pointing the other way — *independent instances
+converging on the discriminator itself* (that retrospective exposure ascertainment manufactures moderate
+associations prospective ascertainment dissolves), not on a substantive claim. It upgrades confidence in
+the *discriminator*, which is this page's question, while each breast-cancer estimate stays its own
+source's.
+[inferred from @travis2016nightshift; @willett]
+
+*Self-critique `[run 2026-08-17]`:* the type-E claim is on the **discriminator** (retrospective ->
+prospective reversal), NOT on breast-cancer causation — the two reversals share a *method finding*, and
+the diet and shift-work exposures are not pooled or equated. The independence bar is met by the diff-author
+/ diff-literature / no-cross-citation check above (the cheapest defeater, applied first). Not laundered:
+neither breast-cancer estimate is restated as the other's evidence.
 
 ### A cheap diagnostic the breast-cancer case supplies
 

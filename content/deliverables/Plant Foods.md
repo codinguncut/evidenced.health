@@ -3,294 +3,401 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Scientific Advisory Committee on Nutrition (org); Brown, Lisa; Reynolds, Andrew; World Cancer Research Fund (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Veronese, Nicola; Milajerdi, Alireza; Valdes, Ana M; Petroski, Weston; World Health Organization (org); Qin, Pei; Afshin, Ashkan; Food and Agriculture Organization of the United Nations (org)]
-sources: [SACN - Carbohydrates and Health 2015, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Reynolds - Carbohydrate Quality and Human Health 2019, WCRF - Diet Nutrition Activity Cancer 2018, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Veronese - Dietary Fibre Health Umbrella 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Valdes - Gut Microbiota Nutrition and Health 2018, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019, FAO - Dietary Protein Quality Evaluation 2013]
+authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan]
+sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Whole Grain Mortality 2016, Aune - Nut Consumption Mortality 2016, Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Afshin - Health Effects of Dietary Risks GBD 2019]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-17
+self_critiqued: 2026-08-17
 ---
 
-**Eat plants -- but for reasons plainer than the marketing.** Across fruit, vegetables, pulses and
-grains, the evidence points one way: people who eat more of these foods tend to live longer and get
-less heart disease and diabetes. Almost all of that signal travels through **dietary fibre and the
-overall pattern of the diet**, not through any single food's special virtue. The honest verdict is
-undramatic. Variety helps, fibre is the lever that actually moves in trials, and the differences
-between one wholesome plant food and the next are mostly too small -- or too tangled together -- to
-rank.
+**Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
+pulses and grains, people who eat more of these foods live modestly longer and suffer less heart
+disease. The signal is real but observational: no trial has fed whole diets for decades, so
+confounding caps how sure we can be. Almost all of it travels through **dietary fibre and the overall
+eating pattern**, not through any one food's special virtue.
 
-**The frightening parts are mostly not frightening.** The *antinutrients* that fill wellness
-headlines -- lectins, phytates, oxalates -- are defused by ordinary cooking for nearly everyone. Only
-a short, named list of people in specific situations needs to take care. And the sugar inside whole
-fruit is not the sugar dietary guidelines warn about; that warning is about drinks and juice.
+**You cannot rank fruits or vegetables against each other on outcomes.** The per-food data are too
+thin to separate an apple from a pear; where they resolve at all, leafy greens and citrus carry the
+tightest signals — not the berries and grapes that get the marketing. Refined grain, meanwhile, is
+**not** found harmful: the evidenced carbohydrate harm is free sugars, sugary drinks above all.
 
-**For most people this is a small lever, and that is itself the finding.** If you already eat a
-varied diet, do not smoke, and are not sedentary, fine-tuning which vegetables you buy is a
-refinement, not a turning point. Where plant foods matter most is at the low end -- diets very short
-on whole grains and fibre -- and there the fix is *eat more fibre-rich plants*, not a supplement or a
-superfood.
+**The two things people worry about mostly dissolve.** For a generally-nourished adult eating
+normally-cooked food, plant "antinutrients" carry no meaningful net harm — the real exceptions are raw
+high-lectin beans, which need a full boil, and a few nutrient-status-specific strata. And the sugar in
+whole fruit is not a problem: it arrives packaged in a fibre matrix, so the free-sugar concern is
+juice and sugary drinks, not the fruit bowl.
 
-## The one plant-food lever that shows up in trials is fibre
+**For someone already eating varied whole plant foods, the choice of plant food is a refinement, not a
+big lever.** The levers with room to move are getting fibre up toward the target and cutting free
+sugars — both reachable many ways.
 
-Fibre is the part of the plant-food story that clears the highest evidence bar. In the largest
-pooled analysis, people with the highest fibre intake had roughly 15-30% lower risk of dying, of
-heart disease, and of type 2 diabetes than those with the lowest -- all-cause mortality
-«RR 0·85 (0·79 to 0·91)» [@reynolds2019].
-But that is observational: people who eat more fibre differ in many ways from those who eat less. In
-absolute terms the same analysis puts it at «13 fewer deaths (95% CI eight to 18)» per 1000 people
-over the studies' span [@reynolds2019].
- So the headline numbers are real but carry the usual healthy-eater confounding, which is
-why the certainty here is moderate, not high.
+## Most of the evidence is about a pattern, not a single food
 
-Where fibre is tested as a dosable supplement in randomised trials, the causal effect is genuine and
-**small**. Viscous fibre lowers LDL cholesterol by about -0.057 mmol/L per gram, and Brown's own
-verdict is that it makes «only a small contribution to dietary therapy to lower cholesterol»
-[@brown1999]. Trials also
-show a modest weight effect, «MD -0·37 (-0·63 to -0·11)» kg at high certainty
-[@reynolds2019]. The pattern is
-consistent: the effect is firmest exactly where it is smallest.
+Almost every *eat more plant food* finding rests on the same kind of study: cohorts that follow people
+who already eat a lot of a whole food group and record who stays healthy. That design watches a
+*pattern*, not a food. And the people who eat the most fruit and vegetables differ in dozens of ways at
+once — they smoke less, weigh less, move more, drink less alcohol. A healthy population is not evidence
+for any one thing on its plate; the benefit could ride on the fibre, the potassium, the displaced junk
+food, or on no single component at all -> [[Is the Food Category Doing Any Work]].
 
-Two refinements keep this honest. An umbrella review found that although most fibre associations were
-statistically significant, fibre was «convincingly associated only with a decreased likelihood of
-early mortality and CVD» [@veronese2018] -- the
-long list of cancer benefits is weaker. And the effect is not uniform across diseases: highest-versus-
-lowest fibre intake tracks lower Crohn disease risk «RR: 0.59; 95% CI: 0.46, 0.74» but is flat for
-ulcerative colitis «RR: 1.09; 95% CI: 0.88, 1.34»
-[@milajerdi2020ibd]. A cancer-
-prevention body still grades fibre a *probable* protector against colorectal cancer and sets its
-goal at «at least 30 grams per day ... from food sources»
-[@wcrf2018ter] -- close to the 25-29 g band where
-the mortality evidence lands.
+There is a sharp way to see when a food label carries no real information. Compare the spread of
+outcomes *within* a category to the spread *between* categories. If the foods inside the label differ
+from one another more than the label differs from its neighbours, the category-level number describes no
+actual food — it is an average over a mix nobody eats -> [[Is the Food Category Doing Any Work]].
 
-**Aim for roughly 25-30 g of fibre a day from food, and do not expect a miracle.** The dose-response
-curve is «many of which are linear with no sign of a plateau within the available data», with the
-greatest benefit for people eating «25-29 g per day»
-[@reynolds2019]. More is fine; there is
-no evidence of a point past which it stops helping, and no plant food beats *more fibre from a
-variety of sources*.
+Pool 95 cohorts and the fruit-and-vegetable effect is real but shallow. Each extra 200 g/day (about two
+and a half 80 g servings) tracks roughly 8-10% lower risk of cardiovascular disease and death:
+all-cause mortality RR 0.90 (0.87-0.93), coronary heart disease 0.92 (0.90-0.94), with a weaker \~3% for
+total cancer, 0.97 (0.95-0.99)
+[@aune2017fv]. But Aune attributes
+that effect to «a myriad of nutrients and phytochemicals, including fibre,
+vitamin C, carotenoids, antioxidants, potassium, flavonoids and other unidentified compounds which are
+likely to act synergistically» [@aune2017fv].
+So the number is genuine, and it is not clean evidence for any single fruit, vegetable, or compound.
 
-A note on the microbiome, because it drives so much plant-food marketing. Fibre is the substrate gut
-bacteria ferment, so *prebiotic* is largely fermentable fibre by another name. But the microbiome
-shift is a surrogate, not an outcome, and even it is inconsistent: many trials with «purified dietary
-fibres or even whole plant based diets either have no effect on microbiota diversity or reduce it, but
-can still have clinical benefits»
-[@valdes2018]. Act on the fibre
-evidence directly; you do not need a supplement aisle, and the
-gut-health framing is discussed far out of proportion to its established effect
--> [[Gut Microbiome and Health]], [[Dietary Fibre and Health]].
+That shallow slope is probably a floor, not a ceiling. Diet is measured by asking people, and the error
+is large enough to flatten real gradients toward no effect
+-> [[Measurement Error in Dietary Assessment]]. The direction is asymmetric: correcting for the error
+cannot conjure an effect out of a true null, but it can substantially strengthen a real one
+[@willett]. The three F&V cohorts that did
+correct for it saw the association grow, not shrink — in China Kadoorie, cardiovascular death per daily
+portion of fresh fruit moved from RR 0.77 (0.72-0.83) to 0.63 (0.56-0.72) once regression dilution was
+accounted for [@aune2017fv]. So a flat or
+null dose-response is weak evidence of no
+gradient, and the reported effect is, if anything, understated.
 
-## Whole grain is mostly a label for fibre, and refined grain was not found harmful
+One caveat runs the other way, and it is about study design rather than biology. A fibre supplement can
+be dosed and blinded where a bowl of beans cannot, so a blindable isolate is a *different exposure* than
+the food and can earn a better evidence grade on design alone -> [[Dietary Fibre and Health]],
+[[Is the Food Category Doing Any Work]].
 
-The popular story -- whole grains good, refined grains bad -- is only half supported. Whole-grain
-eaters do have lower risk in cohort studies, but the guidance body that looked closest attributes it
-to something inside the grain: «Any associations indicated for whole grain may be related to its
-cereal fibre component» [@sacn2015]. So the target is
-**fibre content**, not the word *whole grain*.
+A final discipline applies before trusting the *shape* of any of these curves. Where a curve appears to
+flatten into a protective plateau, or to bend upward into harm at high intake, that arm can be a
+study-design artifact — reverse causation, confounding, or unequal reporting precision — rather than a
+real feature. Such an arm has to survive an artifact check before it earns a place in a recommendation
+-> [[The U-Shaped Association Artifact]].
 
-The other half -- that refined grain actively harms -- was tested and not found. Pooling cohort data,
-SACN reported «No association was found between refined grains intake and the combined incidence of
-stroke and coronary events» at «RR 1.00, 95% CI 0.98, 1.01», and the same flat null for type 2
-diabetes [@sacn2015]. Randomised
-trials swapping whole for refined grain moved nothing measurable -- blood pressure, cholesterol,
-glucose all flat. **Avoiding refined grain as a harm-avoidance move is not supported here.**
-The genuine carbohydrate harms -- sugar-sweetened drinks, and glycaemic load for people who already
-have diabetes -- are different exposures, and are covered below and elsewhere
--> [[Free Sugars Intake]], [[Whole Grains Refined Grains and Pulses]].
+With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
+and where it simply cannot single out any one food.
 
-Two guidance bodies sharpen the practical edge. A Nordic panel recommends «at least 90 g/day (dry
-weight) of whole grains» while carving out that «At high energy requirements refined grains also have
-a role» [@nnr2023] -- a permission for
-athletes and heavy manual workers, not a harm claim. And a global burden analysis ranked low
-whole-grain intake the **top dietary risk factor** for lost healthy life-years worldwide, some 82
-million DALYs [@afshin2019]. Read that as
-prevalence, not effect size: a modest per-person effect tops the ranking because almost everyone
-falls short, not because the personal gain is large
+## What each plant group does, outcome by outcome
+
+An exposure has no single number. Each plant group moves several outcomes by different amounts, with
+different certainty, and the evidence individuates the food itself only sometimes. What follows is the
+per-group picture, outcome by outcome, with the interval and the studied range attached to every figure.
+All of it is observational, dose-response meta-analysis of self-reported eaters — so the ceiling is
+confounding, and measurement error means a flat result understates rather than overstates a real
+gradient.
+
+### Fruit and vegetables
+
+Aune's 2017 pooling of 95 cohorts (up to \~2.1 million people) reports per-serving dose-response
+estimates rather than high-versus-low contrasts. One serving is 80 g; the table is per 200 g/day of
+fruit and vegetables combined.
+[@aune2017fv]
+
+| Outcome | RR per 200 g/day (95% CI) | I2 | cohorts |
+|---|---|---|---|
+| Coronary heart disease | 0.92 (0.90-0.94) | 0% | 15 |
+| Cardiovascular disease | 0.92 (0.90-0.95) | 31% | 13 |
+| All-cause mortality | 0.90 (0.87-0.93) | 83% | 15 |
+| Total cancer | 0.97 (0.95-0.99) | 49% | 12 |
+
+So the cardiovascular and mortality endpoints fall about 8-10% per 200 g/day; cancer is the weak arm,
+roughly 3% per 200 g/day. CHD carries the lowest heterogeneity of the four outcomes (I2 0%).
+
+The curve is steepest at low intake — the first servings carry most of the effect, and the marginal
+value of the ninth or tenth serving is small and uncertain. Lowest observed risk sits at 800 g/day
+(10 servings) for the cardiovascular and mortality endpoints, and cancer flattens near 600 g/day.
+[@aune2017fv] Read 800 g/day as the sampling
+edge, not a demonstrated optimum: it is where the studied range thins out, so it marks a
+floor-for-most-benefit region rather than a point target ([[The Underivable Optimum]]).
+
+The subtype cells are too thin to rank one fruit or vegetable against another (n=2-6, wide CIs). Where
+they do resolve, the tight, steep signals sit with leafy greens and citrus — not the berries and grapes
+that carry most of the marketing.
+[@aune2017fv]
+
+| Type | CHD | Stroke | Read |
+|---|---|---|---|
+| Green leafy vegetables | 0.72 (0.64-0.82) | 0.73 (0.57-0.94) | steepest and tightest, both endpoints |
+| Citrus fruits | 0.91 (0.86-0.96) HvL | 0.78 (0.69-0.90) | robust, especially stroke |
+| Grapes | 0.87 (0.56-1.37) NS | 0.57 (0.34-0.97) | CHD null; stroke on 2 studies only |
+| Berries | 1.13 (0.90-1.43) NS | 1.07 (0.79-1.45) NS | point estimate above 1.0 for both |
+
+The strawberry cell (4.66, 1.14-19.03) rests on a single study with an absurd interval and should be
+discarded, not read as a signal. The pooled fruit-and-vegetable effect does not distribute evenly onto a
+favourite fruit — where the data can individuate at all, they point at leafy greens and citrus.
+
+State any fruit target as **whole fruit**. The free-sugars limit excludes intrinsic whole-fruit sugar
+but includes fruit juice, so a fruit recommendation and a sugar recommendation are about different things
+([[Free Sugars Intake]]).
+
+### Whole versus refined grain
+
+Aune's 2016 whole-grain meta-analysis (45 cohorts, up to \~705,000 participants) supplies the
+dose-response the bare guideline numbers lack. The table is per 90 g/day (3 servings).
+[@aune2016wg]
+
+| Outcome | RR per 90 g/day (95% CI) | I2 | cohorts |
+|---|---|---|---|
+| Coronary heart disease | 0.81 (0.75-0.87) | 9% | 7 |
+| Cardiovascular disease | 0.78 (0.73-0.85) | 40% | 10 |
+| All-cause mortality | 0.83 (0.77-0.90) | 83% | 11 |
+| Total cancer mortality | 0.85 (0.80-0.91) | 37% | 6 |
+| Stroke | 0.88 (0.75-1.03) NS | 56% | 6 |
+
+Benefit keeps climbing past 90 g/day. Risk reductions are observed up to 210-225 g/day (7 to 7.5
+servings), with all-cause risk lowest at 225 g/day and no plateau or upper harm arm within the data.
+[@aune2016wg] So 90 g/day is a population median and a
+study-density marker, not an optimum — present it with this effect, interval and shape, never bare.
+
+The NNR 2023 carve-out that allows some refined cereals at high energy requirements (athletes, heavy
+manual work, high-growth adolescence) is a legitimate stratum permission, not a general finding. Note
+that NNR blends environmental objectives into its food-group advice, so its cereal recommendations are
+not pure health findings and are not cited here as such.
+
+Refined grain is not found harmful. SACN pooled cohort data to a flat null — RR 1.00 (0.98-1.01) for
+both cardiovascular events and type 2 diabetes, graded `No association · Moderate`.
+[@sacn2015] Aune corroborates: per 90 g/day, refined
+grain shows neither benefit nor a measured harm signal (all-cause 0.95, 0.91-0.99; CVD 0.98, 0.90-1.06
+NS; CHD 1.13, 0.90-1.42 NS). [@aune2016wg] The whole-grain
+carve-out in guidance is therefore **compositional** — whole grain carries more of the active fraction —
+not a demonstrated harm of refined grain.
+
+What is that active fraction? Probably fibre. Reynolds tracks whole grain and total fibre in the same
+studies and finds whole grain acts largely *through* its fibre, not as a separate lever
+([[Dietary Fibre and Health]]). The practical consequence is to steer by fibre content, not by the word
+"whole grain."
+
+That fibre lens exposes a genuine oddity in the grades. SACN rates fibre **isolates and gum supplements**
+`Effect · Adequate` — its top strength grade — while whole grain is graded lower, `Moderate` for
+cardiovascular disease and `Limited` for stroke and hypertension.
+[@sacn2015], [@sacn2015] This is not a verdict that a supplement beats
+food. Isolates can be randomised at a chosen dose and blinded; a fibre-bearing food mostly cannot, so it
+is observed rather than trialled. The better grade tracks the better design, not the better food
+([[Is the Food Category Doing Any Work]]) — and the isolate's proven effect is on the LDL surrogate, not
+the cohort mortality endpoint.
+
+One caution on the *refined carbs are bad* intuition: the evidenced carbohydrate harm is free sugars,
+above all sugary drinks — a different exposure from the starchy refined-grain category. That harm, and
+the glycaemic-load nuance for the already insulin-resistant, belong to the fruit-sugar section below and
+are not derived here.
+
+### Pulses and legumes
+
+Where SACN measured legumes it found nulls — legume fibre to type 2 diabetes RR 1.01 (0.98-1.04) per
+1 g/day, legume fibre to colorectal cancer RR 0.98 (0.94-1.02), non-soy legume to CVD RR 0.96
+(0.90-1.03). [@sacn2015] These are weak evidence of
+absence, not evidence of no effect. The increment is 1 g/day of legume fibre against 7 g/day for total
+fibre, so the slice is one-seventh as wide and close to uninformative about what happens at real intakes.
+About fourteen legume outcome cells sit unstudied, so the expectancy test applies: silence here is
+un-studied, not un-associated.
+
+ESC gives the first food-level number, but it is a **surrogate**: a daily portion of pulses lowers LDL-C
+by about 0.2 mmol/L. [@esc2021] The paired claim that
+pulses are associated with lower CHD is stated without a magnitude or an interval, and only the surrogate
+limb carries a number ([[Surrogate Outcomes]]). What pulses do to cardiometabolic **outcomes** beyond
+the LDL surrogate is a named gap — the corpus cannot answer it.
+
+As a protein source, plant DIAAS is low — peas 64, wheat 40, against whole milk powder 122.
+[@fao2013] Hitting a protein target
+from pulses therefore takes more food mass, because each gram delivers fewer digestible indispensable
+amino acids. That is a mass cost, not a harm.
+
+### Nuts
+
+Nuts are a plant food, and the same Aune lineage reports an inverse all-cause association (RR 0.78,
+0.72-0.84, per 28 g/day). [@aune2016nut]
+The increment differs from the other groups, so nuts are not separately rankable against them on these
+numbers.
+
+That is the benefit side. The rest of the plant-food question is two worries — antinutrients and fruit
+sugar — and both shrink under the same isolate lens.
+
+## The antinutrient scare is mostly mis-scaled — with named exceptions
+
+The alarming antinutrient studies share a design. They dose an **isolated compound** — a purified
+lectin, phytate powder — into an animal or a cell line, often at levels no cooked meal delivers.
+Petroski and Minich's review of six compound classes makes the point directly: the effect of an
+isolated compound differs from the same compound inside a whole-food matrix, and most antinutrient
+research uses isolated compounds in animal models that do not represent a balanced diet
+[@petroski2020],
+[@petroski2020]. Whole-food human trials mostly
+do not reproduce the harm.
+
+This is a **transportability failure**. An effect measured in one setting — isolated, raw, animal —
+does not carry to another — matrixed, cooked, human. It is the same error the wiki flags whenever a
+food's effect is read off a context it never occurs in
+-> [[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]].
+
+The **expectancy test seals the staple case**. Legumes and whole grains feed billions of people every
+day. A large chronic harm from properly prepared plant staples would be visible by now. It is not.
+
+Across the six classes, Petroski's finding is uniform: ordinary preparation — soaking, sprouting,
+fermenting, boiling, cooking — cuts the compounds down
+[@petroski2020].
+
+| Class | Main concern | Defused by | Stratum that still needs care |
+|---|---|---|---|
+| **Lectins** | gut damage; acute poisoning from raw/undercooked legumes | boiling/autoclaving (a full boil for the high-lectin legumes) | anyone eating raw or undercooked kidney beans |
+| **Phytate** | binds zinc/iron/calcium, lowering mineral uptake | soaking, germinating, fermenting, cooking | monotonous high-phytate diets with marginal mineral status |
+| **Tannins** | inhibit non-heme iron absorption in isolation | matrix effect; whole-diet studies show no iron-status link | low iron stores, especially menstruating women |
+| **Oxalates** | kidney-stone formation | cooking plus adequate calcium | recurrent stone-formers and high urinary-oxalate excretors |
+| **Goitrogens** | thyroid interference | cooking reduces progoitrin | suboptimal-iodine status |
+| **Phytoestrogens** | endocrine disruption | source- and processing-dependent | infants (small size, immature gut) |
+
+For most classes, in a varied diet, that makes the concern academic. For lectins in the highest-lectin
+legumes it is **not optional**. Kidney beans and soybeans need a full boil or autoclave; a lower cooking
+temperature does not destroy the lectin, and undercooked beans have caused documented mass poisonings
+[@petroski2020]. That is an **acute toxicity,
+not a chronic-diet claim**.
+
+So the honest message is not that antinutrients are harmless. It is that **properly prepared plant foods
+in a balanced diet carry no meaningful net antinutrient harm** — with *properly prepared* doing real
+work for raw high-lectin beans.
+
+A few named strata still warrant care. These are **contraindications in a named group**, not a general
+reason to avoid the food:
+
+- low iron stores, especially menstruating women — take tannin-rich tea between meals, not with them;
+- recurrent kidney-stone formers — watch total oxalate load;
+- marginal-iodine status — cook goitrogenic brassicas rather than eating them raw in bulk;
+- infants — limit concentrated phytoestrogen exposure (small body size, immature gut).
+
+The **sign flips by nutrient-status stratum**: the same tannin that is inert for a replete adult blocks
+iron in someone already short of it -> [[Deficiency Repletion vs Enhancement]].
+
+One caution on all of this. The evidence is a single **narrative review, graded low**, so its
+reassurance earns the same scrutiny as the alarm it corrects — the verdict leans on the classes where
+whole-food human evidence exists, not on mechanistic optimism. And no patient-important outcome moves
+either way. The value is **licensing someone to stop avoiding prepared beans and grains**, not a promise
+that eating them treats anything.
+
+One tie-in is worth naming. The digestibility-acting compounds here — phytate, tannins, trypsin
+inhibitors — are the **same set FAO names as the plant-protein digestibility discount**, and the same
+soaking-and-cooking step that lowers the toxicity worry also raises protein quality
+-> [[Protein Quality and the DIAAS Score]].
+
+The other worry is sugar — specifically, whether the sugar in fruit is a problem.
+
+## Whole fruit is not a sugar problem
+
+The worry about sugar in fruit dissolves at the definition. **WHO's free-sugars limit excludes the
+intrinsic sugar inside intact fruit and includes the sugar in fruit juice**
+[@who2015]. Whole fruit sits outside the counted exposure;
+juice sits inside it. A blanket "cut sugar" instruction loses the one distinction that matters here.
+See [[Free Sugars Intake]].
+
+The reason is a **dose-and-form story, not a sugar-content one**. A large free-fructose bolus — from
+sugar-sweetened drinks, fruit juice, or high-fructose corn syrup — drives fat synthesis in the liver
+(hepatic de novo lipogenesis, the MASLD-relevant harm). Whole fruit delivers a modest fructose dose
+wrapped in a fibre matrix that slows absorption and blunts that hepatic flux. So a fruit's
+sugar-to-fibre ratio does not decide its outcome — **the matrix does**. The lever is cutting free
+fructose in beverages, not avoiding whole fruit.
+
+-> [[Fatty Liver MASLD and Weight Loss]]
+
+Glycaemic index tells the same story from the other side. **GI and GL are surrogates, not outcomes,
+and they ride together with fibre and whole-grain content** in whole-food diets
+[@jenkins2024gi]. Jenkins found that low-GI
+diets and high-fibre, high-whole-grain diets gave near-identical disease associations in the same
+cohorts — which is what proxies for one underlying pattern produce. So glycaemic response is not an
+independent lever, and **a fruit's GI does not carry its outcome**
+[inferred from @jenkins2024gi]. Where GI plausibly bites is a
+stratum, not the population: the already insulin-resistant, where postprandial excursions matter — a
+management finding, not a general-diet lever. See [[Surrogate Outcomes]],
+[[Glycaemic Index and Glycaemic Load and Chronic Disease]].
+
+Fruit juice is the honest complication, and it splits by outcome. On the metabolic, hepatic, and
+dental channel, juice sits **inside** the harmful free-sugar exposure — the same free-fructose bolus,
+plus caries.
+
+Yet on cardiovascular endpoints, Aune's cohort evidence found juice **inversely**
+associated with stroke (high-vs-low RR 0.67 [0.60-0.76]; per-100 g 0.72 [0.63-0.83]) and CHD
+(high-vs-low 0.79 [0.63-0.98]) [@aune2017fv].
+Both readings hold once you match the outcome axis, so this is a distinction, not a contradiction.
+**Do not read juice as uniformly fine** — its free-sugar load still dominates the metabolic channel.
+And the robust processing signal in these data is whole-versus-processed, not fruit-versus-juice:
+**tinned fruit carried a positive (harm) association with cardiovascular disease**
+[@aune2017fv].
+
+
+One question this cannot answer is which specific fruit to pick. **Whether a grape's glycaemic load
+makes it worse than a raspberry is a named gap** — the per-fruit subtype cells are too thin (two to six
+studies, wide intervals) to rank one fruit against another on outcomes
+[@aune2017fv]. The evidence resolves at the
+level of whole fruit versus processed forms, not at the level of one fruit versus the next.
+
+So how much does any of this matter, set against the big levers?
+
+## Where plant-food choice sits on your list of levers
+
+If you already eat a varied plate of whole plant foods, **the big plant-food
+levers are already pulled.** Whether you reach for an apple or a pear, one more
+serving or two, changes little and is uncertain either way. That is not a
+failure to find something more — **it is the finding.** The ceiling here
+licenses you to stop optimising, and stopping is itself a decision
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-One counter-intuitive point worth keeping. Fibre *supplements* are better-evidenced than fibre-rich
-*foods* -- but only because supplements can be dosed and blinded in trials, an effect «demonstrated
-at intakes achieved through supplementation»
-[@sacn2015]. The better grade tracks the better study
-design, not the better food. It is no reason to
-prefer a psyllium sachet over a bowl of beans -> [[Is the Food Category Doing Any Work]].
+Two levers still have room to move.
 
-## Pulses look promising, but the outcome evidence barely exists
+**Fibre is the real one.** Most adults eat well short of the target: UK mean
+intakes sit 10-11 g/day below the 30 g/day AOAC reference value for men, and
+13 g/day below for women [@sacn2015]
+— roughly a 40% shortfall. Closing it is a genuine behaviour change, not a
+tweak. And it is reachable many ways: any high-fibre food, or a fibre
+supplement, gets you there. The property that carries the benefit is **total
+fibre**, not how many different foods you eat -> [[Dietary Fibre and Health]].
+Eating a range of foods loosely helps cover micronutrient needs, but that is a
+whole-diet adequacy heuristic, not a requirement — and a single high-fibre
+food already reaches the fibre target on its own.
 
-Beans, lentils and peas are the plant food the evidence most conspicuously fails to resolve. The one
-quantified claim the literature supplies is a surrogate: a cardiology guideline states that a daily
-portion of pulses lowers LDL cholesterol by about 0.2 mmol/L and associates with lower coronary risk
-[@esc2021]. That is a cholesterol number and a bare
-association -- no hard-outcome magnitude behind it.
+**Cutting free sugars — sugary drinks above all — is the other.** It is the
+one carbohydrate exposure with an evidenced harm, and it is a different lever
+from anything on the plant-food plate.
 
-Where pulses were measured directly, the estimates were null but nearly uninformative. SACN's legume-
-fibre increment spans only about 1 g/day of intake against 7 g/day for total fibre, so a flat result
-across that narrow slice is low-powered, not evidence of no effect
-[inferred from @sacn2015].
-Roughly fourteen legume outcome questions sit in SACN's *insufficient
-evidence* tables. **The honest state is a gap: the wiki cannot say what pulses do to hard outcomes at
-the intakes someone would actually eat** -> [[Whole Grains Refined Grains and Pulses]].
+**Do not read a burden ranking as a large personal effect.** GBD ranks low
+whole-grain intake the #1 dietary risk factor for DALYs worldwide — 82 million
+DALYs, about 3 million deaths [@afshin2019].
+That rank is about **prevalence, not per-person gain.** A near-universal
+shortfall (the global mean intake is 23% of optimal) multiplied by a modest
+observational risk ratio puts whole grains at the top. Almost everyone falls
+short, so a small individual effect sums to a large population burden. The rank
+tells you where a population is losing years, not how many you personally stand
+to gain -> [[Whole Grains Refined Grains and Pulses]].
 
-Pulses are also a protein source, and here the trade-off is real but narrow. On the standard quality
-metric, plant proteins score low because their limiting amino acid and lower digestibility cap them:
-DIAAS is 40 for wheat and 64 for peas against 122 for milk
-[@fao2013]. This is a surrogate --
-it predicts how well a protein *could* meet amino-acid demand, and no evidence here shows that a
-higher score changes muscle, function or mortality for someone already meeting their protein needs
-from a mixed diet -> [[Surrogate Outcomes]], [[Protein Quality and the DIAAS Score]]. It bites only
-below adequacy, and complementation (cereal plus legume) closes much of the gap.
+**Two other axes ride along, and this appraisal stops at naming them.** Cost
+and environmental load both shift when you move toward whole plant foods. But
+the wiki holds no price or carbon data and never nets them against the health
+finding. The trade-off exists; weighing it is yours.
 
-## Fruit and vegetables help, and then the benefit levels off
+## What to do
 
-Fruit and vegetables carry a real signal, with an instructive shape. A cardiology guideline reports a
-«4% lower risk in CV mortality for each additional serving of fruits»
-[@esc2021], but for total mortality the benefit
-stops climbing: «all-cause mortality was not reduced further with intakes of more than five servings»
-[@esc2021]. The shape is outcome-specific -- a
-gradient for cardiovascular death, a plateau for all-cause death -- which is why *more is always
-better* is the wrong summary and why any apparent optimum needs checking against artifact before it is
-believed -> [[The U-Shaped Association Artifact]].
+**Pull two levers.** Get fibre up toward \~30 g/day — by any route, a high-fibre
+food or a supplement — and cut sugary drinks. Where a food comes in whole and
+processed forms, prefer the whole one: tinned fruit tracks higher
+cardiovascular risk, and fruit juice reads inside the free-sugar exposure on
+the metabolic side -> [[Free Sugars Intake]].
 
-The practical targets are modest. The same guideline recommends «>=200 g of fruit per day» and the
-same for vegetables [@esc2021], with stroke
-risk «11% lower ... associated with three to five daily servings ... and of 26% with five servings a
-day compared with fewer than three servings»
-[@esc2021]. These are guideline summaries of pooled
-observational data, not clean trials.
+**Drop two worries.** Antinutrients in properly cooked food carry no meaningful
+net harm for a well-nourished person. Neither does the sugar in whole fruit —
+it arrives matrix-packaged, not as a free-sugar bolus.
 
-**A named gap sits here.** The wiki does not hold the dedicated fruit-and-vegetable-to-mortality
-dose-response review that would settle the per-serving magnitude and the plateau independently -- only
-these guideline fragments. Do not read the absence of a per-food ranking as a verdict that all
-vegetables are equal; read it as a question the held evidence cannot answer
--> [[Whole Grains Refined Grains and Pulses]].
-
-## The evidence rarely resolves to a single best plant food
-
-The recurring reason the per-food ranking will not come is structural, and it is worth naming on its
-own. Most *eat more X* findings come from observed patterns -- people who eat more of a food are
-healthier -- and a healthy population is not evidence for any one of its parts
--> [[Is the Food Category Doing Any Work]]. When a food category is a wide mix (all vegetables, all
-grains), the differences within it can swamp the differences between it and the next category, so the
-category-level number describes no actual food.
-
-Sometimes the boundary carries nothing, and finding that out is the result: refined versus whole grain
-came back «RR 1.00» on hard outcomes, telling you to stop treating grain refinement as the decision
-variable and steer by fibre instead. Sometimes the mechanism lives in a sub-part -- cereal fibre
-inside *whole grain*, a limiting amino acid inside *plant protein* -- and the sub-part, not the label,
-is what to act on. **Choose for the property you believe is active (fibre, variety, minimally
-processed), and accept that the evidence is genuinely silent on a finer ranking.**
-
-## The sugar in whole fruit is not the sugar the guidelines warn about
-
-The sugar warnings people know -- keep free sugars under 10% of energy -- are built to protect against
-tooth decay, and by design **they exclude the sugar in whole fruit**. WHO's free-sugars definition
-covers sugars «added to foods and beverages» plus those in honey, syrups, «fruit juices and fruit
-juice concentrates», while sugars «incorporated within the structure of intact fruit and vegetables»
-are left out [@who2015]. Fruit juice is in; whole fruit is
-out. So a fruit's sugar-to-fibre ratio is not the decision variable the label implies.
-
-Even for body weight, the sugar effect is an energy effect, not a sugar-specific one. Swapping free
-sugars for other carbohydrate at equal calories moved weight by 0.04 kg (-0.04 to 0.13) -- a null --
-and WHO concludes «The excess body weight associated with free sugars intake results from excess
-energy intake» [@who2015]. Where sugar clearly does harm is
-in **drinks**: each extra 250 mL/day of sugar-sweetened beverage tracks higher type 2 diabetes «1.19
-(1.13-1.25)», obesity «1.12 (1.05-1.19)» and hypertension «1.10 (1.06-1.14)»
-[@qin2020]. That
-is the same energy story -- liquid calories, poorly compensated -- extended past body weight.
-
-**The decision-relevant lever is cutting sugary drinks and juice, not avoiding whole fruit.** Whole
-fruit delivers a modest sugar dose inside a fibre matrix that slows absorption; the fructose concern
-that attaches to a large free-fructose bolus does not transfer to an apple
--> [[Free Sugars Intake]]. But a named gap sits here: the wiki holds no per-specific-fruit or
-glycaemic-load-to-outcome source, so *which* fruits — ranked by their sugar-to-fibre profile against a
-patient-important outcome — is unanswered; "enjoy whole fruit freely" is a group-level verdict, not a
-fruit-by-fruit one.
-
-## Antinutrients are mostly cooked away, with a few real exceptions
-
-The compounds that get plant foods labelled *toxic* online -- lectins, phytates, tannins, oxalates,
-goitrogens, phytoestrogens -- are real, but the alarm is largely mis-scaled. Most of the frightening
-findings come from isolated compounds fed to animals, often raw or at extreme doses. As the review
-puts it, «Harmful (and even beneficial) effects of an individual, isolated compound or phytochemical
-are often quite different than when the same compound is within the complex food matrix»
-[@petroski2020]. Ordinary preparation --
-soaking, sprouting, fermenting, cooking -- reduces every class, and billions eat prepared legumes and
-grains daily without the predicted harm showing up.
-
-One preparation step is genuinely mandatory, not optional. For the highest-lectin legumes, «boiling or
-autoclaving is required to eliminate lectins, as reduced cooking temperatures do not significantly
-affect lectin content» [@petroski2020]. Raw
-or undercooked kidney beans have caused documented poisonings; a slow-cooker on low is not enough.
-
-
-The honest verdict keeps a short list of people who should still take care -- these are contraindications
-firing in a named group, not a general warning. Someone with low iron stores, «especially females»,
-is advised to keep tannin-rich tea between meals rather than with them
-[@petroski2020]. Recurrent kidney-stone
-formers watch oxalate load; people with marginal iodine watch raw goitrogenic greens; infants are the
-stratum for phytoestrogens. For everyone else, **properly prepared plant foods in a varied diet carry
-no meaningful net antinutrient harm** -> [[Antinutrients in Plant Foods]],
-[[Deficiency Repletion vs Enhancement]].
-
-## For an already-varied diet, this is a small lever
-
-Where does plant-food choice sit among the things worth changing? For someone lean, active, non-smoking
-and already eating varied whole foods, the large levers are pulled, and fine-tuning plant foods is a
-refinement with small, uncertain returns. That ceiling is not a failure to find something -- it is a
-result, and it licenses you to stop optimizing -> [[Layer 1 - Ranking Interventions for a Stratum]].
-
-
-The exception is the low end. A diet genuinely short on fibre and whole grains has real room to gain,
-and that is the one place the plant-food evidence supports a firm push. The attention these foods get
-online runs inversely to their marginal effect for someone already doing the basics: the loud debates
-are about small, contested differences, while the settled, larger point -- eat enough fibre-rich
-plants, in variety -- is boring and rarely argued.
-
-## The bottom line
-
-- **Aim for 25-30 g of fibre a day from a variety of foods** -- whole grains, legumes, fruit and
-  vegetables. This is the one plant-food lever that shows up in trials, and there is no evidence of a
-  point past which it stops helping.
-- **Steer by fibre and variety, not by *whole grain* as a word.** Refined grain was not found harmful;
-  whole grain's benefit runs through its fibre. At high energy needs, some refined grain is fine.
-- **Eat pulses if you like them, and do not expect the evidence to prove a hard-outcome benefit** -- it
-  is a genuine gap. As a protein source they are lower-quality but adequate in a mixed or complemented
-  diet.
-- **Get fruit and vegetables to roughly 200 g each per day; more is fine but the extra mortality
-  benefit flattens.** No specific *best vegetable* is established.
-- **Enjoy whole fruit freely; cut sugary drinks and juice.** The sugar warning is about beverages, not
-  intact fruit.
-- **Cook your beans properly and otherwise ignore the antinutrient scare** -- unless you are in a named
-  group (low iron, kidney stones, marginal iodine, infancy), where a specific, small precaution applies.
-- **If you already eat this way, treat the rest as fine-tuning.** The big gains sit at the low-fibre
-  end, not in choosing between wholesome plant foods.
-
-## What this appraisal cannot tell you
-
-- **This appraises evidence; it does not prescribe.** It cannot select foods for your labs,
-  medications or conditions, and adequacy or screening calls -- oxalate with a stone history,
-  goitrogens with iodine deficiency -- are clinician decisions, out of scope.
-- **The estimates are stratum-level, not personal.** They place you in the narrowest reference class
-  the evidence supports; how you differ from it is a layer-3 judgment. Personalize beyond the
-  population estimate only on positive evidence, not on mechanism alone.
-- **The loop is open.** Nothing here has been checked against your realized outcome. The reasoning can
-  be internally sound and faithful to its sources and still be wrong about the world; most of the
-  strong-looking numbers are observational, with healthy-eater confounding and dietary measurement
-  error that biases real gradients toward the null -> [[Measurement Error in Dietary Assessment]].
-- **The antinutrient reassurance is mechanism, not a measured null.** Per-class human-outcome evidence
-  for any single antinutrient at realistic intake barely exists; the *net-harmless* reading rests on
-  preparation mechanics and a narrative review, so it is a structural gap filled by plausibility rather
-  than a trialled null -> [[Antinutrients in Plant Foods]].
-- **This is the health axis only.** Cost, environment and food access ride along with these choices;
-  they are named where they exist but never priced into the health verdict. That weighting is yours.
+**Two questions stay open.** The evidence cannot rank individual fruits or
+vegetables against each other on outcomes; the per-food data are too thin. And
+what pulses do to cardiometabolic outcomes, beyond lowering the LDL surrogate,
+is not yet known.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 14 sources — 9 gold, 3 high, 2 moderate |
+> | **Evidence included** | 11 sources — 7 gold, 2 high, 1 moderate, 1 methods reference (Willett, tier-exempt) |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
 
 ## References

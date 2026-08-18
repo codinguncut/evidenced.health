@@ -3,12 +3,12 @@ type: deliverable
 title: Sleep
 question: 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?'
 aliases: [Sleep Duration, Sleep and Health, Sleep Regularity, Sleep Aids, Insomnia Treatment, How Much Sleep, Sleeping Pills, CBT-I Deliverable, Melatonin Deliverable]
-authors: [Cappuccio, Francesco P; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Livingston, Gill]
-sources: [Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Livingston - Dementia Prevention 2024]
+authors: [Cappuccio, Francesco P; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Livingston, Gill; Yin, Jiawei]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-18
+self_critiqued: 2026-08-18
 ---
 
 Sleep matters, but *how much sleep is healthy?* is really several different decisions wearing one
@@ -99,12 +99,22 @@ itself compelling. The number points which way to move; it does not certify how 
 It also does not certify *where* the risk sits. Cappuccio's short-sleep category is **pooled and flat**
 across its definitional cutoffs — <=5 h, <=6 h and <=7 h behave alike (heterogeneity **P=0.89**), so 1.12
 is the *pooled* short-sleep figure, not a per-hour dose.
-[@cappuccio2010] That leaves a real gap: **6-7 h is
-not resolved from chronic <5 h** in the held mortality evidence — no per-hour or spline curve separates
-them. The risk most plausibly *concentrates* at chronic short sleep, and the source reads it that way,
-calling «consistently sleeping 6 to 8 h per night» optimal while flagging «5 hours or less per night» as
-the higher-risk group. [@cappuccio2010] So the
-lower bound is more honestly *around 6 h* than a hard 7.
+[@cappuccio2010] Yin 2017 **now resolves that band.**
+Its dose-response meta-analysis (67 articles, 3.58 M participants, restricted-cubic-spline, 7 h reference)
+found «U-shaped associations... with the lowest risk observed for 7-hour sleep duration», and per hour
+«when sleep duration was <7 hours per day, the pooled relative risk (RR) was 1.06 (95% CI, 1.04-1.07) per
+1-hour reduction; when sleep duration was >7 hours per day, the pooled RR was 1.13 (95% CI, 1.11-1.15) per
+1-hour increment». [@yin2017]
+
+On Yin's spline the short-arm penalty **concentrates at chronic short sleep** — barely above the 7 h nadir
+at 6 h (\~1.01) and 5 h (\~1.04), steepening only below \~5 h (\~1.08 at 4 h, \~1.12 at 3 h)
+[@yin2017] — so Cappuccio's *pooled* 1.12 is
+driven by the sub-5 h studies, not the 6-7 h band. That cashes the concentration reading Cappuccio only
+gestured at, calling «consistently sleeping 6 to 8 h per night» optimal.
+[@cappuccio2010] So the lower bound is more honestly
+*around 6 h* than a hard 7 — but Yin resolves the *shape*, not measurement: its exposure too is
+«self-reported by questionnaire or interview», and the steep, mechanism-less long arm (RR 1.13 per hour)
+stays an unadjudicated artifact. [@yin2017]
 
 At the upper end there is **no evidenced harm to a healthy sleeper.** The long-sleep association is the
 reverse-causation artifact from the last two sections — it is not evidence that sleeping eight hours
@@ -265,8 +275,10 @@ recommendations.
   exercise-to-sleep meta-analysis is held; the upstream knobs above are candidate levers of unknown size.
 - **Chronotype and social jetlag.** No Mendelian-randomization or short-sleeper-variant review is held, so
   the genetics of "when" you sleep, and the cost of a weekday-weekend shift, are open.
-- **A per-hour mortality dose-response.** No held source resolves chronic <5 h from 6-7 h against all-cause
-  mortality (the pooled-and-flat gap above) — an ingest-queue target.
+- **An objective-measurement dose-response.** Yin 2017's per-hour spline now resolves the *shape* — the
+  short-arm penalty concentrates below \~5 h, closing the pooled-and-flat gap (above) — but its exposure is
+  still self-reported. A device-measured (actigraphy) duration-mortality curve, and a second guidance
+  family (e.g. AASM), remain open. [[Sleep Duration and Mortality]]
 
 ## The bottom line
 
@@ -298,9 +310,9 @@ recommendations.
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?' |
-> | **Evidence included** | 8 sources — 4 gold, 3 high, 1 moderate |
+> | **Evidence included** | 9 sources — 5 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+> | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
 
 ## References

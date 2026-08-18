@@ -1,7 +1,7 @@
 ---
 type: deliverable
-title: Sugar & SSBs
-aliases: [Sugar, Added Sugar, Free Sugars, Sugar-Sweetened Beverages, SSBs, Sugary Drinks, Fructose]
+title: Added Sugar
+aliases: [Added Sugar and Sugar-Sweetened Beverages, Sugar, Sugar & SSBs, Free Sugars, Sugar-Sweetened Beverages, SSBs, Sugary Drinks, Fructose]
 question: 'For an adult deciding how much added/free sugar and how many sugar-sweetened beverages to consume: what is the effect on each patient-important outcome (dental caries, body weight, type-2 diabetes, cardiovascular disease, liver fat), what is the dose-response shape for each, does any effect persist when sugar is exchanged calorie-for-calorie with other carbohydrate, and are sugar-sweetened beverages a distinct exposure from sugar in solid food?'
 sources: [WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, Moynihan - Effect of Sugars on Dental Caries 2014, Te Morenga - Dietary Sugars and Body Weight 2013, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023]
 confidence: medium

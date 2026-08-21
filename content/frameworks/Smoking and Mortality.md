@@ -2,8 +2,8 @@
 type: framework
 question: How large is smoking's effect on mortality and life expectancy, and how much does cessation recover — as a function of the age at quitting?
 aliases: [Smoking, Smoking Cessation, Tobacco and Mortality, Quitting Smoking, Cessation Benefits]
-authors: [Jha, Prabhat; Peto, Richard; Thun, Michael; Livingston, Gill]
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024]
+authors: [Jha, Prabhat; Peto, Richard; Thun, Michael; Livingston, Gill; Sun, Yi-Qian]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024, Sun - BMI Mortality Mendelian Randomization]
 cluster: smoking
 nucleus: true
 confidence: high
@@ -15,7 +15,7 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-08-06
+updated: 2026-08-19
 self_critiqued: 2026-07-29
 ---
 
@@ -87,6 +87,20 @@ survives the conservative handling.
 
 
 [@jha2013]
+## Smoking as an effect-modifier of OTHER exposure curves — the BMI-mortality J `[2026-08-19, Sun]`
+
+Smoking is not only the #1 big-rock mortality exposure; it is a confounder/effect-modifier that
+*shapes* another exposure's dose-response. Sun 2019's Mendelian randomization (HUNT + UK Biobank) shows
+the BMI-mortality relation «is likely comprised of at least two distinct curves, rather than one J
+shaped relation» — always-increasing in never-smokers, J in ever-smokers — and «An increased risk of
+mortality for being underweight was only evident in ever smokers»
+[@sun2019], plausibly because
+«Increased mortality in underweight smokers might be driven by respiratory diseases»
+[@sun2019]. Decision consequence:
+the *underweight is dangerous* reading of the BMI curve is, causally, largely a **smoking** signal —
+condition on smoking before reading any BMI-mortality curve
+-> [[BMI and All-Cause Mortality]], [[The U-Shaped Association Artifact]].
+
 ## Second outcome — dementia (a further reason the lever is large)
 
 Smoking is also one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]]. The 2024 Lancet Commission reclassified it from a late-life to a **midlife** risk factor: a

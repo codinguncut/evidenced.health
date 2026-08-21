@@ -7,8 +7,8 @@ sources: [Windred - Sleep Regularity Mortality 2023]
 cluster: sleep
 confidence: low
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Sleep Duration and Mortality
@@ -70,6 +70,19 @@ family from the short-sleep leptin/ghrelin/glucose story on [[Sleep and Metaboli
 not, robust in the cancer-free) fits a circadian-oncogenesis pathway. Held **directionally**, marked as
 mechanism: the study is correlational and cannot fix causation.
 [inferred from @windred2023]
+
+**Experimental-animal backing for the circadian-oncogenesis mechanism — directional, and NOT
+independent corroboration.** The circadian-disruption route Windred proposes has experimental-animal
+support: IARC's Monographs Working Group rested its Group-2A shift-work classification partly on
+sufficient animal evidence for carcinogenicity of light during the biological night, via melatonin
+suppression and clock-gene deregulation -> [[Night Shift Work and Breast Cancer]] (where that evidence
+is held and quoted). This is deliberately NOT logged as type-E independent backing: a human
+circadian-epidemiology account and the experimental circadian-oncology literature draw on the same
+antecedent mechanism base, so their agreement is a shared root, not two separately-arrived routes (the
+laundered-E trap — independence was asserted, never verified). Held as *directional mechanism* only, and
+its realized potency on a patient-important human outcome is bounded low: the best-powered human test of
+this route (night shift work -> breast cancer) is a well-powered NULL.
+
 
 ## Decision relevance
 

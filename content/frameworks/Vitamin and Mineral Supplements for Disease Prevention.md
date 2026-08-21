@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -20,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
 created: 2026-07-30
-updated: 2026-08-07
-self_critiqued: 2026-08-08
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -186,6 +186,17 @@ after supplement ingestion ... rather than ... the total calcium load ingested»
 dietary/dairy calcium -> [[Is the Food Category Doing Any Work]]. This CV harm plus the kidney-stone harm are
 the net-effect counterweights on the D+Ca fracture benefit, worked by stratum on
 [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
+
+**A second pooled MA firms the CV-harm direction — Myung 2021 (`high`, type-F).** A later meta-analysis of
+13 double-blind placebo-controlled RCTs (28,935 participants) took the CV endpoints as **pre-specified
+primary outcomes** and reproduced Bolland's harm almost exactly: CVD composite RR 1.15 (1.06-1.25), CHD RR
+1.16 (1.05-1.28), MI RR 1.25 (1.07-1.45), each I2=0% — calcium «signiﬁcantly increased the risks of CVD»
+[@myung2021] — with the signal **concentrated in the
+low-risk-of-bias trials** (the opposite of an artifact pattern) and **stroke null** (1.13, 0.97-1.31). It is
+**not an independent witness**: Myung re-pools Bolland's trials and used Bolland's unpublished trial data,
+so it firms the direction (type-F) without an `[E-independent]` lift, and the composite significance still
+leans on the WHI reanalysis (leave-one-out) [inferred from @myung2021; @bolland2011]. The full net-effect
+appraisal by stratum lives on [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
 
 **The primary trial behind the pooled figure — CARET, stopped early for harm.** The pooled RR rests on
 actual trials, chief among them **CARET**, which randomized 18,314 smokers and asbestos-exposed workers

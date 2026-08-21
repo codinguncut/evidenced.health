@@ -2,8 +2,8 @@
 type: framework
 question: In people with prediabetes, does an intensive lifestyle program or metformin better prevent progression to type 2 diabetes?
 aliases: [Diabetes Prevention Program, DPP, Metformin for Diabetes Prevention, Preventing Type 2 Diabetes, Prediabetes Intervention, Lifestyle vs Drug for Diabetes Prevention]
-authors: [Diabetes Prevention Program Research Group (org); Knowler, William C]
-sources: [Knowler - Diabetes Prevention Program DPP 2002]
+authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P]
+sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022]
 cluster: t2d-prevention
 nucleus: true
 confidence: medium
@@ -15,8 +15,8 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-07
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 ---
 
 The Diabetes Prevention Program (DPP) is the landmark head-to-head: in people with prediabetes, it
@@ -122,12 +122,60 @@ paper is explicit that the downstream question is unanswered here and belongs to
 > cause of death among patients with type 2 diabetes.»
 > [@knowler2002]
 
-So the honest claim is: **preventing/delaying the *diagnosis* of diabetes is demonstrated; that this
-translates into fewer heart attacks, less nephropathy, or longer life is a separate claim not established
-by DPP** — it depends on «whether the maintenance of these lower levels improved the long-term outcome».
-That is the DPP Outcomes Study (DPPOS) long-term follow-up, not held here [AWAITS (Goldberg - DPPOS Cardiovascular Events 2022) — whether preventing incident diabetes reduces hard CV/microvascular/mortality endpoints]. Diabetes-incidence
-prevention sits one rung below a hard outcome on the [[Surrogate Outcomes]] ladder, and the page must not
-let the incidence win stand in for a mortality win.
+So the honest claim from DPP alone was: **preventing/delaying the *diagnosis* of diabetes is demonstrated;
+that this translates into fewer heart attacks, less nephropathy, or longer life is a separate claim not
+established by DPP** — it depends on «whether the maintenance of these lower levels improved the long-term
+outcome». That downstream question is **now answered** by the DPP Outcomes Study (DPPOS) — see below.
+Diabetes-incidence prevention sits one rung below a hard outcome on the [[Surrogate Outcomes]] ladder, and
+DPPOS shows why the page was right not to let the incidence win stand in for a mortality win.
+
+## DPPOS — the hard-outcome answer: diabetes prevention did NOT reduce CV events over 21 years
+
+[@goldberg2022]
+
+DPPOS followed the same three arms a median **21 years** for adjudicated cardiovascular events. The result
+is **null on the hard endpoint**: «Neither metformin nor lifestyle intervention reduced the primary
+outcome: metformin versus placebo hazard ratio 1.03 (95% CI, 0.78–1.37; P = 0.81) and lifestyle versus
+placebo hazard ratio 1.14 (95% CI, 0.87–1.50; P = 0.34).» The point estimates trend the *wrong* way for
+lifestyle, and «No effect of either intervention was seen on the extended cardiovascular outcome».
+
+Effect estimates (primary MACE = nonfatal MI, nonfatal stroke, or CV death; 310 first events among 3234;
+studied range = a middle-aged, ethnically diverse prediabetes cohort, 21-yr median follow-up):
+
+| Arm vs placebo | HR (95% CI) | P | Event rate /1000py (plac/arm) |
+|---|---|---|---|
+| Metformin — MACE | 1.03 (0.78–1.37) | 0.81 | 5.28 / 5.51 |
+| Lifestyle — MACE | 1.14 (0.87–1.50) | 0.34 | 5.28 / 6.10 |
+| Metformin — extended CV | 1.00 (0.80–1.25) | 0.99 | 8.73 / 8.86 |
+| Lifestyle — extended CV | 1.12 (0.90–1.39) | 0.29 | 8.73 / 9.93 |
+
+Prespecified subgroups «showed no significant heterogeneity by age, sex, race/ ethnicity, or diabetes
+development for either metformin or lifestyle» — so this is **not** a route-(b) story on the CV outcome
+(contrast the metformin route-(b) modification on the *diabetes-incidence* outcome above — the effect
+modification was outcome-specific, present for incidence, absent for events). The discussion flags one
+borderline exploratory signal — a sex difference for lifestyle (P=0.053, «potentially harmful in women yet
+somewhat protective in men») — which the authors themselves treat as possibly «the result of a play of
+chance», not a finding.
+
+**This is a bounded null, not a demonstration of no effect.** The paper attributes the dilution
+explicitly: «Provision of group lifestyle intervention to all, extensive out-of-study use of statin and
+antihypertensive agents, and reduction in the use of study metformin together with out-of-study metformin
+use over time may have diluted the effects of the interventions.» Study metformin adherence fell «from 77%
+at the end of DPP to 41%»; statins reached 56–62% and antihypertensives 68–74%; «This was therefore a
+relatively low-risk cohort from the standpoint of the prevention of CVD.»
+
+The baseline-risk reading (route-(a), no subgroup claim needed): a longer 30-year Da Qing follow-up *did*
+show a lifestyle MACE benefit, «hazard ratio 0.74 [95% CI, 0.59–0.92]», but «the Da Qing cohort was a
+higher-risk population» (more smokers, more hypertension, worse hyperglycemia, higher event rate). Absolute
+CV benefit scales with baseline risk, so a low-risk cohort has little absolute risk to remove and even a
+real relative effect is hard to detect — the [[Baseline Risk and the Relative-Absolute Split]] point.
+[inferred from @goldberg2022]
+
+**Decision-change:** the diabetes-incidence win is real but does **not** license claiming a hard-CV or
+mortality benefit from diabetes prevention in a *low-risk* prediabetes stratum over two decades. Where CV
+risk is the concern in such a stratum, the demonstrated levers are the direct ones (statin / BP control —
+heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
+longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
 
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 

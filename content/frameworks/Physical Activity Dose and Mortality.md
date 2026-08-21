@@ -2,8 +2,8 @@
 type: framework
 question: How much physical activity, of what kind, do I need before the mortality benefit flattens?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018]
+authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -18,8 +18,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-27
-updated: 2026-08-18
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -74,6 +74,45 @@ bank the mortality benefit and, in men, may carry cardiovascular risk. The causa
 unadjudicated (observational, self-reported exposure, healthy-worker selection), so this is a
 stratum-level caveat on transferability, not a claim that work activity should be reduced.
 
+
+### Active commuting — a third route to the benefit, and the intensity refinement `[2026-08-19, Celis-Morales]`
+
+**A structural PA lever that corroborates the more-PA-lower-mortality reading from a route neither
+leisure nor occupational.** Celis-Morales 2017 (UK Biobank, 263,540 workers, maximally adjusted incl.
+occupational PA and some leisure PA) finds cycle-commuting associated with **HR 0.59 (0.42-0.83)** for
+all-cause mortality, 0.55 (0.44-0.69) cancer incidence, 0.60 (0.40-0.90) cancer mortality, vs
+non-active commuting
+[@celismorales2017commuting].
+This is a **refinement (type-F), not independent corroboration (type-E)**: UK Biobank
+overlaps the accelerometry/harmonised cohorts this page already rests on, so it is the *same
+observational PA-epidemiology lineage*, not a separate route — it bounds and extends the leisure-PA
+reading, it does not raise its confidence as an independent instrument would.
+
+**The refinement: intensity separates the modes, on exactly the CRF axis.** Cycling benefits all five
+outcomes with a dose-response by weekly distance; walking commuting is null for all-cause and cancer
+mortality and lowers CVD risk only above «more than six miles a week»
+[@celismorales2017commuting]. The
+authors attribute the gap to intensity — «approximately 90% of cycle commuters ... achieved current
+physical activity guidelines, only 54% of walk- ing commuters» did
+[@celismorales2017commuting]. So the
+mode that reaches a CRF-improving stimulus banks the broad benefit; the sub-threshold mode does not —
+consistent with the objectively-measured *fitness* signal above -> [[Cardiorespiratory Fitness and Mortality]]
+and with the domain split on [[The Physical Activity Paradox]].
+
+**Decision-change (structural leverage):** commuting active — especially cycling — is a way to bank
+the mortality benefit *built into the day*, so adherence is high; but treat walking-commuting as a
+lower-intensity dose that may not reach the plateau this page's leisure estimates describe. **Caveat:**
+observational, self-reported mode, and cyclists are markedly leaner/fitter/wealthier at baseline
+(healthy-user selection) — a robust association, not a proven causal offset
+-> [[Upgrading Observational Evidence]].
+[inferred from @celismorales2017commuting]
+
+*Self-critique `[run 2026-08-19]`:* the commuting arm is classed **type-F, not `[E-independent]`** —
+UK Biobank shares the observational PA-epidemiology lineage this page rests on, so it does not add an
+independent instrument and no `[E-independent]` token is claimed. The benefit is stated as an
+*association* with the healthy-user caveat explicit (cyclists leaner/fitter/wealthier at baseline);
+walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
+HRs stay Celis-Morales's, the third-route framing is.
 
 ## Where the curve bends — named maxima, device-measured
 

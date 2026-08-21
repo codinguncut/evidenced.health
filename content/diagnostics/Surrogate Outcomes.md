@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao]
-sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -19,10 +19,12 @@ relationships:
     - Inflammation as a Modifiable Lever
     - Allostatic Load and Mortality
     - Insulin Resistance Surrogates and Cardiovascular Risk
+    - Lifestyle vs Metformin for Diabetes Prevention
+    - Baseline Risk and the Relative-Absolute Split
 created: 2026-07-25
-updated: 2026-08-18
+updated: 2026-08-20
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
-self_critiqued: 2026-08-18
+self_critiqued: 2026-08-20
 ---
 
 ## Why it matters
@@ -689,6 +691,33 @@ a worse/noisier predictor is still a **predictor**, not a validated **target** �
 observational, and no RCT shows raising muscle mass reduces mortality. Predictor, not target: the same
 line this page holds for every moved marker -> [[Low Muscle Mass and Mortality]].
 
+## A within-study surrogate ladder — mass moved, strength did not (leucine in the elderly) `[2026-08-19, Komar]`
+
+The muscle cases above are *prognostic* markers (mass, strength as predictors). Komar 2015 is the
+*interventional* version on the same tissue, and it lays the surrogate ladder bare within one gold
+SR+MA (16 RCTs, 999 elderly, chronic leucine-rich protein 2-7.8 g/d). The rationale chain is acute
+muscle-protein-synthesis -> lean mass -> strength/function; Komar tests how far up the chain a chronic
+supplement actually reaches:
+
+- **The mass surrogate moved** — lean body mass +0.99 kg [95% CI 0.43, 1.55; p=0.0005] (confined to the
+  sarcopenic subgroup, +1.14 kg; null in healthy elderly).
+- **The closer-to-patient outcome did not** — «neither hand grip strength nor knee extension strength
+  were affected by leucine supplementation in a fashion significantly different from control
+  interventions» (grip WMD +0.23 [-0.26, 0.73], p=0.36, I2=65%; knee +0.07 Nm/kg [-0.26, 0.40], p=0.68)
+  [@komar2015].
+
+So the intervention transmitted to the *mass* surrogate but not to the *strength* endpoint one step
+closer to what a person values — a within-study instance of a marker moving while the outcome it stands
+in for does not. **Bound it (symmetric standards):** the strength arm is under-powered, not a clean null
+— Komar attributes it to «a small number of trials potentially insufficient to yield significant
+results», and broader-inclusion SRs did find grip gains, so strength sits at *insufficient evidence*
+rather than confident *no effect* (the grip I2=65% is a disperse null)
+[@komar2015]. Even the mass gain cannot isolate leucine
+from co-ingested protein/energy. The upstream acute-MPS mechanism is [[Anabolic Resistance]]; the
+mass->mortality prognostic link is [[Low Muscle Mass and Mortality]]; the intake target is
+[[Protein Intake for Older Adults]].
+[inferred from @komar2015]
+
 ## The inverse use — a surrogate NULL that rebuts a HARM mechanism `[2026-08-04, Johnson LA-inflammation]`
 
 Every case above uses a surrogate to argue *for* something (a benefit, a target) or asks whether a body
@@ -802,5 +831,41 @@ non-significance -> [[Linoleic Acid and Cardiovascular Disease]] (*The Sydney se
 The surrogate lesson survives the appraisal even where the harm claim does not: a dietary agent lowering
 cholesterol is **not** thereby shown to lower death.
 [inferred from @ramsden2013]
+
+## A disease DIAGNOSIS as the surrogate — diabetes prevention did not transmit to CV events (DPPOS) `[2026-08-20]`
+
+The Ramsden cases are *lab-marker* surrogates (serum cholesterol). DPPOS moves the disconnect one rung
+**up** the ladder: the endpoint standing in for hard outcomes is a whole **disease diagnosis** — incident
+type-2 diabetes — which the Diabetes Prevention Program's lifestyle and metformin arms durably prevented
+(58% / 31% relative reduction, sustained \~15 years -> [[Lifestyle vs Metformin for Diabetes Prevention]]).
+Over a **21-year** median follow-up, DPPOS asked whether preventing the diagnosis reduced hard
+cardiovascular events. It did not: «Neither metformin nor lifestyle reduced major cardiovascular events in
+DPPOS over 21 years despite long-term prevention of diabetes» — metformin vs placebo HR 1.03 (95% CI,
+0.78–1.37; P=0.81), lifestyle vs placebo HR 1.14 (95% CI, 0.87–1.50; P=0.34), both null and both trending
+the *wrong* way for lifestyle, with «No effect of either intervention ... on the extended cardiovascular
+outcome» either.
+[@goldberg2022]
+
+**Why this grade of disconnect earns its place beside the lab-marker cases.** A disease diagnosis is a
+*better* surrogate than a serum marker — it is nearer the patient-important endpoint (diabetes is itself
+morbidity, and DPP named CVD as «the leading cause of death among patients with type 2 diabetes»). That a
+surrogate this good still failed to transmit over two decades is the lesson: **proximity to the outcome
+does not guarantee transmission** — a diagnosis-level surrogate can disconnect exactly as a lab marker can.
+[inferred from @goldberg2022]
+
+**But this null is BOUNDED — weaker-graded than the clean MCE disconnect.** MCE's null was double-blind
+with no comparable dilution; DPPOS's is confounded three ways the authors name: «Provision of group
+lifestyle intervention to all, extensive out-of-study use of statin and antihypertensive agents, and
+reduction in the use of study metformin together with out-of-study metformin use over time may have diluted
+the effects», in what was «a relatively low-risk cohort from the standpoint of the prevention of CVD»
+(statins 56–62%, antihypertensives 68–74%, mild hyperglycemia at 21y).
+[@goldberg2022] A longer 30-year Da Qing follow-up in a
+*higher-risk* cohort *did* show a lifestyle MACE benefit (HR 0.74 [0.59–0.92]). So DPPOS does **not**
+establish "diabetes prevention has no CV benefit"; it establishes that the diagnosis->events link is **not
+automatic** and is undetectable in a low-risk stratum over 21 years — a transmission that may be
+present-but-undetectable rather than absent, the baseline-risk reading worked on
+[[Baseline Risk and the Relative-Absolute Split]]. Banked as a disconnect instance carrying its own dilution
+caveat, not a clean randomized null.
+[inferred from @goldberg2022]
 
 ## References

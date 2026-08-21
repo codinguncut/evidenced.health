@@ -2,13 +2,13 @@
 type: framework
 question: Does eating eggs (and the dietary cholesterol they carry) change cardiovascular risk — for whom, in which direction, and how large?
 aliases: [Eggs and Cardiovascular Disease, Dietary Cholesterol and CVD, Egg Consumption CVD, Are Eggs Bad for the Heart, Egg Cholesterol Heart]
-authors: [Godos, Justyna; Micek, Agnieszka; Brzostek, Tomasz; Toledo, Estefania; Iacoviello, Licia; Astrup, Arne; Franco, Oscar H; Galvano, Fabio; Martinez-Gonzalez, Miguel A; Grosso, Giuseppe]
-sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020]
+authors: [Godos, Justyna; Micek, Agnieszka; Brzostek, Tomasz; Toledo, Estefania; Iacoviello, Licia; Astrup, Arne; Franco, Oscar H; Galvano, Fabio; Martinez-Gonzalez, Miguel A; Grosso, Giuseppe; Ma, Wancheng; Zhang, Yanyan; Pan, Li; Wang, Sijia; Xie, Kui; Deng, Shan; Wang, Rui; Guo, Chunjiang; Qin, Pei; Wu, Xiaoyan; Wu, Yuying; Zhao, Yang; Feng, Yifei; Hu, Fulan]
+sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality]
 cluster: lipids
 confidence: low
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 relationships:
   related_to:
     - LDL ApoB and Cumulative Exposure
@@ -30,6 +30,17 @@ the largest dose-response MA to date (39 prospective cohort studies over 38 coho
 point estimate sits within a few percent of 1.00 with confidence intervals kissing the null, and the
 whole body is GRADE **low** certainty. This is a *big-worry, small-effect* case — a Layer-1 finding that
 the egg question ranks LOW and that the attention it attracts is an anti-signal, not a magnitude.
+
+**Refinement from a second gold MA (Ma 2022, mortality endpoints).** The de-escalator holds for CVD /
+CHD / stroke *incidence*, but Ma 2022 — a dose-response MA restricted to **mortality** — finds a small
+but statistically-significant **all-cause-mortality** slope (per 1-egg/d RR 1.06, 1.02-1.10 — a
+*general-population* continuous estimate) that Godos's incidence-weighted read did not surface, though the
+categorical high-vs-low contrast is null (1.04, 0.99-1.09) and subgroup significance is restricted to
+women · Americans · hyperlipidemia-adjusted studies · age >60 · long follow-up. Ma lands on a more
+cautionary author verdict. It **shares most of Godos's cohorts**, so it is not an independent
+witness — a **type-F** refinement plus a **type-D** headline friction, not a confidence-lifting
+corroboration. Details, parameter table, and pool-overlap check in *Second gold MA — mortality endpoints*
+below.
 
 ## The effect estimates — near-null, outcome-specific shape [@godos2020]
 
@@ -82,6 +93,78 @@ the contrary was reported to potentially act as effect modifier toward the oppos
   conservative move is to treat eggs as a non-priority-but-watch item rather than a free food. For the
   non-diabetic general population, the reverse — no reason to restrict.
 
+## Second gold MA — mortality endpoints (Ma 2022) [@ma2022egg]
+
+Ma 2022 is a dose-response SR+MA of **24 observational cohort studies / 48 reports (\~11.9 M
+participants)** restricted to **mortality** outcomes (all-cause · CVD · IHD · stroke), modelled with
+restricted cubic splines. It was acquired as the second gold witness on this page. What it adds — and
+does not — turns entirely on the same-quantity and pool-overlap checks below.
+
+- **All-cause mortality (an outcome Godos's page did not hold):** highest-vs-lowest RR 1.04 (0.99-1.09,
+  NS), but the **per-1-egg/d slope is a significant 1.06 (1.02-1.10)**, «each 1-egg/d increment was
+  associated with a 5.6% higher risk of all-cause mortality», modelled **linear** (the P=0.008 is the
+  significance of the linear trend, a *different* test from the CVD «linear trend» P=0.867). The
+  continuous slope is significant **overall**; the categorical high-vs-low contrast is null (1.04,
+  0.99-1.09); subgroup significance is restricted to **women, Americans, and hyperlipidemia-adjusted
+  studies** (dose-response), and in the categorical analysis to age >60 (1.098), Americans (1.115),
+  follow-up >=15 y (1.067), hyperlipidemia-adjusted (1.088).
+- **CVD mortality:** per 1-egg/d **RR 1.00 (0.90-1.11), linear P=0.867 — null overall**, but the same
+  high-risk strata turn positive (>60 y 1.143; Americans 1.149; FU >=15 y 1.137; hyperlipidemia-adjusted
+  1.128). **IHD mortality** null (per 1-egg/d 1.01, 0.76-1.33). **Stroke mortality** null (0.90, 0.80-1.01,
+  P=0.080).
+- **Studied range / shape (carry both):** the exposure spans from **\~0.07/d** (lowest-category median) up
+  to a highest-category median that is **outcome-dependent — \~1.1/d (CVD) to \~1.5/d (stroke)**, with
+  all-cause \~1.23/d; every curve is modelled **linear over that range — no U/J and no protective lower
+  arm** on any mortality endpoint. The author verdict «it may be prudent to avoid high egg consumption»
+  extrapolates *above* the studied top (\~1.1-1.5/d depending on outcome), where there is little data — a
+  studied-range caution, not a located threshold.
+- **The hyperlipidemia-adjustment unmasking — a DIFFERENT structure from the diabetic reversal, not
+  the same one.** Ma found the all-cause signal appeared *after* adjusting for hyperlipidemia: «people
+  who have hyperlipidemia are likely to reduce their daily cholesterol consumption but still have a
+  higher risk of death» [@ma2022egg] — i.e. dyslipidemic
+  people cut eggs, which confounds the crude association *toward* the null; the adjustment removes that
+  downward confounding and **unmasks a general-population association** (Ma's own reading is reverse
+  causation / confounding, «a diagnosis of hyperlipidemia is likely to confound the association»
+  [@ma2022egg]). **This is NOT the same object
+  as Godos's diabetic reversal.** Godos's is a genuine *individual-level* subgroup (cohorts of diabetic
+  people, estimate reverses) — route-(b) effect modification. Ma's is a *study-level* covariate marker
+  (studies that statistically adjusted for hyperlipidemia), and Ma ran **no** individual-level
+  hyperlipidemia stratification — so its inference runs the *opposite* way (adjustment reveals a signal
+  for *everyone*, it does not locate a more-harmed stratum). They converge only loosely as a
+  **dysmetabolic *theme***, on shared cohorts — do not read them as one mechanism or as mutually
+  reinforcing effect-modification evidence.
+
+### Parameter table — Godos vs Ma (the same-quantity check)
+
+| Parameter | Godos 2020 | Ma 2022 | Same quantity? |
+|---|---|---|---|
+| Design | dose-response MA, 39 studies / 38 cohorts, \~2 M | dose-response MA, 24 studies / 48 reports, \~11.9 M | both obs-FFQ dose-response MA — **yes (class)** |
+| Included cohorts | NIH-AARP, PURE, CKB, Zhong's ARIC/MESA/FHS…, WHI, Moli-sani, EPIC-Spain, Guangzhou, NLCS, NIPPON… | **substantially overlapping** (NIH-AARP, PURE, CKB, **Zhong 2019**, WHI, Moli-sani, EPIC-Spain, Guangzhou, NLCS, NIPPON, Golestan, PHS…; Ma is mortality-only so carries some mortality-specific cohorts) | **NO — large overlap, not independent** |
+| Exposure contrast | per-egg vs no consumption; 4/wk, 1/day | per 1-egg/d; highest (\~1.1-1.5/d) vs lowest (\~0.07/d) | comparable per-egg — **yes** |
+| Primary outcome | CVD/CHD/stroke/HF **incidence + mortality** | all-cause / CVD / IHD / stroke **mortality only** | **NO — Godos pools incidence+mortality; Ma is mortality-only + adds all-cause** |
+| CVD estimate | CVD inc+mort SRR 0.95 (0.90-1.00) at 4/wk (slight dip) | CVD **mortality** per 1-egg/d 1.00 (0.90-1.11) (flat) | different endpoint; both near-null, opposite tiny tilt |
+| Dose-response shape | shallow **U/J** (CHD Pnonlin 0.042) | **linear**, no U/J (all outcomes) | **NO — nonlinear dip vs linear** |
+| Harm stratum | **diabetic** subgroup reverses (CVD 1.22) | **hyperlipidemia-adjusted / American / women / >60 / >=15 y** turn positive | convergent *theme* (dysmetabolic/high-risk), different modifier variables |
+| Certainty tool | GRADE (low; stroke moderate) | **NUQUEST** (67% neutral / 33% good); no GRADE | different instrument — not directly comparable |
+
+[inferred from @godos2020; @ma2022egg]
+**Verdict: type-F (+ embedded type-D), NOT independent-E.** The two MAs draw on **substantially the
+same cohorts** — Ma's Table 1 includes Zhong 2019, NIH-AARP, PURE, CKB, WHI, etc., which overlap Godos's
+pool (the overlap is *this page's* cross-source comparison, not a statement Ma makes about a prior MA) —
+so "two gold MAs agree" earns **no `[E-independent]` token and no confidence lift** — a RAG over one reproduces the
+other's near-null. Different bylines (Godos = Italian Grosso/Godos group; Ma = Shenzhen group) do **not**
+rescue independence when the underlying data are shared. What Ma legitimately contributes is
+**type-F refinement**: (i) a **new outcome** (all-cause mortality) with a small significant linear slope;
+(ii) a **mortality-only** read where Godos combined incidence+mortality; (iii) a **linear** shape that
+**undercuts** Godos's shallow protective dip (see *The U-shaped-arm read*); (iv) a **loosely convergent
+dysmetabolic *theme*** — though Ma's hyperlipidemia signal is a study-level confounding-adjustment marker,
+a *different* object from Godos's individual-level diabetic subgroup (see the unmasking note above), not a
+second effect-modification witness. Embedded in it is a **type-D friction**: Ma's
+«prudent to avoid high egg consumption» / «moderate egg intake» is more cautionary than Godos's «no
+conclusive evidence» and this page's de-escalator read — a friction driven mainly by the all-cause
+endpoint and stratum-concentrated signals, **not** a contradiction on general-population CVD (there the
+two agree: near-null). Held as a refinement, not filed as a standalone tension page.
+
 ## Why the "eggs are bad" scare is largely unsupported — dietary cholesterol is a weak serum-cholesterol lever
 
 [inferred from @godos2020] The scare rests on a broken
@@ -129,10 +212,14 @@ consumption (i.e., bacon)» as a confounder in the male heart-failure signal)
 - **GRADE low for all outcomes but stroke** (moderate, at no risk). All 39 studies scored moderate or
   serious risk of bias (ROBINS-I); heterogeneity was high and «rather unexplained»
   [@godos2020].
-- **The evidence is entirely observational FFQ cohorts** — so it estimates habitual self-reported egg
-  intake, carrying the domain's binding constraint, dietary measurement error
-  -> [[Measurement Error in Dietary Assessment]] — and the near-null dose-response inherits it (a real
-  gradient could be attenuated toward the null). Reverse causation is unaddressed: the authors concede
+- **Both MAs are entirely observational FFQ cohorts, and largely the SAME cohorts** — so they estimate
+  habitual self-reported egg intake, carrying the domain's binding constraint, dietary measurement error
+  -> [[Measurement Error in Dietary Assessment]] (Ma: «all egg consumption was self-reported via
+  questionnaires or interviews» [@ma2022egg]; 21/24 studies
+  used a single baseline FFQ) — and the near-null/flat dose-response inherits it (a real gradient could be
+  attenuated toward the null; a flat curve is weak evidence of no gradient). Ma graded with **NUQUEST**
+  (67% neutral, 33% good; no study poor), not GRADE, so no cross-MA certainty comparison is clean.
+  Reverse causation is unaddressed: the authors concede
   «potential reverse causation (i.e., change in dietary intake due to diagnosed medical condition or
   disease) ... [has] been not investigated»
   [@godos2020].
@@ -147,9 +234,9 @@ consumption (i.e., bacon)» as a confounder in the male heart-failure signal)
 The counter-pole is Zhong 2019 (JAMA), a pooled analysis of 6 US cohorts finding dietary cholesterol /
 egg **associated with increased** incident CVD and mortality, an effect the authors said was «mainly
 driven by dietary cholesterol» [@godos2020].
-Godos includes Zhong's cohorts in its pool and still lands near-null. Whether the divergence is a
-different-exposure / different-adjustment / measurement-error artifact is a **tension to adjudicate later**,
-not now. — the
+Godos includes Zhong's cohorts in its pool and still lands near-null. Whether the divergence
+is a different-exposure / different-adjustment / measurement-error artifact is a **tension to adjudicate
+later**, not now. — the
 contested-headline source that would let the tension be scored.
 
 ## The U-shaped-arm read
@@ -162,14 +249,35 @@ read (there is no protective claim to bank). Notably the outcome with a plausibl
 failure) shows a *monotone* curve and the diabetic stratum *reverses* — the shape is outcome- and
 stratum-specific, exactly the pattern the concept predicts.
 
+**Ma 2022 strengthens the "not established" read: the protective dip did not replicate on mortality
+endpoints** [@ma2022egg]. Where Godos found a shallow
+protective U/J for CVD/CHD *incidence+mortality*, Ma's four mortality curves (all-cause · CVD · IHD ·
+stroke) are each **linear over the studied range with no protective lower arm** — if anything the
+all-cause slope tilts to harm. A protective arm that appears on one MA's incidence-weighted endpoint and
+vanishes on a second (overlapping) MA's mortality endpoint is the opposite of a robust benefit
+-> [[The U-Shaped Association Artifact]].
+
 ## Decision relevance
 
-- **General population:** eggs are near a non-lever — do not restrict on cardiovascular grounds, do not
-  count as protective. The one caveat is heart failure, where high habitual intake (>=1 egg/day) carries a
-  low-certainty monotone risk signal. The question ranks LOW; spend attention on the big rocks
-  (SFA/apoB, adiposity, smoking, BP), not on egg count.
-- **Type 2 diabetes:** a low-certainty reversed signal (\~22% relative CVD-risk increase at \~1 egg/day) —
-  treat habitual daily egg intake as a watch-item, not free; the general-population read does not transport.
+[inferred from @godos2020; @ma2022egg]
+The wiki's own layer-3 synthesis over the two gold MAs — the per-stratum reads below are reasoned from
+their estimates, not lifted from either source's own recommendation.
+
+- **General population:** eggs are near a non-lever for cardiovascular *events* — do not restrict on CVD
+  grounds, do not count as protective. Two low-certainty caveats sit at high habitual intake (>=1 egg/day):
+  heart failure (Godos, monotone) and a small all-cause-**mortality** slope (Ma, +5.6% per egg/d, linear,
+  but stratum-concentrated and NS as a categorical high-vs-low contrast, 1.04, 0.99-1.09). The question
+  ranks LOW; spend attention on the big rocks (SFA/apoB, adiposity, smoking, BP), not on egg count.
+- **Diabetic stratum (Godos — individual-level effect modification):** Godos's *diabetic* subgroup
+  reverses (\~22% relative CVD-risk increase at \~1 egg/day) — a genuine route-(b) subgroup (cohorts of
+  diabetic people). Treat habitual daily egg intake as a watch-item for this stratum, not free; the
+  general-population near-null does not transport here. (Low certainty, observational.)
+- **Hyperlipidemia (Ma — a study-level marker, NOT an individual stratum):** Ma's all-cause/CVD-mortality
+  signals strengthen in studies that *adjusted for* hyperlipidemia — a study-level covariate, not an
+  individual-level subgroup, and Ma reads it as reverse-causation/confounding (dyslipidemics cut eggs)
+  that unmasks a **general-population** slope. This is NOT evidence that eggs are more harmful *in*
+  hyperlipidemic people, and it does not combine with Godos's diabetic subgroup into a single evidenced
+  *T2D-OR-hyperlipidemia* contraindication. Do not treat it as an individual contraindication.
 - **Hyper-responders:** a subset whose serum LDL rises materially to dietary cholesterol; if identified
   (e.g. by measuring the response), dietary cholesterol becomes a live lever for *them* specifically.
 - **Frame as substitution:** the realistic alternative to eggs at breakfast matters (eggs vs refined-carb
@@ -179,8 +287,12 @@ stratum-specific, exactly the pattern the concept predicts.
 
 Coherence, not validity (R1): this page says what the *evidence* supports about egg->CVD for identified
 strata; the loop is open — no operation here grades the recommendation against a realized outcome.
-Single-source (Godos 2020, gold MA); `confidence: low` marks corroboration-breadth not yet established.
-AWAITS a dietary-cholesterol / egg RCT-on-lipids source, and to harden the
+Now two gold MAs (Godos 2020 · Ma 2022), but they **share most cohorts** — so `confidence: low` holds:
+the second MA is a type-F refinement on an overlapping observational base, not an independent witness,
+and the two now *diverge* on the headline caution (a friction, not a resolved question). Both are
+FFQ-cohort MAs bound by dietary measurement error. `confidence` is NOT lifted by "two MAs agree" because
+their agreement on the near-null is laundered through shared data. AWAITS a dietary-cholesterol / egg
+RCT-on-lipids source, and to harden the
 mechanism leg and the tension.
 
 ## References

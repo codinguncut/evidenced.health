@@ -2,8 +2,8 @@
 type: framework
 question: When can observational evidence support more confidence than its design alone would allow?
 aliases: [Upgrading Evidence, Rating Up, Large Magnitude of Effect, Dose-Response Gradient, Plausible Residual Confounding]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org); Poole, Robin; Ding, Ming; van Dam, Rob M; Hu, Frank B; Travis, Ruth C]
-sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Travis - Night Shift Work Breast Cancer 2016]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); National Academies of Sciences Engineering and Medicine (org); Poole, Robin; Ding, Ming; van Dam, Rob M; Hu, Frank B; Travis, Ruth C; Celis-Morales, Carlos A]
+sources: [GRADE - Handbook, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e, NASEM - Reproducibility and Replicability in Science 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Travis - Night Shift Work Breast Cancer 2016, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -20,8 +20,8 @@ relationships:
     - The Observational-Trial Discordance
     - Night Shift Work and Breast Cancer
 created: 2026-07-25
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
@@ -137,7 +137,47 @@ the coffee **liver-disease** case earlier on this page, which *did* clear the §
 records the criteria as met; it does not issue an upgrade verdict (adjudication sits outside an ingest).
 [inferred from @ding2014; @poole2017]
 
-## Decision relevance
+### A case where the gradient is present but §3 runs the WRONG way `[2026-08-19, Celis-Morales active commuting]`
+
+The active-commuting cohort is the instructive mirror of Ding: it **has** the §2 dose-response gradient
+but is blocked from upgrade because the dominant plausible confounding runs **with** the effect, not
+against it — the opposite of the §3 configuration.
+
+- **Dose-response gradient (§2) present.** «among cycling commuters there were distinct dose-response
+  trends in all outcomes by weekly commuting distance», and among walking commuters a gradient for CVD
+  incidence and mortality [@celismorales2017commuting].
+- **Effect sizes mostly inside the §1 bar.** Cycle-commuting all-cause mortality HR 0.59 (0.42-0.83) does
+  not clear the <0.5 large-effect threshold; CVD mortality 0.48 (0.25-0.92) nominally does but on a wide
+  interval that «overlaps substantially with effects smaller than the chosen threshold» — GRADE's own
+  caution against rating up on such a CI [@celismorales2017commuting].
+- **§3 runs the wrong way — self-selection inflates the benefit.** Cyclists are leaner, fitter, wealthier
+  and less comorbid at baseline (a healthy-user gradient), which the authors flag: «which may indicate a
+  healthy volunteer selection bias» and «residual confounding is always possible and associa- tions may
+  not imply causation» [@celismorales2017commuting].
+  So the plausible residual confounding would **manufacture or amplify** the protective association — the
+  configuration in which §3 **cannot** rate up (it upgrades only when the bias should have *weakened* the
+  finding).
+
+**Why the one bias that DOES run toward the null does not rescue it.** The authors note misclassification
+of self-reported mode «would have acted to attenuate the associa- tion»
+[@celismorales2017commuting] — but that
+is *measurement error*, orthogonal to the *self-selection* confounding, and GRADE's §3 asks specifically
+whether **confounding** (not measurement error) points the wrong way. A non-differential exposure
+misclassification means the true effect could be larger; it does nothing to remove the healthy-user
+confounding that could be creating the effect in the first place. Net: gradient notwithstanding, this is
+**not** an upgrade case — a worked example that a dose-response gradient is a *credibility signal, never
+a trigger*, and that §3 is about the direction of *confounding* specifically.
+[inferred from @celismorales2017commuting]
+
+*Self-critique `[run 2026-08-19]`:* the load-bearing move is the **§3 direction** — I read the
+healthy-user self-selection as confounding that runs *with* the protective effect, the configuration
+where §3 cannot rate up. Checked against the source: the authors state the healthy-volunteer bias and
+that cyclists are leaner/fitter/wealthier at baseline, so the direction is defensible, not asserted.
+Kept the misclassification point *separate* (measurement error, not confounding) rather than letting it
+read as a §3 argument — the GRADE §3 factor is about confounding specifically. No upgrade verdict
+issued (adjudication is out of scope for an ingest); the section records the criteria configuration
+only. This complements, not duplicates, the Ding coffee-T2D case (there §1 magnitude fails with §3
+favourable; here §2 holds but §3 is unfavourable).
 
 - ***Observational, therefore weak* is not GRADE's position** — it is GRADE's *starting point*, with
   three named exits. Citing GRADE for a blanket dismissal of observational evidence misreads it.

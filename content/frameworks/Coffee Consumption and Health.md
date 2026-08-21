@@ -2,14 +2,14 @@
 type: framework
 question: What does habitual coffee consumption do to patient-important outcomes, for whom, at what dose, and how much of it is causal?
 aliases: [Coffee, Coffee and Mortality, Coffee and Health, Caffeine and Health, Coffee Dose, Filtered vs Unfiltered Coffee, Decaffeinated Coffee]
-authors: [Poole, Robin; Kennedy, Oliver J; Roderick, Paul; Fallowfield, Jonathan A; Hayes, Peter C; Parkes, Julie; Grosso, Giuseppe; Micek, Agnieszka; Godos, Justyna; Martinez-Gonzalez, Miguel A; Giovannucci, Edward L; Ding, Ming; Bhupathiraju, Shilpa N; Chen, Mu; van Dam, Rob M; Hu, Frank B]
-sources: [Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ding - Coffee and Type 2 Diabetes 2014]
+authors: [Poole, Robin; Kennedy, Oliver J; Roderick, Paul; Fallowfield, Jonathan A; Hayes, Peter C; Parkes, Julie; Grosso, Giuseppe; Micek, Agnieszka; Godos, Justyna; Martinez-Gonzalez, Miguel A; Giovannucci, Edward L; Ding, Ming; Bhupathiraju, Shilpa N; Chen, Mu; van Dam, Rob M; Hu, Frank B; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne]
+sources: [Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ding - Coffee and Type 2 Diabetes 2014, Nordestgaard - Coffee Mortality Mendelian Randomization]
 cluster: coffee
 nucleus: true
 confidence: medium
 created: 2026-08-04
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -31,6 +31,9 @@ established causation:** almost every estimate here is **observational**, GRADE-
 very low (\~75%)**, and the two Mendelian-randomisation studies Poole cites found **no genetic evidence
 for a causal coffee->mortality or coffee->T2D relation** — «suggesting residual confounding could
 result in the observed associations in other studies». [@poole2017]
+The coffee->mortality MR is now held primary here (Nordestgaard 2016, ingested as the study Poole cited
+secondhand) — its instruments, magnitudes, and its two bounding caveats are in *The Mendelian-randomization
+check* below. [@nordestgaard2016]
 So read every RR below as *an association net of whatever smoking/SES confounding survived adjustment*,
 not as an effect. The friction on how much of the protective arm is real is on
 [[The U-Shaped Association Artifact]]. Grosso 2016 has now performed the smoker referent-correction (the
@@ -188,6 +191,59 @@ risk of hypertension compared with those with alleles for fast caffeine metaboli
 [@poole2017] (a candidate effect-modifier, not yet
 an actionable stratifier).
 
+## The Mendelian-randomization check — primary evidence `type-F`
+
+The disconfirming genetic signal was previously held only secondhand (Poole citing "two MR studies").
+Nordestgaard 2016 is now held primary, so the null carries its own instruments and magnitudes rather
+than a borrowed sentence. Across 95,000-223,000 individuals (Copenhagen General Population Study +
+two Copenhagen cohorts + Cardiogram/C4D consortia for IHD): «observation- ally coffee intake was
+associated with U-shaped low risk of cardiovascular disease and all-cause mortality; however,
+genetically coffee intake was not associated with risk of cardiovascular disease or all-cause
+mortality.» — «The latter are novel findings.»
+[@nordestgaard2016]
+
+- **Instrument.** A caffeine-intake allele score (near AHR and CYP1A1/CYP1A2); per-allele \~8% higher
+  intake, 0 vs 4 alleles = 2.2 vs 3.1 cups/day (42% higher). First-stage strength is high — «the
+  statistical F-value for allele score was very high at 827». Per-allele genetic HRs/ORs cluster at
+  \~1.00 with CIs spanning 1.0. [@nordestgaard2016]
+- **Positive control (the instrument is not dead).** The same design recovers a known causal chain:
+  «low cholesterol level caused by ApoE genotype associated causally with the ex- pected low risk of
+  IHD.» [@nordestgaard2016]
+- **Confounding named.** «U-shaped associations are less prominent in never smokers compared with
+  former and current smokers» — so the authors read their genetic null as evidence the observational
+  'benefit' is confounded (smoking), not causal.
+  [@nordestgaard2016]
+
+**Two caveats bound the null — it refutes causation at the OBSERVED size, it does not prove zero.**
+
+- **Power.** The instrument «could exclude odds ratio per allele of 0.97 for 8% higher coffee intake»
+  and rejects a causal effect as large as the observational «odds ratio of 0.86 for approximately 350%
+  higher coffee intake» — but to exclude a *small* effect the size of that observed one would need
+  «approximately 225 000 cases and 225 000 controls». So: no meaningful causal effect **at the
+  observational magnitude**; *insufficient evidence* for a small one.
+  [@nordestgaard2016]
+- **Linearity — the MR is structurally blind to a true U.** «if U-shaped associations ... indeed are
+  true, then a Mendelian randomization approach might not detect an eventual as- sociation, since this
+  approach is based on the assumption of linearity ... and thus will not be capturing non-linear
+  differences between very low and very high coffee intakes.»
+  [@nordestgaard2016]
+
+**Parameter table (BLOCKING — matched quantities before any cross-source claim):**
+
+| Parameter | Nordestgaard 2016 (primary MR) | Incumbent claim / Poole 2017 (obs + secondary MR) | Same quantity? |
+|---|---|---|---|
+| Genetic (causal) coffee->all-cause mortality | per-allele HR \~1.00, CIs span 1.0; F=827; «genetically coffee intake was not associated with ... all-cause mortality» | Poole secondhand: «no genetic evidence for a causal ... relation» (no numbers) | YES -- same causal-null quantity; Poole reports THIS study secondhand -> type-F firming, **not** independent-E |
+| Observational coffee->all-cause mortality | HR 0.86 for \~350% higher intake (0 vs 4-5 cups) | Poole/Grosso: nadir RR 0.83 (0.83-0.88) at 3 cups vs none | ROUGHLY -- same association type, different cohorts + contrast (whole-range HR vs per-category nadir); directional agreement only, not a matched estimate |
+| Genetic vs observational (WITHIN Nordestgaard) | causal OR/allele 0.97 (8% intake) excludable vs observed 0.86 (350% intake) | -- | NO -- different exposure scale AND causal-vs-associational; this divergence IS the finding, not a tension to file |
+
+**Independence verdict.** Nordestgaard is (very likely) the coffee->mortality MR Poole cited — and
+even if not, two caffeine-allele MRs in overlapping Danish + consortium populations are same-method,
+same-instrument. This is **primary-sourcing of an already-held claim (type-F), not independent
+corroboration (type-E)** — so it firms the caveat's warrant without lifting `confidence:` (stays
+**medium**: the null converges with the existing "plausibly confounded" reading rather than adding a
+new route, and its own power/linearity caveats keep it short of a confident "no effect").
+
+
 ## How much to believe it — the appraisal floor
 
 - **Design:** overwhelmingly observational cohort; GRADE \~25% low, \~75% very low; AMSTAR median 5/11.
@@ -197,10 +253,14 @@ an actionable stratifier).
   benefit. The apparent harms «were largely nullified by adequate adjustment for smoking, except in
   pregnancy». This is exactly the referent/confounding machinery -> [[The U-Shaped Association Artifact]].
 - **Mendelian randomisation is the strongest disconfirming signal**: no genetic causal evidence for
-  coffee->mortality or coffee->T2D. Poole's own hedge is that MR assumes linearity and «might not
-  capture non-linear differences» — so MR-null does not *refute* a non-linear causal effect, it removes
-  the linear one. Net: treat the benefits as **plausibly confounded associations pending an RCT**, which
-  is Poole's own conclusion (liver disease the best RCT target).
+  coffee->mortality (Nordestgaard 2016, primary — *The Mendelian-randomization check* above) or
+  coffee->T2D (Poole's second cited MR). The genetic null holds at the observational effect size
+  (instrument F=827), but by its linearity assumption «will not be capturing non-linear differences»
+  — so MR-null does not *refute* a non-linear causal effect, it removes the linear one, and is
+  under-powered against a *small* effect.
+  [@nordestgaard2016] Net: treat the
+  benefits as **plausibly confounded associations pending an
+  RCT**, which is Poole's own conclusion (liver disease the best RCT target).
 - **Measurement:** no standard cup size; bean/roast/grind/brew all vary the dose, so cup-based exposure
   is coarse. Non-differential misclassification biases toward the null -> the true gradients could be
   steeper, not shallower -> [[Measurement Error in Dietary Assessment]].

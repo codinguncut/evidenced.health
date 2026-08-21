@@ -2,14 +2,14 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-10
-self_critiqued: 2026-08-05
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -129,6 +129,79 @@ the MI case count was limited so «some real benefit or hazard cannot be exclude
 uniformly harmful" holds for **stroke and BP**; for **coronary heart disease the causal picture is
 genuinely unresolved**, and that is the one place a small real benefit is not excluded.
 [@millwood2019]
+
+
+## Interventional confirmation — reducing alcohol lowers BP, confined to >2 drinks/day `[Roerecke 2017]`
+
+The BP slope above (Millwood) is observational + genetic. Roerecke's 2017 SR+MA of **36 randomised
+trials (2865 participants)** supplies the missing **interventional** leg — the RCT dose-response of
+*reducing* alcohol on blood pressure, with the dose-response graded GRADE-high: «we rate the quality of
+evidence for a dose-response association as high».
+[@roerecke2017alcohol]
+
+- **Overall,** cutting alcohol lowered blood pressure by «–3·13 mm Hg (95% CI –3·93 to –2·32) for
+  systolic blood pressure and –2·00 (–2·65 to –1·35) for diastolic blood pressure with substantial
+  between-study heterogeneity (I² 82·0% and 79·5%, respectively)» — heterogeneity that baseline intake
+  almost entirely explained (75.4% SBP, 93.4% DBP variance).
+  [@roerecke2017alcohol]
+- **Dose-dependent, with a threshold at \~2 drinks/day.** Stratum SBP means by baseline band (Table 2,
+  all trials): <=2 drinks/day -0.18 (-1.02 to 0.66), NS; 3 drinks -1.18 (-2.32 to -0.04); 4-5 drinks
+  -3.00 (-3.98 to -2.03); >=6 drinks -5.50 (-6.70 to -4.30) [DBP >=6: -3.97 (-4.70 to -3.25)].
+  [@roerecke2017alcohol] Meta-regression:
+  «β = –0·91 mm Hg» SBP (and −0·75 DBP) «per one drink per day» of baseline intake, p<0·0001.
+  [@roerecke2017alcohol] Studied range: baseline
+  weighted means 15 / 30 / 49 / 76 g/day across the four strata (single trials to \~380 g/day) — so the
+  curve is estimated *over the drinking range*, not extrapolated.
+- **Below the threshold the lever is empty — the decision-relevant part.** «People drinking two drinks or
+  fewer per day did not have a signiﬁ cant reduction in blood pressure when they reduced their alcohol
+  consumption to near abstinence, suggesting that this amount of alcohol intake does not increase blood
+  pressure.» [@roerecke2017alcohol] So the alcohol->BP
+  lever is **confined to the >2 drinks/day stratum**; for a light drinker, cutting alcohol buys no BP —
+  a route-(a)/(b) stratification, not a universal recommendation. The dose-response held «in healthy
+  participants and people with hypertension or other CVD risk factors».
+  [@roerecke2017alcohol]
+
+### Third independent leg for the alcohol->BP causal claim `[E-independent]`
+
+The BP slope on this page was already reached two ways (Millwood conventional-observational and genetic
+MR). Roerecke adds a **third, independent method — pooled RCTs of alcohol *reduction*** — converging on
+the same causal claim. No author overlap with Millwood (Roerecke/Kaczorowski/Tobe/Gmel/Hasan/Rehm vs
+Millwood/Walters/Chen), different design, data, and *direction* of manipulation, and neither references
+the other as antecedent — a genuine independent-backing lift, not a shared-study echo.
+
+| Parameter | Millwood 2019 (conventional + genetic MR) | Roerecke 2017 (RCT interventional) | Same quantity? |
+|---|---|---|---|
+| Route | observational cohort + Mendelian randomization | random-effects MA of 36 alcohol-reduction RCTs | **no — independent designs (the point of E)** |
+| Manipulation | genetically/self-reported *higher* vs lower intake | *reduction* of usual intake toward abstinence | mirror image (increase vs decrease) |
+| SBP effect | +4.8 (conv, 4.5-5.1) / +4.3 (genetic, 3.7-4.9) mm Hg per 280 g/week | -0.91 mm Hg per one drink/day baseline (β) | roughly — 280 g/wk \~= 3.3 drinks/day, so Millwood \~1.3-1.4 vs Roerecke \~0.91 mm Hg per drink/day: **same sign + order of magnitude** |
+| Shape | log-linear (MR assumes linearity) | dose-dependent **with a threshold at 2 drinks/day** | **no — Roerecke adds a threshold the MR cannot see (F)** |
+| Establishes | alcohol *causally raises* BP (reverse-causation-immune) | *reducing* alcohol *lowers* BP (interventional) | **same causal claim, reached independently -> E** |
+
+The alcohol->BP causal effect is thus triangulated across observation, genetics, and randomisation, and
+Roerecke **refines** the Millwood log-linear picture with a threshold (an F riding on the E): the BP
+effect is a >2-drinks/day phenomenon, flat below it.
+[inferred from @millwood2019; @roerecke2017alcohol]
+
+### But BP is the SURROGATE — the CV events are modelled, not measured
+
+Roerecke measured **blood pressure**, a surrogate. Its downstream cardiovascular payoff is a **model,
+not a trial outcome**: for the UK it projected «more than 7000 inpatient hospitalisations and 678
+cardiovascular deaths prevented» per year — but that figure rests on «standard methods for comparative
+risk assessment analyses (eg, Global Burden of Disease studies)», run «assuming persistence of lower
+alcohol consumption within 1 year, and no lag time of eﬀ ects on CVD outcomes».
+[@roerecke2017alcohol] The
+BP->event transmission is *assumed via the risk-assessment machinery*, not observed; no hard CV endpoint
+was measured, and «the physiological mechanisms for alcohol’s eﬀ ect on blood pressure and hypertension
+are still unknown». [@roerecke2017alcohol] The BP drop
+is «similar to that of other health behaviour changes, such as physical activity» or weight-loss diets
+[@roerecke2017alcohol] — the BP->event step itself is
+adjudicated at [[Blood Pressure Lowering and Cardiovascular Events]].
+
+**No protective arm for the BP outcome — the interventional check the artifact concept demands.** Where
+alcohol's *mortality/IHD* J-curve carries a spurious protective lower arm (above), the *BP* dose-response
+has none: reducing alcohol never *raises* BP, and below the 2-drink threshold it is simply flat. A
+randomised-reduction design is the strongest form of the interventional check -> [[The U-Shaped Association Artifact]] asks for — but note the outcome is **distinct** (BP, not mortality), so this
+confirms the concept on a *different endpoint*, it does not itself adjudicate the mortality J.
 
 ## What this probes `[PRIOR handle — not scored here]`
 

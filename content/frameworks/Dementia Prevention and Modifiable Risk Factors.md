@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-14
-self_critiqued: 2026-08-14
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -168,6 +168,76 @@ on top of those factors would double-count.
   MA-selection-dependent, consistent with a `moderate`-at-most read.
   [@dinu2018]
 
+### Nucci 2024 — the same association on a larger elderly pool, with new caveats (F-refinement, 2026-08-20)
+
+A second, larger MedDiet -> dementia SR+MA (Nucci 2024; PRISMA-2020, PROSPERO CRD42023444368,
+Newcastle-Ottawa RoB, 21 datasets / 65,955 participants, **elderly >=60 only**) firms the *direction* on
+\~5x the pooled n but adds **no causal-identification route** — every constituent is observational (13
+cohort + 6 cross-sectional + 1 both + 1 nested case-control), and it deliberately *includes* the
+cross-sectional studies prior MAs excluded (its own limitation: «most of the included studies were
+cross-sectional, in which causality might not be assessed by definition»)
+[@nucci2024]. So it is a magnitude/robustness refinement of
+the Garcia-Casares leg, **not** independent replication and **not** a causal upgrade.
+
+- **Estimates (contrast = highest-vs-lowest adherence, NOT per-point; carry each I2).**
+  - all-type dementia **OR 0.89 (0.84-0.94)**, n=65,955, I2=69.94 (moderate) — «the highest adherence to
+    the Med-Diet is associated with an approximate 11% reduction in the likelihood of developing
+    dementia» [@nucci2024]. The headline pools ORs
+    (cross-sectional) and HRs (cohort) as one figure — «reported as OR or HR based on the study design».
+  - cohort-only **HR 0.84 (0.76-0.94)**, n=55,205, **I2=89.70 (very high)** — the pooled figure averages
+    over highly heterogeneous designs/populations, and on the stricter cohort-only cuts «the association
+    was borderline significant» [@nucci2024].
+  - Alzheimer disease **OR 0.73 (0.62-0.85)**, n=38,292, I2=63.85 — «an approxi-mately 27% lower risk of
+    Alzheimer's disease»; the effect is **outcome-specific** (stronger for AD than all-dementia), while
+    MCI alone is **OR 0.89 (0.79-1.01), non-significant** (3 studies) — «the association was no longer
+    significant when looking at MCI alone» [@nucci2024].
+- **New caveats the incumbent leg did not carry (this is what makes it F, not mere confirmation).**
+  (i) **Publication bias DETECTED** — Egger intercept -1.08, p=0.013 (main); -1.88, p=0.055 (AD); after
+  trim-and-fill the main estimate attenuates to OR 0.92 (0.86-0.99) but stays significant
+  [@nucci2024]. (ii) Very high cohort heterogeneity (above).
+  (iii) Half the pool cross-sectional, so temporality is unestablished and reverse causation stays live.
+  (iv) Elderly-only, so «the effects of recently adopted dietary habits may have less influence on health
+  outcomes such as dementia (which require long-term expo-sure)»
+  [@nucci2024] — a shorter-exposure / reverse-causation
+  frame that reinforces, not relieves, the confound story -> [[The U-Shaped Association Artifact]].
+
+**Parameter table — the 0.89 trap [inferred from @nucci2024; @garciacasares2021].**
+Garcia-Casares' figures are *per one-point* rises on the 0-9 MD score; Nucci's are *high-vs-low* category
+contrasts. They are not the same quantity, so the identical 0.89 is a coincidence, not a replication.
+
+| Parameter | Garcia-Casares (incumbent) | Nucci 2024 | Same quantity? |
+|---|---|---|---|
+| Contrast | per +1 point on 0-9 MD score (dose-response) | highest-vs-lowest adherence category | **NO** |
+| AD estimate | RR 0.89 (0.84-0.93) per-point | OR 0.73 (0.62-0.85) high-vs-low | NO |
+| all-dementia / composite | composite RR 0.89 (0.86-0.92) per-point | OR 0.89 (0.84-0.94) high-vs-low | NO — same number, different quantity |
+| MCI | RR 0.91 (0.85-0.97) per-point, sig | OR 0.89 (0.79-1.01) high-vs-low, NS | NO |
+| Population | mixed adult | elderly >=60 only | NO |
+| Pooled n | 12,458 | 65,955 main / 38,292 AD | NO |
+
+The critical cell: a high-vs-low contrast spanning several score-points would give a **larger** effect
+than one point if the per-point slope held — so a Nucci all-dementia OR *numerically equal* to
+Garcia-Casares' per-point composite implies Nucci's per-unit effect is, if anything, **shallower**, not a
+confirmation. Every "Same quantity?" cell is NO, so this is a bounding/refinement, **never a tension**.
+
+- **Shared-cohort / non-independence note (F, not `[E-independent]`).** Nucci and Garcia-Casares pool the
+  **same** underlying MedDiet-dementia observational literature — the foundational AD cohorts (Scarmeas
+  2006a/b and 2009, Féart 2009, Gu 2010) that any MedDiet-AD MA rests on sit in Nucci's included-studies
+  list [@nucci2024]. Overlapping constituent cohorts defeat
+  independence, so two MAs agreeing is **not** two witnesses; do not lift `confidence:` on the agreement.
+- **Mediation corroborated, not overturned.** Nucci's own mechanism section leads with the cardiometabolic
+  pathway — «Cardiovascular risk factors such as hypertension, obesity (mainly abdominal obesity),
+  dyslipidaemia, and type 2 dia-betes are considered to have a significant impact on the risk of dementia»
+  [@nucci2024] — plus amyloid/tau-biomarker and
+  gut-microbiota routes (mechanism, directional,-grade, not outcomes). This **reinforces the
+  double-counting flag above**: the MedDiet -> dementia benefit runs substantially through already-counted
+  levers, so Nucci does not convert the diet lever into a 15th additive PAF slice
+  [inferred from @nucci2024; @livingston2024].
+- **Confidence: held `medium`.** Nucci firms direction and magnitude on \~5x the n, but adds no causal
+  route, carries very high cohort heterogeneity and *detected* publication bias, a non-significant MCI
+  leg, and shares constituent cohorts with the incumbent leg — so the diet association stays the weaker
+  `low`-to-`moderate` leg and the Commission's consensus backing still sets the page grade. Not raised on
+  *a second SR arrived*.
+
 The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PREDIMED, stroke-driven, at
 high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
 mediation reading: the pattern's best-evidenced effect is on the vascular channel that feeds AD risk.
@@ -212,7 +282,7 @@ contrast on [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 diagnosis, biomarkers and drug therapy (cholinesterase inhibitors, anti-amyloid antibodies) are appraised
 on the source page, out of this prevention framework's scope.
 
-**And no responder subgroup rescues the incidence-null — the PAF's implicit "target the high-risk" hope is
+**And no responder subgroup rescues the incidence-null — the PAF's implicit *target the high-risk* hope is
 tested and fails on the hard endpoint `[2026-08-07, Coley]`.** Pooling the MAPT+preDIVA IPD (n=5205, up to
 12 yr), «there was no effect of multidomain intervention on the risk of all-cause dementia (HR 0.98, 95% CI
 0.80–1.21)», with no effect in any of 11 pre-specified risk-factor subgroups and none found by a data-driven

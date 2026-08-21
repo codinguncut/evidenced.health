@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -15,9 +15,12 @@ relationships:
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
     - Dementia Prevention and Modifiable Risk Factors
     - DASH Diet and Blood Pressure
+    - Alcohol and Mortality and Vascular Disease
+    - Physical Activity Dose and Mortality
+    - Cardiorespiratory Fitness and Mortality
 created: 2026-07-29
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -124,6 +127,94 @@ understating the sustained one (adherence dilution). The BPLTTC transmission mod
 *direction*; SSaSS does not let the diet-route magnitude be read straight off the BP fall.
 [inferred from @neal2021]
 
+## Another lifestyle BP route — alcohol reduction, and the modelled-events gap made explicit `[2026-08-20, Roerecke]`
+
+Roerecke's 2017 SR+MA of **36 alcohol-reduction RCTs (2865 participants)**, GRADE-high, is a second
+behavioural BP lever — and it makes this page's *lifestyle-BP-drop-to-events-is-an-assumption* caveat
+concrete. The BP effect is real and dose-dependent but **confined to heavier drinkers**: no significant
+BP change below 2 drinks/day, then dose-dependent above (SBP -1.18 at 3 drinks/day rising to
+-5.50 [-6.70 to -4.30] at >=6 drinks/day; overall -3.13 [-3.93 to -2.32]).
+[@roerecke2017alcohol] The magnitude is «similar to that
+of other health behaviour changes, such as physical activity» or weight-loss diets.
+[@roerecke2017alcohol]
+
+Crucially, Roerecke did **not measure** CV events — it **modelled** them: its «more than 7000 inpatient
+hospitalisations and 678 cardiovascular deaths» projected for the UK rest on «standard methods for
+comparative risk assessment analyses (eg, Global Burden of Disease studies)», run «assuming persistence
+of lower alcohol consumption within 1 year, and no lag time of eﬀ ects on CVD outcomes».
+[@roerecke2017alcohol] So the
+alcohol-reduction lever is exactly the case this page flags — a lifestyle BP drop whose event payoff is
+*assumed through a risk model*, not observed — unlike SSaSS, the one lifestyle route that reached
+*measured* hard endpoints. Read against BPLTTC's \~0.91 per 5 mmHg, a -5.50 mmHg fall in a heavy drinker
+predicts a \~10% CV-event reduction *if* the pharmacological transmission transfers. Full dose-response
+-> [[Alcohol and Mortality and Vascular Disease]].
+[inferred from @roerecke2017alcohol]
+
+## A third lifestyle BP route — structured exercise, and the drug head-to-head that does not exist `[2026-08-20, Naci]`
+
+Naci's 2019 network meta-analysis (Br J Sports Med, gold-tier) is the drug-as-realistic-alternative
+comparator the telos calls for: it places **structured exercise** and **antihypertensive drugs** in
+one network on SBP-lowering. It pooled «391 RCTs, 197 of which evaluated exercise interventions
+(10 461 participants) and 194 evaluated antihypertensive medications (29 281 participants)» — but the
+head-to-head does not exist: «No RCTs compared directly exercise against medications»
+[@naci2019exercise]. **Every exercise-vs-drug number
+below is INDIRECT** (network-inferred across disjoint trials), and the authors call the linking
+assumption «tenuous» (below).
+
+**The naive comparison is confounded by baseline SBP — and the confound is the finding.** Across all
+populations, drugs beat exercise: medications «−8.80 mmHg, 95% CrI −9.58 to −8.02» vs exercise «−4.84,
+95% CrI −5.55 to −4.13» from baseline vs control, a «−3.96, 95% CrI −5.02 to −2.91» advantage to drugs
+[@naci2019exercise]. But the two arms were measured in
+**different populations**: «the mean SBP at baseline was 132 mmHg for participants in the RCTs of
+exercise interventions, it was consistently over 150 mmHg in medication RCTs»
+[@naci2019exercise]. SBP-lowering scales with baseline
+SBP, so a drop measured at \~132 mmHg (mostly normotensive) is **not the same quantity** as one measured
+at \~157 mmHg (all hypertensive) — the parameter table makes this explicit:
+
+| Naci comparison | Effect vs control (mmHg, 95% CrI) | Population / baseline SBP | Same quantity? |
+|---|---|---|---|
+| All exercise | −4.84 (−5.55 to −4.13) | exercise trials, mean baseline 132 | reference |
+| All medications | −8.80 (−9.58 to −8.02) | drug trials, baseline >150 | NO — different baseline SBP |
+| Meds vs exercise (all pops) | −3.96 (−5.02 to −2.91), drugs superior | mixed (normotensive vs hypertensive) | NO — the confounded, indirect contrast |
+| Exercise, restricted to hypertensive >=140 | −8.96 (−10.27 to −7.64) | 56 trials, 3508 people, baseline >=140 | YES — baseline now matched to drugs |
+| Meds vs exercise, hypertensive >=140 | 0.18 (−1.35 to 1.68), no difference | both hypertensive >=140 | YES — matched; the honest "similar" claim |
+
+Restricting exercise to the hypertensive stratum nearly **doubles** its estimated effect (−4.84 ->
+−8.96) and erases the drug advantage: «We did not observe a difference between the SBP-lowering effects
+of medications and exercise (0.18, 95% CrI −1.35 to 1.68)»
+[@naci2019exercise]. Naci names the mechanism himself
+in the limitations (the counter-passage): «Transitivity may be tenuous given the typically different
+levels of SBP in medication versus exercise trials. However, when we tried to match trial populations
+more closely, the gap between medication and exercise in efficacy diminished»
+[@naci2019exercise]. This is a worked instance of
+[[Baseline Risk and the Relative-Absolute Split]] on a *continuous* outcome — the absolute SBP reduction
+is a function of baseline SBP, so an unmatched cross-intervention comparison misleads.
+[inferred from @naci2019exercise]
+
+**The equivalence is real but doubly hedged — do not read it as "exercise = drugs" plainly.** The
+authors state it only «Assuming equally reliable estimates»
+[@naci2019exercise], and the estimates are not equally
+reliable: the exercise evidence is far sparser in the matched stratum (56 trials / 3508 people vs 194
+drug trials / 29 281), higher risk of bias (17/20 sampled exercise RCTs at high risk of performance and
+detection bias from lack of blinding, vs 1/20 drug RCTs), and — since food/behaviour cannot be blinded —
+this weakness is structural, not fixable. The conclusion carries the hedge: the exercise effect «appear
+similar to that of commonly used antihypertensive medications, but this is tempered by the observed
+differences in study population characteristics»
+[@naci2019exercise].
+
+**Decision relevance.** For a **hypertensive** person, structured exercise (endurance or dynamic
+resistance) is a credible-magnitude SBP lever — indirectly comparable to a first-line drug in the
+matched stratum — so it is a defensible *adjunct*, and a candidate *alternative* where a drug is
+declined or not yet indicated. Two guards: (1) the equivalence holds only at hypertensive baselines; at
+a **normotensive** baseline the exercise SBP effect is smaller (−4.84) and the drug comparison was never
+the point; (2) SBP here is a **surrogate** — Naci measured no CV events. The event payoff runs through
+this page's BPLTTC channel (\~10% per 5 mmHg), which is evidenced for *pharmacological* lowering; whether
+an exercise-induced SBP drop transmits at the same rate is the same assumption flagged for the sodium,
+alcohol and salt-substitute levers above. Exercise also carries large off-target benefits (fitness,
+glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose and Mortality]],
+[[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
+directly does not exist — a standing gap. [inferred from @naci2019exercise]
+
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
 Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
@@ -162,10 +253,12 @@ population. Full multidomain-trial context -> [[Multidomain Lifestyle Interventi
   absolute benefit at low risk and a lot at high risk; combine the relative effect with a stratum-
   specific baseline ([[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]) rather than treating to a
   threshold. This also means the exact BP measurement matters less than the overall risk.
-- **Lifestyle BP reduction (e.g. sodium, weight) plugs into the same channel.** [[Sodium Intake and Blood Pressure]]
-  holds BP as a *surrogate* with hard outcomes graded very low; BPLTTC supplies the missing link —
-  *pharmacological* BP reduction does reduce hard events — but the transmission of a *sodium-induced* BP
-  drop to events is an assumption, not the same evidence (a different intervention, unmeasured here).
+- **Lifestyle BP reduction (e.g. sodium, weight, alcohol reduction in >2 drinks/day drinkers) plugs into
+  the same channel.** [[Sodium Intake and Blood Pressure]] holds BP as a *surrogate* with hard outcomes
+  graded very low; BPLTTC supplies the missing link — *pharmacological* BP reduction does reduce hard
+  events — but the transmission of a *lifestyle-induced* BP drop to events is an assumption, not the same
+  evidence (a different intervention, unmeasured here — Roerecke's alcohol-reduction CV benefit is
+  *modelled*, SSaSS's is *measured*).
 
 ## Limits
 

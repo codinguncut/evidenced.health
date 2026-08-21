@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
-authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018]
+authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B; Qin, Pei]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018, Qin - Carbohydrate Quantity Quality Mortality]
 cluster: weight-loss-diets
 nucleus: true
 confidence: medium
@@ -15,9 +15,9 @@ relationships:
     - Energy Adjustment and What a Diet Coefficient Means
     - Free Sugars Intake
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-08-06
+self_critiqued: 2026-08-19
 created: 2026-07-26
-updated: 2026-08-06
+updated: 2026-08-19
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -405,6 +405,27 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
   mortality, a *plant-based* one lower — the source of the substituting fat/protein is the lever, not the
   carbohydrate percentage. Observational (FFQ), weak reverse-causation checks only, no MR
   -> [[The U-Shaped Association Artifact]], [[Dietary Protein and Mortality]].
+  - **The larger pooled version — Qin 2023 (41-cohort SR+MA, to March 2022), a type-F refinement of
+    Seidelmann, NOT independent corroboration `[2026-08-19]`.** Qin re-pools **Seidelmann's ARIC AND
+    Dehghan's PURE** among its all-cause cohorts and explicitly cites Seidelmann as the antecedent it
+    agrees with (its finding «consistent with a previous meta-analysis revealing a U-shaped association
+    ... [17]», adding that Seidelmann «only included 7 prospective studies»)
+    [@qin2023carb] — so it **bounds** the U with a
+    larger pool, it does not independently confirm it (shared studies -> F, never `[E-independent]`). Three
+    things it adds: (i) it **firms the HIGH-carb arm** — highest-vs-lowest total carbohydrate RR **1.10
+    (1.03-1.17)** for CVD, **1.20 (1.08-1.34)** for stroke, per-5%E **1.02 (1.00-1.04)** CVD / **1.04
+    (1.01-1.06)** stroke [@qin2023carb];
+    (ii) the all-cause harm is **fragile** — RR **1.07 (1.00-1.14)**, J-shaped (Pnon-linearity 0.008) but
+    «not robust in the sensitivity analysis», going non-significant on removing **any** of Seidelmann,
+    Dehghan, McKenzie or Frisoni, and the per-5%E all-cause slope is **null**
+    [@qin2023carb]; (iii) it re-frames the axis —
+    «shifting the focus ... from carbohydrate quantity to carbohydrate quality»
+    [@qin2023carb], the quality signal (higher CQI
+    -> lower mortality) being protective but a GAP (3 studies, unpoolable). **Crucially for this page:
+    Qin does NOT decompose the substitution** (no animal- vs plant-replacement) and runs no MR/
+    referent-correction — so it is a **high-carb-HARM** claim, silent on whether low-carb *benefits*, and
+    the low arm stays exactly as unadjudicated as Seidelmann's. Still observational -> does not cash the
+    randomised-design `AWAITS`. -> [[The U-Shaped Association Artifact]], [[Is the Food Category Doing Any Work]].
 - `AWAITS` a source on whether carbohydrate restriction changes hard outcomes at all **in a randomised
   design** — PURE and Seidelmann (above) supply the observational cut but not the interventional one. The
   review points outside its own evidence base to cohort data showing *«harm at the extremes of intake»*

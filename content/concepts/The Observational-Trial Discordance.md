@@ -7,8 +7,8 @@ sources: []
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Upgrading Observational Evidence
@@ -43,7 +43,7 @@ this page's.
 
 | Instance | Observational signal | The randomized / causal test | How it resolves |
 |---|---|---|---|
-| **Ultra-processed food** | CVD-mortality association graded class-I *convincing* on the credibility scale | GRADE certainty **very low** for that same outcome — BUT Hall's inpatient RCT confirms UPF *causes* overeating (the mechanism) | the trial tested the RIGHT exposure (a whole UPF diet, short) and AGREES on mechanism; the discordance is credibility-vs-GRADE, resolved toward causal -> [[Ultra-Processed Food and Health Outcomes]] |
+| **Ultra-processed food** | CVD-mortality association graded class-I *convincing* on the credibility scale | GRADE very low for that outcome; Hall's inpatient RCT confirms UPF *causes* overeating (the mechanism) — but it is the WHOLE direct-diet RCT base (Aramburu's RCT-only SR: 4 trials, n=455, 30/42 null, all high-RoB) | on the **intake surrogate** the trial tested the right exposure and AGREES; on **hard outcomes** the RCT base is too thin to confirm or refute — INSUFFICIENT, not resolved. Hard-outcome RCTs are ethically ruled out -> [[Ultra-Processed Food and Health Outcomes]] |
 | **Coffee** | all-cause mortality RR \~0.83, CVD \~0.85 — consistent across a large umbrella | mostly GRADE very-low; Mendelian-randomization finds **no** genetic causal signal for coffee->T2D; no lifetime RCT is feasible | the natural experiment (MR) nulls one arm -> that arm is likely confounded; hold as insufficient-for-causation, not confirmed -> [[Coffee Consumption and Health]], [[Upgrading Observational Evidence]] |
 | **Mediterranean diet** | CVD/mortality graded *convincing* observationally | pooled whole-diet RCTs mostly null **except diabetes**; the one whole-PATTERN RCT (PREDIMED) moved events, while single-nutrient RCTs (the 54-RCT SFA-events null, Look AHEAD) did not | the RCT that tested the RIGHT exposure (the whole pattern) AGREES; the "null RCTs" tested a DIFFERENT exposure (single nutrients) -> [[Mediterranean Diet and Cardiovascular Events]] |
 | **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
@@ -60,6 +60,23 @@ intake leading to positive energy balance ... appears to be the main mechanism»
 (harm tracks the calories, not the molecule) is no longer only wiki-induced; a fourth body reached it by
 a separate systematic review (loci on [[Free Sugars Intake]]). It corroborates the *structure*, not an
 independent primary dataset.
+
+**On the UPF row, a fifth body states both halves of this page's method in an SR's voice `[2026-08-20]`.**
+Aramburu 2024 — the first RCT-only systematic review of UPF-reduction interventions — reaches this page's
+two load-bearing moves independently. (1) *The surrogate caution:* hard-outcome UPF RCTs are infeasible,
+so only short-term surrogate trials exist, and a surrogate is not a free pass — Aramburu's own analogy is
+that «reducing the intake of saturated fats has a favorable impact on lipid profile ... although it has
+not demonstrated a clear association with cardiovascular mortality», the LDL-vs-mortality surrogate gap
+the corpus holds -> [[Surrogate Outcomes]]. (2) *The resolution:* «triangulation has been proposed as the
+best approach based on integrating evidence from multiple study designs, such as short-term trials,
+mechanistic studies, and well-conducted large-scale epidemiological observational studies» — this page's
+*triangulate, do not crown the RCT* stated by a guidance-grade source. It also makes the
+insufficient-not-refute reading concrete: the RCT base is «only four clinical trials, of which only one
+directly evaluated the effects of consuming a UPF-based diet ... small ... short ... based on intermediate
+outcomes», so the trials «make it difficult to draw definitive conclusions about the true effect of UPFs
+on health.» This corroborates the *structure* (surrogate-validity + triangulation), not an independent
+primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
+Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
 
 ## Why the streams disagree — five mechanisms, not one
 

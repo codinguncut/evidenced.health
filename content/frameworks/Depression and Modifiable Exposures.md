@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable lifestyle exposures reduce depression, for whom, by how much, and how confident can we be?
 aliases: [Depression, Exercise for Depression, Diet and Depression, Nutritional Psychiatry, Lifestyle Depression, Depression Prevention]
-authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel]
-sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017]
+authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael]
+sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017]
 cluster: depression
 nucleus: true
 confidence: low
@@ -19,8 +19,8 @@ relationships:
     - Inflammation as a Modifiable Lever
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-09
-updated: 2026-08-09
-self_critiqued: 2026-08-09
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 ---
 
 Depression is on the wiki's outcome menu as a **patient-important QoL outcome** (the 2026-08-08
@@ -53,6 +53,14 @@ association from cause (below). Neither is a *big rock* on the physical-health a
 [[Layer 1 - Ranking Interventions for a Stratum|Layer-1 ranking]] as real but modest, low-certainty
 levers, and *attention is an anti-signal* here (nutritional psychiatry is heavily discussed and thinly
 evidenced).
+
+**Update — the diet lever now has a small treatment arm too.** The ranking above places diet as
+*observational-on-incidence* only; that was the state before the SMILES trial. SMILES adds one small,
+unblinded RCT of dietary improvement as adjunctive **treatment** of existing major depression (below,
+Lever 2). It does not change the ranking — exercise stays the better-warranted lever (218 RCTs vs one
+n=67 trial) — but it means diet is no longer purely observational: there is now a randomised
+treatment signal, distinct in question from Molendijk's prevention signal (the two are NOT the same
+claim — see the distinction below).
 
 
 [@noetel2024exercise]
@@ -166,7 +174,72 @@ dietary habits may predispose to metabolic illness, which in turn poses risk for
 diet-depression link may be partly *mediated by* the cardiometabolic big rocks the wiki already tracks,
 not an independent lever. The dietary inflammatory index signal (OR 0.81) is the low-heterogeneity edge
 of this -> [[Inflammation as a Modifiable Lever]]. **No RCT prevention trial exists** («To date, no such a
-trial has been performed») — the whole lever rests on observational prospective data. — the one RCT of diet as adjunctive treatment (underpowered); would move the diet lever from incidence-observational toward interventional if a powered replication lands.`
+trial has been performed») — the whole lever rests on observational prospective data.
+
+[@jacka2017smiles]
+### The SMILES trial — diet as adjunctive TREATMENT (one small unblinded RCT)
+
+The AWAITS above has landed. SMILES (Jacka 2017) is «the first RCT to explicitly seek to answer the
+question: If I improve my diet, will my mental health improve?». Design: «a 12-week, parallel-group,
+single blind, randomised controlled trial of an adjunctive dietary intervention in the treatment of
+moderate to severe depression» — seven dietician-led sessions promoting a Mediterranean-style diet
+versus a **social-support (befriending) control**, in adults already in treatment for MDD. It
+«randomised 67 individuals with MDD to the trial (intervention, n = 33; social support control,
+n = 34)». Primary outcome: MADRS at 12 weeks.
+
+Result: «The dietary support group demonstrated significantly greater improvement in MADRS scores
+between baseline and 12 weeks than the social support control group, t(60.7) = 4.38, p < .001». Effect
+size «Cohen's d of -1.16 (95% CI -1.73, -0.59)», an «average between group difference ... of 7.1 points
+on the MADRS». Remission: «32.3% (n = 10) of the dietary support group and 8.0% (n = 2) of the social
+support control group achieved remission criteria of a score less than 10 on the MADRS», between-group
+«χ2 (1) = 4.84, p = 0.028», NNT «4.1 (95% CI of NNT 2.3-27.8)».
+
+**Do not over-read this — n=67, single unblinded trial, tiny-n (registry tier = moderate).** The authors
+name the binding threat themselves: «there is the issue of expectation bias due to the fact that we
+needed to be explicit in our advertising regarding the nature of the intervention and to the inability to
+blind the participants to their intervention group; this may have biased the results and also resulted in
+differential dropout rates» (completion 94% diet vs 73.5% control), and failure to reach the planned
+sample «may also have inflated the effect size we observed». Under a not-missing-at-random sensitivity
+model «observed intervention effects moved towards the null» (though «robust against departures from the
+MAR assumption»). **Evidence state = insufficient / promising, NOT established:** one small unblinded RCT
+that *replaces* reverse causation (via randomisation) with *expectancy bias* (via no blinding). A large
+Cohen's d is exactly what unblinding + tiny-n + differential dropout would manufacture, so the number
+does not settle causation.
+
+#### Treatment (SMILES) vs prevention (Molendijk) — a DISTINCTION, not a tension, not corroboration
+
+The two diet findings answer DIFFERENT questions and must not be pooled, filed as a `[[tension]]`, or read
+as type-E independent backing. Not-joined check (ii) fires — different population, outcome, and horizon:
+
+| Parameter | SMILES (Jacka 2017) | Molendijk 2017 | Same quantity? |
+|---|---|---|---|
+| Design | single-blind RCT (n=67) | dose-response MA of prospective cohorts | NO |
+| Population | adults WITH existing MDD | non-depressed at baseline | NO |
+| Exposure | 12-wk dietician-led diet change | habitual diet quality, highest vs lowest | NO |
+| Outcome | MADRS symptom change (treat) | INCIDENCE of depression (prevent) | NO |
+| Estimand | between-group change in symptoms | OR of becoming an incident case | NO |
+| Effect | d -1.16; 7.1 MADRS points | OR 0.77 highest-vs-lowest | NO — treat vs prevent |
+
+Every row is NO: a treatment effect on symptom trajectory in the already-ill is a different object from a
+prevention association on incidence in the well. Filing this as a tension would be a fake tension; scoring
+it as type-E would launder two non-same, non-independent claims into false robustness. It is a
+**distinction** — the two levers bracket the diet-depression question at opposite ends (prevent vs treat)
+without either establishing the causal link.
+
+**The beyond-summary composite (type-F refinement).** Molendijk's prevention signal is
+fragile precisely to **reverse causation** — adjusting for baseline symptoms collapses it (OR 0.72 ->
+0.96 above). SMILES **randomises** the diet change, which is the one manoeuvre an observational cohort
+cannot perform, so it removes reverse causation as the explanation for *its* result. But it does not
+thereby inherit clean causal status: unblinding substitutes **expectancy bias** for reverse causation. So
+the composite that neither source states alone is — randomisation answers Molendijk's fatal confounder
+but opens a new one, and neither design alone (nor the two stacked) establishes that *improving* diet
+*lifts* depression. The honest net reading: diet is a **candidate causal lever** carrying a small
+randomised treatment signal plus a fragile observational prevention signal, still short of established.
+
+**G-gap (unheld future source):** no powered, adequately-blinded-or-active-control-matched replication RCT
+of dietary improvement as depression treatment yet exists; that is what would move this lever from
+insufficient/promising toward established, and would count as type-E corroboration only if its independent
+design also rules out expectancy bias.
 
 
 ## Synthesis — what this domain does and does not license
@@ -182,6 +255,11 @@ trial has been performed») — the whole lever rests on observational prospecti
   the binding constraint — is a defensible alternative or adjuvant to psychotherapy/pharmacotherapy, not
   merely a fallback. The wiki appraises; it does not prescribe, screen, or manage the disorder (the
   prescriber/acute-care line).
+- **Diet as adjunct is now a candidate, not a fallback — but weakly.** SMILES adds a single small
+  unblinded RCT showing diet improvement can *treat* symptoms (not just track lower incidence), so
+  dietician-supported dietary improvement is a reasonable low-risk adjunct to consider — while holding
+  that one n=67 expectancy-prone trial is insufficient to establish the effect, and that the prevention
+  and treatment claims are a distinction, not one finding.
 - **Open loop:** no operation here grades these against a *realized* patient outcome; the evidence is
   symptom-scale change, and the trajectory/quality-of-life shape depression most degrades is
   under-measured.

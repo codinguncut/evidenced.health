@@ -43,6 +43,9 @@ BP levers.
   disease, why the dose is cumulative, why measure apoB)
 - [[Statins for Primary Prevention and the Power of Zero CAC]] — for a primary-prevention adult, does a
   statin help, and does a zero coronary-calcium score change that decision?
+- [[Aspirin for Primary Prevention of Cardiovascular Disease]] — does daily aspirin prevent enough CV
+  events to outweigh its bleeding harm? (net wash-to-harm; benefit ARR 0.41% offset by bleeding ARI
+  0.47%, in every risk stratum — the de-adoption anchor)
 - [[Eggs Dietary Cholesterol and Cardiovascular Risk]] — whether dietary cholesterol from eggs raises CV
   risk (near-null in general cohorts; the signal, where any, is in diabetics), and why the headline swings
 

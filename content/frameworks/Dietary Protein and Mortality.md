@@ -16,8 +16,8 @@ relationships:
     - Dietary Fibre and Health
     - The Estimate-to-Action Gap
 created: 2026-08-05
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 The popular framing is about *how much* protein — high-protein for longevity, or high-protein as a
@@ -148,6 +148,16 @@ predicts exactly this — «animal meat contains fat, sodium, iron, and B vitami
 consistent with animal protein-the-nutrient being null**. The two *reinforce* the nutrient-vs-food
 distinction rather than clashing -> [[Is the Food Category Doing Any Work]].
 [inferred from @naghshi2020; @seidelmann2018]
+
+**A larger pooled carbohydrate MA does NOT advance the source axis — Qin 2023 (G-gap) `[2026-08-19]`.**
+The 41-cohort SR+MA that re-pools Seidelmann (see [[The U-Shaped Association Artifact]],
+[[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]) measures **total carbohydrate quantity only** and runs
+**no substitution decomposition** — it cannot say what replaces the carbohydrate, so it adds pooled
+magnitude to the carb-quantity arm but leaves the animal-vs-plant *source* question — the axis this page
+turns on — exactly where Seidelmann left it. Its own reframing points the same way qualitatively («shifting
+the focus ... from carbohydrate quantity to carbohydrate quality»), but quality/source is a **named gap** in
+Qin (3 unpoolable studies), not a decomposed estimate.
+[inferred from @qin2023carb]
 
 ## Budhathoki 2019 (JPHC Japan) — same verdict, and it is a CONSTITUENT of Naghshi (type-F, NOT independent-E)
 

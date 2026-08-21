@@ -49,7 +49,7 @@ rather than testing it afresh. **Marston's leg — a biobank cohort plus two sta
 overlap — is the genuinely independent witness**; read the convergence as two routes agreeing, not
 three unrelated ones.
 
-**Particle *number*, not particle type or cholesterol content, carries the risk.** Once apoB is fixed, the small-dense-versus-large-LDL distinction stops predicting events [@marston2022]. Richardson's verdict is that **«apolipoprotein B is the predominant trait»** underlying the whole lipid-CHD relationship [@richardson2020].
+**Particle *number*, not particle type or cholesterol content, carries the risk.** Once apoB is fixed, the small-dense-versus-large-LDL distinction stops predicting events [@marston2022]. Richardson's verdict is that **«apolipoprotein B is the predominant trait»** underlying the whole lipid-CHD relationship [@richardson2020].] tension (independent deCODE/Danish MR) finds CAD risk proportional to non-HDL-C cholesterol content, NOT apoB particle number. On next recompile, qualify this sentence to the apoB-over-LDL-C verdict only and note the contested apoB-vs-non-HDL-C secondary-target choice; do not fix in the deliverable layer.]
 
 **Read this correctly: apoB is *necessary*, LDL-C is not discredited.** apoB never travels without cholesterol, so the LDL-C null in the multivariable analysis is not a claim that cholesterol is inert — it means a cholesterol change that is *not accompanied by an apoB change* may not move risk. LDL particles each contain an apoB molecule; that is why lowering LDL-C works when it genuinely lowers particles.
 

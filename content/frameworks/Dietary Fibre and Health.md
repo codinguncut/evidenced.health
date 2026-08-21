@@ -19,7 +19,7 @@ relationships:
     - Free Sugars Intake
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-29
-updated: 2026-08-17
+updated: 2026-08-18
 self_critiqued: 2026-08-17
 ---
 
@@ -39,6 +39,7 @@ strongest evidence sits on the smallest effect.**
   healthy-user confound and dietary measurement error ([[Measurement Error in Dietary Assessment]]). In
   absolute terms Reynolds puts all-cause mortality at «13 fewer deaths (95% CI eight to 18) ... per 1000
   participants over the duration of the studies».
+  
 - **The RCT-grade effect is real, causal, and small.** Where fibre is tested as a dosable, blindable
   **isolate** in controlled trials, it moves surrogates: viscous/soluble fibre lowers LDL by **-0.057
   mmol/L per gram** in the practical 2-10 g/d range (Brown), and higher fibre intake lowers bodyweight

@@ -2,10 +2,10 @@
 type: framework
 question: How strongly does grip strength predict all-cause and cause-specific mortality, is it a useful cheap risk metric, and does raising it help?
 aliases: [Grip Strength, Handgrip Strength, Grip Strength Mortality, Muscle Weakness Mortality, Handgrip Dynamometer, Grip Strength Risk Score]
-authors: [Celis-Morales, Carlos A]
-sources: [Celis-Morales - Grip Strength Mortality 2018]
+authors: [Celis-Morales, Carlos A; Lopez-Bueno, Ruben]
+sources: [Celis-Morales - Grip Strength Mortality 2018, Lopez-Bueno - Handgrip Strength Thresholds]
 cluster: muscle
-confidence: medium
+confidence: high
 relationships:
   related_to:
     - Low Muscle Mass and Mortality
@@ -18,20 +18,25 @@ relationships:
     - Big Rocks (Elderly)
     - Frailty
 created: 2026-08-06
-updated: 2026-08-08
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 Grip strength is the **cheap, fast, no-lab proxy for muscle FUNCTION** (force), as distinct from muscle
 *mass* (quantity -> [[Low Muscle Mass and Mortality]]). Celis-Morales 2018 (UK Biobank, n=502,293,
-40-69 y, mean 7.1 y follow-up) is the large-scale evidence that lower grip strength predicts a wide range
-of adverse outcomes. Two decision-relevant claims: (1) it is a **strong, broad mortality predictor** at
-scale, and (2) it works as a **cheap risk METRIC** — it improves an office-based risk score where no blood
-draw is possible. The design is a single observational cohort, so grip is a **predictor, not a proven
-causal lever** — and the authors frame the paper as *prediction*, not causation, on purpose. This is the
-general prognostic-marker-vs-modifiable-lever distinction ([[Surrogate Outcomes]] -> *Prognostic marker
-vs modifiable lever*): grip is partly *lowered by* occult ill-health, so it is a marker to stratify with,
-not assumed a target to train toward.
+40-69 y, mean 7.1 y follow-up) is the large single-cohort evidence that lower grip predicts a wide range
+of adverse outcomes; Lopez-Bueno 2022 (SR + dose-response MA, **48 cohorts, 3.14M adults, 40+ countries**)
+now backs the core association at multi-cohort scale and adds the dose-response *shape*. Two
+decision-relevant claims: (1) it is a **strong, broad, cross-population mortality predictor**, and (2) it
+works as a **cheap risk METRIC** — it improves an office-based risk score where no blood draw is possible.
+The whole evidence base is **observational cohort** (no trial, no MR), so grip is a **predictor, not a
+proven causal lever** — Celis-Morales frames the paper as *prediction* on purpose (Lopez-Bueno, by
+contrast, over-reads it as a training lever — see below). This is the general
+prognostic-marker-vs-modifiable-lever distinction ([[Surrogate Outcomes]] -> *Prognostic marker vs
+modifiable lever*): grip is partly *lowered by* occult ill-health, so it is a marker to stratify with, not
+assumed a target to train toward.
+
+[inferred from @celismorales2018; @lopezbueno2022]
 
 ## The effect estimate — per 5 kg lower grip, fully adjusted + landmark
 
@@ -71,6 +76,51 @@ and CVD mortality — vs systolic blood pressure «1.03 and 1.26» and total phy
 comparison grip showed «the strongest association» with mortality — a marker point, not a claim that grip
 *causes* more than BP does.
 
+## Multi-cohort upgrade — Lopez-Bueno 2022 SR + dose-response MA
+
+[@lopezbueno2022]
+
+Lopez-Bueno pools **48 prospective cohorts (3,135,473 adults, 49.6% women, age 35-85, >40 countries,
+follow-up 2.3-44 y)**, taking the grip-mortality association from one UK cohort to a broad multi-country
+base. Grip values examined ranged **15-50 kg** (the studied range — the extrapolation boundary below).
+Two analyses: a random-forest model over tertile estimates, and a hierarchical meta-regression
+dose-response (restricted cubic spline, knots at the 10th/50th/90th percentile).
+
+Random-forest tertile HRs (reference = STRONGEST third; 1st = weakest):
+
+| Outcome | 2nd tertile HR (95% CI), I2 | 1st (weakest) tertile HR (95% CI), I2 |
+|---|---|---|
+| All-cause (12 studies) | 1.30 (1.17-1.44), 52.6% | 1.58 (1.40-1.78), 58.9% |
+| Cancer | 1.12 (1.03-1.23), 0.0% | 1.27 (1.01-1.59), 76.0% |
+| Cardiovascular | 1.25 (1.06-1.48), 63.2% | 1.51 (1.13-2.02), 87.4% |
+
+The weakest tertile carries \~1.6x all-cause and \~1.5x CV mortality vs the strongest — a large *relative*
+contrast, consistent in direction with Celis-Morales's per-SD figures. Cancer is attenuated (matching
+Celis-Morales's weaker cancer signal). Heterogeneity is high on the cause-specific weakest-tertile arms
+(I2 76-87%).
+
+**This is type-F, not independent backing (type-E) — UK Biobank is inside the pool.**
+[inferred from @lopezbueno2022; @celismorales2018]
+Celis-Morales 2018 IS one of the 48 SR studies, and UK Biobank data enters the pooled dose-response via
+Kim 2018 (70,913) and Yates 2017 (420,727). So Lopez-Bueno's "agreement" with the held page is partly
+the *same data* re-pooled, and the whole base is one observational-cohort lineage (no genetic/MR route) —
+no confidence lift from convergence. What it DOES add is cross-population **breadth** (40+ countries, 48
+cohorts vs one UK cohort) and an explicit **dose-response shape**, which is the F-value: the composite
+beats either alone. No `[E-independent]` token.
+
+The parameter table (are these the same quantity as Celis-Morales's numbers?):
+
+| Parameter | Celis-Morales 2018 | Lopez-Bueno 2022 | Same quantity? |
+|---|---|---|---|
+| Exposure metric | HR per 5 kg / per 1 SD lower (continuous) | tertile-contrast HR + dose-response range (kg) | **No** — per-unit vs categorical/curve |
+| Population | UK Biobank, 40-69 | 48 cohorts, 35-85, 40+ countries | **No** — single vs pooled |
+| Design | single observational cohort | SR-MA of 48 observational cohorts | partial — same lineage |
+| Reverse-causation handling | 2-yr landmark + adjustment | none (structural inclusion only) | **No** — landmark vs none |
+| Outcomes | all-cause/CV/cancer/resp | all-cause/CV/cancer | partial |
+
+Different effect metric + different population + different reverse-causation handling => Lopez-Bueno
+**quantifies-and-refines at scale**, it does not independently re-derive Celis-Morales's per-unit HR.
+
 ## The dose-response is linear — no knee, no plateau over the studied range
 
 [@celismorales2018]
@@ -84,6 +134,34 @@ measured** capacity shows a clean monotone gradient, unlike the plateaus/U-shape
 [[Cardiorespiratory Fitness and Mortality]]. (Caveat: a per-outcome spline visually judged linear is weak
 evidence of true linearity, and the low high-strength event count limits power at the top end — absence
 of a located knee, not proof of none.)
+
+**Lopez-Bueno's pooled dose-response — the shape is OUTCOME-SPECIFIC, and the thresholds carry both
+load-bearing facts [@lopezbueno2022].**
+The pooled meta-regression found «higher levels of handgrip strength significantly reduced the risk of
+all-cause mortality within 26-50 kg... in a close-to- linear inverse fashion. Cancer and cardiovascular
+mortality displayed a trend towards a U-shaped association with a significant risk reduction between 16 and
+33 kg... and a close-to-linear inverse shaped and significant risk reduction ranging from 24 to 40 kg
+respectively.» The two facts every threshold must carry:
+
+- **These are significance-crossing RANGES, not point cutpoints with their own CIs** — the numbers say
+  *over this span the pooled HR is significantly below the reference*, not *the optimum sits here*. I2 is
+  moderate for all-cause (45.7%) but considerable for cancer (77.4%) and CV (79.7%), so the cause-specific
+  curves are pooled over heterogeneous studies.
+- **The studied range is 15-50 kg — so the all-cause upper bound (50 kg) IS the sampling edge.** The
+  authors say so: the maximum threshold «is limited by the estimates obtained from the included studies,
+  and individuals with higher handgrip levels... might also benefit from an even lower risk», and «the
+  uptick of the dose- response curves at the higher end... may simply represent lack of data rather than a
+  genuine lack of association» [@lopezbueno2022]. So the
+  cancer/CV "U" is a monotone-inverse curve with a **spuriously-inverted right tail from thin data** — the
+  source diagnoses its own artifact -> [[The U-Shaped Association Artifact]]. Operative reading: the knee
+  is not located, every reduction still pays, over-shooting a (possibly non-existent) upper threshold
+  merely fails to help.
+- **Cancer had NO lower threshold** — risk fell with strength from the lowest observed values
+  «we found no minimal threshold for the beneficial associations between handgrip strength and cancer
+  mortality» [@lopezbueno2022] — cancer-specific and
+  modified by cancer type (inverse for lung/colorectal/breast, null for prostate). Net: Lopez-Bueno
+  **confirms Celis-Morales's monotone all-cause reading and bounds it with a studied range**, while
+  showing the "shape" is outcome-specific — a type-F refinement, not a contradiction.
 
 ## The metric value — grip improves an office-based risk score
 
@@ -176,7 +254,25 @@ inferences, reverse causality is not a major limitation.» That defence holds **
 marker can predict via reverse causation and still stratify usefully) but is exactly why it does **not**
 license the **lever** use -> the predictor/target line above.
 
+**Lopez-Bueno handles reverse causation LESS, not more — and over-reads the lever
+[@lopezbueno2022].** Pooling more cohorts does not
+mitigate the marker problem: the strings "reverse causation" and "residual confounding" never appear in
+the paper (srcgrep 0/2 files), and its named limitations are sparsity, heterogeneity, generalizability,
+and unverified proportional hazards — not the frailty/occult-disease shadow. Its only mitigation is
+structural (inclusion of «apparently healthy» adults; the NOS *outcome-not-present-at-start* domain), and follow-up
+as short as **2.3 years** in some pooled studies AMPLIFIES the threat vs Celis-Morales's 2-year landmark.
+Worse, the authors read the observational gradient as an intervention: «there is still a margin for
+improving muscular strength in order to reduce the risk of all-cause mortality», people «might also reduce
+their risk of cancer mor- tality by either maintaining or increasing muscular strength», and the paper
+offers «clinical guid- ance for exercise prescription» — none grounded in any trial (all 48 studies are
+observational). This is the **guidance-null defeated by better warrant**: the wiki holds the more
+disciplined line (marker, not proven lever) precisely where a gold SR-MA over-claims. Route the
+does-training-lower-mortality question to [[Muscle-Strengthening Activity and Mortality]], where the
+intervention evidence actually lives.
+
 ## Decision relevance
+
+[inferred from @celismorales2018; @lopezbueno2022]
 
 - **Capture grip with a hand dynamometer where a fuller work-up is wanted** — cheap, fast, reproducible,
   no lab; it adds risk discrimination on top of age/sex/BP/BMI/smoking/diabetes, most usefully where blood
@@ -193,16 +289,44 @@ license the **lever** use -> the predictor/target line above.
 
 ## Limits — the open loop
 
-- **Single observational cohort.** No randomization; consistent with prior grip literature (PURE, Cooper
-  meta-analysis, Tromsø — all same observational lineage, so corroboration, not independent backing) but
-  not causal.
-- **Reverse causation / residual confounding unresolved** (above) — mitigated by the 2-year landmark, not
-  eliminated.
+[inferred from @celismorales2018; @lopezbueno2022]
+
+- **Observational-cohort lineage only.** The base is now multi-cohort (Celis-Morales UK Biobank +
+  Lopez-Bueno's 48-cohort SR-MA, 3.14M, 40+ countries), which adds cross-population breadth but NO new
+  design — no RCT, no MR/genetic route. UK Biobank sits inside Lopez-Bueno's pool, so the agreement is
+  type-F (breadth + shape), not type-E independent backing; the whole shares one confounding structure.
+- **Reverse causation / residual confounding unresolved** (above) — Celis-Morales mitigates with a 2-year
+  landmark; Lopez-Bueno does not address it at all (and adds studies with follow-up as short as 2.3 y).
+  Not eliminated in either.
+- **Thresholds are studied-range-bounded** — Lopez-Bueno's upper thresholds (all-cause 50 kg) sit at the
+  edge of the 15-50 kg studied range and the cancer/CV "U" upper arm is a self-diagnosed sparsity
+  artifact, not evidence of harm from high strength.
 - **UK Biobank is not representative** (healthier, less deprived than the general UK population); the
   authors judge the *magnitude* estimates generalisable but the summary statistics not.
 - **Linearity is spline-judged, not established** — no located knee/plateau, but weak evidence of true
   monotonicity, and power thins at high strength.
 - **The loop is open.** This grades coherence and source-fidelity, never validity: no operation here
   checks whether measuring — let alone raising — grip strength changes what a person experiences.
+
+## Self-critique `[run 2026-08-19, before commit — Lopez-Bueno reweaving]`
+
+- **Laundered independence — the primary risk, and it is blocked.** The dangerous move would be reading a
+  second large "confirming" source as independent backing and lifting confidence on convergence. It is
+  not: Celis-Morales (UK Biobank) IS one of Lopez-Bueno's 48 SR studies, and UK Biobank data enters the
+  pooled dose-response — so this is type-F (breadth + explicit shape), no `[E-independent]` token, and the
+  confidence lift to `high` is justified on **total support** (a gold SR-MA over 3.14M across 40+ countries
+  is a stronger prognostic base than one UK cohort) + cross-population breadth, NOT on agreement. The whole
+  base remains one observational-cohort lineage with no genetic/MR route — stated in Limits.
+- **Overclaim — survives the stripped-claim test.** Strip the most dramatic figure (grip out-ranking SBP
+  per-1-SD) and the decision-relevant core holds: grip predicts mortality broadly and adds discrimination
+  to a cheap office score. No wiki-voice superlative of the *strongest-evidence-the-wiki-holds* kind is asserted; the
+  "strongest association" phrase is scoped to a within-model marker comparison, not a causal claim.
+- **No fake tension.** Lopez-Bueno vs Celis-Morales is F-refinement (parameter table: same-quantity No on
+  metric/population/reverse-causation), not a filed tension; mass-vs-strength is a type-B distinction with
+  not-joined check (ii) firing. The one genuine friction — Lopez-Bueno's interventional over-reach — is
+  handled as guidance-null-defeated-by-better-warrant, not laminated into a tension.
+- **Coherence, not validity** (R1): the page establishes grip as a *predictor/metric* and explicitly does
+  NOT establish that raising grip lowers mortality — a claim about the evidence, routed to the intervention
+  page, not a claim about the world.
 
 ## References

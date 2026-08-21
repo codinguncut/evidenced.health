@@ -4,11 +4,11 @@ title: Dietary Supplements
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org)]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -211,9 +211,16 @@ stratum:
   [@kahwati2018].
 - **Cardiovascular (contested).** Bolland found calcium +/- D raised myocardial infarction (RR 1.24,
   1.07-1.45) and MI-or-stroke (RR 1.15, 1.03-1.27)
-  [@bolland2011]. Hold it as a counterweight, not
-  a settled harm: it is subgroup-derived and disputed by later reviews. Its own ledger — six extra CV
-  events per 1000 over five years (NNH 178) versus three fractures prevented (NNT 302)
+  [@bolland2011]. Hold it as a counterweight
+  rather than a settled harm — subgroup-derived and disputed — but the direction has **firmed, not
+  faded**: a later pooling of 13 double-blind RCTs (28,935, though CV was mostly a *secondary* endpoint) reproduced it
+  (CVD RR 1.15 [1.06-1.25], MI RR 1.25 [1.07-1.45], I2=0%), concentrated in the *low-risk-of-bias*
+  trials [@myung2021]. This **firms without
+  settling** it — Myung re-pools Bolland's own trials and unpublished data (**type-F**, not an
+  independent witness)
+  [inferred from @myung2021; @bolland2011].
+  Bolland's own ledger — six extra CV events per 1000 over five years (NNH 178) versus three fractures
+  prevented (NNT 302)
   [@bolland2011] — was computed in
   *community-dwelling healthy* women, the enhancement arm, where the fracture benefit is weakest.
 
@@ -345,9 +352,9 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 20 sources — 8 gold, 11 high, 1 moderate |
+> | **Evidence included** | 21 sources — 8 gold, 12 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-08-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 ## References

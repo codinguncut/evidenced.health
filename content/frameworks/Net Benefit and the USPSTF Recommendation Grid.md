@@ -3,9 +3,10 @@ type: framework
 question: How does USPSTF turn an evidence appraisal into a recommendation without a strength axis?
 aliases: [USPSTF Recommendation Grid, Net Benefit, Magnitude of Net Benefit, A B C D I Grades, USPSTF Letter Grades, Certainty by Magnitude Grid]
 authors: [US Preventive Services Task Force (org)]
-sources: [USPSTF - Procedure Manual 2022]
+sources: [USPSTF - Procedure Manual 2022, USPSTF - Aspirin Primary Prevention 2022]
 cluster: evidence-appraisal
 confidence: low
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -13,8 +14,9 @@ relationships:
     - GRADE vs USPSTF - Two Appraisal Systems
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
+    - Aspirin for Primary Prevention of Cardiovascular Disease
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-20
 ---
 
 USPSTF forms a recommendation from **two axes only** — certainty of net benefit, and magnitude of net
@@ -128,12 +130,35 @@ Read literally, the grid encodes three rules:
   it does not help* (moderate/high certainty, zero/negative magnitude). Collapsing them is the commonest
   misreading. -> [[The Insufficient-Evidence Statement]]
 
+## Worked cell — aspirin 2022 (the grid applied to a real topic)
+
+The 2022 aspirin primary-prevention statement is the first held USPSTF recommendation whose two grid
+axes can be read off directly, and it lands **two adjacent cells on the moderate-certainty row**
+[@uspstf2022aspirin]:
+
+| Recommendation | Certainty | Magnitude | Grid cell -> grade | Action content |
+|---|---|---|---|---|
+| Initiate aspirin, adults 40-59 at >=10% 10-yr CVD risk | moderate | small | moderate x small = **C** | individual/shared decision |
+| Initiate aspirin, adults >=60 | moderate | zero/negative | moderate x zero-neg = **D** | recommend against |
+
+This instantiates two of the grid's structural rules on one topic. The **C** confirms the
+*small-net-benefit-is-its-own-action-content* reading: USPSTF concludes «with moderate certainty» a
+«small net benefit» and the licence is shared decision-making, not a weakened offer
+[@uspstf2022aspirin]. The **D** confirms the load-bearing
+D-vs-I distinction — it is a *confident* no-net-benefit («moderate certainty that initiating aspirin
+use... has no net benefit»), **not** an I: the evidence is sufficient, the magnitude is what is
+zero/negative [@uspstf2022aspirin]. The full effect/what-to-do
+layer lives on [[Aspirin for Primary Prevention of Cardiovascular Disease]]; here it serves only as the
+grid's worked audit. **Caveat — one topic is not a consistency test:** that USPSTF read *this* topic
+onto the grid coherently does not show it applies the grid uniformly; that still needs more worked
+cells [inferred from @uspstf2022aspirin].
+
 ## Limits
 
-- **Single-source (the manual describes its own instrument).** Whether USPSTF *applies* the grid
-  consistently across topics is not testable from the method document. The wiki holds three USPSTF
-  recommendation statements (statins, multivitamins, supplements) that could supply worked cells.
-  `AWAITS` a worked audit of a USPSTF recommendation against this grid.
+- **The grid is described by its own manual; application is under-sampled.** Whether USPSTF *applies*
+  the grid consistently across topics needs many worked cells, not one. The aspirin 2022 cells above are
+  the first worked audit (moderate x small = C, moderate x zero/negative = D); the wiki also holds
+  USPSTF statements (statins, multivitamins, supplements) that could supply more.
 - **The grid is coarse** — two axes at 3x4 resolution, with the entire low-certainty row collapsed to
   one cell. It buys auditability and communicability at the cost of resolution, the same trade GRADE
   makes.

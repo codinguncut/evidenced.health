@@ -2,8 +2,8 @@
 type: concept
 question: Why does aging blunt the muscle response to dietary protein, and what does that change about how much and how an older adult should eat protein?
 aliases: [Anabolic Resistance, Anabolic Resistance of Aging, Attenuated MPS Response, Per-Meal Anabolic Threshold, Leucine Threshold, Muscle Protein Synthesis Response]
-authors: [Bauer, Jürgen; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Wolfe, Robert R]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006]
+authors: [Bauer, Jürgen; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Wolfe, Robert R; Komar, B; Schwingshackl, L]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Komar - Leucine-Rich Protein Elderly]
 cluster: muscle
 confidence: medium
 relationships:
@@ -17,8 +17,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - GLP-1 and Lean Mass
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 The mechanism that makes older age a genuine protein-intake **stratum**, not just a demographic label.
@@ -102,7 +102,50 @@ sources are one research community, so their convergence cannot be counted as in
   target is therefore a **within-programme** consistency check, not two methods arriving separately.
 
 The convergence raises coherence, not confidence-through-independence. Genuinely independent
-confirmation (a different school, a hard-outcome trial) is a standing gap.
+confirmation (a different school, a hard-outcome trial) is a standing gap — **now partly filled by
+Komar 2015 (below), a different-school chronic-outcome MA; it confirms the DIRECTION on mass but
+deflates the surrogate optimism on strength.**
+
+## The chronic-outcome test — does the acute MPS surrogate translate? (Komar)
+
+[@komar2015]
+Everything above is acute MPS — a surrogate. Komar 2015 (gold SR+MA, 16 RCTs, 999 subjects aged >=65,
+leucine 2-7.8 g/d for >=10 days) is the chronic clinical-outcome test the metabolic sources' own open
+question demanded. It is a **type-F surrogate->outcome upgrade, not independent (type-E) corroboration**:
+the Vienna group is a different school, but it **cites Katsanos as its rationale**, so agreement on the
+leucine premise is downstream, not a separate route. The verdict is *split*, and the split is the value:
+
+- **Mass — the surrogate translates, but only in the deficit stratum.** Leucine-rich protein raised
+  lean body mass +0.99 kg overall [95% CI 0.43, 1.55; p=0.0005], but subgroup analysis puts the whole
+  effect in the **sarcopenic** stratum (LBM +1.14 kg [0.55, 1.74] in sarcopenia vs **-0.05 kg [-1.55,
+  1.46], null**, in healthy elderly). Body weight follows the same pattern (+0.75 kg in sarcopenia, null
+  in healthy). So the anabolic-resistance fix buys measurable *mass* where there is a deficit to
+  repair, and \~nothing in already-replete healthy elderly -> a repletion-not-enhancement reading
+  ([[Deficiency Repletion vs Enhancement]]).
+- **Strength — the surrogate does NOT translate (the decision-relevant discordance).** Neither «hand
+  grip strength nor knee extension strength were affected by leucine supplementation in a fashion
+  significantly different from control interventions» — grip WMD +0.23 (pounds/inch2) [-0.26, 0.73;
+  p=0.36; I2=65%], knee extension +0.07 Nm/kg [-0.26, 0.40; p=0.68; I2=48%]. **A leucine-driven MPS/mass
+  gain that does not show up as measured strength is a surrogate-outcome discordance**
+  -> [[Surrogate Outcomes]]: the chain MPS -> LBM moved while the more patient-important endpoint
+  (strength/function) did not.
+- **But the strength null is under-powered, not a clean refutation.** Komar attributes it to design —
+  «most outcome parameters could be extracted from only a small number of trials potentially
+  insufficient to yield significant results» — and other SRs with broader inclusion (younger, exercise
+  co-intervention) *did* find grip / leg-press gains. Grip I2=65% is a disperse null. So strength sits
+  at *insufficient evidence*, not confident *no effect* (the expectancy test fails) — hold the
+  discordance as a live warning, not a settled null.
+- **The chronic data cannot isolate leucine, and locates no dose knee.** Komar's own limitation: the
+  effect is «not due to this distinct amino acid but at least in part to other ingredients» and «an
+  increase in total energy consumption might be a prerequisite ... with respect to parameters such as
+  LBM». So at the chronic-outcome level the exposure is *leucine-rich protein + energy*, not isolated
+  leucine — a caveat on the leucine-specificity that Manifestation 1's acute design could hold constant
+  but a whole-food chronic trial cannot. And with doses spanning 2-7.8 g/d at high heterogeneity, no
+  chronic dose-response knee is locatable; the >=2 g/d inclusion floor is a design choice, not a
+  confirmed threshold -> [[The Underivable Optimum]]. Glucose markers (FG, FI, HOMA, albumin) were all
+  null in the pooled analysis; that pool spans the two DM2 trials (Leenders, Scognamiglio), though Komar
+  reports no diabetes-specific subgroup [inferred from @komar2015] — so the insulin-independent MPS pathway did not read out as
+  glycaemic benefit.
 
 ## Decision relevance
 
@@ -125,10 +168,13 @@ confirmation (a different school, a hard-outcome trial) is a standing gap.
 
 [inferred from @moore2014; @katsanos2006]
 
-- **Surrogate endpoint.** Everything here is measured as acute MPS / fractional synthetic rate — a
-  surrogate for muscle mass, which is itself a surrogate for function and mortality
-  -> [[Surrogate Outcomes]]. A raised acute MPS has never been shown in these sources to translate into
-  a fracture, disability, or mortality difference — the loop is open.
+- **Surrogate endpoint — now partly cashed one step down the chain.** The mechanism (Manifestations
+  1-3) is measured as acute MPS / fractional synthetic rate — a surrogate for mass, itself a surrogate
+  for function and mortality -> [[Surrogate Outcomes]]. Komar (above) advances the surrogate ONE step:
+  chronic leucine-rich protein does raise *lean mass* (in sarcopenic elderly), but the further step to
+  *strength* was null, and no fracture / disability / mortality trial exists — so the loop is now
+  **open on function and hard outcomes, closed only on the mass surrogate in the deficit stratum**, and
+  even that cannot separate leucine from protein/energy.
 - **Small, acute.** Moore is a retrospective pool of small tracer studies (men only); Katsanos is a tiny
   acute parallel-group study (n\~8-10/arm, both sexes); single boluses over 3-4 h. Whether the acute
   breakpoint predicts chronic muscle maintenance is the authors' own stated open question.

@@ -3,12 +3,12 @@ type: deliverable
 title: Processed Food
 question: 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density and hyper-palatability, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?'
 aliases: [Is Processed Food Bad, Ultra-Processed Food, UPF, NOVA Classification, Processing Aspects]
-authors: [Lane, Melissa M; Hall, Kevin D; World Cancer Research Fund International (org); World Health Organization (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); Suez, Jotham; Qin, Pei; Johnston, Bradley C; Riboli, Elio (IARC Monographs Working Group); Joint FAO WHO Expert Committee on Food Additives (org); Baye, Estifanos; Afshin, Ashkan]
-sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, NutriRECS - Red and Processed Meat Recommendations 2019, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Baye - Low AGE Diet Cardiometabolic 2017, Afshin - Health Effects of Dietary Risks GBD 2019]
+authors: [Lane, Melissa M; Hall, Kevin D; World Cancer Research Fund International (org); World Health Organization (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); Suez, Jotham; Qin, Pei; Johnston, Bradley C; Riboli, Elio (IARC Monographs Working Group); Joint FAO WHO Expert Committee on Food Additives (org); Baye, Estifanos; Afshin, Ashkan; Aramburu, Adolfo]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, NutriRECS - Red and Processed Meat Recommendations 2019, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Baye - Low AGE Diet Cardiometabolic 2017, Afshin - Health Effects of Dietary Risks GBD 2019]
 confidence: low
 created: 2026-08-01
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 ---
 
 **Processed food is not one exposure, and treating it as one is the mistake to avoid.** The
@@ -74,6 +74,19 @@ pleasantness ratings did not differ between the diets [@hall2019]. Second, the e
 magic — the ultra-processed meals were eaten faster (+17 kcal/min), had 85% higher non-beverage energy
 density, and diluted protein (modelled to explain *«at most 50%»* of the gap) [@hall2019]. n=20, one trial, two-week arms: it establishes
 *that* processing moves intake and points at *which* properties, without isolating a single lever.
+
+That one trial is not a gap in this page's reading but a gap in the **field**. Aramburu 2024, the first
+systematic review restricted to *randomized* UPF trials, searched to 2024 and found only **four** — Hall's
+feeding trial plus three *educational* interventions that changed dietary advice (and much else) rather
+than processing at matched composition, and every one at high risk of bias
+[@aramburu2024]. Aramburu **includes Hall** as
+one of the four, so it is not a second witness confirming him — it is the systematic accounting that shows
+Hall essentially *is* the direct-feeding RCT base
+[inferred from @aramburu2024; @hall2019].
+Aramburu itself declines to attribute the overeating to processing *per se*. The upshot is an evidence
+**state**, not a verdict: for processing-as-cause on hard outcomes the randomized base is one small
+surrogate trial amid three confounded ones — **insufficient, not refuted**, exactly the low certainty
+this page carries.
 
 ## On disease and death, the evidence is broad association at low certainty
 
@@ -235,9 +248,9 @@ appraisal, not a settled verdict.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density and hyper-palatability, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?' |
-> | **Evidence included** | 14 sources — 7 gold, 6 high, 1 moderate |
+> | **Evidence included** | 15 sources — 7 gold, 7 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+> | **Last updated** | 2026-08-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
 
 ## References

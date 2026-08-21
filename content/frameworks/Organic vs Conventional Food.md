@@ -2,12 +2,12 @@
 type: framework
 question: Does the "organic" label deliver a health benefit — fewer toxins, more nutrients, better outcomes — large and certain enough to change what someone buys, and where it tracks something, is it the certification or an underlying exposure doing the work?
 aliases: [Organic Food, Organic vs Conventional, Organic Certification, Organic Farming Health, Is Organic Healthier]
-authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spangler, Crystal; Bravata, Dena M; Baudry, Julia; Kesse-Guyot, Emmanuelle]
-sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baudry - Organic Food Consumption Cancer NutriNet 2018]
+authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spangler, Crystal; Bravata, Dena M; Baudry, Julia; Kesse-Guyot, Emmanuelle; Theodoridis, Xenophon; Chourdakis, Michail]
+sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baudry - Organic Food Consumption Cancer NutriNet 2018, Theodoridis - Organic Food Cancer]
 cluster: organic
 nucleus: true
 confidence: low
-self_critiqued: 2026-08-08
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,7 +16,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Should Adults Reduce Red and Processed Meat
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-20
 ---
 
 **Nucleus of the `organic` cluster.** This page holds the health appraisal of the "organic" label:
@@ -28,8 +28,11 @@ page does not price them.
 
 **Evidence-tier note (`confidence: low`).** The health-outcome evidence for the organic *label* is
 uniformly non-gold — nutrient/residue **composition** meta-analyses (Baranski, Srednicka-Tober) plus one
-**self-selected observational cohort** (Baudry/NutriNet); there is no outcome RCT or systematic review of
-hard endpoints, and none is likely (a certification cannot be blinded). The low confidence is a
+**self-selected observational cohort** (Baudry/NutriNet), now joined by a **pooled SR/MA of hard cancer
+endpoints** (Theodoridis 2025) that is itself non-gold — three observational cohorts, GRADE certainty
+**very low**, MDPI-*Life*. (Supersedes the earlier *no systematic review of hard endpoints* statement,
+2026-08-20: an SR/MA now exists, is null, and does not lift the tier.) There is still no outcome **RCT**,
+and none is likely (a certification cannot be blinded). The low confidence is a
 **structural feature of the field, not a gap acquisition can close** — the honest finding is *thin
 evidence*, labelled as such rather than upgraded.
 
@@ -170,9 +173,54 @@ factors should be carefully accounted for in etiological studies in this researc
   consistent with diet quality, not the organic label, doing the work. Site-specific results were narrow
   (postmenopausal breast cancer, non-Hodgkin lymphoma and lymphomas; no association at other sites).
 
+### The pooled SR/MA firms the null — Baudry's protective signal does not survive pooling (type-F)
+
+Theodoridis (SR + random-effects MA, three observational cohorts, 733,954 individuals, PROSPERO-registered)
+found «There was no difference between the two interventions regarding overall cancer (HR = 0.93, 95% CI:
+0.78–1.12), breast cancer (HR = 1.01, 95% CI: 0.81–1.26), colorectal cancer (HR = 1.01, 95% CI: 0.93–1.10),
+and non-Hodgkin lymphoma risks (HR = 0.70, 95% CI: 0.17– 2.94).»
+[@theodoridis2025]
+The overall pool carried I2=84% and a prediction interval of 0.10-8.57 — a null point estimate over enormous
+between-study heterogeneity.
+
+**The MA CONTAINS Baudry, so this is NOT an independent confirmation — type-F, not type-E.** Its three
+constituents' own overall-cancer HRs (Table 3): Andersen 0.99 (0.91-1.08), **Baudry 0.76 (0.64-0.90)**,
+Bradbury 1.03 (1.00-1.06). [@theodoridis2025] Baudry's lone protective
+HR — the single cohort this page already held — is diluted to a null pool by Andersen (null) and Bradbury
+(the 623k Million Women Study, highest weight, marginally *above* 1). The protective signal was one cohort's,
+not the literature's.
+
+Parameter table (same-quantity check — BLOCKING on the cross-source claim):
+
+| Parameter | Incumbent — Baudry 2018 (quoted + locus) | Theodoridis 2025 (quoted + locus) | Same quantity? |
+|---|---|---|---|
+| Baudry's own overall-cancer HR | "hazard ratio for quartile 4 vs quartile 1, 0.75; 95% CI, 0.63-0.88" (Baudry chunk 01) | «Overall cancer 0.99 (0.91–1.08) 0.76 (0.64–0.90) 1.03 (1.00–1.06)» Table 3, high-vs-low (Theodoridis chunk 01) | YES — same cohort, same overall-cancer HR (Q4-v-Q1 = high-v-low; 0.75/0.76 rounding). Theodoridis REPRODUCES Baudry; it does not independently confirm it. |
+| Overall-cancer effect object | single-cohort quartile-extreme HR 0.75 (0.63-0.88) | 3-cohort random-effects POOL, HR 0.93 (0.78-1.12), I2=84% (Theodoridis chunk 01) | NO — one cohort's extreme-quartile contrast vs a pool across three cohorts. Different objects; the pool is the new evidence, and it is null. |
+| Exposure definition | 3x 24h recalls -> mPNNS-GS organic quartiles | heterogeneous across the three (FFQ / 24h recall / single yes-no question); «substantial heterogeneity in the definition and labeling of organic food products» (Theodoridis chunk 01) | NO — one operationalization vs a mix; a driver of the I2=84%. |
+
+**A null in designs biased *toward* benefit is stronger evidence against organic-prevents-cancer, not weaker.**
+The paper names the residual-bias direction: healthy-user and self-selection push *toward* a spurious
+protective signal — «Because of this selection bias, the genuine connection between organic food consumption
+frequency and cancer risk may be overestimated.» [@theodoridis2025] So an
+observational pool that lands null, when its confounding should have manufactured a protective HR, withholds
+the benefit the bias predicts — at least as consistent with *no* effect as with a small real one. But it adds
+**no causal-identification route**: it pools the same confounded cohorts (GRADE certainty **very low** for every
+endpoint; Baudry and Bradbury high risk of bias on exposure measurement), so it firms *no benefit* without
+resolving the confound the incumbent frame rests on.
+[inferred from @theodoridis2025]
+
+**Site-specific stays INSUFFICIENT, not null, where the cohorts disagree.** Pooled non-Hodgkin lymphoma HR
+0.70 (0.17-2.94), I2=90% — the CI spans a \~17x range because the constituents point opposite ways (Andersen
+1.97 [1.28-3.04, elevated and significant], Baudry 0.14, Bradbury 0.79 [protective]); breast is likewise
+discordant (Baudry postmenopausal 0.66 [0.45-0.96] vs Bradbury 1.09 [1.03-1.15, elevated]). Colorectal is the
+one coherent endpoint (pooled 1.01 [0.93-1.10], I2=0%). [@theodoridis2025]
+Read the NHL point estimate as *insufficient evidence*, never *no effect* — the expectancy test fails on a CI
+that wide over three discordant cohorts.
+
 **The design cannot cleanly attribute**, and no RCT exists (you cannot blind or randomise a lifetime of
 organic eating — the streetlight problem). Expected answer for this sub-question: *cannot cleanly
-attribute*, exactly as the spec predicted.
+attribute*, exactly as the spec predicted — and now with the pooled hard-outcome estimate showing **null**,
+not merely *one confounded protective cohort*.
 
 ## The net health verdict
 
@@ -187,7 +235,12 @@ attribute*, exactly as the spec predicted.
   `G`-gap — **no held source quantifies dairy/meat's share of total n-3 intake**, so the absolute
   magnitude is unestablished here rather than known to be small.
   [inferred from @srednickatober2016milk; @srednickatober2016meat]
-- **Hard outcomes:** one confounded cohort; no clean attribution, no RCT.
+- **Hard outcomes:** the pooled observational evidence is **null** — a SR/MA of three cohorts (Theodoridis
+  2025) gives overall-cancer HR 0.93 (0.78-1.12), breast 1.01 (0.81-1.26), colorectal 1.01 (0.93-1.10), with
+  Baudry's lone protective signal (0.76) diluted by the two larger cohorts (Andersen 0.99, Bradbury 1.03).
+  GRADE certainty very low, still confounded, no RCT; non-Hodgkin lymphoma (0.70, 0.17-2.94) is *insufficient*,
+  not a null. Firms *no established causal cancer benefit* with pooled hard-outcome evidence — without adding a
+  causal-identification route.
 
 **Ranked (Layer 1), "organic" is a small, low-certainty lever at best** — dominated for anyone by the
 big rocks (smoking, adiposity, activity, overall diet pattern) and, on the nutrient axis, by the
@@ -204,7 +257,11 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   the [[Is the Food Category Doing Any Work]] Test-3 lens — NOT two independent supports (milk and meat
   share an author group).
 - **type-F** — Smith-Spangler's weighting SR bounds Baranski's compositional differences (detectable !=
-  clinically significant); Baudry bounds the outcome claim (confounded).
+  clinically significant); Baudry bounds the outcome claim (confounded); **Theodoridis's pooled SR/MA firms
+  the outcome null** — overall-cancer HR 0.93 (0.78-1.12) across three cohorts, showing Baudry's single-cohort
+  protective HR (0.76) does not survive pooling. **NOT type-E:** the MA CONTAINS Baudry (pooled-constituent
+  double-count firewall — a study inside the pool is not an independent route), so it refines/firms rather than
+  independently confirms.
 - **type-G** — no RCT on hard outcomes; residue-to-outcome transmission unevidenced at real-world levels;
   a grass-fed-specific (vs organic-certified) outcome comparison is unheld.
 
@@ -221,8 +278,11 @@ anti-signal* applies: the topic is heavily discussed and mostly small-effect.
   independent group reaching the more conservative nutritional verdict — the two are **not** independent
   confirmations of each other, and where they diverge (compositional difference vs clinical significance)
   the divergence is the finding, not a vote to average.
-- **`G (needs aggregation)`** — a pooled organic-vs-conventional effect on any hard outcome is a magnitude
-  the wiki cannot compute; the cohort evidence is confounded and the trials do not exist.
+- **`G (needs aggregation)`** — partially cashed for cancer (2026-08-20): Theodoridis (2025) supplies the
+  pooled organic->cancer magnitude the wiki could not itself compute (overall HR 0.93 [0.78-1.12], null,
+  GRADE very low). The gap persists for **non-cancer** hard outcomes (CVD, all-cause mortality) and for
+  **causal identification** — pooling confounded observational cohorts computes a magnitude, not an
+  unconfounded effect; the trials still do not exist.
 - `AWAITS` a grass-fed-vs-grain-fed animal-product outcome source that separates feed from certification;
   and any residue-level human-outcome source that could move residues from surrogate to outcome.
 

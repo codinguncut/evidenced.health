@@ -2,13 +2,13 @@
 type: synthesis
 question: For whom does supplementing vitamin D and/or calcium reduce fracture risk, and does the fracture benefit survive netting the cardiovascular and kidney-stone harms?
 aliases: [Vitamin D Calcium Fracture, Calcium Supplements and Fracture, D and Calcium for Bone, Calcium Vitamin D Supplementation Fracture, Supplemental Calcium Cardiovascular Risk]
-authors: [Yao, Pang; Bennett, Derrick; Mafham, Marion; Lin, Xu; Chen, Zhengming; Armitage, Jane; Clarke, Robert; Bolland, Mark J; Grey, Andrew; Avenell, Alison; Gamble, Greg D; Reid, Ian R; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera]
-sources: [Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018]
+authors: [Yao, Pang; Bennett, Derrick; Mafham, Marion; Lin, Xu; Chen, Zhengming; Armitage, Jane; Clarke, Robert; Bolland, Mark J; Grey, Andrew; Avenell, Alison; Gamble, Greg D; Reid, Ian R; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won]
+sources: [Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Myung - Calcium Supplements Cardiovascular]
 cluster: supplements
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -117,8 +117,10 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
 |---|---|---|---|
 | Hip fracture (**benefit**) | RR 0.84 (0.72-0.97); concentrated in institutionalized | Yao 2019 | low SoE, high RoB trials |
 | Kidney stones (**harm**, D+**Ca** only) | pooled ARD +0.33% (0.06-0.60), RR 1.18 (1.04-1.35) | Kahwati 2018 | **moderate** SoE |
-| Cardiovascular — MI (**harm**) | RR **1.24 (1.07-1.45)** Ca±D; 1.21 (1.01-1.44) Ca+D | Bolland 2011 | contested; subgroup-derived |
-| CV — MI or stroke (**harm**) | RR **1.15 (1.03-1.27)** Ca±D; 1.16 (1.02-1.32) Ca+D | Bolland 2011 | contested |
+| Cardiovascular — MI (**harm**) | RR **1.24 (1.07-1.45)** Ca±D (Bolland); RR **1.25 (1.07-1.45)** (Myung) | Bolland 2011; Myung 2021 | direction corroborated; not independent |
+| CV — CHD (**harm**) | RR **1.16 (1.05-1.28)**, I2=0%, n=9 | Myung 2021 | pre-specified primary; low-RoB-driven |
+| CV — MI-or-stroke / CHD+stroke composite (**harm**) | RR **1.15 (1.03-1.27)** (Bolland); RR **1.15 (1.06-1.25)**, I2=0%, n=14 (Myung) | Bolland 2011; Myung 2021 | corroborated; WHI-dominant |
+| Cerebrovascular (stroke) | RR **1.13 (0.97-1.31)**, I2=0% — **null** | Myung 2021 | harm is CHD/MI-specific, not stroke |
 | All-cause mortality | null (RR \~1.04) | Bolland 2011; Kahwati 2018 | low |
 
 - **The CV-harm arm (Bolland 2011, `high`, CONTESTED).** «Calcium or calcium and vitamin D supplements
@@ -129,6 +131,35 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
   Held as a **counterweight, not a settled harm**: it is subgroup-derived (WHI women not on personal
   calcium) and WHI investigators + later reviews dispute it — so the direction is credible, the magnitude
   and even the sign contested. Label at point of use.
+- **A second pooled MA firms the DIRECTION — Myung 2021 (`high`, type-F, NOT an independent witness).**
+  Myung pooled 13 double-blind placebo-controlled RCTs (28,935 participants) with the CV endpoints as
+  **pre-specified primary outcomes** (not Bolland's MI subgroup) and reproduced the harm almost exactly:
+  CVD composite (CHD+stroke) RR 1.15 (1.06-1.25), CHD RR 1.16 (1.05-1.28), MI RR 1.25 (1.07-1.45) —
+  each with **I2 = 0.0%** — calcium «signiﬁcantly increased the risks of CVD»
+  [@myung2021], the harm «about 15% in healthy
+  postmenopausal women» [@myung2021]; absolute
+  +8.6/1000 (CVD) and +8.8/1000 (CHD) [@myung2021].
+  Three features **refine** Bolland rather than merely echo him: (i) the signal is **concentrated in the
+  low-risk-of-bias trials** (RR 1.15, n=8; high-RoB trials null) — «the trials with low risk of bias in
+  at least ﬁve items showed a signiﬁcantly increased risk of CVD»
+  [@myung2021] — the *opposite* of a bias/confounding
+  artifact pattern; (ii) publication bias was formally tested and absent (Egger p 0.81/0.81);
+  (iii) **stroke is null** (RR 1.13, 0.97-1.31), so the harm is CHD/MI-specific.
+- **But Myung is NOT independent of Bolland — this is type-F firming, not `[E-independent]`.** Myung
+  re-pools Bolland's constituent trials (WHI/ref24, Reid/Auckland refs 15,22,26, RECORD/Avenell ref25,
+  CAIFOS, Lappe, Baron), **used unpublished trial data obtained from Bolland's own meta-analysis** for 5
+  of 13 trials, and cites Bolland — its «ﬁndings are consistent with those from the previous two
+  meta-analyses» by Bolland [@myung2021]. So the two MAs share their data spine; two-MA agreement buys **no** independence lift
+  [inferred from @myung2021; @bolland2011].
+  **The contest is narrowed, not closed:** the composite significance still leans on the WHI reanalysis
+  (the same subgroup that made Bolland contested) — «When Bolland et al.'s study in 2011 was excluded,
+  calcium supplementation was marginally associated with an increased risk of CVD, while all the other
+  leave-one-out sensitivity meta-analyses showed a signiﬁcantly robust increased risk»
+  [@myung2021] (CHD became non-significant without
+  WHI). And the constituent trials all had CV as a **secondary** endpoint, which Myung concedes as its
+  chief limitation. A **genetically-independent** route does point the same way — a Mendelian-randomization
+  study found «a genetic predisposition to higher serum calcium levels increased the risk of coronary
+  artery disease and myocardial infarction» [@myung2021] (Larsson 2017, reported via Myung; not held — see gap (b)).
 - **The exposure is the SUPPLEMENT bolus, not food calcium — do not overgeneralize.** Bolland's effect is
   «independent of dietary calcium intake» [@bolland2011], shows no dose-response, and its proposed mechanism is «the abrupt change in plasma calcium
   concentration after supplement ingestion ... rather than it being related to the total calcium load
@@ -146,7 +177,12 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
 
 - **Community-dwelling, replete, no osteoporosis/prior fracture (the enhancement arm).** The whole-strategy
   ledger runs against the supplement: **no fracture benefit** (Kahwati direct null; Yao's community residual)
-  **+ CV-harm signal** (Bolland, contested) **+ kidney-stone harm** (Kahwati, moderate SoE). Ca±D
+  **+ CV-harm signal** (Bolland + Myung; direction now corroborated by a second pooled MA, magnitude still
+  discounted for WHI-dependence) **+ kidney-stone harm** (Kahwati, moderate SoE). The CV harm bites
+  *hardest exactly here*: Myung's cohort was 92.8% women, mean age 66, «healthy postmenopausal women»
+  [@myung2021] — i.e. the community-dwelling
+  enhancement arm — so the harm is measured in the same stratum where the fracture benefit is weakest,
+  strengthening the against-supplement verdict. Ca±D
   supplementation for fracture prevention is **not indicated** here; the fracture lever in this stratum is
   **exercise**, not the pill -> [[Exercise for Preventing Falls in Older Adults]]
   [inferred from @yao2019; @kahwati2018; @bolland2011].
@@ -164,15 +200,39 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
 
 ## Confidence + gaps
 
-- **`confidence: medium`** — the efficacy structure is gold (Yao SR-MA), but the D+Ca fracture benefit rests
-  on low-SoE, high-risk-of-bias trials with wide CIs; the CV harm is a contested, subgroup-derived `high`
-  source; the net verdict is a synthesis across non-commensurable outcomes. The robust core is the *shape*
+- **`confidence: medium` (held, not raised).** The efficacy structure is gold (Yao SR-MA), and the CV-harm
+  arm is now **better corroborated** — a second pooled MA (Myung 2021, `high`) reaches the harm on
+  pre-specified primary CVD/CHD outcomes with I2=0% and a low-RoB-driven signal, moving it from
+  *contested; subgroup-derived* toward *direction well-supported*. It is **not** raised to `high` because
+  (i) the D+Ca fracture benefit still rests on low-SoE, high-RoB trials with wide CIs; (ii) Myung is **not
+  independent** of Bolland (shared trials + Bolland's unpublished data) so the agreement is type-F not a
+  second witness, and the composite significance still leans on the WHI reanalysis (leave-one-out); (iii)
+  the net verdict remains a synthesis across non-commensurable outcomes. The robust core is the *shape*
   (D-alone null / D+Ca-in-high-risk benefit / enhancement-arm net-harm), not any point estimate.
 - **Gaps (G):** (a) higher-dose (2000+ IU/day) vitamin-D-alone fracture RCTs — 7 ongoing, `G (needs
-  aggregation)`; (b) a clean-population CV-harm test of Ca±D (Bolland's signal replicated or refuted in a
-  non-subgroup design — the STRENGTH-style contested-comparator problem is the calcium analogue, not held);
-  (c) the net-effect ledger *within the institutionalized/deficient stratum* (where benefit lives but harm
-  transport is untested).
+  aggregation)`; (b) a **WHI-independent** clean-population CV-harm test of Ca±D — the signal is now
+  corroborated across two MAs but they share the WHI data spine, so an RCT designed with CVD as the
+  *primary* endpoint, or the held Larsson-2017 Mendelian-randomization confirmation, would settle
+  direction independently (the genetic route is currently reported only *via* Myung, not held ->
+  acquisition candidate); (c) the net-effect ledger *within the institutionalized/deficient stratum*
+  (where benefit lives but harm transport is untested).
+
+## Self-critique `[run 2026-08-19, Myung ingest — before commit]`
+
+- **No fake tension (the crux call).** Myung reaches the **same quantity, same direction, near-identical
+  magnitude** as Bolland (MI 1.25 vs 1.24; CHD+stroke composite 1.15 vs 1.15) — this is corroboration, not
+  a clash, so it is filed as **type-F firming**, no `[[tension]]`, no `contradicts:` edge. The parameter
+  match was verified cell-by-cell (exposure, comparator, outcome, effect, pool) before writing.
+- **Independence denied — no laundered-E.** Myung re-pools Bolland's trials, used Bolland's unpublished
+  data for 5 of 13 trials, and cites Bolland; `[E-independent]` is explicitly refused and the confidence
+  is **not** raised on "two MAs agree". The one genuinely-independent route (Larsson MR) is marked
+  reported-*via*-Myung and routed to an acquisition gap, not claimed as held backing.
+- **CV harm not overclaimed.** The firming is bounded: leave-one-out WHI-dependence quoted, the
+  secondary-endpoint limitation named, "CONTESTED" narrowed-not-closed, magnitude discounted. Confidence
+  held at `medium`. The RoB-driven point is stated as *evidence against an artifact*, not as proof of harm.
+- **Number fidelity + dual test.** All Myung figures trace to chunk 01 (cite.py-verified spans). Myung
+  earns its `sources:` slot via distinct extracted claims (primary CVD/CHD/MI magnitudes, RoB
+  stratification, leave-one-out, absolute risk, MR mechanism) — no pad.
 
 ## Self-critique `[run 2026-08-06, before commit]`
 

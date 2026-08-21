@@ -19,9 +19,10 @@ relationships:
     - Soy Products and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
     - Insulin Resistance Surrogates and Cardiovascular Risk
+    - ApoB Particle Number vs Cholesterol Content
 created: 2026-07-29
-updated: 2026-08-12
-self_critiqued: 2026-08-18
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
@@ -171,7 +172,14 @@ page's *measure apoB* claim from Ference's assertion to a large-cohort + MR demo
   flat — «for a given concentration of apoB-containing lipoproteins, the relative proportions of particle
   subpopulations may no longer be a predictor of risk». So the small-dense-vs-large-LDL distinction Astrup
   leaned on collapses into *count the particles* — apoB — which is this page's held view, now with a direct
-  test behind it.
+  test behind it. **CONTESTED (the number-vs-content leg only).** An independent MR (Helgadottir 2022,
+  deCODE/Danish; no Ference/Ala-Korpela/Marston authors) separates apoB from non-HDL-C using 82/235
+  *discordant* variants and finds the opposite: CAD risk is proportional to non-HDL-C (cholesterol content),
+  not to apoB particle number, and it attributes Marston's observational apoB signal to confounding of two
+  \~0.9-correlated traits. This does **not** touch the apoB-over-LDL-C verdict above (both agree there); it
+  contests only Marston's finer *independent-of-content* claim -> full joined issue:
+  [[ApoB Particle Number vs Cholesterol Content]]. Confidence held (one MR vs Marston + the number-camp
+  lineage; the leg is filed contested, not overturned).
 - **It confirms this page's remnant-coverage ranking.** The section above inferred apoB > LDL-P >
   LDL-C because apoB captures remnant/IDL/VLDL particles LDL-C misses. Marston states it directly:
   «non-HDL-C in particular is the preferred surrogate for apoB, as it incorporates TG-rich lipoproteins in

@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -13,9 +13,10 @@ relationships:
     - Rating Outcome Importance
     - Semaglutide for Cardiovascular Risk in Obesity
     - Autoimmune Disease and Modifiable Risk
+    - Surrogate Outcomes
 created: 2026-07-25
-self_critiqued: 2026-08-09
-updated: 2026-08-09
+self_critiqued: 2026-08-20
+updated: 2026-08-20
 ---
 
 ## The decomposition
@@ -205,6 +206,20 @@ comparator arms losing between 11.34 and 2.3 kg, against which a 1.07 kg between
 **The decision consequence is real:** a 1 kg advantage against comparators already losing 2-11 kg is a
 marginal adjustment to a working intervention, not a stand-alone effect. Reading the MD without the
 comparator's own trajectory makes a small increment look like a whole result.
+
+**A cross-intervention comparison of a continuous outcome misleads unless baselines are matched — Naci's
+exercise-vs-drug SBP case `[2026-08-20]`.** SBP reduction is a continuous outcome whose *absolute*
+magnitude rises with baseline SBP, so pooling two interventions measured in differently-hypertensive
+populations compares unlike quantities. Naci's exercise trials had «mean SBP at baseline ... 132 mmHg»
+while drug trials were «consistently over 150 mmHg»
+[@naci2019exercise]; the naive all-population contrast
+made drugs look «−3.96» mmHg superior. Restricting exercise to the hypertensive (>=140) stratum lifted
+its effect from −4.84 to «−8.96» mmHg and erased the gap («0.18, 95% CrI −1.35 to 1.68»)
+[@naci2019exercise]. Same continuous-outcome trap as
+the weight-loss MD above, one level out: here it is not the comparator's trajectory but the baseline
+*level* that must be matched before the between-intervention number means anything. Full magnitudes +
+the surrogate/indirectness caveats -> [[Blood Pressure Lowering and Cardiovascular Events]].
+[inferred from @naci2019exercise]
 
 ## Limits
 
@@ -480,6 +495,21 @@ is not a clean constant-RR case. The value here is the **paired contrast**: one 
 whether stratification needs a subgroup claim depends on the *intervention*, not just the population —
 metformin's relative effect is modified, lifestyle's essentially is not.
 [inferred from @knowler2002]
+
+**Refinement — the route-(b) modification is OUTCOME-SPECIFIC, not a fixed property of the drug.** The
+metformin heterogeneity above is on the **diabetes-incidence** outcome. When the *same* trial group
+followed the *same* three arms 21 years for **cardiovascular events** (DPPOS), the prespecified subgroup
+tests «showed no significant heterogeneity by age, sex, race/ ethnicity, or diabetes development for either
+metformin or lifestyle» — and both arms were null on events overall (metformin HR 1.03, lifestyle HR 1.14)
+-> [[Lifestyle vs Metformin for Diabetes Prevention]]. Note the CV subgroup panel differs from the
+incidence one — DPPOS tested age/sex/race/diabetes-status, not the BMI/fasting-glucose axes that carried
+metformin's incidence heterogeneity — so this is **not** the same modifier retested and found null; it is
+that on the CV outcome the drug had **no overall effect to modify** and no heterogeneity on the axes
+examined. The lesson is still the discipline: a route-(b) selective-benefit story earned on one outcome
+(diabetes onset) does **not** carry to another outcome (CV events) in the same people — route (b) must be
+established **per outcome**, exactly as a dose-response shape is (the outcome-specificity seen for the ESC
+fruit/veg plateau). [@goldberg2022]
+[inferred from @goldberg2022]
 
 ## A route-(b) positive whose modifier is NOT a targetable stratum — smoking->RA by serotype `[2026-08-09, Di Giuseppe]`
 

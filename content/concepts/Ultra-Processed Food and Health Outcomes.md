@@ -2,11 +2,11 @@
 type: concept
 question: Does greater exposure to ultra-processed food (Nova classification) raise the risk of patient-important outcomes — and does "ultra-processed" carry a causal effect of its own, beyond the sugar/salt/fat/energy-density it correlates with?
 aliases: [Ultra-Processed Food, UPF, Nova Classification, Ultra-Processed Diet, UPF Health Outcomes, Processed Food Health]
-authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D]
-sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019]
+authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D; Aramburu, Adolfo]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review]
 cluster: ultra-processed
 confidence: low
-self_critiqued: 2026-08-08
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -17,7 +17,7 @@ relationships:
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-31
-updated: 2026-08-08
+updated: 2026-08-20
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
@@ -225,6 +225,45 @@ consumption of ultra-processed foods may be an effective strategy for obesity pr
   at **which** properties, without isolating a single lever.
 
 [inferred from @hall2019]
+
+## The whole RCT base, sized — one small feeding trial + three confounded educational trials (Aramburu 2024) `[2026-08-20]`
+
+Hall does not sit alone by accident: the **first systematic review restricted to RCTs** of UPF-reduction
+interventions (Aramburu 2024; PROSPERO-registered, RoB2 + GRADE) searched six databases to 2024 and
+found the entire randomized literature is **four trials, 455 participants, median follow-up 12 weeks**,
+of which **only Hall directly fed a UPF-based diet** — `«our review identified only four clinical trials,
+of which only one directly evaluated the effects of consuming a UPF-based diet, although in a small
+number of participants, with a short follow-up period and based on intermediate outcomes.»`
+[@aramburu2024] The other three are *educational*
+counseling trials (reduce-your-UPF advice), and in two of them UPF intake was **not differentially
+reduced at all**, so `«in both studies, the observed benefits could be attributed to other dietary and
+physical activity components included in the interventions.»`
+[@aramburu2024]
+
+- **Aramburu INCLUDES Hall (its study 28), so this is not new causal evidence** — it is the RCT layer
+  *sized and bounded*. The composite finding is the sharpener: everything the trial literature can say
+  about a UPF-based diet rests on Hall's n=20 / 2-week arms. There is no second confirmatory feeding
+  trial. [inferred from @aramburu2024; @hall2019]
+- **The 30/42 nulls are INSUFFICIENT evidence, not evidence of no effect.** Across the four trials
+  `«No significant effects were observed in 30 out of the 42 outcomes evaluated»`
+  [@aramburu2024] — but `«All studies had a high risk
+  of bias»` [@aramburu2024] (three via >20% loss to
+  follow-up; Hall via unavoidable non-blinding), the trials are tiny and short, and most nulls sit in the
+  confounded educational arms. Aramburu's own verdict: `«...make it difficult to draw definitive
+  conclusions about the true effect of UPFs on health.»`
+  [@aramburu2024] So this does **not** refute Lane's
+  observational associations — hard-outcome RCTs are ethically ruled out (above), and the surrogate RCTs
+  that exist are underpowered. It is the four-evidence-states *insufficient* box, not *no meaningful
+  effect*.
+- **Aramburu's GRADE on Hall matches what this page already holds:** the intake reductions (energy, carbs,
+  fat) are **low** certainty; body weight, total cholesterol and HDL are **moderate** — consistent with
+  the surrogate-moderate / hard-outcome-absent split above, now with an independent GRADE adjudication of
+  the same trial. [inferred from @aramburu2024]
+
+**Net effect on the answer:** confidence stays **low**. Aramburu neither raises nor lowers the hard-outcome
+picture (it is observational-only, unchanged); it **bounds the RCT layer** — the strong-sounding
+"processing drives overconsumption" causal foothold is a single small trial, and the wider RCT literature
+is too thin to confirm *or* refute the observational harm. -> [[The Observational-Trial Discordance]]
 
 ## Decision relevance
 

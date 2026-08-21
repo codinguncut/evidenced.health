@@ -2,8 +2,8 @@
 type: framework
 question: How much does lowering LDL/apoB reduce hard cardiovascular events, per unit of lowering — and which lipid number should the target be?
 aliases: [LDL Lowering Magnitude, Statin Per mmol Effect, CTT Meta-Analysis, LDL Reduction Events, ApoB vs LDL-C, Which Lipid to Target, LDL-C Event Reduction]
-authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S]
-sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025]
+authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna]
+sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -17,9 +17,10 @@ relationships:
     - The Observational-Trial Discordance
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
     - Which Objective Moved This Recommendation
+    - ApoB Particle Number vs Cholesterol Content
 created: 2026-08-05
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 Two separable questions sit under the lipid lever, and two sources answer them. **How much does
@@ -110,6 +111,16 @@ verdict (target apoB, not LDL-C content) is now backed by RCT-scaling (CTT), obs
 causal role — apoB is *necessary* and always accompanies cholesterol; a cholesterol change concordant with
 apoB still moves risk (which is why CTT's LDL-C scaling works for statins). Causal model + the
 not-independent caveat: [[LDL ApoB and Cumulative Exposure]].
+
+**CONTESTED — the *particle-number-not-content* leg (Helgadottir 2022).** Marston's verdict is that risk is
+best captured «independent from lipid content (cholesterol or TG)» [@marston2022] — i.e. count, not content. An independent
+MR (deCODE/Danish; no Ference/Ala-Korpela/Marston authors) that separates apoB from non-HDL-C with 82/235
+*discordant* variants reaches the opposite: «the genetic effects on CAD risk are proportional to effects on
+non-HDL-C, but not to effects on apoB» [@helgadottir2022], attributing the observational apoB signal to confounding of two \~0.9-correlated traits. This
+leaves the apoB-over-**LDL-C** metric verdict intact (both agree) but contests whether the right *secondary*
+target is apoB (particle number) or non-HDL-C (cholesterol content, already on every panel) -> full joined
+issue: [[ApoB Particle Number vs Cholesterol Content]]. Held contested, not resolved (one MR vs Marston +
+the number-camp lineage).
 
 ## Synthesis — the two answers reconcile; they do not clash
 

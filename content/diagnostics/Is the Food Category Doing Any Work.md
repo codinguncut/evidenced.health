@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019]
 cluster: inference-pitfalls
 confidence: medium
-self_critiqued: 2026-08-06
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -21,7 +21,7 @@ relationships:
     - Fermented Foods and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
 created: 2026-07-27
-updated: 2026-08-06
+updated: 2026-08-20
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -390,6 +390,45 @@ new tension — both hold the category's predictive power runs largely through c
 disagreement is what to *do*: Lane recommends targeting UPF, NNR declines. That decision-level clash lives
 on [[Ultra-Processed Food and Health Outcomes]].
 [inferred from @lane2024upf]
+
+### UPF, third gold voice — Aramburu 2024 declines processing-per-se from the RCT-base angle `[2026-08-20]`
+
+NNR reached the *does-the-category-add-value* verdict from a guideline-committee standpoint; Lane
+supplied the within-category subcategory data. Aramburu 2024 — the **first RCT-only systematic review**
+of UPF-reduction interventions — reaches the same declination from the third angle, the *trial* base,
+and states it as this diagnostic's own question: `«the added value of classifying foods based on their
+industrial processing compared to traditional nutrient-based systems remains an unresolved controversy»`
+and `«the available evidence to date cannot establish a clear causal link between the degree of food
+processing and adverse health outcomes»` [@aramburu2024].
+
+- **Aramburu is balanced, not dismissive — it reports the pro-processing side and still declines.** It
+  cites the diet-quality-adjustment argument (the same one Lane leans on): `«the majority of associations
+  between UPFs and health-related outcomes remained significant and unchanged in magnitude after
+  adjustment for diet quality, suggesting that increased consumption of UPFs could produce negative
+  effects independent of their nutritional composition»`
+  [@aramburu2024] — then concludes causation is not
+  established. So the declination is not from ignoring the confounding-survives argument; it is despite it.
+- **The within-category evidence Aramburu adds — a whole-grain threshold test:** `«excluding foods with
+  more than 25% whole grains from the classification of UPFs did not alter the association between UPFs
+  and cardiometabolic risk factors»`, and dark chocolate / yogurt sit in the category yet associate with
+  benefit [@aramburu2024] — the variance failure again,
+  from a fresh source.
+- **The multiplicity argument (a mechanism-side reason the category is doing no unified work):** despite an
+  extensive list of processing-specific candidate pathways (glycaemic response from starch structure, soft
+  texture / eating rate, contaminants, packaging migrants), `«there is no single plausible explanation for
+  a common effect of all UPFs on the various health effects reported in the literature»`
+  [@aramburu2024]. If no one mechanism spans the
+  category, the category is not the causal unit — it is a bag of distinct exposures with distinct
+  mechanisms, which is Test 3 stated mechanistically.
+
+**Consistency with the Hall foothold, not contradiction.** Aramburu INCLUDES Hall (its study 28), so the
++508 kcal/day intake result still stands as the one place processing does randomized work — but at
+matched *total* composition, via the identifiable sub-components (energy density, eating rate, protein).
+Aramburu's declination is about *hard-outcome* causal attribution to processing-as-such, which Hall never
+tested. Three gold-tier voices (NNR, Lane's own hedge, Aramburu) now converge that the category does not
+earn a causal recommendation over its measurable constituents on hard outcomes; the RCT base is too thin
+to say otherwise. -> [[Ultra-Processed Food and Health Outcomes]]
+[inferred from @aramburu2024; @hall2019]
 
 ### Ruminant vs industrial trans fat — a boundary WHO tested and dropped `[2026-07-28, Annex 8]`
 

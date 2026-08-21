@@ -2,13 +2,13 @@
 type: framework
 question: Does night shift work increase breast cancer incidence — enough to justify classifying it a probable human carcinogen?
 aliases: [Night Shift Work Breast Cancer, Shift Work and Cancer, Night Work Breast Cancer, Circadian Disruption and Breast Cancer]
-authors: [Travis, Ruth C]
-sources: [Travis - Night Shift Work Breast Cancer 2016]
+authors: [Travis, Ruth C; Straif, Kurt]
+sources: [Travis - Night Shift Work Breast Cancer 2016, Straif - Carcinogenicity of Shift Work 2007]
 cluster: occupation
 confidence: medium
 created: 2026-08-17
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - The Physical Activity Paradox
@@ -105,7 +105,7 @@ The null is robust to the three ways it could be spurious:
 That each artifact route was probed and closed is what moves this from *insufficient* to *credible
 no-effect*.
 
-## The IARC friction — recorded, not adjudicated here
+## The IARC pole — now held, with its own evidence basis
 
 Travis draws an explicit conclusion **against** the IARC 2007 classification of shift work as a probable
 (Group 2A) human carcinogen:
@@ -117,21 +117,60 @@ Travis draws an explicit conclusion **against** the IARC 2007 classification of 
 > as a probable human (breast) carcinogen is no longer justified.»
 > [@travis2016nightshift]
 
-**This is filed as an attributed claim, NOT as a two-sided `[[tension]]`.** The counter-passage check is
-binding and the wiki does not hold IARC's own monograph — only Travis's characterization of it — so
-IARC's reasoning cannot be read in its own words here. Adjudicating whether the 2A classification should
-stand requires the IARC source and is a G-gap.
+**The IARC source is now held, so its reasoning can be read in its own words.** The 2A rests on a
+**two-legged** basis — the standard IARC combination rule of *limited human* evidence AND *sufficient
+animal* evidence:
 
-**A partial reconciliation that does not need the IARC source — hazard vs risk.** IARC does *hazard
-identification* (can the exposure cause cancer at any level, in any tissue?), a categorically different
-question from Travis's *population risk magnitude* (by how much does breast cancer incidence change in
-real shift-working women?) -> [[Non-Sugar Sweeteners]] for the same hazard-vs-risk split on aspartame.
-A true small hazard is logically compatible with a null population risk estimate, so part of the apparent
-contradiction dissolves without either side being wrong. But Travis's claim is *stronger* than this
-reconciliation: she argues the prospective evidence removes the epidemiological *basis* for the hazard
-call, not merely that the population risk is small. That stronger claim is the part that awaits the IARC
-source to adjudicate.
-[inferred from @travis2016nightshift]
+> «On the basis of "limited evidence in humans for the carcinogenicity of shift-work that involves
+> nightwork", and "suﬃ cient evidence in experimental animals for the carcinogenicity of light during
+> the daily dark period (biological night)", the Working Group concluded that "shift-work that involves
+> circadian disruption is probably carcinogenic to humans" (Group 2A).»
+> [@straif2007]
+
+The classified exposure is precisely *"shift-work that involves circadian disruption"*, not shift-work
+per se. IARC's own **human** leg was explicitly *limited* — and its limits are the exact evidence class
+Travis's prospective restriction was built to supersede:
+
+> «Six of eight epidemiological studies from various geographical regions, most notably two independent
+> cohort studies of nurses engaged in shift- work at night» [refs 2,3] «have noted a modestly increased
+> risk of breast cancer in long-term employees compared with those who are not engaged in shiftwork at
+> night.»
+> [@straif2007]
+
+IARC itself flagged these as «limited by potential confounding» and by inconsistent shift-work
+definitions, «with several focused on a single profession»
+[@straif2007] — case-control/retrospective-heavy,
+single-profession (the two Schernhammer Nurses' Health cohorts among them), precisely the evidence
+Travis's prospective MA re-runs and overturns.
+
+## Hazard vs risk — a not-joined DISTINCTION, not a two-sided tension
+
+With IARC's own basis now readable, the counter-passage check resolves the relation cleanly, and it is
+**not** a type-D tension. The two sources answer **different questions** (not-joined check (ii),
+different scope/unit -> [[Non-Sugar Sweeteners]] for the same hazard-vs-risk split on aspartame):
+
+- **IARC does hazard identification** — *can circadian disruption cause cancer under some circumstances,
+  in any tissue?* — and its affirmative rests **primarily on the sufficient-ANIMAL leg** (light-at-night
+  tumour studies), the human leg being only *limited*.
+- **Travis quantifies population risk** — *by how much does breast cancer incidence change in real
+  shift-working women, at realistic exposure?* — and finds a well-powered null.
+
+A true hazard driven by animal + mechanistic evidence is logically compatible with a null population
+*risk* estimate, so the apparent contradiction largely dissolves without either side being wrong. The
+sharp, decision-relevant consequence of holding IARC's own basis: **Travis's human-epidemiology null
+bounds (and, she argues, removes) IARC's *human* leg, but a breast-cancer-incidence null in women does
+not by itself address the *animal + mechanism* leg the 2A actually rests on.** That asymmetry is exactly
+why this is hazard-vs-risk rather than a clean refutation.
+[inferred from @travis2016nightshift; @straif2007]
+
+**Where the two DO join issue — the human-evidence question — the difference is a legitimate class, not
+a process defect.** IARC 2007's *limited* human leg and Travis 2016's prospective null are **different
+evidence bases nine years apart**: Travis's five newest prospective studies (0.8M women) postdate the
+meta-analyses IARC relied on. This is the *different-evidence-base* + *lag* guidance-difference class
+(reasons 2 and 4), NOT a *process defect* (reason 5) — IARC applied a structured hazard-classification
+procedure faithfully on the evidence it had; the human evidence simply improved after it reported. On
+that human leg specifically, the current prospective evidence favours Travis.
+[inferred from @travis2016nightshift; @straif2007]
 
 ## Bearing on the circadian-oncogenesis mechanism
 
@@ -144,6 +183,18 @@ and general population sleep-timing irregularity are different exposures (not-jo
 unit and disruptor), and the pathway may still operate for other cancers or via other disruptors. Held as
 a bound on mechanism weight, not a mechanism refutation.
 [inferred from @travis2016nightshift]
+
+**The IARC statement is the mechanistic-evidence pole of that same pathway, and holding it sharpens the
+bound.** IARC's *sufficient-animal* leg is exactly this mechanism: «More than 20 studies investigated
+the eﬀ ect of constant light, dim light at night, simulated chronic jet lag, or circadian timing of
+carcinogens, and most showed a major increase in tumour incidence»
+[@straif2007], with the proposed route running via
+melatonin suppression, clock-gene (Per2/PERIOD) deregulation, and impaired immunosurveillance
+(NK-cell/Th1-Th2). So the pathway has *sufficient* animal + molecular backing yet a *null* realized
+effect on breast-cancer incidence in exposed women — the F-refinement is that mechanism potency in a
+model system does not transport to a measurable population risk on this outcome (net-effect-not-intended;
+whole-organism compensation). This is directional mechanism, not a human-outcome finding.
+[inferred from @straif2007]
 
 ## Decision relevance
 
@@ -166,24 +217,32 @@ a bound on mechanism weight, not a mechanism refutation.
   (confounding, screening, misclassification, effect modification) were each probed and closed.
 - **Held below high because:** observational throughout (no randomization is possible for this
   exposure); a few-percent relative increase is not excluded at long durations (<1000 cases); and the
-  IARC-2A friction is recorded but not adjudicated (the IARC source is not held).
+  IARC-2A relation, while now readable from both poles, is a hazard-vs-risk *distinction* whose
+  animal + mechanism leg the breast-cancer null does not adjudicate.
 - **Coherence, not validity (R1):** the pooled data show no moderate association in these cohorts; that
   night shift work *causes no breast cancer* is the inference the design supports directionally, and the
   open loop (no realized-outcome check) stands.
 
-## Self-critique `[run 2026-08-17, before commit]`
+## Self-critique `[run 2026-08-20, before commit — IARC pole landed]`
 
 - **The NULL is not softened or inflated.** Magnitudes are stated with CIs and studied range (ever /
   >=20y / >=30y); the residual few-percent uncertainty is kept visible; the evidence state is named
   *no-meaningful-effect*, distinguished from *insufficient*.
-- **The IARC contrast is NOT filed as a tension.** Counter-passage check binds: the IARC monograph is
-  not held, so the friction is folded as a Travis-attributed claim plus an `[AWAITS]` G-gap, not a
-  two-sided tension page. The hazard-vs-risk reconciliation is marked as the wiki's.
-- **Not laundered.** The value beyond Travis's own summary is the cross-linking: the prospective-overturns
-  -case-control discriminator ([[Upgrading Observational Evidence]]), the circadian-mechanism magnitude
-  bound ([[Sleep Regularity and Mortality]]), and the occupation cluster's fourth channel — each a wiki
-  move against held fabric, each tagged.
-- **Not overclaimed against the mechanism.** The circadian-oncogenesis note bounds the mechanism's weight
-  and explicitly does not refute it (different exposure/disruptor; other cancers possible).
+- **The IARC relation is a not-joined DISTINCTION, not a two-sided tension — verified against IARC's own
+  quoted basis.** The counter-passage check now runs on the held IARC source (not a Travis paraphrase):
+  the two answer different questions (hazard identification vs population-risk magnitude, not-joined
+  check (ii)), and IARC's own two-legged basis (limited human + sufficient animal) is quoted. Where they
+  join issue — the human-evidence leg — the difference is classed *different-evidence-base + lag* (2/4),
+  explicitly NOT a *process defect* (5): IARC applied its procedure faithfully on 2007 evidence.
+- **The added value beyond either source alone (F/B).** Holding IARC's own basis lets the page make a
+  move neither source makes: the 2A rests *primarily on the animal leg*, so Travis's human null bounds
+  the human leg but does not adjudicate the animal + mechanism basis. That is quoted-and-reasoned, not
+  asserted; both new INFERRED tags name IARC's quoted leg and mark the reading as the wiki's.
+- **No over-claim on the mechanism.** IARC's *sufficient-animal* evidence is admitted as directional
+  mechanism only (animal/molecular,), never dressed as a human-outcome finding; the
+  transport-gap reading against Travis's null is explicitly the wiki's synthesis.
+- **`sources:` dual test satisfied.** Straif carries distinct extracted claims on this page (the 2A
+  two-legged basis, the limited-human leg, the animal-evidence quote), so it earns a `sources:` slot —
+  not a corroboration-only pad.
 
 ## References

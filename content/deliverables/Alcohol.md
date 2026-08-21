@@ -2,11 +2,11 @@
 type: deliverable
 title: Alcohol
 question: 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?'
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-10
-self_critiqued: 2026-08-10
+updated: 2026-08-20
+self_critiqued: 2026-08-20
 ---
 
 *Is a drink good for me?* has no single answer, because alcohol affects different organs
@@ -154,6 +154,21 @@ threshold: there is no low-dose level shown to be exempt. Blood pressure here is
 a marker on the causal pathway, not the outcome itself; it counts because its transmission to hard
 vascular outcomes is well evidenced, never as a harm in its own right (a marker moved is not a life
 lost). -> [[Surrogate Outcomes]]
+
+*Interventional confirmation, and where the BP lever concentrates (Roerecke 2017).* The Millwood
+slope is genetic and observational; a meta-analysis of 36 randomised alcohol-reduction trials (2,865
+participants) supplies the interventional leg and grades the dose-response GRADE-high. Cutting alcohol
+lowered systolic pressure by about −3.1 mmHg overall, but the effect is **concentrated above \~2 drinks
+per day** — roughly −0.9 mmHg per drink/day of baseline intake, with **no significant BP reduction in
+people already drinking two or fewer per day**
+[@roerecke2017alcohol]. This third,
+independent method confirms that alcohol raises blood pressure
+causally (`[E-independent]` with the genetic route above), while refining the *shape* of the BP
+surrogate: a single linear MR coefficient cannot resolve a low-dose knee, whereas the reduction trials
+locate one, so for a light drinker cutting alcohol buys little or no BP change. It refines the surrogate
+only — it neither contradicts the monotone stroke harm (a hard outcome, driven across the whole range)
+nor softens the no-safe-level verdict, which rests on cancer's harm from zero, not on blood pressure.
+[inferred from @roerecke2017alcohol; @millwood2019]
 
 ### Coronary heart disease / MI — the honest boundary (insufficient)
 
@@ -365,9 +380,9 @@ Four things specifically could move the picture:
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?' |
-> | **Evidence included** | 9 sources — 3 gold, 5 high, 1 moderate |
+> | **Evidence included** | 10 sources — 4 gold, 5 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Semba (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
+> | **Last updated** | 2026-08-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
 
 ## References

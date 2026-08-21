@@ -2,13 +2,13 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars]
-sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007]
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization]
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -118,7 +118,9 @@ is *entirely* artifact (protection -> harm under correction). The **underweight 
 reverse causation but not wholly: it falls from 1.81 (raw) to 1.47 (primary) as smokers and early
 deaths are removed, yet **stays elevated at 1.47** — so low BMI carries residual real excess
 mortality that the corrections do not dissolve, distinct from the fully-artifactual overweight
-signal. [inferred from @globalbmi2016]
+signal. [inferred from @globalbmi2016] **Refined below (Sun MR):** this
+never-smoker residual is itself largely a *smoking* phenomenon (respiratory-death-driven, evident only
+in ever-smokers) — condition on smoking before reading the low arm.
 
 ## The genetic-instrument confirmation — Wade MR cashes the missing strong check `[2026-08-06, Wade]`
 
@@ -180,6 +182,69 @@ from an overlapping group, so this is a same-lineage **type-F** refinement (the 
 earlier's missing genetic-instrument leg) — **not** independent-E backing. The convergence is genuine and
 cashes the missing strong check, but it must not be counted as independent corroboration.
 [inferred from @globalbmi2016; @wade2018]
+
+## Sun MR — the single J is at least TWO curves; the underweight arm is largely a smoking phenomenon `[2026-08-19, Sun]`
+
+A second, non-linear MR (Sun 2019: HUNT Norway 56,150 + UK Biobank 366,385; fractional-polynomial
+meta-regression across **100 residual-BMI strata**) both **confirms the nadir** and **decomposes the
+curve**. The overall MR J agrees with the page above — «The lowest risk was at a BMI of around 22-25»
+(HUNT nadir \~22-23, UKB \~25) [@sun2019] — converging with the 22.5-25 corrected-observational nadir and Wade's \~23. Linear MR
+(per 1-unit genetically-predicted BMI) shows the same category split: overall **1.04 (1.02-1.06)**,
+obese **1.09 (1.04-1.14)** harm, but underweight **0.66 (0.52-0.84)** — in the underweight stratum
+*raising* BMI reduces mortality. [@sun2019]
+
+**The decomposition is the new finding.** Stratifying by smoking splits the aggregate J into two
+different shapes: «an always-increasing relation of BMI with mortality in never smokers and a J shaped
+relation in ever smokers ... the BMI-mortality relation is likely comprised of at least two distinct
+curves, rather than one J shaped relation. An increased risk of mortality for being underweight was
+only evident in ever smokers.» [@sun2019] In never-smokers Sun finds «no evidence for a harmful effect of reducing BMI in underweight
+participants» — clearest in HUNT (a positive slope throughout under/normal/overweight), while in UKB
+«confidence intervals were wide and compatible with a null effect at all values of BMI».
+[@sun2019]
+
+**Refinement of the underweight arm above.** The section above (from Global BMI) holds the never-smoker
+underweight residual (1.47) as *partly real harm*. Sun sharpens, without overturning, that reading:
+the underweight-mortality risk concentrates in **ever-smokers**, where «Increased mortality in
+underweight smokers might be driven by respiratory diseases» — the non-CVD-non-cancer «other» category
+that carries the only profound J. [@sun2019] This is NOT a filed tension with Global BMI: Global BMI's 1.47 is an *observational
+association* within never-smokers (residual reverse causation not removed by the never-smoker
+restriction), Sun's is a *genetic causal slope* on a small (1-3% of sample) and imprecise underweight
+stratum — the observational-vs-MR discordance the page already carries, now stratified by smoking
+-> [[The Observational-Trial Discordance]]. Candidate mechanism for whatever residual low-BMI risk
+remains: «the higher risk of all cause mortality in the lower range of BMI might be explained by low
+lean mass rather than low fat mass». [@sun2019] The **decision reading**: for a lean **never-smoker**, the pooled/observational underweight
+mortality penalty is not shown to apply causally — condition on smoking before reading the low arm.
+
+**Shape is outcome-specific (UKB cause-specific MR).** CVD mortality increasing (nadir \~21-22); cancer
+mortality **flat** («no strong evidence that BMI affects cancer mortality in any BMI category»); the
+non-CVD-non-cancer «other» curve «had a profoundly curved J shape, with the lowest risk of mortality at
+a BMI of 23.0-24.0» (respiratory 27% / digestive incl. alcoholic-liver 18% / nervous 15% / external
+incl. suicide 11%). [@sun2019] So the
+J lives in one cause category — the same outcome-specificity the fabric holds for other exposures.
+
+**Independence verdict — type-F, NOT independent-E (the lineage chase again).** Sun shares *no* author
+with Wade, so the triage-stage *independent genetic witness (no excluded authors)* reads as a fresh
+witness — but the chase defeats it: co-author **Emanuele Di Angelantonio** also leads the **Global BMI
+Mortality Collaboration** (Global BMI 2016 ref 6), and Sun **cites Wade 2018 as ref 33**. Shared author
+vs the held observational IPD-MA + cites-as-antecedent vs the held MR = **type-F refinement**, not
+independent-E.
+
+| Parameter | Global BMI 2016 (corrected obs.) | Wade 2018 (linear MR, UKB) | Sun 2019 (non-linear MR, HUNT+UKB) | Same quantity? |
+|---|---|---|---|---|
+| Nadir | 22.5-25 | \~23 (MR) vs \~26 (obs.) | \~22-23 (HUNT) / \~25 (UKB) | **YES** — convergent |
+| Low arm | residual 1.47 (partly real) | J deflates, reverse causation | no underweight harm in never-smokers; harm is ever-smoker/respiratory | **partly** — Sun conditions it on smoking |
+| Above-nadir arm | monotone harm 1.31/5u | causal MR harm (CVD 1.10/u) | 1.09/u obese; steeper in women | **YES** — convergent |
+| Independence | — | shares Davey Smith/Sattar w/ Global BMI | shares Di Angelantonio w/ Global BMI; cites Wade | **NO** — overlapping lineage, all type-F |
+
+**Adjudication caveats.** MR is the strong check, but (i) Sun's **non-linear** fractional-polynomial
+method carries a published **Editor's Note on methodological criticism + an updated analysis** — the
+note's text is not in the held chunk, so the non-linear *shape* estimates carry an added caveat while
+the smoking-decomposition *direction* is less exposed; and (ii) stratifying on smoking is a **collider**
+(genetically-predicted BMI influences smoking), which Sun argues is «likely to be negligible».
+[@sun2019]
+[inferred from @sun2019] the *decompose the aggregate curve by the
+effect-modifier* reading and the not-a-tension resolution are the wiki's own synthesis
+-> [[The U-Shaped Association Artifact]].
 
 ## Decision relevance
 

@@ -2,11 +2,11 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019]
 cluster: cvd-risk-estimation
 confidence: high
-self_critiqued: 2026-08-07
+self_critiqued: 2026-08-20
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -15,12 +15,13 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Semaglutide for Cardiovascular Risk in Obesity
     - Statins for Primary Prevention and the Power of Zero CAC
+    - Aspirin for Primary Prevention of Cardiovascular Disease
     - Does Weight Loss Reduce Cardiovascular Events
     - Blood Pressure Lowering and Cardiovascular Events
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-28
-updated: 2026-08-07
+updated: 2026-08-20
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -32,7 +33,10 @@ genuinely low-risk primary-prevention person, no cardiometabolic intervention th
 large *absolute* reduction in hard cardiovascular events.** The first three are *unproven there or
 below the action threshold*; the fourth, BP-lowering, is the sharp test — its *relative* benefit **is**
 proven in primary prevention, and the claim survives only because a proven relative effect on a low
-absolute baseline is still a small absolute gain.
+absolute baseline is still a small absolute gain. A **fifth** intervention, aspirin, is treated below
+as a distinct case: it is not one of the four sharing that question, and it reaches the same ceiling by
+a *different* mechanism — a proven relative benefit exactly cancelled by a proven bleeding harm — so it
+sharpens rather than repeats the pattern.
 
 
 
@@ -47,6 +51,27 @@ absolute baseline is still a small absolute gain.
 
 Each per-page cross-source comparison already carries its own parameter table; this page **configures**
 those settled findings, it does not re-derive a magnitude.
+
+## A fifth intervention sharpens the pattern — aspirin (added 2026-08-20)
+
+
+Aspirin ([[Aspirin for Primary Prevention of Cardiovascular Disease]]) is the **sharpest** case
+because it fails the low-risk person on a *different* mechanism than the four above. The other four
+are *unproven or below threshold* in primary prevention; aspirin's **relative** CV benefit **is**
+proven there (composite HR 0.89, 95% CrI 0.84-0.94) — yet it still delivers no net gain, because a
+**matched, also-proven bleeding harm** cancels it. On the largest trial-level MA (13 RCTs, 164 225
+people) the composite-CV ARR is 0.41% (0.23-0.59) against a major-bleeding ARI of 0.47% (0.34-0.62)
+— NNT 241 vs NNH 210 — so the harm arm marginally **exceeds** the benefit, with no mortality benefit
+[@zheng2019aspirin].
+
+It also **stress-tests shared mechanism #1 below** (absolute benefit scales with baseline risk). For the
+other four, raising baseline risk is the escape hatch — a proven relative effect buys more absolute
+benefit in a higher-risk person. Aspirin closes that hatch: the bleeding harm **co-travels** with
+cardiovascular risk, so both arms scale together and the net stays a wash-to-negative in the low-risk,
+high-risk, and diabetes strata alike (bleeding ARI >= CV ARR in every one)
+[@zheng2019aspirin]. So for aspirin, *even a
+higher-risk person is not rescued by route-(a)* — a stronger conclusion than the ceiling finding needs,
+and one the other four do not reach.
 
 ## Why they converge — three shared mechanisms, not a coincidence
 
@@ -178,6 +203,9 @@ genuinely LOW-risk population** — any would move a *large-absolute-at-low-risk
 toward *proven*. Until then the pattern holds, and its confidence is **high**: six intervention
 classes across drug, diet-pattern and lifestyle — including the ones with the strongest
 primary-prevention evidence, and one (REDUCE-IT) that displays the baseline-risk gradient within a
-single trial — all land in the same place by the same mechanism.
+single trial — all land in the same place by the same mechanism. Aspirin adds a seventh class that
+reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
+also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
+demonstrable, which strengthens rather than dilutes the finding.
 
 ## References

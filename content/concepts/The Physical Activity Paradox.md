@@ -2,14 +2,14 @@
 type: concept
 question: Does the mortality effect of physical activity depend on the DOMAIN it happens in — is high occupational (work) activity beneficial like leisure activity, or the opposite?
 aliases: [Physical Activity Paradox, PA Paradox, Occupational Physical Activity, Occupational Physical Activity and Mortality, Work Physical Activity, Physically Demanding Work Mortality]
-authors: [Coenen, Pieter]
-sources: [Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018]
+authors: [Coenen, Pieter; Celis-Morales, Carlos A]
+sources: [Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017]
 cluster: occupation
 nucleus: true
 confidence: low
 created: 2026-08-14
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 relationships:
   related_to:
     - Physical Activity Dose and Mortality
@@ -101,6 +101,62 @@ fitness despite being highly active. So the mechanism is a **substrate/recovery 
 sub-fitness-threshold load with elevated HR/BP and no recovery, rather than the intermittent
 CRF-raising stimulus that leisure exercise supplies. [inferred from @coenen2018paradox] This is a Randle-adjacent *directional* mechanism, admitted
 discounted, not as an outcome finding.
+
+## The commuting counterpart sharpens the axis — it is NOT leisure-vs-work `[2026-08-19, Celis-Morales]`
+
+The domain that flips the sign is easy to mislabel as *leisure vs work*. **Active commuting breaks
+that reading:** the authors class it as **non-leisure** physical activity, yet it patterns with the
+*beneficial* side, not the harmful occupational one.
+
+> «The strong evidence base for both overall and leisure related physical activity,26 27 contrasts with
+> relatively few and conflicting studies of non-leisure physical activity, such as active commuting, and
+> prospective health out- comes.»
+> [@celismorales2017commuting]
+
+In UK Biobank (263,540 workers, maximally adjusted incl. occupational PA) cycle-commuting carried
+**HR 0.59 (0.42-0.83)** for all-cause mortality vs non-active commuting, with cancer incidence 0.55
+(0.44-0.69) and cancer mortality 0.60 (0.40-0.90)
+[@celismorales2017commuting]. So a
+**non-leisure** exposure runs the *opposite* direction to occupational PA (men, HR 1.18) — the
+leisure/work label cannot be the operative axis.
+
+**What IS the operative axis — same-quantity check across three domains.** The sign tracks the
+*intensity/recovery pattern* (does the activity reach a CRF-improving stimulus, with recovery), not
+where it happens:
+
+| Parameter | Occupational PA (Coenen) | Active commuting — cycling (Celis-Morales) | Leisure MVPA (dose page) | Same quantity? |
+|---|---|---|---|---|
+| Domain label | non-leisure (work) | **non-leisure** (utilitarian transport) | leisure | NO — but two are non-leisure |
+| Pattern | >=40 h/wk, static/repetitive, no recovery | intermittent bouts + recovery | short bouts + long recovery | NO |
+| Reaches CRF-improving intensity? | no (hospital cleaners: high activity, no CRF gain) | **yes** (\~90% of cyclists meet PA guidelines) | yes | NO |
+| Direction on all-cause mortality | **higher** in men (HR 1.18) | **lower** (HR 0.59) | lower | NO — opposite for occ vs both |
+
+Because the two *non-leisure* exposures (columns 1-2) sit on **opposite** sides of the sign while
+differing on intensity/recovery, the split the paradox names is **intensity-and-recovery, not the
+leisure/work boundary** — active commuting is the case that pins this down.
+[inferred from @celismorales2017commuting; @coenen2018paradox]
+
+**The mechanism is corroborated within the commuting data — cycling beats walking on exactly the CRF
+axis.** Walking commuting is null for all-cause and cancer mortality and benefits CVD only above a
+distance threshold («more than six miles a week»), while cycling benefits all five outcomes with a
+dose-response by distance
+[@celismorales2017commuting]. The
+authors attribute the cycling advantage to intensity:
+
+> «This finding may reflect the greater exercise intensity of cycling compared with walking.25 While
+> approximately 90% of cycle commuters and approxi- mately 80% of mixed mode cycling commuters achieved
+> current physical activity guidelines, only 54% of walk- ing commuters and approximately 50% of mixed
+> mode walking commuters did; a similar proportion to non-ac- tive commuters (51%).»
+> [@celismorales2017commuting]
+
+So *within one exposure domain* the benefit scales with the intensity/CRF stimulus — the same axis
+that separates beneficial leisure PA from harmful occupational PA — which is why walking commuting
+(sub-threshold, \~54% meeting guidelines) behaves closer to the neutral occupational case than to
+cycling. **Caveat symmetric with the occupational finding:** commuting mode is self-reported and
+observational, cyclists are markedly leaner/fitter/wealthier at baseline (healthy-user, mirror of the
+healthy-worker effect below), so this is a domain-specific *association*, not a proven causal axis
+-> [[Upgrading Observational Evidence]].
+[inferred from @celismorales2017commuting]
 
 ## The artifact watch — healthy-worker selection inflates the apparent harm
 
@@ -209,5 +265,23 @@ a null; the levers do not collapse into one.
   tidier; the effect estimate stays attributed to Travis's own source. The four-exposures claim is a
   cluster-level read tagged, each estimate left to its own source — no laundered
   independence across the four channels.
+
+### Commuting-refinement addition `[run 2026-08-19, before commit]`
+
+- **The axis-identification is not overclaimed as causal.** The claim is that the *sign* tracks
+  intensity/recovery, evidenced by two non-leisure exposures landing on opposite sides — a
+  disambiguation of the axis, not a proof that intensity *causes* the mortality difference. The
+  commuting arm is observational with strong healthy-user selection (stated), so the causal reading
+  stays unadjudicated exactly as the occupational arm does.
+- **The parameter table is the guard.** The three-domain table returns same-quantity NO across
+  pattern / CRF-stimulus / direction, which is what licenses "the split is intensity, not the label"
+  rather than a manufactured contrast. Each HR and the guideline-attainment figures stay attributed to
+  their own source; the axis synthesis is tagged as the wiki's.
+- **Not a laundered independence.** Celis-Morales's UK Biobank shares the observational PA-epi lineage
+  of the leisure-PA fabric, so it is folded as a domain-refining case, not as independent (type-E)
+  backing — flagged as such on [[Physical Activity Dose and Mortality]].
+- **Gap named, not hidden.** The intensity/recovery axis is *inferred* from mode-contrasts (cycling vs
+  walking vs occupational); no held source measures the pattern directly — recorded as the open G-gap,
+  not asserted as established.
 
 ## References

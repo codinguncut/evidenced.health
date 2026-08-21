@@ -2,8 +2,8 @@
 type: framework
 question: How much protein should an older adult eat — daily (g/kg) and per meal — and what modifies that target?
 aliases: [Protein Older Adults, PROT-AGE, Older Adult Protein Target, Protein for the Elderly, 1.2 g/kg Protein, Protein Intake Elderly]
-authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018]
+authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly]
 cluster: muscle
 confidence: medium
 relationships:
@@ -20,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Low Muscle Mass and Mortality
 created: 2026-08-06
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-19
+self_critiqued: 2026-08-19
 ---
 
 The **target** side of the protein question for the over-65 stratum: how much, and distributed how,
@@ -124,6 +124,35 @@ surrogate-level (GFR, not hard kidney outcomes — the dedicated protein-to-kidn
 still the named gap), and Devries shares Phillips with PROT-AGE, so this is **one lineage's** coherent
 position, not two independent confirmations. The stratum flip (severe CKD -> restrict) is unchanged.
 
+## The chronic-outcome evidence — mass yes (in the deficit stratum), strength no (Komar)
+
+[@komar2015]
+PROT-AGE and the per-meal breakpoint rest on consensus + acute surrogates. Komar 2015 (gold SR+MA,
+16 RCTs, 999 subjects aged >=65, leucine-rich protein 2-7.8 g/d for >=10 days — a **different research
+lineage** from the Phillips/Wolfe programme) is the closest chronic clinical-outcome test held for this
+stratum, and it both **supports and bounds** the target:
+
+- **Supports the mass rationale — where there is a deficit.** Leucine-rich protein raised lean body
+  mass +0.99 kg [95% CI 0.43, 1.55; p=0.0005] and body weight +1.02 kg [0.19, 1.85], but subgroup
+  analysis confines the effect to the **sarcopenic** stratum (LBM +1.14 kg [0.55, 1.74] in sarcopenia
+  vs **null, -0.05 kg [-1.55, 1.46]**, in healthy elderly). So *raise protein to protect muscle* is
+  cashed at the mass endpoint mainly for those *already losing* it — a repletion reading, not
+  enhancement in the replete [[Deficiency Repletion vs Enhancement]].
+- **Bounds it — strength did not move.** Grip WMD +0.23 [-0.26, 0.73; p=0.36; I2=65%] and knee
+  extension +0.07 Nm/kg [-0.26, 0.40; p=0.68] were null — the mass gain did not read out as measured
+  strength ([[Surrogate Outcomes]]). Komar itself flags this as likely under-powered («a small number
+  of trials potentially insufficient to yield significant results»; broader-inclusion SRs did find grip
+  gains), so it is *insufficient evidence* on strength, not proof of no effect — but it withholds any
+  strength claim from this stratum's protein target.
+- **The exposure is protein+energy, not isolated leucine or protein-per-se.** Komar cannot separate
+  leucine from the co-ingested protein/AA matrix, and «an increase in total energy consumption might be
+  a prerequisite for the success of these supplementations with respect to parameters such as LBM» — a
+  reminder that in frail/undernourished elderly the *energy* the supplement carries may be doing much of
+  the work, so the lever is *enough protein and energy*, not a leucine trick.
+- **Pool-overlap caveat (no independence lift).** Komar's elderly-protein RCTs (Tieland, Chalé,
+  Leenders, ...) plausibly overlap Tagawa's protein-supplement pool below, so their agreement that
+  protein raises LBM in older adults is partly shared-evidence, not a second independent route.
+
 ## Decision relevance
 
 [inferred from @bauer2013; @moore2014]
@@ -169,11 +198,15 @@ position, not two independent confirmations. The stratum flip (severe CKD -> res
   1.0-1.2 vs 0.8 g/kg/d changes what the person experiences; muscle *function* and sarcopenia are on the
   outcome menu, but the causal link from *raising protein* to *better function* is asserted, not proven
   -> [[Surrogate Outcomes]]. The loop is open.
-- **Consensus + small studies, one programme.** Bauer is a Delphi consensus (`recommendation` tier —
-  cite its underlying reviews for any effect/certainty claim); Moore and Katsanos are small,
-  acute, male-only metabolic studies. Their agreement is coherence within one research school (shared
-  authors and cross-citation), not independent corroboration -> [[Anabolic Resistance]]. Moore is
-  male-only; Katsanos is a mixed-sex parallel-group study.
+- **Consensus + small studies, one programme — partly widened by Komar.** Bauer is a Delphi consensus
+  (`recommendation` tier — cite its underlying reviews for any effect/certainty claim); Moore and
+  Katsanos are small, acute, male-only metabolic studies. Their agreement is coherence within one
+  research school (shared authors and cross-citation), not independent corroboration
+  -> [[Anabolic Resistance]]. Moore is male-only; Katsanos is a mixed-sex parallel-group study. Komar
+  2015 (gold SR+MA, Vienna group) adds a **different-lineage chronic-outcome** confirmation of the *mass*
+  claim (in sarcopenic elderly) — partly answering the one-school limit — but it still *cites* Katsanos
+  and leaves *strength* and hard outcomes unproven, so it upgrades the mass rationale without closing the
+  surrogate loop.
 - **Sponsor exposure.** PROT-AGE was funded by a Nestlé Nutrition grant and most authors disclose
   medical-nutrition-industry ties (Nestlé, Nutricia, Abbott); Moore and Katsanos are dairy / amino-acid
   funded. Under symmetric standards this is a directional-bias flag on the "eat more protein /

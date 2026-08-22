@@ -9,8 +9,8 @@ sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer
   BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
 confidence: medium
 created: 2026-08-18
-updated: 2026-08-20
-self_critiqued: 2026-08-20
+updated: 2026-08-21
+self_critiqued: 2026-08-21
 ---
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
@@ -82,11 +82,13 @@ calorie deficit, keeping protein up while you keep lifting protects muscle and b
 person eating normally, it is not a lever worth chasing. ->
 [[Protein and Resistance Training for Muscle and Strength]]
 
-**Fibre -- plenty from whole plant foods, mostly along for the ride.** People who eat the most fibre die
-less often, but that comes from observational data on self-reported diets, so much of it is the whole
-healthy-eating pattern rather than fibre itself. Where fibre is tested cleanly in trials, the effect
-is real but small -- a little lower cholesterol. Eat enough, from whole plant foods rather than a
-supplement chase, and don't expect a miracle. -> [[Dietary Fibre and Health]]
+**Fibre -- eat whole plant foods; the famous gram target is softer than it sounds.** People who eat the
+most fibre die less often, but that comes from observational data on self-reported diets and is tangled up
+with eating more vegetables and living healthier generally -- so much of it is the whole pattern, not
+fibre itself. And *fibre* is not one thing: only the *viscous* kind (oats, psyllium) has a clean trial
+effect, and it is small -- a little lower cholesterol. Eat plenty from whole plant foods; a rough
+25-29 g/day is a reasonable floor, not a precise or proven target, and a supplement is no substitute for
+the food pattern. -> [[Dietary Fibre and Health]]
 
 ## Things to look out for
 
@@ -219,9 +221,13 @@ on "if you smoke." -> [[Smoking and Mortality]]
 Across eight accelerometer cohorts, moving from the least-active quarter to the second roughly halved
 all-cause mortality (total-activity HR 0.48, 95% CI 0.43-0.54), with the most-active quarter at HR 0.27
 (0.23-0.32); the increment that bought the first jump was overwhelmingly light, incidental movement, and
-most of the benefit banks by the start of a broad flat plateau of moderate-to-vigorous activity, not at a single
-threshold
-[@ekelundacc2019].
+most of the benefit banks in that first step -- about 5 min/day of moderate-to-vigorous activity, or
+\~60 min/day of light movement, the least-to-second-quarter increment. Returns continue above it but
+shrink (HR 0.48 -> 0.34 -> 0.27 across the upper quarters); the curve flattens only near the top of the
+studied range, where «No further risk reductions occurred with higher levels of activity except for low
+light intensity physical activity where the risk appeared to decrease further»
+[@ekelundacc2019]
+-> [[Physical Activity Dose and Mortality]].
 
 In everyday terms that
 first step is small: the least-active-to-second-quarter gap was «broadly equal to 60 min/day of light
@@ -346,10 +352,15 @@ sleep; long sleep is a marker of illness, not a target to trim. -> [[Sleep Durat
 
 #### The smaller levers
 
-**Protein and muscle (rises with age and during weight loss).** Protein supplementation augments
-resistance-training gains only up to a soft break-point near 1.6 g/kg body weight per day (a statistically soft knee, not a
-sharp optimum) [@morton2018] -- a
-floor rather than a ceiling to chase (the precise breakpoint and its wide CI live at [[Protein and Resistance Training for Muscle and Strength]]);
+**Protein and muscle (rises with age and during weight loss).** Added protein augments the *fat-free
+(lean) mass* gained from resistance training only up to a soft, non-significant break-point near 1.6 g/kg
+of body weight per day (95% CI 1.03-2.20, p=0.079 -- a statistically soft knee, not a sharp optimum)
+[@morton2018] -- so aim for
+roughly 1.6-2.2 g/kg as a floor, not a ceiling to chase past. Two caveats keep the number honest: it is
+per *total* body weight, measured in healthy trained adults (people with obesity were not studied), so it
+does not transport to obesity (where total-vs-lean scaling diverges \~twofold -- an untested gap,
+adjudicated at
+[[Protein Intake]]).
 ageing blunts the muscle-protein response, so an expert consensus (a recommendation, not a trial-derived
 target) advises older adults \~25-30 g per meal and \~1.0-1.2 g/kg/day, with \~1.6 g/kg under training
 [@bauer2013], and higher protein preserves fat-free
@@ -372,15 +383,23 @@ per 5 mmHg, with the relative benefit broadly constant across baseline pressure
 \~9-10 g salt against a \~5 g target [@esc2021]. Decide on
 overall risk, not the number. -> [[Blood Pressure Lowering and Cardiovascular Events]]
 
-**Fibre.** Highest-vs-lowest fibre intake tracks \~15-30% lower all-cause mortality (RR 0.85), CHD (RR
-0.76) and type 2 diabetes, about 13 fewer deaths per 1000 (CI 8-18)
-[@reynolds2019] -- but on self-reported intake, so
-the healthy-user confound and dietary measurement error inflate it
-([[Measurement Error in Dietary Assessment]]). The trial-grade effect is real and small: soluble
-fibre lowers LDL about -0.057 mmol/L per gram over the practical 2-10 g/day range, «only a small
+**Fibre -- eat whole plant foods; there is no robust single gram-target.** *Total dietary fibre* is not
+one exposure: it lumps viscous (oats, psyllium), fermentable, and bulking fractions that act by different
+mechanisms, and the clean evidence covers only one of them
+[inferred from @reynolds2019; @brown1999].
+Highest-vs-lowest *total* fibre tracks \~15-30% lower all-cause mortality
+(RR 0.85), CHD (RR 0.76) and type 2 diabetes -- about 13 fewer deaths per 1000 (CI 8-18)
+[@reynolds2019] -- but that rests on
+self-reported intake and is heavily confounded with overall vegetable and whole-food eating: much of the
+signal is the healthy-eating pattern, not fibre itself ([[Measurement Error in Dietary Assessment]]). The
+one fraction with a clean, mechanism-backed trial effect is *viscous/soluble* fibre, and only on a
+surrogate: it lowers LDL \~-0.057 mmol/L per gram over the practical 2-10 g/day range, «only a small
 contribution to dietary therapy to lower cholesterol»
-[@brown1999]. Treat any gram target as a guidance floor, not a curve optimum: eat plenty from
-whole plant foods, and do not read the mortality numbers as RCT-proven.
+[@brown1999]. So treat Reynolds'
+«no less than 25-29 g per day with additional benefits likely to accrue»
+[@reynolds2019] as a guidance floor from whole plant foods -- an
+observational, confounded figure, not a proven or type-agnostic target, and no licence to swap a psyllium
+supplement for the whole-food pattern the mortality data actually described.
 -> [[Dietary Fibre and Health]]
 
 #### Things to look out for (the readouts)
@@ -445,6 +464,6 @@ not targets a supplement can move [@celismorales2018].
 > | **Evidence included** | 39 sources — 20 gold, 18 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+> | **Last updated** | 2026-08-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
 
 ## References

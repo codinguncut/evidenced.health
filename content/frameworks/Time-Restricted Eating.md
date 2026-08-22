@@ -1,7 +1,7 @@
 ---
 type: framework
-question: Does WHEN you eat, independent of what and how much, change body weight or cardiometabolic outcomes?
-aliases: [TRE, Time-Restricted Feeding, TRF, eTRF, Early Time-Restricted Feeding, Intermittent Fasting Window, 16:8 Eating, Skipping Breakfast]
+question: Does the eating PATTERN -- when you eat (the window) and how often (meal frequency), independent of what and how much -- change body weight or cardiometabolic outcomes?
+aliases: [TRE, Time-Restricted Feeding, TRF, eTRF, Early Time-Restricted Feeding, Intermittent Fasting Window, 16:8 Eating, Skipping Breakfast, Meal Frequency, Grazing, Snacking, Small Frequent Meals]
 authors: [Lowe, Dylan A; Weiss, Ethan J; Sutton, Elizabeth F; Peterson, Courtney M; Ravussin, Eric; Liu, Deying; Zhang, Huijie; Semnani-Azad, Zhila]
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025]
 cluster: fasting
@@ -16,8 +16,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-29
-updated: 2026-08-08
-self_critiqued: 2026-08-08
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster's meal-timing facet.** The decision question:
@@ -257,6 +257,23 @@ absent; this is one exposure term splitting into two. Recorded as a decompositio
 
 
 
+## Meal frequency -- the same isocaloric logic, and where it stops being held `[2026-08-22]`
+
+The grazing belief -- *small, frequent meals raise your metabolism* -- is the meal-**count** version of
+the window question, and the held principle answers the *weight* half of it directly: meal *pattern* is
+not a weight-independent lever once total intake is fixed. Liu's 12-month isocaloric null and TREAT both
+put the effect in the *deficit*, not the *schedule* (above), so eating more often will not, by itself,
+raise weight loss beyond whatever it does to total intake.
+
+**Where the held fabric stops (the gap).** Meal frequency is a *different exposure* from the eating
+window, and the trials the wiki holds fixed it as a matched **control** (3 meals/day) rather than testing
+it as an exposure. So the narrower believer's claim -- that more frequent meals raise *energy
+expenditure* via a more frequent thermic effect of food -- is **insufficient-evidence** here, neither
+confirmed nor refuted: the fabric holds no frequency-specific EE/TEF or hard-outcome SR. The *decision*
+answer is held (meal count is not a weight lever independent of intake); the *metabolic-rate* mechanism
+is a named gap (G), worth queuing only if a believer-facing deliverable needs the number.
+
+[inferred from @liu2022; @lowe2020]
 ## Decision relevance
 
 - **Do not sell TRE as a weight-loss method on its own.** For someone whose goal is weight, the honest

@@ -2,13 +2,13 @@
 type: framework
 question: Does red or processed meat cause cancer, by how much, and does the evidence warrant reducing intake?
 aliases: [Red Meat, Processed Meat, Red Meat and Cancer, Processed Meat and Cancer, Meat and Colorectal Cancer]
-authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018]
+authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022]
 cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-13
-self_critiqued: 2026-08-08
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 relationships:
   related_to:
     - Should Adults Reduce Red and Processed Meat
@@ -121,6 +121,113 @@ So WCRF asserts a convincing/probable *cause* while NutriRECS holds causation im
 disagreement on existence, softened only by NutriRECS declining to rule a very small effect out
 entirely.
 [@nutrirecs2019]
+
+## The intrinsic-heme channel — a within-category attribute, and what it bounds `[2026-08-22, Bastide 2011]`
+
+WCRF names haem iron as *a* mechanism (above). Bastide 2011 (gold MA + mechanism review) makes heme the
+**leading** candidate mechanism and — more usefully — turns it into a **within-category attribute** that
+carries a specific decision consequence: **heme is intrinsic to red meat regardless of curing.**
+
+**The heme -> colon-cancer association.** Five prospective cohorts (566,607 people, 4,734 colon-cancer
+cases): «The summary relative risk of colon cancer was 1.18 [95%C.I.: 1.06-1.32] for subjects in the
+highest category of heme iron intake compared with those in the lowest category»
+[@bastide2011heme]. **Read the magnitude
+with its two bounds:** it is a **highest-vs-lowest categorical** contrast (mostly quintiles), *not* an RR
+per gram — the paper gives **no human dose-response curve and no threshold** — and it is **colon** cancer
+only (rectal data missing in two cohorts). And the heme exposure is **partly a red-meat proxy**: two
+cohorts computed heme as «a factor of 0.4 to the total iron content of all meat items which essentially
+is reporting an overall red meat effect» [@bastide2011heme],
+so the cohorts alone cannot separate heme from red meat. The heme-specific attribution rests on mechanism
++ the white-meat contrast + a rat dose-response (aberrant-crypt effect size 1.73 [1.33-2.14]; heme
+concentration explains R-squared 0.62 of the variance) [@bastide2011heme].
+
+**Why heme, and why it names the red/white boundary.** Heme content of red meat is «10-fold higher than
+that of white meat» — the proposed reason red meat carries CRC risk and white meat does not
+[@bastide2011heme]. Heme acts as a
+**catalyst** on two pathways: endogenous N-nitroso (ATNC) formation — «Heme iron, and not inorganic iron
+or meat proteins, may be responsible for the nitrosation observed in the gut of volunteers fed red meat»
+— and lipid peroxidation to genotoxic aldehydes (MDA, 4-HNE)
+[@bastide2011heme]. Competing mechanisms are
+down-weighted in-source: heterocyclic amines (chicken is HCA-rich yet carries no risk) and saturated fat
+(«several studies, including a recent meta-analysis, showed no effect of saturated fat on colorectal
+carcinogenesis») [@bastide2011heme].
+
+**The decision-relevant bound — how much can nitrite/curing removal help?** Because heme is present in red
+meat **whether or not it is cured**, the intrinsic-heme channel **bounds** the benefit of removing
+nitrite/curing: a genuinely nitrite-free processed-meat product still carries heme, so it cannot fall
+below the intrinsic-heme risk floor. **But the two channels are coupled, not additive-independent.** «In
+processed red meat, heme iron is nitrosylated, because curing salt contains nitrate or nitrite», and
+Pierre «demonstrated that the nitrosylation of heme was a key event in the promoting effect of processed
+meat in rats» [@bastide2011heme] — curing
+acts partly *through* heme (nitrosyl-heme > native heme in toxicity). So this is **one side** of an open
+attribution question: *is processed-meat CRC harm intrinsic-heme-driven or curing-nitroso-driven?* The
+nitroso side is addressed in the next section — but it splits into two exposures, only one of which
+Said Abasse 2022 measures.
+[inferred from @bastide2011heme]
+
+## The three-exposure decomposition — free dietary nitrate/nitrite is NOT the colorectal driver `[2026-08-22, Said Abasse 2022]`
+
+The intrinsic-heme section leaves an attribution question: heme vs curing-nitroso. Said Abasse 2022 (gold
+SR+MA, 41 articles, 13 cancer sites) forces a **finer cut** than that binary, because the term "nitrite"
+in the diet is not one exposure. The correct decomposition of processed-meat cancer risk is **three**
+exposures, not two:
+
+1. **Intrinsic heme iron** — present regardless of curing (Bastide, above); promotes **colon** cancer
+   (RR 1.18 categorical).
+2. **In-matrix curing-nitroso / nitrosyl-heme** — nitrite added to the *meat matrix*, nitrosylating heme
+   and driving endogenous NOC (Bastide's curing coupling); the channel most specific to *processed* meat.
+3. **Free dietary nitrate/nitrite** — total ingested nitrate/nitrite as measured by diet questionnaires,
+   which is **vegetable-dominated**: «fruits and vegetables contribute over 80% of the daily dietary intake
+   of nitrate ... and nitrite ... which represent the primary sources of exposure»
+   [@abasse2022nitrate].
+
+**Said Abasse measures only exposure (3), and finds NO colorectal signal for it.** Across both categorical
+approaches and both molecules, colon and rectal risk are null: Colon (nitrate) 0.99 (0.91, 1.08) / 1.00
+(0.96, 1.04); Colon (nitrite) 1.02 (0.92, 1.11) / 1.02 (0.93, 1.11); Rectal (nitrate) 1.01 (0.88, 1.14) /
+1.10 (0.96, 1.24); Rectal (nitrite) 1.09 (0.79, 1.39) / 1.06 (0.87, 1.26)
+[@abasse2022nitrate].
+The only significant categorical associations anywhere in the 13 sites were **thyroid (nitrate) OR 1.40
+(1.02, 1.77)** and **glioma (nitrite) OR 1.12 (1.03, 1.22)** — both I2 = 0%, both **non-GI**
+[@abasse2022nitrate]. A dose
+meta-regression adds only directional (no OR) hints — nitrite -> stomach/bladder up, pancreatic down;
+nitrate -> kidney/bladder down — several of which are **publication-bias-flagged** (Egger/Begg: kidney,
+stomach, pancreatic, colon-nitrite)
+[@abasse2022nitrate].
+
+**Why this is a DISTINCTION, not a contradiction of Bastide (not-joined check ii — different exposure/unit).**
+A null on free dietary nitrite -> colorectal does **not** rebut Bastide's in-matrix nitrosyl-heme -> colon
+mechanism, because they are different quantities: Bastide's harm runs through heme-bound, matrix-embedded
+curing nitrite plus endogenous NOC; Abasse's exposure is total ingested nitrate/nitrite dominated (>80%)
+by *protective vegetable* sources, so aggregate dietary nitrite is a poor proxy for the meat-matrix channel
+and even carries the opposite confounding. Said Abasse keeps the meat channel conceptually separate itself:
+«It is the presence of nitrite, amides, and amines ... in processed meats and heme iron in fresh meat ...
+that is considered to be responsible for these risk effects»
+[@abasse2022nitrate]. And the one
+in-matrix interaction it reports runs the *other* way from the protective aggregate: among high-nitrate
+individuals, high heme carried a bladder signal (Catsburg 2014, OR 1.76 [1.21, 2.55])
+[@abasse2022nitrate].
+
+**The decision consequence.** "Cut the nitrite" is ambiguous across three exposures with different signs.
+Reducing **free dietary nitrite** by eating fewer vegetables would be net-harmful (it is the protective,
+vegetable-borne channel) and does nothing for CRC (null). The colorectal lever, if any, is the **in-matrix
+curing-nitroso** channel (exposure 2) — which this SR does **not** isolate — bounded below by the
+**intrinsic-heme floor** (exposure 1) that curing-removal cannot touch. So the fabric holds: dietary-nitrate
+guidance and processed-meat-CRC guidance are about **different molecules**, and a broad site-specific
+synthesis (41 articles, 13 sites) shows the vegetable-borne aggregate is not the colorectal driver.
+
+
+**A mitigation lever that does not require abstention.** Bastide's own decision move is to «inhibit red
+and processed meat toxicity instead of stopping meat intake»
+[@bastide2011heme]: calcium and chlorophyll
+trap heme, vitamin C/E block ATNC formation, polyphenols block lipid peroxidation (hence «eat a yogurt
+after your steak»; ascorbate is already added during curing). This is **directional/mechanistic** (rat +
+human-biomarker), with **no outcome RCT** — held as a candidate lever, not a recommendation.
+
+**Supersession + independence.** This 2011 MA (5 cohorts, categorical only) is the newest heme-CRC MA the
+wiki holds; a larger/newer heme-specific dose-response MA would upgrade it (G-gap). Bastide draws on the
+same red-meat cohort literature as WCRF/NutriRECS, so it is **not** independent backing for the
+association — its value is the **mechanistic attribution** and the intrinsic-vs-curing bound, not a second
+independent count (no [E-independent]).
 
 ## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`
 

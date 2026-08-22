@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -16,7 +16,7 @@ relationships:
     - Surrogate Outcomes
 created: 2026-07-25
 self_critiqued: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 ---
 
 ## The decomposition
@@ -539,5 +539,26 @@ failing that assumption. (RF-negative rests on only 2 studies, so the contrast i
 **Type: F.** Refines the page's route-(b) treatment by adding a distinction (modifier-as-outcome-subphenotype)
 it did not carry; it does not independently reach the decomposition. No `[E-independent]`.
 Full estimate + mechanism live on [[Autoimmune Disease and Modifiable Risk]].
+
+## A class-wide effect-modification search that came up empty — obesity drugs `[2026-08-22, Nong]`
+
+Beside Coley's well-powered dementia null sits a second route-(b)-absence data point, on a different
+exposure class. Nong's network meta-analysis of 262 obesity-drug RCTs (99 791 participants) ran
+prespecified subgroup analyses across **baseline obesity severity, type-2-diabetes status, and
+body-composition method**, plus post-hoc **baseline CVD** and **follow-up timeframe**, with credibility
+graded by ICEMAN — and «We did not find other credible subgroup effects with at least moderate
+credibility» beyond a duration effect (longer trials -> more weight loss, which is not a patient
+characteristic) [@nong2026obesity]. So
+the whole drug-class ranking is **route (a)**: relative effects consistent across strata, absolute
+benefit scaling with baseline CV/kidney risk — which is exactly why the source concludes prioritise
+«those at high risk of cardiovascular or kidney complications»
+[@nong2026obesity]. A route-(b) data
+point toward the standing `[PRIOR — over-personalization is the likelier failure]`, **lodged not scored**
+(the prior is adjudicated in its own operation). One honesty bound the source states: absence of
+individual-participant data «precluded more credible exploration of treatment effects across key
+subgroups, including age, sex, and comorbidity burden»
+[@nong2026obesity] — *no credible
+modification found*, not *modification excluded*. Full comparative appraisal -> [[Comparing Obesity Drugs]].
+[inferred from @nong2026obesity]
 
 ## References

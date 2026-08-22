@@ -52,6 +52,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 
 - [[Weight-Loss Maintenance and Metabolic Adaptation]] — why maintaining diet-induced loss is hard and
   whether the body physiologically defends the higher weight
+- [[Comparing Obesity Drugs]] — the 19-drug network meta-analysis: how the class ranks on weight, hard
+  outcomes, harms and QoL — and why the biggest weight loss is not the best-evidenced drug
 - [[Semaglutide for Cardiovascular Risk in Obesity]] — whether treating obesity with a drug reduces CV
   events, and whether that evidence reaches primary prevention
 - [[GLP-1 Non-Cardiometabolic Effects and Safety]] — the other half of the GLP-1 ledger: which

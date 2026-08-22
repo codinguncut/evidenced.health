@@ -22,3 +22,5 @@ timing is a distinct lever, and what to do about insomnia. Nucleus: [[Sleep Dura
   Index) is a distinct and stronger mortality lever than hours slept
 - [[Sleep Aids and Insomnia Treatment]] — for chronic insomnia, which works and is safest among CBT-I,
   prescription hypnotics, and melatonin
+- [[Sleep Apnea Treatment and Cardiovascular Risk]] — whether treating obstructive/central sleep apnea
+  with CPAP reduces hard cardiovascular events and death, or only the daytime symptoms

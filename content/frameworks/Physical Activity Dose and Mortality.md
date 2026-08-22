@@ -18,7 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-27
-updated: 2026-08-19
+updated: 2026-08-21
 self_critiqued: 2026-08-19
 ---
 
@@ -307,6 +307,12 @@ matched. Recorded here so the apparent clash is not re-filed later as a *tension
 
 The relationship is *«non-linear for all-cause mortality»* and **PA-adjusted** — i.e. it survives
 controlling for activity, so sitting less and moving more are not the same lever.
+
+**The dedicated anchor for this sub-question is now [[Sedentary Behaviour and Chronic Disease Risk]]**
+(Patterson 2018, gold dose-response MA), which supplies the per-outcome curve shape underlying WHO's
+6-8h/3-4h summary range, adds **incident T2D** (TV->T2D the strongest association, 29% PAF) and cancer
+mortality, and shows the sitting curve is an *accelerating-harm* knee — the mirror image of the
+activity-benefit plateau on this page. `[2026-08-21, Patterson]`
 
 **TV viewing carries a lower threshold than total sitting (3-4 h/day vs 6-8 h/day) and stronger
 associations.** Two behaviours inside one category, behaving differently — though what accompanies TV

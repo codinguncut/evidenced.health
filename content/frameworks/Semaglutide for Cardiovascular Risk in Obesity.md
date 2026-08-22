@@ -2,8 +2,8 @@
 type: framework
 question: For someone with obesity, does treating it with semaglutide reduce cardiovascular events — and does that evidence reach primary prevention?
 aliases: [Semaglutide, GLP-1 Cardiovascular, SELECT Trial, Wegovy CVD, GLP-1 Receptor Agonist Obesity, Obesity Pharmacotherapy CVD]
-authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Van Gaal, Luc F; Lingvay, Ildiko; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022]
+authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Van Gaal, Luc F; Lingvay, Ildiko; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J; Nong, Kailei; Li, Sheyu]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 cluster: glp1
 confidence: medium
 relationships:
@@ -20,8 +20,8 @@ relationships:
     - GLP-1 and Lean Mass
     - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
 created: 2026-07-28
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 ---
 
 The telos puts pharmacotherapy in scope because **a drug is often the realistic alternative to a
@@ -340,6 +340,29 @@ findings there bear directly on this page's decision:
 
 Most other non-cardiometabolic signals are exploratory (single-trial-fragile), so they refine rather
 than reverse the net-benefit picture above.
+
+## The cross-drug placement — sole hard-outcome drug, but the signal is this page's own trials `[2026-08-22, Nong]`
+
+A 19-drug network meta-analysis (Nong 2026; 262 RCTs) places SELECT's finding in the whole
+anti-obesity class, and the placement is the value: subcutaneous semaglutide is «the only drug
+associated with reduced all cause mortality (risk ratio 0.81, 95% confidence interval 0.72 to 0.93) and
+myocardial infarction (0.72, 0.61 to 0.85)», adding heart failure (0.43, 0.21-0.84) and probable kidney
+disease progression (0.80, 0.65-0.98, moderate)
+[@nong2026obesity]. Tirzepatide — the
+larger *weight* lever above — reaches only heart-failure signals, no mortality/MI. So across the class,
+**the biggest weight loss is not the drug with the hard-outcome evidence** -> [[Comparing Obesity Drugs]].
+
+**But this is F-refinement, NOT independent (type-E) corroboration, and the numbers prove it.** The NMA's
+mortality/MI estimates are «largely informed by cardiovascular outcome trials in high risk populations»
+[@nong2026obesity] — i.e. SELECT and kin,
+already held here — and the pooled figures are near-identical to SELECT's own (all-cause death RR 0.81 vs
+HR 0.81; MI RR 0.72 vs HR 0.72). The NMA **re-pools SELECT**, it does not reach the finding by a separate
+route, so no `[E-independent]` is claimed and the SELECT within-trial caveats above still stand (the
+hierarchical-gate non-confirmation of all-cause mortality is a fact about SELECT's statistics; the NMA's
+«high certainty» is a meta-analytic pooling across the same CV-outcome-trial base, and inherits the same
+high-CV-risk-population restriction). The primary-prevention gap this page centres is therefore intact:
+the mortality signal remains a **route-(a)** finding concentrated where CV risk is highest.
+[inferred from @nong2026obesity]
 
 
 ## Gaps this opens

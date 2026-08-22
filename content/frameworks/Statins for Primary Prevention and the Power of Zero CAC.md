@@ -15,8 +15,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - LDL Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 ---
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
@@ -178,6 +178,32 @@ PREVENT-vs-SCORE2 -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]], 
 evidence disagreement. The direction of the change is still notable: ACC-AHA 2026 is willing to *start*
 pharmacotherapy at lower estimated risk than USPSTF, and to name a numeric goal once it does.
 [inferred from @accaha2026; @uspstf2022]
+
+## The common statin fears — muscle and memory `[2026-08-22]`
+
+The two most-cited reasons people avoid or stop a statin — muscle damage and memory loss — are BOTH
+addressed by USPSTF's trial evidence, and both point the same way in the general adult population:
+«Evidence from trials in the general adult population shows that statins are not associated with an
+increased risk of myalgia, elevated alanine aminotransferase level, or cognitive harms compared with
+placebo». [@uspstf2022] So the *muscle-symptom* and
+the *memory* halves of the belief are contradicted by the randomized evidence, not merely unstudied —
+a REFUTE from held fabric, not an insufficient-evidence gap.
+
+- **Serious muscle harm is real but narrow.** Rhabdomyolysis — the dangerous end of the muscle spectrum,
+  distinct from ordinary aches — was rare and confined to the highest dose (80 mg simvastatin), quantified
+  on [[LDL Lowering and Cardiovascular Events]]. It is a dose-specific tail, not a general property of
+  statin therapy.
+- **Scope caveat:** USPSTF flags that harms evidence *specifically in adults 76 years or older is
+  limited*, so the reassurance is strongest for the general adult population it was measured in.
+
+**Where the held fabric still stops — the nocebo mechanism (gap).** *No association in blinded trials*
+is compatible with real-world muscle *complaints* being a **nocebo** effect (symptoms driven by
+expectation of harm, not the drug), but the dedicated blinded adverse-event rechallenge evidence for
+that mechanism is not held here — so the nocebo *reading* is a plausible but unconfirmed inference,
+routed to acquire (`[belief-harvest: statin-nocebo]`), not asserted. The belief's core claims are
+refuted by held trial evidence; *why* users nonetheless report symptoms is the open piece.
+
+[inferred from @uspstf2022]
 
 
 

@@ -2,8 +2,8 @@
 type: framework
 question: When a GLP-1 drug drives rapid weight loss, how much of what is lost is muscle, does it exceed ordinary weight loss, and what defends against it?
 aliases: [GLP-1 Muscle Loss, GLP-1 Lean Mass, GLP-1 Sarcopenia, Semaglutide Muscle Loss, Ozempic Muscle, GLP-1 Body Composition, GLP-1 Muscle Preservation]
-authors: [Laverde, Ligia Patricia; Munoz, Oscar Mauricio; Alfonso, Diana; Gomez Medina, Ana Maria]
-sources: [Laverde - GLP-1 Muscle Health Meta-Analysis 2026]
+authors: [Laverde, Ligia Patricia; Munoz, Oscar Mauricio; Alfonso, Diana; Gomez Medina, Ana Maria; Nong, Kailei; Li, Sheyu]
+sources: [Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 cluster: glp1
 confidence: low
 relationships:
@@ -19,8 +19,8 @@ relationships:
     - Surrogate Outcomes
     - Big Rocks (Elderly)
 created: 2026-08-06
-updated: 2026-08-07
-self_critiqued: 2026-08-07
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 ---
 
 The feared cost of GLP-1 weight-loss drugs, beyond the GI tolerability tax and the durability problem, is
@@ -154,5 +154,31 @@ Laverde as a second route to *semaglutide causes large weight loss*.
   -> [[Big Rocks (Elderly)]]. This is where the drug decision is genuinely contingent on the defense.
 - **The complete strategy, not the drug alone:** judge net effect — GLP-1 + RT + adequate protein — never
   the drug's naive body-composition number. Function is unmeasured, so monitor it directly where it matters.
+
+## Class-comparative corroboration — worst-on-weight is worst-on-lean `[2026-08-22, Nong]`
+
+A 19-drug network meta-analysis (Nong 2026) corroborates the rank from the class side: the two biggest
+*fat*-loss drugs are the two «most harmful» for lean mass — tirzepatide -8.3% (95% CI -12.9 to -3.7,
+moderate) and subcutaneous semaglutide -5.8% (-8.7 to -2.9, moderate), while liraglutide and oral
+semaglutide «had little or no effect on lean mass loss»
+[@nong2026obesity]. The **rank agrees**
+with Laverde (semaglutide/tirzepatide carry the largest lean-mass cost), but the numbers are **not the
+same quantity**:
+
+| Parameter | Nong NMA | Laverde MA (this page, above) | Same quantity? |
+|---|---|---|---|
+| Semaglutide lean-mass change | -5.8% (subcut, % lean mass, vs lifestyle) | -9.9% / -5.44 kg (vs placebo) | **No** — different comparator (lifestyle vs placebo), scale, and trial set |
+| Qualitative rank | biggest weight/fat loss = biggest lean loss | semaglutide the per-agent outlier | **Yes** — same direction |
+
+So the corroboration is on the **direction and rank**, not the magnitude — do not read Nong's -5.8% and
+Laverde's -9.9% as the same figure. And Nong grades lean mass at **moderate** certainty (fewer, larger
+trials) where Laverde graded its pooled absolute change **high** — the tension is comparator and trial
+constituency, not a real disagreement. Nong also names the same stratum this page centres: lean-mass loss
+is «an additional potential concern, particularly for older adults or those at risk of frailty», with
+guidelines recommending «structured aerobic and resistance exercise to help preserve muscle mass»
+[@nong2026obesity] — the defense this page
+already holds, reached independently from the class-comparison side. Full comparative appraisal
+-> [[Comparing Obesity Drugs]].
+[inferred from @nong2026obesity]
 
 ## References

@@ -8,8 +8,8 @@ cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-13
-self_critiqued: 2026-08-08
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 relationships:
   related_to:
     - Total Diet Replacement and Type 2 Diabetes Remission
@@ -21,6 +21,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Insulin Resistance Surrogates and Cardiovascular Risk
     - Menopause and the Shifting Levers
+    - Allostatic Load and Mortality
 ---
 
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
@@ -136,6 +137,14 @@ number.
   and follow-up duration as partial confounders), and uses metabolic-syndrome criteria as a **coarse proxy**
   for the depot biology — so its long-term MHO signal is a modest, subgroup-derived RR that just clears 1.0,
   not a precise hazard.
+- **A stress/cortisol upstream driver is nameable but unheld.** Besides energy surplus, the
+  telos proposes a `qol-hpa` route — chronic stress -> cortisol/glucocorticoids -> **visceral / central
+  fat** -> [[Allostatic Load and Mortality]] (the HPA spine). Two steps keep it **mechanism-not-finding**:
+  (i) no held source in this spine measures a cortisol -> visceral-fat relationship; and (ii) the classic
+  cortisol mechanism targets *visceral* fat, which this page holds is only a **marker** of intra-organ
+  excess (not the pathogenic depot itself, per the depot distinction above) — so even a real
+  cortisol -> visceral link would still be one step removed from the intra-organ fat that does the damage.
+  A candidate bridge and an open `qol-hpa` acquire-gap, not a second established accumulation pathway.
 - **Coherence, not validity (R1):** the spine is internally coherent and source-faithful; no operation here
   grades it against a realized outcome.
 

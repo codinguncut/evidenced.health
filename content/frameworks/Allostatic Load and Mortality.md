@@ -8,8 +8,8 @@ cluster: psychosocial
 nucleus: true
 confidence: low
 created: 2026-08-09
-updated: 2026-08-14
-self_critiqued: 2026-08-14
+updated: 2026-08-22
+self_critiqued: 2026-08-22
 relationships:
   related_to:
     - Surrogate Outcomes
@@ -22,6 +22,7 @@ relationships:
     - Social Connection and Mortality
     - Purpose in Life and Mortality
     - Job Strain and Coronary Heart Disease
+    - Ectopic Fat and Depot-Specific Risk
 ---
 
 **Nucleus of the `psychosocial` cluster** — the physiological spine the chronic-stress exposures
@@ -187,6 +188,19 @@ that monitoring AL longitudinally may better inform mortality risk compared with
     numbers are not the same quantity. Job strain lives in the `occupation` cluster (its
     sibling channel is the physical-demand [[The Physical Activity Paradox]]), so this is a cross-cluster
     attachment: the AL spine is reached by psychosocial exposures from more than one cluster.
+- **A downstream physical channel is nameable but unheld — cortisol -> visceral adiposity.**
+  AL's neuroendocrine component (cortisol / glucocorticoids) is the hinge of the telos's proposed `qol-hpa`
+  route from chronic stress to **visceral / central fat** -> [[Ectopic Fat and Depot-Specific Risk]]. If
+  real, it would give AL a concrete physical pathway (stress physiology -> adiposity) rather than only a
+  composite index, and join the `psychosocial` and `ectopic-fat` clusters mechanistically. **But it is
+  mechanism-not-finding here, and doubly unestablished:** (i) no held source in this spine measures a
+  cortisol -> visceral-fat relationship — the ectopic-fat page drives accumulation from *energy surplus*,
+  not stress; and (ii) even granting it, that page holds visceral fat as only a *marker* of intra-organ
+  (hepatic/pancreatic) excess — the actually pathogenic depot — so the route's link to the fat that drives
+  cardiometabolic risk is a *further* unestablished step. The proposed *direction* is uncertain too:
+  cortisol elevation can be partly *downstream* of illness (the reverse-causation this page applies to AL).
+  Held as a candidate bridge and an open `qol-hpa` acquire-gap (no outcome source registered);
+  do not read it as an evidenced channel.
 - **`G`-gaps.** (i) No trial shows reducing AL reduces mortality — the marker/lever gap. (ii) An 8-week
   diet intervention in women with obesity did *not* move AL (major dietary change may itself be a
   stressor), so even AL's modifiability is not clean. (iii) Younger adults (<40) are essentially

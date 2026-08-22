@@ -1,9 +1,9 @@
 ---
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
-aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds]
-authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022]
+aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds, Starvation Mode, Metabolic Damage]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 cluster: weight-management
 confidence: low
 relationships:
@@ -16,9 +16,9 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Testosterone Adiposity and Muscle
     - Weight Cycling and Cardiometabolic Risk
-self_critiqued: 2026-08-08
+self_critiqued: 2026-08-22
 created: 2026-07-31
-updated: 2026-08-08
+updated: 2026-08-22
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -110,6 +110,37 @@ needed to prevent obesity relapse»
 [@sumithran2011] — i.e. maintenance is a distinct
 problem from loss, and one that unaided willpower is structurally disadvantaged against.
 
+## *Starvation mode* — the real kernel and the two over-statements
+
+The folk *starvation mode* belief bundles a true mechanism with two false corollaries, and separating them
+is the decision-change. **The kernel is real:** metabolism does adapt downward with weight loss (adaptive
+thermogenesis), and the appetite-hormone panel above shifts toward eating and conserving — so a
+weight-reduced body faces a real appetite-and-thermogenesis headwind toward regain (the reframe above,
+carrying its still-lighter-body caveat: that the shift is *defense beyond the weight difference* is shown
+only for leptin — see Limits). What the folk version adds, and the held evidence does **not** support, are
+two stronger claims:
+
+- ***Eating too little STALLS active fat loss.*** Not shown here — if anything the reverse: the most
+  aggressive under-eating in this literature (the \~500 kcal/day VLCD) drove a **13.5 kg / 14.0% loss** by
+  week 10 [@sumithran2011] (in the responder panel
+  conditioned on >=10% loss — see Limits). Severe under-eating produced large loss, not a stall: the
+  adaptation is a **partial headwind on the deficit, not an abolition of it** — the deficit still works, it
+  is merely *defended*, not *broken*.
+- ***It permanently damages your metabolism.*** Unsupported on two separate counts. **Permanence:**
+  persistence of the adaptation is measured **only to 12 months** here, so *permanent* is an extrapolation
+  beyond the data (see Limits). **Primacy:** the energy-**expenditure** limb — the "slowed metabolism" the
+  belief centres on — is the *contested* limb (Hall flags its persistence as contested, above) and the
+  *smaller* one: Hall ranks the post-loss intake rise as **more than 3-fold larger than the corresponding
+  energy-expenditure adaptation** (quoted above), so the dominant regain driver is **appetite, not a
+  crashed metabolism**. Neither the metabolic slowdown's permanence nor its primacy is supported.
+
+
+Net: *starvation mode* names a real defended-set-point biology but mislabels both its mechanism and its
+severity. The corrective is neither *eat even less* (a deeper deficit does not overcome a headwind that
+scales with the loss and is largely appetite-mediated) nor *your metabolism is ruined* (unshown past 12
+months) — it is the **structural-leverage** posture the reframe already licenses
+-> [[Layer 1 - Ranking Interventions for a Stratum]].
+
 ## Why this is the mechanistic keystone for the drug route (GLP-1) — a synthesis
 
 [inferred from @sumithran2011]
@@ -137,6 +168,20 @@ structured lifestyle intervention following semaglutide withdrawal ... may also 
 trajectory of weight regain» [@wilding2022]. So STEP-1
 cannot separate biological rebound from behavioural drift and loss of support — it is **corroboration of the
 mechanism this page holds, not an independent test of it, and not a discriminating one**.
+
+**The class-wide regain rate that bounds the discontinuation problem `[2026-08-22, Nong]`.** STEP-1 gives
+one drug's regain trajectory; a 19-drug obesity NMA (Nong 2026) reports the class-wide rate from a
+secondary source (West et al. 2026, a systematic review of 37 studies): «participants regained weight at
+an average rate of about 0.4 kg per month after stopping treatment, with a projected return to baseline
+weight within approximately 1.7 years, accompanied by loss of cardiometabolic improvements»
+[@nong2026obesity]. So «benefits do not
+appear to be sustained without continued treatment»
+[@nong2026obesity] — the STEP-1
+two-thirds-in-a-year pattern is not semaglutide-specific but a property of withdrawing any of these
+agents, which is why the realistic decision is a *lifetime* one (indefinite therapy vs behavioural
+maintenance vs surgery) -> [[Comparing Obesity Drugs]]. The number is a secondary citation inside Nong,
+not Nong's own analysis; held as Nong reporting West.
+[inferred from @nong2026obesity]
 
 ## What it licenses, and the limits that bound it
 

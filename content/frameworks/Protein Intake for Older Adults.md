@@ -2,8 +2,8 @@
 type: framework
 question: How much protein should an older adult eat — daily (g/kg) and per meal — and what modifies that target?
 aliases: [Protein Older Adults, PROT-AGE, Older Adult Protein Target, Protein for the Elderly, 1.2 g/kg Protein, Protein Intake Elderly]
-authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly]
+authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L; Kim, Jung Eun; Campbell, Wayne W]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly, Kim - Protein Body Composition After Weight Loss 2016]
 cluster: muscle
 confidence: medium
 relationships:
@@ -20,7 +20,7 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Low Muscle Mass and Mortality
 created: 2026-08-06
-updated: 2026-08-19
+updated: 2026-08-21
 self_critiqued: 2026-08-19
 ---
 
@@ -164,6 +164,10 @@ stratum, and it both **supports and bounds** the target:
   weight loss, or an energy deficit (protect lean mass), the illness row (1.2-1.5) or the active row
   applies; the plateau is forgiving on the high side for healthy kidneys, so a modest overshoot is
   low-harm -> [[The Estimate-to-Action Gap]]. The one hard flip down is severe renal disease.
+  - **The weight-loss case is directly evidenced in adults >=50** [@kim2016]**:** a gold MA of 20 energy-restricted
+    RCTs found HP (>=1.0 g/kg/d) vs normal protein spared lean mass (WMD +0.45 to +0.83 kg) and
+    increased fat loss at the same total weight loss, at a magnitude essentially identical to younger
+    adults -> the deficit-specific target and dose-response live on [[Protein Intake During Energy Restriction]].
 - **Protein quality rides the number silently.** The per-meal *leucine* threshold (2.5-2.8 g) is why a
   high-quality/animal or leucine-dense source clears the bar with fewer grams; hitting the target from
   low-leucine plant sources needs more grams or deliberate complementation

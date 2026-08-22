@@ -2,8 +2,8 @@
 type: framework
 question: Does intentional weight loss via lifestyle reduce hard cardiovascular events?
 aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle Intervention, Weight Loss Hard Outcomes, Does Losing Weight Prevent Heart Attacks]
-authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Sjöström, Lars]
-sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015]
+authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Sjöström, Lars; Malhotra, Atul]
+sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -17,9 +17,10 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Weight Cycling and Cardiometabolic Risk
     - Ectopic Fat and Depot-Specific Risk
+    - Sleep Apnea Treatment and Cardiovascular Risk
 created: 2026-07-28
-updated: 2026-08-17
-self_critiqued: 2026-08-08
+updated: 2026-08-21
+self_critiqued: 2026-08-21
 ---
 
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
@@ -217,7 +218,31 @@ alters gut hormones, bile acids, satiety independent of grams lost). And surgery
 arm (90-day post-op mortality 0.25% vs 0.10%; 17-31% reoperation) — the net-benefit is *after* that
 cost. [inferred from @sjostrom2007]
 
-## The pattern channel is distinct from the weight channel — PREDIMED cut events WITHOUT weight loss
+## The incretin route — a third arm where the surrogates move but the hard outcome is still pending
+
+Between the modest lifestyle dose (Look AHEAD / Ma) and the extreme surgical dose (SOS) sits the
+**incretin-pharmacotherapy route**, which now delivers surgical-scale weight loss without surgery.
+SURMOUNT-OSA (Malhotra 2024; two 52-week RCTs in OSA + obesity, N=469, manufacturer-funded) is a
+clean instance of the *surrogates-move-but-the-outcome-is-not-tested* pattern in the drug arm.
+Tirzepatide drove a body-weight treatment difference of -16.1% (95% CI -18.0 to -14.2) and -17.3%
+(-19.3 to -15.3) — a delivered dose in the SOS range, far above Look AHEAD's \~2.5 points — and moved
+the CV *risk markers*: systolic BP -7.6 mm Hg (-10.5 to -4.8) and -3.7 (-6.8 to -0.7); hsCRP -0.7 to
+-1.0 mg/L; plus the OSA-severity and hypoxic-burden surrogates.
+[@malhotra2024surmount]
+
+**But it is surrogate-only, and the page's whole thesis is that surrogates are not events.** This
+trial had no powered CV endpoint, no deaths, and a 52-week horizon; the authors state «the design and
+shorter duration of the current trials does not support the assessment of long-term cardiovascular
+outcomes», pointing to the ongoing SURMOUNT-Morbidity and Mortality in Obesity trial (NCT05556512).
+So tirzepatide reproduces the Look AHEAD lesson — a bundle of favourable surrogate changes (here even
+larger, at a larger weight-loss dose) — with the hard-outcome question still open. The only incretin
+hard-outcome win the wiki holds is a *different* drug in a *different* population:
+[[Semaglutide for Cardiovascular Risk in Obesity]] (SELECT, secondary prevention). Tirzepatide's own
+event/mortality evidence AWAITS SURMOUNT-MMO; do not borrow SELECT's benefit for it (different
+molecule, different stratum).
+[@malhotra2024surmount]
+
+
 
 The sharpest complement to the weight-loss null comes from the whole-diet-pattern side. In PREDIMED
 (Estruch 2018 -> [[Mediterranean Diet and Cardiovascular Events]]), an **energy-unrestricted**

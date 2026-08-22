@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P]
-sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -21,10 +21,11 @@ relationships:
     - Insulin Resistance Surrogates and Cardiovascular Risk
     - Lifestyle vs Metformin for Diabetes Prevention
     - Baseline Risk and the Relative-Absolute Split
+    - Sleep Apnea Treatment and Cardiovascular Risk
 created: 2026-07-25
-updated: 2026-08-20
+updated: 2026-08-21
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
-self_critiqued: 2026-08-20
+self_critiqued: 2026-08-21
 ---
 
 ## Why it matters
@@ -867,5 +868,29 @@ present-but-undetectable rather than absent, the baseline-risk reading worked on
 [[Baseline Risk and the Relative-Absolute Split]]. Banked as a disconnect instance carrying its own dilution
 caveat, not a clean randomized null.
 [inferred from @goldberg2022]
+
+## A TREATMENT's symptom/severity target as the surrogate — CPAP fixes the apnea, not the heart `[2026-08-21, Yu]`
+
+All the cases above are *measured markers* standing in for outcomes. This one moves the disconnect onto
+the **treatment target itself**: positive airway pressure (PAP/CPAP) is prescribed to abolish the apnea
+and relieve daytime sleepiness, and it does — pooled Epworth sleepiness improved -1.92 (95% CI -2.79 to
+-1.06) with QoL, anxiety and depression gains — yet across 10 RCTs (N=7266) it did **not** reduce major
+adverse cardiovascular events (RR 0.77 [0.53-1.13]), CV death (1.15 [0.88-1.50]), or all-cause death
+(1.13 [0.99-1.29]). Crucially the *cardiovascular* intermediate markers were null too: no effect on blood
+pressure, BMI, lipids, or glycemia -> [[Sleep Apnea Treatment and Cardiovascular Risk]].
+[@yu2017cpap]
+
+**Why it earns its place — the surrogate underwrote the outcome expectation.** Prior reports that PAP
+gave «modest decreases in blood pressure» plus its «apparent beneficial effectsofPAPonintermediatebio-
+markers» were, in Yu's account, the rationale for *expecting* a hard-outcome benefit, and PAP already
+sits in guidance for a CV indication (2014 AHA/ASA: consider PAP for ischemic stroke/TIA). The RCTs then
+found the BP surrogate itself null — so «The absence of any significant association of PAP with
+intermediate markers of vascular risk ... may explain the null associations of PAP with hard vascular
+outcomes.»
+[@yu2017cpap]
+The symptom benefit is real and patient-important on its own; it simply is not evidence for the CV
+outcome the surrogate was recruited to predict — the guidance-null form of this diagnostic
+-> [[Which Objective Moved This Recommendation]].
+[inferred from @yu2017cpap]
 
 ## References

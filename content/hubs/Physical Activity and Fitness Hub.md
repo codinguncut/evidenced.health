@@ -16,6 +16,10 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   the self-report plateau; the steepest gains are at the least-active end), the step-count targets
   (age-varying plateau \~6-8k older / 8-10k younger), and whether \~60-75 min/day of activity offsets the
   mortality risk of prolonged sitting (it does)
+- [[Sedentary Behaviour and Chronic Disease Risk]] — the dedicated sedentary anchor (Patterson 2018 gold
+  dose-response MA): total sitting vs TV viewing as two exposures, per-outcome accelerating-harm knees
+  (\~8h sitting / \~3.5h TV for all-cause; PA-adjusted), and incident T2D — TV->T2D the strongest
+  association (1.09/h, 29% PAF), most caveated by reverse causation and dietary mediation
 - [[The Physical Activity Paradox]] — the domain caveat on the dose page: high *occupational* (work) PA
   associates with *higher* mortality in men (Coenen, HR 1.18), opposite to leisure/total PA — so
   physically demanding work does not substitute for leisure exercise on the mortality outcome (LOW

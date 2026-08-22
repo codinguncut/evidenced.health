@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022]
 cluster: inference-pitfalls
 confidence: medium
-self_critiqued: 2026-08-20
+self_critiqued: 2026-08-22
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -21,7 +21,7 @@ relationships:
     - Fermented Foods and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
 created: 2026-07-27
-updated: 2026-08-20
+updated: 2026-08-22
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -529,6 +529,52 @@ meat in the US study vs fish intake in the present study.» [@budhathoki2019] Te
 Naghshi's MA, at single-cohort resolution — not an independent source); the confidence call sits on
 [[Dietary Protein and Mortality]].
 [inferred from @budhathoki2019]
+
+## Heme names the red-vs-white boundary — the sub-component doing the "red meat" work `[2026-08-22, Bastide]`
+
+Bastide 2011 supplies a clean Test-3 instance on meat: the CRC risk attached to «red meat» may run
+through a **nameable intrinsic sub-component — heme iron — not the category label.** Heme content of red
+meat is «10-fold higher than that of white meat», which is offered as the reason red meat carries risk
+while white meat does not [@bastide2011heme].
+So the red/white boundary is **case-1 load-bearing**, and the mechanism naming (heme catalyzes endogenous
+N-nitroso formation + lipid peroxidation) tells you *what* the boundary is tracking — Test 3: replace the
+category with the sub-component that carries the mechanism.
+
+**But the honest bound is a measurement one, and it cuts against a clean separation.** In the human
+cohorts, heme is only **partly separable** from red meat: two of five studies computed heme as «a factor
+of 0.4 to the total iron content of all meat items which essentially is reporting an overall red meat
+effect» [@bastide2011heme]. So the
+epidemiology cannot by itself prove *heme, not red meat* — the sub-component attribution leans on the
+white-meat contrast + the rat dose-response (aberrant crypts scale with dietary heme concentration,
+R-squared 0.62) rather than the cohort exposure. This is the mirror of the coffee/resveratrol cases: there
+the presumed component (caffeine, resveratrol) was **collinear with the matrix and inactive**; here the
+presumed component (heme) is **collinear with the food and plausibly the active part** — either way, a
+study crediting the named component may be measuring the food. Test 3 still applies (name heme, and the
+red/white and fresh/cured sub-boundaries), but with the collinearity flagged. Full attribution + the
+intrinsic-vs-curing bound -> [[Red and Processed Meat and Cancer]].
+[inferred from @bastide2011heme]
+
+## "Nitrate"/"nitrite" is one label over two opposite-sign channels `[2026-08-22, Said Abasse]`
+
+Said Abasse 2022 (gold SR+MA, 41 articles / 13 sites) supplies the companion instance to heme, running the
+*other* direction — a **single nutrient label that pools sources with opposite signs**, so the aggregate is
+uninterpretable without the split (the dairy/omega-3 pattern, applied to a curing agent). Dietary "nitrate"
+and "nitrite" as measured by diet questionnaires are **vegetable-dominated**: «fruits and vegetables
+contribute over 80% of the daily dietary intake of nitrate ... and nitrite ... which represent the primary
+sources of exposure» [@abasse2022nitrate].
+So the same word names (a) a **protective vegetable-borne** channel and (b) a **cured-meat-borne** channel —
+distinct objects with distinct signs.
+
+The consequence is a Test-3 failure of the aggregate: pooling all dietary nitrite, a broad site-specific
+synthesis (41 articles, 13 sites) finds **colon and rectal risk null both ways** (Colon nitrite 1.02 [0.92, 1.11]; Rectal nitrite
+1.09 [0.79, 1.39]) and the only positive categorical cells are **non-GI** (thyroid-nitrate 1.40 [1.02, 1.77],
+glioma-nitrite 1.12 [1.03, 1.22]); nitrate even runs **protective** for kidney/bladder in the dose
+meta-regression [@abasse2022nitrate]. A study crediting or clearing "dietary nitrite" is therefore mostly measuring **vegetables**,
+not the curing agent in processed meat — the label spans the two and the meat-matrix channel (nitrosyl-heme,
+in-matrix curing-nitroso) is a different object it does not isolate. Test 3: replace "dietary nitrite" with
+the *sourced* exposure (vegetable-nitrate vs in-matrix curing-nitrite); the three-exposure decomposition and
+the colorectal null -> [[Red and Processed Meat and Cancer]].
+[inferred from @abasse2022nitrate]
 
 ## "Organic" as a label that tracks the feed, not the certificate `[2026-07-29]`
 

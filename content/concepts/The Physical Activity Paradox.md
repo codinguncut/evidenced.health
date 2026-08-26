@@ -8,7 +8,7 @@ cluster: occupation
 nucleus: true
 confidence: low
 created: 2026-08-14
-updated: 2026-08-19
+updated: 2026-08-23
 self_critiqued: 2026-08-19
 relationships:
   related_to:
@@ -19,6 +19,7 @@ relationships:
     - Transportability and Effect Modification
     - Job Strain and Coronary Heart Disease
     - Night Shift Work and Breast Cancer
+    - Weekend Warrior Activity Pattern and Mortality
 ---
 
 Opens the `occupation` cluster. The core claim: **the direction of the physical-activity/mortality
@@ -148,6 +149,14 @@ authors attribute the cycling advantage to intensity:
 > current physical activity guidelines, only 54% of walk- ing commuters and approximately 50% of mixed
 > mode walking commuters did; a similar proportion to non-ac- tive commuters (51%).»
 > [@celismorales2017commuting]
+
+**High background non-leisure PA also compresses the exercise-vs-none contrast — a transportability
+corollary.** In a Mexico City cohort the exercise-vs-non-exercise mortality gap was \~15%, against \~30%
+in high-income cohorts, attributed to «the high amounts of non-­exercise physical activity that are part
+of everyday life» there -> [[Weekend Warrior Activity Pattern and Mortality]]. When the referent group
+already accumulates substantial utilitarian/occupational movement, the marginal benefit of *adding*
+structured exercise shrinks — the same non-leisure-PA theme, read on the referent side rather than the
+exposed side. [inferred from @odonovan2024]
 
 So *within one exposure domain* the benefit scales with the intensity/CRF stimulus — the same axis
 that separates beneficial leisure PA from harmful occupational PA — which is why walking commuting

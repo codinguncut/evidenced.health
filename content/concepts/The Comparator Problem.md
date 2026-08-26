@@ -50,6 +50,11 @@ this page's synthesis.
 - **"Is the food category doing any work?"** — the sibling failure: a category (an isolate vs the whole
   food; a label spanning heterogeneous items) can carry an effect that is really the comparator's or a
   component's -> [[Is the Food Category Doing Any Work]].
+- **Massage therapy — one intervention, three comparators, three answers.** The cleanest *within-review*
+  demonstration: the same intervention scores a large effect vs no treatment, roughly half that vs sham,
+  and a small sub-clinical effect vs an active comparator (and loses at 6 months), because the loose
+  controls leave attention/touch/placebo in the estimate -> [[Massage Therapy for Pain and Function]].
+  The comparator gradient here *is* the finding.
 
 ## The failure mode it names
 

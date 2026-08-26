@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-20
-self_critiqued: 2026-08-20
+updated: 2026-08-26
+self_critiqued: 2026-08-23
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -28,6 +28,10 @@ relationships:
     - Big Rocks (Elderly)
     - Mediterranean Diet and Cardiovascular Events
     - Measurement Error in Dietary Assessment
+    - Periodontitis and Systemic Health
+    - Fish and Seafood Consumption
+    - Deficiency Repletion vs Enhancement
+    - Vitamin and Mineral Supplements for Disease Prevention
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
@@ -116,6 +120,11 @@ second witness — a de-secondhanding (type-F), **not** an `[E-independent]` cor
   Layer-1 ranking rather than competing with it -> [[Layer 1 - Ranking Interventions for a Stratum]],
   [[Big Rocks (Elderly)]]. The dementia-specific additions are hearing, vision, education/cognitive
   activity, depression, TBI protection, social contact and air pollution.
+- **The activity lever is *be active*, not a specific modality.** The RR 0.80 attaches to physical
+  activity broadly; claims that a particular *type* (mind-body exercise — Tai Chi, yoga) does extra
+  cognitive work over generic activity are not established — the apparent advantage is a cross-review
+  comparator artifact -> [[Mind-Body Exercise and Cognition]]. Rank the rock as *being active*, not as a
+  modality choice.
 - **Timing: earlier and longer.** «it is never too early or too late to reduce» dementia risk; the
   operative rule is «decrease risk factor levels early (the earlier, the better) and keep them low
   throughout life (the longer, the better)». [@livingston2024]
@@ -242,6 +251,66 @@ The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PRE
 high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
 mediation reading: the pattern's best-evidenced effect is on the vascular channel that feeds AD risk.
 
+## Periodontal disease — an observational candidate lever, NOT one of the 14 (2026-08-23)
+
+Periodontal disease (PD) is **not** one of the Commission's 14 factors, and the evidence for it is
+weaker than for any factor on the headline list — it is a **candidate lever held at association
+grade only**. A gold SR+MA (Dibello 2024, 46 observational studies) finds PD associated with
+**incident dementia RR 1.22 (95% CI 1.10-1.36)** (8 cohorts, n=3,076,684 dementia-free at
+baseline, mean follow-up 11 y) — «PD was associated to higher risk of incident dementia (RR 1.22,
+95% CI 1.10 to 1.36) with sig- nificant heterogeneity across the studies (I2= 95%, p< 0.001)»
+[@dibello2024periodontal], plus
+cognitive impairment RR 1.25 (1.11-1.40) and cognitive decline RR 3.01 (1.52-5.95); PD-depression
+is null (RR 1.07, 0.95-1.21).
+
+**Why it stays a candidate, not a 15th factor [inferred from @dibello2024periodontal].**
+The signal is entirely observational with **very high heterogeneity (I2=95%)** and the same two
+biases that discount the diet lever above: (i) **reverse causation** over the long prodrome —
+«poor peri- odontal health may not necessarily cause dementia, but rather results from it»
+[@dibello2024periodontal]
+-> [[The U-Shaped Association Artifact]]; and (ii) **shared confounders that are already-counted
+factors** — the discussion names cardiovascular disease, diabetes, low education, smoking,
+drinking, socioeconomic status and gender as common to both PD and dementia
+[@dibello2024periodontal], so a
+raw PD-dementia RR is largely mediated by the cardiometabolic/SES cluster this page already holds.
+No trial has tested whether *treating* PD lowers dementia incidence. So the lever is `confidence:
+low`, and an interventional periodontal-treatment -> cognitive-outcome study before
+any dementia-prevention claim. The **treatable/causal-grade** arm of this exposure is glycaemic
+control, not cognition -> [[Periodontitis and Systemic Health]] holds the full two-arm
+decomposition.
+
+## Omega-3 fatty acids / oily fish — an observational candidate lever, NOT one of the 14 (2026-08-23)
+
+Omega-3 (marine EPA/DHA) is **not** one of the Commission's 14 factors, and like the diet and
+periodontal levers above it is a **candidate held at association grade only**. A gold SR+MA (Wei 2023;
+48 cohorts, 31 pooled, 103,651 participants) finds **dietary DHA associated with cognitive decline RR
+0.82 (95% CI 0.72, 0.93; Level H)** — a 27% lower dementia / 24% lower AD risk — while dietary total
+omega-3 is weaker (RR 0.91, 0.82-1.00) and dietary EPA/ALA are null
+[@wei2023omega3]. Fish is the
+dominant dietary DHA source, so the full decomposition (exposure-form dissociation, the supplement-RCT
+contrast) lives on [[Fish and Seafood Consumption]].
+
+**Why it stays a candidate, not a 15th factor
+[inferred from @wei2023omega3].** The same three discounts
+as the diet and periodontal levers apply, plus a fourth that is specific and decisive here:
+
+- **Entirely observational and FFQ-based** — dietary measurement error binds
+  -> [[Measurement Error in Dietary Assessment]], and the marine-n-3 signal travels with overall diet
+  quality and SES (the observed-healthy-population problem).
+- **Reverse causation over the long prodrome** — Wei mitigated only partially (sensitivity analyses
+  removing year-1 cases in the ADNI arm).
+- **Largely mediated by / not additive to the cardiometabolic rocks** — the plausible mechanism runs
+  through vascular and inflammatory pathways this page already counts, so a raw omega-3 -> dementia RR
+  is not a clean 15th additive PAF slice.
+- **The isolate-supplement RCTs are NULL — the decisive discount.** Wei's own intro concedes
+  *«randomized clinical trials have shown limited efﬁcacy of omega-3 fatty acid sup-plementation in
+  reducing cognitive decline and probable AD»*
+  [@wei2023omega3], and the held RCT
+  (MAPT, 800 mg DHA + 225 mg EPA/d) was cognition-null
+  -> [[Multidomain Lifestyle Intervention and Cognitive Decline]]. So the lever is `confidence: low`,
+  and any *supplement* dementia-prevention claim is refuted at RCT grade; the observational dietary
+  signal is a reason to prefer oily fish within a good diet, not to prescribe capsules.
+
 ## The RCT leg — FINGER bounds the observational PAF (F-refinement, 2026-08-05)
 
 The whole map above is **observational** — modelled PAFs on relative risks "assumed causal." The one
@@ -318,6 +387,14 @@ witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds th
   of that number made explicit and the headline HR 0.77 restored. Filed as F, **not** E: shared authorship
   (Livingston) and the Commission's reliance on this evidence defeat independence, flagged at the
 . The full estimate/mechanism/ranking is hosted on the sibling page, not re-litigated here.
+- **Omega-3 candidate lever added (2026-08-23, Wei 2023).** Filed as an observational candidate lever,
+  NOT a 15th factor — parallel to the periodontal and diet levers, and held at `confidence: low`. Not
+  overclaimed: the dietary-DHA RR 0.82 is stated observational/FFQ/Level-H-per-Wei, and the *supplement*
+  arm is explicitly refuted at RCT grade (Wei's own «limited efﬁcacy» concession + the held MAPT null),
+  so the section cannot be misread as licensing omega-3 capsules. Not laundered-E: Wei shares the
+  observational cohort literature with the diet lever and the mechanism with the cardiometabolic rocks,
+  so it is flagged as largely mediated, not additive. No tension filed. The full decomposition lives on
+  [[Fish and Seafood Consumption]], not re-litigated here.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

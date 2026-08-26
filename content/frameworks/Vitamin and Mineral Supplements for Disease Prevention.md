@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -20,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
 created: 2026-07-30
-updated: 2026-08-19
-self_critiqued: 2026-08-19
+updated: 2026-08-23
+self_critiqued: 2026-08-23
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -91,6 +91,62 @@ older participants (ie, aged 80 years) living in an institution»
 (shared trials: WHI/Jackson, RECORD) — it is the direct evidence for the high-risk-benefit arm Kahwati
 reported second-hand, and the full net-effect (benefit vs CV + stone harm, by stratum) has its own home
 -> [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
+
+## The non-CV mortality anchor: pooled all-cause null, cancer-DEATH benefit `[2026-08-23, Zhang MA]`
+
+VITAL is one trial; Zhang 2019 pools **50 RCTs of vitamin D ALONE (no calcium co-intervention),
+74,655 participants, 7993 deaths** — the fabric's pooled mortality anchor, GRADE **high**, every
+secondary outcome I2=0%. It separates the endpoints the single-trial nulls could not:
+
+| Outcome | Zhang pooled RR (95% CI) | State |
+|---|---|---|
+| All-cause mortality (50 trials) | **0.98 (0.95-1.02)** | no meaningful effect |
+| Cancer mortality (5 trials) | **0.85 (0.74-0.97)** | benefit — 15% lower |
+| Cardiovascular mortality (12 trials) | 0.98 (0.88-1.08) | no meaningful effect |
+| Non-cancer, non-CV mortality (4 trials) | 1.05 (0.93-1.18) | no meaningful effect |
+
+[@zhang2019vitd]. «Vitamin D supplementation
+alone was not associated with all cause mortality in adults compared with placebo or no treatment»
+and «Vitamin D supplementation reduced the risk of cancer death by 15%»
+[@zhang2019vitd]. The all-cause null is **not
+underpower** — trial-sequential analysis met the information size for the 10% and 7.5% relative-risk-
+reduction thresholds (a real null, not an empty one) [@zhang2019vitd].
+
+**Cancer DEATH is not cancer INCIDENCE — a distinction, not a contradiction with the VITAL null
+above.** This page already holds VITAL's cancer *incidence* null; Zhang reports a cancer *mortality*
+benefit. They are different quantities, so no tension is joined:
+
+| Parameter | VITAL (held above) | Zhang MA | Same quantity? |
+|---|---|---|---|
+| Endpoint | invasive cancer **incidence** | cancer **death** (mortality) | **NO** — diagnosis vs death |
+| Vitamin D3 effect | 0.96 (0.88-1.06) [@manson2019vitd] | 0.85 (0.74-0.97) [@zhang2019vitd] | — |
+| Design | single RCT | pooled 5 RCTs incl. VITAL | not independent |
+
+Because Zhang **pools VITAL among its constituent trials**, the two are not independent witnesses:
+this is **type-F refinement** (Zhang bounds the incidence null with a downstream mortality signal),
+NOT `[E-independent]`. The signal is latency-gated — the cancer-death benefit concentrated in trials
+with **>3-year** follow-up, and VITAL's own cancer mortality moved from 0.83 (0.67-1.02) overall to
+**0.75 (0.59-0.96)** after excluding the first 1-2 years
+[@zhang2019vitd]. Mechanism-plausible (cancer
+latency), but held with the authors' own guard that the subgroup «requires additional evidence».
+
+**D3 and D2 are different exposures.** All-cause mortality was «significantly lower among trials with
+vitamin D3 supplementation than in trials with vitamin D2 supplementation (P for interaction=0.04
+... although **neither group was associated with all cause mortality**)»
+[@zhang2019vitd] — D3 40 trials RR 0.95
+(0.91-1.00) vs D2 10 trials 1.03 (0.98-1.09). And «benefit was only seen in participants receiving
+vitamin D3 supplementation, and no participants received vitamin D2 supplementation»
+[@zhang2019vitd] — so the cancer-mortality
+signal is a **D3-only** claim. D3 raises 25(OH)D more efficiently than D2, so the compounds are not
+interchangeable. [inferred from @zhang2019vitd] the subgroups are
+observational, not randomised comparisons — a specification hint, not a settled effect modifier.
+
+**The earlier *small all-cause benefit* rode partly on calcium.** Prior reviews found a marginal
+all-cause reduction (2014 Cochrane RR 0.97, 0.94-0.99; Bolland 2014 RR 0.96, 0.93-1.00); Zhang got a
+null by **excluding vitamin-D-plus-calcium trials**: «we excluded more than 10 trials totalling
+approximately 50 000 participants of vitamin D administered with calcium»
+[@zhang2019vitd]. Isolating native vitamin D
+from its frequent calcium co-agent removes a confound the earlier pooled figure carried.
 
 ## The load-bearing move: this is ENHANCEMENT in the replete, NOT deficiency correction
 
@@ -429,6 +485,11 @@ Decision-change: **for a confirmed vitamin-D-deficient person, daily/weekly D is
 route (a)/(b) on [[Baseline Risk and the Relative-Absolute Split]], with absolute benefit scaling to
 deficiency (NNT 4 vs 33). This does not license broad supplementation of the replete, whose ARI benefit
 was much smaller and whose chronic-disease benefit was null.
+
+The same enhancement-in-the-replete / effect-modification structure recurs for **vitamin C on the
+common cold** — regular high-dose C is a precise incidence null in the general community (RR 0.97,
+0.94-1.00) but halves incidence in a heavy-acute-physical-stress stratum (RR 0.48, 0.35-0.64), a
+route-(b) exception -> [[Vitamin C and the Common Cold]].
 
 **A second deficient-stratum instance — iron -> cognition (Falkingham 2010, gold MA).** The same
 enhancement-vs-repletion split holds for a different nutrient: iron supplementation raised IQ in the

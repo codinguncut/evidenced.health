@@ -13,8 +13,17 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-22
 ---
+
+**Frontier scope (kept peripheral, not deepened)** — semaglutide is a widely-prescribed
+standard drug, so its efficacy on a hard outcome is admissible (the *Pharmacotherapy taper*); but this
+page sits at the **prescriber edge** because the population is a *specific diagnosed disease* (type 2
+diabetes with established CKD, on maximal-dose RAS inhibition), not one of the reasonably-healthy or
+prevalent-lifestyle-modifiable strata the wiki centres — and the finding, by the page's own reading,
+**does not transport** to the obese primary-prevention case. Held for the standard-drug efficacy signal
+and the surrogate-vs-hard-outcome lesson; **not deepened** (no dosing, agent-selection, or combination
+cardiorenal-therapy content, and no further FLOW-class kidney-trial acquisition).
 
 The GLP-1 case elsewhere in this cluster is about **weight and cardiovascular events in obesity**
 ([[Semaglutide for Cardiovascular Risk in Obesity]]) and the **non-cardiometabolic safety ledger**

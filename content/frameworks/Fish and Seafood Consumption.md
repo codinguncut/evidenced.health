@@ -2,12 +2,12 @@
 type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
-authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020]
+authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
 cluster: fish-seafood
 nucleus: true
 confidence: medium
-self_critiqued: 2026-08-06
+self_critiqued: 2026-08-23
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -18,8 +18,10 @@ relationships:
     - Measurement Error in Dietary Assessment
     - The U-Shaped Association Artifact
     - The Observational-Trial Discordance
+    - Dementia Prevention and Modifiable Risk Factors
+    - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-08-12
+updated: 2026-08-23
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -44,7 +46,7 @@ the separate CONTAM 2012 opinion, cited here for the tolerable intake).
 
 [inferred from @efsaseafood2014]
 
-## The benefit side — two outcomes, both observational
+## The benefit side — three outcomes, all observational
 
 ### Adult cardiovascular: CHD mortality specifically
 
@@ -95,6 +97,64 @@ So the neurodevelopment lever is a **deficiency-repletion** lever (DHA and iodin
 nothing once maternal status is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational
 food signal survives while the isolate RCT is null — a design story, not proof the food beats the
 nutrient.
+
+### Cognitive decline / dementia (older adults) — Wei 2023
+
+A gold SR+MA (Wei 2023; 48 cohorts, 31 pooled, 103,651 participants) adds a **third observational
+benefit outcome**, and it repeats this page's central lesson — the food/dietary signal is protective
+while the isolate-supplement RCTs are null. Two exposure-form facts carry the decision, and they
+dissociate:
+
+- **Dietary DHA is the strongest signal: RR 0.82 (0.72, 0.93; Level H), 13 studies** — Wei's own
+  highest-credibility dietary estimate, reported as a 27% lower dementia risk / 24% lower AD risk.
+  Dietary *total* omega-3 is weaker and borderline (RR 0.91, 0.82-1.00; Level M); dietary EPA and ALA
+  are null. [@wei2023omega3] Fish is
+  the dominant food source of DHA, so this lands on the fish nucleus — but the exposure Wei measured is
+  *dietary DHA by FFQ*, not fish servings, so read it as the n-3 mechanism, not a fish-specific dose.
+- **The biomarker compartments split, and the split is diagnostic.** *Erythrocyte* DHA (the long-term,
+  \~60-90 d intake marker) is protective — RR 0.94 (0.89, 0.98; Level H) — tracking the dietary signal.
+  But *plasma* DHA (the short-term, \~7-14 d marker) is **null and publication-bias-driven**: *«No
+  signiﬁcant association was found between higher levels of plasma DHA and a lower risk of cognitive
+  decline (RR: 0.88, 95% CI: 0.76, 1.03; I2 ¼ 63.6%, Level L), with publication bias (Egger's P ¼
+  0.007, corrected RR: 0.99, 95% CI: 0.85, 1.14; I2 ¼ 69%)»*
+  [@wei2023omega3] — the bias
+  correction moves it to a flat null.
+
+**The diet-vs-supplement / marker-vs-lever pattern, stated by Wei itself.** Wei's ADNI arm found
+*supplement use* protective (long-term users HR 0.36) but *blood omega-3 levels* null in the same
+cohort, and concedes *«residual confounding from unmeasured confounders (such as dietary intake and
+physical activity) remains an issue»*
+[@wei2023omega3] — the healthy-user
+tell. Wei's intro concedes the design split outright: *«In contrast, randomized clinical trials have
+shown limited efﬁcacy of omega-3 fatty acid sup-plementation in reducing cognitive decline and
+probable AD»* [@wei2023omega3]. So
+the observational dietary-DHA benefit does **NOT** license an omega-3 *supplement* recommendation for
+cognition — the held RCTs (MAPT 800 mg DHA + 225 mg EPA/d, cognition-null; VITAL 1 g/d marine n-3)
+find no cognitive/CV benefit -> [[Multidomain Lifestyle Intervention and Cognitive Decline]],
+[[Vitamin and Mineral Supplements for Disease Prevention]].
+
+**Parameter table — Wei (dietary DHA, observational) vs MAPT (DHA+EPA supplement, RCT):**
+
+| Parameter | Wei 2023 dietary DHA | MAPT / Andrieu (RCT) | Same quantity? |
+|---|---|---|---|
+| Exposure | habitual dietary DHA (FFQ, years) | 800 mg DHA + 225 mg EPA/d capsule, 3 y | **NO** — food-borne vs isolated supplement |
+| Design | pooled prospective cohorts (confounded) | double-blind RCT (unconfounded) | **NO** |
+| Endpoint | incident cognitive decline / dementia / AD | change on a cognitive composite over 3 y | **NO** — incidence vs surrogate slope |
+| Result | RR 0.82 (0.72, 0.93) protective | null | direction differs |
+
+**Verdict:** the two are **not the same quantity** (different exposure form, design, and endpoint;
+not-joined check (ii)), so this is a **type-F refinement / diet-vs-supplement distinction, NOT a filed
+tension** — the composite lesson (type A) is that the observed dietary-DHA benefit does not transport
+to supplementation, and the marker that would carry the supplement mechanism (plasma DHA) is itself
+null.
+[inferred from @wei2023omega3]
+
+**The 1.0 g/d *threshold* is an authors' proposal at the edge of the data, not a located knee.** Wei
+*«propose[s] that 1.0 g/d may be the threshold»* dosage
+[@wei2023omega3], but the same
+sentence reports the total-omega-3 dose-response was *«not signiﬁcantly linear»*, and the number sits
+at the upper edge of the observed dietary range. Per the dose-response discipline, treat it as the
+edge of the evidence, not a curve feature -> [[The Underivable Optimum]]; do not state it bare.
 
 ## The key structural move — the benefit is measured NET of the mercury
 
@@ -273,12 +333,34 @@ but may still help all-cause) is unchanged.
 - **Intake is FFQ-measured** — the binding constraint -> [[Measurement Error in Dietary Assessment]].
 - **The risk arm is borrowed.** This opinion is the benefit side; the methylmercury toxicity
   assessment and the TWI derivation are the separate CONTAM 2012 opinion.
-- **Two sources, not independent.** EFSA (benefit-risk guidance) + Jayedi 2020 (cohort umbrella) —
-  but they share the underlying cohort literature and the EPA/DHA mechanism, so confidence is medium,
-  not high (the observational ceiling binds both). Still owed for genuine independence: an omega-3
-  **RCT** source woven into this page (REDUCE-IT and VITAL are held but reached only via linked pages;
-  ASCEND is not held at all) and the mercury-toxicity CONTAM 2012 opinion.
+- **Three sources, still not independent on the food signal.** EFSA (benefit-risk guidance) + Jayedi
+  2020 (cohort umbrella, CV/mortality) + Wei 2023 (cohort SR+MA, cognition) — but all three share the
+  underlying observational cohort literature and the EPA/DHA mechanism, so confidence stays medium, not
+  high (the observational ceiling binds all three). Wei adds the cognitive-decline / dementia outcome
+  and a partial independence on design *reading* (it explicitly contrasts the null supplement RCTs),
+  but its own effect estimates are observational and FFQ-based like the others. Still owed for genuine
+  independence: an omega-3 **RCT** source woven directly into this page (REDUCE-IT, VITAL and MAPT are
+  held but reached only via linked pages; ASCEND is not held) and the mercury-toxicity CONTAM 2012
+  opinion.
 
 [inferred from @efsaseafood2014]
+
+## Self-critique `[run 2026-08-23, before commit — cognition section added]`
+
+- **Not overclaimed.** The Wei cognition outcome is stated observational throughout; dietary DHA RR 0.82
+  is the strongest *dietary* signal in Wei's own paper (source-scoped, not a wiki-holdings superlative),
+  and the section's load-bearing conclusion is the *negative* one — the observational dietary signal does
+  NOT license an omega-3 supplement recommendation, which the held RCTs (MAPT, VITAL) refute. No "proven
+  supplement effect" reading survives.
+- **Not a fake tension.** Wei-vs-MAPT is filed as an F-refinement / diet-vs-supplement distinction via a
+  parameter table whose *same-quantity?* column is NO on every row (food vs isolate; cohort vs RCT;
+  incidence vs surrogate slope) — the not-joined guard (ii). The exposure-form dissociation (dietary +
+  erythrocyte DHA protective; plasma DHA null after bias correction) is the type-A composite, marked
+  as this page's own reading (INFERRED), not a source finding.
+- **Not laundered-E.** Wei is NOT claimed independent of EFSA/Jayedi — all three rest on the same
+  observational cohort literature and the EPA/DHA mechanism, so confidence stays `medium` and the Limits
+  section says so. The still-owed omega-3 RCT woven directly here remains open.
+- **Coherence, not validity** (R1): the loop is open — no operation grades the fish->cognition association
+  against a realized dementia outcome.
 
 ## References

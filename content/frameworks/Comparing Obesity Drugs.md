@@ -21,6 +21,14 @@ updated: 2026-08-22
 self_critiqued: 2026-08-22
 ---
 
+**Frontier scope (kept peripheral, not deepened)** — a *class* efficacy-and-limitations
+comparison (surrogate-vs-hard-outcome inversion, benefit-harm coupling, lean-mass cost, durability)
+against the lifestyle reference is IN under the *Pharmacotherapy taper*; the **per-agent
+which-to-prescribe ranking** across nineteen drugs — several of them non-standard/investigational
+(CagriSema, orforglipron, retatrutide) — is the **pharmacopeia depth that stays frontier**. Read this
+page for the class-level decision lessons; the per-agent ranking / discontinuation / GI tables are the
+peripheral edge and are **not deepened** (no further head-to-head-ranking acquisition).
+
 Nineteen drugs, 262 RCTs, 99 791 participants, 24 outcomes, GRADE-rated — the single most
 comprehensive comparison the wiki holds of the anti-obesity drug class
 [@nong2026obesity]. Because most of

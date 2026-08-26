@@ -2,11 +2,11 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
 cluster: cvd-risk-estimation
 confidence: high
-self_critiqued: 2026-08-20
+self_critiqued: 2026-08-25
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -20,8 +20,9 @@ relationships:
     - Blood Pressure Lowering and Cardiovascular Events
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Vitamin and Mineral Supplements for Disease Prevention
+    - Low-Fat Dietary Pattern and Cardiovascular Disease
 created: 2026-07-28
-updated: 2026-08-20
+updated: 2026-08-25
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -195,6 +196,25 @@ baseline-risk demonstration. Still directionally consistent: a well-managed, uns
 exactly where both a thin contrast and a low absolute risk conspire toward null. (Convergent single-source
 confirmation of the held thesis, **not** an independent-backing claim — no `[E-independent]`.)
 [inferred from @mollvancharante2016]
+
+**WHI is a fifth confirming test — a large dietary-pattern RCT in a not-high-risk population, but a
+WEAKER instance for the same reason as preDIVA `[2026-08-25]`.** The Women's Health Initiative Dietary
+Modification Trial randomized 48,835 postmenopausal women (only 3.4% with baseline CVD — a
+primary-prevention population) to a low-fat pattern for a mean 8.1 years and found **null on CHD (HR
+0.97, 0.90-1.06), stroke (1.02, 0.90-1.15), and CVD (0.98, 0.92-1.05)**
+[@whi2006]. This is exactly the cell the
+page names — a diet-pattern intervention that does not deliver a large hard-CV benefit in a not-high-risk
+population. **But like preDIVA its null is over-determined, so it confirms only the *broad* thesis, not a
+clean baseline-risk demonstration:** the achieved between-arm fat separation was only \~8.2%E («about 70%
+of de- sign assumptions»), giving «a projected power of only approximately 40%» for an LDL change the
+authors predicted would «produce only a small (2%- 4%) decrease in CVD risk»
+[@whi2006] — and it tested the *wrong
+exposure* (total-fat->carbohydrate, not the protective-food pattern the guidelines recommend). So it is
+directionally consistent — a diluted contrast plus a low absolute risk conspiring toward null — but a
+weaker mechanism-instance than the trials that achieved a real relative effect and still faded at low
+risk. Details on [[Low-Fat Dietary Pattern and Cardiovascular Disease]]. (Convergent single-source
+confirmation of the held thesis, **not** independent backing — no `[E-independent]`.)
+[inferred from @whi2006]
 
 **What still would break it:** a primary-prevention cardiovascular-outcome trial of an obesity drug
 (does not yet exist), a weight-loss-mortality review finding benefit beyond T2D, a CAC-randomized

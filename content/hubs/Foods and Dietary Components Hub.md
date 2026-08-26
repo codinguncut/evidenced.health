@@ -19,6 +19,10 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   evidence is; the big rocks are body fatness, alcohol, physical activity
 - [[Body Fatness and Cancer Risk]] — the largest diet-adjacent cancer lever: body fatness a convincing/
   probable cause of \~12 of 17 cancers, its hallmark mechanisms, and the young-adulthood breast paradox
+- [[Dietary Acrylamide and Cancer Risk]] — the `dietary-acrylamide` nucleus: the hyped cooking-formed
+  "toxin" (fried/baked starches, coffee) that is IARC 2A on animal/mechanism grounds but **null across
+  \~20 non-gynecological cancer sites** in humans (Filippini dose-response MA, no threshold); the
+  symmetric-standards / attention-anti-signal test — near-zero Layer-1 lever
 
 ## Foods and beverages
 
@@ -45,6 +49,19 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   and a male-concentrated CV signal (diet x sex P=.01 for CVD). Single confounded cohort — the
   healthy-adherent bundle is the ceiling; the EPIC-Oxford divergence shows "vegetarian" is not one
   exposure
+- [[Diet Quality Scores and Cardiovascular Risk]] — the `diet-quality-scores` nucleus (PURE, Mente 2023,
+  80 countries): an unweighted 6-food protective-pattern score -> CVD/mortality (score >=5 vs <=1
+  mortality 0.70), with a LOCATED dose-response knee \~score 4/6 (the lever is raising low consumers to
+  moderate, not optimizing an adequate diet), the under-nutrition-not-over-nutrition global reframe
+  (regional heterogeneity = curve-position), PURE \~= Med/HEI/DASH but Planetary/EAT-Lancet null. Weak
+  discrimination (AUC 0.52-0.61), \~1/3 attenuation under adjustment, dairy-industry-funded — observational,
+  no RCT
+- [[Low-Fat Dietary Pattern and Cardiovascular Disease]] — the WHI DM Trial (n=48,835, mean 8.1 yr):
+  the largest RCT of a *total-fat-reduction* pattern, NULL on CHD/stroke/CVD (HR \~0.97/1.02/0.98). A
+  diluted-contrast (achieved \~70% of design, arm rebounded 24->29%E) + wrong-exposure (fat->carbohydrate,
+  not protective-foods) + \~40%-power null — a no-effect-on-the-tested-contrast result, NOT a refutation
+  of the recommended pattern; the fat-*quality* lever is elsewhere. Symmetric-standards counterweight to
+  observational diet-pattern signals
 - [[Fermented Foods and Health]] — the `fermented-foods` nucleus: do live-fermented foods move a
   patient-important outcome, and is the effect the live cultures, the food matrix, or fermentation's
   biochemistry? Held evidence is thin (one surrogate-outcome RCT + two observational fermented-dairy CVD

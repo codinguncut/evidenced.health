@@ -1,9 +1,9 @@
 ---
 type: framework
 question: How should resistance training be prescribed — load, sets, weekly frequency — for strength versus hypertrophy, what is the minimal effective dose, and does any of it move a health outcome?
-aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training]
-authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M]
-sources: [Currier - Resistance Training Prescription NMA 2023]
+aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex]
+authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W]
+sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020]
 cluster: muscle
 confidence: low
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Low Muscle Mass and Mortality
     - Sarcopenia Definition and Diagnosis
 created: 2026-08-06
-updated: 2026-08-07
-self_critiqued: 2026-08-06
+updated: 2026-08-25
+self_critiqued: 2026-08-23
 ---
 
 **Peripheral scope** (exercise-programming) — admitted on the same evidence bar as any exposure, kept
@@ -110,6 +110,72 @@ on preference and constraint (Route e), not on demonstrated effect modification 
 [@currier2023]
 
 
+## Sex is not a meaningful effect modifier — one prescription for both (route-b null)
+
+The most-asked stratification of RT — *should women train differently?* — has a **direct**
+answer, and it is a well-bounded **null on relative gains**. Roberts pooled male-vs-female RELATIVE
+adaptation to the SAME protocol across 50 studies (ages 18-50, >=5 weeks; supplements/HRT excluded),
+splitting by outcome. The effect size is **male-group ES minus female-group ES**, so a negative value
+favors females; every ES is a within-group, baseline-normalized (relative) change, NOT absolute kg/cm:
+
+| Outcome (relative gain) | k (outcomes / studies) | Pooled ES (male-minus-female) | 95% CI | I2 | Verdict |
+|---|---|---|---|---|---|
+| Hypertrophy | 12 / 10 | 0.07 | -0.09 to 0.23 | 0 | **No sex difference** (tight null) |
+| Upper-body strength | 19 / 17 | -0.60 | -0.93 to -0.26 | 72.1 | **Favors females** (moderate) |
+| Lower-body strength | 23 / 23 | -0.21 | -0.54 to 0.12 | 74.7 | **No sex difference** |
+[@roberts2020sex]
+
+- Headline: «males and females adapted to RT with similar effect sizes for hypertrophy and lower-body
+  strength, but females had a larger effect size for relative upper-body strength.»
+  [@roberts2020sex] The one
+  non-null runs **toward women**, not away — so nothing here motivates a *lighter/different* female
+  prescription; if anything untrained women gain upper-body strength at least as fast relative to
+  baseline.
+- **The absolute-vs-relative trap, named by the source:** «Although it is true that absolute
+  hypertrophy and gains in strength are larger in males after RT, it seems that relative increases in
+  both muscularity and lower-body strength are similar between the sexes, and relative gains in
+  upper-body strength may be larger in females.»
+  [@roberts2020sex] Men gain
+  more **absolute** size/strength (higher baseline mass, more upper-body androgen receptors); the
+  **relative response curve is the same**. Reading the absolute gap as a different *response* is the
+  error — it is a different *starting point* (a Route-a baseline fact, not a Route-b effect
+  modification).
+- **The upper-body female signal is plausibly an artifact, not biology** — the authors flag it: high
+  heterogeneity (I2 \~72%) unreduced by covariates, mostly untrained short trials, and «This could cause
+  a ceiling effect for motor skills that may explain differences in upper-body strength because the
+  studies were conducted in mostly untrained subjects.»
+  [@roberts2020sex] Men are
+  often more familiar with upper-body movements (e.g. bench press), leaving women more short-run
+  motor-learning headroom. So even the one non-null may not survive longer training or trained
+  populations — it does not upgrade to a prescription difference.
+- ***Lifting makes women bulky* — refuted on BOTH axes.** Relative hypertrophy is *equal*, not greater,
+  in women (ES 0.07; CI -0.09 to 0.23; I2 = 0 — an unusually clean null), and **absolute** muscle gain
+  is *smaller* in women. The same training does not build more muscle on a woman than on a man; the
+  testosterone gap that was once invoked to predict blunted female hypertrophy did not produce it.
+  [@roberts2020sex]
+
+**Convergence with Currier's covariate null — but a different parameter.** Currier's prescription NMA
+found «no» modifying effect of *proportion female* on the relative ranking of PRESCRIPTIONS (a
+meta-regression covariate); Roberts is a **direct male-vs-female contrast of the response itself**.
+These are different quantities (a between-RTx-ranking covariate vs a pooled within-protocol
+sex-difference ES), so this is two independent designs/teams converging on the same *question* — sex
+is not a route-(b) modifier here — not the same measurement re-pooled.
+[inferred from @roberts2020sex; @currier2023]
+
+**Decision:** prescribe RT the same for both sexes (load for strength, volume for size — as above).
+Any sex-tailoring rests on preference/constraint (Route e) or absolute-baseline scaling (Route a),
+NOT on demonstrated effect modification. The source is explicit that the direct trials do not settle a
+prescription difference either way: «it is currently difficult to know if exercise prescription should
+be different between sexes.» [@roberts2020sex]
+The surrogate boundary below applies unchanged — these are 1RM/size gains, not a health outcome.
+
+**Limits (Roberts):** mostly untrained subjects, short trials, high strength heterogeneity unexplained
+by measured covariates, and **no formal risk-of-bias scoring** (the primary trials cannot blind
+exercise, so the authors judged standard quality scales unusable) — a `high`-tier MA resting on
+unblindable primaries, same design ceiling as Currier.
+[@roberts2020sex]
+
+
 ## The surrogate → outcome boundary — the load-bearing honesty
 
 Strength and muscle size are **surrogates** ([[Surrogate Outcomes]]), and Currier is unusually explicit
@@ -122,6 +188,14 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   lower mortality observationally -> [[Grip Strength and Mortality]], [[Muscle-Strengthening Activity and Mortality]]
   (any MSA vs none: all-cause mortality RR 0.85; MSA + aerobic RR 0.60). But that is *activity/strength
   predicting death*, not *this NMA's 1RM gains reducing death* — no RCT closes it.
+- **Strength → injury reduction is the one patient-important outcome established at CAUSAL (RCT-MA)
+  grade** — see [[Exercise Interventions and Sports Injury Prevention]] (Lauersen: strength-training
+  RR **0.315**, injuries cut to <1/3; the standout intervention, stretching null). This is the closest
+  the resistance-training case gets to a hard endpoint on interventional rather than observational
+  evidence. **Exposure-identity caveat:** Lauersen's strength arms are *eccentric / sport-specific
+  injury-prevention* protocols in young athletes, NOT the hypertrophy-oriented general RT this page
+  prescribes — so the transfer to a recreational/older gym trainer is a transportability gap, not a
+  settled property of "RT". [inferred from @lauersen2013injury]
 - **Hypertrophy → weakest transmission.** Low muscle *mass* predicts mortality
   ([[Low Muscle Mass and Mortality]]), but that raising size via training lowers mortality is unproven —
   hypertrophy is largely a surrogate for a surrogate. **Do not read the 0.66 hypertrophy SMD as a health

@@ -34,3 +34,6 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   vitamins, minerals, multivitamins, or marine omega-3 prevent CVD, cancer, fractures, or death
 - [[Creatine Supplementation]] — which of creatine's many claims are established (and which are not),
   for whom, and at what dose
+- [[Vitamin C and the Common Cold]] — refuted for general-population incidence (RR 0.97); a real
+  route-(b) exception under heavy acute physical stress (RR 0.48); modest duration effect of regular
+  use only; therapeutic-at-onset unproven

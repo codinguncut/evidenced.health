@@ -2,8 +2,8 @@
 type: framework
 question: How much protein should an older adult eat — daily (g/kg) and per meal — and what modifies that target?
 aliases: [Protein Older Adults, PROT-AGE, Older Adult Protein Target, Protein for the Elderly, 1.2 g/kg Protein, Protein Intake Elderly]
-authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L; Kim, Jung Eun; Campbell, Wayne W]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly, Kim - Protein Body Composition After Weight Loss 2016]
+authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L; Kim, Jung Eun; Campbell, Wayne W; Coelho-Junior, Helio Jose; Marzetti, Emanuele]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly, Kim - Protein Body Composition After Weight Loss 2016, Coelho-Junior - Relative Protein Intake Physical Function Meta-Analysis 2018]
 cluster: muscle
 confidence: medium
 relationships:
@@ -20,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Low Muscle Mass and Mortality
 created: 2026-08-06
-updated: 2026-08-21
-self_critiqued: 2026-08-19
+updated: 2026-08-23
+self_critiqued: 2026-08-23
 ---
 
 The **target** side of the protein question for the over-65 stratum: how much, and distributed how,
@@ -143,7 +143,10 @@ stratum, and it both **supports and bounds** the target:
   strength ([[Surrogate Outcomes]]). Komar itself flags this as likely under-powered («a small number
   of trials potentially insufficient to yield significant results»; broader-inclusion SRs did find grip
   gains), so it is *insufficient evidence* on strength, not proof of no effect — but it withholds any
-  strength claim from this stratum's protein target.
+  strength claim from this stratum's protein target. **A different lineage reaches the same grip null:**
+  Coelho-Junior's observational MA (below) also found no grip/chair-rise advantage for higher intake
+  `[E-independent]` — an RCT-pool and an observational-cohort route agreeing that raising protein does
+  not move *strength* in this stratum. `Corroborated by [@coelhojunior2018protein]
 - **The exposure is protein+energy, not isolated leucine or protein-per-se.** Komar cannot separate
   leucine from the co-ingested protein/AA matrix, and «an increase in total energy consumption might be
   a prerequisite for the success of these supplementations with respect to parameters such as LBM» — a
@@ -152,6 +155,55 @@ stratum, and it both **supports and bounds** the target:
 - **Pool-overlap caveat (no independence lift).** Komar's elderly-protein RCTs (Tieland, Chalé,
   Leenders, ...) plausibly overlap Tagawa's protein-supplement pool below, so their agreement that
   protein raises LBM in older adults is partly shared-evidence, not a second independent route.
+
+## The direct-function outcome test — observational, outcome-specific, no knee (Coelho-Junior)
+
+[@coelhojunior2018protein]
+Every source above sets the target against a *surrogate* (nitrogen balance, LBM, acute MPS) or, in
+Komar, a chronic mass endpoint. Coelho-Junior 2018 (gold SR+MA, 7 observational studies, 8754
+community-dwelling adults >=60 across 6 countries) is the closest thing held to a **direct
+physical-function** test of the intake bins — one level up the outcome ladder, but bought at the cost of
+design: it pooled cohorts/cross-sectional/case-control studies and **excluded all RCTs and
+interventions**, so it estimates *association*, not effect. It both **partly supports** the ladder and
+**bounds it hard**.
+
+- **Supports raising above the RDA — but only at the widest contrast.** Very-high (>=1.2 g/kg/d) vs low
+  (<0.8) reached a small significant SMD **0.18 [95% CI 0.01 to 0.35], p=0.04** on pooled lower-limb
+  function, and high (>=1.0) vs low reached significance on walking speed (SMD \~0.06 [0.02, 0.11]). The
+  authors read this as «findings ... indicate that a very high (>=1.2 g/kg/day) and high protein intake
+  (>=1.0 g/kg/day) are associated with better lower-limb physical performance when compared to low
+  protein (<0.80 g/kg/day) intake in community-dwelling older adults».
+- **Outcome-specific — strength did not move.** «relative high protein intake does not seem to
+  propitiate a better performance on isometric handgrip (IHG) and chair rise in comparison to relative
+  low protein intake» — high-vs-low was null on grip (SMD -0.36 [-1.15, 0.44]) and lower-limb strength
+  (-0.09 [-0.26, 0.08]). The association is confined to mobility/walking, not force-generation — the
+  same grip/chair-rise null Komar found by a different route ([[Surrogate Outcomes]]).
+- **No knee is located; the 1.0 cutpoint is imposed, not found.** The bins (0.8 / 1.0 / 1.2) were set
+  a priori from the RDA debate, so a categorical contrast cannot show a curve feature — and «there were
+  no significant differences in the physical functioning of high and middle protein intake groups»
+  (0.8-0.99 vs >=1.0 came up empty). Only the *widest* contrast separated. So the direct-function data
+  cannot distinguish the RDA boundary from the 1.0 target and gives **no warrant for a knee at 1.0** —
+  consistent with this page's *direction + a floor, not a point optimum* reading [[The Underivable Optimum]].
+  «there is a lack of direct evidence testing the proposed cut-off points for protein consumption».
+
+[inferred from @coelhojunior2018protein]
+
+- **Relative protein (g/kg) is confounded by body weight.** The low-intake bin had the *highest* mean
+  BMI (29.1 vs 27.1 in very-high): a heavier or more adipose person mechanically shows lower g/kg at the
+  same absolute grams, so "low relative protein" partly indexes higher adiposity/lower lean mass, not
+  lower eating. And in raw Table 2 the very-high bin had the *lowest* absolute grip (19.1 kg) and slowest
+  chair-rise — the classic reverse-causation / frailty pattern, where lighter frailer people land in the
+  high-g/kg bin -> [[The U-Shaped Association Artifact]].
+- **Self-reported intake (24-h recall, 3-4 day records, FFQ) carries the field's binding measurement
+  error** -> [[Measurement Error in Dietary Assessment]], which attenuates a real gradient toward null —
+  so the flat middle-vs-high result is weak evidence of no gradient, not proof of one. Heterogeneity was
+  «considerable» (I2 up to 96% on mobility); the authors themselves conclude «our results should be taken
+  with caution and should be confirmed with further studies», and call for RCTs.
+- **One effect-modification hint, held loosely (route (b), the false-positive generator).** A single
+  included cohort found protein-function association «in non-sarcopenic, but not in sarcopenic older
+  women» — a subgroup signal running *against* the expectation that illness raises the need, though the authors
+  also invoke the hypothesis that illness/frailty «may require higher protein levels (1.2-1.5 g/kg)».
+  A single-study subgroup is a candidate to test, not a stratum rule.
 
 ## Decision relevance
 

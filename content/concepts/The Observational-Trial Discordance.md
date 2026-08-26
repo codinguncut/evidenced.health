@@ -7,8 +7,8 @@ sources: []
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-20
-self_critiqued: 2026-08-20
+updated: 2026-08-25
+self_critiqued: 2026-08-25
 relationships:
   related_to:
     - Upgrading Observational Evidence
@@ -23,6 +23,7 @@ relationships:
     - Free Sugars Intake
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Fatty Liver MASLD and Weight Loss
+    - Low-Fat Dietary Pattern and Cardiovascular Disease
 ---
 
  — a synthesis induced across the fabric's own holdings (UPF, coffee, Mediterranean diet,
@@ -47,6 +48,7 @@ this page's.
 | **Coffee** | all-cause mortality RR \~0.83, CVD \~0.85 — consistent across a large umbrella | mostly GRADE very-low; Mendelian-randomization finds **no** genetic causal signal for coffee->T2D; no lifetime RCT is feasible | the natural experiment (MR) nulls one arm -> that arm is likely confounded; hold as insufficient-for-causation, not confirmed -> [[Coffee Consumption and Health]], [[Upgrading Observational Evidence]] |
 | **Mediterranean diet** | CVD/mortality graded *convincing* observationally | pooled whole-diet RCTs mostly null **except diabetes**; the one whole-PATTERN RCT (PREDIMED) moved events, while single-nutrient RCTs (the 54-RCT SFA-events null, Look AHEAD) did not | the RCT that tested the RIGHT exposure (the whole pattern) AGREES; the "null RCTs" tested a DIFFERENT exposure (single nutrients) -> [[Mediterranean Diet and Cardiovascular Events]] |
 | **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
+| **Total dietary fat** `[2026-08-25]` | diet-heart-era observational/ecological signal that *total*-fat intake raises CHD | WHI DM Trial — the largest low-fat-pattern RCT (n=48,835) — **null**: CHD HR 0.97 (0.90-1.06), stroke 1.02, CVD 0.98 | the RCT tested a **DIFFERENT exposure** (total-fat *quantity* cut, fat->carbohydrate, no weight loss) than the causal lever (fat *quality* / protective-food pattern), under a **diluted contrast** (achieved \~70% of design separation, arm rebounded 24->29%E) and **\~40% power** for an LDL change predicted to move CVD only 2-4%. A wrong-exposure + underpowered null, not a no-effect null — the authors say so -> [[Low-Fat Dietary Pattern and Cardiovascular Disease]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
 they are three instances of one *appraisal structure*. That is what makes the page a type-A synthesis

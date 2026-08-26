@@ -21,6 +21,10 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   fat is stored (liver/pancreas overflow past a *personal fat threshold*) more than total mass. Normal-
   weight people can be above threshold; metabolically-healthy obesity is not durably benign (Kramer MHO
   MA); visceral fat is a marker for intra-organ fat, not the pathogenic depot. The `ectopic-fat` nucleus
+- [[Waist-to-Hip Ratio and Cardiovascular Risk]] — which anthropometric marker best identifies MI risk:
+  INTERHEART (case-control, 27,098, 52 countries) found WHR/waist far outrank BMI, whose whole MI
+  association vanishes after adjusting for fat distribution (1.44 -> 1.12 -> 0.98); abdominal adiposity's
+  attributable share of MI is \~3x the BMI cut-point's (24.3% vs 7.7%). Measure the waist, not the scale
 - [[Weight Cycling and Cardiometabolic Risk]] — whether "yo-yo" dieting itself harms, and whether fear
   of it should deter attempting weight loss (confounding-caveated; the signal is in normal-weight
   body-image dieters, not obese patients — so not a reason to avoid trying)
@@ -47,6 +51,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   T2D into remission, and whether it lasts
 - [[Total Diet Replacement and Type 2 Diabetes Remission]] — whether an energy-restricted total-diet-
   replacement programme achieves remission, and whether remission scales with weight loss
+- [[Periodontitis and Systemic Health]] — does treating periodontitis lower HbA1c (causal, moderate
+  certainty), and what the dementia arm can and cannot claim
 
 ## Why maintenance is hard, and drug/monitoring routes
 

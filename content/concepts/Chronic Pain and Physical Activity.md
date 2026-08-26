@@ -14,8 +14,9 @@ relationships:
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
     - Physical Activity Dose and Mortality
+    - Massage Therapy for Pain and Function
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-26
 self_critiqued: 2026-08-08
 ---
 

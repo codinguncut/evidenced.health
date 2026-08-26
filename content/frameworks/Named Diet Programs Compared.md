@@ -12,12 +12,13 @@ relationships:
     - Carbohydrate Restriction and Type 2 Diabetes Remission
     - Mediterranean Diet and Cardiovascular Events
     - Is the Food Category Doing Any Work
+    - The Target Trial (Emulation and the Well-Defined Intervention)
     - Surrogate Outcomes
     - Rating Certainty of Evidence
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-26
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-08-26
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**
@@ -206,6 +207,63 @@ lives on [[Diets for Weight Management in Type 2 Diabetes]].
   in this literature; the near-equivalence verdict is on surrogates over <=1 year.
 
 [inferred from @ge2020]
+
+## Getting a DIRECTION where the head-to-head hard-outcome trial can't be run
+
+The between-pattern hard-outcome comparison is structurally unrunnable (the G-gap under *Limits*): a
+long-latency head-to-head RCT on mortality/events between named patterns will not happen, and no
+meta-analysis can pool trials that do not exist. **But "no head-to-head MA" is not "no directional
+guidance."** Three moves extract a defensible *direction* from the evidence that does exist, and each is
+a method the corpus already holds — not a loosening of the evidence bar.
+
+**1. Emulate the trial you cannot run.** Specify the target trial — eligibility, time-zero, the two
+pattern strategies being contrasted — then estimate its effect from cohort data under identification
+assumptions made explicit, rather than reading an unadjusted pattern-mortality association off a
+food-frequency questionnaire. This converts *"which pattern is healthier?"* from an un-anchored
+correlation into a **stated causal contrast whose assumptions can be checked**, which is what lets
+observational pattern data speak to direction at all.
+ -> [[The Target Trial (Emulation and the Well-Defined Intervention)]]
+
+**2. Decompose the pattern into well-defined components.** A pattern label ("vegan", "keto",
+"Mediterranean") bundles many *versions of treatment* — one label names diets differing in fibre,
+refined sugar, energy density, protein, and total energy — so the label-level contrast is ill-posed
+before any data arrive. The corpus's resolution is to name the component and ask which axis carries the
+difference: Ge's own network finds the *macronutrient label* carries almost nothing on surrogates, while
+the food-category diagnostic shows repeatedly that a nameable sub-component (energy density, cereal
+fibre, heme, brew method) does the work a food or pattern label gets credited with. So the directional
+question that *is* answerable is component-level, not label-level.
+ -> [[Is the Food Category Doing Any Work]], [[The Target Trial (Emulation and the Well-Defined Intervention)]]
+
+**3. The extremes separate even where the middle does not — and that is itself the finding.** Ge
+establishes the *middle* of the pattern space (DASH vs Mediterranean vs low-carb vs Zone) as
+near-equivalent on surrogates, the between-label differences below the pre-specified importance bar —
+which licenses choosing on adherence and preference rather than agonizing over the brand
+(ceiling-is-a-finding). That near-equivalence does **not** extend to the *extremes*: a whole-food,
+high-fibre, low-refined pattern versus a highly-refined energy-dense one is a component contrast the
+decomposition above expects to be load-bearing, and the evidence there is not symmetric with the middle.
+
+
+**The two guards keep this honest, and they cut in opposite directions:**
+
+- **The confounded-anchor trap.** The strong long-cohort anchors that would drive an extreme-vs-extreme
+  ordering (Adventist-type vegetarian cohorts vs a Standard American Diet) differ in far more than diet —
+  smoking, alcohol, activity, adiposity, social cohesion — so a pattern-*label* benefit read off them is
+  the exact *observed-healthy-population-is-not-evidence-for-a-component* trap. The benefit may be real;
+  its **attribution to the label** may not transport. This is why the direction is trustworthy at the
+  *component* level (where a target-trial emulation can adjust for the confounder set it names) and
+  fragile at the *label* level. -> [[Is the Food Category Doing Any Work]]
+- **The asymmetry of what is actually studied.** The data are not evenly thin across the extremes: the
+  whole-food-mostly-plant end carries many large long-horizon cohorts, while the low-carbohydrate /
+  carnivore end has few long hard-outcome cohorts (recent, small, self-selected). So *"we cannot rank the
+  patterns"* is itself an average over an asymmetry — one extreme sits nearer *insufficient-evidence*
+  than the other, and the honest output names **which** end is data-poor rather than treating all
+  patterns as equally unadjudicated. The long-cohort pattern anchors this needs are a named acquisition
+  gap, not a held finding here.
+
+**Net:** the directional method turns *"no pattern is clearly better"* from a shrug into a structured
+answer — near-equivalent in the middle (act on adherence); component-ordered at the extremes (act on the
+measurable component, not the label); and one extreme genuinely under-studied — without asserting any
+hard-outcome pattern ranking the evidence does not license.
 
 ## Limits
 

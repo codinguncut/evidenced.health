@@ -17,8 +17,9 @@ relationships:
     - Upgrading Observational Evidence
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
+    - Weekend Warrior Activity Pattern and Mortality
 created: 2026-07-27
-updated: 2026-08-21
+updated: 2026-08-23
 self_critiqued: 2026-08-19
 ---
 
@@ -57,6 +58,13 @@ strongly, and with no plateau** -> [[Cardiorespiratory Fitness and Mortality]]. 
 claim: self-reported activity *dose* flattens early here, while objectively-measured *fitness* keeps
 paying — a discrepancy that is itself informative about measurement, not proof that more activity is
 always better.
+
+**This page is about total DOSE (how much); a sibling decision governs its DISTRIBUTION across the
+week.** Once a weekly volume is fixed, whether it is concentrated into 1-2 sessions (the weekend-warrior
+pattern) or spread across the week appears not to change the mortality benefit
+-> [[Weekend Warrior Activity Pattern and Mortality]] (with a session-duration floor: sub-30-min
+sessions do not bank it, at low observational certainty).
+
 
 ## Scope — this page is LEISURE / TOTAL PA; occupational PA can run the OTHER way `[2026-08-14, Coenen]`
 

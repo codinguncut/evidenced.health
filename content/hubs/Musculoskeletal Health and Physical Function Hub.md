@@ -35,6 +35,9 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Resistance Training Prescription - Load Sets and Frequency]] — how to program RT (load for strength,
   volume for hypertrophy), the minimal effective dose, and why any-RT-beats-none dwarfs the
   between-protocol gap; the closest-to-patient-important signal is physical function in older adults
+- [[Exercise Interventions and Sports Injury Prevention]] — which exercise prevents sport injury:
+  strength training cuts injuries to <1/3 (RR 0.315, the standout), proprioception helps, STRETCHING
+  does not (tight null); RT's one causal-grade patient-important outcome, in young athletes
 - [[Protein and Resistance Training for Muscle and Strength]] — whether protein supplementation adds to
   resistance training for muscle and strength, how much, and for whom
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily and per meal, and

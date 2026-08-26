@@ -13,8 +13,9 @@ relationships:
     - Rating Certainty of Evidence
     - Surrogate Outcomes
     - Rating Outcome Importance
+    - Reading a Confidence Interval
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-26
 ---
 
 **The friction this page holds:** the telos names **four** evidence states — benefit · harm · no

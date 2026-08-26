@@ -1,7 +1,7 @@
 ---
 type: framework
 question: Is exercise-induced energy expenditure offset by compensation (reduced non-exercise activity / increased intake), and does higher exertion intensity make the offset worse?
-aliases: [Energy Compensation, Exercise Compensation, NEAT, Non-Exercise Activity Thermogenesis, Constrained Energy Expenditure, Compensatory Eating, Activity Compensation]
+aliases: [Energy Compensation, Exercise Compensation, NEAT, Non-Exercise Activity Thermogenesis, Constrained Energy Expenditure, Compensatory Eating, Activity Compensation, Out-exercise a Bad Diet, Can You Outrun a Bad Diet, Exercise for Weight Loss]
 authors: [Riou, Marie-Ève; Jomphe-Tremblay, Simon; Lamothe, Gilles; Stacey, Dawn; Szczotka, Agnieszka; Doucet, Éric; Careau, Vincent; Halsey, Lewis G; Pontzer, Herman; Speakman, John R; Recchia, Francesco; Siu, Parco M]
 sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023]
 cluster: activity
@@ -13,7 +13,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Exercise vs Caloric Restriction for Visceral Fat
 created: 2026-07-29
-updated: 2026-08-08
+updated: 2026-08-22
 self_critiqued: 2026-08-08
 ---
 

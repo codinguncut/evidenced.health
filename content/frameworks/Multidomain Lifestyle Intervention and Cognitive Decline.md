@@ -7,7 +7,7 @@ sources: [Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante 
 cluster: dementia
 confidence: low
 created: 2026-08-05
-updated: 2026-08-07
+updated: 2026-08-26
 self_critiqued: 2026-08-07
 relationships:
   related_to:
@@ -110,6 +110,11 @@ certainty: single proof-of-concept RCT; `confidence: low` (unreplicated; surroga
   vault's held observation that a lone structured-exercise RCT found no cognition benefit
   -> [[Physical Activity Dose and Mortality]]. But non-decomposability means this is *not* evidence that
   exercise (or any one component) works alone.
+- **Nor does the *modality* of exercise resolve it.** A 2023 umbrella claims mind-body exercise
+  outperforms aerobic/resistance for cognition, but the advantage is a cross-review comparator artifact,
+  not established modality-specific benefit -> [[Mind-Body Exercise and Cognition]]. So neither the
+  *dose* nor the *type* of the exercise component rescues a single-domain cognition effect here.
+
 
 ## The non-replication — MAPT (3-yr, 4-arm RCT, NULL on the same surrogate) `[2026-08-07]`
 
@@ -152,6 +157,10 @@ certainty: single large RCT, null on the primary; `confidence: low` unchanged (t
   in patients with CDRs of 0·5... whereas those with normal DHA and EPA concentrations showed no change»
   [@andrieu2017] — a **marker-vs-intervention gap**:
   low omega-3 status flags decline, but supplementing omega-3 did not prevent it -> [[Vitamin and Mineral Supplements for Disease Prevention]] (marine omega-3 also null for CVD/cancer in VITAL). [inferred from @andrieu2017]
+  This is the RCT half of a diet-vs-supplement split: the observational cohort SR+MA (Wei 2023) finds
+  *dietary* DHA protective while its *supplement*-use signal is confounded and its plasma-DHA biomarker
+  null — the same marker-vs-lever pattern -> [[Fish and Seafood Consumption]].
+  [inferred from @wei2023omega3]
 
 **FINGER vs MAPT — the parameter table (why this is EFFECT-MODIFICATION / a REFINEMENT, not a filed tension).**
 

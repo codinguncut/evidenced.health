@@ -14,9 +14,10 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
     - Autoimmune Disease and Modifiable Risk
     - Surrogate Outcomes
+    - Reading a Confidence Interval
 created: 2026-07-25
 self_critiqued: 2026-08-20
-updated: 2026-08-22
+updated: 2026-08-26
 ---
 
 ## The decomposition

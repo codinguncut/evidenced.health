@@ -4,12 +4,12 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-23
+self_critiqued: 2026-08-23
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -187,6 +187,35 @@ on Malmir's own dairy-cohort data.
   the deficient-repletion arm, which stays a separate question (a genuinely calcium/D-deficient or
   osteoporotic person is not what Malmir sampled — Kahwati's secondhand high-risk benefit still governs
   there).
+
+### The enhancement-null now extends to a NEW ENDPOINT — MORTALITY (Zhang 2019) `[F, NOT E]`
+
+The enhancement arm was held on fractures/cancer/CVD (VITAL, Kahwati, Yao, Malmir). **Zhang 2019
+(gold SR-MA, 50 RCTs of vitamin D alone, 74,655) adds MORTALITY as a new enhancement-null endpoint**,
+in a population that was largely replete: «more than half of participants (50 466/66 546) from trials
+reported a baseline mean 25 hydroxyvitamin D concentration of more than 50 nmol/L»
+[@zhang2019vitd]. Pooled all-cause mortality was
+null (RR 0.98, 0.95-1.02, GRADE high), and the authors read it as an enhancement problem in their own
+voice: «The baseline 25 hydroxyvitamin D concentrations of trial participants have not been low
+enough, which could partly contribute to the null finding»
+[@zhang2019vitd]. This is **type-F** (Zhang pools
+VITAL, so not an independent second witness), broadening the enhancement-null to mortality.
+
+- **A weak, NS hint of the lower arm on this same endpoint.** Baseline-25(OH)D subgroup (all-cause):
+  **>=50 nmol/L RR 1.04 (0.97-1.12)** vs **<50 RR 0.95 (0.90-1.01), P-interaction 0.07**
+  [@zhang2019vitd] — the predicted direction (more
+  benefit lower down), but non-significant and route-(b), so a *hint*, not the demonstrated lower arm
+  Martineau supplies for ARI. The trial population barely sampled the deficient edge (<25 nmol/L in
+  4 trials / 886 people), so it cannot power the repletion arm on mortality.
+- **The observational gradient the RCTs do NOT reproduce — a reverse-causation candidate.** Cohort data
+  (Zhang citing Gaksch 2017 IPD MA) show a steep low-25(OH)D mortality signal: HR vs the 75-100 nmol/L
+  referent was **1.67 (1.44-1.89)** at <30 nmol/L, 1.33 at 30-40, 1.15 at 40-50
+  [@zhang2019vitd]. Supplementing largely-replete
+  trial populations does **not** confirm this gradient as causal — exactly the pattern where
+  reverse causation / confounding-by-frailty inflate an observational low-nutrient mortality arm
+  -> [[The U-Shaped Association Artifact]]. [inferred from @zhang2019vitd]
+  the RCT-vs-cohort divergence is the artifact-check: the cohort HR is not evidence the deficient would
+  benefit from repletion on mortality; that arm stays untested here.
 
 ## The lower (repletion) arm — now demonstrated for one nutrient x outcome
 

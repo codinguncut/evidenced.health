@@ -2,8 +2,8 @@
 type: framework
 question: What does dairy do to cardiometabolic outcomes (all-cause mortality, CVD events, type-2 diabetes) once you stop treating dairy as one undifferentiated food — by category (milk vs cheese vs butter vs fermented) and by fat content — and how much of any signal is confounding artifact?
 aliases: [Dairy and Health, Milk and Mortality, Dairy and CVD, Dairy and Type 2 Diabetes, Milk and Cardiovascular Disease, Full-Fat Dairy]
-authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Scientific Advisory Committee on Nutrition (org)]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015]
+authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org)]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023]
 cluster: dairy
 nucleus: true
 confidence: medium
@@ -17,11 +17,12 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Measurement Error in Dietary Assessment
+    - Diet Quality Scores and Cardiovascular Risk
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-08-25
+self_critiqued: 2026-08-25
 ---
 
 **Nucleus of the `dairy` cluster** — the canonical owner of *what dairy does to cardiometabolic
@@ -188,6 +189,40 @@ equal scepticism. A minor, low-weight note, not a decision-change.
 
 
 
+## Whole-fat dairy as a protective PATTERN component — PURE (Mente 2023), and why it does not overturn the neutral verdict
+
+PURE's healthy-diet-score analysis (Mente 2023; 147,642 + 5 replication studies) is the one large source
+that reads dairy as **actively protective** rather than neutral — and it is the score's distinctive
+element, since «dairy (mainly whole-fat)» is one of only six protective foods it counts, where other
+diet scores favour low-fat dairy or exclude it -> [[Diet Quality Scores and Cardiovascular Risk]]. Mente
+states «our findings in PURE showed that dairy foods, especially whole-fat dairy, may be protective
+against risk of hypertension and metabolic syndrome», and «intakes of dairy (up to 185 g/day; or \~two
+servings/ day, mainly from whole-fat dairy) can be included with other beneficial foods as part of a
+healthy diet» [@mente2023pure].
+
+**Three guards keep this from upgrading the page's verdict past neutral, and they are the point:**
+
+- **Different, weaker contrast — not commensurable with Guo (no tension filed).** Mente's dairy signal
+  is dairy *as one component of a highest-vs-lowest whole-diet score*, hopelessly confounded with the
+  other five protective foods and with the healthy-user gradient; Guo is a dairy-specific per-200 g/day
+  dose-response. These are **not the same quantity** (parameter-table row: NO), so PURE's protective
+  reading and Guo's neutral slope are a **distinction, not a joined tension** — and PURE lands
+  *compatibly* with Guo where it matters: dairy is not a food to avoid.
+- **Not independent (not type-E).** PURE shares authors (Mente, Dehghan) and cohort infrastructure with
+  the Dehghan PURE macronutrient work; a shared confounding/measurement structure moves them together.
+  So this is not a second independent witness for a dairy benefit — it is the same research programme.
+- **Directional-sponsor tell (symmetric standards, same as Mishali).** PURE is partly funded by «an
+  unrestricted grant from Dairy Farmers of Canada and the National Dairy Council (U.S.)»
+  [@mente2023pure], and the whole-fat-dairy-is-protective
+  reading is exactly where such a sponsor would push. The estimate is discounted, not deleted.
+
+**Net:** PURE strengthens the *neutral-to-mildly-favourable* end of this page's range for whole-fat
+dairy within a whole-diet pattern; it does **not** license a standalone *full-fat dairy is
+cardioprotective* claim. The hypertension/metabolic-syndrome mechanism it invokes remains a candidate
+channel, not a demonstrated one.
+
+
+
 ## Confidence, decision-relevance, and gaps
 
 - **`confidence: medium`** — two gold observational MAs converging on *small effects* (neutral CVD/
@@ -241,5 +276,11 @@ equal scepticism. A minor, low-weight note, not a decision-change.
   non-commensurable numeric closeness (0.97 vs 0.94) — re-anchored on check (ii) different-contrast +
   shared-cohorts; (c) the T2D-inverse headline now carries its single-source / industry-funding caveat
   inline rather than three sections later.
+- **PURE whole-fat-dairy section added `[2026-08-25]`, three guards checked.** The protective-dairy
+  reading is (i) filed as a *distinction* from Guo not a tension (different contrast — score component vs
+  dose-response, parameter-table NO); (ii) marked non-independent (shared PURE authors/infrastructure with
+  Dehghan — no `[E-independent]`); (iii) discounted for the Dairy-Farmers-of-Canada / National-Dairy-
+  Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
+  not upgraded — no full-fat-dairy halo introduced.
 
 ## References

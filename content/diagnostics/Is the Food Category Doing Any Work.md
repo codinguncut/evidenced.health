@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Mente, Andrew; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023]
 cluster: inference-pitfalls
 confidence: medium
-self_critiqued: 2026-08-22
+self_critiqued: 2026-08-25
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -20,8 +20,9 @@ relationships:
     - Dairy and Cardiometabolic Health
     - Fermented Foods and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
+    - Diet Quality Scores and Cardiovascular Risk
 created: 2026-07-27
-updated: 2026-08-22
+updated: 2026-08-25
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -724,5 +725,33 @@ hypothesis is why: the same saturated fat may behave differently inside cheese v
 [@guo2017]. Never let a butter
 finding read as a cheese finding, or a whole-milk finding as a yogurt finding. Full decomposition +
 verdict -> [[Dairy and Cardiometabolic Health]].
+
+
+## The inverse case — an aggregate where NO sub-component is load-bearing `[2026-08-25, Mente]`
+
+Every case above decomposes a category *downward* to find the sub-boundary that carries the signal.
+PURE's healthy-diet score (Mente 2023) is the mirror image, and it is the diagnostic's honest other
+half: a **composite** (six protective foods: fruit, veg, nuts, legumes, fish, dairy) where **removing or
+swapping any single component barely moves the predictive value** — «when we included red meat in the
+diet score in a sensitivity analysis, the findings were similar (neither stronger nor weaker)», the same
+for whole grains, and the score «can be achieved in a number of ways which does not necessarily require
+either including or excluding animal foods from the diet»
+[@mente2023pure] -> [[Diet Quality Scores and Cardiovascular Risk]].
+
+**So the tests run the opposite way and still resolve.** Test 1 asks whether the source folds
+sub-categories; here it *unfolds* them (drops/adds each) and finds none dominant — the diagnostic's
+verdict is that **the aggregate pattern IS the right decision unit**, and naming any single food is the
+error. This is not case 2 (a decorative boundary): the boundary between low and high *overall* score is
+sharply load-bearing (mortality HR 0.70 top vs bottom). It is that within the winning aggregate, the
+components are **near-substitutable** — the signal lives in the *breadth* of the pattern, not any one
+food.
+
+**The guard that keeps this from becoming a food-halo.** *No single component is necessary* is a
+statement about the **score's** robustness, not evidence that each food is independently causal — in a
+heavily healthy-user-confounded observational score, component-swap invariance is equally consistent with
+the whole gradient being confounding. So the actionable reading is narrow: **do not over-specify which
+protective foods to eat** (interchangeable within the pattern), while the *whether the pattern is causal
+at all* question stays with the confounding caveats on the diet-score page.
+[inferred from @mente2023pure]
 
 ## References

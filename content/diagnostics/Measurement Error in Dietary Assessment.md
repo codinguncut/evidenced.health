@@ -10,13 +10,14 @@ self_critiqued: 2026-08-04
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
+    - Dietary Acrylamide and Cancer Risk
     - Rating Certainty of Evidence
     - Upgrading Observational Evidence
     - Physical Activity Dose and Mortality
     - Sources of Non-Replicability
     - Linoleic Acid and Cardiovascular Disease
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-08-25
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 

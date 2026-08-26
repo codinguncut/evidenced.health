@@ -1,8 +1,8 @@
 ---
 type: hub
-question: Among the peripheral-lifestyle and environmental exposures the telos admits through their physical intersection — chronic stress, social connection, sense of purpose, sun/UV, and drinking-water fluoride — which move a patient-important physical outcome, by what channel, and are they levers or only markers?
+question: Among the peripheral-lifestyle and environmental exposures the telos admits through their physical intersection — chronic stress, social connection, sense of purpose, sun/UV, and drinking-water contaminants (fluoride, disinfection byproducts) — which move a patient-important physical outcome, by what channel, and are they levers or only markers?
 created: 2026-08-13
-updated: 2026-08-14
+updated: 2026-08-23
 ---
 
 Navigator for the **peripheral-lifestyle** cluster the telos admits on the same evidence terms as food
@@ -51,3 +51,11 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
 - [[Fluoride and Child IQ]] — the dose-threshold decision: where a child-IQ decrement is established
   (moderate confidence >1.5 mg/L, unclear at the 0.7 mg/L US fluoridation dose), and how well the
   mostly-high-fluoride-region evidence transports to fluoridation levels
+
+## Drinking-water disinfection byproducts
+
+- [[Disinfection Byproducts and Bladder Cancer]] — nucleus of the `disinfection-byproducts` cluster:
+  lifetime trihalomethane (THM) exposure raises male bladder-cancer risk modestly (meta OR 1.51 at
+  >50 µg/L; null in women, null via ingestion — dermal/inhalation carries the signal), attributable to
+  \~4.9% of EU bladder cancers — but a *small* effect dwarfed by smoking (OR 3.91) on near-universal
+  low-level exposure, so a structural water-treatment lever, not an individual behaviour

@@ -2,12 +2,12 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele]
-sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization]
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-19
+updated: 2026-08-25
 self_critiqued: 2026-08-19
 relationships:
   related_to:
@@ -18,6 +18,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Measurement Error in Dietary Assessment
     - Smoking and Mortality
+    - Waist-to-Hip Ratio and Cardiovascular Risk
 ---
 
 The bias-corrected shape of the BMI to all-cause-mortality relationship, from the largest
@@ -254,6 +255,14 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   correction. (BMI is a crude adiposity proxy — for central-adiposity strata see
   [[Menopause and the Shifting Levers]] and waist-based measures; this page is the BMI *curve*, not a
   claim that BMI is the right instrument.)
+- **For the specific decision of who is at cardiovascular (MI) risk, BMI is the wrong instrument — use
+  waist / waist-to-hip ratio.** INTERHEART (case-control, 27,098 people) found BMI's whole MI association
+  disappears after adjusting for fat distribution (top-vs-bottom quintile OR 1.44 -> 1.12 after WHR ->
+  0.98 after all risk factors), while WHR stays the strongest marker; abdominal adiposity's population-
+  attributable share of MI is \~3x what the BMI cut-point captures (24.3% vs 7.7%)
+  -> [[Waist-to-Hip Ratio and Cardiovascular Risk]]. This cashes the crude-proxy limitation above with a
+  hard endpoint — the all-cause-mortality *curve* here is a different outcome and design (cohort), and
+  both truths hold at once. [@yusuf2005interheart]
 - **Adiposity is a big-rock lever, and the effect is largest where there is most life to lose** — the
   gradient is steepest at 35-49 y (1.52 per 5 units) -> [[Layer 1 - Ranking Interventions for a Stratum]].
 - **This estimates the association, not the benefit of weight loss.** A bias-corrected observational

@@ -17,7 +17,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-29
-updated: 2026-08-17
+updated: 2026-08-25
 self_critiqued: 2026-08-17
 ---
 
@@ -279,7 +279,9 @@ risk-of-bias sensitivity analysis**, and it delivers part of that adjudication d
   eﬀect was confirmed in sensitivity analyses including only trials that aimed to reduce saturated
   fat..., that significantly reduced saturated fat intake..., that achieved a reduction in total or LDL
   cholesterol..., or excluding the largest trial (WHI 2006...)» — with the **low-risk-of-bias
-  restriction the exception**: «Analysing including only trials at low summary risk of bias, or using
+  restriction the exception**: (Hooper pools WHI as an SFA-reducing arm; on its *own* primary design WHI
+  was a total-fat->carbohydrate trial that fell far short of its target — the standalone null is on
+  [[Low-Fat Dietary Pattern and Cardiovascular Disease]].) «Analysing including only trials at low summary risk of bias, or using
   Mantel-Haenszel or Peto fixed-eﬀect analysis suggested more marginal protection (Analysis 1.36...).»
   The exact figure for the low-RoB combined-events subset is **not narratively reported** (Analysis
   1.36) — only its direction (weaker).

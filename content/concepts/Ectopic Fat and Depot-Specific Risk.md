@@ -2,14 +2,14 @@
 type: concept
 question: Does WHERE fat is stored (ectopic / intra-organ vs subcutaneous) determine cardiometabolic risk more than total fat mass — and what follows for who is at risk, and for how the risk reverses?
 aliases: [Ectopic Fat, Depot-Specific Risk, Personal Fat Threshold, PFT, Twin Cycle Hypothesis, Fat Overflow Hypothesis, Adipose Expandability, Intra-organ Fat, Metabolically Healthy Obesity, MHO, Subcutaneous vs Visceral Fat, Fat Storage Location]
-authors: [Taylor, Roy; Holman, Rury R; Kramer, Caroline K; Zinman, Bernard; Retnakaran, Ravi]
-sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013]
+authors: [Taylor, Roy; Holman, Rury R; Kramer, Caroline K; Zinman, Bernard; Retnakaran, Ravi; Yusuf, Salim; Anand, Sonia S]
+sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
 cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-22
-self_critiqued: 2026-08-22
+updated: 2026-08-25
+self_critiqued: 2026-08-25
 relationships:
   related_to:
     - Total Diet Replacement and Type 2 Diabetes Remission
@@ -101,8 +101,40 @@ E-independence, because Kramer never measures ectopic fat — metabolic-syndrome
 for the depot biology Taylor describes. The convergence raises confidence in the reframe, not in any shared
 number.
 
+## The hard-outcome instantiation — INTERHEART maps the depot distinction onto MI `type-F`
+
+Taylor and Kramer are glycemic/metabolic-status sources; INTERHEART extends the depot distinction to a
+**hard cardiovascular endpoint** (first acute MI, 27,098 people, 52 countries) and reads the same shape at
+population scale: **abdominal fat harmful, lower-body fat protective, and BMI the wrong instrument.** Top vs
+bottom quintile OR for MI (adjusted for BMI): waist **1.77 (1.59-1.97)** harmful, hip **0.73 (0.66-0.80)**
+protective; waist-to-hip ratio is the single strongest marker (per 1 SD 1.37, 1.34-1.41) while BMI is the
+weakest (1.10, 1.07-1.13) and its whole MI association vanishes after adjusting for WHR (1.44 -> 1.12) then
+the other risk factors (0.98). [@yusuf2005interheart]
+Full effect table and the load-bearing case-control design caveat live at
+[[Waist-to-Hip Ratio and Cardiovascular Risk]].
+
+**Same surrogate chain, one honest framing difference (a distinction, not laundered agreement).** INTERHEART
+calls waist/WHR «simple and crude surrogate measures for visceral obesity, which is probably the key
+determinant of metabolic abnormalities».
+[@yusuf2005interheart]
+Taylor goes one step further and **demotes visceral fat itself to a marker** of intra-organ
+(hepatic/pancreatic) excess, «not pathophysiologically related to adverse metabolic consequences». So the
+two do not fully agree on what the pathogenic depot *is* — INTERHEART stops at visceral-fat-as-key-
+determinant, Taylor pushes past it to intra-organ fat. What they share, from independent endpoints (MI
+events vs glycemic/β-cell biology) and independent author lines (Yusuf's INTERHEART team vs Taylor's
+Newcastle group), is the operative claim one level up: **fat distribution, not BMI, carries the risk, and
+lower-body fat is not merely neutral but protective.** The hip-protective arm is the novel hard-outcome
+facet INTERHEART adds — with the caveat that its case-control design makes that arm the most exposed to
+reverse causation (acute-illness muscle loss).
+[inferred from @yusuf2005interheart; @taylor2015pft]
+
 ## Decision relevance
 
+- **Measure central adiposity (waist/WHR), not BMI, when ranking cardiometabolic risk.** The depot claim
+  now has a hard-CV-outcome instantiation, not only a glycemic one
+  -> [[Waist-to-Hip Ratio and Cardiovascular Risk]]. A normal-weight person with a high WHR is above their
+  personal fat threshold *and* carries elevated MI risk; both lenses point past the scale to fat
+  distribution.
 - **Offer weight loss to normal-weight people with T2D.** They are above their PFT even at BMI <25 — the
   stratum weight-loss remission trials routinely *exclude* (DiRECT required BMI >=27), yet Taylor's data
   show they respond, and at a *smaller* required loss (\~13% at normal BMI vs \~21% for the whole cohort)
@@ -148,6 +180,6 @@ number.
 - **Coherence, not validity (R1):** the spine is internally coherent and source-faithful; no operation here
   grades it against a realized outcome.
 
-[inferred from @taylor2015pft; @kramer2013mho]
+[inferred from @taylor2015pft; @kramer2013mho; @yusuf2005interheart]
 
 ## References

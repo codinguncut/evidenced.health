@@ -2,8 +2,8 @@
 type: framework
 question: For a primary-prevention adult, does a statin help — and does a zero coronary calcium score change that decision?
 aliases: [Statin Primary Prevention, Power of Zero, CAC Zero Statin, Statin CAC, USPSTF Statin, Statin Number Needed to Treat, Statin Deferral]
-authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org); Blumenthal, Roger S]
-sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026]
+authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org); Blumenthal, Roger S; Wood, Frances A; Howard, James P; Francis, Darrel P]
+sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026, Wood - SAMSON Statin Nocebo 2020]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -15,8 +15,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - LDL Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-08-22
-self_critiqued: 2026-08-22
+updated: 2026-08-23
+self_critiqued: 2026-08-23
 ---
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
@@ -196,14 +196,40 @@ a REFUTE from held fabric, not an insufficient-evidence gap.
 - **Scope caveat:** USPSTF flags that harms evidence *specifically in adults 76 years or older is
   limited*, so the reassurance is strongest for the general adult population it was measured in.
 
-**Where the held fabric still stops — the nocebo mechanism (gap).** *No association in blinded trials*
-is compatible with real-world muscle *complaints* being a **nocebo** effect (symptoms driven by
-expectation of harm, not the drug), but the dedicated blinded adverse-event rechallenge evidence for
-that mechanism is not held here — so the nocebo *reading* is a plausible but unconfirmed inference,
-routed to acquire (`[belief-harvest: statin-nocebo]`), not asserted. The belief's core claims are
-refuted by held trial evidence; *why* users nonetheless report symptoms is the open piece.
+**The nocebo mechanism — now held, not a gap `[2026-08-23]`.** *No association in blinded trials* is
+compatible with real-world muscle *complaints* being a **nocebo** effect (symptoms driven by the
+expectation of harm, not the drug), and SAMSON now supplies the dedicated blinded evidence that had
+been routed to acquire — the earlier `[belief-harvest: statin-nocebo]` gap is CASHED. SAMSON is a
+blinded three-group **n-of-1** trial (n=60) in exactly the hard stratum: people who had «previously
+discontinued statins because of side effects» within 2 weeks of starting. Each patient rotated
+month-by-month through atorvastatin 20 mg, placebo, and no-tablet, scoring symptoms daily 0-100.
 
-[inferred from @uspstf2022]
+- **The symptoms are real but not statin-specific.** Mean symptom intensity was 8.0 on no-tablet
+  months, «15.4 during placebo months (95% CI, 12.1 to 18.7; P<0.001 for the comparison with no-tablet
+  months), and 16.3 during statin months (95% CI, 13.0 to 19.6; P<0.001 for the comparison with
+  no-tablet months and P = 0.39 for the comparison with placebo months)». [@wood2020samson]
+  Taking a tablet at all roughly doubled symptom burden over no-tablet (both P<0.001); statin vs
+  placebo was statistically indistinguishable (P=0.39).
+- **The magnitude — the nocebo ratio.** «In patients who had discontinued statin therapy because of
+  side effects, 90% of the symptom burden elicited by a statin challenge was also elicited by
+  placebo.» [@wood2020samson] The pooled nocebo ratio was 0.90
+  (the per-patient analysis gave 2.2 with a wide CI −62.3 to 66.7, driven by small/negative denominators;
+  the pooled reanalysis is the reported estimate).
+- **Decision-relevant downstream.** «Half the trial patients were able to successfully restart
+  statins» — 30 of 60 (50%) six months after the trial. [@wood2020samson]
+  This is a naturalistic restart rate, not a tested intervention: SAMSON did not randomize
+  showing-patients-their-own-data, so the 50% is a downstream observation, and any *rescue-by-feedback*
+  reading is a plausible inference the trial does not isolate.
+
+**Scope guard — SAMSON does NOT contradict the general-adult null; it explains it.** SAMSON's stratum
+is the *symptomatic-intolerant* (already discontinued for side effects), not statin-naive adults, so it
+answers *why these people report symptoms* — the piece USPSTF's population-level null left open — rather
+than restating the null. The two compose: statins do not raise myalgia over placebo in the general
+population (USPSTF), and where an intolerant person nonetheless reports muscle symptoms, \~90% of that
+burden is reproduced by an inert pill (SAMSON). One small n-of-1 trial in a selected stratum: the
+transferable finding is the *mechanism*, not a population effect size.
+
+[inferred from @uspstf2022; @wood2020samson]
 
 
 

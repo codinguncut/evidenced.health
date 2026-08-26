@@ -2,8 +2,8 @@
 type: methodology
 question: For this stratum, what is the largest remediable gap — and can the wiki rank anything yet?
 aliases: [Layer 1 Hierarchy, Intervention Hierarchy, Ranking Interventions, Largest Remediable Gap, What Can Be Ranked]
-authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan]
-sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019]
+authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan; GBD 2019 Risk Factors Collaborators (org)]
+sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019, GBD - 87 Risk Factors 204 Countries 2019]
 cluster: decision-hub
 relationships:
   related_to:
@@ -12,8 +12,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-26
+self_critiqued: 2026-08-26
 ---
 
 **Mostly a compilation.** Every row of the table below is copied from a claim page with its own source;
@@ -574,5 +574,104 @@ tiers Medium and cannot be promoted by baseline risk (plant foods); a lever with
 tiers by the person's baseline risk and so is **stratum-conditional** (blood pressure). Reading a headline
 RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
 benefit (the prevalence-wedge section above) — one level down, at the individual lever.
+
+
+
+## The cross-domain superset arrives — and diet is no longer the #1 population risk `[2026-08-26, GBD-87]`
+
+Every GBD section above is the *diet-only* slice (Afshin 2019, `Knudsen et al. 2025` via NNR). **GBD-87
+is the whole-telos superset**: the same instrument run across **87 environmental, occupational,
+behavioural, and metabolic risk factors** — the full cross-domain big-rocks ordering that no diet-only
+source can produce. In 2019 those 87 risks jointly account for **47.8% (95% UI 45.3-50.1) of global
+DALYs** [@gbd2020rf].
+
+**The Level-2 attributable-DEATH ranking, both sexes, 2019:**
+
+> «For both sexes combined, the leading Level 2 risk factor for deaths was high SBP, accounting for 10·8
+> million (9·51--12·1) deaths in 2019 (19·2% [16·9--21·3] of all deaths that year), followed by tobacco,
+> with 8·71 million (8·12--9·31) deaths (15·4% [14·6--16·2] of all deaths that year).»
+> [@gbd2020rf]
+
+Dietary risks rank **third** — female diet deaths 3.48 million (rank 2 in females), male 4.47 million
+(rank 3 in males, explicitly *below* both tobacco and high SBP), summing to \~7.9 million both-sexes,
+under tobacco's 8.71 million. [@gbd2020rf]
+[inferred from @gbd2020rf]
+
+**This SUPERSEDES the Afshin headline this page reconciled above** — *«suboptimal diet is responsible
+for more deaths than any other risks globally, including tobacco smoking»*. That claim used **GBD 2017
+data** (11 million diet deaths, diet ranked #1); GBD-87 uses **GBD 2019 data** and ranks diet third,
+behind high SBP and tobacco. This is a genuine same-quantity refinement, not the population/individual
+wedge — the parameter table returns YES:
+
+| | Afshin (GBD 2017 data) | GBD-87 (GBD 2019 data) | Same quantity? |
+|---|---|---|---|
+| Metric | GBD Level-2 attributable deaths, global, both sexes | GBD Level-2 attributable deaths, global, both sexes | **YES** |
+| Diet deaths | **11 million — ranked #1, above tobacco** | **\~7.9 million — ranked 3rd, below tobacco (8.71M) and high SBP (10.8M)** | YES |
+
+**The reordering is mostly METHOD, not real-world trend — which is the finding.** GBD-87's own
+discussion states the diet burden was revised **downward** between its two cycles on methodology alone:
+
+> «Compared with GBD 2017, our GBD 2019 estimates of the burden (as measured by percentage of total
+> DALYs) attributable to diet quality in 2017 were 29·7% lower.»
+> [@gbd2020rf]
+
+> «These reductions stem from three major sources: changes in the crosswalks between alternative and
+> reference methods for estimating diet intake, new systematic reviews and meta-regressions, and more
+> empirical standardised methods for selecting the TMREL for protective factors.»
+> [@gbd2020rf]
+
+So the same consortium cut its own diet-burden estimate by \~30% **on modelling choices** (intake
+crosswalks, new meta-regressions, a re-derived optimum for protective factors), and that revision — not
+a change in how people eat — is most of why diet fell from first to third. **This is the concrete
+demonstration of the caution the earlier GBD sections asserted:** a population attributable-burden
+ranking is model-version-sensitive, and its headline order can flip on the estimating body's own
+methodology between cycles. It is a **type-F refinement of the same instrument, NOT independent-E** (one
+consortium updating itself; no independent route corroborates it).
+
+**What the superset CONFIRMS — big rocks first, at population scale.** The cross-domain death ranking is
+dominated by a handful of exposures — high SBP, tobacco, dietary risks, air pollution, high FPG, high
+BMI — and the *rising* ones are metabolic:
+
+> «Many of the increasing risks are metabolic risk factors; in fact, taken together, the exposure to
+> metabolic risks increased 1·37% per year (95% UI 1·17--1·56) from 1990 to 2019 and 1·46% per year
+> (1·26--1·69) from 2010 to 2019.»
+> [@gbd2020rf]
+
+The metabolic cluster (SBP, FPG, BMI, LDL) plus tobacco is exactly the big-rock set the telos names, and
+GBD-87 places it at the top of the population burden from a source with no stake in the wiki's framing.
+It also demonstrates **stratum(age)-dependence** rather than asserting it — the leading risk *moves by
+age band*: «Iron deficiency was the leading risk factor for those aged 10--24 years, alcohol use for
+those aged 25--49 years, and high systolic blood pressure for those aged 50--74 years and 75 years and
+older.» [@gbd2020rf] — the same *"the hierarchy is
+stratum-dependent, not a fixed list"* point the red-meat-rank-by-country instance made, now on the age
+axis.
+
+**What is UNCHANGED — the population/individual wedge still governs, and the binding gap is untouched.**
+GBD-87 reports *attributable burden*, not *individual expected benefit*; the prevalence-wedge parameter
+table from the NNR/Afshin sections above applies to every number here unaltered. And the magnitude
+caveat is if anything sharper for the superset: GBD's relative risks are **borrowed, modelled
+estimates**, not primary effect sizes —
+
+> «(2) Relative risks were estimated as a function of exposure based on published systematic reviews, 81
+> systematic reviews done for GBD 2019, and meta-regression.»
+> [@gbd2020rf]
+
+— so an attributable-burden rank is **never** citable for a per-person effect; the underlying SR is. The
+joint burden further rests on a **multiplicative-RR assumption** with only partial mediation correction
+(non-mediated RRs multiplied; super-multiplicative synergy not captured), and GBD names its own binding
+constraint as *the availability and quality of the primary data*. **None of this supplies the absolute
+per-person effect at a stratum baseline risk that this page's ranked table still lacks** — GBD-87
+broadens the population instrument across all domains without moving the individual-ranking gap an inch.
+
+**One cross-link worth flagging:** GBD-87 relaxed the log-linear RR assumption for diet, kidney
+dysfunction and air pollution and found *«the relative risk functions tend to flatten out at higher
+exposure levels; the previous practice of imposing a log-linear functional form on the risk
+equation... might have led to overestimation»* [@gbd2020rf] — a directional corroboration, from an independent modelling exercise, of the fabric's
+plateau/knee thread (that protective curves flatten and a hidden plateau means over-shooting merely
+fails to help). GBD then set the protective-factor TMREL to the **85th percentile of studied intake**
+[@gbd2020rf] —
+i.e. the apparent optimum tracks the sampling edge, the exact caution of [[The Underivable Optimum]]
+(and the measurement-error driver behind it -> [[Measurement Error in Dietary Assessment]]).
+[inferred from @gbd2020rf]
 
 ## References

@@ -6,8 +6,8 @@ question: 'How does the choice of comparator (replace X with what?) change the e
 sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-10
-self_critiqued: 2026-08-10
+updated: 2026-08-26
+self_critiqued: 2026-08-26
 ---
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
@@ -98,7 +98,12 @@ Two further failures block the comparator before it can be named:
   could be randomised, which is a fact about study design, not about what to eat.
 - **A food's identity drifts under a constant name.** Breeding, processing and reformulation move the
   thing on the plate while the word stays fixed, so evidence attached to a label may not transport to
-  the current exposure. Specify implementations, not labels.
+  the current exposure. Specify implementations, not labels. This is not just tidy
+  practice but a condition for the question to be *well-posed*: a causal effect is defined only against
+  a sufficiently well-defined intervention, and a vague label bundles several *versions of treatment* --
+  weight lost by diet versus by illness, fibre from an isolate versus from the whole food -- whose
+  effects need not agree. Until the version is pinned there is no single effect to estimate.
+ -> [[The Target Trial (Emulation and the Well-Defined Intervention)]]
 
 The specify-the-exposure move is the whole of this section; the verdicts on each category belong to
 their leads:
@@ -140,6 +145,16 @@ flat or diminishing-returns region, and fails on a steep rising arm or below a d
 the larger dose is what clears the outcome and abandonment is the real failure to fix. Which regime
 applies is the floor-and-direction question the region section takes up.
 -> [[Net Effect vs Intended Effect]].
+
+One refinement keeps *adherence is part of the effect* honest, because "the effect" is really two.
+An **as-recommended** estimate -- the effect of *assigning* the swap, adherence and all -- is the
+effectiveness-side quantity, and it is the conservative one for a *benefit* (a swap nobody keeps up
+shows little). But for a **harm** it can mislead in the opposite direction: a near-null as-recommended
+result can hide a real risk concentrated in the fraction who actually take the exposure up, so it is not
+a safety clearance. The discipline is to name *which* effect a figure is -- the effect of being
+recommended the swap, or the effect of making it -- since they answer different questions and, for
+harms, can point opposite ways.
+-> [[The Target Trial (Emulation and the Well-Defined Intervention)]]
 
 This transformation needs one input the wiki does not hold. Adherence-*probability* for a
 given person is thinly evidenced — effectiveness data are sparse — so the wiki names the gap and
@@ -318,6 +333,6 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Last updated** | 2026-08-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
 
 ## References

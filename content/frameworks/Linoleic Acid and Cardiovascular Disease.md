@@ -2,8 +2,8 @@
 type: framework
 question: Do dietary omega-6 linoleic acid (the main fat in bottled seed oils) and its metabolite arachidonic acid raise or lower cardiovascular risk?
 aliases: [Seed Oils, Seed Oil, Vegetable Oils, Omega-6, Omega-6 Fatty Acids, n-6 PUFA, Linoleic Acid, LA, Arachidonic Acid, AA, Omega-6 and Cardiovascular Disease]
-authors: [Marklund, Matti; Lemaitre, Rozenn N; Mozaffarian, Dariush; Riserus, Ulf; Hooper, Lee; Al-Khudairy, Lena; Abdelhamid, Asmaa S; Li, Jun; Guasch-Ferre, Marta; Li, Yanping; Hu, Frank B; Johnson, Guy H; Fritsche, Kevin; Hamley, Steven; Ramsden, Christopher E; Zamora, Daisy; Broste, Steven K]
-sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
+authors: [Marklund, Matti; Lemaitre, Rozenn N; Mozaffarian, Dariush; Riserus, Ulf; Hooper, Lee; Al-Khudairy, Lena; Abdelhamid, Asmaa S; Li, Jun; Guasch-Ferre, Marta; Li, Yanping; Hu, Frank B; Johnson, Guy H; Fritsche, Kevin; Hamley, Steven; Ramsden, Christopher E; Zamora, Daisy; Broste, Steven K; Su, Hang; Liu, Ruijie; Chang, Ming; Huang, Jianhua; Wang, Xingguo]
+sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Su - Linoleic Acid Inflammatory Markers 2017, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
 cluster: dietary-fat
 confidence: low
 relationships:
@@ -16,9 +16,9 @@ relationships:
     - The U-Shaped Association Artifact
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-23
 nosplit: 728@single-exposure framework (one LA/AA->CVD question); length is dated evidence strata + contrarian poles held on one decision, not multiple decisions
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-23
 ---
 
 **Domain opener — the pro-LA biomarker pole of the seed-oils question.** Linoleic acid (LA, 18:2n-6)
@@ -602,7 +602,7 @@ null, but they are underpowered for a subtle effect.
   no in-stratum RCT). [@johnson2012]
 - **Bounded by date — but not superseded within the corpus.** Johnson is 2012; the loud seed-oil
   discourse is 2023-2025, and no *later* dedicated inflammation-marker RCT SR is held here, so the direct
-  test is a decade old. Its *direction* is concordant with everything the corpus has ingested since
+  test is a decade old. `[UPDATE 2026-08-23: Su 2017 (SR-MA) is now the later, quantitative direct test — see the Su subsection below; it pools Johnson's-era + newer RCTs to the same null with CIs.]` Its *direction* is concordant with everything the corpus has ingested since
   (Marklund 2019, Li 2020, Hooper 2018 all post-date it and none find the predicted harm), so it is a
   **bounded, not stale** finding: a newer direct inflammation-RCT SR would be the source that could
   update it. [inferred from @johnson2012]
@@ -616,6 +616,94 @@ preserved (his verbatim «reassurance» wording quoted, the contrast label is th
 «cannot be eliminated») are reported, not buried, and the genetic fast-converter stratum where the null
 may fail is flagged. *Counter-passage:* Johnson's Limitations and Conclusions read end-to-end; the two
 «significant» eicosanoid findings surfaced with their authors' non-inflammatory interpretations.
+
+### Su 2017 — the quantitative RCT-MA that bounds Johnson's null `[2026-08-23]`
+
+Johnson's null was **qualitative** (heterogeneity precluded pooling) and **healthy-only**, and the
+section above flagged that no later dedicated inflammation-RCT SR was held. Su 2017 (SR-MA, *Food &
+Function*, gold) is now that source: **30 RCTs (26 trials), 1377 adults**, higher-LA vs low-LA control,
+pooled as standardized mean differences. It supplies the magnitudes + CIs Johnson could not, and every
+pooled marker is a null (all 95% CIs cross 0):
+
+- **CRP** SMD 0.09 (-0.05 to 0.24) · **TNF** -0.01 (-0.19 to 0.17) · **IL-6** 0.11 (-0.07 to 0.29) ·
+  **fibrinogen** -0.01 (-0.21 to 0.19) · **PAI-1 antigen** -0.16 (-0.51 to 0.18) · **sICAM-1**
+  -0.05 (-0.23 to 0.13) · **sVCAM-1** 0.17 (-0.04 to 0.38) · **sE-selectin** -0.02 (-0.23 to 0.20) ·
+  **sP-selectin** -0.08 (-0.37 to 0.22) · **adiponectin** 0.17 (-0.17 to 0.50) · **MCP-1**
+  0.14 (-0.33 to 0.60). Heterogeneity near zero (I2 \~0% for most), no publication bias (Egger's P all
+  > 0.18). [@su2017la]
+
+> «Our meta-analysis suggested that increasing dietary LA intake does not have a significant effect on
+> the blood concentrations of inflammatory markers. However, the extent of change in dietary LA intake
+> might affect the effect of LA supplementation on CRP.»
+> [@su2017la]
+
+**Parameter table — the BLOCKING same-quantity check (why this is F, not a tension).** Johnson and Su
+answer the *same* question about the *same* markers; they differ only on synthesis mode, precision, and
+population — which is exactly the claim-refinement (F) axis, not a joined-issue clash.
+
+| Parameter | Johnson 2012 | Su 2017 | Same quantity? |
+|---|---|---|---|
+| Question | does feeding LA raise blood inflammatory markers in adults? | identical | YES |
+| Design | qualitative SR, 15 RCTs / 18 comparisons | quantitative SR-MA, 30 RCTs (26 trials), 1377 subjects | same class (RCT SR); Su pools |
+| Population | healthy non-infant free-living ONLY | adults incl. unhealthy (obesity, dyslipidemia, HTN, MetS, CVD-risk, PCOS, PAOD) | NO — Su broader (the refinement) |
+| Endpoint metric | narrative *no significant difference* | pooled SMD (95% CI) per marker | Su quantifies the same endpoints |
+| CRP result | no significant effect (narrative) | SMD 0.09 (-0.05 to 0.24), overall null | YES marker; Su bounds it |
+| TNF / IL-6 / fibrinogen / adhesion mol. | no significant effect | all SMD CIs cross 0 | YES |
+| Verdict | qualitative null | pooled null + CRP-at-high-dose caveat | composite F beats either alone |
+
+**The one honest non-null — CRP at large LA increments (symmetric standards).** The overall CRP pool is
+null, but subgroup + meta-regression surface a dose signal Johnson could not see: above-median
+LA-intake-difference studies showed CRP rising significantly (subgroup SMD 0.20 [0.02, 0.39], P=0.034).
+
+> «However, in studies with a higher (than median) difference in LA intake, blood CRP was significantly
+> increased when LA consumption was increased (P = 0.034). Moreover, meta-regression analysis revealed
+> a positive relationship between the effect size of CRP and difference in LA intake (coefficient: 0.020,
+> 95% CI: 0.003 to 0.038; P = 0.023) (Fig. 5).»
+> [@su2017la]
+
+This is a **within-surrogate** dose caveat, not a hard-outcome harm: the increments driving it (up to
+37.7 g/day LA difference between arms) far exceed typical intake swings, CRP is itself a surrogate
+-> [[Surrogate Outcomes]], and every *other* subgroup (duration, LA source, age, BMI, health status)
+stayed null. Reported here rather than buried — the harm-refutation arm carries its own boundary.
+[@su2017la]
+
+**Population extension — the null now holds in unhealthy adults too (an F-amplify).** Johnson tested
+healthy subjects only; Su's health-status subgroup shows the null holds in BOTH strata (CRP: healthy
+0.10 [-0.17, 0.37] vs unhealthy 0.09 [-0.10, 0.27]), widening the harm-mechanism refutation to the
+obesity / dyslipidemia / MetS strata that carry higher baseline inflammation — the strata where the
+proinflammatory-LA claim is loudest. [@su2017la]
+
+**Type-F, NOT independent-E (author-diff done first, then citation).** Author lists are disjoint (Su,
+Liu, Chang, Huang, Wang [Jiangnan University] vs Johnson & Fritsche) — so the cheapest independence test
+passes. But independence fails on the decisive check: Su **cites Johnson 2012 as its antecedent** (ref
+21), framing itself as the quantitative + population-extended successor
+(*«a systematic review (without meta-analysis)... only studies conducted in healthy subjects were
+included... results were not quantitatively synthesized»*), and the two review **overlapping RCT sets**
+(Su spans 1998-2016, containing Johnson's pre-2012 trials). A meta-analysis that re-pools and cites an
+earlier SR is laundered-E, not genuine convergence — so `[E-independent]` is NOT claimed. Filed **F
+(claim-refinement): Su bounds Johnson's qualitative null with pooled effect sizes, adds the CRP dose
+caveat, and extends the population.**
+[inferred from @su2017la; @johnson2012]
+
+**What this changes for the page (confidence unchanged, arm strengthened).** Page `confidence:` stays
+**low** — that grades the *benefit* direction (no hard-outcome RCT shows LA *lowers* CVD; the case rests
+on observational biomarkers + null surrogates). Su does not touch that; it strengthens the *harm-
+refutation* arm specifically, converting Johnson's qualitative decade-old null into a quantitative,
+bounded, population-extended one. The proposed *LA -> inflammation -> disease* pathway is now refuted at
+its surrogate endpoint with pooled CIs, in healthy and unhealthy adults alike — with a single honest
+caveat (CRP at extreme LA doses). Cashes the omega-6-inflammation belief signal: the lay
+*seed-oils-are-inflammatory* claim does not survive direct RCT-MA testing of the inflammatory markers it
+names. [inferred from @su2017la]
+
+**Self-critique (Su 2017 weave) `[run 2026-08-23, before commit]`.** *Laundered-E:* explicitly blocked
+— author-diff done first, then the decisive ref-21 citation + overlapping RCT sets; filed F, `[E-independent]`
+NOT claimed. *Parameter table:* built before the prose; same-quantity YES on question + markers (the F
+warrant), NO on population + precision (the refinement axis) — no cell left empty. *Overclaim / surrogate
+discipline:* null is a *surrogate* null rebutting the *harm mechanism*, stated as NOT proof of benefit;
+page confidence held at low. *Symmetric standards:* the one non-null (CRP at high dose, P=0.034; meta-
+regression coefficient) is surfaced, not buried, with its extreme-dose boundary. *Counter-passage:* Su's
+discussion + subgroup tables read end-to-end; the CRP dose caveat and the health-status subgroup both
+surfaced from Su's own analysis, not asserted.
 
 ## Mechanism — a case where surrogate and hard outcome AGREE
 

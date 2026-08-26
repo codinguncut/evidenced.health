@@ -6,8 +6,8 @@ question: 'What can and cannot be established about diet-health effects given th
 sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-18
-self_critiqued: 2026-08-18
+updated: 2026-08-26
+self_critiqued: 2026-08-26
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -129,6 +129,15 @@ cohort makes even RR 1.05 significant), not a point-estimate cutpoint. The magni
 credibility *from association alone* is the same GRADE rate-up bar of \~2 (or <=0.5) quoted above -- far
 above where most nutritional exposures sit (red and processed meat at 1.12 and 1.16).
 
+
+Precision and credibility come apart because they answer two different questions the field routinely
+conflates. **Identification** asks whether the causal effect can be written from the data at all -- is
+confounding controlled, the intervention well-defined -- and where it fails, no sample size repairs it:
+the number being estimated is simply not the causal effect. **Estimation** asks how precisely that
+number is pinned, and it is what a confidence interval and a p-value speak to. So a **tight interval is
+silent on identification**: more data narrows the band around a figure that a live confounder may have
+placed off the causal target entirely. Read precision as precision, never as evidence the confounding
+was handled. -> [[Causal Identification (Exchangeability, Positivity, Consistency)]]
 
 Below the bar a cohort association needs triangulation -- Mendelian randomization, a trial, or convergent
 methods -- and *below-2* means insufficient on its own, **never false**
@@ -350,6 +359,6 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Evidence included** | 19 sources — 3 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-08-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
 
 ## References

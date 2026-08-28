@@ -23,7 +23,7 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-08-07
+updated: 2026-08-28
 self_critiqued: 2026-08-07
 ---
 
@@ -152,6 +152,18 @@ anabolic resistance (plausibly *raising* the per-lean-kg requirement). Net-effec
 transport 1.62 g/kg-total to them; (ii) specify which denominator any target uses; (iii) the right
 obese target is *unobserved* here.
 
+
+**Consolidated GAP — a defensible target by stratum, on a named basis (a soft knee is not guidance)
+`[2026-08-28]`.** The number that would change a decision — g/kg, *on which denominator*, for whom — is
+unresolved wherever the person departs from Morton's lean/normal-BMI trained sample: **non-athletes, the
+obese, older adults, and anyone in a caloric deficit**. Two reasons it is a gap and not a finding: 1.62 is
+the CI-midpoint of a *non-significant* knee (p=0.079), so it is not robust guidance even in-sample; and the
+strata that matter are off-support. What is held is stratum-scattered and mostly answers *does protein help*,
+not *what target* — Bauer PROT-AGE, Coelho-Junior, Moore (older adults); Refalo, Kim, Wycherley (deficit);
+Morton/Tagawa (trained adults). The **obese** target on a named basis is the thinnest cell, and a gold SR+MA
+aimed squarely at it is the acquisition that would move this — reported to give a protein amount for preserving
+muscle during weight loss in overweight/obesity; held as a candidate, not a finding, until ingested.
+`confidence: low`
 
 
 ## The independent second opinion — Tagawa's 1.3 g/kg knee (a different quantity, not a contradiction)

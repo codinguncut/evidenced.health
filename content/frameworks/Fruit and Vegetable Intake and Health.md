@@ -2,14 +2,14 @@
 type: framework
 question: Does higher fruit and vegetable intake reduce cardiovascular disease, cancer, and all-cause mortality — for whom, by how much per 200 g/day, with what dose-response shape, and is the benefit uniform across specific types?
 aliases: [Fruit and Vegetable Intake, Fruits and Vegetables, Fruit and Vegetables, F&V Intake, Five a Day, 5 a Day, Ten a Day, Fruit Intake, Vegetable Intake, Fruit and Vegetable Consumption]
-authors: [Aune, Dagfinn; Giovannucci, Edward; Boffetta, Paolo; Fadnes, Lars T; Keum, NaNa; Norat, Teresa; Greenwood, Darren C; Riboli, Elio; Vatten, Lars J; Tonstad, Serena]
-sources: [Aune - Fruit Vegetable Mortality 2017]
+authors: [Aune, Dagfinn; Giovannucci, Edward; Boffetta, Paolo; Fadnes, Lars T; Keum, NaNa; Norat, Teresa; Greenwood, Darren C; Riboli, Elio; Vatten, Lars J; Tonstad, Serena; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela]
+sources: [Aune - Fruit Vegetable Mortality 2017, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017]
 cluster: plant-foods
 nucleus: true
 confidence: low
 created: 2026-08-13
-updated: 2026-08-13
-self_critiqued: 2026-08-13
+updated: 2026-08-28
+self_critiqued: 2026-08-27
 relationships:
   related_to:
     - Nut Consumption and Mortality
@@ -182,5 +182,49 @@ a per-person effect and not a validated projection.
 infrastructure. Any future *consistency across Aune's plant-food MAs* is same-lab **type-F / shared
 lineage**, NOT independent type-E backing -> [[Nut Consumption and Mortality]],
 [[Whole Grains Refined Grains and Pulses]].
+
+## A guidance family sets a recommended range and reports the same shape — NNR2023 `[2026-08-27, NNR revisit]`
+
+NNR2023 converts this observational evidence into an actionable range and, in doing so, reports the same
+dose-response *shape* this page holds from Aune — an F-refinement that turns a single-source dose-response
+page into a guidance-anchored recommendation.
+
+- **The recommended intake:** «It is recommended to consume 500-800 grams, or more, per day of
+  vegetables, fruits and berries in total. A variety of different types of both vegetables and fruits
+  (including berries) should be consumed, with emphasis on dietary fibre contribution (potatoes and
+  pulses are not included).» [@nnr2023] The
+  potatoes-and-pulses exclusion matches Aune's exposure definition (F&V excluding potatoes/legumes).
+- **The shape NNR reports mirrors Aune's:** «The largest reductions in risk are generally seen at the
+  lower intake ranges, but for cardiovascular disease, reductions have been observed up to 800 g of
+  fruits and vegetables per day.» [@nnr2023] —
+  steepest at low intake, CVD benefit extending to \~800 g, the same two features Aune's splines show.
+
+**One mild divergence on where all-cause mortality plateaus.** Aune places the all-cause nadir at
+**800 g/day (10 servings)**; NNR (citing Rosell & Fadnes 2023) reports all-cause mortality «inverse
+associations with all-cause mortality, levelling off at 5-6 servings of fruits and vegetables per day»
+(\~400-500 g). [@nnr2023] Both are drawn off
+observational splines at the thinning edge of the data — a difference in *which underlying MA* set the
+plateau point, not a contradiction about direction (more F&V, lower risk, flattening somewhere in the
+400-800 g region). It sharpens the page's existing caveat that the high-intake flattening may be a
+measurement artifact rather than a located knee.
+
+**Not independent backing, and confidence stays low.** NNR2023 is a guideline synthesis resting on the
+same observational F&V literature (Rosell & Fadnes 2023, WCRF/AICR 2018, Fogelholm 2012, Stanaway 2022 —
+the field Aune's cohorts sit inside), so it does **not** lift the confounding ceiling that caps this
+page: there is still no whole-food F&V RCT on a hard outcome. It confirms *direction and shape* by a
+second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
+[inferred from @nnr2023]
+
+## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
+
+The series separates fruit from vegetables and shows their effects **diverge**. **Fruit** is
+modestly protective across all five outcome families (mortality 0.94, T2D 0.98, CHD 0.94, stroke
+0.90 per 100 g/d). **Vegetables** are protective for mortality/T2D/CVD but read **null for
+hypertension** (1.00, 0.98-1.01) and **null for adiposity** — the source attributes the HTN null
+partly to BMI over-adjustment. Both plateau at \~200-400 g/d.
+[@schwingshackl2017mort]
+[@bechthold2019]
+[@schwingshackl2017htn] Full cross-outcome
+grid -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

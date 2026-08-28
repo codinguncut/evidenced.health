@@ -3,11 +3,12 @@ type: deliverable
 title: Sodium
 aliases: [Sodium Intake, Salt, Dietary Sodium, Salt Reduction, Sodium and Potassium]
 question: 'For an adult deciding what to do about dietary sodium and the coupled potassium: effect of sodium reduction, of raising potassium, and of the Na/K ratio on each patient-important outcome (BP surrogate; CV events + mortality endpoints); dose-response shape across the studied range; variation by stratum (baseline BP, salt-sensitivity).'
-sources: [WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Neal - SSaSS Salt Substitution Cardiovascular 2021, Aburto - Potassium Cardiovascular 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, Afshin - Health Effects of Dietary Risks GBD 2019, GRADE - Handbook, Willett - Nutritional Epidemiology 3e]
+sources: [WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Neal - SSaSS Salt Substitution Cardiovascular 2021, Aburto - Potassium Cardiovascular 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, Afshin - Health Effects of Dietary Risks GBD 2019, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, GRADE - Handbook, Willett - Nutritional Epidemiology 3e]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 ---
 
 **Cutting salt reliably lowers blood pressure. Almost everything past that is less certain.**
@@ -170,8 +171,41 @@ protective-looking or harmful-looking lower arm in observational data is often a
 causation, sick-quitter bias or confounding by frailty, and must survive a referent-correction or a
 genetic check before it is believed -> [[The U-Shaped Association Artifact]].
 
-For sodium that check has not been run. WHO *named* the J-curve as the reason it commissioned its
-review, then never returned to it, and excluded a priori the very strata (heart failure, type 1
+The largest direct test of that lower arm is PURE. Mente pooled 133,118 people across 49 countries
+with more than 10,000 hard events (median 4.2 years) and found a **J-shaped** curve on
+death-plus-cardiovascular-events, its nadir at **4-5 g/day** and risk raised at both ends: below
+3 g/day the risk rose in hypertensive (HR **1.34**, 1.23 to 1.47) and normotensive participants alike
+(HR **1.26**, 1.10 to 1.45), while above 7 g/day the harm appeared **only in hypertensives** (HR
+**1.23**, 1.11 to 1.37) and was null in everyone else (HR 0.90, 0.76 to 1.08)
+[@mente2016pure]. Because
+that high-intake harm concentrates in hypertensives — who consuming above 7 g/day make up only \~11% of
+the studied population — Mente reads the data as a case for **targeting** salt reduction at high-intake
+hypertensives rather than pushing the whole population toward a low-sodium target
+[@mente2016pure].
+
+That targeting conclusion is genuinely contested, not a verbal dispute, and a filed tension turns on
+it -> [[Should Sodium Reduction Be Population-Wide or Targeted]]. Two counters keep PURE from settling
+the question. First, its exposure is a single fasting spot urine run through the Kawasaki formula, and
+a one-day recovery biomarker is least accurate at the extremes — exactly where the J-arms sit — so
+unequal measurement error can bend a flat relationship into a U with no confounder at all; PURE ran
+only weak artifact checks (excluding early events, prevalent disease and medicated participants) and
+neither a referent-correction nor a Mendelian-randomization analysis of the low arm
+[@mente2016pure]. Second, the
+targeting case leans on a premise that blood-pressure lowering helps only above 140 mmHg systolic,
+which the larger BPLTTC evidence contradicts — benefit reaches down to normal pressure and no subgroup
+is harmed -> [[Blood Pressure Lowering and Cardiovascular Events]].
+
+The two literatures also partly measure different things: the population-wide case rests on a
+*randomised reduction* against a *surrogate* (blood pressure), PURE on an *estimated habitual level*
+against *directly observed hard outcomes*, and the disputed low arm sits largely outside the reduction
+trials' range — so the shape clash is smaller than it looks while the policy conflict is exactly as
+large. Where the poles agree is the useful part: for a **hypertensive with high intake**,
+both say reduce. The live disagreement is over the **normotensive at moderate intake (3-6 g/day)**, and
+there the honest state is insufficient evidence on the low arm, not a resolved answer.
+
+For sodium that referent-correction or genetic check has not been run. WHO *named* the J-curve as
+the reason it commissioned its review, then never returned to it, and excluded a priori the very
+strata (heart failure, type 1
 diabetes) where a low-intake harm is most plausible
 [@who2012]. He and Huang *argue* the low arm away as
 measurement error and reverse causation — the right mechanisms — but only as a critique, from
@@ -186,8 +220,8 @@ modelling consortium simply encoded the disagreement as uncertainty:
 > lowest risk of cardiovascular disease in observational studies.»
 > [@afshin2019]
 
-That the blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising intake
-(observational, 4-5 g) point to different optima is precisely what a real J-curve *or* a confounded
+The blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising intake
+(observational, 4-5 g) point to different optima — precisely what a real J-curve *or* a confounded
 one would produce. **Named gap: the wiki holds no Mendelian-randomization or bias-corrected analysis
 that adjudicates the low-sodium arm.** It is unadjudicated, not settled either way.
 
@@ -242,7 +276,7 @@ person gets little absolute benefit from the same switch.
 
 WHO recommends reducing sodium to below **2 g/day** (5 g/day salt) as a *strong* recommendation
 [@who2012]. Treat that number first as the edge of the
-evidence rather than a curve feature: there was no directly-assessed trial of the threshold against a
+evidence rather than a curve feature: no trial directly assessed the threshold against a
 hard outcome, and the claim rests on high-certainty blood-pressure evidence transferred down one
 level plus a handful of indirect cohort comparisons. Which objective set the exact figure
 is not separable from the evidence here, but the achievability load is explicit — typical Western
@@ -296,17 +330,17 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
   baseline blood pressure; do not personalise further — beyond baseline pressure, the effect-
   modification evidence (salt-sensitive responders) does not yet exist.
 - **One axis only.** This weighs health outcomes. Salt substitutes, food-processing choices and
-  population salt policy also carry cost, palatability and equity considerations; those are real and
-  are named here, not priced or netted against the health finding.
+  population salt policy also carry cost, palatability and equity considerations; these are real, and
+  this page names them without pricing them or netting them against the health finding.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding what to do about dietary sodium and the coupled potassium: effect of sodium reduction, of raising potassium, and of the Na/K ratio on each patient-important outcome (BP surrogate; CV events + mortality endpoints); dose-response shape across the studied range; variation by stratum (baseline BP, salt-sensitivity).' |
-> | **Evidence included** | 11 sources — 5 gold, 4 high |
+> | **Evidence included** | 12 sources — 5 gold, 5 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium%20Intake.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
 
 ## References

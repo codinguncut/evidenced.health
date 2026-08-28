@@ -5,7 +5,8 @@ redirect: Dietary Fat Types
 question: 'What does the evidence show about bottled seed oils and their linoleic acid on each patient-important outcome — direction, magnitude, for whom, how certain — what is the effect of replacing another fat with seed oils, and does the omega-6 / oxidation / composition mechanism reach a patient-important outcome? Do processing and heating change the answer?'
 aliases: [Seed Oils, Vegetable Oils, Seed Oil, Vegetable Oil, Linoleic Acid, Omega-6, Omega 6, n-6 PUFA, Soybean Oil, Corn Oil, Sunflower Oil, Safflower Oil, Canola Oil, Are Seed Oils Bad, Seed Oils Inflammation]
 created: 2026-08-04
-updated: 2026-08-12
+updated: 2026-08-27
+concrete_subject_audited: 2026-08-27
 ---
 
 *This page has been folded into [[Dietary Fat]].*

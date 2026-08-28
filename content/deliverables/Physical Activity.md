@@ -6,8 +6,9 @@ aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs
 sources: [Careau - Energy Compensation Adiposity 2021, Celis-Morales - Grip Strength Mortality 2018, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Currier - Resistance Training Prescription NMA 2023, de Santana - Low Muscle Mass Mortality 2021, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Kodama - Cardiorespiratory Fitness and Mortality 2009, Livingston - Dementia Prevention 2024, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Ngandu - FINGER Multidomain Cognitive Decline 2015, Paluch - Daily Steps Mortality 2022, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Sherrington - Exercise Preventing Falls 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, WCRF - Diet Nutrition Activity Cancer 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e]
 confidence: high
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-27
 self_critiqued: 2026-08-17
+concrete_subject_audited: 2026-08-27
 ---
 
 Going from near-zero to modestly active is one of the largest, most certain health levers there is -- the
@@ -63,8 +64,8 @@ The familiar 10,000-step target is a marketing number, not a threshold to clear:
 Japanese pedometer campaign, and the benefit plateaus below it for most adults and well below it for
 the old [@paluch2022]. That is the general caution about
 any activity cut-point. A step or minute threshold most likely marks **where the data thin out, or
-where a round number was chosen** — not a knee in the curve. For all-cause mortality no knee is
-located: the curve is smoothly steepest at the bottom and flattens to a plateau across the studied
+where a round number was chosen** — not a knee in the curve. For all-cause mortality the data locate no
+knee: the curve is smoothly steepest at the bottom and flattens to a plateau across the studied
 range, with no U or J shape and no harmful upper arm at any achievable dose. And total
 volume, not pace, carries the signal — cadence added little beyond step count [@paluch2022].
 
@@ -152,7 +153,7 @@ That separate, independent payoff is the reason to program strength deliberately
 
 [@momma2022]
 
-**Independence makes it additive, not redundant.** Because these are adjusted for aerobic activity, RT and aerobic work stack: **RT plus aerobic gives all-cause mortality RR 0.60 (0.54 to 0.67)** — roughly a 40% reduction versus neither, the best-evidenced activity state [@momma2022]. But weight the warrant honestly: this is **observational, self-reported, very-low-GRADE** evidence — a directionally-robust association, held one tier below the RCT-grade blood-pressure and aerobic levers, not above them [[Muscle-Strengthening Activity and Mortality]].
+**Independence makes it additive, not redundant.** Because these are adjusted for aerobic activity, RT and aerobic work stack: **RT plus aerobic gives all-cause mortality RR 0.60 (0.54 to 0.67)** — roughly a 40% reduction versus neither, the best-evidenced activity state [@momma2022]. But weight the warrant honestly: the evidence here is **observational, self-reported, very-low-GRADE** — a directionally-robust association, held one tier below the RCT-grade blood-pressure and aerobic levers, not above them [[Muscle-Strengthening Activity and Mortality]].
 
 **The dose is small, and a little does most of it.** Momma reports **J-shaped associations for all-cause mortality, CVD and total cancer, with the maximum risk reduction (\~10–20%) at \~30–60 min/week** [@momma2022]; the pooled nadir sits near 40 min/week. Read that as a **wide, imprecise \~30–80+ min/week region** (a constituent study puts the mortality nadir at 82 min/week), not a 40-minute target — on sparse self-reported data the single point is false precision. This is total weekly minutes, not frequency: the curve says nothing about session spacing, so the standard "at least 2 days/week" sits inside the effective region but is not derived from it.
 
@@ -165,7 +166,7 @@ That separate, independent payoff is the reason to program strength deliberately
 
 [@currier2023]
 
-**Minimal effective dose: roughly 2 sets, \~2x/week** captures most of the available gain — a floor, not a located optimum, because Currier coded load and volume categorically and cannot place a knee within either [@currier2023] [[The Underivable Optimum]]. Two honesty caveats bound how far this licenses detailed programming. First, these are **surrogates** (1RM force, muscle size), and the source states outright that their transmission to health outcomes is not in the analysis — strength/MSA carries the mortality signal above, pure hypertrophy is the weakest-evidenced [[Surrogate Outcomes]]. Second, the training stimulus is what a higher protein target acts on in older adults, so RT and protein are complementary inputs to the same adaptation [[Protein Intake for Older Adults]] — that is the extent of the cross-lever, not a nutrition sub-section. Beyond load-for-strength and volume-for-size, protocol choice is preference and adherence, which win the ties.
+**Minimal effective dose: roughly 2 sets, \~2x/week** captures most of the available gain — a floor, not a located optimum, because Currier coded load and volume categorically and cannot place a knee within either [@currier2023] [[The Underivable Optimum]]. Two honesty caveats bound how far this licenses detailed programming. First, these are **surrogates** (1RM force, muscle size), and the source states outright that their transmission to health outcomes is not in the analysis — strength/MSA carries the mortality signal above, pure hypertrophy is the weakest-evidenced [[Surrogate Outcomes]]. Second, a higher protein target acts on the training stimulus in older adults, so RT and protein are complementary inputs to the same adaptation [[Protein Intake for Older Adults]] — that is the extent of the cross-lever, not a nutrition sub-section. Beyond load-for-strength and volume-for-size, protocol choice is preference and adherence, which win the ties.
 
 How much you *move* — aerobic and strength — is one axis. **How much you *sit* is a separate axis with its own signal, and where along the activity range you start changes what a given increment buys** — the next two questions.
 
@@ -317,8 +318,8 @@ allocation of this budget will buy — **weight loss**.
 
 ## What exercise does not do: melt the scale
 
-The one thing the movement budget will not buy is weight loss, and the reason is
-that **the body treats a training-induced calorie deficit as something to close, not
+The one thing the movement budget will not buy is weight loss, because
+**the body treats a training-induced calorie deficit as something to close, not
 to keep.** Careau's doubly-labelled-water landmark (n=1,754 free-living adults)
 measures the leak directly: **energy compensation averages \~28%, so only about
 72% of the calories burned in extra activity actually leave the daily energy
@@ -381,8 +382,8 @@ exercise produced a 6.1% reduc- tion in visceral fat, whereas hypocaloric diets
 showed essen- tially no change» [@recchia2023]. **Exercise reshapes the
 metabolically active depot even when body weight barely moves.**
 
-This is the pivot the section is built to protect: **the weak weight-loss effect
-is not a weak health effect.** Exercise's mortality and cardiometabolic benefit
+**The weak weight-loss effect is not a weak health effect** — that is the pivot the
+section is built to protect. Exercise's mortality and cardiometabolic benefit
 runs through **cardiorespiratory fitness, cardiometabolic function, and
 visceral-fat reduction — pathways that are largely independent of the number on
 the scale.** Compensation offsets the *energy balance* that weight loss depends
@@ -424,7 +425,7 @@ With movement's reach across these outcomes mapped, the last question is not *wh
 
 
 
-Those outcomes do not rank themselves, and where the ceiling sits depends entirely on who is asking. **There is no universal ordering of exercise levers.** Layer 1 ranks by expected effect size x certainty and asks one question — *what is the largest remediable gap in this stratum?* — so the order changes with the person, not with the evidence [[Layer 1 - Ranking Interventions for a Stratum]].
+Those outcomes do not rank themselves, and where the ceiling sits depends entirely on who is asking. **No universal ordering of exercise levers exists.** Layer 1 ranks by expected effect size x certainty and asks one question — *what is the largest remediable gap in this stratum?* — so the order changes with the person, not with the evidence [[Layer 1 - Ranking Interventions for a Stratum]].
 
 - **For the inactive/sedentary person, "just start" dominates every refinement.** The dose-response curve is steepest at the least-active end, so the first hour a week is the largest lever on the whole menu (device-measured total activity, HR 0.34 [0.27-0.43]). Its warrant is a large, consistent *observational* association across harmonised accelerometry cohorts — not a GRADE-HIGH grade (the one HIGH-certainty result in this deliverable is the Cochrane falls estimate); what makes it the safest move is effect size x consistency, not a certified certainty level [[Physical Activity Dose and Mortality]]. While near-total inactivity stands — a named big rock — no question about intensity, split, or modality competes with it; every other exercise decision is second-order until it is pulled.
 - **For the already-active midlife adult, that big lever is spent, so the marginal questions shift.** They move to strength training — an independent mortality-and-function payoff that aerobic minutes do not buy [[Muscle-Strengthening Activity and Mortality]] — and to intensity and allocation. These are real but smaller levers, now competing among themselves rather than against inactivity.
@@ -435,7 +436,7 @@ Those outcomes do not rank themselves, and where the ceiling sits depends entire
 **What the evidence does not settle — named as absence, not as a direction:**
 
 - **The per-unit-time fitness magnitude for higher-intensity vs moderate work is not held.** That intervals raise cardiorespiratory fitness somewhat faster per minute is directional; the *size* of that per-minute advantage, and whether it carries into a hard outcome, the deliverable does not have. Direction only, no magnitude.
-- **"Functional fitness" is not held as a distinct construct.** What the term would name — mobility, staying upright, independence — is already carried by the falls, frailty and sarcopenia pages; there is no separate evidence base for it, and treating it as one would double-count.
+- **"Functional fitness" is not held as a distinct construct.** The falls, frailty and sarcopenia pages already carry what the term would name — mobility, staying upright, independence; there is no separate evidence base for it, and treating it as one would double-count.
 - **Overtraining and CNS fatigue are consensus and coaching lore, not patient-outcome evidence.** The wiki holds no appraisal of either against a measured health outcome. That is a named gap, not a finding in either direction.
 - **General adverse events of exercise are systematically under-reported in trials.** Outside the well-studied osteoporosis/fracture case, trials record benefits far more completely than harms, so an apparently clean safety profile reflects in part what was measured, not what occurred — a streetlight gap. The deliverable names it and does not fill it.
 

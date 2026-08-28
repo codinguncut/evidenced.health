@@ -2,8 +2,8 @@
 type: framework
 question: How much saturated fat, replaced by what, and how confident is that?
 aliases: [SFA, Saturated Fatty Acid Intake, SFA Replacement, Dietary Fat Recommendations, WHO SFA Guideline, 10% Energy Threshold]
-authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017]
+authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven; Nordic Council of Ministers (org)]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023]
 cluster: dietary-fat
 nucleus: true
 confidence: medium
@@ -17,9 +17,9 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-08-17
+updated: 2026-08-27
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
-self_critiqued: 2026-08-17
+self_critiqued: 2026-08-27
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -730,5 +730,27 @@ level-contrast read as if it were the randomised change). *No new tension filed*
 already exists and is not re-adjudicated here. *Counter-passage:* the RCT side is represented at its
 strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
 the mortality nulls both sides share, not on suppressing the events signal.
+
+## A guidance family ties trans-fat control to the SFA ceiling — NNR2023 `[2026-08-27, NNR revisit]`
+
+The Nordic Nutrition Recommendations 2023 add a fourth guidance body to the SFA <10 E% consensus and
+supply the trans-fat position no source on this page carried (previously only WHO's line was held).
+NNR states «Intake of SFA should be less than 10 E% in the general population. The intake of trans
+fats should be as low as possible and will be ensured by complying with total SFA intake below 10
+E%.» [@nnr2023]
+
+- **SFA 10 E% — a fourth non-independent body, already-owned cell.** NNR's <10 E% ceiling matches
+  WHO's and ESC's; it rests on the same qSR/Cochrane base (Hooper, Reynolds) already appraised here,
+  so it is guidance-family agreement, **not** independent backing — **no `[E-independent]` tag**, and
+  it does not raise `confidence`. Noted only to record the fourth body agreeing.
+- **Trans fat — the NEW cell (an ALARA position tied to the SFA target).** NNR frames trans-fat
+  control as *as-low-as-possible* (ALARA), operationalized as a **corollary of SFA compliance**
+  rather than a separate numeric cap. This is at least as strict as WHO's <1 E% trans-fat limit and
+  does not contradict it — but it is a different instrument: WHO sets a numeric ceiling, NNR sets no
+  free-standing trans-fat number and treats the SFA ceiling as the enforcement mechanism.
+- **Counter-passage check.** NNR sets no trans-fat number of its own to disagree with WHO's <1 E%;
+  the two are consistent (not-joined check (i): ALARA and a <1 E% cap predict the same *reduce-toward-
+  zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
+  choice to fold trans fat into the SFA message), not a substantive disagreement.
 
 ## References

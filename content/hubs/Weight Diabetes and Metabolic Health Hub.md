@@ -28,6 +28,17 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - [[Weight Cycling and Cardiometabolic Risk]] — whether "yo-yo" dieting itself harms, and whether fear
   of it should deter attempting weight loss (confounding-caveated; the signal is in normal-weight
   body-image dieters, not obese patients — so not a reason to avoid trying)
+- [[Chronic Kidney Disease and Modifiable Exposures]] — the CKD-prevention NUCLEUS: ranks the three
+  modifiable levers (obesity, diet, physical activity) by effect x certainty. Obesity top and
+  non-substitutable; diet next (He: healthy pattern OR 0.69, Western OR 1.86); PA weakest (Seidu:
+  RR 0.91, GRADE very-low, prediction interval crosses 1). Configuration NOT convergence — three
+  unlike exposures, not mutual corroboration; all observational; route-(a) absolute benefit largest in
+  diabetic/hypertensive/high-BMI strata
+- [[Obesity and Chronic Kidney Disease Risk]] — obesity predicts NEW-ONSET CKD (Garofalo MA, 39
+  cohorts / 630k): obesity -> low eGFR RR 1.28, albuminuria 1.51; overweight null; effect persists in
+  metabolically-healthy obese (direct renal-hemodynamic path). Kidney joins CVD/cancer/liver as an
+  organ the same weight lever protects; the RR is partly mediator-adjusted, so it under-states the
+  total prevention benefit. Onset is in scope; progression is the prescriber boundary
 
 ## Is any diet superior for weight loss?
 

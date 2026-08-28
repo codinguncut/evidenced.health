@@ -2,11 +2,12 @@
 type: deliverable
 title: Alcohol
 question: 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?'
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-20
-self_critiqued: 2026-08-20
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 ---
 
 *Is a drink good for me?* has no single answer, because alcohol affects different organs
@@ -34,9 +35,9 @@ against what later became of anyone who drank.
 
 ## Does a little drinking protect? The low-dose arm across mortality, stroke, and brain
 
-The single most-repeated alcohol claim — that a little is better than none — is the first thing to
-test, because settling it changes how every outcome below reads. It rests on one shape in
-the observational data: risk lowest at a low-but-non-zero dose, higher at zero and higher again above.
+One belief about alcohol outranks every other: that a little beats none. Test it first, because
+settling it changes how every outcome below reads. The belief rests on one shape in the
+observational data: risk lowest at a low-but-non-zero dose, higher at zero and higher again above.
 The low-dose segment — the *lower arm* — is the fragile part, and whether it is real decides how every
 outcome below reads.
 
@@ -105,20 +106,20 @@ reaching the same verdict.
 
 ## Effect and dose-response shape, outcome by outcome
 
-With the low-dose arm adjudicated as artifact, the per-outcome picture is not one curve but
-several — and their shapes differ. Each outcome below is its own card: read its direction,
+With the low-dose arm adjudicated as artifact, each outcome traces its own curve, and the shapes
+differ. Each outcome below is its own card: read its direction,
 magnitude, and dose-response shape separately, keep the four evidence-states (harm / no
 meaningful effect / benefit / insufficient) apart, and let no single card's threshold govern
 another.
-One recurring trap to name up front: where a harm becomes statistically *detectable* is an edge of
+One recurring trap: the dose at which a harm becomes statistically *detectable* marks an edge of
 the evidence base, not a level below which the exposure is safe. This page gives doses in grams
 of ethanol (1 standard drink = 10 g) with the drink equivalent.
 
 ### All-cause mortality — harm above a sex-specific dose, no net benefit below
 
-There is no net low-dose benefit — the apparent J-curve is an abstainer-bias / sick-quitter artifact
-(established above; the adjudicated estimate is null, not the raw 0.86). What the updated pooled
-analysis adds is where harm becomes *detectable*, and it is sex-specific:
+Low-dose drinking buys no net benefit — the apparent J-curve is an abstainer-bias / sick-quitter
+artifact (established above; the adjudicated estimate is null, not the raw 0.86). The updated pooled
+analysis adds where harm becomes *detectable*, and that dose is sex-specific:
 
 - **Pooled:** significant elevation begins at **45-64 g/day (\~4.5-6.5 drinks), RR 1.19 (95% CI
   1.07-1.32)**, rising to **1.35 at >=65 g/day**; the 25-44 g/day band is null (1.05, ns).
@@ -149,8 +150,8 @@ from zero with no protective lower arm**:
 
 [@millwood2019]
 
-This is causal harm (state HARM), rising across the whole studied range. It does not carry a
-threshold: there is no low-dose level shown to be exempt. Blood pressure here is a *surrogate* —
+The stroke harm is causal (state HARM) and rises across the whole studied range. No low-dose level
+has been shown exempt: the curve carries no threshold. Blood pressure here is a *surrogate* —
 a marker on the causal pathway, not the outcome itself; it counts because its transmission to hard
 vascular outcomes is well evidenced, never as a harm in its own right (a marker moved is not a life
 lost). -> [[Surrogate Outcomes]]
@@ -172,7 +173,8 @@ nor softens the no-safe-level verdict, which rests on cancer's harm from zero, n
 
 ### Coronary heart disease / MI — the honest boundary (insufficient)
 
-This is a **separate card from stroke** — "alcohol harms the heart" must not collapse the two. For
+Coronary disease is a **separate card from stroke** — "alcohol harms the heart" must not collapse
+the two. For
 myocardial infarction the genetic estimate is **null: RR 0.96 (95% CI 0.78-1.18) per 280 g/week,
 p=0.69** — «little net effect». The case count was limited, and the authors caution that «some real
 benefit or hazard cannot be excluded», with any BP harm possibly «offset by cardio-protective
@@ -187,25 +189,45 @@ cancer/stroke harms do not erase this open question.
 ### Cancer — monotone from zero, no lower threshold
 
 Alcoholic drinks are an IARC Group 1 (established) human carcinogen, and WCRF grades alcohol a cause
-of cancers of the mouth/pharynx/larynx, oesophagus, breast, colorectum, liver and stomach. The
-shape here **differs from mortality**: there is no dose below which risk is absent.
+of cancers of the mouth/pharynx/larynx, oesophagus, breast, colorectum, liver and stomach. Cancer's
+shape **differs from mortality's**: risk is present at every dose, with no floor below which it
+disappears.
 
 «Even small amounts of alcoholic drinks can increase the risk of some cancers – there is no level of
 consumption below which there is no increase in the risk of at least some cancers.»
 [@wcrf2018ter]
 
-Breast cancer shows **no threshold**. The site-specific figures — colorectal from \~30 g/day
-(\~2 drinks), liver and stomach from \~45 g/day (\~3 drinks) — are the **edge of the graded evidence
-base, not safe levels**: they mark where the data thin out, below which risk still accrues.
+That "at least some cancers" hides a site-by-site split, and a gold dose-response meta-analysis resolves
+it. Bagnardi pooled 572 studies (486,538 cancer cases) across 23 sites and found the no-threshold shape
+holds for a specific set, not for every cancer -> [[Alcohol and Cancer Risk]]. At three sites risk is
+already significantly raised at light drinking (\~1 drink/day, <=12.5 g ethanol): female breast RR 1.04
+(95% CI 1.01-1.07), oral cavity and pharynx 1.13 (1.00-1.26), and oesophageal squamous-cell carcinoma
+1.26 (1.06-1.50) — the curve climbs from the first drink. Bagnardi states it directly: «alcohol drinking
+was associated with cancer of the oral cavity and pharynx, oesophagus (SCC) and female breast even at low
+doses.»
+[@bagnardi2014]
+
+At other sites the light-drinking estimate sits at unity — colorectum RR 0.99 (0.95-1.04), stomach 0.99
+(0.92-1.06) — and risk becomes detectable only at moderate or heavy intake, so those curves are shallower
+or start higher, a threshold-like shape. Heavy drinking then multiplies the aerodigestive sites
+severalfold (oral cavity and pharynx RR 5.13 (4.31-6.10), oesophageal SCC 4.95 (3.86-6.34)).
+[@bagnardi2014]
+
+So *no safe threshold* is **site-specific, not uniform** — and that resolution keeps the overall verdict
+intact rather than softening it: because the breast and aerodigestive sites carry no floor, no level of
+drinking is safe for cancer as a whole, even though other sites need moderate-or-heavy intake before their
+risk resolves. WCRF's own gram-figures line up with the same split: colorectal from \~30 g/day (\~2 drinks),
+liver and stomach from \~45 g/day (\~3 drinks) mark the **edge of the graded evidence base, not safe
+levels** — where the data thin out, below which risk still accrues.
 [@wcrf2018ter]
 
-A genuine protective association exists for kidney cancer (up to \~30 g/day) but is «far outweighed
+Kidney cancer shows a genuine protective association (up to \~30 g/day), but it is «far outweighed
 by the increased risk for other cancers» — a single-site benefit inside a net-harmful whole-organism
 ledger (net-effect rule, not a reason to drink).
 [@wcrf2018ter]
 
-**This card governs the cross-outcome reading:** because cancer risk starts at the first drink, the
-mortality "45 g/day" figure can never be read as a whole-body safe level.
+**The cancer card governs the cross-outcome reading:** because cancer risk starts at the first
+drink, the mortality "45 g/day" figure can never be read as a whole-body safe level.
 
 ### Cognition and dementia — harm at heavy midlife intake
 
@@ -233,12 +255,12 @@ and consolidates both with the other named gaps later.
 
 ## The active axis: total ethanol, drinking pattern, or beverage type?
 
-The previous section indexed every effect to *average volume* — grams of ethanol per week. That
-is the dominant axis: total ethanol drives the stroke, cancer, and mortality gradients, and it does so
-regardless of what the drink is. But volume is not the whole story. Two further axes are live — *how* the
-same weekly total is spread across sessions, and *what* beverage delivers it. This section asks whether
-either does independent work, and it holds a favourable-beverage story to exactly the bar the harm claims
-had to meet.
+The previous section indexed every effect to *average volume* — grams of ethanol per week. Average
+volume is the dominant axis: total ethanol drives the stroke, cancer, and mortality gradients, and it
+does so regardless of what the drink is. But volume is not the whole story. Two further axes are live —
+*how* the same weekly total is spread across sessions, and *what* beverage delivers it. The rest of this
+section asks whether either does independent work, holding a favourable-beverage story to exactly the bar
+the harm claims had to meet.
 
 ### Drinking pattern — a real second axis at fixed volume
 
@@ -249,7 +271,8 @@ interval: 1.24, 1.70)» [@roerecke2010],
 with I²=53.9%. Concentrating a week's drinks into heavy sessions raises heart-disease risk at the *same*
 weekly total.
 
-Two features make this robust rather than another J-curve artifact. The contrast excludes abstainers and
+Two features keep this finding robust rather than another J-curve artifact. The contrast excludes
+abstainers and
 former drinkers, so «it is unlikely that a sick-quitter effect ... influenced our findings»
 [@roerecke2010] — the
 misclassification that dissolved the protective lower arm does not apply here. And non-differential
@@ -268,16 +291,16 @@ into one or two heavy sessions — a lever available even to someone unwilling t
 ### Beverage type: the red-wine / resveratrol story, tested and failed
 
 The remaining candidate axis is *beverage type* — the *French paradox* claim that red wine's benefit
-lies not in ethanol but in a polyphenol, resveratrol. This is a favourable-beverage story, so under
-symmetric standards it gets the same scrutiny as the harm claims: it is a testable component claim, and
-it was tested. Semba's InCHIANTI cohort (783 adults 65+, 9-year follow-up) measured resveratrol
+lies not in ethanol but in a polyphenol, resveratrol. The resveratrol story is a favourable-beverage
+claim, so under symmetric standards it earns the same scrutiny as the harm claims: a testable component
+claim, and Semba tested it. Semba's InCHIANTI cohort (783 adults 65+, 9-year follow-up) measured resveratrol
 *directly* — 24-hour urinary metabolites rather than a wine-drinking questionnaire — and found «total
 urinary resveratrol metabolite concentration was not associated with inflammatory markers, cardiovascular
 disease, or cancer or predictive of all-cause mortality. Resveratrol levels achieved with a Western diet
 did not have a substantial influence on health status and mortality risk»
 [@semba2014].
 
-The collinearity trap is visible in the same data. Urinary resveratrol tracks wine intake: the «Spearman
+The same data expose the collinearity trap. Urinary resveratrol tracks wine intake: the «Spearman
 correlation between alcohol consumption in grams per day and total urinary resveratrol metabolite
 concentrations was 0.67 (P < .001)» [@semba2014], and
 the biomarker is «a valid biomarker of wine consumption»
@@ -285,12 +308,12 @@ the biomarker is «a valid biomarker of wine consumption»
 largely measuring *ethanol* under a polyphenol label — the component collects the credit that belongs to
 the drink carrying it.
 
-What this establishes, and what it does not — symmetric standards cut both directions. Semba is a single
-moderate-tier cohort, a labelled-weak null counterweight, and no gold-tier resveratrol-outcome
-meta-analysis exists, so it does not settle wine's merits by authority. What it does do is **refute a
-folklore inference**: at the doses a drinker actually reaches, the presumed active component does no
-measurable work, so *drink-red-wine-for-the-resveratrol* is removed. It is **not** evidence that wine is
-worse than other drinks, and it does not rule out a supraphysiologic *supplement* dose (100-1000x
+Symmetric standards cut both ways here, so separate what Semba establishes from what it does not. Semba
+is a single moderate-tier cohort, a labelled-weak null counterweight, and no gold-tier
+resveratrol-outcome meta-analysis exists, so it does not settle wine's merits by authority. It does
+**refute a folklore inference**: at the doses a drinker actually reaches, the presumed active component
+does no measurable work, so *drink-red-wine-for-the-resveratrol* is removed. It is **not** evidence that
+wine is worse than other drinks, and it does not rule out a supraphysiologic *supplement* dose (100-1000x
 dietary — a different exposure, untested here). The wine-specific benefit is unmeasured-or-absent — a
 claim that was tested and failed, not a proven wine-harm and not a proven wine-benefit.
 
@@ -298,11 +321,11 @@ claim that was tested and failed, not a proven wine-harm and not a proven wine-b
 
 That leaves the sharper question the fabric cannot answer: at *matched grams of ethanol*, does wine
 differ from beer or spirits on a hard outcome? No meta-analysis compares beverage types at equal ethanol
-on mortality, stroke, or cancer. This is a **named gap, not a null**, and the wiki does not rank drinks
-on it. What the evidence supports is narrow and holds: whatever ethanol does it does regardless of the
+on mortality, stroke, or cancer. It stays a **named gap, not a null**, and the wiki does not rank drinks
+on it. The evidence supports something narrow but firm: whatever ethanol does, it does regardless of the
 glass; the pattern lever is real; and the one beverage-specific benefit anyone tested came back empty.
 
-These per-person and within-drinker axes scale up to a population question — and it is there the
+These per-person and within-drinker axes scale up to a population question — and there the
 appraisal meets published guidance.
 
 ## Population scale and the guidance clash
@@ -317,7 +340,7 @@ Move from the individual drinker to the population and a second kind of evidence
 
 **These are population counts, not per-person risks.** A PAF answers *how many cases across a population would not have occurred under lifetime abstention* — prevalence combined with relative risk — not the risk faced by one drinker. It is therefore **not commensurable** with the cohort risk ratios in the per-outcome section: those size an individual's change in risk; these size a national case load. Rumgay borrows its underlying RRs from WCRF's cancer review and GBD from its own re-meta-analysis, so the four figures here add magnitude and reach, not effect sizes to line up against the earlier RRs.
 
-**Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. The gap is not a defect on either side but a difference in standpoint: population guidance optimizes an average outcome under communicability and safety-at-scale constraints, while the individual reads the same evidence against personal baseline risk and preferences. That framing load exists and runs toward guidance permitting more than a population-minimizing rule would; this appraisal records its existence and direction and does not price it.
+**Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. Neither side is in error; they stand in different places. Population guidance optimizes an average outcome under communicability and safety-at-scale constraints, while an individual reads the same evidence against personal baseline risk and preferences. This pressure runs toward guidance permitting more than a population-minimizing rule would; the appraisal names that it exists and which direction it runs, and stops short of pricing it.
 
 ## Confidence, and where this could be wrong
 
@@ -328,7 +351,7 @@ leans on Mendelian randomization (MR: genetic variants standing in for lifetime 
 reverse causation), and MR carries assumptions that can fail. So the strength of the finding does not
 buy it certainty; the two are priced independently.
 
-Four things specifically could move the picture:
+Four things could still change the read here:
 
 - **The genetic evidence is one study in one population.** Millwood's MR rests on the ALDH2 rs671
   variant, common in East Asians and rare in Europeans, so the genetic instrument transports
@@ -358,13 +381,13 @@ Four things specifically could move the picture:
 
 - **Open loop.** This wiki grades internal coherence and fidelity to its sources — never whether a
   recommendation actually improves outcomes in the world. A clean appraisal is not a validated result.
-- **Appraise, do not prescribe.** This is a general, population-level appraisal, not medical advice;
-  selecting a target, screening for individual contraindications (pregnancy, liver disease, medication
-  interactions, dependence), and managing them are prescriber acts requiring information this document
-  does not hold.
+- **Appraise, do not prescribe.** This page is a general, population-level appraisal, not medical
+  advice. Selecting a target, screening for individual contraindications (pregnancy, liver disease,
+  medication interactions, dependence), and managing them are prescriber acts, and they need
+  information this document does not hold.
 - **A general appraisal, applied per person.** Your sex, baseline cardiovascular and cancer risk,
   drinking pattern, dependence history, and realistic alternative decide the individual weighting.
-  Where alcohol *ranks* is itself stratum-dependent: for a heavy or binge-pattern drinker it is a
+  Alcohol's *rank* is itself stratum-dependent: for a heavy or binge-pattern drinker it is a
   **big rock** — one of the few large, high-certainty levers — that dominates the ranking until it is
   addressed; for someone who barely drinks it is a small remaining lever, and reporting *that ceiling*
   — that there is little left to gain here — is itself the result, not a failure to find one.
@@ -380,9 +403,9 @@ Four things specifically could move the picture:
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?' |
-> | **Evidence included** | 10 sources — 4 gold, 5 high, 1 moderate |
+> | **Evidence included** | 11 sources — 5 gold, 5 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Semba (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
 
 ## References

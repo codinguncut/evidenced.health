@@ -2,8 +2,8 @@
 type: framework
 question: What does dairy do to cardiometabolic outcomes (all-cause mortality, CVD events, type-2 diabetes) once you stop treating dairy as one undifferentiated food — by category (milk vs cheese vs butter vs fermented) and by fat content — and how much of any signal is confounding artifact?
 aliases: [Dairy and Health, Milk and Mortality, Dairy and CVD, Dairy and Type 2 Diabetes, Milk and Cardiovascular Disease, Full-Fat Dairy]
-authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org)]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023]
+authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org); Schwingshackl, Lukas; Bechthold, Angela]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
 cluster: dairy
 nucleus: true
 confidence: medium
@@ -21,7 +21,7 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-08-25
+updated: 2026-08-28
 self_critiqued: 2026-08-25
 ---
 
@@ -282,5 +282,18 @@ channel, not a demonstrated one.
   Dehghan — no `[E-independent]`); (iii) discounted for the Dairy-Farmers-of-Canada / National-Dairy-
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
+
+## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
+
+The series places dairy as a **cardiometabolic-marker lever, not a mortality lever**: inverse for
+T2D (0.97, 0.94-0.99 per 200 g/d, MODERATE) and hypertension (0.95, 0.94-0.97, LOW), but **null for
+all-cause mortality** (0.98, 0.93-1.03), null for CHD/stroke, and **positive for heart failure**
+(1.08, 1.01-1.15). Low- vs high-fat dairy showed no significant difference for these endpoints. The
+T2D/HTN benefit not carrying through to mortality is the divergence to hold onto.
+[@schwingshackl2017t2d]
+[@schwingshackl2017htn]
+[@schwingshackl2017mort]
+[@bechthold2019] Full grid
+-> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

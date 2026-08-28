@@ -2,14 +2,14 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org)]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-20
-self_critiqued: 2026-08-20
+updated: 2026-08-27
+self_critiqued: 2026-08-27
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -260,6 +260,11 @@ independent route, so the page's `[E-independent]` convergence (Stockwell ∥ Mi
 The cross-outcome pattern — no protective arm survives on mortality, stroke, dementia, *or* cancer — is
 the wiki's synthesis, not WCRF's claim. [inferred from @wcrf2018ter]
 
+**The per-drinker site-specific dose-response** (which cancers, at what dose, with light-drinking risk
+for aerodigestive sites and breast) lives on [[Alcohol and Cancer Risk]] — Bagnardi 2014's gold
+dose-response MA quantifies WCRF's qualitative grades into RRs by site, and pairs with Rumgay's burden
+leg (below) as the effect x burden composite.
+
 
 
 ## A distinct axis — drinking PATTERN, holding volume fixed `[Roerecke 2010]`
@@ -399,5 +404,32 @@ threshold*.
   observational meta-analysis is what carries it.
 - Coherence, not validity (R1): the causal read rests on the MR assumptions (instrument validity, no
   pleiotropy — Millwood checks the latter via women as a negative control).
+
+
+
+
+## A guidance family has abandoned the moderate-drinking position — NNR2023 `[2026-08-27, NNR revisit]`
+
+The Nordic Nutrition Recommendations 2023 give the guidance-family read that matches this page's
+verdict: no protective floor is granted, and abstention is the reference. NNR's recommendation is
+that «NNR2023 recommends avoiding alcohol intake. If alcohol is consumed, the intake should be very
+low.» [@nnr2023] The warrant is the
+threshold claim this page's artifact-verdict rests on — its science advice states «No safe lower
+limit for alcohol consumption has been established.»
+[@nnr2023], reached «since no threshold
+for safe level of alcohol consumption has currently been established for human health»
+[@nnr2023].
+
+- **Classification: guidance-family agreement (Layer-1 attribution), NOT independent backing.** NNR
+  is a guideline synthesis resting on the same evidence base already on this page — GBD's *safest
+  level is none*, WCRF/IARC's no-safe-threshold-for-cancer, and the standard cohort/MR literature —
+  so it does **not** raise confidence the way an independent method would. **No `[E-independent]`
+  tag.** Its value is that a national/regional guidance body has, in its current cycle, dropped the
+  moderate-drinking-is-fine position — the guidance null on this question now *agrees with* the
+  fabric rather than opposing it.
+- **Counter-passage check.** NNR states no protective exception (no cardioprotective carve-out for
+  moderate intake), so there is no divergence to file; the position is fully aligned. It is a
+  population-standpoint recommendation (guidance divergence class 1) framed as harm-minimization,
+  consistent with the artifact read of the lower J-curve arm.
 
 ## References

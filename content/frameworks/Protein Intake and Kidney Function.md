@@ -13,11 +13,12 @@ relationships:
     - Protein Intake During Energy Restriction
     - Dietary Protein and Mortality
     - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
+    - Obesity and Chronic Kidney Disease Risk
     - Surrogate Outcomes
     - The Estimate-to-Action Gap
     - Rating Certainty of Evidence
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-27
 self_critiqued: 2026-08-07
 ---
 

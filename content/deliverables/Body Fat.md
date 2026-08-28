@@ -6,8 +6,9 @@ question: 'For an adult across the body-fat range: what is the effect of body-fa
 sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Ge - Named Diets Weight Cardiovascular Network MA 2020, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-17
+updated: 2026-08-27
 self_critiqued: 2026-08-17
+concrete_subject_audited: 2026-08-27
 ---
 
 **Excess body fat is a big rock — one of the largest modifiable levers on health — but where the
@@ -138,8 +139,8 @@ from where the level sits across people to what modifying it does within a perso
 
 ## Separate the hard outcomes losing fat does move from the ones it does not
 
-The intuitive claim -- losing weight prevents heart attacks -- was tested head-on for the
-lifestyle route in the largest, longest trial of its kind, and it failed. Look AHEAD randomized
+The largest, longest trial of its kind, Look AHEAD, tested the intuitive claim -- losing weight
+prevents heart attacks -- head-on for the lifestyle route, and it failed. It randomized
 **5,145 overweight or obese adults with type 2 diabetes** to an intensive lifestyle programme or to
 diabetes support and education, and followed a composite of cardiovascular death, heart attack,
 stroke, and hospitalized angina. **The lifestyle arm did not lower cardiovascular events** -- hazard
@@ -206,14 +207,14 @@ metabolic disease put into reverse -- and it is dosed by the kilograms lost.
 
 ## Bank the metabolic wins that scale with kilograms lost
 
-Where the cardiovascular endpoint stayed null, **type 2 diabetes remission is the benefit weight loss
-plainly moves**. DiRECT delivered an energy-restricted total-diet-replacement programme in routine
+Where the cardiovascular endpoint stayed null, **weight loss plainly moves type 2 diabetes
+remission**. DiRECT delivered an energy-restricted total-diet-replacement programme in routine
 primary care. It put **46% of short-duration diabetes into remission off all glucose-lowering drugs at
 12 months, against 4% on standard care** (odds ratio 19.7, 95% CI 7.8 to 49.8), on a mean 10.0 kg
 loss, with a measured quality-of-life gain.
 [@lean2018]
 
-The jewel is the **dose-response**. Pooling both trial arms, remission at 12 months climbs with the
+The **dose-response** is the jewel. Pooling both trial arms, remission at 12 months climbs with the
 weight held off: **none of those who gained weight, 7% at 0 to 5 kg, 34% at 5 to 10 kg, 57% at 10 to
 15 kg, and 86% at 15 kg or more** -- «Remission varied with weight loss in the whole study
 population». [@lean2018] The curve is monotone across the
@@ -221,7 +222,7 @@ studied range with **no visible plateau below 15 kg**; whether it flattens above
 It is a within-population association, so responder confounding is live -- people who lose more may
 differ biologically -- not the randomized contrast.
 
-**The operative variable is the weight lost, not the carbohydrate cut.** DiRECT reaches remission on a
+**Weight lost drives remission, not the carbohydrate cut.** DiRECT reaches remission on a
 formula diet that is 59% carbohydrate -- the opposite of low-carb -- so carbohydrate restriction is
 **not necessary** for it -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]]. And a low-carb
 route's remission and weight advantages both fade to null by 12 months as the weight advantage fades (weight
@@ -253,8 +254,8 @@ Two boundaries keep the claim honest:
   supports. [@taylor2015pft]
   [inferred from @taylor2015pft]
 
-The depot that both explains the ectopic-risk story and gives the cleanest dose-response ladder is the
-liver -- the bridge from where fat sits to what losing it buys.
+The liver both explains the ectopic-risk story and gives the cleanest dose-response ladder -- the
+bridge from where fat sits to what losing it buys.
 
 ## Read the fatty-liver ladder as the model dose-response for ectopic fat
 
@@ -352,9 +353,9 @@ Two honesty notes bound what this licenses.
   lever -> [[The U-Shaped Association Artifact]]
   [inferred from @wcrf2018ter].
 
-Having established *which* hard outcomes fat loss moves and where its evidence is open, the remaining
-question is *how* the loss is achieved — the routes differ on the hard endpoints, not just on
-convenience.
+Fat loss moves some hard outcomes, and for others the evidence stays open — that much is settled.
+How the loss is *achieved* is the next question, and the routes differ on the hard endpoints, not
+just on convenience.
 
 ## Choose the loss route by what it does to the visceral depot and to muscle
 
@@ -436,8 +437,8 @@ might quietly reduce protein intake and cost lean mass -- a loss the trialists s
 vehicle matters: how you open the deficit changes what tissue you lose.**
 
 None of these lifestyle routes, though, has ever shown a reduction in hard cardiovascular events. **The
-highest-certainty hard-CV benefit of the fat lever comes from neither diet nor exercise, but the drug
-route.**
+drug route, not diet or exercise, delivers the highest-certainty hard-CV benefit of the fat
+lever.**
 
 ## Weigh the drug route where it earns hard outcomes -- and where it does not
 
@@ -462,7 +463,7 @@ reduction of about 1.5 percentage points over 3.3 years, or roughly one event av
 treated
 [inferred from @lincoff2023].
 
-This is the first demonstration that treating obesity with a drug moves a patient-important
+SELECT is the first trial to show that treating obesity with a drug moves a patient-important
 cardiovascular endpoint -> [[Semaglutide for Cardiovascular Risk in Obesity]]. **But the trial enrolled
 only people with established cardiovascular disease.** The trialists say so plainly: «The effects of
 semaglutide on primary prevention of cardiovascular events in persons with overweight or obesity but
@@ -511,7 +512,7 @@ deviations less appendicular muscle than those who survived (SMD -0.18, 95% CI -
 signal was not merely a shadow of weakness -- it «cannot be completely explained by differences in muscle
 strength» -- and grew *stronger* at higher BMI, the sarcopenic-obesity pattern [@santana2021].
 
-**But this is a predictor, not a proven target.** No trial shows that *raising* muscle mass lowers
+**But low muscle mass is a predictor, not a proven target.** No trial shows that *raising* muscle mass lowers
 mortality; every study here is observational, and lean mass is itself a surrogate for function, which was
 never measured. Low muscle may simply mark an underlying decline. So muscle preservation is worth
 pursuing for function, independence and sarcopenia -- and carries an associational mortality rationale --
@@ -545,7 +546,7 @@ settles whether it lasts -- and the body defends the fat it shed.
 
 ## Design for durability because the body fights regain
 
-**The folk model reads regain as a failure of resolve.** The mechanistic alternative is that the body
+**The folk model reads regain as a failure of resolve.** The mechanism tells a different story: the body
 actively defends the weight it lost. After a diet, appetite-regulating hormones shift toward eating and
 storage -- leptin (satiety) down, ghrelin (hunger) up, the satiety peptides suppressed. The finding
 that matters is that **these shifts still persist a full year later, after regain has already begun**. The
@@ -635,7 +636,7 @@ requiring a person's labs, medications and history.
 - **Estimates are population-level; stratify per person.** The effect sizes are stated for reference
   classes, not for you. Absolute benefit tracks baseline risk, and the weighting of competing outcomes is
   elicited per case, not supplied here.
-- **One health axis only.** This weighs longevity, healthspan, function and absence of deficiency. It
+- **One health axis only.** This cut weighs longevity, healthspan, function and absence of deficiency. It
   holds no environmental, ethical, cost or scalability data and does not price those trade-offs; where one
   exists, it is named, not netted against the health finding.
 

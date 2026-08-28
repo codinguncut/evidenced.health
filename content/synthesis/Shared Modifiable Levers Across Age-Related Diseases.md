@@ -2,12 +2,12 @@
 type: synthesis
 question: Do the major age-related diseases share their modifiable risk factors — so that pulling one common set of big-rock levers prevents several at once — and where does that logic break?
 aliases: [Shared Levers Across Diseases, Do Age-Related Diseases Share Their Levers, Common Modifiable Levers, One Regimen Many Diseases, Multi-Outcome Levers]
-authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org)]
-sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018]
+authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org); Aune, Dagfinn; Marques-Couto, Pedro]
+sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-13
-self_critiqued: 2026-08-13
+updated: 2026-08-27
+self_critiqued: 2026-08-27
 relationships:
   related_to:
     - Body Fatness and Cancer Risk
@@ -20,6 +20,8 @@ relationships:
     - Knee Osteoarthritis and Modifiable Levers
     - Chronic Pain and Physical Activity
     - Lifetime Benefit - The Frame for Younger Adults
+    - Cataract and Modifiable Exposures
+    - Age-Related Macular Degeneration and Modifiable Exposures
   derived_from:
     - Dementia Prevention and Modifiable Risk Factors
     - Parkinsons Disease Modifiable Risk Factors
@@ -84,6 +86,27 @@ Project cited here **does not grade tobacco** — its scope is diet, nutrition, 
 so it only *acknowledges* smoking as background, never as a graded exposure. The cell records the
 well-established external fact, not a WCRF finding; the WCRF-graded cancer levers in this table are body
 fatness, alcohol and physical activity.
+
+**Physical activity now reaches a fifth disease family — age-related eye disease — but disease-specifically.**
+PA → **cataract** is graded WCRF *probable* (RR 0.90, 0.86–0.94) — another protective cell for the
+workhorse lever, on the *same* WCRF matrix as the cancer column
+([[Cataract and Modifiable Exposures]]). But its stablemate PA → **AMD** did **not** reach significance
+(RR 0.92, CI 0.84–1.01 crosses 1; graded *limited, no conclusion* —
+[[Age-Related Macular Degeneration and Modifiable Exposures]]). So even *within one organ* the shared
+lever does not transfer uniformly — a within-family instance of the same "the logic breaks
+disease-specifically" caution the Parkinson's exception makes below. Both estimates are observational
+(Aune/Jayedi lab, F-not-E vs the other Aune MAs), discounted for healthy-user confounding (cataract
+E-value 1.46). [@aune2026vision]
+
+The lever-specificity cuts the other way too. Where PA *fails* on AMD, a **different** lever — the
+Mediterranean-diet pattern — reaches significance for AMD *progression* (prospective-cohort HR 0.77,
+0.67–0.88; case–control OR 0.66, 0.54–0.81; cross-sectional null), though on observational,
+gold-by-design-only evidence discounted for healthy-user confounding
+([[Age-Related Macular Degeneration and Modifiable Exposures]]). These are a *different exposure* than
+PA, so this is a distinction, not a tension — but it sharpens the caution: "shared levers" is doubly
+disease-**and**-lever-specific — not every big-rock lever reaches every disease, and the lever that
+reaches one disease need not be the one that reaches its organ-neighbour.
+[@marquescouto2025]
 
 ## Where the logic breaks — Parkinson's is the exception, and it is instructive
 

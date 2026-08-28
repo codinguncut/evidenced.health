@@ -2,11 +2,12 @@
 type: deliverable
 title: Dietary Fat
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
 confidence: medium
 created: 2026-08-17
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 ---
 
@@ -15,7 +16,7 @@ aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascul
 The lay question is *what fats should I eat?* The evidence answers a narrower one: **what you swap a fat *for*** — and what food carries it, and who is eating it. Appraise the swap, never the fat in a vacuum.
 
 - **What you replace a fat with decides its effect.** A saturated-fat cut into more refined carbohydrate is a different exposure from the same cut into polyunsaturated oil, and the two do not carry the same sign.
-- **Type, not total amount, is the lever the evidence supports.** How *much* fat you eat has no held outcome evidence here — it is a named gap; how the fat is *composed* does.
+- **Type, not total amount, is the lever the evidence supports.** The single largest RCT of cutting total fat found no cardiovascular benefit; how the fat is *composed* is what moves the outcome.
 - **Replacing saturated fat with unsaturated fat modestly cuts cardiovascular events and does not change how long you live** — the evidence is strongest for the polyunsaturated swap, thinner and mostly observational for the monounsaturated one.
 - **The events benefit is real but modest, and sensitive to trial quality** — said plainly here, not buried.
 - **Removing industrial trans fat is the single clearest, least-contested action** in the whole picture.
@@ -26,7 +27,7 @@ The most load-bearing of these is the first. So start where the sign is set: **w
 
 ## Replace saturated with unsaturated to set the sign
 
-The outcome is a property of the **replacement**, not of saturated fat on its own. Rank the swaps two ways and they agree. By how much they lower LDL cholesterol per 1% of energy exchanged: **polyunsaturated -0.055, monounsaturated -0.042, carbohydrate -0.033 mmol/L**, high certainty, and the lowering held down to a saturated-fat intake of 2% of energy — below the studied range there is no data [@who2023saturated]. And by guideline strength: **replacing with polyunsaturated fat is a strong recommendation; with plant monounsaturated fat, or with fibre-bearing carbohydrate, only conditional** [@who2023saturated]. The polyunsaturated swap wins on both counts — largest lipid effect and the firmer recommendation.
+The **replacement** sets the outcome, not saturated fat on its own. Rank the swaps two ways and they agree. By how much they lower LDL cholesterol per 1% of energy exchanged: **polyunsaturated -0.055, monounsaturated -0.042, carbohydrate -0.033 mmol/L**, high certainty, and the lowering held down to a saturated-fat intake of 2% of energy — below the studied range there is no data [@who2023saturated]. And by guideline strength: **replacing with polyunsaturated fat is a strong recommendation; with plant monounsaturated fat, or with fibre-bearing carbohydrate, only conditional** [@who2023saturated]. The polyunsaturated swap wins on both counts — largest lipid effect and the firmer recommendation.
 
 **_Cut saturated fat_ without naming the replacement is half an instruction** — [[Better than What]] is the load-bearing question, not the fat in isolation.
 
@@ -63,15 +64,26 @@ Type of fat therefore moves cardiovascular events modestly and mortality not at 
 
 ## Target the type, not the total amount
 
-The lever the evidence supports is **which** fat, not **how much** fat. The fabric holds no page
-linking total fat as a share of energy (total-fat-%E) to cardiovascular events or all-cause mortality
--- it is a **named gap**. No direction is inferred here: the evidence does not say a low-fat plate
-beats a higher-fat one, nor the reverse. What the fabric does hold is graded evidence about
-**composition** -- replacing saturated fat with unsaturated fat modestly moves events and does not move
-mortality (see [[Saturated Fat Intake and Replacement]]). (the wiki's own statement of an
-absence -- no held total-fat-%E -> outcome source)
+The lever the evidence supports is **which** fat, not **how much** fat -- and the largest randomized
+test of cutting total fat says so directly. The WHI Dietary Modification trial randomized 48,835
+postmenopausal women to a low-fat pattern -- total fat cut toward 20% of energy, the displaced calories
+replaced mainly by carbohydrate (more grains, fruit, and vegetables) at constant body weight -- and over
+a mean 8.1 years found **no significant effect on coronary heart disease (HR 0.97, 95% CI 0.90-1.06),
+stroke (HR 1.02, 0.90-1.15), or total cardiovascular disease (HR 0.98, 0.92-1.05)**
+[@whi2006]. This is a
+**no-meaningful-effect on the tested contrast**, a result and not missing data.
 
-So a low-fat-vs-higher-fat quantity target is not the decision the evidence can settle; the **swap**
+Read the null precisely -- it bounds the *amount* axis, not fat *quality*. WHI moved total-fat
+*quantity* and replaced it with refined starch; it was not a saturated-fat-to-unsaturated swap, and its
+authors say so: «The trial is not a test of the dietary guidelines currently recommended for prevention
+of CVD ... [that specify] replacement of saturated and trans fat with monounsaturated and
+polyunsaturated fat» [@whi2006]. So the
+one large RCT of the quantity lever lands on no cardiovascular benefit, while the fabric's graded
+evidence on **composition** stands untouched -- replacing saturated fat with unsaturated fat modestly
+moves events and does not move mortality (see [[Saturated Fat Intake and Replacement]],
+[[Low-Fat Dietary Pattern and Cardiovascular Disease]]).
+
+So a low-fat-vs-higher-fat quantity target is not what the evidence recommends chasing; the **swap**
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
 
@@ -87,7 +99,7 @@ LDL step is a **directionally meaningful** one: it points the right way, on a va
 exemplar rather than a marker-of-convenience.
 
 But direction is not magnitude, and a **diet**-induced LDL-C change is not interchangeable with a
-**drug**-induced apoB change. The clearest demonstration is a double-blind trial where the surrogate
+**drug**-induced apoB change. A double-blind trial demonstrates this most clearly -- the surrogate
 moved and the outcome did not: replacing saturated fat with corn-oil linoleic acid lowered serum
 cholesterol -13.8% versus -1.0% in controls, yet produced **no mortality benefit** (CHD mortality
 1.13, all-cause 1.07) [@ramsden2016]. The causal
@@ -101,7 +113,7 @@ given cholesterol mass, so **apoB is the number to measure**, and a raised trigl
 index is a cheap prompt to draw it -> [[LDL ApoB and Cumulative Exposure]]. Genetic evidence sharpens
 the point: entered together, only apoB retains a robust effect on coronary disease (OR 1.92,
 1.31-2.81) while the LDL-C estimate reverses to null
-[@richardson2020]. The lesson is a
+[@richardson2020]. Read this as a
 **caution against over-reading the marker**: the surrogate is firmer than the hard-event evidence it
 stands in for, so a moving LDL number is a well-warranted signal, not a proven averted event.
 
@@ -245,7 +257,7 @@ under-states the real particle burden** and apoB becomes the number to trust
 [@ference2017] -> [[LDL ApoB and Cumulative Exposure]]. A raised triglyceride-glucose (TyG) index — «a reliable surrogate marker of insulin
 resistance» [@liu2022tyg] — flags that stratum cheaply.
 
-There is even a boundary **inside** a fat class: the body makes
+A boundary runs even **inside** a fat class: the body makes
 its own even-chain saturated and monounsaturated fat, so «Biomarkers generally perform poorly for fatty
 acids that can be produced endogenously, including even-chained saturated and monounsaturated fatty
 acids» [@willett], while trans fat and the omega-3s,
@@ -255,8 +267,8 @@ answer.
 
 ## Name what the evidence structurally cannot show
 
-Diet is measured by asking people, and the error is large enough to be the dominant fact about almost
-any fat dose-response. Self-report **compresses the exposure range from both ends** — «those who
+Researchers measure diet by asking people, and the error is large enough to be the dominant fact about
+almost any fat dose-response. Self-report **compresses the exposure range from both ends** — «those who
 consumed considerably less than the average were more likely to overreport intake, while those who ate
 more than the average tended to underreport» [@willett] — which flattens any real gradient. The asymmetry is the usable part: flat-slope compression can
 **hide a knee but never manufacture one**, so a null or monotone fat curve is weak evidence of no
@@ -267,13 +279,14 @@ linoleic acid, essential and non-synthesizable, the tissue level is a genuine in
 error-laden questionnaire and the biomarker agree
 [@li2020]. For even-chain saturated and
 monounsaturated fat, de novo synthesis blends intake with carbohydrate and energy status, and the
-escape is shut. So the honest inventory: a **total-fat dose-response is barely estimable**, total-fat
-share of energy and plant omega-3 (ALA) are genuine named gaps, and whether the cardiovascular signal is
-saturated-fat **harm** or polyunsaturated **benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
+escape is shut. So the honest inventory: the **total-fat dose-response *shape* is barely estimable** (the
+one large RCT tested a single fat->carbohydrate reduction, not a curve), plant omega-3 (ALA) is a genuine
+named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
+stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
 ## Act on the substitution a low-risk eater can sustain
 
-The move that survives every one of these uncertainties is a **substitution**, not a target. Shift the
+A **substitution** survives every one of these uncertainties, not a target. Shift the
 fat mix from saturated toward **whole-food unsaturated fats** — nuts, seeds, olive oil, fish, fatty
 plants — and remove **industrial trans fat**. That decision is right whether the eventual cause is
 saturated-fat harm or unsaturated-fat benefit, and it depends on none of the open attributions above.
@@ -297,9 +310,9 @@ evidence does not offer.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?' |
-> | **Evidence included** | 18 sources — 8 gold, 8 high, 1 weak |
+> | **Evidence included** | 19 sources — 8 gold, 9 high, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
 
 ## References

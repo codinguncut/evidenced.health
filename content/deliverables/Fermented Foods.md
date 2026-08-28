@@ -7,8 +7,9 @@ authors: [Wastyk, Hannah C; Zhang, Kui; Guo, Jing; World Gastroenterology Organi
 sources: [Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Wastyk - Fermented Foods Microbiota Immune RCT 2021, WGO - Probiotics and Prebiotics Global Guideline 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-12
+updated: 2026-08-27
 self_critiqued: 2026-08-12
+concrete_subject_audited: 2026-08-27
 ---
 
 The honest verdict is that live-fermented foods carry a real but small and mechanistically unresolved
@@ -88,8 +89,8 @@ so-called full-fat-dairy paradox: a favourable cardiovascular signal despite the
 composes with the case that saturated fat is the wrong exposure to track
 -> [[Is the Food Category Doing Any Work]]. But the aggregate oversells, in three ways.
 
-- **The signal is on disease incidence, not death.** The favourable pooled estimate is carried by CVD
-  *incidence* (OR 0.80, 95% CI 0.72-0.89), while CVD mortality (OR 0.94, 95% CI 0.80-1.11), stroke
+- **The signal is on disease incidence, not death.** CVD *incidence* carries the favourable pooled
+  estimate (OR 0.80, 95% CI 0.72-0.89), while CVD mortality (OR 0.94, 95% CI 0.80-1.11), stroke
   (0.87, 0.75-1.01) and coronary heart disease taken alone (0.85, 0.67-1.08) all cross 1
   [@zhang2019].
 - **The studies disagree wildly with each other.** Heterogeneity was extreme (I2 = 94.0%)
@@ -131,12 +132,12 @@ the held evidence cannot close.
 
 ## No study here tests whether the cultures have to be alive
 
-This is the question the popular account treats as answered and the evidence leaves open. A fermented
+The popular account treats this question as answered; the evidence leaves it open. A fermented
 food differs from its unfermented parent in three separable ways, and they license different actions:
 the *live cultures* (viable microbes reaching the gut), the *food matrix* (the substrate itself), and
-the *biochemistry* fermentation performs (which survives pasteurization). The clean way to separate
-them is to compare a live-culture ferment against a pasteurized-after-fermentation version with the
-cultures killed — and **neither held source runs that experiment**
+the *biochemistry* fermentation performs (which survives pasteurization). To separate them cleanly,
+compare a live-culture ferment against a pasteurized-after-fermentation version with the cultures
+killed — and **neither held source runs that experiment**
 [inferred from @wastyk2021].
 Until it is run, *fermented foods work because of the
 probiotics* is a mechanism hypothesis, not a finding, and a probiotic-viability / pasteurized-comparison
@@ -170,8 +171,8 @@ tied to named strains, not to eating live-culture yogurt -> [[Gut Microbiome and
 
 Kimchi, sauerkraut, kombucha and kefir have essentially no hard-outcome human evidence. That is the
 *insufficient-evidence* state — not yet studied enough to say — and it is distinct from *no effect*:
-the honest move is to name the gap, not to manufacture a benefit from mechanism or tradition, and not
-to dismiss the foods either
+name the gap; do not manufacture a benefit from mechanism or tradition, and do not dismiss the foods
+either
 [inferred from @wastyk2021].
 Two more specific gaps sit alongside it: a yogurt/fermented-dairy-to-type-2-diabetes dose-response
 meta-analysis, the candidate second hard-ish endpoint for fermented dairy, is not yet held; and the live-versus-pasteurized review

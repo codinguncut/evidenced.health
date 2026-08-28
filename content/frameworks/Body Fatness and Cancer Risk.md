@@ -7,7 +7,7 @@ sources: [WCRF - Diet Nutrition Activity Cancer 2018]
 cluster: cancer-prevention
 confidence: low
 created: 2026-08-05
-updated: 2026-08-13
+updated: 2026-08-27
 self_critiqued: 2026-08-05
 relationships:
   related_to:
@@ -15,6 +15,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Weight-Loss Maintenance and Metabolic Adaptation
     - Fatty Liver MASLD and Weight Loss
+    - Obesity and Chronic Kidney Disease Risk
     - Physical Activity Dose and Mortality
     - The U-Shaped Association Artifact
     - Red and Processed Meat and Cancer

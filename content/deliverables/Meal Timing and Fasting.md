@@ -8,8 +8,9 @@ authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Asso
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-12
+updated: 2026-08-27
 self_critiqued: 2026-08-12
+concrete_subject_audited: 2026-08-27
 ---
 
 **When you eat is a smaller lever than almost anyone selling it believes.** In the trials that hold
@@ -74,7 +75,7 @@ of the long fast before the blood draw, but a harm-direction finding all the sam
 RCT, at matched calories, found **no** between-arm metabolic advantage -- a direct disconfirming
 constraint on the eTRF signal, not shielded from it.
 [@liu2022] Net practical read: if you
-run a window, putting it early is the better-supported bet, but the support is weak
+run a window, put it early -- the better-supported bet, but the support is weak
 -> [[Surrogate Outcomes]].
 
 
@@ -104,8 +105,8 @@ The window can add a specific harm the scale hides. In TREAT (Lowe 2020), the we
 did shed was disproportionately lean tissue: «Of this, 1.10 kg (approximately 65% of weight lost) was
 lean mass; only 0.51 kg of weight loss was fat mass», against a normal 20-30% lean share, with a
 significant between-group appendicular-lean deficit (-0.47 kg, 95% CI -0.82 to -0.12, P = .009).
-[@lowe2020] The leading explanation is not the
-clock itself but **protein**: a short ad-libitum window quietly under-feeds it, and the loss did not
+[@lowe2020] **Protein**, not the
+clock itself, is the leading explanation: a short ad-libitum window quietly under-feeds it, and the loss did not
 reproduce in Liu, which supplied a daily protein shake. Protein was randomised in neither trial, so this
 is a candidate cause, not a proven one.
 [inferred from @lowe2020; @liu2022]
@@ -130,8 +131,8 @@ more». [@lean2018] The operative variable is kilograms
 lost, on a 59%-carbohydrate formula -- so the lever is the depth and durability of the deficit, not the
 macronutrient mix and not any fasting schedule -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
-The counterweight belongs in the same breath: where the deficit's value is *not* established is on hard
-cardiovascular events -- the largest lifestyle-weight-loss trial, Look AHEAD, found no significant
+A counterweight belongs here: the deficit's value is *not* established on hard
+cardiovascular events. The largest lifestyle-weight-loss trial, Look AHEAD, found no significant
 between-arm reduction in cardiovascular events, so remission and glycaemia are the outcomes that carry
 this lever, not a promise about the heart -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
@@ -149,7 +150,7 @@ intervention, and the wiki holds no human trial reporting its effect on any pati
 That is the *insufficient-evidence* state, not a null -- neither the enthusiast's promise nor the
 skeptic's dismissal follows from silence. The popular case rests on **autophagy** (a cellular-recycling
 process) and on longevity signals from animals; but in live humans no held source measures autophagy
-against a patient-important outcome, so it stays a *mechanism*, never a result -- a human-autophagy /
+against a patient-important outcome, so autophagy stays a *mechanism*, never a result -- a human-autophagy /
 longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic multi-day low-calorie
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
@@ -175,8 +176,8 @@ the harm side of the ledger.
   [@montani2015cycling] For an obese person,
   fear of yo-yoing is not a good reason to avoid attempting loss -> [[Weight Cycling and Cardiometabolic Risk]].
 
-Those three are harms of a deficit in general. The harm that is specific to a long *fast* is a
-**sign-flip in the wrong person**: for a generally-healthy adult the schedule is a refinement, but in
+Those three are harms of a deficit in general. A long *fast* adds one harm the others do not: a
+**sign-flip in the wrong person**. For a generally-healthy adult the schedule is a refinement, but in
 specific strata a multi-day fast can turn a neutral-or-modest effect into net harm -- the *sign*, not
 just the size. The fabric holds no evidence to bound the flip, so name the axis and stop: **on
 glucose-lowering medication or with type 1 diabetes** (the hypoglycaemia axis); **with advanced liver

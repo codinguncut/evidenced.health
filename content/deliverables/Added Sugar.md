@@ -6,8 +6,9 @@ question: 'For an adult deciding how much added/free sugar and how many sugar-sw
 sources: [WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, Moynihan - Effect of Sugars on Dental Caries 2014, Te Morenga - Dietary Sugars and Body Weight 2013, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-12
+updated: 2026-08-27
 self_critiqued: 2026-08-12
+concrete_subject_audited: 2026-08-27
 ---
 
 The famous limit on sugar was written to protect your teeth. When the World Health Organization tells
@@ -26,7 +27,7 @@ form the appetite barely registers, so the strongest and most consistent signals
 attach to sugary beverages, not to sugar stirred into solid food.
 
 **Four expert bodies looked at overlapping evidence and all said the same direction -- less is better --
-while disagreeing on the number and the reason.** That disagreement is the honest state of the evidence,
+while disagreeing on the number and the reason.** Their disagreement is the honest state of the evidence,
 not a failure of any one body.
 
 ## Guidelines regulate free sugars, not all sugar
@@ -122,20 +123,20 @@ design from both the review and the guideline
 ## Dental caries carries the number, on evidence with no trial behind it
 
 Caries is a genuine patient-important outcome, not a surrogate, and it is what the threshold protects.
-What earns the moderate certainty rating is consistency: «42 out of 50» child studies and «5 out of 5»
+Consistency earns the moderate certainty rating: «42 out of 50» child studies and «5 out of 5»
 adult studies reported at least one positive sugar-caries association
 [@moynihan2014].
 And caries is the one outcome with a clean curve feature: WHO observed «a positive log-linear dose-
 response relationship between free sugars intake and dental caries ... at free sugars intakes well below
 10 kg/person/year (i.e. <5% of total energy intake)»
 [@who2015] -- risk keeps rising down into the sub-5% region, so
-there is no threshold below which sugar stops damaging teeth, only diminishing absolute stakes.
+sugar never stops damaging teeth at any level, and only the absolute stakes diminish.
 
 But the evidence base is unusual. **No RCTs met the inclusion criteria for children; no RCTs or
 longitudinal cohorts for adults**
 [@who2015].
 Certainty reached moderate only by an *upgrade for large effect size* off the observational floor
--> [[Upgrading Observational Evidence]]. A magnitude does exist in the underlying review -- a
+-> [[Upgrading Observational Evidence]]. The underlying review does contain a magnitude -- a
 cross-design pooled SMD for decayed/missing/filled teeth of 0.82 (0.67 to 0.97)
 [@moynihan2014] --
 but the guideline reports no pooled caries estimate at all.
@@ -176,9 +177,9 @@ consistent with the isocaloric null above -- sugary drinks harm because they add
 liquid calories, the same energy story extended past body weight to diabetes and hypertension
 [inferred from @qin2020].
 And this is association, not effect: the authors caution the analyses are cohort-only, with residual
-confounding that «cannot be ruled out» -> [[The Observational-Trial Discordance]]. The reverse-causation
-flag is that *artificially*-sweetened drinks carry a similar-sized positive association (T2D 1.15,
-obesity 1.21, mortality 1.06), consistent with diet soda being chosen by the already-at-risk
+confounding that «cannot be ruled out» -> [[The Observational-Trial Discordance]]. *Artificially*-sweetened
+drinks carry a similar-sized positive association (T2D 1.15, obesity 1.21, mortality 1.06) -- a
+reverse-causation flag, consistent with diet soda being chosen by the already-at-risk
 [@qin2020]
 -> [[Non-Sugar Sweeteners]].
 
@@ -231,8 +232,8 @@ excludes whole fruit and includes fruit juice
 [@efsasugars2022]
 
 Read direction and number separately -- they behave differently. All four bodies point one way (less is
-better), so there is no disagreement about *direction*. What diverges is where a number attaches and on
-what warrant, and that divergence is itself the finding: where guidance families place thresholds
+better), so they do not disagree about *direction*. The bodies diverge on where a number attaches and
+on what warrant, and that divergence is itself the finding: where guidance families place thresholds
 differently on the same evidence, the evidence does not determine the number
 -> [[Which Objective Moved This Recommendation]].
 
@@ -273,8 +274,8 @@ The obvious next move -- use non-sugar sweeteners to hit the limit -- gets a qua
 that non-sugar sweeteners not be used as a means of achieving weight control or reducing the risk of
 noncommunicable diseases (conditional recommendation)»
 [@who2023nonsugar].
-This is a *suggestion against on low-certainty evidence*, not a demonstration of harm, and it excludes
-people with existing diabetes
+The recommendation is a *suggestion against on low-certainty evidence*, not a demonstration of harm,
+and it excludes people with existing diabetes
 [@who2023nonsugar].
 The reasoning that matters for the sugar decision: the comparator sets the effect. Sweeteners lower
 weight only when they *displace* sugar, and the benefit shrinks toward null the closer the trial gets to

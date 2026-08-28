@@ -7,12 +7,13 @@ authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org)
 sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013, Wastyk - Fermented Foods Microbiota Immune RCT 2021]
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-11
+updated: 2026-08-27
 self_critiqued: 2026-08-11
+concrete_subject_audited: 2026-08-27
 ---
 
 The gut microbiome gets invoked for almost everything: immunity, mood, weight, autoimmune disease,
-*leaky gut*, *candida*. The honest picture is narrower than the marketing, and more useful. The
+*leaky gut*, *candida*. The evidence tells a narrower story than the marketing, and a more useful one. The
 microbiome is genuinely modifiable and genuinely matters in a handful of well-defined places. In most
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
@@ -20,8 +21,9 @@ are present — that no one ever follows through to an outcome a person can feel
 ## The bottom line
 
 - **The biggest dietary lever on your microbiome is fermentable fibre — and that is already the
-  fibre recommendation.** Eat roughly 25-30 g/day from a plant-diverse diet
-  ([[Dietary Fibre and Health]]); *feed your microbiome* and *eat enough fibre* are the same
+  fibre recommendation.** Eat plenty of fibre from a plant-diverse diet — the general fibre
+  intake target ([[Dietary Fibre and Health]], where the floor and its studied-range caveat are
+  stated); *feed your microbiome* and *eat enough fibre* are the same
   instruction. (Diet is one modulator among several the evidence names, medication being another; the
   ranking of fibre as the top *dietary* lever is the wiki's synthesis.)
 - ***It altered the microbiome* is a surrogate, not a health benefit.** Almost every microbiome study
@@ -99,7 +101,8 @@ self-reported intake: highest-versus-lowest fibre tracks roughly 15-30% lower ri
 RR 0.85, CHD 0.76, type 2 diabetes 0.84, colorectal cancer 0.84
 [@reynolds2019] — so they carry the
 healthy-user confound and dietary measurement error ([[Measurement Error in Dietary Assessment]]). The
-trial-grade effects are causal and small: viscous fibre lowers LDL by about -0.057 mmol/L per gram, and
+trial-grade effects are causal and small: viscous fibre lowers LDL by about -0.057 mmol/L per gram over
+the practical <=10 g/day range (a roughly linear slope that plateaus above \~10 g), and
 Brown's 67-trial meta-analysis concludes soluble fibre «can make only a small contribution to dietary
 therapy to lower cholesterol»
 [@brown1999].
@@ -124,7 +127,7 @@ the surrogate level — a diversity shift, not an outcome.
 discipline is that «the effects of probiotics are strain-specific and dose-specific»
 [@wgo2023]; the evidence attaches to
 specific strain x indication x dose combinations, not to the word "probiotic" — live microbes taken to
-confer a benefit. Where it is real:
+confer a benefit. Where the evidence is real:
 
 | Indication | WGO evidence status | Note |
 |---|---|---|
@@ -198,7 +201,7 @@ through to whether the infection cleared.
 The scope boundary is the decision-relevant part. Recurrent CDI is the one case where the pathology
 *is* the dysbiosis (a disrupted, low-diversity microbial community): antibiotics collapse gut diversity,
 and FMT restores it directly. That is exactly why it is both the cleanest causal win and a poor template
-for anything else. It is no evidence that manipulating the microbiome improves general health, weight, or
+for anything else. The CDI win is no evidence that manipulating the microbiome improves general health, weight, or
 metabolic disease, where no established dysbiosis-as-cause exists for a transplant to reverse.
 Valdes states the field bound plainly: «For other pathologies, faecal transplants are not yet clinical
 practice but have been explored.» [@valdes2018]
@@ -218,7 +221,7 @@ changes no decision at the point of prescribing.
 
 ## §8 — Leaky gut and candida: demarcating real physiology from the syndrome
 
-The test that sorts these claims is functional: is there a falsifiable, quantified claim on a real human
+A functional test sorts these claims: is there a falsifiable, quantified claim on a real human
 outcome?
 
 Intestinal permeability is real and measurable, and it is genuinely altered in coeliac disease,
@@ -249,7 +252,7 @@ new decision.
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
-  it is unresolved whether the disrupted community causes the illness or the illness (and its diet)
+  no one has resolved whether the disrupted community causes the illness or the illness (and its diet)
   causes the disruption. Flag it; the held evidence does not resolve it.
 - **Several backbone syntheses are unheld.** A Cochrane FMT-for-CDI systematic review would pool the
   effect that the single, early-stopped van Nood trial over-estimates, with a proper confidence
@@ -265,7 +268,7 @@ The popular framing sells the microbiome as a general-purpose health dial: probi
 immunity and mood, "leaky gut" diets, microbiome supplements. On those marketed interventions this
 appraisal *diverges* — the outcome evidence for a general tonic is not there.
 
-Where it *converges* is with the disciplined clinical message. The World Gastroenterology Organisation's
+This appraisal *converges* with the disciplined clinical message. The World Gastroenterology Organisation's
 central point is that «the effects of probiotics are strain-specific and dose-specific»
 [@wgo2023] — benefit attaches to a
 named strain, a named indication, and a dose, never to "probiotics" as a class. That is the

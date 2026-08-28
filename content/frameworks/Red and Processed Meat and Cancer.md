@@ -2,12 +2,12 @@
 type: framework
 question: Does red or processed meat cause cancer, by how much, and does the evidence warrant reducing intake?
 aliases: [Red Meat, Processed Meat, Red Meat and Cancer, Processed Meat and Cancer, Meat and Colorectal Cancer]
-authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022]
+authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre; Schwingshackl, Lukas; Bechthold, Angela; Boeing, Heiner]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
 cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-22
+updated: 2026-08-28
 self_critiqued: 2026-08-22
 relationships:
   related_to:
@@ -284,5 +284,16 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
+
+## Non-cancer outcomes live in the matrix (2026-08-28)
+
+This page stays **cancer-scoped**. The red/processed-meat associations with the OTHER outcome
+families — mortality, T2D, hypertension, CVD, adiposity — are held in the DIfE/Boeing dose-response
+grid, where **processed meat is the most consistently harmful food in the whole matrix** (harmful in
+all five outcome families; T2D 1.37 per 50 g/d, the single largest effect, HIGH grade) and red meat
+mirrors it one notch smaller. See [[Food Groups and Health Outcomes - A Dose-Response Matrix]];
+not re-extracted here.
+[@schwingshackl2017t2d]
+[@bechthold2019]
 
 ## References

@@ -6,11 +6,12 @@ aliases: [NSS, Non-Sugar Sweeteners, Non-Nutritive Sweeteners, Low-Calorie Sweet
 sources: [WHO - Non-Sugar Sweeteners 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Debras - Artificial Sweeteners Cancer NutriNet 2022, Aspartame Safety Review Nutrients 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-11
+updated: 2026-08-27
 self_critiqued: 2026-08-11
+concrete_subject_audited: 2026-08-27
 ---
 
-This is a general, population-level appraisal — what the evidence says about non-sugar sweeteners
+This page is a general, population-level appraisal — what the evidence says about non-sugar sweeteners
 for anyone the studies speak to. It is not advice for one person; the right choice for you depends on
 your realistic alternative and your goals, which belong at the end, not here.
 
@@ -53,7 +54,7 @@ Three things frame everything below:
 
 ## The one move that settles most of the argument: the comparator
 
-The most important reading of the trial evidence is that any weight benefit from sweeteners comes from
+The trial evidence points to one reading above all: any weight benefit from sweeteners comes from
 **displacing sugar**, not from the molecule itself — and it shrinks toward zero the closer a trial gets
 to the real-world question.
 
@@ -78,7 +79,7 @@ calories — water, unsweetened food — and the sweetener adds nothing.
 
 ## Cancer — hazard is not risk
 
-This is the single most-misread part of the whole topic, and it turns on one distinction:
+Cancer is the single most-misread part of the whole topic, and it turns on one distinction:
 
 - **Hazard** = *could this substance cause cancer at some dose, under some conditions?* A yes/no about
   the agent.
@@ -121,7 +122,7 @@ realistic intake -> [[Non-Sugar Sweeteners]]. *Possibly carcinogenic* is not *fo
 amounts you drink* — the same hazard/risk split the fabric holds for the IARC red-meat labels
 (processed = Group 1, red meat = Group 2A) -> [[Red Meat]].
 
-What the wiki holds on the *human observational* side is thinner and, tellingly, inconsistent:
+On the *human observational* side, the wiki holds thinner and — tellingly — inconsistent evidence:
 
 - **WHO's pooled cohort table: cancer is null.** Overall cancer HR \~1.02 (95% CI 0.95-1.09), cancer
   mortality \~1.02 — flat, at very-low certainty. The one exception is an old saccharin-and-bladder-cancer
@@ -156,7 +157,7 @@ outcome data arrives, rather than being upgraded on the strength of the story. -
 
 ## Insulin and glucose
 
-Two distinct routes, and they must be kept apart.
+Two distinct routes run here — keep them apart.
 
 **Route A — the direct blood-sugar response is quiet.** In the short-term RCTs the cardiometabolic
 biomarkers are flat in both directions: fasting glucose MD -0.01 mmol/L, fasting insulin -0.49 pmol/L,
@@ -165,7 +166,7 @@ also why a **continuous glucose monitor**, which reads glucose only, sees essent
 consume a non-caloric sweetener, and cannot adjudicate this question one way or the other
 -> [[Continuous Glucose Monitoring as a Health Intervention]].
 
-**Route B — the gut-microbiome route is real, causal, and personalized.** This is the one genuinely new
+**Route B — the gut-microbiome route is real, causal, and personalized.** Route B is the one genuinely new
 mechanistic fact. Suez et al. 2022 ran a randomized controlled trial in 120 sweetener-avoiding healthy
 adults, giving saccharin, sucralose, aspartame or stevia for two weeks at «doses lower than the
 acceptable daily intake». Each sweetener «distinctly altered stool and oral microbiome and plasma
@@ -183,7 +184,7 @@ Three qualifiers keep this in proportion:
   not diabetes. Causal-on-the-marker is not causal-on-the-outcome -> [[Surrogate Outcomes]].
 - **It is personalized** — responders and non-responders within every arm.
 
-What Route B *does* is important: it shows a real biological pathway (sweetener → microbiome → glucose
+Route B does something important: it shows a real biological pathway (sweetener → microbiome → glucose
 handling) exists in humans, so the long-term cohort worry cannot be waved away as pure statistical
 artifact. What it does **not** do is prove sweeteners cause diabetes or heart disease.
 
@@ -210,13 +211,13 @@ there is no cost to *not* using them.
 ## Sweet cravings
 
 A plausible behavioural mechanism — a sweetener keeps the *sweet setpoint* high, so you keep wanting
-sweet things. Like the appetite question, this is a mechanism the outcome evidence does not yet carry.
+sweet things. Like the appetite question, this craving mechanism is one the outcome evidence does not yet carry.
 It sits at **insufficient evidence**: flagged as a reasonable hypothesis, not asserted as a finding.
  -> [[Non-Sugar Sweeteners]]
 
 ## The elephant: long-term cohorts look worse than the trials
 
-Here is the tension that drives the caution. Short-term trials show flat biomarkers and a small weight
+One tension drives the caution. Short-term trials show flat biomarkers and a small weight
 benefit. Long-term observational cohorts (up to \~13 years) show sweeteners associated with *more* disease:
 
 | Outcome | Long-term cohort association | Certainty |
@@ -239,7 +240,7 @@ its use. This is the classic trap that dissolves other diet-disease associations
 
 **But WHO ran the check, and the associations did not dissolve.** The study authors adjusted for BMI,
 stratified by weight, excluded people who lost weight before baseline, and dropped early follow-up years.
-The result was mixed — some associations weakened, some strengthened — but «in the majority of studies,
+The adjustments produced a mixed result — some associations weakened, some strengthened — but «in the majority of studies,
 particularly for type 2 diabetes, associations persisted … in fully adjusted models». WHO's conclusion:
 
 > «It was concluded that, although reverse causation and residual confounding may be contributing
@@ -259,7 +260,7 @@ The honest read demands symmetric standards, and cuts both ways:
   none for sweeteners). The cohort signal has survived only the *weak* checks (the same
   ones the alcohol artifact also survived), and has never faced the decisive one.
 
-So the defensible statement is: **the long-term association is unexplained, cannot be fully attributed to
+So state it defensibly: **the long-term association is unexplained, cannot be fully attributed to
 reverse causation, and is not established as causal.** That irreducible uncertainty — which way the arrow
 points — is exactly why WHO issued a *conditional*, not a strong, recommendation.
 
@@ -272,14 +273,14 @@ points — is exactly why WHO issued a *conditional*, not a strong, recommendati
   certainty)** across three cohorts, with a dose-response in two. The aspartame narrative review advises
   aspartame «should be restricted if not completely eliminated» in pregnancy. [@who2023nonsugar] [@aspartame2023]
 - **Phenylketonuria (PKU): aspartame is strictly forbidden** — people with PKU cannot metabolize its
-  phenylalanine. Caution also in seizure/neurological conditions. [@aspartame2023] (This is a hard contraindication, unrelated to the population weight/NCD
+  phenylalanine. Caution also in seizure/neurological conditions. [@aspartame2023] (That ban is a hard contraindication, unrelated to the population weight/NCD
   question.)
 - **Children:** limited data; one RCT showed reduced body-fatness but pooled BMI z-score showed no
   effect; two stevia trials showed better dental-caries markers. [@who2023nonsugar]
 
 ## When they are worth using
 
-There is no population answer, only a comparator answer (the substitution frame -> [[Non-Sugar Sweeteners]],
+The evidence gives no population answer, only a comparator answer (the substitution frame -> [[Non-Sugar Sweeteners]],
 [[Free Sugars Intake]]):
 
 - **If your realistic alternative is sugar** (you will drink the regular soda otherwise): a sweetened
@@ -295,7 +296,7 @@ the sweetener is still the better of *those two* options.
 
 ## What the evidence structurally cannot tell us yet (gaps, stated plainly)
 
-These are the holes the assembled sources collectively cannot fill -> [[Non-Sugar Sweeteners]],
+The assembled sources collectively cannot fill these holes -> [[Non-Sugar Sweeteners]],
 [[The U-Shaped Association Artifact]]:
 
 - **No long-term hard-outcome RCT exists**, and essentially cannot — you cannot randomize decades of

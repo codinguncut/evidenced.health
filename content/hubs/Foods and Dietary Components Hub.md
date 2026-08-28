@@ -23,6 +23,10 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   "toxin" (fried/baked starches, coffee) that is IARC 2A on animal/mechanism grounds but **null across
   \~20 non-gynecological cancer sites** in humans (Filippini dose-response MA, no threshold); the
   symmetric-standards / attention-anti-signal test — near-zero Layer-1 lever
+- [[Alcohol and Cancer Risk]] — the per-drinker site-specific dose-response (Bagnardi 2014 gold MA, 572
+  studies / 23 sites): heavy-drinking RRs up to 5.13 (oral/pharynx), significant risk from *light*
+  drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
+  effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
 
 ## Foods and beverages
 
@@ -62,6 +66,11 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   not protective-foods) + \~40%-power null — a no-effect-on-the-tested-contrast result, NOT a refutation
   of the recommended pattern; the fat-*quality* lever is elsewhere. Symmetric-standards counterweight to
   observational diet-pattern signals
+- [[Dietary Patterns and COPD Risk]] — the fabric's first respiratory outcome: a healthy overall
+  pattern -> lower COPD (cross-sectional OR 0.88, I2=0%; cohort RR 0.56 but "essentially two cohorts"),
+  the unhealthy arm null with I2=91% (Parvizian 2020, observational-only SR+MA). The precision inversion
+  (tightest number is the least causal), smoking mostly adjusted, no QoL/mortality studied. A secondary
+  lever behind the smoking big rock and confirmatory of the CV diet-pattern case — confidence low
 - [[Fermented Foods and Health]] — the `fermented-foods` nucleus: do live-fermented foods move a
   patient-important outcome, and is the effect the live cultures, the food matrix, or fermentation's
   biochemistry? Held evidence is thin (one surrogate-outcome RCT + two observational fermented-dairy CVD

@@ -7,8 +7,8 @@ sources: []
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-25
-self_critiqued: 2026-08-25
+updated: 2026-08-28
+self_critiqued: 2026-08-28
 relationships:
   related_to:
     - Upgrading Observational Evidence
@@ -24,6 +24,7 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Fatty Liver MASLD and Weight Loss
     - Low-Fat Dietary Pattern and Cardiovascular Disease
+    - Hearing Loss and Dementia
 ---
 
  — a synthesis induced across the fabric's own holdings (UPF, coffee, Mediterranean diet,
@@ -49,6 +50,7 @@ this page's.
 | **Mediterranean diet** | CVD/mortality graded *convincing* observationally | pooled whole-diet RCTs mostly null **except diabetes**; the one whole-PATTERN RCT (PREDIMED) moved events, while single-nutrient RCTs (the 54-RCT SFA-events null, Look AHEAD) did not | the RCT that tested the RIGHT exposure (the whole pattern) AGREES; the "null RCTs" tested a DIFFERENT exposure (single nutrients) -> [[Mediterranean Diet and Cardiovascular Events]] |
 | **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
 | **Total dietary fat** `[2026-08-25]` | diet-heart-era observational/ecological signal that *total*-fat intake raises CHD | WHI DM Trial — the largest low-fat-pattern RCT (n=48,835) — **null**: CHD HR 0.97 (0.90-1.06), stroke 1.02, CVD 0.98 | the RCT tested a **DIFFERENT exposure** (total-fat *quantity* cut, fat->carbohydrate, no weight loss) than the causal lever (fat *quality* / protective-food pattern), under a **diluted contrast** (achieved \~70% of design separation, arm rebounded 24->29%E) and **\~40% power** for an LDL change predicted to move CVD only 2-4%. A wrong-exposure + underpowered null, not a no-effect null — the authors say so -> [[Low-Fat Dietary Pattern and Cardiovascular Disease]] |
+| **Hearing aids -> cognition** `[2026-08-28]` | 8-cohort pool HR 0.81 (0.76-0.87), I2=0% — a 19% lower cognitive-decline hazard among hearing-aid users vs uncorrected hearing loss (Yeo 2023) | ACHIEVE RCT (N=977): **null overall** on 3-year cognition; a 48% reduction only in a pre-specified high-baseline-risk (ARIC) subgroup — and Yeo's search predates the trial | the mechanism is **healthy-user self-selection in the intervention arm** (device users are healthier, more motivated, better-resourced) — mechanism #3 — so randomization erases the average effect; it survives only where **absolute baseline risk** is high enough to show one (baseline-risk heterogeneity, not effect modification). A confounded-observational + baseline-risk resolution, not a wrong-exposure one -> [[Hearing Loss and Dementia]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
 they are three instances of one *appraisal structure*. That is what makes the page a type-A synthesis

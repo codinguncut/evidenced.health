@@ -6,8 +6,9 @@ question: 'For an adult with elevated blood pressure or drifting toward it: what
 sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, He - Salt Reduction Blood Pressure 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, Naci - Exercise vs Antihypertensive Drugs 2019, Roerecke - Alcohol Reduction Blood Pressure 2017, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Ma - Weight Loss Interventions Mortality 2017, WHO - Sodium Intake 2012, Huang - Sodium Dose Duration Blood Pressure 2020, USPSTF - Procedure Manual 2022, GRADE - Handbook, ESC - CVD Prevention Guidelines 2021, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-20
+updated: 2026-08-27
 self_critiqued: 2026-08-20
+concrete_subject_audited: 2026-08-27
 ---
 
 ## Pull The Two Steps Apart
@@ -18,7 +19,7 @@ self_critiqued: 2026-08-20
 
 **So rank the levers by your absolute cardiovascular risk, not by the blood-pressure number.** The proportional benefit of a given drop is much the same whoever you are, which means the same few millimetres are worth a great deal to a high-risk person and very little to a low-risk one. Blood pressure is therefore a big rock for someone with elevated pressure or high cardiovascular risk, and a minor lever for someone merely normotensive. The size of the prize is set by the risk you start from, not by how far the number falls.
 
-**Drug therapy belongs on the same shelf as the lifestyle levers — neither above them nor beneath them.** It is the realistic alternative, weighed on the same three axes: how much it moves the number, how certain that is, and how likely you are to keep doing it. It is not a default first move, and not a last resort once "natural" options are exhausted. One consequence sharpens the point: match like-for-like starting pressures and structured exercise lowers blood pressure about as much as a first-line drug — though that likeness is on the number, not on proven outcomes, and rests on thin trials with no head-to-head test.
+**Drug therapy belongs on the same shelf as the lifestyle levers — neither above them nor beneath them.** The drug is the realistic alternative, weighed on the same three axes: how much it moves the number, how certain that is, and how likely you are to keep doing it. It is not a default first move, and not a last resort once "natural" options are exhausted. Structured exercise, compared at like-for-like starting pressures, lowers blood pressure about as much as a first-line drug — though that likeness is on the number, not on proven outcomes, and rests on thin trials with no head-to-head test.
 
 Both facts follow from taking the two steps one at a time. Start with the first: why what moves blood pressure tells you, by itself, almost nothing about what a lower number buys.
 
@@ -109,8 +110,8 @@ persistence of lower alcohol consumption within 1 year, and no lag time of eﬀ 
 are not measured events. Both levers add credible pressure-lowering; neither turns the surrogate
 into a demonstrated outcome. [inferred from @roerecke2017alcohol; @naci2019exercise]
 
-Because the relative effect is the same at any starting pressure, what decides whether a lever is
-worth pulling is a person's absolute cardiovascular risk — and, before that, which levers actually
+Because the relative effect is the same at any starting pressure, a person's absolute cardiovascular
+risk decides whether a lever is worth pulling — and, before that, which levers actually
 move the number.
 
 
@@ -220,7 +221,7 @@ normotensive one, where the effect is smaller and the drug comparison was never 
 
 For a drinker above the threshold, cutting down lowers blood pressure — overall «-3.13 mm Hg (95% CI
 -3.93 to -2.32) for systolic blood pressure» across 36 reduction RCTs, dose-dependent at «-0.91 mm Hg»
-SBP per drink/day of baseline intake [@roerecke2017alcohol]. The decision-relevant feature is a **threshold at roughly two drinks/day, with the lever empty
+SBP per drink/day of baseline intake [@roerecke2017alcohol]. The lever carries **a threshold at roughly two drinks/day, and empties
 below it**: «People drinking two drinks or fewer per day did not have a significant reduction in blood
 pressure when they reduced their alcohol consumption to near abstinence»
 [@roerecke2017alcohol]. Read this as a threshold — below
@@ -283,7 +284,7 @@ And the potassium-enriched salt substitute moves sodium down and potassium up in
 **Summing the levers counts shared channels more than once.**
 
 **Keep two different questions apart: what caused a lever's effect, and whether two levers
-combine.** The first is attribution, the second is stacking. Confusing them is how a
+combine.** The first is attribution, the second is stacking. Confuse them, and a
 BP-lowering to-do list inflates.
 
 **Attribution: DASH's own effect is not its sodium content.** DASH lowers systolic BP by
@@ -308,7 +309,7 @@ not driven by sodium (no attribution), yet a purposeful salt cut *layered onto* 
 lowers BP further (genuine stacking). Overlap forbids summing the levers as a menu;
 deliberate combination is a design choice that can add.
 
-With the double-counting removed, the levers can be ranked for a given person.
+With the double-counting removed, you can rank the levers for a given person.
 
 
 ## Rank By Absolute Risk, Not The BP Number
@@ -371,7 +372,7 @@ merely-normotensive one — which is where the question turns next.
 
 ## Match How Low You Go To The Person, Not The Reading
 
-**The effect modifier that actually matters is the continuous baseline-SBP gradient, not the
+**The continuous baseline-SBP gradient is the effect modifier that matters, not the
 hypertensive-versus-normotensive label.** The pressure fall a lever delivers grows with starting
 pressure: cutting salt lowers systolic by −5.39 mmHg (−6.62 to −4.15) in hypertensives against
 −2.42 mmHg (−3.56 to −1.29) in normotensives

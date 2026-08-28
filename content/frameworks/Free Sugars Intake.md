@@ -2,8 +2,8 @@
 type: framework
 question: How much free sugar, and which outcome is the limit actually protecting?
 aliases: [Free Sugars, Added Sugars, Sugar Intake, Sugars, WHO Sugars Guideline, 10% Energy Sugars]
-authors: [World Health Organization (org); European Food Safety Authority (org)]
-sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Aune - Fruit Vegetable Mortality 2017]
+authors: [World Health Organization (org); European Food Safety Authority (org); Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner]
+sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019]
 cluster: sugars-sweeteners
 nucleus: true
 confidence: medium
@@ -16,7 +16,7 @@ relationships:
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-26
-updated: 2026-08-13
+updated: 2026-08-28
 nosplit: 696@single-exposure nucleus (one how-much-free-sugar-which-outcome question); length is four guidance families accreted on one decision, not multiple decisions
 self_critiqued: 2026-08-13
 ---
@@ -733,5 +733,19 @@ processed form instead — so match the scope before reading a clash:
   is matched, so no `[[tension]]` is filed -> [[Fruit and Vegetable Intake and Health]].
 - The whole-vs-processed axis (tinned-fruit harm) is the more robust processing signal in these data
   than a blanket fruit-vs-juice rule.
+
+## Refinement — SSB in the DIfE/Boeing 12-food-group series (2026-08-28)
+
+The DIfE/Boeing dose-response series treats **sugar-sweetened beverages** (per 250 mL/d) as their own
+food group and lands the sharpest divergence in the matrix: SSB is **harmful across every
+cardiometabolic outcome** — T2D RR 1.21 (1.12-1.31, HIGH, monotone-increasing throughout the studied
+range), CHD 1.17 (1.11-1.23), hypertension 1.07 (1.04-1.10), overweight/obesity 1.05 (1.00-1.11) —
+yet its **all-cause mortality cell is null** (RR 1.03, 0.91-1.18, LOW).
+[@schwingshackl2017t2d]
+[@bechthold2019]
+[@schwingshackl2017mort] The lever
+is cardiometabolic (its free-sugar load), consistent with this page's channel; the mortality null is
+the streetlight/measurement caveat, not evidence of safety. Full cross-outcome placement ->
+[[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

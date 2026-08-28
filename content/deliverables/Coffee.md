@@ -5,8 +5,9 @@ question: What are the effects of coffee on health, longevity, and quality of li
 sources: [Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ding - Coffee and Type 2 Diabetes 2014]
 confidence: medium
 created: 2026-08-04
-updated: 2026-08-12
+updated: 2026-08-27
 self_critiqued: 2026-08-10
+concrete_subject_audited: 2026-08-27
 ---
 
 For most non-pregnant adults, three to four cups of coffee a day is an inexpensive habit more
@@ -30,7 +31,7 @@ cardiovascular risk; and women at high fracture risk with low calcium. One benef
 liver — is strong enough to stand out and would make the best candidate for a proper trial,
 though it remains a candidate, not advice.
 
-That the lever is small and the evidence thin is itself the finding: it is permission to stop
+The lever is small and the evidence thin, and that is itself the finding — permission to stop
 worrying about coffee and to spend attention, money and worry where they matter more. This is
 a general appraisal for anyone the evidence speaks to; where your own situation and goals come
 in belongs at the end, not here — and every number that follows is an association, so begin
@@ -142,9 +143,9 @@ Grosso 2016 — a dose-response meta-analysis of 31 cohorts, 1,610,543 individua
 
 Cancer mortality is the clean sign-flip. Pooled, coffee shows no cancer-mortality association; stratified, «cancer mortality was significantly decreased only when considering non-smokers, while increased in smokers». [@grosso2016] Grosso reads the flip as smoking confounding, not effect-modification: it is «hardly plausible that any biological effect of coffee causally differs by smoking status», so «residual confounding by smoking is the most likely the explanation» — heavy coffee drinkers are enriched for smokers, and smoking is the dominant cancer risk factor. [@grosso2016]
 
-All-cause and CVD mortality linearize too, but Grosso does not attribute that to smoking. In never-smokers the curve is linear-monotone — roughly RR 0.94 per cup, \~6% lower risk each cup — where the pooled curve is a reverse-J (nadir RR 0.83 at 3 cups, rising to 0.90 at 7). [@grosso2016] Removing smokers thus erases the upper-arm attenuation here as well. But Grosso reports «No differences were found between smokers and non-smokers for all-cause and CVD mortality risk», attributing the smoking artifact explicitly only to cancer. [@grosso2016] So reading the all-cause upper arm as a smoking artifact is the wiki's inference from the linear-vs-J contrast, held against Grosso's own no-difference statement — suggestive, not established.
+All-cause and CVD mortality linearize too, but Grosso does not attribute that to smoking. In never-smokers the curve is linear-monotone — roughly RR 0.94 per cup, \~6% lower risk each cup — where the pooled curve is a reverse-J (nadir RR 0.83 at 3 cups, rising to 0.90 at 7). [@grosso2016] Removing smokers thus erases the upper-arm attenuation here as well. But Grosso reports «No differences were found between smokers and non-smokers for all-cause and CVD mortality risk», attributing the smoking artifact explicitly only to cancer. [@grosso2016] So the wiki reads the all-cause upper arm as a smoking artifact — an inference from the linear-vs-J contrast, held against Grosso's own no-difference statement, and so suggestive, not established.
 
-What the correction does not fix: it removes the dominant confounder, not SES or reverse-causation residuals, and Grosso is observational throughout. Poole's Mendelian-randomization citations still find no genetic causal signal for coffee->mortality. [@poole2017] These are consistent, not contradictory: the per-cup benefit survives the smoking correction yet not the genetic instrument, leaving residual non-smoking confounding as the live explanation -> [[The U-Shaped Association Artifact]]. Smoking is not the whole story, but the surviving benefit is not established as causal.
+The correction has its limits: it removes the dominant confounder, not SES or reverse-causation residuals, and Grosso is observational throughout. Poole's Mendelian-randomization citations still find no genetic causal signal for coffee->mortality. [@poole2017] These are consistent, not contradictory: the per-cup benefit survives the smoking correction yet not the genetic instrument, leaving residual non-smoking confounding as the live explanation -> [[The U-Shaped Association Artifact]]. Smoking is not the whole story, but the surviving benefit is not established as causal.
 
 Smoking-confounded or not, two harms are real and stratum-specific — and they, not the averages, gate the recommendation.
 
@@ -261,7 +262,7 @@ Three questions stay open, and they are *insufficient evidence*, not evidence of
 
 - **Sleep and timing.** No coffee/caffeine-and-sleep meta-analysis is held — Poole's umbrella excluded it, and none existed at review time [@poole2017]. Yet caffeine's half-life means an afternoon or evening cup plausibly still carries an active dose at bedtime, so late-day intake could disrupt sleep. That is a **named gap, mechanism-directional only** — a reason to expect an effect and to time intake earlier, **not** a measured finding and explicitly **not** a null. It attaches to [[Sleep and Metabolic Health]] / [[Sleep Duration and Mortality]] if a coffee/caffeine-sleep MA is ever acquired.
 
-- **Cancer and the IARC monograph.** The 2016 IARC re-evaluation (which removed coffee from Group 2B, and whose Group 2A "very hot beverages" rating is about *temperature*, not coffee) is **not held**, so this appraisal makes no cancer-causation claim here [@poole2017]. What the held evidence shows is narrower: total-cancer *incidence* carries a benefit association, the apparent site harms (lung) collapse under smoking correction, and **most single cancer sites are null or insufficient** -> [[The U-Shaped Association Artifact]].
+- **Cancer and the IARC monograph.** The 2016 IARC re-evaluation (which removed coffee from Group 2B, and whose Group 2A "very hot beverages" rating is about *temperature*, not coffee) is **not held**, so this appraisal makes no cancer-causation claim here [@poole2017]. The held evidence shows something narrower: total-cancer *incidence* carries a benefit association, the apparent site harms (lung) collapse under smoking correction, and **most single cancer sites are null or insufficient** -> [[The U-Shaped Association Artifact]].
 
 - **Respiratory outcomes and the natural history of established disease.** Respiratory endpoints, and the course of already-diagnosed disease (only one MA, post-MI), rest on too little evidence to state a direction — **insufficient**, held as a gap [@poole2017].
 
@@ -273,7 +274,7 @@ The population verdict, as an action: for most non-pregnant adults there is **no
 
 The genuinely stratum-specific calls, deferred to here rather than led with:
 
-- **Pregnancy / trying to conceive** — limit. Harm survives smoking adjustment and runs through caffeine dose-amplification; this is a contraindication for the stratum, not a shift in the general estimate.
+- **Pregnancy / trying to conceive** — limit. Harm survives smoking adjustment and runs through caffeine dose-amplification — a contraindication for the stratum, not a shift in the general estimate.
 - **High-LDL or established-ASCVD-risk drinkers of large volumes of *unfiltered* coffee** — switch to filtered. A cheap [[Is the Food Category Doing Any Work|brew-method]] lever via the diterpenes cafestol and kahweol; marginal for everyone else.
 - **Women at high fracture risk with low calcium intake** — a minor caution only, and a little milk offsets the calcium loss.
 

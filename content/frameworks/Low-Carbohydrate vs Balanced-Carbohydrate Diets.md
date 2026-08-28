@@ -2,8 +2,8 @@
 type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
-authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B; Qin, Pei]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018, Qin - Carbohydrate Quantity Quality Mortality]
+authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B; Qin, Pei; Bo, Yacong]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018, Qin - Carbohydrate Quantity Quality Mortality, Qin - Low-Carbohydrate Diet Cardiovascular Mortality 2023]
 cluster: weight-loss-diets
 nucleus: true
 confidence: medium
@@ -15,9 +15,9 @@ relationships:
     - Energy Adjustment and What a Diet Coefficient Means
     - Free Sugars Intake
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-08-19
+self_critiqued: 2026-08-26
 created: 2026-07-26
-updated: 2026-08-19
+updated: 2026-08-26
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -426,6 +426,54 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
     referent-correction — so it is a **high-carb-HARM** claim, silent on whether low-carb *benefits*, and
     the low arm stays exactly as unadjudicated as Seidelmann's. Still observational -> does not cash the
     randomised-design `AWAITS`. -> [[The U-Shaped Association Artifact]], [[Is the Food Category Doing Any Work]].
+    - **The LCD-SCORE companion — Qin 2023b (38-cohort SR+MA, to July 2023), a type-F sibling of the
+      quantity estimate, NOT independent-E `[2026-08-26]`.** The *same Qin group* (5 shared authors incl.
+      lead Qin + senior Bo) pooled the largest set yet on the **composite low-carbohydrate-diet (LCD)
+      score** — a Halton-type index (low-carb + high-protein + high-fat, *source-agnostic*), a **different
+      exposure** from the %E-carbohydrate axis above. Same group + shared cohorts (NHS/HPFS-Fung,
+      NIPPON-Nakamura, Lagiou, Nilsson also sit inside Seidelmann's pool) -> **type-F, never
+      `[E-independent]`; no confidence lift.** «the highest LCD score was compared with the lowest one
+      and the pooled RRs (95% CIs) were 1.05 (0.96, 1.14; I2 = 65.1%; n = 13) for CVD, 1.43 (1.18, 1.72;
+      I2 = 25.4%; n = 3) for CHD, 0.93 (0.81, 1.06; I2 = 0.0%; n = 2) for stroke, 1.03 (0.96,»
+      [@qin2023lcd] «1.10;
+      I2 = 86.6%; n = 13) for all-cause mortality and 1.09 (0.99, 1.19; I2 = 65.1%; n = 10) for
+      cardiovascular mortality.»
+      [@qin2023lcd]
+      - **The decision-relevant refinement: hard-outcome harm is CHD-specific.** «lowest LCDs was
+        associated with 43% increased risk of CHD. No significant association for total CVD, all-cause or
+        cardiovascular mortality was observed.»
+        [@qin2023lcd] So
+        the largest composite-LCD-score pool does **not** reproduce a mortality signal at all — CHD
+        (1.43) is the only significant arm; all-cause (1.03), CV mortality (1.09), total CVD (1.05) and
+        stroke (0.93) are null. *The CHD arm is also the **thinnest** (n=3 studies) and largest-effect*
+        — so it carries the least weight even as it is the only signal. Someone told «low-carb raises
+        mortality» should know the composite-score literature, pooled largest, bounds that to *null*
+        all-cause / CV-mortality and localizes hard-outcome harm to **CHD** (on 3 cohorts).
+        [inferred from @qin2023lcd]
+      - **Why this is a distinct quantity, not a contradiction of Seidelmann (op-weave 2a parameter
+        table).** No cell licenses setting Qin-LCD's null all-cause (1.03) against Seidelmann's low-carb
+        arm (1.20) as the same quantity:
+
+        | Parameter | Qin 2023b (LCD score) | Seidelmann 2018 (%E) | Qin 2023a (%E quantity) | Same quantity? |
+        |---|---|---|---|---|
+        | Exposure | **composite LCD score**, source-agnostic | %E carbohydrate | total carbohydrate %E | **NO** |
+        | Contrast | highest vs lowest score | <30-40%E vs 50-55%E nadir | highest vs lowest %E | **NO** |
+        | CHD | **1.43 (1.18-1.72)** | not pooled | 1.10 (0.98-1.24) null | **NO** — score loads animal protein/fat; %E does not |
+        | All-cause | 1.03 (0.96-1.10) null | 1.20 (1.09-1.32) low-arm | 1.07 (1.00-1.14) fragile J | **NO** |
+
+        The CHD **divergence** from the quantity axis (1.43 vs Qin 2023a's null 1.10) is the informative
+        cell: the LCD score's harm rides on the protein/fat-source loading the composite captures and
+        plain %E-carbohydrate does not — consistent with Seidelmann's animal-substitution reading, though
+        Qin-LCD *cannot prove it*.
+        [inferred from @qin2023lcd]
+      - **The inherited G-gap: no substitution decomposition.** Qin-LCD does **not** split animal- vs
+        plant-replacement [searched: "plant-based" / "animal-based" / "substitution" across chunk 01 — the
+        terms appear only in the Discussion as a *conceded limitation*, referencing Ghorbani 2023, not as
+        a subgroup]; the score is source-agnostic, so it cannot say whether the CHD signal is the
+        animal-loading Seidelmann isolates. The decision-hinge (animal vs plant) stays exactly where
+        Seidelmann left it. Observational (FFQ), NOS-appraised, no MR -> does not cash the
+        randomised-design `AWAITS`.
+        [inferred from @qin2023lcd]
 - `AWAITS` a source on whether carbohydrate restriction changes hard outcomes at all **in a randomised
   design** — PURE and Seidelmann (above) supply the observational cut but not the interventional one. The
   review points outside its own evidence base to cohort data showing *«harm at the extremes of intake»*

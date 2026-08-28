@@ -2,11 +2,12 @@
 type: deliverable
 title: Smoking
 question: What does the evidence show about smoking and patient-important outcomes — how large is the effect on mortality, life expectancy and specific diseases, how much of any excess risk cessation recovers and how that depends on the age at quitting, and what remains uncertain?
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014]
 confidence: high
 created: 2026-08-17
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 aliases: [Smoking, Tobacco, Quitting Smoking, Smoking Cessation]
 ---
 
@@ -23,7 +24,7 @@ non-smoker none of this applies; the lever is already pulled.
 A current smoker's all-cause mortality runs about **three times** that of a never-smoker: hazard ratio
 **HR 3.0 (99% CI 2.7-3.3) in women and 2.8 (2.4-3.1) in men**, after adjustment for age, education,
 alcohol, and body weight [@jha2013]. (A
-hazard ratio of 3 means the rate of death at any moment is tripled.) The consequence is a large loss of
+hazard ratio of 3 means the rate of death at any moment is tripled.) That tripled death rate translates into a large loss of
 life: «Life expectancy was shortened by more than 10 years among the current smokers, as compared with
 those who had never smoked» [@jha2013] —
 roughly 11 years in women and 12 in men.
@@ -34,7 +35,7 @@ and 79 are attributable to smoking** [@jha2013].
 
 ### The excess deaths are cancer, vascular, and respiratory
 
-The extra mortality is concentrated in the diseases smoking is known to cause. **Lung cancer** carries
+Those excess deaths concentrate in the diseases smoking is known to cause. **Lung cancer** carries
 the steepest relative risk (HR \~15-18), followed by **respiratory disease** (\~9), **ischemic heart
 disease** (\~3.2-3.5), and **stroke** (up to \~3.2)
 [@jha2013]. These are relative rates; because
@@ -89,6 +90,22 @@ second
 patient-important outcome**: quitting removes the excess dementia risk as it removes the excess mortality
 risk. See [[Dementia Prevention and Modifiable Risk Factors]].
 
+## Smoking also raises the risk of rheumatoid arthritis — dose-dependently
+
+Smoking is also a dose-dependent risk factor for **rheumatoid arthritis (RA)**, a chronic autoimmune
+inflammatory disease. A gold-tier dose-response meta-analysis (10 studies) found incident-RA risk rising
+with cumulative smoking: even light smokers of 1-10 pack-years carried a **26% higher risk than
+never-smokers (RR 1.26, 95% CI 1.14 to 1.39)**, climbing to roughly **double the never-smoker risk at
+heavier exposure — RR 1.94 (1.65 to 2.27) at 21-30 pack-years, RR 2.07 (1.15 to 3.73) above 40**
+[@digiuseppe2014smoking].
+
+The rise plateaus above about 20 pack-years — «the relative risk stabilized approximately at the value of 2»
+[@digiuseppe2014smoking] — but
+there is no safe low level, since the excess is already significant in the lightest smokers. This
+evidence is observational (no RA-prevention trial is feasible) and held at low confidence, so RA is a
+modest add-on to smoking's harms rather than a headline effect. See
+[[Autoimmune Disease and Modifiable Risk]].
+
 ## Why this is held with high confidence — despite being observational
 
 No one randomizes smoking, so the evidence is observational. But the read is decisive here for reasons
@@ -107,7 +124,7 @@ which biases *against* the benefit. The large benefit survives that conservative
 
 The fabric holds one gold mortality source (Jha 2013) plus Livingston 2024 for dementia. The
 coverage-gap inventory below is the wiki's own appraisal of what the held sources omit, not a claim
-from either source. It is honest about what that does **not** reach:
+from either source. The inventory is honest about what it does **not** reach:
 
 - **E-cigarettes / vaping** — no long-term patient-important outcomes are held.
 - **Secondhand smoke** — no dose-response on hard outcomes is held.
@@ -134,9 +151,9 @@ from either source. It is honest about what that does **not** reach:
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about smoking and patient-important outcomes — how large is the effect on mortality, life expectancy and specific diseases, how much of any excess risk cessation recovers and how that depends on the age at quitting, and what remains uncertain? |
-> | **Evidence included** | 2 sources — 1 gold, 1 high |
+> | **Evidence included** | 3 sources — 2 gold, 1 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
 
 ## References

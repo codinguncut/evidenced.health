@@ -2,19 +2,20 @@
 type: deliverable
 title: "The Biggest Health Levers After 70"
 question: 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?'
-sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013]
+sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-12
+updated: 2026-08-28
 self_critiqued: 2026-08-12
+concrete_subject_audited: 2026-08-27
 ---
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
 > fat together with muscle loss), in whom hypertension, dysglycemia and fatty liver (MASLD) are common,
 > bone density is already reduced, and several medications are in play. It is *not* written for the frail
 > or institutionalised elderly (for whom the exercise levers must be dosed down and some fall evidence
-> weakens), and *not* for the lean, fit 70-year-old (whose big rocks are already pulled). Which levers
-> matter is set by which big rocks are still unpulled for *this* person — read the order below as the
+> weakens), and *not* for the lean, fit 70-year-old (whose big rocks are already pulled). Which big rocks
+> are still unpulled for *this* person decides which levers matter — read the order below as the
 > ranking for this stratum, not a universal list.
 
 **The two big rocks here are blood pressure and body fat; the binding constraint is muscle.** For a person
@@ -59,8 +60,8 @@ number-needed-to-treat of about 61 over 3.26 years
 The decision rule is **decide on absolute risk, not on the blood-pressure number**: because the relative
 effect is constant, the absolute benefit scales with baseline cardiovascular risk, which is high in this
 stratum -> [[Blood Pressure Lowering and Cardiovascular Events]],
-[[Baseline Risk and the Relative-Absolute Split]]. The aggressiveness of the target, however, is itself a
-place where the lever can change sign — see the sign-flip section below.
+[[Baseline Risk and the Relative-Absolute Split]]. How aggressive the target is, however, can
+itself change the lever's sign — see the sign-flip section below.
 
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
@@ -75,8 +76,8 @@ that specificity is the whole point.
   >=5% body-weight loss clears steatosis, 7-10% reduces inflammation, and >=10% can regress fibrosis
   [@easl2024]. The mechanism underneath both is
   the same: negative energy balance draws fat back out of liver and pancreas once a person drops below
-  their **personal fat threshold** — and what drives the dysglycemia is intra-organ (liver and pancreas)
-  fat, for which visceral fat is only a marker: «Extent of visceral fat accumulation is a surrogate marker
+  their **personal fat threshold** — and intra-organ (liver and pancreas) fat drives the dysglycemia, with
+  visceral fat only a marker for it: «Extent of visceral fat accumulation is a surrogate marker
   for intra-organ fat excess, but is not pathophysiologically related to adverse metabolic consequences»
   [@taylor2015pft] — which is why
   remission works even at lower BMI -> [[Ectopic Fat and Depot-Specific Risk]],
@@ -101,9 +102,10 @@ muscle-protection levers are a *pair*, not a sequence.
 
 - **Resistance training is the driver; protein is the adjunct.** Training adds strength and lean mass
   (about +2.49 kg one-rep-max, +0.30 kg lean mass in pooled trials), with protein supplementation
-  augmenting the gain up to a break-point around 1.6 g/kg body weight per day — a break-point whose
-  confidence interval is wide and whose knee is not statistically firm (\~1.62 g/kg, CI 1.03-2.20, p=0.079)
-  [@morton2018], and the dose-response
+  augmenting the gain up to a break-point in the region of 1.6 g/kg body weight per day — a break-point
+  whose confidence interval is wide and whose knee is not statistically firm
+  [@morton2018]
+  -> [[Protein and Resistance Training for Muscle and Strength]], and the dose-response
   of the training itself is graded rather than all-or-nothing
   [@currier2023].
 - **The protein target is higher at this age, and it is a floor.** Ageing blunts the muscle-protein
@@ -127,7 +129,7 @@ muscle-protection levers are a *pair*, not a sequence.
   no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
   (EWGSOP2 sets none) [@cruzjentoft2019].
 
-## Balance-focused exercise, not weights, is what keeps this person off the floor
+## Balance-focused exercise, not weights, keeps this person off the floor
 
 Falls are where fractures, hospitalisation and lost independence actually occur, and here the evidence is
 unusually good. Exercise reduces the *rate* of falls in community-dwelling older adults by about 23% (rate
@@ -156,11 +158,11 @@ components and read frailty as the composite that follows -> [[Frailty]].
 
 General physical activity carries a real mortality benefit, but its shape matters for how hard to push. The
 gradient is steepest at the bottom: moving from the least-active quartile to the next roughly halves
-mortality (HR \~0.48), with the most-active reaching HR \~0.27, and the curve **flattens around 24 minutes a
-day of moderate-to-vigorous activity** [@ekelundacc2019].
+mortality (HR \~0.48), with the most-active reaching HR \~0.27, and the curve **flattens at a modest daily
+dose of moderate-to-vigorous activity** [@ekelundacc2019]
+-> [[Physical Activity Dose and Mortality]] (where the plateau dose is stated).
  The decision consequence: the first increment off a sedentary baseline is worth far more than
-the last, so the target is "get off the floor of inactivity," not "maximise"
--> [[Physical Activity Dose and Mortality]].
+the last, so the target is "get off the floor of inactivity," not "maximise."
 
 ## Past these, the remaining levers are smaller and less certain — and that ceiling is itself the finding
 
@@ -214,6 +216,29 @@ toward net harm, or toward "not worth it," in this stratum.
   that most threatens independence -> [[Protein and Resistance Training for Muscle and Strength]].
   Muscle-preserving weight loss is the version to run; the rapid-loss-then-regain pattern also carries its
   own metabolic-adaptation cost -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+- **GLP-1 weight-loss drugs (semaglutide, tirzepatide) shed muscle along with the fat — the same sign-flip
+  as unmodified dieting above, now a dominant weight-loss lever in exactly this population.**
+  - Across seven obesity-dose trials, rapid GLP-1 weight loss cut absolute lean mass by −1.74 kg
+    (95% CI −3.04 to −0.45, high certainty) — roughly 30% of the weight lost, at or just inside the
+    ordinary 20-30% diet-induced band, so on average the drug is not special: rapid weight loss loses
+    muscle whatever drives it [@laverde2026]. Lean mass is a
+    surrogate for muscle and for function, and Laverde measured neither strength nor capacity — so this
+    is a directional muscle-mass signal, not proven function loss.
+  - Which face governs flips with the stratum. For a young, well-muscled obese adult the composition ratio
+    improves and the loss is minor; for the sarcopenic-obese older adult the absolute loss becomes a
+    patient-important harm (falls, fractures, lost independence) — and Laverde's young, low-comorbidity
+    trials explicitly leave this high-risk stratum to «future studies»
+    [@laverde2026]. Worse, the drug suppresses
+    intake exactly when defending older muscle needs *more* per-meal protein to clear the
+    anabolic-resistance threshold — cutting the very protein the muscle now needs more of. Per agent,
+    tirzepatide and subcutaneous semaglutide are «among the most harmful» for lean mass while liraglutide
+    and oral semaglutide «had little or no effect»
+    [@nong2026obesity] — so a frail patient
+    is worst served by the strongest agents.
+  - The rule is not «don't use it»: pair any GLP-1 weight loss in this stratum with resistance training and
+    deliberate protein, and judge the complete strategy (drug + training + protein) on function, not the
+    drug's naive weight number — the same pairing the unmodified-weight-loss bullet above demands
+    -> [[GLP-1 and Lean Mass]], [[Protein and Resistance Training for Muscle and Strength]].
 - **Glycaemic control matters here; *tight* glycaemic control matters less.** Lowering glucose is a
   baseline-risk (route-a) lever like blood pressure — the higher this stratum's complication risk, the more
   a given relative reduction is worth. But two things reweight *tight* targets downward at 70: the shorter
@@ -222,8 +247,8 @@ toward net harm, or toward "not worth it," in this stratum.
   target loosens with age; agent and glucose goal are a prescriber's call, not a number to read off here
 .
 - **The most aggressive blood-pressure target trades benefit against real harms.** The SPRINT benefit is
-  real, but the intensive arm caused more hypotension, syncope and acute kidney injury — so at this age the
-  target is titrated against those harms, not pushed to a number
+  real, but the intensive arm caused more hypotension, syncope and acute kidney injury — so at this age,
+  titrate the target against those harms rather than push it to a number
   [@sprint2015].
 - **Statins for primary prevention sit near the edge of the evidence at \~70.** The absolute benefit is
   small (all-cause mortality RR \~0.92), and the U.S. Preventive Services Task Force reaches **no
@@ -293,9 +318,9 @@ toward net harm, or toward "not worth it," in this stratum.
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 33 sources — 19 gold, 13 high, 1 moderate |
+> | **Evidence included** | 35 sources — 20 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 ## References

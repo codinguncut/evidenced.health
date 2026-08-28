@@ -2,13 +2,13 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim]
-sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim; Nordic Council of Ministers (org)]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, NNR - Nordic Nutrition Recommendations 2023]
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-25
-self_critiqued: 2026-08-19
+updated: 2026-08-27
+self_critiqued: 2026-08-27
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -293,5 +293,29 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
 - **Cannot separate fat mass from lean mass or distribution** — BMI is the exposure, and the same BMI
   spans different body compositions across age, sex, and ethnicity (a plausible contributor to the
   regional differences, alongside the small-n imprecision of the South Asian estimate).
+
+## A guidance family stratifies the target by age — NNR2023 `[2026-08-27, NNR revisit]`
+
+The Nordic Nutrition Recommendations 2023 recommend maintaining a healthy weight for working-age
+adults but explicitly decline an optimal-BMI target for older adults — the guidance-family form of
+this page's own older-adult attenuation finding (the 70-89 y HR being materially shallower than the
+35-49 y one). NNR: «Maintaining a healthy body weight and body weight stability is recommended in
+non-pregnant adulthood and for healthy growth in childhood, due to the associated health effects and
+the serious health risks of underweight, overweight and obesity.»
+[@nnr2023] For older adults it stops short:
+«For older adults, the associations between overweight and health outcomes are less clear, and the
+available data are inadequate to make precise recommendations for optimal BMI in this age group.»
+[@nnr2023]
+
+- **Classification: guidance-family attribution (F — a stratification caveat), NOT independent
+  backing.** NNR rests on the same observational base this page appraises (its own citations are
+  Boushey and Cloetens & Ellegård reviews, not a fresh instrument), so it does **not** lift the
+  causal ceiling and adds no confidence via method independence. **No `[E-independent]` tag.** The
+  value is that a guidance body, in its current cycle, mirrors the fabric's age-stratification rather
+  than issuing a single all-age BMI target — a route-(a)/route-(b) caveat named by guidance.
+- **Counter-passage check.** NNR states no all-age BMI optimum and no obesity-paradox endorsement; it
+  declines the older-adult target on data-inadequacy grounds, which does not oppose the page's MR-
+  adjudicated monotone-rise nadir (22.5-25) for working-age adults — the two are consistent once the
+  age stratum is matched (not-joined check (ii): different unit/stratum). No divergence to file.
 
 ## References

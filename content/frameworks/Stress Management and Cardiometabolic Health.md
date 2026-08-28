@@ -7,7 +7,7 @@ sources: [Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024]
 cluster: psychosocial
 confidence: low
 created: 2026-08-01
-updated: 2026-08-09
+updated: 2026-08-27
 self_critiqued: 2026-08-01
 relationships:
   related_to:
@@ -27,6 +27,14 @@ of the `psychosocial` cluster whose mechanism spine and hard-outcome anchor is
 [[Allostatic Load and Mortality]] (chronic stress -> cumulative physiological dysregulation -> mortality);
 MBSR->BP is one candidate handle on that load, on a surrogate, with the transmission unshown.
 [inferred from @chen2024mbi]
+
+This page and [[Job Strain and Coronary Heart Disease]] are the two ends of the same psychosocial
+mechanism: job strain is the major real-world workplace *exposure* that loads chronic stress (with
+first-hand hard-outcome evidence — CHD HR 1.23), while MBSR is one *intervention* handle on that load
+(on a surrogate, BP). The intervention page reaches a hard outcome only if the surrogate-to-CHD
+transmission holds; the exposure page already reaches CHD directly — so removing or reducing the driver
+(job strain) has warrant the intervention-on-a-surrogate does not yet earn.
+
 
 ## The specified exposure
 

@@ -2,8 +2,8 @@
 type: framework
 question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016]
 cluster: sodium-bp
 nucleus: true
 confidence: medium
@@ -15,9 +15,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Blood Pressure Lowering and Cardiovascular Events
     - DASH Diet and Blood Pressure
+    - Should Sodium Reduction Be Population-Wide or Targeted
 created: 2026-07-26
-updated: 2026-08-07
-self_critiqued: 2026-08-08
+updated: 2026-08-27
+self_critiqued: 2026-08-27
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -334,10 +335,15 @@ referent-corrected or Mendelian-randomization analysis of the low-intake arm, wh
 check that concept requires. So He argues the arm away; he does not adjudicate it.
 [@he2013]
 
-**The AWAITS therefore stays open.** `AWAITS` a source that *adjudicates* the upper-arm/lower-arm
-question directly with a confounder-immune method (the post-2011 literature: PURE, the Cochrane and
-Graudal lines, and a genetic/MR instrument on the low-intake arm) — He 2013 supplies the advocacy
-rebuttal, not the adjudication.
+**The AWAITS narrows but stays open.** PURE (Mente 2016) has now landed — see the direct-hard-outcome
+section below — but it is a **pole in the dispute, not the confounder-immune adjudicator this hold
+seeks**: it reports the J directly on hard outcomes yet ran only the *weak* checks (exclude early
+events, exclude prevalent CVD/HTN/diabetes), never a referent-correction or a genetic/MR instrument on
+the low arm. So the hold still `AWAITS` a source that *adjudicates* the low arm with a confounder-immune
+method (a referent-correction, a Mendelian-randomization instrument on the low-intake arm, or a large
+long-term RCT of sodium *level* rather than reduction) — the post-2011 observational literature (PURE,
+the Cochrane and Graudal lines) supplies more poles, not the adjudication. The joined-issue write-up is
+[[Should Sodium Reduction Be Population-Wide or Targeted]].
 
 **A third major body encodes the split as uncertainty rather than resolving it `[2026-08-04, Afshin GBD 2017]`.**
 The GBD 2017 dietary-risks analysis needed an *optimal* sodium level to compute attributable burden,
@@ -415,6 +421,66 @@ dilution + a single-day recovery-biomarker + Huang's short-trial underestimate �
 reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
 between sodium, potassium and dilution is **not identified** by this trial.
 [inferred from @neal2021; @bplttc2021]
+
+## PURE lands the J directly on hard outcomes — a pole, not the adjudicator `[2026-08-27, Mente 2016]`
+
+The gap this page kept flagging — *nobody measures the low arm directly on hard outcomes* — is now
+**directly measured**, but by an observational study that is itself a pole in the dispute rather than
+the confounder-immune adjudicator. Mente 2016 pooled **133,118 people** (63,559 hypertensive / 69,559
+non-hypertensive) from 49 countries across three cohorts (PURE + ONTARGET/TRANSCEND + EPIDREAM),
+**>10,000 events**, median 4.2 y follow-up; composite outcome = all-cause death + major CVD event, with
+**4-5 g/day sodium as the lowest-risk reference**.
+[@mente2016pure]
+
+**The headline is effect-modification BY hypertension (route-b), on a significant interaction test**
+(P for heterogeneity = 0.0342 for the composite; 0.0135 for death; 0.0432 for major CVD). The stratified
+HRs vs the 4-5 g/day referent:
+
+| Stratum | <3 g/day (low arm) | >7 g/day (high arm) |
+|---|---|---|
+| **Hypertensive** | HR **1.34** (1.23-1.47), p<0.0001 | HR **1.23** (1.11-1.37), p<0.0001 |
+| **Non-hypertensive** | HR **1.26** (1.10-1.45), p=0.0009 | HR **0.90** (0.76-1.08), p=0.25 **(NS)** |
+
+[@mente2016pure]
+
+Two distinct shapes: **the low-arm harm is present in BOTH strata** (and survives BP adjustment — low-arm
+HR 1.35 [1.23-1.49] in hypertensives, still p=0.0011 in non-hypertensives — so Mente reads it as **not
+BP-mediated**), while **the high-arm harm is confined to hypertensives** (flat/null in normotensives).
+Only \~10% of the pooled population had **both** hypertension and >6 g/day, which is the entire basis for
+Mente's targeting conclusion — reduce sodium only in high-intake hypertensives, not population-wide.
+[@mente2016pure]
+
+**The BP slope is itself hypertension-modified** (systolic mmHg per g sodium: hypertensives **2.08**
+[1.96-2.21] vs non-hypertensives **1.22** [1.13-1.30]; P<0.0001 for interaction) — concordant with the
+salt-sensitivity gradient this page holds, and it makes the high-arm stratification mechanistically
+coherent. But it does **not** explain the low-arm harm, which is where the artifact question lives.
+[@mente2016pure]
+
+**Why PURE is a pole and not the adjudication this page's AWAITS seeks.** The exposure is a **single
+fasting morning midstream urine** run through the **Kawasaki formula** to estimate 24h sodium
+(validated ICC \~0.70 vs a 24h collection; regression-dilution corrected from 30-90-day repeats in 448
+people). That is a one-day recovery biomarker, and its error is **largest at the extremes** — exactly
+where the J-arms sit — so a flat true relationship can be **bent into a U** by unequal measurement error
+alone, with no confounder and no reverse causation, and it would pass the checks Mente ran
+-> [[Measurement Error in Dietary Assessment]], [[The U-Shaped Association Artifact]]. Mente ran only the
+**weak** artifact checks (exclude events in the first 2 years; exclude in turn those with known
+CVD/hypertension/diabetes; exclude anti-hypertensive users) — the pattern held — but ran **no
+referent-correction and no genetic/Mendelian-randomization** instrument on the low arm, which is the
+*strong* check [[The U-Shaped Association Artifact]] requires. Mente himself concedes observational
+analysis cannot prove causality and calls for large long-term RCTs of sodium *level*. So the low arm is
+**directly observed but still unadjudicated** — the [PRIOR] on the U-shaped artifact does not close
+here.
+[inferred from @mente2016pure]
+
+**The observed-vs-modelled discordance is the study's sharpest single result.** Mente built a simulation
+projecting CVD risk from sodium *assuming the effect runs only through systolic BP*, then compared it to
+the directly-observed HRs. The two **diverge most at <3 g/day**: the BP-only model predicts *lower* risk
+as sodium falls, while the observed data show *rising* risk — the exact discordance a hidden low-arm
+artifact would also produce, so it is **evidence that BP-mediation is incomplete OR that the low arm is
+contaminated**, and the study cannot separate those. This is why the WHO/He surrogate-transfer chain
+(sodium -> BP -> CVD, assumed monotone) and PURE's direct observation give **opposite signs below 3
+g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Population-Wide or Targeted]].
+[inferred from @mente2016pure]
 
 ## What is absent
 
@@ -607,5 +673,43 @@ its method in the same breath as its number.
 **`AWAITS` a source specifying the BP measurement protocol behind WHO's pooled estimates** — that is
 what would let this page say whether its central figure is an office, resting-standardised or
 ambulatory quantity. **The wiki cannot currently say which.**
+
+## A third guidance family sets a slightly laxer chronic-disease limit — NNR2023 `[2026-08-27, NNR revisit]`
+
+NNR2023 is a third guidance family on the sodium -> BP -> CVD chain (after WHO and ESC), and it lands
+on a **modestly higher** chronic-disease-reduction intake than WHO. It carries two distinct sodium
+numbers, on two different curves:
+
+- **AI (adequate intake) 1.5 g/day sodium** — the deficiency-side population reference value
+  (\~3.75 g salt): «(EFSA, 2019b; NASEM, 2019), the AI in NNR2023 is set to 1.5 g sodium per day»
+  ... «(females and males), which corresponds to 3.75 g salt per day.»
+  [@nnr2023]
+- **CDRR (chronic-disease-risk-reduction) limit 2.3 g/day sodium** (\~5.75 g salt), adapting NASEM:
+  «(CDRR) of 2.3 g/d are expected to reduce chronic disease risk within the general population.
+  NNR2023 thus adapts the reasoning from NASEM to recommend limiting intake to 2.3 g/d (about 5.75 g
+  salt).» [@nnr2023]
+
+**Parameter table** (op-weave 2a) — WHO target vs NNR CDRR, matched:
+
+| Parameter | WHO 2012 | NNR2023 | Same quantity? |
+|---|---|---|---|
+| Chronic-disease-reduction sodium ceiling | **<2 g/day** (5 g salt), strong | **<=2.3 g/day** (5.75 g salt), CDRR | **YES — both a chronic-disease-reduction intake ceiling** |
+| Deficiency-side reference | not set (the guideline is a reduction target) | **AI 1.5 g/day** (3.75 g salt) | NO — different construct |
+
+**The divergence is real but small, and it is a threshold-pick difference on a shared evidence base, not
+a disagreement about the curve.** NNR endorses the same linear BP dose-response WHO does — «Sodium
+restriction down to a sodium intake level of less than 2 g/d decreases blood pressure linearly by a
+dose-response manner» and «Interventional studies confirm the efficiency and safety of reducing sodium
+intake to a level of less than 2 g/d (Jula, 2023).»
+[@nnr2023] — yet sets its *recommended* CDRR
+ceiling at 2.3 g/d following NASEM rather than at WHO's <2 g/d. So the \~0.3 g/d gap is where each body
+drew the policy line, not a difference in the underlying slope.
+
+**This is NOT independent backing.** NNR2023 is a guideline synthesis resting on the qSR/NASEM/EFSA
+evidence base (its CDRR is explicitly *adapted from NASEM*), which overlaps the same primary evidence
+WHO distilled — so it is a guidance-family confirmation of *direction* while choosing a slightly laxer
+number (telos divergence class 1: a population-standpoint threshold pick), not a second independent
+witness. No `[E-independent]`; the surrogate-high / hard-outcome-very-low reading is unchanged.
+[inferred from @nnr2023]
 
 ## References

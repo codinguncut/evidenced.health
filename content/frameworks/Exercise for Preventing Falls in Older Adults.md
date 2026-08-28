@@ -16,8 +16,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Deficiency Repletion vs Enhancement
     - Frailty
+    - Exercise Safety in Osteoporosis
+    - Exercise and Bone Mineral Density
 created: 2026-08-05
-updated: 2026-08-18
+updated: 2026-08-27
 self_critiqued: 2026-08-05
 ---
 
@@ -90,6 +92,17 @@ So the chain *exercise -> fewer falls* is HIGH-certainty; the downstream *exerci
 hospitalisations* chain is promising but LOW-to-very-low certainty, because trials under-report these harder
 outcomes, not because the effect is absent (expectancy test: fractures are rarer events needing far
 larger trials). This is the exercise leg of fracture prevention.
+
+**The two channels of exercise -> fracture, kept distinct (2026-08-27).** Exercise reaches fracture
+by two largely independent routes, and this page measures only one. The **falls channel** above
+(balance/functional -> fewer falls -> fewer fractures) is BMD-independent and carries the larger,
+HIGH-certainty upstream signal. The **bone-loading channel** (loading -> higher BMD -> stronger bone)
+is a separate, smaller effect on a *surrogate* -> [[Exercise and Bone Mineral Density]] (Mohebbi
+2023: BMD SMD \~0.29-0.41, moderate at best, fracture transmission not shown). A BMD meta-analysis is
+structurally blind to the falls channel, so BMD *under*-reads exercise's fracture value — while a
+small BMD gain does not itself guarantee a fracture reduction ([[Surrogate Outcomes]]). Frame the
+recommendation on the composite of both channels, not on either number alone.
+[inferred from @sherrington2019; @mohebbi2023]
 
 ## The other leg — vitamin D / calcium supplements do NOT prevent fractures in the community-dwelling
 

@@ -16,6 +16,7 @@ relationships:
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
     - Most Published Findings Are False (PPV of a Field)
+    - Exercise Safety in Osteoporosis
 ---
 
  — this page is the wiki's own appraisal reasoning. Like [[The Underivable Optimum]] and

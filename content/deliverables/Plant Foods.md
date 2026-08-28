@@ -3,12 +3,13 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan]
-sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Whole Grain Mortality 2016, Aune - Nut Consumption Mortality 2016, Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Afshin - Health Effects of Dietary Risks GBD 2019]
+authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org)]
+sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Whole Grain Mortality 2016, Aune - Nut Consumption Mortality 2016, Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Afshin - Health Effects of Dietary Risks GBD 2019, NNR - Nordic Nutrition Recommendations 2023]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 ---
 
 **Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
@@ -41,7 +42,7 @@ once — they smoke less, weigh less, move more, drink less alcohol. A healthy p
 for any one thing on its plate; the benefit could ride on the fibre, the potassium, the displaced junk
 food, or on no single component at all -> [[Is the Food Category Doing Any Work]].
 
-There is a sharp way to see when a food label carries no real information. Compare the spread of
+A sharp test shows when a food label carries no real information. Compare the spread of
 outcomes *within* a category to the spread *between* categories. If the foods inside the label differ
 from one another more than the label differs from its neighbours, the category-level number describes no
 actual food — it is an average over a mix nobody eats -> [[Is the Food Category Doing Any Work]].
@@ -84,8 +85,8 @@ and where it simply cannot single out any one food.
 ## What each plant group does, outcome by outcome
 
 An exposure has no single number. Each plant group moves several outcomes by different amounts, with
-different certainty, and the evidence individuates the food itself only sometimes. What follows is the
-per-group picture, outcome by outcome, with the interval and the studied range attached to every figure.
+different certainty, and the evidence individuates the food itself only sometimes. The sections below
+take each group in turn, outcome by outcome, with the interval and the studied range attached to every figure.
 All of it is observational, dose-response meta-analysis of self-reported eaters — so the ceiling is
 confounding, and measurement error means a flat result understates rather than overstates a real
 gradient.
@@ -113,6 +114,14 @@ value of the ninth or tenth serving is small and uncertain. Lowest observed risk
 [@aune2017fv] Read 800 g/day as the sampling
 edge, not a demonstrated optimum: it is where the studied range thins out, so it marks a
 floor-for-most-benefit region rather than a point target ([[The Underivable Optimum]]).
+
+A guidance body sets its target the same way. NNR 2023 writes the recommendation as a *range* —
+«It is recommended to consume 500–800 grams, or more, per day of vegetables, fruits and berries in
+total.» [@nnr2023] — whose ceiling lands at
+800 g/day, exactly where the cohort data thin, and whose "or more" declines to cap it as harm. A body
+reading the same observational splines arrives at a range topping out at the studied edge, not a point
+optimum: that sharpens the caveat above rather than settling it into a proven curve feature
+-> [[Fruit and Vegetable Intake and Health]].
 
 The subtype cells are too thin to rank one fruit or vegetable against another (n=2-6, wide CIs). Where
 they do resolve, the tight, steep signals sit with leafy greens and citrus — not the berries and grapes
@@ -168,8 +177,7 @@ not a demonstrated harm of refined grain.
 
 What is that active fraction? Probably fibre. Reynolds tracks whole grain and total fibre in the same
 studies and finds whole grain acts largely *through* its fibre, not as a separate lever
-([[Dietary Fibre and Health]]). The practical consequence is to steer by fibre content, not by the word
-"whole grain."
+([[Dietary Fibre and Health]]). So steer by fibre content, not by the word "whole grain."
 
 That fibre lens exposes a genuine oddity in the grades. SACN rates fibre **isolates and gum supplements**
 `Effect · Adequate` — its top strength grade — while whole grain is graded lower, `Moderate` for
@@ -254,7 +262,7 @@ temperature does not destroy the lectin, and undercooked beans have caused docum
 [@petroski2020]. That is an **acute toxicity,
 not a chronic-diet claim**.
 
-So the honest message is not that antinutrients are harmless. It is that **properly prepared plant foods
+So the honest message is not that antinutrients are harmless, but that **properly prepared plant foods
 in a balanced diet carry no meaningful net antinutrient harm** — with *properly prepared* doing real
 work for raw high-lectin beans.
 
@@ -305,7 +313,7 @@ and they ride together with fibre and whole-grain content** in whole-food diets
 diets and high-fibre, high-whole-grain diets gave near-identical disease associations in the same
 cohorts — which is what proxies for one underlying pattern produce. So glycaemic response is not an
 independent lever, and **a fruit's GI does not carry its outcome**
-[inferred from @jenkins2024gi]. Where GI plausibly bites is a
+[inferred from @jenkins2024gi]. GI plausibly bites in a
 stratum, not the population: the already insulin-resistant, where postprandial excursions matter — a
 management finding, not a general-diet lever. See [[Surrogate Outcomes]],
 [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
@@ -324,11 +332,11 @@ And the robust processing signal in these data is whole-versus-processed, not fr
 [@aune2017fv].
 
 
-One question this cannot answer is which specific fruit to pick. **Whether a grape's glycaemic load
+The evidence cannot say which specific fruit to pick. **Whether a grape's glycaemic load
 makes it worse than a raspberry is a named gap** — the per-fruit subtype cells are too thin (two to six
 studies, wide intervals) to rank one fruit against another on outcomes
-[@aune2017fv]. The evidence resolves at the
-level of whole fruit versus processed forms, not at the level of one fruit versus the next.
+[@aune2017fv]. The evidence separates
+whole fruit from processed forms, not one fruit from the next.
 
 So how much does any of this matter, set against the big levers?
 
@@ -347,9 +355,9 @@ Two levers still have room to move.
 intakes sit 10-11 g/day below the 30 g/day AOAC reference value for men, and
 13 g/day below for women [@sacn2015]
 — roughly a 40% shortfall. Closing it is a genuine behaviour change, not a
-tweak. And it is reachable many ways: any high-fibre food, or a fibre
-supplement, gets you there. The property that carries the benefit is **total
-fibre**, not how many different foods you eat -> [[Dietary Fibre and Health]].
+tweak. And you can reach it many ways: any high-fibre food, or a fibre
+supplement, gets you there. **Total fibre** carries the benefit, not how many
+different foods you eat -> [[Dietary Fibre and Health]].
 Eating a range of foods loosely helps cover micronutrient needs, but that is a
 whole-diet adequacy heuristic, not a requirement — and a single high-fibre
 food already reaches the fibre target on its own.
@@ -395,9 +403,9 @@ is not yet known.
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 11 sources — 7 gold, 2 high, 1 moderate, 1 methods reference (Willett, tier-exempt) |
+> | **Evidence included** | 12 sources — 8 gold, 2 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
 
 ## References

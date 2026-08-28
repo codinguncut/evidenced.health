@@ -2,8 +2,8 @@
 type: framework
 question: Do soy products change a patient-important outcome, are the feared hormonal / breast-cancer / cholesterol effects real, and do the forms (whole / fermented / isolated protein) differ?
 aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari]
-authors: [Reed, Katharine E; Camargo, Juan; Hamilton-Reeves, Jill; Kurzer, Mindy; Messina, Mark; Chen, Meinan; Rao, Yanhua; Zheng, Yi; Wei, Shiqing; Li, Ye; Guo, Tong; Anderson, James W; Johnstone, Bryan M; Cook-Newell, Margaret E]
-sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995]
+authors: [Reed, Katharine E; Camargo, Juan; Hamilton-Reeves, Jill; Kurzer, Mindy; Messina, Mark; Chen, Meinan; Rao, Yanhua; Zheng, Yi; Wei, Shiqing; Li, Ye; Guo, Tong; Anderson, James W; Johnstone, Bryan M; Cook-Newell, Margaret E; Blanco Mejia, Sonia; Jenkins, David JA]
+sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019]
 cluster: soy
 nucleus: true
 confidence: medium
@@ -16,8 +16,8 @@ relationships:
     - Fermented Foods
     - Surrogate Outcomes
 created: 2026-08-05
-updated: 2026-08-05
-self_critiqued: 2026-08-05
+updated: 2026-08-26
+self_critiqued: 2026-08-26
 ---
 
 **Nucleus of the `soy` cluster** — the canonical page for what soy does to patient-important
@@ -37,8 +37,10 @@ certainty, not to *it's complicated*:
   null [@reed2021].
 - **Breast cancer** — **neutral-to-protective, and conditional on menopausal status, population and
   study design** [@chen2014].
-- **LDL cholesterol** — modest **lowering**, largest in hypercholesterolemics, via the **isolated
-  soy-protein** form [@anderson1995].
+- **LDL cholesterol** — modest **lowering** via the **isolated soy-protein** form; the best current
+  intrinsic estimate is **\~3% (−4.76 mg/dL)** at \~25 g/d [@blancomejia2019], a downward revision of the dated \~13% figure
+  [@anderson1995]. A **surrogate** — the events
+  benefit is inferred through [[LDL ApoB and Cumulative Exposure]], not measured.
 
 Thyroid (goitrogen) and antinutrient (phytate) fears are **named gaps** below — not searched here,
 so neither asserted nor dismissed.
@@ -155,15 +157,80 @@ animal protein
 - outcome: LDL/total cholesterol — a **surrogate** for ASCVD; its causal transmission to events is
   the [[LDL ApoB and Cumulative Exposure]] claim, not assumed here.
 
+### The magnitude is revised DOWN — Blanco Mejia 2019 (`type-F` refinement of the Anderson leg)
+
+Blanco Mejia 2019 re-pooled the **46 soy-protein RCTs the FDA compiled** to decide whether to *revoke*
+the soy heart-health claim (43 with data; 41 for LDL / 50 comparisons, 43 for TC / 52 comparisons;
+2607 participants). At a **median dose of 25 g/d** over a **median 6 wk**, soy protein (79% isolated,
+vs mostly dairy-protein controls) lowered:
+
+- **LDL by −4.76 mg/dL (−0.12 mmol/L); 95% CI −6.71, −2.80; = −3.2% (95% CI −4.5, −1.9%)**; I2=55%,
+  no publication bias, no subgroup effect modification, and **no dose-response or threshold** located
+  (the studied dose range was narrow) [@blancomejia2019].
+- **TC by −6.41 mg/dL (−0.17 mmol/L); 95% CI −9.30, −3.52; = −2.8% (95% CI −4.1, −1.5%)**; I2=74%
+  [@blancomejia2019].
+- The abstract states the effect as *«approximately 3-4%»* LDL lowering
+  [@blancomejia2019].
+
+This is **F (claim-refinement), not E (independent backing):** both are meta-analyses pooling
+soy-protein RCTs on the *same* surrogate, over an **overlapping trial pool** (Blanco cites Anderson as
+ref 70 and compares directly), so they are the **same route re-estimated**, not two independent routes
+converging — no confidence bump is bought by their agreement.
+
+**Parameter table — why the two magnitudes differ (BLOCKING before the comparison prose):**
+
+| Parameter | Blanco Mejia 2019 (chunk 01) | Anderson 1995 (chunk 01) | Same quantity? |
+|---|---|---|---|
+| LDL net change vs control | −4.76 mg/dL (−0.12 mmol/L); −3.2% | −21.7 mg/dL (0.56 mmol/L); −12.9% | Same **measure** (net between-group MD on LDL, matched-protein control), but NO on the overall figure — confounded by dose + baseline (below) |
+| TC net change vs control | −6.41 mg/dL (−0.17 mmol/L); −2.8% | −23.2 mg/dL (0.60 mmol/L); −9.3% | same measure; differs by dose + baseline |
+| Soy dose | median **25 g/d** (IQR 23.8, 38.1) | mean **47 g/d** (range 17-124) | **NO** — Anderson \~2x the dose |
+| Baseline population | LDL 110-201 mg/dL, mean 147.6 (borderline) | wide, incl. severe hypercholesterolemia (>335); baseline drove \~77% of variance | **NO** — Anderson spans much higher (more responsive) baselines |
+| Comparator | non-soy protein (72% dairy) | animal protein, fat/SFA/cholesterol-matched in most | \~yes (both matched-protein = "intrinsic") |
+| Exposure form | 79% ISP + soy foods/milk | isolated/textured SP; whole soybeans excluded | \~yes (predominantly isolated protein) |
+
+**Reconciliation.** The overall Anderson −12.9% and Blanco −3.2% are **not the same quantity**:
+Anderson pooled both **higher doses and higher-baseline populations**, and both inflate the effect
+(dose-response + the route-(a) baseline dependence Anderson itself found). Matched at Blanco's
+population, the gap largely closes — Anderson's own **normal-baseline (<200 mg/dL) quartile was NS
+−3.3% cholesterol** (LDL Q1 −7.7%), and its **25 g/d dose-model point was −8.9 mg/dL TC** (vs Blanco's
+−6.41). So the downward revision is partly a genuine update (a cleaner FDA-identified set, no
+detectable dose-response) and partly **explained by lower dose + lower baseline**, not a contradiction
+[inferred from @blancomejia2019; @anderson1995]. Both MAs agree on **direction** and on **baseline-amplification**.
+
+**Intrinsic vs extrinsic (a decision-relevant distinction, `type-B`).** Blanco's pooled effect is the
+**intrinsic** effect (soy vs a matched-protein control). The real-world effect adds an **extrinsic /
+displacement** component when soy *replaces* saturated-fat-rich animal protein — «The overall effect
+in real life could be potentially higher than that seen in these trials» — an NHANES-III estimate put
+the displacement advantage of 25 g/d soy for animal protein at \~4.3% additional LDL lowering
+[@blancomejia2019]. So the trial figure is a floor
+for a **substitution** framing (layer-3), not the ceiling.
+
+**Surrogate bounding (the sharp point).** LDL/TC are **surrogates** — Blanco reports **no hard
+cardiovascular outcomes**, calling them *«surrogates of CVD»*. The events benefit of a −0.12 mmol/L
+LDL reduction is *inferred* through the cumulative-exposure causality on [[LDL ApoB and Cumulative Exposure]], never measured here — and in absolute terms **0.12 mmol/L is a small LDL move** beside a
+standard drug lever (a statin lowers LDL \~1.5-2 mmol/L), so soy protein sizes as a **small,
+non-substitutable-for-a-drug lever** on this outcome (layer-1). The intrinsic effect is real,
+directionally certain, and modest.
+
+**Mechanism (proposed, not established).** Blanco attributes the intrinsic effect to the **7S globulin
+fraction** of soy protein (shared with other legumes), which *«appears to inhibit hepatic Apo B
+synthesis»*; isoflavones are judged a *«less likely»* contributor to the lipid effect
+[@blancomejia2019] `[EXTRACTED — asserted]`. This
+is a mechanistic proposal with directional weight, not an outcome finding.
+
 **Two live caveats (symmetric standards):**
 
-- **DATED and industry-funded.** 1995; supported in part by Protein Technologies International (a soy
-  protein manufacturer), with the lead author on its advisory group — a favourable
-  industry-sponsored result gets *more* scrutiny, not less. — a newer MA revises the LDL
-  magnitude downward (\~3-5%), superseding this figure; hold the direction, treat the 1995 magnitude
-  as an upper bound until the newer MA is held.`
-- The mechanism was not established here; Anderson notes primate data attributing 60–70% of the effect
-  to soy estrogens (isoflavones), but this is animal-derived and speculative
+- **The 1995 magnitude is superseded.** Anderson's \~13% LDL figure was DATED and industry-funded
+  (Protein Technologies International, lead author on its advisory group); **treat Blanco Mejia's \~3%
+  intrinsic effect at \~25 g/d as the current estimate**, holding Anderson for the baseline-dependence
+  and dose structure it still supplies. Blanco is itself soy/food-industry-entangled (co-author
+  Messina directs the Soy Nutrition Institute) — but it runs *against* sponsor interest by **shrinking**
+  the claim, on a gold FDA-identified set with no funnel-plot asymmetry, so the direction is not
+  carried by the framing. Both favourable-industry results get *more* scrutiny, not less
+  [@blancomejia2019].
+- The mechanism was not established in either MA; Anderson notes primate data attributing 60–70% of
+  the effect to soy estrogens (isoflavones), but this is animal-derived and speculative, and Blanco
+  judges the isoflavone route the *less likely* one
   [@anderson1995].
 
 
@@ -196,9 +263,11 @@ is [[Is the Food Category Doing Any Work]] instantiated — the category "soy" i
 single verdict, and the better-designed evidence tracks the better-specified exposure.
 
 The three sources answer **three different outcomes** (hormones · cancer · lipids), so they are
-**facets of this nucleus, not a tension** — no joined issue, no forced independent-backing claim. Each
-outcome rests on a single MA; confidence is `medium` overall (three gold-tier MAs, but each outcome
-single-sourced, one dated).
+**facets of this nucleus, not a tension** — no joined issue, no forced independent-backing claim. The
+lipids outcome now rests on **two MAs, but F-related** (Blanco Mejia refines Anderson's magnitude on
+an overlapping trial pool — not independent E), so confidence stays `medium` overall (four gold-tier
+MAs, but each outcome effectively single-route, and the LDL/TC endpoints are surrogates).
+
 
 ## One axis only
 
@@ -208,8 +277,9 @@ economic loads and is entangled with the animal-feed / deforestation debate; the
 
 ## Gaps and held threads
 
-- — updates the LDL magnitude downward;
-  supersedes Anderson's \~13% figure.`
+- **LDL magnitude — CASHED (Blanco Mejia 2019 held).** The intrinsic effect is \~3% (−4.76 mg/dL) at
+  \~25 g/d, revising Anderson's \~13% downward; see Fear 3. Remaining LDL gap: **no hard CVD-outcome
+  trial** of soy protein — the events benefit stays inferred through [[LDL ApoB and Cumulative Exposure]]. `G (needs a soy -> ASCVD-events trial, which does not exist)`.
 - **Thyroid (goitrogen)** — GAP, not searched. Prior (to test, not asserted): mild goitrogen only
   under iodine deficiency; in euthyroid, iodine-replete people likely no clinically important harm
   (may modestly raise levothyroxine dose needs — an absorption/timing issue). `AWAITS a soy-thyroid

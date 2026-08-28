@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Reading a Confidence Interval
 created: 2026-07-25
-self_critiqued: 2026-08-20
-updated: 2026-08-26
+self_critiqued: 2026-08-27
+updated: 2026-08-27
 ---
 
 ## The decomposition
@@ -561,5 +561,21 @@ subgroups, including age, sex, and comorbidity burden»
 [@nong2026obesity] — *no credible
 modification found*, not *modification excluded*. Full comparative appraisal -> [[Comparing Obesity Drugs]].
 [inferred from @nong2026obesity]
+
+## A prognostic-model version of the same absence — PREVENT's CKM add-ons `[2026-08-27, Khan]`
+
+Coley and Nong are *trial-subgroup* absences (a searched-for effect-modifier not found). Khan's AHA
+PREVENT risk-model derivation supplies a **prognostic** cousin: adding more person-level predictors to
+a baseline-risk instrument barely improves it. Beyond the base equation (traditional factors + eGFR),
+the optional kidney/metabolic/social predictors gave only «minimal ... statistically significant»
+discrimination gains (delta-C \~0.004-0.005 for urine albumin, HbA1c and social-deprivation index
+combined), improving **calibration** in just one narrow stratum — marked albuminuria (UACR >300 mg/g)
+[@khan2024]. This is not a treatment-effect-modification test
+(it is prediction, not a relative effect), so it does not *directly* score route (b); but it points the
+same way — **more personalization inputs, almost no decision-relevant gain** — a data point toward the
+standing `[PRIOR — over-personalization is the likelier failure]`, lodged not scored. Full instrument
+differential (race removal, the PCE \~50% overprediction, the 10-/30-year split)
+-> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
+[inferred from @khan2024]
 
 ## References

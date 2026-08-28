@@ -2,8 +2,8 @@
 type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
-authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
+authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017]
 cluster: fish-seafood
 nucleus: true
 confidence: medium
@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-08-23
+updated: 2026-08-28
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -362,5 +362,17 @@ but may still help all-cause) is unchanged.
   section says so. The still-owed omega-3 RCT woven directly here remains open.
 - **Coherence, not validity** (R1): the loop is open — no operation grades the fish->cognition association
   against a realized dementia outcome.
+
+## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
+
+Fish is the series' clearest **outcome-specific** food: inverse for all-cause mortality (0.93,
+0.88-0.98 per 100 g/d) and for **all three** CVD subtypes (CHD 0.88, stroke 0.86, heart failure
+0.80, all MODERATE), yet **null for T2D** (1.09, 0.93-1.28 — even positive in American cohorts) and
+**null/slightly positive for hypertension** (1.07, 0.98-1.16). Same food, opposite glycaemic/pressor
+signal — a caution against reading a mortality/CVD benefit as a whole-metabolism benefit.
+[@schwingshackl2017mort]
+[@bechthold2019]
+[@schwingshackl2017t2d] Full grid ->
+[[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

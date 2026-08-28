@@ -7,8 +7,9 @@ authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne]
 sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-12
+updated: 2026-08-27
 self_critiqued: 2026-08-12
+concrete_subject_audited: 2026-08-27
 ---
 
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
@@ -57,8 +58,8 @@ that carry a decision:
 - **Full-fat vs low-fat** — the guidance fault-line, which turns out not to be a fault-line at all in
   the observed data.
 
-This is a classic case of a food category whose boundary may carry no information -> [[Is the Food Category Doing Any Work]].
-A whole-milk finding must never be read as a yoghurt finding, nor a butter
+Dairy is a classic case of a food category whose boundary may carry no information -> [[Is the Food Category Doing Any Work]].
+Never read a whole-milk finding as a yoghurt finding, nor a butter
 finding as a cheese finding. Everything below is organised one food and one outcome at a time.
 
 
@@ -85,8 +86,8 @@ develop cardiovascular disease:
   [@guo2017].
 
 Two honest limits sit on top of these numbers. Every estimate is a **relative risk with no baseline
-event rate attached**, so the decision-relevant absolute effect cannot be recovered -> [[Relative vs Absolute Risk]].
-And it is all **observational and self-reported**: dietary intake measured by
+event rate attached**, so you cannot recover the decision-relevant absolute effect -> [[Relative vs Absolute Risk]].
+And the evidence is all **observational and self-reported**: dietary intake measured by
 questionnaire carries error large enough to flatten a real gradient, and dairy eaters differ
 systematically from non-eaters -> [[Measurement Error in Dietary Assessment]]. A null here is best
 read as *no signal survives the noise*, not as a guarantee of exactly zero effect.
@@ -120,7 +121,7 @@ artifact checks -> [[The U-Shaped Association Artifact]] and it dissolves:
 
 **Verdict: the milk-mortality signal does not survive the check.** The caveat on the check itself: it
 rests on leave-one-out sensitivity, a weak instrument, with no genetic or randomised evidence in the
-source to settle causation. The result is *not a finding of harm*, and equally *not a clean bill of
+source to settle causation. The milk-mortality signal is *not a finding of harm*, and equally *not a clean bill of
 health* — it is an artifact removed.
 
 
@@ -177,7 +178,7 @@ signal (CVD RR 0.942, 95% CI 0.892–0.994)
 
 That cardiovascular number does **not** independently corroborate Guo's cardiovascular null: the two
 meta-analyses draw on overlapping cohorts and measure a different contrast (Mishali's is a
-highest-vs-lowest categorical estimate, Guo's a per-200-g dose-response), so this is a *distinction*,
+highest-vs-lowest categorical estimate, Guo's a per-200-g dose-response), so the two amount to a *distinction*,
 not type-E independent backing. Do not read Guo-plus-Mishali as two separate confirmations on
 cardiovascular disease.
 
@@ -254,7 +255,7 @@ there — Malmir did not screen for deficiency, so that arm stays a separate, op
 
 
 
-This is the mechanistic heart of the dairy question, and it needs stating carefully: it is a claim
+The cheese-butter divergence is the mechanistic heart of the dairy question, and it needs stating carefully: it is a claim
 about *why the categories diverge*, corroborated in humans but not proven by a hard-outcome trial — it
 does **not** override the outcome evidence above.
 
@@ -265,7 +266,7 @@ for CHD, CVD or stroke, and an *inverse* association with diabetes (RR 0.96, 95%
 is the category with the (fragile) inverse CVD signal. Same saturated fat, different food, different
 association.
 
-The candidate explanation is the **food matrix**: the proposition that saturated fat behaves
+The candidate explanation is the **food matrix**: saturated fat behaves
 differently depending on the structure it sits in. As Astrup's reassessment puts it, «the healthfulness
 of fats is not a simple function of their SFA content, but rather is a result of the various components
 in the food, often referred to as the "food matrix."»
@@ -276,7 +277,7 @@ cannot be explained and predicted by its content in SFAs»
 
 Three cautions keep this from becoming a dairy halo:
 
-- **This is a mechanism with human corroboration, not an outcome finding.** No trial has fed cheese
+- **The matrix claim is a mechanism with human corroboration, not an outcome finding.** No trial has fed cheese
   against butter over decades and counted heart attacks — that study cannot be blinded and does not
   exist. The matrix claim is admitted directionally and marked as such, discounted accordingly.
 - **The source is dairy-adjacent.** Astrup's review is a narrative (not systematic) review with

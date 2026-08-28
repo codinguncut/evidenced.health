@@ -2,11 +2,11 @@
 type: framework
 question: In people with prediabetes, does an intensive lifestyle program or metformin better prevent progression to type 2 diabetes?
 aliases: [Diabetes Prevention Program, DPP, Metformin for Diabetes Prevention, Preventing Type 2 Diabetes, Prediabetes Intervention, Lifestyle vs Drug for Diabetes Prevention]
-authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P]
-sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022]
+authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Tuomilehto, Jaakko; Lindström, Jaana; Pan, Xiao-Ren; Hamman, Richard F]
+sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006]
 cluster: t2d-prevention
 nucleus: true
-confidence: medium
+confidence: high
 relationships:
   related_to:
     - Does Weight Loss Reduce Cardiovascular Events
@@ -15,8 +15,8 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-07
-updated: 2026-08-20
-self_critiqued: 2026-08-20
+updated: 2026-08-26
+self_critiqued: 2026-08-26
 ---
 
 The Diabetes Prevention Program (DPP) is the landmark head-to-head: in people with prediabetes, it
@@ -177,6 +177,79 @@ risk is the concern in such a stratum, the demonstrated levers are the direct on
 heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
 longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
 
+## Independent replication — Finnish DPS and Da Qing (type-E robustness)
+
+The lifestyle-prevention effect is **not one trial**: three randomized trials on three continents, in
+three separate IGT/prediabetes populations, each found a statistically significant relative reduction in
+incident diabetes for a multi-component lifestyle program versus usual-care advice. This is the value the
+DPP-family ingest banks — the head-to-head above rests on a *single* US trial, but the *lifestyle leg* of
+it is independently corroborated `[E-independent]`.
+
+**The matched-parameter comparison (the *same quantity?* discipline, required before any cross-trial
+magnitude claim):**
+
+| Parameter | US DPP (Knowler 2002) | Finnish DPS (Tuomilehto 2001) | Da Qing (Pan 1997) | Same quantity? |
+|---|---|---|---|---|
+| Stratum | IFG+IGT, mean BMI 34, age 51, US | IGT, BMI>=25 (mean 31), age 40-65, Finland | IGT, mean BMI 25.8, age 45, China | IGT — yes; adiposity differs (34 / 31 / 26) |
+| Lifestyle target | 7% wt loss, 150 min/wk activity | 5% wt loss, fat <30%E, fiber, 30 min/day | diet and/or exercise (BMI-scaled) | multi-component lifestyle — comparable class |
+| Comparator | placebo | general advice | general info | usual-care/advice — yes |
+| Follow-up | mean 2.8 yr | mean 3.2 yr | 6 yr | **NO — horizon differs** |
+| Metric | Cox RRR on incident diabetes, ITT | Cox RRR (HR 0.4) on incident diabetes, ITT | Cox RRR adj. baseline BMI+FPG, ITT | Cox-derived ITT RRR — **yes** |
+| RRR, full lifestyle vs control | 58% (48-66) | 58% (HR 0.4; CI 0.3-0.7) | 42% combined (diet 31 / exercise 46) | comparable RRR; Da Qing combined = closest match |
+
+The three headline RRRs are the **same quantity** — Cox-model, intention-to-treat relative risk reductions
+on incident diabetes against a usual-care comparator — so they are legitimately comparable. What is **not**
+matched is the follow-up horizon (2.8 / 3.2 / 6 yr) and the baseline adiposity, and those differences
+explain why Da Qing's point estimate is lower without contradicting the others: over 6 years more of the
+control group eventually progresses, compressing the relative reduction. **The defensible claim is
+therefore *three independent trials, concordant direction, RRR 31-58%*, NOT *all three showed 58%*.**
+
+- **Finnish DPS** [@tuomilehto2001]: 522 overweight middle-aged Finns
+  with IGT; «the cumulative incidence of diabetes was 58 percent lower in the intervention group than in
+  the control group (hazard ratio, 0.4; 95 percent confidence inter- val, 0.3 to 0.7; P<0.001)» —
+  cumulative incidence 11% (6-15) intervention vs 23% (17-29) control at four years. Its absolute frame:
+  «22 sub- jects with impaired glucose tolerance must be treated in this way for one year — or 5 subjects
+  for five years — to prevent one case of diabetes.» (NNT 5 over 5 yr — a *different horizon* from DPP's
+  NNT 6.9 over 3 yr, so the two NNTs are not directly comparable; each is read against its own follow-up.)
+- **Da Qing** [@pan1997]: 577 Chinese with IGT, randomized *by
+  clinic* to diet / exercise / diet+exercise / control; «In a proportional hazards analysis adjusted for
+  differences in baseline BMI and fasting glucose, the diet, exercise, and diet-plus-exercise interventions
+  were associated with 31% (P < 0.03), 46% (P < 0.0005), and 42% (P < 0.005) reductions in risk of
+  developing diabetes, respectively.» Absolute frame: «The cumulative incidence of diabetes at 6 years was
+  67.7% (95% CI, 59.8-75.2) in the control group compared with 43.8% ... in the diet group, 41.1% ... in
+  the exercise group, and 46.0% ... in the diet-plus-exercise group» — an absolute cumulative measure, *not*
+  the same quantity as the Cox RRRs and not to be conflated with them.
+
+**Two decision-relevant refinements Da Qing adds that the US and Finnish trials could not (type-F):**
+
+- **Combining diet and exercise was NOT additive.** «the efficacy of diet was similar to that of exercise,
+  and there was no additional benefit of combining the interventions.» Da Qing is the only one of the three
+  to randomize the *components* separately, and the combined arm (42%) did not beat exercise alone (46%).
+  The decision-change: for a lever chosen on effect size, a single well-adhered component may capture most
+  of the available prevention — stacking diet *and* structured exercise buys little *additional* incidence
+  reduction in this stratum, though it may aid weight-loss maintenance (see mediation below).
+- **The relative effect held in lean and overweight alike.** «The relative decrease in rate of development
+  of diabetes in the active treatment groups was similar when subjects were stratified as lean or overweight
+  (BMI < or >25 kg/m2).» So the lifestyle effect is not confined to the obese — it is a broad-spectrum
+  lever across the adiposity range (consistent with DPP's «highly effective in all subgroups»). Da Qing's
+  mean BMI 25.8 also *extends the transportability* of the effect below DPP's mean BMI 34.
+
+**Independence classification — a genuine `[E-independent]` convergence, with one honest lineage caveat.**
+The three are separate randomized experiments in separate populations, designed in different eras (Da Qing
+1986, Finnish 1993, US DPP mid-1990s), separately funded, on separate primary data — the substantive
+replication independence (the effect is *not* one dataset re-analyzed) holds strongly. Author lists do not
+overlap: no author is shared across the three, and neither Da Qing (the earliest, citing neither) nor
+Finnish (which cites Da Qing only as corroborating *prior evidence*, not as a data source) re-analyzes
+another's cohort. **The caveat, named under [[Symmetric standards]]:** an NIDDK-Phoenix institutional
+thread does connect two of them — Da Qing co-authors Bennett and Howard were at NIH/NIDDK, the same
+diabetes-epidemiology program Knowler (US DPP) belongs to, and Knowler is acknowledged «for his important
+contribution to the planning of our study» in the Finnish DPS. So the three teams are not hermetically
+sealed; the cleanest fully-independent pair is **Finnish DPS vs Da Qing** (no shared authors, different
+continents, neither citing the other as antecedent). The convergence is real and raises confidence on the
+lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage thread is why it is marked
+with the caveat rather than as three sealed-off routes.
+[inferred from @tuomilehto2001; @pan1997]
+
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 
 Metformin and lifestyle reduced fasting glucose similarly, but lifestyle did more on post-load glucose and
@@ -193,10 +266,45 @@ temptation is to read the 58% as a weight-loss dose-response — but the trial e
 > components remain to be determined.»
 > [@knowler2002]
 
-So the widely-quoted «each kg lost \~16% lower diabetes risk» figure is from a *later* DPP mediation
-analysis, **not this paper**, and is not asserted here [AWAITS (Hamman - DPP Weight Loss Mediation 2006) — the per-kg mediation estimate]. This page connects to the weight-loss cluster
-([[Does Weight Loss Reduce Cardiovascular Events]]) as an adjacency, not as evidence that weight loss *per
-se* is the sole mediator.
+So the widely-quoted *each kg lost \~16% lower diabetes risk* figure is from a *later* DPP mediation
+analysis — **Hamman 2006** — not the primary trial. That analysis is now held (below).
+
+### The weight-loss mediation — Hamman 2006 (type-F, the DPP cohort re-analyzed, NOT a fourth trial)
+
+Hamman re-analyzed the **DPP lifestyle arm alone** (1,079 ILS participants, mean BMI 33.9, 3.2-yr
+follow-up) to decompose *which* component of the intervention carried the prevention. **This is the same
+DPP cohort, not an independent replication** — it is a mediation/dose-response *under* the DPP effect
+(type-F mechanism), so it does not add a second data point to the type-E convergence above and must not be
+double-counted as one.
+
+- **Weight loss was the dominant mediator, with a clean per-kg dose-response.**
+  «Weight loss was the dominant predictor of reduced diabetes incidence (hazard ratio per 5-kg weight loss
+  0.42 [95% CI 0.35–0.51]; P <0.0001). For every kilogram of weight loss, there was a 16% reduction in
+  risk, adjusted for changes in diet and activity.» [@hamman2006] In the full multivariate model «Weight loss was the dominant factor ... (HR 0.42 per 5 kg;
+  P < 0.0001; R2 = 8.09%)» — and its share of explained variance dwarfs the others: even after correcting
+  the diet/activity measures for imprecision, «the proportion of explained variance for weight change
+  remains substantially higher than for either percent fat or physical activity» (partial R2 \~8% for weight
+  vs \~0.1-0.2% for percent-fat and activity). [@hamman2006]
+- **But physical activity has a weight-loss-INDEPENDENT effect — and this is where Hamman and Finnish DPS
+  converge (type-E on the sub-claim).** Among DPP participants who *failed* the weight-loss goal, activity
+  still cut risk: «Among 495 participants not meeting the weight loss goal at year 1, those who achieved the
+  physical activity goal had 44% lower diabetes incidence.» [@hamman2006] The Finnish DPS found the *same* pattern in a *different* cohort: «Among the subjects in
+  the intervention group who did not reach the goal of losing 5 percent of their initial weight, the odds
+  ratio for diabetes in those who had achieved the goal with respect to exer- cise (more than four hours per
+  week) during the first year was 0.2 (95 percent confidence interval, 0.1 to 0.6)» — while losing >5%
+  weight itself carried «odds ratio ... 0.3 (95 percent confidence interval, 0.1 to 0.7)».
+  [@tuomilehto2001] Two independent cohorts agreeing that activity
+  prevents diabetes *even without weight loss* is a genuine `[E-independent]` sub-finding.
+
+**Reconciling the two "dominant lever" readings.** Weight loss explains the most *variance* in who
+progresses (Hamman), yet activity works even in non-losers (Hamman + Finnish), and Da Qing found exercise
+alone at least as effective as diet and non-additive with it. The coherent decision-frame: **weight loss is
+the primary route and the thing to steer toward, but physical activity is a partly-independent second
+channel** — valuable in its own right for the person who cannot achieve the weight target, and the
+mechanism that sustains weight loss once achieved. This connects to the weight-loss cluster
+([[Does Weight Loss Reduce Cardiovascular Events]]) as mechanism, not as evidence that weight loss *per se*
+is the *sole* mediator.
+[inferred from @hamman2006; @tuomilehto2001]
 
 ## Adherence and adverse events
 
@@ -214,6 +322,8 @@ attributed to any intervention. [@knowler2002]
 
 ## Decision relevance
 
+[inferred from @knowler2002; @tuomilehto2001; @pan1997; @hamman2006]
+
 - **For prediabetes, an intensive lifestyle program is first-line** — it roughly doubles the absolute
   prevention yield of metformin (NNT \~7 vs \~14 over 3 years) and works across strata. Frame it as the
   substitution it is: lifestyle *versus* the drug, on the same outcome, not as an add-on.
@@ -228,11 +338,11 @@ attributed to any intervention. [@knowler2002]
 
 ## Limits and provenance
 
-- **Single landmark RCT** (though internally replicated: the same 58% appeared in the Finnish DPS, and the
-  Chinese Da Qing study showed 31-46% with diet/exercise — both cited by DPP, neither held here)
-  [AWAITS (Tuomilehto - Finnish DPS 2001) — independent replication of the lifestyle effect]
-  [AWAITS (Pan - Da Qing IGT Study 1997) — diet/exercise prevention]. A held second prevention trial would
-  move the head-to-head from a landmark single trial toward a synthesis.
+- **The head-to-head vs metformin is a single landmark RCT** (US DPP) — but the *lifestyle leg* is now
+  **replicated**: the Finnish DPS (58%, HR 0.4) and Da Qing (31-46% by arm) are held and woven above as a
+  `[E-independent]` three-trial convergence (see *Independent replication*). What remains single-trial is
+  specifically the *lifestyle-versus-metformin comparison* — neither Finnish nor Da Qing had a metformin
+  arm, so the claim that lifestyle *out-prevents the drug* still rests on DPP alone.
 - **Prediabetes-selected, US, mean BMI 34** — transports to similar prediabetic populations; the placebo
   incidence (11.0/100 person-yr) was higher than observational data, from selecting people with three
   strong risk factors plus frequent testing, so the *absolute* numbers are for a high-risk stratum.

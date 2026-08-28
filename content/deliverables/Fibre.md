@@ -7,8 +7,9 @@ authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; V
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-18
+updated: 2026-08-27
 self_critiqued: 2026-08-18
+concrete_subject_audited: 2026-08-27
 ---
 
 Fibre is a **real but modest supporting lever, not a big rock**. Eating enough of it is worth
@@ -100,7 +101,7 @@ all-cause mortality were based on prospective studies»
 The all-cause mortality and CVD magnitudes agree with Reynolds (mortality RR 0.835, 95% CI
 0.797-0.875; CVD RR 0.913, 0.893-0.932 per 7 g/day)
 [@veronese2018] -- but this is the same cohort
-literature re-pooled, so it is corroboration, not an independent second witness. **The robust core
+literature re-pooled -- corroboration, not an independent second witness. **The robust core
 is mortality and cardiovascular disease; the long cancer list is weaker.**
 
 ## Which fibre you eat decides which outcome moves
@@ -180,8 +181,8 @@ and a linear «14% reduction in CD risk» per 10 g/day
 observational, FFQ-measured, and open to reverse causation -- preclinical bowel disease itself
 changes what people can eat. So IBD-risk reduction is a *plausible additional reason* to eat a
 fibre-and-produce-rich diet, consistent with fibre's other benefits. And «22 g/d» is a studied
-intake category, not a validated threshold. The full cross-disease picture lives on
-[[Autoimmune Disease and Modifiable Risk]].
+intake category, not a validated threshold. [[Autoimmune Disease and Modifiable Risk]] carries
+the full cross-disease picture.
 
 ## Fermentable fibre is the real lever on the gut microbiome
 
@@ -222,7 +223,7 @@ plausible and the magnitude is thin or unheld**:
   plausible, magnitude unproven.
 - **Satiety and weight:** beyond the 0.37 kg trial figure, the satiety mechanism is not a measured
   endpoint here, so it stays at insufficient evidence.
-- **Transit and constipation:** the bulking mechanism of insoluble fibre is real physiology, but no
+- **Transit and constipation:** insoluble fibre's bulking action is real physiology, but no
   held source quantifies its effect on transit or constipation against a patient-important outcome.
 
 .
@@ -255,8 +256,8 @@ turns.** Reynolds' outcome curves are «many of which are linear with no sign of
 the available data». The paper finds «the greatest benefits ... for individuals consuming 25-29 g
 per day» and recommends «no less than 25-29 g per day with additional benefits likely to accrue
 with higher intakes.»
-[@reynolds2019] There is no located
-knee in the outcome data; the numbers mark the top of the sampled range. That is why the honest
+[@reynolds2019] The outcome data locate no
+knee; the numbers mark the top of the sampled range. That is why the honest
 default is *more within the studied range still helps* rather than *aim for exactly 30*
 ([[The Underivable Optimum]]).
 
@@ -297,7 +298,7 @@ shared-evidence agreement, not independent corroboration
 **On one long-standing gap, ESC supplies a first number for pulses:** «A single portion of pulses
 (legumes) a day lowers LDL-C by 0.2 mmol/L and is associated with a lower risk of CHD.»
 [@esc2021] Only the cholesterol half carries a
-magnitude; the events half is associational. So the honest statement is that a daily portion of
+magnitude; the events half is associational. So, honestly, a daily portion of
 beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-disease risk.
 
 ## The bottom line
@@ -306,7 +307,7 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 
 - **Aim for roughly 25-30 g of fibre a day from real food** -- whole grains, beans and lentils,
   fruit and vegetables -- knowing most people start about 40% short, so this is a real change worth
-  making. More is fine and probably slightly better; there is no ceiling shown on the outcomes.
+  making. More is fine and probably slightly better; the outcomes show no ceiling.
 - **Get your fibre from a variety of foods, not a supplement**, because the three fibre types do
   different jobs and whole foods carry all of them plus a matrix an isolate does not.
 - **Use viscous fibre (oats, psyllium, a daily portion of pulses) as a small cholesterol adjunct,
@@ -337,7 +338,7 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
   them against a patient-important outcome.
 - **This is a population-level appraisal.** Individual targets, and the stratum-specific antinutrient
   cautions, belong at the point of a personal decision, not here.
-- **The loop is open.** These are appraisals of coherence and source-fidelity, not verified
+- **The loop is open.** This wiki appraises coherence and source-fidelity, not verified
   outcomes -- no operation here has graded the *eat more fibre* recommendation against a realised
   result.
 

@@ -57,3 +57,13 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Exercise for Preventing Falls in Older Adults]] — the `falls` nucleus: exercise cuts the rate of
   falls 23% (HIGH certainty, Cochrane 108-RCT SR); the active ingredient is balance/functional training,
   not volume — the better-evidenced modifiable fracture lever for the replete older adult
+- [[Exercise Safety in Osteoporosis]] — the route-(c) contraindication facet (is exercise SAFE for
+  fragile bone, which movements to avoid): serious harm rare/unattributable, excess is minor AEs only;
+  avoid repetitive loaded spinal flexion, favour extension, but do not over-restrict daily bending;
+  the safety verdict is capped by systematic UNDER-reporting of adverse events (streetlight on the
+  harms side)
+- [[Exercise and Bone Mineral Density]] — the bone-loading *efficacy* facet: exercise raises BMD in
+  postmenopausal women (Mohebbi 2023, gold updated SR-MA; SMD \~0.29-0.41, moderate at best, cleanest
+  at total hip), but BMD is a SURROGATE — the moderators (bone/menopausal status, supervision) are all
+  null, and transmission to fewer fractures is not shown here (the falls channel, BMD-independent,
+  carries the larger fracture signal); same-group non-independence caps confidence

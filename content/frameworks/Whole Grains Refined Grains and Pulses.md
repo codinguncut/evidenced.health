@@ -2,8 +2,8 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019]
 cluster: nutrition
 confidence: low
 self_critiqued: 2026-08-13
@@ -16,7 +16,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-27
-updated: 2026-08-13
+updated: 2026-08-28
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -557,5 +557,21 @@ All three report an inverse **all-cause** association, but the increments differ
   here is the recurring **shape lesson**: like whole grain, its guideline number (400 g/day / 5-a-day)
   marks the evidence density, with lowest risk out at the **800 g/day studied edge** — a guideline
   threshold reading the data edge, not a curve feature -> [[Fruit and Vegetable Intake and Health]].
+
+## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
+
+Across the five-outcome DIfE/Boeing dose-response series, **whole grains are the single most
+consistently protective food in the whole matrix** — protective across all five outcome families and
+the only food with **two HIGH-grade cells**: all-cause mortality RR 0.92 (0.89-0.95, per 30 g/d) and
+T2D incidence RR 0.87 (0.82-0.93, per 30 g/d), both nonlinear.
+[@schwingshackl2017mort]
+[@schwingshackl2017t2d] By contrast
+**refined grains are essentially null** everywhere the series looks (mortality 0.99, T2D 1.01, CHD
+1.01) — the whole-vs-refined contrast on this page is exactly what the matrix reproduces — and
+**legumes are weak-to-null** (mortality 0.96 NS, T2D 1.00, CHD 0.96 NS; one protective adiposity
+cell, RR 0.88, single study).
+[@bechthold2019]
+[@schlesinger2019]
+Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

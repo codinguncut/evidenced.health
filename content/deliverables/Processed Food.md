@@ -7,8 +7,9 @@ authors: [Lane, Melissa M; Hall, Kevin D; World Cancer Research Fund Internation
 sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, NutriRECS - Red and Processed Meat Recommendations 2019, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Baye - Low AGE Diet Cardiometabolic 2017, Afshin - Health Effects of Dietary Risks GBD 2019]
 confidence: low
 created: 2026-08-01
-updated: 2026-08-20
+updated: 2026-08-27
 self_critiqued: 2026-08-20
+concrete_subject_audited: 2026-08-27
 ---
 
 **Processed food is not one exposure, and treating it as one is the mistake to avoid.** The
@@ -19,8 +20,8 @@ protective.
 
 **On disease and death the honest verdict is: broad, consistent associations at low certainty.**
 Every hard-outcome study of UPF is observational, so it cannot separate processing from the sugar,
-salt, fat, low fibre, poverty and inactivity that travel with it. One thing *is* nailed down by a
-randomized trial — at matched nutrient content, a heavily processed diet drove people to eat \~500
+salt, fat, low fibre, poverty and inactivity that travel with it. A randomized trial nails one thing
+down: at matched nutrient content, a heavily processed diet drove people to eat \~500
 more calories a day and gain weight. That is a real effect on a surrogate (intake and weight), not
 proof that processing causes heart disease or cancer.
 
@@ -56,7 +57,7 @@ tell what is inside it.
 
 ## One inpatient trial shows processing itself drives overeating — on a surrogate
 
-The single piece of randomized causal evidence is Hall 2019, and it must be kept sharply separate
+The single piece of randomized causal evidence is Hall 2019 — keep it sharply separate
 from the confounded cohorts. Twenty weight-stable adults (BMI 27) spent 28 days on a metabolic ward,
 two weeks each on an ultra-processed and an unprocessed diet in random order. The meals were *«designed
 to be well matched across diets for total calories, energy density, macronutrients, ﬁber, sugars, and
@@ -64,12 +65,12 @@ sodium, but widely differing in the percentage of calories derived from ultra-pr
 unprocessed foods»* [@hall2019], and eaten
 ad libitum.
 
-The result is the causal foothold. On the ultra-processed diet people ate **508 ± 106 kcal/day more**
+Hall's result is the causal foothold: on the ultra-processed diet people ate **508 ± 106 kcal/day more**
 (p = 0.0001) and **gained 0.9 ± 0.3 kg**, versus losing 0.9 kg on the unprocessed diet [@hall2019]. So processing does independent work on
 energy intake even when total composition is matched — moderate certainty, but on a **surrogate**
 (intake and weight over two weeks), not a hard outcome.
 
-Two things keep this honest. First, it is **not** simple palatability: hunger, fullness and
+Two things keep this honest. First, simple palatability is **not** the explanation: hunger, fullness and
 pleasantness ratings did not differ between the diets [@hall2019]. Second, the effect runs through **identifiable properties**, not NOVA
 magic — the ultra-processed meals were eaten faster (+17 kcal/min), had 85% higher non-beverage energy
 density, and diluted protein (modelled to explain *«at most 50%»* of the gap) [@hall2019]. n=20, one trial, two-week arms: it establishes

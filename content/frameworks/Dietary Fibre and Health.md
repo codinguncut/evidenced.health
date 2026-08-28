@@ -19,7 +19,7 @@ relationships:
     - Free Sugars Intake
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-29
-updated: 2026-08-18
+updated: 2026-08-28
 self_critiqued: 2026-08-17
 ---
 
@@ -47,6 +47,15 @@ strongest evidence sits on the smallest effect.**
   «The effect is small within the practical range of intake ... 3 g soluble fiber from oats ... can
   decrease total and LDL cholesterol by <0.13 mmol/L» and «can make only a small contribution to dietary
   therapy to lower cholesterol.» [@brown1999]
+- **The per-gram slope is linear-then-plateau, not a first-gram premium `[2026-08-28, challenge #R47]`.**
+  The -0.057/g figure is not a compression that hides a bigger first gram: Brown deliberately fit it
+  **within <=10 g «within the range in which the dose response appeared linear»**, with a **zero intercept**,
+  so inside the practical range each gram pays about equally (no concave front-loading). The nonlinearity is
+  at the **top** — Brown found «significant nonlinearity at higher doses... a biological maximum being
+  reached» **above \~10 g** [@brown1999].
+  So 10 g is the **knee/plateau onset, not a mid-curve point**: below it the slope is real and roughly
+  constant, above it more viscous fibre buys progressively less. Quote the figure **with its <=10 g
+  boundary** — bare, it reads as linearly extrapolable, which Brown's own restriction forbids.
 - **So: eat enough fibre, don't expect a miracle.** It is a genuine supporting lever — worth reaching
   \~25-30 g/day — but its measured causal effect (on the surrogate we can trial) is modest, and the large
   mortality numbers should not be read as if they were RCT-proven.

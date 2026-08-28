@@ -2,8 +2,8 @@
 type: framework
 question: How much dietary protein retains fat-free mass during energy restriction, and how does the requirement differ from the energy-balance target and across strata (resistance-trained vs sedentary, lean vs overweight)?
 aliases: [Protein for Fat-Free Mass Retention, Protein During Weight Loss, Protein FFM Deficit, Protein Cutting Diet, Protein Energy Deficit, FFM Retention Protein Target, Protein During Caloric Deficit, High Protein Weight Loss Diet]
-authors: [Refalo, Martin C; Trexler, Eric T; Helms, Eric R; Wycherley, Thomas P; Moran, Lisa J; Clifton, Peter M; Noakes, Manny; Brinkworth, Grant D; Kim, Jung Eun; O'Connor, Lauren E; Sands, Laura P; Slebodnik, Mary B; Campbell, Wayne W]
-sources: [Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016]
+authors: [Refalo, Martin C; Trexler, Eric T; Helms, Eric R; Wycherley, Thomas P; Moran, Lisa J; Clifton, Peter M; Noakes, Manny; Brinkworth, Grant D; Kim, Jung Eun; O'Connor, Lauren E; Sands, Laura P; Slebodnik, Mary B; Campbell, Wayne W; Hamman, Richard F; Wing, Rena R; Edelstein, Sharon L; Lachin, John M; Bray, George A]
+sources: [Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Hamman - DPP Weight Loss Mediation 2006]
 cluster: muscle
 confidence: medium
 relationships:
@@ -18,7 +18,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-08-07
-updated: 2026-08-21
+updated: 2026-08-27
 self_critiqued: 2026-08-21
 ---
 
@@ -234,9 +234,17 @@ dose-response elsewhere, here acting on a between-arm contrast -> [[Measurement 
 - **Duration:** subgroup analysis (<12 vs >=12 wk) showed no significant between-subgroup difference on
   any outcome; the FFM benefit reached significance only in the longer-duration studies. Long-term
   (>=12 mo) efficacy «remains largely unknown» — the one 52-wk trial could not be pooled.
-- **Clinical-relevance bridge:** the extra \~0.79 kg weight loss is small, but Wycherley invokes DPP —
-  «1 kg of weight loss is associated with a 16% risk reduction in the development of diabetes» — a surrogate-to-outcome link that is itself only
-  associational -> [[Does Weight Loss Reduce Cardiovascular Events]].
+- **Clinical-relevance bridge — now grounded in its primary source.** The extra \~0.79 kg weight loss is
+  small, but Wycherley invokes DPP to argue it still matters, and the primary DPP mediation analysis
+  (Hamman 2006) grounds the figure directly: «Weight loss was the dominant predictor of reduced diabetes
+  incidence (hazard ratio per 5-kg weight loss 0.42 [95% CI 0.35–0.51]; P <0.0001). For every kilogram of
+  weight loss, there was a 16% reduction in risk, adjusted for changes in diet and activity.»
+  [@hamman2006] So a protein-driven increment in weight
+  loss maps onto a real weight -> diabetes-incidence dose-response — but the link is **associational**
+  (in DPP the weight change was not itself randomized, only arm assignment was) and lands on a
+  **diagnosis endpoint, not a hard CV/mortality outcome**, so it inherits the parent DPP's surrogate-rung
+  caveat -> [[Does Weight Loss Reduce Cardiovascular Events]],
+  [[Lifestyle vs Metformin for Diabetes Prevention]] (where Hamman is fully woven).
 - **Older adults are unstudied *within Wycherley's own pool*** (sarcopenia + anabolic resistance flagged
   as a gap) — now closed by Kim 2016, whose age-restricted MA finds the same FFM-sparing direction and
   magnitude in adults >=50 (see the Kim section below).

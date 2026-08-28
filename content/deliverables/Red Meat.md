@@ -3,11 +3,12 @@ type: deliverable
 title: Red Meat
 question: What does the evidence show about red meat's effect on each patient-important outcome (CV events, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)?
 aliases: [Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, GRADE - Handbook]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, GRADE - Handbook]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-11
+updated: 2026-08-28
 self_critiqued: 2026-08-11
+concrete_subject_audited: 2026-08-27
 ---
 
 **The short answer: split red meat into its real exposures — processed, unprocessed, and the char from
@@ -17,8 +18,8 @@ red meat the signal is small and the certainty low, and two guideline bodies rea
 reach opposite recommendations. Read it as *less, and less certain*, not as established-harmless.**
 
 This is a general, population-level appraisal of red meat for any adult; it is not advice for one
-person. What moves the verdict here is the **type** of meat (processed vs unprocessed) and the
-**preparation** (char), not who is doing the eating — so the population-level picture is barely
+person. The **type** of meat (processed vs unprocessed) and the **preparation** (char) move the
+verdict here, not who is doing the eating — so the population-level picture is barely
 different from a stratum-specific one. Where the stakes genuinely shift by stratum (baseline
 cardiometabolic risk, age, deficiency-prone groups) is flagged where it matters and deferred to the
 end, not assumed up front.
@@ -91,7 +92,7 @@ a **realistic 3-servings-per-week reduction** (typical Western intake is 2 to 4 
 
 A "16% increased risk" and "about 7 fewer per 1000 over a lifetime" are the *same finding* stated two
 ways; which one a source foregrounds largely decides whether it reads as alarming or trivial. Both are
-honest. The absolute framing is the one a personal decision actually uses.
+honest. A personal decision actually uses the absolute framing.
 
 ### The certainty split — the crux, and it is a disagreement about grading, not data
 
@@ -113,20 +114,66 @@ dispute:
   to 1.01), but at low-to-very-low certainty and *rated down for serious indirectness* — the one
   informative trial (the Women's Health Initiative) reduced dietary *fat*, which incidentally lowered
   red meat by about 1.4 servings/week, rather than testing red meat itself
-  [@zeraatkar2019]. This cuts both ways: there is
-  almost no trial evidence *against* red meat, and equally almost no clean trial *exonerating* it.
+  [@zeraatkar2019]. This cuts both ways: almost no
+  trial evidence stands *against* red meat, and equally almost no clean trial *exonerates* it.
 - **Cohorts (Vernooij 2019, 70 cohorts, 6,035,051 people):** lower meat intake showed **very small or
   possibly small decreases** in cancer incidence and mortality, low-to-very-low certainty, with no
   significant difference between high- and low-risk-of-bias studies
   [@vernooij2019].
 
 So both guideline families genuinely see the same small, mostly-colorectal, low-certainty association.
-The disagreement is entirely in the step on top — whether that warrants telling people to cut down.
+The two families disagree entirely on the step on top — whether that warrants telling people to cut down.
 
 WCRF's mechanistic account also tracks the processed/unprocessed gap: haem iron promotes tumour
 formation by stimulating carcinogenic N-nitroso compounds, and curing/processing adds nitrites on top —
 which is why WCRF rates the mechanism "robust" for processed meat but only "moderate" for red meat, the
 same split as its convincing/probable grades [@wcrf2018].
+
+### The mechanism — heme iron and N-nitroso compounds
+
+WCRF names heme iron and N-nitroso compounds but leaves open *why* the risk tracks red meat over white
+and cured over fresh. The mechanism draws both boundaries — which is what makes those splits biological
+rather than arbitrary.
+
+**Heme iron draws the red/white line.** Bastide's 2011 meta-analysis makes heme — the iron-carrying
+pigment that gives red muscle its colour — the leading candidate mechanism, because «the heme content of
+red meat is 10-fold higher than that of white meat» such as chicken
+[@bastide2011heme], the proposed reason
+beef and pork carry a colorectal signal and poultry does not. Heme acts as a catalyst rather than a
+passive marker: in the gut it drives the endogenous formation of carcinogenic N-nitroso compounds and
+peroxidizes fat into genotoxic aldehydes
+[@bastide2011heme].
+
+Pooling five
+prospective cohorts (566,607 people, 4,734 colon-cancer cases), «The summary relative risk of colon
+cancer was 1.18 [95%C.I.: 1.06-1.32] for subjects in the highest category of heme iron intake compared
+with those in the lowest»
+[@bastide2011heme] — read that as a
+highest-versus-lowest categorical contrast, not a per-gram dose, and colon only (two cohorts lacked
+rectal data); Bastide calls it a "suggestive" association. Because heme is intrinsic to red meat whether
+or not it is cured, it sets a risk floor that switching from cured to fresh cannot get below.
+
+**Curing adds a second hit on the same channel.** Processing does not open a separate pathway; it
+amplifies the heme one. «In processed red meat, heme iron is nitrosylated, because curing salt contains
+nitrate or nitrite» [@bastide2011heme], and
+nitrosyl-heme is more reactive than the native form — which is why the firmer signal sits with processed
+meat, and why WCRF tells people to eat «no more than moderate amounts of red meat ... and eating little,
+if any, processed meat» [@wcrf2018].
+
+**But "cut the nitrite" is the wrong lesson.** The nitrite that curing binds into the meat matrix is not
+the nitrite most people eat. Said Abasse's 2022 site-specific synthesis (41 articles, 13 cancer sites)
+notes that «fruits and vegetables contribute over 80% of the daily dietary intake of nitrate ... and
+nitrite» [@abasse2022nitrate], and
+across both molecules it finds no colorectal association for that aggregate dietary intake at all — its
+significant associations fell at other sites and ran in both directions (higher nitrate raised thyroid-
+cancer risk and *lowered* kidney and bladder risk; higher nitrite raised glioma risk), never the
+colorectum. Cutting total dietary nitrite by eating fewer vegetables would forfeit a protective food and
+do nothing for colorectal risk.
+
+The colorectal lever, such as it is, is the curing nitrite bound into the meat matrix, which Said Abasse
+keeps conceptually apart: «It is the presence of nitrite, amides, and amines ... in processed meats and
+heme iron in fresh meat ... that is considered to be responsible for these risk effects»
+[@abasse2022nitrate].
 
 ## Red meat and heart disease
 
@@ -226,11 +273,11 @@ carcinogen mechanism for processed meat [@wcrf2018]. And low-AGE diets (achieved
 instead of frying and grilling) do move some markers — a meta-analysis of 17 RCTs found small drops in
 insulin resistance, total and LDL cholesterol [@baye2017]. But the LDL effect is trivially small (about -0.06 mmol/L), and the parameters people
 actually care about did not move: **no change in weight, fasting glucose, HbA1c, HDL or blood
-pressure**, and no CRP change. Every endpoint is a surrogate marker; there is no event or mortality
-trial of AGE reduction, and the research programme's own advocacy authorship warrants caution about the
+pressure**, and no CRP change. Every endpoint is a surrogate marker; no event or mortality
+trial of AGE reduction exists, and the research programme's own advocacy authorship warrants caution about the
 upbeat framing.
 
-So "always cook low and slow for your health" outruns the evidence. What *is* defensible is narrower:
+So "always cook low and slow for your health" outruns the evidence. The defensible claim is narrower:
 if you eat a lot of charred, blackened, or well-done processed/red meat, keeping the char off has a
 real (if unquantified-on-outcomes) mechanistic rationale via the HCA/PAH carcinogen pathway. That is a
 reason to avoid *burning* those specific foods, not a general low-temperature mandate for everyone.
@@ -239,7 +286,7 @@ reason to avoid *burning* those specific foods, not a general low-temperature ma
 
 **Verdict: choosing a leaner cut lowers your saturated-fat load, which is the one channel with a
 measured hard-outcome effect — but the effect is modest, replacement-dependent, and possibly not the
-saturated fat's doing, so this is a small refinement, not a decisive lever.** It sits in the same place
+saturated fat's doing, so choosing a leaner cut is a small refinement, not a decisive lever.** It sits in the same place
 as the whole saturated-fat story above: worth doing if you are eating a lot of fatty meat and are at
 elevated cardiovascular risk (where the absolute benefit is larger), close to negligible for a
 lean-eating, low-risk person.
@@ -318,7 +365,7 @@ eat less meat is explicitly justified "from both a health and an environmental p
 environmental aspects by design) sets its meat ceilings partly to limit environmental impact
 [@nnr2023].
 
-**These are real reasons and they are the
+**These environmental reasons are real, and they are the
 buyer's to weigh — but they are not health findings, and this appraisal neither prices them into the
 health verdict nor argues against them.**
 
@@ -383,9 +430,9 @@ realistic alternative you would actually eat instead.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about red meat's effect on each patient-important outcome (CV events, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)? |
-> | **Evidence included** | 15 sources — 7 gold, 5 high, 1 moderate, 1 weak |
+> | **Evidence included** | 17 sources — 9 gold, 5 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Red%20Meat.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Red%20Meat.md) |
 
 ## References

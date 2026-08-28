@@ -2,12 +2,12 @@
 type: framework
 question: Does higher nut consumption reduce cardiovascular disease, cancer, and all-cause/cause-specific mortality — for whom, by how much per serving, and with what dose-response shape?
 aliases: [Nuts, Nut Consumption, Tree Nuts, Peanuts, Nuts and Mortality, Nuts and Cardiovascular Disease]
-authors: [Aune, Dagfinn; Keum, NaNa; Giovannucci, Edward; Fadnes, Lars T; Boffetta, Paolo; Greenwood, Darren C; Tonstad, Serena; Vatten, Lars J; Riboli, Elio; Norat, Teresa]
-sources: [Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
+authors: [Aune, Dagfinn; Keum, NaNa; Giovannucci, Edward; Fadnes, Lars T; Boffetta, Paolo; Greenwood, Darren C; Tonstad, Serena; Vatten, Lars J; Riboli, Elio; Norat, Teresa; Schwingshackl, Lukas; Bechthold, Angela]
+sources: [Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
 cluster: plant-foods
 confidence: low
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-28
 self_critiqued: 2026-08-13
 relationships:
   related_to:
@@ -146,5 +146,15 @@ as ref 193) [@aune2017fv]:
   demonstrated optimum -> [[The Underivable Optimum]].
 - Both are observational, both cap at the confounding ceiling, both argue measurement error attenuates
   toward the null. Convergence across the two is **shared-lineage**, so it does not raise `confidence:`.
+
+## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
+
+Across the five-outcome DIfE/Boeing dose-response series, nuts carry the **largest single protective
+point estimates** in the whole matrix (all-cause mortality RR 0.76, 95% CI 0.69-0.84 per 28 g/d,
+MODERATE; CHD 0.67, 0.43-1.05), but the CIs are wide and the grade is low outside mortality — a
+big-but-uncertain lever whose benefit **plateaus by \~10-20 g/d** (a small handful captures most of it).
+[@schwingshackl2017mort]
+[@bechthold2019] Full
+cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

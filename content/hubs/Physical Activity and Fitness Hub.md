@@ -44,3 +44,19 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[Exercise vs Caloric Restriction for Visceral Fat]] — at a matched weekly energy deficit, exercise
   reduces visceral fat more than diet (dose-dependent; diet's slope flat) — the exercise-vs-diet lever
   for the metabolically-active depot
+
+## Physical activity and age-related eye disease
+
+- [[Cataract and Modifiable Exposures]] — physical activity lowers cataract risk (RR 0.90, WCRF
+  probable); a modest confirmatory arm on an already-pulled lever, discounted for healthy-user
+  confounding (E-value 1.46)
+- [[Age-Related Macular Degeneration and Modifiable Exposures]] — the null-arm counterpart: PA→AMD is
+  insufficient-evidence (RR 0.92, CI crosses 1); built extensible for a coming Mediterranean-diet arm
+
+## Physical activity and chronic kidney disease
+
+- [[Chronic Kidney Disease and Modifiable Exposures]] — PA is the WEAKEST of the three CKD-prevention
+  levers (Seidu MA: most-vs-least-active RR 0.91, GRADE very-low, all 12 cohorts serious ROB, 95%
+  prediction interval 0.75-1.09 crosses 1); healthy-user self-selection + reverse causation
+  uncorrected, and PA's mechanism routes largely through the obesity/glycaemia/BP channels. See the
+  nucleus for the full 3-lever ranking

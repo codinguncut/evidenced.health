@@ -12,7 +12,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-08-26
+updated: 2026-08-28
 self_critiqued: 2026-08-26
 ---
 
@@ -66,6 +66,15 @@ baseline risk. Of eight exposures below, **one** has an absolute effect on a har
 **Read the outcome-type column before the effect column.** Only the first two rows are hard outcomes.
 Everything else is an intermediate or a surrogate, and the telos is explicit that a surrogate is not an
 outcome — a marker can move the right way while patients do worse.
+
+**Within-diet food-group ranking** — the cross-outcome dose-response grid at
+[[Food Groups and Health Outcomes - A Dose-Response Matrix]] ranks 12 food groups against 5 outcome
+families at once, so the *direction-consistency* of a food lever is visible at a glance: whole grains
+protect across all five (two HIGH cells), processed and red meat harm across all five (the most
+consistent harmful levers), while SSB, dairy, fish and eggs are outcome-specific. It is the food-level
+input to this stratum ranking; its effects are per-serving RRs on mostly-hard outcomes, all
+observational-grade and from **one shared evidence base** (not independent).
+
 
 ## What is held as a RECOMMENDATION but with no magnitude
 

@@ -7,13 +7,14 @@ authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spa
 sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baudry - Organic Food Consumption Cancer NutriNet 2018]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-11
+updated: 2026-08-27
 self_critiqued: 2026-08-11
+concrete_subject_audited: 2026-08-27
 ---
 
-This is a population-level appraisal of the *health* axis of the *organic* label: what the measured
+This page appraises the *health* axis of the *organic* label at the population level: what the measured
 differences between organic and conventional food are, how large they run against a whole diet, and
-whether it is the *certification* or some *underlying exposure the label only partly captures* that
+whether the *certification* or some *underlying exposure the label only partly captures*
 does the work. It is not advice for one person — your budget and priorities enter later, when you weigh
 this against everything else. And it appraises health only. Many people buy organic for the environment,
 for animal welfare, or to back a particular farming system; those are legitimate reasons this appraisal
@@ -98,7 +99,7 @@ against total-diet intake.
 
 ## Sub-question 3 — the cattle case: the label tracks the FEED, not the certificate
 
-This is where the label and the causal exposure come apart. Organic milk and meat carry a more desirable
+Here the label and the causal exposure come apart. Organic milk and meat carry a more desirable
 fatty-acid profile — and the driver is pasture and forage, which the organic certificate does not
 guarantee.
 
@@ -213,7 +214,7 @@ those can be perfectly good reasons. This appraisal simply does not price them: 
 water, or welfare data and would be inventing a verdict if it pretended to. The pattern is the same one
 that shows up when people cut red and processed meat for reasons that are partly ethical or environmental
 rather than purely about their own health -> [[Should Adults Reduce Red and Processed Meat]]. The health
-question and the values question are separate axes, and only the first is answered here. What you do with
+question and the values question are separate axes, and this appraisal answers only the first. What you do with
 the second is yours, weighed against your budget and priorities.
 
 ## Caveats

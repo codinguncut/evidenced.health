@@ -7,8 +7,9 @@ authors: [Cappuccio, Francesco P; Shan, Zhilei; Capers, Patrice L; Windred, Dani
 sources: [Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-18
+updated: 2026-08-27
 self_critiqued: 2026-08-18
+concrete_subject_audited: 2026-08-27
 ---
 
 Sleep matters, but *how much sleep is healthy?* is really several different decisions wearing one
@@ -75,7 +76,7 @@ risk of dementia (RR 1.08, 1.04-1.12) among those who reported shorter but not v
 clear enough and **declined to make any sleep-duration recommendation** — an honest insufficient-evidence
 stop, distinct from a finding of no effect.
 
-The practical consequence is a role reversal. A person who habitually sleeps nine or ten hours and wakes
+In practice, the roles reverse. A person who habitually sleeps nine or ten hours and wakes
 unrefreshed is a **candidate for evaluation of occult illness** — depression, sleep apnoea, undiagnosed
 disease, the frailty of age — not a target for a shorter alarm. Cappuccio puts the point at its bluntest:
 «sleeping 9 h or more per night may represent a useful diagnostic tool for detecting subclinical or
@@ -116,7 +117,7 @@ gestured at, calling «consistently sleeping 6 to 8 h per night» optimal.
 «self-reported by questionnaire or interview», and the steep, mechanism-less long arm (RR 1.13 per hour)
 stays an unadjudicated artifact. [@yin2017]
 
-At the upper end there is **no evidenced harm to a healthy sleeper.** The long-sleep association is the
+At the upper end, **no evidence shows harm to a healthy sleeper.** The long-sleep association is the
 reverse-causation artifact from the last two sections — it is not evidence that sleeping eight hours
 hurts you. Stating an *upper bound* would launder that artifact into a dose-response cap, so **"up to 8 h"
 is a referent, not a ceiling.** Between roughly 7 and 8 h is most plausibly **diminishing returns** — the
@@ -143,8 +144,8 @@ per-hour figure is modest but real: against a US incidence of 7.6 cases per 1,00
 sleep duration compared with 7 h per day».
 [@shan2015]
 
-What lifts this above one more observational curve is Capers' meta-analysis of **randomised sleep-
-manipulation trials**, where the direction of causation is fixed by design. Its verdict: «sleep
+Capers' meta-analysis of **randomised sleep-manipulation trials** lifts this above one more
+observational curve, because its design fixes the direction of causation. Its verdict: «sleep
 restriction increases food intake and total energy expenditure with inconsistent effects on integrated
 energy balance».
 [@capers2015]
@@ -155,7 +156,7 @@ restriction itself gave «no significant effect overall (p = 0.08)» on body wei
 rose alongside intake.
 [@capers2015]
 So **sleep is not a demonstrated weight-loss lever** — its firmer metabolic signal is on
-glucose, not the scale. What that experimental arm *does* buy is direction: it removes the pure
+glucose, not the scale. That experimental arm *does* buy direction: it removes the pure
 reverse-causation objection the mortality and diabetes cohorts cannot answer on their own.
 
 One refinement corrects the popular story. The **leptin/ghrelin appetite-hormone axis is not the operative
@@ -200,7 +201,7 @@ model put it nearer 0.52) rather than pinned to a point. Set that against the du
 cohorts and 1.38 million people**. So regularity is a genuinely suggestive, possibly *stronger* knob — but
 on far thinner evidence than duration. It **adds an axis the duration-centric guidelines miss** rather
 than overturning them (Windred's own longest sleepers only exceeded 7.56 hours, never reaching the
-long-sleep illness-marker range, so there is no clash to resolve). Treat both as real, actionable levers.
+long-sleep illness-marker range, so no clash arises). Treat both as real, actionable levers.
 
 Duration and regularity are both about keeping *healthy* sleep healthy — but a separate decision opens
 once sleep is already broken.
@@ -209,7 +210,7 @@ once sleep is already broken.
 
 Once someone *has* chronic insomnia, three aids are on the table — CBT-I, melatonin, and prescription
 hypnotics — and each is studied with a **different measure on a different design**: a standardized effect
-size from pooled trials, minutes of latency, and a hazard ratio for death. There is no honest way to line
+size from pooled trials, minutes of latency, and a hazard ratio for death. You cannot honestly line
 those up into a single "which buys the most sleep" league table. **Rank them instead by evidence type,
 durability, and harm** — and doing so inverts the usual reach, which grabs a drug first and leaves
 behaviour last. [[Sleep Aids and Insomnia Treatment]]
@@ -245,8 +246,8 @@ It is enough to push hypnotics to short-course, lowest-dose, last-resort use;
 it does not quantify a body count. And no hard-outcome trial shows that *treating* insomnia by any route
 lowers mortality — every benefit endpoint here is a surrogate or self-report.
 
-With the arms of the sleep curve and the aids both sorted, the practical question is where sleep sits
-among everything else you could change.
+With the arms of the sleep curve and the aids both sorted, one question remains: where does sleep sit
+among everything else you could change?
 
 ## Sleep ranks as a moderate lever, and the upstream nudges are unpriced
 

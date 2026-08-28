@@ -3,21 +3,29 @@ type: deliverable
 title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
-authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao]
+authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao; Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org)]
 sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024,
   Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Yin - Sleep Duration Mortality Dose-Response 2017, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012,
-  BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999]
+  BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999,
+  Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018]
 confidence: medium
 created: 2026-08-18
-updated: 2026-08-21
-self_critiqued: 2026-08-21
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 ---
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
 little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read them
-as a stack, biggest at the base -- and a lever only counts if it applies to you: there is nothing to quit
+as a stack, biggest at the base -- and a lever only counts if it applies to you: you have nothing to quit
 if you don't smoke, nothing to lose if you are already lean and metabolically healthy. Pull these five and
 you have captured most of what a lifestyle can buy your health; the rest is real but small.
+
+And one regimen reaches many diseases at once: the same few levers -- above all moving your body,
+not smoking, and clearing excess fat -- lower risk across heart disease, dementia, diabetes and
+cancer *simultaneously*, so there is no separate anti-cancer or anti-dementia diet to run. That
+shared breadth is a large part of why these levers rank first. ->
+[[Shared Modifiable Levers Across Age-Related Diseases]]
 
 ## The five levers, biggest first
 
@@ -47,7 +55,7 @@ threshold. The target is the **self-verifiable endpoint** -- waist coming down, 
 markers back in range -- which for many people is a modest loss, not a fixed percentage. Keep muscle
 while you do it, with strength work and enough protein. Pull this lever for **blood sugar, liver and
 function -- not on a promise it prevents heart attacks** (the trials have not shown that). If you are
-already lean and metabolically healthy, there is nothing here to do. ->
+already lean and metabolically healthy, you have nothing here to do. ->
 [[Ectopic Fat and Depot-Specific Risk]], [[Fatty Liver MASLD and Weight Loss]],
 [[Does Weight Loss Reduce Cardiovascular Events]]
 
@@ -69,8 +77,8 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
 
 **Saturated fat -- no need to give up red meat.** Keep saturated fat modest and swap some of it for
 unsaturated fat (olive oil, nuts, fish rather than butter). It **might help a little, mostly against
-heart attacks rather than length of life** -- and the "a little" is the honest size of it. What
-matters is the swap: trading saturated fat for unsaturated helps, trading it for refined carbohydrate
+heart attacks rather than length of life** -- and the "a little" is the honest size of it. The swap is what
+matters: trading saturated fat for unsaturated helps, trading it for refined carbohydrate
 does not. -> [[Saturated Fat Intake and Replacement]]
 
 **Salt -- only if your blood pressure is drifting up.** If it is, cutting some salt brings pressure
@@ -99,7 +107,7 @@ harder *and* talk to a clinician. This page never names or doses a drug.
 - **Blood pressure** -- the clearest signal that the weight, activity, alcohol and salt levers are
   working. If it stays up despite them, that is the conversation about medication (off this page).
 - **apoB, or LDL cholesterol** -- the one blood marker that is measurable and even-handed across very
-  different diets. What matters is years of exposure, not a single reading; a level that has run high for
+  different diets. Years of exposure matter, not a single reading; a level that has run high for
   years is a clinician conversation.
 - **Fasting glucose or HbA1c** -- your metabolic-status readout, moved by the adiposity and activity
   levers. A number creeping up is the early warning; it is a marker to act on, not a target to chase with
@@ -160,7 +168,7 @@ In priority order, for most adults:
 1. **If you smoke, quit** -- nothing else on this page comes close.
 2. **Move a little every day** -- the first minutes matter most; you do not need a training plan.
 3. **Keep belly and visceral fat down** -- steer by waist and metabolic markers, not the scale.
-4. **Keep alcohol low** -- less is better; there is no amount that helps.
+4. **Keep alcohol low** -- less is better; no amount helps.
 5. **Protect your sleep** -- don't run chronically short.
 
 Everything past these is small. Do the five, then stop optimizing -- the ceiling is real, and reaching
@@ -193,9 +201,9 @@ gathers around the little ones. Here is where this page does more than repeat "e
 
 - **Health only.** This weighs effects on your physical health -- the length and quality of your life.
   It does not price cost, convenience, the environment or anything else; those weightings are yours.
-- **No drugs prescribed.** Where medication is the realistic alternative it is named for comparison, but
+- **No drugs prescribed.** Where medication is the realistic alternative, this page names it for comparison, but
   selecting, dosing or combining any drug is a clinician's job, not this page's.
-- **A starting point, not personal advice.** This is the population-level picture. Your own situation --
+- **A starting point, not personal advice.** This page is the population-level picture. Your own situation --
   your history, your labs, your goals -- moves the order, and that tailoring happens with a person, not
   a page.
 - **The loop is open.** This wiki grades whether its claims are internally coherent and faithful to
@@ -207,6 +215,33 @@ gathers around the little ones. Here is where this page does more than repeat "e
 The front of this guideline is kept to rough magnitudes; the precise figures, certainties and studied
 ranges live here, in a backing layer that does not clutter the directives. Every figure carries its
 source; a number read off a wide interval or the edge of the studied range is not a hard target.
+
+#### Why one regimen reaches many diseases (the shared-lever backbone)
+
+The big levers are not disease-specific. Assemble the modifiable-risk-factor lists the fabric holds
+for dementia, cardiovascular disease, cancer and Parkinson's, and a small set recurs in the *same*
+protective direction -- physical activity, not smoking, low adiposity, low alcohol -- so pulling the
+big rocks once buys risk reduction on several patient-important outcomes at the same time. That
+strengthens the ranking rather than adding competing tasks: a lever that moves three outcomes
+outranks one that moves one, at equal per-outcome effect. -> [[Shared Modifiable Levers Across Age-Related Diseases]]
+
+Physical activity is the most cross-cutting lever. It is protective for dementia
+[@livingston2024], for Parkinson's (RR 0.79, 0.68-0.91)
+[@chen2021pd], and a protective
+cause in the cancer evidence [@wcrf2018ter] -- and
+the same act also preserves physical function and cuts frailty and joint pain, not only prevents
+disease -> [[Shared Modifiable Levers Across Age-Related Diseases]]. Body fatness is a cause of 12 of
+the 17 cancers reviewed [@wcrf2018ter] on top of
+being a midlife dementia risk factor [@livingston2024].
+
+Two cautions bind. The per-disease numbers are co-membership evidence, not one commensurable effect
+size -- each risk ratio is for a different outcome in a different population, so a shared lever is not
+a same-size effect across diseases. And the pattern is disease-specific at the edges: smoking's
+association *flips* to apparently protective in Parkinson's, which the source attributes to reverse
+causation over the long pre-diagnosis prodrome, not to any protective effect
+[@chen2021pd] -- the one place the
+shared-lever logic would license a harmful act (smoke to protect the brain) is exactly where the
+signal is an artifact -> [[The U-Shaped Association Artifact]].
 
 #### Don't smoke
 
@@ -461,9 +496,9 @@ not targets a supplement can move [@celismorales2018].
 > | | |
 > |---|---|
 > | **Question** | 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?' |
-> | **Evidence included** | 39 sources — 20 gold, 18 high, 1 moderate |
+> | **Evidence included** | 42 sources — 23 gold, 18 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
 
 ## References

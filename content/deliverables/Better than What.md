@@ -6,8 +6,9 @@ question: 'How does the choice of comparator (replace X with what?) change the e
 sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-26
+updated: 2026-08-27
 self_critiqued: 2026-08-26
+concrete_subject_audited: 2026-08-27
 ---
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
@@ -38,7 +39,7 @@ open.
 
 ## Compared to what? Why an effect has no sign until the alternative is named
 
-An effect estimate is never absolute. It is a contrast between an exposure and the alternative that
+An effect estimate is never absolute. It contrasts an exposure with the alternative that
 exposure displaces, so every "X is beneficial" or "X is harmful" carries a hidden second arm: the
 comparator. Change the comparator and both the sign and the size of the answer change with it. The
 trouble is not that comparisons are hard — it is that the comparator is usually **left unstated**, and
@@ -164,7 +165,7 @@ at all, and what evidence structurally cannot show, is deferred -> [[Limits of E
 compensation magnitude stays on its exposure-lead above.
 
 Reversibility belongs to the same net-effect accounting and is rarely as free as assumed: *can I stop*
-is not *does stopping restore baseline*. Where restoration is unevidenced, the mitigation is
+is not *does stopping restore baseline*. Where restoration is unevidenced, you fall back on
 detectability and surveillance, not an assumed undo — and how far the evidence bar itself should relax
 for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 
@@ -217,8 +218,8 @@ patient-important health outcomes, priced by stratum, not a health-versus-enviro
 -> [[Fish and Seafood Consumption]]. Surrogate-versus-target and the relative/absolute baseline-risk
 split are deferred -> [[Metrics for Targeted Health Guidance]].
 
-Laying out the axes still leaves, on each axis, an estimate that is a region — and a recommendation has
-to say what to actually do with a region.
+Even after you lay out the axes, each axis still carries an estimate that is a region — and a
+recommendation has to say what to actually do with a region.
 
 ## From estimate to substitution: a region and a direction, not a point
 
@@ -231,7 +232,7 @@ state the conclusion and see -> [[Limits of Evidence]]. So frame a substitution 
 and move the right way within the region, not to land on a peak that was never identified
 -> [[The Estimate-to-Action Gap]].
 
-That is not a counsel of despair, because reading it as one job confuses two.
+That is not a counsel of despair. It only reads as one if you collapse two jobs into one.
 The fabric **optimizes ALLOCATION** — Layer 1 ranks levers by effect size x certainty and spends
 attention on the largest remediable gap (which lever, magnitudes deferred to the Big Rocks deliverables)
 — and it **satisfices DOSE** — per lever, clear the floor, move in the evidenced direction, stay in
@@ -263,8 +264,8 @@ provision with **no dedicated claim page**; it is carried here on that provision
 note in [[The Estimate-to-Action Gap]], and **flagged as a named gap** — a candidate concept page routed
 to Weave/ingest as residual, not a settled fabric claim.
 
-Naming a region raises the one question the region alone cannot answer: *which end* of it a decision
-should act on.
+Once you name a region, one question remains that the region alone cannot answer: *which end* of it
+to act on.
 
 ## Which end of the interval? Asymmetric loss and the conservative default
 

@@ -3,11 +3,12 @@ type: deliverable
 title: Protein Intake
 aliases: [Protein, Protein Intake, Dietary Protein, Protein Requirements, How Much Protein, Protein Source]
 question: 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?'
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Celis-Morales - Grip Strength Mortality 2018, Naghshi - Dietary Protein Mortality 2020, FAO - Dietary Protein Quality Evaluation 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Devries - Higher Protein Kidney Function Meta-Analysis 2018]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Celis-Morales - Grip Strength Mortality 2018, Naghshi - Dietary Protein Mortality 2020, FAO - Dietary Protein Quality Evaluation 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Devries - Higher Protein Kidney Function Meta-Analysis 2018]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-12
-self_critiqued: 2026-08-12
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 ---
 
 *How much protein should I eat?* splits into four separate decisions — **how much, from what
@@ -16,8 +17,8 @@ confusion dissolves.
 
 **If you lift weights, more protein helps a little, and only a little.** It lets training build
 slightly more muscle, and the benefit levels off somewhere around 1.6 g per kg of body weight a day.
-Treat that as a broad region to aim into, not a line to hit — and it is the training, not the powder,
-that does the work.
+Treat that as a broad region to aim into, not a line to hit — and the training, not the powder, does
+the work.
 
 **If your goal is a longer life, the *source* matters more than the amount.** Shifting protein-bearing
 foods from animal toward plant sources tracks lower mortality; dialling total protein up or down does
@@ -53,7 +54,7 @@ advice comes from stacking an answer to one question onto a different question's
 ## The famous numbers each sit on a different curve, so don't stack them
 
 Four numbers get quoted as if they were rival answers to one question. They are not — they answer
-different questions on different denominators, and only same-denominator numbers can be compared.
+different questions on different denominators, and you can compare only same-denominator numbers.
 
 | Number | What it actually answers | Denominator |
 |---|---|---|
@@ -126,7 +127,22 @@ average, is asso- ciated with less FFM loss» [@refalo2025].
 Two bounds keep this honest: the shape is again *linear with no proven knee*, and the protein dial is a
 *small* lever next to the training stimulus and the size of the deficit — a well-programmed lift and a
 modest (not aggressive) calorie cut do more for keeping muscle than the protein number does. The
-evidence is on lean mass, a surrogate, and does not transport to people with obesity.
+evidence is on lean mass, a surrogate.
+
+That raised \~1.9 g/kg *target*, and the BF%-scaled reasoning behind it, come from resistance-trained
+*non-obese* dieters, so the specific number does not transport to people with obesity. The **direction**,
+though, now does: two independent gold meta-analyses show higher protein preserving fat-free mass under a
+deficit in the overweight and obese too, at a lower, more modest dose. Pooling 24 isocaloric high- versus
+standard-protein weight-loss RCTs in overweight and obese adults (structured exercise excluded), the
+higher-protein arm produced «mitigation of reductions in fat-free mass (FFM; 0.43 kg; 95% CI: 0.09, 0.78
+kg)» plus more fat loss (-0.87 kg, 95% CI -1.26, -0.48) at only \~1.25 versus \~0.72 g/kg/day achieved
+[@wycherley2012]. The same holds in
+adults aged 50 and older: across 20 RCTs the higher-protein group lost less lean mass (+0.45 kg, 95% CI
+0.20-0.71 by percentage of energy; +0.83 kg, 95% CI 0.47-1.19 by g/kg/day)
+[@kim2016]. So higher protein sparing
+muscle during a deficit reaches the obese as well — what stays off-support for them is Refalo's raised
+*target* and its dose-response, not the direction, and both contrast trials show the benefit at a modest
+\~1.0-1.25 g/kg, not near 1.9 -> [[Protein Intake During Energy Restriction]].
 
 The practical direction is robust even where the exact number is not: **during any weight loss, keep
 training and keep protein up.** For someone on a GLP-1 drug this is the collision to watch — the drug
@@ -265,8 +281,8 @@ mass in predicting adverse outcomes» [@cruzjentoft2019]
 
 The load-bearing caveat: these are *predictors, not proven levers*. Grip and mass are partly *lowered
 by* underlying ill-health, so a low value flags higher risk — but no trial shows that *raising* muscle
-by protein and training lowers mortality. *Squeeze harder to live longer* over-reads the evidence. What
-the mortality link earns is the *ranking*: preserving muscle and strength is worth doing for function,
+by protein and training lowers mortality. *Squeeze harder to live longer* over-reads the evidence. The mortality link
+earns the *ranking*: preserving muscle and strength is worth doing for function,
 falls, and independence in their own right — patient-important outcomes — with an associational
 mortality rationale on top, not a promise.
 [inferred from @celismorales2018; @santana2021; @cruzjentoft2019]
@@ -275,7 +291,7 @@ mortality rationale on top, not a promise.
 
 - **Do resistance training first; protein is the small adjunct.** If you train, aim into a *region*
   around 1.6 g/kg body weight per day — topping up, not loading. For a hard hypertrophy goal, bias
-  toward 1.8-2.2; there is no reason to go higher.
+  toward 1.8-2.2; nothing warrants going higher.
 - **Do bias protein-bearing foods plant-ward for longevity** — the source, not the amount, is what the
   mortality evidence tracks. It is a small, associational lever, ranked below the big rocks.
 - **Do treat older adults as a real stratum:** \~1.0-1.2 g/kg/day (more in illness), spread as \~25-30 g
@@ -294,13 +310,13 @@ mortality rationale on top, not a promise.
   mass, acute synthesis, a filtration marker); no operation here checks whether hitting a protein
   number changes what a person actually experiences. The mortality findings are *observational
   associations*, not demonstrated causes.
-- **Appraise, not prescribe.** This states what protein amount, source, timing, and quality *do* to
+- **Appraise, not prescribe.** This page states what protein amount, source, timing, and quality *do* to
   each outcome, for identifiable strata. It does not set a personal gram target, screen your kidneys,
   or manage kidney disease — those need your labs, history, and a clinician.
-- **Population-level by default.** Strata are named explicitly (older adults, the resistance-trained,
+- **Population-level by default.** This page names the strata explicitly (older adults, the resistance-trained,
   those in an energy deficit, established kidney disease); place yourself in the narrowest one the
   evidence supports, and weigh the outcomes by what matters to you.
-- **One axis: health.** This weighs longevity, function, and muscle. It holds no environmental, ethical,
+- **One axis: health.** This page weighs longevity, function, and muscle. It holds no environmental, ethical,
   cost, or animal-welfare data; where the animal-versus-plant choice carries load on those axes, that
   trade-off exists but is not priced here.
 
@@ -309,9 +325,9 @@ mortality rationale on top, not a promise.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?' |
-> | **Evidence included** | 12 sources — 7 gold, 3 high, 1 moderate, 1 weak |
+> | **Evidence included** | 14 sources — 9 gold, 3 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
 
 ## References

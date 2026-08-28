@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G]
+sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-26
-self_critiqued: 2026-08-23
+updated: 2026-08-28
+self_critiqued: 2026-08-27
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -32,6 +32,7 @@ relationships:
     - Fish and Seafood Consumption
     - Deficiency Repletion vs Enhancement
     - Vitamin and Mineral Supplements for Disease Prevention
+    - Baseline Risk and the Relative-Absolute Split
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
@@ -73,7 +74,7 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 | Factor | Effect (Commission's cited RR/HR) | Life-course window |
 |---|---|---|
 | Less education | educational attainment protective; adulthood cognitive stimulation at work HR 0.77 (de-secondhanded below) -> [[Cognitive Stimulation at Work and Dementia]] | early + mid life |
-| Hearing loss | HR 1.37 (1.00-1.87), new MA -> [[Hearing Loss and Dementia]] | midlife |
+| Hearing loss | HR 1.35 (1.26-1.45), 50-cohort MA (Yu 2024, first-hand; de-secondhands the Commission's borrowed 1.37, 1.00-1.87) -> [[Hearing Loss and Dementia]] | midlife |
 | High LDL-C **(new 2024)** | +8% per 1 mmol/L (1.08, 1.03-1.14); >3 mmol/L HR 1.33 | midlife |
 | Depression | RR 2.25 (1.69-2.98), new MA (partly reverse-causal) | midlife |
 | Traumatic brain injury | RR 1.66 (1.42-1.93) | any age |
@@ -84,7 +85,7 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 | Obesity | midlife RR 1.31 (1.02-1.68) | midlife |
 | Excessive alcohol | >21 units/wk HR 1.22 (1.01-1.48) | midlife |
 | Social isolation | RR 1.57 (1.32-1.85) / 1.18 (1.08-1.30) | late life |
-| Air pollution | PM2.5 HR 1.03 (1.02-1.05) per 1 ug/m3 | late life (lifelong) |
+| Air pollution | PM2.5 HR 1.03 (1.02-1.05) per 1 ug/m3 (de-secondhanded below) | late life (lifelong) |
 | Uncorrected vision **(new 2024)** | RR 1.47 (1.36-1.60) | late life |
 
 [@livingston2024]
@@ -111,6 +112,86 @@ second witness — a de-secondhanding (type-F), **not** an `[E-independent]` cor
   and Layer-1 ranking (RR \~1.3, *below* the cardiometabolic big rocks and below education itself) on
   [[Cognitive Stimulation at Work and Dementia]].
 [inferred from @kivimaki2021cognitive; @livingston2024]
+
+## The air-pollution number, de-secondhanded — and it is weaker first-hand (F-refinement, 2026-08-27)
+
+The *air pollution* cell above carries the Commission's *borrowed* PM2.5 figure — HR 1.03 (1.02-1.05)
+per 1 ug/m3, a confidence interval that **excludes 1**, reading as an established risk factor. Its
+**primary evidence is now held first-hand**: Wilker 2023, a gold BMJ SR+MA («2080 records identified
+51 studies for inclusion»; 14 meta-analysable for PM2.5). Elissa Wilker (Harvard Chan) does not
+overlap the Commission author list, but Wilker cites Livingston 2020 and both rest on the same
+underlying observational cohort literature — so this is a **de-secondhanding (type-F), not an
+`[E-independent]`** second witness.
+
+- **The effect, first-hand, is BORDERLINE — the overall CI crosses 1.** «The overall hazard ratio
+  per 2 μg/ m3 PM2.5 was 1.04 (95% confidence interval 0.99 to 1.09). The hazard ratio among seven
+  studies that used active case ascertainment was 1.42 (1.00 to 2.02) and among seven studies that
+  used passive case ascertainment was 1.03 (0.98 to 1.07).»
+  [@wilker2023] Rescaled to the
+  Commission's per-1-ug increment (multiplicative, justified by the linearity finding below), Wilker's
+  pooled HR is **\~1.02 (0.99-1.04) per 1 ug/m3** [inferred from @wilker2023]
+  — the *same* point estimate as the borrowed 1.03, but with a confidence interval that **crosses the
+  null**. The secondhand cell reads significant; the comprehensive first-hand pool does not. This is
+  the beyond-summary move: the primary evidence is weaker than the propagated figure implies.
+- **The significant signal is an ascertainment-METHOD moderator, NOT a person-level stratum.** The
+  only sub-pool clearing significance is active case ascertainment (systematically screening every
+  participant) at 1.42 (1.00-2.02); passive ascertainment (registry/records) is null at 1.03
+  (0.98-1.07). This moderates *how dementia was detected*, not *who is exposed*, so it does **not**
+  license a route-(b) effect-modification claim -> [[Baseline Risk and the Relative-Absolute Split]].
+  Wilker's own «best estimate» leans on it — «the best estimate for the effect of a 2 μg/m3 higher
+  concentration of PM2.5 is a hazard ratio of 1.42 (95% confidence interval 1.00 to 2.02) based on the
+  studies that used active case ascertainment. However, given concerns of time trend bias and causally
+  relevant time windows, a more conservative estimate is 1.17 (0.96 to 1.43) after removing four
+  studies for these reasons.» [@wilker2023]
+  Both the headline 1.04 and the conservative 1.17 include 1, and Wilker concedes «the confidence
+  limits are likely too wide given the number and characteristics of the included studies».
+- **Risk of bias runs toward the null, so borderline may UNDERstate.** «Most studies were at high risk
+  of bias, although in many cases bias was towards the null»
+  [@wilker2023] (ROBINS-E on
+  observational cohort pools). So the null-crossing CI is *not* a no-effect verdict — a true small
+  positive effect is consistent with the data, and the direction of bias means the estimate is a floor
+  more than a point. Read as insufficient-evidence-tilting-positive, not "no effect."
+- **Dose-response is essentially LINEAR over the studied range — no knee to exploit.** «One other study
+  that explored a possible non-linear dose response association found essentially a linear relation
+  with exposure from 3 μg/m3 to 16 μg/ m3»; two studies suggested a levelling-off «but the
+  concentration at which the levelling started was often where data were more sparse» (\~8.5 and 35
+  ug/m3) [@wilker2023]. This is the
+  dose-response prior working: an apparent plateau sitting at the sparse edge of the data is
+  edge-of-evidence, not a curve feature -> every reduction pays. Sub-standard exposures still carry the
+  association: below the EPA 12 ug/m3 annual standard (n=8) the HR was «also 1.04 (0.97 to 1.11)».
+- **Other pollutants: NO2 and NOx directional, O3 null.** «Evidence suggested an association with NO2
+  (per 10 μg/m3 hazard ratio 1.02 (0.98 to 1.06)) and NOx (1.05 (0.98 to 1.13)), with all studies but
+  one of each showing small but elevated hazard ratio»
+  [@wilker2023]; ozone showed no
+  association (\~1.00). So the airborne-pollutant signal is PM2.5-and-nitrogen-oxide-led, each
+  individually borderline.
+
+**Parameter table — the borrowed 1.03 vs the first-hand pool
+[inferred from @wilker2023; @livingston2024].**
+The Commission's cell and Wilker's pool are not the same quantity — different increment, different
+pooled set, different ascertainment mix — so the comparison bounds and re-grades the cell, it is
+**not a tension**.
+
+| Parameter | Commission (borrowed) | Wilker 2023 (first-hand) | Same quantity? |
+|---|---|---|---|
+| Increment | per 1 ug/m3 PM2.5 | per 2 ug/m3 PM2.5 | **NO** |
+| PM2.5 estimate | HR 1.03 (1.02-1.05), excludes 1 | HR 1.04 (0.99-1.09), crosses 1 | NO — per-1 rescale \~1.02 (0.99-1.04) |
+| Statistical significance | significant | borderline / null overall | NO |
+| Pooled set | borrowed prior estimate | 14 studies, 2023 systematic pool | NO |
+| Ascertainment | unspecified | active 1.42 (1.00-2.02) vs passive 1.03 (0.98-1.07) | NO |
+
+- **Layer-1: a weakly-modifiable STRUCTURAL/POLICY lever — the de-secondhanding does NOT reorder the
+  personal rocks [inferred from @wilker2023].** The
+  effect is «smaller than those reported for other risk factors for dementia (eg, education and
+  smoking)» [@wilker2023], and
+  ambient air pollution is only weakly modifiable by an individual — «To some degree, this reduction
+  can be done on a personal level and clinicians should communicate the risks of air pollutant
+  exposures to their patients. More importantly, steps can be taken at a broader public policy level»
+  [@wilker2023]. A person's own
+  margin is thin (residence, filtration, commute); the lever lives mainly in the population/policy tier
+  -> [[Layer 1 - Ranking Interventions for a Stratum]]. So Wilker **quantifies and weakens** the
+  Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
+  cardiometabolic big rocks.
 
 ## What the framework changes about what to do
 
@@ -395,6 +476,19 @@ witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds th
   observational cohort literature with the diet lever and the mechanism with the cardiometabolic rocks,
   so it is flagged as largely mediated, not additive. No tension filed. The full decomposition lives on
   [[Fish and Seafood Consumption]], not re-litigated here.
+- **Air-pollution de-secondhanding added (F-refinement 2026-08-27, Wilker 2023).** The Commission's
+  borrowed PM2.5 HR 1.03 (1.02-1.05) per 1 ug/m3 — CI excluding 1 — is de-secondhanded to its
+  first-hand BMJ SR+MA, whose overall pool per 2 ug/m3 is 1.04 (0.99-1.09), CI crossing the null (a
+  per-1-ug rescale \~1.02 (0.99-1.04), marked). Filed as F, **not** E: Wilker cites
+  Livingston 2020 and shares the underlying observational cohort literature, so no independence is
+  claimed. Honesty guards held: the significant 1.42 is stated as an *active-case-ascertainment*
+  moderator (a detection-method artifact, explicitly NOT a route-(b) person-level stratum), not
+  headlined; the ROBINS-E bias-toward-null frame keeps the null-crossing CI from reading as a
+  no-effect verdict; the parameter table's "Same quantity?" column is NO on every row, so it is a
+  bounding/refinement, never a tension. Layer-1: air pollution is stated as a weakly-modifiable
+  structural/policy lever that does not reorder the personal rocks. No `confidence:` change — the
+  page stays `medium` on the Commission's consensus backing; the air-pollution slice is, if anything,
+  weaker first-hand than the borrowed cell implied.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

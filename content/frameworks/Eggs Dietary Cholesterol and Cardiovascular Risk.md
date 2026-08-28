@@ -2,13 +2,13 @@
 type: framework
 question: Does eating eggs (and the dietary cholesterol they carry) change cardiovascular risk — for whom, in which direction, and how large?
 aliases: [Eggs and Cardiovascular Disease, Dietary Cholesterol and CVD, Egg Consumption CVD, Are Eggs Bad for the Heart, Egg Cholesterol Heart]
-authors: [Godos, Justyna; Micek, Agnieszka; Brzostek, Tomasz; Toledo, Estefania; Iacoviello, Licia; Astrup, Arne; Franco, Oscar H; Galvano, Fabio; Martinez-Gonzalez, Miguel A; Grosso, Giuseppe; Ma, Wancheng; Zhang, Yanyan; Pan, Li; Wang, Sijia; Xie, Kui; Deng, Shan; Wang, Rui; Guo, Chunjiang; Qin, Pei; Wu, Xiaoyan; Wu, Yuying; Zhao, Yang; Feng, Yifei; Hu, Fulan]
-sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality]
+authors: [Godos, Justyna; Micek, Agnieszka; Brzostek, Tomasz; Toledo, Estefania; Iacoviello, Licia; Astrup, Arne; Franco, Oscar H; Galvano, Fabio; Martinez-Gonzalez, Miguel A; Grosso, Giuseppe; Ma, Wancheng; Zhang, Yanyan; Pan, Li; Wang, Sijia; Xie, Kui; Deng, Shan; Wang, Rui; Guo, Chunjiang; Qin, Pei; Wu, Xiaoyan; Wu, Yuying; Zhao, Yang; Feng, Yifei; Hu, Fulan; Zhong, Victor W; Van Horn, Linda; Cornelis, Marilyn C; Wilkins, John T; Ning, Hongyan; Carnethon, Mercedes R; Greenland, Philip; Mentz, Robert J; Allen, Norrina B; Schwingshackl, Lukas; Bechthold, Angela; Boeing, Heiner]
+sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality, Zhong - Dietary Cholesterol Egg Consumption Cardiovascular Mortality 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
 cluster: lipids
 confidence: low
 created: 2026-08-06
-updated: 2026-08-19
-self_critiqued: 2026-08-19
+updated: 2026-08-28
+self_critiqued: 2026-08-27
 relationships:
   related_to:
     - LDL ApoB and Cumulative Exposure
@@ -139,7 +139,7 @@ does not — turns entirely on the same-quantity and pool-overlap checks below.
 | Parameter | Godos 2020 | Ma 2022 | Same quantity? |
 |---|---|---|---|
 | Design | dose-response MA, 39 studies / 38 cohorts, \~2 M | dose-response MA, 24 studies / 48 reports, \~11.9 M | both obs-FFQ dose-response MA — **yes (class)** |
-| Included cohorts | NIH-AARP, PURE, CKB, Zhong's ARIC/MESA/FHS…, WHI, Moli-sani, EPIC-Spain, Guangzhou, NLCS, NIPPON… | **substantially overlapping** (NIH-AARP, PURE, CKB, **Zhong 2019**, WHI, Moli-sani, EPIC-Spain, Guangzhou, NLCS, NIPPON, Golestan, PHS…; Ma is mortality-only so carries some mortality-specific cohorts) | **NO — large overlap, not independent** |
+| Included cohorts | NIH-AARP, PURE, CKB, Zhong's ARIC/MESA/FHS..., WHI, Moli-sani, EPIC-Spain, Guangzhou, NLCS, NIPPON... | **substantially overlapping** (NIH-AARP, PURE, CKB, **Zhong 2019**, WHI, Moli-sani, EPIC-Spain, Guangzhou, NLCS, NIPPON, Golestan, PHS...; Ma is mortality-only so carries some mortality-specific cohorts) | **NO — large overlap, not independent** |
 | Exposure contrast | per-egg vs no consumption; 4/wk, 1/day | per 1-egg/d; highest (\~1.1-1.5/d) vs lowest (\~0.07/d) | comparable per-egg — **yes** |
 | Primary outcome | CVD/CHD/stroke/HF **incidence + mortality** | all-cause / CVD / IHD / stroke **mortality only** | **NO — Godos pools incidence+mortality; Ma is mortality-only + adds all-cause** |
 | CVD estimate | CVD inc+mort SRR 0.95 (0.90-1.00) at 4/wk (slight dip) | CVD **mortality** per 1-egg/d 1.00 (0.90-1.11) (flat) | different endpoint; both near-null, opposite tiny tilt |
@@ -151,7 +151,7 @@ does not — turns entirely on the same-quantity and pool-overlap checks below.
 **Verdict: type-F (+ embedded type-D), NOT independent-E.** The two MAs draw on **substantially the
 same cohorts** — Ma's Table 1 includes Zhong 2019, NIH-AARP, PURE, CKB, WHI, etc., which overlap Godos's
 pool (the overlap is *this page's* cross-source comparison, not a statement Ma makes about a prior MA) —
-so "two gold MAs agree" earns **no `[E-independent]` token and no confidence lift** — a RAG over one reproduces the
+so *two gold MAs agree* earns **no `[E-independent]` token and no confidence lift** — a RAG over one reproduces the
 other's near-null. Different bylines (Godos = Italian Grosso/Godos group; Ma = Shenzhen group) do **not**
 rescue independence when the underlying data are shared. What Ma legitimately contributes is
 **type-F refinement**: (i) a **new outcome** (all-cause mortality) with a small significant linear slope;
@@ -165,7 +165,7 @@ conclusive evidence» and this page's de-escalator read — a friction driven ma
 endpoint and stratum-concentrated signals, **not** a contradiction on general-population CVD (there the
 two agree: near-null). Held as a refinement, not filed as a standalone tension page.
 
-## Why the "eggs are bad" scare is largely unsupported — dietary cholesterol is a weak serum-cholesterol lever
+## Why the *eggs are bad* scare is largely unsupported — dietary cholesterol is a weak serum-cholesterol lever
 
 [inferred from @godos2020] The scare rests on a broken
 two-step syllogism: (1) *eggs are high in cholesterol* (true — \~180 mg per medium egg
@@ -229,15 +229,65 @@ consumption (i.e., bacon)» as a confounder in the male heart-failure signal)
   [@godos2020] — a self-interested
   read (it argues their own low grades understate the truth), noted, not adopted.
 
-## The contested headline — not adjudicated here
+## The contested headline (Zhong 2019) — reconciled with the pool, not a contradiction
 
-The counter-pole is Zhong 2019 (JAMA), a pooled analysis of 6 US cohorts finding dietary cholesterol /
-egg **associated with increased** incident CVD and mortality, an effect the authors said was «mainly
-driven by dietary cholesterol» [@godos2020].
-Godos includes Zhong's cohorts in its pool and still lands near-null. Whether the divergence
-is a different-exposure / different-adjustment / measurement-error artifact is a **tension to adjudicate
-later**, not now. — the
-contested-headline source that would let the tension be scored.
+Zhong 2019 (JAMA) is the study behind the *eggs are bad again* headlines: an IPD pooled analysis
+of **6 US cohorts** (29 615 people, median 17.5 y, max 31.3 y) reporting that **dietary cholesterol** and
+egg intake are associated with higher incident CVD and all-cause mortality. Its headline is a
+*dietary-cholesterol* claim, per +300 mg/d:
+«Each additional 300 mg of dietary cholesterol consumed per day was significantly associated with higher
+risk of incident CVD (adjusted HR, 1.17 [95% CI, 1.09-1.26]; adjusted ARD, 3.24% [95% CI, 1.39%-5.08%])
+and all-cause mortality (adjusted HR, 1.18 [95% CI, 1.10-1.26]; adjusted ARD, 4.43% [95% CI, 2.51%-6.36%]).»
+[@zhong2019egg].
+Godos pools Zhong's ARIC/MESA/FHS cohorts and still lands near-null — so the divergence has to be
+explained at the parameter level, not waved at. The parameter table does that; the answer is that the two
+are **mostly not measuring the same thing**.
+
+### Parameter table — Zhong 2019 vs the pooled MAs (the same-quantity check)
+
+| Parameter | Zhong 2019 (JAMA) | Godos 2020 / Ma 2022 (pooled MAs) | Same quantity? |
+|---|---|---|---|
+| Design | IPD pool of **6 US cohorts**, N=29 615, single baseline FFQ | dose-response MAs, \~2 M / \~11.9 M, obs-FFQ | both obs-FFQ, but **Zhong's cohorts are INSIDE the MA pools** — not independent |
+| Headline exposure | **dietary cholesterol**, per +300 mg/d (CVD 1.17; mortality 1.18) | **eggs**, per-egg / categorical | **NO — nutrient (DC) vs food (egg)** |
+| Egg estimate (matchable) | per **+0.5 egg/d**: CVD 1.06 (1.03-1.10); all-cause mort 1.08 (1.04-1.11) | Godos 1/d CVD 0.96 (0.92-1.01); Ma 1/d all-cause 1.06 (1.02-1.10) | **NO exact — 0.5-egg vs 1-egg vs categorical**; directionally Zhong-US runs *above* the pooled near-null |
+| Egg after adjusting for dietary cholesterol | CVD **0.99 (0.93-1.05)**; all-cause **1.03 (0.97-1.09)** — NS | MAs do not adjust for DC | Zhong's own egg signal **vanishes** once DC is held — the egg HR was a cholesterol proxy |
+| Population | **US-only**, mean DC \~285 mg/d (US \~290 vs global 228), overnutrition context | pool **non-US** (CKB China, PURE \~50 countries) that are neutral/protective | **NO — Zhong is a high-intake US subset of the MA pool** |
+| Framing | **absolute** ARD over max 31.3 y (+300 mg DC: CVD 3.24%, mort 4.43%); «modest» | relative RR/SRR only | Zhong adds an absolute layer; magnitudes «modest but consistent» |
+| Dose-response shape | **monotone, no U/J** (all Pnonlin 0.19-0.83) | Godos shallow U/J (CHD 0.042); Ma linear | Zhong agrees with **Ma (linear)**, against Godos's protective dip |
+| Confounding fragility | DC->CVD falls to **1.13 (0.97-1.31), NS** after adjusting eggs+red meat; DC->mortality 1.13 (0.99-1.27) NS after eggs | high, «rather unexplained» heterogeneity | both confounding-fragile; Zhong's own DC signal is co-adjustment-unstable |
+
+[inferred from @zhong2019egg; @godos2020; @ma2022egg]
+**Verdict — the type-D friction largely DISSOLVES; it is not a headline contradiction on general-population
+eggs.** Four gaps, not one disagreement, separate Zhong from the pool:
+
+- **Different exposure.** Zhong's causal claim is about **dietary cholesterol the nutrient**; its egg HR
+  attenuates to non-significance (0.99 / 1.03) once DC is adjusted
+  [@zhong2019egg]. The
+  MAs test **eggs the food**. «Eggs are bad» is a mis-headline of a dietary-cholesterol finding.
+- **Different population, diluted in the pool.** Zhong is US-only at high DC intake, in «the context of the
+  current US diet, in which overnutrition and overweight/obesity are more common than malnutrition»
+  [@zhong2019egg], and
+  «generalizing our results to non-US populations requires caution»
+  [@zhong2019egg]. When
+  Godos pools those 29 615 US participants into \~2 M alongside neutral/protective non-US cohorts (CKB,
+  PURE), the US signal is **washed out** — the near-null pool is a between-population average, and on
+  *eggs specifically* Zhong-US runs a touch higher than that average (the same dysmetabolic/high-risk
+  direction as Godos's diabetic reversal), not against it.
+- **Different framing.** JAMA led with an **absolute** risk difference accrued over up to 31.3 years at a
+  large +300 mg/d contrast; the authors call the relative magnitudes «modest but consistent»
+  [@zhong2019egg]. A
+  «3-4%» ARD headline and a «near-null RR» are compatible descriptions of one modest effect.
+- **Co-adjustment fragility cuts toward the de-escalator.** Zhong's own DC->CVD signal loses significance
+  once its carrier foods are adjusted (1.13, 0.97-1.31)
+  [@zhong2019egg] — DC and
+  eggs/meat are too collinear to identify cleanly, and both remain observational, single-FFQ, and unable
+  to «establish causality»
+  [@zhong2019egg].
+
+**NOT type-E.** Zhong's 6 cohorts sit *inside* the Godos/Ma pools, so this is a contained primary study
+vs the meta-analytic average of a set it belongs to — a type-B exposure disambiguation (nutrient vs food)
+plus a type-F refinement, never an independent witness. The de-escalator verdict stands for the
+general population; Zhong sharpens *why* the headline reads harsher than the pool without overturning it.
 
 ## The U-shaped-arm read
 
@@ -290,9 +340,24 @@ strata; the loop is open — no operation here grades the recommendation against
 Now two gold MAs (Godos 2020 · Ma 2022), but they **share most cohorts** — so `confidence: low` holds:
 the second MA is a type-F refinement on an overlapping observational base, not an independent witness,
 and the two now *diverge* on the headline caution (a friction, not a resolved question). Both are
-FFQ-cohort MAs bound by dietary measurement error. `confidence` is NOT lifted by "two MAs agree" because
-their agreement on the near-null is laundered through shared data. AWAITS a dietary-cholesterol / egg
-RCT-on-lipids source, and to harden the
-mechanism leg and the tension.
+FFQ-cohort MAs bound by dietary measurement error. `confidence` is NOT lifted by *two MAs agree* because
+their agreement on the near-null is laundered through shared data. The contested-headline source is now
+held: Zhong 2019 (JAMA) is reconciled above as a *different-exposure / different-population / different-
+framing* study whose cohorts are already in the pool — it sharpens the de-escalator rather than
+overturning it, and did **not** lift `confidence` (it is a contained subset of the MA pools, not an
+independent witness). Still AWAITS a dietary-cholesterol / egg **RCT-on-lipids** source to harden the
+mechanism leg (the dietary-cholesterol -> serum-LDL transmission), which no held source supplies.
+
+## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
+
+The DIfE/Boeing series reproduces the near-null CVD reading and adds an **outcome-specific
+divergence**: eggs are null for CHD (RR 1.00, 0.95-1.06) and stroke (0.99, 0.93-1.05) but carry a
+**positive heart-failure association** (RR 1.16, 1.03-1.31, per 50 g/d, MODERATE) — the within-CVD
+split this page's CHD/stroke focus would otherwise miss.
+[@bechthold2019] The
+all-cause mortality cell is directionally positive but **very-low grade and non-significant** (RR
+1.15, 0.99-1.34).
+[@schwingshackl2017mort] Full
+cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

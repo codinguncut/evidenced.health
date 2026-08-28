@@ -6,8 +6,9 @@ question: 'What can and cannot be established about diet-health effects given th
 sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-26
+updated: 2026-08-27
 self_critiqued: 2026-08-26
+concrete_subject_audited: 2026-08-27
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -28,8 +29,8 @@ The response is neither to despair nor to feign certainty, but to triangulate �
 trials, cohorts, genetic experiments, dose-response curves and biological mechanism by how
 well each fits the question, back the best-supported answer, and state the ceiling that bounds
 it. One bias tilts the whole field the same way: the **streetlight effect**, the pull toward
-whatever is easy to measure, which keeps absence of evidence being read as evidence of
-absence. And one caveat outlives every section below — this page grades how well the evidence
+whatever is easy to measure, which keeps the field reading absence of evidence as
+evidence of absence. And one caveat outlives every section below — this page grades how well the evidence
 coheres and how faithfully it is reported, never whether it is true. It can be sound on both
 counts and still be wrong about the world.
 
@@ -50,8 +51,8 @@ underreport, sometimes referred to as the "flat slope syndrome"»
 exposure axis so a true slope reads shallower, and once mismeasured covariates enter, the attenuation is
 no longer guaranteed to run toward the null.
 
-The asymmetry that follows is load-bearing: correcting for this error can strengthen a real association
-but cannot manufacture one from a true null. So *measurement error explains this null* is often
+Correcting for this error can strengthen a real association but cannot manufacture one from a
+true null -- and that asymmetry is load-bearing. So *measurement error explains this null* is often
 plausible, while *measurement error explains this positive finding* demands a much stronger, more
 specific allegation. -> [[Measurement Error in Dietary Assessment]]
 
@@ -115,7 +116,7 @@ referent-correction or a genetic/objective check before it is believed; a shape 
 the causal and the artifact explanation has no diagnostic value.
 -> [[The U-Shaped Association Artifact]]
 
-**There are narrow conditions that license more confidence.** Observational evidence can be rated up on
+**A few narrow conditions license more confidence.** Observational evidence can be rated up on
 a large magnitude of effect -- but the bar rarely fires: «Large effect sizes of >2 or <0.5 can permit
 observational evidence to be upgraded in GRADE, and only the association between high versus low coffee
 consumption and both liver cancer and chronic liver disease reached this magnitude.»
@@ -123,8 +124,8 @@ consumption and both liver cancer and chronic liver disease reached this magnitu
 where all plausible residual confounding runs *against* the finding, or where independent method classes
 converge. -> [[Upgrading Observational Evidence]]
 
-**Significance is not the credibility bar.** A modest association is not made causally credible by being
-statistically significant -- significance is a CI-excludes-1.0 fact driven by precision (a large enough
+**Significance is not the credibility bar.** Statistical significance does not make a modest
+association causally credible -- significance is a CI-excludes-1.0 fact driven by precision (a large enough
 cohort makes even RR 1.05 significant), not a point-estimate cutpoint. The magnitude governing causal
 credibility *from association alone* is the same GRADE rate-up bar of \~2 (or <=0.5) quoted above -- far
 above where most nutritional exposures sit (red and processed meat at 1.12 and 1.16).

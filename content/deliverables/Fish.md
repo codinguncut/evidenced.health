@@ -3,11 +3,12 @@ type: deliverable
 title: Fish
 question: What does the evidence show about eating fish (and its omega-3) on each patient-important outcome — in which direction, how large, for whom, how certain — and how does it vary by fish type (oily vs lean/white; apex-predator vs prey), by origin (wild vs farmed, marine vs freshwater), and what does the methylmercury / contaminant axis do to each outcome, weighed against any benefit found?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, Fish Oil, Eating Fish]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-12
+updated: 2026-08-28
 self_critiqued: 2026-08-11
+concrete_subject_audited: 2026-08-27
 ---
 
 This is a general, population-level appraisal of what the evidence says about eating fish for anyone the
@@ -46,7 +47,7 @@ benefit at all — its quantitative synthesis was *«generally hampered by the h
 studies»*. [@efsaseafood2014] Jayedi now can
 supply pooled magnitudes, but only to moderate certainty, and still observational.
 
-Where Jayedi meets EFSA is a type-F refinement plus shared-data corroboration, not independent type-E
+Jayedi meets EFSA as a type-F refinement plus shared-data corroboration, not as independent type-E
 backing. Jayedi re-pools the same cohort literature EFSA's four CHD meta-analyses drew on and rests on
 the identical EPA/DHA mechanism, so its agreement raises detail and certainty, not independence. The
 observational ceiling binds both.
@@ -83,7 +84,7 @@ than for a 30-year-old -> [[Baseline Risk and the Relative-Absolute Split]]. Two
 few studies each — a reminder that the picture is not uniformly favourable.
 [@jayedi2020fish]
 
-The benefit is attributed to the marine omega-3s EPA and DHA. Per 100 mg/day EPA+DHA, EFSA reports CHD
+The benefit traces to the marine omega-3s EPA and DHA. Per 100 mg/day EPA+DHA, EFSA reports CHD
 mortality fell 14.6% (8-21%) up to 250 mg/day, and *«RCTs conducted with supplemental, higher doses of
 n-3 LCPUFAs did not show higher benefits than cohort studies»*.
 [@efsaseafood2014] On that basis EFSA set an
@@ -99,7 +100,7 @@ of a low baseline best reconciles the fish-benefit with the supplement-null, but
 fish, so the loop stays open.
 
 Above roughly 1-2 servings a week, the CHD-mortality benefit plateaus — no further gain is expected above
-about 4-5 servings/week. This is not an exotic feature of a food. It is the ordinary shape of a repletion
+about 4-5 servings/week. The plateau is not an exotic feature of a food. It is the ordinary shape of a repletion
 lever: a nutrient that is low at baseline (EPA, DHA, iodine) is topped up, the deficit closes, and adding
 more buys nothing. Deficiency, then repletion, then flat.
 [inferred from @efsaseafood2014]
@@ -121,7 +122,7 @@ scores. Modelled by FDA and FAO-WHO: *«an average of 4.0 IQ points could be gai
 100 mg DHA per day, with a maximum attainable IQ gain of 5.8 points»*.
 [@efsaseafood2014]
 
-But this is repletion of a deficiency, not enhancement, and three facts converge on it. DHA
+But the IQ benefit is repletion of a deficiency, not enhancement, and three facts converge on it. DHA
 supplementation trials in pregnancy were null: *«there is no evidence for an effect of n-3 LCPUFA
 supplementation (mostly DHA) during pregnancy on any functional outcome of children's
 neurodevelopment»*. [@efsaseafood2014] The
@@ -135,9 +136,59 @@ The IQ lever therefore works for a mother whose DHA and iodine are low, and does
 is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational food signal survives while the
 isolate RCT is null — a design story, not proof the food beats the nutrient.
 
+## Cognitive decline and dementia — where the dietary and supplement evidence part ways
+
+The fish-versus-fish-oil split that runs through the coronary evidence (the *Fish versus fish-oil
+supplements* section below) returns for the aging brain, and Wei's 2023 review maps it cleanly. This
+gold systematic review and meta-analysis pooled 48 longitudinal studies and 103,651 participants, and where it lands
+depends entirely on how the omega-3 was measured — what people ate, what circulated in their blood, and
+what a capsule delivered give three different answers.
+[@wei2023omega3]
+
+**Dietary DHA carries the signal.** People who ate more DHA — and oily fish is its dominant food source —
+had a lower dementia risk: the pooled dietary-DHA estimate was RR 0.82 (95% CI 0.72, 0.93) across 13
+studies, Wei's highest-credibility (Level H) grade — about a 20% lower risk of all-cause dementia or
+cognitive decline, and a steeper 27% lower Alzheimer's specifically (HR 0.73, 0.55-0.97). The signal is
+specific to that one fatty acid: dietary total omega-3 is weaker and borderline (RR 0.91, 0.82-1.00), and
+dietary EPA and ALA show nothing.
+[@wei2023omega3] The exposure Wei
+measured is dietary DHA by food-frequency questionnaire, not fish servings, so it points to the omega-3
+mechanism rather than a fish-specific dose -> [[Is the Food Category Doing Any Work]].
+
+**The blood markers split, and the split is diagnostic.** Erythrocyte DHA — the long-term intake marker,
+reflecting the past \~60-90 days — tracks the dietary signal: RR 0.94 (0.89, 0.98). Plasma DHA — the
+short-term marker, \~7-14 days — does not. Wei reports *«No signiﬁcant association was found between higher
+levels of plasma DHA and a lower risk of cognitive decline (RR: 0.88, 95% CI: 0.76, 1.03; I2 ¼ 63.6%,
+Level L), with publication bias (Egger's P ¼ 0.007, corrected RR: 0.99, 95% CI: 0.85, 1.14; I2 ¼ 69%)»*.
+[@wei2023omega3] Once that bias
+correction lands, circulating DHA predicts nothing — the same nutrient reads protective on the plate and
+flat in the blood.
+
+**The supplement evidence finds little, and Wei says so.** Its own introduction concedes that
+*«randomized clinical trials have shown limited efﬁcacy of omega-3 fatty acid sup-plementation in
+reducing cognitive decline and probable AD»*.
+[@wei2023omega3] The discordance
+surfaces inside a single cohort: in Wei's ADNI arm, people reporting long-term omega-3 supplement use did
+better (HR 0.36), yet their measured blood omega-3 predicted nothing — the healthy-user tell, where the
+behaviour tracks the outcome and the biomarker does not.
+[@wei2023omega3] The one held
+randomised trial, MAPT, gave 800 mg DHA plus 225 mg EPA a day and still found no cognitive benefit
+-> [[Multidomain Lifestyle Intervention and Cognitive Decline]], [[Dietary Supplements]].
+
+**So the dietary-DHA benefit does not license an omega-3 capsule for the brain.** This mirrors the
+coronary picture exactly (the *Fish versus fish-oil supplements* section below): the whole food carries a
+signal the isolate does not, and a null supplement trial is not a verdict on the fish. Wei does propose a
+dose — *«we propose that 1.0 g/d may be the threshold»* — but the same analysis *«did not observe a
+signiﬁcant linear relationship»* between dietary omega-3 and cognitive decline, and 1.0 g/d sits at the
+upper edge of the observed intake range.
+[@wei2023omega3] Treat it as where the
+data thin out, not a located optimum -> [[The Underivable Optimum]].
+
+[inferred from @wei2023omega3]
+
 ## The benefit is measured net of the mercury
 
-This is the structural move that makes the whole appraisal tractable. The cohort associations *«refer to
+This structural move makes the whole appraisal tractable. The cohort associations *«refer to
 seafood per se and include beneficial and adverse effects of nutrients and non-nutrients (i.e. including
 contaminants such as methylmercury)»*.
 [@efsaseafood2014]
@@ -154,11 +205,11 @@ species and intakes, the whole-food net is already positive.
 Two fish under the same word behave nothing alike. Omega-3 content runs from \~200 mg/100 g in cod and
 whiting to \~2500 mg/100 g in herring and tuna — an order of magnitude. Mercury runs from negligible in
 sardine to guideline-limiting in shark and swordfish.
-[@efsaseafood2014] There are two decision
-variables inside "eat fish twice a week": oily versus white (the n-3 benefit) and trophic level, low
+[@efsaseafood2014] Two decision
+variables sit inside "eat fish twice a week": oily versus white (the n-3 benefit) and trophic level, low
 versus high mercury (the risk). The folk category names neither.
 
-The good news is that the two variables mostly pull apart. The species richest in EPA and DHA (herring,
+The two variables mostly pull apart. The species richest in EPA and DHA (herring,
 salmon, mackerel, sardine, trout: n-3 \~600-2500 mg/100 g) are mostly low-mercury; the high-mercury apex
 predators (swordfish, shark, marlin) carry the risk without an offsetting n-3 advantage. Tuna is the one
 species that sits on both axes — n-3-rich and potentially high-mercury — which is exactly the species the
@@ -175,8 +226,8 @@ sign outright: *«higher intake of fried fish was associated with a higher risk�
 exposure than fish.
 
 EFSA itself avoids the fatty and lean labels because their use has been *«inconsistent and their meaning
-ill defined»*. [@efsaseafood2014] The fix is to
-replace the category with the species properties in any decision -> [[Is the Food Category Doing Any Work]].
+ill defined»*. [@efsaseafood2014] In any decision,
+replace the category with the species properties -> [[Is the Food Category Doing Any Work]].
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
@@ -197,7 +248,7 @@ fish than any European population. EFSA discounts both as *«much higher than cu
 recommendations) in the majority of European countries»*.
 [@efsaseafood2014]
 
-The mercury story checks out from a second angle. Cohort evidence found no association between toenail
+The mercury story checks out from a second angle. Cohort studies found no association between toenail
 mercury — the best long-term intake marker — and CVD, and the 2018 AHA statement holds that *«the
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
@@ -211,8 +262,8 @@ are also lower in iodine (\~2-12 µg/100 g versus 30-160 in sea fish).
 [@efsaseafood2014] The contaminant profile
 differs by water body too: several European guidelines add local advisories, and one recommends avoiding
 fish from the Baltic Sea outright.
-[@efsaseafood2014] So locally-caught freshwater
-fish is the case where a **local advisory**, not a general rule, governs.
+[@efsaseafood2014] So for locally-caught freshwater
+fish, a **local advisory**, not a general rule, governs.
 
 Wild and farmed fish of the "same" species are not the same food, but the wiki holds no gold-tier outcome
 evidence that the difference changes a patient-important outcome. State the direction, not a verdict:
@@ -229,7 +280,7 @@ evidence that the difference changes a patient-important outcome. State the dire
   higher in farmed — but no gold-tier meta-analysis ties wild-versus-farmed to a health *outcome*. To
   whatever extent the benefit is carried by EPA and DHA — the **support factor** that mechanism would
   need — it transports to farmed fish only insofar as farmed fish still delivers them; and since no held
-  source ties wild-versus-farmed to any outcome, there is no health-outcome basis to prefer wild as such.
+  source ties wild-versus-farmed to any outcome, no health-outcome basis exists to prefer wild as such.
   The real watch-item is feed-driven EPA/DHA dilution as farming shifts toward plant oils (identity drifts
   under a constant name), not a wild-versus-farmed verdict.
 
@@ -294,6 +345,8 @@ general-population adult, the OTC fish-oil capsule did nothing; and whole fish d
 ways the trials cannot capture — the food matrix, the **selenium that co-occurs with mercury** in fish,
 iodine and vitamin D, and what the fish *displaces* on the plate. None of that is evidence the food beats
 the isolate on hard outcomes; it is a reason not to treat a null supplement trial as a verdict on the food.
+The same food-versus-isolate split holds for the aging brain (the *Cognitive decline and dementia*
+section above).
 
 [inferred from @manson2019n3; @bhatt2019]
 
@@ -353,9 +406,9 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about eating fish (and its omega-3) on each patient-important outcome — in which direction, how large, for whom, how certain — and how does it vary by fish type (oily vs lean/white; apex-predator vs prey), by origin (wild vs farmed, marine vs freshwater), and what does the methylmercury / contaminant axis do to each outcome, weighed against any benefit found? |
-> | **Evidence included** | 4 sources — 2 gold, 2 high |
+> | **Evidence included** | 5 sources — 3 gold, 2 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
 
 ## References

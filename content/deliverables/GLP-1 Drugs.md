@@ -3,12 +3,13 @@ type: deliverable
 title: GLP-1 Drugs
 question: 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?'
 aliases: [GLP-1 Receptor Agonists for Weight, Semaglutide, Tirzepatide, Ozempic, Wegovy, Mounjaro, Zepbound, Weight Loss Drugs, GLP-1 Agonists]
-authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Yang, Kaijie; Laverde, Ligia Patricia; Sumithran, Priya; Sjöström, Lars]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, Sjostrom - SOS Bariatric Surgery Mortality 2007]
+authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Yang, Kaijie; Laverde, Ligia Patricia; Sumithran, Priya; Sjöström, Lars; Nong, Kailei]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, Sjostrom - SOS Bariatric Surgery Mortality 2007, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 confidence: medium
 created: 2026-08-17
-updated: 2026-08-17
-self_critiqued: 2026-08-17
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-27
 ---
 
 > [!warning]
@@ -43,11 +44,11 @@ For this person the drug is a large lever, a Big Rock, not a refinement.
 ## Low or cosmetic baseline risk: real weight change, unproven hard-outcome benefit
 
 For a person near-normal in weight with no cardiometabolic disease, the picture inverts.
-What is well-evidenced is large and reliable, but it is a surrogate: \~15% weight loss
+The well-evidenced change is large and reliable, but it is a surrogate: \~15% weight loss
 (-14.9% vs -2.4% placebo; half lose >=15%, a third lose >=20%), lower waist, blood
 pressure and CRP, and 84% reversion from prediabetes
-[@wilding2021]. What is NOT evidenced is
-any reduction in heart attacks, strokes, or death: the cardiovascular-outcome trial
+[@wilding2021]. Any reduction in heart
+attacks, strokes, or death is NOT evidenced: the cardiovascular-outcome trial
 enrolled only established-CVD patients and did not test primary prevention, so that benefit
 is unproven — insufficient evidence, not disproven
 [@lincoff2023]. And even if the
@@ -62,10 +63,31 @@ surrogate change at full cost, with the patient-important payoff unproven.
 ## The class is not uniform
 
 "GLP-1" names several drugs, and they do not carry the same evidence. Tirzepatide, a dual
-GIP/GLP-1 agonist, takes off more weight than semaglutide but has no cardiovascular-outcome
-trial at all, so a bigger number on the scale does not carry a bigger proven benefit
-[@jastreboff2022]. Read each agent for
-its own evidence, not for the class label -> [[Semaglutide for Cardiovascular Risk in Obesity]].
+GIP/GLP-1 agonist, takes off more weight than semaglutide but has no dedicated
+cardiovascular-outcome trial, so a bigger number on the scale does not carry a bigger proven benefit
+[@jastreboff2022]. A network meta-analysis of 262
+trials (99 791 participants, 19 drugs) now ranks the class against a common reference — lifestyle
+modification alone — supplying the head-to-head the separate single-drug trials structurally cannot: at
+one year, tirzepatide takes off -14.9% of body weight (95% CI -16.0 to -13.9) against subcutaneous
+semaglutide's -9.8% (-10.6 to -9.1), both at moderate-to-high certainty
+[@nong2026obesity].
+
+The weight ranking is not the hard-outcome ranking, and that inversion is exactly why an agent is read
+for its own evidence rather than the class label. Across all 19 drugs, subcutaneous semaglutide is the
+only one to reach a mortality or myocardial-infarction signal, and the NMA flags that limb as «largely
+informed by cardiovascular outcome trials in high risk populations»
+[@nong2026obesity] — the SELECT evidence
+already covered above, re-pooled into the network, not new independent corroboration
+-> [[Comparing Obesity Drugs]]. Tirzepatide, despite the larger weight loss, reaches only a
+heart-failure signal (HR 0.49, 0.27 to 0.88) and no mortality or MI benefit, and its dedicated hard-CV
+outcomes trial has not yet reported
+[@nong2026obesity]. The same drug also
+sheds the most lean mass in the class — tirzepatide -8.3% (moderate certainty)
+[@nong2026obesity]
+-> [[GLP-1 and Lean Mass]]. So which agent ranks first depends on the outcome a person weights: maximal
+weight loss points to tirzepatide, an evidenced mortality/MI reduction to subcutaneous semaglutide — a
+layer-3 choice the ranking informs but does not settle. Read each agent for its own evidence, not for
+the class label -> [[Semaglutide for Cardiovascular Risk in Obesity]].
 
 ## Benefit is a maintained state, not a cure
 
@@ -247,7 +269,7 @@ of one strong kidney signal and a set of surrogate moves.
 
 ## Kidney, glycaemia, liver: three more organ benefits, each gated by baseline risk
 
-The CV/weight case is not the whole drug. Semaglutide moves hard kidney outcomes,
+Cardiovascular events and weight are not the whole drug. Semaglutide moves hard kidney outcomes,
 slows progression to diabetes, and improves fatty liver — but each benefit was
 demonstrated in a stratum where baseline risk is already high, and none of them
 transports to a low-risk, near-normal-BMI person by relative effect alone.
@@ -338,8 +360,8 @@ decision turns on which face governs for whom.
 
 ## The lost muscle is roughly what any rapid loss costs — not a drug-specific hazard
 
-The sharper question is whether the *drug* sheds disproportionate muscle or whether this is just what
-fast weight loss does. Of total mass lost, about 30% is lean — «comparable to that observed after bariatric surgery» — which sits at or just inside the ordinary 20-30% diet-induced band
+The sharper question: does the *drug* shed disproportionate muscle, or is this just what
+fast weight loss does? Of total mass lost, about 30% is lean — «comparable to that observed after bariatric surgery» — which sits at or just inside the ordinary 20-30% diet-induced band
 [@laverde2026]. Per agent: liraglutide
 14-22%, tirzepatide \~26%, and semaglutide up to 45% — above the ordinary band, the one agent that
 earns the specific worry. So on the class average the lean loss is generic to rapid weight loss
@@ -479,7 +501,7 @@ the exposure under it drifts. So the shared-mechanism entries (the GI cluster, t
 gallbladder and thyroid-C-cell signals) are informed by every agent, but whatever is molecule-,
 dose-, or new-target-specific starts its safety clock over.
 
-The honest bottom line is that this class is neither the poison nor the panacea its two loudest
+This class is neither the poison nor the panacea its two loudest
 narratives claim. The one robust harm (GI) is a manageable, front-loaded adherence cost; the feared
 cancers show no robust human signal but are not cleared for the long term; the regulatory-attention
 middle splits into significant-but-credibility-demoted (gallbladder, GERD) versus
@@ -587,7 +609,7 @@ is, "the drug does X" and "losing this much this fast does X" remain observation
 an open attribution question, not a settled drug harm.
 
 **Unknown-unknowns are unquantifiable by construction — so name the two honest proxies.** By
-definition there is no list of the harms nobody has thought to measure. What *can* be stated is
+definition, no list exists of the harms nobody has thought to measure. What *can* be stated is
 the shape of the exposure that makes them likely to exist and unlikely to have surfaced: (i) the
 **evidence-horizon vs use-horizon** mismatch above, and (ii) the **moving-target problem** — the
 exposure drifts under a constant label. Mature multi-year evidence sits on older, lower-dose
@@ -620,8 +642,8 @@ fix.
 
 ## If you proceed, protect muscle
 
-Fast, large weight loss takes muscle with the fat. The mitigations are the ordinary ones for
-any large deficit — resistance training and adequate protein — and they lower the functional
+Fast, large weight loss takes muscle with the fat. Resistance training and adequate protein — the
+ordinary mitigations for any large deficit — lower the functional
 cost without touching the weight benefit -> [[GLP-1 and Lean Mass]]
 .
 
@@ -638,9 +660,9 @@ the directions and the certainties.
 > | | |
 > |---|---|
 > | **Question** | 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?' |
-> | **Evidence included** | 9 sources — 1 gold, 8 high |
+> | **Evidence included** | 10 sources — 2 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
 
 ## References

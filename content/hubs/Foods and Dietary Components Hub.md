@@ -47,6 +47,11 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   error attenuates toward null; observational, same-lab F-not-E vs the nut/whole-grain MAs
 - [[Red and Processed Meat and Cancer]] — whether red or processed meat causes cancer, by how much, and
   whether the evidence warrants reducing intake
+- [[Poultry and White Meat Consumption]] — the `white-meat` opener: poultry+rabbit (EXCL fish) ->
+  all-cause mortality (Lupoli 2021 MA, OR 0.94 highest-vs-lowest, a 6% reduction) but NEUTRAL on CV
+  mortality and non-fatal CV events. No dose-response (heterogeneous highest-vs-lowest contrast); very
+  high heterogeneity; the all-cause signal is inseparable from red-meat displacement (a comparator
+  problem). Observational, single gold MA; stroke (Kim) + CVD/T2D (Ramel) endpoints await
 - [[Vegetarian Dietary Patterns and Mortality]] — the AHS-2 cohort (Orlich 2013) leg of the
   `dietary-patterns` cluster: vegetarian/vegan/pesco/lacto-ovo patterns -> all-cause mortality \~0.88
   (pesco/vegan-in-men steepest, semi null; strictness does not reward), plus a diabetes/renal channel

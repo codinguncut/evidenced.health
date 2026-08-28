@@ -1,16 +1,7 @@
 ---
 type: deliverable
-question: 'What does the evidence show about eating eggs — and the dietary cholesterol they carry — on
-  each patient-important outcome (CHD, stroke, heart failure, CVD and all-cause mortality, type-2
-  diabetes): in which direction, how large in absolute terms, for whom, and how certain? Does the answer
-  change once dietary cholesterol the nutrient is separated from eggs the food, once one endpoint is read
-  at a time, and once the general population is separated from a dysmetabolic (diabetic / hyperlipidemic)
-  stratum? How large is any effect that survives the observational and dietary-measurement-error caveats,
-  relative to the dominant levers, so the realistic options (eat freely / cap habitual intake / change
-  the breakfast it substitutes for) can be weighed?'
-sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality,
-  Zhong - Dietary Cholesterol Egg Consumption Cardiovascular Mortality 2019, Bechthold - Food Groups CHD
-  Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017]
+question: 'What does the evidence show about eating eggs — and the dietary cholesterol they carry — on each patient-important outcome (CHD, stroke, heart failure, CVD and all-cause mortality, type-2 diabetes): in which direction, how large in absolute terms, for whom, and how certain? Does the answer change once dietary cholesterol the nutrient is separated from eggs the food, once one endpoint is read at a time, and once the general population is separated from a dysmetabolic (diabetic / hyperlipidemic) stratum? How large is any effect that survives the observational and dietary-measurement-error caveats, relative to the dominant levers, so the realistic options (eat freely / cap habitual intake / change the breakfast it substitutes for) can be weighed?'
+sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality, Zhong - Dietary Cholesterol Egg Consumption Cardiovascular Mortality 2019, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017]
 confidence: low
 created: 2026-08-28
 updated: 2026-08-28

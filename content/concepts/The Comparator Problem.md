@@ -8,8 +8,8 @@ cluster: inference-pitfalls
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-08
-self_critiqued: 2026-08-08
+updated: 2026-08-28
+self_critiqued: 2026-08-28
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
@@ -18,6 +18,7 @@ relationships:
     - The Estimate-to-Action Gap
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
+    - Poultry and White Meat Consumption
 ---
 
 **Every effect estimate is implicitly *relative to a comparator* — the counterfactual the exposure
@@ -55,6 +56,11 @@ this page's synthesis.
   and a small sub-clinical effect vs an active comparator (and loses at 6 months), because the loose
   controls leave attention/touch/placebo in the estimate -> [[Massage Therapy for Pain and Function]].
   The comparator gradient here *is* the finding.
+- **White meat — the benefit may be what it displaces.** Higher poultry intake associates with a small
+  all-cause mortality reduction (neutral on CV), but a high-poultry diet is also a low-red-meat diet
+  and often a more-plant-protein one, so the signal could be crediting poultry for the removal of red
+  meat or the addition of plant protein rather than poultry itself — the source's own caveat, and an
+  unstated-comparator instance in a live literature -> [[Poultry and White Meat Consumption]].
 
 ## The failure mode it names
 

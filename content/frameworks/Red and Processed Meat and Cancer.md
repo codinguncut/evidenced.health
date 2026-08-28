@@ -16,6 +16,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Which Objective Moved This Recommendation
     - Body Fatness and Cancer Risk
+    - Poultry and White Meat Consumption
 ---
 
 Two guideline families read **the same cohort evidence** and issue **opposite instructions** — WCRF

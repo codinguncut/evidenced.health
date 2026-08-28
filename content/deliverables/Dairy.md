@@ -3,13 +3,13 @@ type: deliverable
 title: Dairy
 question: 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?'
 aliases: [Dairy, Milk and Dairy, Cheese and Butter and Milk]
-authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020]
+authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-27
-self_critiqued: 2026-08-12
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-28
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-28
 ---
 
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
@@ -17,8 +17,10 @@ carry similar saturated fat, yet the outcomes they touch — heart disease, earl
 bone fracture, cancer — point in different directions. Judge dairy one food and one outcome at a
 time, and the effects turn out to be small.
 
-**For heart disease and early death, dairy is a wash** — more of it, or less, barely moves the needle
-either way, and full-fat versus low-fat is not the fault-line guidance implies.
+**For coronary heart disease, stroke and early death, dairy is a wash** — more of it, or less, barely
+moves the needle. Full-fat versus low-fat is not the fault-line guidance implies. The one exception
+is a small, low-certainty heart-failure harm signal in the food-group evidence, named below and not
+inflated into a headline.
 
 **The *milk shortens your life* result is a statistical artifact**, traceable to one Swedish study
 whose outlier women's cohort, once removed, takes the association with it.
@@ -63,7 +65,7 @@ Never read a whole-milk finding as a yoghurt finding, nor a butter
 finding as a cheese finding. Everything below is organised one food and one outcome at a time.
 
 
-## For heart disease and early death, dairy is a wash
+## For coronary heart disease, stroke and mortality, dairy is a wash — with a small heart-failure harm signal
 
 
 
@@ -91,6 +93,36 @@ And the evidence is all **observational and self-reported**: dietary intake meas
 questionnaire carries error large enough to flatten a real gradient, and dairy eaters differ
 systematically from non-eaters -> [[Measurement Error in Dietary Assessment]]. A null here is best
 read as *no signal survives the noise*, not as a guarantee of exactly zero effect.
+
+The food-group evidence sharpens this by splitting *cardiovascular disease* into its subtypes, and one
+of them is not a wash. A coordinated 12-food-group dose-response series (the DIfE/Boeing team; PROSPERO
+CRD42016037069) finds dairy null for the two large CVD endpoints but a modest harm for heart failure:
+«Each additional daily 200 g of dairy were not associated with risk of CHD (RR: 0.99; 95% CI 0.96 to
+1.02 ...) or stroke (RR: 0.98; 95% CI 0.96 to 1.00 ...), but were positively associated with risk of HF
+(RR: 1.08; 95% CI 1.01 to 1.15 ...)»
+[@bechthold2019].
+
+- **CHD and stroke are null** — both intervals sit on 1.0, consistent with Guo's aggregate wash
+  (certainty MODERATE for each).
+- **Heart failure is a small harm signal (RR 1.08 per 200 g/day), and its certainty is LOW** — it rests
+  on a single dose-response study within the meta-analysis, one CVD subtype among three, set against CHD,
+  stroke and mortality nulls. Name it, do not headline it: a low-certainty, single-subtype harm is a
+  divergence to weigh, not a reason to drop dairy. Guo and Mishali never split heart failure out, so this
+  is a signal the earlier evidence could not see, not a contradiction of it.
+- **Same series, all-cause mortality is null too** — the DIfE/Boeing food-group mortality analysis
+  finds dairy null for all-cause mortality (RR 0.98, 95% CI 0.93–1.03 per 200 g/day, MODERATE;
+  Schwingshackl food-group mortality series, Supplemental Figure 20). This finding merely **echoes Guo's
+  mortality null from within the same series** — it adds no mortality claim Guo does not already carry.
+  So it is held as a corroboration-only body line, not a separate `sources:` entry. Bechthold and the
+  Schwingshackl members are one team sharing food-group
+  definitions and an overlapping cohort pool, and they overlap Guo's cohorts too, so agreement among them
+  re-pools shared data rather than confirming it from a second route.
+
+One net-new arm the earlier cut never covered: **dairy tracks with slightly lower incident hypertension**
+— «200 g dairy/d (RR: 0.95; 95% CI: 0.94, 0.97)»
+[@schwingshackl2017htn], LOW certainty. It is
+a small inverse association on a surrogate-adjacent endpoint from the same non-independent series;
+proportionate to its low certainty, note it and move on.
 
 
 ## The *milk shortens your life* scare is one confounded cohort, not a finding
@@ -164,20 +196,33 @@ Kefir specifically has essentially no hard-outcome data; hold it at
 insufficient evidence, not at null.
 
 
-## More dairy tracks with slightly less type-2 diabetes — on thin, conflicted evidence
+## More dairy tracks with slightly less type-2 diabetes — two estimates, one non-industry, moderate certainty
 
 
 
-For type-2 diabetes the signal points modestly favourable, but it rests on a single meta-analysis with
-a real conflict of interest. Mishali 2019 (16 cohorts, 545,677 people) found that «Pooled results
-indicated an inverse association between the two (RR 0.897; 95% CI, 0.834–0.963; P < 0.01)»
+For type-2 diabetes the signal points modestly favourable, and it now rests on two gold estimates, not
+one. Mishali 2019 (16 cohorts, 545,677 people) found that «Pooled results indicated an inverse
+association between the two (RR 0.897; 95% CI, 0.834–0.963; P < 0.01)»
 [@mishali2019] — roughly 10%
 lower diabetes risk in the highest-versus-lowest dairy eaters, with a parallel \~5% lower cardiovascular
 signal (CVD RR 0.942, 95% CI 0.892–0.994)
 [@mishali2019].
 
-That cardiovascular number does **not** independently corroborate Guo's cardiovascular null: the two
-meta-analyses draw on overlapping cohorts and measure a different contrast (Mishali's is a
+The DIfE/Boeing food-group series adds a **second, non-industry estimate at a compatible magnitude:**
+«Each additional daily 200 g of dairy products was inversely associated with diabetes risk (RR: 0.97;
+95% CI 0.94–0.99 ...)»
+[@schwingshackl2017t2d], MODERATE
+certainty, from a research-institute team with no dairy-industry sponsor. This estimate
+refines the inverse lean — a per-200-g dose-response of \~3% sitting comfortably inside
+Mishali's highest-vs-lowest 10%. But it is **not independent convergence:** Schwingshackl shares the
+cohort pool and much of the observational machinery, so it re-pools overlapping data rather than
+confirming it by a second route. Two caveats keep it honest — the inverse held «only in Asian and Australian studies, but
+not for American and European studies»
+[@schwingshackl2017t2d], and it is total
+dairy, not a fermented-specific curve.
+
+That cardiovascular number from Mishali does **not** independently corroborate Guo's cardiovascular
+null: the two meta-analyses draw on overlapping cohorts and measure a different contrast (Mishali's is a
 highest-vs-lowest categorical estimate, Guo's a per-200-g dose-response), so the two amount to a *distinction*,
 not type-E independent backing. Do not read Guo-plus-Mishali as two separate confirmations on
 cardiovascular disease.
@@ -190,14 +235,18 @@ Two guards, applied symmetrically:
   was identified (menopause-age and region moderators came back null), so this is the false-positive-prone
   effect-modification route -> route (b). Hold it as hypothesis-generating; do not build a sex-specific
   recommendation on it.
-- **The funding cuts toward the finding.** «This work was financed by the Israel Dairy Board»
+- **Mishali's funding is a scrutiny flag on *that* estimate, no longer the whole leg.** «This work was
+  financed by the Israel Dairy Board»
   [@mishali2019], and the
   review does not stratify by fat content while leaning on an *exonerates fat* framing — a directional
-  tell. The rule is to discount the estimate, not delete the finding: a favourable dairy result on
-  dairy-board funding is a reason to scrutinise, not to dismiss.
+  tell that discounts Mishali's estimate. But it no longer carries the inverse on its own: Schwingshackl's
+  non-industry 0.97 lands at compatible magnitude, so the finding survives the discount rather than
+  depending on the sponsored source.
 
-So the diabetes leg is the weaker one — a modest inverse association, single-source, industry-funded,
-and driven by a subgroup. Treat it as a small favourable lean, not a reason to prescribe dairy.
+So the diabetes leg is now firmer than a single industry-funded reading: a modest inverse lean, two
+estimates (one non-industry) at compatible magnitude, moderate certainty. It is still total dairy rather
+than fermented-specific, and not a big rock. Treat it as a small favourable lean, not a reason to
+prescribe dairy.
 
 One named gap sits on top: the **fermented-dairy -> type-2-diabetes dose-response** is not held, so
 the shape of the curve (and any knee) cannot be read off the highest-versus-lowest contrasts above
@@ -318,7 +367,9 @@ ingested only for the red-and-processed-meat colorectal analysis). So:
 For someone who has already handled the big rocks -> [[Layer 1 - Ranking Interventions for a Stratum]]:
 
 - **Do not worry about dairy for your heart or your lifespan.** Total, full-fat and low-fat dairy are a
-  wash for cardiovascular disease and mortality in the best available (observational) evidence.
+  wash for coronary heart disease, stroke and mortality in the best available (observational) evidence.
+  The one asterisk is a small, low-certainty heart-failure harm signal (RR 1.08 per 200 g/day, one
+  CVD subtype) — worth naming, not worth cutting dairy over.
 - **Ignore the *milk kills* headline.** It is a single-cohort confounding artifact that removes itself
   when the outlier study is dropped.
 - **Do not eat dairy to protect your bones,** and do not fear milk for them either — dairy is null for
@@ -364,9 +415,9 @@ category-level swaps, not a *dairy: yes or no*.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?' |
-> | **Evidence included** | 5 sources — 4 gold, 1 weak |
+> | **Evidence included** | 8 sources — 7 gold, 1 weak (3 of the gold are one coordinated DIfE/Boeing food-group series, not mutually independent) |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+> | **Source-selection note** | 1 source below the gold evidence bar feeds this page: Astrup (narrative review, weak); none load-bearing for the core claims. The three DIfE/Boeing series members (Bechthold CHD/stroke/HF; Schwingshackl T2D, hypertension) are one coordinated team sharing food-group definitions and an overlapping cohort pool (PROSPERO CRD42016037069) — gold, but not independent of each other or of Guo, so their agreement re-pools shared data rather than corroborating it from a second route. The same team's all-cause-mortality estimate (Schwingshackl 2017, RR 0.98) is cited in-body as corroboration only — it merely echoes Guo's mortality null, so it is not counted as a separate source here. |
+> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
 
 ## References

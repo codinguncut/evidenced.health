@@ -1,14 +1,14 @@
 ---
 type: deliverable
 title: Red Meat
-question: What does the evidence show about red meat's effect on each patient-important outcome (CV events, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)?
+question: What does the evidence show about red meat's effect on each patient-important outcome (CV events, type-2 diabetes, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)?
 aliases: [Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, GRADE - Handbook]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Valli - Values and Preferences Meat 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Ference - LDL Cause ASCVD EAS Consensus 2017, ESC - CVD Prevention Guidelines 2021, Baye - Low AGE Diet Cardiometabolic 2017, FAO - Dietary Protein Quality Evaluation 2013, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, GRADE - Handbook]
 confidence: medium
 created: 2026-07-30
 updated: 2026-08-28
-self_critiqued: 2026-08-11
-concrete_subject_audited: 2026-08-27
+self_critiqued: 2026-08-28
+concrete_subject_audited: 2026-08-28
 ---
 
 **The short answer: split red meat into its real exposures — processed, unprocessed, and the char from
@@ -242,6 +242,31 @@ largely the mirror image of an income gradient, not proof that saturated fat pro
 enough to overturn the randomized events estimate, but it does converge with the trials on one point:
 on *mortality*, reducing saturated fat does nothing measurable.
 
+## Red meat and type-2 diabetes
+
+**Verdict: this is the one non-cancer arm where the harm is both clearly present and *high*-certainty,
+and it splits processed from unprocessed the same way the cancer arm does — processed meat carries the
+larger effect. Still a modest per-serving relative risk on a common disease, not a big rock, but a
+firmer grade than the low-certainty cancer and mortality signals elsewhere in this appraisal.**
+
+Schwingshackl's 2017 meta-analysis of prospective cohorts grades both meat exposures **high** on the
+NutriGrade scale:
+
+- **Processed meat -> type-2 diabetes: RR 1.37 (95% CI 1.22 to 1.55) per 50 g/day**, high certainty —
+  the single largest food-group effect in that 12-food-group series, and non-linear (most of the rise
+  arrives within the first 50 g/day)
+  [@schwingshackl2017t2d].
+- **Unprocessed red meat -> type-2 diabetes: RR 1.17 (95% CI 1.08 to 1.26) per 100 g/day**, also high
+  certainty [@schwingshackl2017t2d].
+
+The processed/unprocessed split the whole document turns on holds here too, and runs the same
+direction: processed meat carries the larger, firmer signal. Two bounds keep it from inflating into a
+big rock. These are self-reported-intake cohorts, not trials, so the exposure still carries dietary
+measurement error, and no randomized hard-outcome trial pins the effect. The *grade* is high; the
+design is still observational. And it is a *relative* risk per daily serving on a common disease. So it
+refines rather than overturns the earlier "small and uncertain" reading of the non-cancer lever: the
+diabetes cell is small but **not** uncertain.
+
 ## Red meat and mortality
 
 **Verdict: no — on the evidence held, reducing red meat has not been shown to measurably reduce
@@ -429,8 +454,8 @@ realistic alternative you would actually eat instead.
 >
 > | | |
 > |---|---|
-> | **Question** | What does the evidence show about red meat's effect on each patient-important outcome (CV events, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)? |
-> | **Evidence included** | 17 sources — 9 gold, 5 high, 1 moderate, 1 weak |
+> | **Question** | What does the evidence show about red meat's effect on each patient-important outcome (CV events, type-2 diabetes, all-cause mortality, cancer) — direction, size, for whom, how certain — once processed is separated from unprocessed, cooking method is separated, and each endpoint is read on its own; how large is any effect that survives the observational/measurement-error caveats, relative to the big rocks; and what does that ranking imply for the realistic options (eliminate / modify cut or cooking / no change)? |
+> | **Evidence included** | 18 sources — 10 gold, 5 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Red%20Meat.md) |

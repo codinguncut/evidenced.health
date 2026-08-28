@@ -3,13 +3,13 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org)]
-sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Whole Grain Mortality 2016, Aune - Nut Consumption Mortality 2016, Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Afshin - Health Effects of Dietary Risks GBD 2019, NNR - Nordic Nutrition Recommendations 2023]
+authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela]
+sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Whole Grain Mortality 2016, Aune - Nut Consumption Mortality 2016, Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Afshin - Health Effects of Dietary Risks GBD 2019, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
 confidence: low
 created: 2026-07-30
 updated: 2026-08-28
 self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+concrete_subject_audited: 2026-08-28
 ---
 
 **Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
@@ -162,6 +162,13 @@ servings), with all-cause risk lowest at 225 g/day and no plateau or upper harm 
 [@aune2016wg] So 90 g/day is a population median and a
 study-density marker, not an optimum — present it with this effect, interval and shape, never bare.
 
+One outcome the Aune table omits is type 2 diabetes, and the DIfE/Boeing series fills it with the
+best-graded whole-grain arm in the corpus: RR 0.87 (0.82-0.93) per 30 g/day, NutriGrade **high** — one
+of only two high-graded protective cells in that 12-food-group matrix, both belonging to whole grains
+[@schwingshackl2017t2d]. Most of that
+benefit is captured by \~50 g/day, and it is not independent of the fibre story below (same overlapping
+cohort pool).
+
 The NNR 2023 carve-out that allows some refined cereals at high energy requirements (athletes, heavy
 manual work, high-growth adolescence) is a legitimate stratum permission, not a general finding. Note
 that NNR blends environmental objectives into its food-group advice, so its cereal recommendations are
@@ -206,8 +213,26 @@ un-studied, not un-associated.
 ESC gives the first food-level number, but it is a **surrogate**: a daily portion of pulses lowers LDL-C
 by about 0.2 mmol/L. [@esc2021] The paired claim that
 pulses are associated with lower CHD is stated without a magnitude or an interval, and only the surrogate
-limb carries a number ([[Surrogate Outcomes]]). What pulses do to cardiometabolic **outcomes** beyond
-the LDL surrogate is a named gap — the corpus cannot answer it.
+limb carries a number ([[Surrogate Outcomes]]).
+
+The DIfE/Boeing 12-food-group dose-response series now supplies the outcome-level figures the surrogate
+lacked — a **weak** answer, but an answer. Per 50 g/day of legumes: all-cause mortality RR 0.96
+(0.90-1.01), NutriGrade moderate
+[@schwingshackl2017mort];
+CHD 0.96 (0.92-1.01), moderate
+[@bechthold2019];
+type 2 diabetes 1.00 (0.92-1.09), low
+[@schwingshackl2017t2d];
+incident hypertension 0.98 (0.95-1.01), very low
+[@schwingshackl2017htn].
+Every interval crosses or touches 1.00 — a small inverse-to-null linear signal, not a demonstrated
+benefit, on low-to-moderate self-reported cohort data with the usual measurement-error attenuation
+.
+
+This is **not** independent corroboration of the Aune-family plant-food evidence: the series shares team,
+food-group definitions, and an overlapping cohort pool with it, so the agreement is partly mechanical
+-> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. So the honest reading shifts from *the
+corpus cannot answer* to *the corpus holds a weak, mostly-null answer beyond the LDL surrogate*.
 
 As a protein source, plant DIAAS is low — peas 64, wheat 40, against whole milk powder 122.
 [@fao2013] Hitting a protein target
@@ -395,15 +420,17 @@ it arrives matrix-packaged, not as a free-sugar bolus.
 
 **Two questions stay open.** The evidence cannot rank individual fruits or
 vegetables against each other on outcomes; the per-food data are too thin. And
-what pulses do to cardiometabolic outcomes, beyond lowering the LDL surrogate,
-is not yet known.
+what pulses do to cardiometabolic outcomes beyond the LDL surrogate is now only
+weakly answered — the DIfE/Boeing food-group series adds a small inverse-to-null
+legume signal (mortality and CHD both RR 0.96, moderate grade), short of a
+demonstrated benefit.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 12 sources — 8 gold, 2 high, 1 moderate |
+> | **Evidence included** | 16 sources — 12 gold, 2 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |

@@ -23,8 +23,8 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-08-28
-self_critiqued: 2026-08-07
+updated: 2026-08-30
+self_critiqued: 2026-08-30
 ---
 
 This is the **adaptation** side of the resistance-training lever, and it is the evidence Challenge #10
@@ -283,9 +283,10 @@ held — this is an evidence-weighting judgment, not a trial result.)
 
 ## Decision relevance
 
-- **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — that is where the
-  muscle-building benefit plateaus; more is not better for lean mass. Most people who already eat \~1.4
-  g/kg are close, so the move is topping up, not loading.
+- **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — around there the
+  lean-mass benefit appears to flatten (a mechanism-supported but statistically non-significant plateau,
+  so read it as a region — see below), and more is unlikely to add lean mass. Most people who already
+  eat \~1.4 g/kg are close, so the move is topping up, not loading.
   - **Treat 1.6 as a REGION, not a point, and for a hypertrophy objective bias UP (\~1.8-2.2 g/kg/day).**
     The break-point is 1.62 g/kg/day with a *wide* 95% CI of 1.03-2.20, so *"1.6"* is a central estimate,
     not a threshold — reading it as a precise target is false precision. The direction of the bias follows
@@ -372,8 +373,8 @@ held — this is an evidence-weighting judgment, not a trial result.)
     [inferred from @morton2018; @refalo2025]
   - **A worked failure of exactly this:** in the TREAT time-restricted-eating trial, a self-selected
     16:8 window (no protein guidance) lost weight that was «approximately 65% ... lean mass» vs a normal
-    20-30% — the authors attribute it to a short ad-libitum window cutting protein intake (protein is
-    eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
+    20-30% — the authors suggest (protein intake was not measured) it may reflect a short ad-libitum
+    window cutting protein intake (protein is eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
     the window. [@lowe2020]
 

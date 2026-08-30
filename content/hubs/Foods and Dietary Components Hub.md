@@ -76,6 +76,11 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   the unhealthy arm null with I2=91% (Parvizian 2020, observational-only SR+MA). The precision inversion
   (tightest number is the least causal), smoking mostly adjusted, no QoL/mortality studied. A secondary
   lever behind the smoking big rock and confirmatory of the CV diet-pattern case — confidence low
+- [[Dietary Fibre and COPD Risk]] — the fibre-COPD bridge (fibre-cluster orbiter): fibre isolated out
+  of the pattern-level signal, dose-response on COPD incidence (Valisoltani 2023, 5 cohorts, n≈213,912).
+  Total RR 0.72 (0.64-0.80), cereal/fruit significant, **vegetable null**; per +10 g/day total/cereal/
+  fruit -26%/-21%/-37%. NutriGrade LOW, ROBINS-E moderate. A type-F component-refinement of
+  [[Dietary Patterns and COPD Risk]] (broadens the incidence base \~two -> five cohorts) — confidence low
 - [[Fermented Foods and Health]] — the `fermented-foods` nucleus: do live-fermented foods move a
   patient-important outcome, and is the effect the live cultures, the food matrix, or fermentation's
   biochemistry? Held evidence is thin (one surrogate-outcome RCT + two observational fermented-dairy CVD

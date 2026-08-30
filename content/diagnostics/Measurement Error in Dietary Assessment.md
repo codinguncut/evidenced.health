@@ -6,7 +6,7 @@ authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse
 sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019]
 cluster: nutrition-methods
 confidence: medium
-self_critiqued: 2026-08-04
+self_critiqued: 2026-08-28
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means

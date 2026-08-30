@@ -17,12 +17,12 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-29
-updated: 2026-08-25
-self_critiqued: 2026-08-17
+updated: 2026-08-30
+self_critiqued: 2026-08-30
 ---
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
-combined cardiovascular events (RR 0.83, Moderate certainty), so limit SFA to <10%E [@who2023saturated]. **Astrup et al.
+combined cardiovascular events (RR 0.83, Moderate certainty), so reduce SFA to 10%E [@who2023saturated]. **Astrup et al.
 2020:** the evidence does not support a population SFA limit — the events signal rests on a
 comparator-contaminated trial base, any real benefit may be the *replacement* not SFA-avoidance, and
 guidance should be food-based. The held evidence is on [[Saturated Fat Intake and Replacement]] and
@@ -35,7 +35,10 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
   SFA produces «a potentially important reduction in combined cardiovascular events» — RR 0.83
   (0.70-0.98), 15 fewer per 1000, **Moderate** certainty, the one hard outcome clearing the null.
   Meta-regression finds the benefit runs through serum-cholesterol lowering and «strengthens our
-  belief that there is a true eﬀect». WHO adopts these numbers into its <10%E strong recommendation.
+  belief that there is a true eﬀect». WHO adopts these numbers into its **strong** recommendation to
+  reduce SFA *to* 10%E; its *further* reduction *to <10%E* is only a **conditional**, very-low-certainty
+  suggestion — the certainty-vs-strength split this page's theme turns on, so the strong arm is the
+  10%E cap, not the sub-10% target [@who2023saturated].
   [@hooper2020]
 - **Astrup et al. (do not limit SFA; go food-based).** A JACC narrative *State-of-the-Art Review*:
   "the evidence from both cohort studies and randomized trials does not support the assertion that
@@ -49,7 +52,7 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
 
 | Parameter | Hooper / WHO (View A) | Astrup et al. (View B) | Same quantity? |
 |---|---|---|---|
-| The decision | limit SFA to <10%E to reduce CVD | no population SFA limit; food-based guidance | **YES — same decision** |
+| The decision | reduce SFA to 10%E to reduce CVD | no population SFA limit; food-based guidance | **YES — same decision** |
 | Underlying evidence | 15 long RCTs + cohorts | largely the same RCTs + cohorts, re-appraised | **YES — shared base** |
 | All-cause mortality | RR 0.96 (0.90-1.03), null, **Moderate** | "no beneficial effects... on total mortality" | **YES — AGREE (both null)** |
 | CVD / coronary mortality | RR 0.94 / 0.97, null | "no significant effect on coronary outcomes... or total mortality" | **YES — AGREE (both null)** |
@@ -325,7 +328,8 @@ disagreement is over **what a single estimate licenses**:
 
 **The decision-relevant payoff: the two converge on the ACTION far more than on the FRAME.** The RCT
 evidence supports *replace SFA with PUFA / whole-food unsaturated sources* — which is what WHO already
-recommends (its **strong** arm is the PUFA replacement, and the LDL-lowering is largest for PUFA). It
+recommends (WHO couples the 10%E cap with replacing SFA by PUFA; the LDL-lowering — and WHO's own
+certainty — is largest for the PUFA replacement). It
 does **not** cleanly support *SFA-rich whole foods are harmful* — the food-matrix and attribution
 gaps leave that open. So a person is served the same first move by both camps (**shift SFA toward
 unsaturated fats and whole foods**); where they diverge — whether to fear cheese, whole-fat yogurt,

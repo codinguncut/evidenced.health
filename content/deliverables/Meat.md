@@ -3,20 +3,24 @@ type: deliverable
 title: Meat
 aliases: [Red Meat, Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health, Meat and Health, Poultry, White Meat]
 question: What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces?
-sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Budhathoki - Animal Plant Protein Mortality 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018]
+sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Budhathoki - Animal Plant Protein Mortality 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-28
+updated: 2026-08-29
+self_critiqued: 2026-08-29
+concrete_subject_audited: 2026-08-29
 ---
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
 and less certain; poultry carries a small favourable signal you cannot fully credit to the chicken.**
 Read each exposure against each endpoint alone and the picture holds together. Processed meat is the
-most consistently harmful food in the food-group evidence base, including one high-certainty cell.
-Unprocessed red meat mirrors it, smaller and with a shakier cancer signal. Poultry looks favourable
-because whoever eats more poultry eats less red meat — so the credit belongs to the swap. The swap is
+most consistently harmful food in the food-group evidence base, and one cell — processed meat and
+type-2 diabetes — carries the matrix's one high grade: high certainty that the *association* is
+robust, not proof that meat causes the disease. Unprocessed red meat mirrors it, smaller and with a
+shakier cancer signal. Poultry looks favourable
+because whoever eats more poultry eats less red meat — so the credit belongs to the swap.
+
+The swap is
 the operative lever: what the meat is eaten *instead of* — a substitution, not an abstention — sizes
 any win. For most healthy people the decision ranks below the big rocks (smoking, excess body fat,
 inactivity); the cancer argument is loud because the effect is small and contested, not because it is
@@ -53,6 +57,26 @@ everywhere* pattern is partly mechanical, and the confidence in any single numbe
 cell's own grade, not on how many neighbours agree. And it is all **observational**, with
 self-reported intake that attenuates real gradients toward the null.
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]
+
+**The high-certainty diabetes grade certifies a robust association, not a proven cause.**
+NutriGrade rates that cell "high" on study count, dose-response, and precision — it says the
+red-meat/diabetes association is real and consistent, not that confounding was excluded, which
+prospective sampling does not achieve. The series codes red meat as a bare per-100-g quantity,
+stripped of the meal around it, so the risk may attach to a Western dietary pattern the meat merely
+marks. And the signal is not stratum-stable: it could not be confirmed pooling two Asian cohorts, and
+the Shanghai Women's Health Study found red meat protective in normal-weight women yet harmful in
+obese ones — a flip that tracks body fat, not meat.
+
+A sharper confounder is harder to remove. Because guidance itself tells the health-conscious to cut
+red meat, red-meat avoidance travels with the whole adherence bundle — not smoking, exercising,
+screening, taking prescribed medicine — so the guideline, not the meat, can drive the lower diabetes
+rate. That bundle is not small: in blinded trials, people who adhered well to a *placebo* had «lower
+mortality (0.56, 0.43 to 0.74)»
+[@simpson2006adherence] — an
+all-cause-mortality odds ratio the healthy-adherer pattern manufactures with zero causal input from
+the pill (a reference magnitude, not a diabetes effect). No Mendelian-randomization study or feeding
+trial isolates red meat against diabetes either way, so the cell stays open in both directions.
+ -> [[The Observational-Trial Discordance]]
 
 ## The cancer question splits two expert bodies
 
@@ -221,9 +245,9 @@ cited here.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces? |
-> | **Evidence included** | 13 sources — 10 gold, 3 high |
+> | **Evidence included** | 14 sources — 11 gold, 3 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-08-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
 
 ## References

@@ -11,14 +11,15 @@ relationships:
     - Sodium Intake and Blood Pressure
     - Potassium Intake and Blood Pressure
     - Blood Pressure Lowering and Cardiovascular Events
+    - Dietary Nitrate and Blood Pressure
     - Named Diet Programs Compared
     - Mediterranean Diet and Cardiovascular Events
     - Is the Food Category Doing Any Work
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-08-07
-updated: 2026-08-08
-self_critiqued: 2026-08-07
+updated: 2026-08-28
+self_critiqued: 2026-08-28
 ---
 
 Siervo 2015 (Br J Nutr) is a **systematic review and meta-analysis of 20 RCTs (1917 participants,
@@ -119,7 +120,12 @@ The BP effect «may be due to the combined effects of these molecules on multipl
 mechanisms» (antioxidant capacity, natriuresis, endothelial function, sympathetic activity; the
 authors also flag a high inorganic-nitrate intake, \~1200 mg/d, feeding NO generation). **No single
 component can be isolated as the cause from this MA** — it pools whole-pattern-vs-control contrasts, so
-the exposure is the bundle. This is the pattern-as-exposure face of [[Is the Food Category Doing Any Work]]:
+the exposure is the bundle. The **nitrate** component is now estimated head-on by the same group's
+dedicated MA -> [[Dietary Nitrate and Blood Pressure]] (Siervo 2013: dietary nitrate alone lowers SBP
+\~4.4 mmHg), which **bounds** how much of DASH's -5.2 mmHg could be nitrate — but is the same team's
+refinement (type-F), not independent corroboration, so it does not license summing DASH and nitrate as
+separate additive levers (overlapping NO mechanism).
+[inferred from @siervo2015; @siervo2013nitrate] This is the pattern-as-exposure face of [[Is the Food Category Doing Any Work]]:
 the estimate describes the pattern, and attributing it to any one nutrient is beyond what the design
 identifies. [@siervo2015]
 

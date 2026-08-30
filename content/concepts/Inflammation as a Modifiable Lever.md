@@ -2,14 +2,14 @@
 type: concept
 question: Is chronic inflammation a modifiable causal lever for cardiovascular events — and if so, via what target, in whom, and with what limits?
 aliases: [Inflammatory Hypothesis of Atherothrombosis, Residual Inflammatory Risk, Anti-Inflammatory Therapy Cardiovascular, Inflammation and Cardiovascular Disease, IL-1 Beta Atherosclerosis]
-authors: [Ridker, Paul M; Nidorf, Stefan M; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Shivappa, Nitin]
-sources: [Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Nidorf - Colchicine Chronic Coronary Disease LoDoCo2 2020, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Shivappa - Dietary Inflammatory Index Cardiovascular Mortality Meta-Analysis 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017]
+authors: [Ridker, Paul M; Nidorf, Stefan M; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Shivappa, Nitin; Yin, Jia-Li]
+sources: [Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Nidorf - Colchicine Chronic Coronary Disease LoDoCo2 2020, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Shivappa - Dietary Inflammatory Index Cardiovascular Mortality Meta-Analysis 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, WCRF - Dietary Lifestyle Patterns Cancer Prevention 2025, Yin - Dietary Patterns Multiple Cancers Umbrella 2025]
 cluster: inflammation-cvd
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-09
-self_critiqued: 2026-08-08
+updated: 2026-08-29
+self_critiqued: 2026-08-29
 relationships:
   related_to:
     - Surrogate Outcomes
@@ -177,6 +177,29 @@ DII «OR = 0.81, 95% CI = 0.71 to 0.92» with low heterogeneity
 association does not establish an inflammation-specific pathway either, and the diet->depression link is
 itself suspected to run through the cardiometabolic route -> [[Depression and Modifiable Exposures]].
 
+**Cross-outcome corroboration (cancer, a different field).** The same caveat surfaces independently in
+WCRF/AICR's 2025 pattern report on **colorectal cancer**: the Empirical Dietary Inflammatory Pattern
+(EDIP) and its insulin-anchored siblings were «graded as 'strong-probable' for their likelihood of
+causality for an increased colorectal cancer risk» [@wcrf2025dlp] — but the report itself flags the index does not cleanly map
+its named mechanism: «alcohol consumption is negatively scored in these patterns but has strong evidence
+of an increased risk for colorectal cancer. In non-drinkers, associations between the Empirical Dietary
+Inflammatory Pattern and colorectal cancer risk were stronger than in those who consumed alcohol.»
+[@wcrf2025dlp] That is
+the same *the-index-relabels-a-diet-pattern, it does not isolate an inflammation-specific target* point
+the DII leg makes for CVD, now reached in cancer epidemiology by a different body — corroboration of the
+caveat, **not** a confidence upgrade (different outcome, same-family limitation, no `[E-independent]`).
+[inferred from @wcrf2025dlp]
+
+Yin's 2025 umbrella review adds the DII->CRC direction from the *observational-MA* side: «The present
+UR also found a harmful association between the DII score and the risk of CRC comparing the highest
+score to the lowest, as well as a 1-unit increment in the score» [@yin2025cancer] — but at the bottom of the credibility ladder, «classiﬁed as
+very low quality in terms of GRADE, mainly owing to the presence of heterogeneity and publication bias»
+[@yin2025cancer]. So the pro-inflammatory-
+diet -> CRC direction now shows up across three routes (WCRF's EDIP grade, Yin's DII re-grade, the DII
+CVD leg), all carrying the same *the-index-relabels-a-diet-pattern* caveat and none clearing a high
+evidence bar — reinforcing the insufficient-evidence verdict on an *independent* dietary-inflammation
+lever, not lifting it. [inferred from @yin2025cancer]
+
 ## Where it sits — residual risk, reverse causation, and the open gaps
 
 - **A second causal axis beside lipids.** CANTOS is the cleanest evidence for *residual inflammatory
@@ -226,6 +249,22 @@ mortality ceiling and the diet gap are exactly where a confident-sounding event 
 - **Selection bias (declared):** these five sources were curated to build one argument; that is weak
   evidence about the world, and the diet leg in particular is held at `insufficient-evidence`, not
   asserted.
+
+**Addendum `[run 2026-08-29, WCRF-2025 cross-outcome line]`.** The added EDIP->CRC paragraph is scoped
+as *corroboration of the existing caveat, not a confidence upgrade*: it is a different outcome (CRC, not
+CV events) from a different body (WCRF/AICR), so it is deliberately **not** marked `[E-independent]` and
+`confidence:` stays `medium`. Overclaim guard: the paragraph asserts only that an empirical inflammatory
+index re-labels a diet pattern (the same point the DII leg already makes), evidenced by WCRF's own
+alcohol-miscoring observation — it does not claim inflammation is or is not causal for CRC, and it does
+not touch the page's CVD headline. No new tension filed.
+
+**Addendum `[run 2026-08-29, Yin-2025 DII->CRC line]`.** The Yin sentence is scoped as a *third route
+carrying the same caveat*, explicitly at very-low GRADE, and marked not `[E-independent]`:
+Yin pools the same observational-cohort DII literature the CVD leg draws on (shared-source, not an
+independent route), so it reinforces the insufficient-evidence verdict rather than lifting it.
+`confidence:` stays `medium` (the CVD-events headline is untouched). Overclaim guard: no causal claim
+about inflammation and CRC is made — only that the pro-inflammatory-diet -> CRC *direction* recurs on
+weak evidence.
 </content>
 </invoke>
 

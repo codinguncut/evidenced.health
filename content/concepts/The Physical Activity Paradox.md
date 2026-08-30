@@ -8,11 +8,12 @@ cluster: occupation
 nucleus: true
 confidence: low
 created: 2026-08-14
-updated: 2026-08-23
+updated: 2026-08-29
 self_critiqued: 2026-08-19
 relationships:
   related_to:
     - Physical Activity Dose and Mortality
+    - Knee Osteoarthritis Incidence and Risk Factors
     - Cardiorespiratory Fitness and Mortality
     - The U-Shaped Association Artifact
     - Is the Food Category Doing Any Work

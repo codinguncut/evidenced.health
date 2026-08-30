@@ -6,7 +6,7 @@ authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Ma
 sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023]
 cluster: inference-pitfalls
 confidence: medium
-self_critiqued: 2026-08-25
+self_critiqued: 2026-08-29
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -21,8 +21,9 @@ relationships:
     - Fermented Foods and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
     - Diet Quality Scores and Cardiovascular Risk
+    - Food Groups and Health Outcomes - A Dose-Response Matrix
 created: 2026-07-27
-updated: 2026-08-25
+updated: 2026-08-29
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -101,9 +102,10 @@ exactly like a resolved one in a recommendation.
 carry a stronger implicit claim: **that units within a macronutrient are substitutable**. The corpus
 speaks to this directly, and it does **not** settle the way the substitutability critique expects.
 
-**Substitutability turns out to be OUTCOME-DEPENDENT, not simply true or false.** In WHO's own sugars
-evidence, swapping free sugars for other carbohydrate **at equal energy** moves body weight by
-**0.04 kg (-0.04 to 0.13) — null**. So within-carbohydrate units *are* substitutable for weight. They
+**Substitutability turns out to be OUTCOME-DEPENDENT, not simply true or false.** In the
+isoenergetic-exchange evidence, swapping free sugars for other carbohydrate **at equal energy** moves
+body weight by **0.04 kg (-0.04 to 0.13) — null**
+[@te2013]. So within-carbohydrate units *are* substitutable for weight. They
 are **not** substitutable for caries, which is sugar-specific by mechanism [@moynihan2014]. **Same category, same
 swap, opposite answer depending on the outcome** — so "are carbohydrates interchangeable?" has no
 answer until the outcome is named. -> [[Free Sugars Intake]]
@@ -426,9 +428,12 @@ processing and adverse health outcomes»` [@aramburu2024].
 +508 kcal/day intake result still stands as the one place processing does randomized work — but at
 matched *total* composition, via the identifiable sub-components (energy density, eating rate, protein).
 Aramburu's declination is about *hard-outcome* causal attribution to processing-as-such, which Hall never
-tested. Three gold-tier voices (NNR, Lane's own hedge, Aramburu) now converge that the category does not
-earn a causal recommendation over its measurable constituents on hard outcomes; the RCT base is too thin
-to say otherwise. -> [[Ultra-Processed Food and Health Outcomes]]
+tested. Three bodies (NNR, Lane's own hedge, Aramburu) each decline to give the category a causal
+recommendation over its measurable constituents on hard outcomes — but they are **not three independent
+routes**: Lane (observational umbrella) and Aramburu (RCT-only SR) overlap in primary studies (Aramburu
+includes Hall), and NNR/Lane are already an F-pair. What actually converges is three bodies responding
+to the **same missing evidence** (no hard-outcome RCT on processing-as-such), each declining because the
+RCT base is too thin to say otherwise — a shared gap, not corroboration (no `[E-independent]` claimed). -> [[Ultra-Processed Food and Health Outcomes]]
 [inferred from @aramburu2024; @hall2019]
 
 ### Ruminant vs industrial trans fat — a boundary WHO tested and dropped `[2026-07-28, Annex 8]`

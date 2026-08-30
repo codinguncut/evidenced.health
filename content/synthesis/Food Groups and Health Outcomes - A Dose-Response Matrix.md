@@ -2,16 +2,16 @@
 type: synthesis
 aliases: [Food Group Dose-Response Matrix, Which Food Groups Move Which Outcomes, DIfE Boeing Food Group Series]
 question: For each of 12 major food groups, which patient-important outcomes does a defined serving increment move, in which direction, by how much, and with what certainty?
-authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner]
-sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019]
+authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna]
+sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
 cluster: food-group-dose-response
 nucleus: true
 confidence: moderate
-self_critiqued: 2026-08-28
+self_critiqued: 2026-08-29
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-29
 relationships:
-  related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment]
+  related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
 
 One coordinated meta-analysis series (the DIfE/Boeing group: Schwingshackl, Bechthold,
@@ -128,6 +128,16 @@ only harmful food with a HIGH-grade cell (T2D, RR 1.37 per 50 g — the largest 
 the matrix). Red meat mirrors it one notch smaller (harmful all five). SSB is a strong
 cardiometabolic-harm lever (T2D/CVD/adiposity/HTN) that is **null for all-cause mortality**.
 
+**Causal-attribution caveat — the red-meat -> T2D cell is a robust ASSOCIATION, not established
+causation.** The grade does less work than the word "harmful" implies, and the fabric
+holds this cell OPEN in both directions (untested for causation), not as a demonstrated causal harm:
+
+- **NutriGrade "high" grades association-robustness, not confounding-exclusion.** The source grades meta-evidence "high for processed meat, red meat, whole grains, and SSB" [@schwingshackl2017t2d] on study count, dose-response, precision and low heterogeneity, and its prospective design "effectively avoided recall bias and reduced the potential for selection bias" [@schwingshackl2017t2d]. Neither move touches lifestyle (healthy-user) confounding, which prospective sampling does not remove — so a "high" grade certifies the association is real and consistent, not that red meat causes it.
+- **The coded exposure is a decontextualized quantity, so red meat may be a PATTERN marker.** The series pools red meat only as a per-100 g/day increment and reports servings, not questionnaire items (a `food frequency` search of the source returns a true corpus-zero); it carries no information on the meal package (refined-carb bun, fried sides, SSB) or the Western dietary pattern and lower health-consciousness that higher red-meat intake co-occurs with. The RR can attach to that package/pattern rather than to the meat -> the substitution/pattern G-gap below.
+- **Guideline-adherence confounding is a self-fulfilling pathway the design cannot exclude.** Because guidance itself instructs the health-conscious to cut red meat, red-meat *avoidance* is collinear with the whole guideline-adherence bundle (not smoking, exercising, screening, taking prescribed medication). In a population that is heavily prediabetic/dysglycemic, avoiders may develop less T2D partly *because* they are adherent — so the guideline, not the meat, can be the operative cause. This is a sharpened form of healthy-user confounding that is especially hard to adjust away, precisely because the exposure is itself the subject of the guidance. The bundle's manufacturable magnitude is not small: adherence to a *placebo* alone carried «lower mortality (0.56, 0.43 to 0.74)» [@simpson2006adherence] — an all-cause-mortality OR the health-conscious bundle produces with zero causal input -> [[The Observational-Trial Discordance]].
+- **The signal is not stratum-stable.** The red-meat association "could not be confirmed pooling two Asian studies," and the Shanghai Women's Health Study showed "an inverse association between red meat and T2D among normal weight women and an increased risk among obese women" [@schwingshackl2017t2d] — a within-population flip that tracks adiposity, not red meat per se.
+- **No natural experiment either way.** No Mendelian-randomization or feeding trial isolates red-meat (or heme-iron) -> T2D in either direction. So — symmetric with coffee -> T2D, which the fabric downgrades to insufficient-for-causation on a *null* MR — red meat is LESS resolved than coffee (untested, not disconfirmed): held open, neither established-harmful nor shown-benign -> [[The Observational-Trial Discordance]].
+
 **Weak or null levers (the ceiling-is-a-finding cases).** Refined grains are essentially null
 everywhere except mild adiposity harm at high intake; legumes are null in most **linear** cells
 (protective only non-linearly); vegetables are weak and **null for hypertension and adiposity**;
@@ -172,6 +182,46 @@ The plateaus mean over-shooting a protective food merely fails to add benefit (r
 the *every-reduction-pays* default holds for the harmful foods, whose curves show no protective
 lower arm. -> [[The U-Shaped Association Artifact]]
 
+## Cross-source check — the legume row against a dedicated legume SR+MA `[2026-08-28, Thorisdottir]`
+
+A purpose-built legume SR+MA (Thorisdottir 2023, NNR2023 — 47 studies, 31 cohorts) reaches the **same
+near-null cohort verdict** this row shows: high-vs-low CHD RR 1.00 (0.95, 1.05), stroke 0.98 (0.91, 1.05),
+T2D 0.90 (0.77, 1.06), CVD 0.95 (0.86, 1.06), with «No clear dose-response association was found for
+any of the outcomes».
+[@thorisdottir2023legume]
+**Two caveats keep this from being independent corroboration.** (i) **Different estimand** — this row's
+cells are **per-50 g linear slopes**; Thorisdottir's are **high-vs-low category contrasts** across a
+low-intake Nordic range (\~12 g/day mean), so the numbers agree in *direction* but are not the same
+quantity. (ii) **Shared cohort base** (EPIC, ARIC, NHS/HPFS recur) and shared NNR SR team -> this is
+**type-F / shared-source, NOT type-E** independence. What Thorisdottir **adds** that this cohort-only
+series structurally cannot: a pooled **RCT risk-factor arm** — LDL-C -0.19 mmol/L (95% CI -0.27, -0.11)
+at \~120-150 g/day, robust to excluding soynut trials — i.e. legumes move a surrogate at RCT doses while
+the hard-endpoint cohort cells stay null. Full treatment ->
+[[Whole Grains Refined Grains and Pulses]].
+
+## The pattern level sits one step up — the composite-score complement
+
+
+
+This matrix operates at the **food-group** level — one row per food, a per-serving increment. A **diet-quality
+score** ([[Diet Quality Scores and Cardiovascular Risk]], Mente's PURE Healthy Diet Score) operates one level
+**up**: it collapses several protective foods into a single 0-6 composite and reads that against CVD/mortality.
+The two are **different quantities** (a per-50 g linear slope for one food vs an ordinal composite of six), so
+they cannot contradict — but laid together they pose the level-of-analysis question this fabric already owns.
+
+- **The composite carries a *located knee* the component rows do not.** The pattern-score curve is steeper
+  below the median and reaches diminishing returns near score \~4/6; the food-group rows here are mostly weak,
+  heterogeneous, and monotone-over-range, with many null cells (the legume events-null the sharpest case). A
+  clean knee at the pattern level over mostly-flat component rows is the empirical shape that makes the
+  whole-vs-component question *bite*.
+- **Whether the composite adds signal beyond the sum of its rows is NOT adjudicated here** — it is exactly
+  [[Is the Food Category Doing Any Work]]'s question. Three readings stay live and are that page's to weigh,
+  not this one's: genuine whole-diet synergy; mere aggregation that averages out per-food measurement noise
+  (so the composite looks cleaner without being more causal); or healthy-user confounding loading onto the
+  composite (the DQS page flags this and the ordinal-composite caveat itself). This matrix contributes the
+  **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
+  routes the verdict there rather than asserting one.
+
 ## Gaps (type-G)
 
 - All cells are **observational** (prospective cohorts) with self-reported intake; dietary
@@ -180,6 +230,12 @@ lower arm. -> [[The U-Shaped Association Artifact]]
 - No cell isolates a **substitution** (what replaces the food) — the RRs are addition-to-diet
   contrasts, so the Layer-3 replacement question (whole grains *instead of* refined) is unanswered
   here. `G (needs a substitution/network meta-analysis)`.
+- No **genetic (Mendelian-randomization) or feeding-trial** evidence isolates red-meat or heme-iron
+  -> T2D in either direction; the red/processed-meat T2D cells rest entirely on observational
+  association, and heme iron is held in the fabric only for *cancer*, not T2D
+  -> [[Red and Processed Meat and Cancer]]. A heme-iron -> T2D natural experiment (or an
+  adherence-controlled design) is the named decider for whether this cell is causal.
+  `G (needs a genetic/MR or feeding-trial test)`.
 - The series computes no **absolute** risk — RRs need a stratum baseline to rank against a drug
   comparator. The mortality paper gives an *optimal-combined-intake* -> 56% relative mortality
   reduction figure, but no per-stratum absolute risk, so the drug-comparator sizing (Layer-1)

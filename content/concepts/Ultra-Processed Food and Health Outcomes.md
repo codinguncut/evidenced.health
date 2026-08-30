@@ -2,11 +2,11 @@
 type: concept
 question: Does greater exposure to ultra-processed food (Nova classification) raise the risk of patient-important outcomes — and does "ultra-processed" carry a causal effect of its own, beyond the sugar/salt/fat/energy-density it correlates with?
 aliases: [Ultra-Processed Food, UPF, Nova Classification, Ultra-Processed Diet, UPF Health Outcomes, Processed Food Health]
-authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D; Aramburu, Adolfo]
-sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review]
+authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D; Aramburu, Adolfo; Robinson, Eric; Sutton, Cassandra A; Fazzino, Tera L]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023]
 cluster: ultra-processed
 confidence: low
-self_critiqued: 2026-08-20
+self_critiqued: 2026-08-30
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,8 +16,9 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
+    - Hyper-Palatable Foods
 created: 2026-07-31
-updated: 2026-08-20
+updated: 2026-08-30
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
@@ -181,6 +182,30 @@ phthalates). [@lane2024upf] These are the *insufficient-
 evidence / "not yet"* state — mechanistically reasonable, mostly **not yet evidenced on human patient-
 important outcomes**. Admit them directionally at most; do not write them as findings from mechanism alone.
 
+**A composition-based sibling construct — hyper-palatable foods (HPF).** A separate line of work reframes
+part of the "why UPF over-consumed" question as *palatability*, not processing: [[Hyper-Palatable Foods]]
+(Fazzino 2019) defines HPF quantitatively on **nutrient composition** (fat+sodium / fat+sugar / carb+sodium
+threshold combinations), a construct that is **distinct from NOVA** (manufacturing) and from energy density
+— 49% of HPF items are low energy density. Fazzino proposes HPF as a candidate for the mechanism Hall's
+trial left unidentified. But Hall found the excess intake was **not** an appetite/pleasantness phenomenon
+(ratings did not differ between diets), so the palatability-as-mechanism claim is an **open question**, not
+a demonstrated one — the two studies answer different questions (composition-driven vs processing-driven
+intake). Held as insufficient-evidence for HPF -> outcome. [inferred from @fazzino2019hpf; @hall2019]
+
+**Three constructs, correlated but NOT interchangeable — the non-transfer guard.** UPF (manufacturing),
+HPF (nutrient composition/reward), and high-energy-density (HED, >2 kcal/g) are three distinct lenses on
+*obesogenic food*, and Sutton 2023 measured how far they overlap across the US food supply (1988-2018,
+>6000 solid foods/year, Fazzino lab). Overlap is high but incomplete: «moderate to high overlap in foods
+(40%-70%) across definitions» [@sutton2023hpf],
+and «approximately one third of foods... met criteria for all three definitions (UPF, HPF, and HED)»
+[@sutton2023hpf] — but each also
+captures a set the others miss (distinctly-HPF foods are «primarily fresh or whole food items prepared
+with palatability-enhancing ingredients during cooking» that manufacturing-based UPF cannot see).
+**Consequence:** an outcome established for one construct does NOT transfer to another — the Hall intake
+effect is a UPF (processing) finding, not thereby an HPF or HED finding, and Lane's associations are UPF
+associations. Match the construct to the hypothesized mechanism; do not let the three labels blur into
+one. -> [[Hyper-Palatable Foods]] [inferred from @sutton2023hpf]
+
 ## The causal foothold — energy intake, now held primary (Hall 2019 RCT) `[2026-08-04]`
 
 The corpus previously reached this only through Lane's secondary citation; the trial is now held primary.
@@ -225,6 +250,53 @@ consumption of ultra-processed foods may be an effective strategy for obesity pr
   at **which** properties, without isolating a single lever.
 
 [inferred from @hall2019]
+
+## The eating-rate lever is general and mechanical, not UPF-specific (Robinson 2014 MA) `[2026-08-30]`
+
+Hall names eating rate as one proximate lever of UPF over-consumption. A **gold SR+MA generalizes that
+lever well beyond the single trial and pins down what kind of channel it is** — corroborating and
+mechanizing Hall (type-F), not an independent arrival at the same claim.
+
+**The general effect.** Robinson pooled **22 experimental studies** that directly manipulated eating rate
+(verbal instruction, computerized feedback, food texture, food delivery — **none UPF**) and measured
+concurrent intake and/or hunger. «Evidence indicated that a slower eating rate was associated with lower
+energy intake in comparison to a faster eating rate (random-effects SMD: 0.45; 95% CI: 0.25, 0.65; P ,
+0.0001).» [@robinson2014eatingrate] (I2=92%,
+random-effects; a *bigger* rate change buys a bigger cut — meta-regression coefficient 0.013, 95% CI
+0.002-0.025). Manipulation *method* did not matter (subgroup chi2=3.90, df=3, P=0.27) — it is the rate,
+not the instrument.
+
+**The load-bearing dissociation — intake down, hunger flat.** «There was no signiﬁcant relation between
+eating rate and hunger at the end of the meal or up to 3.5 h later.»
+[@robinson2014eatingrate] (hunger at meal end SMD
+0.04, 95% CI -0.09-0.16; later hunger SMD 0.48, 95% CI -0.17-1.13, both NS). So slowing eating cuts intake
+**without** the eater feeling hungrier — «the reduction in food intake observed as a result of
+interventions to slow eating rate was not associated with an increase in hunger, which decreases the risk
+of later energy compensation» [@robinson2014eatingrate]. This is the **same
+dissociation Hall reports for UPF** (intake up, appetite/fullness ratings unchanged), reached across a
+wholly independent design set -> the rate channel is **mechanical / oral-sensory** (duration of taste
+exposure and bite/chew count per unit food), **not** reward- or hunger-mediated. The favoured mechanism:
+«A fast eating rate is directly related to a lower duration of sensory exposure per unit (in g or kcal) of
+food (35).» [@robinson2014eatingrate]
+
+**Why F, not E-independent.** The held claim here is UPF-specific (rate as *one* proximate lever of UPF
+over-consumption); Robinson establishes the *general* rate->intake law that Hall's +508 kcal is one
+real-world instance of — a generalization/mechanization, so the composite beats either alone (type-F). It
+is **not** marked `[E-independent]`: the two are not two independent routes to the *same* claim (general
+law vs its UPF special case), and Hall (2019, the later paper) plausibly cites the eating-rate literature
+as antecedent, so strict independence is unverified. Author lists are disjoint (no shared authors), which
+is necessary for E but not sufficient here.
+
+**Bounds (symmetric read).** Surrogate throughout — single-session ad-libitum lab intake, not sustained
+free-living eating (one cited trial, Bolhuis 2014, found a slower rate cut intake that meal with no
+same-day compensation); samples were predominantly healthy-weight young adults («Caution is also needed in
+extrapolating these data to people who are obese.»
+[@robinson2014eatingrate]) — best-evidenced in the
+wiki's default reasonably-healthy stratum; and I2=92% heterogeneity the review could not fully explain, so
+the *magnitude* is variable even though the direction is consistent. **Decision-relevant corollary:** slow
+eating / harder-textured, slower-to-eat foods is a lever that lowers intake without a hunger penalty —
+applicable to whole foods too, not only to swapping out UPF.
+[inferred from @robinson2014eatingrate; @hall2019]
 
 ## The whole RCT base, sized — one small feeding trial + three confounded educational trials (Aramburu 2024) `[2026-08-20]`
 

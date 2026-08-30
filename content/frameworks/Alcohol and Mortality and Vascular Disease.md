@@ -2,14 +2,14 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org)]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-27
-self_critiqued: 2026-08-27
+updated: 2026-08-30
+self_critiqued: 2026-08-30
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -17,6 +17,8 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Dementia Prevention and Modifiable Risk Factors
     - Is the Food Category Doing Any Work
+    - Net Effect vs Intended Effect
+    - Exercise Energy Compensation
 ---
 
 Opens the `alcohol` cluster. The famous finding that *moderate drinkers outlive abstainers* — the
@@ -391,6 +393,77 @@ population scale), not as effect sizes to line up against Stockwell/Millwood/Zha
 six-figure case count — the population-scale form of *no protective arm survives, and cancer has no lower
 threshold*.
 [inferred from @gbd2018alcohol; @rumgay2021]
+
+
+## A different outcome axis — alcohol drives EATING UP, and its own calories are not compensated `[Kwok 2019]`
+
+Every arm above indexes a *disease* outcome (mortality, stroke, BP, dementia, cancer). Kwok's SR+MA
+(22 crossover/RCT studies, 701 participants, younger adults 18-37 y) opens a distinct
+**energy-balance / weight** channel the disease curves cannot see: what alcohol does to *subsequent
+food intake* in the same occasion — the *aperitif effect* / passive over-consumption. The finding is
+that alcohol's energy is **additive**, not compensated:
+
+- **No compensation.** «All twenty-two studies consistently demonstrated that participants did not
+  reduce their food energy intake to compensate for the energy consumed from alcoholic beverages.»
+  [@kwok2019alcohol]
+- **Food intake rises, total intake rises more.** Alcohol vs a non-alcoholic comparator increased
+  «food energy intake and total energy intake ... by weighted mean differences of 343 (95 % CI 161,
+  525) and 1072 (95 % CI 820, 1323) kJ, respectively».
+  [@kwok2019alcohol]
+  Food EI +343 kJ (\~82 kcal, 12 studies, I2=82.5%); total EI +1072 kJ (\~256 kcal, 8 studies,
+  I2=73.7%). The **total exceeds the food increase because the beverage's own energy is added on top
+  and not offset** — that gap is the non-compensation made quantitative. Decision framing: «a
+  relatively modest alcohol dose may lead to an increase in food consumption».
+  [@kwok2019alcohol]
+- **Not confined to heavy drinking.** Subgroup by dose: «both low-dose and high-dose alcohol increased
+  food energy intake. Low-dose alcohol increased food energy intake to a greater extent compared with
+  high-dose alcohol, although overlapping 95 % CI were observed.»
+  [@kwok2019alcohol]
+  No subgroup modifier (dose, sex, comparator type) was
+  established — every between-group difference had overlapping CI — so this is not a low-dose-exempt
+  effect. (Low dose here = <30 g or <0.6 g/kg; a route-(a) prognostic split, not a demonstrated
+  effect-modification.)
+
+**This is an amplifying-direction instance of [[Net Effect vs Intended Effect]].** The compensation
+literature usually runs the *attenuating* way — the body offsets an intervention, shrinking its naive
+effect ([[Exercise Energy Compensation]]: added exercise partly compensated by eating more / moving
+less). Alcohol is the mirror: the *intervention* (a drink) provokes the organism to consume *more*,
+so its naive energy cost UNDER-states the net energy surplus. Same principle (net != intended via
+whole-organism response), opposite sign.
+
+**Symmetric-standards caveats — this cascade inflates alcohol's harm, so it is held to the protective
+claims' bar:**
+
+- **Acute, not chronic.** These are within-session crossover feeding-study outcomes, not long-term
+  intake or a hard endpoint. The intake -> weight step is **inferred, not measured**: body-weight
+  change was reported in only 3 short trials (13 d-10 wk), 2 null and one «increased signiﬁcantly by
+  a mean of 0·9 (SE 0·4) kg» that «could not be directly attributable to the consumption of a
+  speciﬁc beverage».
+  [@kwok2019alcohol]
+- **The food-EI arm carries upward-bias risk;** «the asymmetrical funnel plots and Egger’s regression
+  test suggests small-study effects may exist in the meta-analysis for food energy intake (Egger’s
+  test: P = 0·002)», and a HKSJ sensitivity analysis widened the CI though it «did not change our
+  conclusion (weighted mean difference 343 kJ, 95 % CI 109, 577 kJ)».
+  [@kwok2019alcohol]
+  The **total-EI arm had no small-study effects**
+  (Egger P=0.8), so the larger, more decision-relevant estimate is the cleaner one.
+- **Mechanism is unsettled** (expectancy, disinhibited restraint, satiety hormones, CNS
+  neurotransmitter pharmacology — all flagged «unclear» by the authors), so the *direction* (intake
+  up) is what transports, not any one pathway.
+  [inferred from @kwok2019alcohol]
+
+**A likely second route to the same weight channel — flagged, not asserted.** Beyond this direct
+intake effect, a common belief holds that a nightcap disrupts sleep architecture and worse sleep
+raises next-day intake (alcohol -> sleep -> eating). The fabric takes **no position** on that route —
+it is an open gap awaiting an alcohol -> sleep-architecture SR (no such source is held yet), and must
+not be read as established here. Kwok evidences only the direct within-occasion cascade, not the
+sleep-mediated one.
+
+**Not an independent-E witness.** Kwok extends the outcome menu (energy balance / weight) with a
+different endpoint; it neither corroborates nor is independent of the mortality/stroke methods, so the
+page's `[E-independent]` convergence (Stockwell || Millwood) is unchanged. What it adds is a *fourth
+non-disease consequence* consistent with the whole page: alcohol offers no protective arm on mortality,
+stroke, dementia, or cancer, and on energy balance it actively pushes intake up.
 
 ## Limits
 

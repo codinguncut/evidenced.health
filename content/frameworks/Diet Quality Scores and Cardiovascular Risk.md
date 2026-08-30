@@ -2,8 +2,8 @@
 type: framework
 question: Does a higher overall diet-quality score (a whole-diet protective-food pattern) lower CVD and mortality, by how much, where on the dose-response curve is the lever, and how much of the signal is healthy-user confounding?
 aliases: [PURE Healthy Diet Score, Diet Score and Mortality, Diet Quality Index and Cardiovascular Disease, Whole-Diet Pattern Score, Protective Food Score]
-authors: [Mente, Andrew; Dehghan, Mahshid; Rangarajan, Sumathy; O'Donnell, Martin; Yusuf, Salim; Howard, Barbara V]
-sources: [Mente - PURE Healthy Diet Score 2023, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
+authors: [Mente, Andrew; Dehghan, Mahshid; Rangarajan, Sumathy; O'Donnell, Martin; Yusuf, Salim; Howard, Barbara V; Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A]
+sources: [Mente - PURE Healthy Diet Score 2023, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
 cluster: diet-quality-scores
 nucleus: true
 confidence: medium
@@ -20,9 +20,10 @@ relationships:
     - Which Objective Moved This Recommendation
     - The Observational-Trial Discordance
     - Low-Fat Dietary Pattern and Cardiovascular Disease
-self_critiqued: 2026-08-25
+    - Food Groups and Health Outcomes - A Dose-Response Matrix
+self_critiqued: 2026-08-29
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-29
 ---
 
 **Nucleus of the `diet-quality-scores` cluster** — the canonical owner of *what a whole-diet quality
@@ -166,6 +167,28 @@ The estimates carry the standard observational-nutrition liability, and PURE sho
   third of the crude association was confounding by lifestyle/SES that the model *could* measure — which
   is the signature that **residual** confounding by the factors it could not measure runs the same
   direction (toward the null of the causal effect).
+- **How big can the healthy-user confounder alone be? A causally-clean upper reference — the placebo
+  arm `[2026-08-29]`.** Simpson 2006's placebo arms (eight blinded trials, 19,633 people) isolate the
+  *pure* adherer bundle: good-vs-poor adherence to an inert pill carried «lower mortality (0.56, 0.43
+  to 0.74)» [@simpson2006adherence] with
+  **no** causal path — the entire gap is the health-conscious-person bundle (diet, exercise, screening,
+  follow-up). That reference magnitude sits almost exactly on PURE's *crude* diet-score signal, and the
+  two are near-commensurable — both are largely-unadjusted behaviour -> all-cause-mortality
+  associations indexing the same bundle:
+
+  | Parameter | Simpson placebo arm | PURE diet-score (crude) | Same quantity? |
+  |---|---|---|---|
+  | Outcome | all-cause mortality | all-cause mortality | **yes** |
+  | Adjustment | unadjusted (bundle intact by design) | age/sex only — no lifestyle/SES | **\~yes** — both largely unadjusted |
+  | Contrast | good vs poor pill-adherence | top vs bottom protective-food score | **\~no** — different behaviour, same health-conscious bundle |
+  | Estimate | OR 0.56 (0.43-0.74) | HR 0.54 (0.50-0.59) | near-identical magnitude |
+
+  So PURE's *crude* mortality signal is the size of a bundle that Simpson proves has zero causal input.
+  This does **not** say PURE's *adjusted* 0.70 is all confounding — adjustment removes the measurable
+  part, and Simpson's estimate is the unadjusted ceiling, not the residual — but it sets the reference:
+  a diet -> mortality association at or below OR \~0.56 is inside what the adherer bundle can manufacture
+  unaided, so the \~30% residual after PURE's adjustment cannot be assumed causal on magnitude alone.
+ -> [[The Observational-Trial Discordance]]
 - **The authors concede exactly this**, and tie it to the effect size: «the possibility of residual
   confounding from unmeasured or imprecise measurement of covariates cannot be completely ruled
   out—especially given that the differences in risk of clinical events is modest (\~10%-20% relative

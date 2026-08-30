@@ -26,6 +26,8 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Potassium Intake and Blood Pressure]] — how much potassium, what raising intake buys, and for whom
 - [[DASH Diet and Blood Pressure]] — the DASH pattern lowers BP/lipids (surrogates); a sodium-independent,
   whole-pattern lever, not double-counted with sodium reduction; DASH->events unproven, rides BP transmission
+- [[Dietary Nitrate and Blood Pressure]] — inorganic nitrate/beetroot lowers resting SBP \~4.4 mmHg
+  (surrogate, short-term, ambulatory-disconfirmed); a modest peripheral supplement-class lever
 - [[Dietary Magnesium and Cardiometabolic Outcomes]] — dietary Mg per +100 mg/day tracks lower T2D/stroke/HF/
   mortality (observational); likely a marker of the whole-food pattern, not a separately-actionable lever
 - [[Stress Management and Cardiometabolic Health]] — whether a structured stress-management program

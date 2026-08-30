@@ -2,15 +2,16 @@
 type: concept
 question: When a large, consistent observational signal meets a null or weak randomized trial, which is right — and why do they disagree?
 aliases: [Observational vs Trial Discordance, Big Observational Weak RCT, Observational-RCT Conflict, Credibility vs GRADE, Convincing but Very Low]
-authors: []
-sources: []
+authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A]
+sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-28
-self_critiqued: 2026-08-28
+updated: 2026-08-29
+self_critiqued: 2026-08-29
 relationships:
   related_to:
+    - Food Groups and Health Outcomes - A Dose-Response Matrix
     - Upgrading Observational Evidence
     - The U-Shaped Association Artifact
     - BMI and All-Cause Mortality
@@ -51,6 +52,7 @@ this page's.
 | **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
 | **Total dietary fat** `[2026-08-25]` | diet-heart-era observational/ecological signal that *total*-fat intake raises CHD | WHI DM Trial — the largest low-fat-pattern RCT (n=48,835) — **null**: CHD HR 0.97 (0.90-1.06), stroke 1.02, CVD 0.98 | the RCT tested a **DIFFERENT exposure** (total-fat *quantity* cut, fat->carbohydrate, no weight loss) than the causal lever (fat *quality* / protective-food pattern), under a **diluted contrast** (achieved \~70% of design separation, arm rebounded 24->29%E) and **\~40% power** for an LDL change predicted to move CVD only 2-4%. A wrong-exposure + underpowered null, not a no-effect null — the authors say so -> [[Low-Fat Dietary Pattern and Cardiovascular Disease]] |
 | **Hearing aids -> cognition** `[2026-08-28]` | 8-cohort pool HR 0.81 (0.76-0.87), I2=0% — a 19% lower cognitive-decline hazard among hearing-aid users vs uncorrected hearing loss (Yeo 2023) | ACHIEVE RCT (N=977): **null overall** on 3-year cognition; a 48% reduction only in a pre-specified high-baseline-risk (ARIC) subgroup — and Yeo's search predates the trial | the mechanism is **healthy-user self-selection in the intervention arm** (device users are healthier, more motivated, better-resourced) — mechanism #3 — so randomization erases the average effect; it survives only where **absolute baseline risk** is high enough to show one (baseline-risk heterogeneity, not effect modification). A confounded-observational + baseline-risk resolution, not a wrong-exposure one -> [[Hearing Loss and Dementia]] |
+| **Red meat -> T2D** `[2026-08-29]` (the UNTESTED pole) | NutriGrade "high" per-100 g association, RR 1.17 (1.08-1.26) — robust, consistent, dose-responsive across prospective cohorts (Schwingshackl 2017) | **none held in either direction** — no Mendelian-randomization and no feeding trial isolates red-meat (or heme-iron) -> T2D; the coded exposure is a decontextualized quantity, not a meal or pattern | **UNRESOLVED — held open both ways.** A robust association with *no* natural experiment to null it (as coffee's did) or confirm it (as LDL/BMI's did); healthy-user + guideline-adherence confounding stay unexcluded. Less resolved than coffee, not exonerated -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
 they are three instances of one *appraisal structure*. That is what makes the page a type-A synthesis
@@ -82,6 +84,27 @@ on health.» This corroborates the *structure* (surrogate-validity + triangulati
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
 
+## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
+
+ — the contrast case that keeps the pattern honest in the *other* direction. Coffee and
+red meat both carry a large, consistent cohort signal for T2D, so it is tempting to transport
+coffee's resolution (*MR nulled it, so treat that arm as confounded and insufficient*) onto red meat. The
+parameter table blocks that: the two are in **different epistemic states**, because only one has a
+natural experiment.
+
+| Parameter | Coffee -> T2D | Red meat -> T2D | Same quantity? |
+|---|---|---|---|
+| Observational signal | large umbrella, consistent inverse (all-cause RR \~0.83) | NutriGrade "high", RR 1.17 (1.08-1.26) per 100 g | **yes** — both are large, consistent prospective-cohort associations |
+| Natural experiment (MR) | **null** — no genetic causal signal for the T2D arm | **none held** — untested in either direction | **no** — coffee is *disconfirmed*; red meat is *unexamined* |
+| Resulting state | insufficient-for-causation (a positive disconfirmation) | **unresolved** — held open both ways | **no** — a nulled arm is not an untested arm |
+
+So red meat is **less resolved than coffee, not exonerated by analogy to it**: coffee earned its
+downgrade from a *null MR* (evidence the arm was confounded); red meat has no such evidence in
+either direction, so the honest state is *untested for causation*, neither established-harmful nor
+shown-benign -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. The symmetric error to
+"the RCT was null, so ignore the observational" is "the food is not proven causal, so treat it as
+safe" — both skip the missing test.
+
 ## Why the streams disagree — five mechanisms, not one
 
 
@@ -97,7 +120,41 @@ Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category 
   a *no-effect* null -> [[The Insufficient-Evidence Statement]].
 - **The observational is confounded** (healthy-user, reverse causation) — so the big signal may not be
   causal. This is where the RCT/MR *does* win. The adjudication tools are the artifact diagnostics
-  -> [[The U-Shaped Association Artifact]].
+  -> [[The U-Shaped Association Artifact]]. A sharpened sub-form is **guideline-adherence confounding**:
+  when the exposure is *itself* the subject of health guidance (red meat, salt, saturated fat),
+  avoiding it is collinear with the whole adherence bundle (not smoking, exercising, screening,
+  medication adherence), so the guideline — not the food — can drive the observed benefit. It is a
+  near-self-fulfilling pattern and unusually hard to adjust away, because the confounder is generated
+  by the same guidance the study is testing.
+  - **The bundle has a measured size, from a causally-clean estimator — the placebo arm
+    `[2026-08-29]`.** Simpson 2006 (21 studies, 46,847 people) pooled good-vs-poor drug-adherence ->
+    mortality at «odds ratio 0.56, 95% confidence interval 0.50 to 0.63», and — the load-bearing
+    subgroup — the **placebo arms** of eight blinded trials (19,633 people) gave the *same* value:
+    «Good adherence to placebo was associated with lower mortality (0.56, 0.43 to 0.74)»
+    [@simpson2006adherence]. A placebo
+    has no pharmacological path to mortality, so the entire gap is the *kind of person who adheres* —
+    the healthy-adherer bundle («adherence to drug therapy may be a surrogate marker for overall
+    healthy behaviour»: the same diet / exercise / screening / follow-up cluster)
+    [@simpson2006adherence]. This puts a
+    **reference magnitude on manufacturable effect**: a behaviour -> mortality association of order
+    OR \~0.56 can be produced by the adherer bundle with *zero* causal input from the behaviour, so
+    magnitude alone never certifies causation for a guidance-endorsed exposure -> [[Diet Quality Scores and Cardiovascular Risk]]. `[type-F — quantifies mechanism #3; the placebo isolation is
+    causally clean where a diet cohort is not]`
+  - **The counterpoint that keeps it honest — adherence to a HARMFUL agent flips to net harm.** In the
+    two trials where the active drug was proved harmful, good adherence to *it* carried «increased
+    mortality (2.90, 1.04 to 8.11)»
+    [@simpson2006adherence]. So the
+    bundle does not paint every adhered-to exposure protective: where the exposure itself does real
+    harm, the harm shows *through* the bundle (a promoted, adhered-to, genuinely-harmful product — the
+    trans-fat-margarine case — is not laundered benign by its adherent users). The bundle biases
+    toward benefit for a guidance-endorsed behaviour; it does not *reverse* a true harm — a partial
+    mask, not an omnipotent one.
+  - **The complementary inert-pill isolation — nocebo (Wood, SAMSON) `[2026-08-29]`.** The placebo
+    arm isolates the adherer bundle on the *outcome* (mortality); the blinded n-of-1 crossover
+    isolates the **nocebo** effect on the *side-effect* (statin muscle symptoms are \~90% reproduced on
+    an inert pill) -> [[Statins for Primary Prevention and the Power of Zero CAC]]. Two inert-pill
+    designs isolating two different *non-pharmacological* effects of taking a pill — one on the
+    endpoint, one on the complaint. `[type-A — the inert pill as a general isolation instrument]`
 - **Measurement error flattens the trial's contrast** (adherence drift narrows the achieved
   between-arm difference) while the cohort captures habitual intake -> [[Measurement Error in Dietary Assessment]].
 - **Credibility grade and certainty grade are DIFFERENT AXES that legitimately disagree.** An umbrella
@@ -168,3 +225,5 @@ if the discordance is *always* resolved toward the answer you already held, that
   causal question needs MR, mechanism, or a commensurable trial.
 - **Open loop.** This grades how to *appraise* the disagreement, never which answer is true against a
   realized outcome; the wiki cannot close that loop.
+
+## References

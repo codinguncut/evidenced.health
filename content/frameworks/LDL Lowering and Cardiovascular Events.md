@@ -2,8 +2,8 @@
 type: framework
 question: How much does lowering LDL/apoB reduce hard cardiovascular events, per unit of lowering — and which lipid number should the target be?
 aliases: [LDL Lowering Magnitude, Statin Per mmol Effect, CTT Meta-Analysis, LDL Reduction Events, ApoB vs LDL-C, Which Lipid to Target, LDL-C Event Reduction]
-authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna]
-sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration]
+authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna; Landry, Matthew J]
+sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -18,9 +18,10 @@ relationships:
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
     - Which Objective Moved This Recommendation
     - ApoB Particle Number vs Cholesterol Content
+    - Vegetarian Dietary Patterns and Mortality
 created: 2026-08-05
-updated: 2026-08-19
-self_critiqued: 2026-08-19
+updated: 2026-08-29
+self_critiqued: 2026-08-29
 ---
 
 Two separable questions sit under the lipid lever, and two sources answer them. **How much does
@@ -175,6 +176,22 @@ triangulation — so none of the three is tagged `[E-independent]`.
   trade-off, not the LDL number, is the unit of decision.
 - **Drug route only.** CTT is statin-lowering; the magnitude does **not** transfer to a *dietary* LDL-C
   change (the MCE/Sydney disconnects -> [[Surrogate Outcomes]], [[Linoleic Acid and Cardiovascular Disease]]).
+
+## A dietary LDL lever, and why its magnitude does not inherit CTT `[2026-08-29, Landry]`
+
+Landry's 2024 umbrella quantifies one dietary LDL route: in 31 observational studies (Benatar), «vegan
+dietary patterns may be associated with significantly lower LDL-cholesterol concentrations of −0.49
+mmol/l (−0.62, −0.36) (p < 0.0001) compared to omnivorous diets, though heterogeneity was high (I2=92
+%)» [@landry2024vegetarian]. Two guards
+stop this being read as a \~11% event reduction off CTT's 0.78/mmol:
+
+- **Observational and healthy-adherer confounded, GRADE low** — and the *randomised* evidence in
+  presumably-healthy adults found **no significant effect**: vegetarian+vegan combined LDL «−0.13 mmol/l
+  (−0.37, 0.12)» (4 RCTs, NS) [@landry2024vegetarian]. So the −0.49 is the confounded observational estimate, not a trial effect.
+- **By this page's own drug-route-only rule, a dietary LDL change does not transmit to events at CTT's
+  statin-derived rate** (the MCE/Sydney disconnects). A modest, uncertain dietary apoB/LDL lever —
+  cross-linked from [[Vegetarian Dietary Patterns and Mortality]], where it is one of several small
+  pleiotropic channels — not a statin-magnitude one. [inferred from @landry2024vegetarian]
 
 ## The treat-to-target number — the two guidance families converge, but the NUMBER is not the DIRECTION `[2026-08-06]`
 

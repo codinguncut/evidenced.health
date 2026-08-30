@@ -3,12 +3,12 @@ type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
 authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-27
-self_critiqued: 2026-08-27
+updated: 2026-08-29
+self_critiqued: 2026-08-29
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -110,6 +110,19 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     on cancer there is nothing to adjudicate. The only inverse cancer arms are single sites (kidney,
     thyroid, lymphoma) — net-outweighed or plausibly reverse-causation (lymphoma) -> [[Alcohol and Cancer Risk]].
     Not independent-E (same exposure, new outcome, shared observational base) -> type-F cross-outcome.
+  - **The CKD outcome shows the artifact signature — unadjudicated, weak checks only `[2026-08-29, Kelly]`
+    `type-F`.** Kelly 2020 (SR + MA, 104 studies) finds *both* moderate-alcohol RR 0.86 (0.79-0.93) and
+    high-alcohol RR 0.87 (0.79-0.95) protective against incident CKD — a dose order with **no gradient**,
+    the classic manufactured-arm shape. The **daily-vs-weekly split is diagnostic**: *daily* RR 0.98
+    (0.82-1.18) is **null** while *weekly* RR 0.82 (0.75-0.90) is protective — protection tracks drinking
+    *pattern*, not dose, and Kelly names the confounder: «social integration as a product of moderate
+    alcohol consumption and overall well- being, which is good for health.»
+    [@kelly2020ckd] **Only the weak check
+    (covariate adjustment) was run** — no referent-correction, no Mendelian randomization — so the arm
+    does NOT clear the bar the mortality J had to (where MR *removed* it). A second exposure-outcome pair
+    now carries the alcohol artifact's signature, adjudicated in-principle by the concept but not yet by a
+    strong instrument -> [[Chronic Kidney Disease and Modifiable Exposures]]. Not independent-E (same
+    exposure, new outcome, shared observational base) -> type-F cross-outcome.
 - **Sleep — adjudicated, and it sharpens the concept.** The sleep-duration U-curve's *long*-sleep arm
   (RR 1.30) has no demonstrated mechanism and is «a powerful additional marker of ill-health» (reverse  [@cappuccio2010]
   causation), while the *short*-sleep arm (RR 1.12) carries a mechanism and cause-specific evidence

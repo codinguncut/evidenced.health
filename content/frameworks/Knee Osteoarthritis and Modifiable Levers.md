@@ -9,6 +9,7 @@ nucleus: true
 confidence: medium
 relationships:
   related_to:
+    - Knee Osteoarthritis Incidence and Risk Factors
     - Does Weight Loss Reduce Cardiovascular Events
     - Ectopic Fat and Depot-Specific Risk
     - Inflammation as a Modifiable Lever
@@ -18,7 +19,7 @@ relationships:
     - Sarcopenia Definition and Diagnosis
     - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-29
 self_critiqued: 2026-08-08
 ---
 
@@ -120,6 +121,9 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   effects) and cited secondary MAs. No source here grades the levers against a realized long-term
   disability trajectory — the loop stays open.
 - **No knee-OA prevention claim.** These are levers for *established, symptomatic* knee OA; whether they
-  prevent incident OA is a separate (unaddressed) question.
+  prevent incident OA is a separate question — appraised now at [[Knee Osteoarthritis Incidence and Risk Factors]] (route-(a) prognostic associations: obesity aOR 1.17/BMI-unit, prior injury aOR 2.67,
+  occupational load; obesity + injury = 14% of radiographic-KOA risk), which finds the *same* obesity
+  lever dominant for incidence as this page finds for symptoms — but observational, so preventing
+  incidence by modifying it stays untested.
 
 ## References

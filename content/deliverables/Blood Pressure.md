@@ -3,12 +3,12 @@ type: deliverable
 title: Blood Pressure
 aliases: [Blood Pressure, Hypertension, High Blood Pressure, Lowering Blood Pressure, BP]
 question: 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?'
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, He - Salt Reduction Blood Pressure 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, Naci - Exercise vs Antihypertensive Drugs 2019, Roerecke - Alcohol Reduction Blood Pressure 2017, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Ma - Weight Loss Interventions Mortality 2017, WHO - Sodium Intake 2012, Huang - Sodium Dose Duration Blood Pressure 2020, USPSTF - Procedure Manual 2022, GRADE - Handbook, ESC - CVD Prevention Guidelines 2021, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, He - Salt Reduction Blood Pressure 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, Naci - Exercise vs Antihypertensive Drugs 2019, Roerecke - Alcohol Reduction Blood Pressure 2017, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Ma - Weight Loss Interventions Mortality 2017, WHO - Sodium Intake 2012, Huang - Sodium Dose Duration Blood Pressure 2020, USPSTF - Procedure Manual 2022, GRADE - Handbook, ESC - CVD Prevention Guidelines 2021, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-27
-self_critiqued: 2026-08-20
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-29
+self_critiqued: 2026-08-29
+concrete_subject_audited: 2026-08-29
 ---
 
 ## Pull The Two Steps Apart
@@ -254,12 +254,23 @@ BP is a surrogate here with transmission unshown for this exposure. Keep it **pr
 low-certainty adjunct for an already-medicated person, never a substitute for a drug or salt reduction;
 mindfulness's marketing is an anti-signal, not a reason to promote it.
 
-### Dietary Nitrate — A Staged Gap
+### Dietary Nitrate (Beetroot) — A Real But Minor Lever
 
-Beetroot/dietary nitrate is a plausible further BP lever, but the relevant evidence is not
-yet held in the fabric, so no magnitude is stated and it is carried as a named gap, not a
-recommendation. — a held
-magnitude for the dietary-nitrate lever.
+Beetroot juice and inorganic nitrate salts lower office systolic pressure by about 4.4 mmHg (16
+crossover RCTs, n=254; 95% CI -5.9 to -2.8), and the drop scales with nitrate dose -- a genuine
+effect through the enterosalivary nitrate-nitrite-nitric-oxide pathway.
+[@siervo2013nitrate] Diastolic
+pressure does not move (-1.1 mmHg, not significant).
+
+Three things keep it a pebble, not a rock. The outcome is a **surrogate measured over hours to 15
+days** -- no trial ran long enough to test whether the drop persists or buys fewer events.
+**Twenty-four-hour ambulatory monitoring did not confirm
+the resting benefit** -- including in older, overweight, diabetic adults, the higher-risk stratum
+where a lever would matter most. And the trials recruited mostly young, healthy, normal-weight men
+-- often for exercise performance -- so the estimate transfers poorly to the hypertensive adult who
+would actually use it. The authors count their 4.4 mmHg as reaching the \~5 mmHg their stroke-and-
+mortality projection needs (leaning on the interval to -5.9); the point estimate is nonetheless
+below that bar. A candidate worth watching, not a recommendation. -> [[Dietary Nitrate and Blood Pressure]]
 
 ---
 
@@ -353,7 +364,7 @@ and its transfer status are the inputs (magnitudes in the lever section above):
 | Alcohol reduction (in drinkers) | held (Roerecke); dose-response, threshold \~2 drinks/day | assumed; events **modelled**, not measured | medium | medium (drinkers above threshold) |
 | Potassium (pointer) | high in hypertensives; **null in normotensives** | assumed; stroke signal | medium | pebble |
 | Stress / MBSR | low warrant (unblinded, heterogeneous) | assumed; unproven for this exposure | pebble / adjunct | pebble |
-| Dietary nitrate | not held (staged) | — | gap | gap |
+| Dietary nitrate (beetroot) | held (Siervo); surrogate office BP, 2 h-15 d, 24-h ambulatory unconfirmed | assumed; observed drop below modelled 5 mmHg | pebble / adjunct | pebble |
 
 **One caution about the table: when you *compare* two interventions on a continuous outcome like
 systolic pressure, match their baseline pressures before you read the difference.** Absolute BP fall
@@ -500,8 +511,9 @@ untested.
 
 Three thinner questions round it out:
 
-- **Dietary nitrate (beetroot).** A candidate BP lever (Siervo 2013) is staged but not yet ingested,
-  so the wiki holds no appraised finding on it — named as a gap, not carried as evidence.
+- **Dietary nitrate (beetroot).** Now held: it lowers office systolic pressure \~4.4 mmHg, but on a
+  surrogate over hours-to-days that 24-h monitoring did not confirm, in mostly young healthy men --
+  a real but minor, poorly-transferable lever, not a recommendation for the hypertensive adult.
 - **The sodium-to-potassium ratio as an optimised target.** It is asserted beneficial, but has never
   been graded against a hard outcome; the underlying physiology sits with the Sodium work, not here.
 - **Whether the large mindfulness number transmits to any outcome.** Chen reports the biggest
@@ -537,9 +549,9 @@ resort by default.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?' |
-> | **Evidence included** | 19 sources — 8 gold, 9 high |
+> | **Evidence included** | 20 sources — 9 gold, 9 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+> | **Last updated** | 2026-08-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
 
 ## References

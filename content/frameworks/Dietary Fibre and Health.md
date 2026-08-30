@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017]
+authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A; Valisoltani, Neda; Ghoreishy, Seyed Mojtaba; Mohammadi, Hamed]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -18,9 +18,11 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
     - Glycaemic Index and Glycaemic Load and Chronic Disease
+    - Dietary Fibre and COPD Risk
+    - Dietary Patterns and COPD Risk
 created: 2026-07-29
-updated: 2026-08-28
-self_critiqued: 2026-08-17
+updated: 2026-08-30
+self_critiqued: 2026-08-30
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -200,6 +202,19 @@ the gut-microbiota/SCFA route this page already carries (Valdes). The full facet
 synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable Risk]].
 
 [@brown1999]
+
+## Fibre and COPD risk — a new outcome, and it is subtype-specific `[2026-08-29]`
+
+A gold-tier SR + dose-response MA (Valisoltani 2023, 5 prospective cohorts, n≈213,912) adds chronic
+obstructive pulmonary disease to fibre's outcome menu: highest-vs-lowest total fibre RR 0.72 (95% CI
+0.64-0.80) for COPD, with cereal (0.76) and fruit (0.75) fibre significant but **vegetable fibre null**
+(0.95, CI 0.84-1.07) [@valisoltani2023fiber]. Same caveats as the rest of this page, and one more binding: **NutriGrade credibility is
+LOW**, so this is the softest outcome on the menu — a low-confidence additional reason consistent with
+fibre's other benefits, not a new lever. It is also the *component* refinement of the pattern-level
+[[Dietary Patterns and COPD Risk]] signal (fibre isolated out of the umbrella "healthy pattern"
+bucket). The full estimate, the per-subtype dose-response, the vegetable-arm publication-bias flag,
+and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and COPD Risk]].
+
 ## Decision relevance
 
 - **Target \~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
@@ -219,7 +234,7 @@ synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable 
 ## Certainty and gaps
 
 - **`confidence: medium`** — the LDL/surrogate leg is controlled-trial-grade (Brown 1999, a pre-GRADE
-  meta-analysis of 58 controlled trials — no formal GRADE rating exists in the held text; an earlier
+  meta-analysis of 67 controlled trials — no formal GRADE rating exists in the held text; an earlier
   "GRADE moderate-high" label here was unsupported and is RETRACTED); the hard-outcome leg is
   observational-with-dose-response (Reynolds, GRADE moderate) — upgraded above bare correlation but not
   to RCT status.

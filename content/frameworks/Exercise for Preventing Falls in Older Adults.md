@@ -1,9 +1,9 @@
 ---
 type: framework
 question: Does exercise prevent falls and fall-related fractures in community-dwelling older adults, and which types of exercise work?
-aliases: [Falls Prevention, Fall Prevention Exercise, Preventing Falls in the Elderly, Balance Training Falls, Exercise and Falls]
-authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan]
-sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021]
+aliases: [Falls Prevention, Fall Prevention Exercise, Preventing Falls in the Elderly, Balance Training Falls, Exercise and Falls, Tai Chi for Falls, Tai Chi Balance, Tai Chi Fall Prevention]
+authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan; Pillay, Jennifer; Gaudet, Lindsay A; Hartling, Lisa]
+sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024]
 cluster: falls
 nucleus: true
 confidence: moderate
@@ -18,9 +18,10 @@ relationships:
     - Frailty
     - Exercise Safety in Osteoporosis
     - Exercise and Bone Mineral Density
+    - Rating Outcome Importance
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-05
+updated: 2026-08-28
+self_critiqued: 2026-08-28
 ---
 
 The nucleus of the **falls / fracture-prevention** cluster — a large, high-lever, patient-important
@@ -164,6 +165,133 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
 - **Harms:** where reported, predominantly non-serious musculoskeletal; 2 serious events across all 108
   trials (a pelvic stress fracture and a hernia). Adverse-event monitoring was poor (very low certainty),
   but nothing signals net harm — the intervention is low-risk relative to a large benefit.
+
+## Ranking the intervention TYPES against each other — the NMA verdict (Pillay 2024)
+
+Sherrington ranks *exercise types*; it does not rank exercise against the whole menu of fall-prevention
+options (vision treatment, home-hazard assessment, multifactorial and multicomponent programs, CBT,
+education, vitamin D). Pillay's network meta-analysis for the Canadian Task Force does — **219 RCTs,
+167,864 participants, 59 intervention nodes (incl. usual care), 8 NMAs, one per outcome**, with certainty
+by CINeMA and ranking driven by moderate/high certainty on critical outcomes rather than by SUCRA point
+ranks [@pillay2024falls].
+This is a **type-F refinement of the Sherrington verdict, not independent (type-E) corroboration** — Pillay
+«included 125 of 283 studies included in the previous review» and benchmarks its exercise findings against
+the Sherrington exercise Cochrane review [19], so the two share a trial base and the second cannot confirm
+the first as though independent (author lists do not overlap, but shared trials defeat independence anyway)
+[@pillay2024falls].
+
+Of **21 interventions with moderate-or-high certainty for benefit on >=1 outcome, 14 (67%) had a
+structured-exercise focus** [@pillay2024falls]. The ordering confirms and sharpens *the lever is balance*:
+
+- **Top of the ranking: supervised, long-duration balance/resistance (group or individual) and group
+  tai chi** — these carried benefit «across more outcomes than the other exercise and single-component
+  interventions.» *Supervised* = >2 sessions beyond instruction; *long-duration* = >3 months. This adds
+  the **dose/supervision** dimension Sherrington left underpowered: the effective program is supervised
+  and sustained, not a one-off class [@pillay2024falls].
+- **Also beneficial on single outcomes (moderate certainty):** whole-body vibration (fallers; but the
+  studied dose — 20 min/day, 5 days/week, 18 months — is onerous), high-intensity/dose education (low-dose
+  education did not qualify), long-duration CBT for fear-of-falling, and *mixed* programs adding home-hazard
+  assessment (HHA) to a multifactorial core [@pillay2024falls].
+- **Two null/negative results that redraw the menu:**
+  - «No multifactorial intervention showed moderate certainty for any benefit» where components were
+    delivered only on individual needs assessment
+    [@pillay2024falls];
+  - «Adding other interventions to exercise does not appear to substantially increase benefits»
+    [@pillay2024falls].
+    Together these say the **exercise core does the work** — stacking assessment/home-hazard/education on
+    top of it is not where the benefit lives, and a multifactorial program *without* exercise at its
+    center is not evidenced. The USPSTF reached the same split independently (below).
+- **Walking is not fall prevention here either** — «None of the interventions with moderate certainty
+  evidence focused on walking», and single-component walking carried potential harm signals warranting
+  caution, especially at elevated risk [@pillay2024falls]. This reinforces the
+  *walk-more is not fall-prevention advice* substitution above, now from a second trial base.
+
+## Two interventions that INCREASED falls — harm at the type level
+
+The NMA is one of the few sources that catches fall-prevention interventions doing net harm
+[@pillay2024falls]:
+
+- **Universal vision assessment + treatment (VAT)** — screening-and-treating a general (non-visually-
+  impaired-selected) population — had moderate certainty it **increased both fallers and fractures**. The
+  plausible mechanism — a change in refraction destabilising gait before adaptation — is not stated by the
+  source; what the finding licenses is the decision-change that *universal* vision-correction is not a
+  safe blanket fall-prevention move.
+  [inferred from @pillay2024falls]
+- **A comprehensive multifactorial program (exercise + HHA when indicated)** had moderate certainty for
+  **increasing fallers** — but its direct-evidence trials targeted very high-risk elders (mean ages 83, 85;
+  prior fallers; on fall-risk-increasing drugs), so the harm is confounded with frailty and does not
+  transport to the general older adult [@pillay2024falls].
+- **The workhorse is low-harm:** «Vitamin D and most single-component exercise interventions are probably
+  associated with minimal harm» (two exercise nodes: moderate certainty for small \~5-8/100 any-AE harms,
+  little-to-no serious harm) — consistent with Sherrington's 2-serious-events-in-108-trials safety profile
+  [@pillay2024falls].
+
+## What patients actually value — the outcome-valuation layer (Pillay KQ2)
+
+The falls cluster has a rare asset: **empirical patient outcome-valuation**, the values-and-preferences
+evidence GRADE usually has to substitute panel judgement for -> [[Rating Outcome Importance]]. Pillay's
+KQ2 review (44 studies, mostly EQ-5D, mostly from people who *experienced* the event) puts disutilities
+on a 0 (no HRQoL loss) to 1 (equal to death) scale [@pillay2024falls]:
+
+| Health state | Disutility (95% CI) | Certainty |
+|---|---|---|
+| LTC admission | 1 (median, TTO) | LOW |
+| Non-hip fracture, <3 mo | 0.57 (0.43-0.71) | LOW |
+| Hip fracture, <3 mo | 0.53 (0.44-0.62) | MODERATE |
+| Non-hip fracture, 12 mo | 0.19 (0.10-0.28) | MODERATE |
+| Hip fracture, 12 mo | 0.16 (0.12-0.20) | HIGH |
+| Functional impairment (>=1 ADL) | 0.12 (0.05-0.19) | LOW |
+| Fall (within 12 mo) | 0.09 (-0.04-0.22) | LOW |
+| Injurious fall | no evidence | — |
+
+- **The ranking (not the point values) is the decision object:** «Based on the much higher disutility,
+  fracture (of any type) is probably more important than either falls (0.09 over 12 months) or functional
+  status (0.12 for impairment in at least 1 ADL)» (MODERATE), and admission to long-term care may top them
+  all — in the single TTO study «80% of participants said they would rather be dead»
+  [@pillay2024falls]. This **empirically orders the falls cluster's outcome menu**: a fall itself
+  is a mild disutility; what patients weight heavily is the *fracture* and the *loss of independence* the
+  fall can trigger. It validates the nucleus's framing that falls are a *route* to the feared outcomes, not
+  the feared outcome — and it warns against reading a "fewer falls" result as if it captured the value.
+- **Fracture disutility is front-loaded:** \~0.53-0.57 acutely, falling to \~0.16-0.19 at 12 months — the
+  weight is in the first months after injury.
+- **Where value meets the ranking:** the interventions with some certainty for *reducing fractures*
+  (>=0.6 fewer per 100 treated) were mixed multifactorial+HHA/education (moderate/high) and — at low
+  certainty — supervised balance/resistance, group tai chi, long-duration CBT, and whole-body vibration
+  [@pillay2024falls]. The most-valued outcome (fracture) is moved best by the same exercise top tier,
+  but the fracture-specific certainty stays low — the honest gap the nucleus already flags on its fracture
+  leg.
+
+## Preference is not efficacy — the delivery-format distinction (Pillay KQ3)
+
+Sherrington finds group vs individual delivery does **not modify the fall-reduction effect**. Pillay's
+KQ3 finds patients **prefer** individual balance/resistance: «For exercise programs in general,
+preferences for group or individual delivery probably vary, though individual balance/resistance programs
+were clearly preferred over group programs with high certainty»
+[@pillay2024falls]. These
+are **not in tension** (not-joined check (ii): different construct — *effect* vs *preference*). The layer-3
+consequence is concrete: because format does not trade away effect, following the preference (individual,
+where feasible) is a free adherence gain — «If implementing new balance/resistance programs, offering
+individual rather than group sessions when feasible may be most acceptable»
+[@pillay2024falls]. Group
+delivery remains a legitimate, effective, lower-resource option. [inferred from @pillay2024falls]
+
+## Guidance proximity — where this sits against the guidance set
+
+These reviews are *inputs to guidance*, which sharpens the guidance-null test. They fed the **CTFPHC** and
+informed the **World Guidelines for Falls**, which stratify by risk: low -> safe-mobility advice;
+intermediate -> supervised exercise (>=3 sessions/week, >=12 weeks) on functional balance and resistance,
+or tai chi; high -> multidomain intervention after multifactorial assessment; and single components
+(medication review, VAT, HHA, CBT) «are not recommended unless part of a multidomain intervention»
+[@pillay2024falls]. The
+**USPSTF** independently reached the same exercise-first split: «With a B grade, they recommend exercise
+among those at increased risk for falls, and with a C grade, they recommend clinicians individualize the
+decision to offer multifactorial interventions» — the C grade because routine multifactorial net benefit
+«is small» [@pillay2024falls].
+The families converge (exercise for the at-risk older adult, weakly on multifactorial), so the guidance null
+is **strong** here and this wiki's job is calibrated agreement-with-better-warrant — the fabric adds the
+*mechanism* (balance is the lever), the *harm exceptions* (universal VAT, high-risk multifactorial), and
+the *outcome-valuation* ordering (fracture >> fall), none of which the guideline statements carry on their
+face. [inferred from @pillay2024falls]
 
 ## Where this sits in the ranking
 

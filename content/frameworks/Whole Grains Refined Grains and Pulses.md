@@ -2,11 +2,11 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-08-13
+self_critiqued: 2026-08-28
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -139,6 +139,11 @@ pulses, fruits and vegetables is encouraged."*
 
 **This is a `G` gap, stated as one:** the wiki cannot currently answer whether pulses help, harm, or
 do nothing at the intakes someone considering them would actually eat. `-> SC-11`
+
+**Update `[2026-08-28]`: this gap is now partly addressed** by a dedicated legume SR+MA
+(Thorisdottir 2023, NNR2023) — cohort-null on hard CVD/T2D events across a low intake range, benefit
+on LDL-C at RCT doses, «limited – no conclusion» overall. See *The pulses G gap gets its dedicated
+SR+MA* below.
 
 ## What this page does NOT establish
 
@@ -572,6 +577,104 @@ T2D incidence RR 0.87 (0.82-0.93, per 30 g/d), both nonlinear.
 cell, RR 0.88, single study).
 [@bechthold2019]
 [@schlesinger2019]
+Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+## The pulses G gap gets its dedicated SR+MA — cohort-null on events, benefit on risk factors `[2026-08-28, Thorisdottir]`
+
+The G gap above ("the wiki cannot currently answer whether pulses help, harm or do nothing at
+realistic intakes") now has the first source that is *about legumes* rather than mentioning them:
+Thorisdottir 2023, the legume SR+MA commissioned for the NNR2023 update. It pooled **47 studies —
+31 prospective cohorts (2,081,432 participants, «generally low legume consumption») plus 14 crossover
+RCTs, one parallel RCT and one non-randomized trial** — and separates the two evidence classes ESC ran
+together (surrogate vs hard outcome).
+[@thorisdottir2023legume]
+
+**The cohort arm is null on every hard endpoint** (high-vs-low legume intake, random-effects RR):
+
+| Outcome | RR (95% CI) | I2 | Reading |
+|---|---|---|---|
+| Total CVD | 0.95 (0.86, 1.06) | 41% | null |
+| CVD mortality | 1.03 (0.89, 1.20) | 48% | null |
+| Total CHD | 1.00 (0.95, 1.05) | 0% | null, tight |
+| CHD incidence | 0.99 (0.94, 1.05) | 0% | null, tight |
+| Total stroke | 0.98 (0.91, 1.05) | 16% | null |
+| Stroke incidence | 0.99 (0.91, 1.09) | 34% | null |
+| T2D incidence | 0.90 (0.77, 1.06) | 88% | null, very heterogeneous |
+
+[@thorisdottir2023legume]
+
+**«No clear dose-response association was found for any of the outcomes»**, and the intake range is
+narrow by construction — Nordic mean legume intake is **\~12 g/day**, cohort exposure contrasts sit
+around that, so this is a null estimated across a **low, compressed exposure range**, not across the
+120-150 g/day the RCTs used. The T2D estimate carries I2 = 88%: half the ten T2D cohorts reported a
+significant inverse association, one (Bazzano) a significant *positive* one, and the pooled 0.90 washes
+them out.
+[@thorisdottir2023legume]
+
+**The RCT arm — the evidence limb the cohort-only DIfE/Boeing series structurally lacks — shows benefit
+on risk factors** (legume intervention vs control, weighted mean difference, \~120-150 g/day dry weight):
+
+> «The summary effect sizes (Fig. 5) showed significantly decreased TC (-0.22 mmol/L, 95% CI, -0.32,
+> -0.13, I2 = 75%), LDL-cholesterol (-0.19 mmol/L, 95% CI, -0.27, -0.11, I2 = 52%), fasting glucose
+> (-0.19 mmol/L, 95% CI, -0.33, -0.05, I2 = 83%), and HOMA-IR (-0.30, 95% CI, -0.60, -0.00, I2 = 96%)
+> with legume interventions com­ pared with controls, but insignificant effects on HDL-C, TG, and
+> insulin.»
+> [@thorisdottir2023legume]
+
+**Type-B disaggregation — the LDL benefit is legume-general, the glycemic benefit is soynut-specific.**
+Heterogeneity «decreased when separated by type of legumes... excluding the soynut trials removed
+nearly all heterogeneity.» With soynut trials excluded, the lipid effect **survives** (LDL-C -0.15
+mmol/L, 95% CI -0.21, -0.09, I2 = 5%; TC -0.17, 95% CI -0.25, -0.09, I2 = 31%) while the **glycemic
+effect collapses to null** (fasting glucose -0.09, 95% CI -0.19, 0.01, I2 = 50%; HOMA-IR 0.01, 95% CI
+-0.01, 0.03, I2 = 0%). The glycemic movements were «only seen in RCTs from Iran on postmenopausal
+women with MetS consuming 30-35 g/day soynuts» — a single population and legume form.
+So "legumes lower blood sugar" is not supported for legumes-in-general; "legumes lower LDL" is.
+[@thorisdottir2023legume]
+
+**Type-F refinement of ESC's bare sentence.** ESC stated that a single daily portion of pulses lowers
+LDL-C by 0.2 mmol/L and «is associated with a lower risk of CHD» (the full verbatim is quoted in *The
+pulses gap gets a first number* above) — a surrogate limb with a number and a hard-outcome limb without
+one. Thorisdottir lets the wiki grade each:
+
+- **LDL limb — corroborated with an interval.** ESC's bare -0.2 mmol/L is matched by a pooled RCT MD of
+  -0.19 mmol/L (95% CI -0.27, -0.11); the food-general form (soynut-excluded) is -0.15 (-0.21, -0.09).
+  ESC's point estimate now carries a confidence interval and a studied dose (\~120-150 g/day, well above
+  the "single portion" phrasing). **This is F, not E** — see the independence note below.
+- **CHD limb — NOT supported.** ESC's «associated with a lower risk of CHD» meets a **dedicated pooled
+  cohort estimate of RR 1.00 (0.95, 1.05), I2 = 0%** — the tightest null in the table. The associational
+  half of ESC's sentence does not survive a purpose-built meta-analysis; the surrogate moved, the event
+  did not.
+
+**The honest composite (type A) — a surrogate-vs-outcome gap, stated by the source itself.** The overall
+WCRF-criteria grade was **«limited – no conclusion»**, and the authors draw exactly the split the wiki's
+surrogate discipline predicts:
+
+> «Legume consumption was not found to influence risk of CVD and T2D in healthy adult pop­ ulations with
+> generally low legume consumption. However, protective effects on risk factors, seen in RCTs, lend some
+> support for recommending legume consumption as part of diverse and healthy dietary patterns for
+> prevention of CVD and T2D.»
+> [@thorisdottir2023legume]
+
+So the gap **narrows, it does not close**: legumes move LDL-C at RCT doses (robust, low-heterogeneity,
+legume-general) and show **no harm and no measured benefit** on hard CVD/T2D events across the achievable
+low-intake range — with the surrogate-to-outcome transmission unproven, `[[Surrogate Outcomes]]` the open
+link. Blood pressure got **«no conclusion»** (data too limited). `confidence:` stays **low**.
+
+**Type-F, NOT type-E independence — shared team and shared cohort base.** Thorisdottir is the NNR2023
+Systematic Review Centre — the **same group** that produced the DIfE/Boeing-adjacent NNR SRs and the
+Ramel white-meat SR on this vault — and its cohort pool overlaps the DIfE/Boeing series' primary studies
+(EPIC, ARIC, NHS/HPFS, PREDIMED cohorts recur). A shared team and a shared trial/cohort base **defeat E
+by construction**: this is not a second independent witness raising confidence on the cohort nulls, it is
+the **same evidence appraised for a dedicated question**. Its value is F — it **adds the RCT risk-factor
+arm the cohort-only matrix could not carry**, and refines ESC's undivided sentence — not E-corroboration
+of the cohort nulls. No `[E-independent]` tag; the cohort-null agreement with DIfE/Boeing is shared-source,
+not convergent-route.
+
+
+**Gaps that remain (G).** No dose-response at any intake, so a minimum effective dose is undefined; the
+cohort range is compressed near the Nordic \~12 g/day mean, so the events null is **weak at the intakes a
+Nordic eater would reach and uninformative about the 120-150 g/day RCT dose**; blood pressure unconcluded;
+and the surrogate-to-hard-outcome link for the LDL benefit is assumed, not shown.
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 ## References

@@ -3,7 +3,7 @@ type: framework
 question: Does adherence to a healthy (or unhealthy) overall dietary pattern change the risk of COPD, for whom, by how much, and how causally certain is it against smoking as the dominant modifiable driver?
 aliases: [Diet and Chronic Obstructive Pulmonary Disease, Dietary Patterns and Chronic Obstructive Pulmonary Disease, Healthy Diet and Lung Disease, Diet and Pulmonary Function]
 authors: [Parvizian, Michael K; Dhaliwal, Manreet; Li, Jeremy; Satia, Imran; Kurmi, Om P]
-sources: [Parvizian - Dietary Patterns COPD Meta-Analysis 2020]
+sources: [Parvizian - Dietary Patterns COPD Meta-Analysis 2020, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023]
 confidence: low
 self_critiqued: 2026-08-27
 relationships:
@@ -18,8 +18,9 @@ relationships:
     - The U-Shaped Association Artifact
     - The Observational-Trial Discordance
     - Inflammation as a Modifiable Lever
+    - Dietary Fibre and COPD Risk
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 ---
 
 **The pulmonary opener.** COPD (chronic obstructive pulmonary disease) is the fabric's first
@@ -111,6 +112,24 @@ mechanism is a special case of [[Inflammation as a Modifiable Lever]] — but th
 *not-yet* candidates: no whole-pattern RCT exists; do not read them as outcome findings.
 `[EXTRACTED — asserted]` (mechanisms listed, not demonstrated in this review).
 
+## One component now has its own dose-response — the fibre leg (type F)
+
+The pattern-level signal above is doubly aggregated (nutrient -> food -> pattern), so it cannot say
+*which* component carries the effect. One component has since been isolated: a gold-tier dose-response
+SR+MA of prospective cohorts on **dietary fibre -> COPD incidence** (5 cohorts, n≈213,912) reports a
+high-vs-low total-fibre RR 0.72 (0.64–0.80) with an inverse per-10 g/day gradient
+[@valisoltani2023fiber]. This does
+**not** confirm the pattern estimate — fibre is a *different quantity* than a pattern score, so it is a
+component-refinement (type F), not independent corroboration (type E): it names one plausible active
+ingredient the umbrella bucket was silent on, and supplies the incidence-level, prospective-only
+temporality this page's own incidence leg lacked (that leg is «essentially based only on two
+cohorts»). It
+does not resolve the healthy-user confounding both share (fibre intake tracks the same activity /
+socioeconomic profile), and its own credibility grade is **low** (NutriGrade). Full estimate,
+subtype breakdown, and the parameter-level same-quantity table:
+[[Dietary Fibre and COPD Risk]]. (the type-F relation between the two held sources;
+the fibre magnitudes live on that page).
+
 ## Decision relevance
 
 - For a **non-smoker** optimizing at the margin, a healthy overall dietary pattern is a plausible,
@@ -129,7 +148,9 @@ mechanism is a special case of [[Inflammation as a Modifiable Lever]] — but th
 - **Gaps (G):** no adequately-powered longitudinal / RCT evidence on well-characterised single
   patterns; no smoking-*stratified* absolute-risk estimate; no non-European/N-American populations
   (where pollution or childhood undernutrition may dominate).
-  AWAITS prospective-cohort-only or RCT SR of dietary-pattern -> COPD incidence — a temporally-clean
-  pool would upgrade the causal leg and lift the confidence grade above low.
+  AWAITS prospective-cohort-only or RCT SR of dietary-*pattern* -> COPD incidence — a temporally-clean
+  pool would upgrade the causal leg and lift the confidence grade above low. (The parallel gap at the
+  *component* level is now partly filled for fibre -> [[Dietary Fibre and COPD Risk]], though at low
+  NutriGrade credibility and still observational.)
 
 ## References

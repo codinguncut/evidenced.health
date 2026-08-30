@@ -2,14 +2,14 @@
 type: framework
 question: For fatty liver (MASLD/NAFLD), what modifiable lever works, at what dose, and what outcome does it actually change?
 aliases: [NAFLD, MASLD, Fatty Liver, MASH, NASH, Hepatic Steatosis, Fatty Liver Disease, MASLD Lifestyle]
-authors: [European Association for the Study of the Liver (org); Chung, Mei; Lichtenstein, Alice H; Taylor, Roy]
-sources: [EASL - MASLD Clinical Practice Guidelines 2024, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015]
+authors: [European Association for the Study of the Liver (org); Chung, Mei; Lichtenstein, Alice H; Taylor, Roy; Peng, Xiaojuan; Li, Juan; Zhao, Hailiang; Lai, Junlong; Lin, Junqin; Tang, Shaohui]
+sources: [EASL - MASLD Clinical Practice Guidelines 2024, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022]
 cluster: masld
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-08
-self_critiqued: 2026-08-08
+updated: 2026-08-29
+self_critiqued: 2026-08-29
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -90,6 +90,56 @@ damage.»
   and negative or inconclusive, no firm conclusions can be drawn».
 [@easl2024]
 
+## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
+
+An umbrella review (37 meta-analyses of observational studies and RCTs) quantifies the same lever menu
+EASL asserts qualitatively, and — decisively — **grades each arm's evidence strength**. Its two
+load-bearing findings are both decision-relevant, and both cut *against* over-confidence in the diet menu:
+
+**1. Of every lifestyle risk factor, only sugar-sweetened soda reaches high-quality evidence.**
+Peng: «the quality of evidence was only high for the association of sugar-sweetened soda with increased
+NAFLD risk». The quantified risk menu (all observational, so associational):
+
+| Direction | Factor (effect size; 95% CI) — GRADE unless noted |
+|---|---|
+| **Increases risk** | sugar-sweetened **soda RR 1.53 (1.34, 1.75) — HIGH**; SSB (broad) OR 1.40 (1.07, 1.82); soft drinks OR 1.33 (1.18, 1.49); obesity RR 3.53 (2.48, 5.03); WHR OR 4.10 (1.53, 10.79); highest serum uric acid OR 1.92 (1.66, 2.23); red meat OR 1.26 (1.08, 1.47); short sleep RR 1.19 (1.04, 1.36); smoking OR \~1.32-1.43 |
+| **Decreases risk** | weight loss -> NASH OR 0.14 (0.04, 0.49); modest alcohol (<40 g/day) -> NASH OR 0.50 (0.34, 0.74) / NAFLD OR 0.68 (0.58, 0.81); green tea RR 0.65 (0.44, 0.98); coffee -> fibrosis RR 0.70 (0.60, 0.82); nut intake OR 0.94 (0.90, 0.97) |
+
+[@peng2022nafld]
+
+*Do not read the modest-alcohol-protective row as a lever.* It is an observational U/J-shaped
+association carrying the standard artifact hazards (sick-quitter, confounding by frailty), and Peng
+itself cautions that «as alcohol causes adverse health effects such as liver cirrhosis, and increased
+risk for cancers, translation of these results into recommendations have to be considered carefully» —
+consistent with EASL discouraging alcohol in all SLD -> [[Alcohol and Mortality and Vascular Disease]].
+[@peng2022nafld]
+
+**2. The lifestyle *treatments* with the firmest evidence move biochemistry, not the liver.** Peng:
+«green tea, omega-3 PUFAs, and exercise (RT) effectively improve liver enzymes, blood lipids and blood
+glucose rather than histological changes of the liver, with the higher strength of epidemiologic
+evidence»; whereas the arms that «can improve liver fat content or hepatic histopathology» (caffeine,
+low-carb, omega-3, other exercise, weight loss) all «had a large heterogeneity and/or small study
+effects» — i.e. lower strength. Only 7 treatment interventions (4 green tea, 2 omega-3, 1 resistance
+exercise) cleared the higher-strength bar, and every one of them hit only surrogates.
+[@peng2022nafld]
+
+**This is the same surrogate-vs-histology gap EASL states from the guideline side** (exercise LoE 1 for
+steatosis but LoE 5 for histology; weight-loss ladder with «no proven effect on advanced
+fibrosis/cirrhosis») — reached here from a pooled-MA base. **Not independent corroboration:** an umbrella
+pools meta-analyses that pool the same primary literature EASL rests on, so the agreement is a
+quantification/grading of the shared evidence, not a second independent route (volume != independence).
+What it adds is the *ranking* — sugary soda as the one firmly-evidenced dietary target, everything else
+suggestive — and an explicit warning that the RCT-backed diet treatments have not been shown to change
+what matters (fibrosis).
+[inferred from @peng2022nafld]
+
+**And a guard against over-attributing prevention to a generic "healthy diet":** Peng found 15 factors
+with *no* significant NAFLD association — «current smoking, light smoking, heavy smoking, whole grains,
+refined grains, fish, fruits, vegetables, eggs, dairy, or legumes» (smoking appearing on both the
+increased-risk and the null list reflects conflicting constituent MAs, an unresolved heterogeneity Peng
+carries). So the actionable dietary signal narrows to *cutting liquid sugar*, not adding produce.
+[@peng2022nafld]
+
 ## Is fructose the specific hepatic culprit? Mostly no — it is an energy story `[2026-08-06, Chung 2014]`
 
 EASL's diet lever names «avoiding sugar-sweetened beverages» and finds low-carb and low-fat «similarly
@@ -163,8 +213,15 @@ from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
 
 ## Limits
 
-- **One guidance family, and it transfers NAFLD evidence to MASLD** by the 99.8%-overlap argument — a
-  reasonable but stated assumption, not a re-derivation.
+- **The core dose-response is one guidance family (EASL), which transfers NAFLD evidence to MASLD** by
+  the 99.8%-overlap argument — a reasonable but stated assumption, not a re-derivation. The Peng umbrella
+  adds a *second* source type (pooled MAs) that quantifies and grades the lever menu, but it pools the
+  same primary literature, so it is a refinement of the shared evidence base, not independent
+  confirmation.
+- **Umbrella-review caveat:** Peng's breadth (37 MAs) is not 37 independent tests — constituent MAs
+  overlap in primary studies, and Peng did not re-appraise individual studies or run subgroup/sensitivity
+  analyses. Its GRADE-per-arm is the usable output; read the effect sizes as ranked-associational, not as
+  effects on hard liver outcomes (only surrogates were moved by the RCT-backed treatment arms).
 - **The weight-loss ladder is a single-RCT threshold**, and the histological evidence for exercise and
   diet-quality on hard liver outcomes is explicitly weak (LoE 3-5). The firm parts are steatosis
   reduction and the >=10% -> fibrosis claim; the clinical-liver-outcome parts are not.

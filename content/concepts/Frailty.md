@@ -18,8 +18,9 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
     - Shared Modifiable Levers Across Age-Related Diseases
+    - Intrinsic Capacity and Multidimensional Healthspan
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-28
 self_critiqued: 2026-08-08
 ---
 

@@ -3,16 +3,17 @@ type: framework
 question: Which outcomes should a recommendation be judged on, and who decides their relative weight?
 aliases: [Outcome Importance, Critical vs Important Outcomes, Patient-Important Outcomes, Outcome Selection, The 1-9 Outcome Scale]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew]
-sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022]
+sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024, Zheng - Interventions Prolong Healthspan RCT Systematic Review 2026]
 cluster: evidence-appraisal
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
     - Surrogate Outcomes
     - Framing a Decision Question
+    - Exercise for Preventing Falls in Older Adults
 created: 2026-07-25
-updated: 2026-08-04
-self_critiqued: 2026-08-01
+updated: 2026-08-28
+self_critiqued: 2026-08-28
 ---
 
 Outcomes are not interchangeable, and which ones a recommendation rests on is a **decision made
@@ -97,6 +98,25 @@ both bear on a recommendation). How much a disabling-but-non-fatal event weighs 
 is then the person's layer-3 call.
 
 
+## A composite person-centred outcome is the anti-streetlight device made an endpoint (2026-08-28)
+
+The empty-row rule keeps an *unmeasured* important outcome visible; a **composite person-centred
+functional score** is the same defence built into the *chosen* endpoint. Zheng's healthspan SR
+deliberately rejects the disease-centred definition (multimorbidity) for **intrinsic capacity** (a
+WHO 5-domain objective composite) plus **quality of life** (subjective), because both share «a
+person-centered focus on functioning rather than diagnoses», and argues «a composite IC score would
+serve as a better indicator... instead of single domains of IC (e.g., locomotion or cognitive domain
+alone)». [@zheng2026healthspan]
+
+- **Why it belongs here:** choosing a composite function outcome is the *outcome-selection* act this
+  page governs — it resists the streetlight collapse of "health" onto whatever single well-lit
+  endpoint (a biomarker, one cognitive test, a disease event) a trial measured. The catch is that IC/QoL
+  are also the outcomes measured *worst* (self-report, unblindable interventions, heterogeneous scales),
+  so the composite buys menu-completeness at the cost of measurement noise — more honest uncertainty,
+  not more confident advice. The construct and its hedged evidence live on
+  [[Intrinsic Capacity and Multidimensional Healthspan]].
+  [inferred from @zheng2026healthspan]
+
 ## Decision relevance
 
 - **Ordinal is enough.** GRADE never converts importance into a cardinal utility, and its
@@ -133,6 +153,30 @@ minimum calls five-to-ten per cent of initial body weight *"(clinically meaningf
 Discussion's "about 4 to 6 kg" is a translation of a criterion already on the record. The **DBP, LDL
 and HbA1c** thresholds appear only in the Discussion. Disclosed either way, and still not the same
 instrument as pre-specification.
+
+## When the values evidence actually exists — a worked instance (2026-08-28)
+
+GRADE's fallback when values-and-preferences evidence is missing is panel experience (§3.3), which the
+handbook concedes is *likely to be uncertain*. The falls-prevention NMA for the Canadian Task Force is a
+case where that evidence was **systematically reviewed rather than assumed**: a dedicated review (44
+studies, mostly EQ-5D, mostly from people who experienced the event) put disutilities on the 0-to-1
+(death) scale and produced an *empirical* outcome ranking for the falls cluster
+[@pillay2024falls].
+
+- The finding: «Based on the much higher disutility, fracture (of any type) is probably more important
+  than either falls (0.09 over 12 months) or functional status (0.12 for impairment in at least 1 ADL)»
+  (MODERATE certainty), with long-term-care admission the most important state of all — «80% of
+  participants said they would rather be dead»
+  [@pillay2024falls].
+- **Why it matters for this page:** it is the rare instance where *which outcome is critical* is settled by
+  measured patient values instead of panel assertion — and the ranking is non-obvious (the *fall*, the
+  measured endpoint of most trials, is the **least** important state; the *fracture* and *lost
+  independence* it can trigger are what patients weight). This both instantiates the perspective rule
+  (values are the patient's, and here they were elicited) and doubles as a streetlight warning: a trial
+  that counts *falls* is measuring the low-disutility link in the chain, not the high-disutility outcome
+  the person cares about. The full worked chain lives on
+  [[Exercise for Preventing Falls in Older Adults]].
+  [inferred from @pillay2024falls]
 
 ## Limits
 

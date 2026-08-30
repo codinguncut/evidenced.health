@@ -1,6 +1,6 @@
 ---
 type: framework
-question: How much physical activity, of what kind, do I need before the mortality benefit flattens?
+question: How much physical activity, of what kind, changes mortality -- and where, if anywhere, does the benefit flatten?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
 authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A]
 sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017]
@@ -19,8 +19,8 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Weekend Warrior Activity Pattern and Mortality
 created: 2026-07-27
-updated: 2026-08-23
-self_critiqued: 2026-08-19
+updated: 2026-08-29
+self_critiqued: 2026-08-29
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -32,6 +32,14 @@ quotes are retained as the summary that reproduced them. Two further primaries a
 2016** (sitting x PA interaction) and **Paluch 2022** (steps/day). All three are gold harmonised MAs of
 prospective cohorts — objective/device or harmonised self-report — the objective-measurement corrective
 to the older self-report dose-response literature.
+
+**These three are not independent replications of each other.** Ulf Ekelund is a named co-author on all
+three, and they re-slice overlapping cohort pools (the shared accelerometry/harmonised consortium —
+NHANES, the Women's Health Study, and others recur across them). So their agreement on curve *shape* is
+a set of convergent framings of one evidence base, not three separate confirmations — which is why no
+`[E-independent]` token is claimed on it (the same-quantity check returns NO; the convergence is
+qualitative). The genuine independence this page banks is by measurement *modality*, in the next
+paragraph.
 
 **The independence gap is now partly closed — by measurement modality, not by method.** A genuinely
 independent check was hoped for from [[Muscle-Strengthening Activity and Mortality]] (Momma 2022) and is
@@ -161,6 +169,19 @@ reverse causation (illness reduces activity) is not excluded by design — the p
 reflects consistency and precision, not randomization. And the exposure is total accelerometer
 counts, which is not a prescription anyone can follow directly.
 
+**And the dose points are regions on a sparse, age-bounded top — not a target menu.** Two caveats the
+table drops belong at the point of display. (i) *Studied range:* Ekelund's cohorts «included middle
+aged and older adults who were at least 40 years old; it is unclear whether the estimates of the
+absolute physical activity levels associated with maximal risk reduction apply to younger people»
+[@ekelundacc2019] — the maxima are not
+scoped to under-40s. (ii) *The upper arm is thin:* each dose maximum carries its own wide interval,
+the MVPA point most of all («wide confidence intervals were observed at this part of the dose-response
+curve» because few participants reach high MVPA), and the \~300 cpm total-PA maximum «mirrors the
+median total physical activity for the third quarter»
+[@ekelundacc2019] — i.e. the apparent
+optimum sits where the data are densest, the *apparent-optimum-equals-sampling-edge* hazard, so read
+the dose column as regions on a flat top, not point targets -> [[The Underivable Optimum]].
+
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
 The two maxima above trace to **Ekelund 2019**, a harmonised MA of 8 accelerometry cohorts (n=36 383,
@@ -196,7 +217,9 @@ curve flattens:
 So this IS a located plateau (monotone-decreasing then flat — no U/J, no harmful upper arm at achievable
 doses). It survives the *measurement* caveat the wiki attaches to plateaus: measurement error can hide a
 knee but not manufacture one, and here the plateau is on the objectively-measured, un-attenuated curve —
-so it is more credible than a self-report plateau, not less. Cross-check: objectively-measured *fitness*
+so it is credible on the un-attenuated curve, more so than a self-report plateau. The one qualifier that
+cuts the other way: the plateau's high-dose arm rests on **few participants with wide CIs** (the maxima
+caveat above), so it is well-established that the curve flattens but not precisely where. Cross-check: objectively-measured *fitness*
 shows NO plateau -> [[Cardiorespiratory Fitness and Mortality]] — the two are not the same construct
 (activity dose flattens; the fitness it produces keeps paying).
 

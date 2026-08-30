@@ -2,12 +2,12 @@
 type: synthesis
 question: Do the major age-related diseases share their modifiable risk factors — so that pulling one common set of big-rock levers prevents several at once — and where does that logic break?
 aliases: [Shared Levers Across Diseases, Do Age-Related Diseases Share Their Levers, Common Modifiable Levers, One Regimen Many Diseases, Multi-Outcome Levers]
-authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org); Aune, Dagfinn; Marques-Couto, Pedro]
-sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025]
+authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org); Aune, Dagfinn; Marques-Couto, Pedro; Babaker, Raghad]
+sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-27
+updated: 2026-08-30
+self_critiqued: 2026-08-30
 relationships:
   related_to:
     - Body Fatness and Cancer Risk
@@ -108,6 +108,18 @@ disease-**and**-lever-specific — not every big-rock lever reaches every diseas
 reaches one disease need not be the one that reaches its organ-neighbour.
 [@marquescouto2025]
 
+**And the classic vascular big rocks *do* reach AMD — in the expected direction.** Babaker 2025 (18
+observational studies) finds AMD occurrence significantly associated with **smoking (OR 1.86),
+hypertension (1.24), CVD (1.44), and diabetes (1.44)**, while BMI, stroke and blood lipids are NS
+([[Age-Related Macular Degeneration and Modifiable Exposures]]). So the AMD column is not uniformly
+lever-poor: it is *PA specifically* that fails there, whereas the vasculature-injuring big rocks
+associate as they do across the dementia and cardiometabolic families — consistent with the shared
+*vascular substrate injured by the same exposures* reading below. Two discounts keep this an F/refinement
+and not a strong claim: these are **route-(a) prognostic associations** (who develops AMD), not
+demonstrated levers, and they come from a crude-and-adjusted-mixed observational pool with no absolute
+risk — so they *reinforce the ranking already set by each rock's own outcomes* rather than opening an
+AMD-specific lever. [@babaker2025amd]
+
 ## Where the logic breaks — Parkinson's is the exception, and it is instructive
 
 Parkinson's does **not** obey the shared-lever pattern, and reading it as if it did would misdirect
@@ -179,7 +191,16 @@ three function pages *and* all four incidence rows. **Adiposity / weight loss is
 function axis:** it is an evidenced lever for **knee OA specifically** (reduces joint load, inflammation,
 pain), not a general function lever — and it is NOT a frailty lever (weight loss is itself a Fried
 frailty criterion and can harm the frail), so its breadth here is knee-OA-via-overweight, whereas on the
-*incidence* axis it is broad (dementia/cancer/CVD). This is co-membership evidence again, NOT a
+*incidence* axis it is broad (dementia/cancer/CVD). **Knee OA now sits on BOTH axes**, and the two carry
+different evidence weight — the distinction is the decision-relevant part: obesity is the dominant knee-OA
+*incidence* lever too (it carries the large majority — \~77% — of the radiographic-KOA attributable fraction
+-> [[Knee Osteoarthritis Incidence and Risk Factors]]) and sits on the *same* adiposity machinery as the
+cardiometabolic levers (so this is NOT a distinct pathway — it is consistent with the shared-substrate
+reading below, not a counter-case). But that incidence figure is **prognostic / route-(a)**: no held
+evidence shows that *losing* weight in a normal-BMI-trajectory person prevents incident OA, whereas the
+function/symptom benefit has a causal anchor (IDEA, in the already-symptomatic). So for knee OA the *proven*
+weight-loss lever is on the FUNCTION axis; the incidence axis is prognostically-implied only. This is
+co-membership evidence again, NOT a
 commensurable magnitude — the outcomes here are frailty status, WOMAC pain and physical function, not
 disease incidence, so do not read a shared lever as an equal-size effect. The decision consequence
 *compounds* the Layer-1 point: **physical activity** especially earns its top ranking not only because it

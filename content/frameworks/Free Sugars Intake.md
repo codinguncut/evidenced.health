@@ -18,7 +18,7 @@ relationships:
 created: 2026-07-26
 updated: 2026-08-28
 nosplit: 696@single-exposure nucleus (one how-much-free-sugar-which-outcome question); length is four guidance families accreted on one decision, not multiple decisions
-self_critiqued: 2026-08-13
+self_critiqued: 2026-08-28
 ---
 
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
@@ -652,6 +652,14 @@ body's own systematic review. [inferred from @efsasugars2022]
 - **The 10% limit is a dental recommendation.** If someone's decision is about adiposity or
   cardiometabolic risk, the caries evidence does not transfer, and the weight evidence says the effect
   runs through energy.
+- **But the beverage vehicle carries a real cardiometabolic signal -- do not read the above as
+  "sugar is only a dental issue."** Sugar-sweetened beverages, the dominant free-sugars carrier, show
+  a monotone dose-response to type 2 diabetes (RR 1.19 per 250 mL/d
+  [@qin2020]),
+  hypertension and obesity (§beverage limb; §DIfE refinement). It is the **additive (ad-libitum) arm,
+  not the isocaloric one** -- SSB adds poorly-compensated liquid calories -- so the signal is
+  energy-mediated and observational, but a real, decision-relevant reason to cut SSBs *specifically*
+  when the concern is adiposity or cardiometabolic risk -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 - **Name the replacement.** Cutting sugar and replacing the calories with other carbohydrate moved
   weight by 0.04 kg [@who2015]. The realistic alternative determines the effect (telos layer 3).
 - **Fruit juice sits inside the exposure and whole fruit outside it** -- a food-level distinction that a
@@ -743,6 +751,8 @@ range), CHD 1.17 (1.11-1.23), hypertension 1.07 (1.04-1.10), overweight/obesity 
 yet its **all-cause mortality cell is null** (RR 1.03, 0.91-1.18, LOW).
 [@schwingshackl2017t2d]
 [@bechthold2019]
+[@schwingshackl2017htn]
+[@schlesinger2019]
 [@schwingshackl2017mort] The lever
 is cardiometabolic (its free-sugar load), consistent with this page's channel; the mortality null is
 the streetlight/measurement caveat, not evidence of safety. Full cross-outcome placement ->

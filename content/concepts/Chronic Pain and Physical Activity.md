@@ -16,7 +16,7 @@ relationships:
     - Physical Activity Dose and Mortality
     - Massage Therapy for Pain and Function
 created: 2026-08-08
-updated: 2026-08-26
+updated: 2026-08-28
 self_critiqued: 2026-08-08
 ---
 
@@ -32,6 +32,14 @@ patient-important outcomes here — self-reported pain, physical function, QoL �
 Gold-tier Cochrane umbrella (21 SRs, 381 studies, 37,143 participants; 264 studies compared exercise vs
 no/minimal exercise across RA, OA, fibromyalgia, low back pain, claudication, dysmenorrhoea, neck
 disorder, spinal cord injury, postpolio, patellofemoral pain).
+
+*Version note (refresh 2026-08-28):* the held copy is now **pub3** (CD011279.pub3, Issue 2, 2020),
+superseding the pub2 first read. Per the source's own WHAT'S NEW (18 Feb 2020, "Amended") and HISTORY,
+pub3 is a purely editorial amendment of pub2 — a clarification to the Declarations of Interest plus a
+Commercial-Sponsorship-policy audit note — with **no change to conclusions**. The pooled figures
+(21 SRs / 381 studies / 37,143 participants), certainty verdict, and every effect quoted below are
+unchanged from pub2, so all attributions carry over.
+[inferred from @geneen2017chronicpain]
 
 - **Pain severity: limited, inconsistent, low-certainty.** «exercise did not consistently bring about a
   change (positive or negative) in self-reported pain scores at any single point» — favourable in many

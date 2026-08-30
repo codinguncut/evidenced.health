@@ -2,7 +2,7 @@
 type: hub
 question: How do muscle, bone, strength, and physical function change with age, which of them predict outcomes vs are modifiable levers, and how do protein, resistance training, and supplementation move them?
 created: 2026-08-06
-updated: 2026-08-13
+updated: 2026-08-29
 ---
 
 Navigator for the muscle-bone-function domain — the substrate of the older-adult health-lever question:
@@ -48,6 +48,10 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Knee Osteoarthritis and Modifiable Levers]] — for knee OA, which modifiable exposures reduce pain
   and preserve function, and how they rank (weight loss the dominant lever; appraises the risk/function
   levers, not the clinical management of established disease)
+- [[Knee Osteoarthritis Incidence and Risk Factors]] — the DEVELOPING-OA counterpart (Duong gold SR+MA):
+  which exposures raise risk of incident knee OA as route-(a) prognostic associations — obesity dominant
+  (aOR 1.17/BMI-unit, 77% of the attributable fraction), prior injury (aOR 2.67), occupational load (the
+  PA paradox at the knee); observational, richest on radiographic not symptomatic OA
 - [[Vitamin D and Calcium Supplementation for Fracture Prevention]] — for whom supplementing vitamin D
   and/or calcium reduces fracture (Yao: null in the replete community-dwelling, benefit concentrated in
   the deficient/institutionalized), and the supplemental-calcium cardiovascular-harm signal (Bolland)

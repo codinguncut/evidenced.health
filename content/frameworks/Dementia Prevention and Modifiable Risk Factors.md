@@ -9,7 +9,7 @@ nucleus: true
 confidence: medium
 created: 2026-08-05
 updated: 2026-08-28
-self_critiqued: 2026-08-27
+self_critiqued: 2026-08-30
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline

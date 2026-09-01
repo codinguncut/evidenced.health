@@ -2,12 +2,12 @@
 type: deliverable
 title: Blood Lipids and ApoB
 question: What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted?
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
 confidence: high
 created: 2026-08-17
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 aliases: [ApoB and Heart Disease, LDL and Cardiovascular Risk, Which Lipid to Measure, Blood Lipids, Cholesterol and Heart Disease]
 ---
 
@@ -93,6 +93,13 @@ The proviso «provided the LDL-C drop is concordant with the particle-number dro
 
 **Both trials measured total cholesterol only**, so neither can show the cholesterol drop tracked a real apoB-particle drop — and linoleic acid plausibly adds an off-target harm. So they land *inside* the causal framework rather than refuting it: they are the worked demonstration that **a dietary cholesterol change is not interchangeable with a drug-induced apoB change**. Validate the marker-to-outcome transmission for the agent actually used -> [[Surrogate Outcomes]]. The dietary-fat physiology — which fats raise or lower which particles — is one route into this axis and is owned by [[Dietary Fat]], not re-derived here.
 
+**So how big is a dietary LDL drop in the first place — modest, and smaller still in trials.** Landry's 2024 umbrella review puts a number on one dietary route, and its two estimates pull in opposite directions:
+
+- **Observational:** across 31 studies, vegan eating tracked LDL-C «−0.49 mmol/l (−0.62, −0.36)» lower than omnivorous eating [@landry2024vegetarian] — but that figure is GRADE low, heavily confounded by the healthy-adherer pattern (people who go vegan differ in many ways), and highly heterogeneous (I2=92%).
+- **Randomised:** in presumably-healthy adults the effect shrinks to nothing — vegetarian and vegan diets combined moved LDL-C «−0.13 mmol/l (−0.37, 0.12)» across 4 RCTs, not significant [@landry2024vegetarian].
+
+[inferred from @landry2024vegetarian] So even taken at its confounded observational face value, the dietary LDL lever is real but small — and by this deliverable's own drug-route-only rule, a diet-induced LDL change does not buy hard events at CTT's statin-derived RR 0.78-per-mmol rate.
+
 ## For a primary-prevention adult, absolute risk decides — and zero calcium can defer
 
 ### The statin decision is a baseline-risk decision
@@ -151,9 +158,9 @@ Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **I
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted? |
-> | **Evidence included** | 15 sources — 6 gold, 9 high |
+> | **Evidence included** | 16 sources — 7 gold, 9 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
 
 ## References

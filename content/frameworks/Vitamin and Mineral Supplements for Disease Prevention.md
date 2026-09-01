@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -20,8 +20,8 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
 created: 2026-07-30
-updated: 2026-08-23
-self_critiqued: 2026-08-23
+updated: 2026-08-31
+self_critiqued: 2026-08-31
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -354,6 +354,65 @@ worth naming: low *baseline* red-blood-cell DHA+EPA marked more 3-year decline, 
 not prevent it [inferred from @andrieu2017] — low status is a marker of
 decline, not shown to be a lever, exactly as the low-fish-subgroup reading of VITAL's MI signal above
 suggests repletion rather than a pill effect -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
+
+## COSMOS — the cocoa-flavanol supplement, VITAL's sister trial, primary CVD outcome null `[2026-08-31, Sesso]`
+
+COSMOS (Sesso 2022) is a **cocoa-extract supplement** RCT built in the VITAL mold — same PI (Manson),
+recruited partly from VITAL contacts, 2x2 factorial (cocoa extract x multivitamin), 21,442 older US
+adults free of major CVD, median 3.6 y. It is the closest thing the corpus holds to a **randomized
+physical isolation of a food-borne flavanol on a hard CV outcome**, and on its **primary** endpoint it
+is **null**:
+
+| Endpoint | HR (95% CI) | Prespecified? | State |
+|---|---|---|---|
+| **Total CVD events (PRIMARY)** | **0.90 (0.78, 1.02); P=0.11** | primary | **no meaningful effect** |
+| CVD death | 0.73 (0.54, 0.98) | secondary | benefit — but see caveat |
+| Total MI | 0.87 (0.66, 1.16) | secondary | no meaningful effect |
+| Stroke | 0.91 (0.70, 1.17) | secondary | no meaningful effect |
+| All-cause mortality | 0.89 (0.77, 1.03) | secondary | no meaningful effect |
+| Total cancer | 1.10 (0.97, 1.24) | secondary | no meaningful effect (point adverse) |
+
+[@sesso2022cosmos]
+
+**Absolute layer.** «The annualized rates of total cardiovascular events were 1.08% and 1.20% in the
+active and placebo cocoa extract groups, respectively»
+[@sesso2022cosmos] — a 0.12 percentage-point/yr
+difference, non-significant, with «410 participants taking cocoa extract and 456 taking placebo» having
+events (HR 0.90; 95% CI 0.78, 1.02; P=0.11)
+[@sesso2022cosmos].
+
+**The primary was null; do not let the secondary CVD-death signal stand in for it.** CVD death 0.73
+(0.54, 0.98) was the only secondary reaching nominal significance, but it is **hypothesis-generating,
+not a finding** [inferred from @sesso2022cosmos]: it
+carries no multiplicity control, the composite it sits inside was null, and a per-protocol total-CVD
+figure (HR 0.85, 0.72-0.99) the authors themselves flag «should be interpreted with caution»
+[@sesso2022cosmos]. This is the same discipline
+applied to VITAL's total-MI secondary above. Cancer, the other secondary, was null with a *slightly
+adverse* point estimate (1.10).
+
+**The null is not an adherence artifact.** Treatment produced «a more than 3-fold increase compared
+with placebo in gVLM concentrations, with an overall ratio of geometric means (95% CI) of 3.23 (2.84,
+3.67; P < 0.001)» [@sesso2022cosmos] (gVLM = a
+validated flavanol-intake biomarker) — the flavanol was delivered and absorbed; the composite still did
+not move.
+
+**This is enhancement in the replete, and the exposure is an EXTRACT, not the flavanol and not the
+food.** The 500 mg/d cocoa flavanols dosed «substantially exceeds the mean intake reported in Europe of
+105 mg/d» [@sesso2022cosmos] — \~5x the dietary
+mean, so this joins the page's core framing (adding a supplement to an already-adequate population). And
+even this RCT does **not** isolate the flavanol: «we tested a cocoa extract supplement ... containing
+all naturally occurring bioactive components of the cocoa bean, including cocoa flavanols,
+(-)-epicatechin, and theobromine ... thus, we cannot disentangle the effects of its individual
+components» [@sesso2022cosmos]. So the primary
+null is consistent with any of three readings held together [inferred from @sesso2022cosmos]: the component is not
+causal; the observational flavonoid signal is confounding; or the extract/dose/matrix differs from
+food-borne flavanols. The food-vs-component payload lives on [[Is the Food Category Doing Any Work]] and
+[[Flavonoid Intake and Mortality]]; here it lands as another supplement with a surrogate/mechanistic
+rationale that **fails to move hard CV events** in a low-risk, replete population.
+
+**COI (symmetric standards).** Cocoa extract supplied by Mars Edge; NIH + Mars co-funded, with blinded
+assays «completed independently» [@sesso2022cosmos]. Note it — but the primary endpoint is *null* (against the sponsor's interest), so the COI does not
+obviously inflate the headline; the caution attaches to the favourably-read secondaries.
 
 
 ## Layer-1 placement — a low/absent lever for the well-nourished

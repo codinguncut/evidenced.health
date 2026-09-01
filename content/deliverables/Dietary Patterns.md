@@ -3,13 +3,13 @@ type: deliverable
 title: Dietary Patterns
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
-authors: [Bougma, Karim; Hooper, Lee; Ge, Long; Reynolds, Andrew; Brown, Lisa; Aune, Dagfinn; Scientific Advisory Committee on Nutrition (org); Astrup, Arne; World Health Organization (org); Look AHEAD Research Group (org); Ma, Chenhan; Hall, Kevin D; Gardner, Christopher D; Estruch, Ramon; Siervo, Mario; Orlich, Michael J; Lean, Michael EJ; Churuangsuk, Chaitong; Goldenberg, Joshua Z; Naude, Celeste E; Ference, Brian A; World Cancer Research Fund International (org); Bastide, Nadia M; He, Feng J; Mente, Andrew; National Institute for Health and Care Excellence (org); Howard, Barbara V]
-sources: [Bougma - Iodine Child Mental Development Meta-Analysis 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Ge - Named Diets Weight Cardiovascular Network MA 2020, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, SACN - Carbohydrates and Health 2015, Astrup - Saturated Fats Reassessment 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Mente - PURE Healthy Diet Score 2023, Estruch - PREDIMED Mediterranean Diet 2018, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Lean - DiRECT T2D Remission 2018, Churuangsuk - Diabetes Diets Umbrella Review 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ference - LDL Cause ASCVD EAS Consensus 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, NICE - NG246 Evidence Review F, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
+authors: [Bougma, Karim; Hooper, Lee; Ge, Long; Reynolds, Andrew; Brown, Lisa; Aune, Dagfinn; Scientific Advisory Committee on Nutrition (org); Astrup, Arne; World Health Organization (org); Look AHEAD Research Group (org); Ma, Chenhan; Hall, Kevin D; Gardner, Christopher D; Estruch, Ramon; Siervo, Mario; Orlich, Michael J; Landry, Matthew J; Lean, Michael EJ; Churuangsuk, Chaitong; Goldenberg, Joshua Z; Naude, Celeste E; Ference, Brian A; World Cancer Research Fund International (org); Bastide, Nadia M; He, Feng J; Mente, Andrew; National Institute for Health and Care Excellence (org); Howard, Barbara V]
+sources: [Bougma - Iodine Child Mental Development Meta-Analysis 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Ge - Named Diets Weight Cardiovascular Network MA 2020, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, SACN - Carbohydrates and Health 2015, Astrup - Saturated Fats Reassessment 2020, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Mente - PURE Healthy Diet Score 2023, Estruch - PREDIMED Mediterranean Diet 2018, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Churuangsuk - Diabetes Diets Umbrella Review 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ference - LDL Cause ASCVD EAS Consensus 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, NICE - NG246 Evidence Review F, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 
 No named dietary pattern has been shown superior to the others on the outcomes people actually care about — length of life, heart attacks, strokes, incident diabetes — once a diet clears a floor of basic adequacy. That is not a gap waiting to be filled. Above the floor the question has been tested at scale, and the honest answer is that the patterns come out close to the same. This is a **no-meaningful-difference** finding, not a shrug — a stronger statement than *we don't know.*
@@ -364,12 +364,30 @@ trials. **Name the gap:** the Appel/Sacks DASH-Sodium feeding trials are not hel
 fabric cannot yet grade DASH's BP effect *independent of* the weight and sodium changes that travel
 with the pattern.
 
-**Orlich is a single confounded cohort.** In the Adventist Health Study 2, all vegetarians combined
-carried an all-cause **HR 0.88** — roughly one fewer death per 1,000 person-years in absolute terms
-[@orlich2013]. Certainty stays **low**
-because the vegetarian exposure travels bundled with leanness, non-smoking and abstinence, and the
-authors say so: «Potential for uncontrolled confounding remains» [@orlich2013]. A pattern association is not evidence for any one of its components
--> [[Is the Food Category Doing Any Work]].
+**The vegetarian island is now broader than one cohort — but the ceiling has not moved.** The
+single-cohort detail comes from the Adventist Health Study 2, where all vegetarians combined carried an
+all-cause **HR 0.88** — roughly one fewer death per 1,000 person-years in absolute terms
+[@orlich2013]. A gold-tier umbrella of 21
+systematic reviews now pools the multi-cohort picture and grades each arm with GRADE: a vegetarian
+(including vegan) pattern carries **CVD incidence RR 0.85 (0.79-0.92)** and **CHD incidence RR 0.79
+(0.71-0.88)**, and these are the review's strongest arms — «only lower CVD and CHD incidence had
+moderate certainty evidence» [@landry2024vegetarian], while every mortality arm stays low certainty and total stroke comes back
+null.
+
+**But breadth is not independence, and the umbrella inherits the confound rather than escaping it.** The
+21 reviews re-pool a shared cohort base — of twelve stroke cohorts «All twelve primary studies were
+reported in Dybvik et al.» [@landry2024vegetarian] — so the count is coverage, not 21 independent replications, and the Adventist and
+EPIC-Oxford cohorts that dominate this literature carry the healthy-adherer bundle (leanness,
+non-smoking, abstinence) into every pool.
+
+Orlich's authors say so plainly: «Potential for uncontrolled confounding remains»
+[@orlich2013]. So the direction is
+well-supported — moderate certainty for incidence — while the causal step past the confound is unmade:
+a pattern association is not evidence for any one of its components
+-> [[Is the Food Category Doing Any Work]], [[Vegetarian Dietary Patterns and Mortality]]. Name the
+stake symmetrically — the umbrella was «supported by the Academy of Nutrition and Dietetics... Vegetarian
+Nutrition Dietetic Practice Group» [@landry2024vegetarian], which earns the same appraisal bar as an industry-funded meat paper, no more
+-> [[Which Objective Moved This Recommendation]].
 
 **Two discounts sit under all four islands.** Dietary measurement error flattens every cohort read —
 reported energy runs, on average, **34% below** doubly-labelled-water expenditure in adults 16-64
@@ -501,9 +519,9 @@ marketing implies — and far less than whether you keep it.
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 31 sources — 16 gold, 14 high, 1 weak |
+> | **Evidence included** | 32 sources — 17 gold, 14 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
 
 ## References

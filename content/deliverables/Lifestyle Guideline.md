@@ -3,16 +3,17 @@ type: deliverable
 title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
-authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao; Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org)]
+authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao; Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org); Pillay, Jennifer]
 sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024,
   Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Yin - Sleep Duration Mortality Dose-Response 2017, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012,
   BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999,
-  Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018]
+  Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018,
+  Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024]
 confidence: medium
 created: 2026-08-18
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
@@ -144,7 +145,14 @@ The levers do not change on your birthday, but their order does as you age.
 - **Balance and footwork become the surest lever -- against falls.** Training balance and gait cuts the
   fall rate substantially, and it is one of the best-evidenced moves in the whole guide. **Resistance
   training on its own is not proven to prevent falls** -- the evidence there is uncertain, not a
-  demonstrated failure -- so train balance specifically rather than assuming that lifting covers it. ->
+  demonstrated failure -- so train balance specifically rather than assuming that lifting covers it.
+  Pillay's network meta-analysis for the Canadian Task Force (219 RCTs, 167,864 participants) ranked the
+  whole fall-prevention menu and kept balance on top, pinning the dose Sherrington could not: an
+  effective programme is supervised -- «> two sessions, not including ini- tial instruction» -- and
+  long-duration -- «> 3 months», with group tai chi a top-tier option; a one-off class does not do it
+  [@pillay2024falls].
+  Pillay «included 125 of 283 studies included in the previous review», so this refines Sherrington, not
+  independent corroboration. ->
   [[Exercise for Preventing Falls in Older Adults]]
 - **Protein and strength work move up the stack.** Ageing blunts the muscle's response to protein, and
   muscle and bone get harder to hold, so keeping both protein and resistance training up matters more

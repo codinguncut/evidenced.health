@@ -2,8 +2,8 @@
 type: framework
 question: Does low muscle mass predict all-cause mortality in older adults, independent of muscle strength — and is it a treatment target or only a prognostic marker?
 aliases: [Low Muscle Mass Mortality, Muscle Mass and Mortality, ASMI Mortality, Appendicular Skeletal Muscle Mass Mortality, Muscle Quantity Mortality]
-authors: [de Santana, Felipe M; Premaor, Melissa O; Tanigava, Nicolas Y; Pereira, Rosa M R; Cruz-Jentoft, Alfonso J]
-sources: [de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
+authors: [de Santana, Felipe M; Premaor, Melissa O; Tanigava, Nicolas Y; Pereira, Rosa M R; Cruz-Jentoft, Alfonso J; Zhao, Yuan; Jiang, Yueying; Feng, Xiuqin]
+sources: [de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Zhao - Sarcopenia Functional Decline Mortality Meta-Analysis 2026]
 cluster: muscle
 confidence: medium
 relationships:
@@ -19,8 +19,8 @@ relationships:
     - Big Rocks (Elderly)
     - Frailty
 created: 2026-08-06
-updated: 2026-08-08
-self_critiqued: 2026-08-06
+updated: 2026-09-01
+self_critiqued: 2026-09-01
 ---
 
 This is the **muscle-mass -> hard-outcome (mortality)** leg the elderly-protein / sarcopenia cluster
@@ -144,6 +144,54 @@ reliable measure (so it rightly leads diagnosis), AND mass carries *independent*
 mortality (so it is not disposable). This is a **claim-refinement (`type-F`)**: de Santana covers the
 blind spot in the *mass is just confirmatory* reading — the composite (*strength primary; mass still
 independently predicts death*) beats either source alone. No `tension` is filed.
+
+## The syndrome as marker — and the function-outcome leg (Zhao 2026, moderate)
+
+[@zhao2026sarcopenia]
+
+Zhao 2026 is a **labeled-moderate refining** SR-MA (39 studies, n=76,151, community-dwelling ≥60;
+Frontiers venue, moderate-to-high heterogeneity — not an anchor). Its exposure is the **sarcopenia
+*syndrome*** — «Objective measures of low muscle mass ... combined with low muscle strength ... and/or
+low physical performance» — i.e. the combined mass+function definition de Santana *deliberately excluded*
+to isolate mass. So Zhao is a **different quantity** and does two distinct jobs: it corroborates the
+marker family on a much larger community-dwelling base, and it adds the **function-outcome leg** this
+page previously lacked (it was mortality-only).
+
+**Parameter table — are these the same quantity?**
+
+| Parameter | de Santana 2021 (held) | Zhao 2026 | Same quantity? |
+|---|---|---|---|
+| Exposure | low muscle **mass** alone (ASMI), strength *excluded* | sarcopenia **syndrome** (mass + low strength and/or performance) | **No** — mass-isolated vs composite; Zhao bundles the strength de Santana nets out |
+| Effect metric | between-group SMD in ASMI (dead vs alive) | OR (sarcopenic vs non-sarcopenic) | **No** — SMD vs odds ratio |
+| Mortality result | ASMI SMD −0.18 (−0.23 to −0.12) | OR 1.79 (1.55\~2.06); trim-and-fill 1.33 (1.11\~1.59) | not comparable (different metrics) |
+| Population | community-dwelling, non-frail, ≥65, n=10,028 | community-dwelling, ≥60, n=76,151 | partial overlap |
+| Bears on «mass independent of strength»? | yes — the page's core claim | **No** — bundles strength, cannot isolate it | — |
+
+**The fourth column is «No», so Zhao is a complement, not a contrast — and specifically it does NOT
+reinforce the mass-independent-of-strength claim** (its exposure contains strength by construction). It
+extends the *marker family*, not de Santana's finer mass-specific point.
+
+- **Sarcopenia predicts mortality** «OR = 1.79,95%CI: 1.55 \~ 2.06» — but heterogeneity is high
+  («I2 = 81.2%») and **publication bias is detected** («Egger's test (bias estimate = 2.04, p = 0.0002)»);
+  after trim-and-fill the excess mortality roughly *halves* to «OR = 1.33, 95%CI: 1.11 \~ 1.59». Read the
+  bias-corrected figure as the load-bearing one for a moderate-tier source. Mass-tool subgroups diverge
+  sharply — CT «OR = 1.16 (95% CI: 1.09 \~ 1.24)» vs DXA 1.89 / BIA 1.96 — so the pooled number hides
+  method-stratum variation.
+- **Sarcopenia predicts functional decline** (the new leg) «OR = 1.9 (95%CI: 1.55 \~ 2.32...)»,
+  trim-and-fill-attenuated to «OR = 1.55, 95%CI: 1.18 \~ 2.04». Split by domain: «physical (OR = 1.91,
+  95%CI: 1.52\~2.40) and cognitive/psychological functional decline (OR = 2.03, 95%CI: 1.35\~3.05)» — the
+  cognitive/psychological arm is wide and thin (directional, not precise). Functional decline is
+  itself measured with heterogeneous performance/self-report scales (the telos flags these as
+  measured-worst) -> [[Surrogate Outcomes]].
+- **Prognostic, not interventional — the open-loop reading holds on the syndrome too.** Zhao states «most
+  included studies were observational, limiting causal inference», and that absolute-risk translation
+  «requires individual participant data ... which was not available». (This agreement is not badged
+  `type-E` — that observational data cannot establish causation is self-evident, not a non-obvious
+  convergence of independent backing.) The syndrome finding raises the *stakes* of the muscle lever
+  without proving that reversing sarcopenia lowers death or preserves function. The interventional arm
+  remains a named gap:
+  AWAITS a resistance-training -> mortality/function SR — walled RT->hard-outcome MAs being acquired
+  separately; closes when an RCT/SR shows a sarcopenia-reversing intervention moves either outcome.
 
 ## Decision relevance
 

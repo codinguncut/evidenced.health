@@ -2,8 +2,8 @@
 type: framework
 question: Does strength / resistance training reduce mortality and disease independently of aerobic activity, and at what dose?
 aliases: [Muscle-Strengthening Activity, Resistance Training Mortality, Strength Training, MSA, Weight Training Mortality]
-authors: [Momma, Haruki; Kawakami, Ryoko; Honda, Takanori; Sawada, Susumu S]
-sources: [Momma - Muscle-Strengthening Activities and Mortality 2022]
+authors: [Momma, Haruki; Kawakami, Ryoko; Honda, Takanori; Sawada, Susumu S; Saeidifard, Farzane; Medina-Inojosa, Jose R; Lopez-Jimenez, Francisco]
+sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Saeidifard - Resistance Training Mortality Meta-Analysis 2019]
 cluster: activity
 confidence: low
 relationships:
@@ -16,14 +16,21 @@ relationships:
     - Grip Strength and Mortality
     - Low Muscle Mass and Mortality
 created: 2026-07-29
-updated: 2026-08-06
-self_critiqued: 2026-08-01
+updated: 2026-09-01
+self_critiqued: 2026-09-01
 ---
 
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
-**independently of aerobic activity**, and it does so at a **small dose**. Both come from one
-meta-analysis (Momma 2022) of **observational** cohorts, graded «very low» — so this is a real but
-**weakly-warranted** lever, held one tier below the RCT-grade BP and lipid evidence.
+**independently of aerobic activity**, and it does so at a **small dose**. Two meta-analyses now converge
+on this — Momma 2022 (broad muscle-strengthening activity) and Saeidifard 2019 (framed as resistance
+training). But both pool **mostly the same US self-report cohorts** (Momma explicitly compares itself to
+Saeidifard, and Saeidifard's mortality data are largely the same NHANES/NHIS muscle-strengthening
+cohorts) — so the second MA is a **refinement, not independent corroboration**, and the evidence stays
+**observational, self-reported, «very low» GRADE**. A real but **weakly-warranted** lever, held one tier
+below the RCT-grade BP and lipid evidence. What Saeidifard adds is *endpoint resolution*, not more
+certainty: it separates cardiovascular **mortality** (borderline, CI crosses 1) from Momma's CVD
+**incidence** (significant), and finds cancer **mortality** null where Momma's cancer **incidence** was
+favourable (see the cross-source table below).
 
 
 [@momma2022]
@@ -44,6 +51,74 @@ strength and aerobic are additive, not substitutes. This corroborates and refine
 strength-guideline finding on [[Physical Activity Dose and Mortality]] (both-guideline HR \~0.71); it is
 **not** independent backing (same observational PA-epidemiology lineage, overlapping US cohorts), so it
 is a refinement, not an [E-independent] convergence.
+
+
+[@saeidifard2019]
+## Saeidifard 2019 — the second MA, endpoint-resolved and mortality-specific
+
+Saeidifard is a SR-MA of «11 (one randomized trial and 10 cohort studies)... totaling 370,256
+participants with mean follow-up of 8.85 years», restricted to studies its authors label resistance
+training (defined «typically at loads greater than 65% of the one-repetition maximum»). It asks the
+mortality-specific question Momma's broad MSA-and-disease pool does not isolate:
+
+| Outcome (RT vs no exercise) | HR (95% CI) | Note |
+|---|---|---|
+| All-cause mortality | «0.79 (0.69–0.91)» (−21%) | significant |
+| Combined RT + aerobic vs no exercise | «0.60 (0.49–0.72)» (−40%) | additive; larger than either alone |
+| Cardiovascular **mortality** | «0.83 (0.67–1.03)» (abstract) / «0.83 (0.68–1.01)» (Fig 3a) | **borderline — CI crosses 1** |
+| Cancer **mortality** | «0.81 (0.54–1.20)» | **no significant association** |
+| CHD events, men (1 cohort, n=44,452, 2y) | «RR 0.77... CI: 0.61–0.98» (−23%) | «trained with weights for 30 min or more per week»; one study only |
+
+Two decision-relevant refinements over Momma:
+
+- **The CV benefit is softer on the harder endpoint.** Momma's «RR 0.83; 95% CI 0.73 to 0.93» is CVD
+  *incidence* (significant); Saeidifard's identical 0.83 point estimate is CV *mortality* and its CI
+  **crosses 1** — so acting on the CV-mortality claim specifically rests on a borderline association, not
+  the clean incidence signal. Same number, different (harder) endpoint, weaker warrant.
+- **Cancer: incidence favourable, mortality null.** Momma finds total-cancer *incidence* «0.88 (0.80 to
+  0.97)»; Saeidifard finds cancer *mortality* «0.81 (0.54–1.20)», non-significant. These are **different
+  endpoints, not a contradiction** — RT's cancer value (if any) is plausibly on incidence and on
+  cancer-patient function/lean-mass, not on lowering death-from-cancer, which the data cannot show.
+
+**Dose.** Saeidifard's own reading matches Momma's caution against the upper arm: performing «>0 to two
+sessions of resistance training per week is associated with lower all-cause mortality (0.79 (0.66–0.95)),
+but doing more than two sessions of resist-ance training is not», and «2–3 sessions... is not
+signiﬁcantly better than... lower frequencies... (1.00 (0.89–1.11))». The authors suggest optimal benefit
+«by 1–2 sessions per week and avoiding high-intensity low-repe-tition type activities» but explicitly
+disown a firm shape: «the current evidence is not enough to conclude that the relationship between
+resistance training and survival has a U-shape curve.» This is a second-source corroboration of the
+[[The U-Shaped Association Artifact]] reading — the upper arm is not believed by either MA.
+
+
+[inferred from @momma2022; @saeidifard2019]
+## The two MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
+
+The op-weave parameter table, with the same-quantity column doing the work:
+
+| Parameter | Momma 2022 | Saeidifard 2019 | Same quantity? |
+|---|---|---|---|
+| Exposure | broad MSA (weights, calisthenics, push-ups/sit-ups) | *labelled* RT (>65% 1RM), but constituent mortality cohorts are mostly the SAME broad MSA self-report | **NO** — the "RT-specific" framing is not carried by the data; overlapping instrument |
+| Metric | RR | HR (OR converted to RR, «assumed the RR equivalent to hazard ratio») | \~ both hazard-type; comparable |
+| All-cause mortality | «0.85 (0.79 to 0.93)» −15% | «0.79 (0.69–0.91)» −21% | Same construct, different pool — RT point nominally lower; overlapping cohorts (not independent) |
+| Combined + aerobic → all-cause | «0.60 (0.54 to 0.67)» | «0.60 (0.49–0.72)» | Striking point convergence, but **F not E** (shared cohorts; Momma cites Saeidifard) |
+| Cardiovascular | «0.83 (0.73 to 0.93)» — CVD **incidence**, significant | «0.83 (0.67–1.03)» — CV **mortality**, borderline | **NO** — incidence vs mortality; significance differs |
+| Cancer | «0.88 (0.80 to 0.97)» — **incidence**, favourable | «0.81 (0.54–1.20)» — **mortality**, null | **NO** — different endpoint (a distinction, not a tension) |
+| Dose | J-shaped, nadir «40 min/week» (minutes) | «>0 to two sessions... per week» significant, >2 not (sessions); U-shape disowned | Related shape, different exposure unit |
+
+**Independence: type-F (refinement), not [E-independent].** Three defeaters, any one sufficient:
+
+- **Momma cites Saeidifard directly** — Momma's paper explicitly positions itself against the prior MSA
+  meta-analyses (Saeidifard, Nascimento), a fact recorded in the held Momma source-page extraction. A
+  later MA that names and refines an earlier one is F by construction.
+- **Shared constituent cohorts.** Saeidifard's pool is Dankel, Kamada, Grøntved, Kraschnewski, Zhao,
+  Loprinzi, Schoenborn, Evenson — the classic NHANES/NHIS/Women's-Health/Health-Professionals MSA-
+  mortality cohorts, the same lineage Momma's 2022 MSA-mortality pool draws on. Pooling the same data
+  twice is not two independent tests (the *volume-is-not-independence* rule).
+- **Same instrument, same confounding structure** — self-reported muscle-strengthening frequency,
+  «push-ups or sit-ups» wording recurring across the cohorts.
+
+So the 0.60 combined convergence, however striking, does **not** raise confidence; it is the same finding
+re-pooled. No `[E-independent]` stamp.
 
 
 [@momma2022]
@@ -177,7 +252,7 @@ shapes differ, neither implying inertness:
   glycaemia and weight without cutting hard CV events, and intensive glucose-lowering has even raised
   mortality via hypoglycaemia -> [[Surrogate Outcomes]], [[Does Weight Loss Reduce Cardiovascular Events]].
 
-So "clean diabetes, noisy mortality" is the expected shape of a diluted, surrogate-mediated distal outcome,
+So *clean diabetes, noisy mortality* is the expected shape of a diluted, surrogate-mediated distal outcome,
 not evidence the channel does nothing.
 
 ## References

@@ -52,6 +52,10 @@ BP levers.
   0.47%, in every risk stratum — the de-adoption anchor)
 - [[Eggs Dietary Cholesterol and Cardiovascular Risk]] — whether dietary cholesterol from eggs raises CV
   risk (near-null in general cohorts; the signal, where any, is in diabetics), and why the headline swings
+- [[Levothyroxine for Subclinical Hypothyroidism]] — the standing-drug de-escalation anchor: for the modal
+  SCH adult (mildly elevated TSH), levothyroxine normalizes the defining lab but moves no
+  patient-important outcome (QoL/symptoms SMD \~0, GRADE high) — a lever not worth starting, bounded away
+  from TSH >10, age >80, and high symptom burden
 
 - [[Mediterranean Diet and Cardiovascular Events]] — whether a whole dietary pattern (not a single
   nutrient) reduces hard CV events, in whom and on which outcomes
@@ -66,6 +70,9 @@ BP levers.
 
 - [[Smoking and Mortality]] — the size of smoking's mortality effect and how much cessation recovers as
   a function of age at quitting
+- [[Electronic Cigarettes and Cardiovascular Risk]] — a distinct, much thinner exposure: acute surrogate
+  harm (HR/BP rise) shown, hard CV endpoints insufficient; valence flips by stratum (smoker switching =
+  harm reduction vs continued smoking; never-smoker starting = new harm)
 - [[Alcohol and Mortality and Vascular Disease]] — whether moderate intake is protective, harmful, or
   neutral, and whether the J-curve survives scrutiny; now also the drinking-PATTERN axis (binge at fixed
   volume, Roerecke), the red-wine/resveratrol null (Semba), and the population "no safe level" burden

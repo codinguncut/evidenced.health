@@ -18,8 +18,9 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Inflammation as a Modifiable Lever
     - Layer 1 - Ranking Interventions for a Stratum
+    - Antidepressants for Depression
 created: 2026-08-09
-updated: 2026-08-20
+updated: 2026-08-30
 self_critiqued: 2026-08-20
 ---
 
@@ -29,6 +30,13 @@ predicts and worsens cardiovascular disease, and shares the HPA / inflammation /
 wiki already tracks -> [[Stress Management and Cardiometabolic Health]], [[Inflammation as a Modifiable Lever]]. So *modifiable-exposure -> depression* is a legitimate appraisal claim. But it is held
 **peripherally and proportionately**: physical health is the focus, and this page is one nucleus over
 two levers, not a mental-health sub-domain.
+
+**The drug facet lives on its own page.** The realistic alternative to these lifestyle levers — the
+antidepressant class, appraised as a standing drug for its efficacy and its limitations — is
+[[Antidepressants for Depression]]. Its class-vs-placebo estimates (OR/SMD) are on a **different
+reference group** than the exercise network's SSRI-vs-active-control estimate below, so the two are not
+welded into a single head-to-head; the comparison and its caveats stay explicit at each point of use.
+
 
 **The binding caveat, up front — both levers rest on a SELF-REPORTED symptom-scale surrogate, and both
 literatures carry heterogeneity and publication bias.** Depression symptom scales (BDI, CES-D, HDRS) are

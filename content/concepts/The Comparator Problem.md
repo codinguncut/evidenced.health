@@ -8,7 +8,7 @@ cluster: inference-pitfalls
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-28
+updated: 2026-09-01
 self_critiqued: 2026-08-28
 relationships:
   related_to:
@@ -56,11 +56,15 @@ this page's synthesis.
   and a small sub-clinical effect vs an active comparator (and loses at 6 months), because the loose
   controls leave attention/touch/placebo in the estimate -> [[Massage Therapy for Pain and Function]].
   The comparator gradient here *is* the finding.
-- **White meat — the benefit may be what it displaces.** Higher poultry intake associates with a small
-  all-cause mortality reduction (neutral on CV), but a high-poultry diet is also a low-red-meat diet
-  and often a more-plant-protein one, so the signal could be crediting poultry for the removal of red
-  meat or the addition of plant protein rather than poultry itself — the source's own caveat, and an
-  unstated-comparator instance in a live literature -> [[Poultry and White Meat Consumption]].
+- **White meat — the benefit may be what it displaces, and the swap itself is unmeasured.** Higher
+  poultry intake associates with a small all-cause mortality reduction (neutral on CV mortality and,
+  per Ramel 2023, null and WCRF-graded as *substantial effects unlikely* on CVD mortality and T2D), but a
+  high-poultry diet is also a low-red-meat diet and often a more-plant-protein one, so the signal could
+  be crediting poultry for the removal of red meat or the addition of plant protein rather than poultry
+  itself. The sharper comparator point: all three held SR/MAs measure *intake of poultry*, not the
+  *substitution of red meat with white* — a limitation the newest source (Ramel 2023) names explicitly,
+  since foods replace rather than add to a diet — so the decision that matters (swap red for white?) is
+  left to imported substitution studies, not the intake analyses -> [[Poultry and White Meat Consumption]].
 
 ## The failure mode it names
 

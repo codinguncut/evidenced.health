@@ -3,13 +3,15 @@ type: deliverable
 title: Age-Related Diseases
 question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
 aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
-authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Johnston, Bradley C; García-Casares, Natalia; Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Racey, Megan; Godos, Justyna; Ambikairajah, Ananthan; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org); US Preventive Services Task Force (org); Kahwati, Leila C; LeBoff, Meryl S; Rossouw, Jacques E; Aune, Dagfinn; Sherrington, Catherine; Look AHEAD Research Group (org); Ma, Chenhan; Zhao, Jinhui; Rumgay, Harriet; Celis-Morales, Carlos A; Lopez-Bueno, Ruben; Morton, Robert W; Tagawa, Ryoichi; Vermeiren, Sofie; Marques-Couto, Pedro]
-sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, LeBoff - VITAL Vitamin D Fractures 2022, Rossouw - WHI Estrogen Progestin Principal Results 2002, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Sherrington - Exercise Preventing Falls 2019, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Celis-Morales - Grip Strength Mortality 2018, Lopez-Bueno - Handgrip Strength Thresholds, Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016]
+authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Johnston, Bradley C; García-Casares, Natalia; Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Racey, Megan; Godos, Justyna; Ambikairajah, Ananthan; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org); US Preventive Services Task Force (org); Kahwati, Leila C; LeBoff, Meryl S; Rossouw, Jacques E; Aune, Dagfinn; Sherrington, Catherine; Look AHEAD Research Group (org); Ma, Chenhan; Zhao, Jinhui; Rumgay, Harriet; Celis-Morales, Carlos A; Lopez-Bueno, Ruben; Morton, Robert W; Tagawa, Ryoichi; Vermeiren, Sofie; Marques-Couto, Pedro;
+  Babaker, Raghad]
+sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, LeBoff - VITAL Vitamin D Fractures 2022, Rossouw - WHI Estrogen Progestin Principal Results 2002, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Sherrington - Exercise Preventing Falls 2019, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Celis-Morales - Grip Strength Mortality 2018, Lopez-Bueno - Handgrip Strength Thresholds, Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016,
+  Babaker - Risk Factors Age-Related Macular Degeneration 2025]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-28
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 
 **The diseases of ageing share a modifiable core, though not every lever reaches every disease.**
@@ -622,7 +624,24 @@ A *different* exposure reaches AMD: a Mediterranean-diet pattern tracks slower
 AMD *progression* on the strongest observational design (cohort **HR 0.77, 95% CI
 0.67-0.88**), but the warrant is low (observational, eight studies, self-reported
 diet), the signal is for progression rather than development, and the
-Mediterranean pattern is already a big rock [@marquescouto2025]. **So there
+Mediterranean pattern is already a big rock [@marquescouto2025].
+
+The vascular big rocks, though, do reach AMD -- which is why the disease adds no
+new lever. Babaker's updated systematic review and meta-analysis -- 18
+observational studies (of 2640 screened), quality-rated on the Newcastle-Ottawa
+scale -- found AMD significantly associated with smoking (**OR 1.86, 95% CI
+1.33-2.6**), hypertension (OR 1.24, 1.09-1.4), cardiovascular disease (OR 1.44,
+1.11-1.87) and diabetes (OR 1.44, 1.3-1.6), while BMI, cholesterol and
+triglycerides were not significant [@babaker2025amd].
+These are the same vascular rocks -- smoking, blood pressure, cardiometabolic
+control -- already central to the shared-levers matrix, so a person at AMD risk
+pulls no new lever, only the ones they were pulling anyway. The
+caveats are heavy: the pooled studies are observational and small-n,
+between-study heterogeneity is high (smoking I2 = 81%) [@babaker2025amd],
+the venue is a high-volume mega-journal, and every figure is an association --
+no absolute-risk or causal estimate.
+
+**So there
 is no eye-specific action beyond «stay active»** — and, for someone already at
 AMD risk, an eating pattern they would adopt on cardiometabolic grounds anyway.
 Menopause changes which levers matter without adding one.

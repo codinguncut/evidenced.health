@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug]
-sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -22,10 +22,12 @@ relationships:
     - Lifestyle vs Metformin for Diabetes Prevention
     - Baseline Risk and the Relative-Absolute Split
     - Sleep Apnea Treatment and Cardiovascular Risk
+    - Levothyroxine for Subclinical Hypothyroidism
+    - Electronic Cigarettes and Cardiovascular Risk
 created: 2026-07-25
-updated: 2026-08-21
+updated: 2026-08-30
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
-self_critiqued: 2026-08-21
+self_critiqued: 2026-08-30
 ---
 
 ## Why it matters
@@ -892,5 +894,51 @@ The symptom benefit is real and patient-important on its own; it simply is not e
 outcome the surrogate was recruited to predict — the guidance-null form of this diagnostic
 -> [[Which Objective Moved This Recommendation]].
 [inferred from @yu2017cpap]
+
+## When the surrogate IS the disease definition — treating-to-target normalizes TSH, moves nothing (Feller) `[2026-08-30]`
+
+The CPAP case above hit its symptomatic target but not the heart; the Feller thyroid case is one turn
+sharper, and it lands the surrogate discipline on a **standing drug for a common diagnosis**.
+Subclinical hypothyroidism is *defined* by the marker — mildly elevated thyrotropin (TSH) with normal
+free T4 — so levothyroxine is prescribed to normalize that number. Feller's gold SR+MA (21 RCTs, 2192
+nonpregnant adults) shows the drug does exactly that at the surrogate and nothing at the person:
+treated-arm TSH fell into range (0.5-3.7 mIU/L) while placebo stayed elevated (4.6-14.7 mIU/L),
+«indicating that treatment was associated with nor- malization of thyrotropin levels»
+[@feller2018thyroid] — yet «thyroid hormone
+therapy ... was not associated with benefit regarding general quality of life (n = 796; SMD, −0.11;
+95% CI, −0.25 to 0.03) or thyroid-related symptoms (n = 858; SMD, 0.01; 95% CI, −0.12 to 0.14) ... the
+quality of evidence assessed with the GRADE tool was judged moderate to high.»
+[@feller2018thyroid]
+
+**Why this instance is distinct on the page.** In most cases above the surrogate is *measured
+alongside* the outcome; here the surrogate is the **diagnostic criterion itself**, so treating-to-target
+is guaranteed to move it — the marker cannot fail to respond, which makes its non-transmission to any
+patient-important outcome (QoL, symptoms, mood, cognition, BP, BMI — all null, several at GRADE
+**high**) a structurally clean dissociation: the drug did what it targets and the person did not change.
+And unlike CPAP, even the **symptoms themselves** did not improve, so there is no residual patient-facing
+benefit to hold onto. This drives a de-escalation: the standing prescription for the modal SCH adult
+treats a definitional number, not the person
+-> [[Levothyroxine for Subclinical Hypothyroidism]]. **Bounded** to the studied stratum (mildly
+elevated TSH, age ≤\~74, mild-to-moderate symptoms): the null may not transport to TSH >10 mIU/L or to
+a high-symptom-burden subgroup, which the trials could not test.
+[inferred from @feller2018thyroid]
+
+## The surrogate's DIRECTION flips with the comparator — e-cig haemodynamics `[2026-08-30, Skotsimara]`
+
+Most instances above ask *does the moved marker transmit to the outcome?* The e-cigarette CV case adds a
+prior question: **the same surrogate moves in opposite directions depending on the comparator**, so a
+bare «e-cig moves BP» carries no decision until the comparator is named. Skotsimara's SR+MA (14 studies,
+N=441, moderate quality) finds e-cig use raises HR/SBP/DBP **acutely vs baseline** (HR +2.27 bpm, 95% CI
+1.64 to 2.89; SBP +2.02; DBP +2.01) yet **lowers** SBP/DBP when a smoker **switches from combustible
+tobacco** (SBP -7.00 mmHg, -9.63 to -4.37) [@skotsimara2019ecig]. Neither figure is a hard outcome: the only CV-event datum is a single
+observational MI association the authors flag as «sensitive to non-random misclassiﬁcation bias», and
+«there is no epidemiological data on the risk for stroke or heart failure incidence»
+[@skotsimara2019ecig].
+
+**Why this instance is distinct.** Elsewhere the failure is a marker that moves but does not transmit;
+here the marker's very *sign* is comparator-dependent, so the surrogate cannot even be read as
+directionally harmful or beneficial without fixing the counterfactual (clean air vs continued smoking).
+The cell stays at **insufficient hard-outcome evidence** either way -> [[The Insufficient-Evidence Statement]], and the decision lives in the stratum split, not the marker
+-> [[Electronic Cigarettes and Cardiovascular Risk]]. [inferred from @skotsimara2019ecig]
 
 ## References

@@ -7,7 +7,7 @@ sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-29
+updated: 2026-08-30
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -155,6 +155,14 @@ safe" — both skip the missing test.
     an inert pill) -> [[Statins for Primary Prevention and the Power of Zero CAC]]. Two inert-pill
     designs isolating two different *non-pharmacological* effects of taking a pill — one on the
     endpoint, one on the complaint. `[type-A — the inert pill as a general isolation instrument]`
+    - **Third independent instance — antidepressant discontinuation `[E-independent]` `[2026-08-30]`.**
+      The placebo-**discontinuation** arm isolates the nocebo component of a *withdrawal* side-effect:
+      \~1 in 6 report discontinuation-like symptoms after stopping an inert placebo, so roughly half of
+      antidepressant discontinuation symptoms trace to expectation/non-specific effects rather than the
+      drug (figures + provenance on -> [[Antidepressants for Depression]]). Corroborated by Henssler
+      2024, a different drug class and research group that does not cite SAMSON — a genuinely
+      independent arrival at the same inert-pill-isolates-nocebo-on-the-side-effect design, strengthening
+      its status as a general isolation instrument.
 - **Measurement error flattens the trial's contrast** (adherence drift narrows the achieved
   between-arm difference) while the cohort captures habitual intake -> [[Measurement Error in Dietary Assessment]].
 - **Credibility grade and certainty grade are DIFFERENT AXES that legitimately disagree.** An umbrella

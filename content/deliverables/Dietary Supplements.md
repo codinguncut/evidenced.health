@@ -3,19 +3,19 @@ type: deliverable
 title: Dietary Supplements
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
-a daily multivitamin, vitamin D, fish oil — do essentially nothing for the diseases they are sold
-against.** In large randomized trials they sit at the bottom of the levers worth pulling, and no
-amount of dosing moves the ranking.
+a daily multivitamin, vitamin D, fish oil, a cocoa-flavanol capsule — do essentially nothing for the
+diseases they are sold against.** In large randomized trials they sit at the bottom of the levers
+worth pulling, and no amount of dosing moves the ranking.
 
 **A short list of supplements are genuine levers — but each earns its place only in a specific
 circumstance:** correcting a documented deficiency, the weeks around conception, or a high-risk
@@ -109,6 +109,29 @@ Keep those two nulls apart: vitamin E is a *graded null*; multivitamins are *ins
 different state (a modest cancer-incidence signal, discordant with mortality, on short follow-up) — not
 demonstrated benefit, and not the same as a demonstrated null
 [inferred from @uspstf2022supp] -> [[Rating Certainty of Evidence]].
+
+COSMOS ran the same test on a newer marketed supplement — a cocoa-flavanol extract, sold for heart
+health. It randomized 21,442 older US adults free of major cardiovascular disease to a cocoa-extract
+capsule (500 mg/day cocoa flavanols) and/or a multivitamin, median 3.6 years, and its **primary**
+endpoint was null: total cardiovascular events HR **0.90 (0.78-1.02, P=0.11)**, an annualized 1.08% vs
+1.20% [@sesso2022cosmos]. Do not let its one
+favourable secondary stand in for that null: CVD death fell to 0.73 (0.54-0.98) and a per-protocol
+total-CVD figure to 0.85 (0.72-0.99), but the authors flag the per-protocol result «should be
+interpreted with caution» — no multiplicity control, sitting under a null composite
+[@sesso2022cosmos]. That is the same discipline
+VITAL's total-MI secondary required.
+
+The null is not an adherence artifact. Treatment produced «a more than 3-fold increase compared with
+placebo in gVLM concentrations, with an overall ratio of geometric means (95% CI) of 3.23 (2.84, 3.67;
+P < 0.001)» (gVLM is a validated flavanol-intake biomarker), so the flavanol was absorbed and the
+composite still did not move [@sesso2022cosmos].
+
+COSMOS sits in this section's frame twice over: the 500 mg/day dose «substantially exceeds the mean
+intake reported in Europe of 105 mg/d», so it is enhancement in the already-replete; and even this RCT
+does not isolate the flavanol — the capsule contained «all naturally occurring bioactive components of
+the cocoa bean ... thus, we cannot disentangle the effects of its individual components»
+[@sesso2022cosmos]. A cocoa-extract supplement is
+a different exposure from cocoa the food -> [[Is the Food Category Doing Any Work]].
 
 ## Some antioxidant supplements shorten lives rather than lengthen them
 
@@ -331,8 +354,8 @@ These are named gaps — absence of held evidence, not evidence of absence
 
 ## The bottom line
 
-- **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil and antioxidant
-  stack for disease prevention** — the best trials show no benefit, and spend the effort on the big rocks
+- **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil, cocoa-flavanol
+  and antioxidant stack for disease prevention** — the best trials show no benefit, and spend the effort on the big rocks
   (not smoking, activity, weight, sleep, a decent dietary pattern) instead.
 - **Do not take high-dose antioxidant supplements, beta-carotene especially** — in randomized trials they
   raised cancer and death, not lowered them.
@@ -366,9 +389,9 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 22 sources — 9 gold, 12 high, 1 moderate |
+> | **Evidence included** | 23 sources — 9 gold, 13 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 ## References

@@ -2,11 +2,11 @@
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
-authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Mente, Andrew; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023]
+authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Mente, Andrew; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre; Mazidi, Mohsen; Katsiki, Niki; Banach, Maciej; Sesso, Howard D]
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023, Mazidi - Flavonoid Intake and Mortality 2020, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
 cluster: inference-pitfalls
 confidence: medium
-self_critiqued: 2026-08-29
+self_critiqued: 2026-08-31
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -22,8 +22,10 @@ relationships:
     - Eggs Dietary Cholesterol and Cardiovascular Risk
     - Diet Quality Scores and Cardiovascular Risk
     - Food Groups and Health Outcomes - A Dose-Response Matrix
+    - Flavonoid Intake and Mortality
+    - Tea Consumption and Cardiovascular Risk
 created: 2026-07-27
-updated: 2026-08-29
+updated: 2026-08-31
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -684,6 +686,60 @@ At dietary doses the named component carries nothing; the category benefit, if a
 it. The bound: supraphysiologic *supplement* doses (100-1000× dietary) are a different exposure and not
 tested here. The decision link lives on [[Alcohol and Mortality and Vascular Disease]] (the beverage-matrix
 facet). [inferred from @semba2014]
+
+## "Flavonoid intake" is credited but COMPUTED from the foods — the component that never leaves the food `[2026-08-30, Mazidi]`
+
+The collinearity trap in its purest form. Mazidi 2020 (gold MA, 16 cohorts / 462,194) reports higher
+dietary *flavonoid* intake -> lower total (RR 0.87, 0.77-0.99) and CVD (RR 0.85, 0.75-0.97) mortality,
+and concludes «recommendations for flavonoid-rich foods intake to prevent chronic diseases»
+[@mazidi2020flavonoid]. Read naively, a *component* MA
+looks like the design that finally isolates the component from the food — the inverse of the fibre-
+isolate case above. **It is not**, because the exposure was never isolated: flavonoid intake is
+**estimated from FFQ food reports**, and flavonoids are «commonly present in vegetables, fruits, herbs
+and teas» [@mazidi2020flavonoid]. So the *flavonoid*
+variable is arithmetically **derived from** fruit/veg/tea consumption — the foods it would need to be
+separated from are its own inputs.
+
+**This is Test 3 with the component and food perfectly collinear by construction** — sharper than
+coffee/caffeine (where a decaf arm *could* break the collinearity) or wine/resveratrol (where a biomarker
+*could*). Here there is no biomarker, no isolated-flavonoid trial arm, and no Mendelian randomization —
+none of the designs that separate a food-borne component from its carrier. A study crediting *flavonoids*
+is measuring flavonoid-bearing foods (and the healthy-eating pattern that marks) under a component label.
+The decision consequence: **do not read a *flavonoid* mortality association as evidence that the
+flavonoid, rather than the fruit/veg/tea or the pattern, is the agent** — and do not treat a component MA
+as component-isolating merely because its exposure is *named* for a component. The full appraisal, the
+not-independent parameter table vs the tea MA, and the LOW-confidence call live on
+[[Flavonoid Intake and Mortality]]; the tea-side gap on [[Tea Consumption and Cardiovascular Risk]].
+[inferred from @mazidi2020flavonoid]
+
+**The isolating design the flavonoid section named as missing now partly exists — and its hard-outcome
+primary is null `[2026-08-31, Sesso/COSMOS]`.** The section above says the flavonoid case has «no
+biomarker, no isolated-flavonoid trial arm, and no Mendelian randomization». COSMOS supplies the second:
+a randomized, placebo-controlled **cocoa-flavanol EXTRACT** (500 mg/d flavanols, 80 mg epicatechin) vs a
+true placebo on hard CV endpoints — the design that *physically removes* the flavanol from the
+FFQ-collinear food signal. Its **primary** composite (total CVD events) was **null: HR 0.90 (0.78, 1.02;
+P=0.11)** [@sesso2022cosmos], with adherence
+confirmed by a >3-fold rise in the flavanol biomarker gVLM (ratio 3.23; 2.84, 3.67)
+[@sesso2022cosmos] — so the null is not
+under-delivery.
+
+**Why this SHARPENS the diagnostic rather than closing it — the RCT still does not isolate the
+flavanol.** COSMOS «avoided the perils of food-based cocoa interventions highly susceptible to variation
+in flavanol, theobromine, and other bioactive content»
+[@sesso2022cosmos], but the pill was a whole-bean
+extract: «we cannot disentangle the effects of its individual components»
+[@sesso2022cosmos]. So even a gold randomized
+isolation of the *food-borne fraction* leaves the component-within-the-extract question open, and the
+primary null is consistent with three readings held together: the flavanol is not causal for hard CV
+events; the observational flavonoid/chocolate signal is residual confounding (which the authors name —
+«Residual confounding ... limits observational studies examining flavanols or chocolate and CVD risk»
+[@sesso2022cosmos]); or the extract at \~5x the
+European dietary flavanol mean is a different exposure than the food. The randomized isolation
+**shrank the FFQ-flavonoid association toward the null on the primary hard outcome** without proving
+which of the three explains it — the loop stays open. Effect estimates + the not-a-secondary caveat live
+on [[Vitamin and Mineral Supplements for Disease Prevention]]; the parameter table vs Mazidi on
+[[Flavonoid Intake and Mortality]].
+[inferred from @sesso2022cosmos]
 
 ## "Omega-3" as a label spanning a benefit AND a null — the unit is compound × dose × stratum `[2026-08-04, Bhatt vs Manson]`
 

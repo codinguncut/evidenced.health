@@ -17,6 +17,7 @@ relationships:
     - Upgrading Observational Evidence
     - Measurement Error in Dietary Assessment
     - Alcohol and Mortality and Vascular Disease
+    - Tea Consumption and Cardiovascular Risk
 ---
 
 The domain-opening summary for coffee, built on one gold-tier umbrella review

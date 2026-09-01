@@ -14,8 +14,9 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Alcohol and Mortality and Vascular Disease
     - Dementia Prevention and Modifiable Risk Factors
+    - Electronic Cigarettes and Cardiovascular Risk
 created: 2026-07-29
-updated: 2026-08-19
+updated: 2026-08-30
 self_critiqued: 2026-07-29
 ---
 
@@ -108,6 +109,18 @@ Smoking is also one of the 14 modifiable dementia risk factors -> [[Dementia Pre
 risk in former smokers». [@livingston2024] So the cessation
 finding replicates on a *second* patient-important outcome — quitting removes the excess dementia risk as
 it removes the excess mortality risk — which raises, not competes with, smoking's Layer-1 ranking.
+
+## The e-cigarette is a *different* exposure — and the comparator decides its valence `[2026-08-30]`
+
+Do not read the combustible hazard onto the e-cigarette: it is a distinct exposure with its own,
+much thinner evidence -> [[Electronic Cigarettes and Cardiovascular Risk]]. What smoking's magnitude
+does supply is the **comparator that sizes the e-cig decision**. For a current smoker, the realistic
+alternative to switching is *continued smoking* at all-cause HR \~3, so an e-cig that is even modestly
+less harmful is a harm-reduction move — but full **cessation still dominates** switching, and «less bad
+than smoking» is not «safe». For a never-smoker the comparator is *clean air*, so starting adds a CV
+signal for zero gain. The e-cig CV cell sits at **insufficient hard-outcome evidence** (acute surrogate
+harm shown, hard endpoints unproven), so this stays a small marginal question behind the big rock of
+not smoking at all.
 
 ## Why confidence is high
 

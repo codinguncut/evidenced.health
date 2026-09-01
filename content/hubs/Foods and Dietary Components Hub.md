@@ -36,6 +36,16 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   and why "fish" is the wrong exposure
 - [[Coffee Consumption and Health]] — what habitual coffee does to patient-important outcomes, for
   whom, at what dose, and how much is causal
+- [[Tea Consumption and Cardiovascular Risk]] — the `beverage-cells` tea opener: per-cup RR within 1-4%
+  of 1.0 for CVD/stroke/all-cause mortality (Chung 2020 dose-response MA, cohorts only), but the benefit
+  goes NULL in the best-exposure-measured studies (RoB gradient) and the source is Unilever-funded;
+  not a big rock, food-vs-component question wide open (no MR, no decaf-analog)
+- [[Flavonoid Intake and Mortality]] — the `beverage-cells` flavonoid cell: dietary flavonoid intake ->
+  lower total (RR 0.87) + CVD (0.85) mortality (Mazidi 2020 MA, 16 cohorts), cancer NULL. But the
+  exposure is FFQ-ESTIMATED from the foods (fruit/veg/tea), so a "flavonoid" MA does NOT isolate the
+  component — it re-expresses the same dietary-pattern signal, NOT independent backing for tea; the
+  food-vs-component gap stays open. Heterogeneity claimed without I2; borderline (all-cause CI to 0.99);
+  confidence low
 - [[Nut Consumption and Mortality]] — the `plant-foods` opener: nuts -> CHD/CVD/cancer/all-cause &
   cause-specific mortality (Aune dose-response MA, per 28 g/day). Sizeable inverse RRs, an observed
   plateau at 15-20 g/day, but observational-only (healthy-user ceiling, no MR); "20 g optimal" is a

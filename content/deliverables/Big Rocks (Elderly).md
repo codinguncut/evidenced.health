@@ -2,12 +2,13 @@
 type: deliverable
 title: "The Biggest Health Levers After 70"
 question: 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?'
-sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
+sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017,
+  Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-12
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
@@ -139,6 +140,20 @@ The crucial specificity: **resistance training alone does not reduce falls** (Ra
 muscle, but balance training prevents the fall, so the two exercise levers are not interchangeable
 . This is the highest-certainty exercise outcome on the page and, for many at this age, the
 one weighted above a marginal change in length of life -> [[Exercise for Preventing Falls in Older Adults]].
+
+A network meta-analysis sharpens the dose Sherrington could not give. Pillay's analysis for the Canadian
+Task Force (219 RCTs, 167,864 participants) ranked the *whole* fall-prevention menu — vision treatment,
+home-hazard checks, multifactorial programmes and the rest — and balance work still lands on top:
+«Fourteen of the 21 (67%) interventions with some mod- erate certainty evidence for benefit had a focus
+on exer- cise», the top tier being **supervised, long-duration balance/resistance training and group tai chi**
+[@pillay2024falls].
+The dose is the upgrade: *supervised* means «> two sessions, not including ini- tial instruction» and
+*long-duration* means «> 3 months», so the effective programme for this person is supervised and sustained,
+not a one-off class
+[@pillay2024falls].
+Pillay «included 125 of 283 studies included in the previous review»
+[@pillay2024falls], so this
+sharpens Sherrington (type-F refinement), it is not independent (type-E) corroboration.
 
 Two adjacent cautions. **Vitamin D and calcium are not the fall/fracture lever here** — see the sign-flip
 section. And in the *already-frail* (outside this stratum), the fall-prevention signal weakens and the

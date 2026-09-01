@@ -3,12 +3,12 @@ type: deliverable
 title: Limits of Evidence
 icon: material-symbols-light:balance
 question: 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?'
-sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner]
+sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-26
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -97,6 +97,27 @@ analysis features of a non-randomized study lead to a classification of low risk
 the intended effects of interventions»
 [@cochranehandbook2024]. Its best attainable verdict is only
 *comparable to a good RCT*, and confounding usually caps it below that.
+
+**And that confound has a measured size -- large enough to mimic a real drug.** Drug-adherence studies
+put a number on it. Pooling 21 trials (46,847 people), reliable pill-takers died less often than poor
+adherers -- «odds ratio 0.56, 95% confidence interval 0.50 to 0.63»
+[@simpson2006adherence]. The decisive
+subgroup is the placebo arms of eight blinded trials (19,633 people), where the pill was inert: good
+adherence still tracked lower mortality, «Good adherence to placebo was associated with lower mortality
+(0.56, 0.43 to 0.74)»
+[@simpson2006adherence]. A sugar pill has no
+pharmacological path to survival, so the whole gap is the *kind of person
+who adheres* -- «adherence to drug therapy may be a surrogate marker for overall healthy behaviour»
+[@simpson2006adherence].
+
+So a behaviour-mortality association of order OR \~0.56 -- as large as many real drug effects -- can be
+manufactured by the healthy-adherer bundle with no causal input from the behaviour itself; magnitude
+alone never certifies cause for a guidance-endorsed exposure. The bundle is not omnipotent, though:
+where the adhered-to agent was itself proven harmful, good adherence flipped to «increased mortality
+(2.90, 1.04 to 8.11)»
+[@simpson2006adherence] -- it biases toward
+benefit but does not paint every adhered-to exposure protective.
+-> [[The Observational-Trial Discordance]]
 
 **A strong cohort signal can meet a null trial -- name why before crowning either.** Three distinct
 diagnoses, not one: (i) *confounding* -- the cohort signal was never causal, and the trial or a genetic
@@ -357,9 +378,9 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | | |
 > |---|---|
 > | **Question** | 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?' |
-> | **Evidence included** | 19 sources — 3 gold, 3 high, 1 moderate |
+> | **Evidence included** | 20 sources — 4 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
 
 ## References

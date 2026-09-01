@@ -6,9 +6,9 @@ question: 'How does the choice of comparator (replace X with what?) change the e
 sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-26
-concrete_subject_audited: 2026-08-27
+updated: 2026-08-31
+self_critiqued: 2026-08-31
+concrete_subject_audited: 2026-08-31
 ---
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
@@ -121,15 +121,24 @@ that contrast is not the effect a person realizes.
 
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
-A mechanism earns a *direction*, never a *magnitude*. The whole-organism response is a closed loop with
-counter-regulation, so the naive arithmetic — add this, subtract that — routinely over-predicts and
-occasionally reverses sign. The standing diagnostic is one question: *what compensates?*
--> [[Net Effect vs Intended Effect]]. One clause each: added exercise energy is partly offset by eating
-more and moving less the rest of the day -> [[Exercise Energy Compensation]]; energy restriction meets a
-defended set-point that actively regains -> [[Weight-Loss Maintenance and Metabolic Adaptation]]; a
-benefit that lasts only while a drug is taken, or is cancelled by an offsetting harm on another pathway
-so the all-cause net is null -> [[Inflammation as a Modifiable Lever]]; a meal-timing schedule whose
-effect may be calorie intake under another name -> [[Time-Restricted Eating]].
+A mechanism earns a *direction*, never a *magnitude*. The body is a closed loop, not an open one, so the
+naive arithmetic — add this, subtract that — is routinely wrong, and the correction it needs is **signed**.
+Usually the whole-organism response works *against* the intervention, leaving a net smaller than the
+mechanism promised; sometimes it redirects the effect onto a different outcome; and occasionally it works
+*with* the intervention, leaving a net *larger*. So the standing question is not the narrower *what
+compensates?* — which already assumes the response subtracts — but the signed *what does the whole system
+do: damp, redirect, or reinforce?* -> [[Net Effect vs Intended Effect]]. The evidence behind the two
+directions is lopsided: several worked cases show the response damping an effect, only one shows it
+amplifying, so treat *the response can add* as a real caution, not a symmetric law.
+
+One clause each. Added exercise energy is partly offset by eating more and moving less the rest of the day
+-> [[Exercise Energy Compensation]]; energy restriction meets a defended set-point that actively regains
+-> [[Weight-Loss Maintenance and Metabolic Adaptation]]; a benefit that lasts only while a drug is taken,
+or is cancelled by an offsetting harm on another pathway so the all-cause net is null
+-> [[Inflammation as a Modifiable Lever]]; a meal-timing schedule whose effect may be calorie intake under
+another name -> [[Time-Restricted Eating]]. The amplifying mirror runs the other way: a drink's own
+calories go un-compensated *and* it provokes extra eating in the same sitting, so the net surplus exceeds
+the drink alone -> [[Alcohol and Mortality and Vascular Disease]].
 
 This is why efficacy is not effectiveness. Efficacy is the effect of an *assigned, idealized* exposure
 inside a trial; effectiveness is that same parameter after compensation, execution drift, and adherence
@@ -334,6 +343,6 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
 
 ## References

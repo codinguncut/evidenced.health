@@ -24,6 +24,9 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   [[Cardiometabolic Risk Hub]])
 - [[Depression and Modifiable Exposures]] — which modifiable lifestyle exposures reduce depression, for
   whom and by how much — depression carried as a patient-important QoL outcome, not a mood end in itself
+- [[Antidepressants for Depression]] — the drug facet of the depression cluster: what the antidepressant
+  class does and does not do for acute MDD (Cipriani 2018 NMA, all 21 > placebo but SMD 0.30 modest, a
+  scale-threshold surrogate at \~8 weeks); the standing-drug alternative to the lifestyle levers
 
 ## Connection and meaning
 

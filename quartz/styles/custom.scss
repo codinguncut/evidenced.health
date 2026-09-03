@@ -137,6 +137,24 @@ a.dcard:hover {
   > :last-child  { margin-bottom: 0.3rem; }
 }
 
+// Full re-derive: every section changed within the window, so per-section boxes are suppressed
+// (they would blue-wash the whole page) in favour of a single slim "updated <date>" pill at the
+// top of the article -- one recency signal, no per-section noise.
+.recent-page::before {
+  content: "updated " attr(data-last-updated);
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--secondary) 30%, transparent);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  margin: 0 0 1rem;
+}
+
 // Deliverable card touched within the window: kept deliberately quiet -- no ring, no border or
 // background change (the per-card pastel tint survives untouched), just a small dated chip in the
 // corner. The recency signal should read as a light accent, not reframe the whole card.

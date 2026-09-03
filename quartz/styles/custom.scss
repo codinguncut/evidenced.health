@@ -105,36 +105,36 @@ a.dcard:hover {
 // --- "recently updated" markers, injected by bin/build_site.py from git history ---
 // Two surfaces, both keyed on var(--secondary) (the theme's blue: #284b63 light / #7b97aa dark,
 // so it stays legible in both modes without a second rule):
-//   1. .recent-update  — an EMPTY marker <div> placed just before each changed ## section heading
-//      (this Quartz fork has no rehype-raw, so a wrapping div is dropped but a self-contained marker
-//      survives). It renders a small "updated <date>" pill; the heading right after it goes blue.
+//   1. .recent-update  — a <div> WRAPPING each changed ## section (heading + body), enabled by
+//      rehype-raw in quartz/processors/parse.ts. A blue left-rule + faint blue wash box each
+//      changed section, with a small "updated <date>" label at its top.
 //   2. a.dcard.dcard-recent — a deliverable card whose deliverable changed within the window (landing)
-// Kept deliberately slight: a dated pill + a blue heading with a faint blue wash.
+// Kept deliberately slight: a faint blue box + a dated label.
 
 .recent-update {
-  margin: 1.5rem 0 0;
+  border-left: 3px solid var(--secondary);
+  border-radius: 0 6px 6px 0;
+  padding: 0.1rem 0.9rem;
+  margin: 1.4rem 0;
+  // color-mix over transparent -> a ~6% blue wash that reads on both light and dark grounds
+  background: color-mix(in srgb, var(--secondary) 6%, transparent);
+
   &::before {
     content: "updated " attr(data-last-updated);
-    display: inline-block;
-    font-size: 0.68rem;
+    display: block;
+    font-size: 0.7rem;
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--light);                 // flips with theme -> readable on the blue pill
-    background: var(--secondary);
-    padding: 0.1rem 0.5rem;
-    border-radius: 999px;
+    color: var(--secondary);
     opacity: 0.9;
+    margin: 0.2rem 0 0.1rem;
   }
-}
-// the section heading right after a marker: blue text + a slight blue wash / left-rule
-.recent-update + :is(h1, h2, h3, h4) {
-  color: var(--secondary);
-  border-left: 3px solid var(--secondary);
-  background: color-mix(in srgb, var(--secondary) 7%, transparent);
-  padding: 0.15rem 0.55rem;
-  border-radius: 0 5px 5px 0;
-  margin-top: 0.35rem;
+
+  // the wrapped heading picks up the blue too, and both it and the last block hug the box edges
+  > :is(h1, h2, h3, h4) { color: var(--secondary); }
+  > :first-child { margin-top: 0.15rem; }
+  > :last-child  { margin-bottom: 0.3rem; }
 }
 
 // Deliverable card touched within the window: a subtle blue ring (no background change, so the

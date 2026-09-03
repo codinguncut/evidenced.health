@@ -1,6 +1,7 @@
 import esbuild from "esbuild"
 import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
+import rehypeRaw from "rehype-raw"
 import { Processor, unified } from "unified"
 import { Root as MDRoot } from "remark-parse/lib"
 import { Root as HTMLRoot } from "hast"
@@ -39,6 +40,10 @@ export function createHtmlProcessor(ctx: BuildCtx): QuartzHtmlProcessor {
     unified()
       // MD AST -> HTML AST
       .use(remarkRehype, { allowDangerousHtml: true })
+      // Re-parse raw HTML (passed through by allowDangerousHtml) into real hast elements, so an
+      // authored <div class="..."> wrapping markdown content becomes a genuine wrapping element
+      // (not dropped). Placed right after remarkRehype so downstream html transformers see a full tree.
+      .use(rehypeRaw)
       // HTML AST -> HTML AST transforms
       .use(transformers.flatMap((plugin) => plugin.htmlPlugins?.(ctx) ?? []))
   )

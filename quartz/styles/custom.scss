@@ -137,12 +137,11 @@ a.dcard:hover {
   > :last-child  { margin-bottom: 0.3rem; }
 }
 
-// Deliverable card touched within the window: a subtle blue ring (no background change, so the
-// per-card pastel tint survives) + a small pill in the corner.
+// Deliverable card touched within the window: kept deliberately quiet -- no ring, no border or
+// background change (the per-card pastel tint survives untouched), just a small dated chip in the
+// corner. The recency signal should read as a light accent, not reframe the whole card.
 a.dcard.dcard-recent {
-  position: relative;                          // anchor the pill to the card
-  border-color: var(--secondary);
-  box-shadow: 0 0 0 1px var(--secondary) inset;
+  position: relative;                          // anchor the chip to the card
 }
 // Override the base `a.dcard::after { display: none !important }` (it suppresses Quartz's link icon).
 a.dcard.dcard-recent::after {
@@ -151,13 +150,12 @@ a.dcard.dcard-recent::after {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--light);                         // flips with theme -> readable on the blue pill
-  background: var(--secondary);
-  padding: 0.12rem 0.42rem;
+  color: var(--secondary);                     // blue text on a faint blue chip -- legible both themes
+  background: color-mix(in srgb, var(--secondary) 13%, var(--light));
+  padding: 0.1rem 0.4rem;
   border-radius: 999px;
-  opacity: 0.92;
 }

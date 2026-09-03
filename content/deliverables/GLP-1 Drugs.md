@@ -41,8 +41,6 @@ The absolute benefit is large here precisely because baseline risk is high — r
 no subgroup claim needed.
 For this person the drug is a large lever, a Big Rock, not a refinement.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Low or cosmetic baseline risk: real weight change, unproven hard-outcome benefit
 
 For a person near-normal in weight with no cardiometabolic disease, the picture inverts.
@@ -61,10 +59,6 @@ tolerability tax, meanwhile, is the same one the high-risk person pays — and i
 terms the balance runs against the low-risk person, who nets more serious harm where few hard
 events stand to be averted (the safety ledger below). So a lower-risk person buys a reliable
 surrogate change at full cost, with the patient-important payoff unproven.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The class is not uniform
 
@@ -94,8 +88,6 @@ sheds the most lean mass in the class — tirzepatide -8.3% (moderate certainty)
 weight loss points to tirzepatide, an evidenced mortality/MI reduction to subcutaneous semaglutide — a
 layer-3 choice the ranking informs but does not settle. Read each agent for its own evidence, not for
 the class label -> [[Semaglutide for Cardiovascular Risk in Obesity]].
-
-</div>
 
 ## Benefit is a maintained state, not a cure
 
@@ -275,8 +267,6 @@ tirzepatide's hard-CV effect is insufficient-evidence, not no-effect
 Cardiovascular events are the one hard endpoint with a positive trial; the other organ outcomes are a mix
 of one strong kidney signal and a set of surrogate moves.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Kidney, glycaemia, liver: three more organ benefits, each gated by baseline risk
 
 Cardiovascular events and weight are not the whole drug. Semaglutide moves hard kidney outcomes,
@@ -351,8 +341,6 @@ in a dose-dependent way; the steatosis/inflammation/fibrosis thresholds live in
 Each of these benefits is bought with the same body-wide catabolic state — which is
 also why lean tissue comes off, not just fat.
 
-</div>
-
 ## Muscle comes off with the fat — the ratio improves while absolute lean mass falls
 
 The one dedicated synthesis is a systematic review and meta-analysis of 7 RCTs at obesity doses
@@ -370,8 +358,6 @@ Laverde's own verdict lands on the ratio face — «lean mass loss should not be
 composition data and it is not a denial that absolute muscle falls; both are true at once. The
 decision turns on which face governs for whom.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The lost muscle is roughly what any rapid loss costs — not a drug-specific hazard
 
 The sharper question: does the *drug* shed disproportionate muscle, or is this just what
@@ -385,8 +371,6 @@ whatever drives it, not a novel drug toxicity — with semaglutide the exception
 Gap: the wiki holds no head-to-head against a *matched, same-magnitude* non-drug weight loss, so the
 attribution rests on comparing separate reference figures rather than a within-study contrast. It is a
 directional read, not a settled one.
-
-</div>
 
 ## Function is unmeasured — the streetlight gap
 
@@ -430,8 +414,6 @@ older stratum where it matters most. So the defense is real but not free; monito
 on weight alone.
 
 Muscle is the cost you can mitigate; the next set is the cost ledger you weigh directly.
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The safety ledger: what to actually worry about
 
@@ -528,8 +510,6 @@ to promise. [inferred from @yang2026]
 
 Every number above assumes the drug is still being taken — which raises the question the trials mostly did not answer: what happens when you stop.
 
-</div>
-
 ## Stopping the drug gives the weight back — and the benefit with it
 
 The STEP-1 off-treatment extension quantifies what *reverses on stopping* means. When both
@@ -598,8 +578,6 @@ benefit is a layer-3 judgment for the person, not a number this evidence supplie
 
 That leaves the boundary of what any of this evidence can currently say.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## What the current evidence cannot yet see
 
 These are gaps, not nulls. A gap is *insufficient evidence* — the question has not been
@@ -644,8 +622,6 @@ partly resets for whatever just changed -> [[GLP-1 Non-Cardiometabolic Effects a
 None of this argues against the drug; it bounds how far the current evidence can carry a
 decision, and hands the weighing back to the reader.
 
-</div>
-
 ## Start from your baseline risk, not the scale
 
 If you already have established cardiovascular disease — or type-2 diabetes with kidney
@@ -664,18 +640,12 @@ weight. Budget the cost, tolerability, and reversibility over years, and compare
 against a sustained lifestyle change on the same terms — not against an idealized one-time
 fix.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## If you proceed, protect muscle
 
 Fast, large weight loss takes muscle with the fat. Resistance training and adequate protein — the
 ordinary mitigations for any large deficit — lower the functional
 cost without touching the weight benefit -> [[GLP-1 and Lean Mass]]
 .
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Weigh the trade-off yourself — the health axis and beyond
 
@@ -694,7 +664,5 @@ the directions and the certainties.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
-
-</div>
 
 ## References

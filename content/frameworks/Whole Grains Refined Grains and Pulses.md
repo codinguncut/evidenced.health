@@ -113,8 +113,6 @@ equivalence of fortified/added fibre to intrinsic whole-grain fibre on hard outc
 established** — an open question, not a demonstrated sameness; "target fibre" ranks fibre above the label,
 it does not flatten the matrix.
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Pulses — SACN largely did not look, and that is the finding
 
 Where measured, null: legume fibre -> T2DM RR 1.01 (0.98, 1.04) per 1 g/day; legume fibre ->
@@ -146,8 +144,6 @@ do nothing at the intakes someone considering them would actually eat. `-> SC-11
 (Thorisdottir 2023, NNR2023) — cohort-null on hard CVD/T2D events across a low intake range, benefit
 on LDL-C at RCT doses, «limited – no conclusion» overall. See *The pulses G gap gets its dedicated
 SR+MA* below.
-
-</div>
 
 ## What this page does NOT establish
 
@@ -548,8 +544,6 @@ Full extraction, all outcome cells and the observational caveats: Aune 2016 sour
 - **Residual:** F-not-E means this adds precision/shape, not an independent witness — `confidence: low`
   is unchanged, which is the honest outcome of the shared-cohort finding.
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## The third Aune plant-food MA lands — same lineage, NOT a third independent witness `[2026-08-13]`
 
 Aune 2017 (F&V; ref 192-193 of that paper cite *this* whole-grain MA and the nut MA) completes the
@@ -569,10 +563,6 @@ All three report an inverse **all-cause** association, but the increments differ
   marks the evidence density, with lowest risk out at the **800 g/day studied edge** — a guideline
   threshold reading the data edge, not a curve feature -> [[Fruit and Vegetable Intake and Health]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 Across the five-outcome DIfE/Boeing dose-response series, **whole grains are the single most
@@ -588,10 +578,6 @@ cell, RR 0.88, single study).
 [@bechthold2019]
 [@schlesinger2019]
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The pulses G gap gets its dedicated SR+MA — cohort-null on events, benefit on risk factors `[2026-08-28, Thorisdottir]`
 
@@ -690,7 +676,5 @@ cohort range is compressed near the Nordic \~12 g/day mean, so the events null i
 Nordic eater would reach and uninformative about the 120-150 g/day RCT dose**; blood pressure unconcluded;
 and the surrogate-to-hard-outcome link for the LDL benefit is assumed, not shown.
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
 
 ## References

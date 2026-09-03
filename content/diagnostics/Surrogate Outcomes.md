@@ -872,8 +872,6 @@ present-but-undetectable rather than absent, the baseline-risk reading worked on
 caveat, not a clean randomized null.
 [inferred from @goldberg2022]
 
-<div class="recent-update" data-last-updated="2026-08-30">
-
 ## A TREATMENT's symptom/severity target as the surrogate — CPAP fixes the apnea, not the heart `[2026-08-21, Yu]`
 
 All the cases above are *measured markers* standing in for outcomes. This one moves the disconnect onto
@@ -897,10 +895,6 @@ The symptom benefit is real and patient-important on its own; it simply is not e
 outcome the surrogate was recruited to predict — the guidance-null form of this diagnostic
 -> [[Which Objective Moved This Recommendation]].
 [inferred from @yu2017cpap]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-30">
 
 ## When the surrogate IS the disease definition — treating-to-target normalizes TSH, moves nothing (Feller) `[2026-08-30]`
 
@@ -929,8 +923,6 @@ treats a definitional number, not the person
 elevated TSH, age ≤\~74, mild-to-moderate symptoms): the null may not transport to TSH >10 mIU/L or to
 a high-symptom-burden subgroup, which the trials could not test.
 [inferred from @feller2018thyroid]
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-02">
 

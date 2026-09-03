@@ -76,8 +76,6 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
 - ***Walk more* is not fall-prevention advice.** Walking programmes have insufficient evidence and are
   not what reduces falls — a substitution worth naming, because it is the intuitive default.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Fractures and injurious falls — the leg to the bone side, honestly lower-certainty
 
 The outcomes people most fear are the worst-measured (streetlight effect on the outcome side)
@@ -106,8 +104,6 @@ structurally blind to the falls channel, so BMD *under*-reads exercise's fractur
 small BMD gain does not itself guarantee a fracture reduction ([[Surrogate Outcomes]]). Frame the
 recommendation on the composite of both channels, not on either number alone.
 [inferred from @sherrington2019; @mohebbi2023]
-
-</div>
 
 ## The other leg — vitamin D / calcium supplements do NOT prevent fractures in the community-dwelling
 
@@ -170,8 +166,6 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
   trials (a pelvic stress fracture and a hernia). Adverse-event monitoring was poor (very low certainty),
   but nothing signals net harm — the intervention is low-risk relative to a large benefit.
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Ranking the intervention TYPES against each other — the NMA verdict (Pillay 2024)
 
 Sherrington ranks *exercise types*; it does not rank exercise against the whole menu of fall-prevention
@@ -212,10 +206,6 @@ structured-exercise focus** [@pillay2024falls]. The ordering confirms and sharpe
   caution, especially at elevated risk [@pillay2024falls]. This reinforces the
   *walk-more is not fall-prevention advice* substitution above, now from a second trial base.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Two interventions that INCREASED falls — harm at the type level
 
 The NMA is one of the few sources that catches fall-prevention interventions doing net harm
@@ -235,10 +225,6 @@ The NMA is one of the few sources that catches fall-prevention interventions doi
   associated with minimal harm» (two exercise nodes: moderate certainty for small \~5-8/100 any-AE harms,
   little-to-no serious harm) — consistent with Sherrington's 2-serious-events-in-108-trials safety profile
   [@pillay2024falls].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## What patients actually value — the outcome-valuation layer (Pillay KQ2)
 
@@ -275,10 +261,6 @@ on a 0 (no HRQoL loss) to 1 (equal to death) scale [@pillay2024falls]:
   but the fracture-specific certainty stays low — the honest gap the nucleus already flags on its fracture
   leg.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Preference is not efficacy — the delivery-format distinction (Pillay KQ3)
 
 Sherrington finds group vs individual delivery does **not modify the fall-reduction effect**. Pillay's
@@ -292,10 +274,6 @@ where feasible) is a free adherence gain — «If implementing new balance/resis
 individual rather than group sessions when feasible may be most acceptable»
 [@pillay2024falls]. Group
 delivery remains a legitimate, effective, lower-resource option. [inferred from @pillay2024falls]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Guidance proximity — where this sits against the guidance set
 
@@ -314,8 +292,6 @@ is **strong** here and this wiki's job is calibrated agreement-with-better-warra
 *mechanism* (balance is the lever), the *harm exceptions* (universal VAT, high-risk multifactorial), and
 the *outcome-valuation* ordering (fracture >> fall), none of which the guideline statements carry on their
 face. [inferred from @pillay2024falls]
-
-</div>
 
 ## Where this sits in the ranking
 

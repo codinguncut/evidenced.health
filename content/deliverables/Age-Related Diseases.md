@@ -601,6 +601,8 @@ reverse-causation arms, and Parkinson's carries no population-attributable or
 absolute-risk framing at all, so the absolute benefit of any lever at a stated
 baseline risk cannot be computed [@chen2021pd].
 
+<div class="recent-update" data-last-updated="2026-08-31">
+
 ## Age-related eye disease adds no new lever
 
 Age-related eye disease is the same thin-evidence pole as Parkinson's: one
@@ -645,6 +647,8 @@ no absolute-risk or causal estimate.
 is no eye-specific action beyond «stay active»** — and, for someone already at
 AMD risk, an eating pattern they would adopt on cardiometabolic grounds anyway.
 Menopause changes which levers matter without adding one.
+
+</div>
 
 ## Menopause shifts which levers matter without adding a new one
 

@@ -64,8 +64,6 @@ modifiable risk factors». [@livingston2024]
   this is a named gap pending the *published-version* PDF (the source slug itself is already held; an token here would false-fire `reconcile awaits-arrived`, which keys on the slug, not
   the missing table — re-key only if a distinct published-version row is ever registered).
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## The 14 factors, their direction, and their life-course window
 
 The two 2024 additions to the 2020 list of 12 are **high LDL-C** and **uncorrected vision impairment**
@@ -92,8 +90,6 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 
 [@livingston2024]
 
-</div>
-
 ## The cognitive-stimulation number, de-secondhanded (F-refinement, 2026-08-14)
 
 The *less education / cognitive stimulation at work* cell above carries the Commission's *borrowed*
@@ -116,8 +112,6 @@ second witness — a de-secondhanding (type-F), **not** an `[E-independent]` cor
   and Layer-1 ranking (RR \~1.3, *below* the cardiometabolic big rocks and below education itself) on
   [[Cognitive Stimulation at Work and Dementia]].
 [inferred from @kivimaki2021cognitive; @livingston2024]
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The air-pollution number, de-secondhanded — and it is weaker first-hand (F-refinement, 2026-08-27)
 
@@ -198,8 +192,6 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   -> [[Layer 1 - Ranking Interventions for a Stratum]]. So Wilker **quantifies and weakens** the
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
-
-</div>
 
 ## What the framework changes about what to do
 
@@ -452,8 +444,6 @@ pooled trial search could not find. Coley is the pooled COMPOSITE of the two RCT
 authorship, FINGER excluded), so it is corroboration of the null by re-analysis, not an independent third
 witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds the full responder verdict.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Self-critique `[run 2026-08-05, before commit]`
 
 - **Not laundered / not overclaimed.** The headline 45.3% is presented with all three of the source's own
@@ -501,7 +491,5 @@ witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds th
   weaker first-hand than the borrowed cell implied.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
-
-</div>
 
 ## References

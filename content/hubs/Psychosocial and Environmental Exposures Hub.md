@@ -14,8 +14,6 @@ opposite-signed across outcomes. Two through-lines run the whole cluster: most o
 as a marker of underlying health, few are proven treatment targets), and the physical intersection — not
 mood or life-satisfaction as ends in themselves — is what earns each page its place.
 
-<div class="recent-update" data-last-updated="2026-08-30">
-
 ## Stress and the HPA / allostatic channel
 
 - [[Allostatic Load and Mortality]] — nucleus of the `psychosocial` cluster: whether cumulative
@@ -29,8 +27,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
 - [[Antidepressants for Depression]] — the drug facet of the depression cluster: what the antidepressant
   class does and does not do for acute MDD (Cipriani 2018 NMA, all 21 > placebo but SMD 0.30 modest, a
   scale-threshold surrogate at \~8 weeks); the standing-drug alternative to the lifestyle levers
-
-</div>
 
 ## Connection and meaning
 

@@ -43,8 +43,6 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily and per meal, and
   why it is complementary to the training stimulus (cross-ref: [[Protein and Supplements Hub]])
 
-<div class="recent-update" data-last-updated="2026-08-29">
-
 ## Bone, joints, and fracture
 
 - [[Knee Osteoarthritis and Modifiable Levers]] — for knee OA, which modifiable exposures reduce pain
@@ -73,5 +71,3 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   at total hip), but BMD is a SURROGATE — the moderators (bone/menopausal status, supervision) are all
   null, and transmission to fewer fractures is not shown here (the falls channel, BMD-independent,
   carries the larger fracture signal); same-group non-independence caps confidence
-
-</div>

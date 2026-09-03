@@ -288,8 +288,6 @@ channel, not a demonstrated one.
 
 
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Self-critique `[run 2026-08-06, before commit]`
 
 - **No dairy halo, no dairy scare — both checked.** The neutral verdict is stated as neutral (not
@@ -320,10 +318,6 @@ channel, not a demonstrated one.
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series places dairy as a **cardiometabolic-marker lever, not a mortality lever**: inverse for
@@ -336,7 +330,5 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 [@schwingshackl2017mort]
 [@bechthold2019] Full grid
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
 
 ## References

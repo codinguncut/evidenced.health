@@ -23,7 +23,6 @@ created: 2026-08-09
 updated: 2026-08-30
 self_critiqued: 2026-08-20
 ---
-<div class="recent-update" data-last-updated="2026-08-30">
 
 Depression is on the wiki's outcome menu as a **patient-important QoL outcome** (the 2026-08-08
 QoL-extension) and through its **physiological intersection** with physical health — depression
@@ -44,8 +43,6 @@ literatures carry heterogeneity and publication bias.** Depression symptom scale
 *not* the patient-important outcome of a diagnosed depressive disorder — they are a
 [[Surrogate Outcomes|surrogate]] measured with error, and the certainty here is **low**. The direction
 (both levers help, or at least track lower depression) is more secure than the magnitude.
-
-</div>
 
 ## The two levers, ranked by warrant
 

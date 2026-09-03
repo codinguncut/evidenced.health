@@ -11,7 +11,6 @@ updated: 2026-08-27
 self_critiqued: 2026-08-11
 concrete_subject_audited: 2026-08-27
 ---
-<div class="recent-update" data-last-updated="2026-08-27">
 
 This page appraises the *health* axis of the *organic* label at the population level: what the measured
 differences between organic and conventional food are, how large they run against a whole diet, and
@@ -34,8 +33,6 @@ driven by what the animal ate — grass versus grain — which the organic certi
 No trial shows organic eating makes anyone healthier, and the one large cohort that points that way is
 riddled with the healthy-buyer confound. This is a thin-evidence field by its nature, not because the
 right study is still pending: you cannot blind or randomise a lifetime of buying organic.
-
-</div>
 
 ## The frame: "organic" is a provenance label, not an exposure
 
@@ -100,8 +97,6 @@ organic loses on two micronutrients.
 A uniformly favourable picture would be a halo tell. The honest reading is a mixed, small-magnitude one
 against total-diet intake.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Sub-question 3 — the cattle case: the label tracks the FEED, not the certificate
 
 Here the label and the causal exposure come apart. Organic milk and meat carry a more desirable
@@ -145,7 +140,6 @@ genuine pasture. So even the labels that sound like pasture do not reliably deli
 the fatty-acid difference. The welfare axis this raises is named, not priced: the wiki adjudicates the
 health axis only.
 
-</div>
 
 ## Sub-question 4 — hard outcomes: one confounded cohort, and no trial
 
@@ -213,8 +207,6 @@ contested ones generate products and content. This appraisal agrees with the mai
 organic if you value the non-health reasons for it, but do not expect a documented population-level
 health benefit. The measured differences are real; their health consequence is unproven.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The non-health reasons are real — and not weighed here
 
 Plenty of people buy organic for the environment, for animal welfare, or to support a farming system, and
@@ -224,8 +216,6 @@ that shows up when people cut red and processed meat for reasons that are partly
 rather than purely about their own health -> [[Should Adults Reduce Red and Processed Meat]]. The health
 question and the values question are separate axes, and this appraisal answers only the first. What you do with
 the second is yours, weighed against your budget and priorities.
-
-</div>
 
 ## Caveats
 

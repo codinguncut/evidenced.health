@@ -422,8 +422,6 @@ but may still help all-cause) is unchanged.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 
 - **Not overclaimed.** The Wei cognition outcome is stated observational throughout; dietary DHA RR 0.82
@@ -441,8 +439,6 @@ but may still help all-cause) is unchanged.
   section says so. The still-owed omega-3 RCT woven directly here remains open.
 - **Coherence, not validity** (R1): the loop is open — no operation grades the fish->cognition association
   against a realized dementia outcome.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-01">
 

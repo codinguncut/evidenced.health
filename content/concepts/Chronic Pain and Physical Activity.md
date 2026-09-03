@@ -26,8 +26,6 @@ pain *management* (drug/injection/surgery selection, acute-pain control, diagnos
 patient-important outcomes here — self-reported pain, physical function, QoL — are the ones measured
 *worst*, so this page carries **more honest uncertainty, not more confident advice**.
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## The verdict — safe, probably helps function and pain a little, but the evidence is genuinely weak
 
 [@geneen2017chronicpain]
@@ -57,8 +55,6 @@ unchanged from pub2, so all attributions carry over.
   soreness that subsided. This directly counters the fear-of-movement belief (patients told for decades to
   *rest*). The decision-change: for the chronic-pain patient afraid exercise will worsen their condition,
   the evidence says it is safe and may help function — start.
-
-</div>
 
 ## Why the certainty is low — a structural weakness, not evidence of no effect
 

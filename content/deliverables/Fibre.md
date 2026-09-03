@@ -29,8 +29,6 @@ The practical upshot is simple even though the evidence is not: **eat more fibre
 whole grains, beans and lentils, fruit and vegetables -- and stop expecting a miracle from it.**
 The downsides are real but small, and mostly settled in the kitchen.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The impressive numbers come from watching eaters; the proof-grade effect is small
 
 **Fibre's largest numbers ride on its weakest design.** In prospective cohorts -- studies that
@@ -106,8 +104,6 @@ The all-cause mortality and CVD magnitudes agree with Reynolds (mortality RR 0.8
 literature re-pooled -- corroboration, not an independent second witness. **The robust core
 is mortality and cardiovascular disease; the long cancer list is weaker.**
 
-</div>
-
 ## Which fibre you eat decides which outcome moves
 
 **The word *fibre* hides three levers, and each lands on a different outcome.** The
@@ -168,8 +164,6 @@ calls the cohort evidence strong enough to act on, a strict credibility lens cal
 one randomised test on adenoma found nothing
 .
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## For inflammatory bowel disease, fibre helps Crohn's but not colitis
 
 **Fibre does not act on inflammatory bowel disease as one effect -- it splits by subtype.**
@@ -189,8 +183,6 @@ changes what people can eat. So IBD-risk reduction is a *plausible additional re
 fibre-and-produce-rich diet, consistent with fibre's other benefits. And «22 g/d» is a studied
 intake category, not a validated threshold. [[Autoimmune Disease and Modifiable Risk]] carries
 the full cross-disease picture.
-
-</div>
 
 ## Fermentable fibre is the real lever on the gut microbiome
 
@@ -272,8 +264,6 @@ care -- low iron stores and tannin timing, recurrent kidney-stone formers and ox
 marginal-iodine status and goitrogens -- but these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Thirty grams marks the edge of the data, not a biological threshold
 
 **Every guidance figure near 25-30 g is best read as where the evidence thins, not where the curve
@@ -301,10 +291,6 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Where this lands against official guidance
 
 **The guidance families converge on a fibre-rich diet and diverge only on how they phrase the
@@ -330,10 +316,6 @@ shared-evidence agreement, not independent corroboration
 magnitude; the events half is associational. So, honestly, a daily portion of
 beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-disease risk.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The bottom line
 
 **Do the few things that matter and skip the rest:**
@@ -351,8 +333,6 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 - **Rank fibre honestly: a genuine supporting lever, not a big rock.** If you smoke, carry excess
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 

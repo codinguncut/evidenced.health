@@ -14,6 +14,8 @@ updated: 2026-09-03
 self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
+<div class="recent-page" data-last-updated="2026-09-03"></div>
+
 
 ## Where fat sits matters more than how much of it there is
 

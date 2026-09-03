@@ -16,6 +16,8 @@ created: 2026-09-01
 updated: 2026-09-01
 self_critiqued: 2026-09-01
 ---
+<div class="recent-page" data-last-updated="2026-09-01"></div>
+
 
 Orbiter-tension of [[Fluoride and Child IQ]]. Two gold meta-analyses pool a **near-fully-shared primary-study
 base** (the fluoride-IQ census is near-closed) and reach **opposite conclusions on the one restriction that

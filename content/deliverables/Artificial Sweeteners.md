@@ -10,7 +10,6 @@ updated: 2026-08-27
 self_critiqued: 2026-08-11
 concrete_subject_audited: 2026-08-27
 ---
-<div class="recent-update" data-last-updated="2026-08-27">
 
 This page is a general, population-level appraisal — what the evidence says about non-sugar sweeteners
 for anyone the studies speak to. It is not advice for one person; the right choice for you depends on
@@ -21,8 +20,6 @@ saccharin, acesulfame-K, stevia, neotame, cyclamates, advantame. (Sugar alcohols
 xylitol are a separate category and are not covered here.) The honest one-line answer is: **on current
 evidence they are not shown to harm your health, and they are not shown to help it either — and which
 of those matters depends entirely on what you are drinking instead.** -> [[Non-Sugar Sweeteners]]
-
-</div>
 
 ## The bottom line, up front
 
@@ -55,8 +52,6 @@ Three things frame everything below:
   [@who2023nonsugar] A finding about saccharin is not automatically
   a finding about stevia.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The one move that settles most of the argument: the comparator
 
 The trial evidence points to one reading above all: any weight benefit from sweeteners comes from
@@ -81,10 +76,6 @@ energy intake was only significantly different in the arms of trials that compar
 [@who2023nonsugar] So the sweetener is not doing metabolic magic; it
 is standing in for the calories you removed by dropping the sugar. Take a different route to those same
 calories — water, unsweetened food — and the sweetener adds nothing.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Cancer — hazard is not risk
 
@@ -155,8 +146,6 @@ liver-cancer signal against a pooled null. Symmetric standards cut both ways: no
 *possibly carcinogenic* as a demonstrated dietary cancer risk, and nobody should dismiss the
 limited-evidence signal as nothing — it is held as *limited*, not refuted.
 
-</div>
-
 ## Appetite and hunger
 
 The mechanistic worry is real-sounding: sweetness without calories might uncouple the learned link
@@ -165,8 +154,6 @@ human trial evidence does not carry it to an outcome: WHO's trials show no consi
 intake from sweeteners versus water or placebo (energy intake fell only in the sugar-comparison arms).
 This sub-question sits at **insufficient evidence** — not benefit, not harm — and should stay there until
 outcome data arrives, rather than being upgraded on the strength of the story. -> [[Non-Sugar Sweeteners]]
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Insulin and glucose
 
@@ -201,8 +188,6 @@ Route B does something important: it shows a real biological pathway (sweetener 
 handling) exists in humans, so the long-term cohort worry cannot be waved away as pure statistical
 artifact. What it does **not** do is prove sweeteners cause diabetes or heart disease.
 
-</div>
-
 ## Weight loss — the answer depends on the comparator
 
 - **Versus sugar:** yes, a little, and briefly — the 0.71 kg pooled figure, which weakens to
@@ -223,18 +208,12 @@ largely unaffected», and NSS «are not essential dietary factors and have no nu
 [@who2023nonsugar] The flip side of having *no nutritional value* is that
 there is no cost to *not* using them.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Sweet cravings
 
 A plausible behavioural mechanism — a sweetener keeps the *sweet setpoint* high, so you keep wanting
 sweet things. Like the appetite question, this craving mechanism is one the outcome evidence does not yet carry.
 It sits at **insufficient evidence**: flagged as a reasonable hypothesis, not asserted as a finding.
  -> [[Non-Sugar Sweeteners]]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The elephant: long-term cohorts look worse than the trials
 
@@ -285,10 +264,6 @@ So state it defensibly: **the long-term association is unexplained, cannot be fu
 reverse causation, and is not established as causal.** That irreducible uncertainty — which way the arrow
 points — is exactly why WHO issued a *conditional*, not a strong, recommendation.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Who this changes, specifically
 
 - **People with existing diabetes are outside this verdict entirely** — they were excluded from the
@@ -302,10 +277,6 @@ points — is exactly why WHO issued a *conditional*, not a strong, recommendati
   question.)
 - **Children:** limited data; one RCT showed reduced body-fatness but pooled BMI z-score showed no
   effect; two stevia trials showed better dental-caries markers. [@who2023nonsugar]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## When they are worth using
 
@@ -322,10 +293,6 @@ The evidence gives no population answer, only a comparator answer (the substitut
 The guideline optimizes a *population* question — do not build public-health policy on sweeteners as a
 weight tool — which is not the same as your next drink. For an individual who will not switch to water,
 the sweetener is still the better of *those two* options.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## What the evidence structurally cannot tell us yet (gaps, stated plainly)
 
@@ -344,8 +311,6 @@ The assembled sources collectively cannot fill these holes -> [[Non-Sugar Sweete
   not to the wiki's holdings.
 - **Appetite, cravings, and the microbiome-to-disease leap all sit at insufficient evidence** — real
   mechanisms, not yet findings.
-
-</div>
 
 ## Where this sits versus the official bodies (guidance-null)
 

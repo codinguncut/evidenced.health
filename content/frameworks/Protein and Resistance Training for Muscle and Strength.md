@@ -58,8 +58,6 @@ voluntary contraction at all.)
 
 
 [@morton2018]
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## How much protein — a plateau near 1.6 g/kg/day, with real uncertainty
 
 The decision-relevant number is a dose-response knee: «Protein supplementation beyond total protein
@@ -167,7 +165,6 @@ aimed squarely at it is the acquisition that would move this — reported to giv
 muscle during weight loss in overweight/obesity; held as a candidate, not a finding, until ingested.
 `confidence: low`
 
-</div>
 
 ## The independent second opinion — Tagawa's 1.3 g/kg knee (a different quantity, not a contradiction)
 
@@ -372,8 +369,6 @@ option for confirmed hypogonadism, not a substitute for the training. (No head-t
 held — this is an evidence-weighting judgment, not a trial result.)
 
 
-<div class="recent-update" data-last-updated="2026-08-30">
-
 ## Decision relevance
 
 - **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — around there the
@@ -470,8 +465,6 @@ held — this is an evidence-weighting judgment, not a trial result.)
     window cutting protein intake (protein is eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
     the window. [@lowe2020]
-
-</div>
 
 ## Limits
 

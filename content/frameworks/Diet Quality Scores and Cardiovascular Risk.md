@@ -157,8 +157,6 @@ The whole-fat **dairy** inclusion is the score's distinctive, contrarian element
 low-fat or exclude dairy) -> [[Dairy and Cardiometabolic Health]], where PURE's dairy signal is weighed
 against the neutral pooled-cohort evidence and its funding caveat.
 
-<div class="recent-update" data-last-updated="2026-08-29">
-
 ## Appraisal — healthy-user confounding is the headline caveat
 
 The estimates carry the standard observational-nutrition liability, and PURE shows it in its own numbers:
@@ -205,8 +203,6 @@ The estimates carry the standard observational-nutrition liability, and PURE sho
   does not delete the finding, but the **whole-fat-dairy-is-protective** and **SFA-limits-may-not-be-
   warranted** interpretations are exactly where a directional sponsor would push, so they are discounted,
   not adopted. The *score predicts CVD/mortality* finding is robust to this; the *policy reframe* is not.
-
-</div>
 
 ## Decision relevance, confidence, and gaps
 

@@ -229,8 +229,6 @@ a second outcome reaching the *same* conclusion by a *different* literature (dem
 a restatement.
 
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Third outcome — cancer, and here there is *no safe threshold*
 
 WCRF's Third Expert Report grades **alcohol a cause of many cancers** — mouth/pharynx/larynx,
@@ -269,7 +267,7 @@ for aerodigestive sites and breast) lives on [[Alcohol and Cancer Risk]] — Bag
 dose-response MA quantifies WCRF's qualitative grades into RRs by site, and pairs with Rumgay's burden
 leg (below) as the effect x burden composite.
 
-</div>
+
 
 ## A distinct axis — drinking PATTERN, holding volume fixed `[Roerecke 2010]`
 
@@ -357,8 +355,6 @@ the mortality/stroke verdict.
 
 
 
-<div class="recent-update" data-last-updated="2026-08-30">
-
 ## Population scale — *no safe level*, and PAF is not a per-person effect `[GBD 2018; Rumgay 2021]`
 
 The arms above are per-person risks. Two population-attributable-fraction (PAF) models add the
@@ -398,9 +394,6 @@ six-figure case count — the population-scale form of *no protective arm surviv
 threshold*.
 [inferred from @gbd2018alcohol; @rumgay2021]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-30">
 
 ## A different outcome axis — alcohol drives EATING UP, and its own calories are not compensated `[Kwok 2019]`
 
@@ -472,10 +465,6 @@ page's `[E-independent]` convergence (Stockwell || Millwood) is unchanged. What 
 non-disease consequence* consistent with the whole page: alcohol offers no protective arm on mortality,
 stroke, dementia, or cancer, and on energy balance it actively pushes intake up.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Limits
 
 - **All-cause mortality (Stockwell) and vascular disease (Millwood) are different endpoints** — matched
@@ -489,7 +478,8 @@ stroke, dementia, or cancer, and on energy balance it actively pushes intake up.
 - Coherence, not validity (R1): the causal read rests on the MR assumptions (instrument validity, no
   pleiotropy — Millwood checks the latter via women as a negative control).
 
-</div>
+
+
 
 <div class="recent-update" data-last-updated="2026-09-02">
 

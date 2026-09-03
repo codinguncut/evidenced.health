@@ -16,6 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
 ---
+<div class="recent-page" data-last-updated="2026-09-02"></div>
+
 
 **The decision.** For someone eating a vegetarian or vegan diet, should they supplement vitamin B12,
 and how is their B12 status actually measured? This is the **repletion mirror** of the general

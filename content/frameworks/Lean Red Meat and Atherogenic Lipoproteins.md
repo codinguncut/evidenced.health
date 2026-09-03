@@ -20,6 +20,8 @@ relationships:
     - Red and Processed Meat and Cancer
     - Measurement Error in Dietary Assessment
 ---
+<div class="recent-page" data-last-updated="2026-09-02"></div>
+
 
 The wiki's red-meat -> CVD evidence is otherwise entirely **observational cohort** and holds **no
 lean-red-meat feeding-trial lipid data** at all. Two controlled-feeding RCTs fill that empty cell.

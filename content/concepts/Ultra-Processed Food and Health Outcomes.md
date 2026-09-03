@@ -173,8 +173,6 @@ it re-asserts the aggregate. -> [[Is the Food Category Doing Any Work]]
 wholegrain bread, a yoghurt) sits inside or outside the category by manufacturing detail — so even a
 *perfectly* informative category would be one a consumer cannot apply. -> [[Is the Food Category Doing Any Work]]
 
-<div class="recent-update" data-last-updated="2026-08-30">
-
 ## Where processing *might* do independent work — mechanism, held as "not yet"
 
 Lane lists candidate processing-specific mechanisms **beyond** nutrient content: food-matrix disruption
@@ -207,8 +205,6 @@ with palatability-enhancing ingredients during cooking» that manufacturing-base
 effect is a UPF (processing) finding, not thereby an HPF or HED finding, and Lane's associations are UPF
 associations. Match the construct to the hypothesized mechanism; do not let the three labels blur into
 one. -> [[Hyper-Palatable Foods]] [inferred from @sutton2023hpf]
-
-</div>
 
 ## The causal foothold — energy intake, now held primary (Hall 2019 RCT) `[2026-08-04]`
 
@@ -254,8 +250,6 @@ consumption of ultra-processed foods may be an effective strategy for obesity pr
   at **which** properties, without isolating a single lever.
 
 [inferred from @hall2019]
-
-<div class="recent-update" data-last-updated="2026-08-30">
 
 ## The eating-rate lever is general and mechanical, not UPF-specific (Robinson 2014 MA) `[2026-08-30]`
 
@@ -303,8 +297,6 @@ the *magnitude* is variable even though the direction is consistent. **Decision-
 eating / harder-textured, slower-to-eat foods is a lever that lowers intake without a hunger penalty —
 applicable to whole foods too, not only to swapping out UPF.
 [inferred from @robinson2014eatingrate; @hall2019]
-
-</div>
 
 ## The whole RCT base, sized — one small feeding trial + three confounded educational trials (Aramburu 2024) `[2026-08-20]`
 

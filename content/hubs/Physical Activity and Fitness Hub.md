@@ -46,8 +46,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   raises it (HIIT vs MICT — HIIT modestly ahead, time-efficiency the real draw), and whether raising it
   actually lowers risk
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The economics of exertion
 
 - [[Exercise Energy Compensation]] — whether exercise expenditure is offset by reduced non-exercise
@@ -55,10 +53,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[Exercise vs Caloric Restriction for Visceral Fat]] — at a matched weekly energy deficit, exercise
   reduces visceral fat more than diet (dose-dependent; diet's slope flat) — the exercise-vs-diet lever
   for the metabolically-active depot
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Physical activity and age-related eye disease
 
@@ -68,10 +62,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[Age-Related Macular Degeneration and Modifiable Exposures]] — the null-arm counterpart: PA→AMD is
   insufficient-evidence (RR 0.92, CI crosses 1); built extensible for a coming Mediterranean-diet arm
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Physical activity and chronic kidney disease
 
 - [[Chronic Kidney Disease and Modifiable Exposures]] — PA is the WEAKEST of the three CKD-prevention
@@ -79,5 +69,3 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   prediction interval 0.75-1.09 crosses 1); healthy-user self-selection + reverse causation
   uncorrected, and PA's mechanism routes largely through the obesity/glycaemia/BP channels. See the
   nucleus for the full 3-lever ranking
-
-</div>

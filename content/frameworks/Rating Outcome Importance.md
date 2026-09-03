@@ -98,8 +98,6 @@ both bear on a recommendation). How much a disabling-but-non-fatal event weighs 
 is then the person's layer-3 call.
 
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## A composite person-centred outcome is the anti-streetlight device made an endpoint (2026-08-28)
 
 The empty-row rule keeps an *unmeasured* important outcome visible; a **composite person-centred
@@ -118,8 +116,6 @@ alone)». [@zheng2026healthspan]
   not more confident advice. The construct and its hedged evidence live on
   [[Intrinsic Capacity and Multidimensional Healthspan]].
   [inferred from @zheng2026healthspan]
-
-</div>
 
 ## Decision relevance
 
@@ -158,8 +154,6 @@ Discussion's "about 4 to 6 kg" is a translation of a criterion already on the re
 and HbA1c** thresholds appear only in the Discussion. Disclosed either way, and still not the same
 instrument as pre-specification.
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## When the values evidence actually exists — a worked instance (2026-08-28)
 
 GRADE's fallback when values-and-preferences evidence is missing is panel experience (§3.3), which the
@@ -183,8 +177,6 @@ studies, mostly EQ-5D, mostly from people who experienced the event) put disutil
   the person cares about. The full worked chain lives on
   [[Exercise for Preventing Falls in Older Adults]].
   [inferred from @pillay2024falls]
-
-</div>
 
 ## Limits
 

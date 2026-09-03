@@ -98,8 +98,6 @@ different object.
 **This third case is the common one, and it is the dangerous one** — an unresolved category looks
 exactly like a resolved one in a recommendation.
 
-<div class="recent-update" data-last-updated="2026-08-29">
-
 ## One level up: macronutrient labels, and whether the matrix or the component carries the effect
 
 *"Low-fat"*, *"low-carb"*, *"high-protein"* are the same structure at the nutrient level, and they
@@ -151,7 +149,7 @@ wrong because the organism or the schedule **compensates** elsewhere, so net eff
 nothing at all on nutrient combinations or digestive effects. `AWAITS` sources; do not write these as
 claims from mechanism alone.
 
-</div>
+
 
 ## Tests
 
@@ -235,8 +233,6 @@ be blinded or dosed, so it stays observational. Same design asymmetry, same trap
 grade is a fact about trialability, not evidence that a psyllium sachet beats a bowl of beans for outcomes
 -> [[Dietary Fibre and Health]]. And the isolate's effect is *small* (Brown: «only a small contribution»),
 so even the well-graded object does not carry a large decision.
-
-<div class="recent-update" data-last-updated="2026-08-29">
 
 ## A fourth case: the boundary IS predictive and still adds nothing `[2026-07-28]`
 
@@ -467,8 +463,6 @@ convergence across the boundary means stop using it as a decision variable.
 is recorded is that a Tier-A body tested the split and merged it**, not an independent verification
 that the two behave alike.
 
-</div>
-
 ## SFA as a nutrient label that fails to predict its foods — Astrup et al. 2020 `[2026-07-29]`
 
 Astrup is this diagnostic's question stated as a whole thesis:
@@ -693,8 +687,6 @@ it. The bound: supraphysiologic *supplement* doses (100-1000× dietary) are a di
 tested here. The decision link lives on [[Alcohol and Mortality and Vascular Disease]] (the beverage-matrix
 facet). [inferred from @semba2014]
 
-<div class="recent-update" data-last-updated="2026-08-31">
-
 ## "Flavonoid intake" is credited but COMPUTED from the foods — the component that never leaves the food `[2026-08-30, Mazidi]`
 
 The collinearity trap in its purest form. Mazidi 2020 (gold MA, 16 cohorts / 462,194) reports higher
@@ -748,8 +740,6 @@ which of the three explains it — the loop stays open. Effect estimates + the n
 on [[Vitamin and Mineral Supplements for Disease Prevention]]; the parameter table vs Mazidi on
 [[Flavonoid Intake and Mortality]].
 [inferred from @sesso2022cosmos]
-
-</div>
 
 ## "Omega-3" as a label spanning a benefit AND a null — the unit is compound × dose × stratum `[2026-08-04, Bhatt vs Manson]`
 

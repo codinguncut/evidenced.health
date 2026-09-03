@@ -13,6 +13,8 @@ created: 2026-09-02
 updated: 2026-09-03
 self_critiqued: 2026-09-03
 ---
+<div class="recent-page" data-last-updated="2026-09-03"></div>
+
 
 **Nucleus of the `heme-iron` cluster** — the canonical home for heme iron as a *within-red-meat
 attribute* and candidate *shared causal channel*. Facet pages (per-outcome red-meat pages, the

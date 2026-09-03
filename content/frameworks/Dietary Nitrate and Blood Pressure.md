@@ -19,6 +19,7 @@ created: 2026-08-28
 updated: 2026-08-31
 self_critiqued: 2026-08-28
 ---
+<div class="recent-update" data-last-updated="2026-08-31">
 
 Siervo 2013 (J Nutr) is a **systematic review and meta-analysis of 16 randomized clinical trials
 (254 participants, 7-30 per study)** of inorganic nitrate (sodium/potassium nitrate salt) or beetroot
@@ -45,6 +46,8 @@ Norouzzadeh/Mirmiran Iran) but the overlapping trial base defeats independence.
 > **decoded** value (`-4.4 mmHg (95% CI: -5.9, -2.8)`), read against the sign-consistent abstract,
 > results table and forest-plot text. Quoted prose spans are OCR-clean and reproduce verbatim; the
 > garbled *numeric* strings are deliberately NOT quoted verbatim.
+
+</div>
 
 ## The pooled effect — SBP falls \~4.4 mmHg; DBP does not move
 
@@ -89,6 +92,8 @@ as a titratable target — it is a cross-trial meta-regression, the design most 
 confounding. Duration did **not** modify the effect (SBP <3 d -4.9 mmHg vs >=3 d -3.8 mmHg, both
 significant), consistent with an acute pharmacodynamic action that does not accumulate over the
 (short) studied windows. [@siervo2013nitrate]
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Dose-response, sharpened — Norouzzadeh's per-mmol slopes (the matched-quantity comparison)
 
@@ -148,6 +153,10 @@ greens) to reach a >=2 mmHg SBP fall** — the dose that operationalizes the eff
 Plasma NO3 itself rises linearly only **above \~3 mmol/day** (no significant change below 2 mmol),
 setting a floor on the exposure. [@norouzzadeh2025nitrate]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
+
 ## Hypertensive stratum — a steeper slope (route-(b) effect-modification signal)
 
 The BP effect is **more pronounced in hypertensives**. In the HTN dose-response subgroup, the acute
@@ -169,6 +178,10 @@ exactly this higher-risk stratum — the two sources leave the hypertensive ques
 directions** (Siervo: no ambulatory confirmation in older/obese/T2D; Norouzzadeh: steeper office-BP
 slope in HTN).
 [inferred from @norouzzadeh2025nitrate]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Vascular-stiffness and endothelial markers — a new surrogate channel (still a surrogate)
 
@@ -199,6 +212,10 @@ a plausible direction, **not measured event evidence** — exactly the transmiss
 Siervo's stroke/CVD projection. -> [[Surrogate Outcomes]].
 [inferred from @norouzzadeh2025nitrate]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
+
 ## GRADE certainty — Moderate at best, and only for the acute BP outcomes
 
 Norouzzadeh is GRADE-rated (the upgrade over Siervo's un-graded estimate). The certainty ceiling is
@@ -216,6 +233,10 @@ dose-response gradient is a GRADE upgrade factor, but publication bias, heteroge
 risk-of-bias hold the ceiling at Moderate. This is why the page moves to `confidence: medium` and no
 higher. [@norouzzadeh2025nitrate]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
+
 ## Safety — no excess adverse events or withdrawals
 
 > «The safety analysis results (Supplementary Figs. 12, 13) revealed that dietary NO3 supplementation
@@ -229,6 +250,10 @@ benign non-cause of withdrawal). This is a **short-horizon** safety read only; i
 chronic high-dose intake, and Norouzzadeh separately flags that the nitrate **acceptable daily intake**
 set for cured meats and water may not transfer to vegetable NO3 and needs reassessment — a regulatory
 open question, not a demonstrated harm. [@norouzzadeh2025nitrate]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Layer-1 sizing — the BP-drug comparator shrinks the rock for the outcome it covers
 
@@ -248,6 +273,8 @@ shrink *that* part; and net of the **drug's own costs** (lifelong dependency, si
 lever that a person will actually sustain retains structural value. The choice stays the person's
 (Layer 3); Layer 1 only notes that on BP alone this is a **small marginal rock behind a mature drug.**
 [inferred from @norouzzadeh2025nitrate]
+
+</div>
 
 ## Mechanism — the enterosalivary nitrate-nitrite-NO pathway
 
@@ -315,6 +342,8 @@ claim (type-F), not independent corroboration (not type-E)** — the convergence
 not license summing DASH and nitrate as independent additive levers (overlapping NO mechanism).
 [inferred from @siervo2013nitrate; @siervo2015]
 
+<div class="recent-update" data-last-updated="2026-08-31">
+
 ## Decision relevance
 
 - **Dietary nitrate / beetroot is a real but MODEST, LOW-CERTAINTY BP lever** — a systolic-selective
@@ -342,6 +371,10 @@ not license summing DASH and nitrate as independent additive levers (overlapping
 
 [inferred from @siervo2013nitrate; @norouzzadeh2025nitrate]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
+
 ## Limits
 
 - **Single gold-tier MA, short-duration surrogate evidence, ambulatory disconfirmation** — held at
@@ -363,5 +396,7 @@ not license summing DASH and nitrate as independent additive levers (overlapping
   The MAP knee (\~3 mmol, non-significant >5 mmol) is weak/single-outcome and not a located optimum.
 
 [inferred from @siervo2013nitrate; @norouzzadeh2025nitrate]
+
+</div>
 
 ## References

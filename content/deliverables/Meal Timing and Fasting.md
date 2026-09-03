@@ -53,8 +53,6 @@ distinct exposures, and the daily-window version is a delivery vehicle for a def
 independent lever. [inferred from @liu2022; @semnaniazad2025]
 
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Eating earlier moves a few markers, on the weakest possible evidence
 
 The only weight-independent benefit signal comes from shifting food *earlier*, not from shortening the
@@ -80,7 +78,6 @@ constraint on the eTRF signal, not shielded from it.
 run a window, put it early -- the better-supported bet, but the support is weak
 -> [[Surrogate Outcomes]].
 
-</div>
 
 ## Among fasting styles, alternate-day edges the rest -- by a margin that fades
 
@@ -102,8 +99,6 @@ regimen label is second-order: pick the pattern you will actually adhere to, bec
 schedule, is what the deficit rides on -> [[Time-Restricted Eating]].
 
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## A short eating window can quietly cost you muscle
 
 The window can add a specific harm the scale hides. In TREAT (Lowe 2020), the weight a late 16:8 window
@@ -124,9 +119,6 @@ their own numbers exploratory, and the resistance-training stimulus matters more
 -- but the direction is clear: in any window, keep protein up and train
 -> [[Protein Intake During Energy Restriction]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## A deep, sustained deficit is a real therapy -- and that is about magnitude, not timing
 
@@ -150,9 +142,6 @@ weight loss (>=5% reduces liver fat, 7-10% improves inflammation, >=10% improves
 on liver fat. [@easl2024] Both sources point
 one way: the deficit is the medicine; the timing is packaging.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Prolonged fasting and autophagy are a separate exposure the evidence does not cover
 
@@ -165,10 +154,6 @@ against a patient-important outcome, so autophagy stays a *mechanism*, never a r
 longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic multi-day low-calorie
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 
@@ -209,7 +194,6 @@ inconsistent effects on integrated energy balance as operationalized by weight c
 compensates; a timing change's naive prediction routinely fails to survive it
 -> [[Sleep and Metabolic Health]].
 
-</div>
 
 ## A drug now dwarfs the biggest effect fasting can offer
 

@@ -11,8 +11,6 @@ concrete_subject_audited: 2026-09-03
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 ---
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Open on the substitution, not the fat
 
 The lay question is *what fats should I eat?* The evidence answers a narrower one: **what you swap a fat *for*** — and what food carries it, and who is eating it. Appraise the swap, never the fat in a vacuum.
@@ -27,10 +25,6 @@ The lay question is *what fats should I eat?* The evidence answers a narrower on
 
 The most load-bearing of these is the first. So start where the sign is set: **which fat replaces which**.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Replace saturated with unsaturated to set the sign
 
 The **replacement** sets the outcome, not saturated fat on its own. Rank the swaps two ways and they agree. By how much they lower LDL cholesterol per 1% of energy exchanged: **polyunsaturated -0.055, monounsaturated -0.042, carbohydrate -0.033 mmol/L**, high certainty, and the lowering held down to a saturated-fat intake of 2% of energy — below the studied range there is no data [@who2023saturated]. And by guideline strength: **replacing with polyunsaturated fat is a strong recommendation; with plant monounsaturated fat, or with fibre-bearing carbohydrate, only conditional** [@who2023saturated]. The polyunsaturated swap wins on both counts — largest lipid effect and the firmer recommendation.
@@ -44,8 +38,6 @@ One caveat keeps the swap honest: **saturated fat is never removed into a vacuum
 That makes saturated-fat-to-polyunsaturated and saturated-fat-to-carbohydrate **genuinely different exposures**, not one relative effect read across a clean [[Baseline Risk and the Relative-Absolute Split|baseline-risk]] split. Reading *50 fewer per 1000* against *12 fewer* as polyunsaturated fat beating carbohydrate four-fold compares populations, not nutrients.
 
 The swap that most moves the sign is therefore saturated fat to polyunsaturated fat. So: **what does the hard-outcome evidence actually show** for that move?
-
-</div>
 
 ## Read the SFA->events evidence as modest and RoB-sensitive
 
@@ -69,8 +61,6 @@ This is where the reassessment critics and the guideline bodies **converge rathe
 **A Moderate-certainty null is a result, not missing data.** It sits in the *no-meaningful-effect* state, distinct from *insufficient evidence* — the trials were run, the estimate is reasonably graded, and it lands on no effect. So reducing saturated fat is not a longevity move, and should not be sold as one; anyone reading *strong recommendation* as *this measurably saves lives* is reading past the evidence.
 
 Type of fat therefore moves cardiovascular events modestly and mortality not at all. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Target the type, not the total amount
 
@@ -96,8 +86,6 @@ moves events and does not move mortality (see [[Saturated Fat Intake and Replace
 So a low-fat-vs-higher-fat quantity target is not what the evidence recommends chasing; the **swap**
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 
@@ -266,8 +254,6 @@ covered in the fabric — a genuine gap; no direction is inferred here.
 Across every fat class in this cut, two dependencies keep resurfacing: the food
 that carries the fat, and the metabolic state of the person eating it.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Check the food matrix and the eater's metabolic state
 
 The label *saturated fat* sorts foods that behave differently once you eat them. Processed and
@@ -294,10 +280,6 @@ which the body cannot synthesise, leave a clean intake signal — a within-categ
 information. These dependencies set up the harder point: some questions the evidence structurally cannot
 answer.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Name what the evidence structurally cannot show
 
 Researchers measure diet by asking people, and the error is large enough to be the dominant fact about
@@ -316,8 +298,6 @@ escape is shut. So the honest inventory: the **total-fat dose-response *shape* i
 one large RCT tested a single fat->carbohydrate reduction, not a curve), plant omega-3 (ALA) is a genuine
 named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
 stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 

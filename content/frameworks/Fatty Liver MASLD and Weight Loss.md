@@ -274,8 +274,6 @@ not an independent second route.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-08-29">
-
 ## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
 
 An umbrella review (37 meta-analyses of observational studies and RCTs) quantifies the same lever menu
@@ -325,8 +323,6 @@ refined grains, fish, fruits, vegetables, eggs, dairy, or legumes» (smoking app
 increased-risk and the null list reflects conflicting constituent MAs, an unresolved heterogeneity Peng
 carries). So the actionable dietary signal narrows to *cutting liquid sugar*, not adding produce.
 [@peng2022nafld]
-
-</div>
 
 ## Is fructose the specific hepatic culprit? Mostly no — it is an energy story `[2026-08-06, Chung 2014]`
 
@@ -399,8 +395,6 @@ from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
 [@taylor2015pft]
 [inferred from @taylor2015pft]
 
-<div class="recent-update" data-last-updated="2026-08-29">
-
 ## Limits
 
 - **The core dose-response is one guidance family (EASL), which transfers NAFLD evidence to MASLD** by
@@ -418,7 +412,5 @@ from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
 - **Observational confounding** on diet and coffee, flagged by the guideline itself.
 - Coherence, not validity (R1): these are graded recommendations, not proof that acting changes a given
   person's liver or life.
-
-</div>
 
 ## References

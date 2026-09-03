@@ -274,8 +274,6 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   interventional counterpart to this curve's steep upper arm. [@sjostrom2007] The design is weaker than an RCT
   (self-selection), so it warrants the arm directionally, not causally-clean.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Limits
 
 - **Observational, corrected — not causal-proof.** The exclusions remove the *known* biases
@@ -295,10 +293,6 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
 - **Cannot separate fat mass from lean mass or distribution** — BMI is the exposure, and the same BMI
   spans different body compositions across age, sex, and ethnicity (a plausible contributor to the
   regional differences, alongside the small-n imprecision of the South Asian estimate).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## A guidance family stratifies the target by age — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -323,7 +317,5 @@ available data are inadequate to make precise recommendations for optimal BMI in
   declines the older-adult target on data-inadequacy grounds, which does not oppose the page's MR-
   adjudicated monotone-rise nadir (22.5-25) for working-age adults — the two are consistent once the
   age stratum is matched (not-joined check (ii): different unit/stratum). No divergence to file.
-
-</div>
 
 ## References

@@ -11,7 +11,6 @@ updated: 2026-08-28
 self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-28
 ---
-<div class="recent-update" data-last-updated="2026-08-28">
 
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
 carry similar saturated fat, yet the outcomes they touch — heart disease, early death, diabetes,
@@ -43,9 +42,6 @@ sleeping enough — **dairy is a small lever, and the amount of noise around it 
 to how much it matters.** Keep the dairy you enjoy; do not adopt or avoid it for your heart or your
 bones on the current evidence.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Split *dairy* into its foods before you judge it — the label hides opposites
 
@@ -68,9 +64,6 @@ Dairy is a classic case of a food category whose boundary may carry no informati
 Never read a whole-milk finding as a yoghurt finding, nor a butter
 finding as a cheese finding. Everything below is organised one food and one outcome at a time.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## For coronary heart disease, stroke and mortality, dairy is a wash — with a small heart-failure harm signal
 
@@ -131,9 +124,6 @@ One net-new arm the earlier cut never covered: **dairy tracks with slightly lowe
 a small inverse association on a surrogate-adjacent endpoint from the same non-independent series;
 proportionate to its low certainty, note it and move on.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The *milk shortens your life* scare is one confounded cohort, not a finding
 
@@ -166,7 +156,6 @@ rests on leave-one-out sensitivity, a weak instrument, with no genetic or random
 source to settle causation. The milk-mortality signal is *not a finding of harm*, and equally *not a clean bill of
 health* — it is an artifact removed.
 
-</div>
 
 ## Fermented dairy carries a weak, fragile favourable heart signal
 
@@ -206,8 +195,6 @@ and artifact-sensitive on mortality* — lives on [[Fermented Foods and Health]]
 Kefir specifically has essentially no hard-outcome data; hold it at
 insufficient evidence, not at null.
 
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## More dairy tracks with slightly less type-2 diabetes — two estimates, one non-industry, moderate certainty
 
@@ -265,7 +252,6 @@ One named gap sits on top: the **fermented-dairy -> type-2-diabetes dose-respons
 the shape of the curve (and any knee) cannot be read off the highest-versus-lowest contrasts above
 .
 
-</div>
 
 ## Milk is not a bone-fracture lever
 
@@ -314,8 +300,6 @@ The deficient person is a genuinely different stratum, and dairy/calcium may sti
 there — Malmir did not screen for deficiency, so that arm stays a separate, open question.
 
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Cheese and butter part ways at the same saturated fat — the food does the work, not the fat number
 
 
@@ -358,7 +342,6 @@ this page carries only the dairy-specific
 The decision consequence is Test 3 of the food-category diagnostic: when the mechanism lives in the
 food and not the nutrient, decide on the food, not the *saturated fat* label -> [[Is the Food Category Doing Any Work]].
 
-</div>
 
 ## Dairy and cancer point in two directions, and neither magnitude is in yet
 
@@ -378,8 +361,6 @@ ingested only for the red-and-processed-meat colorectal analysis). So:
   no effect; do not read the absence of a magnitude as an absence of an effect. Extracting the WCRF
   dairy chapters is the follow-up that would close it.
 
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The bottom line
 
@@ -438,7 +419,5 @@ category-level swaps, not a *dairy: yes or no*.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source below the gold evidence bar feeds this page: Astrup (narrative review, weak); none load-bearing for the core claims. The three DIfE/Boeing series members (Bechthold CHD/stroke/HF; Schwingshackl T2D, hypertension) are one coordinated team sharing food-group definitions and an overlapping cohort pool (PROSPERO CRD42016037069) — gold, but not independent of each other or of Guo, so their agreement re-pools shared data rather than corroborating it from a second route. The same team's all-cause-mortality estimate (Schwingshackl 2017, RR 0.98) is cited in-body as corroboration only — it merely echoes Guo's mortality null, so it is not counted as a separate source here. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
-
-</div>
 
 ## References

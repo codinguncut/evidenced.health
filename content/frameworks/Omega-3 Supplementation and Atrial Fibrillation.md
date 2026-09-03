@@ -16,6 +16,8 @@ relationships:
     - The U-Shaped Association Artifact
     - Surrogate Outcomes
 ---
+<div class="recent-page" data-last-updated="2026-09-02"></div>
+
 
 The **harm-channel** on the same exposure whose CV-event *benefit* is dose-dependent: marine omega-3
 *supplementation* raises the risk of **incident atrial fibrillation**, and the risk rises with dose.

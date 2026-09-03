@@ -335,15 +335,9 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
 
 
 
-<div class="recent-update" data-last-updated="2026-08-28">
-
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Non-cancer outcomes live in the matrix (2026-08-28)
 
@@ -355,7 +349,5 @@ mirrors it one notch smaller. See [[Food Groups and Health Outcomes - A Dose-Res
 not re-extracted here.
 [@schwingshackl2017t2d]
 [@bechthold2019]
-
-</div>
 
 ## References

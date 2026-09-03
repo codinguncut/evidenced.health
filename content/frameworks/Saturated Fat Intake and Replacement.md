@@ -773,8 +773,6 @@ appraisal, the isocaloric-composition context, and the fat/carb and carb->protei
 
 
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
 
 A tension page was minted claiming WHO and Willett clash on whether LDL licenses the
@@ -846,8 +844,6 @@ level-contrast read as if it were the randomised change). *No new tension filed*
 already exists and is not re-adjudicated here. *Counter-passage:* the RCT side is represented at its
 strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
 the mortality nulls both sides share, not on suppressing the events signal.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-02">
 

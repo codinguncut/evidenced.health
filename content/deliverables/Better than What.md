@@ -37,8 +37,6 @@ limit outlasts the rest — this page can judge only whether a well-informed adv
 frame a swap this way, never whether anyone who followed it was better off. That loop stays
 open.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Compared to what? Why an effect has no sign until the alternative is named
 
 An effect estimate is never absolute. It contrasts an exposure with the alternative that
@@ -81,8 +79,6 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
-
-</div>
 
 ## What is "X", exactly? Specifying the exposure before its comparator
 
@@ -189,8 +185,6 @@ more than one outcome that matters.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## When outcomes compete: laying out the axes instead of summing them
 
 When a substitution moves more than one patient-important outcome, there is no unique optimum without
@@ -240,10 +234,6 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## From estimate to substitution: a region and a direction, not a point
 
 In this domain the evidence structurally yields a **floor**, a **direction within the studied range**,
@@ -289,8 +279,6 @@ to Weave/ingest as residual, not a settled fabric claim.
 
 Once you name a region, one question remains that the region alone cannot answer: *which end* of it
 to act on.
-
-</div>
 
 ## Which end of the interval? Asymmetric loss and the conservative default
 

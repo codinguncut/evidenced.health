@@ -11,15 +11,12 @@ updated: 2026-09-03
 self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
-<div class="recent-update" data-last-updated="2026-08-27">
 
 No named dietary pattern has been shown superior to the others on the outcomes people actually care about — length of life, heart attacks, strokes, incident diabetes — once a diet clears a floor of basic adequacy. That is not a gap waiting to be filled. Above the floor the question has been tested at scale, and the honest answer is that the patterns come out close to the same. This is a **no-meaningful-difference** finding, not a shrug — a stronger statement than *we don't know.*
 
 So the useful instrument is not a ranking but **two screens**, and only one of them works in the direction people expect. You can **refute** a diet — show it starves the body of an essential nutrient or of energy — but you cannot **verify** one: no pattern earns a gold star on hard outcomes. Below the floor the verdict is clear; above it, the label stops carrying the decision. What small real differences remain travel not with the name on the plate but with its **components, its total energy, and how well it is sustained** — and every one of them is trivial next to the move from a person's own current baseline. The label is the axis people argue about and the least likely to be doing the work.
 
 A few genuine signals do sit above the near-null, and the body names them. But the overall confidence here is **low and the loop is open**: nothing in this guide has been graded against a realized outcome. For most people, the most useful message is that the choice between reasonable patterns is not where their health is won or lost.
-
-</div>
 
 ## Split *which diet is best?* into four questions
 
@@ -31,8 +28,6 @@ A few genuine signals do sit above the near-null, and the body names them. But t
 - **(d) Big compared to what?** A between-pattern difference can be real and still trivial next to the **pattern-vs-baseline** move — the gap from what a person eats now. A one-kilogram edge of one diet over another is a rounding error beside the change from either to a person's current plate.
 
 **Answer these together and you get noise; answer them in order and the picture resolves.** Separated this way, the first move is not to rank the diets but to see which ones fail outright — so start with the floor.
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Start with the floor: you can refute a diet, not verify one
 
@@ -50,10 +45,6 @@ A few genuine signals do sit above the near-null, and the body names them. But t
 **And "butter-only is bad" is a deficiency-and-energy verdict, not a verdict on saturated fat.** The floor rejects a butter-only diet because it cannot cover essential nutrients — not because of its saturated-fat load, which is a genuinely **contested component**, not a settled harm. The trial evidence for reducing saturated fat clears the null on exactly one soft composite outcome — cardiovascular events, at **RR 0.83**, and that estimate is itself contested (comparator contamination, trial-quality sensitivity) — while all-cause mortality is a well-graded null at **RR 0.96** [@hooper2020] -> [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. A component that unsettled has no business in a screen meant to be uncontestable. **The moment the floor is built from a contested component, it stops being a floor and becomes a smuggled claim that some patterns are simply better** — the exact move this structure exists to avoid; saturated fat is weighed later, as a component among components, not here as a pass/fail line.
 
 Clear the floor and the picture changes: among diets that pass, the label stops doing work.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Weigh the passing patterns head-to-head: the label barely moves the needle
 
@@ -133,10 +124,6 @@ If not the label, what carries the small differences that are real? Before namin
 harder problem the surrogate ceiling hides: the head-to-head hard-outcome trial between two named patterns
 cannot be run at all — so how does one get a direction from the evidence that does exist?
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Get a direction where the head-to-head trial can't be run
 
 The between-pattern hard-outcome comparison is structurally unrunnable. A decades-long randomised trial
@@ -200,8 +187,6 @@ without asserting any hard-outcome pattern ranking the evidence does not license
 
 So apply the decomposition. Once the pattern is specified as its components, which axis actually carries
 the difference that is left?
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 

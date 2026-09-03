@@ -33,8 +33,6 @@ The marketing rarely marks which question it is answering; the sections below do
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Ask whether the person is short before asking whether the supplement works
 
 Every supplement decision splits on one prior fact: is this person **deficient** (below the
@@ -47,8 +45,6 @@ The field makes one central error: it runs a trial on one arm and reads the resu
 the other. A null from supplementing the already-replete says nothing about repletion of the
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 
@@ -239,8 +235,6 @@ then replete the confirmed shortfall*, not *supplement broadly and hope*.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
 Periconceptional folic acid is the standing counter-example to *supplements are a distraction* — the
@@ -260,10 +254,6 @@ pregnant, so supplementation must be in place beforehand
 (prior NTD pregnancy, diabetes, anticonvulsants) take 5 mg/day rather than the general 0.4 mg
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
@@ -319,8 +309,6 @@ and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventin
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
 
-</div>
-
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
 Two supplements have solid randomized evidence — but on **surrogates** (muscle mass, strength,
@@ -354,8 +342,6 @@ rank — creatine plus resistance training beat training alone on muscle, streng
 [@kreider2017]. Still an adjunct;
 the training is the driver.
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## Fibre and probiotic supplements are small or strain-specific levers, not tonics
 
 - **Fibre supplements** move a surrogate modestly. As a dosable isolate, viscous/soluble fibre lowers
@@ -372,8 +358,6 @@ the training is the driver.
   and *C. difficile* diarrhoea and some IBS symptoms — but «not all probiotic preparations tested are
   effective» [@wgo2023]. The strain, not
   the word, is the exposure -> [[Gut Microbiome and Health]].
-
-</div>
 
 ## Attention runs opposite to effect, and the aisle carries its own risk
 

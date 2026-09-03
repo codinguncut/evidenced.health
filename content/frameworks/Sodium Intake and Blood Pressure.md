@@ -306,8 +306,6 @@ is "independent of baseline sodium intake." **A monotone gradient declared absen
 interaction test is a claim about power as much as about biology.**
 [inferred from @who2012]
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## The J-curve — named as the reason for the review, then never adjudicated
 
 WHO names the J-shaped hypothesis twice in framing sections, citing two 2011 cohort studies proposing
@@ -368,8 +366,6 @@ runs the confounder-immune adjudication.** GBD corroborates *unprobed, not dispr
 the gap -> [[The U-Shaped Association Artifact]].
 [inferred from @afshin2019]
 
-</div>
-
 ## The hard-outcome RCT arrives — but on a confounded (Na-down + K-up) exposure `[2026-08-04, Neal SSaSS]`
 
 This page's central gap was that **hard outcomes sit at very low certainty** (all cohort evidence, the
@@ -425,8 +421,6 @@ dilution + a single-day recovery-biomarker + Huang's short-trial underestimate �
 reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
 between sodium, potassium and dilution is **not identified** by this trial.
 [inferred from @neal2021; @bplttc2021]
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## PURE lands the J directly on hard outcomes — a pole, not the adjudicator `[2026-08-27, Mente 2016]`
 
@@ -487,8 +481,6 @@ contaminated**, and the study cannot separate those. This is why the WHO/He surr
 (sodium -> BP -> CVD, assumed monotone) and PURE's direct observation give **opposite signs below 3
 g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Population-Wide or Targeted]].
 [inferred from @mente2016pure]
-
-</div>
 
 ## What is absent
 
@@ -644,8 +636,6 @@ established that**, and the differing magnitudes suggest they were not.
   recommendation asks.
 [@esc2021]
 
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## A blood-pressure number is not a blood-pressure number `[2026-07-28, ESC chunk 05]`
 
 This page's outcome is SBP, and it already carries a puzzle: WHO's pooled **resting SBP** effect is
@@ -684,10 +674,6 @@ its method in the same breath as its number.
 what would let this page say whether its central figure is an office, resting-standardised or
 ambulatory quantity. **The wiki cannot currently say which.**
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
-
 ## A third guidance family sets a slightly laxer chronic-disease limit — NNR2023 `[2026-08-27, NNR revisit]`
 
 NNR2023 is a third guidance family on the sodium -> BP -> CVD chain (after WHO and ESC), and it lands
@@ -725,7 +711,5 @@ WHO distilled — so it is a guidance-family confirmation of *direction* while c
 number (telos divergence class 1: a population-standpoint threshold pick), not a second independent
 witness. No `[E-independent]`; the surrogate-high / hard-outcome-very-low reading is unchanged.
 [inferred from @nnr2023]
-
-</div>
 
 ## References

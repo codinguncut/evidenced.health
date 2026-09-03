@@ -528,8 +528,6 @@ not prevent it [inferred from @andrieu2017] — low status is a marker of
 decline, not shown to be a lever, exactly as the low-fish-subgroup reading of VITAL's MI signal above
 suggests repletion rather than a pill effect -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
-<div class="recent-update" data-last-updated="2026-08-31">
-
 ## COSMOS — the cocoa-flavanol supplement, VITAL's sister trial, primary CVD outcome null `[2026-08-31, Sesso]`
 
 COSMOS (Sesso 2022) is a **cocoa-extract supplement** RCT built in the VITAL mold — same PI (Manson),
@@ -589,7 +587,6 @@ rationale that **fails to move hard CV events** in a low-risk, replete populatio
 assays «completed independently» [@sesso2022cosmos]. Note it — but the primary endpoint is *null* (against the sponsor's interest), so the COI does not
 obviously inflate the headline; the caution attaches to the favourably-read secondaries.
 
-</div>
 
 ## Layer-1 placement — a low/absent lever for the well-nourished
 

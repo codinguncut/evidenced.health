@@ -10,7 +10,6 @@ updated: 2026-08-31
 self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
-<div class="recent-update" data-last-updated="2026-08-27">
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
 will change that. You cannot blind people to what they eat, cannot measure a real diet without
@@ -34,10 +33,6 @@ whatever is easy to measure, which keeps the field reading absence of evidence a
 evidence of absence. And one caveat outlives every section below — this page grades how well the evidence
 coheres and how faithfully it is reported, never whether it is true. It can be sound on both
 counts and still be wrong about the world.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The exposure is mismeasured
 
@@ -90,8 +85,6 @@ structural gap, not a sourced finding here.
 rule out a real gradient, a bare coefficient cannot say what was traded, and a category-level number can
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-08-31">
 

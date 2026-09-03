@@ -78,6 +78,8 @@ the pill (a reference magnitude, not a diabetes effect). No Mendelian-randomizat
 trial isolates red meat against diabetes either way, so the cell stays open in both directions.
  -> [[The Observational-Trial Discordance]]
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## The cancer question splits two expert bodies
 
 Two guideline families read **the same cohort evidence** and issued opposite instructions. This
@@ -125,6 +127,10 @@ observational heme data most likely runs through a non-iron route rather than ir
 the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Preparation matters less than the headlines
 
 ### Cooking method: a mechanism, not yet an outcome
@@ -165,6 +171,10 @@ trimming itself: replacing saturated fat with polyunsaturated fat lowers cardiov
 it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
@@ -212,6 +222,10 @@ insufficient evidence, distinct from the mortality null
   intake, not the red->white replacement the decision turns on, so the substitution reading above
   stands.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## What the meat is measured against decides the answer
 
 Because the comparator does the work, the sharpest evidence is about swaps. In a Japanese cohort,
@@ -240,6 +254,8 @@ apolipoproteins, and blood pressure»
 [@guaschferre2019redmeat].
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
+
+</div>
 
 ## What meat gives back
 
@@ -287,6 +303,8 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## What the evidence still cannot say
 
 - **Cooking-method hard outcomes** — whether a low-temperature preparation changes any
@@ -324,5 +342,7 @@ cited here.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+
+</div>
 
 ## References

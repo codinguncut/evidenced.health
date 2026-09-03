@@ -22,7 +22,6 @@ created: 2026-07-27
 updated: 2026-09-01
 self_critiqued: 2026-08-29
 ---
-<div class="recent-update" data-last-updated="2026-08-29">
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
 device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
@@ -54,7 +53,7 @@ true gradient* — a genuine `[E-independent]` corroboration of the measurement 
 effect size). An RCT-grade mortality outcome is still owed.
 [inferred from @ekelundacc2019; @mandsager2018]
 
-</div>
+
 
 ## The decision this page changes
 
@@ -131,8 +130,6 @@ independent instrument and no `[E-independent]` token is claimed. The benefit is
 walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
 HRs stay Celis-Morales's, the third-route framing is.
 
-<div class="recent-update" data-last-updated="2026-08-29">
-
 ## Where the curve bends — named maxima, device-measured
 
 > «Maximal risk reductions for light intensity PA was \~375 min/day, low light intensity PA at \~325
@@ -184,10 +181,6 @@ median total physical activity for the third quarter»
 [@ekelundacc2019] — i.e. the apparent
 optimum sits where the data are densest, the *apparent-optimum-equals-sampling-edge* hazard, so read
 the dose column as regions on a flat top, not point targets -> [[The Underivable Optimum]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
@@ -251,8 +244,6 @@ persist»); there is no MR/genetic instrument, so this is the *weak* adjudicatio
 [[The U-Shaped Association Artifact]] sense — enough that the monotone benefit is not purely sick-quitter
 artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
 sitting sections).
-
-</div>
 
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 

@@ -106,7 +106,7 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   older adults risks weakness/falls; exercise attenuates it and %lean actually rose. So pair weight loss
   with resistance training -> [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Limits — the open loop
 
@@ -127,5 +127,7 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   occupational load; obesity + injury = 14% of radiographic-KOA risk), which finds the *same* obesity
   lever dominant for incidence as this page finds for symptoms — but observational, so preventing
   incidence by modifying it stays untested.
+
+</div>
 
 ## References

@@ -93,7 +93,7 @@ older participants (ie, aged 80 years) living in an institution»
 reported second-hand, and the full net-effect (benefit vs CV + stone harm, by stratum) has its own home
 -> [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## D-Health — a second large RCT of vitamin D vs major CV events, null-crossing on a TERTIARY outcome `[2026-09-02, Thompson]`
 
@@ -195,6 +195,8 @@ cardiovascular disease» while the other two found none
 evidence is *mixed* (a below-50-nmol/L deficiency-range signal, null above), consistent with the
 repletion-vs-enhancement split this page holds, not a clean RCT+MR convergence on benefit. Held as
 context, **not** stamped `[E-independent]`.
+
+</div>
 
 ## The non-CV mortality anchor: pooled all-cause null, cancer-DEATH benefit `[2026-08-23, Zhang MA]`
 
@@ -306,7 +308,7 @@ one of its largest trials, so the guideline and the trial are **not independent 
 `[E-independent]`) — the guideline is the RCT base synthesized, one level up
 .
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The newest guideline consolidates the trial base — Endocrine Society (Demay 2024) `[2026-09-02, Demay]`
 
@@ -370,6 +372,8 @@ even in the deficient). (2) The Society **no longer endorses the 30 ng/mL 25(OH)
 suggested in the previous guideline» [@demay2024vitamind] — and no longer defines deficiency/insufficiency cutoffs, consistent with
 this page's treatment of a 25(OH)D *target* as a surrogate whose transmission to hard outcomes is
 unproven -> [[Surrogate Outcomes]] [inferred from @demay2024vitamind].
+
+</div>
 
 ## The harm arm — *more is better* is false (the upper-bound)
 
@@ -524,7 +528,7 @@ not prevent it [inferred from @andrieu2017] — low status is a marker of
 decline, not shown to be a lever, exactly as the low-fish-subgroup reading of VITAL's MI signal above
 suggests repletion rather than a pill effect -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## COSMOS — the cocoa-flavanol supplement, VITAL's sister trial, primary CVD outcome null `[2026-08-31, Sesso]`
 
@@ -585,6 +589,7 @@ rationale that **fails to move hard CV events** in a low-risk, replete populatio
 assays «completed independently» [@sesso2022cosmos]. Note it — but the primary endpoint is *null* (against the sponsor's interest), so the COI does not
 obviously inflate the headline; the caution attaches to the favourably-read secondaries.
 
+</div>
 
 ## Layer-1 placement — a low/absent lever for the well-nourished
 
@@ -642,7 +647,7 @@ scope limits keep the null honest without overturning it:
 
 
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## REDUCE-IT cashes the high-dose stratum — and it is a DIFFERENT exposure, not a contradiction of VITAL `[2026-08-04, Bhatt]`
 
@@ -723,7 +728,9 @@ mineral-oil artifact -> [[Omega-3 Supplementation and Atrial Fibrillation]].
 [inferred from @gencer2021]
 [inferred from @lombardi2020]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
 
@@ -792,7 +799,9 @@ effect** and a two-thirds-deficient / zero-clinical-symptoms finding — so the 
 is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 [inferred from @pawlak2013].
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 NMA added to the REDUCE-IT/VITAL section]`
 
@@ -810,7 +819,9 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 - **Coherence, not validity** (R1): the loop is open; the olive-oil/mineral-oil comparator threat is
   named as an unresolved bias in the underlying trials.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Self-critique `[run 2026-09-02, before commit — Demay 2024 Endocrine Society guideline woven]`
 
@@ -831,5 +842,7 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 - **No [PRIOR] verdict scored here** (ingest builds fabric, does not adjudicate): the EtD/weighting
   observation is appraised on [[Which Objective Moved This Recommendation]], not scored against the
   weighting [PRIOR] in this ingest.
+
+</div>
 
 ## References

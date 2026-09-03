@@ -872,7 +872,7 @@ present-but-undetectable rather than absent, the baseline-risk reading worked on
 caveat, not a clean randomized null.
 [inferred from @goldberg2022]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## A TREATMENT's symptom/severity target as the surrogate — CPAP fixes the apnea, not the heart `[2026-08-21, Yu]`
 
@@ -898,7 +898,9 @@ outcome the surrogate was recruited to predict — the guidance-null form of thi
 -> [[Which Objective Moved This Recommendation]].
 [inferred from @yu2017cpap]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## When the surrogate IS the disease definition — treating-to-target normalizes TSH, moves nothing (Feller) `[2026-08-30]`
 
@@ -928,7 +930,9 @@ elevated TSH, age ≤\~74, mild-to-moderate symptoms): the null may not transpor
 a high-symptom-burden subgroup, which the trials could not test.
 [inferred from @feller2018thyroid]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The surrogate's DIRECTION flips with the comparator — e-cig haemodynamics `[2026-08-30, Skotsimara]`
 
@@ -948,7 +952,9 @@ directionally harmful or beneficial without fixing the counterfactual (clean air
 The cell stays at **insufficient hard-outcome evidence** either way -> [[The Insufficient-Evidence Statement]], and the decision lives in the stratum split, not the marker
 -> [[Electronic Cigarettes and Cardiovascular Risk]]. [inferred from @skotsimara2019ecig]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## A PREVALENCE statistic read as harm — biochemical B12 deficiency without symptoms (Pawlak) `[2026-09-02]`
 
@@ -969,5 +975,7 @@ hematological signs maskable by concurrent iron/folate; enzyme function impaired
 stage). The instance is therefore a clean *insufficient-evidence* holding on transmission — the marker
 neither proven to harm nor proven benign -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]].
 [inferred from @pawlak2013]
+
+</div>
 
 ## References

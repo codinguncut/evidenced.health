@@ -18,7 +18,7 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] — when an extra test moves a risk
   estimate enough to change the decision, and why very few modifiers clear the bar
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Blood pressure levers
 
@@ -41,7 +41,9 @@ social connection, sense of purpose, allostatic load, depression — plus **sun/
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Lipids, drugs, and dietary patterns for CV events
 
@@ -70,7 +72,9 @@ BP levers.
   cause (MR), the benefit is on events not all-cause mortality, and the anti-inflammatory diet is an
   observational proxy for MedDiet, not a shown independent lever
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Behavioural big rocks
 
@@ -83,6 +87,8 @@ BP levers.
   neutral, and whether the J-curve survives scrutiny; now also the drinking-PATTERN axis (binge at fixed
   volume, Roerecke), the red-wine/resveratrol null (Semba), and the population "no safe level" burden
   (GBD, Rumgay)
+
+</div>
 
 ## Neurodegeneration (dementia · Parkinson's)
 

@@ -100,7 +100,7 @@ recommend on — dementia is added to the outcomes where the short arm looks cau
 not. Notably the Commission declined to make *any* sleep-duration recommendation, an honest
 insufficient-evidence stop the wiki mirrors.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Third outcome — CVD incidence (CAD/HF/stroke), and the MR strong check lands `[2026-09-02, Wang]` `type-F`
 
@@ -147,6 +147,8 @@ the observational agreement is shared-base, not independent — the beyond-summa
 (a genetic natural experiment) triangulating the same question.
 
 [inferred from @wang2022sleep]
+
+</div>
 
 ## Duration is not the only axis — two facets now sit under this nucleus
 

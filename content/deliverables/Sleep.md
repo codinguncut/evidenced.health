@@ -57,7 +57,7 @@ of a physiological dose. So the rule is to **adjudicate the arm, not the curve**
 lever you can pull. The long arm is a **warning light for underlying illness** — which is the next thing
 to take apart.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Long sleep is a symptom to investigate, not a habit to cut
 
@@ -87,7 +87,9 @@ undiagnosed co-morbidity.» [@cappuccio2010]
 is exactly backwards. But even on the arm that *is* causal, the evidence is thinner and fuzzier than the
 round number "7-8 hours" lets on.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## "Seven to eight hours" is a reference point, not a validated target
 
@@ -129,7 +131,9 @@ curve is shallow near the referent, and precision beyond "adequate, not chronica
 warranted by this evidence. The firmest independent footing for the short arm's causal reading comes not
 from mortality counts but from metabolism.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The metabolic evidence pins down that short sleep is genuinely causal
 
@@ -181,7 +185,9 @@ direction of causation by a design the cohorts cannot. That is why the experimen
 cohort — is what lifts the short-arm reading above association. This is all still an argument about
 *how many hours* — and the newest evidence suggests the hours may be the wrong knob.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## How regular your sleep is may matter more than how long
 
@@ -214,7 +220,9 @@ long-sleep illness-marker range, so no clash arises). Treat both as real, action
 Duration and regularity are both about keeping *healthy* sleep healthy — but a separate decision opens
 once sleep is already broken.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Once insomnia sets in, pick the aid by its harms, not its sleep numbers
 
@@ -258,6 +266,8 @@ lowers mortality — every benefit endpoint here is a surrogate or self-report.
 
 With the arms of the sleep curve and the aids both sorted, one question remains: where does sleep sit
 among everything else you could change?
+
+</div>
 
 ## Sleep ranks as a moderate lever, and the upstream nudges are unpriced
 

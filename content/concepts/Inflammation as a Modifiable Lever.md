@@ -142,7 +142,7 @@ event-avoidance gets a different answer than the event endpoint alone implies �
 (layer 3), but the wiki must not let the event benefit stand in for a mortality benefit it does not have.
 [inferred from @ridker2017cantos; @nidorf2020lodoco2]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The "anti-inflammatory diet" is a proxy for known-healthy patterns, not a shown independent lever
 
@@ -202,6 +202,8 @@ CVD leg), all carrying the same *the-index-relabels-a-diet-pattern* caveat and n
 evidence bar — reinforcing the insufficient-evidence verdict on an *independent* dietary-inflammation
 lever, not lifting it. [inferred from @yin2025cancer]
 
+</div>
+
 ## Where it sits — residual risk, reverse causation, and the open gaps
 
 - **A second causal axis beside lipids.** CANTOS is the cleanest evidence for *residual inflammatory
@@ -231,7 +233,7 @@ together specify what to do and where the lever stops. [inferred from @ridker201
 **The loop is open.** Every claim here is coherence- and source-graded, not outcome-validated; the
 mortality ceiling and the diet gap are exactly where a confident-sounding event benefit could mislead.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Self-critique `[run 2026-08-08, before commit; author's — parent re-critiques independently]`
 
@@ -271,5 +273,7 @@ about inflammation and CRC is made — only that the pro-inflammatory-diet -> CR
 weak evidence.
 </content>
 </invoke>
+
+</div>
 
 ## References

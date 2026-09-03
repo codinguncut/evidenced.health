@@ -23,14 +23,10 @@ created: 2026-08-27
 updated: 2026-08-29
 ---
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 **The pulmonary opener.** COPD (chronic obstructive pulmonary disease) is the fabric's first
 respiratory outcome. The single held source is one gold-tier SR+MA of **observational** studies
 (12 studies included, 8 pooled for healthy patterns, 3 for unhealthy) [@parvizian2020] — so every claim here is `confidence: low` scaffolding
 awaiting a second source, not a settled lever.
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Layer 1 — a secondary lever behind the smoking big rock
 
@@ -42,8 +38,6 @@ cessation — for a current smoker no attainable diet effect reorders the rankin
 [[Smoking and Mortality]], and Layer-1 *big-rocks-first*). The lever is relevant chiefly for the
 already-non-smoking stratum, where the big rock is already pulled. (Layer-1 framing over
 the source's stated effect + risk-factor ordering).
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The effect estimates
 
@@ -68,8 +62,6 @@ the source's stated effect + risk-factor ordering).
 - **Unstudied outcomes:** no included study reported **quality of life or mortality**; spirometric
   outcomes rest on one small case–control study with a null (and one direction-unexpected) result.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## The precision inversion — the tightest number is the least causal
 
 The homogeneous, statistically strongest estimate (OR 0.88, I2=0%) comes from **cross-sectional
@@ -85,8 +77,6 @@ the prevalence estimate (diet may worsen *after* COPD onset), the exact hazard
 [[The U-Shaped Association Artifact]] and [[The Observational-Trial Discordance]] warn against.
  (the fabric's reverse-causation lens applied to the source's own design split).
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Confounding — the binding confounder is mostly handled
 
 Because smoking dominates COPD risk, residual smoking confounding is the first thing that could
@@ -96,8 +86,6 @@ neither anchors the healthy pool). This *raises* the weight on the healthy-patte
 to a naive observational discount — the signal is not obviously a smoking artifact — even though
 unmeasured confounding by the broader healthy-user profile (activity, socioeconomic status,
 pollution) remains, as the authors note..
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The exposure is doubly aggregated — is the bucket doing any work?
 
@@ -112,8 +100,6 @@ be doing no consistent work at all — the same question [[Is the Food Category 
 level down. All intake was measured by food-frequency questionnaires (the binding instrument —
 [[Measurement Error in Dietary Assessment]])..
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Mechanism — candidate pathways, human evidence thin
 
 The diet->COPD mechanism is «not known»; the authors list oxidant/antioxidant balance, modulation of
@@ -125,8 +111,6 @@ runs through systemic inflammation or oxidative balance, so the candidate
 mechanism is a special case of [[Inflammation as a Modifiable Lever]] — but these are directional
 *not-yet* candidates: no whole-pattern RCT exists; do not read them as outcome findings.
 `[EXTRACTED — asserted]` (mechanisms listed, not demonstrated in this review).
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## One component now has its own dose-response — the fibre leg (type F)
 
@@ -146,8 +130,6 @@ subtype breakdown, and the parameter-level same-quantity table:
 [[Dietary Fibre and COPD Risk]]. (the type-F relation between the two held sources;
 the fibre magnitudes live on that page).
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Decision relevance
 
 - For a **non-smoker** optimizing at the margin, a healthy overall dietary pattern is a plausible,
@@ -157,8 +139,6 @@ the fibre magnitudes live on that page).
 - For a **smoker**, this changes nothing at the margin — smoking cessation dominates.
 - Confidence is **low**: observational-only, cross-sectional headline, unhealthy arm null with
   I2=91%, absolute effect and the causally-clean incidence estimate both weak.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Evidence state + gaps
 

@@ -14,8 +14,6 @@ relationships:
   related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 One coordinated meta-analysis series (the DIfE/Boeing group: Schwingshackl, Bechthold,
 Schlesinger, Boeing) applied the **same** 12-food-group dose-response framework to five
 outcome families — all-cause mortality, type 2 diabetes (T2D), hypertension, cardiovascular
@@ -24,8 +22,6 @@ weight gain). Laid side by side, the five papers form a grid no single paper con
 which food groups move **which** outcomes, and — more informatively — where a food's effect
 **diverges** across outcomes. That cross-outcome grid is the emergent object here (type-A),
 and the divergences (fish, dairy, eggs, vegetables) are the payoff, not the uniform effects.
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Load-bearing caveat: this is ONE evidence base sliced five ways, NOT five independent confirmations
 
@@ -46,8 +42,6 @@ let the visual coherence of the grid launder into raised certainty. (The one pla
 **partially** relieved: the meat -> coronary cells now carry an independent-team robustness check
 -> *Independent-team cross-check on the meat -> coronary cells* below.)
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## The increment key (constant per food across all five outcomes)
 
 Each cell is the pooled **linear** dose-response RR per the food's serving increment, with 95%
@@ -61,8 +55,6 @@ low. A CI crossing 1.00 = not statistically significant (the estimate can still 
 direction under measurement-error attenuation). `*` = source reports significant non-linearity
 (plateau/threshold — see *Shape honesty*). `ins.` = single-study or extreme-imprecision cell,
 held as **insufficient evidence**, not as effect.
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The matrix (RR per increment, 95% CI, grade)
 
@@ -99,8 +91,6 @@ or extreme imprecision (processed-meat abdominal RR 8.80, CI 1.20-64.28) — `in
 `0.88` legumes-adiposity point is one study. Fish adiposity is inverse only for **abdominal**
 obesity (0.83, 0.71-0.97), null for overweight/obesity.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## CVD is not one outcome — the within-CVD divergence (Bechthold)
 
 | Food group (increment) | CHD | Stroke | Heart failure |
@@ -123,8 +113,6 @@ CHD/stroke but **positive for heart failure** (the egg->HF signal is the stronge
 in the series). Fish is the only food inverse across all three CVD subtypes. Reading "CVD" as a
 single endpoint hides these — a stratum whose dominant risk is stroke ranks vegetables/fruit
 above whole grains/nuts.
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Independent-team cross-check on the meat -> coronary cells (Papier 2021) `[2026-09-02]`
 
@@ -179,8 +167,6 @@ against the «6,659 cases» from five studies that Bechthold pooled — over fou
 MAs are **insufficient-evidence** (underpowered), not demonstrated **no-effect** — the four
 evidence-states distinction, and the expectancy test applied to a growing case count.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 
 This is the Layer-1 input the series was acquired for -> [[Layer 1 - Ranking Interventions for a Stratum]]. Ranking by **direction-consistency x magnitude x certainty**, net of each cell's
@@ -213,8 +199,6 @@ everywhere except mild adiposity harm at high intake; legumes are null in most *
 eggs are mostly null/insufficient. For a stratum already eating these, the marginal lever is
 small by construction.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## Divergence findings — outcome-specificity is the informative signal
 
 Uniform effects (meat harmful, whole grains protective) mostly restate what each food-group page
@@ -231,8 +215,6 @@ already holds. The **divergences** are where the matrix earns its place:
   against DASH-era expectation; the source attributes the HTN null partly to BMI over-adjustment.
 - **SSB** — strong cardiometabolic harm but **null for all-cause mortality** (the mortality CI
   is wide, 0.91-1.18 — an unmeasured, not a demonstrated-absent, effect).
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Shape honesty — where the curve has a knee or plateau
 
@@ -255,8 +237,6 @@ The plateaus mean over-shooting a protective food merely fails to add benefit (r
 the *every-reduction-pays* default holds for the harmful foods, whose curves show no protective
 lower arm. -> [[The U-Shaped Association Artifact]]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## Cross-source check — the legume row against a dedicated legume SR+MA `[2026-08-28, Thorisdottir]`
 
 A purpose-built legume SR+MA (Thorisdottir 2023, NNR2023 — 47 studies, 31 cohorts) reaches the **same
@@ -273,8 +253,6 @@ series structurally cannot: a pooled **RCT risk-factor arm** — LDL-C -0.19 mmo
 at \~120-150 g/day, robust to excluding soynut trials — i.e. legumes move a surrogate at RCT doses while
 the hard-endpoint cohort cells stay null. Full treatment ->
 [[Whole Grains Refined Grains and Pulses]].
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The pattern level sits one step up — the composite-score complement
 
@@ -298,8 +276,6 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   composite (the DQS page flags this and the ordinal-composite caveat itself). This matrix contributes the
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Gaps (type-G)
 

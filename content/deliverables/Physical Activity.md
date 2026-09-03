@@ -22,7 +22,7 @@ is a weak weight-loss tool: the body compensates, and diet owns the calorie defi
 through fitness and cardiometabolic pathways, not the scale. How the levers rank depends on where you
 start: for the inactive, just start; for the already-active and the old, strength and balance.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Getting off the couch is the biggest lever you have
 
@@ -86,6 +86,8 @@ produces). It is a marker — a predictor, not yet a proven lever the way the do
 self-reported activity dose flattens early, objectively-measured fitness keeps paying, with no
 plateau in sight -> [[Cardiorespiratory Fitness and Mortality]].
 
+</div>
+
 ## Fitness predicts death, but you train the activity, not the number
 
 That single number is **cardiorespiratory fitness** (CRF) — peak oxygen uptake, VO2max, the most
@@ -142,7 +144,7 @@ But aerobic capacity is only half the engine. **Raising CRF is an aerobic job �
 barely touches it, and carries its own, largely independent mortality payoff through a different
 channel: muscle and strength.**
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Add strength training for a payoff aerobic work does not give
 
@@ -173,6 +175,8 @@ That separate, independent payoff is the reason to program strength deliberately
 **Minimal effective dose: roughly 2 sets, \~2x/week** captures most of the available gain — a floor, not a located optimum, because Currier coded load and volume categorically and cannot place a knee within either [@currier2023] [[The Underivable Optimum]]. Two honesty caveats bound how far this licenses detailed programming. First, these are **surrogates** (1RM force, muscle size), and the source states outright that their transmission to health outcomes is not in the analysis — strength/MSA carries the mortality signal above, pure hypertrophy is the weakest-evidenced [[Surrogate Outcomes]]. Second, a higher protein target acts on the training stimulus in older adults, so RT and protein are complementary inputs to the same adaptation [[Protein Intake for Older Adults]] — that is the extent of the cross-lever, not a nutrition sub-section. Beyond load-for-strength and volume-for-size, protocol choice is preference and adherence, which win the ties.
 
 How much you *move* — aerobic and strength — is one axis. **How much you *sit* is a separate axis with its own signal, and where along the activity range you start changes what a given increment buys** — the next two questions.
+
+</div>
 
 ## Sitting is its own lever, and leisure activity is not occupational activity
 
@@ -243,7 +247,7 @@ absolute change. But past roughly 70 the outcome that dominates the ledger shift
 longer mainly whether activity postpones death, but whether it preserves the function, muscle, and
 balance that keep a person independent — which is where the next section turns.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## After about 70, the payoff is staying on your feet
 
@@ -267,7 +271,7 @@ The outcome that pays now is not another year of life but another year of doing 
 
 So the older-adult prescription writes itself in kind but not in quantity: **balance-and-functional work is the evidenced fall lever, strengthening defends the muscle behind it, and the metrics tell you where you stand rather than what to chase.** Which raises the real question for anyone with limited time — if balance, strength, and aerobic work each earn a place, how should a fixed weekly budget be split among them?
 
-
+</div>
 
 ## Splitting a fixed weekly budget between cardio, strength, and walking
 
@@ -324,7 +328,7 @@ adiposity [@careau2021]
 mortality, or function returns the split is actually built on. Which points to the one thing no
 allocation of this budget will buy — **weight loss**.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## What exercise does not do: melt the scale
 
@@ -404,8 +408,7 @@ outcome it was never the strong lever for. **The scale is the wrong scoreboard.*
 The real reach of movement is not into body mass at all but into pain and joint
 function, cancer risk, and the brain — which is where the next sections go.
 
-
-
+</div>
 
 ## Movement is safe, and it reaches pain, joints, cancer, and the brain
 
@@ -431,7 +434,7 @@ Physical inactivity is one of the 2024 Lancet Commission's **14 modifiable demen
 
 With movement's reach across these outcomes mapped, the last question is not *whether* it helps but *how the levers rank for a given person* — and where, once the big rocks are pulled, the ceiling on further gains sits.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## How the levers rank, and what is still open
 
@@ -452,9 +455,9 @@ Those outcomes do not rank themselves, and where the ceiling sits depends entire
 - **Overtraining and CNS fatigue are consensus and coaching lore, not patient-outcome evidence.** The wiki holds no appraisal of either against a measured health outcome. That is a named gap, not a finding in either direction.
 - **General adverse events of exercise are systematically under-reported in trials.** Outside the well-studied osteoporosis/fracture case, trials record benefits far more completely than harms, so an apparently clean safety profile reflects in part what was measured, not what occurred — a streetlight gap. The deliverable names it and does not fill it.
 
+</div>
 
-
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Where this nets out
 
@@ -473,5 +476,7 @@ Start from where you are — that, not the perfect program, is what sets the ord
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+
+</div>
 
 ## References

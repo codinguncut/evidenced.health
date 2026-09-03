@@ -10,8 +10,7 @@ updated: 2026-08-27
 self_critiqued: 2026-08-12
 concrete_subject_audited: 2026-08-27
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 The famous limit on sugar was written to protect your teeth. When the World Health Organization tells
 adults to keep free sugars below one-tenth of daily calories, the outcome carrying that number is dental
@@ -31,6 +30,8 @@ attach to sugary beverages, not to sugar stirred into solid food.
 **Four expert bodies looked at overlapping evidence and all said the same direction -- less is better --
 while disagreeing on the number and the reason.** Their disagreement is the honest state of the evidence,
 not a failure of any one body.
+
+</div>
 
 ## Guidelines regulate free sugars, not all sugar
 
@@ -122,7 +123,7 @@ None of this speaks to sugar reduction as an obesity *treatment*: weight-loss tr
 design from both the review and the guideline
 [@who2015].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Dental caries carries the number, on evidence with no trial behind it
 
@@ -158,7 +159,9 @@ Adults are near-unstudied; the adult conclusion is carried from child cohorts on
 not fresh data
 [@moynihan2014] -> [[Free Sugars Intake]].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Sugary drinks add risk because the calories arrive un-noticed
 
@@ -195,6 +198,8 @@ the isocaloric per-cent-energy grades
 [@efsasugars2022].
 Two bodies, one conclusion: the drink is the problem exposure.
 
+</div>
+
 ## Fructose harms the liver as a dose-and-form story, not as a molecule
 
 Fructose has a real hepatic mechanism -- a large free-fructose load drives de novo lipogenesis in the
@@ -223,7 +228,7 @@ excludes whole fruit and includes fruit juice
 -> [[Fatty Liver MASLD and Weight Loss]],
 [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Four expert bodies point the same way and pick different numbers
 
@@ -276,7 +281,9 @@ SACN's primary 5% both live
 [@efsasugars2022].
 The stricter the target, the thinner the evidence under it.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Swapping sugar for sweeteners is not the win it looks like
 
@@ -292,6 +299,8 @@ weight only when they *displace* sugar, and the benefit shrinks toward null the 
 the real question. WHO prefers water, unsweetened foods and whole fruit over the sweetener route, because
 a sugar-to-sweetener swap leaves the overall diet «largely unaffected»
 [@who2023nonsugar] -> [[Non-Sugar Sweeteners]].
+
+</div>
 
 ## Measurement error flattens every dose-response you would want
 

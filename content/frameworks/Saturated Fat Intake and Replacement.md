@@ -179,7 +179,7 @@ surplus it can be *SFA versus nothing*. A recommendation to *replace SFA with PU
 conditioned on an energy assumption that often will not hold for the person reading it — which makes
 this a worked case of why a comparator must be stated ([[Framing a Decision Question]]).
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The food matrix — named, acknowledged, and not resolved
 
@@ -202,6 +202,8 @@ is that it never asked — with the question then filed as a research gap. That 
 from either an oversight or a considered verdict of no-difference, and it leaves the question open
 rather than closed. **-> Partly cashed for one SFA-source pair — *butter vs plant oils, on mortality* —
 by Zhang 2025 (see *Butter vs plant oils at the food level*, below).**
+
+</div>
 
 ## Decision relevance
 
@@ -651,7 +653,7 @@ an independent route. The omega-6 outcome evidence in full is on
 [inferred from @hooper2018; @hooper2020]
 
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The glucose-insulin marker channel — Imamura 2016 (a NEW endpoint, all surrogate) `[2026-09-02]`
 
@@ -737,7 +739,9 @@ page's events/lipids claims — so its agreement with the held sources is **F/A-
 refinement), never E**. `confidence:` stays **medium**: the marker evidence is strong on surrogates, but
 the page's central claim is about patient-important outcomes, where certainty is unchanged.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Liver fat — a further surrogate endpoint where UFA beats SFA `[2026-09-02, Winters-van Eekelen]`
 
@@ -755,6 +759,8 @@ appraisal, the isocaloric-composition context, and the fat/carb and carb->protei
 [[Fatty Liver MASLD and Weight Loss]].
 [inferred from @winterseekelen2020]
 
+</div>
+
 ## Corrections and revision history (dated strata)
 
 *Dated corrections, retracted framings, and audit strata are preserved below in their original form; the current claims above already incorporate them.*
@@ -767,7 +773,7 @@ appraisal, the isocaloric-composition context, and the fat/carb and carb->protei
 
 
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
 
@@ -841,7 +847,9 @@ already exists and is not re-adjudicated here. *Counter-passage:* the RCT side i
 strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
 the mortality nulls both sides share, not on suppressing the events signal.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## A guidance family ties trans-fat control to the SFA ceiling — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -865,7 +873,9 @@ E%.» [@nnr2023]
   zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
   choice to fold trans fat into the SFA message), not a substantive disagreement.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Butter vs plant oils at the FOOD level — Zhang 2025 partly cashes the food-matrix gap, on mortality `[2026-09-02]`
 
@@ -955,5 +965,7 @@ plant oil (olive / canola / soybean)**, with a concrete translation — «replac
 is **null**, and the whole finding is observational — the signal sits on **total and cancer** mortality,
 one evidence tier below the SFA->PUFA events RCTs above.
 [inferred from @zhang2025butter]
+
+</div>
 
 ## References

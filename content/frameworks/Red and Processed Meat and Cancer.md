@@ -230,7 +230,7 @@ same red-meat cohort literature as WCRF/NutriRECS, so it is **not** independent 
 association — its value is the **mechanistic attribution** and the intrinsic-vs-curing bound, not a second
 independent count (no [E-independent]).
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The same channel decomposition on a MORTALITY endpoint `[2026-09-02, Etemadi 2017]`
 
@@ -281,6 +281,7 @@ gradients are, if anything, steeper than reported ([[Measurement Error in Dietar
 literature the matrix and WCRF draw on, and a highest-vs-lowest-fifth mortality HR is a different estimand
 from a per-100 g/day CRC-incidence slope.
 
+</div>
 
 ## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`
 
@@ -334,13 +335,15 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
 
 
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Non-cancer outcomes live in the matrix (2026-08-28)
 
@@ -352,5 +355,7 @@ mirrors it one notch smaller. See [[Food Groups and Health Outcomes - A Dose-Res
 not re-extracted here.
 [@schwingshackl2017t2d]
 [@bechthold2019]
+
+</div>
 
 ## References

@@ -106,7 +106,7 @@ surrogate-to-outcome kind [[Surrogate Outcomes]] warns against; the graded findi
 **DASH lowers BP and atherogenic lipids**, not that it prevents CVD events.
 [inferred from @siervo2015]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Which component is doing the work? The MA cannot decompose — but it is NOT the sodium
 
@@ -162,6 +162,8 @@ a true non-role (the same caveat the sodium page attaches to WHO's null by-intak
   driven by sodium. [@siervo2015]
 
 [inferred from @siervo2015]
+
+</div>
 
 ## Limits
 

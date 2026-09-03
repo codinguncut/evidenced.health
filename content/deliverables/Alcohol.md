@@ -33,7 +33,7 @@ daily drink or two; this page names that tension without pricing it. Confidence 
 medium, not high, and the loop stays open: every judgment is graded for coherence, never
 against what later became of anyone who drank.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Does a little drinking protect? The low-dose arm across mortality, stroke, and brain
 
@@ -106,7 +106,9 @@ relationship between not drinking and AD is due to survivor bias».
 adjudication that dissolved the mortality arm dissolves the dementia one — a different literature
 reaching the same verdict.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Effect and dose-response shape, outcome by outcome
 
@@ -257,7 +259,9 @@ the fabric covers**; this page names them as gaps rather than answering them:
 This page infers no direction for either (insufficient evidence *held*, distinct from no-effect),
 and consolidates both with the other named gaps later.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The active axis: total ethanol, drinking pattern, or beverage type?
 
@@ -334,7 +338,9 @@ glass; the pattern lever is real; and the one beverage-specific benefit anyone t
 These per-person and within-drinker axes scale up to a population question — and there the
 appraisal meets published guidance.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Population scale and the guidance clash
 
@@ -350,7 +356,9 @@ Move from the individual drinker to the population and a second kind of evidence
 
 **Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. Neither side is in error; they stand in different places. Population guidance optimizes an average outcome under communicability and safety-at-scale constraints, while an individual reads the same evidence against personal baseline risk and preferences. This pressure runs toward guidance permitting more than a population-minimizing rule would; the appraisal names that it exists and which direction it runs, and stops short of pricing it.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Confidence, and where this could be wrong
 
@@ -417,5 +425,7 @@ Four things could still change the read here:
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Semba (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
+
+</div>
 
 ## References

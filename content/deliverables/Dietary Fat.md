@@ -11,7 +11,7 @@ concrete_subject_audited: 2026-09-03
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 ---
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Open on the substitution, not the fat
 
@@ -27,7 +27,9 @@ The lay question is *what fats should I eat?* The evidence answers a narrower on
 
 The most load-bearing of these is the first. So start where the sign is set: **which fat replaces which**.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Replace saturated with unsaturated to set the sign
 
@@ -42,6 +44,8 @@ One caveat keeps the swap honest: **saturated fat is never removed into a vacuum
 That makes saturated-fat-to-polyunsaturated and saturated-fat-to-carbohydrate **genuinely different exposures**, not one relative effect read across a clean [[Baseline Risk and the Relative-Absolute Split|baseline-risk]] split. Reading *50 fewer per 1000* against *12 fewer* as polyunsaturated fat beating carbohydrate four-fold compares populations, not nutrients.
 
 The swap that most moves the sign is therefore saturated fat to polyunsaturated fat. So: **what does the hard-outcome evidence actually show** for that move?
+
+</div>
 
 ## Read the SFA->events evidence as modest and RoB-sensitive
 
@@ -66,7 +70,7 @@ This is where the reassessment critics and the guideline bodies **converge rathe
 
 Type of fat therefore moves cardiovascular events modestly and mortality not at all. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Target the type, not the total amount
 
@@ -93,7 +97,9 @@ So a low-fat-vs-higher-fat quantity target is not what the evidence recommends c
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Trust the LDL/apoB direction, not the diet-to-drug magnitude
 
@@ -138,6 +144,8 @@ stands in for, so a moving LDL number is a well-warranted signal, not a proven a
 
 
 One exposure, though, needs no surrogate argument at all -- its harm is direct and uncontested.
+
+</div>
 
 ## Cut industrial trans fat -- the one unambiguous harm
 
@@ -258,7 +266,7 @@ covered in the fabric — a genuine gap; no direction is inferred here.
 Across every fat class in this cut, two dependencies keep resurfacing: the food
 that carries the fat, and the metabolic state of the person eating it.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Check the food matrix and the eater's metabolic state
 
@@ -286,7 +294,9 @@ which the body cannot synthesise, leave a clean intake signal — a within-categ
 information. These dependencies set up the harder point: some questions the evidence structurally cannot
 answer.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Name what the evidence structurally cannot show
 
@@ -307,7 +317,9 @@ one large RCT tested a single fat->carbohydrate reduction, not a curve), plant o
 named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
 stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Act on the substitution a low-risk eater can sustain
 
@@ -339,5 +351,7 @@ evidence does not offer.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+
+</div>
 
 ## References

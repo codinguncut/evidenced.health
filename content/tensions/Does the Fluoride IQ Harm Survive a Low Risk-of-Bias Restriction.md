@@ -17,8 +17,6 @@ updated: 2026-09-01
 self_critiqued: 2026-09-01
 ---
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
-
 Orbiter-tension of [[Fluoride and Child IQ]]. Two gold meta-analyses pool a **near-fully-shared primary-study
 base** (the fluoride-IQ census is near-closed) and reach **opposite conclusions on the one restriction that
 decides the decision** — whether the IQ association holds when you keep only the highest-quality studies.
@@ -26,8 +24,6 @@ This is the joined issue the nucleus page folds as a hidden insight; filed here 
 what the guidance-null runs on, not a detail.
 
 [inferred from @ntp2024fluoride; @taylor2025fluoride; @veneri2023fluoride]
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## The two readings of the low-RoB stratum
 
@@ -61,8 +57,6 @@ Veneri's own summary reads it as attenuation, not reassurance:
 > towards weaker or null associations in the most carefully conducted studies.»
 > [@veneri2023fluoride]
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
-
 ## The same-quantity check — is the issue joined?
 
 The parameter table on [[Fluoride and Child IQ]] confirms both MAs answer the identical question (does the
@@ -75,8 +69,6 @@ association survive a quality restriction?) with opposite signs. The two decisiv
 
 The clash is joined: same question, same near-shared data, opposed conclusions. It is **not** the different-
 scope kind of non-tension — both restrict the *same* census to "high-quality" and report what remains.
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Hidden insight — the driver is the instrument, not the data
 
@@ -91,8 +83,6 @@ flip is the smoking gun**: one MA's low-RoB anchor is the other's high-RoB study
 So the reassurance that «it holds in the high-quality studies» — the claim propping up confidence in the
 >1.5 mg/L harm arm and any extrapolation of it toward US fluoridation levels — is **instrument-dependent,
 not a property of the evidence.** Under a stricter confounding bar the high-quality pool goes null.
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Why this is a qualified-E clash, not independent corroboration
 
@@ -109,8 +99,6 @@ The clash is contested from **both** sides, so it lowers confidence without reso
 - Which RoB treatment is better calibrated for this literature — ROBINS-E's aggressive confounding
   downgrade vs OHAT's — is itself **unadjudicated** here (a G-gap: it would need reading each tool's
   confounding criterion against these studies end to end).
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Decision relevance
 

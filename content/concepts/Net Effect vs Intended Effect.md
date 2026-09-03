@@ -19,8 +19,7 @@ relationships:
     - Inflammation as a Modifiable Lever
     - Alcohol and Mortality and Vascular Disease
 ---
-
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 **An intervention's *intended* effect — the one its mechanism predicts in isolation — is routinely wrong,
 because the whole-organism response adds a term the mechanism omits. What matters is the *net* effect
@@ -36,7 +35,9 @@ The failure mode is dosing or recommending straight from the naive mechanism —
 exercise, lose Y weight*; *lower the marker, get the outcome* — as if the body were an open loop. It is
 a closed loop with counter-regulation, so the arithmetic over-predicts.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## The worked instances (already source-grounded on their pages)
 
@@ -71,7 +72,9 @@ single-instance generalization, not a symmetric law.
   *adds* to the intended surplus. Same principle (net != intended via the whole-organism response),
   opposite direction — which is why the diagnostic must be signed, not assumed to subtract.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## The failure mode it names
 
@@ -80,6 +83,8 @@ single-instance generalization, not a symmetric law.
 not a *magnitude* — the magnitude requires the whole-organism response, which may attenuate, redirect,
 *or amplify* it. This is why a mechanism admitted is admitted for direction only, discounted,
 and never dressed as an outcome finding.
+
+</div>
 
 ## Where it sits
 
@@ -93,7 +98,7 @@ The placement and cross-links below are this page's reasoning.
 - Method grounding is top-down from the meta-method corpus (realist mechanism vs the whole-system
   outcome) — cited up, not as a domain source.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Synthesis
 
@@ -104,3 +109,5 @@ the standing reason this wiki treats a plausible mechanism as a direction-only p
 generalization from "compensation subtracts" to "the response is signed" is what the alcohol instance adds
 to the exercise one — same structure, opposite sign, so the correction cannot be assumed to shrink an
 effect. Configurative, not aggregative: no shared number, a shared correction.
+
+</div>

@@ -11,8 +11,7 @@ updated: 2026-08-28
 self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-27
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 This is a general, population-level appraisal of what the evidence says about soy for anyone the studies
 speak to. It is not advice for one person; whether and which soy *you* should eat depends on your stratum —
@@ -25,7 +24,9 @@ evidence — each question below was tested on a different one -> [[Is the Food 
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The bottom line, per outcome
 
@@ -56,8 +57,9 @@ which is why overall confidence is medium despite four gold sources. And the hea
 **surrogates** — hormone
 levels and LDL, not events — so their transmission to what a person feels is a further, separate claim.
 
+</div>
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## How good is the evidence — read this first
 
@@ -84,6 +86,8 @@ two on LDL share trials and one cites the other), so overall confidence is mediu
 Thyroid (goitrogen) and antinutrient (phytate) fears were not searched. They are named gaps, not outcomes
 scored safe. For how these certainty grades are assigned, see [[Rating Certainty of Evidence]] and
 [[Upgrading Observational Evidence]].
+
+</div>
 
 ## Soy does not shift male reproductive hormones
 
@@ -132,7 +136,7 @@ mechanism predicts. Hormone
 levels are themselves a surrogate for the endpoints of fertility and feminization -> [[Surrogate Outcomes]].
 [@reed2021]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Breast cancer: neutral-to-protective, never raised — but design-confounded
 
@@ -166,7 +170,9 @@ defensible claim is "not a risk, and plausibly protective under lifelong high in
 breast cancer".
 [@chen2014]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Isolated soy protein modestly lowers LDL
 
@@ -208,7 +214,9 @@ revises the effect *down*, against the sponsor's interest.
 [@anderson1995]
 [@blancomejia2019]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The forms are not interchangeable — specify the exposure
 
@@ -233,7 +241,9 @@ outcome was tested with a different soy exposure, so the composite answer is not
 form-indexed one — the isolated protein moves LDL, the isoflavone-bearing foods leave male hormones
 unmoved and sit neutral-to-protective on breast cancer, and the condiment does nothing.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Antinutrients and thyroid: named gaps, not findings
 
@@ -250,6 +260,7 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   lives at [[Antinutrients in Plant Foods]]: reduced by fermentation and soaking, and a concern only at
   the margin of mineral status, not a general harm. This page extracts no soy-specific outcome evidence.
 
+</div>
 
 ## Putting it together
 
@@ -269,7 +280,7 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## What this appraisal cannot yet answer
 
@@ -317,5 +328,7 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+
+</div>
 
 ## References

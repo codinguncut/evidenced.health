@@ -39,7 +39,7 @@ the reason is the single most useful thing this pattern teaches: **the two evide
 not estimating the same exposure.** The discordance is a *diagnostic signal to check
 exposure-commensurability*, not a verdict for the trial.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The pattern is real — three worked instances
 
@@ -86,7 +86,9 @@ on health.» This corroborates the *structure* (surrogate-validity + triangulati
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
 
@@ -109,7 +111,9 @@ shown-benign -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. Th
 "the RCT was null, so ignore the observational" is "the food is not proven causal, so treat it as
 safe" — both skip the missing test.
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Why the streams disagree — five mechanisms, not one
 
@@ -176,6 +180,8 @@ safe" — both skip the missing test.
   same evidence *very low* for causation because it starts observational evidence low. *Class-I
   convincing = GRADE very low* is not a contradiction — it is two instruments measuring two things
   (how consistent vs how causally certain) -> [[Upgrading Observational Evidence]].
+
+</div>
 
 ## The resolution — triangulate on the exposure, do not crown the RCT
 

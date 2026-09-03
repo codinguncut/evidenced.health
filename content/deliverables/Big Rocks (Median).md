@@ -29,7 +29,7 @@ diseased.** This is a stratum, not a person and not everyone: about 40% of the p
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The finding, stated first
 
@@ -68,7 +68,9 @@ diseases interchangeable — the shared logic breaks disease-specifically, and w
 artifact, not a lever: smoking's association even runs *protective* in Parkinson's, an artifact of reverse
 causation over its long prodrome, never a licence to act ([[Shared Modifiable Levers Across Age-Related Diseases]]).
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## How the levers are sorted
 
@@ -90,7 +92,9 @@ rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is r
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## (a) Robust big rocks — lead here
 
@@ -278,6 +282,8 @@ effects in this domain are settled and few; the long tail of refinements shares 
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
 
+</div>
+
 ## (b) Stratum-dependent — conditional on metabolic status
 
 ### Reduce sodium — most useful if your blood pressure is already drifting up
@@ -314,7 +320,7 @@ healthy it is largely needless. No mainstream body positively recommends any mac
 NICE will positively recommend only an *energy*-defined one (total diet replacement, 800-1200 kcal, up
 to 12 weeks, within a support service) [@nice].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## (c) Over-published, small, or contested — do not lead
 
@@ -346,7 +352,9 @@ the one adequately-powered free-living trial, produced no weight advantage (and 
 muscle) [@lowe2020]. Exact carbohydrate percentages, sodium precision below target, and HIIT-versus-walking are
 second-order refinements. *Doing regular activity at all* and *reducing excess adiposity* come first.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The ceiling finding — hard heart-attack prevention in a not-yet-high-risk person
 
@@ -359,6 +367,8 @@ a small absolute gain when the baseline risk is low, because absolute benefit sc
 [@bplttc2021]. So pursue these levers for the outcomes they *do* move (glycaemia, liver fat, weight,
 function, and the metabolic drift itself), and let the event-prevention case strengthen naturally as
 this stratum's own risk profile is arrested.
+
+</div>
 
 ## Where this sits relative to mainstream guidance
 
@@ -393,7 +403,7 @@ wisdom.
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Caveats
 
@@ -415,5 +425,7 @@ wisdom.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+
+</div>
 
 ## References

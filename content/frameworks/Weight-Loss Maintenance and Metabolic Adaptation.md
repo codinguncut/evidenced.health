@@ -145,7 +145,7 @@ scales with the loss and is largely appetite-mediated) nor *your metabolism is r
 months) — it is the **structural-leverage** posture the reframe already licenses
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The empirical anchor — what sustained loss to expect across methods (Franz 2007)
 
@@ -251,6 +251,8 @@ marker -> [[Fatty Liver MASLD and Weight Loss]]. Do not read the ladder's rungs 
 targets: Franz's data say the modal sustained loss (\~3-6%) sits at or below the ladder's *lowest* (steatosis)
 rung, so the fibrosis rung (>=10% sustained) is above what most lifestyle maintainers hold.
 
+</div>
+
 ## Why this is the mechanistic keystone for the drug route (GLP-1) — a synthesis
 
 [inferred from @sumithran2011]
@@ -340,7 +342,7 @@ not Nong's own analysis; held as Nong reporting West.
   long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
   the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Synthesis
 
@@ -356,5 +358,7 @@ independent 6-month-peak-then-regain shape. The **causal mechanism** (that hormo
 regain) stays weak: one small uncontrolled VLCD study carries it, and the causal step to regain plus the
 generalization past VLCD are both inferred, not held. The dated drug arm (Franz's orlistat/sibutramine)
 does not transport to the current GLP-1 era.
+
+</div>
 
 ## References

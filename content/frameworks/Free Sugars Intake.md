@@ -647,7 +647,7 @@ about the shape and direction of the relationship at these levels of intake is h
 page's existing reading that the `<5%` region is carried by the weakest evidence — now from a fourth
 body's own systematic review. [inferred from @efsasugars2022]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Decision relevance
 
@@ -671,7 +671,7 @@ body's own systematic review. [inferred from @efsasugars2022]
   guideline [@who2015] — the wiki's clearest live example of a widely-cited number whose own sources claim little
   for it.
 
-
+</div>
 
 ## Limits
 
@@ -725,7 +725,7 @@ limit **excludes intrinsic whole-fruit sugars and includes fruit juice** (the de
 juice is in, whole fruit is out.* So the decision-relevant lever is cutting free fructose in **beverages**,
 not avoiding whole fruit -> [[Fatty Liver MASLD and Weight Loss]].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## What CVD/mortality evidence says about the same forms — a distinction, not a tension `[2026-08-13]`
 
@@ -746,7 +746,9 @@ processed form instead — so match the scope before reading a clash:
 - The whole-vs-processed axis (tinned-fruit harm) is the more robust processing signal in these data
   than a blanket fruit-vs-juice rule.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Refinement — SSB in the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -763,5 +765,7 @@ yet its **all-cause mortality cell is null** (RR 1.03, 0.91-1.18, LOW).
 is cardiometabolic (its free-sugar load), consistent with this page's channel; the mortality null is
 the streetlight/measurement caveat, not evidence of safety. Full cross-outcome placement ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
 
 ## References

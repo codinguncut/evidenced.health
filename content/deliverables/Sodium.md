@@ -163,7 +163,7 @@ outcome — that figure traces to a 2003 expert consultation, not to this eviden
 [@aburto2013]. SSaSS moved the *joint lever* from
 asserted to partly-evidenced; the *optimal ratio* remains an open, ungraded question on both sides.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The claim that very low sodium is dangerous has never faced a decisive test
 
@@ -227,6 +227,8 @@ The blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising i
 one would produce. **Named gap: the wiki holds no Mendelian-randomization or bias-corrected analysis
 that adjudicates the low-sodium arm.** It is unadjudicated, not settled either way.
 
+</div>
+
 ## There is no proven floor: every realistic reduction still buys some blood-pressure fall
 
 Across the studied range the dose-response is monotone or not-estimable — no plateau or knee has been
@@ -274,7 +276,7 @@ person gets little absolute benefit from the same switch.
   only where renal handling is normal; chronic kidney disease
   remains a real contraindication [@aburto2013].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Guideline targets mark where the data thin, not a proven cliff-edge
 
@@ -304,6 +306,8 @@ recovery biomarkers —
 number in a way a food-frequency-questionnaire nutrient cannot. (A single 24-hour urine still
 captures only one day, so calibration is fixed but day-to-day variation is not.)
 
+</div>
+
 ## The bottom line
 
 - **If your blood pressure or overall cardiovascular risk is high, cut sodium.** This is where the
@@ -322,7 +326,7 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
   dangerous* is neither established nor disproven, because the low-intake arm has never faced a
   confounder-immune test.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Read this as appraisal, not a prescription
 
@@ -348,5 +352,7 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+
+</div>
 
 ## References

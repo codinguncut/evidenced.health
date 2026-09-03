@@ -21,8 +21,6 @@ created: 2026-08-27
 updated: 2026-08-27
 ---
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 **The efficacy question for exercise on the bone surrogate in postmenopausal women — and the
 surrogate discipline that gates what the answer is worth.** The safety page
 ([[Exercise Safety in Osteoporosis]]) asks whether exercise *breaks* a fragile skeleton; the falls
@@ -33,8 +31,6 @@ fractures**, the outcome a person cares about. First source held: Mohebbi 2023, 
 SR-MA (80 studies, 94 training and 80 control groups, 5581 participants pooled) of controlled
 exercise trials >= 6 months, applying the inverse-heterogeneity (IVhet) model.
 [@mohebbi2023]
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The effect on the surrogate: real, positive, small-to-moderate
 
@@ -55,8 +51,6 @@ classified as moderate at best (i.e., 0.2 to 0.5)»
 So the honest headline is a **small positive standardized effect on a surrogate**, best-evidenced and
 cleanest at the total hip, and weakest (noisiest, most bias-suspect) at the lumbar spine.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## The moderators are all NULL — the *for whom* question does not separate
 
 The update's stated purpose was to find **effect modification** — who benefits more. It found none.
@@ -76,8 +70,6 @@ is flat ([[Baseline Risk and the Relative-Absolute Split]]) — but it removes t
 interaction evidence that would license personalizing the *exercise* prescription by bone or
 menopausal status. The high residual heterogeneity (I2 up to 68%) says trials differ a lot in
 effect, but the measured moderators do not explain it.
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The load-bearing limit: BMD is a SURROGATE, and transmission to fracture is not shown here
 
@@ -108,8 +100,6 @@ elsewhere — «the favorable effect of supervised exercise protocols on fractur
 but that SR is a separate source not yet held (an exercise -> fracture-incidence
 meta-analysis), needed to close the surrogate->outcome step for the loading channel.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## The supervision discordance — surrogate silent, real outcome not
 
 A sharp instance of why the surrogate can mislead: supervision made **no significant difference to
@@ -120,8 +110,6 @@ fracture benefit
 So a program feature that is **null on the BMD surrogate** may still bear on the **patient-important
 outcome** (adherence, dose fidelity, safety) — a caution against reading *no BMD difference* as *no
 decision difference*. [inferred from @mohebbi2023]
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Confidence, and the non-independence caveat
 
@@ -141,8 +129,6 @@ Shojaa/Kemmler exercise-bone literature; convergence across their reviews reflec
 data pool, and method, and must not inflate confidence. The wiki holds no independent research
 group's exercise-BMD meta-analysis yet — a genuine gap for the robustness of the surrogate effect.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## The author's own verdict on meta-analytic precision here
 
 Notably, the source itself doubts that pooling delivers a prescription: «their practical application
@@ -152,8 +138,6 @@ The high between-trial heterogeneity means the *mean* SMD hides wide variation i
 protocols achieve — the pooled number says exercise-in-general nudges BMD, not which program a
 person should do. The load/impact/dose specifics live in the programming frontier
 ([[Resistance Training Prescription - Load Sets and Frequency]]), kept peripheral by Layer-1.
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Decision relevance
 

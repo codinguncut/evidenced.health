@@ -24,16 +24,12 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
 ---
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 **The decision this page serves.** For a reasonably-healthy person, which lifestyle levers lower the
 risk of *developing* chronic kidney disease (CKD) — and how do they rank against each other? CKD is
 common, largely silent until late, and on the prevention (not treatment) side of scope. This is the
 **nucleus** clustering the modifiable-exposure -> CKD-incidence levers; drug treatment of established
 CKD and per-person dosing stay out of scope (-> [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]],
 [[Protein Intake and Kidney Function]] cover the established-disease side).
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The three levers held
 
@@ -65,8 +61,6 @@ convergence. Do not read *three studies agree kidneys benefit from lifestyle* as
 robustness-raising: each rests on its own single observational pool. A bare pooled *CKD* hiding
 albuminuria vs low-eGFR vs ESKD would be a not-same-quantity error.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## The 3-lever ranking (Layer 1: effect size x certainty)
 
 Ordinal only — the parameter table forbids a cardinal comparison. Ranked by *where to act*, net of
@@ -91,8 +85,6 @@ CKD-specific levers here are small by construction and largely already pulled vi
 honest read is *your remaining CKD-specific gains are small and uncertain*, which licenses stopping.
 Ranking orders *where to act*; it does not privilege any lever as *the cause* (an effect needs its whole
 support set).
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Single-exposure levers (Kelly 2020) — sodium and smoking now held, diet decomposed
 
@@ -166,8 +158,6 @@ independent backing of one claim and not a joined-issue clash (the parameter tab
 establishes the levers are not the same quantity). The one shared lever — PA, vs Seidu — is
 confirmation with a shared-cohort caveat, handled above.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## Route-(a) baseline-risk stratification — where absolute benefit is largest
 
 The relative effects above are roughly constant across strata; **absolute** CKD benefit scales with
@@ -181,8 +171,6 @@ Illustratively, Garofalo's low-eGFR endpoint occurred in \~12.3% of obese vs 4.2
 \~5.2 y — so the relative signal sits on a meaningfully high absolute base in the high-BMI stratum,
 where weight control's absolute CKD yield is correspondingly largest.
 -> [[Obesity and Chronic Kidney Disease Risk]].
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Caveats that bind the whole page
 
@@ -211,8 +199,6 @@ second source flagging the alcohol artifact. The protective levers (diet compone
 very-low. Net: direction is firmer for the harmful levers; the page-level `low` reflects the weakest,
 decision-driving parts, not the best.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## Decision relevance (Layer 1)
 
 CKD prevention is real but the *CKD-specific* levers are mostly **already pulled by the big rocks** — the
@@ -223,8 +209,6 @@ already weighing *also* carry a kidney benefit whose absolute size is largest ex
 Seidu's own framing agrees the levers are complementary, not rival: physical activity «may only be one
 piece of the puz- zle» alongside healthy diet, healthy weight, and risk-factor control.
 [@seidu2023ckd]
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Held threads / gaps
 

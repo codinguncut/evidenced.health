@@ -22,8 +22,7 @@ created: 2026-07-27
 updated: 2026-09-01
 self_critiqued: 2026-08-29
 ---
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
 device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
@@ -55,7 +54,7 @@ true gradient* — a genuine `[E-independent]` corroboration of the measurement 
 effect size). An RCT-grade mortality outcome is still owed.
 [inferred from @ekelundacc2019; @mandsager2018]
 
-
+</div>
 
 ## The decision this page changes
 
@@ -132,7 +131,7 @@ independent instrument and no `[E-independent]` token is claimed. The benefit is
 walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
 HRs stay Celis-Morales's, the third-route framing is.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Where the curve bends — named maxima, device-measured
 
@@ -186,7 +185,9 @@ median total physical activity for the third quarter»
 optimum sits where the data are densest, the *apparent-optimum-equals-sampling-edge* hazard, so read
 the dose column as regions on a flat top, not point targets -> [[The Underivable Optimum]].
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
@@ -251,6 +252,8 @@ persist»); there is no MR/genetic instrument, so this is the *weak* adjudicatio
 artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
 sitting sections).
 
+</div>
+
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
 **Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
@@ -313,7 +316,7 @@ minutes for a guideline-aligned target, and the sitting interaction for the offs
 convert between their hazard ratios.
 [inferred from @ekelundacc2019; @paluch2022; @ekelundsitting2016]
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Strength training — a real independent association, never ranked above aerobic
 
@@ -346,6 +349,8 @@ recommendations)»* — which looks opposed to Stamatakis. It is not: **Siahpush
 smokers**, Stamatakis pools 11 general-population cohorts. Different population, consistent once
 matched. Recorded here so the apparent clash is not re-filed later as a *tension*.
 [@who2020]
+
+</div>
 
 ## Sedentary time is a separate exposure with its own thresholds
 

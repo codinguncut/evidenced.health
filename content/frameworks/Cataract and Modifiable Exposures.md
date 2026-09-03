@@ -19,15 +19,11 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
 ---
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 The domain opener for age-related **eye disease** (cataract · AMD). Cataract is the leading global
 cause of blindness — «Cataract is the leading cause of blindness and impaired vision globally and
 accounts for 50% of all global blind­ ness» — but unlike AMD it is typically **reversible by
 surgery**, so the patient-important outcome is vision/function *conditional on surgical access*, not
 irreversible sight loss. [@aune2026vision]
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The physical-activity lever — WCRF *probable*
 
@@ -53,8 +49,6 @@ criteria (the same graded-causality matrix as [[Diet Physical Activity and Cance
 **Studied populations:** cataract follow-up 7–12.1 y; mostly Europe + US; modified Newcastle-Ottawa
 quality mean 5.7 (median 5.9) / 8 (moderately high). The main quality gaps were unvalidated PA
 assessment and unclear exclusion of prevalent cases at baseline. [@aune2026vision]
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Why this is an *association discounted for healthy-user confounding*, not a demonstrated lever
 
@@ -83,8 +77,6 @@ The U/J-artifact lens ([[The U-Shaped Association Artifact]]) does **not** apply
 high-vs-low with a monotone dose-response and all component RRs below 1.00; there is no protective-arm
 reversal to interrogate.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Mechanism — a mediator chain, only partly cashed
 
 Aune's stated pathway is **metabolic-mediation**: PA improves weight control, lowers type-2-diabetes
@@ -101,8 +93,6 @@ inflammation, and advanced-glycation-end-product formation. [@aune2026vision]
   the mediated share, and calls for further work. The oxidative-stress channel is-grade
   mechanism, not an outcome finding. [@aune2026vision]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Established (non-PA) risk factors — context for stratification
 
 Aune lists the established cataract risk factors as **diabetes, higher BMI, hypertension, smoking,
@@ -111,8 +101,6 @@ elsewhere in the fabric (glycaemic control, weight, blood pressure, smoking cess
 route-(a) point: **absolute** cataract benefit from any lever scales with baseline risk, so it is
 largest in the diabetic / high-BMI / smoking stratum even though the *relative* PA effect is modest.
 [@aune2026vision]
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Decision relevance (Layer 1)
 
@@ -125,8 +113,6 @@ cataract arm is **confirmatory and marginal**, not decision-turning. It bites ha
 where cataract baseline risk is high (diabetes, high BMI) and where a person is weighing activity
 specifically for eye health. Honest summary: **modest (RR 0.90), observational, WCRF-probable — a
 real but small confirmatory arm on an already-pulled lever.**
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Held threads / gaps
 

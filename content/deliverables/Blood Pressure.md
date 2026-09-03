@@ -11,7 +11,7 @@ self_critiqued: 2026-08-29
 concrete_subject_audited: 2026-08-29
 ---
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Pull The Two Steps Apart
 
@@ -25,6 +25,7 @@ concrete_subject_audited: 2026-08-29
 
 Both facts follow from taking the two steps one at a time. Start with the first: why what moves blood pressure tells you, by itself, almost nothing about what a lower number buys.
 
+</div>
 
 ## What Moves BP Is Not What A BP Drop Buys
 
@@ -54,7 +55,7 @@ The second step — does a lower number actually mean fewer strokes — is settl
 section shows, only for one kind of lowering.
 
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Does Lowering Blood Pressure Actually Prevent Events?
 
@@ -118,8 +119,9 @@ Because the relative effect is the same at any starting pressure, a person's abs
 risk decides whether a lever is worth pulling — and, before that, which levers actually
 move the number.
 
+</div>
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The Levers, One At A Time
 
@@ -286,8 +288,9 @@ of the diet effect, and the salt substitute bundles sodium with potassium — so
 simply be summed. The next section shows why, and how to rank what remains once the double-counting is
 removed.
 
+</div>
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The Levers Overlap — Do Not Add Their BP Effects Up
 
@@ -330,8 +333,9 @@ deliberate combination is a design choice that can add.
 
 With the double-counting removed, you can rank the levers for a given person.
 
+</div>
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Rank By Absolute Risk, Not The BP Number
 
@@ -390,8 +394,9 @@ number, though still only on the surrogate.
 The ranking shifts with the person — most of all between a high-cardiovascular-risk person and a
 merely-normotensive one — which is where the question turns next.
 
+</div>
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Match How Low You Go To The Person, Not The Reading
 
@@ -463,6 +468,7 @@ considered") even in the very-high band
 [@esc2021] -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]. Guidance codes much of this stratification into thresholds that move — worth
 knowing why they move.
 
+</div>
 
 ## Read A Moving Threshold As Evolution, Not Error
 
@@ -495,7 +501,7 @@ never as a reflex against an inconvenient number.
 None of this closes the ranking. **Two things the fabric still cannot rank close the picture honestly.**
 
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## What Stays Unsettled — And How To Decide Anyway
 
@@ -567,5 +573,7 @@ resort by default.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+
+</div>
 
 ## References

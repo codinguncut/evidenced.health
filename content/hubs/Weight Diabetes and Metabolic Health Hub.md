@@ -11,7 +11,7 @@ Navigator for the weight-management and metabolic clusters — whether any diet 
 whether type 2 diabetes can be put into remission, and where drugs enter as the realistic alternative.
 Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## What BMI level minimizes mortality, and is the "obesity paradox" real?
 
@@ -41,6 +41,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   metabolically-healthy obese (direct renal-hemodynamic path). Kidney joins CVD/cancer/liver as an
   organ the same weight lever protects; the RR is partly mediator-adjusted, so it under-states the
   total prevention benefit. Onset is in scope; progression is the prescriber boundary
+
+</div>
 
 ## Is any diet superior for weight loss?
 

@@ -11,8 +11,7 @@ updated: 2026-08-27
 self_critiqued: 2026-08-11
 concrete_subject_audited: 2026-08-27
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 The gut microbiome gets invoked for almost everything: immunity, mood, weight, autoimmune disease,
 *leaky gut*, *candida*. The evidence tells a narrower story than the marketing, and a more useful one. The
@@ -20,7 +19,9 @@ microbiome is genuinely modifiable and genuinely matters in a handful of well-de
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The bottom line
 
@@ -56,6 +57,8 @@ the FMT-for-*C. difficile* claim on a held landmark RCT, but the broad microbiom
 mostly observational, and the field's central confound — which way the causal arrow points — is
 usually unresolved.
 
+</div>
+
 ## §2 — The one move that decides most of it: composition-shift is a surrogate
 
 Almost every microbiome study reports a *composition* change — which bacteria are present, and how
@@ -85,7 +88,7 @@ personalized, with responders and non-responders in each arm; and causal-on-the-
 causal-on-the-disease. A microbiome study that clears the surrogate bar this cleanly is the exception,
 and it still cannot license a claim about a hard outcome.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## §3 — What actually moves the microbiome: diet, and mostly fibre
 
@@ -127,7 +130,9 @@ The two routes are genuinely different. Fibre feeds the resident community (the 
 fermented foods add microbes and their metabolites (the probiotic route). Both are measured here only at
 the surrogate level — a diversity shift, not an outcome.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
@@ -172,6 +177,8 @@ are undercut by the same problem — strain-blind pooling and heterogeneity, wit
 the wiki's own reading of these two sources — a discounted finding of benefit, not the
 insufficient-evidence state.
 
+</div>
+
 ## §5 — Prebiotics: mostly fibre by another name
 
 WGO defines a prebiotic as «Prebiotic A selectively fermented ingredient that results in specific changes
@@ -183,7 +190,7 @@ fibre evidence ([[Dietary Fibre and Health]]), and a standalone prebiotic supple
 already-adequate fibre intake, is a marginal and mostly-unevidenced increment.
 
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## §6 — FMT: the field's strongest win, and only for one thing so far
 
@@ -216,6 +223,8 @@ metabolic disease, where no established dysbiosis-as-cause exists for a transpla
 Valdes states the field bound plainly: «For other pathologies, faecal transplants are not yet clinical
 practice but have been explored.» [@valdes2018]
 
+</div>
+
 ## §7 — Antibiotics: a real perturbation, but the outcome question is a gap
 
 Antibiotics genuinely disrupt the gut community — that much is not in question. What is missing is the
@@ -229,7 +238,7 @@ Second, where antibiotics are clinically indicated, the stakes of an untreated i
 resistance dominate any speculative, unmeasured harm to the resident flora — so the microbiome argument
 changes no decision at the point of prescribing.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## §8 — Leaky gut and candida: demarcating real physiology from the syndrome
 
@@ -250,6 +259,8 @@ quantified claim on a measured human outcome, and sits on the *Esoterik* side of
 . The Camilleri intestinal-permeability review that would let the fabric adjudicate the real
 permeability findings against the syndrome is not held — a named gap.
 
+</div>
+
 ## §9 — Attention is an anti-signal — rank the topic low
 
 The gut microbiome is discussed far out of proportion to its established, outcome-level effect sizes.
@@ -261,7 +272,7 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## §10 — What the evidence cannot yet answer (the gaps)
 
@@ -276,7 +287,9 @@ new decision.
 - **No source bears on antibiotics' long-term microbiome harm**, and none on birth mode and early-life
   colonization — both are named gaps, not answered questions.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## §11 — How this compares to the popular framing (the guidance null)
 
@@ -292,6 +305,8 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
+
+</div>
 
 ## Caveats
 

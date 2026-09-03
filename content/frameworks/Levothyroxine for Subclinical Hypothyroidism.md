@@ -18,8 +18,6 @@ updated: 2026-08-30
 self_critiqued: 2026-08-30
 ---
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## The decision this changes
 
 Subclinical hypothyroidism (SCH) — mildly elevated thyrotropin (TSH) with a normal free thyroxine —
@@ -31,8 +29,6 @@ outcomes in this stratum, and a lever to stop treating as a big rock. It sits in
 taper (standing-drug efficacy/limitations appraisal), not the prescriber zone: the finding is
 stratum-level (start-or-not for the general SCH adult), not per-person titration.
 [inferred from @feller2018thyroid]
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The effect estimate (Feller 2018 — 21 RCTs, 2192 nonpregnant adults)
 
@@ -55,8 +51,6 @@ outcomes, gold SR+MA:
 - Verdict: «These findings do not support the routine use of thyroid hormone therapy in adults with
   subclinical hypothyroidism.» [@feller2018thyroid]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## No-meaningful-effect, not insufficient-evidence — and where the line falls
 
 The four evidence states must be kept apart, and this source splits cleanly across two of them:
@@ -72,8 +66,6 @@ The four evidence states must be kept apart, and this source splits cleanly acro
 Conflating the two would either overclaim a proven-harmless CV profile or discount the genuinely
 strong QoL/symptom null. [inferred from @feller2018thyroid]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## The surrogate the drug hits — TSH normalizes while the person does not move
 
 Levothyroxine reliably drives the treated arm's TSH into range (0.5-3.7 mIU/L) while placebo stays
@@ -84,8 +76,6 @@ marker-moved-outcome-didn't case, sharpened because the surrogate (TSH) is also 
 criterion**: treating-to-target normalizes the number that defines the disease without changing how the
 person feels or functions. -> [[Surrogate Outcomes]].
 [inferred from @feller2018thyroid]
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Transportability — where the null may NOT hold (name the boundary)
 
@@ -108,8 +98,6 @@ These are stated candidates, not demonstrated benefits: no positive effect-modif
 exists yet, so under symmetric standards they stay open gaps, not carve-outs that rescue treatment.
 [inferred from @feller2018thyroid]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## Guidance dissonance + the overtreatment cost
 
 The MA runs against the practical reach of guidelines: «more than 90% of persons with subclinical
@@ -121,8 +109,6 @@ hormone therapy is associated with adverse ef- fects when overtreatment occurs.�
 is a drug that carries overtreatment harm (iatrogenic hyperthyroidism) with no offsetting
 patient-important benefit for the modal SCH adult — the case for *not* pulling this lever, and for
 questioning a standing prescription. [inferred from @feller2018thyroid]
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Limits
 

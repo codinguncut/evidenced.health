@@ -10,8 +10,7 @@ updated: 2026-08-31
 self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
@@ -40,6 +39,8 @@ as it would be at 40.
 - **Several treatments that help younger adults turn neutral or harmful here** — testosterone,
   calcium-plus-vitamin-D, and the most aggressive weight-loss and blood-pressure targets among them.
 
+</div>
+
 ## If this person smokes, quitting outranks everything else on the page
 
 Nothing modifiable at 70 carries an effect this large. Smoking roughly triples all-cause mortality
@@ -50,7 +51,7 @@ it belongs at the top *only if the person smokes*, and drops off the list entire
 is exactly why a universal ranking is the wrong object -> [[Layer 1 - Ranking Interventions for a Stratum]],
 [[Smoking and Mortality]].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Getting blood pressure down is the best-warranted lever for preventing death and cardiovascular events here
 
@@ -69,7 +70,9 @@ stratum -> [[Blood Pressure Lowering and Cardiovascular Events]],
 [[Baseline Risk and the Relative-Absolute Split]]. How aggressive the target is, however, can
 itself change the lever's sign — see the sign-flip section below.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
@@ -102,7 +105,9 @@ that specificity is the whole point.
   excess risk is real, slow (emerging after \~10 years) and small in absolute terms (RR \~1.24)
   [@kramer2013mho].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -139,7 +144,9 @@ muscle-protection levers are a *pair*, not a sequence.
   no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
   (EWGSOP2 sets none) [@cruzjentoft2019].
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
@@ -180,7 +187,9 @@ attempt to create an optimal intervention will be impeded»
 [@who2020] — so train the measurable
 components and read frailty as the composite that follows -> [[Frailty]].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
@@ -191,6 +200,8 @@ dose of moderate-to-vigorous activity** [@ekelundacc2019]
 -> [[Physical Activity Dose and Mortality]] (where the plateau dose is stated).
  The decision consequence: the first increment off a sedentary baseline is worth far more than
 the last, so the target is "get off the floor of inactivity," not "maximise."
+
+</div>
 
 ## Past these, the remaining levers are smaller and less certain — and that ceiling is itself the finding
 
@@ -220,7 +231,7 @@ right: it licenses this person to stop optimising once the rocks above are handl
   [@molendijk2017diet]. These are
   peripheral levers, admitted mainly through their physical intersection -> [[Depression and Modifiable Exposures]].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
@@ -293,6 +304,8 @@ toward net harm, or toward "not worth it," in this stratum.
   -> [[Statins for Primary Prevention and the Power of Zero CAC]],
   [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
 
+</div>
+
 ## What this ranking cannot yet settle
 
  Three gaps bound the confidence above, and naming them is part of the appraisal.
@@ -328,7 +341,7 @@ toward net harm, or toward "not worth it," in this stratum.
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Four things this ranking cannot tell you
 
@@ -354,5 +367,7 @@ toward net harm, or toward "not worth it," in this stratum.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+
+</div>
 
 ## References

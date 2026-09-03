@@ -135,7 +135,7 @@ edge of a reference distribution, not a knee in a dose-response curve.
   ([[Menopause and the Shifting Levers]], [[Big Rocks (Elderly)]]) rest on a construct with no agreed
   operational definition (`type-G` gap).
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Decision relevance
 
@@ -162,6 +162,8 @@ edge of a reference distribution, not a knee in a dose-response curve.
 - **The outcome to steer toward is function, not mass** — falls avoided, independence retained. Muscle
   mass is a surrogate; strength and performance sit closer to the patient-important outcome
   -> [[Surrogate Outcomes]], [[Rating Outcome Importance]].
+
+</div>
 
 ## Limits — the open loop
 

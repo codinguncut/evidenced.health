@@ -177,7 +177,7 @@ triangulation — so none of the three is tagged `[E-independent]`.
 - **Drug route only.** CTT is statin-lowering; the magnitude does **not** transfer to a *dietary* LDL-C
   change (the MCE/Sydney disconnects -> [[Surrogate Outcomes]], [[Linoleic Acid and Cardiovascular Disease]]).
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## A dietary LDL lever, and why its magnitude does not inherit CTT `[2026-08-29, Landry]`
 
@@ -194,6 +194,8 @@ stop this being read as a \~11% event reduction off CTT's 0.78/mmol:
   statin-derived rate** (the MCE/Sydney disconnects). A modest, uncertain dietary apoB/LDL lever —
   cross-linked from [[Vegetarian Dietary Patterns and Mortality]], where it is one of several small
   pleiotropic channels — not a statin-magnitude one. [inferred from @landry2024vegetarian]
+
+</div>
 
 ## The treat-to-target number — the two guidance families converge, but the NUMBER is not the DIRECTION `[2026-08-06]`
 

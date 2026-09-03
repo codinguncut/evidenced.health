@@ -18,8 +18,6 @@ created: 2026-08-30
 updated: 2026-08-30
 ---
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 **Nucleus of the `hyper-palatable-foods` cluster.** A *hyper-palatable food* (HPF) is a food whose
 combination of palatability-inducing ingredients (fat, simple sugar, carbohydrate, sodium) is high enough
 to plausibly override normal satiety and heighten food reward. The term was long used **descriptively and
@@ -29,8 +27,6 @@ measurable exposure rather than a vibe. This page holds the construct; it does *
 outcome effect (see *Evidence state* — this is a definition paper, not an outcome study).
 
 [inferred from @fazzino2019hpf]
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The definition — three nutrient clusters
 
@@ -63,8 +59,6 @@ analysis shift**: from the single nutrient (the object of most guidance — sodi
 *co-occurrence* of nutrients as the palatability driver. Single-nutrient targets, by construction, cannot
 see it. [inferred from @fazzino2019hpf]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## Prevalence — most of the US food supply
 
 Applied to the USDA FNDDS (7,757 solid foods): «The HPF criteria identified 62% (4,795/7,757) of foods in
@@ -78,8 +72,6 @@ HPF spans > 70% of meats, grains and eggs. **Read as a shape, not a target:** 62
 [@fazzino2019hpf] — the number is where
 the data-visualization drew the boundary (n=75 items, no advanced statistics), so treat it as a first
 draft of a definition, not a measured constant.
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## What HPF is NOT — distinct from ultra-processing and from energy density
 
@@ -112,8 +104,6 @@ established dietary indices, such as energy density (28) and ultraprocessed food
   addictive-like eating) that HPF's composition definition leaves open. [inferred from @fazzino2019hpf]
 
 [inferred from @fazzino2019hpf]
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Overlap and 30-year trend — three constructs, most of the supply, but not interchangeable `[type-F]`
 
@@ -163,8 +153,6 @@ correlated indices of an obesogenic supply, not interchangeable exposures.
 
 [inferred from @sutton2023hpf]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## Two operational refinements
 
 - **Preparation, not food identity, is the determinant.** Across 478 aggregated food types, 81% could be
@@ -179,8 +167,6 @@ correlated indices of an obesogenic supply, not interchangeable exposures.
   for HPF.» [@fazzino2019hpf] — a
   weight-management marketing label is not evidence a food lacks a hyper-palatable profile.
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
-
 ## Evidence state — a definition, not an outcome finding `[insufficient evidence for outcomes]`
 
 **This paper carries the construct's *admissibility*, not its *harm magnitude*.** It is a cross-sectional
@@ -194,8 +180,6 @@ standards: a *foods engineered to be addictive* framing gets the same bar — th
 the harm is not yet evidenced.
 
 [inferred from @fazzino2019hpf]
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Gaps and open questions
 
@@ -217,8 +201,6 @@ the harm is not yet evidenced.
 - **G-gap — no dose or shape.** HPF is a binary threshold membership, not a dose. Whether "more
   hyper-palatable" (further above threshold, or meeting more clusters) buys more overconsumption is
   unstudied — the definition is a line, not a curve.
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Self-critique `[run 2026-08-30, re-run after Sutton 2023 extension, before commit]`
 

@@ -217,7 +217,7 @@ and abstaining is itself the harmful option for the outcome the sensitive stratu
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Where this sits in the Layer-1 ranking
 
@@ -235,7 +235,9 @@ Fish is a **small-to-moderate lever**, not a big rock:
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## The supplement dose-response — Lombardi 2020 NMA firms the VITAL-vs-REDUCE-IT split (type-F, 2026-09-01)
 
@@ -293,6 +295,8 @@ even there cannot be cleanly credited to dose rather than the EPA-only formulati
 touch the fish-as-*food* recommendation (1-2 servings/week, observational), which turns on the whole
 food matrix, not a high-dose isolate.
 [inferred from @lombardi2020; @manson2019n3; @bhatt2019]
+
+</div>
 
 ## Is the food category doing any work?
 
@@ -383,7 +387,7 @@ curve can be monotone on one outcome and flat on another -> [[The U-Shaped Assoc
 conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
 but may still help all-cause) is unchanged.
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Limits
 
@@ -416,7 +420,9 @@ but may still help all-cause) is unchanged.
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 
@@ -436,7 +442,9 @@ but may still help all-cause) is unchanged.
 - **Coherence, not validity** (R1): the loop is open — no operation grades the fish->cognition association
   against a realized dementia outcome.
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -450,7 +458,9 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 [@schwingshackl2017t2d] Full grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 dose-response NMA added]`
 
@@ -471,5 +481,7 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the omega-3-dose ->
   CV-event association against a realized outcome; the olive-oil/mineral-oil comparator threat is
   flagged as an unresolved bias in the underlying trials.
+
+</div>
 
 ## References

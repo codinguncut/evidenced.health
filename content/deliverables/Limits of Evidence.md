@@ -10,8 +10,7 @@ updated: 2026-08-31
 self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
 will change that. You cannot blind people to what they eat, cannot measure a real diet without
@@ -36,7 +35,9 @@ evidence of absence. And one caveat outlives every section below — this page g
 coheres and how faithfully it is reported, never whether it is true. It can be sound on both
 counts and still be wrong about the world.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The exposure is mismeasured
 
@@ -90,7 +91,9 @@ rule out a real gradient, a bare coefficient cannot say what was traded, and a c
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## The design rarely isolates the cause
 
@@ -177,6 +180,8 @@ can understate a real effect too. -> [[Upgrading Observational Evidence]]
 exits is available, residual confounding stays live, and the honest grade is low -- recommend
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
+
+</div>
 
 ## The outcome is often a surrogate, and effects leak
 
@@ -358,7 +363,7 @@ class that may not transport, a curve with no locatable peak. Every number carri
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Caveats and boundaries
 
@@ -390,5 +395,7 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+
+</div>
 
 ## References

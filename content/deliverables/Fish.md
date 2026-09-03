@@ -26,7 +26,7 @@ softer than the public consensus implies: it is essentially all observational, t
 magnitudes reach only moderate certainty, and for a healthy replete adult fish is a **pebble, not a big
 rock**.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## How good is the evidence — read this first
 
@@ -54,7 +54,9 @@ backing. Jayedi re-pools the same cohort literature EFSA's four CHD meta-analyse
 the identical EPA/DHA mechanism, so its agreement raises detail and certainty, not independence. The
 observational ceiling binds both.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The benefit side — narrower than "fish is good for you"
 
@@ -118,7 +120,9 @@ downward for all-cause and total CVD mortality -> [[The U-Shaped Association Art
 default — keep the \~1-2 servings/week target — is unchanged: more buys little on CHD mortality but may
 still help all-cause.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Fetal neurodevelopment — a repletion lever
 
@@ -142,7 +146,9 @@ The IQ lever therefore works for a mother whose DHA and iodine are low, and does
 is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational food signal survives while the
 isolate RCT is null — a design story, not proof the food beats the nutrient.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Cognitive decline and dementia — where the dietary and supplement evidence part ways
 
@@ -194,7 +200,9 @@ data thin out, not a located optimum -> [[The Underivable Optimum]].
 
 [inferred from @wei2023omega3]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The benefit is measured net of the mercury
 
@@ -210,7 +218,9 @@ That is why the finding lands as a serving recommendation and not an exchange ra
 species and intakes, the whole-food net is already positive.
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The exposure is not one thing — species carries both effects, and they decouple
 
@@ -243,7 +253,9 @@ replace the category with the species properties -> [[Is the Food Category Doing
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The methylmercury risk — and why species is the decision variable
 
@@ -267,7 +279,9 @@ mercury — the best long-term intake marker — and CVD, and the 2018 AHA state
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Origin — freshwater vs marine, wild vs farmed
 
@@ -302,6 +316,8 @@ evidence that the difference changes a patient-important outcome. State the dire
 
 [inferred from @efsaseafood2014]
 
+</div>
+
 ## The stratum flip — the crown-jewel weighing
 
 The balance is not the same for everyone, and the axis it turns on is stratum by species, not a blanket
@@ -325,7 +341,7 @@ the sensitive stratum cares about most
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
@@ -382,6 +398,8 @@ section above).
 
 [inferred from @manson2019n3; @bhatt2019]
 
+</div>
+
 ## Where fish sits in the ranking — a pebble
 
 For the general replete adult, fish is a pebble, not a big rock. The adult CHD-mortality benefit is
@@ -399,7 +417,7 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## What the evidence here cannot yet answer
 
@@ -444,5 +462,7 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+
+</div>
 
 ## References

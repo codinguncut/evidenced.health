@@ -22,8 +22,6 @@ updated: 2026-08-29
 self_critiqued: 2026-08-29
 ---
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 Orbiter of the `osteoarthritis` cluster. **This page answers a DIFFERENT decision-question from the
 nucleus** -> [[Knee Osteoarthritis and Modifiable Levers]]: that page appraises levers that reduce
 *pain and preserve function in ESTABLISHED symptomatic* knee OA (a treatment/management question);
@@ -37,8 +35,6 @@ being «modifiable» and associated with incidence does **not** establish that m
 — that is an untested causal step the source does not close. Read these as **route-(a) baseline-risk /
 prognostic** stratifiers (who is more likely to develop knee OA), not as demonstrated causal levers.
 [inferred from @duong2025kneeoa]
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The source and its outcome distinction
 
@@ -59,8 +55,6 @@ the poolable evidence — and the entire PAF — is for **radiographic** KOA, th
 data are richest on the outcome that matters least to the patient and thinnest on the one that matters
 most — the streetlight effect on the outcome side. Any risk figure here inherits this: it predicts an
 X-ray change of *uncertain symptomatic consequence*.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Modifiable factors — magnitude, CI, and outcome (all radiographic KOA unless stated)
 
@@ -120,8 +114,6 @@ direct repetitive joint/cartilage loading — knee bending, kneeling, load-beari
 is identical**: physical activity is not one exposure, and its *occupational* form carries risk its
 *leisure* form does not. [inferred from @duong2025kneeoa]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Non-modifiable factors and the true nulls
 
 - **Female sex:** aOR **1.93** (1.25, 2.98) for radiographic KOA (I2 63.5%; sensitivity aOR 2.22 after
@@ -139,8 +131,6 @@ is identical**: physical activity is not one exposure, and its *occupational* fo
 All non-modifiable factors above are radiographic KOA; the pooled *symptomatic* sex/age estimates were
 non-significant or conflicting.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Leisure-time PA — a route-(b) effect-modification signal inside the null
 
 The overall leisure-PA null hides a candidate **effect modification**: «Two studies found that high
@@ -155,8 +145,6 @@ not the positive-interaction bar. Duong: «the type of physical ac­tivity, and/
 of the individual may be im­portant considerations.» This is the caution that leisure PA is not
 uniformly safe for every knee — the substitution/stratum matters.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Additional moderate-certainty signals (mostly single-study, dietary factors measurement-limited)
 
 Moderate-certainty associations Duong reports without pooling: **higher** incident-KOA risk with parity
@@ -167,8 +155,6 @@ carry the usual caveat -> [[Measurement Error in Dietary Assessment]]: self-repo
 gradients, so a null or a modest signal here is weakly informative. These are candidate levers, not
 established ones — Duong itself flags smoking, alcohol and diet as needing «large, prospective cohort
 studies».
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Gaps this source names (type-G)
 
@@ -183,8 +169,6 @@ studies».
 - **Occupational PA absent from the PAF.** Its contribution «could not be accounted for in the PAF
   analysis» (no correlation matrix), so the 14% *understates* total modifiable risk — occupational load
   is a real but unquantified addition.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Self-critique `[run 2026-08-29, before commit]`
 

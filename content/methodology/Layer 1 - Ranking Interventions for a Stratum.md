@@ -49,7 +49,7 @@ baseline risk. Of eight exposures below, **one** has an absolute effect on a har
 
 
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## What is held
 
@@ -77,6 +77,7 @@ consistent harmful levers), while SSB, dairy, fish and eggs are outcome-specific
 input to this stratum ranking; its effects are per-serving RRs on mostly-hard outcomes, all
 observational-grade and from **one shared evidence base** (not independent).
 
+</div>
 
 ## What is held as a RECOMMENDATION but with no magnitude
 

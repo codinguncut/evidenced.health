@@ -10,8 +10,7 @@ updated: 2026-08-28
 self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-27
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 *How much protein should I eat?* splits into four separate decisions — **how much, from what
 source, when, and for whom** — each with its own answer. Separate them and most of the
@@ -38,6 +37,8 @@ deliberately restricted.
 *surrogate* — muscle mass, lean mass, a filtration marker — not by proof that hitting the number makes
 you live longer or stay on your feet. Hold the targets loosely.
 
+</div>
+
 ## Split the one question into four before answering it
 
 The single lay question runs four distinct decisions together, each on its own evidence and its own
@@ -53,7 +54,7 @@ curve:
 Answered separately they mostly stop contradicting each other. Most of the apparent conflict in protein
 advice comes from stacking an answer to one question onto a different question's curve.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The famous numbers each sit on a different curve, so don't stack them
 
@@ -75,6 +76,8 @@ throughout, so the higher number does not contradict the lower; they answer *pre
 *maintain muscle* versus *build muscle*. A per-*meal* dose (below) is a different axis again, and must
 not be read off the per-day ladder.
 [inferred from @bauer2013]
+
+</div>
 
 ## For building muscle, protein is a small adjunct to training that levels off near 1.6 g/kg
 
@@ -121,7 +124,7 @@ the gram target is undefined until you say which kg — and people with obesity 
 open gap rather than a lower-target finding.
 [inferred from @morton2018]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Cutting weight raises the target, and training plus protein is what protects the muscle
 
@@ -154,6 +157,8 @@ The practical direction is robust even where the exact number is not: **during a
 training and keep protein up.** For someone on a GLP-1 drug this is the collision to watch — the drug
 suppresses appetite exactly when the muscle-sparing protein target has gone *up*, not down.
 [inferred from @refalo2025]
+
+</div>
 
 ## Older adults need protein spread across meals, not just added to the day
 
@@ -271,7 +276,7 @@ and not on dialysis), protein is deliberately *restricted*. Screening for that i
 this wiki's scope; the decision-relevant fact is that the boundary exists and is narrow.
 [inferred from @devries2018]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Muscle and strength predict how long you live — but a predictor is not a lever
 
@@ -295,7 +300,9 @@ falls, and independence in their own right — patient-important outcomes — wi
 mortality rationale on top, not a promise.
 [inferred from @celismorales2018; @santana2021; @cruzjentoft2019]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The bottom line
 
@@ -313,7 +320,9 @@ mortality rationale on top, not a promise.
 - **Don't read any single number as a precise target.** Name which question it answers, carry its
   uncertainty, and remember most rest on surrogates.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Caveats
 
@@ -341,5 +350,7 @@ mortality rationale on top, not a promise.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+
+</div>
 
 ## References

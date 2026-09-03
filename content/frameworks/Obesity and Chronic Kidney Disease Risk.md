@@ -21,8 +21,6 @@ updated: 2026-08-28
 self_critiqued: 2026-08-27
 ---
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 **The decision this page serves.** Is obesity a big-rock lever for *preventing* kidney disease in a
 reasonably-healthy person, the way it is for cardiovascular disease, cancer, and fatty liver? The
 prior evidence was confounded because it mixed people who *already had* CKD at baseline into the
@@ -34,8 +32,6 @@ This is the **incidence / prevention** cell only — obesity as a modifiable ris
 *onset*. Management of established CKD (dialysis, agent selection, RAS-inhibitor titration) is the
 prescriber zone and lives elsewhere -> [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
 Dietary protein and kidney function is a *different exposure* -> [[Protein Intake and Kidney Function]].
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The pooled estimates
 
@@ -69,8 +65,6 @@ entirely by one cohort (Weycker); with it removed, RR 1.18 (1.09-1.28) and I2 fa
 central estimate is a *tighter, still-significant* 1.18-1.28 band, not a fragile one. Publication bias
 was not significant across pools.
 [@garofalo2017]
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Mediation vs confounding — how to read the RR (the load-bearing subtlety)
 
@@ -106,8 +100,6 @@ estimate errs conservative for this decision, not liberal. This is the *net-effe
 compensation* discipline running in the favourable direction. Do NOT present the RR as a clean causal
 total effect: it is observational, residually confounded, and partly mediator-adjusted.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## The overweight null and the shape question
 
 Overweight (BMI 25-30 Western; 23-25 Asian-Pacific) did NOT significantly predict low eGFR
@@ -128,8 +120,6 @@ guideline-style threshold is first suspected to mark the edge of the evidence, n
 the mirror image). The decision default is unchanged either way: every reduction into and out of the
 obese range pays.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Mechanism
 
 The direct renal pathway is hemodynamic. Obesity raises GFR and renal blood flow via afferent
@@ -145,8 +135,6 @@ depot -> [[Ectopic Fat and Depot-Specific Risk]] (a prior MA found waist circumf
 Garofalo used BMI because only 3 studies had waist data).
 [@garofalo2017]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
-
 ## Onset is in scope; progression is the prescriber boundary
 
 The prevention case rests on a scope asymmetry the paper states directly: weight-loss intervention in
@@ -156,8 +144,6 @@ of abnormal BMI on pro- gression of CKD becomes less evident.»
 [@garofalo2017]
 So obesity's leverage is largest *before* CKD onset — which is exactly the fabric-zone (prevention)
 side. Once CKD is established, the lever weakens and the decision becomes therapeutic (out of scope).
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Limits and transportability
 
@@ -178,8 +164,6 @@ side. Once CKD is established, the lever weakens and the decision becomes therap
   10 cohorts. [@garofalo2017]
 - **BMI, not adiposity.** BMI is the exposure of convenience; the causally-relevant quantity is
   visceral fat -> [[Ectopic Fat and Depot-Specific Risk]].
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Decision relevance (Layer 1)
 

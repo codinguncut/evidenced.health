@@ -68,7 +68,7 @@ damage.»
   *reversible* stages; once bridging fibrosis/cirrhosis is present, lifestyle is not shown to reverse it.
 [@easl2024]
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The second guidance family — AASLD 2023 agrees on the ladder's shape, and it is un-GRADEd `[AASLD 2023]`
 
@@ -142,7 +142,9 @@ patient-important endpoints (liver-related death, all-cause mortality, decompens
 under-measured dark region -> [[Surrogate Outcomes]]; the histological "response" the trials report is two
 surrogate-steps short of them. [@aasld2023]
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The drug comparator — drugs hit the same surrogate ceiling; only bariatric surgery is shown on mortality `[AASLD 2023]`
 
@@ -176,6 +178,8 @@ reverse fibrosis, and the one lever with a mortality signal (bariatric surgery) 
 weight loss. The weight-loss lever stays non-substitutable for the fibrosis/outcome question.
 [inferred from @aasld2023]
 
+</div>
+
 ## The other lifestyle levers, with their grades
 
 - **Diet quality (LoE 2, strong):** a Mediterranean pattern, limiting ultra-processed food and avoiding
@@ -199,7 +203,7 @@ weight loss. The weight-loss lever stays non-substitutable for the fibrosis/outc
   and negative or inconclusive, no firm conclusions can be drawn».
 [@easl2024]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Macronutrient composition at fixed calories — the fat *type* and the carb->protein swap move liver fat; the total fat<->carb swap does not `[Winters-van Eekelen 2020]`
 
@@ -268,7 +272,9 @@ Imamura glucose-insulin feeding-trial MA the SFA page also holds — so it is sh
 not an independent second route.
 [inferred from @winterseekelen2020]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
 
@@ -319,6 +325,8 @@ refined grains, fish, fruits, vegetables, eggs, dairy, or legumes» (smoking app
 increased-risk and the null list reflects conflicting constituent MAs, an unresolved heterogeneity Peng
 carries). So the actionable dietary signal narrows to *cutting liquid sugar*, not adding produce.
 [@peng2022nafld]
+
+</div>
 
 ## Is fructose the specific hepatic culprit? Mostly no — it is an energy story `[2026-08-06, Chung 2014]`
 
@@ -391,7 +399,7 @@ from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
 [@taylor2015pft]
 [inferred from @taylor2015pft]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Limits
 
@@ -410,5 +418,7 @@ from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
 - **Observational confounding** on diet and coffee, flagged by the guideline itself.
 - Coherence, not validity (R1): these are graded recommendations, not proof that acting changes a given
   person's liver or life.
+
+</div>
 
 ## References

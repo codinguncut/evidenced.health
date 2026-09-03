@@ -59,7 +59,7 @@ the aggregate «total dairy» hides them. The decision-relevant axes:
 
 
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Guo 2017 — dose-response: dairy is NEUTRAL for CVD and mortality
 
@@ -121,7 +121,7 @@ independent corroboration. And it stays observational: self-reported FFQ intake,
 and a statistical substitution model, not a feeding trial -> [[Saturated Fat Intake and Replacement]]
 (*Butter vs plant oils at the food level*).
 
-
+</div>
 
 ## Mishali 2019 — high-vs-low: modest inverse for T2D and CVD, concentrated in women
 
@@ -288,7 +288,7 @@ channel, not a demonstrated one.
 
 
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Self-critique `[run 2026-08-06, before commit]`
 
@@ -320,7 +320,9 @@ channel, not a demonstrated one.
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -334,5 +336,7 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 [@schwingshackl2017mort]
 [@bechthold2019] Full grid
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
 
 ## References

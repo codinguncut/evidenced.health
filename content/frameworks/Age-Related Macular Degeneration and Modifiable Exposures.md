@@ -19,8 +19,6 @@ relationships:
     - Blood Pressure Lowering and Cardiovascular Events
 ---
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 AMD is the second age-related eye disease this domain opens on (paired with
 [[Cataract and Modifiable Exposures]]). Unlike cataract, late AMD is **not** routinely reversible —
 so the patient-important outcome is *irreversible* central-vision loss, function, and independence,
@@ -35,8 +33,6 @@ cannot carry a causal reading.
 This page is built with **per-exposure sections** so each exposure sits as a sibling arm; the diet
 arm (Mediterranean diet -> AMD) and the vascular-risk-factor arm (Babaker 2025) have now landed
 beside the physical-activity arm.
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Physical activity — *insufficient evidence*, not a demonstrated null
 
@@ -60,8 +56,6 @@ distinguish a real \~8% reduction from no effect; a point estimate below 1.00 wi
 barely crosses it is **under-powered, not exonerating**. The same cohort-design measurement error
 that (in the cataract arm) argues attenuation-toward-the-null applies here too — so a true small effect
 could be masked. Hold AMD-PA as **candidate/gap**, neither asserted nor dismissed.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Mediterranean diet — protective for *progression*, insufficient for *development*
 
@@ -113,8 +107,6 @@ the evidence is observational with no trial; n = 8 studies; the exposure is self
 is uncontrolled at root. A significant progression OR/HR here is a *consistent association*, not a
 demonstrated causal effect — do not read the 23–34% figures as what MD *would* deliver, nor blend the
 prevalence-odds (case–control) and progression-hazard (cohort) reductions into one number.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Cardiometabolic and vascular risk factors — significant prognostic associations, no causal claim
 
@@ -173,8 +165,6 @@ infarction and subclinical-CVD risk). AMD and CVD share a vascular/atherosclerot
 precedes which is unresolved — the safe reading is co-occurrence / shared risk substrate, not
 CVD-causes-AMD.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Decision relevance (Layer 1)
 
 The honest holding is a **G-gap**: for AMD the fabric currently cannot recommend physical activity as
@@ -210,8 +200,6 @@ absolute effect. And the four significant factors are *prognostic markers*, not 
 (route (a), not (b)/(c)) — the honest holding is *these strata carry higher AMD risk*, not *removing
 the factor delivers the OR*.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Limits and misreadings — where this breaks
 
 - **Do not read the null as licence to be sedentary.** *Insufficient AMD evidence* is a statement about
@@ -225,8 +213,6 @@ the factor delivers the OR*.
 - **Do not read the vascular ORs as intervention effects.** Smoking/HTN/CVD/diabetes are prognostic
   associations (route (a)) from a crude-and-adjusted-mixed observational pool; the OR is *who develops
   AMD*, not *how much removing the factor lowers AMD risk*, and the source states no absolute risk.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Held threads / gaps
 

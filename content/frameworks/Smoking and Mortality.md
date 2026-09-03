@@ -110,7 +110,7 @@ risk in former smokers». [@livingston2024] So the cessation
 finding replicates on a *second* patient-important outcome — quitting removes the excess dementia risk as
 it removes the excess mortality risk — which raises, not competes with, smoking's Layer-1 ranking.
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## The e-cigarette is a *different* exposure — and the comparator decides its valence `[2026-08-30]`
 
@@ -123,6 +123,8 @@ than smoking» is not «safe». For a never-smoker the comparator is *clean air*
 signal for zero gain. The e-cig CV cell sits at **insufficient hard-outcome evidence** (acute surrogate
 harm shown, hard endpoints unproven), so this stays a small marginal question behind the big rock of
 not smoking at all.
+
+</div>
 
 ## Why confidence is high
 

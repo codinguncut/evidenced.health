@@ -229,7 +229,7 @@ agents at population scale — is **not disclosed by either body**, so it stays 
 finding: considerations undisclosed, weights certainly undisclosed.
 [inferred from @accaha2026; @esceas2025]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## A second guidance family with a published EtD — and cost named in the balance (Demay 2024) `[2026-09-02, Demay]`
 
@@ -271,6 +271,8 @@ the mechanism made visible, its magnitude still unmeasured.
 process to develop this clinical guideline did not use a risk assessment framework and was not designed
 to replace current DRI for vitamin D» [@demay2024vitamind] — a guideline answering the supplement-*decision* question, not the
 DRI-*setting* question EFSA/DRI bodies hold [inferred from @demay2024vitamind].
+
+</div>
 
 ## Tests / indicators
 
@@ -317,7 +319,7 @@ cost.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Limits
 
@@ -336,7 +338,7 @@ cost.
 - GRADE's own EtD chapter is only lightly represented in the held handbook chunks; the fuller EtD
   framework literature is not held.
 
-
+</div>
 
 ## A second body blends health and environment — and concedes the health effect may be null `[2026-07-28, ESC]`
 
@@ -417,7 +419,7 @@ strong for very old people (>80 years) and those who are frail».
   **Reading self-correction as a defect would penalise exactly the behaviour a sound process
   produces**, and this page should say so plainly.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## A body that draws the single-axis line explicitly — and puts the seam in a decision-relevant place `[2026-07-31, USPSTF]`
 
@@ -445,7 +447,9 @@ telos's discipline enacted, not evaded:** name the axis and stop. The one judgem
 inside the health/burden axis rather than importing a second maximand. -> [[Net Benefit and the USPSTF Recommendation Grid]]
 [inferred from @uspstfmanual2022]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Self-critique `[run 2026-09-02, before commit — Demay 2024 woven]`
 
@@ -463,5 +467,7 @@ inside the health/burden axis rather than importing a second maximand. -> [[Net 
   `[E-independent]` lift.
 - **Coherence, not validity** (R1): the loop is open; this documents what the guideline discloses, not
   whether its ≥75 FOR is correct.
+
+</div>
 
 ## References

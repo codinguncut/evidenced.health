@@ -19,7 +19,7 @@ close to 90% of the excess risk. It is never too late — quitting in one's fift
 the harm — but earlier is strictly better, and "safe to smoke until 40" is a misreading. For a
 non-smoker none of this applies; the lever is already pulled.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Smoking roughly triples the death rate and costs more than a decade of life
 
@@ -43,6 +43,8 @@ disease** (\~3.2-3.5), and **stroke** (up to \~3.2)
 [@jha2013]. These are relative rates; because
 the underlying death rates are already high in
 older smokers, the absolute toll is heaviest there.
+
+</div>
 
 ## Quitting recovers most of the loss, and the earlier the more it recovers
 
@@ -92,7 +94,7 @@ second
 patient-important outcome**: quitting removes the excess dementia risk as it removes the excess mortality
 risk. See [[Dementia Prevention and Modifiable Risk Factors]].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Smoking also raises the risk of rheumatoid arthritis — dose-dependently
 
@@ -110,6 +112,8 @@ evidence is observational (no RA-prevention trial is feasible) and held at low c
 modest add-on to smoking's harms rather than a headline effect. See
 [[Autoimmune Disease and Modifiable Risk]].
 
+</div>
+
 ## Why this is held with high confidence — despite being observational
 
 No one randomizes smoking, so the evidence is observational. But the read is decisive here for reasons
@@ -124,7 +128,7 @@ which biases *against* the benefit. The large benefit survives that conservative
 
 
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## What the held evidence does not yet cover
 
@@ -157,7 +161,9 @@ from either source. The inventory is honest about what it does **not** reach:
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Bottom line — what to do
 
@@ -180,5 +186,7 @@ from either source. The inventory is honest about what it does **not** reach:
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | Core mortality/cessation evidence is gold or high tier; the e-cigarette note rests on one moderate, surrogate-only meta-analysis and is held at low confidence. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
+
+</div>
 
 ## References

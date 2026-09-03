@@ -58,7 +58,7 @@ transports too -- but whether it *strengthens* off-CVD is open, since the shared
 below implies the CVD preventive drugs (statins, antihypertensives, glycaemic control) may themselves be
 dementia levers, not a no-drug case.
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The parameter table — matched exposure, per-disease direction
 
@@ -122,6 +122,8 @@ demonstrated levers, and they come from a crude-and-adjusted-mixed observational
 risk — so they *reinforce the ranking already set by each rock's own outcomes* rather than opening an
 AMD-specific lever. [@babaker2025amd]
 
+</div>
+
 ## Where the logic breaks — Parkinson's is the exception, and it is instructive
 
 Parkinson's does **not** obey the shared-lever pattern, and reading it as if it did would misdirect
@@ -182,7 +184,7 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
 
@@ -213,5 +215,7 @@ improve frailty status (on a thin evidence base — see [[Frailty]]) — one reg
 outcomes across both the disease-incidence and the function/QoL axes. The break-points differ by outcome
 (weight loss presupposes overweight and is contraindicated in the frail; the falls benefit weakens once
 frailty is established), so the caveats stay outcome-specific -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+</div>
 
 ## References

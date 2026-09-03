@@ -33,8 +33,7 @@ strongest evidence sits on the smallest effect.**
 
 
 [@reynolds2019] [@brown1999]
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The bottom line
 
@@ -64,6 +63,8 @@ strongest evidence sits on the smallest effect.**
 - **So: eat enough fibre, don't expect a miracle.** It is a genuine supporting lever — worth reaching
   \~25-30 g/day — but its measured causal effect (on the surrogate we can trial) is modest, and the large
   mortality numbers should not be read as if they were RCT-proven.
+
+</div>
 
 ## The two legs are DIFFERENT quantities (BLOCKING parameter table — op-weave 2a)
 
@@ -188,7 +189,7 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 
 [@brown1999]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Fibre and IBD risk — a new outcome, and it is subtype-specific `[2026-08-09]`
 
@@ -208,7 +209,9 @@ synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable 
 
 [@brown1999]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Fibre and COPD risk — a new outcome, and it is subtype-specific `[2026-08-29]`
 
@@ -221,6 +224,8 @@ fibre's other benefits, not a new lever. It is also the *component* refinement o
 [[Dietary Patterns and COPD Risk]] signal (fibre isolated out of the umbrella "healthy pattern"
 bucket). The full estimate, the per-subtype dose-response, the vegetable-arm publication-bias flag,
 and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and COPD Risk]].
+
+</div>
 
 ## Decision relevance
 
@@ -238,7 +243,7 @@ and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and CO
 
 
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Certainty and gaps
 
@@ -262,6 +267,8 @@ and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and CO
   short-chain fatty acids, and it is the dominant modifiable lever on microbial diversity — so
   *prebiotics are largely fermentable fibre by another name*, and the prebiotic evidence reduces to the
   fibre evidence on this page -> [[Gut Microbiome and Health]] `[2026-07-29, Valdes + WGO]`.
+
+</div>
 
 ## Self-critique `[run 2026-07-29, before commit]`
 

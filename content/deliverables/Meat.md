@@ -11,8 +11,6 @@ self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
 and less certain; poultry carries a small favourable signal you cannot fully credit to the chicken.**
 Read each exposure against each endpoint alone and the picture holds together. Processed meat is the
@@ -28,8 +26,6 @@ any win. For most healthy people the decision ranks below the big rocks (smoking
 inactivity); the cancer argument is loud because the effect is small and contested, not because it is
 large.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## Start with processed meat — the clearest harm
 
 Across one coordinated meta-analysis series that applied the same dose-response method to twelve food
@@ -43,8 +39,6 @@ coronary heart disease **1.27 (1.09-1.49)**, stroke **1.17 (1.02-1.34)**, heart 
 cancer, the cancer-prevention body WCRF places processed meat at its strongest evidence grade and
 sets the target bluntly: «Consume very little, if any, processed meat»
 [@wcrf2018ter].
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Unprocessed red meat: the same direction, smaller and less certain
 
@@ -83,8 +77,6 @@ all-cause-mortality odds ratio the healthy-adherer pattern manufactures with zer
 the pill (a reference magnitude, not a diabetes effect). No Mendelian-randomization study or feeding
 trial isolates red meat against diabetes either way, so the cell stays open in both directions.
  -> [[The Observational-Trial Discordance]]
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## The cancer question splits two expert bodies
 
@@ -133,8 +125,6 @@ observational heme data most likely runs through a non-iron route rather than ir
 the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## Preparation matters less than the headlines
 
 ### Cooking method: a mechanism, not yet an outcome
@@ -175,8 +165,6 @@ trimming itself: replacing saturated fat with polyunsaturated fat lowers cardiov
 it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
@@ -224,8 +212,6 @@ insufficient evidence, distinct from the mortality null
   intake, not the red->white replacement the decision turns on, so the substitution reading above
   stands.
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## What the meat is measured against decides the answer
 
 Because the comparator does the work, the sharpest evidence is about swaps. In a Japanese cohort,
@@ -255,8 +241,6 @@ apolipoproteins, and blood pressure»
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## What meat gives back
 
 Meat is also a dense source of bioavailable iron, vitamin B12, zinc, and high-quality protein, and
@@ -265,8 +249,6 @@ risk [@wcrf2018ter]. This is why the decision is a
 substitution and not a blanket subtraction: a plant-forward swap has to make up the grams and the
 amino-acid quality it displaces (plant sources are lower on the digestibility score), or it trades one
 gap for another. -> [[Protein Quality and the DIAAS Score]]
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Where meat ranks among the levers
 
@@ -278,8 +260,6 @@ sites** and calls it one of the most important ways to protect against cancer
 [@wcrf2018ter]. That is a broader and more strongly graded
 lever than a single-site meat limit. Pull that rock first. -> [[Body Fatness and Cancer Risk]]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
-
 ## The environmental trade-off, named
 
 Some of this evidence carries a non-health load: poultry's lower ecological footprint is invoked
@@ -288,8 +268,6 @@ inside at least one of the recommendations above
 records that the trade-off exists and runs in poultry's favour, and stops there — it holds no carbon,
 water, or welfare data and does not price the axis into the health verdict.
 -> [[Which Objective Moved This Recommendation]]
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## What to do
 
@@ -308,8 +286,6 @@ The realistic options, ranked by the size of the win each buys:
 
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## What the evidence still cannot say
 

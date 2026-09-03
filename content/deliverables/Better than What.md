@@ -37,7 +37,7 @@ limit outlasts the rest — this page can judge only whether a well-informed adv
 frame a swap this way, never whether anyone who followed it was better off. That loop stays
 open.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Compared to what? Why an effect has no sign until the alternative is named
 
@@ -82,6 +82,8 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
 
+</div>
+
 ## What is "X", exactly? Specifying the exposure before its comparator
 
 You cannot say "instead of what" until you pin down "what". A food or nutrient label is only a usable
@@ -121,7 +123,7 @@ their leads:
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
@@ -185,7 +187,9 @@ for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
 more than one outcome that matters.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## When outcomes compete: laying out the axes instead of summing them
 
@@ -236,7 +240,9 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## From estimate to substitution: a region and a direction, not a point
 
@@ -284,6 +290,8 @@ to Weave/ingest as residual, not a settled fabric claim.
 Once you name a region, one question remains that the region alone cannot answer: *which end* of it
 to act on.
 
+</div>
+
 ## Which end of the interval? Asymmetric loss and the conservative default
 
 Even a **perfectly symmetric** statistical interval has an **asymmetric** decision-relevant summary, and
@@ -324,7 +332,7 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## Caveats and boundaries
 
@@ -354,5 +362,7 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+
+</div>
 
 ## References

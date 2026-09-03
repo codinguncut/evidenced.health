@@ -28,7 +28,7 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Supplements — worth taking or not
 
@@ -44,3 +44,5 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Vitamin B12 Status in Vegetarian and Vegan Diets]] — the repletion mirror: a diet-defined
   shortfall (B12 has no plant source) makes supplementation close to non-optional for vegetarians/vegans;
   serum B12 is the wrong marker (use MMA/holo-TCII); biochemical deficiency is a surrogate, not held harm
+
+</div>

@@ -33,7 +33,7 @@ juice and sugary drinks, not the fruit bowl.
 big lever.** The levers with room to move are getting fibre up toward the target and cutting free
 sugars — both reachable many ways.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Most of the evidence is about a pattern, not a single food
 
@@ -84,7 +84,9 @@ real feature. Such an arm has to survive an artifact check before it earns a pla
 With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
 and where it simply cannot single out any one food.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## What each plant group does, outcome by outcome
 
@@ -270,7 +272,9 @@ numbers.
 That is the benefit side. The rest of the plant-food question is two worries — antinutrients and fruit
 sugar — and both shrink under the same isolate lens.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The antinutrient scare is mostly mis-scaled — with named exceptions
 
@@ -338,7 +342,9 @@ soaking-and-cooking step that lowers the toxicity worry also raises protein qual
 
 The other worry is sugar — specifically, whether the sugar in fruit is a problem.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Whole fruit is not a sugar problem
 
@@ -390,7 +396,9 @@ whole fruit from processed forms, not one fruit from the next.
 
 So how much does any of this matter, set against the big levers?
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Where plant-food choice sits on your list of levers
 
@@ -433,7 +441,9 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## What to do
 
@@ -465,5 +475,7 @@ event benefit.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+
+</div>
 
 ## References

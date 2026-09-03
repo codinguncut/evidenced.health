@@ -79,7 +79,7 @@ carries a founder and shareholder conflict, a halo tell held to the same standar
 [@wastyk2021]. So the fair reading is
 insufficient evidence on hard outcomes, not proof of benefit and not proof of none.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The cardiovascular signal is real but confined to fermented dairy — and one cohort carries it
 
@@ -132,7 +132,9 @@ exposure and an event in a different exposure do not confirm each other — the 
 the held evidence cannot close.
 [inferred from @wastyk2021; @zhang2019]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## No study here tests whether the cultures have to be alive
 
@@ -156,6 +158,8 @@ route, to the extent it operates, is an *indirect* remodeling of the community y
 microbes -> [[Dietary Fibre and Health]]) distinct from the probiotic route (fermented foods add
 microbes), and both sit at surrogate level here -> [[Gut Microbiome and Health]].
 
+</div>
+
 ## A fermented food delivers an undefined dose of undefined strains
 
 Even granting a probiotic mechanism, the broader microbiome evidence sets a bar fermented foods do not
@@ -171,7 +175,7 @@ Where defined probiotics have real, outcome-level wins — antibiotic-associated
 diarrhoea, *C. difficile* prevention, necrotizing enterocolitis in preterm infants — the evidence is
 tied to named strains, not to eating live-culture yogurt -> [[Gut Microbiome and Health]].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The trendy ferments are unstudied, not disproven
 
@@ -189,6 +193,8 @@ One structural point keeps this in proportion. Fermented foods are discussed far
 their established effect size, and in a mature area attention runs *inversely* to effect size — the big
 levers are settled and boring, the small ones contested and viral. Rank by expected effect, not by
 volume of discussion -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+</div>
 
 ## The bottom line
 

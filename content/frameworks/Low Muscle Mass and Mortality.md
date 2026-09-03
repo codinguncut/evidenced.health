@@ -145,7 +145,7 @@ mortality (so it is not disposable). This is a **claim-refinement (`type-F`)**: 
 blind spot in the *mass is just confirmatory* reading — the composite (*strength primary; mass still
 independently predicts death*) beats either source alone. No `tension` is filed.
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The syndrome as marker — and the function-outcome leg (Zhao 2026, moderate)
 
@@ -194,6 +194,8 @@ extends the *marker family*, not de Santana's finer mass-specific point.
   remains a named gap:
   AWAITS a resistance-training -> mortality/function SR — walled RT->hard-outcome MAs being acquired
   separately; closes when an RCT/SR shows a sarcopenia-reversing intervention moves either outcome.
+
+</div>
 
 ## Decision relevance
 

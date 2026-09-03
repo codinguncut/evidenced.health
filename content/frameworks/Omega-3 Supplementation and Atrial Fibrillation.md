@@ -17,8 +17,6 @@ relationships:
     - Surrogate Outcomes
 ---
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
-
 The **harm-channel** on the same exposure whose CV-event *benefit* is dose-dependent: marine omega-3
 *supplementation* raises the risk of **incident atrial fibrillation**, and the risk rises with dose.
 This is the off-target counterweight to the ischemic benefit held on
@@ -26,8 +24,6 @@ This is the off-target counterweight to the ischemic benefit held on
 4 g/d) and [[Fish and Seafood Consumption]] (Lombardi dose-NMA). It does **not** touch the fish-as-food
 recommendation — this is an *isolate-supplement* finding.
 [inferred from @gencer2021]
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## The effect — dose-dependent AF risk
 
@@ -79,8 +75,6 @@ The two statistically-significant single-trial signals (STRENGTH, REDUCE-IT) are
 every low-dose trial is individually non-significant, positive-leaning, and only the pool clears
 significance at 1.12.
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
-
 ## The dose-vs-formulation confound — and why it is NOT purely a REDUCE-IT/mineral-oil artifact
 
 The high-dose arm is dominated by EPA-only **REDUCE-IT (4 g icosapent ethyl** vs a contested
@@ -100,8 +94,6 @@ and the EPA-only arm are the same trials). REDUCE-IT's own prior report was the 
 > «REDUCE-IT also reported an increase in a prespecified tertiary outcome of AF hospitalization in
 > those randomized to active treatment compared with placebo (3.1% versus 2.1%; P=0.004).»
 > [@gencer2021]
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Synthesis — a same-exposure benefit/harm split by dose (type-A/G)
 
@@ -132,8 +124,6 @@ The clinical-implication the authors draw is a **disclosure**, dose-graded:
 
 [inferred from @gencer2021]
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
-
 ## NOT independent of the held omega-3 evidence (shared trial base + authors)
 
 This MA is **not** an independent type-E corroboration of the held omega-3 CV evidence — it re-pools
@@ -152,8 +142,6 @@ not opposed claims (not a filed `[[tension]]`) and not independent backing — d
 one-line side-effect note (Lombardi's AF 1.35 side-effect line on the Fish page; REDUCE-IT's AF-hosp
 3.1% vs 2.1%).
 [inferred from @gencer2021]
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Limits
 
@@ -179,8 +167,6 @@ one-line side-effect note (Lombardi's AF 1.35 side-effect line on the Fish page;
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the omega-3-dose -> AF
   association against a realized patient outcome, and AF is a mixed endpoint (hard arrhythmia burden
   vs subclinical/monitoring-detected).
-
-<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Self-critique `[run 2026-09-02, before commit — page minted]`
 

@@ -11,8 +11,7 @@ updated: 2026-09-03
 self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
-
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
 a daily multivitamin, vitamin D, fish oil, a cocoa-flavanol capsule — do essentially nothing for the
@@ -32,7 +31,9 @@ safe default.
 answers a completely different question from the same pill added to a person who already has enough.
 The marketing rarely marks which question it is answering; the sections below do.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Ask whether the person is short before asking whether the supplement works
 
@@ -47,7 +48,9 @@ the other. A null from supplementing the already-replete says nothing about repl
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## For the well-nourished, the marketed stack is a null lever
 
@@ -152,6 +155,8 @@ the cocoa bean ... thus, we cannot disentangle the effects of its individual com
 [@sesso2022cosmos]. A cocoa-extract supplement is
 a different exposure from cocoa the food -> [[Is the Food Category Doing Any Work]].
 
+</div>
+
 ## Some antioxidant supplements shorten lives rather than lengthen them
 
 The harm arm is the sharpest decision-change here, because it runs opposite to the *nutrients are good,
@@ -183,7 +188,7 @@ colorectal cancer, some trials for other cancer sites have shown potential for u
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Correcting a documented deficiency is a different, real lever
 
@@ -232,7 +237,9 @@ iodine only inside the fetal-brain window (early pregnancy d 0.51 vs late 0.17)
 the deficiency is a prescriber act** needing this person's labs — out of scope here. The move is *test,
 then replete the confirmed shortfall*, not *supplement broadly and hope*.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
@@ -254,7 +261,9 @@ pregnant, so supplementation must be in place beforehand
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
@@ -310,6 +319,8 @@ and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventin
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
 
+</div>
+
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
 Two supplements have solid randomized evidence — but on **surrogates** (muscle mass, strength,
@@ -343,7 +354,7 @@ rank — creatine plus resistance training beat training alone on muscle, streng
 [@kreider2017]. Still an adjunct;
 the training is the driver.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Fibre and probiotic supplements are small or strain-specific levers, not tonics
 
@@ -361,6 +372,8 @@ the training is the driver.
   and *C. difficile* diarrhoea and some IBS symptoms — but «not all probiotic preparations tested are
   effective» [@wgo2023]. The strain, not
   the word, is the exposure -> [[Gut Microbiome and Health]].
+
+</div>
 
 ## Attention runs opposite to effect, and the aisle carries its own risk
 
@@ -394,7 +407,7 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## The bottom line
 
@@ -414,7 +427,9 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Caveats
 
@@ -439,5 +454,7 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+
+</div>
 
 ## References

@@ -10,7 +10,7 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 *strength, resistance-training, muscle, and falls* side moved to
 [[Musculoskeletal Health and Physical Function Hub]]. Nucleus: [[Cardiorespiratory Fitness and Mortality]].
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Aerobic activity and sedentary time — dose and mortality
 
@@ -36,6 +36,8 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   breast cancer (RR 0.99, 0.95-1.03), overturning a case-control-driven prior and the IARC 2A *probable
   carcinogen* reading (MEDIUM confidence; a symmetric-standards counterweight)
 
+</div>
+
 ## Cardiorespiratory fitness — marker and lever
 
 - [[Cardiorespiratory Fitness and Mortality]] — how strongly VO2max predicts mortality, whether there
@@ -44,7 +46,7 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   raises it (HIIT vs MICT — HIIT modestly ahead, time-efficiency the real draw), and whether raising it
   actually lowers risk
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The economics of exertion
 
@@ -54,7 +56,9 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   reduces visceral fat more than diet (dose-dependent; diet's slope flat) — the exercise-vs-diet lever
   for the metabolically-active depot
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Physical activity and age-related eye disease
 
@@ -64,7 +68,9 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[Age-Related Macular Degeneration and Modifiable Exposures]] — the null-arm counterpart: PA→AMD is
   insufficient-evidence (RR 0.92, CI crosses 1); built extensible for a coming Mediterranean-diet arm
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Physical activity and chronic kidney disease
 
@@ -73,3 +79,5 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   prediction interval 0.75-1.09 crosses 1); healthy-user self-selection + reverse causation
   uncorrected, and PA's mechanism routes largely through the obesity/glycaemia/BP channels. See the
   nucleus for the full 3-lever ranking
+
+</div>

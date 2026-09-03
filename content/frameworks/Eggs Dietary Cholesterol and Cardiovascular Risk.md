@@ -333,7 +333,7 @@ their estimates, not lifted from either source's own recommendation.
 - **Frame as substitution:** the realistic alternative to eggs at breakfast matters (eggs vs refined-carb
   cereal vs processed meat) more than the eggs themselves; judge the meal, not the egg.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Open loop
 
@@ -350,7 +350,9 @@ overturning it, and did **not** lift `confidence` (it is a contained subset of t
 independent witness). Still AWAITS a dietary-cholesterol / egg **RCT-on-lipids** source to harden the
 mechanism leg (the dietary-cholesterol -> serum-LDL transmission), which no held source supplies.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -363,5 +365,7 @@ all-cause mortality cell is directionally positive but **very-low grade and non-
 1.15, 0.99-1.34).
 [@schwingshackl2017mort] Full
 cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
 
 ## References

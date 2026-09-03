@@ -115,7 +115,7 @@ cut *reduces their* cancer — the survivor evidence is explicitly «limited» o
 «will alter the clinical course». [@wcrf2018ter]
 [inferred from @wcrf2018ter]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## The 2025 DLP evidence — caution #1 now evidenced, not just asserted (type-F)
 
@@ -173,7 +173,9 @@ were considered to have critical risk of bias for confounding.» [@wcrf2025dlp]
 The report is explicit it «is not intended to supersede the 2018 WCRF/AICR Cancer Prevention
 Recommendations, but to support them.» [@wcrf2025dlp]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Yin 2025 umbrella review — the first ranked magnitudes, and the independence test failed (type-F)
 
@@ -213,6 +215,8 @@ GRADE, mainly owing to the presence of heterogeneity and publication bias.» [@y
 biomarker (EDIH/EDIP/ELIH) harm signal above, from a second body but on very-low-grade evidence ->
 [[Inflammation as a Modifiable Lever]].
 
+</div>
+
 ## Layer-1 ranking note
 
 [inferred from @wcrf2018ter]
@@ -223,7 +227,7 @@ heavy alcohol, inactivity) it dominates the cancer ranking as it does the mortal
 exposure typically moves cancer, cardiometabolic and all-cause outcomes together (the recommendations
 «promote an overall way of life» beneficial across NCDs) -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
+<div class="recent-update" data-last-updated="2026-08-29">
 
 ## Limits
 
@@ -239,5 +243,7 @@ exposure typically moves cancer, cardiometabolic and all-cause outcomes together
   figure; where the §5 prose does not pin a grade, the band (strong) is stated rather than a guessed cell.
 - Coherence, not validity (R1): the grades are causal *judgements* on cohort associations; the wiki
   cannot verify them against realized outcomes.
+
+</div>
 
 ## References

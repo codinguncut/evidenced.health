@@ -160,7 +160,7 @@ World Health Survey prevalence x GBD 2013 mortality), inheriting the causal, no-
 generalizability assumptions Aune names -> [[Baseline Risk and the Relative-Absolute Split]]. It is not
 a per-person effect and not a validated projection.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Decision relevance
 
@@ -185,7 +185,9 @@ infrastructure. Any future *consistency across Aune's plant-food MAs* is same-la
 lineage**, NOT independent type-E backing -> [[Nut Consumption and Mortality]],
 [[Whole Grains Refined Grains and Pulses]].
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## A guidance family sets a recommended range and reports the same shape — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -219,7 +221,9 @@ page: there is still no whole-food F&V RCT on a hard outcome. It confirms *direc
 second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
 [inferred from @nnr2023]
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -232,5 +236,7 @@ partly to BMI over-adjustment. Both plateau at \~200-400 g/d.
 [@bechthold2019]
 [@schwingshackl2017htn] Full cross-outcome
 grid -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
 
 ## References

@@ -20,8 +20,7 @@ created: 2026-07-29
 updated: 2026-08-30
 self_critiqued: 2026-08-30
 ---
-
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
 combined cardiovascular events (RR 0.83, Moderate certainty), so reduce SFA to 10%E [@who2023saturated]. **Astrup et al.
@@ -31,7 +30,9 @@ guidance should be food-based. The held evidence is on [[Saturated Fat Intake an
 Hooper; this page is the joined issue —
 and it **decomposes**, most of the apparent contradiction dissolving into agreement.
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Both positions in their own terms
 
@@ -52,7 +53,9 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
   (PURE, UK Biobank) + mechanistic.
   [@astrup2020]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Parameter table — where the two actually meet, and where they only appear to
 
@@ -81,6 +84,9 @@ endpoint) — a single lever moving a marker is not the same as it moving the ou
 
 
 [inferred from @hooper2020; @who2023saturated; @astrup2020]
+
+</div>
+
 ## It decomposes — one distinction, one genuine joined issue
 
 **Most of the apparent contradiction is agreement or a scope difference (not-joined checks apply).**
@@ -321,7 +327,7 @@ one (Analysis 1.36, «more marginal protection», figure unquoted). A critique t
 direction of the claim survives, the label does not.
 [inferred from @hooper2020]
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## The hidden insight
 
@@ -353,7 +359,7 @@ but with a live, unadjudicated internal-validity challenge** (the trans-fat-comp
 food-matrix diagnostic. Keep the recommendation as a *substitution*, and let the layer-3 weighting be
 the person's.
 
-
+</div>
 
 ## Evidential asymmetry — symmetric standards, asymmetric conclusion
 

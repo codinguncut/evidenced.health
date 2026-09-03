@@ -19,16 +19,12 @@ created: 2026-09-01
 updated: 2026-09-01
 ---
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
-
 **The decision this page changes.** Is a consumer wearable activity tracker (Fitbit, Jawbone, and
 kin) a worthwhile *adherence / behaviour-change* lever — a device that gets a person to move more and
 keeps them moving? This is a Layer-3 *adherence-is-part-of-the-effect* / *structural-leverage*
 question, not a new dose-response fact about activity itself: the tracker does not change what a dose
 of activity *does* (that lives at [[Physical Activity Dose and Mortality]]) — it is a candidate tool
 for *reaching and sustaining* the dose.
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Verdict — a small, real short-term boost to activity; durability unproven; effect on a surrogate
 
@@ -74,8 +70,6 @@ The abstract reports marginally different pooled SMDs (step 0.24 [0.16-0.33]; MV
 EE 0.28 [0.03-0.54]; sedentary −0.20 [−0.43 to 0.03]) — rounding/recomputation differences from the
 Results-body values quoted above; the direction, significance pattern, and certainty are identical. [inferred from @brickwood2019wearable]
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
-
 ## Durability — the crux, and it is NOT established
 
 The device is *sold* on solving activity decay, and the source concedes the problem while showing its
@@ -101,8 +95,6 @@ own evidence cannot demonstrate the fix.
   assist health professionals to provide ongoing monitoring and support to patients with minimal
   resource expenditure.» The structural-leverage claim is *conditional on ongoing human contact*, not
   demonstrated for the device alone over the long run. [@brickwood2019wearable]
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## What the effect is made of, and how to weight it
 
@@ -130,8 +122,6 @@ own evidence cannot demonstrate the fix.
   low-active end is a meaningful mortality-relevant increment) — but that transmission is an inference,
   not measured in this MA -> [[Surrogate Outcomes]].
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
-
 ## Where it sits in the Layer-1 ranking
 
 For a reasonably-healthy, already-somewhat-active person, this is a **small, low-certainty lever**: it
@@ -140,8 +130,6 @@ short-term odds are shown. It ranks as an *adherence aid*, not a big rock — mo
 near-inactive person (large baseline gap, where +627 steps/day is worth most) and most credible when
 paired with human contact rather than as a stand-alone gadget. The device is not a substitute for the
 activity; it is a candidate scaffold for doing it. -> [[Layer 1 - Ranking Interventions for a Stratum]]
-
-<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Gaps
 

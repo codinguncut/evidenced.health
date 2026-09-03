@@ -22,15 +22,11 @@ created: 2026-08-29
 updated: 2026-08-29
 ---
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 **The fibre-COPD bridge — an orbiter of the `fibre` cluster ([[Dietary Fibre and Health]] is the
 nucleus) that also cashes the COPD cluster's held incidence thread.** One gold-tier SR + dose-response
 MA (Valisoltani 2023) pools **five prospective cohorts**, n=213,912, 6449 COPD cases, giving fibre its
 own dose-response on COPD incidence [@valisoltani2023fiber]. Every estimate here is observational, FFQ-measured, and graded **LOW**
 credibility by the authors' own NutriGrade — so `confidence: low`, a supporting lever, never a settled one.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Layer 1 — a secondary lever behind the smoking big rock
 
@@ -41,8 +37,6 @@ current smoker no attainable fibre dose reorders the ranking ([[Smoking and Mort
 pulled — and even there it is largely **already implied by fibre's better-evidenced cardiometabolic
 case** ([[Dietary Fibre and Health]]), so COPD adds little *marginal* decision weight.
 (Layer-1 framing over the source's risk-factor ordering).
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The effect estimates — subtype-specific, and the null one is informative
 
@@ -68,8 +62,6 @@ All estimates are prospective-cohort, highest-vs-lowest and per-10 g/day linear 
   so the absolute benefit cannot be given. Because baseline COPD risk is smoking-driven, the absolute
   lever is largest in high-risk (older, ex-smoker) strata and smallest in never-smokers — a route-(a)
   baseline-risk point, not effect modification..
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The dose-response curves — located *knees* that are mostly precision edges
 
@@ -97,8 +89,6 @@ and then plateaued (p-nonlinearity = .008, n = 3)
   read it as *vegetable fibre helps a little then stops*. (the bias reading is the wiki's;
   the p-values and the authors' interpretation are extracted).
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Mechanism — the inflammation route, human-corroborated on a surrogate
 
 The proposed pathway is anti-inflammatory / antioxidant: «Consumption of dietary fiber has been shown to
@@ -107,8 +97,6 @@ and glucose/lipid-oxidation modulation. COPD pathogenesis runs through airway in
 stress, so the candidate mechanism is a special case of [[Inflammation as a Modifiable Lever]] — but the
 human evidence is on the **CRP surrogate**, not on COPD outcomes, so it informs *direction* only.
 `[EXTRACTED — asserted]` (mechanisms cited, not demonstrated against COPD in this review).
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## This refines, not confirms, the dietary-pattern -> COPD finding (type F)
 
@@ -135,8 +123,6 @@ composite claim is *diet is a real but modest, low-certainty COPD lever, and cer
 dose-responsive part of it* — the magnitude stays observational, the causal share unquantified.
 [inferred from @valisoltani2023fiber; @parvizian2020]
 
-<div class="recent-update" data-last-updated="2026-08-29"></div>
-
 ## Decision relevance
 
 - For a **non-smoker** optimizing at the margin, more cereal- and fruit-fibre is a plausible, low-cost,
@@ -148,8 +134,6 @@ dose-responsive part of it* — the magnitude stays observational, the causal sh
   fruit fibre, which is where the signal is.
 - Confidence is **low**: observational cohorts only, FFQ-measured, NutriGrade LOW / ROBINS-E moderate,
   no RCT, no absolute-risk layer.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Evidence state + gaps
 
@@ -173,8 +157,6 @@ dose-responsive part of it* — the magnitude stays observational, the causal sh
   absolute-risk estimate; no soluble-vs-insoluble breakdown against COPD; the vegetable-fibre plateau
   needs an unbiased, larger base before it is more than noise. `AWAITS` a prospective-cohort SR of
   fibre -> COPD in non-Western populations, or any trial-grade lung-outcome test, to lift the causal leg.
-
-<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Self-critique `[run 2026-08-29, before commit]`
 

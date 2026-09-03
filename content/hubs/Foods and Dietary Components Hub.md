@@ -9,7 +9,7 @@ Navigator for the specific-food and component clusters — whether a named food,
 class moves a patient-important outcome enough to change what someone eats or buys, and whether the
 food category is doing the work. Nucleus of the label side: [[Organic vs Conventional Food]].
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Cancer / neoplasia prevention
 
@@ -30,7 +30,9 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
   effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
 
-<div class="recent-update" data-last-updated="2026-09-02"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Foods and beverages
 
@@ -108,6 +110,8 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   once you stop treating "dairy" as one food. Broadly neutral (CVD/mortality) to modestly inverse (T2D,
   women); the milk-mortality scare is a single-cohort confounding artifact; the matrix mechanism AWAITS
   Thorning. Non-fermented axes only (fermented-dairy CVD lives on the fermented-foods nucleus)
+
+</div>
 
 ## Sugars, sweeteners, and seed oils
 

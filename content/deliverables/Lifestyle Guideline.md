@@ -15,8 +15,7 @@ updated: 2026-08-31
 self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
 little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read them
@@ -30,7 +29,9 @@ cancer *simultaneously*, so there is no separate anti-cancer or anti-dementia di
 shared breadth is a large part of why these levers rank first. ->
 [[Shared Modifiable Levers Across Age-Related Diseases]]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The five levers, biggest first
 
@@ -76,7 +77,9 @@ hardest **under about five hours**; six-to-seven hours sits barely above the hea
 actionable arm is short sleep -- sleeping long is a marker of underlying illness, not a habit to
 trim. -> [[Sleep Duration and Mortality]]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The smaller levers add a little
 
@@ -105,7 +108,9 @@ effect, and it is small -- a little lower cholesterol. Eat plenty from whole pla
 25-29 g/day is a reasonable floor, not a precise or proven target, and a supplement is no substitute for
 the food pattern. -> [[Dietary Fibre and Health]]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Things to look out for
 
@@ -128,6 +133,8 @@ harder *and* talk to a clinician. This page never names or doses a drug.
 
 None of these is a sixth lever -- they are the dials on the five you already have.
 
+</div>
+
 ## Where it stops being worth the effort
 
 Once the five big levers are handled -- you don't smoke, you move daily, you are not carrying ectopic
@@ -146,7 +153,7 @@ evidence does support is **component-level and measurable** -- apoB and metaboli
 pattern label**. -> [[Dietary Patterns]]
 
 
-<div class="recent-update" data-last-updated="2026-08-31"></div>
+<div class="recent-update" data-last-updated="2026-08-31">
 
 ## After about 65, the stack shifts
 
@@ -179,7 +186,9 @@ The levers do not change on your birthday, but their order does as you age.
   These are individual calls a doctor makes with your labs, not general advice. ->
   [[Testosterone Adiposity and Muscle]], [[Grip Strength and Mortality]]
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## The bottom line
 
@@ -193,6 +202,8 @@ In priority order, for most adults:
 
 Everything past these is small. Do the five, then stop optimizing -- the ceiling is real, and reaching
 it is the goal.
+
+</div>
 
 ## What this adds to "eat well and exercise"
 
@@ -217,7 +228,7 @@ gathers around the little ones. Here is where this page does more than repeat "e
   the environment, not what is fashionable. Where another consideration exists, it is yours to weigh,
   not folded in here.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## What this is, and is not
 
@@ -232,7 +243,9 @@ gathers around the little ones. Here is where this page does more than repeat "e
   their sources -- not whether following them makes you better off. A clean audit is not a proven
   outcome. Treat it as well-sourced reasoning, not a guarantee.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## The evidence behind each directive
 
@@ -524,5 +537,7 @@ not targets a supplement can move [@celismorales2018].
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+
+</div>
 
 ## References

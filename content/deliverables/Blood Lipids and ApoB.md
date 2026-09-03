@@ -10,12 +10,13 @@ self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 aliases: [ApoB and Heart Disease, LDL and Cardiovascular Risk, Which Lipid to Measure, Blood Lipids, Cholesterol and Heart Disease]
 ---
-
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 Atherosclerosis is driven by cholesterol-carrying particles in the blood — the ones tagged with a protein called **apolipoprotein B (apoB)**, the particle-number measure, of which LDL is the most abundant. That these particles *cause* heart attacks and strokes, rather than merely travel alongside them, is one of the most firmly established facts in cardiovascular medicine — supported by genetics, long-term cohorts, natural genetic experiments, and drug trials that all point the same way. **Lowering the particle burden lowers hard events in proportion to how much, and how long, it is lowered.** Because the damage accumulates over a lifetime, lowering it modestly but early can beat lowering it aggressively but late.
 
 **For most healthy people the ordinary LDL-C number tracks the risk well enough**; apoB earns its own measurement mainly in metabolic syndrome, diabetes, or high triglycerides, where LDL-C quietly undercounts the particles. **Whether to *act* on the number turns on absolute risk, not the number alone.** A genuinely low-risk adult — especially one with a coronary-calcium score of zero — gains little from a statin, while a high-risk one gains a lot. Two cautions close the picture: a drop achieved by diet is not automatically worth the same as an equal drop achieved by a drug, and dietary cholesterol — eggs above all — is a near-non-issue for most people.
+
+</div>
 
 ## Atherogenic particles cause heart disease — this is settled, not merely associated
 
@@ -32,7 +33,7 @@ The relationship is **log-linear across more than 2 million people and 150,000 e
 
 **A second target beyond the heart: the brain.** The 2024 Lancet dementia commission added high LDL-C as a modifiable dementia risk factor; a meta-analysis of three UK cohorts (n=1,138,488) found each 1 mmol/L higher LDL-C associated with an 8% higher all-cause dementia incidence (1.08, 1.03-1.14), the risk being **greater in midlife than late life** — consistent with the same cumulative-exposure logic [@livingston2024]. This adds to LDL's outcome menu; it does not change the cardiovascular verdict.
 
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## Measure apoB; LDL-C is a good stand-in until metabolism drifts
 
@@ -70,7 +71,9 @@ For most lean, metabolically healthy people LDL-C and apoB are tightly correlate
 
 The 2026 US guideline turns this into a rule: apoB testing is useful «particularly in those with elevated triglycerides (TG) (>=150 mg/dL), diabetes, or low achieved LDL-C (<70 mg/dL)» — where LDL-C «may appear at goal while apoB remains elevated, masking residual risk» [@accaha2026]. A raised triglyceride-glucose reading is a cheap prompt to measure apoB in that person.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Lowering the number lowers events, in proportion, with no floor yet found
 
@@ -93,7 +96,9 @@ Three features matter for decisions.
 
 This is *statin* lowering — the concordant, no-off-target case. It does not automatically transfer to a diet-induced change.
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## How the number was lowered matters — a diet drop is not a drug drop per unit
 
@@ -109,6 +114,8 @@ The proviso «provided the LDL-C drop is concordant with the particle-number dro
 [inferred from @landry2024vegetarian] So even taken at its confounded observational face value, the dietary LDL lever is real but small — and by this deliverable's own drug-route-only rule, a diet-induced LDL change does not buy hard events at CTT's statin-derived RR 0.78-per-mmol rate.
 
  **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat]. And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
+
+</div>
 
 ## For a primary-prevention adult, absolute risk decides — and zero calcium can defer
 
@@ -138,7 +145,7 @@ Two honest limits. **The NNT is modeled, not measured** — no trial has randomi
 
 The two major guideline families now **converge** on the aggressive targets — very-high-risk LDL-C **<1.4 mmol/L (55 mg/dL)** plus a >=50% reduction, high-risk **<1.8 mmol/L (70 mg/dL)** [@accaha2026] — the same very-high-risk framework the 2025 ESC/EAS focused update carries forward from the 2019 ESC/EAS guidelines [@esceas2025]. But both rest on the *same* trial base, so this is shared warrant, not two independent witnesses. And under a no-threshold curve, **the specific cut (why <55 and not <50 or <70) has no head-to-head trial** — the number is a pragmatic stopping point extrapolated from the monotone curve, where lowering further keeps paying until the added agent, cost, or adherence burden is no longer worth it. The *direction* is certain; the exact number is a reasoned choice.
 
-<div class="recent-update" data-last-updated="2026-08-27"></div>
+<div class="recent-update" data-last-updated="2026-08-27">
 
 ## Eggs and dietary cholesterol are a near-non-lever for most people
 
@@ -151,11 +158,13 @@ Two strata break from the near-null, both worth naming:
 
 **Why the scare mostly fails:** a food's cholesterol content (\~180 mg/egg) is not a serum-cholesterol effect. Only a minority of *hyper-responders* show a real LDL rise to dietary cholesterol; for most people absorption and endogenous synthesis compensate [@godos2020]. The apoB lever is reached mainly by other routes -> [[Dietary Fat]], [[Is the Food Category Doing Any Work]]. This section is `confidence: low` — entirely observational FFQ cohorts, carrying the domain's dietary-measurement-error constraint.
 
+</div>
+
 ## Lipids are one axis of cardiovascular risk, not the whole of it
 
 Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **Inflammation is a separate, additive causal lever**: in the CANTOS trial, canakinumab cut cardiovascular events **«independent of lipid-level lowering»** in statin-treated patients whose LDL was already controlled [@ridker2017cantos]. A person at goal on apoB can still carry residual inflammatory risk that lipid-lowering does not touch -> [[Inflammation as a Modifiable Lever]]. Blood pressure is the parallel large cardiovascular lever, handled on its own axis -> [[Blood Pressure]].
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## What to measure, when to act, and what is still open
 
@@ -176,5 +185,7 @@ Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **I
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+
+</div>
 
 ## References

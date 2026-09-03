@@ -15,8 +15,6 @@ self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## Where fat sits matters more than how much of it there is
 
 Two people can carry the same weight on the scale and face very different risk, because the fat that
@@ -35,8 +33,6 @@ how the arrival of an effective drug re-sizes the whole decision.
 
 
 
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Where fat sits carries the risk — read the depot, not the scale
 
@@ -173,8 +169,6 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -328,8 +322,6 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
 Where the excess fat sits is what does the damage, and the most dangerous place is inside the liver and
@@ -369,8 +361,6 @@ weight reduction by lifestyle modification on advanced fibrosis or cirrhosis is 
 works on the *reversible* stages, not once bridging fibrosis or cirrhosis is established.
 [@easl2024]
 
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Composition moves liver fat beyond calories — but it is the fat *type*, not the carbohydrate fraction
 
@@ -413,8 +403,6 @@ association of sugar-sweetened soda with increased NAFLD risk».
 histological response, and clinical outcomes.»
 [@aasld2023]
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## The risk MASLD carries is mostly extrahepatic — it feeds diabetes and cardiovascular disease
 
 For most people with fatty liver, the danger is not the liver. EASL is explicit that «the presence of
@@ -442,8 +430,6 @@ of the same weight-loss lever: «Resolution of NASH without worsening of fibrosi
 [@aasld2023] Full drug/surgery benefit-risk appraisal lives
 in [[GLP-1 Drugs]]; here the point is that the mortality signal, where it exists, tracks large sustained
 loss, not a distinct mechanism.
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Downstream disease — the same fat drives cancer and loads the knee
 
@@ -487,8 +473,6 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## How you lose the fat changes what you lose — and the body fights the deficit
 
 A calorie deficit reliably removes weight, but the body does not sit still while it happens: it compensates, spending fewer calories than the arithmetic predicts. Riou's SR of 61 exercise studies put the average energy compensation at 18% (SD ±93%) — meaning roughly a fifth of the exercise deficit is offset, but the huge dispersion means the average barely predicts any one person, who may compensate over 100% or not at all [@riou2015]. Compensation also grows with time: in the few long trials it «approached 84%» at about 80 weeks, a thin extrapolation but a solid direction [@riou2015]. Careau's doubly-labelled-water database (n=1,754) reached the same conclusion by a different route — «energy compensation by a typical human averages 28% due to reduced BEE» [@careau2021].
@@ -517,8 +501,6 @@ Who this bites depends on the stratum. For a young, well-muscled obese adult the
 
 **Named gap — do not fabricate a magnitude.** How much *extra* muscle is lost by losing weight *faster* is not held: the muscle-loss-by-speed-of-loss quantity has no gold MA, and the diet-deficit-versus-exercise-deficit body-composition partition is reasoned from mechanism, not measured.
 
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## What each method moves: the drug takes off the most weight, total diet replacement reverses diabetes, and a calorie is a calorie for storage
 
@@ -665,8 +647,6 @@ The method that matters is the one whose deficit a person can hold — and, wher
 GLP-1 drug) or a high enough baseline risk is present, the one that also moves a hard outcome.
 
 
-<div class="recent-update" data-last-updated="2026-09-03"></div>
-
 ## Durability is the binding constraint: most regain, and the body defends the higher weight
 
 The number that matters is not peak loss but *sustained* loss, and sustained loss is where lifestyle
@@ -722,8 +702,6 @@ the absence; do not infer a direction.
 
 
 
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## The levers shift by stratum -- and an effective drug re-sizes the rock
 
@@ -804,8 +782,6 @@ stays the person's decision at Layer 3.
 
 
 
-
-<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## The decision that remains: reach the organs, and make the loss last
 

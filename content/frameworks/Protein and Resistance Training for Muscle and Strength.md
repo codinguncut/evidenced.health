@@ -58,8 +58,7 @@ voluntary contraction at all.)
 
 
 [@morton2018]
-
-<div class="recent-update" data-last-updated="2026-08-28"></div>
+<div class="recent-update" data-last-updated="2026-08-28">
 
 ## How much protein — a plateau near 1.6 g/kg/day, with real uncertainty
 
@@ -168,6 +167,7 @@ aimed squarely at it is the acquisition that would move this — reported to giv
 muscle during weight loss in overweight/obesity; held as a candidate, not a finding, until ingested.
 `confidence: low`
 
+</div>
 
 ## The independent second opinion — Tagawa's 1.3 g/kg knee (a different quantity, not a contradiction)
 
@@ -235,7 +235,7 @@ parameter). [@tagawa2020]
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
 
@@ -270,8 +270,9 @@ muscle strength, or physical functional performance.»
   whole lever and added protein/co-supplements do little; the deficient or diagnosed-sarcopenic are the
   stratum where nutrition might still add** (the sarcopenic case is taken up below).
 
+</div>
 
-<div class="recent-update" data-last-updated="2026-09-01"></div>
+<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The sarcopenic exception — where nutrition may still add (grip, not mass)
 
@@ -320,6 +321,9 @@ adjunct to training, and grip — not mass — is the surrogate it nudges.
 
 
 [@morton2018]
+
+</div>
+
 ## The surrogate boundary — this is the mechanism, not the outcome
 
 Muscle mass and strength are **surrogates** ([[Surrogate Outcomes]]), not patient-important endpoints.
@@ -368,7 +372,7 @@ option for confirmed hypogonadism, not a substitute for the training. (No head-t
 held — this is an evidence-weighting judgment, not a trial result.)
 
 
-<div class="recent-update" data-last-updated="2026-08-30"></div>
+<div class="recent-update" data-last-updated="2026-08-30">
 
 ## Decision relevance
 
@@ -466,6 +470,8 @@ held — this is an evidence-weighting judgment, not a trial result.)
     window cutting protein intake (protein is eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
     the window. [@lowe2020]
+
+</div>
 
 ## Limits
 

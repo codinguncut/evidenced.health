@@ -22,6 +22,8 @@ is a weak weight-loss tool: the body compensates, and diet owns the calorie defi
 through fitness and cardiometabolic pathways, not the scale. How the levers rank depends on where you
 start: for the inactive, just start; for the already-active and the old, strength and balance.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Getting off the couch is the biggest lever you have
 
 The verdict's claim that the first hour a week buys the most is not motivational rounding — it is
@@ -140,6 +142,8 @@ But aerobic capacity is only half the engine. **Raising CRF is an aerobic job �
 barely touches it, and carries its own, largely independent mortality payoff through a different
 channel: muscle and strength.**
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Add strength training for a payoff aerobic work does not give
 
 That separate, independent payoff is the reason to program strength deliberately rather than assume aerobic minutes cover it. **Muscle-strengthening activity (resistance training, RT) lowers mortality and major disease independently of aerobic activity** — the cohorts adjust for aerobic exposure and the association survives [@momma2022]. Any RT versus none, from one meta-analysis of prospective cohorts:
@@ -239,6 +243,8 @@ absolute change. But past roughly 70 the outcome that dominates the ledger shift
 longer mainly whether activity postpones death, but whether it preserves the function, muscle, and
 balance that keep a person independent — which is where the next section turns.
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## After about 70, the payoff is staying on your feet
 
 The outcome that pays now is not another year of life but another year of doing your own shopping. **This section matters most after about 70**, when the big longevity levers are largely pulled and the exposure that moves a patient-important outcome is the one that keeps an 80-year-old off the floor and out of the fracture ward. Falls and lost function are not surrogates standing in for something the person values later — they *are* what the person values. That reframes the whole ranking: the number to move is a fall averted, not a lab value.
@@ -317,6 +323,8 @@ adiposity [@careau2021]
 -> [[Exercise Energy Compensation]]. That erodes the *weight* return without touching the fitness,
 mortality, or function returns the split is actually built on. Which points to the one thing no
 allocation of this budget will buy — **weight loss**.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## What exercise does not do: melt the scale
 
@@ -423,6 +431,8 @@ Physical inactivity is one of the 2024 Lancet Commission's **14 modifiable demen
 
 With movement's reach across these outcomes mapped, the last question is not *whether* it helps but *how the levers rank for a given person* — and where, once the big rocks are pulled, the ceiling on further gains sits.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## How the levers rank, and what is still open
 
 
@@ -443,6 +453,8 @@ Those outcomes do not rank themselves, and where the ceiling sits depends entire
 - **General adverse events of exercise are systematically under-reported in trials.** Outside the well-studied osteoporosis/fracture case, trials record benefits far more completely than harms, so an apparently clean safety profile reflects in part what was measured, not what occurred — a streetlight gap. The deliverable names it and does not fill it.
 
 
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Where this nets out
 

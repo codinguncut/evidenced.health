@@ -11,6 +11,8 @@ self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 *How much protein should I eat?* splits into four separate decisions — **how much, from what
 source, when, and for whom** — each with its own answer. Separate them and most of the
 confusion dissolves.
@@ -50,6 +52,8 @@ curve:
 
 Answered separately they mostly stop contradicting each other. Most of the apparent conflict in protein
 advice comes from stacking an answer to one question onto a different question's curve.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The famous numbers each sit on a different curve, so don't stack them
 
@@ -116,6 +120,8 @@ that barely differs from lean-mass scaling; in someone with obesity the two dive
 the gram target is undefined until you say which kg — and people with obesity were not studied here, an
 open gap rather than a lower-target finding.
 [inferred from @morton2018]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Cutting weight raises the target, and training plus protein is what protects the muscle
 
@@ -265,6 +271,8 @@ and not on dialysis), protein is deliberately *restricted*. Screening for that i
 this wiki's scope; the decision-relevant fact is that the boundary exists and is narrow.
 [inferred from @devries2018]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Muscle and strength predict how long you live — but a predictor is not a lever
 
 Why bother preserving muscle at all? Because both muscle *mass* and muscle *strength* independently
@@ -287,6 +295,8 @@ falls, and independence in their own right — patient-important outcomes — wi
 mortality rationale on top, not a promise.
 [inferred from @celismorales2018; @santana2021; @cruzjentoft2019]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The bottom line
 
 - **Do resistance training first; protein is the small adjunct.** If you train, aim into a *region*
@@ -302,6 +312,8 @@ mortality rationale on top, not a promise.
   kidney disease, where protein is restricted.
 - **Don't read any single number as a precise target.** Name which question it answers, carry its
   uncertainty, and remember most rest on surrogates.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Caveats
 

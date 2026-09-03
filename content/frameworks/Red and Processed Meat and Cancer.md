@@ -230,6 +230,8 @@ same red-meat cohort literature as WCRF/NutriRECS, so it is **not** independent 
 association — its value is the **mechanistic attribution** and the intrinsic-vs-curing bound, not a second
 independent count (no [E-independent]).
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## The same channel decomposition on a MORTALITY endpoint `[2026-09-02, Etemadi 2017]`
 
 The three-exposure logic above was built on **cancer** endpoints. An independent US mega-cohort —
@@ -332,9 +334,13 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
 
 
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
 The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Non-cancer outcomes live in the matrix (2026-08-28)
 

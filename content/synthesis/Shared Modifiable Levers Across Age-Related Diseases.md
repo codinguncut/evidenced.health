@@ -58,6 +58,8 @@ transports too -- but whether it *strengthens* off-CVD is open, since the shared
 below implies the CVD preventive drugs (statins, antihypertensives, glycaemic control) may themselves be
 dementia levers, not a no-drug case.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## The parameter table — matched exposure, per-disease direction
 
 The matched parameter is the **exposure and the direction of its association**, NOT the effect
@@ -179,6 +181,8 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   multi-disease outcome. The synthesis says a well-informed advisor *would* prioritize the shared core
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
 

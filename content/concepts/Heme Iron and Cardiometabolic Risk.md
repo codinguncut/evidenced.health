@@ -14,10 +14,14 @@ updated: 2026-09-03
 self_critiqued: 2026-09-03
 ---
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 **Nucleus of the `heme-iron` cluster** — the canonical home for heme iron as a *within-red-meat
 attribute* and candidate *shared causal channel*. Facet pages (per-outcome red-meat pages, the
 dose-response matrix) link up here for the heme-specific attribution; this page owns the cross-outcome
 question. — this is the wiki's own graph-structuring note, not a source claim.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## The emergent question this page opens
 
@@ -48,6 +52,8 @@ the CHD leg's harmful-direction is **challenged** — the natural experiment giv
 iron burden being a *harmful* causal channel for coronary disease. The same-quantity bound (systemic
 iron != dietary heme) means this still does not close the heme-isolation gap..
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Leg 1 — Heme iron -> incident type 2 diabetes (EXTRACTED, this page's source)
 
 [@zhao2012hemeiron] — gold SR+MA, PLoS ONE 2012.
@@ -75,6 +81,8 @@ the difference was non-significant and the prospective RR strong, so the authors
 causality unlikely [@zhao2012hemeiron]
 (the gate-1 U/J machinery, run and cleared -> [[Measurement Error in Dietary Assessment]] governs the
 opposite risk: FFQ error attenuates the true gradient toward null).
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Leg 2 — Heme iron -> coronary heart disease (EXTRACTED, this page's source)
 
@@ -123,6 +131,8 @@ with inflammation markers. — this is a proposed pathway offered by the discuss
 outcome the MA measured; it informs *direction*, and must not be read as establishing that oxidation is
 the operative cause of the observed CHD association.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Legs 3-4 — held elsewhere, NAMED not re-extracted
 
 These outcome-legs are already in the fabric on their own pages; they are cross-links here, not this
@@ -137,6 +147,8 @@ Bastide), not from Zhao or Yang; this section only names them as sibling legs of
   peroxidation). That page also carries the crucial bound: in cohorts heme is **partly a red-meat proxy**
   (some studies compute it as a fixed factor of meat iron), so heme is not cleanly separated from red
   meat by the observational data alone.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Leg 5 — the iron-status natural experiment (MR): the shared channel splits by outcome (EXTRACTED)
 
@@ -226,6 +238,8 @@ processed forms) rather than through iron burden. The iron-burden mechanism that
 thesis needed for the coronary leg is contradicted by the store instruments and only equivocally
 supported by the hemoglobin instrument.
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 ## Synthesis — the candidate shared channel (INFERRED, low confidence)
 
 
@@ -314,6 +328,8 @@ figures are extracted on the respective legs. So the honest post-MR position: he
 supported adverse lever for T2D** (at the iron-burden level, dietary-route unproven) and a
 **not-supported / likely-confounded lever for CHD** — the cross-outcome *shared harmful channel* is no
 longer even directionally uniform, and `confidence: low` stands.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Gap (type-G) — the hook the next sources fill
 

@@ -59,6 +59,8 @@ the aggregate «total dairy» hides them. The decision-relevant axes:
 
 
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Guo 2017 — dose-response: dairy is NEUTRAL for CVD and mortality
 
 29 cohorts, 938,465 participants, dose-response (per-increment) meta-regression:
@@ -286,6 +288,8 @@ channel, not a demonstrated one.
 
 
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Self-critique `[run 2026-08-06, before commit]`
 
 - **No dairy halo, no dairy scare — both checked.** The neutral verdict is stated as neutral (not
@@ -315,6 +319,8 @@ channel, not a demonstrated one.
   Dehghan — no `[E-independent]`); (iii) discounted for the Dairy-Farmers-of-Canada / National-Dairy-
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 

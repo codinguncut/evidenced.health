@@ -53,6 +53,8 @@ distinct exposures, and the daily-window version is a delivery vehicle for a def
 independent lever. [inferred from @liu2022; @semnaniazad2025]
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Eating earlier moves a few markers, on the weakest possible evidence
 
 The only weight-independent benefit signal comes from shifting food *earlier*, not from shortening the
@@ -99,6 +101,8 @@ regimen label is second-order: pick the pattern you will actually adhere to, bec
 schedule, is what the deficit rides on -> [[Time-Restricted Eating]].
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## A short eating window can quietly cost you muscle
 
 The window can add a specific harm the scale hides. In TREAT (Lowe 2020), the weight a late 16:8 window
@@ -119,6 +123,8 @@ their own numbers exploratory, and the resistance-training stimulus matters more
 -- but the direction is clear: in any window, keep protein up and train
 -> [[Protein Intake During Energy Restriction]].
 
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## A deep, sustained deficit is a real therapy -- and that is about magnitude, not timing
 
@@ -143,6 +149,8 @@ on liver fat. [@easl2024] Both sources point
 one way: the deficit is the medicine; the timing is packaging.
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Prolonged fasting and autophagy are a separate exposure the evidence does not cover
 
 A continuous fast of roughly 48 hours to several days is not a longer daily window; it is a distinct
@@ -154,6 +162,8 @@ against a patient-important outcome, so autophagy stays a *mechanism*, never a r
 longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic multi-day low-calorie
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 

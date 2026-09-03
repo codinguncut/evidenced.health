@@ -131,6 +131,8 @@ also authored the parallel whole-grain dose-response MA (ref 47) using the *same
 cohort infrastructure — so any future *consistency across Aune's plant-food MAs* is same-lab type-F, NOT
 independent type-E backing.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Sibling plant-food MA — F&V (Aune 2017) confirms the *pattern*, not independently `[2026-08-13]`
 
 The parallel F&V dose-response MA from the same team recurs on every structural feature this page
@@ -146,6 +148,8 @@ as ref 193) [@aune2017fv]:
   demonstrated optimum -> [[The Underivable Optimum]].
 - Both are observational, both cap at the confounding ceiling, both argue measurement error attenuates
   toward the null. Convergence across the two is **shared-lineage**, so it does not raise `confidence:`.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 

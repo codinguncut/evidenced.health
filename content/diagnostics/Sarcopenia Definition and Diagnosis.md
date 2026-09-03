@@ -135,6 +135,8 @@ edge of a reference distribution, not a knee in a dose-response curve.
   ([[Menopause and the Shifting Levers]], [[Big Rocks (Elderly)]]) rest on a construct with no agreed
   operational definition (`type-G` gap).
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Decision relevance
 
 [inferred from @cruzjentoft2019]

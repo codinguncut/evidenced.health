@@ -12,6 +12,8 @@ self_critiqued: 2026-08-11
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 This page appraises the *health* axis of the *organic* label at the population level: what the measured
 differences between organic and conventional food are, how large they run against a whole diet, and
 whether the *certification* or some *underlying exposure the label only partly captures*
@@ -96,6 +98,8 @@ organic loses on two micronutrients.
 [@srednickatober2016milk]
 A uniformly favourable picture would be a halo tell. The honest reading is a mixed, small-magnitude one
 against total-diet intake.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Sub-question 3 — the cattle case: the label tracks the FEED, not the certificate
 
@@ -206,6 +210,8 @@ anti-signal: in a mature area the large, settled effects generate little discuss
 contested ones generate products and content. This appraisal agrees with the mainstream position — buy
 organic if you value the non-health reasons for it, but do not expect a documented population-level
 health benefit. The measured differences are real; their health consequence is unproven.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The non-health reasons are real — and not weighed here
 

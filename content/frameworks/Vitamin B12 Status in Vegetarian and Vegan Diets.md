@@ -17,6 +17,8 @@ relationships:
     - Measurement Error in Dietary Assessment
 ---
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 **The decision.** For someone eating a vegetarian or vegan diet, should they supplement vitamin B12,
 and how is their B12 status actually measured? This is the **repletion mirror** of the general
 supplements question: whereas supplementing the already-replete adult to prevent disease is null-to-harm
@@ -27,6 +29,8 @@ plant source — so this sits on the **steep lower (repletion) arm** of
 is a descriptive prevalence review [@pawlak2013];
 its findings are prevalence and measurement facts, **not** an effect estimate on a patient-important
 outcome.
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## The actionable core — a genuinely non-optional supplement for this stratum
 
@@ -55,6 +59,8 @@ maintenance and \~200x in established deficiency, and `>=250 ug` for best result
 prescriber act** (needs this person's labs) and is out of the wiki's scope; the number is here only to
 size the lever, not to prescribe.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Prevalence — high, but cutoff-driven and one-armed
 
 Across 18 studies using accurate biomarkers, the prevalence of B12 depletion/deficiency among
@@ -74,6 +80,8 @@ in children, 21-41% in adolescents, 11-90% in adults/elderly. **Two load-bearing
   is partly an artifact of which cutoff each study chose (compounded by real life-stage/duration
   differences) — read it as cutoff-and-population-dependent, not as a stable population parameter.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## The measurement finding — serum B12 is the wrong marker
 
 The decision-relevant measurement point: the marker changes the answer. «MMA and holo-TCII are the most
@@ -87,6 +95,8 @@ depletion preceding deficiency. **Decision consequence:** a *normal* serum-B12 r
 depleting vegetarian; assessment should use MMA and/or holo-TCII. This is a domain-specific instance of
 the wiki's broader point that the **instrument that produced a status estimate must be interrogated
 before the estimate is trusted** -> [[Measurement Error in Dietary Assessment]].
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## The stratum finding — every vegetarian subtype, with two gradients
 
@@ -111,6 +121,8 @@ anomalously, vegan supplement users were *more* often deficient (88%) than non-u
 reads as too-infrequent or too-low dosing rather than supplements failing
 [@pawlak2013].
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## CRITICAL — biochemical deficiency is a SURROGATE, not a patient-important outcome
 
 The prevalence numbers measure a **biomarker**, not harm, and the source itself supplies the
@@ -134,6 +146,8 @@ and the one within-study clinical read found zero symptoms. The honest state is 
 evidence** on marker-to-outcome transmission in this stratum, held apart from the well-supported
 prevalence and measurement facts.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Confidence — graded per claim, not as a blob
 
 - **Prevalence + measurement facts:** well-supported by an appropriately-designed (biomarker-restricted)
@@ -146,6 +160,8 @@ prevalence and measurement facts.
   a harm claim.
 
 No `[E-independent]` is claimed: a single descriptive review is one route, not independent convergence.
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Gaps (G)
 

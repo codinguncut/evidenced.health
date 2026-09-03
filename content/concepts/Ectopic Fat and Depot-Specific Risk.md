@@ -24,6 +24,8 @@ relationships:
     - Allostatic Load and Mortality
 ---
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
 (Taylor's personal-fat-threshold hypothesis) and a population-outcome meta-analysis (Kramer's
 metabolically-healthy-obesity MA): **cardiometabolic risk tracks WHERE fat is stored — overflowing into
@@ -50,6 +52,8 @@ and normal β-cell function when the fat content of the liver and the pancreas w
 loss diet- ary regimen» — «achievable equally readily by people with lower initial BMI».
 [@taylor2015pft] The reversal
 arm is separately gold-backed by the held RCT evidence -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## The depot distinction — three fat compartments are three different objects `type-B`
 
@@ -95,6 +99,8 @@ whether a person carries more fat than *they* can store safely, not by a populat
 threshold itself shifts by ethnicity: «the equivalent degree of risk for a Caucasian of BMI greater than
 30 kg/m2 is expressed in South Asians at 25.2 kg/m2 and at 27 kg/m2 in African/Caribbeans».
 [@taylor2015pft]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## The population signature — Kramer's MHO meta-analysis reads as the same claim at scale `type-A`
 
@@ -183,6 +189,8 @@ facet INTERHEART adds — with the caveat that its case-control design makes tha
 reverse causation (acute-illness muscle loss).
 [inferred from @yusuf2005interheart; @taylor2015pft]
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Decision relevance
 
 - **Measure central adiposity (waist/WHR), not BMI, when ranking cardiometabolic risk.** The depot claim
@@ -223,6 +231,8 @@ reverse causation (acute-illness muscle loss).
   status is genuinely causal for the **glycemic** axis (this spine), and genuinely **not** the CVD lipid
   lever (apoB is); a raised TyG / TG-HDL *flags* the discordance, it does not replace measuring apoB.
 
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Limits
 

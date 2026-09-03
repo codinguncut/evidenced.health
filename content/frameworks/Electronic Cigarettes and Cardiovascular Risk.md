@@ -17,12 +17,16 @@ updated: 2026-08-30
 self_critiqued: 2026-08-30
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 **What this page opens (provisional cell-opener).** The e-cigarette is a distinct exposure from
 combustible tobacco -> [[Smoking and Mortality]], and the wiki held nothing on it. This page opens the
 e-cig -> cardiovascular cell on a single moderate SR+MA [@skotsimara2019ecig], and its finding is
 mostly about **which evidence state the cell is in**, not a magnitude to act on. **Confidence low**; the
 value is stating the state honestly rather than letting the e-cig question sort into either «safe» or
 «established harm». The decision-change is a **two-stratum split** (below), not a scalar verdict.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The evidence is in three different states at once
 
@@ -34,6 +38,8 @@ value is stating the state honestly rather than letting the e-cig question sort 
 
 The single scalar question «are e-cigs bad for the heart?» has no answer because these three states do
 not collapse — the direction depends on the endpoint and the comparator. [inferred from @skotsimara2019ecig]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Acute: a real surrogate harm signal
 
@@ -50,6 +56,8 @@ not harm demonstrated. Their transmission to any patient-important CV endpoint i
 claim here — the acute rise is small in absolute terms and its clinical meaning over years is exactly
 what the hard-outcome row cannot supply.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Switching: BP falls — but against the *smoking* comparator
 
 In the 3 studies (N=173) of tobacco smokers switching to chronic e-cig use, BP **fell**: SBP -7.00 mmHg
@@ -60,6 +68,8 @@ post-exposure but switching from tobacco smoking to chronic electronic cigarette
 aﬀect BP» [@skotsimara2019ecig]. The
 comparator here is **continued combustible smoking**, so this is a harm-*reduction* signal relative to
 smoking — not evidence that e-cig lowers BP against clean air.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The decision-change: substitution valence flips by stratum — do NOT collapse
 
@@ -79,6 +89,8 @@ A single «e-cigs are safe / unsafe» verdict is wrong because it averages these
 holds both apart — the switching benefit «does not suggest that the electronic cigarette should be
 marketed as a cardiovascular safe product» [@skotsimara2019ecig].
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Mechanism (directional, discounted)
 
 Acute effects plausibly run via **nicotine -> catecholamine release**. But the mechanism does not close:
@@ -88,6 +100,8 @@ major adverse cardiovascular events», so the adverse e-cig effects «could be r
 [@skotsimara2019ecig]. Consequence
 (): if the harmful moiety is a non-nicotine aerosol constituent, then nicotine-strength
 comparisons across brands do not bound the CV risk — a directional inference, not an outcome finding.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The gap that keeps this at insufficient-evidence
 
@@ -104,6 +118,8 @@ stays at insufficient-evidence -> [[The Insufficient-Evidence Statement]] — *n
 surrogate signal forbids the null) and *not* established harm (the hard endpoint is unproven). This is
 the «not yet» bucket under symmetric standards: e-cig gets neither a fashionable-safety pass nor an
 inflated hard-harm verdict.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Why confidence is low
 

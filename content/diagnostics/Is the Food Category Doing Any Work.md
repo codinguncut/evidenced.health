@@ -98,6 +98,8 @@ different object.
 **This third case is the common one, and it is the dangerous one** — an unresolved category looks
 exactly like a resolved one in a recommendation.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## One level up: macronutrient labels, and whether the matrix or the component carries the effect
 
 *"Low-fat"*, *"low-carb"*, *"high-protein"* are the same structure at the nutrient level, and they
@@ -233,6 +235,8 @@ be blinded or dosed, so it stays observational. Same design asymmetry, same trap
 grade is a fact about trialability, not evidence that a psyllium sachet beats a bowl of beans for outcomes
 -> [[Dietary Fibre and Health]]. And the isolate's effect is *small* (Brown: «only a small contribution»),
 so even the well-graded object does not carry a large decision.
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## A fourth case: the boundary IS predictive and still adds nothing `[2026-07-28]`
 
@@ -686,6 +690,8 @@ At dietary doses the named component carries nothing; the category benefit, if a
 it. The bound: supraphysiologic *supplement* doses (100-1000× dietary) are a different exposure and not
 tested here. The decision link lives on [[Alcohol and Mortality and Vascular Disease]] (the beverage-matrix
 facet). [inferred from @semba2014]
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## "Flavonoid intake" is credited but COMPUTED from the foods — the component that never leaves the food `[2026-08-30, Mazidi]`
 

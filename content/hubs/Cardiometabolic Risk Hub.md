@@ -18,6 +18,8 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] — when an extra test moves a risk
   estimate enough to change the decision, and why very few modifiers clear the bar
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Blood pressure levers
 
 - [[Blood Pressure Lowering and Cardiovascular Events]] — the one cardiometabolic lever whose
@@ -38,6 +40,8 @@ The wider **psychosocial / HPA-channel exposures** that reach cardiometabolic ri
 social connection, sense of purpose, allostatic load, depression — plus **sun/UV** live in
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Lipids, drugs, and dietary patterns for CV events
 
@@ -65,6 +69,8 @@ BP levers.
   (CANTOS canakinumab, LoDoCo2 colchicine) cut CV events with lipids unchanged, but CRP is a marker not a
   cause (MR), the benefit is on events not all-cause mortality, and the anti-inflammatory diet is an
   observational proxy for MedDiet, not a shown independent lever
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Behavioural big rocks
 

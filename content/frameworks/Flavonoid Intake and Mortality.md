@@ -19,6 +19,8 @@ relationships:
     - Upgrading Observational Evidence
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 **Decision one-liner (Layer 1):** higher dietary flavonoid intake carries a **small, borderline
 inverse association** with total and CVD mortality on observational data — and the one meta-analysis the
 wiki holds **cannot tell you the flavonoid itself is what does the work.** Its exposure is flavonoid intake
@@ -27,6 +29,8 @@ observational, measurement-error-laden dietary-pattern signal as fruit/veg or te
 flavonoid units. For a reasonably-healthy person this is **not a big rock** and not a reason to chase
 flavonoids as such: eat the flavonoid-bearing whole foods (fruit, veg, tea) for the several better-
 evidenced reasons already on their pages, not for a *flavonoid* target this evidence cannot isolate.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Effect estimate (Mazidi 2020, MA of 16 cohorts, highest vs lowest intake)
 
@@ -50,6 +54,8 @@ evidenced reasons already on their pages, not for a *flavonoid* target this evid
   external funding» [@mazidi2020flavonoid], so no
   beverage-seller COI applies.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Why confidence is LOW despite a gold-tier design
 
 - **Heterogeneity asserted, not shown.** The paper claims «a very low level of heterogeneity ...
@@ -67,6 +73,8 @@ evidenced reasons already on their pages, not for a *flavonoid* target this evid
   «attenuated our results but there was still an inverse link» [@mazidi2020flavonoid], and the authors cannot rule out «unmeasured or residual confounding»
   and «cannot be certain that the inverse association ... is casual [causal], representing the effect of
   flavonoids only» [@mazidi2020flavonoid].
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The load-bearing move: a flavonoid MA does NOT isolate the flavonoid
 
@@ -108,6 +116,8 @@ a stronger defeater than a shared method). Nor is there a **matched-quantity cla
 is the flavonoid, the food matrix, or the healthy-eating pattern. That is the food-vs-component G-gap,
 now with a second FFQ-derived source **confirming it stays open** rather than closing it.
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## The isolating design Mazidi lacked now exists — and its hard-outcome primary is null `[2026-08-31, Sesso/COSMOS]`
 
 Mazidi's whole limitation is that its flavonoid exposure is FFQ-derived, so «no study used a flavonoid
@@ -148,6 +158,8 @@ confidence and its Layer-3 read (eat the foods, do not chase a flavonoid target 
 estimates + the secondary-endpoint caveat: [[Vitamin and Mineral Supplements for Disease Prevention]];
 the Test-3 collinearity framing: [[Is the Food Category Doing Any Work]].
 [inferred from @sesso2022cosmos]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Where this sits
 

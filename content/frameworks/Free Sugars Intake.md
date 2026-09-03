@@ -647,6 +647,8 @@ about the shape and direction of the relationship at these levels of intake is h
 page's existing reading that the `<5%` region is carried by the weakest evidence — now from a fourth
 body's own systematic review. [inferred from @efsasugars2022]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Decision relevance
 
 - **The 10% limit is a dental recommendation.** If someone's decision is about adiposity or
@@ -723,6 +725,8 @@ limit **excludes intrinsic whole-fruit sugars and includes fruit juice** (the de
 juice is in, whole fruit is out.* So the decision-relevant lever is cutting free fructose in **beverages**,
 not avoiding whole fruit -> [[Fatty Liver MASLD and Weight Loss]].
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## What CVD/mortality evidence says about the same forms — a distinction, not a tension `[2026-08-13]`
 
 The free-sugars page reads fruit juice as *inside* the harmful exposure. On a **different outcome axis**,
@@ -741,6 +745,8 @@ processed form instead — so match the scope before reading a clash:
   is matched, so no `[[tension]]` is filed -> [[Fruit and Vegetable Intake and Health]].
 - The whole-vs-processed axis (tinned-fruit harm) is the more robust processing signal in these data
   than a blanket fruit-vs-juice rule.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Refinement — SSB in the DIfE/Boeing 12-food-group series (2026-08-28)
 

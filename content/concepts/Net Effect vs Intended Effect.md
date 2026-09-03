@@ -20,6 +20,8 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
 ---
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 **An intervention's *intended* effect — the one its mechanism predicts in isolation — is routinely wrong,
 because the whole-organism response adds a term the mechanism omits. What matters is the *net* effect
 across the whole system, and the omitted term is *signed*: usually it runs *against* the intervention
@@ -33,6 +35,8 @@ response — damp, redirect, or reinforce?*
 The failure mode is dosing or recommending straight from the naive mechanism — *add X kilocalories of
 exercise, lose Y weight*; *lower the marker, get the outcome* — as if the body were an open loop. It is
 a closed loop with counter-regulation, so the arithmetic over-predicts.
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## The worked instances (already source-grounded on their pages)
 
@@ -67,6 +71,8 @@ single-instance generalization, not a symmetric law.
   *adds* to the intended surplus. Same principle (net != intended via the whole-organism response),
   opposite direction — which is why the diagnostic must be signed, not assumed to subtract.
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## The failure mode it names
 
 **Mechanism-to-dose extrapolation without the compensation term.** A real, human-corroborated mechanism
@@ -86,6 +92,8 @@ The placement and cross-links below are this page's reasoning.
   complete, realistic strategy on its net effect, not its intended one.
 - Method grounding is top-down from the meta-method corpus (realist mechanism vs the whole-system
   outcome) — cited up, not as a domain source.
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Synthesis
 

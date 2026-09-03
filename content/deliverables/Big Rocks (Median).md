@@ -29,6 +29,8 @@ diseased.** This is a stratum, not a person and not everyone: about 40% of the p
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The finding, stated first
 
 For this stratum, two levers dominate: **movement** (any-intensity volume plus
@@ -66,6 +68,8 @@ diseases interchangeable — the shared logic breaks disease-specifically, and w
 artifact, not a lever: smoking's association even runs *protective* in Parkinson's, an artifact of reverse
 causation over its long prodrome, never a licence to act ([[Shared Modifiable Levers Across Age-Related Diseases]]).
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## How the levers are sorted
 
 Every lever below falls into one of three buckets, by what the
@@ -85,6 +89,8 @@ sit above their own storage threshold, not in kilograms. One honest limit remain
 rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is reasoning from mechanism
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## (a) Robust big rocks — lead here
 
@@ -308,6 +314,8 @@ healthy it is largely needless. No mainstream body positively recommends any mac
 NICE will positively recommend only an *energy*-defined one (total diet replacement, 800-1200 kcal, up
 to 12 weeks, within a support service) [@nice].
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## (c) Over-published, small, or contested — do not lead
 
 ### Free sugars
@@ -337,6 +345,8 @@ Time-restricted eating draws enormous attention and, in
 the one adequately-powered free-living trial, produced no weight advantage (and lost disproportionate
 muscle) [@lowe2020]. Exact carbohydrate percentages, sodium precision below target, and HIIT-versus-walking are
 second-order refinements. *Doing regular activity at all* and *reducing excess adiposity* come first.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The ceiling finding — hard heart-attack prevention in a not-yet-high-risk person
 
@@ -382,6 +392,8 @@ wisdom.
   rapid-regain caution on *unmeasured* weight-cycling harm — a measured rate/maintenance-outcome trial
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Caveats
 

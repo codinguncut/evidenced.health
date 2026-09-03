@@ -26,6 +26,8 @@ pain *management* (drug/injection/surgery selection, acute-pain control, diagnos
 patient-important outcomes here — self-reported pain, physical function, QoL — are the ones measured
 *worst*, so this page carries **more honest uncertainty, not more confident advice**.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The verdict — safe, probably helps function and pain a little, but the evidence is genuinely weak
 
 [@geneen2017chronicpain]

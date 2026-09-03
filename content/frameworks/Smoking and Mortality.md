@@ -110,6 +110,8 @@ risk in former smokers». [@livingston2024] So the cessation
 finding replicates on a *second* patient-important outcome — quitting removes the excess dementia risk as
 it removes the excess mortality risk — which raises, not competes with, smoking's Layer-1 ranking.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## The e-cigarette is a *different* exposure — and the comparator decides its valence `[2026-08-30]`
 
 Do not read the combustible hazard onto the e-cigarette: it is a distinct exposure with its own,

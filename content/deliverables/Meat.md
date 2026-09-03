@@ -3,13 +3,15 @@ type: deliverable
 title: Meat
 aliases: [Red Meat, Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health, Meat and Health, Poultry, White Meat]
 question: What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces?
-sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012]
+sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012]
 confidence: medium
 created: 2026-07-30
 updated: 2026-09-03
 self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
 and less certain; poultry carries a small favourable signal you cannot fully credit to the chicken.**
@@ -26,6 +28,8 @@ any win. For most healthy people the decision ranks below the big rocks (smoking
 inactivity); the cancer argument is loud because the effect is small and contested, not because it is
 large.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Start with processed meat — the clearest harm
 
 Across one coordinated meta-analysis series that applied the same dose-response method to twelve food
@@ -39,6 +43,8 @@ coronary heart disease **1.27 (1.09-1.49)**, stroke **1.17 (1.02-1.34)**, heart 
 cancer, the cancer-prevention body WCRF places processed meat at its strongest evidence grade and
 sets the target bluntly: «Consume very little, if any, processed meat»
 [@wcrf2018ter].
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Unprocessed red meat: the same direction, smaller and less certain
 
@@ -77,6 +83,8 @@ all-cause-mortality odds ratio the healthy-adherer pattern manufactures with zer
 the pill (a reference magnitude, not a diabetes effect). No Mendelian-randomization study or feeding
 trial isolates red meat against diabetes either way, so the cell stays open in both directions.
  -> [[The Observational-Trial Discordance]]
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## The cancer question splits two expert bodies
 
@@ -125,6 +133,8 @@ observational heme data most likely runs through a non-iron route rather than ir
 the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 ## Preparation matters less than the headlines
 
 ### Cooking method: a mechanism, not yet an outcome
@@ -166,6 +176,8 @@ it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
 Poultry is a genuinely different exposure, and the evidence keeps it separate from fish (fish is
@@ -188,6 +200,31 @@ benefit frames its own conclusion as a swap, not an endorsement: people at highe
 red and processed meat «should consider substituting a source of their protein intake to white meat»
 [@kim2017meatstroke]. Read the poultry signal as a
 substitution contrast, not as proof that poultry protects. -> [[The Comparator Problem]]
+
+The dedicated poultry->CVD-and-T2D systematic review is now held, and it hardens this reading. Ramel —
+the NNR2023 review group pooling 26 studies (23 prospective cohorts, 3 RCTs), fish excluded — lands
+both cause-specific cells null: CVD mortality **RR 0.95 (95% CI 0.87-1.02), P=0.23, I2=25%** across 6
+cohorts, and incident type-2 diabetes **RR 0.98 (0.87-1.11)**, though with high heterogeneity,
+**I2=82%** [@ramel2023whitemeat].
+
+Its distinctive move is a formal certainty grade the earlier nulls lacked: it grades CVD mortality and T2D
+«substantial effects unlikely» — a graded *no meaningful effect*, upgrading Lupoli and Kim's bare
+unrated nulls — while grading incident CHD, stroke, and CVD «limited – no conclusion», i.e. still
+insufficient evidence, distinct from the mortality null
+[@ramel2023whitemeat]. The review finds poultry
+«does not indicate a role, either beneficial or detrimental» for these diseases
+[@ramel2023whitemeat].
+
+- **The T2D null is the weaker of the two.** That I2=82% means the pooled RR near 1.0 averages cohorts
+  pulling in both directions, so it does not read as firmly as the low-heterogeneity CVD-mortality
+  null — a graded no-effect, but a softer one.
+- **Ramel does not answer the swap either.** Like Lupoli and Kim it «did not consider substitution of
+  red meat with white meat but only intake of white meat»
+  [@ramel2023whitemeat] — it measures poultry
+  intake, not the red->white replacement the decision turns on, so the substitution reading above
+  stands.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## What the meat is measured against decides the answer
 
@@ -218,6 +255,8 @@ apolipoproteins, and blood pressure»
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## What meat gives back
 
 Meat is also a dense source of bioavailable iron, vitamin B12, zinc, and high-quality protein, and
@@ -226,6 +265,8 @@ risk [@wcrf2018ter]. This is why the decision is a
 substitution and not a blanket subtraction: a plant-forward swap has to make up the grams and the
 amino-acid quality it displaces (plant sources are lower on the digestibility score), or it trades one
 gap for another. -> [[Protein Quality and the DIAAS Score]]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Where meat ranks among the levers
 
@@ -237,6 +278,8 @@ sites** and calls it one of the most important ways to protect against cancer
 [@wcrf2018ter]. That is a broader and more strongly graded
 lever than a single-site meat limit. Pull that rock first. -> [[Body Fatness and Cancer Risk]]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The environmental trade-off, named
 
 Some of this evidence carries a non-health load: poultry's lower ecological footprint is invoked
@@ -245,6 +288,8 @@ inside at least one of the recommendations above
 records that the trade-off exists and runs in poultry's favour, and stops there — it holds no carbon,
 water, or welfare data and does not price the axis into the health verdict.
 -> [[Which Objective Moved This Recommendation]]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## What to do
 
@@ -264,13 +309,20 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 ## What the evidence still cannot say
 
 - **Cooking-method hard outcomes** — whether a low-temperature preparation changes any
   patient-important outcome is unmeasured; only surrogates and a mechanism are held.
-- **Poultry -> cardiovascular disease and type-2 diabetes** as a dedicated systematic review is not
-  yet held; do not read the
-  all-cause and stroke numbers as covering these.
+- **Poultry -> *incident* CHD, stroke, and CVD** remains insufficient evidence — Ramel grades these
+  «limited – no conclusion» (too few, mixed studies), an open cell distinct from the graded no-effect
+  it reaches on CVD *mortality* and T2D
+  [@ramel2023whitemeat]. And the
+  **processed-vs-unprocessed poultry split on T2D** is the leading named gap: only 2 of Ramel's cohorts
+  isolated unprocessed poultry and 1 split processed from unprocessed (processed -> higher T2D,
+  unprocessed neutral-to-lower), so the aggregate T2D null may mask a processed-harm / unprocessed-
+  neutral split as in red meat — 2 studies cannot settle it.
 - **A pooled red-meat substitution magnitude** on CHD and mortality is not yet held; only a single-cohort
   swap estimate is.
 - **Poultry stroke *mortality*** is unestimable in the held source (a data limitation, not a null).
@@ -292,7 +344,7 @@ cited here.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces? |
-> | **Evidence included** | 20 sources — 14 gold, 6 high |
+> | **Evidence included** | 21 sources — 15 gold, 6 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |

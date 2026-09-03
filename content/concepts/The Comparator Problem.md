@@ -32,6 +32,8 @@ and the unstated default is doing the work. When a study "removes" a nutrient, t
 replaced by *something*; when a person "stops" a behaviour, the time/energy goes *somewhere*. The
 estimate is a contrast, never an absolute, so the omitted arm is a hidden premise.
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The worked instances (already source-grounded on their pages)
 
 Each restates a finding held on the linked page; the selection and framing as comparator-instances is

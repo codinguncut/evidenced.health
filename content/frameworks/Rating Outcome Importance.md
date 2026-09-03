@@ -98,6 +98,8 @@ both bear on a recommendation). How much a disabling-but-non-fatal event weighs 
 is then the person's layer-3 call.
 
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## A composite person-centred outcome is the anti-streetlight device made an endpoint (2026-08-28)
 
 The empty-row rule keeps an *unmeasured* important outcome visible; a **composite person-centred
@@ -153,6 +155,8 @@ minimum calls five-to-ten per cent of initial body weight *"(clinically meaningf
 Discussion's "about 4 to 6 kg" is a translation of a criterion already on the record. The **DBP, LDL
 and HbA1c** thresholds appear only in the Discussion. Disclosed either way, and still not the same
 instrument as pre-specification.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## When the values evidence actually exists — a worked instance (2026-08-28)
 

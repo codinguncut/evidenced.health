@@ -11,6 +11,8 @@ Navigator for the weight-management and metabolic clusters — whether any diet 
 whether type 2 diabetes can be put into remission, and where drugs enter as the realistic alternative.
 Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## What BMI level minimizes mortality, and is the "obesity paradox" real?
 
 - [[BMI and All-Cause Mortality]] — the bias-corrected BMI->mortality curve (Global BMI IPD-MA, 10.6M):

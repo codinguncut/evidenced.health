@@ -39,6 +39,8 @@ the reason is the single most useful thing this pattern teaches: **the two evide
 not estimating the same exposure.** The discordance is a *diagnostic signal to check
 exposure-commensurability*, not a verdict for the trial.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## The pattern is real — three worked instances
 
  — the values below are as established on each linked page; the cross-instance structure is
@@ -84,6 +86,8 @@ on health.» This corroborates the *structure* (surrogate-validity + triangulati
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
 
  — the contrast case that keeps the pattern honest in the *other* direction. Coffee and
@@ -104,6 +108,8 @@ either direction, so the honest state is *untested for causation*, neither estab
 shown-benign -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. The symmetric error to
 "the RCT was null, so ignore the observational" is "the food is not proven causal, so treat it as
 safe" — both skip the missing test.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Why the streams disagree — five mechanisms, not one
 

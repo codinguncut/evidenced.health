@@ -145,6 +145,8 @@ scales with the loss and is largely appetite-mediated) nor *your metabolism is r
 months) — it is the **structural-leverage** posture the reframe already licenses
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The empirical anchor — what sustained loss to expect across methods (Franz 2007)
 
 Sumithran supplies the *mechanism* for why maintenance is hard; Franz 2007 supplies the *magnitude* —
@@ -337,6 +339,8 @@ not Nong's own analysis; held as Nong reporting West.
   arm would strengthen the *defended set-point* synthesis, but **no adequate one is held**: the candidate
   long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
   the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Synthesis
 

@@ -12,11 +12,15 @@ self_critiqued: 2026-08-11
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 The gut microbiome gets invoked for almost everything: immunity, mood, weight, autoimmune disease,
 *leaky gut*, *candida*. The evidence tells a narrower story than the marketing, and a more useful one. The
 microbiome is genuinely modifiable and genuinely matters in a handful of well-defined places. In most
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The bottom line
 
@@ -81,6 +85,8 @@ personalized, with responders and non-responders in each arm; and causal-on-the-
 causal-on-the-disease. A microbiome study that clears the surrogate bar this cleanly is the exception,
 and it still cannot license a claim about a hard outcome.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## §3 — What actually moves the microbiome: diet, and mostly fibre
 
 The dominant modifiable lever on the microbiome is diet, and within diet, fermentable fibre — the
@@ -120,6 +126,8 @@ indirect remodeling of the community already present, not colonization by the mi
 The two routes are genuinely different. Fibre feeds the resident community (the prebiotic route);
 fermented foods add microbes and their metabolites (the probiotic route). Both are measured here only at
 the surrogate level — a diversity shift, not an outcome.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
@@ -175,6 +183,8 @@ fibre evidence ([[Dietary Fibre and Health]]), and a standalone prebiotic supple
 already-adequate fibre intake, is a marginal and mostly-unevidenced increment.
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## §6 — FMT: the field's strongest win, and only for one thing so far
 
 Faecal microbiota transplant (FMT — transferring a donor's stool microbes into a patient's gut) is
@@ -219,6 +229,8 @@ Second, where antibiotics are clinically indicated, the stakes of an untreated i
 resistance dominate any speculative, unmeasured harm to the resident flora — so the microbiome argument
 changes no decision at the point of prescribing.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## §8 — Leaky gut and candida: demarcating real physiology from the syndrome
 
 A functional test sorts these claims: is there a falsifiable, quantified claim on a real human
@@ -249,6 +261,8 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
@@ -261,6 +275,8 @@ new decision.
   ground.
 - **No source bears on antibiotics' long-term microbiome harm**, and none on birth mode and early-life
   colonization — both are named gaps, not answered questions.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## §11 — How this compares to the popular framing (the guidance null)
 

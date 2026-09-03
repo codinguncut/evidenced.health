@@ -68,6 +68,8 @@ damage.»
   *reversible* stages; once bridging fibrosis/cirrhosis is present, lifestyle is not shown to reverse it.
 [@easl2024]
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The second guidance family — AASLD 2023 agrees on the ladder's shape, and it is un-GRADEd `[AASLD 2023]`
 
 A second national guidance body (AASLD, American) states the same weight-loss ladder, which raises the
@@ -140,6 +142,8 @@ patient-important endpoints (liver-related death, all-cause mortality, decompens
 under-measured dark region -> [[Surrogate Outcomes]]; the histological "response" the trials report is two
 surrogate-steps short of them. [@aasld2023]
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The drug comparator — drugs hit the same surrogate ceiling; only bariatric surgery is shown on mortality `[AASLD 2023]`
 
 Sizing the weight-loss rock at the margin (Layer 1) means asking what a mature drug already captures. For
@@ -194,6 +198,8 @@ weight loss. The weight-loss lever stays non-substitutable for the fibrosis/outc
   markers, «stronger and more consistent for fibrosis than for steatosis» — but «RCTs... are scarce
   and negative or inconclusive, no firm conclusions can be drawn».
 [@easl2024]
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Macronutrient composition at fixed calories — the fat *type* and the carb->protein swap move liver fat; the total fat<->carb swap does not `[Winters-van Eekelen 2020]`
 
@@ -261,6 +267,8 @@ the routes share antecedents — this MA leans on the same de-novo-lipogenesis m
 Imamura glucose-insulin feeding-trial MA the SFA page also holds — so it is shared-lineage refinement (F),
 not an independent second route.
 [inferred from @winterseekelen2020]
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
 
@@ -382,6 +390,8 @@ measurable, and the >2-fold incident-T2D risk MASLD carries is the same hepatic-
 from the liver side -> [[Ectopic Fat and Depot-Specific Risk]].
 [@taylor2015pft]
 [inferred from @taylor2015pft]
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Limits
 

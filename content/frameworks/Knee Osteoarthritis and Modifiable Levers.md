@@ -106,6 +106,8 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   older adults risks weakness/falls; exercise attenuates it and %lean actually rose. So pair weight loss
   with resistance training -> [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Limits — the open loop
 
 [inferred from @messier2013idea; @rauschosthoff2018exercise]

@@ -12,6 +12,8 @@ self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
 a daily multivitamin, vitamin D, fish oil, a cocoa-flavanol capsule — do essentially nothing for the
 diseases they are sold against.** In large randomized trials they sit at the bottom of the levers
@@ -30,6 +32,8 @@ safe default.
 answers a completely different question from the same pill added to a person who already has enough.
 The marketing rarely marks which question it is answering; the sections below do.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Ask whether the person is short before asking whether the supplement works
 
 Every supplement decision splits on one prior fact: is this person **deficient** (below the
@@ -42,6 +46,8 @@ The field makes one central error: it runs a trial on one arm and reads the resu
 the other. A null from supplementing the already-replete says nothing about repletion of the
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## For the well-nourished, the marketed stack is a null lever
 
@@ -177,6 +183,8 @@ colorectal cancer, some trials for other cancer sites have shown potential for u
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 ## Correcting a documented deficiency is a different, real lever
 
 Where a person is genuinely short, repletion moves patient-important outcomes — and the benefit scales
@@ -224,6 +232,8 @@ iodine only inside the fetal-brain window (early pregnancy d 0.51 vs late 0.17)
 the deficiency is a prescriber act** needing this person's labs — out of scope here. The move is *test,
 then replete the confirmed shortfall*, not *supplement broadly and hope*.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
 Periconceptional folic acid is the standing counter-example to *supplements are a distraction* — the
@@ -243,6 +253,8 @@ pregnant, so supplementation must be in place beforehand
 (prior NTD pregnancy, diabetes, anticonvulsants) take 5 mg/day rather than the general 0.4 mg
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
@@ -331,6 +343,8 @@ rank — creatine plus resistance training beat training alone on muscle, streng
 [@kreider2017]. Still an adjunct;
 the training is the driver.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Fibre and probiotic supplements are small or strain-specific levers, not tonics
 
 - **Fibre supplements** move a surrogate modestly. As a dosable isolate, viscous/soluble fibre lowers
@@ -380,6 +394,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## The bottom line
 
 - **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil, cocoa-flavanol
@@ -397,6 +413,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   and contested cardiovascular harms — exercise is the fracture lever.
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Caveats
 

@@ -12,6 +12,8 @@ self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-28
 ---
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
 carry similar saturated fat, yet the outcomes they touch — heart disease, early death, diabetes,
 bone fracture, cancer — point in different directions. Judge dairy one food and one outcome at a
@@ -43,6 +45,8 @@ to how much it matters.** Keep the dairy you enjoy; do not adopt or avoid it for
 bones on the current evidence.
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Split *dairy* into its foods before you judge it — the label hides opposites
 
 
@@ -64,6 +68,8 @@ Dairy is a classic case of a food category whose boundary may carry no informati
 Never read a whole-milk finding as a yoghurt finding, nor a butter
 finding as a cheese finding. Everything below is organised one food and one outcome at a time.
 
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## For coronary heart disease, stroke and mortality, dairy is a wash — with a small heart-failure harm signal
 
@@ -124,6 +130,8 @@ One net-new arm the earlier cut never covered: **dairy tracks with slightly lowe
 a small inverse association on a surrogate-adjacent endpoint from the same non-independent series;
 proportionate to its low certainty, note it and move on.
 
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The *milk shortens your life* scare is one confounded cohort, not a finding
 
@@ -195,6 +203,8 @@ and artifact-sensitive on mortality* — lives on [[Fermented Foods and Health]]
 Kefir specifically has essentially no hard-outcome data; hold it at
 insufficient evidence, not at null.
 
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## More dairy tracks with slightly less type-2 diabetes — two estimates, one non-industry, moderate certainty
 
@@ -300,6 +310,8 @@ The deficient person is a genuinely different stratum, and dairy/calcium may sti
 there — Malmir did not screen for deficiency, so that arm stays a separate, open question.
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Cheese and butter part ways at the same saturated fat — the food does the work, not the fat number
 
 
@@ -361,6 +373,8 @@ ingested only for the red-and-processed-meat colorectal analysis). So:
   no effect; do not read the absence of a magnitude as an absence of an effect. Extracting the WCRF
   dairy chapters is the follow-up that would close it.
 
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The bottom line
 

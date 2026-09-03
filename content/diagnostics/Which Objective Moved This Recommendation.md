@@ -229,6 +229,8 @@ agents at population scale — is **not disclosed by either body**, so it stays 
 finding: considerations undisclosed, weights certainly undisclosed.
 [inferred from @accaha2026; @esceas2025]
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## A second guidance family with a published EtD — and cost named in the balance (Demay 2024) `[2026-09-02, Demay]`
 
 The Limits below awaited a *second* guidance family with a published EtD. **Demay 2024 (Endocrine
@@ -314,6 +316,8 @@ cost.
   [inferred from @nasem2011fww]
 
 
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Limits
 
@@ -413,6 +417,8 @@ strong for very old people (>80 years) and those who are frail».
   **Reading self-correction as a defect would penalise exactly the behaviour a sound process
   produces**, and this page should say so plainly.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## A body that draws the single-axis line explicitly — and puts the seam in a decision-relevant place `[2026-07-31, USPSTF]`
 
 The telos's *one axis, named — never blended* rule asks a guideline body to keep health separate from
@@ -438,6 +444,8 @@ telos's discipline enacted, not evaded:** name the axis and stop. The one judgem
 (opportunity cost) it re-labels as a harm and grades on the same net-benefit scale, which keeps it
 inside the health/burden axis rather than importing a second maximand. -> [[Net Benefit and the USPSTF Recommendation Grid]]
 [inferred from @uspstfmanual2022]
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Self-critique `[run 2026-09-02, before commit — Demay 2024 woven]`
 

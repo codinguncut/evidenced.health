@@ -9,6 +9,8 @@ self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-28
 ---
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 For a reasonably healthy person, eating eggs is close to a **non-lever** for heart disease. The largest
 pooled analyses put the risk of heart attack, stroke, and cardiovascular death within a whisker of no
 effect at any ordinary intake. That is neither the harm the old cholesterol scare predicted nor any real
@@ -24,6 +26,8 @@ rests on inference, not a feeding trial. Two further signals are **watch-items, 
 all-cause-mortality slope and a heart-failure association that surface only at high habitual intake, both
 at low certainty. And the real comparison is the whole **meal**: eggs versus a refined-carb breakfast is a
 different question than eggs versus bacon.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## For your heart, eggs are close to a non-lever
 
@@ -48,6 +52,8 @@ recommendation. The honest read is the flat one — **not harmful, and not a hea
 
 But *cardiovascular disease* is not one outcome, and reading it as a single endpoint hides the one place
 eggs behave differently.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Read one outcome at a time, and heart failure stands apart
 
@@ -93,6 +99,8 @@ mortality slopes are best held as **watch-items at high habitual intake** (one o
 levers worth restructuring a breakfast around. None of them, in any case, is the thing the public actually
 fears. That is the cholesterol.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The scare mistakes what is in the egg for what is in your blood
 
 The case against eggs was always a two-step syllogism: eggs are high in cholesterol (true — about 180 mg
@@ -124,6 +132,8 @@ zeaxanthin, and high-quality protein — a mix of opposing mechanisms, not a cle
 -> [[Is the Food Category Doing Any Work]]. Which makes it worth asking why one recent
 paper put the scare back in the headlines.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The headline that revived the scare measured a nutrient, not the food
 
 In 2019 a JAMA analysis pooled six US cohorts (29,615 people, followed a median of 17.5 years) and
@@ -153,6 +163,8 @@ meat) are adjusted, because dietary cholesterol and those foods are too collinea
 Read carefully, Zhong sharpens *why* the headline sounds worse than the pool without overturning it. But
 it raises the real question: does the answer ever change for an actual individual?
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## For someone with diabetes, the direction may flip
 
 People **with diabetes** are the one group the general-population reassurance may not reach. In cohorts
@@ -180,6 +192,8 @@ cleaner sub-case is the **hyper-responder**: someone whose serum LDL demonstrabl
 cholesterol. For that person, identified by measuring the response, egg cholesterol becomes a live lever —
 individually, not as a blanket rule.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## How much to trust this, and what is missing
 
 Not much weight rests on any single number here, and the reasons are structural. **Both meta-analyses are
@@ -205,6 +219,8 @@ Two gaps are worth naming plainly, because a reader should know what the fabric 
   cereal, or refined-carb alternative, followed to hard outcomes. The substitution frame below is
   reasoned, not trial-tested.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Where eggs rank, and what to actually do
 
 Set against the levers that move heart and metabolic risk, the egg question ranks **low** — and its
@@ -221,6 +237,8 @@ eggs in place of a refined-carbohydrate cereal is a different exposure than two 
 flags the «uncontrolled risk factors associated with egg consumption (i.e., bacon)»
 [@godos2020] as a live confounder in
 the male heart-failure signal). Judge the meal, framed as a substitution, not the egg on its own.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The bottom line, as a decision
 

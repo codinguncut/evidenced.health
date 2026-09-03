@@ -27,6 +27,8 @@ relationships:
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 ---
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 **The vegetarian/vegan pattern leg**, anchored on two sources: Orlich 2013 (the Adventist Health Study
 2 [AHS-2] prospective cohort — 73,308 analytic Seventh-day Adventists, 2,570 deaths, mean follow-up
 5.79 y, Cox regression) for the single-cohort detail, and Landry 2024 (a gold-tier umbrella of 21 SRs,
@@ -129,6 +131,8 @@ the "does the food-category label do work over its components?" question -> [[Is
 name -> [[The Comparator Problem]] (the nonvegetarian reference is itself a relatively healthy
 Adventist, which attenuates every contrast here).
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## The pooled multi-cohort picture — Landry 2024 umbrella (21 SRs)
 
 [@landry2024vegetarian]
@@ -157,6 +161,8 @@ missing). And **stroke is the outcome where the benefit fails to appear** — ve
 null (0.90, CI spans 1) and the vegan point estimate sits above 1 (1.17 [0.69, 1.99]) — consistent
 with the EPIC-Oxford higher-stroke signal below, not with a uniform vascular benefit.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Why 21 SRs is not 21 independent tests, and what the umbrella adds over AHS-2
 
 [inferred from @landry2024vegetarian]
@@ -173,6 +179,8 @@ and EPIC-Oxford cohorts that dominate this literature are among its constituent 
 umbrella cannot escape — and inherits — the same healthy-adherer confound Orlich flags. What it genuinely adds is a
 **pooled, GRADEd effect size** across many cohorts where the page previously had one — the incidence
 signal (RR 0.85, moderate COE) is more than any single cohort establishes.
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The cardiometabolic risk-factor arms — surrogates, and no single channel carries the benefit
 
@@ -202,6 +210,8 @@ lever's \~10%-per-5-mmHg rate is only \~5% — so if the association is causal i
 small channels at once (BP, LDL, adiposity, inflammation), none decisive. A multi-channel,
 substitution-shaped story, not a single lever.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Symmetric-standards read — funding, authorship, and one GRADE decision to watch
 
 [@landry2024vegetarian]
@@ -229,6 +239,8 @@ where an advocacy prior could bite, flagged for the reader:
   treats the health-conscious *bundle* as if it were the isolated vegetarian exposure — but the
   healthy-adherer confound (below) is exactly that these vegetarians also smoke/drink less and exercise
   more. Reasonable people can grade it either way; the choice ran toward the more favorable certainty.
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Decision relevance
 

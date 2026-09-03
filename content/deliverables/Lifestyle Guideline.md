@@ -16,6 +16,8 @@ self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
 little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read them
 as a stack, biggest at the base -- and a lever only counts if it applies to you: you have nothing to quit
@@ -27,6 +29,8 @@ not smoking, and clearing excess fat -- lower risk across heart disease, dementi
 cancer *simultaneously*, so there is no separate anti-cancer or anti-dementia diet to run. That
 shared breadth is a large part of why these levers rank first. ->
 [[Shared Modifiable Levers Across Age-Related Diseases]]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The five levers, biggest first
 
@@ -72,6 +76,8 @@ hardest **under about five hours**; six-to-seven hours sits barely above the hea
 actionable arm is short sleep -- sleeping long is a marker of underlying illness, not a habit to
 trim. -> [[Sleep Duration and Mortality]]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The smaller levers add a little
 
 Everything below the five is genuinely small -- worth a sentence, not a campaign.
@@ -98,6 +104,8 @@ fibre itself. And *fibre* is not one thing: only the *viscous* kind (oats, psyll
 effect, and it is small -- a little lower cholesterol. Eat plenty from whole plant foods; a rough
 25-29 g/day is a reasonable floor, not a precise or proven target, and a supplement is no substitute for
 the food pattern. -> [[Dietary Fibre and Health]]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Things to look out for
 
@@ -138,6 +146,8 @@ evidence does support is **component-level and measurable** -- apoB and metaboli
 pattern label**. -> [[Dietary Patterns]]
 
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## After about 65, the stack shifts
 
 The levers do not change on your birthday, but their order does as you age.
@@ -168,6 +178,8 @@ The levers do not change on your birthday, but their order does as you age.
   are not deficient, the tightest blood-pressure targets, and edge-of-evidence statins.
   These are individual calls a doctor makes with your labs, not general advice. ->
   [[Testosterone Adiposity and Muscle]], [[Grip Strength and Mortality]]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The bottom line
 
@@ -205,6 +217,8 @@ gathers around the little ones. Here is where this page does more than repeat "e
   the environment, not what is fashionable. Where another consideration exists, it is yours to weigh,
   not folded in here.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## What this is, and is not
 
 - **Health only.** This weighs effects on your physical health -- the length and quality of your life.
@@ -217,6 +231,8 @@ gathers around the little ones. Here is where this page does more than repeat "e
 - **The loop is open.** This wiki grades whether its claims are internally coherent and faithful to
   their sources -- not whether following them makes you better off. A clean audit is not a proven
   outcome. Treat it as well-sourced reasoning, not a guarantee.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The evidence behind each directive
 

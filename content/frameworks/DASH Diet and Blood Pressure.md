@@ -106,6 +106,8 @@ surrogate-to-outcome kind [[Surrogate Outcomes]] warns against; the graded findi
 **DASH lowers BP and atherogenic lipids**, not that it prevents CVD events.
 [inferred from @siervo2015]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Which component is doing the work? The MA cannot decompose — but it is NOT the sodium
 
 DASH is a **multi-component pattern**: higher fruit/vegetable/low-fat-dairy/wholegrain, lower red meat,

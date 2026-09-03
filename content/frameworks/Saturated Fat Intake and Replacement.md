@@ -179,6 +179,8 @@ surplus it can be *SFA versus nothing*. A recommendation to *replace SFA with PU
 conditioned on an energy assumption that often will not hold for the person reading it — which makes
 this a worked case of why a comparator must be stated ([[Framing a Decision Question]]).
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## The food matrix — named, acknowledged, and not resolved
 
 WHO records that "different SFA-containing foods, such as dairy foods, may have differential effects
@@ -649,6 +651,8 @@ an independent route. The omega-6 outcome evidence in full is on
 [inferred from @hooper2018; @hooper2020]
 
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## The glucose-insulin marker channel — Imamura 2016 (a NEW endpoint, all surrogate) `[2026-09-02]`
 
 Everything above scores the SFA-replacement swaps on **events, mortality, and lipids**. Imamura adds a
@@ -733,6 +737,8 @@ page's events/lipids claims — so its agreement with the held sources is **F/A-
 refinement), never E**. `confidence:` stays **medium**: the marker evidence is strong on surrogates, but
 the page's central claim is about patient-important outcomes, where certainty is unchanged.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Liver fat — a further surrogate endpoint where UFA beats SFA `[2026-09-02, Winters-van Eekelen]`
 
 A gold SR-MA of isocaloric RCTs adds *liver fat content* as another surrogate on which unsaturated fat
@@ -760,6 +766,8 @@ appraisal, the isocaloric-composition context, and the fat/carb and carb->protei
 > underneath them.
 
 
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Willett (2012) — a DISTINCTION, not a tension (filed then retracted, 2026-07-25)
 
@@ -833,6 +841,8 @@ already exists and is not re-adjudicated here. *Counter-passage:* the RCT side i
 strongest (RR 0.83 events, the estimate PURE structurally cannot reach), so the agreement claim rests on
 the mortality nulls both sides share, not on suppressing the events signal.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## A guidance family ties trans-fat control to the SFA ceiling — NNR2023 `[2026-08-27, NNR revisit]`
 
 The Nordic Nutrition Recommendations 2023 add a fourth guidance body to the SFA <10 E% consensus and
@@ -854,6 +864,8 @@ E%.» [@nnr2023]
   the two are consistent (not-joined check (i): ALARA and a <1 E% cap predict the same *reduce-toward-
   zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
   choice to fold trans fat into the SFA message), not a substantive disagreement.
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Butter vs plant oils at the FOOD level — Zhang 2025 partly cashes the food-matrix gap, on mortality `[2026-09-02]`
 

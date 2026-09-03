@@ -12,6 +12,8 @@ self_critiqued: 2026-08-28
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 This is a general, population-level appraisal of what the evidence says about soy for anyone the studies
 speak to. It is not advice for one person; whether and which soy *you* should eat depends on your stratum —
 sex, menopausal status, baseline LDL, iodine status, and the realistic alternative — and belongs at the
@@ -22,6 +24,8 @@ bean, the fermented paste, and the soy-sauce condiment are **different exposures
 evidence — each question below was tested on a different one -> [[Is the Food Category Doing Any Work]].
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The bottom line, per outcome
 
@@ -52,6 +56,8 @@ which is why overall confidence is medium despite four gold sources. And the hea
 **surrogates** — hormone
 levels and LDL, not events — so their transmission to what a person feels is a further, separate claim.
 
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## How good is the evidence — read this first
 
@@ -126,6 +132,8 @@ mechanism predicts. Hormone
 levels are themselves a surrogate for the endpoints of fertility and feminization -> [[Surrogate Outcomes]].
 [@reed2021]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Breast cancer: neutral-to-protective, never raised — but design-confounded
 
 Chen 2014 pooled 35 epidemiological studies of high-versus-low isoflavone intake, stratified by menopausal
@@ -157,6 +165,8 @@ across subgroups, with publication bias detected on Egger's test, and the strong
 defensible claim is "not a risk, and plausibly protective under lifelong high intake" — not "soy prevents
 breast cancer".
 [@chen2014]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Isolated soy protein modestly lowers LDL
 
@@ -198,6 +208,8 @@ revises the effect *down*, against the sponsor's interest.
 [@anderson1995]
 [@blancomejia2019]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The forms are not interchangeable — specify the exposure
 
 "Soy" names several exposures with different active fractions and different evidence. This is a
@@ -220,6 +232,8 @@ The synthesis across the three meta-analyses is that soy's evidence is unusually
 outcome was tested with a different soy exposure, so the composite answer is not "soy does X" but a
 form-indexed one — the isolated protein moves LDL, the isoflavone-bearing foods leave male hormones
 unmoved and sit neutral-to-protective on breast cancer, and the condiment does nothing.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Antinutrients and thyroid: named gaps, not findings
 
@@ -254,6 +268,8 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   soy's case rests on the substitution as much as on anything intrinsic; your sex, menopausal status,
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## What this appraisal cannot yet answer
 

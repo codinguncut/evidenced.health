@@ -10,6 +10,8 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 *strength, resistance-training, muscle, and falls* side moved to
 [[Musculoskeletal Health and Physical Function Hub]]. Nucleus: [[Cardiorespiratory Fitness and Mortality]].
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Aerobic activity and sedentary time — dose and mortality
 
 - [[Physical Activity Dose and Mortality]] — the objective-measured dose-response (accelerometry removes
@@ -42,6 +44,8 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   raises it (HIIT vs MICT — HIIT modestly ahead, time-efficiency the real draw), and whether raising it
   actually lowers risk
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The economics of exertion
 
 - [[Exercise Energy Compensation]] — whether exercise expenditure is offset by reduced non-exercise
@@ -50,6 +54,8 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   reduces visceral fat more than diet (dose-dependent; diet's slope flat) — the exercise-vs-diet lever
   for the metabolically-active depot
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Physical activity and age-related eye disease
 
 - [[Cataract and Modifiable Exposures]] — physical activity lowers cataract risk (RR 0.90, WCRF
@@ -57,6 +63,8 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   confounding (E-value 1.46)
 - [[Age-Related Macular Degeneration and Modifiable Exposures]] — the null-arm counterpart: PA→AMD is
   insufficient-evidence (RR 0.92, CI crosses 1); built extensible for a coming Mediterranean-diet arm
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Physical activity and chronic kidney disease
 

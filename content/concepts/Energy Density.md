@@ -14,6 +14,8 @@ relationships:
   related_to: [Ultra-Processed Food and Health Outcomes, Hyper-Palatable Foods, Is the Food Category Doing Any Work, Free Sugars Intake, Dietary Fibre and Health]
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 Energy density is the calories a food carries per unit weight — kilocalories per gram — and it is the
 one processing-linked property that is cleanly measurable from a nutrition label *and* named by a
 randomized trial as a channel the over-eating ran through — though that trial (Hall) randomized the
@@ -21,6 +23,8 @@ ultra-processed bundle, not energy density on its own. It is a distinct exposure
 manufacturing classification) and from hyper-palatability (a nutrient-composition reward property),
 even though the three co-occur across the food supply. This page owns the energy-density thread that
 the ultra-processed-food, hyper-palatable-food, and food-category pages each lean on but none defines.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The operational definition — kcal per gram, with a low/high cut around 2 kcal/g
 
@@ -33,6 +37,8 @@ same HED cut across the US supply as one of three prevalence lenses (HED 37-47% 
 [@sutton2023hpf] The number is a
 first-draft operational line, not a target or an optimum — read it as *how the evidence draws the
 boundary*, not as a dose a person should steer toward.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The evidenced channel — energy density moves intake, on a surrogate
 
@@ -52,6 +58,8 @@ density was not isolated** — the same trial confounds it with eating rate and 
 diets were not matched on non-beverage energy density, so the trial establishes *that* these properties
 move intake and points at *which*, without pinning the share carried by energy density alone.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Distinct from hyper-palatability and from ultra-processing — the non-transfer guard
 
 Energy density, hyper-palatability, and ultra-processing correlate but come apart, so a claim proven for
@@ -65,6 +73,8 @@ Raw nuts and dried fruit are energy-dense yet neither a reward construct nor a m
 is precisely why energy density alone is a poor proxy for either sibling. -> [[Hyper-Palatable Foods]],
 [[Ultra-Processed Food and Health Outcomes]]
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## As a lever — priceable, and more actionable than the label
 
 Energy density is a Layer-3 lever a person can actually apply: it is read off a label or estimated from a
@@ -75,6 +85,8 @@ over-consumption signal onto this measurable property, and the processed-food de
 rank is modest and it is not a big rock — but it is a concrete substitution (swap a dry calorie-dense
 food for a watery or higher-fibre one at equal palatability), robust across the causal models because it
 does not depend on the reward story being true.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Synthesis — the best-operationalized of the three constructs, and still epistemically modest
 
@@ -90,6 +102,8 @@ rate and protein there rather than isolated, and — the load-bearing gap — **
 the satiety mechanism** that would explain *why* low-energy-density foods cut intake (gastric volume,
 water and fibre dilution). That mechanism is plausible and widely assumed, but it is **not held here**,
 so it is named as a gap, not asserted.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## What is NOT held — named gaps
 

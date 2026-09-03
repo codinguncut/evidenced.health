@@ -11,6 +11,8 @@ self_critiqued: 2026-08-12
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 The famous limit on sugar was written to protect your teeth. When the World Health Organization tells
 adults to keep free sugars below one-tenth of daily calories, the outcome carrying that number is dental
 caries -- not body weight, and not heart or metabolic disease. That single fact reorganises most of
@@ -120,6 +122,8 @@ None of this speaks to sugar reduction as an obesity *treatment*: weight-loss tr
 design from both the review and the guideline
 [@who2015].
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Dental caries carries the number, on evidence with no trial behind it
 
 Caries is a genuine patient-important outcome, not a surrogate, and it is what the threshold protects.
@@ -153,6 +157,8 @@ pre-cavitation damage occurs below the *safe* level
 Adults are near-unstudied; the adult conclusion is carried from child cohorts on a biological warrant,
 not fresh data
 [@moynihan2014] -> [[Free Sugars Intake]].
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Sugary drinks add risk because the calories arrive un-noticed
 
@@ -217,6 +223,8 @@ excludes whole fruit and includes fruit juice
 -> [[Fatty Liver MASLD and Weight Loss]],
 [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Four expert bodies point the same way and pick different numbers
 
 | Body | Lower tier | Upper tier | Primary warrant |
@@ -267,6 +275,8 @@ be adequately explored at levels of intake < 10 E%» -- exactly the region where
 SACN's primary 5% both live
 [@efsasugars2022].
 The stricter the target, the thinner the evidence under it.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Swapping sugar for sweeteners is not the win it looks like
 

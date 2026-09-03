@@ -10,6 +10,9 @@ updated: 2026-08-31
 self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
 > fat together with muscle loss), in whom hypertension, dysglycemia and fatty liver (MASLD) are common,
@@ -47,6 +50,8 @@ it belongs at the top *only if the person smokes*, and drops off the list entire
 is exactly why a universal ranking is the wrong object -> [[Layer 1 - Ranking Interventions for a Stratum]],
 [[Smoking and Mortality]].
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Getting blood pressure down is the best-warranted lever for preventing death and cardiovascular events here
 
 Among the always-relevant levers, blood-pressure lowering has the strongest combination of effect size and
@@ -63,6 +68,8 @@ effect is constant, the absolute benefit scales with baseline cardiovascular ris
 stratum -> [[Blood Pressure Lowering and Cardiovascular Events]],
 [[Baseline Risk and the Relative-Absolute Split]]. How aggressive the target is, however, can
 itself change the lever's sign — see the sign-flip section below.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
@@ -94,6 +101,8 @@ that specificity is the whole point.
 - **A metabolically-'healthy' obese profile is not a free pass, but it is not an emergency either** — the
   excess risk is real, slow (emerging after \~10 years) and small in absolute terms (RR \~1.24)
   [@kramer2013mho].
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -129,6 +138,8 @@ muscle-protection levers are a *pair*, not a sequence.
   [[Sarcopenia Definition and Diagnosis]], [[Surrogate Outcomes]]. The one caveat: sarcopenic obesity has
   no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
   (EWGSOP2 sets none) [@cruzjentoft2019].
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
@@ -169,6 +180,8 @@ attempt to create an optimal intervention will be impeded»
 [@who2020] — so train the measurable
 components and read frailty as the composite that follows -> [[Frailty]].
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
 General physical activity carries a real mortality benefit, but its shape matters for how hard to push. The
@@ -206,6 +219,8 @@ right: it licenses this person to stop optimising once the rocks above are handl
   and better diet quality is associated with less depression (OR \~0.77, observational and fragile)
   [@molendijk2017diet]. These are
   peripheral levers, admitted mainly through their physical intersection -> [[Depression and Modifiable Exposures]].
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
@@ -312,6 +327,8 @@ toward net harm, or toward "not worth it," in this stratum.
 - **Leave the sign-flipped levers alone or handle them with care:** testosterone, calcium-plus-vitamin-D
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Four things this ranking cannot tell you
 

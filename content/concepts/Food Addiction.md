@@ -18,6 +18,8 @@ created: 2026-08-30
 updated: 2026-08-30
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 **Nucleus of the `food-addiction` cluster.** "Food addiction" is a **behavioural / reward
 construct**: the claim that some foods trigger addiction-like loss of control, measured by the
 **Yale Food Addiction Scale (YFAS)** — a 25-item self-report scale mapping the DSM-IV
@@ -35,6 +37,8 @@ and in whom).
 
 [inferred from @schulte2015addictive]
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## What the YFAS measures — a self-report symptom count, not a diagnosis of a disease
 
 - YFAS operationalizes addictive-like eating on the DSM-IV substance-dependence criteria (loss of
@@ -51,6 +55,8 @@ and in whom).
   not collect observational data to assess the frequency that these foods were consumed»
   [@schulte2015addictive]. So a "high YFAS score for
   chocolate" is a *reported perception*, several inferential steps from a demonstrated addiction.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Which food attributes predict a high score — processing, fat, glycemic load
 
@@ -104,6 +110,8 @@ might be «more appropriately titled 'highly processed food addiction'»
 [@schulte2015addictive], i.e. narrowing scope, not
 validating the addiction claim.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Distinct from Hyper-Palatable Foods — same neighbourhood, different construct `[type-B]`
 
 The food-addiction construct and [[Hyper-Palatable Foods]] point at overlapping foods (fat + refined
@@ -120,6 +128,8 @@ to the other**:
   leaves open (processing + fat + GL predict addictive-like eating), but the two must stay separate:
   a food being HPF by composition does not make it "addictive", and a food scoring high on YFAS is
   not thereby shown to meet an HPF threshold. [inferred from @schulte2015addictive]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The construct-validity appraisal — a gold SR that *generally supports* it, on a weak bar `[gold SR, construct-validity only]`
 
@@ -198,6 +208,8 @@ that. [inferred from @gordon2018foodaddiction]
   from the ordinary *highly processed foods drive overconsumption* reasoning. The outcome G-gap below
   stays fully open.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Prevalence — a pooled 19.9%, but read the sample it is drawn from `[gold SR/MA, prevalence only]`
 
 Pursey 2014 is the **prevalence SR/MA**: 28 articles describing **25 studies**, **196,211
@@ -264,6 +276,8 @@ independent perspective nor a quality upgrade. What stays **unsaturated / never 
 *outcome* cell (a food-addiction/HPF-exposure -> patient-important-outcome SR), which no held source
 touches — see the G-gaps below.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Evidence state — contested construct, no outcome evidence `[insufficient evidence / contested]`
 
 **Schulte 2015 is a single cross-sectional survey with self-report YFAS; it carries the *attribute*
@@ -292,6 +306,8 @@ already reachable from the ordinary *highly processed foods drive overconsumptio
 
 [inferred from @schulte2015addictive]
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Gaps and open questions
 
 - **Construct-validity is adjudicated by a gold SR (Gordon 2018) and prevalence by a gold SR/MA
@@ -319,6 +335,8 @@ already reachable from the ordinary *highly processed foods drive overconsumptio
   over the eating-rate / energy-density / palatability channels that already explain UPF
   overconsumption (-> [[Ultra-Processed Food and Health Outcomes]]) is an **open question**, not a
   filed tension — the construct and the mechanistic channels have not been tested against each other.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Self-critique `[run 2026-08-30, Pursey 2014 prevalence weave, before commit]`
 

@@ -173,6 +173,8 @@ it re-asserts the aggregate. -> [[Is the Food Category Doing Any Work]]
 wholegrain bread, a yoghurt) sits inside or outside the category by manufacturing detail — so even a
 *perfectly* informative category would be one a consumer cannot apply. -> [[Is the Food Category Doing Any Work]]
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Where processing *might* do independent work — mechanism, held as "not yet"
 
 Lane lists candidate processing-specific mechanisms **beyond** nutrient content: food-matrix disruption
@@ -250,6 +252,8 @@ consumption of ultra-processed foods may be an effective strategy for obesity pr
   at **which** properties, without isolating a single lever.
 
 [inferred from @hall2019]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The eating-rate lever is general and mechanical, not UPF-specific (Robinson 2014 MA) `[2026-08-30]`
 

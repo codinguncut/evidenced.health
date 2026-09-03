@@ -9,11 +9,13 @@ updated: 2026-08-27
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 *This page has been folded into [[Body Fat]].*
 
-[[Body Fat]] now covers the rate-of-loss question — *how fast is too fast?* — in **section 7
-("How you take it off: rate, composition, and the realistic alternative")**. The short answer
-is unchanged: rate is a minor knob. Two things protect a person while fat comes off: preserving
+[[Body Fat]] now covers the rate-of-loss question — *how fast is too fast?* — in its section
+**"How you lose the fat changes what you lose — and the body fights the deficit"** and the
+muscle-composition treatment that follows it. The short answer is unchanged: rate is a minor knob. Two things protect a person while fat comes off: preserving
 lean mass (adequate protein plus resistance training) and choosing a method they can sustain;
 much of what people fear about *speed* tracks the *method* (protein-poor, unsupervised
 regimens), not the number on the scale. Supervised rapid loss — as in DiRECT's 825-853 kcal/day

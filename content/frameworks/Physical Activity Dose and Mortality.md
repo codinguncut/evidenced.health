@@ -23,6 +23,8 @@ updated: 2026-09-01
 self_critiqued: 2026-08-29
 ---
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
 device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
 annex — but that annex is a **recommendation summary that borrowed its evidence** from the underlying
@@ -130,6 +132,8 @@ independent instrument and no `[E-independent]` token is claimed. The benefit is
 walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
 HRs stay Celis-Morales's, the third-route framing is.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Where the curve bends — named maxima, device-measured
 
 > «Maximal risk reductions for light intensity PA was \~375 min/day, low light intensity PA at \~325
@@ -181,6 +185,8 @@ median total physical activity for the third quarter»
 [@ekelundacc2019] — i.e. the apparent
 optimum sits where the data are densest, the *apparent-optimum-equals-sampling-edge* hazard, so read
 the dose column as regions on a flat top, not point targets -> [[The Underivable Optimum]].
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
@@ -306,6 +312,8 @@ different exposures, referents and measurement instruments). Use steps for a wea
 minutes for a guideline-aligned target, and the sitting interaction for the offset question — do not
 convert between their hazard ratios.
 [inferred from @ekelundacc2019; @paluch2022; @ekelundsitting2016]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Strength training — a real independent association, never ranked above aerobic
 

@@ -18,12 +18,16 @@ relationships:
     - Upgrading Observational Evidence
 ---
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 A dementia-specific lever with no cardiometabolic analogue in the vault, and one of the largest single
 population-attributable contributors in the 2024 Lancet Commission. Distinctive because the *exposure is
 correctable* (hearing aids) and the correction is plausibly on the causal path — so the intervention
 question is answerable in principle, not just the association. The load-bearing move on this page is to
 keep those two questions apart: **the exposure association is robust; the treatment benefit is not
 established to the same standard.**
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The exposure — hearing loss raises dementia risk `[first-hand: Yu 2024]`
 
@@ -64,6 +68,8 @@ by independence. Yu itself frames the estimate as «overlapping but on the lower
 interval of the effect reported by the 2017 Lancet commission (1.9 [1.4-2.7])», noting the older
 estimates «relied on a substantially smaller sample of studies». [@yu2024hearing]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Dose-response — graded, but the pooled slope rests on two studies
 
 - **Per 10 dB of hearing loss, dementia HR 1.16 [1.07-1.27]** (pooled k=2: Deal 2017, Lin 2011). [@yu2024hearing]
@@ -76,6 +82,8 @@ estimates «relied on a substantially smaller sample of studies». [@yu2024heari
   A monotone-looking severity gradient that does not reach significance as a moderator — consistent with
   a real graded effect, not proof of one.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## No effect-modifier was found — the moderator-null `[first-hand: Yu 2024]`
 
 Across 37 HR-reporting studies, «None of the factors investigated moderated the relationship between
@@ -87,6 +95,8 @@ proportion, baseline age, and follow-up years was likewise null. [@yu2024hearing
 dementia risk. This matters for reading the ACHIEVE subgroup below: that subgroup is a **baseline-risk**
 (route-a, absolute-benefit) signal, not an effect-modification of the exposure.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Reverse-causation guard `[first-hand: Yu 2024]`
 
 Yu's causal read is guided by Bradford Hill criteria and defends temporality directly: it excluded
@@ -97,6 +107,8 @@ As a probe, Yu tested whether follow-up length moved the association and found n
 The Commission's complementary note stands: a shared cardiovascular pathology has «not been reported» to
 account for the association [@livingston2024]. Kept as a
 **medium**-confidence causal read, not high — an incompletely-excludable prodrome is exactly why.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The treatment lever — hearing aids `[intervention arm; confidence LOW]`
 
@@ -130,6 +142,8 @@ weaker evidence state than the exposure association above.
   pre-planned but secondary analysis, and we therefore need to see if further RCTs to replicate this
   effect in people at higher risk for dementia». [@yu2024hearing]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Exposure is not intervention — the distinction that governs the decision
 
 **A robust risk factor does not certify a treatment target.** Hearing loss raising dementia risk (Yu, 50
@@ -150,6 +164,8 @@ RCT, resolved not by crowning the trial but by naming the mechanism — **health
 the device-user arm** inflates the observational HR, and randomization removes it, leaving benefit only
 where absolute baseline risk is high enough to show one.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Decision relevance
 
 
@@ -168,6 +184,8 @@ where absolute baseline risk is high enough to show one.
 - **Open loop / next evidence.** The decisive missing piece is a replication RCT powered in high-risk
   strata; ACHIEVE's own investigators say so. Until then, *treat hearing loss to prevent dementia* is a
   reasonable bet at high baseline risk, not an established general-population recommendation.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Self-critique `[run 2026-08-28, before commit]`
 

@@ -157,6 +157,8 @@ The whole-fat **dairy** inclusion is the score's distinctive, contrarian element
 low-fat or exclude dairy) -> [[Dairy and Cardiometabolic Health]], where PURE's dairy signal is weighed
 against the neutral pooled-cohort evidence and its funding caveat.
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Appraisal — healthy-user confounding is the headline caveat
 
 The estimates carry the standard observational-nutrition liability, and PURE shows it in its own numbers:

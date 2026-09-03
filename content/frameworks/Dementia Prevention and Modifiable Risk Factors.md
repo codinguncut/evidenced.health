@@ -64,6 +64,8 @@ modifiable risk factors». [@livingston2024]
   this is a named gap pending the *published-version* PDF (the source slug itself is already held; an token here would false-fire `reconcile awaits-arrived`, which keys on the slug, not
   the missing table — re-key only if a distinct published-version row is ever registered).
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The 14 factors, their direction, and their life-course window
 
 The two 2024 additions to the 2020 list of 12 are **high LDL-C** and **uncorrected vision impairment**
@@ -112,6 +114,8 @@ second witness — a de-secondhanding (type-F), **not** an `[E-independent]` cor
   and Layer-1 ranking (RR \~1.3, *below* the cardiometabolic big rocks and below education itself) on
   [[Cognitive Stimulation at Work and Dementia]].
 [inferred from @kivimaki2021cognitive; @livingston2024]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The air-pollution number, de-secondhanded — and it is weaker first-hand (F-refinement, 2026-08-27)
 
@@ -443,6 +447,8 @@ Coley confirms age, APOE ε4, inactivity, low MMSE raise incidence), but it does
 pooled trial search could not find. Coley is the pooled COMPOSITE of the two RCTs already cited here (shared
 authorship, FINGER excluded), so it is corroboration of the null by re-analysis, not an independent third
 witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds the full responder verdict.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Self-critique `[run 2026-08-05, before commit]`
 

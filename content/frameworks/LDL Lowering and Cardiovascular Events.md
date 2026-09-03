@@ -177,6 +177,8 @@ triangulation — so none of the three is tagged `[E-independent]`.
 - **Drug route only.** CTT is statin-lowering; the magnitude does **not** transfer to a *dietary* LDL-C
   change (the MCE/Sydney disconnects -> [[Surrogate Outcomes]], [[Linoleic Acid and Cardiovascular Disease]]).
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## A dietary LDL lever, and why its magnitude does not inherit CTT `[2026-08-29, Landry]`
 
 Landry's 2024 umbrella quantifies one dietary LDL route: in 31 observational studies (Benatar), «vegan

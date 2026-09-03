@@ -19,6 +19,8 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 The **effect/dose leg** of the alcohol-cancer decision: how much a drinker's risk rises, at which
 sites, and at what dose. Alcohol is a big-rock Layer-1 exposure and an IARC **Group 1 (established)
 human carcinogen**; this page holds the per-drinker site-specific dose-response, the companion to the
@@ -31,6 +33,8 @@ counts). The anchor is Bagnardi 2014, a gold dose-response meta-analysis of «57
 protective lower arm is largely artifact -> [[The U-Shaped Association Artifact]]. The cancer curve for
 the aerodigestive sites and breast is **monotonic from zero, with no protective arm to adjudicate** —
 so the U-artifact machinery does not transfer here. Do not import the mortality J-curve onto cancer.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Reading the doses
 
@@ -46,6 +50,8 @@ occasional drinkers**:
 The continuous dose-response (Figure 3) models risk to \~100 g/day; any RR below is stated **over that
 studied range**, not extrapolated. A category midpoint is not a threshold — it marks where the graded
 data sit.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Site-specific dose-response — RR by site and dose
 
@@ -74,6 +80,8 @@ the **emerging** set — «accumulating evidence» only (prostate 1.09 (0.98-1.2
 American studies; melanoma heavy not evaluable).
 [@bagnardi2014]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The decision-relevant finding — risk is NOT confined to heavy use
 
 For three sites the elevation is **significant already at light drinking** (\~1 drink/day), so the curve
@@ -93,6 +101,8 @@ the oral cavity and pharynx, oesophagus (SCC) and female breast even at low dose
 intake (a threshold-like feature). So *no safe level* is established for the aerodigestive-plus-breast
 sites, weaker or absent elsewhere. Stating it as a universal all-cancer claim overreads the data.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Mechanism — directional, genetic corroboration
 
 [inferred from @bagnardi2014]
@@ -108,6 +118,8 @@ variation of the gene ALDH2» — the variant that slows acetaldehyde clearance.
 That the effect-modifier tracks the enzyme predicted by the mechanism is directional support for
 causation, discounted for the observational base and marked as mechanism, not asserted as an MR result.
 A dedicated Mendelian-randomization study of alcohol -> site-specific cancer is not held.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## What discounts the magnitudes — observational caveats
 
@@ -131,6 +143,8 @@ figures most of all:
 - **Volume is not independence** — 572 studies share dietary-assessment instruments and confounding
   structures; the pooled precision overstates the independent evidence.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The inverse-association sites are not a reason to drink
 
 Kidney (light 0.92, moderate 0.79), thyroid (0.81) and the lymphomas (Hodgkin 0.63 heavy, non-Hodgkin
@@ -142,6 +156,8 @@ reduce their drinking» (reverse causation) [@bagnardi2014]; (ii) the kidney ben
 outweighed by the increased risk for other cancers» on the whole-organism ledger -> the
 net-effect-not-the-intended-effect rule ([[Alcohol and Mortality and Vascular Disease]]). A protective
 association at one site is not a threshold below which alcohol is safe.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The burden composite — Bagnardi x Rumgay (type F, not a tension)
 
@@ -163,6 +179,8 @@ says *how many* cases that is at population scale — and the two agree on the d
 light-to-moderate drinking is not exempt. This is **not type-E**: Rumgay's RRs are borrowed from WCRF's
 CUP and Bagnardi is part of the same observational base, so they are not independent routes to one claim.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The decision
 
 - **Alcohol is a Layer-1 big rock**; cancer is one leg of its harm ledger (mortality · vascular ·
@@ -175,6 +193,8 @@ CUP and Bagnardi is part of the same observational base, so they are not indepen
 - **Precision follows the decision.** For a person choosing whether to drink at all, the site-resolved
   magnitudes matter less than the robust qualitative facts — established carcinogen, dose-dependent, no
   safe threshold for the aerodigestive/breast sites.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Synthesis
 

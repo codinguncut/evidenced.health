@@ -28,6 +28,8 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Supplements — worth taking or not
 
 - [[Vitamin and Mineral Supplements for Disease Prevention]] — for a generally-nourished adult, whether

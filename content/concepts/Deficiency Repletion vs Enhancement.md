@@ -479,6 +479,8 @@ large and design-robust (consistent across four designs); the *precise* size and
 attribution carry real uncertainty. The direction and the deficient-benefit leg are secure; hold the
 point estimate loosely.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## A DISTINCT flavor of repletion — periconceptional folic acid and NTDs (window-gated, stratum-DEFINED, not baseline-status-modification)
 
 The trio above (vit-D/iron/iodine) are one structural kind: **route-(b) baseline-STATUS modification** — the

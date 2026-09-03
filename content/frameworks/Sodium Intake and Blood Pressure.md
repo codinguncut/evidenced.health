@@ -306,6 +306,8 @@ is "independent of baseline sodium intake." **A monotone gradient declared absen
 interaction test is a claim about power as much as about biology.**
 [inferred from @who2012]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The J-curve — named as the reason for the review, then never adjudicated
 
 WHO names the J-shaped hypothesis twice in framing sections, citing two 2011 cohort studies proposing
@@ -421,6 +423,8 @@ dilution + a single-day recovery-biomarker + Huang's short-trial underestimate �
 reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
 between sodium, potassium and dilution is **not identified** by this trial.
 [inferred from @neal2021; @bplttc2021]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## PURE lands the J directly on hard outcomes — a pole, not the adjudicator `[2026-08-27, Mente 2016]`
 
@@ -636,6 +640,8 @@ established that**, and the differing magnitudes suggest they were not.
   recommendation asks.
 [@esc2021]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## A blood-pressure number is not a blood-pressure number `[2026-07-28, ESC chunk 05]`
 
 This page's outcome is SBP, and it already carries a puzzle: WHO's pooled **resting SBP** effect is
@@ -673,6 +679,8 @@ its method in the same breath as its number.
 **`AWAITS` a source specifying the BP measurement protocol behind WHO's pooled estimates** — that is
 what would let this page say whether its central figure is an office, resting-standardised or
 ambulatory quantity. **The wiki cannot currently say which.**
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## A third guidance family sets a slightly laxer chronic-disease limit — NNR2023 `[2026-08-27, NNR revisit]`
 

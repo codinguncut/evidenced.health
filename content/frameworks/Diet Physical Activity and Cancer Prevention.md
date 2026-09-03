@@ -115,6 +115,8 @@ cut *reduces their* cancer — the survivor evidence is explicitly «limited» o
 «will alter the clinical course». [@wcrf2018ter]
 [inferred from @wcrf2018ter]
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## The 2025 DLP evidence — caution #1 now evidenced, not just asserted (type-F)
 
 The 2018 report *asserted* the holistic shift (caution #1 above) but graded whole dietary patterns as
@@ -171,6 +173,8 @@ were considered to have critical risk of bias for confounding.» [@wcrf2025dlp]
 The report is explicit it «is not intended to supersede the 2018 WCRF/AICR Cancer Prevention
 Recommendations, but to support them.» [@wcrf2025dlp]
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Yin 2025 umbrella review — the first ranked magnitudes, and the independence test failed (type-F)
 
 The 2018 and 2025 WCRF reports grade the pattern->cancer relationship but give **no effect sizes** (the
@@ -218,6 +222,8 @@ construction** — reporting that ceiling is itself the result. Where a big rock
 heavy alcohol, inactivity) it dominates the cancer ranking as it does the mortality one, and the same
 exposure typically moves cancer, cardiometabolic and all-cause outcomes together (the recommendations
 «promote an overall way of life» beneficial across NCDs) -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Limits
 

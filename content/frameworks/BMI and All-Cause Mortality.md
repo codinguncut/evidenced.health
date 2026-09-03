@@ -274,6 +274,8 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   interventional counterpart to this curve's steep upper arm. [@sjostrom2007] The design is weaker than an RCT
   (self-selection), so it warrants the arm directionally, not causally-clean.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Limits
 
 - **Observational, corrected — not causal-proof.** The exclusions remove the *known* biases
@@ -293,6 +295,8 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
 - **Cannot separate fat mass from lean mass or distribution** — BMI is the exposure, and the same BMI
   spans different body compositions across age, sex, and ethnicity (a plausible contributor to the
   regional differences, alongside the small-n imprecision of the South Asian estimate).
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## A guidance family stratifies the target by age — NNR2023 `[2026-08-27, NNR revisit]`
 

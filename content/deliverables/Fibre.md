@@ -29,6 +29,8 @@ The practical upshot is simple even though the evidence is not: **eat more fibre
 whole grains, beans and lentils, fruit and vegetables -- and stop expecting a miracle from it.**
 The downsides are real but small, and mostly settled in the kitchen.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The impressive numbers come from watching eaters; the proof-grade effect is small
 
 **Fibre's largest numbers ride on its weakest design.** In prospective cohorts -- studies that
@@ -164,6 +166,8 @@ calls the cohort evidence strong enough to act on, a strict credibility lens cal
 one randomised test on adenoma found nothing
 .
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## For inflammatory bowel disease, fibre helps Crohn's but not colitis
 
 **Fibre does not act on inflammatory bowel disease as one effect -- it splits by subtype.**
@@ -205,6 +209,8 @@ while a high-fibre arm did not
 [@wastyk2021]. So fibre feeds the
 resident community rather than reliably diversifying it on a short timescale, and a composition
 shift earns belief only when followed through to an outcome ([[Gut Microbiome and Health]]).
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Glycaemia, weight and transit move the right way but resist a clean number
 
@@ -260,6 +266,8 @@ care -- low iron stores and tannin timing, recurrent kidney-stone formers and ox
 marginal-iodine status and goitrogens -- but these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Thirty grams marks the edge of the data, not a biological threshold
 
 **Every guidance figure near 25-30 g is best read as where the evidence thins, not where the curve
@@ -287,6 +295,8 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Where this lands against official guidance
 
 **The guidance families converge on a fibre-rich diet and diverge only on how they phrase the
@@ -312,6 +322,8 @@ shared-evidence agreement, not independent corroboration
 magnitude; the events half is associational. So, honestly, a daily portion of
 beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-disease risk.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The bottom line
 
 **Do the few things that matter and skip the rest:**
@@ -329,6 +341,8 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 - **Rank fibre honestly: a genuine supporting lever, not a big rock.** If you smoke, carry excess
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Caveats
 

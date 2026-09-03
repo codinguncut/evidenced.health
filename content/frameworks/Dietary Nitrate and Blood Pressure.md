@@ -20,6 +20,8 @@ updated: 2026-08-31
 self_critiqued: 2026-08-28
 ---
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 Siervo 2013 (J Nutr) is a **systematic review and meta-analysis of 16 randomized clinical trials
 (254 participants, 7-30 per study)** of inorganic nitrate (sodium/potassium nitrate salt) or beetroot
 juice supplementation vs placebo, on blood pressure. All 16 were **crossover, double-blind,
@@ -74,6 +76,8 @@ NO3 content rather than other bioactive compounds present in the entire food mat
 [@norouzzadeh2025nitrate]
 (This is corroboration on an overlapping trial base — type-F reinforcement, not independent type-E.)
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Dose-response — SBP tracks nitrate dose, not duration or plasma nitrite
 
 > «The meta-regression showed that mean differences in systolic BP were directly associated with the
@@ -89,6 +93,8 @@ as a titratable target — it is a cross-trial meta-regression, the design most 
 confounding. Duration did **not** modify the effect (SBP <3 d -4.9 mmHg vs >=3 d -3.8 mmHg, both
 significant), consistent with an acute pharmacodynamic action that does not accumulate over the
 (short) studied windows. [@siervo2013nitrate]
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Dose-response, sharpened — Norouzzadeh's per-mmol slopes (the matched-quantity comparison)
 
@@ -148,6 +154,8 @@ greens) to reach a >=2 mmHg SBP fall** — the dose that operationalizes the eff
 Plasma NO3 itself rises linearly only **above \~3 mmol/day** (no significant change below 2 mmol),
 setting a floor on the exposure. [@norouzzadeh2025nitrate]
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## Hypertensive stratum — a steeper slope (route-(b) effect-modification signal)
 
 The BP effect is **more pronounced in hypertensives**. In the HTN dose-response subgroup, the acute
@@ -169,6 +177,8 @@ exactly this higher-risk stratum — the two sources leave the hypertensive ques
 directions** (Siervo: no ambulatory confirmation in older/obese/T2D; Norouzzadeh: steeper office-BP
 slope in HTN).
 [inferred from @norouzzadeh2025nitrate]
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Vascular-stiffness and endothelial markers — a new surrogate channel (still a surrogate)
 
@@ -199,6 +209,8 @@ a plausible direction, **not measured event evidence** — exactly the transmiss
 Siervo's stroke/CVD projection. -> [[Surrogate Outcomes]].
 [inferred from @norouzzadeh2025nitrate]
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## GRADE certainty — Moderate at best, and only for the acute BP outcomes
 
 Norouzzadeh is GRADE-rated (the upgrade over Siervo's un-graded estimate). The certainty ceiling is
@@ -216,6 +228,8 @@ dose-response gradient is a GRADE upgrade factor, but publication bias, heteroge
 risk-of-bias hold the ceiling at Moderate. This is why the page moves to `confidence: medium` and no
 higher. [@norouzzadeh2025nitrate]
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## Safety — no excess adverse events or withdrawals
 
 > «The safety analysis results (Supplementary Figs. 12, 13) revealed that dietary NO3 supplementation
@@ -229,6 +243,8 @@ benign non-cause of withdrawal). This is a **short-horizon** safety read only; i
 chronic high-dose intake, and Norouzzadeh separately flags that the nitrate **acceptable daily intake**
 set for cured meats and water may not transfer to vegetable NO3 and needs reassessment — a regulatory
 open question, not a demonstrated harm. [@norouzzadeh2025nitrate]
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Layer-1 sizing — the BP-drug comparator shrinks the rock for the outcome it covers
 
@@ -249,6 +265,8 @@ lever that a person will actually sustain retains structural value. The choice s
 (Layer 3); Layer 1 only notes that on BP alone this is a **small marginal rock behind a mature drug.**
 [inferred from @norouzzadeh2025nitrate]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Mechanism — the enterosalivary nitrate-nitrite-NO pathway
 
 > «Dietary and endogenous inorganic nitrate molecules may be reduced by facultative anaerobic bacteria
@@ -264,6 +282,8 @@ as an obligatory reduction step — a support factor the mechanism needs. The de
 transportability caveat with a concrete failure mode: antibacterial mouthwash or antibiotics that
 suppress the tongue microbiome would be expected to break the pathway (not tested in this MA, a named
 gap). [inferred from @siervo2013nitrate]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The load-bearing caveats — surrogate, short-term, and disconfirmed on ambulatory BP
 
@@ -286,6 +306,8 @@ gap). [inferred from @siervo2013nitrate]
 - **High heterogeneity** on the primary outcome (SBP I2=66%), driven by shorter-duration and
   beetroot-juice studies. [@siervo2013nitrate]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Surrogate-to-outcome — a modelled projection on a borrowed evidence base
 
 The authors translate the surrogate to hard outcomes via a **JNC-7 projection**, not measured events:
@@ -303,6 +325,8 @@ weaker basis for the outcome bridge than a sustained clinic-BP reduction would b
 if the bridge holds, still scales with the person's baseline CV risk
 ([[Baseline Risk and the Relative-Absolute Split]]). [inferred from @siervo2013nitrate]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Relation to DASH — this is the head-on test of DASH's proposed nitrate component
 
 [[DASH Diet and Blood Pressure]] (Siervo 2015, the **same research group**) flags the pattern's high
@@ -314,6 +338,8 @@ two MAs share lead authors (Siervo, Lara, Mathers), this is the **same group's r
 claim (type-F), not independent corroboration (not type-E)** — the convergence is self-stated. It does
 not license summing DASH and nitrate as independent additive levers (overlapping NO mechanism).
 [inferred from @siervo2013nitrate; @siervo2015]
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Decision relevance
 
@@ -341,6 +367,8 @@ not license summing DASH and nitrate as independent additive levers (overlapping
   endothelial channel a single-target drug may not cover.
 
 [inferred from @siervo2013nitrate; @norouzzadeh2025nitrate]
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Limits
 

@@ -21,6 +21,8 @@ relationships:
     - Measurement Error in Dietary Assessment
 ---
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 The wiki's red-meat -> CVD evidence is otherwise entirely **observational cohort** and holds **no
 lean-red-meat feeding-trial lipid data** at all. Two controlled-feeding RCTs fill that empty cell.
 Together they answer a question neither answers alone: **within a low-SFA background, the
@@ -35,6 +37,8 @@ of red meat's lipid effect flips with what replaces it — and it pools Roussell
 is a pooled-trial **refinement** of this page, not an independent route. It too measures only
 surrogates. [inferred from @guaschferre2019redmeat]
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Why controlled feeding is the right instrument here
 
 The observational red-meat fabric is confounded and carries large dietary-measurement error
@@ -46,6 +50,8 @@ a surrogate at the cost of a short horizon and no hard endpoint. Bergeron framed
 and SFA content on concentrations of LDL cholesterol and related atherogenic lipoprotein measures,
 including levels of lipoprotein particles».
 [@bergeron2019]
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Roussell BOLD 2012 — amount of lean beef, within a low-SFA pattern
 
@@ -86,6 +92,8 @@ that are comparable to those elicited by a DASH dietary pattern».
 animal-protein or mixed diet, and the control is *high-SFA*, so lean beef can only look good. The trial
 shows beef is not *worse* than DASH; it cannot show whether beef is *as good as* removing the meat.
 [inferred from @roussell2012bold] -> [[The Comparator Problem]]
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Bergeron APPROACH 2019 — protein source x SFA level, factorially
 
@@ -129,6 +137,8 @@ SFA from dairy sources, which selectively raised large LDL subfractions, may be 
 reliance on LDL cholesterol». [@bergeron2019]
 This is a rare instance of a trial flagging that its own primary surrogate over-reads the endpoint that
 matters -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]].
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Guasch-Ferré 2019 — the comparator sets the SIGN, pooled across 36 trials
 
@@ -200,6 +210,8 @@ lipids, apolipoproteins, and blood pressure».
 [@guaschferre2019redmeat]
 -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]]
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Synthesis — the parameter table (same-quantity check) BEFORE the cross-source claim
 
 The two trials share **analytes** but test **different contrasts**, so this is a **type-A/F composite**,
@@ -243,6 +255,8 @@ convergence of the same estimate.** What each supplies:
   shared-conclusion, not two non-obvious independent routes converging — the independence bar is not
   met. [inferred from @guaschferre2019redmeat]
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Is the food category doing any work here?
 
 This is a clean worked instance for [[Is the Food Category Doing Any Work]]: once SFA and total protein
@@ -253,6 +267,8 @@ it is *animal protein plus its saturated-fat travelling companions*. This bounds
 [[Saturated Fat Intake and Replacement]] on the specific case of lean red meat and refines the
 leaner-cut reasoning by attaching an actual apoB/LDL-C number to it.
 [inferred from @roussell2012bold; @bergeron2019]
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## What this does NOT license, and the gaps (type-G)
 

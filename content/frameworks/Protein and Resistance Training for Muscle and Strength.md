@@ -58,6 +58,9 @@ voluntary contraction at all.)
 
 
 [@morton2018]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## How much protein — a plateau near 1.6 g/kg/day, with real uncertainty
 
 The decision-relevant number is a dose-response knee: «Protein supplementation beyond total protein
@@ -232,6 +235,8 @@ parameter). [@tagawa2020]
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
 
 Morton's age covariate (the *supplement* effect «reduced with increasing age», above) reaches its
@@ -265,6 +270,8 @@ muscle strength, or physical functional performance.»
   whole lever and added protein/co-supplements do little; the deficient or diagnosed-sarcopenic are the
   stratum where nutrition might still add** (the sarcopenic case is taken up below).
 
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## The sarcopenic exception — where nutrition may still add (grip, not mass)
 
@@ -360,6 +367,8 @@ also *raises testosterone naturally* (secondary hypogonadism is reversible). So 
 option for confirmed hypogonadism, not a substitute for the training. (No head-to-head RT-vs-TRT trial is
 held — this is an evidence-weighting judgment, not a trial result.)
 
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Decision relevance
 

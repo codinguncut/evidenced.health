@@ -41,6 +41,8 @@ The absolute benefit is large here precisely because baseline risk is high — r
 no subgroup claim needed.
 For this person the drug is a large lever, a Big Rock, not a refinement.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Low or cosmetic baseline risk: real weight change, unproven hard-outcome benefit
 
 For a person near-normal in weight with no cardiometabolic disease, the picture inverts.
@@ -59,6 +61,8 @@ tolerability tax, meanwhile, is the same one the high-risk person pays — and i
 terms the balance runs against the low-risk person, who nets more serious harm where few hard
 events stand to be averted (the safety ledger below). So a lower-risk person buys a reliable
 surrogate change at full cost, with the patient-important payoff unproven.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The class is not uniform
 
@@ -267,6 +271,8 @@ tirzepatide's hard-CV effect is insufficient-evidence, not no-effect
 Cardiovascular events are the one hard endpoint with a positive trial; the other organ outcomes are a mix
 of one strong kidney signal and a set of surrogate moves.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Kidney, glycaemia, liver: three more organ benefits, each gated by baseline risk
 
 Cardiovascular events and weight are not the whole drug. Semaglutide moves hard kidney outcomes,
@@ -358,6 +364,8 @@ Laverde's own verdict lands on the ratio face — «lean mass loss should not be
 composition data and it is not a denial that absolute muscle falls; both are true at once. The
 decision turns on which face governs for whom.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The lost muscle is roughly what any rapid loss costs — not a drug-specific hazard
 
 The sharper question: does the *drug* shed disproportionate muscle, or is this just what
@@ -414,6 +422,8 @@ older stratum where it matters most. So the defense is real but not free; monito
 on weight alone.
 
 Muscle is the cost you can mitigate; the next set is the cost ledger you weigh directly.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The safety ledger: what to actually worry about
 
@@ -578,6 +588,8 @@ benefit is a layer-3 judgment for the person, not a number this evidence supplie
 
 That leaves the boundary of what any of this evidence can currently say.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## What the current evidence cannot yet see
 
 These are gaps, not nulls. A gap is *insufficient evidence* — the question has not been
@@ -640,12 +652,16 @@ weight. Budget the cost, tolerability, and reversibility over years, and compare
 against a sustained lifestyle change on the same terms — not against an idealized one-time
 fix.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## If you proceed, protect muscle
 
 Fast, large weight loss takes muscle with the fat. Resistance training and adequate protein — the
 ordinary mitigations for any large deficit — lower the functional
 cost without touching the weight benefit -> [[GLP-1 and Lean Mass]]
 .
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Weigh the trade-off yourself — the health axis and beyond
 

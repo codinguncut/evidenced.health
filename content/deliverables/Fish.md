@@ -26,6 +26,8 @@ softer than the public consensus implies: it is essentially all observational, t
 magnitudes reach only moderate certainty, and for a healthy replete adult fish is a **pebble, not a big
 rock**.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## How good is the evidence — read this first
 
 Every human outcome for fish comes from cohorts, not trials. People report how often they eat herring or
@@ -51,6 +53,8 @@ Jayedi meets EFSA as a type-F refinement plus shared-data corroboration, not as 
 backing. Jayedi re-pools the same cohort literature EFSA's four CHD meta-analyses drew on and rests on
 the identical EPA/DHA mechanism, so its agreement raises detail and certainty, not independence. The
 observational ceiling binds both.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The benefit side — narrower than "fish is good for you"
 
@@ -114,6 +118,8 @@ downward for all-cause and total CVD mortality -> [[The U-Shaped Association Art
 default — keep the \~1-2 servings/week target — is unchanged: more buys little on CHD mortality but may
 still help all-cause.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Fetal neurodevelopment — a repletion lever
 
 Maternal fish consumption tracks with a smarter child. Two large cohorts — ALSPAC (\~12,000) and the
@@ -135,6 +141,8 @@ maternal requirements are met.»* [@efsaseafood2014]
 The IQ lever therefore works for a mother whose DHA and iodine are low, and does nothing once her status
 is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational food signal survives while the
 isolate RCT is null — a design story, not proof the food beats the nutrient.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Cognitive decline and dementia — where the dietary and supplement evidence part ways
 
@@ -186,6 +194,8 @@ data thin out, not a located optimum -> [[The Underivable Optimum]].
 
 [inferred from @wei2023omega3]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The benefit is measured net of the mercury
 
 This structural move makes the whole appraisal tractable. The cohort associations *«refer to
@@ -199,6 +209,8 @@ net effect, benefit minus in-fish mercury, at the species and intakes European p
 That is why the finding lands as a serving recommendation and not an exchange rate: at typical European
 species and intakes, the whole-food net is already positive.
 [inferred from @efsaseafood2014]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The exposure is not one thing — species carries both effects, and they decouple
 
@@ -231,6 +243,8 @@ replace the category with the species properties -> [[Is the Food Category Doing
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The methylmercury risk — and why species is the decision variable
 
 Methylmercury's tolerable weekly intake is 1.3 µg/kg body weight/week, *«expressed as mercury... based on
@@ -252,6 +266,8 @@ The mercury story checks out from a second angle. Cohort studies found no associ
 mercury — the best long-term intake marker — and CVD, and the 2018 AHA statement holds that *«the
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Origin — freshwater vs marine, wild vs farmed
 
@@ -308,6 +324,8 @@ the sensitive stratum cares about most
 -> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
 
 [inferred from @efsaseafood2014]
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
@@ -380,6 +398,8 @@ should do next. The large levers are elsewhere. Fish earns a place on the list o
 handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## What the evidence here cannot yet answer
 

@@ -14,6 +14,8 @@ self_critiqued: 2026-08-31
 concrete_subject_audited: 2026-08-31
 ---
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 **The diseases of ageing share a modifiable core, though not every lever reaches every disease.**
 Body fatness, tobacco, inactivity and heavy alcohol raise the risk of cardiovascular disease, cancer
 and dementia alike; blood pressure, blood glucose and blood lipids drive cardiovascular disease and
@@ -38,6 +40,8 @@ they target. Reporting that little is left to optimise is itself a result.
 **The ranking shifts with age, not the levers.** In midlife the cardiometabolic levers carry the risk
 for later disease; in later life falls, frailty and muscle loss become the outcomes that decide
 independence. Absolute benefit rises with age because baseline risk does.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The diseases of ageing share a common core of levers
 
@@ -101,6 +105,8 @@ diseases. [[Layer 1 - Ranking Interventions for a Stratum]]
 
 Ranked by how many of these diseases it touches, physical activity is first.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Physical activity is the widest lever across the diseases of ageing
 
 No other modifiable exposure reaches as many of the diseases of ageing as physical activity. It is
@@ -148,6 +154,8 @@ So treat physical activity as the default lever across the diseases of ageing �
 first — and match its form to the outcome in view. If physical
 activity is the widest lever, the cardiometabolic cluster is the heaviest.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The cardiometabolic cluster is the heaviest shared lever, and CVD adds no increment beyond it
 
 The exposures that do the most damage across the diseases of ageing are the cardiometabolic ones,
@@ -189,6 +197,8 @@ the cluster is shared and acts early, lowering midlife blood pressure and glucos
 that buys down two diseases, and there is no separate cardiovascular lever to chase beyond it.
 
 Body fatness is the shared lever that bites hardest on cancer.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Body fatness raises the risk of a dozen cancers, and alcohol carries no safe dose
 
@@ -288,6 +298,8 @@ Layer-1 ranking places body fatness high. For alcohol there is no cancer-safe th
 the honest target is less, toward none, and the six-figure moderate-drinking case count means "a
 little is fine" is not a cancer-prevention position.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Screen muscle function, not the scale
 
 Late-life musculoskeletal decline is where the disease-specific evidence is richest and the levers
@@ -385,6 +397,8 @@ So for everyone whose vitamin D is adequate, the bone-protective lever is not th
 carried in the next section, prevents the falls that break bones.) Frailty is the next handle — both a
 marker and a target.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Treat frailty as a lever, and dose it down once someone is frail
 
 Frailty — the syndrome of depleted physiological reserve, where minor stresses tip an older person into
@@ -447,6 +461,8 @@ The decision-change for late life is therefore compact: **identify frailty early
 risk stratum with a lever that moves), **dose the exercise down** and supervise it, **favour
 strengthening and mixed training over intensity**, and **do not prescribe weight loss to the frail**.
 The most-studied dementia-prevention strategy is a cautionary tale about surrogates.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Dementia-prevention bundles move the test score, not the disease
 
@@ -519,6 +535,8 @@ payoff on top of that. A marker moving the right way is not the disease
 prevented, and here the two have been measured apart
 [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Correcting hearing and vision, and preventing head injury, are dementia's own levers
 
 Beyond the shared cardiometabolic core, dementia carries a handful of specific
@@ -554,6 +572,8 @@ and vision — the treatment exists and uptake is the gap — and prevent head
 injury.** For hearing and vision the largest absolute benefit falls where
 dementia risk is already high, so the higher-risk stratum is where a clinician's
 attention pays.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Parkinson's is the thin end: physical activity is the one credible lever
 
@@ -601,6 +621,8 @@ reverse-causation arms, and Parkinson's carries no population-attributable or
 absolute-risk framing at all, so the absolute benefit of any lever at a stated
 baseline risk cannot be computed [@chen2021pd].
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## Age-related eye disease adds no new lever
 
 Age-related eye disease is the same thin-evidence pole as Parkinson's: one
@@ -645,6 +667,8 @@ no absolute-risk or causal estimate.
 is no eye-specific action beyond «stay active»** — and, for someone already at
 AMD risk, an eating pattern they would adopt on cardiometabolic grounds anyway.
 Menopause changes which levers matter without adding one.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Menopause shifts which levers matter without adding a new one
 
@@ -702,6 +726,8 @@ For a woman at this life stage the decision-change is concrete: **watch the wais
 treat HRT as a symptom-and-bone therapy whose formulation is weighed against a rare harm — never as a
 body-composition, muscle, or anti-ageing lever.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Supplements are a near-null lever for the well-nourished — and one does clear harm
 
 The most-discussed dietary add-ons move little, and the supplement aisle is the sharpest case. For a
@@ -744,6 +770,8 @@ mean the nutrient is unimportant; it means more, in someone who already has enou
 well-nourished adult the decision-change is to **stop supplementing to prevent disease** and spend the
 attention on the proven big rocks; the exception is to **correct a deficiency once it is actually
 confirmed**, which needs a test, not a guess.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Eggs and red meat are small or contested — and the attention is the anti-signal
 
@@ -788,6 +816,8 @@ and a stronger grade — so the two are not one exposure. The decision-change is
 proportion: the effect is small and contested, the attention it draws is the anti-signal, and the
 weighting belongs to the person.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Re-rank the same levers as a person ages
 
 The levers do not change across the life course; their ranking does. Three facts move the order,
@@ -830,6 +860,8 @@ them low, banking decades of compounding exposure; an older adult should keep th
 balance, resistance training, protein and function outcomes alongside them — the same regimen,
 re-ordered, not a different one.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Keep length and function on separate axes
 
 The diseases in this survey are counted mostly as death or disease *events*, yet the outcome many
@@ -850,6 +882,8 @@ compressed morbidity is unmeasured, that gap is named, not filled with the survi
 unmeasured. The two axes are not collapsed into one score — there is no scalar that trades a year of
 life against a year of function, because that weighting is irreducibly the person's, elicited case by
 case rather than supplied here.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Know what this evidence cannot tell you
 
@@ -884,6 +918,8 @@ levers the corpus has read.
 total; do not read a common mechanism into the overlap; and hold the corpus's cancer blind spots as
 known unknowns. (Parkinson's carries its own residual gaps — an unheld physical-activity effect-size
 meta-analysis and the absence of any absolute-risk framing — named where that disease is discussed.)
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The bottom line
 

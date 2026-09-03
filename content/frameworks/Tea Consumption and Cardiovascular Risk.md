@@ -13,6 +13,8 @@ relationships:
   related_to: [Coffee Consumption and Health, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Is the Food Category Doing Any Work, Upgrading Observational Evidence]
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 **Decision one-liner (Layer 1):** habitual tea is **not a big rock**. The best available evidence is
 one COI-funded dose-response meta-analysis of **prospective cohorts only** [@chung2020tea], reporting a **per-cup relative risk within
 1-4% of 1.0** for CVD/stroke/all-cause mortality — and that small association **vanishes in the
@@ -20,6 +22,8 @@ studies with the most valid dietary-exposure assessment**. For a reasonably-heal
 changes nothing: keep drinking tea if you like it, but do not adopt or increase it *as a health
 intervention* on this evidence. The elderly / high-baseline-risk stratum is where any absolute effect
 would be largest (route (a)), and even there the estimate rests on observational data.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Read these caveats before the numbers
 
@@ -36,6 +40,8 @@ would be largest (route (a)), and even there the estimate rests on observational
   always does, and is why the effect is not upgraded above the data. [@chung2020tea]
 - **The benefit is concentrated in the worst-measured studies** (the RoB gradient — see below). This
   is the single most decision-relevant fact on the page.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Per-cup dose-response (relative-only; over the studied range)
 
@@ -62,6 +68,8 @@ Random-effects pooled adjusted RR per **1 cup/d (236.6 mL)** increase [@chung202
 baseline event rates, so a decision-grade absolute effect (events avoided per 1000 person-years)
 cannot be computed from it. This is a named gap, not an omission to gloss.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## The RoB gradient — the association weakens as exposure measurement improves
 
 The source's own subgroup analysis: «studies with higher ROBs appeared to show larger magnitudes of
@@ -81,6 +89,8 @@ artifact** rather than a causal effect. A reverse-causation facet points the sam
 did **not** confirm participants were outcome-free at baseline showed *larger* associations (all-cause
 0.927 vs 0.985; CVD-mortality 0.886 vs 0.973). [@chung2020tea]
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Curve shape — monotone over the range, but not a demonstrated plateau
 
 - The authors read an inverse, possibly-steepening trend with **no knee located**: the reduction «may
@@ -98,6 +108,8 @@ did **not** confirm participants were outcome-free at baseline showed *larger* a
   reverse-causation / healthy-user checks, and they *weaken* the protective association rather than
   confirm it. No dedicated lag-exclusion or MR sensitivity analysis was run at the meta level.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Green vs black — probably similar, evidence thinner for black
 
 Green-tea subgroups reach significance more often than black (e.g. CVD mortality: green 0.952 (0.923,
@@ -105,6 +117,8 @@ Green-tea subgroups reach significance more often than black (e.g. CVD mortality
 shared metabolite endpoint: «one might expect the bioefficacy of green and black tea to be similar.»
 [@chung2020tea] Treat the green/black
 split as **hypothesis-generating** (subgroup, multiple-testing), not as evidence black tea is inert.
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Is it the tea, or the components? (named G-gap)
 
@@ -150,6 +164,8 @@ observational signal toward the null on a hard outcome — not evidence about te
 component-vs-beverage-vs-lifestyle question stays open. -> [[Vitamin and Mineral Supplements for Disease Prevention]]
 [inferred from @sesso2022cosmos]
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Parallel beverage cell — coffee (structural comparison only, NO numeric weld)
 
 Coffee and tea are **adjacent observational beverage cells** and share the same appraisal posture:
@@ -168,6 +184,8 @@ combined:
 quantity, only the **structural** claim is made — both are modest, confounding-prone beverage cells —
 and tea is the **less adjudicated** of the two (it lacks coffee's MR disconfirmation). No number is
 carried across. -> [[Coffee Consumption and Health]]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Where this sits
 

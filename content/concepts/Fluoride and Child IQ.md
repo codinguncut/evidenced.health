@@ -168,6 +168,8 @@ the MA by authority:
   residents on community/private water >1.5 mg/L — the stratum where the harm arm is live — but the
   finding does not directly transport to the 0.7 mg/L US fluoridation setting.
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Veneri 2023: an independent team, a near-shared study base, and an opposite RoB reading
 
 A **third** fluoride-IQ meta-analysis enters here — Veneri, Vinceti, Filippini et al. (CREAGEN /

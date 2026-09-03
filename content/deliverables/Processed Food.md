@@ -13,6 +13,8 @@ updated: 2026-08-30
 self_critiqued: 2026-08-30
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 "Processed" is not one exposure but a dozen. A food's matrix can be broken open, additives
 mixed in, a grain stripped and refined, calories packed denser, a recipe tuned for palatability, a
 contaminant formed in the cooking — and folding all of that under one alarming word is the mistake this
@@ -43,6 +45,8 @@ category carrying an evidenced, if modest, harm. And against the big rocks — s
 inactivity — none of this is one; if those are unaddressed, no processing precision changes the next
 move.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Split "processed" before you judge it
 
 **Before you can judge a processed food, you have to say which sense of "processed" you mean.** The word
@@ -72,6 +76,8 @@ is null on hard outcomes [@sacn2015]. You cannot tell which case
 you are in without splitting. The first
 question the split raises is the sharpest one: does the ultra-processed label carry any causal work of
 its own, beyond the sugar, salt, fat and energy density it travels with?
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The category average is real, but confounded and low-certainty
 
@@ -115,6 +121,8 @@ close the gap, because adjusting for a pattern is not the same as matching the s
 profile that makes a food ultra-processed and nutrient-poor at once. [@lane2024upf] An association this confounded needs a design that holds composition fixed
 — and one exists, for one outcome.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Processing does move how much you eat — through levers you can name
 
 One randomized trial holds the causal footing, and it names the properties that carry the effect.
@@ -157,6 +165,8 @@ small, short, unblindable trial with **no confirmatory second feeding study**.
 
 If the effect runs through nameable properties, the next question is what the "ultra-processed" label
 adds once those properties are priced — and whether the guideline bodies think it adds anything at all.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Price the components and the label mostly dissolves
 
@@ -202,6 +212,8 @@ properties, not the label** a shopper cannot reliably apply.
 
 The sharpest test of whether a processing-linked property is its own lever is a construct built to
 isolate the one Hall could not — the reward property, hyper-palatability.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Hyper-palatability is a real, measurable property — but not yet a proven lever
 
@@ -257,6 +269,8 @@ lever, and it cannot yet enter the intervention ranking.
 HPF asks what the *food* is. A sibling literature asks what the *eater* does — and here the intake
 evidence has actually located a channel.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Rate, not reward, is where the intake evidence lands
 
 When processing drives over-eating, the demonstrated route is how **fast** a food is eaten, not how much
@@ -309,6 +323,8 @@ distinct from ordinary over-consumption, so no decision turns on it beyond the o
 covered. [inferred from @pursey2014foodaddiction; @schulte2015addictive]
 
 The remaining aspects — additives and contaminants — are where mechanism runs ahead of human outcome data.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Additives and contaminants: mechanism outruns outcomes
 
@@ -378,6 +394,8 @@ unresolved-but-plausible signal belongs to the person at layer 3, not to the app
 Which raises the question the additives cannot answer: is there a whole-food *category* that carries
 an evidenced hard-outcome effect? One does.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Processed meat is the one category with an evidenced harm
 
 **Of every category in this document, processed meat is the one with a real, if modest, hard-outcome
@@ -414,6 +432,8 @@ about the effect size, and it is worked out in full on
 [[Should Adults Reduce Red and Processed Meat]]. So where does the whole decomposition leave
 a person deciding what to eat, measured
 against the big rocks?
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## What to do — act on the components, against the big rocks
 

@@ -43,6 +43,8 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily and per meal, and
   why it is complementary to the training stimulus (cross-ref: [[Protein and Supplements Hub]])
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Bone, joints, and fracture
 
 - [[Knee Osteoarthritis and Modifiable Levers]] — for knee OA, which modifiable exposures reduce pain

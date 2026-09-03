@@ -10,6 +10,8 @@ self_critiqued: 2026-08-10
 concrete_subject_audited: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 For most non-pregnant adults, three to four cups of coffee a day is an inexpensive habit more
 likely to help than harm — and no reason to take it up, drink more, or give it up on health
 grounds. For overall health the benefit settles around three or four cups and flattens beyond,
@@ -137,6 +139,8 @@ Two of the benefit rows above — all-cause mortality and total cancer — are h
 confounder: coffee drinkers are enriched for smokers, and smoking is the dominant driver of both death
 and cancer. Before either can be read as coffee's doing, it needs the smoking correction.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Smoking confounds the curve: Grosso's referent correction
 
 Grosso 2016 — a dose-response meta-analysis of 31 cohorts, 1,610,543 individuals — performs the never-smoker referent correction [[The U-Shaped Association Artifact]] that Poole's evidence base left pending, re-running the coffee-mortality dose-response within smoking strata to see what the dominant confounder was doing. [@grosso2016] Heterogeneity fell in every smoking-stratified model, a sign that smoking status was a major source of between-study variance.
@@ -256,6 +260,8 @@ the evidence, so this reading is, not a measured finding.
 Sweetened-versus-unsweetened is one question the evidence cannot yet answer — and it is not the only
 one.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## What the evidence does NOT settle (named gaps)
 
 Three questions stay open, and they are *insufficient evidence*, not evidence of no effect — the distinction the four-state discipline keeps: silence from an unstudied question is not a null.
@@ -267,6 +273,8 @@ Three questions stay open, and they are *insufficient evidence*, not evidence of
 - **Respiratory outcomes and the natural history of established disease.** Respiratory endpoints, and the course of already-diagnosed disease (only one MA, post-MI), rest on too little evidence to state a direction — **insufficient**, held as a gap [@poole2017].
 
 Netting the settled, the confounded, and the still-unknown is what produces the decision.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Decision summary — for whom, what to do
 

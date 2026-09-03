@@ -37,6 +37,8 @@ limit outlasts the rest — this page can judge only whether a well-informed adv
 frame a swap this way, never whether anyone who followed it was better off. That loop stays
 open.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Compared to what? Why an effect has no sign until the alternative is named
 
 An effect estimate is never absolute. It contrasts an exposure with the alternative that
@@ -119,6 +121,8 @@ their leads:
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
 
+<div class="recent-update" data-last-updated="2026-08-31"></div>
+
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
 A mechanism earns a *direction*, never a *magnitude*. The body is a closed loop, not an open one, so the
@@ -181,6 +185,8 @@ for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
 more than one outcome that matters.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## When outcomes compete: laying out the axes instead of summing them
 
 When a substitution moves more than one patient-important outcome, there is no unique optimum without
@@ -229,6 +235,8 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## From estimate to substitution: a region and a direction, not a point
 
@@ -315,6 +323,8 @@ adults, where the cost of under-dosing is higher -> [[Protein Intake for Older A
 biases training intensity *down* toward the margin (overshoot loads an often-irreversible injury tail).
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
+
+<div class="recent-update" data-last-updated="2026-08-31"></div>
 
 ## Caveats and boundaries
 

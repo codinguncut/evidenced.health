@@ -333,6 +333,8 @@ their estimates, not lifted from either source's own recommendation.
 - **Frame as substitution:** the realistic alternative to eggs at breakfast matters (eggs vs refined-carb
   cereal vs processed meat) more than the eggs themselves; judge the meal, not the egg.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Open loop
 
 Coherence, not validity (R1): this page says what the *evidence* supports about egg->CVD for identified
@@ -347,6 +349,8 @@ framing* study whose cohorts are already in the pool — it sharpens the de-esca
 overturning it, and did **not** lift `confidence` (it is a contained subset of the MA pools, not an
 independent witness). Still AWAITS a dietary-cholesterol / egg **RCT-on-lipids** source to harden the
 mechanism leg (the dietary-cholesterol -> serum-LDL transmission), which no held source supplies.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 

@@ -11,6 +11,8 @@ self_critiqued: 2026-08-29
 concrete_subject_audited: 2026-08-29
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Pull The Two Steps Apart
 
 **Blood pressure is a lever you reach through several exposures, but a lower reading is not the prize — it is a stand-in for one.** Two separate things must be true before "lowering blood pressure" counts as a health decision: an exposure has to move the number, and that movement has to buy fewer strokes, heart attacks and deaths. These are different claims resting on different evidence, and collapsing them is what makes a blood-pressure reading look like a health outcome in its own right. It is not one. It is a surrogate ([[Surrogate Outcomes]]), and its worth depends entirely on whether the second step holds.
@@ -51,6 +53,8 @@ while patients got worse, so a lever that shifts BP is a candidate for benefit, 
 The second step — does a lower number actually mean fewer strokes — is settled. But, as the next
 section shows, only for one kind of lowering.
 
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Does Lowering Blood Pressure Actually Prevent Events?
 
@@ -114,6 +118,8 @@ Because the relative effect is the same at any starting pressure, a person's abs
 risk decides whether a lever is worth pulling — and, before that, which levers actually
 move the number.
 
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## The Levers, One At A Time
 
@@ -281,6 +287,8 @@ simply be summed. The next section shows why, and how to rank what remains once 
 removed.
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The Levers Overlap — Do Not Add Their BP Effects Up
 
 **Read the lever list as a shopping cart and you will double-count.** Several of these
@@ -322,6 +330,8 @@ deliberate combination is a design choice that can add.
 
 With the double-counting removed, you can rank the levers for a given person.
 
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Rank By Absolute Risk, Not The BP Number
 
@@ -380,6 +390,8 @@ number, though still only on the surrogate.
 The ranking shifts with the person — most of all between a high-cardiovascular-risk person and a
 merely-normotensive one — which is where the question turns next.
 
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Match How Low You Go To The Person, Not The Reading
 
@@ -482,6 +494,8 @@ never as a reflex against an inconvenient number.
 
 None of this closes the ranking. **Two things the fabric still cannot rank close the picture honestly.**
 
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## What Stays Unsettled — And How To Decide Anyway
 

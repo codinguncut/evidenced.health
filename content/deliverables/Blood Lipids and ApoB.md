@@ -11,6 +11,8 @@ concrete_subject_audited: 2026-09-03
 aliases: [ApoB and Heart Disease, LDL and Cardiovascular Risk, Which Lipid to Measure, Blood Lipids, Cholesterol and Heart Disease]
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 Atherosclerosis is driven by cholesterol-carrying particles in the blood — the ones tagged with a protein called **apolipoprotein B (apoB)**, the particle-number measure, of which LDL is the most abundant. That these particles *cause* heart attacks and strokes, rather than merely travel alongside them, is one of the most firmly established facts in cardiovascular medicine — supported by genetics, long-term cohorts, natural genetic experiments, and drug trials that all point the same way. **Lowering the particle burden lowers hard events in proportion to how much, and how long, it is lowered.** Because the damage accumulates over a lifetime, lowering it modestly but early can beat lowering it aggressively but late.
 
 **For most healthy people the ordinary LDL-C number tracks the risk well enough**; apoB earns its own measurement mainly in metabolic syndrome, diabetes, or high triglycerides, where LDL-C quietly undercounts the particles. **Whether to *act* on the number turns on absolute risk, not the number alone.** A genuinely low-risk adult — especially one with a coronary-calcium score of zero — gains little from a statin, while a high-risk one gains a lot. Two cautions close the picture: a drop achieved by diet is not automatically worth the same as an equal drop achieved by a drug, and dietary cholesterol — eggs above all — is a near-non-issue for most people.
@@ -29,6 +31,8 @@ The relationship is **log-linear across more than 2 million people and 150,000 e
 - **Any route that genuinely lowers apoB-particle concentration lowers risk in proportion** — diet, statins, or newer drugs alike — *provided* the LDL-C drop reflects a real particle-number drop and carries no off-target harm [@ference2017]. That proviso is load-bearing, and it is where diet and drugs come apart (below).
 
 **A second target beyond the heart: the brain.** The 2024 Lancet dementia commission added high LDL-C as a modifiable dementia risk factor; a meta-analysis of three UK cohorts (n=1,138,488) found each 1 mmol/L higher LDL-C associated with an 8% higher all-cause dementia incidence (1.08, 1.03-1.14), the risk being **greater in midlife than late life** — consistent with the same cumulative-exposure logic [@livingston2024]. This adds to LDL's outcome menu; it does not change the cardiovascular verdict.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Measure apoB; LDL-C is a good stand-in until metabolism drifts
 
@@ -66,6 +70,8 @@ For most lean, metabolically healthy people LDL-C and apoB are tightly correlate
 
 The 2026 US guideline turns this into a rule: apoB testing is useful «particularly in those with elevated triglycerides (TG) (>=150 mg/dL), diabetes, or low achieved LDL-C (<70 mg/dL)» — where LDL-C «may appear at goal while apoB remains elevated, masking residual risk» [@accaha2026]. A raised triglyceride-glucose reading is a cheap prompt to measure apoB in that person.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Lowering the number lowers events, in proportion, with no floor yet found
 
 The statin trials give the magnitude. Pooling individual data from 26 trials (169,138 participants), **each 1.0 mmol/L reduction in LDL-C cut major vascular events by about a fifth** [@ctt2010].
@@ -86,6 +92,8 @@ Three features matter for decisions.
 - **Death moved, not just the marker** — all-cause mortality fell, with no excess cancer even at low LDL, which retires the old low-cholesterol-harm worry for the drug-lowered range. Full magnitude treatment: [[LDL Lowering and Cardiovascular Events]].
 
 This is *statin* lowering — the concordant, no-off-target case. It does not automatically transfer to a diet-induced change.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## How the number was lowered matters — a diet drop is not a drug drop per unit
 
@@ -130,6 +138,8 @@ Two honest limits. **The NNT is modeled, not measured** — no trial has randomi
 
 The two major guideline families now **converge** on the aggressive targets — very-high-risk LDL-C **<1.4 mmol/L (55 mg/dL)** plus a >=50% reduction, high-risk **<1.8 mmol/L (70 mg/dL)** [@accaha2026] — the same very-high-risk framework the 2025 ESC/EAS focused update carries forward from the 2019 ESC/EAS guidelines [@esceas2025]. But both rest on the *same* trial base, so this is shared warrant, not two independent witnesses. And under a no-threshold curve, **the specific cut (why <55 and not <50 or <70) has no head-to-head trial** — the number is a pragmatic stopping point extrapolated from the monotone curve, where lowering further keeps paying until the added agent, cost, or adherence burden is no longer worth it. The *direction* is certain; the exact number is a reasoned choice.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Eggs and dietary cholesterol are a near-non-lever for most people
 
 The largest dose-response meta-analysis (39 cohorts, \~2 million people) lands on **«no conclusive evidence on the role of egg in CVD risk»** [@godos2020]. Every general-population estimate sits within a few percent of 1.00 (CVD 0.95 at 4 eggs/week, CI kissing the null), at GRADE **low** certainty. The egg question is a big-worry, small-effect one that ranks *low* — the attention it attracts is an anti-signal, not a magnitude.
@@ -144,6 +154,8 @@ Two strata break from the near-null, both worth naming:
 ## Lipids are one axis of cardiovascular risk, not the whole of it
 
 Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **Inflammation is a separate, additive causal lever**: in the CANTOS trial, canakinumab cut cardiovascular events **«independent of lipid-level lowering»** in statin-treated patients whose LDL was already controlled [@ridker2017cantos]. A person at goal on apoB can still carry residual inflammatory risk that lipid-lowering does not touch -> [[Inflammation as a Modifiable Lever]]. Blood pressure is the parallel large cardiovascular lever, handled on its own axis -> [[Blood Pressure]].
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## What to measure, when to act, and what is still open
 

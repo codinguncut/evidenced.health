@@ -89,6 +89,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
 ## Where it applies in the wiki
 
 *Worked-instance catalog — per-exposure applications of the diagnostic; content, not revision history.*

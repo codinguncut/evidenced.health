@@ -24,6 +24,8 @@ updated: 2026-08-30
 self_critiqued: 2026-08-20
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 Depression is on the wiki's outcome menu as a **patient-important QoL outcome** (the 2026-08-08
 QoL-extension) and through its **physiological intersection** with physical health — depression
 predicts and worsens cardiovascular disease, and shares the HPA / inflammation / metabolic channels the

@@ -19,6 +19,8 @@ updated: 2026-08-27
 self_critiqued: 2026-08-27
 ---
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 Two policy readings of the sodium -> cardiovascular evidence that give **opposite decisions for \~90%
 of the population**. The held pole (WHO 2012, the He/MacGregor/Cochrane lineage) recommends a
 **population-wide** reduction toward <2 g/day sodium. The PURE pole (Mente 2016) recommends reduction
@@ -27,6 +29,8 @@ on hard outcomes. The held evidence sits on [[Sodium Intake and Blood Pressure]]
 joined issue. It does **not** resolve — the deciding check exists on neither side — and the value is in
 seeing that the two literatures partly **measure different things over different ranges**, so the raw
 clash overstates the real disagreement while the policy conclusions genuinely conflict.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Both positions in their own terms
 
@@ -44,6 +48,8 @@ clash overstates the real disagreement while the policy conclusions genuinely co
   argues against a population-wide approach except in very-high-intake regions.
   [@mente2016pure]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Parameter table — is this the same quantity? (op-weave 2a)
 
 Built before any prose comparing the poles. The columns are matched claims about the sodium -> outcome
@@ -57,6 +63,8 @@ relationship; the last column is the joined-issue test.
 | **Shape claimed** | linear/monotone over studied range, no plateau shown | **J** (nadir 4-5 g/day), both arms elevated | the shapes describe different ranges — not directly comparable |
 | **Design / confounding** | RCT for BP (randomised); cohort for hard outcomes (VERY LOW) | cohort throughout — confounding + reverse causation live | both lean on observational data for the hard-outcome claim |
 | **Policy conclusion** | reduce **everyone** to <2 g/day (strong) | reduce **only** hypertensives with high intake | **the genuine, joined conflict** |
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Is the issue joined? — the not-joined checks
 
@@ -80,6 +88,8 @@ relationship; the last column is the joined-issue test.
 disagreement is real and consequential, and it is *smaller than it looks* on the shape question (the
 poles describe different ranges) while *exactly as large as it looks* on the policy question.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The hidden insight — one dispute is actually three stacked ones
 
 The sodium-policy clash is not a single disagreement about a number; it is three, and none is settled:
@@ -102,6 +112,8 @@ outcomes — a referent-correction or a genetic/Mendelian-randomization instrume
 RCT of sodium *level* (not just reduction) — is what would settle it, and the corpus holds none. Mente
 himself concedes that observational analysis cannot definitively prove causality and calls for such RCTs.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## A cross-source note on the targeting rationale — not an adjudication
 
 Part of Mente's case for *targeting* rests on a premise about blood-pressure lowering: citing pre-2016
@@ -116,6 +128,8 @@ tension, because PURE's low-arm signal is a **direct** sodium -> CVD observation
 still present, which is a separate claim from *does lowering BP help below 140*. The shape dispute
 (points 1-3 above) stands; only one supporting argument for Pole B is undercut.
 [inferred from @mente2016pure; @bplttc2021]
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Where this leaves the decision
 

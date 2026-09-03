@@ -160,6 +160,8 @@ World Health Survey prevalence x GBD 2013 mortality), inheriting the causal, no-
 generalizability assumptions Aune names -> [[Baseline Risk and the Relative-Absolute Split]]. It is not
 a per-person effect and not a validated projection.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Decision relevance
 
 - **F&V is a moderate, observational-grade lever, best framed as addition/substitution**, with most of
@@ -182,6 +184,8 @@ a per-person effect and not a validated projection.
 infrastructure. Any future *consistency across Aune's plant-food MAs* is same-lab **type-F / shared
 lineage**, NOT independent type-E backing -> [[Nut Consumption and Mortality]],
 [[Whole Grains Refined Grains and Pulses]].
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## A guidance family sets a recommended range and reports the same shape — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -214,6 +218,8 @@ the field Aune's cohorts sit inside), so it does **not** lift the confounding ce
 page: there is still no whole-food F&V RCT on a hard outcome. It confirms *direction and shape* by a
 second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
 [inferred from @nnr2023]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 

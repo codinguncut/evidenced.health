@@ -765,6 +765,8 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
   active and eating LA-containing foods, the marginal seed-oil decision is a small, contested lever —
   *attention is an anti-signal* applies (the seed-oil controversy is loud and the effect is modest).
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Limits
 
 - **Five sources now held (observational biomarker + RCT MA + mortality SR+MA + inflammation RCT SR +
@@ -834,6 +836,8 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
     (Hamley found none either); the surviving contrarian residue is a secondary-prevention /
     n-6-selective **stratum flag**, not a harm finding. The open lever now is Mendelian-randomisation
     (the design that would move the observational benefit to causal), not another recovered trial.
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Food-level, on mortality — Zhang 2025, and the LA-rich oils do NOT move together `[2026-09-02]`
 

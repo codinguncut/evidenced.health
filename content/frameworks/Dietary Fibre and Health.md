@@ -33,6 +33,9 @@ strongest evidence sits on the smallest effect.**
 
 
 [@reynolds2019] [@brown1999]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The bottom line
 
 - **The big, impressive numbers are observational.** Highest-vs-lowest fibre intake tracks a **15-30%
@@ -185,6 +188,8 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
 
 [@brown1999]
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## Fibre and IBD risk — a new outcome, and it is subtype-specific `[2026-08-09]`
 
 A gold-tier SR + dose-response MA (Milajerdi 2021) adds inflammatory bowel disease to fibre's outcome
@@ -202,6 +207,8 @@ the gut-microbiota/SCFA route this page already carries (Valdes). The full facet
 synthesis with the RA risk factors, live on [[Autoimmune Disease and Modifiable Risk]].
 
 [@brown1999]
+
+<div class="recent-update" data-last-updated="2026-08-29"></div>
 
 ## Fibre and COPD risk — a new outcome, and it is subtype-specific `[2026-08-29]`
 
@@ -230,6 +237,8 @@ and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and CO
   grain," not "GI is weaker."]` -> [[Glycaemic Index and Glycaemic Load and Chronic Disease]]
 
 
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Certainty and gaps
 

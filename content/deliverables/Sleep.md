@@ -57,6 +57,8 @@ of a physiological dose. So the rule is to **adjudicate the arm, not the curve**
 lever you can pull. The long arm is a **warning light for underlying illness** — which is the next thing
 to take apart.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Long sleep is a symptom to investigate, not a habit to cut
 
 The long-sleep arm reproduces as an artifact when you change the outcome. On dementia, the 2024 Lancet
@@ -84,6 +86,8 @@ undiagnosed co-morbidity.» [@cappuccio2010]
 **Shortening a long sleeper's sleep optimises a symptom, not a cause** — and *sleep less to live longer*
 is exactly backwards. But even on the arm that *is* causal, the evidence is thinner and fuzzier than the
 round number "7-8 hours" lets on.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## "Seven to eight hours" is a reference point, not a validated target
 
@@ -124,6 +128,8 @@ is a referent, not a ceiling.** Between roughly 7 and 8 h is most plausibly **di
 curve is shallow near the referent, and precision beyond "adequate, not chronically short" is not
 warranted by this evidence. The firmest independent footing for the short arm's causal reading comes not
 from mortality counts but from metabolism.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The metabolic evidence pins down that short sleep is genuinely causal
 
@@ -175,6 +181,8 @@ direction of causation by a design the cohorts cannot. That is why the experimen
 cohort — is what lifts the short-arm reading above association. This is all still an argument about
 *how many hours* — and the newest evidence suggests the hours may be the wrong knob.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## How regular your sleep is may matter more than how long
 
 Everything so far has been about *how many hours* — but the newest evidence says the hours may be the
@@ -205,6 +213,8 @@ long-sleep illness-marker range, so no clash arises). Treat both as real, action
 
 Duration and regularity are both about keeping *healthy* sleep healthy — but a separate decision opens
 once sleep is already broken.
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## Once insomnia sets in, pick the aid by its harms, not its sleep numbers
 

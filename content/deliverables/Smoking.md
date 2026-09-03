@@ -19,6 +19,8 @@ close to 90% of the excess risk. It is never too late — quitting in one's fift
 the harm — but earlier is strictly better, and "safe to smoke until 40" is a misreading. For a
 non-smoker none of this applies; the lever is already pulled.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Smoking roughly triples the death rate and costs more than a decade of life
 
 A current smoker's all-cause mortality runs about **three times** that of a never-smoker: hazard ratio
@@ -90,6 +92,8 @@ second
 patient-important outcome**: quitting removes the excess dementia risk as it removes the excess mortality
 risk. See [[Dementia Prevention and Modifiable Risk Factors]].
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Smoking also raises the risk of rheumatoid arthritis — dose-dependently
 
 Smoking is also a dose-dependent risk factor for **rheumatoid arthritis (RA)**, a chronic autoimmune
@@ -119,6 +123,8 @@ of recent quitters — by reclassifying anyone who quit within five years of dea
 which biases *against* the benefit. The large benefit survives that conservative handling.
 
 
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## What the held evidence does not yet cover
 
@@ -150,6 +156,8 @@ from either source. The inventory is honest about what it does **not** reach:
 - **How to quit** — the comparative efficacy of cessation methods (nicotine replacement,
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
 ## Bottom line — what to do
 

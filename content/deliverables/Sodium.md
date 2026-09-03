@@ -163,6 +163,8 @@ outcome — that figure traces to a 2003 expert consultation, not to this eviden
 [@aburto2013]. SSaSS moved the *joint lever* from
 asserted to partly-evidenced; the *optimal ratio* remains an open, ungraded question on both sides.
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## The claim that very low sodium is dangerous has never faced a decisive test
 
 Some cohorts show *higher* event rates at low sodium intake — a J-shaped curve read by some as a
@@ -272,6 +274,8 @@ person gets little absolute benefit from the same switch.
   only where renal handling is normal; chronic kidney disease
   remains a real contraindication [@aburto2013].
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Guideline targets mark where the data thin, not a proven cliff-edge
 
 WHO recommends reducing sodium to below **2 g/day** (5 g/day salt) as a *strong* recommendation
@@ -317,6 +321,8 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 - **Hold the low-sodium harm claim as unresolved, in both directions** — *very low sodium is
   dangerous* is neither established nor disproven, because the low-intake arm has never faced a
   confounder-immune test.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Read this as appraisal, not a prescription
 

@@ -229,6 +229,8 @@ a second outcome reaching the *same* conclusion by a *different* literature (dem
 a restatement.
 
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Third outcome — cancer, and here there is *no safe threshold*
 
 WCRF's Third Expert Report grades **alcohol a cause of many cancers** — mouth/pharynx/larynx,
@@ -355,6 +357,8 @@ the mortality/stroke verdict.
 
 
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Population scale — *no safe level*, and PAF is not a per-person effect `[GBD 2018; Rumgay 2021]`
 
 The arms above are per-person risks. Two population-attributable-fraction (PAF) models add the
@@ -394,6 +398,8 @@ six-figure case count — the population-scale form of *no protective arm surviv
 threshold*.
 [inferred from @gbd2018alcohol; @rumgay2021]
 
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## A different outcome axis — alcohol drives EATING UP, and its own calories are not compensated `[Kwok 2019]`
 
@@ -465,6 +471,8 @@ page's `[E-independent]` convergence (Stockwell || Millwood) is unchanged. What 
 non-disease consequence* consistent with the whole page: alcohol offers no protective arm on mortality,
 stroke, dementia, or cancer, and on energy balance it actively pushes intake up.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Limits
 
 - **All-cause mortality (Stockwell) and vascular disease (Millwood) are different endpoints** — matched
@@ -480,6 +488,8 @@ stroke, dementia, or cancer, and on energy balance it actively pushes intake up.
 
 
 
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## A guidance family has abandoned the moderate-drinking position — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -506,6 +516,8 @@ for safe level of alcohol consumption has currently been established for human h
   consistent with the artifact read of the lower J-curve arm.
 
 
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## *No safe level* refined to an age- and region-conditional threshold — the same-body revision `[Bryazka 2022, GBD 2020]`
 

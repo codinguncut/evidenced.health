@@ -100,6 +100,8 @@ recommend on — dementia is added to the outcomes where the short arm looks cau
 not. Notably the Commission declined to make *any* sleep-duration recommendation, an honest
 insufficient-evidence stop the wiki mirrors.
 
+<div class="recent-update" data-last-updated="2026-09-02"></div>
+
 ## Third outcome — CVD incidence (CAD/HF/stroke), and the MR strong check lands `[2026-09-02, Wang]` `type-F`
 
 The held sleep-CVD evidence above is **mortality-only** (Cappuccio, Yin: all-cause / CV mortality). Wang

@@ -243,6 +243,8 @@ a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), con
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
+<div class="recent-update" data-last-updated="2026-08-29"></div>
+
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 
 Landry's 2024 umbrella adds a diet-pattern BP lever: pooling 16 observational studies (Benatar),

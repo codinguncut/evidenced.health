@@ -145,6 +145,8 @@ mortality (so it is not disposable). This is a **claim-refinement (`type-F`)**: 
 blind spot in the *mass is just confirmatory* reading — the composite (*strength primary; mass still
 independently predicts death*) beats either source alone. No `tension` is filed.
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The syndrome as marker — and the function-outcome leg (Zhao 2026, moderate)
 
 [@zhao2026sarcopenia]

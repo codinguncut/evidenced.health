@@ -3,7 +3,11 @@ type: deliverable
 title: Body Fat
 aliases: [Body Fat, Obesity, Weight Loss, Adiposity, Should I Lose Weight, Body Fat Percentage, Visceral Fat, Body Composition]
 question: 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?'
-sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Ge - Named Diets Weight Cardiovascular Network MA 2020, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015]
+sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025,
+  Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021,
+  AASLD - MASLD Practice Guidance 2023, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Goldberg - DPPOS Cardiovascular Events 2022, Hall - Energy Balance Model of Obesity 2022, Hall - Ultra-Processed Diets Inpatient RCT 2019, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Ludwig - Carbohydrate-Insulin Model 2021, Malhotra - SURMOUNT-OSA Tirzepatide 2024,
+  Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, Wilding - Semaglutide STEP-1 Weight Management 2021, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005,
+  Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Ge - Named Diets Weight Cardiovascular Network MA 2020]
 confidence: medium
 created: 2026-08-10
 updated: 2026-09-03
@@ -11,672 +15,831 @@ self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
 
-**Excess body fat is a big rock — one of the largest modifiable levers on health — but where the
-fat sits matters more than how much there is.** Fat that overflows into the liver, pancreas and
-around the organs carries the cardiometabolic risk; fat under the skin largely does not. That makes
-BMI, and even body-fat percentage, crude total-mass stand-ins for the thing that actually does the
-damage.
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-**Losing fat delivers real, patient-important wins, and several of them scale with the kilograms
-lost.** Type-2-diabetes remission, diabetes prevention, fatty-liver regression, and lower all-cause
-mortality are genuine benefits, not surrogate-marker improvements. The strongest of them behave like
-a dose-response: more weight lost buys more effect.
+## Where fat sits matters more than how much of it there is
 
-**But the evidence is route- and outcome-specific, not uniform — and being honest about that split
-is the point.** Intensive lifestyle weight loss did not lower cardiovascular events in people with
-established diabetes, while a GLP-1 drug did lower them in people who already had heart disease.
-Weight loss the behaviour and weight loss the drug are different exposures on the hard cardiovascular
-endpoint, and they do not deliver the same result.
+Two people can carry the same weight on the scale and face very different risk, because the fat that
+does the damage is the fat inside and around the organs -- the liver and pancreas above all -- not the
+total-body fraction. A person can be normal-BMI and metabolically ill, or heavier and, for a time, not.
+So the first move in this deliverable is to read *depot* -- the waist, the intra-organ compartment --
+rather than a total-adiposity number like BMI or body-fat percentage, and to treat the familiar
+U-shaped "overweight is protective" mortality curve as mostly an artifact of confounding and reverse
+causation rather than a licence.
 
-**How you lose it changes the answer, and who you are changes it too.** Loss drags muscle down along
-with fat, the body defends the weight it lost, and regain reverses remission. So a slower,
-muscle-sparing, maintained loss is a better exposure than a fast one that rebounds. The benefit
-varies by stratum through baseline risk, sarcopenia risk, and the normal-weight-but-metabolically-ill
-case — but not through any single body-fat-percentage cutpoint, because the evidence holds none. This
-page appraises what the evidence says; it does not prescribe. It names which outcomes each exposure
-moves and in which direction; the weighting across those outcomes stays the person's. And the loop is
-open: this grades coherence and source-fidelity, never a claim against a realized outcome.
+From there the questions unfold in order: what does losing fat
+actually buy -- hard outcomes or only surrogates; what the ectopic-fat ladder drives; what the *method*
+of loss does to visceral fat and to muscle; which method moves which outcome, and why a calorie is a
+calorie for storage; and finally, below, whether the loss lasts, how the levers shift by stratum, and
+how the arrival of an effective drug re-sizes the whole decision.
 
-## Lead with where the fat sits, not how much there is
 
-**Cardiometabolic risk tracks where fat is stored more faithfully than it tracks total mass or BMI.**
-Chronic energy surplus fills the subcutaneous store first; once an individual's storage capacity is
-exceeded, lipid spills over ectopically into the liver and pancreas, driving hepatic insulin
-resistance and beta-cell dysfunction, and thence metabolic syndrome and type 2 diabetes
-[@taylor2015pft].
 
-Three fat compartments are three different objects. Subcutaneous fat is the safe expandable store and is not
-itself pathogenic. Intra-organ fat in the liver and pancreas is the pathogenic depot. **Visceral fat
-is best read as a marker of ectopic spillover, not necessarily the cause** — Taylor demotes it to a
-surrogate: «Extent of visceral fat accumulation is a surrogate marker for intra-organ fat ex- cess,
-but is not pathophysiologically related to adverse metabolic consequences»
-[@taylor2015pft]. So waist
-circumference is a marker of a marker: useful, but a step removed from the fat doing the damage
--> [[Surrogate Outcomes]].
 
-**This reframes who is at risk.** The personal fat threshold — the adiposity level above which
-spillover begins — is a hypothesis proposed with a test not yet run, so it is admitted directionally
-as mechanism, not as a settled finding
-[@taylor2015pft]. But its
-consequence is already visible: **36% of newly-diagnosed type-2 diabetics in the UKPDS had a BMI
-below 25** — normal-weight by the population cut-point, yet above their own threshold
-[@taylor2015pft]. The
-threshold shifts by ethnicity: the risk a Caucasian carries at BMI 30 is reached by South Asians at
-25.2 and by African/Caribbeans at 27
-[@taylor2015pft]. A single
-BMI number means different things in different bodies.
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-**Metabolically healthy obesity is not durably safe.** In cohorts followed 10 years or longer, obese
-people with currently-normal metabolic markers still carried elevated risk versus healthy
-normal-weight people — relative risk 1.24 (1.02-1.55) — and the pooled conclusion is that «there is no healthy
-pattern of increased weight»
-[@kramer2013mho]. Metabolic
-status dominates BMI in the other direction too: metabolically-unhealthy normal-weight people carried
-risk (RR 3.14) roughly equal to metabolically-unhealthy obese people (RR 2.65)
-[@kramer2013mho]. The excess
-in healthy obesity is real but slow and small in absolute terms -- a pooled excess of about 0.7% over
-10-11 years, emerging only after roughly 10 years -- so it licenses continued attention, not an emergency.
+## Where fat sits carries the risk — read the depot, not the scale
 
-**What body-fat percentage can and cannot tell you.** BF% beats BMI on one axis: it separates fat
-mass from lean mass, which BMI cannot. But it remains a total measure, and total mass is subordinate
-to where the fat sits. **The corpus holds no sex-specific source relating body-fat percentage to
-mortality, so this deliverable states no BF% nadir or optimal range — that is a named gap, not an
-omission.** Any low-BF% left arm would carry the same reverse-causation and frailty artifact that
-inflates the underweight-BMI arm below, so a number read off such a curve would mislead in the same
-way. The point stands without one: measure the depot, not the total. If depot is what matters, then
-the field's default total-mass metric — BMI — must be a poor and partly-artifactual guide, so examine
-it before trusting any level-to-outcome number read off it.
+The first decision about body fat is not *how much* but *where*. Cardiometabolic risk tracks the fat
+that overflows into the liver, pancreas and viscera once safe subcutaneous storage is exceeded, far
+more faithfully than it tracks total fat mass or the number on the scale. A normal-weight person can be
+metabolically ill and a heavier person can be, for a time, not — so a total-adiposity reading (BMI, or
+even body-fat percentage) is the wrong instrument, and the familiar U-shaped "overweight is protective"
+mortality curve is largely an artifact, not a licence.
+[inferred from @taylor2015pft; @kramer2013mho]
 
-## Distrust the BMI-mortality curve before you read a level off it
+### Three fat compartments are three different objects
 
-**The bias-corrected BMI-to-mortality curve puts its lowest point at a BMI of 22.5 to 25, then rises
-without a break.** The largest analysis of the question pooled 239 prospective cohorts and 10.6
-million people. Its pre-specified primary analysis is built to strip the artifacts: it keeps only
-never-smokers, drops anyone with chronic disease at baseline, and excludes the first five years of
-follow-up [@globalbmi2016]. On that
-corrected curve, **every 5 kg/m2 above 25 raises all-cause mortality by about a third — HR 1.31
-(1.29-1.33) — monotone, with no protective overweight band**
-[@globalbmi2016]. The familiar idea that a
-little overweight protects you does not survive the correction.
+Subcutaneous fat is the safe, expandable store; its capacity varies by person and ethnicity and is not
+itself pathogenic. Intra-organ fat — inside the liver and pancreas — is the pathogenic depot: liver fat
+drives hepatic insulin resistance, pancreatic fat suppresses insulin secretion. Visceral (intra-
+abdominal) fat is commonly cast as the villain, but Taylor demotes it to a *marker*: extent of visceral
+fat «is a surrogate marker for intra-organ fat ex- cess, but is not pathophysiologically related to
+adverse metabolic consequences». [@taylor2015pft]
+So waist circumference is a surrogate for a surrogate — useful *because* it tracks the intra-organ fat
+doing the damage, one step removed from it. [inferred from @taylor2015pft] -> [[Ectopic Fat and Depot-Specific Risk]]
 
-**Watch the overweight arm move as each bias is removed — that motion is the obesity paradox being
-manufactured in front of you.** With no exclusions, overweight looks protective, at HR 0.96. Adjust
-for smoking, then drop early deaths, then restrict to never-smokers, and it walks to HR 1.11 — clear
-harm [@globalbmi2016]. The single cleanest
-demonstration is the smoking split: holding everything else constant, **overweight is harmful in
-never-smokers (HR 1.07) but looks protective in ex- and current smokers (HR 0.94), and the difference
-is not noise (P=0.0003)** [@globalbmi2016].
-Smokers are leaner and die more, so they load the lean reference group with high-risk people and make
-overweight look good by contrast -> [[The U-Shaped Association Artifact]].
+### BMI's protective band is mostly an artifact — adjudicate the arm, not the curve
 
-**The two arms of the curve are not the same, so adjudicate the arm, not the curve.** The overweight
-arm is entirely artifact — it flips from protection to harm under correction. The underweight arm
-falls under the same corrections, from 1.81 down to 1.47, but **stays elevated at 1.47**: low BMI
-carries a residual real excess that the corrections do not dissolve, distinct from the fully spurious
-overweight signal [@globalbmi2016].
+The observational BMI-mortality curve dips in the overweight range, and that dip is where the "obesity
+paradox" lives. The 10.6M-participant Global BMI IPD meta-analysis strips it away step by step: the
+overweight arm (BMI 25-30) walks from an apparent HR **0.96 (0.95-0.97)** raw, to **0.99** after
+adjusting smoking and excluding baseline disease, to **1.03** after dropping the first 5 years of
+follow-up, to **1.11 (1.10-1.11)** once restricted to never-smokers.
+[@globalbmi2016] Isolating smoking alone — same disease
+and follow-up exclusions — overweight is **1.07 (1.06-1.07)** in never-smokers versus **0.94
+(0.94-0.95)** in ever-smokers. [@globalbmi2016] The
+protection was manufactured by confounding and reverse causation, not a real benefit of carrying extra
+weight -> [[The U-Shaped Association Artifact]].
 
-**A genetic experiment confirms the direction — but it shares authors with the association study, so it refines
-rather than independently corroborates.** A Mendelian-randomization study in UK Biobank (335,308
-people, a 77-SNP genetic score) is immune to the reverse causation and smoking confounding the
-cascade removes by exclusion. It finds the same shape: the nadir shifts down to about 23, the low arm
-largely deflates, and the obesity arm is genetically supported — the causal estimate is directional
-but imprecise for all-cause mortality (HR 1.03 per kg/m2, 0.99-1.07) and reaches significance for
-cardiovascular mortality (HR 1.10, 1.01-1.19)
-[@wade2018].
+The genetic check converges. Wade's Mendelian-randomization analysis in UK Biobank finds the J-shape
+survives but deflates: it remains «but with a smaller value of BMI at which mortality risk was lowest
+(\~23 vs. \~26 kg/m2 with observational analyses) and apparently flatter over a larger BMI range».
+[@wade2018] Reading the nadir off the raw
+observational curve overstates the harm of being underweight and understates the harm of being obese —
+so the low arm is largely artifact, adjudicated by the strong (genetic) check, not merely argued
+-> [[BMI and All-Cause Mortality]].
 
-The author names the mechanism: «Reverse causality is an important source of bias in observational esti-
-mates of the association between BMI and mortality and may be the driver of the characteristic
-J-shaped association» [@wade2018]. Two
-authors are shared across both collaborations, so this is same-lineage refinement — it cashes the missing genetic
-check — not independent backing.
+### Metabolic status beats the BMI band
 
-**A curve of where mortality is lowest across people does not tell you that lowering your own BMI
-moves you down it.** That is the intervention question, and it is separate from the association
-. The bias-corrected curve says a lean non-smoker's target is the low-mid 20s and that
-overweight is not neutral; it does not, on its own, establish the benefit of losing weight. So turn
-from where the level sits across people to what modifying it does within a person
--> [[Baseline Risk and the Relative-Absolute Split]], [[Does Weight Loss Reduce Cardiovascular Events]].
+If risk tracks depot and metabolic state rather than mass, then obesity should not be safe merely
+because current metabolic markers are clean, and lean people with a bad profile should carry high risk.
+Kramer's meta-analysis of observational cohorts shows exactly this: metabolically-healthy obesity is not
+durably benign (RR **1.24 (1.02-1.55)** versus metabolically-healthy normal weight in studies with >=10
+years' follow-up — «there is no healthy pattern of increased weight»), while metabolically-*unhealthy*
+normal weight carries RR **3.14 (2.36-3.93)**. [@kramer2013mho]
 
-## Separate the hard outcomes losing fat does move from the ones it does not
+Opio 2020 refines this on a larger base (23 prospective cohorts, n=4.49M) and answers the sub-question
+Kramer could not: the excess CVD risk holds even with *zero* metabolic risk factors — metabolically-
+healthy overweight RR **1.51 (1.21-1.88)**, metabolically-healthy obesity RR **2.18 (1.28-3.71)** — and
+does not require a decade of latency (present at both <10y and >=10y, subgroup-difference p=0.98).
+Metabolically-unhealthy normal weight again dominates at RR **3.07 (2.27-4.15)**.
+[@opio2020] The
+honest bound: these are observational RRs with high heterogeneity and live fitness confounding, and the
+absolute excess is modest — the only held absolute anchor is Kramer's \~0.7% over 10-11 years — so
+metabolically-healthy obesity licenses continued, not urgent, attention -> [[Baseline Risk and the Relative-Absolute Split]].
 
-The largest, longest trial of its kind, Look AHEAD, tested the intuitive claim -- losing weight
-prevents heart attacks -- head-on for the lifestyle route, and it failed. It randomized
-**5,145 overweight or obese adults with type 2 diabetes** to an intensive lifestyle programme or to
-diabetes support and education, and followed a composite of cardiovascular death, heart attack,
-stroke, and hospitalized angina. **The lifestyle arm did not lower cardiovascular events** -- hazard
-ratio 0.95 (95% CI 0.83 to 1.09) -- and the trial was stopped early for futility at a median 9.6
-years: «intensive lifestyle intervention focused on weight loss did not reduce cardiovascular events
-in overweight or obese adults with type 2 diabetes».
+### The hard-outcome instantiation — INTERHEART maps depot onto myocardial infarction
+
+Kramer and Opio are metabolic-status sources; INTERHEART extends the depot distinction to a hard
+endpoint (first acute MI, 27,098 people, 52 countries) and reads the same shape. Adjusted for BMI, the
+top-versus-bottom-quintile odds ratio for MI is **1.77 (1.59-1.97)** for waist (harmful) and **0.73
+(0.66-0.80)** for hip (protective); waist-to-hip ratio is the single strongest marker at **1.37
+(1.34-1.41)** per SD, while BMI is the weakest at **1.10 (1.07-1.13)** and its whole MI association
+vanishes after adjusting for WHR (1.44 -> 1.12) then the other risk factors (-> 0.98).
+[@yusuf2005interheart] Abdominal fat is harmful,
+lower-body fat protective, and BMI the wrong instrument — the depot claim, now on a cardiovascular
+event, not only a glycemic one -> [[Waist-to-Hip Ratio and Cardiovascular Risk]].
+
+### Is visceral fat the pathogenic depot, or a marker for intra-organ fat? — a ladder, not a contradiction
+
+Two readings sit side by side. INTERHEART and AASLD put central adiposity at the causal centre:
+INTERHEART calls waist and WHR «simple and crude surrogate measures for visceral obesity, which is
+probably the key determinant of metabolic abnormalities»
+[@yusuf2005interheart], and AASLD states that
+«Visceral fat, which is more metabolically active and inflammatory than subcutaneous fat, mediates the
+majority of this risk.» [@aasld2023] Taylor goes one step
+past both, demoting visceral fat to a marker of the intra-organ (hepatic and pancreatic) excess that
+actually does the damage.
+
+This is not a contradiction to adjudicate but a nested causal ladder — waist marks visceral fat marks
+ectopic fat — where the sources stop at different rungs. The issue is not fully joined: AASLD's own
+mechanism routes visceral fat's harm *through* intra-organ fat («insulin signaling is progressively
+impaired, promoting the inappropriate release of fatty acids leading to intrahepatic lipid
+accumulation») [@aasld2023] — compatible with Taylor's
+marker reading if the two depots are tightly coupled.
+
+The decision consequence is small: every rung
+points to the same lever (an energy deficit) and the same measurement — waist stays the right thing to
+read *precisely as a marker*, one step removed from the fat doing the damage.
+[inferred from @taylor2015pft; @yusuf2005interheart; @aasld2023]
+
+### Body-fat percentage is better than BMI but still the wrong target — and its optimum is a named gap
+
+Body-fat percentage measures the same thing BMI does — *total* adiposity — more accurately, but it is
+the same category of measurement, and sits subordinate to depot in this hierarchy. The risk carrier is
+where the fat is, not the total-fat fraction. No held gold source carries a body-fat-percentage optimum
+or nadir against all-cause mortality; asserting one would launder a total-adiposity number into the
+depot claim it cannot make. **The BF%-versus-mortality threshold is an explicit named gap — its absence,
+not a number.** Read depot (waist/WHR); treat any total-adiposity cutpoint, BMI or BF% alike, as a
+coarse screen, not a target.
+[inferred from @taylor2015pft; @yusuf2005interheart]
+
+### The Personal Fat Threshold — and why reversal happens below BMI 25
+
+Taylor's model gives the individual-versus-population gap a name: each person has a personal fat
+threshold above which lipid spills into the organs, and «the hypothesized PFT is independent of BMI».
+[@taylor2015pft] The data bear
+the reframe out — **36% of newly-diagnosed T2DM occurred at BMI <25** (against 64% below 25 in the
+contemporaneous UK population), so diabetes does not require obesity, only carrying more fat than *you*
+can store safely. The threshold itself shifts by ethnicity (BMI 30 in a Caucasian is matched at 25.2 in
+South Asians, 27 in African/Caribbeans). [@taylor2015pft]
+
+The reversal arm is the sharpest decision-change here: a normal-weight person with T2D is above their
+PFT even at BMI <25, and responds to weight loss — at a *smaller* required loss. In Taylor's cohort, at
+a presenting glucose of 8-10 mmol/l, «normoglycaemia was achieved with a mean weight loss of 13% if body
+weight was normal, whereas a mean weight loss of 21% of body weight was required to achieve this in the
+whole cohort». [@taylor2015pft]
+This is the stratum the remission trials routinely exclude (DiRECT required BMI >=27), yet the depot
+lens says to offer them the lever -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+### The decision
+
+Rank cardiometabolic risk by central adiposity (waist, waist-to-hip ratio) and metabolic status, not by
+BMI and not by a body-fat percentage. A normal-BMI person with a high WHR or a bad metabolic panel is
+above their personal fat threshold and carries elevated MI risk; a currently-clean panel in an obese
+person buys less durable safety than it appears to. The lever in every case is negative energy balance,
+whatever delivers it, drawing the intra-organ and visceral depots back down — the arithmetic of who
+benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
+[inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
+
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
+## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
+
+The intuitive claim is that shedding fat prevents heart attacks and extends life. Tested head-on, the
+claim splits: fat loss moves *surrogates* — weight, HbA1c, blood pressure, lipids, inflammation, liver
+enzymes — almost every time, but it moves *hard outcomes* (major cardiovascular events, mortality) only
+by particular routes and in particular people. The demonstrated hard-outcome wins are narrow: bariatric
+surgery and a GLP-1 drug. Lifestyle weight loss has not cleanly shown one. Most of the "weight loss
+works" evidence lives on the surrogate side of that line, and reading it as an outcome win is the error
+this section guards against.
+[inferred from @look2013; @ma2017]
+
+### The landmark null: every surrogate moved, the events did not
+
+Look AHEAD is the largest, longest randomized test of the lifestyle route — 5,145 overweight adults
+with type 2 diabetes, intensive lifestyle intervention versus diabetes education. The intervention
+improved fitness and every cardiovascular risk factor except LDL cholesterol
+[@look2013]; a Look AHEAD CRP
+substudy separately found the lifestyle arm drove a \~40% relative reduction in C-reactive protein,
+similar in statin and non-statin users
+[@belalcazar2013].
+
+Yet the primary cardiovascular composite was null: **HR 0.95 (95% CI 0.83-1.09, P=0.505)**, and the
+trial was stopped
+for futility at 9.6 years median follow-up.
 [@look2013]
+A bundle of favourable surrogate changes bought no measurable reduction in events — the
+[[Surrogate Outcomes]] warning made concrete.
+[inferred from @look2013]
 
-A null this clean still needs its bounds, and the bounds narrow the claim without voiding it. The
-two arms **converged** -- the weight gap shrank toward the trial's end, so the contrast was a modest
-sustained difference, not big-loss-versus-none. Both arms got good diabetes care, which shrinks any
-between-arm gap. LDL cholesterol -- the lipid most tied to events -- was the one risk factor the
-lifestyle arm did not improve [@look2013],
-plausibly because the control arm used more statins
-. And the trial was powered only for a large (18%) effect, so a smaller true benefit was
-undetectable.
+The null is narrower than it sounds. The two arms converged over follow-up, so the sustained contrast
+was a *modest* weight-loss dose rather than big-loss-versus-none; both arms received good diabetes care,
+shrinking any between-arm gap; and the trial was sized to detect only a large effect, leaving a smaller
+true benefit undetectable.
+[inferred from @look2013]
 
-**The surrogates moved; the events did not follow.** A Look AHEAD substudy drove C-reactive protein
-down about 42 to 45% on top of statins (against 14 to 21% on statins with usual care), alongside a
-fall in weight and a rise in fitness.
-[@belalcazar2013] Nearly every surrogate improved --
-and the events still did not. This is the surrogate-versus-outcome disconnect made concrete: a bundle
-of favourable marker changes is not a patient-important outcome -> [[Surrogate Outcomes]].
+### The meta-analysis generalizes it: CV events null, all-cause mortality falls by a non-cardiac route
 
-One trial in one population is not the last word, so read it inside the meta-analysis. Ma 2017 pooled
-**54 randomized trials and 30,206 mostly non-diabetic obese adults**. On the heart it **confirms Look
-AHEAD and generalizes it**: cardiovascular events were null (RR 0.93, 95% CI 0.83 to 1.04) and so was
-cardiovascular mortality (RR 0.93). **But all-cause mortality fell -- RR 0.82 (0.71 to 0.95), high
-certainty, about six fewer deaths per 1,000** -- and because the cardiovascular endpoints are null,
-that survival benefit does not run through the heart. Dropping Look AHEAD leaves the mortality finding
-intact and larger (RR 0.78, 0.63-0.96; I2 0%), so it is no artifact of the dominant trial.
+Ma 2017 pools 54 RCTs (30,206 mostly non-diabetic obese adults, weight-reducing diets) and splits
+cleanly. On the heart it **confirms** Look AHEAD: CV events **RR 0.93 (95% CI 0.83-1.04)** and CV
+mortality **RR 0.93 (0.67-1.31)**, both null. But all-cause mortality **falls: RR 0.82 (0.71-0.95)**,
+high quality, \~6 fewer deaths per 1000.
+[@ma2017]
+Since CV events are null, that mortality benefit is **not routed through the heart** — a puzzle the CV
+endpoint cannot resolve.
+
+Two honesty notes bound this. Look AHEAD carried 54.6% of the CV-strand weighting, so "the MA
+generalizes Look AHEAD" is partly self-containing there; but the all-cause benefit is not a Look AHEAD
+artefact — without that trial it is *larger* (RR 0.78, 0.63-0.96, I^2 = 0%). And the trials were
+"usually low in fat and saturated fat," so part of the benefit may travel the SFA -> LDL channel rather
+than weight loss per se — the design cannot separate the two.
 [@ma2017]
 
-One confound is worth naming: Ma's trials were «usually low in fat and saturated fat»
-[@ma2017], so part of the mortality benefit
-could travel the fat-quality channel to LDL rather than the weight lost -- the trials cannot separate
-the two. [inferred from @ma2017]
+### Where hard outcomes DO fall: the extreme surgical dose and the drug route
 
-At the far end of the dose range sits bariatric surgery. In the Swedish Obese Subjects study -- a
-matched, non-randomized comparison in severe obesity, with roughly 14 to 25% weight loss sustained at
-10 years -- **all-cause mortality fell (adjusted HR 0.71, P=0.01)**.
-[@sjostrom2007] It is directional, not
-decisive: not a randomized trial, and its own authors decline to attribute the benefit to weight loss
-per se rather than to other effects of the surgery. Read with Ma, the pattern is that a larger,
-sustained intervention buys a larger survival signal.
+Bariatric surgery in severe obesity (SOS) sits at the opposite end of the dose-response and finds the
+mortality benefit the moderate-dose trials could not. It reports an unadjusted all-cause-mortality
+**HR 0.76 (95% CI 0.59-0.99, P=0.04)**, strengthening to an adjusted **HR 0.71 (P=0.01)** because the
+surgery arm carried baseline survival *disadvantages* (heavier, more smokers). The design firewall is
+essential: SOS is **not** an RCT — patients self-selected ("desiring surgery"), so unmeasured
+motivational confounding is untouched by adjustment.
+[@sjostrom2007]
+SOS also cannot attribute the benefit to weight loss per se (surgery alters gut hormones and satiety),
+and mortality did not track the *degree* of weight loss within the study — so it anchors a
+*large-intervention* point, not cleanly a large-weight-loss-dose one.
 
-Two disciplines follow. First, **do not generalize *weight loss lowers cardiovascular events* without
-naming the route and the stratum**. The lifestyle route did not move events in established diabetes,
-whereas a GLP-1 drug did in secondary-prevention obesity -- a result taken up in the drug-route section
-below, not cashed here ([[Semaglutide for Cardiovascular Risk in Obesity]]). Second, these
-loss-benefit claims **rest on trial evidence, not on the BMI-mortality curve**, whose lower arm is
-confounded by reverse causation.
+The drug route supplies the one clean randomized hard-outcome win the fabric holds: in
+secondary-prevention obesity, semaglutide cut the CV composite (**MACE HR 0.80, 95% CI 0.72-0.90**).
+Full benefit-risk appraisal, per-agent ranking, and dosing live in the separate GLP-1 deliverable ->
+[[Semaglutide for Cardiovascular Risk in Obesity]], [[GLP-1 Drugs]]; here it functions only as the
+demonstrated drug-route data point.
 
-PREDIMED sharpens the point from the other side. An energy-unrestricted Mediterranean pattern
-cut the cardiovascular composite by about 30% (HR 0.70, 0.55 to 0.89) in
-high-risk primary prevention -- though its own all-cause mortality was null.
-[@estruch2018] **What you eat can carry the cardiac signal
-that how much you weigh did not.** The populations and comparators differ, so this is a reasoned
-cross-trial contrast, not a head-to-head.
-[inferred from @estruch2018; @look2013]
 
-The clearest patient-important win from fat loss is not the cardiovascular endpoint at all. It is
-metabolic disease put into reverse -- and it is dosed by the kilograms lost.
+Tirzepatide reaches surgical-scale loss (SURMOUNT-OSA: body-weight treatment difference
+**-16.1%, 95% CI -18.0 to -14.2**) and moves the CV *risk markers* (systolic BP -7.6 mm Hg, -10.5 to
+-4.8; hsCRP down) plus the OSA-severity surrogates — but it is **surrogate-only**, with no powered CV
+endpoint, no deaths, and a 52-week horizon. Do not borrow SELECT's benefit for it; its hard-outcome
+evidence AWAITS SURMOUNT-MMO.
+[@malhotra2024surmount]
 
-## Bank the metabolic wins that scale with kilograms lost
+### The lifestyle hard-outcome null in low-risk people — DPPOS over 21 years
 
-Where the cardiovascular endpoint stayed null, **weight loss plainly moves type 2 diabetes
-remission**. DiRECT delivered an energy-restricted total-diet-replacement programme in routine
-primary care. It put **46% of short-duration diabetes into remission off all glucose-lowering drugs at
-12 months, against 4% on standard care** (odds ratio 19.7, 95% CI 7.8 to 49.8), on a mean 10.0 kg
-loss, with a measured quality-of-life gain.
-[@lean2018]
+The sharpest bound on the lifestyle route comes from diabetes prevention followed long enough to
+adjudicate events. DPPOS followed the three DPP arms a median **21 years** and was **null** on the
+cardiovascular endpoint: metformin **MACE HR 1.03 (95% CI 0.78-1.37)** and lifestyle **MACE HR 1.14
+(0.87-1.50)** versus placebo — point estimates trending the *wrong* way for lifestyle.
+[@goldberg2022]
+This is a *bounded* null, not a demonstration of no effect: the cohort became low-risk and heavily
+treated (statins 56-62%, antihypertensives 68-74%), leaving little absolute CV risk to remove. Note
+that preventing diabetes *incidence* — a disease-onset outcome one rung above a pure surrogate — was
+never in doubt in DPP; what DPPOS shows is that the incidence win did not carry to hard CV events in
+this stratum.
 
-The **dose-response** is the jewel. Pooling both trial arms, remission at 12 months climbs with the
-weight held off: **none of those who gained weight, 7% at 0 to 5 kg, 34% at 5 to 10 kg, 57% at 10 to
-15 kg, and 86% at 15 kg or more** -- «Remission varied with weight loss in the whole study
-population». [@lean2018] The curve is monotone across the
-studied range with **no visible plateau below 15 kg**; whether it flattens above that is unresolved.
-It is a within-population association, so responder confounding is live -- people who lose more may
-differ biologically -- not the randomized contrast.
+### The tension resolved: route, baseline risk, and evidence grade — not a contradiction
 
-**Weight lost drives remission, not the carbohydrate cut.** DiRECT reaches remission on a
-formula diet that is 59% carbohydrate -- the opposite of low-carb -- so carbohydrate restriction is
-**not necessary** for it -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]]. And a low-carb
-route's remission and weight advantages both fade to null by 12 months as the weight advantage fades (weight
-difference +0.29 kg; medication-free remission risk difference -0.04, non-significant).
-[@goldenberg2021] A remission effect that decays in
-step with the weight advantage is a **weight-loss effect delivered by a low-carb route**, not a
-carbohydrate effect of its own. The gold-tier umbrella reaches the same verdict -- «The main
-contributor to HbA1c reduction and remission appears to be weight loss, irrespective of diet type».
-[@churuangsuk2022]
+The positive results (SOS all-cause HR 0.71; Ma all-cause RR 0.82) and the nulls (Look AHEAD HR 0.95;
+DPPOS MACE HRs crossing 1) are not a contradiction about whether weight loss "works." Set against a
+parameter table they are different quantities:
 
-The same weight lever prevents diabetes as well as reverses it. In the Diabetes Prevention Program, an
-intensive lifestyle programme **cut progression from prediabetes to diabetes by 58%**, out-preventing
-metformin -> [[Lifestyle vs Metformin for Diabetes Prevention]].
-[@knowler2002] And the delivery that works is a
-**format, not a macronutrient class**. Total diet replacement anchors the single GRADE-high cell of
-the graded remission literature (median 54% remission, range 46 to 61) because it controls energy
-intake, not because of any composition -> [[Diets for Weight Management in Type 2 Diabetes]].
-[@churuangsuk2022]
+| Axis | Positive results | Null results |
+|---|---|---|
+| Route | surgery (SOS), GLP-1 drug (SELECT) | lifestyle (Look AHEAD, DPPOS) |
+| Baseline risk | severe obesity / higher-risk cohorts | lower-risk, well-treated (statins, BP drugs) |
+| Endpoint / grade | all-cause mortality; observational (SOS) or RCT (SELECT) | CV-events composite; RCT |
 
-Two boundaries keep the claim honest:
+The clinching evidence is baseline risk. The *same* diabetes-prevention question, asked in a
+**higher-risk** cohort (Da Qing, 30-year follow-up), *did* show a lifestyle CV benefit: **MACE HR 0.74
+(95% CI 0.59-0.92)**.
+[@goldberg2022]
+Absolute benefit scales with baseline risk (route (a) — no subgroup claim needed;
+[[Baseline Risk and the Relative-Absolute Split]]), so a low-risk cohort has little absolute risk to
+remove and even a real relative effect is hard to detect. The honest composite: hard-outcome benefit is
+**demonstrated for surgery and a GLP-1 drug, plausible-but-unproven for lifestyle in a low-risk
+stratum, and scaling with baseline risk**.
+[inferred from @goldberg2022; @sjostrom2007; @ma2017]
 
-- **Remission is an intermediate outcome, not a hard one.** HbA1c normalization is a strong surrogate
-  for microvascular risk, but it can relapse, and no trial here shows it averts heart attacks or
-  extends life -> [[Surrogate Outcomes]].
-- **DiRECT excluded normal-weight patients** (it required BMI >=27), yet about a third of people with
-  type 2 diabetes are normal-weight. The personal-fat-threshold frame extends the lever to them at
-  a **smaller required loss** -- roughly 13% of body weight at normal BMI against about 21% for the
-  whole cohort. That is a decision-change DiRECT's own population cannot license, but the mechanism
-  supports. [@taylor2015pft]
-  [inferred from @taylor2015pft]
+One further separation the fabric draws: an energy-*unrestricted* Mediterranean pattern (PREDIMED),
+with little weight change, cut CV events **HR 0.70 (95% CI 0.55-0.89)** in high-risk primary prevention
+— so *what you eat* appears to carry a CV-event signal that *how much you weigh* did not (populations
+and comparators differ, so this is a reasoned contrast, not a head-to-head).
+[@estruch2018]
 
-The liver both explains the ectopic-risk story and gives the cleanest dose-response ladder -- the
-bridge from where fat sits to what losing it buys.
+### Surrogates that predict but are not targets
 
-## Read the fatty-liver ladder as the model dose-response for ectopic fat
+Even a strong *predictor* of events is not automatically a lever. The triglyceride-glucose (TyG) index,
+a cheap insulin-resistance proxy, predicts incidence — CAD **HR 2.01 (95% CI 1.68-2.40)** — yet is
+**null on mortality**: CV mortality **1.10 (0.82-1.47)** and all-cause **1.08 (0.92-1.27)**, both CIs
+crossing 1. A predictor's signal is outcome-specific, and TyG is silent on the outcomes people weight
+most; it flags the stratum, it does not name the lever.
+[@liu2022tyg]
+The counter-case is LDL/apoB, a surrogate whose causal transmission to ASCVD *is* evidenced, so
+lowering it does reduce events — not all surrogates are equal -> [[Surrogate Outcomes]].
 
-Fatty liver is the ectopic depot made visible, and its treatment ladder is the cleanest
-dose-response the fat lever offers. The current term is **MASLD** (metabolic-dysfunction-associated
-steatotic liver disease; the prior labels were fatty liver / NAFLD). EASL defines it as steatotic
-liver disease plus at least one cardiometabolic risk factor and no harmful alcohol intake, so a
-person with obesity and a metabolic risk factor effectively has it **by definition**
-[@easl2024]. **Weight loss is the
-base-layer treatment**, and its histological benefit is dose-dependent and outcome-specific:
-«There is a dose-dependent association between the amount of weight loss and the extent of
-improvement in biomarkers of liver damage»
-[@easl2024].
+### Decision relevance
 
-**The EASL ladder (strong recommendation):**
+- **Pursue fat loss for the outcomes it demonstrably moves.** Its priority never rested on a proven
+  hard-CV-event reduction: it rests on diabetes remission and prevention, glycaemic control, MASLD
+  regression, and function -> [[Fatty Liver MASLD and Weight Loss]],
+  [[Lifestyle vs Metformin for Diabetes Prevention]]. The Look AHEAD null *refines* the claim rather
+  than undermining it.
+- **Do not oversell a heart-attack reduction the largest lifestyle trial failed to show.** For a
+  low-risk person pursuing lifestyle weight loss, "this will lower your risk of a heart attack" is
+  weakly evidenced; the demonstrated CV levers in that stratum are the direct ones (statin, BP
+  control).
+- **A widely-cited >=10%-responder CV signal exists but is not held as a magnitude.** A Look AHEAD
+  post-hoc analysis (Gregg 2016) is reported — via SELECT's and DiRECT's discussions — to show a \~21%
+  cardiovascular-event reduction in those losing >=10%, but the primary paper is **not held**; it is an
+  awaited figure, not a fact this cut can assert. [@lean2018]
+- **Where hard outcomes are the concern, route and baseline risk size the choice.** A mature GLP-1 drug
+  with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
+  largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
-| Sustained weight loss | What it moves |
-|---|---|
-| **>=5%** | reduces liver fat (steatosis) |
-| **7-10%** | improves inflammation / steatohepatitis (MASH) |
-| **>=10%** | improves / regresses fibrosis |
 
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
+## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
+
+Where the excess fat sits is what does the damage, and the most dangerous place is inside the liver and
+pancreas. Taylor's model puts intra-organ fat at the centre: liver fat is «pivotal» to hepatic insulin
+resistance, and he demotes the more-famous visceral depot to a readout — «Extent of visceral fat
+accumulation is a surrogate marker for intra-organ fat excess, but is not pathophysiologically related to
+adverse metabolic consequences».
+[@taylor2015pft]
+Fatty liver (MASLD, renamed from NAFLD in 2023) is the clinically visible edge of that intra-organ depot,
+so its weight-loss lever is the same depot-drawdown the cardiometabolic pages already rank first
+-> [[Ectopic Fat and Depot-Specific Risk]].
+
+The actionable finding is a **dose-response histology ladder**: how much sustained weight loss reverses
+each rung of liver disease. EASL states «a bodyweight reduction of >=5% is required to reduce liver lipid
+content, 7-10% to improve inflammation, and >=10% to improve fibrosis», with «a dose-dependent association
+between the amount of weight loss and the extent of improvement in biomarkers of liver damage».
+[@easl2024] A second national body, AASLD, draws
+the same-shaped curve — «Weight loss of 3%-5% improves steatosis, but greater weight loss (>10%) is
+generally required to improve NASH and fibrosis» — differing only in where the middle rung sits.
+[@aasld2023]
+
+| Rung (histological outcome) | EASL 2024 (GRADEd) | AASLD 2023 (un-GRADEd) |
+|---|---|---|
+| Steatosis (liver fat) | sustained **>=5%** | **3-5%** |
+| Steatohepatitis (NASH) | **7-10%** | folded into **>10%** |
+| Fibrosis | **>=10%** | **>10%** |
+
+These are guideline **rungs, not interval-bearing effect estimates**: EASL traces the ladder to a single
+histology-endpoint RCT (Vilar-Gomez 2015), so read the numbers as *name-the-curve* thresholds whose studied
+support is one trial, not a pooled dose with confidence intervals.
 [@easl2024]
 
-Three caveats travel with the ladder, and each changes how hard to lean on it.
-
-- **It rests on a single histology-endpoint trial.** EASL builds the >=5% / 7-10% / >=10% steps from
-  one stringent interventional trial, not a pooled effect with intervals. Read it as **name-the-curve
-  guidance** — the shape and ordering of the steps — not a precise dose.
-- **Few reach the threshold, and most partly regain.** «a limited proportion of individuals achieve a
-  weight reduction of [>=5%]», and follow-up shows «a maximal weight loss at 6 months, followed by a
-  gradual weight regain to a net weight loss of about 5% at 12-24 months». Durability, not the initial
-  drop, is the binding problem.
-- **No proven lifestyle effect on advanced fibrosis or cirrhosis.** «evidence for an effect of weight
-  reduction by lifestyle modification on advanced fibrosis or cirrhosis is insufficient». The lever
-  works on the **reversible** stages; once bridging fibrosis or cirrhosis is established, lifestyle is
-  not shown to reverse it.
-
+Three caveats bound the lever, all
+from EASL: «a limited proportion of individuals achieve a weight reduction of >=5%»; loss peaks at 6 months
+then regains to «about 5% at 12-24 months» with partial liver-fat regain; and «evidence for an effect of
+weight reduction by lifestyle modification on advanced fibrosis or cirrhosis is insufficient» — the lever
+works on the *reversible* stages, not once bridging fibrosis or cirrhosis is established.
 [@easl2024]
 
-Two reframes make this ladder matter beyond the liver. **First, liver fat IS the ectopic depot** that
-the depot section put at the centre of cardiometabolic risk, so the >=5% / 7-10% / >=10% ladder is
-depot-drawdown made measurable, and the levers are the **same** ones already indicated for the
-metabolic patient. MASLD does not add a separate intervention — it adds a **reason and a target**
-(>=7-10% for the inflammatory stage) to the weight loss already on the table
--> [[Ectopic Fat and Depot-Specific Risk]]
-[inferred from @easl2024].
 
-**Second, for most people MASLD's dominant risk is not hepatic at all.** Steatosis per se is nearly
-benign for the liver — «the presence of steatosis in the general population is not associated with a
-clinically meaningful increase in the risk of liver-related outcomes»
-[@easl2024] — because liver risk tracks
-**fibrosis stage, not fat**. The large load is extrahepatic: a «higher risk of non-fatal
-cardiovascular disease (HR 1.40)» [@easl2024]
-and «a more than two-fold increased risk of an incident diagnosis of T2D»
-[@easl2024]. The practical steer: **manage
-by cardiovascular risk, and monitor fibrosis rather than fat**.
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-These extrahepatic figures are **observational**. The corpus holds no Mendelian-randomization or
-umbrella review pinning the causal arrow from liver fat *to* diabetes or cardiovascular disease,
-rather than all three tracking the same underlying ectopic-fat cause. So read them as **risk-marking
-that co-moves with the depot, not an independent second lever** to act on
-[inferred from @easl2024].
+## Composition moves liver fat beyond calories — but it is the fat *type*, not the carbohydrate fraction
 
-Fatty liver is adiposity's cleanest dose-response; cancer is its broadest — a large, causally-graded
-risk where the reversal evidence lags well behind the risk evidence.
+Once a person is losing weight, *what* they eat at a given calorie level is a second-order lever on liver
+fat — and the fabric can separate the real composition signal from folklore, because a gold SR-MA pooled
+only **isocaloric** RCTs (26 trials, 32 comparisons), holding energy equal between arms. Its effects are
+standardized mean differences (SMD; 0.2 small, 0.5 medium, 0.8 large — negative = liver fat fell), never
+percentages of liver fat removed.
+[@winterseekelen2020]
 
-## Count cancer as a graded risk whose reversibility is unproven
+| Swap (isocaloric) | SMD (95% CI); n comparisons | Read |
+|---|---|---|
+| Unsaturated vs saturated fat | **-0.80 (-1.09 to -0.51)**; 4 | large reduction (unsaturated favoured) |
+| Carbohydrate -> protein | **-0.33 (-0.54 to -0.12)**; 5 | moderate reduction (protein favoured) |
+| Total fat <-> carbohydrate | **0.01 (-0.36 to 0.37)**; 12 | null — the fat/carb *ratio* is not the lever |
 
-Greater body fatness is a **convincing or probable cause of a broad set of cancers**: «12 of the 17
-cancers reviewed by the CUP are linked to greater body fatness»
-[@wcrf2018ter], and IARC independently found that
-«greater body fatness is a cause of thyroid cancer, multiple myeloma and meningioma» — three more
-sites [@wcrf2018ter].
+[@winterseekelen2020]
 
-WCRF places the weight recommendation **first**, because the evidence is «particularly strong, and has grown stronger over
-the last decade» [@wcrf2018ter]. For some cancers,
-risk rises even inside the healthy BMI range — «the increase in risk is seen with increasing body fatness even within
-the so-called 'healthy' range. Nevertheless, most benefit is to be gained by avoiding overweight and
-obesity» [@wcrf2018ter]. Mechanisms
-(hyperinsulinaemia, sex hormones, chronic inflammation) inform **direction, not proof**.
+**This resolves the "fructose and carbohydrates uniquely drive liver fat" claim.** At equal calories the
+carbohydrate story does not hold: the total-fat<->carbohydrate swap is null (SMD 0.01), and a separate gold
+SR-MA of controlled-feeding trials found isocaloric fructose vs glucose «did not alter IHCLs (+0.11% ±
+2.1%)» and «did not differ in any hepatic outcome measure».
+[@chung2014] The liver-fat rise
+Chung found sits in the *added-energy* arm — hypercaloric fructose raised intra-hepatic lipid 54% (95% CI
+29-79%) vs weight maintenance, but at equal excess energy fructose \~= glucose, so the effect «appear[s] to
+be confounded by excessive energy intake».
+[@chung2014]
 
-Two honesty notes bound what this licenses.
+What survives is not a
+special carbohydrate mechanism but two composition moves — **replacing saturated with unsaturated fat**
+(large SMD) and cutting *excess liquid energy*: sugar-sweetened soda is the one dietary factor Peng's
+umbrella graded HIGH, RR **1.53 (1.34-1.75)**, where «the quality of evidence was only high for the
+association of sugar-sweetened soda with increased NAFLD risk».
+[@peng2022nafld]
 
-- **The grades are on body fatness causing incidence in cohorts, not on losing weight lowering your
-  risk.** Whether reducing adiposity reduces a person's cancer risk is **not established** — the
-  survivor evidence is explicitly limited on whether changing body fatness after diagnosis alters the
-  course [@wcrf2018ter]. The reversal loop is open.
-- **Body fatness in young adulthood runs the opposite way for breast cancer** — «greater body fatness
-  in young adulthood predicts lower risk», an *opposite-direction*, only-probable association with
-  **no stated mechanism** and obvious confounders (early menarche, lifetime oestrogen-exposure
-  proxies), which WCRF concedes needs «more research... to help further understand the mechanisms»
-  [@wcrf2018ter]. Read it as a **unit-of-analysis
-  warning** — the label "body fatness" hides two timing-dependent quantities — not as a protective
-  lever -> [[The U-Shaped Association Artifact]]
-  [inferred from @wcrf2018ter].
 
-## Count knee osteoarthritis as a function outcome where adiposity dominates the modifiable risk
+**Caveat — the ceiling on all three arms is that they move a surrogate.** Every effect above is on liver-fat
+*content*, and AASLD flags that even histology is «two surrogate steps» from the endpoints that matter:
+«Additional studies are needed to better understand the long-term association among changes in liver fat,
+histological response, and clinical outcomes.»
+[@aasld2023]
 
-Excess adiposity is the **dominant modifiable risk factor for developing knee osteoarthritis** -- a
-high-prevalence, function-limiting outcome (pain, mobility, independence) that sits on the outcome
-menu alongside cancer and cardiovascular disease. A gold systematic review of 129 cohort studies
-pooled adiposity at **adjusted OR 1.17 per 1 BMI unit (95% CI 1.10 to 1.24)** for incident
-radiographic knee OA [@duong2025kneeoa].
-Across the modifiable risk factors, overweight/obesity carries **77.2% of the
-population-attributable fraction** -- it dominates the modifiable-risk picture:
-«Together, two modifiable risk factors (overweight/obesity and previous knee injury) account for 14%
-of incident radiographic KOA.»
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
+## The risk MASLD carries is mostly extrahepatic — it feeds diabetes and cardiovascular disease
+
+For most people with fatty liver, the danger is not the liver. EASL is explicit that «the presence of
+steatosis in the general population is not associated with a clinically meaningful increase in the risk of
+liver-related outcomes» — liver risk tracks *fibrosis stage*, not fat.
+[@easl2024] The load sits downstream: MASLD
+carries «higher risk of non-fatal cardiovascular disease (HR 1.40)», coronary heart disease (OR 1.33),
+heart failure (OR 1.5), chronic kidney disease, and «a more than two-fold increased risk of an incident
+diagnosis of T2D».
+[@easl2024]
+
+Two honesty notes bind these figures. First, **EASL reports them as bare point estimates — the guideline
+text carries no confidence intervals** for the HR 1.40, OR 1.33, or OR 1.5, so they enter as
+guideline-cited associations, not interval-bearing effects. Second, **the causal direction is unresolved —
+a named [G] gap.** The >2x incident-T2D and HR 1.40 figures are observational associations; no held
+Mendelian-randomization umbrella settles whether fatty liver *drives* T2D or the two share an upstream cause
+(insulin resistance), so the direction NAFLD/MASLD <-> T2D is a hole in the evidence, not a resolved arrow.
+[inferred from @easl2024]
+
+So for the metabolic-syndrome stratum MASLD adds **no separate intervention** — it adds a reason and a
+target (>=7-10% loss for the inflammatory stage) to the weight loss already indicated for cardiometabolic
+risk. The one lever here that reaches a patient-important endpoint is bariatric surgery, the aggressive form
+of the same weight-loss lever: «Resolution of NASH without worsening of fibrosis occurred in 80% of patients
+1 year following bariatric surgery, which was maintained at 5 years».
+[@aasld2023] Full drug/surgery benefit-risk appraisal lives
+in [[GLP-1 Drugs]]; here the point is that the mortality signal, where it exists, tracks large sustained
+loss, not a distinct mechanism.
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
+## Downstream disease — the same fat drives cancer and loads the knee
+
+**Cancer: broadly graded, but the wiki holds no per-person magnitude.** WCRF grades greater body fatness a
+convincing or probable cause of many cancers and puts it first because the evidence is «particularly strong
+... and has grown stronger over the last decade»; «12 of the 17 cancers reviewed by the CUP are linked to
+greater body fatness», and IARC independently adds thyroid cancer, multiple myeloma and meningioma.
+[@wcrf2018ter]
+
+**Carry this as a graded
+qualifier, not a number: WCRF does not quantify a per-person effect**, so there is no CI-bearing
+body-fatness -> cancer risk estimate to state — the honest form is *convincing/probable across 12-of-17
+sites*, an absence of magnitude, not a hazard ratio. Two edges: risk rises «even within the so-called
+'healthy' range» (graded, not a BMI-25 threshold), and body fatness in young adulthood runs *opposite* — a
+probable-graded protective arm with «no stated mechanism» that the wiki treats as a candidate artifact until
+it survives a genetic or referent check, not a sign-flip -> [[The U-Shaped Association Artifact]].
+[@wcrf2018ter]
+
+**Knee osteoarthritis: here the fabric does hold CI-bearing function outcomes.** The IDEA RCT (454
+overweight/obese adults, K-L 2-3 knee OA, 18 months) showed diet-plus-exercise beat exercise alone on pain —
+«the D + E group had less pain relative to the E (mean score, 1.02; 95% CI, 0.33-1.71; P = .004) and D
+(1.13; 95% CI, 0.44-1.82; P = .001) groups» — with 38% of D+E reporting little or no pain versus \~20% in
+either single arm, and a monotone dose-response favouring >=10% loss over the studied 0-32% range.
+[@messier2013idea]
+
+Exercise adds
+function safely: the EULAR SR-MA found «moderate effects ... of aerobic exercises and resistance training on
+cardiovascular fitness (SMD 0.56 (95% CI 0.38 to 0.75)) and muscle strength (SMD 0.54 (95% CI 0.35 to
+0.72))», with no effect on flexibility (SMD 0.12, 95% CI -0.16 to 0.41 — insufficient evidence, not a proven
+null).
+[@rauschosthoff2018exercise] On the
+*incidence* side the same lever dominates: per BMI unit, adjusted OR **1.17 (1.10-1.24)** for radiographic
+knee OA, with overweight/obesity plus prior injury (aOR **2.67, 1.41-5.05**) accounting for 14% of cases.
 [@duong2025kneeoa]
 
-This is a **route-(a) prognostic association**: higher BMI marks higher incident-OA risk, but no
-trial shows that *losing* weight prevents incident knee OA. So the honest frame is «excess adiposity
-is the dominant modifiable risk marker», not «losing weight prevents knee OA» -- the reversal loop is
-open here exactly as it is for cancer.
-[inferred from @duong2025kneeoa]
+**The synthesis for U3.** One depot — intra-organ and central fat — sits upstream of a liver ladder, a
+diabetes risk, a cardiovascular load, a cancer footprint and a mechanically-loaded knee, and one sustained
+weight-loss lever draws it down across all of them. That shared upstream is a **structural-leverage** point:
+for the overweight metabolic patient the same loss buys liver, cardiometabolic, cancer-risk and joint
+benefit at once — which is why depot-drawdown, not any single-disease diet, is the move.
 
-The pooled outcome is **radiographic** knee OA (the X-ray finding); **symptomatic** knee OA -- the
-pain and function loss patients actually feel -- is not separately pooled, because «the overlap
-between the two is limited» and radiographic OA «does not consistently relate to symptoms»
-[@duong2025kneeoa]. The richest data thus
-sit on the outcome that matters least to the patient -- a named streetlight/measurement gap. Knee OA
-is nonetheless a high-prevalence, function-limiting QoL outcome, so for many people it is a
-critical-rated reason to address adiposity; the wiki names the outcome, direction and certainty, and
-the weighting across it stays the person's.
-[inferred from @duong2025kneeoa]
 
-Fat loss moves some hard outcomes, and for others the evidence stays open — that much is settled.
-How the loss is *achieved* is the next question, and the routes differ on the hard endpoints, not
-just on convenience.
 
-## Choose the loss route by what it does to the visceral depot and to muscle
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-Every way of losing fat -- eating less, moving more, a GLP-1 drug, bariatric surgery -- works by
-opening the same negative energy balance, but **the routes are not interchangeable exposures**. Each
-does something different to the two tissues that decide the result: the visceral and ectopic fat that
-carries the cardiometabolic risk, and the muscle you would rather keep. So a route is judged by what
-it does to those tissues and by the realistic alternative it displaces -- not against an ideal nobody
-sustains.
-[inferred from @recchia2023]
+## How you lose the fat changes what you lose — and the body fights the deficit
 
-### Deficit for deficit, exercise strips more visceral fat than dieting
+A calorie deficit reliably removes weight, but the body does not sit still while it happens: it compensates, spending fewer calories than the arithmetic predicts. Riou's SR of 61 exercise studies put the average energy compensation at 18% (SD ±93%) — meaning roughly a fifth of the exercise deficit is offset, but the huge dispersion means the average barely predicts any one person, who may compensate over 100% or not at all [@riou2015]. Compensation also grows with time: in the few long trials it «approached 84%» at about 80 weeks, a thin extrapolation but a solid direction [@riou2015]. Careau's doubly-labelled-water database (n=1,754) reached the same conclusion by a different route — «energy compensation by a typical human averages 28% due to reduced BEE» [@careau2021].
 
-Match the two on the weekly energy deficit and **exercise removes more visceral fat than caloric
-restriction does**. Recchia's meta-analysis of 40 RCTs found that «exercise had a supe-rior
-dose-response effect on reducing visceral fat compared with caloric restriction (ES -0.18 (-0.33 to
--0.04); p=0.012)» [@recchia2023].
-Only exercise was dose-dependent -- about -0.15 standardized units per extra 1000 kcal/week of deficit
--- while the diet slope was flat (0.03, non-significant), likely a power artifact of far fewer diet
-trials rather than proof that diet dose is irrelevant
-[@recchia2023].
+The twist that matters for a fat-loss decision is that compensation *rises with adiposity*. In Careau's data, people at the 10th BMI percentile compensate 27.7% of activity calories while those at the 90th compensate 49.2% [@careau2021] — so exercise "counts" least toward the deficit in exactly the person who most wants to burn fat off. (Careau reports these as cross-sectional points without confidence intervals, and Riou's own adiposity term runs the other way short-term, so treat the direction as a caution, not a settled within-person law.) The practical read: anchor weight change on intake; use exercise for fitness, function and the visceral-fat benefit below, which do not run through the compensated calories.
 
-The likely reason is a tissue split: **dieting spends part of its deficit on lean mass, exercise
-concentrates it on fat**, and exercise's fat loss is partly independent of what the scale shows. These
-are standardized effect sizes on a surrogate depot, and they are small -- a refinement lever once the
-big rock of overall adiposity is being addressed, not a big rock itself.
-[inferred from @recchia2023]
+### Exercise strips visceral fat per unit deficit; diet magnitude drives total loss
 
-### Exercise under-delivers on the scale because the body refills the deficit
+*How* the deficit is created changes *where* the fat comes off. Recchia's SR-MA (40 RCTs) found exercise cut visceral fat with a significant dose-response of -0.15 SD per 1000 kcal/week of prescribed deficit (95% CI -0.23 to -0.07), whereas caloric restriction's dose-response per unit deficit was non-significant after outlier removal (-0.04, 95% CI -0.17 to 0.08; p=0.49) [@recchia2023]. Caloric restriction removes more visceral fat *in total* — because it produces more weight loss — but exercise's visceral benefit is partly *weight-independent*, so the compensated calories blunt the scale without erasing the depot benefit -> [[Exercise vs Caloric Restriction for Visceral Fat]].
 
-The same exercise that wins on the depot **disappoints on total weight, because a share of the burned
-energy comes back**. Across 61 studies the mean offset was about 18% of the exercise energy (±93% SD --
-the individual response ranges from over-compensation to none), rising toward 84% in the longest
-interventions [@riou2015].
-A doubly-labelled-water study put the average near 28%, driven partly by a measurable drop in basal
-expenditure, and found the offset rises with body fat -- roughly 28% at the 10th BMI percentile versus
-49% at the 90th [@careau2021].
+For *total* loss, magnitude beats composition. In people with T2D, the format that best controls energy wins: very-low-energy diets lost -6.6 kg (95% CI -9.5 to -3.7) and formula meal replacement -2.4 kg (95% CI -3.3 to -1.4) versus a self-administered low-energy diet, while macronutrient profiles sat within 0-2 kg of each other [@churuangsuk2022]. The lever is how much energy the deficit actually delivers, not which macronutrient is cut.
 
-Crucially, **intensity does not drive the compensation**, so HIIT is not self-defeating; duration and
-adiposity are the levers, not how hard you work. The practical division of labour: plan weight change
-around intake, and use exercise for the fitness, function and mortality benefits that do not run
-through the compensated calories -> [[Exercise Energy Compensation]].
-[inferred from @careau2021; @riou2015]
+### Lean mass: the ratio improves, the absolute kilograms fall
 
-### The diet label barely moves the needle -- energy does
+Every large weight loss sheds some muscle, and the drug case makes the two-faced pattern explicit. Laverde's SR-MA of 7 obesity-dose GLP-1 trials found lean mass *as a proportion of weight* rose — +1.81% (95% CI 1.1 to 2.52) — because fat is lost faster than lean, so composition improves as a ratio [@laverde2026]. Yet *absolute* lean mass fell -1.74 kg (95% CI -3.04 to -0.45), with semaglutide the outlier at -5.44 kg (95% CI -7.07 to -3.81), or -9.9% [@laverde2026]. About 30% of the class's weight loss is lean — inside the ordinary 20-30% band for any rapid loss, «comparable to ... bariatric surgery» [@laverde2026]. Rapid loss sheds muscle whatever drives it; the drug is not special on average, semaglutide the exception.
 
-Among named diets, **the brand and the macronutrient split are close to irrelevant for weight**. Ge's
-network meta-analysis of 121 trials found «Differences between diets were typically small to trivial»
-[@ge2020], with the modest 6-month
-benefit over usual diet largely gone by 12 months -- the label is not the actor, and adherence, cost
-and preference decide it. One real trade-off survives the near-equivalence: **low-carbohydrate patterns
-leave LDL roughly unchanged where balanced ones lower it** -- interchangeable on weight and blood pressure, worse on the
-atherogenic-lipid axis -> [[LDL ApoB and Cumulative Exposure]]
-[@ge2020].
+**Is lean-mass loss a harm?** Not straightforwardly. Lean mass is a *surrogate for function*, not the outcome itself, and the fat-to-lean ratio typically improves. Laverde's own verdict is that «lean mass loss should not be considered a limitation for the use of these drugs in patients with obesity» — but the same paper measured no strength or physical capacity, so function is unmeasured on both sides [@laverde2026]. Crucially, **no RCT shows that preserving muscle mass during weight loss changes a hard outcome — that is a type-G gap.** Muscle mass does independently predict mortality (de Santana SR-MA: appendicular ASMI SMD -0.18, 95% CI -0.23 to -0.12) [@santana2021], but a predictor is not a proven target.
 
-The reason the split does not matter is mechanistic. At equal calories, **a calorie is a calorie for
-fat storage**. Hall's meta-analysis of 32 controlled-feeding studies found that isocaloric
-carbohydrate-for-fat swaps gave no meaningful edge to carbohydrate restriction. The tiny difference --
-about +26 kcal/day of expenditure and 16 g/day of fat loss -- ran *toward* low-fat, the opposite sign to
-the carbohydrate-insulin model's prediction
-[@hallguo2017].
+### Steer toward strength, not the scale
 
-In Hall's words, «for all
-practical purposes "a calorie is a calorie" when it comes to body fat and energy expenditure
-differences between controlled isocaloric diets varying in the ratio of carbohydrate to fat»
-[@hallguo2017]. So **carbohydrate restriction
-is not a metabolically privileged lever**. Where it earns its keep in the real world, it does so through
-appetite and adherence -- it helps some people eat less -- not through a metabolic advantage
--> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
-[inferred from @hallguo2017]
+Because mass is a weak surrogate and function is the thing that matters, EWGSOP2 puts strength first: «strength is better than mass in predicting adverse outcomes» [@cruzjentoft2019]. Screen on grip strength (cut-offs <27 kg for men, <16 kg for women) — but read those as *normative* thresholds set at roughly -2 SD against a healthy-young reference, **not outcome-validated knees in a dose-response curve** [@cruzjentoft2019].
 
-The same lesson governs meal timing. **Time-restricted eating adds no weight advantage over the same
-deficit eaten without a clock**. A 12-month RCT that gave both arms an identical prescribed deficit and
-varied only the 8-hour window found a non-significant -1.8 kg between groups and no metabolic
-separation on any secondary [@liu2022].
-The window is a delivery vehicle for a deficit, not a lever in itself. A short ad-libitum window
-might quietly reduce protein intake and cost lean mass -- a loss the trialists suggested extra protein could offset
-[@lowe2020] -> [[Time-Restricted Eating]]. **The
-vehicle matters: how you open the deficit changes what tissue you lose.**
+The defense against muscle loss under any deficit is the same regardless of route: resistance training as the primary lever, protein a modest adjunct. At energy balance the muscle-building benefit of added protein plateaus in the region of \~1.6 g/kg/day — a break-point with a wide interval, not a settled target (the pinned figure and its CI live on [[Protein and Resistance Training for Muscle and Strength]]) — and beyond it added protein brings no further resistance-training gains in fat-free mass, so the training, not the supplement, does the work [@morton2018]. A deficit raises the target: protein's benefit for fat-free-mass retention under energy restriction is a linear dose-response, stronger the leaner the person (lower baseline body-fat %) [@refalo2025] -> [[Sarcopenia Definition and Diagnosis]].
 
-None of these lifestyle routes, though, has ever shown a reduction in hard cardiovascular events. **The
-drug route, not diet or exercise, delivers the highest-certainty hard-CV benefit of the fat
-lever.**
+Who this bites depends on the stratum. For a young, well-muscled obese adult the ratio face governs — composition improves, the absolute loss is minor, and RT plus protein is prudent rather than urgent. For an older or sarcopenia-risk adult the absolute face governs: the muscle cost becomes a front-line patient-important harm (falls, fractures, lost independence), sharpened by a GLP-1's appetite suppression cutting protein intake exactly when the muscle-sparing target has gone up -> [[GLP-1 and Lean Mass]], [[Big Rocks (Elderly)]]. Monitor function directly, not the scale.
 
-## Weigh the drug route where it earns hard outcomes -- and where it does not
+**Named gap — do not fabricate a magnitude.** How much *extra* muscle is lost by losing weight *faster* is not held: the muscle-loss-by-speed-of-loss quantity has no gold MA, and the diet-deficit-versus-exercise-deficit body-composition partition is reasoned from mechanism, not measured.
 
-Because a drug is often the realistic alternative to a lifestyle change, GLP-1 pharmacotherapy sits on
-the same shelf as diet and exercise: **it pulls the same fat lever by a different route**, and the
-magnitudes are large. Semaglutide removes roughly 9% of body weight in the older, established-CVD
-population of SELECT [@lincoff2023]
-and closer to 15% in younger, lower-risk obese adults
-[inferred from @lincoff2023].
 
-Tirzepatide, a dual agonist, takes off more still -- up to about 21%, its top dose reaching toward the
-25-30% seen 1-2 years after bariatric surgery, the largest-magnitude route of all
-[@jastreboff2022]. But weight on the scale
-is the surrogate; what matters is what each route does to hard outcomes.
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-### Semaglutide cut cardiovascular events -- in secondary prevention only
+## What each method moves: the drug takes off the most weight, total diet replacement reverses diabetes, and a calorie is a calorie for storage
 
-In SELECT (n=17,604), semaglutide **cut major cardiovascular events by 20% on top of standard
-secondary-prevention care** -- hazard ratio 0.80 (0.72 to 0.90)
-[@lincoff2023] -- an absolute
-reduction of about 1.5 percentage points over 3.3 years, or roughly one event avoided per 67 people
-treated
-[inferred from @lincoff2023].
+The methods that shed body fat do not all buy the same outcome. Line them up by what they
+demonstrably move — a hard endpoint, an intermediate one, or only a surrogate — and the ranking stops
+being a contest between diets. A GLP-1 drug is the only route with a proven hard-outcome win;
+total diet replacement drives type 2 diabetes into remission on a clean dose-response; carbohydrate
+restriction improves glycaemia but its edge fades; and for fat *storage* itself, the macronutrient
+split barely matters once calories are matched. Full drug appraisal, per-agent ranking, and dosing
+live in the separate [[GLP-1 Drugs]] and [[Comparing Obesity Drugs]] deliverables — here each method
+is named for what it moves.
 
-SELECT is the first trial to show that treating obesity with a drug moves a patient-important
-cardiovascular endpoint -> [[Semaglutide for Cardiovascular Risk in Obesity]]. **But the trial enrolled
-only people with established cardiovascular disease.** The trialists say so plainly: «The effects of
-semaglutide on primary prevention of cardiovascular events in persons with overweight or obesity but
-with-out previous atherosclerotic disease were not studied»
+### The GLP-1 / dual-agonist drugs: the largest sustained loss, and (semaglutide) the one hard-outcome win
+
+Semaglutide is the best-evidenced *drug* route to the weight lever, and SELECT is the landmark. In
+17,604 adults with obesity and established cardiovascular disease but no diabetes, semaglutide cut
+major adverse cardiovascular events to a hazard ratio of **0.80 (95% CI 0.72-0.90, P<0.001)** over
+\~3.3 years on top of statins and antiplatelets — an absolute reduction of \~1.5 percentage points,
+NNT \~67 [@lincoff2023]. This is
+the first demonstration that treating obesity pharmacologically moves a hard endpoint. Its weaker
+signals are not confirmed: CV death was **0.85 (95% CI 0.71-1.01), P=0.07**, which *failed* the
+pre-specified hierarchical gate, so all-cause mortality **0.81 (0.71-0.93)** and every estimate
+downstream are point estimates, not confirmed effects
 [@lincoff2023].
 
-Line the two routes up and the split is the finding. **Losing weight by lifestyle has not been shown to
-prevent hard cardiovascular events** -- an intensive lifestyle programme was null on that endpoint in
-established diabetes -- while **the drug prevented them, but only in secondary prevention.** Neither
-result licenses the general claim that shedding weight by itself prevents events in a low-risk person:
-that leap silently drops both the route and the stratum. State them separately, always -- hard-CV
-benefit of the fat lever is proven for the drug in secondary-prevention obesity, unproven for lifestyle,
-and untested for either in primary prevention.
-[inferred from @lincoff2023]
+On the surrogate SELECT and STEP-1 agree the drug is a powerful weight lever: SELECT lost **-8.51
+percentage points** placebo-adjusted; STEP-1, in a younger primary-prevention obese population, lost
+**-12.4 pp (95% CI -13.4 to -11.5)** with half the treated arm losing >=15%
+[@wilding2021]. But SELECT's benefit was
+proven *only* in secondary prevention; for a low-risk obese person the hard-outcome benefit is
+unproven and small in absolute terms even if it transported -> [[Semaglutide for Cardiovascular Risk in Obesity]].
 
-### Judge each route by its own benefit-risk, and combine rather than choose
+Tirzepatide, a dual GIP/GLP-1 agonist, takes off *more* weight than any prior non-surgical agent —
+placebo-adjusted **-11.9 to -17.8 percentage points** by dose in SURMOUNT-1, with **57%** of the
+top-dose arm losing >=20%, approaching the bariatric range
+[@jastreboff2022]. But its endpoint is
+weight, a surrogate, and **no hard-outcome trial exists for tirzepatide** — the SELECT-equivalent has
+never been run. That is a named gap, not a null: the larger weight number does *not* carry a CV
+benefit with it, and must not be read as though it did.
 
-Drug and lifestyle are **the same lever, not an either/or** -- combinable, and each carries its own
-benefit-risk sheet. The drugs exact a real tolerability tax (mostly gastrointestinal), lose most of
-their effect when stopped, and drag lean mass down with the fat -- appraisals held on
-[[Semaglutide for Cardiovascular Risk in Obesity]] and [[GLP-1 and Lean Mass]]. This deliverable names
-the drugs as methods; it does not dose, select, or screen them. The factors that swing the choice
-between routes -- adherence, cost, tolerability, reversibility on stopping -- are not evidence questions
-but preferences, elicited per person.
-[inferred from @lincoff2023]
+A 19-drug network meta-analysis (Nong 2026, 262 RCTs) places the class cleanly: subcutaneous
+semaglutide is «the only drug associated with reduced all cause mortality (risk ratio 0.81, 95%
+confidence interval 0.72 to 0.93)» and myocardial infarction (0.72, 0.61 to 0.85), while tirzepatide —
+the bigger *weight* lever — reaches only heart-failure signals
+[@nong2026obesity]. Across the class,
+the biggest weight loss is not the drug with the hard-outcome evidence.
 
-Three magnitudes a full route comparison would want are **not held in the evidence, and must not be
-invented**. Those are how fast weight returns by route, how much muscle is lost per unit of loss speed, and how
-the body-composition of a diet-driven deficit differs from an exercise-driven one. Name the gaps; do
-not fill them with a number the trials did not measure.
+The drugs also cost muscle in proportion to the fat they remove: the two biggest weight-loss agents
+are the two hardest on lean mass — tirzepatide **-8.3%** and subcutaneous semaglutide **-5.8%**
+lean-mass change (both moderate certainty) — a cost that inverts from cosmetic to patient-important in
+older and sarcopenia-risk strata [@nong2026obesity].
+The full composition-of-loss treatment is on [[GLP-1 and Lean Mass]].
+
+### Total diet replacement reverses diabetes — an intermediate outcome, on a clean dose-response
+
+DiRECT delivered an energy-target (not a macronutrient-target) total-diet-replacement programme in
+routine primary care and put **68 of 149 patients (46%) into diabetes remission versus 6 of 149 (4%)**
+in usual care — **odds ratio 19.7 (95% CI 7.8-49.8)** at 12 months, on a formula diet that was
+**59% carbohydrate** [@lean2018]. The value is the
+gradient: pooling both arms, remission rose monotonically with weight lost — **0%** among those who
+gained weight, 7% at 0-5 kg, 34% at 5-10 kg, 57% at 10-15 kg, and **86%** at >=15 kg
+[@lean2018]. The umbrella review places total diet
+replacement at the single GRADE-HIGH cell of the whole remission map — median **54% remission (range
+46-61)** across its two low-bias RCTs [@churuangsuk2022].
+
+Remission is a real benefit weight loss demonstrably moves — freedom from diabetes and its drugs, plus
+a measured quality-of-life gain — and it is the counterweight to the cardiovascular-event null. But it
+is an **intermediate outcome, not a hard one**: HbA1c normalisation is a strong surrogate for
+microvascular risk, DiRECT was not powered for complications, and remission can relapse. Label it as
+intermediate, and note that the operative variable is kilograms lost, not the diet's composition
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+### Carbohydrate restriction improves glycaemia — but the medication-free remission edge fades by a year
+
+Cutting carbohydrate (<26% of energy or <130 g/day) produces a real short-term glycaemic effect:
+remission defined as HbA1c <6.5% with medication still allowed reached a risk difference of
+**0.32 (95% CI 0.17-0.47)** at 6 months [@goldenberg2021].
+But under the definition that also requires coming *off* medication, the effect is never significant at
+any timepoint, and the 12-month point estimate is **RD -0.04 (-0.16 to 0.09)** — gone
+[@goldenberg2021]. The one durable-looking
+rescue is stratum-specific: in trials that excluded insulin users, medication-free remission is
+significant at **RD 0.20 (0.03-0.38), NNT 5** — but that is a six-month result with no 12-month
+durability estimate [@goldenberg2021].
+
+The composite across DiRECT and Goldenberg resolves the mechanism: T2D remission of short-duration
+disease is driven by the **magnitude of sustained weight loss**, and carbohydrate restriction is one
+delivery route for that weight loss, with no evidence it adds a remission effect beyond the weight it
+produces. DiRECT achieves 46% remission at 59% carbohydrate — the opposite of low-carb — so carb
+restriction is not necessary; Goldenberg's own remission and weight advantage both decay to null by 12
+months as weight is regained [inferred from @lean2018; @goldenberg2021]. Optimize for the loss a person can *sustain*, by
+whichever route they will hold to -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]].
+
+### A calorie is a calorie at the storage step: the isocaloric tests bound the carbohydrate-insulin model
+
+The remaining question is whether the macronutrient *source* of calories changes how much fat is
+stored — whether cutting carbohydrate is a distinct lever or a re-description of eating less. State
+both models in their own terms first.
+
+The **carbohydrate-insulin model (CIM)** proposes that dietary carbohydrate, via insulin, drives fat
+into storage and lowers energy expenditure, so that restricting carbohydrate confers a metabolic
+advantage *per calorie* — «a shift in substrate partitioning favoring fat storage drives a positive
+energy balance», not the reverse [@ludwig2021cim]. The
+**energy-balance model (EBM)** holds that fat balance follows energy balance, with the carbohydrate
+fraction close to irrelevant once calories and protein are matched
+[@hall2022ebm].
+
+On the quantity that decides it — body-fat change under isocaloric carbohydrate-for-fat substitution
+with protein held equal — controlled feeding refutes the CIM in *direction*. Hall and Guo pooled 32
+controlled-feeding studies (563 subjects): energy expenditure was **+26 kcal/d** and fat loss
+**+16 g/d** greater on the lower-*fat* diet — the sign reversed from the CIM's prediction, and the
+magnitude trivial. Hall's verdict: «for all practical purposes "a calorie is a calorie" when it comes
+to body fat and energy expenditure differences between controlled isocaloric diets varying in the
+ratio of carbohydrate to fat» [@hallguo2017].
+
+The CIM's one surviving whole-organism prediction — that high insulin-secretors lose more on low-carb,
+so insulin status tells you which diet to assign — got a pre-specified, well-powered RCT test in
+DIETFITS and did not appear: weight change was **-5.3 kg (low-fat) vs -6.0 kg (low-carb), difference
+0.7 kg (95% CI -0.2 to 1.6)**, with the diet x insulin-secretion (INS-30) interaction **P=.47**
+[@gardner2018].
+
+What survives is not a per-calorie storage advantage but two real channels that both live *inside*
+energy balance. The first is **intake and adherence**: Hall's inpatient trial drove
+**+508 kcal/day** of ad-libitum intake on an ultra-processed diet at matched presented macronutrients,
+through energy density and eating rate, not glycaemia
+[@hall2019]. The second is the
+**anatomic location** of fat (refined-carbohydrate load on visceral and liver fat), an
+outcome-specific effect judged on its own evidence, not on the metabolic-advantage claim. The level
+at which the two models actually disagree is storage-per-calorie, which is settled, not
+intake-and-organ-fat, where composition genuinely matters
+[inferred from @hallguo2017; @gardner2018].
+
+For fat loss, then, the decision moves off *which diet* and onto energy intake and whatever makes a
+lower intake sustainable. The macronutrient split is close to irrelevant at equal calories.
+
+One real trade-off survives the near-equivalence, though: a 121-trial network meta-analysis found that
+at 6 months low-carbohydrate patterns barely move LDL cholesterol (a 1.01 mg/dL reduction, below the
+5 mg/dL meaningfulness threshold) where low-fat and moderate patterns lower it (7.08 and 5.22 mg/dL) —
+so low-carb is interchangeable on weight and blood pressure but worse on the atherogenic-lipid axis,
+a gap that (like the weight difference) largely fades by 12 months
+[@ge2020] ->
+[[LDL ApoB and Cumulative Exposure]].
+
+The method that matters is the one whose deficit a person can hold — and, where a demonstrated route (a
+GLP-1 drug) or a high enough baseline risk is present, the one that also moves a hard outcome.
 
 
-And every route named here -- diet, exercise, drug, surgery -- **loses muscle along with fat.** The
-composition of loss is a patient-important outcome in its own right, and it is next.
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-## Protect muscle while losing fat -- composition is an outcome, not a detail
+## Durability is the binding constraint: most regain, and the body defends the higher weight
 
-**Every energy deficit sheds lean mass alongside fat.** No diet, drug or surgery takes fat only, so the
-*composition* of what is lost is itself a decision -- and the same kilograms of lean loss mean opposite
-things in two people. For a young, muscular adult with obesity, muscle is abundant and the loss is minor
-and recoverable. For an older adult whose muscle is already the binding constraint, the same loss is a
-patient-important harm: falls, fractures, lost independence.
+The number that matters is not peak loss but *sustained* loss, and sustained loss is where lifestyle
+weight management runs into a wall. Franz's 2007 meta-analysis of 80 RCTs (26,455 enrolled, minimum
+one-year follow-up) fixes the shape: a mean 5 to 8.5 kg (5-9%) lost in the first six months, a plateau
+around six months, then partial regain to a modest few kilograms held out to 48 months -- with **no**
+intervention group returning all the way to baseline
+[@franz2007].
 
-**Low muscle mass predicts death.** In a pooled analysis of 10,028 community-dwelling older adults, those who died carried about 0.18 standard
-deviations less appendicular muscle than those who survived (SMD -0.18, 95% CI -0.23 to -0.12). The
-signal was not merely a shadow of weakness -- it «cannot be completely explained by differences in muscle
-strength» -- and grew *stronger* at higher BMI, the sarcopenic-obesity pattern [@santana2021].
+The method changes the peak, not
+the eventual plateau: a very-low-energy diet drove the biggest peak (17.9 kg, 16%) and the biggest
+regain (down to \~5.6 kg by 36 months), while diet-alone lost a shallow 4.9 kg and kept \~3.0 kg (3%) at
+48 months [@franz2007]. Read the honest
+caveats with the figures: the maintained-loss numbers are completer figures with \~29-31% attrition, so
+a person's *expected* sustained loss is likely below these means
+[@franz2007].
 
-**But low muscle mass is a predictor, not a proven target.** No trial shows that *raising* muscle mass lowers
-mortality; every study here is observational, and lean mass is itself a surrogate for function, which was
-never measured. Low muscle may simply mark an underlying decline. So muscle preservation is worth
-pursuing for function, independence and sarcopenia -- and carries an associational mortality rationale --
-but *raise your muscle to live longer* would over-read the evidence.
+Sumithran 2011 supplies the mechanism behind that trajectory. After an 8-week very-low-energy diet
+drove a 13.5 kg (14.0%) loss, participants regained \~5.5 kg, yet a full year out -- still \~7.9 kg below
+baseline -- their appetite-regulating hormones remained displaced toward eating and energy conservation
+(leptin still 35.5% below baseline, ghrelin still elevated, subjective hunger still raised)
+[@sumithran2011]. The study's own reading is that
+relapse "has a strong physiological basis and is not simply the result of the voluntary resumption of
+old habits" [@sumithran2011].
 
-**Resistance training is the primary defence under any deficit; protein is a modest adjunct.** At energy
-balance the muscle-building benefit of added protein plateaus around 1.6 g/kg/day, and the training, not
-the supplement, does the work [@morton2018].
-**A deficit raises the retention target.** An exploratory meta-regression puts the intake at which
-fat-free mass holds rather than falls near 1.9 g/kg of body mass (about 2.5 g/kg of fat-free mass), with
-leaner people gaining more per gram [@refalo2025].
-That number is a **floor to reach on reference or lean weight, not a ceiling to stop at** -- undershooting
-forfeits the muscle you are trying to keep, and the direction (a deficit needs *more*, not less) is the
-robust part.
+Two limits keep this from hardening into determinism. Sumithran is single-arm, uncontrolled, n=34
+completers conditioned on achieving >=10% loss, and every week-62-versus-baseline hormone difference is
+confounded with a genuinely lighter body -- the "defense beyond the weight difference" reading is
+established only for leptin, and the persistence is measured to 12 months, so *permanent* metabolic
+damage is an extrapolation past the data
+[@sumithran2011]. The practical consequence is a
+posture, not a verdict: maintenance is a distinct problem from loss, an unaided-willpower plan is
+mis-specified against a real biological headwind, and the rational response is **structural leverage** --
+a standing environmental or pharmacological prop -> [[Weight-Loss Maintenance and Metabolic Adaptation]],
+[[Layer 1 - Ranking Interventions for a Stratum]].
 
-On a GLP-1 drug the collision sharpens. As a *proportion* of weight lost, GLP-1 muscle loss runs about
-30% -- «comparable to that observed after bariatric surgery»
-[@laverde2026] -- and inside the ordinary
-20-30% band of diet-induced loss, so the drug class is not special on average
-.
-The author's verdict follows the ratio: «lean mass loss should not be considered a limitation for the use
-of these drugs in patients with obesity» [@laverde2026].
-**Semaglutide is the exception that earns the worry** -- up to 45% of its weight loss is lean, and
-absolute muscle falls by 5.44 kg (95% CI -7.07 to -3.81) [@laverde2026].
+The drug route makes the durability problem concrete rather than solving it. A 19-drug obesity network
+meta-analysis reports the class-wide pattern from a secondary source: after stopping treatment,
+participants regain weight at \~0.4 kg per month, projected to return to baseline within \~1.7 years, with
+cardiometabolic gains reverting [@nong2026obesity].
+Semaglutide's own off-treatment extension shows the same shape -- \~two-thirds of the loss
+regained within a year of stopping -> [[Semaglutide for Cardiovascular Risk in Obesity]]. So the drug
+does not escape the defended set-point; it holds it at bay only while taken, which makes the realistic
+decision a *lifetime* one.
 
-**Which face governs depends on the person.** The ratio reassures for the young and muscular. The absolute
-loss is what bites for the older, sarcopenia-risk adult. The drug suppresses appetite at exactly the
-moment the muscle-sparing protein target has gone *up*, making the defence hardest where it matters most
- -> [[Sarcopenia Definition and Diagnosis]]. Composition settles *what* is lost. Durability
-settles whether it lasts -- and the body defends the fat it shed.
+**Weight cycling and hard outcomes is a NAMED GAP.** Whether the loss-regain-loss cycle itself harms --
+beyond carrying no benefit -- is not answered by any gold meta-analysis the fabric holds. The one source
+that speaks to it, Montani 2015, is a labelled-moderate narrative review, a counterweight and not a
+magnitude anchor, and it is reverse-causation-prone: intercurrent illness drives both the cycling and
+the outcome, so an unadjusted association would read as harm that the underlying illness actually caused
+-> [[Weight Cycling and Cardiometabolic Risk]], [[Does Weight Loss Reduce Cardiovascular Events]]. State
+the absence; do not infer a direction.
 
-## Design for durability because the body fights regain
 
-**The folk model reads regain as a failure of resolve.** The mechanism tells a different story: the body
-actively defends the weight it lost. After a diet, appetite-regulating hormones shift toward eating and
-storage -- leptin (satiety) down, ghrelin (hunger) up, the satiety peptides suppressed. The finding
-that matters is that **these shifts still persist a full year later, after regain has already begun**. The
-relapse, the study concludes, «is not simply the result of the voluntary resumption of old habits»
-[@sumithran2011].
 
-**The appetite channel is the larger driver.** After weight loss, energy intake climbs by about
-100 kcal/day per kilogram lost -- «an effect more than 3-fold larger than the corresponding energy
-expenditure adaptations to weight loss» [@hallguo2017].
-The hormonal headwind, not a slowed metabolism, is what pushes hardest.
 
-The evidence here is thin -- one small uncontrolled study plus a review, with the causal step to regain
-associational -- so it is held at **low confidence**. But it reframes the problem: **maintenance is not
-weight-loss continued; it is a distinct task against an active biological headwind.** That is why a
-structural or pharmacological prop can beat unaided willpower, and why the drug route rebounds when stopped
--- remove the exogenous satiety signal and the endogenous deficit reasserts itself.
+<div class="recent-update" data-last-updated="2026-09-03"></div>
 
-**This also answers the yo-yo objection.** On the best available evidence -- a low-certainty narrative
-review -- the weight-cycling harm signal is confounded and inconsistent, and concentrated in
-*normal-weight body-image dieters*, not the person with obesity or metabolic disease for whom loss is
-indicated. The negative consequences are «more readily seen in people of normal body weight rather than in
-those who are overweight or obese», and the diabetes and cardiovascular associations attenuate once you
-adjust for weight status [@montani2015cycling].
-**Fear of cycling is not a reason to avoid trying -- it is a reason to build a maintenance phase.** With
-composition and durability set, the last question is who differs.
+## The levers shift by stratum -- and an effective drug re-sizes the rock
 
-## Place the person before you dose the lever -- stratum runs through baseline risk
+The intervention ranking is not a fixed list; it moves with the stratum, and three cases show how.
 
-Most of the stratum variation needs no special subgroup claim. **Absolute benefit scales with baseline
-risk even when the relative effect is identical** -- the same fractional reduction removes more from a
-large risk than a small one. So a lever worth pulling for a high-risk person may be immaterial for a
-low-risk one, with no disagreement about the evidence -> [[Baseline Risk and the Relative-Absolute Split]].
-This is the safe workhorse: stratify on prognosis, not on a claimed difference in how the lever works.
+**Menopause redistributes fat centrally rather than adding total fat.** The intuitive story --
+"menopause makes women gain weight" -- puts the emphasis in the wrong place. Ambikairajah's meta-analysis
+(201 cross-sectional studies, \~1.05 million women; 11 longitudinal) finds that the *quantity* of fat
+gained across midlife tracks aging, with no significant additional menopause influence; what menopause
+more likely does -- on hedged, mostly cross-sectional evidence the source frames as *possible*, not
+established -- is shift the fat centrally. The visceral-fat increment is +26.90 cm2 (13.12-40.68) on the
+cross-sectional pooling, but the more precise longitudinal estimate is under half that, +12.95 cm2
+(8.65-17.25) [@ambikairajah2019].
 
-Three strata shift that baseline. **A normal-weight person is not cleared of risk.** Fat can spill into
-the liver and drive metabolic disease below the overweight BMI cut-point, so a lean frame does not rule
-out the ectopic-fat hazard -> [[Ectopic Fat and Depot-Specific Risk]]. **Menopause redistributes fat
-centrally**, raising the visceral and fracture baselines while the levers (visceral-fat reduction,
-resistance training) stay the ones already ranked -> [[Menopause and the Shifting Levers]]. And in the
-**older, sarcopenia-risk adult**, absolute muscle loss weighs more than the flattering fat-to-lean ratio,
-so muscle protection moves to the front line.
+The
+decision-change is diagnostic: BMI and scale weight are confounded post-menopause by bone loss,
+sarcopenia and height shrinkage, so a normal BMI does not clear a menopausal woman of central-adiposity
+risk -- measure the waist. The levers are the ones already ranked (visceral-fat reduction, resistance
+training plus protein for muscle, weight-bearing work for bone); HRT is a bone adjunct and a small
+body-composition adjunct, not the muscle lever. This is route-(a) stratification -- a shifted baseline,
+not a new subgroup effect -> [[Menopause and the Shifting Levers]],
+[[Baseline Risk and the Relative-Absolute Split]].
 
-A cheap fasting readout -- the triglyceride-glucose (TyG) index, or the TG/HDL ratio -- can flag who sits
-in the insulin-resistant, atherogenic-dyslipidemia stratum. Read it as a marker to place a person with, not a target
-to steer toward -> [[Insulin Resistance Surrogates and Cardiovascular Risk]]. Note what is absent: the
-corpus holds **no body-fat-percentage cut-point** for any of this -- depot and baseline risk do the
-stratifying, not a threshold on total fat. That leaves one question: what to actually do.
+**In prediabetes, an intensive lifestyle program out-prevents metformin, and does so broadly.** DPP
+randomized prediabetic adults to lifestyle, metformin, or placebo: lifestyle cut diabetes incidence by
+58% (48-66) and metformin by 31% (17-43), with lifestyle 39% (24-51) better than the drug head-to-head
+[@knowler2002].
 
-## Act on the big rock, dose for durability, measure the depot
+The two arms behave differently by
+stratum, and this is the decision-relevant structure. Lifestyle works across essentially every subgroup.
+Metformin's effect is genuine effect modification (route b): near-null at the lean, near-normal-fasting
+end -- 3% (-36 to 30) at BMI 22 to <30 and 15% (-12 to 36) at fasting glucose 95-109 mg/dl -- rising to
+53% (36-65) at BMI >=35 and 48% (33-60) at fasting glucose 110-125 mg/dl
+[@knowler2002]. So metformin is a stratum-specific
+drug (worth most in the more obese and more hyperglycemic, near-useless in the lean), while lifestyle is
+a broad-spectrum lever -> [[Lifestyle vs Metformin for Diabetes Prevention]].
 
- This closing recap synthesises the sections above; each number is sourced in its home
-section.
+That prevention win is outcome-scoped, and the scoping is the honest edge. DPP prevents the *diagnosis*
+of diabetes; whether that averts heart attacks or extends life is a separate claim. Over a median 21
+years, DPPOS found **neither** metformin nor lifestyle reduced cardiovascular events -- metformin MACE
+HR 1.03 (0.78-1.37), lifestyle MACE HR 1.14 (0.87-1.50), the lifestyle point estimate trending the
+wrong way [@goldberg2022]. This is a bounded null in a
+low-risk, heavily statin- and BP-treated cohort, not a demonstration of no effect: a higher-risk
+population *does* show the benefit -- Da Qing's 30-year follow-up gave a lifestyle MACE HR 0.74
+(0.59-0.92) [@goldberg2022]. Absolute CV benefit
+scales with baseline risk (route a), so a low-risk person has little absolute risk to remove
+-> [[Baseline Risk and the Relative-Absolute Split]].
 
-- **Ask where the fat sits, not just how much.** Waist circumference and liver fat mark the
-  intra-organ depot that carries the cardiometabolic risk. Body-fat percentage beats BMI but is still a
-  total-mass proxy, and a normal weight does not rule risk out -> [[Ectopic Fat and Depot-Specific Risk]].
-- **Pursue fat loss for the outcomes it demonstrably moves** -- diabetes remission, fatty-liver
-  regression, glucose control, function -- and do not count on a lifestyle-route reduction in heart
-  attacks, which the trial evidence did not deliver in established diabetes.
-- **For diabetes remission, aim at the kilograms you can sustain, not a macronutrient** -- remission
-  rises with weight lost, reaching roughly 86% at 15 kg or more, and it is weight-mediated rather than
-  carbohydrate-specific -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
-- **Dose to the target where a threshold exists** -- about 5% body-weight loss reduces liver fat, 7-10%
-  resolves inflammation, and 10% or more is needed for fibrosis regression; read these as guidance, not
-  precision -> [[Fatty Liver MASLD and Weight Loss]].
-- **Match the method to the outcome and to what you will adhere to** -- diet moves the scale, exercise
-  targets the visceral depot and fitness, and drugs or surgery are routes with their own hard-outcome and
-  durability profiles. Plan the weight change around the intake channel.
-- **Protect muscle with resistance training and adequate protein** -- prudent for anyone losing weight,
-  front-line once older or at sarcopenia risk, where absolute muscle loss is the harm that counts.
-- **Plan maintenance as its own problem,** not as loss continued -- the body defends the lower weight, so
-  a standing structural or pharmacological prop beats a plan that assumes willpower will close the gap.
+**Meal timing is a small lever, and the drug landscape now dwarfs it.** Time-restricted eating adds
+little once the calorie deficit is matched: Liu's 12-month RCT prescribed both arms the same deficit and
+varied only the 8-hour window, and the window added no significant weight loss (net -1.8 kg, 95% CI -4.0
+to 0.4, P=0.11), with every metabolic secondary null between groups
+[@liu2022].
 
-Every one of these is a substitution judged on net effect and adherence, and the weighting across the
-outcomes -- length of life, function, the shape of decline -- stays the person's.
+Pooled, even the best
+intermittent-fasting form -- alternate-day fasting -- beats continuous restriction by only -1.29 kg
+(-1.99 to -0.59), below the 2.0 kg threshold of clinical meaningfulness
+[@semnaniazad2025]. A short
+ad-libitum window can also quietly cost muscle: TREAT recorded a between-group appendicular-lean-mass
+deficit of -0.47 kg (-0.82 to -0.12) [@lowe2020], so
+the practical instruction is to keep protein up inside any window. Against this, the same meta-analysis
+notes GLP-1 receptor agonists such as semaglutide "result in substantial weight reductions of 10-15%
+body weight" [@semnaniazad2025]
+-- roughly 3-8x any fasting effect -> [[Time-Restricted Eating]].
 
----
+That contrast is not only about weight -- it is the *drug-landscape-sizes-the-rock* principle, a Layer-1
+input and not merely a Layer-3 choice. A lever's marginal rank is the patient-important benefit it adds
+over the best realistic alternative a person could reach instead, and a mature, low-harm GLP-1 with a
+demonstrated MACE benefit is now such an alternative for the cardiovascular outcome (magnitude carried on
+[[Semaglutide for Cardiovascular Risk in Obesity]]). Where that drug captures most of the reachable CV
+benefit, the marginal "lose weight by lifestyle for hard CV outcomes" rock **shrinks** for that stratum.
 
-**The one axis, and the open loop.** This is an evidence appraisal, not a prescription. It states which
-outcomes body-fat level and its modification move, in which direction, and with what certainty. It does
-not select, dose, titrate, or screen for contraindications for any individual -- those are prescriber acts
-requiring a person's labs, medications and history.
+But the shrinkage is outcome-specific and net of the drug's own costs: the drug must be taken for life
+(regain on stopping, above), carries its own side-effect and dependency burden, and does not remove the
+upstream cause, whereas lifestyle change carries structural and pleiotropic leverage a single-channel
+drug cannot substitute for. So the drug re-sizes the rock without dissolving it -- and which to reach for
+stays the person's decision at Layer 3.
 
-- **The loop is open.** Everything here grades coherence and fidelity to the cited sources, never
-  validity. No step checks a recommendation against a realized outcome, so a clean appraisal is not a
-  validated result.
-- **Estimates are population-level; stratify per person.** The effect sizes are stated for reference
-  classes, not for you. Absolute benefit tracks baseline risk, and the weighting of competing outcomes is
-  elicited per case, not supplied here.
-- **One health axis only.** This cut weighs longevity, healthspan, function and absence of deficiency. It
-  holds no environmental, ethical, cost or scalability data and does not price those trade-offs; where one
-  exists, it is named, not netted against the health finding.
+
+
+
+<div class="recent-update" data-last-updated="2026-09-03"></div>
+
+## The decision that remains: reach the organs, and make the loss last
+
+For most people the useful question is not *which diet* but *whether the loss is the kind that reaches
+the organs and lasts*. Losing intra-organ and visceral fat -- by whatever sustained route a person can
+actually hold to -- is what moves liver disease and diabetes remission, and, where a demonstrated route
+(bariatric surgery, a GLP-1 drug) or a high enough baseline risk is present, hard cardiovascular
+outcomes. The composition of the diet and the timing of meals are second-order to the magnitude and
+durability of the loss. And the honest edges are two: lifestyle weight loss has not cleanly shown a
+hard-outcome benefit in already-low-risk people -- the DPPOS 21-year cardiovascular null is the worked
+instance -- and the long-run harm of weight cycling is unmeasured, held only by a moderate narrative
+source that reverse causation can explain.
+
+That is the calibrated confidence this deliverable carries, and it is what defeats the guidance null. The
+hard-outcome benefit of losing fat is *demonstrated* for surgery and for a GLP-1 drug, *plausible but
+unproven* for lifestyle in a low-risk stratum, and *scales with baseline risk* everywhere. Most of the
+"weight loss works" evidence sits on surrogates and remission -- weight, HbA1c, blood pressure, liver
+enzymes, muscle mass -- and is labelled as such rather than blended into the hard-outcome column. The
+stratum where the advice fails is the already-lean, active, well-treated, low-risk person: the levers are
+largely pulled, the marginal cardiovascular rock is small, and reporting that the remaining gains are
+small and uncertain is itself the decision-change -- it licenses that person to stop optimizing. The loop
+stays open: everything here grades coherence and fidelity to the sources, never a recommendation against
+a realized outcome.
+
+
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?' |
-> | **Evidence included** | 31 sources — 10 gold, 18 high, 3 moderate |
+> | **Evidence included** | 51 sources — 19 gold, 28 high, 4 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Lowe (RCT, moderate); Montani (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 4 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Lowe (RCT, moderate); Hall (narrative review, moderate); Ludwig (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 ## References

@@ -9,6 +9,8 @@ Navigator for the specific-food and component clusters — whether a named food,
 class moves a patient-important outcome enough to change what someone eats or buys, and whether the
 food category is doing the work. Nucleus of the label side: [[Organic vs Conventional Food]].
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## Cancer / neoplasia prevention
 
 The diet/activity/adiposity -> cancer domain (WCRF/AICR CUP). Cross-cutting — a dedicated Cancer
@@ -27,6 +29,8 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   studies / 23 sites): heavy-drinking RRs up to 5.13 (oral/pharynx), significant risk from *light*
   drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
   effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
+
+<div class="recent-update" data-last-updated="2026-09-02"></div>
 
 ## Foods and beverages
 

@@ -20,6 +20,8 @@ updated: 2026-09-01
 self_critiqued: 2026-09-01
 ---
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
 **independently of aerobic activity**, and it does so at a **small dose**. Three meta-analyses now
 converge on this — Momma 2022 (broad muscle-strengthening activity), Saeidifard 2019 and Shailendra 2022
@@ -38,6 +40,9 @@ a reversal (see the cross-source table below).
 
 
 [@momma2022]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The effects — modest, broad, and independent of aerobic exercise
 
 Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activities»:
@@ -58,6 +63,9 @@ is a refinement, not an [E-independent] convergence.
 
 
 [@saeidifard2019]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Saeidifard 2019 — the second MA, endpoint-resolved and mortality-specific
 
 Saeidifard is a SR-MA of «11 (one randomized trial and 10 cohort studies)... totaling 370,256
@@ -101,6 +109,9 @@ resistance training and survival has a U-shape curve.» This is a second-source 
 
 
 [@shailendra2022]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Shailendra 2022 — the third MA: a larger cancer pool and a minutes/week dose curve
 
 Shailendra is the mortality-specific update of Saeidifard: a SR-MA of **10 prospective cohort studies**
@@ -153,6 +164,9 @@ constraint is *why* only 4 of 10 studies could enter the dose-response, and it c
 
 
 [inferred from @momma2022; @saeidifard2019; @shailendra2022]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## The three MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
 
 The op-weave parameter table, with the same-quantity column doing the work:
@@ -308,6 +322,8 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 
 [inferred from @momma2022]
 
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Why the diabetes curve is clean but the mortality curve is not (deliverable-critique, 2026-08-01)
 

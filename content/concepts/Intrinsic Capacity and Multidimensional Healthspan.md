@@ -21,12 +21,16 @@ relationships:
     - Physical Activity Dose and Mortality
 ---
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 **What "healthspan" is when you refuse to let it collapse onto mortality or disease.** The wiki
 centres a *health* axis that includes function and healthspan, not only length of life
 ([[Rating Outcome Importance]]). This page holds the construct that *operationalizes* that axis as a
 measurable, **person-centred functional** outcome — so that "does this lever extend healthspan?" is a
 question with an answerable endpoint rather than a slogan.
 
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## The construct — two person-centred functional measures, not a biomarker
 
@@ -44,6 +48,8 @@ route: measures with «a person-centered focus on functioning rather than diagno
 - **The construct claim:** «a composite IC score would serve as a better indicator when assessing
   healthspan instead of single domains of IC (e.g., locomotion or cognitive domain alone)» — the whole
   is held to carry more than any one domain.
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Why the composite matters for the outcome menu (the anti-streetlight point)
 
@@ -63,6 +69,8 @@ capacity-defined).
   exercise/cognitive interventions and by a Hawthorne effect. So a composite-function *benefit* on
   self-report is discounted, not taken at face value.
   [@zheng2026healthspan]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## What moves it — the hedged evidence (single 2026 SR, recency-discounted)
 
@@ -92,6 +100,8 @@ the settled truth, per the crowded-field recency rule. Treat the exercise -> IC/
 **directionally supported, magnitude small and uncertain**, not established.
 [inferred from @zheng2026healthspan]
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## Decision relevance and transportability
 
 [inferred from @zheng2026healthspan]
@@ -107,6 +117,8 @@ the settled truth, per the crowded-field recency rule. Treat the exercise -> IC/
   healthier-than-average older stratum, and evidence «may be generalized to older Caucasians and Asians
   from high-income or upper-middle in­come countries», not younger or lower-income populations.
   [@zheng2026healthspan]
+
+<div class="recent-update" data-last-updated="2026-08-28"></div>
 
 ## Open (G-gaps)
 

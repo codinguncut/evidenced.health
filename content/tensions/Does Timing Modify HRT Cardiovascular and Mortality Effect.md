@@ -18,6 +18,8 @@ updated: 2026-09-01
 self_critiqued: 2026-09-01
 ---
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 Orbiter-tension of [[Hormone Therapy After Menopause]] (which twice defers to "see tension" on the CHD and
 mortality rows — this is that tension). **The same question — does starting HRT earlier (age <60, or <10 y
 from menopause) change its effect on CHD and all-cause mortality? — is answered oppositely by two gold
@@ -25,6 +27,8 @@ guideline families reading a largely shared trial base.** It is the guidance-nul
 they disagree, not by picking a side.
 
 [inferred from @nams2022; @niceng23]
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## The two positions on the same subgroups
 
@@ -54,6 +58,8 @@ trials versus placebo (HR, 0.69; 95% CI, 0.51-0.94)» [@nams2022].
 NICE's operative recommendation: «taking either combined HRT or oestrogen-only HRT is unlikely to affect
 life expectancy» [@niceng23].
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Counter-passage — is the issue joined?
 
 Checked NAMS's own text: the window rests substantially on evidence NICE excludes, and NAMS **itself records
@@ -71,6 +77,8 @@ reasons 2 (different evidence base) and 3 (genuine disagreement) both fire; reas
 not — both bodies apply a stated appraisal method, and NICE's RCT-restriction is a defensible choice, not a
 lapse -> [[Certainty of Evidence vs Strength of Recommendation]].
 
+<div class="recent-update" data-last-updated="2026-09-01"></div>
+
 ## Hidden insight — the window rides on the weakest evidence in the stack
 
 The critical-window hypothesis is **carried by the softer evidence** (observational, open-label, a
@@ -81,6 +89,8 @@ applies to a subgroup signal: a 50-59 mortality benefit «significant in isolati
 is a **candidate artifact**, not an established effect modifier -> [[The U-Shaped Association Artifact]]. The
 NAMS-endorsed magnitudes are real point estimates; what is contested is whether they are effect modification
 (route (b)) or noise.
+
+<div class="recent-update" data-last-updated="2026-09-01"></div>
 
 ## Decision relevance
 

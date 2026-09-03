@@ -79,6 +79,8 @@ carries a founder and shareholder conflict, a halo tell held to the same standar
 [@wastyk2021]. So the fair reading is
 insufficient evidence on hard outcomes, not proof of benefit and not proof of none.
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## The cardiovascular signal is real but confined to fermented dairy — and one cohort carries it
 
 The observational evidence is stronger, and it is entirely about fermented *dairy*, not ferments in
@@ -130,6 +132,8 @@ exposure and an event in a different exposure do not confirm each other — the 
 the held evidence cannot close.
 [inferred from @wastyk2021; @zhang2019]
 
+<div class="recent-update" data-last-updated="2026-08-27"></div>
+
 ## No study here tests whether the cultures have to be alive
 
 The popular account treats this question as answered; the evidence leaves it open. A fermented
@@ -166,6 +170,8 @@ standard is hardest to meet
 Where defined probiotics have real, outcome-level wins — antibiotic-associated
 diarrhoea, *C. difficile* prevention, necrotizing enterocolitis in preterm infants — the evidence is
 tied to named strains, not to eating live-culture yogurt -> [[Gut Microbiome and Health]].
+
+<div class="recent-update" data-last-updated="2026-08-27"></div>
 
 ## The trendy ferments are unstudied, not disproven
 

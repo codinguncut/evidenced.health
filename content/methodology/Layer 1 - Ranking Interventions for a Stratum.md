@@ -49,6 +49,8 @@ baseline risk. Of eight exposures below, **one** has an absolute effect on a har
 
 
 
+<div class="recent-update" data-last-updated="2026-08-28"></div>
+
 ## What is held
 
 | Exposure | Effect | Outcome type | Certainty | Source page |

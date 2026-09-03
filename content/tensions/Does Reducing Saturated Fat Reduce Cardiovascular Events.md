@@ -21,6 +21,8 @@ updated: 2026-08-30
 self_critiqued: 2026-08-30
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 Two readings of largely the same trial and cohort evidence. **Hooper/WHO:** reducing SFA cuts
 combined cardiovascular events (RR 0.83, Moderate certainty), so reduce SFA to 10%E [@who2023saturated]. **Astrup et al.
 2020:** the evidence does not support a population SFA limit — the events signal rests on a
@@ -28,6 +30,8 @@ comparator-contaminated trial base, any real benefit may be the *replacement* no
 guidance should be food-based. The held evidence is on [[Saturated Fat Intake and Replacement]] and
 Hooper; this page is the joined issue —
 and it **decomposes**, most of the apparent contradiction dissolving into agreement.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Both positions in their own terms
 
@@ -47,6 +51,8 @@ and it **decomposes**, most of the apparent contradiction dissolving into agreem
   not aligned with the current evidence base." No new trial — the case is re-appraisal + observational
   (PURE, UK Biobank) + mechanistic.
   [@astrup2020]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Parameter table — where the two actually meet, and where they only appear to
 
@@ -314,6 +320,8 @@ one (Analysis 1.36, «more marginal protection», figure unquoted). A critique t
 (0.81-1.08) on the *combined cardiovascular events* estimate has swapped the two outcomes — the
 direction of the claim survives, the label does not.
 [inferred from @hooper2020]
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The hidden insight
 

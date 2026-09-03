@@ -17,6 +17,8 @@ updated: 2026-08-30
 self_critiqued: 2026-08-30
 ---
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 The antidepressant class is a **standing drug** the wiki appraises for **efficacy and its limitations**,
 not because it is a lifestyle lever but because a large share of the target population is on one, and it
 is the default primary-care prescription for depression — so understanding what it does and does not do
@@ -29,6 +31,8 @@ discontinuation on stopping — is appraised below (Henssler 2024).
 OUT (prescriber zone): which agent to prescribe for an individual, dosing/titration, screening. The
 per-agent ranking is reported below as a *finding that it exists and is uncertain*, never as a
 prescribing guide.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## The headline finding — the class beats placebo, modestly
 
@@ -66,6 +70,8 @@ harms is often understudied»
 - **confidence:** low — single (gold) source, a surrogate outcome, an acute horizon, and the class-beats-
   placebo direction far more secure than any per-agent magnitude.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## Three load-bearing qualifications on "it works"
 
  — the direction (class > placebo) is robust; each qualification narrows what that licenses.
@@ -85,6 +91,8 @@ harms is often understudied»
   construction.
 - **The certainty is moderate-to-very-low, and the between-drug ranking is the fragile part** (next
   section).
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Acceptability — the class is roughly as tolerable as placebo, and why that is a composite
 
@@ -108,6 +116,8 @@ equal to placebo* does not mean *as side-effect-free as placebo*; it means the e
 offsets the side-effect cost in the *net* stay-on-treatment measure. The harm is present; the composite
 absorbs it.
 
+<div class="recent-update" data-last-updated="2026-08-30"></div>
+
 ## The per-agent ranking exists but is low-certainty — do not read it as a prescribing order
 
 The robust finding is **class-level** (all 21 > placebo). The **between-drug ordering is fragile**, and
@@ -129,6 +139,8 @@ Cipriani says so structurally:
 weakly evidenced — the class effect is real and the ordering is mostly noise plus novelty bias. That is a
 per-agent selection question (prescriber zone), not a fabric claim; this page records only that the
 ranking is uncertain, and deliberately does **not** table the 21 drugs as a recommendation.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## What this class-efficacy finding does NOT establish (named gaps)
 
@@ -153,6 +165,8 @@ ranking is uncertain, and deliberately does **not** table the 21 drugs as a reco
   [@cipriani2018antidepressants]. The finding is for
   **initial** treatment only; the excluded populations (psychotic, treatment-resistant) bound
   transportability.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Limitations — discontinuation and withdrawal (Henssler 2024)
 
@@ -238,6 +252,8 @@ to 7** will have genuinely drug-caused discontinuation symptoms and **\~1 in 35*
 venlafaxine/desvenlafaxine; the per-agent ordering is otherwise preliminary (wide CIs; mirtazapine,
 bupropion, amitriptyline unstudied). This is a **stratum-level appraisal of a standing drug's
 limitation**, not a discontinuation protocol; tapering-regimen selection stays prescriber-zone.
+
+<div class="recent-update" data-last-updated="2026-08-30"></div>
 
 ## Substitution — where the class sits against the realistic alternatives
 

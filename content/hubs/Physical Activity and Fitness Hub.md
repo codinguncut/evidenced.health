@@ -20,6 +20,11 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   dose-response MA): total sitting vs TV viewing as two exposures, per-outcome accelerating-harm knees
   (\~8h sitting / \~3.5h TV for all-cause; PA-adjusted), and incident T2D — TV->T2D the strongest
   association (1.09/h, 29% PAF), most caveated by reverse causation and dietary mediation
+- [[Wearable Activity Trackers and Physical Activity]] — the adherence/behaviour-change lever for
+  *reaching* the dose (not a new dose fact): a consumer tracker adds \~627 steps/day (95% CI 417-862,
+  I2=3%, GRADE low) short-term, but durability is unproven (the 2 trials >=12mo showed *lower*
+  adherence) and the outcome is a surrogate; ranks as a small adherence aid, best paired with human
+  contact, most useful for the near-inactive (Brickwood 2019 MA, 28 RCTs)
 - [[The Physical Activity Paradox]] — the domain caveat on the dose page: high *occupational* (work) PA
   associates with *higher* mortality in men (Coenen, HR 1.18), opposite to leisure/total PA — so
   physically demanding work does not substitute for leisure exercise on the mortality outcome (LOW

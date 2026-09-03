@@ -16,8 +16,9 @@ relationships:
     - Physical Activity Dose and Mortality
     - Sources of Non-Replicability
     - Linoleic Acid and Cardiovascular Disease
+    - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-08-25
+updated: 2026-09-02
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 

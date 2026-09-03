@@ -15,7 +15,7 @@ relationships:
     - Which Objective Moved This Recommendation
     - The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not
 created: 2026-08-01
-updated: 2026-08-06
+updated: 2026-09-01
 self_critiqued: 2026-08-01
 ---
 
@@ -107,13 +107,16 @@ Kept distinct: benefit · harm · no meaningful effect · insufficient/contested
 | **Genitourinary symptoms** | **BENEFIT** (low-dose vaginal) | vaginal ET effective, minimal systemic absorption (NAMS) |
 | **Breast cancer** | **HARM (EPT) / benefit-or-null (ET)** | see the E+P vs ET table above — opposite signs by formulation |
 | **Stroke / VTE** | **HARM**, route- and timing-modified | WHI stroke HR 1.41, PE 2.13; rare in <60 initiators; NICE: combined HRT raises stroke with **oral** but not **transdermal** oestrogen |
-| **CHD** | **CONTESTED** (see tension) | WHI +7/10,000 (older, asymptomatic); NAMS: reduced in <60 initiators; NICE: null, no clear timing effect |
-| **All-cause mortality / life expectancy** | **NO MEANINGFUL EFFECT overall** | WHI total mortality HR 0.98; NICE 1.6.1 «unlikely to affect life expectancy»; a 50-59 subgroup reduction is disputed (tension) |
+| **CHD** | **CONTESTED** (see [[Does Timing Modify HRT Cardiovascular and Mortality Effect]]) | WHI +7/10,000 (older, asymptomatic); NAMS: reduced in <60 initiators; NICE: null, no clear timing effect |
+| **All-cause mortality / life expectancy** | **NO MEANINGFUL EFFECT overall** | WHI total mortality HR 0.98; NICE 1.6.1 «unlikely to affect life expectancy»; a 50-59 subgroup reduction is disputed ([[Does Timing Modify HRT Cardiovascular and Mortality Effect]]) |
 | **Cognition / dementia** | **NO benefit; HARM if started >65** | neutral early; WHIMS +23 dementia cases/10,000 when started >65 (NAMS); NICE: «might» increase if started later |
 | **Type 2 diabetes** | **BENEFIT** (not an indication) | EPT 16 fewer T2D cases/10,000 py (NAMS) — noted, not government-approved for it |
 
 
 ## The tension — does timing modify the cardiovascular effect? (type-D, two gold bodies)
+
+**Filed as a standalone tension** -> [[Does Timing Modify HRT Cardiovascular and Mortality Effect]] (this
+section is the nucleus's summary of it).
 
 [inferred from @nams2022; @niceng23]
 This is a genuine joined-issue: **the same question — does age / time-since-menopause modify HRT's effect

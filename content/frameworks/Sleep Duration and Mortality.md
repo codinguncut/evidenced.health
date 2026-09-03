@@ -2,14 +2,14 @@
 type: framework
 question: How much sleep, and is the short/long mortality U-curve causal or a marker of illness?
 aliases: [Sleep Duration, Sleep and Mortality, Short Sleep, Long Sleep, Sleep U-Curve, How Much Sleep]
-authors: [Cappuccio, Francesco P; D'Elia, Lanfranco; Strazzullo, Pasquale; Miller, Michelle A; Livingston, Gill; Yin, Jiawei; Liu, Liegang]
-sources: [Cappuccio - Sleep Duration and Mortality 2010, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017]
+authors: [Cappuccio, Francesco P; D'Elia, Lanfranco; Strazzullo, Pasquale; Miller, Michelle A; Livingston, Gill; Yin, Jiawei; Liu, Liegang; Wang, Shanshan; Ai, Sizhi]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Wang - Sleep Duration Cardiovascular Meta-Review 2022]
 cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-13
-self_critiqued: 2026-08-13
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -99,6 +99,52 @@ a small, mechanism-backed risk** (million-woman study RR 1.08, 1.04-1.12 for <7 
 recommend on — dementia is added to the outcomes where the short arm looks causal and the long arm does
 not. Notably the Commission declined to make *any* sleep-duration recommendation, an honest
 insufficient-evidence stop the wiki mirrors.
+
+## Third outcome — CVD incidence (CAD/HF/stroke), and the MR strong check lands `[2026-09-02, Wang]` `type-F`
+
+The held sleep-CVD evidence above is **mortality-only** (Cappuccio, Yin: all-cause / CV mortality). Wang
+2022 — a meta-review + meta-analysis pooling four observational MAs and 11 Mendelian-randomization (MR)
+studies — adds the **morbidity/incidence** endpoints (CAD/CHD, HF, stroke incidence) AND supplies the
+**genetic strong check** the causal-vs-marker split above rested on *argument* for. Referent 7 h throughout.
+
+**Observational CVD incidence — the same U/J the mortality curve shows.** CHD is U-shaped (Wang D. 2016,
+AMSTAR 11): vs 7 h, per 1 h *reduction* RR 1.11 (1.05-1.16) and per 1 h *increment* RR 1.07 (1.00-1.15),
+both with high heterogeneity (I2 59-71%). Stroke is J-shaped (He 2017, 16 cohorts, 528,653): per additional
+hour RR 1.13 (1.07-1.20), the long arm steep (9 h 1.45, 10 h 1.64).
+[@wang2022sleep]
+
+**The MR causal check — short sleep is CAUSAL, and it is the arm with the mechanism.** Genetically-predicted
+short sleep raises CAD (pooled IVW OR 1.24, 1.15-1.34), MI (OR 1.20, 1.12-1.28), and HF (both MR studies
+positive; Zhao IVW OR 1.14, 1.03-1.26); per-hour *longer* genetically-predicted sleep is protective for CAD
+(OR 0.74, 0.59-0.92) and MI (OR 0.84, 0.73-0.97). Wang's verdict: «evidence is accumulating that short sleep
+duration is a causal risk factor for CAD and HF», and «short sleep duration rather than long sleep duration
+is associated with the risk of CAD or HF».
+[@wang2022sleep]
+
+**The MR does NOT support long-sleep causality — but that is insufficient evidence, not a demonstrated null.**
+Neither MR study found a causal CAD association for long sleep, both HF MR studies were null, and stroke was
+null — Wang states «long sleep duration has no causal associations with stroke and CAD in the MR studies».
+This is the arm the observational curve most inflates: Wang attributes the long-sleep observational signal to
+long sleep being «a surrogate risk indicator for poor health status or sleep quality» and associations that
+«may have been confounded by these unmeasured factors and reﬂected potential reverse causality». **But the MR
+long-sleep nulls are underpowered, not decisive** — the genetic instruments for long sleep are few (one MR
+did «no analysis» for want of SNPs), and Wang concedes «MR studies ... did not provide suﬃcient evidence
+supporting the causal association between long sleep duration» and «No clear experimental evidence shows the
+harmful eﬀects of long sleep duration». So the long arm moves from *argued-artifact* toward
+*genetically-unsupported*, without a demonstrated no-effect -> [[The U-Shaped Association Artifact]] (this is
+the strong check that instance awaited).
+[@wang2022sleep]
+
+**Decision refinement.** For a **short** sleeper (<7 h), the causal footing is now stronger — MR converges
+with the mechanism and Whitehall direction, so extending toward 7-8 h is a lever with genetic support. For a
+**long** sleeper, Wang's own rule holds and hardens: «For people who have a long sleep duration, we should
+not directly recommend increasing sleep duration to reduce the risk of CVDs» — shortening a long sleeper's
+sleep optimises a marker, and the genetic check gives no reason to treat long sleep as a modifiable cause.
+NOT an independent-E corroboration of Cappuccio: Wang re-pools the same overlapping observational cohorts, so
+the observational agreement is shared-base, not independent — the beyond-summary value is the MR *method* leg
+(a genetic natural experiment) triangulating the same question.
+
+[inferred from @wang2022sleep]
 
 ## Duration is not the only axis — two facets now sit under this nucleus
 

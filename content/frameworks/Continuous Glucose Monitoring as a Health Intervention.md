@@ -12,8 +12,9 @@ relationships:
     - Surrogate Outcomes
     - Sodium Intake and Blood Pressure
     - Is the Food Category Doing Any Work
+    - Wearable Activity Trackers and Physical Activity
 created: 2026-07-29
-updated: 2026-08-08
+updated: 2026-09-01
 self_critiqued: 2026-07-29
 ---
 

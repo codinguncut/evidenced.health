@@ -2,12 +2,12 @@
 type: deliverable
 title: Dietary Fat
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
 confidence: medium
 created: 2026-08-17
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 ---
 
@@ -97,6 +97,17 @@ events by about a fifth (RR 0.78, 0.76-0.80) with no threshold in the range stud
 [@ctt2010]. So the saturated-fat ->
 LDL step is a **directionally meaningful** one: it points the right way, on a validated-surrogate
 exemplar rather than a marker-of-convenience.
+
+A controlled-feeding factorial trial adds internal-validity weight to that saturated-fat -> LDL step.
+The APPROACH trial crossed two background saturated-fat levels against a meat-versus-plant protein
+swap, and found the two act as **separate, additive levers**: background saturated fat raised LDL-C
+and apoB regardless of the protein source, while «LDL cholesterol and apoB were higher with red and
+white meat than with nonmeat, independent of SFA content»
+[@bergeron2019]. Isolating
+the saturated-fat effect from the protein-source effect inside one trial firms the *direction* the
+swap-the-SFA guidance already asserts — it does not change it. This is a **surrogate (lipid) endpoint;
+no cardiovascular events were measured**, so it strengthens the SFA -> LDL direction without adding a
+hard-outcome claim.
 
 But direction is not magnitude, and a **diet**-induced LDL-C change is not interchangeable with a
 **drug**-induced apoB change. A double-blind trial demonstrates this most clearly -- the surrogate
@@ -310,9 +321,9 @@ evidence does not offer.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?' |
-> | **Evidence included** | 19 sources — 8 gold, 9 high, 1 weak |
+> | **Evidence included** | 20 sources — 8 gold, 10 high, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
 
 ## References

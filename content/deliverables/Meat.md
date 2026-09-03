@@ -3,12 +3,12 @@ type: deliverable
 title: Meat
 aliases: [Red Meat, Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health, Meat and Health, Poultry, White Meat]
 question: What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces?
-sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Budhathoki - Animal Plant Protein Mortality 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018]
+sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-29
-self_critiqued: 2026-08-29
-concrete_subject_audited: 2026-08-29
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 ---
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
@@ -108,6 +108,23 @@ those who eat red meat: «limit consumption to no more than about three portions
 350 to 500 grams ... cooked weight» [@wcrf2018ter] (500 g
 cooked is roughly 700-750 g raw).
 
+The heme channel reaches past cancer. Higher dietary heme-iron intake is associated with coronary
+heart disease at **RR 1.31 (95% CI 1.04-1.67)**
+[@yang2013heme] and with incident
+type-2 diabetes at **RR 1.31 (95% CI 1.21-1.43)**
+[@zhao2012hemeiron], each highest-versus-
+lowest — a consistent direction that makes heme a candidate *shared* lever across several outcomes
+rather than a coincidence of separate associations.
+
+But a Mendelian-randomization study undercuts a unified *harmful iron* story. Genetically-predicted
+higher iron stores were **protective for coronary artery disease** (OR 0.86-0.93 per SD) yet
+**adverse for type-2 diabetes**
+[@liu2024ironmr].
+A single iron channel cannot be harmful for both, so whatever raises coronary risk in the
+observational heme data most likely runs through a non-iron route rather than iron burden itself. And
+the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
+without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
+
 ## Preparation matters less than the headlines
 
 ### Cooking method: a mechanism, not yet an outcome
@@ -128,11 +145,26 @@ charred red and processed meat specifically, not on all browning of all foods.
 
 A leaner cut lowers the saturated-fat load, and saturated fat is one route by which meat reaches
 cardiovascular risk — but only one, alongside heme iron, processing salts and nitrates, and
-cooking-generated compounds. Its effect is not a fixed number: it depends on **what replaces the
-fat**. Replacing saturated fat with polyunsaturated fat lowers cardiovascular risk; replacing it with
-refined carbohydrate does not. So "trim the fat" is a real but modest lever whose payoff runs through
-the replacement, not through the trimming itself.
--> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]]
+cooking-generated compounds. Two controlled-feeding trials show the fat, not the meat, does the lipid
+work. In the BOLD crossover trial, swapping a large amount of lean beef (113-153 g/day) into a
+low-saturated-fat DASH-like pattern lowered LDL-C as much as DASH itself, with no separation across
+beef dose once the fat was fixed: «Low-SFA, heart-healthy dietary patterns that contain lean beef
+elicit favorable effects on cardiovascular disease (CVD) lipid and lipoprotein risk factors that are
+comparable to those elicited by a DASH dietary pattern»
+[@roussell2012bold].
+
+In the APPROACH trial, red and white meat raised LDL-C and apoB equally against a nonmeat protein —
+«LDL cholesterol and apoB were higher with red and white meat than with nonmeat, independent of SFA
+content» [@bergeron2019] —
+and red did not differ from white. So meat *color* is not the lipid lever and beef *amount* is not
+either; the background saturated fat and meat-versus-plant are. Both are surrogate (lipid) endpoints —
+neither trial measured a cardiovascular event.
+
+So *trim the fat* is a real but modest lever whose payoff runs through the replacement, not through the
+trimming itself: replacing saturated fat with polyunsaturated fat lowers cardiovascular risk; replacing
+it with refined carbohydrate does not.
+-> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
+[[Lean Red Meat and Atherogenic Lipoproteins]]
 
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
@@ -170,6 +202,21 @@ null on all-cause mortality, **1.00 (0.94-1.05)**, while plant protein carries a
 the harm attached to red and processed meat is a food-level finding, not a protein-the-nutrient one,
 and the lever is to shift the *source* — processed toward unprocessed, red toward poultry, fish, or
 plant. -> [[Dietary Protein and Mortality]]
+
+The trial evidence sharpens the same point at the lipid level. A pooled analysis of **36 randomized
+trials (1803 participants)** stratified red meat's effect by what replaced it, and the *sign* of the
+effect flipped with the comparator: against high-quality plant protein (legumes, soy, nuts) red meat
+left LDL-C higher — **WMD +0.198 mmol/L (95% CI 0.065-0.330)**, so plant is better — while against
+fish or refined carbohydrate red meat was roughly neutral or better (the fish comparators themselves
+raised LDL, and red meat gave a greater triglyceride decrease than carbohydrate), and against poultry
+there was no differential effect
+[@guaschferre2019redmeat].
+These are surrogate (lipid) endpoints — no trial measured a cardiovascular event, and the authors
+caution «we cannot directly extrapolate CVD risk from intermediate biomarkers such as lipids,
+apolipoproteins, and blood pressure»
+[@guaschferre2019redmeat].
+So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
+-> [[Lean Red Meat and Atherogenic Lipoproteins]]
 
 ## What meat gives back
 
@@ -245,9 +292,9 @@ cited here.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces? |
-> | **Evidence included** | 14 sources — 11 gold, 3 high |
+> | **Evidence included** | 20 sources — 14 gold, 6 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
 
 ## References

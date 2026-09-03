@@ -2,12 +2,12 @@
 type: deliverable
 title: Blood Lipids and ApoB
 question: What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted?
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Roussell - Beef Optimal Lean Diet BOLD 2012, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
 confidence: high
 created: 2026-08-17
-updated: 2026-08-31
-self_critiqued: 2026-08-31
-concrete_subject_audited: 2026-08-31
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 aliases: [ApoB and Heart Disease, LDL and Cardiovascular Risk, Which Lipid to Measure, Blood Lipids, Cholesterol and Heart Disease]
 ---
 
@@ -100,6 +100,8 @@ The proviso «provided the LDL-C drop is concordant with the particle-number dro
 
 [inferred from @landry2024vegetarian] So even taken at its confounded observational face value, the dietary LDL lever is real but small — and by this deliverable's own drug-route-only rule, a diet-induced LDL change does not buy hard events at CTT's statin-derived RR 0.78-per-mmol rate.
 
+ **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat]. And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
+
 ## For a primary-prevention adult, absolute risk decides — and zero calcium can defer
 
 ### The statin decision is a baseline-risk decision
@@ -158,9 +160,9 @@ Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **I
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted? |
-> | **Evidence included** | 16 sources — 7 gold, 9 high |
+> | **Evidence included** | 18 sources — 8 gold, 10 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
 
 ## References

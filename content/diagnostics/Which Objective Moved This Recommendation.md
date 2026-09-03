@@ -2,19 +2,20 @@
 type: diagnostic
 question: When guidance and evidence diverge, which objective moved the recommendation — and can I see it?
 aliases: [Evidence to Decision, EtD, EtD Domains, Multiple Objectives, Feasibility and Acceptability, Resource Use, Guidelines Serve Two Masters]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); European Food Safety Authority (org); Mach, François; Blumenthal, Roger S]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); European Food Safety Authority (org); Mach, François; Blumenthal, Roger S; Demay, Marie B]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026, Demay - Vitamin D Prevention Endocrine Society Guideline 2024]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-08-06
+self_critiqued: 2026-09-02
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
     - Was GRADE Actually Used
     - Rating Outcome Importance
     - Framing a Decision Question
+    - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-27
-updated: 2026-08-06
+updated: 2026-09-02
 ---
 
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
@@ -228,6 +229,47 @@ agents at population scale — is **not disclosed by either body**, so it stays 
 finding: considerations undisclosed, weights certainly undisclosed.
 [inferred from @accaha2026; @esceas2025]
 
+## A second guidance family with a published EtD — and cost named in the balance (Demay 2024) `[2026-09-02, Demay]`
+
+The Limits below awaited a *second* guidance family with a published EtD. **Demay 2024 (Endocrine
+Society, vitamin D for disease prevention) supplies it** — a GRADE guideline that ran EtD tables
+(GRADEpro, published online) and names its non-evidence domains in the document itself: «considered
+patient values, costs and resources required, acceptability and feasibility, and impact on health
+equity of the proposed recommendations» [@demay2024vitamind]. So the corpus now holds **two** guidance families (WHO SFA 2023, Endocrine
+Society 2024) that disclose EtD considerations — the pattern is no longer one body.
+
+**Weights still absent — the standing observation holds at a second body, under a different
+framework.** Demay names the domains and gives per-recommendation prose justifications, but publishes
+no combination rule or trade-off weighting, and for most questions «The panel did not identify robust
+evidence pertinent to these EtD factors for most clinical questions» [@demay2024vitamind]. Considerations disclosed, weights not — a
+second instance, at a body using GRADEpro EtD rather than WHO's in-document table
+[inferred from @demay2024vitamind].
+
+**The closest instance yet of a non-evidence domain entering the DIRECTION of a recommendation.** For
+adults >=75 the mortality evidence is borderline (RR 0.96, CI upper bound 1.00), and the panel reaches
+its FOR by explicitly folding in cost — «given minimal costs of vitamin D supplementation, the panel
+reasoned that vitamin D is likely to be cost-effective with regard to its (likely) mortality benefit»
+[@demay2024vitamind], concluding «the
+panel judged that the balance between desirable and undesirable effects probably favors empiric
+vitamin D supplementation» [@demay2024vitamind]. A non-evidence domain (low cost / minimal harm) is thus **disclosed** as part of the
+balance that tipped a borderline case toward FOR — visible, per this page's method, in the panel's own
+words -> [[Vitamin and Mineral Supplements for Disease Prevention]].
+
+**But the over-read guard still binds — this tips DIRECTION, not STRENGTH, and the counterfactual is
+unavailable** [inferred from @demay2024vitamind]. Two limits
+keep it honest: (1) all 14 Demay recommendations stay **conditional** (GRADE "2") — cost strengthened
+nothing to STRONG, so this is not the case the Limits bullet awaited (a non-evidence domain changing a
+recommendation's *strength*); it changes the *direction* of a weak rec. (2) The panel frames the
+mortality point-estimate as the primary driver and cost as reinforcing, so whether the rec would have
+been AGAINST absent the cost reasoning is not stated — the ESC counterfactual caution applies. What
+Demay adds is a body reasoning from cost to a FOR direction **in the open**, on borderline evidence:
+the mechanism made visible, its magnitude still unmeasured.
+
+**Standpoint note (divergence class 1).** Like EFSA on sugars, Demay marks its remit boundary — «The
+process to develop this clinical guideline did not use a risk assessment framework and was not designed
+to replace current DRI for vitamin D» [@demay2024vitamind] — a guideline answering the supplement-*decision* question, not the
+DRI-*setting* question EFSA/DRI bodies hold [inferred from @demay2024vitamind].
+
 ## Tests / indicators
 
 - **Is there an EtD table at all?** If yes, the analysis is a reading task. If no, this diagnostic
@@ -275,12 +317,18 @@ cost.
 
 ## Limits
 
-- **One worked case, one body.** WHO SFA 2023 is the only EtD table the wiki holds in full. Whether
-  other families publish comparable tables, and whether their non-evidence domains bite harder, is
-  **unprobed** — `AWAITS` a second guidance family with a published EtD.
-- The wiki holds no case where a non-evidence domain **did** visibly change a recommendation's
-  strength. Until it does, the *mechanism* is documented but its *magnitude* is unmeasured, and this
-  page should not be read as saying non-evidence domains rarely matter.
+- **Two bodies now, one full table.** WHO SFA 2023 is the only EtD table the wiki holds *in full*; the
+  `AWAITS` for a second guidance family with a published EtD is **cashed by Demay 2024** (Endocrine
+  Society — EtD domains named in-document, full GRADEpro tables online), which confirms the
+  disclose-considerations / withhold-weights pattern at a second body under a different framework. What
+  is still unheld is a full second EtD *table* to read domain-by-domain (Demay's are online, not in the
+  held PDF). See the Demay section above.
+- **No non-evidence domain has yet changed a recommendation's STRENGTH — Demay is the closest.** Cost
+  visibly enters Demay's ≥75 *balance* judgement and tips the **direction** toward FOR on borderline
+  evidence, but every Demay recommendation stays **conditional (GRADE "2")** — so a domain changing the
+  *strength* grade is still unheld. The *mechanism* (a non-evidence domain moving a recommendation) is
+  now documented in the open; its *magnitude* remains unmeasured, and this page should not be read as
+  saying non-evidence domains rarely matter.
 - GRADE's own EtD chapter is only lightly represented in the held handbook chunks; the fuller EtD
   framework literature is not held.
 
@@ -390,5 +438,22 @@ telos's discipline enacted, not evaded:** name the axis and stop. The one judgem
 (opportunity cost) it re-labels as a harm and grades on the same net-benefit scale, which keeps it
 inside the health/burden axis rather than importing a second maximand. -> [[Net Benefit and the USPSTF Recommendation Grid]]
 [inferred from @uspstfmanual2022]
+
+## Self-critique `[run 2026-09-02, before commit — Demay 2024 woven]`
+
+- **No [PRIOR] verdict scored.** The Demay section appraises the weighting observation (considerations
+  disclosed, weights not) as a *reading* of the guideline; it does **not** score the weighting [PRIOR]
+  in `telos-review.md` (ingest builds fabric, does not adjudicate) — the scoring is owed to a separate
+  pass.
+- **Over-read guard respected.** The cost-tips-direction claim is explicitly bounded: it changes the
+  *direction* of a conditional rec, not its *strength*; the counterfactual (would ≥75 have been AGAINST
+  absent cost?) is named as unavailable, matching the ESC-case discipline this page already holds. No
+  claim that cost *proved* decisive.
+- **Not laundered independence.** Demay is a **second** disclosing body, but it is not claimed to
+  independently corroborate WHO SFA — it is a same-pattern second instance (both publish EtD
+  considerations, neither publishes weights), which is what the standing observation predicts, not an
+  `[E-independent]` lift.
+- **Coherence, not validity** (R1): the loop is open; this documents what the guideline discloses, not
+  whether its ≥75 FOR is correct.
 
 ## References

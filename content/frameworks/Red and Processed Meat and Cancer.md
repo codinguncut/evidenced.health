@@ -2,13 +2,13 @@
 type: framework
 question: Does red or processed meat cause cancer, by how much, and does the evidence warrant reducing intake?
 aliases: [Red Meat, Processed Meat, Red Meat and Cancer, Processed Meat and Cancer, Meat and Colorectal Cancer]
-authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre; Schwingshackl, Lukas; Bechthold, Angela; Boeing, Heiner]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
+authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Zeraatkar, Dena; Vernooij, Robin W M; Guyatt, Gordon H; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre; Schwingshackl, Lukas; Bechthold, Angela; Boeing, Heiner; Etemadi, Arash; Sinha, Rashmi; Ward, Mary H; Graubard, Barry I; Inoue-Choi, Maki; Dawsey, Sanford M; Abnet, Christian C]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, WCRF - Diet Nutrition Activity Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017]
 cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-28
-self_critiqued: 2026-08-22
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 relationships:
   related_to:
     - Should Adults Reduce Red and Processed Meat
@@ -229,6 +229,56 @@ wiki holds; a larger/newer heme-specific dose-response MA would upgrade it (G-ga
 same red-meat cohort literature as WCRF/NutriRECS, so it is **not** independent backing for the
 association — its value is the **mechanistic attribution** and the intrinsic-vs-curing bound, not a second
 independent count (no [E-independent]).
+
+## The same channel decomposition on a MORTALITY endpoint `[2026-09-02, Etemadi 2017]`
+
+The three-exposure logic above was built on **cancer** endpoints. An independent US mega-cohort —
+NIH-AARP, 536 969 adults aged 50-71, 16-year follow-up, 128 524 deaths — runs the *same* heme-iron /
+nitrate-nitrite decomposition on **all-cause and cause-specific MORTALITY** and reaches the same channel
+structure: «Heme iron and processed meat nitrate/ nitrite were independently associated with increased risk
+of all cause and cause specific mortality»
+[@etemadi2017]. (The mortality
+dose-response itself lives on [[Food Groups and Health Outcomes - A Dose-Response Matrix]]; this page holds
+it only for the **channel attribution** it shares with the cancer decomposition above.)
+
+| Exposure (highest vs lowest fifth) -> all-cause mortality | Hazard ratio |
+|---|---|
+| Red meat | 1.26 (1.23 to 1.29) |
+| Heme iron | 1.15 (1.13 to 1.17) |
+| Processed-meat nitrate | 1.15 (1.13 to 1.17) |
+| Processed-meat nitrite | 1.16 (1.14 to 1.18) |
+
+[@etemadi2017]
+
+**Etemadi's nitrate/nitrite is exposure (2), NOT exposure (3).** The measured nitrate/nitrite here is the
+in-matrix processed-meat additive, not the vegetable-dominated free-dietary aggregate Said Abasse measured:
+«The meat associated nitrate/nitrite intake is almost exclusively from the additives used in meat
+processing, as levels in unpro- cessed red meat are low»
+[@etemadi2017]. So this cohort populates on
+a mortality endpoint the **in-matrix curing-nitroso channel** (exposure 2) that the cancer SR could not
+isolate, and finds it carries risk — a type-F extension of the channel decomposition from CRC incidence to
+all-cause and cause-specific death. It says nothing about the vegetable-borne exposure (3), so the CRC
+distinction above (nitrite-the-molecule has opposite signs across channels) is untouched.
+
+**Mediation is «accounted for, in part», not «explained by».** SAS-macro mediation estimated that of the
+*processed*-red-meat -> all-cause-mortality association, nitrate statistically accounted for **50.1%**
+(72.0% of the CVD-death association) and heme iron **20.9-24.1%**; for *unprocessed* red meat -> all-cause
+mortality, heme iron accounted for **20.8%** (13.7 to 30.3)
+[@etemadi2017]. The two
+channels are mechanistically coupled, not additive-independent in origin: «the endogenous N-nitroso compound
+production is in fact stimulated by heme iron and not by protein residues»
+[@etemadi2017].
+
+**Read as one confounded observational cohort, not a causal-channel proof.** Every exposure is FFQ-measured
+(124-item NCI DHQ) and the design is a single prospective cohort — the association is confounded and the
+mediation is a *modelled* decomposition, not an experiment. The authors flag the bias direction themselves:
+«measurement error may have biased our results toward null»
+[@etemadi2017] — i.e. the true channel
+gradients are, if anything, steeper than reported ([[Measurement Error in Dietary Assessment]]). This is
+**not** independent-backing (type-E) for the cancer association: NIH-AARP/Sinha overlaps the cohort
+literature the matrix and WCRF draw on, and a highest-vs-lowest-fifth mortality HR is a different estimand
+from a per-100 g/day CRC-incidence slope.
+
 
 ## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`
 

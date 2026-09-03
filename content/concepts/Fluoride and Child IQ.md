@@ -7,7 +7,7 @@ sources: [NTP - Fluoride Neurodevelopment Monograph 2024, Taylor - Fluoride Chil
 cluster: fluoride
 confidence: low
 created: 2026-08-14
-updated: 2026-08-18
+updated: 2026-09-01
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -200,7 +200,11 @@ Taylor's Table-2 β values which are change-in-SMD):
 | Water DR, low dose | spline declines above 1 mg/L, steeper >2 | subgroup β (SMD): null <1.5 (+0.05 NS); inverse <2, <4 | conceptually concordant (water signal concentrates >1-2 mg/L); NOT same metric (IQ pts vs SMD-change β) |
 | Bashash 2017 (ELEMENT) RoB | overall HIGH (confounding = High) | low — an NTP/Taylor low-RoB flagship | SAME study, OPPOSITE RoB verdict — the mechanical driver of the divergence |
 
-### The RoB-instrument friction (filed here, folded — hidden insight)
+### The RoB-instrument friction (now filed as a standalone tension)
+
+**Elevated to** -> [[Does the Fluoride IQ Harm Survive a Low Risk-of-Bias Restriction]] (this section is the
+nucleus's summary of it).
+
 
 Veneri's RoB subgroup runs a **monotone gradient the opposite way** from the NTP/Taylor reassurance:
 «a MD of 1.11 (95% CI −0.67; 2.89) emerged for the only low RoB study, −4.27 (95% CI −6.44; −2.11) for

@@ -3,12 +3,12 @@ type: deliverable
 title: Fish
 question: What does the evidence show about eating fish (and its omega-3) on each patient-important outcome — in which direction, how large, for whom, how certain — and how does it vary by fish type (oily vs lean/white; apex-predator vs prey), by origin (wild vs farmed, marine vs freshwater), and what does the methylmercury / contaminant axis do to each outcome, weighed against any benefit found?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, Fish Oil, Eating Fish]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-11
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 ---
 
 This is a general, population-level appraisal of what the evidence says about eating fish for anyone the
@@ -339,6 +339,20 @@ and an unresolved comparator controversy (the mineral-oil placebo raised LDL \~1
 result *«should not be generalized to other n-3 fatty acid preparations — in particular, dietary-supplement
 preparations of n-3 fatty acid mixtures»* [@bhatt2019].
 
+REDUCE-IT's atrial-fibrillation signal is not an idiosyncrasy of one trial or the icosapent-ethyl form
+— it is a dose-dependent class harm of marine-omega-3 supplements. Gencer's 2021 meta-analysis pooled
+7 marine-omega-3 CV-outcome RCTs (81,210 participants) and found supplementation raised incident atrial
+fibrillation overall (HR 1.25, 95% CI 1.07-1.46), rising with dose — HR 1.12 at <=1 g/day, HR 1.49
+(1.04-2.15) above 1 g/day, and HR 1.11 (1.06-1.15) per additional 1 g/day.
+[@gencer2021] The signal survives
+dropping REDUCE-IT (HR 1.23), so neither the EPA-only form nor the mineral-oil-placebo controversy is
+what drives it.
+[@gencer2021] This is an
+isolate-supplement harm on the same rising dose arm as the ischemic benefit; it does not touch the
+fish-as-food recommendation, where the atrial-fibrillation associations from eating fish are null
+(Jayedi, above).
+[inferred from @gencer2021]
+
 **The lesson for fish-as-food:** "omega-3" is not the exposure — the exposure is *this compound, at this
 dose, in this stratum* -> [[Is the Food Category Doing Any Work]], [[Dietary Supplements]]. For a replete
 general-population adult, the OTC fish-oil capsule did nothing; and whole fish differs from any capsule in
@@ -406,9 +420,9 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about eating fish (and its omega-3) on each patient-important outcome — in which direction, how large, for whom, how certain — and how does it vary by fish type (oily vs lean/white; apex-predator vs prey), by origin (wild vs farmed, marine vs freshwater), and what does the methylmercury / contaminant axis do to each outcome, weighed against any benefit found? |
-> | **Evidence included** | 5 sources — 3 gold, 2 high |
+> | **Evidence included** | 6 sources — 4 gold, 2 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
 
 ## References

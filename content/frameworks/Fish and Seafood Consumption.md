@@ -2,12 +2,12 @@
 type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
-authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017]
+authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas; Lombardi, Marco; Chiabrando, Juan Guido]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020]
 cluster: fish-seafood
 nucleus: true
 confidence: medium
-self_critiqued: 2026-08-23
+self_critiqued: 2026-09-01
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-08-28
+updated: 2026-09-02
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -222,13 +222,73 @@ and abstaining is itself the harmful option for the outcome the sensitive stratu
 Fish is a **small-to-moderate lever**, not a big rock:
 
 - The adult CHD-mortality benefit is **observational** (loop open), and the isolated-nutrient RCTs
-  split by stratum: null in the general replete population (VITAL) and positive only at high dose in
-  high-risk statin-treated patients (REDUCE-IT) -> [[Vitamin and Mineral Supplements for Disease Prevention]], [[Is the Food Category Doing Any Work]]. So a replete general-population adult should
-  not expect the cohort magnitude.
+  split by dose: near-null in the general replete population at \~1 g/day (VITAL, and the low-dose
+  stratum across 14 pooled RCTs) and positive only above 1 g/day, concentrated in high-risk
+  statin-treated patients (REDUCE-IT) — see the Lombardi 2020 dose-response section below ->
+  [[Vitamin and Mineral Supplements for Disease Prevention]], [[Is the Food Category Doing Any Work]].
+  So a replete general-population adult should not expect the cohort magnitude, nor a benefit from an
+  OTC 1 g/day capsule.
 - The neurodevelopment benefit is **repletion only** — it matters for a mother with low DHA/iodine
   status, and is a flat zero once requirements are met.
 
 [inferred from @efsaseafood2014]
+
+## The supplement dose-response — Lombardi 2020 NMA firms the VITAL-vs-REDUCE-IT split (type-F, 2026-09-01)
+
+The held omega-3 *supplement* evidence was two single trials pointing opposite ways — VITAL (1 g/d
+EPA+DHA, CV-null) and REDUCE-IT (4 g/d EPA, CV-positive) — already resolved on
+[[Vitamin and Mineral Supplements for Disease Prevention]] as a **distinction, not a tension** (they
+test different compounds at a 4x dose gap in different strata). Lombardi 2020 is the first **pooled
+RCT** evidence woven directly onto this nucleus: a pairwise + network meta-analysis of **14 RCTs
+(125,763 patients, median 4.6 y follow-up, 78.6% statin-treated)** that generalizes the single-trial
+split into a **dose-stratified** finding across the whole trial set. [@lombardi2020]
+
+**The dose finding.** Splitting trials at a prespecified **1 g/day** cutoff (LD ≤ 1 g, HD > 1 g),
+high-dose vs control lowered the ischemic endpoints — major vascular events **IRR 0.78 (0.71-0.85)**,
+MI **0.71 (0.62-0.82)**, coronary revascularization **0.74 (0.66-0.83)**, unstable angina **0.73
+(0.62-0.86)**, cardiac death **0.79 (0.65-0.96)** — and HD beat LD on the same endpoints (e.g. MI HD
+vs LD 0.79, 0.67-0.92). Low-dose vs control was itself weakly protective on cardiac death (0.92,
+0.87-0.98) and MI (0.91, 0.84-0.98) but *«no benefit of LD treatment compared to HD in any of the
+efficacy endpoints»*. **Total death, sudden cardiac death, and stroke were null even at high dose**
+(total death 0.95, 0.85-1.06). [@lombardi2020]
+
+This **firms VITAL from a lone null into the low-dose pattern**: pooling every trial regardless of dose
+(the all-dose pairwise analysis) washes the ischemic signal toward null — total death 0.98
+(0.94-1.02), revascularization 0.93 (0.83-1.02), stroke 1.02 both NS — because the low-dose trials
+dilute the high-dose signal. [@lombardi2020] The benefit lives in the **> 1 g/day** trials.
+
+**But dose is confounded with form and stratum — the NMA cannot separate them, and says so.** The
+high-dose arm is dominated by EPA-only trials (REDUCE-IT 4 g, JELIS 1.8 g) in higher-risk populations,
+so *«it remains unknown whether it was the dose or formulation that drove the observed CV benefit»*,
+and the closed-loop needed to compare doses directly does not exist: *«there is no direct comparison
+be-tween HD and LD O3FA»*, on *«an arbitrary cut-off of 1 g/day»*.
+[@lombardi2020]
+So Lombardi **refines** the supplements-page distinction (it adds that the dose axis tracks benefit
+across many trials, not just the one VITAL-vs-REDUCE-IT contrast) without upgrading it to a causal
+dose law — dose, EPA-only form, and high-risk stratum remain entangled. It is **not a filed tension**
+(the split was never joined at the same quantity) and **not independent type-E** (it re-pools the same
+trials the wiki already holds).
+
+**Net-effect and comparator caveats.** The high-dose benefit is bought with **increased bleeding**
+(1.49, 1.2-1.84 vs control) and **atrial fibrillation** (1.35, 1.1-1.66 vs control) — a net-effect
+tradeoff, not a free lever. And a comparator threat runs across the whole literature: the n-3-vs-control
+difference was *«smaller, and not sig-nificant in those studies using an olive oil-based control»*,
+suggesting *«olive oil is not an inert control»* — the mirror image of the REDUCE-IT mineral-oil
+controversy, here biasing *toward* the null.
+[@lombardi2020]
+The AF harm is now held as a page in its own right: the dedicated SR+MA (Gencer 2021, 7 trials,
+81,210 pts) puts overall incident-AF HR at 1.25 (1.07-1.46) and a **dose-gradient** (>1 g/d 1.49
+vs <=1 g/d 1.12, P-interaction <0.001) -> [[Omega-3 Supplementation and Atrial Fibrillation]].
+[inferred from @gencer2021]
+
+**Decision-change.** For a **general, replete adult**, an OTC \~1 g/day fish-oil capsule is not expected
+to reduce CV events — the low-dose stratum is near-null *across the pooled RCT evidence*, firming VITAL
+beyond a single trial. A CV benefit appears only **above 1 g/day** and concentrates in **high-risk
+(statin-treated, high-TG, established-CVD/diabetic) strata**, at the cost of bleeding and AFib, and
+even there cannot be cleanly credited to dose rather than the EPA-only formulation. This does **not**
+touch the fish-as-*food* recommendation (1-2 servings/week, observational), which turns on the whole
+food matrix, not a high-dose isolate.
+[inferred from @lombardi2020; @manson2019n3; @bhatt2019]
 
 ## Is the food category doing any work?
 
@@ -333,15 +393,20 @@ but may still help all-cause) is unchanged.
 - **Intake is FFQ-measured** — the binding constraint -> [[Measurement Error in Dietary Assessment]].
 - **The risk arm is borrowed.** This opinion is the benefit side; the methylmercury toxicity
   assessment and the TWI derivation are the separate CONTAM 2012 opinion.
-- **Three sources, still not independent on the food signal.** EFSA (benefit-risk guidance) + Jayedi
-  2020 (cohort umbrella, CV/mortality) + Wei 2023 (cohort SR+MA, cognition) — but all three share the
-  underlying observational cohort literature and the EPA/DHA mechanism, so confidence stays medium, not
-  high (the observational ceiling binds all three). Wei adds the cognitive-decline / dementia outcome
-  and a partial independence on design *reading* (it explicitly contrasts the null supplement RCTs),
-  but its own effect estimates are observational and FFQ-based like the others. Still owed for genuine
-  independence: an omega-3 **RCT** source woven directly into this page (REDUCE-IT, VITAL and MAPT are
-  held but reached only via linked pages; ASCEND is not held) and the mercury-toxicity CONTAM 2012
-  opinion.
+- **Three cohort sources, still not independent on the food signal.** EFSA (benefit-risk guidance) +
+  Jayedi 2020 (cohort umbrella, CV/mortality) + Wei 2023 (cohort SR+MA, cognition) — but all three
+  share the underlying observational cohort literature and the EPA/DHA mechanism, so confidence stays
+  medium, not high (the observational ceiling binds all three). Wei adds the cognitive-decline /
+  dementia outcome and a partial independence on design *reading* (it explicitly contrasts the null
+  supplement RCTs), but its own effect estimates are observational and FFQ-based like the others.
+- **Lombardi 2020 now brings pooled-RCT evidence directly onto the page — but on the *supplement*
+  question, not the food.** It is design-independent of the cohort literature above (14 RCTs, not
+  cohorts), which partially cashes the previously-owed *omega-3 RCT woven directly here* gap; but it
+  addresses supplemental O3FA dose (LD vs HD vs control), carries the olive-oil comparator caveat, and
+  cannot separate dose from EPA-only form or high-risk stratum. So it firms the *supplement* leg (OTC
+  1 g/day near-null; benefit only > 1 g/day in high-risk strata) without lifting the *food* signal's
+  observational ceiling. Still owed: an RCT of *food-form* fish (structurally near-impossible), the
+  mercury-toxicity CONTAM 2012 opinion, and ASCEND (not held).
 
 [inferred from @efsaseafood2014]
 
@@ -374,5 +439,25 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 [@bechthold2019]
 [@schwingshackl2017t2d] Full grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 dose-response NMA added]`
+
+- **Not overclaimed.** The dose finding is stated as an *association* of HD (>1 g/day) with the ischemic
+  reductions, never as a proven dose law: the section says twice that dose is confounded with EPA-only
+  form and high-risk stratum and that the NMA has no closed loop and an arbitrary cutoff — the causal
+  reading is explicitly withheld. The decision-change is the *negative* one (OTC 1 g/day near-null),
+  which the pooled low-dose stratum and VITAL both support. No *fish oil prevents heart disease*
+  reading survives; the food-vs-supplement firewall is stated (Lombardi does not touch the food arm).
+- **Not a fake tension.** VITAL-vs-REDUCE-IT is carried as a *distinction* (already resolved on the
+  supplements page via a same-quantity-NO parameter table), and Lombardi is filed as a **type-F
+  refinement** of it, not a filed `[[tension]]` — the two trials were never joined at the same
+  quantity (dose, form, stratum, composite all differ), so the not-joined guard (ii) holds.
+- **Not laundered-E.** Lombardi is explicitly marked **not independent** — it re-pools VITAL,
+  REDUCE-IT, JELIS, GISSI, ASCEND et al. that the wiki already holds, so it raises detail/certainty on
+  the supplement leg, not independence; confidence stays `medium`. Its one genuinely new axis is
+  *design* (pooled RCT vs the page's cohort sources), noted in Limits as partial and supplement-scoped.
+- **Coherence, not validity** (R1): the loop is open — no operation here grades the omega-3-dose ->
+  CV-event association against a realized outcome; the olive-oil/mineral-oil comparator threat is
+  flagged as an unresolved bias in the underlying trials.
 
 ## References

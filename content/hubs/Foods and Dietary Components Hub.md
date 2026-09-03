@@ -57,6 +57,10 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   error attenuates toward null; observational, same-lab F-not-E vs the nut/whole-grain MAs
 - [[Red and Processed Meat and Cancer]] — whether red or processed meat causes cancer, by how much, and
   whether the evidence warrants reducing intake
+- [[Lean Red Meat and Atherogenic Lipoproteins]] — the two lean-red-meat feeding RCTs (Roussell BOLD
+  2012, Bergeron APPROACH 2019): within a low-SFA diet, LDL-C/apoB are set by background SFA and by
+  meat-vs-plant, NOT by beef amount or red-vs-white color; red = white on lipids; the rise is large-LDL
+  (weakly atherogenic), so the surrogate over-reads. Surrogate-only, no events
 - [[Poultry and White Meat Consumption]] — the `white-meat` opener: poultry+rabbit (EXCL fish) ->
   all-cause mortality (Lupoli 2021 MA, OR 0.94 highest-vs-lowest, a 6% reduction) but NEUTRAL on CV
   mortality and non-fatal CV events. No dose-response (heterogeneous highest-vs-lowest contrast); very

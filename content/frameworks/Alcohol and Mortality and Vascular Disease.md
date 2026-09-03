@@ -2,14 +2,14 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen; Bryazka, Dana; GBD 2020 Alcohol Collaborators (org)]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019, Bryazka - Alcohol Population-Level Risks GBD 2022]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-30
-self_critiqued: 2026-08-30
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -504,5 +504,77 @@ for safe level of alcohol consumption has currently been established for human h
   moderate intake), so there is no divergence to file; the position is fully aligned. It is a
   population-standpoint recommendation (guidance divergence class 1) framed as harm-minimization,
   consistent with the artifact read of the lower J-curve arm.
+
+
+
+## *No safe level* refined to an age- and region-conditional threshold — the same-body revision `[Bryazka 2022, GBD 2020]`
+
+The «no safe level» anchor on this page is GBD 2016 (Griswold, above). The **GBD 2020 Alcohol
+Collaborators** (Bryazka, lead) re-ran the analysis one cycle later and **conditioned the threshold on
+background disease rates** — the beyond-summary move. Instead of one global optimum, it estimates a
+theoretical-minimum-risk exposure level (TMREL) and a non-drinker-equivalence level (NDE)
+*per region x age x sex x year* from burden-weighted dose-response curves across 22 outcomes. One
+standard drink = «10 g of pure ethanol». [@gbd2022alcohol]
+
+- **The young: still \~zero.** For ages 15-39 (2020) the TMREL ranged 0 (95% UI 0-0) to 0·603
+  (0·400-1·00) standard drinks/day and the NDE 0·002 (0-0) to 1·75 (0·698-4·30) across 21 regions —
+  near-abstinence minimises harm because the young carry little CVD burden and alcohol's damage is
+  injury/violence-dominated. Bryazka is «leading risk factor for mortality among males aged 15-49»,
+  1·78 million (1·39-2·27) alcohol deaths in 2020.
+  [@gbd2022alcohol]
+- **40+: a non-zero, J-shaped threshold.** For ages 40+ (2020) the burden-weighted RR curve was
+  «J-shaped for all regions», TMREL 0·114 (0-0·403) to 1·87 (0·500-3·30) standard drinks/day and NDE
+  0·193 (0-0·900) to 6·94 (3·40-8·30) — a non-zero optimum arises only where high background
+  CVD/diabetes rates let alcohol's small *modelled* benefit on those outcomes offset its harms.
+  [@gbd2022alcohol] (Sampled range
+  0-100 g/day pure ethanol; the upper regional TMREL bounds sit near the studied edge and carry wide
+  UIs — read them as region-conditional, never a personal target.)
+- **The global headline moved off zero — but by re-weighting, not new causal evidence.** Global
+  age-standardised both-sexes TMREL: 0 (0-0·800) with GBD-2016 RRs+DALYs -> 0·534 (0-1·00) once only
+  the *DALY weights* update to 2020 -> 0·511 (0·400-0·700) with the updated RRs too.
+  [@gbd2022alcohol] Most of the shift
+  is the changing disease-composition weight (0 -> 0·534), not the RR update (0·534 -> 0·511) — the
+  optimum moved because the *population's disease mix* was re-weighted, not because new evidence made
+  alcohol more protective.
+- **The decision shift Bryazka draws: stratify guidance by AGE, not SEX.** TMREL/NDE did not vary
+  significantly by sex or year but varied strongly by age; the estimates «do not support low
+  consumption guidelines that differ by sex».
+  [@gbd2022alcohol] (Males were still 76·9%
+  [73·0-81·3] of harmful-amount consumers — a prevalence fact, not a threshold difference.)
+
+**Classification — same-body F-refinement that partly contradicts, NOT independent-E.** Bryazka is the
+**GBD 2020 Alcohol Collaborators**; Griswold (above) is the **GBD 2016 Alcohol Collaborators** — the
+same collaboration, next cycle, and 17 of the 22 outcome RR curves are carried over *directly* from GBD
+2016 (only five — ischaemic heart disease, ischaemic stroke, intracerebral haemorrhage, type 2
+diabetes, tuberculosis — were re-estimated on +71 studies; lower respiratory infection was dropped for
+insufficient evidence). [@gbd2022alcohol] So this
+is a **within-collaboration revision on largely shared inputs**, not an independent method — **no
+`[E-independent]` tag**. It is a type-F refinement (the universal «no safe level» is bounded to an
+age/region-conditional threshold) that *partly* contradicts (the strict global «zero» is overturned for
+older adults in high-CVD regions). What survives: \~zero for the young everywhere, and the qualitative
+artifact verdict below.
+
+**The 40+ protective arm is a MODEL OUTPUT, not established as causal — the U-shape gate.** The J-shape
+at 40+ is a burden-weighting of the *observational* IHD/T2D dose-response RR curves, so it inherits
+whatever abstainer / sick-quitter / reverse-causation bias sits in those inputs -> [[The U-Shaped Association Artifact]]. Bryazka's inputs are **not referent-corrected** — it uses a «reference group of
+non-drinkers» [@gbd2022alcohol], the
+sick-quitter-contaminated referent that Stockwell/Zhao showed erases the protection, not the
+never-drinker/occasional referent. MR-BRT carries a *bias covariate* for whether an input study adjusted
+for sick-quitter bias, but Bryazka concedes «it is possible that relative risk estimates did not account
+and adjust for all sources of bias, including measurement bias and selection bias, as well as the
+potential impacts of reverse causality».
+[@gbd2022alcohol]
+
+Decisively, Bryazka itself reports the *strong* check largely nulls the protection: a recent Mendelian
+randomization meta-analysis had «67% of studies on cardiovascular disease and 75% of studies on diabetes
+reporting a null association with alcohol».
+[@gbd2022alcohol] So the non-zero 40+ TMREL does
+**not** validate a real protective effect — a J surfacing in a burden-weighted model is neither a
+referent-correction nor a genetic check, and by this page's own adjudication (Millwood MR: monotonic
+stroke harm, null MI) the cardioprotective arm feeding it is largely artifact. **The age-conditioning is
+the decision-relevant refinement; the protective arm is not.** A same-collaboration update on borrowed
+RRs refines *scope* without adding an independent method, so page `confidence:` stays **medium** — the
+artifact verdict is reinforced, not the protective claim.
+[inferred from @gbd2022alcohol; @millwood2019; @gbd2018alcohol]
 
 ## References

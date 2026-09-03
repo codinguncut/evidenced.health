@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia]
-sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia; Pawlak, Roman]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019, Pawlak - Vitamin B12 Deficiency Vegetarians 2013]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -24,10 +24,11 @@ relationships:
     - Sleep Apnea Treatment and Cardiovascular Risk
     - Levothyroxine for Subclinical Hypothyroidism
     - Electronic Cigarettes and Cardiovascular Risk
+    - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-08-30
+updated: 2026-09-02
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
-self_critiqued: 2026-08-30
+self_critiqued: 2026-09-02
 ---
 
 ## Why it matters
@@ -940,5 +941,25 @@ here the marker's very *sign* is comparator-dependent, so the surrogate cannot e
 directionally harmful or beneficial without fixing the counterfactual (clean air vs continued smoking).
 The cell stays at **insufficient hard-outcome evidence** either way -> [[The Insufficient-Evidence Statement]], and the decision lives in the stratum split, not the marker
 -> [[Electronic Cigarettes and Cardiovascular Risk]]. [inferred from @skotsimara2019ecig]
+
+## A PREVALENCE statistic read as harm — biochemical B12 deficiency without symptoms (Pawlak) `[2026-09-02]`
+
+A different failure mode: not a marker that fails to transmit over time, but a **prevalence** figure
+(*X% of vegetarians are B12 deficient*) silently read as *X% harmed*. The source that reports the high
+prevalence supplies the correction in its own voice — in the one study that checked, «none of the
+vegetarians included in their study had clinical symptoms despite the fact that about two-thirds of the
+sample had B12 depletion or deﬁciency, as indicated by both low holo-TCII and elevated MMA»
+[@pawlak2013]. So a biochemical
+depletion/deficiency rate is a **surrogate**, not a patient-important-outcome rate, and the
+marker-to-outcome chain in this stratum is **insufficiently evidenced**, not demonstrated.
+
+**Both sides, because the source states both.** Pawlak immediately guards the *other* direction — the
+biochemical marker must not be dismissed as harmless either: «one has to be careful with concluding that
+biochemical indicators of B12 deﬁ- ciency in vegetarians are not associated with any adverse symptoms»
+[@pawlak2013] (mild symptoms under-detected;
+hematological signs maskable by concurrent iron/folate; enzyme function impaired at the biochemical
+stage). The instance is therefore a clean *insufficient-evidence* holding on transmission — the marker
+neither proven to harm nor proven benign -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]].
+[inferred from @pawlak2013]
 
 ## References

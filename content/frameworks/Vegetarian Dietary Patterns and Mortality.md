@@ -7,7 +7,7 @@ sources: [Orlich - Vegetarian Patterns Mortality AHS-2 2013, Landry - Vegetarian
 cluster: dietary-patterns
 confidence: low
 created: 2026-08-13
-updated: 2026-08-29
+updated: 2026-09-02
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -24,6 +24,7 @@ relationships:
     - Inflammation as a Modifiable Lever
     - Surrogate Outcomes
     - Which Objective Moved This Recommendation
+    - Vitamin B12 Status in Vegetarian and Vegan Diets
 ---
 
 **The vegetarian/vegan pattern leg**, anchored on two sources: Orlich 2013 (the Adventist Health Study
@@ -244,7 +245,10 @@ where an advocacy prior could bite, flagged for the reader:
 - **The graded pattern does not reward strictness** — pesco- and lacto-ovo-vegetarian carried
   signals as good as or better than vegan, and semi-vegetarian was null; the decision is "shift toward
   a plant-predominant pattern," not "maximize animal-food exclusion." Restrictive vegan patterns raise
-  a separate adequacy question (B12, not addressed here).
+  a separate adequacy question -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]] (B12 has
+  essentially no plant source; biochemical depletion/deficiency is common across *all* vegetarian
+  subtypes, and supplementation is close to non-optional for the stratum — though the source held there
+  gives prevalence and a surrogate, not a mortality effect).
 - **Sex-specificity is a genuine finding to carry, not smooth over** — the CV benefit is
   male-concentrated in this cohort (interaction P = .01 for CVD), a route-(b) caveat on any pooled
   estimate.

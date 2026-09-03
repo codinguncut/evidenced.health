@@ -2,8 +2,8 @@
 type: framework
 question: Does protein supplementation add to resistance training for muscle and strength, how much protein, and for whom?
 aliases: [Protein Supplementation, Protein and Resistance Training, Protein Intake Muscle, 1.6 g/kg Protein, Protein Break Point, Muscle Protein]
-authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Tagawa, Ryoichi; Miyachi, Motohiko]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020]
+authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Tagawa, Ryoichi; Miyachi, Motohiko; Choi, MoonKi; Kim, Hayeon; Bae, Juyeon; Song, Zhenzhen; Pan, Ting; Tong, Xin; Yang, Ying; Zhang, Zhijie]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023]
 cluster: muscle
 confidence: medium
 relationships:
@@ -23,8 +23,8 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-08-30
-self_critiqued: 2026-08-30
+updated: 2026-09-01
+self_critiqued: 2026-09-01
 ---
 
 This is the **adaptation** side of the resistance-training lever, and it is the evidence Challenge #10
@@ -230,6 +230,86 @@ parameter). [@tagawa2020]
   gain less lean mass from the *supplement* (their training still works; the added protein does less).
 - **Greater in the already-trained:** «more effective in resistance-trained individuals (0.75 kg (0.09,
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
+
+
+## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
+
+Morton's age covariate (the *supplement* effect «reduced with increasing age», above) reaches its
+end-point in a meta-analysis built *only* on older adults. Choi 2021 (high-tier MA, 22 RCTs) pooled trials
+that compared **resistance training + a nutritional intervention against resistance training alone** in
+«healthy community-dwelling older adults», and found the added nutrition bought nothing on any outcome
+family: «The results of the meta-analysis showed no significant differences between groups in muscle mass,
+muscle strength, or physical functional performance.»
+[@choi2021]
+
+- **The one exception is creatine, on lean body mass.** «In the subgroup analysis regarding the types of
+  nutritional interventions, creatine showed significant effects on lean body mass (n = 4, MD 2.61, 95% CI
+  0.51 to 4.72).» Every other subgroup was null — hand grip «(χ2 = 0.12, p = .73)», appendicular skeletal
+  muscle mass «(χ2 = 0.62, p = .43)», knee-extension «(χ2 = 4.89, p = .09)», chair-stand, timed-up-and-go.
+  [@choi2021] Read the
+  magnitude with its pool: n=4 trials, and the *between*-subgroup test was NOT significant, so creatine is
+  a within-arm signal on a small set, not a demonstrated superiority over protein. It aligns with the
+  separate creatine evidence base -> [[Creatine Supplementation]], but does not by itself settle it.
+- **This EXTENDS Morton, it does not contradict it.** Morton's protein effect (+0.30 kg FFM) was measured
+  in a mostly-young sample and *decays with age* by his own covariate; Choi is the older-adult end-state
+  where the added-nutrition effect has decayed to null. Same *added effect over training*, different
+  stratum along one continuous age gradient — a refinement, not a clash.
+- **Choi's own reading is a ceiling in the nutrient-replete — and it PREDICTS the sarcopenic exception.**
+  He reads the null as headroom: «despite the nonsignificant results, nutritional interventions may still
+  be beneficial for older adults who do not lack nutrients.» And he flags the stratum where it should bite
+  differently — «protein supplements for sarcopenic older adults along with exercise showed a larger
+  effect size than exercise alone... Individuals with existing nutritional deficiencies or poor muscle
+  function might have been shown to respond better to accompanying nutritional supplements than to exercise
+  alone.» [@choi2021] So
+  the decision rule is baseline-status-dependent: **for a healthy, replete older adult, training is the
+  whole lever and added protein/co-supplements do little; the deficient or diagnosed-sarcopenic are the
+  stratum where nutrition might still add** (the sarcopenic case is taken up below).
+
+
+## The sarcopenic exception — where nutrition may still add (grip, not mass)
+
+Song 2023 (**moderate-tier** MA [downgrade: Frontiers venue], 12 trials, «713 older adults diagnosed with
+sarcopenia») runs the *same* RT+nutrition-vs-RT-alone contrast Choi does, but in the stratum Choi flagged
+— the diagnosed-sarcopenic. It splits the outcome: «resistance training combined with additional
+nutritional supplementation, especially compound nutritional supplements that included protein and vitamin
+D, might further enhance grip strength rather than muscle mass in older adults with sarcopenia.»
+[@song2023]
+
+**Mass stays null even here; grip is a borderline, heavily-hedged positive:**
+
+| Quantity | Choi 2021 (high; HEALTHY older adults) | Song 2023 (moderate; SARCOPENIC older adults) | Same quantity? |
+|---|---|---|---|
+| Comparator | RT + nutrition vs **RT alone** | RT + nutrition vs **RT alone** | **YES** — identical contrast |
+| Lean/muscle mass | «no significant differences between groups in muscle mass» (creatine exception MD 2.61) | «no significant difference in lean body mass ... [SMD = 0.10, 95% CI (−0.14, 0.34), P = 0.422]» | **YES** — both NULL on mass |
+| Grip strength | null «(χ2 = 0.12, p = .73)» | «[WMD = 1.87, 95% CI (0.01, 3.74), P = 0.049]» borderline positive | same quantity; result **DIVERGES** |
+| Population | healthy, community-dwelling, mostly nutrient-replete | diagnosed sarcopenic, «in poorer health» | **NO** — the stratum differs |
+
+[@choi2021; @song2023]
+
+**This is a DISTINCTION (baseline-status effect-modification), not a tension — and the sources agree it is.**
+The mass-null is *concordant* across both strata, so there is no clash there. The grip result diverges, but
+only where the *population* differs, and both authors close the gap the same way: Choi predicted it (the
+deficient «respond better»), and Song attributes the divergence to baseline health — «In contrast, the
+present study centered on older individuals with sarcopenia and found different results. The reason for the
+difference may be that older patients with sarcopenia were in poorer health and could gain more benefits
+from nutritional supplements.» [@song2023]
+The not-joined check fires on scope (ii): the two are consistent once the stratum is matched. So the
+decision rule is one continuous story — **replete healthy older adult: training is the whole lever;
+diagnosed-sarcopenic / deficient: a compound protein+vitamin-D supplement may add a little grip strength on
+top of training.**
+
+**Hold the sarcopenic grip signal weakly — it does NOT lift the null to a benefit.** Four discounts, all on
+Song's own numbers: the grip effect is **borderline** (P=0.049, lower CI 0.01, a whisker from null);
+**high-heterogeneity** (I²=68.8%); it sits **entirely in the compound protein+vitamin-D arm** (protein/vitD-free
+subgroup «[WMD = 0.35, 95% CI (−1.52, 2.22), P = 0.713]» — null), so the design cannot isolate which nutrient
+does the work; and it is **diagnostic-criterion-dependent** — «the grip strength of the EWGSOP subgroup was
+signiﬁcantly improved [WMD = 5.41, 95% CI (3.74, 7.09), P = 0.000], and there was no diﬀerence in the AWGS
+subgroup [WMD = 0.54, 95% CI (−1.34, 2.41), P = 0.574]», i.e. the pooled 1.87 averages subgroups that
+disagree. [@song2023]
+This is a *between-MA* contrast (two separate pools on two strata), not a within-study interaction test — a
+route-(a)/(b) stratum candidate held **directionally**, `confidence: low`, and it does not overturn Choi's
+higher-tier null. The clinical read is unchanged in weight: even in sarcopenia, the supplement is a small
+adjunct to training, and grip — not mass — is the surrogate it nudges.
 
 
 [@morton2018]

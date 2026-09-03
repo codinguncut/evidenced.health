@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -19,9 +19,10 @@ relationships:
     - Rating Certainty of Evidence
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
+    - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-30
-updated: 2026-08-31
-self_critiqued: 2026-08-31
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -91,6 +92,107 @@ older participants (ie, aged 80 years) living in an institution»
 (shared trials: WHI/Jackson, RECORD) — it is the direct evidence for the high-risk-benefit arm Kahwati
 reported second-hand, and the full net-effect (benefit vs CV + stone harm, by stratum) has its own home
 -> [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
+
+## D-Health — a second large RCT of vitamin D vs major CV events, null-crossing on a TERTIARY outcome `[2026-09-02, Thompson]`
+
+The **D-Health Trial** (Thompson 2023) is the **second large independent RCT** of vitamin D and hard
+cardiovascular events after VITAL: 21,315 Australians aged 60-84, randomised to **60,000 IU/month D3
+(monthly bolus)** vs placebo for up to 5 years, with major CV events (MI, stroke, coronary
+revascularisation) captured by administrative-data linkage
+[@thompson2023dhealth]. Its headline is
+essentially the VITAL vit-D result again — **no clear benefit** — but the discipline the authors
+themselves apply is load-bearing and must be carried, not laundered into *vitamin D reduces CVD*.
+
+**The effect is not statistically distinguishable from null, on a TERTIARY outcome not corrected for
+multiplicity.** Major CV events HR **0.91 (0.81-1.01)** — the CI crosses 1:
+
+> «Compared with the placebo group, the rate of major cardiovascular events was lower in the vitamin D
+> group (hazard ratio 0.91, 95% confidence interval 0.81 to 1.01), although the upper bound of the
+> confidence interval is consistent with there being no effect»
+> [@thompson2023dhealth]
+
+CV events were a **prespecified tertiary outcome — one of 45**
+[@thompson2023dhealth], and «Although this is
+one of several outcomes analysed, we have not adjusted for multiple testing»
+[@thompson2023dhealth]; the trial's *primary*
+outcome (all-cause mortality) and CV mortality were both null in the prior D-Health analysis. So a 0.91
+among 45 tertiary outcomes, with the CI touching 1.01, is weak evidence — and the absolute layer says
+the same: **-5.8 events/1000 at 5 years (95% CI -12.2 to 0.5/1000)** — **the absolute-difference CI also
+crosses zero** [@thompson2023dhealth]. The
+reported **NNT 172** is derived from a point estimate that is not significantly different from null, so
+it is not a reliable number; carry it only with that caveat
+[inferred from @thompson2023dhealth].
+
+**The MI and CV-drug-user signals are hypothesis-generating, not findings** — the same discipline the
+VITAL n-3 total-MI secondary gets below. MI **0.81 (0.67-0.98)** and coronary revascularisation **0.89
+(0.78-1.01)** were the nominally-favourable secondaries; stroke was flat **0.99 (0.80-1.23)**
+[@thompson2023dhealth]. Among 45 tertiary plus
+multiple secondary outcomes with no multiplicity control, the single nominally-significant MI arm is a
+candidate, not a demonstrated effect. The much-cited subgroup — a larger effect among those **taking
+cardiovascular drugs at baseline, HR 0.84 (0.74-0.97)** — carries **P-for-interaction 0.12 (NOT
+significant)**, and the authors say so: «The interactions were not significant at P<0.05, and it is
+plausible that these are chance findings»
+[@thompson2023dhealth]. This is an exploratory,
+underpowered effect-modification signal (route (b) territory *without* a significant interaction), so it
+is a HYPOTHESIS for a future trial, not an established stratum modifier — and baseline 25(OH)D was
+**modelled, not measured**, a further limit on the predicted-status subgroups
+[@thompson2023dhealth].
+
+**What D-Health adds beyond VITAL — a different regimen reaching the same null (type-F replication, NOT
+`[E-independent]`).** VITAL and D-Health are different cohorts, countries, authors, and dosing, so the
+DATA are independent — but they are the **same design (RCT) answering the same question**, which is
+replication that raises confidence, not the different-*method* backing type-E requires (an RCT and a
+Mendelian-randomisation study reaching one claim). Two RCTs converging on a null is **type-F**. The
+parameter table shows what converges and what differs:
+
+| Parameter | VITAL vit-D arm (Manson 2019, held above) | D-Health (Thompson 2023) | Same quantity? |
+|---|---|---|---|
+| Exposure | D3 **2000 IU/day** (daily) [@manson2019vitd] | D3 **60,000 IU/month** (monthly bolus) [@thompson2023dhealth] | **NO** -- daily vs monthly bolus |
+| Population | US, age >=50/55, **prior CVD excluded**, replete (mean 30.8 ng/mL) [@manson2019vitd] | Australia, 60-84, **prior CVD NOT excluded**, largely replete (placebo mean 77 nmol/L \~31 ng/mL) [@thompson2023dhealth] | partial -- both older & replete; D-Health includes prior CVD |
+| Composite | MACE = MI + stroke + **CV death** [@manson2019vitd] | MI + stroke + **coronary revascularisation** [@thompson2023dhealth] | **NO** -- revasc vs CV death |
+| Prespecification | co-**primary** | **tertiary** (1 of 45), no multiplicity adj [@thompson2023dhealth] | **NO** |
+| Result | HR **0.97 (0.85-1.12)**, null [@manson2019vitd] | HR **0.91 (0.81-1.01)**, null-crossing [@thompson2023dhealth] | both **null-crossing** |
+
+The fourth column is mostly NO, so this is **not** a joined tension and **not** an identical-quantity
+re-derivation — it is a *robustness* reading: despite a different dose schedule (monthly bolus vs daily),
+a different composite, and a stratum that *includes* the prior-CVD patients VITAL excluded, D-Health
+lands in the same null-crossing region
+[inferred from @thompson2023dhealth; @manson2019vitd]. Two
+consequences for the page's core:
+
+- **It weakens the *wrong dose / wrong regimen* rescue of the VITAL null.** A common defence of the
+  vit-D-CV null is that VITAL's daily 2000 IU was the wrong regimen. D-Health used **monthly 60,000 IU**
+  — «unlike D-Health and ViDA, VITAL used a daily dosing regimen of 2000 IU/day»
+  [@thompson2023dhealth] — with reported
+  adherence *higher* than VITAL's, and still showed no clear CV benefit. So the CV null holds under
+  **both** daily (VITAL) and monthly-bolus (D-Health) regimens for the replete older stratum
+  [inferred from @thompson2023dhealth].
+- **It is still enhancement in the replete.** D-Health's cohort was largely replete — the placebo
+  25(OH)D «was 77 nmol/L, and the proportion with 25(OH)D <50 nmol/L was 13%», and «the findings cannot
+  be generalised to populations with a greater prevalence of vitamin D deficiency»
+  [@thompson2023dhealth] — 77 nmol/L is \~31
+  ng/mL, essentially VITAL's baseline. The same load-bearing caveat holds: this tests *adding D to an
+  already-adequate person*, not deficiency correction -> [[Deficiency Repletion vs Enhancement]].
+
+**The authors resist declaring the null dead — read symmetrically.** Thompson concludes «Vitamin D
+supplementation might reduce the risk of major cardiovascular events, although the absolute risk
+difference was small and the confidence interval was consistent with a null finding»
+[@thompson2023dhealth] and, on the strength of
+the non-significant CV-drug subgroup, «conclusions that vitamin D supplementation does not alter risk of
+cardiovascular disease are premature»
+[@thompson2023dhealth]. Under symmetric
+standards this is a null-crossing tertiary result whose most favourable reading rests on an unadjusted
+subgroup with a non-significant interaction — it **firms** the page's *no clear CV benefit from
+supplementing the replete* position rather than reopening it, while leaving the CV-drug-user interaction
+as an explicit **candidate lever** for a future adequately-powered trial
+[inferred from @thompson2023dhealth]. The
+source itself triangulates against the Mendelian-randomisation evidence it cites — «one reported an
+inverse association between genetically predicted 25(OH)D concentration up to 50 nmol/L and
+cardiovascular disease» while the other two found none
+[@thompson2023dhealth] — i.e. the genetic
+evidence is *mixed* (a below-50-nmol/L deficiency-range signal, null above), consistent with the
+repletion-vs-enhancement split this page holds, not a clean RCT+MR convergence on benefit. Held as
+context, **not** stamped `[E-independent]`.
 
 ## The non-CV mortality anchor: pooled all-cause null, cancer-DEATH benefit `[2026-08-23, Zhang MA]`
 
@@ -201,6 +303,69 @@ state. Neither is *benefit*.
 one of its largest trials, so the guideline and the trial are **not independent backing** (no
 `[E-independent]`) — the guideline is the RCT base synthesized, one level up
 .
+
+## The newest guideline consolidates the trial base — Endocrine Society (Demay 2024) `[2026-09-02, Demay]`
+
+The Endocrine Society's 2024 GRADE guideline is the newest authoritative stance on this page's exact
+question, and it lands where the trial base above does: **against empiric vitamin D above the DRI
+(600 IU/day, 15 mcg) to prevent disease in healthy adults younger than 75, and against routine
+25(OH)D testing in every population it considered** — «The panel suggests against empiric vitamin D
+supplementation above the current DRI to lower the risk of disease in healthy adults younger than 75
+years» [@demay2024vitamind] (with the
+panel's own caveat that trial doses varied and many participants continued personal supplements —
+a precision limit, not a reversal). It is **not an independent witness**: it rests on the same
+VITAL / D2d / etc. RCTs USPSTF and the mortality MAs above already pool, so this is **shared-evidence
+agreement — type-F consolidation, NOT `[E-independent]`** [inferred from @demay2024vitamind]. It
+**defeats the guidance null by agreement-with-better-warrant**: a second guidance family reaches the
+same null *and* publishes calibrated GRADE certainty and the strata where it stops.
+
+**The 50-74 consolidation is the genuine beyond-VITAL move.** Where this page held VITAL's
+single-trial nulls, Demay's commissioned meta-analyses upgrade the 50-74 stratum to **high certainty**
+of little-or-no effect across four hard endpoints at once — «high certainty of evidence for fractures,
+CVD events, cancer and mortality, the panel judged that vitamin D supplementation appears to have
+little or no beneficial impact on the outcomes analyzed in healthy populations aged 50 to 74 years»
+[@demay2024vitamind]. That is a
+certainty grade the isolated VITAL nulls could not carry on their own [inferred from @demay2024vitamind].
+
+**The age-75 carve-out — a route-(a) mortality signal, held with its own hedges.** For adults **>=75**,
+the panel *suggests* empiric vitamin D (weighted-avg \~900 IU/day, 23 mcg) for a potential mortality
+benefit — **conditional (GRADE 2), moderate certainty (⊕⊕⊕◯)** — on a pooled
+all-cause mortality MA (25 trials, 49,879 participants): «Meta-analysis suggested that vitamin D lowers
+mortality compared to placebo (RR 0.96 [95% CI, 0.93-1.00]), with an estimated absolute effect size of
+6 fewer deaths per 1000 people»
+[@demay2024vitamind]. Three bounds
+keep it honest: the CI upper bound touches **1.00** (a borderline signal); Demay's pool **includes
+calcium-combined trials** that the Zhang MA above *excluded* to reach its 0.98 all-cause null, so the
+two figures rest on different trial sets — a distinction, not a re-derivation and not a joined tension
+[inferred from @demay2024vitamind; @zhang2019vitd];
+and the panel flags the age bands as «somewhat arbitrary»
+[@demay2024vitamind]. Decision-change:
+for the oldest stratum a low daily dose is a defensible small lever; for 50-74 it is not.
+
+**Prediabetes — the other positive carve-out (route-(a), a candidate lever).** For high-risk
+prediabetes, Demay *suggests* empiric vitamin D (weighted-avg \~3500 IU/day, 88 mcg) to slow
+progression to diabetes — **conditional, moderate certainty** — reporting «a 15% reduction in
+new-onset diabetes in adults with prediabetes randomized to vitamin D compared to placebo (HR 0.85
+[95% CI, 0.75-0.96])» [@demay2024vitamind]. Per guideline-tier discipline the *effect* traces to the underlying IPD-MA, not to the guideline — the SR to cite for the prediabetes effect.
+The panel sizes the lever at the margin: its \~24-fewer-per-1000 absolute reduction is smaller than
+metformin's \~70-fewer-per-1000 in the DPP, so the drug alternative is the larger rock for this stratum
+-> [[Layer 1 - Ranking Interventions for a Stratum]]. Pregnancy and children 1-18 carry weaker
+*suggest*-empiric recs (low / very-low certainty).
+
+**Every recommendation is conditional — the GRADE-strength finding.** All 14 Demay recommendations are
+graded **"2" (conditional/weak)**; certainty spans **very-low (⊕◯◯◯) to moderate (⊕⊕⊕◯)**, none
+strong and none high-certainty *for a recommendation* [@demay2024vitamind]. So the newest guideline's own instrument reports what
+this page does: the evidence for supplementing the healthy is weak, and where it does act it acts
+conditionally [inferred from @demay2024vitamind].
+
+**Two dosing/target refinements.** (1) Where Demay suggests empiric D, it prefers **daily, lower-dose
+over nondaily, higher-dose** — «For empiric supplementation, daily, lower-dose vitamin D is preferred
+over nondaily, higher doses» [@demay2024vitamind] — the same daily-not-bolus direction the Martineau ARI section below holds (bolus was null
+even in the deficient). (2) The Society **no longer endorses the 30 ng/mL 25(OH)D target** it set in
+2011 — «the Endocrine Society no longer endorses the target 25(OH)D level of 30 ng/mL (75 nmol/L)
+suggested in the previous guideline» [@demay2024vitamind] — and no longer defines deficiency/insufficiency cutoffs, consistent with
+this page's treatment of a 25(OH)D *target* as a surrogate whose transmission to hard outcomes is
+unproven -> [[Surrogate Outcomes]] [inferred from @demay2024vitamind].
 
 ## The harm arm — *more is better* is false (the upper-bound)
 
@@ -521,6 +686,35 @@ survival effect, not a demonstrated longevity intervention. **Scope firewall:** 
 *high-risk-stratum prescription* boundary; it does NOT loosen this page's general-population supplement
 null, which is 1 g/day OTC enhancement in the replete and stands unchanged.
 
+**Lombardi 2020 generalizes the split across 14 trials — the dose axis, not just VITAL-vs-REDUCE-IT.**
+A pairwise + network meta-analysis (14 RCTs, 125,763 patients, 78.6% statin-treated) splitting trials
+at a 1 g/day cutoff found high-dose (> 1 g/d) O3FA vs control lowered ischemic endpoints — major
+vascular events IRR 0.78 (0.71-0.85), MI 0.71 (0.62-0.82), cardiac death 0.79 (0.65-0.96) — while
+*«no benefit of LD treatment compared to HD in any of the efficacy endpoints»* and total death,
+sudden cardiac death, and stroke were null even at high dose.
+[@lombardi2020]
+This **firms VITAL beyond a single trial**: the low-dose stratum is near-null *across the pooled RCT
+evidence*, and pooling every trial regardless of dose washes the ischemic signal toward null (the
+low-dose trials dilute the high-dose signal). But it does **not** resolve the distinction into a clean
+dose law — the high-dose arm is dominated by EPA-only trials in higher-risk populations, so *«it
+remains unknown whether it was the dose or formulation that drove the observed CV benefit»*, on *«an
+arbitrary cut-off of 1 g/day»* with *«no direct comparison be-tween HD and LD O3FA»*.
+[@lombardi2020]
+So Lombardi is a **type-F refinement** of the parameter table above (adds that the dose axis tracks
+benefit across the whole trial set), **not a filed tension** and **not independent type-E** (it
+re-pools VITAL, REDUCE-IT, JELIS, ASCEND et al. already held). High-dose benefit is bought with excess
+bleeding (1.49) and AFib (1.35); and the n-3-vs-control gap was smaller under olive-oil placebos, which
+the authors read as evidence that *«olive oil is not an inert control»* — a comparator threat across the
+literature mirroring the REDUCE-IT mineral-oil concern.
+[@lombardi2020]
+The REDUCE-IT AFib-hospitalization signal (3.1% vs 2.1%) above is now the high-dose edge of a
+**pooled** dose-dependent AF harm: Gencer 2021 (7 trials, 81,210 pts) puts overall incident-AF HR at
+1.25 (1.07-1.46), rising to 1.49 (1.04-2.15) in the >1 g/d trials vs 1.12 (1.03-1.22) at <=1 g/d
+(P-interaction <0.001), and the signal survives excluding REDUCE-IT (1.23) — so it is not a
+mineral-oil artifact -> [[Omega-3 Supplementation and Atrial Fibrillation]].
+[inferred from @gencer2021]
+[inferred from @lombardi2020]
+
 ## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
 
 The general-population null above is **enhancement in the replete, on fractures/cancer/CVD**. It does not
@@ -577,5 +771,51 @@ not general-population supplementation -> [[Deficiency Repletion vs Enhancement]
 nutrients now lift the *principle* to `[E-independent]`). Hold below the GRADE-high vitamin-D evidence:
 only 2 RCTs, small samples, uncontrolled confounding incl. a maternal-behaviour channel
 [@bougma2013].
+
+**A diet-DEFINED deficient stratum — B12 in vegetarians/vegans (Pawlak 2013), NOT a fourth quantified
+instance.** Where the three instances above modify a supplement's benefit by *measured* baseline status,
+a vegetarian/vegan diet **creates** a genuine B12 shortfall by construction (B12 has essentially no
+plant source) — so B12 supplementation is close to **non-optional** for this stratum rather than the
+bottom-of-hierarchy enhancement the general null describes -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]]. It is held **separately and more weakly**, because the source is a *descriptive
+prevalence* review (11-90% biochemically deficient, cutoff-driven) with **no patient-important-outcome
+effect** and a two-thirds-deficient / zero-clinical-symptoms finding — so the repletion *benefit* here
+is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
+[inferred from @pawlak2013].
+
+## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 NMA added to the REDUCE-IT/VITAL section]`
+
+- **Not overclaimed.** The Lombardi bullet states the dose finding as an *association* (HD > 1 g/d
+  associated with lower ischemic events) and twice withholds the causal dose reading — dose is
+  confounded with EPA-only form and high-risk stratum, on an arbitrary cutoff with no closed loop. The
+  decision-relevant claim is the *negative* one (OTC 1 g/d near-null across pooled trials), which firms
+  the page's existing general-population supplement null rather than loosening it.
+- **Not a fake tension.** Lombardi is filed as a **type-F refinement** of the existing VITAL-vs-REDUCE-IT
+  parameter table (which already resolved the pair as a distinction, same-quantity NO on every row), not
+  as a new `[[tension]]`.
+- **Not laundered-E.** Explicitly marked **not independent** — it re-pools VITAL, REDUCE-IT, JELIS,
+  ASCEND et al. already held here, so it raises certainty/detail on the supplement leg, not
+  independence; the page's `confidence: high` rests on the VITAL/USPSTF/Bjelakovic evidence, unchanged.
+- **Coherence, not validity** (R1): the loop is open; the olive-oil/mineral-oil comparator threat is
+  named as an unresolved bias in the underlying trials.
+
+## Self-critique `[run 2026-09-02, before commit — Demay 2024 Endocrine Society guideline woven]`
+
+- **Not laundered-E.** The Demay section is explicitly marked **not independent** — same VITAL/D2d
+  trial base as the held USPSTF/Zhang evidence, so it is type-F consolidation, and the page's
+  `confidence: high` is unchanged (a guideline resting on already-held trials adds authority and GRADE
+  calibration, not a second independent backing).
+- **Guideline-tier discipline held.** The one effect claim that traces to an underlying SR — the
+  prediabetes HR 0.85 — is tagged, not
+  asserted as Demay's own; the mortality RR 0.96 is presented as Demay's *own* commissioned pooled MA
+  (a guideline-produced estimate), flagged with its CI touching 1.00.
+- **Not a fake tension with Zhang.** Demay's RR 0.96 vs Zhang's 0.98 is filed as a *distinction*
+  (different trial sets — Demay includes calcium-combined trials Zhang excluded), not a joined tension;
+  both CIs border 1.
+- **Thresholds carry their load.** The age-75 cut is stated with the panel's own «somewhat arbitrary»
+  hedge; doses are given IU/day AND mcg; each stance carries GRADE strength (all conditional "2") and
+  certainty. No bare cutpoint launders in.
+- **No [PRIOR] verdict scored here** (ingest builds fabric, does not adjudicate): the EtD/weighting
+  observation is appraised on [[Which Objective Moved This Recommendation]], not scored against the
+  weighting [PRIOR] in this ingest.
 
 ## References

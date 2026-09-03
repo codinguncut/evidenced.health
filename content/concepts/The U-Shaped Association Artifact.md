@@ -2,13 +2,16 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024, Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024,
+  Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025,
+  Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
+  Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-29
-self_critiqued: 2026-08-29
+updated: 2026-09-03
+self_critiqued: 2026-09-03
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -26,6 +29,7 @@ relationships:
     - Fluoride and Bone Health
     - The Physical Activity Paradox
     - Should Sodium Reduction Be Population-Wide or Targeted
+    - Heme Iron and Cardiometabolic Risk
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -123,6 +127,18 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     now carries the alcohol artifact's signature, adjudicated in-principle by the concept but not yet by a
     strong instrument -> [[Chronic Kidney Disease and Modifiable Exposures]]. Not independent-E (same
     exposure, new outcome, shared observational base) -> type-F cross-outcome.
+  - **A burden-weighted MODEL J is not an adjudication route — it inherits the input arm `[2026-09-02, Bryazka]`
+    `type-F`.** GBD 2020 (Bryazka) estimates a J-shaped burden-weighted RR curve for ages 40+, non-zero
+    optimum in high-CVD regions «for all regions». [@gbd2022alcohol]
+    But this J is a *weighted composite* of the same observational IHD/T2D dose-response RRs whose lower
+    arm the concept already flags — built on a «reference group of non-drinkers» (sick-quitter referent, not
+    referent-corrected), no MR run, and Bryazka concedes residual «measurement bias and selection bias, as
+    well as the potential impacts of reverse causality». [@gbd2022alcohol]
+    Bryazka's own cited MR meta-analysis nulls it — «67% of studies on cardiovascular disease and 75% of
+    studies on diabetes reporting a null association». [@gbd2022alcohol]
+    **Lesson for the concept: a J re-surfacing in a downstream model is not a fourth check** — it is the
+    artifact arm propagated, and re-passes neither the referent-correction nor the genetic gate. Same-body
+    GBD revision (Bryazka = GBD 2020, Griswold = GBD 2016), so type-F not independent-E.
 - **Sleep — adjudicated, and it sharpens the concept.** The sleep-duration U-curve's *long*-sleep arm
   (RR 1.30) has no demonstrated mechanism and is «a powerful additional marker of ill-health» (reverse  [@cappuccio2010]
   causation), while the *short*-sleep arm (RR 1.12) carries a mechanism and cause-specific evidence
@@ -160,6 +176,33 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     short-sleep/all-cause at P=0.01 and both survived trim-and-fill (1.22 / 1.04, unchanged). Not independent-E of Cappuccio
     (same design class, overlapping cohorts, same reverse-causation reading) -> **type-F** dose-resolution
     -> [[Sleep Duration and Mortality]].
+  - **Fourth sleep instance — the MR STRONG check finally lands: short arm survives, long arm not supported
+    (but underpowered, not refuted) `[2026-09-02, Wang]` `type-F`.** Every sleep instance above ran
+    *weak checks only* (multivariable adjustment; no referent-correction, no MR), leaving both arms
+    unadjudicated by this concept's decision rule. Wang 2022 (meta-review + MA of 4 observational MAs + 11
+    MR studies) supplies the genetic natural experiment on **CVD morbidity** endpoints. The **short arm
+    survives the strong check**: genetically-predicted short sleep raises CAD (IVW OR 1.24, 1.15-1.34), MI
+    (1.20, 1.12-1.28) and HF — «evidence is accumulating that short sleep duration is a causal risk factor
+    for CAD and HF» [@wang2022sleep] — so this
+    arm is now genetically *supported*, not merely mechanism-argued. The **long arm gets no genetic
+    support**: «long sleep duration has no causal associations with stroke and CAD in the MR studies»
+    [@wang2022sleep], matching the concept's
+    prediction that the larger, mechanism-free arm is the artifact-suspect one (Wang: long sleep «a surrogate
+    risk indicator for poor health status», associations «reﬂected potential reverse causality»).
+    - **The discipline the alcohol case did NOT need — insufficient vs no-effect.** Unlike Millwood's
+      decisive alcohol MR (which *removed* the protective arm on a powered instrument), Wang's long-sleep MR
+      nulls are **underpowered**: few genetic instruments for long sleep (one MR ran «no analysis» for want
+      of SNPs), and Wang concedes «MR studies ... did not provide suﬃcient evidence supporting the causal
+      association between long sleep duration» and «No clear experimental evidence shows the harmful eﬀects
+      of long sleep duration». [@wang2022sleep]
+      So the long arm moves from *argued-artifact* to *genetically-unsupported* — a stronger position than
+      Yin/Shan left it, but NOT a demonstrated no-effect. Scope caveat: the MR lands on CAD/HF/stroke
+      *incidence*, not directly on the mortality U-arm Cappuccio/Yin measured, so it strengthens the
+      arm-asymmetry read across outcomes rather than re-adjudicating the mortality curve itself.
+    - **Type + independence.** The observational arm re-pools the same overlapping Cappuccio-class cohorts
+      (shared base, not independent-E); the MR is a genuinely different *method* but it triangulates the same
+      question rather than backing a specific held estimate -> **type-F** (supplies the missing genetic leg,
+      exactly as Wade's MR did for BMI) -> [[Sleep Duration and Mortality]].
 - **Muscle-strengthening activity — a J-shape with its own counter-instance built in.** MSA shows a
   J-shaped dose-response for all-cause mortality/CVD/cancer (nadir in a wide, imprecise \~30-80 min/week
   region, hazard rising above 1.0 past \~140 min/week) — but an **L-shape** (no upturn) for **diabetes**,
@@ -475,6 +518,32 @@ equally consistent with the causal and the artifact explanation has no diagnosti
       **NOT independent-E of the held BMI-MR fabric** — co-author Di Angelantonio also leads Global BMI
       2016, and Sun cites Wade (ref 33); the HUNT cohort and the smoking decomposition are what is novel
       -> **type-F** -> [[BMI and All-Cause Mortality]].
+- **Hemoglobin -> CAD — the MR DIRECTLY TESTS the U's nonlinearity and finds none `[2026-09-03, Liu]`
+  `type-F`.** A distinctive *shape*-dissolution instance: most catalog instances infer the artifact from
+  tells (mechanism-absence, heterogeneity, a referent flip), and alcohol/BMI adjudicate via referent-
+  correction or a curve that survives-but-deflates; here the strong check tests the curve *shape* directly
+  — a genetic nonlinearity test. Liu 2024's iron-status MR reports «The observational analyses in Figure 1 demonstrated
+  U-shaped associations of hemoglobin levels with CAD, wherein both lower and higher levels of hemoglobin
+  were each associated with higher risks of CAD (reference level 14 mg/dL). However, there was no evidence
+  of nonlinearity in the MR analyses (Cochran Q P=0.853, quadratic test P=0.703)»
+  [@liu2024ironmr]. So
+  the observational U — both a low-hemoglobin (anemia) and a high-hemoglobin arm elevated — flattens to a
+  monotone genetic slope: the quadratic term is null. This is the *adjudicate the arm* rule met by a
+  nonlinearity test rather than a referent-correction, and it is a STRONG (genetic) check, so the low
+  (anemia) arm reads as reverse causation / frailty, not a protective feature of higher hemoglobin.
+  - **The direction is a SEPARATE matter from the shape — do not read "no U" as "more is better."** The
+    same MR splits by outcome: «modest protective effects of iron biomarkers for CAD (7%-14% lower risk
+    for 1 SD higher levels of iron biomarkers), adverse effects for T2D, but no associations with IS or HF»
+    [@liu2024ironmr],
+    and the *hemoglobin* instrument runs the other way from the iron-*store* instruments (linear +8%/SD
+    adverse for CAD) — an internal discordance the source leaves unexplained. The concept's claim here is
+    only about the *shape* (the observational U is not causal), not about which direction the monotone
+    slope runs -> that outcome-specific direction question lives on [[Heme Iron and Cardiometabolic Risk]].
+  - **Same-quantity bound + type.** The exposure is *systemic iron status / hemoglobin*, NOT dietary heme
+    (the cross-link's nucleus draws exactly that distinction), so this instance adjudicates the
+    iron-burden curve, not the food channel. A new exposure sharing the one diagnostic, not independent
+    backing of a held claim -> **type-F** worked-case extension -> [[Heme Iron and Cardiometabolic Risk]].
+  [inferred from @liu2024ironmr]
 - **Smoking cessation — not a U-curve, but the cleanest worked *sick-quitter correction*.** Jha 2013
   ([[Smoking and Mortality]]) states the mechanism exactly — «Life-threatening illness can cause smokers  [@jha2013]
   to quit, which distorts the rates of death among current smokers and among those who have quit smoking

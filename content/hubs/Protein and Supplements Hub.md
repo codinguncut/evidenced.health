@@ -32,8 +32,13 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 
 - [[Vitamin and Mineral Supplements for Disease Prevention]] — for a generally-nourished adult, whether
   vitamins, minerals, multivitamins, or marine omega-3 prevent CVD, cancer, fractures, or death
+- [[Omega-3 Supplementation and Atrial Fibrillation]] — the harm-channel counterweight: marine omega-3
+  supplements raise incident-AF risk dose-dependently (overall HR 1.25; >1 g/d 1.49 vs <=1 g/d 1.12)
 - [[Creatine Supplementation]] — which of creatine's many claims are established (and which are not),
   for whom, and at what dose
 - [[Vitamin C and the Common Cold]] — refuted for general-population incidence (RR 0.97); a real
   route-(b) exception under heavy acute physical stress (RR 0.48); modest duration effect of regular
   use only; therapeutic-at-onset unproven
+- [[Vitamin B12 Status in Vegetarian and Vegan Diets]] — the repletion mirror: a diet-defined
+  shortfall (B12 has no plant source) makes supplementation close to non-optional for vegetarians/vegans;
+  serum B12 is the wrong marker (use MMA/holo-TCII); biochemical deficiency is a surrogate, not held harm

@@ -3,13 +3,13 @@ type: deliverable
 title: Dietary Supplements
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-31
-self_critiqued: 2026-08-31
-concrete_subject_audited: 2026-08-31
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -86,6 +86,19 @@ hypertriglyceridaemic, which is a different exposure on a different stratum; the
 signal carries a contested comparator, and a clean-comparator outcome trial is not held here -- a named
 gap, not a settled null
 .
+
+But omega-3 supplementation is not merely inert as the dose rises — it carries a demonstrated harm.
+Gencer's meta-analysis of 7 marine-omega-3 CV-outcome RCTs (81,210 participants) found the supplements
+raised **incident atrial fibrillation**, dose-dependently: overall HR 1.25 (1.07-1.46); low-dose
+<=1 g/day HR 1.12 (1.03-1.22); high-dose >1 g/day HR 1.49 (1.04-2.15); and per 1 g/day increment HR
+1.11 (1.06-1.15)
+[@gencer2021]. The signal is robust —
+it survives dropping REDUCE-IT (HR 1.23)
+[@gencer2021]. AF here is an incident,
+patient-important RCT outcome, not a surrogate, so this is a genuine dose-dependent harm arm on the
+supplement (isolate) form — running opposite the dose-dependent CV benefit — and it does not touch any
+fish-as-food claim
+ -> [[Omega-3 Supplementation and Atrial Fibrillation]].
 
 An **independent** trial set reaches the same fracture-null. Kahwati's USPSTF review pooled 11 RCTs
 (N=51,419) of community-dwelling adults — using no VITAL trial, its search closing before VITAL
@@ -188,6 +201,21 @@ mechanism as the principle itself: «Increased efficacy of vitamin D supplementa
 baseline vitamin D status is more readily explicable, based on the principle that people who are the
 most deficient in a micronutrient will be the most likely to respond to its replacement.»
 [@martineau2017]
+
+A fourth repletion stratum is defined by the **diet, not a lab value**: vegetarians and vegans have no
+appreciable plant source of vitamin B12, so biochemical depletion is common — though the reported
+prevalence is wide and cutoff-driven, «from about 11 to 90%» across 18 studies using accurate
+biomarkers, with serum B12 itself unreliable (MMA and holo-TCII are the accurate markers)
+[@pawlak2013].
+
+But this case stops where the three above do not: repletion corrects a **marker**, not a demonstrated
+clinical harm. In the one study that looked, «none of the vegetarians included in their study had
+clinical symptoms despite the fact that about two-thirds of the sample had B12 depletion or deﬁciency,
+as indicated by both low holo-TCII and elevated MMA»
+[@pawlak2013]. So marker-to-outcome
+transmission is **insufficient evidence**, held apart from the well-supported prevalence and
+measurement facts
+ -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]].
 
 Two disciplines keep this honest. First, **repletion is necessary, not sufficient**: the benefit is
 often gated by a further condition — vitamin D worked only on daily/weekly (not bolus) dosing, and
@@ -389,9 +417,9 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 23 sources — 9 gold, 13 high, 1 moderate |
+> | **Evidence included** | 25 sources — 10 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 ## References

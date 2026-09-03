@@ -2,14 +2,14 @@
 type: framework
 question: Does eating more poultry (white meat) change all-cause mortality or cardiovascular risk, and by how much — and is any signal the poultry or what it displaces?
 aliases: [White Meat, White Meat Consumption, Poultry Consumption, Poultry and Mortality, White Meat and Mortality, Chicken Consumption]
-authors: [Lupoli, Roberta; Vitale, Marilena; Calabrese, Ilaria; Giosue, Annalisa; Riccardi, Gabriele; Vaccaro, Olga; Kim, Kyuwoong; Hyeon, Junghyeon; Lee, Sang Ah; Kwon, Sung Ok; Lee, Hyejin; Keum, NaNa; Lee, Jong-Koo; Park, Sang Min; Ramel, Alfons; Nwaru, Bright I; Lamberg-Allardt, Christel; Thorisdottir, Birna; Barebring, Linnea; Soderlund, Fredrik; Arnesen, Erik; Dierkes, Jutta; Akesson, Agneta]
-sources: [Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023]
+authors: [Lupoli, Roberta; Vitale, Marilena; Calabrese, Ilaria; Giosue, Annalisa; Riccardi, Gabriele; Vaccaro, Olga; Kim, Kyuwoong; Hyeon, Junghyeon; Lee, Sang Ah; Kwon, Sung Ok; Lee, Hyejin; Keum, NaNa; Lee, Jong-Koo; Park, Sang Min; Ramel, Alfons; Nwaru, Bright I; Lamberg-Allardt, Christel; Thorisdottir, Birna; Barebring, Linnea; Soderlund, Fredrik; Arnesen, Erik; Dierkes, Jutta; Akesson, Agneta; Etemadi, Arash; Sinha, Rashmi; Ward, Mary H; Graubard, Barry I; Inoue-Choi, Maki; Dawsey, Sanford M; Abnet, Christian C]
+sources: [Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017]
 cluster: white-meat
 nucleus: true
 confidence: low
 created: 2026-08-28
-updated: 2026-09-01
-self_critiqued: 2026-09-01
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 relationships:
   related_to:
     - The Comparator Problem
@@ -29,9 +29,11 @@ Ramel (CVD mortality + T2D incidence, NNR2023 SR group). **Across all three the 
 poultry is neither a protective nor a harmful food in its own right** — a small favourable signal on
 aggregate endpoints (all-cause mortality, stroke incidence) that is inseparable from red-meat
 displacement, and NULL on the cause-specific CV and T2D endpoints. Ramel closes the CVD-mortality and
-T2D cells and, distinctively, attaches a *formal WCRF certainty grade* to the null (below).
- (this lead is the wiki's cross-source framing of the three MAs; each finding is
-attributed on its own section below)
+T2D cells and, distinctively, attaches a *formal WCRF certainty grade* to the null (below). A fourth
+source — one large US cohort (Etemadi 2017, NIH-AARP) — adds the piece the three MAs structurally lack:
+a within-cohort **substitution** estimate (red -> white), the swap the intake-only MAs could not compute.
+ (this lead is the wiki's cross-source framing; each finding is attributed on its own section
+below)
 
 ## What "white meat" is here — and why the exclusion of fish matters (the B-distinction)
 
@@ -253,6 +255,36 @@ measure *intake of poultry*, not the *substitution*, and the substitution signal
 mortality, unclear CVD/T2D) is imported, not estimated here.
 [@ramel2023whitemeat]
 
+## The within-cohort SUBSTITUTION model (Etemadi 2017) — the swap the three MAs did not estimate `[2026-09-02]`
+
+The gap Ramel names above — no held source estimates the red -> white *substitution*, only intake — is
+partly cashed by an independent US mega-cohort (NIH-AARP, 536 969 adults aged 50-71, 16-year follow-up,
+128 524 deaths) that models the swap directly. Its main model holds total meat constant, so a rise in one
+meat type *is* a fall in the others: «This model was adjusted for total meat intake, so that increases in
+the meat variable of interest reflected reductions in other meat types and the total meat intake remained
+constant» [@etemadi2017].
+
+- **Substituting toward white meat is associated with lower all-cause mortality.** «When the total meat
+  intake was constant, the highest fifth of white meat intake was associated with a 25% reduction in risk of
+  all cause mortality compared with the lowest intake level»
+  [@etemadi2017], and almost all causes of
+  death showed the inverse association. Per-unit, each 20 g/1000 kcal increase carried all-cause HR **0.93
+  (0.92-0.94) for poultry** and **0.95 (0.94-0.96) for fish**
+  [@etemadi2017]; the reduction was largest
+  for **unprocessed** white meat (conclusion: reduced risks «particularly unprocessed white meat»).
+- **The B-distinction runs the OTHER way here — Etemadi's white meat INCLUDES fish.** Where Lupoli / Kim /
+  Ramel define white meat as poultry with fish *excluded*, Etemadi's aggregate white meat is «poultry and
+  fish» — but it reports poultry (0.93) and fish (0.95) *separately*, so the poultry-only arm stays
+  comparable to the fish-excluding MAs, and it is that arm, not the fish-inclusive aggregate, that matches
+  this cluster's exposure. [@etemadi2017]
+- **What it is and is not.** This is a *statistical* substitution inside one FFQ-measured observational
+  cohort — not a real swap and not a pooled substitution-SR. Total-meat-constant modelling *infers* the
+  swap, it does not randomize it, and residual confounding by the whole healthier-diet pattern that
+  accompanies white-meat preference is exactly the comparator problem the cluster turns on
+  -> [[The Comparator Problem]]. So it **narrows** the substitution gap (a first within-cohort estimate of
+  the swap — direction and rough magnitude) without **closing** it (one cohort, modelled not randomized).
+
+
 ## Cross-source composite — what Kim adds to Lupoli (type-F, endpoint extension)
 
 The two sources do **not** measure the same quantity, so this is a claim-refinement (F), not an
@@ -344,10 +376,13 @@ refutation of any source — symmetric standards apply to the funding note in bo
   higher T2D (Steinbrecher), unprocessed -> neutral-to-lower (Villegas 0.79). The aggregate null may
   mask a processed-harm / unprocessed-neutral split, exactly as in red meat. Cannot be resolved on
   2 studies — a named gap. [inferred from @ramel2023whitemeat]
-- **The substitution question (red -> white) is estimated by NONE of the three held sources.** All
-  measure *intake of poultry*, not the *swap*; the substitution signal (lower total mortality, unclear
-  CVD/T2D) is imported from cited work, not computed here. Needs a substitution-analysis SR to close
-  -> [[The Comparator Problem]]. `G (needs aggregation)`
+- **The substitution question (red -> white) is now PARTLY estimated — by one cohort, not the MAs.** The
+  three MAs all measure *intake of poultry*, not the *swap*; Etemadi 2017 (NIH-AARP) is the first held
+  source to model the substitution directly (total-meat-constant), landing a 25% lower all-cause mortality
+  for highest-vs-lowest white meat and per-20 g/1000 kcal HRs 0.93 (poultry) / 0.95 (fish) — see the
+  substitution-model section above. This **narrows** the gap to direction + rough magnitude but does not
+  close it: it is one FFQ-measured observational cohort with a *modelled* swap, so a pooled
+  substitution-analysis SR is still owed -> [[The Comparator Problem]]. `G (needs aggregation)`
 - **No dose-response on any endpoint** — all three held sources use categorical highest-vs-lowest
   contrasts; a per-gram poultry curve, knee, or absolute risk difference remains uncomputable
   (needs aggregation).
@@ -393,6 +428,22 @@ refutation of any source — symmetric standards apply to the funding note in bo
 - **No manufactured tension.** Ramel agrees with Lupoli and Kim; nothing here is filed as a D-clash.
   The processed-vs-unprocessed divergence (Steinbrecher up, Villegas down) is held as a *gap on 2
   studies*, not a joined issue.
+
+## Self-critique `[run 2026-09-02 after attaching Etemadi's substitution model]`
+
+- **Not sold as closing the gap.** Etemadi is one FFQ cohort with a *modelled* (total-meat-constant) swap,
+  not a randomized substitution and not a pooled substitution-SR. The section and the G-gap both say
+  *narrows, not closes*, and the residual-confounding / comparator caveat is carried at point of use — the
+  25% is not allowed to read as a demonstrated causal swap effect.
+- **Not type-E.** NIH-AARP/Sinha overlaps the cohort base the three MAs draw on, and the estimand
+  (highest-vs-lowest mortality under constant total meat) differs from the MAs' intake contrasts, so no
+  `[E-independent]` stamp — Etemadi's value is F/G (it *extends* the cluster with a substitution estimand
+  none of the three computed), not independent convergence.
+- **The B-distinction reversal is stated, not buried.** Etemadi's aggregate white meat *includes* fish,
+  opposite to the cluster's fish-excluding definition; the page flags this and uses the *poultry-only* arm
+  (0.93) for comparability rather than the fish-inclusive aggregate — the exposure is matched, not assumed.
+- **No manufactured tension.** Etemadi's favourable white-meat substitution signal agrees with the
+  cluster's aggregate-endpoint direction; nothing is filed as a D-clash.
 
 ## Provenance / independence note
 

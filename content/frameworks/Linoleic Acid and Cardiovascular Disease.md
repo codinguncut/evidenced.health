@@ -2,8 +2,8 @@
 type: framework
 question: Do dietary omega-6 linoleic acid (the main fat in bottled seed oils) and its metabolite arachidonic acid raise or lower cardiovascular risk?
 aliases: [Seed Oils, Seed Oil, Vegetable Oils, Omega-6, Omega-6 Fatty Acids, n-6 PUFA, Linoleic Acid, LA, Arachidonic Acid, AA, Omega-6 and Cardiovascular Disease]
-authors: [Marklund, Matti; Lemaitre, Rozenn N; Mozaffarian, Dariush; Riserus, Ulf; Hooper, Lee; Al-Khudairy, Lena; Abdelhamid, Asmaa S; Li, Jun; Guasch-Ferre, Marta; Li, Yanping; Hu, Frank B; Johnson, Guy H; Fritsche, Kevin; Hamley, Steven; Ramsden, Christopher E; Zamora, Daisy; Broste, Steven K; Su, Hang; Liu, Ruijie; Chang, Ming; Huang, Jianhua; Wang, Xingguo]
-sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Su - Linoleic Acid Inflammatory Markers 2017, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013]
+authors: [Marklund, Matti; Lemaitre, Rozenn N; Mozaffarian, Dariush; Riserus, Ulf; Hooper, Lee; Al-Khudairy, Lena; Abdelhamid, Asmaa S; Li, Jun; Guasch-Ferre, Marta; Li, Yanping; Hu, Frank B; Johnson, Guy H; Fritsche, Kevin; Hamley, Steven; Ramsden, Christopher E; Zamora, Daisy; Broste, Steven K; Su, Hang; Liu, Ruijie; Chang, Ming; Huang, Jianhua; Wang, Xingguo; Zhang, Yu; Wang, Dong D]
+sources: [Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Su - Linoleic Acid Inflammatory Markers 2017, Hamley - Saturated Fat PUFA Coronary 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Zhang - Butter Plant Oils Mortality 2025]
 cluster: dietary-fat
 confidence: low
 relationships:
@@ -16,9 +16,9 @@ relationships:
     - The U-Shaped Association Artifact
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-08-04
-updated: 2026-08-23
+updated: 2026-09-02
 nosplit: 728@single-exposure framework (one LA/AA->CVD question); length is dated evidence strata + contrarian poles held on one decision, not multiple decisions
-self_critiqued: 2026-08-23
+self_critiqued: 2026-09-02
 ---
 
 **Domain opener — the pro-LA biomarker pole of the seed-oils question.** Linoleic acid (LA, 18:2n-6)
@@ -834,5 +834,37 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
     (Hamley found none either); the surviving contrarian residue is a secondary-prevention /
     n-6-selective **stratum flag**, not a harm finding. The open lever now is Mendelian-randomisation
     (the design that would move the observational benefit to causal), not another recovered trial.
+
+## Food-level, on mortality — Zhang 2025, and the LA-rich oils do NOT move together `[2026-09-02]`
+
+The arms above answer the LA question at the **nutrient / biomarker** level. Zhang 2025 (NHS/NHSII/HPFS,
+221,054 adults, up to 33 y, 50,932 deaths, FFQ every 4 y) adds the **bottled-oil food level** on
+**mortality** — and the LA-rich oils split rather than tracking together:
+
+- **Soybean oil** (the LA-rich workhorse of the US seed-oil supply) is inverse: total mortality per
+  5 g/d **HR 0.94 (0.91-0.96)**, cancer mortality per 5 g/d **0.94 (0.89-0.99)**; the modelled
+  butter->soybean swap gives total mortality **0.85 (0.80-0.91)**. Canola **0.85 (0.78-0.92)** and olive
+  **0.92 (0.91-0.94)** are likewise inverse (per 5 g/d, total mortality).
+  [@zhang2025butter]
+- **But corn and safflower — also LA-rich — are NULL.** Corn per 5 g/d **1.07 (0.99-1.15)**
+  (borderline-positive, P-trend .09); safflower **0.90 (0.72-1.11)**, wide. Zhang attributes corn's
+  non-benefit to historical partial hydrogenation (trans fats in earlier follow-up), high-temperature
+  commercial frying (oxidation), and minimal n-3; safflower to low consumption and wide CIs. So the
+  **food-level LA-oil signal is not uniform** — a refinement the nutrient-level LA pools (which pool all
+  LA together) structurally cannot see: *which bottled oil, and how processed/cooked*, matters.
+  [@zhang2025butter]
+
+**F-refinement, NOT independent-E — same cohorts, instrument, and school.** Zhang shares the
+NHS/NHSII/HPFS cohorts, the Willett FFQ, and authors (Hu, Willett, Guasch-Ferré, Yanping Li) with
+**Li 2020** and much of the Harvard linoleic base already held here — the same shared-cohort
+non-independence this page flags for Li (Li's biomarker arm overlaps Marklund's cohorts). Its
+concordance with the *LA-lowers-mortality* direction is **volume, not a second route**, so it does **not**
+move confidence (stays `low`; the open lever is still Mendelian-randomisation, not another observational
+pool). What it adds is the **food-level, culinary-resolved** cut the nutrient pools omit — consistent with
+this page's standing caveat that whether *bottled seed oils as consumed* (heated, in UPF) move an outcome
+is a food-level question the nutrient evidence does not settle. Full butter->oil substitution model +
+symmetric-standards appraisal on [[Saturated Fat Intake and Replacement]] (*Butter vs plant oils at the
+food level*).
+[inferred from @zhang2025butter; @li2020]
 
 ## References

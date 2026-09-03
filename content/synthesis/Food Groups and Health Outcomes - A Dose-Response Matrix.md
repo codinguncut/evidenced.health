@@ -2,14 +2,14 @@
 type: synthesis
 aliases: [Food Group Dose-Response Matrix, Which Food Groups Move Which Outcomes, DIfE Boeing Food Group Series]
 question: For each of 12 major food groups, which patient-important outcomes does a defined serving increment move, in which direction, by how much, and with what certainty?
-authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna]
-sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
+authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Papier, Keren; Knuppel, Anika; Key, Tim J]
+sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Papier - Meat Ischemic Heart Disease Meta-Analysis 2021, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012]
 cluster: food-group-dose-response
 nucleus: true
 confidence: moderate
-self_critiqued: 2026-08-29
+self_critiqued: 2026-09-02
 created: 2026-08-28
-updated: 2026-08-29
+updated: 2026-09-02
 relationships:
   related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
@@ -38,7 +38,9 @@ literature five times, not five independent tests converging — the agreement i
 mechanical (shared cohorts, shared confounding structure, shared dietary-measurement
 instrument). The confidence attached to any single cell therefore rests on **that
 cell's own NutriGrade rating** (H/M/L/VL below), never on how many other columns agree. Do not
-let the visual coherence of the grid launder into raised certainty.
+let the visual coherence of the grid launder into raised certainty. (The one place this caveat is
+**partially** relieved: the meat -> coronary cells now carry an independent-team robustness check
+-> *Independent-team cross-check on the meat -> coronary cells* below.)
 
 ## The increment key (constant per food across all five outcomes)
 
@@ -111,6 +113,59 @@ CHD/stroke but **positive for heart failure** (the egg->HF signal is the stronge
 in the series). Fish is the only food inverse across all three CVD subtypes. Reading "CVD" as a
 single endpoint hides these — a stratum whose dominant risk is stroke ranks vegetables/fruit
 above whole grains/nuts.
+
+## Independent-team cross-check on the meat -> coronary cells (Papier 2021) `[2026-09-02]`
+
+The load-bearing caveat above says cross-outcome agreement inside the DIfE/Boeing series is NOT
+independent corroboration. A separate gold SR+MA from an **independent team** (Papier/Key, Oxford;
+no Schwingshackl/Boeing/DIfE overlap) re-estimates the red-meat, processed-meat, and poultry ->
+ischemic-heart-disease (IHD) cells and lands **concordant** with the Bechthold CHD column: over
+1.4 million adults, 32,630 cases; unprocessed red meat RR 1.09 (95% CI 1.06-1.12) and processed
+meat 1.18 (1.12-1.25) per 50 g/day; **no** association for poultry (1.02, 0.97-1.07 per 50 g/day).
+[@papier2021ihd]
+
+### Parameter table — matched, dose-harmonized, same-quantity checked
+
+| Parameter | Bechthold 2019 (matrix CHD) | Papier 2021 (IHD) | Same quantity? |
+|---|---|---|---|
+| Team | Schwingshackl / Boeing / DIfE | Key / Oxford | NO — genuinely independent |
+| Endpoint | CHD; excludes fatal-only cohorts | IHD, incidence and/or death; **includes** fatal-only | related, not identical |
+| Pooling model | random-effects | fixed-effects (RE sensitivity concordant) | different primary model |
+| Unprocessed red-meat dose | per 100 g/day | per 50 g/day | NO — must harmonize |
+| Red-meat RR | 1.15 (1.08-1.23) /100 g | 1.09 (1.06-1.12) /50 g = **1.19 (1.12-1.25) /100 g** | YES after log-linear conversion; concordant |
+| Processed-meat dose | per 50 g/day | per 50 g/day | YES — same unit, no conversion |
+| Processed-meat RR | 1.27 (1.09-1.49) /50 g | 1.18 (1.12-1.25) /50 g | YES — CIs overlap; concordant |
+| Poultry | not among the 12 groups | 1.02 (0.97-1.07) /50 g, null | new food group |
+| Primary cohort pool | older cohorts (NHS, EPIC, ARIC, Adventist, HPFS-lineage) | same older cohorts **+ >1M new** (UK Biobank, PURE, JPHC, DNSDP) | PARTIAL overlap |
+
+Dose harmonization is log-linear: RR per 100 g = (RR per 50 g)^2, so Papier's red-meat 1.09/50 g
+= 1.19/100 g (CI 1.06^2 to 1.12^2). The processed-meat comparison needs no conversion — both
+report per 50 g/day. On both meats the harmonized estimates are the **same quantity** (modulo the
+CHD-vs-IHD endpoint difference) and **agree**.
+
+### Independence verdict — type-F, NOT type-E (do not stamp `[E-independent]`)
+
+Papier and Bechthold **share a substantial fraction of primary cohorts** (NHS/Bernstein, EPIC,
+ARIC/Haring, Adventist/Fraser, HPFS-lineage all recur), and Papier **cites Bechthold as an
+antecedent** MA it updates. Two MAs pooling overlapping primary data are not independent tests, so
+this fails the strict-E bar (neither shared-lineage nor citing-each-other). It is **type-F**: an
+independent team, using a different endpoint definition (IHD incl. fatal-only vs CHD excl.
+fatal-only), a different pooling model, and **>1 million participants of new cohort data** absent
+from Bechthold, reaches a concordant estimate. That **partially** relieves the "one team, one pool,
+one method" caveat **for the meat -> coronary cells specifically** — a team-and-method robustness
+check — without being the fully independent corroboration a raised certainty would need.
+
+### Why red-meat -> IHD meta-analyses disagreed — a power story, not an effect-absence (type-C)
+
+Papier states that «previous meta-analyses on unprocessed red meat and IHD were based on few
+studies» — two early ones (Micha 2010, Abete 2014) finding no association for incident or fatal
+IHD, two more recent (Bechthold 2019, Zeraatkar 2019) reporting a positive association.
+[@papier2021ihd] The reconciliation
+is precision, not contradiction: Papier's red-meat pool carries «34,949 cases from 12 studies»,
+against the «6,659 cases» from five studies that Bechthold pooled — over four times the cases.
+[@papier2021ihd] So the earlier null
+MAs are **insufficient-evidence** (underpowered), not demonstrated **no-effect** — the four
+evidence-states distinction, and the expectancy test applied to a growing case count.
 
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 
@@ -232,10 +287,14 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   here. `G (needs a substitution/network meta-analysis)`.
 - No **genetic (Mendelian-randomization) or feeding-trial** evidence isolates red-meat or heme-iron
   -> T2D in either direction; the red/processed-meat T2D cells rest entirely on observational
-  association, and heme iron is held in the fabric only for *cancer*, not T2D
-  -> [[Red and Processed Meat and Cancer]]. A heme-iron -> T2D natural experiment (or an
-  adherence-controlled design) is the named decider for whether this cell is causal.
-  `G (needs a genetic/MR or feeding-trial test)`.
+  association. Heme iron is now held as an attributed observational channel for *cancer*, *all-cause /
+  cause-specific mortality* (the latter via one large cohort's mediation model), AND *T2D* — the T2D leg
+  is a gold SR+MA (dietary heme-iron intake highest-vs-lowest RR 1.31, 95% CI 1.21-1.43, 4 prospective
+  cohorts, I2=0%) [@zhao2012hemeiron]
+  -> [[Heme Iron and Cardiometabolic Risk]] (the cross-outcome nucleus). What is **still** missing for
+  T2D is a *natural experiment*: a heme-iron -> T2D Mendelian-randomization or adherence-controlled
+  feeding design remains the named decider for whether this cell is causal rather than confounded by red
+  meat. `G (needs a genetic/MR or feeding-trial test)`.
 - The series computes no **absolute** risk — RRs need a stratum baseline to rank against a drug
   comparator. The mortality paper gives an *optimal-combined-intake* -> 56% relative mortality
   reduction figure, but no per-stratum absolute risk, so the drug-comparator sizing (Layer-1)

@@ -8,8 +8,8 @@ authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (o
 sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-23
-self_critiqued: 2026-08-23
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -18,6 +18,7 @@ relationships:
     - Is the Food Category Doing Any Work
     - The U-Shaped Association Artifact
     - Surrogate Outcomes
+    - Vitamin B12 Status in Vegetarian and Vegan Diets
 ---
 
 ## The distinction
@@ -517,6 +518,17 @@ supplement-benefit the wiki holds on a HARD patient-important outcome**, and it 
 **Higher-risk sub-stratum (route (a), baseline risk).** For women with a prior NTD pregnancy, diabetes, or
 on anticonvulsants, the recommended dose is **5 mg/day** (vs 0.4 mg general) [@deregil2015] — a higher-baseline-risk stratum getting a larger dose,
 route (a) on [[Baseline Risk and the Relative-Absolute Split]].
+
+**A related repletion-TERRITORY case whose outcome-transmission is NOT yet held — B12 in vegetarians.**
+Vitamin B12 in a vegetarian/vegan is a genuine lower-arm case by *provenance of the deficit*: B12 has
+essentially no plant source, so the diet **creates** a real shortfall (11-90% biochemically
+depleted/deficient by accurate markers, cutoff-driven) -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]]. But it is **structurally weaker than the trio**: the held source (Pawlak 2013) is a
+*descriptive prevalence* review with **no patient-important-outcome effect and no omnivore comparator**,
+and in the one study that looked, two-thirds were biochemically deficient with **zero clinical symptoms**
+— so the repletion *benefit* on a hard endpoint is a **gap**, not a demonstration, and the biochemical
+rate is a **surrogate** -> [[Surrogate Outcomes]]. It is repletion-territory (correcting a real dietary
+deficit is cheap insurance), not a quantified lower-arm effect like vit-D/iron/iodine
+[inferred from @pawlak2013].
 
 **Kept OUT of the `[E-independent]` count, deliberately.** Folate/NTD is **not** a fourth
 baseline-status-modification instance — it does not demonstrate a *measured*-deficient-vs-*measured*-replete

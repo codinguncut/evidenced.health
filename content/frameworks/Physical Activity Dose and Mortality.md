@@ -3,7 +3,7 @@ type: framework
 question: How much physical activity, of what kind, changes mortality -- and where, if anywhere, does the benefit flatten?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
 authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -19,7 +19,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Weekend Warrior Activity Pattern and Mortality
 created: 2026-07-27
-updated: 2026-08-29
+updated: 2026-09-01
 self_critiqued: 2026-08-29
 ---
 
@@ -316,6 +316,15 @@ convert between their hazard ratios.
 | **Meeting both aerobic AND strengthening guidelines** vs neither | **HR 0.71** | MODERATE |
 
 [@who2020]
+
+**The RT dose is small and the benefit does not require volume.** Three RT→mortality MAs (pooling many of
+these same cohorts — Stamatakis and Siahpush above are constituents) put the all-cause reduction around
+−15% for *any* RT vs none, and Shailendra's minutes/week dose-response (4 studies) finds the «maximum risk
+reduction of 26% observed at around 60 minutes per week of resistance training (RR=0.74; 95% CI=0.64,
+0.86)» with benefit *diminishing* at higher volumes — so *some* RT captures the signal and there is no
+mortality case for high volume. The evidence is observational/self-reported and the upper «U» arm rests on
+4 studies (do not act on it). Full appraisal + the U-artifact reading:
+[[Muscle-Strengthening Activity and Mortality]]. [@shailendra2022]
 
 **The operative claim is *both, and together* — not *strength instead of cardio*.** No profile in the
 annex ranks resistance training above aerobic activity, and where the two are compared head-to-head

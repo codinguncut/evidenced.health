@@ -2,14 +2,14 @@
 type: concept
 question: Does WHERE fat is stored (ectopic / intra-organ vs subcutaneous) determine cardiometabolic risk more than total fat mass — and what follows for who is at risk, and for how the risk reverses?
 aliases: [Ectopic Fat, Depot-Specific Risk, Personal Fat Threshold, PFT, Twin Cycle Hypothesis, Fat Overflow Hypothesis, Adipose Expandability, Intra-organ Fat, Metabolically Healthy Obesity, MHO, Subcutaneous vs Visceral Fat, Fat Storage Location]
-authors: [Taylor, Roy; Holman, Rury R; Kramer, Caroline K; Zinman, Bernard; Retnakaran, Ravi; Yusuf, Salim; Anand, Sonia S]
-sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
+authors: [Taylor, Roy; Holman, Rury R; Kramer, Caroline K; Zinman, Bernard; Retnakaran, Ravi; Yusuf, Salim; Anand, Sonia S; Opio, Jacob; Croker, Emma E; Odongo, George; Attia, John; Wynne, Katie; Rinella, Mary E]
+sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, AASLD - MASLD Practice Guidance 2023]
 cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-25
-self_critiqued: 2026-08-25
+updated: 2026-09-01
+self_critiqued: 2026-09-01
 relationships:
   related_to:
     - Total Diet Replacement and Type 2 Diabetes Remission
@@ -62,6 +62,22 @@ arm is separately gold-backed by the held RCT evidence -> [[Total Diet Replaceme
   pathophysiologically related to adverse metabolic consequences» (citing Fabbrini 2009, Kantartzis 2010).
   [@taylor2015pft]
 
+**Two guidance/epidemiology sources put visceral fat at the causal centre — Taylor's marker-demotion is
+the minority view `type-D`.** A second body now joins INTERHEART (below) against Taylor's demotion:
+AASLD's MASLD guidance calls visceral fat causally central, not a bystander — «Visceral fat, which is
+more metabolically active and inflammatory than subcutaneous fat, mediates the majority of this risk.»
+[@aasld2023] This is genuinely opposed to Taylor's
+«surrogate marker ... but not pathophysiologically related» on the same quantity (visceral fat's causal
+role). **But the issue is not fully joined:** AASLD's *own* mechanism routes partly through intra-organ
+fat — insulin signalling impairment «promoting the inappropriate release of fatty acids leading to
+intrahepatic lipid accumulation» — so AASLD may be describing visceral fat as an upstream driver that
+*acts via* hepatic fat, which is compatible with Taylor's "marker of intra-organ excess" if the two are
+tightly coupled. The live disagreement is narrow and unresolved: is visceral fat *causally upstream*
+(AASLD, INTERHEART) or a *correlated readout* of the intra-organ depot that does the damage (Taylor)?
+Held sources do not settle it; the decision-relevant consequence is small because both readings point to
+the same lever (draw the depots down with energy deficit) and the same measurement (waist/visceral fat
+remains a useful risk *marker* either way).
+
 So waist circumference / visceral fat is a **surrogate for the surrogate** — useful because it correlates
 with intra-organ fat, but a step removed from the depot doing the damage -> [[Surrogate Outcomes]]. A
 *fasting-lab* readout of the same insulin resistance the intra-organ fat drives — the triglyceride-glucose
@@ -92,6 +108,45 @@ carry high risk. Kramer's MA of observational cohorts shows exactly this pattern
 - **Metabolic status dominates BMI:** metabolically-*unhealthy* normal-weight carries RR 3.14 (2.36-3.93),
   «equal to» metabolically-unhealthy obese (RR 2.65).
   [@kramer2013mho]
+
+### Opio 2020 refines Kramer on the same question — larger, and it answers the load-bearing sub-question `type-F`
+
+Opio 2020 is the up-to-date gold SR+MA of the same relationship (**23 prospective cohorts, n = 4.49 M**;
+nine new studies, +4.0 M participants over the prior reviews), re-pooling Kramer's cohort base and
+reporting findings «consistent with literature by Kramer et al.» — so it *refines* the dated incumbent, it
+is not an independent second route. It sharpens the population signature in three decision-relevant ways:
+
+- **The excess risk holds even with ZERO metabolic risk factors — the sub-question Kramer could not
+  answer.** Restricting to the strictest metabolic-health definition (absence of *any* risk factor):
+  MHOW **RR 1.51 (1.21-1.88, n = 5)**, MHO **RR 2.18 (1.28-3.71, n = 5)**; «The risk of CVD remained high
+  even when there were no metabolic risk factors.» Opio flags this as the advance over the two prior MAs
+  that tried the stratum and were underpowered (Eckel, Zheng found it non-significant).
+  [@opio2020]
+- **No 10-year latency requirement.** Where Kramer's MHO signal emerged *only* after \~10 y, Opio finds the
+  risk present at both windows with no duration gradient (MHOW <10 y RR 1.34 vs >=10 y RR 1.34,
+  subgroup-difference p = 0.98; MHO if anything larger at <10 y, RR 1.89). So the "small, slow, time-latent"
+  reading below is **refined**: the excess is not conditional on a decade of follow-up.
+  [@opio2020]
+- **Metabolic status still dominates BMI:** metabolically-unhealthy normal-weight RR **3.07 (2.27-4.15)** —
+  «metabolic abnormality confers an even greater risk of CVD in individuals with normal weight». This
+  near-replicates Kramer's MU-NW RR 3.14 on an overlapping-but-larger cohort base (agreement on a re-pooled
+  base, *not* independent-E corroboration).
+  [@opio2020]
+
+Opio's own conclusion runs the reframe to its edge: «Hence the term ‘metabolically healthy’ may be a
+misnomer.» The honest reading is one notch softer than the slogan — the 0-risk-factor estimates rest on
+five studies each with wide CIs and I2 up to 94%, and most cohorts did not adjust for cardiorespiratory
+fitness (Ortega attributed much of the MHO-MHNW gap to CRF), so residual fitness confounding could shrink
+the depot-independent excess. -> [[Fitness vs Fatness]]
+
+**Same quantity as Kramer? A refinement with one distinction (parameter check).** Reference group is the
+**same** (MHNW both). The MU-normal-weight contrast is the **same quantity** and near-identical (3.07 vs
+3.14). But the *headline MHO number is not a clean 1:1 supersession*: Kramer's estimate combined all-cause
+mortality with CV events, whereas Opio reports CVD events separately (MHO RR 1.58 overall) and pools a
+broader set of metabolic-health definitions — so Opio's larger RR is a **related, not identical**, quantity.
+And Opio reports **no absolute risk** — the absolute anchor (\~0.7% over 10-11 y) still comes only from
+Kramer. Net: a type-F refinement (newer/larger gold answering the 0-risk-factor and durability sub-questions),
+not independent corroboration and not a numeric replacement of Kramer's headline.
 
 **How the two sources relate (not laundered independence).** Taylor and Kramer govern **different objects**
 — an individual causal hypothesis vs a population risk contrast — and they measure different proxies
@@ -139,10 +194,20 @@ reverse causation (acute-illness muscle loss).
   stratum weight-loss remission trials routinely *exclude* (DiRECT required BMI >=27), yet Taylor's data
   show they respond, and at a *smaller* required loss (\~13% at normal BMI vs \~21% for the whole cohort)
   -> [[Total Diet Replacement and Type 2 Diabetes Remission]]. This is the sharpest decision-change here.
-- **Metabolically-healthy obesity is not a free pass.** The excess risk is real but **time-latent and
-  small in absolute terms** (Kramer: emerges only after \~10 y; pooled absolute increase \~0.7% over 10-11 y)
-  — so the honest framing is *a small, slow, but non-zero excess*, not an emergency, and it licenses
-  continued (not urgent) attention -> [[Layer 1 - Ranking Interventions for a Stratum]].
+- **Metabolically-healthy obesity is not a free pass — and now on the newer, larger anchor.** The
+  durability call re-anchors off the dated Kramer 2013 MA onto **Opio 2020** (2020 gold SR+MA, 23 cohorts,
+  n = 4.49 M): the excess CVD risk **holds even with zero metabolic risk factors** (MHOW RR 1.51, MHO RR
+  2.18) and **does not require a decade of latency** (present at <10 y and >=10 y alike, subgroup-difference
+  p = 0.98) [@opio2020].
+  The superseded reading — Kramer's *time-latent* framing, in which the MHO signal emerged only after \~10 y
+  (RR 1.24 at >=10 y, overall null) — is refined, not deleted: Opio shows the risk is not gated on long
+  follow-up.
+  [@kramer2013mho] The magnitude is
+  still **modest in absolute terms** — the only held absolute estimate remains Kramer's \~0.7% over 10-11 y
+  (Opio reports relative risks only) — and both are observational with high heterogeneity and live fitness
+  confounding, so the honest framing stays *a real, non-zero, but small excess*, not an emergency: it
+  licenses continued (not urgent) attention, now with less reassurance that a currently-clean metabolic
+  panel buys durable safety -> [[Layer 1 - Ranking Interventions for a Stratum]].
 - **Steer by depot / metabolic status, and read visceral fat as a marker.** Liver fat (MASLD) is the
   clinically visible edge of the pathogenic depot, with its own dose-responsive drawdown lever
   -> [[Fatty Liver MASLD and Weight Loss]]. Waist / visceral fat is a useful *marker* of intra-organ
@@ -153,7 +218,7 @@ reverse causation (acute-illness muscle loss).
 - **Metabolic status is the glycemic lever and a CVD-risk amplifier — but not a rival to apoB for the
   CVD *lipid* decision.** The ectopic -> IR state raises cardiovascular risk partly by shifting the
   lipoprotein profile toward more, smaller, apoB-bearing particles (atherogenic dyslipidemia), so within
-  that state the CVD lipid *target* is apoB particle number, not "improve metabolic status" read as a
+  that state the CVD lipid *target* is apoB particle number, not *improve metabolic status* read as a
   competing lever -> [[LDL ApoB and Cumulative Exposure]]. Two truths a reader conflates: metabolic
   status is genuinely causal for the **glycemic** axis (this spine), and genuinely **not** the CVD lipid
   lever (apoB is); a raised TyG / TG-HDL *flags* the discordance, it does not replace measuring apoB.
@@ -165,10 +230,18 @@ reverse causation (acute-illness muscle loss).
   first-phase insulin response); no direct per-person PFT measurement exists. Admitted directionally under
   the mechanism-with-human-corroboration rule — its reversal arm is what carries held RCT backing, not the
   threshold construct itself.
-- **Kramer pools observational cohorts** (high heterogeneity, I2 up to 97%; unadjusted estimates; smoking
-  and follow-up duration as partial confounders), and uses metabolic-syndrome criteria as a **coarse proxy**
-  for the depot biology — so its long-term MHO signal is a modest, subgroup-derived RR that just clears 1.0,
-  not a precise hazard.
+- **Kramer and Opio both pool observational cohorts** (high heterogeneity, I2 up to 94-99%; largely
+  unadjusted; smoking, follow-up duration, and above all **cardiorespiratory fitness** as live partial
+  confounders), and both use metabolic-syndrome criteria as a **coarse proxy** for the depot biology — the
+  MAs cannot see intra-organ fat. So even Opio's 0-risk-factor result is a modest, subgroup-derived RR on
+  five studies with wide CIs, not a precise or causal hazard; residual fitness confounding could shrink the
+  depot-independent excess.
+- **The durability *dynamics* are only partially cashed — a named gap `type-G`.** Opio settles that the
+  excess is present without metabolic risk factors and without a 10-year latency, but it does not track
+  what happens to metabolically-healthy obese individuals *over time* — the rate at which MHO **transitions**
+  to metabolically-unhealthy obesity, which is the mechanism most likely to explain why "healthy" obesity is
+  not durably safe. The dedicated transition meta-analysis is not held:
+  — it would unlock the transition-rate / durability-dynamics arm of this call.
 - **A stress/cortisol upstream driver is nameable but unheld.** Besides energy surplus, the
   telos proposes a `qol-hpa` route — chronic stress -> cortisol/glucocorticoids -> **visceral / central
   fat** -> [[Allostatic Load and Mortality]] (the HPA spine). Two steps keep it **mechanism-not-finding**:

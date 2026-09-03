@@ -2,14 +2,15 @@
 type: framework
 question: How much saturated fat, replaced by what, and how confident is that?
 aliases: [SFA, Saturated Fatty Acid Intake, SFA Replacement, Dietary Fat Recommendations, WHO SFA Guideline, 10% Energy Threshold]
-authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven; Nordic Council of Ministers (org)]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023]
+authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven; Nordic Council of Ministers (org); Imamura, Fumiaki; Mozaffarian, Dariush; Zhang, Yu; Wang, Dong D; Winters-van Eekelen, E]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023, Imamura - Dietary Fats Glucose Insulin Trials Meta-Analysis 2016, Zhang - Butter Plant Oils Mortality 2025, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020]
 cluster: dietary-fat
 nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
+    - Fatty Liver MASLD and Weight Loss
     - Linoleic Acid and Cardiovascular Disease
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
@@ -17,9 +18,9 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-08-27
+updated: 2026-09-02
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
-self_critiqued: 2026-08-27
+self_critiqued: 2026-09-02
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -197,7 +198,8 @@ of foods is beyond the scope of this guideline."
 So the guidance does not distinguish butter from cheese from yoghurt at matched SFA, and the reason
 is that it never asked — with the question then filed as a research gap. That is materially different
 from either an oversight or a considered verdict of no-difference, and it leaves the question open
-rather than closed.
+rather than closed. **-> Partly cashed for one SFA-source pair — *butter vs plant oils, on mortality* —
+by Zhang 2025 (see *Butter vs plant oils at the food level*, below).**
 
 ## Decision relevance
 
@@ -647,6 +649,106 @@ an independent route. The omega-6 outcome evidence in full is on
 [inferred from @hooper2018; @hooper2020]
 
 
+## The glucose-insulin marker channel — Imamura 2016 (a NEW endpoint, all surrogate) `[2026-09-02]`
+
+Everything above scores the SFA-replacement swaps on **events, mortality, and lipids**. Imamura adds a
+different endpoint dimension on the *same* isocaloric swaps: **glucose-insulin homeostasis markers**,
+from **102 randomised controlled FEEDING trials** (239 arms, 4,220 adults), pooled by multiple-treatment
+meta-regression per **5% energy** exchanged, adjusted for between-arm protein, trans-fat, and fibre.
+This is a mechanism-adjacent, surrogate-level channel — it does not measure diabetes or CVD incidence.
+[@imamura2016fats]
+
+**The SFA-replacement rows (5%E exchange, pooled mean change, 95% CI):**
+[@imamura2016fats]
+
+| Marker (n trials) | SFA -> PUFA | SFA -> MUFA | CHO -> SFA |
+|---|---|---|---|
+| Fasting glucose, mmol/L (99) | **-0.04 (-0.07, -0.01)** | -0.02 (-0.04, 0.00) | +0.02 (-0.01, 0.04) |
+| HbA1c, % (23) | **-0.15 (-0.23, -0.06)** | **-0.12 (-0.19, -0.05)** | +0.03 (-0.02, 0.09) |
+| Fasting insulin, pmol/L (90) | -0.5 (-2.0, 1.1) | **+1.2 (0.6, 1.8)** | **-1.1 (-1.7, -0.5)** |
+| C-peptide, nmol/L (7) | **-0.07 (-0.14, -0.01)** | -0.01 (-0.03, 0.01) | +0.03 (0.00, 0.05) |
+| HOMA-IR, % (30) | **-4.1 (-6.4, -1.6)** | **-3.1 (-5.8, -0.4)** | +0.7 (-1.6, 3.1) |
+| Insulin sensitivity (ISI, IV) (13) | 0.24 (-0.13, 0.61) ns | 0.08 (-0.01, 0.17) ns | -0.10 (-0.21, 0.02) ns |
+| Insulin secretion (AIR, IV) (10) | **+0.51 (0.20, 0.82)** | -0.01 (-0.08, 0.06) ns | -0.02 (-0.11, 0.07) ns |
+
+Three readings, in decreasing cleanliness:
+
+- **SFA -> PUFA is the consistently favourable swap on markers** — lower fasting glucose, HbA1c,
+  C-peptide, HOMA-IR, and (uniquely) improved **insulin secretion capacity** (AIR, the IV gold-standard).
+  This mirrors the page's replacement hierarchy on the marker channel — PUFA first — but **fasting
+  insulin does not follow the pattern** (SFA->PUFA null at -0.5; SFA->MUFA *raises* it +1.2), so the
+  PUFA signal is on glucose/HbA1c/HOMA/C-peptide/secretion, not on every insulin metric. `2h`
+  post-challenge glucose/insulin and ISI show no significant macronutrient effect at all.
+- **SFA and carbohydrate are comparably NEUTRAL on glycaemia.** «exchanging dietary carbohydrate with
+  saturated fat does not appre- ciably influence markers of blood glucose control»
+  [@imamura2016fats] — CHO->SFA is
+  null on glucose, HbA1c, HOMA (only fasting insulin lower, C-peptide borderline higher). Imamura reads
+  this as «consistent with their similar overall associations with both incident diabetes and
+  cardiovascular events». That **echoes** Hooper's RCT subgroup null (PUFA vs carbohydrate
+  indistinguishable on hard events, above) on a second endpoint — an F-consistency, not independent
+  corroboration (same-lab, shared with the events literature it cites).
+  [@imamura2016fats]
+- **The upshot is a substitution rule, not an avoidance rule** — «Sole emphasis on lowering consumption
+  of carbohydrates or saturated fats would not be optimal»; the marker benefit comes from *adding
+  unsaturated fat in place of* SFA or carbohydrate, matching this page's standing *the substitution sets
+  the sign*. [@imamura2016fats]
+
+**F-refinement — a third leg under PUFA's over-determination.** The page already holds that PUFA's
+stronger recommendation is over-determined (largest LDL effect + firmer events evidence). Imamura adds a
+metabolic-marker leg that **distinguishes PUFA from MUFA where lipids do not**: MUFA and PUFA lower
+HbA1c and HOMA-IR similarly, but only **PUFA** improves insulin-secretion capacity (AIR significant for
+SFA->PUFA and MUFA->PUFA, null for SFA->MUFA). The authors read this as partly explaining the PUFA>MUFA
+gap on hard events: «the present investigation may partly elucidate why PUFA might have greater overall
+cardiovascular benefits, given its additional benefits on fasting glucose and insulin secretion
+capacity». [@imamura2016fats] The benefit tracks **omega-6 / total PUFA, not omega-3 alone** (PUFA here is «predominantly
+linoleic acid») -> [[Linoleic Acid and Cardiovascular Disease]].
+[inferred from @imamura2016fats; @who2023saturated]
+
+**Surrogate discipline (binding).** Every figure here is a **surrogate marker** (glucose, HbA1c, insulin,
+C-peptide, HOMA-IR, ISI, AIR), not a patient-important outcome. This MA measures **no** diabetes or CVD
+incidence. Its single surrogate->outcome transmission is a **projection**: «for each 5% energy of
+increased MUFA or PUFA, HbA1c improved by approximately 0.1%... a 0.1% reduction would be estimated to
+reduce the incidence of type 2 diabetes by 22.0% (95% CI = 15.9, 28.4%) and cardiovascular dis- eases by
+6.8% (1.3, 13.0%)» — but that reduction is **borrowed from external references, not observed here**.
+[@imamura2016fats] So
+these rows carry the **same shape as the LDL rows above** — high-quality certainty on the *marker*, with
+the *outcome* transmission left as an evidenced-elsewhere (here, only projected) claim
+-> [[Surrogate Outcomes]], [[Insulin Resistance Surrogates and Cardiovascular Risk]]. Do not read the
+HbA1c/HOMA improvements as a demonstrated diabetes-prevention effect of the swap.
+[inferred from @imamura2016fats]
+
+**Studied range and limits.** Effects are per **5%E** exchange over the trials' composition ranges (median
+SFA 9.2%E, PUFA 6.4%E, MUFA 13.6%E, carbohydrate 47.2%E); **median feeding duration 28 days** (range
+3-168), which limits HbA1c inference (a \~3-month integral) and says nothing about habitual-diet or
+long-latency effects. Carbohydrate here is **refined starch/sugar** — the authors bar extrapolation to
+carbohydrate in fruit, legumes, or minimally processed whole grains. A **blinding artifact** appears:
+MUFA-for-carbohydrate lowered fasting glucose in participant-blinded trials but *raised* it in unblinded
+ones (p-het <0.001) — a caution for the whole food-trial base. The stronger MUFA/PUFA glucose-lowering
+among older adults and prevalent diabetes is exploratory (route-b hypothesis, FDR-corrected), not a
+warrant to stratify.
+
+**NOT `[E-independent]`.** Imamura is the **Tufts / Mozaffarian lab** (Micha, Mozaffarian, de Oliveira
+Otto), and its endpoint is a *different channel* (markers) rather than a second independent route to the
+page's events/lipids claims — so its agreement with the held sources is **F/A-C (new endpoint +
+refinement), never E**. `confidence:` stays **medium**: the marker evidence is strong on surrogates, but
+the page's central claim is about patient-important outcomes, where certainty is unchanged.
+
+## Liver fat — a further surrogate endpoint where UFA beats SFA `[2026-09-02, Winters-van Eekelen]`
+
+A gold SR-MA of isocaloric RCTs adds *liver fat content* as another surrogate on which unsaturated fat
+outperforms saturated fat: swapping SFA for UFA reduced imaged liver fat by SMD -0.80 (95% CI -1.09;
+-0.51) across 4 comparisons — a *large* effect on that endpoint (0.2/0.5/0.8 = small/medium/large; negative
+favours UFA). [@winterseekelen2020]
+
+**NOT `[E-independent]`, same as Imamura.** The endpoint (liver fat) is a surrogate, and the route is not
+independent of this page's base — the MA leans on the same de-novo-lipogenesis mechanism and cites the
+Imamura glucose-insulin feeding-trial MA already held here — so its agreement is a **new-endpoint
+refinement (F), not a second independent route (E)**. It corroborates the *direction* (SFA worse than UFA)
+across one more surrogate; it does not raise certainty on the page's patient-important-outcome claim. Full
+appraisal, the isocaloric-composition context, and the fat/carb and carb->protein swaps live on
+[[Fatty Liver MASLD and Weight Loss]].
+[inferred from @winterseekelen2020]
+
 ## Corrections and revision history (dated strata)
 
 *Dated corrections, retracted framings, and audit strata are preserved below in their original form; the current claims above already incorporate them.*
@@ -752,5 +854,94 @@ E%.» [@nnr2023]
   the two are consistent (not-joined check (i): ALARA and a <1 E% cap predict the same *reduce-toward-
   zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
   choice to fold trans fat into the SFA message), not a substantive disagreement.
+
+## Butter vs plant oils at the FOOD level — Zhang 2025 partly cashes the food-matrix gap, on mortality `[2026-09-02]`
+
+The food-matrix question this page filed as a WHO **research gap** (*compare the health effects of SFA
+from different food sources ... taking into consideration the ... replacement*) now has a food-level,
+hard-endpoint answer for **butter** (an SFA source) against **plant-based oils** (the SFA-replacement,
+as bottled oils). Zhang is a prospective analysis of the **NHS + NHSII + HPFS** cohorts (221,054 adults,
+up to 33 y, 50,932 deaths; 12,241 cancer, 11,240 CVD), FFQ every 4 y, cumulative-averaged intake.
+[@zhang2025butter]
+
+**The associations (Model 2, multivariable-adjusted):**
+
+| Exposure | Contrast | Total mortality | Cancer mortality | CVD mortality |
+|---|---|---|---|---|
+| Total butter | level 4 (\~13 g/d) vs level 1 (\~0.1 g/d) | **1.15 (1.08-1.22)** | per 10 g/d **1.12 (1.04-1.20)** | NS |
+| Total plant oil | level 4 (\~21-27 g/d) vs level 1 (\~3 g/d) | **0.84 (0.79-0.90)** | per 10 g/d **0.89 (0.85-0.94)** | per 10 g/d **0.94 (0.89-0.99)** |
+
+[@zhang2025butter]
+
+**The beyond-summary move is the isocaloric SUBSTITUTION model** — the food-level analogue of WHO's
+nutrient-level SFA->PUFA swap, scored on **mortality** rather than events/lipids. Replacing **10 g/d of
+butter with 10 g/d of total plant oil** was associated with total mortality **HR 0.83 (0.79-0.86)**,
+cancer mortality **0.83 (0.76-0.90)**, and CVD mortality **0.94 (0.86-1.03, NS, P=.17)**. By specific
+oil (total mortality): butter->olive **0.81 (0.77-0.84)**, butter->soybean **0.85 (0.80-0.91)**,
+butter->plant-oil-minus-olive **0.83 (0.79-0.88)**.
+[@zhang2025butter]
+
+**Specific-oil resolution (per 5 g/d, total mortality):** canola **0.85 (0.78-0.92)**, olive
+**0.92 (0.91-0.94)**, soybean **0.94 (0.91-0.96)** each inverse; **corn and safflower NULL** (Model 2).
+A **culinary-use split** cuts within butter: butter added to food/bread per 5 g/d **1.04 (1.02-1.05)**,
+but butter for baking/frying **NS** — which Zhang attributes to smaller quantities and higher
+misclassification (butter left in the pan), not to safety.
+[@zhang2025butter]
+
+**Parameter table — why Zhang FILLS a gap rather than corroborating WHO.**
+
+| Parameter | WHO 2023 (this page) | Zhang 2025 | Same quantity? |
+|---|---|---|---|
+| Exposure grain | **nutrient** (%E SFA; PUFA/MUFA) | **food** (butter; bottled oils) | **NO — food vs nutrient** |
+| Contrast | reduce/replace SFA, within-RCT | high-vs-low intake + modelled isocaloric swap | **NO — change vs level/model** |
+| Endpoint carrying it | CVD **events** (RR 0.83), LDL | total + cause-specific **mortality** | **NO — events/lipid vs mortality** |
+| Design | 15-RCT pool (Hooper) | 3-cohort observational, FFQ | **NO — randomised vs observational** |
+
+Every cell is NO — so Zhang is **not** independent corroboration of the SFA->PUFA events benefit; it
+answers a **different, food-level question** WHO explicitly declined («considering the effects of
+specific foods or classes of foods is beyond the scope of this guideline», quoted in *The food matrix*
+above) and filed as a research gap. Zhang cashes that gap on the mortality endpoint, for the one
+SFA-source pair butter-vs-oils.
+[inferred from @zhang2025butter; @who2023saturated]
+
+**NOT `[E-independent]` — shared cohort, instrument, and school.** Zhang runs on the SAME
+NHS/NHSII/HPFS cohorts and the SAME Willett FFQ as much of this page's Harvard evidence (Willett; the
+linoleic pool on [[Linoleic Acid and Cardiovascular Disease]]), and shares authors (Willett, Stampfer,
+Rimm, Hu, Guasch-Ferré, Yanping Li). Its agreement with the held PUFA / plant-oil-benefit direction is
+**volume, not independence** — one observational body of evidence re-cut to a food-level mortality
+endpoint, not a second route. Confidence is unmoved (below).
+[inferred from @zhang2025butter]
+
+**Symmetric standards — appraised as skeptically as a plant-oil-HARM finding would be.** This runs
+*with* the currently-fashionable anti-seed-oil-fear direction, so the observational discounts are named,
+not waved:
+
+- **Healthy-user gradient toward oils.** Higher-butter participants had higher BMI, more current
+  smoking, less physical activity and less multivitamin use; higher-oil participants were more
+  physically active — so residual confounding runs *toward* the oil-benefit / butter-harm result. Zhang
+  adjusts for BMI, smoking, PA, AHEI, alcohol and mutually for butter<->oil, but concedes «despite
+  adjustment for many confounding variables, residual confounding may still exist».
+- **Self-reported FFQ** — dietary measurement error, the binding constraint
+  -> [[Measurement Error in Dietary Assessment]] (dampened, not removed, by cumulative averaging).
+- **The substitution is a statistical MODEL, not a feeding trial** — the swap HR is a
+  difference-in-coefficients under a constant-energy constraint, so the modelled mortality reduction is
+  **associational**, not a demonstrated causal effect of changing the fat.
+- One strength on the confounder it most feared: refined-grain sensitivity analyses (white bread,
+  glycemic load) left the butter-to-bread signal intact — «these findings suggest that the observed
+  differential associations are unlikely attributable to residual confounding from incomplete adjustment
+  for refined grain intake».
+- Generalizability: «predominantly White ... health care professionals», which «may limit the
+  generalizability of the findings but also help minimize potential socioeconomic confounding».
+
+[@zhang2025butter]
+
+**Decision-relevance.** Zhang supplies the food-level, patient-important-endpoint version of *the
+substitution sets the sign*: at the food level the modelled lever is **replacing butter with a bottled
+plant oil (olive / canola / soybean)**, with a concrete translation — «replacing 3 small pats of butter
+(approximately 15 g) with 1 tablespoon of plant-based oil (approximately 15 g)». It does **not** license
+*avoid butter* as an isolated act (the comparator carries the effect), the CVD-mortality arm of the swap
+is **null**, and the whole finding is observational — the signal sits on **total and cancer** mortality,
+one evidence tier below the SFA->PUFA events RCTs above.
+[inferred from @zhang2025butter]
 
 ## References

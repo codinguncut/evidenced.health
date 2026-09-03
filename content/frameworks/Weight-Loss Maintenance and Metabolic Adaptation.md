@@ -2,23 +2,27 @@
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds, Starvation Mode, Metabolic Damage]
-authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007]
 cluster: weight-management
-confidence: low
+confidence: medium
 relationships:
   related_to:
     - Diets for Weight Loss - What NICE Recommends
     - Does Weight Loss Reduce Cardiovascular Events
     - Semaglutide for Cardiovascular Risk in Obesity
+    - Comparing Obesity Drugs
+    - Exercise vs Caloric Restriction for Visceral Fat
+    - Physical Activity Dose and Mortality
+    - Fatty Liver MASLD and Weight Loss
     - Layer 1 - Ranking Interventions for a Stratum
     - Exercise Energy Compensation
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Testosterone Adiposity and Muscle
     - Weight Cycling and Cardiometabolic Risk
-self_critiqued: 2026-08-22
+self_critiqued: 2026-09-01
 created: 2026-07-31
-updated: 2026-08-22
+updated: 2026-09-01
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -141,6 +145,110 @@ scales with the loss and is largely appetite-mediated) nor *your metabolism is r
 months) — it is the **structural-leverage** posture the reframe already licenses
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
+## The empirical anchor — what sustained loss to expect across methods (Franz 2007)
+
+Sumithran supplies the *mechanism* for why maintenance is hard; Franz 2007 supplies the *magnitude* —
+the outcome data the qualitative "regain is modal" claim above rests on. It is a systematic review +
+meta-analysis of **80 RCTs** of overweight/obese adults with a **minimum 1-year follow-up** (26,455
+enrolled; 18,199 completers, 69%), across eight intervention types [@franz2007].
+The headline durability shape, in the source's own words:
+
+> «A mean weight loss of 5 to 8.5 kg (5% to 9%) was observed during the first 6 months from
+> interventions involving a reduced-energy diet and/or weight-loss medications with weight plateaus at
+> approximately 6 months. In studies extending to 48 months, a mean 3 to 6 kg (3% to 6%) of weight loss
+> was maintained with none of the groups experiencing weight regain to baseline.»
+[@franz2007]
+
+So the shape is **loss -> plateau at \~6 months -> partial regain -> a modest sustained loss out to 48
+months, but no group all the way back to baseline** — the *same* trajectory Sumithran's hormones explain,
+reached here from a completely different evidence base (80 RCTs' weight outcomes vs one uncontrolled
+hormone study). The discussion sharpens the maintained band: food-strategy interventions stabilized to
+«approximately 4.5 to 7.5 kg (4.8% to 8%) at 12 months» and «approximately 3 to 4 kg (3% to 4.3%) ...
+maintained at 24, 36, and 48 months» [@franz2007].
+
+Per intervention type (mean kg / % of baseline; final = last reported timepoint), the anchor is that
+**method changes the peak, not the eventual modest plateau** — every food-attentive arm converges toward a
+few kg kept [@franz2007]:
+
+| Intervention | 6 mo (peak) | 12 mo | later (mo) | pattern |
+|---|---|---|---|---|
+| Diet alone | 4.9 kg (5%) | 4.6 kg (4.6%) | 4.4 kg @24; **3.0 kg (3%) @48** | shallow loss, shallow plateau |
+| Diet + exercise | 7.9 kg (8.5%) | plateau | **3.9 kg (4%) @36 & @48** | deeper peak, same plateau |
+| Meal replacements | 8.6 kg (9.6%) | 6.7 kg (7.5%) | — | structured, larger early loss |
+| Very-low-energy diet | **17.9 kg (16%)** | 10.9 kg (10%) | 5.6 kg (5%) @36 | biggest peak, biggest regain |
+| Orlistat + diet | 8.3 kg (8%) | 8.2 kg (8%) | 7.8 kg @36; 5.8 kg (5.3%) @48 | drug flattens the regain arm |
+| Sibutramine + diet | 8.2 kg (8.4%) | 8.2 kg (8.4%) | 10.8 kg (11%) @24 | (drug withdrawn — see below) |
+| Exercise alone | 2.4 kg (2.7%) | \~2 kg | **1.0 kg (1%) @24** | minimal at any timepoint |
+| Advice alone | minimal | minimal | minimal | minimal at any timepoint |
+
+**The efficacy meta-analysis (comparator-subtracted) shows the drug and food arms add only a few kg over
+their controls, with wide, heterogeneous intervals.** Hedges' *g* was pooled against a comparator arm
+(diet-alone vs advice; drugs vs diet-alone): diet-alone beat advice by «about 3.7 ... 4.5 ... 3.3 ... 2.2
+kg» at 6/12/24/36 mo; orlistat added «about 2.8 ... 3.1 ... 3.1 kg» over diet-alone at 6/12/24 mo; and
+even the (withdrawn) sibutramine added «about 2.3 ... 5.1 ... 4.0 kg» [@franz2007]
+— i.e. the *added* effect of any single lever over its comparator is small (a corroborating MA Franz cites
+found single-drug placebo-subtracted loss «never reached more than 4 kg»). The reported deltas carry large
+SDs and the effect sizes were «significantly heterogeneous across studies», so these point estimates are
+loosely bounded.
+
+**Three method caveats bound every number above [inferred from @franz2007]:**
+
+- **The descriptive weight figures are simple pooling, not a random-effects estimate.** «By using simple
+  pooling across studies» the mean loss per timepoint was computed; only the efficacy analysis used
+  Hedges' *g* [@franz2007]. So the per-intervention
+  trajectories are a weaker synthesis than a proper pooled estimate — no weighting for study size or
+  precision.
+- **The maintained-loss numbers are completer figures, and dropout is high.** «Most weight-loss outcomes
+  were based on study completers» [@franz2007];
+  attrition averaged 29% at one year and 31% at study end. If dropouts regained more than completers (the
+  usual direction), the maintained loss is **optimistic** — a person's *expected* sustained loss is likely
+  below these means. Franz concedes the publication/enrollment bias runs the same way: «bias, if any, would
+  likely favor reporting successful interventions and enrolling participants with the greatest potential to
+  complete the trial» [@franz2007].
+- **It closes the loop back to the mechanism above.** Franz notes the counterintuitive fact the hormone
+  data explain: continuing (or deepening) the diet does **not** resume loss — «this appears not to happen
+  even when weight-loss interventions are continued. However, if weight-loss interventions are discontinued
+  entirely, weight regain is likely to occur» [@franz2007].
+  That is the defended set-point seen from the outcome side: the deficit stops paying off at the plateau,
+  yet must be held indefinitely to prevent regain.
+
+**The drug arm is a pre-GLP-1 snapshot — do NOT read it as the current expectation [inferred from @franz2007].**
+Franz's medications are **orlistat and sibutramine only** (2007). **Sibutramine was withdrawn in 2010**
+for cardiovascular harm, so its row is of historical interest only. And the modern incretin/GLP-1 agents
+(semaglutide, tirzepatide) achieve far larger *sustained* loss than anything in this table — Franz's
+«the addition of weight-loss medications somewhat enhances weight-loss maintenance» (a \~2-5 kg edge over
+diet-and-exercise at 24 months) badly understates the current drug landscape
+-> [[Comparing Obesity Drugs]], [[Semaglutide for Cardiovascular Risk in Obesity]]. Franz bounds the
+*old* lifestyle-vs-modest-drug decision, not the lifestyle-vs-GLP-1 one.
+
+**Exercise-alone is weak for weight *loss* — a statement about scale, not about exercise as a health
+lever.** Franz found exercise-alone «did not result in successful weight loss, although no further weight
+gain was observed» [@franz2007] — \~2.4 kg at 6
+months decaying to \~1 kg. This is the substitution/net-effect point, not a dismissal: Franz itself flags
+that «aside from weight, physical activity has important positive effects on lipid levels ... insulin
+sensitivity ... and all-cause mortality and cardiovascular disease mortality»
+[@franz2007]. Exercise is simply not the
+weight-loss lever, which does not make it a weak *health* lever -> [[Exercise vs Caloric Restriction for Visceral Fat]],
+[[Physical Activity Dose and Mortality]].
+
+**Cross-source: the plateau-then-partial-regain SHAPE is corroborated by the MASLD literature, but the
+percentage *ladders* are a different quantity (a distinction, not a weld).** Before the contrast, matched
+by quantity:
+
+| Parameter | Franz 2007 (weight outcome) | EASL/MASLD ladder (histology outcome) | Same quantity? |
+|---|---|---|---|
+| Peak-loss timing | plateau at «approximately 6 months» | «maximal weight loss at 6 months» | **YES** — both body-weight, 6-mo peak |
+| Post-peak shape | partial regain, no return to baseline | «gradual weight regain to a net weight loss of about 5% at 12-24 months» | **YES** — both body-weight partial regain |
+| The % figures | % of baseline body-weight *kept* | 5% / 7-10% / >=10% weight-loss *required* for steatosis / NASH / fibrosis | **NO** — Franz's % is weight maintained; EASL's is the dose needed for a *liver* endpoint |
+
+So the durability *shape* is genuine independent corroboration (RCT weight outcomes ↔ MASLD cohort follow-up
+reaching the same 6-month-peak-then-partial-regain trajectory), strengthening confidence in the shape. But
+Franz's «3 to 6 kg (3% to 6%)» *maintained* and the MASLD ladder's «5% ... 7-10% ... >=10%» *thresholds*
+answer different questions — how much a person keeps vs how much a person must lose to move a histological
+marker -> [[Fatty Liver MASLD and Weight Loss]]. Do not read the ladder's rungs as achievable-maintenance
+targets: Franz's data say the modal sustained loss (\~3-6%) sits at or below the ladder's *lowest* (steatosis)
+rung, so the fibrosis rung (>=10% sustained) is above what most lifestyle maintainers hold.
+
 ## Why this is the mechanistic keystone for the drug route (GLP-1) — a synthesis
 
 [inferred from @sumithran2011]
@@ -237,7 +345,12 @@ installs: **weight-loss maintenance is not *weight loss, continued* — it is a 
 active biological headwind.** The same fact reads three ways across the cluster — it is why lifestyle
 regain is modal (NICE's calibrated weak recommendation), why the drug route works while taken and rebounds
 off it (SELECT/STEP), and why *structural leverage over point-optimization* is the right Layer-1 posture
-for a defended lever. Confidence is **low**: one small uncontrolled VLCD study carries the mechanism; the
-causal step to regain and the generalization past VLCD are both inferred, not held.
+for a defended lever. Confidence is **medium**, and split by limb: the **empirical durability pattern**
+(loss -> \~6-month plateau -> partial regain -> a modest few-kg sustained loss, no full return to baseline)
+is now well-backed — a high-tier 80-RCT meta-analysis (Franz 2007), convergent with the MASLD literature's
+independent 6-month-peak-then-regain shape. The **causal mechanism** (that hormonal defense *drives* the
+regain) stays weak: one small uncontrolled VLCD study carries it, and the causal step to regain plus the
+generalization past VLCD are both inferred, not held. The dated drug arm (Franz's orlistat/sibutramine)
+does not transport to the current GLP-1 era.
 
 ## References

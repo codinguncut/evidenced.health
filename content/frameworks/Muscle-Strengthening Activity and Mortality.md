@@ -2,8 +2,8 @@
 type: framework
 question: Does strength / resistance training reduce mortality and disease independently of aerobic activity, and at what dose?
 aliases: [Muscle-Strengthening Activity, Resistance Training Mortality, Strength Training, MSA, Weight Training Mortality]
-authors: [Momma, Haruki; Kawakami, Ryoko; Honda, Takanori; Sawada, Susumu S; Saeidifard, Farzane; Medina-Inojosa, Jose R; Lopez-Jimenez, Francisco]
-sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Saeidifard - Resistance Training Mortality Meta-Analysis 2019]
+authors: [Momma, Haruki; Kawakami, Ryoko; Honda, Takanori; Sawada, Susumu S; Saeidifard, Farzane; Medina-Inojosa, Jose R; Lopez-Jimenez, Francisco; Shailendra, Prathiyankara; Baldock, Katherine L; Li, L S Katrina; Bennie, Jason A; Boyle, Terry]
+sources: [Momma - Muscle-Strengthening Activities and Mortality 2022, Saeidifard - Resistance Training Mortality Meta-Analysis 2019, Shailendra - Resistance Training Mortality Meta-Analysis 2022]
 cluster: activity
 confidence: low
 relationships:
@@ -21,16 +21,20 @@ self_critiqued: 2026-09-01
 ---
 
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
-**independently of aerobic activity**, and it does so at a **small dose**. Two meta-analyses now converge
-on this — Momma 2022 (broad muscle-strengthening activity) and Saeidifard 2019 (framed as resistance
-training). But both pool **mostly the same US self-report cohorts** (Momma explicitly compares itself to
-Saeidifard, and Saeidifard's mortality data are largely the same NHANES/NHIS muscle-strengthening
-cohorts) — so the second MA is a **refinement, not independent corroboration**, and the evidence stays
-**observational, self-reported, «very low» GRADE**. A real but **weakly-warranted** lever, held one tier
-below the RCT-grade BP and lipid evidence. What Saeidifard adds is *endpoint resolution*, not more
-certainty: it separates cardiovascular **mortality** (borderline, CI crosses 1) from Momma's CVD
-**incidence** (significant), and finds cancer **mortality** null where Momma's cancer **incidence** was
-favourable (see the cross-source table below).
+**independently of aerobic activity**, and it does so at a **small dose**. Three meta-analyses now
+converge on this — Momma 2022 (broad muscle-strengthening activity), Saeidifard 2019 and Shailendra 2022
+(both framed as resistance training). But all three pool **mostly the same US self-report cohorts** (Momma
+explicitly compares itself to Saeidifard; Shailendra explicitly *«builds on»* Saeidifard, adding 9 studies
+to the same evidence base; and the mortality data are largely the same NHANES/NHIS/pooled-cohort
+muscle-strengthening pools) — so the later MAs are **refinements, not independent corroboration** (type-F,
+not [E-independent]), and the evidence stays **observational, self-reported, higher/very-high risk of bias
+on the exposure**. A real but **weakly-warranted** lever, held one tier below the RCT-grade BP and lipid
+evidence — three concordant re-poolings of one shared cohort base do **not** raise its certainty above
+`low`. What the mortality-specific MAs add is *endpoint resolution* and *dose*, not independence:
+Saeidifard and Shailendra both isolate cardiovascular **mortality** (borderline, CI touches 1) from Momma's
+CVD **incidence** (significant); and Shailendra's larger cancer pool (5 studies vs Saeidifard's 2) turns
+the earlier null cancer-**mortality** estimate **significant** — a precision gain on a shared direction, not
+a reversal (see the cross-source table below).
 
 
 [@momma2022]
@@ -79,6 +83,12 @@ Two decision-relevant refinements over Momma:
   0.97)»; Saeidifard finds cancer *mortality* «0.81 (0.54–1.20)», non-significant. These are **different
   endpoints, not a contradiction** — RT's cancer value (if any) is plausibly on incidence and on
   cancer-patient function/lean-mass, not on lowering death-from-cancer, which the data cannot show.
+  - **Superseded on the mortality leg (Shailendra 2022):** Saeidifard's cancer-mortality null rested on
+    only **2 studies**; Shailendra pools **5** and finds cancer *mortality* «0.86 (0.78, 0.95)»,
+    **significant** — a precision gain on the same direction (point estimates 0.81 vs 0.86), not a
+    reversal. So the "mortality null" is now read as an underpowered null, not a real absence of effect:
+    RT's cancer signal appears on **both** incidence (Momma) and mortality (Shailendra), still
+    observational and self-reported. See the Shailendra section and the 3-way table below.
 
 **Dose.** Saeidifard's own reading matches Momma's caution against the upper arm: performing «>0 to two
 sessions of resistance training per week is associated with lower all-cause mortality (0.79 (0.66–0.95)),
@@ -90,35 +100,97 @@ resistance training and survival has a U-shape curve.» This is a second-source 
 [[The U-Shaped Association Artifact]] reading — the upper arm is not believed by either MA.
 
 
-[inferred from @momma2022; @saeidifard2019]
-## The two MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
+[@shailendra2022]
+## Shailendra 2022 — the third MA: a larger cancer pool and a minutes/week dose curve
+
+Shailendra is the mortality-specific update of Saeidifard: a SR-MA of **10 prospective cohort studies**
+(all self-reported RT, follow-up 7-17 years, ages 18-85, all but two US), restricted to nonclinical
+adults and to the three mortality endpoints. It explicitly *«builds on»* Saeidifard by adding 9 studies,
+so it is a **type-F refinement of the same evidence base**, not independent backing.
+
+| Outcome (any RT vs none) | RR (95% CI) | n studies | Note |
+|---|---|---|---|
+| All-cause mortality | «0.85; 95% CI=0.77, 0.93» (−15%) | 6 | significant *(Results/Table 1 read 0.77, 0.94 — a 0.01 internal discrepancy)* |
+| CVD mortality | «0.81; 95% CI=0.66, 1.00» (−19%) | 4 | **borderline — CI touches 1.00** *(Table 1 misprints the lower bound as 0.61)* |
+| Cancer mortality | «0.86; 95% CI=0.78, 0.95» (−14%) | 5 | **significant** — the endpoint Saeidifard's 2-study pool left null |
+
+**Highest-vs-lowest is attenuated to null for mortality.** The «some vs none» contrast above captures the
+signal; comparing the *highest* RT level with the *lowest* washes it out — all-cause «0.92; 95% CI=0.83,
+1.01» (NS), CVD «0.90; 95% CI=0.79, 1.02» (NS), cancer «0.87; 95% CI=0.77, 0.99» (barely significant).
+This mirrors the diminishing-at-higher-volumes dose-response below: *doing some* is where the benefit
+lives; *doing much more* adds little. [@shailendra2022]
+
+**The dose-response — a third nonlinear curve, nadir \~60 min/week, upper arm on 4 studies.** A 1-stage
+restricted-cubic-spline dose-response MA (knots at 10/30/150 min) of the **4 studies** reporting
+minutes/week found a nonlinear *«U»*-shaped curve: «a maximum risk reduction of 26% observed at around 60
+minutes per week of resistance training (RR=0.74; 95% CI=0.64, 0.86)», with «Mortality risk reductions
+dimin- ished at higher volumes than 60 minutes per week». *(The source states this maximum inconsistently
+— 26% in Results (matching RR 0.74), 27% in the Abstract, and 33% in the Discussion; the unambiguous
+anchor is RR 0.74, 0.64-0.86 at \~60 min/week.)* The authors themselves urge caution: the curve *«only
+included 4 studies, it should be viewed with caution»*. [@shailendra2022]
+
+[inferred from @shailendra2022]
+This is a **third instance of the [[The U-Shaped Association Artifact]] reading**, converging with Momma's
+40 min/week J-shape: the *lower* arm (benefit acquired by a small weekly volume, \~40-60 min) is
+believable; the *upper* «U» arm — *more is worse* past \~60 min/week — rests on **only 4 studies**, with
+the spline's upper knot at 150 min (the 90th percentile) so the rising segment sits in the sparse-data
+tail. That is exactly the unequal-precision / sparse-tail region the artifact concept warns against, and
+the point-optimum «\~60 min/week» is a wide imprecise region, not a target (the studied range and the
+4-study base are its two load-bearing caveats). **Do not act on the upper arm; do not chase or fear high
+RT volume for mortality** — the decision-relevant claim is the lower arm.
+
+**Joint RT + MVPA — the triple 0.60 convergence.** Performing both vs neither gives «by 40% (RR=0.60; 95%
+CI=0.54, 0.66)» lower all-cause mortality — matching Momma's «0.60 (0.54 to 0.67)» and Saeidifard's «0.60
+(0.49–0.72)» essentially exactly. Striking, but **F not E**: shared cohorts (Stamatakis, Kamada, Zhao in
+all the joint pools), so the convergence is the *same finding re-pooled*, not three independent roads to
+0.60. [@shailendra2022]
+
+**Exposure quality is the binding limit.** «All the 10 included studies were found to have a higher risk
+or very high risk of bias in the way the exposure» was measured — self-reported (all 10), single-timepoint
+(8 of 10), no validated instrument (none), RT prevalence 9-27% across cohorts, heterogeneity I2 up to \~80%. The measurement
+constraint is *why* only 4 of 10 studies could enter the dose-response, and it caps the whole cluster at
+`low` confidence. [@shailendra2022]
+
+
+[inferred from @momma2022; @saeidifard2019; @shailendra2022]
+## The three MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
 
 The op-weave parameter table, with the same-quantity column doing the work:
 
-| Parameter | Momma 2022 | Saeidifard 2019 | Same quantity? |
-|---|---|---|---|
-| Exposure | broad MSA (weights, calisthenics, push-ups/sit-ups) | *labelled* RT (>65% 1RM), but constituent mortality cohorts are mostly the SAME broad MSA self-report | **NO** — the "RT-specific" framing is not carried by the data; overlapping instrument |
-| Metric | RR | HR (OR converted to RR, «assumed the RR equivalent to hazard ratio») | \~ both hazard-type; comparable |
-| All-cause mortality | «0.85 (0.79 to 0.93)» −15% | «0.79 (0.69–0.91)» −21% | Same construct, different pool — RT point nominally lower; overlapping cohorts (not independent) |
-| Combined + aerobic → all-cause | «0.60 (0.54 to 0.67)» | «0.60 (0.49–0.72)» | Striking point convergence, but **F not E** (shared cohorts; Momma cites Saeidifard) |
-| Cardiovascular | «0.83 (0.73 to 0.93)» — CVD **incidence**, significant | «0.83 (0.67–1.03)» — CV **mortality**, borderline | **NO** — incidence vs mortality; significance differs |
-| Cancer | «0.88 (0.80 to 0.97)» — **incidence**, favourable | «0.81 (0.54–1.20)» — **mortality**, null | **NO** — different endpoint (a distinction, not a tension) |
-| Dose | J-shaped, nadir «40 min/week» (minutes) | «>0 to two sessions... per week» significant, >2 not (sessions); U-shape disowned | Related shape, different exposure unit |
+| Parameter | Momma 2022 | Saeidifard 2019 | Shailendra 2022 | Same quantity? |
+|---|---|---|---|---|
+| Exposure | broad MSA | *labelled* RT (>65% 1RM), cohorts mostly same MSA self-report | *labelled* RT, all self-report; mixed MSA/weight-lifting/strength wording | **NO** — all three run on the same self-report MSA instrument; "RT-specific" framing not carried by the data |
+| Metric | RR | HR (OR→RR) | RR | \~ all hazard-type; comparable |
+| All-cause mort. | «0.85 (0.79 to 0.93)» −15% | «0.79 (0.69–0.91)» −21% | «0.85; 95% CI=0.77, 0.93» −15% | Same construct, overlapping pools (not independent) |
+| Combined + aerobic → all-cause | «0.60 (0.54 to 0.67)» | «0.60 (0.49–0.72)» | «0.60; 95% CI=0.54, 0.66» | Triple point convergence, but **F not E** (shared cohorts) |
+| CVD mort. | «0.83 (0.73 to 0.93)» — **incidence**, sig | «0.83 (0.67–1.03)» — mortality, borderline | «0.81; 95% CI=0.66, 1.00» — mortality, **CI touches 1** | Momma = incidence; both RT MAs = mortality, both borderline |
+| Cancer mort. | «0.88 (0.80 to 0.97)» — **incidence**, favourable | «0.81 (0.54–1.20)» — mortality, **null (2 studies)** | «0.86; 95% CI=0.78, 0.95» — mortality, **sig (5 studies)** | Same endpoint across the RT MAs; the null was underpowered, now resolved sig — a precision gain, not a reversal |
+| Dose | J-shape, nadir «40 min/week» | «>0 to two sessions/wk» sig, >2 not; U disowned | «U»-shape, nadir \~60 min/wk (RR 0.74, 0.64-0.86, **4 studies**); diminishing above | Related nonlinear shape; Momma & Shailendra both in minutes/wk, \~40-60 min nadir |
 
-**Independence: type-F (refinement), not [E-independent].** Three defeaters, any one sufficient:
+The **cancer-mortality cell is the one genuine refinement** (F): Saeidifard's null and Shailendra's
+significant estimate are the *same quantity* (RT → cancer mortality, RR), and the flip is driven by study
+count (2 → 5), point estimates staying in the 0.81-0.86 band — a precision gain, not a contradiction to
+file as a tension. Every other cell is either the *same finding re-pooled* (F) or a *different endpoint*
+(a distinction), so no cell survives as an [E-independent] convergence.
 
-- **Momma cites Saeidifard directly** — Momma's paper explicitly positions itself against the prior MSA
-  meta-analyses (Saeidifard, Nascimento), a fact recorded in the held Momma source-page extraction. A
-  later MA that names and refines an earlier one is F by construction.
-- **Shared constituent cohorts.** Saeidifard's pool is Dankel, Kamada, Grøntved, Kraschnewski, Zhao,
-  Loprinzi, Schoenborn, Evenson — the classic NHANES/NHIS/Women's-Health/Health-Professionals MSA-
-  mortality cohorts, the same lineage Momma's 2022 MSA-mortality pool draws on. Pooling the same data
-  twice is not two independent tests (the *volume-is-not-independence* rule).
-- **Same instrument, same confounding structure** — self-reported muscle-strengthening frequency,
-  «push-ups or sit-ups» wording recurring across the cohorts.
+**Independence: type-F (refinement) across all three, not [E-independent].** Three defeaters, any one
+sufficient:
 
-So the 0.60 combined convergence, however striking, does **not** raise confidence; it is the same finding
-re-pooled. No `[E-independent]` stamp.
+- **Each later MA cites its predecessor.** Momma positions itself against Saeidifard/Nascimento;
+  Shailendra explicitly *«builds on»* Saeidifard, adding 9 studies to the same base. A later MA that
+  names and refines an earlier one is F by construction.
+- **Shared constituent cohorts.** Saeidifard's pool (Dankel, Kamada, Zhao, Kraschnewski, Loprinzi,
+  Schoenborn, Evenson…) and Shailendra's 10 (Stamatakis, Kamada, Zhao, Liu, Patel, Siahpush, Sheehan,
+  Nie, Porter, Hsu) draw on the same NHANES/NHIS/pooled-cohort MSA-mortality lineage Momma pools —
+  Kamada and the NHIS/NHANES families recur across all three. Pooling the same data thrice is not three
+  independent tests (the *volume-is-not-independence* rule). Shailendra even excluded 9 studies for
+  «overlapping samples», keeping the largest — an *internal* de-duplication that does nothing to make it
+  independent of the *earlier reviews* over the same cohorts.
+- **Same instrument, same confounding structure** — self-reported muscle-strengthening frequency, all
+  studies rated higher/very-high risk of bias on the exposure.
+
+So the triple 0.60 combined convergence, however striking, does **not** raise confidence; it is the same
+finding re-pooled. No `[E-independent]` stamp — the cluster stays `low`.
 
 
 [@momma2022]

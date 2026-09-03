@@ -3,13 +3,13 @@ type: deliverable
 title: Fibre
 question: 'For a person deciding how much dietary fibre to eat and in what form: what does fibre do to each patient-important outcome -- mortality, heart disease, diabetes, cancer, IBD, LDL, glycaemia, weight, the microbiome, gut transit -- for whom, how large, how certain, and does the answer change by fibre type or by isolate-versus-food?'
 aliases: [Dietary Fibre, Fiber, Dietary Fiber, Soluble Fibre, Insoluble Fibre, Viscous Fibre, Fermentable Fibre, Roughage, Prebiotic Fibre]
-authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; Valdes, Ana M; Wastyk, Hannah C; Petroski, Weston; World Cancer Research Fund (org); European Society of Cardiology (org); World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org)]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023]
+authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; Valdes, Ana M; Wastyk, Hannah C; Petroski, Weston; Valisoltani, Neda; World Cancer Research Fund (org); European Society of Cardiology (org); World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org)]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-27
-self_critiqued: 2026-08-18
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 ---
 
 Fibre is a **real but modest supporting lever, not a big rock**. Eating enough of it is worth
@@ -228,6 +228,17 @@ plausible and the magnitude is thin or unheld**:
 
 .
 
+**Fibre may also track lower COPD incidence, at low certainty -- a candidate outcome, not an
+action.** A dose-response meta-analysis of five prospective cohorts (n=213,912) puts higher total
+fibre intake at a COPD incidence RR of 0.72 (95% CI 0.64-0.80) highest-versus-lowest, with cereal
+fibre (RR 0.76) and fruit fibre (RR 0.75) carrying the signal and vegetable fibre null (RR 0.95)
+[@valisoltani2023fiber]. This is
+observational, FFQ-based, NutriGrade-LOW evidence, so it adds a candidate outcome to fibre's menu
+without raising the target, moving this page's confidence, or changing any gram/day
+recommendation -- and for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates
+this lever by a wide margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
+.
+
 ## The downsides are real, minor, and mostly settled in the kitchen
 
 **The antinutrient alarm around fibre-rich plant foods is largely mis-scaled, but the genuine
@@ -349,9 +360,9 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 > | | |
 > |---|---|
 > | **Question** | 'For a person deciding how much dietary fibre to eat and in what form: what does fibre do to each patient-important outcome -- mortality, heart disease, diabetes, cancer, IBD, LDL, glycaemia, weight, the microbiome, gut transit -- for whom, how large, how certain, and does the answer change by fibre type or by isolate-versus-food?' |
-> | **Evidence included** | 12 sources — 7 gold, 3 high, 2 moderate |
+> | **Evidence included** | 13 sources — 8 gold, 3 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. Valisoltani (gold-tier dose-response MA) supplies a low-certainty (NutriGrade-LOW) COPD outcome-menu note only — not load-bearing, and it changes no recommendation. |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
 
 ## References

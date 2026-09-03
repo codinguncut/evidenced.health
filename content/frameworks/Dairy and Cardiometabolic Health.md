@@ -2,8 +2,8 @@
 type: framework
 question: What does dairy do to cardiometabolic outcomes (all-cause mortality, CVD events, type-2 diabetes) once you stop treating dairy as one undifferentiated food — by category (milk vs cheese vs butter vs fermented) and by fat content — and how much of any signal is confounding artifact?
 aliases: [Dairy and Health, Milk and Mortality, Dairy and CVD, Dairy and Type 2 Diabetes, Milk and Cardiovascular Disease, Full-Fat Dairy]
-authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org); Schwingshackl, Lukas; Bechthold, Angela]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019]
+authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org); Schwingshackl, Lukas; Bechthold, Angela; Zhang, Yu; Wang, Dong D]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025]
 cluster: dairy
 nucleus: true
 confidence: medium
@@ -21,8 +21,8 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-08-28
-self_critiqued: 2026-08-25
+updated: 2026-09-02
+self_critiqued: 2026-09-02
 ---
 
 **Nucleus of the `dairy` cluster** — the canonical owner of *what dairy does to cardiometabolic
@@ -85,6 +85,39 @@ association with **diabetes** RR 0.96 (0.93-0.99)
 [@guo2017]. So even the near-
 pure-fat, matrix-stripped category is at worst weakly-positive for mortality and neutral for CVD — the
 SFA-in-butter worry is not borne out at the whole-food level (a cited MA, secondhand through Guo).
+
+
+### Zhang 2025 quantifies butter directly, and finds a positive mortality signal — but on a different contrast `[2026-09-02]`
+
+Zhang 2025 (NHS/NHSII/HPFS, 221,054 adults, up to 33 y, 50,932 deaths) is the direct butter->mortality
+study Guo's cell lacked. Highest-vs-lowest total-butter intake carried a 15% higher total mortality
+(HR 1.15; 95% CI, 1.08-1.22) and higher **cancer** mortality (per 10 g/d HR 1.12; 95% CI, 1.04-1.20),
+with **no** statistically significant CVD-mortality association
+[@zhang2025butter]. The signal is **culinary-use split**:
+butter as a spread (per 5 g/d HR 1.04; 95% CI, 1.02-1.05) drives it, while butter used for baking and
+frying showed no significant association — plausibly small quantities and misclassification, not safety
+[@zhang2025butter]. Substituting 10 g/d of butter with
+plant-based oils was associated with a 17% lower total mortality (HR 0.83; 95% CI, 0.79-0.86).
+
+**This is an F-refinement of the Guo cell, NOT a contradiction of it — the comparators differ.** Zhang
+himself locates the gap: the neutral butter MA «did not explicitly compare butter with alternative
+foods, instead implying a comparison to the typical Western diet, which is replete with other unhealthy
+components like refined grains, sugars, starches, and red meat»
+[@zhang2025butter]. Matched parameters:
+
+| Parameter | Guo's cited butter MA (Pimpin) | Zhang 2025 | Same quantity? |
+|---|---|---|---|
+| butter -> total mortality | per 14 g/d, RR 1.01 (1.00-1.03) | Q4-vs-Q1, HR 1.15 (1.08-1.22) | **NO** — per-14g increment vs extreme-quartile contrast |
+| implicit comparator | butter vs typical Western diet | within-cohort intake contrast (and a modelled butter->oil swap) | **NO** — Western-diet average vs a specified alternative food |
+
+The two are consistent once matched: a near-flat per-gram slope against a junk-food-laden reference
+(Guo/Pimpin) and a positive extreme-quartile contrast that resolves into benefit only when butter is
+**replaced by a named better food** (Zhang's substitution model) answer different questions. **NOT-E**
+(no confidence upgrade): Zhang shares the NHS/NHSII/HPFS cohorts, the Willett FFQ, and the Wang/Hu lab
+with the Harvard dairy-fat evidence this page already holds — agreement here is shared backing, not
+independent corroboration. And it stays observational: self-reported FFQ intake, residual confounding,
+and a statistical substitution model, not a feeding trial -> [[Saturated Fat Intake and Replacement]]
+(*Butter vs plant oils at the food level*).
 
 
 

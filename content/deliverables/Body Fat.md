@@ -3,12 +3,12 @@ type: deliverable
 title: Body Fat
 aliases: [Body Fat, Obesity, Weight Loss, Adiposity, Should I Lose Weight, Body Fat Percentage, Visceral Fat, Body Composition]
 question: 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?'
-sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Ge - Named Diets Weight Cardiovascular Network MA 2020, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015]
+sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Ge - Named Diets Weight Cardiovascular Network MA 2020, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-27
-self_critiqued: 2026-08-17
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 ---
 
 **Excess body fat is a big rock — one of the largest modifiable levers on health — but where the
@@ -353,6 +353,35 @@ Two honesty notes bound what this licenses.
   lever -> [[The U-Shaped Association Artifact]]
   [inferred from @wcrf2018ter].
 
+## Count knee osteoarthritis as a function outcome where adiposity dominates the modifiable risk
+
+Excess adiposity is the **dominant modifiable risk factor for developing knee osteoarthritis** -- a
+high-prevalence, function-limiting outcome (pain, mobility, independence) that sits on the outcome
+menu alongside cancer and cardiovascular disease. A gold systematic review of 129 cohort studies
+pooled adiposity at **adjusted OR 1.17 per 1 BMI unit (95% CI 1.10 to 1.24)** for incident
+radiographic knee OA [@duong2025kneeoa].
+Across the modifiable risk factors, overweight/obesity carries **77.2% of the
+population-attributable fraction** -- it dominates the modifiable-risk picture:
+«Together, two modifiable risk factors (overweight/obesity and previous knee injury) account for 14%
+of incident radiographic KOA.»
+[@duong2025kneeoa]
+
+This is a **route-(a) prognostic association**: higher BMI marks higher incident-OA risk, but no
+trial shows that *losing* weight prevents incident knee OA. So the honest frame is «excess adiposity
+is the dominant modifiable risk marker», not «losing weight prevents knee OA» -- the reversal loop is
+open here exactly as it is for cancer.
+[inferred from @duong2025kneeoa]
+
+The pooled outcome is **radiographic** knee OA (the X-ray finding); **symptomatic** knee OA -- the
+pain and function loss patients actually feel -- is not separately pooled, because «the overlap
+between the two is limited» and radiographic OA «does not consistently relate to symptoms»
+[@duong2025kneeoa]. The richest data thus
+sit on the outcome that matters least to the patient -- a named streetlight/measurement gap. Knee OA
+is nonetheless a high-prevalence, function-limiting QoL outcome, so for many people it is a
+critical-rated reason to address adiposity; the wiki names the outcome, direction and certainty, and
+the weighting across it stays the person's.
+[inferred from @duong2025kneeoa]
+
 Fat loss moves some hard outcomes, and for others the evidence stays open — that much is settled.
 How the loss is *achieved* is the next question, and the routes differ on the hard endpoints, not
 just on convenience.
@@ -645,9 +674,9 @@ requiring a person's labs, medications and history.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?' |
-> | **Evidence included** | 30 sources — 9 gold, 18 high, 3 moderate |
+> | **Evidence included** | 31 sources — 10 gold, 18 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Lowe (RCT, moderate); Montani (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 ## References

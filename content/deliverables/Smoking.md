@@ -2,12 +2,12 @@
 type: deliverable
 title: Smoking
 question: What does the evidence show about smoking and patient-important outcomes — how large is the effect on mortality, life expectancy and specific diseases, how much of any excess risk cessation recovers and how that depends on the age at quitting, and what remains uncertain?
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014]
+sources: [Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019]
 confidence: high
 created: 2026-08-17
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-03
+self_critiqued: 2026-09-03
+concrete_subject_audited: 2026-09-03
 aliases: [Smoking, Tobacco, Quitting Smoking, Smoking Cessation]
 ---
 
@@ -126,7 +126,24 @@ The fabric holds one gold mortality source (Jha 2013) plus Livingston 2024 for d
 coverage-gap inventory below is the wiki's own appraisal of what the held sources omit, not a claim
 from either source. The inventory is honest about what it does **not** reach:
 
-- **E-cigarettes / vaping** — no long-term patient-important outcomes are held.
+- **E-cigarettes / vaping** — the cardiovascular cell is now open
+  ([[Electronic Cigarettes and Cardiovascular Risk]]) but only on *surrogates*; hard patient-important
+  CV outcomes remain insufficient evidence, and the decision is stratum-dependent — an e-cigarette is
+  not one thing, and the sign flips with who uses it:
+  - **A smoker who switches** (vs continued combustible smoking) gets a harm-reduction *surrogate*
+    benefit — blood pressure fell: SBP -7.00 mmHg (95% CI -9.63 to -4.37), DBP -3.65 mmHg (-5.71 to
+    -1.59)
+    [@skotsimara2019ecig].
+    But hard CV outcomes stay insufficient evidence: the one observational MI estimate (OR 1.79) sits
+    below combustible cigarettes (OR 2.72) yet is confounded, with reverse causation flagged
+    [@skotsimara2019ecig] — so the
+    surrogate improvement is held, but a hard-outcome benefit is not demonstrated.
+  - **A never-smoker who starts** (vs no exposure) takes on pure added harm with no offsetting
+    baseline: acute use raised heart rate +2.27 bpm, SBP +2.02 mmHg, DBP +2.01 mmHg
+    [@skotsimara2019ecig], with no
+    cessation benefit to offset it. For a smoker who cannot quit, switching is a plausible
+    harm-reduction step on surrogates whose hard-outcome case is unproven; for a never-smoker, starting
+    is unambiguous added risk.
 - **Secondhand smoke** — no dose-response on hard outcomes is held.
 - **Specific cancers beyond mortality** — no dedicated effect-size meta-analyses (e.g. smoking and a
   named cancer) beyond Jha's mortality figures.
@@ -151,9 +168,9 @@ from either source. The inventory is honest about what it does **not** reach:
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about smoking and patient-important outcomes — how large is the effect on mortality, life expectancy and specific diseases, how much of any excess risk cessation recovers and how that depends on the age at quitting, and what remains uncertain? |
-> | **Evidence included** | 3 sources — 2 gold, 1 high |
+> | **Evidence included** | 4 sources — 2 gold, 1 high, 1 moderate |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
+> | **Source-selection note** | Core mortality/cessation evidence is gold or high tier; the e-cigarette note rests on one moderate, surrogate-only meta-analysis and is held at low confidence. |
+> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
 
 ## References

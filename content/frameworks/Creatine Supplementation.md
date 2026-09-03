@@ -2,8 +2,8 @@
 type: framework
 question: Does creatine supplementation change a patient-important outcome — for whom, at what dose, and is the ergogenic case the same as the clinical/cognitive one?
 aliases: [Creatine, Creatine Monohydrate, Creatine Loading, Creatine and Muscle, Creatine and Cognition, Creatine Safety]
-authors: [Kreider, Richard B; Kalman, Douglas S; Antonio, Jose; Ziegenfuss, Tim N; Wildman, Robert]
-sources: [Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017]
+authors: [Kreider, Richard B; Kalman, Douglas S; Antonio, Jose; Ziegenfuss, Tim N; Wildman, Robert; Choi, MoonKi; Kim, Hayeon; Bae, Juyeon]
+sources: [Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Choi - Resistance Training Nutritional Intervention Older Adults 2021]
 cluster: supplements
 confidence: low
 relationships:
@@ -17,8 +17,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-08-09
-self_critiqued: 2026-08-04
+updated: 2026-09-01
+self_critiqued: 2026-09-01
 ---
 
 *"Creatine works"* is not one claim — it is one **established** claim wearing the clothes of a dozen
@@ -146,7 +146,16 @@ themselves on the outcome menu (sarcopenia). Two meta-analyses of elderly resist
 creatine **added to** training: participants «experienced greater gains in muscle mass, strength, and
 functional capacity» (357 individuals, \~64 y) and a second (405 individuals) corroborated greater lean
 mass and upper-body strength «compared to training alone»
-[@kreider2017]. This is an
+[@kreider2017]. A third MA
+from a different group sharpens the point by *contrast*: Choi 2021 pooled 22 RT-vs-RT+nutrition RCTs in
+healthy older adults and found creatine was the **only** nutritional intervention to beat training alone —
+«Among the nutritional interventions, only those with creatine showed significant effects on lean body
+mass (n = 4, MD 2.61, 95% CI 0.51 to 4.72)» — every other nutrient subgroup was null
+[@choi2021]. Its
+distinctive contribution is the **within-MA head-to-head** — creatine against protein/multinutrient in one
+pool — which the earlier MAs do not provide; not scored as an independent-E leg (Choi's 4 creatine trials
+may overlap those MAs' constituents, unverified, and the between-subgroup test was not significant), so it
+corroborates the DIRECTION on a small pool, not a precise magnitude. This is an
 **F-refinement** of [[Sarcopenia Definition and Diagnosis]] and [[Protein and Resistance Training for Muscle and Strength]]: for the stratum whose big rock is preserving strength and independence
 ([[Big Rocks (Elderly)]]), creatine is a small, evidenced adjunct **on top of** the resistance training
 that remains the driver — never a substitute for it

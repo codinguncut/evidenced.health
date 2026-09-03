@@ -2,8 +2,8 @@
 type: diagnostic
 question: How is sarcopenia defined and diagnosed in an older adult, and what should be measured — muscle mass, strength, or function?
 aliases: [Sarcopenia, EWGSOP2, Muscle Failure, Low Muscle Strength, Sarcopenia Diagnosis, Sarcopenic Obesity, F-A-C-S]
-authors: [Cruz-Jentoft, Alfonso J; Bahat, Gulistan; Bauer, Jurgen; Boirie, Yves; Bruyere, Olivier; de Santana, Felipe M]
-sources: [Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021]
+authors: [Cruz-Jentoft, Alfonso J; Bahat, Gulistan; Bauer, Jurgen; Boirie, Yves; Bruyere, Olivier; de Santana, Felipe M; Song, Zhenzhen; Pan, Ting; Tong, Xin; Yang, Ying; Zhang, Zhijie]
+sources: [Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023]
 cluster: muscle
 nucleus: true
 confidence: medium
@@ -20,8 +20,8 @@ relationships:
     - Big Rocks (Elderly)
     - Frailty
 created: 2026-08-04
-updated: 2026-08-09
-self_critiqued: 2026-08-06
+updated: 2026-09-01
+self_critiqued: 2026-09-01
 ---
 
 [inferred from @cruzjentoft2019]
@@ -149,7 +149,14 @@ edge of a reference distribution, not a knee in a dose-response curve.
   ([[Protein and Resistance Training for Muscle and Strength]]), and muscle-strengthening activity
   ([[Muscle-Strengthening Activity and Mortality]]). EWGSOP2 asserts nutrition + exercise «seem to slow
   or reverse» the process; that is consensus, not a validated effect (the intervention evidence lives on
-  those pages, not here).
+  those pages, not here). In the *diagnosed-sarcopenic* stratum specifically, a moderate-tier MA (Song
+  2023, 12 trials, «713 older adults diagnosed with sarcopenia») found adding a compound protein+vitamin-D
+  supplement to resistance training «further enhance[d] grip strength rather than muscle mass» — a
+  borderline grip effect (WMD 1.87, 95% CI 0.01-3.74, P=0.049; heterogeneous, compound-confounded), null on
+  mass [@song2023].
+  It nudges the EWGSOP2 *strength* criterion, not the *mass* one — consistent with steering toward function
+  -> [[Protein and Resistance Training for Muscle and Strength]] holds the full stratum picture and its
+  weight caveats.
 - **The outcome to steer toward is function, not mass** — falls avoided, independence retained. Muscle
   mass is a surrogate; strength and performance sit closer to the patient-important outcome
   -> [[Surrogate Outcomes]], [[Rating Outcome Importance]].

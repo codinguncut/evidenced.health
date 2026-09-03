@@ -100,3 +100,64 @@ a.dcard:hover {
   .deliverable-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
   a.dcard { aspect-ratio: 3 / 4; }   // taller than desktop's 4/3 so title + desc stay readable at 2-up
 }
+
+
+// --- "recently updated" markers, injected by bin/build_site.py from git history ---
+// Two surfaces, both keyed on var(--secondary) (the theme's blue: #284b63 light / #7b97aa dark,
+// so it stays legible in both modes without a second rule):
+//   1. .recent-update  — an EMPTY marker <div> placed just before each changed ## section heading
+//      (this Quartz fork has no rehype-raw, so a wrapping div is dropped but a self-contained marker
+//      survives). It renders a small "updated <date>" pill; the heading right after it goes blue.
+//   2. a.dcard.dcard-recent — a deliverable card whose deliverable changed within the window (landing)
+// Kept deliberately slight: a dated pill + a blue heading with a faint blue wash.
+
+.recent-update {
+  margin: 1.5rem 0 0;
+  &::before {
+    content: "updated " attr(data-last-updated);
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--light);                 // flips with theme -> readable on the blue pill
+    background: var(--secondary);
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    opacity: 0.9;
+  }
+}
+// the section heading right after a marker: blue text + a slight blue wash / left-rule
+.recent-update + :is(h1, h2, h3, h4) {
+  color: var(--secondary);
+  border-left: 3px solid var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 7%, transparent);
+  padding: 0.15rem 0.55rem;
+  border-radius: 0 5px 5px 0;
+  margin-top: 0.35rem;
+}
+
+// Deliverable card touched within the window: a subtle blue ring (no background change, so the
+// per-card pastel tint survives) + a small pill in the corner.
+a.dcard.dcard-recent {
+  position: relative;                          // anchor the pill to the card
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 1px var(--secondary) inset;
+}
+// Override the base `a.dcard::after { display: none !important }` (it suppresses Quartz's link icon).
+a.dcard.dcard-recent::after {
+  display: block !important;
+  content: "updated " attr(data-last-updated);
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light);                         // flips with theme -> readable on the blue pill
+  background: var(--secondary);
+  padding: 0.12rem 0.42rem;
+  border-radius: 999px;
+  opacity: 0.92;
+}

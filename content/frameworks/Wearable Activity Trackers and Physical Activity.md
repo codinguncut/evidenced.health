@@ -18,8 +18,6 @@ relationships:
 created: 2026-09-01
 updated: 2026-09-01
 ---
-<div class="recent-page" data-last-updated="2026-09-01"></div>
-
 
 **The decision this page changes.** Is a consumer wearable activity tracker (Fitbit, Jawbone, and
 kin) a worthwhile *adherence / behaviour-change* lever — a device that gets a person to move more and

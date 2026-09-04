@@ -3,17 +3,20 @@ type: deliverable
 title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
-authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao; Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org); Pillay, Jennifer]
+authors: [Jha, Prabhat; Ekelund, Ulf; Paluch, Amanda E; Momma, Haruki; Currier, Brad S; World Health Organization (org); Sherrington, Catherine; Taylor, Roy; Recchia, Francesco; Ma, Chenhan; Look AHEAD Research Group (org); Lean, Michael EJ; European Association for the Study of the Liver (org); Kramer, Caroline K; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Rumgay, Harriet; Cappuccio, Francesco P; Shan, Zhilei; Yin, Jiawei; Morton, Robert W; Bauer, Jurgen; Refalo, Martin C; Hooper, Lee; Blood Pressure Lowering Treatment Trialists Collaboration (org); European Society of Cardiology (org); SPRINT Research Group (org); Snyder, Peter J; Kahwati, Leila C; US Preventive Services Task Force (org); Celis-Morales, Carlos A; Ference, Brian A; Liu, Xiao; Livingston, Gill; Chen, Yancong; World Cancer Research Fund International (org); Pillay, Jennifer; Iso-Markku, Paula; Peters, Ruth; Xu, Wei; Zhang, Jinhuan; Zhou, Yuhan; Peng, Yinshun]
 sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Momma - Muscle-Strengthening Activities and Mortality 2022, Currier - Resistance Training Prescription NMA 2023, WHO - Physical Activity Web Annex Evidence Profiles 2020, Sherrington - Exercise Preventing Falls 2019, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Ma - Weight Loss Interventions Mortality 2017, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024,
   Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Rumgay - Alcohol Attributable Cancer Burden 2021, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Yin - Sleep Duration Mortality Dose-Response 2017, Morton - Protein Supplementation and Resistance Training 2018, Bauer - PROT-AGE Protein Older Adults 2013, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Sodium Intake 2012,
   BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Snyder - Testosterone Treatment Fractures 2024, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, USPSTF - Statin Use Primary Prevention 2022, Celis-Morales - Grip Strength Mortality 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999,
   Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018,
-  Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024]
+  Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024,
+  Iso-Markku - Physical Activity Dementia 2022, Peters - Blood Pressure Lowering Dementia 2022,
+  Xu - Alcohol Consumption Dementia 2017, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
+  Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025]
 confidence: medium
 created: 2026-08-18
-updated: 2026-08-31
-self_critiqued: 2026-08-31
-concrete_subject_audited: 2026-08-31
+updated: 2026-09-04
+self_critiqued: 2026-09-04
+concrete_subject_audited: 2026-09-04
 ---
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
@@ -138,8 +141,6 @@ evidence does support is **component-level and measurable** -- apoB and metaboli
 pattern label**. -> [[Dietary Patterns]]
 
 
-<div class="recent-update" data-last-updated="2026-08-31">
-
 ## After about 65, the stack shifts
 
 The levers do not change on your birthday, but their order does as you age.
@@ -170,8 +171,6 @@ The levers do not change on your birthday, but their order does as you age.
   are not deficient, the tightest blood-pressure targets, and edge-of-evidence statins.
   These are individual calls a doctor makes with your labs, not general advice. ->
   [[Testosterone Adiposity and Muscle]], [[Grip Strength and Mortality]]
-
-</div>
 
 ## The bottom line
 
@@ -222,6 +221,8 @@ gathers around the little ones. Here is where this page does more than repeat "e
   their sources -- not whether following them makes you better off. A clean audit is not a proven
   outcome. Treat it as well-sourced reasoning, not a guarantee.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## The evidence behind each directive
 
 The front of this guideline is kept to rough magnitudes; the precise figures, certainties and studied
@@ -245,6 +246,16 @@ the same act also preserves physical function and cuts frailty and joint pain, n
 disease -> [[Shared Modifiable Levers Across Age-Related Diseases]]. Body fatness is a cause of 12 of
 the 17 cancers reviewed [@wcrf2018ter] on top of
 being a midlife dementia risk factor [@livingston2024].
+
+The activity-and-dementia link is now held first-hand: across 58 cohorts, being active carried a relative
+risk of 0.80 (0.77-0.84) for all-cause dementia, and the signal survived a reverse-causation check --
+holding at RR 0.79 (0.71-0.87) in cohorts followed 20 years or more -- and was not modified by ApoE
+genotype [@isomarkku2022]. That de-secondhands
+the dementia protection cited above (a type-F refinement of the same estimate, not an independent second
+witness -- Iso-Markku is the study that borrowed cell rests on)
+[inferred from @isomarkku2022].
+It adds a second patient-important outcome to an already top-ranked, non-substitutable
+lever, so it strengthens activity's place rather than adding a competing task.
 
 Two cautions bind. The per-disease numbers are co-membership evidence, not one commensurable effect
 size -- each risk ratio is for a different outcome in a different population, so a shared lever is not
@@ -377,6 +388,16 @@ risk rises from low intake with no safe threshold: a global estimate attributed 
 [@rumgay2021]. There is no rock to add here, only a
 harm to cut at the top end. -> [[Alcohol and Mortality and Vascular Disease]], [[The U-Shaped Association Artifact]]
 
+The dementia picture repeats the same J-curve. A dose-response meta-analysis found all-cause dementia risk
+elevated once intake passes «23 drinks/week or 38 g/day»
+[@xu2017alcohol]. The apparent protection at low intake is
+unadjudicated: Xu ran no referent-correction and no genetic check, and concedes former drinkers who quit
+because they were already ill sit in the abstainer reference group
+[@xu2017alcohol] -- the same sick-quitter artifact that
+dissolved the mortality J-curve. So there is no protective dose to chase for the brain either; only the harm
+arm above the knee is causally coherent
+[inferred from @xu2017alcohol].
+
 #### Get enough sleep
 
 Yin's per-hour dose-response meta-analysis (67 articles, 3.58 million participants, restricted cubic
@@ -396,6 +417,17 @@ Short sleep also raises incident type-2 diabetes
 about 9% per hour of sleep lost (RR 1.09, 1.04-1.15)
 [@shan2015]. The actionable arm is short
 sleep; long sleep is a marker of illness, not a target to trim. -> [[Sleep Duration and Mortality]]
+
+The cognition evidence points the same way, keeping the actionable arm on the short side. Short sleep (under
+7 h) tracks faster cognitive decline (RR 1.27, 1.12-1.42) but «was not associated with future risk of
+all-cause dementia and AD»
+[@zhang2025sleep]. The long-sleep arm
+is the larger one for dementia, but it reads as a preclinical marker rather
+than a cause -- Zhang calls prolonged sleep «a preclinical marker driven by the APOE ε4 carrier gene»
+[@zhang2025sleep], age-dependent and with no
+genetic or referent check run against it. So the brain evidence does not license trimming a long sleeper's
+hours; the lever stays the same -- don't run chronically short
+[inferred from @zhang2025sleep].
 
 #### The smaller levers
 
@@ -449,6 +481,24 @@ observational, confounded figure, not a proven or type-agnostic target, and no l
 supplement for the whole-food pattern the mortality data actually described.
 -> [[Dietary Fibre and Health]]
 
+**Diet and the brain -- a small, mediated signal, not a lever to chase.** Two observational meta-analyses
+attach a cognition signal to eating pattern: higher fruit and vegetable intake tracks lower dementia risk
+(OR 0.84, 0.78-0.91) [@zhou2022fruit],
+and higher flavonoid intake tracks lower risk of adverse cognitive events (OR 0.90, 0.83-0.98)
+[@peng2025flavonoid]. Both rest on self-reported (FFQ)
+diet, both are confounded with healthy-user eating, and both are null for Alzheimer's disease specifically
+(fruit-and-veg AD OR 0.88, 0.76-1.01; flavonoid AD OR 0.90, 0.69-1.17)
+[@zhou2022fruit] [@peng2025flavonoid].
+
+The two are not independent
+witnesses -- flavonoids are a component of fruit and vegetables, so the flavonoid result re-expresses part
+of the same FFQ signal rather than confirming it by a second route -- and the shared Alzheimer's-null
+suggests the signal rides the cardiometabolic route the big rocks already cover, not a separate
+anti-neurodegenerative effect. This is one mediated signal that might help a little: eat the whole plant
+foods for their better-evidenced reasons, not for a flavonoid cognition target this evidence cannot isolate.
+[inferred from @zhou2022fruit; @peng2025flavonoid]
+-> [[Flavonoid Intake and Cognitive Function]], [[Fruit and Vegetable Intake and Health]]
+
 #### Things to look out for (the readouts)
 
 These are self-monitoring signals, not diagnoses. Each points back to a lever and, when it stays out of
@@ -458,7 +508,13 @@ range, to a clinician -- the guideline itself never names or doses a drug.
   events about 10% per 5 mmHg, the relative benefit broadly constant across baseline pressure
   [@bplttc2021], with the lifestyle
   handles being weight, activity, alcohol and sodium (figures under *Sodium and blood pressure* above). A
-  pressure that stays high despite the levers is the medication conversation.
+  pressure that stays high despite the levers is the medication conversation. Lowering blood pressure also
+  lowers dementia risk: pooling five double-blind placebo-controlled antihypertensive trials, treatment cut
+  incident dementia (OR 0.87, 0.75-0.99, at a mean BP lowering of 10/4 mmHg)
+  [@peters2022bp] -- but that proven effect runs
+  through medication, which stays off this page, so read it as one more reason to watch the reading and take
+  a persistently high one to a clinician, not as a sixth lever
+  [inferred from @peters2022bp].
   -> [[Blood Pressure Lowering and Cardiovascular Events]]
 - **apoB (or LDL cholesterol)** is the one blood marker the fabric treats as an even-handed,
   individually-measurable discriminator across very different diets. The lipoprotein-ASCVD dose is
@@ -508,9 +564,11 @@ not targets a supplement can move [@celismorales2018].
 > | | |
 > |---|---|
 > | **Question** | 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?' |
-> | **Evidence included** | 42 sources — 23 gold, 18 high, 1 moderate |
+> | **Evidence included** | 49 sources — 30 gold, 18 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+
+</div>
 
 ## References

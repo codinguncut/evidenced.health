@@ -7,7 +7,7 @@ sources: [Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Yang - Heme Ir
 cluster: heme-iron
 nucleus: true
 relationships:
-  related_to: [[[Red and Processed Meat and Cancer]], [[Should Adults Reduce Red and Processed Meat]], [[Food Groups and Health Outcomes - A Dose-Response Matrix]], [[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]], [[The U-Shaped Association Artifact]]]
+  related_to: [Red and Processed Meat and Cancer, Should Adults Reduce Red and Processed Meat, Food Groups and Health Outcomes - A Dose-Response Matrix, Is the Food Category Doing Any Work, Measurement Error in Dietary Assessment, The U-Shaped Association Artifact]
 confidence: low
 created: 2026-09-02
 updated: 2026-09-03

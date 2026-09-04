@@ -139,8 +139,6 @@ are **insufficient / not-yet / null**, and must not be laundered into the ergoge
   (high-dose creatine improves outcomes), distinct from supplementing a replete person
   [@kreider2017].
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Older adults — the one clinical stratum where the surrogate benefit is decision-relevant
 
 The ergogenic benefit becomes more than athletic in the elderly, where muscle/strength/function are
@@ -162,8 +160,6 @@ corroborates the DIRECTION on a small pool, not a precise magnitude. This is an
 ([[Big Rocks (Elderly)]]), creatine is a small, evidenced adjunct **on top of** the resistance training
 that remains the driver — never a substitute for it
 [inferred from @kreider2017].
-
-</div>
 
 ## The source caveat — a conflicted consensus, held to the recommendation-summary bar
 

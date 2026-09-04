@@ -18,7 +18,7 @@ relationships:
     - Fatty Liver MASLD and Weight Loss
     - The Observational-Trial Discordance
 created: 2026-08-01
-updated: 2026-08-06
+updated: 2026-09-03
 self_critiqued: 2026-08-06
 ---
 
@@ -124,6 +124,8 @@ the CIM-vs-EBM framing makes it sound**.
   adipose-first causal reversal, its residual live claim is *glycemic load acts on appetite* — which is an
   energy-intake pathway, i.e. inside the EBM.
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## The insulin-secretor subgroup limb, directly tested — DIETFITS (route-b, null) `[2026-08-04]`
 
 The CIM's one surviving live *whole-organism* prediction — that people with **high insulin secretion**
@@ -168,12 +170,14 @@ refutation above — it adds a *separate* refutation of a *separate* claim. Thre
   in single randomized trials are often spurious and this result is even more frequent when small sample
   sizes and post hoc analyses are involved; validation of such claims is infrequent.» [@gardner2018]
   DIETFITS is the large, pre-specified non-replication of small post-hoc positives — the mechanism-
-  plausible interaction that a powered test dissolves -> [[Over-Personalization]].
+  plausible interaction that a powered test dissolves (the over-personalization failure mode).
 
 **Net for the CIM.** Its surviving subgroup limb is now **directly tested and unsupported in the studied
 stratum**, leaving the model's live remainder as the **appetite/adherence** channel (GL and protein
 acting on spontaneous *intake*) — which sits inside the energy-balance account, not against it.
 [inferred from @gardner2018; @ludwig2021cim]
+
+</div>
 
 ## The fructose-hepatotoxicity variant — the same isocaloric test defuses it (Chung 2014) `[2026-08-06]`
 

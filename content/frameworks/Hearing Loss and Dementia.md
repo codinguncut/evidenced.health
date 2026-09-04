@@ -2,13 +2,13 @@
 type: framework
 question: Does hearing loss raise dementia risk, does treating it with hearing aids lower that risk, and for whom is the treatment lever largest?
 aliases: [Hearing Loss, Hearing Aids and Dementia, Hearing Impairment Cognition, Age-Related Hearing Loss]
-authors: [Yu, Ruan-Ching; Yeo, Brian Sheng Yep; Livingston, Gill; Costafreda, Sergi G]
-sources: [Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Yeo - Hearing Aids Cochlear Implants Cognition Meta-Analysis 2023, Livingston - Dementia Prevention 2024]
+authors: [Yu, Ruan-Ching; Yeo, Brian Sheng Yep; Livingston, Gill; Costafreda, Sergi G; Lin, Frank R]
+sources: [Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Yeo - Hearing Aids Cochlear Implants Cognition Meta-Analysis 2023, Livingston - Dementia Prevention 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023]
 cluster: dementia
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-28
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - Dementia Prevention and Modifiable Risk Factors
@@ -76,6 +76,8 @@ estimates «relied on a substantially smaller sample of studies». [@yu2024heari
   A monotone-looking severity gradient that does not reach significance as a moderator — consistent with
   a real graded effect, not proof of one.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## No effect-modifier was found — the moderator-null `[first-hand: Yu 2024]`
 
 Across 37 HR-reporting studies, «None of the factors investigated moderated the relationship between
@@ -84,8 +86,14 @@ follow-up length, nor adjustment for baseline cognition or vascular factors; met
 proportion, baseline age, and follow-up years was likewise null. [@yu2024hearing]
 **Decision consequence:** the observational evidence supplies **no route-(b) effect-modifier** for the
 *exposure* association — no identified stratum in which hearing loss carries a *relatively* larger
-dementia risk. This matters for reading the ACHIEVE subgroup below: that subgroup is a **baseline-risk**
-(route-a, absolute-benefit) signal, not an effect-modification of the exposure.
+dementia risk. Keep two objects distinct: Yu's null is about the **exposure** relative effect, whereas
+ACHIEVE's pre-specified interaction (pinteraction=0.010, below) is about the **treatment** relative effect
+— a positive route-(b)-*form* signal, but hypothesis-generating (one subgroup, lenient alpha, a
+contamination confound). So the *established* reading of the ARIC subgroup stays **baseline-risk**
+(route-a, absolute-benefit — robust even if the interaction is a false positive), not a confirmed
+effect-modification.
+
+</div>
 
 ## Reverse-causation guard `[first-hand: Yu 2024]`
 
@@ -97,6 +105,8 @@ As a probe, Yu tested whether follow-up length moved the association and found n
 The Commission's complementary note stands: a shared cardiovascular pathology has «not been reported» to
 account for the association [@livingston2024]. Kept as a
 **medium**-confidence causal read, not high — an incompletely-excludable prodrome is exactly why.
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The treatment lever — hearing aids `[intervention arm; confidence LOW]`
 
@@ -122,13 +132,46 @@ weaker evidence state than the exposure association above.
     carries its own artifact, which Yeo names: «The supposed improvement in cognitive test scores is
     confounded by the fact that participants can simply hear the instructions of the test better after
     hearing restoration». [@yeo2023hearingaids]
-- **RCT (ACHIEVE) — null overall, large in the high-risk stratum.** The first hearing-aid RCT (N=977, aged
-  70-84, hearing aids vs an educational-health control) found **no effect on 3-year cognition in the total
-  cohort**, but a pre-specified **48% reduction** in a higher-baseline-risk subgroup (recruited from the
-  long-running ARIC cohort — older, lower baseline cognition, more CV risk factors). [@livingston2024]
-  Yu, whose authors include the ACHIEVE PI, records the same result and its status directly: it «was a
-  pre-planned but secondary analysis, and we therefore need to see if further RCTs to replicate this
-  effect in people at higher risk for dementia». [@yu2024hearing]
+- **RCT (ACHIEVE 2023) — null overall on the primary outcome, now held first-hand.** The first hearing-aid
+  RCT (N=977, aged 70-84, untreated hearing loss; hearing aids + audiological support vs a health-education
+  control; 3-year change in a global-cognition factor score) found **no between-group difference in the
+  total cohort: difference 0.002 SD [95% CI -0.077 to 0.081], p=0.96** (intervention -0.200
+  [-0.256 to -0.144] vs control -0.202 [-0.258 to -0.145]).
+  [@lin2023achieve] This first-hand result
+  **de-secondhands** the borrowed account the page previously carried via the Commission and Yu; the
+  overall null on the continuous cognition slope is well-powered (the trial was sized on it) and clean.
+- **The subgroup benefit is a pre-specified interaction — hypothesis-generating, not established
+  effect-modification.** A pre-specified sensitivity analysis stratified by recruitment source showed the
+  effect differed between the higher-risk ARIC cohort and the healthy de-novo volunteers
+  (**pinteraction=0.010**, tested at a lenient prespecified alpha<0.10). In ARIC (n=238) the intervention
+  gave a **48% smaller 3-year cognitive decline: difference 0.191 [0.022 to 0.360], p=0.027**; in de novo
+  (n=739) the difference was **-0.061 [-0.151 to 0.028], p=0.18** — near-zero, if anything favouring
+  control. [@lin2023achieve] Read this as **one
+  pre-specified subgroup of one trial at a liberal alpha** — the route-(b) false-positive generator — not
+  an established relative-effect modifier. Two facts keep it hypothesis-generating: (i) the harder
+  incident-impairment endpoint was **null in every stratum** (below), and (ii) a differential-contamination
+  confound is present — control drop-in (obtaining aids outside the study) was **19.4% in de novo vs 7.8%
+  in ARIC**, which biases the de-novo comparison toward null on its own, mimicking effect-modification by
+  baseline risk. [@lin2023achieve] The ARIC protective
+  estimate did **grow** under per-protocol and CACE (compliance-adjusted) analyses vs intention-to-treat.
+  [@lin2023achieve] Yu, whose authors include the
+  ACHIEVE PI, records the same status directly: it «was a pre-planned but secondary analysis, and we
+  therefore need to see if further RCTs to replicate this effect in people at higher risk for dementia».
+  [@yu2024hearing]
+- **On the incidence quantity Yeo estimated, ACHIEVE is null but statistically compatible — softening the
+  headline discordance.** ACHIEVE's secondary incident-cognitive-impairment outcome (adjudicated
+  dementia/MCI or a persistent MMSE drop) showed **no reduced hazard in any stratum: total HR 0.90
+  [0.61-1.33] (p=0.59), ARIC 0.94 [0.54-1.64], de novo 0.89 [0.48-1.67]**.
+  [@lin2023achieve] These hazard ratios are the
+  quantity **commensurable** with Yeo's observational cognitive-decline HR 0.81 [0.76-0.87] and dementia
+  HR 0.83 [0.77-0.90] — and ACHIEVE's CI **includes** Yeo's point estimate, so on the *same* quantity the
+  RCT is underpowered (wide CI), not contradicting. The clean overall null sits on a *different* quantity —
+  the continuous 3-year cognition slope — which Yeo never estimated. The discordance is therefore an
+  average-effect erasure plus a quantity mismatch, not a head-on reversal.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Exposure is not intervention — the distinction that governs the decision
 
@@ -140,27 +183,48 @@ intervention evidence, and the intervention evidence is weaker on every axis:
 |---|---|---|
 | First-hand source | Yu 2024 (50 cohorts) | Yeo 2023 (observational) + ACHIEVE RCT |
 | Best design | large cohorts, screened for pub-bias | 1 RCT (null overall) + observational pool |
-| Direction/size | HR 1.35 [1.26-1.45] | observational 0.81 [0.76-0.87]; RCT null overall, 48% in high-risk subgroup |
+| Direction/size | HR 1.35 [1.26-1.45] | observational 0.81 [0.76-0.87]; RCT null overall (0.002 SD, p=0.96), 48% in high-risk ARIC subgroup (pre-specified, hypothesis-generating) |
 | Confounding risk | reverse causation (prodrome) | healthy-user self-selection (device users) |
 | Confidence | **medium** | **low** |
 
 The Yeo-observational vs ACHIEVE-RCT gap is a textbook instance of
-[[The Observational-Trial Discordance]]: a large, consistent, I2=0% observational signal beside a null
-RCT, resolved not by crowning the trial but by naming the mechanism — **healthy-user self-selection in
-the device-user arm** inflates the observational HR, and randomization removes it, leaving benefit only
-where absolute baseline risk is high enough to show one.
+[[The Observational-Trial Discordance]]: a large, consistent, I2=0% observational signal beside an
+overall-null RCT. But before crowning the trial, match the quantities — the parameter table shows the
+apparent clash is **partly non-commensurable**, and the commensurable part is not a reversal:
+
+| Parameter | Yeo 2023 (observational) | ACHIEVE 2023 (RCT) | Same quantity? |
+|---|---|---|---|
+| Design | pooled observational cohorts, no RCT | randomized, health-education control | no |
+| Exposure contrast | aid users vs uncorrected HL (self-selected) | randomized intervention vs control | no — self-selected vs randomized |
+| Continuous cognition | not estimated | 3-yr global-cognition slope diff 0.002 SD [-0.077 to 0.081], p=0.96 | **no** — Yeo has no continuous-slope estimate |
+| Incident decline/dementia (HR) | cognitive-decline HR 0.81 [0.76-0.87]; dementia 0.83 [0.77-0.90] | incident cognitive impairment HR 0.90 [0.61-1.33] | **yes** — both time-to-event hazards |
+| Verdict on the HR row | — | ACHIEVE 0.90 CI includes Yeo 0.81/0.83 -> underpowered, **not contradicting** | commensurable; no clash |
+
+So the discordance is resolved by two moves, not one: **(1)** the clean overall null is on a continuous
+quantity Yeo never estimated, and on the quantity Yeo *did* estimate the RCT is merely imprecise; **(2)**
+where the RCT *is* powered (the continuous primary), **healthy-user self-selection in the device-user arm**
+inflates the observational HR, randomization removes it, and a signal survives only where absolute baseline
+risk is high enough to show one -> the ARIC subgroup. A confounded-observational + baseline-risk +
+non-commensurable-endpoint resolution.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Decision relevance
 
 
 
-- **This is a route-(a) baseline-risk stratification, worked — not a route-(b) one.** Yu's moderator-null
-  means the *exposure* has no established relative-effect modifier; ACHIEVE's subgroup benefit is an
-  **absolute**-benefit story (largest where baseline dementia risk is highest, the ARIC arm), which alone
-  recommends **targeting high-risk groups** without needing an effect-modification claim
-  -> [[Baseline Risk and the Relative-Absolute Split]]. ACHIEVE's subgroup effect was pre-specified (not a
-  fishing artifact), but it is one subgroup of one trial, so the aided-benefit claim still rests mainly on
-  consistent-but-confounded observational evidence, not RCT proof.
+- **Default the stratification to route-(a) baseline-risk, even though ACHIEVE supplies route-(b)-form
+  evidence.** ACHIEVE's pre-specified interaction (pinteraction=0.010) *is* effect-modification of the
+  treatment effect in form, but it is hypothesis-generating — one subgroup of one trial at a lenient alpha,
+  with a differential-contamination confound (de-novo control drop-in 19.4% vs ARIC 7.8%) that alone can
+  manufacture the split. So the **decision** rests on the route-(a) reading: absolute benefit is largest
+  where baseline dementia risk is highest (the ARIC arm), which recommends **targeting high-risk groups**
+  without needing the subgroup claim to be true, and is robust if the interaction is a false positive
+  -> [[Baseline Risk and the Relative-Absolute Split]]. The aided-benefit claim still rests mainly on
+  consistent-but-confounded observational evidence plus a well-powered overall-null RCT, not on RCT proof
+  of benefit.
 - **The lever is cheap and low-harm, and correction exists for most hearing loss** — so even under low
   confidence in the population-average benefit, the expected-value case for high-baseline-risk older
   adults is favourable; the gap is uptake, not availability. Reducing harmful noise exposure is the
@@ -169,8 +233,26 @@ where absolute baseline risk is high enough to show one.
   strata; ACHIEVE's own investigators say so. Until then, *treat hearing loss to prevent dementia* is a
   reasonable bet at high baseline risk, not an established general-population recommendation.
 
-## Self-critique `[run 2026-08-28, before commit]`
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Self-critique `[run 2026-09-04, before commit — ACHIEVE de-secondhand]`
+
+- **ACHIEVE first-hand did not launder the subgroup into an established effect.** The 48% ARIC reduction
+  is stated with its CI, its lenient interaction alpha, the every-stratum incidence-HR null, and the
+  drop-in contamination confound — kept explicitly hypothesis-generating, and the *decision* defaulted to
+  route-(a) baseline-risk so it does not depend on the subgroup being real. No "aids cut dementia 48%"
+  headline.
+- **Obs-vs-RCT filed as a DISTINCTION, not a fresh tension (fake-tension check).** The parameter table
+  shows the overall null (continuous 0.002 SD slope) and Yeo's HR 0.81 are **different quantities**
+  (not-joined check (ii): different unit/outcome); on the commensurable incidence-HR quantity ACHIEVE 0.90
+  [0.61-1.33] *includes* Yeo's estimate, so there is no head-on contradiction to file. Correctly homed as an
+  instance of [[The Observational-Trial Discordance]], not a new `[[tension]]` page.
+- **Independence honest — no E claimed.** Lin (ACHIEVE PI) co-authored held Yu 2024, and ARIC investigators
+  (Coresh/Mosley/Knopman) recur across the cluster, so ACHIEVE is **not** type-E-independent of the
+  hearing/Livingston lineage; its value is the RCT *design* (obs-vs-RCT), added as F-refinement, not
+  independent corroboration.
 - **Exposure/intervention confidence kept separate and honest.** The page-spine (exposure) is medium; the
   intervention claim is explicitly low, labelled at point of use, and the RCT null-overall leads the aid
   section rather than the observational 19%. No false "treat-to-prevent" headline.
@@ -183,5 +265,7 @@ where absolute baseline risk is high enough to show one.
   own power/dilution caveat, not asserted as absence of effect.
 - **Multi-source dementia reference page** — `confidence: medium` (exposure spine). Orbits
   [[Dementia Prevention and Modifiable Risk Factors]]; not a competing nucleus.
+
+</div>
 
 ## References

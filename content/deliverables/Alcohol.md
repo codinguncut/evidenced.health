@@ -2,12 +2,12 @@
 type: deliverable
 title: Alcohol
 question: 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?'
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Xu - Alcohol Consumption Dementia 2017]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-04
+self_critiqued: 2026-09-04
+concrete_subject_audited: 2026-09-04
 ---
 
 *Is a drink good for me?* has no single answer, because alcohol affects different organs
@@ -32,6 +32,8 @@ population the risk is lowest at zero, which sits uneasily beside guidelines tha
 daily drink or two; this page names that tension without pricing it. Confidence here is
 medium, not high, and the loop stays open: every judgment is graded for coherence, never
 against what later became of anyone who drank.
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Does a little drinking protect? The low-dose arm across mortality, stroke, and brain
 
@@ -103,6 +105,26 @@ relationship between not drinking and AD is due to survivor bias».
 [@livingston2024] The same referent-contamination-plus-MR
 adjudication that dissolved the mortality arm dissolves the dementia one — a different literature
 reaching the same verdict.
+
+A gold dose-response meta-analysis puts numbers on that J, and it is the textbook instance the
+discipline above dissolves. Xu pooled 11 prospective cohorts (73,330 participants, 4586
+all-cause-dementia cases) into a nonlinear curve (p_nonlinearity < 0.05): the apparent protection is
+confined to at most 12.5 g/day (roughly one drink a day), risk bottoms at RR \~0.9 around 6 g/day, then
+climbs about 10% once intake passes \~38 g/day (\~23 drinks/week).
+[@xu2017alcohol]
+
+That \~6 g/day nadir is exactly the
+artifact-suspect lower arm: the same referent contamination (former heavy drinkers sitting among the
+abstainers) and the Alzheimer's Mendelian randomization above apply to it unchanged, so the nadir is
+neither a target nor a safe dose. Xu itself does not read the protective arm as causal — it cautions
+that its findings need cautious interpretation, given varying methods and no standard definition of
+intake. [@xu2017alcohol] The upper arm — the \~10% rise
+above \~38 g/day — marks where the dementia signal becomes unmissable, not a ceiling to drink up to, and
+it lines up with the heavy-midlife harm below. Xu is not an independent line of evidence here: it
+shares its Qingdao/Fudan authorship with other cognition sources the wiki holds, so it quantifies the
+shape rather than corroborating the verdict.
+
+</div>
 
 ## Effect and dose-response shape, outcome by outcome
 
@@ -342,6 +364,8 @@ Move from the individual drinker to the population and a second kind of evidence
 
 **Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. Neither side is in error; they stand in different places. Population guidance optimizes an average outcome under communicability and safety-at-scale constraints, while an individual reads the same evidence against personal baseline risk and preferences. This pressure runs toward guidance permitting more than a population-minimizing rule would; the appraisal names that it exists and which direction it runs, and stops short of pricing it.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Confidence, and where this could be wrong
 
 How confident should any of this make someone? **Moderate — GRADE-certainty MEDIUM, not high.**
@@ -403,9 +427,11 @@ Four things could still change the read here:
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?' |
-> | **Evidence included** | 11 sources — 5 gold, 5 high, 1 moderate |
+> | **Evidence included** | 12 sources — 6 gold, 5 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Semba (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
+> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
+
+</div>
 
 ## References

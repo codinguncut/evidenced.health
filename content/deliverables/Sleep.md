@@ -3,317 +3,357 @@ type: deliverable
 title: Sleep
 question: 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?'
 aliases: [Sleep Duration, Sleep and Health, Sleep Regularity, Sleep Aids, Insomnia Treatment, How Much Sleep, Sleeping Pills, CBT-I Deliverable, Melatonin Deliverable]
-authors: [Cappuccio, Francesco P; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Livingston, Gill; Yin, Jiawei]
-sources: [Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017]
+authors: [Cappuccio, Francesco P; Wang, Shanshan; Livingston, Gill; Yin, Jiawei; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; Zhang, Jinhuan; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Yu, Jie; Malhotra, Atul]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-18
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-04
+self_critiqued: 2026-09-04
+concrete_subject_audited: 2026-09-04
 ---
+<div class="recent-page" data-last-updated="2026-09-04"></div>
 
-Sleep matters, but *how much sleep is healthy?* is really several different decisions wearing one
-question. Which arm of the duration curve is real, which knob actually moves outcomes, and what to do
-once sleep is already broken — these come apart on the evidence, and they do not all point the same way.
 
-**Chronic short sleep is a genuine, mechanism-backed risk worth correcting.** **Long sleep is mostly a
-warning light for hidden illness, not a habit to cut.** The round-number "seven to eight hours" is a
-reference point, not a validated target — the short-sleep risk is real in direction but modest, and
-nothing in the evidence sets an upper cap. **How *regularly* you sleep may move outcomes more than how
-*long*** — though that rests on a single cohort. And once insomnia has set in, the aids rank by harm and
-durability, behaviour first and drugs last, not by the minutes of sleep they buy.
+## The verdict
 
-## Only one arm of the sleep U-curve is a lever you can pull
+Adequate sleep is a real health lever, but the popular reading — that any deviation from
+7-8 hours shortens your life — is half wrong. The evidence splits the question in two, and
+only one half is a lever.
 
-Pool 27 cohorts — 1.38 million people, 112,000 deaths — and sleep duration traces a **U-curve against a
-\~7-8 h referent**: both the short and the long sleepers die at higher rates than those in the middle.
-Short sleep (commonly <7 h, often <5 h) carries a mortality **RR of 1.12 (1.06-1.18)**; long sleep
-(commonly >8-9 h) a larger **RR of 1.30 (1.22-1.38)**.
-[@cappuccio2010] The reflex is to read the whole
-curve as one rule — *any departure from 7-8 h shortens your life*. That reading is the mistake, because
-**the two arms are not the same kind of finding.**
+Chronic short sleep is a genuine, causally-footed harm. Sleeping under \~7 hours, with most of
+the penalty below 5 h, carries roughly 12% higher all-cause mortality, higher type-2-diabetes
+risk, and higher coronary risk — the coronary link now supported by genetics, not association
+alone. For a chronically short sleeper, moving toward \~7-8 hours is the lever worth pulling.
+[@cappuccio2010] [@wang2022sleep]
 
-The short arm has a **named, human-corroborated mechanism**: short sleep shifts appetite hormones,
-sympathetic tone, cortisol, growth hormone, and low-grade inflammation in directions that plausibly
-raise cardiometabolic risk. It also carries directional evidence — in the Whitehall II civil-service
-cohort, people who *curtailed* their sleep over time died «predominantly from cardiovascular causes
-(2.04 [1.20 to 3.49])», while those who *lengthened* it died mainly of «non-cardiovascular» causes
-(2.06 [1.38 to 3.08]) [@cappuccio2010] — the split
-you would expect if **short sleep is doing damage and long sleep is tracking illness.**
+Long sleep is mostly a marker of underlying illness, not a cause of it. Sleeping 8+ hours does
+not shorten a healthy person's life, and cutting sleep to avoid death or dementia is not
+supported. A habitual long sleeper is a candidate for a check-up, not a sleep-reduction target.
+[@cappuccio2010] [@livingston2024]
 
-The long arm has no such footing. Cappuccio adjudicates it plainly: «no studies published to date have
-demonstrated a possible mechanism mediating the effect of long duration of sleep as a cause of morbidity
-and mortality. The association between long duration of sleep and mortality may be explained by
-**residual confounding** and co-morbidities.»
-[@cappuccio2010] Three tells confirm it is
-**artifact-shaped, not dose-shaped**: the long arm is the *larger*
-association yet the one with no mechanism; it carries far higher heterogeneity (**I2 71% vs 39%**); and
-it *strengthens with age and with a longer cutoff* — rising to RR 1.54 above 10 h, and 1.46 in cohorts
-over 60 versus 1.22 in younger ones. The short arm, by contrast, is **flat across every subgroup**
-(heterogeneity P=0.89). [@cappuccio2010]
+When you sleep may matter as much as how long: irregular day-to-day timing predicts death at
+least as strongly as short duration, and is easier to fix. The newest evidence ties sleep
+disorders — apnea, restless legs, daytime sleepiness, insomnia — to dementia and cognitive
+decline, so the cognition lever is multi-pronged rather than a duration target (association-grade;
+no trial yet shows that treating them prevents dementia).
 
-That gradient — worse with age, worse the longer you sleep — is the signature of reverse causation, not
-of a physiological dose. So the rule is to **adjudicate the arm, not the curve**: only the short arm is a
-lever you can pull. The long arm is a **warning light for underlying illness** — which is the next thing
-to take apart.
+For insomnia, CBT-I comes first — larger, more durable, and harm-free — while hypnotics carry a
+harm signal and melatonin is small but benign. For sleep apnea, CPAP relieves symptoms but has
+not been shown to prevent heart attacks or death. Throughout, 7-8 hours is a reference range, not
+a precise target or an upper cap.
 
-## Long sleep is a symptom to investigate, not a habit to cut
+## Lengthen short sleep, and stop reading long sleep as a cause
 
-The long-sleep arm reproduces as an artifact when you change the outcome. On dementia, the 2024 Lancet
-Commission reached the same verdict it reached on mortality: «further evidence indicates that **prolonged
-sleep is not a risk factor for dementia**, although dementia and its prodrome may cause prolonged sleep.
-People should not curtail their sleep to reduce dementia risk.»
-[@livingston2024] The tell is decisive — in a Swedish cohort of 28,775 older adults, the
-long-sleep/dementia association «was **completely attenuated** after cases occurring in the first 5 years
-of follow-up were excluded», the fingerprint of reverse causation.
-[@livingston2024]
+Both short and long sleep sit above a \~7-8 h reference on the mortality curve, but the two arms
+are not the same kind of finding. Cappuccio's meta-analysis (16 studies, 27 cohorts, 1.38 million
+people, 112,000 deaths) pools short sleep at RR 1.12 (1.06-1.18, I2 39%) and long sleep at RR 1.30
+(1.22-1.38, I2 71%) against a 7-8 h referent.
+[@cappuccio2010] The larger association is the
+weaker claim.
 
-The asymmetry holds on this outcome too. Long sleep is the dementia artifact — but the *short* arm keeps a
-small, mechanism-consistent dementia signal of its own: the million-woman study found «a slightly higher
-risk of dementia (RR 1.08, 1.04-1.12) among those who reported shorter but not very short sleep duration
-(<7 hours)», and Whitehall II linked persistent <=6 h across midlife to a «30% increased dementia risk».
-[@livingston2024] The 2024 Commission judged even this not yet
-clear enough and **declined to make any sleep-duration recommendation** — an honest insufficient-evidence
-stop, distinct from a finding of no effect.
+The short-sleep RR 1.12 is a robust *direction*, not a precise dose. A 12% excess is significant
+and holds up, but it is small for an observational metric — self-reported, single-timepoint sleep,
+near the range residual confounding alone can produce. It is believed over the long arm not because
+12% is itself compelling, but because it carries a named mechanism, Whitehall II's cause-specific
+direction (curtailed sleepers died predominantly of cardiovascular causes, increased sleepers of
+non-cardiovascular causes), and now genetic support.
+[@cappuccio2010]
 
-In practice, the roles reverse. A person who habitually sleeps nine or ten hours and wakes
-unrefreshed is a **candidate for evaluation of occult illness** — depression, sleep apnoea, undiagnosed
-disease, the frailty of age — not a target for a shorter alarm. Cappuccio puts the point at its bluntest:
-«sleeping 9 h or more per night may represent a useful diagnostic tool for detecting subclinical or
-undiagnosed co-morbidity.» [@cappuccio2010]
-**Shortening a long sleeper's sleep optimises a symptom, not a cause** — and *sleep less to live longer*
-is exactly backwards. But even on the arm that *is* causal, the evidence is thinner and fuzzier than the
-round number "7-8 hours" lets on.
+The long arm has none of that footing. No study has demonstrated a mechanism by which sleeping
+longer causes death; Cappuccio reads long sleep as «a powerful additional marker of ill-health»
+[@cappuccio2010]. Three tells mark it as
+artifact-shaped, each an instance of [[The U-Shaped Association Artifact]]: it is the *larger*
+association yet the mechanism-free one; its heterogeneity is far higher (I2 71% vs 39%); and it
+strengthens with age and with a longer cutoff (>=60 y RR 1.46; >=10 h RR 1.54) — a frailty
+gradient, not a physiological dose-response. The short arm, by contrast, is flat across every
+subgroup (age, cutoff; heterogeneity P=0.89).
+[@cappuccio2010]
 
-## "Seven to eight hours" is a reference point, not a validated target
+Because Cappuccio bundles all short sleep into one pooled and flat category, it cannot say whether the
+6-7 h band carries the penalty or only chronic short sleep does. Yin's per-hour dose-response
+spline (67 articles, 3.58 million participants, 7 h reference) resolves the shape: 6 h sits at 1.01,
+barely above the nadir; 5 h at 1.04; the arm steepens only below \~5 h, reaching 1.12 at the 3 h
+extreme. [@yin2017] So the pooled 1.12
+is driven by the chronic-short (sub-5 h) studies, not the 6-7 h band — the penalty is a
+chronic-short-sleep (<5-6 h) phenomenon, and the lower bound is arguably 6+ h, not a hard 7. The
+long arm, disaggregated, is steep and asymmetric (9 h 1.15 -> 10 h 1.32 -> 11 h 1.53), reconfirming
+that the larger arm is the mechanism-free one.
 
-Take the short arm at full strength first. Its **RR of 1.12 (1.06-1.18)** is significant and robust as a
-*direction* — it carries a mechanism, the Whitehall cause-specific split, low heterogeneity, and
-independent corroboration from the diabetes literature below. The estimate itself — **RR 1.12
-(1.06-1.18)** [@cappuccio2010] — is small for an
-observational, self-reported, single-timepoint exposure, near the range that residual confounding alone
-can produce. (Cappuccio invokes «residual confounding» to discount the *long* arm; reading the
-same caution onto a hazard this small on the short arm is the wiki's appraisal, not the source's claim.)
-It is believed over the larger long arm because it has a mechanism and a direction, not because 12% is in
-itself compelling. The number points which way to move; it does not certify how far.
+The genetic check settles the short-arm verdict. Wang's meta-review pools 11 Mendelian-randomization
+studies — which use inherited genetic variants to fix lifetime sleep, immune to reverse causation —
+and finds genetically-predicted short sleep raises coronary artery disease (pooled OR 1.24,
+1.15-1.34) and heart failure: «short sleep duration is a causal risk factor for CAD and HF».
+[@wang2022sleep] Long sleep gets no
+genetic support, matching its marker reading — but the long-sleep instruments are few and
+underpowered, so this is insufficient evidence, not a demonstrated null.
+[@wang2022sleep]
 
-It also does not certify *where* the risk sits. Cappuccio's short-sleep category is **pooled and flat**
-across its definitional cutoffs — <=5 h, <=6 h and <=7 h behave alike (heterogeneity **P=0.89**), so 1.12
-is the *pooled* short-sleep figure, not a per-hour dose.
-[@cappuccio2010] Yin 2017 **now resolves that band.**
-Its dose-response meta-analysis (67 articles, 3.58 M participants, restricted-cubic-spline, 7 h reference)
-found «U-shaped associations... with the lowest risk observed for 7-hour sleep duration», and per hour
-«when sleep duration was <7 hours per day, the pooled relative risk (RR) was 1.06 (95% CI, 1.04-1.07) per
-1-hour reduction; when sleep duration was >7 hours per day, the pooled RR was 1.13 (95% CI, 1.11-1.15) per
-1-hour increment». [@yin2017]
+The action follows the arm, not the number. "7-8 h" is the referent the curve is measured against,
+not a target to hit precisely and not an upper cap: shortening a long sleeper's sleep optimises a
+symptom, and there is no evidenced harm from sleeping past 8 h to cap against. For a chronically
+short sleeper, extending toward \~7-8 h is a lever with mechanism, direction, and genetic support
+behind it.
 
-On Yin's spline the short-arm penalty **concentrates at chronic short sleep** — barely above the 7 h nadir
-at 6 h (\~1.01) and 5 h (\~1.04), steepening only below \~5 h (\~1.08 at 4 h, \~1.12 at 3 h)
-[@yin2017] — so Cappuccio's *pooled* 1.12 is
-driven by the sub-5 h studies, not the 6-7 h band. That cashes the concentration reading Cappuccio only
-gestured at, calling «consistently sleeping 6 to 8 h per night» optimal.
-[@cappuccio2010] So the lower bound is more honestly
-*around 6 h* than a hard 7 — but Yin resolves the *shape*, not measurement: its exposure too is
-«self-reported by questionnaire or interview», and the steep, mechanism-less long arm (RR 1.13 per hour)
-stays an unadjudicated artifact. [@yin2017]
+## The same split shows up for diabetes and heart disease
 
-At the upper end, **no evidence shows harm to a healthy sleeper.** The long-sleep association is the
-reverse-causation artifact from the last two sections — it is not evidence that sleeping eight hours
-hurts you. Stating an *upper bound* would launder that artifact into a dose-response cap, so **"up to 8 h"
-is a referent, not a ceiling.** Between roughly 7 and 8 h is most plausibly **diminishing returns** — the
-curve is shallow near the referent, and precision beyond "adequate, not chronically short" is not
-warranted by this evidence. The firmest independent footing for the short arm's causal reading comes not
-from mortality counts but from metabolism.
+The arm-asymmetry is not a quirk of the mortality data. It repeats on every outcome sleep
+touches, and the next two are the ones that carry most of the health stakes: diabetes and the
+heart.
 
-## The metabolic evidence pins down that short sleep is genuinely causal
+Shan pooled ten prospective cohorts and found the identical U-curve on type-2 diabetes — risk
+bottoms out at 7-8 hours and climbs on both sides, about 9% more diabetes per hour below 7 h and
+14% per hour above 8 h [@shan2015].
+And the two arms split the way they did for death:
 
-Look at a harder endpoint and the short arm holds up. Shan's dose-response meta-analysis of incident type
-2 diabetes found **a second U-curve, nadir 7-8 h**: «the pooled relative risks for type 2 diabetes were
-**1.09 (95% CI 1.04-1.15) for each 1-h shorter sleep duration** among individuals who slept <7 h per day
-and 1.14 (1.03-1.26) for each 1-h increment» on the long side.
-[@shan2015] The category extremes are
-sharper — **<=5 h RR 1.37 (1.18-1.59)**, **>=9 h RR 1.40 (1.08-1.80)** — and the asymmetry repeats
-exactly: the **short arm shows no nonlinearity (P=0.22)** and a lab-corroborated glucose mechanism, while
-the long arm is «currently considered more speculative», carries higher heterogeneity, and goes borderline
-when a single study is dropped.
-[@shan2015]
+- **Short sleep is causally footed.** The short arm carries a worked, human-tested mechanism —
+  lab sleep-restriction lowers glucose tolerance and insulin sensitivity — and shows no
+  nonlinearity, a clean dose relationship [@shan2015].
+- **Long sleep is a marker, left unadjudicated.** Shan calls the long-arm mechanism
+  «considered more speculative», the arm runs hotter (higher heterogeneity), and it goes
+  borderline the moment one study is dropped [@shan2015]. No strong check — no genetic test, no corrected referent — was run, so
+  the long-sleep-diabetes link is suspected artifact, not established harm.
 
-In absolute terms the
-per-hour figure is modest but real: against a US incidence of 7.6 cases per 1,000 per year, Shan estimates
-«68 cases of diabetes per 100,000 individuals would occur each year for every 1-h reduction of habitual
-sleep duration compared with 7 h per day».
-[@shan2015]
+Shan can only watch the association; it cannot fix which way cause runs, because illness lowers
+sleep as readily as sleep raises illness. Capers closes that gap. Pooling randomized trials that
+*manipulated* sleep, Capers found that «sleep restriction increases food intake and total energy
+expenditure» — the causal step the cohorts could only assume [@capers2015]. Short sleep really does drive people to eat more.
 
-Capers' meta-analysis of **randomised sleep-manipulation trials** lifts this above one more
-observational curve, because its design fixes the direction of causation. Its verdict: «sleep
-restriction increases food intake and total energy expenditure with inconsistent effects on integrated
-energy balance».
-[@capers2015]
+But the popular reason for it is wrong. The leptin-down, ghrelin-up appetite-hormone story is
+*not* the pathway: across the same trials, sleep restriction moved neither hormone (leptin
+p=0.84, ghrelin p=0.83). Capers, citing Chaput and St-Onge, concludes «hedonic factors are
+likely stronger» — that, plus simply having more waking hours in which to eat
+[@capers2015]. So hold
+leptin/ghrelin as a discounted mechanism, never a demonstrated one; the extra eating is real,
+its hormonal explanation is not.
 
-Restriction **reliably raised food intake**; sleep *extension* showed «inconsistent but overall
-significant effects on body weight, p = 0.02» (low heterogeneity). But the weight ledger stays open:
-restriction itself gave «no significant effect overall (p = 0.08)» on body weight, because expenditure
-rose alongside intake.
-[@capers2015]
-So **sleep is not a demonstrated weight-loss lever** — its firmer metabolic signal is on
-glucose, not the scale. That experimental arm *does* buy direction: it removes the pure
-reverse-causation objection the mortality and diabetes cohorts cannot answer on their own.
+The heart tells the same story, and Wang 2022 finally brings the strong check the sleep
+literature had been arguing for without. On incidence, the observational curves echo mortality —
+coronary disease is U-shaped, stroke J-shaped, per extra hour RR 1.13 (1.07-1.20)
+[@wang2022sleep]. Then Wang pools eleven
+Mendelian-randomization studies:
 
-One refinement corrects the popular story. The **leptin/ghrelin appetite-hormone axis is not the operative
-pathway**: Capers found no pooled effect of sleep restriction on **leptin (p=0.84)** or **ghrelin
-(p=0.83)**, and cites Chaput and St-Onge that «hormones such as ghrelin and leptin are not the main
-mechanism... They assert that **hedonic factors are likely stronger**.»
-[@capers2015] So the intake
-increase is real; the hormonal explanation is discounted — more likely reward-driven eating plus more
-waking hours to eat.
+- **The short arm survives.** The same genetic check that settled the mortality verdict extends to
+  the heart's own endpoints: genetically-predicted short sleep raises heart attack (OR 1.20,
+  1.12-1.28) alongside the coronary-disease and heart-failure results already shown
+  [@wang2022sleep]. Genes converge with the
+  mechanism and the Whitehall direction.
+- **The long arm gets no genetic support** — «long sleep duration has no causal associations
+  with stroke and CAD in the MR studies» [@wang2022sleep]. But the long-sleep instruments are few and underpowered, so this is
+  *insufficient evidence*, not a demonstrated null.
 
-One caveat on where the independence lies: **Shan is not a fully independent witness** to Cappuccio —
-both are observational, drawing on overlapping cohorts, so Shan *refines* the short-arm case on a new
-outcome (type-F) rather than corroborating it by a wholly separate route. **Capers is the exception that
-carries the weight** precisely because it is not observational at all: its randomised trials fix the
-direction of causation by a design the cohorts cannot. That is why the experimental arm — not a third
-cohort — is what lifts the short-arm reading above association. This is all still an argument about
-*how many hours* — and the newest evidence suggests the hours may be the wrong knob.
+## When you sleep may beat how long
 
-## How regular your sleep is may matter more than how long
+Duration is only one knob. A person can sleep seven hours at ragged, drifting times, and how
+*regular* the timing is may be the bigger lever — the newly-visible one that duration-centric
+sleep advice misses entirely.
 
-Everything so far has been about *how many hours* — but the newest evidence says the hours may be the
-wrong knob. Windred 2023 measured both dimensions **objectively**, on the wrists of about 61,000 UK
-Biobank participants (wrist accelerometry over 10 million-plus hours), and put them head to head. The
-winner was not duration. Day-to-day **regularity — how consistent your sleep and wake times are night to
-night — predicted death more strongly than how many hours** you slept: top-quintile all-cause mortality
-**HR 0.70 (0.59-0.83)** for the Sleep Regularity Index versus **HR 0.76 (0.65-0.89)** for duration. And
-when duration was added on top of a regularity model, it bought nothing — «sleep duration does not explain
-significant additional variance in mortality risk beyond the variance explained by SRI scores» (nested
-likelihood-ratio test, **p=.20**). [@windred2023]
+Windred measured both dimensions objectively, by wrist accelerometry rather than self-report, in
+one cohort — roughly 61,000 UK Biobank participants — and raced them head-to-head for mortality.
+Day-to-day regularity, scored as the Sleep Regularity Index, predicted death more strongly than
+how many hours someone slept: the most-regular fifth had a hazard ratio of 0.70 (0.59-0.83)
+against the least regular, versus 0.76 (0.65-0.89) for duration
+[@windred2023]. Adding duration to a regularity model
+bought nothing — «sleep duration does not explain significant additional variance in mortality
+risk beyond the variance explained by SRI scores» (nested likelihood-ratio test, p=.20)
+[@windred2023]. Unlike the duration U, the regularity
+curve is monotonic: steadier is simply better, with no upper turn.
 
-Regularity is a **distinct knob, not a rival in a war with duration**. It is a *different exposure* — a
-circadian question of *when* you sleep, not *how much* — and it behaves differently: the risk falls
-**monotonically** as regularity improves, with none of duration's U-turn. It also looks easier to move.
-The most regular sleepers fell asleep and woke within roughly **1-hour windows**; the least regular,
-within about **3-hour** windows. As Windred put it, regularity «may also be an easier dimension to target
-through interventions» than adding hours, which is «challenging to achieve in practice».
-[@windred2023]
+This does not overturn the duration U-curve — it sits beside it. Windred's objective duration
+range is truncated, its longest quintile reaching only past 7.56 h, so it never touches the
+>9-10 h long-arm where the illness marker lives, and it confirms the short-sleep associations
+[@windred2023]. Regularity is a complementary axis for
+the person who already sleeps enough but at chaotic times — shift-adjacent schedules, social
+jetlag — not a rival that unseats how-much-sleep. The proposed mechanism is circadian
+disruption: irregular timing scatters the body's clock signals, a *when*-not-*how-much* pathway,
+held directionally because the design is correlational.
 
-But this **rests on this single cohort** — one 7-day snapshot, a 97%-white sample, correlational, and the
-headline **HR 0.70** is the fully-adjusted figure, so the true effect is bracketed (a minimally-adjusted
-model put it nearer 0.52) rather than pinned to a point. Set that against the duration lever's **27
-cohorts and 1.38 million people**. So regularity is a genuinely suggestive, possibly *stronger* knob — but
-on far thinner evidence than duration. It **adds an axis the duration-centric guidelines miss** rather
-than overturning them (Windred's own longest sleepers only exceeded 7.56 hours, never reaching the
-long-sleep illness-marker range, so no clash arises). Treat both as real, actionable levers.
+Two things keep this a candidate lever rather than a settled one. The finding rests on this
+single cohort, correlational, with no trial yet raising regularity and measuring survival — so
+it ranks below the established sleep levers. But it is concrete and cheap: the top fifth for
+regularity fall asleep and wake within roughly 1-hour windows most days, the bottom fifth within
+\~3-hour windows, and Windred notes regularity «may also be an easier dimension to target through
+interventions» than extending sleep, which is biologically and socially hard to do
+[@windred2023].
 
-Duration and regularity are both about keeping *healthy* sleep healthy — but a separate decision opens
-once sleep is already broken.
+## For the aging brain, target the disorder — not a duration number
 
-## Once insomnia sets in, pick the aid by its harms, not its sleep numbers
+Duration and regularity are the quantity and timing of sleep. The newest evidence points somewhere
+else entirely — at named sleep *disorders*, and at a different outcome: the aging brain. A gold
+meta-analysis of 76 longitudinal cohorts (Zhang 2025) tracked eight disorder types against four
+cognitive endpoints — Alzheimer's disease, vascular dementia, all-cause dementia, and cognitive
+decline — and the result reframes the cognition question. This is not a duration target you hit or
+miss. It is a **map of separate levers**, each with its own size and its own endpoint
+[@zhang2025sleep].
 
-Once someone *has* chronic insomnia, three aids are on the table — CBT-I, melatonin, and prescription
-hypnotics — and each is studied with a **different measure on a different design**: a standardized effect
-size from pooled trials, minutes of latency, and a hazard ratio for death. You cannot honestly line
-those up into a single "which buys the most sleep" league table. **Rank them instead by evidence type,
-durability, and harm** — and doing so inverts the usual reach, which grabs a drug first and leaves
-behaviour last. [[Sleep Aids and Insomnia Treatment]]
+Ranked by strength, the disorders that carry a real signal are:
 
-**CBT-I comes first — it is the durable, low-harm option, and the only exit from pills.** van Straten's
-meta-analysis of 87 RCTs found large effects on insomnia severity (ISI g=0.98) and smaller ones on the
-sleep clock itself — its *weakest* effect is on total sleep time (g=0.16).
-[@vanstraten2018] So CBT-I **consolidates** sleep
-and cuts the distress of insomnia rather than adding hours. Crucially, the benefit held «(similar for
-patients with or without comorbid disease, younger or older patients, using or not using sleep
-medication)» — including chronic hypnotic users, which is why it is the route *off* the drugs. It is also
-guideline first-line: «the American College of Physicians recently recommended CBTI as the initial
-treatment for all adults with insomnia».
-[@vanstraten2018]
+- **Restless-legs and other sleep-related movement disorders** — vascular dementia RR 2.53
+  (1.30-4.93), the single strongest association in the map.
+- **Excessive daytime sleepiness** — vascular dementia RR 1.85 (1.39-2.47).
+- **Obstructive sleep apnea** — Alzheimer's disease RR 1.39 (1.16-1.68).
+- **Poor sleep quality** — all-cause dementia RR 1.17 (1.03-1.32).
+- **Insomnia** — all-cause dementia RR 1.13 (1.04-1.23).
+- **Circadian-rhythm disturbance and REM-sleep behaviour disorder** — no significant association.
 
-**Melatonin is a small but benign adjunct — never a CBT-I substitute.** Ferracioli-Oda's meta-analysis of
-19 RCTs found it cut sleep-onset latency by 7.06 min (4.37-9.75) and nudged sleep quality (SMD 0.22).
-[@ferraciolioda2013] The effect is modest —
-below what benzodiazepines buy — but it shows **no tolerance** and a low-risk profile: «melatonin may have
-a role in the treatment of insomnia given its relatively benign side-effect profile». A reasonable
-low-stakes add-on, especially for timing complaints; it does not restore continuity the way CBT-I does.
+[@zhang2025sleep]
 
-**Hypnotics come last, on a harm signal held loosely.** Kripke's matched cohort found a dose-response
-**mortality** association — hazard ratios of 3.60, 4.43, and 5.32 across rising dose tiers — plus a cancer
-signal (HR 1.35). [@kripke2012] But this is a *single
-observational cohort* with **confounding by indication** live throughout: the distress and occult illness
-that prompt a prescription also raise mortality on their own, «residual confounding could not be fully
-excluded», and the lead author runs an anti-hypnotic advocacy site. So the hazard is a **decision-relevant
-harm signal, not a demonstrated causal death toll** — the association could be inflated, or masked, by who
-gets prescribed the pills.
+Two refinements sharpen the map. Insomnia's whole signal comes from **trouble falling asleep** —
+difficulty initiating sleep carried RR 1.11 (1.01-1.20), while trouble staying asleep and early waking
+were null. And the movement and daytime-sleepiness disorders load onto *vascular* dementia, which
+places them on the cerebrovascular route the fabric already counts among the cardiometabolic big rocks
+— so reducing them is partly a way of pulling the vascular rock, not a wholly separate lever
+[@zhang2025sleep].
 
-It is enough to push hypnotics to short-course, lowest-dose, last-resort use;
-it does not quantify a body count. And no hard-outcome trial shows that *treating* insomnia by any route
-lowers mortality — every benefit endpoint here is a surrogate or self-report.
+Sleep *duration* still shows a U here, but its shape depends on which endpoint you ask about. Short
+sleep (under 7 h) predicted cognitive **decline** only — RR 1.27 (1.12-1.42) — and did not reach
+dementia or Alzheimer's. Long sleep (over 8 h) did the opposite: «sleep duration > 8 h mainly elevates
+the risk of AD, dementia, and cognitive decline»
+[@zhang2025sleep]. So for dementia the U collapses
+to a one-sided rise at the long end.
 
-With the arms of the sleep curve and the aids both sorted, one question remains: where does sleep sit
-among everything else you could change?
+That long arm reads the same way it does for mortality. It
+is a **preclinical marker, not a cause**: Zhang describes long sleep as «a preclinical marker driven by
+the APOE ε4 carrier gene» [@zhang2025sleep], the
+early illness showing up as extra sleep rather than the sleep causing the illness. The same arm-level
+rule the fabric applies to mortality and diabetes applies again here, one outcome at a time: adjudicate
+the arm, not the curve [[The U-Shaped Association Artifact]]. Telling a healthy 8.5-hour sleeper to cut
+back has no evidenced benefit [[Sleep Duration and Mortality]].
 
-## Sleep ranks as a moderate lever, and the upstream nudges are unpriced
+One check runs the *right* way. If the whole map were a reporting artifact — people with early
+cognitive change misjudging their own sleep — then a cleaner instrument should weaken it. It does the
+reverse. Objectively measured insomnia carried RR 1.26 (1.15-1.40) with low heterogeneity (I2 26.1%),
+*stronger* than the self-reported pooled estimate of 1.09 and far more consistent (I2 77.7%)
+[@zhang2025sleep]. The better measurement sharpens
+the insomnia signal instead of erasing it — evidence against a pure measurement artifact on that arm
+[[Measurement Error in Dietary Assessment]].
 
-**Correcting chronic short sleep is a moderate lever** — it sits *below* the big rocks (smoking, visceral
-adiposity, near-total inactivity) and *above* most dietary refinements. [[Sleep Duration and Mortality]]
+Hold the grade honestly. Every estimate here is observational and heterogeneity is high; the authors
+tested for publication bias and found it for some outcomes — sleep-disordered breathing on Alzheimer's
+carried Egger's p=0.001 — while a trim-and-fill left the pooled estimates unchanged
+[@zhang2025sleep].
+The map marks a sleep disorder as a candidate lever and a screening flag — a person with one sits at
+higher baseline risk [[Dementia Prevention and Modifiable Risk Factors]], [[Baseline Risk and the Relative-Absolute Split]]
+— but no trial in it tests whether *treating* the disorder actually lowers dementia incidence
+. Whether fixing broken sleep protects the brain is exactly the untested question — which
+raises the treatment question head-on: once sleep is broken, what actually works?
 
-**Regularity is a second candidate moderate lever** — most relevant to the person whose duration is
-already adequate, where keeping bed and wake times consistent is the knob still worth turning.
-[[Sleep Regularity and Mortality]]
+## For insomnia, start with therapy, not pills
 
-**Both fade to a pebble once you already sleep enough at regular times** — the big sleep gains are then
-already banked, and further optimising here is low-yield.
+Three treatments answer that question, and the honest ranking runs opposite to how most people reach
+for them — drug first, behaviour last. The order that follows the evidence is set by **type,
+durability, and harm**, not by the effect size on any single sleep number.
 
-**The upstream nudges are unpriced.** Light exposure, schedule consistency, caffeine timing, late meals,
-evening exertion, and stress are plausible knobs on sleep — but the held evidence carries **no magnitude**
-for any of them. Name them as candidate levers; assign no number. These are named gaps, not quantified
-recommendations.
+**Cognitive behavioural therapy for insomnia (CBT-I) comes first.** A meta-analysis of 87 randomized
+trials found large effects on insomnia severity (ISI g=0.98) and sleep-onset latency (g=0.57), and its
+*smallest* effect on total sleep time (g=0.16) — CBT-I consolidates sleep rather than adding hours
+[@vanstraten2018]. Two properties earn it the top slot.
+It holds up across patients — «quite robust (similar for patients with or without comorbid disease,
+younger or older patients, using or not using sleep medication)»
+[@vanstraten2018] — so it works even for chronic
+hypnotic users, which makes it the exit route from pills. And it is guideline first-line: «the American
+College of Physicians recently recommended CBTI as the initial treatment for all adults with insomnia»
+[@vanstraten2018].
 
-## What the evidence still cannot tell you
+**Prescription hypnotics buy real sedation against a real harm flag.** A matched cohort found a
+dose-dependent mortality signal (hazard ratios rising from 3.6 to 5.3 across dose tiers) plus a cancer
+signal (HR 1.35) [@kripke2012]. But this is one observational
+cohort, and the live confounder is confounding by indication — the distress and occult illness behind
+a hypnotic prescription independently raise mortality. So the hazard is a **decision-relevant harm
+flag, not a demonstrated death toll**, which moves hypnotics to a short-course,
+lowest-effective-dose, last-resort role.
 
-- **Sleep quality and architecture at equal hours.** No held actigraphy or PSG cohort links fragmentation,
-  wake-after-sleep-onset, or slow-wave/REM architecture to hard outcomes at matched total sleep time — so
-  whether *broken* seven hours differs from *consolidated* seven hours is from mechanism, not
-  evidenced here.
-- **Whether the upstream nudges actually move outcomes.** No light/circadian systematic review and no
-  exercise-to-sleep meta-analysis is held; the upstream knobs above are candidate levers of unknown size.
-- **Chronotype and social jetlag.** No Mendelian-randomization or short-sleeper-variant review is held, so
-  the genetics of "when" you sleep, and the cost of a weekday-weekend shift, are open.
-- **An objective-measurement dose-response.** Yin 2017's per-hour spline now resolves the *shape* — the
-  short-arm penalty concentrates below \~5 h, closing the pooled-and-flat gap (above) — but its exposure is
-  still self-reported. A device-measured (actigraphy) duration-mortality curve, and a second guidance
-  family (e.g. AASM), remain open. [[Sleep Duration and Mortality]]
+**Melatonin is small but benign.** It cut sleep-onset latency by about 7 minutes and raised total
+sleep time by roughly 8 [@ferraciolioda2013] — a
+modest effect. It earns a place anyway because it shows no tolerance and a «relatively benign
+side-effect profile» [@ferraciolioda2013], making
+it a low-stakes adjunct, especially for timing complaints, never a substitute for CBT-I.
 
-## The bottom line
+So do drugs give real sleep? CBT-I restores continuity and efficiency; melatonin nudges timing;
+hypnotics produce drugged sedation whose long-run safety is unestablished — three different things, not
+interchangeable routes to one outcome. (Sedating antihistamines, the other
+over-the-counter reach, are a named gap — no systematic review is held.) Apnea is the remaining
+treatable sleep disorder, and it is the sharpest lesson in why fixing a symptom is not the same as
+changing an outcome.
 
-- **If you chronically sleep under \~7 h (especially under 5), moving toward the \~7-8 h reference is a real,
-  moderate lever** — firmest on glucose/T2D and mortality, and worth genuine effort.
-- **If you regularly sleep 8+ h and wake unrefreshed, look for an underlying condition — do not set the
-  alarm earlier.** Cutting a long sleeper's sleep treats a symptom, not a cause.
-- **Keep your sleep and wake times consistent** (roughly hour-wide windows) — a low-cost knob the
-  duration advice misses; promising, but resting on one cohort.
-- **If you already sleep enough at regular times, stop optimising here** — the remaining sleep gains are
-  small; spend the effort on the bigger levers.
-- **For chronic insomnia, the usual order is backwards: CBT-I first** (it is the exit from pills),
-  melatonin a benign adjunct, hypnotics only short-course, lowest-dose, and last.
+## Treat sleep apnea for its symptoms, not to prevent heart attacks
 
-## Mandatory caveats
+Sleep apnea tracks with cardiovascular disease in observational data, and CPAP -- the mask that
+splints the airway open each night -- is the standard fix. The obvious hope is that fixing the
+breathing fixes the heart. Pooled trials say it does not. Yu's meta-analysis of 10 randomized trials
+(7,266 adults) found positive airway pressure left hard cardiovascular events flat: major adverse
+cardiovascular events RR 0.77 (95% CI 0.53-1.13, not significant), all-cause death 1.13. Even the one
+cardiovascular surrogate the trials measured, systolic blood pressure, did not move (-0.20 mm Hg, 95%
+CI -2.29 to 1.89). [@yu2017cpap] That null
+surrogate is the mechanism of the null outcome -- the pressure never fell, so the events it was
+supposed to prevent never budged.
 
-- **The exposure is mostly self-reported.** Sleep duration in Cappuccio and Shan is self-reported and
-  single-timepoint — the same instrument problem as [[Measurement Error in Dietary Assessment]]. Windred's
-  wrist accelerometry is the one objective-measurement exception.
-- **Coherence, not validity.** The associations are what the cohorts report; the causal split between the
-  two arms is a mechanistic argument, not a settled fact. No hard-outcome trial shows that *treating*
-  insomnia lowers mortality — every aid endpoint here is a surrogate or self-report.
-- **Thin in places.** Duration rests on a single guidance family (no second body held); the regularity and
-  hypnotic-harm legs each rest on one cohort. Confidence: **medium** for the duration, metabolic, and aid
-  findings; **low** for regularity.
+What the mask does buy is real, and sits on a different axis. Daytime sleepiness eases (Epworth -1.92
+points), and disease-specific quality of life, mood, and depression scores all improve. [@yu2017cpap] These are patient-important outcomes in their
+own right, and reason enough to treat a symptomatic person. They are simply not heart-attack
+prevention.
+
+One caveat keeps the null honest. CPAP adherence in these trials was low -- nightly use averaged 1.4
+to 6.6 hours -- so this is an *average-adherence* null, not a *high-adherence* one. [@yu2017cpap] Whether someone who wears the mask all night, every
+night, for years would see a cardiovascular benefit is genuinely unknown: insufficient evidence, not
+a refutation. The honest reading holds both halves -- no benefit at the adherence people actually
+manage, and an open question at the adherence they rarely reach.
+
+A different kind of lever attacks the apnea at its source. Most obstructive sleep apnea is driven by
+obesity, and the SURMOUNT-OSA trials (Malhotra) tested weekly tirzepatide -- a weight-loss drug -- in
+people with moderate-to-severe apnea and obesity. It cut the apnea-hypopnea index (AHI, the
+events-per-hour severity score) by roughly half, measured off the machine, and moved the very
+surrogates CPAP left flat: systolic blood pressure fell 3.7 to 7.6 mm Hg, and inflammation (hsCRP)
+dropped as well. [@malhotra2024surmount]
+
+But moving a surrogate is not preventing an event, and the caution that punctured CPAP binds
+tirzepatide too. AHI, blood pressure, and CRP are all markers; neither trial measured heart attacks,
+strokes, or deaths, and the outcome trial (SURMOUNT-MMO) is still running. [@malhotra2024surmount] So the hard-outcome question is unproven for both the mask and the
+drug, and a surrogate advantage over CPAP is not a demonstrated outcome advantage -> [[Surrogate Outcomes]].
+
+The decision this leaves is clean. Do not treat sleep apnea in order to prevent a heart attack or
+death -- that expectation is not supported for either the mask or the drug. Treat it to relieve the
+symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
+through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
+
+## Rank sleep honestly, and act on the arms that hold
+
+Where does sleep rank among the levers? Below the biggest rocks. A person who smokes, carries excess
+weight, or barely moves gains far more by pulling those first, and for someone already sleeping seven
+or eight regular hours the remaining sleep gains are small. But for two strata sleep is a genuine big
+rock, not a refinement: the chronic short sleeper, and the person whose sleep-wake timing swings
+widely from day to day. A candidate third arm -- the map of sleep disorders onto cognitive decline --
+is real but still association-grade, with no trial yet showing that treating a disorder prevents
+dementia. -> [[Dementia Prevention and Modifiable Risk Factors]], [[Sleep Regularity and Mortality]]
+
+The everyday sleep-hygiene advice reaches for more -- a consistent light and circadian schedule,
+exercise to deepen sleep, protecting enough time in bed, avoiding late meals, timing caffeine. Each
+is plausible, but none is yet backed by the systematic-review evidence this deliverable is built on.
+They are candidate levers, named honestly as gaps rather than graded recommendations. Two the wiki
+treats elsewhere: late-evening eating on [[Meal Timing and Fasting]], and caffeine timing on [[Coffee Consumption and Health]].
+
+Several questions a careful reader will ask, this evidence base cannot yet answer, and naming them is
+part of the answer. Whether sleep quality, architecture, or within-night continuity change hard
+outcomes at the *same* total hours is not held. A systematic review of light and circadian
+scheduling, and a meta-analysis of exercise's effect on sleep, are not held. Nor is a
+Mendelian-randomization test of chronotype genetics or social jetlag. And whether treating a sleep
+problem lowers dementia incidence -- CBT-I or CPAP measured against cognitive outcomes -- is the open
+interventional question the association map most needs. The nearest landmark, an
+updated review of sleep problems and cognitive decline, is not yet held.
+
+So the honest close is not a single number to hit. If you sleep too little, move toward seven or
+eight hours -- that arm is causal, and the gain is real. If your nights land at wildly different
+times, steady them; the fix is cheap and the signal is strong. And if you already sleep enough, on a
+regular schedule, this is a lever you have largely pulled -- the questions that remain are open, not
+urgent, and your attention is better spent on the bigger rocks.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?' |
-> | **Evidence included** | 9 sources — 5 gold, 3 high, 1 moderate |
+> | **Evidence included** | 13 sources — 8 gold, 4 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-18 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
 
 ## References

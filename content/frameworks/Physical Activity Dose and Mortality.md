@@ -19,9 +19,10 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Weekend Warrior Activity Pattern and Mortality
 created: 2026-07-27
-updated: 2026-09-01
-self_critiqued: 2026-08-29
+updated: 2026-09-03
+self_critiqued: 2026-09-03
 ---
+<div class="recent-update" data-last-updated="2026-09-03">
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
 device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
@@ -50,10 +51,13 @@ objectively-measured *fitness* has **no plateau** where self-reported activity d
 -> [[Cardiorespiratory Fitness and Mortality]]. Two different objective instruments (hip accelerometer;
 maximal exercise test), two non-overlapping author groups, converging on *self-report attenuates the
 true gradient* — a genuine `[E-independent]` corroboration of the measurement reading (not of any single
-effect size). An RCT-grade mortality outcome is still owed.
+effect size — and the Mandsager leg, being *fitness* not activity, is consistent-with rather than an
+independent confirmation of the *activity*-attenuation reading specifically, since fitness != activity;
+leg 1's own device-vs-self-report 2x gap is what directly carries that claim). An RCT-grade mortality
+outcome is still owed.
 [inferred from @ekelundacc2019; @mandsager2018]
 
-
+</div>
 
 ## The decision this page changes
 
@@ -245,6 +249,8 @@ persist»); there is no MR/genetic instrument, so this is the *weak* adjudicatio
 artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
 sitting sections).
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
 **Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
@@ -264,7 +270,7 @@ decreasing to a plateau (p-nonlinearity <0.0001), same as the MVPA curve.
 age x steps interaction is significant (p=0.012): **older adults (>=60) reach the plateau LOWER
 (\~6000-8000 steps) than younger adults (\~8000-10 000)** — the sex interaction is not (p=0.11). Because
 this is *positive interaction evidence*, stratifying the step target by age clears the higher route-(b)
-bar (per [[Transportability and Effect Modification]] / the five-routes table), not only the route-(a)
+bar (per transportability and effect modification / the five-routes table), not only the route-(a)
 absolute-benefit scaling. Decision-change: an older adult can bank the mortality plateau at a lower step
 count than the number a younger adult should aim for.
 
@@ -284,6 +290,8 @@ Peak-30/60-min stepping rate stayed significant after adjusting for volume, but 
 cadence did not — total steps carry the signal, so *count the steps, don't chase the pace*. Reverse
 causation handled by the weak check (effect stronger at <6 y follow-up, HR 0.32, vs >=6 y, 0.57 — a
 sick-quitter tell — but the 2-year exclusion left it significant).
+
+</div>
 
 ## These three metrics are NOT interchangeable numbers — a same-quantity check
 
@@ -306,8 +314,6 @@ different exposures, referents and measurement instruments). Use steps for a wea
 minutes for a guideline-aligned target, and the sitting interaction for the offset question — do not
 convert between their hazard ratios.
 [inferred from @ekelundacc2019; @paluch2022; @ekelundsitting2016]
-
-<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Strength training — a real independent association, never ranked above aerobic
 
@@ -340,8 +346,6 @@ recommendations)»* — which looks opposed to Stamatakis. It is not: **Siahpush
 smokers**, Stamatakis pools 11 general-population cohorts. Different population, consistent once
 matched. Recorded here so the apparent clash is not re-filed later as a *tension*.
 [@who2020]
-
-</div>
 
 ## Sedentary time is a separate exposure with its own thresholds
 

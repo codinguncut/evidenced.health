@@ -3,13 +3,13 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna]
-sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Whole Grain Mortality 2016, Aune - Nut Consumption Mortality 2016, Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Petroski - Antinutrients Narrative Review 2020, WHO - Sugars Intake 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Afshin - Health Effects of Dietary Risks GBD 2019, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023]
+authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna; Peng, Yinshun; Zhou, Yuhan]
+sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, NNR - Nordic Nutrition Recommendations 2023, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-31
-self_critiqued: 2026-08-31
-concrete_subject_audited: 2026-08-31
+updated: 2026-09-04
+self_critiqued: 2026-09-04
+concrete_subject_audited: 2026-09-04
 ---
 
 **Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
@@ -82,7 +82,7 @@ real feature. Such an arm has to survive an artifact check before it earns a pla
 With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
 and where it simply cannot single out any one food.
 
-<div class="recent-update" data-last-updated="2026-08-31">
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## What each plant group does, outcome by outcome
 
@@ -144,6 +144,28 @@ favourite fruit — where the data can individuate at all, they point at leafy g
 State any fruit target as **whole fruit**. The free-sugars limit excludes intrinsic whole-fruit sugar
 but includes fruit juice, so a fruit recommendation and a sugar recommendation are about different things
 ([[Free Sugars Intake]]).
+
+#### Cognition — a weaker, observational arm
+
+Beyond the cardiovascular and cancer endpoints, a separate observational line links fruit and vegetables
+to lower cognitive-disorder risk in older adults. Zhou's 2022 meta-analysis of 16 observational studies
+found that «a high intake of fruits and vegetables was associated with a declined in the prevalence of
+cognitive disorders (OR: 0.82, 95% CI: 0.75–0.90)»
+[@zhou2022fruit], with modest
+heterogeneity (I2 35.3%). A flavonoid meta-analysis reads the same signal at the component altitude:
+higher dietary flavonoid intake tracks «lower risk of adverse cognitive events (pooled OR = 0.90,
+95% CI: 0.83–0.98, P = 0.01)» [@peng2025flavonoid].
+
+These are **not two independent lines** confirming a plant-to-brain benefit. Flavonoids are a component
+*of* fruit and vegetables, so the flavonoid result is the component-side of Zhou's whole-food signal —
+the same observational, self-reported, healthy-user signal at two altitudes. So the food-vs-component
+question stays open: is it the flavonoid, the whole matrix, or confounding by an overall healthy diet?
+ -> [[Is the Food Category Doing Any Work]]. Both arms are
+measurement-error-laden and modest, and both fade at the hard diagnosis — Alzheimer's disease is null in
+each (Zhou OR 0.88, 0.76–1.01; flavonoids OR 0.90, 0.69–1.17), and flavonoid dementia is null too (OR
+0.97, 0.79–1.19) [@zhou2022fruit],
+[@peng2025flavonoid]. Read this as a low-certainty
+candidate lever, not a demonstrated cognitive benefit -> [[Dementia Prevention and Modifiable Risk Factors]].
 
 ### Whole versus refined grain
 
@@ -427,7 +449,7 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
-<div class="recent-update" data-last-updated="2026-08-31">
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## What to do
 
@@ -455,10 +477,10 @@ event benefit.
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 17 sources — 13 gold, 2 high, 1 moderate |
+> | **Evidence included** | 19 sources — 15 gold, 2 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
 
 </div>
 

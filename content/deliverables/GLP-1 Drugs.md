@@ -3,13 +3,13 @@ type: deliverable
 title: GLP-1 Drugs
 question: 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?'
 aliases: [GLP-1 Receptor Agonists for Weight, Semaglutide, Tirzepatide, Ozempic, Wegovy, Mounjaro, Zepbound, Weight Loss Drugs, GLP-1 Agonists]
-authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Yang, Kaijie; Laverde, Ligia Patricia; Sumithran, Priya; Sjöström, Lars; Nong, Kailei]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, Sjostrom - SOS Bariatric Surgery Mortality 2007, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
+authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Yang, Kaijie; Laverde, Ligia Patricia; Sumithran, Priya; Sjöström, Lars; Nong, Kailei; Kuate Defo, Alvin]
+sources: [Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
 confidence: medium
 created: 2026-08-17
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-04
+self_critiqued: 2026-09-04
+concrete_subject_audited: 2026-09-04
 ---
 
 > [!warning]
@@ -415,6 +415,8 @@ on weight alone.
 
 Muscle is the cost you can mitigate; the next set is the cost ledger you weigh directly.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## The safety ledger: what to actually worry about
 
 Read every entry below on two axes at once, because the umbrella grades them on two axes that
@@ -487,6 +489,25 @@ calls them hypothesis-generating, and none licenses a recommendation — they be
 directionally protective blanks being watched, not as established effects.
 [@yang2026]
 
+A second gold umbrella sharpens why *if real* is the right posture on the dementia signal, by showing
+it is not specific to these drugs. Kuate Defo's umbrella review and meta-analysis of antidiabetic
+classes against dementia (100 reviews plus 27 cohort/case-control studies, N=3,046,661) found GLP-1
+receptor agonists associated with reduced dementia risk, RR 0.35 (0.16-0.78) — but so were metformin,
+the thiazolidinediones/pioglitazone, and SGLT2 inhibitors, while DPP-4 inhibitors,
+alpha-glucosidase inhibitors and insulin were null and meglitinides and sulphonylureas ran the
+*other* way, toward increased risk
+[@kuatedefo2023]. A protective signal
+shared across several unrelated classes that all improve glycaemia, and reversed by the ones prone to
+hypoglycaemia, points at glycemic control or confounding by indication rather than anything
+GLP-1-specific — and the estimate carries near-total heterogeneity (I2 = 98.5%), with even metformin's
+own signal holding only in Western, not Eastern, populations
+[@kuatedefo2023]. This is also not a
+second independent line: both umbrellas pool the same observational pharmacoepidemiology (confounding
+by indication, channeling, prevalent-user bias), so they share primary cohorts and cannot
+cross-confirm. At most it refines Yang's signal with drug-class context; the dementia entry stays a
+watched protective blank, not a demonstrated GLP-1 benefit.
+[inferred from @kuatedefo2023]
+
 Two facts make any version of this ledger provisional. The first is mechanical fragility: in
 leave-one-trial-out reanalysis, the direction of effect flipped in roughly 9 of 39 outcomes and
 statistical significance was lost in 6 of 39 after removing a single trial
@@ -509,6 +530,8 @@ causally-unsettled (pancreatitis); and the protective signals are real enough to
 to promise. [inferred from @yang2026]
 
 Every number above assumes the drug is still being taken — which raises the question the trials mostly did not answer: what happens when you stop.
+
+</div>
 
 ## Stopping the drug gives the weight back — and the benefit with it
 
@@ -647,6 +670,8 @@ ordinary mitigations for any large deficit — lower the functional
 cost without touching the weight benefit -> [[GLP-1 and Lean Mass]]
 .
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Weigh the trade-off yourself — the health axis and beyond
 
 The evidence names what the drug moves; it does not tell you how to price weight loss
@@ -660,9 +685,11 @@ the directions and the certainties.
 > | | |
 > |---|---|
 > | **Question** | 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?' |
-> | **Evidence included** | 10 sources — 2 gold, 8 high |
+> | **Evidence included** | 11 sources — 3 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+
+</div>
 
 ## References

@@ -2,14 +2,14 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen; Bryazka, Dana; GBD 2020 Alcohol Collaborators (org)]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019, Bryazka - Alcohol Population-Level Risks GBD 2022]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen; Bryazka, Dana; GBD 2020 Alcohol Collaborators (org); Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019, Bryazka - Alcohol Population-Level Risks GBD 2022, Xu - Alcohol Consumption Dementia 2017]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -215,6 +215,8 @@ still-open sodium J-hypothesis -> [[Sodium Intake and Blood Pressure]], [[The U-
 
 
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Second outcome — dementia, and the same J-curve artifact replicates
 
 Excessive alcohol is one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]], and the dementia literature reproduces this page's verdict on a new outcome. Heavy midlife
@@ -228,6 +230,48 @@ dissolved the mortality J-curve dissolves the dementia one -> [[The U-Shaped Ass
 a second outcome reaching the *same* conclusion by a *different* literature (dementia cohorts + AD-MR), not
 a restatement.
 
+### The dementia dose-response, first-hand — the J-curve quantified, and its protective arm UNADJUDICATED at source `[2026-09-04, Xu]`
+
+Livingston's dementia verdict above is qualitative and secondhand. Xu 2017 supplies the **first-hand
+dose-response** — a gold MA of **11 prospective cohorts, 73,330 participants, 4586 all-cause-dementia
+(ACD) cases** (NOS>=8), a dedicated dose-response study of the alcohol -> dementia curve (the
+Commission's own HR 1.22 harm cell traces to a separate Whitehall IPD, not to Xu). It draws the exact
+J-curve Livingston describes:
+
+- **The shape (ACD, p_nonlinearity < 0.05):** a protective lower range of «0 and 7.5 drinks/week
+  (Fig. 3a) or 12.5 g/day», **nadir RR \~= 0.9** at roughly 6 g/day / 4 drinks/week, and a **harm knee
+  above 23 drinks/week or 38 g/day**. [@xu2017alcohol]
+  Studied-range honesty: the nadir and harm knee are **interior spline features read off Fig. 3b's
+  confidence band — the nadir RR \~0.9 is NOT tabulated with a numeric CI**, so it is a curve feature,
+  not a precise point estimate, and the g/day arm leans on a single unit-native cohort plus
+  drinks->grams conversion.
+- **Protection is wine-only** — «current drinker (RR 0.67; 95% CI 0.48-0.94) or light-to-moderate
+  drinker (RR 0.58; 95% CI 0.39-0.87)» for wine, while beer highest-vs-lowest is *elevated* (RR 1.84,
+  1.01-3.34) and liquor is null. [@xu2017alcohol]
+  A benefit confined to the health-conscious drinker's beverage is the healthy-user signature, not an
+  ethanol dose-response — and the resveratrol/polyphenol rescue Xu offers is the one the held Semba
+  biomarker null already refutes (above).
+
+**The protective arm is UNADJUDICATED — Xu ran only the WEAK checks and concedes every strong-check
+gap [inferred from @xu2017alcohol].** This is what the first-hand source adds
+over the secondhand cell: the dose-response referent is the sick-quitter-contaminated «lowest
+category» (mostly abstainers), and Xu concedes «we cannot exclude the potential inﬂuences of including
+former drinkers, who may quit drinking due to underlying diseases and have a high risk of dementia, in
+the reference group»; **no referent-correction and no Mendelian randomization** were run — Xu names the
+missing check outright («warrants further validation using more advanced approach, such as Mendelian
+randomization») — plus conceded residual confounding and self-report misclassification. [EXTRACTED
+(Xu - Alcohol Consumption Dementia 2017) chunk 01] So at the **primary-source** level the dementia
+protective arm has cleared only the checks the mortality J-curve also survived before referent-
+correction + MR removed it; it is the held **AD-MR** (Livingston, above) that supplies the strong check
+adjudicating it as artifact, not Xu. The **harm arm (>38 g/day)** is the causally coherent half —
+vascular/hypertensive-mediated, consistent with this page's stroke/BP verdict.
+
+**Type-F, not independent-E.** Xu is a single observational dose-response MA on the same cohort
+literature and the same sick-quitter/reverse-causation machinery as the mortality instances — a
+cross-outcome worked case, not a second independent witness; it does not lift the page's
+`[E-independent]` convergence (Stockwell || Millwood). [inferred from @xu2017alcohol]
+
+</div>
 
 ## Third outcome — cancer, and here there is *no safe threshold*
 

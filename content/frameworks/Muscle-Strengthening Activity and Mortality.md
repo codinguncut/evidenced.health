@@ -19,7 +19,6 @@ created: 2026-07-29
 updated: 2026-09-01
 self_critiqued: 2026-09-01
 ---
-<div class="recent-update" data-last-updated="2026-09-01">
 
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
 **independently of aerobic activity**, and it does so at a **small dose**. Three meta-analyses now
@@ -39,11 +38,6 @@ a reversal (see the cross-source table below).
 
 
 [@momma2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The effects — modest, broad, and independent of aerobic exercise
 
 Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activities»:
@@ -64,11 +58,6 @@ is a refinement, not an [E-independent] convergence.
 
 
 [@saeidifard2019]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Saeidifard 2019 — the second MA, endpoint-resolved and mortality-specific
 
 Saeidifard is a SR-MA of «11 (one randomized trial and 10 cohort studies)... totaling 370,256
@@ -112,11 +101,6 @@ resistance training and survival has a U-shape curve.» This is a second-source 
 
 
 [@shailendra2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Shailendra 2022 — the third MA: a larger cancer pool and a minutes/week dose curve
 
 Shailendra is the mortality-specific update of Saeidifard: a SR-MA of **10 prospective cohort studies**
@@ -169,11 +153,6 @@ constraint is *why* only 4 of 10 studies could enter the dose-response, and it c
 
 
 [inferred from @momma2022; @saeidifard2019; @shailendra2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The three MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
 
 The op-weave parameter table, with the same-quantity column doing the work:
@@ -215,9 +194,6 @@ finding re-pooled. No `[E-independent]` stamp — the cluster stays `low`.
 
 
 [@momma2022]
-
-</div>
-
 ## The dose — small, and a J-shape whose upper arm should not be believed yet
 
 The dose-response is the interesting part, and it is a worked case for
@@ -333,8 +309,6 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 [inferred from @momma2022]
 
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Why the diabetes curve is clean but the mortality curve is not (deliverable-critique, 2026-08-01)
 
 A reasonable puzzle (deliverable-critique): how can the diabetes dose-response be clean and L-shaped while
@@ -352,7 +326,5 @@ shapes differ, neither implying inertness:
 
 So *clean diabetes, noisy mortality* is the expected shape of a diluted, surrogate-mediated distal outcome,
 not evidence the channel does nothing.
-
-</div>
 
 ## References

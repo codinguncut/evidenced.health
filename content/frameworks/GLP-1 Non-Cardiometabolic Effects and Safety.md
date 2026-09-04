@@ -3,7 +3,7 @@ type: framework
 question: For someone taking a GLP-1 receptor agonist, which non-cardiometabolic outcomes does it move, in which direction, and how credible is each signal?
 aliases: [GLP-1 Adverse Events, GLP-1 Safety Ledger, GLP-1 Noncardiometabolic Outcomes, Semaglutide Side Effects, GLP-1 Harm Ledger, GLP-1 Cancer Risk, GLP-1 Pancreatitis, GLP-1 Thyroid]
 authors: [Yang, Kaijie; Liu, Changyuan; Guo, Qiqiang; Li, Yongze]
-sources: [Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
+sources: [Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Kuate Defo - Diabetes Medications Dementia Umbrella 2023]
 cluster: glp1
 nucleus: true
 confidence: medium
@@ -17,8 +17,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - The U-Shaped Association Artifact
 created: 2026-08-04
-updated: 2026-08-06
-self_critiqued: 2026-08-04
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 ---
 
 The cardiovascular and weight case for GLP-1 receptor agonists (GLP-1 RAs) lives on
@@ -110,6 +110,8 @@ short-to-medium trials is not a long-latency all-clear).
 
 
 [@yang2026]
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## The surprising protective signals — suggestive, not confirmed
 
 Several *off-target benefits* appear, all below the stringent bar and all needing confirmation, but
@@ -132,8 +134,22 @@ class-I (convincing) association among the review's highlighted (main-text) outc
 explicit these are «hypothesis-generating» — but they belong in the ledger as *directionally protective*,
 not as unmeasured blanks.
 
+**The dementia signal has a second, consistent reading — but NOT an independent one.** A separate
+antidiabetic-umbrella (Kuate Defo 2023) pooled 3 observational studies for GLP-1 RA vs no-use and found
+incident-dementia **RR 0.35 (0.16-0.78)** [@kuatedefo2023],
+same direction and a larger point effect than Yang's 0.55. This is corroboration of *direction*, not
+independent backing: both are observational umbrellas, both draw on overlapping registry cohorts
+(Wium-Andersen, Nørgaard), and both carry heavy confounding by indication (GLP-1 RA users are a
+selected, later-generation, better-managed stratum) — so the convergence raises the *prior* the effect
+is real without lifting it past the low-certainty / hypothesis-generating bar. The dementia cell stays
+suggestive-not-confirmed on both readings -> [[Dementia Prevention and Modifiable Risk Factors]] holds
+the full drug-class split.
+
 
 [@yang2026]
+
+</div>
+
 ## The unsettled middle: gallbladder, pancreatitis, GERD, thyroid disease
 
 These are the outcomes with real regulatory attention that **failed the stringent credibility bar** — but

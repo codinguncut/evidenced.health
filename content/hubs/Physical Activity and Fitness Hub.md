@@ -10,8 +10,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 *strength, resistance-training, muscle, and falls* side moved to
 [[Musculoskeletal Health and Physical Function Hub]]. Nucleus: [[Cardiorespiratory Fitness and Mortality]].
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Aerobic activity and sedentary time — dose and mortality
 
 - [[Physical Activity Dose and Mortality]] — the objective-measured dose-response (accelerometry removes
@@ -35,8 +33,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   NULL: pooled across 10 prospective studies (1.4M women) night shift work shows no meaningful effect on
   breast cancer (RR 0.99, 0.95-1.03), overturning a case-control-driven prior and the IARC 2A *probable
   carcinogen* reading (MEDIUM confidence; a symmetric-standards counterweight)
-
-</div>
 
 ## Cardiorespiratory fitness — marker and lever
 

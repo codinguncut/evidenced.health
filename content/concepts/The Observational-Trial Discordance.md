@@ -7,8 +7,8 @@ sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-30
-self_critiqued: 2026-08-29
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - Food Groups and Health Outcomes - A Dose-Response Matrix
@@ -39,6 +39,8 @@ the reason is the single most useful thing this pattern teaches: **the two evide
 not estimating the same exposure.** The discordance is a *diagnostic signal to check
 exposure-commensurability*, not a verdict for the trial.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## The pattern is real — three worked instances
 
  — the values below are as established on each linked page; the cross-instance structure is
@@ -51,7 +53,7 @@ this page's.
 | **Mediterranean diet** | CVD/mortality graded *convincing* observationally | pooled whole-diet RCTs mostly null **except diabetes**; the one whole-PATTERN RCT (PREDIMED) moved events, while single-nutrient RCTs (the 54-RCT SFA-events null, Look AHEAD) did not | the RCT that tested the RIGHT exposure (the whole pattern) AGREES; the "null RCTs" tested a DIFFERENT exposure (single nutrients) -> [[Mediterranean Diet and Cardiovascular Events]] |
 | **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
 | **Total dietary fat** `[2026-08-25]` | diet-heart-era observational/ecological signal that *total*-fat intake raises CHD | WHI DM Trial — the largest low-fat-pattern RCT (n=48,835) — **null**: CHD HR 0.97 (0.90-1.06), stroke 1.02, CVD 0.98 | the RCT tested a **DIFFERENT exposure** (total-fat *quantity* cut, fat->carbohydrate, no weight loss) than the causal lever (fat *quality* / protective-food pattern), under a **diluted contrast** (achieved \~70% of design separation, arm rebounded 24->29%E) and **\~40% power** for an LDL change predicted to move CVD only 2-4%. A wrong-exposure + underpowered null, not a no-effect null — the authors say so -> [[Low-Fat Dietary Pattern and Cardiovascular Disease]] |
-| **Hearing aids -> cognition** `[2026-08-28]` | 8-cohort pool HR 0.81 (0.76-0.87), I2=0% — a 19% lower cognitive-decline hazard among hearing-aid users vs uncorrected hearing loss (Yeo 2023) | ACHIEVE RCT (N=977): **null overall** on 3-year cognition; a 48% reduction only in a pre-specified high-baseline-risk (ARIC) subgroup — and Yeo's search predates the trial | the mechanism is **healthy-user self-selection in the intervention arm** (device users are healthier, more motivated, better-resourced) — mechanism #3 — so randomization erases the average effect; it survives only where **absolute baseline risk** is high enough to show one (baseline-risk heterogeneity, not effect modification). A confounded-observational + baseline-risk resolution, not a wrong-exposure one -> [[Hearing Loss and Dementia]] |
+| **Hearing aids -> cognition** `[2026-08-28; ACHIEVE first-hand 2026-09-04]` | 8-cohort pool HR 0.81 (0.76-0.87), I2=0% — a 19% lower cognitive-decline hazard among hearing-aid users vs uncorrected hearing loss (Yeo 2023) | ACHIEVE RCT (N=977, first-hand): **null overall** on the continuous 3-year cognition slope (diff 0.002 SD [-0.077 to 0.081], p=0.96); a pre-specified 48% subgroup reduction only in the higher-risk ARIC arm (pinteraction=0.010, lenient alpha<0.10) — Lin/ACHIEVE first-hand, loci on [[Hearing Loss and Dementia]] | **healthy-user self-selection in the intervention arm** (mechanism #3) erases the average effect; a signal survives only where **absolute baseline risk** is high (ARIC). But match quantities first: the overall null is on a *continuous slope* Yeo never estimated, and on the commensurable incidence-HR quantity ACHIEVE (0.90 [0.61-1.33]) *includes* Yeo's 0.81/0.83 — so the RCT is underpowered there, not contradicting. The subgroup interaction is route-(b)-form but hypothesis-generating (contamination: de-novo control drop-in 19.4% vs 7.8%). A confounded-observational + baseline-risk + partly-non-commensurable resolution -> [[Hearing Loss and Dementia]] |
 | **Red meat -> T2D** `[2026-08-29]` (the UNTESTED pole) | NutriGrade "high" per-100 g association, RR 1.17 (1.08-1.26) — robust, consistent, dose-responsive across prospective cohorts (Schwingshackl 2017) | **none held in either direction** — no Mendelian-randomization and no feeding trial isolates red-meat (or heme-iron) -> T2D; the coded exposure is a decontextualized quantity, not a meal or pattern | **UNRESOLVED — held open both ways.** A robust association with *no* natural experiment to null it (as coffee's did) or confirm it (as LDL/BMI's did); healthy-user + guideline-adherence confounding stay unexcluded. Less resolved than coffee, not exonerated -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
@@ -83,6 +85,8 @@ outcomes», so the trials «make it difficult to draw definitive conclusions abo
 on health.» This corroborates the *structure* (surrogate-validity + triangulation), not an independent
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
+
+</div>
 
 ## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
 

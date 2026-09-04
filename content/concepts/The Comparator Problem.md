@@ -32,8 +32,6 @@ and the unstated default is doing the work. When a study "removes" a nutrient, t
 replaced by *something*; when a person "stops" a behaviour, the time/energy goes *somewhere*. The
 estimate is a contrast, never an absolute, so the omitted arm is a hidden premise.
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The worked instances (already source-grounded on their pages)
 
 Each restates a finding held on the linked page; the selection and framing as comparator-instances is
@@ -67,8 +65,6 @@ this page's synthesis.
   *substitution of red meat with white* — a limitation the newest source (Ramel 2023) names explicitly,
   since foods replace rather than add to a diet — so the decision that matters (swap red for white?) is
   left to imported substitution studies, not the intake analyses -> [[Poultry and White Meat Consumption]].
-
-</div>
 
 ## The failure mode it names
 

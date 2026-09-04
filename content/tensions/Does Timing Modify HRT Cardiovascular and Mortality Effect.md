@@ -17,8 +17,6 @@ created: 2026-09-01
 updated: 2026-09-01
 self_critiqued: 2026-09-01
 ---
-<div class="recent-page" data-last-updated="2026-09-01"></div>
-
 
 Orbiter-tension of [[Hormone Therapy After Menopause]] (which twice defers to "see tension" on the CHD and
 mortality rows — this is that tension). **The same question — does starting HRT earlier (age <60, or <10 y

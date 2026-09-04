@@ -2,8 +2,8 @@
 type: framework
 question: Across the anti-obesity drug class, how do the agents compare on weight loss, hard outcomes, harms and tolerability — and does the largest weight loss identify the best drug?
 aliases: [Obesity Drugs Compared, Anti-Obesity Drug Comparison, Weight Loss Drug Ranking, Obesity Pharmacotherapy Comparison, Which Obesity Drug, Obesity Drug Network Meta-Analysis, Tirzepatide vs Semaglutide, CagriSema, Obesity Drug Benefit-Harm Trade-off]
-authors: [Nong, Kailei; Shi, Qingyang; Guyatt, Gordon H; Vandvik, Per Olav; Li, Sheyu]
-sources: [Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
+authors: [Nong, Kailei; Shi, Qingyang; Guyatt, Gordon H; Vandvik, Per Olav; Li, Sheyu; Malhotra, Atul]
+sources: [Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
 cluster: glp1
 confidence: moderate
 relationships:
@@ -17,7 +17,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - The Disease Model of Obesity
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-09-03
 self_critiqued: 2026-08-22
 ---
 
@@ -134,6 +134,8 @@ benefit is largest exactly where CV risk is highest, and does not transport to a
 weight loss -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @nong2026obesity]
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Quality of life — the surrogate moved, the patient-important outcome did not
 
 Despite weight loss up to \~15%, **no drug improved quality of life beyond its minimally important
@@ -157,8 +159,9 @@ patient would notice -> [[Surrogate Outcomes]]. Two honest caveats bound how har
   so a generic scale over one year may under-read a domain-specific benefit.
 - **A disease-specific PRO can move where the generic one does not.** Tirzepatide in obesity + sleep
   apnoea improved sleep-specific PROMIS scores (impairment -3.9, disturbance -3.1) — but that trial's
-  own authors flag the MID for those scales is «not yet established», so even the positive PRO cannot be
-  called clinically important -> [@malhotra2024surmount].
+  own authors flag that the minimum clinically important changes for those scales «have not been
+  established in clinical practice yet», so even the positive PRO cannot be called clinically important
+  [@malhotra2024surmount].
 
 | Parameter | Nong NMA QoL | SURMOUNT-OSA (Malhotra) | Same quantity? |
 |---|---|---|---|
@@ -167,6 +170,8 @@ patient would notice -> [[Surrogate Outcomes]]. Two honest caveats bound how har
 | Verdict | all drugs < MID -> no clinically important gain | positive but MID-undefined | thematically convergent, not a numeric contrast |
 
 [inferred from @nong2026obesity; @malhotra2024surmount]
+
+</div>
 
 ## Lean mass — the best on weight are the worst on muscle
 

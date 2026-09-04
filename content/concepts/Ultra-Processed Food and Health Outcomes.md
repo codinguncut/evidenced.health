@@ -2,11 +2,11 @@
 type: concept
 question: Does greater exposure to ultra-processed food (Nova classification) raise the risk of patient-important outcomes — and does "ultra-processed" carry a causal effect of its own, beyond the sugar/salt/fat/energy-density it correlates with?
 aliases: [Ultra-Processed Food, UPF, Nova Classification, Ultra-Processed Diet, UPF Health Outcomes, Processed Food Health]
-authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D; Aramburu, Adolfo; Robinson, Eric; Sutton, Cassandra A; Fazzino, Tera L]
-sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023]
+authors: [Lane, Melissa M; Marx, Wolfgang; Nordic Council of Ministers (org); Hall, Kevin D; Aramburu, Adolfo; Robinson, Eric; Sutton, Cassandra A; Fazzino, Tera L; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, NNR - Nordic Nutrition Recommendations 2023, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025]
 cluster: ultra-processed
 confidence: low
-self_critiqued: 2026-08-30
+self_critiqued: 2026-09-03
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -17,8 +17,9 @@ relationships:
     - Dietary Fibre and Health
     - Layer 1 - Ranking Interventions for a Stratum
     - Hyper-Palatable Foods
+    - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-31
-updated: 2026-08-30
+updated: 2026-09-03
 ---
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
@@ -118,6 +119,138 @@ quality), much of the ranking weight may already be captured by exposures higher
 [[Layer 1 - Ranking Interventions for a Stratum]] hierarchy. *Attention is an anti-signal* applies with
 force: UPF is among the most-discussed exposures and the effect sizes are modest and confounded.
 [inferred from @lane2024upf]
+
+<div class="recent-update" data-last-updated="2026-09-03">
+
+## The cognition outcome arm — dementia and broader cognition (Henney 2023; Smith 2025) `[2026-09-03]`
+
+Lane's umbrella headlines mental-disorder outcomes (anxiety, depression, adverse sleep) but **not**
+dementia or cognitive decline. A dedicated gold SR+MA now supplies that arm — **the first** to pool the
+NOVA-UPF -> dementia association (Henney 2023; PROSPERO-registered, Newcastle-Ottawa + NutriGrade,
+**10 observational studies, 8 longitudinal, 867,316 participants**, search to Dec 2022). It lands squarely
+on this page's two-layer answer and its category-vs-composition thesis, adding no causal upgrade.
+
+- **The pooled association is significant but heterogeneity-dominated and non-graded to a dose-response.**
+  High (vs low) UPF intake -> all-cause dementia **RR 1.44 (95% CI 1.09-1.90), p=0.02, I2=97.0%**
+  [@henney2023upf]; **moderate** intake is null
+  (1.12, 0.96-1.31, p=0.13), so «we did not demonstrate a robust dose–response relationship between the
+  quantity of UPFs consumed and dementia prevalence» [@henney2023upf].
+  I2=97% means the point estimate averages a very disparate study set. Effects are **relative only** — the
+  SR reports no absolute dementia risk, so an absolute layer needs a baseline the source does not supply.
+- **Every dementia SUBTYPE is individually non-significant** — AD 1.08 (0.79-1.48), vascular 2.05
+  (0.39-10.90), MCI 2.01 (0.75-5.42), dementia-excluding-MCI 1.24 (0.93-1.65)
+  [@henney2023upf]. Only the pooled all-cause figure clears
+  significance; the arm is thinner than the headline 1.44 alone suggests.
+- **The signal attenuates on the axes this page cares about — mediation / small-study fragility.** It was
+  **lost** when restricted to studies adjusting for type 2 diabetes (1.47, 0.97-2.00, p=0.06) and total
+  energy intake (1.26, 0.95-1.67, p=0.09), while holding for BMI, CVD and SES
+  [@henney2023upf]; and it was lost at a 10,000-participant
+  sample-size cutoff — «results lose significance when performing sensitivity analysis based on a sample
+  size cut-off point of 10,000 par- ticipants» [@henney2023upf].
+  So the dementia association is consistent with running **through the cardiometabolic + total-energy
+  pathway** already implicated elsewhere in this page, and with a small-study contribution — not with a
+  clean processing-specific effect on the brain. [inferred from @henney2023upf]
+- **The NOVA-classification instability is acute here — the same [[Is the Food Category Doing Any Work]]
+  problem.** Only 1 of 10 studies directly referenced NOVA; «nine assessed various foods that were
+  retrospectively defined as ultra-pro- cessed by our research team using NOVA criteria»
+  [@henney2023upf] (Western/Southern/processed-food
+  dietary patterns, processed meats, SSBs retrofitted into NOVA4), and «Moderate intake in one population
+  may exceed high intake in another» [@henney2023upf]. The
+  pooled "UPF" exposure is reviewer-assigned and study-relative — the category is doing even less measured
+  work here than in the cardiometabolic arms. All exposures were FFQ-based («increases recall bias and
+  underreporting of true intake») [@henney2023upf]
+  -> [[Measurement Error in Dietary Assessment]].
+- **RCTs are ruled out in principle** — «RCTs assessing the association between UPFs and incident cognitive
+  impairment/dementia would be ethically unjustifiable» [@henney2023upf]
+  — so this arm, like the hard-outcome arms above, is observational-ceiling by design, not by neglect.
+
+**Net:** the cognition arm is a **broad, low-certainty observational association** (RR \~1.4 high-vs-low,
+no dose-response, subtypes null, attenuating to null on metabolic/energy adjustment) — it fits, and does
+not strengthen, this page's answer: UPF associates with a further patient-important outcome, but the
+evidence stays observational and much of it plausibly runs through nutrients and cardiometabolic disease
+already counted. The disease-side detail (where this sits among the 14 modifiable dementia levers, and
+why it is a candidate not a 15th factor) is on
+[[Dementia Prevention and Modifiable Risk Factors]].
+[inferred from @henney2023upf; @lane2024upf]
+
+### Broader cognition — beyond dementia diagnosis (Smith 2025, preprint) `[2026-09-03]`
+
+Henney pools UPF -> *dementia diagnosis*; a second SR widens the outcome to **global cognition,
+cognitive domains, cognitive impairment and cognitive-decline trajectories** — the arm Lane and Henney
+both leave open (Smith 2025; **narrative** synthesis of **five observational studies**, screened from
+383 articles). **Preprint-provisional** — extractions are from the medRxiv version (posted 2025-02-13,
+not peer-reviewed); the peer-reviewed BMJ Nutr Prev Health 2026 version is paywalled/not held and may
+differ. It **refines rather than independently corroborates** Henney (type-F): it shares the Li 2022 UK
+Biobank primary with Henney's pool and states its «results largely align with the two other systematic
+reviews in the field of UPF and cognitive health»
+[@smith2025upf] — overlapping evidence
+reaching the same place, not a disjoint second route, so confidence stays **low**.
+
+- **No pooled magnitude — a narrative review by design.** «A narrative approach was used to summarise
+  and integrate results across studies... five met the inclusion criteria»
+  [@smith2025upf], a method «chosen due to
+  the small number of studies and the heterogeneity in outcomes investigated»
+  [@smith2025upf]. So there is **no
+  cross-study effect size** to rank — the broader arm is a vote-count, not a pooled RR.
+- **Adverse in direction, not universal at the main-effect level.** «Three out of the five studies
+  found a significant negative main effect of consuming UPF on the cognitive outcome of interest
+  (Goncalves et al., 2023; Li et al., 2022; Bhave et al., 2024), whilst all studies highlighted a
+  significant adverse consequence of consumption in either a sub-group of the population ... or a
+  sub-group of UPF type»
+  [@smith2025upf]. So 3/5 on the whole
+  sample and 5/5 in *some* subgroup — the *adverse-where-you-look-hard-enough* pattern that invites the
+  effect-modification reads below (and warrants the route-(b) false-positive caution).
+- **Effect-modification signals (route-(b) candidates, preprint-provisional, all observational,
+  single-study each).**
+  - *Diet quality* — a live split that bears on this page's category question. In Gonçalves «the
+    negative effects of UPF intake on cognitive decline were isolated to only those who were consuming
+    an unhealthy diet, with those who ate a healthy diet not experiencing the detrimental cognitive
+    outcomes from UPF intake in another study (Goncalves et al., 2023), suggesting that diet quality
+    modifies the association»
+    [@smith2025upf]; but «the adverse
+    effects of UPF exposure on cognitive outcomes remained whilst controlling for adherence to a
+    healthy diet in two out of the three studies (Bhave et al., 2024; Li et al., 2022)»
+    [@smith2025upf]. Diet quality modified
+    the effect in one study and did *not* fully account for it in two — the
+    [[Is the Food Category Doing Any Work]] tension, unresolved, now on the cognition arm too.
+  - *Metabolic status* — «in the participants without CVD or diabetes UPF intake was inversely
+    associated with performance on the Animal Fluency Task»
+    [@smith2025upf] (Cardoso). The adverse
+    association showed in the metabolically *healthy* subgroup — a signal that does **not** sit neatly
+    inside the *runs-through-established-cardiometabolic-disease* mediation story Henney's T2D
+    attenuation suggested. Directional only; one study's subgroup.
+  - *UPF sub-type* — «higher intake of ultra-processed meat and oils/spreads was associated with
+    significantly faster decline in executive functions and global cognition»
+    [@smith2025upf] (Weinstein). Consistent
+    with this page's within-category-variance point — harm concentrates in sub-types, not in the
+    manufacturing label as a whole.
+- **A substitution frame (Li 2022, the shared primary).** «Replacing 10% of UPF weight in the diet
+  with equivalent, but less processed foods, was estimated to be associated with a 19% lower risk of
+  all-cause dementia (HR: 0.81; 95% CI 0.74–0.89; p < 0.001)»
+  [@smith2025upf] — an observational
+  substitution estimate from Li 2022 (already inside Henney's pool), not a second study. Decision-useful
+  as a *frame* (what to replace UPF with -> [[Layer 1 - Ranking Interventions for a Stratum]]), but it
+  carries the same observational, composition-confounded caveat as the rest of the arm.
+- **Bounds — thinner than Henney.** «Only five studies were included in the review due to the novelty
+  of the research area; the limited number of studies therefore limits the generalisability, strength
+  and confidence in the conclusions»
+  [@smith2025upf], and «as all included
+  studies are of observational nature, this review does not attempt to determine causality but we invite
+  future carefully designed RCTs»
+  [@smith2025upf]. The novelty is real —
+  «no review has accumulated the evidence regarding total UPF intake and cognitive health outcomes»
+  [@smith2025upf] — so the wider arm is a
+  named-but-thin cell, not a settled one.
+
+**Net (broadened):** widening the outcome from dementia diagnosis to global cognition, domains and
+decline does **not** change the answer — the association stays directionally adverse, observational,
+and diet-quality-/composition-confounded on the same axes, with no pooled magnitude and a preprint
+caveat. Smith adds a **decision-relevant substitution frame** and a **diet-quality
+effect-modification split** worth watching, and confirms the arm is real but low-certainty across the
+wider cognitive menu.
+[inferred from @smith2025upf; @henney2023upf]
+
+</div>
 
 ## The bias screens fired — on the headline outcomes
 

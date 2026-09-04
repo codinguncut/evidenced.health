@@ -2,14 +2,14 @@
 type: concept
 question: Does the mortality effect of physical activity depend on the DOMAIN it happens in — is high occupational (work) activity beneficial like leisure activity, or the opposite?
 aliases: [Physical Activity Paradox, PA Paradox, Occupational Physical Activity, Occupational Physical Activity and Mortality, Work Physical Activity, Physically Demanding Work Mortality]
-authors: [Coenen, Pieter; Celis-Morales, Carlos A]
-sources: [Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017]
+authors: [Coenen, Pieter; Celis-Morales, Carlos A; Iso-Markku, Paula; Kujala, Urho M; Waller, Katja]
+sources: [Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Iso-Markku - Physical Activity Dementia 2022]
 cluster: occupation
 nucleus: true
 confidence: low
 created: 2026-08-14
-updated: 2026-08-29
-self_critiqued: 2026-08-19
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - Physical Activity Dose and Mortality
@@ -168,6 +168,39 @@ healthy-worker effect below), so this is a domain-specific *association*, not a 
 -> [[Upgrading Observational Evidence]].
 [inferred from @celismorales2017commuting]
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## The domain-flip replicates on a NEW outcome — dementia (weak, directional) `[2026-09-04, Iso-Markku]`
+
+Every estimate above is on **mortality**. Iso-Markku 2022 — a gold SR+MA of PA and dementia incidence
+(58 cohorts) whose home is [[Dementia Prevention and Modifiable Risk Factors]] — carries the sign flip onto
+a *different* patient-important outcome. Leisure/total PA is protective for all-cause dementia (RR 0.80,
+0.77-0.84), but «The two studies examining the association of work-­related PA and all-­cause dementia
+showed an opposite trend than other PA (RR 1.25, 95% CI 0.98 to 1.59)»
+[@isomarkku2022]. So occupational PA points the *same*
+opposite way on dementia as it does on mortality — the domain-flip is not a mortality-specific quirk.
+
+**Why this is weak, and why it is nonetheless independent of Coenen.** Two studies, and the CI **crosses 1**
+(non-significant), so it is a directional signal, not an established effect. But it is reached by a
+different author group (Iso-Markku, Finnish dementia epidemiology) on a different outcome from a different
+study pool, with no shared lineage or citation dependency with Coenen — so it clears the strict independence
+bar *as a route*, even though its weakness means it **does not lift the page's LOW confidence**. Recorded as
+a directional cross-outcome corroboration, **not** minted `[E-independent]` (a non-significant 2-study trend
+is too thin to bank as robustness).
+
+**And the mechanisms diverge — same sign, different story.** Coenen attributes the occupational-mortality
+harm to sustained HR/BP load without recovery (a cardiovascular pathway). Iso-Markku instead reads the
+work-PA dementia signal as **confounding**: «work-­related PA shows an inverse asso- ciation with
+leisure-­time PA when adjusted for socioeconomic status or education ... higher cogni- tive ability or other
+unmeasured confounding factors, and not leisure-­time PA, may drive the association»
+[@isomarkku2022]. So Iso-Markku uses the work-PA flip to
+argue the *leisure*-PA protection may itself be partly a cognitive-reserve/SES artifact — a caveat that
+lands on the dementia page, not a mechanism for occupational harm. The convergence is on the **sign of the
+domain-flip**, not its cause.
+[inferred from @isomarkku2022; @coenen2018paradox]
+
+</div>
+
 ## The artifact watch — healthy-worker selection inflates the apparent harm
 
 The finding is **not** dismissable as an artifact, but one selection mechanism bends it and must be
@@ -253,6 +286,8 @@ CHD / dementia / breast cancer), different pathways, and different signs — inc
 a null; the levers do not collapse into one.
 [inferred from @coenen2018paradox; @kivimaki2012jobstrain; @kivimaki2021cognitive; @travis2016nightshift]
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Self-critique `[run 2026-08-14, before commit]`
 
 - **Not laundered from one source restated.** The value here is the *disambiguation* (one word, two
@@ -293,5 +328,20 @@ a null; the levers do not collapse into one.
 - **Gap named, not hidden.** The intensity/recovery axis is *inferred* from mode-contrasts (cycling vs
   walking vs occupational); no held source measures the pattern directly — recorded as the open G-gap,
   not asserted as established.
+
+### Dementia cross-outcome addition `[run 2026-09-04, before commit]`
+
+- **Not overclaimed as independent robustness.** The Iso-Markku work-PA -> dementia RR 1.25 is stated with
+  its two disqualifiers up front — 2 studies and a CI crossing 1 — so it reads as a *directional* cross-outcome
+  corroboration, and I explicitly did **not** mint `[E-independent]` on it (too thin to bank), nor lift the
+  page's LOW confidence. Independence of Coenen is affirmed only as a *route* (different author group,
+  outcome, pool; no shared lineage), which is honest about what a weak-but-independent signal buys.
+- **Same-sign / different-mechanism kept distinct.** Coenen's HR/BP-load mechanism and Iso-Markku's
+  cognitive-reserve/SES *confounding* reading are opposite kinds of claim; I filed the convergence as being
+  on the **sign of the domain-flip only**, not on cause — avoiding a laundered "the paradox is mechanistically
+  confirmed on dementia too" overclaim. The RRs stay attributed to their own sources; the framing is tagged
+.
+
+</div>
 
 ## References

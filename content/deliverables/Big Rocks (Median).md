@@ -3,13 +3,14 @@ type: deliverable
 title: "The Biggest Health Levers for a Typical Adult"
 question: For a drifting-median Western adult (late 40s, obesity-associated metabolic drift, not diseased), which modifiable diet and lifestyle exposures carry the largest expected effect on patient-important outcomes ranked by effect x certainty, where does the remaining marginal return flatten, and for each lever is it robust across the distribution or conditional on metabolic status?
 aliases: [Big Rocks Median, Drifting Median Big Rocks, Median Western Adult Levers]
-authors: [World Health Organization (org); Hooper, Lee; Ekelund, Ulf; Paluch, Amanda E; Currier, Brad S; Momma, Haruki; Look AHEAD Research Group (org); Ma, Chenhan; Lean, Michael EJ; European Association for the Study of the Liver (org); Recchia, Francesco; Taylor, Roy; Kramer, Caroline K; Goldenberg, Joshua Z; Naude, Celeste E; Morton, Robert W; Refalo, Martin C; European Society of Cardiology (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Jha, Prabhat; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Cappuccio, Francesco P; Shan, Zhilei; National Institute for Health and Care Excellence (org); Ross, Robert; Messier, Stephen P; World Cancer Research Fund International (org); Johnston, Bradley C; Livingston, Gill; Chen, Yancong]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Jha - Smoking Hazards Cessation Benefits 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, NICE - NG246 Evidence Review F, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Lowe - Time-Restricted Eating TREAT 2020, Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018]
+authors: [World Health Organization (org); Hooper, Lee; Ekelund, Ulf; Paluch, Amanda E; Currier, Brad S; Momma, Haruki; Look AHEAD Research Group (org); Ma, Chenhan; Lean, Michael EJ; European Association for the Study of the Liver (org); Recchia, Francesco; Taylor, Roy; Kramer, Caroline K; Goldenberg, Joshua Z; Naude, Celeste E; Morton, Robert W; Refalo, Martin C; European Society of Cardiology (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Jha, Prabhat; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Cappuccio, Francesco P; Shan, Zhilei; National Institute for Health and Care Excellence (org); Ross, Robert; Messier, Stephen P; World Cancer Research Fund International (org); Johnston, Bradley C; Livingston, Gill; Chen, Yancong; Iso-Markku, Paula; Kujala, Urho M; Peters, Ruth; Zhang, Jinhuan; Xu, Wei; Yu, Jin-Tai; Kuate Defo, Alvin; Daskalopoulou, Stella S; Zhou, Yuhan; Xia, Yang; Peng, Yinshun; Gao, Xiang]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Jha - Smoking Hazards Cessation Benefits 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, NICE - NG246 Evidence Review F, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Lowe - Time-Restricted Eating TREAT 2020, Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018,
+  Iso-Markku - Physical Activity Dementia 2022, Peters - Blood Pressure Lowering Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025]
 confidence: medium
 created: 2026-07-30
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-04
+self_critiqued: 2026-09-04
+concrete_subject_audited: 2026-09-04
 ---
 
 > [!warning] Applies to a specific group
@@ -28,6 +29,8 @@ raised resting heart rate, drifting toward metabolic syndrome and fatty liver. *
 diseased.** This is a stratum, not a person and not everyone: about 40% of the people this description is
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The finding, stated first
 
@@ -66,6 +69,18 @@ diseases interchangeable — the shared logic breaks disease-specifically, and w
 artifact, not a lever: smoking's association even runs *protective* in Parkinson's, an artifact of reverse
 causation over its long prodrome, never a licence to act ([[Shared Modifiable Levers Across Age-Related Diseases]]).
 
+Diet enters the dementia picture the same way — through the levers already counted, not beside them. More
+fruit and vegetables tracks lower cognitive-disorder risk (OR 0.82, 0.75-0.90)
+[@zhou2022fruit], and the flavonoids
+inside those same foods track better cognitive test scores (OR 0.90, 0.83-0.98) — but that flavonoid
+signal is null on dementia and Alzheimer's diagnoses, moving only the softer decline endpoint
+[@peng2025flavonoid]. Both are observational, and the
+flavonoid estimate is a re-expression of the same fruit-and-vegetable signal in component units, not a
+second independent one. Both plausibly run through the vascular and metabolic channels the big rocks
+already pull, so a better diet is a *route* to those rocks, not a fifteenth separate thing to do.
+
+</div>
+
 ## How the levers are sorted
 
 Every lever below falls into one of three buckets, by what the
@@ -85,6 +100,8 @@ sit above their own storage threshold, not in kilograms. One honest limit remain
 rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is reasoning from mechanism
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## (a) Robust big rocks — lead here
 
@@ -122,6 +139,17 @@ sink, which is why it fits *this* dysglycemic stratum
 [@momma2022]. Meeting both aerobic and
 strengthening guidelines beats neither (HR 0.71) [@who2020].
 Both levers hold across the distribution.
+
+The activity lever also carries a dementia dividend, and the dose evidence is now held first-hand rather
+than borrowed. Across 58 cohorts, being physically active lowers all-cause dementia risk (RR 0.80,
+0.77-0.84) [@isomarkku2022]. The payload that matters
+for reading that number: the association holds even where people were tracked 20 years or more (RR 0.79,
+0.71-0.87), rather than dissolving as prodromal decline lowering activity would predict, and it is not
+modified by ApoE genotype [@isomarkku2022].
+It stays observational — a head-start in cognitive reserve cannot be ruled out — but for a midlife adult,
+with dementia a long-runway outcome and midlife the window the risk-factor model weights most, activity
+buys a second patient-important outcome on the same non-substitutable lever. That breadth raises its rank;
+it does not add a competing task.
 
 Track whether the movement lever is working with cardiorespiratory fitness, not a separate intervention: a
 free non-exercise estimate from age, sex, BMI, resting heart rate and activity places you well enough
@@ -248,6 +276,12 @@ zero, just short of significance) [@zhao2023].
 All-cause mortality is the outcome most *favourable* to alcohol; for cancer and vascular disease risk
 rises from low intake with no safe threshold, as the genetic evidence above indicates.
 
+Dementia is a third outcome that reproduces the same J-curve and the same verdict. A dose-response
+meta-analysis draws a protective-looking dip at low intake and a clear harm knee above about 38 g/day, but
+its lower arm is unadjudicated: the abstainer referent is contaminated by sick-quitters, and no genetic or
+referent-correction check was run, so it certifies no safe or protective dose — only the harm at the top
+[@xu2017alcohol]. Same conclusion, one more outcome.
+
 Adequate, regular sleep is the genuine lever here, through the metabolic channel to this stratum's
 dysglycemia. Chronic short sleep (under 7 h, especially under 5) carries about 12% higher mortality with
 a plausible mechanism (RR 1.12, 1.06-1.18) [@cappuccio2010],
@@ -255,6 +289,15 @@ and raises incident type-2 diabetes about 9% per hour lost (RR 1.09, 1.04-1.15)
 [@shan2015]. The actionable arm is
 short sleep; the target is simply adequate sleep (roughly 6 h and up), not a narrow band
 -> [[Sleep Duration and Mortality]]. Long sleep is a marker of illness, not a target to trim.
+
+The cognition evidence points the same way and sharpens which arm is actionable. Short sleep (under 7 h)
+tracks cognitive *decline*, not a dementia diagnosis, while the long-sleep-to-dementia signal is most
+likely a preclinical marker — early disease lengthening sleep, not sleep causing disease — so it is no
+reason to trim an 8-hour night [@zhang2025sleep].
+Insomnia carries a modest dementia association that, tellingly, strengthens under objective measurement
+(RR 1.26, versus 1.13 self-reported) [@zhang2025sleep]
+— evidence against a pure reporting artifact. All of it is observational, and whether treating a sleep
+disorder lowers dementia risk is untested.
 
 ### A light touch — knee function
 
@@ -272,6 +315,10 @@ effects in this domain are settled and few; the long tail of refinements shares 
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## (b) Stratum-dependent — conditional on metabolic status
 
 ### Reduce sodium — most useful if your blood pressure is already drifting up
@@ -287,6 +334,20 @@ evidence for sodium itself is very-low certainty, but *pharmacological* blood-pr
 proven to cut events even in primary prevention and even at normal pressure (HR **0.91 per 5 mmHg**),
 so the blood-pressure channel is real — the caveat is that a sodium-induced drop transmitting to events
 is an assumption, not the same evidence [@bplttc2021]. Western intake runs \~9-10 g salt against a 5 g target [@esc2021]. Treat on overall risk, not the number.
+
+Blood-pressure lowering also holds the one *randomized* dementia arm the whole cognition literature has.
+Pooling five double-blind placebo-controlled antihypertensive trials, treatment cut incident dementia
+(OR 0.87, 0.75-0.99) from a sustained fall of about 10/4 mmHg, with no U-shape and benefit running
+linearly down to 100/70 mmHg [@peters2022bp]. The
+absolute gain in those trials was small — dementia struck 2.9% on treatment versus 3.3% on placebo over
+about 4.3 years [@peters2022bp], which works out to
+a number-needed-to-treat near 250
+[inferred from @peters2022bp].
+
+Those trials ran in the elderly and stopped early on the cardiovascular endpoint, so for a midlife adult
+with a longer runway the lifetime dementia payoff is plausibly larger — an extrapolation, not a measured
+figure. Read it as a second outcome on the same BP channel, not a separate lever, and one more reason the
+blood-pressure lever earns its place where pressure is genuinely drifting up.
 
 ### Carbohydrate restriction — a route to glycaemic control for the insulin-resistant, not a universal rule
 
@@ -307,6 +368,17 @@ for people with lipid disorders and atherogenic-lipoprotein hyper-response — f
 healthy it is largely needless. No mainstream body positively recommends any macronutrient-defined diet;
 NICE will positively recommend only an *energy*-defined one (total diet replacement, 800-1200 kcal, up
 to 12 weeks, within a support service) [@nice].
+
+One appraisal note for the dysglycemic end of this stratum, weighted lightly because most people here are
+not yet on any glucose-lowering drug. Among those who are, the drug *class* appears to matter for
+cognition: metformin, GLP-1 and SGLT2 agents track lower dementia risk (metformin RR 0.83), the older
+sulphonylureas higher (RR 1.39) [@kuatedefo2023].
+The evidence is observational, low-certainty, and heavily confounded by which patients get which drug —
+first-line metformin marks earlier, healthier disease; secretagogues mark later, more severe disease — so
+part of the gap is disease stage, not the pill acting on the brain. This is a drug-versus-drug refinement
+for a prescriber, not a lever that resizes the weight rock, and not one most of this stratum needs.
+
+</div>
 
 ## (c) Over-published, small, or contested — do not lead
 
@@ -383,6 +455,8 @@ wisdom.
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Caveats
 
 - **Open loop.** This appraisal grades coherence and fidelity to its sources; it never grades validity. No
@@ -399,9 +473,11 @@ wisdom.
 > | | |
 > |---|---|
 > | **Question** | For a drifting-median Western adult (late 40s, obesity-associated metabolic drift, not diseased), which modifiable diet and lifestyle exposures carry the largest expected effect on patient-important outcomes ranked by effect x certainty, where does the remaining marginal return flatten, and for each lever is it robust across the distribution or conditional on metabolic status? |
-> | **Evidence included** | 37 sources — 19 gold, 15 high, 3 moderate |
+> | **Evidence included** | 44 sources — 26 gold, 15 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+
+</div>
 
 ## References

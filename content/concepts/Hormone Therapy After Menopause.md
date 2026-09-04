@@ -94,8 +94,6 @@ activity» [@nams2022] — and duration-dependent
 and persists >=10 y after stopping. [@niceng23]
 
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The four evidence-states, by outcome
 
 [inferred from @rossouw2002; @nams2022; @niceng23]
@@ -114,9 +112,6 @@ Kept distinct: benefit · harm · no meaningful effect · insufficient/contested
 | **Cognition / dementia** | **NO benefit; HARM if started >65** | neutral early; WHIMS +23 dementia cases/10,000 when started >65 (NAMS); NICE: «might» increase if started later |
 | **Type 2 diabetes** | **BENEFIT** (not an indication) | EPT 16 fewer T2D cases/10,000 py (NAMS) — noted, not government-approved for it |
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The tension — does timing modify the cardiovascular effect? (type-D, two gold bodies)
 
@@ -156,7 +151,6 @@ breast cancer and ET does not; oral oestrogen raises stroke and transdermal does
 for CVD or dementia prevention. Agreement across two families on shared trials strengthens the null on those
 points but is **not** independent corroboration (both rest on WHI/Cochrane).
 
-</div>
 
 ## The surrogate note — estrogen's BMD->fracture chain HOLDS (contrast with testosterone)
 

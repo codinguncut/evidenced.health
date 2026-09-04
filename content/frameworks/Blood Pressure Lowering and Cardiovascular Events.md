@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -20,8 +20,8 @@ relationships:
     - Physical Activity Dose and Mortality
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-29
-updated: 2026-08-29
-self_critiqued: 2026-08-29
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -216,17 +216,44 @@ glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
 Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
--> [[Dementia Prevention and Modifiable Risk Factors]]. An IPD meta-analysis found «those with untreated
-hypertension had a 42% higher risk of dementia than healthy controls (HR 1.42; 1.15-1.76), but this risk
-was attenuated or lost with treatment» (HR 1.13, 0.99-1.28). [@livingston2024] Antihypertensive-RCT meta-analyses show a modest protective effect on dementia/cognitive
-impairment (OR 0.93, 0.88-0.98; IPD OR 0.87, 0.75-0.99), though a Cochrane review judged trial durations
-too short to prove a dementia-incidence difference. The 2024 Lancet Commission's target — «maintain
-systolic BP of 130 mm Hg or less from age 40 years» — is a *dementia*-prevention framing of the same
-midlife-BP lever. As with CV events, MR studies suggesting BP is protective are discounted as survival-bias
-artifacts, consistent with this page's treat-on-absolute-risk conclusion.
+-> [[Dementia Prevention and Modifiable Risk Factors]]. The Commission holds this observationally: «those
+with untreated hypertension had a 42% higher risk of dementia than healthy controls (HR 1.42; 1.15-1.76),
+but this risk was attenuated or lost with treatment» (HR 1.13, 0.99-1.28).
+[@livingston2024]
+
+**The interventional effect, de-secondhanded first-hand (Peters 2022, F-refinement `[2026-09-04]`).** The
+IPD OR the Commission borrows is now held at source: Peters 2022, an IPD MA of **five double-blind
+placebo-controlled** antihypertensive RCTs (HYVET, SYST-EUR, PROGRESS, ADVANCE, SHEP; «28 008 individuals
+recruited from 20 countries», 861 dementia cases) [@peters2022bp]. «Multilevel logistic regression reported an adjusted odds ratio 0.87 (95% confidence
+interval: 0.75, 0.99) in favour of antihypertensive treatment reducing risk of incident dementia with a
+mean BP lowering of 10/4 mmHg» [@peters2022bp] —
+«Class I evidence» [@peters2022bp]. In absolute terms
+dementia occurred in «403 (2.9%) and 458 (3.3%)» of active vs placebo (>=2y follow-up)
+[@peters2022bp]. That is an ARD of \~0.4 percentage
+points, i.e. an NNT of \~250 over the median follow-up [inferred from @peters2022bp]; and it is conservative
+because the trials stopped early on the CV endpoint (dementia accrues slower). This is **NOT an `[E-independent]` corroboration** of
+this page's CV-events evidence: Peters' five trials sit inside BPLTTC's 48-trial base and the author lists
+overlap (Chalmers, Woodward, Anderson — George Institute), so the shared RCT substrate defeats independence
+on the BP-lowering *mechanism* — what is new is the OUTCOME (dementia), a new-endpoint extension. Full
+facets (mediation 53%, no effect-modification, cognitive-decline null) on
+[[Dementia Prevention and Modifiable Risk Factors]].
+[inferred from @peters2022bp; @bplttc2021]
+
+**The observational U survives no better here than for CV events.** Peters' abstract records the same
+J/U-curve puzzle — «Observational studies indicate U-shaped associations of blood pressure (BP) and
+incident dementia in older age, but rando-mized controlled trials of BP-lowering treatment show mixed
+results on this outcome in hypertensive patients» [@peters2022bp] —
+and randomization erases it: «no evidence of a U-shaped re-lation of the effect at any age», with a
+monotone «linear relationship between lower risk of dementia and lower BP, down to at least 100 mmHg
+systolic and 70 mmHg diastolic» [@peters2022bp]. The 2024 Lancet Commission's target — «maintain systolic BP of 130 mm Hg or less from age 40
+years» — is a *dementia*-prevention framing of the same midlife-BP lever. As with CV events, MR studies
+suggesting BP is protective are discounted as survival-bias artifacts, consistent with this page's
+treat-on-absolute-risk conclusion -> [[The U-Shaped Association Artifact]].
 
 **preDIVA — BP-lowering in the elderly is cognitively SAFE, and the dementia benefit is stratum-specific
 `[2026-08-07]`.** preDIVA (Moll van Charante 2016), a 6.7-yr nurse-led multidomain vascular-care cluster-RCT
@@ -242,6 +269,8 @@ HR 0.54 (0.32-0.92) [@mollvancharante2016],
 a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), consistent with this page's
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
+
+</div>
 
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 

@@ -232,8 +232,6 @@ parameter). [@tagawa2020]
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
 
 Morton's age covariate (the *supplement* effect «reduced with increasing age», above) reaches its
@@ -267,9 +265,6 @@ muscle strength, or physical functional performance.»
   whole lever and added protein/co-supplements do little; the deficient or diagnosed-sarcopenic are the
   stratum where nutrition might still add** (the sarcopenic case is taken up below).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
 
 ## The sarcopenic exception — where nutrition may still add (grip, not mass)
 
@@ -318,9 +313,6 @@ adjunct to training, and grip — not mass — is the surrogate it nudges.
 
 
 [@morton2018]
-
-</div>
-
 ## The surrogate boundary — this is the mechanism, not the outcome
 
 Muscle mass and strength are **surrogates** ([[Surrogate Outcomes]]), not patient-important endpoints.

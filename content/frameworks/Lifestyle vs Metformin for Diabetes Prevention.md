@@ -15,7 +15,7 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-07
-updated: 2026-08-26
+updated: 2026-09-03
 self_critiqued: 2026-08-26
 ---
 
@@ -40,6 +40,8 @@ Mean age 51, mean BMI 34.0, 68% women, 45% minority; average follow-up 2.8 years
 **diabetes incidence** (ADA criteria). A fourth arm (troglitazone) was discontinued in 1998 for liver
 toxicity and is not reported. The blinded phase was stopped \~1 year early on the data monitoring board's
 advice once efficacy was demonstrated.
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The head-to-head result — lifestyle beat the drug
 
@@ -67,11 +69,13 @@ value here is the *joined* comparison, not two separate arms):
 
 So on the absolute frame ([[Baseline Risk and the Relative-Absolute Split]]), lifestyle prevents one case
 per \~7 people treated 3 years vs one per \~14 for metformin — roughly twice the absolute yield. The
-COI direction is worth naming under [[Symmetric standards]]: the trial was funded in part by Bristol-Myers
+COI direction is worth naming under symmetric standards: the trial was funded in part by Bristol-Myers
 Squibb — which the paper notes «sells metformin in the United States» — and Parke-Davis, and one author held
 BMS stock, yet the finding runs *against* the drug the funder sells (the study metformin and placebo were
 supplied by Lipha Pharmaceuticals). So the conflict does not undercut the headline.
 [inferred from @knowler2002]
+
+</div>
 
 ## The subgroup split — lifestyle works broadly, metformin works selectively
 
@@ -177,6 +181,8 @@ risk is the concern in such a stratum, the demonstrated levers are the direct on
 heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
 longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Independent replication — Finnish DPS and Da Qing (type-E robustness)
 
 The lifestyle-prevention effect is **not one trial**: three randomized trials on three continents, in
@@ -240,7 +246,7 @@ The three are separate randomized experiments in separate populations, designed 
 replication independence (the effect is *not* one dataset re-analyzed) holds strongly. Author lists do not
 overlap: no author is shared across the three, and neither Da Qing (the earliest, citing neither) nor
 Finnish (which cites Da Qing only as corroborating *prior evidence*, not as a data source) re-analyzes
-another's cohort. **The caveat, named under [[Symmetric standards]]:** an NIDDK-Phoenix institutional
+another's cohort. **The caveat, named under symmetric standards:** an NIDDK-Phoenix institutional
 thread does connect two of them — Da Qing co-authors Bennett and Howard were at NIH/NIDDK, the same
 diabetes-epidemiology program Knowler (US DPP) belongs to, and Knowler is acknowledged «for his important
 contribution to the planning of our study» in the Finnish DPS. So the three teams are not hermetically
@@ -249,6 +255,8 @@ continents, neither citing the other as antecedent). The convergence is real and
 lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage thread is why it is marked
 with the caveat rather than as three sealed-off routes.
 [inferred from @tuomilehto2001; @pan1997]
+
+</div>
 
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 
@@ -306,9 +314,11 @@ mechanism that sustains weight loss once achieved. This connects to the weight-l
 is the *sole* mediator.
 [inferred from @hamman2006; @tuomilehto2001]
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Adherence and adverse events
 
-Adherence to the lifestyle goals decayed — the [[Adherence is part of the effect]] point in a landmark
+Adherence to the lifestyle goals decayed — the adherence-is-part-of-the-effect point in a landmark
 program: «Fifty percent of the participants in the lifestyle-intervention group had achieved the goal of
 weight loss of 7 percent or more by the end of the curriculum (at 24 weeks), and 38 percent had a weight
 loss of at least 7 percent at the time of the most recent visit» (the activity goal: 74% at 24 weeks, 58%
@@ -319,6 +329,8 @@ perfect compliance.
 Harms were modest and differed by arm: gastrointestinal symptoms highest on metformin (77.8 vs 12.9
 events/100 person-yr on lifestyle), musculoskeletal symptoms highest on lifestyle (24.1). No deaths were
 attributed to any intervention. [@knowler2002]
+
+</div>
 
 ## Decision relevance
 

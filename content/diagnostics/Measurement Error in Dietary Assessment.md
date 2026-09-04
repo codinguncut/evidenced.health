@@ -6,7 +6,7 @@ authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse
 sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019]
 cluster: nutrition-methods
 confidence: medium
-self_critiqued: 2026-08-28
+self_critiqued: 2026-09-03
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
@@ -18,7 +18,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-09-02
+updated: 2026-09-03
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -44,6 +44,8 @@ Error is random or systematic, within-person or between-person. The consequentia
   [@willett]
 
 Also: systematic errors affecting *everyone equally* do not bias measures of association at all.
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## How much attenuation — the quantitative anchor
 
@@ -79,7 +81,9 @@ available for the same number, and only a validation study distinguishes them.
 Other magnitudes: a true OR of 2.67 observes as **1.71** at sensitivity 0.6 / specificity 0.9; energy
 under-reporting against doubly-labelled water runs **10-30%**, worse in women and people with obesity;
 energy adjustment raised FFQ-vs-recall correlations from 0.30-0.57 up to 0.61-0.66 across four ethnic
-subgroups of men in the Multi-Ethnic Cohort.
+subgroups of men in the Multi-Ethnic Cohort. [@willett]
+
+</div>
 
 ## Tests / indicators
 
@@ -731,6 +735,8 @@ Willett — GBD *applies* it, it does not arrive at it independently.
 methodologist's position but the stated self-appraisal of the largest analysis in the domain.
 [inferred from @afshin2019]
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## The escape route works — but only for fatty acids the body cannot make `[2026-08-04]`
 
 The obvious remedy for self-report error is an objective biomarker, and whether that escape is available
@@ -747,12 +753,14 @@ the body can synthesise the analyte** — a within-category boundary that carrie
 - **The escape route and the error-laden route agree — a within-source check.** Li 2020's LA-mortality
   SR+MA ran *both* arms in parallel — a self-report dietary pool (FFQ, the error this page is about) and
   an objective-biomarker pool — and they land on the same answer (all-cause mortality RR **0.87**
-  dietary vs **0.91** biomarker; same for CVD and cancer), which Li calls «reassuring». This is the
+  dietary vs **0.91** biomarker; directionally the same for CVD and cancer, \~0.87 vs \~0.89), which Li calls «reassuring». This is the
   reassuring case of the escape route: where the biomarker is valid (essential fatty acid), the
   error-laden FFQ gradient is **not** so flattened that it disagrees with the objective marker — so for
   LA the self-report attenuation is tolerable, not fatal. Note the asymmetry with the general rule: the
   agreement licenses trusting the *direction*, not treating the FFQ magnitude as unbiased (both arms are
   observational, and Li's dietary route still carries the standard recall error).
   [inferred from @li2020]
+
+</div>
 
 ## References

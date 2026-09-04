@@ -2,16 +2,17 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai]
 sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024,
   Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025,
   Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
-  Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024]
+  Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
+  Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-03
-self_critiqued: 2026-09-03
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -28,6 +29,7 @@ relationships:
     - Dairy and Cardiometabolic Health
     - Fluoride and Bone Health
     - The Physical Activity Paradox
+    - Sleep and Cognitive Decline
     - Should Sodium Reduction Be Population-Wide or Targeted
     - Heme Iron and Cardiometabolic Risk
 ---
@@ -89,7 +91,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
-<div class="recent-update" data-last-updated="2026-09-03">
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Where it applies in the wiki
 
@@ -205,6 +207,32 @@ equally consistent with the causal and the artifact explanation has no diagnosti
       (shared base, not independent-E); the MR is a genuinely different *method* but it triangulates the same
       question rather than backing a specific held estimate -> **type-F** (supplies the missing genetic leg,
       exactly as Wade's MR did for BMI) -> [[Sleep Duration and Mortality]].
+  - **Fifth sleep instance, the DEMENTIA/cognition outcome — the asymmetry becomes OUTCOME-SPECIFIC WITHIN
+    the duration curve `[2026-09-04, Zhang]` `type-F`.** Zhang 2025 (76 cohorts) runs the sleep-duration U on
+    cognition and the arms hit *different endpoints*: «Sleep duration < 7 h primarily increases the risk of
+    cognitive decline; while sleep duration > 8 h mainly elevates the risk of AD, dementia, and cognitive
+    decline» [@zhang2025sleep], and the short arm
+    explicitly «was not associated with future risk of all-cause dementia and AD»
+    [@zhang2025sleep]. So on the *dementia/AD*
+    endpoint the U **collapses to a long-arm-only elevation** (long > 8 h -> AD 1.66, 1.44-1.91, I2 0%;
+    dementia 1.43, 1.21-1.69) — there is no short arm to defend. The long arm shows this concept's every
+    tell: it is the larger association, mechanism-poor, and age-graded — «The role of prolonged sleep
+    duration in the development of dementia remains unclear and is closely associated with age»
+    [@zhang2025sleep], concentrated in the >= 70 y
+    elderly, «a preclinical marker driven by the APOE ε4 carrier gene»
+    [@zhang2025sleep] (Tang: long sleep tracks
+    higher Aβ40/tau, lower Aβ42/Aβ40, smaller gray matter — pathology as *cause* of the long sleep, i.e.
+    reverse causation). **Adjudication is WEAK-checks-only**: baseline-only exposure with a fixed 1-13 y
+    follow-up offered as the lag argument, but NO MR and NO referent-correction — so the long-sleep ->
+    dementia arm stays **unadjudicated**, matching Wang's genetic long-arm null on CVD. What it ADDS: the
+    arm-level asymmetry is now *within one exposure across outcomes* (short->decline, long->dementia), so
+    *adjudicate the arm, not the curve* sharpens to **adjudicate the arm FOR THIS OUTCOME** — the same
+    duration curve is a U on decline and a long-arm-only rise on dementia. Independent measurement note: the
+    reassurance the duration arm lacks, insomnia has — objective insomnia is *stronger* and far less
+    heterogeneous (RR 1.26, I2 26.1%) than self-report (1.09, I2 77.7%), the measurement-precision tell
+    running the causal way on that arm. Not independent-E of Cappuccio/Yin (overlapping cohort base, same
+    reverse-causation reading, new outcome) -> **type-F** cross-outcome -> [[Sleep and Cognitive Decline]],
+    [[Dementia Prevention and Modifiable Risk Factors]].
 - **Muscle-strengthening activity — a J-shape with its own counter-instance built in.** MSA shows a
   J-shaped dose-response for all-cause mortality/CVD/cancer (nadir in a wide, imprecise \~30-80 min/week
   region, hazard rising above 1.0 past \~140 min/week) — but an **L-shape** (no upturn) for **diabetes**,
@@ -214,6 +242,28 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   no upturn; the outcomes whose upturn lacks a mechanism show one** — plus very-low GRADE, self-reported
   exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
   unbelieved; the lower arm (a small effective dose) is kept.
+- **Physical activity -> dementia — a protective signal that SURVIVES the reverse-causation check, but only
+  the WEAK one `[2026-09-04, Iso-Markku]` `type-F`.** Not a U-curve: PA -> dementia is a *monotone*
+  protective association (RR 0.80, 0.77-0.84), but it carries the concept's signature threat — reverse
+  causation over the long dementia prodrome, whereby preclinical dementia lowers activity years before
+  diagnosis, manufacturing a spurious benefit. Iso-Markku 2022 (58-cohort SR+MA) is built as the test: the
+  association «appears absent when PA is measured before the age of 65 ... or in follow-­ups longer than 10
+  years» in some prior work, so it re-estimates within the >=20-year-follow-up subset and the protection
+  **holds** — all-cause RR 0.79 (0.71-0.87, 16 studies, mean baseline age 50.5), AD 0.76 (0.64-0.90) — with
+  «we did not find evidence to suggest that reverse causation or regression dilution bias88 affected the
+  observed associations». [@isomarkku2022]
+  - **But this is the concept's WEAK check, not the strong one.** Extending the follow-up window is a
+    version of *exclude early follow-up / sick baseline* — the route the alcohol U-shape **survived** yet
+    was still artifact. No referent-correction applies (no sick-quitter referent here) and **no MR / genetic
+    instrument for PA-dementia is held**, so the strong check is absent. Two further tells keep it
+    unadjudicated: the cleanest cut (3 high-quality young-baseline >20y studies) goes **non-significant**
+    (0.79, 0.62-1.01), and Iso-Markku names the residual confounder the design cannot remove —
+    «Physically active individuals may have higher cognitive reserve to start with ... may drive the
+    association». [@isomarkku2022] So by the decision
+    rule the causal reading is **directionally supported but not established** — a protective arm that
+    cleared the weak check and never faced a strong one, like NSS and the sodium low-arm. Not independent-E
+    (a different exposure sharing the one diagnostic) -> type-F worked-case extension
+    -> [[Dementia Prevention and Modifiable Risk Factors]], [[The Physical Activity Paradox]].
 - **Weight loss -> mortality — reverse causation manufacturing a false HARM, adjudicated
   interventionally.** The mirror-image direction: here the *observational* signal is a spurious **harm**,
   not a spurious benefit. «Most observational epidemiologic studies have indicated that the rate of death
@@ -566,6 +616,43 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   [[Sleep Duration and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]]. Not independent-E
   of the mortality instances (same reverse-causation/sick-quitter mechanism, new outcome) -> **type-F**
   cross-outcome replication.
+  - **The alcohol dose-response, first-hand — the primary MA leaves the arm UNADJUDICATED; the held
+    AD-MR is what clears it `[2026-09-04, Xu]` `type-F`.** Livingston's verdict is qualitative; Xu 2017's
+    dose-response MA (11 prospective cohorts, 73,330 participants, 4586 ACD cases) is the first-hand
+    source that *draws* the dementia J — protective range 0-12.5 g/day, «lowest effect size ... (RR
+    around 0.9)» near 6 g/day, harm above 38 g/day. [@xu2017alcohol] The instance sharpens the concept's **weak-vs-strong-check** distinction: Xu ran **only
+    the weak checks** (prospective design, covariate adjustment, NOS>=8) and concedes every strong-check
+    gap — the referent is the sick-quitter-contaminated «lowest category» («we cannot exclude the
+    potential inﬂuences of including former drinkers, who may quit drinking due to underlying diseases
+    and have a high risk of dementia, in the reference group»), and **no referent-correction and no MR**
+    were run, the missing check named in-source («warrants further validation using more advanced
+    approach, such as Mendelian randomization»). [@xu2017alcohol] So the primary dose-response leaves the arm exactly where the mortality J sat *before*
+    Stockwell/Millwood — unadjudicated; the «artifact» verdict is carried entirely by the **held AD-MR**
+    (Livingston's cited «any relationship between not drinking and AD is due to survivor bias»), not by
+    the MA that produced the curve. The tell reinforcing it: protection is **wine-only** (0.58-0.67),
+    null for beer/liquor — the healthy-user signature, not a dose-response, and the resveratrol rescue Xu
+    offers is the one the held Semba biomarker null already refutes. Not independent-E (single
+    observational MA, shared cohort literature + sick-quitter machinery) -> **type-F**
+    -> [[Alcohol and Mortality and Vascular Disease]]. [inferred from @xu2017alcohol]
+- **Blood pressure -> dementia — the RANDOMIZED interventional check kills the observational U outright
+  `[2026-09-04, Peters]` `type-F`.** The cleanest form of the diagnostic on this page: the artifact is not
+  merely *adjudicated* by a covariate correction but *refuted by randomization*. Observational cohorts show
+  a U — «Observational studies indicate U-shaped associations of blood pressure (BP) and incident dementia
+  in older age, but rando-mized controlled trials of BP-lowering treatment show mixed results on this
+  outcome in hypertensive patients» [@peters2022bp] — the apparent-harm-
+  at-low-BP lower arm being the classic frailty/reverse-causation shape (declining BP in the dementia
+  prodrome). Peters 2022, an IPD MA of five double-blind placebo-controlled BP-lowering RCTs, removes it:
+  «There was no evidence of a U-shaped re-lation of the effect at any age, nor any increase in risk of
+  dementia with treatment in the oldest age» [@peters2022bp], and the achieved-BP dose-response is monotone — «a linear relationship between lower risk of
+  dementia and lower BP, down to at least 100 mmHg systolic and 70 mmHg diastolic»
+  [@peters2022bp] (studied-range floor 100/70, not
+  evidence below it). Treatment lowered dementia odds (OR 0.87, 0.75-0.99). So the protective-looking lower
+  arm of the observational curve is a study-design artifact, exactly as this concept predicts — a
+  randomized design being the strongest interventional check the decision rule asks for. **Mirrors the
+  BPLTTC J-curve refutation on CV events** ([[Blood Pressure Lowering and Cardiovascular Events]]): same
+  exposure, two outcomes, both observational U-arms failing the randomized test. Not independent-E (same
+  exposure, new outcome, and Peters' trials overlap BPLTTC's base) -> **type-F** cross-outcome
+  -> [[Dementia Prevention and Modifiable Risk Factors]].
 - **Milk -> mortality — a single-cohort confounding artifact (an upper-arm case, no U required)
   `[2026-08-06, Guo]`.** The *high-milk-doubles-mortality* scare is the exposure-*harm* mirror of
   the protective-arm cases: Guo 2017's pooled milk -> mortality is null (RR 1.00, 0.93-1.07), and the only

@@ -166,8 +166,6 @@ protects, exactly as the comparator caveat above warns -> [[The Comparator Probl
 [[Should Adults Reduce Red and Processed Meat]].
 [@kim2017meatstroke]
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The CVD-mortality and T2D endpoints (Ramel 2023) — null, and WCRF-graded
 
 Ramel is the NNR2023 SR group's SR+MA of white meat -> CVD and T2D: 26 studies (23 prospective
@@ -260,8 +258,6 @@ measure *intake of poultry*, not the *substitution*, and the substitution signal
 mortality, unclear CVD/T2D) is imported, not estimated here.
 [@ramel2023whitemeat]
 
-</div>
-
 <div class="recent-update" data-last-updated="2026-09-02">
 
 ## The within-cohort SUBSTITUTION model (Etemadi 2017) — the swap the three MAs did not estimate `[2026-09-02]`
@@ -294,8 +290,6 @@ constant» [@etemadi2017].
   the swap — direction and rough magnitude) without **closing** it (one cohort, modelled not randomized).
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Cross-source composite — what Kim adds to Lupoli (type-F, endpoint extension)
 
@@ -373,8 +367,6 @@ to lean on an industry-funded abstract for the poultry->T2D question. Recorded a
 refutation of any source — symmetric standards apply to the funding note in both directions.
 [inferred from @ramel2023whitemeat]
 
-</div>
-
 <div class="recent-update" data-last-updated="2026-09-02">
 
 ## Open gaps (type-G)
@@ -425,8 +417,6 @@ refutation of any source — symmetric standards apply to the funding note in bo
   Lupoli is applied to Kim, so cashing the AWAITS did not tilt the page toward a *poultry is protective*
   pole. The stroke-mortality UNESTIMABLE arm is held as a gap, never as a reassuring null.
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Self-critique `[run 2026-09-01 after attaching Ramel's CVD-mortality + T2D endpoints]`
 
 - **The Ramel/Lupoli CVD-mortality agreement is the classic laundered-E trap — resisted.** Both pool
@@ -449,8 +439,6 @@ refutation of any source — symmetric standards apply to the funding note in bo
   The processed-vs-unprocessed divergence (Steinbrecher up, Villegas down) is held as a *gap on 2
   studies*, not a joined issue.
 
-</div>
-
 <div class="recent-update" data-last-updated="2026-09-02">
 
 ## Self-critique `[run 2026-09-02 after attaching Etemadi's substitution model]`
@@ -471,8 +459,6 @@ refutation of any source — symmetric standards apply to the funding note in bo
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Provenance / independence note
 
 **Three** gold MAs, two of them from **separate groups** and one (Ramel) from the NNR2023 SR group:
@@ -490,7 +476,5 @@ emissions — a named non-health axis the fabric records but does not price
 [@lupoli2021whitemeat]
 [@kim2017meatstroke]
 [@ramel2023whitemeat]
-
-</div>
 
 ## References

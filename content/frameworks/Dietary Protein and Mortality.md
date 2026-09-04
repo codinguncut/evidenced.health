@@ -16,7 +16,7 @@ relationships:
     - Dietary Fibre and Health
     - The Estimate-to-Action Gap
 created: 2026-08-05
-updated: 2026-08-19
+updated: 2026-09-03
 self_critiqued: 2026-08-19
 ---
 
@@ -226,6 +226,8 @@ processed meat in the US study vs fish intake in the present study.»
   plant-ward. Quality (DIAAS) is the bridge — plant sources are lower-DIAAS, so a plant-shifted diet
   needs more grams or complementation to hold the muscle target -> [[Protein Quality and the DIAAS Score]].
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Limits
 
 - **All observational; no causal claim.** Residual confounding (diet pattern, social class) is the
@@ -239,10 +241,12 @@ processed meat in the US study vs fish intake in the present study.»
   Seidelmann is **not independent** (shared Willett lineage + NHS/HPFS overlap); Budhathoki is **not
   independent** either (its JPHC data is pooled *inside* Naghshi's MA). So all three backings share a
   data or school lineage. A genuine independent-E lift AWAITS a cohort **not among Naghshi's \~32
-  constituents** — and note [@song2016] (the staged pairing candidate)
-  is NHS-HPFS and near-certainly pooled in Naghshi too, so it will *not* supply independence. The owed
+  constituents** — and note Song 2016 (the staged pairing candidate) is NHS-HPFS and near-certainly pooled in Naghshi
+  too, so it will *not* supply independence. The owed
   source is a large non-Western / non-Naghshi-pooled cohort that could also test whether the plant signal
   is independent of the fibre/whole-grain lever it may run through.
+
+</div>
 
 ## The plant-protein signal may be the fibre/pulse lever under another name (a gap)
 

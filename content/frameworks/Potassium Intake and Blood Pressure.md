@@ -15,7 +15,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-09-03
 self_critiqued: 2026-08-04
 ---
 
@@ -26,6 +26,8 @@ outcomes.** The one-sentence result: raising potassium lowers BP **in people wit
 in those without**, is safe for renal function in people with normal potassium handling, and tracks a
 lower stroke risk -- while the harder CV endpoints stay null and underpowered.
 [@aburto2013]
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The effect on blood pressure -- the HIGH-certainty core
 
@@ -45,11 +47,13 @@ it is a strong effect in one stratum diluted by a null in another:
 > (systolic 0.09 (−0.77 to 0.95) mm Hg; diastolic (0.56 (−0.42 to 1.55) mm Hg).»
 [@aburto2013]
 
-**This is a route-b effect-modification finding with an unusually clean signal** ([[Transportability]]'s
+**This is a route-b effect-modification finding with an unusually clean signal** (transportability's
 five routes): the normotensive SBP point estimate is **0.09 mmHg -- essentially zero**, not merely
 smaller. Aburto's own hedge is that the three normotensive trials were short and did not test whether
 potassium *prevents* a future BP rise, so *not effective in normotensives* is established for
 *lowering an already-normal BP*, not for long-run prevention.
+
+</div>
 
 ## The hard outcome -- stroke reaches significance, the rest do not
 
@@ -88,6 +92,8 @@ concrete evidence the two WHO reviews share one methodological template (bears o
 question in the Synthesis).
 [inferred from @aburto2013]
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Dose -- a plateau near 90-120 mmol/day, no monotone gradient
 
 > «high quality evidence showed that a higher potassium intake of 90-120 mmol/day reduced blood pressure
@@ -108,7 +114,9 @@ the sodium page's *monotone* reading is across *magnitude of reduction achieved*
 and even there it is monotone only *after multivariable adjustment* (Huang's raw slope is null) and
 author-flagged *exploratory*. So potassium-flat-by-intake and sodium-rising-by-reduction are **not
 opposed head-to-head**; both are consistent with the same decision default (raise toward \~90-120,
-reduce sodium, neither curve shows a knee that changes the action). -> [[Dose-Response]]
+reduce sodium, neither curve shows a knee that changes the action; the dose-response shape reasoning).
+
+</div>
 
 ## Safety -- null on lipids/catecholamines/renal (HIGH), with one contraindication
 

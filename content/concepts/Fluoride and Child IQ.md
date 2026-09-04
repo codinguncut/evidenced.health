@@ -7,7 +7,7 @@ sources: [NTP - Fluoride Neurodevelopment Monograph 2024, Taylor - Fluoride Chil
 cluster: fluoride
 confidence: low
 created: 2026-08-14
-updated: 2026-09-01
+updated: 2026-09-03
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -56,11 +56,14 @@ low-risk studies sampled populations above it), **not** an estimated inflection 
 bends. So «harm below 1.5 is unclear» is a statement about the *evidence density*, not a demonstrated
 safe threshold — and the within-study non-linearity is inconsistent (see Yu 2018 below).
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## The evidence base
 
 - 72 IQ studies; **19 low risk-of-bias** (high quality), of which **18 reported an inverse association**
-  [@ntp2024fluoride]; 46 of the 53 higher-RoB studies also inverse
-  [@ntp2024fluoride]. The 19 low-RoB studies: 15 populations, 5 countries (China, Mexico, Canada, India, Iran),
+  [@ntp2024fluoride];
+  46 of the 53 higher-RoB studies also inverse [@ntp2024fluoride].
+  The 19 low-RoB studies: 15 populations, 5 countries (China, Mexico, Canada, India, Iran),
   >7,000 children; fluoride measured in water (n=15), urine (n=15), serum (n=2).
   [@ntp2024fluoride]
 - **Companion meta-analysis** (NTP's own «DTT Meta-analysis, Taylor et al. 2024» — see the one-backing
@@ -77,6 +80,8 @@ safe threshold — and the within-study non-linearity is inconsistent (see Yu 20
     second line — see the section below and the one-backing note on [[Fluoride and Health]]. The
     published table SHARPENS the «direction consistent <1.5» summary above, which turns out to be
     **exposure-matrix-dependent** at low dose.
+
+</div>
 
 ## Taylor 2025: the published dose-response, and the low-dose exposure-matrix split
 
@@ -168,8 +173,6 @@ the MA by authority:
   residents on community/private water >1.5 mg/L — the stratum where the harm arm is live — but the
   finding does not directly transport to the 0.7 mg/L US fluoridation setting.
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Veneri 2023: an independent team, a near-shared study base, and an opposite RoB reading
 
 A **third** fluoride-IQ meta-analysis enters here — Veneri, Vinceti, Filippini et al. (CREAGEN /
@@ -255,8 +258,6 @@ only a mild effect on children's IQ» [@veneri2023fluoride]. So
 Veneri does not cleanly corroborate *either* pole: its spline sharpens the
 low-dose concern the same direction as Taylor's urinary <1.5 signal, and its quality-stratification
 undercuts the whole association. Read as a whole, it deepens the uncertainty rather than settling it.
-
-</div>
 
 ## The transportability problem — where the evidence was collected
 

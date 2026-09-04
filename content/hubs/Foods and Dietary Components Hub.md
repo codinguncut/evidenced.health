@@ -28,7 +28,7 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
   effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
 
-<div class="recent-update" data-last-updated="2026-09-02">
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Foods and beverages
 
@@ -48,6 +48,11 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   component — it re-expresses the same dietary-pattern signal, NOT independent backing for tea; the
   food-vs-component gap stays open. Heterogeneity claimed without I2; borderline (all-cause CI to 0.99);
   confidence low
+- [[Flavonoid Intake and Cognitive Function]] — the cognition sibling of the flavonoid-mortality cell:
+  flavonoid intake -> adverse cognitive events OR 0.90 (0.83-0.98), driven by cognitive DECLINE with
+  dementia + AD both NULL (Peng 2025 SR+MA, 26 studies / 269,574). Same FFQ-estimated exposure that does
+  NOT isolate the component; nested inside the Zhou F&V signal so type-F/G, NOT independent-E; fitted-
+  linear dose-response of unstated range; confidence low
 - [[Nut Consumption and Mortality]] — the `plant-foods` opener: nuts -> CHD/CVD/cancer/all-cause &
   cause-specific mortality (Aune dose-response MA, per 28 g/day). Sizeable inverse RRs, an observed
   plateau at 15-20 g/day, but observational-only (healthy-user ceiling, no MR); "20 g optimal" is a

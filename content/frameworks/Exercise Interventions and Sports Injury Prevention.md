@@ -14,7 +14,7 @@ relationships:
     - Exercise for Preventing Falls in Older Adults
     - Surrogate Outcomes
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-03
 ---
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important, not a surrogate**:
@@ -71,6 +71,8 @@ This is a *no meaningful effect* verdict, not *insufficient evidence*: the estim
 Note the boundary: this is *injury* prevention. It says nothing about stretching for range-of-motion
 or soreness (a different outcome the source does not adjudicate here).
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## Why strength beats the multi-component programmes — the dilution mechanism
 
 Strength training «proved significantly better than multiple exposure studies, even though all
@@ -84,7 +86,9 @@ compliance. [@lauersen2013injury]
 Decision consequence the authors draw: build prevention programmes «on the basis of well-proven
 single exposures» — i.e. do the thing that works (strength) at full dose rather than a diluted mix.
 [@lauersen2013injury]
-This is [[Structural Leverage]]-adjacent for programming: a concentrated proven lever > a broad thin one.
+This is structural-leverage-adjacent for programming: a concentrated proven lever > a broad thin one.
+
+</div>
 
 ## Acute vs overuse — both reduced, overuse slightly more
 

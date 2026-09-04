@@ -2,14 +2,14 @@
 type: framework
 question: Does higher fruit and vegetable intake reduce cardiovascular disease, cancer, and all-cause mortality — for whom, by how much per 200 g/day, with what dose-response shape, and is the benefit uniform across specific types?
 aliases: [Fruit and Vegetable Intake, Fruits and Vegetables, Fruit and Vegetables, F&V Intake, Five a Day, 5 a Day, Ten a Day, Fruit Intake, Vegetable Intake, Fruit and Vegetable Consumption]
-authors: [Aune, Dagfinn; Giovannucci, Edward; Boffetta, Paolo; Fadnes, Lars T; Keum, NaNa; Norat, Teresa; Greenwood, Darren C; Riboli, Elio; Vatten, Lars J; Tonstad, Serena; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela]
-sources: [Aune - Fruit Vegetable Mortality 2017, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017]
+authors: [Aune, Dagfinn; Giovannucci, Edward; Boffetta, Paolo; Fadnes, Lars T; Keum, NaNa; Norat, Teresa; Greenwood, Darren C; Riboli, Elio; Vatten, Lars J; Tonstad, Serena; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang]
+sources: [Aune - Fruit Vegetable Mortality 2017, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
 cluster: plant-foods
 nucleus: true
 confidence: low
 created: 2026-08-13
-updated: 2026-08-28
-self_critiqued: 2026-08-27
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - Nut Consumption and Mortality
@@ -23,6 +23,7 @@ relationships:
     - Potassium Intake and Blood Pressure
     - Vegetarian Dietary Patterns and Mortality
     - Free Sugars Intake
+    - Dementia Prevention and Modifiable Risk Factors
 ---
 
 **Domain-opener / nucleus for fruit-and-vegetable intake** (single gold source: Aune 2017, a
@@ -215,6 +216,8 @@ page: there is still no whole-food F&V RCT on a hard outcome. It confirms *direc
 second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
 [inferred from @nnr2023]
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series separates fruit from vegetables and shows their effects **diverge**. **Fruit** is
@@ -226,5 +229,52 @@ partly to BMI over-adjustment. Both plateau at \~200-400 g/d.
 [@bechthold2019]
 [@schwingshackl2017htn] Full cross-outcome
 grid -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Cognition / dementia outcome arm — a second observational lever, weaker than the CVD arm (2026-09-04)
+
+Zhou 2022 (MA of 16 observational studies, 64,348 older adults >=60, 9,879 cases; 9 cohort / 6
+cross-sectional / 1 case-control) extends F&V from the CVD/cancer/mortality arms above to a
+**cognitive-disorder** outcome — the first cognition evidence on this nucleus. It is **observational
+only, FFQ-dominated, and confidence stays low**; treat it as a weaker sibling of the CVD arm, not a
+new hard finding.
+
+- **Pooled highest-vs-lowest: OR 0.82 (95% CI 0.75-0.90), I2 35.3%** for cognitive disorders overall;
+  fruit alone 0.83 (0.77-0.89), vegetables alone 0.75 (0.70-0.80) — the same veg-slightly-stronger
+  ordering the CVD arm shows. [@zhou2022fruit] (The paper's own abstract headlines 0.79 [0.76-0.83], which is actually its mixed-gender
+  subgroup, not the Figure-2 pool — carry 0.82.)
+- **Outcome-specific, and Alzheimer's is NULL.** Cognitive impairment/MCI 0.76 (0.72-0.80) and
+  dementia 0.84 (0.78-0.91) are significant, but **Alzheimer's disease is null (0.88, 0.76-1.01)**
+  [@zhou2022fruit] — consistent with
+  a vascular/confounding-mediated route rather than a direct anti-neurodegenerative effect, i.e. the
+  cognition signal likely rides the same cardiometabolic pathway as the CVD arm, not an independent one.
+- **The design gradient is a reverse-causation tell.** The prospective **cohort** subgroup shows the
+  WEAKEST effect (0.83, I2 0%); cross-sectional (0.70) and case-control (0.68) — the designs where
+  prevalent cognitive disease can depress recalled/current intake — show the strongest. The association
+  shrinks as the design gets less vulnerable to reverse causation, so the pooled 0.82 is an upper bound
+  on any causal reading -> [[The U-Shaped Association Artifact]].
+- **Dose-response reported linear (P=0.03) but weak.** Rests on only **4 studies** (the only ones with
+  >=3 exposure categories) with no stated studied-range and no located knee/plateau, so it is "linear over
+  an unstated range on 4 studies" — weak evidence of a true linear curve, and the authors concede it «may have lacked
+  suﬃcient eﬀectiveness in quantifying the relevant dose-response model»
+  [@zhou2022fruit]. Not comparable
+  to Aune's 95-cohort splines above -> [[The Underivable Optimum]].
+- **Same measurement-error and confounding ceilings as the CVD arm, plus two Zhou-specific ones:**
+  FFQ/self-report recall bias (23 of 31 effect groups FFQ), and an **OR-as-RR approximation** the paper
+  flags as inflating the estimate — «using the OR as an approximation of the RR produces progressively
+  larger errors as the outcome rate rises above 1%» [@zhou2022fruit], and the case fractions here sit well above 1%, so the OR
+  overstates the RR -> [[Measurement Error in Dietary Assessment]]. No causal claim: «no casual
+  relationships could be established due to the observational nature of the studies»
+  [@zhou2022fruit].
+
+**Decision read:** F&V is a *candidate* dietary lever for cognitive-disorder risk in older adults,
+directionally the same as its CVD effect and plausibly mediated by it — not an additive,
+independently-established brain benefit. It ranks below the established dementia big rocks and is
+carried as a low-confidence food-group lever on [[Dementia Prevention and Modifiable Risk Factors]].
+
+</div>
 
 ## References

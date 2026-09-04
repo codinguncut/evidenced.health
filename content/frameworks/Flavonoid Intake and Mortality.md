@@ -8,9 +8,10 @@ cluster: beverage-cells
 confidence: low
 self_critiqued: 2026-08-31
 created: 2026-08-30
-updated: 2026-08-31
+updated: 2026-09-04
 relationships:
   related_to:
+    - Flavonoid Intake and Cognitive Function
     - Is the Food Category Doing Any Work
     - Tea Consumption and Cardiovascular Risk
     - Fruit and Vegetable Intake and Health
@@ -148,6 +149,18 @@ confidence and its Layer-3 read (eat the foods, do not chase a flavonoid target 
 estimates + the secondary-endpoint caveat: [[Vitamin and Mineral Supplements for Disease Prevention]];
 the Test-3 collinearity framing: [[Is the Food Category Doing Any Work]].
 [inferred from @sesso2022cosmos]
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## The cognition sibling (2026-09-04)
+
+The same food-vs-component logic runs on a second outcome axis: a gold SR+MA of flavonoid intake ->
+cognitive function (Peng 2025) finds a small inverse association with adverse cognitive events driven by
+*cognitive decline*, with **dementia and Alzheimer's both null**, on the same FFQ-derived exposure that
+cannot isolate the molecule -> [[Flavonoid Intake and Cognitive Function]] (which holds the figures). It
+confirms the food-vs-component G-gap stays open on cognition as it does here on mortality.
+
+</div>
 
 ## Where this sits
 

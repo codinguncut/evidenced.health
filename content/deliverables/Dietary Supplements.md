@@ -11,7 +11,6 @@ updated: 2026-09-03
 self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 ---
-<div class="recent-update" data-last-updated="2026-08-31">
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
 a daily multivitamin, vitamin D, fish oil, a cocoa-flavanol capsule — do essentially nothing for the
@@ -30,8 +29,6 @@ safe default.
 **The rule that sorts all of it:** a supplement that corrects a shortfall in someone who is short
 answers a completely different question from the same pill added to a person who already has enough.
 The marketing rarely marks which question it is answering; the sections below do.
-
-</div>
 
 ## Ask whether the person is short before asking whether the supplement works
 
@@ -391,8 +388,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
-<div class="recent-update" data-last-updated="2026-08-31">
-
 ## The bottom line
 
 - **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil, cocoa-flavanol
@@ -410,8 +405,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   and contested cardiovascular harms — exercise is the fracture lever.
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 

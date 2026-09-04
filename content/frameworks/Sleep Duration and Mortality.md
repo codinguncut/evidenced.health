@@ -8,7 +8,7 @@ cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-02
+updated: 2026-09-04
 self_critiqued: 2026-09-02
 relationships:
   related_to:
@@ -19,6 +19,7 @@ relationships:
     - Sleep Regularity and Mortality
     - Sleep Aids and Insomnia Treatment
     - Dementia Prevention and Modifiable Risk Factors
+    - Sleep and Cognitive Decline
 ---
 
 Opens the `sleep` cluster. Both short and long sleep are associated with higher mortality — a U-curve
@@ -39,6 +40,8 @@ one (*any deviation from 7-8 h shortens life*) is the error this page exists to 
 16 studies, 27 cohorts, 1.38 million people, 112k deaths, all-cause mortality; reference «7 to 8 h per
 night». Short-follow-up studies (<3 y) were «excluded a priori... to avoid measurements of sleep
 duration being too close to the time of death» — a reverse-causation guard on the *short* arm.
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The asymmetry is the finding — one arm is likely causal, the other a marker of illness
 
@@ -76,6 +79,13 @@ while those who **increased** sleep died mainly of «non-cardiovascular» causes
 expected if short sleep is causal and long sleep tracks illness.
 [@cappuccio2010]
 
+**The same arm-asymmetry replicates on the COGNITION/dementia endpoint (different outcome, same shape)
+.** A gold sleep -> cognition SR+MA (Zhang 2025) finds the long arm again the larger,
+mechanism-poor, age-dependent one — long sleep (> 8 h) drives dementia/AD while short sleep (< 7 h) does
+not, and long sleep reads as an APOE-driven preclinical marker (reverse causation), unadjudicated by any
+strong check. So the mortality U's *long arm is a marker of illness* reading transports to dementia
+-> [[Sleep and Cognitive Decline]], [[Dementia Prevention and Modifiable Risk Factors]].
+
 **Caveat on the leptin/ghrelin mechanism — the RCT evidence does not support it.** The appetite-hormone
 axis cited above is the popular *explanation*; a meta-analysis of sleep-manipulation RCTs found **no**
 significant pooled effect of sleep restriction on leptin or ghrelin, and concludes hedonic factors
@@ -84,6 +94,7 @@ hormonal route named here — so hold leptin/ghrelin as a discounted mechanism, 
 -> [[Sleep and Metabolic Health]] (Capers 2015, where this refinement and the T2D/adiposity evidence
 live).
 
+</div>
 
 ## Second outcome — dementia, and the arm-level split replicates cleanly
 

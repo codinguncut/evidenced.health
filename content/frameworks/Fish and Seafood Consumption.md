@@ -3,11 +3,11 @@ type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
 authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas; Lombardi, Marco; Chiabrando, Juan Guido]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020]
 cluster: fish-seafood
 nucleus: true
 confidence: medium
-self_critiqued: 2026-09-01
+self_critiqued: 2026-09-03
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -30,6 +30,8 @@ numbers** — a benefit (EPA/DHA -> neurodevelopment and coronary mortality) wei
 EFSA 2014 is the benefit arm of a two-part benefit-risk analysis (the methylmercury toxicity arm is
 the separate CONTAM 2012 opinion, cited here for the tolerable intake).
 [inferred from @efsaseafood2014]
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The bottom line — where the benefit sits
 
@@ -45,6 +47,8 @@ the separate CONTAM 2012 opinion, cited here for the tolerable intake).
   [@efsaseafood2014]
 
 [inferred from @efsaseafood2014]
+
+</div>
 
 ## The benefit side — three outcomes, all observational
 
@@ -217,8 +221,6 @@ and abstaining is itself the harmful option for the outcome the sensitive stratu
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Where this sits in the Layer-1 ranking
 
 Fish is a **small-to-moderate lever**, not a big rock:
@@ -234,8 +236,6 @@ Fish is a **small-to-moderate lever**, not a big rock:
   status, and is a flat zero once requirements are met.
 
 [inferred from @efsaseafood2014]
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-02">
 
@@ -309,6 +309,8 @@ risk) — and *eat fish twice a week* names neither. EFSA itself avoids the *fat
 labels because their use has been *«inconsistent and their meaning ill defined»*.
 [@efsaseafood2014] Replace the category with
 the species properties in any decision -> [[Is the Food Category Doing Any Work]] (Test 3).
+
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The pooled magnitudes EFSA could not supply — Jayedi 2020 umbrella (type-F refinement)
 
@@ -387,7 +389,7 @@ curve can be monotone on one outcome and flat on another -> [[The U-Shaped Assoc
 conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
 but may still help all-cause) is unchanged.
 
-<div class="recent-update" data-last-updated="2026-09-01">
+</div>
 
 ## Limits
 
@@ -420,8 +422,6 @@ but may still help all-cause) is unchanged.
 
 [inferred from @efsaseafood2014]
 
-</div>
-
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 
 - **Not overclaimed.** The Wei cognition outcome is stated observational throughout; dietary DHA RR 0.82
@@ -440,7 +440,7 @@ but may still help all-cause) is unchanged.
 - **Coherence, not validity** (R1): the loop is open — no operation grades the fish->cognition association
   against a realized dementia outcome.
 
-<div class="recent-update" data-last-updated="2026-09-01">
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -451,12 +451,11 @@ Fish is the series' clearest **outcome-specific** food: inverse for all-cause mo
 signal — a caution against reading a mortality/CVD benefit as a whole-metabolism benefit.
 [@schwingshackl2017mort]
 [@bechthold2019]
-[@schwingshackl2017t2d] Full grid ->
+[@schwingshackl2017t2d]
+[@schwingshackl2017htn] Full grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 dose-response NMA added]`
 
@@ -477,7 +476,5 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the omega-3-dose ->
   CV-event association against a realized outcome; the olive-oil/mineral-oil comparator threat is
   flagged as an unresolved bias in the underlying trials.
-
-</div>
 
 ## References

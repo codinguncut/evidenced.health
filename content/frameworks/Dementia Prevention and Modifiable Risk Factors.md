@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G]
-sources: [Livingston - Dementia Prevention 2024, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S]
+sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-30
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -22,6 +22,7 @@ relationships:
     - Smoking and Mortality
     - Blood Pressure Lowering and Cardiovascular Events
     - Physical Activity Dose and Mortality
+    - The Physical Activity Paradox
     - Alcohol and Mortality and Vascular Disease
     - Sleep Duration and Mortality
     - The U-Shaped Association Artifact
@@ -33,6 +34,11 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Vitamin and Mineral Supplements for Disease Prevention
     - Baseline Risk and the Relative-Absolute Split
+    - Ultra-Processed Food and Health Outcomes
+    - Is the Food Category Doing Any Work
+    - Fruit and Vegetable Intake and Health
+    - Flavonoid Intake and Cognitive Function
+    - Sleep and Cognitive Decline
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
@@ -64,6 +70,8 @@ modifiable risk factors». [@livingston2024]
   this is a named gap pending the *published-version* PDF (the source slug itself is already held; an token here would false-fire `reconcile awaits-arrived`, which keys on the slug, not
   the missing table — re-key only if a distinct published-version row is ever registered).
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## The 14 factors, their direction, and their life-course window
 
 The two 2024 additions to the 2020 list of 12 are **high LDL-C** and **uncorrected vision impairment**
@@ -74,21 +82,23 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 | Factor | Effect (Commission's cited RR/HR) | Life-course window |
 |---|---|---|
 | Less education | educational attainment protective; adulthood cognitive stimulation at work HR 0.77 (de-secondhanded below) -> [[Cognitive Stimulation at Work and Dementia]] | early + mid life |
-| Hearing loss | HR 1.35 (1.26-1.45), 50-cohort MA (Yu 2024, first-hand; de-secondhands the Commission's borrowed 1.37, 1.00-1.87) -> [[Hearing Loss and Dementia]] | midlife |
+| Hearing loss | HR 1.35 (1.26-1.45), 50-cohort MA (Yu 2024, first-hand; de-secondhands the Commission's borrowed 1.37, 1.00-1.87). But the *treatment* lever is weaker: the ACHIEVE RCT was **null overall** on 3-yr cognition (0.002 SD, p=0.96), positive only in a pre-specified high-baseline-risk subgroup — the large exposure PAF does not certify that fitting aids prevents dementia -> [[Hearing Loss and Dementia]] | midlife |
 | High LDL-C **(new 2024)** | +8% per 1 mmol/L (1.08, 1.03-1.14); >3 mmol/L HR 1.33 | midlife |
 | Depression | RR 2.25 (1.69-2.98), new MA (partly reverse-causal) | midlife |
 | Traumatic brain injury | RR 1.66 (1.42-1.93) | any age |
-| Physical inactivity | activity RR 0.80 (0.77-0.84) protective | midlife+ |
+| Physical inactivity | activity RR 0.80 (0.77-0.84) protective (Iso-Markku 2022, first-hand; de-secondhanded below) -> [[Physical Activity Dose and Mortality]] | midlife+ |
 | Diabetes | HR 1.24 per 5-yr *earlier* onset; midlife-specific | midlife |
 | Smoking | midlife RR 1.30 (1.18-1.45); no excess in former smokers | midlife |
-| Hypertension | untreated HR 1.42 (1.15-1.76) | midlife |
+| Hypertension | untreated HR 1.42 (1.15-1.76) observational; **treatment lever** RCT OR 0.87 (0.75-0.99) (Peters 2022 IPD, first-hand; interventional de-secondhanding below) -> [[Blood Pressure Lowering and Cardiovascular Events]] | midlife |
 | Obesity | midlife RR 1.31 (1.02-1.68) | midlife |
-| Excessive alcohol | >21 units/wk HR 1.22 (1.01-1.48) | midlife |
+| Excessive alcohol | >21 units/wk HR 1.22 (1.01-1.48); first-hand dementia dose-response (J-curve, protective arm unadjudicated, harm arm real) now held -> [[Alcohol and Mortality and Vascular Disease]] | midlife |
 | Social isolation | RR 1.57 (1.32-1.85) / 1.18 (1.08-1.30) | late life |
 | Air pollution | PM2.5 HR 1.03 (1.02-1.05) per 1 ug/m3 (de-secondhanded below) | late life (lifelong) |
 | Uncorrected vision **(new 2024)** | RR 1.47 (1.36-1.60) | late life |
 
 [@livingston2024]
+
+</div>
 
 ## The cognitive-stimulation number, de-secondhanded (F-refinement, 2026-08-14)
 
@@ -192,6 +202,179 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   -> [[Layer 1 - Ranking Interventions for a Stratum]]. So Wilker **quantifies and weakens** the
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## The physical-activity number, de-secondhanded (F-refinement, 2026-09-04)
+
+The *physical inactivity* cell above carries the Commission's *borrowed* activity figure — RR 0.80
+(0.77-0.84). Its **primary source is now held first-hand**: Iso-Markku 2022, a gold SR+MA + quality
+assessment of 58 prospective cohorts. The borrowed cell **is** this study's exact all-cause estimate — RR
+0.80 (0.77-0.84, n=257,983) — and Iso-Markku is the Commission's own ref 165, so this is a
+**de-secondhanding (type-F)**, **not** an `[E-independent]` second witness.
+
+- **The effect, first-hand, with the subtype breakdown the single cell cannot show:** «PA was associated
+  with a decreased risk of all-­ cause dementia (pooled relative risk 0.80, 95% CI 0.77 to 0.84, n=257 983),
+  Alzheimer's disease (0.86, 95% CI 0.80 to 0.93, n=128 261) and vascular dementia (0.79, 95% CI 0.66 to
+  0.95, n=33 870), even in longer follow-­ ups (>=20 years) for all-­cause dementia and Alzheimer's disease.
+  Neither baseline age, follow-­up length nor study quality significantly moderated the associations.»
+  [@isomarkku2022] The protection is strongest for
+  vascular dementia and weakest (but still significant) for AD — consistent with the shared cardiovascular
+  route this page already counts.
+- **It SURVIVES the reverse-causation / long-follow-up check — the payload the *assumed-causal* cell hides
+  -> [[The U-Shaped Association Artifact]].** The whole study exists to answer the objection that
+  «the association between PA and dementia appears absent when PA is measured before the age of 65 ... or in
+  follow-­ups longer than 10 years» [@isomarkku2022]
+  (prodromal dementia lowering activity). Within the 16 studies of >=20 years' follow-up the estimate holds:
+  RR 0.79 (0.71-0.87), mean baseline age 50.5 y, mean follow-up 27.6 y; AD holds too at RR 0.76 (0.64-0.90,
+  7 studies). Iso-Markku's verdict: «we did not find evidence to suggest that reverse causation or regression
+  dilution bias88 affected the observed associations between PA and dementias.»
+  [@isomarkku2022] This is the *strong-adjudication*
+  direction the U-Shaped concept asks for — a protective association that passes a long-follow-up exclusion,
+  not merely covariate adjustment.
+- **Honesty guard — the CLEANEST-design subset loses significance.** The point estimate is stable across
+  quality strata, but the three high-quality studies with a young (30-55) baseline AND >20-year follow-up
+  gave **RR 0.79 (0.62-1.01) — non-significant** [@isomarkku2022],
+  and the three high-quality AD studies gave 0.71 (0.42-1.22), also non-significant. So the reverse-causation
+  survival is *directional and consistent*, but the very cleanest cut is under-powered, not independently
+  significant. Read the 0.80 as a robust-but-observational association, not a demonstrated causal slope.
+- **The residual confound the design CANNOT remove — baseline cognitive reserve.** Iso-Markku is explicit
+  that surviving reverse causation is not surviving *all* confounding: «Physically active individuals may
+  have higher cognitive reserve to start with ... higher cogni- tive ability or other unmeasured confounding
+  factors, and not leisure-­time PA, may drive the association with a decreased inci- dence of dementia.»
+  [@isomarkku2022] Baseline cognitive ability is barely
+  measured or adjusted for in the pool, so a cognitive-reserve confound stays live — the unremovable
+  alternative behind the still-observational grade.
+- **ApoE ε4 does NOT modify the effect (route-b NULL) — reinforces *modifiable regardless of genotype*.**
+  «Most studies that investigated ApoE ε4 interactions found no significant interactions (9 of 11 studies)»
+  [@isomarkku2022]; carriers RR 0.81 (0.67-0.98) vs
+  non-carriers 0.72 (0.56-0.92), and «Our ApoE ε4 interaction analyses suggest no such modification for
+  all-­cause dementia, Alzheimer's disease or vascular dementia.»
+  [@isomarkku2022] So the activity lever is not one to
+  withhold or intensify by genotype — the same route-(b)-fails reading the Commission states generally, now
+  first-hand for PA specifically. (The between-group heterogeneity test was «invalid because of large
+  heterogeneity», so this is *absence of demonstrated modification*, not a proven identity.)
+- **Work-related PA runs the OPPOSITE way -> [[The Physical Activity Paradox]].** «The two studies examining
+  the association of work-­related PA and all-­cause dementia showed an opposite trend than other PA (RR
+  1.25, 95% CI 0.98 to 1.59)» [@isomarkku2022] —
+  directional only (2 studies, CI crosses 1). It corroborates the domain-flip on a new (dementia) outcome,
+  though Iso-Markku reads it partly as the cognitive-reserve/SES confound above.
+- **Publication bias detected.** «Funnel plots showed possible publication bias for all-­cause dementia and
+  Alzheimer's disease» [@isomarkku2022], for AD suggesting
+  under-reporting of null results — so the pooled protection may be modestly inflated.
+
+**Parameter table — the borrowed cell vs the first-hand source
+[inferred from @isomarkku2022; @livingston2024].**
+Unlike the air-pollution de-secondhanding, the headline number is the SAME quantity (the cell IS this
+source), so this is an *identity plus enrichment*, never a tension — the value is the facets the single
+cell cannot carry.
+
+| Parameter | Commission cell (borrowed) | Iso-Markku 2022 (first-hand) | Same quantity? |
+|---|---|---|---|
+| All-cause dementia RR | 0.80 (0.77-0.84) | 0.80 (0.77-0.84), n=257,983 | **YES** — the cell is this figure |
+| Subtype resolution | none (one cell) | AD 0.86 (0.80-0.93); vascular 0.79 (0.66-0.95) | new — cell cannot show |
+| >=20-year follow-up | not shown (assumed causal) | all-cause 0.79 (0.71-0.87); AD 0.76 (0.64-0.90) | new — the reverse-causation check |
+| Cleanest subset | not shown | 3 high-quality young-baseline >20y: 0.79 (0.62-1.01), **NS** | new — under-powered |
+| ApoE ε4 modification | *modifiable regardless of genotype* (general) | no interaction (9/11), «no such modification» | new — PA-specific route-b null |
+
+- **Layer-1: this firms an existing big rock, it does not add a factor
+  [inferred from @isomarkku2022].** Physical inactivity is already one of the
+  14 and already a cardiometabolic big rock; the de-secondhanding adds the reverse-causation robustness and
+  the subtype/ApoE detail, so the *dementia* benefit is a **second patient-important outcome** on the same
+  non-substitutable, pleiotropic activity lever (no drug replicates it) — strengthening its Layer-1 rank
+  rather than competing -> [[Layer 1 - Ranking Interventions for a Stratum]], [[Physical Activity Dose and Mortality]].
+  The lever is *be active* broadly, not a modality (as the section below states).
+- **G-gap — the unheld counter-source.** Iso-Markku's contribution is a direct rebuttal of an
+  individual-participant meta-analysis (Kivimäki 2019, BMJ, n approx 404,840) that reportedly found the
+  PA-dementia association absent beyond 10-year follow-up. That IPD is **not held** (and is a *different*
+  Kivimäki paper from [[Cognitive Stimulation at Work and Dementia]]); acquiring it would join the issue
+  ->.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
+
+The *hypertension* cell above carries the Commission's **observational risk-factor** figure — untreated
+hypertension HR 1.42. That is the wrong quantity for a decision: it says *having* high BP raises risk, not
+that *lowering* it helps. Peters 2022 supplies the missing INTERVENTIONAL arm first-hand — an IPD
+meta-analysis of **five seminal double-blind placebo-controlled** antihypertensive RCTs (HYVET, SYST-EUR,
+PROGRESS, ADVANCE, SHEP; «28 008 individuals recruited from 20 countries», 861 incident-dementia cases)
+[@peters2022bp]. This is the **strongest**
+de-secondhanding on the page: the others replace a borrowed *observational* cell with a better
+*observational* source; this replaces the observational risk factor with a **randomized treatment effect**
+(«Class I evidence» [@peters2022bp]).
+
+- **The effect, first-hand:** «Multilevel logistic regression reported an adjusted odds ratio 0.87 (95%
+  confidence interval: 0.75, 0.99) in favour of antihypertensive treatment reducing risk of incident
+  dementia with a mean BP lowering of 10/4 mmHg.» [@peters2022bp] A \~13% relative reduction in dementia odds from a sustained \~10/4 mmHg BP fall in older
+  hypertensives (mean age 69.1).
+- **In ABSOLUTE terms — a small per-person gain.** «Incident dementia occurred in 403 (2.9%) and 458
+  (3.3%) of those in active and placebo groups» among those with >=2 years' follow-up
+  [@peters2022bp] — an absolute risk difference of
+  **\~0.4 percentage points over median 4.3 years**, i.e. **NNT \~250 over \~4.3 years**. [inferred from @peters2022bp] The absolute effect is small and CONSERVATIVE: the trials
+  «stopped early upon achieving the es-timated primary cardiovascular endpoint»
+  [@peters2022bp], and dementia accrues slower than
+  the CV events that stopped them, so follow-up under-captures dementia and the true effect is plausibly
+  larger. This is also the LAST such evidence — «it is no longer ethical to recruit to a trial comparing
+  antihypertensive treatment to a placebo group» [@peters2022bp].
+- **No effect-modification -> route-(a), treat on baseline risk.** «There were no interactions by age,
+  baseline BP, or history of stroke» [@peters2022bp],
+  so the *relative* effect is uniform and stratification runs through baseline risk (absolute benefit), not
+  effect-modification -> [[Baseline Risk and the Relative-Absolute Split]]. Consistent with preDIVA (the
+  lever pays where BP is genuinely untreated) and with the treat-on-absolute-risk rule on
+  [[Blood Pressure Lowering and Cardiovascular Events]].
+- **The observational U-shape does NOT survive randomization -> [[The U-Shaped Association Artifact]].**
+  The abstract frames the problem: «Observational studies indicate U-shaped associations of blood pressure
+  (BP) and incident dementia in older age, but rando-mized controlled trials of BP-lowering treatment show mixed
+  results on this outcome in hypertensive patients» [@peters2022bp] — the apparent harm at *low* BP in old age. Under randomization the U vanishes: «There was no
+  evidence of a U-shaped re-lation of the effect at any age, nor any increase in risk of dementia with
+  treatment in the oldest age» [@peters2022bp], and
+  the dose-response is monotone — «a linear relationship between lower risk of dementia and lower BP, down
+  to at least 100 mmHg systolic and 70 mmHg diastolic» [@peters2022bp]. Studied-range caveat: 100/70 is the observed floor, not evidence benefit
+  continues below it.
+- **\~Half the effect runs through BP itself (mediation).** «attributing 53% (95% CI: 27%, 76%) of the
+  difference in dementia seen between the treatment and control groups to the effect of on systolic BP
+  rather than any other aspects of trial participation or pleotropic antihypertensive drug effects»
+  [@peters2022bp]; controlled indirect (BP-mediated)
+  risk difference −0.218% (−0.311%, −0.109%). So the BP channel is real but not exclusive — some benefit is
+  drug/other.
+- **Outcome-specific — dementia diagnosis yes, cognitive-decline no.** «In comparison to the SPRINT-MIND
+  trial, we found no effect of treatment on cognitive decline» [@peters2022bp] (attributed partly to MMSE insensitivity). The effect is on the
+  *dementia-diagnosis* endpoint, not the continuous MMSE decline endpoint — an honest outcome-specificity
+  caveat.
+
+**Parameter table — the observational cell vs the interventional source
+[inferred from @peters2022bp; @livingston2024].**
+The headline numbers are **NOT the same quantity** — an observational risk-factor association (having
+untreated hypertension) versus a randomized treatment effect (lowering BP) — so this is a genuine
+design-upgrade de-secondhanding, not an identity-plus-enrichment.
+
+| Parameter | Commission cell (observational) | Peters 2022 (interventional, first-hand) | Same quantity? |
+|---|---|---|---|
+| Estimate | untreated HR 1.42 (1.15-1.76) | treatment OR 0.87 (0.75-0.99) | **NO** — risk-factor RR vs RCT treatment effect |
+| Design | observational cohorts | IPD MA of 5 double-blind placebo RCTs («Class I») | NO — the design upgrade is the point |
+| What it licenses | *high BP is a risk marker* | *lowering BP reduces dementia* (a decision) | NO — marker vs lever |
+| Dose-response | (implied U-shape in old age) | linear to 100/70, no U at any age | new — the interventional refutation |
+| Absolute effect | none given | ARD \~0.4pp / NNT \~250 over 4.3y (conservative) | new — cell cannot show |
+| Effect-modification | not resolved | none by age / baseline BP / stroke history | new — route-(a) |
+
+- **Layer-1: this firms an existing big rock AND sizes the drug-vs-lifestyle rock
+  [inferred from @peters2022bp].** Hypertension is already one of the 14 and
+  a cardiometabolic big rock; the interventional evidence converts the *dementia* benefit from an assumed
+  PAF into a demonstrated randomized effect, adding a **second patient-important outcome** to the same BP
+  lever already carried for CV events -> [[Blood Pressure Lowering and Cardiovascular Events]]. Because a
+  mature, low-harm antihypertensive class *has* the RCT dementia evidence while lifestyle BP-lowering does
+  not, the drug is a genuine Layer-1 comparator here (the substitution principle), though the two are
+  additive on the shared BP channel rather than exclusive
+  -> [[Layer 1 - Ranking Interventions for a Stratum]].
+- **NOT `[E-independent]` of the CV-events evidence.** The five trials sit inside BPLTTC's 48-trial base
+  and the author lists overlap (Chalmers, Woodward, Anderson — George Institute), so the shared RCT
+  substrate defeats independence on the BP-lowering *mechanism*. What is new is the OUTCOME (dementia), a
+  new-endpoint extension of the same trials, not a second independent witness. [inferred from @peters2022bp; @bplttc2021]
+
+</div>
 
 ## What the framework changes about what to do
 
@@ -392,6 +575,205 @@ as the diet and periodontal levers apply, plus a fourth that is specific and dec
   and any *supplement* dementia-prevention claim is refuted at RCT grade; the observational dietary
   signal is a reason to prefer oily fish within a good diet, not to prescribe capsules.
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
+## Ultra-processed food — the first FOOD-GROUP dietary lever, observational candidate, NOT one of the 14 (2026-09-03)
+
+Until now this page held diet **only at the pattern altitude** (Mediterranean/MIND) plus the omega-3 and
+periodontal candidate levers — no *food-group* lever. Ultra-processed food (UPF, NOVA4) is the first, and
+like the diet-pattern and omega-3 levers it is a **candidate held at association grade only**, not a 15th
+factor. A gold SR+MA (Henney 2023; PROSPERO CRD42023388363, Newcastle-Ottawa + NutriGrade, **the first**
+SR+MA on NOVA-UPF -> dementia; 10 observational studies, 8 longitudinal, **867,316 participants**) finds
+**high (vs low) UPF intake -> all-cause dementia RR 1.44 (95% CI 1.09-1.90), p=0.02, I2=97.0%**
+[@henney2023upf]. The full outcome arm, the
+category-vs-composition critique and the modest-magnitude framing live on
+[[Ultra-Processed Food and Health Outcomes]]; only the dementia-lever verdict is here.
+
+**Why it stays a candidate, not a 15th factor
+[inferred from @henney2023upf].** The same discounts as the diet-pattern,
+periodontal and omega-3 levers apply, and two of them are directly evidenced in the SR:
+
+- **No robust dose-response.** Moderate UPF intake is null (RR 1.12, 0.96-1.31, p=0.13), so «we did not
+  demonstrate a robust dose–response relationship between the quantity of UPFs consumed and dementia
+  prevalence» [@henney2023upf]; and every dementia
+  **subtype** is individually non-significant (AD 1.08 (0.79-1.48), vascular 2.05 (0.39-10.90), MCI 2.01
+  (0.75-5.42), dementia-excl-MCI 1.24 (0.93-1.65)) [@henney2023upf].
+  Only the pooled all-cause figure clears significance, at near-total heterogeneity (I2=97%).
+- **Mediation by the already-counted cardiometabolic rocks is DIRECTLY shown, not just plausible.** The
+  association was **lost** when restricted to studies adjusting for type 2 diabetes (1.47, 0.97-2.00,
+  p=0.06) and total energy intake (1.26, 0.95-1.67, p=0.09), while surviving BMI/CVD/SES adjustment
+  [@henney2023upf]. So a raw UPF -> dementia RR runs
+  substantially through diabetes and total energy — levers this page already counts — rather than being a
+  clean additive PAF slice. It also **lost significance at a 10,000-participant sample-size cutoff**
+  («results lose significance when performing sensitivity analysis based on a sample size cut-off point of
+  10,000 par- ticipants») [@henney2023upf] — a small-study
+  contribution -> [[The U-Shaped Association Artifact]].
+- **The exposure is reviewer-assigned and FFQ-measured.** Only 1 of 10 studies directly referenced NOVA;
+  «nine assessed various foods that were retrospectively defined as ultra-pro- cessed by our research team
+  using NOVA criteria» [@henney2023upf], with «no
+  pre-determined cut-off... Moderate intake in one population may exceed high intake in another»
+  [@henney2023upf], all FFQ-based
+  -> [[Measurement Error in Dietary Assessment]], [[Is the Food Category Doing Any Work]].
+- **Reverse causation over the long prodrome** stays live (the SR does not resolve temporality), and RCTs
+  are ethically ruled out — «RCTs assessing the association between UPFs and incident cognitive
+  impairment/dementia would be ethically unjustifiable» [@henney2023upf]
+  — so the observational ceiling is by design.
+
+So the lever is `confidence: low`, mediated-not-additive, and does not reorder the cardiometabolic big
+rocks; it reinforces them (reducing UPF is a *route* to pulling diabetes/obesity/energy-balance, the same
+mediation reading as the Mediterranean-diet lever above). The broader cognitive-outcome evidence (global
+cognition, cognitive domains and decline, beyond dementia diagnosis) now lands via a second SR (Smith
+2025; **narrative** synthesis of five observational studies, **preprint-provisional** — medRxiv, not yet
+peer-reviewed, published version may differ) and **does not change the lever's grade**. It is a
+vote-count with no pooled magnitude (3/5 studies a significant adverse main effect, all five an adverse
+subgroup effect), it **shares the Li 2022 UK Biobank primary** with Henney's pool (F-refinement, not
+independent corroboration), and it carries the same diet-quality / composition confounding — «the adverse
+effects of UPF exposure on cognitive outcomes remained whilst controlling for adherence to a healthy diet
+in two out of the three studies (Bhave et al., 2024; Li et al., 2022)»
+[@smith2025upf], while diet quality modified
+it in the third. One decision-relevant frame it surfaces: replacing 10% of UPF weight with equivalent
+less-processed food was estimated at a **19% lower all-cause dementia risk (HR 0.81, 95% CI 0.74-0.89)**
+in Li 2022 [@smith2025upf] — observational,
+the shared primary, same confounding caveat. The lever stays `confidence: low`. Full broader-cognition
+detail: [[Ultra-Processed Food and Health Outcomes]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Fruit and vegetables — a second FOOD-GROUP dietary lever, observational candidate, NOT one of the 14 (2026-09-04)
+
+Where UPF is the *harm*-direction food-group lever, fruit-and-vegetable intake is the *protective*-direction
+one — and like the diet-pattern, omega-3 and UPF levers it is a **candidate held at association grade only**,
+not a 15th factor. A gold SR+MA (Zhou 2022; MOOSE, 16 observational studies — 9 cohort / 6 cross-sectional /
+1 case-control, **64,348 older adults >=60, 9,879 cases**) finds **high (vs low) F&V intake -> cognitive
+disorders OR 0.82 (95% CI 0.75-0.90), I2 35.3%** [@zhou2022fruit] (the paper's abstract headlines 0.79, its mixed-gender subgroup, not the
+Figure-2 pool — carry 0.82). Fruit alone 0.83 (0.77-0.89), vegetables alone 0.75 (0.70-0.80). The full
+outcome arm and the CVD-arm comparison live on [[Fruit and Vegetable Intake and Health]]; only the
+dementia-lever verdict is here.
+
+**Why it stays a candidate, not a 15th factor
+[inferred from @zhou2022fruit].** The same discounts as the
+diet-pattern, periodontal, omega-3 and UPF levers apply, and three are directly evidenced in the SR:
+
+- **Alzheimer's is NULL, so the signal is not a direct anti-neurodegenerative effect.** Cognitive
+  impairment/MCI 0.76 (0.72-0.80) and dementia 0.84 (0.78-0.91) are significant, but AD is null (0.88,
+  0.76-1.01) [@zhou2022fruit] —
+  consistent with the association riding the vascular/cardiometabolic route this page already counts, i.e.
+  mediated-not-additive, the same reading as the Mediterranean-diet and UPF levers.
+- **The design gradient is a reverse-causation tell.** The prospective **cohort** subgroup shows the
+  WEAKEST effect (0.83, I2 0%); cross-sectional (0.70) and case-control (0.68) — the designs where prevalent
+  cognitive disease can depress recalled/current intake — the strongest. The association shrinks as the
+  design gets less vulnerable to reverse causation over the long prodrome
+  -> [[The U-Shaped Association Artifact]], so the pooled 0.82 is an upper bound on any causal reading.
+- **No robust dose-response, plus two measurement discounts.** The reported linear trend (P=0.03) rests on
+  only 4 studies (the only ones with >=3 exposure categories) with no located knee and no stated studied
+  range — weak evidence of a true curve. Exposure is FFQ-dominated (23 of 31 effect groups), so dietary
+  measurement error binds
+  -> [[Measurement Error in Dietary Assessment]], and the paper flags an **OR-as-RR approximation** that
+  overstates the RR at these case fractions «using the OR as an approximation of the RR produces
+  progressively larger errors as the outcome rate rises above 1%»
+  [@zhou2022fruit]. No causal claim is
+  made «no casual relationships could be established due to the observational nature of the studies»
+  [@zhou2022fruit].
+
+So the lever is `confidence: low`, mediated-not-additive, and does not reorder the cardiometabolic big
+rocks; it reinforces them (more F&V is a *route* to the same vascular/metabolic levers, and the AD-null +
+cohort-attenuation both point that way). No independence (E) is claimed with any other diet lever here. The
+page grade stays `medium` on the Commission's consensus backing; the F&V slice is the weaker `low` leg.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Flavonoids — the COMPONENT side of the food-group levers, observational candidate, NOT one of the 14 (2026-09-04)
+
+Where fruit-and-vegetable intake (Zhou, above) is a whole-food-group lever, dietary flavonoids are a
+**bioactive component nested inside** those foods — the component-side sibling, and like every diet lever
+above a **candidate held at association grade only**, not a 15th factor. A gold SR+MA (Peng 2025; 26
+observational studies, **269,574 participants**, 15 cohorts) finds **high (vs low) flavonoid intake ->
+adverse cognitive events OR 0.90 (95% CI 0.83-0.98), I2 62.2%**, and better continuous cognitive test
+scores (β 0.03, 0.02-0.04) [@peng2025flavonoid]. The
+full subclass table, the fitted-linear dose-response and the food-vs-component critique live on
+[[Flavonoid Intake and Cognitive Function]]; only the dementia-lever verdict is here.
+
+**Why it stays a candidate, not a 15th factor — and specifically a COMPONENT of the F&V lever, not an
+additional one [inferred from @peng2025flavonoid].** The same discounts as
+the F&V lever apply, and three are directly evidenced in the SR:
+
+- **Both hard diagnostic endpoints are NULL — only the soft endpoint moves.** The pooled signal is carried
+  by *cognitive decline* (OR 0.88, 0.79-0.98); **dementia (OR 0.97, 0.79-1.19) and Alzheimer's (OR 0.90,
+  0.69-1.17) are both null** [@peng2025flavonoid],
+  echoing the AD-null in the Zhou F&V pool — consistent with a vascular/cardiometabolic route already
+  counted, i.e. mediated-not-additive. The author reads the null as a power caveat, so dementia/AD is
+  insufficient-evidence, not established no-effect.
+- **Doubly-estimated FFQ exposure + confounding in the healthy-user direction.** Flavonoid intake is FFQ
+  food reports multiplied through a food-composition database (two error sources), and meta-regression
+  found «BMI and smoking status were significant confounders in the relationship between dietary
+  flavonoids consumption and cognitive function, potentially overestimating the positive effects if not
+  adjusted for» [@peng2025flavonoid]
+  -> [[Measurement Error in Dietary Assessment]], [[Is the Food Category Doing Any Work]].
+- **The flavonoid MA does not isolate the flavonoid.** The exposure is computed from the same fruit/veg/tea
+  whose contribution it would need to be separated from, so it is a re-expression of the F&V signal in
+  flavonoid units, not an independent handle — no biomarker, no isolated-flavonoid arm, no MR. So Peng and
+  the Zhou F&V MA are **NOT independent corroboration (not type-E)**: the exposures are nested and share
+  the observational substrate; they are a component/food-group **type-F** pair leaving the food-vs-component
+  **G-gap** open -> [[Flavonoid Intake and Cognitive Function]].
+
+So the lever is `confidence: low`, mediated-not-additive, and does not reorder the cardiometabolic big
+rocks; it reinforces the F&V lever rather than adding to it (it is a *part* of it). No independence (E) is
+claimed. The page grade stays `medium` on the Commission's consensus backing; the flavonoid slice is a
+weaker `low` sub-leg of the F&V lever.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Sleep disorders — a non-diet candidate lever, NOT one of the 14 (2026-09-04)
+
+Sleep is the first **non-diet, non-activity** candidate lever on this page, and — like the diet levers
+above — it is a **candidate held at association grade only**, not a 15th factor. A gold SR+MA (Zhang 2025;
+**76 longitudinal cohort studies**, all Newcastle-Ottawa > 7, eight sleep-disorder types x four cognitive
+outcomes, non-demented adults) finds every major sleep disorder associated with higher dementia / decline
+risk: SRMD (restless-legs) -> VD **2.53 (1.30-4.93)**, EDS -> VD 1.85 (1.39-2.47), long sleep > 8 h -> AD
+**1.66 (1.44-1.91, I2 0%)** and dementia 1.43 (1.21-1.69), OSA/SRBD -> AD 1.39 (1.16-1.68), poor sleep
+quality -> dementia 1.17 (1.03-1.32), insomnia -> dementia 1.13 (1.04-1.23); circadian-rhythm disturbance
+and RBD are null [@zhang2025sleep].
+The full disorder x outcome map, the measurement check and the arm-level adjudication live on
+[[Sleep and Cognitive Decline]]; only the dementia-lever verdict is here.
+
+**Why it stays a candidate, not a 15th factor
+[inferred from @zhang2025sleep].** The same discounts as the diet
+levers apply, plus a duration-arm hazard specific to sleep:
+
+- **Entirely observational, high heterogeneity, publication bias present.** Most pools carry I2 60-90%;
+  publication bias was «found ... for multiple sleep disorders»
+  [@zhang2025sleep] (trim-and-fill kept
+  estimates consistent), and meta-regression left the heterogeneity only «partially accounted for».
+- **The long-sleep -> dementia arm is a likely PRECLINICAL MARKER, not a cause -> [[The U-Shaped Association Artifact]].**
+  The U is asymmetric and outcome-specific: short sleep (< 7 h) hits cognitive *decline* but «was not
+  associated with future risk of all-cause dementia and AD», while long sleep (> 8 h) drives the
+  dementia/AD arm and «is closely associated with age» (concentrated in the >= 70 y elderly), a «preclinical
+  marker driven by the APOE ε4 carrier gene»
+  [@zhang2025sleep]. Zhang runs only weak
+  checks (baseline-only exposure, fixed follow-up; no MR, no referent-correction), so the long arm is
+  **unadjudicated** — do NOT read it as *sleep less to avoid dementia*.
+- **The VD-loaded disorders (SRMD, EDS, OSA) plausibly run through the cerebrovascular route already
+  counted**, so their benefit is largely mediated-not-additive to the cardiometabolic rocks, not a clean
+  15th PAF slice. The insomnia signal actually STRENGTHENS under objective measurement (objective insomnia
+  RR 1.26, I2 26.1% vs pooled 1.09, I2 77.7%), arguing against a pure self-report artifact on that arm.
+- **No interventional -> incidence evidence.** No trial here tests whether treating a sleep disorder lowers
+  dementia incidence -> a CBT-I / CPAP -> cognitive-outcome study
+  -> [[Sleep Aids and Insomnia Treatment]], [[Sleep Apnea Treatment and Cardiovascular Risk]].
+
+So the lever is `confidence: low`, mediated-not-additive on the vascular arm, and screening-relevant
+(route-a prognostic: a sleep disorder marks higher baseline risk) rather than a demonstrated intervention;
+it does not reorder the cardiometabolic big rocks. The page grade stays `medium` on the Commission's
+consensus backing; the sleep slice is the weaker `low` leg. The prior JNNP landmark it updates (Xu 2020)
+is unheld ->.
+
+</div>
+
 ## The RCT leg — FINGER bounds the observational PAF (F-refinement, 2026-08-05)
 
 The whole map above is **observational** — modelled PAFs on relative risks "assumed causal." The one
@@ -418,6 +800,78 @@ neither confirmed nor overturned by FINGER; the trial de-risks the direction whi
 the incidence claim stay unproven -> the earlier secondhand "FINGER-family" reading below is the
 meta-analytic bound.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## The diabetes lever splits by DRUG CLASS — the pharmacotherapy channel opened (2026-09-04)
+
+Until now this page counted diabetes only as a **shared cardiometabolic incidence rock** — pull it
+(by lifestyle or otherwise) and dementia incidence falls with it. Kuate Defo's umbrella opens a
+second, distinct decision *inside* the already-diabetic stratum: for the large population **already on
+a glucose-lowering drug** (T2D affects \~450M; metformin is first-line), **which class** they are on is
+itself a cognition-relevant contrast. This is the pharmacotherapy-taper lens the telos holds standard
+drugs for — a standard drug's effect on a non-primary outcome (dementia) is a stratum-level
+decision-change.
+
+**The incidence anchor first (confirms the shared-rock framing).** Across the 100-review umbrella,
+diabetes raises **AD RR 1.39 (1.16-1.66) to 1.57 (1.41-1.75)** and, more strongly, **VaD RR 1.91
+(1.61-2.25) to 2.49 (2.09-2.97)** [@kuatedefo2023].
+Two Mendelian-randomization studies did **not** find a T2D->dementia effect (higher fasting glucose did
+raise AD odds) — a genetic-instrument caveat that the observational incidence signal may be partly
+confounded, consistent with this page already counting diabetes *through* its cardiometabolic company.
+
+**The drug-class split (treatment MA of 27 observational studies, N=3,046,661; incident dementia).**
+Random-effects RR vs unexposed/comparator, heterogeneity I2 in brackets:
+
+- **Lower risk:** metformin **0.83 (0.71-0.96)** [I2 99.1%]; GLP-1 RA **0.35 (0.16-0.78)** [98.5%];
+  SGLT2i **0.39 (0.20-0.76)** [96.1%]; pioglitazone **0.74 (0.55-0.98)** [74.7%]; all
+  thiazolidinediones **0.770 (0.593-0.999)** [97.8%].
+- **Neutral:** DPP-4i 1.04 (0.79-1.38); alpha-glucosidase inhibitors 1.04 (0.89-1.22); insulin
+  0.97 (0.78-1.20).
+- **Higher risk:** meglitinides **1.87 (1.43-2.45)** [I2 0.0%, only 2 studies]; sulphonylureas
+  **1.39 (1.04-1.87)** [99.8%].
+
+[@kuatedefo2023]
+
+**Confounding by indication is the load-bearing threat — read every number through it.**
+Every contrast is observational, and the comparators are a *mix* (metformin vs sulphonylurea; drug vs
+no-drug; drug vs «other antidiabetic monotherapy»). Metformin is **first-line** (earlier-stage,
+better renal function, healthier adherers); sulphonylureas / meglitinides / insulin mark **later-line
+or more severe** disease. So part of metformin's «benefit» and the sulphonylurea/meglitinide «harm» is
+the *same disease-severity / line-of-therapy contrast*, not a drug acting on the brain. The paper's own
+tells align: the harm signals are «in line with their association with severe hypoglycaemia»
+[@kuatedefo2023], and metformin's benefit
+attenuates with longer follow-up (meta-regression pinteraction=.039) — «the observed benefit of
+medication may dissipate in longer-term studies and there may exist time-related biases in the efficacy
+of antidiabetic treatments» [@kuatedefo2023],
+the signature of prevalent-user / healthy-adherer bias.
+
+**Certainty is LOW-to-VERY-LOW across the board, and the umbrella does not grade it for us.** Four
+deflators stack: (i) **no RCT** with incident dementia — «most studies ... have been cohort studies and
+not RCTs» [@kuatedefo2023]; (ii) **I2 \~
+99%** for most classes (within-class studies point opposite ways — metformin ranges from 1.68 harmful to
+0.52 protective), so a barely-significant pool hides gross inconsistency; (iii) **publication bias**
+detected (Egger p=.041); (iv) **mixed review quality** («only 53.3% of systematic reviews and 72.9% of
+meta-analyses were of good quality» [@kuatedefo2023]).
+The umbrella used AMSTAR + Newcastle-Ottawa risk-of-bias only — **no convincing/suggestive credibility
+grade** per class. And in **sensitivity analysis TZD and sulphonylurea lost significance** (metformin
+held) — so two of the ten signals are already fragile on the authors' own re-analysis. Metformin's
+effect was also significant only in **US/Western** populations, **null in Eastern** (RR 1.06,
+0.79-1.41) — an unexplained region split.
+
+**What it changes about what to do.** For someone with T2D, the evidence *leans* toward metformin /
+GLP-1 RA / SGLT2i / pioglitazone over sulphonylureas / meglitinides on the cognition axis — but the
+lean is soft (low certainty, heavily confounded) and per-person **agent selection is prescriber-zone,
+out of scope**. What is IN scope is the appraisal: the newer agents (GLP-1 RA, SGLT2i) — already ranked
+high for CV, renal, and weight outcomes -> [[GLP-1 Non-Cardiometabolic Effects and Safety]],
+[[SGLT2 Inhibitors]] — carry a *possible additional* cognition dividend, not an established one; and the
+old secretagogues carry a *possible* cognitive penalty that tracks their hypoglycaemia risk. This is a
+**drug-vs-drug** refinement *within* the diabetes lever, NOT a lifestyle-vs-drug rock-sizing: lifestyle
+prevention of T2D incidence (the shared rock this page already counts, and the structural lever that
+removes the driver -> [[Lifestyle vs Metformin for Diabetes Prevention]]) is untouched and still ranks
+above managing which pill.
+
+</div>
+
 ## Scope guard
 
 Multicomponent prevention RCTs (FINGER-family) show only a **small** cognitive-composite benefit (Cochrane
@@ -443,6 +897,8 @@ Coley confirms age, APOE ε4, inactivity, low MMSE raise incidence), but it does
 pooled trial search could not find. Coley is the pooled COMPOSITE of the two RCTs already cited here (shared
 authorship, FINGER excluded), so it is corroboration of the null by re-analysis, not an independent third
 witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds the full responder verdict.
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Self-critique `[run 2026-08-05, before commit]`
 
@@ -489,7 +945,47 @@ witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds th
   structural/policy lever that does not reorder the personal rocks. No `confidence:` change — the
   page stays `medium` on the Commission's consensus backing; the air-pollution slice is, if anything,
   weaker first-hand than the borrowed cell implied.
+- **F&V candidate lever added (2026-09-04, Zhou 2022).** Filed as a second FOOD-GROUP dietary lever
+  (protective direction, sibling to the UPF harm lever), an observational candidate NOT a 15th factor, held
+  at `confidence: low`. Not overclaimed: the pooled OR 0.82 is stated observational/FFQ, the abstract's 0.79
+  is corrected to the Figure-2 pool, and the AD-null + cohort-attenuation + OR-as-RR discounts are surfaced
+  so it cannot read as a direct anti-dementia effect. Not laundered-E: Zhou shares the observational cohort
+  literature and the vascular mechanism with the other diet levers, so it is flagged mediated-not-additive.
+  No tension filed. Full outcome arm on [[Fruit and Vegetable Intake and Health]], not re-litigated here.
+- **Flavonoid component-side lever added (2026-09-04, Peng 2025).** Filed as the COMPONENT side of the
+  F&V lever (nested inside it), an observational candidate NOT a 15th factor, held at `confidence: low`.
+  Not overclaimed: the any-event OR 0.90 is stated observational/FFQ, and the dementia-null + AD-null +
+  BMI/smoking-confounding discounts are surfaced so it cannot read as a direct anti-dementia effect. Not
+  laundered-E: the flavonoid exposure is COMPUTED from the same fruit/veg/tea as the Zhou F&V lever
+  (nested exposure) and shares the observational substrate, so Peng and Zhou are explicitly a component/
+  food-group **type-F** pair, NOT independent corroboration — no `[E-independent]` minted, and this was
+  the ingest's crux check. No tension filed. Full subclass/dose-response/food-vs-component detail on
+  [[Flavonoid Intake and Cognitive Function]], not re-litigated here.
+- **Physical-activity de-secondhanding added (F-refinement 2026-09-04, Iso-Markku 2022).** The Commission's
+  borrowed activity cell (RR 0.80, 0.77-0.84) is de-secondhanded to its first-hand SR+MA, whose headline is
+  the *identical* figure (n=257,983) — so filed as F (an identity-plus-enrichment), **not** E: Iso-Markku is
+  Livingston's ref 165 and the Commission rests on this evidence base, flagged at the. Not
+  overclaimed: the reverse-causation survival (>=20y RR 0.79) is stated *with* the honesty guard that the
+  cleanest young-baseline high-quality subset goes non-significant (0.79, 0.62-1.01) and *with* the residual
+  cognitive-reserve confound the design cannot remove — so the section cannot read as a demonstrated causal
+  slope. The ApoE ε4 route-b null and the work-related-PA opposite trend (RR 1.25, CI crosses 1) are stated
+  at their own (weak) strength. The parameter table's headline row is *Same quantity? YES*, which is the
+  de-secondhanding claim itself (not a tension). The unheld Kivimäki 2019 PA-IPD null it rebuts is named as a
+  G-gap with a registered `[AWAITS]` placeholder, not asserted as fact. No `confidence:` change — the page
+  stays `medium` on the Commission's consensus backing; PA was already a counted big rock, so this firms it
+  rather than adding a factor. Full extraction on [[Physical Activity Dose and Mortality]]'s sibling source
+  page, not re-litigated here.
+- **Sleep candidate lever added (2026-09-04, Zhang 2025).** Filed as the first non-diet/non-activity
+  candidate lever, an observational candidate NOT a 15th factor, held at `confidence: low`. Not overclaimed:
+  every RR is stated observational with its I2, publication bias is disclosed, and the long-sleep -> dementia
+  arm is explicitly flagged a likely preclinical marker (age-dependent, APOE-driven, weak-checks-only) so it
+  cannot read as *sleep less*. The objective-insomnia strengthening is scoped to insomnia. Not laundered-E:
+  single source, no independence claimed; the VD-loaded disorders are flagged mediated-not-additive via the
+  cerebrovascular route already counted. No tension filed against the unheld Xu 2020 landmark — a G-gap with
+  a registered `[AWAITS]` handle. Full decomposition on [[Sleep and Cognitive Decline]], not re-litigated here.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
+
+</div>
 
 ## References

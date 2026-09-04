@@ -8,7 +8,7 @@ cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-09-01
+updated: 2026-09-03
 self_critiqued: 2026-09-01
 relationships:
   related_to:
@@ -23,7 +23,6 @@ relationships:
     - Menopause and the Shifting Levers
     - Allostatic Load and Mortality
 ---
-<div class="recent-update" data-last-updated="2026-09-01">
 
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
 (Taylor's personal-fat-threshold hypothesis) and a population-outcome meta-analysis (Kramer's
@@ -33,8 +32,6 @@ tracks total fat mass or BMI.** This reframes three decisions the fat-mass / BMI
 at risk (some normal-weight people are; some obese people are less so, but not durably safe), what the
 operative variable is (depot / metabolic status, not the scale), and why the risk reverses (drawing
 ectopic fat back down). `type-A`
-
-</div>
 
 ## The bidirectional energy-toxicity spine
 
@@ -103,7 +100,7 @@ threshold itself shifts by ethnicity: «the equivalent degree of risk for a Cauc
 30 kg/m2 is expressed in South Asians at 25.2 kg/m2 and at 27 kg/m2 in African/Caribbeans».
 [@taylor2015pft]
 
-<div class="recent-update" data-last-updated="2026-09-01">
+<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The population signature — Kramer's MHO meta-analysis reads as the same claim at scale `type-A`
 
@@ -146,7 +143,7 @@ Opio's own conclusion runs the reframe to its edge: «Hence the term ‘metaboli
 misnomer.» The honest reading is one notch softer than the slogan — the 0-risk-factor estimates rest on
 five studies each with wide CIs and I2 up to 94%, and most cohorts did not adjust for cardiorespiratory
 fitness (Ortega attributed much of the MHO-MHNW gap to CRF), so residual fitness confounding could shrink
-the depot-independent excess. -> [[Fitness vs Fatness]]
+the depot-independent excess (the fitness-vs-fatness distinction).
 
 **Same quantity as Kramer? A refinement with one distinction (parameter check).** Reference group is the
 **same** (MHNW both). The MU-normal-weight contrast is the **same quantity** and near-identical (3.07 vs
@@ -194,8 +191,6 @@ facet INTERHEART adds — with the caveat that its case-control design makes tha
 reverse causation (acute-illness muscle loss).
 [inferred from @yusuf2005interheart; @taylor2015pft]
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## Decision relevance
 
 - **Measure central adiposity (waist/WHR), not BMI, when ranking cardiometabolic risk.** The depot claim
@@ -236,9 +231,6 @@ reverse causation (acute-illness muscle loss).
   status is genuinely causal for the **glycemic** axis (this spine), and genuinely **not** the CVD lipid
   lever (apoB is); a raised TyG / TG-HDL *flags* the discordance, it does not replace measuring apoB.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
 
 ## Limits
 
@@ -270,7 +262,5 @@ reverse causation (acute-illness muscle loss).
   grades it against a realized outcome.
 
 [inferred from @taylor2015pft; @kramer2013mho; @yusuf2005interheart]
-
-</div>
 
 ## References

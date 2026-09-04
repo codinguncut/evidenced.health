@@ -7,7 +7,7 @@ sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Co
 cluster: lipids
 confidence: low
 created: 2026-08-06
-updated: 2026-08-28
+updated: 2026-09-03
 self_critiqued: 2026-08-27
 relationships:
   related_to:
@@ -70,6 +70,8 @@ communicability: *moderate* = 4 eggs/week, *habitual* = 1 egg/day (7/week).
   [@godos2020]. Low certainty,
   4 studies, no low-risk-of-bias study available for it.
 
+<div class="recent-update" data-last-updated="2026-09-03">
+
 ## The diabetic stratum — direction reverses (route-(b) effect modification, evidenced but low-certainty)
 
 The one stratified result that changes a recommendation. In cohorts restricted to **diabetic
@@ -83,7 +85,7 @@ the contrary was reported to potentially act as effect modifier toward the oppos
 
 - **This is genuine subgroup evidence, not an asserted modifier** — a pre-specified diabetic-status
   subgroup with a significant reversed estimate. But it is an **observational** subgroup at GRADE-low
-  certainty (the false-positive-prone route (b) — [[Transportability]] / effect-modification), so it is a
+  certainty (the false-positive-prone route (b) — transportability / effect-modification), so it is a
   *credible flag*, not an established causal interaction. The authors' mechanism is a hypothesis:
   uncontrolled T2D shows «higher cholesterol synthesis and plasma lipid concentrations», so egg
   cholesterol may load an already-dysregulated lipid system
@@ -92,6 +94,8 @@ the contrary was reported to potentially act as effect modifier toward the oppos
   transport; habitual (daily) egg intake carries a low-certainty \~22% relative CVD-risk flag, and the
   conservative move is to treat eggs as a non-priority-but-watch item rather than a free food. For the
   non-diabetic general population, the reverse — no reason to restrict.
+
+</div>
 
 ## Second gold MA — mortality endpoints (Ma 2022) [@ma2022egg]
 

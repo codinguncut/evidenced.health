@@ -68,8 +68,6 @@ damage.»
   *reversible* stages; once bridging fibrosis/cirrhosis is present, lifestyle is not shown to reverse it.
 [@easl2024]
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The second guidance family — AASLD 2023 agrees on the ladder's shape, and it is un-GRADEd `[AASLD 2023]`
 
 A second national guidance body (AASLD, American) states the same weight-loss ladder, which raises the
@@ -142,10 +140,6 @@ patient-important endpoints (liver-related death, all-cause mortality, decompens
 under-measured dark region -> [[Surrogate Outcomes]]; the histological "response" the trials report is two
 surrogate-steps short of them. [@aasld2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The drug comparator — drugs hit the same surrogate ceiling; only bariatric surgery is shown on mortality `[AASLD 2023]`
 
 Sizing the weight-loss rock at the margin (Layer 1) means asking what a mature drug already captures. For
@@ -177,8 +171,6 @@ cardiovascular benefit -> [[Semaglutide for Cardiovascular Risk in Obesity]], bu
 reverse fibrosis, and the one lever with a mortality signal (bariatric surgery) is itself large sustained
 weight loss. The weight-loss lever stays non-substitutable for the fibrosis/outcome question.
 [inferred from @aasld2023]
-
-</div>
 
 ## The other lifestyle levers, with their grades
 

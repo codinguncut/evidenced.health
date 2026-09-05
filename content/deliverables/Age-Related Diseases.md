@@ -1,17 +1,18 @@
 ---
 type: deliverable
 title: Age-Related Diseases
-question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
-aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
-authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Wei, Bao-Zhen; Zhang, Jinhuan; Knowler, William C; Goldberg, Ronald B; World Cancer Research Fund International (org); Johnston, Bradley C; Vermeiren, Sofie; Racey, Megan; Celis-Morales, Carlos A; de Santana, Felipe M; Morton, Robert W; Sherrington, Catherine; Aune, Dagfinn; Babaker, Raghad; Marques-Couto, Pedro; European Society of Cardiology (org); Smith, Megan; Blomstrand, Peter; Wilker, Elissa H; Lopez-Bueno, Ruben]
-sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Peters - Blood Pressure Lowering Dementia 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Iso-Markku - Physical Activity Dementia 2022, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Henney - Ultra-Processed Food Dementia 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, ESC - CVD Prevention Guidelines 2021, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Lopez-Bueno - Handgrip Strength Thresholds]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
+aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
+question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
+authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Wei, Bao-Zhen; Zhang, Jinhuan; Knowler, William C; Goldberg, Ronald B; World Cancer Research Fund International (org); Johnston, Bradley C; Vermeiren, Sofie; Racey, Megan; Celis-Morales, Carlos A; de Santana, Felipe M; Morton, Robert W; Sherrington, Catherine; Aune, Dagfinn; Babaker, Raghad; Marques-Couto, Pedro; European Society of Cardiology (org); Smith, Megan; Blomstrand, Peter; Wilker, Elissa H; Lopez-Bueno, Ruben; Mendes, Augusto J; Cui, Chendi]
+sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Peters - Blood Pressure Lowering Dementia 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Iso-Markku - Physical Activity Dementia 2022, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Henney - Ultra-Processed Food Dementia 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
+  Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, ESC - CVD Prevention Guidelines 2021, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Lopez-Bueno - Handgrip Strength Thresholds, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020]
 ---
-<div class="recent-page" data-last-updated="2026-09-04"></div>
+<div class="recent-page" data-last-updated="2026-09-05"></div>
 
 
 ## The verdict
@@ -151,6 +152,17 @@ HR 0.72 (0.44-1.18, non-significant). A data-driven search free to combine any
 variable at any cutpoint found no responder subgroup either
 [@coley2025].
 
+A large network meta-analysis sharpens the *surrogate* side of the same story and adds a
+more-is-not-better twist. Mendes 2025 pooled 109 RCTs (23,010 cognitively-unimpaired older adults) and
+ranked the lifestyle levers on the global-cognition composite: the top combination was **physical
+exercise plus cognitive training (SMD 0.26, 95% CI 0.10-0.42)**, while the fuller four-component bundle —
+diet, exercise, cognitive training and health education — landed *lower*, at SMD 0.14 (0.02-0.27), no
+better than exercise alone (0.14) [@mendes2025multidomain].
+So on the surrogate, **adding more domains did not help** — the exercise-plus-training pair beat the
+richer stack. But every one of these is a *cognitive-test-score* effect, in the same class of trials
+FINGER and MAPT ran; none is dementia incidence, and this within-surrogate ranking does not convert into
+the hard-endpoint benefit the pooled null denies.
+
 So the honest summary of the bundle-as-tested is this: it moves a cognitive test score in some
 circumstances, it has not been shown to prevent the diagnosis, and deliberately targeting people at the
 highest baseline dementia risk — the most natural way to try to rescue it — does not change that.
@@ -282,7 +294,11 @@ case-control studies most prone to it
 [@zhou2022fruit]. Flavonoids, a component nested
 inside those same fruits and vegetables rather than an independent exposure, show the identical pattern one
 level down — cognitive decline moves (OR 0.88), but dementia (0.97) and Alzheimer's (0.90) are both null
-[@peng2025flavonoid].
+[@peng2025flavonoid]. Soy isoflavone supplements show the same
+shape from the trial side: Cui pooled 16 RCTs and found the composite cognitive-test score improved (SMD
+0.19, 95% CI 0.07-0.32), carried by memory (SMD 0.15, 0.03-0.26), but every trial measured a test score
+over two years or less and none counted a case of dementia
+[@cui2020isoflavone] -> [[Soy Products]].
 
 Dietary DHA (mainly from oily fish) associates with lower cognitive-decline risk (RR 0.82, 95% CI
 0.72-0.93), but omega-3 *supplements* have been tested directly in a randomized trial (MAPT) and did
@@ -779,9 +795,9 @@ order, and adjusted as a person ages.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?' |
-> | **Evidence included** | 35 sources — 23 gold, 12 high |
+> | **Evidence included** | 37 sources — 25 gold, 12 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
 
 ## References

@@ -3,13 +3,13 @@ type: deliverable
 title: Dairy
 question: 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?'
 aliases: [Dairy, Milk and Dairy, Cheese and Butter and Milk]
-authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017]
+authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas; Gijsbers, Lieke]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-28
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
 ---
 
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
@@ -196,6 +196,8 @@ Kefir specifically has essentially no hard-outcome data; hold it at
 insufficient evidence, not at null.
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## More dairy tracks with slightly less type-2 diabetes — two estimates, one non-industry, moderate certainty
 
 
@@ -248,10 +250,29 @@ estimates (one non-industry) at compatible magnitude, moderate certainty. It is 
 than fermented-specific, and not a big rock. Treat it as a small favourable lean, not a reason to
 prescribe dairy.
 
-One named gap sits on top: the **fermented-dairy -> type-2-diabetes dose-response** is not held, so
-the shape of the curve (and any knee) cannot be read off the highest-versus-lowest contrasts above
-.
+The dose-response by subtype is now held, and it turns the leg into a clean *split-the-food* case.
+Gijsbers' dedicated dairy -> T2D dose-response meta-analysis (22 cohorts, 579,832 people, 43,118 incident
+cases) runs the per-serving shape by subtype instead of one whole-dairy point estimate, and the modest
+total inverse (RR 0.97 per 200 g/d, 0.95-1.00) turns out to be carried by two subtypes while the rest sit
+flat [@gijsbers2016]:
 
+- **Yogurt is the one real signal, and it saturates early.** A non-linear inverse — 14% lower risk at
+  80 g/d (RR 0.86 vs 0 g/d, 0.83-0.90, P<0.001), and «The risk did not further decrease at higher intake
+  amounts of yogurt >80 g/d» [@gijsbers2016].
+  The benefit is bought by about one small pot a day and then plateaus; more buys nothing.
+- **Low-fat dairy: a suggestive inverse that misses significance** (RR 0.96 per 200 g/d, 0.92-1.00,
+  P=0.072); **milk, cheese and high-fat dairy are null across the board** (milk 0.97 per 200 g/d,
+  0.93-1.02; cheese 1.00 per 10 g/d; high-fat 0.98, 0.93-1.04)
+  [@gijsbers2016].
+
+Two honesty checks keep this in proportion. Gijsbers' *total-dairy* slope (0.97 per 200 g/d) is the same
+figure the leg already holds from Schwingshackl, re-pooling the same canonical cohorts (EPIC-InterAct,
+Whitehall II, the US and Malmo cohorts) — echo, not a second independent route; the **subtype shape**, not
+the total, is what this source adds. And it is still not a big rock: a yogurt eater gets a
+small, early-saturating signal, a milk or cheese eater none, and none of it is a reason to prescribe dairy
+-> [[Fermented Foods and Health]] (the yogurt leg cashes that page's yogurt -> T2D dose-response gap).
+
+</div>
 
 ## Milk is not a bone-fracture lever
 
@@ -362,6 +383,8 @@ ingested only for the red-and-processed-meat colorectal analysis). So:
   dairy chapters is the follow-up that would close it.
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## The bottom line
 
 For someone who has already handled the big rocks -> [[Layer 1 - Ranking Interventions for a Stratum]]:
@@ -415,9 +438,11 @@ category-level swaps, not a *dairy: yes or no*.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?' |
-> | **Evidence included** | 8 sources — 7 gold, 1 weak (3 of the gold are one coordinated DIfE/Boeing food-group series, not mutually independent) |
+> | **Evidence included** | 9 sources — 8 gold, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source below the gold evidence bar feeds this page: Astrup (narrative review, weak); none load-bearing for the core claims. The three DIfE/Boeing series members (Bechthold CHD/stroke/HF; Schwingshackl T2D, hypertension) are one coordinated team sharing food-group definitions and an overlapping cohort pool (PROSPERO CRD42016037069) — gold, but not independent of each other or of Guo, so their agreement re-pools shared data rather than corroborating it from a second route. The same team's all-cause-mortality estimate (Schwingshackl 2017, RR 0.98) is cited in-body as corroboration only — it merely echoes Guo's mortality null, so it is not counted as a separate source here. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+
+</div>
 
 ## References

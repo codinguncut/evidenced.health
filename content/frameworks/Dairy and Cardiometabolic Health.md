@@ -3,7 +3,7 @@ type: framework
 question: What does dairy do to cardiometabolic outcomes (all-cause mortality, CVD events, type-2 diabetes) once you stop treating dairy as one undifferentiated food — by category (milk vs cheese vs butter vs fermented) and by fat content — and how much of any signal is confounding artifact?
 aliases: [Dairy and Health, Milk and Mortality, Dairy and CVD, Dairy and Type 2 Diabetes, Milk and Cardiovascular Disease, Full-Fat Dairy]
 authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org); Schwingshackl, Lukas; Bechthold, Angela; Zhang, Yu; Wang, Dong D]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
 cluster: dairy
 nucleus: true
 confidence: medium
@@ -21,8 +21,8 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 **Nucleus of the `dairy` cluster** — the canonical owner of *what dairy does to cardiometabolic
@@ -318,6 +318,8 @@ channel, not a demonstrated one.
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series places dairy as a **cardiometabolic-marker lever, not a mortality lever**: inverse for
@@ -330,5 +332,109 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 [@schwingshackl2017mort]
 [@bechthold2019] Full grid
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
+
+Gijsbers is the dedicated dairy -> T2D **dose-response** MA (22 prospective cohorts, 579,832 individuals,
+43,118 incident T2D cases) — the first held source that runs the *per-serving shape* by dairy subtype
+rather than a whole-dairy point estimate. Its verdict is a clean [[Is the Food Category Doing Any Work]]
+case: *dairy* is not one exposure for T2D, and the modest total-dairy inverse is carried by two
+subtypes while the others are flat.
+
+- **Total dairy: `«RR: 0.97 per 200-g/d increment; 95% CI: 0.95, 1.00; P = 0.04; I2 = 66%»`, linear
+  over the studied range** (median total-dairy intake 111-400 g/d across cohorts)
+  [@gijsbers2016] — a 3% lower risk per
+  200 g/d, borderline, heterogeneous.
+- **Low-fat dairy: `«RR: 0.96 per 200 g/d; 95% CI: 0.92, 1.00; P = 0.072»`** — a *suggestive but
+  similar* linear inverse, NOT significant at 0.05
+  [@gijsbers2016].
+- **High-fat dairy: null** (RR 0.98 per 200 g/d; 95% CI 0.93, 1.04; P = 0.52)
+  [@gijsbers2016].
+- **Milk: null across the board.** `«Total milk intake ... was not associated with T2D risk (RR: 0.97
+  per 200 g/d; 95% CI: 0.93, 1.02; P = 0.25)»`; low-fat milk RR 1.01 (0.97-1.05) and high-fat milk
+  RR 0.99 (0.88-1.11) both null too
+  [@gijsbers2016].
+- **Cheese: null** (RR 1.00 per 10 g/d; I2 = 62%) — the only cheese signal is a 2-study men-only +5%
+  per 10 g/d, not stratum-stable [@gijsbers2016].
+- **Yogurt: a NONLINEAR inverse with a located plateau.** `«Yogurt ... was non-linearly inversely
+  related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compared with 0 g/d;
+  95% CI: 0.83, 0.90; P < 0.001)»`, and `«The risk did not further decrease at higher intake amounts
+  of yogurt >80 g/d»` [@gijsbers2016] — the
+  benefit is acquired by \~80 g/d (about one small pot) and plateaus; more buys nothing.
+
+**This is the type-B decomposition with T2D-specific numbers:** the whole-dairy 0.97/200 g/d hides a
+yogurt-and-low-fat inverse against a milk/cheese/high-fat null. A whole-milk or cheese eater gets no
+T2D signal from this data; a yogurt eater gets a small one that saturates early -> the yogurt leg is
+cross-linked to [[Fermented Foods and Health]] (it cashes that page's yogurt -> T2D dose-response gap).
+
+
+
+### The total-dairy leg is ECHO, not independent corroboration — the subtype shape is the actual add `[2026-09-05]`
+
+Gijsbers's total-dairy slope is numerically identical to the one the fabric already held from the DIfE
+12-food-group series, and the two re-pool the **same** canonical dairy-T2D cohorts (Chen's US cohorts,
+EPIC-InterAct, Ericson/Malmo, Whitehall II). Matched:
+
+| Parameter | Gijsbers 2016 | Schwingshackl 2017 (held) | Same quantity? |
+|---|---|---|---|
+| Exposure | total dairy, per 200 g/d | total dairy, per 200 g/d | **YES** |
+| Outcome | incident T2D | incident T2D | **YES** |
+| Effect form | linear dose-response RR | linear dose-response RR (NutriGrade) | **YES** |
+| Estimate | 0.97 (0.95-1.00) | 0.97 (0.94-0.99) | **YES — near-identical** |
+| Constituent cohorts | 22 dairy-T2D cohorts | same dairy-T2D cohort pool, re-pooled | **overlapping — NOT independent** |
+
+**So on total dairy this is type-F/echo (re-pooling), NOT type-E:** the agreement raises no confidence
+beyond Schwingshackl because it is the same data pooled by a second team — no `[E-independent]` claimed.
+It is **also not independent of this page's own [[Fermented Foods and Health]] / CVD leg**: Lieke Gijsbers
+is a co-author of the held Guo 2017 dairy-CVD MA, and the senior author (Soedamah-Muthu) ran the prior
+dairy-CVD and dairy-hypertension dose-response MAs this project explicitly re-used the methods of. The
+genuine beyond-summary add is the **subtype dose-response** (yogurt nonlinear knee, milk/cheese/high-fat
+null, low-fat borderline) — which no held source carried.
+
+**Directional-sponsor lineage tell (symmetric standards, same treatment as Mishali/PURE).** The study
+itself was Wageningen-University-funded with no sponsor role, but three senior authors disclose prior
+dairy-industry funding (Global Dairy Platform, Dairy Research Institute, Dairy Australia, Dutch Dairy
+Association) [@gijsbers2016]. The whole
+dairy-T2D-protective literature clusters in industry-adjacent groups (Mishali = Israel Dairy Board;
+PURE = Dairy Farmers of Canada; the Soedamah-Muthu lineage here) — a **uniformity tell** about the
+field, not a refutation of any one estimate. The effect is discounted, not deleted.
+
+**One genuine independence signal, held secondhand:** Gijsbers notes a Mendelian-randomization study
+finding `«no evidence of an association between milk and T2D»`
+[@gijsbers2016] — a *genetic instrument*
+reaching the same milk-null the observational pooling reaches, which would be a real type-E route if
+held. It is cited secondhand, so it is a gap, not an asserted finding. — genetic-instrument corroboration of the
+milk -> T2D null.
+
+**Net effect on this page's T2D leg:** the through-line's *modestly-inverse-for-T2D (Mishali alone)*
+reading is upgraded — the inverse total-dairy signal is now convergent across Gijsbers
+(dose-response), Schwingshackl (food-groups) and Mishali (high-vs-low), but all three re-pool one
+cohort set, so the convergence is robustness-of-pooling, not independence. And the signal is **carried
+by yogurt and low-fat dairy**, with milk, cheese and high-fat dairy null and the milk-null now
+MR-corroborated. Still a small lever; still observational; still no hard-outcome RCT.
+
+
+### Self-critique — Gijsbers append `[run 2026-09-05, before commit]`
+
+- **Overclaim check.** The total-dairy 0.97 is written as *borderline* (CI to 1.00, P=0.04) and low-fat
+  0.96 as *suggestive-NS* (P=0.072) — neither dressed as a firm effect. The yogurt knee is named an
+  *observational-spline* soft knee, not an intervention target. The whole section is prefaced
+  observational/FFQ; no causal language on any RR.
+- **Laundered-independence check — the load-bearing risk here.** The total-dairy leg is explicitly a
+  parameter table marked ECHO/NOT-E: shared cohorts with Schwingshackl (identical 0.97/200g), Gijsbers
+  co-authored held Guo, Soedamah-Muthu lineage. No `[E-independent]` token minted. The only claimed
+  independence signal (Bergholdt MR) is held secondhand and routed to `[AWAITS]`, not asserted.
+- **Fake-tension check.** No tension filed — this refines the existing T2D leg (F), it does not clash
+  with Guo/Mishali. The Guo(neutral-CVD) vs Mishali(inverse-T2D) distinction upstream is untouched.
+- **Halo / directional-sponsor.** Prior dairy-industry funding of three senior authors is flagged as a
+  field-wide uniformity tell (with Mishali/PURE), discounted symmetrically, not used to delete the effect.
+- **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
+  live-culture and measurement-error gaps are named, not closed.
+
+</div>
 
 ## References

@@ -15,8 +15,9 @@ relationships:
     - LDL ApoB and Cumulative Exposure
     - Fermented Foods
     - Surrogate Outcomes
+    - Soy Isoflavones and Cognitive Function
 created: 2026-08-05
-updated: 2026-08-26
+updated: 2026-09-04
 self_critiqued: 2026-08-26
 ---
 
@@ -274,6 +275,19 @@ MAs, but each outcome effectively single-route, and the LDL/TC endpoints are sur
 This page holds a **health** axis. Soy also carries environmental (low-footprint protein) and
 economic loads and is entangled with the animal-feed / deforestation debate; the wiki records only
 *that* those trade-offs exist and does not price them against the health finding.
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Facets held elsewhere
+
+- **Cognition (a fourth outcome) — HELD.** Supplemental soy isoflavones produce a small, memory-carried
+  benefit on neuropsychological test scores; the earlier tofu-harm scare does not survive confounding
+  scrutiny; and the observational isoflavone-cognition signal is null. The full appraisal — the Cui 2020
+  RCT MA effect estimates, the tofu-harm rebuttal, and why the RCT/observational split is a distinction
+  rather than a tension — lives on [[Soy Isoflavones and Cognitive Function]]. The ERβ-SERM mechanism
+  above is the same one invoked there for the memory-domain specificity.
+
+</div>
 
 ## Gaps and held threads
 

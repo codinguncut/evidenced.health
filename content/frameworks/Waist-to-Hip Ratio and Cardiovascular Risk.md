@@ -2,11 +2,13 @@
 type: framework
 question: Which anthropometric measure best identifies who is at risk of myocardial infarction — BMI, or a marker of abdominal/central adiposity (waist circumference, waist-to-hip ratio)?
 aliases: [Waist-to-Hip Ratio, WHR, Waist Circumference and Heart Disease, Abdominal Obesity and Myocardial Infarction, Anthropometric Markers of Cardiovascular Risk, Central Adiposity and CVD]
-authors: [Yusuf, Salim; Hawken, Steven; Anand, Sonia S]
-sources: [Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
+authors: [Yusuf, Salim; Hawken, Steven; Anand, Sonia S; Wormser, David; Di Angelantonio, Emanuele; Danesh, John]
+sources: [Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011]
 cluster: weight-management
+confidence: moderate
+self_critiqued: 2026-09-04
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-04
 relationships:
   related_to:
     - Ectopic Fat and Depot-Specific Risk
@@ -15,7 +17,10 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Menopause and the Shifting Levers
     - The U-Shaped Association Artifact
+    - BMI vs Abdominal-Adiposity Markers - Which Predicts CVD
+    - Baseline Risk and the Relative-Absolute Split
 ---
+<div class="recent-update" data-last-updated="2026-09-04">
 
 **The measure you pick changes who counts as at-risk.** INTERHEART — a standardised case-control study
 of first acute myocardial infarction, 27,098 people (12,461 cases / 14,637 matched controls) across 52
@@ -25,6 +30,16 @@ measure. «Waist-to-hip ratio shows the strongest relation with the risk of myoc
 worldwide.» [@yusuf2005interheart] This is a
 *which-marker* question (Layer-1 baseline-risk / route (a): measure the better prognostic marker) — NOT
 a claim that fat causes MI specifically through the WHR channel.
+
+**Contested by prospective design (added 2026-09-04).** A later pooled individual-participant analysis
+of 58 prospective cohorts (ERFC 2011, 221 934 people) found the three measures have *similar*
+association strength with CVD, and that none adds predictive value once conventional risk factors are
+known — and it names INTERHEART as the claim it refutes. The "strongest relation / measure WHR not
+BMI" headline below therefore stands **only for the case-control MI question in an all-ethnicities
+sample**, and is attenuated for prospective CVD prediction in developed-country populations. See *The
+prospective-cohort contest* section and [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
+
+</div>
 
 ## The crux — BMI's association is largely redundant with fat distribution `type-F`
 
@@ -95,6 +110,57 @@ sized here, not asserted to top the list.) [inferred from @yusuf2005interheart] 
   does not show that lowering WHR lowers MI. It flags a two-pronged target — reduce abdominal fat AND
   preserve muscle (hip) — because weight loss that also strips skeletal muscle may forfeit some benefit
   -> [[Does Weight Loss Reduce Cardiovascular Events]]. [inferred from @yusuf2005interheart]
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## The prospective-cohort contest — ERFC 2011 refutes the WHR-superiority claim `type-D`
+
+INTERHEART's reverse-causation exposure (flagged in *Limits* below) is not hypothetical: a pooled
+analysis of **58 prospective cohorts** with concomitant BMI, WC and WHR in the same people, and serial
+measurements for regression-dilution correction, directly overturns the marker-superiority claim for
+prospective CVD. This is the higher-design test INTERHEART itself could not be — and the two are
+*joined*: ERFC names INTERHEART as the report it refutes. Filed as
+[[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
+
+- **The measures are similar, not 3x apart.** Per-1-SD HRs for CVD (age/sex/smoking-adjusted, BMI
+  >=20) were BMI 1.23 (1.17-1.29), WC 1.27 (1.20-1.33), WHR 1.25 (1.19-1.31) — near-identical, against
+  INTERHEART's \~3-fold WHR-over-BMI gap. «BMI, waist circumference, and waist-to-hip ratio each have a
+  similar strength of association with cardiovascular disease risk» [@erfc2011whr]. ERFC's own verdict: «Our
+  findings reliably refute previous recommendations to adopt baseline waist-to-hip ratio instead of BMI
+  as the principal clinical measure of adiposity» [@erfc2011whr].
+- **The design-bias diagnosis is explicit.** ERFC attributes the discrepancy to «the greater
+  susceptibility of retrospective studies of acute myocardial infarction to some biases (eg, selection
+  biases, reverse causality)» than long-term prospective studies [@erfc2011whr] — the exact hazard the *Limits*
+  section anticipated. The INTERHEART BMI-MI odds ratio was 1.12 per 5 kg/m2 vs an ERFC CHD HR of 1.32
+  per 5 kg/m2, i.e. the case-control *under*-stated BMI, widening its apparent gap below WHR.
+- **BMI is measured far more reproducibly than WHR** — regression dilution ratio 0.95 (0.93-0.97) for
+  BMI vs 0.63 (0.57-0.70) for WHR (WHR compounds two circumference errors; between-study heterogeneity
+  I2=99%). A noisier marker attenuates more, so a fair comparison should favour WHR — yet it still shows
+  no discrimination edge. This inverts a clinical intuition: the "better" abdominal marker is the harder
+  one to measure well.
+- **Neither marker adds predictive value over the standard risk factors.** Adding BMI / WC / WHR to a
+  model with SBP, diabetes and lipids changed the C-index by -0.0001 / -0.0001 / +0.0008 and NRI by
+  -0.19% / -0.05% / -0.05% — all null. «Simple adiposity measures provide little or no additional
+  information on cardiovascular risk» once conventional factors are known [@erfc2011whr]. This is a *different*
+  question from INTERHEART's marker-vs-marker ROC (which had no risk factors in the model) — a
+  distinction, not part of the tension — but it caps the whole debate: for anyone whose BP/lipids/
+  diabetes are known, the marker choice barely moves the prediction.
+- **What survives the contest.** (i) Abdominal adiposity remains a real, modifiable CVD determinant —
+  ERFC is explicit the null is about *prediction on top of intermediates*, not aetiology, and the effect
+  runs *through* BP/lipids/diabetes (the sharp HR attenuation on adjusting for them is that mediation).
+  (ii) The **ethnic-heterogeneity** signal is NOT refuted: ERFC was 90% European descent and states more
+  data are needed in non-European populations, so INTERHEART's finding that BMI carries no MI signal in
+  South Asians / Arabs / mixed-race Africans stands untested here — a genuine transportability gap, not a
+  contradiction. (iii) For the **specific case-control MI decision in an all-ethnicities sample**,
+  INTERHEART's within-dataset ranking is unchallenged on its own terms.
+
+The net decision-change: **for CVD risk-ranking in a developed-country adult whose conventional risk
+factors are known, BMI is an adequate and more-reproducible clinical adiposity measure; the case for
+switching to WHR does not survive prospective design.** The WHR-over-BMI case is strongest where
+conventional risk factors are *unmeasured* and in the non-European strata ERFC could not test.
+[inferred from @erfc2011whr]
+
+</div>
 
 ## Limits — read the design before the ORs
 

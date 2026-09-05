@@ -3,12 +3,12 @@ type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
 authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S]
-sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023]
+sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-04
+updated: 2026-09-05
 self_critiqued: 2026-09-04
 relationships:
   related_to:
@@ -38,6 +38,7 @@ relationships:
     - Is the Food Category Doing Any Work
     - Fruit and Vegetable Intake and Health
     - Flavonoid Intake and Cognitive Function
+    - Soy Isoflavones and Cognitive Function
     - Sleep and Cognitive Decline
 ---
 
@@ -872,6 +873,8 @@ above managing which pill.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Scope guard
 
 Multicomponent prevention RCTs (FINGER-family) show only a **small** cognitive-composite benefit (Cochrane
@@ -897,6 +900,12 @@ Coley confirms age, APOE ε4, inactivity, low MMSE raise incidence), but it does
 pooled trial search could not find. Coley is the pooled COMPOSITE of the two RCTs already cited here (shared
 authorship, FINGER excluded), so it is corroboration of the null by re-analysis, not an independent third
 witness -> [[Multidomain Lifestyle Intervention and Cognitive Decline]] holds the full responder verdict.
+On the *surrogate* the same orbiter now also ranks the levers (Mendes 2025 NMA, 109 RCTs): **exercise +
+cognitive training is the top combination and the fuller multidomain bundle does not improve on it —
+*more is not better*** — a within-surrogate hierarchy that does not convert to the incidence benefit the
+pooled null denies. [@mendes2025multidomain]
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-09-04">
 

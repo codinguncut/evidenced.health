@@ -1,15 +1,15 @@
 ---
 type: deliverable
 title: Dietary Supplements
-question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-03
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G]
+question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023]
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -43,7 +43,7 @@ the other. A null from supplementing the already-replete says nothing about repl
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
 
-<div class="recent-update" data-last-updated="2026-09-03">
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## For the well-nourished, the marketed stack is a null lever
 
@@ -81,6 +81,39 @@ information size to exclude a 7.5-10% relative-risk reduction
 all-cause benefit — it is cancer *death*, not cancer *incidence* (VITAL's own incidence stayed null at
 0.96), it does not lift overall survival, and the authors hold the D3 subgroup as needing further
 evidence [inferred from @zhang2019vitd].
+
+One stratum breaks the vitamin-D null — and it breaks on **baseline disease risk, not on repletion**.
+VITAL recruited by age alone, so its cohort ran at average diabetes risk and was largely
+vitamin-D-replete, and it found nothing. Pittas' 2023 individual-participant meta-analysis instead
+pooled three low-risk-of-bias RCTs built specifically for diabetes prevention (D2d, Tromso, DPVD;
+4,190 adults with **prediabetes**, mean BMI 30, mean baseline 25(OH)D 63 nmol/L \~25 ng/mL), and there
+vitamin D slowed progression to type 2 diabetes: «Vitamin D reduced risk for diabetes by 15% (hazard
+ratio, 0.85 [95% CI, 0.75 to 0.96]) in adjusted analyses, with a 3-year absolute risk reduction of 3.3%
+(CI, 0.6% to 6.0%). The effect of vitamin D did not differ in prespeciﬁed subgroups.»
+[@pittas2023vitamindipd] (unadjusted ITT HR 0.88, 0.77-0.99;
+NNT 30).
+
+This is **route-(a) baseline-risk, not a reversal of VITAL** — a different outcome in a different
+stratum. VITAL tested cancer, cardiovascular events and fractures in a replete, average-risk cohort;
+Pittas tested *diabetes incidence* in a prediabetic, higher-risk one, where a small relative effect on a
+high baseline risk turns into a non-trivial absolute one. It is **not deficiency repletion**: the cohort
+was not deficient (63 nmol/L) and the effect did not vary by baseline 25(OH)D — one route-(b) modifier
+aside, cholecalciferol worked in the leaner through a named activation-pathway mechanism
+-> [[Vitamin and Mineral Supplements for Disease Prevention]].
+
+The benefit tracks *disease* risk, not
+vitamin-D status, and Pittas draws the line the marketing blurs: «the results do not apply to the general
+healthy population and should not be extrapolated to those who are at average risk»
+[@pittas2023vitamindipd]
+[inferred from @pittas2023vitamindipd; @manson2019vitd] -> [[Baseline Risk and the Relative-Absolute Split]], [[Deficiency Repletion vs Enhancement]].
+
+Even in its own stratum the lever is small. The 15% relative reduction sits against 58% for intensive
+lifestyle change and 31% for metformin in the Diabetes Prevention Program — «a number of persons with
+prediabetes needed to treat of 30 (compared with 7 with intensive lifestyle modiﬁcation and 14 with
+metformin in the Diabetes Prevention Program study)»
+[@pittas2023vitamindipd]. For a prediabetic the prevention rock
+is lifestyle first, then metformin; vitamin D is a cheap, low-harm add-on, not a substitute
+-> [[Lifestyle vs Metformin for Diabetes Prevention]], [[Layer 1 - Ranking Interventions for a Stratum]].
 
 One scope bound on the omega-3 null: the tested dose is the **1 g/day** low-dose consumer form in the replete. It
 does not speak to **high-dose prescription** marine omega-3 (\~4 g/day ethyl ester) in the
@@ -388,6 +421,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## The bottom line
 
 - **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil, cocoa-flavanol
@@ -400,13 +435,19 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **Correct a documented deficiency, don't supplement blind.** Repletion (vitamin D, iron, iodine) helps
   the deficient on real outcomes and scales with severity; confirm the shortfall with a clinician first,
   and use the schedule the evidence used (e.g. daily/weekly vitamin D, not a bolus).
+- **If you have prediabetes: vitamin D is a small, cheap add-on, not the lever.** In trials built for the
+  question it slowed progression to type 2 diabetes by about 15% (NNT 30) — but intensive lifestyle change
+  (NNT 7) and metformin (NNT 14) are far larger; use those first. This is a higher-risk stratum, not the
+  general population, and it does not revive the multivitamin/vitamin-D case for the well-nourished.
 - **Reserve calcium + vitamin D for the frail/institutionalized/deficient elderly**, where a small
   hip-fracture benefit exists; for a healthy community-dweller it does not, and it carries kidney-stone
   and contested cardiovascular harms — exercise is the fracture lever.
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-<div class="recent-update" data-last-updated="2026-09-03">
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Caveats
 
@@ -427,10 +468,10 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 25 sources — 10 gold, 14 high, 1 moderate |
+> | **Evidence included** | 26 sources — 11 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 </div>
 

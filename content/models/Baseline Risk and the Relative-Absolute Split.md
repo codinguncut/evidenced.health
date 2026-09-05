@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Reading a Confidence Interval
 created: 2026-07-25
-self_critiqued: 2026-08-27
-updated: 2026-08-27
+self_critiqued: 2026-09-04
+updated: 2026-09-04
 ---
 
 ## The decomposition
@@ -541,6 +541,50 @@ failing that assumption. (RF-negative rests on only 2 studies, so the contrast i
 it did not carry; it does not independently reach the decomposition. No `[E-independent]`.
 Full estimate + mechanism live on [[Autoimmune Disease and Modifiable Risk]].
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## A route-(b) positive backed by a mechanism AND an internal negative control — vitamin D by BMI `[2026-09-04, Pittas]`
+
+DPP and Di Giuseppe establish route (b) with a heterogeneity test alone. Pittas' vitamin-D IPD-MA in
+prediabetes adds the strongest *design* for a route-(b) positive the corpus holds: a modified ratio, a
+**pre-stated mechanism**, AND an **internal negative control** built into the same meta-analysis.
+
+Among prediabetic adults, cholecalciferol «reduced risk for diabetes in participants with a baseline BMI
+below the median of 31.3 kg/m2 but not in those with a BMI at or above the median (hazard ratios, 0.74
+[CI, 0.60 to 0.90] and 1.01 [CI, 0.84 to 1.22], respectively; P for interaction= 0.023). In contrast, in
+the trial that used eldecalcitol, an active analogue of vitamin D that does not require hydroxylation by
+CYP2R1, there was no effect modiﬁca- tion by baseline BMI (P for interaction= 0.82).»
+[@pittas2023vitamindipd]
+
+**Why the negative control is what raises this above a bare interaction test.** The mechanism is
+pre-stated — «obesity represses vitamin D bioactivation by CYP2R1 ... leading to reduced production of
+25-hydroxyvitamin D, and that weight loss upregulates CYP2R1 expression»
+[@pittas2023vitamindipd] — so the *pro-drug* cholecalciferol
+(needs CYP2R1) should fail in the obese while the *active analogue* eldecalcitol (bypasses CYP2R1) should
+not. The eldecalcitol null-interaction is that prediction realized: the modifier vanishes precisely when
+the named mechanism is bypassed. A route-(b) positive plus a mechanism-derived negative control is much
+stronger evidence of true effect modification than a lone significant P-interaction — the kind the
+*Failure modes* list distrusts. And unlike Di Giuseppe's serotype modifier, BMI is a **pre-exposure
+targetable stratum**, so this is *actionable* route (b): cholecalciferol is the leaner prediabetic's
+lever, while the obese need weight loss (which upregulates CYP2R1) or an active analogue.
+
+**One honesty bound.** The primary prespecified subgroup panel over all three trials found the effect
+«did not differ in prespeciﬁed subgroups»
+[@pittas2023vitamindipd]; the BMI interaction is specific to the
+two cholecalciferol trials — a planned, mechanism-driven subset, not the pooled panel.
+
+**A data point running AGAINST the standing `[PRIOR — over-personalization is the likelier failure]`,
+lodged not scored.** Where Coley, Nong and Khan above all supplied route-(b) *absences* (personalization
+adding little), Pittas is a genuine route-(b) *positive* where personalizing on a cheap pre-exposure marker
+changes the lever choice. Reported precisely because the recent corpus points ran the other way —
+symmetric reporting, with the adjudication left to the prior's own operation.
+
+**Type: F.** Refines the page's route-(b) treatment by adding the mechanism-plus-negative-control design;
+does not independently reach the decomposition. No `[E-independent]`. Full estimate, safety, and the
+Layer-1 sizing -> [[Vitamin and Mineral Supplements for Disease Prevention]].
+
+</div>
+
 ## A class-wide effect-modification search that came up empty — obesity drugs `[2026-08-22, Nong]`
 
 Beside Coley's well-powered dementia null sits a second route-(b)-absence data point, on a different
@@ -562,6 +606,8 @@ subgroups, including age, sex, and comorbidity burden»
 modification found*, not *modification excluded*. Full comparative appraisal -> [[Comparing Obesity Drugs]].
 [inferred from @nong2026obesity]
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## A prognostic-model version of the same absence — PREVENT's CKM add-ons `[2026-08-27, Khan]`
 
 Coley and Nong are *trial-subgroup* absences (a searched-for effect-modifier not found). Khan's AHA
@@ -577,5 +623,30 @@ standing `[PRIOR — over-personalization is the likelier failure]`, lodged not 
 differential (race removal, the PCE \~50% overprediction, the 10-/30-year split)
 -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
 [inferred from @khan2024]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## A second prognostic-add-on absence — adiposity measures over a risk model `[2026-09-04, ERFC]`
+
+Beside Khan's PREVENT, ERFC 2011 is the same prognostic absence on a different predictor class. In an
+IPD pool of 58 prospective cohorts (221 934 people, 14 297 CVD events), adding BMI, waist circumference
+or waist-to-hip ratio to a model already holding blood pressure, diabetes and lipids changed
+discrimination by essentially nothing (C-index changes -0.0001, -0.0001, +0.0008) and net
+reclassification by -0.19% / -0.05% / -0.05% [@erfc2011whr]. The review's own conclusion: «simple adiposity
+measures provide little or no additional information on cardiovascular risk» once conventional factors
+are known [@erfc2011whr]. Like Khan, this is
+prediction, not a relative-effect-modification test, so it does not *directly* score route (b) — but it
+points the same way: an extra person-level input adds almost no decision-relevant discrimination, a data
+point toward the standing `[PRIOR — over-personalization is the likelier failure]`, lodged not scored.
+Two mechanistic reasons the add-on is redundant, both stated by ERFC: adiposity acts *through* the
+factors already in the model (excess adiposity is «a major determinant of the intermediate risk
+factors»), and adiposity is the *noisier* input (WHR regression-dilution ratio 0.63 vs 0.95 for BMI) —
+redundant *and* less reliable. The measure-choice tension this sits on is
+[[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
+[inferred from @erfc2011whr]
+
+</div>
 
 ## References

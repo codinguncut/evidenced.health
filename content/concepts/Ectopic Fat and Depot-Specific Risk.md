@@ -51,8 +51,6 @@ loss diet- ary regimen» — «achievable equally readily by people with lower i
 [@taylor2015pft] The reversal
 arm is separately gold-backed by the held RCT evidence -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
-<div class="recent-update" data-last-updated="2026-09-01">
-
 ## The depot distinction — three fat compartments are three different objects `type-B`
 
 - **Subcutaneous** — the safe expandable store; capacity varies by individual (and ethnicity), and is not
@@ -86,8 +84,6 @@ with intra-organ fat, but a step removed from the depot doing the damage -> [[Su
 (TyG) index — sits one further step removed again: it predicts cardiovascular events but is a marker of
 the atherogenic-dyslipidemia / IR state these depots generate, not the depot or a treatment target
 -> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
-
-</div>
 
 ## Why BMI misleads — the individual-vs-population gap
 

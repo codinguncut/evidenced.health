@@ -2,8 +2,8 @@
 type: framework
 question: Do live-fermented foods change a patient-important outcome — and if so, is the effect from the live cultures, the food matrix, or the biochemistry fermentation performs? And must the cultures be alive?
 aliases: [Fermented Foods, Fermented Food, Fermented Dairy, Kefir, Kimchi, Kombucha, Sauerkraut, Live Cultures, Fermentation]
-authors: [Wastyk, Hannah C; Fragiadakis, Gabriela K; Perelman, Dalia; Gardner, Christopher D; Sonnenburg, Justin L; Zhang, Kui; Chen, Xiaogang; Zhang, Lin; Deng, Zeyuan; Guo, Jing; Astrup, Arne; Soedamah-Muthu, Sabita S]
-sources: [Wastyk - Fermented Foods Microbiota Immune RCT 2021, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017]
+authors: [Wastyk, Hannah C; Fragiadakis, Gabriela K; Perelman, Dalia; Gardner, Christopher D; Sonnenburg, Justin L; Zhang, Kui; Chen, Xiaogang; Zhang, Lin; Deng, Zeyuan; Guo, Jing; Astrup, Arne; Soedamah-Muthu, Sabita S; Gijsbers, Lieke]
+sources: [Wastyk - Fermented Foods Microbiota Immune RCT 2021, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
 cluster: fermented-foods
 nucleus: true
 confidence: low
@@ -16,8 +16,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-05
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 **The fabric's fermented-foods nucleus, and it opens near-empty.** Two sources anchor it and neither
@@ -172,6 +172,8 @@ inflammation -> CVD bridge is a hypothesis the held evidence cannot close; it is
 
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Is it microbiome-mediated? Partly, and indirectly
 
 Wastyk's mechanistic finding matters for the whole cluster: the diversity increase was **not** the
@@ -188,7 +190,39 @@ composition-shift is a surrogate, and here it is not even a colonization effect.
 contrasts the two arms directly and they behaved differently — see the refinement it makes to
 [[Gut Microbiome and Health]].
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Yogurt -> T2D: the one fermented-dairy leg with a located dose-response `[2026-09-05]`
+
+Gijsbers 2016 (dairy -> T2D dose-response MA, 22 cohorts, 43,118 cases; gold) gives fermented dairy its
+**second hard-ish observational endpoint** beyond Zhang's CVD signal — and it is the sharpest
+dose-response shape the fabric holds for any fermented food. `«Yogurt ... was non-linearly inversely
+related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compared with 0 g/d; 95% CI:
+0.83, 0.90; P < 0.001)»`, and `«The risk did not further decrease at higher intake amounts of yogurt
+>80 g/d»` [@gijsbers2016].
+
+- **Curve features named.** Nonlinear inverse with a **located knee/plateau at \~80 g/d** (about one
+  small pot) — the benefit is acquired early and more buys nothing. Studied range 0-\~250 g/d; the
+  plateau is *observational-spline* located, so treat it as a soft knee, not an intervention target
+  -> [[The Underivable Optimum]].
+- **It contrasts with milk and cheese, which are null** (milk RR 0.97 per 200 g/d, CI 0.93-1.02;
+  cheese RR 1.00 per 10 g/d) [@gijsbers2016].
+  So the fermented member of the dairy family carries a T2D signal the fluid/aged members do not — a
+  fermented-vs-non-fermented contrast *within* one food category -> [[Is the Food Category Doing Any Work]].
+- **But the live-culture question is unanswered here too.** Gijsbers cannot separate the ferment from
+  the matrix, the calcium, the protein, or from reverse causation (yogurt eaters are health-conscious);
+  the 80 g/d plateau is exactly what a reverse-causation ceiling would also produce. This is the *same*
+  live-vs-pasteurized gap the CVD leg has, now standing on the T2D leg.
+- **Not independent of the dairy nucleus.** Full dose-response detail, the total-dairy ECHO parameter
+  table (Gijsbers == Schwingshackl, shared cohorts), and the industry-lineage tell live on
+  [[Dairy and Cardiometabolic Health]] — this section is the fermented-food-side cross-link, not a
+  second appraisal.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Confidence and gaps
 
@@ -207,11 +241,16 @@ contrasts the two arms directly and they behaved differently — see the refinem
   - **Kimchi, sauerkraut, kombucha, kefir have essentially no hard-outcome human evidence** — held as
     named *insufficient-evidence* (*not yet*), NOT as findings and NOT dismissed. Do not manufacture
     effects for the trendy ferments.
-  - **Yogurt -> T2D dose-response** is a candidate lift not yet held. — would add a second hard-ish endpoint for fermented dairy.`
+  - **Yogurt -> T2D dose-response CASHED** (Gijsbers 2016 now held) -> see *Yogurt -> T2D* section
+    above. It adds the second hard-ish observational endpoint for fermented dairy: a nonlinear inverse
+    plateauing at \~80 g/d. Remaining gap is the same as the CVD leg — no RCT, and the live-culture
+    question is untested for T2D too.
   - **`G (needs aggregation)`:** a pooled fermented-food effect on mortality or hard CV events across
     designs — a magnitude the fabric cannot compute from these two non-commensurable sources.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Self-critique `[run 2026-08-05, before commit]`
 
@@ -229,5 +268,21 @@ contrasts the two arms directly and they behaved differently — see the refinem
   *different* questions at different scope/unit, so no tension is filed — correctly a distinction.
 - **Confidence floor honest.** `low` is carried by the surrogate/confounded evidence base; the one
   decision-change is scoped to an already-optimized stratum and named a small lever.
+
+### Self-critique — yogurt -> T2D append `[run 2026-09-05, before commit]`
+
+- **Overclaim.** The yogurt 0.86-at-80-g/d is written observational/FFQ with the plateau called a *soft
+  knee*, not a target, and the reverse-causation reading named. No causal claim; the leg does not raise
+  the page `confidence` (stays `low`).
+- **No new halo.** The milk/cheese/high-fat null is stated alongside the yogurt signal, so the fermented
+  member is not credited with a family-wide effect; the industry-lineage tell is carried on the linked
+  dairy page.
+- **Independence not laundered.** The section explicitly defers the total-dairy ECHO / NOT-E audit to
+  [[Dairy and Cardiometabolic Health]] and claims no independence for the yogurt leg; no `[E-independent]`.
+- **Not-joined.** No tension with the CVD leg — the yogurt T2D leg is a second endpoint, same
+  observational substrate, filed as an added leg not a clash. The live-culture gap is carried across
+  from the CVD leg unchanged.
+
+</div>
 
 ## References

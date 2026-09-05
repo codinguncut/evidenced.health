@@ -2,8 +2,8 @@
 type: framework
 question: In people with prediabetes, does an intensive lifestyle program or metformin better prevent progression to type 2 diabetes?
 aliases: [Diabetes Prevention Program, DPP, Metformin for Diabetes Prevention, Preventing Type 2 Diabetes, Prediabetes Intervention, Lifestyle vs Drug for Diabetes Prevention]
-authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Tuomilehto, Jaakko; Lindström, Jaana; Pan, Xiao-Ren; Hamman, Richard F]
-sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006]
+authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Tuomilehto, Jaakko; Lindström, Jaana; Pan, Xiao-Ren; Hamman, Richard F; Pittas, Anastassios G]
+sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Pittas - Vitamin D Type 2 Diabetes IPD 2023]
 cluster: t2d-prevention
 nucleus: true
 confidence: high
@@ -15,7 +15,7 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-07
-updated: 2026-09-03
+updated: 2026-09-04
 self_critiqued: 2026-08-26
 ---
 
@@ -332,6 +332,8 @@ attributed to any intervention. [@knowler2002]
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Decision relevance
 
 [inferred from @knowler2002; @tuomilehto2001; @pan1997; @hamman2006]
@@ -347,6 +349,15 @@ attributed to any intervention. [@knowler2002]
 - **Intensity matters.** DPP's lifestyle arm was «systematic and intensive» with individualized case
   management — the 58% is the effect of a *resourced* program, and a thinner real-world implementation is a
   different, likely weaker, exposure.
+- **Vitamin D is a distant third lever for this stratum, not a substitute.** An IPD meta-analysis of 3
+  prediabetes-prevention RCTs (n=4190) found vitamin D cut diabetes incidence by only 15% (HR 0.85,
+  0.75-0.96), «a number of persons with prediabetes needed to treat of 30 (compared with 7 with intensive
+  lifestyle modiﬁcation and 14 with metformin in the Diabetes Prevention Program study)»
+  [@pittas2023vitamindipd]. On absolute yield it ranks well
+  below both DPP arms — a cheap, low-harm add-on where 25(OH)D is low or BMI is not high, never a
+  replacement for the lifestyle or metformin rock -> [[Vitamin and Mineral Supplements for Disease Prevention]].
+
+</div>
 
 ## Limits and provenance
 

@@ -3,13 +3,13 @@ type: deliverable
 title: Fermented Foods
 question: 'What does the evidence show about live-fermented foods'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — and where does any effect come from: the live cultures, the food matrix, or the biochemical modification fermentation performs (and must the cultures be alive)?'
 aliases: [Fermented Food, Probiotic Foods, Live Cultures, Kefir, Kimchi, Sauerkraut, Kombucha, Yoghurt Health, Yogurt Health, Are Fermented Foods Good For My Gut]
-authors: [Wastyk, Hannah C; Zhang, Kui; Guo, Jing; World Gastroenterology Organisation (org)]
-sources: [Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Wastyk - Fermented Foods Microbiota Immune RCT 2021, WGO - Probiotics and Prebiotics Global Guideline 2023]
+authors: [Wastyk, Hannah C; Zhang, Kui; Guo, Jing; World Gastroenterology Organisation (org); Gijsbers, Lieke]
+sources: [Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Wastyk - Fermented Foods Microbiota Immune RCT 2021, WGO - Probiotics and Prebiotics Global Guideline 2023, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-12
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
 ---
 
 The honest verdict is that live-fermented foods carry a real but small and mechanistically unresolved
@@ -130,6 +130,29 @@ exposure and an event in a different exposure do not confirm each other — the 
 the held evidence cannot close.
 [inferred from @wastyk2021; @zhang2019]
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## On type-2 diabetes, the signal flips to yogurt
+
+The second hard-ish endpoint for fermented dairy is now held, and it inverts the subtype story.
+Gijsbers' dedicated dairy -> type-2-diabetes dose-response meta-analysis (22 cohorts, 579,832 people)
+finds the one real signal in **yogurt**, non-linear with an early plateau: «Yogurt ... was non-linearly
+inversely related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compared with 0
+g/d; 95% CI: 0.83, 0.90; P < 0.001)», and «The risk did not further decrease at higher intake amounts of
+yogurt >80 g/d» [@gijsbers2016]. The benefit
+is bought by about one small pot a day and then flattens. Cheese, by contrast, was null: «Cheese ... was
+not associated with T2D risk (RR: 1.00 per 10 g/d ...)»
+[@gijsbers2016].
+
+So the two fermented dairies **split by outcome**: cheese carries the fragile cardiovascular signal,
+yogurt the diabetes one — neither is a whole-"fermented dairy" effect. Two cautions bind.
+This is observational dose-response, so measurement error and healthy-user confounding apply
+-> [[Measurement Error in Dietary Assessment]]. And Gijsbers' *total*-dairy slope merely echoes the T2D
+estimate already held from Schwingshackl (same cohorts), so it is not an independent second witness — the
+full subtype breakdown lives on [[Dairy and Cardiometabolic Health]].
+
+</div>
+
 ## No study here tests whether the cultures have to be alive
 
 The popular account treats this question as answered; the evidence leaves it open. A fermented
@@ -167,6 +190,8 @@ Where defined probiotics have real, outcome-level wins — antibiotic-associated
 diarrhoea, *C. difficile* prevention, necrotizing enterocolitis in preterm infants — the evidence is
 tied to named strains, not to eating live-culture yogurt -> [[Gut Microbiome and Health]].
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## The trendy ferments are unstudied, not disproven
 
 Kimchi, sauerkraut, kombucha and kefir have essentially no hard-outcome human evidence. That is the
@@ -174,15 +199,20 @@ Kimchi, sauerkraut, kombucha and kefir have essentially no hard-outcome human ev
 name the gap; do not manufacture a benefit from mechanism or tradition, and do not dismiss the foods
 either
 [inferred from @wastyk2021].
-Two more specific gaps sit alongside it: a yogurt/fermented-dairy-to-type-2-diabetes dose-response
-meta-analysis, the candidate second hard-ish endpoint for fermented dairy, is not yet held; and the live-versus-pasteurized review
-above. And the fermented *soy* foods (miso, tempeh, natto) are a distinct exposure appraised separately
+One more specific gap sits alongside it: the live-versus-pasteurized review above. The yogurt/
+fermented-dairy-to-type-2-diabetes dose-response, once the candidate second hard-ish endpoint, is now
+held and worked in the yogurt section above. And the fermented *soy* foods (miso, tempeh, natto) are a
+distinct exposure appraised separately
 -> [[Soy Products and Health]], not covered by the dairy evidence here.
 
 One structural point keeps this in proportion. Fermented foods are discussed far out of proportion to
 their established effect size, and in a mature area attention runs *inversely* to effect size — the big
 levers are settled and boring, the small ones contested and viral. Rank by expected effect, not by
 volume of discussion -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## The bottom line
 
@@ -222,9 +252,11 @@ volume of discussion -> [[Layer 1 - Ranking Interventions for a Stratum]].
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about live-fermented foods'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — and where does any effect come from: the live cultures, the food matrix, or the biochemical modification fermentation performs (and must the cultures be alive)?' |
-> | **Evidence included** | 4 sources — 2 gold, 2 high |
+> | **Evidence included** | 5 sources — 3 gold, 2 high |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fermented%20Foods.md) |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fermented%20Foods.md) |
+
+</div>
 
 ## References

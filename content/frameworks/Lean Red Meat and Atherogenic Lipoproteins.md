@@ -20,8 +20,7 @@ relationships:
     - Red and Processed Meat and Cancer
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-page" data-last-updated="2026-09-02"></div>
-
+<div class="recent-update" data-last-updated="2026-09-02">
 
 The wiki's red-meat -> CVD evidence is otherwise entirely **observational cohort** and holds **no
 lean-red-meat feeding-trial lipid data** at all. Two controlled-feeding RCTs fill that empty cell.
@@ -36,6 +35,8 @@ trials: it makes the comparator-dependence quantitative across the whole trial l
 of red meat's lipid effect flips with what replaces it — and it pools Roussell's own BOLD data, so it
 is a pooled-trial **refinement** of this page, not an independent route. It too measures only
 surrogates. [inferred from @guaschferre2019redmeat]
+
+</div>
 
 ## Why controlled feeding is the right instrument here
 
@@ -132,6 +133,8 @@ reliance on LDL cholesterol». [@bergeron2019]
 This is a rare instance of a trial flagging that its own primary surrogate over-reads the endpoint that
 matters -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]].
 
+<div class="recent-update" data-last-updated="2026-09-02">
+
 ## Guasch-Ferré 2019 — the comparator sets the SIGN, pooled across 36 trials
 
 Where the two feeding trials fix one comparator each, this gold MA pools **36 RCTs (1803
@@ -202,6 +205,10 @@ lipids, apolipoproteins, and blood pressure».
 [@guaschferre2019redmeat]
 -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-02">
+
 ## Synthesis — the parameter table (same-quantity check) BEFORE the cross-source claim
 
 The two trials share **analytes** but test **different contrasts**, so this is a **type-A/F composite**,
@@ -245,6 +252,8 @@ convergence of the same estimate.** What each supplies:
   shared-conclusion, not two non-obvious independent routes converging — the independence bar is not
   met. [inferred from @guaschferre2019redmeat]
 
+</div>
+
 ## Is the food category doing any work here?
 
 This is a clean worked instance for [[Is the Food Category Doing Any Work]]: once SFA and total protein
@@ -255,6 +264,8 @@ it is *animal protein plus its saturated-fat travelling companions*. This bounds
 [[Saturated Fat Intake and Replacement]] on the specific case of lean red meat and refines the
 leaner-cut reasoning by attaching an actual apoB/LDL-C number to it.
 [inferred from @roussell2012bold; @bergeron2019]
+
+<div class="recent-update" data-last-updated="2026-09-02">
 
 ## What this does NOT license, and the gaps (type-G)
 
@@ -286,5 +297,7 @@ mmol/L vs plant); replacing it with fish or refined carbohydrate does not improv
 worsens — the lipid profile, so *eat less red meat* carries a decision only once the substitute is named.
 The magnitude is small and event evidence is absent, hence `confidence: medium`.
 [inferred from @guaschferre2019redmeat]
+
+</div>
 
 ## References

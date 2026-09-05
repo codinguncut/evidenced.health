@@ -2,13 +2,13 @@
 type: framework
 question: Does acting on the modifiable dementia risk factors as a bundle (diet + exercise + cognitive training + vascular monitoring) actually improve or maintain cognition — or prevent dementia — in a randomised trial, and by how much?
 aliases: [FINGER, FINGER trial, preDIVA, Vascular Care to Prevent Dementia, Multidomain Dementia Prevention, Multidomain Cognitive Intervention, Multidomain Dementia Incidence, Lifestyle Intervention for Cognitive Decline, MAPT, MAPT trial, Multidomain Alzheimer Preventive Trial]
-authors: [Ngandu, Tiia; Lehtisalo, Jenni; Solomon, Alina; Levälahti, Esko; Soininen, Hilkka; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Eurelings, Lisa S; van Dalen, Jan-Willem; Hoevenaar-Blom, Marieke P; van Gool, Willem A; Andrieu, Sandrine; Guyonnet, Sophie; Coley, Nicola; Cantet, Christelle; Vellas, Bruno; Shourick, Jason]
-sources: [Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025]
+authors: [Ngandu, Tiia; Lehtisalo, Jenni; Solomon, Alina; Levälahti, Esko; Soininen, Hilkka; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Eurelings, Lisa S; van Dalen, Jan-Willem; Hoevenaar-Blom, Marieke P; van Gool, Willem A; Andrieu, Sandrine; Guyonnet, Sophie; Coley, Nicola; Cantet, Christelle; Vellas, Bruno; Shourick, Jason; Mendes, Augusto J; Ribaldi, Federica; Frisoni, Giovanni B]
+sources: [Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025]
 cluster: dementia
 confidence: low
 created: 2026-08-05
-updated: 2026-08-26
-self_critiqued: 2026-08-07
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 relationships:
   related_to:
     - Dementia Prevention and Modifiable Risk Factors
@@ -20,6 +20,7 @@ relationships:
     - Blood Pressure Lowering and Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 ---
+<div class="recent-update" data-last-updated="2026-09-05">
 
 The **interventional (RCT) facet** of the `dementia` cluster — orbits the nucleus
 [[Dementia Prevention and Modifiable Risk Factors]] (which holds the *observational* per-factor PAF map).
@@ -28,7 +29,9 @@ levers *as a bundle* helps, plus the **pooled individual-participant responder a
 (Coley 2025) — and the story is that the result is **not robust**: it depends on the endpoint, the
 population, and the intervention's intensity, and when the two hard-endpoint trials are pooled and searched
 for the subgroup that responds, **no responder subgroup rescues it** (see *The pooled responder verdict*
-below).
+below). A network meta-analysis of the **whole RCT literature** (Mendes 2025, 109 trials) then ranks the
+combinations and finds the leanest effective one — **exercise + cognitive training** — beats the fuller
+multidomain bundle: *more is not better* (see *The comparative hierarchy* below).
 
 - **FINGER** (Ngandu 2015) — a 2-yr, double-blind, 6-centre RCT (n=1260, selected at-risk CAIDE >=6 but
   cognitively near-normal Finns) that moved a **cognitive-composite surrogate** (below).
@@ -46,6 +49,8 @@ FINGER first: it is a **proof-of-concept** trial:
 "a proof-of-concept randomised controlled trial, we aimed to assess a multidomain approach to prevent
 cognitive decline in at-risk elderly people from the general population."
 [@ngandu2015]
+
+</div>
 
 ## The effect — real, significant, and small
 
@@ -349,6 +354,101 @@ subgroup — could not be tested (no biomarkers in preDIVA). The authors note hi
 midlife, or biomarker-selected trials «could provide different results» — the responder question is closed
 for *these* late-life, low-intensity trials, not for every design.
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## The comparative hierarchy — Mendes NMA 2025 (109 RCTs; E+C > the full bundle) `[2026-09-05]`
+
+The three trials above test *specific* bundles one at a time; none answers **which** combination is best,
+or whether a fuller multidomain beats a leaner one. Mendes 2025 — a PROSPERO-preregistered random-effects
+**network meta-analysis of 109 RCTs (23,010 cognitively-UNIMPAIRED older adults, median age 70)** on the
+**global-cognition surrogate** — is the first to rank single- vs multidomain lifestyle interventions in one
+framework [@mendes2025multidomain]. Its
+decision-changing result: **the leanest effective combination wins, and the most comprehensive bundle does
+not top the ranking.**
+
+- **Ranking vs health education:** «physical exercise and cognitive training combined (SMD 0⋅26 [95% CI
+  0⋅10–0⋅42]...); cognitive training alone (SMD 0⋅21 [0⋅08–0⋅33]...); diet, physical exercise, cognitive
+  training, and health education combined (SMD 0⋅14 [0⋅02–0⋅27]...); and physical exercise alone (SMD 0⋅14
+  [0⋅05–0⋅22]...)» all significantly improved cognition; diet-alone, social-activity-alone and the other
+  multidomain nodes did not [@mendes2025multidomain]. **Exercise + cognitive training (E+C) is the strongest of all twelve** — above the full
+  diet+exercise+cognitive-training+health-education bundle (D+E+C+H, SMD 0·14).
+- **The two robust single levers** are cognitive training and physical exercise: «When compared with active
+  control, only physical exercise and cognitive training combined (p=0⋅038) and cognitive training alone
+  (p=0⋅044) revealed significant improvement» [@mendes2025multidomain] — **the full multidomain bundle is NOT significant against an active
+  control**, its benefit shrinking exactly as FINGER's authors warned their active-control estimate would.
+- **More is not better.** «Combining lifestyle interventions might enhance efficacy, but increased number
+  of domains does not automatically translate into greater cognitive benefits»
+  [@mendes2025multidomain]; «more is not
+  always better—adding additional interventions does not necessarily enhance efficacy and might introduce
+  adherence challenges, particularly in multidomain protocols with more than three interventions»
+  [@mendes2025multidomain]. Author
+  mechanisms: a **curvilinear complexity/adherence curve** («moderate-complexity interventions yielding the
+  greatest effects»), a within-domain plateau (MAPT «cognitive benefits plateaued after approximately half
+  of the planned training sessions»), **dilution** (embedded cognitive training is «less intensive,
+  individualised, or tailored» than standalone), and **mechanistic overlap** reducing additive benefit
+  [@mendes2025multidomain]. This is
+  *adherence-is-part-of-the-effect* and *structural leverage* made quantitative -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+**Independence — a re-synthesis of the same RCT field, NOT a third witness (type F/C, never E)
+[inferred from @mendes2025multidomain].** Mendes's 109-trial
+network is drawn from the lifestyle-cognition RCT literature and explicitly benchmarks its result against
+**FINGER (ref 13) and MAPT (ref 14)** — the trials this page holds — reporting its effect sizes as «similar
+to those reported in landmark trials» [@mendes2025multidomain]. **Whether FINGER and MAPT fall among its 109 included trials is not verifiable from
+the held text** (the included-study list is in the appendix; the FINGER-aligned diet+exercise+cognitive-
+training+health-education node holds n=9, and MAPT's omega-3 arms would be excluded by the no-supplement
+criterion while its multidomain-placebo arm could qualify). But it does not change the classification: an
+NMA re-synthesizing this field shares its evidence base and method-family, so it is **never independent
+type-E corroboration.** The author lists are wholly disjoint (Mendes/Ribaldi/Frisoni, Geneva; none overlap
+Ngandu/Kivipelto, Andrieu/Coley, or Moll van Charante) — **but author disjointness does not buy
+independence, and the conservative rule is to never assert it.** It is therefore **never marked
+`[E-independent]`.** Its value is type-F (refines the held bundle claim into a ranked hierarchy) and type-C
+(supplies the single-vs-multidomain comparative axis the pairwise trials could not).
+
+**FINGER vs MAPT vs Mendes — the parameter table (why this is a REFINEMENT + magnitude-concordance, NOT a
+tension).**
+
+| Parameter | FINGER (Ngandu 2015) | MAPT (Andrieu 2017) | Mendes NMA (D+E+C+H node) | Same quantity? |
+|---|---|---|---|---|
+| Effect metric | between-group NTB change; **Cohen's d 0·13** at 2 yr | between-group composite diff **0·079–0·093** over 3 yr | pooled **SMD 0·14** (0·02–0·27) vs health ed | \~ (all standardized cognitive-composite; FINGER's is 2-yr d, others total) |
+| Population | selected CAIDE>=6, near-normal, 60-77 | memory-complaint elderly >=70 | **cognitively unimpaired**, 109 trials pooled | **NO** (Mendes broader/healthier, pooled) |
+| Intervention | 4-domain incl **vascular monitoring** | PA+CT+nutrition, advice-based | D+E+C+H (4th domain = **health education**) | \~ (close; H replaces vascular) |
+| Primary endpoint | NTB cognitive-composite (surrogate) | 4-test composite (surrogate) | global cognition MMSE/MoCA/composite (surrogate) | **YES** (all surrogate) |
+| Comparator | active control | placebo / no-multidomain | health ed / no-int / active control | mixed (bundle NS vs active control) |
+| Result | +ve small (d 0·13, p=0·030) | **NULL** overall (adj p 0·142–0·179) | +ve small vs health-ed/no-int (0·14–0·20); **NS vs active control** | concordant band; NOT independent |
+
+[@ngandu2015]
+
+The endpoint row is YES (all the cognitive surrogate), but population/intervention/comparator rows differ,
+so the apparent clash between MAPT's whole-population null and Mendes's significant bundle is **not joined**
+(not-joined check ii, different scope) — Mendes's network aggregates many trials of overlapping design, so
+a single trial's null does not survive as the pooled estimate, and its own author reading is concordance:
+«although modest by conventional standards, our effect sizes are similar to those reported in landmark
+trials» [@mendes2025multidomain]. The
+magnitude agreement is drawn from the same RCT field, not an independent route. Recorded as a **REFINEMENT
+(F/C)**, not a tension.
+
+**What bounds the ranking (NMA-specific appraisal) [inferred from @mendes2025multidomain].** Coherence is adequate — «The global inconsistency test (Q=39⋅37, df=29,
+p=0⋅093) did not show statistically significant inconsistency» — with one local exception, «social activity
+and health education (p=0⋅029)» (the smallest node) [@mendes2025multidomain]. But: **40% of trials are high risk of bias** («Risk of bias was high in
+44 (40%) studies»); the primary vs-health-education panel carries **publication bias** («Egger's test
+statistically significant (p=0⋅011)... smaller trials appeared more likely to report larger effect sizes»)
+that the vs-no-intervention and vs-active-control panels do not; a **sex-distribution imbalance** threatens
+transitivity; and it is all a **surrogate** in **short trials (median 13 weeks) with no follow-up**
+[@mendes2025multidomain]. So this refines
+the *shape* of the surrogate signal (which lever, comparator-dependent magnitude) and does **not** reach
+the hard endpoint — Coley's pooled incidence null still governs the dementia-prevention question.
+
+**A route-b age hint, held not banked.** Post-hoc, «more complex multidomain approaches may be
+particularly beneficial in older pop­ulations» (age >=70: E+C+H 0·56 [–0·05 to 1·16], NS; E+C 0·29
+[0·03–0·55]) while under-70s did best on standalone cognitive training (0·42) / E+C (0·36)
+[@mendes2025multidomain]. Held as an
+effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a finding
+-> [[Baseline Risk and the Relative-Absolute Split]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## What the three trials + the pooled analysis jointly change about what to do `[2026-08-07]`
 
 [inferred from @ngandu2015; @andrieu2017; @mollvancharante2016; @coley2025]
@@ -372,11 +472,22 @@ for *these* late-life, low-intensity trials, not for every design.
   demonstrated way to convert this bundle into a dementia-prevention benefit.** What remains open is
   intensity, an earlier (midlife) window, and biomarker selection — untested here
   -> [[Dementia Prevention and Modifiable Risk Factors]], [[Baseline Risk and the Relative-Absolute Split]].
+- **If pulling levers for the surrogate, lead with exercise + cognitive training, not a maximal bundle.**
+  The 109-trial NMA ranks E+C highest and shows the full diet+exercise+cognitive-training+health-education
+  bundle does not improve on it (and is NS vs an active control) — *more is not better*, because adherence
+  falls and mechanisms overlap. Cognitive training and physical exercise are the two levers robust even
+  against an active control [@mendes2025multidomain]. This ranks *within* the surrogate; it does not convert to a demonstrated dementia-incidence
+  benefit (Coley null still governs), and the exercise levers are cardiometabolic big rocks already pulled
+  -> [[Big Rocks (Elderly)]].
 - **Omega-3 supplementation is not a cognitive lever on this evidence.** MAPT (the longest/largest omega-3
   cognition RCT) was flat alone and additive-free in the bundle; low omega-3 *status* marks decline but
   supplementing it did not prevent decline -> [[Vitamin and Mineral Supplements for Disease Prevention]].
 - **BP-lowering in the elderly is cognitively safe.** preDIVA is a large, long RCT showing intensive
   vascular care caused no cognitive or disability harm -> [[Blood Pressure Lowering and Cardiovascular Events]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Open (G-gaps)
 - **RCT effect on dementia/AD *incidence* of the FINGER 4-component bundle** — preDIVA answers the
@@ -391,7 +502,10 @@ for *these* late-life, low-intensity trials, not for every design.
   resolved toward the null for these late-life low-intensity trials; what stays open is a *higher-intensity /
   midlife / biomarker-selected* design, not the responder axis in these data.
 - **Per-component contribution** — which lever(s) drive FINGER's bundle effect (author-flagged); MAPT's null
-  and preDIVA's vascular-only null cannot isolate it either.
+  and preDIVA's vascular-only null cannot isolate it either. **Partially addressed** by Mendes 2025 across
+  the wider RCT literature (physical exercise and cognitive training are the two robust single levers; their
+  combination E+C tops the ranking; diet-alone and social-activity-alone are NS) — but on the SURROGATE, so
+  it decomposes the cognitive-composite signal, not FINGER's own bundle nor any incidence effect.
 
 [inferred from @ngandu2015; @andrieu2017; @mollvancharante2016; @coley2025] The loop stays open (R1) even with three RCTs and their pooled IPD in hand: the
 *surrogate* moved in one selected-risk population (FINGER) and not in a broader, older one (MAPT); the
@@ -401,5 +515,28 @@ of them close each other, and the surrogate-to-incidence link is itself unproven
 The one thing the pool *does* settle is the responder question for these trials (route-b null). A validated
 multidomain dementia-prevention claim now awaits an incidence result for the full FINGER 4-component bundle
 () and, beyond it, a higher-intensity or earlier-window trial.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Self-critique `[run 2026-09-05, before commit — Mendes NMA weave]`
+
+- **Not laundered independence.** The Mendes NMA is the highest-risk laundered-E candidate on this page —
+  an NMA numerically concordant with the FINGER/MAPT trials the page already holds. It is filed explicitly
+  as type-F/C and **never** `[E-independent]`: field-overlap defeats independence, and the pooling claim was
+  demoted to the verifiable form (whether FINGER/MAPT are literally among the 109 is not confirmable from
+  the held text — the included-study roster is in the appendix). Cold-audit DEMOTE resolved in-commit.
+- **Not a fake tension.** MAPT's whole-population null vs Mendes's significant pooled bundle is filed as a
+  refinement, not a `tension`: the parameter table's population/comparator rows are NO/mixed (not-joined
+  ii), and a single trial's null is not expected to survive pooling — no joined issue.
+- **Overclaim watch — surrogate is fenced.** The E+C ranking is stated as a *within-surrogate* hierarchy
+  in short (median 13-wk), 40%-high-RoB trials with health-education-comparator publication bias, and is
+  repeatedly said NOT to convert to a demonstrated dementia-incidence benefit (Coley's hard-endpoint null
+  still governs). The age-subgroup signal is held as a post-hoc hypothesis, not a finding.
+- **R1 — loop open.** Nothing here is graded against a realized patient-important outcome; the
+  surrogate-to-incidence transmission is the standing G-gap, named not closed.
+
+</div>
 
 ## References

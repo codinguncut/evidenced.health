@@ -7,8 +7,8 @@ sources: []
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-13
-self_critiqued: 2026-08-13
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -33,6 +33,8 @@ best dose*). Three distinct structural routes each terminate in *no observed pea
 one honest output: **name a data-supported range or direction bounded by a floor and a harm-ceiling, and
 disclaim the point-optimum.** No single method rule or concept page states this; it is induced across
 them.
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Three routes to *no peak* — each holds for a different reason
 
@@ -174,6 +176,18 @@ harm-ceiling or a logistical cap, not by an optimum.
     wild** — Aune names 20 g/day «the optimal intake» *because* returns flatten there, i.e. a knee-region
     relabelled a point-optimum. Read it as a floor-for-most-of-the-benefit with its studied range, never a
     target.
+  - **A SECOND worked food instance — yogurt -> T2D, the same Route-3-downstream plateau `[2026-09-05]`.**
+    Gijsbers 2016's dairy-T2D dose-response MA *observes* a nonlinear inverse for yogurt that flattens at
+    \~80 g/day (RR 0.86 vs 0 g/day, then no further decrease above 80 g/d) -> [[Dairy and Cardiometabolic Health]],
+    [[Fermented Foods and Health]] — a third observed food plateau beside nuts and ESC fruit/veg, again
+    FFQ-measured, so again the *measured plateau is weak evidence of a true one* (the flat top is exactly
+    what a reverse-causation ceiling or flat-slope compression would also produce). One instructive
+    *contrast* with the nuts case: Gijsbers reports the 80 g/d knee **without** relabelling it an *optimal
+    intake* — the boundary-as-target launder is absent here, so the honest object (a knee-region with its
+    studied range, read as a floor for most of the benefit) survives on the page as written.
+    [inferred from @gijsbers2016]
+
+</div>
 
 ## What survives — BOUNDED, not nihilism
 

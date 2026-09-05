@@ -65,6 +65,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - [[Periodontitis and Systemic Health]] — does treating periodontitis lower HbA1c (causal, moderate
   certainty), and what the dementia arm can and cannot claim
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Why maintenance is hard, and drug/monitoring routes
 
 - [[Weight-Loss Maintenance and Metabolic Adaptation]] — why maintaining diet-induced loss is hard and
@@ -73,6 +75,9 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   outcomes, harms and QoL — and why the biggest weight loss is not the best-evidenced drug
 - [[Semaglutide for Cardiovascular Risk in Obesity]] — whether treating obesity with a drug reduces CV
   events, and whether that evidence reaches primary prevention
+- [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]] — the class-level pooled hard-outcome
+  page (Badve 2024, 11 CVOTs): what the whole GLP-1 class does to MACE, mortality and hard kidney events,
+  and how that sizes the lifestyle weight-loss lever
 - [[GLP-1 Non-Cardiometabolic Effects and Safety]] — the other half of the GLP-1 ledger: which
   non-cardiometabolic outcomes the class moves and how credible each signal is (gold umbrella)
 - [[GLP-1 and Lean Mass]] — when a GLP-1 drug drives rapid loss, how much of what is lost is muscle,
@@ -83,3 +88,5 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   and what outcome it actually changes
 - [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating
   improves outcomes, especially in people without diabetes
+
+</div>

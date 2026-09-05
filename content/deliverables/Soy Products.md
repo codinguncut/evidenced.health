@@ -1,15 +1,15 @@
 ---
 type: deliverable
 title: Soy Products
-question: 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?'
-aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari, Does Soy Feminize Men, Does Soy Cause Breast Cancer]
-authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W; Blanco Mejia, Sonia]
-sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
+question: 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?'
+aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari, Does Soy Feminize Men, Does Soy Cause Breast Cancer]
+authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W; Blanco Mejia, Sonia; Cui, Chendi]
+sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019, Cui - Isoflavone Cognition RCT Meta-Analysis 2020]
 ---
 
 This is a general, population-level appraisal of what the evidence says about soy for anyone the studies
@@ -23,11 +23,13 @@ evidence — each question below was tested on a different one -> [[Is the Food 
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## The bottom line, per outcome
 
-Read the certainty claim-by-claim, not as one verdict on "soy". Four gold-tier meta-analyses anchor the
-page — one each for the hormone and cancer outcomes, and two on LDL (the newer revising the older's
-magnitude) — each with its own grade:
+Read the certainty claim-by-claim, not as one verdict on "soy". Five gold-tier meta-analyses anchor the
+page — one each for the hormone, cancer and cognition outcomes, and two on LDL (the newer revising the
+older's magnitude) — each with its own grade:
 
 | Outcome | Direction | Certainty |
 |---|---|---|
@@ -35,6 +37,7 @@ magnitude) — each with its own grade:
 | Isoflavone -> free testosterone / estradiol | consistent-with-null, less bounded | moderate |
 | Soy isoflavone -> breast cancer | neutral-to-protective, never raised | low-moderate |
 | Isolated soy protein -> LDL | lowering (\~3%), baseline-dependent | moderate |
+| Isoflavone -> cognition (memory) | small benefit on test scores | **low** (surrogate) |
 | Thyroid (iodine-conditional) | unknown | **insufficient** (gap) |
 | Natto / K2 (MK-7) -> bone / vascular | unknown | **insufficient** (gap) |
 | Soy in ER+ breast-cancer survivors | unknown | **insufficient** (gap) |
@@ -48,14 +51,17 @@ magnitude) — each with its own grade:
 
 Two facts bind the whole page. Each outcome rests on effectively one meta-analysis — the two on LDL share
 trials and one cites the other, so they are a revised single estimate, not independent confirmations —
-which is why overall confidence is medium despite four gold sources. And the headline effects are all
-**surrogates** — hormone
-levels and LDL, not events — so their transmission to what a person feels is a further, separate claim.
+which is why overall confidence is medium despite five gold sources. And the headline effects are all
+**surrogates** — hormone levels, LDL, and cognitive-test scores, not events — so their transmission to
+what a person feels is a further, separate claim.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## How good is the evidence — read this first
 
-Soy is one food, but its evidence is three separate literatures, and they are not equally strong. Read the
+Soy is one food, but its evidence is four separate literatures, and they are not equally strong. Read the
 certainty per outcome, not for "soy" as a whole. Each outcome rests on effectively one meta-analysis (the
 two on LDL share trials and one cites the other), so overall confidence is medium.
 
@@ -74,10 +80,17 @@ two on LDL share trials and one cites the other), so overall confidence is mediu
   confirmations.
   [@anderson1995]
   [@blancomejia2019]
+- **Cognition** — pooled short trials, but on a test-score surrogate, not on dementia. Cui 2020 pooled 16
+  RCTs of isoflavone supplements; the composite improves and the effect is carried by memory. Certainty is
+  low: the endpoint is a cognitive test score over weeks-to-2-years, and whether that transmits to the
+  outcome anyone cares about — dementia — is untested.
+  [@cui2020isoflavone]
 
 Thyroid (goitrogen) and antinutrient (phytate) fears were not searched. They are named gaps, not outcomes
 scored safe. For how these certainty grades are assigned, see [[Rating Certainty of Evidence]] and
 [[Upgrading Observational Evidence]].
+
+</div>
 
 ## Soy does not shift male reproductive hormones
 
@@ -198,6 +211,36 @@ revises the effect *down*, against the sponsor's interest.
 [@anderson1995]
 [@blancomejia2019]
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## On memory, the benefit is small and sits on a test score, not on dementia
+
+Cui 2020 pooled 16 randomized trials of isoflavone supplements — roughly 80 to 160 mg/day, six weeks to
+two years, mostly postmenopausal women — and found the composite cognitive score improved: SMD 0.19 (95%
+CI 0.07 to 0.32, I2 18.1%). The composite is carried by memory (SMD 0.15, 95% CI 0.03 to 0.26, I2 0.0%);
+the other domains, tested singly, do not reach significance. So the honest reading is narrow: a small
+average gain, concentrated in one domain.
+[@cui2020isoflavone]
+
+The endpoint is the limit. These trials measured a cognitive test score over two years or less — a
+surrogate. None counted a case of dementia. A test-score gain of this size need not transmit to the
+outcome a person actually fears, and no trial here shows that it does. This is the same surrogate-vs-event
+gap that sinks certainty on LDL, applied to cognition: hold the direction, discount the magnitude, and do
+not read a memory-test point as a dementia result -> [[Surrogate Outcomes]].
+
+The reverse worry — that soy *harms* the brain — does not survive its own evidence. It traces to one
+observational cohort (Hawaiian men, midlife tofu intake); the trial pool and later observational work run
+the other way. Cui states it plainly: «current evidence does not support the proposition that ISFs
+negatively affect cognition».
+[@cui2020isoflavone]
+
+Where this lands in the ranking: low. A small surrogate benefit from a supplement is a minor lever, not a
+big rock. For someone already lean, active, and eating a reasonable diet, the dementia levers that carry
+real evidence are elsewhere — the modifiable risk factors, not an isoflavone pill
+-> [[Dementia Prevention and Modifiable Risk Factors]].
+
+</div>
+
 ## The forms are not interchangeable — specify the exposure
 
 "Soy" names several exposures with different active fractions and different evidence. This is a
@@ -255,6 +298,8 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## What this appraisal cannot yet answer
 
 The honest edge of this page. Each item is unstudied-here, not scored safe.
@@ -297,9 +342,11 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?' |
-> | **Evidence included** | 4 sources — 4 gold |
+> | **Evidence included** | 5 sources — 5 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+
+</div>
 
 ## References

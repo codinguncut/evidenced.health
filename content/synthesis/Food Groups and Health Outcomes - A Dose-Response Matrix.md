@@ -23,8 +23,6 @@ which food groups move **which** outcomes, and — more informatively — where 
 **diverges** across outcomes. That cross-outcome grid is the emergent object here (type-A),
 and the divergences (fish, dairy, eggs, vegetables) are the payoff, not the uniform effects.
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Load-bearing caveat: this is ONE evidence base sliced five ways, NOT five independent confirmations
 
 The five meta-analyses share a research team, the **same** 12 a-priori food-group definitions,
@@ -43,8 +41,6 @@ cell's own NutriGrade rating** (H/M/L/VL below), never on how many other columns
 let the visual coherence of the grid launder into raised certainty. (The one place this caveat is
 **partially** relieved: the meat -> coronary cells now carry an independent-team robustness check
 -> *Independent-team cross-check on the meat -> coronary cells* below.)
-
-</div>
 
 ## The increment key (constant per food across all five outcomes)
 
@@ -118,8 +114,6 @@ in the series). Fish is the only food inverse across all three CVD subtypes. Rea
 single endpoint hides these — a stratum whose dominant risk is stroke ranks vegetables/fruit
 above whole grains/nuts.
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Independent-team cross-check on the meat -> coronary cells (Papier 2021) `[2026-09-02]`
 
 The load-bearing caveat above says cross-outcome agreement inside the DIfE/Boeing series is NOT
@@ -172,8 +166,6 @@ against the «6,659 cases» from five studies that Bechthold pooled — over fou
 [@papier2021ihd] So the earlier null
 MAs are **insufficient-evidence** (underpowered), not demonstrated **no-effect** — the four
 evidence-states distinction, and the expectancy test applied to a growing case count.
-
-</div>
 
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 

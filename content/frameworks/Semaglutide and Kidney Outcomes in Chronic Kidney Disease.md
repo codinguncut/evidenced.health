@@ -2,18 +2,21 @@
 type: framework
 question: For someone with type 2 diabetes and chronic kidney disease, does semaglutide reduce hard kidney and survival outcomes — and is that a new benefit beyond the CV/weight case?
 aliases: [FLOW Trial, Semaglutide Kidney, GLP-1 Kidney Outcomes, Semaglutide CKD, GLP-1 Renal Protection, Semaglutide Renal Outcomes]
-authors: [Perkovic, Vlado; Tuttle, Katherine R; Rossing, Peter; Mahaffey, Kenneth W]
-sources: [Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024]
+authors: [Perkovic, Vlado; Tuttle, Katherine R; Rossing, Peter; Mahaffey, Kenneth W; Badve, Sunil V]
+sources: [Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024]
 cluster: glp1
+confidence: high
 relationships:
   related_to:
     - Semaglutide for Cardiovascular Risk in Obesity
     - GLP-1 Non-Cardiometabolic Effects and Safety
+    - GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-08-22
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 **Frontier scope (kept peripheral, not deepened)** — semaglutide is a widely-prescribed
@@ -101,6 +104,37 @@ outcomes) in a new population (T2D+CKD)** that none of the held trials measured 
 outcome), not extra confidence in an already-held claim.
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Class-level context — FLOW inside the GLP-1 CVOT meta-analysis (F-refinement)
+
+[@badve2024glp1]
+FLOW is one trial in the class-level meta-analysis (Badve 2024; 11 trials, 85,373), which pools it with
+the CV-outcome programme -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]. Two
+things that page settles bear on FLOW's reading here (kept to the efficacy signal — no dosing,
+agent-selection, or combination-therapy content, per this page's frontier scope):
+
+- **The class moves a HARD kidney outcome, and this partly cashes FLOW's kidney-failure gap.** The prior
+  class MA (Sattar 2021, not held) reported a 21% kidney reduction «mainly driven by new-onset
+  macroalbuminuria, a surrogate outcome not validated for clinical kidney disease outcomes». Badve
+  re-runs it on a composite *excluding* macroalbuminuria — composite kidney HR 0·82 (0·73-0·93,
+  high-certainty) — and shows kidney failure «for the first time» (HR 0·84, 0·72-0·99, moderate-
+  certainty) at the class level [@badve2024glp1]. FLOW carried 49% of that kidney-failure weight, so this is largely FLOW being
+  confirmed at class scale rather than an independent route — but the standalone kidney-failure signal
+  FLOW could not confirm alone is now moderate-certainty across the class.
+- **The muscle-loss/creatinine confound, and its reassurance, generalize.** Badve names the same worry
+  FLOW addressed with cystatin-C: GLP-1 weight loss «may in turn reduce creatinine generation due to
+  reduced muscle mass and therefore artificially improve creatinine-based eGFR measurements», and the
+  kidney-failure reduction (not creatinine-confoundable) «provides important reassurance that the kidney
+  benefits of GLP-1 receptor agonists are real». [inferred from @badve2024glp1]
+
+Absolute class kidney benefit is modest outside high kidney risk (class NNT 164 vs FLOW's 20), because
+most pooled trials enrolled near-normal kidney function — so FLOW's large absolute benefit is a
+high-baseline-risk feature (route (a)), not the class norm.
+[inferred from @badve2024glp1; @perkovic2024]
+
+</div>
+
 ## Decision relevance
 
 - **T2D + CKD (eGFR 25-75, albuminuric), on RAS inhibition:** semaglutide is now a strong incremental
@@ -117,13 +151,19 @@ outcome), not extra confidence in an already-held claim.
   this is a large, certain lever on patient-important outcomes — near the top for that specific profile.
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Gaps
 
 - **Combination therapy untested** — SGLT2i/finerenone uptake was low; the order and additivity of the
   four cardiorenal therapies is unresolved. G.
-- **Not powered for kidney failure alone** — the standalone dialysis/transplant benefit is suggested, not
-  confirmed. G.
+- **Not powered for kidney failure alone (FLOW)** — the standalone dialysis/transplant benefit is
+  suggested by FLOW, not confirmed within it; now **partly cashed at class level** (Badve 2024: kidney
+  failure HR 0·84, 0·72-0·99, moderate-certainty), though FLOW carried \~half that pooled weight. G
+  (narrowed).
 - **Generalizability** — mostly White; effect in lower-risk, non-diabetic, or non-albuminuric CKD
   unknown. G.
+
+</div>
 
 ## References

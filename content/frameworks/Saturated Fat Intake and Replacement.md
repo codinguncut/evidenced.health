@@ -3,7 +3,7 @@ type: framework
 question: How much saturated fat, replaced by what, and how confident is that?
 aliases: [SFA, Saturated Fatty Acid Intake, SFA Replacement, Dietary Fat Recommendations, WHO SFA Guideline, 10% Energy Threshold]
 authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven; Nordic Council of Ministers (org); Imamura, Fumiaki; Mozaffarian, Dariush; Zhang, Yu; Wang, Dong D; Winters-van Eekelen, E]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023, Imamura - Dietary Fats Glucose Insulin Trials Meta-Analysis 2016, Zhang - Butter Plant Oils Mortality 2025, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023, Imamura - Dietary Fats Glucose Insulin Trials Meta-Analysis 2016, Zhang - Butter Plant Oils Mortality 2025, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012]
 cluster: dietary-fat
 nucleus: true
 confidence: medium
@@ -18,7 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-09-02
+updated: 2026-09-04
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
 self_critiqued: 2026-09-02
 ---
@@ -380,6 +380,8 @@ a different cut of the evidence. **Do not add a row from this table to a row fro
 
 
 [@who2023saturated]
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Hooper 2020 — the Cochrane RCT meta-analysis underneath WHO's numbers `[2026-07-29]`
 
 Hooper is the primary Cochrane review
@@ -505,6 +507,20 @@ Hooper's RCT subgrouping cannot separate PUFA from carbohydrate. Consistent with
 PUFA's edge is over-determined by the **LDL** magnitude while the replacement-specific *event* evidence is
 thin and imprecise — Hooper's clean signal is of *reducing SFA*, pooled across replacements; the
 replacement contrast is underpowered.
+
+**Predecessor note — Hooper 2012 (reduce-or-modify-fat Cochrane review), NOT independent backing
+`[2026-09-04]`.** Hooper's earlier, broader Cochrane review of reducing *and/or* modifying dietary fat is
+now held. It is the **ancestor** of Hooper 2020 above — same lead author, same Cochrane Heart Group
+method (the Hooper 2000 -> 2011 -> 2015 -> 2020 lineage) — so it is **not** an `[E-independent]` second
+witness for any SFA-events claim on this page; it is superseded here by the SFA-specific 2020 review. Its
+one distinctive contribution is at the *total-fat* level, not the SFA level: pooling RCTs of fat
+**reduction** (fat->carbohydrate) vs fat **modification** (SFA->unsaturated), it found the combined-events
+benefit (RR 0.86, 0.77-0.96, moderate GRADE) lives in the *modification* arms while the *reduction* arm is
+null (RR 0.97, 0.87-1.08) — the demonstration that *the substitution sets the sign*, at pooled-RCT scale.
+That finding is woven on [[Low-Fat Dietary Pattern and Cardiovascular Disease]], not duplicated here.
+[@hooper2012reducedfat]
+
+</div>
 
 ## The heterodox reassessment — Astrup et al. 2020 `[2026-07-29]`
 

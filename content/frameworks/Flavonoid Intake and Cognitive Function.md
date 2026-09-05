@@ -18,8 +18,9 @@ relationships:
     - Measurement Error in Dietary Assessment
     - The U-Shaped Association Artifact
     - Upgrading Observational Evidence
+    - Soy Isoflavones and Cognitive Function
 ---
-<div class="recent-page" data-last-updated="2026-09-04"></div>
+<div class="recent-page" data-last-updated="2026-09-05"></div>
 
 
 **Decision one-liner (Layer 1):** higher dietary flavonoid intake carries a **small inverse
@@ -180,16 +181,19 @@ to fruit/veg/tea/*flavonoids* is the flavonoid, the food matrix, or the healthy-
 gap [[Flavonoid Intake and Mortality]] holds open on the mortality axis, now confirmed open on cognition.
 [inferred from @peng2025flavonoid; @zhou2022fruit]
 
-## The isoflavone discrepancy — a design-quality tension the author flags
+## The isoflavone discrepancy — RESOLVED as a distinction, not a tension
 
-An isoflavone RCT meta-analysis (Cui 2020, 16 RCTs) found a cognitive benefit that Peng's *observational*
-isoflavone pool did not (OR 0.96, 0.81-1.13, NS). Peng attributes the discrepancy to «too few
-observational studies exploring the association between dietary isoflavones consumption and cognitive
-function» and «the higher internal validity of RCTs compared to observational studies»
-[@peng2025flavonoid]. This is a **G-gap noted, not a
-tension filed here** (the RCT source is not held; the two are different designs on a subclass, not a
-matched-quantity clash) -> if the isoflavone
-RCT evidence is ever acquired.
+Peng's **observational** isoflavone slice is null (OR 0.96, 0.81-1.13, I2 56.4%), while an isoflavone
+**RCT** meta-analysis (Cui 2020, 16 RCTs) found a small pooled benefit. Peng attributes the discrepancy
+to «too few observational studies exploring the association between dietary isoflavones consumption and
+cognitive function» and «the higher internal validity of RCTs compared to observational studies»
+[@peng2025flavonoid].
+
+The Cui RCT source is now **held**, and the two estimates do **not** join as a tension — they measure
+different quantities (dosed supplemental ISFs on a continuous test score over ≤2.5 y, versus habitual
+dietary isoflavone intake on cognitive events). This is recorded as a **type-F/B distinction** on
+[[Soy Isoflavones and Cognitive Function]], where the full parameter table and the Cui effect estimates
+(all-domains SMD 0.19, memory-carried; non-memory domains null; the tofu-harm rebuttal) live.
 
 ## Where this sits
 

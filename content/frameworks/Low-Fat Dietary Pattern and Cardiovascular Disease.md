@@ -2,13 +2,13 @@
 type: framework
 question: Does reducing total dietary fat (fat calories displaced mainly by carbohydrate) lower hard cardiovascular events?
 aliases: [WHI Dietary Modification Trial, Low-Fat Diet CVD, Total Fat Reduction CVD, WHI DM Trial]
-authors: [Howard, Barbara V; Van Horn, Linda; Manson, JoAnn E; Stefanick, Marcia L]
-sources: [WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
+authors: [Howard, Barbara V; Van Horn, Linda; Manson, JoAnn E; Stefanick, Marcia L; Hooper, Lee; Davey Smith, George]
+sources: [WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012]
 cluster: dietary-fat
 confidence: medium
 created: 2026-08-25
-updated: 2026-08-25
-self_critiqued: 2026-08-25
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 relationships:
   related_to:
     - Saturated Fat Intake and Replacement
@@ -105,14 +105,81 @@ were tested; thus, at least 1 would be ex- pected to be significant by chance al
 chunk 01. This is a route-(b) effect-modification *candidate* at best (the false-positive generator),
 never elevated to a finding.
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Hooper 2012 — the pooled-RCT generalization of the WHI null `[2026-09-04]`
+
+The single-trial null above is no longer the only randomized evidence on this exposure. Hooper's
+Cochrane review pooled RCTs (>=6 months) of reducing and/or modifying dietary fat — 24 comparisons,
+65,508 participants for the combined-events outcome — and **it contains WHI** (both the with-CVD and
+without-CVD arms, which dominate its reduced-fat subgroup).
+[@hooper2012reducedfat]
+
+**The load-bearing finding: the whole class of total-fat-*reduction* trials is null on CV events, while
+the benefit lives in fat-*modification*.** Hooper's own subgroups against usual diet:
+
+> «There was no suggestion of an eﬀect on cardiovascular events in studies that compared reduced fat vs
+> usual intake (RR 0.97, 95% CI 0.87 to 1.08, I2 17%, 50,655 participants, 3632 people with CVD events,
+> peﬀect 0.55).»
+> [@hooper2012reducedfat]
+
+That reduced-fat subgroup — 50,655 participants, tight interval, flatly null — is WHI plus \~15 smaller
+fat-reduction trials all pointing the same way. The modification subgroup instead moved events (modified
+fat RR 0.82 [0.66-1.02], fixed-effects 0.83 [0.73-0.93]; reduced+modified RR 0.77 [0.57-1.03]), and the
+overall 14% events reduction (RR 0.86 [0.77-0.96], **moderate GRADE**) is driven by the modifying arms.
+Authors' conclusion: «a small but potentially important reduction in cardiovascular risk on modiﬁcation
+of dietary fat, but not reduction of total fat, in longer trials»; plain-language: «There are no clear
+health beneﬁts of replacing saturated fats with starchy foods (reducing the total amount of fat we
+eat).» [@hooper2012reducedfat]
+
+**Parameter table — is this an independent second backing, or WHI generalized?**
+
+| Parameter | WHI DM 2006 | Hooper 2012 reduced-fat subgroup | Same quantity? |
+|---|---|---|---|
+| Design | single RCT (n=48,835) | pooled RCTs, \~16 comparisons, 50,655 pp | **superset — Hooper CONTAINS WHI** |
+| Exposure | total-fat *quantity* cut, fat->carbohydrate, no weight loss | low-fat diets (<30%E fat, energy replaced mainly by carbohydrate) vs usual | **YES — same exposure class** |
+| CV-events result | CHD HR 0.97 (0.90-1.06); CVD 0.98 | reduced-fat subgroup RR 0.97 (0.87-1.08) | **YES — same null** |
+| Contrast to modification | not tested (WHI is reduction-only) | modification subgroup RR 0.82/0.83 — a **different** exposure (SFA->unsaturated) | the distinction WHI could not draw |
+
+**Determination: type-F refinement, NOT `[E-independent]`.** Because Hooper 2012 pools WHI rather than
+replicating it independently, its reduced-fat RR 0.97 is not a second witness — it is WHI *generalized*:
+the total-fat-reduction null is a property of the whole trial class, not an idiosyncrasy of one study.
+What Hooper adds beyond WHI is the **separation of the two exposures** WHI conflated — reducing total fat
+(null) versus modifying fat type (benefit) — demonstrated at pooled-RCT scale with moderate-GRADE
+backing. This confirms, with a trial base, exactly the caveat WHI's own authors stated (the lever is fat
+*quality* / pattern, not fat *quantity*). It is also non-independent of the SFA page's Hooper 2020 (same
+lead author, same Cochrane method — the predecessor review).
+[inferred from @whi2006; @hooper2012reducedfat]
+
+**A sharper version of the WHI low-ceiling point.** Hooper's reduced-fat arm *did* lower LDL
+(-0.10 mmol/L), total cholesterol (-0.10) and weight (-0.83 kg) across \~62,000 participants, and still
+produced no event benefit — the modest lipid change caps the achievable effect, just as WHI's authors
+argued for their own 3.55 mg/dL LDL drop. The modification arm lowered total cholesterol far more
+(-0.44 mmol/L), and the events benefit «related directly to the degree of eﬀect on serum total and LDL
+cholesterol and triglycerides». [@hooper2012reducedfat]
+So the divergence between the two arms is dose-of-lipid-change, not fat-quantity-versus-quality as
+independent magic. -> [[Saturated Fat Intake and Replacement]], [[LDL ApoB and Cumulative Exposure]]
+
+**Gap — the direct head-to-head is untested.** Reduction *versus* modification is an **indirect**
+(each-vs-usual) subgroup contrast, not a randomized comparison: the direct Comparison 4 held 3 studies,
+912 participants, 28 events, RR 1.13 (0.41-3.06) — hopelessly underpowered, and «not clear ... whether
+this is due to the greater intrinsic eﬀect of modiﬁed fat diets ... or that modiﬁed fat diets are easier
+to comply with». `[type-G]` [@hooper2012reducedfat]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Decision relevance
 
 
 
 - **For a reasonably-healthy person, cutting *total* fat (and replacing it with refined
   carbohydrate) is not a CVD lever.** The largest RCT of exactly this move is null, and its own
-  design shows why: it changed the wrong quantity by a diluted amount. Do not spend effort on
-  total-fat percentage for cardiovascular prevention.
+  design shows why: it changed the wrong quantity by a diluted amount. **The pooled RCT class agrees**
+  — Hooper's fat-reduction subgroup (50,655 pp, containing WHI) is RR 0.97 (0.87-1.08) on CV events,
+  so this is a class-level null, not one trial's. Do not spend effort on total-fat percentage for
+  cardiovascular prevention.
 - **The lever the evidence supports is fat *quality* and dietary *pattern*, not fat *quantity*** —
   replacing saturated/trans fat with unsaturated fat, and shifting toward a protective-foods pattern
   -> [[Saturated Fat Intake and Replacement]], [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. WHI does not speak against these because it did not test them.
@@ -121,6 +188,10 @@ never elevated to a finding.
   power, it refutes almost nothing about the patterns actually recommended.
 - **Open loop.** This appraises the tested contrast; it does not close the loop against a realized
   outcome for any individual.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Self-critique `[run 2026-08-25, before commit]`
 
@@ -135,5 +206,27 @@ never elevated to a finding.
   the no-weight-loss-goal + grain-increase design, not asserted bare.
 - **Quotes verified.** Every «...» span is a `bin/cite.py` locate against chunk 01; the achieved-intake
   table numbers are srcgrep-verified Table 3 values. Single source, so no independence/type-E claim.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Self-critique `[run 2026-09-04, Hooper 2012 reweave, before commit]`
+
+- **The contains-WHI fact is stated up front and gates the E-claim.** The page does NOT claim Hooper 2012
+  as independent corroboration — the parameter table's *superset — Hooper CONTAINS WHI* cell and the
+  explicit F-not-E determination prevent the laundered-E move (a pooled review that contains the single
+  trial is generalization, not a second witness). Also flagged non-independent of the SFA page's Hooper
+  2020 (shared author + Cochrane method).
+- **Same-quantity discipline held.** The null is asserted only for the *reduction* exposure (fat->carb),
+  which matches WHI; the *modification* subgroup is explicitly marked a different exposure — no welding of
+  the two arms into one claim.
+- **No overclaim on the modification benefit.** The modification RR 0.82 is reported with its
+  non-significant random-effects interval and its indirect (each-vs-usual, not head-to-head) status; the
+  direct comparison is filed as a G-gap, not read as a demonstrated superiority.
+- **Confidence kept medium.** The added backing is same-lineage (contains WHI), so it strengthens warrant
+  on the reduction-null without earning an independence upgrade; medium is retained, not raised.
+
+</div>
 
 ## References

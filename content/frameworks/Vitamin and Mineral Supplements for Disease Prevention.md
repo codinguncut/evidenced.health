@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E; Pittas, Anastassios G]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -21,8 +21,8 @@ relationships:
     - Exercise for Preventing Falls in Older Adults
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-30
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-04
+self_critiqued: 2026-09-04
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -308,7 +308,7 @@ one of its largest trials, so the guideline and the trial are **not independent 
 `[E-independent]`) — the guideline is the RCT base synthesized, one level up
 .
 
-<div class="recent-update" data-last-updated="2026-09-02">
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The newest guideline consolidates the trial base — Endocrine Society (Demay 2024) `[2026-09-02, Demay]`
 
@@ -348,15 +348,77 @@ and the panel flags the age bands as «somewhat arbitrary»
 [@demay2024vitamind]. Decision-change:
 for the oldest stratum a low daily dose is a defensible small lever; for 50-74 it is not.
 
-**Prediabetes — the other positive carve-out (route-(a), a candidate lever).** For high-risk
-prediabetes, Demay *suggests* empiric vitamin D (weighted-avg \~3500 IU/day, 88 mcg) to slow
-progression to diabetes — **conditional, moderate certainty** — reporting «a 15% reduction in
-new-onset diabetes in adults with prediabetes randomized to vitamin D compared to placebo (HR 0.85
-[95% CI, 0.75-0.96])» [@demay2024vitamind]. Per guideline-tier discipline the *effect* traces to the underlying IPD-MA, not to the guideline — the SR to cite for the prediabetes effect.
-The panel sizes the lever at the margin: its \~24-fewer-per-1000 absolute reduction is smaller than
-metformin's \~70-fewer-per-1000 in the DPP, so the drug alternative is the larger rock for this stratum
--> [[Layer 1 - Ranking Interventions for a Stratum]]. Pregnancy and children 1-18 carry weaker
-*suggest*-empiric recs (low / very-low certainty).
+**Prediabetes — the other positive carve-out (route-(a), now grounded in the primary IPD-MA).** For
+high-risk prediabetes, Demay *suggests* empiric vitamin D (weighted-avg \~3500 IU/day, 88 mcg) to slow
+progression to diabetes — **conditional, moderate certainty**. The *effect* traces not to the guideline
+but to the underlying individual-participant-data meta-analysis, now held: Pittas pooled IPD from **3
+low-risk-of-bias RCTs specifically designed for diabetes prevention** (D2d, Tromsø, DPVD; n=4190 adults
+with prediabetes, mean age 61, mean BMI 30, mean baseline 25(OH)D 63 nmol/L) and found «Vitamin D reduced
+risk for diabetes by 15% (hazard ratio, 0.85 [95% CI, 0.75 to 0.96]) in adjusted analyses, with a 3-year
+absolute risk reduction of 3.3% (CI, 0.6% to 6.0%). The effect of vitamin D did not differ in prespeciﬁed
+subgroups.» [@pittas2023vitamindipd] (unadjusted ITT HR 0.88,
+0.77-0.99; NNT 30).
+
+**Why the IPD-MA sees an effect the constituent trials and VITAL could not (type-F over the aggregate
+MAs).** Each individual trial was an underpowered null: «The individual trials included in this
+meta-analysis, which were powered to detect diabetes risk reductions no lower than 25%, reported nearly
+identical, non–statistically signiﬁcant risk reductions of 10% (Tromsø), 12% (D2d), and 13% (DPVD)» —
+pooling harmonized IPD recovered the power to detect the small true effect [@pittas2023vitamindipd]. This is the **baseline-risk reconciliation** (route-(a)) of the
+page's own general-population null: VITAL selected on *age alone* (replete, average-risk) and found
+nothing; Pittas selected *prediabetes* (higher baseline diabetes risk, lower median 25(OH)D), where a
+small relative effect on a high baseline risk becomes a non-trivial absolute one — «the results do not
+apply to the general healthy population and should not be extrapolated to those who are at average risk»
+[@pittas2023vitamindipd]. So Pittas does not contradict the
+null-in-the-replete thesis; it is the same thesis read at a higher-risk, less-replete stratum
+[inferred from @pittas2023vitamindipd]. -> [[Baseline Risk and the Relative-Absolute Split]], [[Deficiency Repletion vs Enhancement]].
+
+**The lever is small at the margin (Layer-1 sizing, from Pittas' own comparison).** The relative effect
+«is small (15%) compared with other diabetes prevention strat- egies (58% with intensive lifestyle
+modiﬁcation and 31% with metformin in the Diabetes Prevention Program study)» and the absolute gap is
+wide: «a number of persons with prediabetes needed to treat of 30 (compared with 7 with intensive
+lifestyle modiﬁcation and 14 with metformin in the Diabetes Prevention Program study)»
+[@pittas2023vitamindipd]. So the prevention rock for this
+stratum is lifestyle first, then metformin; vitamin D is a small, cheap, low-harm add-on, not a
+substitute -> [[Lifestyle vs Metformin for Diabetes Prevention]],
+[[Layer 1 - Ranking Interventions for a Stratum]].
+
+**Route-(b) effect modification — cholecalciferol works in the leaner, and a named mechanism plus an
+internal negative control make it credible.** Prespecified subgroups were null *except* a BMI interaction
+in the two cholecalciferol trials: it «reduced risk for diabetes in participants with a baseline BMI below
+the median of 31.3 kg/m2 but not in those with a BMI at or above the median (hazard ratios, 0.74 [CI, 0.60
+to 0.90] and 1.01 [CI, 0.84 to 1.22], respectively; P for interaction= 0.023). In contrast, in the trial
+that used eldecalcitol, an active analogue of vitamin D that does not require hydroxylation by CYP2R1,
+there was no effect modiﬁca- tion by baseline BMI (P for interaction= 0.82).»
+[@pittas2023vitamindipd] The mechanism is pre-stated: «obesity
+represses vitamin D
+bioactivation by CYP2R1 ... leading to reduced production of 25-hydroxyvitamin D, and that weight loss
+upregulates CYP2R1 expression» [@pittas2023vitamindipd] — so
+the *pro-drug* cholecalciferol fails in the obese who cannot activate it, while the *active analogue* that
+bypasses CYP2R1 shows no such gradient. A positive interaction carrying a named mechanism AND an internal
+negative control is the rare route-(b) evidence that clears the effect-modification bar
+-> [[Baseline Risk and the Relative-Absolute Split]].
+
+**The 76% figure is NOT the randomized effect — it is a within-arm achieved-level analysis.** Among
+cholecalciferol-assigned participants, those maintaining ≥125 nmol/L (≥50 ng/mL) 25(OH)D had «the greatest
+risk reduction (76%) occurring at intratrial se- rum 25-hydroxyvitamin D levels of 125 nmol/L or higher»
+(HR 0.24 [CI, 0.16 to 0.36]) versus those at 50-74 nmol/L [@pittas2023vitamindipd]. But *achieved* 25(OH)D is post-randomization — it tracks adherence, absorption, and
+adiposity — so this contrast recreates the observational confounding structure inside the RCT and is
+hypothesis-generating, not the causal randomized effect (which stays the 15%). The authors offer one
+partial internal control (no such gradient in the placebo arm) and call explicitly for a treat-to-target
+RCT to test it. Read the 76% as *a reason to run that trial*, not as an attainable effect size
+-> [[Surrogate Outcomes]], [[The U-Shaped Association Artifact]]. [inferred from @pittas2023vitamindipd]
+
+**A second benefit direction, and the safety null.** Vitamin D also raised regression to normoglycemia —
+«Vitamin D increased the likelihood of regression to normal glucose regulation by 30% (rate ratio, 1.30
+[CI, 1.16 to 1.46])» — a patient-relevant direction beyond delaying incidence
+[@pittas2023vitamindipd]. Safety was null across the
+prespecified events: «There was
+no evidence of difference in the rate ratios for adverse events (kidney stones: 1.17 [CI, 0.69 to 1.99];
+hypercalcemia: 2.34 [CI, 0.83 to 6.66]; hypercalciuria: 1.65 [CI, 0.83 to 3.28]; death: 0.85 [CI, 0.31 to
+2.36]).» [@pittas2023vitamindipd] The wide hypercalcemia
+interval and the trials' exclusion of people at risk of adverse events make this *no signal*, not *proven
+safe* — contrast the combination-with-calcium stone harm above [inferred from @pittas2023vitamindipd]. Pregnancy and children 1-18
+carry weaker *suggest*-empiric recs (low / very-low certainty).
 
 **Every recommendation is conditional — the GRADE-strength finding.** All 14 Demay recommendations are
 graded **"2" (conditional/weak)**; certainty spans **very-low (⊕◯◯◯) to moderate (⊕⊕⊕◯)**, none
@@ -818,7 +880,7 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-02">
+<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Self-critique `[run 2026-09-02, before commit — Demay 2024 Endocrine Society guideline woven]`
 
@@ -827,7 +889,8 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   `confidence: high` is unchanged (a guideline resting on already-held trials adds authority and GRADE
   calibration, not a second independent backing).
 - **Guideline-tier discipline held.** The one effect claim that traces to an underlying SR — the
-  prediabetes HR 0.85 — is tagged, not
+  prediabetes HR 0.85 — was held pending its IPD-MA and is **now grounded in Pittas directly** (the
+  Pittas ingest of 2026-09-04 cashed that hold; see the prediabetes carve-out and the run below), not
   asserted as Demay's own; the mortality RR 0.96 is presented as Demay's *own* commissioned pooled MA
   (a guideline-produced estimate), flagged with its CI touching 1.00.
 - **Not a fake tension with Zhang.** Demay's RR 0.96 vs Zhang's 0.98 is filed as a *distinction*
@@ -839,6 +902,33 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 - **No [PRIOR] verdict scored here** (ingest builds fabric, does not adjudicate): the EtD/weighting
   observation is appraised on [[Which Objective Moved This Recommendation]], not scored against the
   weighting [PRIOR] in this ingest.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-04">
+
+## Self-critique `[run 2026-09-04, before commit — Pittas 2023 vitamin-D IPD-MA woven; AWAITS cashed]`
+
+- **AWAITS cashed correctly.** The prediabetes HR 0.85, previously borrowed from Demay's guideline and
+  held, now traces to the primary IPD-MA; the token is struck in the same
+  commit and Pittas is added to `sources:`/`authors:`. No orphan AWAITS remains for this slug.
+- **Not a fake tension with the page thesis.** Pittas' *positive* prediabetes effect does not
+  contradict the page's null-in-the-replete headline: it is a **different stratum** (high diabetes
+  risk, lower median 25(OH)D), read as the baseline-risk route-(a) reconciliation, not a joined
+  tension. Filed as consistency, not friction.
+- **The 76% is quarantined.** The within-arm achieved-25(OH)D HR 0.24 is explicitly marked
+  non-randomized (post-randomization exposure recreates observational confounding), with the causal
+  claim held to the 15% ITT effect and the placebo-arm-null named as the authors' partial control. No
+  laundering of the observational gradient into a randomized effect.
+- **Route-(b) meets the bar, stated as such.** The BMI×cholecalciferol interaction is admitted as a
+  genuine effect-modification instance because it carries a pre-stated mechanism (CYP2R1 bioactivation)
+  AND an internal negative control (eldecalcitol, P-interaction 0.82) — not on mechanistic
+  plausibility alone.
+- **Not [E-independent].** Pittas shares the D2d and Tromsø trials with the held aggregate MAs
+  (Zhang/Barbarawi), so it is type-F consolidation/upgrade over aggregate data, not an independent
+  second backing; `confidence: high` unchanged.
+- **Coherence, not validity** (R1): the loop is open; the treat-to-target question and the
+  general-population non-transportability are named as gaps, not resolved.
 
 </div>
 

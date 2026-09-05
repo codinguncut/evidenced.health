@@ -20,7 +20,6 @@ relationships:
     - Dietary Protein and Mortality
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-update" data-last-updated="2026-09-02">
 
 **Nucleus of the `white-meat` cluster.** The poultry -> patient-important-outcome cell, newly opened.
 Until now the fabric held poultry only as the *substitute arm* inside red-meat substitution analyses;
@@ -35,8 +34,6 @@ source — one large US cohort (Etemadi 2017, NIH-AARP) — adds the piece the t
 a within-cohort **substitution** estimate (red -> white), the swap the intake-only MAs could not compute.
  (this lead is the wiki's cross-source framing; each finding is attributed on its own section
 below)
-
-</div>
 
 ## What "white meat" is here — and why the exclusion of fish matters (the B-distinction)
 
@@ -258,8 +255,6 @@ measure *intake of poultry*, not the *substitution*, and the substitution signal
 mortality, unclear CVD/T2D) is imported, not estimated here.
 [@ramel2023whitemeat]
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## The within-cohort SUBSTITUTION model (Etemadi 2017) — the swap the three MAs did not estimate `[2026-09-02]`
 
 The gap Ramel names above — no held source estimates the red -> white *substitution*, only intake — is
@@ -289,7 +284,6 @@ constant» [@etemadi2017].
   -> [[The Comparator Problem]]. So it **narrows** the substitution gap (a first within-cohort estimate of
   the swap — direction and rough magnitude) without **closing** it (one cohort, modelled not randomized).
 
-</div>
 
 ## Cross-source composite — what Kim adds to Lupoli (type-F, endpoint extension)
 
@@ -367,8 +361,6 @@ to lean on an industry-funded abstract for the poultry->T2D question. Recorded a
 refutation of any source — symmetric standards apply to the funding note in both directions.
 [inferred from @ramel2023whitemeat]
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Open gaps (type-G)
 
 - **Confounding by red-meat displacement is unresolved** — the central caveat above; no analysis in any
@@ -394,8 +386,6 @@ refutation of any source — symmetric standards apply to the funding note in bo
 - **No dose-response on any endpoint** — all three held sources use categorical highest-vs-lowest
   contrasts; a per-gram poultry curve, knee, or absolute risk difference remains uncomputable
   (needs aggregation).
-
-</div>
 
 ## Self-critique `[run 2026-08-28 after attaching Kim's stroke endpoint — the cross-source step]`
 
@@ -439,8 +429,6 @@ refutation of any source — symmetric standards apply to the funding note in bo
   The processed-vs-unprocessed divergence (Steinbrecher up, Villegas down) is held as a *gap on 2
   studies*, not a joined issue.
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Self-critique `[run 2026-09-02 after attaching Etemadi's substitution model]`
 
 - **Not sold as closing the gap.** Etemadi is one FFQ cohort with a *modelled* (total-meat-constant) swap,
@@ -456,8 +444,6 @@ refutation of any source — symmetric standards apply to the funding note in bo
   (0.93) for comparability rather than the fish-inclusive aggregate — the exposure is matched, not assumed.
 - **No manufactured tension.** Etemadi's favourable white-meat substitution signal agrees with the
   cluster's aggregate-endpoint direction; nothing is filed as a D-clash.
-
-</div>
 
 ## Provenance / independence note
 

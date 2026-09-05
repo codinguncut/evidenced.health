@@ -2,14 +2,15 @@
 type: framework
 question: Does intentional weight loss via lifestyle reduce hard cardiovascular events?
 aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle Intervention, Weight Loss Hard Outcomes, Does Losing Weight Prevent Heart Attacks]
-authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Sjöström, Lars; Malhotra, Atul]
-sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
+authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Sjöström, Lars; Malhotra, Atul; Badve, Sunil V]
+sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024]
 cluster: weight-management
 nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Semaglutide for Cardiovascular Risk in Obesity
+    - GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes
     - Fatty Liver MASLD and Weight Loss
     - Layer 1 - Ranking Interventions for a Stratum
     - Baseline Risk and the Relative-Absolute Split
@@ -19,7 +20,7 @@ relationships:
     - Ectopic Fat and Depot-Specific Risk
     - Sleep Apnea Treatment and Cardiovascular Risk
 created: 2026-07-28
-updated: 2026-08-21
+updated: 2026-09-05
 self_critiqued: 2026-08-21
 ---
 
@@ -182,7 +183,7 @@ tension?**
 | Design | RCT (LA); 54-RCT MA (Ma) | matched, prospective, **non-randomized** cohort | **NO** — SOS lower internal validity, self-selection |
 | Sustained weight loss | \~2.5 pp (LA); varied (Ma) | «25%, 16%, and 14%» at 10 y by procedure | **NO** — SOS \~3-10x larger |
 | Population | T2D o/w-obese (LA); obese mostly non-diabetic (Ma) | severe obesity, BMI >=34/>=38 | **NO** — SOS more severe, higher baseline risk |
-| **All-cause mortality** | Ma: RR 0.82 (0.71-0.95), high quality | adjusted HR 0.71 (0.54-0.92) | **YES — same quantity, both reductions (convergent)** |
+| **All-cause mortality** | Ma: RR 0.82 (0.71-0.95), high quality | adjusted HR 0.71 (P=0.01), no CI reported | **YES — same quantity, both reductions (convergent)** |
 | CV events | null (LA HR 0.95; Ma RR 0.93) | CV deaths 43 vs 53; MI deaths 13 vs 25 (**not** a powered/adjusted endpoint, no HR) | **NO** — SOS reports no CV-event HR |
 
 **Deciding check -> NOT a tension; a dose-response refinement + an independent convergence.** The
@@ -242,6 +243,34 @@ event/mortality evidence AWAITS SURMOUNT-MMO; do not borrow SELECT's benefit for
 molecule, different stratum).
 [@malhotra2024surmount]
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## The drug route generalizes to a class — and it is weight-INDEPENDENT, which reinforces this page
+
+SELECT is one agent in one non-diabetic population. The class-level meta-analysis (Badve 2024; 11 CVOTs,
+85,373) shows the whole **GLP-1 receptor agonist class** cuts hard CV events across the type-2-diabetes
+programme: it «resulted in a 13% reduction in the risk of MACE (HR 0·87, 95% CI 0·81 to 0·93;
+high-certainty evidence)» and «a 12% relative reduction in the risk of death due to any cause in
+participants with type 2 diabetes (HR 0·88, 95% CI 0·83 to 0·93; high-certainty evidence)», consistent
+regardless of diabetes status
+[@badve2024glp1]. So the drug route to
+CV-event reduction is not a SELECT one-off; it is a robust class effect -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
+
+**This does NOT overturn the page's thesis — it sharpens it.** These are glucose-lowering CVOTs with
+*modest* weight loss, and the GLP-1 CV benefit separates early, before much weight is lost — it is a drug
+pleiotropic effect, not a weight-loss effect. So the class result is *not* evidence that shedding weight
+prevents CV events; it is another instance of **the route matters**: the drug route works via
+drug-specific channels the lifestyle weight-loss route (Look AHEAD, Ma) does not fire. The lifestyle
+CV-event null stands.
+
+**Layer-1 sizing (the substitution principle).** For a T2D / high-CV-risk person, a mature effective
+low-harm drug now captures most of the CV-event, mortality and (at high kidney risk) hard-kidney benefit
+— so it **shrinks the marginal CV/renal/mortality rank of the lifestyle weight-loss lever for those
+outcomes**, net of the drug's own costs (discontinuation for AEs «RR 1·51, 95% CI 1·18 to 1·94»,
+lifelong dependency). But the shrink is **outcome-specific**: the lifestyle lever keeps its
+non-substitutable value on the outcomes the drug does not cover — T2D remission (DiRECT), the all-cause
+mortality benefit above (Ma 0.82), MASLD, function -> [[Layer 1 - Ranking Interventions for a Stratum]].
+[inferred from @badve2024glp1]
 
 
 The sharpest complement to the weight-loss null comes from the whole-diet-pattern side. In PREDIMED
@@ -261,6 +290,8 @@ comparators differ (Look AHEAD = established T2D targeting weight; PREDIMED = hi
 prevention targeting composition), so this is a reasoned cross-trial contrast, not a head-to-head — and
 PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's win is on (mostly stroke)
 *events*, not death. [inferred from @estruch2018; @look2013]
+
+</div>
 
 ## Decision relevance
 

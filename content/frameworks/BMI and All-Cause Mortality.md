@@ -2,12 +2,12 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim; Nordic Council of Ministers (org)]
-sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, NNR - Nordic Nutrition Recommendations 2023]
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim; Nordic Council of Ministers (org); Wormser, David; Danesh, John]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, NNR - Nordic Nutrition Recommendations 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011]
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-27
+updated: 2026-09-04
 self_critiqued: 2026-08-27
 relationships:
   related_to:
@@ -19,6 +19,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Smoking and Mortality
     - Waist-to-Hip Ratio and Cardiovascular Risk
+    - BMI vs Abdominal-Adiposity Markers - Which Predicts CVD
 ---
 
 The bias-corrected shape of the BMI to all-cause-mortality relationship, from the largest
@@ -247,6 +248,8 @@ the smoking-decomposition *direction* is less exposed; and (ii) stratifying on s
 effect-modifier* reading and the not-a-tension resolution are the wiki's own synthesis
 -> [[The U-Shaped Association Artifact]].
 
+<div class="recent-update" data-last-updated="2026-09-04">
+
 ## Decision relevance
 
 - **The nadir is 22.5-25, and above it every increment carries risk — there is no protective or
@@ -263,6 +266,11 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   -> [[Waist-to-Hip Ratio and Cardiovascular Risk]]. This cashes the crude-proxy limitation above with a
   hard endpoint — the all-cause-mortality *curve* here is a different outcome and design (cohort), and
   both truths hold at once. [@yusuf2005interheart]
+  **Contested (added 2026-09-04):** a pooled analysis of 58 prospective cohorts (ERFC 2011) found BMI,
+  waist and WHR of *similar* strength for incident CVD and none adding prediction over BP/lipids/diabetes,
+  and refutes the "measure WHR not BMI" recommendation for developed-country populations — the case-control
+  MI ranking above is design-contested -> [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
+  [@erfc2011whr]
 - **Adiposity is a big-rock lever, and the effect is largest where there is most life to lose** — the
   gradient is steepest at 35-49 y (1.52 per 5 units) -> [[Layer 1 - Ranking Interventions for a Stratum]].
 - **This estimates the association, not the benefit of weight loss.** A bias-corrected observational
@@ -270,9 +278,11 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   individual's BMI moves them down it -> [[Does Weight Loss Reduce Cardiovascular Events]] holds the
   intervention evidence (the loop the curve alone cannot close). **At the extreme-obesity end the loop
   is partly closed:** SOS (bariatric surgery, \~14-25% sustained loss, matched **non-RCT** cohort) found
-  reduced all-cause mortality — adjusted HR 0.71 (0.54-0.92) — in severe obesity (BMI >=34/>=38), the
+  reduced all-cause mortality — adjusted HR 0.71 (P=0.01, no CI reported) — in severe obesity (BMI >=34/>=38), the
   interventional counterpart to this curve's steep upper arm. [@sjostrom2007] The design is weaker than an RCT
   (self-selection), so it warrants the arm directionally, not causally-clean.
+
+</div>
 
 ## Limits
 

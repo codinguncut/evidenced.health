@@ -2,8 +2,8 @@
 type: framework
 question: For someone with obesity, does treating it with semaglutide reduce cardiovascular events — and does that evidence reach primary prevention?
 aliases: [Semaglutide, GLP-1 Cardiovascular, SELECT Trial, Wegovy CVD, GLP-1 Receptor Agonist Obesity, Obesity Pharmacotherapy CVD]
-authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Van Gaal, Luc F; Lingvay, Ildiko; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J; Nong, Kailei; Li, Sheyu]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
+authors: [Lincoff, A Michael; Brown-Frandsen, Kirstine; Colhoun, Helen M; Deanfield, John; Ryan, Donna H; Wilding, John P H; Batterham, Rachel L; Van Gaal, Luc F; Lingvay, Ildiko; Kushner, Robert F; Yang, Kaijie; Li, Yongze; Jastreboff, Ania M; Aronne, Louis J; Nong, Kailei; Li, Sheyu; Badve, Sunil V]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024]
 cluster: glp1
 confidence: medium
 relationships:
@@ -19,9 +19,10 @@ relationships:
     - Weight-Loss Maintenance and Metabolic Adaptation
     - GLP-1 and Lean Mass
     - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
+    - GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes
 created: 2026-07-28
-updated: 2026-08-22
-self_critiqued: 2026-08-22
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 The telos puts pharmacotherapy in scope because **a drug is often the realistic alternative to a
@@ -285,6 +286,8 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
 
 
 [@lincoff2023]
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Provenance and limits
 
 - **Industry origin:** both trials were «Funded by Novo Nordisk» and sponsor-designed («The sponsor
@@ -306,9 +309,21 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
   participants» and «relatively short duration».
 - **Cross-population comparison is not confirmation:** the T2D GLP-1 meta-analysis the discussion cites
   (Sattar 2021, «0.86; 95% CI, 0.80 to 0.93») is a *different population* reaching a *similar* HR — an
-  echo, not independent backing of the obesity result (and Sattar is not held here).
+  echo, not independent backing of the obesity result (and Sattar is not held here). **Its successor now
+  IS held** — the class CVOT+renal meta-analysis (Badve 2024, 11 trials) updates Sattar 2021 and holds
+  the class-level pooled evidence on [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]:
+  the GLP-1 class cuts MACE «HR 0·87, 95% CI 0·81 to 0·93» and all-cause death «HR 0·88, 95% CI 0·83 to
+  0·93» (high-certainty), consistent regardless of diabetes status (p-heterogeneity vs SELECT 0·24 for
+  MACE) [@badve2024glp1]. This still is
+  **not** type-E independent backing of SELECT — Badve *pools SELECT itself* and shares its co-author
+  Colhoun — so it is class-level refinement (F), not corroboration by a separate route. What it changes:
+  SELECT is no longer the lone hard-outcome GLP-1 trial the wiki holds; the class effect is robust, but
+  SELECT remains the *only* non-diabetic trial in the pool, so the primary-prevention gap this page
+  centres is intact.
 
 [inferred from @lincoff2023; @wilding2021]
+
+</div>
 
 ## Decision relevance
 

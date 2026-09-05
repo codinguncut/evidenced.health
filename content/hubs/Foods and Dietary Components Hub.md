@@ -28,7 +28,7 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
   effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
 
-<div class="recent-update" data-last-updated="2026-09-04">
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Foods and beverages
 
@@ -53,6 +53,11 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   dementia + AD both NULL (Peng 2025 SR+MA, 26 studies / 269,574). Same FFQ-estimated exposure that does
   NOT isolate the component; nested inside the Zhou F&V signal so type-F/G, NOT independent-E; fitted-
   linear dose-response of unstated range; confidence low
+- [[Soy Isoflavones and Cognitive Function]] — the RCT counterweight to the flavonoid-cognition null:
+  supplemental soy isoflavones -> pooled test scores SMD 0.19 (0.07-0.32), memory-carried (0.15),
+  every non-memory domain NULL (Cui 2020 RCT MA, 16 trials). A surrogate (test score, <=2.5 y), not a
+  decline event; the tofu-harm scare does NOT survive confounding; RCT-vs-observational split is a
+  type-F/B distinction not a tension; equol-producer route-(b) unestablished; confidence low
 - [[Nut Consumption and Mortality]] — the `plant-foods` opener: nuts -> CHD/CVD/cancer/all-cause &
   cause-specific mortality (Aune dose-response MA, per 28 g/day). Sizeable inverse RRs, an observed
   plateau at 15-20 g/day, but observational-only (healthy-user ceiling, no MR); "20 g optimal" is a

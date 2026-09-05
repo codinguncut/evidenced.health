@@ -1,14 +1,14 @@
 ---
 type: deliverable
 title: Dietary Fat
-question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
 confidence: medium
 created: 2026-08-17
-updated: 2026-09-03
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
+question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012]
 ---
 
 ## Open on the substitution, not the fat
@@ -62,6 +62,8 @@ This is where the reassessment critics and the guideline bodies **converge rathe
 
 Type of fat therefore moves cardiovascular events modestly and mortality not at all. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Target the type, not the total amount
 
 The lever the evidence supports is **which** fat, not **how much** fat -- and the largest randomized
@@ -83,9 +85,26 @@ evidence on **composition** stands untouched -- replacing saturated fat with uns
 moves events and does not move mortality (see [[Saturated Fat Intake and Replacement]],
 [[Low-Fat Dietary Pattern and Cardiovascular Disease]]).
 
+And WHI is no longer the only randomized test of the quantity lever. Hooper's 2012 Cochrane review
+pooled the reduce-and-modify-fat RCTs (24 comparisons, 65,508 people) and *contains* WHI — so its
+reduced-fat subgroup is WHI generalized, not a second independent witness (type-F refinement, not
+independent backing). That subgroup is flatly null: «There was no suggestion of an effect on
+cardiovascular events in studies that compared reduced fat vs usual intake (RR 0.97, 95% CI 0.87 to
+1.08 ... 50,655 participants)»
+[@hooper2012reducedfat]. The whole class of
+total-fat-reduction trials lands where WHI did, not one trial alone. What
+moved events was the *modification* subgroup (saturated fat -> unsaturated: RR 0.82, fixed-effects 0.83),
+and the review's overall 14% events reduction (RR 0.86, 0.77-0.96, moderate GRADE) is carried by the
+modifying arms, not the reducing ones [@hooper2012reducedfat].
+Hooper's own conclusion is this deliverable's thesis at pooled-RCT scale — a benefit «on modification of
+dietary fat, but not reduction of total fat, in longer trials»
+[@hooper2012reducedfat].
+
 So a low-fat-vs-higher-fat quantity target is not what the evidence recommends chasing; the **swap**
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-09-03">
 
@@ -299,7 +318,7 @@ one large RCT tested a single fat->carbohydrate reduction, not a curve), plant o
 named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
 stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
-<div class="recent-update" data-last-updated="2026-09-03">
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Act on the substitution a low-risk eater can sustain
 
@@ -327,10 +346,10 @@ evidence does not offer.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?' |
-> | **Evidence included** | 20 sources — 8 gold, 10 high, 1 weak |
+> | **Evidence included** | 21 sources — 9 gold, 10 high, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
 
 </div>
 

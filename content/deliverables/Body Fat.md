@@ -2,19 +2,19 @@
 type: deliverable
 title: Body Fat
 aliases: [Body Fat, Obesity, Weight Loss, Adiposity, Should I Lose Weight, Body Fat Percentage, Visceral Fat, Body Composition]
-question: 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?'
-sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025,
-  Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021,
-  AASLD - MASLD Practice Guidance 2023, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Goldberg - DPPOS Cardiovascular Events 2022, Hall - Energy Balance Model of Obesity 2022, Hall - Ultra-Processed Diets Inpatient RCT 2019, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Ludwig - Carbohydrate-Insulin Model 2021, Malhotra - SURMOUNT-OSA Tirzepatide 2024,
-  Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, Wilding - Semaglutide STEP-1 Weight Management 2021, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005,
-  Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Ge - Named Diets Weight Cardiovascular Network MA 2020]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-03
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-09-05
+self_critiqued: 2026-09-05
+concrete_subject_audited: 2026-09-05
+question: 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?'
+sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Sjostrom - SOS Bariatric Surgery Mortality 2007, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025,
+  Knowler - Diabetes Prevention Program DPP 2002, EASL - MASLD Clinical Practice Guidelines 2024, WCRF - Diet Nutrition Activity Cancer 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Hall - Obesity Energetics Diet Composition 2017, Liu - Calorie Restriction Time-Restricted Eating 2022, Lowe - Time-Restricted Eating TREAT 2020, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Sumithran - Hormonal Adaptation Weight Loss 2011, de Santana - Low Muscle Mass Mortality 2021,
+  AASLD - MASLD Practice Guidance 2023, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Goldberg - DPPOS Cardiovascular Events 2022, Hall - Energy Balance Model of Obesity 2022, Hall - Ultra-Processed Diets Inpatient RCT 2019, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Ludwig - Carbohydrate-Insulin Model 2021, Malhotra - SURMOUNT-OSA Tirzepatide 2024,
+  Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, Wilding - Semaglutide STEP-1 Weight Management 2021, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024,
+  Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Ge - Named Diets Weight Cardiovascular Network MA 2020]
 ---
-<div class="recent-page" data-last-updated="2026-09-03"></div>
+<div class="recent-page" data-last-updated="2026-09-05"></div>
 
 
 ## Where fat sits matters more than how much of it there is
@@ -97,17 +97,44 @@ honest bound: these are observational RRs with high heterogeneity and live fitne
 absolute excess is modest — the only held absolute anchor is Kramer's \~0.7% over 10-11 years — so
 metabolically-healthy obesity licenses continued, not urgent, attention -> [[Baseline Risk and the Relative-Absolute Split]].
 
-### The hard-outcome instantiation — INTERHEART maps depot onto myocardial infarction
+### On a hard endpoint, abdominal fat is the harmful depot — but the marker you pick barely changes the prediction
 
 Kramer and Opio are metabolic-status sources; INTERHEART extends the depot distinction to a hard
 endpoint (first acute MI, 27,098 people, 52 countries) and reads the same shape. Adjusted for BMI, the
 top-versus-bottom-quintile odds ratio for MI is **1.77 (1.59-1.97)** for waist (harmful) and **0.73
-(0.66-0.80)** for hip (protective); waist-to-hip ratio is the single strongest marker at **1.37
+(0.66-0.80)** for hip (protective); waist-to-hip ratio is the strongest single marker at **1.37
 (1.34-1.41)** per SD, while BMI is the weakest at **1.10 (1.07-1.13)** and its whole MI association
 vanishes after adjusting for WHR (1.44 -> 1.12) then the other risk factors (-> 0.98).
 [@yusuf2005interheart] Abdominal fat is harmful,
-lower-body fat protective, and BMI the wrong instrument — the depot claim, now on a cardiovascular
-event, not only a glycemic one -> [[Waist-to-Hip Ratio and Cardiovascular Risk]].
+lower-body fat protective — the depot claim, now on a cardiovascular event rather than a glycemic one.
+
+INTERHEART read this as proof that clinics should abandon BMI and switch to waist-to-hip ratio. A larger
+prospective test overturns that *marker-ranking* claim while leaving the depot claim intact. ERFC 2011
+pooled 58 cohorts (221,934 people) with BMI, waist and WHR measured in the same people at baseline, and
+found the three near-identical in strength — per-SD hazard ratios for cardiovascular disease of **1.23
+(1.17-1.29)** for BMI, **1.27 (1.20-1.33)** for waist and **1.25 (1.19-1.31)** for WHR — and «reliably
+refute[s] previous recommendations to adopt baseline waist-to-hip ratio instead of BMI as the principal
+clinical measure of adiposity»
+[@erfc2011whr].
+
+The \~3-fold WHR-over-BMI gap is a case-control artifact: acute illness before an MI strips skeletal
+muscle, lowering hip circumference and raising WHR in the cases measured after the event. BMI is also the
+more reproducible measure (regression-dilution ratio 0.95 vs 0.63 for WHR).
+
+Two things survive the contest, and both bear on the decision. First, abdominal adiposity is still a
+real, modifiable determinant — ERFC is explicit that its null concerns *prediction on top of the
+intermediates*, not aetiology: once a person's blood pressure, lipids and glucose are known, «simple
+adiposity measures provide little or no additional information on cardiovascular risk», because the fat
+acts *through* those markers.
+
+Second, ERFC's sample was 90% European descent, so INTERHEART's finding
+that BMI carries no MI signal at all in South Asian, Arab and mixed-race African groups is untested, not
+refuted. Net: for a developed-country adult whose risk factors are known, BMI is an adequate and
+more-reproducible clinical measure, and the case for switching to WHR does not survive prospective
+design; the WHR case is strongest where lipids are unmeasured and in the non-European strata ERFC could
+not test.
+[inferred from @yusuf2005interheart; @erfc2011whr]
+-> [[Waist-to-Hip Ratio and Cardiovascular Risk]], [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 
 ### Is visceral fat the pathogenic depot, or a marker for intra-organ fat? — a ladder, not a contradiction
 
@@ -164,9 +191,15 @@ lens says to offer them the lever -> [[Total Diet Replacement and Type 2 Diabete
 ### The decision
 
 Rank cardiometabolic risk by central adiposity (waist, waist-to-hip ratio) and metabolic status, not by
-BMI and not by a body-fat percentage. A normal-BMI person with a high WHR or a bad metabolic panel is
-above their personal fat threshold and carries elevated MI risk; a currently-clean panel in an obese
-person buys less durable safety than it appears to. The lever in every case is negative energy balance,
+BMI and not by a body-fat percentage. Where the full metabolic panel is already in hand, it dominates
+the anthropometric marker — waist and WHR earn their keep mainly as a *screen* when blood pressure,
+lipids and glucose are not yet known, and as a reason to look harder
+[@erfc2011whr].
+A normal-BMI person with a high WHR or a bad metabolic panel is above their personal fat threshold and
+carries elevated MI risk; a currently-clean panel in an obese person buys less durable safety than it
+appears to.
+
+The lever in every case is negative energy balance,
 whatever delivers it, drawing the intra-organ and visceral depots back down — the arithmetic of who
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
@@ -237,12 +270,25 @@ SOS also cannot attribute the benefit to weight loss per se (surgery alters gut 
 and mortality did not track the *degree* of weight loss within the study — so it anchors a
 *large-intervention* point, not cleanly a large-weight-loss-dose one.
 
-The drug route supplies the one clean randomized hard-outcome win the fabric holds: in
+The drug route supplies the clean randomized hard-outcome win in obesity itself: in
 secondary-prevention obesity, semaglutide cut the CV composite (**MACE HR 0.80, 95% CI 0.72-0.90**).
 Full benefit-risk appraisal, per-agent ranking, and dosing live in the separate GLP-1 deliverable ->
 [[Semaglutide for Cardiovascular Risk in Obesity]], [[GLP-1 Drugs]]; here it functions only as the
 demonstrated drug-route data point.
 
+
+That win is not a one-off. A class meta-analysis of 11 cardiovascular-outcome trials (Badve 2024; 85,373
+participants) finds the whole GLP-1 receptor-agonist class cuts hard events — «a 13% reduction in the
+risk of MACE (HR 0·87, 95% CI 0·81 to 0·93; high-certainty evidence)» in the type-2-diabetes trials,
+consistent regardless of diabetes status
+[@badve2024glp1].
+
+That sharpens the route-matters point rather than crediting weight loss: these were glucose-lowering trials with modest
+weight change, and the CV benefit separates early, before much weight is lost — a drug-specific
+pleiotropic effect, not a weight-loss effect. So the drug route to CV events is robust and class-wide,
+while the lifestyle weight-loss route's CV-event null still stands
+-> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
+[inferred from @badve2024glp1]
 
 Tirzepatide reaches surgical-scale loss (SURMOUNT-OSA: body-weight treatment difference
 **-16.1%, 95% CI -18.0 to -14.2**) and moves the CV *risk markers* (systolic BP -7.6 mm Hg, -10.5 to
@@ -815,9 +861,9 @@ a realized outcome.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: what is the effect of body-fat level and its modification, via modifiable exposures, on each patient-important outcome — does where the fat is stored change the effect, does losing fat change hard outcomes rather than only surrogates, how do the rate, composition and durability of loss change the answer, and how does it vary by stratum?' |
-> | **Evidence included** | 51 sources — 19 gold, 28 high, 4 moderate |
+> | **Evidence included** | 53 sources — 21 gold, 28 high, 4 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Lowe (RCT, moderate); Hall (narrative review, moderate); Ludwig (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 ## References

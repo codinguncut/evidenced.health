@@ -230,8 +230,6 @@ same red-meat cohort literature as WCRF/NutriRECS, so it is **not** independent 
 association — its value is the **mechanistic attribution** and the intrinsic-vs-curing bound, not a second
 independent count (no [E-independent]).
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## The same channel decomposition on a MORTALITY endpoint `[2026-09-02, Etemadi 2017]`
 
 The three-exposure logic above was built on **cancer** endpoints. An independent US mega-cohort —
@@ -281,7 +279,6 @@ gradients are, if anything, steeper than reported ([[Measurement Error in Dietar
 literature the matrix and WCRF draw on, and a highest-vs-lowest-fifth mortality HR is a different estimand
 from a per-100 g/day CRC-incidence slope.
 
-</div>
 
 ## WCRF's quantified recommendation — the gram target, now held `[2026-08-05]`
 

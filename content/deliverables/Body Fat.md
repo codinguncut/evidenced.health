@@ -14,8 +14,6 @@ sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kr
   Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, Wilding - Semaglutide STEP-1 Weight Management 2021, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024,
   Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Ge - Named Diets Weight Cardiovascular Network MA 2020]
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
-
 
 ## Where fat sits matters more than how much of it there is
 
@@ -35,6 +33,8 @@ how the arrival of an effective drug re-sizes the whole decision.
 
 
 
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Where fat sits carries the risk — read the depot, not the scale
 
@@ -204,6 +204,9 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -369,6 +372,7 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
+</div>
 
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
@@ -831,6 +835,8 @@ stays the person's decision at Layer 3.
 
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## The decision that remains: reach the organs, and make the loss last
 
 For most people the useful question is not *which diet* but *whether the loss is the kind that reaches
@@ -865,5 +871,7 @@ a realized outcome.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Lowe (RCT, moderate); Hall (narrative review, moderate); Ludwig (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+
+</div>
 
 ## References

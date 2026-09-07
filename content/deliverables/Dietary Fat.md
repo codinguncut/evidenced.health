@@ -106,8 +106,6 @@ through LDL and apoB. How far does that surrogate carry the weight of an averted
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Trust the LDL/apoB direction, not the diet-to-drug magnitude
 
 The surrogate is unusually well-founded in **direction**. LDL and the apoB-containing particles that
@@ -151,8 +149,6 @@ stands in for, so a moving LDL number is a well-warranted signal, not a proven a
 
 
 One exposure, though, needs no surrogate argument at all -- its harm is direct and uncontested.
-
-</div>
 
 ## Cut industrial trans fat -- the one unambiguous harm
 

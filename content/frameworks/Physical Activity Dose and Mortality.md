@@ -22,7 +22,6 @@ created: 2026-07-27
 updated: 2026-09-03
 self_critiqued: 2026-09-03
 ---
-<div class="recent-update" data-last-updated="2026-09-03">
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
 device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
@@ -57,7 +56,7 @@ leg 1's own device-vs-self-report 2x gap is what directly carries that claim). A
 outcome is still owed.
 [inferred from @ekelundacc2019; @mandsager2018]
 
-</div>
+
 
 ## The decision this page changes
 
@@ -249,8 +248,6 @@ persist»); there is no MR/genetic instrument, so this is the *weak* adjudicatio
 artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
 sitting sections).
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
 **Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
@@ -290,8 +287,6 @@ Peak-30/60-min stepping rate stayed significant after adjusting for volume, but 
 cadence did not — total steps carry the signal, so *count the steps, don't chase the pace*. Reverse
 causation handled by the weak check (effect stronger at <6 y follow-up, HR 0.32, vs >=6 y, 0.57 — a
 sick-quitter tell — but the 2-year exclusion left it significant).
-
-</div>
 
 ## These three metrics are NOT interchangeable numbers — a same-quantity check
 

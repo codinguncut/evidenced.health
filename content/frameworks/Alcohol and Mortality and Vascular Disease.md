@@ -525,8 +525,6 @@ stroke, dementia, or cancer, and on energy balance it actively pushes intake up.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## A guidance family has abandoned the moderate-drinking position — NNR2023 `[2026-08-27, NNR revisit]`
 
 The Nordic Nutrition Recommendations 2023 give the guidance-family read that matches this page's
@@ -551,9 +549,7 @@ for safe level of alcohol consumption has currently been established for human h
   population-standpoint recommendation (guidance divergence class 1) framed as harm-minimization,
   consistent with the artifact read of the lower J-curve arm.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-02">
 
 ## *No safe level* refined to an age- and region-conditional threshold — the same-body revision `[Bryazka 2022, GBD 2020]`
 
@@ -624,7 +620,5 @@ the decision-relevant refinement; the protective arm is not.** A same-collaborat
 RRs refines *scope* without adding an independent method, so page `confidence:` stays **medium** — the
 artifact verdict is reinforced, not the protective claim.
 [inferred from @gbd2022alcohol; @millwood2019; @gbd2018alcohol]
-
-</div>
 
 ## References

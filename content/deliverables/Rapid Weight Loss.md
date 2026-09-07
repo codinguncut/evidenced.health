@@ -8,7 +8,6 @@ created: 2026-07-30
 updated: 2026-08-27
 concrete_subject_audited: 2026-08-27
 ---
-<div class="recent-update" data-last-updated="2026-09-03">
 
 *This page has been folded into [[Body Fat]].*
 
@@ -23,5 +22,3 @@ corpus. The rate-vs-regain and speed-vs-muscle magnitudes remain named gaps.
 
 See [[Body Fat]] for the full treatment, including where the fat is stored, whether losing it
 reaches hard outcomes, and how the answer varies by stratum.
-
-</div>

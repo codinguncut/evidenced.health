@@ -93,8 +93,6 @@ older participants (ie, aged 80 years) living in an institution»
 reported second-hand, and the full net-effect (benefit vs CV + stone harm, by stratum) has its own home
 -> [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## D-Health — a second large RCT of vitamin D vs major CV events, null-crossing on a TERTIARY outcome `[2026-09-02, Thompson]`
 
 The **D-Health Trial** (Thompson 2023) is the **second large independent RCT** of vitamin D and hard
@@ -195,8 +193,6 @@ cardiovascular disease» while the other two found none
 evidence is *mixed* (a below-50-nmol/L deficiency-range signal, null above), consistent with the
 repletion-vs-enhancement split this page holds, not a clean RCT+MR convergence on benefit. Held as
 context, **not** stamped `[E-independent]`.
-
-</div>
 
 ## The non-CV mortality anchor: pooled all-cause null, cancer-DEATH benefit `[2026-08-23, Zhang MA]`
 
@@ -706,8 +702,6 @@ scope limits keep the null honest without overturning it:
 
 
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## REDUCE-IT cashes the high-dose stratum — and it is a DIFFERENT exposure, not a contradiction of VITAL `[2026-08-04, Bhatt]`
 
 The reflex on seeing REDUCE-IT (benefit) beside VITAL (null) is to file a tension: *does omega-3 prevent
@@ -787,10 +781,6 @@ mineral-oil artifact -> [[Omega-3 Supplementation and Atrial Fibrillation]].
 [inferred from @gencer2021]
 [inferred from @lombardi2020]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
 
 The general-population null above is **enhancement in the replete, on fractures/cancer/CVD**. It does not
@@ -858,10 +848,6 @@ effect** and a two-thirds-deficient / zero-clinical-symptoms finding — so the 
 is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 [inferred from @pawlak2013].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 NMA added to the REDUCE-IT/VITAL section]`
 
 - **Not overclaimed.** The Lombardi bullet states the dose finding as an *association* (HD > 1 g/d
@@ -877,8 +863,6 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   independence; the page's `confidence: high` rests on the VITAL/USPSTF/Bjelakovic evidence, unchanged.
 - **Coherence, not validity** (R1): the loop is open; the olive-oil/mineral-oil comparator threat is
   named as an unresolved bias in the underlying trials.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-04">
 

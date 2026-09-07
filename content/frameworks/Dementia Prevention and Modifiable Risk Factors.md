@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S]
-sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S]
+sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
 updated: 2026-09-05
-self_critiqued: 2026-09-04
+self_critiqued: 2026-09-05
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -40,6 +40,7 @@ relationships:
     - Flavonoid Intake and Cognitive Function
     - Soy Isoflavones and Cognitive Function
     - Sleep and Cognitive Decline
+    - Dairy and Cognitive Decline
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
@@ -576,8 +577,6 @@ as the diet and periodontal levers apply, plus a fourth that is specific and dec
   and any *supplement* dementia-prevention claim is refuted at RCT grade; the observational dietary
   signal is a reason to prefer oily fish within a good diet, not to prescribe capsules.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Ultra-processed food — the first FOOD-GROUP dietary lever, observational candidate, NOT one of the 14 (2026-09-03)
 
 Until now this page held diet **only at the pattern altitude** (Mediterranean/MIND) plus the omega-3 and
@@ -637,8 +636,6 @@ less-processed food was estimated at a **19% lower all-cause dementia risk (HR 0
 in Li 2022 [@smith2025upf] — observational,
 the shared primary, same confounding caveat. The lever stays `confidence: low`. Full broader-cognition
 detail: [[Ultra-Processed Food and Health Outcomes]].
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-04">
 
@@ -725,6 +722,45 @@ So the lever is `confidence: low`, mediated-not-additive, and does not reorder t
 rocks; it reinforces the F&V lever rather than adding to it (it is a *part* of it). No independence (E) is
 claimed. The page grade stays `medium` on the Commission's consensus backing; the flavonoid slice is a
 weaker `low` sub-leg of the F&V lever.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Dairy — a candidate FOOD-GROUP lever whose only signal is a pooling artifact, NOT one of the 14 (2026-09-05)
+
+Dairy is another food-group diet lever, sibling to UPF and fruit/veg above — and it is the **weakest** of
+them: a candidate held at association grade only, and one whose headline association is **null**. A gold
+dose-response SR+MA (Villoz 2024; 15 prospective cohorts, 312,580 participants, median 11.4 y follow-up,
+**no RCTs**) finds the highest-vs-lowest dairy contrast has «no association with cognitive decline or
+dementia (RR: 0.94; 95% CI: 0.82, 1.07)» [@villoz2024dairy].
+The full effect-estimate arm, the type-B product decomposition and the region-pooling artifact live on the
+dairy-cluster facet [[Dairy and Cognitive Decline]]; only the dementia-lever verdict is here.
+
+**Why it stays a candidate, not a 15th factor — and specifically a NON-lever for the default stratum
+[inferred from @villoz2024dairy].** The same discounts as the other diet
+levers apply, and three are directly evidenced in the SR:
+
+- **The only "signal" is a between-population pooling artifact.** The apparent nonlinear dose-response
+  («nadir at \~150 g/d», RR 0.88, 0.78-0.99) is drawn by pooling low-intake Asian cohorts (protective, RR
+  0.83, 0.75-0.92, I2 0%) with high-intake European cohorts (null, RR 1.01, 0.86-1.19) whose intake ranges
+  barely overlap (Asia 29-165 g/d vs Europe 170-711 g/d) [@villoz2024dairy].
+  The «nadir» sits on the seam between two populations, not at a within-person optimum
+  -> [[The U-Shaped Association Artifact]]. For a Western intake range the association is flatly null.
+- **It vanishes on dietary-pattern adjustment — dairy as a diet-quality marker.** «studies that took into
+  account other food groups or dietary patterns that could affect the relationship between dairy
+  consumption and cognitive function found no associations» [@villoz2024dairy],
+  and the plausible mechanism runs through the cardiometabolic levers this page already counts — so any
+  effect is largely mediated-not-additive, not a clean 15th PAF slice. Milk-alone and cheese-alone are both
+  null -> [[Is the Food Category Doing Any Work]].
+- **Observational, single-measurement FFQ, reverse-causation-prone.** No RCT exists; differential recall
+  bias (early cognitive change bending reported intake) stays live
+  -> [[Measurement Error in Dietary Assessment]].
+
+So the lever is `confidence: low` — weaker than the other diet levers, since even its raw headline is null
+and its one curve feature is a pooling artifact. It does not reorder the cardiometabolic big rocks. A
+future independent test must avoid the Villoz/Filippini/Vinceti (Modena) author group
+-> an independent dairy-cognition SR/MA.
 
 </div>
 
@@ -907,7 +943,7 @@ pooled null denies. [@mendes2025multidomain]
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-04">
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Self-critique `[run 2026-08-05, before commit]`
 
@@ -992,6 +1028,16 @@ pooled null denies. [@mendes2025multidomain]
   single source, no independence claimed; the VD-loaded disorders are flagged mediated-not-additive via the
   cerebrovascular route already counted. No tension filed against the unheld Xu 2020 landmark — a G-gap with
   a registered `[AWAITS]` handle. Full decomposition on [[Sleep and Cognitive Decline]], not re-litigated here.
+- **Dairy candidate lever added (2026-09-05, Villoz 2024).** Filed as a food-group diet lever (sibling to
+  UPF/F&V), an observational candidate NOT a 15th factor, held at `confidence: low` — and flagged the
+  *weakest* diet lever, since its headline highest-vs-lowest contrast is null (RR 0.94, 0.82-1.07) and its
+  one dose-response feature (the «nadir at \~150 g/d») is read as a between-population pooling artifact
+  (Asian low-intake cohorts vs European high-intake cohorts, non-overlapping ranges) rather than an
+  optimum. Not overclaimed: no protective claim survives, the Asia RR 0.83 is marked confounded, and the
+  dietary-pattern-adjustment null is used to mark it mediated-not-additive. Not laundered-E: single source,
+  no independence claimed, and the NOT-E caveat for a future 2nd source (Modena author group) is stated. No
+  tension filed. Full extraction on the dairy-cluster facet [[Dairy and Cognitive Decline]], not
+  re-litigated here.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

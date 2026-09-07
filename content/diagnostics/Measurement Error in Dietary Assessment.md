@@ -45,8 +45,6 @@ Error is random or systematic, within-person or between-person. The consequentia
 
 Also: systematic errors affecting *everyone equally* do not bias measures of association at all.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## How much attenuation — the quantitative anchor
 
 With validity γ (the regression of true on measured intake), observed RR ≈ true RR^γ. Willett's
@@ -82,8 +80,6 @@ Other magnitudes: a true OR of 2.67 observes as **1.71** at sensitivity 0.6 / sp
 under-reporting against doubly-labelled water runs **10-30%**, worse in women and people with obesity;
 energy adjustment raised FFQ-vs-recall correlations from 0.30-0.57 up to 0.61-0.66 across four ethnic
 subgroups of men in the Multi-Ethnic Cohort. [@willett]
-
-</div>
 
 ## Tests / indicators
 
@@ -735,8 +731,6 @@ Willett — GBD *applies* it, it does not arrive at it independently.
 methodologist's position but the stated self-appraisal of the largest analysis in the domain.
 [inferred from @afshin2019]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The escape route works — but only for fatty acids the body cannot make `[2026-08-04]`
 
 The obvious remedy for self-report error is an objective biomarker, and whether that escape is available
@@ -760,7 +754,5 @@ the body can synthesise the analyte** — a within-category boundary that carrie
   agreement licenses trusting the *direction*, not treating the FFQ magnitude as unbiased (both arms are
   observational, and Li's dietary route still carries the standard recall error).
   [inferred from @li2020]
-
-</div>
 
 ## References

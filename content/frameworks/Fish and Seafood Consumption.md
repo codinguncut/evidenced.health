@@ -31,8 +31,6 @@ EFSA 2014 is the benefit arm of a two-part benefit-risk analysis (the methylmerc
 the separate CONTAM 2012 opinion, cited here for the tolerable intake).
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The bottom line — where the benefit sits
 
 - **About 1-2 servings/week, and up to 3-4/week in pregnancy**, is associated with better outcomes vs
@@ -47,8 +45,6 @@ the separate CONTAM 2012 opinion, cited here for the tolerable intake).
   [@efsaseafood2014]
 
 [inferred from @efsaseafood2014]
-
-</div>
 
 ## The benefit side — three outcomes, all observational
 
@@ -237,8 +233,6 @@ Fish is a **small-to-moderate lever**, not a big rock:
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## The supplement dose-response — Lombardi 2020 NMA firms the VITAL-vs-REDUCE-IT split (type-F, 2026-09-01)
 
 The held omega-3 *supplement* evidence was two single trials pointing opposite ways — VITAL (1 g/d
@@ -296,8 +290,6 @@ touch the fish-as-*food* recommendation (1-2 servings/week, observational), whic
 food matrix, not a high-dose isolate.
 [inferred from @lombardi2020; @manson2019n3; @bhatt2019]
 
-</div>
-
 ## Is the food category doing any work?
 
 *Fish* fails the category test badly. n-3 content ranges **\~200 mg/100 g (cod, whiting) to \~2500
@@ -309,8 +301,6 @@ risk) — and *eat fish twice a week* names neither. EFSA itself avoids the *fat
 labels because their use has been *«inconsistent and their meaning ill defined»*.
 [@efsaseafood2014] Replace the category with
 the species properties in any decision -> [[Is the Food Category Doing Any Work]] (Test 3).
-
-<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The pooled magnitudes EFSA could not supply — Jayedi 2020 umbrella (type-F refinement)
 
@@ -389,8 +379,6 @@ curve can be monotone on one outcome and flat on another -> [[The U-Shaped Assoc
 conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
 but may still help all-cause) is unchanged.
 
-</div>
-
 ## Limits
 
 - **EFSA could not quantify the benefit with certainty; Jayedi 2020 now can — but only to moderate.**
@@ -440,8 +428,6 @@ but may still help all-cause) is unchanged.
 - **Coherence, not validity** (R1): the loop is open — no operation grades the fish->cognition association
   against a realized dementia outcome.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 Fish is the series' clearest **outcome-specific** food: inverse for all-cause mortality (0.93,
@@ -454,8 +440,6 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 [@schwingshackl2017t2d]
 [@schwingshackl2017htn] Full grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
 
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 dose-response NMA added]`
 

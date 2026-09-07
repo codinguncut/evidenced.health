@@ -120,8 +120,6 @@ which biases *against* the benefit. The large benefit survives that conservative
 
 
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## What the held evidence does not yet cover
 
 The fabric holds one gold mortality source (Jha 2013) plus Livingston 2024 for dementia. The
@@ -153,10 +151,6 @@ from either source. The inventory is honest about what it does **not** reach:
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Bottom line — what to do
 
 - **If you smoke, quitting is the top priority — ahead of every diet, exercise, or sleep change.** It is
@@ -178,7 +172,5 @@ from either source. The inventory is honest about what it does **not** reach:
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | Core mortality/cessation evidence is gold or high tier; the e-cigarette note rests on one moderate, surrogate-only meta-analysis and is held at low confidence. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
-
-</div>
 
 ## References

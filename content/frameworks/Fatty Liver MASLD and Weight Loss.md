@@ -195,8 +195,6 @@ weight loss. The weight-loss lever stays non-substitutable for the fibrosis/outc
   and negative or inconclusive, no firm conclusions can be drawn».
 [@easl2024]
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Macronutrient composition at fixed calories — the fat *type* and the carb->protein swap move liver fat; the total fat<->carb swap does not `[Winters-van Eekelen 2020]`
 
 EASL calls low-carb and low-fat «similarly effective» for liver fat, and Peng (below) grades every diet
@@ -263,8 +261,6 @@ the routes share antecedents — this MA leans on the same de-novo-lipogenesis m
 Imamura glucose-insulin feeding-trial MA the SFA page also holds — so it is shared-lineage refinement (F),
 not an independent second route.
 [inferred from @winterseekelen2020]
-
-</div>
 
 ## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
 

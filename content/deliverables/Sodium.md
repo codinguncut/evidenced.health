@@ -225,8 +225,6 @@ The blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising i
 one would produce. **Named gap: the wiki holds no Mendelian-randomization or bias-corrected analysis
 that adjudicates the low-sodium arm.** It is unadjudicated, not settled either way.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## There is no proven floor: every realistic reduction still buys some blood-pressure fall
 
 Across the studied range the dose-response is monotone or not-estimable — no plateau or knee has been
@@ -250,8 +248,6 @@ Because a large share of the pooled trials ran two weeks or less, the pooled sur
 *lower bound* on the sustained one. Practically: measurement error can hide a plateau but cannot
 manufacture one, so over-shooting a hidden plateau merely fails to help — the operative default is
 that every realistic reduction still pays (the dose-response shape reasoning).
-
-</div>
 
 ## The people who gain most are those at high blood pressure and high cardiovascular risk
 

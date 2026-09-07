@@ -15,7 +15,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
 updated: 2026-08-18
-self_critiqued: 2026-08-08
+self_critiqued: 2026-09-05
 ---
 
 WHO's 2023 NSS guideline. The whole verdict turns on two moves: **the comparator decides the effect**,

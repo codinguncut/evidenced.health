@@ -309,8 +309,6 @@ the sensitive stratum cares about most
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
 A natural move is to skip the fish and take the omega-3. The trial evidence says **the pill is not the
@@ -366,8 +364,6 @@ section above).
 
 [inferred from @manson2019n3; @bhatt2019]
 
-</div>
-
 ## Where fish sits in the ranking — a pebble
 
 For the general replete adult, fish is a pebble, not a big rock. The adult CHD-mortality benefit is
@@ -384,8 +380,6 @@ should do next. The large levers are elsewhere. Fish earns a place on the list o
 handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
-
-<div class="recent-update" data-last-updated="2026-09-03">
 
 ## What the evidence here cannot yet answer
 
@@ -430,7 +424,5 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
-
-</div>
 
 ## References

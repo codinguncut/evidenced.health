@@ -224,6 +224,30 @@ related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compa
 
 <div class="recent-update" data-last-updated="2026-09-05">
 
+## The protective subtype is outcome-specific — and no subtype is robust across both endpoints
+
+Set the two robust dose-response analyses beside each other and the fermented-dairy signal changes
+subtype with the outcome:
+
+| Outcome | Cheese | Yogurt | Signal sits on |
+|---|---|---|---|
+| **CVD** (Guo, per-unit) | RR 0.98 per 10 g/d (0.95-1.00) — marginal, CI touches 1.00, itself Michaelsson-fragile | **null** | cheese (weakly) |
+| **T2D** (Gijsbers) | RR 1.00 per 10 g/d — **null** | RR 0.86 at 80 g/d (0.83-0.90), plateau | yogurt |
+
+The subtype that carries a signal for one endpoint is null for the other. So *eat fermented dairy for
+your heart* and *for your blood sugar* do not point at the same food, and no single fermented-dairy
+subtype is protective across both. Two guards keep this from being oversold. Both signals are
+observational, FFQ-measured and healthy-user-confounded — the CVD leg is additionally hostage to one
+Swedish cohort (Guo's Michaelsson leave-one-out), and the T2D plateau is the shape reverse causation
+would also produce. And the crossover is a structural read across *different* outcomes, not a
+head-to-head subtype contrast within one: it says where each fragile signal sits, not that cheese beats
+yogurt or the reverse. The live-vs-pasteurized mechanism question is open on **both** legs, so the
+outcome-specific reading still cannot name what in the subtype does the work.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Confidence and gaps
 
 - **`confidence: low`** — one small surrogate-outcome RCT with no control arm (Wastyk, high tier but

@@ -924,8 +924,6 @@ elevated TSH, age ≤\~74, mild-to-moderate symptoms): the null may not transpor
 a high-symptom-burden subgroup, which the trials could not test.
 [inferred from @feller2018thyroid]
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## The surrogate's DIRECTION flips with the comparator — e-cig haemodynamics `[2026-08-30, Skotsimara]`
 
 Most instances above ask *does the moved marker transmit to the outcome?* The e-cigarette CV case adds a
@@ -943,10 +941,6 @@ here the marker's very *sign* is comparator-dependent, so the surrogate cannot e
 directionally harmful or beneficial without fixing the counterfactual (clean air vs continued smoking).
 The cell stays at **insufficient hard-outcome evidence** either way -> [[The Insufficient-Evidence Statement]], and the decision lives in the stratum split, not the marker
 -> [[Electronic Cigarettes and Cardiovascular Risk]]. [inferred from @skotsimara2019ecig]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-02">
 
 ## A PREVALENCE statistic read as harm — biochemical B12 deficiency without symptoms (Pawlak) `[2026-09-02]`
 
@@ -967,7 +961,5 @@ hematological signs maskable by concurrent iron/folate; enzyme function impaired
 stage). The instance is therefore a clean *insufficient-evidence* holding on transmission — the marker
 neither proven to harm nor proven benign -> [[Vitamin B12 Status in Vegetarian and Vegan Diets]].
 [inferred from @pawlak2013]
-
-</div>
 
 ## References

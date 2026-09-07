@@ -70,8 +70,6 @@ communicability: *moderate* = 4 eggs/week, *habitual* = 1 egg/day (7/week).
   [@godos2020]. Low certainty,
   4 studies, no low-risk-of-bias study available for it.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The diabetic stratum — direction reverses (route-(b) effect modification, evidenced but low-certainty)
 
 The one stratified result that changes a recommendation. In cohorts restricted to **diabetic
@@ -94,8 +92,6 @@ the contrary was reported to potentially act as effect modifier toward the oppos
   transport; habitual (daily) egg intake carries a low-certainty \~22% relative CVD-risk flag, and the
   conservative move is to treat eggs as a non-priority-but-watch item rather than a free food. For the
   non-diabetic general population, the reverse — no reason to restrict.
-
-</div>
 
 ## Second gold MA — mortality endpoints (Ma 2022) [@ma2022egg]
 

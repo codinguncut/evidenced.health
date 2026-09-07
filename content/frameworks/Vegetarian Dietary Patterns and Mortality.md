@@ -230,8 +230,6 @@ where an advocacy prior could bite, flagged for the reader:
   healthy-adherer confound (below) is exactly that these vegetarians also smoke/drink less and exercise
   more. Reasonable people can grade it either way; the choice ran toward the more favorable certainty.
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Decision relevance
 
 - **The umbrella confirms the DIRECTION at moderate certainty for incidence, low for mortality** — a
@@ -259,7 +257,5 @@ where an advocacy prior could bite, flagged for the reader:
   mechanism + a toward-null follow-up argument, against an unquantified residual confound — a body of
   confounded observational cohorts, not adjudication. The umbrella's authors say the same — additional
   high-quality RCTs «for CVD prevention among generally healthy adults are needed».
-
-</div>
 
 ## References

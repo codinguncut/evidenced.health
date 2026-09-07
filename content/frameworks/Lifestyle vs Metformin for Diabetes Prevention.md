@@ -15,8 +15,8 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-07
-updated: 2026-09-04
-self_critiqued: 2026-08-26
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 The Diabetes Prevention Program (DPP) is the landmark head-to-head: in people with prediabetes, it
@@ -40,8 +40,6 @@ Mean age 51, mean BMI 34.0, 68% women, 45% minority; average follow-up 2.8 years
 **diabetes incidence** (ADA criteria). A fourth arm (troglitazone) was discontinued in 1998 for liver
 toxicity and is not reported. The blinded phase was stopped \~1 year early on the data monitoring board's
 advice once efficacy was demonstrated.
-
-<div class="recent-update" data-last-updated="2026-09-03">
 
 ## The head-to-head result — lifestyle beat the drug
 
@@ -74,8 +72,6 @@ Squibb — which the paper notes «sells metformin in the United States» — an
 BMS stock, yet the finding runs *against* the drug the funder sells (the study metformin and placebo were
 supplied by Lipha Pharmaceuticals). So the conflict does not undercut the headline.
 [inferred from @knowler2002]
-
-</div>
 
 ## The subgroup split — lifestyle works broadly, metformin works selectively
 
@@ -181,7 +177,7 @@ risk is the concern in such a stratum, the demonstrated levers are the direct on
 heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
 longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
 
-<div class="recent-update" data-last-updated="2026-09-03">
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Independent replication — Finnish DPS and Da Qing (type-E robustness)
 
@@ -243,11 +239,15 @@ therefore *three independent trials, concordant direction, RRR 31-58%*, NOT *all
 **Independence classification — a genuine `[E-independent]` convergence, with one honest lineage caveat.**
 The three are separate randomized experiments in separate populations, designed in different eras (Da Qing
 1986, Finnish 1993, US DPP mid-1990s), separately funded, on separate primary data — the substantive
-replication independence (the effect is *not* one dataset re-analyzed) holds strongly. Author lists do not
-overlap: no author is shared across the three, and neither Da Qing (the earliest, citing neither) nor
-Finnish (which cites Da Qing only as corroborating *prior evidence*, not as a data source) re-analyzes
-another's cohort. **The caveat, named under symmetric standards:** an NIDDK-Phoenix institutional
-thread does connect two of them — Da Qing co-authors Bennett and Howard were at NIH/NIDDK, the same
+replication independence (the effect is *not* one dataset re-analyzed) holds strongly: neither Da Qing (the
+earliest, citing neither) nor Finnish (which cites Da Qing only as corroborating *prior evidence*, not as a
+data source) re-analyzes another's cohort. The author lists are **not** fully disjoint, though — Peter H.
+Bennett is a named Da Qing byline author [@pan1997] and also sits in
+DPP's corporate Research Group roster
+[@knowler2002], so an earlier flat "no author is
+shared" overstated the independence. **The caveat, named under
+symmetric standards:** that overlap is the visible edge of an NIDDK-Phoenix institutional
+thread connecting two of them — Da Qing co-authors Bennett and Howard were at NIH/NIDDK, the same
 diabetes-epidemiology program Knowler (US DPP) belongs to, and Knowler is acknowledged «for his important
 contribution to the planning of our study» in the Finnish DPS. So the three teams are not hermetically
 sealed; the cleanest fully-independent pair is **Finnish DPS vs Da Qing** (no shared authors, different
@@ -314,8 +314,6 @@ mechanism that sustains weight loss once achieved. This connects to the weight-l
 is the *sole* mediator.
 [inferred from @hamman2006; @tuomilehto2001]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Adherence and adverse events
 
 Adherence to the lifestyle goals decayed — the adherence-is-part-of-the-effect point in a landmark
@@ -329,8 +327,6 @@ perfect compliance.
 Harms were modest and differed by arm: gastrointestinal symptoms highest on metformin (77.8 vs 12.9
 events/100 person-yr on lifestyle), musculoskeletal symptoms highest on lifestyle (24.1). No deaths were
 attributed to any intervention. [@knowler2002]
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-04">
 

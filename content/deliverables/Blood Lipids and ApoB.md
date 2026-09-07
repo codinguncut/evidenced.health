@@ -87,8 +87,6 @@ Three features matter for decisions.
 
 This is *statin* lowering — the concordant, no-off-target case. It does not automatically transfer to a diet-induced change.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## How the number was lowered matters — a diet drop is not a drug drop per unit
 
 The proviso «provided the LDL-C drop is concordant with the particle-number drop, and there are no competing off-target effects» is not fine print. The recovered **Minnesota Coronary Experiment** is the cleanest case of it biting: replacing saturated fat with corn-oil linoleic acid lowered serum cholesterol sharply (**-13.8% vs -1.0%** in controls) yet produced **no mortality benefit** — pooled CHD mortality 1.13, all-cause 1.07 [@ramsden2016]. The **Sydney Diet-Heart** companion lowered cholesterol even more in the intervention arm (**-13.3% vs -5.5%**) yet that arm had *higher* mortality [@ramsden2013].
@@ -103,8 +101,6 @@ The proviso «provided the LDL-C drop is concordant with the particle-number dro
 [inferred from @landry2024vegetarian] So even taken at its confounded observational face value, the dietary LDL lever is real but small — and by this deliverable's own drug-route-only rule, a diet-induced LDL change does not buy hard events at CTT's statin-derived RR 0.78-per-mmol rate.
 
  **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat]. And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
-
-</div>
 
 ## For a primary-prevention adult, absolute risk decides — and zero calcium can defer
 
@@ -149,8 +145,6 @@ Two strata break from the near-null, both worth naming:
 
 Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **Inflammation is a separate, additive causal lever**: in the CANTOS trial, canakinumab cut cardiovascular events **«independent of lipid-level lowering»** in statin-treated patients whose LDL was already controlled [@ridker2017cantos]. A person at goal on apoB can still carry residual inflammatory risk that lipid-lowering does not touch -> [[Inflammation as a Modifiable Lever]]. Blood pressure is the parallel large cardiovascular lever, handled on its own axis -> [[Blood Pressure]].
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## What to measure, when to act, and what is still open
 
 **Measure.** For most people the ordinary LDL-C (or non-HDL-C) suffices. **Add apoB** where LDL-C is likely to undercount the particles — high triglycerides (>=150 mg/dL), diabetes, metabolic syndrome, or a low achieved LDL-C on treatment.
@@ -170,7 +164,5 @@ Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **I
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
-
-</div>
 
 ## References

@@ -4,12 +4,13 @@ title: "The Biggest Health Levers After 70"
 question: 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?'
 sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017,
   Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024,
-  Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023]
+  Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Villoz - Dairy Cognitive Decline Dementia 2024,
+  Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
 confidence: low
 created: 2026-08-05
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-06
+self_critiqued: 2026-09-06
+concrete_subject_audited: 2026-09-06
 ---
 <div class="recent-update" data-last-updated="2026-09-04">
 
@@ -249,7 +250,7 @@ cannot remove), but it adds a second patient-important outcome to a lever no dru
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-04">
+<div class="recent-update" data-last-updated="2026-09-06">
 
 ## Past these, the remaining levers are smaller and less certain — and that ceiling is itself the finding
 
@@ -302,10 +303,30 @@ right: it licenses this person to stop optimising once the rocks above are handl
   [@xu2017alcohol]
   -> [[Alcohol and Mortality and Vascular Disease]]. There is no evidenced case for taking up or keeping up
   drinking for cognitive protection.
+- **Dairy for the brain — a null wrapped around a confounded curve.** The only dose-response meta-analysis
+  of dairy and dementia (15 cohorts, 312,580 people) is null highest-versus-lowest: RR 0.94 (95% CI
+  0.82-1.07). Its lone dip near 150 g/day is a between-population artifact, low-intake Asian cohorts reading
+  protective and high-intake European cohorts null at non-overlapping doses; milk and cheese are each null
+  on the matched highest-versus-lowest contrast
+  [@villoz2024dairy]. The pooled evidence is
+  primary-prevention in relatively healthy cohorts — Villoz excluded diabetes and metabolic disease — so
+  it reaches this comorbid stratum only as a conservative null-extrapolation. No dairy lever to add or
+  subtract for cognition -> [[Dairy]], [[The U-Shaped Association Artifact]].
+- **The aging eye — the same rocks, one more organ.** The modifiable evidence for age-related macular
+  degeneration adds no new lever. Physical activity is insufficient-evidence rather than protective:
+  high-versus-low activity gives RR 0.92 (95% CI 0.84-1.01), an interval that crosses 1
+  [@aune2026vision]. A
+  Mediterranean pattern is protective for AMD *progression* but not clearly for its *development*
+  [@marquescouto2025], and
+  the risk factors that do carry weight (smoking, hypertension, cardiovascular disease) are the big rocks
+  already ranked [@babaker2025amd]. So
+  AMD is another organ-specific reason to pull the same levers, not a lever of its own
+  -> [[Age-Related Macular Degeneration and Modifiable Exposures]],
+  [[Shared Modifiable Levers Across Age-Related Diseases]].
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-04">
+<div class="recent-update" data-last-updated="2026-09-06">
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
@@ -349,7 +370,7 @@ toward net harm, or toward "not worth it," in this stratum.
     tirzepatide and subcutaneous semaglutide are «among the most harmful» for lean mass while liraglutide
     and oral semaglutide «had little or no effect»
     [@nong2026obesity] — so a frail patient
-    is worst served by the strongest agents.
+    is worst served by the strongest agents -> [[Comparing Obesity Drugs]].
   - The same drugs carry a low-certainty observational signal running the *other* way on the brain: GLP-1
     receptor agonists track lower incident dementia in two umbrella reviews (all-cause dementia OR 0.55,
     95% CI 0.35-0.87 [@yang2026]; RR 0.35,
@@ -438,7 +459,7 @@ toward net harm, or toward "not worth it," in this stratum.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-04">
+<div class="recent-update" data-last-updated="2026-09-06">
 
 ## Four things this ranking cannot tell you
 
@@ -460,10 +481,10 @@ toward net harm, or toward "not worth it," in this stratum.
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 47 sources — 30 gold, 15 high, 2 moderate |
+> | **Evidence included** | 51 sources — 33 gold, 16 high, 2 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 </div>
 

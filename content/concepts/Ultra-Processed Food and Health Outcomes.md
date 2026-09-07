@@ -120,8 +120,6 @@ quality), much of the ranking weight may already be captured by exposures higher
 force: UPF is among the most-discussed exposures and the effect sizes are modest and confounded.
 [inferred from @lane2024upf]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The cognition outcome arm — dementia and broader cognition (Henney 2023; Smith 2025) `[2026-09-03]`
 
 Lane's umbrella headlines mental-disorder outcomes (anxiety, depression, adverse sleep) but **not**
@@ -249,8 +247,6 @@ caveat. Smith adds a **decision-relevant substitution frame** and a **diet-quali
 effect-modification split** worth watching, and confirms the arm is real but low-certainty across the
 wider cognitive menu.
 [inferred from @smith2025upf; @henney2023upf]
-
-</div>
 
 ## The bias screens fired — on the headline outcomes
 

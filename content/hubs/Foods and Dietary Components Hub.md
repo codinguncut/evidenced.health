@@ -116,6 +116,10 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   once you stop treating "dairy" as one food. Broadly neutral (CVD/mortality) to modestly inverse (T2D,
   women); the milk-mortality scare is a single-cohort confounding artifact; the matrix mechanism AWAITS
   Thorning. Non-fermented axes only (fermented-dairy CVD lives on the fermented-foods nucleus)
+- [[Dairy and Cognitive Decline]] — the `dairy`-cluster cognition/dementia facet (Villoz 2024, first held
+  dose-response MA): dairy is NULL for cognitive decline/dementia in the reasonably-healthy Western stratum;
+  the one "nadir at \~150 g/d" is an Asia/Europe intake-range pooling artifact, and milk-alone/cheese-alone
+  are null. Not a cognition lever. `confidence: low`
 
 </div>
 

@@ -3,14 +3,14 @@ type: deliverable
 title: Meal Timing and Fasting
 subject: What manipulating when and whether you eat -- time-restricted eating, one-meal-a-day, alternate-day and whole-day fasting, and prolonged therapeutic fasting -- adds beyond the calorie deficit it creates, and where a long fast flips to net harm
 question: For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm?
-aliases: [Fasting, Intermittent Fasting, Fasting Benefits and Risks, Time-Restricted Eating Deliverable, Meal Timing, Is Meal Timing a Life Hack, ADF, 5:2, OMAD, Skipping Breakfast, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting]
+aliases: [Fasting, Intermittent Fasting, Fasting Benefits and Risks, Time-Restricted Eating Deliverable, Meal Timing, Is Meal Timing a Life Hack, ADF, 5:2, OMAD, Skipping Breakfast, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting, Meal Frequency, Grazing, Small Frequent Meals]
 authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Association for the Study of the Liver (org); Lean, Michael EJ; Liu, Deying; Refalo, Martin C; Sumithran, Priya; Montani, Jean-Pierre; Capers, Patrice L; Wilding, John P H; Lincoff, A Michael]
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-08-27
-self_critiqued: 2026-08-12
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-06
+self_critiqued: 2026-09-06
+concrete_subject_audited: 2026-09-06
 ---
 
 **When you eat is a smaller lever than almost anyone selling it believes.** In the trials that hold
@@ -52,6 +52,24 @@ honest verdict is a **decomposition**, not a discovery: the umbrella word "fasti
 distinct exposures, and the daily-window version is a delivery vehicle for a deficit, not an
 independent lever. [inferred from @liu2022; @semnaniazad2025]
 
+
+<div class="recent-update" data-last-updated="2026-09-06">
+
+## Eating more often is not a weight lever either
+
+The same logic settles the *weight* half of the *grazing* belief -- that small, frequent meals stoke
+metabolism and speed weight loss. Meal frequency is the meal-count knob on the identical
+pattern-versus-total-intake question, and the trials that fixed the eating window held meals at three a
+day as a matched control rather than testing frequency as an exposure. Once calories are fixed, eating
+more often is not a weight lever: the effect lives in the deficit, not the schedule. What the held
+evidence does *not* settle is the narrower mechanistic claim, that more frequent meals raise energy
+expenditure through a more frequent thermic effect of food -- no frequency-specific expenditure trial is
+held, so that arm is insufficient-evidence, neither confirmed nor refuted. The decision answer is clear
+even where the mechanism stays open: do not add meals to burn more.
+[inferred from @liu2022]
+-> [[Time-Restricted Eating]].
+
+</div>
 
 ## Eating earlier moves a few markers, on the weakest possible evidence
 

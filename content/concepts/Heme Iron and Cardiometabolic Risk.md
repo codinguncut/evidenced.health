@@ -2,19 +2,17 @@
 type: concept
 question: Does dietary heme iron (a within-red-meat attribute) move patient-important outcomes, and is it a shared causal channel linking red meat to several of them?
 aliases: [Heme Iron, Haem Iron, Dietary Heme Iron, Heme-Iron Intake]
-authors: [Zhao, Zhuoxian; Li, Sheyu; Tian, Haoming; Yang, Wei; Li, Bin; Dong, Xiao; Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei]
-sources: [Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024]
+authors: [Zhao, Zhuoxian; Li, Sheyu; Tian, Haoming; Yang, Wei; Li, Bin; Dong, Xiao; Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Wang, Xinhui; Fang, Xuexian; Zheng, Wanru; Zhou, Jiahui; Song, Zijun; Xu, Mingqing; Min, Junxia; Wang, Fudi]
+sources: [Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Wang - Iron Status Type 2 Diabetes Mendelian Randomization 2021]
 cluster: heme-iron
 nucleus: true
 relationships:
   related_to: [Red and Processed Meat and Cancer, Should Adults Reduce Red and Processed Meat, Food Groups and Health Outcomes - A Dose-Response Matrix, Is the Food Category Doing Any Work, Measurement Error in Dietary Assessment, The U-Shaped Association Artifact]
 confidence: low
 created: 2026-09-02
-updated: 2026-09-03
-self_critiqued: 2026-09-03
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
-<div class="recent-page" data-last-updated="2026-09-03"></div>
-
 
 **Nucleus of the `heme-iron` cluster** — the canonical home for heme iron as a *within-red-meat
 attribute* and candidate *shared causal channel*. Facet pages (per-outcome red-meat pages, the
@@ -140,6 +138,8 @@ Bastide), not from Zhao or Yang; this section only names them as sibling legs of
   (some studies compute it as a fixed factor of meat iron), so heme is not cleanly separated from red
   meat by the observational data alone.
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Leg 5 — the iron-status natural experiment (MR): the shared channel splits by outcome (EXTRACTED)
 
 [@liu2024ironmr] — MR study,
@@ -228,6 +228,67 @@ processed forms) rather than through iron burden. The iron-burden mechanism that
 thesis needed for the coronary leg is contradicted by the store instruments and only equivocally
 supported by the hemoglobin instrument.
 
+### Wang 2021 — a second systemic-iron->T2D MR: type-F refinement, NOT independent backing (EXTRACTED)
+
+[@wang2021ironmr] — MR study, J Clin
+Endocrinol Metab 2021 (`tier: high`). A second Mendelian-randomization test of **systemic iron status
+-> T2D**, and it lands on the same adverse direction as Liu's T2D arm. It instruments 4 iron biomarkers
+with 3 shared genetic variants and applies them to a T2D case-control GWAS: «We selected genetic variants
+strongly associated (P < 5 × 10−8) with 4 biomarkers of systemic iron status from a study involving 48
+972 individuals performed by the Genetics of Iron Status consortium and applied these biomarkers to the
+T2D case-control study (74 124 cases and 824 006 controls) performed by the Diabetes Genetics Replication
+and Meta- analysis consortium» [@wang2021ironmr].
+
+**Findings (per 1 SD) — higher iron status is causally adverse for T2D.** «Genetically instrumented serum
+iron (odds ratio [OR]: 1.07; 95% CI, 1.02-1.12), ferritin (OR: 1.19; 95% CI, 1.08-1.32), and transferrin
+saturation (OR: 1.06; 95% CI, 1.02-1.09) were positively associated with T2D»
+[@wang2021ironmr]; and «genetically
+instrumented transferrin, a marker of reduced iron status, was inversely associated with T2D (OR: 0.91;
+95% CI, 0.87-0.96)» [@wang2021ironmr].
+Conclusion: «Genetic evidence supports a causal link between increased systemic iron status and increased
+T2D risk» [@wang2021ironmr].
+
+**The instrument is 3 SNVs — so the 4 biomarker estimates are one genetic contrast rescaled, not 4
+independent tests.** «Three SNVs including rs1800562 and rs1799945 in the HFE gene and rs855791 in the
+TMPRSS6 gene were em- ployed for our main analysis»
+[@wang2021ironmr] — the GIS loci
+associated with all 4 biomarkers. Reading the four ORs as four confirmations overstates it: they are the
+same HFE/TMPRSS6 contrast expressed in four biomarker units..
+
+**Pleiotropy is measured and real — a discount on the causal claim.** «the PhenoScanner database showed
+that the instrumental variables used in our MR analyses were truly associated with total cholesterol,
+low-density lipoprotein cholesterol, glycated hemoglobin A1c, and diastolic blood pressure, which may
+introduce some pleiotropy bias» [@wang2021ironmr].
+Sensitivity analyses (median, MR-Egger, MRMix) were directionally concordant, but the instrument is not
+clean.
+
+**The same-quantity bound holds identically to Liu — systemic iron, NOT dietary heme.** Wang instruments
+body-iron status, and cites the observational heme->T2D literature only as background («a positive
+correlation has been established between heme iron intake and the risk of T2D»
+[@wang2021ironmr]). It does not
+isolate dietary heme from red meat. Wang's own literature review also has iron **protective for CAD** and
+adverse for stroke, matching Liu's CAD/T2D split (Wang cites Gill 2017 for the CAD-protective MR).
+
+**E-vs-F verdict vs Liu 2024 — type-F (shared genetic backing), NOT `[E-independent]`.** Independence
+between two MRs requires disjoint instruments AND/OR disjoint samples. Wang and Liu have neither:
+
+| Independence criterion | Wang 2021 | Liu 2024 | Independent? |
+|---|---|---|---|
+| T2D outcome GWAS | DIAGRAM / Mahajan 2018 (74,124 cases) | DIAMANTE / Mahajan 2018 (80,154 cases) | NO — same Mahajan-2018 consortium GWAS |
+| Iron-status instrument | 3 GIS/Benyamin-2014 SNVs (HFE rs1800562/rs1799945, TMPRSS6 rs855791) | larger biomarker-specific panels (TSAT 12, serum iron 16, ferritin 42, TIBC 16 SNVs); HFE/TMPRSS6 dominate | NO — Wang's 3 SNVs nested within Liu's panels |
+| Citation lineage | — | cites Wang 2021 (ref 69) | NO — Liu builds on Wang |
+
+**So Wang is a type-F refinement of Liu's T2D arm, not a second independent arrival.** It confirms the
+adverse-for-T2D direction with a parsimonious 3-SNV instrument and resolves the standing, but shared outcome GWAS + nested instruments + citation means the agreement is not the *separate*
+route type-E requires. It must NOT be tokened `[E-independent]`. The genuine E on the T2D leg stays
+**Zhao (observational cohort/biomarker) x Liu (genetic MR)** — orthogonal methods; Wang adds a second
+genetic estimate to Liu's *side* of that E, which is confirmation, not new independence. `confidence: low`
+stands. — the independence verdict is this page's reasoning from the two MRs' instruments.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Synthesis — the candidate shared channel (INFERRED, low confidence)
 
 
@@ -305,7 +366,11 @@ and the net effect is to *lower* confidence in a single cross-outcome harmful ch
   removes the reverse-causation/inflammation confound and the adverse direction holds. Corroborated by
   Liu MR (systemic iron -> T2D). **But the same-quantity bound blocks lifting this to dietary heme:** the
   E backs the *iron-burden* mechanism, NOT the claim that *dietary heme from red meat* is the route in.
-  So it *narrows* the heme gap (body iron is causal for T2D) without *closing* it.
+  So it *narrows* the heme gap (body iron is causal for T2D) without *closing* it. **A second
+  systemic-iron->T2D MR is now held (Wang 2021, Leg 5) and firms the adverse direction, but adds no new
+  independence:** it shares Liu's T2D outcome GWAS (Mahajan 2018), its 3-SNV instrument nests within Liu's
+  panels, and Liu cites it — so it is a type-F refinement of Liu's side of the Zhao x Liu E, not a third
+  independent method. Direction firmed; `confidence: low` unchanged.
 - **CHD leg — the shared-*harmful*-channel reading is contradicted for coronary disease.** Iron stores
   are protective for CAD in the MR, so a single iron channel cannot be harmful for both T2D and CHD.
   Whatever drives the observational dietary-heme->CHD association, the natural experiment says it is not
@@ -316,6 +381,10 @@ figures are extracted on the respective legs. So the honest post-MR position: he
 supported adverse lever for T2D** (at the iron-burden level, dietary-route unproven) and a
 **not-supported / likely-confounded lever for CHD** — the cross-outcome *shared harmful channel* is no
 longer even directionally uniform, and `confidence: low` stands.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Gap (type-G) — the hook the next sources fill
 
@@ -328,12 +397,18 @@ longer even directionally uniform, and `confidence: low` stands.
   intake*, so it does not isolate *dietary heme from red meat* as the route into that iron burden. The
   binding residual gap is therefore an exposure-specific one: **a natural experiment (feeding design, or
   an MR on a heme-absorption / dietary-heme-relevant locus) that isolates DIETARY heme** — distinct from
-  systemic-iron MR — remains unheld. `G (needs a dietary-heme-specific genetic/feeding test)`. A second
-  independent-instrument systemic-iron->T2D MR is still identified but not held: — would add independence to
-  the T2D leg, not close the dietary-heme gap. — the residual-gap framing is this page's
-  reasoning from the Leg-1 dietary-vs-biomarker split and the Leg-5 same-quantity bound.
+  systemic-iron MR — remains unheld. `G (needs a dietary-heme-specific genetic/feeding test)`. The second
+  systemic-iron->T2D MR (Wang 2021) is now HELD (Leg 5) — but it turned out NOT to add independence: it
+  shares Liu's T2D outcome GWAS and its instrument nests within Liu's, so it refines rather than
+  independently corroborates the T2D leg (type-F), and does not touch the dietary-heme gap. The residual
+  binding gap is therefore still the dietary-heme natural experiment above, and a *genuinely
+  disjoint-instrument* systemic-iron->T2D MR would still be informative. — the residual-gap
+  framing is this page's reasoning from the Leg-1 dietary-vs-biomarker split and the Leg-5 same-quantity
+  bound.
 - **Absolute risk / substitution:** every leg is a highest-vs-lowest addition contrast; the Layer-3
   question (what replaces the heme — white meat? plant protein?) and per-stratum absolute risk are
   unanswered -> [[Should Adults Reduce Red and Processed Meat]].
+
+</div>
 
 ## References

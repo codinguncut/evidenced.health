@@ -16,9 +16,10 @@ relationships:
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
     - The Disease Model of Obesity
+    - Antidepressants for Depression
 created: 2026-08-22
-updated: 2026-09-03
-self_critiqued: 2026-08-22
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 **Frontier scope (kept peripheral, not deepened)** — a *class* efficacy-and-limitations
@@ -134,8 +135,6 @@ benefit is largest exactly where CV risk is highest, and does not transport to a
 weight loss -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @nong2026obesity]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Quality of life — the surrogate moved, the patient-important outcome did not
 
 Despite weight loss up to \~15%, **no drug improved quality of life beyond its minimally important
@@ -170,8 +169,6 @@ patient would notice -> [[Surrogate Outcomes]]. Two honest caveats bound how har
 | Verdict | all drugs < MID -> no clinically important gain | positive but MID-undefined | thematically convergent, not a numeric contrast |
 
 [inferred from @nong2026obesity; @malhotra2024surmount]
-
-</div>
 
 ## Lean mass — the best on weight are the worst on muscle
 
@@ -247,6 +244,8 @@ sponsor-designed single trials it pools (SELECT, STEP, SURMOUNT), even though th
 mortality/MI data still trace to those industry trials. Recorded as a weighting fact, not an
 editorial verdict.
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Decision relevance
 
 - **Match the drug to the outcome the person weights, not to the leaderboard.** Maximal weight loss ->
@@ -265,6 +264,18 @@ editorial verdict.
   burden load heavily on an axis the health evidence cannot price; record that the trade-off exists and
   which way it runs, and leave the weighting to the person
   -> [[Which Objective Moved This Recommendation]].
+- **Account for concomitant medications that move weight — judge the realistic net effect, not the
+  agent alone.** For a patient in the obesity stratum, a standing prescription can add or
+  subtract several kilograms beside the anti-obesity drug, and the ranking above is silent on it.
+  Antidepressants are the common case (depression-obesity comorbidity is prevalent): the class averages
+  \~5% gain but is **agent-dependent** — mirtazapine, paroxetine, SSRIs, venlafaxine and duloxetine gain;
+  TCAs are \~null; **bupropion loses weight in non-smokers** and is itself the antidepressant half of the
+  naltrexone-bupropion in the ranking above. So one molecule sits in both landscapes, and for a comorbid
+  patient the antidepressant choice can work with or against the weight goal — a co-lever outside this
+  NMA's comparison. The weight figures are observational with no pooled estimate, so the co-lever is real
+  but low-certainty -> [[Antidepressants for Depression]].
+
+</div>
 
 ## Limits
 

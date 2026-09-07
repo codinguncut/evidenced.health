@@ -765,8 +765,6 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
   active and eating LA-containing foods, the marginal seed-oil decision is a small, contested lever —
   *attention is an anti-signal* applies (the seed-oil controversy is loud and the effect is modest).
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Limits
 
 - **Five sources now held (observational biomarker + RCT MA + mortality SR+MA + inflammation RCT SR +
@@ -837,10 +835,6 @@ evidence stands on its own biomarker-cohort footing, observational, and it is wh
     n-6-selective **stratum flag**, not a harm finding. The open lever now is Mendelian-randomisation
     (the design that would move the observational benefit to causal), not another recovered trial.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Food-level, on mortality — Zhang 2025, and the LA-rich oils do NOT move together `[2026-09-02]`
 
 The arms above answer the LA question at the **nutrient / biomarker** level. Zhang 2025 (NHS/NHSII/HPFS,
@@ -872,7 +866,5 @@ is a food-level question the nutrient evidence does not settle. Full butter->oil
 symmetric-standards appraisal on [[Saturated Fat Intake and Replacement]] (*Butter vs plant oils at the
 food level*).
 [inferred from @zhang2025butter; @li2020]
-
-</div>
 
 ## References

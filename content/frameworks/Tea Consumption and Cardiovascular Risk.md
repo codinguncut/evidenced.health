@@ -37,8 +37,6 @@ would be largest (route (a)), and even there the estimate rests on observational
 - **The benefit is concentrated in the worst-measured studies** (the RoB gradient — see below). This
   is the single most decision-relevant fact on the page.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Per-cup dose-response (relative-only; over the studied range)
 
 Random-effects pooled adjusted RR per **1 cup/d (236.6 mL)** increase [@chung2020tea]:
@@ -64,8 +62,6 @@ Random-effects pooled adjusted RR per **1 cup/d (236.6 mL)** increase [@chung202
 **Relative-only, no absolute layer.** Every figure above is a relative risk; the paper reports no
 baseline event rates, so a decision-grade absolute effect (events avoided per 1000 person-years)
 cannot be computed from it. This is a named gap, not an omission to gloss.
-
-</div>
 
 ## The RoB gradient — the association weakens as exposure measurement improves
 

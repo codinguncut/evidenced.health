@@ -56,8 +56,6 @@ low-risk studies sampled populations above it), **not** an estimated inflection 
 bends. So «harm below 1.5 is unclear» is a statement about the *evidence density*, not a demonstrated
 safe threshold — and the within-study non-linearity is inconsistent (see Yu 2018 below).
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The evidence base
 
 - 72 IQ studies; **19 low risk-of-bias** (high quality), of which **18 reported an inverse association**
@@ -80,8 +78,6 @@ safe threshold — and the within-study non-linearity is inconsistent (see Yu 20
     second line — see the section below and the one-backing note on [[Fluoride and Health]]. The
     published table SHARPENS the «direction consistent <1.5» summary above, which turns out to be
     **exposure-matrix-dependent** at low dose.
-
-</div>
 
 ## Taylor 2025: the published dose-response, and the low-dose exposure-matrix split
 

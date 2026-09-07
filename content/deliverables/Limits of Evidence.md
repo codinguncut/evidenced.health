@@ -3,12 +3,12 @@ type: deliverable
 title: Limits of Evidence
 icon: material-symbols-light:balance
 question: 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?'
-sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
+sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-31
-self_critiqued: 2026-08-31
-concrete_subject_audited: 2026-08-31
+updated: 2026-09-06
+self_critiqued: 2026-09-06
+concrete_subject_audited: 2026-09-06
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -86,6 +86,8 @@ rule out a real gradient, a bare coefficient cannot say what was traded, and a c
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
 
+<div class="recent-update" data-last-updated="2026-09-06">
+
 ## The design rarely isolates the cause
 
 The evidence base is observational-dominant, and an observational study cannot randomize its
@@ -132,9 +134,16 @@ discordance is a signal to check exposure-commensurability, never an automatic v
 referent enriched for people who quit the exposure once ill, so it «will bias drinking risk estimates
 downward, thereby magnifying the appearance of health benefits from low-level drinking»
 [@stockwell2016]), frailty
-confounding, or unequal between-group precision. The rule: a protective or plateau arm must survive a
-referent-correction or a genetic/objective check before it is believed; a shape equally consistent with
-the causal and the artifact explanation has no diagnostic value.
+confounding, unequal between-group precision, or a nadir stitched across cohorts whose intake ranges do
+not overlap. That last one is subtle: Villoz's dairy-and-dementia curve dips to a knee near 150 g/day, and
+that knee sits on the seam between low-intake Asian cohorts (29-165 g/day, where dairy reads protective)
+and high-intake European ones (170-711 g/day, null)
+[@villoz2024dairy]. Villoz reads the split as genuine
+regional effect modification; the artifact reading is the wiki's own — the apparent *optimum* is then a
+between-population contrast, each arm carrying its own confounding structure, not a within-person dose
+. The rule: a protective or plateau
+arm must survive a referent-correction or a genetic/objective check before it is believed; a shape equally
+consistent with the causal and the artifact explanation has no diagnostic value.
 -> [[The U-Shaped Association Artifact]]
 
 **A few narrow conditions license more confidence.** Observational evidence can be rated up on
@@ -161,6 +170,31 @@ silent on identification**: more data narrows the band around a figure that a li
 placed off the causal target entirely. Read precision as precision, never as evidence the confounding
 was handled. -> [[Causal Identification (Exchangeability, Positivity, Consistency)]]
 
+And the interval's *shape* can itself be a modelling artifact. A confidence interval, a standard error
+and a p-value are all estimator *outputs*, and the normal (Wald) approximation -- the point estimate plus
+or minus 1.96 standard errors -- is usually load-bearing in producing them. So a tidy *symmetric*
+interval is often a modelling choice, not a fact about the data, and the reported point need not sit at
+its centre: the maximum-likelihood estimate is the *mode* of the likelihood, and mode, mean and median
+coincide only under symmetry. The approximation bites hardest at small samples; at skewed variables
+(dietary intake, CRP and triglycerides run roughly log-normal); at boundary or *non-regular* parameters
+like a break-point; and at ratio estimators (a relative risk, hazard ratio or odds ratio is normal on
+the log scale, asymmetric on the natural one). -> [[The Underivable Optimum]]
+
+The worked hook is a resistance-training protein break-point, its point estimate 1.62 (in grams per
+kilogram of bodyweight per day) with an interval of 1.03 to 2.20 -> [[Protein Intake]]. A changepoint is
+a non-regular parameter, and precisely there the normal approximation
+mis-covers -- yet the interval is even almost to rounding, 0.59 below the point and 0.58 above, the
+fingerprint of an *estimate plus-or-minus 1.96 standard errors* construction. That near-symmetry is only
+*consistent with* Wald, never proof of it, and it is *not* reassurance: the neatness suggests the
+interval is probably mis-shaped and its centre not a trustworthy target, so the honest object is the
+region, not the point. -> [[The Underivable Optimum]]
+
+The guard runs both ways: the Wald approximation is earned by the central limit
+theorem and is fine for a regular estimator at adequate sample size; the error is applying it where its
+conditions fail (a changepoint, a heavy skew, a tiny sample), not distrusting every interval ever
+printed. Know which regime you are in, and stop reading a tidy interval's neatness as evidence of tight
+identification. -> [[The Underivable Optimum]]
+
 Below the bar a cohort association needs triangulation -- Mendelian randomization, a trial, or convergent
 methods -- and *below-2* means insufficient on its own, **never false**
 -> [[The Insufficient-Evidence Statement]]. The doubt is symmetric: a small protective RR earns the same
@@ -171,6 +205,8 @@ can understate a real effect too. -> [[Upgrading Observational Evidence]]
 exits is available, residual confounding stays live, and the honest grade is low -- recommend
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
+
+</div>
 
 ## The outcome is often a surrogate, and effects leak
 
@@ -352,6 +388,8 @@ class that may not transport, a curve with no locatable peak. Every number carri
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
+<div class="recent-update" data-last-updated="2026-09-06">
+
 ## Caveats and boundaries
 
 - **This cut carries no exposure estimates.** Every exposure above is an illustration that links out to
@@ -378,9 +416,11 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | | |
 > |---|---|
 > | **Question** | 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?' |
-> | **Evidence included** | 20 sources — 4 gold, 3 high, 1 moderate |
+> | **Evidence included** | 21 sources — 5 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+
+</div>
 
 ## References

@@ -479,8 +479,6 @@ large and design-robust (consistent across four designs); the *precise* size and
 attribution carry real uncertainty. The direction and the deficient-benefit leg are secure; hold the
 point estimate loosely.
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## A DISTINCT flavor of repletion — periconceptional folic acid and NTDs (window-gated, stratum-DEFINED, not baseline-status-modification)
 
 The trio above (vit-D/iron/iodine) are one structural kind: **route-(b) baseline-STATUS modification** — the
@@ -546,8 +544,6 @@ bottom-of-hierarchy (where the general-population disease-prevention null puts i
 counter-example to *supplements are a distraction*: for **this** stratum, on **this** outcome, a supplement
 clearly works. The population-scale analogue is **folic-acid fortification** of staple foods (delivery vehicle,
 not a different exposure) [@deregil2015].
-
-</div>
 
 ## Guard — this is the REAL dose-response U, not the artifact
 

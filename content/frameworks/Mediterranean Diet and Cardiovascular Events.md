@@ -17,7 +17,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
 updated: 2026-09-03
-self_critiqued: 2026-08-13
+self_critiqued: 2026-09-05
 ---
 
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
@@ -127,8 +127,6 @@ contrast (type-A synthesis), not a head-to-head.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The same pattern and dementia — a second outcome, but observational and probably via the vascular channel
 
 The Mediterranean pattern also carries a **dementia/cognition** signal, but on much weaker evidence than
@@ -156,9 +154,6 @@ observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.8
   [[Dementia Prevention and Modifiable Risk Factors]].
 
 [@dinu2018]
-
-</div>
-
 ## The breadth context — an umbrella review bounds the single trial (F, not independent E)
 
 PREDIMED is one landmark RCT. Dinu's 2018 umbrella review (13 meta-analyses of observational studies +

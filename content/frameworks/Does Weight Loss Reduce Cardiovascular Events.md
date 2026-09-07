@@ -21,7 +21,7 @@ relationships:
     - Sleep Apnea Treatment and Cardiovascular Risk
 created: 2026-07-28
 updated: 2026-09-05
-self_critiqued: 2026-08-21
+self_critiqued: 2026-09-05
 ---
 
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
@@ -293,6 +293,8 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Decision relevance
 
 - **Weight loss stays strongly indicated — for the outcomes it demonstrably moves.** Look AHEAD itself
@@ -305,8 +307,9 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 - **The >=10%-responder CV signal has a second mention.** DiRECT independently cites the Look AHEAD
   post-hoc — "a 10% weight loss in the first year... associated with a 21% decrease in occurrence of
   cardiovascular outcomes over a median follow-up of 10.2 years" [@lean2018] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
-  mention (DiRECT reports, does not re-derive it), so the primary post-hoc paper is still AWAITED; but
-  two independent trials now point to the same >=10% dose threshold for a CV benefit.
+  mention (DiRECT reports, does not re-derive it), so the primary post-hoc paper is still AWAITED. The
+  >=10% threshold therefore still rests on **one** post-hoc analysis (Gregg 2016), now echoed by two
+  trial reports rather than independently re-derived by either — citation is not replication.
 - **Do not oversell a cardiovascular-event reduction the largest trial failed to show.** For a person
   pursuing lifestyle weight loss, *this will lower your risk of a heart attack* is weakly evidenced —
   honest framing is to pursue weight loss for its many proven benefits and treat CV-event reduction as
@@ -320,6 +323,8 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
   the CV benefit that weight loss itself does not reliably confer via the lifestyle route.
 - **Absolute benefit still scales with baseline risk** ([[Baseline Risk and the Relative-Absolute Split]])
   — even if a true small CV effect exists, it is smallest exactly where risk is lowest.
+
+</div>
 
 ## The weight-cycling objection — not a reason to avoid trying (F-refinement)
 

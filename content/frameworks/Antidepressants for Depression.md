@@ -2,8 +2,8 @@
 type: framework
 question: "What does the antidepressant drug class do — and not do — for acute major depressive disorder in adults: efficacy, acceptability, and how certain is it?"
 aliases: [Antidepressants, Antidepressant Efficacy, SSRIs for Depression, Antidepressant Drugs, Antidepressants for Major Depressive Disorder]
-authors: [Cipriani, Andrea; Furukawa, Toshi A; Salanti, Georgia; Ioannidis, John P A; Geddes, John R; Henssler, Jonathan; Baethge, Christopher]
-sources: [Cipriani - 21 Antidepressants Efficacy Acceptability 2018, Henssler - Antidepressant Discontinuation Symptoms 2024]
+authors: [Cipriani, Andrea; Furukawa, Toshi A; Salanti, Georgia; Ioannidis, John P A; Geddes, John R; Henssler, Jonathan; Baethge, Christopher; Alonso-Pedrero, Lucia; Bes-Rastrollo, Maira; Marti, Amelia; Moss, Lauren; Laudenslager, Marci; Steffen, Kristine J; Sockalingam, Sanjeev; Coughlin, Janelle W]
+sources: [Cipriani - 21 Antidepressants Efficacy Acceptability 2018, Henssler - Antidepressant Discontinuation Symptoms 2024, Alonso-Pedrero - Antidepressant Antipsychotic Weight Gain 2019, Moss - Antidepressants Weight Gain Update 2025]
 cluster: depression
 confidence: low
 relationships:
@@ -13,8 +13,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Measurement Error in Dietary Assessment
 created: 2026-08-30
-updated: 2026-08-30
-self_critiqued: 2026-08-30
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 ---
 
 The antidepressant class is a **standing drug** the wiki appraises for **efficacy and its limitations**,
@@ -238,6 +238,160 @@ to 7** will have genuinely drug-caused discontinuation symptoms and **\~1 in 35*
 venlafaxine/desvenlafaxine; the per-agent ordering is otherwise preliminary (wide CIs; mirtazapine,
 bupropion, amitriptyline unstudied). This is a **stratum-level appraisal of a standing drug's
 limitation**, not a discontinuation protocol; tapering-regimen selection stays prescriber-zone.
+
+<div class="recent-update" data-last-updated="2026-09-05">
+
+## Limitations — weight gain and metabolic side-effects (Alonso-Pedrero 2019)
+
+The other standing-drug limitation Cipriani left uncovered (specific adverse events): what the class
+does to **body weight** — a decision-relevant co-consideration for anyone in the obesity / metabolic
+stratum. Alonso-Pedrero 2019 is the SR of record: 27 cohort studies (PubMed, 2008-Jan 2019, PRISMA),
+of which 7 covered antidepressants (6 rated *good* on the Newcastle-Ottawa scale).
+[@alonsopedrero2019weight]
+It is a **narrative SR of observational cohorts, not a meta-analysis**: «As the identified studies
+involved different populations, drugs, and dosages, no quantitative meta‐analyses were done»
+[@alonsopedrero2019weight]. So there is
+**no pooled effect** — every per-agent figure below is a single-study anchor, and the whole appraisal
+inherits observational confounding (qualifications below). This refines the standing-drug appraisal
+(**type-F**): it fills the specific-adverse-event gap Cipriani named, so the composite (efficacy +
+discontinuation + weight) beats any single source; the numbers are not commensurable with Cipriani's
+efficacy SMD/OR or Henssler's withdrawal incidence and are never netted against them.
+
+**Recency update — Moss 2025 (narrative, refines; NOT independent).** A narrative "Update" review
+(Curr Obes Rep) supplies the post-2019 refinement below. It is **not type-E independent backing** — it
+cites Alonso-Pedrero directly (its ref [8]) and narrates the same overlapping literature, so it cannot
+raise confidence by convergence; `confidence:` stays **low**. It *corroborates* Alonso-Pedrero's
+load-bearing structure — the agent (not the class) carries the effect, reverse-causation/return-to-
+normal confounding, and bupropion-first-line for overweight (Moss's ref [8] for that last is
+Alonso-Pedrero itself) — and it *refines* specific agents with newer, CI-bearing single studies. *Corroborated by Moss (2025).*
+[@moss2025antidepressants]
+
+### The finding — real gain, but mostly sub-clinical on the FDA cut, and gradual
+
+- **Magnitude \~5%, below the ≥7% threshold antipsychotics cross.** «Most of the included studies showed
+  a 5% weight gain in individuals using antide‐ pressant therapy»
+  [@alonsopedrero2019weight]. Absolute
+  anchor: Patten reported «+5.0 kg (95% CI, 4.3‐5.8)» over 12 y on any antidepressant vs +3.7 kg in
+  untreated depression
+  [@alonsopedrero2019weight]. The FDA's
+  clinical-significance cut is **≥7% of baseline**, which «only a few drugs (Quetiapine, Haloperidol,
+  Risperidone, Olanzapine, and Clo‐ zapine) are able to produce»
+  [@alonsopedrero2019weight] — all
+  antipsychotics; the antidepressant class mostly sits at \~5%, below it.
+- **The gain is gradual — short trials under-state it.** Gafoor (n=314,449, 10-y follow-up) found «the
+  risk of increasing weight by in more than 5% was 21% higher in subjects treated with antidepressants
+  vs subjects that were not treated», rising to 46% and 48% higher risk in treatment years two and three
+  [@alonsopedrero2019weight].
+
+### The load-bearing move — the agent, not the class, carries the effect
+
+ *Antidepressants cause weight gain* is too coarse for a decision: the direction and size
+differ sharply by drug, and that differential IS the co-consideration.
+
+- **Gainers.** The SR's positive-association list is mirtazapine, fluoxetine, citalopram, escitalopram,
+  sertraline, paroxetine, trazodone, venlafaxine and duloxetine — «Venlafaxine, and Duloxetine had a
+  positive association with weight gain»
+  [@alonsopedrero2019weight]. Mirtazapine is
+  the standout (one 2-y cohort: +5.3 kg, though non-significant, p=.12).
+- **Weight-neutral / loss — bupropion.** Bupropion showed weight *loss* of about -3.22 kg (-7.1 lb) over
+  2 y «in subjects taking Bupropion compared with Fluoxetine in non‐smokers, while smokers that used
+  Bupropion gained +2.2 lb» (\~+1 kg — so the loss is confined to non-smokers)
+  [@alonsopedrero2019weight]. The SR argues
+  «it should be the first‐line drug for individuals affected by overweight»
+  [@alonsopedrero2019weight] — consistent
+  with bupropion's role in anti-obesity pharmacotherapy -> [[Comparing Obesity Drugs]].
+- **TCAs — no clear association.** «it suggests that there is no association between TCAs and weight
+  gain» [@alonsopedrero2019weight] (the SR's
+  results read it null; the discussion softens to *doubtfully associated* — mixed across studies).
+
+### Three qualifications on the weight numbers
+
+ — each narrows what the figures license; all follow from the observational, no-MA design.
+
+- **Confounding by indication / reverse causation.** The disorder itself moves weight: «We cannot
+  exclude the possibility that psychiatric disorders rather than the treatment were the reasons for
+  changes in body weight»
+  [@alonsopedrero2019weight] — a measured
+  gain can be a *return to normal* after illness-driven loss, not a drug effect. Same referent-correction
+  discipline as elsewhere -> [[The U-Shaped Association Artifact]].
+- **Lifestyle confounding, unevenly adjusted.** «in some studies, the statistical analysis was performed
+  after adjustment for potential confounders such as dietary intake or lifestyle factors, but others
+  not» [@alonsopedrero2019weight]; higher
+  energy intake in users may partly mediate, and the gain concentrates in unhealthy-lifestyle strata
+  (smoking, sedentary, Western diet). This is the dietary-measurement-error channel again
+  -> [[Measurement Error in Dietary Assessment]].
+- **Effect-modifiers — age is the antidepressant-specific one.** «individuals under 50 years old were
+  more likely to gain weight after antidepressant treatment than individuals over 65 years»
+  [@alonsopedrero2019weight]; older adults
+  tend instead to lose weight (reduced muscle mass). The SR's other predictors — female
+  sex, lower baseline BMI, non-smoking — are stated for the *antipsychotic (FGA)* arm or specific
+  subgroups (e.g. underweight dementia patients), **not** established for the antidepressant class, so
+  they are not asserted here. The \~5% average still hides real spread by age and by agent — the stratum
+  matters.
+
+### Post-2019 per-agent refinement (Moss 2025)
+
+[@moss2025antidepressants] unless marked. Newer single
+studies (Moss cites each by bracket-ref only, so they are named by design + n, "via Moss", never an
+invented primary author) sharpen or attenuate specific agents. None is a pooled effect; all inherit the
+observational/narrative caveats above.
+
+- **A larger comparative trial gives CI-bearing per-agent anchors vs sertraline as reference** (n=183,118
+  adults; via Moss ref [39], 6-24 mo). Escitalopram/paroxetine «gained 0.3 to 0.4 kg more, with a 10 to
+  15% increased risk of gaining at least 5% of initial body weight when compared to sertraline users after
+  6 months». Fluoxetine favorable but non-significant: «greater weight reduction at 24 months (difference =
+  −0.20 kg [95% CI, −0.45–0.05])». Bupropion favorable and **significant**: «a 15% reduced risk of gaining
+  significant weight (≥ 5%) at 6 months ... weight difference at 12 months = −0.71 kg [CI, −0.87 to
+  −0.55 kg]; ... 24 months = −0.91 kg [CI, −1.14 to −0.66 kg]». This sharpens Alonso-Pedrero's
+  non-smoker-only bupropion-loss reading — the loss now shows with CIs excluding 0 across 12-24 mo.
+- **SNRIs — attenuates Alonso-Pedrero's gainer list.** Alonso-Pedrero listed venlafaxine + duloxetine as
+  positive-association gainers; a newer **network MA (n=9,384 adults; via Moss ref [42])** finds «neither
+  were associated with weight gain». Held as an F-refinement (both readings retained): the SNRI-as-gainer
+  signal is weak/heterogeneous on newer pooled evidence, not settled.
+- **TCAs — narrows Alonso-Pedrero's null to a within-class split.** Alonso-Pedrero read TCAs as no /
+  doubtful association; Moss refines to tertiary-vs-secondary amines: tertiary amines (amitriptyline,
+  imipramine, clomipramine, trimipramine, doxepin) gain more than secondary amines, with anchors
+  «amitriptyline ... acute ... and long-term use (1.52 kg and 2.24 kg, respectively) while nortriptyline
+  ... acute treatment (2.00 kg)». A 24-wk head-to-head put TCA ≥3%-gain at 34.9% vs SSRI 26.6% vs SNRI
+  22.4% (n=39 TCA arm; **not statistically significant**). So *some* TCAs do gain — the earlier null was
+  too coarse.
+- **Newer post-2019 agents Alonso-Pedrero (window to Jan 2019) could not see, mostly weight-neutral:**
+  gepirone (no clinically significant gain across five 1999-2004 studies), zuranolone (nonsignificant
+  trend), vortioxetine and vilazodone («more weight neutral effects»), and dextromethorphan-bupropion
+  («short-term weight-neutral effects (−0.2 kg change from baseline at 6 weeks)»). These widen the
+  weight-favorable menu beyond bupropion.
+- **Biological *predictors* of weight change — route-(b) CANDIDATES, not established effect-modifiers.**
+ Moss frames genetics/biology as predicting an individual's threshold, but each rests on a
+  single study with no pooled interaction test, so these are **candidate** modifiers (route b), not
+  confirmed ones — and Moss itself calls pharmacogenetic testing «somewhat controversial and not broadly
+  accepted». (i) *CYP2C19 metabolizer phenotype*: «poor and intermediate CYP2C19 metabolizers prescribed
+  citalopram were found to have a mean weight gain of 1.7% after 6 months ... in comparison to rapid
+  metabolizers who experienced an average decrease in weight of 1.2%» — a \~2.9-percentage-point spread,
+  one study, citalopram only. (ii) *Chronic low-grade inflammation* as a predictor of «expediting
+  antidepressant weight gain». Neither licenses route-(b) personalization yet; they mark where positive
+  interaction evidence would.
+
+### Decision consequence
+
+ For someone in the obesity / metabolic stratum weighing an antidepressant, **agent choice
+is a real lever on the weight co-consideration**: bupropion is weight-favorable (significant loss vs
+sertraline across 12-24 mo, and it doubles as an anti-obesity agent -> [[Comparing Obesity Drugs]]);
+the weight-neutral menu is now wider (fluoxetine and sertraline lower-risk; newer gepirone, vortioxetine,
+vilazodone, zuranolone weight-neutral); tertiary-amine TCAs (amitriptyline, imipramine) and mirtazapine
+are least favorable, with escitalopram/paroxetine mildly unfavorable vs sertraline. A concrete action
+rule, via Moss (2025): a **≥5% gain from baseline** «suggests reconsideration of treatment and discussion
+of switching to an antidepressant with lower risk of weight gain»
+[@moss2025antidepressants]. Two guards hold. (i) The cost is
+**modest and sub-FDA-threshold** (\~5%) for most agents — far smaller than the antipsychotic class, and
+to be **netted against** the drug's acute efficacy (above), never read as a reason to avoid indicated
+treatment. (ii) *Which* agent — and any adjunct (metformin, GLP-1 RA, topiramate) or bariatric route —
+is **prescriber-zone** (selection, contraindications, the person's other indications); this page records
+only that the weight differential exists and runs bupropion-favorable. **Gap (needs aggregation, still
+open):** the recency/per-agent update landed (Moss 2025), but no *pooled* RCT estimate of the per-agent
+weight effect exists — Alonso-Pedrero is an SR of cohorts and Moss is narrative (single-study anchors),
+so the magnitude ordering remains an aggregation the wiki structurally cannot compute.
+
+</div>
 
 ## Substitution — where the class sits against the realistic alternatives
 

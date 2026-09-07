@@ -277,8 +277,6 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
 
-<div class="recent-update" data-last-updated="2026-09-02">
-
 ## Gaps (type-G)
 
 - All cells are **observational** (prospective cohorts) with self-reported intake; dietary
@@ -301,7 +299,5 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   comparator. The mortality paper gives an *optimal-combined-intake* -> 56% relative mortality
   reduction figure, but no per-stratum absolute risk, so the drug-comparator sizing (Layer-1)
   cannot be completed from the series alone. `G (needs a baseline-risk source per stratum)`.
-
-</div>
 
 ## References

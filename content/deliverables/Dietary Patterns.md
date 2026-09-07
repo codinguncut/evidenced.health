@@ -188,8 +188,6 @@ without asserting any hard-outcome pattern ranking the evidence does not license
 So apply the decomposition. Once the pattern is specified as its components, which axis actually carries
 the difference that is left?
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The difference travels with components, energy, and adherence — not the brand
 
 The pattern label is a container; the effect rides on what fills it. Three axes carry
@@ -328,10 +326,6 @@ dominates. -> [[Named Diet Programs Compared]]
 Every magnitude above came with a certainty caveat attached — so how good is the evidence, pattern
 by pattern?
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Grade each island on its own endpoint
 
 **Sorted by study design, the literature is four islands that do not carry equal weight** — they answer
@@ -425,8 +419,6 @@ recommendation earned only where its transmission to a patient-important outcome
 Two of these islands carry a real, decision-relevant signal, and one carries a real stratum-specific
 harm.
 
-</div>
-
 ## Weigh the three findings that clear the near-null
 
 **Three findings sit genuinely above the surrogate near-null**, and each earns its place on its own
@@ -512,8 +504,6 @@ that the trade-off exists and which way it runs, then stop — the weighting bet
 is the person's own, made at the point of decision, and pricing it here would be a false objectivity the
 evidence cannot supply.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Walk away with a floor, then a pattern you'll keep
 
 **Clear the floor first.** Two things reliably rule a diet out: it cannot supply the essential nutrients,
@@ -554,7 +544,5 @@ marketing implies — and far less than whether you keep it.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
-
-</div>
 
 ## References

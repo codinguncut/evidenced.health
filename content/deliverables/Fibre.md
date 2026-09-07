@@ -206,8 +206,6 @@ while a high-fibre arm did not
 resident community rather than reliably diversifying it on a short timescale, and a composition
 shift earns belief only when followed through to an outcome ([[Gut Microbiome and Health]]).
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Glycaemia, weight and transit move the right way but resist a clean number
 
 **Fibre nudges the softer outcomes in the expected direction, but the corpus cannot put a
@@ -240,8 +238,6 @@ without raising the target, moving this page's confidence, or changing any gram/
 recommendation -- and for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates
 this lever by a wide margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
 .
-
-</div>
 
 ## The downsides are real, minor, and mostly settled in the kitchen
 
@@ -334,8 +330,6 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Caveats
 
 - **The hard-outcome benefit is observational.** The 15-30% risk reductions come from cohorts of
@@ -370,7 +364,5 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. Valisoltani (gold-tier dose-response MA) supplies a low-certainty (NutriGrade-LOW) COPD outcome-menu note only — not load-bearing, and it changes no recommendation. |
 > | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
-
-</div>
 
 ## References

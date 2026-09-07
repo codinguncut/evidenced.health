@@ -226,8 +226,6 @@ processed meat in the US study vs fish intake in the present study.»
   plant-ward. Quality (DIAAS) is the bridge — plant sources are lower-DIAAS, so a plant-shifted diet
   needs more grams or complementation to hold the muscle target -> [[Protein Quality and the DIAAS Score]].
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Limits
 
 - **All observational; no causal claim.** Residual confounding (diet pattern, social class) is the
@@ -245,8 +243,6 @@ processed meat in the US study vs fish intake in the present study.»
   too, so it will *not* supply independence. The owed
   source is a large non-Western / non-Naghshi-pooled cohort that could also test whether the plant signal
   is independent of the fibre/whole-grain lever it may run through.
-
-</div>
 
 ## The plant-protein signal may be the fibre/pulse lever under another name (a gap)
 

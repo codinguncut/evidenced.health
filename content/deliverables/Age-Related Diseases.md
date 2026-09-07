@@ -3,16 +3,16 @@ type: deliverable
 title: Age-Related Diseases
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-05
-self_critiqued: 2026-09-05
-concrete_subject_audited: 2026-09-05
+updated: 2026-09-06
+self_critiqued: 2026-09-06
+concrete_subject_audited: 2026-09-06
 aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
 question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
-authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Wei, Bao-Zhen; Zhang, Jinhuan; Knowler, William C; Goldberg, Ronald B; World Cancer Research Fund International (org); Johnston, Bradley C; Vermeiren, Sofie; Racey, Megan; Celis-Morales, Carlos A; de Santana, Felipe M; Morton, Robert W; Sherrington, Catherine; Aune, Dagfinn; Babaker, Raghad; Marques-Couto, Pedro; European Society of Cardiology (org); Smith, Megan; Blomstrand, Peter; Wilker, Elissa H; Lopez-Bueno, Ruben; Mendes, Augusto J; Cui, Chendi]
+authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Wei, Bao-Zhen; Zhang, Jinhuan; Knowler, William C; Goldberg, Ronald B; World Cancer Research Fund International (org); Johnston, Bradley C; Vermeiren, Sofie; Racey, Megan; Celis-Morales, Carlos A; de Santana, Felipe M; Morton, Robert W; Sherrington, Catherine; Aune, Dagfinn; Babaker, Raghad; Marques-Couto, Pedro; European Society of Cardiology (org); Smith, Megan; Blomstrand, Peter; Wilker, Elissa H; Lopez-Bueno, Ruben; Mendes, Augusto J; Cui, Chendi; Villoz, Fanny]
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Peters - Blood Pressure Lowering Dementia 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Iso-Markku - Physical Activity Dementia 2022, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Henney - Ultra-Processed Food Dementia 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
-  Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, ESC - CVD Prevention Guidelines 2021, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Lopez-Bueno - Handgrip Strength Thresholds, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020]
+  Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, ESC - CVD Prevention Guidelines 2021, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Lopez-Bueno - Handgrip Strength Thresholds, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Villoz - Dairy Cognitive Decline Dementia 2024]
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
+<div class="recent-page" data-last-updated="2026-09-06"></div>
 
 
 ## The verdict
@@ -311,9 +311,18 @@ under way rather than a cause, and no trial has tested whether treating a sleep 
 incidence [@zhang2025sleep]
 -> [[Sleep and Cognitive Decline]].
 
-None of these candidate levers is one of the established fourteen modifiable factors; each belongs in the
-*reinforce the rocks, don't add to them* category — routes to pull blood pressure, glycaemia, weight and
-vascular health, not fifteenth, sixteenth and seventeenth independent targets.
+Dairy, the newest food run through these questions, fails at the first. Pooled across 15 cohorts
+(312,580 people), its highest-versus-lowest contrast is null for cognitive decline or dementia —
+RR 0.94 (95% CI 0.82-1.07). The one dose-response dip, near 150 g/day, is a between-population artifact
+stitched from low-intake Asian and high-intake European cohorts sampled at non-overlapping doses; on the
+matched highest-versus-lowest contrast, milk and cheese are each null
+[@villoz2024dairy] -> [[Dairy]],
+[[The U-Shaped Association Artifact]].
+
+None of these candidate levers is one of the established fourteen modifiable factors. Ultra-processed food,
+fruit and vegetables, flavonoids, DHA and sleep are at most routes to pull blood pressure, glycaemia,
+weight and vascular health — never fifteenth, sixteenth and seventeenth independent targets. Dairy is not
+even that: it is a flat null, on the list only to retire the question, not a rock to reinforce.
 
 #### Where this leaves the crux
 
@@ -795,9 +804,9 @@ order, and adjusted as a person ages.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?' |
-> | **Evidence included** | 37 sources — 25 gold, 12 high |
+> | **Evidence included** | 38 sources — 26 gold, 12 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
 
 ## References

@@ -27,8 +27,6 @@ in those without**, is safe for renal function in people with normal potassium h
 lower stroke risk -- while the harder CV endpoints stay null and underpowered.
 [@aburto2013]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The effect on blood pressure -- the HIGH-certainty core
 
 > «Increased potassium intake reduced systolic blood pressure by 3.49 (95% confidence interval 1.82 to
@@ -52,8 +50,6 @@ five routes): the normotensive SBP point estimate is **0.09 mmHg -- essentially 
 smaller. Aburto's own hedge is that the three normotensive trials were short and did not test whether
 potassium *prevents* a future BP rise, so *not effective in normotensives* is established for
 *lowering an already-normal BP*, not for long-run prevention.
-
-</div>
 
 ## The hard outcome -- stroke reaches significance, the rest do not
 
@@ -92,8 +88,6 @@ concrete evidence the two WHO reviews share one methodological template (bears o
 question in the Synthesis).
 [inferred from @aburto2013]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Dose -- a plateau near 90-120 mmol/day, no monotone gradient
 
 > «high quality evidence showed that a higher potassium intake of 90-120 mmol/day reduced blood pressure
@@ -115,8 +109,6 @@ and even there it is monotone only *after multivariable adjustment* (Huang's raw
 author-flagged *exploratory*. So potassium-flat-by-intake and sodium-rising-by-reduction are **not
 opposed head-to-head**; both are consistent with the same decision default (raise toward \~90-120,
 reduce sodium, neither curve shows a knee that changes the action; the dose-response shape reasoning).
-
-</div>
 
 ## Safety -- null on lipids/catecholamines/renal (HIGH), with one contraindication
 

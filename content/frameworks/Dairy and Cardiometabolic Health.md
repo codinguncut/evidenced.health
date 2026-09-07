@@ -10,6 +10,7 @@ confidence: medium
 relationships:
   related_to:
     - Dairy and Bone Health
+    - Dairy and Cognitive Decline
     - Fermented Foods and Health
     - Is the Food Category Doing Any Work
     - The U-Shaped Association Artifact
@@ -58,8 +59,6 @@ the aggregate «total dairy» hides them. The decision-relevant axes:
 - **Milk specifically** — the controversy leg (Michaelsson) lives here.
 
 
-
-<div class="recent-update" data-last-updated="2026-09-02">
 
 ## Guo 2017 — dose-response: dairy is NEUTRAL for CVD and mortality
 
@@ -121,7 +120,7 @@ independent corroboration. And it stays observational: self-reported FFQ intake,
 and a statistical substitution model, not a feeding trial -> [[Saturated Fat Intake and Replacement]]
 (*Butter vs plant oils at the food level*).
 
-</div>
+
 
 ## Mishali 2019 — high-vs-low: modest inverse for T2D and CVD, concentrated in women
 
@@ -258,6 +257,8 @@ channel, not a demonstrated one.
 
 
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## Confidence, decision-relevance, and gaps
 
 - **`confidence: medium`** — two gold observational MAs converging on *small effects* (neutral CVD/
@@ -278,6 +279,12 @@ channel, not a demonstrated one.
     dairy is **null** for osteoporosis and hip fracture in cohorts (protective only in reverse-causation-
     prone cross-sectional/case-control designs; milk trends to +9%/200 g harm in cohorts, Michaelsson-
     driven — the same artifact cohort as this page's milk-mortality scare). Dairy is not a fracture lever.
+  - ~~**Dairy -> cognition / dementia** — unheld.~~ **CASHED 2026-09-05 by Villoz 2024** — the
+    cognition/dementia endpoint now lives on the cluster facet [[Dairy and Cognitive Decline]]: dairy is
+    **null** for cognitive decline/dementia in the reasonably-healthy Western stratum (highest-vs-lowest RR
+    0.94, 0.82-1.07), the one dose-response "nadir" (\~150 g/d) is an Asia/Europe intake-range pooling
+    artifact, and milk-alone/cheese-alone are null. Same type-B decomposition + FFQ-confounding as this
+    page. Dairy is not a cognition lever.
   - **Dairy -> cancer, opposing directions** (probable-protective colorectal, probable-increased prostate)
     — direction held on [[Red and Processed Meat and Cancer]]/WCRF; magnitudes unheld here. Name both,
     never net.
@@ -286,7 +293,7 @@ channel, not a demonstrated one.
   - **`G (needs aggregation)`:** a pooled dairy-fat -> CVD-events effect that adjusts for the Michaelsson
     artifact across designs — a magnitude the fabric cannot compute from these two non-commensurable MAs.
 
-
+</div>
 
 ## Self-critique `[run 2026-08-06, before commit]`
 

@@ -1,21 +1,22 @@
 ---
 type: deliverable
 title: Dairy
-question: 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?'
+question: 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer, cognition/dementia) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?'
 aliases: [Dairy, Milk and Dairy, Cheese and Butter and Milk]
-authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas; Gijsbers, Lieke]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
+authors: [Guo, Jing; Zhang, Kui; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas; Gijsbers, Lieke; Villoz, Fanny]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Villoz - Dairy Cognitive Decline Dementia 2024]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-05
-self_critiqued: 2026-09-05
-concrete_subject_audited: 2026-09-05
+updated: 2026-09-06
+self_critiqued: 2026-09-06
+concrete_subject_audited: 2026-09-06
 ---
+<div class="recent-update" data-last-updated="2026-09-06">
 
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
 carry similar saturated fat, yet the outcomes they touch — heart disease, early death, diabetes,
-bone fracture, cancer — point in different directions. Judge dairy one food and one outcome at a
-time, and the effects turn out to be small.
+bone fracture, cancer, dementia — point in different directions. Judge dairy one food and one outcome
+at a time, and the effects turn out to be small.
 
 **For coronary heart disease, stroke and early death, dairy is a wash** — more of it, or less, barely
 moves the needle. Full-fat versus low-fat is not the fault-line guidance implies. The one exception
@@ -37,11 +38,15 @@ useful thing to know about dairy — the food, not the fat number, is doing the 
 **Cancer is the honest gap:** dairy leans protective for one cancer and adverse for another, the two
 must not be netted against each other, and we cannot yet put a number on either.
 
+**Dairy is not a brain-health lever.** The one dose-response signal linking dairy to dementia is a
+pooling artifact stitched across two continents; on the like-for-like contrast, milk and cheese are null.
+
 Bottom line for someone who has already handled the big rocks — not smoking, a healthy weight, active,
 sleeping enough — **dairy is a small lever, and the amount of noise around it is inversely proportional
 to how much it matters.** Keep the dairy you enjoy; do not adopt or avoid it for your heart or your
 bones on the current evidence.
 
+</div>
 
 ## Split *dairy* into its foods before you judge it — the label hides opposites
 
@@ -383,7 +388,48 @@ ingested only for the red-and-processed-meat colorectal analysis). So:
   dairy chapters is the follow-up that would close it.
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
+<div class="recent-update" data-last-updated="2026-09-06">
+
+## Dairy is not a brain-health lever either — a null wrapped around a confounded curve
+
+
+
+Cognition is the newest endpoint on this cut, and it lands where the others did: no lever for a
+reasonably-healthy Western adult. The first and only dose-response meta-analysis dedicated to dairy and
+the brain — 15 prospective cohorts, 312,580 people, median 11.4-year follow-up, no trials (Villoz 2024,
+gold-tier observational meta-analysis) — finds the highest-versus-lowest contrast null: RR 0.94
+(95% CI 0.82–1.07) for cognitive decline or incident dementia
+[@villoz2024dairy]. The prediction interval runs
+0.61–1.45, wide enough that the next cohort could as easily land on harm as on benefit.
+
+The lone apparent signal is a dose-response curve that dips to a nadir near 150 g/day, and it is a
+between-population artifact rather than a real optimum. The descending arm below 150 g/day is drawn
+almost entirely by low-intake Asian cohorts (29–165 g/day, where dairy reads protective at RR 0.83), the
+flat arm above it by high-intake European cohorts (170–711 g/day, null)
+[@villoz2024dairy]. The nadir sits on the seam between
+two populations sampled at non-overlapping doses, so the knee carries the whole Asia-versus-Europe
+confound — background diet, dairy-type mix, everything else that separates the cohorts — not a
+within-person curve -> [[The U-Shaped Association Artifact]], [[Dairy and Cognitive Decline]].
+
+The two guards that govern every other dairy endpoint hold here too:
+
+- **Split the food and the signal mostly dissolves.** On the matched highest-versus-lowest contrast,
+  milk and cheese are each null, and the inverse survives only in the all-dairy aggregate. Milk's own
+  frequency dose-response (3 studies) does trend inverse, but that arm is thin and unmatched to the
+  categorical contrast, so it does not rescue a milk-specific lever -> [[Is the Food Category Doing Any Work]].
+- **Adjust for the whole diet and the effect disappears.** The cohorts that controlled for overall
+  dietary pattern found no dairy association — dairy intake reads as a marker of a broader pattern, and
+  any real route runs through the cardiometabolic factors the dementia map already counts
+  -> [[Dementia Prevention and Modifiable Risk Factors]].
+
+Certainty is LOW: one gold design, but every estimate is observational and self-report-based (FFQs,
+dietary records and dietary histories), the headline is null, and the single dose signal is a confounded
+curve. For a low-intake (Asian-range) person the data
+lean to a small inverse — confounded and unadjudicated, not a reason to add dairy for the brain.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-06">
 
 ## The bottom line
 
@@ -404,6 +450,9 @@ For someone who has already handled the big rocks -> [[Layer 1 - Ranking Interve
   content; choose the specific dairy food you will actually eat and enjoy.
 - **Keep the cancer trade-off explicit and personal** — a probable colorectal benefit and a probable
   prostate risk, un-netted, weighed against your own risks.
+- **Do not eat dairy for your brain.** The dairy-and-dementia dose-response signal is a pooling
+  artifact, milk and cheese are null head-to-head, and the association disappears once the whole diet is
+  accounted for — nothing here to worry about or optimize.
 - **Swap sweetened or flavoured dairy to plain.** A flavoured yoghurt or a sweetened milk drink routes
   to the added-sugar question, not to anything dairy is doing; the sugar is the exposure. Swap to plain
   and the two questions separate cleanly.
@@ -437,11 +486,11 @@ category-level swaps, not a *dairy: yes or no*.
 >
 > | | |
 > |---|---|
-> | **Question** | 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?' |
-> | **Evidence included** | 9 sources — 8 gold, 1 weak |
+> | **Question** | 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer, cognition/dementia) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options (which dairy to keep, which to swap) can be weighed against the big rocks?' |
+> | **Evidence included** | 10 sources — 9 gold, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
 
 </div>
 

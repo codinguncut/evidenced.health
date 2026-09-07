@@ -9,7 +9,7 @@ nucleus: true
 confidence: medium
 created: 2026-08-08
 updated: 2026-09-03
-self_critiqued: 2026-09-01
+self_critiqued: 2026-09-05
 relationships:
   related_to:
     - Total Diet Replacement and Type 2 Diabetes Remission
@@ -96,8 +96,6 @@ threshold itself shifts by ethnicity: «the equivalent degree of risk for a Cauc
 30 kg/m2 is expressed in South Asians at 25.2 kg/m2 and at 27 kg/m2 in African/Caribbeans».
 [@taylor2015pft]
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The population signature — Kramer's MHO meta-analysis reads as the same claim at scale `type-A`
 
 If risk tracks depot/metabolic status rather than mass, then (a) obesity should not be safe merely because
@@ -157,8 +155,6 @@ not independent corroboration and not a numeric replacement of Kramer's headline
 E-independence, because Kramer never measures ectopic fat — metabolic-syndrome status is a coarse stand-in
 for the depot biology Taylor describes. The convergence raises confidence in the reframe, not in any shared
 number.
-
-</div>
 
 ## The hard-outcome instantiation — INTERHEART maps the depot distinction onto MI `type-F`
 

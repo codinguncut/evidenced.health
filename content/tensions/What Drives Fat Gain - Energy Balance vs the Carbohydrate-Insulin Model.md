@@ -19,7 +19,7 @@ relationships:
     - The Observational-Trial Discordance
 created: 2026-08-01
 updated: 2026-09-03
-self_critiqued: 2026-08-06
+self_critiqued: 2026-09-05
 ---
 
 **The decision this bears on:** for someone choosing what to eat to lose or avoid gaining fat, does the
@@ -124,8 +124,6 @@ the CIM-vs-EBM framing makes it sound**.
   adipose-first causal reversal, its residual live claim is *glycemic load acts on appetite* — which is an
   energy-intake pathway, i.e. inside the EBM.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## The insulin-secretor subgroup limb, directly tested — DIETFITS (route-b, null) `[2026-08-04]`
 
 The CIM's one surviving live *whole-organism* prediction — that people with **high insulin secretion**
@@ -176,8 +174,6 @@ refutation above — it adds a *separate* refutation of a *separate* claim. Thre
 stratum**, leaving the model's live remainder as the **appetite/adherence** channel (GL and protein
 acting on spontaneous *intake*) — which sits inside the energy-balance account, not against it.
 [inferred from @gardner2018; @ludwig2021cim]
-
-</div>
 
 ## The fructose-hepatotoxicity variant — the same isocaloric test defuses it (Chung 2014) `[2026-08-06]`
 

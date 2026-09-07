@@ -214,8 +214,6 @@ colorectal cancer, some trials for other cancer sites have shown potential for u
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
 
-<div class="recent-update" data-last-updated="2026-09-03">
-
 ## Correcting a documented deficiency is a different, real lever
 
 Where a person is genuinely short, repletion moves patient-important outcomes — and the benefit scales
@@ -262,8 +260,6 @@ iodine only inside the fetal-brain window (early pregnancy d 0.51 vs late 0.17)
 [@bougma2013]. Second, **establishing
 the deficiency is a prescriber act** needing this person's labs — out of scope here. The move is *test,
 then replete the confirmed shortfall*, not *supplement broadly and hope*.
-
-</div>
 
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 

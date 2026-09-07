@@ -2,17 +2,18 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O]
 sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024,
   Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025,
   Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
   Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
-  Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017]
+  Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017,
+  Villoz - Dairy Cognitive Decline Dementia 2024]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-04
-self_critiqued: 2026-09-04
+updated: 2026-09-05
+self_critiqued: 2026-09-05
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -32,6 +33,7 @@ relationships:
     - Sleep and Cognitive Decline
     - Should Sodium Reduction Be Population-Wide or Targeted
     - Heme Iron and Cardiometabolic Risk
+    - Dairy and Cognitive Decline
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -91,7 +93,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
-<div class="recent-update" data-last-updated="2026-09-04">
+<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Where it applies in the wiki
 
@@ -813,6 +815,31 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   confound»), and its follow-up runs as short as **2.3 y**, which *amplifies* reverse causation relative to
   a landmark-exclusion cohort -> [[Grip Strength and Mortality]]. Not independent-E (a new exposure sharing
   the one diagnostic; UK Biobank is inside its own pool) -> **type-F**.
+- **Dairy -> cognition — a *nadir* manufactured by pooling NON-OVERLAPPING population intake ranges
+  `[2026-09-05, Villoz]` `type-F`.** A new mechanism variant: not reverse causation and not sick-quitter,
+  but a nonlinear dose-response **stitched across cohorts whose exposure supports do not overlap**. Villoz
+  2024's dairy -> cognitive-decline/dementia dose-response MA reports «an initial decline in risk until 150
+  g/d (RR: 0.88; 95% CI: 0.78, 0.99), after which a slight change in direction»
+  [@villoz2024dairy] — read at face value, a knee near
+  150 g/d. But the descending arm is low-intake Asian cohorts (highest-vs-lowest RR 0.83, 0.75-0.92, I2 0%)
+  and the flat arm is high-intake European cohorts (RR 1.01, 0.86-1.19), and the two barely share a dose:
+  «mean value between 170-711 g/d [Europe] ... than studies in Asian countries where total mean dairy
+  intake ranged between 29-165 g/d» [@villoz2024dairy].
+  So the «nadir» is the **seam between two populations sampled at different doses**, each carrying its own
+  confounding structure (background diet, dairy-type mix), not a within-person optimum. The tell is that
+  the shape is **measure-specific** — nonlinear on grams but «almost linear» on frequency — a curve that
+  changes with the coding is a property of the pooling, not the biology.
+  - **This is the Seidelmann *two cohorts, two arms of one U* instance sharpened.** There the two arms were
+    two cohorts on one exposure; here they are also two *populations* with two *confounders*, and the
+    protective arm additionally **dissolves on dietary-pattern adjustment** («studies that took into account
+    other food groups or dietary patterns ... found no associations»
+    [@villoz2024dairy]) — the dairy-as-diet-quality-marker
+    confounder. **Adjudication is WEAK/none**: no referent-correction (no sick-quitter referent applies),
+    no MR, single-measurement FFQ with differential recall bias conceded. So the lower arm stays
+    **unadjudicated**, and for the default (Western) intake range the association is flatly null. Not
+    independent-E (a new exposure sharing the one diagnostic) -> **type-F** -> [[Dairy and Cognitive Decline]].
+    The lesson for the concept: **before believing a dose-response knee, check that a single population
+    spans the range** — a spline across non-overlapping cohort supports can manufacture a knee at the seam.
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.

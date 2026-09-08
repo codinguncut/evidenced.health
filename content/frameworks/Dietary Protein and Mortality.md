@@ -3,7 +3,7 @@ type: framework
 question: Does dietary protein intake change mortality, and does the protein SOURCE (animal vs plant) matter more than the amount?
 aliases: [Protein Source and Mortality, Plant vs Animal Protein Mortality, Protein Intake Mortality, Protein and Longevity, Protein Mortality]
 authors: [Naghshi, Sina; Sadeghi, Omid; Willett, Walter C; Esmaillzadeh, Ahmad; Seidelmann, Sara B; Budhathoki, Sanjeev; Sawada, Norie; Iwasaki, Motoki; Tsugane, Shoichiro]
-sources: [Naghshi - Dietary Protein Mortality 2020, Seidelmann - Carbohydrate Intake Mortality 2018, Budhathoki - Animal Plant Protein Mortality 2019]
+sources: [Naghshi - Dietary Protein Mortality 2020, Seidelmann - Carbohydrate Intake Mortality 2018, Budhathoki - Animal Plant Protein Mortality 2019, Ma - Dietary Macronutrient Intake Cardiovascular 2024]
 cluster: nutrition
 confidence: low
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Dietary Fibre and Health
     - The Estimate-to-Action Gap
 created: 2026-08-05
-updated: 2026-09-03
-self_critiqued: 2026-08-19
+updated: 2026-09-07
+self_critiqued: 2026-09-07
 ---
 
 The popular framing is about *how much* protein — high-protein for longevity, or high-protein as a
@@ -205,6 +205,55 @@ attributable to ... a difference in the main dietary source of animal protein, w
 processed meat in the US study vs fish intake in the present study.»
 [@budhathoki2019]
 [inferred from @budhathoki2019]
+
+<div class="recent-update" data-last-updated="2026-09-07">
+
+## The endpoint flips the animal-protein verdict — Ma 2024 adds CVD EVENTS (type-F, shared-primary echo, NOT independent-E)
+
+Everything above is **mortality**. Ma's dose-response MA carries a second endpoint the held pages lack —
+**CVD morbidity (incident events)** — and on it the animal-protein verdict *reverses*. Where animal
+protein is flatly null on every mortality endpoint, it is **protective on CVD events**: total protein
+0.90 (0.84-0.97), **animal protein 0.77 (0.63-0.92)**, plant protein 0.85 (0.77-0.95), stroke 0.84
+(0.75-0.95) — all highest-vs-lowest, random-effects, prospective cohorts.
+[@ma2024macro]
+
+**This is outcome-specificity, not a contradiction of Naghshi.** The two endpoints answer different
+questions: Naghshi's animal-null is a statement about *dying* (all-cause/CVD/cancer mortality); Ma's
+animal-0.77 is a statement about *first CVD event*. A nutrient can lower incident events yet leave
+case-fatality and competing risks unmoved, so the mortality null and the events benefit coexist. The
+held page should not read the animal-protein mortality null as "animal protein does nothing for the
+heart" — on the events endpoint it is the *largest* protein signal Ma reports, though on the thinnest base.
+
+**Independence: F / shared-primary echo, no `[E-independent]`, no confidence lift.** Ma **cites Naghshi
+as its reference 15** and re-pools the same prospective-cohort base, so its mortality arms are a broader
+re-pooling of Naghshi's own primaries (total all-cause washes to NS, 0.97 (0.93-1.02), on the wider
+pool; plant stays inverse, 0.92 (0.87-0.98)), and its last author Liu Liegang heads the Huazhong lab
+behind other held sources — a shared school. Agreement here is **not** two independent routes to one
+claim. The events endpoint is a genuine **refinement** (type-F: a new outcome the composite adds), not
+corroboration of the mortality estimate.
+
+**Parameter table** (op-weave 2a — the animal-protein cells are different estimands, not a tension):
+
+| Parameter | Naghshi 2020 | Ma 2024 | Same quantity? |
+|---|---|---|---|
+| Animal protein, all-cause **mortality** | «1.00 ... 0.94 to 1.05» null | 1.04 (0.97-1.12) null | **yes — both null on mortality (Ma re-pools Naghshi's base)** |
+| Plant protein, all-cause **mortality** | «0.92 ... 0.87 to 0.97» inverse | 0.92 (0.87-0.98) inverse | **yes — shared-primary echo, not independent** |
+| Animal protein, **CVD events** | not reported (mortality-only MA) | **0.77 (0.63-0.92)** protective | **NO — different endpoint (incidence, not death)** |
+| Total protein, **CVD events** | not reported | 0.90 (0.84-0.97) protective | **NO — new endpoint** |
+| Design / independence | 32-cohort FFQ MA; senior author Willett | 101-cohort FFQ dose-response MA; cites Naghshi ref 15; Liu-Liegang school | **shared primaries + cites the incumbent — NOT independent** |
+
+[@ma2024macro]
+
+**Caveats that bound the events signal.** All observational, FFQ-dominated (90 FFQ / 25 24h-recall
+across the pool), single-baseline; the **animal-protein events estimate rests on 5 cohorts (4,175
+cases)** — thin, and the CI (0.63-0.92) is correspondingly wide. Ma runs **no substitution
+decomposition** (so unlike Budhathoki it cannot say what the protein *replaces*), **no Mendelian
+randomization**, and does **not split animal protein by food source** — so the same fish-vs-red-meat
+dilution that makes the animal *mortality* bucket null (Budhathoki, above) is un-probed on the events
+endpoint. Read 0.77 as a directional, source-agnostic signal on a thin base, not a dosed effect.
+[inferred from @ma2024macro]
+
+</div>
 
 ## Decision relevance
 

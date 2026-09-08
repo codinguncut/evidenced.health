@@ -72,8 +72,6 @@ modifiable risk factors». [@livingston2024]
   this is a named gap pending the *published-version* PDF (the source slug itself is already held; an token here would false-fire `reconcile awaits-arrived`, which keys on the slug, not
   the missing table — re-key only if a distinct published-version row is ever registered).
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The 14 factors, their direction, and their life-course window
 
 The two 2024 additions to the 2020 list of 12 are **high LDL-C** and **uncorrected vision impairment**
@@ -99,8 +97,6 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 | Uncorrected vision **(new 2024)** | RR 1.47 (1.36-1.60) | late life |
 
 [@livingston2024]
-
-</div>
 
 ## The cognitive-stimulation number, de-secondhanded (F-refinement, 2026-08-14)
 
@@ -205,8 +201,6 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The physical-activity number, de-secondhanded (F-refinement, 2026-09-04)
 
 The *physical inactivity* cell above carries the Commission's *borrowed* activity figure — RR 0.80
@@ -292,10 +286,6 @@ cell cannot carry.
   Kivimäki paper from [[Cognitive Stimulation at Work and Dementia]]); acquiring it would join the issue
   ->.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 
 The *hypertension* cell above carries the Commission's **observational risk-factor** figure — untreated
@@ -375,8 +365,6 @@ design-upgrade de-secondhanding, not an identity-plus-enrichment.
   and the author lists overlap (Chalmers, Woodward, Anderson — George Institute), so the shared RCT
   substrate defeats independence on the BP-lowering *mechanism*. What is new is the OUTCOME (dementia), a
   new-endpoint extension of the same trials, not a second independent witness. [inferred from @peters2022bp; @bplttc2021]
-
-</div>
 
 ## What the framework changes about what to do
 
@@ -637,8 +625,6 @@ in Li 2022 [@smith2025upf] — observational,
 the shared primary, same confounding caveat. The lever stays `confidence: low`. Full broader-cognition
 detail: [[Ultra-Processed Food and Health Outcomes]].
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Fruit and vegetables — a second FOOD-GROUP dietary lever, observational candidate, NOT one of the 14 (2026-09-04)
 
 Where UPF is the *harm*-direction food-group lever, fruit-and-vegetable intake is the *protective*-direction
@@ -680,10 +666,6 @@ rocks; it reinforces them (more F&V is a *route* to the same vascular/metabolic 
 cohort-attenuation both point that way). No independence (E) is claimed with any other diet lever here. The
 page grade stays `medium` on the Commission's consensus backing; the F&V slice is the weaker `low` leg.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Flavonoids — the COMPONENT side of the food-group levers, observational candidate, NOT one of the 14 (2026-09-04)
 
 Where fruit-and-vegetable intake (Zhou, above) is a whole-food-group lever, dietary flavonoids are a
@@ -723,8 +705,6 @@ rocks; it reinforces the F&V lever rather than adding to it (it is a *part* of i
 claimed. The page grade stays `medium` on the Commission's consensus backing; the flavonoid slice is a
 weaker `low` sub-leg of the F&V lever.
 
-</div>
-
 <div class="recent-update" data-last-updated="2026-09-05">
 
 ## Dairy — a candidate FOOD-GROUP lever whose only signal is a pooling artifact, NOT one of the 14 (2026-09-05)
@@ -763,8 +743,6 @@ future independent test must avoid the Villoz/Filippini/Vinceti (Modena) author 
 -> an independent dairy-cognition SR/MA.
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Sleep disorders — a non-diet candidate lever, NOT one of the 14 (2026-09-04)
 
@@ -809,8 +787,6 @@ it does not reorder the cardiometabolic big rocks. The page grade stays `medium`
 consensus backing; the sleep slice is the weaker `low` leg. The prior JNNP landmark it updates (Xu 2020)
 is unheld ->.
 
-</div>
-
 ## The RCT leg — FINGER bounds the observational PAF (F-refinement, 2026-08-05)
 
 The whole map above is **observational** — modelled PAFs on relative risks "assumed causal." The one
@@ -836,8 +812,6 @@ significant effect is on a cognitive surrogate, and the effect is small, d=0.13)
 neither confirmed nor overturned by FINGER; the trial de-risks the direction while the decomposition and
 the incidence claim stay unproven -> the earlier secondhand "FINGER-family" reading below is the
 meta-analytic bound.
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The diabetes lever splits by DRUG CLASS — the pharmacotherapy channel opened (2026-09-04)
 
@@ -906,8 +880,6 @@ old secretagogues carry a *possible* cognitive penalty that tracks their hypogly
 prevention of T2D incidence (the shared rock this page already counts, and the structural lever that
 removes the driver -> [[Lifestyle vs Metformin for Diabetes Prevention]]) is untouched and still ranks
 above managing which pill.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-05">
 

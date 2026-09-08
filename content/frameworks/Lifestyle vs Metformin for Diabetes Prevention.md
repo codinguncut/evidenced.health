@@ -14,8 +14,9 @@ relationships:
     - Total Diet Replacement and Type 2 Diabetes Remission
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
+    - Statins and New-Onset Diabetes
 created: 2026-08-07
-updated: 2026-09-05
+updated: 2026-09-07
 self_critiqued: 2026-09-05
 ---
 
@@ -328,8 +329,6 @@ Harms were modest and differed by arm: gastrointestinal symptoms highest on metf
 events/100 person-yr on lifestyle), musculoskeletal symptoms highest on lifestyle (24.1). No deaths were
 attributed to any intervention. [@knowler2002]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Decision relevance
 
 [inferred from @knowler2002; @tuomilehto2001; @pan1997; @hamman2006]
@@ -352,8 +351,6 @@ attributed to any intervention. [@knowler2002]
   [@pittas2023vitamindipd]. On absolute yield it ranks well
   below both DPP arms — a cheap, low-harm add-on where 25(OH)D is low or BMI is not high, never a
   replacement for the lifestyle or metformin rock -> [[Vitamin and Mineral Supplements for Disease Prevention]].
-
-</div>
 
 ## Limits and provenance
 

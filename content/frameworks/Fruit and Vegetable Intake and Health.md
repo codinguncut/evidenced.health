@@ -216,8 +216,6 @@ page: there is still no whole-food F&V RCT on a hard outcome. It confirms *direc
 second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
 [inferred from @nnr2023]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series separates fruit from vegetables and shows their effects **diverge**. **Fruit** is
@@ -229,10 +227,6 @@ partly to BMI over-adjustment. Both plateau at \~200-400 g/d.
 [@bechthold2019]
 [@schwingshackl2017htn] Full cross-outcome
 grid -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Cognition / dementia outcome arm — a second observational lever, weaker than the CVD arm (2026-09-04)
 
@@ -274,7 +268,5 @@ new hard finding.
 directionally the same as its CVD effect and plausibly mediated by it — not an additive,
 independently-established brain benefit. It ranks below the established dementia big rocks and is
 carried as a low-confidence food-group lever on [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
 
 ## References

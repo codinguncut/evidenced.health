@@ -304,8 +304,6 @@ one of its largest trials, so the guideline and the trial are **not independent 
 `[E-independent]`) — the guideline is the RCT base synthesized, one level up
 .
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The newest guideline consolidates the trial base — Endocrine Society (Demay 2024) `[2026-09-02, Demay]`
 
 The Endocrine Society's 2024 GRADE guideline is the newest authoritative stance on this page's exact
@@ -430,8 +428,6 @@ even in the deficient). (2) The Society **no longer endorses the 30 ng/mL 25(OH)
 suggested in the previous guideline» [@demay2024vitamind] — and no longer defines deficiency/insufficiency cutoffs, consistent with
 this page's treatment of a 25(OH)D *target* as a surrogate whose transmission to hard outcomes is
 unproven -> [[Surrogate Outcomes]] [inferred from @demay2024vitamind].
-
-</div>
 
 ## The harm arm — *more is better* is false (the upper-bound)
 
@@ -864,8 +860,6 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 - **Coherence, not validity** (R1): the loop is open; the olive-oil/mineral-oil comparator threat is
   named as an unresolved bias in the underlying trials.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Self-critique `[run 2026-09-02, before commit — Demay 2024 Endocrine Society guideline woven]`
 
 - **Not laundered-E.** The Demay section is explicitly marked **not independent** — same VITAL/D2d
@@ -886,10 +880,6 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 - **No [PRIOR] verdict scored here** (ingest builds fabric, does not adjudicate): the EtD/weighting
   observation is appraised on [[Which Objective Moved This Recommendation]], not scored against the
   weighting [PRIOR] in this ingest.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Self-critique `[run 2026-09-04, before commit — Pittas 2023 vitamin-D IPD-MA woven; AWAITS cashed]`
 
@@ -913,7 +903,5 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   second backing; `confidence: high` unchanged.
 - **Coherence, not validity** (R1): the loop is open; the treat-to-target question and the
   general-population non-transportability are named as gaps, not resolved.
-
-</div>
 
 ## References

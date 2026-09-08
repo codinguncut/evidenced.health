@@ -76,8 +76,6 @@ estimates «relied on a substantially smaller sample of studies». [@yu2024heari
   A monotone-looking severity gradient that does not reach significance as a moderator — consistent with
   a real graded effect, not proof of one.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## No effect-modifier was found — the moderator-null `[first-hand: Yu 2024]`
 
 Across 37 HR-reporting studies, «None of the factors investigated moderated the relationship between
@@ -93,8 +91,6 @@ contamination confound). So the *established* reading of the ARIC subgroup stays
 (route-a, absolute-benefit — robust even if the interaction is a false positive), not a confirmed
 effect-modification.
 
-</div>
-
 ## Reverse-causation guard `[first-hand: Yu 2024]`
 
 Yu's causal read is guided by Bradford Hill criteria and defends temporality directly: it excluded
@@ -105,8 +101,6 @@ As a probe, Yu tested whether follow-up length moved the association and found n
 The Commission's complementary note stands: a shared cardiovascular pathology has «not been reported» to
 account for the association [@livingston2024]. Kept as a
 **medium**-confidence causal read, not high — an incompletely-excludable prodrome is exactly why.
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The treatment lever — hearing aids `[intervention arm; confidence LOW]`
 
@@ -169,9 +163,6 @@ weaker evidence state than the exposure association above.
   the continuous 3-year cognition slope — which Yeo never estimated. The discordance is therefore an
   average-effect erasure plus a quantity mismatch, not a head-on reversal.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Exposure is not intervention — the distinction that governs the decision
 
@@ -207,10 +198,6 @@ inflates the observational HR, randomization removes it, and a signal survives o
 risk is high enough to show one -> the ARIC subgroup. A confounded-observational + baseline-risk +
 non-commensurable-endpoint resolution.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Decision relevance
 
 
@@ -232,10 +219,6 @@ non-commensurable-endpoint resolution.
 - **Open loop / next evidence.** The decisive missing piece is a replication RCT powered in high-risk
   strata; ACHIEVE's own investigators say so. Until then, *treat hearing loss to prevent dementia* is a
   reasonable bet at high baseline risk, not an established general-population recommendation.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Self-critique `[run 2026-09-04, before commit — ACHIEVE de-secondhand]`
 
@@ -265,7 +248,5 @@ non-commensurable-endpoint resolution.
   own power/dilution caveat, not asserted as absence of effect.
 - **Multi-source dementia reference page** — `confidence: medium` (exposure spine). Orbits
   [[Dementia Prevention and Modifiable Risk Factors]]; not a competing nucleus.
-
-</div>
 
 ## References

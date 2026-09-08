@@ -20,8 +20,6 @@ relationships:
     - Upgrading Observational Evidence
     - Soy Isoflavones and Cognitive Function
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
-
 
 **Decision one-liner (Layer 1):** higher dietary flavonoid intake carries a **small inverse
 association** with adverse cognitive events on observational data — driven by *cognitive decline*, with
@@ -181,6 +179,8 @@ to fruit/veg/tea/*flavonoids* is the flavonoid, the food matrix, or the healthy-
 gap [[Flavonoid Intake and Mortality]] holds open on the mortality axis, now confirmed open on cognition.
 [inferred from @peng2025flavonoid; @zhou2022fruit]
 
+<div class="recent-update" data-last-updated="2026-09-05">
+
 ## The isoflavone discrepancy — RESOLVED as a distinction, not a tension
 
 Peng's **observational** isoflavone slice is null (OR 0.96, 0.81-1.13, I2 56.4%), while an isoflavone
@@ -194,6 +194,8 @@ different quantities (dosed supplemental ISFs on a continuous test score over �
 dietary isoflavone intake on cognitive events). This is recorded as a **type-F/B distinction** on
 [[Soy Isoflavones and Cognitive Function]], where the full parameter table and the Cui effect estimates
 (all-domains SMD 0.19, memory-carried; non-memory domains null; the tofu-harm rebuttal) live.
+
+</div>
 
 ## Where this sits
 

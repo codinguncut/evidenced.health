@@ -17,8 +17,6 @@ created: 2026-09-04
 updated: 2026-09-04
 self_critiqued: 2026-09-04
 ---
-<div class="recent-page" data-last-updated="2026-09-04"></div>
-
 
 **The joined disagreement.** INTERHEART (case-control, acute MI) found waist-to-hip ratio *three times*
 more strongly related to MI than BMI, and recommended switching the principal clinical adiposity

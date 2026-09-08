@@ -21,8 +21,6 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Baseline Risk and the Relative-Absolute Split
 ---
-<div class="recent-page" data-last-updated="2026-09-04"></div>
-
 
 The decision: does a sleep problem raise dementia / cognitive-decline risk enough to be a lever worth
 pulling, and which sleep problems on which outcomes? The evidence is a single gold SR+MA of **76

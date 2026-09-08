@@ -30,8 +30,6 @@ diseased.** This is a stratum, not a person and not everyone: about 40% of the p
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The finding, stated first
 
 For this stratum, two levers dominate: **movement** (any-intensity volume plus
@@ -79,8 +77,6 @@ flavonoid estimate is a re-expression of the same fruit-and-vegetable signal in 
 second independent one. Both plausibly run through the vascular and metabolic channels the big rocks
 already pull, so a better diet is a *route* to those rocks, not a fifteenth separate thing to do.
 
-</div>
-
 ## How the levers are sorted
 
 Every lever below falls into one of three buckets, by what the
@@ -100,8 +96,6 @@ sit above their own storage threshold, not in kilograms. One honest limit remain
 rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is reasoning from mechanism
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## (a) Robust big rocks — lead here
 
@@ -315,10 +309,6 @@ effects in this domain are settled and few; the long tail of refinements shares 
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## (b) Stratum-dependent — conditional on metabolic status
 
 ### Reduce sodium — most useful if your blood pressure is already drifting up
@@ -377,8 +367,6 @@ The evidence is observational, low-certainty, and heavily confounded by which pa
 first-line metformin marks earlier, healthier disease; secretagogues mark later, more severe disease — so
 part of the gap is disease stage, not the pill acting on the brain. This is a drug-versus-drug refinement
 for a prescriber, not a lever that resizes the weight rock, and not one most of this stratum needs.
-
-</div>
 
 ## (c) Over-published, small, or contested — do not lead
 
@@ -455,8 +443,6 @@ wisdom.
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Caveats
 
 - **Open loop.** This appraisal grades coherence and fidelity to its sources; it never grades validity. No
@@ -477,7 +463,5 @@ wisdom.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
-
-</div>
 
 ## References

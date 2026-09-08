@@ -2,12 +2,12 @@
 type: deliverable
 title: Blood Lipids and ApoB
 question: What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted?
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Roussell - Beef Optimal Lean Diet BOLD 2012, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Roussell - Beef Optimal Lean Diet BOLD 2012, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-03
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-09-07
+self_critiqued: 2026-09-07
+concrete_subject_audited: 2026-09-07
 aliases: [ApoB and Heart Disease, LDL and Cardiovascular Risk, Which Lipid to Measure, Blood Lipids, Cholesterol and Heart Disease]
 ---
 
@@ -102,6 +102,8 @@ The proviso «provided the LDL-C drop is concordant with the particle-number dro
 
  **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat]. And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## For a primary-prevention adult, absolute risk decides — and zero calcium can defer
 
 ### The statin decision is a baseline-risk decision
@@ -130,6 +132,22 @@ Two honest limits. **The NNT is modeled, not measured** — no trial has randomi
 
 The two major guideline families now **converge** on the aggressive targets — very-high-risk LDL-C **<1.4 mmol/L (55 mg/dL)** plus a >=50% reduction, high-risk **<1.8 mmol/L (70 mg/dL)** [@accaha2026] — the same very-high-risk framework the 2025 ESC/EAS focused update carries forward from the 2019 ESC/EAS guidelines [@esceas2025]. But both rest on the *same* trial base, so this is shared warrant, not two independent witnesses. And under a no-threshold curve, **the specific cut (why <55 and not <50 or <70) has no head-to-head trial** — the number is a pragmatic stopping point extrapolated from the monotone curve, where lowering further keeps paying until the added agent, cost, or adherence burden is no longer worth it. The *direction* is certain; the exact number is a reasoned choice.
 
+### The two feared harms are real but small — and differ in kind
+
+Two side effects drive most statin refusals — muscle symptoms and new-onset diabetes — and on the honest reading, neither should stop someone with a genuine indication. But they differ in **kind**, and the reason to keep taking the drug differs with them: one harm is mostly not real, the other is real but outweighed. (These apply to anyone on a statin, primary or secondary prevention, not only the primary-prevention adult above.)
+
+**Muscle symptoms are mostly a perceived effect, not the drug.** The CTT Collaboration's pooled analysis of \~155,000 people in double-blind statin-versus-placebo trials found the true excess is tiny — 27.1% on a statin versus 26.6% on placebo reported muscle pain or weakness (RR 1.03), a gap concentrated in the first year and gone after it [@reith2022muscle].
+
+SAMSON, a blinded n-of-1 rechallenge in patients who had already quit statins for side effects, shows why: «90% of the symptom burden elicited by a statin challenge was also elicited by placebo» [@wood2020samson], and daily symptom intensity was statistically the same on each (16.3 on a statin versus 15.4 on placebo, P=0.39) [@wood2020samson]. The aches are real; the drug is mostly not causing them. So an indicated statin should continue while other causes are checked, and a blinded rechallenge — not a reflexive stop — separates the rare true myopathy from the common nocebo response.
+
+**New-onset diabetes is the opposite: a real, small pharmacological effect.** Here the drug genuinely nudges glucose upward, in a dose-dependent way — RR 1.10 (1.04-1.16) on low- or moderate-intensity statins, rising to RR 1.36 (1.25-1.48) on high-intensity [@reith2024diabetes].
+
+But the effect is small in absolute terms and sits near the diagnostic line: it flows from a tiny HbA1c shift (+0.06% to +0.08%), and about 62% of the new-onset diabetes cases arise in people already in the top quarter of the baseline glucose distribution [@reith2024diabetes]. The statin mostly advances a diagnosis that a person's own glucose had already made likely. The vascular benefit already accounts for it — the diabetes risk is «greatly outweighed by the benefits of statins on major vascular events» [@reith2024diabetes] — so it is not a separate cost to subtract, and no routine post-initiation glucose or HbA1c monitoring is warranted on this basis.
+
+Both harms land on the same instruction — keep the indicated statin — but for opposite reasons: the muscle effect because it is mostly not real, the diabetes effect because it is real but small and already netted out of the benefit. One caution on reading the two together: these harm figures and the benefit magnitude above all come from the same CTT/CTSU-Oxford collaboration, so they are one research programme's internally consistent ledger, not an independent second witness to the benefit.
+
+</div>
+
 ## Eggs and dietary cholesterol are a near-non-lever for most people
 
 The largest dose-response meta-analysis (39 cohorts, \~2 million people) lands on **«no conclusive evidence on the role of egg in CVD risk»** [@godos2020]. Every general-population estimate sits within a few percent of 1.00 (CVD 0.95 at 4 eggs/week, CI kissing the null), at GRADE **low** certainty. The egg question is a big-worry, small-effect one that ranks *low* — the attention it attracts is an anti-signal, not a magnitude.
@@ -145,6 +163,8 @@ Two strata break from the near-null, both worth naming:
 
 Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **Inflammation is a separate, additive causal lever**: in the CANTOS trial, canakinumab cut cardiovascular events **«independent of lipid-level lowering»** in statin-treated patients whose LDL was already controlled [@ridker2017cantos]. A person at goal on apoB can still carry residual inflammatory risk that lipid-lowering does not touch -> [[Inflammation as a Modifiable Lever]]. Blood pressure is the parallel large cardiovascular lever, handled on its own axis -> [[Blood Pressure]].
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## What to measure, when to act, and what is still open
 
 **Measure.** For most people the ordinary LDL-C (or non-HDL-C) suffices. **Add apoB** where LDL-C is likely to undercount the particles — high triglycerides (>=150 mg/dL), diabetes, metabolic syndrome, or a low achieved LDL-C on treatment.
@@ -153,16 +173,20 @@ Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **I
 
 **Mind the route.** A drop achieved by diet is not automatically worth an equal drop achieved by a drug; validate that a given intervention moves particles and hard outcomes, not just cholesterol.
 
-**Still open.** No trial has randomized patients to *target* apoB versus LDL-C on hard outcomes; no trial has randomized statins by calcium score; and the wiki does not yet hold the primary-prevention specifics for ezetimibe, PCSK9 inhibitors, or Lp(a) as a distinct modifiable particle. The loop is open throughout — these are appraisals of what the evidence supports, not verdicts graded against realized outcomes.
+**Don't let the two feared harms stop an indicated statin.** Muscle aches are mostly nocebo — a blinded rechallenge sorts the rare true myopathy from the far more common false alarm; the small, real diabetes effect is already outweighed by the vascular benefit and needs no special monitoring.
+
+**Still open.** No trial has randomized patients to *target* apoB versus LDL-C on hard outcomes; no trial has randomized statins by calcium score; and the wiki does not yet hold the primary-prevention specifics for ezetimibe, PCSK9 inhibitors, or Lp(a) as a distinct modifiable particle. Nor has any trial randomized a statin *deprescribing* rule or a diabetes-*management* strategy against patient-important outcomes, so the *don't stop for muscle aches, don't monitor for the glucose rise* rules are from causal attribution and net benefit, not tested as interventions. The loop is open throughout — these are appraisals of what the evidence supports, not verdicts graded against realized outcomes.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted? |
-> | **Evidence included** | 18 sources — 8 gold, 10 high |
+> | **Evidence included** | 21 sources — 10 gold, 11 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+> | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+
+</div>
 
 ## References

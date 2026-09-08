@@ -168,8 +168,6 @@ healthy-worker effect below), so this is a domain-specific *association*, not a 
 -> [[Upgrading Observational Evidence]].
 [inferred from @celismorales2017commuting]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The domain-flip replicates on a NEW outcome — dementia (weak, directional) `[2026-09-04, Iso-Markku]`
 
 Every estimate above is on **mortality**. Iso-Markku 2022 — a gold SR+MA of PA and dementia incidence
@@ -198,8 +196,6 @@ argue the *leisure*-PA protection may itself be partly a cognitive-reserve/SES a
 lands on the dementia page, not a mechanism for occupational harm. The convergence is on the **sign of the
 domain-flip**, not its cause.
 [inferred from @isomarkku2022; @coenen2018paradox]
-
-</div>
 
 ## The artifact watch — healthy-worker selection inflates the apparent harm
 
@@ -286,8 +282,6 @@ CHD / dementia / breast cancer), different pathways, and different signs — inc
 a null; the levers do not collapse into one.
 [inferred from @coenen2018paradox; @kivimaki2012jobstrain; @kivimaki2021cognitive; @travis2016nightshift]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Self-critique `[run 2026-08-14, before commit]`
 
 - **Not laundered from one source restated.** The value here is the *disambiguation* (one word, two
@@ -341,7 +335,5 @@ a null; the levers do not collapse into one.
   on the **sign of the domain-flip only**, not on cause — avoiding a laundered "the paradox is mechanistically
   confirmed on dementia too" overclaim. The RRs stay attributed to their own sources; the framing is tagged
 .
-
-</div>
 
 ## References

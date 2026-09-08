@@ -2,12 +2,12 @@
 type: concept
 question: When a large, consistent observational signal meets a null or weak randomized trial, which is right — and why do they disagree?
 aliases: [Observational vs Trial Discordance, Big Observational Weak RCT, Observational-RCT Conflict, Credibility vs GRADE, Convincing but Very Low]
-authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A]
-sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
+authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A; Reith, Christina; Cholesterol Treatment Trialists' Collaboration (org)]
+sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Reith - Statin Muscle Symptoms 2022]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-04
+updated: 2026-09-07
 self_critiqued: 2026-09-04
 relationships:
   related_to:
@@ -26,6 +26,7 @@ relationships:
     - Fatty Liver MASLD and Weight Loss
     - Low-Fat Dietary Pattern and Cardiovascular Disease
     - Hearing Loss and Dementia
+    - Statin Muscle Symptoms and the Nocebo Effect
 ---
 
  — a synthesis induced across the fabric's own holdings (UPF, coffee, Mediterranean diet,
@@ -38,8 +39,6 @@ The reflex is to let the RCT settle it (the design hierarchy). That reflex is wr
 the reason is the single most useful thing this pattern teaches: **the two evidence streams usually are
 not estimating the same exposure.** The discordance is a *diagnostic signal to check
 exposure-commensurability*, not a verdict for the trial.
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The pattern is real — three worked instances
 
@@ -86,8 +85,6 @@ on health.» This corroborates the *structure* (surrogate-validity + triangulati
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
 
-</div>
-
 ## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
 
  — the contrast case that keeps the pattern honest in the *other* direction. Coffee and
@@ -108,6 +105,8 @@ either direction, so the honest state is *untested for causation*, neither estab
 shown-benign -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. The symmetric error to
 "the RCT was null, so ignore the observational" is "the food is not proven causal, so treat it as
 safe" — both skip the missing test.
+
+<div class="recent-update" data-last-updated="2026-09-07">
 
 ## Why the streams disagree — five mechanisms, not one
 
@@ -159,6 +158,20 @@ safe" — both skip the missing test.
     an inert pill) -> [[Statins for Primary Prevention and the Power of Zero CAC]]. Two inert-pill
     designs isolating two different *non-pharmacological* effects of taking a pill — one on the
     endpoint, one on the complaint. `[type-A — the inert pill as a general isolation instrument]`
+    - **The parallel-group RCT confirms the same discordance in the muscle-symptom domain (Reith/CTT)
+      `[2026-09-07]`.** SAMSON isolates the nocebo *within-person* (n-of-1); Reith/CTT's IPD
+      meta-analysis of parallel double-blind statin RCTs is the *between-group* randomised estimate
+      against which the observational muscle claim breaks. Reith notes that «on the basis of
+      non-randomised observational studies of routine health-care records, it has been suggested that
+      statin therapy is associated with large excess risks of musculoskeletal disorders» — «although
+      such studies are susceptible to statistical bias and confounding» — whereas the pooled
+      randomised excess is only RR 1·03 (year-1 excess 11 per 1000 person-years, flat thereafter).
+      [@reith2022muscle] So the muscle-symptom domain now holds
+      *two* randomised-design instances of the discordance — n-of-1 (SAMSON) and parallel-group (Reith)
+      — a large observational excess that the randomised designs shrink to near-zero.
+      -> [[Statin Muscle Symptoms and the Nocebo Effect]]. (Not an independent type-E: Reith is the same
+      CTT body whose nocebo literature it cites, so it is a worked *instance* of the concept, not a
+      separate arrival at it.)
     - **Third independent instance — antidepressant discontinuation `[E-independent]` `[2026-08-30]`.**
       The placebo-**discontinuation** arm isolates the nocebo component of a *withdrawal* side-effect:
       \~1 in 6 report discontinuation-like symptoms after stopping an inert placebo, so roughly half of
@@ -174,6 +187,8 @@ safe" — both skip the missing test.
   same evidence *very low* for causation because it starts observational evidence low. *Class-I
   convincing = GRADE very low* is not a contradiction — it is two instruments measuring two things
   (how consistent vs how causally certain) -> [[Upgrading Observational Evidence]].
+
+</div>
 
 ## The resolution — triangulate on the exposure, do not crown the RCT
 

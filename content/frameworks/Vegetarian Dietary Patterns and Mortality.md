@@ -3,11 +3,11 @@ type: framework
 question: Are vegetarian dietary patterns (vegan / lacto-ovo / pesco / semi) associated with lower all-cause and cause-specific mortality, for whom, by how much, and is the association a causal signal or a healthy-adherent confound?
 aliases: [Vegetarian Diet, Vegan Diet, Plant-Based Diet Mortality, AHS-2, Adventist Health Study, Vegetarian Patterns, Pesco-vegetarian, Lacto-ovo vegetarian]
 authors: [Orlich, Michael J; Singh, Pramil N; Sabaté, Joan; Jaceldo-Siegl, Karen; Fan, Jing; Knutsen, Synnove; Beeson, W Lawrence; Fraser, Gary E; Landry, Matthew J; Senkus, Katelyn E; Mangels, A Reed; Guest, Nanci S; Pawlak, Roman; Raj, Sudha; Handu, Deepa; Rozga, Mary]
-sources: [Orlich - Vegetarian Patterns Mortality AHS-2 2013, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
+sources: [Orlich - Vegetarian Patterns Mortality AHS-2 2013, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Boushey - Dietary Patterns All-Cause Mortality 2020]
 cluster: dietary-patterns
 confidence: low
 created: 2026-08-13
-updated: 2026-09-02
+updated: 2026-09-07
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -230,6 +230,8 @@ where an advocacy prior could bite, flagged for the reader:
   healthy-adherer confound (below) is exactly that these vegetarians also smoke/drink less and exercise
   more. Reasonable people can grade it either way; the choice ran toward the more favorable certainty.
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## Decision relevance
 
 - **The umbrella confirms the DIRECTION at moderate certainty for incidence, low for mortality** — a
@@ -252,10 +254,21 @@ where an advocacy prior could bite, flagged for the reader:
 - **Sex-specificity is a genuine finding to carry, not smooth over** — the CV benefit is
   male-concentrated in this cohort (interaction P = .01 for CVD), a route-(b) caveat on any pooled
   estimate.
+- **Gold-SR corroboration on the all-cause endpoint — type-F, NOT independent (type-E).** The 2020 US
+  DGAC NESR review found «'plant-based'» among the labels «generally protective against all-cause
+  mortality risk» and graded broad protective patterns -> ACM **Strong**
+  [@boushey2020]. This lands the
+  vegetarian/plant-based leg's all-cause direction at gold-SR tier (this page's AHS-2 all-cause HR is a
+  single cohort). But it does **not** raise independence-based confidence: the NESR SR re-pools the same
+  Adventist primaries and shares an author (Sabate/Sabaté, Joan) with Orlich's AHS-2 leg — shared author
+  and shared cohort base both defeat type-E, so it corroborates by re-derivation, not by a separate route
+  -> [[Dietary Patterns and All-Cause Mortality]].
 - **Open loop:** nothing here grades a vegetarian pattern against a realized outcome in a randomized
   design; the causal step rests on consistency across many cohorts (the umbrella) + a metabolic
   mechanism + a toward-null follow-up argument, against an unquantified residual confound — a body of
   confounded observational cohorts, not adjudication. The umbrella's authors say the same — additional
   high-quality RCTs «for CVD prevention among generally healthy adults are needed».
+
+</div>
 
 ## References

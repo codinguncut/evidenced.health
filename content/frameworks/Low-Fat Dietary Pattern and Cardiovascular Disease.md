@@ -105,8 +105,6 @@ were tested; thus, at least 1 would be ex- pected to be significant by chance al
 chunk 01. This is a route-(b) effect-modification *candidate* at best (the false-positive generator),
 never elevated to a finding.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Hooper 2012 — the pooled-RCT generalization of the WHI null `[2026-09-04]`
 
 The single-trial null above is no longer the only randomized evidence on this exposure. Hooper's
@@ -166,10 +164,6 @@ independent magic. -> [[Saturated Fat Intake and Replacement]], [[LDL ApoB and C
 this is due to the greater intrinsic eﬀect of modiﬁed fat diets ... or that modiﬁed fat diets are easier
 to comply with». `[type-G]` [@hooper2012reducedfat]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Decision relevance
 
 
@@ -189,10 +183,6 @@ to comply with». `[type-G]` [@hooper2012reducedfat]
 - **Open loop.** This appraises the tested contrast; it does not close the loop against a realized
   outcome for any individual.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Self-critique `[run 2026-08-25, before commit]`
 
 - **No null-halo.** The page states the result as a genuine *no meaningful effect on the tested
@@ -206,10 +196,6 @@ to comply with». `[type-G]` [@hooper2012reducedfat]
   the no-weight-loss-goal + grain-increase design, not asserted bare.
 - **Quotes verified.** Every «...» span is a `bin/cite.py` locate against chunk 01; the achieved-intake
   table numbers are srcgrep-verified Table 3 values. Single source, so no independence/type-E claim.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Self-critique `[run 2026-09-04, Hooper 2012 reweave, before commit]`
 
@@ -226,7 +212,5 @@ to comply with». `[type-G]` [@hooper2012reducedfat]
   direct comparison is filed as a G-gap, not read as a demonstrated superiority.
 - **Confidence kept medium.** The added backing is same-lineage (contains WHI), so it strengthens warrant
   on the reduction-null without earning an independence upgrade; medium is retained, not raised.
-
-</div>
 
 ## References

@@ -12,8 +12,6 @@ authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Nga
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Peters - Blood Pressure Lowering Dementia 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Iso-Markku - Physical Activity Dementia 2022, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Henney - Ultra-Processed Food Dementia 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
   Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, ESC - CVD Prevention Guidelines 2021, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Lopez-Bueno - Handgrip Strength Thresholds, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Villoz - Dairy Cognitive Decline Dementia 2024]
 ---
-<div class="recent-page" data-last-updated="2026-09-06"></div>
-
 
 ## The verdict
 
@@ -101,6 +99,8 @@ ranking by breadth is a statement about where to act, not about what explains th
 One exposure in the table already breaks the
 pattern outright -- smoking's apparent protection against Parkinson's, flagged above -- and later
 sections return to why Parkinson's and a few other diseases resist the shared-lever logic more broadly.
+
+<div class="recent-update" data-last-updated="2026-09-06">
 
 ## Dementia: does anything actually prevent it?
 
@@ -333,6 +333,8 @@ single lever already pulled for cardiovascular disease, does prevent it, in a ra
 endpoint, at a small but real absolute magnitude. Neither finding overturns the other, because they are not
 answers to the same question: one is about a non-decomposable package, the other about one well-understood
 exposure.
+
+</div>
 
 ## Cancer, heart disease, diabetes — the increments beyond the rocks
 
@@ -763,6 +765,8 @@ limit on what a review of separate studies can produce, not a gap a bigger meta-
 closes — closing it would need a single study designed to track the combined outcome directly, and none
 exists.
 
+<div class="recent-update" data-last-updated="2026-09-06">
+
 ## What to do
 
 Most people chasing better odds against dementia, cancer and heart disease do not need a different diet
@@ -808,5 +812,7 @@ order, and adjusted as a person ages.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+
+</div>
 
 ## References

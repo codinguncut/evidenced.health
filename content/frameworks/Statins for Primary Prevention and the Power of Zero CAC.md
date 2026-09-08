@@ -2,8 +2,8 @@
 type: framework
 question: For a primary-prevention adult, does a statin help — and does a zero coronary calcium score change that decision?
 aliases: [Statin Primary Prevention, Power of Zero, CAC Zero Statin, Statin CAC, USPSTF Statin, Statin Number Needed to Treat, Statin Deferral]
-authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org); Blumenthal, Roger S; Wood, Frances A; Howard, James P; Francis, Darrel P]
-sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026, Wood - SAMSON Statin Nocebo 2020]
+authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org); Reith, Christina; Blumenthal, Roger S; Wood, Frances A; Howard, James P; Francis, Darrel P]
+sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026, Wood - SAMSON Statin Nocebo 2020, Reith - Statin Muscle Symptoms 2022]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -14,8 +14,9 @@ relationships:
     - Semaglutide for Cardiovascular Risk in Obesity
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - LDL Lowering and Cardiovascular Events
+    - Statin Muscle Symptoms and the Nocebo Effect
 created: 2026-07-28
-updated: 2026-08-23
+updated: 2026-09-07
 self_critiqued: 2026-08-23
 ---
 
@@ -179,6 +180,8 @@ evidence disagreement. The direction of the change is still notable: ACC-AHA 202
 pharmacotherapy at lower estimated risk than USPSTF, and to name a numeric goal once it does.
 [inferred from @accaha2026; @uspstf2022]
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## The common statin fears — muscle and memory `[2026-08-22]`
 
 The two most-cited reasons people avoid or stop a statin — muscle damage and memory loss — are BOTH
@@ -229,9 +232,21 @@ population (USPSTF), and where an intolerant person nonetheless reports muscle s
 burden is reproduced by an inert pill (SAMSON). One small n-of-1 trial in a selected stratum: the
 transferable finding is the *mechanism*, not a population effect size.
 
-[inferred from @uspstf2022; @wood2020samson]
+**The randomised magnitude sizes the fear — and it is front-loaded `[2026-09-07]`.** The CTT
+Collaboration's IPD meta-analysis of \~155,000 people in double-blind statin RCTs puts a number on the
+real causal excess: any muscle pain or weakness ran «rate ratio [RR] 1·03; 95% CI 1·01–1·06», with
+the excess «during year 1 ... an absolute excess rate of 11 (6–16) events per 1000 person-years,
+which indicates that only one in 15 ([1·07–1·00]/1·07) of these muscle-related reports ... were
+actually due to the statin. After year 1, there was no significant excess». [@reith2022muscle]
+So the muscle-symptom fear that drives primary-prevention non-adherence is small in size, mostly
+nocebo, and confined to year 1 — reinforcing the USPSTF null with a randomised magnitude rather than
+just a no-association. The full tolerability/deprescribing decision (who should stop, the
+year-1-vs-later split, the dose-de-escalation lever) lives on
+[[Statin Muscle Symptoms and the Nocebo Effect]].
 
+[inferred from @uspstf2022; @wood2020samson; @reith2022muscle]
 
+</div>
 
 ## Decision relevance
 

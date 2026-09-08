@@ -110,8 +110,6 @@ short-to-medium trials is not a long-latency all-clear).
 
 
 [@yang2026]
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The surprising protective signals — suggestive, not confirmed
 
 Several *off-target benefits* appear, all below the stringent bar and all needing confirmation, but
@@ -147,9 +145,6 @@ the full drug-class split.
 
 
 [@yang2026]
-
-</div>
-
 ## The unsettled middle: gallbladder, pancreatitis, GERD, thyroid disease
 
 These are the outcomes with real regulatory attention that **failed the stringent credibility bar** — but

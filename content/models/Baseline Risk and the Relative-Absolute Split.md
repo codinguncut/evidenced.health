@@ -541,8 +541,6 @@ failing that assumption. (RF-negative rests on only 2 studies, so the contrast i
 it did not carry; it does not independently reach the decomposition. No `[E-independent]`.
 Full estimate + mechanism live on [[Autoimmune Disease and Modifiable Risk]].
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## A route-(b) positive backed by a mechanism AND an internal negative control — vitamin D by BMI `[2026-09-04, Pittas]`
 
 DPP and Di Giuseppe establish route (b) with a heterogeneity test alone. Pittas' vitamin-D IPD-MA in
@@ -583,8 +581,6 @@ symmetric reporting, with the adjudication left to the prior's own operation.
 does not independently reach the decomposition. No `[E-independent]`. Full estimate, safety, and the
 Layer-1 sizing -> [[Vitamin and Mineral Supplements for Disease Prevention]].
 
-</div>
-
 ## A class-wide effect-modification search that came up empty — obesity drugs `[2026-08-22, Nong]`
 
 Beside Coley's well-powered dementia null sits a second route-(b)-absence data point, on a different
@@ -606,8 +602,6 @@ subgroups, including age, sex, and comorbidity burden»
 modification found*, not *modification excluded*. Full comparative appraisal -> [[Comparing Obesity Drugs]].
 [inferred from @nong2026obesity]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## A prognostic-model version of the same absence — PREVENT's CKM add-ons `[2026-08-27, Khan]`
 
 Coley and Nong are *trial-subgroup* absences (a searched-for effect-modifier not found). Khan's AHA
@@ -623,10 +617,6 @@ standing `[PRIOR — over-personalization is the likelier failure]`, lodged not 
 differential (race removal, the PCE \~50% overprediction, the 10-/30-year split)
 -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
 [inferred from @khan2024]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## A second prognostic-add-on absence — adiposity measures over a risk model `[2026-09-04, ERFC]`
 
@@ -646,7 +636,5 @@ factors»), and adiposity is the *noisier* input (WHR regression-dilution ratio 
 redundant *and* less reliable. The measure-choice tension this sits on is
 [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 [inferred from @erfc2011whr]
-
-</div>
 
 ## References

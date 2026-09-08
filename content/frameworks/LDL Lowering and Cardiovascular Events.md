@@ -2,8 +2,8 @@
 type: framework
 question: How much does lowering LDL/apoB reduce hard cardiovascular events, per unit of lowering — and which lipid number should the target be?
 aliases: [LDL Lowering Magnitude, Statin Per mmol Effect, CTT Meta-Analysis, LDL Reduction Events, ApoB vs LDL-C, Which Lipid to Target, LDL-C Event Reduction]
-authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna; Landry, Matthew J]
-sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024]
+authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna; Landry, Matthew J; Reith, Christina]
+sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -19,8 +19,10 @@ relationships:
     - Which Objective Moved This Recommendation
     - ApoB Particle Number vs Cholesterol Content
     - Vegetarian Dietary Patterns and Mortality
+    - Statin Muscle Symptoms and the Nocebo Effect
+    - Statins and New-Onset Diabetes
 created: 2026-08-05
-updated: 2026-08-29
+updated: 2026-09-07
 self_critiqued: 2026-08-29
 ---
 
@@ -162,6 +164,8 @@ programme across all three. The value here is A/F (magnitude × metric assembled
 Marston refines what CTT's LDL-C scaling *is*; Richardson adds the genetic-MR leg), **not** independent
 triangulation — so none of the three is tagged `[E-independent]`.
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## Decision relevance
 
 
@@ -174,8 +178,29 @@ triangulation — so none of the three is tagged `[E-independent]`.
 - **Lower and longer both pay** (no threshold, multiplicative) — but "worth it" is a net-effect call: the
   rhabdomyolysis excess (4 vs 1 per 10,000) was confined to 80 mg simvastatin, and the whole-strategy
   trade-off, not the LDL number, is the unit of decision.
+- **The muscle-harm side of that ledger is small and front-loaded `[2026-09-07, Reith/CTT]`.** The CTT
+  Collaboration's IPD meta-analysis (\~155,000 in double-blind statin RCTs) sizes the harm the net-effect
+  call needs: per 1000 people, an LDL-C reduction of 1 mmol/L for 5 years «might cause 11 (generally mild)
+  episodes of muscle pain or weakness, but prevent 50 major vascular events in those with pre-existing
+  vascular disease ... and 25 major vascular events in those without». [@reith2022muscle]
+  Serious myopathy is rarer still — «RR 1·74; 95% CI 1·11–2·74 ... an absolute excess of 0·08 (0·01–0·18)
+  per 1000 person-years», \~50x rarer than ordinary aches and mostly year-1. [@reith2022muscle]
+  So the harm column of the LDL-lowering ledger is small versus the benefit column, and the tolerability
+  and deprescribing decision it drives lives on [[Statin Muscle Symptoms and the Nocebo Effect]].
+- **New-onset diabetes is the OTHER harm-column entry, and unlike muscle symptoms it is a real
+  pharmacological effect `[2026-09-07, Reith/CTT]`.** The same CTT Collaboration's IPD meta-analysis of
+  glycaemia finds statins raise new diabetes diagnoses by a small, intensity-graded amount (low/moderate
+  RR 1.10, high RR 1.36), concentrated in people already near the diagnostic threshold — a genuine drug
+  effect, not a nocebo artifact, but still small in absolute terms. Reith's own net-effect call is that
+  «the absolute benefits of statin therapy greatly outweigh any excess risks of diabetes associated with
+  the small increase in glycaemia they induce». [@reith2024diabetes]
+  The magnitude, mechanism, and the stratum where the harm concentrates live on
+  [[Statins and New-Onset Diabetes]]. (Same CTT body as this page's benefit magnitude and the muscle
+  entry above -> agreement across the three is NOT independent type-E backing.)
 - **Drug route only.** CTT is statin-lowering; the magnitude does **not** transfer to a *dietary* LDL-C
   change (the MCE/Sydney disconnects -> [[Surrogate Outcomes]], [[Linoleic Acid and Cardiovascular Disease]]).
+
+</div>
 
 ## A dietary LDL lever, and why its magnitude does not inherit CTT `[2026-08-29, Landry]`
 

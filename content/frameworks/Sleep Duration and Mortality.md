@@ -41,8 +41,6 @@ one (*any deviation from 7-8 h shortens life*) is the error this page exists to 
 night». Short-follow-up studies (<3 y) were «excluded a priori... to avoid measurements of sleep
 duration being too close to the time of death» — a reverse-causation guard on the *short* arm.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The asymmetry is the finding — one arm is likely causal, the other a marker of illness
 
 **The long-sleep arm is the larger association and the weaker claim** — an instance of
@@ -94,7 +92,6 @@ hormonal route named here — so hold leptin/ghrelin as a discounted mechanism, 
 -> [[Sleep and Metabolic Health]] (Capers 2015, where this refinement and the T2D/adiposity evidence
 live).
 
-</div>
 
 ## Second outcome — dementia, and the arm-level split replicates cleanly
 

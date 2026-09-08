@@ -221,8 +221,6 @@ gathers around the little ones. Here is where this page does more than repeat "e
   their sources -- not whether following them makes you better off. A clean audit is not a proven
   outcome. Treat it as well-sourced reasoning, not a guarantee.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The evidence behind each directive
 
 The front of this guideline is kept to rough magnitudes; the precise figures, certainties and studied
@@ -568,7 +566,5 @@ not targets a supplement can move [@celismorales2018].
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
-
-</div>
 
 ## References

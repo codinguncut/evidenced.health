@@ -11,8 +11,6 @@ updated: 2026-09-04
 self_critiqued: 2026-09-04
 concrete_subject_audited: 2026-09-04
 ---
-<div class="recent-page" data-last-updated="2026-09-04"></div>
-
 
 Lowering blood pressure is one of the few lifestyle-adjacent levers with a proven payoff on hard disease. Randomized drug trials show that dropping the number cuts heart attacks and strokes, and, on newer evidence, dementia as well. The benefit reaches people who have never had heart disease, and it does not disappear as pressure falls into the normal range; the observational "J-curve" that once seemed to warn against going low turns out to be a study artifact.
 

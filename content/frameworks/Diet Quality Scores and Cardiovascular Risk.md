@@ -3,7 +3,7 @@ type: framework
 question: Does a higher overall diet-quality score (a whole-diet protective-food pattern) lower CVD and mortality, by how much, where on the dose-response curve is the lever, and how much of the signal is healthy-user confounding?
 aliases: [PURE Healthy Diet Score, Diet Score and Mortality, Diet Quality Index and Cardiovascular Disease, Whole-Diet Pattern Score, Protective Food Score]
 authors: [Mente, Andrew; Dehghan, Mahshid; Rangarajan, Sumathy; O'Donnell, Martin; Yusuf, Salim; Howard, Barbara V; Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A]
-sources: [Mente - PURE Healthy Diet Score 2023, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006]
+sources: [Mente - PURE Healthy Diet Score 2023, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Boushey - Dietary Patterns All-Cause Mortality 2020]
 cluster: diet-quality-scores
 nucleus: true
 confidence: medium
@@ -23,7 +23,7 @@ relationships:
     - Food Groups and Health Outcomes - A Dose-Response Matrix
 self_critiqued: 2026-08-29
 created: 2026-08-25
-updated: 2026-08-29
+updated: 2026-09-07
 ---
 
 **Nucleus of the `diet-quality-scores` cluster** — the canonical owner of *what a whole-diet quality
@@ -121,6 +121,8 @@ the appeal-to-nature trade-off). For the reasonably-healthy, adequately-fed defa
 protective-food rocks are largely already pulled. The direction-of-guidance question this raises
 -> [[Which Objective Moved This Recommendation]].
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## Which score is best? Barely matters — except the Planetary score, which was null
 
 PURE compared its score head-to-head with five others on its own participants (Table 4). «The PURE
@@ -135,11 +137,23 @@ Mediterranean 0.96 / 0.55; HEI-2010 0.93 / 0.55; DASH 0.96 / 0.53; **Planetary (
   measured coarsely. Read the near-equivalence of Mediterranean/HEI/DASH as the signal and PURE's slight
   edge as method-favouring noise. This echoes [[Named Diet Programs Compared]]: across well-constructed
   diet metrics *the label barely carries the effect*.
+  - **Corroborated at gold-SR tier on the mortality endpoint (type-F).** The 2020 US DGAC NESR
+    systematic review reached the same "label barely carries" reading on all-cause mortality, not just
+    CVD: «higher adherence to dietary patterns with common labels such as 'Mediterranean',
+    dietary-guidelines related (e.g., 'Healthy Eating Index', 'DASH' scores), or 'plant-based' were
+    generally protective ... a high-quality dietary pattern comprised of nutrient-dense foods,
+    regardless of the label, associated with reduced all-cause mortality risk»
+    [@boushey2020]. It graded that
+    broad-protective-pattern -> ACM relationship **Strong** across 141 pattern studies. Bounds the PURE
+    finding: the near-equivalence of scores is not a PURE-FFQ artifact — it recurs on a different
+    outcome across a differently-assembled cohort base. -> [[Dietary Patterns and All-Cause Mortality]]
 - **The Planetary-score null is the one real divergence**, and the authors attribute it to its being
   «the most restrictive» — it limits animal foods (dairy, and to a degree fish/legumes) that carry
   PURE's signal. Whether that is a real demerit of the EAT-Lancet pattern or an artifact of scoring it
   on a population where those foods are protective is unresolved here (its non-health / environmental
   objective is a different axis this wiki does not price — name it, do not net it).
+
+</div>
 
 ## No single component carries it — and the score is reachable many ways
 

@@ -39,6 +39,8 @@ social connection, sense of purpose, allostatic load, depression — plus **sun/
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## Lipids, drugs, and dietary patterns for CV events
 
 - [[LDL Lowering and Cardiovascular Events]] — how much does lowering LDL/apoB buy per unit (CTT: RR 0.78
@@ -47,6 +49,13 @@ BP levers.
   disease, why the dose is cumulative, why measure apoB)
 - [[Statins for Primary Prevention and the Power of Zero CAC]] — for a primary-prevention adult, does a
   statin help, and does a zero coronary-calcium score change that decision?
+- [[Statin Muscle Symptoms and the Nocebo Effect]] — when someone on a statin reports muscle pain, is the
+  statin the cause, and should they stop? (Reith/CTT: RR 1.03, year-1 excess 11/1000 py, >90% not the
+  drug; the deprescribing decision)
+- [[Statins and New-Onset Diabetes]] — does the statin diabetes risk change starting/continuing, and what
+  to monitor? (Reith/CTT: a REAL small dose-dependent effect, RR 1.10 low/mod to 1.36 high, concentrated
+  near the diagnostic threshold, benefit already nets it out — the metabolic harm-leg, real vs the muscle
+  leg's nocebo)
 - [[Aspirin for Primary Prevention of Cardiovascular Disease]] — does daily aspirin prevent enough CV
   events to outweigh its bleeding harm? (net wash-to-harm; benefit ARR 0.41% offset by bleeding ARI
   0.47%, in every risk stratum — the de-adoption anchor)
@@ -65,6 +74,8 @@ BP levers.
   (CANTOS canakinumab, LoDoCo2 colchicine) cut CV events with lipids unchanged, but CRP is a marker not a
   cause (MR), the benefit is on events not all-cause mortality, and the anti-inflammatory diet is an
   observational proxy for MedDiet, not a shown independent lever
+
+</div>
 
 ## Behavioural big rocks
 

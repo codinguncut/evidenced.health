@@ -33,8 +33,6 @@ daily drink or two; this page names that tension without pricing it. Confidence 
 medium, not high, and the loop stays open: every judgment is graded for coherence, never
 against what later became of anyone who drank.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Does a little drinking protect? The low-dose arm across mortality, stroke, and brain
 
 One belief about alcohol outranks every other: that a little beats none. Test it first, because
@@ -123,8 +121,6 @@ above \~38 g/day — marks where the dementia signal becomes unmissable, not a c
 it lines up with the heavy-midlife harm below. Xu is not an independent line of evidence here: it
 shares its Qingdao/Fudan authorship with other cognition sources the wiki holds, so it quantifies the
 shape rather than corroborating the verdict.
-
-</div>
 
 ## Effect and dose-response shape, outcome by outcome
 
@@ -364,8 +360,6 @@ Move from the individual drinker to the population and a second kind of evidence
 
 **Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. Neither side is in error; they stand in different places. Population guidance optimizes an average outcome under communicability and safety-at-scale constraints, while an individual reads the same evidence against personal baseline risk and preferences. This pressure runs toward guidance permitting more than a population-minimizing rule would; the appraisal names that it exists and which direction it runs, and stops short of pricing it.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Confidence, and where this could be wrong
 
 How confident should any of this make someone? **Moderate — GRADE-certainty MEDIUM, not high.**
@@ -431,7 +425,5 @@ Four things could still change the read here:
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Semba (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
-
-</div>
 
 ## References

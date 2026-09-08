@@ -215,8 +215,6 @@ still-open sodium J-hypothesis -> [[Sodium Intake and Blood Pressure]], [[The U-
 
 
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Second outcome — dementia, and the same J-curve artifact replicates
 
 Excessive alcohol is one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]], and the dementia literature reproduces this page's verdict on a new outcome. Heavy midlife
@@ -271,7 +269,6 @@ literature and the same sick-quitter/reverse-causation machinery as the mortalit
 cross-outcome worked case, not a second independent witness; it does not lift the page's
 `[E-independent]` convergence (Stockwell || Millwood). [inferred from @xu2017alcohol]
 
-</div>
 
 ## Third outcome — cancer, and here there is *no safe threshold*
 

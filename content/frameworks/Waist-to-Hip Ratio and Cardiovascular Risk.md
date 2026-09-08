@@ -20,7 +20,6 @@ relationships:
     - BMI vs Abdominal-Adiposity Markers - Which Predicts CVD
     - Baseline Risk and the Relative-Absolute Split
 ---
-<div class="recent-update" data-last-updated="2026-09-04">
 
 **The measure you pick changes who counts as at-risk.** INTERHEART — a standardised case-control study
 of first acute myocardial infarction, 27,098 people (12,461 cases / 14,637 matched controls) across 52
@@ -38,8 +37,6 @@ known — and it names INTERHEART as the claim it refutes. The "strongest relati
 BMI" headline below therefore stands **only for the case-control MI question in an all-ethnicities
 sample**, and is attenuated for prospective CVD prediction in developed-country populations. See *The
 prospective-cohort contest* section and [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
-
-</div>
 
 ## The crux — BMI's association is largely redundant with fat distribution `type-F`
 
@@ -111,8 +108,6 @@ sized here, not asserted to top the list.) [inferred from @yusuf2005interheart] 
   preserve muscle (hip) — because weight loss that also strips skeletal muscle may forfeit some benefit
   -> [[Does Weight Loss Reduce Cardiovascular Events]]. [inferred from @yusuf2005interheart]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The prospective-cohort contest — ERFC 2011 refutes the WHR-superiority claim `type-D`
 
 INTERHEART's reverse-causation exposure (flagged in *Limits* below) is not hypothetical: a pooled
@@ -159,8 +154,6 @@ factors are known, BMI is an adequate and more-reproducible clinical adiposity m
 switching to WHR does not survive prospective design.** The WHR-over-BMI case is strongest where
 conventional risk factors are *unmeasured* and in the non-European strata ERFC could not test.
 [inferred from @erfc2011whr]
-
-</div>
 
 ## Limits — read the design before the ORs
 

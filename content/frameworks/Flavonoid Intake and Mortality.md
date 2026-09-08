@@ -150,8 +150,6 @@ estimates + the secondary-endpoint caveat: [[Vitamin and Mineral Supplements for
 the Test-3 collinearity framing: [[Is the Food Category Doing Any Work]].
 [inferred from @sesso2022cosmos]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The cognition sibling (2026-09-04)
 
 The same food-vs-component logic runs on a second outcome axis: a gold SR+MA of flavonoid intake ->
@@ -160,7 +158,6 @@ cognitive function (Peng 2025) finds a small inverse association with adverse co
 cannot isolate the molecule -> [[Flavonoid Intake and Cognitive Function]] (which holds the figures). It
 confirms the food-vs-component G-gap stays open on cognition as it does here on mortality.
 
-</div>
 
 ## Where this sits
 

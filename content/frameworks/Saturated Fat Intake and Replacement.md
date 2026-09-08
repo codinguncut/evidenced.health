@@ -3,7 +3,7 @@ type: framework
 question: How much saturated fat, replaced by what, and how confident is that?
 aliases: [SFA, Saturated Fatty Acid Intake, SFA Replacement, Dietary Fat Recommendations, WHO SFA Guideline, 10% Energy Threshold]
 authors: [World Health Organization (org); Willett, Walter; Stampfer, Meir; Hooper, Lee; Astrup, Arne; Krauss, Ronald M; Dehghan, Mahshid; Mente, Andrew; Hamley, Steven; Nordic Council of Ministers (org); Imamura, Fumiaki; Mozaffarian, Dariush; Zhang, Yu; Wang, Dong D; Winters-van Eekelen, E]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023, Imamura - Dietary Fats Glucose Insulin Trials Meta-Analysis 2016, Zhang - Butter Plant Oils Mortality 2025, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Hamley - Saturated Fat PUFA Coronary 2017, NNR - Nordic Nutrition Recommendations 2023, Imamura - Dietary Fats Glucose Insulin Trials Meta-Analysis 2016, Zhang - Butter Plant Oils Mortality 2025, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024]
 cluster: dietary-fat
 nucleus: true
 confidence: medium
@@ -18,9 +18,9 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-09-04
+updated: 2026-09-07
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
-self_critiqued: 2026-09-05
+self_critiqued: 2026-09-07
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -376,8 +376,6 @@ a different cut of the evidence. **Do not add a row from this table to a row fro
 
 
 [@who2023saturated]
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Hooper 2020 — the Cochrane RCT meta-analysis underneath WHO's numbers `[2026-07-29]`
 
 Hooper is the primary Cochrane review
@@ -515,8 +513,6 @@ benefit (RR 0.86, 0.77-0.96, moderate GRADE) lives in the *modification* arms wh
 null (RR 0.97, 0.87-1.08) — the demonstration that *the substitution sets the sign*, at pooled-RCT scale.
 That finding is woven on [[Low-Fat Dietary Pattern and Cardiovascular Disease]], not duplicated here.
 [@hooper2012reducedfat]
-
-</div>
 
 ## The heterodox reassessment — Astrup et al. 2020 `[2026-07-29]`
 
@@ -871,6 +867,8 @@ E%.» [@nnr2023]
   zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
   choice to fold trans fat into the SFA message), not a substantive disagreement.
 
+<div class="recent-update" data-last-updated="2026-09-07">
+
 ## Butter vs plant oils at the FOOD level — Zhang 2025 partly cashes the food-matrix gap, on mortality `[2026-09-02]`
 
 The food-matrix question this page filed as a WHO **research gap** (*compare the health effects of SFA
@@ -959,5 +957,39 @@ plant oil (olive / canola / soybean)**, with a concrete translation — «replac
 is **null**, and the whole finding is observational — the signal sits on **total and cancer** mortality,
 one evidence tier below the SFA->PUFA events RCTs above.
 [inferred from @zhang2025butter]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-07">
+
+## SFA at the NUTRIENT level, on mortality — Ma 2024 adds a clean cancer cell and makes the all-cause null fragile `[2026-09-07]`
+
+Ma's non-linear dose-response MA (101 prospective cohorts) carries SFA as a **nutrient** against
+mortality — the nutrient-level counterpart to Zhang's food-level butter, and it lands two things this
+page did not hold. First, a **clean new cell: SFA -> cancer mortality 1.10 (1.06-1.14), I2=0.0%,
+p<0.001** — a homogeneous positive association that corroborates the *direction* of Zhang's food-level
+butter->cancer signal (1.12 per 10 g/d) from a different exposure grain. Second, on all-cause it
+supplies a **fragility finding** that bears directly on this page's open "does reducing SFA reduce
+mortality or only LDL" thread: SFA -> all-cause mortality is **1.05 (0.98-1.13) NS but I2=93.6%**, and
+leave-one-out (dropping Zhuang, Mazidi, Tucker) turns it **1.07 (1.03-1.12) sig** — so the observational
+all-cause null is not robust. CVD mortality stays null, 1.03 (0.98-1.08).
+[@ma2024macro]
+
+On **shape**, SFA is **flat on every mortality endpoint** (all-cause p=0.92, cancer p=0.39, CVD p=0.78)
+— no threshold or knee located, consistent with the page's dose-response discipline (monotone-or-flat
+over the studied range, not a plateau to read as a target). And SFA is **null on CVD events**, 0.96
+(0.92-1.02) — the observational events pool does not reproduce the RCT SFA->PUFA events benefit above,
+an endpoint-and-design gap, not a contradiction.
+[@ma2024macro]
+
+**NOT `[E-independent]`; confidence stays `medium`.** Ma re-pools the same observational cohort base as
+this page's other pooled-observational arms (Dehghan/PURE-type primaries; likely NHS/HPFS overlap with
+Zhang), FFQ-dominated (90 FFQ / 25 24h-recall), NOS-appraised, with **no MR, no substitution
+decomposition, no GRADE, and no food-source split** for SFA. Its agreement is a **type-F refinement**
+(a new cancer-mortality cell + a robustness probe on the all-cause null), not a second independent
+route — so it lifts neither the page's confidence nor the SFA->events RCT tier.
+[inferred from @ma2024macro]
+
+</div>
 
 ## References

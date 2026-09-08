@@ -216,8 +216,6 @@ glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
 Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
@@ -269,8 +267,6 @@ HR 0.54 (0.32-0.92) [@mollvancharante2016],
 a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), consistent with this page's
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
-
-</div>
 
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 

@@ -28,7 +28,7 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
   effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
 
-<div class="recent-update" data-last-updated="2026-09-05">
+<div class="recent-update" data-last-updated="2026-09-07">
 
 ## Foods and beverages
 
@@ -84,6 +84,13 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   and a male-concentrated CV signal (diet x sex P=.01 for CVD). Single confounded cohort — the
   healthy-adherent bundle is the ceiling; the EPIC-Oxford divergence shows "vegetarian" is not one
   exposure
+- [[Dietary Patterns and All-Cause Mortality]] — the all-cause-mortality anchor of the
+  `dietary-patterns` cluster (2020 US DGAC NESR SR, Boushey, 153 articles): a high-quality pattern
+  (vegetables/fruit/legumes/nuts/whole grains/unsaturated oils/fish) -> lower all-cause mortality
+  graded **Strong**, «regardless of the label» (Mediterranean/HEI/DASH/plant-based converge);
+  macronutrient-distribution diets graded **not assignable** (food quality, not carb/fat proportion,
+  carries it). A graded-conclusion SR, not a pooled HR — no magnitude on offer. 152/153 observational,
+  healthy-cohort selection + baseline-only exposure the ceiling; <35 y insufficient
 - [[Diet Quality Scores and Cardiovascular Risk]] — the `diet-quality-scores` nucleus (PURE, Mente 2023,
   80 countries): an unweighted 6-food protective-pattern score -> CVD/mortality (score >=5 vs <=1
   mortality 0.70), with a LOCATED dose-response knee \~score 4/6 (the lever is raising low consumers to

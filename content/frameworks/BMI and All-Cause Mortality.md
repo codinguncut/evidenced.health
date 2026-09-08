@@ -248,8 +248,6 @@ the smoking-decomposition *direction* is less exposed; and (ii) stratifying on s
 effect-modifier* reading and the not-a-tension resolution are the wiki's own synthesis
 -> [[The U-Shaped Association Artifact]].
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Decision relevance
 
 - **The nadir is 22.5-25, and above it every increment carries risk — there is no protective or
@@ -281,8 +279,6 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   reduced all-cause mortality — adjusted HR 0.71 (P=0.01, no CI reported) — in severe obesity (BMI >=34/>=38), the
   interventional counterpart to this curve's steep upper arm. [@sjostrom2007] The design is weaker than an RCT
   (self-selection), so it warrants the arm directionally, not causally-clean.
-
-</div>
 
 ## Limits
 

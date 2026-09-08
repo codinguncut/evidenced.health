@@ -5,15 +5,14 @@ question: 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysg
 sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017,
   Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024,
   Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Villoz - Dairy Cognitive Decline Dementia 2024,
-  Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
+  Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025,
+  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024]
 confidence: low
 created: 2026-08-05
-updated: 2026-09-06
-self_critiqued: 2026-09-06
-concrete_subject_audited: 2026-09-06
+updated: 2026-09-07
+self_critiqued: 2026-09-07
+concrete_subject_audited: 2026-09-07
 ---
-<div class="recent-update" data-last-updated="2026-09-04">
-
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
 > fat together with muscle loss), in whom hypertension, dysglycemia and fatty liver (MASLD) are common,
@@ -45,8 +44,6 @@ as it would be at 40.
 - **Several treatments that help younger adults turn neutral or harmful here** — testosterone,
   calcium-plus-vitamin-D, and the most aggressive weight-loss and blood-pressure targets among them.
 
-</div>
-
 ## If this person smokes, quitting outranks everything else on the page
 
 Nothing modifiable at 70 carries an effect this large. Smoking roughly triples all-cause mortality
@@ -56,8 +53,6 @@ in an age-graded way — the earlier the larger, but the benefit is still substa
 it belongs at the top *only if the person smokes*, and drops off the list entirely if they do not — which
 is exactly why a universal ranking is the wrong object -> [[Layer 1 - Ranking Interventions for a Stratum]],
 [[Smoking and Mortality]].
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Getting blood pressure down is the best-warranted lever for preventing death and cardiovascular events here
 
@@ -92,10 +87,6 @@ Randomization also erased the observational U-shape — no excess dementia appea
 oldest patients. So blood-pressure lowering buys a second patient-important outcome at this age, and it is
 the one lever here where the drug, not a lifestyle change, carries the randomized dementia evidence
 -> [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
@@ -136,10 +127,6 @@ that specificity is the whole point.
   (GLP-1 RA RR 0.35, but I2 98.5% and low certainty), while sulphonylureas run the other way (RR 1.39,
   1.04-1.87) [@kuatedefo2023]. Read that as what an
   existing prescription may incidentally do, not a reason to select an agent — that choice is a prescriber's.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -186,8 +173,6 @@ muscle-protection levers are a *pair*, not a sequence.
   no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
   (EWGSOP2 sets none) [@cruzjentoft2019].
 
-</div>
-
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
 Falls are where fractures, hospitalisation and lost independence actually occur, and here the evidence is
@@ -227,8 +212,6 @@ attempt to create an optimal intervention will be impeded»
 [@who2020] — so train the measurable
 components and read frailty as the composite that follows -> [[Frailty]].
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
 General physical activity carries a real mortality benefit, but its shape matters for how hard to push. The
@@ -247,8 +230,6 @@ followed 20 years or more — so it is not merely early, undiagnosed dementia lo
 depend on APOE genotype. It stays observational (higher baseline cognitive reserve is the confound it
 cannot remove), but it adds a second patient-important outcome to a lever no drug replicates
 -> [[Physical Activity Dose and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-06">
 
@@ -326,7 +307,7 @@ right: it licenses this person to stop optimising once the rocks above are handl
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-06">
+<div class="recent-update" data-last-updated="2026-09-07">
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
@@ -405,9 +386,28 @@ toward net harm, or toward "not worth it," in this stratum.
   -> [[Statins for Primary Prevention and the Power of Zero CAC]],
   [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
 
-</div>
+  Two statin harms weigh most heavily in exactly this stratum — older adults report the most muscle
+  symptoms, face the most deprescribing pressure, and carry the most polypharmacy — yet neither is a
+  reason to stop an indicated statin, and the two fail as reasons for opposite kinds of reason. The
+  muscle aches are a *perceived* harm the drug mostly does not cause: across double-blind
+  statin-versus-placebo trials the causal excess is tiny (RR 1.03), and in a blinded n-of-1 rechallenge
+  90% of the symptom burden a statin provoked was also provoked by an inert placebo
+  [@reith2022muscle],
+  [@wood2020samson] — so a new ache, especially after the first
+  year, is very unlikely the statin, and a blinded rechallenge separates the rare true myopathy from
+  nocebo.
 
-<div class="recent-update" data-last-updated="2026-09-04">
+  New-onset diabetes is the mirror image: a *real* pharmacological effect, but small and dose-dependent
+  (RR 1.10 on low- or moderate-intensity statins, 1.36 on high-intensity), concentrated in people whose
+  glycaemia already sits near the diagnostic threshold, driven by a tiny HbA1c shift, and already netted
+  out of the vascular benefit — so it warrants no routine post-initiation glucose monitoring to catch a
+  statin effect (standard diabetes screening continues unchanged) and does not change the
+  start-or-continue decision [@reith2024diabetes].
+  The two harms differ in *kind*: the muscle harm is mostly not real, the diabetes harm real but
+  outweighed — and both point to the same rule, *do not stop an indicated statin*, for opposite reasons
+  -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]].
+
+</div>
 
 ## What this ranking cannot yet settle
 
@@ -429,10 +429,6 @@ toward net harm, or toward "not worth it," in this stratum.
   that pulling any of these levers in *this* stratum prevents dementia, and whether treating a sleep disorder
   or raising diet quality lowers dementia incidence is untested
   -> [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
 
 ## The bottom line
 
@@ -457,9 +453,7 @@ toward net harm, or toward "not worth it," in this stratum.
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-06">
+<div class="recent-update" data-last-updated="2026-09-07">
 
 ## Four things this ranking cannot tell you
 
@@ -481,10 +475,10 @@ toward net harm, or toward "not worth it," in this stratum.
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 51 sources — 33 gold, 16 high, 2 moderate |
+> | **Evidence included** | 54 sources — 35 gold, 17 high, 2 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 </div>
 

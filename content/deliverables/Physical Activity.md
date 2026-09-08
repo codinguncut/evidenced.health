@@ -239,8 +239,6 @@ absolute change. But past roughly 70 the outcome that dominates the ledger shift
 longer mainly whether activity postpones death, but whether it preserves the function, muscle, and
 balance that keep a person independent — which is where the next section turns.
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## After about 70, the payoff is staying on your feet
 
 The outcome that pays now is not another year of life but another year of doing your own shopping. **This section matters most after about 70**, when the big longevity levers are largely pulled and the exposure that moves a patient-important outcome is the one that keeps an 80-year-old off the floor and out of the fracture ward. Falls and lost function are not surrogates standing in for something the person values later — they *are* what the person values. That reframes the whole ranking: the number to move is a fall averted, not a lab value.
@@ -265,7 +263,7 @@ Grip's single-cohort signal now **upgrades to a 48-study dose-response meta-anal
 
 So the older-adult prescription writes itself in kind but not in quantity: **balance-and-functional work is the evidenced fall lever, strengthening defends the muscle behind it, and the metrics tell you where you stand rather than what to chase.** Which raises the real question for anyone with limited time — if balance, strength, and aerobic work each earn a place, how should a fixed weekly budget be split among them?
 
-</div>
+
 
 ## Splitting a fixed weekly budget between cardio, strength, and walking
 
@@ -403,8 +401,6 @@ function, cancer risk, and the brain — which is where the next sections go.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Movement is safe, and it reaches pain, joints, cancer, and the brain
 
 The mortality and cardiometabolic case is the core, but movement's reach does not stop at the heart. Four other patient-important outcomes — chronic pain, joint function, cancer risk, and cognition — carry evidence worth stating plainly, and the honest verdict differs sharply across them.
@@ -432,8 +428,6 @@ That is the observational arm. The randomized tests that could turn it into a tr
 The honest state is a split verdict: the **single-lever observational** signal is strong and reverse-causation-checked, while the **interventional** evidence — which never isolates exercise — stays weak. So exercise is a plausible, modest cognitive lever worth pulling because it is a cardiometabolic big rock already, not because a randomized dementia payoff is demonstrated -> [[Dementia Prevention and Modifiable Risk Factors]], [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
 With movement's reach across these outcomes mapped, the last question is not *whether* it helps but *how the levers rank for a given person* — and where, once the big rocks are pulled, the ceiling on further gains sits.
-
-</div>
 
 ## How the levers rank, and what is still open
 

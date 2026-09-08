@@ -11,8 +11,6 @@ updated: 2026-09-04
 self_critiqued: 2026-09-04
 concrete_subject_audited: 2026-09-04
 ---
-<div class="recent-page" data-last-updated="2026-09-04"></div>
-
 
 Ask how much protein to eat and you are really asking four questions at once: how much, from which
 foods, at what times of day, and whether any of it applies to you. Each has a different answer, and

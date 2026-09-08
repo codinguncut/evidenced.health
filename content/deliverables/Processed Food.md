@@ -73,8 +73,6 @@ you are in without splitting. The first
 question the split raises is the sharpest one: does the ultra-processed label carry any causal work of
 its own, beyond the sugar, salt, fat and energy density it travels with?
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## The category average is real, but confounded and low-certainty
 
 **The category average is real: broad, consistent, and drawn from a lot of people.** Lane's umbrella
@@ -117,10 +115,6 @@ close the gap, because adjusting for a pattern is not the same as matching the s
 profile that makes a food ultra-processed and nutrient-poor at once. [@lane2024upf] An association this confounded needs a design that holds composition fixed
 — and the newest outcome arm, cognition, shows just how much of the association the confounding can swallow.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## Dementia and cognition: the signal thins on adjustment
 
 **Add dementia to the outcome list and it behaves the way this whole decomposition predicts — real at
@@ -158,8 +152,6 @@ replaces* the food, not the label. [@smith2025upf]
 Feeding trials to a dementia endpoint are ethically impossible, so this arm stays observational by design.
 The one outcome where a composition-fixed design does exist is intake — and there processing does move
 the needle.
-
-</div>
 
 ## Processing does move how much you eat — through levers you can name
 
@@ -461,8 +453,6 @@ about the effect size, and it is worked out in full on
 a person deciding what to eat, measured
 against the big rocks?
 
-<div class="recent-update" data-last-updated="2026-09-04">
-
 ## What to do — act on the components, against the big rocks
 
 **Stop shopping for the NOVA label and buy the properties instead.** The evidence licenses a short,
@@ -508,7 +498,5 @@ outcome they care about.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
-
-</div>
 
 ## References

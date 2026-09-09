@@ -18,10 +18,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Which Objective Moved This Recommendation
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-08
 self_critiqued: 2026-09-07
 ---
-<div class="recent-page" data-last-updated="2026-09-07"></div>
+<div class="recent-page" data-last-updated="2026-09-08"></div>
 
 
 The all-cause-mortality anchor for the `dietary-patterns` cluster, orbiting the nucleus
@@ -193,5 +193,22 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
   (PREDIMED); a decades-long whole-diet RCT in the reasonably-healthy is impractical, so this stays a
   named structural absence, not a queue item.
 - **Younger adults (<\~35 y):** insufficient evidence — an open stratum.
+- **DASH on hard outcomes (named gap, not queue-closable):** every DASH result the wiki holds is a
+  BP / cardiometabolic-*surrogate* feeding trial (Siervo's MA -> [[DASH Diet and Blood Pressure]]); no
+  DASH-*assigned* feeding RCT is powered on mortality or CVD events. DASH's place on the pattern ->
+  mortality axis rests entirely on observational pattern-*score* cohorts (as pooled here), never on a
+  randomised DASH-vs-control hard-endpoint trial — the same unblindable-whole-diet constraint that keeps
+  every pattern's causal claim observational.
+- **No independent-lineage replication (type-E robustness, expectancy-tempered):** the graded finding
+  rests on the DGAC/NESR body, which is type-F (shared author + re-pooled PREDIMED/AHS-2 primaries), not
+  a second independent witness. Its sibling SR candidates (Schwingshackl program, Soltani Med/DASH)
+  re-pool the *same* primaries (PREDIMED, AHS-2, NHS/HPFS), so a pattern -> all-cause-mortality SR built
+  on a *non-overlapping* cohort base may not exist. Routed to `acquisition-worklist.md` as a
+  verify-then-drop candidate; if every candidate shares the cohort pool this is a NAMED ZERO
+  (independence trap), as with sleep-regularity's UK-Biobank monoculture -> [[Baseline Risk and the Relative-Absolute Split]].
+- **Trajectory / shape-of-decline unmeasured (streetlight on the outcome side):** the body counts
+  all-cause mortality *events*, never the shape of the health curve a pattern buys — whether a protective
+  pattern compresses morbidity or merely lengthens a declining tail is unmeasured across every pattern,
+  so the outcome many people weight most heavily is the one this evidence is silent on.
 
 ## References

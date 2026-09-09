@@ -2,8 +2,8 @@
 type: framework
 question: Does exercise prevent falls and fall-related fractures in community-dwelling older adults, and which types of exercise work?
 aliases: [Falls Prevention, Fall Prevention Exercise, Preventing Falls in the Elderly, Balance Training Falls, Exercise and Falls, Tai Chi for Falls, Tai Chi Balance, Tai Chi Fall Prevention]
-authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan; Pillay, Jennifer; Gaudet, Lindsay A; Hartling, Lisa]
-sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024]
+authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan; Pillay, Jennifer; Gaudet, Lindsay A; Hartling, Lisa; Jimenez-Lupion, Daniel; Chirosa-Rios, Luis; Martinez-Garcia, Dario; Rodriguez-Perez, Manuel; Jerez-Mayorga, Daniel]
+sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024, Jimenez-Lupion - Power Training Fall Risk Older Adults]
 cluster: falls
 nucleus: true
 confidence: moderate
@@ -20,8 +20,8 @@ relationships:
     - Exercise and Bone Mineral Density
     - Rating Outcome Importance
 created: 2026-08-05
-updated: 2026-08-28
-self_critiqued: 2026-08-28
+updated: 2026-09-09
+self_critiqued: 2026-09-09
 ---
 
 The nucleus of the **falls / fracture-prevention** cluster — a large, high-lever, patient-important
@@ -46,6 +46,8 @@ effect. Falls are directly observed and hard to game, exercise-vs-control is ran
 the high-risk-of-bias trials left the result essentially unchanged (so non-blinding did not downgrade it)
 [@sherrington2019]. Contrast the physical-activity
 *mortality* evidence, which is observational and far softer -> [[Physical Activity Dose and Mortality]].
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Which exercise — the decision is NOT *exercise*, it is *balance*
 
@@ -73,8 +75,28 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
   ([[Protein and Resistance Training for Muscle and Strength]]): different outcome, different mechanism.
   Falls are a *balance/gait* problem; strength is a component of the effective multiple-category
   programmes but not the lever on its own. [inferred from @sherrington2019]
+  - **But the *mode* of resistance training is not neutral for the function tasks upstream of falls.**
+    [[Power Training and Physical Function in Older Adults]] (el Hadouchi 2022, gold SR+MA) finds that
+    velocity/power emphasis beats heavy-load strength emphasis on exactly the functional-performance
+    tests that predict fall risk (chair rise, gait speed, TUG; generic-function SMD 0.43, GRADE HIGH).
+    That MA measured function tests, **not falls** — so it does not contradict the RT-alone-falls null
+    here. The companion power-training MA that *did* target fall-risk-predictor tests still stops at
+    **surrogates, not fall incidence**: it pooled the TUG (MD -0.31 s; 95% CI -0.63, 0.00) and the
+    30s-STS (MD 1.71 reps; 95% CI -0.26, 3.67), both **below their reported minimal detectable change**
+    (TUG 3.2 s; 30s-STS 3.3 reps) and with CIs touching or crossing zero
+    [@jimenezlupion2023]. Its own
+    authors call the result **not sufficient** «to accurately state that power training provides a
+    relevant improvement over other training modalities and their relation to fall risk», and call for
+    research «involving a direct outcome measure of fall risk (post-intervention fall history)»
+    [@jimenezlupion2023]. So the RT-alone-falls
+    null stands, and whether *any* resistance or power training mode reaches the falls endpoint remains a
+    named gap — **no held MA measures fall incidence for resistance or power training** (G-gap; would
+    need a trial with prospective fall-count follow-up).
+    [inferred from @elhadouchi2022; @jimenezlupion2023; @sherrington2019]
 - ***Walk more* is not fall-prevention advice.** Walking programmes have insufficient evidence and are
   not what reduces falls — a substitution worth naming, because it is the intuitive default.
+
+</div>
 
 ## Fractures and injurious falls — the leg to the bone side, honestly lower-certainty
 

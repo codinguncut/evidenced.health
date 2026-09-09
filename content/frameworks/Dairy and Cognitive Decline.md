@@ -7,7 +7,7 @@ sources: [Villoz - Dairy Cognitive Decline Dementia 2024]
 cluster: dairy
 confidence: low
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-09
 self_critiqued: 2026-09-05
 relationships:
   related_to:
@@ -19,9 +19,8 @@ relationships:
     - Is the Food Category Doing Any Work
     - The Underivable Optimum
     - Fermented Foods and Health
+    - Single Food Components and Cognitive Outcomes
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
-
 
 **Facet of the `dairy` cluster** (nucleus [[Dairy and Cardiometabolic Health]]) — the **cognition/dementia**
 endpoint, distinct from the nucleus's cardiometabolic outcomes and the fracture endpoint on

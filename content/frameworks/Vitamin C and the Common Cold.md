@@ -129,7 +129,7 @@ was the mistake. A real effect in one stratum does not transfer to another by ev
 ## Open threads / gaps
 
 - **Therapeutic use is insufficient-evidence, not disproven** — an adequately-dosed (>= 8 g adults,
-  >= 2 g children), early (< 24 h), >= 5-day therapeutic RCT, including children, is the named gap the
+  &gt;= 2 g children), early (< 24 h), >= 5-day therapeutic RCT, including children, is the named gap the
   review itself flags. a therapeutic-protocol SR would upgrade it.
 - **Dietary-status as an effect modifier** (the UK-male / fruit-juice-interaction signal) is a
   candidate route-(b) modifier not resolved by the included (>= 0.2 g/day) trials.

@@ -2,12 +2,12 @@
 type: framework
 question: What is the shape and magnitude of the BMI to all-cause-mortality curve once smoking and reverse causation are removed, and where is the nadir?
 aliases: [Body-Mass Index and Mortality, BMI Mortality Curve, Obesity Paradox, Overweight Mortality Paradox, BMI Nadir]
-authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim; Nordic Council of Ministers (org); Wormser, David; Danesh, John]
-sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, NNR - Nordic Nutrition Recommendations 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011]
+authors: [Global BMI Mortality Collaboration (org); Wade, Kaitlin H; Carslake, David; Sattar, Naveed; Davey Smith, George; Timpson, Nicholas J; Sjöström, Lars; Sun, Yi-Qian; Di Angelantonio, Emanuele; Yusuf, Salim; Nordic Council of Ministers (org); Wormser, David; Danesh, John; Jayedi, Ahmad]
+sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendelian Randomization 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sun - BMI Mortality Mendelian Randomization, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, NNR - Nordic Nutrition Recommendations 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020]
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-04
+updated: 2026-09-08
 self_critiqued: 2026-08-27
 relationships:
   related_to:
@@ -20,6 +20,7 @@ relationships:
     - Smoking and Mortality
     - Waist-to-Hip Ratio and Cardiovascular Risk
     - BMI vs Abdominal-Adiposity Markers - Which Predicts CVD
+    - Central Adiposity and All-Cause Mortality
 ---
 
 The bias-corrected shape of the BMI to all-cause-mortality relationship, from the largest
@@ -280,6 +281,8 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   interventional counterpart to this curve's steep upper arm. [@sjostrom2007] The design is weaker than an RCT
   (self-selection), so it warrants the arm directionally, not causally-clean.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Limits
 
 - **Observational, corrected — not causal-proof.** The exclusions remove the *known* biases
@@ -298,7 +301,40 @@ effect-modifier* reading and the not-a-tension resolution are the wiki's own syn
   four continents -> [[The Observational-Trial Discordance]].
 - **Cannot separate fat mass from lean mass or distribution** — BMI is the exposure, and the same BMI
   spans different body compositions across age, sex, and ethnicity (a plausible contributor to the
-  regional differences, alongside the small-n imprecision of the South Asian estimate).
+  regional differences, alongside the small-n imprecision of the South Asian estimate). **Now partly
+  cashed (Jayedi 2020, below):** where the fat sits carries mortality information BMI does not.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## Where the fat sits — central adiposity adds a BMI-independent signal, and its curve is less U-shaped `[2026-09-08, Jayedi]`
+
+The limit directly above — BMI cannot separate fat distribution — is refined by a dose-response
+meta-analysis of central adiposity (Jayedi 2020, BMJ: 72 cohorts, 2.53M people, 150,164 deaths),
+which asks the *same* all-cause-mortality outcome for waist-based measures. Two findings bear on this
+page. **This is a type-F refinement of the crude-proxy limit, NOT independent-E backing** — Jayedi
+draws on an overlapping observational cohort literature and shares the reverse-causation-adjudication
+constraints; it bounds and extends the BMI reading rather than corroborating it by an independent route.
+
+- **Central fat predicts mortality independent of BMI.** «Positive associations persisted after
+  accounting for body mass index»
+  [@jayedi2020central]; waist
+  circumference *strengthens* after BMI adjustment (HR 1.11 per 10 cm -> 1.17 in BMI-adjusted studies).
+  So two people at the same BMI carry different risk by fat distribution — the crude-proxy limit above,
+  quantified -> [[Central Adiposity and All-Cause Mortality]].
+- **The central-fat curve is LESS U-shaped than this BMI curve.** WHR and ABSI are monotone with no knee;
+  waist circumference and waist-to-height ratio are shallow-J with a *negligible* protective lower arm
+  (WC nadir men 90 cm HR 0.96, women flat 60-80 cm) — nothing like the substantial obesity-paradox arm
+  the cascade above had to strip from BMI. Jayedi names why: «smaller waist circumference might reflect
+  lower detrimental visceral fat mass and does not necessarily reflect lower lean body mass»
+  [@jayedi2020central] — the low-lean-
+  mass/frailty confound that manufactures BMI's low-arm paradox does not load the low-waist end, so the
+  waist curve is closer to monotone by construction. Adjudicated by weak checks only (never-smoker /
+  healthy / >10y-follow-up restriction; no MR, no referent-correction), but there is far less protective
+  arm to defend -> [[The U-Shaped Association Artifact]].
+
+</div>
 
 ## A guidance family stratifies the target by age — NNR2023 `[2026-08-27, NNR revisit]`
 

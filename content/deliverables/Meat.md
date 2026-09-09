@@ -3,12 +3,12 @@ type: deliverable
 title: Meat
 aliases: [Red Meat, Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health, Meat and Health, Poultry, White Meat]
 question: What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces?
-sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012]
+sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-03
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-09-08
+self_critiqued: 2026-09-08
+concrete_subject_audited: 2026-09-08
 ---
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
@@ -212,6 +212,8 @@ insufficient evidence, distinct from the mortality null
   intake, not the red->white replacement the decision turns on, so the substitution reading above
   stands.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## What the meat is measured against decides the answer
 
 Because the comparator does the work, the sharpest evidence is about swaps. In a Japanese cohort,
@@ -234,12 +236,15 @@ fish or refined carbohydrate red meat was roughly neutral or better (the fish co
 raised LDL, and red meat gave a greater triglyceride decrease than carbohydrate), and against poultry
 there was no differential effect
 [@guaschferre2019redmeat].
+
 These are surrogate (lipid) endpoints — no trial measured a cardiovascular event, and the authors
 caution «we cannot directly extrapolate CVD risk from intermediate biomarkers such as lipids,
 apolipoproteins, and blood pressure»
 [@guaschferre2019redmeat].
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
+
+</div>
 
 ## What meat gives back
 
@@ -250,15 +255,34 @@ substitution and not a blanket subtraction: a plant-forward swap has to make up 
 amino-acid quality it displaces (plant sources are lower on the digestibility score), or it trades one
 gap for another. -> [[Protein Quality and the DIAAS Score]]
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Where meat ranks among the levers
 
 For a reasonably healthy person, the meat decision is a **small refinement, not a big rock**. Its
 loudness in public discourse runs inversely to its size — the large, settled levers are boring and the
-small, contested ones generate content. The ranking is also stratum-dependent. For someone carrying
+small, contested ones generate content.
+
+Six US cohorts now put a number on how small. Following 29,682 adults for a median 19 years, Zhong
+converted the relative signal into a 30-year **absolute** risk difference at a realistic **+2 servings a
+week**: processed meat — the strongest harmful lever in the whole food-group matrix — carried **+1.74%
+(0.85-2.63)** more cardiovascular disease and **+0.90% (0.43-1.38)** more all-cause mortality over the
+three decades; unprocessed red meat, **+0.62% (0.07-1.16)** and **+0.76% (0.19-1.33)**. Across every meat
+exposure the absolute increases stayed «less than 2% over the 30 years of follow-up»
+[@zhong2020meat].
+
+A relative risk cannot be ranked against a blood-pressure or a statin lever; a sub-two-point absolute
+shift over thirty years can. It ranks the meat decision below those drug levers — which sizes the
+small-lever verdict rather than overturning it.
+-> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]
+
+The ranking is also stratum-dependent. For someone carrying
 excess body fat, WCRF grades **body fatness a convincing or probable cause of cancer across 12 of 17
 sites** and calls it one of the most important ways to protect against cancer
 [@wcrf2018ter]. That is a broader and more strongly graded
 lever than a single-site meat limit. Pull that rock first. -> [[Body Fatness and Cancer Risk]]
+
+</div>
 
 ## The environmental trade-off, named
 
@@ -286,6 +310,8 @@ The realistic options, ranked by the size of the win each buys:
 
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
+
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## What the evidence still cannot say
 
@@ -320,9 +346,11 @@ cited here.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces? |
-> | **Evidence included** | 21 sources — 15 gold, 6 high |
+> | **Evidence included** | 22 sources — 15 gold, 7 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-09-08 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+
+</div>
 
 ## References

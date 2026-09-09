@@ -47,7 +47,7 @@ advice once efficacy was demonstrated.
 Incidence: 11.0 / 7.8 / 4.8 cases per 100 person-years (placebo / metformin / lifestyle).
 
 > «The lifestyle intervention reduced the incidence by 58 percent (95 percent confidence interval, 48 to
-> 66 percent) and metformin by 31 percent (95 percent confidence interval, 17 to 43 percent), as compared
+&gt; 66 percent) and metformin by 31 percent (95 percent confidence interval, 17 to 43 percent), as compared
 > with placebo; the lifestyle intervention was significantly more effective than metformin.»
 > [@knowler2002]
 
@@ -178,8 +178,6 @@ risk is the concern in such a stratum, the demonstrated levers are the direct on
 heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
 longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Independent replication — Finnish DPS and Da Qing (type-E robustness)
 
 The lifestyle-prevention effect is **not one trial**: three randomized trials on three continents, in
@@ -256,8 +254,6 @@ continents, neither citing the other as antecedent). The convergence is real and
 lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage thread is why it is marked
 with the caveat rather than as three sealed-off routes.
 [inferred from @tuomilehto2001; @pan1997]
-
-</div>
 
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 

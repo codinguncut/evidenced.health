@@ -169,7 +169,7 @@ The validation row, quoted in full because the truncated form drops the comparat
 mean anything:
 
 > «A doubly-labelled water sub-study carried out as part of the NDNS rolling programme (Bates et al.,
-> 2014) found that reported energy intake in adults aged 16-64 years was, on average, 34% lower than
+&gt; 2014) found that reported energy intake in adults aged 16-64 years was, on average, 34% lower than
 > total energy expenditure (TEE) measured by doubly labelled water.»
 > [@sacn2015]
 
@@ -327,7 +327,7 @@ worked case, with numbers, and it is the one that matters most for the diet-obes
 > «Estimating energy expenditure using doubly-labeled water, the AMPM method of conducting 24-hour
 > recalls, resulted in zero, 14%, and 20% underreporting of energy intake among lean, overweight, and
 > obese men, respectively (Moshfegh et al., 2008). Among women, the same percentages were 6%, 15%, and
-> 21% underreporting of energy intake»
+&gt; 21% underreporting of energy intake»
 > [@willett]
 
 And at the extreme, from food records:
@@ -350,7 +350,7 @@ first principles.**
 the corpus had been dropping:**
 
 > «A doubly-labelled water sub-study carried out as part of the NDNS rolling programme (Bates et al.,
-> 2014) found that reported energy intake in adults aged 16-64 years was, on average, 34% lower than
+&gt; 2014) found that reported energy intake in adults aged 16-64 years was, on average, 34% lower than
 > total energy expenditure (TEE) measured by doubly labelled water. The difference for other age
 > groups was similar except for children aged 4-10 years where reported energy intake was 12% lower
 > than TEE.»

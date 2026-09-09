@@ -274,7 +274,7 @@ work, and both are printed on the cell itself:
 - **footnote 2 hangs off those very cells**: "Though the effect of a decrease in sodium intake was not
   tested, there were **5 cohort studies** that compared lower sodium intake (<2g/day) to higher sodium
   intake (>= 2 g/day). There was a **significant increased risk of stroke** in the group that consumed
-  >=2 g/day relative to the group that consumed < 2 g/day (RR=1.30 (1.03 to 1.64)). Effects on the risk
+  &gt;=2 g/day relative to the group that consumed < 2 g/day (RR=1.30 (1.03 to 1.64)). Effects on the risk
   of cardiovascular disease, coronary heart disease and all cause mortality were not statistically
   significant."
 

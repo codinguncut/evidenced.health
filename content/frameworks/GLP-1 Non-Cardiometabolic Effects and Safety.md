@@ -34,7 +34,7 @@ built to measure. The single gold-tier synthesis of it is an umbrella review of 
 ## What the umbrella actually covers
 
 > «A total of 60 meta-analyses representing 116 unique adverse health outcomes were included, comprising
-> 1751 randomized clinical trials and 3 580 616 participants.»
+&gt; 1751 randomized clinical trials and 3 580 616 participants.»
 
 Populations are mostly type-2-diabetic (72%) and obese (33%), follow-up «3 months to 5.4 years or
 longer». It re-pooled each outcome under a random-effects model rather than trusting the source

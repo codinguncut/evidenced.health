@@ -13,8 +13,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Measurement Error in Dietary Assessment
 created: 2026-08-30
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 ---
 
 The antidepressant class is a **standing drug** the wiki appraises for **efficacy and its limitations**,
@@ -154,6 +154,8 @@ ranking is uncertain, and deliberately does **not** table the 21 drugs as a reco
   **initial** treatment only; the excluded populations (psychotic, treatment-resistant) bound
   transportability.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Limitations — discontinuation and withdrawal (Henssler 2024)
 
 The limitations half of the standing-drug appraisal: what happens on **stopping**. Cipriani named this
@@ -193,7 +195,12 @@ arm is what isolates the part attributable to the drug.
   susceptible to nocebo effects.»
   [@henssler2024discontinuation] Same design logic as
   the statin-nocebo isolation -> [[The Observational-Trial Discordance]] (an inert-pill arm isolates the
-  nocebo component of a *side-effect*).
+  nocebo component of a *side-effect*). This is the **second drug class** to show it: statin muscle
+  symptoms run \~90% nocebo by within-person n-of-1 (Wood/SAMSON), antidepressant discontinuation \~50% by
+  placebo-arm — an independent cross-class confirmation that the *design* travels, though the magnitudes
+  differ -> [[Statin Muscle Symptoms and the Nocebo Effect]] `[E-independent]`. The shared decision rule:
+  do not discontinue on reported symptoms alone; a placebo-controlled taper separates real withdrawal from
+  the nocebo component.
 - **Severe symptoms are uncommon: \~1 in 35, drug-attributable \~1 in 45.** «The incidence of severe
   antidepressant discontinuation symptoms after discontinuation of an antidepressant was 0·028
   (0·014–0·057) compared with 0·006 (0·002–0·013) after discontinuation of placebo.»
@@ -239,7 +246,7 @@ venlafaxine/desvenlafaxine; the per-agent ordering is otherwise preliminary (wid
 bupropion, amitriptyline unstudied). This is a **stratum-level appraisal of a standing drug's
 limitation**, not a discontinuation protocol; tapering-regimen selection stays prescriber-zone.
 
-<div class="recent-update" data-last-updated="2026-09-05">
+</div>
 
 ## Limitations — weight gain and metabolic side-effects (Alonso-Pedrero 2019)
 
@@ -390,8 +397,6 @@ only that the weight differential exists and runs bupropion-favorable. **Gap (ne
 open):** the recency/per-agent update landed (Moss 2025), but no *pooled* RCT estimate of the per-agent
 weight effect exists — Alonso-Pedrero is an SR of cohorts and Moss is narrative (single-study anchors),
 so the magnitude ordering remains an aggregation the wiki structurally cannot compute.
-
-</div>
 
 ## Substitution — where the class sits against the realistic alternatives
 

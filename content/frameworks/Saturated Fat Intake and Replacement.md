@@ -18,7 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-09-07
+updated: 2026-09-08
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
 self_critiqued: 2026-09-07
 ---
@@ -412,7 +412,7 @@ outcome clears the null, and it is not mortality* as an reading of WHO's Annex 6
 does not summarize this way*). Hooper summarizes it **exactly** this way, as the review's headline:
 
 > «We found little or no eﬀect of reducing saturated fat on all-cause mortality (RR 0.96; 95% CI 0.90 to
-> 1.03; 11 trials, 55,858 participants) or cardiovascular mortality (RR 0.95; 95% CI 0.80 to 1.12, 10
+&gt; 1.03; 11 trials, 55,858 participants) or cardiovascular mortality (RR 0.95; 95% CI 0.80 to 1.12, 10
 > trials, 53,421 participants), both with GRADE moderate-quality evidence.»
 > [@hooper2020]
 
@@ -960,12 +960,13 @@ one evidence tier below the SFA->PUFA events RCTs above.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-07">
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## SFA at the NUTRIENT level, on mortality — Ma 2024 adds a clean cancer cell and makes the all-cause null fragile `[2026-09-07]`
 
-Ma's non-linear dose-response MA (101 prospective cohorts) carries SFA as a **nutrient** against
-mortality — the nutrient-level counterpart to Zhang's food-level butter, and it lands two things this
+Ma's non-linear dose-response MA (101 pooled cohort reports across all macronutrients; 46 on
+fat->mortality, SFA one nutrient within — the source gives no SFA-specific cohort count) carries SFA
+as a **nutrient** against mortality — the nutrient-level counterpart to Zhang's food-level butter, and it lands two things this
 page did not hold. First, a **clean new cell: SFA -> cancer mortality 1.10 (1.06-1.14), I2=0.0%,
 p<0.001** — a homogeneous positive association that corroborates the *direction* of Zhang's food-level
 butter->cancer signal (1.12 per 10 g/d) from a different exposure grain. Second, on all-cause it

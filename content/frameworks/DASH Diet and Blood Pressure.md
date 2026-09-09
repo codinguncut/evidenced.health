@@ -2,8 +2,8 @@
 type: framework
 question: Does the DASH dietary pattern lower blood pressure and cardiometabolic risk factors, by how much, and is the effect the pattern or one of its components?
 aliases: [DASH, DASH Diet, Dietary Approaches to Stop Hypertension, DASH and Blood Pressure, DASH Cardiovascular Risk Factors]
-authors: [Siervo, Mario; Lara, Jose; Chowdhury, Shakir; Ashor, Ammar; Oggioni, Carla; Mathers, John C]
-sources: [Siervo - DASH Diet Cardiovascular Meta-Analysis 2015]
+authors: [Siervo, Mario; Lara, Jose; Chowdhury, Shakir; Ashor, Ammar; Oggioni, Carla; Mathers, John C; Chiavaroli, Laura; Blanco Mejia, Sonia; Salas-Salvado, Jordi; Kendall, Cyril WC; Sievenpiper, John L]
+sources: [Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Chiavaroli - DASH Cardiometabolic Umbrella Review]
 cluster: sodium-bp
 confidence: medium
 relationships:
@@ -18,8 +18,8 @@ relationships:
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-08-07
-updated: 2026-08-28
-self_critiqued: 2026-08-28
+updated: 2026-09-09
+self_critiqued: 2026-09-09
 ---
 
 Siervo 2015 (Br J Nutr) is a **systematic review and meta-analysis of 20 RCTs (1917 participants,
@@ -80,6 +80,8 @@ above-optimal-BP / stage-1 hypertension with BMI \~23-37, so DASH's BP benefit i
 elevated-risk population and should not be read as a fixed effect for an optimal-BP, lean person.
 [inferred from @siervo2015]
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Surrogate scope — BP is shown; hard events are not, and the authors say so
 
 The meta-analysis measures risk factors over weeks. Its own Discussion draws the surrogate boundary
@@ -99,12 +101,20 @@ not measured evidence, and the **absolute** benefit still scales with baseline r
 ([[Baseline Risk and the Relative-Absolute Split]]). The one dietary BP route that *did* reach hard
 outcomes in the corpus is a potassium-enriched salt substitute (SSaSS), not DASH.
 
+**PARTIAL update below.** The umbrella review (Chiavaroli 2019) adds a *direct observational* DASH ->
+hard-outcome layer — cohort associations with incident CVD, CHD, stroke and diabetes — so the events
+step is no longer carried by BP-transmission alone. But those are cohort DASH-adherence-score
+associations at GRADE low / very low (residual-confounding / healthy-user structure), not the RCT
+hard-outcome trial that is still owed — see the umbrella section below.
+
 **Symmetric-standards flag on the source's own conclusion.** Siervo's abstract ends *"The DASH diet is
 an effective nutritional strategy to prevent CVD"* — a hard-outcome claim drawn from surrogate deltas
 plus a modelled Framingham projection, with no event measured. Read as an over-reach of exactly the
 surrogate-to-outcome kind [[Surrogate Outcomes]] warns against; the graded finding this page keeps is
 **DASH lowers BP and atherogenic lipids**, not that it prevents CVD events.
 [inferred from @siervo2015]
+
+</div>
 
 ## Which component is doing the work? The MA cannot decompose — but it is NOT the sodium
 
@@ -161,6 +171,84 @@ a true non-role (the same caveat the sodium page attaches to WHO's null by-intak
 
 [inferred from @siervo2015]
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
+## The umbrella upgrade — a hard-outcome cohort layer + GRADE calibration (Chiavaroli 2019)
+
+Chiavaroli 2019 (Nutrients) is an **umbrella review of systematic reviews and meta-analyses**,
+commissioned by the Diabetes and Nutrition Study Group (DNSG) of the EASD, pooling **3 SR/MAs of 15
+unique prospective cohorts (n=942,140) and 4 SR/MAs of 31 controlled trials (n=4,414)** on the DASH
+pattern vs control, graded throughout with GRADE. [@chiavaroli2019]
+It is a **stronger design** (umbrella of SR/MAs) and **more recent** than the incumbent Siervo MA, and
+it adds two things the single-MA page lacked: a **direct hard-outcome cohort layer** and a
+**per-outcome GRADE calibration**.
+
+**NOT independent corroboration — its BP/lipid pooling IS Siervo 2015.** The umbrella's blood-pressure
+and lipid estimates come from its reference [11] = Siervo et al. 2015 — the exact MA already anchoring
+this page — cited as antecedent and re-imported. So this is **type-F refinement / attribution, and
+explicitly NOT a type-E independent corroboration** (a source that restates an earlier one it
+explicitly cites is never E), and the two share the Toronto/Sievenpiper + Salas-Salvado/Kendall school
+besides. **Do not read the
+umbrella's BP number as a second confirmation of Siervo's** — it is the same estimate.
+[inferred from @chiavaroli2019; @siervo2015]
+
+**Parameter table** (op-weave 2a) — is the umbrella's BP effect the same quantity as Siervo's?
+
+| Parameter | Chiavaroli 2019 (umbrella) | Siervo 2015 (incumbent) | Same quantity? |
+|---|---|---|---|
+| Source of the BP pool | its ref [11] = **Siervo 2015** | Siervo 2015 itself | **YES — literally the same MA** |
+| Systolic BP | **-5.20 mmHg** (-7.00, -3.40), 19 trials | **-5.2 mmHg** (-7.0, -3.4), 20 RCTs | **YES — same estimate, re-imported** |
+| Diastolic BP | **-2.60 mmHg** (-3.50, -1.70) | -2.6 mmHg (-3.5, -1.7) | **YES — same estimate** |
+
+[@chiavaroli2019]
+
+**The genuinely new layer — direct cohort hard-outcome associations** (each from a *different*
+underlying MA, none the Sievenpiper school, all observational DASH-adherence-score cohorts):
+
+| Outcome (incident, cohort) | RR (95% CI) | GRADE certainty | pooling MA |
+|---|---|---|---|
+| CVD | 0.80 (0.76-0.85) | low | Schwingshackl 2015 |
+| CHD | 0.79 (0.71-0.88) | very low (indirectness — middle-aged/elderly women) | Salehi-Abargouei 2013 |
+| Stroke | 0.81 (0.72-0.92) | low | Salehi-Abargouei 2013 |
+| Diabetes | 0.82 (0.74-0.92) | very low (inconsistency I2=62%) | Jannasch 2017 |
+
+[@chiavaroli2019]
+These are \~18-21% relative reductions, but a DASH-adherence score in a cohort is a **diet-quality
+proxy** correlated with many healthy behaviours, so the residual-confounding / healthy-user structure
+is why the umbrella itself grades them **low to very low** — directional support for the DASH -> events
+step, **not** the causal proof an RCT would give.
+[inferred from @chiavaroli2019]
+
+**Per-outcome GRADE (risk factors), the calibration the incumbent page lacked:** SBP **moderate**,
+DBP low, LDL-C **moderate**, Total-C low, body weight **moderate**, HbA1c low, fasting insulin /
+HOMA-IR moderate, blood glucose low, CRP low. Two outcomes are new vs the Siervo-only table: **body
+weight -1.42 kg** (-2.03, -0.82; GRADE moderate; Soltani 2016) and **HbA1c -0.53%** (-0.62, -0.43;
+GRADE low; a manual 2-trial MA). The umbrella's overall verdict:
+> «The certainty of the evidence based on the GRADE approach was very low to low for associations with
+> cardiometabolic disease incidence and low to moderate for effects on cardiometabolic risk factors.»
+[@chiavaroli2019]
+
+**The surrogate boundary is softened, not dissolved — the authors say so.** Even with the cohort
+layer, the umbrella closes on the same honest gap this page already held:
+> «In this regard, there remains a need for large randomized trials of the effect of the DASH dietary
+> pattern on clinical CVD outcomes in those with and without diabetes.»
+[@chiavaroli2019]
+
+**Diabetes-status transportability — a reasoned judgment, not a subgroup test.** The umbrella extends
+its finding to people *with* diabetes, but note the warrant: it explicitly **declined to downgrade for
+indirectness** despite most trials/cohorts being in people without diabetes, resting instead on
+component-level RCTs showing «evidence of a subgroup effect by diabetes status» was absent and on
+diabetes-only trials whose effects sat within or beyond the pooled CIs. [@chiavaroli2019]
+That is a route-(a)-style *no reason to expect a different relative effect* judgment (the authors' own
+choice not to downgrade), **not positive route-(b) effect-modification evidence** that DASH works
+*better or worse* in diabetes — so read it as reasonable transportability, not a stratified claim.
+[inferred from @chiavaroli2019] — the reasoned-judgment-not-subgroup-test
+framing is this page's; the no-downgrade decision and the component-RCT warrant are Chiavaroli's.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Limits
 
 - **Surrogate-only, 2-24 weeks.** No hard endpoint; the CVD-prevention claim is a modelled projection.
@@ -168,24 +256,42 @@ a true non-role (the same caveat the sodium page attaches to WHO's null by-intak
   P=0.01).
 - **Almost entirely US / non-European trials** — the authors flag limited evidence on applicability
   and acceptability outside the USA. Transportability of the magnitude is untested.
-- **Single gold-tier MA, no independent second pooling held** — `confidence: medium`. A DASH-Sodium
-  or DASH-hard-outcome source would move this; the DASH -> events question stays open (type-G gap),
-  answerable only via the BP-transmission cross-link, not directly.
+- **No *independent* second pooling of the BP effect** — `confidence: medium` **holds, not raised.**
+  The umbrella (Chiavaroli 2019) is a stronger design and adds a GRADE-calibrated cardiometabolic +
+  cohort-incidence layer, **but its BP/lipid estimate is Siervo re-imported** (same trials, same
+  school), so it upgrades the *framing and design pedigree* without multiplying the underlying
+  evidence; and the new DASH -> events layer it brings is cohort-grade **low / very low**. What would
+  move confidence up is the RCT hard-outcome trial the umbrella itself still calls for, or a
+  genuinely independent BP pooling — neither is held. The DASH -> hard-events question is now
+  *partially* answered (observationally), no longer a bare type-G gap.
 
-[inferred from @siervo2015]
+[inferred from @siervo2015; @chiavaroli2019]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Decision relevance
 
 - **DASH is an evidenced BP-lowering pattern** (-5.2/-2.6 mmHg vs control) with a modest LDL/total-
   cholesterol co-benefit and no glucose/HDL/TAG effect — a real surrogate move, larger in
   higher-BP / higher-BMI people.
-- **Its value on hard outcomes rides on the BP -> events chain, not on DASH trials** — credit it the
-  way you credit any lifestyle BP reduction, and weigh the absolute benefit by the person's baseline
-  CV risk, not by the mmHg alone.
+- **Its value on hard outcomes rides on the BP -> events chain AND a direct cohort layer** — DASH
+  adherence is associated with \~18-21% lower incident CVD / CHD / stroke / diabetes in cohorts, but at
+  GRADE low / very low (diet-score confounding) [@chiavaroli2019],
+  so this is directional observational support, not RCT proof; credit it the way you credit any
+  lifestyle BP reduction, and weigh the absolute benefit by the person's baseline CV risk, not by the
+  mmHg alone.
+- **Works as first-line OR add-on BP therapy** — the pooled trials included both unmedicated
+  hypertensives and people already on BP drugs, with a significant BP fall in both
+  [@chiavaroli2019], so DASH is not made
+  redundant by pharmacotherapy — it stacks on top.
 - **Do not double-count DASH with sodium reduction**; treat them as complementary (stackable) levers,
   not additive-independent ones.
 - **The *choice between* named programmes barely matters for weight or BP** ([[Named Diet Programs Compared]],
   where between-diet differences are trivial) — but that is a between-diet statement; DASH-vs-usual-diet
   still buys a real BP reduction, and DASH is the pattern designed for and specifically pooled on BP here.
+
+</div>
 
 ## References

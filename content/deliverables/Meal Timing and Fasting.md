@@ -53,8 +53,6 @@ distinct exposures, and the daily-window version is a delivery vehicle for a def
 independent lever. [inferred from @liu2022; @semnaniazad2025]
 
 
-<div class="recent-update" data-last-updated="2026-09-06">
-
 ## Eating more often is not a weight lever either
 
 The same logic settles the *weight* half of the *grazing* belief -- that small, frequent meals stoke
@@ -69,7 +67,6 @@ even where the mechanism stays open: do not add meals to burn more.
 [inferred from @liu2022]
 -> [[Time-Restricted Eating]].
 
-</div>
 
 ## Eating earlier moves a few markers, on the weakest possible evidence
 

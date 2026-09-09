@@ -8,12 +8,12 @@ sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol 
   Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
   Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
   Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017,
-  Villoz - Dairy Cognitive Decline Dementia 2024]
+  Villoz - Dairy Cognitive Decline Dementia 2024, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020]
 cluster: inference-pitfalls
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -34,6 +34,7 @@ relationships:
     - Should Sodium Reduction Be Population-Wide or Targeted
     - Heme Iron and Cardiometabolic Risk
     - Dairy and Cognitive Decline
+    - Central Adiposity and All-Cause Mortality
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -93,7 +94,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Where it applies in the wiki
 
@@ -572,6 +573,33 @@ equally consistent with the causal and the artifact explanation has no diagnosti
       **NOT independent-E of the held BMI-MR fabric** — co-author Di Angelantonio also leads Global BMI
       2016, and Sun cites Wade (ref 33); the HUNT cohort and the smoking decomposition are what is novel
       -> **type-F** -> [[BMI and All-Cause Mortality]].
+  - **Central adiposity has FAR LESS lower arm to defend than BMI — the confound that manufactures the
+    obesity paradox does not load the low-WAIST end `[2026-09-08, Jayedi central-fatness]` `type-F`.**
+    The BMI instance above is a J with a *substantial* protective-looking overweight arm that the cascade
+    had to strip. Jayedi 2020's central-fatness dose-response MA (72 cohorts, 2.53M, 150,164 deaths) runs
+    the same all-cause outcome for waist-based measures and the U largely disappears: WHR and ABSI are
+    **monotone** with «little evidence of sharp changes at particular cut-off points»
+    [@jayedi2020central]; waist
+    circumference and waist-to-height ratio are shallow-J with a **negligible** protective arm (WC nadir
+    men 90 cm HR 0.96, women flat over 60-80 cm; the lower arm spans only \~0.96-1.01, a threshold-then-rise
+    rather than a benefit-then-harm curve). Only BAI (n=4, large total-fat component) shows a real U.
+    - **Why the arm shrinks — the mechanism the concept predicts.** BMI's low arm is manufactured by
+      frailty/low-lean-mass (thin people include the sick and sarcopenic); a low *waist* does not carry
+      that confound: «smaller waist circumference might reflect lower detrimental visceral fat mass and
+      does not necessarily reflect lower lean body mass»
+      [@jayedi2020central]. So the
+      artifact-generating confounder (reverse-causation/frailty at the low end) is *absent by
+      construction* for the waist measure — the curve is closer to monotone not because it was adjudicated
+      away but because the exposure does not encode the frailty signal BMI does. This sharpens the
+      *adjudicate the arm* rule: **a better-specified exposure can lack the arm the crude proxy invented**.
+    - **Adjudication strength: WEAK checks only.** Jayedi ran the never-smoker / healthy / >10y-follow-up
+      restriction family (results «approximately similar»
+      [@jayedi2020central]) — the same
+      weak route the alcohol U survived — with **no MR and no referent-correction**. So the small residual
+      arms stay formally unadjudicated; but unlike BMI there is little protective arm to defend. Not
+      independent-E of the BMI instance (a distribution refinement of the same adiposity->mortality
+      question, shared observational base) -> **type-F** -> [[Central Adiposity and All-Cause Mortality]],
+      [[BMI and All-Cause Mortality]].
 - **Hemoglobin -> CAD — the MR DIRECTLY TESTS the U's nonlinearity and finds none `[2026-09-03, Liu]`
   `type-F`.** A distinctive *shape*-dissolution instance: most catalog instances infer the artifact from
   tells (mechanism-absence, heterogeneity, a referent flip), and alcohol/BMI adjudicate via referent-

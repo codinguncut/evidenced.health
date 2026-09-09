@@ -87,6 +87,8 @@ Three features matter for decisions.
 
 This is *statin* lowering — the concordant, no-off-target case. It does not automatically transfer to a diet-induced change.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## How the number was lowered matters — a diet drop is not a drug drop per unit
 
 The proviso «provided the LDL-C drop is concordant with the particle-number drop, and there are no competing off-target effects» is not fine print. The recovered **Minnesota Coronary Experiment** is the cleanest case of it biting: replacing saturated fat with corn-oil linoleic acid lowered serum cholesterol sharply (**-13.8% vs -1.0%** in controls) yet produced **no mortality benefit** — pooled CHD mortality 1.13, all-cause 1.07 [@ramsden2016]. The **Sydney Diet-Heart** companion lowered cholesterol even more in the intervention arm (**-13.3% vs -5.5%**) yet that arm had *higher* mortality [@ramsden2013].
@@ -100,7 +102,11 @@ The proviso «provided the LDL-C drop is concordant with the particle-number dro
 
 [inferred from @landry2024vegetarian] So even taken at its confounded observational face value, the dietary LDL lever is real but small — and by this deliverable's own drug-route-only rule, a diet-induced LDL change does not buy hard events at CTT's statin-derived RR 0.78-per-mmol rate.
 
- **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat]. And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
+ **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat].
+
+And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-09-07">
 
@@ -148,16 +154,15 @@ Both harms land on the same instruction — keep the indicated statin — but fo
 
 </div>
 
-## Eggs and dietary cholesterol are a near-non-lever for most people
+<div class="recent-update" data-last-updated="2026-09-09">
 
-The largest dose-response meta-analysis (39 cohorts, \~2 million people) lands on **«no conclusive evidence on the role of egg in CVD risk»** [@godos2020]. Every general-population estimate sits within a few percent of 1.00 (CVD 0.95 at 4 eggs/week, CI kissing the null), at GRADE **low** certainty. The egg question is a big-worry, small-effect one that ranks *low* — the attention it attracts is an anti-signal, not a magnitude.
+## Dietary cholesterol barely moves the number for most people
 
-Two strata break from the near-null, both worth naming:
+Eggs are the classic dietary-cholesterol scare, and for the lipid decision they are close to a non-lever. A food's cholesterol content (\~180 mg/egg) is not a serum-cholesterol effect: in most people absorption and endogenous synthesis compensate, and only a minority of *hyper-responders* show a real LDL rise [@godos2020]. So the apoB lever runs mainly through other routes -> [[Dietary Fat]], [[Is the Food Category Doing Any Work]].
 
-- **Type 2 diabetes:** the direction reverses — habitual (\~1/day) intake carried a **1.22 (1.08-1.39)** relative CVD-risk increase [@godos2020]. Low-certainty observational subgroup, but a credible flag: treat daily eggs as a watch-item, not a free food.
-- **Heart failure:** the one harm arm, rising to **1.15 (1.02-1.30)** at 1 egg/day, mechanism unknown [@godos2020].
+The full egg appraisal — the dose-response across CVD endpoints, the type-2-diabetes stratum where the direction reverses, and the heart-failure arm — lives in [[Eggs Dietary Cholesterol and Cardiovascular Risk]] and the [[Eggs]] deliverable. It is a big-worry, small-effect question that ranks low, and the evidence is entirely observational FFQ cohorts at GRADE **low** certainty.
 
-**Why the scare mostly fails:** a food's cholesterol content (\~180 mg/egg) is not a serum-cholesterol effect. Only a minority of *hyper-responders* show a real LDL rise to dietary cholesterol; for most people absorption and endogenous synthesis compensate [@godos2020]. The apoB lever is reached mainly by other routes -> [[Dietary Fat]], [[Is the Food Category Doing Any Work]]. This section is `confidence: low` — entirely observational FFQ cohorts, carrying the domain's dietary-measurement-error constraint.
+</div>
 
 ## Lipids are one axis of cardiovascular risk, not the whole of it
 

@@ -97,6 +97,8 @@ rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is r
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## (a) Robust big rocks — lead here
 
 ### Move more, at any intensity, plus resistance — the largest robust lever
@@ -208,6 +210,7 @@ is a soft, non-significantly-located knee sitting on a wide interval, not a demo
 -> [[Protein and Resistance Training for Muscle and Strength]] (where the break point and its interval are
 stated). That break was measured on *total* body weight in lean, normal-BMI trainees, so read it loosely,
 not as a hard number.
+
 For a centrally-obese adult the caveat bites: 1.62 times total bodyweight over-states the grams, because
 protein needs track lean, not adipose, mass — so scale the target down toward lean mass as a sensible but
 unproven adjustment, since the obese target here is genuinely off-support, a gap rather than a settled
@@ -232,7 +235,9 @@ The fat-quality lever earns its robustness from the replacement, not from mere a
 and replacing it with polyunsaturated fat — the dominant fat in vegetable and seed oils, nuts, seeds and
 oily fish — is WHO's one strong replacement recommendation, and its relative benefit is constant across
 baseline risk, sex and duration, so no subgroup claim is needed
-[@who2023saturated]. But its
+[@who2023saturated].
+
+But its
 reach is narrow: the only hard outcome that clears no-effect is cardiovascular *events* — 15 fewer per 1000
 (RR 0.83, 0.70-0.98, moderate certainty) — while all-cause mortality is null (RR 0.96, 0.90-1.03)
 [@who2023saturated]. That moving composite is mostly
@@ -308,6 +313,8 @@ remaining levers are small by construction. That is a result, not a failure to f
 effects in this domain are settled and few; the long tail of refinements shares what little is left. For
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
+
+</div>
 
 ## (b) Stratum-dependent — conditional on metabolic status
 

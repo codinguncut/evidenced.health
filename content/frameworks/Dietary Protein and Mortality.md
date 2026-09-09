@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary protein intake change mortality, and does the protein SOURCE (animal vs plant) matter more than the amount?
 aliases: [Protein Source and Mortality, Plant vs Animal Protein Mortality, Protein Intake Mortality, Protein and Longevity, Protein Mortality]
-authors: [Naghshi, Sina; Sadeghi, Omid; Willett, Walter C; Esmaillzadeh, Ahmad; Seidelmann, Sara B; Budhathoki, Sanjeev; Sawada, Norie; Iwasaki, Motoki; Tsugane, Shoichiro]
-sources: [Naghshi - Dietary Protein Mortality 2020, Seidelmann - Carbohydrate Intake Mortality 2018, Budhathoki - Animal Plant Protein Mortality 2019, Ma - Dietary Macronutrient Intake Cardiovascular 2024]
+authors: [Naghshi, Sina; Sadeghi, Omid; Willett, Walter C; Esmaillzadeh, Ahmad; Seidelmann, Sara B; Budhathoki, Sanjeev; Sawada, Norie; Iwasaki, Motoki; Tsugane, Shoichiro; Nachvak, Seyed Mostafa]
+sources: [Naghshi - Dietary Protein Mortality 2020, Seidelmann - Carbohydrate Intake Mortality 2018, Budhathoki - Animal Plant Protein Mortality 2019, Ma - Dietary Macronutrient Intake Cardiovascular 2024, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 cluster: nutrition
 confidence: low
 relationships:
@@ -15,9 +15,10 @@ relationships:
     - Whole Grains Refined Grains and Pulses
     - Dietary Fibre and Health
     - The Estimate-to-Action Gap
+    - Soy Products and Health
 created: 2026-08-05
-updated: 2026-09-07
-self_critiqued: 2026-09-07
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 ---
 
 The popular framing is about *how much* protein — high-protein for longevity, or high-protein as a
@@ -293,6 +294,8 @@ endpoint. Read 0.77 as a directional, source-agnostic signal on a thin base, not
   source is a large non-Western / non-Naghshi-pooled cohort that could also test whether the plant signal
   is independent of the fibre/whole-grain lever it may run through.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## The plant-protein signal may be the fibre/pulse lever under another name (a gap)
 
 Plant-protein foods *are* largely the legume/whole-grain/nut foods the wiki already credits with lower
@@ -301,5 +304,35 @@ mortality via **fibre** [[Dietary Fibre and Health]] and the pulse/whole-grain e
 food matrix carrying it, so whether *plant protein* is an independent lever or a proxy for those foods
 is **unresolvable here** — a G-gap, and a caution against double-counting it as a separate big rock.
 [inferred from @naghshi2020]
+
+### One plant-protein source (soy protein) does NOT reproduce the pooled plant benefit — a weak refinement (Nachvak 2019)
+
+Nachvak's soy-mortality MA isolates **soy protein** — a single member of Naghshi's pooled plant bucket
+— and on the one comparable cell it runs the *other* way: soy protein is **null on CVD mortality**
+where the pooled plant-protein nutrient is inverse, and its all-cause cell is **not even poolable** (1
+study). The only significant soy-protein mortality signal is a survivor breast-cancer endpoint
+[[Soy Products and Health]]. These are **different estimands** (one plant-protein food, dosed in g/d,
+vs the whole plant bucket, energy-adjusted), so this is a distinction/refinement, not a tension —
+parameter table first:
+
+| Parameter | Naghshi 2020 (plant-protein nutrient, pooled) | Nachvak 2019 (soy protein, one source) | Same quantity? |
+|---|---|---|---|
+| All-cause mortality | «0.92 ... 0.87 to 0.97» inverse ✓ | **not poolable** (1 study) | **NO — Nachvak cannot estimate the cell** |
+| CVD mortality | «0.88 ... 0.80 to 0.96» inverse ✓ | 0.99 (0.84-1.17) **null** | **comparable endpoint — soy-protein cell is NULL** |
+| Breast-cancer mortality | not reported | 0.73 (0.55-0.96) ✓ (survivor cohorts) | **NO — new + survivor endpoint** |
+| Exposure unit | plant protein as a nutrient (legumes+grains+nuts+soy), energy-adj | soy protein specifically, g/d | **NO — subset of the bucket** |
+
+[@naghshi2020]
+
+**Why this sharpens the fibre/matrix gap above, weakly.** If the pooled plant-protein CVD-mortality
+benefit were carried by the *protein nutrient*, an isolable plant-protein source should show it; that
+soy protein does **not** (on the one comparable cell) is directional evidence — weak — that the plant
+signal rides the whole-food matrix (fibre, the legume/pulse package) rather than the protein itself.
+**Do not overread it:** a single observational cell, measurement-error-attenuated, on a soy-protein
+exposure often eaten as isolate/tofu (a different matrix again), and the all-cause cell is missing
+entirely — this *nudges* the fibre-proxy reading, it does not settle it.
+[inferred from @nachvak2019soy; @naghshi2020]
+
+</div>
 
 ## References

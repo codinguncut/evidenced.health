@@ -14,7 +14,7 @@ relationships:
     - Continuous Glucose Monitoring as a Health Intervention
     - Certainty of Evidence vs Strength of Recommendation
 created: 2026-07-29
-updated: 2026-08-18
+updated: 2026-09-08
 self_critiqued: 2026-09-05
 ---
 
@@ -212,7 +212,12 @@ resolving it:
   [EXTRACTED (aspartame-safety-review-nutrients-2023) chunk 01] It is a *narrative* review — regulatory
   summary and contraindication list, not independent quantitative evidence.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## IARC 2023 — the primary hazard classification (now held) `[2026-08-04]`
+
+The hazard-vs-risk distinction this section turns on is owned at concept altitude by
+[[Hazard Identification Is Not Risk Magnitude]]; aspartame is one of its two worked instances.
 
 The primary IARC hazard evaluation (Lancet Oncol summary of Monographs Vol 134) is now held directly —
 not merely the reported label. IARC does **hazard identification** (can aspartame cause cancer at *any*
@@ -248,6 +253,8 @@ collapse, kept apart here:
   can't-exclude-confounding hazard signal into a demonstrated dietary risk. Symmetric standards cut both
   ways: it is a *finding* (a positive hazard classification, not dismissible), but a **weak** one.
   [inferred from @iarc2023]
+
+</div>
 
 ## JECFA 2023 — the risk assessment (now held) `[2026-08-04]`
 

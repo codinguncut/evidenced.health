@@ -38,7 +38,7 @@ Gencer 2021, a gold SR+MA of **7 marine omega-3 CV-outcome RCTs (81,210 patients
 > [@gencer2021]
 
 > «In meta-regression, the HR for AF increased per 1 g higher dosage of omega-3 fatty acids dosage (HR,
-> 1.11 [95% CI, 1.06-1.15]; P=0.001).»
+&gt; 1.11 [95% CI, 1.06-1.15]; P=0.001).»
 > [@gencer2021]
 
 - **Overall:** HR **1.25 (1.07-1.46)** — a \~25% relative increase in AF, absolute base rate \~1.3%/yr

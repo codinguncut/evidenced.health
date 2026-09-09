@@ -20,8 +20,6 @@ created: 2026-09-05
 updated: 2026-09-05
 self_critiqued: 2026-09-05
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
-
 
 The GLP-1 receptor agonists are a widely-prescribed standard drug class, so their efficacy and limits on
 hard outcomes are a stratum-level decision in their own right (the *Pharmacotherapy taper*). This page

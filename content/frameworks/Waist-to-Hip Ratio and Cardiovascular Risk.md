@@ -2,13 +2,13 @@
 type: framework
 question: Which anthropometric measure best identifies who is at risk of myocardial infarction — BMI, or a marker of abdominal/central adiposity (waist circumference, waist-to-hip ratio)?
 aliases: [Waist-to-Hip Ratio, WHR, Waist Circumference and Heart Disease, Abdominal Obesity and Myocardial Infarction, Anthropometric Markers of Cardiovascular Risk, Central Adiposity and CVD]
-authors: [Yusuf, Salim; Hawken, Steven; Anand, Sonia S; Wormser, David; Di Angelantonio, Emanuele; Danesh, John]
-sources: [Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011]
+authors: [Yusuf, Salim; Hawken, Steven; Anand, Sonia S; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Jayedi, Ahmad; Shab-Bidar, Sakineh]
+sources: [Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020]
 cluster: weight-management
 confidence: moderate
 self_critiqued: 2026-09-04
 created: 2026-08-25
-updated: 2026-09-04
+updated: 2026-09-08
 relationships:
   related_to:
     - Ectopic Fat and Depot-Specific Risk
@@ -19,6 +19,7 @@ relationships:
     - The U-Shaped Association Artifact
     - BMI vs Abdominal-Adiposity Markers - Which Predicts CVD
     - Baseline Risk and the Relative-Absolute Split
+    - Central Adiposity and All-Cause Mortality
 ---
 
 **The measure you pick changes who counts as at-risk.** INTERHEART — a standardised case-control study
@@ -118,7 +119,7 @@ prospective CVD. This is the higher-design test INTERHEART itself could not be �
 [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 
 - **The measures are similar, not 3x apart.** Per-1-SD HRs for CVD (age/sex/smoking-adjusted, BMI
-  >=20) were BMI 1.23 (1.17-1.29), WC 1.27 (1.20-1.33), WHR 1.25 (1.19-1.31) — near-identical, against
+  &gt;=20) were BMI 1.23 (1.17-1.29), WC 1.27 (1.20-1.33), WHR 1.25 (1.19-1.31) — near-identical, against
   INTERHEART's \~3-fold WHR-over-BMI gap. «BMI, waist circumference, and waist-to-hip ratio each have a
   similar strength of association with cardiovascular disease risk» [@erfc2011whr]. ERFC's own verdict: «Our
   findings reliably refute previous recommendations to adopt baseline waist-to-hip ratio instead of BMI
@@ -154,6 +155,33 @@ factors are known, BMI is an adequate and more-reproducible clinical adiposity m
 switching to WHR does not survive prospective design.** The WHR-over-BMI case is strongest where
 conventional risk factors are *unmeasured* and in the non-European strata ERFC could not test.
 [inferred from @erfc2011whr]
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## The prospective mortality endpoint — Jayedi partly cashes the AWAITS gap (a DISTINCTION, not a tension) `[2026-09-08, Jayedi]` `type-F`
+
+The *Limits* section below flags the gap: prospective corroboration of the waist-harmful /
+hip-protective pattern on hard outcomes. Jayedi 2020's dose-response MA of central adiposity (72
+prospective cohorts, 2.53M) supplies it **on the all-cause-mortality endpoint** — a *different quantity*
+from this page's MI-prediction question, so it corroborates the pattern rather than joining the
+INTERHEART-vs-ERFC tension. The parameter table shows why it is a distinction:
+
+| Parameter | INTERHEART / ERFC (this page) | Jayedi 2020 | Same quantity? |
+|---|---|---|---|
+| Endpoint | acute MI (INTERHEART) / incident CVD (ERFC) | all-cause mortality | **NO** — the distinction |
+| Design | case-control / prospective cohorts, CVD prediction | prospective cohorts, mortality dose-response | partly (both prospective for ERFC/Jayedi) |
+| Question | which marker best *predicts* CVD | shape + BMI-independence of central-fat -> death | **NO** — prediction-ranking vs dose-response |
+| Waist / WHR direction | harmful (WHR strongest MI marker) | harmful (WHR 1.20 per 0.1; WC 1.11 per 10 cm) | **YES** — same sign, corroborated |
+| Hip direction | protective (0.73/quintile, MI) | protective (0.90 per 10 cm, mortality) | **YES** — same waist-harmful/hip-protective split |
+
+So Jayedi **confirms the waist-harmful / hip-protective split on a new (mortality) endpoint** — the hip
+protection this page flagged as the reverse-causation-exposed finding survives into prospective cohorts
+with baseline measurement [@jayedi2020central] — without touching the marker-ranking tension (which is about *prediction* strength, not
+mortality dose-response). It does NOT resolve the ERFC-vs-INTERHEART clash, because it never ranks the
+markers against each other for prediction. Full mortality curve and shape:
+[[Central Adiposity and All-Cause Mortality]].
+
+</div>
 
 ## Limits — read the design before the ORs
 

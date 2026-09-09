@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S]
-sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S; Zhang, Yaru; Zhang, Wei; Wang, Hui-Fu; Ou, Ya-Nan; Qu, Yi; Shen, Xue-Ning; Chen, Shi-Dong; Wu, Kai-Min; Zhao, Qian-Hua; Zhang, Hai-Ning; Sun, Li; Dong, Qiang; Tan, Lan; Feng, Lei; Zhang, Can; Evangelou, Evangelos; Smith, A. David; Yu, Jin-Tai]
+sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Zhang - Modifiable Risk Factors Dementia Cognitive Impairment Umbrella 2022]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -41,6 +41,7 @@ relationships:
     - Soy Isoflavones and Cognitive Function
     - Sleep and Cognitive Decline
     - Dairy and Cognitive Decline
+    - Single Food Components and Cognitive Outcomes
 ---
 
 **Nucleus of the `dementia` cluster** — the domain-opener. Dementia is a top healthspan axis (57 million
@@ -97,6 +98,93 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 | Uncorrected vision **(new 2024)** | RR 1.47 (1.36-1.60) | late life |
 
 [@livingston2024]
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## The evidence-STRENGTH axis, orthogonal to PAF — Zhang's credibility tiering (F/C-advance, 2026-09-08)
+
+The Commission's list answers *how much* dementia each factor accounts for at the population level (PAF
+magnitude). It does **not** answer *how believable* each association is once study design, heterogeneity,
+and bias are tested. An umbrella review supplies that missing axis: it grades the strength and validity
+of the evidence per factor. «We conducted an umbrella review to evaluate the strength and validity of the
+existing evidence»; the motivating gap is that «hierarchies of evidence have not been determined across
+various factors»
+[@zhang2022dementia].
+
+Scale: 243 unique factor-outcome associations from 70 SR/MAs (64 observational, 5 RCT, 1 both) + 48 MR
+studies. Each association is graded on pooled effect + p-value + case count + I2 + 95% prediction interval
++ small-study (Egger) + excess-significance bias into a **class I-IV** scheme — convincing (p<10^-6,
+cases>1000, I2<50%, PI excludes null, no bias) · highly suggestive · suggestive (p<10^-3) · weak (p<0.05)
+· non-significant. Counts across the 243: **12 convincing · 12 highly suggestive · 27 suggestive · 87 weak
+· 105 non-significant** — «Twelve associations were graded as convincing evidence involving education,
+BMI, depression, gait speed, blood glucose level, atrial fibrillation and benzodiazepine use»
+[@zhang2022dementia]. Grades
+are per outcome — a factor can be convincing for one outcome, weak for another.
+
+### The two axes are different quantities — a distinction, NOT a tension
+
+The parameter table forces the point: Zhang's class and Livingston's PAF measure different things, so
+the umbrella review neither confirms nor contradicts the PAF headline — it adds a perpendicular reading.
+
+
+| Parameter | Zhang 2022 (VoR) | Livingston 2024 | Same quantity? |
+|---|---|---|---|
+| What the number grades | evidence-credibility class (I-IV), from p + cases + I2 + PI + bias tests | population attributable fraction (% of dementia preventable) | **NO** — believability of the association vs its population-level magnitude |
+| Physical activity | *suggestive* (class III) | in the 14; inactivity RR 0.80 (0.77-0.84), part of the 45% PAF | **NO** — a credibility tier vs a PAF contribution |
+| Diet (fruit & veg) | *suggestive* (class III) | not itemized in the 14 (diet is not a Commission factor) | **NO** — different construct entirely |
+| Depression | *convincing* (class I), RR 1.85 (1.67-2.04) for ACD | in the 14, RR 2.25 (1.69-2.98) | **NO** — Zhang certifies believability; Livingston sizes impact |
+
+[@zhang2022dementia; @livingston2024]. **The per-factor point estimates for the *suggestive*
+lifestyle levers (physical activity, fruit & veg, wine) live in the source's figure panels (Figs 2-4),
+which the VoR's OCR text does not recover — so only their credibility GRADE is cited here, not a bare
+RR the VoR text cannot confirm.**
+
+### What the strength axis tempers, and what it raises
+
+**Tempers several Livingston-14 lifestyle levers.** Physical activity and diet (fruit & vegetables) land
+only at *suggestive* (class III), not convincing — the observational protection is real but not bias-proof
+by the umbrella's bar. Wine reaches only *suggestive* as well. And the interventional leg is thin:
+only 9 RCT-derived associations, «the protective effects of physical activity and unsaturated fat
+supplementation are not significant in meta-analyses of RCTs»
+[@zhang2022dementia] —
+converging with the FINGER/supplement-null story this page already holds (see *The RCT leg* section
+below).
+
+**Raises new high-grade factors NOT on the Commission's 14.** «There were new modifiable factors firstly
+raised in our study that reached a high level of evidence like low gait speed and hypoglycemia»
+[@zhang2022dementia]; also
+convincing/highly-suggestive but off-list: atrial fibrillation, benzodiazepine use, homocysteine. Gait
+speed and hypoglycemia are largely prodromal/reverse-causal markers, not obvious lifestyle levers — a
+credibility grade is not a causal or actionable warrant.
+
+**The obesity paradox, life-course-split.** Midlife obesity is graded a risk (suggestive); late-life
+overweight (BMI 23-30) is *convincingly* protective, RR 0.81 (0.75-0.88) — «late-life high BMI is
+convincingly protective of dementia and cognitive impairment»
+[@zhang2022dementia] — read
+through leptin/CSF mechanisms and, more plausibly, prodromal reverse causation (late-life weight loss as an
+early-disease marker). This sharpens the midlife-vs-late-life window the 14-factor table already carries
+for obesity.
+
+**A causal-verification (MR) layer.** 48 MR studies / 157 causal analyses give a genetic natural-experiment
+check on top of the credibility grade. Two factors clear BOTH the top tier AND MR: «Our findings from MR
+studies verified causal relationships of convincing factors education and plasma glucose with Alzheimer's
+disease»
+[@zhang2022dementia].
+MR also flags periodontitis and alcohol as raising AD risk — corroborating (not independently, see below)
+the periodontal candidate lever this page holds (see *Periodontal disease* section below).
+
+**The whole tiering rests on low-quality underlying reviews** — the umbrella's own stated limitation
+(AMSTAR-2: only 39% high, 31% low, 6% critically low). The credibility axis grades the *evidence*, not the
+*world*; a convincing class means the association survives bias tests, not that acting on the factor
+prevents dementia.
+
+**Not an independent witness (NOT-E).** Zhang is the Qingdao/Fudan group (Yu Jin-Tai corresponding), shares
+authors with held dementia sources (Xu, Wei is on both this and the omega-3 source), and cites Livingston
+2017/2020 while resting partly on the same observational literature. So this is a **type-F** credibility
+refinement of Livingston plus a **type-C** new axis — never `[E-independent]` against Livingston or the
+group's own siblings.
+
+</div>
 
 ## The cognitive-stimulation number, de-secondhanded (F-refinement, 2026-08-14)
 
@@ -390,12 +478,19 @@ design-upgrade de-secondhanding, not an identity-plus-enrichment.
   lower dementia risk but push its onset back *further than* life expectancy extends, compressing the
   years lived with dementia -> the shape-of-decline outcome the telos centres.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## The diet lever — quantified, observational, and probably NOT additive to the cardiometabolic rocks
 
 **Diet is not one of the Commission's headline 14 factors as a standalone** — it acts *through* its
 components (hypertension, diabetes, obesity, LDL, activity), which are counted separately. A specific
 Mediterranean-diet -> AD/MCI quantification lets us size the lever and, more importantly, see why adding it
 on top of those factors would double-count.
+
+The single-COMPONENT arms below (dairy, flavonoids, soy) share one structure the individual sections only
+state piecewise, lifted on [[Single Food Components and Cognitive Outcomes]]: each shows a signal on a soft
+or surrogate endpoint and **none** on the hard AD / incident-dementia diagnosis — a Layer-1 ceiling that
+licenses not chasing individual foods or isolated-component supplements for cognition.
 
 - **The association (Garcia-Casares 2021, dose-response MA, 11 studies / 12,458 participants).** Per
   one-point rise on the 0-9 MD adherence score: **AD RR 0.89 (0.84-0.93)** («an 11% reduced risk of
@@ -504,6 +599,8 @@ confirmation. Every "Same quantity?" cell is NO, so this is a bounding/refinemen
 The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PREDIMED, stroke-driven, at
 high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
 mediation reading: the pattern's best-evidenced effect is on the vascular channel that feeds AD risk.
+
+</div>
 
 ## Periodontal disease — an observational candidate lever, NOT one of the 14 (2026-08-23)
 
@@ -705,8 +802,6 @@ rocks; it reinforces the F&V lever rather than adding to it (it is a *part* of i
 claimed. The page grade stays `medium` on the Commission's consensus backing; the flavonoid slice is a
 weaker `low` sub-leg of the F&V lever.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Dairy — a candidate FOOD-GROUP lever whose only signal is a pooling artifact, NOT one of the 14 (2026-09-05)
 
 Dairy is another food-group diet lever, sibling to UPF and fruit/veg above — and it is the **weakest** of
@@ -741,8 +836,6 @@ So the lever is `confidence: low` — weaker than the other diet levers, since e
 and its one curve feature is a pooling artifact. It does not reorder the cardiometabolic big rocks. A
 future independent test must avoid the Villoz/Filippini/Vinceti (Modena) author group
 -> an independent dairy-cognition SR/MA.
-
-</div>
 
 ## Sleep disorders — a non-diet candidate lever, NOT one of the 14 (2026-09-04)
 
@@ -881,8 +974,6 @@ prevention of T2D incidence (the shared rock this page already counts, and the s
 removes the driver -> [[Lifestyle vs Metformin for Diabetes Prevention]]) is untouched and still ranks
 above managing which pill.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Scope guard
 
 Multicomponent prevention RCTs (FINGER-family) show only a **small** cognitive-composite benefit (Cochrane
@@ -913,9 +1004,7 @@ cognitive training is the top combination and the fuller multidomain bundle does
 *more is not better*** — a within-surrogate hierarchy that does not convert to the incidence benefit the
 pooled null denies. [@mendes2025multidomain]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Self-critique `[run 2026-08-05, before commit]`
 
@@ -1010,6 +1099,20 @@ pooled null denies. [@mendes2025multidomain]
   no independence claimed, and the NOT-E caveat for a future 2nd source (Modena author group) is stated. No
   tension filed. Full extraction on the dairy-cluster facet [[Dairy and Cognitive Decline]], not
   re-litigated here.
+- **Evidence-strength axis added (F/C-advance 2026-09-08, Zhang 2022 umbrella).** Filed as a type-C new
+  axis (per-factor credibility class I-IV, orthogonal to PAF magnitude) plus a type-F bounding of each
+  factor, NOT a 15th factor and NOT a rival PAF. The parameter table's "Same quantity?" column is **NO on
+  every row** — Zhang's credibility class and Livingston's PAF measure different things — so it is a
+  *distinction*, never a `tension`; Zhang neither confirms nor overturns the 45.3% headline, it reads
+  perpendicular to it. Not laundered-E: Zhang is the Qingdao/Fudan group (Yu Jin-Tai), shares Xu, Wei
+  with the held omega-3 source and cites Livingston 2017/2020, so no `[E-independent]` is minted — F
+  against Livingston, no E against the group siblings; this was the ingest's crux NOT-E check. Not
+  overclaimed: the whole tiering is held at the umbrella's own stated LOW study-quality caveat
+  (AMSTAR-2), the credibility class is stated to grade the *evidence* not the world, and the new
+  convincing factors (gait speed, hypoglycemia) are flagged prodromal/reverse-causal, not actionable
+  levers. The MR causal layer is reported as a genetic check that education + plasma glucose clear, not
+  as a lifestyle warrant. `confidence: medium` unchanged — the page still rests on the Commission's
+  consensus backing; Zhang tempers the lifestyle levers toward *suggestive* rather than adding weight.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

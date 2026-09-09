@@ -11,7 +11,6 @@ updated: 2026-09-06
 self_critiqued: 2026-09-06
 concrete_subject_audited: 2026-09-06
 ---
-<div class="recent-update" data-last-updated="2026-09-06">
 
 *Dairy* covers foods that behave very differently in the body. Milk, cheese, butter and yoghurt
 carry similar saturated fat, yet the outcomes they touch — heart disease, early death, diabetes,
@@ -46,7 +45,6 @@ sleeping enough — **dairy is a small lever, and the amount of noise around it 
 to how much it matters.** Keep the dairy you enjoy; do not adopt or avoid it for your heart or your
 bones on the current evidence.
 
-</div>
 
 ## Split *dairy* into its foods before you judge it — the label hides opposites
 
@@ -201,8 +199,6 @@ Kefir specifically has essentially no hard-outcome data; hold it at
 insufficient evidence, not at null.
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## More dairy tracks with slightly less type-2 diabetes — two estimates, one non-industry, moderate certainty
 
 
@@ -277,7 +273,6 @@ the total, is what this source adds. And it is still not a big rock: a yogurt ea
 small, early-saturating signal, a milk or cheese eater none, and none of it is a reason to prescribe dairy
 -> [[Fermented Foods and Health]] (the yogurt leg cashes that page's yogurt -> T2D dose-response gap).
 
-</div>
 
 ## Milk is not a bone-fracture lever
 
@@ -388,8 +383,6 @@ ingested only for the red-and-processed-meat colorectal analysis). So:
   dairy chapters is the follow-up that would close it.
 
 
-<div class="recent-update" data-last-updated="2026-09-06">
-
 ## Dairy is not a brain-health lever either — a null wrapped around a confounded curve
 
 
@@ -427,13 +420,14 @@ dietary records and dietary histories), the headline is null, and the single dos
 curve. For a low-intake (Asian-range) person the data
 lean to a small inverse — confounded and unadjudicated, not a reason to add dairy for the brain.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-06">
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The bottom line
 
 For someone who has already handled the big rocks -> [[Layer 1 - Ranking Interventions for a Stratum]]:
+
+#### What dairy does, and doesn't do, for the main endpoints
 
 - **Do not worry about dairy for your heart or your lifespan.** Total, full-fat and low-fat dairy are a
   wash for coronary heart disease, stroke and mortality in the best available (observational) evidence.
@@ -446,6 +440,9 @@ For someone who has already handled the big rocks -> [[Layer 1 - Ranking Interve
   deficient. Exercise and fall prevention are the better fracture lever.
 - **If you want the (small, fragile) favourable cardiovascular lean, it is in fermented dairy** —
   cheese and yoghurt — not milk. It is a low-cost swap, not a therapy.
+
+#### Choosing the food, and the trade-offs to keep explicit
+
 - **Decide on the food, not the *saturated fat* number.** Cheese and butter diverge at the same fat
   content; choose the specific dairy food you will actually eat and enjoy.
 - **Keep the cancer trade-off explicit and personal** — a probable colorectal benefit and a probable

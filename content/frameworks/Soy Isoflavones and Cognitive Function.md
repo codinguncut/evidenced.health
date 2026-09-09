@@ -12,8 +12,6 @@ self_critiqued: 2026-09-04
 relationships:
   related_to: [Soy Products and Health, Flavonoid Intake and Cognitive Function, Dementia Prevention and Modifiable Risk Factors, Hormone Therapy After Menopause, Menopause and the Shifting Levers]
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
-
 
 A **soy**-cluster facet under [[Soy Products and Health]]. The decision question: for a
 peri/postmenopausal adult (the trial-dominant stratum), does taking soy isoflavones (ISFs) do anything

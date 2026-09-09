@@ -48,7 +48,7 @@ absolute excess is small at standard doses:
 | More- vs less-intensive statin | RR 1.10 (95% CI 1.02–1.18) | 0.22%/yr (95% CI 0.05–0.41) |
 
 > «Compared with placebo, allocation to low-intensity or moderate-intensity statin therapy resulted in a
-> 10% proportional increase in new-onset diabetes (2420 of 39 179 participants assigned to receive a statin
+&gt; 10% proportional increase in new-onset diabetes (2420 of 39 179 participants assigned to receive a statin
 > [1·3% per year] vs 2214 of 39 266 participants assigned to receive placebo [1·2% per year]; rate ratio
 > [RR] 1·10, 95% CI 1·04–1·16), and allocation to high-intensity statin therapy resulted in a 36%
 > proportional increase (... 1·36, 1·25–1·48).» [@reith2024diabetes]
@@ -128,7 +128,7 @@ The same effect appears as worsening control in baseline diabetes, mirroring the
 
 > «Among people with diabetes at baseline, allocation to low-intensity or moderate-intensity statin resulted
 > in a 10% relative increase in worsening glycaemia compared with placebo (... RR 1·10 [95% CI 1·06 to
-> 1·14]; absolute annual excess 1·49% [0·87 to 2·13]), and in the high-intensity trials, allocation to this
+&gt; 1·14]; absolute annual excess 1·49% [0·87 to 2·13]), and in the high-intensity trials, allocation to this
 > group resulted in a 24% relative increase in worsening glycaemia (... 1·24 [1·06 to 1·44]; absolute annual
 > excess 3·02% [0·73 to 5·69]).» [@reith2024diabetes]
 

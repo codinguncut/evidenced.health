@@ -303,7 +303,7 @@ reached by different authors in a different literature: night shift work -> brea
 case-control-heavy prior evidence base supported an association strong enough for IARC's 2007 Group-2A
 (*probable carcinogen*) classification; Travis's meta-analysis of **10 prospective studies** (1.4M women,
 4660 exposed cases) found **RR 0.99 (0.95-1.03)**, narrow enough to exclude a moderate effect even at
->=20 years -> [[Night Shift Work and Breast Cancer]]. Travis names the discriminator explicitly:
+&gt;=20 years -> [[Night Shift Work and Breast Cancer]]. Travis names the discriminator explicitly:
 
 > «Restriction to pro- spective studies is important when trying to detect or refute moderate hazards
 > as it avoids the moderate biases that can re- sult from retrospective methodology.»

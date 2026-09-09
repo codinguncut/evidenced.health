@@ -257,8 +257,6 @@ channel, not a demonstrated one.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Confidence, decision-relevance, and gaps
 
 - **`confidence: medium`** — two gold observational MAs converging on *small effects* (neutral CVD/
@@ -293,7 +291,7 @@ channel, not a demonstrated one.
   - **`G (needs aggregation)`:** a pooled dairy-fat -> CVD-events effect that adjusts for the Michaelsson
     artifact across designs — a magnitude the fabric cannot compute from these two non-commensurable MAs.
 
-</div>
+
 
 ## Self-critique `[run 2026-08-06, before commit]`
 
@@ -325,8 +323,6 @@ channel, not a demonstrated one.
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series places dairy as a **cardiometabolic-marker lever, not a mortality lever**: inverse for
@@ -340,9 +336,7 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 [@bechthold2019] Full grid
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 
@@ -441,7 +435,5 @@ MR-corroborated. Still a small lever; still observational; still no hard-outcome
   field-wide uniformity tell (with Mishali/PURE), discounted symmetrically, not used to delete the effect.
 - **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
   live-culture and measurement-error gaps are named, not closed.
-
-</div>
 
 ## References

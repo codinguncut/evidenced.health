@@ -11,8 +11,6 @@ confidence: medium
 created: 2026-08-17
 updated: 2026-09-05
 ---
-<div class="recent-page" data-last-updated="2026-09-05"></div>
-
 
 > [!warning] Applies to a specific decision
 > This is a decision-scoped read for a person *considering* a GLP-1 for weight. The answer turns on

@@ -170,6 +170,8 @@ That separate, independent payoff is the reason to program strength deliberately
 
 How much you *move* — aerobic and strength — is one axis. **How much you *sit* is a separate axis with its own signal, and where along the activity range you start changes what a given increment buys** — the next two questions.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Sitting is its own lever, and leisure activity is not occupational activity
 
 **Two facts complicate "move more."** How much a person sits is a separate axis from how
@@ -217,6 +219,7 @@ activity had an 18% increased risk of early mortality compared with those engagi
 occupational physical activity (HR 1.18, 95% CI 1.05 to 1.34). No such association was observed among
 women, for whom instead a tendency for an inverse association was found (HR 0.90, 95% CI 0.80 to
 1.01)» [@coenen2018paradox].
+
 The contrast is high-vs-low occupational category, on all-cause mortality, in men; no absolute-risk
 translation is given, so the excess scales with the worker's baseline risk. **Confidence is LOW**,
 and the reasons cut one way: every included study measured exposure by self-report; heterogeneity was
@@ -239,23 +242,35 @@ absolute change. But past roughly 70 the outcome that dominates the ledger shift
 longer mainly whether activity postpones death, but whether it preserves the function, muscle, and
 balance that keep a person independent — which is where the next section turns.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## After about 70, the payoff is staying on your feet
 
 The outcome that pays now is not another year of life but another year of doing your own shopping. **This section matters most after about 70**, when the big longevity levers are largely pulled and the exposure that moves a patient-important outcome is the one that keeps an 80-year-old off the floor and out of the fracture ward. Falls and lost function are not surrogates standing in for something the person values later — they *are* what the person values. That reframes the whole ranking: the number to move is a fall averted, not a lab value.
 
-**Exercise cuts the rate of falls, and this is one of the few HIGH-certainty results in the whole activity evidence.** A gold-tier Cochrane review — 108 RCTs, 23,407 community-dwelling older adults, mean age 76 — puts the rate of falls at **RaR 0.77 (95% CI 0.71-0.83), HIGH certainty (GRADE), 59 RCTs**: roughly a 23% lower fall rate [@sherrington2019]. In absolute terms, at an illustrative control rate of 850 falls per 1000 people per year, that is about **195 (144-246) fewer falls per 1000 per year**. Falls are directly observed and hard to game, exercise-versus-control is randomisable, and dropping the high-risk-of-bias trials barely moved the estimate — which is why non-blinding did not cost it a GRADE level [@sherrington2019]. The feared downstream endpoint moves too: exercise reduces fall-related fractures **RR 0.73 (95% CI 0.56-0.95), low certainty, 10 RCTs** — promising but thinner than the falls-rate result, because fractures are rarer events that need larger trials, not because the effect is absent [@sherrington2019].
+**Exercise cuts the rate of falls, and this is one of the few HIGH-certainty results in the whole activity evidence.** A gold-tier Cochrane review — 108 RCTs, 23,407 community-dwelling older adults, mean age 76 — puts the rate of falls at **RaR 0.77 (95% CI 0.71-0.83), HIGH certainty (GRADE), 59 RCTs**: roughly a 23% lower fall rate [@sherrington2019]. In absolute terms, at an illustrative control rate of 850 falls per 1000 people per year, that is about **195 (144-246) fewer falls per 1000 per year**. Falls are directly observed and hard to game, exercise-versus-control is randomisable, and dropping the high-risk-of-bias trials barely moved the estimate — which is why non-blinding did not cost it a GRADE level [@sherrington2019].
+
+The feared downstream endpoint moves too: exercise reduces fall-related fractures **RR 0.73 (95% CI 0.56-0.95), low certainty, 10 RCTs** — promising but thinner than the falls-rate result, because fractures are rarer events that need larger trials, not because the effect is absent [@sherrington2019].
 
 **The active ingredient is balance, not volume.** Balance-and-functional training carries the effect on its own — **RaR 0.76 (0.70-0.81), 39 RCTs, HIGH certainty** — while **resistance training alone does not reduce falls** (RaR 1.14, 0.67-1.97, point estimate above 1, very low certainty) [@sherrington2019]. In the source's own words: «Exercise programmes that reduce falls primarily involve balance and functional exercises, while programmes that probably reduce falls include multiple exercise categories (typically balance and functional exercises plus resistance exercises).» [@sherrington2019] The decision object is therefore *what kind* of exercise, not *how much* — and **"walk more" is not fall-prevention advice** (walking programmes have insufficient evidence here), even though walking is the intuitive default [inferred from @sherrington2019].
 
-**A network meta-analysis sharpens the dose — supervised and sustained, not a one-off class.** Sherrington ranks exercise *types*; Pillay's network meta-analysis for the Canadian Task Force (219 RCTs, 167,864 participants) ranks the *whole* fall-prevention menu — vision treatment, home-hazard assessment, multifactorial programs and the rest — and balance work still lands on top: «Fourteen of the 21 (67%) interventions with some mod- erate certainty evidence for benefit had a focus on exer- cise», the top tier being **supervised, long-duration balance/resistance and group tai chi** [@pillay2024falls]. The dose is the upgrade Sherrington could not make: *supervised* means «> two sessions, not including ini- tial instruction» and *long-duration* «> 3 months» — the effective program is supervised and sustained, not a one-off class [@pillay2024falls]. Pillay «included 125 of 283 studies included in the previous review» [@pillay2024falls], so it is a type-F refinement of Sherrington, not independent (type-E) corroboration.
+**A network meta-analysis sharpens the dose — supervised and sustained, not a one-off class.** Sherrington ranks exercise *types*; Pillay's network meta-analysis for the Canadian Task Force (219 RCTs, 167,864 participants) ranks the *whole* fall-prevention menu — vision treatment, home-hazard assessment, multifactorial programs and the rest — and balance work still lands on top: «Fourteen of the 21 (67%) interventions with some mod- erate certainty evidence for benefit had a focus on exer- cise», the top tier being **supervised, long-duration balance/resistance and group tai chi** [@pillay2024falls].
 
-**Frailty predicts death — and, dosed right, it moves.** Frailty is the syndrome of depleted physiological reserve, and it is a potent prognostic marker: across 31 prospective studies (158,764 adults >=65) the frail die at more than double the rate of the robust (**pooled OR 2.34 [1.77-3.09]; HR 1.83 [1.68-1.98]**), with parallel signals for disability, hospitalisation, and institutionalisation — all observational, heterogeneous (I2 95-98% for mortality), so prognosis, not proven cause [@vermeiren2016frailty]. The lever is multicomponent physical activity: in 24 RCTs of 8,022 identified prefrail/frail adults, it improves mobility (**SMD 0.60 [0.37-0.83]**), activities of daily living (SMD 0.50 [0.15-0.84]) and frailty status itself (SMD -1.29 [-2.22 to -0.36]; RR 0.58 [0.36-0.93]), at **moderate certainty** [@racey2021frailtypa]. Two caveats bind: the frailty-reversal figure rests on only 4 of 23 studies measuring frailty as an outcome, and the general activity dose must be **dosed DOWN** for the frail to avoid provoking the falls it aims to prevent.
+The dose is the upgrade Sherrington could not make: *supervised* means «> two sessions, not including ini- tial instruction» and *long-duration* «> 3 months» — the effective program is supervised and sustained, not a one-off class [@pillay2024falls]. Pillay «included 125 of 283 studies included in the previous review» [@pillay2024falls], so it is a type-F refinement of Sherrington, not independent (type-E) corroboration.
+
+**Frailty predicts death — and, dosed right, it moves.** Frailty is the syndrome of depleted physiological reserve, and it is a potent prognostic marker: across 31 prospective studies (158,764 adults >=65) the frail die at more than double the rate of the robust (**pooled OR 2.34 [1.77-3.09]; HR 1.83 [1.68-1.98]**), with parallel signals for disability, hospitalisation, and institutionalisation — all observational, heterogeneous (I2 95-98% for mortality), so prognosis, not proven cause [@vermeiren2016frailty].
+
+The lever is multicomponent physical activity: in 24 RCTs of 8,022 identified prefrail/frail adults, it improves mobility (**SMD 0.60 [0.37-0.83]**), activities of daily living (SMD 0.50 [0.15-0.84]) and frailty status itself (SMD -1.29 [-2.22 to -0.36]; RR 0.58 [0.36-0.93]), at **moderate certainty** [@racey2021frailtypa]. Two caveats bind: the frailty-reversal figure rests on only 4 of 23 studies measuring frailty as an outcome, and the general activity dose must be **dosed DOWN** for the frail to avoid provoking the falls it aims to prevent.
 
 **A boundary worth stating: in the already-frail, the falls signal goes uncertain.** The HIGH-certainty fall reduction above is for the *general* older adult; in the *identified* frail stratum, activity does not significantly cut falls (**RR 0.80 [0.51-1.26], very low certainty, 7 studies**) even while it still improves mobility and ADLs [@racey2021frailtypa]. Read it as sequence, not contradiction: fall-prevention exercise is best-evidenced *before* deep frailty, and once frailty is established the payoff shifts to function and independence [[Frailty]].
 
 **Grip strength and muscle mass are cheap, strong risk METRICS — and that is all they are proven to be.** Low grip strength predicts mortality at scale: in UK Biobank (n=502,293, ages 40-69), each **5 kg lower** grip carried **all-cause HR 1.20 (1.17-1.23) in women and 1.16 (1.15-1.17) in men**, fully adjusted, with events in the first two years excluded [@celismorales2018]. Over the studied grip range the gradient is **monotone — no knee or plateau located** (spline-judged, so weak evidence of true linearity; power thins at high strength) [@celismorales2018]. Low muscle *mass* also tracks death — those who died carried about **0.18 SD less appendicular mass (SMD -0.18, 95% CI -0.23 to -0.12)** across 9 cohorts of non-frail adults >=65 — a *small* effect, and a between-group difference that yields no absolute risk or dose curve [@santana2021].
 
-Grip's single-cohort signal now **upgrades to a 48-study dose-response meta-analysis** (\~3.1 million adults, 40+ countries): all-cause mortality falls **close-to-linear over the 26-50 kg grip range**, while cancer and cardiovascular mortality trace a **flattened U** — a significant risk reduction over 16-33 kg and 24-40 kg respectively [@lopezbueno2022]. Read the cause-specific U as measurement, not biology: the authors self-diagnose it — «The inversion of the right part of the dose-response curves in this study likely reflect the sparsity of data/events rather than a genuine lack of beneficial association at higher levels of handgrip strength» [@lopezbueno2022] — the range-edge sparsity that manufactures a U with no confounder [[The U-Shaped Association Artifact]]. This **refines Celis-Morales rather than corroborating it independently**: that UK Biobank cohort sits *inside* the 48-study review, so it is the same evidence at higher resolution (a type-F upgrade), not a second route to the finding. And it moves the marker no nearer a target — Lopez-Bueno leaves reverse causation unaddressed and over-reaches toward exercise prescription — so grip stays a strong predictor, not a proven number to train up.
+Grip's single-cohort signal now **upgrades to a 48-study dose-response meta-analysis** (\~3.1 million adults, 40+ countries): all-cause mortality falls **close-to-linear over the 26-50 kg grip range**, while cancer and cardiovascular mortality trace a **flattened U** — a significant risk reduction over 16-33 kg and 24-40 kg respectively [@lopezbueno2022]. Read the cause-specific U as measurement, not biology: the authors self-diagnose it — «The inversion of the right part of the dose-response curves in this study likely reflect the sparsity of data/events rather than a genuine lack of beneficial association at higher levels of handgrip strength» [@lopezbueno2022] — the range-edge sparsity that manufactures a U with no confounder [[The U-Shaped Association Artifact]].
+
+This **refines Celis-Morales rather than corroborating it independently**: that UK Biobank cohort sits *inside* the 48-study review, so it is the same evidence at higher resolution (a type-F upgrade), not a second route to the finding. And it moves the marker no nearer a target — Lopez-Bueno leaves reverse causation unaddressed and over-reaches toward exercise prescription — so grip stays a strong predictor, not a proven number to train up.
 
 **Mass and strength are different quantities, and strength tends to out-predict mass** — grip is a hazard ratio per kg of force, ASMI a mean-difference in DXA-measured quantity; they are not one "muscle" number [@celismorales2018]. But the marker-versus-lever line holds for all of them: **grip, muscle mass, and VO2max are strong PREDICTORS, not proven treatment TARGETS.** Grip is partly heritable (\~52%) and lowered by occult illness before death, so a low value places a person in a higher-risk stratum (route-(a) baseline risk) without proving that *squeezing harder* buys survival — no RCT shows that raising grip, or mass, lowers mortality [@celismorales2018]. The rule is **train the activity, not the number**: the surrogate-to-outcome link is unclosed for these metrics, whereas falls and function are the real outcomes to steer by [[Surrogate Outcomes]].
 
@@ -263,7 +278,9 @@ Grip's single-cohort signal now **upgrades to a 48-study dose-response meta-anal
 
 So the older-adult prescription writes itself in kind but not in quantity: **balance-and-functional work is the evidenced fall lever, strengthening defends the muscle behind it, and the metrics tell you where you stand rather than what to chase.** Which raises the real question for anyone with limited time — if balance, strength, and aerobic work each earn a place, how should a fixed weekly budget be split among them?
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Splitting a fixed weekly budget between cardio, strength, and walking
 
@@ -294,7 +311,9 @@ than longer moderate-continuous training (MICT) for fewer total minutes; the hea
 real but modest and smallest where fitness is already normal, with sprint intervals versus MICT
 essentially a wash [@poon2024]
 -> [[Measuring and Raising Cardiorespiratory Fitness]]. The practical case is **time-efficiency**, not
-a large fitness advantage — which is exactly what a fixed budget rewards. Two limits bound the
+a large fitness advantage — which is exactly what a fixed budget rewards.
+
+Two limits bound the
 enthusiasm. **The per-unit-time CRF gain of interval-vs-continuous is a named gap**: the fabric holds
 a direction and a standardized between-group difference, not a clean per-minute magnitude, so "how
 much fitness per spare minute" cannot be quoted. And intensity carries an **injury / recovery
@@ -320,6 +339,10 @@ adiposity [@careau2021]
 mortality, or function returns the split is actually built on. Which points to the one thing no
 allocation of this budget will buy — **weight loss**.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## What exercise does not do: melt the scale
 
 The one thing the movement budget will not buy is weight loss, because
@@ -330,7 +353,9 @@ measures the leak directly: **energy compensation averages \~28%, so only about
 budget** — «energy compensation by a typical human averages 28% due to reduced
 BEE; this suggests that only 72% of the extra calories we burn from additional
 activity translates into extra calories burned that day»
-[@careau2021]. Part of that
+[@careau2021].
+
+Part of that
 offset is not the fork at all but a quiet drop in **basal energy expenditure** —
 the body spends less at rest to pay for what it spent moving. The rest is
 behavioural: cut NEAT (**non-exercise activity thermogenesis** — the calories of
@@ -349,7 +374,9 @@ adiposity** — from \~27.7% offset at the 10th BMI percentile to \~49.2% at the
 [@careau2021], so the person
 carrying the most fat, who most wants to burn it off, compensates the most (an
 association, direction contested — Riou's intervention interaction runs the other
-way short-term). The intuitive worry that **higher intensity makes the
+way short-term).
+
+The intuitive worry that **higher intensity makes the
 offset worse is not supported** — Riou found intensity a non-significant predictor
 — but that test was underpowered (intensity dichotomised at 60% VO2max), so read
 it as *insufficient evidence, not refutation*, not a licence to expect HIIT to
@@ -369,7 +396,9 @@ on exercise removes measurably more visceral fat (**ES −0.15, 95% CI −0.23 t
 −0.12 to 0.18, p=0.64**) [@recchia2023]. Second, the **deficit-controlled head-to-head
 favours exercise** (**ES −0.18, −0.33 to −0.04, p=0.012**), at **moderate GRADE
 certainty** (each arm downgraded one level for bias and heterogeneity)
-[@recchia2023]. Three caveats keep this honest: these are **standardized effect sizes, not
+[@recchia2023].
+
+Three caveats keep this honest: these are **standardized effect sizes, not
 cm² of fat** (no absolute volume is recoverable); the slope is a single
 meta-regression coefficient over the studied range, so it shows a *direction, not
 a located knee or a proven-linear curve*; and diet's flat slope is **more likely a
@@ -398,8 +427,9 @@ outcome it was never the strong lever for. **The scale is the wrong scoreboard.*
 The real reach of movement is not into body mass at all but into pain and joint
 function, cancer risk, and the brain — which is where the next sections go.
 
+</div>
 
-
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Movement is safe, and it reaches pain, joints, cancer, and the brain
 
@@ -411,7 +441,9 @@ For chronic non-cancer pain, the load-bearing finding is **safety**: a gold-tier
 
 ### Knee osteoarthritis — weight loss is the dominant lever, exercise a genuine adjunct
 
-For the overweight or obese person with knee OA, **weight loss is the primary modifiable lever** and exercise is a real but secondary one — present them in that order. The IDEA RCT (n=454, 18 months) split the mechanisms cleanly: diet-driven weight loss lowers knee compressive load (D vs exercise-only -200 N, 95% CI 55-345) and systemic inflammation, while exercise converts that into function and symptom relief. Diet+exercise beat exercise alone on pain (mean 1.02 on WOMAC 0-20, 95% CI 0.33-1.71) with 38% reporting little/no pain versus \~21%; the >=10% weight-loss target sits on a monotone dose-response over the studied 0-32% range (no knee located) [@messier2013idea]. Exercise is nonetheless additive and safe across arthritis broadly (EULAR MA, 49 RCTs: moderate gains in fitness SMD 0.56 and strength SMD 0.54; «No detrimental effects of PA were reported in any study» [@rauschosthoff2018exercise]) — so lose weight AND exercise, not either/or. **Scope note:** this is the risk-factor / function lever, not clinical management of established disease; the weight-loss lever also presupposes overweight and does not transport to the lean patient -> [[Knee Osteoarthritis and Modifiable Levers]].
+For the overweight or obese person with knee OA, **weight loss is the primary modifiable lever** and exercise is a real but secondary one — present them in that order. The IDEA RCT (n=454, 18 months) split the mechanisms cleanly: diet-driven weight loss lowers knee compressive load (D vs exercise-only -200 N, 95% CI 55-345) and systemic inflammation, while exercise converts that into function and symptom relief. Diet+exercise beat exercise alone on pain (mean 1.02 on WOMAC 0-20, 95% CI 0.33-1.71) with 38% reporting little/no pain versus \~21%; the >=10% weight-loss target sits on a monotone dose-response over the studied 0-32% range (no knee located) [@messier2013idea].
+
+Exercise is nonetheless additive and safe across arthritis broadly (EULAR MA, 49 RCTs: moderate gains in fitness SMD 0.56 and strength SMD 0.54; «No detrimental effects of PA were reported in any study» [@rauschosthoff2018exercise]) — so lose weight AND exercise, not either/or. **Scope note:** this is the risk-factor / function lever, not clinical management of established disease; the weight-loss lever also presupposes overweight and does not transport to the lean patient -> [[Knee Osteoarthritis and Modifiable Levers]].
 
 ### Cancer — activity associates with lower risk of several cancers
 
@@ -428,6 +460,8 @@ That is the observational arm. The randomized tests that could turn it into a tr
 The honest state is a split verdict: the **single-lever observational** signal is strong and reverse-causation-checked, while the **interventional** evidence — which never isolates exercise — stays weak. So exercise is a plausible, modest cognitive lever worth pulling because it is a cardiometabolic big rock already, not because a randomized dementia payoff is demonstrated -> [[Dementia Prevention and Modifiable Risk Factors]], [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
 With movement's reach across these outcomes mapped, the last question is not *whether* it helps but *how the levers rank for a given person* — and where, once the big rocks are pulled, the ceiling on further gains sits.
+
+</div>
 
 ## How the levers rank, and what is still open
 

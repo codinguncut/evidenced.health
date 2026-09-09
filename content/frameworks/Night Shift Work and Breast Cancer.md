@@ -226,7 +226,7 @@ whole-organism compensation). This is directional mechanism, not a human-outcome
 ## Self-critique `[run 2026-08-20, before commit — IARC pole landed]`
 
 - **The NULL is not softened or inflated.** Magnitudes are stated with CIs and studied range (ever /
-  >=20y / >=30y); the residual few-percent uncertainty is kept visible; the evidence state is named
+  &gt;=20y / >=30y); the residual few-percent uncertainty is kept visible; the evidence state is named
   *no-meaningful-effect*, distinguished from *insufficient*.
 - **The IARC relation is a not-joined DISTINCTION, not a two-sided tension — verified against IARC's own
   quoted basis.** The counter-passage check now runs on the held IARC source (not a Travis paraphrase):

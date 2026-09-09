@@ -18,7 +18,11 @@ microbiome is genuinely modifiable and genuinely matters in a handful of well-de
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## The bottom line
+
+#### The levers, and the surrogate trap
 
 - **The biggest dietary lever on your microbiome is fermentable fibre — and that is already the
   fibre recommendation.** Eat plenty of fibre from a plant-diverse diet — the general fibre
@@ -34,6 +38,8 @@ are present — that no one ever follows through to an outcome a person can feel
   tonic.** There are real, specific wins (below); *take a probiotic for immunity* is not one of them,
   though for general immunity and mood the honest state is weak-to-suggestive benefit, heavily
   discounted — not a blank.
+#### The products and the pseudo-conditions
+
 - **Prebiotics are mostly fibre by another name**, so their outcome case largely reduces to the fibre
   evidence.
 - **Faecal microbiota transplant (FMT — transferring a healthy donor's stool microbes) is real
@@ -51,6 +57,8 @@ Confidence is **medium**. The probiotics-by-indication claims rest on a gold-sta
 the FMT-for-*C. difficile* claim on a held landmark RCT, but the broad microbiome-and-health story is
 mostly observational, and the field's central confound — which way the causal arrow points — is
 usually unresolved.
+
+</div>
 
 ## §2 — The one move that decides most of it: composition-shift is a surrogate
 
@@ -80,6 +88,8 @@ Even this exemplar is narrow. The endpoint is a two-week glycemic response, not 
 personalized, with responders and non-responders in each arm; and causal-on-the-marker is not
 causal-on-the-disease. A microbiome study that clears the surrogate bar this cleanly is the exception,
 and it still cannot license a claim about a hard outcome.
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## §3 — What actually moves the microbiome: diet, and mostly fibre
 
@@ -120,6 +130,18 @@ indirect remodeling of the community already present, not colonization by the mi
 The two routes are genuinely different. Fibre feeds the resident community (the prebiotic route);
 fermented foods add microbes and their metabolites (the probiotic route). Both are measured here only at
 the surrogate level — a diversity shift, not an outcome.
+
+Whether the *live cultures* are the active ingredient is untested. A fermented food differs from its
+unfermented parent in three separable ways — the live cultures, the food matrix, and the biochemistry
+fermentation performs (which survives pasteurization) — and telling them apart needs a live-culture
+ferment compared against a pasteurized-after-fermentation version with the cultures killed. No held
+source runs that experiment
+[inferred from @wastyk2021].
+Until one does, *fermented foods work
+because of the probiotics* stays a mechanism hypothesis, not a finding — and the Wastyk remodeling
+reading above already cuts against the simple *eat live bacteria -> they take up residence* picture.
+
+</div>
 
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
@@ -249,6 +271,8 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
@@ -261,6 +285,16 @@ new decision.
   ground.
 - **No source bears on antibiotics' long-term microbiome harm**, and none on birth mode and early-life
   colonization — both are named gaps, not answered questions.
+- **The trendy ferments are unstudied, not shown inert.** Kimchi, sauerkraut, kombucha and kefir carry
+  essentially no hard-outcome human evidence; the one RCT that moved a measured immune/diversity outcome
+  used a broad fermented-food arm, not any single product. This is the insufficient-evidence state, not a
+  null — name the gap, do not manufacture a benefit from mechanism or tradition, and do not dismiss the
+  foods either
+  [inferred from @wastyk2021].
+  Fermented *dairy* (yogurt -> type-2 diabetes) is worked separately -> [[Dairy and Cardiometabolic Health]];
+  fermented *soy* (miso, tempeh, natto) is a distinct exposure -> [[Soy Products and Health]].
+
+</div>
 
 ## §11 — How this compares to the popular framing (the guidance null)
 

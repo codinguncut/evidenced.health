@@ -244,8 +244,6 @@ sponsor-designed single trials it pools (SELECT, STEP, SURMOUNT), even though th
 mortality/MI data still trace to those industry trials. Recorded as a weighting fact, not an
 editorial verdict.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Decision relevance
 
 - **Match the drug to the outcome the person weights, not to the leaderboard.** Maximal weight loss ->
@@ -274,8 +272,6 @@ editorial verdict.
   patient the antidepressant choice can work with or against the weight goal — a co-lever outside this
   NMA's comparison. The weight figures are observational with no pooled estimate, so the co-lever is real
   but low-certainty -> [[Antidepressants for Depression]].
-
-</div>
 
 ## Limits
 

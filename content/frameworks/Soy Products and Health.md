@@ -2,8 +2,8 @@
 type: framework
 question: Do soy products change a patient-important outcome, are the feared hormonal / breast-cancer / cholesterol effects real, and do the forms (whole / fermented / isolated protein) differ?
 aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari]
-authors: [Reed, Katharine E; Camargo, Juan; Hamilton-Reeves, Jill; Kurzer, Mindy; Messina, Mark; Chen, Meinan; Rao, Yanhua; Zheng, Yi; Wei, Shiqing; Li, Ye; Guo, Tong; Anderson, James W; Johnstone, Bryan M; Cook-Newell, Margaret E; Blanco Mejia, Sonia; Jenkins, David JA]
-sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019]
+authors: [Reed, Katharine E; Camargo, Juan; Hamilton-Reeves, Jill; Kurzer, Mindy; Messina, Mark; Chen, Meinan; Rao, Yanhua; Zheng, Yi; Wei, Shiqing; Li, Ye; Guo, Tong; Anderson, James W; Johnstone, Bryan M; Cook-Newell, Margaret E; Blanco Mejia, Sonia; Jenkins, David JA; Nachvak, Seyed Mostafa; Sadeghi, Omid]
+sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 cluster: soy
 nucleus: true
 confidence: medium
@@ -17,8 +17,8 @@ relationships:
     - Surrogate Outcomes
     - Soy Isoflavones and Cognitive Function
 created: 2026-08-05
-updated: 2026-09-04
-self_critiqued: 2026-08-26
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 ---
 
 **Nucleus of the `soy` cluster** — the canonical page for what soy does to patient-important
@@ -234,6 +234,100 @@ is a mechanistic proposal with directional weight, not an outcome finding.
   judges the isoflavone route the *less likely* one
   [@anderson1995].
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## The mortality cell — soy / isoflavones / soy protein x all-cause, cancer, CVD, breast cancer (Nachvak 2019)
+
+The three fears above are surrogate-or-incidence outcomes; this is the **direct patient-important
+outcome** the page previously left blank. Nachvak 2019 is a gold-tier SR + dose-response MA of **23
+prospective cohorts** (330,826 participants; 26,900 all-cause, 11,005 cancer, 13,418 CVD deaths;
+published 2002-2018) that keeps the **three exposures distinct** — whole soy/soy products, soy
+isoflavones, soy protein — against **four endpoints**. All estimates are highest-vs-lowest pooled RR,
+random-effects, **observational** [@nachvak2019soy].
+
+**Do not collapse the three forms into "soy" — the matrix (`type-B`):**
+
+| Exposure | All-cause | Cancer (total) | CVD | Breast cancer |
+|---|---|---|---|---|
+| **Whole soy / soy products** | 0.90 (0.77-1.04) **null** overall; inverse only in higher-quality subgroups | **0.88 (0.79-0.99)** ✓ (soy/soy-products); total-soy 0.90 (0.81-1.00) marginal; soy-specific foods 0.99 null | **0.85 (0.72-0.99)** ✓ (soy/soy-products); total-soy 0.91 (0.81-1.03) null; soy-specific 1.03 null | not pooled for whole soy |
+| **Soy isoflavones** | **0.90 (0.82-0.98)** ✓ categorical; linear +10 mg/d **0.98 (0.94-1.01) null** | **0.80 (0.67-0.94)** ✓; linear +10 mg/d **0.93 (0.89-0.98)** ✓ (−7%) | 0.98 (0.90-1.06) **null**; linear null | **0.83 (0.69-0.99)** ✓; linear +10 mg/d **0.91 (0.84-0.99)** ✓ (−9%); ER− 0.77 ✓, ER+ 0.82 null |
+| **Soy protein** | 1 study only — **not poolable** | (all cancer effect sizes were breast cancer) → | 0.99 (0.84-1.17) **null**; dose-response null | **0.73 (0.55-0.96)** ✓; linear +5 g/d **0.88 (0.83-0.93)** ✓ (−12%, I²=7.4%); ER+ 0.75 ✓, ER− 0.77 ✓ |
+
+[@nachvak2019soy]
+
+**Whole soy, cancer-site-specific (total soy, highest-vs-lowest):** gastric **0.49 (0.35-0.68)**, lung
+**0.79 (0.71-0.87)**, colorectal **0.59 (0.41-0.84)** all inverse; hepatic 0.89 (0.71-1.12) null.
+Ischemic CVD **0.79 (0.63-0.99)** inverse; stroke 0.87 (0.73-1.04) null
+[@nachvak2019soy].
+
+### Four caveats that bound every cell — read before the headline "soy for longevity"
+
+Nachvak's own conclusion is that soy «may support the current recommendations to increase intake of
+soy for greater longevity», but it pairs that with «However, soy protein was not signiﬁcantly
+associated with all-cause and CVDs mortal- ity»
+[@nachvak2019soy]. Four structural
+caveats matter more than the boast:
+
+- **The all-cause signal for whole soy is NULL overall, significant only in the "high-quality"
+  subgroups.** «this signiﬁcant association for all-cause mortality was observed only in the
+  high-quality studies (studies with sample size 10,000 participants and those that presented
+  energy-adjusted effect sizes)»
+  [@nachvak2019soy]. A subgroup that
+  becomes significant after the full-set null is a *hypothesis*, not a confirmed effect — the headline
+  all-cause benefit for soy foods is not carried by the primary pooled estimate (0.90, P=0.16).
+- **Categorical-significant, but the LINEAR per-mg dose-response is null (isoflavone → all-cause).**
+  The highest-vs-lowest contrast is 0.90 (✓, P=0.02) and a *nonlinear* inverse relationship was
+  significant (P for nonlinearity=0.04), yet the **linear** +10 mg/d dose-response is null: 0.98
+  (0.94-1.01, P=0.17). So there is no clean per-mg gradient — the effect is not linear-dosable and a
+  per-mg isoflavone target is not derivable. Nachvak explicitly cautions «Overall, caution in the
+  interpretation of ﬁndings from the doseeresponse analysis is required»
+  [@nachvak2019soy], the
+  dose-response models being «only empowered to detect massive associations»
+  [@nachvak2019soy]. Where a cell
+  IS both categorical- and linear-significant (isoflavone → cancer −7%/10 mg, 0.93 (0.89-0.98);
+  isoflavone → breast-cancer −9%/10 mg, 0.91 (0.84-0.99); soy-protein → breast-cancer −12%/5 g, 0.88
+  (0.83-0.93)) the claim is firmer, but still over the studied range only.
+- **The breast-cancer-mortality cell is a SURVIVOR endpoint, not primary prevention (`type-A`, the
+  cross-cell observation the flat abstract hides).** Every study feeding the isoflavone → breast-cancer
+  and soy-protein → breast-cancer cells is a **breast-cancer patient/survivor cohort** measuring
+  *post-diagnosis* intake against *survival* (Conroy, Nechuta, Shu, Boyapati, Kang, Zhang) — Nachvak
+  even folds Shu's relapse deaths into the endpoint: «we considered risk estimates on relapse/breast
+  cancer-speciﬁc mortality as breast cancer mortality»
+  [@nachvak2019soy]. So the
+  \~12%/5 g soy-protein and \~9%/10 mg isoflavone breast-cancer figures answer *"does soy intake improve
+  survival in women already diagnosed?"*, NOT *"does soy prevent breast-cancer death in the general
+  population?"* — and reverse causation (sicker patients eat/report differently) is un-excluded in a
+  survivor cohort. This directly cashes the page's ER-positive-survivor / tamoxifen-interaction gap
+  (below): the survivor evidence is **protective-or-neutral in BOTH ER strata for soy protein** and
+  **ER-negative-only for isoflavones** — no raised risk in any stratum, contra the stimulate-the-tumour
+  fear. [inferred from @nachvak2019soy]
+- **Transportability + a publication-year split the authors discount.** 19 of 23 cohorts are Asian
+  [@nachvak2019soy], where habitual
+  soy intake is far above Western levels — the estimate is an Asian/high-lifelong-intake finding, the
+  same transportability caveat the Chen breast-cancer leg carries. Year of publication was one of two
+  subgroups that explained the whole-soy all-cause heterogeneity: the protective association held in
+  studies published up to 2010 (0.77, 0.69-0.86) but not 2010-and-later (1.06, 0.93-1.21)
+  [@nachvak2019soy], and
+  Nachvak invokes Kicinski's mechanism — «the amount of overrepresentation of ﬁndings that are
+  favorable to treatment is larger in older studies ... found protective effects for soy intake in
+  studies published up to 2010, but not for those studies that were published during the year 2010 and
+  later» [@nachvak2019soy]. But the
+  authors' own bottom line **discounts** it: «Overall, it seems that publication year has a low effect
+  on the overall estimates in the current meta-analysis»
+  [@nachvak2019soy]. Isoflavones ran
+  the opposite way (protective effects mostly in 2010-and-later studies). Reading the pre-2010
+  confinement as a decline-effect artifact is a *possible* interpretation the authors do not endorse
+. All cells are observational: «we cannot rule out the possible effect of residual
+  confounding» [@nachvak2019soy].
+
+**Layer-1 read.** On the *direct mortality* outcome soy is a **small, form-dependent, observational**
+lever: the firmest cells are whole-soy/soy-products → cancer (0.88) and → CVD (0.85) mortality and the
+dosed isoflavone → cancer (−7%/10 mg) arm; the all-cause benefit is soft (null overall for foods,
+dose-null for isoflavones); soy protein moves only a survivor breast-cancer endpoint and is null on
+all-cause/CVD. No cell is a big rock, and none rests on a causal design — a reason to eat soy without
+fearing it, not a longevity lever to chase.
+
+</div>
 
 ## The forms are NOT interchangeable — specify the exposure
 
@@ -276,8 +370,6 @@ This page holds a **health** axis. Soy also carries environmental (low-footprint
 economic loads and is entangled with the animal-feed / deforestation debate; the wiki records only
 *that* those trade-offs exist and does not price them against the health finding.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Facets held elsewhere
 
 - **Cognition (a fourth outcome) — HELD.** Supplemental soy isoflavones produce a small, memory-carried
@@ -287,7 +379,8 @@ economic loads and is entangled with the animal-feed / deforestation debate; the
   rather than a tension — lives on [[Soy Isoflavones and Cognitive Function]]. The ERβ-SERM mechanism
   above is the same one invoked there for the memory-domain specificity.
 
-</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Gaps and held threads
 
@@ -304,11 +397,17 @@ economic loads and is entangled with the animal-feed / deforestation debate; the
   or CVD outcome SR/MA` (cross-links [[Fermented Foods]]).
 - **Prostate cancer, menopausal symptoms, bone density** — named in the deliverable scope, no source
   held. GAP.
-- **Soy in ER-positive breast-cancer survivors (the genistein / tamoxifen-interaction fear)** — a
-  prominent clinical worry that dietary isoflavones might stimulate estrogen-receptor-positive tumour
-  growth or blunt tamoxifen. Not adjudicated here (Chen covers incidence, not survivors). GAP.
-  `AWAITS a soy-and-breast-cancer-survival / isoflavone-tamoxifen SR.`
+- **Soy in ER-positive breast-cancer survivors (the genistein / tamoxifen-interaction fear)** —
+  PARTLY CASHED (Nachvak 2019). The survivor-cohort breast-cancer-mortality cells run *protective or
+  neutral in BOTH ER strata* for soy protein (ER+ 0.75, ER− 0.77, both ✓) and ER-negative-only for
+  isoflavones (ER− 0.77 ✓, ER+ 0.82 null) — **no raised mortality in any stratum**, contra the
+  stimulate-the-tumour worry [@nachvak2019soy].
+  RESIDUAL: this is observational post-diagnosis survival with un-excluded reverse causation, and it
+  does NOT directly test the *tamoxifen-interaction* mechanism (concurrent-endocrine-therapy
+  subgroups not isolated). `AWAITS a soy/isoflavone x tamoxifen interaction SR` for the mechanism leg.
 - **Absolute breast-cancer risk reduction** — Chen reports relative ORs only; the absolute benefit
   depends on baseline incidence in the stratum, which the MA does not supply. `G (needs aggregation)`.
+
+</div>
 
 ## References

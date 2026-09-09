@@ -2,12 +2,12 @@
 type: framework
 question: Within an otherwise-healthy, low-saturated-fat diet, does lean red meat move atherogenic lipoproteins (LDL-C, apoB, LDL particles) — and how much of the meat signal is the SFA load versus the meat matrix or meat color itself?
 aliases: [Lean Beef and Lipids, BOLD Study, Red vs White Meat Lipids, Lean Red Meat and ApoB, Lean Red Meat and LDL, APPROACH Trial, Red Meat Comparison Diet Lipids]
-authors: [Roussell, Michael A; Hill, Alison M; Gaugler, Trent L; West, Sheila G; Vanden Heuvel, John P; Alaupovic, Petar; Gillies, Peter J; Kris-Etherton, Penny M; Bergeron, Nathalie; Chiu, Sally; Williams, Paul T; King, Sarah M; Krauss, Ronald M; Guasch-Ferre, Marta; Satija, Ambika; Blondin, Stacy A; O'Connor, Lauren E; Campbell, Wayne W; Hu, Frank B; Willett, Walter C; Stampfer, Meir J]
-sources: [Roussell - Beef Optimal Lean Diet BOLD 2012, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019]
+authors: [Roussell, Michael A; Hill, Alison M; Gaugler, Trent L; West, Sheila G; Vanden Heuvel, John P; Alaupovic, Petar; Gillies, Peter J; Kris-Etherton, Penny M; Bergeron, Nathalie; Chiu, Sally; Williams, Paul T; King, Sarah M; Krauss, Ronald M; Guasch-Ferre, Marta; Satija, Ambika; Blondin, Stacy A; O'Connor, Lauren E; Kim, Jung Eun; Campbell, Wayne W; Hu, Frank B; Willett, Walter C; Stampfer, Meir J]
+sources: [Roussell - Beef Optimal Lean Diet BOLD 2012, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, OConnor - Red Meat Cardiovascular Risk Factors Trials 2017]
 confidence: medium
 created: 2026-09-02
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - Saturated Fat Intake and Replacement
@@ -200,6 +200,57 @@ lipids, apolipoproteins, and blood pressure».
 [@guaschferre2019redmeat]
 -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]]
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## O'Connor 2017 — the dose-threshold read, pooled across comparators (type-F)
+
+The earlier sibling MA of Guasch-Ferré (same Purdue group; O'Connor and Campbell co-author both, so
+independence is DEAD — type-F, never `[E-independent]`). It pools **24 RCTs (\~39 trial-arms; PubMed +
+Cochrane + Scopus to May 2016)** and asks a **dose-threshold** question Guasch-Ferré does not: does
+eating **>=0.5 vs <0.5 servings of total red meat/d** — the DGA-relevant cutpoint — worsen risk factors,
+pooling *all* comparators together? Answer: no differential on any lipid/lipoprotein or blood pressure
+(2-factor nested ANOVA, P>0.05 all; e.g. LDL-C 3.18 vs 3.13 mmol/L, P=0.52; change WMD LDL-C 0.02
+[95% CI -0.05, 0.08]), across an intervention range up to **7.1 serv/d (500 g/d)**.
+[@oconnor2017redmeat]
+
+What O'Connor adds over the held Guasch-Ferré dose-null, and why it is not echo:
+
+- **A guideline-anchored threshold search, on a largely DISJOINT trial set.** O'Connor tests for a knee
+  explicitly — «There is no visual threshold of total red meat consumption that indicates an apparent
+  negative effect on blood lipids, lipoproteins, and blood pressures»
+  [@oconnor2017redmeat] — and its pool
+  **excludes Roussell BOLD 2012 and Hill 2015**, the very trials Guasch-Ferré anchors on (BOLD carries
+  red meat in every arm, so it has no <0.5-serving control). So the null is independent-constituency
+  corroboration of the flat-across-dose reading, not a re-pool of the same data.
+  [inferred from @oconnor2017redmeat; @guaschferre2019redmeat]
+- **The one non-null:** post-hoc, HDL-C was *higher* at >=3 serv/d (WMD 0.10; 95% CI 0.05, 0.16) — a
+  benign direction, so no hidden harm surfaces at the top of the dose range.
+  [@oconnor2017redmeat]
+- **Null is not cardioprotection.** The authors flag that this is a no-negative-effect finding, not
+  evidence more red meat helps: «our conclusions do not support a cardioprotective effect of higher red
+  meat consumption, such as is shown with fatty fish».
+  [@oconnor2017redmeat]
+
+**The comparator-blind caveat — O'Connor is the worked instance of Guasch-Ferré's own critique.** Because
+O'Connor pools *all* comparators, its headline *does not influence risk factors* is precisely the
+comparator-averaged null that Guasch-Ferré (co-authored by O'Connor two years later) names as
+uninformative — opposite-signed substitute effects cancelling. Read at the fabric level, O'Connor's null
+means *no NET effect across an unspecified mix of substitutes*, not *red meat is lipid-neutral against
+any given substitute* — the substitute-specific sign-flips only appear once the comparator is named
+(Guasch-Ferré, above). -> [[The Comparator Problem]]
+
+**Surrogate discipline, again.** All outcomes are intermediate biomarkers; no CVD event was measured, and
+O'Connor itself foregrounds the gap between this RCT-surrogate null and the observational hard-outcome
+signal: «These results are inconsistent with much of the observational evidence related to red meat
+consumption and CVD, which prompts the need for future research to reconcile the apparent disconnect
+between RCT and observation-based conclusions.»
+[@oconnor2017redmeat]
+-> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Synthesis — the parameter table (same-quantity check) BEFORE the cross-source claim
 
 The two trials share **analytes** but test **different contrasts**, so this is a **type-A/F composite**,
@@ -242,6 +293,25 @@ convergence of the same estimate.** What each supplies:
   the estimates are not identical and the meat>plant claim is broadly established, so this is
   shared-conclusion, not two non-obvious independent routes converging — the independence bar is not
   met. [inferred from @guaschferre2019redmeat]
+- **O'Connor 2017 is type-F on this page, and the same-quantity check is what keeps it from being echo.**
+  Below is the matched-parameter table for the O'Connor-vs-Guasch-Ferré cross-source claim.
+
+  | Matched quantity | O'Connor 2017 | Guasch-Ferré 2019 | Same quantity? |
+  |---|---|---|---|
+  | Pooled red-meat lipid effect | >=0.5 vs <0.5 serv/d, ALL comparators pooled | all-combined pool AND continuous g/d | **Partly** — O'Connor's threshold contrast ≈ G-F's "all-combined" pool (both NULL); NEITHER equals G-F's substitute-stratified estimates |
+  | Trial constituency | 24 studies to May 2016; EXCLUDES Roussell BOLD / Hill | 36 RCTs to Jul 2017; INCLUDES Roussell BOLD / Hill | **No** — overlapping but neither subsumes the other |
+  | Dose-response form | threshold search + post-hoc serving bands; null 0-500 g/d | continuous slope; null 0-500 g/d | **Yes on the null**, different parameterization |
+  | Substitute-specific effect | not estimated (pooled) | stratified (plant / fish / poultry / carb) | **No** — Guasch-Ferré only |
+  | Lean vs nonlean | not analyzed | analyzed | **No** — Guasch-Ferré only |
+
+  So O'Connor's genuine delta is the **guideline-anchored >=0.5 serv/d threshold contrast on a
+  largely-disjoint, BOLD-excluding trial set** — a distinct quantity reaching the same pooled dose-null,
+  not a re-pool. Shared authors (O'Connor, Campbell) bar `[E-independent]`; it is type-F
+  (independent-constituency refinement) plus a type-C-flavoured worked instance of the comparator-blind
+  pooling artifact.
+  [inferred from @oconnor2017redmeat; @guaschferre2019redmeat]
+
+</div>
 
 ## Is the food category doing any work here?
 

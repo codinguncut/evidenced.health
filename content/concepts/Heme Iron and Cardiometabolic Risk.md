@@ -138,8 +138,6 @@ Bastide), not from Zhao or Yang; this section only names them as sibling legs of
   (some studies compute it as a fixed factor of meat iron), so heme is not cleanly separated from red
   meat by the observational data alone.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Leg 5 — the iron-status natural experiment (MR): the shared channel splits by outcome (EXTRACTED)
 
 [@liu2024ironmr] — MR study,
@@ -285,10 +283,6 @@ route type-E requires. It must NOT be tokened `[E-independent]`. The genuine E o
 genetic estimate to Liu's *side* of that E, which is confirmation, not new independence. `confidence: low`
 stands. — the independence verdict is this page's reasoning from the two MRs' instruments.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Synthesis — the candidate shared channel (INFERRED, low confidence)
 
 
@@ -382,10 +376,6 @@ supported adverse lever for T2D** (at the iron-burden level, dietary-route unpro
 **not-supported / likely-confounded lever for CHD** — the cross-outcome *shared harmful channel* is no
 longer even directionally uniform, and `confidence: low` stands.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Gap (type-G) — the hook the next sources fill
 
 - **Heme iron -> coronary heart disease** — CASHED (Yang 2013, extracted as Leg 2 above); the coronary
@@ -408,7 +398,5 @@ longer even directionally uniform, and `confidence: low` stands.
 - **Absolute risk / substitution:** every leg is a highest-vs-lowest addition contrast; the Layer-3
   question (what replaces the heme — white meat? plant protein?) and per-stratum absolute risk are
   unanswered -> [[Should Adults Reduce Red and Processed Meat]].
-
-</div>
 
 ## References

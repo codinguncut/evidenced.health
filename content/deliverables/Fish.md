@@ -309,6 +309,8 @@ the sensitive stratum cares about most
 
 [inferred from @efsaseafood2014]
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
 A natural move is to skip the fish and take the omega-3. The trial evidence says **the pill is not the
@@ -344,7 +346,9 @@ REDUCE-IT's atrial-fibrillation signal is not an idiosyncrasy of one trial or th
 7 marine-omega-3 CV-outcome RCTs (81,210 participants) and found supplementation raised incident atrial
 fibrillation overall (HR 1.25, 95% CI 1.07-1.46), rising with dose — HR 1.12 at <=1 g/day, HR 1.49
 (1.04-2.15) above 1 g/day, and HR 1.11 (1.06-1.15) per additional 1 g/day.
-[@gencer2021] The signal survives
+[@gencer2021]
+
+The signal survives
 dropping REDUCE-IT (HR 1.23), so neither the EPA-only form nor the mineral-oil-placebo controversy is
 what drives it.
 [@gencer2021] This is an
@@ -363,6 +367,8 @@ The same food-versus-isolate split holds for the aging brain (the *Cognitive dec
 section above).
 
 [inferred from @manson2019n3; @bhatt2019]
+
+</div>
 
 ## Where fish sits in the ranking — a pebble
 

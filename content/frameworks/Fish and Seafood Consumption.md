@@ -2,12 +2,12 @@
 type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
-authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas; Lombardi, Marco; Chiabrando, Juan Guido]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020]
+authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas; Lombardi, Marco; Chiabrando, Juan Guido; Zhong, Victor W]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 cluster: fish-seafood
 nucleus: true
 confidence: medium
-self_critiqued: 2026-09-03
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-09-03
+updated: 2026-09-08
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -378,6 +378,46 @@ increment still pays. The shape is **outcome-specific**, matching the corpus's g
 curve can be monotone on one outcome and flat on another -> [[The U-Shaped Association Artifact]]. The
 conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
 but may still help all-cause) is unchanged.
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## An independent US-cohort pool finds fish NULL — the measurement-fragile edge of the signal (Zhong 2020) `[2026-09-08]`
+
+Every held fish source lands **protective** for CV/mortality — EFSA (CHD mortality), Jayedi (CVD
+mortality 0.75, all-cause 0.92), the DIfE/Boeing series (all-cause 0.93, all three CVD subtypes). A
+6-US-cohort pooled analysis (Zhong 2020; 29,682 adults, median 19-y follow-up) diverges: fish was
+**null on both** hard endpoints, per +2 servings/week, fully food-adjusted.
+
+- **Fish -> incident CVD:** HR 1.00 (0.98-1.02); 30-y ARD +0.12% (-0.40 to 0.65), NS.
+- **Fish -> all-cause mortality:** HR 0.99 (0.97-1.01); 30-y ARD -0.34% (-0.88 to 0.20), NS.
+  [@zhong2020meat]
+
+**This is a divergence, but a measurement-error-consistent one — not a filed tension.** Three reasons the
+null does not overturn the held protective signal, two of them Zhong's own:
+
+- **US cohorts have shown weaker fish signals elsewhere in the fabric** — the DIfE series notes fish ->
+  T2D turning null-to-positive in American cohorts, so a US-only pool finding a weaker CV/mortality
+  signal fits that pattern rather than contradicting the European/global estimate.
+- **Single baseline diet + no fried/nonfried split biases toward null.** Zhong flags that «the
+  misclassiﬁcation of fish intake using one-time measurement in this long-term prospective study may have
+  biased the association with all-cause mortality toward null»; when follow-up was truncated at 10 years
+  the fish -> all-cause association became protective (HR 0.95, 0.92-0.98), though Zhong cautions this may
+  be by chance since the fish -> CVD association stayed null under the same truncation.
+  [@zhong2020meat] Unmeasured fried fish,
+  which carries a *positive* HF risk (Jayedi 1.40), could be diluting the protective food signal.
+- **Zhong reads the held literature as fragile, not wrong** — «Meta-analyses generally reported inverse
+  associations between fish intake and CVD or mortality-related outcomes, but most of these associa-tions
+  were modest with P values close to .05».
+  [@zhong2020meat]
+
+So Zhong is an **independent US-cohort pool** (author-diff: no overlap with Jayedi / EFSA / Wei) that
+**sharpens the observational-ceiling caveat** already on this page rather than adding a protective vote:
+the fish -> CVD/mortality benefit is real in the pooled global evidence but modest, US-attenuated, and
+fragile to single-baseline measurement. It is type-F (a divergent refinement bounding the signal's
+robustness), not type-E corroboration and not a joined tension; confidence stays **medium**.
+[inferred from @zhong2020meat]
+
+</div>
 
 ## Limits
 

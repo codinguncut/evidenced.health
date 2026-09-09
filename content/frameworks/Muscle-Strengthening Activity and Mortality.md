@@ -268,6 +268,8 @@ does not: any reason to fear or to chase high MSA volume for mortality — nor a
 
 
 [inferred from @momma2022]
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -295,7 +297,14 @@ So strength training's **weak** card is the mortality evidence; its **strong** c
 stratum the case is *stronger* than the very-low mortality number alone implies — the lever's value is
 in keeping function and staying off the floor, not (on current evidence) a proven mortality reduction.
 
+- **And the *kind* of resistance training matters for that function card.**
+  [[Power Training and Physical Function in Older Adults]] (el Hadouchi 2022, gold SR+MA) adds a
+  GRADE-**HIGH** functional result to this strong card: for older adults, a velocity/power emphasis
+  beats conventional heavy-load strength on the activity-test outcomes (generic-function SMD 0.43,
+  speed-emphasis 0.36) — specifying not just *that* strength training defends function but *how* to
+  train for maximum functional payoff in this stratum. [inferred from @elhadouchi2022]
 
+</div>
 
 ## Limits
 

@@ -18,8 +18,9 @@ relationships:
     - BMI and All-Cause Mortality
     - Big Rocks (Elderly)
     - Frailty
+    - Central Adiposity and All-Cause Mortality
 created: 2026-08-06
-updated: 2026-09-01
+updated: 2026-09-08
 self_critiqued: 2026-09-01
 ---
 
@@ -90,6 +91,8 @@ predicted falls/fractures/mobility/mortality, while muscle mass (ALMI) «was not
 outcomes, [but] was consistently associated with mortality» — corroboration *within the source*, not an
 independent field (no `[E-independent]`).
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Effect modifiers
 
 [@santana2021]
@@ -105,6 +108,16 @@ independent field (no `[E-independent]`).
   dead-vs-living ASMI difference (site a significant moderator, p=0.020), suggesting muscle mass predicts
   mortality less strongly there — attributed tentatively to cultural/genetic factors (mass heritability
   up to \~60%). A `route-(b)` effect-modification signal, but ecological and unadjusted.
+
+**Corroborating anthropometric signal (different measure).** A large central-adiposity dose-response MA
+found **larger thigh circumference associated with LOWER all-cause mortality** (HR 0.82 per 5 cm, 3
+studies) — and thigh circumference partly indexes limb skeletal muscle, so a crude limb-muscle proxy
+tracks the same mass -> survival direction this page holds via ASMI. Corroborated by Jayedi 2020
+(chunk 01) `[E-independent]` — an independent measure (limb anthropometry, different cohorts and
+confounding), not a re-estimate of ASMI, so it stays a body line and does not pad `sources:`
+-> [[Central Adiposity and All-Cause Mortality]].
+
+</div>
 
 ## Predictor vs target — the line this page holds
 

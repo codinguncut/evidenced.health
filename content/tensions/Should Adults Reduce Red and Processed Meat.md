@@ -2,13 +2,13 @@
 type: tension
 question: Does a small, low-certainty association between meat and cancer warrant a recommendation that adults reduce intake?
 aliases: [Red Meat Tension, WCRF vs NutriRECS, Meat Reduction Disagreement, NutriRECS Controversy]
-authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Guyatt, Gordon H; Zeraatkar, Dena; Vernooij, Robin W M; Valli, Claudia]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019]
+authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Guyatt, Gordon H; Zeraatkar, Dena; Vernooij, Robin W M; Valli, Claudia; Zhong, Victor W]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 cluster: red-meat
 nucleus: true
 confidence: medium
-updated: 2026-08-06
-self_critiqued: 2026-08-08
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - Red and Processed Meat and Cancer
@@ -104,6 +104,8 @@ association warrant a reduce-recommendation at all?* Here they genuinely clash o
   bridge never asks that question, because a "probable" cause "generally justifies" a recommendation by
   construction.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## The hidden insight
 
 
@@ -131,7 +133,46 @@ complementation is deliberate -> [[Protein Quality and the DIAAS Score]]. This d
 cancer adjudication; it is a second axis the person weighs against it (and the antinutrient worry about
 the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]]).
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## The CVD and all-cause-mortality arm of the same decision (Zhong 2020) `[2026-09-08]`
+
+The clash above is framed on **cancer**, but *should adults reduce red/processed meat?* is one decision
+across the whole outcome menu, and its **cardiovascular / all-cause-mortality** arm now carries an
+absolute anchor of the same shape NutriRECS gave the cancer arm — small. A 6-US-cohort pooled analysis
+(Zhong 2020; 29,682 adults, median 19-y follow-up) sizes the hard-endpoint rock, per +2 servings/week
+over 30 years:
+
+- **Processed meat:** +1.74% (95% CI 0.85-2.63) absolute incident-CVD risk and +0.90% (0.43-1.38)
+  all-cause mortality. [@zhong2020meat]
+- **Unprocessed red meat:** +0.62% (0.07-1.16) CVD and +0.76% (0.19-1.33) ACM.
+  [@zhong2020meat]
+- Across all exposures «approximately 3% to 7% higher relative risks and less than 2% higher absolute
+  risks ... over the 30 years of follow-up».
+  [@zhong2020meat]
+
+So the CVD/ACM picture **rhymes with** the cancer picture the tension is built on: a real but small
+absolute effect at a realistic intake change, held at low certainty — observational, one baseline diet
+measurement, and «this study could not establish causality».
+[@zhong2020meat] It **adds** a
+hard-endpoint outcome to the decision menu without changing the decomposition: reduce-vs-continue is
+still the value-and-threshold question the evidence does not settle, now visible on CVD and mortality as
+well as cancer. The **processed-meat** rock is the larger of the two on every endpoint, reinforcing the
+page's *treat the two meats separately* point — processed has the firmer footing here as it did on
+cancer.
+
+**A route-(b) subgroup, exploratory only.** Zhong found the unprocessed-red-meat -> incident-CVD
+association *stronger* among higher-quality-diet eaters (HR 1.09 vs 1.02, P for interaction <.001),
+reading it as evidence that «participants also benefited from reducing their unprocessed red meat intake
+even if the overall quality of their diet was high».
+[@zhong2020meat] This is a
+hypothesis-generating subgroup (many strata tested, exploratory, P<.01 threshold), NOT a stratified
+recommendation — the effect-modification bar (route b: a positive interaction on replicated evidence) is
+not met by one exploratory pass. Recorded as a lead, not a finding.
+
+</div>
 
 ## The one thing that would move this — and a caveat on NutriRECS
 

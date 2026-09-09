@@ -630,7 +630,7 @@ pooled marker is a null (all 95% CIs cross 0):
   -0.05 (-0.23 to 0.13) · **sVCAM-1** 0.17 (-0.04 to 0.38) · **sE-selectin** -0.02 (-0.23 to 0.20) ·
   **sP-selectin** -0.08 (-0.37 to 0.22) · **adiponectin** 0.17 (-0.17 to 0.50) · **MCP-1**
   0.14 (-0.33 to 0.60). Heterogeneity near zero (I2 \~0% for most), no publication bias (Egger's P all
-  > 0.18). [@su2017la]
+  &gt; 0.18). [@su2017la]
 
 > «Our meta-analysis suggested that increasing dietary LA intake does not have a significant effect on
 > the blood concentrations of inflammatory markers. However, the extent of change in dietary LA intake
@@ -658,7 +658,7 @@ LA-intake-difference studies showed CRP rising significantly (subgroup SMD 0.20 
 > «However, in studies with a higher (than median) difference in LA intake, blood CRP was significantly
 > increased when LA consumption was increased (P = 0.034). Moreover, meta-regression analysis revealed
 > a positive relationship between the effect size of CRP and difference in LA intake (coefficient: 0.020,
-> 95% CI: 0.003 to 0.038; P = 0.023) (Fig. 5).»
+&gt; 95% CI: 0.003 to 0.038; P = 0.023) (Fig. 5).»
 > [@su2017la]
 
 This is a **within-surrogate** dose caveat, not a hard-outcome harm: the increments driving it (up to

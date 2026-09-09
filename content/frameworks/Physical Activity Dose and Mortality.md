@@ -140,7 +140,7 @@ HRs stay Celis-Morales's, the third-route framing is.
 > [@who2020]
 
 > «The maximal risk reduction for total PA was observed at about 300 cpm (adjusted HR = 0.34 [95% CI
-> 0.27 to 0.43]).»
+&gt; 0.27 to 0.43]).»
 > [@who2020]
 
 **Certainty: HIGH.** The underlying profile is a harmonized meta-analysis of eight prospective

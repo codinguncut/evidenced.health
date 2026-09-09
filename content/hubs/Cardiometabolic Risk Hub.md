@@ -89,6 +89,8 @@ BP levers.
   volume, Roerecke), the red-wine/resveratrol null (Semba), and the population "no safe level" burden
   (GBD, Rumgay)
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Neurodegeneration (dementia · Parkinson's)
 
 Most modifiable dementia levers ARE the cardiometabolic big rocks (hypertension, diabetes, obesity, LDL,
@@ -100,6 +102,11 @@ Parkinson's, by contrast, has *few* credible levers and mostly critically-low ev
   \~45% population-attributable-fraction headline, with the modelled-attribution caveats (nucleus)
 - [[Multidomain Lifestyle Intervention and Cognitive Decline]] — the FINGER RCT: does intervening on the
   levers as a bundle actually move cognition? Yes, but small (d=0.13), on a surrogate, non-decomposable
+- [[MIND Diet and Cognitive Decline]] — the `mind-diet` nucleus and pooled-*observational* magnitude:
+  per 1-SD MIND, +0.042 (0.020, 0.065) z-score better cognitive FUNCTION but decline NS (+0.010,
+  -0.001, 0.021) and Morris-dependent (Huang 2023 MA, 8 cohorts / 26,103). Red meat associates the
+  wrong way vs the score's a-priori design. The observational-vs-RCT tension (Barnes NEJM null) is
+  named OPEN, awaiting the RCT; `confidence: low`
 - [[Hearing Loss and Dementia]] — a dementia-specific, correctable lever: does treating hearing loss with
   hearing aids lower dementia risk, and for whom is the effect largest?
 - [[Parkinsons Disease Modifiable Risk Factors]] — Chen 2021 umbrella review (46 SRs, 39 critically-low
@@ -107,3 +114,5 @@ Parkinson's, by contrast, has *few* credible levers and mostly critically-low ev
   credible protective lever (already a big rock), most other signals are reverse-causation-suspect (the
   long prodrome) or confounded-by-indication. Smoking's inverse-PD association is an artifact, never a
   lever
+
+</div>

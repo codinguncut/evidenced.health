@@ -7,7 +7,7 @@ sources: [WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or
 cluster: dietary-fat
 confidence: medium
 created: 2026-08-25
-updated: 2026-09-04
+updated: 2026-09-09
 self_critiqued: 2026-09-04
 relationships:
   related_to:
@@ -18,6 +18,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Measurement Error in Dietary Assessment
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
+    - Named Diet Programs Compared
+    - Dietary Patterns and All-Cause Mortality
 ---
 
 **The single largest randomized test of a *total-fat-reduction* dietary pattern for cardiovascular

@@ -243,8 +243,6 @@ event/mortality evidence AWAITS SURMOUNT-MMO; do not borrow SELECT's benefit for
 molecule, different stratum).
 [@malhotra2024surmount]
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## The drug route generalizes to a class — and it is weight-INDEPENDENT, which reinforces this page
 
 SELECT is one agent in one non-diabetic population. The class-level meta-analysis (Badve 2024; 11 CVOTs,
@@ -291,10 +289,6 @@ prevention targeting composition), so this is a reasoned cross-trial contrast, n
 PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's win is on (mostly stroke)
 *events*, not death. [inferred from @estruch2018; @look2013]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Decision relevance
 
 - **Weight loss stays strongly indicated — for the outcomes it demonstrably moves.** Look AHEAD itself
@@ -308,7 +302,7 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
   post-hoc — "a 10% weight loss in the first year... associated with a 21% decrease in occurrence of
   cardiovascular outcomes over a median follow-up of 10.2 years" [@lean2018] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
   mention (DiRECT reports, does not re-derive it), so the primary post-hoc paper is still AWAITED. The
-  >=10% threshold therefore still rests on **one** post-hoc analysis (Gregg 2016), now echoed by two
+  &gt;=10% threshold therefore still rests on **one** post-hoc analysis (Gregg 2016), now echoed by two
   trial reports rather than independently re-derived by either — citation is not replication.
 - **Do not oversell a cardiovascular-event reduction the largest trial failed to show.** For a person
   pursuing lifestyle weight loss, *this will lower your risk of a heart attack* is weakly evidenced —
@@ -323,8 +317,6 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
   the CV benefit that weight loss itself does not reliably confer via the lifestyle route.
 - **Absolute benefit still scales with baseline risk** ([[Baseline Risk and the Relative-Absolute Split]])
   — even if a true small CV effect exists, it is smallest exactly where risk is lowest.
-
-</div>
 
 ## The weight-cycling objection — not a reason to avoid trying (F-refinement)
 

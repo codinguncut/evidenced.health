@@ -43,8 +43,6 @@ the other. A null from supplementing the already-replete says nothing about repl
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## For the well-nourished, the marketed stack is a null lever
 
 VITAL is the cleanest test. It randomized 25,871 US adults selected by age alone (no cardiovascular
@@ -181,8 +179,6 @@ the cocoa bean ... thus, we cannot disentangle the effects of its individual com
 [@sesso2022cosmos]. A cocoa-extract supplement is
 a different exposure from cocoa the food -> [[Is the Food Category Doing Any Work]].
 
-</div>
-
 ## Some antioxidant supplements shorten lives rather than lengthen them
 
 The harm arm is the sharpest decision-change here, because it runs opposite to the *nutrients are good,
@@ -281,6 +277,8 @@ pregnant, so supplementation must be in place beforehand
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
 Bone brings the repletion/enhancement split, the stratum question, and the net-effect ledger
@@ -299,7 +297,9 @@ dose range*, not vitamin D as such, and the higher-dose D-alone question stays o
 The fracture benefit is the **combination**, so calcium is the active co-ingredient — and it
 concentrates in the older institutionalized: «more extreme changes in risk
 of any fracture in the RCTs of older participants (ie, aged 80 years) living in an institution»
-[@yao2019]. That is the repletion arm (older, often
+[@yao2019].
+
+That is the repletion arm (older, often
 vitamin-D-deficient, low dietary calcium); the community-dwelling replete get little to nothing — which
 is exactly why Kahwati, sampling only community-dwellers, finds the null. The two are a **distinction by
 population, not a contradiction**: their hip-fracture point estimates barely differ (0.84 vs 0.88) and
@@ -334,6 +334,8 @@ the whole-strategy ledger runs against the supplement (no benefit + stone harm +
 and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventing Falls in Older Adults]];
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
+
+</div>
 
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
@@ -417,9 +419,11 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
-<div class="recent-update" data-last-updated="2026-09-05">
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The bottom line
+
+#### The general-population defaults
 
 - **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil, cocoa-flavanol
   and antioxidant stack for disease prevention** — the best trials show no benefit, and spend the effort on the big rocks
@@ -428,6 +432,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   raised cancer and death, not lowered them.
 - **If you are planning or capable of pregnancy: take 400 ug/day folic acid periconceptionally** (5 mg if
   higher-risk) — a real lever on a hard outcome, and one of the few supplements that clearly works.
+#### The stratum-specific exceptions
+
 - **Correct a documented deficiency, don't supplement blind.** Repletion (vitamin D, iron, iodine) helps
   the deficient on real outcomes and scales with severity; confirm the shortfall with a clinician first,
   and use the schedule the evidence used (e.g. daily/weekly vitamin D, not a bolus).
@@ -442,8 +448,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Caveats
 
@@ -468,7 +472,5 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
-
-</div>
 
 ## References

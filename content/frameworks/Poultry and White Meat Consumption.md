@@ -2,14 +2,14 @@
 type: framework
 question: Does eating more poultry (white meat) change all-cause mortality or cardiovascular risk, and by how much — and is any signal the poultry or what it displaces?
 aliases: [White Meat, White Meat Consumption, Poultry Consumption, Poultry and Mortality, White Meat and Mortality, Chicken Consumption]
-authors: [Lupoli, Roberta; Vitale, Marilena; Calabrese, Ilaria; Giosue, Annalisa; Riccardi, Gabriele; Vaccaro, Olga; Kim, Kyuwoong; Hyeon, Junghyeon; Lee, Sang Ah; Kwon, Sung Ok; Lee, Hyejin; Keum, NaNa; Lee, Jong-Koo; Park, Sang Min; Ramel, Alfons; Nwaru, Bright I; Lamberg-Allardt, Christel; Thorisdottir, Birna; Barebring, Linnea; Soderlund, Fredrik; Arnesen, Erik; Dierkes, Jutta; Akesson, Agneta; Etemadi, Arash; Sinha, Rashmi; Ward, Mary H; Graubard, Barry I; Inoue-Choi, Maki; Dawsey, Sanford M; Abnet, Christian C]
-sources: [Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017]
+authors: [Lupoli, Roberta; Vitale, Marilena; Calabrese, Ilaria; Giosue, Annalisa; Riccardi, Gabriele; Vaccaro, Olga; Kim, Kyuwoong; Hyeon, Junghyeon; Lee, Sang Ah; Kwon, Sung Ok; Lee, Hyejin; Keum, NaNa; Lee, Jong-Koo; Park, Sang Min; Ramel, Alfons; Nwaru, Bright I; Lamberg-Allardt, Christel; Thorisdottir, Birna; Barebring, Linnea; Soderlund, Fredrik; Arnesen, Erik; Dierkes, Jutta; Akesson, Agneta; Etemadi, Arash; Sinha, Rashmi; Ward, Mary H; Graubard, Barry I; Inoue-Choi, Maki; Dawsey, Sanford M; Abnet, Christian C; Zhong, Victor W]
+sources: [Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 cluster: white-meat
 nucleus: true
 confidence: low
 created: 2026-08-28
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - The Comparator Problem
@@ -361,6 +361,52 @@ to lean on an industry-funded abstract for the poultry->T2D question. Recorded a
 refutation of any source — symmetric standards apply to the funding note in both directions.
 [inferred from @ramel2023whitemeat]
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## Poultry -> INCIDENT CVD, a positive signal on the open cell (Zhong 2020) `[2026-09-08]`
+
+Ramel graded the poultry -> *incident* CVD/CHD/stroke cells «limited - no conclusion» = insufficient
+evidence, distinct from the graded-null CVD *mortality* cell. A 6-US-cohort pooled analysis (Zhong 2020;
+29,682 adults, 6,963 incident CVD events, median 19-y follow-up) now adds a first-hand data point to
+that open cell — and it is **positive**, the cluster's first harmful poultry signal on a hard endpoint:
+
+- **Poultry -> incident CVD** (composite CHD+stroke+HF+CVD death): **HR 1.04 (95% CI 1.01-1.06), P=.008;
+  30-year ARD +1.03% (0.36-1.70)** per +2 servings/week, fully food-adjusted (model 3).
+  [@zhong2020meat] The signal emerged
+  only in the food-adjusted model — model 1 was null (HR 1.02, P=.19) — so it is not robust to model
+  choice.
+- **Poultry -> all-cause mortality is NULL** (HR 0.99, 0.97-1.02; 30-y ARD -0.28%, NS), consistent with
+  the held Lupoli / Ramel / Etemadi mortality nulls.
+  [@zhong2020meat]
+
+**Zhong reads the positive as a food-preparation confound, not a poultry effect.** «This association may
+be related to the poultry intake including fried chicken. Fried food consumption has been significantly
+positively associated with adverse outcomes.»
+[@zhong2020meat] Preparation method
+(fried vs non-fried) was not assessed across the cohorts, so fried chicken could not be separated from
+poultry — the same *is the food category doing any work?* problem the fish literature shows for fried
+fish -> [[Is the Food Category Doing Any Work]].
+
+### Parameter table — Zhong's positive vs the held poultry nulls (same quantity?)
+
+| Parameter | Zhong 2020 | Lupoli 2021 / Ramel 2023 | Papier 2021 | Same quantity? |
+|---|---|---|---|---|
+| Endpoint | COMPOSITE incident CVD (fatal+nonfatal CHD/stroke/HF) | CV / CVD *mortality* | *incident* IHD | NO — incidence-composite vs mortality vs IHD-only |
+| Estimand | HR + absolute ARD, per +2 svg/wk | RR highest-vs-lowest | RR per 50 g/d | NO — continuous vs categorical dose |
+| Poultry result | 1.04 (1.01-1.06), positive | 0.95 / 0.95, null | 1.02 (0.97-1.07), null | direction differs (Zhong positive) |
+| Design | 6 US cohorts, food-adjusted, prep unmeasured | international cohort MAs | international cohort MA | NO — Zhong single-baseline US |
+
+**Verdict: NOT a filed tension — the endpoints differ and Zhong itself explains the divergence.** Zhong's
+positive is on *incident* composite CVD (Ramel's insufficient-evidence cell), not the poultry ->
+CVD-*mortality* cell where Lupoli and Ramel land null, so it does not contradict the held nulls — it
+**populates an open cell** with a weak, model-dependent, fried-chicken-confounded positive. The poultry
+-> incident-CVD cell therefore moves from *insufficient evidence* to *weak positive, confounded by
+preparation*; confidence on the cluster stays low. [inferred from @zhong2020meat]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Open gaps (type-G)
 
 - **Confounding by red-meat displacement is unresolved** — the central caveat above; no analysis in any
@@ -368,9 +414,11 @@ refutation of any source — symmetric standards apply to the funding note in bo
 - **Stroke *mortality* for white meat** — unestimable in Kim (data limitation); still an open cell,
   distinct from a null. Stroke *incidence* is now held (Kim 0.87, thin 2-article base, above).
 - **CVD mortality + type-2-diabetes** — now CLOSED by Ramel 2023 (both null, WCRF «substantial effects
-  unlikely»; CVD-mortality null firm, T2D null carries I2=82%). The *incident* CV endpoints (CHD,
-  stroke, CVD incidence) remain graded «limited – no conclusion» = insufficient evidence, an open cell
-  distinct from the mortality null.
+  unlikely»; CVD-mortality null firm, T2D null carries I2=82%). The *incident* CVD endpoint was graded
+  «limited – no conclusion» = insufficient evidence by Ramel; Zhong 2020 now populates it with a **weak
+  positive** (composite incident CVD HR 1.04, model-dependent, fried-chicken-confounded -> *Poultry ->
+  INCIDENT CVD* above), so the cell is no longer empty but stays low-certainty and distinct from the
+  mortality null.
 - **Processed vs unprocessed white meat (the leading open question on T2D).** Only 2 of Ramel's cohorts
   isolated unprocessed poultry and only 1 split processed from unprocessed — processed poultry ->
   higher T2D (Steinbrecher), unprocessed -> neutral-to-lower (Villegas 0.79). The aggregate null may
@@ -386,6 +434,8 @@ refutation of any source — symmetric standards apply to the funding note in bo
 - **No dose-response on any endpoint** — all three held sources use categorical highest-vs-lowest
   contrasts; a per-gram poultry curve, knee, or absolute risk difference remains uncomputable
   (needs aggregation).
+
+</div>
 
 ## Self-critique `[run 2026-08-28 after attaching Kim's stroke endpoint — the cross-source step]`
 

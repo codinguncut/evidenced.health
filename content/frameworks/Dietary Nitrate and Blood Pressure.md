@@ -272,7 +272,7 @@ gap). [inferred from @siervo2013nitrate]
 - **The resting-BP benefit was NOT confirmed on ambulatory 24-h monitoring** — the more valid BP
   measure. This is a within-source disconfirmation, not a footnote:
   > «The beneﬁcial effects of beetroot juice supplementation on BP were not conﬁrmed when ambulatory
-  > 24-h BP monitoring was used to measure changes in BP (39-41), including a group of older (>60 y)
+  &gt; 24-h BP monitoring was used to measure changes in BP (39-41), including a group of older (>60 y)
   > overweight and obese participants with type 2 diabetes.»
   [@siervo2013nitrate]
   The three ambulatory studies are also the ones in **higher-risk** participants (older, obese, T2D) —

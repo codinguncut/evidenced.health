@@ -33,7 +33,7 @@ studies leaves the inverse association intact:
 > «The inverse association between estimated fluoride exposure and IQ in children was consistent across
 > different study populations, study locations, study quality/risk-of-bias determinations, study designs,
 > exposure assessment measures, and types of exposure data (group-level and individual-level). There were
-> 19 low risk-of-bias studies that were conducted in 15 study populations, across 5 countries, and
+&gt; 19 low risk-of-bias studies that were conducted in 15 study populations, across 5 countries, and
 > evaluating more than 7,000 children.»
 > [@ntp2024fluoride]
 
@@ -81,7 +81,7 @@ OHAT stream rates low (19 low-RoB) and leans on. The **Bashash rating
 flip is the smoking gun**: one MA's low-RoB anchor is the other's high-RoB study.
 
 So the reassurance that «it holds in the high-quality studies» — the claim propping up confidence in the
->1.5 mg/L harm arm and any extrapolation of it toward US fluoridation levels — is **instrument-dependent,
+&gt;1.5 mg/L harm arm and any extrapolation of it toward US fluoridation levels — is **instrument-dependent,
 not a property of the evidence.** Under a stricter confounding bar the high-quality pool goes null.
 
 ## Why this is a qualified-E clash, not independent corroboration

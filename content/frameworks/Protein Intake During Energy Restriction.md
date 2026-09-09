@@ -358,7 +358,7 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
 - **Open loop / medium confidence on the DIRECTION only:** the FFM-preservation direction now rests on
   three gold sources across strata — a dose-response meta-regression (Refalo, RT non-obese), a
   direct-contrast RCT MA (Wycherley, all-age sedentary overweight/obese), and an age-restricted MA (Kim,
-  >=50) — with two independent labs (Refalo, Wycherley) plus a same-direction, same-magnitude age
+  &gt;=50) — with two independent labs (Refalo, Wycherley) plus a same-direction, same-magnitude age
   extension (Kim, *not* an independent leg). Hence medium, not low. But all three terminate on
   **surrogates** (FFM/lean mass, TG), the effect sizes are small (sub-kg), and **nothing here grades a
   chosen protein intake against a realized function or health outcome** — the loop stays open. No target

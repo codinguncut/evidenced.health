@@ -104,8 +104,6 @@ outcomes) in a new population (T2D+CKD)** that none of the held trials measured 
 outcome), not extra confidence in an already-held claim.
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Class-level context — FLOW inside the GLP-1 CVOT meta-analysis (F-refinement)
 
 [@badve2024glp1]
@@ -133,7 +131,6 @@ most pooled trials enrolled near-normal kidney function — so FLOW's large abso
 high-baseline-risk feature (route (a)), not the class norm.
 [inferred from @badve2024glp1; @perkovic2024]
 
-</div>
 
 ## Decision relevance
 
@@ -151,8 +148,6 @@ high-baseline-risk feature (route (a)), not the class norm.
   this is a large, certain lever on patient-important outcomes — near the top for that specific profile.
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Gaps
 
 - **Combination therapy untested** — SGLT2i/finerenone uptake was low; the order and additivity of the
@@ -163,7 +158,5 @@ high-baseline-risk feature (route (a)), not the class norm.
   (narrowed).
 - **Generalizability** — mostly White; effect in lower-risk, non-diabetic, or non-albuminuric CKD
   unknown. G.
-
-</div>
 
 ## References

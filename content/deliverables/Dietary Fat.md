@@ -3,7 +3,7 @@ type: deliverable
 title: Dietary Fat
 confidence: medium
 created: 2026-08-17
-updated: 2026-09-07
+updated: 2026-09-08
 self_critiqued: 2026-09-07
 concrete_subject_audited: 2026-09-07
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
@@ -52,7 +52,7 @@ The risk-of-bias restriction is the exception, and the **Moderate grade already 
 
 The events benefit is real but modest. The mortality picture is different — and, unusually here, both camps agree on it.
 
-<div class="recent-update" data-last-updated="2026-09-07">
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Expect no mortality change from cutting saturated fat
 
@@ -60,7 +60,7 @@ Cutting saturated fat does not measurably change how long people live. **All-cau
 
 This is where the reassessment critics and the guideline bodies **converge rather than clash**: the heterodox pole itself finds «no beneficial effects of reducing SFA intake on cardiovascular disease (CVD) and total mortality» [@astrup2020] — for mortality, exactly the Cochrane result.
 
-WHO's trials and Astrup's reassessment both read saturated fat as a change — something a person cuts. A large observational meta-analysis reads it as a level instead, and reaches a cause of death the trials never isolate. Ma's 2024 dose-response analysis pooled 101 prospective-cohort study reports and compared high against low saturated-fat intake for each mortality endpoint (the saturated-fat mortality cell itself drew on 59 cohorts). On cardiovascular death it agrees the association is null, RR 1.03 (95% CI 0.98-1.08). But for **cancer death, people eating more saturated fat died of cancer more often — RR 1.10 (1.06-1.14) — and the cohorts barely disagreed (I2 = 0.0%)** [@ma2024macro].
+WHO's trials and Astrup's reassessment both read saturated fat as a change — something a person cuts. A large observational meta-analysis reads it as a level instead, and reaches a cause of death the trials never isolate. Ma's 2024 dose-response analysis pooled 101 cohort study reports across all macronutrients -- 46 of them on fat and mortality -- and compared high against low saturated-fat intake for each mortality endpoint. On cardiovascular death it agrees the association is null, RR 1.03 (95% CI 0.98-1.08). But for **cancer death, people eating more saturated fat died of cancer more often — RR 1.10 (1.06-1.14) — and the cohorts barely disagreed (I2 = 0.0%)** [@ma2024macro].
 
 That is a low-heterogeneity, cause-specific signal on an endpoint this section was otherwise silent on. Read it for exactly what it is: one observational nutrient-level cell, not a demonstration that saturated fat *causes* cancer. It sits beside the randomized all-cause null, not in place of it — WHO's trials measured a *reduction* against usual intake, Ma measured a *level* across cohorts, so the two are different quantities read side by side, not a contradiction to reconcile.
 
@@ -72,7 +72,7 @@ Type of fat therefore moves cardiovascular events modestly and overall mortality
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-05">
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Target the type, not the total amount
 
@@ -102,7 +102,9 @@ independent backing). That subgroup is flatly null: «There was no suggestion of
 cardiovascular events in studies that compared reduced fat vs usual intake (RR 0.97, 95% CI 0.87 to
 1.08 ... 50,655 participants)»
 [@hooper2012reducedfat]. The whole class of
-total-fat-reduction trials lands where WHI did, not one trial alone. What
+total-fat-reduction trials lands where WHI did, not one trial alone.
+
+What
 moved events was the *modification* subgroup (saturated fat -> unsaturated: RR 0.82, fixed-effects 0.83),
 and the review's overall 14% events reduction (RR 0.86, 0.77-0.96, moderate GRADE) is carried by the
 modifying arms, not the reducing ones [@hooper2012reducedfat].

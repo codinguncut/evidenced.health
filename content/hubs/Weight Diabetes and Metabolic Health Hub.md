@@ -11,6 +11,8 @@ Navigator for the weight-management and metabolic clusters — whether any diet 
 whether type 2 diabetes can be put into remission, and where drugs enter as the realistic alternative.
 Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## What BMI level minimizes mortality, and is the "obesity paradox" real?
 
 - [[BMI and All-Cause Mortality]] — the bias-corrected BMI->mortality curve (Global BMI IPD-MA, 10.6M):
@@ -25,6 +27,11 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   INTERHEART (case-control, 27,098, 52 countries) found WHR/waist far outrank BMI, whose whole MI
   association vanishes after adjusting for fat distribution (1.44 -> 1.12 -> 0.98); abdominal adiposity's
   attributable share of MI is \~3x the BMI cut-point's (24.3% vs 7.7%). Measure the waist, not the scale
+- [[Central Adiposity and All-Cause Mortality]] — the central-fat analog of the BMI curve (Jayedi 2020
+  dose-response MA, 72 cohorts, 2.53M): waist/WHR/WHtR predict mortality *independent of BMI* (WC
+  strengthens to 1.17 after BMI adjustment), the curve is *less U-shaped* than BMI (WHR/ABSI monotone;
+  WC/WHtR shallow-J, negligible protective arm), and hip/thigh are protective — measure waist alongside
+  BMI, not instead of it
 - [[Weight Cycling and Cardiometabolic Risk]] — whether "yo-yo" dieting itself harms, and whether fear
   of it should deter attempting weight loss (confounding-caveated; the signal is in normal-weight
   body-image dieters, not obese patients — so not a reason to avoid trying)
@@ -39,6 +46,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   metabolically-healthy obese (direct renal-hemodynamic path). Kidney joins CVD/cancer/liver as an
   organ the same weight lever protects; the RR is partly mediator-adjusted, so it under-states the
   total prevention benefit. Onset is in scope; progression is the prescriber boundary
+
+</div>
 
 ## Is any diet superior for weight loss?
 
@@ -65,8 +74,6 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - [[Periodontitis and Systemic Health]] — does treating periodontitis lower HbA1c (causal, moderate
   certainty), and what the dementia arm can and cannot claim
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Why maintenance is hard, and drug/monitoring routes
 
 - [[Weight-Loss Maintenance and Metabolic Adaptation]] — why maintaining diet-induced loss is hard and
@@ -88,5 +95,3 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   and what outcome it actually changes
 - [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating
   improves outcomes, especially in people without diabetes
-
-</div>

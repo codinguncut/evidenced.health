@@ -5,7 +5,7 @@ question: What does the evidence show about smoking and patient-important outcom
 sources: [Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-03
+updated: 2026-09-08
 self_critiqued: 2026-09-03
 concrete_subject_audited: 2026-09-03
 aliases: [Smoking, Tobacco, Quitting Smoking, Smoking Cessation]
@@ -120,36 +120,43 @@ which biases *against* the benefit. The large benefit survives that conservative
 
 
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## What the held evidence does not yet cover
 
 The fabric holds one gold mortality source (Jha 2013) plus Livingston 2024 for dementia. The
 coverage-gap inventory below is the wiki's own appraisal of what the held sources omit, not a claim
 from either source. The inventory is honest about what it does **not** reach:
 
-- **E-cigarettes / vaping** — the cardiovascular cell is now open
-  ([[Electronic Cigarettes and Cardiovascular Risk]]) but only on *surrogates*; hard patient-important
-  CV outcomes remain insufficient evidence, and the decision is stratum-dependent — an e-cigarette is
-  not one thing, and the sign flips with who uses it:
-  - **A smoker who switches** (vs continued combustible smoking) gets a harm-reduction *surrogate*
-    benefit — blood pressure fell: SBP -7.00 mmHg (95% CI -9.63 to -4.37), DBP -3.65 mmHg (-5.71 to
-    -1.59)
-    [@skotsimara2019ecig].
-    But hard CV outcomes stay insufficient evidence: the one observational MI estimate (OR 1.79) sits
-    below combustible cigarettes (OR 2.72) yet is confounded, with reverse causation flagged
-    [@skotsimara2019ecig] — so the
-    surrogate improvement is held, but a hard-outcome benefit is not demonstrated.
-  - **A never-smoker who starts** (vs no exposure) takes on pure added harm with no offsetting
-    baseline: acute use raised heart rate +2.27 bpm, SBP +2.02 mmHg, DBP +2.01 mmHg
-    [@skotsimara2019ecig], with no
-    cessation benefit to offset it. For a smoker who cannot quit, switching is a plausible
-    harm-reduction step on surrogates whose hard-outcome case is unproven; for a never-smoker, starting
-    is unambiguous added risk.
+**E-cigarettes / vaping** — the cardiovascular cell is now open
+([[Electronic Cigarettes and Cardiovascular Risk]]) but only on *surrogates*; hard patient-important
+CV outcomes remain insufficient evidence, and the decision is stratum-dependent — an e-cigarette is
+not one thing, and the sign flips with who uses it:
+
+**A smoker who switches** (vs continued combustible smoking) gets a harm-reduction *surrogate*
+benefit — blood pressure fell: SBP -7.00 mmHg (95% CI -9.63 to -4.37), DBP -3.65 mmHg (-5.71 to
+-1.59)
+[@skotsimara2019ecig].
+But hard CV outcomes stay insufficient evidence: the one observational MI estimate (OR 1.79) sits
+below combustible cigarettes (OR 2.72) yet is confounded, with reverse causation flagged
+[@skotsimara2019ecig] — so the
+surrogate improvement is held, but a hard-outcome benefit is not demonstrated.
+
+**A never-smoker who starts** (vs no exposure) takes on pure added harm with no offsetting
+baseline: acute use raised heart rate +2.27 bpm, SBP +2.02 mmHg, DBP +2.01 mmHg
+[@skotsimara2019ecig], with no
+cessation benefit to offset it. For a smoker who cannot quit, switching is a plausible
+harm-reduction step on surrogates whose hard-outcome case is unproven; for a never-smoker, starting
+is unambiguous added risk.
+
 - **Secondhand smoke** — no dose-response on hard outcomes is held.
 - **Specific cancers beyond mortality** — no dedicated effect-size meta-analyses (e.g. smoking and a
   named cancer) beyond Jha's mortality figures.
 - **How to quit** — the comparative efficacy of cessation methods (nicotine replacement,
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
+
+</div>
 
 ## Bottom line — what to do
 

@@ -324,7 +324,7 @@ intake). Held as insufficient-evidence for HPF -> outcome. [inferred from @fazzi
 **Three constructs, correlated but NOT interchangeable — the non-transfer guard.** UPF (manufacturing),
 HPF (nutrient composition/reward), and high-energy-density (HED, >2 kcal/g) are three distinct lenses on
 *obesogenic food*, and Sutton 2023 measured how far they overlap across the US food supply (1988-2018,
->6000 solid foods/year, Fazzino lab). Overlap is high but incomplete: «moderate to high overlap in foods
+&gt;6000 solid foods/year, Fazzino lab). Overlap is high but incomplete: «moderate to high overlap in foods
 (40%-70%) across definitions» [@sutton2023hpf],
 and «approximately one third of foods... met criteria for all three definitions (UPF, HPF, and HED)»
 [@sutton2023hpf] — but each also

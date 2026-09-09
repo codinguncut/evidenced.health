@@ -44,7 +44,7 @@ estimated. Mendelian randomization -- a natural experiment that severs the marke
 its confounders -- returns a null:
 
 > «In a combined analysis, the risk ratio for coronary heart disease was 1.00 (0.90 to
-> 1.13) per 1 SD higher genetically raised natural log (ln) concentration of C reactive
+&gt; 1.13) per 1 SD higher genetically raised natural log (ln) concentration of C reactive
 > protein. The genetic findings were discordant with the risk ratio observed for
 > coronary heart disease of 1.33 (1.23 to 1.43) per 1 SD higher circulating ln
 > concentration of C reactive protein in prospective studies (P=0.001 for difference).

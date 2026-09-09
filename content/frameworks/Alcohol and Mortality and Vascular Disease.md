@@ -105,7 +105,7 @@ biases.
 Significant all-cause mortality elevation begins at:
 
 - **pooled: 45 g/day** — «45 to 64 g per day (RR, 1.19; 95% CI, 1.07-1.32)», rising to «1.35» at
-  >=65 g/day; 25-44 g/day pooled is null (1.05, ns);
+  &gt;=65 g/day; 25-44 g/day pooled is null (1.05, ns);
 - **women: from 25 g/day** — medium-volume «RR, 1.21; 95% CI, 1.08-1.36», and *any* drinking is already
   elevated («1.22; 95% CI, 1.02-1.46»);
 - **men: from 45 g/day** — 25-44 g/day is null for men.

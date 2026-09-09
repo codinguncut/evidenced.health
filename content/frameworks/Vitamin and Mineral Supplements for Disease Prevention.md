@@ -486,8 +486,8 @@ actual trials, chief among them **CARET**, which randomized 18,314 smokers and a
 to beta carotene (30 mg/day) plus retinol vs placebo and was **halted 21 months early** [@omenn1996]:
 
 > «The active-treatment group had a relative risk of lung cancer of 1.28 (95 percent confidence interval,
-> 1.04 to 1.57 ... the relative risk of death from any cause was 1.17 (95 percent confidence interval,
-> 1.03 to 1.33); of death from lung cancer, 1.46 (95 percent confidence interval, 1.07 to 2.00) ... the
+&gt; 1.04 to 1.57 ... the relative risk of death from any cause was 1.17 (95 percent confidence interval,
+&gt; 1.03 to 1.33); of death from lung cancer, 1.46 (95 percent confidence interval, 1.07 to 2.00) ... the
 > randomized trial was stopped 21 months earlier than planned» [@omenn1996]
 
 CARET is **not an independent second witness** of the USPSTF figure — it is one of the trials *inside*

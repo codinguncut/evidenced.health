@@ -2,11 +2,11 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Zargarzadeh, Nikan]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Zargarzadeh - Legume Consumption Mortality]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-08-28
+self_critiqued: 2026-09-09
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,7 +16,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-27
-updated: 2026-08-28
+updated: 2026-09-09
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -113,6 +113,8 @@ equivalence of fortified/added fibre to intrinsic whole-grain fibre on hard outc
 established** — an open question, not a demonstrated sameness; "target fibre" ranks fibre above the label,
 it does not flatten the matrix.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Pulses — SACN largely did not look, and that is the finding
 
 Where measured, null: legume fibre -> T2DM RR 1.01 (0.98, 1.04) per 1 g/day; legume fibre ->
@@ -144,6 +146,14 @@ do nothing at the intakes someone considering them would actually eat. `-> SC-11
 (Thorisdottir 2023, NNR2023) — cohort-null on hard CVD/T2D events across a low intake range, benefit
 on LDL-C at RCT doses, «limited – no conclusion» overall. See *The pulses G gap gets its dedicated
 SR+MA* below.
+
+**Update `[2026-09-09]`: the MORTALITY cell — the one Thorisdottir left open (it covered events +
+risk factors, not death) — now has a number** from a dedicated legume->mortality dose-response MA
+(Zargarzadeh 2023): non-soy legumes -> \~6% lower all-cause mortality per 50 g/d (moderate certainty),
+but no robust signal on any *specific* cause of death. See *The pulses mortality cell gets its number*
+below.
+
+</div>
 
 ## What this page does NOT establish
 
@@ -252,8 +262,8 @@ NNR cashes the `AWAITS` above. **The first thing it
 establishes is that it cannot corroborate this page**, and NNR says so itself by listing its inputs:
 
 > «Seven qSRs are available on the role of cereals (grains) and health outcomes (Fogelholm et al.,
-> 2012; Hauner et al., 2012; Reynolds et al., 2019; SACN, 2015; WCRF/AICR, 2018b, j; Åkesson et al.,
-> 2013).»
+&gt; 2012; Hauner et al., 2012; Reynolds et al., 2019; SACN, 2015; WCRF/AICR, 2018b, j; Åkesson et al.,
+&gt; 2013).»
 > [@nnr2023]
 
 **SACN 2015 is one of the seven.** So NNR agreeing with SACN on grains is a body agreeing with a
@@ -311,7 +321,7 @@ told only one of the two would form a different picture of how settled this is.
   > «Dose-response curves show that risk reduction for all-cause mortality is observed for intakes up
   > to 50-60 g/day of whole grains. Higher intakes (i.e. 90 g/day) confer even greater risk reduction
   > for coronary heart disease, type 2 diabetes and colorectal and breast cancer (Reynolds et al.,
-  > 2019).»
+  &gt; 2019).»
   > [@nnr2023]
 
   **«observed for intakes up to 50-60 g/day» read two ways — and Reynolds 2019 (now held) settles it
@@ -579,6 +589,8 @@ cell, RR 0.88, single study).
 [@schlesinger2019]
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## The pulses G gap gets its dedicated SR+MA — cohort-null on events, benefit on risk factors `[2026-08-28, Thorisdottir]`
 
 The G gap above ("the wiki cannot currently answer whether pulses help, harm or do nothing at
@@ -676,5 +688,142 @@ cohort range is compressed near the Nordic \~12 g/day mean, so the events null i
 Nordic eater would reach and uninformative about the 120-150 g/day RCT dose**; blood pressure unconcluded;
 and the surrogate-to-hard-outcome link for the LDL benefit is assumed, not shown.
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
+
+## The pulses mortality cell gets its number — legume -> all-cause mortality, but no cause survives `[2026-09-09, Zargarzadeh]`
+
+Thorisdottir covered legume -> CVD/T2D **events** (incidence) and RCT risk factors; the **mortality**
+endpoint was the open cell above. Zargarzadeh 2023 (Advances in Nutrition; SR + dose-response MA, **32
+prospective cohorts / 31 publications, 1,141,793 participants, 93,373 all-cause deaths**) fills it — and
+it is a *dose-response* MA, so it names the curve shape, not just a direction.
+[@zargarzadeh2023]
+
+**Exposure caveat first — this is NON-SOY legumes** (type-B scope split from Thorisdottir, which
+included then separated soynut trials). Inclusion criterion 2:
+
+> «studies that re- ported total or subtypes of legume consumption, excluding soy foods, as the
+> exposure or one of the exposure variables»
+> [@zargarzadeh2023]
+
+So Zargarzadeh's «legumes» = beans / peas / lentils; the soynut LDL and glycemic movements Thorisdottir
+isolated sit **outside** this exposure entirely.
+
+**The mortality cells (highest vs lowest category, random-effects HR):**
+
+| Outcome | HR (95% CI) | n | I2 | Reading |
+|---|---|---|---|---|
+| **All-cause** | **0.94 (0.91, 0.98)** | 27 | 64.6% | sig inverse |
+| Stroke | 0.91 (0.84, 0.99) | 5 | 0% | sig **but NOT robust** (see below) |
+| CVD | 0.99 (0.91, 1.09) | 11 | 56.6% | null |
+| CHD | 0.93 (0.78, 1.09) | 5 | 65.9% | null |
+| Cancer | 0.85 (0.72, 1.01) | 5 | 70.8% | null (marginal) |
+
+[@zargarzadeh2023]
+
+**Linear dose-response per 50 g/d** — only all-cause survives: all-cause **0.94 (0.89, 0.99)**, n=19; CVD
+1.01 (0.94, 1.08); CHD 0.90 (0.71, 1.13); stroke 0.90 (0.76, 1.06); cancer 0.82 (0.61, 1.10) — the last
+four all NS.
+
+> «The summary estimate showed that each 50 g/d increase in legume consumption was associated with a 6%
+> reduction in the risk of all-cause mortality (HR: 0.94; 95% CI: 0.89, 0.99; Supplemental Figure 3).»
+> [@zargarzadeh2023]
+
+**Dose-response shape — monotone over the modeled range, no knee, no plateau, no upper (harm) arm, no
+U.** The nonlinear model found **no** departure from linearity for any outcome (all-cause P-nonlinearity
+0.31; CVD 0.58; CHD 0.58; stroke 0.08; cancer 0.19), so over the studied increments the all-cause benefit
+is monotone per 50 g/d (portion = 100 g = 1 serving) with **no knee located and no harm arm** — there is
+no protective-plateau or U for the U-shape discipline to interrogate -> [[The U-Shaped Association Artifact]].
+The 50 g/d increment is the reported unit; the paper does not state the numeric range bounds of the spline
+in-text (Figure 3 / supplement), so the shape claim is *monotone over the modeled increment range*, not a
+claim to a located optimum. [@zargarzadeh2023]
+
+**The caveat that guts most of the enthusiasm — the aggregate moves but no named cause does.** Only
+all-cause is robustly significant. **Stroke is significant but NOT robust:**
+
+> «However, after the stepwise exclusion of each study in the sensitivity analysis, this association was
+> not robust, and the results were inﬂuenced by the “Linxian Nutrition Intervention Trials” [36] and
+> “Health Alcohol and Psychosocial Factors in Eastern Europe” [39].»
+> [@zargarzadeh2023]
+
+(drop either study and stroke -> HR 0.92, CI crossing 1). CVD, CHD and cancer are null. When an aggregate
+endpoint moves and its named components do not, the parsimonious reading is a power / residual-confounding
+artifact, not a broad causal effect — and **the authors say exactly this**:
+
+> «The re- ported discrepancies between the risk of incidence of all-cause mortality and death from CVD,
+> CHD, and cancer are not totally evident. The protective association is most likely because of a greater
+> number of studies in this area and, as a result, a greater number of participants and deaths.»
+> [@zargarzadeh2023]
+
+All-cause carries 93,373 deaths against 18,056 CVD / 12,890 cancer, so the all-cause significance may be
+power, not a distinct broad mechanism. The standard observational floor is stated in the authors' own
+voice: «the risk of bias from confounding and exposure assessment will never be low»
+[@zargarzadeh2023]. GRADE certainty: all-cause and stroke
+«moderate», CVD/CHD/cancer «low», none high, downgraded «chieﬂy» for residual confounding and
+inconsistency [@zargarzadeh2023].
+
+### Parameter table — Zargarzadeh vs Thorisdottir (op-weave 2a): mostly different quantity, one overlap
+
+| Parameter | Zargarzadeh 2023 | Thorisdottir 2023 | Same quantity? |
+|---|---|---|---|
+| Primary endpoint | all-cause + cause-specific **mortality** | CVD/T2D **events** (incidence) + RCT risk factors | **NO** — mortality vs incidence/surrogate |
+| All-cause mortality | 0.94 (0.91, 0.98) hi-lo; 0.94 (0.89, 0.99) /50 g | not estimated | **NO** — Thorisdottir has no all-cause arm |
+| CVD **mortality** | 0.99 (0.91, 1.09) | 1.03 (0.89, 1.20) | **YES** — same endpoint; both null (not independent, see below) |
+| Exposure | legumes **excluding soy** | legumes **including soynut** (then separated) | **NO** — soy scope differs |
+| LDL / glycemic surrogate | not examined | RCT MD LDL -0.19 mmol/L; glucose soynut-specific | **NO** — surrogate, absent in Zargarzadeh |
+
+So the genuinely NEW cells Zargarzadeh adds are **all-cause, CHD, stroke and cancer mortality**; the one
+OVERLAP (CVD mortality) agrees — both null, 0.99 vs 1.03 — but that agreement corroborates, it does not
+independently witness. This is **additive-F** (a new outcome family on the pulses cell), not E.
+
+**NOT type-E — the shared-Aune echo, killed on the author list first.** Dagfinn Aune is a **co-author of
+Zargarzadeh** AND already sits in this page's `sources:` via `Aune - Whole Grain Mortality 2016` and
+`Aune - Fruit Vegetable Mortality 2017`. The cheapest independence test — diff the author lists — fails
+at once: a Zargarzadeh legume-mortality dose-response that echoes the held Aune plant-food mortality
+umbrellas is the **same author and school**, not a second route. (The held Aune sources are whole-grain
+and F&V, not legumes, so there is no same-quantity Aune *legume*-mortality figure being duplicated — the
+echo risk is authorship + method, not a re-pooled estimate.) Zargarzadeh is also a cohort-pooling MA on a
+legume-cohort base **overlapping** Thorisdottir's. Shared author + shared cohorts + shared method =
+**F/shared, not E**: no `[E-independent]`, and the CVD-mortality agreement with Thorisdottir plus the
+all-cause agreement with the Aune lineage are shared-source, not convergent-route. Team/paper count is
+not evidence count.
+
+
+**G-gap status change + confidence.** The pulses cell moves from *«cohort-null on events, LDL benefit at
+RCT doses, no mortality data»* to *«non-soy legumes -> \~6% lower all-cause mortality per 50 g/d (moderate
+certainty), monotone with no knee, but no robust signal on any specific cause of death»*. This is the
+strongest pulse -> hard-outcome signal the page holds, yet `confidence:` **stays low**: it is
+observational and measurement-error-attenuated, the all-cause signal may be power/confounding rather than a
+broad effect (author-stated), stroke is non-robust, and the source is **not independent** of the held
+Aune/Thorisdottir lineage. What remains open (G): no minimum effective dose (no knee), and the mechanism
+by which non-soy legumes would lower *all-cause* death without moving a named cause is unresolved.
+Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+### Self-critique of the Zargarzadeh addition `[run 2026-09-09, before commit]`
+
+- **Laundered-independence check: FIRED, and `[E-independent]` was NOT claimed.** The attractive claim was
+  *a large independent legume-mortality MA confirms the plant-food mortality signal.* Dagfinn Aune is a
+  co-author and already in the page's `sources:` (whole-grain + F&V), and the cohort base overlaps
+  Thorisdottir — so this is F/shared on both authorship and data. Confidence held `low`. This is the
+  finding the guard exists for; it would have read well as a confidence-raiser.
+- **Overclaim check on the all-cause signal: caught in the body.** All-cause is significant while every
+  named cause is null or non-robust; rather than report «legumes cut mortality», the section states the
+  power/residual-confounding reading **the authors themselves give**, and keeps the certainty at the
+  source's own GRADE (moderate all-cause, low the rest).
+- **Same-quantity checks: one YES, four NO.** The parameter table matches CVD *mortality* across the two
+  MAs (both null) and marks the endpoint/exposure/surrogate rows as different quantities — no cross-MA
+  magnitude was ranked that wasn't the same estimand.
+- **U-shape / dose-response: declined to assert a knee.** No nonlinearity for any outcome; stated as
+  monotone over the modeled increment range with no located optimum, and the numeric range bounds were
+  NOT invented (not in the in-text; Figure 3 / supplement).
+- **QUALIFIER-LEFT-OUT on the 50 g/d quote: defended.** `cite.py` flagged the following sentence (the
+  nonlinearity result) as omitted; it is stated explicitly in the dose-response-shape paragraph, so the
+  truncation does not hide a reversing qualifier.
+- **Residual:** F-not-E means this adds a new outcome family and precision, not an independent witness —
+  `confidence: low` is unchanged, which is the honest outcome of the shared-author/shared-cohort finding.
+
+</div>
 
 ## References

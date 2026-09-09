@@ -251,7 +251,7 @@ new hard finding.
   shrinks as the design gets less vulnerable to reverse causation, so the pooled 0.82 is an upper bound
   on any causal reading -> [[The U-Shaped Association Artifact]].
 - **Dose-response reported linear (P=0.03) but weak.** Rests on only **4 studies** (the only ones with
-  >=3 exposure categories) with no stated studied-range and no located knee/plateau, so it is "linear over
+  &gt;=3 exposure categories) with no stated studied-range and no located knee/plateau, so it is "linear over
   an unstated range on 4 studies" — weak evidence of a true linear curve, and the authors concede it «may have lacked
   suﬃcient eﬀectiveness in quantifying the relevant dose-response model»
   [@zhou2022fruit]. Not comparable

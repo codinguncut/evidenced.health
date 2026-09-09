@@ -100,8 +100,6 @@ One exposure in the table already breaks the
 pattern outright -- smoking's apparent protection against Parkinson's, flagged above -- and later
 sections return to why Parkinson's and a few other diseases resist the shared-lever logic more broadly.
 
-<div class="recent-update" data-last-updated="2026-09-06">
-
 ## Dementia: does anything actually prevent it?
 
 Whether pulling those levers actually prevents a *disease* — not just a risk marker — is best tested on
@@ -333,8 +331,6 @@ single lever already pulled for cardiovascular disease, does prevent it, in a ra
 endpoint, at a small but real absolute magnitude. Neither finding overturns the other, because they are not
 answers to the same question: one is about a non-decomposable package, the other about one well-understood
 exposure.
-
-</div>
 
 ## Cancer, heart disease, diabetes — the increments beyond the rocks
 
@@ -765,8 +761,6 @@ limit on what a review of separate studies can produce, not a gap a bigger meta-
 closes — closing it would need a single study designed to track the combined outcome directly, and none
 exists.
 
-<div class="recent-update" data-last-updated="2026-09-06">
-
 ## What to do
 
 Most people chasing better odds against dementia, cancer and heart disease do not need a different diet
@@ -812,7 +806,5 @@ order, and adjusted as a person ages.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
-
-</div>
 
 ## References

@@ -567,7 +567,7 @@ unavailable:
 
 > «Extent of intervention fidelity: Dietary adherence scores could not be calculated due to the
 > multiple dimensions of the intervention programme's recommended goals. In all 4 diet groups, 85% to
-> 89% of participants attended at least 75% of their assigned classes (>= 6 of 8).»
+&gt; 89% of participants attended at least 75% of their assigned classes (>= 6 of 8).»
 > [@naude2022]
 
 ### What this does and does not change

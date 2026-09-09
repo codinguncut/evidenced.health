@@ -122,6 +122,8 @@ it lines up with the heavy-midlife harm below. Xu is not an independent line of 
 shares its Qingdao/Fudan authorship with other cognition sources the wiki holds, so it quantifies the
 shape rather than corroborating the verdict.
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Effect and dose-response shape, outcome by outcome
 
 With the low-dose arm adjudicated as artifact, each outcome traces its own curve, and the shapes
@@ -180,7 +182,9 @@ participants) supplies the interventional leg and grades the dose-response GRADE
 lowered systolic pressure by about −3.1 mmHg overall, but the effect is **concentrated above \~2 drinks
 per day** — roughly −0.9 mmHg per drink/day of baseline intake, with **no significant BP reduction in
 people already drinking two or fewer per day**
-[@roerecke2017alcohol]. This third,
+[@roerecke2017alcohol].
+
+This third,
 independent method confirms that alcohol raises blood pressure
 causally (`[E-independent]` with the genetic route above), while refining the *shape* of the BP
 surrogate: a single linear MR coefficient cannot resolve a low-dose knee, whereas the reduction trials
@@ -270,6 +274,8 @@ the fabric covers**; this page names them as gaps rather than answering them:
 
 This page infers no direction for either (insufficient evidence *held*, distinct from no-effect),
 and consolidates both with the other named gaps later.
+
+</div>
 
 ## The active axis: total ethanol, drinking pattern, or beverage type?
 

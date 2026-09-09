@@ -2,14 +2,14 @@
 type: synthesis
 aliases: [Food Group Dose-Response Matrix, Which Food Groups Move Which Outcomes, DIfE Boeing Food Group Series]
 question: For each of 12 major food groups, which patient-important outcomes does a defined serving increment move, in which direction, by how much, and with what certainty?
-authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Papier, Keren; Knuppel, Anika; Key, Tim J]
-sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Papier - Meat Ischemic Heart Disease Meta-Analysis 2021, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012]
+authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Papier, Keren; Knuppel, Anika; Key, Tim J; Zhong, Victor W]
+sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Papier - Meat Ischemic Heart Disease Meta-Analysis 2021, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 cluster: food-group-dose-response
 nucleus: true
 confidence: moderate
-self_critiqued: 2026-09-02
+self_critiqued: 2026-09-08
 created: 2026-08-28
-updated: 2026-09-02
+updated: 2026-09-08
 relationships:
   related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
@@ -167,6 +167,61 @@ against the «6,659 cases» from five studies that Bechthold pooled — over fou
 MAs are **insufficient-evidence** (underpowered), not demonstrated **no-effect** — the four
 evidence-states distinction, and the expectancy test applied to a growing case count.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## Absolute-risk anchor for the meat rows — the named G-gap, now cashed for meat (Zhong 2020) `[2026-09-08]`
+
+The Gaps section flagged that this series «computes no absolute risk», so the meat RRs could not be
+sized against a drug comparator (Layer-1). A pooled analysis of **6 US prospective cohorts** (Zhong
+2020; 29,682 adults, 6,963 incident CVD events, 8,875 deaths, median 19-y follow-up) supplies that
+anchor for the meat rows — a US-adult baseline **and** a 30-year absolute risk difference (ARD) per a
+realistic **+2 servings/week** increment, from the fully food-adjusted model (model 3).
+
+Baseline event rates in the pool: incident CVD **13.2 / 1000 person-years**, all-cause mortality
+**15.8 / 1000 person-years**.
+[@zhong2020meat]
+
+| Exposure (+2 svg/wk) | Incident-CVD HR | CVD 30-y ARD | All-cause HR | ACM 30-y ARD |
+|---|---|---|---|---|
+| Processed meat | 1.07 (1.04-1.11) | +1.74% (0.85-2.63) | 1.03 (1.02-1.05) | +0.90% (0.43-1.38) |
+| Unprocessed red meat | 1.03 (1.01-1.06) | +0.62% (0.07-1.16) | 1.03 (1.01-1.05) | +0.76% (0.19-1.33) |
+
+[@zhong2020meat]
+
+Across all four exposures Zhong found «approximately 3% to 7% higher relative risks and less than 2%
+higher absolute risks of incident CVD and all-cause mortality over the 30 years of follow-up».
+[@zhong2020meat] So the absolute meat
+rock is **small**: even processed meat — the matrix's strongest harmful lever — moves 30-year CVD risk
+by under 2 percentage points at a realistic intake change. That is the Layer-1 rock-sizing the relative
+matrix could not compute on its own, converting the RR columns into a rankable magnitude for the meat
+rows (net of a drug comparator -> [[Layer 1 - Ranking Interventions for a Stratum]]).
+
+### Parameter table — Zhong vs the matrix CVD column (same quantity?)
+
+| Parameter | Bechthold 2019 (matrix CVD) | Zhong 2020 | Same quantity? |
+|---|---|---|---|
+| Endpoint | CHD (stroke / HF broken out separately) | COMPOSITE incident CVD (CHD + stroke + HF + CVD death) | NO — Zhong pools the subtypes Bechthold splits |
+| Estimand | relative RR per increment | HR **+ 30-y absolute ARD** | NO — Zhong adds the absolute layer the matrix lacked |
+| Increment | per 100 g/d (red), 50 g/d (processed) | per +2 svg/wk (\~32 g/d red; \~14 g/d processed) | NO — different, and processed->CVD is nonmonotonic so log-linear harmonization is invalid |
+| Cohort pool | international cohorts incl. US | 6 US cohorts (ARIC, CARDIA, CHS, FHS, FOS, MESA) | PARTIAL overlap (shared US cohorts) |
+| Direction | meat harmful | meat harmful | YES on sign only |
+
+**Verdict: type-F (absolute anchor + partial robustness), NOT type-E.** Zhong shares US cohorts with the
+matrix pool and only the *direction* agrees, so this is not independent corroboration of the relative
+estimate — it does not raise the meat cells' certainty. Its value is the **absolute** layer the matrix's
+G-gap named as missing, plus a hard-endpoint composite read; the relative concordance is a bonus, not a
+certainty upgrade.
+
+**Shape note.** All four Zhong exposures were monotonic over the studied range except **processed meat
+-> incident CVD**, nonmonotonic at P for nonlinearity = .006 (modelled with a quadratic term; its ARD is
+the 2-vs-0 servings/week contrast, not a linear per-serving slope). Zhong does not characterize the
+curve's shape verbally, so no knee or plateau is located — a harmful-food nonlinearity, not a protective
+lower arm, so the *every-reduction-pays* default holds for the harmful rows.
+[@zhong2020meat]
+-> [[The U-Shaped Association Artifact]]
+
+</div>
+
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 
 This is the Layer-1 input the series was acquired for -> [[Layer 1 - Ranking Interventions for a Stratum]]. Ranking by **direction-consistency x magnitude x certainty**, net of each cell's
@@ -277,6 +332,8 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Gaps (type-G)
 
 - All cells are **observational** (prospective cohorts) with self-reported intake; dietary
@@ -295,9 +352,14 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   T2D is a *natural experiment*: a heme-iron -> T2D Mendelian-randomization or adherence-controlled
   feeding design remains the named decider for whether this cell is causal rather than confounded by red
   meat. `G (needs a genetic/MR or feeding-trial test)`.
-- The series computes no **absolute** risk — RRs need a stratum baseline to rank against a drug
-  comparator. The mortality paper gives an *optimal-combined-intake* -> 56% relative mortality
-  reduction figure, but no per-stratum absolute risk, so the drug-comparator sizing (Layer-1)
-  cannot be completed from the series alone. `G (needs a baseline-risk source per stratum)`.
+- **CASHED for the meat rows `[2026-09-08]`** — the series computes no **absolute** risk, so its RRs
+  could not be sized against a drug comparator (Layer-1). Zhong 2020 now supplies a US-adult baseline
+  (incident CVD 13.2 / 1000 py, ACM 15.8 / 1000 py) and a 30-year ARD for processed and unprocessed red
+  meat -> *Absolute-risk anchor for the meat rows* above, closing the gap for those rows. It stays OPEN
+  for the non-meat rows (whole grains, fruit, vegetables, dairy, nuts, SSB), which have no absolute
+  anchor held; the mortality paper's *optimal-combined-intake* -> 56% relative reduction figure is still
+  relative-only. `G (needs a baseline-risk source per stratum — non-meat rows)`.
+
+</div>
 
 ## References

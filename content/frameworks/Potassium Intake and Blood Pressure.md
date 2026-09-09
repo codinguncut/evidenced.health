@@ -30,7 +30,7 @@ lower stroke risk -- while the harder CV endpoints stay null and underpowered.
 ## The effect on blood pressure -- the HIGH-certainty core
 
 > «Increased potassium intake reduced systolic blood pressure by 3.49 (95% confidence interval 1.82 to
-> 5.15) mm Hg and diastolic blood pressure by 1.96 (0.86 to 3.06) mm Hg in adults, an effect seen in
+&gt; 5.15) mm Hg and diastolic blood pressure by 1.96 (0.86 to 3.06) mm Hg in adults, an effect seen in
 > people with hypertension but not in those without hypertension.»
 [@aburto2013]
 
@@ -192,7 +192,7 @@ the normotensive potassium trials as too short to rule out a prevention effect.
 ### The Na:K ratio is the joint target -- asserted beneficial, not graded
 
 > «if a person consumes 90 mmol/day or more potassium and the WHO recommended sodium intake of less than
-> 2 g/day, his or her intake would have a molar ratio of sodium to potassium of approximately one to one,
+&gt; 2 g/day, his or her intake would have a molar ratio of sodium to potassium of approximately one to one,
 > a ratio considered beneficial for health.»
 [@aburto2013]
 

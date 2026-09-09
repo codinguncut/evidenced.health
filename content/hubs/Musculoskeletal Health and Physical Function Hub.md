@@ -27,6 +27,8 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   disease independently of aerobic activity, and at what dose — the interventional test of the
   observational muscle-mortality associations above
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Building and keeping muscle (the levers)
 
 - [[Anabolic Resistance]] — the mechanism behind the older-adult protein target: aging blunts the
@@ -35,6 +37,10 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Resistance Training Prescription - Load Sets and Frequency]] — how to program RT (load for strength,
   volume for hypertrophy), the minimal effective dose, and why any-RT-beats-none dwarfs the
   between-protocol gap; the closest-to-patient-important signal is physical function in older adults
+- [[Power Training and Physical Function in Older Adults]] — whether training MODE (high-velocity power
+  vs conventional slow strength) matters for physical function in older adults: power beats strength on
+  function tests (SMD 0.43, GRADE HIGH) and on muscle power (0.99), but no trial measured daily-life
+  activity or falls, so the function->participation link stays a gap
 - [[Exercise Interventions and Sports Injury Prevention]] — which exercise prevents sport injury:
   strength training cuts injuries to <1/3 (RR 0.315, the standout), proprioception helps, STRETCHING
   does not (tight null); RT's one causal-grade patient-important outcome, in young athletes
@@ -42,6 +48,8 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   resistance training for muscle and strength, how much, and for whom
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily and per meal, and
   why it is complementary to the training stimulus (cross-ref: [[Protein and Supplements Hub]])
+
+</div>
 
 ## Bone, joints, and fracture
 

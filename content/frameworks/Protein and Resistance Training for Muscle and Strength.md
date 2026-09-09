@@ -1,9 +1,9 @@
 ---
 type: framework
 question: Does protein supplementation add to resistance training for muscle and strength, how much protein, and for whom?
-aliases: [Protein Supplementation, Protein and Resistance Training, Protein Intake Muscle, 1.6 g/kg Protein, Protein Break Point, Muscle Protein]
-authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Tagawa, Ryoichi; Miyachi, Motohiko; Choi, MoonKi; Kim, Hayeon; Bae, Juyeon; Song, Zhenzhen; Pan, Ting; Tong, Xin; Yang, Ying; Zhang, Zhijie]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023]
+aliases: [Protein Supplementation, Protein and Resistance Training, Protein Intake Muscle, 1.6 g/kg Protein, Protein Break Point, Muscle Protein, Protein Timing, Anabolic Window, Peri-Workout Protein, Nutrient Timing]
+authors: [Morton, Robert W; Murphy, Kevin T; McKellar, Sean R; Phillips, Stuart M; Lowe, Dylan A; Weiss, Ethan J; Food and Agriculture Organization of the United Nations (org); Cruz-Jentoft, Alfonso J; de Santana, Felipe M; Tagawa, Ryoichi; Miyachi, Motohiko; Choi, MoonKi; Kim, Hayeon; Bae, Juyeon; Song, Zhenzhen; Pan, Ting; Tong, Xin; Yang, Ying; Zhang, Zhijie; Schoenfeld, Brad Jon; Aragon, Alan Albert; Krieger, James W; Wirth, Janine; Hillesheim, Elaine; Brennan, Lorraine]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Lowe - Time-Restricted Eating TREAT 2020, FAO - Dietary Protein Quality Evaluation 2013, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Schoenfeld - Protein Timing Muscle Strength Hypertrophy, Wirth - Protein Timing Body Composition]
 cluster: muscle
 confidence: medium
 relationships:
@@ -23,8 +23,8 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-09-01
-self_critiqued: 2026-09-01
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 ---
 
 This is the **adaptation** side of the resistance-training lever, and it is the evidence Challenge #10
@@ -222,8 +222,133 @@ choices on an unblindable exposure, the commercial interest discounts the framin
 magnitude** (the direction is held by Morton/Refalo independently; the effect *size* is the exposed
 parameter). [@tagawa2020]
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## Protein timing — the peri-workout "anabolic window" is small-to-null once daily total is adequate
+
+The dose sections above answer *how much*; this answers *when* — and the answer is that **when barely
+matters once the daily total is met.** Schoenfeld's 2013 meta-regression is the first MA to test the
+peri-workout "anabolic window" on *chronic* strength and hypertrophy (not the acute muscle-protein-synthesis
+spike). It pooled 23 studies (525 subjects, 132 effect sizes for hypertrophy; 478 subjects, 20 studies for
+strength), mean PEDro 8.7, defining a timing "treatment" as >=6 g essential amino acids taken <=1 h pre-
+and/or post-exercise vs a control taking no protein within 2 h.
+[@schoenfeld2013]
+
+**The apparent timing benefit is total protein in disguise.** The unadjusted model showed a small-moderate,
+significant hypertrophy edge for peri-workout timing («difference = 0.24 ± 0.10; CI: 0.04, 0.44; P = 0.02»;
+strength was non-significant). But it **vanished once total protein was controlled**: «any positive effects
+associated with protein timing on muscle protein accretion disappeared after controlling for covariates», and
+«discrepancies in total protein intake ex- plained the majority of hypertrophic differences noted in timing
+studies.» The mechanism is mundane — the timing groups simply ate *more*: «The average protein intake for
+controls in the un- matched studies was 1.33 g/kg/day while average intake for treatment was 1.66 g/kg/day.»
+Total protein was the strongest predictor of effect-size magnitude («estimate = 0.41 ± 0.14; CI: 0.14, 0.69;
+P = 0.004»), at «a \~0.2 increase in ES noted for every 0.5 g/kg in- crease in protein ingestion».
+[@schoenfeld2013]
+[@schoenfeld2013]
+
+**Author verdict + decision.** «These results refute the commonly held belief that the timing of protein
+intake in and around a training session is critical to muscular adaptations and indicate that consuming
+adequate protein in com- bination with resistance exercise is the key factor for maximizing muscle protein
+accretion.» Practically: «current evidence does not appear to sup- port the claim that immediate (<=1 hour)
+consumption of protein pre- and/or post-workout significantly en- hances strength- or hypertrophic-related
+adaptations to resistance exercise.» So the peri-workout window is a **small lever, dominated by the same
+total-daily-protein rock** the dose sections above are built on — one fewer thing to optimize for someone
+already hitting \~1.6 g/kg/day.
+[@schoenfeld2013]
+[@schoenfeld2013]
+
+**Hold the null honestly — four author-stated limits keep this "wide window", not "no window".**
+
+- **The window is wide, not absent.** «if a peri-workout anabolic window of oppor- tunity does in fact
+  exist, the window for protein consumption would appear to be greater than one-hour before and after a
+  resistance training session.» The null is against a *narrow* (<=1 h) window, not against distributing
+  protein sensibly across the day.
+  [@schoenfeld2013]
+- **Causality is not established.** The timing groups' higher intake was observational within the pool:
+  «Since causality cannot be directly drawn from our analysis ... we must acknowledge the possibility that
+  protein timing was in fact responsible for producing a positive effect and that the associated in- crease
+  in protein intake is merely coincidental.»
+  [@schoenfeld2013]
+- **Mostly untrained subjects.** «statistical power was low because only 4 studies using trained subjects
+  met inclusion» — the timing question matters most for the trained, and that is exactly the thin cell here.
+  [@schoenfeld2013]
+- **Only 3 protein-matched studies.** The cleanest test — hold total protein equal, vary only timing — had
+  just 3 qualifying studies (2 of 3 showed no timing benefit): «The sum results of the matched-protein
+  studies suggest that timing is superfluous provided adequate protein is ingested, although the small
+  number of studies limits the ability to draw firm conclusions on the matter.»
+  [@schoenfeld2013]
+
+**Independence + funding note.** [inferred from @schoenfeld2013]
+Schoenfeld/Aragon/Krieger have **zero author overlap** with Morton (Phillips/McMaster) or Tagawa
+(Miyachi/Meiji), so the *timing-null* is a genuinely independent, new contribution. The *total-protein-
+dominates* convergence is directionally concordant with the dose sections above but **only partially
+independent** — this timing MA's 2000-2013 RT pool shares some constituent trials with Morton's
+supplementation pool, so it corroborates the *direction* that total protein is the operative variable, not
+an independent *magnitude*. The Dymatize Nutrition grant runs *against* the finding (the sponsor markets
+around-workout products), so the null despite that commercial pressure strengthens it — symmetric-standards
+caution on framing, as with Tagawa's Meiji funding.
+
+**Wirth 2020 cashes that second SR+MA — a modern, larger, GRADE-rated timing replication (type-F
+refinement, NOT clean E).** Wirth is exactly the second timing SR+MA the handle awaited: «Data from 65
+studies with 2907 participants (1514 men and 1380 women, 13 unknown sex) were included in the review»
+[@wirth2020], searched to March 2019 and GRADE-rated —
+\~3x Schoenfeld's 23-study pool, extending explicitly to older adults. It reaches the same verdict —
+«the timing of intake did not influence the results»
+[@wirth2020] — and does so on a *hard-pooled* LBM
+endpoint, not only a meta-regression effect size: protein raised LBM in every timing subgroup but not
+differently between them: «Protein supplementation improved LBM in all subgroups (after exercise MD:
+0.51 kg; 95% CI: 0.13-0.89 kg ...; before and after exercise MD: 0.70 kg; 95% CI: 0.28-1.13 kg ...; and
+other timing not around exercise MD: 0.52 kg; 95% CI: 0.22-0.82 kg ...), with no significant difference
+between the 3 timings (P = 0.76)» [@wirth2020]. The
+distinct *within-day distribution* sub-question is null too — «In meta-analysis comparing even with
+skewed protein supplementation, no pattern presented a superior effect to the other (MD: −0.29 kg; 95%
+CI: −1.20 to 0.62 kg, P = 0.62 ...)» [@wirth2020] — as
+are the two strength endpoints (handgrip «No difference (P = 0.90) was observed between protein
+supplementation at breakfast ... and at breakfast plus other timing»; leg press «None of the timings of
+protein intake had an impact on leg press strength»)
+[@wirth2020]. Author decision rule (the source sentence
+is split by a mis-placed Figure 4 caption in the two-column PDF; quoted as its continuous prose): "the
+important aspect is to increase the overall protein intake as opposed to altering the distribution
+throughout the day" [@wirth2020].
+
+**Independence is author-clean but evidence-shared -> F, not E.** Author-list diff first (the cheapest
+test): Wirth/Hillesheim/Brennan (UCD Dublin) have **zero author overlap** with Schoenfeld/Aragon/Krieger
+— the *necessary* condition for type-E. But it is **not sufficient here**, because Wirth *cites*
+Schoenfeld and frames its own result as corroboration: «Our results corroborate those from Schoenfeld et
+al. (81) who performed a meta-regression and concluded that the immediate protein supplementation, pre-
+or postexercise, did not improve hypertrophy and muscle strength in adults and older adults»
+[@wirth2020]. A self-stated convergence over a
+citation-as-antecedent is F/attribution by the strict rule, never clean E; and both are SRs of the same
+peri-workout timing RCT literature over overlapping windows (Schoenfeld to 2013, within Wirth's window
+to 2019), so
+shared constituent trials are expected, not independent replication. So Wirth composes as **F
+(claim-refinement: a larger, newer, GRADE-rated, older-adult-inclusive base that bounds and extends the
+earlier null onto a hard LBM endpoint)**, not a second independent backing.
+
+
+| Parameter | Schoenfeld 2013 | Wirth 2020 | Same quantity? |
+|---|---|---|---|
+| Timing question | peri-workout window (<=1 h pre/post) | after-ex / before+after / not-around-ex subgroups | \~yes — both ask does *when* matter |
+| Timing verdict | benefit vanishes after controlling total protein | «no significant difference between the 3 timings (P = 0.76)» | **YES** — both null |
+| Estimator | meta-regression, covariate control | GRADE indirect-comparison subgroup pooling | **NO** — different method |
+| Pool | 23 studies, mostly untrained, to 2013 | 65 studies (26 in LBM MA), adults+older, to 2019 | **NO** — Wirth larger, newer |
+| Author overlap | Schoenfeld/Aragon/Krieger | Wirth/Hillesheim/Brennan | zero |
+| Citation link | — | cites Schoenfeld (81), «corroborate» | self-stated -> F, not E |
+
+**Funding closes the symmetric-standards loop the Schoenfeld note opened.** Schoenfeld's null came
+*despite* a Dymatize grant (a sponsor marketing around-workout products); Wirth reports «The authors
+report no conflicts of interest», on academic funding (Marie Curie / ERC / CAPES) that «had no role in
+the design, analysis, or writing of this article»
+[@wirth2020]. So the timing-null now holds both
+*against* a commercial pressure (Schoenfeld) and *free of* one (Wirth) — the composite is more robust
+than either alone (the F payoff). The decision is unchanged and reinforced: once daily total protein is
+adequate, *when* it is eaten is not a lever worth optimizing.
+
 
 [@morton2018]
+
+</div>
+
 ## Who it helps more, and who less
 
 - **Reduced with age:** «reduced with increasing age (−0.01 kg (−0.02,–0.00), p=0.002)» — older adults

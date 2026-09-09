@@ -3,13 +3,13 @@ type: deliverable
 title: Protein Intake
 aliases: [Protein, Protein Intake, Dietary Protein, Protein Requirements, How Much Protein, Protein Source]
 question: 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?'
-authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budhathoki, Sanjeev; Moore, Daniel R; Katsanos, Christos S; Food and Agriculture Organization of the United Nations (org); Choi, MoonKi; Song, Zhenzhen; Refalo, Martin C; Wycherley, Thomas P; Kim, Jung Eun; Devries, Michaela C; de Santana, Felipe M]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021]
+authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budhathoki, Sanjeev; Moore, Daniel R; Katsanos, Christos S; Food and Agriculture Organization of the United Nations (org); Choi, MoonKi; Song, Zhenzhen; Refalo, Martin C; Wycherley, Thomas P; Kim, Jung Eun; Devries, Michaela C; de Santana, Felipe M; Nachvak, Seyed Mostafa]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-08
+self_critiqued: 2026-09-08
+concrete_subject_audited: 2026-09-08
 ---
 
 Ask how much protein to eat and you are really asking four questions at once: how much, from which
@@ -117,6 +117,8 @@ anything.
 
 All three numbers are about amount; for how long you live, the evidence points at source instead.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## For how long you live, the source matters and the amount barely does
 
 All three famous numbers ask *how much* protein. For mortality, the evidence points somewhere else
@@ -141,6 +143,14 @@ inside one label, a discrepancy the authors trace to «a difference in the main 
 protein» [@budhathoki2019]. Read *animal protein is null* as
 *name the food* — not as *red meat is fine*.
 
+Soy carries the same trap, and it is a food this section steers you toward. Nachvak's meta-analysis pulls
+soy protein out of that plant bucket: it comes back flat on cardiovascular mortality (0.99, 0.84-1.17)
+where the pooled plant nutrient protects, and with too few studies to estimate all-cause at all
+[@nachvak2019soy]. Soy's protein fraction earns
+no all-cause or CVD mortality credit of its own, so the plant-swap benefit likely tracks the whole-food
+matrix — fibre, the pulse package — not the protein. Read the swap as *eat more plants*, not *soy protein
+is the lever*.
+
 Second, hold the whole finding loosely. Every estimate is observational, and Naghshi's own leading caveat
 is confounding by diet pattern and social class. Plant-protein foods are also the fibre-bearing foods the
 wiki already credits with lower mortality, so *plant protein* may be the fibre and pulse lever wearing
@@ -152,6 +162,8 @@ across shared data is not independent replication, so the page stays `confidence
 
 Amount and source together set the daily total. Two second-order dials — *when* you eat protein and *what
 quality* it is — matter mainly at the margins, and mainly for older adults.
+
+</div>
 
 ## Spread protein across meals, and let quality matter only until you hit the target
 
@@ -311,6 +323,8 @@ case carries its own gap — low muscle mass independently predicts mortality, a
 not fully explained by muscle strength [@santana2021], but that *raising* mass
 lowers it is unproven.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## What to do — and the question none of it answers
 
 If you resistance-train, aim to reach about 1.6 g of protein per kg of total body weight, built from
@@ -334,9 +348,11 @@ you function or how long you live.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?' |
-> | **Evidence included** | 15 sources — 8 gold, 4 high, 2 moderate, 1 weak |
+> | **Evidence included** | 16 sources — 9 gold, 4 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Last updated** | 2026-09-08 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+
+</div>
 
 ## References

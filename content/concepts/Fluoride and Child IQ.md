@@ -62,7 +62,7 @@ safe threshold — and the within-study non-linearity is inconsistent (see Yu 20
   [@ntp2024fluoride];
   46 of the 53 higher-RoB studies also inverse [@ntp2024fluoride].
   The 19 low-RoB studies: 15 populations, 5 countries (China, Mexico, Canada, India, Iran),
-  >7,000 children; fluoride measured in water (n=15), urine (n=15), serum (n=2).
+  &gt;7,000 children; fluoride measured in water (n=15), urine (n=15), serum (n=2).
   [@ntp2024fluoride]
 - **Companion meta-analysis** (NTP's own «DTT Meta-analysis, Taylor et al. 2024» — see the one-backing
   caveat on [[Fluoride and Health]]): group-level 59 studies (n=20,932) SMD −0.45 (95% CI −0.57, −0.33);

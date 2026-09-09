@@ -13,10 +13,10 @@ relationships:
     - The Observational-Trial Discordance
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-09-07
-updated: 2026-09-07
-self_critiqued: 2026-09-07
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 ---
-<div class="recent-page" data-last-updated="2026-09-07"></div>
+<div class="recent-page" data-last-updated="2026-09-08"></div>
 
 
 Muscle symptoms are the most-cited reason people stop or refuse a statin, so the *tolerability* decision
@@ -114,6 +114,35 @@ the three share their evidence base.
   causal excess confined to year 1, with the rest of the reported burden reproducible by an inert pill — is
   what no single source states. That is the beyond-summary move here, and it is type-A/F, not type-E.
 
+## The nocebo-isolation design generalizes across drug classes `[E-independent]`
+
+The cross-class phenomenon is owned at concept altitude by
+[[The Nocebo Component of Drug Side-Effects]]; this section is the statin instance of it.
+
+Within the statin evidence the *most symptoms are not the drug* finding is type-A/F (above). But the
+**design** that isolates it — an inert comparator separating a self-reported drug symptom from its nocebo
+component — recurs in a wholly separate drug class, and there it is genuine independent backing. Henssler's
+2024 SR+MA of antidepressant *discontinuation* symptoms finds «approximately half of antidepressant
+discon­tinuation symptoms could be attributable to expectation or non-specific symptoms» — corroborated
+by Henssler 2024 (chunk 01) `[E-independent]`: same placebo-arm logic, a
+different drug, a different symptom (withdrawal rather than an ongoing ache), a different design, and a
+non-overlapping author group (Imperial cardiology vs a German psychiatry team — the author-diff
+independence check passes). Independent backing, kept a body line and not a `sources:` pad.
+
+| Parameter | Statin (Wood/SAMSON) | Antidepressant (Henssler) | Same quantity? |
+|---|---|---|---|
+| what is isolated | nocebo part of a reported ongoing muscle symptom | nocebo part of a reported discontinuation symptom | pattern YES, phenomenon NO |
+| nocebo share | «90% of the symptom burden» also on placebo (within-person) | «approximately half» attributable to expectation (placebo-arm proportion) | **NO** — different metric + design |
+| inert comparator | blinded n-of-1 (statin / placebo / no-tablet) | placebo arm of discontinuation RCTs | related, not identical |
+
+What is independently confirmed is the **qualitative** claim — a large fraction of a self-reported drug
+side-effect is nocebo, and only an inert comparator reveals it — not a shared number (90% of a within-person
+burden and \~50% of a discontinuation-symptom incidence are different metrics on different phenomena). The
+design travels across drug classes; the magnitudes do not. Shared decision consequence: **do not discontinue
+a tolerated drug on reported symptoms alone; use a blinded rechallenge or a placebo-controlled taper to
+separate real pharmacological harm from the nocebo component** -> [[Antidepressants for Depression]],
+[[The Observational-Trial Discordance]].
+
 ## Decision relevance — the deprescribing rule
 
 - **A symptom in someone who has tolerated a statin for a year or more is very unlikely the statin.** The
@@ -141,7 +170,7 @@ the three share their evidence base.
   appears to shrink the statin lever mostly does not. This is the standard-drug LIMITATION appraisal the
   taper calls for: appraised, the limitation is small, which keeps the statin's marginal rank high.
 - **The statin's OTHER harm — new-onset diabetes — differs from this one in KIND.** Muscle symptoms are
-  >90% nocebo (a *perceived* harm the drug mostly does not cause); the glycaemic effect is a small but
+  &gt;90% nocebo (a *perceived* harm the drug mostly does not cause); the glycaemic effect is a small but
   *real* pharmacological harm, concentrated in people already near the diabetes threshold. The two harms
   therefore call for opposite handling — reassure-and-continue for muscle aches, versus a genuine
   (still-outweighed) metabolic cost to weigh -> [[Statins and New-Onset Diabetes]]. (Both endpoints come

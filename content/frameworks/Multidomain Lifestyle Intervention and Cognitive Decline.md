@@ -20,7 +20,6 @@ relationships:
     - Blood Pressure Lowering and Cardiovascular Events
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 ---
-<div class="recent-update" data-last-updated="2026-09-05">
 
 The **interventional (RCT) facet** of the `dementia` cluster — orbits the nucleus
 [[Dementia Prevention and Modifiable Risk Factors]] (which holds the *observational* per-factor PAF map).
@@ -49,8 +48,6 @@ FINGER first: it is a **proof-of-concept** trial:
 "a proof-of-concept randomised controlled trial, we aimed to assess a multidomain approach to prevent
 cognitive decline in at-risk elderly people from the general population."
 [@ngandu2015]
-
-</div>
 
 ## The effect — real, significant, and small
 
@@ -354,8 +351,6 @@ subgroup — could not be tested (no biomarkers in preDIVA). The authors note hi
 midlife, or biomarker-selected trials «could provide different results» — the responder question is closed
 for *these* late-life, low-intensity trials, not for every design.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## The comparative hierarchy — Mendes NMA 2025 (109 RCTs; E+C > the full bundle) `[2026-09-05]`
 
 The three trials above test *specific* bundles one at a time; none answers **which** combination is best,
@@ -445,10 +440,6 @@ particularly beneficial in older pop­ulations» (age >=70: E+C+H 0·56 [–0·0
 effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a finding
 -> [[Baseline Risk and the Relative-Absolute Split]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## What the three trials + the pooled analysis jointly change about what to do `[2026-08-07]`
 
 [inferred from @ngandu2015; @andrieu2017; @mollvancharante2016; @coley2025]
@@ -485,10 +476,6 @@ effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a findin
 - **BP-lowering in the elderly is cognitively safe.** preDIVA is a large, long RCT showing intensive
   vascular care caused no cognitive or disability harm -> [[Blood Pressure Lowering and Cardiovascular Events]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Open (G-gaps)
 - **RCT effect on dementia/AD *incidence* of the FINGER 4-component bundle** — preDIVA answers the
   *vascular-care-only* version (null); FINGER's own 7-yr extended follow-up (the 4-component bundle on
@@ -516,10 +503,6 @@ The one thing the pool *does* settle is the responder question for these trials 
 multidomain dementia-prevention claim now awaits an incidence result for the full FINGER 4-component bundle
 () and, beyond it, a higher-intensity or earlier-window trial.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Self-critique `[run 2026-09-05, before commit — Mendes NMA weave]`
 
 - **Not laundered independence.** The Mendes NMA is the highest-risk laundered-E candidate on this page —
@@ -536,7 +519,5 @@ multidomain dementia-prevention claim now awaits an incidence result for the ful
   still governs). The age-subgroup signal is held as a post-hoc hypothesis, not a finding.
 - **R1 — loop open.** Nothing here is graded against a realized patient-important outcome; the
   surrogate-to-incidence transmission is the standing G-gap, named not closed.
-
-</div>
 
 ## References

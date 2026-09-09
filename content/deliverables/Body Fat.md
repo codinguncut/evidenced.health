@@ -34,8 +34,6 @@ how the arrival of an effective drug re-sizes the whole decision.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Where fat sits carries the risk — read the depot, not the scale
 
 The first decision about body fat is not *how much* but *where*. Cardiometabolic risk tracks the fat
@@ -204,9 +202,6 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -372,7 +367,6 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
-</div>
 
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
@@ -835,8 +829,6 @@ stays the person's decision at Layer 3.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## The decision that remains: reach the organs, and make the loss last
 
 For most people the useful question is not *which diet* but *whether the loss is the kind that reaches
@@ -871,7 +863,5 @@ a realized outcome.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Lowe (RCT, moderate); Hall (narrative review, moderate); Ludwig (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
-
-</div>
 
 ## References

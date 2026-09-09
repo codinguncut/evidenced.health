@@ -101,7 +101,7 @@ reactivity, aggregation, granule release, animal thrombosis — never a hard hum
   Animal != human (transportability caveat).
 - **Human interventional surrogate (2024).** n=10/group healthy young volunteers (\~30 y, no CVD /
   diabetes / hypertension, normal renal), 30 g erythritol vs 30 g glucose. Erythritol raised plasma
-  >1000-fold (6480 [5930-7300] uM vs baseline 3.75 [3.35-3.87] uM); glucose did not change plasma
+  &gt;1000-fold (6480 [5930-7300] uM vs baseline 3.75 [3.35-3.87] uM); glucose did not change plasma
   erythritol. Erythritol acutely enhanced ADP- and TRAP6-induced aggregation in *every* subject and
   enhanced release of the dense-granule marker serotonin (P<0.0001 TRAP6; P=0.004 ADP) and the
   alpha-granule marker CXCL4 (P<0.0001 TRAP6; P=0.064 ADP); glucose did neither

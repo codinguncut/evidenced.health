@@ -34,8 +34,6 @@ one honest output: **name a data-supported range or direction bounded by a floor
 disclaim the point-optimum.** No single method rule or concept page states this; it is induced across
 them.
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Three routes to *no peak* — each holds for a different reason
 
 **Routes 2 and 3 are the two genuinely independent legs** — each fails to yield an optimum *even if the
@@ -186,8 +184,6 @@ harm-ceiling or a logistical cap, not by an optimum.
     intake* — the boundary-as-target launder is absent here, so the honest object (a knee-region with its
     studied range, read as a floor for most of the benefit) survives on the page as written.
     [inferred from @gijsbers2016]
-
-</div>
 
 ## What survives — BOUNDED, not nihilism
 

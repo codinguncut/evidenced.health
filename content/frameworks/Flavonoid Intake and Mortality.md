@@ -2,13 +2,13 @@
 type: framework
 aliases: [Flavonoids, Dietary Flavonoids, Flavonoid Intake, Flavonols, Flavan-3-ols, Polyphenol Intake and Mortality]
 question: Does higher dietary flavonoid intake lower total and cause-specific mortality, and does a flavonoid meta-analysis tell us it is the flavonoid doing the work?
-authors: [Mazidi, Mohsen; Katsiki, Niki; Banach, Maciej; Sesso, Howard D]
-sources: [Mazidi - Flavonoid Intake and Mortality 2020, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
+authors: [Mazidi, Mohsen; Katsiki, Niki; Banach, Maciej; Sesso, Howard D; Nachvak, Seyed Mostafa]
+sources: [Mazidi - Flavonoid Intake and Mortality 2020, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 cluster: beverage-cells
 confidence: low
-self_critiqued: 2026-08-31
+self_critiqued: 2026-09-08
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-08
 relationships:
   related_to:
     - Flavonoid Intake and Cognitive Function
@@ -18,6 +18,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - The U-Shaped Association Artifact
     - Upgrading Observational Evidence
+    - Soy Products and Health
 ---
 
 **Decision one-liner (Layer 1):** higher dietary flavonoid intake carries a **small, borderline
@@ -116,7 +117,7 @@ biomarker, an isolated-flavonoid trial arm, or Mendelian randomization». COSMOS
 middle one for a food-borne flavanol: a randomized placebo-controlled **cocoa-flavanol EXTRACT** on hard
 CV endpoints. Its **primary** composite (total CVD events) was **null: HR 0.90 (0.78, 1.02; P=0.11)**
 [@sesso2022cosmos], with delivery confirmed by a
->3-fold rise in the flavanol biomarker gVLM (ratio 3.23; 2.84, 3.67)
+&gt;3-fold rise in the flavanol biomarker gVLM (ratio 3.23; 2.84, 3.67)
 [@sesso2022cosmos].
 
 **This is NOT the same quantity as Mazidi's association — build the table before any comparison.** The
@@ -149,6 +150,47 @@ confidence and its Layer-3 read (eat the foods, do not chase a flavonoid target 
 estimates + the secondary-endpoint caveat: [[Vitamin and Mineral Supplements for Disease Prevention]];
 the Test-3 collinearity framing: [[Is the Food Category Doing Any Work]].
 [inferred from @sesso2022cosmos]
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## A flavonoid SUBCLASS reproduces the borderline signal — and its LINEAR dose-response goes null (Nachvak 2019)
+
+Isoflavones are a flavonoid subclass, and Nachvak's soy-mortality MA estimates soy-isoflavone intake
+**from the same FFQ/food-frequency substrate** — so it is a *third* FFQ-derived flavonoid source, and
+it reproduces the borderline inverse: isoflavone → all-cause mortality categorical **0.90 (0.82-0.98)**
+(P=0.02), close to Mazidi's flavonoid-wide 0.87. Crucially it supplies the **dosed test Mazidi never
+ran** — and the *linear* per-mg dose-response is **null**: +10 mg/d isoflavone 0.98 (0.94-1.01, P=0.17)
+[@nachvak2019soy]. (A
+*nonlinear* inverse relationship WAS significant, P for nonlinearity=0.04 — so the point is not that
+the signal disappears, but that there is **no clean linear per-mg gradient**.) The absent per-mg
+gradient is what a confounded/collinear food-pattern signal produces, not a cleanly dosable flavonoid
+effect.
+
+**The cheapest E test (disjoint authors) PASSES here — and E still fails.** Author lists are cleanly
+disjoint (Mazidi/Katsiki/Banach/Sesso vs Nachvak/Sadeghi), so this is not the shared-lineage defeater
+that sank the Seidelmann/Budhathoki protein cases. But author-independence is **necessary, not
+sufficient**: the *exposures overlap* (isoflavone ⊂ flavonoid) on the *same FFQ measurement substrate*,
+and a shared exposure is a stronger defeater than shared authorship — parameter table first:
+
+| Parameter | Mazidi 2020 (flavonoid) | Nachvak 2019 (soy isoflavone) | Same quantity? |
+|---|---|---|---|
+| Exposure | dietary flavonoid intake, FFQ-estimated | soy-isoflavone intake, FFQ/food-computed | **overlapping — isoflavone is a flavonoid SUBCLASS inside Mazidi's exposure** |
+| All-cause mortality (categorical) | 0.87 (0.77-0.99) | 0.90 (0.82-0.98) | **comparable — both borderline inverse, highest-vs-lowest** |
+| Linear dose-response | none reported | +10 mg/d **0.98 (0.94-1.01) NULL** (P=0.17); nonlinear inverse sig (P-nonlin=0.04) | **NO — Nachvak adds the dosed test Mazidi lacked; the LINEAR per-mg gradient is null** |
+| Isolates the component? | no (computed from foods) | no (computed from soy foods; no biomarker/MR) | **Yes — neither does** |
+| Author independence | Mazidi/Katsiki/Banach/Sesso | Nachvak/Sadeghi — disjoint | **disjoint authors — but exposure overlap defeats E regardless** |
+
+[inferred from @nachvak2019soy; @mazidi2020flavonoid]
+
+**Verdict: type A/G, not E.** A second FFQ-derived flavonoid-family source **confirms the food-vs-
+component gap stays open** rather than closing it, and its **null LINEAR dose-response sharpens** the
+collinearity reading (a categorical signal with no clean per-mg gradient is what a food-pattern proxy
+looks like — the nonlinear-significant/linear-null split is itself consistent with a threshold-shaped
+or confounded signal, not a cleanly dosable component effect). Isoflavones carry their own soy-specific
+caveats — 19/23 Asian cohorts, survivor-dominated breast-cancer cells — held at
+[[Soy Products and Health]].
+
+</div>
 
 ## The cognition sibling (2026-09-04)
 

@@ -158,7 +158,7 @@ curve is monotonic: steadier is simply better, with no upper turn.
 
 This does not overturn the duration U-curve — it sits beside it. Windred's objective duration
 range is truncated, its longest quintile reaching only past 7.56 h, so it never touches the
->9-10 h long-arm where the illness marker lives, and it confirms the short-sleep associations
+&gt;9-10 h long-arm where the illness marker lives, and it confirms the short-sleep associations
 [@windred2023]. Regularity is a complementary axis for
 the person who already sleeps enough but at chaotic times — shift-adjacent schedules, social
 jetlag — not a rival that unseats how-much-sleep. The proposed mechanism is circadian

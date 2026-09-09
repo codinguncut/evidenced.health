@@ -6,12 +6,12 @@ sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older A
   Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024,
   Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Villoz - Dairy Cognitive Decline Dementia 2024,
   Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025,
-  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024]
+  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024, el Hadouchi - Power vs Strength Older Adults]
 confidence: low
 created: 2026-08-05
-updated: 2026-09-07
-self_critiqued: 2026-09-07
-concrete_subject_audited: 2026-09-07
+updated: 2026-09-09
+self_critiqued: 2026-09-09
+concrete_subject_audited: 2026-09-09
 ---
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
@@ -88,45 +88,54 @@ oldest patients. So blood-pressure lowering buys a second patient-important outc
 the one lever here where the drug, not a lifestyle change, carries the randomized dementia evidence
 -> [[Dementia Prevention and Modifiable Risk Factors]].
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
 For a sarcopenic-obese person, the fat is the root that feeds the dysglycemia, the hypertension and the
 MASLD, so weight loss is the highest-*leverage* structural move — but its evidence is outcome-specific, and
 that specificity is the whole point.
 
-- **Where it is strong (intermediate and patient-important-but-not-hard outcomes).** Total diet replacement
-  produced type-2-diabetes remission in 46% at one year (odds ratio \~19.7 vs control), with a steep
-  dose-response on weight lost — from \~0% remission at no loss to \~86% at >=15 kg
-  [@lean2018]. Liver fat responds on a graded ladder: roughly
-  >=5% body-weight loss clears steatosis, 7-10% reduces inflammation, and >=10% can regress fibrosis
-  [@easl2024]. The mechanism underneath both is
-  the same: negative energy balance draws fat back out of liver and pancreas once a person drops below
-  their **personal fat threshold** — and intra-organ (liver and pancreas) fat drives the dysglycemia, with
-  visceral fat only a marker for it: «Extent of visceral fat accumulation is a surrogate marker
-  for intra-organ fat excess, but is not pathophysiologically related to adverse metabolic consequences»
-  [@taylor2015pft] — which is why
-  remission works even at lower BMI -> [[Ectopic Fat and Depot-Specific Risk]],
-  [[Total Diet Replacement and Type 2 Diabetes Remission]], [[Fatty Liver MASLD and Weight Loss]].
-- **Where it is weak (hard cardiovascular events).** Look AHEAD, the large lifestyle-weight-loss trial in
-  type-2 diabetes, was null for cardiovascular events (HR 0.95)
-  [@look2013]. A meta-analysis of
-  weight-loss interventions found a modest
-  all-cause mortality reduction (RR 0.82, \~6 fewer deaths per 1000) but a null for cardiovascular events
-  (RR 0.93) [@ma2017]. So the honest
-  framing: weight loss is pulled here for remission, glycemia, liver fat and function, with a *possible*
-  small mortality benefit — not on a claim that it prevents heart attacks -> [[Does Weight Loss Reduce Cardiovascular Events]].
-- **A metabolically-'healthy' obese profile is not a free pass, but it is not an emergency either** — the
-  excess risk is real, slow (emerging after \~10 years) and small in absolute terms (RR \~1.24)
-  [@kramer2013mho].
-- **The fat-loss lever touches the brain too, but weakly and second-hand.** Diabetes and obesity are among
-  the modifiable dementia risk factors, so drawing down the metabolic load plausibly lowers dementia risk —
-  but that benefit is observational and runs mostly through the cardiometabolic channels already counted,
-  not a separate dividend to bank -> [[Dementia Prevention and Modifiable Risk Factors]]. One stratum-level
-  fact is worth naming: a large share of this population already takes an antidiabetic drug, and several
-  classes — metformin, GLP-1 receptor agonists — track lower dementia risk in observational umbrellas
-  (GLP-1 RA RR 0.35, but I2 98.5% and low certainty), while sulphonylureas run the other way (RR 1.39,
-  1.04-1.87) [@kuatedefo2023]. Read that as what an
-  existing prescription may incidentally do, not a reason to select an agent — that choice is a prescriber's.
+**Where it is strong (intermediate and patient-important-but-not-hard outcomes).** Total diet replacement
+produced type-2-diabetes remission in 46% at one year (odds ratio \~19.7 vs control), with a steep
+dose-response on weight lost — from \~0% remission at no loss to \~86% at >=15 kg
+[@lean2018]. Liver fat responds on a graded ladder: roughly
+&gt;=5% body-weight loss clears steatosis, 7-10% reduces inflammation, and >=10% can regress fibrosis
+[@easl2024]. The mechanism underneath both is
+the same: negative energy balance draws fat back out of liver and pancreas once a person drops below
+their **personal fat threshold** — and intra-organ (liver and pancreas) fat drives the dysglycemia, with
+visceral fat only a marker for it: «Extent of visceral fat accumulation is a surrogate marker
+for intra-organ fat excess, but is not pathophysiologically related to adverse metabolic consequences»
+[@taylor2015pft] — which is why
+remission works even at lower BMI -> [[Ectopic Fat and Depot-Specific Risk]],
+[[Total Diet Replacement and Type 2 Diabetes Remission]], [[Fatty Liver MASLD and Weight Loss]].
+
+**Where it is weak (hard cardiovascular events).** Look AHEAD, the large lifestyle-weight-loss trial in
+type-2 diabetes, was null for cardiovascular events (HR 0.95)
+[@look2013]. A meta-analysis of
+weight-loss interventions found a modest
+all-cause mortality reduction (RR 0.82, \~6 fewer deaths per 1000) but a null for cardiovascular events
+(RR 0.93) [@ma2017]. So the honest
+framing: weight loss is pulled here for remission, glycemia, liver fat and function, with a *possible*
+small mortality benefit — not on a claim that it prevents heart attacks -> [[Does Weight Loss Reduce Cardiovascular Events]].
+
+**A metabolically-'healthy' obese profile is not a free pass, but it is not an emergency either** — the
+excess risk is real, slow (emerging after \~10 years) and small in absolute terms (RR \~1.24)
+[@kramer2013mho].
+
+**The fat-loss lever touches the brain too, but weakly and second-hand.** Diabetes and obesity are among
+the modifiable dementia risk factors, so drawing down the metabolic load plausibly lowers dementia risk —
+but that benefit is observational and runs mostly through the cardiometabolic channels already counted,
+not a separate dividend to bank -> [[Dementia Prevention and Modifiable Risk Factors]]. One stratum-level
+fact is worth naming: a large share of this population already takes an antidiabetic drug, and several
+classes — metformin, GLP-1 receptor agonists — track lower dementia risk in observational umbrellas
+(GLP-1 RA RR 0.35, but I2 98.5% and low certainty), while sulphonylureas run the other way (RR 1.39,
+1.04-1.87) [@kuatedefo2023]. Read that as what an
+existing prescription may incidentally do, not a reason to select an agent — that choice is a prescriber's.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -134,44 +143,64 @@ This is the lever that makes the previous one safe. In a sarcopenic-obese 70-yea
 weight-loss diet strips lean mass and bone the person is already short of — so the fat-loss and
 muscle-protection levers are a *pair*, not a sequence.
 
-- **Resistance training is the driver; protein is the adjunct.** Training adds strength and lean mass
-  (about +2.49 kg one-rep-max, +0.30 kg lean mass in pooled trials), with protein supplementation
-  augmenting the gain up to a break-point in the region of 1.6 g/kg body weight per day — a break-point
-  whose confidence interval is wide and whose knee is not statistically firm
-  [@morton2018]
-  -> [[Protein and Resistance Training for Muscle and Strength]], and the dose-response
-  of the training itself is graded rather than all-or-nothing
-  [@currier2023].
-- **The protein target is higher at this age, and it is a floor.** Ageing blunts the muscle-protein
-  response (anabolic resistance), so older adults need more protein per meal (\~25-30 g, \~1.0-1.2 g/kg/day at
-  minimum, and \~1.6 g/kg is a floor not a ceiling under training)
-  [@bauer2013] -> [[Anabolic Resistance]],
-  [[Protein and Resistance Training for Muscle and Strength]].
-- **Protein specifically protects fat-free mass during a deficit.** Higher protein intake during energy
-  restriction preserves fat-free mass that would otherwise be lost with the fat
-  [@refalo2025], and exercise loses less
-  muscle per unit of energy deficit than diet alone while targeting visceral fat slightly better (a small
-  effect, ES \~-0.18) [@recchia2023].
-- **How much the protein adds over the training depends on baseline status.** In healthy, well-nourished
-  older adults, adding a nutritional supplement to resistance training showed «no significant differences
-  between groups in muscle mass, muscle strength, or physical functional performance» (creatine on lean
-  mass the lone exception) [@choi2021]
-  — where intake is already adequate, the training does the work. In the diagnosed-sarcopenic older adult —
-  this stratum — a compound protein-plus-vitamin-D supplement may nudge grip strength on top of training
-  (WMD 1.87, 95% CI 0.01-3.74, P=0.049), though mass stays unchanged and the effect is borderline and
-  heterogeneous [@song2023].
-  So the floor still holds — protect protein while losing weight — but a supplement does not substitute for
-  the training, and it adds little once intake is adequate.
-- **Read the muscle numbers as surrogates with a prognostic shadow, not as targets.** Low grip strength
-  predicts all-cause mortality (HR \~1.16-1.20 per 5 kg lower; \~1.48 per SD)
-  [@celismorales2018] and low muscle mass predicts it too
-  (SMD -0.18), *most strongly in the overweight/obese* older adult — the sarcopenic-obesity stratum
-  [@santana2021]. But these are predictors; no trial
-  shows that raising mass or grip lowers mortality, so train for strength, function and muscle-preservation,
-  and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle Mass and Mortality]],
-  [[Sarcopenia Definition and Diagnosis]], [[Surrogate Outcomes]]. The one caveat: sarcopenic obesity has
-  no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
-  (EWGSOP2 sets none) [@cruzjentoft2019].
+**Resistance training is the driver; protein is the adjunct.** Training adds strength and lean mass
+(about +2.49 kg one-rep-max, +0.30 kg lean mass in pooled trials), with protein supplementation
+augmenting the gain up to a break-point in the region of 1.6 g/kg body weight per day — a break-point
+whose confidence interval is wide and whose knee is not statistically firm
+[@morton2018]
+-> [[Protein and Resistance Training for Muscle and Strength]], and the dose-response
+of the training itself is graded rather than all-or-nothing
+[@currier2023].
+
+**Once training, movement velocity beats heavy load for function.** For someone already
+resistance-training, favoring *power* (explosive effort) over heavy *strength* buys more on
+function tests: against strength training, power training gives SMD 0.36 to 0.43 on
+activity-based function tests — graded *high* certainty — and SMD 0.99 on muscle power
+[@elhadouchi2022]. It is a rare protocol choice that
+moves a patient-relevant outcome and does not contradict Currier's second-order-differences result
+above: Currier graded strength and mass, while power's edge shows on *function*, what matters
+at this age. The honest limit: the review measured no daily-life outcome
+[@elhadouchi2022] and, by its outcome menu, no falls
+ — read this as a well-supported steer on function-test capacity, not a demonstrated fall or
+independence benefit -> [[Power Training and Physical Function in Older Adults]].
+
+**The protein target is higher at this age, and it is a floor.** Ageing blunts the muscle-protein
+response (anabolic resistance), so older adults need more protein per meal (\~25-30 g, \~1.0-1.2 g/kg/day at
+minimum, and \~1.6 g/kg is a floor not a ceiling under training)
+[@bauer2013] -> [[Anabolic Resistance]],
+[[Protein and Resistance Training for Muscle and Strength]].
+
+**Protein specifically protects fat-free mass during a deficit.** Higher protein intake during energy
+restriction preserves fat-free mass that would otherwise be lost with the fat
+[@refalo2025], and exercise loses less
+muscle per unit of energy deficit than diet alone while targeting visceral fat slightly better (a small
+effect, ES \~-0.18) [@recchia2023].
+
+**How much the protein adds over the training depends on baseline status.** In healthy, well-nourished
+older adults, adding a nutritional supplement to resistance training showed «no significant differences
+between groups in muscle mass, muscle strength, or physical functional performance» (creatine on lean
+mass the lone exception) [@choi2021]
+— where intake is already adequate, the training does the work. In the diagnosed-sarcopenic older adult —
+this stratum — a compound protein-plus-vitamin-D supplement may nudge grip strength on top of training
+(WMD 1.87, 95% CI 0.01-3.74, P=0.049), though mass stays unchanged and the effect is borderline and
+heterogeneous [@song2023].
+So the floor still holds — protect protein while losing weight — but a supplement does not substitute for
+the training, and it adds little once intake is adequate.
+
+**Read the muscle numbers as surrogates with a prognostic shadow, not as targets.** Low grip strength
+predicts all-cause mortality (HR \~1.16-1.20 per 5 kg lower; \~1.48 per SD)
+[@celismorales2018] and low muscle mass predicts it too
+(SMD -0.18), *most strongly in the overweight/obese* older adult — the sarcopenic-obesity stratum
+[@santana2021]. But these are predictors; no trial
+shows that raising mass or grip lowers mortality, so train for strength, function and muscle-preservation,
+and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle Mass and Mortality]],
+[[Sarcopenia Definition and Diagnosis]], [[Surrogate Outcomes]]. The one caveat: sarcopenic obesity has
+no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
+(EWGSOP2 sets none) [@cruzjentoft2019].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
@@ -184,12 +213,23 @@ muscle, but balance training prevents the fall, so the two exercise levers are n
 . This is the highest-certainty exercise outcome on the page and, for many at this age, the
 one weighted above a marginal change in length of life -> [[Exercise for Preventing Falls in Older Adults]].
 
+Concretely, balance training in these trials means transferring bodyweight from one part of the body to
+another and challenging the balance systems directly, alongside gait work (changing pace, level and
+direction) and task-specific functional practice, «assessment-based, tailored and progressed»
+[@sherrington2019]. The active ingredient is balance
+that is challenged, not exercise volume — the trials credit «exercises that safely challenge balance»
+[@sherrington2019] — so the programme has to keep
+getting harder as it gets easier rather than settle into a fixed routine. What the evidence does not fix
+is the exact drill progression for a given person: that is a coaching or prescriber call this page does
+not make.
+
 A network meta-analysis sharpens the dose Sherrington could not give. Pillay's analysis for the Canadian
 Task Force (219 RCTs, 167,864 participants) ranked the *whole* fall-prevention menu — vision treatment,
 home-hazard checks, multifactorial programmes and the rest — and balance work still lands on top:
 «Fourteen of the 21 (67%) interventions with some mod- erate certainty evidence for benefit had a focus
 on exer- cise», the top tier being **supervised, long-duration balance/resistance training and group tai chi**
 [@pillay2024falls].
+
 The dose is the upgrade: *supervised* means «> two sessions, not including ini- tial instruction» and
 *long-duration* means «> 3 months», so the effective programme for this person is supervised and sustained,
 not a one-off class
@@ -212,6 +252,8 @@ attempt to create an optimal intervention will be impeded»
 [@who2020] — so train the measurable
 components and read frailty as the composite that follows -> [[Frailty]].
 
+</div>
+
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
 General physical activity carries a real mortality benefit, but its shape matters for how hard to push. The
@@ -231,7 +273,7 @@ depend on APOE genotype. It stays observational (higher baseline cognitive reser
 cannot remove), but it adds a second patient-important outcome to a lever no drug replicates
 -> [[Physical Activity Dose and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]].
 
-<div class="recent-update" data-last-updated="2026-09-06">
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Past these, the remaining levers are smaller and less certain — and that ceiling is itself the finding
 
@@ -240,172 +282,190 @@ quality-of-life rather than length of life. Reporting that they are small is a d
 right: it licenses this person to stop optimising once the rocks above are handled
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-- **Muscle-strengthening activity and glycemia/mortality.** Muscle-strengthening activity is associated
-  with \~15% lower all-cause mortality (RR 0.85) and similar reductions in cardiovascular disease and
-  diabetes — but the certainty is *very low* (observational), and the upper arm of its J-shape should not
-  be believed [@momma2022]
-  -> [[Muscle-Strengthening Activity and Mortality]], [[The U-Shaped Association Artifact]].
-- **Weight loss plus exercise for knee osteoarthritis pain.** Combined intensive diet and exercise beats
-  exercise alone for knee-osteoarthritis pain and function
-  [@messier2013idea] — and it shares
-  the weight-loss lever already ranked, so it is close to free here.
-- **Exercise for chronic pain and for arthritis symptoms.** Exercise is safe and probably gives a small
-  improvement in physical function in chronic pain, at low certainty
-  [@geneen2017chronicpain], with
-  arthritis-specific programmes supported for symptom and function benefit
-  [@rauschosthoff2018exercise]
-  -> [[Chronic Pain and Physical Activity]].
-- **Exercise and diet quality for mood.** Exercise has a moderate antidepressant effect (standardized mean
-  difference \~-0.4 to -0.6, low certainty) [@noetel2024exercise]
-  and better diet quality is associated with less depression (OR \~0.77, observational and fragile)
-  [@molendijk2017diet]. These are
-  peripheral levers, admitted mainly through their physical intersection -> [[Depression and Modifiable Exposures]].
-- **Diet for cognition — a candidate lever, weaker than its cardiovascular arm.** Older adults who eat more
-  fruit and vegetables have fewer cognitive disorders (OR 0.82, 95% CI 0.75-0.90), the signal landing on
-  cognitive impairment and dementia but null for Alzheimer's specifically
-  [@zhou2022fruit]; the flavonoid
-  component of the same foods carries a matching but smaller association (adverse cognitive events OR 0.90,
-  0.83-0.98) [@peng2025flavonoid]. Both are
-  observational and measurement-error-laden, and they read as one dietary-pattern signal — not two
-  independent witnesses — most likely riding the cardiometabolic route already counted. Eat the whole foods
-  for their better-evidenced reasons; chasing a flavonoid cognition target is not a big rock
-  -> [[Fruit and Vegetable Intake and Health]], [[Flavonoid Intake and Cognitive Function]].
-- **Sleep and cognition — screen a real problem, do not over-read the numbers.** Sleep disorders track
-  higher dementia risk in a large cohort meta-analysis, but the arms differ. Insomnia and sleep-disordered
-  breathing carry modest, better-footed associations; the long-sleep -> Alzheimer's signal (RR 1.66, 95% CI
-  1.44-1.91) is most likely a preclinical marker of incipient disease rather than a cause
-  [@zhang2025sleep], and no trial shows that
-  treating a sleep disorder prevents dementia. Treat a genuine sleep problem on its own merits and as a sign
-  of higher baseline risk; do not tell a healthy long sleeper to cut sleep to save their brain
-  -> [[Sleep and Cognitive Decline]].
-- **Alcohol and the brain — no protective dose to chase.** Heavy drinking (above \~38 g/day) raises dementia
-  risk; the apparent protection of light drinking is unadjudicated and most likely an artifact of counting
-  former heavy drinkers among the abstainers, with Mendelian randomization finding no protective effect
-  [@xu2017alcohol]
-  -> [[Alcohol and Mortality and Vascular Disease]]. There is no evidenced case for taking up or keeping up
-  drinking for cognitive protection.
-- **Dairy for the brain — a null wrapped around a confounded curve.** The only dose-response meta-analysis
-  of dairy and dementia (15 cohorts, 312,580 people) is null highest-versus-lowest: RR 0.94 (95% CI
-  0.82-1.07). Its lone dip near 150 g/day is a between-population artifact, low-intake Asian cohorts reading
-  protective and high-intake European cohorts null at non-overlapping doses; milk and cheese are each null
-  on the matched highest-versus-lowest contrast
-  [@villoz2024dairy]. The pooled evidence is
-  primary-prevention in relatively healthy cohorts — Villoz excluded diabetes and metabolic disease — so
-  it reaches this comorbid stratum only as a conservative null-extrapolation. No dairy lever to add or
-  subtract for cognition -> [[Dairy]], [[The U-Shaped Association Artifact]].
-- **The aging eye — the same rocks, one more organ.** The modifiable evidence for age-related macular
-  degeneration adds no new lever. Physical activity is insufficient-evidence rather than protective:
-  high-versus-low activity gives RR 0.92 (95% CI 0.84-1.01), an interval that crosses 1
-  [@aune2026vision]. A
-  Mediterranean pattern is protective for AMD *progression* but not clearly for its *development*
-  [@marquescouto2025], and
-  the risk factors that do carry weight (smoking, hypertension, cardiovascular disease) are the big rocks
-  already ranked [@babaker2025amd]. So
-  AMD is another organ-specific reason to pull the same levers, not a lever of its own
-  -> [[Age-Related Macular Degeneration and Modifiable Exposures]],
-  [[Shared Modifiable Levers Across Age-Related Diseases]].
+**Muscle-strengthening activity and glycemia/mortality.** Muscle-strengthening activity is associated
+with \~15% lower all-cause mortality (RR 0.85) and similar reductions in cardiovascular disease and
+diabetes — but the certainty is *very low* (observational), and the upper arm of its J-shape should not
+be believed [@momma2022]
+-> [[Muscle-Strengthening Activity and Mortality]], [[The U-Shaped Association Artifact]].
+
+**Weight loss plus exercise for knee osteoarthritis pain.** Combined intensive diet and exercise beats
+exercise alone for knee-osteoarthritis pain and function
+[@messier2013idea] — and it shares
+the weight-loss lever already ranked, so it is close to free here.
+
+**Exercise for chronic pain and for arthritis symptoms.** Exercise is safe and probably gives a small
+improvement in physical function in chronic pain, at low certainty
+[@geneen2017chronicpain], with
+arthritis-specific programmes supported for symptom and function benefit
+[@rauschosthoff2018exercise]
+-> [[Chronic Pain and Physical Activity]].
+
+**Exercise and diet quality for mood.** Exercise has a moderate antidepressant effect (standardized mean
+difference \~-0.4 to -0.6, low certainty) [@noetel2024exercise]
+and better diet quality is associated with less depression (OR \~0.77, observational and fragile)
+[@molendijk2017diet]. These are
+peripheral levers, admitted mainly through their physical intersection -> [[Depression and Modifiable Exposures]].
+
+**Diet for cognition — a candidate lever, weaker than its cardiovascular arm.** Older adults who eat more
+fruit and vegetables have fewer cognitive disorders (OR 0.82, 95% CI 0.75-0.90), the signal landing on
+cognitive impairment and dementia but null for Alzheimer's specifically
+[@zhou2022fruit]; the flavonoid
+component of the same foods carries a matching but smaller association (adverse cognitive events OR 0.90,
+0.83-0.98) [@peng2025flavonoid]. Both are
+observational and measurement-error-laden, and they read as one dietary-pattern signal — not two
+independent witnesses — most likely riding the cardiometabolic route already counted. Eat the whole foods
+for their better-evidenced reasons; chasing a flavonoid cognition target is not a big rock
+-> [[Fruit and Vegetable Intake and Health]], [[Flavonoid Intake and Cognitive Function]].
+
+**Sleep and cognition — screen a real problem, do not over-read the numbers.** Sleep disorders track
+higher dementia risk in a large cohort meta-analysis, but the arms differ. Insomnia and sleep-disordered
+breathing carry modest, better-footed associations; the long-sleep -> Alzheimer's signal (RR 1.66, 95% CI
+1.44-1.91) is most likely a preclinical marker of incipient disease rather than a cause
+[@zhang2025sleep], and no trial shows that
+treating a sleep disorder prevents dementia. Treat a genuine sleep problem on its own merits and as a sign
+of higher baseline risk; do not tell a healthy long sleeper to cut sleep to save their brain
+-> [[Sleep and Cognitive Decline]].
+
+**Alcohol and the brain — no protective dose to chase.** Heavy drinking (above \~38 g/day) raises dementia
+risk; the apparent protection of light drinking is unadjudicated and most likely an artifact of counting
+former heavy drinkers among the abstainers, with Mendelian randomization finding no protective effect
+[@xu2017alcohol]
+-> [[Alcohol and Mortality and Vascular Disease]]. There is no evidenced case for taking up or keeping up
+drinking for cognitive protection.
+
+**Dairy for the brain — a null wrapped around a confounded curve.** The only dose-response meta-analysis
+of dairy and dementia (15 cohorts, 312,580 people) is null highest-versus-lowest: RR 0.94 (95% CI
+0.82-1.07). Its lone dip near 150 g/day is a between-population artifact, low-intake Asian cohorts reading
+protective and high-intake European cohorts null at non-overlapping doses; milk and cheese are each null
+on the matched highest-versus-lowest contrast
+[@villoz2024dairy]. The pooled evidence is
+primary-prevention in relatively healthy cohorts — Villoz excluded diabetes and metabolic disease — so
+it reaches this comorbid stratum only as a conservative null-extrapolation. No dairy lever to add or
+subtract for cognition -> [[Dairy]], [[The U-Shaped Association Artifact]].
+
+**The aging eye — the same rocks, one more organ.** The modifiable evidence for age-related macular
+degeneration adds no new lever. Physical activity is insufficient-evidence rather than protective:
+high-versus-low activity gives RR 0.92 (95% CI 0.84-1.01), an interval that crosses 1
+[@aune2026vision]. A
+Mediterranean pattern is protective for AMD *progression* but not clearly for its *development*
+[@marquescouto2025], and
+the risk factors that do carry weight (smoking, hypertension, cardiovascular disease) are the big rocks
+already ranked [@babaker2025amd]. So
+AMD is another organ-specific reason to pull the same levers, not a lever of its own
+-> [[Age-Related Macular Degeneration and Modifiable Exposures]],
+[[Shared Modifiable Levers Across Age-Related Diseases]].
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-07">
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
 These are the traps: interventions with a positive or neutral profile earlier in life whose balance tips
 toward net harm, or toward "not worth it," in this stratum.
 
-- **Testosterone for the low-testosterone, obese man: the muscle lever here is training, not a hormone.**
-  Testosterone raises lean mass on the scale (+1.6-3.6 kg) but function lags, and in the TRAVERSE trial it
-  *increased* fractures (HR 1.43, 95% CI 1.04-1.97) — the opposite of the intended effect — alongside more
-  atrial fibrillation, acute kidney injury and pulmonary embolism, with no mortality benefit
-  [@snyder2024],
-  [@lopezhilario2026]. And much of the low
-  testosterone in an obese man is *secondary to the obesity itself* and reverses with weight loss
-  [@corona2013] — so the fat-loss and
-  resistance-training levers already ranked address the cause -> [[Testosterone Adiposity and Muscle]].
-- **Vitamin D plus calcium is not the fracture lever in the non-deficient.** In community-dwelling older
-  adults who are not deficient, supplementation did not reduce fractures and raised kidney-stone risk
-  (RR \~1.18) [@kahwati2018]. The
-  fall/fracture lever is balance exercise, not the supplement.
-- **Intensive weight loss, unmodified, strips muscle and bone.** The sign-flip is not weight loss itself
-  but weight loss *without* the resistance-training-and-protein pairing above — in a sarcopenic-obese
-  person with already-reduced bone density, an aggressive diet alone can worsen the muscle and bone deficit
-  that most threatens independence -> [[Protein and Resistance Training for Muscle and Strength]].
-  Muscle-preserving weight loss is the version to run; the rapid-loss-then-regain pattern also carries its
-  own metabolic-adaptation cost -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
-- **GLP-1 weight-loss drugs (semaglutide, tirzepatide) shed muscle along with the fat — the same sign-flip
-  as unmodified dieting above, now a dominant weight-loss lever in exactly this population.**
-  - Across seven obesity-dose trials, rapid GLP-1 weight loss cut absolute lean mass by −1.74 kg
-    (95% CI −3.04 to −0.45, high certainty) — roughly 30% of the weight lost, at or just inside the
-    ordinary 20-30% diet-induced band, so on average the drug is not special: rapid weight loss loses
-    muscle whatever drives it [@laverde2026]. Lean mass is a
-    surrogate for muscle and for function, and Laverde measured neither strength nor capacity — so this
-    is a directional muscle-mass signal, not proven function loss.
-  - Which face governs flips with the stratum. For a young, well-muscled obese adult the composition ratio
-    improves and the loss is minor; for the sarcopenic-obese older adult the absolute loss becomes a
-    patient-important harm (falls, fractures, lost independence) — and Laverde's young, low-comorbidity
-    trials explicitly leave this high-risk stratum to «future studies»
-    [@laverde2026]. Worse, the drug suppresses
-    intake exactly when defending older muscle needs *more* per-meal protein to clear the
-    anabolic-resistance threshold — cutting the very protein the muscle now needs more of. Per agent,
-    tirzepatide and subcutaneous semaglutide are «among the most harmful» for lean mass while liraglutide
-    and oral semaglutide «had little or no effect»
-    [@nong2026obesity] — so a frail patient
-    is worst served by the strongest agents -> [[Comparing Obesity Drugs]].
-  - The same drugs carry a low-certainty observational signal running the *other* way on the brain: GLP-1
-    receptor agonists track lower incident dementia in two umbrella reviews (all-cause dementia OR 0.55,
-    95% CI 0.35-0.87 [@yang2026]; RR 0.35,
-    0.16-0.78 [@kuatedefo2023]). Both are
-    observational and hypothesis-generating — a possible offset to log, not a benefit to bank, and it does
-    not soften the muscle-loss caution above -> [[Dementia Prevention and Modifiable Risk Factors]].
-  - The rule is not «don't use it»: pair any GLP-1 weight loss in this stratum with resistance training and
-    deliberate protein, and judge the complete strategy (drug + training + protein) on function, not the
-    drug's naive weight number — the same pairing the unmodified-weight-loss bullet above demands
-    -> [[GLP-1 and Lean Mass]], [[Protein and Resistance Training for Muscle and Strength]].
-- **Glycaemic control matters here; *tight* glycaemic control matters less.** Lowering glucose is a
-  baseline-risk (route-a) lever like blood pressure — the higher this stratum's complication risk, the more
-  a given relative reduction is worth. But two things reweight *tight* targets downward at 70: the shorter
-  runway buys fewer complication-free years for the slow microvascular endpoints, and the harm of tight
-  control — hypoglycaemia and its downstream falls and cognitive cost — rises with age and frailty. So the
-  target loosens with age; agent and glucose goal are a prescriber's call, not a number to read off here
+**Testosterone for the low-testosterone, obese man: the muscle lever here is training, not a hormone.**
+Testosterone raises lean mass on the scale (+1.6-3.6 kg) but function lags, and in the TRAVERSE trial it
+*increased* fractures (HR 1.43, 95% CI 1.04-1.97) — the opposite of the intended effect — alongside more
+atrial fibrillation, acute kidney injury and pulmonary embolism, with no mortality benefit
+[@snyder2024],
+[@lopezhilario2026]. And much of the low
+testosterone in an obese man is *secondary to the obesity itself* and reverses with weight loss
+[@corona2013] — so the fat-loss and
+resistance-training levers already ranked address the cause -> [[Testosterone Adiposity and Muscle]].
+
+**Vitamin D plus calcium is not the fracture lever in the non-deficient.** In community-dwelling older
+adults who are not deficient, supplementation did not reduce fractures and raised kidney-stone risk
+(RR \~1.18) [@kahwati2018]. The
+fall/fracture lever is balance exercise, not the supplement.
+
+**Intensive weight loss, unmodified, strips muscle and bone.** The sign-flip is not weight loss itself
+but weight loss *without* the resistance-training-and-protein pairing above — in a sarcopenic-obese
+person with already-reduced bone density, an aggressive diet alone can worsen the muscle and bone deficit
+that most threatens independence -> [[Protein and Resistance Training for Muscle and Strength]].
+Muscle-preserving weight loss is the version to run; the rapid-loss-then-regain pattern also carries its
+own metabolic-adaptation cost -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+
+**GLP-1 weight-loss drugs (semaglutide, tirzepatide) shed muscle along with the fat — the same sign-flip
+as unmodified dieting above, now a dominant weight-loss lever in exactly this population.**
+
+Across seven obesity-dose trials, rapid GLP-1 weight loss cut absolute lean mass by −1.74 kg
+(95% CI −3.04 to −0.45, high certainty) — roughly 30% of the weight lost, at or just inside the
+ordinary 20-30% diet-induced band, so on average the drug is not special: rapid weight loss loses
+muscle whatever drives it [@laverde2026]. Lean mass is a
+surrogate for muscle and for function, and Laverde measured neither strength nor capacity — so this
+is a directional muscle-mass signal, not proven function loss.
+
+Which face governs flips with the stratum. For a young, well-muscled obese adult the composition ratio
+improves and the loss is minor; for the sarcopenic-obese older adult the absolute loss becomes a
+patient-important harm (falls, fractures, lost independence) — and Laverde's young, low-comorbidity
+trials explicitly leave this high-risk stratum to «future studies»
+[@laverde2026]. Worse, the drug suppresses
+intake exactly when defending older muscle needs *more* per-meal protein to clear the
+anabolic-resistance threshold — cutting the very protein the muscle now needs more of. Per agent,
+tirzepatide and subcutaneous semaglutide are «among the most harmful» for lean mass while liraglutide
+and oral semaglutide «had little or no effect»
+[@nong2026obesity] — so a frail patient
+is worst served by the strongest agents -> [[Comparing Obesity Drugs]].
+
+The same drugs carry a low-certainty observational signal running the *other* way on the brain: GLP-1
+receptor agonists track lower incident dementia in two umbrella reviews (all-cause dementia OR 0.55,
+95% CI 0.35-0.87 [@yang2026]; RR 0.35,
+0.16-0.78 [@kuatedefo2023]). Both are
+observational and hypothesis-generating — a possible offset to log, not a benefit to bank, and it does
+not soften the muscle-loss caution above -> [[Dementia Prevention and Modifiable Risk Factors]].
+
+The rule is not «don't use it»: pair any GLP-1 weight loss in this stratum with resistance training and
+deliberate protein, and judge the complete strategy (drug + training + protein) on function, not the
+drug's naive weight number — the same pairing the unmodified-weight-loss bullet above demands
+-> [[GLP-1 and Lean Mass]], [[Protein and Resistance Training for Muscle and Strength]].
+
+**Glycaemic control matters here; *tight* glycaemic control matters less.** Lowering glucose is a
+baseline-risk (route-a) lever like blood pressure — the higher this stratum's complication risk, the more
+a given relative reduction is worth. But two things reweight *tight* targets downward at 70: the shorter
+runway buys fewer complication-free years for the slow microvascular endpoints, and the harm of tight
+control — hypoglycaemia and its downstream falls and cognitive cost — rises with age and frailty. So the
+target loosens with age; agent and glucose goal are a prescriber's call, not a number to read off here
 .
-- **The most aggressive blood-pressure target trades benefit against real harms.** The SPRINT benefit is
-  real, but the intensive arm caused more hypotension, syncope and acute kidney injury — so at this age,
-  titrate the target against those harms rather than push it to a number
-  [@sprint2015].
-- **Statins for primary prevention sit near the edge of the evidence at \~70.** The absolute benefit is
-  small (all-cause mortality RR \~0.92), and the U.S. Preventive Services Task Force reaches **no
-  recommendation** at age >=76 (insufficient evidence)
-  [@uspstf2022]. Guidance confidence tracks the same
-  edge: at >=70 the European cardiology guideline drops lipid-lowering to **Class IIb («may be considered»)**
-  even in the very-high-risk band [@esc2021] — a longevity
-  lever buys fewer disease-free years once competing mortality shortens the runway. That is a claim about
-  *horizon*, not the drug: where absolute risk is high the lipid lever still pays, since «even a small
-  absolute reduction in LDL-C may be beneficial in a high- or very-high-risk patient»
-  [@esc2021]
-  -> [[Statins for Primary Prevention and the Power of Zero CAC]],
-  [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
 
-  Two statin harms weigh most heavily in exactly this stratum — older adults report the most muscle
-  symptoms, face the most deprescribing pressure, and carry the most polypharmacy — yet neither is a
-  reason to stop an indicated statin, and the two fail as reasons for opposite kinds of reason. The
-  muscle aches are a *perceived* harm the drug mostly does not cause: across double-blind
-  statin-versus-placebo trials the causal excess is tiny (RR 1.03), and in a blinded n-of-1 rechallenge
-  90% of the symptom burden a statin provoked was also provoked by an inert placebo
-  [@reith2022muscle],
-  [@wood2020samson] — so a new ache, especially after the first
-  year, is very unlikely the statin, and a blinded rechallenge separates the rare true myopathy from
-  nocebo.
+**The most aggressive blood-pressure target trades benefit against real harms.** The SPRINT benefit is
+real, but the intensive arm caused more hypotension, syncope and acute kidney injury — so at this age,
+titrate the target against those harms rather than push it to a number
+[@sprint2015].
 
-  New-onset diabetes is the mirror image: a *real* pharmacological effect, but small and dose-dependent
-  (RR 1.10 on low- or moderate-intensity statins, 1.36 on high-intensity), concentrated in people whose
-  glycaemia already sits near the diagnostic threshold, driven by a tiny HbA1c shift, and already netted
-  out of the vascular benefit — so it warrants no routine post-initiation glucose monitoring to catch a
-  statin effect (standard diabetes screening continues unchanged) and does not change the
-  start-or-continue decision [@reith2024diabetes].
-  The two harms differ in *kind*: the muscle harm is mostly not real, the diabetes harm real but
-  outweighed — and both point to the same rule, *do not stop an indicated statin*, for opposite reasons
-  -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]].
+**Statins for primary prevention sit near the edge of the evidence at \~70.** The absolute benefit is
+small (all-cause mortality RR \~0.92), and the U.S. Preventive Services Task Force reaches **no
+recommendation** at age >=76 (insufficient evidence)
+[@uspstf2022]. Guidance confidence tracks the same
+edge: at >=70 the European cardiology guideline drops lipid-lowering to **Class IIb («may be considered»)**
+even in the very-high-risk band [@esc2021] — a longevity
+lever buys fewer disease-free years once competing mortality shortens the runway. That is a claim about
+*horizon*, not the drug: where absolute risk is high the lipid lever still pays, since «even a small
+absolute reduction in LDL-C may be beneficial in a high- or very-high-risk patient»
+[@esc2021]
+-> [[Statins for Primary Prevention and the Power of Zero CAC]],
+[[SCORE2 Baseline Risk and the ESC Treatment Thresholds]].
+
+Two statin harms weigh most heavily in exactly this stratum — older adults report the most muscle
+symptoms, face the most deprescribing pressure, and carry the most polypharmacy — yet neither is a
+reason to stop an indicated statin, and the two fail as reasons for opposite kinds of reason. The
+muscle aches are a *perceived* harm the drug mostly does not cause: across double-blind
+statin-versus-placebo trials the causal excess is tiny (RR 1.03), and in a blinded n-of-1 rechallenge
+90% of the symptom burden a statin provoked was also provoked by an inert placebo
+[@reith2022muscle],
+[@wood2020samson] — so a new ache, especially after the first
+year, is very unlikely the statin, and a blinded rechallenge separates the rare true myopathy from
+nocebo.
+
+New-onset diabetes is the mirror image: a *real* pharmacological effect, but small and dose-dependent
+(RR 1.10 on low- or moderate-intensity statins, 1.36 on high-intensity), concentrated in people whose
+glycaemia already sits near the diagnostic threshold, driven by a tiny HbA1c shift, and already netted
+out of the vascular benefit — so it warrants no routine post-initiation glucose monitoring to catch a
+statin effect (standard diabetes screening continues unchanged) and does not change the
+start-or-continue decision [@reith2024diabetes].
+The two harms differ in *kind*: the muscle harm is mostly not real, the diabetes harm real but
+outweighed — and both point to the same rule, *do not stop an indicated statin*, for opposite reasons
+-> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]].
 
 </div>
 
@@ -453,7 +513,7 @@ toward net harm, or toward "not worth it," in this stratum.
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
 
-<div class="recent-update" data-last-updated="2026-09-07">
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Four things this ranking cannot tell you
 
@@ -475,10 +535,10 @@ toward net harm, or toward "not worth it," in this stratum.
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 54 sources — 35 gold, 17 high, 2 moderate |
+> | **Evidence included** | 55 sources — 36 gold, 17 high, 2 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 </div>
 

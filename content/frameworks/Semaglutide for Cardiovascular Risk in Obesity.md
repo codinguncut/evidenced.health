@@ -286,8 +286,6 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
 
 
 [@lincoff2023]
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Provenance and limits
 
 - **Industry origin:** both trials were «Funded by Novo Nordisk» and sponsor-designed («The sponsor
@@ -322,8 +320,6 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
   centres is intact.
 
 [inferred from @lincoff2023; @wilding2021]
-
-</div>
 
 ## Decision relevance
 

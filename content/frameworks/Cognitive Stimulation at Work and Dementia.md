@@ -2,14 +2,14 @@
 type: framework
 question: Does cognitively stimulating work lower later dementia risk, how large is that lever versus the dominant dementia risk factors, and is the association credible against reverse causation?
 aliases: [Cognitive Stimulation at Work, Cognitively Stimulating Jobs Dementia, Active Jobs Dementia, Work Complexity Dementia, Cognitive Reserve at Work, Mentally Stimulating Work Dementia]
-authors: [Kivimaki, Mika]
-sources: [Kivimaki - Cognitive Stimulation Work Dementia 2021]
+authors: [Kivimaki, Mika; Hussenoeder, Felix S]
+sources: [Kivimaki - Cognitive Stimulation Work Dementia 2021, Then - Mental Demands at Work Cognitive Decline Dementia 2019]
 cluster: occupation
 nucleus: false
 confidence: low
 created: 2026-08-14
-updated: 2026-08-14
-self_critiqued: 2026-08-14
+updated: 2026-09-08
+self_critiqued: 2026-09-08
 relationships:
   related_to:
     - The Physical Activity Paradox
@@ -20,6 +20,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Surrogate Outcomes
 ---
+<div class="recent-update" data-last-updated="2026-09-08">
 
 An orbiter of the `occupation` cluster and its **third** occupational channel, distinct from the two
 already held — the *physical-demand* channel (nucleus [[The Physical Activity Paradox]]) and the
@@ -27,9 +28,14 @@ already held — the *physical-demand* channel (nucleus [[The Physical Activity 
 mentally demanding, high-control (*active*) work is associated with *lower* later dementia risk, plausibly
 through a cognitive-reserve / neurodegeneration pathway rather than through cardiovascular load or stress
 physiology. The finding: a **small-to-moderate**, artifact-resistant protective association at gold IPD
-scale — a real lever, but ranked *below* the dominant dementia risk factors by the source itself. Held
-single-source (an IPD multicohort study), `confidence: low`.
+scale — a real lever, but ranked *below* the dominant dementia risk factors by the source itself. The
+protective *direction* is now corroborated by an **independent** concepts-SR (Hussenoeder et al 2019,
+Leipzig LIFE — disjoint from IPD-Work), which also decomposes *mental demands at work* into 5
+distinct constructs; but that review adds **no pooled magnitude**, and the residual-confounding /
+causality gaps are untouched, so `confidence: low` holds (better-warranted, not raised).
 [inferred from @kivimaki2021cognitive]
+
+</div>
 
 ## The effect estimate
 
@@ -198,12 +204,77 @@ the ranking directly:
   *cognitive stimulation at work* number to its primary source, adding the reverse-causation check and the
   mechanism arm the Commission line omits — it does not independently confirm the Commission.
 
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## The independent concepts-SR — construct decomposition + a direction corroboration (Hussenoeder 2019)
+
+The G-gap this page named — an **independent** occupational-factors -> dementia SR/MA not drawn from
+the IPD-Work consortium — is now filled by a systematic review from the **Leipzig LIFE group**
+(Hussenoeder et al 2019, 34 studies, published pre-Nov-2017). It is a **concepts/measurement SR, not a
+pooled meta-analysis**: it reports **no pooled HR/RR**, so it adds no magnitude — its value is (F) a
+construct decomposition and measurement critique, plus a narrow (E) corroboration of *direction* from a
+disjoint group and evidence base.
+
+**WPMD is not one exposure — a 5-way construct split (type-B/F).** Kivimaki's single Karasek-derived
+three-level *cognitive stimulation* variable is **one facet** of what the wider literature calls
+*mental demands at work*. Hussenoeder decomposes it into **five distinct categories with different
+instruments and different evidence**: [@then2019mentaldemands]
+
+- **complexity (data / people / things)** — DOT-based; data and people **protective**, but *things*
+  «Seventy-five percent of studies ... find no substantive connection» (a status confound);
+- **intellectual demands** — O*NET-based, broadly positive, benefit largest for lower early-life
+  aptitude;
+- **job control** — Karasek-based, «high job control was connected with reduced dementia risk»
+  (independently corroborates this page's job-control-is-protective reading via a different cohort set);
+- **novelty** — only 2 studies, **mixed** («Then et al find no effect of novelty on dementia
+  incidence» while Oltmanns finds a processing-speed benefit);
+- **mental workload** — NASA-TLX-style, 2 studies only.
+
+So *cognitively demanding work* is **construct-specific**: some facets carry the dementia signal and
+some (things-complexity, novelty) do not — a refinement Kivimaki's single variable cannot show.
+
+**The parameter table (BLOCKING — the cross-source comparison).** These two sources do **not** measure
+the same quantity, which bounds what can be claimed:
+
+| Parameter | Kivimaki 2021 (page anchor) | Hussenoeder 2019 (this SR) | Same quantity? |
+|---|---|---|---|
+| Exposure construct | ONE 3-level Karasek *cognitive stimulation* variable | FIVE WPMD categories (complexity/intellectual/job-control/novelty/workload) | **NO** — anchor is one facet of the SR's superset |
+| Synthesis mode | IPD meta-analysis, pooled | narrative concepts review, un-pooled | **NO** |
+| Effect form | pooled **HR 0.77 (0.65-0.92)** | **direction only, no magnitude** | **NO** — magnitude vs direction |
+| Evidence base | 7 IPD-Work cohorts, 2021 | 34 studies, pre-Nov-2017, **excludes** Kivimaki 2021 | disjoint |
+| Overall direction | protective | protective for complexity(data/people) / intellectual / job control; **null** for things-complexity & novelty | **PARTIAL** — compatible, construct-specific |
+
+Because the fourth column is NO on magnitude, **no magnitude convergence is asserted** — the pooled
+occupational-exposure effect remains **G (needs aggregation)**. What *is* asserted is a
+**`[E-independent]`** corroboration of the protective **direction**: independence verified by
+author-list diff (Hussenoeder / Riedel-Heller / Conrad / Rodriguez, Leipzig LIFE — **disjoint** from
+Kivimaki / Nyberg / Vahtera, IPD-Work) AND by a disjoint, pre-2017 evidence base that does not include
+Kivimaki 2021. [inferred from @then2019mentaldemands]
+Corroborated by Hussenoeder et al (concepts SR, 34 studies).
+
+**Measurement caveat runs the *opposite* way to Kivimaki's.** Kivimaki's limitation was *self-reported*
+exposure (JEM mitigated it); Hussenoeder's is over-reliance on **objective** job-title indices (DOT,
+O*NET) that «may ignore the potentially important subjective dimensions of WPMDs ... how they are
+perceived and valued by workers». [@then2019mentaldemands] The two worries are consistent (different sub-literatures), and together they say the
+exposure is measured imperfectly from **both** ends — which keeps certainty low.
+
+**What it does NOT resolve.** As an all-observational concepts review it does not address the residual
+confounders (childhood IQ, education, reverse causation) that set this page's confidence; it corroborates
+direction, not causality. So the independence upgrade removes the *single-source fragility on direction*
+without lifting the ceiling on certainty.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
 ## Confidence: LOW — and the gaps
 
-- **Single gold-*design* source, observational, self-reported primary exposure, residual confounding
-  (childhood IQ) unremovable.** An **independent** occupational-factors -> dementia SR/MA (one NOT drawn
-  from the IPD-Work consortium) is owed before a recommendation-level read — a `G`-gap, not yet a held
-  source.
+- **Now two-source on direction, still gold-*design*-thin on causality.** The independent concepts-SR
+  (Hussenoeder 2019, Leipzig LIFE) closes the named *independent-occupational-SR-owed* gap and
+  corroborates the protective *direction* from a disjoint group and evidence base — a **better-warranted
+  low**, not a rise: the primary exposure is still observational and imperfectly measured, and residual
+  confounding (childhood IQ) stays unremovable. The pooled *magnitude* across occupational studies
+  remains **G (needs aggregation)** — the concepts SR adds no HR/RR.
 - **`G`-gaps.** (i) No trial shows that *increasing* work cognitive-stimulation reduces dementia — the
   marker-vs-lever gap, and the exposure is largely non-prescribable. (ii) The proteomic mediation is
   **unmeasured as a mediator** (piecewise design, underpowered). (iii) Childhood-IQ confounding cannot be
@@ -211,6 +282,10 @@ the ranking directly:
   unassessed.
 - **Coherence, not validity (R1):** the association is what these cohorts report; the open loop (no
   realized-outcome check of a work-content intervention on dementia) stands.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Self-critique `[run 2026-08-14, before commit]`
 
@@ -231,5 +306,31 @@ the ranking directly:
   words placing this below the big rocks; the exposure is flagged largely non-prescribable so no
   brain-training recommendation is licensed.
 - **Coherence, not validity** (R1): the open loop stands.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-08">
+
+## Self-critique `[run 2026-09-08, Hussenoeder 2019 weave, before commit]`
+
+- **[E-independent] is not laundered.** Independence verified two ways: author-list diff (Hussenoeder /
+  Riedel-Heller / Conrad / Rodriguez, Leipzig LIFE — disjoint from Kivimaki / Nyberg / Vahtera, IPD-Work)
+  AND a disjoint pre-Nov-2017 evidence base that cannot include Kivimaki 2021. The token is asserted on
+  the **direction only**; no magnitude convergence is claimed (Hussenoeder reports no pooled effect —
+  srcgrep-confirmed), and the pooled occupational magnitude is explicitly left as **G (needs aggregation)**.
+- **Not overclaimed.** Confidence stays `low` — the independence upgrade removes single-source fragility on
+  direction but does not touch the residual-confounding / causality ceiling (an all-observational concepts
+  review cannot). Framed as *better-warranted low*, not a rise.
+- **Parameter table gates the cross-source prose.** The *same-quantity?* column is NO on exposure construct,
+  synthesis mode, and effect form — so the only claims made are the construct-decomposition (B/F) and the
+  direction corroboration (E), never a magnitude contrast.
+- **No fake tension.** The opposite-direction measurement caveat (Kivimaki: self-report; Hussenoeder:
+  over-objective) is marked *consistent, different sub-literatures* (not-joined check (ii), different scope) —
+  a distinction, not a filed tension.
+- **Attribution corrected, not invented.** The source's registry slug says *Then* but its authors are
+  Hussenoeder et al; `authors:` follows the source, the slug is kept as the handle, and the discrepancy is
+  logged as a rename candidate.
+
+</div>
 
 ## References

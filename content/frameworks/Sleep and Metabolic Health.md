@@ -34,7 +34,7 @@ follow-up 2.5-16 y):
 
 > «A U-shaped dose-response relationship was observed between sleep duration and risk of type 2
 > diabetes, with the lowest risk observed at a sleep duration category of 7-8 h per day. Compared with
-> 7-h sleep duration per day, the pooled relative risks for type 2 diabetes were 1.09 (95% CI 1.04-1.15)
+&gt; 7-h sleep duration per day, the pooled relative risks for type 2 diabetes were 1.09 (95% CI 1.04-1.15)
 > for each 1-h shorter sleep duration among individuals who slept <7 h per day and 1.14 (1.03-1.26) for
 > each 1-h increment of sleep duration among individuals with longer sleep duration.»
 [@shan2015]

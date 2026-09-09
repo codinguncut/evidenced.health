@@ -37,6 +37,19 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   mortality and CV events (RR 0.83) through the same cortisol channel; a marker not shown to be a lever,
   discriminant validity vs depression/connection incomplete
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
+## Heat / sauna exposure
+
+- [[Sauna Bathing and Cardiovascular Mortality]] — nucleus of the `heat-exposure` cluster: regular hot
+  Finnish sauna associates with an inverse frequency/duration gradient for SCD, fatal CHD/CVD and
+  all-cause mortality — but the entire signal rests on ONE cohort of middle-aged Finnish men (KIHD), so
+  it is low-confidence, non-transportable (no women, no replication, no RCT), and a small peripheral
+  lever, not a big rock. The healthy-adherer check is run (survives fitness/SES adjustment) but residual
+  confounding remains.
+
+</div>
+
 ## Light and sun (UV) exposure
 
 - [[Sun Exposure UV and Health]] — nucleus of the `sun-uv-exposure` cluster (concept): how much sun/UV
@@ -59,6 +72,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
 
 - [[Disinfection Byproducts and Bladder Cancer]] — nucleus of the `disinfection-byproducts` cluster:
   lifetime trihalomethane (THM) exposure raises male bladder-cancer risk modestly (meta OR 1.51 at
-  >50 µg/L; null in women, null via ingestion — dermal/inhalation carries the signal), attributable to
+  &gt;50 µg/L; null in women, null via ingestion — dermal/inhalation carries the signal), attributable to
   \~4.9% of EU bladder cancers — but a *small* effect dwarfed by smoking (OR 3.91) on near-universal
   low-level exposure, so a structural water-treatment lever, not an individual behaviour

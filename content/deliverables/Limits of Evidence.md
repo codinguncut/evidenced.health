@@ -86,7 +86,7 @@ rule out a real gradient, a bare coefficient cannot say what was traded, and a c
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
 
-<div class="recent-update" data-last-updated="2026-09-06">
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The design rarely isolates the cause
 
@@ -135,7 +135,9 @@ referent enriched for people who quit the exposure once ill, so it «will bias d
 downward, thereby magnifying the appearance of health benefits from low-level drinking»
 [@stockwell2016]), frailty
 confounding, unequal between-group precision, or a nadir stitched across cohorts whose intake ranges do
-not overlap. That last one is subtle: Villoz's dairy-and-dementia curve dips to a knee near 150 g/day, and
+not overlap.
+
+That last one is subtle: Villoz's dairy-and-dementia curve dips to a knee near 150 g/day, and
 that knee sits on the seam between low-intake Asian cohorts (29-165 g/day, where dairy reads protective)
 and high-intake European ones (170-711 g/day, null)
 [@villoz2024dairy]. Villoz reads the split as genuine
@@ -333,6 +335,8 @@ doesn't work* -- the first leaves the question open under the expectancy test; t
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## The open loop, and what confidence it leaves
 
 The deepest ceiling is not any one of the limits above but the fact that none of them can be checked
@@ -354,6 +358,8 @@ filling it.
 So what confidence does an open loop leave? Not none -- a bounded, disciplined confidence. The evidence
 cannot fix a point optimum, but it can pin the frame around one:
 
+#### What the evidence can pin, and what it cannot
+
 - **A floor, a range, a direction, a harm-ceiling -- not a peak.** The evidence structurally yields
   *below here is deficiency*, *this arm beat that*, *more in this range still helps*, *past here it
   harms* -- but generally not *this exact intake is best*. Carry any threshold with its confidence
@@ -366,6 +372,8 @@ cannot fix a point optimum, but it can pin the frame around one:
   separate judgments, neither fixing the other; a weak recommendation can mean values vary, not that
   evidence is thin [@grade].
   -> [[Certainty of Evidence vs Strength of Recommendation]], [[Rating Certainty of Evidence]]
+#### How to appraise it, and carry it to a decision
+
 - **Quality is fit-to-question, not pedigree** -- correspondence between a study's methods and the
   inference wanted, not a rank [@cooper]. And a
   pattern induced *across* studies is associational and hypothesis-generating, never causal
@@ -387,6 +395,8 @@ with* the ceiling that bounds it -- measurement error here, an unstated comparat
 class that may not transport, a curve with no locatable peak. Every number carries its interval and its
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-09-06">
 

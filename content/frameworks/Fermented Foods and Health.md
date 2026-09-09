@@ -172,8 +172,6 @@ inflammation -> CVD bridge is a hypothesis the held evidence cannot close; it is
 
 
 
-<div class="recent-update" data-last-updated="2026-09-05">
-
 ## Is it microbiome-mediated? Partly, and indirectly
 
 Wastyk's mechanistic finding matters for the whole cluster: the diversity increase was **not** the
@@ -190,9 +188,8 @@ composition-shift is a surrogate, and here it is not even a colonization effect.
 contrasts the two arms directly and they behaved differently — see the refinement it makes to
 [[Gut Microbiome and Health]].
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-05">
+
 
 ## Yogurt -> T2D: the one fermented-dairy leg with a located dose-response `[2026-09-05]`
 
@@ -201,7 +198,7 @@ Gijsbers 2016 (dairy -> T2D dose-response MA, 22 cohorts, 43,118 cases; gold) gi
 dose-response shape the fabric holds for any fermented food. `«Yogurt ... was non-linearly inversely
 related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compared with 0 g/d; 95% CI:
 0.83, 0.90; P < 0.001)»`, and `«The risk did not further decrease at higher intake amounts of yogurt
->80 g/d»` [@gijsbers2016].
+&gt;80 g/d»` [@gijsbers2016].
 
 - **Curve features named.** Nonlinear inverse with a **located knee/plateau at \~80 g/d** (about one
   small pot) — the benefit is acquired early and more buys nothing. Studied range 0-\~250 g/d; the
@@ -220,9 +217,6 @@ related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compa
   [[Dairy and Cardiometabolic Health]] — this section is the fermented-food-side cross-link, not a
   second appraisal.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
 
 ## The protective subtype is outcome-specific — and no subtype is robust across both endpoints
 
@@ -243,10 +237,6 @@ would also produce. And the crossover is a structural read across *different* ou
 head-to-head subtype contrast within one: it says where each fragile signal sits, not that cheese beats
 yogurt or the reverse. The live-vs-pasteurized mechanism question is open on **both** legs, so the
 outcome-specific reading still cannot name what in the subtype does the work.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Confidence and gaps
 
@@ -272,9 +262,7 @@ outcome-specific reading still cannot name what in the subtype does the work.
   - **`G (needs aggregation)`:** a pooled fermented-food effect on mortality or hard CV events across
     designs — a magnitude the fabric cannot compute from these two non-commensurable sources.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-05">
 
 ## Self-critique `[run 2026-08-05, before commit]`
 
@@ -306,7 +294,5 @@ outcome-specific reading still cannot name what in the subtype does the work.
 - **Not-joined.** No tension with the CVD leg — the yogurt T2D leg is a second endpoint, same
   observational substrate, filed as an added leg not a clash. The live-culture gap is carried across
   from the CVD leg unchanged.
-
-</div>
 
 ## References

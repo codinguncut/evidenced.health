@@ -3,15 +3,28 @@ type: deliverable
 title: Age-Related Diseases
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-06
-self_critiqued: 2026-09-06
-concrete_subject_audited: 2026-09-06
+updated: 2026-09-09
+self_critiqued: 2026-09-09
+concrete_subject_audited: 2026-09-09
 aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
 question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
-authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Wei, Bao-Zhen; Zhang, Jinhuan; Knowler, William C; Goldberg, Ronald B; World Cancer Research Fund International (org); Johnston, Bradley C; Vermeiren, Sofie; Racey, Megan; Celis-Morales, Carlos A; de Santana, Felipe M; Morton, Robert W; Sherrington, Catherine; Aune, Dagfinn; Babaker, Raghad; Marques-Couto, Pedro; European Society of Cardiology (org); Smith, Megan; Blomstrand, Peter; Wilker, Elissa H; Lopez-Bueno, Ruben; Mendes, Augusto J; Cui, Chendi; Villoz, Fanny]
-sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Peters - Blood Pressure Lowering Dementia 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Iso-Markku - Physical Activity Dementia 2022, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Henney - Ultra-Processed Food Dementia 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
-  Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, ESC - CVD Prevention Guidelines 2021, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Lopez-Bueno - Handgrip Strength Thresholds, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Villoz - Dairy Cognitive Decline Dementia 2024]
+authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund (org); Ngandu, Tiia; Coley, Nicola; Peters, Ruth; Knowler, William C; Goldberg, Ronald B; World Cancer Research Fund International (org); Johnston, Bradley C; Vermeiren, Sofie; Racey, Megan; Celis-Morales, Carlos A; de Santana, Felipe M; Morton, Robert W; Sherrington, Catherine; Aune, Dagfinn; Babaker, Raghad; Marques-Couto, Pedro; European Society of Cardiology (org); Lopez-Bueno, Ruben]
+sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021,
+  WCRF - Diet Nutrition Activity Cancer 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015,
+  Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Peters - Blood Pressure Lowering Dementia 2022,
+  Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022,
+  WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019,
+  Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016,
+  Racey - Physical Activity Interventions Frailty Meta-Analysis 2021,
+  Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021,
+  Morton - Protein Supplementation and Resistance Training 2018, Sherrington - Exercise Preventing Falls 2019,
+  Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026,
+  Babaker - Risk Factors Age-Related Macular Degeneration 2025,
+  Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025,
+  ESC - CVD Prevention Guidelines 2021, Lopez-Bueno - Handgrip Strength Thresholds]
 ---
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The verdict
 
@@ -26,19 +39,19 @@ it are modest and observational -- estimated across populations, not measured in
 the levers do not transfer uniformly from disease to disease: Parkinson's barely follows the pattern,
 and a lever that helps one eye disease does nothing clear for its neighbour.
 
-Second, the strongest new
-interventional evidence the wiki holds runs through a *single* lever, not a purpose-built regimen:
-lowering blood pressure cuts incident dementia in randomized trials, a small effect in absolute terms
-but a real one -- bought on a blood-pressure pill already prescribed for the heart, not from a dedicated
-brain-health program. The dedicated version of that program -- bundling exercise, diet coaching,
-cognitive training and vascular monitoring specifically to prevent dementia -- has been tried directly
-and has not cleared that bar: it moves cognitive test scores in some trials, but not, so far, the
-disease itself. Most of the diet-detail levers people spend the most attention on -- ultra-processed
-food, extra fruit and vegetables, flavonoids, fish-oil capsules -- work, where they work at all, through
-the same cardiometabolic pathways as the shared core. They reinforce those levers; they do not add new
-ones alongside them.
+Second, where the question has been put to its sharpest test -- does pulling a lever actually prevent a
+*disease*, not just move a risk marker -- the answer favours a *single* well-understood lever over a
+purpose-built regimen. That test has been run most directly on dementia, which now has its own cut:
+lowering blood pressure prevents incident dementia in randomized trials, a small but real absolute
+effect bought on a pill already prescribed for the heart, while a dedicated bundle of diet, exercise
+and cognitive training aimed at the brain has not cleared the same bar -> [[Dementia Prevention]]. The
+lesson generalizes across the outcome menu: the diet-detail levers that draw the most attention work,
+where they work at all, through the same cardiometabolic pathways as the shared core -- they reinforce
+those levers, they do not add new ones alongside them.
 
 Start with why the same short list keeps reappearing.
+
+</div>
 
 ## One set of levers, several diseases
 
@@ -100,237 +113,27 @@ One exposure in the table already breaks the
 pattern outright -- smoking's apparent protection against Parkinson's, flagged above -- and later
 sections return to why Parkinson's and a few other diseases resist the shared-lever logic more broadly.
 
-## Dementia: does anything actually prevent it?
+<div class="recent-update" data-last-updated="2026-09-09">
 
-Whether pulling those levers actually prevents a *disease* — not just a risk marker — is best tested on
-the one where it has been tried head-on: dementia. Two different bets have been run against dementia
-incidence and cognition, and they need to be kept apart. One bet is a **multidomain lifestyle bundle** —
-diet, exercise, cognitive training and vascular monitoring packaged together and delivered as a unit. The
-other is a **single-lever intervention** — pulling one cardiometabolic rock and watching what happens to
-dementia risk. The bundle has been tested three times and pooled once, and it does not clear the bar. The
-single lever has been tested once, at scale, and it does.
+## Does pulling those levers actually prevent a disease?
 
-#### The bundle, tested head-on, moves the test score more reliably than the disease
+The shared list lowers *risk markers* reliably; whether it prevents a *disease* has been tested most
+directly on dementia, where two bets were run and must be kept apart. A multidomain lifestyle bundle --
+diet, exercise, cognitive training and vascular monitoring delivered as one unit -- has been tested in
+randomized trials and pooled, and has not been shown to prevent the diagnosis, only to move a cognitive
+test score in some trials [@ngandu2015]
+[@coley2025]. A single cardiometabolic lever --
+lowering blood pressure -- has been tested at scale and does prevent incident dementia in a randomized
+trial, at a small but real absolute magnitude, on a pill already prescribed for the heart
+[@peters2022bp]. Neither finding overturns the other; they
+answer different questions -- a non-decomposable package versus one well-understood exposure.
 
-FINGER, the 2015 proof-of-concept trial, is the positive result everyone cites: a 2-year, 4-component
-programme in at-risk elderly (CAIDE score >=6, near-normal cognition) improved a cognitive-composite
-score by 0.022 SD per year versus an active control (95% CI 0.002-0.042), Cohen's d 0.13
-[@ngandu2015]. That is real and statistically
-significant, and it is also small — the CI's lower bound sits close to zero, and dementia incidence
-itself was never measured; a 7-year extended follow-up was planned but is not yet held. FINGER shows the
-**cognitive-composite surrogate** moved in a selected high-risk stratum. It does not show dementia was
-prevented.
+This is the shared-lever thesis's sharpest test, so it earns a full appraisal of its own: the trial base,
+the responder-subgroup null that closes off targeting the highest-risk person, the per-lever ranking, and
+the diet and sleep candidates that turn out to route through the same cardiometabolic rocks rather than
+adding independent targets, all live in [[Dementia Prevention]].
 
-MAPT, a 3-year, 4-arm French trial testing the same kind of bundle (physical activity, cognitive training,
-nutrition, with or without omega-3) on the same kind of surrogate, is the sharper test because it is the
-closest design match — and at the whole-population level it was null. The combined-intervention group's
-raw effect (0.093 points over 3 years, CI 0.001-0.184) fell to adjusted p=0.142 once corrected for multiple
-comparisons, and even at face value it sits far below the composite's estimated minimal clinically important
-difference [@andrieu2017]. MAPT's own CAIDE>=6 subgroup did
-reproduce a benefit (p=0.023), and so did its amyloid-positive subgroup — pointing, like FINGER, toward a
-high-baseline-risk responder story on the surrogate.
-
-That responder story does not survive contact with a **hard endpoint**. preDIVA, a 6.7-year, unselected
-cluster-RCT of nurse-led vascular care (no cognitive training, no supervised exercise — a thinner bundle
-than FINGER's), measured clinical dementia diagnosis directly and found nothing: HR 0.92 (95% CI 0.71-1.19)
-[@mollvancharante2016]. The trial did move blood
-pressure (-2.06 mmHg in the intervention arm) and was powered to detect a 33% incidence reduction — an
-order of magnitude larger than a BP-mediated effect would plausibly deliver — so this null is honestly
-read as underpowered-for-a-small-effect rather than a demonstration that nothing happened. Still, it is the
-first time the *bundle*, rather than a proxy for it, was checked against the disease it is meant to prevent,
-and it found nothing.
-
-Coley's pooled individual-participant analysis of MAPT and preDIVA (n=5205, up to 12 years of follow-up,
-486 incident dementia cases) is the decisive test of whether targeting the high-risk stratum rescues the
-bundle on the hard endpoint. It does not. The pooled intervention effect on all-cause dementia is flat — HR
-0.98 (95% CI 0.80-1.21) — and stays flat inside every one of 11 pre-specified subgroups. The two subgroups
-that had looked promising on the surrogate stayed null on the hard endpoint too: in the incident-Alzheimer's-
-disease analysis, CAIDE>=6 gave HR 1.03 (0.76-1.40) and preDIVA's own untreated-hypertension responder cell
-HR 0.72 (0.44-1.18, non-significant). A data-driven search free to combine any
-variable at any cutpoint found no responder subgroup either
-[@coley2025].
-
-A large network meta-analysis sharpens the *surrogate* side of the same story and adds a
-more-is-not-better twist. Mendes 2025 pooled 109 RCTs (23,010 cognitively-unimpaired older adults) and
-ranked the lifestyle levers on the global-cognition composite: the top combination was **physical
-exercise plus cognitive training (SMD 0.26, 95% CI 0.10-0.42)**, while the fuller four-component bundle —
-diet, exercise, cognitive training and health education — landed *lower*, at SMD 0.14 (0.02-0.27), no
-better than exercise alone (0.14) [@mendes2025multidomain].
-So on the surrogate, **adding more domains did not help** — the exercise-plus-training pair beat the
-richer stack. But every one of these is a *cognitive-test-score* effect, in the same class of trials
-FINGER and MAPT ran; none is dementia incidence, and this within-surrogate ranking does not convert into
-the hard-endpoint benefit the pooled null denies.
-
-So the honest summary of the bundle-as-tested is this: it moves a cognitive test score in some
-circumstances, it has not been shown to prevent the diagnosis, and deliberately targeting people at the
-highest baseline dementia risk — the most natural way to try to rescue it — does not change that.
-Route-(b) personalization by dementia risk is evidenced against here, not merely untested
--> [[Baseline Risk and the Relative-Absolute Split]].
-
-#### One lever that works: lowering blood pressure
-
-Against that backdrop, the strongest interventional dementia evidence the fabric holds is not a bundle at
-all. Peters 2022 pooled individual-participant data from five double-blind, placebo-controlled
-antihypertensive trials (HYVET, SYST-EUR, PROGRESS, ADVANCE, SHEP; 28,008 people, 861 incident dementia
-cases) and found that lowering blood pressure by a sustained \~10/4 mmHg cut incident dementia: OR 0.87
-(95% CI 0.75-0.99) [@peters2022bp]. In absolute terms this is
-small — dementia occurred in 2.9% of the treated group versus 3.3% of placebo over a median 4.3 years, an
-absolute risk difference of about 0.4 percentage points, or roughly one dementia diagnosis averted for
-every 250 people treated for four years. The trials stopped early once their cardiovascular endpoint was
-met, and dementia accrues more slowly than cardiovascular events, so this is plausibly a floor rather than
-the full effect.
-
-The relative benefit did not vary by age, baseline blood pressure, or stroke history — it looks
-uniform across those strata, so the decision runs on baseline risk (route-a), not on identifying a
-special responder group [@peters2022bp] ->
-[[Baseline Risk and the Relative-Absolute Split]]. About half the effect (53%, 95% CI 27-76%) traces
-statistically to the blood-pressure change itself, with the rest running through other trial or drug
-effects [@peters2022bp].
-
-And the U-shaped pattern seen in observational studies of blood pressure and dementia in old age — where
-very low pressure looks harmful — does not survive randomization: the dose-response in these trials is
-linear down to at least 100/70 mmHg, with no rise in dementia risk at the oldest ages
--> [[The U-Shaped Association Artifact]]. This is the last evidence of its kind that will ever be
-generated — it is no longer considered ethical to randomize people to a placebo arm on blood pressure —
-so it will not be superseded by a larger trial.
-
-What this buys is real but bounded on every axis the plan flags. It is single-lever, not a dedicated brain
-regimen: no cognitive training, no diet counseling, no exercise programme — just blood-pressure control,
-the same intervention already recommended for cardiovascular disease. It is a **second patient-important
-outcome bought on a rock already being pulled**, not a new free-standing intervention to add
--> [[Layer 1 - Ranking Interventions for a Stratum]], [[Blood Pressure Lowering and Cardiovascular Events]].
-And it is small in absolute per-person terms, exactly the scale a shared cardiometabolic lever contributing
-one slice of a multi-cause disease should be expected to produce.
-
-None of this reopens the bundle question: Peters tested one lever, not a package, and its win does not
-rehabilitate FINGER's or MAPT's cognitive-composite signal into a dementia-prevention claim. Equally, the
-bundle's failure does not mean nothing prevents dementia — it means the specific non-decomposable package
-tested three times did not, while a single, well-understood lever tested on the hard endpoint did.
-
-#### The diabetes lever splits by drug class
-
-Diabetes itself is already counted as a shared cardiometabolic rock — across the evidence base it raises
-Alzheimer's risk (RR 1.39-1.57) and vascular dementia risk more strongly (RR 1.91-2.49)
-[@kuatedefo2023]. A newer question sits inside that
-finding: for the large population already on a glucose-lowering drug, does *which* drug matter for
-cognition? An umbrella review of 27 observational studies (N=3,046,661) finds a split — metformin (RR 0.83,
-0.71-0.96), GLP-1 receptor agonists (0.35, 0.16-0.78), SGLT2 inhibitors (0.39, 0.20-0.76) and pioglitazone
-(0.74, 0.55-0.98) associate with lower dementia risk, while sulphonylureas (1.39, 1.04-1.87) and
-meglitinides (1.87, 1.43-2.45) associate with higher risk
-[@kuatedefo2023].
-
-The catch is confounding by indication: metformin is first-line therapy for earlier, milder disease, while
-sulphonylureas and meglitinides are typically used later, in more severe diabetes with more hypoglycaemia
-— so part of the apparent drug effect is a disease-severity contrast, not a brain effect, and metformin's
-own benefit weakens with longer follow-up, the signature of healthy-adherer bias
-[@kuatedefo2023]. With no randomized trial behind
-any of these numbers, heterogeneity near I2=99% for most drug classes, and two of the ten signals losing
-significance in the authors' own sensitivity analysis, certainty here is low to very low. Which drug a
-person with diabetes is prescribed is a prescriber-zone decision outside this wiki's scope; what belongs
-here is only the appraisal — a possible cognitive dividend for the newer agents, a possible cognitive
-penalty tracking the older secretagogues' hypoglycaemia risk, both soft.
-
-#### Physical activity holds up under scrutiny
-
-Physical inactivity is already a counted big rock; what a first-hand look at its dementia evidence adds is
-a specific check that the association is not simply reverse causation — people in the early, undiagnosed
-stages of dementia becoming less active, rather than inactivity causing dementia. A 58-cohort SR+MA
-(n=257,983) finds the standard association, RR 0.80 (0.77-0.84), and then tests it against exactly that
-objection: restricted to the 16 studies with 20 or more years of follow-up, the estimate holds at RR 0.79
-(0.71-0.87) [@isomarkku2022]. That is the strong-adjudication
-direction the reverse-causation check is meant to supply.
-
-It is not, however, a demonstrated causal slope: the three highest-quality studies with both a young
-baseline and 20+ years of follow-up lose significance (RR 0.79, 0.62-1.01), and a residual confound the
-design cannot remove — people who are more active may simply have started with more cognitive reserve —
-stays live [@isomarkku2022]. One clean negative: the protection
-does not depend on ApoE ε4 genotype (carriers RR 0.81, non-carriers RR 0.72, no significant interaction in
-9 of 11 studies) — activity is not a lever to withhold or intensify by genetic risk, a route-(b) null that
-reinforces rather than complicates the recommendation [@isomarkku2022].
-Net effect: this firms an existing rock with a second patient-important outcome; it does not add a
-new factor to the list.
-
-#### Hearing loss: a large exposure, a weak treatment lever
-
-Hearing loss carries one of the largest population-attributable fractions among the fourteen modifiable
-factors, and the exposure association is tight: a 50-cohort meta-analysis puts uncorrected hearing loss at
-HR 1.35 (95% CI 1.26-1.45) for incident dementia [@yu2024hearing].
-But a large risk factor is not the same claim as an effective treatment, and
-the *correction* — hearing aids — has been tested in the one randomized trial built for the purpose, and it
-failed on its primary outcome. ACHIEVE (N=977, ages 70-84) found no difference in 3-year cognitive decline
-between people randomized to hearing aids and a health-education control: 0.002 SD (95% CI -0.077 to 0.081,
-p=0.96) [@lin2023achieve].
-
-A pre-specified subgroup — the higher-risk ARIC cohort, as opposed to healthier self-referred volunteers —
-did show a 48% smaller 3-year decline (0.191 points, 95% CI 0.022-0.360, p=0.027), but this is one
-subgroup of one trial at a lenient pre-specified alpha, and the harder endpoint (incident cognitive
-impairment or dementia) was null in every stratum, including that one (total HR 0.90, 95% CI 0.61-1.33)
-[@lin2023achieve]. So the honest reading is the
-exposure-vs-intervention split the fabric holds elsewhere: hearing loss is a well-evidenced risk marker,
-but fitting a hearing aid to prevent dementia is, at best, a reasonable bet concentrated at high baseline
-risk — not an established general-population intervention -> [[Hearing Loss and Dementia]],
-[[Baseline Risk and the Relative-Absolute Split]].
-
-#### The diet and sleep candidates: real signals, routed through the same rocks
-
-A cluster of newer observational findings — ultra-processed food, fruit and vegetables, flavonoids, dietary
-omega-3, and sleep disorders — each show a statistically real association with dementia risk, and each is
-weaker than it first looks once checked against the same three questions: does it survive restriction to
-the hardest subtype (Alzheimer's), does it survive adjustment for the cardiometabolic factors already
-counted, and does a dose-response actually show up.
-
-High ultra-processed food intake associates with higher all-cause dementia risk (RR 1.44, 95% CI
-1.09-1.90), but the moderate-intake category is null, no dementia subtype individually reaches
-significance, and the association is lost once adjusted for type 2 diabetes and total energy intake —
-meaning it runs substantially through levers already on this page's list
-[@henney2023upf].
-
-High fruit-and-vegetable intake associates with lower risk of cognitive disorders (OR 0.82, 95% CI
-0.75-0.90), but Alzheimer's specifically is null (0.88, 0.76-1.01), and the effect is weakest in the
-prospective-cohort studies least prone to reverse causation and strongest in the cross-sectional and
-case-control studies most prone to it
-[@zhou2022fruit]. Flavonoids, a component nested
-inside those same fruits and vegetables rather than an independent exposure, show the identical pattern one
-level down — cognitive decline moves (OR 0.88), but dementia (0.97) and Alzheimer's (0.90) are both null
-[@peng2025flavonoid]. Soy isoflavone supplements show the same
-shape from the trial side: Cui pooled 16 RCTs and found the composite cognitive-test score improved (SMD
-0.19, 95% CI 0.07-0.32), carried by memory (SMD 0.15, 0.03-0.26), but every trial measured a test score
-over two years or less and none counted a case of dementia
-[@cui2020isoflavone] -> [[Soy Products]].
-
-Dietary DHA (mainly from oily fish) associates with lower cognitive-decline risk (RR 0.82, 95% CI
-0.72-0.93), but omega-3 *supplements* have been tested directly in a randomized trial (MAPT) and did
-nothing, alone or added to the multidomain bundle
-[@wei2023omega3] — a marker-vs-lever gap, not a
-reason to buy fish-oil capsules. Sleep disorders track with dementia risk across the board — insomnia (RR
-1.13, 95% CI 1.04-1.23), sleep-disordered breathing (1.39 for Alzheimer's), long sleep over 8 hours (1.66 for
-Alzheimer's) — but the long-sleep signal in particular looks like a preclinical marker of dementia already
-under way rather than a cause, and no trial has tested whether treating a sleep disorder lowers dementia
-incidence [@zhang2025sleep]
--> [[Sleep and Cognitive Decline]].
-
-Dairy, the newest food run through these questions, fails at the first. Pooled across 15 cohorts
-(312,580 people), its highest-versus-lowest contrast is null for cognitive decline or dementia —
-RR 0.94 (95% CI 0.82-1.07). The one dose-response dip, near 150 g/day, is a between-population artifact
-stitched from low-intake Asian and high-intake European cohorts sampled at non-overlapping doses; on the
-matched highest-versus-lowest contrast, milk and cheese are each null
-[@villoz2024dairy] -> [[Dairy]],
-[[The U-Shaped Association Artifact]].
-
-None of these candidate levers is one of the established fourteen modifiable factors. Ultra-processed food,
-fruit and vegetables, flavonoids, DHA and sleep are at most routes to pull blood pressure, glycaemia,
-weight and vascular health — never fifteenth, sixteenth and seventeenth independent targets. Dairy is not
-even that: it is a flat null, on the list only to retire the question, not a rock to reinforce.
-
-#### Where this leaves the crux
-
-Both halves stand. The multidomain bundle, tested three times against a cognitive test score and once
-against the diagnosis itself, then pooled and searched for a responder subgroup, has not been shown to
-prevent dementia — and targeting the people at highest risk does not rescue it. Lowering blood pressure, a
-single lever already pulled for cardiovascular disease, does prevent it, in a randomized trial, on the hard
-endpoint, at a small but real absolute magnitude. Neither finding overturns the other, because they are not
-answers to the same question: one is about a non-decomposable package, the other about one well-understood
-exposure.
+</div>
 
 ## Cancer, heart disease, diabetes — the increments beyond the rocks
 
@@ -567,6 +370,8 @@ a disease where most of the shared core does not transfer; the eyes show that ev
 system, one lever (physical activity) can transfer to one disease (cataract) and not its neighbour
 (macular degeneration).
 
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## Length, trajectory, and how the ranking shifts by age
 
 The wiki holds no single scalar for "health," so a lever's payoff has to be named by which axis it
@@ -624,19 +429,13 @@ active, non-smoking elderly person the cardiometabolic big rocks are already lar
 marginal levers move toward resistance training and adequate protein, balance-and-strength work
 against falls, and frailty status itself — covered in full above and in [[Big Rocks (Elderly)]].
 Baseline risk does real work here without needing any subgroup claim: the same relative effect buys
-more absolute benefit in a higher-baseline-risk stratum. That is part of why Peters' BP-lowering
-dementia result (OR 0.87, detailed above) was small in absolute terms in the trial population as
-enrolled, and would plausibly buy more in a population starting from a higher baseline dementia risk
-[[Baseline Risk and the Relative-Absolute Split]].
-
-The same logic runs the other
-way in preDIVA, which enrolled an *unselected* older population already receiving good background
-vascular care and found no reduction in incident dementia over 6.7 years (HR 0.92, 95% CI 0.71-1.19,
-p=0.54). The trial's own reading names the headroom problem directly: «This absence of effect might
-have been caused by modest baseline cardiovascular risks and high standards of usual care»
-[@mollvancharante2016] — a
-route-(a) point in miniature: a lever layered on top of an already-modest baseline risk and
-already-good usual care has little absolute room left to work with, whatever the relative logic says.
+more absolute benefit in a higher-baseline-risk stratum. That is part of why lowering blood pressure
+prevents incident dementia in absolute terms that are small in a trial population enrolled at modest
+baseline risk yet would plausibly buy more starting from a higher one, while a multidomain programme
+layered on an unselected older population already receiving good vascular care found no reduction at
+all -- a route-(a) point in miniature, a lever with little absolute room left to work whatever the
+relative logic says. Both results, with their trial numbers and headroom reading, are worked in
+[[Dementia Prevention]] -> [[Baseline Risk and the Relative-Absolute Split]].
 
 One structural limit closes the ranking question. The 14-factor dementia population-attributable-
 fraction map, WCRF's preventable-fraction estimates, and every other PAF-style figure in this
@@ -646,95 +445,25 @@ risk, and no single aggregate cross-disease burden figure can be built by adding
 diseases covered here — a structural limit (`G`, needs aggregation the fabric cannot perform), named
 rather than computed.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-09">
+
 ## What does not move the needle much
 
-That leaves the exposures people spend the most attention on — and where attention runs inverse to
-effect. Several diet-detail and lifestyle candidates get argued about at length; held against the
-cardiometabolic rocks above, most turn out to move a little, act through those same rocks rather than
-adding a new one, or not to move at all. A confirmed small effect is as reportable a result as a
-confirmed large one — an honest map of this territory is not "everything checks out," and it is not
-"nothing here matters" either.
-
-Three diet-detail candidates each carry a small, low-certainty cognitive signal that tracks the
-cardiometabolic rocks rather than sitting beside them as a 15th factor. None reaches a randomized trial,
-and by the authors' own account none plausibly ever will, since withholding a whole diet pattern from
-people for years to test it is not something an ethics board would approve
-[@henney2023upf].
-
-#### Ultra-processed food, fruit and vegetables, flavonoids
-
-**Ultra-processed food.** A pooled analysis of ten observational studies found high intake associated
-with higher all-cause dementia risk (RR 1.44, 95% CI 1.09-1.90), but moderate intake was not
-significant, no dose-response was demonstrated, every individual dementia subtype (Alzheimer's,
-vascular, MCI) fell short of significance on its own, and the signal disappeared once studies adjusting
-for diabetes or total energy intake were isolated [@henney2023upf]
-— a pattern consistent with the association running through diet quality and metabolic disease
-already counted, not a processing-specific brain effect. A narrower review of broader cognitive outcomes
-reached the same place by a largely overlapping evidence base, so it refines rather than independently
-confirms the finding [@smith2025upf].
-
-**Fruit and vegetables.** Intake shows a similar-sized inverse association with cognitive disorders
-(OR 0.82, 95% CI 0.75-0.90) that is null for Alzheimer's disease specifically (0.88, 0.76-1.01) and
-weakens rather than strengthens in the prospective-cohort studies least vulnerable to reverse causation —
-the opposite of what a genuine causal signal should do
-[@zhou2022fruit].
-
-**Flavonoids.** Intake, measured the same way (self-reported food intake run through a
-food-composition database), shows a borderline overall association (OR 0.90, 95% CI 0.83-0.98) carried
-entirely by the softest endpoint, "cognitive decline" (0.88, 0.79-0.98), while dementia (0.97, 0.79-1.19)
-and Alzheimer's disease (0.90, 0.69-1.17) are both null [@peng2025flavonoid].
-Because the flavonoid figure is computed from the same food-frequency questionnaires
-used to estimate fruit and vegetable intake, it is not a second, independent line of evidence for a brain
-benefit — it is the same signal re-expressed in different units, unable to say whether any benefit
-belongs to the flavonoid, the whole food, or the diet pattern surrounding it
-[[Is the Food Category Doing Any Work]].
-
-**Fish-oil pills do not deliver what fish-eating appears to.** Habitual dietary DHA intake carries the
-strongest observational signal in this space (RR 0.82, 95% CI 0.72-0.93, for dementia), but that is a
-food-and-years-of-diet exposure, not a supplement dose. The randomized trials that tested DHA and EPA as
-capsules found no cognitive benefit [[Multidomain Lifestyle Intervention and Cognitive Decline]] — the
-same diet-versus-pill split that shows up across this deliverable. Buying dietary omega-3 in a bottle is
-not a substitute for the eating pattern the observational signal was actually measuring.
-
-**Sleep problems mostly carry a modest signal, and the one large exception is likely the disease talking,
-not causing.** Across eight types of sleep disturbance and four cognitive outcomes in a pooled review of
-76 cohort studies, most associations sit in the RR 1.1-1.4 range, and one — restless, movement-disturbed
-sleep — reaches a notably larger association with vascular dementia (RR 2.53, 95% CI 1.30-4.93)
-[@zhang2025sleep].
-
-Sleeping more than eight hours a night carries the largest dementia association in the whole map (RR
-1.66 for Alzheimer's disease), but this arm concentrates in people over 70, correlates with markers of
-pre-existing brain pathology, and lacks any check for reverse causation — a textbook case for treating a
-protective- or harmful-looking association as an artifact until it survives a genetic or
-referent-corrected check [[The U-Shaped Association Artifact]]. There is no evidence here that advising
-a healthy long sleeper to sleep less would help.
-
-The pattern is not uniformly a null, though: insomnia's association gets *larger* and more consistent,
-not smaller, when measured objectively rather than by self-report — the opposite of what a pure
-reporting artifact should do — which argues that at least this one arm is a real, if modest, signal
-rather than a measurement ghost.
-
-**Which type of exercise a person does matters much less than whether they exercise.** An umbrella review
-of exercise-cognition studies reports mind-body exercise (tai chi, yoga, Pilates) as carrying the largest
-cognitive effect of any exercise type. That comparison, though, pools separate studies against their own,
-mostly passive, controls rather than testing mind-body exercise head-to-head against another active
-routine, and a related, larger umbrella found the same kind of effect shrank to near nothing once
-publication bias was corrected for [@blomstrand2023]
-[[Mind-Body Exercise and Cognition]]. Someone already doing aerobic or resistance exercise has no
-established cognitive reason to add tai chi or yoga on top of it; either may be reasonably chosen for
-other, separately-evidenced reasons — balance, joints, stress — but not this one.
-
-**Air pollution carries a real but small dementia signal, and it is barely something a person controls.**
-A systematic pooling of the primary studies puts the association at a hazard ratio of 1.04 (95% CI
-0.99-1.09) per 2 micrograms per cubic meter of fine particulate matter — a confidence interval that just
-crosses the null, on an effect smaller than the ones reported for education or smoking
-[@wilker2023]. Most of the studies driving that
-estimate carried a risk of bias that, if anything, pulled the number toward zero — so the true effect is
-probably a small positive one, not nothing. But the exposure sits mostly outside individual control:
-filtration and choice of neighborhood or commute route offer only a thin personal margin, and the bulk of
-the lever lives at the level of clean-air policy, not personal choice.
+That leaves the exposures people spend the most attention on -- and where attention runs inverse to
+effect. A confirmed small effect is as reportable a result as a confirmed large one, so an honest map of
+this territory is neither "everything checks out" nor "nothing here matters." Dementia is where these
+small levers have been mapped most exhaustively, and the mapping is consistent: ultra-processed food,
+fruit and vegetables, flavonoids, fish-oil capsules, sleep, mind-body exercise and air pollution each
+carry at most a small, low-certainty signal, and where one survives scrutiny at all it runs through the
+cardiometabolic rocks already counted rather than sitting beside them as a fresh target. The per-lever
+appraisal -- the numbers, the reverse-causation and measurement-error checks, and the diet-versus-pill
+split -- lives in [[Dementia Prevention]].
 
 Three things the evidence cannot yet tell us.
+
+</div>
 
 ## What the evidence still cannot tell us
 
@@ -760,6 +489,8 @@ heart disease and falls would manufacture a combined number no study measured. T
 limit on what a review of separate studies can produce, not a gap a bigger meta-analysis eventually
 closes — closing it would need a single study designed to track the combined outcome directly, and none
 exists.
+
+<div class="recent-update" data-last-updated="2026-09-09">
 
 ## What to do
 
@@ -802,9 +533,11 @@ order, and adjusted as a person ages.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?' |
-> | **Evidence included** | 38 sources — 26 gold, 12 high |
+> | **Evidence included** | 21 sources — 13 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+
+</div>
 
 ## References

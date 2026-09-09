@@ -398,8 +398,6 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-06">
-
 ## Caveats and boundaries
 
 - **This cut carries no exposure estimates.** Every exposure above is an illustration that links out to
@@ -430,7 +428,5 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
-
-</div>
 
 ## References

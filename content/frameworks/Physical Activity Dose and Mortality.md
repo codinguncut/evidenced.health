@@ -2,8 +2,8 @@
 type: framework
 question: How much physical activity, of what kind, changes mortality -- and where, if anywhere, does the benefit flatten?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022]
+authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A; Kivimaki, Mika]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -19,8 +19,8 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Weekend Warrior Activity Pattern and Mortality
 created: 2026-07-27
-updated: 2026-09-03
-self_critiqued: 2026-09-03
+updated: 2026-09-10
+self_critiqued: 2026-09-10
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -427,6 +427,8 @@ independent backing** — the WHO annex's falls conclusion rests on largely the 
 SR pools, so treat the SR as bounding/mechanising the guideline claim, not corroborating it from a
 separate route. The fracture arm stays lower-certainty on both.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Second outcome — dementia (same shape: most benefit at the bottom)
 
 Physical inactivity is one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]]. A 58-study SR+MA found «physical activity was associated with a decreased risk
@@ -440,6 +442,19 @@ prevention effect. Where a *multidomain* bundle **including** exercise (FINGER R
 composite, the design cannot attribute that to the exercise component
 -> [[Multidomain Lifestyle Intervention and Cognitive Decline]]; single-domain exercise RCTs on cognition
 stay null.
+
+The direct dementia effect is now contested at the reverse-causation frontier
+[@kivimaki2019inactivity]: Kivimaki's individual-
+participant meta-analysis (n approx 404,840, 19 cohorts) found inactivity->all-cause dementia present at
+<10 y (HR 1.40, 1.24-1.59) but **absent beyond 10 years** (HR 1.01, 0.89-1.14), while its cardiometabolic
+positive controls (diabetes 1.42, CHD 1.24, stroke 1.16) held in both periods — so the borrowed RR 0.80
+may be a prodromal marker for dementia specifically, not a causal slope. The clash with the 58-study
+aggregate MA is filed: [[Does Physical Activity Protect Against Dementia Beyond Ten Years]]. This page's
+*dose-shape* claim is unchanged — activity's biggest marginal payoff sits at the sedentary bottom, driven
+by the cardiometabolic and mortality outcomes BOTH studies agree on; only the dementia-specific causal
+reading narrows.
+
+</div>
 
 ## Third outcome — cancer, and the dose-shape may differ from the mortality curve
 

@@ -1,9 +1,9 @@
 ---
 type: framework
-question: How should resistance training be prescribed — load, sets, weekly frequency — for strength versus hypertrophy, what is the minimal effective dose, and does any of it move a health outcome?
-aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex]
-authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W]
-sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020]
+question: How should resistance training be prescribed — load, sets, weekly frequency, and equipment modality (free-weights vs machines) — for strength versus hypertrophy, what is the minimal effective dose, and does any of it move a health outcome?
+aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training]
+authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas]
+sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023]
 cluster: muscle
 confidence: low
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Low Muscle Mass and Mortality
     - Sarcopenia Definition and Diagnosis
 created: 2026-08-06
-updated: 2026-08-25
-self_critiqued: 2026-08-23
+updated: 2026-09-10
+self_critiqued: 2026-09-10
 ---
 
 **Peripheral scope** (exercise-programming) — admitted on the same evidence bar as any exposure, kept
@@ -99,6 +99,8 @@ read the \~2 sets / \~2x per week as a floor, not an optimum.
 
 
 [@currier2023]
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Effect modifiers — mostly absent (route-b is quiet here)
 
 Network meta-regression found **no** obvious modifying effect on relative RTx effects from age, training
@@ -109,6 +111,78 @@ on preference and constraint (Route e), not on demonstrated effect modification 
 (untrained) status still governs **absolute** gain — the big step is largest for the untrained.
 [@currier2023]
 
+
+[@haugen2023freeweight]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-10">
+
+## Equipment modality (free-weights vs machines): specific for the test, equivalent for the outcome
+
+The other much-debated RT dial — barbell/dumbbell vs pin-loaded machine — resolves the same way the
+prescription dials do: it is second-order once you are training. Haugen pooled 13 studies that
+*directly* compared the two modalities (n=1016, adults 18-60, free of chronic disease, >=6 weeks;
+non-athletes; TESTEX quality fair-to-good, none excellent). This is an **independent line** (a Norwegian
+group, no lineage overlap with Currier/McMaster) on a different sub-question, so it extends the
+big-rock finding from *protocol* to *equipment*.
+
+**The apparent modality advantage is test-specific, not a real difference in adaptation.** Trained with
+free-weights, you gain more *free-weight-tested* strength (SMD -0.210, 95% CI -0.391 to -0.029, p=0.023);
+trained on machines, you tend to gain more *machine-tested* strength (SMD 0.291, 95% CI -0.017 to 0.600,
+p=0.064). Haugen reads this as the specificity (SAID) principle: «The principle of specificity applies,
+which states that you should choose the exercise you want to be stronger in.» You get better at the
+movement you actually train — a testing artifact of the transfer, not a superior modality.
+[@haugen2023freeweight]
+
+**On the outcome itself, no modality difference survives.** Comparing each group in the mode it trained,
+or on a neutral test, the between-modality effect is null for dynamic strength (SMD 0.084, 95% CI -0.106
+to 0.273, p=0.387), isometric/neutral strength (SMD -0.079, 95% CI -0.432 to 0.273, p=0.660),
+countermovement jump (SMD -0.209, 95% CI -0.597 to 0.179, p=0.290), and hypertrophy (SMD -0.055, 95% CI
+-0.397 to 0.287, p=0.751). Both modalities produced large within-group gains (strength SMD \~0.92 vs
+\~0.97; hypertrophy \~0.25 vs \~0.21). Haugen's conclusion: «strength changes are specific to the training
+modality, and the choice between free-weights and machines are down to individual preferences and
+goals.» [@haugen2023freeweight]
+
+- **One partial exception (small n):** a direct-strength sub-analysis favored machines for *upper-body*
+  strength, with no difference lower-body — the hypertrophy arm rests on only 5-6 studies, so read this
+  as an unsettled wrinkle, not a machine advantage. For hypertrophy Haugen defers to preference: «When
+  the goal is to maximise muscle hypertrophy individual preferences should dictate the choice, but we
+  speculate that a combination could yield the best benefit» (regional muscle growth may differ by
+  modality even when total growth matches). [@haugen2023freeweight]
+- **Injury risk does not break the tie either.** «Summed up, it is uncertain if there are different
+  injury risks between free-weight and machine-based strength training.» The higher free-weight injury
+  counts are mostly weights dropped on people (cross-sectional ED data), not a movement-execution
+  hazard, and no longitudinal trial establishes causation; ACSM's view that «machines may be safer to
+  use than free-weights based on skill requirements» is a skill-requirement argument, not an outcome
+  finding.
+  [@haugen2023freeweight]
+
+**Decision:** choose equipment on preference, goal-specificity, and access — not on an expected
+strength or hypertrophy advantage, because none exists on the outcome. The one place specificity
+*does* bind is Route-e (constraint), not Route-b (effect modification): a competitor tested in a named
+lift (powerlifter, weightlifter) must train that lift; a recreational trainee optimizing size or
+general strength is free to pick either or mix. The surrogate boundary below applies unchanged — these
+are 1RM / muscle-size / jump gains, not a health outcome.
+
+**The big-rock pattern, now across two dials [inferred from @currier2023; @haugen2023freeweight].** Currier found 91% of
+between-*prescription* comparisons contained zero; Haugen finds the between-*equipment* comparison null
+on the outcome. These are two different sub-questions — protocol and equipment — and the same Layer-1
+pattern holds across both: **once someone is training, the sub-choices — protocol and equipment alike —
+are second-order to the train-vs-not-train decision.** This *generalizes* the ranking beyond
+load/sets/frequency; it is not two studies corroborating one finding (they measure different quantities,
+so it is not a type-E robustness claim), and it does not raise the page's confidence (Haugen's own
+evidence base is thin and «tentative», and the health outcome is untouched).
+
+**G-gap — bodyweight / calisthenics is unevidenced head-to-head.** Haugen restricted the comparison to
+free-weights (barbell/dumbbell) vs *fixed-path* machines, and explicitly excluded cable, freemotion,
+pneumatic, and variable-resistance equipment. No gold SR/MA directly comparing **bodyweight /
+calisthenics training against loaded RT** for strength or hypertrophy is held — a named zero from the
+research pass (verified absent at acquisition), not a settled equivalence. A gold head-to-head SR would
+close it; until one lands, hold any bodyweight-vs-loaded claim at `confidence: low`.
+[inferred from @haugen2023freeweight]
+
+</div>
 
 ## Sex is not a meaningful effect modifier — one prescription for both (route-b null)
 
@@ -210,6 +284,8 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Decision relevance
 
 - **The big rock is doing any resistance training at all.** Prescription choice is a second-order refinement
@@ -223,12 +299,20 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   same adaptation.
 - **Minimal effective dose:** roughly **2 sets, 2×/week** captures most of the available strength and size
   gain; more is a modestly steeper strength curve, not a different category.
+- **Equipment is a preference choice, not a lever.** Free-weights and machines produce equivalent
+  strength and hypertrophy on the outcome (Haugen: all direct-comparison CIs span zero); pick by
+  preference, access, and goal-specificity. Specificity binds only for a competitor tested in a named
+  lift — train that lift — not for general strength or size.
 - **Adherence and preference win the ties.** With prescriptions near-equivalent, the sustainable protocol
   beats the theoretically-optimal-but-abandoned one — Currier frames the whole result as licensing choice.
 - **Do not oversell the endpoint.** These are surrogate gains; the mortality/function payoff is inferred
   from separate observational lines, strongest for strength, weakest for pure hypertrophy.
 
 [inferred from @currier2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-10">
 
 ## Limits
 
@@ -240,8 +324,14 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 - **Healthy adults only** — athletes, comorbidities, frail excluded; older-adult function data sparse.
 - **Single source, shared lineage** — not independent of ACSM 2026 or Morton 2018 (Phillips/McMaster);
   `confidence: low` until an independent line lands.
+- **Equipment facet is thin and tentative (Haugen)** — 13 studies, hypertrophy on only 5-6, none rated
+  excellent quality, and the authors call the evidence «tentative»; unblindable primaries, same design
+  ceiling. Its team is disjoint from Currier's but its evidence base is shallow, so it broadens the
+  big-rock principle without upgrading the page's confidence.
 
 
 [inferred from @currier2023]
+
+</div>
 
 ## References

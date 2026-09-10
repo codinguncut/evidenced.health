@@ -8,7 +8,7 @@ cluster: inference-pitfalls
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-09-01
+updated: 2026-09-10
 self_critiqued: 2026-08-28
 relationships:
   related_to:
@@ -19,6 +19,7 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Free Sugars Intake
     - Poultry and White Meat Consumption
+    - What a Diet Removes vs What It Adds
 ---
 
 **Every effect estimate is implicitly *relative to a comparator* — the counterfactual the exposure

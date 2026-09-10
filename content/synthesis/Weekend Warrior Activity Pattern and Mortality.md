@@ -115,6 +115,8 @@ already walks a lot for transport, the marginal benefit of adding structured exe
 the same non-exercise/occupational-PA theme as [[The Physical Activity Paradox]]. So the pattern
 equivalence transports, but the *magnitude* of any-activity-vs-none does not.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Caveats and what is NOT resolved
 
 - **Low certainty.** GRADE very low (Kunutsor); all observational, self-report (recall / social-
@@ -133,5 +135,7 @@ equivalence transports, but the *magnitude* of any-activity-vs-none does not.
   JAMA) — **not in the corpus.** — an
   objective-measurement replication that would upgrade this from low certainty. Also unheld: a
   step-pattern version (Inoue 2023, 8000 steps on 1-2 days \~= daily), cited by O'Donovan.
+
+</div>
 
 ## References

@@ -2,14 +2,14 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S; Zhang, Yaru; Zhang, Wei; Wang, Hui-Fu; Ou, Ya-Nan; Qu, Yi; Shen, Xue-Ning; Chen, Shi-Dong; Wu, Kai-Min; Zhao, Qian-Hua; Zhang, Hai-Ning; Sun, Li; Dong, Qiang; Tan, Lan; Feng, Lei; Zhang, Can; Evangelou, Evangelos; Smith, A. David; Yu, Jin-Tai]
-sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Zhang - Modifiable Risk Factors Dementia Cognitive Impairment Umbrella 2022]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S; Zhang, Yaru; Zhang, Wei; Wang, Hui-Fu; Ou, Ya-Nan; Qu, Yi; Shen, Xue-Ning; Chen, Shi-Dong; Wu, Kai-Min; Zhao, Qian-Hua; Zhang, Hai-Ning; Sun, Li; Dong, Qiang; Tan, Lan; Feng, Lei; Zhang, Can; Evangelou, Evangelos; Smith, A. David; Yu, Jin-Tai; Singh-Manoux, Archana; Pentti, Jaana]
+sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Zhang - Modifiable Risk Factors Dementia Cognitive Impairment Umbrella 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Xu - Sleep Problems Cognitive Decline Dementia 2020]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-08
-self_critiqued: 2026-09-08
+updated: 2026-09-10
+self_critiqued: 2026-09-10
 relationships:
   related_to:
     - Multidomain Lifestyle Intervention and Cognitive Decline
@@ -18,6 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Hearing Loss and Dementia
     - Cognitive Stimulation at Work and Dementia
+    - Does Physical Activity Protect Against Dementia Beyond Ten Years
     - LDL ApoB and Cumulative Exposure
     - Smoking and Mortality
     - Blood Pressure Lowering and Cardiovascular Events
@@ -289,6 +290,8 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## The physical-activity number, de-secondhanded (F-refinement, 2026-09-04)
 
 The *physical inactivity* cell above carries the Commission's *borrowed* activity figure — RR 0.80
@@ -368,11 +371,27 @@ cell cannot carry.
   non-substitutable, pleiotropic activity lever (no drug replicates it) — strengthening its Layer-1 rank
   rather than competing -> [[Layer 1 - Ranking Interventions for a Stratum]], [[Physical Activity Dose and Mortality]].
   The lever is *be active* broadly, not a modality (as the section below states).
-- **G-gap — the unheld counter-source.** Iso-Markku's contribution is a direct rebuttal of an
-  individual-participant meta-analysis (Kivimäki 2019, BMJ, n approx 404,840) that reportedly found the
-  PA-dementia association absent beyond 10-year follow-up. That IPD is **not held** (and is a *different*
-  Kivimäki paper from [[Cognitive Stimulation at Work and Dementia]]); acquiring it would join the issue
-  ->.
+- **The counter-source is now held, and the issue is JOINED (type-D)
+  [@kivimaki2019inactivity].** Iso-Markku's headline
+  directly rebuts Kivimaki's individual-participant meta-analysis (BMJ 2019, n approx 404,840, 19
+  cohorts; a *different* Kivimaki paper from [[Cognitive Stimulation at Work and Dementia]]), which found
+  inactivity->all-cause dementia present at <10 y (HR 1.40, 1.24-1.59) but **absent beyond 10 years**
+  (HR 1.01, 0.89-1.14) once reverse causation is minimised — while its cardiometabolic positive controls
+  (diabetes 1.42, CHD 1.24, stroke 1.16) stayed robust in both periods, so «the lack of association
+  between physical inactivity and dementia in the later follow-up is not an artefact of the methodology».
+  ~~~~ (held 2026-09-10)
+- **What the joined clash resolves to — filed as
+  [[Does Physical Activity Protect Against Dementia Beyond Ten Years]].** The disagreement turns on
+  ascertainment sensitivity and study-level-vs-IPD pooling, not the reverse-causation window; and on the
+  cleanest cut each offers the two nearly converge (Iso-Markku's best young-baseline >20 y subset is
+  itself NS at 0.79, 0.62-1.01; Kivimaki's >=10 y is 1.01). So the *direct, dementia-specific* effect
+  sits at **insufficient evidence**, not proven either way, while the vascular-route benefit both studies
+  share is undisputed. This **weakens the warrant** for reading the borrowed 0.80 cell as a direct
+  neuroprotective slope, WITHOUT dislodging activity as a big rock — it is recommended for cardiometabolic
+  reasons regardless (Kivimaki's own conclusion supports «this basic tenet of prevention in public
+  health»). [inferred from @kivimaki2019inactivity; @isomarkku2022]
+
+</div>
 
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 
@@ -837,6 +856,8 @@ and its one curve feature is a pooling artifact. It does not reorder the cardiom
 future independent test must avoid the Villoz/Filippini/Vinceti (Modena) author group
 -> an independent dairy-cognition SR/MA.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Sleep disorders — a non-diet candidate lever, NOT one of the 14 (2026-09-04)
 
 Sleep is the first **non-diet, non-activity** candidate lever on this page, and — like the diet levers
@@ -877,8 +898,29 @@ levers apply, plus a duration-arm hazard specific to sleep:
 So the lever is `confidence: low`, mediated-not-additive on the vascular arm, and screening-relevant
 (route-a prognostic: a sleep disorder marks higher baseline risk) rather than a demonstrated intervention;
 it does not reorder the cardiometabolic big rocks. The page grade stays `medium` on the Commission's
-consensus backing; the sleep slice is the weaker `low` leg. The prior JNNP landmark it updates (Xu 2020)
-is unheld ->.
+consensus backing; the sleep slice is the weaker `low` leg.
+
+**Second landmark MA now held — Xu 2020 — but it does NOT raise the sleep leg
+[inferred from @xu2020sleep; @zhang2025sleep].**
+The prior JNNP landmark Xu 2020 (51 cohorts, 260,915 participants for the insomnia pool) is now held and
+converges with Zhang on direction and magnitude — insomnia -> cognitive disorders RR 1.27 (1.16-1.39),
+long-sleep -> AD 1.57-2.47, apnoea 1.29 (1.12-1.48)
+[@xu2020sleep]. The convergence is **not
+independent (type-E) backing**: Zhang updates and cites Xu (ref 17), sharing the observational-cohort
+primary literature, so it is a prior-vs-updated echo (type-F) that leaves `confidence: low` unchanged.
+What Xu **adds** as an F-refinement is the covariate-sensitivity finding — the insomnia associations
+«became non- significant when specific factors (hypnotics, APOE4 status and depression at baseline) were
+included as covariates»
+[@xu2020sleep] — which bounds the bare
+insomnia RR (some signal is shared variance with depression/APOE4/hypnotics), and it confirms the
+reverse-causal long-sleep arm is left **unadjudicated by BOTH landmark MAs** (Xu, like Zhang, runs no MR
+or referent-correction and states outright the associations «were not equal to causal relationships»
+[@xu2020sleep]). The full parameter table and
+F-analysis live on [[Sleep and Cognitive Decline]]. NB: Xu Wei here is the same recurring author who
+co-authored the held Zhang 2022 dementia umbrella cited elsewhere on this page — a second work by that
+author, not independent corroboration.
+
+</div>
 
 ## The RCT leg — FINGER bounds the observational PAF (F-refinement, 2026-08-05)
 
@@ -1004,7 +1046,7 @@ cognitive training is the top combination and the fuller multidomain bundle does
 *more is not better*** — a within-surrogate hierarchy that does not convert to the incidence benefit the
 pooled null denies. [@mendes2025multidomain]
 
-<div class="recent-update" data-last-updated="2026-09-08">
+<div class="recent-update" data-last-updated="2026-09-10">
 
 ## Self-critique `[run 2026-08-05, before commit]`
 
@@ -1113,6 +1155,18 @@ pooled null denies. [@mendes2025multidomain]
   levers. The MR causal layer is reported as a genetic check that education + plasma glucose clear, not
   as a lifestyle warrant. `confidence: medium` unchanged — the page still rests on the Commission's
   consensus backing; Zhang tempers the lifestyle levers toward *suggestive* rather than adding weight.
+- **PA-dementia counter-source held, tension filed (type-D, 2026-09-10, Kivimaki 2019).** The
+  `[AWAITS]` G-gap on the physical-activity de-secondhanding is cashed: Kivimaki's IPD (n approx 404,840)
+  is now held first-hand and joins the issue Iso-Markku rebutted, filed as
+  [[Does Physical Activity Protect Against Dementia Beyond Ten Years]]. Not overclaimed toward the null:
+  the IPD's design advantages (within-cohort 10 y split, I2=0%, cardiometabolic positive controls
+  validating the method, both-ascertainment and >60-subgroup nulls) are stated as tilting the weighing,
+  while the honest near-convergence (Iso-Markku's own cleanest young-baseline >20 y cut is NS at 0.79,
+  0.62-1.01) is surfaced, so the verdict is *insufficient evidence for a direct dementia-specific effect*,
+  not *proven no effect*. Not laundered-E: the two sources DISAGREE (a D, not an E), and Kivimaki's
+  positive controls corroborate only the cardiometabolic causation. Layer-1 unchanged: activity stays a
+  non-substitutable big rock via the vascular route both sources share; only the *direct-neuroprotection*
+  warrant weakens. `confidence: medium` held — the page still rests on the Commission's consensus backing.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
 

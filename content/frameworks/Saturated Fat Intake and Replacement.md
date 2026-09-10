@@ -867,8 +867,6 @@ E%.» [@nnr2023]
   zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
   choice to fold trans fat into the SFA message), not a substantive disagreement.
 
-<div class="recent-update" data-last-updated="2026-09-07">
-
 ## Butter vs plant oils at the FOOD level — Zhang 2025 partly cashes the food-matrix gap, on mortality `[2026-09-02]`
 
 The food-matrix question this page filed as a WHO **research gap** (*compare the health effects of SFA
@@ -957,8 +955,6 @@ plant oil (olive / canola / soybean)**, with a concrete translation — «replac
 is **null**, and the whole finding is observational — the signal sits on **total and cancer** mortality,
 one evidence tier below the SFA->PUFA events RCTs above.
 [inferred from @zhang2025butter]
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-09-08">
 

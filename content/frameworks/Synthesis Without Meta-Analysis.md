@@ -8,13 +8,15 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-31
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-09-10
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Certainty of Evidence
     - Publication Bias and Selective Reporting
     - P-Hacking and Researcher Degrees of Freedom
+    - Acting on a Direction Without a Magnitude
+    - Model Error vs Sampling Error
 ---
 
 When a body of studies is too diverse to pool — or reports effects in incompatible forms — reviewers

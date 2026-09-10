@@ -6,8 +6,8 @@ authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund Internatio
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-30
-self_critiqued: 2026-08-30
+updated: 2026-09-10
+self_critiqued: 2026-09-10
 relationships:
   related_to:
     - Body Fatness and Cancer Risk
@@ -22,6 +22,7 @@ relationships:
     - Lifetime Benefit - The Frame for Younger Adults
     - Cataract and Modifiable Exposures
     - Age-Related Macular Degeneration and Modifiable Exposures
+    - Exercise Safety in Osteoporosis
   derived_from:
     - Dementia Prevention and Modifiable Risk Factors
     - Parkinsons Disease Modifiable Risk Factors
@@ -180,6 +181,8 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
 
  The table above is built from disease-*incidence* bodies. The wiki now also holds
@@ -209,5 +212,14 @@ improve frailty status (on a thin evidence base — see [[Frailty]]) — one reg
 outcomes across both the disease-incidence and the function/QoL axes. The break-points differ by outcome
 (weight loss presupposes overweight and is contraindicated in the frail; the falls benefit weakens once
 frailty is established), so the caveats stay outcome-specific -> [[Layer 1 - Ranking Interventions for a Stratum]].
+
+The cross-cutting exercise lever also carries condition-specific *safety/modality* caveats, not just
+outcome-specific efficacy break-points: osteoporosis is the clean instance — the lever is retained
+(structured exercise is broadly safe and inactivity is the larger rock), but repetitive loaded spinal
+flexion is substituted with extension to spare the vertebral-fracture tail
+-> [[Exercise Safety in Osteoporosis]]. So the shared lever transfers, and its *safe application* is
+what gets tuned per condition.
+
+</div>
 
 ## References

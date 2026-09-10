@@ -14,8 +14,9 @@ relationships:
     - Publication Bias and Selective Reporting
     - Surrogate Outcomes
     - Dairy and Bone Health
+    - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-10
 ---
 
 **The route-(c) contraindication question for exercise in the osteoporotic/osteopenic stratum.**
@@ -132,6 +133,8 @@ evidence base** (same trials, re-examined for harms), **not** independent type-E
 their convergence adds harm-specific granularity, not a second independent route to the safety claim.
 Marked so the confidence is not inflated by counting one review lineage twice.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Decision relevance
 
 - **Reassure, then prescribe.** For an osteoporotic/osteopenic person afraid to move, the evidence
@@ -145,5 +148,13 @@ Marked so the confidence is not inflated by counting one review lineage twice.
   honest statement to a patient is *no evidence it is dangerous*, not *proven safe*, and the gap is a
   named [[Which Questions Get Studied]]-class hole ( for a purpose-designed
   adverse-event trial).
+- **The lever is retained; only the modality is constrained.** Physical activity is a
+  cross-cutting big-rock lever shared across the age-related musculoskeletal conditions
+  ([[Shared Modifiable Levers Across Age-Related Diseases]]); osteoporosis does not remove it, it adds a
+  condition-specific *modality* caveat (substitute extension for repetitive loaded spinal flexion). This
+  is the shared-lever logic with an outcome-specific qualifier, not an exception to it — the same family
+  as the falls benefit weakening once frailty is established.
+
+</div>
 
 ## References

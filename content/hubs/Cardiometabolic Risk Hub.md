@@ -39,7 +39,7 @@ social connection, sense of purpose, allostatic load, depression — plus **sun/
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
 
-<div class="recent-update" data-last-updated="2026-09-07">
+<div class="recent-update" data-last-updated="2026-09-10">
 
 ## Lipids, drugs, and dietary patterns for CV events
 
@@ -47,6 +47,9 @@ BP levers.
   events + RR 0.90 mortality per mmol, no threshold), and which lipid number to target (Marston: apoB)?
 - [[LDL ApoB and Cumulative Exposure]] — the causal model beneath the lipid axis (why LDL/apoB causes
   disease, why the dose is cumulative, why measure apoB)
+- [[Lipoprotein(a) and Cardiovascular Risk]] — a largely genetic, lifestyle-unmodifiable apoB-containing
+  particle: not a lever but a baseline-risk multiplier (route-a) that raises the absolute payoff of the
+  lipid-lowering lever when high; ERFC 2009 observational IPD, MR/causal leg still owed
 - [[Statins for Primary Prevention and the Power of Zero CAC]] — for a primary-prevention adult, does a
   statin help, and does a zero coronary-calcium score change that decision?
 - [[Statin Muscle Symptoms and the Nocebo Effect]] — when someone on a statin reports muscle pain, is the
@@ -66,6 +69,11 @@ BP levers.
   patient-important outcome (QoL/symptoms SMD \~0, GRADE high) — a lever not worth starting, bounded away
   from TSH >10, age >80, and high symptom burden
 
+- [[Portfolio Dietary Pattern and LDL Cholesterol]] — the 4-food cholesterol-lowering pattern (nuts +
+  plant protein + viscous fibre + plant sterols) lowers LDL-C −17% / apoB −15% vs NCEP Step II (GRADE
+  HIGH), \~−21% at full adherence; SURROGATE-only, no event trial (PortfolioEx plaque-MRI pending),
+  event benefit borrowed from LDL causality; whole trial base is the diet's inventors (not
+  type-E-independent); LDL rock partly pre-captured by a low-intensity statin
 - [[Mediterranean Diet and Cardiovascular Events]] — whether a whole dietary pattern (not a single
   nutrient) reduces hard CV events, in whom and on which outcomes
 - [[Does Weight Loss Reduce Cardiovascular Events]] — whether intentional lifestyle weight loss

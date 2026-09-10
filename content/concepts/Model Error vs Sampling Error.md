@@ -4,9 +4,10 @@ aliases: [Sampling Error vs Model Error, Precision Is Not Validity, Model Uncert
 authors: [Danesh, John; Snyder, Peter J; Schünemann, Holger; Guyatt, Gordon; Jha, Prabhat]
 sources: [CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Snyder - Testosterone Treatment Fractures 2024, GRADE - Handbook, Jha - Smoking Hazards Cessation Benefits 2013]
 question: When an effect estimate is precise, does that precision tell us it is valid for the decision -- and do meta-analyses reduce or amplify the risk that the estimate rests on the wrong model?
+cluster: evidence-appraisal
 confidence: high
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-09-10
 self_critiqued: 2026-08-22
 relationships:
   related_to:

@@ -3,12 +3,12 @@ type: deliverable
 title: Physical Activity
 question: 'What is the effect of physical activity and structured exercise (by modality, dose, intensity) on each patient-important outcome, what is the dose-response shape for each, and how do the levers rank against each other for a given stratum?'
 aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs Walking, Exercise and Mortality]
-sources: [Careau - Energy Compensation Adiposity 2021, Celis-Morales - Grip Strength Mortality 2018, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Currier - Resistance Training Prescription NMA 2023, de Santana - Low Muscle Mass Mortality 2021, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Iso-Markku - Physical Activity Dementia 2022, Kodama - Cardiorespiratory Fitness and Mortality 2009, Livingston - Dementia Prevention 2024, Lopez-Bueno - Handgrip Strength Thresholds, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Ngandu - FINGER Multidomain Cognitive Decline 2015, Paluch - Daily Steps Mortality 2022, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Sherrington - Exercise Preventing Falls 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, WCRF - Diet Nutrition Activity Cancer 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e]
+sources: [Careau - Energy Compensation Adiposity 2021, Celis-Morales - Grip Strength Mortality 2018, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Currier - Resistance Training Prescription NMA 2023, de Santana - Low Muscle Mass Mortality 2021, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Iso-Markku - Physical Activity Dementia 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Kodama - Cardiorespiratory Fitness and Mortality 2009, Livingston - Dementia Prevention 2024, Lopez-Bueno - Handgrip Strength Thresholds, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Momma - Muscle-Strengthening Activities and Mortality 2022, Ngandu - FINGER Multidomain Cognitive Decline 2015, Paluch - Daily Steps Mortality 2022, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Riou - Energy Compensation Exercise 2015, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Sherrington - Exercise Preventing Falls 2019, Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, WCRF - Diet Nutrition Activity Cancer 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Willett - Nutritional Epidemiology 3e]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-10
+self_critiqued: 2026-09-10
+concrete_subject_audited: 2026-09-10
 ---
 
 Going from near-zero to modestly active is one of the largest, most certain health levers there is -- the
@@ -429,7 +429,7 @@ function, cancer risk, and the brain — which is where the next sections go.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-09">
+<div class="recent-update" data-last-updated="2026-09-10">
 
 ## Movement is safe, and it reaches pain, joints, cancer, and the brain
 
@@ -453,11 +453,15 @@ Physical activity is graded by WCRF/AICR (2018, the gold-standard continuously-u
 
 ### Cognition and dementia — one of several levers, modest and uncertain
 
-Physical inactivity is one of the 2024 Lancet Commission's **14 modifiable dementia risk factors** [@livingston2024]. Treated as an *isolated* lever, physical activity carries a strong protective association: Iso-Markku's 58-study meta-analysis reports **all-cause dementia RR 0.80 (95% CI 0.77-0.84, n=257,983), Alzheimer's 0.86 (0.80-0.93), and vascular dementia 0.79 (0.66-0.95)** [@isomarkku2022]. What lifts this above the usual observational-dementia caveat is that the association **holds even in follow-ups of 20 years or more** for all-cause dementia and Alzheimer's — the check that meets the field's central worry, that short-follow-up studies inflate the effect because incipient dementia lowers activity years before diagnosis (reverse causation) [@isomarkku2022]. It is an association, not a trial effect. (The individual-participant analysis reporting the association *absent* beyond 10-year follow-up, which these >=20-year data rebut, is not yet held.)
+Physical inactivity is one of the 2024 Lancet Commission's **14 modifiable dementia risk factors** [@livingston2024]. Treated as an *isolated* lever, physical activity carries a strong protective association: Iso-Markku's 58-study meta-analysis reports **all-cause dementia RR 0.80 (95% CI 0.77-0.84, n=257,983), Alzheimer's 0.86 (0.80-0.93), and vascular dementia 0.79 (0.66-0.95)** [@isomarkku2022]. The two gold sources built hardest to strip out reverse causation disagree — so whether the association survives that worry (incipient dementia quietly lowering activity years before diagnosis, inflating short-follow-up studies) is now genuinely contested. Iso-Markku finds the protective signal holding even past 20 years of follow-up (all-cause dementia RR 0.79, 0.71-0.87) [@isomarkku2022].
+
+A within-cohort individual-participant meta-analysis (Kivimäki) split follow-up inside each cohort and watched the signal decay to nothing: inactivity raised all-cause dementia risk 1.40-fold (1.24-1.59) within ten years but 1.01-fold (0.89-1.14) beyond them, with no heterogeneity (I2 0%). Its positive controls held — inactivity stayed tied to diabetes, heart disease and stroke in both windows — so the later-period null is not a power failure [@kivimaki2019inactivity].
+
+On each source's cleanest cut, both estimates lose significance: Iso-Markku's own best-quality, young-baseline, >20-year subset falls to 0.79 (0.62-1.01), no longer significant — a wide interval Iso-Markku attributes to only three qualifying studies, not to a vanishing effect [@isomarkku2022]. So the low-bias long-follow-up evidence is compatible with a null-to-modest direct effect — not the clean rebuttal of reverse causation a reader skimming the 0.80 headline might assume. It is an association, not a trial effect -> [[Does Physical Activity Protect Against Dementia Beyond Ten Years]].
 
 That is the observational arm. The randomized tests that could turn it into a trial effect bundle exercise with other levers, and they are **mixed**: FINGER moved a cognitive-composite surrogate by a small margin (Cohen's d 0.13); MAPT was null on the same kind of surrogate at population level; and preDIVA found no effect on the hard endpoint, clinical dementia incidence (HR 0.92, 95% CI 0.71-1.19) [@ngandu2015]. Pooling the two hard-endpoint trials at participant level (Coley 2025) found no dementia-incidence benefit overall and **no responder subgroup** — including no benefit in the higher-risk strata where the surrogate signal had concentrated [@coley2025]. None of these isolates exercise from the bundle.
 
-The honest state is a split verdict: the **single-lever observational** signal is strong and reverse-causation-checked, while the **interventional** evidence — which never isolates exercise — stays weak. So exercise is a plausible, modest cognitive lever worth pulling because it is a cardiometabolic big rock already, not because a randomized dementia payoff is demonstrated -> [[Dementia Prevention and Modifiable Risk Factors]], [[Multidomain Lifestyle Intervention and Cognitive Decline]].
+**Two things hold at once.** The **single-lever observational** signal is strong in aggregate, but its reverse-causation defence is contested — the cleanest long-follow-up cuts lose statistical significance — while the **interventional** evidence, which never isolates exercise, stays weak. So exercise is a plausible, modest cognitive lever worth pulling because it is a cardiometabolic big rock already, not because a randomized dementia payoff is demonstrated -> [[Dementia Prevention and Modifiable Risk Factors]], [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
 With movement's reach across these outcomes mapped, the last question is not *whether* it helps but *how the levers rank for a given person* — and where, once the big rocks are pulled, the ceiling on further gains sits.
 
@@ -484,6 +488,8 @@ Those outcomes do not rank themselves, and where the ceiling sits depends entire
 
 
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Where this nets out
 
 Start from where you are — that, not the perfect program, is what sets the order. **The one move that matters most is the one you have not made.** If you are inactive, start: any regular movement, at any intensity, is the largest and most certain lever on this page, and nothing about an ideal routine competes with it. If you are already active, the further gains are smaller and split roughly three ways — add strength training for the independent payoff, keep the aerobic base, and after about 70 add the balance and functional work that keeps you on your feet. Do not recruit exercise to move the scale: its benefit runs through fitness, cardiometabolic and visceral-fat pathways, largely off body weight.
@@ -497,9 +503,11 @@ Start from where you are — that, not the perfect program, is what sets the ord
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of physical activity and structured exercise (by modality, dose, intensity) on each patient-important outcome, what is the dose-response shape for each, and how do the levers rank against each other for a given stratum?' |
-> | **Evidence included** | 30 sources — 18 gold, 9 high, 2 moderate |
+> | **Evidence included** | 33 sources — 21 gold, 9 high, 2 moderate |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+> | **Last updated** | 2026-09-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+
+</div>
 
 ## References

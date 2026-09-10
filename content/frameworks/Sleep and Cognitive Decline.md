@@ -2,14 +2,14 @@
 type: framework
 question: Do sleep disorders raise the risk of cognitive decline and dementia, which disorders and which outcomes, how much, and is the association (especially the long-sleep arm) causal or a marker of preclinical disease?
 aliases: [Sleep Disorders and Dementia, Sleep and Dementia, Insomnia and Dementia, Sleep Apnea and Cognition, Sleep Duration and Dementia, Excessive Daytime Sleepiness and Dementia, Sleep and Cognitive Impairment]
-authors: [Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo]
-sources: [Zhang - Sleep Disorders Cognitive Decline Dementia 2025]
+authors: [Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Xu, Wei; Tan, Chen-Chen; Zou, Juan-Juan; Cao, Xi-Peng; Tan, Lan]
+sources: [Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Sleep Problems Cognitive Decline Dementia 2020]
 cluster: sleep
 nucleus: false
 confidence: low
 created: 2026-09-04
-updated: 2026-09-04
-self_critiqued: 2026-09-04
+updated: 2026-09-10
+self_critiqued: 2026-09-10
 relationships:
   related_to:
     - Sleep Duration and Mortality
@@ -138,13 +138,73 @@ region/age/sample-size/follow-up/detection-method/APOE4 left it — «these fact
 for the observed heterogeneity, suggesting the influence of other unmeasured or unreported variables»
 [@zhang2025sleep].
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
+## The prior landmark (Xu 2020) — an UPDATED-BY refinement, NOT independent backing
+
+The held Zhang 2025 MA cites and updates the prior JNNP landmark Xu 2020 (51 cohorts, 15 sleep
+problems; ref 17 in Zhang) [@xu2020sleep].
+Because Zhang re-pools an overlapping cohort literature and cites Xu as its predecessor, the two are
+**type-F (prior-vs-updated, shared measurement lineage), NOT type-E independent backing** — their
+agreement is the same evidence stream re-analysed, so it does **not** raise confidence. The page grade
+stays `confidence: low`: the dominant uncertainty (no genetic/referent-correction adjudication of the
+reverse-causal long arm) is unclosed by *both* landmarks. The parameter table below establishes each
+comparison as a matched quantity before any claim.
+
+| Parameter | Xu 2020 (51 cohorts) | Zhang 2025 (76 cohorts) | Same quantity? |
+|---|---|---|---|
+| Design | observational-cohort SR+MA, self-report dominant, NOS credibility (G/A/S/P) | observational-cohort SR+MA, NOS>7, self-report dominant | YES — but Zhang is the LATER update citing Xu; shared primaries -> not independent |
+| Insomnia -> composite cognitive disorders | RR 1.27 (1.16-1.39), I2 82%, 23 cohorts | composite 1.09 (1.03-1.16); dementia 1.13 (1.04-1.23) | Roughly (both = insomnia -> composite, positive); Xu's point estimate higher |
+| Long sleep -> AD | AD nocturnal-highest 1.57 (1.33-1.85, I2 0%); AD daily-highest 2.47 (1.55-3.93) | long >8 h -> AD 1.66 (1.44-1.91, I2 0%) | YES — convergent direction + magnitude |
+| Short arm -> dementia/AD | combined *dementia-or-decline* nocturnal-lowest 1.18 (1.01-1.37) SIG; AD nocturnal-lowest 1.02 (0.76-1.36) NS | short <7 h reaches cognitive *decline* only, NOT dementia/AD | NO — Xu's combined endpoint vs Zhang's separated; not-joined (endpoint aggregation) |
+| Duration nadir (optimal) | «6.3 hours at night and 7.3 hours for total daily» | 7-8 h (short<7 / ideal 7-8 / long>8) | Same quantity, but Xu's lower nocturnal nadir is attributed to separating nocturnal from total-daily — not-joined (exposure unit) |
+| RBD -> cognitive disorders | RR 1.90 (1.23-2.91, I2 0%), rated moderate | RBD null | YES, same quantity — GENUINE DIVERGENCE (see below) |
+| Reverse causation on long arm | acknowledged, no MR | acknowledged, no MR | YES — both name it, neither adjudicates |
+
+**Three F-refinements the composite adds over Zhang alone.**
+
+- **Insomnia is partly confounded/mediated by depression, APOE4 and hypnotic use.** Xu's insomnia
+  associations «became non- significant when specific factors (hypnotics, APOE4 status and depression
+  at baseline) were included as covariates, suggesting the potential existence of stratified or
+  mediating effects» [@xu2020sleep] (this is
+  the insomnia-arm analysis). That bounds Zhang's bare insomnia RR — some of the insomnia signal is not
+  an independent sleep effect but shared variance with depression / APOE4 / hypnotic use.
+- **The duration nadir is exposure-definition-dependent.** Separating nocturnal from total-daily sleep
+  moves the nadir: «6.3 hours at night and 7.3 hours for total daily»
+  [@xu2020sleep]. So Zhang's *7-8 h optimal*
+  is instrument-dependent, and a bare duration target inherits which duration was measured
+  -> [[The Underivable Optimum]].
+- **The reverse-causation gap is ROBUST across both landmarks.** Xu independently reaches the same
+  U-shape and names the same reverse-causal mechanism — «those who already have some[ ]degeneration, or
+  other comorbidities and medication use tend to sleep longer»
+  [@xu2020sleep] — yet runs the same weak
+  checks (baseline-only exposure, fixed follow-up; no MR, no referent-correction) and states outright
+  that the observational associations «were not equal to causal relationships»
+  [@xu2020sleep]. So the long-arm
+  under-adjudication is not one team's omission — the two landmark MAs of this literature *both* leave it
+  open -> [[The U-Shaped Association Artifact]].
+
+**One genuine divergence — RBD.** Xu finds RBD significant and moderate-rated (RR 1.90, 1.23-2.91,
+I2 0%) [@xu2020sleep], whereas Zhang finds
+RBD null. This is **not filed as a tension**: the two are not independent (Zhang updates Xu's own
+evidence base), so the correct reading is an **F-attenuation** — the larger, more recent pool washes
+out Xu's small-study RBD signal, exactly the direction updates run. [inferred from @zhang2025sleep; @xu2020sleep]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Gaps
 
 - **No causal adjudication of the long-sleep -> dementia arm** — MR / lag-stratified / referent-corrected
-  analysis needed. -> [[The U-Shaped Association Artifact]]. `type-G`
+  analysis needed; the gap is now confirmed ROBUST across both landmark MAs (Xu 2020 + Zhang 2025), which
+  raises its priority. -> [[The U-Shaped Association Artifact]]. `type-G`
 - **No interventional -> incidence evidence** — CBT-I / CPAP -> dementia.
-- **The prior JNNP landmark (Xu 2020) is unheld** — a joined comparison awaits it
-  ->. `type-G`
+- ~~The prior JNNP landmark (Xu 2020) is unheld~~ **CASHED 2026-09-10** — Xu 2020 held and woven as an
+  F-refinement (above); the comparison is updated-by (not independent-E), so it enriches the map without
+  lifting confidence.
+
+</div>
 
 ## Self-critique `[run 2026-09-04, before commit]`
 

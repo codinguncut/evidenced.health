@@ -144,6 +144,8 @@ here cannot show a knee (-> [[Measurement Error in Dietary Assessment]], [[Surro
 `confidence: low` reflects the gold design of the pooled risk estimate held against unresolved
 causality, surrogate exposure, and low individual decision-relevance.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Open threads / gaps
 
 - **G (needs aggregation):** a pooled SFA-style effect on bladder-cancer *incidence* that folds in the
@@ -152,5 +154,7 @@ causality, surrogate exposure, and low individual decision-relevance.
   [@evlampidou2020thm].
 - The **route question** (ingestion vs dermal/inhalation) is decision-relevant and only one study
   (Spanish) could address it — a gap, since it determines whether *any* individual lever exists.
+
+</div>
 
 ## References

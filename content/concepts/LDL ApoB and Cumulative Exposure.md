@@ -15,13 +15,14 @@ relationships:
     - Does Reducing Saturated Fat Reduce Cardiovascular Events
     - Statins for Primary Prevention and the Power of Zero CAC
     - Baseline Risk and the Relative-Absolute Split
+    - Lipoprotein(a) and Cardiovascular Risk
     - Dementia Prevention and Modifiable Risk Factors
     - Soy Products and Health
     - Eggs Dietary Cholesterol and Cardiovascular Risk
     - Insulin Resistance Surrogates and Cardiovascular Risk
     - ApoB Particle Number vs Cholesterol Content
 created: 2026-07-29
-updated: 2026-08-19
+updated: 2026-09-10
 self_critiqued: 2026-08-19
 ---
 
@@ -58,6 +59,8 @@ lifelong exposure) and the LDL-lowering RCTs (intervene on LDL, the outcome move
 compelling* causal evidence): the natural experiment and the intervention agreeing, the top of the
 mechanism-strength gradient, not a mechanistic story.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## The dose is CUMULATIVE — magnitude x duration, not current level
 
 The dose-response is **log-linear** across >2 million participants and >150,000 events, and it compounds
@@ -79,6 +82,14 @@ Two decision consequences follow:
   drop reflects a real particle-number drop and carries no off-target harm. This is what licenses reading
   a diet's LDL effect ([[Saturated Fat Intake and Replacement]]) and a drug's LDL effect
   ([[Statins for Primary Prevention and the Power of Zero CAC]]) on the *same* causal scale.
+  The [[Portfolio Dietary Pattern and LDL Cholesterol]] is a worked diet-route instance (LDL-C −17%,
+  apoB −15%) whose event benefit is read off *this* scale — a borrowing, since no Portfolio trial has
+  measured events. (Same-school source, not independent corroboration of the causal scale; confidence
+  here unchanged.)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-10">
 
 ## Measure apoB, not just LDL-C, in the metabolically-impaired — they DISCORD
 
@@ -112,6 +123,10 @@ LDL-C; the causal quantity is apoB, and in this stratum they diverge — apoB is
   metabolic-syndrome state, so LDL-P *misses* the extra atherogenic particles apoB captures right where
   discordance arises. apoB is also the more standardised, widely-available assay. **So LDL-P is a good
   LDL-only proxy for apoB; apoB is the target.** `[EXTRACTED for the correlation + single-apoB-per-particle + the particle list; INFERRED for the remnant-coverage ranking, which follows from apoB's particle set vs LDL-P's]`
+- **Lp(a) is one of those apoB-containing particles, but it behaves as a separate, largely genetic
+  risk axis** — stable over life and not lifestyle-modifiable — so its decision role (a baseline-risk
+  multiplier that up-weights this same lowering lever) is treated on its own page:
+  [[Lipoprotein(a) and Cardiovascular Risk]].
 
 ### A cheap flag for the discordant stratum — the TyG index `[2026-08-09, Liu]`
 
@@ -132,6 +147,8 @@ insulin-resistance and apoB axes that the wiki had held apart; the IR state itse
 ectopic-fat overflow -> [[Ectopic Fat and Depot-Specific Risk]], where "metabolic status matters" is
 causal for the *glycemic* axis but the CVD *lipid* target within it is still apoB.)
 [inferred from @liu2022tyg; @ference2017]
+
+</div>
 
 ## Second outcome — high LDL-C is a new (2024) dementia risk factor
 

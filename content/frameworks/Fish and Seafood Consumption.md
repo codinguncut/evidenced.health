@@ -419,6 +419,8 @@ robustness), not type-E corroboration and not a joined tension; confidence stays
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Limits
 
 - **EFSA could not quantify the benefit with certainty; Jayedi 2020 now can — but only to moderate.**
@@ -449,6 +451,8 @@ robustness), not type-E corroboration and not a joined tension; confidence stays
   mercury-toxicity CONTAM 2012 opinion, and ASCEND (not held).
 
 [inferred from @efsaseafood2014]
+
+</div>
 
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 

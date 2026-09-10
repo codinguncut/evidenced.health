@@ -24,8 +24,9 @@ relationships:
     - Food Groups and Health Outcomes - A Dose-Response Matrix
     - Flavonoid Intake and Mortality
     - Tea Consumption and Cardiovascular Risk
+    - What a Diet Removes vs What It Adds
 created: 2026-07-27
-updated: 2026-08-31
+updated: 2026-09-10
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and

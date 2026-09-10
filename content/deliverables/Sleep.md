@@ -3,13 +3,13 @@ type: deliverable
 title: Sleep
 question: 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?'
 aliases: [Sleep Duration, Sleep and Health, Sleep Regularity, Sleep Aids, Insomnia Treatment, How Much Sleep, Sleeping Pills, CBT-I Deliverable, Melatonin Deliverable]
-authors: [Cappuccio, Francesco P; Wang, Shanshan; Livingston, Gill; Yin, Jiawei; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; Zhang, Jinhuan; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Yu, Jie; Malhotra, Atul]
-sources: [Cappuccio - Sleep Duration and Mortality 2010, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
+authors: [Cappuccio, Francesco P; Wang, Shanshan; Livingston, Gill; Yin, Jiawei; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; Zhang, Jinhuan; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Yu, Jie; Malhotra, Atul; Xu, Wei]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Sleep Problems Cognitive Decline Dementia 2020, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-10
+self_critiqued: 2026-09-10
+concrete_subject_audited: 2026-09-10
 ---
 
 ## The verdict
@@ -173,6 +173,8 @@ regularity fall asleep and wake within roughly 1-hour windows most days, the bot
 interventions» than extending sleep, which is biologically and socially hard to do
 [@windred2023].
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## For the aging brain, target the disorder — not a duration number
 
 Duration and regularity are the quantity and timing of sleep. The newest evidence points somewhere
@@ -225,6 +227,25 @@ reverse. Objectively measured insomnia carried RR 1.26 (1.15-1.40) with low hete
 the insomnia signal instead of erasing it — evidence against a pure measurement artifact on that arm
 [[Measurement Error in Dietary Assessment]].
 
+This 76-cohort map is the newer of two. The prior landmark, Xu 2020 (51 cohorts), reached the same
+U-shape and the same disorder signals
+[@xu2020sleep]. Zhang re-pools an
+overlapping literature and cites Xu as its predecessor
+[@zhang2025sleep] — so the two are one
+evidence stream re-analysed, not independent confirmation, and their agreement does not raise the
+grade.
+
+Xu's earlier analysis adds two things Zhang leaves bare. Its insomnia signal partly dissolves
+once depression, APOE ε4 status and hypnotic use are adjusted for — so some of what looks like an
+insomnia effect is shared variance with those, not sleep acting on its own
+[@xu2020sleep]. And both offer the same
+alternative reading of the long-sleep arm — that early neurodegeneration lengthens sleep rather than
+sleep harming the brain — which neither adjudicates with a genetic or referent-corrected test
+[@xu2020sleep]. So the caution that long
+sleep is a preclinical marker rather than a cause is robust across both landmark analyses, not one
+team's caveat [[The U-Shaped Association Artifact]]
+[@xu2020sleep] [[The U-Shaped Association Artifact]].
+
 Hold the grade honestly. Every estimate here is observational and heterogeneity is high; the authors
 tested for publication bias and found it for some outcomes — sleep-disordered breathing on Alzheimer's
 carried Egger's p=0.001 — while a trim-and-fill left the pooled estimates unchanged
@@ -234,6 +255,8 @@ higher baseline risk [[Dementia Prevention and Modifiable Risk Factors]], [[Base
 — but no trial in it tests whether *treating* the disorder actually lowers dementia incidence
 . Whether fixing broken sleep protects the brain is exactly the untested question — which
 raises the treatment question head-on: once sleep is broken, what actually works?
+
+</div>
 
 ## For insomnia, start with therapy, not pills
 
@@ -313,6 +336,8 @@ death -- that expectation is not supported for either the mask or the drug. Trea
 symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
 through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
 
+<div class="recent-update" data-last-updated="2026-09-10">
+
 ## Rank sleep honestly, and act on the arms that hold
 
 Where does sleep rank among the levers? Below the biggest rocks. A person who smokes, carries excess
@@ -335,8 +360,10 @@ outcomes at the *same* total hours is not held. A systematic review of light and
 scheduling, and a meta-analysis of exercise's effect on sleep, are not held. Nor is a
 Mendelian-randomization test of chronotype genetics or social jetlag. And whether treating a sleep
 problem lowers dementia incidence -- CBT-I or CPAP measured against cognitive outcomes -- is the open
-interventional question the association map most needs. The nearest landmark, an
-updated review of sleep problems and cognitive decline, is not yet held.
+interventional question the association map most needs. The prior observational
+landmark, Xu 2020, is now held and folded into the cognition map above — but it is an earlier
+analysis of the same association literature, not the interventional test, so the treatment question
+stays open.
 
 So the honest close is not a single number to hit. If you sleep too little, move toward seven or
 eight hours -- that arm is causal, and the gain is real. If your nights land at wildly different
@@ -349,9 +376,11 @@ urgent, and your attention is better spent on the bigger rocks.
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?' |
-> | **Evidence included** | 13 sources — 8 gold, 4 high, 1 moderate |
+> | **Evidence included** | 14 sources — 9 gold, 4 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+> | **Last updated** | 2026-09-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+
+</div>
 
 ## References

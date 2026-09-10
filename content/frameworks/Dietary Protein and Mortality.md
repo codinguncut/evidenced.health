@@ -207,8 +207,6 @@ processed meat in the US study vs fish intake in the present study.»
 [@budhathoki2019]
 [inferred from @budhathoki2019]
 
-<div class="recent-update" data-last-updated="2026-09-07">
-
 ## The endpoint flips the animal-protein verdict — Ma 2024 adds CVD EVENTS (type-F, shared-primary echo, NOT independent-E)
 
 Everything above is **mortality**. Ma's dose-response MA carries a second endpoint the held pages lack —
@@ -253,8 +251,6 @@ randomization**, and does **not split animal protein by food source** — so the
 dilution that makes the animal *mortality* bucket null (Budhathoki, above) is un-probed on the events
 endpoint. Read 0.77 as a directional, source-agnostic signal on a thin base, not a dosed effect.
 [inferred from @ma2024macro]
-
-</div>
 
 ## Decision relevance
 

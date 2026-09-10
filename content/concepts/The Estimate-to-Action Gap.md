@@ -8,8 +8,8 @@ cluster: inference-pitfalls
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-06
-self_critiqued: 2026-08-05
+updated: 2026-09-10
+self_critiqued: 2026-09-10
 relationships:
   related_to:
     - Surrogate Outcomes
@@ -18,7 +18,11 @@ relationships:
     - Limits of Evidence
     - The Descriptive-Normative Category Error
     - Protein and Resistance Training for Muscle and Strength
+    - Acting on a Direction Without a Magnitude
+    - Model Error vs Sampling Error
+    - What a Trustworthy Systematic Review Requires
 ---
+<div class="recent-update" data-last-updated="2026-09-10">
 
  — this page is the wiki's own epistemology, the positive half of method-risk R21. It carries
 no source attributions; every claim is the fabric's reasoning, and the numeric example (protein 1.62 g/kg,
@@ -31,6 +35,16 @@ between the two is not a defect in the study — **the study is not wrong; it is
 and closing that gap is a determinate set of steps the study does not and cannot perform. This page names
 the steps. It is where both the *value* and the *error* of applying evidence live, because every step is
 also a lever a motivated reasoner can pull to reach a conclusion they already held.
+
+**This page presumes the parameter is sound and present — two upstream questions come first.**
+Before transforming an estimate, ask whether it is one worth transforming: a precise pooled number can be
+answering the wrong question ([[Model Error vs Sampling Error]]), and not every review labelled *systematic*
+earns the weight ([[Is This Actually a Systematic Review]], [[What a Trustworthy Systematic Review Requires]]).
+And where no pooled magnitude exists at all, the prior question is whether a defensible *direction* is even
+in hand: [[Acting on a Direction Without a Magnitude]] is the head of this pipeline — reach a direction,
+transform the estimate, pick the tail ([[Better than What]]) — and this page is its middle step.
+
+</div>
 
 ## The two symmetric meta-errors
 

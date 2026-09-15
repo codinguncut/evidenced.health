@@ -20,7 +20,6 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Surrogate Outcomes
 ---
-<div class="recent-update" data-last-updated="2026-09-08">
 
 An orbiter of the `occupation` cluster and its **third** occupational channel, distinct from the two
 already held — the *physical-demand* channel (nucleus [[The Physical Activity Paradox]]) and the
@@ -34,8 +33,6 @@ Leipzig LIFE — disjoint from IPD-Work), which also decomposes *mental demands 
 distinct constructs; but that review adds **no pooled magnitude**, and the residual-confounding /
 causality gaps are untouched, so `confidence: low` holds (better-warranted, not raised).
 [inferred from @kivimaki2021cognitive]
-
-</div>
 
 ## The effect estimate
 
@@ -204,8 +201,6 @@ the ranking directly:
   *cognitive stimulation at work* number to its primary source, adding the reverse-causation check and the
   mechanism arm the Commission line omits — it does not independently confirm the Commission.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The independent concepts-SR — construct decomposition + a direction corroboration (Hussenoeder 2019)
 
 The G-gap this page named — an **independent** occupational-factors -> dementia SR/MA not drawn from
@@ -263,10 +258,6 @@ confounders (childhood IQ, education, reverse causation) that set this page's co
 direction, not causality. So the independence upgrade removes the *single-source fragility on direction*
 without lifting the ceiling on certainty.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Confidence: LOW — and the gaps
 
 - **Now two-source on direction, still gold-*design*-thin on causality.** The independent concepts-SR
@@ -282,10 +273,6 @@ without lifting the ceiling on certainty.
   unassessed.
 - **Coherence, not validity (R1):** the association is what these cohorts report; the open loop (no
   realized-outcome check of a work-content intervention on dementia) stands.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Self-critique `[run 2026-08-14, before commit]`
 
@@ -307,10 +294,6 @@ without lifting the ceiling on certainty.
   brain-training recommendation is licensed.
 - **Coherence, not validity** (R1): the open loop stands.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Self-critique `[run 2026-09-08, Hussenoeder 2019 weave, before commit]`
 
 - **[E-independent] is not laundered.** Independence verified two ways: author-list diff (Hussenoeder /
@@ -330,7 +313,5 @@ without lifting the ceiling on certainty.
 - **Attribution corrected, not invented.** The source's registry slug says *Then* but its authors are
   Hussenoeder et al; `authors:` follows the source, the slug is kept as the handle, and the discrepancy is
   logged as a rename candidate.
-
-</div>
 
 ## References

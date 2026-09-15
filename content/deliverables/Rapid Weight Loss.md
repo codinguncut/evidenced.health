@@ -8,7 +8,6 @@ created: 2026-07-30
 updated: 2026-09-09
 concrete_subject_audited: 2026-08-27
 ---
-<div class="recent-update" data-last-updated="2026-09-09">
 
 *This page has been folded into [[Losing Fat and Keeping It Off]].*
 
@@ -24,5 +23,3 @@ remain named gaps.
 See [[Losing Fat and Keeping It Off]] for the method-and-durability treatment (which method moves which
 outcome, lean mass, and whether the loss lasts). See [[Body Fat]] for whether a person's fat is actually
 raising their risk and whether losing it reaches hard outcomes.
-
-</div>

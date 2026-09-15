@@ -99,8 +99,6 @@ read the \~2 sets / \~2x per week as a floor, not an optimum.
 
 
 [@currier2023]
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Effect modifiers — mostly absent (route-b is quiet here)
 
 Network meta-regression found **no** obvious modifying effect on relative RTx effects from age, training
@@ -113,11 +111,6 @@ on preference and constraint (Route e), not on demonstrated effect modification 
 
 
 [@haugen2023freeweight]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Equipment modality (free-weights vs machines): specific for the test, equivalent for the outcome
 
 The other much-debated RT dial — barbell/dumbbell vs pin-loaded machine — resolves the same way the
@@ -182,7 +175,6 @@ research pass (verified absent at acquisition), not a settled equivalence. A gol
 close it; until one lands, hold any bodyweight-vs-loaded claim at `confidence: low`.
 [inferred from @haugen2023freeweight]
 
-</div>
 
 ## Sex is not a meaningful effect modifier — one prescription for both (route-b null)
 
@@ -284,8 +276,6 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Decision relevance
 
 - **The big rock is doing any resistance training at all.** Prescription choice is a second-order refinement
@@ -310,10 +300,6 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 [inferred from @currier2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Limits
 
 - **Surrogates only** — 1RM and muscle size; no mortality/disease endpoint (Currier states this outright).
@@ -331,7 +317,5 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 
 [inferred from @currier2023]
-
-</div>
 
 ## References

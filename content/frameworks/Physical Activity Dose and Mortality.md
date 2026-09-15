@@ -427,8 +427,6 @@ independent backing** — the WHO annex's falls conclusion rests on largely the 
 SR pools, so treat the SR as bounding/mechanising the guideline claim, not corroborating it from a
 separate route. The fracture arm stays lower-certainty on both.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Second outcome — dementia (same shape: most benefit at the bottom)
 
 Physical inactivity is one of the 14 modifiable dementia risk factors -> [[Dementia Prevention and Modifiable Risk Factors]]. A 58-study SR+MA found «physical activity was associated with a decreased risk
@@ -453,8 +451,6 @@ aggregate MA is filed: [[Does Physical Activity Protect Against Dementia Beyond 
 *dose-shape* claim is unchanged — activity's biggest marginal payoff sits at the sedentary bottom, driven
 by the cardiometabolic and mortality outcomes BOTH studies agree on; only the dementia-specific causal
 reading narrows.
-
-</div>
 
 ## Third outcome — cancer, and the dose-shape may differ from the mortality curve
 

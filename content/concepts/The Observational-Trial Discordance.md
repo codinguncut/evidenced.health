@@ -4,7 +4,7 @@ question: When a large, consistent observational signal meets a null or weak ran
 aliases: [Observational vs Trial Discordance, Big Observational Weak RCT, Observational-RCT Conflict, Credibility vs GRADE, Convincing but Very Low]
 authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A; Reith, Christina; Cholesterol Treatment Trialists' Collaboration (org)]
 sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Reith - Statin Muscle Symptoms 2022]
-cluster: inference-pitfalls
+cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-08-06
 updated: 2026-09-07
@@ -106,8 +106,6 @@ shown-benign -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. Th
 "the RCT was null, so ignore the observational" is "the food is not proven causal, so treat it as
 safe" — both skip the missing test.
 
-<div class="recent-update" data-last-updated="2026-09-07">
-
 ## Why the streams disagree — five mechanisms, not one
 
 
@@ -187,8 +185,6 @@ safe" — both skip the missing test.
   same evidence *very low* for causation because it starts observational evidence low. *Class-I
   convincing = GRADE very low* is not a contradiction — it is two instruments measuring two things
   (how consistent vs how causally certain) -> [[Upgrading Observational Evidence]].
-
-</div>
 
 ## The resolution — triangulate on the exposure, do not crown the RCT
 

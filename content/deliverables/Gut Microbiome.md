@@ -18,8 +18,6 @@ microbiome is genuinely modifiable and genuinely matters in a handful of well-de
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## The bottom line
 
 #### The levers, and the surrogate trap
@@ -58,8 +56,6 @@ the FMT-for-*C. difficile* claim on a held landmark RCT, but the broad microbiom
 mostly observational, and the field's central confound — which way the causal arrow points — is
 usually unresolved.
 
-</div>
-
 ## §2 — The one move that decides most of it: composition-shift is a surrogate
 
 Almost every microbiome study reports a *composition* change — which bacteria are present, and how
@@ -88,8 +84,6 @@ Even this exemplar is narrow. The endpoint is a two-week glycemic response, not 
 personalized, with responders and non-responders in each arm; and causal-on-the-marker is not
 causal-on-the-disease. A microbiome study that clears the surrogate bar this cleanly is the exception,
 and it still cannot license a claim about a hard outcome.
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## §3 — What actually moves the microbiome: diet, and mostly fibre
 
@@ -140,8 +134,6 @@ source runs that experiment
 Until one does, *fermented foods work
 because of the probiotics* stays a mechanism hypothesis, not a finding — and the Wastyk remodeling
 reading above already cuts against the simple *eat live bacteria -> they take up residence* picture.
-
-</div>
 
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
@@ -271,8 +263,6 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
@@ -293,8 +283,6 @@ new decision.
   [inferred from @wastyk2021].
   Fermented *dairy* (yogurt -> type-2 diabetes) is worked separately -> [[Dairy and Cardiometabolic Health]];
   fermented *soy* (miso, tempeh, natto) is a distinct exposure -> [[Soy Products and Health]].
-
-</div>
 
 ## §11 — How this compares to the popular framing (the guidance null)
 

@@ -3,12 +3,12 @@ type: deliverable
 title: Meat
 aliases: [Red Meat, Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health, Meat and Health, Poultry, White Meat]
 question: What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces?
-sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
+sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-08
-self_critiqued: 2026-09-08
-concrete_subject_audited: 2026-09-08
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 ---
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
@@ -166,6 +166,8 @@ it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
 Poultry is a genuinely different exposure, and the evidence keeps it separate from fish (fish is
@@ -209,10 +211,32 @@ insufficient evidence, distinct from the mortality null
 - **Ramel does not answer the swap either.** Like Lupoli and Kim it «did not consider substitution of
   red meat with white meat but only intake of white meat»
   [@ramel2023whitemeat] — it measures poultry
-  intake, not the red->white replacement the decision turns on, so the substitution reading above
-  stands.
+  intake, not the red->white replacement the decision turns on.
 
-<div class="recent-update" data-last-updated="2026-09-09">
+One study models the swap directly — a single high-tier US cohort, not a meta-analysis: Etemadi's
+NIH-AARP study of 536,969 adults aged 50-71 over 16 years. Its main model held total meat constant,
+«so that increases in the meat variable of interest reflected reductions in other meat types and the
+total meat intake remained constant»
+[@etemadi2017], which makes a rise in
+white meat a fall in red.
+
+Under that model «the highest fifth of white meat intake was associated with a 25% reduction in risk of
+all cause mortality compared with the lowest intake level»
+[@etemadi2017]; per unit, each
+20 g/1000 kcal carried all-cause mortality **HR 0.93 (0.92-0.94) for poultry** and **0.95 (0.94-0.96)
+for fish**, and the reduction was largest for «particularly unprocessed white meat»
+[@etemadi2017].
+
+Two limits keep this from closing the gap. Etemadi's aggregate white meat «poultry and fish»
+[@etemadi2017] includes fish, unlike
+Lupoli, Kim, and Ramel, which exclude it — but it reports poultry (0.93) and fish (0.95) separately, so
+the poultry-only arm stays comparable to the fish-excluding meta-analyses. And this is a statistical
+substitution inside one FFQ-measured observational cohort: total-meat-constant modelling infers the swap,
+it does not randomize it, and residual confounding by the whole healthier-diet pattern that travels with
+white-meat preference is exactly the comparator problem. So it narrows the substitution gap — a first
+within-cohort direction and rough magnitude — without closing it. -> [[The Comparator Problem]]
+
+</div>
 
 ## What the meat is measured against decides the answer
 
@@ -244,8 +268,6 @@ apolipoproteins, and blood pressure»
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
 
-</div>
-
 ## What meat gives back
 
 Meat is also a dense source of bioavailable iron, vitamin B12, zinc, and high-quality protein, and
@@ -254,8 +276,6 @@ risk [@wcrf2018ter]. This is why the decision is a
 substitution and not a blanket subtraction: a plant-forward swap has to make up the grams and the
 amino-acid quality it displaces (plant sources are lower on the digestibility score), or it trades one
 gap for another. -> [[Protein Quality and the DIAAS Score]]
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Where meat ranks among the levers
 
@@ -281,8 +301,6 @@ excess body fat, WCRF grades **body fatness a convincing or probable cause of ca
 sites** and calls it one of the most important ways to protect against cancer
 [@wcrf2018ter]. That is a broader and more strongly graded
 lever than a single-site meat limit. Pull that rock first. -> [[Body Fatness and Cancer Risk]]
-
-</div>
 
 ## The environmental trade-off, named
 
@@ -311,7 +329,7 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
-<div class="recent-update" data-last-updated="2026-09-08">
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## What the evidence still cannot say
 
@@ -346,10 +364,10 @@ cited here.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces? |
-> | **Evidence included** | 22 sources — 15 gold, 7 high |
+> | **Evidence included** | 23 sources — 15 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-08 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
 
 </div>
 

@@ -52,8 +52,6 @@ The risk-of-bias restriction is the exception, and the **Moderate grade already 
 
 The events benefit is real but modest. The mortality picture is different — and, unusually here, both camps agree on it.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Expect no mortality change from cutting saturated fat
 
 Cutting saturated fat does not measurably change how long people live. **All-cause mortality sits at RR 0.96 (95% CI 0.90-1.03) — 2 fewer per 1000, Moderate certainty** [@who2023saturated]. The cause-specific mortality rows tell the same story: **cardiovascular mortality RR 0.94 (0.78-1.13) and coronary mortality RR 0.97 (0.82-1.16), both spanning no effect** [@who2023saturated]. Every mortality interval crosses the null.
@@ -69,10 +67,6 @@ The all-cause null is also less settled than the WHO trial row alone implies. Ma
 **A Moderate-certainty null is a result, not missing data.** It sits in the *no-meaningful-effect* state, distinct from *insufficient evidence* — the trials were run, the estimate is reasonably graded, and it lands on no effect. So reducing saturated fat is not a longevity move, and should not be sold as one; anyone reading *strong recommendation* as *this measurably saves lives* is reading past the evidence.
 
 Type of fat therefore moves cardiovascular events modestly and overall mortality not at all — with a cause-specific cancer signal now on the record, and heavy heterogeneity in the observational pool tempering how firmly the all-cause null can be held. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Target the type, not the total amount
 
@@ -115,8 +109,6 @@ dietary fat, but not reduction of total fat, in longer trials»
 So a low-fat-vs-higher-fat quantity target is not what the evidence recommends chasing; the **swap**
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
-
-</div>
 
 ## Trust the LDL/apoB direction, not the diet-to-drug magnitude
 
@@ -326,8 +318,6 @@ one large RCT tested a single fat->carbohydrate reduction, not a curve), plant o
 named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
 stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
-<div class="recent-update" data-last-updated="2026-09-07">
-
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -358,7 +348,5 @@ evidence does not offer.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
-
-</div>
 
 ## References

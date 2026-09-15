@@ -4,7 +4,7 @@ question: How much of a self-reported drug side-effect is the drug versus expect
 aliases: [Nocebo Effect, Drug Side-Effect Nocebo, Reported Side-Effects vs Real Harm, Nocebo Isolation, Do Not Deprescribe on Reported Symptoms Alone]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: measured-vs-true-effect
 nucleus: false
 confidence: medium
 created: 2026-09-08
@@ -17,8 +17,6 @@ relationships:
     - The Observational-Trial Discordance
     - The Estimate-to-Action Gap
 ---
-<div class="recent-page" data-last-updated="2026-09-08"></div>
-
 
  — this page is the wiki's own synthesis. It owns, at concept altitude, a pattern that two
 held drug-class instances demonstrate and route to it; the verbatim figures and their provenance live on

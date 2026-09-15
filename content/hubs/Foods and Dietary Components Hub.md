@@ -28,8 +28,6 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   drinking for aerodigestive sites + breast (no safe threshold there), acetaldehyde/ALDH2 mechanism; the
   effect leg paired with Rumgay's burden on [[Alcohol and Mortality and Vascular Disease]] (cluster `alcohol`)
 
-<div class="recent-update" data-last-updated="2026-09-07">
-
 ## Foods and beverages
 
 - [[Fish and Seafood Consumption]] — the `fish-seafood` nucleus: EFSA's benefit-vs-risk weighing with
@@ -127,8 +125,6 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   dose-response MA): dairy is NULL for cognitive decline/dementia in the reasonably-healthy Western stratum;
   the one "nadir at \~150 g/d" is an Asia/Europe intake-range pooling artifact, and milk-alone/cheese-alone
   are null. Not a cognition lever. `confidence: low`
-
-</div>
 
 ## Sugars, sweeteners, and seed oils
 

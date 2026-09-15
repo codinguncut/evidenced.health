@@ -47,8 +47,6 @@ the high-risk-of-bias trials left the result essentially unchanged (so non-blind
 [@sherrington2019]. Contrast the physical-activity
 *mortality* evidence, which is observational and far softer -> [[Physical Activity Dose and Mortality]].
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Which exercise — the decision is NOT *exercise*, it is *balance*
 
 The types differ (subgroup test for rate of falls P=0.004), and the ordering is a decision object
@@ -95,8 +93,6 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
     [inferred from @elhadouchi2022; @jimenezlupion2023; @sherrington2019]
 - ***Walk more* is not fall-prevention advice.** Walking programmes have insufficient evidence and are
   not what reduces falls — a substitution worth naming, because it is the intuitive default.
-
-</div>
 
 ## Fractures and injurious falls — the leg to the bone side, honestly lower-certainty
 

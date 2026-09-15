@@ -16,8 +16,9 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
     - The U-Shaped Association Artifact
+    - GLP-1 and Reward Beyond Food
 created: 2026-08-04
-updated: 2026-09-04
+updated: 2026-09-15
 self_critiqued: 2026-09-04
 ---
 
@@ -202,6 +203,8 @@ follows: the evidence base is «insufficient for definitive conclusions of high 
   right in spirit; Yang converts the gap into *sized, graded* signals rather than closing it.
 
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Gaps this leaves open
 
 - **No dose/duration stratification.** «Inconsistent reporting in primary trials precluded detailed
@@ -218,8 +221,25 @@ follows: the evidence base is «insufficient for definitive conclusions of high 
   lean-*ratio* improves, function is unmeasured, and the defense is resistance training + protein — the
   worry inverts in the older/sarcopenia-risk stratum. So this page's *reduced fracture* signal and the
   lean-mass cost are two musculoskeletal facts that must be read together, not one reassuring the other.
+- **Reward / neuropsychiatric — not in this umbrella**, cashed on its own node:
+  [[GLP-1 and Reward Beyond Food]] (Volker + Bi). The reward mechanism that curbs appetite also curbs
+  *substance* craving (alcohol, nicotine — benefit-leaning), animal-selective (natural reward spared) —
+  cutting against a "flattens all pleasure" harm. **Update:** a human mood arm has now partially landed
+  (Bi 2026 SR+MA) and leans *harm* — a depression-adverse-event signal via the same bidirectional
+  reward circuit — while the specific hedonic-tone / anhedonia / QoL outcome stays unmeasured. So the
+  neuropsychiatric ledger reads: substance-craving benefit + a low-quality human depression-harm signal +
+  an still-open anhedonia gap. **Update 2:** the severe endpoint that triggered the 2023 FDA/EMA safety
+  review — suicidal ideation and behaviour — is now cashed (Bushi 2025 SR+MA) and leans the *reassuring*
+  way: no statistically significant population signal on a weak observational/pharmacovigilance base, with
+  a Mendelian-randomization check agreeing, but a confounded semaglutide-specific signal elevated in the
+  psychiatric-comorbid stratum. So the neuropsychiatric ledger now reads: substance-craving benefit +
+  low-quality depression-harm signal + reassuring suicidality null on a weak base + still-open anhedonia
+  gap, all converging on the psychiatric-comorbid stratum to watch. Full appraisal and effect sizes on the
+  reward node. G (narrowed further).
 
 [inferred from @yang2026]
+
+</div>
 
 ## The moving-target problem — why time does not de-risk a drifting exposure
 

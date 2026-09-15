@@ -200,8 +200,6 @@ lipids, apolipoproteins, and blood pressure».
 [@guaschferre2019redmeat]
 -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## O'Connor 2017 — the dose-threshold read, pooled across comparators (type-F)
 
 The earlier sibling MA of Guasch-Ferré (same Purdue group; O'Connor and Campbell co-author both, so
@@ -246,10 +244,6 @@ consumption and CVD, which prompts the need for future research to reconcile the
 between RCT and observation-based conclusions.»
 [@oconnor2017redmeat]
 -> [[Surrogate Outcomes]], [[LDL ApoB and Cumulative Exposure]]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Synthesis — the parameter table (same-quantity check) BEFORE the cross-source claim
 
@@ -310,8 +304,6 @@ convergence of the same estimate.** What each supplies:
   (independent-constituency refinement) plus a type-C-flavoured worked instance of the comparator-blind
   pooling artifact.
   [inferred from @oconnor2017redmeat; @guaschferre2019redmeat]
-
-</div>
 
 ## Is the food category doing any work here?
 

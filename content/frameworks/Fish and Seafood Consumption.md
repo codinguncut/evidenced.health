@@ -379,8 +379,6 @@ curve can be monotone on one outcome and flat on another -> [[The U-Shaped Assoc
 conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
 but may still help all-cause) is unchanged.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## An independent US-cohort pool finds fish NULL — the measurement-fragile edge of the signal (Zhong 2020) `[2026-09-08]`
 
 Every held fish source lands **protective** for CV/mortality — EFSA (CHD mortality), Jayedi (CVD
@@ -417,10 +415,6 @@ fragile to single-baseline measurement. It is type-F (a divergent refinement bou
 robustness), not type-E corroboration and not a joined tension; confidence stays **medium**.
 [inferred from @zhong2020meat]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Limits
 
 - **EFSA could not quantify the benefit with certainty; Jayedi 2020 now can — but only to moderate.**
@@ -451,8 +445,6 @@ robustness), not type-E corroboration and not a joined tension; confidence stays
   mercury-toxicity CONTAM 2012 opinion, and ASCEND (not held).
 
 [inferred from @efsaseafood2014]
-
-</div>
 
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 

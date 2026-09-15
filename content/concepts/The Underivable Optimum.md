@@ -4,7 +4,7 @@ question: When can this domain's evidence identify an OPTIMAL dose of an exposur
 aliases: [Underivable Optimum, No Optimum, Floors and Ranges Not Optima, Ranges Not Optima, Why Health Evidence Satisfices, Optimum Not Derivable, Satisficing vs Optimizing]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: estimate-to-action
 confidence: medium
 created: 2026-08-06
 updated: 2026-09-05

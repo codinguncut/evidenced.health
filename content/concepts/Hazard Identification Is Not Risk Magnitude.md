@@ -4,7 +4,7 @@ question: What does a carcinogen classification (IARC Group 1/2A/2B) actually te
 aliases: [Hazard vs Risk, Hazard Identification vs Risk Magnitude, IARC Carcinogen Classification, Carcinogen Group and Risk, A Hazard Label Is Not a Risk]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: estimate-to-action
 nucleus: false
 confidence: medium
 created: 2026-09-08
@@ -18,8 +18,6 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Certainty of Evidence vs Strength of Recommendation
 ---
-<div class="recent-page" data-last-updated="2026-09-08"></div>
-
 
  — this page is the wiki's own appraisal concept, induced across two held IARC instances; the
 verbatim classifications and their evidence live on those instance pages, not re-extracted here.

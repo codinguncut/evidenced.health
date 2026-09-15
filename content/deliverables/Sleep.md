@@ -173,8 +173,6 @@ regularity fall asleep and wake within roughly 1-hour windows most days, the bot
 interventions» than extending sleep, which is biologically and socially hard to do
 [@windred2023].
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## For the aging brain, target the disorder — not a duration number
 
 Duration and regularity are the quantity and timing of sleep. The newest evidence points somewhere
@@ -256,8 +254,6 @@ higher baseline risk [[Dementia Prevention and Modifiable Risk Factors]], [[Base
 . Whether fixing broken sleep protects the brain is exactly the untested question — which
 raises the treatment question head-on: once sleep is broken, what actually works?
 
-</div>
-
 ## For insomnia, start with therapy, not pills
 
 Three treatments answer that question, and the honest ranking runs opposite to how most people reach
@@ -336,8 +332,6 @@ death -- that expectation is not supported for either the mask or the drug. Trea
 symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
 through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Rank sleep honestly, and act on the arms that hold
 
 Where does sleep rank among the levers? Below the biggest rocks. A person who smokes, carries excess
@@ -380,7 +374,5 @@ urgent, and your attention is better spent on the bigger rocks.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
-
-</div>
 
 ## References

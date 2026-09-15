@@ -18,8 +18,6 @@ created: 2026-09-07
 updated: 2026-09-07
 self_critiqued: 2026-09-07
 ---
-<div class="recent-page" data-last-updated="2026-09-07"></div>
-
 
 New-onset diabetes is the second-most-cited statin harm after muscle symptoms, and unlike the muscle
 scare it is a **real, small, dose-dependent pharmacological effect** — not a nocebo artifact. The decision

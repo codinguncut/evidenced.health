@@ -18,8 +18,6 @@ relationships:
     - Physical Activity Dose and Mortality
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 **Peripheral-scope lifestyle lever (heat exposure), and a SMALL, UNCERTAIN one — not a big rock.**
 Sauna is admitted on the same evidence bar as food or activity, not by a category exemption; the

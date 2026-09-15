@@ -22,8 +22,6 @@ created: 2026-09-08
 updated: 2026-09-09
 self_critiqued: 2026-09-09
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 The decision here is **not** *should an older adult resistance-train* (that is settled — see
 [[Muscle-Strengthening Activity and Mortality]], [[Exercise for Preventing Falls in Older Adults]]) and

@@ -4,7 +4,7 @@ question: How do you turn an evidence estimate into a decision for a person?
 aliases: [Estimate to Action Gap, Parameter vs Decision, The Transformation Gap, A Parameter Is Not a Decision]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: estimate-to-action
 nucleus: true
 confidence: medium
 created: 2026-08-05
@@ -22,7 +22,6 @@ relationships:
     - Model Error vs Sampling Error
     - What a Trustworthy Systematic Review Requires
 ---
-<div class="recent-update" data-last-updated="2026-09-10">
 
  — this page is the wiki's own epistemology, the positive half of method-risk R21. It carries
 no source attributions; every claim is the fabric's reasoning, and the numeric example (protein 1.62 g/kg,
@@ -43,8 +42,6 @@ earns the weight ([[Is This Actually a Systematic Review]], [[What a Trustworthy
 And where no pooled magnitude exists at all, the prior question is whether a defensible *direction* is even
 in hand: [[Acting on a Direction Without a Magnitude]] is the head of this pipeline — reach a direction,
 transform the estimate, pick the tail ([[Better than What]]) — and this page is its middle step.
-
-</div>
 
 ## The two symmetric meta-errors
 

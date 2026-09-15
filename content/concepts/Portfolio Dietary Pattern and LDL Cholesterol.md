@@ -12,8 +12,6 @@ self_critiqued: 2026-09-10
 relationships:
   related_to: [LDL ApoB and Cumulative Exposure, Surrogate Outcomes, Soy Products and Health, Dietary Fibre and Health, Nut Consumption and Mortality, Statins for Primary Prevention and the Power of Zero CAC, Baseline Risk and the Relative-Absolute Split]
 ---
-<div class="recent-page" data-last-updated="2026-09-10"></div>
-
 
 The **Portfolio dietary pattern** bundles four cholesterol-lowering plant foods — nuts, plant
 protein (soy, pulses), viscous (soluble) fibre, and plant sterols — each carrying an FDA / Health

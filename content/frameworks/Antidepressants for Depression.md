@@ -154,8 +154,6 @@ ranking is uncertain, and deliberately does **not** table the 21 drugs as a reco
   **initial** treatment only; the excluded populations (psychotic, treatment-resistant) bound
   transportability.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Limitations — discontinuation and withdrawal (Henssler 2024)
 
 The limitations half of the standing-drug appraisal: what happens on **stopping**. Cipriani named this
@@ -245,8 +243,6 @@ to 7** will have genuinely drug-caused discontinuation symptoms and **\~1 in 35*
 venlafaxine/desvenlafaxine; the per-agent ordering is otherwise preliminary (wide CIs; mirtazapine,
 bupropion, amitriptyline unstudied). This is a **stratum-level appraisal of a standing drug's
 limitation**, not a discontinuation protocol; tapering-regimen selection stays prescriber-zone.
-
-</div>
 
 ## Limitations — weight gain and metabolic side-effects (Alonso-Pedrero 2019)
 

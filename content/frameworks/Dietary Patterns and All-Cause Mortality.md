@@ -21,8 +21,6 @@ created: 2026-09-07
 updated: 2026-09-08
 self_critiqued: 2026-09-07
 ---
-<div class="recent-page" data-last-updated="2026-09-08"></div>
-
 
 The all-cause-mortality anchor for the `dietary-patterns` cluster, orbiting the nucleus
 [[Mediterranean Diet and Cardiovascular Events]]. Where the nucleus rests on one pattern's RCT

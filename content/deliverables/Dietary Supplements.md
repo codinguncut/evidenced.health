@@ -277,8 +277,6 @@ pregnant, so supplementation must be in place beforehand
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
 Bone brings the repletion/enhancement split, the stratum question, and the net-effect ledger
@@ -334,8 +332,6 @@ the whole-strategy ledger runs against the supplement (no benefit + stone harm +
 and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventing Falls in Older Adults]];
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
-
-</div>
 
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
@@ -419,8 +415,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## The bottom line
 
 #### The general-population defaults
@@ -446,8 +440,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   and contested cardiovascular harms — exercise is the fracture lever.
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
-
-</div>
 
 ## Caveats
 

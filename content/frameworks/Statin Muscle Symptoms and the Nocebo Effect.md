@@ -16,8 +16,6 @@ created: 2026-09-07
 updated: 2026-09-08
 self_critiqued: 2026-09-08
 ---
-<div class="recent-page" data-last-updated="2026-09-08"></div>
-
 
 Muscle symptoms are the most-cited reason people stop or refuse a statin, so the *tolerability* decision
 is a distinct decision from the *efficacy* decision — it applies to everyone already on a statin (primary

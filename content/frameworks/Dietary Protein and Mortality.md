@@ -290,8 +290,6 @@ endpoint. Read 0.77 as a directional, source-agnostic signal on a thin base, not
   source is a large non-Western / non-Naghshi-pooled cohort that could also test whether the plant signal
   is independent of the fibre/whole-grain lever it may run through.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The plant-protein signal may be the fibre/pulse lever under another name (a gap)
 
 Plant-protein foods *are* largely the legume/whole-grain/nut foods the wiki already credits with lower
@@ -328,7 +326,5 @@ signal rides the whole-food matrix (fibre, the legume/pulse package) rather than
 exposure often eaten as isolate/tofu (a different matrix again), and the all-cause cell is missing
 entirely — this *nudges* the fibre-proxy reading, it does not settle it.
 [inferred from @nachvak2019soy; @naghshi2020]
-
-</div>
 
 ## References

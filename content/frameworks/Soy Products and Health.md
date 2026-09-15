@@ -234,8 +234,6 @@ is a mechanistic proposal with directional weight, not an outcome finding.
   judges the isoflavone route the *less likely* one
   [@anderson1995].
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The mortality cell — soy / isoflavones / soy protein x all-cause, cancer, CVD, breast cancer (Nachvak 2019)
 
 The three fears above are surrogate-or-incidence outcomes; this is the **direct patient-important
@@ -327,7 +325,6 @@ dose-null for isoflavones); soy protein moves only a survivor breast-cancer endp
 all-cause/CVD. No cell is a big rock, and none rests on a causal design — a reason to eat soy without
 fearing it, not a longevity lever to chase.
 
-</div>
 
 ## The forms are NOT interchangeable — specify the exposure
 
@@ -380,8 +377,6 @@ economic loads and is entangled with the animal-feed / deforestation debate; the
   above is the same one invoked there for the memory-domain specificity.
 
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Gaps and held threads
 
 - **LDL magnitude — CASHED (Blanco Mejia 2019 held).** The intrinsic effect is \~3% (−4.76 mg/dL) at
@@ -407,7 +402,5 @@ economic loads and is entangled with the animal-feed / deforestation debate; the
   subgroups not isolated). `AWAITS a soy/isoflavone x tamoxifen interaction SR` for the mechanism leg.
 - **Absolute breast-cancer risk reduction** — Chen reports relative ORs only; the absolute benefit
   depends on baseline incidence in the stratum, which the MA does not supply. `G (needs aggregation)`.
-
-</div>
 
 ## References

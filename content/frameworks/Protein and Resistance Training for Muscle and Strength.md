@@ -222,8 +222,6 @@ choices on an unblindable exposure, the commercial interest discounts the framin
 magnitude** (the direction is held by Morton/Refalo independently; the effect *size* is the exposed
 parameter). [@tagawa2020]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Protein timing — the peri-workout "anabolic window" is small-to-null once daily total is adequate
 
 The dose sections above answer *how much*; this answers *when* — and the answer is that **when barely
@@ -346,9 +344,6 @@ adequate, *when* it is eaten is not a lever worth optimizing.
 
 
 [@morton2018]
-
-</div>
-
 ## Who it helps more, and who less
 
 - **Reduced with age:** «reduced with increasing age (−0.01 kg (−0.02,–0.00), p=0.002)» — older adults

@@ -7,7 +7,6 @@ aliases: [Fermented Food, Fermented Foods, Probiotic Foods, Live Cultures, Kefir
 created: 2026-08-05
 updated: 2026-09-09
 ---
-<div class="recent-update" data-last-updated="2026-09-09">
 
 *This page has been folded. Fermented foods are not one exposure — the lay question splits along the
 food that was fermented, and each strand now lives with the food it belongs to.*
@@ -29,5 +28,3 @@ measured.** Fermented dairy carries a modest observational signal that is really
 fashionable ferments have almost no hard-outcome human evidence (insufficient evidence, not a null);
 and whether the *live cultures* are doing the work is untested. Treat the halo as a claim to check, not
 a credential — and note this is a small lever, well below the big rocks.
-
-</div>

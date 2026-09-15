@@ -7,14 +7,12 @@ cluster: lipoprotein-a
 nucleus: true
 question: "Does lipoprotein(a) concentration change cardiovascular risk, and what does knowing a person's level change about what they should do?"
 relationships:
-  related_to: ["LDL ApoB and Cumulative Exposure", "Surrogate Outcomes", "Baseline Risk and the Relative-Absolute Split"]
+  related_to: ["LDL ApoB and Cumulative Exposure", "LDL Lowering and Cardiovascular Events", "Surrogate Outcomes", "Baseline Risk and the Relative-Absolute Split"]
 confidence: medium
 created: 2026-09-10
 updated: 2026-09-10
 self_critiqued: 2026-09-10
 ---
-<div class="recent-page" data-last-updated="2026-09-10"></div>
-
 
 Lipoprotein(a) is an LDL-like particle in which one apolipoprotein B100 molecule is
 covalently linked to apolipoprotein(a) [@erqou2009lpa].

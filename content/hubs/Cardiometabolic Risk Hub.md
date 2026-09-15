@@ -39,8 +39,6 @@ social connection, sense of purpose, allostatic load, depression — plus **sun/
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Lipids, drugs, and dietary patterns for CV events
 
 - [[LDL Lowering and Cardiovascular Events]] — how much does lowering LDL/apoB buy per unit (CTT: RR 0.78
@@ -83,8 +81,6 @@ BP levers.
   cause (MR), the benefit is on events not all-cause mortality, and the anti-inflammatory diet is an
   observational proxy for MedDiet, not a shown independent lever
 
-</div>
-
 ## Behavioural big rocks
 
 - [[Smoking and Mortality]] — the size of smoking's mortality effect and how much cessation recovers as
@@ -96,8 +92,6 @@ BP levers.
   neutral, and whether the J-curve survives scrutiny; now also the drinking-PATTERN axis (binge at fixed
   volume, Roerecke), the red-wine/resveratrol null (Semba), and the population "no safe level" burden
   (GBD, Rumgay)
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Neurodegeneration (dementia · Parkinson's)
 
@@ -122,5 +116,3 @@ Parkinson's, by contrast, has *few* credible levers and mostly critically-low ev
   credible protective lever (already a big rock), most other signals are reverse-causation-suspect (the
   long prodrome) or confounded-by-indication. Smoking's inverse-PD association is an artifact, never a
   lever
-
-</div>

@@ -88,8 +88,6 @@ oldest patients. So blood-pressure lowering buys a second patient-important outc
 the one lever here where the drug, not a lifestyle change, carries the randomized dementia evidence
 -> [[Dementia Prevention and Modifiable Risk Factors]].
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
 For a sarcopenic-obese person, the fat is the root that feeds the dysglycemia, the hypertension and the
@@ -132,10 +130,6 @@ classes — metformin, GLP-1 receptor agonists — track lower dementia risk in 
 (GLP-1 RA RR 0.35, but I2 98.5% and low certainty), while sulphonylureas run the other way (RR 1.39,
 1.04-1.87) [@kuatedefo2023]. Read that as what an
 existing prescription may incidentally do, not a reason to select an agent — that choice is a prescriber's.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -198,10 +192,6 @@ and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle 
 no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
 (EWGSOP2 sets none) [@cruzjentoft2019].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
 Falls are where fractures, hospitalisation and lost independence actually occur, and here the evidence is
@@ -252,8 +242,6 @@ attempt to create an optimal intervention will be impeded»
 [@who2020] — so train the measurable
 components and read frailty as the composite that follows -> [[Frailty]].
 
-</div>
-
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
 General physical activity carries a real mortality benefit, but its shape matters for how hard to push. The
@@ -272,8 +260,6 @@ followed 20 years or more — so it is not merely early, undiagnosed dementia lo
 depend on APOE genotype. It stays observational (higher baseline cognitive reserve is the confound it
 cannot remove), but it adds a second patient-important outcome to a lever no drug replicates
 -> [[Physical Activity Dose and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]].
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Past these, the remaining levers are smaller and less certain — and that ceiling is itself the finding
 
@@ -354,10 +340,6 @@ already ranked [@babaker2025amd]. So
 AMD is another organ-specific reason to pull the same levers, not a lever of its own
 -> [[Age-Related Macular Degeneration and Modifiable Exposures]],
 [[Shared Modifiable Levers Across Age-Related Diseases]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
@@ -467,8 +449,6 @@ The two harms differ in *kind*: the muscle harm is mostly not real, the diabetes
 outweighed — and both point to the same rule, *do not stop an indicated statin*, for opposite reasons
 -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]].
 
-</div>
-
 ## What this ranking cannot yet settle
 
  Three gaps bound the confidence above, and naming them is part of the appraisal.
@@ -513,8 +493,6 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Four things this ranking cannot tell you
 
 - **The loop is open.** This page grades whether the reasoning is coherent and faithful to its sources — it
@@ -539,7 +517,5 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
-
-</div>
 
 ## References

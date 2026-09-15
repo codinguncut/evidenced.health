@@ -82,8 +82,6 @@ selected, and analysed (NASEM 2019). Appraisal machinery, not domain findings.
   expected, the aggregate rate unknowable, confidence comes from convergence of independent methods;
   the symmetric single-study caution
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Checking someone else's appraisal
 
 - [[What a Trustworthy Systematic Review Requires]] — the IOM 2011 bar (21 standards / 82 elements) an
@@ -105,5 +103,3 @@ selected, and analysed (NASEM 2019). Appraisal machinery, not domain findings.
 - [[Dietary Fibre and Health]] — the fibre nucleus (Reynolds 2019 outcomes + Brown 1999 LDL mechanism). Big mortality/T2D numbers are observational (RR \~0.85); the RCT-grade effect is small and on a surrogate (soluble fibre -> LDL -0.057 mmol/L per g). Isolate out-grades the food by design; dose-response is outcome-specific (linear-no-plateau on outcomes, attenuating on LDL)
 - [[Glycaemic Index and Glycaemic Load and Chronic Disease]] — Jenkins 2024 mega-cohort MA: high GI tracks T2D (RR 1.27), CVD (1.15), mortality (1.08), cancer (1.05), mostly GRADE-low; associations «similar» to fibre/whole grain in the same cohorts. The wiki reads that similarity as collinearity (GI is a proxy, only 17% adjusted for fibre), not proof of an independent lever. Deeply-conflicted author (GI's inventor, rebutting WHO's dismissal); `confidence: low`
 - [[Gut Microbiome and Health]] — the microbiome nucleus (Valdes 2018 BMJ + WGO 2023 guideline + Suez). Composition-shift is a surrogate; causation is the central confound; diet/fibre is the big lever (prebiotics ≈ fibre); probiotics are strain-and-indication-specific (NEC NNT 20, AAD, C. diff prevention, some IBS), not a general tonic; FMT is routine only for recurrent C. difficile
-
-</div>

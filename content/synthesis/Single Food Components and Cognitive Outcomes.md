@@ -24,8 +24,6 @@ relationships:
     - Is the Food Category Doing Any Work
     - Layer 1 - Ranking Interventions for a Stratum
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 **Synthesis across the four single-food-component cognition arms the wiki holds** — dairy, flavonoids,
 soy isoflavones, and fruit/vegetables (the whole-food group that carries the first two). Each is

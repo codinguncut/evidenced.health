@@ -27,8 +27,6 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   disease independently of aerobic activity, and at what dose — the interventional test of the
   observational muscle-mortality associations above
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Building and keeping muscle (the levers)
 
 - [[Anabolic Resistance]] — the mechanism behind the older-adult protein target: aging blunts the
@@ -48,8 +46,6 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   resistance training for muscle and strength, how much, and for whom
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily and per meal, and
   why it is complementary to the training stimulus (cross-ref: [[Protein and Supplements Hub]])
-
-</div>
 
 ## Bone, joints, and fracture
 

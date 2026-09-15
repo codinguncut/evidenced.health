@@ -97,8 +97,6 @@ rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is r
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## (a) Robust big rocks — lead here
 
 ### Move more, at any intensity, plus resistance — the largest robust lever
@@ -313,8 +311,6 @@ remaining levers are small by construction. That is a result, not a failure to f
 effects in this domain are settled and few; the long tail of refinements shares what little is left. For
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
-
-</div>
 
 ## (b) Stratum-dependent — conditional on metabolic status
 

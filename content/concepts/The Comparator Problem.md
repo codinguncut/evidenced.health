@@ -4,7 +4,7 @@ question: What is an exposure's effect measured *against* — and how does chang
 aliases: [Better Than What, Compared to What, The Comparator, Comparator Problem, Substitution Framing, Versus What]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: exposure-and-comparator
 nucleus: true
 confidence: medium
 created: 2026-08-08

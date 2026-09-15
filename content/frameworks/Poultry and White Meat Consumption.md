@@ -361,8 +361,6 @@ to lean on an industry-funded abstract for the poultry->T2D question. Recorded a
 refutation of any source — symmetric standards apply to the funding note in both directions.
 [inferred from @ramel2023whitemeat]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Poultry -> INCIDENT CVD, a positive signal on the open cell (Zhong 2020) `[2026-09-08]`
 
 Ramel graded the poultry -> *incident* CVD/CHD/stroke cells «limited - no conclusion» = insufficient
@@ -403,10 +401,6 @@ CVD-*mortality* cell where Lupoli and Ramel land null, so it does not contradict
 -> incident-CVD cell therefore moves from *insufficient evidence* to *weak positive, confounded by
 preparation*; confidence on the cluster stays low. [inferred from @zhong2020meat]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Open gaps (type-G)
 
 - **Confounding by red-meat displacement is unresolved** — the central caveat above; no analysis in any
@@ -434,8 +428,6 @@ preparation*; confidence on the cluster stays low. [inferred from @zhong2020meat
 - **No dose-response on any endpoint** — all three held sources use categorical highest-vs-lowest
   contrasts; a per-gram poultry curve, knee, or absolute risk difference remains uncomputable
   (needs aggregation).
-
-</div>
 
 ## Self-critique `[run 2026-08-28 after attaching Kim's stroke endpoint — the cross-source step]`
 

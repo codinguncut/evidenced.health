@@ -138,8 +138,6 @@ region/age/sample-size/follow-up/detection-method/APOE4 left it — «these fact
 for the observed heterogeneity, suggesting the influence of other unmeasured or unreported variables»
 [@zhang2025sleep].
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## The prior landmark (Xu 2020) — an UPDATED-BY refinement, NOT independent backing
 
 The held Zhang 2025 MA cites and updates the prior JNNP landmark Xu 2020 (51 cohorts, 15 sleep
@@ -190,10 +188,6 @@ RBD null. This is **not filed as a tension**: the two are not independent (Zhang
 evidence base), so the correct reading is an **F-attenuation** — the larger, more recent pool washes
 out Xu's small-study RBD signal, exactly the direction updates run. [inferred from @zhang2025sleep; @xu2020sleep]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Gaps
 
 - **No causal adjudication of the long-sleep -> dementia arm** — MR / lag-stratified / referent-corrected
@@ -203,8 +197,6 @@ out Xu's small-study RBD signal, exactly the direction updates run. [inferred fr
 - ~~The prior JNNP landmark (Xu 2020) is unheld~~ **CASHED 2026-09-10** — Xu 2020 held and woven as an
   F-refinement (above); the comparison is updated-by (not independent-E), so it enriches the map without
   lifting confidence.
-
-</div>
 
 ## Self-critique `[run 2026-09-04, before commit]`
 

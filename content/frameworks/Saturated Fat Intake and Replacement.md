@@ -18,9 +18,9 @@ relationships:
     - Surrogate Outcomes
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-09-08
+updated: 2026-09-14
 nosplit: 705@single-exposure nucleus (one how-much-SFA-replaced-by-what question); length is dated guidance families + revision strata on one decision, not multiple decisions
-self_critiqued: 2026-09-07
+self_critiqued: 2026-09-14
 ---
 
 **Nucleus of the `dietary-fat` cluster.** WHO's 2023 guideline, and the first domain finding in this
@@ -29,6 +29,8 @@ nutrient, and the strength differs across the splits.**
 
 
 [@who2023saturated]
+<div class="recent-update" data-last-updated="2026-09-14">
+
 ## The recommendations, with their strength and certainty
 
 | # | Recommendation | Strength | Overall certainty |
@@ -48,9 +50,9 @@ nutrient, and the strength differs across the splits.**
 > trials"* and Hooper's RCT subgroup. **Both sentences say "overall" at different scopes** -- within
 > the observational body, versus across study types -- which is confusing wording, not a contradiction.
 > Per-design rating is exactly what GRADE prescribes. A correct practice was scored as a defect, and
-> the claim was propagated to three pages plus the hub before a blind audit caught it. The real finding
-> A follow-up attempt to find a *real* discrepancy in this neighbourhood (a roll-up "departure") was
-> also falsified, before commit. See [[Rating Certainty of Evidence]] for what GRADE 5.4 actually says.
+> the claim was propagated to three pages plus the hub before a blind audit caught it. A follow-up
+> attempt to find a *real* discrepancy in this neighbourhood (a roll-up "departure") was also
+> falsified, before commit. See [[Rating Certainty of Evidence]] for what GRADE 5.4 actually says.
 >
 > *Superseded text, kept for the record:* the rationale for
 > recommendation 3 (and the executive summary) assigns **moderate to PUFA and low to MUFA**. But the
@@ -67,6 +69,8 @@ nutrient, and the strength differs across the splits.**
 
 Trans-fatty acids follow the same shape at a different threshold: reduce to 1% of energy (strong),
 further reduce below 1% (conditional), replace with PUFA or MUFA "primarily from plant sources" (conditional).
+
+</div>
 
 ## What the evidence actually showed
 
@@ -956,8 +960,6 @@ is **null**, and the whole finding is observational — the signal sits on **tot
 one evidence tier below the SFA->PUFA events RCTs above.
 [inferred from @zhang2025butter]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## SFA at the NUTRIENT level, on mortality — Ma 2024 adds a clean cancer cell and makes the all-cause null fragile `[2026-09-07]`
 
 Ma's non-linear dose-response MA (101 pooled cohort reports across all macronutrients; 46 on
@@ -986,7 +988,5 @@ decomposition, no GRADE, and no food-source split** for SFA. Its agreement is a 
 (a new cancer-mortality cell + a robustness probe on the all-cause null), not a second independent
 route — so it lifts neither the page's confidence nor the SFA->events RCT tier.
 [inferred from @ma2024macro]
-
-</div>
 
 ## References

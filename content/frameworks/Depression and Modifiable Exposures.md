@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable lifestyle exposures reduce depression, for whom, by how much, and how confident can we be?
 aliases: [Depression, Exercise for Depression, Diet and Depression, Nutritional Psychiatry, Lifestyle Depression, Depression Prevention]
-authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael]
-sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017]
+authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed]
+sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025]
 cluster: depression
 nucleus: true
 confidence: low
@@ -19,10 +19,12 @@ relationships:
     - Inflammation as a Modifiable Lever
     - Layer 1 - Ranking Interventions for a Stratum
     - Antidepressants for Depression
+    - GLP-1 and Reward Beyond Food
 created: 2026-08-09
-updated: 2026-08-30
+updated: 2026-09-15
 self_critiqued: 2026-08-20
 ---
+<div class="recent-update" data-last-updated="2026-09-15">
 
 Depression is on the wiki's outcome menu as a **patient-important QoL outcome** (the 2026-08-08
 QoL-extension) and through its **physiological intersection** with physical health — depression
@@ -38,11 +40,39 @@ reference group** than the exercise network's SSRI-vs-active-control estimate be
 welded into a single head-to-head; the comparison and its caveats stay explicit at each point of use.
 
 
+**A second drug crosses this outcome the WRONG way — GLP-1 RAs carry a depression signal.** The
+antidepressant class is the lever *for* depression; but the depression outcome is also moved *against* by
+a drug much of this page's overlapping stratum takes for a different reason. GLP-1 receptor agonists
+(semaglutide, liraglutide), now standard for obesity and T2D — conditions that themselves elevate baseline
+depression risk — show a pooled **OR 1.49 (95% CI 1.18-1.88)** for depression-related adverse events
+(Bi 2026 SR+MA) [@glp1depression2026]. This is a harm signal, not a
+lever, and it is low-quality (I²=99%, confounding by indication, GRADE moderate) — but it is decision-
+relevant here because the obese / T2D stratum weighing a GLP-1 for metabolic reasons overlaps the
+depression-risk population, and the drug and the lifestyle levers act on the *same* outcome in opposite
+directions. The mechanism (same mesolimbic-dopamine reward circuit, bidirectional/susceptibility-
+dependent) and the full appraisal live on [[GLP-1 and Reward Beyond Food]]; this is a cross-link, not a
+depression lever. [inferred from @glp1depression2026]
+
+The **severe sub-outcome — suicidality — reads the other way, and the two must not be conflated.** A
+dedicated SR+MA of suicidal ideation and behaviour (the endpoint that triggered the 2023 FDA/EMA safety
+review) found **no statistically significant population signal**: pooled RR 0.568 (95% CI 0.077-4.205,
+I2=98% — wide and essentially uninformative), with the narrative synthesis leaning
+reassuring-to-protective and a Mendelian-randomization check finding no causal link
+[@glp1suicidality2025]. The one counter-signal is agent- and
+stratum-specific (semaglutide WHO-VigiBase ROR 1.45, sharply elevated in patients co-prescribed
+antidepressants/benzodiazepines — a marker of pre-existing psychiatric illness, so confounded by
+indication). So the honest composite is a **graded severity signal**: harm-leaning on the milder,
+higher-frequency depression-AE endpoint (Bi) and no robust signal on the severe endpoint (Bushi), both
+pointing at the same psychiatric-comorbid stratum to monitor. Full appraisal on
+[[GLP-1 and Reward Beyond Food]]. [inferred from @glp1suicidality2025]
+
 **The binding caveat, up front — both levers rest on a SELF-REPORTED symptom-scale surrogate, and both
 literatures carry heterogeneity and publication bias.** Depression symptom scales (BDI, CES-D, HDRS) are
 *not* the patient-important outcome of a diagnosed depressive disorder — they are a
 [[Surrogate Outcomes|surrogate]] measured with error, and the certainty here is **low**. The direction
 (both levers help, or at least track lower depression) is more secure than the magnitude.
+
+</div>
 
 ## The two levers, ranked by warrant
 

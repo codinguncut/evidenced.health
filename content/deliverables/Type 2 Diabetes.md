@@ -3,16 +3,14 @@ type: deliverable
 title: Type 2 Diabetes
 question: 'For an adult at risk of, or living with early, type 2 diabetes, what does the evidence show about the modifiable lifestyle levers on incidence and on remission — direction, magnitude, durability, for whom — how do weight loss, diet composition, total diet replacement, and physical activity compare, and where does lifestyle sit against the standard first-line drug?'
 aliases: [Type 2 Diabetes, T2D, Diabetes Prevention, Diabetes Remission, Reversing Diabetes]
-authors: [Knowler, William C; Tuomilehto, Jaakko; Pan, Xiao-Ren; Hamman, Richard F; Goldberg, Ronald B; Lean, Michael EJ; Taylor, Roy; Goldenberg, Joshua Z; Churuangsuk, Chaitong; Szczerba, Edyta; Jenkins, David J A; Liu, Xiao]
-sources: [Knowler - Diabetes Prevention Program DPP 2002, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Goldberg - DPPOS Cardiovascular Events 2022, Lean - DiRECT T2D Remission 2018, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Jenkins - Glycaemic Index Load Outcomes Series 2024, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022]
+authors: [Knowler, William C; Tuomilehto, Jaakko; Pan, Xiao-Ren; Hamman, Richard F; Goldberg, Ronald B; Lean, Michael EJ; Taylor, Roy; Goldenberg, Joshua Z; Churuangsuk, Chaitong; Szczerba, Edyta; Jenkins, David J A; Liu, Xiao; Badve, Sunil V; Zhao, Zhuoxian; Liu, Yunan; Reith, Christina]
+sources: [Knowler - Diabetes Prevention Program DPP 2002, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Goldberg - DPPOS Cardiovascular Events 2022, Lean - DiRECT T2D Remission 2018, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Jenkins - Glycaemic Index Load Outcomes Series 2024, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Reith - Statin New-Onset Diabetes 2024]
 confidence: medium
 created: 2026-09-09
-updated: 2026-09-09
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 Type 2 diabetes hides two separate decisions under one disease name, and the evidence answers them
 differently. Read them apart.
@@ -125,6 +123,69 @@ cardiovascular benefit, MACE HR 0.74 (0.59-0.92)
 baseline risk. So the honest statement to a low-risk prediabetic person is that lifestyle prevents the
 diagnosis; the hard-outcome payoff, if any, needs higher risk or a longer horizon than the evidence
 has yet followed -> [[Baseline Risk and the Relative-Absolute Split]].
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## The GLP-1 drug class is the strong hard-outcome lever — for a different job than remission
+
+GLP-1 receptor agonists are now a standard drug for this population, and unlike metformin they carry
+proven benefit on hard outcomes — so they reset where the lifestyle lever sits at the margin. A
+gold-tier meta-analysis of 11 cardiovascular-outcome trials (85,373 participants, most with type 2
+diabetes) found the class cut major cardiovascular events by 13% (HR 0.87, 95% CI 0.81-0.93; NNT 74
+over \~2 years) and all-cause death by 12% (HR 0.88, 95% CI 0.83-0.93; NNT 101), high-certainty and
+consistent across every subgroup
+[@badve2024glp1]. It also
+lowered a hard kidney outcome — kidney failure or a sustained halving of kidney function — by 18% (HR
+0.82, 95% CI 0.73-0.93; NNT 164), the absolute benefit largest at high kidney risk
+[@badve2024glp1].
+
+The cost is a real adherence tax: discontinuation for adverse events ran higher on the drug (12.7% vs
+9.2%, RR 1.51, 95% CI 1.18-1.94), mostly gastrointestinal, and the benefit decays once the drug is
+stopped [@badve2024glp1].
+
+For the T2D stratum this is a mature, effective, low-harm drug, and it shrinks how much
+cardiovascular, renal, and mortality benefit the lifestyle lever must be relied on to add. Two things
+it does not shrink. The cardiovascular benefit here separates early, before much weight is lost, so it
+is a drug effect rather than a weight-loss effect — this evidence does not show that losing weight
+cuts events. And remission, MASLD regression, and fixing the upstream driver stay with the lifestyle
+lever, which no glucose-lowering drug substitutes for. Which agent, and any dosing, is a prescriber's
+call outside this appraisal
+-> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
+[inferred from @badve2024glp1]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## Beyond weight, two smaller levers move who develops diabetes
+
+### Dietary heme iron raises incidence
+
+Iron from red meat is one dietary driver with a causal case, not just an association, for diabetes
+risk. A gold meta-analysis of prospective cohorts put the highest-versus-lowest dietary heme-iron
+intake at RR 1.31 (95% CI 1.21-1.43), homogeneous across studies (I2 0%)
+[@zhao2012hemeiron]. Self-report and
+confounding by the rest of red meat could explain that, so the stronger evidence is a
+Mendelian-randomization study — a genetic natural experiment immune to reverse causation — which found
+genetically higher body-iron status raised T2D risk \~7% per SD of transferrin saturation
+[@liu2024ironmr].
+The genetic test isolates body iron, not dietary heme specifically, but both point the same way:
+cutting heme-iron intake is a plausible, modest prevention lever
+-> [[Heme Iron and Cardiometabolic Risk]].
+
+### A statin nudges incidence up, but does not outweigh its benefit
+
+A statin, the standard drug for cardiovascular risk, slightly raises new-onset diabetes: a low- or
+moderate-intensity statin by 10% (RR 1.10, 95% CI 1.04-1.16), a high-intensity one by 36% (RR 1.36,
+95% CI 1.25-1.48) [@reith2024diabetes]. In absolute terms the
+moderate-dose excess is tiny — about 0.12% a year, roughly one extra case per 1,000 people per year —
+and it falls mostly on people whose blood sugar already sat near the diagnostic line (about 62% of
+new cases were already in the top quarter of baseline glycaemia), advancing a diagnosis rather than
+creating diabetes from nothing. The cardiovascular benefit already
+outweighs it, so this is not a reason to withhold or stop an indicated statin
+-> [[Statins and New-Onset Diabetes]].
+
+</div>
 
 ## For recently diagnosed diabetes, sustained weight loss can drive it into remission
 
@@ -259,6 +320,8 @@ over an existing risk score [@liu2022tyg].
 Use it to *place* someone in the insulin-resistant stratum, not as a target to steer down
 -> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What to do, by where you stand
 
 **If you have prediabetes.** An intensive lifestyle programme is first-line: a \~7% weight-loss goal
@@ -267,8 +330,9 @@ absolute prevention of metformin and works across strata. Metformin is the reali
 the programme is not available or not enough, and it earns its place most in the younger, more obese,
 more hyperglycaemic person; it buys little in the lean with near-normal fasting glucose. Understand
 what you are buying: a delayed diagnosis, with a hard-outcome (heart-attack, mortality) payoff that is
-proven only where baseline risk is high. A GLP-1 drug is a further comparator lever, appraised
-separately -> [[GLP-1 Drugs]].
+proven only where baseline risk is high. The GLP-1 drug class is a further comparator lever, with
+proven hard-outcome benefit (covered above)
+-> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 
 **If you were recently diagnosed (within a few years, not on insulin).** Remission is on the table,
 and the target is the largest sustained weight loss you can hold — acted on early, because the window
@@ -279,13 +343,18 @@ withdrawal with a clinician — the endpoint is normal HbA1c *off* drugs — and
 be maintained, because remission relapses if the weight returns. This lever also applies below BMI 27,
 where trials routinely exclude people but the mechanism does not.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What the evidence still cannot see
 
-- **The GLP-1 leg on T2D outcomes is thin here.** These drugs reverse prediabetes to normoglycaemia
-  and sharply cut progression to diabetes, and they are the strongest weight lever
-  -> [[GLP-1 Drugs]]. But a dedicated head-to-head of a GLP-1 drug *versus lifestyle for T2D
-  remission*, and its durability, is not held in this cut, and the strongest-weight-loss agent
-  (tirzepatide) has no hard-outcome trial at all. Named gap.
+- **No GLP-1-versus-lifestyle head-to-head for remission.** The class hard-outcome evidence is now
+  held (above), and these drugs sharply cut progression from prediabetes to diabetes
+  -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]. What is still missing is a
+  dedicated trial of a GLP-1 drug *versus lifestyle for T2D remission* and its durability; and the
+  strongest-weight-loss agent (tirzepatide) was excluded from the class hard-outcome pool by design
+  and has no hard-outcome trial of its own. Named gap.
 - **Bariatric surgery as a remission comparator is not held.** DiRECT argues surgery works through
   weight loss rather than any surgical effect, and surgery anchors a durable mortality benefit
   elsewhere in the fabric -> [[Body Fat]] — but no dedicated source on surgical *remission* rates and
@@ -303,9 +372,11 @@ what actually happened to people who followed them.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult at risk of, or living with early, type 2 diabetes, what does the evidence show about the modifiable lifestyle levers on incidence and on remission — direction, magnitude, durability, for whom — how do weight loss, diet composition, total diet replacement, and physical activity compare, and where does lifestyle sit against the standard first-line drug?' |
-> | **Evidence included** | 12 sources — 4 gold, 7 high, 1 moderate |
+> | **Evidence included** | 16 sources — 7 gold, 8 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+
+</div>
 
 ## References

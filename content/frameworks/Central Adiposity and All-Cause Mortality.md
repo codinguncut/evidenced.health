@@ -21,8 +21,6 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 ---
-<div class="recent-page" data-last-updated="2026-09-08"></div>
-
 
 The central-fat analog of the BMI mortality curve, from the first dose-response systematic review and
 meta-analysis of the question: **72 prospective cohort studies, 2 528 297 participants, 150 164 deaths**

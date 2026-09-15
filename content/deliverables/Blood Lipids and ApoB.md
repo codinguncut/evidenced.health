@@ -1,197 +1,266 @@
 ---
 type: deliverable
 title: Blood Lipids and ApoB
-question: What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted?
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Roussell - Beef Optimal Lean Diet BOLD 2012, Livingston - Dementia Prevention 2024, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024]
+icon: material-symbols-light:cardiology
+concrete_subject_audited: 2026-09-15
+question: 'What is the relationship between apoB-containing lipoproteins and atherosclerotic cardiovascular disease — how settled is it, which number best captures a person''s risk and where do the numbers diverge, how much does moving that number change hard events, does it matter whether diet or a drug does the moving, and for whom is acting warranted?'
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, Helgadottir - Cholesterol Not Particle Concentration, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Wood - SAMSON Statin Nocebo 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Livingston - Dementia Prevention 2024, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-07
-self_critiqued: 2026-09-07
-concrete_subject_audited: 2026-09-07
-aliases: [ApoB and Heart Disease, LDL and Cardiovascular Risk, Which Lipid to Measure, Blood Lipids, Cholesterol and Heart Disease]
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 ---
-
-Atherosclerosis is driven by cholesterol-carrying particles in the blood — the ones tagged with a protein called **apolipoprotein B (apoB)**, the particle-number measure, of which LDL is the most abundant. That these particles *cause* heart attacks and strokes, rather than merely travel alongside them, is one of the most firmly established facts in cardiovascular medicine — supported by genetics, long-term cohorts, natural genetic experiments, and drug trials that all point the same way. **Lowering the particle burden lowers hard events in proportion to how much, and how long, it is lowered.** Because the damage accumulates over a lifetime, lowering it modestly but early can beat lowering it aggressively but late.
-
-**For most healthy people the ordinary LDL-C number tracks the risk well enough**; apoB earns its own measurement mainly in metabolic syndrome, diabetes, or high triglycerides, where LDL-C quietly undercounts the particles. **Whether to *act* on the number turns on absolute risk, not the number alone.** A genuinely low-risk adult — especially one with a coronary-calcium score of zero — gains little from a statin, while a high-risk one gains a lot. Two cautions close the picture: a drop achieved by diet is not automatically worth the same as an equal drop achieved by a drug, and dietary cholesterol — eggs above all — is a near-non-issue for most people.
-
-## Atherogenic particles cause heart disease — this is settled, not merely associated
-
-The European Atherosclerosis Society consensus weighed the LDL-heart-disease link against causality criteria across four independent method families — genetics, prospective cohorts, Mendelian randomization (a natural genetic experiment that removes reverse causation and most confounding), and LDL-lowering trials — and reached an unusually strong verdict: **the evidence «unequivocally establishes that LDL causes ASCVD»** [@ference2017]. The weight rests on the *concordance* between the naturally-randomized genetic evidence and the intervention trials — the natural experiment and the deliberate intervention agreeing — not on a mechanistic story.
-
-**The causal agent is the apoB-containing particle, not cholesterol mass as such.** LDL, VLDL remnants, IDL, and lipoprotein(a) all carry one apoB molecule each and are «directly implicated in the development of ASCVD» [@ference2017]. This is the one case where a lab number is a *validated* surrogate — its transmission to the hard outcome is itself evidenced, the opposite of the markers that moved while patients did worse -> [[Surrogate Outcomes]].
-
-## The dose is cumulative — lower for longer beats lower later
-
-The relationship is **log-linear across more than 2 million people and 150,000 events**, and it compounds with time [@ference2017]. Risk tracks the *area under the apoB curve over a lifetime*, not a single current reading. Two consequences follow.
-
-- **A modest reduction sustained for decades can outweigh a larger one started late** — the cumulative-exposure frame a single LDL-C snapshot cannot capture.
-- **Any route that genuinely lowers apoB-particle concentration lowers risk in proportion** — diet, statins, or newer drugs alike — *provided* the LDL-C drop reflects a real particle-number drop and carries no off-target harm [@ference2017]. That proviso is load-bearing, and it is where diet and drugs come apart (below).
-
-**A second target beyond the heart: the brain.** The 2024 Lancet dementia commission added high LDL-C as a modifiable dementia risk factor; a meta-analysis of three UK cohorts (n=1,138,488) found each 1 mmol/L higher LDL-C associated with an 8% higher all-cause dementia incidence (1.08, 1.03-1.14), the risk being **greater in midlife than late life** — consistent with the same cumulative-exposure logic [@livingston2024]. This adds to LDL's outcome menu; it does not change the cardiovascular verdict.
-
-## Measure apoB; LDL-C is a good stand-in until metabolism drifts
-
-### What each number counts, and why apoB wins
-
-**apoB counts particles; LDL-C measures the cholesterol mass they carry.** Because each atherogenic particle carries exactly one apoB, apoB is a direct particle count — and it counts *all* the atherogenic particles (LDL plus remnants, IDL, Lp(a)), whereas LDL-C reflects only the cholesterol inside the LDL fraction. When many small, cholesterol-poor particles pack the same cholesterol mass, LDL-C reads normal while the particle count — the causal quantity — is high.
-
-Three designs converge on apoB as the number that carries the risk:
-
-| Evidence | Design | Result |
-|---|---|---|
-| Marston 2022 | UK Biobank (n=389,529) + two statin RCTs (n=40,430) | Entered together, **«only apoB was associated»** with MI (aHR 1.27 per SD, 1.15-1.40); non-HDL-C and TG fell to non-significant [@marston2022] |
-| Richardson 2020 | Multivariable Mendelian randomization | apoB OR 1.92 (1.31-2.81) retained; LDL-C reversed to 0.85 (0.57-1.27, P=0.44); TG weakened [@richardson2020] |
-| Zuber 2021 | Agnostic MR over 30 lipid measures, a non-Ference group | apoB top-ranked and survives its own removal; no other measure consistently selected [@zuber2021] |
-
-The three are not fully independent draws. Richardson's MR lists Ference — author of the causal
-consensus above — as a co-author, and shares an author with Zuber, so it corroborates that consensus
-rather than testing it afresh. **Marston's leg — a biobank cohort plus two statin RCTs, with no author
-overlap — is the genuinely independent witness**; read the convergence as two routes agreeing, not
-three unrelated ones.
-
-**Particle *number*, not particle *type*, carries the risk — and beats LDL-C.** Once apoB is fixed, the small-dense-versus-large-LDL distinction stops predicting events [@marston2022], and Richardson's verdict is that **«apolipoprotein B is the predominant trait»** underlying the whole lipid-CHD relationship [@richardson2020]. Whether particle number *also* beats the **cholesterol content** those particles carry — a finer question that only becomes answerable once apoB and non-HDL-C are pulled apart — is contested, and unlike the apoB-over-LDL-C verdict it is not settled.
-
-Marston's read, that risk is captured by particle count «independent from lipid content», rests on mutually adjusting apoB and non-HDL-C — two traits correlated about 0.9 that statistical adjustment cannot cleanly separate [@marston2022].
-
- An independent Mendelian-randomization analysis — deCODE Iceland plus the Danish DBDS, with no author from the apoB-particle-number programme — breaks that correlation using the 82 of 235 apoB variants whose cholesterol-per-particle differs, and reaches the opposite verdict: the CAD risk per unit of apoB was **«71% greater for non-HDL-C main-effect variants than apoB main-effect variants»**, so that **«for individuals with equal levels of non-HDL-C, the number of apoB particles it is carried on does not influence the development of CAD»** [@helgadottir2022]. The multi-source verdict — apoB (or non-HDL-C) beats LDL-C where metabolism has drifted — is untouched by this; only the finer number-versus-content leg is unsettled, held here as contested rather than closed -> [[ApoB Particle Number vs Cholesterol Content]].
-
- **What this changes for someone tracking lipids:** where the two disagree, non-HDL-C — free on every standard panel (total cholesterol minus HDL-C) — is a defensible secondary target, not a distant second to a separate apoB assay. On Helgadottir's reading **«the guidance of non-HDL-C target levels are expected to better capture risk related to apoB-containing particles»** [@helgadottir2022], and a therapy that lowers apoB without proportionally lowering its cholesterol content may under-deliver. This does not overturn the ESC/EAS apoB preference — it is one MR against guidance backed by a lineage — but it removes any *content-is-irrelevant* certainty and makes non-HDL-C a reasonable number to steer.
-
-**Read this correctly: apoB is *necessary*, LDL-C is not discredited.** apoB never travels without cholesterol, so the LDL-C null in the multivariable analysis is not a claim that cholesterol is inert — it means a cholesterol change that is *not accompanied by an apoB change* may not move risk. LDL particles each contain an apoB molecule; that is why lowering LDL-C works when it genuinely lowers particles.
-
-### Where LDL-C and apoB diverge — the metabolic stratum
-
-For most lean, metabolically healthy people LDL-C and apoB are tightly correlated (ρ >= 0.95 in Marston's untreated cohort [@marston2022]), so a separate apoB draw adds little. **They come apart in metabolic syndrome, diabetes, and high triglycerides**, where a small-dense-LDL pattern packs more particles into a given cholesterol mass, so **LDL-C under-states the atherogenic burden** [@ference2017].
-
-The 2026 US guideline turns this into a rule: apoB testing is useful «particularly in those with elevated triglycerides (TG) (>=150 mg/dL), diabetes, or low achieved LDL-C (<70 mg/dL)» — where LDL-C «may appear at goal while apoB remains elevated, masking residual risk» [@accaha2026]. A raised triglyceride-glucose reading is a cheap prompt to measure apoB in that person.
-
-## Lowering the number lowers events, in proportion, with no floor yet found
-
-The statin trials give the magnitude. Pooling individual data from 26 trials (169,138 participants), **each 1.0 mmol/L reduction in LDL-C cut major vascular events by about a fifth** [@ctt2010].
-
-| Outcome, per 1.0 mmol/L LDL-C reduction | Effect |
-|---|---|
-| Major vascular events | RR 0.78 (0.76-0.80) |
-| All-cause mortality | RR 0.90 (0.87-0.93) |
-| Non-fatal MI | RR 0.73 |
-| Coronary revascularisation | RR 0.75 |
-| Ischaemic stroke | RR 0.79 |
-| Cancer / non-vascular death | RR 1.00 / 0.97 (null) |
-
-Three features matter for decisions.
-
-- **No floor.** The pooled trials showed **«no evidence of any threshold within the cholesterol range studied»**, benefit persisting even at 1.8 mmol/L (70 mg/dL) or lower [@ctt2010]. The burden is on anyone claiming a knee to locate it.
-- **The reductions multiply.** Two successive 1 mmol/L drops give roughly 0.78 x 0.78 ≈ 0.6 — a \~40% reduction — which is the per-unit face of *lower for longer* [@ctt2010].
-- **Death moved, not just the marker** — all-cause mortality fell, with no excess cancer even at low LDL, which retires the old low-cholesterol-harm worry for the drug-lowered range. Full magnitude treatment: [[LDL Lowering and Cardiovascular Events]].
-
-This is *statin* lowering — the concordant, no-off-target case. It does not automatically transfer to a diet-induced change.
-
-<div class="recent-update" data-last-updated="2026-09-09">
-
-## How the number was lowered matters — a diet drop is not a drug drop per unit
-
-The proviso «provided the LDL-C drop is concordant with the particle-number drop, and there are no competing off-target effects» is not fine print. The recovered **Minnesota Coronary Experiment** is the cleanest case of it biting: replacing saturated fat with corn-oil linoleic acid lowered serum cholesterol sharply (**-13.8% vs -1.0%** in controls) yet produced **no mortality benefit** — pooled CHD mortality 1.13, all-cause 1.07 [@ramsden2016]. The **Sydney Diet-Heart** companion lowered cholesterol even more in the intervention arm (**-13.3% vs -5.5%**) yet that arm had *higher* mortality [@ramsden2013].
-
-**Both trials measured total cholesterol only**, so neither can show the cholesterol drop tracked a real apoB-particle drop — and linoleic acid plausibly adds an off-target harm. So they land *inside* the causal framework rather than refuting it: they are the worked demonstration that **a dietary cholesterol change is not interchangeable with a drug-induced apoB change**. Validate the marker-to-outcome transmission for the agent actually used -> [[Surrogate Outcomes]]. The dietary-fat physiology — which fats raise or lower which particles — is one route into this axis and is owned by [[Dietary Fat]], not re-derived here.
-
-**So how big is a dietary LDL drop in the first place — modest, and smaller still in trials.** Landry's 2024 umbrella review puts a number on one dietary route, and its two estimates pull in opposite directions:
-
-- **Observational:** across 31 studies, vegan eating tracked LDL-C «−0.49 mmol/l (−0.62, −0.36)» lower than omnivorous eating [@landry2024vegetarian] — but that figure is GRADE low, heavily confounded by the healthy-adherer pattern (people who go vegan differ in many ways), and highly heterogeneous (I2=92%).
-- **Randomised:** in presumably-healthy adults the effect shrinks to nothing — vegetarian and vegan diets combined moved LDL-C «−0.13 mmol/l (−0.37, 0.12)» across 4 RCTs, not significant [@landry2024vegetarian].
-
-[inferred from @landry2024vegetarian] So even taken at its confounded observational face value, the dietary LDL lever is real but small — and by this deliverable's own drug-route-only rule, a diet-induced LDL change does not buy hard events at CTT's statin-derived RR 0.78-per-mmol rate.
-
- **A second worked case — cutting red meat moves the marker mainly when plant protein replaces it.** A gold pooled meta-analysis of 36 substitution RCTs found the *sign* of red meat's LDL-C effect flips with what takes its place. Swapped for high-quality plant protein (legumes, soy, nuts), red meat left LDL-C higher by a pooled +0.198 mmol/L (95% CI 0.065-0.330) — plant did better; swapped for fish, poultry, or refined carbohydrate, the marker barely moved [@guaschferre2019redmeat].
-
-And *how much* red meat is eaten is not the lever: the continuous dose-response was null across 0-500 g/day [@guaschferre2019redmeat], matching the BOLD feeding trial's flat lipid response across a 20-to-153 g/day beef range once background saturated fat was fixed [@roussell2012bold]. Both are surrogate (lipid) endpoints — no CVD events were measured — so read them at the same one-step-removed level as the vegan estimates above: the apoB-cutting route via less red meat exists chiefly when plant protein fills the plate.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-07">
-
-## For a primary-prevention adult, absolute risk decides — and zero calcium can defer
-
-### The statin decision is a baseline-risk decision
-
-The relative effect of a statin is roughly constant across risk strata; the **absolute** benefit scales with how high the starting risk was ([[Baseline Risk and the Relative-Absolute Split]]). In the primary-prevention trials (22 trials, mean 3.3 years) the relative effects are real but the absolute differences are already small:
-
-| Outcome | RR (95% CI) | Absolute risk difference |
-|---|---|---|
-| Composite CVD | 0.72 (0.64-0.81) | -1.28% |
-| Myocardial infarction | 0.67 (0.60-0.75) | -0.89% |
-| Stroke | 0.78 (0.68-0.90) | -0.39% |
-| All-cause mortality | 0.92 (0.87-0.98) | -0.35% |
-| CV mortality | 0.91 (0.81-1.02, NS) | -0.13% |
-
-[@uspstf2022]
-
-**The US Preventive Services Task Force sets an explicit threshold**, because benefit is proportional to 10-year risk: prescribe at **>=10%** 10-year risk, «selectively offer» at 7.5-<10%, and **below 7.5% a person is not a statin candidate at all** [@uspstf2022]. Familial hypercholesterolemia and LDL-C above 190 mg/dL are carved out — treated regardless of the risk score.
-
-### The power of a zero calcium score (CAC)
-
-Where a body allows it, a **coronary-artery-calcium score (CAC — a CT count of calcified plaque)** of zero shifts the decision. In 4,758 MESA adults, **44% of the statin-eligible had CAC = 0**, and their event rate was **4.2 per 1,000 person-years versus 11.2** with any calcium [@nasir2015]. Translated into a modeled 10-year number-needed-to-treat, that is **NNT 64 for CAC=0 versus 28 for CAC>100** in the recommended group — so a zero score reclassifies roughly half of candidates out of meaningful benefit.
-
-Two honest limits. **The NNT is modeled, not measured** — no trial has randomized statins by CAC, and a CAC=0 is low risk, not *no* risk (4.2/1,000 py is not zero). And bodies disagree: USPSTF keeps CAC out of the statin rule, ESC allows it as a weak modifier, and the 2026 US guideline goes furthest — mapping the calcium score directly onto an LDL-C goal (CAC >=1000 -> treat as very-high-risk, goal <55 mg/dL) and starting drug therapy at lower estimated risk using a newer calculator [@accaha2026]. Full case: [[Statins for Primary Prevention and the Power of Zero CAC]].
-
-### How low to treat — the target number is a stopping point, not a measured optimum
-
-The two major guideline families now **converge** on the aggressive targets — very-high-risk LDL-C **<1.4 mmol/L (55 mg/dL)** plus a >=50% reduction, high-risk **<1.8 mmol/L (70 mg/dL)** [@accaha2026] — the same very-high-risk framework the 2025 ESC/EAS focused update carries forward from the 2019 ESC/EAS guidelines [@esceas2025]. But both rest on the *same* trial base, so this is shared warrant, not two independent witnesses. And under a no-threshold curve, **the specific cut (why <55 and not <50 or <70) has no head-to-head trial** — the number is a pragmatic stopping point extrapolated from the monotone curve, where lowering further keeps paying until the added agent, cost, or adherence burden is no longer worth it. The *direction* is certain; the exact number is a reasoned choice.
-
-### The two feared harms are real but small — and differ in kind
-
-Two side effects drive most statin refusals — muscle symptoms and new-onset diabetes — and on the honest reading, neither should stop someone with a genuine indication. But they differ in **kind**, and the reason to keep taking the drug differs with them: one harm is mostly not real, the other is real but outweighed. (These apply to anyone on a statin, primary or secondary prevention, not only the primary-prevention adult above.)
-
-**Muscle symptoms are mostly a perceived effect, not the drug.** The CTT Collaboration's pooled analysis of \~155,000 people in double-blind statin-versus-placebo trials found the true excess is tiny — 27.1% on a statin versus 26.6% on placebo reported muscle pain or weakness (RR 1.03), a gap concentrated in the first year and gone after it [@reith2022muscle].
-
-SAMSON, a blinded n-of-1 rechallenge in patients who had already quit statins for side effects, shows why: «90% of the symptom burden elicited by a statin challenge was also elicited by placebo» [@wood2020samson], and daily symptom intensity was statistically the same on each (16.3 on a statin versus 15.4 on placebo, P=0.39) [@wood2020samson]. The aches are real; the drug is mostly not causing them. So an indicated statin should continue while other causes are checked, and a blinded rechallenge — not a reflexive stop — separates the rare true myopathy from the common nocebo response.
-
-**New-onset diabetes is the opposite: a real, small pharmacological effect.** Here the drug genuinely nudges glucose upward, in a dose-dependent way — RR 1.10 (1.04-1.16) on low- or moderate-intensity statins, rising to RR 1.36 (1.25-1.48) on high-intensity [@reith2024diabetes].
-
-But the effect is small in absolute terms and sits near the diagnostic line: it flows from a tiny HbA1c shift (+0.06% to +0.08%), and about 62% of the new-onset diabetes cases arise in people already in the top quarter of the baseline glucose distribution [@reith2024diabetes]. The statin mostly advances a diagnosis that a person's own glucose had already made likely. The vascular benefit already accounts for it — the diabetes risk is «greatly outweighed by the benefits of statins on major vascular events» [@reith2024diabetes] — so it is not a separate cost to subtract, and no routine post-initiation glucose or HbA1c monitoring is warranted on this basis.
-
-Both harms land on the same instruction — keep the indicated statin — but for opposite reasons: the muscle effect because it is mostly not real, the diabetes effect because it is real but small and already netted out of the benefit. One caution on reading the two together: these harm figures and the benefit magnitude above all come from the same CTT/CTSU-Oxford collaboration, so they are one research programme's internally consistent ledger, not an independent second witness to the benefit.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
-
-## Dietary cholesterol barely moves the number for most people
-
-Eggs are the classic dietary-cholesterol scare, and for the lipid decision they are close to a non-lever. A food's cholesterol content (\~180 mg/egg) is not a serum-cholesterol effect: in most people absorption and endogenous synthesis compensate, and only a minority of *hyper-responders* show a real LDL rise [@godos2020]. So the apoB lever runs mainly through other routes -> [[Dietary Fat]], [[Is the Food Category Doing Any Work]].
-
-The full egg appraisal — the dose-response across CVD endpoints, the type-2-diabetes stratum where the direction reverses, and the heart-failure arm — lives in [[Eggs Dietary Cholesterol and Cardiovascular Risk]] and the [[Eggs]] deliverable. It is a big-worry, small-effect question that ranks low, and the evidence is entirely observational FFQ cohorts at GRADE **low** certainty.
-
-</div>
+<div class="recent-page" data-last-updated="2026-09-15"></div>
+
+
+The particle that carries cholesterol into an artery wall, not the cholesterol itself, is what
+drives heart disease — and that this is true is about as settled as anything in nutrition and
+cardiology gets. The particle is tagged by a protein called **apolipoprotein B (apoB)**: one apoB
+molecule rides on every atherogenic particle, so counting apoB counts the particles. Lower the
+count and you lower risk, in proportion to how much you lower it and how long you keep it down.
+The open questions are narrower than the headlines suggest: **which** number to read off a lab
+report, **how much** a given drop buys, and **whether the way you lower it** — food versus a pill —
+changes the payoff. This page walks that chain, from the causal model
+([[LDL ApoB and Cumulative Exposure]]) to the decision.
+
+## apoB-containing particles cause atherosclerosis, and the evidence is unusually settled
+
+The 2017 European Atherosclerosis Society consensus tested the LDL-heart-disease link against every
+major line of evidence at once — rare genetic mutations, prospective cohorts, Mendelian
+randomization (using inherited gene variants as a natural randomized experiment), and the
+LDL-lowering drug trials. It reached a verdict it stated in one sentence: «Consistent evidence
+from numerous and multiple different types of clinical and genetic studies unequivocally
+establishes that LDL causes ASCVD.» [@ference2017]
+The causal agent is not cholesterol mass but the **apoB-containing particles** that carry it — LDL,
+plus VLDL and its remnants, IDL, and Lp(a). [@ference2017]
+
+What makes the verdict strong is **concordance**: the natural genetic experiment and the
+intervention trials point the same way. This is the rare case where a blood marker's transmission
+to the hard outcome is itself proven — the opposite of the usual surrogate, where a number moves
+and patients do not benefit. -> [[LDL ApoB and Cumulative Exposure]], [[Surrogate Outcomes]]
+
+## The dose is cumulative: how low, times how long
+
+Risk tracks the **area under your apoB curve over a lifetime** — level multiplied by years — not
+today's snapshot. A modest reduction held for decades can beat a larger one started late. The drug
+trials show the per-unit face of this: each additional 1 mmol/L drop multiplies on the last, so
+more and longer both pay. -> [[LDL ApoB and Cumulative Exposure]]
+
+The mechanism is agnostic to *how* you lower the particle count, but only under two conditions the
+consensus states plainly. The cholesterol drop must reflect a real drop in particle number, and the
+method must carry no competing harm on another pathway. [@ference2017]
+Those two provisos are not fine print — they are what separates a drug-lowered number from a
+diet-lowered one, further down this page.
+
+## Count the particles: apoB beats LDL-C where the two diverge
+
+For most people, standard LDL cholesterol (**LDL-C**) tracks particle count closely and is a fine
+number to watch. It fails in one identifiable group: the insulin-resistant, hypertriglyceridemic,
+metabolic-syndrome or diabetic person, whose small dense LDL packs more particles into a given
+amount of cholesterol. There, **LDL-C under-states the real particle burden**, and apoB — or
+**non-HDL-C** (total cholesterol minus HDL, already on every lipid panel) — is the number to trust.
+[@ference2017] -> [[LDL ApoB and Cumulative Exposure]]
+
+The direct evidence is large and points three ways to the same answer. In \~430,000 people, entering
+the lipids together, only apoB independently predicted heart attack (adjusted HR 1.27 per standard
+deviation, 95% CI 1.15-1.40); LDL-C and triglycerides fell to non-significant once apoB was held
+fixed. [@marston2022] Multivariable
+Mendelian randomization reaches the same place genetically — apoB retained a robust effect (OR 1.92
+per SD, 1.31-2.81) while the LDL-C estimate reversed to null. [@richardson2020]
+And an agnostic genetic search over 30 lipid measures, from a group with no overlap with the first
+two, picked apoB out on its own. [@zuber2021]
+
+Read the convergence with one caution: Richardson's MR lists Ference — author of the causal
+consensus above — as a co-author and shares an author with Zuber, so it corroborates that consensus
+rather than testing it afresh. Marston's biobank-plus-RCT leg and Zuber's non-overlapping group are
+the genuinely independent witnesses — two routes agreeing, not three unrelated ones.
+
+**Read this correctly.** None of it says LDL-C is causally inert — apoB never travels without
+cholesterol, which is why lowering LDL-C works. It says apoB is the *necessary* element and the
+better number to measure and target where the two come apart. Current US guidance now agrees, adding
+an apoB check for exactly this group. -> [[LDL Lowering and Cardiovascular Events]]
+
+### One live disagreement: particle number or cholesterol content?
+
+Marston's finer claim is that particle *number* carries the risk independent of the cholesterol each
+particle holds. An independent Mendelian-randomization study (Helgadottir) that separated the two
+using discordant gene variants reaches the opposite — that CAD risk tracks the *cholesterol content*
+(non-HDL-C), not the particle count, and attributes the apoB signal to confounding of two nearly
+interchangeable traits. [@helgadottir2022]
+This does **not** touch the settled verdict above — both camps agree apoB and non-HDL-C beat LDL-C
+in the discordant group. It contests only which of *those two* to prefer as the secondary target,
+and it is genuinely unresolved. The practical reading: non-HDL-C is free on every panel and captures
+most of what a separate apoB draw would. -> [[ApoB Particle Number vs Cholesterol Content]]
+
+## Lowering the number with a drug cuts hard events by about a fifth per unit, with no floor
+
+The statin trials settle the magnitude. Pooling 26 trials and 169,138 people, each **1.0 mmol/L**
+(about 39 mg/dL) reduction in LDL-C cut major vascular events by \~22% (RR 0.78, 95% CI 0.76-0.80)
+and all-cause mortality by 10% (RR 0.90, 0.87-0.93). [@ctt2010]
+Two features carry the decision:
+
+- **Mortality moved, not just the marker.** The reduction transmitted all the way to death in
+  randomized evidence — and with no excess cancer or non-vascular death even at low LDL, which
+  retires the old low-cholesterol-harm worry for the drug-lowered range.
+- **No knee, no floor in the studied range.** There was «no evidence of any threshold within the
+  cholesterol range studied»; benefit persisted even below 1.8 mmol/L (70 mg/dL).
+  [@ctt2010] Successive drops
+  multiply — a 2 mmol/L reduction cuts risk by roughly 40% — so lower and longer both keep paying.
+
+The relative effect is constant across baseline-risk groups, which lets you scale it to a person
+without any subgroup guesswork. The same \~22% is a small absolute gain for someone at low risk and
+a large one for someone at high risk. -> [[LDL Lowering and Cardiovascular Events]]
+
+### The one place low LDL might not be benign
+
+An observational signal points the other way for a single stroke subtype: people who already have
+low LDL-C carry somewhat higher **hemorrhagic (bleeding) stroke** risk. But this is an association,
+not a lowering experiment, and the authors themselves stop at a biomarker claim, flagging reverse
+causation and confounding. [@ma2019ldlstroke] The interventional test settles it for the drug route: pooling 38 trials
+(271,411 people) of statins and PCSK9 inhibitors, **lowering LDL with drugs did not significantly
+raise brain hemorrhage** in any agent or subgroup. [@li2025ldlich]
+So the observational bleeding-stroke arm is most likely not caused by lowering, and it does not
+justify withholding treatment from someone whose ischemic and vascular risk dominates. One residual
+piece — the lifelong-genetic-exposure question — remains open. -> [[LDL Lowering and Cardiovascular Events]]
+
+## It matters whether diet or a drug does the lowering
+
+Here the two provisos above bite. The \~22%-per-mmol figure is a *drug* result, and a diet-lowered
+number does not automatically inherit it.
+
+The cleanest demonstration is a recovered double-blind trial, the Minnesota Coronary Experiment.
+Replacing saturated fat with corn oil dropped serum cholesterol by 13.8% versus 1.0% in controls,
+yet produced **no mortality benefit** — because a fall in total cholesterol «can represent widely
+different biochemical phenomena», and the trial measured neither particle number nor a competing
+off-target effect. [@ramsden2016] A companion
+trial saw cholesterol fall *further* in the intervention arm yet mortality rise.
+[@ramsden2013] Neither refutes apoB causality; both land
+inside its provisos — the practical lesson being that a diet-induced cholesterol change is not
+interchangeable with a drug-induced apoB change. -> [[LDL ApoB and Cumulative Exposure]]
+
+That said, real dietary levers on apoB exist — they are just modest and route-specific:
+
+- **The Portfolio pattern** (nuts, plant protein, viscous fibre, plant sterols) lowered LDL-C 17%
+  and apoB 15% in pooled trials, GRADE high — a magnitude near a starting-dose statin. But no trial
+  measured events; the benefit is *borrowed* from the LDL-causality fabric, and it is the diet's
+  inventors reporting it. [@chiavaroli2018portfolio] -> [[Portfolio Dietary Pattern and LDL Cholesterol]]
+- **Protein source shifts the number more than most food swaps.** In controlled feeding, both red
+  and white meat raised LDL-C and apoB relative to plant protein, independent of saturated fat;
+  meat *color* did not matter. [@bergeron2019]
+  Across 36 trials, the *sign* of red meat's lipid effect flips with what replaces it — worse than
+  plant protein, better than fish or refined carbohydrate — so the substitute has to be named for
+  the swap to carry a decision. [@guaschferre2019redmeat] -> [[Lean Red Meat and Atherogenic Lipoproteins]]
+
+No head-to-head trial has randomized a diet-lowered versus drug-lowered apoB to hard events — a
+genuine gap, not a settled equivalence.
+
+## Whether to act is a baseline-risk decision, and imaging can defer it
+
+Because the relative effect is constant, the whole decision turns on **absolute** risk. Estimate a
+person's 10-year cardiovascular risk (SCORE2 in Europe, PREVENT in the US), then read it against a
+threshold: below roughly 7.5% ten-year risk, a primary-prevention adult is not a statin candidate
+by USPSTF, and the drug question closes before any imaging. [@uspstf2022]
+-> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]], [[Statins for Primary Prevention and the Power of Zero CAC]]
+
+In the grey zone, a **coronary calcium (CAC) scan** re-stratifies sharply. Among statin-eligible
+adults, a score of zero carried 4.2 events per 1,000 person-years versus 11.2 with any calcium — and
+a zero score reclassified about half of candidates out of clear benefit (estimated 10-year number
+needed to treat 64 at CAC=0 versus 28 at CAC>100). [@nasir2015]
+Two honesty guards: CAC=0 is *low* risk, not *no* risk, and no trial has randomized treatment by
+calcium score, so a zero belongs in a shared decision, not an automatic rule. Familial
+hypercholesterolemia and a very high Lp(a) override a low score.
+
+Once a person is above the treatment threshold, the two major guideline families have converged on
+aggressive LDL-C goals — a goal of <55 mg/dL (1.4 mmol/L) in secondary prevention
+[@accaha2026], the same very-high-risk target the
+2025 ESC/EAS focused update carries forward [@esceas2025].
+But both families rest on the same trial base, so this is shared warrant, not two independent
+witnesses — and the specific cut is a reasoned stopping point on a monotone curve, not a
+trial-certified optimum. -> [[LDL Lowering and Cardiovascular Events]]
+
+### Lp(a): a fixed particle that raises the stakes
+
+Lp(a) is an apoB-containing particle set almost entirely by genetics — stable over life, unmoved by
+diet, exercise, or weight. It is not a lever. It earns attention as a **risk multiplier**: higher
+Lp(a) tracks higher vascular risk (\~16% per each roughly 3.5-fold increment for coronary disease),
+confined to vascular outcomes. [@erqou2009lpa]
+Because that extra risk holds at every cholesterol level, a high Lp(a) raises the *absolute* payoff
+of the LDL/apoB-lowering levers a person *can* pull — reason to lower apoB harder, not reason to do
+anything Lp(a)-specific with lifestyle. -> [[Lipoprotein(a) and Cardiovascular Risk]]
+
+## The statin's real costs are smaller than its reputation
+
+Two fears drive people off statins, and the trial evidence sizes both.
+
+**Muscle symptoms are mostly not the drug.** In \~155,000 people in blinded trials, statins raised
+any muscle pain or weakness by a hair (RR 1.03), with the small excess confined to year one — only
+about 1 in 15 such reports was actually caused by the drug. [@reith2022muscle]
+A dedicated n-of-1 trial in people who had already quit statins for side effects found that 90% of
+the symptom burden a statin produced was also produced by an identical placebo — a nocebo effect,
+the symptom real but not statin-specific. [@wood2020samson]
+Half those patients successfully restarted.
+
+**New-onset diabetes is real, but small.** Unlike the muscle fear, this is a genuine pharmacological
+effect: statins raise new diabetes diagnoses by \~10% at low/moderate intensity and \~36% at high, an
+absolute excess near 1.2 per 1,000 person-years at standard doses. [@reith2024diabetes]
+It works by nudging glycemia up a fraction, so it lands almost entirely on people already at the
+diabetes threshold — and the cardiovascular benefit already nets it out. Neither harm changes the
+start-or-continue decision for someone with a real indication. -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]]
+
+## Eggs and dietary cholesterol: close to a non-lever
+
+The cholesterol *in food* is a weak lever on the cholesterol *in blood* for most people. A medium
+egg carries about 180 mg of cholesterol, but absorption and the body's own synthesis largely
+compensate, so dietary cholesterol barely moves serum LDL except in a minority of
+"hyper-responders." [@godos2020]
+The apoB lever runs mainly through other routes — genetics and saturated fat, not ingested
+cholesterol. For cardiovascular purposes eggs are close to a non-lever for the general population,
+and the full appraisal, including the strata and cautions, lives on its own page.
+-> [[Eggs Dietary Cholesterol and Cardiovascular Risk]]
 
 ## Lipids are one axis of cardiovascular risk, not the whole of it
 
-Lowering apoB is the lipid-axis answer, not the whole cardiovascular answer. **Inflammation is a separate, additive causal lever**: in the CANTOS trial, canakinumab cut cardiovascular events **«independent of lipid-level lowering»** in statin-treated patients whose LDL was already controlled [@ridker2017cantos]. A person at goal on apoB can still carry residual inflammatory risk that lipid-lowering does not touch -> [[Inflammation as a Modifiable Lever]]. Blood pressure is the parallel large cardiovascular lever, handled on its own axis -> [[Blood Pressure]].
+Lowering apoB answers the lipid axis, not the whole cardiovascular question. Inflammation is a
+separate, additive lever: in the CANTOS trial, canakinumab cut recurrent cardiovascular events
+«independent of lipid-level lowering» in statin-treated patients whose LDL was already controlled.
+[@ridker2017cantos] So a person at goal
+on apoB can still carry residual inflammatory risk that lipid-lowering does not touch, and blood
+pressure is the parallel large lever handled on its own axis. -> [[Inflammation as a Modifiable Lever]], [[Blood Pressure]]
 
-<div class="recent-update" data-last-updated="2026-09-07">
+There is also a second outcome beyond the artery: higher LDL-C in midlife tracks higher later
+dementia incidence (about 8% per 1 mmol/L, midlife-specific), which adds to the reasons to lower it
+without changing the cardiovascular verdict. [@livingston2024]
+-> [[Dementia Prevention and Modifiable Risk Factors]]
 
-## What to measure, when to act, and what is still open
+## What to do with this
 
-**Measure.** For most people the ordinary LDL-C (or non-HDL-C) suffices. **Add apoB** where LDL-C is likely to undercount the particles — high triglycerides (>=150 mg/dL), diabetes, metabolic syndrome, or a low achieved LDL-C on treatment.
+Rank the levers by size, and the lipid axis sorts itself quickly:
 
-**Act on absolute risk, not the number alone.** Get the 10-year risk first: below \~7.5% a healthy adult is not a drug candidate, and a zero calcium score reinforces deferral where a body allows it. In the grey zone (\~7.5-20%), CAC=0 roughly halves-to-quarters the modeled benefit and belongs in shared decision-making. Familial hypercholesterolemia, LDL-C >190 mg/dL, and (plausibly) high Lp(a) warrant treatment regardless of score.
+- **Get the absolute risk first.** A 10-year risk estimate, and a calcium scan in the grey zone,
+  decides whether the lipid lever is worth pulling at all. Below the treatment threshold, a
+  fraction-of-a-percent absolute benefit rarely justifies a lifelong drug.
+- **Read the right number.** LDL-C is fine if you are lean and metabolically healthy; ask for apoB
+  or non-HDL-C if you are insulin-resistant, hypertriglyceridemic, or diabetic, where LDL-C
+  under-reads the danger.
+- **If the lever is worth pulling, lower and keep it lowered.** The benefit is proportional with no
+  floor in the studied range, and a drug's per-unit effect is the one actually measured on hard
+  events. A diet-lowered number is a real but modest and less-certain version of the same lever.
+- **Do not let the small costs decide it.** Muscle complaints are mostly nocebo; the diabetes risk
+  is real but small and already counted in the benefit.
+- **Spend little worry on eggs.** Dietary cholesterol is a minor input to the number that matters.
 
-**Mind the route.** A drop achieved by diet is not automatically worth an equal drop achieved by a drug; validate that a given intervention moves particles and hard outcomes, not just cholesterol.
-
-**Don't let the two feared harms stop an indicated statin.** Muscle aches are mostly nocebo — a blinded rechallenge sorts the rare true myopathy from the far more common false alarm; the small, real diabetes effect is already outweighed by the vascular benefit and needs no special monitoring.
-
-**Still open.** No trial has randomized patients to *target* apoB versus LDL-C on hard outcomes; no trial has randomized statins by calcium score; and the wiki does not yet hold the primary-prevention specifics for ezetimibe, PCSK9 inhibitors, or Lp(a) as a distinct modifiable particle. Nor has any trial randomized a statin *deprescribing* rule or a diabetes-*management* strategy against patient-important outcomes, so the *don't stop for muscle aches, don't monitor for the glucose rise* rules are from causal attribution and net benefit, not tested as interventions. The loop is open throughout — these are appraisals of what the evidence supports, not verdicts graded against realized outcomes.
+The loop stays open: nothing here has been graded against a realized outcome for a specific person.
+What is settled is the direction and the mechanism; what is personal is the weighting and the
+baseline risk you bring to it.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
-> | **Question** | What does the evidence show about atherogenic (apoB-containing) lipoproteins and atherosclerotic cardiovascular disease — the nature and strength of the relationship, which lipid number best captures the risk and in whom the numbers diverge, how much a change in that number moves hard cardiovascular events per unit, whether the route of the change (diet vs drug) alters the effect, and for whom and when acting to lower it is warranted? |
-> | **Evidence included** | 21 sources — 10 gold, 11 high |
+> | **Question** | 'What is the relationship between apoB-containing lipoproteins and atherosclerotic cardiovascular disease — how settled is it, which number best captures a person''s risk and where do the numbers diverge, how much does moving that number change hard events, does it matter whether diet or a drug does the moving, and for whom is acting warranted?' |
+> | **Evidence included** | 24 sources — 13 gold, 11 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
-
-</div>
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
 
 ## References

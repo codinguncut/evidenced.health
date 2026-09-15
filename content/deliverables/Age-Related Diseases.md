@@ -24,8 +24,6 @@ sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors
   ESC - CVD Prevention Guidelines 2021, Lopez-Bueno - Handgrip Strength Thresholds]
 ---
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## The verdict
 
 You do not need a separate anti-dementia diet, an anti-cancer diet, and an anti-heart-disease regimen.
@@ -50,8 +48,6 @@ where they work at all, through the same cardiometabolic pathways as the shared 
 those levers, they do not add new ones alongside them.
 
 Start with why the same short list keeps reappearing.
-
-</div>
 
 ## One set of levers, several diseases
 
@@ -113,8 +109,6 @@ One exposure in the table already breaks the
 pattern outright -- smoking's apparent protection against Parkinson's, flagged above -- and later
 sections return to why Parkinson's and a few other diseases resist the shared-lever logic more broadly.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Does pulling those levers actually prevent a disease?
 
 The shared list lowers *risk markers* reliably; whether it prevents a *disease* has been tested most
@@ -132,8 +126,6 @@ This is the shared-lever thesis's sharpest test, so it earns a full appraisal of
 the responder-subgroup null that closes off targeting the highest-risk person, the per-lever ranking, and
 the diet and sleep candidates that turn out to route through the same cardiometabolic rocks rather than
 adding independent targets, all live in [[Dementia Prevention]].
-
-</div>
 
 ## Cancer, heart disease, diabetes — the increments beyond the rocks
 
@@ -370,8 +362,6 @@ a disease where most of the shared core does not transfer; the eyes show that ev
 system, one lever (physical activity) can transfer to one disease (cataract) and not its neighbour
 (macular degeneration).
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Length, trajectory, and how the ranking shifts by age
 
 The wiki holds no single scalar for "health," so a lever's payoff has to be named by which axis it
@@ -445,10 +435,6 @@ risk, and no single aggregate cross-disease burden figure can be built by adding
 diseases covered here — a structural limit (`G`, needs aggregation the fabric cannot perform), named
 rather than computed.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## What does not move the needle much
 
 That leaves the exposures people spend the most attention on -- and where attention runs inverse to
@@ -462,8 +448,6 @@ appraisal -- the numbers, the reverse-causation and measurement-error checks, an
 split -- lives in [[Dementia Prevention]].
 
 Three things the evidence cannot yet tell us.
-
-</div>
 
 ## What the evidence still cannot tell us
 
@@ -489,8 +473,6 @@ heart disease and falls would manufacture a combined number no study measured. T
 limit on what a review of separate studies can produce, not a gap a bigger meta-analysis eventually
 closes — closing it would need a single study designed to track the combined outcome directly, and none
 exists.
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## What to do
 
@@ -537,7 +519,5 @@ order, and adjusted as a person ages.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
-
-</div>
 
 ## References

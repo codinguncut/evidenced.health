@@ -151,8 +151,6 @@ estimates + the secondary-endpoint caveat: [[Vitamin and Mineral Supplements for
 the Test-3 collinearity framing: [[Is the Food Category Doing Any Work]].
 [inferred from @sesso2022cosmos]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## A flavonoid SUBCLASS reproduces the borderline signal — and its LINEAR dose-response goes null (Nachvak 2019)
 
 Isoflavones are a flavonoid subclass, and Nachvak's soy-mortality MA estimates soy-isoflavone intake
@@ -189,8 +187,6 @@ looks like — the nonlinear-significant/linear-null split is itself consistent 
 or confounded signal, not a cleanly dosable component effect). Isoflavones carry their own soy-specific
 caveats — 19/23 Asian cohorts, survivor-dominated breast-cancer cells — held at
 [[Soy Products and Health]].
-
-</div>
 
 ## The cognition sibling (2026-09-04)
 

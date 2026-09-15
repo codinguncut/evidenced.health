@@ -3,13 +3,13 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna; Peng, Yinshun; Zhou, Yuhan]
-sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, NNR - Nordic Nutrition Recommendations 2023, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
+authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna; Peng, Yinshun; Zhou, Yuhan; Mazidi, Mohsen; Sesso, Howard D; Chung, Mei; Norouzzadeh, Mostafa; Siervo, Mario]
+sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Chung - Tea Consumption Cardiovascular Dose-Response 2020, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, Mazidi - Flavonoid Intake and Mortality 2020, NNR - Nordic Nutrition Recommendations 2023, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
 confidence: low
 created: 2026-07-30
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 ---
 
 **Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
@@ -82,6 +82,8 @@ real feature. Such an arm has to survive an artifact check before it earns a pla
 With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
 and where it simply cannot single out any one food.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What each plant group does, outcome by outcome
 
 An exposure has no single number. Each plant group moves several outcomes by different amounts, with
@@ -152,7 +154,8 @@ cognitive disorders (OR: 0.82, 95% CI: 0.75–0.90)»
 [@zhou2022fruit], with modest
 heterogeneity (I2 35.3%). A flavonoid meta-analysis reads the same signal at the component altitude:
 higher dietary flavonoid intake tracks «lower risk of adverse cognitive events (pooled OR = 0.90,
-95% CI: 0.83–0.98, P = 0.01)» [@peng2025flavonoid].
+95% CI: 0.83–0.98, P = 0.01)» [@peng2025flavonoid]
+-> [[Flavonoid Intake and Cognitive Function]].
 
 These are **not two independent lines** confirming a plant-to-brain benefit. Flavonoids are a component
 *of* fruit and vegetables, so the flavonoid result is the component-side of Zhou's whole-food signal —
@@ -285,8 +288,57 @@ Nuts are a plant food, and the same Aune lineage reports an inverse all-cause as
 The increment differs from the other groups, so nuts are not separately rankable against them on these
 numbers.
 
+### Plant bioactives and beverages — the component cells confirm the spine
+
+Three narrower cells test the food-vs-component question below the food-group level — at the bioactive
+compound and the beverage. Each **reinforces** the isolate discipline rather than overturning it: where a
+design tries to pull a single plant compound out of the whole-food signal, the effect shrinks or stays a
+surrogate. None re-anchors the food-level verdict; each is a bounded cell added to the matrix.
+
+**Flavonoids — a borderline mortality association the isolating trial does not confirm.** Pooling
+16 cohorts, higher flavonoid intake tracks lower all-cause (RR 0.87, 0.77-0.99) and cardiovascular
+(0.85, 0.75-0.97) mortality, cancer null (0.86, 0.65-1.14)
+[@mazidi2020flavonoid]. But "flavonoid intake" is estimated
+from the very fruit, vegetables and tea it would need to be separated from, so it re-expresses the
+healthy-eater pattern, not the compound -> [[Flavonoid Intake and Mortality]],
+[[Is the Food Category Doing Any Work]]. The one design that physically removes a food-borne flavanol —
+COSMOS, a randomized cocoa-flavanol extract on hard CV events — was **null on its primary composite
+(HR 0.90, 0.78-1.02; P=0.11)** [@sesso2022cosmos].
+The isolating check runs toward the null, as the streetlight critique predicts: chase the foods, not a
+flavonoid supplement.
+
+**Tea — a per-cup signal that vanishes in the best-measured studies.** Chung's 2020 pooling of
+39 prospective cohorts (no RCT met inclusion) reports per-cup relative risks within 1-4% of 1.0 — CVD
+mortality 0.96 (0.94-0.98), all-cause 0.98 (0.97-0.99)
+[@chung2020tea]. The decisive fact is a
+risk-of-bias gradient: «Generally, studies with higher ROBs appeared to show larger magnitudes of
+associations than studies with lower ROBs»
+[@chung2020tea] — and in the studies
+that measured tea best, the all-cause association is exactly null (RR 1.005, 0.972-1.040). The pooled
+benefit rides the worst-measured studies, the pattern of a measurement-and-bias artifact. The source was
+tea-industry funded: no upgrade under symmetric standards
+-> [[Tea Consumption and Cardiovascular Risk]]. Drink tea for enjoyment, not as a health lever.
+
+**Dietary nitrate (leafy greens, beetroot) — a real blood-pressure move, but a surrogate.**
+Norouzzadeh's 2025 GRADE-assessed dose-response meta-analysis of 75 RCTs finds dietary nitrate lowers
+systolic BP dose-dependently: it takes «a daily NO3 dose of 8 mmol» (\~500 mg, about a big serving of
+leafy greens) for a >=2 mmHg SBP fall, steeper in hypertensives (0.38 vs 0.28 mmHg per mmol)
+[@norouzzadeh2025nitrate] —
+plausibly part of why leafy greens carry the tightest CHD/stroke signal above.
+
+But **blood pressure is a
+surrogate**: every endpoint is office BP, plasma nitrate, or a vascular marker, no trial measures events,
+and Siervo 2013's resting-BP benefit was not confirmed on 24-h ambulatory monitoring in the higher-risk
+strata that matter most [@siervo2013nitrate]
+-> [[Surrogate Outcomes]], [[Dietary Nitrate and Blood Pressure]]. GRADE tops out at Moderate; a single
+generic antihypertensive lowers SBP \~12 mmHg
+[@norouzzadeh2025nitrate], so on
+BP alone this is a small marginal rock behind a mature drug.
+
 That is the benefit side. The rest of the plant-food question is two worries — antinutrients and fruit
 sugar — and both shrink under the same isolate lens.
+
+</div>
 
 ## The antinutrient scare is mostly mis-scaled — with named exceptions
 
@@ -445,6 +497,8 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What to do
 
 **Pull two levers.** Get fibre up toward \~30 g/day — by any route, a high-fibre
@@ -471,9 +525,11 @@ event benefit.
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 19 sources — 15 gold, 2 high, 1 moderate |
+> | **Evidence included** | 24 sources — 19 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+
+</div>
 
 ## References

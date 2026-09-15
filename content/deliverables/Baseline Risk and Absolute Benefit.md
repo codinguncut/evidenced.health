@@ -11,8 +11,6 @@ confidence: high
 created: 2026-09-09
 updated: 2026-09-09
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 A relative effect — *cuts your risk by a quarter*, *halves your chance of a heart attack* — sounds
 like a fact about you. It is not. **It is a fact about the treatment.** What the same treatment does

@@ -120,8 +120,6 @@ which biases *against* the benefit. The large benefit survives that conservative
 
 
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## What the held evidence does not yet cover
 
 The fabric holds one gold mortality source (Jha 2013) plus Livingston 2024 for dementia. The
@@ -155,8 +153,6 @@ is unambiguous added risk.
 - **How to quit** — the comparative efficacy of cessation methods (nicotine replacement,
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
-
-</div>
 
 ## Bottom line — what to do
 

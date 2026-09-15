@@ -2,8 +2,8 @@
 type: framework
 question: What does dairy do to cardiometabolic outcomes (all-cause mortality, CVD events, type-2 diabetes) once you stop treating dairy as one undifferentiated food — by category (milk vs cheese vs butter vs fermented) and by fat content — and how much of any signal is confounding artifact?
 aliases: [Dairy and Health, Milk and Mortality, Dairy and CVD, Dairy and Type 2 Diabetes, Milk and Cardiovascular Disease, Full-Fat Dairy]
-authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org); Schwingshackl, Lukas; Bechthold, Angela; Zhang, Yu; Wang, Dong D]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
+authors: [Guo, Jing; Astrup, Arne; Lovegrove, Julie A; Gijsbers, Lieke; Givens, David I; Soedamah-Muthu, Sabita S; Mishali, Moshe; Prizant-Passal, Shiri; Avrech, Tova; Shoenfeld, Yehuda; Mente, Andrew; Dehghan, Mahshid; Scientific Advisory Committee on Nutrition (org); Schwingshackl, Lukas; Bechthold, Angela; Zhang, Yu; Wang, Dong D; Vissers, Linda E T; Burgess, Stephen; Thorning, Tanja Kongerslev; Bertram, Hanne Christine]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, SACN - Carbohydrates and Health 2015, Mente - PURE Healthy Diet Score 2023, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019, Thorning - Whole Dairy Matrix 2017]
 cluster: dairy
 nucleus: true
 confidence: medium
@@ -22,8 +22,8 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 ---
 
 **Nucleus of the `dairy` cluster** — the canonical owner of *what dairy does to cardiometabolic
@@ -196,6 +196,8 @@ instrument in-source). Note Guo does not invoke Michaelsson's own D-galactose hy
 
 
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Mechanism (candidate, not demonstrated) and the matrix hinge
 
 Both MAs propose the same channels without RCT confirmation: dairy minerals (Ca, K, Mg) lower total/LDL-C
@@ -205,10 +207,37 @@ food matrix reducing lipid absorption and short chain fatty acids produced by th
 intestine» [@guo2017]. This is
 the **dairy-matrix** hypothesis — the same SFA behaving differently inside cheese vs butter — held as a
 mechanism to weigh, not a finding; the SFA verdict itself is deferred to
-[[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]]. — the controlled-feeding matrix mechanism (cheese vs
-butter on LDL) that would move this from candidate to directional.
+[[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
+~~~~ **CASHED 2026-09-15 by Thorning 2017** — the
+controlled-feeding matrix mechanism (cheese vs butter on LDL) that moves this from candidate to
+directional (below).
+
+### The food-matrix concept and the cheese-vs-butter LDL leg (Thorning 2017 — labelled-weak, directional-only)
 
 
+
+Thorning et al. 2017 names the mechanism the hypothesis above was invoking without a home: `«The nature
+of the food structure and the nutrients therein (i.e., the food matrix) will determine the nutrient
+digestion and absorption, thereby altering the overall nutritional properties of the food.»`
+[@thorning2017]. The **directional** leg the matrix claim was
+missing is a controlled-feeding contrast: in Tholstrup's whole-diet trial, matched for fat, protein and
+lactose, `«butter caused significantly higher LDL-cholesterol concentrations ... than cheese did,
+whereas the effect of milk was intermediate»` [@thorning2017]
+— so the same milk fat raises LDL more as butter than as cheese, and protein/lactose are not the cause.
+This is the mechanism-directional rule at work: a **surrogate** endpoint (LDL-C, not a hard outcome),
+admitted to inform DIRECTION only, discounted, and marked as mechanism.
+
+Two guards hold the weight down and are why `confidence:` stays **medium**, governed by the gold sources
+above and NOT lifted by Thorning. First, the source states its own limit — `«It has to be clarified
+whether the effects of the various mechanisms have a magnitude to impose an effect in the whole diet
+setting.»` [@thorning2017] — so whether the matrix moves a
+patient-important outcome in a real diet is explicitly open. Second, the directional-sponsor tell: the
+underlying expert workshop was funded by the European Milk Forum and its senior author is a known
+dairy-fat defender, which is exactly the direction such a sponsor would push. A milk-industry-funded
+narrative review is **not** independent robustness backing (NOT-E — no `[E-independent]` with any gold
+source here); it is a mechanistic framing, credited and labelled at point of use.
+
+</div>
 
 ## Off-axis endpoint: a minor protective dental-erosion association (cashes HELD-DAIRY-1)
 
@@ -338,6 +367,8 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 
 
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 
 Gijsbers is the dedicated dairy -> T2D **dose-response** MA (22 prospective cohorts, 579,832 individuals,
@@ -404,19 +435,22 @@ dairy-T2D-protective literature clusters in industry-adjacent groups (Mishali = 
 PURE = Dairy Farmers of Canada; the Soedamah-Muthu lineage here) — a **uniformity tell** about the
 field, not a refutation of any one estimate. The effect is discounted, not deleted.
 
-**One genuine independence signal, held secondhand:** Gijsbers notes a Mendelian-randomization study
-finding `«no evidence of an association between milk and T2D»`
-[@gijsbers2016] — a *genetic instrument*
-reaching the same milk-null the observational pooling reaches, which would be a real type-E route if
-held. It is cited secondhand, so it is a gap, not an asserted finding. — genetic-instrument corroboration of the
-milk -> T2D null.
+**The genetic-instrument leg is now HELD — see the Vissers MR section below.** Gijsbers noted secondhand
+a Mendelian-randomization study finding `«no evidence of an association between milk and T2D»`
+[@gijsbers2016]. That gap is **cashed by
+Vissers 2019** (EPIC-InterAct MR, held 2026-09-15) — a genetic instrument reaching the same milk-null.
+~~~~ **CASHED 2026-09-15 by Vissers 2019**: the
+gap named "genetic-instrument corroboration of the milk -> T2D null" is filled by the held Vissers MR.
+Bergholdt 2015 remains a *distinct* Danish MR (Vissers cites it secondhand, OR 0.99 per 250 g/wk), so it
+is not an independent second witness and is not separately acquired.
 
 **Net effect on this page's T2D leg:** the through-line's *modestly-inverse-for-T2D (Mishali alone)*
 reading is upgraded — the inverse total-dairy signal is now convergent across Gijsbers
 (dose-response), Schwingshackl (food-groups) and Mishali (high-vs-low), but all three re-pool one
 cohort set, so the convergence is robustness-of-pooling, not independence. And the signal is **carried
 by yogurt and low-fat dairy**, with milk, cheese and high-fat dairy null and the milk-null now
-MR-corroborated. Still a small lever; still observational; still no hard-outcome RCT.
+**MR-corroborated by the held Vissers 2019 (section below)**. Still a small lever; still observational for
+the yogurt/low-fat arm; still no hard-outcome RCT.
 
 
 ### Self-critique — Gijsbers append `[run 2026-09-05, before commit]`
@@ -435,5 +469,104 @@ MR-corroborated. Still a small lever; still observational; still no hard-outcome
   field-wide uniformity tell (with Mishali/PURE), discounted symmetrically, not used to delete the effect.
 - **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
   live-culture and measurement-error gaps are named, not closed.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## Vissers 2019 — the genetic-instrument (MR) leg: milk -> T2D is causally null, but only for MILK `[2026-09-15]`
+
+The observational milk-null (above, and the milk-mortality section) always carried an alternative
+reading: residual confounding could hide a real protective *or* harmful milk effect. A Mendelian
+randomization (MR) study breaks that ambiguity, because a birth-fixed genotype cannot be confounded by
+the lifestyle that tracks milk drinking. Vissers 2019 is that leg — EPIC-InterAct, the
+lactase-persistence SNP **rs4988235 (LCT-12910C>T)** as an instrumental variable for milk intake,
+21,820 participants including 9,686 incident T2D cases.
+
+- **The causal estimate is null.** Genetically-predicted milk intake, 2SLS IV analysis: `HR 0.99 per
+  15 g/day (95% CI 0.93, 1.05, I2 = 44%)`; reduced-form per LP allele `HR 0.99 (95% CI 0.94, 1.04)`
+  [@vissers2019dairymr]. The
+  authors conclude «In this European case-cohort study including 9,686 incident type 2 diabetes cases,
+  we did not find evidence for a causal relationship between milk intake and diabetes.»
+  [@vissers2019dairymr] Bootstrap,
+  LP-dominant, and HbA1c-exclusion sensitivity analyses all left the null unchanged.
+- **This is what breaks the confounding alternative for the milk arm.** Vissers reads the observational
+  inverse milk signal directly: «These findings combined support the notion that the inverse association
+  between milk intake and diabetes as seen in some studies (2) is likely caused by residual confounding»
+  (ref 2 = the held Gijsbers 2016 MA) [@vissers2019dairymr]. So the composite (observational null-to-weak-inverse + MR null) is
+  stronger than either alone: the residual-confounding story that would rescue a hidden milk effect is
+  now the *less* supported explanation.
+
+### The instrument tests MILK ONLY — the boundary that stops the null being over-read
+
+rs4988235 raises milk intake and essentially nothing else in the dairy group. Per LP allele: milk
+`β 17.1 g/day (95% CI 10.6, 23.6)`, «but not with intake of other dairy products» — yogurt (β 2.2,
+95% CI -0.5, 4.9; p=0.11) and cheese (β -0.09; p=0.85) both individually null
+[@vissers2019dairymr]. Instrument
+strength is not the issue: `F statistic of the model predicting milk intake was 74.0`
+[@vissers2019dairymr]. So the MR is a
+clean test of the milk arm and **silent on the yogurt/low-fat arm** — Vissers says so: «No conclusion
+can be drawn regarding causality of the relationship of dairy products other than milk with diabetes.»
+[@vissers2019dairymr] This matters for
+the decision: the yogurt/low-fat inverse signal that Gijsbers isolates is exactly where the
+observational protective arm lives, and this MR *cannot* refute it. The milk-MR-null and the
+yogurt-observational-signal are about different exposures; reading the first as sinking the second
+would be the category error the page's type-B decomposition exists to prevent.
+
+### Why this is type-F refinement, NOT type-E independent corroboration
+
+The tempting move is to call MR-agrees-with-observational an independent-route (type-E) convergence
+that should raise confidence. It fails the strict-E test on two counts, so it is scored **F** (the MR
+refines the milk claim by removing the confounding alternative), not E:
+
+| Parameter | Observational milk-null (Gijsbers 2016 MA) | Vissers 2019 MR | Same quantity / independent? |
+|---|---|---|---|
+| Exposure | reported milk intake (FFQ) | genetically-predicted milk intake (rs4988235 IV) | related, different identification |
+| Outcome | incident T2D | incident T2D | yes — same outcome |
+| Participant base | 22-cohort observational pool incl. EPIC cohorts | EPIC-InterAct (8 countries) | **overlapping, NOT disjoint** |
+| Citation relation | — | cites Gijsbers (ref 2) as the MA it is testing | **cite-antecedent — not independent** |
+
+Two disqualifiers, either alone fatal to E: (i) **shared sample** — Vissers runs on EPIC-InterAct,
+whose own observational dairy-T2D analysis (Sluijs 2012) sits inside the observational pool Gijsbers
+meta-analysed, so the two partly rest on the same participants; (ii) **cite-antecedent** — Vissers
+names it as the finding it is testing. Independent routes must be disjoint *and* not cite each
+other; this pair is neither. No `[E-independent]` token is minted. The genuine value is F: the MR adds
+a confounding-proof identification the observational leg structurally lacks. The E-vs-F call is the
+wiki's own strict-E test on the two held sources, not a claim either source makes.
+
+### The MR's own limits (symmetric-standards read)
+
+- **Exclusion restriction is uncheckable.** «The third IV assumption is that the IV solely influences
+  the outcome via a causal pathway that includes the exposure of interest, and cannot be checked»
+  [@vissers2019dairymr]. rs4988235 tracks
+  a broader LP-associated dietary pattern (lower fruit, wine, cereal; higher potatoes) plus larger hip
+  circumference and lower LDL — the authors judge these «modest» and unlikely to have caused the null,
+  uncorrected for multiple testing.
+- **The null does not exclude a small effect.** «Due to aforementioned limitations of this study, we
+  cannot exclude the possibility that a small effect of milk intake on diabetes risk is present, despite
+  our null finding.» [@vissers2019dairymr]
+- **G-gap (named, not silent):** the yogurt / low-fat-dairy causal leg — where the observational
+  protective signal actually concentrates — is **untestable by rs4988235** (the SNP does not move
+  yogurt or cheese intake). Closing it would need a genetic instrument specific to fermented-dairy
+  intake, or a hard-outcome RCT; neither is held. — no fermented-dairy MR identified.
+
+### Self-critique — Vissers append `[run 2026-09-15, before commit]`
+
+- **Overclaim check.** The MR is stated as a null on the *milk* arm only, with the authors' own
+  "cannot exclude a small effect" caveat carried inline. No causal language extended to yogurt/cheese;
+  the boundary is stated three times (instrument specificity, the authors' scope wall, the G-gap).
+- **Laundered-independence check — the load-bearing risk here.** The E-vs-F call is the whole point of
+  the section: a parameter table marks the shared EPIC-InterAct sample and the Gijsbers cite-antecedent,
+  and NO `[E-independent]` token is minted. The convergence is scored F (identification added), not E
+  (independent witness), exactly to avoid laundering shared-cohort agreement into false robustness.
+- **Fake-tension check.** No tension filed — the MR-null and the observational-null agree on the milk
+  arm (F-refinement), and are silent-not-opposed on the yogurt arm (different exposure, not a clash).
+- **Bergholdt handling.** The gap is cashed by the held Vissers, and Bergholdt
+  is explicitly kept as a distinct secondhand-cited Danish MR, not promoted to a held independent
+  witness — so no phantom second source is counted.
+- **Open loop.** MR identifies a causal null for milk; it grades nothing against a realized outcome for
+  the yogurt/low-fat arm, which stays observational. The gap is named, not closed.
+
+</div>
 
 ## References

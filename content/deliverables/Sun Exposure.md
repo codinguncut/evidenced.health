@@ -3,16 +3,14 @@ type: deliverable
 title: Sun Exposure
 question: 'What does the evidence show about sun / UV exposure across its patient-important outcomes — skin cancer (melanoma and keratinocyte cancers) against the all-cause-mortality and vitamin-D signals — how does each effect vary with dose, skin type, and latitude, and how should a person weigh the trade-off?'
 aliases: [Sun Exposure, Sunlight and Health, How Much Sun, UV Exposure, Sunscreen]
-authors: [Lindqvist, Pelle G; Green, Adèle C; Gandini, Sara; Manson, JoAnn E; Zhang, Yu]
-sources: [Lindqvist - Sun Exposure Major Causes of Death 2016, Green - Sunscreen Melanoma Randomized Trial Nambour 2011, Gandini - Cutaneous Melanoma Sun Exposure Meta-Analysis 2005, Manson - VITAL Vitamin D 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019]
+authors: [Lindqvist, Pelle G; Green, Adèle C; Gandini, Sara; Manson, JoAnn E; Zhang, Yu; Aune, Dagfinn]
+sources: [Lindqvist - Sun Exposure Major Causes of Death 2016, Green - Sunscreen Melanoma Randomized Trial Nambour 2011, Gandini - Cutaneous Melanoma Sun Exposure Meta-Analysis 2005, Manson - VITAL Vitamin D 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026]
 confidence: low-moderate
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 Sunlight sits on both sides of the ledger, and the two sides are known with very
 different confidence. Ultraviolet light causes skin cancer — that part is settled, resting
@@ -27,6 +25,8 @@ The vitamin-D pill most people reach for to sidestep the whole question does not
 benefit in trials. Where the balance lands depends on your skin and your latitude: for
 fair skin under strong year-round sun, skin-cancer risk dominates; for darker skin at high
 latitude, the same relative risk is a far smaller absolute one.
+
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## For melanoma, the pattern of exposure matters more than the total dose
 
@@ -67,6 +67,16 @@ they are rarely fatal and are usually treated locally, so melanoma is the lethal
 evidence below quantifies. (The exact keratinocyte-cancer effect sizes are not held in the
 fabric — a named gap.)
 
+The skin is not the only organ UV harms. Ultraviolet light is also an established risk factor for
+age-related **cataract**, the leading global cause of blindness, so the harm side of this trade-off
+includes the eye, not only the skin. Aune's meta-analysis lists UV among the established cataract
+risk factors — alongside diabetes, high BMI, hypertension, smoking, and steroid use — but that paper
+measured *physical activity* against cataract, not UV, so it names UV as a risk factor without sizing
+it [@aune2026vision].
+No held source quantifies a UV -> cataract dose-response, so this arm cannot be weighed
+against the melanoma numbers above — but it licenses one extra, near-free protective move (eye
+protection under strong sun, below). See [[Cataract and Modifiable Exposures]].
+
 ### Sunscreen is the one protective move tested in a randomized trial
 
 Everything above is observational. The single randomized test of sun protection against
@@ -93,6 +103,8 @@ from blocking UV, not from the sunscreen group avoiding the sun
 [@green2011]. The authors'
 own summary is deliberately hedged: «Melanoma may be preventable by regular sunscreen use in
 adults.»
+
+</div>
 
 ## The "sun-avoiders die sooner" signal is real but weakly grounded
 
@@ -196,6 +208,8 @@ but Lindqvist warns against reading sunblock as a licence to bake for longer. Co
 wrinkling and photo-ageing from cumulative UV — are real, but they sit off the health axis; note
 them, weigh them yourself, and do not let them stand in for a cancer or mortality argument.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What to do
 
 - **Don't burn — this is the big lever, and it is nearly free.** Sunburn carries the largest
@@ -203,6 +217,9 @@ them, weigh them yourself, and do not let them stand in for a cancer or mortalit
   holiday-type burning bouts buys most of the achievable risk reduction.
 - **Use sunscreen and cover up in strong sun.** It is the one protective step shown in a
   randomized trial to lower melanoma, and it worked without anyone spending less time outside.
+- **Protect the eyes too.** Sunglasses or a brimmed hat in strong sun are near-free, and UV is an
+  established risk factor for cataract — a distinct harm from skin cancer, on the vision/function
+  side of the ledger (how much UV drives cataract is not quantified in the fabric).
 - **Do not treat a vitamin-D pill as a stand-in for sunlight.** Supplement trials in replete
   people show no all-cause mortality benefit, so the pill does not buy whatever the sun's signal
   might represent. Repletion of a genuine deficiency is a separate question (see
@@ -234,9 +251,11 @@ on it makes any individual better off.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about sun / UV exposure across its patient-important outcomes — skin cancer (melanoma and keratinocyte cancers) against the all-cause-mortality and vitamin-D signals — how does each effect vary with dose, skin type, and latitude, and how should a person weigh the trade-off?' |
-> | **Evidence included** | 5 sources — 2 gold, 3 high |
+> | **Evidence included** | 6 sources — 3 gold, 3 high |
 > | **Overall certainty** | **Low-moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sun%20Exposure.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sun%20Exposure.md) |
+
+</div>
 
 ## References

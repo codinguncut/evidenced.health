@@ -17,8 +17,6 @@ relationships:
     - Multidomain Lifestyle Intervention and Cognitive Decline
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-page" data-last-updated="2026-09-10"></div>
-
 
 Two gold sources on the same exposure-outcome pair, both built to defeat reverse causation, reach
 opposite verdicts. Iso-Markku's aggregate SR+MA finds the protective association *survives* long

@@ -23,7 +23,7 @@ relationships:
     - ApoB Particle Number vs Cholesterol Content
 created: 2026-07-29
 updated: 2026-09-10
-self_critiqued: 2026-08-19
+self_critiqued: 2026-09-14
 ---
 
 **The causal model behind the lipid axis.** Most of the wiki's cardiovascular reasoning runs on LDL-C
@@ -59,8 +59,6 @@ lifelong exposure) and the LDL-lowering RCTs (intervene on LDL, the outcome move
 compelling* causal evidence): the natural experiment and the intervention agreeing, the top of the
 mechanism-strength gradient, not a mechanistic story.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## The dose is CUMULATIVE — magnitude x duration, not current level
 
 The dose-response is **log-linear** across >2 million participants and >150,000 events, and it compounds
@@ -86,10 +84,6 @@ Two decision consequences follow:
   apoB −15%) whose event benefit is read off *this* scale — a borrowing, since no Portfolio trial has
   measured events. (Same-school source, not independent corroboration of the causal scale; confidence
   here unchanged.)
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-10">
 
 ## Measure apoB, not just LDL-C, in the metabolically-impaired — they DISCORD
 
@@ -147,8 +141,6 @@ insulin-resistance and apoB axes that the wiki had held apart; the IR state itse
 ectopic-fat overflow -> [[Ectopic Fat and Depot-Specific Risk]], where "metabolic status matters" is
 causal for the *glycemic* axis but the CVD *lipid* target within it is still apoB.)
 [inferred from @liu2022tyg; @ference2017]
-
-</div>
 
 ## Second outcome — high LDL-C is a new (2024) dementia risk factor
 

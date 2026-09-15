@@ -2,8 +2,8 @@
 type: framework
 question: How much does lowering LDL/apoB reduce hard cardiovascular events, per unit of lowering — and which lipid number should the target be?
 aliases: [LDL Lowering Magnitude, Statin Per mmol Effect, CTT Meta-Analysis, LDL Reduction Events, ApoB vs LDL-C, Which Lipid to Target, LDL-C Event Reduction]
-authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna; Landry, Matthew J; Reith, Christina]
-sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024]
+authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna; Landry, Matthew J; Reith, Christina; Ma, Chaoran; Gao, Xiang; Li, Wangwen]
+sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -21,9 +21,10 @@ relationships:
     - Vegetarian Dietary Patterns and Mortality
     - Statin Muscle Symptoms and the Nocebo Effect
     - Statins and New-Onset Diabetes
+    - The U-Shaped Association Artifact
 created: 2026-08-05
-updated: 2026-09-07
-self_critiqued: 2026-08-29
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 ---
 
 Two separable questions sit under the lipid lever, and two sources answer them. **How much does
@@ -64,6 +65,8 @@ direction, and a worked instance of [[Surrogate Outcomes]]'s counter-exemplar. A
 cancer or non-vascular mortality** even at low LDL, which retires the old low-cholesterol-harm hypothesis
 for the *drug-lowered* range.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## The shape — monotone, no threshold, multiplicative
 
 - **No knee, no plateau in the studied range.** «There was no evidence of any threshold within the
@@ -79,7 +82,131 @@ for the *drug-lowered* range.
 - A clean confirmation of the corpus's operative dose-response default — *every reduction pays*; the burden
   is on anyone claiming a knee to locate it. The persistence of benefit at low LDL also means there is no
   protective *lower* arm (no harm from low LDL in the drug-lowered range), the interventional parallel to
-  [[The U-Shaped Association Artifact]].
+  [[The U-Shaped Association Artifact]]. **This no-harm reading is OUTCOME-SPECIFIC** — it holds for major
+  vascular events, all-cause mortality and ischaemic/total stroke, but an observational inverse association
+  runs the *other* way for the hemorrhagic (intracerebral) stroke subtype -> the counter-signal section
+  below.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## The hemorrhagic-stroke counter-signal — an observational low-LDL harm arm, subtype-specific and causally unsettled `[2026-09-15, Ma]`
+
+CTT's *no-harm-at-low-LDL* conclusion is the *drug-lowered, composite-outcome* reading. Ma's 2019 dose-response
+meta-analysis of **12 prospective studies (476,173 participants, 7587 hemorrhagic-stroke cases)** points
+the other way for one subtype: **lower LDL-C associates with HIGHER hemorrhagic (intracerebral) stroke
+risk** — per 10 mg/dL higher LDL-C, RR 0.97 (95% CI 0.95-0.98), i.e. the risk *rises* as LDL-C falls.
+[@ma2019ldlstroke] The signal concentrates below \~110
+mg/dL descriptively, though the formal non-linearity test was NOT significant («We did not detect any
+significant non-linearity relation between LDL-C and hemorrhagic stroke (p = 0.09, Fig. 2)»
+[@ma2019ldlstroke]), so 110 is a descriptive break, not a
+located knee, and the primary model is a straight-line inverse association over the studied range (\~39-153
+mg/dL).
+
+**This is a DISTINCTION from CTT, not a tension — different exposure, different outcome, different
+estimand.** Before reading it as a low-LDL harm arm that contradicts the page's benefit magnitude, the
+parameter table (not-joined check (ii): different quantity):
+
+| Parameter | CTT 2010 | Ma 2019 | Same quantity? |
+|---|---|---|---|
+| Design | RCT IPD meta-analysis (causal) | observational prospective-cohort MA (association) | No |
+| Exposure | *drug-lowering* LDL-C (statin) | measured LDL-C level (largely naturally-occurring; a cited cohort had <1% lipid-lowering-drug use) | **No** |
+| Outcome | major vascular events / all-cause mortality / any stroke | hemorrhagic (intracerebral) stroke only | **No** |
+| Estimand | causal effect of *lowering* | risk *discrimination* / association | No |
+| Sign at low LDL | benefit persists, no threshold, no excess harm | higher hemorrhagic-stroke risk | opposed, but not the same quantity |
+
+So the two are compatible statements about different things: CTT says *lowering LDL with a drug* cuts
+composite events and mortality with no threshold; Ma says *people who already have low LDL* carry more
+hemorrhagic-stroke risk. The decisive appraisal move is that **Ma's signal is observational and the authors
+themselves stop at a biomarker claim, not causation** — they flag the two artifact routes explicitly:
+reverse causation («low LDL-C concentrations could be due to certain pre-clinical pathologic changes of
+hemorrhagic stroke» [@ma2019ldlstroke]) and residual
+confounding («that residual confounding may contribute to the low LDL-C concentrations»
+[@ma2019ldlstroke]), concluding only that «low LDL-C could
+be a biomarker for increased hemorrhagic stroke risk» [@ma2019ldlstroke]
+and calling for MR + safety-monitored trials. This is a textbook case for [[The U-Shaped Association Artifact]]: a protective/harm arm read off observational data **must survive a referent-correction or a
+genetic/objective check before it is believed**, and neither has been applied here.
+
+**The causal question is a G-gap; the intervention arm has now landed and the genetic arm has not.**
+[inferred from @ma2019ldlstroke] Does low (especially
+drug-lowered / very-low PCSK9i-range) LDL *causally* raise intracerebral hemorrhage, or is Ma's association
+reverse-causation/frailty confounding? Ma's observational data cannot say — but an interventional NMA can
+test the *lowering* leg directly.
+
+### The intervention arm — Li 2025: lowering LDL with drugs does not reproduce the observational ICH harm `[2026-09-15, Li]`
+
+Li's Bayesian network MA of **38 RCTs (271,411 individuals)** of statins and PCSK9 inhibitors versus
+placebo, primary outcome ICH, is the interventional test the Ma section owed. The result: **no agent
+significantly raises ICH** — every per-agent credible interval crosses 1
+[@li2025ldlich]:
+
+| Agent (vs placebo) | ICH OR (95% CrI) | Agent (vs placebo) | ICH OR (95% CrI) |
+|---|---|---|---|
+| Alirocumab | 0.84 (0.34–2.2) | Rosuvastatin | 1.4 (0.84–2.2) |
+| Atorvastatin | 1.1 (0.65–1.7) | Pravastatin | 1.3 (0.84–1.9) |
+| Bococizumab | 1.4 (0.51–3.7) | Simvastatin–Ezetimibe | 1.2 (0.63–2.3) |
+| Fluvastatin | 0.58 (0.19–1.7) | Simvastatin | 0.91 (0.53–1.5) |
+| Lovastatin | 0.20 (0.0064–1.6) | Evolocumab | 1.2 (0.48–2.8) |
+
+> «In our analysis, active therapy was associated with a nonsignificant increase in the risk of ICH.»
+> [@li2025ldlich]
+> «LDL-Cholesterol lowering agents (statins and PCSK-9 inhibitors) was not associated with a significant increased risk of ICH.»
+> [@li2025ldlich]
+
+The no-excess-ICH result held across every subgroup Li could cut — coronary-heart-disease and healthy/
+no-CHD patients, primary and secondary prevention, and lipophilic vs hydrophilic statins alike — and the
+authors read the residual weak signal as off-target, not LDL-mediated: «any potential increase in ICH
+risk could be attributable to other non-LDL effects of statin therapy»
+[@li2025ldlich]. Mortality
+*fell* under two agents (atorvastatin OR 0.82 [0.69–0.97], rosuvastatin 0.79 [0.65–0.95]; rest NS)
+[@li2025ldlich], so the net direction in the
+trials is favourable, not harmful.
+
+**Ma + Li: a DISTINCTION that resolves toward artifact, not a tension — different estimands (not-joined
+check (ii)).** [inferred from @ma2019ldlstroke; @li2025ldlich]
+
+| Parameter | Ma 2019 | Li 2025 | Same quantity? |
+|---|---|---|---|
+| Design | observational prospective-cohort dose-response MA | RCT Bayesian network MA (causal) | No |
+| Exposure | measured LDL-C *level* (largely naturally occurring) | *drug-lowering* of LDL (statins + PCSK9i) vs placebo | **No** |
+| Outcome | intracerebral (hemorrhagic) stroke | intracerebral hemorrhage | Yes |
+| Estimand | risk association per 10 mg/dL LDL-C | causal OR of a lowering agent vs placebo | **No** |
+| Result at low/lowered LDL | higher ICH (RR 0.97 per 10 mg/dL, 0.95–0.98) | no significant ICH excess (all CrIs cross 1) | — |
+
+The exposures and estimands differ, so this is not a joined tension. But the two answer the *decision*
+question together: a causal reading of Ma's association predicts that *lowering* LDL should raise ICH, and
+the interventional evidence **does not reproduce that** — the type-F composite (Li supplies the causal leg
+Ma lacked) points to Ma's low-LDL/ICH association being **substantially non-causal-via-lowering** (reverse
+causation / frailty confounding, or a non-LDL statin channel), exactly the failure the U-shaped-artifact
+rule predicts for an observational arm that survives no interventional check
+-> [[The U-Shaped Association Artifact]]. Author lists are disjoint (Li, Wangwen vs Ma, Chaoran) and the
+evidence streams independent, which is why the composite is not circular — but it is **F, not
+`[E-independent]`** (the two reach *different* claims, not the same one).
+
+**Two honesty guards keep this from over-claiming a refutation (symmetric standards).**
+
+- **Li's harm arm is a wide-CI null, not a tight no-effect.** ICH is rare, so several CrIs stay
+  consistent with a real increase (rosuvastatin up to 2.2x, bococizumab up to 3.7x); Li shows *no
+  significant* excess, not *proven* safety, and moderate heterogeneity plus possible ICH publication-bias
+  asymmetry sit on the estimate. [@li2025ldlich]
+- **Estimand + horizon gap.** Ma's exposure is a *lifelong* LDL-C level; Li's is a few years of
+  drug-lowering. If low LDL raises ICH through slow structural vessel change (Ma cites microaneurysm /
+  arterial-wall fragility), a short trial need not reproduce a lifetime effect — so the intervention null
+  bounds, but does not fully close, the level-based causal question.
+
+- **Causal/genetic arm — still the G-gap.** A Mendelian-randomization check on whether the low-LDL/ICH
+  signal is causal or confounded (Qin 2023, lipids + lipid-lowering drugs vs stroke subtypes; Frontiers,
+  moderate tier, **not held — cut**, not awaited) would close the lifelong-exposure leg the trial horizon
+  cannot. Named here as the genetic-check lever the artifact rule demands, not asserted.
+
+Operative reading now: the LDL-lowering benefit on composite CV events and mortality is causal and robust;
+the subtype-specific low-LDL hemorrhagic-stroke *association* (Ma) is **not reproduced by drug-lowering in
+RCTs** (Li), so it is most likely non-causal-via-lowering and certainly does not license withholding
+LDL-lowering from a person whose absolute ischaemic/vascular risk dominates. The one residual leg is the
+genetic (lifelong-exposure) check.
+
+</div>
 
 ## The metric — Marston: target apoB *particle number*, not cholesterol content or particle type
 
@@ -164,7 +291,7 @@ programme across all three. The value here is A/F (magnitude × metric assembled
 Marston refines what CTT's LDL-C scaling *is*; Richardson adds the genetic-MR leg), **not** independent
 triangulation — so none of the three is tagged `[E-independent]`.
 
-<div class="recent-update" data-last-updated="2026-09-07">
+<div class="recent-update" data-last-updated="2026-09-14">
 
 ## Decision relevance
 
@@ -175,6 +302,11 @@ triangulation — so none of the three is tagged `[E-independent]`.
   the same treat-on-absolute-risk logic as the BP lever ([[Baseline Risk and the Relative-Absolute Split]],
   [[Statins for Primary Prevention and the Power of Zero CAC]]). CTT's constant RR across every baseline
   stratum is what licenses stratifying on baseline risk without any subgroup claim (route a).
+- **A high Lp(a) is one such baseline-risk multiplier.** Because the Lp(a)-CHD association holds at
+  every level of non-HDL cholesterol, a known-high Lp(a) raises a person's absolute risk and so raises
+  the absolute benefit the *same* LDL/apoB reduction buys — a route-(a) shift needing no subgroup claim,
+  since nothing lifestyle does moves Lp(a) itself. [@erqou2009lpa]
+  -> [[Lipoprotein(a) and Cardiovascular Risk]]
 - **Lower and longer both pay** (no threshold, multiplicative) — but "worth it" is a net-effect call: the
   rhabdomyolysis excess (4 vs 1 per 10,000) was confined to 80 mg simvastatin, and the whole-strategy
   trade-off, not the LDL number, is the unit of decision.

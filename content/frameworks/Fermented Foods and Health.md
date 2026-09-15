@@ -2,8 +2,8 @@
 type: framework
 question: Do live-fermented foods change a patient-important outcome — and if so, is the effect from the live cultures, the food matrix, or the biochemistry fermentation performs? And must the cultures be alive?
 aliases: [Fermented Foods, Fermented Food, Fermented Dairy, Kefir, Kimchi, Kombucha, Sauerkraut, Live Cultures, Fermentation]
-authors: [Wastyk, Hannah C; Fragiadakis, Gabriela K; Perelman, Dalia; Gardner, Christopher D; Sonnenburg, Justin L; Zhang, Kui; Chen, Xiaogang; Zhang, Lin; Deng, Zeyuan; Guo, Jing; Astrup, Arne; Soedamah-Muthu, Sabita S; Gijsbers, Lieke]
-sources: [Wastyk - Fermented Foods Microbiota Immune RCT 2021, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016]
+authors: [Wastyk, Hannah C; Fragiadakis, Gabriela K; Perelman, Dalia; Gardner, Christopher D; Sonnenburg, Justin L; Zhang, Kui; Chen, Xiaogang; Zhang, Lin; Deng, Zeyuan; Guo, Jing; Astrup, Arne; Soedamah-Muthu, Sabita S; Gijsbers, Lieke; Vissers, Linda E T; Burgess, Stephen]
+sources: [Wastyk - Fermented Foods Microbiota Immune RCT 2021, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019]
 cluster: fermented-foods
 nucleus: true
 confidence: low
@@ -16,8 +16,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-05
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 ---
 
 **The fabric's fermented-foods nucleus, and it opens near-empty.** Two sources anchor it and neither
@@ -191,6 +191,8 @@ contrasts the two arms directly and they behaved differently — see the refinem
 
 
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Yogurt -> T2D: the one fermented-dairy leg with a located dose-response `[2026-09-05]`
 
 Gijsbers 2016 (dairy -> T2D dose-response MA, 22 cohorts, 43,118 cases; gold) gives fermented dairy its
@@ -212,11 +214,20 @@ related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compa
   the matrix, the calcium, the protein, or from reverse causation (yogurt eaters are health-conscious);
   the 80 g/d plateau is exactly what a reverse-causation ceiling would also produce. This is the *same*
   live-vs-pasteurized gap the CVD leg has, now standing on the T2D leg.
+- **The genetic-instrument (MR) check does NOT reach this arm.** The held Vissers 2019 EPIC-InterAct MR
+  finds milk causally null for T2D, but its instrument (rs4988235 lactase-persistence) moves milk only —
+  yogurt (β 2.2, 95% CI -0.5, 4.9) and cheese are individually null on the instrument, and the authors
+  state «No conclusion can be drawn regarding causality of the relationship of dairy products other than
+  milk with diabetes» [@vissers2019dairymr].
+  So the confounding-proof leg exists for milk (where it confirms a null) but **not** for yogurt (where
+  the observational protective signal actually sits) -> the reverse-causation question above stays open,
+  untouched by MR. See [[Dairy and Cardiometabolic Health]] Vissers section.
 - **Not independent of the dairy nucleus.** Full dose-response detail, the total-dairy ECHO parameter
   table (Gijsbers == Schwingshackl, shared cohorts), and the industry-lineage tell live on
   [[Dairy and Cardiometabolic Health]] — this section is the fermented-food-side cross-link, not a
   second appraisal.
 
+</div>
 
 ## The protective subtype is outcome-specific — and no subtype is robust across both endpoints
 
@@ -264,6 +275,8 @@ outcome-specific reading still cannot name what in the subtype does the work.
 
 
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Self-critique `[run 2026-08-05, before commit]`
 
 - **Overclaim on the surrogate RCT — the top risk — checked and held down.** The page leads every
@@ -294,5 +307,18 @@ outcome-specific reading still cannot name what in the subtype does the work.
 - **Not-joined.** No tension with the CVD leg — the yogurt T2D leg is a second endpoint, same
   observational substrate, filed as an added leg not a clash. The live-culture gap is carried across
   from the CVD leg unchanged.
+
+### Self-critique — Vissers MR boundary append `[run 2026-09-15, before commit]`
+
+- **Overclaim.** The Vissers cross-link is stated as a *boundary*: the MR confirms a milk null but is
+  explicitly silent on the yogurt arm (quoted scope wall). It adds no causal claim to yogurt and does
+  not raise page `confidence` (stays `low`).
+- **No laundering.** The MR is not credited as independent support for the yogurt signal — the opposite:
+  the section says the confounding-proof leg does NOT reach yogurt, so the reverse-causation question
+  stays open. The E-vs-F audit is deferred to the dairy nucleus page.
+- **Not-joined.** No tension — milk-MR-null and yogurt-observational-signal are different exposures, so
+  silence-not-clash; the note prevents the milk null being mis-read as refuting the yogurt arm.
+
+</div>
 
 ## References

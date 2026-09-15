@@ -3,15 +3,13 @@ type: deliverable
 title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-15
 question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
-sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020]
+sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014]
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 ## Intake sets the deficit; how you spend it decides what else you lose
 
@@ -120,6 +118,8 @@ of body mass, though that figure is exploratory
 matters: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What each method actually moves
 
 **The drug moves the most weight, and once, moves an outcome.** Semaglutide took off about 12.4
@@ -178,6 +178,24 @@ minor safety point rather than a weight one
 [@ge2020]
 -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
+**The channel that overeating runs through has a name, and it doubles as a lever.** People eat more
+when the same weight of food carries more calories — energy density, kilocalories per gram — which is
+the measurable property the ultra-processed overeating above ran through. It is also the one
+processing-linked property a shopper can read off a label and act on: water and fibre lower it, and low
+energy density is drawn at under about 2 kcal/g
+[@fazzino2019hpf].
+
+Swapping a dry,
+calorie-dense food for a watery or higher-fibre one at similar palatability lets a person hold the same
+deficit with less hunger, and the swap holds up whether or not any reward story about processed food is
+true. Keep it modest, though: the direct evidence is a two-week surrogate in a handful of people, energy
+density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
+outcome -> [[Energy Density]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Keeping it off is the part that fails
 
 The trajectory is remarkably consistent across methods. Franz's synthesis of one-year-plus trials found
@@ -190,6 +208,19 @@ and elevated hunger hormones a full year later, with the drive to eat still swit
 [@sumithran2011] — a defended set-point, not a failure of
 willpower -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
+**The popular "food addiction" frame adds little on top of that.** Some readers will suspect the pull
+back toward old eating is an addiction. A gold systematic review reports that its results «generally
+support the validity of food addiction as a diagnostic construct», yet the same review calls its subject
+«a highly controversial subject» and rests that verdict on vote-counted, animal-heavy,
+confirmation-bias-flagged evidence [@gordon2018foodaddiction].
+
+Its pooled prevalence, 19.9%,
+comes from samples that were mostly overweight, female, and clinically recruited, so it runs higher than
+a general population would [@pursey2014foodaddiction].
+No study links the construct to weight, diabetes, or mortality as a pathway distinct from ordinary
+overconsumption, so it changes no maintenance decision beyond what is already on the table: eat fewer
+highly processed, energy-dense foods -> [[Food Addiction]].
+
 The drug is not exempt; it is dependent. Stopping semaglutide in the STEP-1 extension gave back about
 two-thirds of the lost weight within a year (11.6 points)
 [@wilding2022], and the network evidence puts off-drug regain
@@ -198,6 +229,36 @@ near 0.4 kg/month, back toward baseline within roughly 1.7 years
 chronic therapy for a chronic condition, like a blood-pressure pill, rather than a course of treatment.
 The single most decision-relevant fact in this whole cut: **adherence is not a footnote to the effect,
 it is most of the effect** — a smaller deficit sustained beats a larger one abandoned.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## Regaining some of it is not a reason to skip the attempt
+
+A common fear says the losing-and-regaining cycle is worse than staying heavy, so an obese person should
+not bother trying. **Two gold meta-analyses of cohort data say otherwise for exactly the person the fear
+is aimed at.** Zou's pooling of 441,199 adults found weight fluctuation associated with higher all-cause
+mortality (corrected to RR 1.18, 95% CI 1.05 to 1.32 once publication bias is accounted for) and CVD
+mortality (RR 1.36, 1.22 to 1.52) [@zou2019fluctuation]. But
+that link is observational, and it dissolves once fluctuation is restricted to the intentional kind a
+dieter chooses (all-cause P=0.49, CVD P=0.12), concentrating instead in unintentional, illness-driven
+loss [@zou2019fluctuation].
+
+The diabetes arm points the same way, from the same research group — so the two are complementary, not
+independent confirmation. Pooled type-2-diabetes risk rose with cycling (RR 1.23, 95% CI 1.07 to 1.41),
+but the association was **absent in the frankly obese**, the very stratum the decision is about (BMI>=30,
+P=0.08) [@zou2020cycling]. The group declines the deterrent
+reading: «we cannot conclude whether obese individuals should be deterred from eﬀorts to control their
+body weight by concerns about the hazards of weight cycling»
+[@zou2019fluctuation].
+
+What caution there is lands on the
+opposite population from the folk belief — lean, young, body-image-driven dieters, who have no metabolic
+reason to be dieting at all. The practical reading: pursue loss you can sustain, and treat regain as a
+maintenance problem to design against, not a reason to stay put -> [[Weight Cycling and Cardiometabolic Risk]].
+
+</div>
 
 ## Matching the lever to the person
 
@@ -216,6 +277,8 @@ lean-mass worry is small and the deficit plus training is enough. For an older o
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## How to think about your own choice
 
 Pick the method you can hold, because durability is where nearly every attempt fails. Anchor the deficit
@@ -233,9 +296,11 @@ open.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?' |
-> | **Evidence included** | 23 sources — 8 gold, 15 high |
+> | **Evidence included** | 28 sources — 12 gold, 15 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+
+</div>
 
 ## References

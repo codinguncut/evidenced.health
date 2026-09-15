@@ -7,9 +7,9 @@ sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021
 authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); SPRINT Research Group (org); Peters, Ruth; Moll van Charante, Eric P; Schünemann, Holger; European Society of Cardiology (org); Aburto, Nancy J; Neal, Bruce; Siervo, Mario; Naci, Huseyin; Roerecke, Michael; Norouzzadeh, Mostafa; Look AHEAD Research Group (org); Ma, Chenhan; Chen, Qiongshan; Fang, Xin; Mente, Andrew; He, Feng J]
 confidence: high
 created: 2026-08-10
-updated: 2026-09-04
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 ---
 
 Lowering blood pressure is one of the few lifestyle-adjacent levers with a proven payoff on hard disease. Randomized drug trials show that dropping the number cuts heart attacks and strokes, and, on newer evidence, dementia as well. The benefit reaches people who have never had heart disease, and it does not disappear as pressure falls into the normal range; the observational "J-curve" that once seemed to warn against going low turns out to be a study artifact.
@@ -35,6 +35,8 @@ A proven relative effect is not a mandate to lower everyone's number. The \~10%-
 This is where a stratum baseline does the work. Rather than treating to a fixed BP threshold, combine the relative effect with a stratum-specific 10-year cardiovascular risk — the kind SCORE2 supplies and against which ESC sets its treatment bands [@esc2021] -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]. BPLTTC's own authors legislate the same rule: physicians should «emphasise its importance on reducing cardiovascular risk rather than focusing on blood pressure reduction itself» [@bplttc2021]. The exact BP reading matters less than the overall risk it sits inside.
 
 None of this refutes the ceiling on lifestyle levers — it refines it. Blood-pressure lowering's relative benefit is proven where lifestyle weight-loss and GLP-1 cardiovascular benefit are not, but its absolute benefit still scales with baseline risk, which is the ceiling's own mechanism. A constant \~10% per 5 mmHg is worth pulling hard for a hypertensive at high cardiovascular risk and barely worth measuring for a low-risk normotensive.
+
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The lifestyle levers, and how much each moves the number
 
@@ -74,6 +76,8 @@ Inorganic nitrate (beetroot juice or leafy greens) lowers systolic BP by about *
 
 Hold this **LOW-to-moderate**, and do not let the tidy point estimate fool you (the T4 rule in action): the trials ran **hours to fifteen days**, in mostly young healthy men, on resting BP — and the effect was *not* confirmed on 24-hour ambulatory monitoring, precisely in the older, higher-risk people who would benefit. **Transmission: ASSUMED** (surrogate only; the bridge to events is a modelled projection, and the observed drop is below the 5 mmHg that projection assumes).
 
+One more feature makes this lever unreliable: dietary nitrate lowers BP only because bacteria on the tongue reduce it to nitrite, the first step toward the nitric oxide that relaxes blood vessels [@siervo2013nitrate]. That makes an ordinary oral commensal an obligatory link in the chain, so a person who uses antibacterial mouthwash daily, or is taking antibiotics, would be expected to blunt or lose the effect entirely — a support factor the beetroot trials never tested [inferred from @siervo2013nitrate].
+
 ### Lose weight — proven for other things, not for BP-to-events
 
 Weight loss is a genuine lever for glycaemia, diabetes remission and fatty liver — but its blood-pressure-to-events case is the weakest here, and the honest verdict is a caution. In Look AHEAD, the largest and longest lifestyle-weight-loss trial, an intensive programme improved nearly every risk factor yet did **not** reduce cardiovascular events (HR 0.95, 95% CI 0.83 to 1.09), and the 54-trial meta-analysis confirms the null on CV events (RR 0.93) [@look2013]. **Transmission: NULL on events even when the weight came off** — the surrogates moved (BP, HbA1c, inflammation), the events did not follow. The trial's BP-drop magnitude itself is thinly reported here; weight loss earns its place on this page as a caution, not a BP number. Its real payoffs are on [[Does Weight Loss Reduce Cardiovascular Events]].
@@ -85,6 +89,8 @@ An 8-week mindfulness-based programme (MBSR) posts the biggest point estimate on
 ### Dietary magnesium — a marker, not a separate lever
 
 Higher dietary magnesium tracks lower stroke and type-2-diabetes risk in cohort studies, but as a blood-pressure lever it is weak and probably not independent. The magnesium-rich foods — wholegrains, leafy greens, nuts, beans — are the same whole-food, plant-rich pattern behind DASH and potassium, and the authors cannot rule out that magnesium is simply a **marker** of that diet rather than the active ingredient [@fang2016magnesium]. The base is observational, with no hard-outcome trial. **Transmission: ASSUMED**, and shakier than the rest. So *eat magnesium-rich whole foods* is fine advice, but it is already carried by the DASH recommendation above — magnesium adds no separate, separately-actionable BP lever. Detail on [[Dietary Magnesium and Cardiometabolic Outcomes]].
+
+</div>
 
 ## For a hypertensive, exercise matches a drug on the number -- but the drug's payoff is the proven one
 

@@ -4,7 +4,7 @@ question: Why does an intervention's realized effect diverge from the effect its
 aliases: [Net Effect, Intended vs Net Effect, Compensation, Whole-Organism Compensation, Net Not Intended]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: measured-vs-true-effect
 nucleus: true
 confidence: medium
 created: 2026-08-08

@@ -17,7 +17,7 @@ relationships:
     - Statin Muscle Symptoms and the Nocebo Effect
 created: 2026-07-28
 updated: 2026-09-07
-self_critiqued: 2026-08-23
+self_critiqued: 2026-09-14
 ---
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
@@ -180,8 +180,6 @@ evidence disagreement. The direction of the change is still notable: ACC-AHA 202
 pharmacotherapy at lower estimated risk than USPSTF, and to name a numeric goal once it does.
 [inferred from @accaha2026; @uspstf2022]
 
-<div class="recent-update" data-last-updated="2026-09-07">
-
 ## The common statin fears — muscle and memory `[2026-08-22]`
 
 The two most-cited reasons people avoid or stop a statin — muscle damage and memory loss — are BOTH
@@ -246,7 +244,7 @@ year-1-vs-later split, the dose-de-escalation lever) lives on
 
 [inferred from @uspstf2022; @wood2020samson; @reith2022muscle]
 
-</div>
+
 
 ## Decision relevance
 

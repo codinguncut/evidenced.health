@@ -4,7 +4,7 @@ question: When a named diet appears to work, is the benefit coming from what it 
 aliases: [Removal-Addition Confound, Exclusion-Diet Confound, The Removal Confound, Crediting the Diet for Its Exclusions, Does the Diet Work or Does Dropping the Junk, Bundle Decomposition of a Named Diet]
 authors: []
 sources: []
-cluster: inference-pitfalls
+cluster: exposure-and-comparator
 confidence: medium
 created: 2026-09-10
 updated: 2026-09-10
@@ -21,8 +21,6 @@ relationships:
     - Fruit and Vegetable Intake and Health
     - Layer 1 - Ranking Interventions for a Stratum
 ---
-<div class="recent-page" data-last-updated="2026-09-10"></div>
-
 
 **A named diet is two interventions wearing one name: an *exclusion* (the foods it drops) and a
 distinctive *inclusion* (the foods it makes you eat more of). Its measured or felt benefit is a sum of

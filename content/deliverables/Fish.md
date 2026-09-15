@@ -309,8 +309,6 @@ the sensitive stratum cares about most
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
 A natural move is to skip the fish and take the omega-3. The trial evidence says **the pill is not the
@@ -367,8 +365,6 @@ The same food-versus-isolate split holds for the aging brain (the *Cognitive dec
 section above).
 
 [inferred from @manson2019n3; @bhatt2019]
-
-</div>
 
 ## Where fish sits in the ranking — a pebble
 

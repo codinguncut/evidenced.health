@@ -113,8 +113,6 @@ equivalence of fortified/added fibre to intrinsic whole-grain fibre on hard outc
 established** — an open question, not a demonstrated sameness; "target fibre" ranks fibre above the label,
 it does not flatten the matrix.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Pulses — SACN largely did not look, and that is the finding
 
 Where measured, null: legume fibre -> T2DM RR 1.01 (0.98, 1.04) per 1 g/day; legume fibre ->
@@ -152,8 +150,6 @@ risk factors, not death) — now has a number** from a dedicated legume->mortali
 (Zargarzadeh 2023): non-soy legumes -> \~6% lower all-cause mortality per 50 g/d (moderate certainty),
 but no robust signal on any *specific* cause of death. See *The pulses mortality cell gets its number*
 below.
-
-</div>
 
 ## What this page does NOT establish
 
@@ -589,8 +585,6 @@ cell, RR 0.88, single study).
 [@schlesinger2019]
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## The pulses G gap gets its dedicated SR+MA — cohort-null on events, benefit on risk factors `[2026-08-28, Thorisdottir]`
 
 The G gap above ("the wiki cannot currently answer whether pulses help, harm or do nothing at
@@ -688,10 +682,6 @@ cohort range is compressed near the Nordic \~12 g/day mean, so the events null i
 Nordic eater would reach and uninformative about the 120-150 g/day RCT dose**; blood pressure unconcluded;
 and the surrogate-to-hard-outcome link for the LDL benefit is assumed, not shown.
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The pulses mortality cell gets its number — legume -> all-cause mortality, but no cause survives `[2026-09-09, Zargarzadeh]`
 
@@ -823,7 +813,5 @@ Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Respo
   truncation does not hide a reversing qualifier.
 - **Residual:** F-not-E means this adds a new outcome family and precision, not an independent witness —
   `confidence: low` is unchanged, which is the honest outcome of the shared-author/shared-cohort finding.
-
-</div>
 
 ## References

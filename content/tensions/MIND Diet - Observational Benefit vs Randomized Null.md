@@ -18,8 +18,6 @@ relationships:
     - Single Food Components and Cognitive Outcomes
     - The Observational-Trial Discordance
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 The MIND diet is promoted for brain health on a broad, near-uniformly positive **observational**
 base. A single well-run RCT then tested it head-on and found no significant cognitive benefit over

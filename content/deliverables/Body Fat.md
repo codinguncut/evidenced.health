@@ -4,14 +4,12 @@ title: Body Fat
 aliases: [Body Fat, Obesity, Adiposity, Should I Lose Weight, Is My Fat Dangerous, Body Fat Percentage, Visceral Fat, Body Composition, Metabolically Healthy Obesity]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-09
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 question: 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)'
-sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
+sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
 ---
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Where fat sits matters more than how much of it there is
 
@@ -30,7 +28,10 @@ overwhelmed; and how that one upstream depot loads diabetes, cardiovascular dise
 moves which outcome, and whether the loss lasts -- is a separate decision, and it lives in
 [[Losing Fat and Keeping It Off]].
 
-</div>
+
+
+
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Where fat sits carries the risk — read the depot, not the scale
 
@@ -132,6 +133,33 @@ not test.
 [inferred from @yusuf2005interheart; @erfc2011whr]
 -> [[Waist-to-Hip Ratio and Cardiovascular Risk]], [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 
+### Central fat predicts death independent of BMI — and its curve barely dips
+
+The all-cause-mortality endpoint gives the depot claim its sharpest form. Jayedi's dose-response
+meta-analysis (72 cohorts, 2.5M people, 150,164 deaths) finds waist circumference carries excess death at
+**HR 1.11 per 10 cm (1.08-1.13)** and waist-to-hip ratio at **1.20 per 0.1 unit (1.15-1.25)**, and
+«Positive associations persisted after accounting for body mass index» — for waist the association does
+not merely survive BMI adjustment but **strengthens, to 1.17 (1.13-1.22)** in the studies that adjusted
+for it. So two people at the same BMI carry different mortality risk according to where the fat sits, and
+the waist reading carries information the scale number does not. Hip and thigh run the other way (hip
+**0.90 per 10 cm**, thigh **0.82 per 5 cm**) — the same waist-harmful, hip-protective split INTERHEART
+read on the heart, now on death.
+[@jayedi2020central]
+
+The shape of that curve sharpens the artifact reading above. Where the BMI curve carries a substantial
+protective-looking lower arm — the obesity paradox — the central-fat curves barely dip: waist-to-hip ratio
+is monotone, «Overall the relations were monotonic with little evidence of sharp changes at particular
+cut-off points», because the frailty and low-lean-mass confound that manufactures BMI's paradox does not
+load the low-waist end -> [[The U-Shaped Association Artifact]].
+[@jayedi2020central]
+
+Jayedi lands a third position on the which-marker debate, distinct from INTERHEART's *switch to WHR* and
+ERFC's *BMI is adequate*: «measures of central adiposity could be used as a supplementary approach, in
+combination with body mass index, to determine the risk of premature death». Two bounds hold it honest —
+heterogeneity is high (I2 85-97%), and the waist signal fades to non-significance past age 60
+-> [[Central Adiposity and All-Cause Mortality]].
+[@jayedi2020central]
+
 ### Is visceral fat the pathogenic depot, or a marker for intra-organ fat? — a ladder, not a contradiction
 
 Two readings sit side by side. INTERHEART and AASLD put central adiposity at the causal centre:
@@ -200,6 +228,7 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
+</div>
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -475,6 +504,8 @@ of the same weight-loss lever: «Resolution of NASH without worsening of fibrosi
 in [[GLP-1 Drugs]]; here the point is that the mortality signal, where it exists, tracks large sustained
 loss, not a distinct mechanism.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Downstream disease — the same fat drives cancer and loads the knee
 
 **Cancer: broadly graded, but the wiki holds no per-person magnitude.** WCRF grades greater body fatness a
@@ -506,8 +537,11 @@ cardiovascular fitness (SMD 0.56 (95% CI 0.38 to 0.75)) and muscle strength (SMD
 null).
 [@rauschosthoff2018exercise] On the
 *incidence* side the same lever dominates: per BMI unit, adjusted OR **1.17 (1.10-1.24)** for radiographic
-knee OA, with overweight/obesity plus prior injury (aOR **2.67, 1.41-5.05**) accounting for 14% of cases.
+knee OA, with overweight/obesity plus prior injury (aOR **2.67, 1.41-5.05**) accounting for 14% of cases —
+adiposity is the top modifiable rock (77% of that attributable fraction), so the same depot-drawdown that
+serves the liver and heart also unloads the joint.
 [@duong2025kneeoa]
+-> [[Knee Osteoarthritis Incidence and Risk Factors]]
 
 **The synthesis for U3.** One depot — intra-organ and central fat — sits upstream of a liver ladder, a
 diabetes risk, a cardiovascular load, a cancer footprint and a mechanically-loaded knee, and one sustained
@@ -515,9 +549,9 @@ weight-loss lever draws it down across all of them. That shared upstream is a **
 for the overweight metabolic patient the same loss buys liver, cardiometabolic, cancer-risk and joint
 benefit at once — which is why depot-drawdown, not any single-disease diet, is the move.
 
+</div>
 
-
-<div class="recent-update" data-last-updated="2026-09-09">
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The decision: read the depot, target it, and know what losing it buys
 
@@ -549,10 +583,10 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)' |
-> | **Evidence included** | 26 sources — 13 gold, 12 high, 1 moderate |
+> | **Evidence included** | 27 sources — 14 gold, 12 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 </div>
 

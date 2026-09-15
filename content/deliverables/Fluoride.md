@@ -11,8 +11,6 @@ updated: 2026-09-09
 self_critiqued: 2026-09-09
 concrete_subject_audited: 2026-09-09
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 The number on your water report, not the word *fluoride*, decides this. At the level added to United States drinking water — **0.7 mg/L** — the frightening harms are unresolved rather than established. The child-IQ signal that made headlines is real, but the evidence for it sits **above about 1.5 mg/L**. Whether it reaches down to fluoridation levels is genuinely unsettled. Bone fractures rise only well above that line. The one unwanted effect actually proven at 0.7 mg/L is **mild dental fluorosis** — faint white flecks on tooth enamel, a cosmetic outcome. On the benefit side, **fluoride toothpaste clearly prevents cavities**, and adding fluoride to the water on top of that now buys only a small, uncertain extra.
 

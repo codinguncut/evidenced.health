@@ -156,8 +156,6 @@ switching to WHR does not survive prospective design.** The WHR-over-BMI case is
 conventional risk factors are *unmeasured* and in the non-European strata ERFC could not test.
 [inferred from @erfc2011whr]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The prospective mortality endpoint — Jayedi partly cashes the AWAITS gap (a DISTINCTION, not a tension) `[2026-09-08, Jayedi]` `type-F`
 
 The *Limits* section below flags the gap: prospective corroboration of the waist-harmful /
@@ -180,8 +178,6 @@ with baseline measurement [@jayedi2020central] — without touching the marker-r
 mortality dose-response). It does NOT resolve the ERFC-vs-INTERHEART clash, because it never ranks the
 markers against each other for prediction. Full mortality curve and shape:
 [[Central Adiposity and All-Cause Mortality]].
-
-</div>
 
 ## Limits — read the design before the ORs
 

@@ -80,8 +80,6 @@ above-optimal-BP / stage-1 hypertension with BMI \~23-37, so DASH's BP benefit i
 elevated-risk population and should not be read as a fixed effect for an optimal-BP, lean person.
 [inferred from @siervo2015]
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Surrogate scope — BP is shown; hard events are not, and the authors say so
 
 The meta-analysis measures risk factors over weeks. Its own Discussion draws the surrogate boundary
@@ -113,8 +111,6 @@ plus a modelled Framingham projection, with no event measured. Read as an over-r
 surrogate-to-outcome kind [[Surrogate Outcomes]] warns against; the graded finding this page keeps is
 **DASH lowers BP and atherogenic lipids**, not that it prevents CVD events.
 [inferred from @siervo2015]
-
-</div>
 
 ## Which component is doing the work? The MA cannot decompose — but it is NOT the sodium
 
@@ -170,8 +166,6 @@ a true non-role (the same caveat the sodium page attaches to WHO's null by-intak
   driven by sodium. [@siervo2015]
 
 [inferred from @siervo2015]
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The umbrella upgrade — a hard-outcome cohort layer + GRADE calibration (Chiavaroli 2019)
 
@@ -245,10 +239,6 @@ choice not to downgrade), **not positive route-(b) effect-modification evidence*
 [inferred from @chiavaroli2019] — the reasoned-judgment-not-subgroup-test
 framing is this page's; the no-downgrade decision and the component-RCT warrant are Chiavaroli's.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Limits
 
 - **Surrogate-only, 2-24 weeks.** No hard endpoint; the CVD-prevention claim is a modelled projection.
@@ -266,10 +256,6 @@ framing is this page's; the no-downgrade decision and the component-RCT warrant 
   *partially* answered (observationally), no longer a bare type-G gap.
 
 [inferred from @siervo2015; @chiavaroli2019]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## Decision relevance
 
@@ -291,7 +277,5 @@ framing is this page's; the no-downgrade decision and the component-RCT warrant 
 - **The *choice between* named programmes barely matters for weight or BP** ([[Named Diet Programs Compared]],
   where between-diet differences are trivial) — but that is a between-diet statement; DASH-vs-usual-diet
   still buys a real BP reduction, and DASH is the pattern designed for and specifically pooled on BP here.
-
-</div>
 
 ## References

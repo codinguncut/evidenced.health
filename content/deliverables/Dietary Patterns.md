@@ -1,18 +1,16 @@
 ---
 type: deliverable
 title: Dietary Patterns
-self_critiqued: 2026-09-07
-concrete_subject_audited: 2026-09-07
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
-authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org)]
-sources: [Astrup - Saturated Fats Reassessment 2020, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Churuangsuk - Diabetes Diets Umbrella Review 2022, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012]
+authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org); Barnes, Lisa L.; Chiavaroli, Laura; Huang, Liyan; Parvizian, Michael K]
+sources: [Astrup - Saturated Fats Reassessment 2020, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Churuangsuk - Diabetes Diets Umbrella Review 2022, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Barnes - MIND Diet Trial Cognitive Decline, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Huang - MIND Diet Cognitive Function Decline, Parvizian - Dietary Patterns COPD Meta-Analysis 2020]
 confidence: low
 created: 2026-07-30
-updated: 2026-09-07
+updated: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-07"></div>
-
 
 ## Above a floor of adequacy, the diet label barely matters
 
@@ -349,6 +347,8 @@ deficit (remission), a food component in a high-risk stratum (Mediterranean), or
 in one subgroup (low-carb apoB) -- never the label. Which axis actually carries a dietary difference is
 the next question.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Trace the difference to a measurable axis, not the label
 
 If the named patterns barely separate on hard outcomes above the floor, the useful question is not
@@ -442,6 +442,24 @@ PURE's unweighted count of six protective foods separates its extremes by mortal
 grains left the predictive value neither stronger nor weaker
 [@mente2023pure]. The narrow, defensible reading is *do not
 over-specify which protective foods* -> [[Diet Quality Scores and Cardiovascular Risk]].
+
+**The Portfolio pattern is the components axis run to its logical end.** Unlike the other named diets,
+which bundle their components incidentally, the Portfolio pattern is *defined* by four cholesterol-lowering
+plant foods — nuts, plant protein, viscous fibre and plant sterols. Pooling 7 controlled trials in 439
+hyperlipidemic adults, it «reduced the primary outcome LDL-C by \~17% (MD, −0.73 mmol/L, [95% CI, −0.89 to
+−0.56 mmol/L])» at GRADE high [@chiavaroli2018portfolio].
+
+But it still stops at a surrogate: no trial has measured events — «there remains a need for large
+randomized trials of the effect of the portfolio dietary pattern on hard CV outcomes»
+[@chiavaroli2018portfolio]. So even a pattern engineered to
+move a lipid marker delivers only the marker; the step to fewer heart attacks is borrowed from the
+LDL-causality fabric, not shown here
+-> [[Portfolio Dietary Pattern and LDL Cholesterol]], [[Surrogate Outcomes]].
+
+The same decomposition cuts the other way when a diet is named for what it *removes*. Keto, carnivore,
+paleo and Whole30 each silently delete ultra-processed food and added sugar — the arm the fabric's
+evidence actually supports — while the distinctive addition they are branded for often is not, so the
+branded food collects credit the exclusion earned -> [[What a Diet Removes vs What It Adds]].
 
 ### Total energy and adiposity is the other axis
 
@@ -543,10 +561,43 @@ same Adventist cohorts and shares an author with the Orlich leg, so it corrobora
 not by an independent route — it raises no independence-based confidence
 [@boushey2020].
 
+### MIND on cognition: an observational benefit a randomized test did not confirm
+
+The MIND diet — a Mediterranean-DASH hybrid weighted toward leafy greens, berries, nuts and fish — is
+the clearest cognition-outcome case of the observational-versus-RCT split.
+Pooling 8 cohorts of 26,103 adults, each 1-SD rise in MIND score tracked «0.042 (95% CI: 0.020, 0.065)
+units higher in global cognitive function z-score and 0.010 (95% CI: –0.001, 0.021) units slower in
+annual cognitive decline» [@huang2023mind] — small on
+function, non-significant on decline.
+
+A 3-year RCT in 604 older adults then tested it head-on: «mean difference, 0.035 standardized units;
+95% confidence interval, −0.022 to 0.092; P = 0.23»
+[@barnes2023mind], with null brain-MRI outcomes. The
+trial's point estimate is positive and sits inside the observational interval, so the RCT **bounds** the
+benefit — ruling out a large causal effect while leaving a small one unconfirmed — rather than
+overturning it -> [[MIND Diet and Cognitive Decline]], [[MIND Diet - Observational Benefit vs Randomized Null]].
+A named pattern's observational cognitive signal does not survive a randomized test.
+
+### A respiratory outcome: the protective pattern and COPD
+
+Dietary patterns reach a respiratory outcome too, though the lever sits far behind smoking. A gold-tier
+meta-analysis of observational studies found a healthy pattern «associated with a lower risk of COPD
+(pooled OR 0.88, 95% CI 0.82–0.94)» cross-sectionally, RR 0.56 (0.37–0.84) across three cohorts, while
+the unhealthy-pattern arm was null (OR 1.22, 95% CI 0.84–1.76, CI crosses 1)
+[@parvizian2020]. Smoking is «the most
+significant modifiable risk factor» for COPD [@parvizian2020],
+so for a smoker the diet lever changes nothing at the margin; for a non-smoker it is a plausible,
+low-cost addition already implied by the same pattern's cardiovascular case — confirmatory, not a new
+instruction -> [[Dietary Patterns and COPD Risk]].
+
 **What this leaves the person deciding.** The label is near-inert; DASH's real effect is a surrogate the
 fabric cannot yet separate from its co-travellers; and the diets people argue about loudest carry the
 least hard-outcome evidence. So the question is not *which brand* but *what do I actually do* — which is
 where the four axes point.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Get above the floor, then choose the pattern you will keep
 
@@ -599,9 +650,11 @@ less than whether a person keeps it.
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 36 sources — 20 gold, 15 high, 1 weak |
+> | **Evidence included** | 40 sources — 23 gold, 16 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+
+</div>
 
 ## References

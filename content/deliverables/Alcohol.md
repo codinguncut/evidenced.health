@@ -122,8 +122,6 @@ it lines up with the heavy-midlife harm below. Xu is not an independent line of 
 shares its Qingdao/Fudan authorship with other cognition sources the wiki holds, so it quantifies the
 shape rather than corroborating the verdict.
 
-<div class="recent-update" data-last-updated="2026-09-09">
-
 ## Effect and dose-response shape, outcome by outcome
 
 With the low-dose arm adjudicated as artifact, each outcome traces its own curve, and the shapes
@@ -274,8 +272,6 @@ the fabric covers**; this page names them as gaps rather than answering them:
 
 This page infers no direction for either (insufficient evidence *held*, distinct from no-effect),
 and consolidates both with the other named gaps later.
-
-</div>
 
 ## The active axis: total ethanol, drinking pattern, or beverage type?
 

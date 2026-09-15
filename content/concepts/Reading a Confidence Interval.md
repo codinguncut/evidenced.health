@@ -4,7 +4,7 @@ question: What does a confidence interval — including one whose bound touches 
 aliases: [The Compatibility Interval, Compatibility Interval, Null-Inclusion Is Not Null-Evidence, Reading a CI, CI Width vs Null-Inclusion, Touches the Null]
 authors: [Greenland, Sander; Wasserstein, Ronald L; Lazar, Nicole A; Amrhein, Valentin; McShane, Blake]
 sources: [Greenland - P Values Confidence Intervals Guide 2016, Wasserstein - ASA Statement P Values 2016, Amrhein - Retire Statistical Significance 2019]
-cluster: inference-pitfalls
+cluster: estimate-to-action
 confidence: medium
 self_critiqued: 2026-08-26
 created: 2026-08-26

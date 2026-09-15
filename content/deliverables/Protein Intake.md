@@ -117,8 +117,6 @@ anything.
 
 All three numbers are about amount; for how long you live, the evidence points at source instead.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## For how long you live, the source matters and the amount barely does
 
 All three famous numbers ask *how much* protein. For mortality, the evidence points somewhere else
@@ -162,8 +160,6 @@ across shared data is not independent replication, so the page stays `confidence
 
 Amount and source together set the daily total. Two second-order dials — *when* you eat protein and *what
 quality* it is — matter mainly at the margins, and mainly for older adults.
-
-</div>
 
 ## Spread protein across meals, and let quality matter only until you hit the target
 
@@ -323,8 +319,6 @@ case carries its own gap — low muscle mass independently predicts mortality, a
 not fully explained by muscle strength [@santana2021], but that *raising* mass
 lowers it is unproven.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## What to do — and the question none of it answers
 
 If you resistance-train, aim to reach about 1.6 g of protein per kg of total body weight, built from
@@ -352,7 +346,5 @@ you function or how long you live.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-08 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
-
-</div>
 
 ## References

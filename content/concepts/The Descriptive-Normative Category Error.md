@@ -4,7 +4,7 @@ question: When is a quantity or label being read as more than it is — a descri
 aliases: [Descriptive Normative Category Error, Is-Ought Jump, Measure to Meaning, Calibration Provenance, Type Promotion Error, Reference Interval Fallacy]
 authors: [European Food Safety Authority (org)]
 sources: [EFSA - Dietary Sugars Upper Intake Level 2022]
-cluster: inference-pitfalls
+cluster: estimate-to-action
 confidence: medium
 created: 2026-08-05
 updated: 2026-08-06

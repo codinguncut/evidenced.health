@@ -268,8 +268,6 @@ does not: any reason to fear or to chase high MSA volume for mortality — nor a
 
 
 [inferred from @momma2022]
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -304,7 +302,7 @@ in keeping function and staying off the floor, not (on current evidence) a prove
   speed-emphasis 0.36) — specifying not just *that* strength training defends function but *how* to
   train for maximum functional payoff in this stratum. [inferred from @elhadouchi2022]
 
-</div>
+
 
 ## Limits
 

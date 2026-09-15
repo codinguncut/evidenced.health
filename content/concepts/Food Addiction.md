@@ -14,8 +14,9 @@ relationships:
     - Ultra-Processed Food and Health Outcomes
     - The Disease Model of Obesity
     - Free Sugars Intake
+    - GLP-1 and Reward Beyond Food
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-15
 ---
 
 **Nucleus of the `food-addiction` cluster.** "Food addiction" is a **behavioural / reward
@@ -292,6 +293,8 @@ already reachable from the ordinary *highly processed foods drive overconsumptio
 
 [inferred from @schulte2015addictive]
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Gaps and open questions
 
 - **Construct-validity is adjudicated by a gold SR (Gordon 2018) and prevalence by a gold SR/MA
@@ -319,6 +322,15 @@ already reachable from the ordinary *highly processed foods drive overconsumptio
   over the eating-rate / energy-density / palatability channels that already explain UPF
   overconsumption (-> [[Ultra-Processed Food and Health Outcomes]]) is an **open question**, not a
   filed tension — the construct and the mechanistic channels have not been tested against each other.
+- **Mechanistic bridge to the reward-drug evidence `[type-B]`.** Food-addiction theory says some foods
+  hijack the mesolimbic reward system; GLP-1-receptor agonism acts on that *same* system and reduces both
+  food craving and *substance* craving -> [[GLP-1 and Reward Beyond Food]]. Related object, kept distinct:
+  that page is the *drug's* action on non-food reward, not the food-as-addiction construct. The
+  convergence on one reward circuit is a coherence pointer, not evidence that the food-addiction construct
+  is valid.
+  [inferred from @volker2026glp1sud]
+
+</div>
 
 ## Self-critique `[run 2026-08-30, Pursey 2014 prevalence weave, before commit]`
 

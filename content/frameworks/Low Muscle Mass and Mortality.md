@@ -91,8 +91,6 @@ predicted falls/fractures/mobility/mortality, while muscle mass (ALMI) «was not
 outcomes, [but] was consistently associated with mortality» — corroboration *within the source*, not an
 independent field (no `[E-independent]`).
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Effect modifiers
 
 [@santana2021]
@@ -116,8 +114,6 @@ tracks the same mass -> survival direction this page holds via ASMI. Corroborate
 (chunk 01) `[E-independent]` — an independent measure (limb anthropometry, different cohorts and
 confounding), not a re-estimate of ASMI, so it stays a body line and does not pad `sources:`
 -> [[Central Adiposity and All-Cause Mortality]].
-
-</div>
 
 ## Predictor vs target — the line this page holds
 

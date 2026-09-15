@@ -6,9 +6,9 @@ question: 'What can and cannot be established about diet-health effects given th
 sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-06
-self_critiqued: 2026-09-06
-concrete_subject_audited: 2026-09-06
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -85,8 +85,6 @@ structural gap, not a sourced finding here.
 rule out a real gradient, a bare coefficient cannot say what was traded, and a category-level number can
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
-
-<div class="recent-update" data-last-updated="2026-09-09">
 
 ## The design rarely isolates the cause
 
@@ -208,7 +206,7 @@ exits is available, residual confounding stays live, and the honest grade is low
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
 
-</div>
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The outcome is often a surrogate, and effects leak
 
@@ -237,6 +235,19 @@ risk.»
 [@ramsden2016]
 *Which* marker actually transmits, per metric, is deferred to [[Metrics for Targeted Health Guidance]].
 
+A related interpretation-limit governs how a *classification* is read. When IARC files an exposure as a
+carcinogen -- Group 1, 2A, or 2B -- it does **hazard identification**: it grades how firmly established it
+is that the exposure can cause cancer at *some* dose, not **risk assessment** -- how much it raises a given
+person's absolute risk at a realistic dose. The two objects hide behind one word.
+
+A firmly established
+hazard can add a negligible risk: night-shift work sits in Group 2A while a large prospective analysis
+found little or no effect on breast-cancer incidence. So the alarm that a food *shares a category with
+tobacco* is a category error -- the shared category rates evidence that a hazard exists and is silent on
+the risk each carries. A confident classification is confidence about *whether*, never *how much*; ask for
+the absolute risk before the label licenses avoidance.
+-> [[Hazard Identification Is Not Risk Magnitude]], [[Baseline Risk and the Relative-Absolute Split]]
+
 Effects also **leak** below the mechanism. Even the effect a mechanism predicts in isolation diverges
 from the realized one, because the organism compensates -- the *net* effect across the whole system is
 usually smaller than the mechanism implies and occasionally the opposite sign.
@@ -247,6 +258,8 @@ The confidence lesson: a high **stated** certainty is often certainty about the 
 lower. So discount confident surrogate-based advice toward the *outcome's* certainty, and treat a marker
 as a target only where its transmission is shown.
 -> [[The Certainty-Importance Inversion]], [[Indirectness of Evidence]], [[Surrogate Outcomes]]
+
+</div>
 
 ## The literature is filtered and noisy
 
@@ -335,7 +348,7 @@ doesn't work* -- the first leaves the question open under the expectancy test; t
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
 
-<div class="recent-update" data-last-updated="2026-09-09">
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The open loop, and what confidence it leaves
 
@@ -390,6 +403,36 @@ cannot fix a point optimum, but it can pin the frame around one:
   region, loss function, drift, transport -- performed out loud so each is auditable as
   evidenced-or-asserted. -> [[The Estimate-to-Action Gap]]
 
+#### When to act ahead of proof, and when to wait
+
+Certainty and action are two dials, not one. How sure the effect is real and about this big, and how hard
+to act on it, do not track each other -- GRADE was built to keep them apart, so strong evidence can pair
+with a weak recommendation and weak evidence can justify strong action when the benefit far outweighs the
+harm -> [[Certainty of Evidence vs Strength of Recommendation]]. Three things move the threshold to act,
+and the certainty grade is not one of them: how reversible the choice is, what it costs, and how big the
+lever is. A cheap, reversible change aimed at a large lever is worth making on a thinner direction than an
+expensive, irreversible one aimed at a marginal lever.
+-> [[Acting on a Direction Without a Magnitude]], [[The Estimate-to-Action Gap]]
+
+A defensible **direction** is often reachable where a **magnitude** is not, and the two failures around
+that gap are mirror images. *Credulity* acts on nothing -- treating an unstudied question as settled or a
+mechanism as an outcome. *Paralysis* waits for a proof this field cannot deliver -- the blinded lifetime
+whole-diet trial that measurement error and unblindability forbid -- and mistakes the wait for rigour.
+Paralysis is the more seductive error, because refusing to conclude reads as discipline; but waiting is
+never neutral -- it keeps the current exposure and its own risks in force. Two questions separate the two:
+is a triangulated, human-corroborated direction actually in hand, and is the cost of waiting being counted?
+ -> [[The Insufficient-Evidence Statement]]
+
+The guard against wishful thinking is a hard admissibility bar. A practice claimed ahead of the formal
+literature is admissible only if it is **falsifiable and quantifiable on a real human outcome, carries a
+mechanism, and survives the self-serving and survivorship check** -- a mechanism reasonable in cells or
+animals but unshown in living people is a candidate under the transportability caveat, not a finding, and a
+fad meets the same bar. Hold evidence you like to the standard you hold evidence you dislike, and mark a
+direction as a direction rather than laundering *the interval leans to benefit* into *benefit is
+established*. The backstop, since a determined rationaliser calls every step evidenced, is the **uniformity
+tell**: moves that always land where you already wanted to go are the signature, however defensible each
+looks alone. -> [[Acting on a Direction Without a Magnitude]]
+
 The honest posture, then, is calibrated triangulation across designs, with confidence stated *together
 with* the ceiling that bounds it -- measurement error here, an unstated comparator there, a reference
 class that may not transport, a curve with no locatable peak. Every number carries its interval and its
@@ -397,6 +440,8 @@ studied range or it does not carry a decision. And the disclaimer that outlasts 
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
 </div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Caveats and boundaries
 
@@ -427,6 +472,8 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Evidence included** | 21 sources — 5 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+
+</div>
 
 ## References

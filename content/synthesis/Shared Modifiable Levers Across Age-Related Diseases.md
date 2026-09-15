@@ -181,8 +181,6 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
 
  The table above is built from disease-*incidence* bodies. The wiki now also holds
@@ -219,7 +217,5 @@ outcome-specific efficacy break-points: osteoporosis is the clean instance — t
 flexion is substituted with extension to spare the vertebral-fracture tail
 -> [[Exercise Safety in Osteoporosis]]. So the shared lever transfers, and its *safe application* is
 what gets tuned per condition.
-
-</div>
 
 ## References

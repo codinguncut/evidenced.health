@@ -3,10 +3,10 @@ type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
 aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
 authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Mente, Andrew; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre; Mazidi, Mohsen; Katsiki, Niki; Banach, Maciej; Sesso, Howard D]
-sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023, Mazidi - Flavonoid Intake and Mortality 2020, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022]
-cluster: inference-pitfalls
+sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023, Mazidi - Flavonoid Intake and Mortality 2020, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018]
+cluster: exposure-and-comparator
 confidence: medium
-self_critiqued: 2026-08-31
+self_critiqued: 2026-09-14
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -26,7 +26,7 @@ relationships:
     - Tea Consumption and Cardiovascular Risk
     - What a Diet Removes vs What It Adds
 created: 2026-07-27
-updated: 2026-09-10
+updated: 2026-09-14
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -47,6 +47,8 @@ different object.
 
 
 
+<div class="recent-update" data-last-updated="2026-09-14">
+
 ## The evidence cuts three ways — and that is the finding
 
 > **Extended 2026-07-28:** a **fourth** case was added at the bottom of this page — a boundary that
@@ -62,6 +64,7 @@ different object.
   free-sugars signal generalises past what the vote-count carries.
 - **Processed versus unprocessed red meat.** WCRF analyses the two as separate exposures with separate
   conclusions rather than pooling them — the split is treated as load-bearing by the body that drew it.
+  [@wcrf2018]
 
 ### 2. The split carried NOTHING — the boundary was decorative
 
@@ -82,8 +85,9 @@ different object.
 [@sacn2015]
 ### 3. The split was never resolved — and you cannot tell which case you are in
 
-- **Fish.** In WCRF's 80-page review, `fish` occurs **247 times** while type distinctions (*oily*,
-  *white*, *fatty*, *freshwater*) occur roughly **five** times in total.
+- **Fish.** A word-count over WCRF's review finds `fish` **359 times** while type distinctions (*oily*,
+  *white*, *fatty*, *freshwater*) occur only a handful of times in total.
+  [inferred from @wcrf2018]
 - **Legumes.** SACN places roughly **fourteen** legume outcome cells in its `insufficient evidence`
   tables against one graded conclusion.
 - **The nutrient *carbohydrate* in PURE — the boundary the study could not resolve.** Dehghan's PURE analysis reports higher total carbohydrate → higher total mortality (Q5 vs Q1
@@ -98,6 +102,8 @@ different object.
 
 **This third case is the common one, and it is the dangerous one** — an unresolved category looks
 exactly like a resolved one in a recommendation.
+
+</div>
 
 ## One level up: macronutrient labels, and whether the matrix or the component carries the effect
 

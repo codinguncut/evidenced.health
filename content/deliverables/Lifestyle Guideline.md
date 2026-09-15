@@ -11,8 +11,6 @@ updated: 2026-09-09
 self_critiqued: 2026-09-09
 concrete_subject_audited: 2026-09-09
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
 little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read

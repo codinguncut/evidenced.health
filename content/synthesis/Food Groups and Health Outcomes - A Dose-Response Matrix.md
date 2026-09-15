@@ -167,8 +167,6 @@ against the «6,659 cases» from five studies that Bechthold pooled — over fou
 MAs are **insufficient-evidence** (underpowered), not demonstrated **no-effect** — the four
 evidence-states distinction, and the expectancy test applied to a growing case count.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Absolute-risk anchor for the meat rows — the named G-gap, now cashed for meat (Zhong 2020) `[2026-09-08]`
 
 The Gaps section flagged that this series «computes no absolute risk», so the meat RRs could not be
@@ -219,8 +217,6 @@ curve's shape verbally, so no knee or plateau is located — a harmful-food nonl
 lower arm, so the *every-reduction-pays* default holds for the harmful rows.
 [@zhong2020meat]
 -> [[The U-Shaped Association Artifact]]
-
-</div>
 
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 
@@ -332,8 +328,6 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## Gaps (type-G)
 
 - All cells are **observational** (prospective cohorts) with self-reported intake; dietary
@@ -359,7 +353,5 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   for the non-meat rows (whole grains, fruit, vegetables, dairy, nuts, SSB), which have no absolute
   anchor held; the mortality paper's *optimal-combined-intake* -> 56% relative reduction figure is still
   relative-only. `G (needs a baseline-risk source per stratum — non-meat rows)`.
-
-</div>
 
 ## References

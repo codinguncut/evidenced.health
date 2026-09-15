@@ -20,8 +20,6 @@ relationships:
     - The U-Shaped Association Artifact
     - Is the Food Category Doing Any Work
 ---
-<div class="recent-page" data-last-updated="2026-09-09"></div>
-
 
 **Nucleus of the `mind-diet` cluster** — the pooled-magnitude anchor for MIND-diet -> cognition
 questions. It carries the observational effect size (Huang meta-analysis) plus a systematic-review

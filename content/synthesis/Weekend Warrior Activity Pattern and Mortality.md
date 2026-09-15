@@ -2,10 +2,10 @@
 type: synthesis
 question: Does concentrating physical activity into 1-2 days/week (the weekend-warrior pattern) give the same mortality benefit as spreading the same total volume across the week?
 aliases: [Weekend Warrior, Activity Pattern and Mortality, Bout Distribution and Mortality, Concentrated vs Spread Activity, Weekend Exercise]
-authors: [Kunutsor, Setor K; Jae, Sae Young; Laukkanen, Jari A; O'Donovan, Gary; Petermann-Rocha, Fanny; Ferrari, Gerson; Lee, I-Min; Hamer, Mark; Stamatakis, Emmanuel]
-sources: [Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022, ODonovan - Weekend Warrior Accelerometer Mortality 2024]
+authors: [Kunutsor, Setor K; Jae, Sae Young; Laukkanen, Jari A; O'Donovan, Gary; Petermann-Rocha, Fanny; Ferrari, Gerson; Lee, I-Min; Hamer, Mark; Stamatakis, Emmanuel; Khurshid, Shaan; Al-Alusi, Mostafa A; Churchill, Timothy W; Guseh, J Sawalla; Ellinor, Patrick T]
+sources: [Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022, ODonovan - Weekend Warrior Accelerometer Mortality 2024, Khurshid - Weekend Warrior Accelerometer 2023]
 cluster: activity
-confidence: low
+confidence: medium
 relationships:
   related_to:
     - The Physical Activity Paradox
@@ -14,8 +14,8 @@ relationships:
   extends:
     - Physical Activity Dose and Mortality
 created: 2026-08-23
-updated: 2026-08-23
-self_critiqued: 2026-08-23
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 ---
 
 **A distinct decision from *how much activity?*** — this page answers *how should I distribute a fixed
@@ -23,19 +23,30 @@ weekly volume?* (bout distribution), an orbiter of the total-dose nucleus
 [[Physical Activity Dose and Mortality]]. The reader it serves is time-pressed: *can I bank the mortality
 benefit in one or two sessions, or must activity be spread across the week?*
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## The decision-change
 
-**Concentrating guideline-level activity into 1-2 sessions/week is associated with the same mortality
-reduction as spreading it — total volume, not its distribution across days, carries the signal.** For a
-person who cannot exercise most days, this licenses the weekend-warrior pattern as a real option rather
-than a compromise. Two held sources agree, and a third (Dos Santos 2022, dose-adjusted, reported *via*
-O'Donovan) agrees after matching total dose.
+**Concentrating guideline-level activity into 1-2 sessions/week is associated with the same benefit as
+spreading it — total volume, not its distribution across days, carries the signal.** For a person who
+cannot exercise most days, this licenses the weekend-warrior pattern as a real option rather than a
+compromise. The equivalence now holds across **both measurement methods and both major outcome
+families**: self-report -> mortality (Kunutsor MA + O'Donovan Mexico City; Dos Santos 2022, dose-adjusted,
+reported *via* O'Donovan, agrees after matching total dose), and objective wrist-accelerometer -> incident
+CVD events (Khurshid, UK Biobank). The cleanest test — Khurshid's WW-vs-regular comparison **within MVPA
+decile (matched total dose)** — is null for all four CVD outcomes, isolating pattern from volume.
 
-**But two floors bound the licence:** (i) the concentrated sessions must be **long enough** — under \~30
-min/session the benefit disappears (O'Donovan); (ii) the evidence is **observational, self-report, very
-low GRADE, and from one research lineage** — so this is a permission, not a strong recommendation, and
-the acute-effect argument for regular activity (BP/lipid benefits need sustaining) is unrefuted for
-intermediate outcomes.
+**But three floors bound the licence:** (i) the concentrated sessions must be **long enough** — under
+\~30 min/session the mortality benefit disappears (O'Donovan); (ii) **all evidence is observational**
+(healthy-user selection, residual confounding, exposure measured as a single week in Khurshid) — no RCT
+exists, so this is a permission, not a strong recommendation; (iii) the acute-effect argument for regular
+activity (BP/lipid benefits need sustaining) is unrefuted for intermediate outcomes. What Khurshid
+*removes* from the earlier floor is the *self-report-only, single-research-lineage* limitation: an
+independent group, on an objective instrument, reaches the same equivalence — the reason confidence is
+raised from low to **medium** (below).
+[inferred from @kunutsor2022; @odonovan2024; @khurshid2023]
+
+</div>
 
 ## The two patterns are equivalent — but do NOT equate the two studies' magnitudes
 
@@ -64,6 +75,48 @@ all-cause mortality (P-values for meta-regression: 0.75 and 0.51, respectively)�
 O'Donovan: «the HR (95% CI) was 0.88 (0.83 to 0.93) in the weekend warriors and 0.88 (0.84 to 0.91) in
 the regularly active» [@odonovan2024].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## The objective-measurement leg — Khurshid 2023 (UK Biobank accelerometer), and why it IS independent
+
+The self-report G-gap this page named is now filled by an **objectively-measured** study: Khurshid 2023
+(JAMA), UK Biobank accelerometer substudy (n=89,573, Axivity AX3 wrist accelerometer worn one week),
+testing WW vs regular vs inactive against **incident CVD events** (AF, MI, HF, stroke). Both active
+patterns confer similarly lower risk vs inactive at the guideline threshold (WW/regular HR: AF
+0.78/0.81, MI 0.73/0.65, HF 0.62/0.64, stroke 0.79/0.83)
+[@khurshid2023]. The decisive test is WW vs regular
+**within MVPA decile** (matched total dose): «In multivariable models stratified by MVPA decile, there
+were no differences in risk with the WW pattern (AF: hazard ratio [HR], 0.98 [95% CI, 0.89-1.09]; MI: HR,
+1.12 [95% CI, 0.95-1.30]; HF: HR, 0.92 [95% CI, 0.79-1.08]; stroke: HR, 0.92 [95% CI, 0.77-1.11]).»
+[@khurshid2023] — at matched volume, concentration
+neither adds nor subtracts risk, isolating pattern from dose.
+
+**The shared-dataset guard was checked and does NOT fire — Khurshid is genuinely independent of both held
+sources.** Khurshid's slug and O'Donovan's *both* say «Accelerometer», which invites a same-UK-Biobank
+double-count suspicion. It is false: they share no cohort, no measurement, no author.
+
+| Parameter | Khurshid 2023 (UK Biobank) | O'Donovan 2024 (held) | Kunutsor 2022 (held) | Same quantity? |
+|---|---|---|---|---|
+| **Dataset** | UK Biobank accelerometer substudy | Mexico City Prospective Study | pool of 4 cohorts (Lee/O'Donovan-2017/Shiroma/Dos Santos) | **NO shared cohort** — none of Kunutsor's 4 is UK Biobank; Shiroma (NHANES) is the lone accelerometry constituent |
+| **Exposure measurement** | **objective** wrist accelerometry | 3-item self-report questionnaire | 3/4 self-report + 1 accelerometry (Shiroma) | **DIFFERENT** — Khurshid supplies the objective leg the pair lacked |
+| **Outcome** | incident CVD **events** (AF/MI/HF/stroke) | all-cause / CVD / cancer **mortality** | CVD + all-cause **mortality** | **NO** — morbidity vs mortality; do NOT equate Khurshid's HRs with the mortality HRs |
+| **Authors** | Khurshid/Al-Alusi/Churchill/Guseh/Ellinor (MGH/Broad) | O'Donovan/Lee/Hamer/Stamatakis | Kunutsor/Jae/Laukkanen | **DISJOINT** — no author overlap with either held source |
+| **n / follow-up** | 89,573 / median 6.3 y | 154,882 / 17.6 y | 426,428 pooled | different |
+| **WW vs regular verdict** | null within-decile and null head-to-head | HR 0.88 vs 0.88 (all-cause) | meta-regression p=0.51-0.75 | **YES** — all three find concentration does not change the benefit |
+
+**Verdict: genuine type-E independent backing on the equivalence claim** (different cohort + objective
+measurement + disjoint authors, converging on WW = regular) — mark `[E-independent]` on the
+pattern-equivalence claim only. This is *not* the same-dataset non-independence the staging note feared;
+that fear rested on the (incorrect) assumption that O'Donovan 2024 is UK Biobank accelerometer — it is the
+Mexico City self-report cohort. [inferred from @khurshid2023; @odonovan2024; @kunutsor2022]
+
+**Two guards on the E claim:** (i) it backs the *equivalence principle* (concentration \~ spread), not a
+shared magnitude — Khurshid measures CVD morbidity, so it does not triangulate the *mortality* magnitude
+(where Kunutsor and O'Donovan themselves diverge on CVD mortality, below); (ii) all three remain
+observational, so the E raises confidence about *measurement-method robustness*, not about causality.
+
+</div>
+
 ## The session-duration floor — O'Donovan's novel refinement (type-F)
 
 **"Weekend warrior" works only if the concentrated sessions are substantial.** Stratifying by
@@ -83,7 +136,13 @@ min.» [@odonovan2024]
 (better 30-60+) minutes, not two brief ones. This is a genuine refinement of Kunutsor's pattern-level
 equivalence, which could not see session duration (no subgroup data). [inferred from @odonovan2024]
 
-## Independence: this pair is type-F (refinement), NOT type-E (independent backing)
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## Independence: the Kunutsor/O'Donovan pair is type-F (refinement), NOT type-E
+
+*(The genuine type-E independent backing on this page comes from Khurshid 2023 — a different cohort,
+objective measurement, disjoint authors — established in the objective-measurement-leg section above. This
+section concerns only the O'Donovan-vs-Kunutsor relationship, which is NOT independent.)*
 
 **The self-report measurement-error limitation Kunutsor names is NOT resolved by O'Donovan 2024**, and the
 pairing does not raise confidence as an independent instrument would — because the two are the same
@@ -105,6 +164,8 @@ extensions Kunutsor lacked (the duration floor; repeated-measures "becoming a WW
 either source alone without being independent backing.
 [inferred from @kunutsor2022; @odonovan2024]
 
+</div>
+
 ## Transportability — the absolute benefit shrinks where background activity is high
 
 O'Donovan's exercise-vs-non-exercise contrast is **smaller** (\~15% lower all-cause mortality) than the
@@ -115,7 +176,7 @@ already walks a lot for transport, the marginal benefit of adding structured exe
 the same non-exercise/occupational-PA theme as [[The Physical Activity Paradox]]. So the pattern
 equivalence transports, but the *magnitude* of any-activity-vs-none does not.
 
-<div class="recent-update" data-last-updated="2026-09-10">
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Caveats and what is NOT resolved
 
@@ -127,14 +188,23 @@ equivalence transports, but the *magnitude* of any-activity-vs-none does not.
   [@kunutsor2022] — for
   BP/glycaemic *intermediate* outcomes the equivalence may not hold; the mortality equivalence is the
   claim, not an all-outcome one.
-- **Injury.** «weekend warrior PA patterns are more likely to be associated with musculoskeletal
+- **Injury — Kunutsor cautions, Khurshid's data do not bear it out.** Kunutsor: «weekend warrior PA
+  patterns are more likely to be associated with musculoskeletal
   injuries and major trauma and might not be suitable for people with chronic conditions such as
   diabetes» [@kunutsor2022].
-- **G-gap — the objective test is not held.** The self-report limitation would be answered by an
-  accelerometer-measured WW cohort (the UK Biobank accelerometer weekend-warrior analysis, Khurshid 2023
-  JAMA) — **not in the corpus.** — an
-  objective-measurement replication that would upgrade this from low certainty. Also unheld: a
-  step-pattern version (Inoue 2023, 8000 steps on 1-2 days \~= daily), cited by O'Donovan.
+  But the one held source that *measured* incident MSK conditions found no excess from concentration:
+  «Both activity patterns were associated with similarly lower risks of incident musculoskeletal
+  conditions.» [@khurshid2023] — so the injury
+  caution is a stated concern (Kunutsor names no supporting estimate), not a measured WW harm; the one
+  objective MSK-outcome test refines it toward no differential risk.
+- **G-gap CLOSED — the objective test is now held (Khurshid 2023).** The self-report limitation is
+  answered by an accelerometer-measured WW cohort: the UK Biobank accelerometer weekend-warrior
+  analysis (n=89,573, Axivity AX3 wrist device, incident CVD events), which reaches the same
+  pattern-equivalence conclusion by objective measurement in a disjoint cohort — see the
+  objective-measurement leg above.
+  ~~~~ **CASHED 2026-09-15 by Khurshid 2023.**
+  Still unheld: a step-pattern version (Inoue 2023, 8000 steps on 1-2 days \~= daily), cited by
+  O'Donovan.
 
 </div>
 

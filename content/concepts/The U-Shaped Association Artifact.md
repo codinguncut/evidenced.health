@@ -9,7 +9,7 @@ sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol 
   Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
   Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017,
   Villoz - Dairy Cognitive Decline Dementia 2024, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020]
-cluster: inference-pitfalls
+cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
 updated: 2026-09-08
@@ -93,8 +93,6 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## Where it applies in the wiki
 
@@ -871,8 +869,6 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
-
-</div>
 
 ## Corrections and revision history (dated strata)
 

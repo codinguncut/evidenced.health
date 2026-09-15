@@ -100,8 +100,6 @@ below are the Commission's cited/new-meta-analysis figures; each is for dementia
 
 [@livingston2024]
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The evidence-STRENGTH axis, orthogonal to PAF — Zhang's credibility tiering (F/C-advance, 2026-09-08)
 
 The Commission's list answers *how much* dementia each factor accounts for at the population level (PAF
@@ -184,8 +182,6 @@ authors with held dementia sources (Xu, Wei is on both this and the omega-3 sour
 2017/2020 while resting partly on the same observational literature. So this is a **type-F** credibility
 refinement of Livingston plus a **type-C** new axis — never `[E-independent]` against Livingston or the
 group's own siblings.
-
-</div>
 
 ## The cognitive-stimulation number, de-secondhanded (F-refinement, 2026-08-14)
 
@@ -290,8 +286,6 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## The physical-activity number, de-secondhanded (F-refinement, 2026-09-04)
 
 The *physical inactivity* cell above carries the Commission's *borrowed* activity figure — RR 0.80
@@ -390,8 +384,6 @@ cell cannot carry.
   neuroprotective slope, WITHOUT dislodging activity as a big rock — it is recommended for cardiometabolic
   reasons regardless (Kivimaki's own conclusion supports «this basic tenet of prevention in public
   health»). [inferred from @kivimaki2019inactivity; @isomarkku2022]
-
-</div>
 
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 
@@ -496,8 +488,6 @@ design-upgrade de-secondhanding, not an identity-plus-enrichment.
 - **Compression of morbidity is a trajectory finding, not only a length one.** Healthier lives not only
   lower dementia risk but push its onset back *further than* life expectancy extends, compressing the
   years lived with dementia -> the shape-of-decline outcome the telos centres.
-
-<div class="recent-update" data-last-updated="2026-09-08">
 
 ## The diet lever — quantified, observational, and probably NOT additive to the cardiometabolic rocks
 
@@ -618,8 +608,6 @@ confirmation. Every "Same quantity?" cell is NO, so this is a bounding/refinemen
 The same Mediterranean pattern has an RCT on *cardiovascular* hard outcomes (PREDIMED, stroke-driven, at
 high baseline risk) -> [[Mediterranean Diet and Cardiovascular Events]] — which is consistent with the
 mediation reading: the pattern's best-evidenced effect is on the vascular channel that feeds AD risk.
-
-</div>
 
 ## Periodontal disease — an observational candidate lever, NOT one of the 14 (2026-08-23)
 
@@ -856,8 +844,6 @@ and its one curve feature is a pooling artifact. It does not reorder the cardiom
 future independent test must avoid the Villoz/Filippini/Vinceti (Modena) author group
 -> an independent dairy-cognition SR/MA.
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Sleep disorders — a non-diet candidate lever, NOT one of the 14 (2026-09-04)
 
 Sleep is the first **non-diet, non-activity** candidate lever on this page, and — like the diet levers
@@ -919,8 +905,6 @@ or referent-correction and states outright the associations «were not equal to 
 F-analysis live on [[Sleep and Cognitive Decline]]. NB: Xu Wei here is the same recurring author who
 co-authored the held Zhang 2022 dementia umbrella cited elsewhere on this page — a second work by that
 author, not independent corroboration.
-
-</div>
 
 ## The RCT leg — FINGER bounds the observational PAF (F-refinement, 2026-08-05)
 
@@ -1046,8 +1030,6 @@ cognitive training is the top combination and the fuller multidomain bundle does
 *more is not better*** — a within-surrogate hierarchy that does not convert to the incidence benefit the
 pooled null denies. [@mendes2025multidomain]
 
-<div class="recent-update" data-last-updated="2026-09-10">
-
 ## Self-critique `[run 2026-08-05, before commit]`
 
 - **Not laundered / not overclaimed.** The headline 45.3% is presented with all three of the source's own
@@ -1169,7 +1151,5 @@ pooled null denies. [@mendes2025multidomain]
   warrant weakens. `confidence: medium` held — the page still rests on the Commission's consensus backing.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the PAF against a realized
   dementia outcome. A clean audit of this page is not a validated prevention claim.
-
-</div>
 
 ## References

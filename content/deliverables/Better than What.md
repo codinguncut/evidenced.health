@@ -6,9 +6,9 @@ question: 'How does the choice of comparator (replace X with what?) change the e
 sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022]
 confidence: medium
 created: 2026-08-05
-updated: 2026-08-31
-self_critiqued: 2026-08-31
-concrete_subject_audited: 2026-08-31
+updated: 2026-09-15
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 ---
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
@@ -80,6 +80,8 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What is "X", exactly? Specifying the exposure before its comparator
 
 You cannot say "instead of what" until you pin down "what". A food or nutrient label is only a usable
@@ -116,8 +118,43 @@ their leads:
   caffeine is measuring the matrix under a caffeine label
   -> [[Coffee Consumption and Health]].
 
+### A named diet is a bundle: what it removes vs what it distinctively adds
+
+The specify-the-exposure move applies to a whole eating pattern, not just a single food. A named diet
+is two exposures wearing one name: an **exclusion arm** (the foods it drops) and a
+**distinctive-inclusion arm** (the foods its name promotes). Keto says "eat fat", carnivore says "eat
+meat", paleo and Whole30 say "eat real food" — but each one also silently deletes ultra-processed food,
+sugar, and refined-carbohydrate snacks. The measured or felt benefit is the sum of the two arms, and the
+two often have opposite signs. -> [[What a Diet Removes vs What It Adds]]
+
+The confound is that the diet's identity — its memorable additions — collects the credit its exclusions
+earned:
+
+- **The exclusion arm** is what almost every popular diet removes regardless of its ideology, and it is
+  the arm the fabric's evidence supports -> [[Ultra-Processed Food and Health Outcomes]],
+  [[Free Sugars Intake]].
+- **The distinctive-inclusion arm** is the marginal exposure — the part separating this diet from another
+  equally junk-free one — and it is where the fabric's directional evidence often runs the wrong way (the
+  saturated fat or plant-exclusion the name promotes) -> [[Is the Food Category Doing Any Work]].
+
+
+The comparator decides which arm shows. Set the diet against a junk-heavy Western plate and the exclusion
+arm dominates, so the whole bundle looks good and its distinctive additions ride along on that verdict.
+Set it against the **honest comparator** — an equally junk-free diet that still keeps fibre, plants, fish,
+and plant oils — and the exclusion arm is matched out on both sides, leaving the distinctive inclusion
+judged alone -> [[The Comparator Problem]].
+
+The confound is a diagnostic, not a verdict that every named diet is only its exclusions: a diet earns
+credit for its additions when a distinctive inclusion survives that honest comparator. The Mediterranean
+pattern is the contrast case — its hard-endpoint signal comes
+from named additions (olive oil, nuts) tested against a control that was not itself junk-heavy
+-> [[Named Diet Programs Compared]]. The test is per diet: does a distinctive addition survive a
+comparator that is not itself junk-heavy, or does only the exclusion?
+
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
+
+</div>
 
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
@@ -316,6 +353,8 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Caveats and boundaries
 
 - **This is an open loop.** No operation grades a decision here against a realized outcome; the wiki
@@ -343,6 +382,8 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Evidence included** | 3 sources — 3 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-31 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+
+</div>
 
 ## References

@@ -1,15 +1,15 @@
 ---
 type: deliverable
 title: GLP-1 Drugs
-self_critiqued: 2026-09-05
-concrete_subject_audited: 2026-09-05
+self_critiqued: 2026-09-15
+concrete_subject_audited: 2026-09-15
 question: 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, kidney, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?'
 aliases: [GLP-1 Receptor Agonists for Weight, Semaglutide, Tirzepatide, Ozempic, Wegovy, Mounjaro, Zepbound, Weight Loss Drugs, GLP-1 Agonists]
-authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Badve, Sunil V; Yang, Kaijie; Laverde, Ligia Patricia; Nong, Kailei; Sumithran, Priya; Sjöström, Lars; Kuate Defo, Alvin]
-sources: [Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
+authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Badve, Sunil V; Yang, Kaijie; Laverde, Ligia Patricia; Nong, Kailei; Sumithran, Priya; Sjöström, Lars; Kuate Defo, Alvin; Bi, Zheng; Bushi, Ganesh; Volker, K M]
+sources: [Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Volker - GLP-1 Substance Use Disorders 2026, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
 confidence: medium
 created: 2026-08-17
-updated: 2026-09-05
+updated: 2026-09-15
 ---
 
 > [!warning] Applies to a specific decision
@@ -283,6 +283,8 @@ this as insufficient evidence on function, not as safe or harmful
   [inferred from @laverde2026]
   -> [[Big Rocks (Elderly)]], [[Protein and Resistance Training for Muscle and Strength]].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## The safety ledger: worry about the gut, not the cancers
 
 Read each entry on two axes at once, because the umbrella evidence grades them on two that routinely
@@ -342,6 +344,35 @@ indication rather than anything GLP-1-specific; both umbrellas pool the same obs
 pharmacoepidemiology, so they cannot cross-confirm. The dementia entry stays a watched protective
 blank.
 
+**The neuropsychiatric signal is graded by severity, and both tiers point at one stratum.** On the
+milder, higher-frequency endpoint it leans harm: a depression meta-analysis pooled a
+depression-related adverse-event **OR 1.49 (95% CI 1.18-1.88)**
+[@glp1depression2026], which it rated GRADE moderate
+[@glp1depression2026]. On the severe endpoint — suicidality, behind
+the 2023 FDA/EMA scare — a dedicated meta-analysis found no population signal, **RR 0.568 (95% CI
+0.077-4.205)** [@glp1suicidality2025], but the interval runs from
+strong protection to fourfold harm, so it is nearly uninformative rather than reassuring; the same
+severe endpoint rates GRADE low-to-very-low, on serious imprecision from low event rates
+[@glp1depression2026].
+
+The lone counter-signal is agent- and
+stratum-specific — a semaglutide WHO-VigiBase suicidal-ideation **ROR 1.45 (1.18-1.77)**, rising to
+**4.45 (2.52-7.86)** among users co-prescribed antidepressants — best read as confounding by
+indication, a marker of pre-existing psychiatric illness, not clean effect modification
+[@glp1suicidality2025]. Both tiers converge on one stratum to
+watch — psychiatric-comorbid, already on psychotropics — and they are two severity tiers of one mood
+axis: a graded distinction, not a contradiction -> [[Depression and Modifiable Exposures]].
+
+**The feared *flattens all pleasure* harm is, on current evidence, a benefit-leaning-but-unmeasured
+question, not a demonstrated one.** The same mesolimbic-reward mechanism that cuts food craving also
+cuts *substance* craving — less alcohol, less nicotine in humans — and in animal models it is
+selective, sparing natural reward: liraglutide's «effects were speciﬁc to drug-related behaviors, as
+it did not alter natural reward-seeking or saccharin intake»
+[@volker2026glp1sud]. That cuts against a
+blanket-anhedonia reading. But no human study has measured hedonic tone, anhedonia, or quality of life
+directly, so the pleasure-flattening harm is *unmeasured, not refuted*
+-> [[GLP-1 and Reward Beyond Food]].
+
 **Two facts make any version of this ledger provisional.** First, mechanical fragility: in
 leave-one-trial-out reanalysis, the direction flipped in roughly 9 of 39 outcomes and significance was
 lost in 6 of 39 after removing a single trial. An association a single trial can overturn is not one
@@ -351,6 +382,8 @@ while prescribing moves to agents that add receptor targets it never tested (tir
 to higher doses. And the umbrella could not stratify harms by dose or duration. Accrued safety years
 de-risk the *specific compound at the specific dose that accrued them*; the class label stays constant
 while the exposure under it drifts -> [[GLP-1 Non-Cardiometabolic Effects and Safety]].
+
+</div>
 
 ## Stopping the drug gives the weight back — and the benefit with it
 
@@ -389,6 +422,8 @@ most exposed — and to stop there, not to net it against the mortality and even
 lifelong cost outweighs a rented benefit is the person's judgment, not a number this evidence supplies
  -> [[Which Objective Moved This Recommendation]].
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## What the current evidence still cannot see
 
 These are gaps — *insufficient evidence*, not *no effect* -> [[The Insufficient-Evidence Statement]].
@@ -404,12 +439,22 @@ decades, and this horizon mismatch is structural — more searching now cannot c
   facial/skin adipose change may be effects of *rapid, large weight loss by any route* rather than of
   the molecule. Separating them needs a matched comparator losing the same magnitude at the same rate
   by other means, and none is held.
+- **The neuropsychiatric outcomes that matter most are the ones the design cannot see.** A
+  depression-adverse-event count is not a measure of hedonic tone — whether the drug dulls everyday
+  pleasure (anhedonia / QoL) is unmeasured, not refuted. And because trials **exclude** psychiatric
+  history, the suicidality evidence is observational only: the psychiatric-comorbid stratum the signal
+  flags is invisible to the clean RCT design, leaving insufficient evidence where the worry
+  concentrates.
 - **Unknown unknowns are unquantifiable — so name the two honest proxies.** No list exists of harms
   nobody has measured. What can be stated is the shape that makes them likely and hard to catch: the
   evidence-horizon-versus-use-horizon mismatch above, and the moving-target problem — the exposure
   drifts under a constant label as prescribing moves to newer molecules and higher doses the
   mature record never tested. Accrued years de-risk the specific compound and dose, not the class
   label.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Where you net out
 
@@ -432,7 +477,10 @@ cost without touching the weight benefit, most urgently in older or frailty-risk
 **Then weigh the trade-off yourself.** The evidence names what the drug moves, in which direction, and
 how certainly — weight and diabetes-progression reliably; hard cardiovascular, kidney, and mortality
 outcomes where baseline risk is high; a manageable gut cost; feared cancers with no robust signal but
-no long-term all-clear. It does not price weight change against gastrointestinal burden, lifelong
+no long-term all-clear; and a low-to-moderate-certainty mood signal that leans harm, alongside a feared
+suicidality scare with no robust population signal — a low-certainty adverse signal, not a proven harm,
+and one to watch mainly if you are psychiatric-comorbid or already on psychotropics. It does not price
+weight change against gastrointestinal burden, lifelong
 cost, or an event benefit proven for one stratum and unproven for another. Bring your own weighting;
 the fabric supplies only the directions and the certainties.
 
@@ -441,9 +489,11 @@ the fabric supplies only the directions and the certainties.
 > | | |
 > |---|---|
 > | **Question** | 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, kidney, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?' |
-> | **Evidence included** | 12 sources — 4 gold, 8 high |
+> | **Evidence included** | 15 sources — 7 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+
+</div>
 
 ## References

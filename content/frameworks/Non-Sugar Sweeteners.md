@@ -212,8 +212,6 @@ resolving it:
   [EXTRACTED (aspartame-safety-review-nutrients-2023) chunk 01] It is a *narrative* review — regulatory
   summary and contraindication list, not independent quantitative evidence.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## IARC 2023 — the primary hazard classification (now held) `[2026-08-04]`
 
 The hazard-vs-risk distinction this section turns on is owned at concept altitude by
@@ -253,8 +251,6 @@ collapse, kept apart here:
   can't-exclude-confounding hazard signal into a demonstrated dietary risk. Symmetric standards cut both
   ways: it is a *finding* (a positive hazard classification, not dismissible), but a **weak** one.
   [inferred from @iarc2023]
-
-</div>
 
 ## JECFA 2023 — the risk assessment (now held) `[2026-08-04]`
 

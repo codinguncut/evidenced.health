@@ -104,8 +104,6 @@ association warrant a reduce-recommendation at all?* Here they genuinely clash o
   bridge never asks that question, because a "probable" cause "generally justifies" a recommendation by
   construction.
 
-<div class="recent-update" data-last-updated="2026-09-08">
-
 ## The hidden insight
 
 
@@ -133,9 +131,8 @@ complementation is deliberate -> [[Protein Quality and the DIAAS Score]]. This d
 cancer adjudication; it is a second axis the person weighs against it (and the antinutrient worry about
 the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]]).
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-08">
+
 
 ## The CVD and all-cause-mortality arm of the same decision (Zhong 2020) `[2026-09-08]`
 
@@ -171,8 +168,6 @@ even if the overall quality of their diet was high».
 hypothesis-generating subgroup (many strata tested, exploratory, P<.01 threshold), NOT a stratified
 recommendation — the effect-modification bar (route b: a positive interaction on replicated evidence) is
 not met by one exploratory pass. Recorded as a lead, not a finding.
-
-</div>
 
 ## The one thing that would move this — and a caveat on NutriRECS
 

@@ -3,12 +3,12 @@ type: deliverable
 title: Should I Act Before the Meta-Analysis Exists?
 icon: material-symbols-light:balance
 question: 'When is a lifestyle choice well-founded enough for an INDIVIDUAL to act on ahead of (or without) a settled meta-analysis, and how should the threshold to act scale with reversibility, cost, and the size of the lever — versus when the disciplined move is to wait?'
-sources: [GRADE - Handbook, Cochrane - Handbook for Systematic Reviews 6.5, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Amrhein - Retire Statistical Significance 2019, WHO - Saturated and Trans Fatty Acid Intake 2023]
+sources: [GRADE - Handbook, Cochrane - Handbook for Systematic Reviews 6.5, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Amrhein - Retire Statistical Significance 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, EASD - DNSG Dietary Management of Diabetes 2023, ADA - Nutrition Therapy for Diabetes 2019]
 confidence: medium
 created: 2026-08-26
-updated: 2026-08-27
-self_critiqued: 2026-08-26
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-16
+self_critiqued: 2026-09-16
+concrete_subject_audited: 2026-09-16
 ---
 
 Sometimes a guideline body holds back while you, deciding for yourself, should act — and not
@@ -37,6 +37,8 @@ every section below: the loop is open. This guide can tell you whether a well-in
 *would* act this way; it can never tell you whether the person who did ended up better off.
 
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## "How good is the evidence?" and "should I act?" are different questions
 
 Ordinary advice runs two separate judgments together. Pull them apart and the rest falls into
@@ -46,6 +48,18 @@ other. Strong evidence routinely pairs with a *weak* recommendation, because the
 on the person's own values; weak evidence can justify strong action when benefit so outweighs harm
 that the uncertainty barely matters. Certainty feeds the decision; it is not the decision.
 -> [[Certainty of Evidence vs Strength of Recommendation]]
+
+Real bodies act this out. EASD's 2023 diabetes guidance grades each recommendation's certainty but attaches
+no strong/conditional label — «This certainty of evidence determines how recommendations are worded»
+[@dnsg2023] — folding how firmly to act into the
+verb. ADA 2019 shows the same split on one specific decision: on macronutrient share it sets no population
+target — «there is not an ideal percentage of calories from carbohydrate, protein, and fat» — and hands the
+choice to «individualized assessment of current eating patterns, preferences, and metabolic goals»
+[@evert2019], so that decision turns on the person's
+values, not a certainty grade. (ADA still issues firm population directives elsewhere — 5% weight loss,
+alcohol in moderation — so this is one decision handed to values, not a whole guideline.) Certainty feeds
+how firmly each body speaks; it does not settle it.
+[inferred from @evert2019; @dnsg2023]
 
 **A guideline is cautious because of the job it is doing, not because caution is the right answer
 for you.** A guideline body is advising a whole population, so its recommendation has to be safe
@@ -80,6 +94,8 @@ way to act where a population recommendation is silent: you need to know your ow
 claim the treatment works differently inside you. Claiming *that* — that the relative effect itself
 is different for you — is the expensive route, and it demands direct evidence of an interaction,
 not just a plausible mechanism. -> [[Baseline Risk and the Relative-Absolute Split]]
+
+</div>
 
 ## A direction can be sound without a pooled magnitude
 
@@ -287,6 +303,8 @@ something you don't — do not mistake caution for a verdict.
   comparator already exist and asks which quantile to act on; **this page asks the prior question —
   whether to act at all when the pooled evidence is silent, and how a direction is even reached.**
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Where this nets out
 
 If you are waiting for the meta-analysis before you change anything, ask first whether you are
@@ -308,9 +326,11 @@ says so.
 > | | |
 > |---|---|
 > | **Question** | 'When is a lifestyle choice well-founded enough for an INDIVIDUAL to act on ahead of (or without) a settled meta-analysis, and how should the threshold to act scale with reversibility, cost, and the size of the lever — versus when the disciplined move is to wait?' |
-> | **Evidence included** | 6 sources — 2 gold |
+> | **Evidence included** | 8 sources — 4 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
+
+</div>
 
 ## References

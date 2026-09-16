@@ -2,8 +2,8 @@
 type: diagnostic
 question: A document says it used GRADE — how do you check whether it did?
 aliases: [GRADE Conformance, Criteria for Claiming GRADE, Modified GRADE, GRADE Checklist]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -11,8 +11,8 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-07-31
-self_critiqued: 2026-07-31
+updated: 2026-09-16
+self_critiqued: 2026-09-16
 ---
 
 ## Why it matters
@@ -212,6 +212,69 @@ means *the GRADE method*. A body can (a) use GRADE and claim it (run the check),
 system and say so (audit against that system — USPSTF), or (c) use the token "GRADE" for something else
 entirely (a naming collision, not a method claim). Only (a) is this page's job.
 [inferred from @uspstfmanual2022]
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## A THIRD variant — a systematic evidence base, a CONSENSUS recommendation (ADA 2019) `[2026-09-16]`
+
+USPSTF is a body that grades with a different fully-specified system. **ADA's 2019 nutrition-therapy
+consensus report is a different animal again: a body that assembles evidence systematically but takes
+the recommendation step by expert consensus, grading nothing.** Its method statement is explicit:
+«Though evidence-based, the recommendations presented are the informed, expert opinions of the authors
+after consensus was reached through presentation and discussion of the evidence»
+[@evert2019]. There is no per-outcome certainty
+rating, no strength grade, and no Evidence-to-Decision table anywhere in the document; recommendations
+are labelled as consensus recommendations, not graded ones.
+
+**So the three-way precondition needs a fourth branch.** Before running the seven criteria, a document
+can:
+
+- **(a) use GRADE and claim it** — run the check;
+- **(b) use a different specified system and say so** — audit against that system (USPSTF);
+- **(c) use the token "GRADE" for something else** — a naming collision (USPSTF's letter grades);
+- **(d) run a systematic evidence review but issue CONSENSUS recommendations with no grading at all**
+  — ADA 2019. Here the seven criteria cannot run because there is nothing graded to audit, and that
+  is itself the finding.
+
+**The important distinction branch (d) forces: the evidence layer and the recommendation layer can be
+graded independently, and ADA grades neither *at the recommendation step* while assembling the first
+systematically.** ADA's evidence backbone is a published systematic review (the Academy of Nutrition
+and Dietetics MNT review); what is ungraded is the *transmission* from that evidence to the consensus
+recommendations. So the right audit for ADA is **not** GRADE conformance and **not** an alternative
+grading manual — it is (i) [[What a Trustworthy Systematic Review Requires]] against the underlying SR,
+and (ii) noting that the recommendation step is unauditable by construction because it is consensus,
+not a graded synthesis. A consensus report is not a *process defect* (it never claimed to grade) — it
+is a different, weaker instrument, and the reader should treat its recommendations as expert opinion
+resting on a systematic evidence base, not as graded conclusions.
+[inferred from @evert2019]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## A FIFTH branch — GRADE for CERTAINTY only, no formal strength grade (EASD-DNSG 2023) `[2026-09-16]`
+
+ADA (branch d) grades nothing. **EASD-DNSG 2023 is the positive contrast: a nutrition body that DOES use
+GRADE — but only on the certainty half.** It grades every recommendation's certainty with GRADE's own ⊕
+notation: «We have used the Grading of Recommendations, Assessment, Development and Evaluations (GRADE)
+approach to comment on the certainty of evidence for each recommendation... Each recommendation is graded as
+either very low, low, moderate or high» [@dnsg2023]. But it issues **no formal strength grade** — «This certainty of evidence determines how recommendations
+are worded» [@dnsg2023] — and publishes **no
+Evidence-to-Decision table**; reporting followed the AGREE Reporting Checklist, not GRADE's strength machinery.
+
+**So the seven criteria run only partway.** Criteria 1-4 (the certainty side) are testable and largely met:
+per-outcome ⊕ ratings, the systematic-review evidence base named. Criteria 5-7 (the strength side — the
+four strength determinants, two strength categories, transparent strength judgements) **cannot be audited,
+because there is no strength grade to inspect.** This is a *partial* GRADE use — genuine on certainty,
+absent on strength — distinct from branch (a) (full GRADE, e.g. WHO SFA, where all seven run) and from
+branch (d) (ADA, grades nothing).
+
+**Reading consequence.** *Used GRADE* is not binary. A body can grade certainty rigorously and still leave
+the certainty->strength transmission implicit (folded into wording), so a reader auditing EASD should run
+criteria 1-4 and record 5-7 as *not applicable — no strength axis issued*, not as failures. -> [[Certainty of Evidence vs Strength of Recommendation]]
+[inferred from @dnsg2023]
+
+</div>
 
 ## This checks GRADE conformance; the SR PROCESS has its own standard now `[2026-07-31, IOM]`
 

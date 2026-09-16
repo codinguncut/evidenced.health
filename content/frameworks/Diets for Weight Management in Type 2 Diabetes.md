@@ -2,11 +2,11 @@
 type: framework
 question: For weight management and glycaemic control in someone who already has type 2 diabetes, is any dietary approach clearly superior — and does the certainty-graded evidence favour a macronutrient profile, or an energy-delivery format?
 aliases: [Best Diet for Type 2 Diabetes, Diabetes Diet Umbrella Review, Which Diet for T2D, T2D Weight Management Diets, Diet Type and Diabetes Control, Churuangsuk Umbrella Review]
-authors: [Churuangsuk, Chaitong; Lean, Michael EJ; Reynolds, Andrew; Griffin, Simon J; Szczerba, Edyta; Schlesinger, Sabrina; Schwingshackl, Lukas]
-sources: [Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
+authors: [Churuangsuk, Chaitong; Lean, Michael EJ; Reynolds, Andrew; Griffin, Simon J; Szczerba, Edyta; Schlesinger, Sabrina; Schwingshackl, Lukas; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: weight-loss-diets
 confidence: medium
-self_critiqued: 2026-08-04
+self_critiqued: 2026-09-16
 relationships:
   related_to:
     - Named Diet Programs Compared
@@ -18,7 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Diets for Weight Loss - What NICE Recommends
 created: 2026-08-04
-updated: 2026-08-06
+updated: 2026-09-16
 ---
 
 Churuangsuk 2022 (Diabetologia) is the **gold-tier umbrella review** for the T2D-specific version of the
@@ -158,6 +158,8 @@ low-carb-remission claim rests on the weakest cell in the table, sharpening the 
   diet comparisons are unlikely to add useful information», redirecting the field to pragmatic /
   practice-based / n-of-1 evidence. [@churuangsuk2022]
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## The paired umbrella (Szczerba 2023) — surrogate refinement on shared evidence
 
 Szczerba 2023 (BMJ Medicine) is the **cardiometabolic-surrogate** counterpart to Churuangsuk's
@@ -181,7 +183,7 @@ Three findings fall out:
   [[Rating Certainty of Evidence]]. Szczerba's group carries **no meal-replacement-industry COI** (public
   funding), so its *higher* grade blunts the COI worry on the interpretation — though it shares the same
   underlying trials, so it is not independent confirmation of the *effect*. [@szczerba2023]
-- **On weight, Szczerba CORROBORATES «energy format, not composition».** Meal replacement is the sole
+- **On weight, Szczerba CORROBORATES *energy format, not composition*.** Meal replacement is the sole
   GRADE-high weight lever; Mediterranean weight is null (−0.25, CI crosses 0); and where MAs matched
   calories, composition differences disappeared — «did not find differences when calories were restricted or
   matched with controls». Author's own reading: «liquid meal replacements decrease energy intake and thus
@@ -227,6 +229,70 @@ resulting in underestimation of their actual effect»). [@szczerba2023] [@szczer
 **Certainty base is thin on both.** Szczerba: only «high for seven (2%), moderate for 40 (13%)» of 310
 outcomes — 98% sit at moderate-or-below; AMSTAR-2 «low to very low in 77%». Corroborates Churuangsuk's
 finding that the diet-comparison literature is large but mostly low-quality. [@szczerba2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## The guidance benchmark on this question — and a cross-body emphasis type-D `[2026-09-16]`
+
+This page's two umbrellas now have a guidance-null test: the wiki holds both the US
+([@evert2019]) and EU (EASD-DNSG 2023) diabetes-diet guidance. Both rest
+on the **same** evidence this page is built on — EASD's diet-choice verdict cites the Churuangsuk umbrella
+directly — so agreement is **shared-evidence corroboration (F), never independent [E]**.
+
+**Where both bodies agree with the umbrellas:** no single macronutrient profile wins, and the
+energy-controlling format (total diet replacement) carries remission. EASD: a variety of weight-loss diets
+«can be used equally effectively... provided they can be followed and meet recommendations for protein, fat,
+micronutrient and fibre intake», and low-energy total diet replacement is «the most effective dietary
+approach for achieving type 2 diabetes remission»
+[@dnsg2023]. ADA: «there is not an ideal
+percentage of calories from carbohydrate, protein, and fat»
+[@evert2019].
+
+### The one genuine divergence — very-low-carb / ketogenic diets
+
+The bodies split on VLC/keto. The **parameter table** shows the split is narrow, and located in one cell:
+
+| Parameter | ADA 2019 (US) | EASD-DNSG 2023 (EU) | Same quantity? |
+|---|---|---|---|
+| Instrument | ungraded expert consensus | GRADE **Moderate** certainty (strength via wording) | different instrument |
+| Population default on VLC/keto | «a viable approach» for «select adults... not meeting glycemic targets or where reducing antiglycemic medications is a priority» | «Very low carbohydrate intakes, such as with ketogenic diets, are not recommended» | **NO — opposite population defaults** |
+| Individual who chooses VLC | permitted, with cautions (not pregnancy/CKD/disordered-eating; monitor meds) | permitted «with health professional support» | **YES — both accommodate** |
+| Low-carb vs higher-carb, long term | A1C benefit «not at 12 and 24 months» | «no clinically significant long-term differences» | **YES — agree** |
+| Observational U-shaped mortality + LDL-rise harm signal | «does not appear to increase overall cardiovascular risk, but long-term studies... are needed» | folds in «low (<40% total energy) and high (>70% total energy)... greater premature mortality» as a reason to recommend against | **NO — same signal, opposite weighting** |
+
+[@evert2019] [@dnsg2023]
+
+**Not-joined checks — this is a real but narrow type-D.** The two bodies agree on every effect estimate
+(no long-term glycemic difference; attenuation by 12 months; both permit individual choice with support).
+They differ on exactly two joined things: the **population default**, and **whether an observational
+U-shaped mortality signal + LDL rise warrants a recommendation-against**. EASD weights that observational
+signal into a graded «not recommended»; ADA treats the CV-risk question as not-yet-established. The scope
+also differs (ADA carves out a select stratum; EASD issues a population rule), giving this a
+**divergence-class-3** core (genuine disagreement on the same evidence) with a **class-1** flavor
+(population-graded EU standpoint vs individualized-consensus US standpoint).
+
+**The hidden insight (the type-D payoff).** A reader seeing *ADA: viable / EASD: not recommended* would
+infer the evidence conflicts. It does not. The bodies hold the **same** estimates and the **same** harm
+signal; they differ on the **evidential standard for a population recommendation-against** and on
+standpoint. So the decision-relevant question is not *who is right about VLC?* but *do you want a population
+default that acts on an observational mortality signal (EASD) or one that waits for interventional CV
+outcomes (ADA)?* — and for the individual who will adhere to VLC with monitoring, **both bodies land in the
+same place**. `[E-independent]` does NOT apply (shared trial base). -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]], [[The U-Shaped Association Artifact]]
+
+### Self-critique `[run 2026-09-16, before commit]`
+
+- **Counter-passage check RUN.** Read ADA's full carbohydrate section [@evert2019] and EASD's full carbohydrate rationale [@dnsg2023] end-to-end before filing the contrast; the
+  individual-choice-accommodation cell is what keeps this from being over-stated as a flat contradiction.
+- **Parameter table built before the prose**, with a *same quantity?* column; the divergence is confined to
+  two cells (default + harm-weighting), not asserted across the board.
+- **Independence denied explicitly** — shared trial base (DiRECT, Look AHEAD, same low-carb MAs; EASD cites
+  Churuangsuk); agreement is F, the divergence is D. No [E].
+- **Over-read guard:** the standpoint (class-1) flavor is named, so the type-D is not laundered into *one
+  body is wrong*. Coherence, not validity — the loop stays open on whether either default improves outcomes.
+
+</div>
 
 ## Limits
 

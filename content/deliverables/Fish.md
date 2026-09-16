@@ -3,12 +3,12 @@ type: deliverable
 title: Fish
 question: What does the evidence show about eating fish (and its omega-3) on each patient-important outcome — in which direction, how large, for whom, how certain — and how does it vary by fish type (oily vs lean/white; apex-predator vs prey), by origin (wild vs farmed, marine vs freshwater), and what does the methylmercury / contaminant axis do to each outcome, weighed against any benefit found?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, Fish Oil, Eating Fish]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, EFSA - Mercury and Methylmercury in Food 2012]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-03
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-09-16
+self_critiqued: 2026-09-16
+concrete_subject_audited: 2026-09-16
 ---
 
 This is a general, population-level appraisal of what the evidence says about eating fish for anyone the
@@ -231,6 +231,8 @@ replace the category with the species properties -> [[Is the Food Category Doing
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## The methylmercury risk — and why species is the decision variable
 
 Methylmercury's tolerable weekly intake is 1.3 µg/kg body weight/week, *«expressed as mercury... based on
@@ -242,6 +244,29 @@ halibut, salmon, mackerel, herring, sprats, anchovies, carp and prawns); not to 
 marlin, shark, and ray; and to consume at most one serving of fresh tuna or pike per week»*.
 [@efsaseafood2014]
 
+The hazard side is no longer borrowed. EFSA's contaminants panel set that 1.3 µg/kg/week limit in its
+own 2012 methylmercury opinion, and it is the more conservative of the two international figures. EFSA
+was asked to reassess JECFA's «provisional tolerable weekly intakes for methylmercury of 1.6 µg/kg body
+weight (b.w.)» [@efsacontam2012], and instead
+«established a TWI for methylmercury of 1.3 µg/kg b.w., expressed as mercury»
+[@efsacontam2012] — below JECFA's, after new
+Seychelles evidence that the fish's own omega-3s «may counteract negative effects from methylmercury»
+and that «beneficial nutrients in fish may have confounded previous adverse outcomes» in the Faroese
+cohort [@efsacontam2012]. The bodies differ on the
+number; the neurodevelopmental basis is the one the cut already carries.
+
+Who actually reaches the limit tracks the stratum split. Mean European exposure sits under the TWI
+«with the exception of toddlers and other children in some surveys», the «medians of 95th
+percentile dietary exposures across surveys are close to or above the TWI for all age groups», and «High consumers of fish
+meat may exceed the TWI by up to approximately six-fold»
+[@efsacontam2012]. «Unborn children constitute the
+most vulnerable group for developmental effects of methylmercury exposure»
+[@efsacontam2012], and pregnant women can themselves
+be high, frequent fish consumers. So the binding case is a pregnant high-consumer of apex-predator
+species, not the general adult eating a sardine — the same swap-the-species-not-abstain reading the
+stratum-flip section reaches, now from the primary hazard source.
+[inferred from @efsacontam2012]
+
 The harm signal itself comes from extreme exposure, not from a European fish dinner. The classic
 methylmercury-neurotoxicity cohort is Faroese, eating pilot whale; the Seychelles cohort eats far more
 fish than any European population. EFSA discounts both as *«much higher than current intakes (and current
@@ -252,6 +277,8 @@ The mercury story checks out from a second angle. Cohort studies found no associ
 mercury — the best long-term intake marker — and CVD, and the 2018 AHA statement holds that *«the
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
+
+</div>
 
 ## Origin — freshwater vs marine, wild vs farmed
 
@@ -383,11 +410,15 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## What the evidence here cannot yet answer
 
-- **The methylmercury toxicity arm is borrowed.** EFSA's opinion here is the *benefit* side; the mercury
-  dose-response and the tolerable-intake derivation live in a separate CONTAM 2012 opinion not held here,
-  so the harm side is quoted rather than independently appraised.
+- **The methylmercury toxicity arm is now held.** The mercury dose-response and tolerable-intake
+  derivation — the separate EFSA CONTAM 2012 opinion — are held and folded above (the 1.3 vs JECFA 1.6
+  TWI, the neurodevelopmental basis, the exceedance strata), so the harm side is now independently
+  appraised rather than borrowed from the 2014 benefit-risk opinion. The finer point-of-departure
+  toxicokinetics live on [[Fish and Seafood Consumption]].
 - **No fish RCT exists** — the outcome evidence is entirely observational, and only 33% of the pooled
   cohorts adjusted for family history, so confounding by overall diet quality and social position is
   uncontrolled. Moderate certainty is the ceiling, not a floor to build on.
@@ -422,9 +453,11 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about eating fish (and its omega-3) on each patient-important outcome — in which direction, how large, for whom, how certain — and how does it vary by fish type (oily vs lean/white; apex-predator vs prey), by origin (wild vs farmed, marine vs freshwater), and what does the methylmercury / contaminant axis do to each outcome, weighed against any benefit found? |
-> | **Evidence included** | 6 sources — 4 gold, 2 high |
+> | **Evidence included** | 7 sources — 5 gold, 2 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+
+</div>
 
 ## References

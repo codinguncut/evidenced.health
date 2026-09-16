@@ -7,10 +7,11 @@ sources: [Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024]
 cluster: psychosocial
 confidence: low
 created: 2026-08-01
-updated: 2026-08-27
+updated: 2026-09-16
 self_critiqued: 2026-08-01
 relationships:
   related_to:
+    - Cold-Water Immersion
     - Allostatic Load and Mortality
     - Sodium Intake and Blood Pressure
     - Blood Pressure Lowering and Cardiovascular Events

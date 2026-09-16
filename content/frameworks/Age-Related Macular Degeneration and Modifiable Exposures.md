@@ -2,12 +2,12 @@
 type: framework
 question: Which modifiable exposures reduce the risk of age-related macular degeneration (AMD), for whom, by how much, and how confident can we be?
 aliases: [AMD, Age-Related Macular Degeneration, Macular Degeneration, AMD Prevention, Macular Degeneration Risk Factors]
-authors: [Aune, Dagfinn; Jayedi, Ahmad; Kazemi, Asma; Soltani, Sepideh; Rezaei, Fatemeh; Leitzmann, Michael F; Marques-Couto, Pedro; Coelho-Costa, Ines; Ferreira-da-Silva, Renato; Andrade, Jose Paulo; Carneiro, Angela; Babaker, Raghad; Alzimami, Lama; Al Ameer, Abdullah; Almutairi, Majed; Alam Aldeen, Rahaf; Alshatti, Hamad; Al-Johani, Najwan; Al Taisan, Abdulaziz]
-sources: [Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
+authors: [Aune, Dagfinn; Jayedi, Ahmad; Kazemi, Asma; Soltani, Sepideh; Rezaei, Fatemeh; Leitzmann, Michael F; Marques-Couto, Pedro; Coelho-Costa, Ines; Ferreira-da-Silva, Renato; Andrade, Jose Paulo; Carneiro, Angela; Babaker, Raghad; Alzimami, Lama; Al Ameer, Abdullah; Almutairi, Majed; Alam Aldeen, Rahaf; Alshatti, Hamad; Al-Johani, Najwan; Al Taisan, Abdulaziz; Evans, Jennifer; Lawrenson, John G]
+sources: [Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Evans - Antioxidant Supplements AMD Progression Cochrane 2023]
 confidence: low
 created: 2026-08-27
-updated: 2026-08-29
-self_critiqued: 2026-08-29
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 relationships:
   related_to:
     - Cataract and Modifiable Exposures
@@ -17,22 +17,31 @@ relationships:
     - The Insufficient-Evidence Statement
     - Smoking and Mortality
     - Blood Pressure Lowering and Cardiovascular Events
+    - Vitamin and Mineral Supplements for Disease Prevention
+    - Deficiency Repletion vs Enhancement
 ---
+<div class="recent-update" data-last-updated="2026-09-15">
 
 AMD is the second age-related eye disease this domain opens on (paired with
 [[Cataract and Modifiable Exposures]]). Unlike cataract, late AMD is **not** routinely reversible —
 so the patient-important outcome is *irreversible* central-vision loss, function, and independence,
-weighting a preventive lever more heavily *if* one exists. Three arms are now assessed and they part
-ways: **physical activity** is *insufficient-evidence* (no clear lever); the **Mediterranean-diet**
-pattern shows a protective association with AMD *progression* on the stronger observational designs;
-and the **cardiometabolic/vascular risk factors** (smoking, hypertension, CVD, diabetes) show
-significant prognostic associations with AMD *occurrence*, while BMI, cerebrovascular disease and
-blood lipids do not. All three rest on observational, gold-*by-design*-only-or-weaker evidence that
-cannot carry a causal reading.
+weighting a preventive lever more heavily *if* one exists. Four arms are now assessed and they part
+ways: **antioxidant+zinc supplementation (AREDS formula)** is the one arm resting on **RCT** evidence
+and the only **demonstrated intervention effect** — it *probably slows progression to late AMD* in
+people who already have intermediate AMD (moderate certainty); **physical activity** is
+*insufficient-evidence* (no clear lever); the **Mediterranean-diet** pattern shows a protective
+association with AMD *progression* on the stronger observational designs; and the
+**cardiometabolic/vascular risk factors** (smoking, hypertension, CVD, diabetes) show significant
+prognostic associations with AMD *occurrence*, while BMI, cerebrovascular disease and blood lipids do
+not. The supplement arm is categorically stronger than the other three (a trial-backed intervention
+effect vs observational associations), but it applies only to people who **already have AMD** and
+carries a class-level harm the general-population supplement evidence has flagged.
 
-This page is built with **per-exposure sections** so each exposure sits as a sibling arm; the diet
-arm (Mediterranean diet -> AMD) and the vascular-risk-factor arm (Babaker 2025) have now landed
-beside the physical-activity arm.
+This page is built with **per-exposure sections** so each exposure sits as a sibling arm; the
+supplement arm (Evans 2023, AREDS/AREDS2), the diet arm (Mediterranean diet -> AMD) and the
+vascular-risk-factor arm (Babaker 2025) have now landed beside the physical-activity arm.
+
+</div>
 
 ## Physical activity — *insufficient evidence*, not a demonstrated null
 
@@ -165,10 +174,73 @@ infarction and subclinical-CVD risk). AMD and CVD share a vascular/atherosclerot
 precedes which is unresolved — the safe reading is co-occurrence / shared risk substrate, not
 CVD-causes-AMD.
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## Antioxidant + zinc supplementation (AREDS formula) — RCT-backed *benefit* on progression, defined stratum
+
+Evans 2023 — a gold Cochrane SR+MA — is the first **intervention** arm on this page — RCTs in people who
+**already have AMD**, not observational associations. The studied exposure is the **AREDS formula**
+(vitamin C 500 mg, vitamin E 400 IU, beta-carotene 15 mg, zinc 80 mg, copper 2 mg, daily), and the
+headline is moderate-certainty: it **probably slows progression to late AMD**. Most of the evidence
+comes from **one trial (AREDS 2001)** — «pooling data from studies other than AREDS 2001 revealed
+little evidence for the effectiveness». [@evans2023amdsupp]
+
+- **Progression to late AMD:** OR **0.72 (95% CI 0.58–0.90)**, 2445 participants (3 RCTs),
+  moderate-certainty; neovascular AMD OR 0.62 (0.47–0.82); geographic atrophy OR 0.75 (0.51–1.10, CI
+  crosses 1); loss of ≥3 lines of acuity OR 0.77 (0.62–0.96). [@evans2023amdsupp]
+- **The absolute benefit is route-(a) baseline-risk — the same OR, very different absolute effect by
+  severity.** In **early AMD** (low progression risk) \~**4 fewer** late-AMD cases per 1000 treated
+  (1–6 fewer); in **intermediate AMD** (high risk) \~**78 fewer** per 1000 (26–126 fewer). Same
+  relative effect, \~20x the absolute benefit — the decision hinges on which stratum the person is in,
+  no subgroup/effect-modification claim required. [@evans2023amdsupp]
+- **Zinc alone** carries most of the multivitamin signal (late AMD OR 0.83, 0.70–0.98); **vitamin E
+  alone** is uncertain (RR 1.36, 0.31–6.05, 7 events); **lutein/zeaxanthin alone** shows little or no
+  effect vs placebo (late AMD RR 0.94, 0.87–1.01) but is a **suitable beta-carotene replacement** on
+  exploratory AREDS2 subgroup analysis (almost all participants also took the base formula, so no clean
+  placebo). [@evans2023amdsupp]
+
+**The net-effect counterweight — the same class the general-population evidence flags as harmful.**
+Beta-carotene raised lung cancer within AREDS2 itself — «increased risk of lung cancer in the
+beta-carotene versus no beta-carotene group (23 (2.0%) versus 11 (0.9%)), mostly in former smokers»
+— which is why AREDS2 swapped beta-carotene for lutein/zeaxanthin
+[@evans2023amdsupp]. Zinc 80 mg/day
+raised hospital admission for genitourinary complications
+[@evans2023amdsupp]. So the AREDS
+recommendation is a **stratum-and-formula-specific net-effect judgement**: benefit on vision in
+intermediate AMD, using the **beta-carotene-free** formula (especially for anyone who has smoked) —
+not a blanket *antioxidants are good*. The whole-body harm ledger for this class lives on
+[[Vitamin and Mineral Supplements for Disease Prevention]], where the AREDS win sits as the
+defined-stratum exception.
+
+**Genetic subgroup response is the effect-modification NULL (route (b)).** The most comprehensive
+analysis finds «genetic polymorphisms of the complement factor H (CFH) and the age-related maculopathy
+susceptibility 2 (ARMS2) genes do not predict response to antioxidant and zinc supplementation»
+[@evans2023amdsupp] — the
+CFH/ARMS2-guided-supplementation story is not supported. Stratify by **AMD severity** (route (a)),
+not genotype.
+
+**Applicability limit.** «The extent to which the results from this one study – conducted in a
+well-nourished American population where supplementation is common – can be extrapolated to other
+settings and populations is unclear.» [@evans2023amdsupp]. Whether the benefit is enhancement or correction of a marginal-intake state
+is untested — a well-nourished cohort cannot separate them.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Decision relevance (Layer 1)
 
-The honest holding is a **G-gap**: for AMD the fabric currently cannot recommend physical activity as
-a preventive lever, because the evidence is insufficient — *and it must not borrow the cataract arm's
+**The supplement arm is the page's one strong lever — and it is narrow.** For a person who **already
+has intermediate AMD**, the beta-carotene-free AREDS formula is the best-evidenced eye-specific
+intervention here (RCT, moderate certainty, \~78 fewer progressions per 1000), and it is
+non-substitutable — no drug or lifestyle change replicates it for slowing AMD progression. But its
+scope is tight: it does **not** apply to people without AMD (primary prevention is a separate, null-
+leaning question), the absolute benefit collapses to \~4/1000 in early AMD, and the formula choice is
+load-bearing (use lutein/zeaxanthin, not beta-carotene, for anyone who has smoked). This is a genuine
+Layer-1 lever for one stratum, sitting alongside three arms that are not.
+
+For the remaining arms, the honest holding is a **G-gap**: for AMD the fabric currently cannot
+recommend physical activity as a preventive lever, because the evidence is insufficient — *and it must not borrow the cataract arm's
 significance to say otherwise* (they are distinct diseases with distinct evidence strength graded
 separately in the same paper). This does not argue *against* activity — PA remains a big rock on
 mortality/cardiometabolic grounds ([[Physical Activity Dose and Mortality]]) — it says the AMD-specific
@@ -199,6 +271,8 @@ be stated** — a modest relative association on a low-to-moderate baseline AMD 
 absolute effect. And the four significant factors are *prognostic markers*, not proven causal levers
 (route (a), not (b)/(c)) — the honest holding is *these strata carry higher AMD risk*, not *removing
 the factor delivers the OR*.
+
+</div>
 
 ## Limits and misreadings — where this breaks
 

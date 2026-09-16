@@ -3,12 +3,12 @@ type: deliverable
 title: Better than What?
 icon: material-symbols-light:balance
 question: 'How does the choice of comparator (replace X with what?) change the estimated effect of a dietary or lifestyle exposure, and how should a recommendation frame substitutions when objectives compete, evidence is partial, and the choice is made in a real environment rather than an RCT arm?'
-sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022]
+sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022, EASD - DNSG Dietary Management of Diabetes 2023]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-09-16
+self_critiqued: 2026-09-16
+concrete_subject_audited: 2026-09-16
 ---
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
@@ -218,6 +218,8 @@ for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
 more than one outcome that matters.
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## When outcomes compete: laying out the axes instead of summing them
 
 When a substitution moves more than one patient-important outcome, there is no unique optimum without
@@ -254,6 +256,13 @@ recommendation* is a reading skill, not an accusation — and
 its direction is indeterminate until read: feasibility and acceptability push toward stringency as
 readily as toward laxity (an environmental load pushes red-meat guidance harder; a staple's economics
 push the other way). What bodies disclose is the considerations; what stays unpublished is the weight.
+A third body sharpens the limit of that reading skill. EASD's 2023 diabetes guidance names environment
+openly — plant-based, minimally processed foods «are considered to have the lowest environmental impact»
+[@dnsg2023] — but there the environmental and
+health directions *coincide*, so the counterfactual is unavailable: you cannot read off whether environment
+moved the recommendation at all. A disclosed consideration still hides its weight when the objectives point
+the same way.
+[inferred from @dnsg2023]
 -> [[Which Objective Moved This Recommendation]].
 
 Two guards. Watch the health-halo running *across* axes: a favourable health score must not buy a food
@@ -266,6 +275,8 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
+
+</div>
 
 ## From estimate to substitution: a region and a direction, not a point
 
@@ -353,7 +364,7 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
-<div class="recent-update" data-last-updated="2026-09-15">
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## Caveats and boundaries
 
@@ -379,10 +390,10 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | | |
 > |---|---|
 > | **Question** | 'How does the choice of comparator (replace X with what?) change the estimated effect of a dietary or lifestyle exposure, and how should a recommendation frame substitutions when objectives compete, evidence is partial, and the choice is made in a real environment rather than an RCT arm?' |
-> | **Evidence included** | 3 sources — 3 gold |
+> | **Evidence included** | 4 sources — 4 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
 
 </div>
 

@@ -3,13 +3,13 @@ type: deliverable
 title: Soy Products
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-05
+updated: 2026-09-16
 self_critiqued: 2026-09-05
 concrete_subject_audited: 2026-09-05
 question: 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?'
 aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari, Does Soy Feminize Men, Does Soy Cause Breast Cancer]
-authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W; Blanco Mejia, Sonia; Cui, Chendi]
-sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019, Cui - Isoflavone Cognition RCT Meta-Analysis 2020]
+authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W; Blanco Mejia, Sonia; Cui, Chendi; Nachvak, Seyed Mostafa; Sadeghi, Omid]
+sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 ---
 
 This is a general, population-level appraisal of what the evidence says about soy for anyone the studies
@@ -23,22 +23,26 @@ evidence — each question below was tested on a different one -> [[Is the Food 
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## The bottom line, per outcome
 
-Read the certainty claim-by-claim, not as one verdict on "soy". Five gold-tier meta-analyses anchor the
-page — one each for the hormone, cancer and cognition outcomes, and two on LDL (the newer revising the
-older's magnitude) — each with its own grade:
+Read the certainty claim-by-claim, not as one verdict on "soy". Six gold-tier meta-analyses anchor the
+page — one each for the hormone, cancer-incidence, cognition and mortality outcomes, and two on LDL
+(the newer revising the older's magnitude) — each with its own grade:
 
 | Outcome | Direction | Certainty |
 |---|---|---|
 | Isoflavone -> male testosterone | null (no effect) | **high (TT)** |
 | Isoflavone -> free testosterone / estradiol | consistent-with-null, less bounded | moderate |
-| Soy isoflavone -> breast cancer | neutral-to-protective, never raised | low-moderate |
+| Soy isoflavone -> breast cancer (incidence) | neutral-to-protective, never raised | low-moderate |
 | Isolated soy protein -> LDL | lowering (\~3%), baseline-dependent | moderate |
 | Isoflavone -> cognition (memory) | small benefit on test scores | **low** (surrogate) |
+| Whole soy -> cancer / CVD mortality | inverse (0.88 / 0.85) | **low** (observational) |
+| Soy / isoflavone -> all-cause mortality | soft: null overall, per-mg dose-null | **low** |
+| Soy -> breast-cancer mortality (survivors) | protective/neutral, both ER strata | **low** (survivor endpoint) |
 | Thyroid (iodine-conditional) | unknown | **insufficient** (gap) |
 | Natto / K2 (MK-7) -> bone / vascular | unknown | **insufficient** (gap) |
-| Soy in ER+ breast-cancer survivors | unknown | **insufficient** (gap) |
 
 - **Male reproductive hormones are unmoved.** In pooled controlled trials, neither soy nor its
   isoflavones shift testosterone — a well-powered **null**, firmest for total testosterone.
@@ -49,10 +53,15 @@ older's magnitude) — each with its own grade:
 
 Two facts bind the whole page. Each outcome rests on effectively one meta-analysis — the two on LDL share
 trials and one cites the other, so they are a revised single estimate, not independent confirmations —
-which is why overall confidence is medium despite five gold sources. And the headline effects are all
-**surrogates** — hormone levels, LDL, and cognitive-test scores, not events — so their transmission to
-what a person feels is a further, separate claim.
+which is why overall confidence is medium despite six gold sources. And most headline effects are
+**surrogates** — hormone levels, LDL, cognitive-test scores, not events — so their transmission to what
+a person feels is a further, separate claim. The one hard-event outcome, mortality, is entirely
+observational and drawn mostly from high-intake Asian cohorts, so it too is a soft, low-certainty lever
+rather than a demonstrated longevity effect.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## How good is the evidence — read this first
 
@@ -80,10 +89,17 @@ two on LDL share trials and one cites the other), so overall confidence is mediu
   low: the endpoint is a cognitive test score over weeks-to-2-years, and whether that transmits to the
   outcome anyone cares about — dementia — is untested.
   [@cui2020isoflavone]
+- **Mortality** — prospective cohorts, the one hard endpoint here, but entirely observational and 19 of
+  23 cohorts Asian. Nachvak 2019 keeps the three forms distinct: the firmest cells are whole soy ->
+  cancer (0.88) and -> CVD (0.85) mortality, the all-cause signal is soft (null overall, per-mg
+  dose-null), and the breast-cancer-mortality cells are survivor endpoints. Certainty low.
+  [@nachvak2019soy]
 
 Thyroid (goitrogen) and antinutrient (phytate) fears were not searched. They are named gaps, not outcomes
 scored safe. For how these certainty grades are assigned, see [[Rating Certainty of Evidence]] and
 [[Upgrading Observational Evidence]].
+
+</div>
 
 ## Soy does not shift male reproductive hormones
 
@@ -230,6 +246,65 @@ big rock. For someone already lean, active, and eating a reasonable diet, the de
 real evidence are elsewhere — the modifiable risk factors, not an isoflavone pill
 -> [[Dementia Prevention and Modifiable Risk Factors]].
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## Whether soy reaches the outcome that matters most: mortality
+
+Everything above lands on a surrogate or an incidence count — hormone levels, LDL, a memory-test
+score, a breast-cancer odds ratio. Nachvak 2019 adds the endpoint the page had left blank: death. It
+is a gold-tier systematic review and dose-response meta-analysis of 23 prospective cohorts (330,826
+people; about 26,900 all-cause, 11,005 cancer, and 13,418 cardiovascular deaths), and it keeps the
+three exposures apart — whole soy foods, isoflavones, and soy protein — against all-cause, cancer, CVD,
+and breast-cancer mortality. Every estimate is observational, highest-versus-lowest intake,
+random-effects. [@nachvak2019soy]
+
+The firmest cells are modest and inverse:
+
+| Exposure | All-cause | Cancer | CVD | Breast-cancer |
+|---|---|---|---|---|
+| Whole soy / soy foods | 0.90 (0.77–1.04), null overall | **0.88 (0.79–0.99)** | **0.85 (0.72–0.99)** | not pooled |
+| Isoflavones | 0.90 (0.82–0.98); per-10 mg null | **0.80 (0.67–0.94)**; −7%/10 mg | 0.98, null | 0.83 (0.69–0.99); −9%/10 mg |
+| Soy protein | 1 study, not poolable | (breast only) | 0.99, null | **0.73 (0.55–0.96)**; −12%/5 g |
+
+[@nachvak2019soy]
+
+Nachvak's own bottom line is that the results «may support the current recommendations to increase
+intake of soy for greater longevity», but the same passage concedes «soy protein was not
+signiﬁcantly associated with all-cause and CVDs mortal- ity»
+[@nachvak2019soy]. Four caveats
+bound every cell, and matter more than the longevity headline:
+
+- **The all-cause benefit for soy foods is soft.** The primary pooled estimate is null (0.90, P=0.16);
+  it turns significant only in some subgroups (e.g. large samples, energy-adjusted effect
+  sizes). A signal that appears only after the full-set null is a hypothesis, not a confirmed effect
+  [@nachvak2019soy].
+- **Categorical-significant is not linear-dosable.** Isoflavone → all-cause is significant
+  highest-versus-lowest (0.90) but the per-10 mg linear dose-response is null (0.98), so no per-mg
+  target is derivable. Where a cell is significant on both counts (isoflavone → cancer −7%/10 mg; soy
+  protein → breast-cancer −12%/5 g) the claim is firmer — over the studied range only
+  [@nachvak2019soy].
+- **The breast-cancer-mortality cells are survivor endpoints, not primary prevention.** Every study
+  feeding them is a breast-cancer-patient cohort measuring post-diagnosis intake against survival —
+  Nachvak folds relapse into the outcome: «we considered risk estimates on relapse/breast
+  cancer-speciﬁc mortality as breast cancer mortality»
+  [@nachvak2019soy]. So they
+  answer *does soy improve survival in women already diagnosed?*, not *does soy prevent breast-cancer
+  death in the general population?*, and reverse causation is un-excluded. They do partly settle the
+  ER-positive-survivor worry: soy is protective-or-neutral in both ER strata for soy protein and
+  ER-negative for isoflavones — no raised risk in any stratum.
+- **It is an Asian, high-intake, observational finding.** 19 of 23 cohorts are Asian, where habitual
+  soy intake far exceeds Western levels — the same transportability limit as the breast-cancer
+  incidence leg — and all cells are observational, so residual confounding is not ruled out
+  [@nachvak2019soy].
+
+Where this lands: on the outcome that matters most, soy is a small, form-dependent, all-observational
+lever. The steadiest cells are whole-soy → cancer (0.88) and → CVD (0.85) mortality; the all-cause
+signal is soft, and soy protein moves only a survivor breast-cancer endpoint. That is consistent with
+the surrogate story above — a modest, mostly-Asian-derived association, not a demonstrated longevity
+intervention for a Western adult adding soy later.
+
+</div>
+
 ## The forms are not interchangeable — specify the exposure
 
 "Soy" names several exposures with different active fractions and different evidence. This is a
@@ -269,6 +344,8 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   the margin of mineral status, not a general harm. This page extracts no soy-specific outcome evidence.
 
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Putting it together
 
 - **Male hormones are unmoved and breast-cancer risk is not raised.** Soy does not lower testosterone — a
@@ -278,6 +355,10 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
 - **The real effect is small and specific.** Isolated soy protein modestly lowers LDL, mostly in people
   who already have high cholesterol, and the honest modern magnitude is a few percent — a minor lever, not
   a treatment, and on a surrogate rather than an event.
+- **On death, the signal is soft and observational.** Higher soy intake tracks lower cancer and
+  cardiovascular mortality in cohorts (whole soy \~0.85–0.88), but the all-cause benefit is null overall,
+  the breast-cancer-survival cells are survivor endpoints, and 19 of 23 cohorts are Asian — a modest
+  association, not a proven longevity lever for a Western adult adding soy later.
 - **Match the claim to the form.** The isolated protein moves LDL; the whole-bean foods carry the hormone
   and cancer evidence; the fermented pastes shed the phytate concern; the soy-sauce condiment does nothing.
   A benefit or concern attached to "soy" with no form named has outrun its evidence
@@ -286,14 +367,21 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   soy's case rests on the substitution as much as on anything intrinsic; your sex, menopausal status,
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## What this appraisal cannot yet answer
 
 The honest edge of this page. Each item is unstudied-here, not scored safe.
 
-- **Soy in ER-positive breast-cancer survivors.** The prominent clinical worry that dietary isoflavones
-  might stimulate estrogen-receptor-positive tumour growth or blunt tamoxifen is not adjudicated here —
-  Chen covers incidence, not survival. Gap.
+- **Soy in ER-positive breast-cancer survivors — partly settled, mechanism still open.** The survivor
+  cohorts Nachvak pools now bear on this: post-diagnosis soy runs protective-or-neutral in both ER
+  strata for soy protein, and ER-negative-protective for isoflavones — no raised mortality in any
+  stratum, against the stimulate-the-tumour worry
+  [@nachvak2019soy]. What stays a
+  gap is the specific tamoxifen-interaction mechanism and a controlled test — the survivor evidence is
+  observational and reverse-causation-prone.
 - **Thyroid, iodine-conditional.** No soy-thyroid systematic review conditioned on iodine status is held.
   Gap.
 - **Natto and vitamin K2 (MK-7) -> bone and vascular calcification.** Whether natto's MK-7 moves a bone or
@@ -302,9 +390,10 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 - **Absolute breast-cancer risk reduction.** Chen reports relative odds ratios only; the absolute benefit
   depends on baseline incidence in the stratum, which the analysis does not supply. This needs pooling the
   wiki cannot perform — `G (needs aggregation)`.
-- **Soy -> hard cardiovascular events.** The LDL effect is a surrogate; no trial measures whether isolated
-  soy protein lowers heart-attack or mortality risk, so the event benefit is inferred through
-  [[LDL ApoB and Cumulative Exposure]], not measured. Gap.
+- **Soy -> hard cardiovascular events (trial-grade).** Observational CVD-mortality now exists (whole soy
+  0.85, Nachvak), but no *trial* measures whether isolated soy protein lowers heart attacks or death, so
+  the causal event benefit is still inferred from the LDL surrogate through
+  [[LDL ApoB and Cumulative Exposure]], not demonstrated. Gap.
 
 ---
 
@@ -329,9 +418,11 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?' |
-> | **Evidence included** | 5 sources — 5 gold |
+> | **Evidence included** | 6 sources — 6 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+
+</div>
 
 ## References

@@ -2,11 +2,11 @@
 type: framework
 question: Does restricting carbohydrate put type 2 diabetes into remission, and does it last?
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
-authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long; Szczerba, Edyta]
-sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023]
+authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long; Szczerba, Edyta; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: weight-loss-diets
 confidence: medium
-self_critiqued: 2026-08-08
+self_critiqued: 2026-09-16
 relationships:
   related_to:
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-08-08
+updated: 2026-09-16
 ---
 
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@goldenberg2021]
@@ -192,6 +192,8 @@ The added glycaemic contribution is therefore **null on a weak test, not cleanly
 excluded**. A person should optimize for the weight loss they can *sustain*, by whichever route they will
 adhere to -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## The umbrella review sharpens the reading — no RCT tests low-carb FOR REMISSION at all `[2026-08-04]`
 
 Goldenberg pools low-carb weight and glycaemic outcomes in T2D, and reports remission under its four
@@ -217,7 +219,7 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
   [[Diets for Weight Management in Type 2 Diabetes]], [[Total Diet Replacement and Type 2 Diabetes Remission]].
 - **Not independent backing (F, shared-evidence).** Churuangsuk's LCD-weight conclusion pools the same
   MA class as Goldenberg (and lists Goldenberg 2021 among its high-quality LCD meta-analyses), so its
-  agreement on «low-carb holds no overall advantage» is F-broadening, not a second independent route.
+  agreement on *low-carb holds no overall advantage* is F-broadening, not a second independent route.
   Its distinct contribution here is the *remission-design gap*, which Goldenberg does not state.
 - **A second gold umbrella (Szczerba 2023) corroborates the gap and adds the firm non-surrogate finding.**
   Szczerba, applying a >=12-week-MA-of-RCT filter, places **remission among the low/very-low-certainty
@@ -229,6 +231,10 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
   («especially for low carbohydrate and ketogenic diets»). Shared MA base -> F/corroboration, not [E].
   [@szczerba2023] [@szczerba2023]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Limits
 
 - Small numbers behind the headline: the 6-month remission estimate is **8 trials, n=264**; by 12 months
@@ -238,6 +244,72 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
 - **Same population, adjacent condition:** this stratum overlaps heavily with fatty liver — insulin
   resistance is the shared hub (MASLD carries a >2x risk of incident T2D), and the weight-loss and
   glycemia levers here are the same ones that reduce liver fat -> [[Fatty Liver MASLD and Weight Loss]].
-- A guidance benchmark is needed to run the guidance-null on this question; both are staged.
+- ~~A guidance benchmark is needed to run the guidance-null on this question; the EASD side is staged.~~
+  **Cashed 2026-09-16** — both guidance bodies now held (ADA 2019 below; EASD-DNSG 2023 below). The
+  cross-body emphasis type-D on very-low-carb is filed on [[Diets for Weight Management in Type 2 Diabetes]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## The US guidance benchmark — ADA 2019 `[2026-09-16]`
+
+The ADA consensus report is the first guidance body the wiki holds on this question (EASD-DNSG 2023
+is the paired second, for the cross-body comparison). **It corroborates the page's core mechanism
+reading and adds nothing that shifts the effect estimates.**
+
+- **Remission is framed weight-first, carbohydrate second.** ADA: «The DiRECT trial showed that at 1
+  year, weight loss associated with the lifestyle intervention resulted in diabetes remission in 46%
+  of participants. Remission rates were related to magnitude of weight loss, rising progressively
+  from 7% to 86% as weight loss at 1 year increased from <5% to >=15%» [@evert2019]. Look AHEAD gave at-least-partial remission in 11.5% vs 2%
+  control. Diet composition «may also play a role» (Esposito's low-carb Mediterranean pattern:
+  partial remission 14.7% yr 1 / 5% yr 6 vs 4.7% / 0% low-fat, on only a 2-kg weight-loss
+  difference). **This is the same weight-driven-with-composition-modifier frame the page already
+  holds — and it rests on DiRECT and Look AHEAD, the trials the page already cites, so it is
+  F/corroboration, NOT independent type-E.**
+- **On carbohydrate as a lever, ADA is measured, not enthusiastic.** «Reducing overall carbohydrate
+  intake for individuals with diabetes has demonstrated the most evidence for improving glycemia», and
+  low/very-low-carbohydrate plans are «a viable approach» for «select adults with type 2 diabetes not
+  meeting glycemic targets or where reducing antiglycemic medications is a priority»
+  [@evert2019] — a conditional, select-stratum
+  endorsement, not a remission claim for carbohydrate restriction per se.
+- **ADA states the durability caveat itself:** in one MA «A1C benefits were more pronounced in the
+  VLC interventions (where <26% of calories came from carbohydrate) at 3 and 6 months but not at 12
+  and 24 months» [@evert2019] — the same
+  attenuation-by-12-months the low-carb evidence shows elsewhere.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## The EU guidance benchmark — EASD-DNSG 2023, and the emphasis type-D resolved `[2026-09-16]`
+
+EASD-DNSG 2023 is the paired EU guidance body. On **remission specifically it agrees with ADA and the
+fabric** — the mechanism is weight-first, the route is total diet replacement:
+
+- EASD grades **High** that «Remission of type 2 diabetes... can be achieved through sustained weight
+  loss», and recommends a **low-energy total diet replacement programme (\~3500 kJ/840 kcal/day for 12-20
+  weeks)** to deliver 10-15%+ weight loss to induce remission
+  [@dnsg2023]. It states over 80% of people with
+  T2D can achieve remission by losing >15 kg
+  within 6 years of diagnosis. This is the DiRECT-anchored, high-carbohydrate energy-controlled route —
+  the same evidence and same causal reading held here, so **F/corroboration, not independent type-E**.
+
+**The emphasis type-D is real but narrow, and its home is the diet-choice question, not remission.** On the
+**shared** evidence base, ADA calls low/very-low-carb «a viable approach» for «select adults... not meeting
+glycemic targets», while EASD grades **Moderate** that «Very low carbohydrate intakes, such as with
+ketogenic diets, are not recommended» [@dnsg2023]. But both accommodate the individual who *chooses* very-low-carb with professional support — EASD:
+«If people with diabetes themselves choose to reduce carbohydrate to very low intakes, it is important this
+is done with health professional support» [@dnsg2023]. So the clash is on the **population default** and on the **weight given to the observational U-shaped
+mortality + LDL-rise harm signal**, not a flat contradiction — filed with the full parameter table on
+[[Diets for Weight Management in Type 2 Diabetes]]. Neither bears on remission, where no RCT tests low-carb
+at all (Churuangsuk, above).
+
+**Guidance-null verdict (both bodies held).** ADA and EASD reach the same weight-first remission reading
+from the same trials — so on the remission question the guidance null is **not defeated by divergence**; it
+would be defeated (if at all) by better-warranted agreement. `[E-independent]` does NOT apply between them
+(shared trial base — DiRECT, Look AHEAD, the same low-carb MAs).
+
+</div>
 
 ## References

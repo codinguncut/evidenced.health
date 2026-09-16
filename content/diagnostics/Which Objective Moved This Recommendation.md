@@ -2,11 +2,11 @@
 type: diagnostic
 question: When guidance and evidence diverge, which objective moved the recommendation — and can I see it?
 aliases: [Evidence to Decision, EtD, EtD Domains, Multiple Objectives, Feasibility and Acceptability, Resource Use, Guidelines Serve Two Masters]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); European Food Safety Authority (org); Mach, François; Blumenthal, Roger S; Demay, Marie B]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026, Demay - Vitamin D Prevention Endocrine Society Guideline 2024]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); European Food Safety Authority (org); Mach, François; Blumenthal, Roger S; Demay, Marie B; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-09-02
+self_critiqued: 2026-09-16
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -15,7 +15,7 @@ relationships:
     - Framing a Decision Question
     - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-27
-updated: 2026-09-02
+updated: 2026-09-16
 ---
 
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
@@ -269,6 +269,68 @@ the mechanism made visible, its magnitude still unmeasured.
 process to develop this clinical guideline did not use a risk assessment framework and was not designed
 to replace current DRI for vitamin D» [@demay2024vitamind] — a guideline answering the supplement-*decision* question, not the
 DRI-*setting* question EFSA/DRI bodies hold [inferred from @demay2024vitamind].
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## A body with NO EtD table that dissolves the recommendation instead — ADA 2019 `[2026-09-16]`
+
+Every case above either publishes an EtD table (WHO, Demay) or marks its remit boundary (EFSA). **ADA's
+2019 nutrition-therapy consensus report is the clean `unprobed` specimen this page's guard describes:**
+no EtD table, no graded strength, expert consensus throughout. Per the guard, the verdict is
+`unprobed`, never `compromised` — silence about feasibility is not evidence feasibility drove anything.
+
+**But ADA does something the guard does not anticipate, and it is worth recording.** Rather than issue a
+population recommendation moved by an undisclosed weight, it **declines to issue a population
+recommendation at all** on the macronutrient question: «there is not an ideal percentage of calories
+from carbohydrate, protein, and fat for all people with or at risk for diabetes; therefore, macronutrient
+distribution should be based on individualized assessment of current eating patterns, preferences, and
+metabolic goals» [@evert2019]. The values/preferences
+determinant is handed wholesale to the individual (layer 3) instead of being weighed against evidence at
+the population level -> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
+
+**Why this sharpens rather than corroborates.** WHO makes the seam *visible* (EtD table); EFSA puts the
+seam *between institutions*; ADA **removes the seam by refusing the population number** — there is nothing
+to weight because there is no single target. So "which objective moved this?" has no answer here not
+because it is hidden but because the recommendation was dissolved into individualization before any
+weighting was needed. The one comparative claim ADA *does* make — «Reducing overall carbohydrate intake...
+has demonstrated the most evidence for improving glycemia» [@evert2019] — is argued from evidence alone, with no non-evidence domain visibly entering.
+[inferred from @evert2019]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## A third body that discloses environment without an EtD — and withholds a recommendation on graded evidence (EASD 2023) `[2026-09-16]`
+
+EASD-DNSG 2023 publishes **no EtD table**, so per the guard the objectives verdict is `unprobed`. But it
+does two things this page catalogues.
+
+**(1) It discloses an environmental consideration — a third instance of the standing pattern.** Like ESC
+(a cardiology body) and NNR (an environmentally-mandated one), EASD names environment in the open: «it is
+important that recommendations for people with diabetes acknowledge the environmental consequences of
+promoting certain foods... it is our intention that these recommendations be in line with food systems that
+support planetary health» [@dnsg2023]. And the
+environmental direction **coincides** with the health direction: «As well as improving health, plant-based
+and minimally processed foods are considered to have the lowest environmental impact»
+[@dnsg2023]. So, exactly as with ESC, the
+consideration is
+disclosed, the weight is not, and the **counterfactual is unavailable** — health and environment point the
+same way, so whether environment moved anything cannot be read off. Considerations disclosed, weight not: a
+third body.
+
+**(2) The rarer datum — evidence graded, recommendation WITHHELD.** EASD commissioned graded SRs/MAs for the
+DASH and Portfolio therapeutic diets and reviewed strong evidence (Portfolio's lipid effect at ⊕⊕⊕⊕ **High**
+certainty), yet: «Although published systematic reviews and meta-analyses were commissioned by the DNSG for
+therapeutic dietary patterns, specific recommendations were not made»
+[@dnsg2023]. This is the
+estimate/recommendation seam appearing as **silence**:
+a body holding a high-certainty effect can decline to recommend, and — with no EtD table — *why* it declined
+is unrecoverable. It is the inverse of the usual worry (a recommendation exceeding its evidence); here a
+recommendation is *absent* despite the evidence, and the objective that stayed the panel's hand is
+unprobed. -> [[Portfolio Dietary Pattern and LDL Cholesterol]]
+[inferred from @dnsg2023]
+
+</div>
 
 ## Tests / indicators
 

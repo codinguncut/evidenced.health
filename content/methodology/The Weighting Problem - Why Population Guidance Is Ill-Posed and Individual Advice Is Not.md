@@ -2,11 +2,11 @@
 type: framework
 question: If a recommendation must serve health, carbon, welfare, affordability and scalability at once, is the problem even well-posed — and for whom?
 aliases: [Weighting Problem, Multi-Objective, Incommensurability, Pareto, Dominated Options, Intersectionality Tangle, Optimizing Ten Dimensions]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; European Food Safety Authority (org)]
-sources: [GRADE - Handbook, NNR - Nordic Nutrition Recommendations 2023, EFSA - Seafood Benefits vs Methylmercury Risks 2014]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; European Food Safety Authority (org); Evert, Alison B]
+sources: [GRADE - Handbook, NNR - Nordic Nutrition Recommendations 2023, EFSA - Seafood Benefits vs Methylmercury Risks 2014, ADA - Nutrition Therapy for Diabetes 2019]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-08-05
+self_critiqued: 2026-09-16
 relationships:
   related_to:
     - Which Objective Moved This Recommendation
@@ -14,7 +14,7 @@ relationships:
     - Rating Outcome Importance
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-27
-updated: 2026-08-05
+updated: 2026-09-16
 ---
 
 **Most of this page is structural reasoning, not source extraction.** It reasons from GRADE's [@grade]
@@ -78,6 +78,8 @@ divergence tracking industry structure instead. **The two hypotheses make differ
 can be told apart** — which makes this worth holding as a rival to challenge #3 rather than a
 complement to it.
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Where it DOES dissolve: the individual standpoint
 
 **One person has their own weights.** Their problem is well-posed even though the population's is not
@@ -106,6 +108,29 @@ individual.** Judging a personal choice by whether it would scale is a standpoin
 constraint that is not the person's.
 
 
+
+### A guidance body that reaches the same routing — ADA 2019 `[2026-09-16]`
+
+This page's structural argument is that the population problem is ill-posed and the individual's is not.
+**ADA's 2019 nutrition-therapy consensus report is a major guidance body arriving at the individual
+standpoint in practice:** it refuses a single population macronutrient target and routes the decision to
+the person. «Evidence suggests that there is not an ideal percentage of calories from carbohydrate,
+protein, and fat for all people with or at risk for diabetes; therefore, macronutrient distribution
+should be based on individualized assessment of current eating patterns, preferences, and metabolic
+goals» [@evert2019]; and in its conclusions, «an
+eating plan should be developed in collaboration with the person with prediabetes or diabetes and an
+RDN» [@evert2019].
+
+**One caveat keeps this honest — ADA's stated reason is not this page's reason.** ADA justifies
+individualization *empirically* (the evidence does not identify one ideal pattern), not from the
+heterogeneous-preferences / incommensurable-weights argument this page runs. The two routes converge on
+the same output — no single population answer, defer to the individual — but for different reasons, so
+ADA is **convergent corroboration of the routing, not independent backing of the argument**. It also
+does not resolve the tangle: ADA still supplies only the health coordinate (glycemia, weight, lipids),
+exactly the one-axis limit this page describes.
+[inferred from @evert2019]
+
+</div>
 
 ## What this wiki can and cannot supply
 

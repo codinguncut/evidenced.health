@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E; Pittas, Anastassios G]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E; Pittas, Anastassios G; Evans, Jennifer; Lawrenson, John G]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -20,9 +20,10 @@ relationships:
     - Deficiency Repletion vs Enhancement
     - Exercise for Preventing Falls in Older Adults
     - Vitamin B12 Status in Vegetarian and Vegan Diets
+    - Age-Related Macular Degeneration and Modifiable Exposures
 created: 2026-07-30
-updated: 2026-09-04
-self_critiqued: 2026-09-04
+updated: 2026-09-15
+self_critiqued: 2026-09-15
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -551,6 +552,47 @@ the general-population nulls above) is what the recommendation weighs. WCRF's ov
 page's core: «for most people ... consumption of the right food and drink is more likely to protect
 against cancer than consumption of dietary supplements.»
 [@wcrf2018ter]
+
+<div class="recent-update" data-last-updated="2026-09-15">
+
+## The defined-stratum exception — AREDS antioxidants+zinc slow AMD progression `[2026-09-15, Evans Cochrane]`
+
+The antioxidant class that *raises* all-cause mortality in the general population (Bjelakovic, above)
+buys a **patient-important benefit in one narrow, disease-defined stratum**: people who already have
+intermediate age-related macular degeneration. Evans 2023 — a gold Cochrane SR+MA — finds the **AREDS
+formula** (vitamin C 500 mg, vitamin E 400 IU, beta-carotene 15 mg, zinc 80 mg, copper 2 mg) probably
+slows progression to late AMD — «Moderate-certainty evidence suggests that antioxidant vitamin and
+mineral supplementation (AREDS: vitamin C, E, beta-carotene, and zinc) probably slows down progression
+to late AMD. People with intermediate AMD have a higher chance of benefiting from antioxidant
+supplements because their risk of progression is higher than people with early AMD.»
+[@evans2023amdsupp]. Progression to
+late AMD OR **0.72 (0.58–0.90)**; in intermediate AMD \~**78 fewer** progressions per 1000 treated
+(26–126), vs \~4/1000 in early AMD — a route-(a) baseline-risk split. The whole appraisal (per-outcome
+effects, the zinc/vitamin-E arms, the lutein/zeaxanthin substitution) lives on
+[[Age-Related Macular Degeneration and Modifiable Exposures]].
+
+**This is a distinction, not a contradiction of the harm arm — the not-joined check (ii) fires
+(different population, different outcome).** Bjelakovic pools antioxidants -> *all-cause mortality* in
+*general/mixed* populations (primary + secondary prevention); Evans measures antioxidants+zinc ->
+*AMD progression* in *people who have AMD*. Different scope, different endpoint — no tension is joined.
+And Evans is **not an independent witness** of the mortality-harm claim: its own discussion *cites*
+Bjelakovic 2012 — «Beta-carotene and vitamin E seem to increase mortality»
+[@evans2023amdsupp] — so the two
+share evidence lineage on harm (type-F/attribution, never `[E-independent]`).
+
+**The harm arm still binds the recommendation — the AREDS win is beta-carotene-FREE.** The class harm
+shows up *inside* AREDS: «increased risk of lung cancer in the beta-carotene versus no beta-carotene
+group (23 (2.0%) versus 11 (0.9%)), mostly in former smokers»
+[@evans2023amdsupp] — which is why
+AREDS2 replaced beta-carotene with lutein/zeaxanthin. So the exception does not soften the page's core:
+the defensible formula is the **beta-carotene-free** one, for a person with intermediate AMD, weighed
+against the zinc GU harm and the class mortality signal — a stratum-and-formula-specific net-effect
+call, not a general licence for antioxidants. And the pharmacogenetic personalization the CFH/ARMS2
+story promised is a NULL — genotype «do[es] not predict response to antioxidant and zinc
+supplementation» [@evans2023amdsupp];
+stratify by AMD severity, not genes.
+
+</div>
 
 ## The one notable non-primary signal — n-3 and myocardial infarction
 

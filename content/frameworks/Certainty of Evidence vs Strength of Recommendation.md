@@ -2,10 +2,10 @@
 type: framework
 question: Does knowing how good the evidence is tell you how strongly to recommend something?
 aliases: [Quality of Evidence vs Strength of Recommendation, Certainty vs Strength, The GRADE Separation, Strong vs Weak Recommendation, Conditional Recommendation]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org); Valli, Claudia; Johnston, Bradley C; US Preventive Services Task Force (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015, Valli - Values and Preferences Meat 2019, NutriRECS - Red and Processed Meat Recommendations 2019, USPSTF - Procedure Manual 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Nordic Council of Ministers (org); Scientific Advisory Committee on Nutrition (org); Valli, Claudia; Johnston, Bradley C; US Preventive Services Task Force (org); Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, SACN - Carbohydrates and Health 2015, Valli - Values and Preferences Meat 2019, NutriRECS - Red and Processed Meat Recommendations 2019, USPSTF - Procedure Manual 2022, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: evidence-appraisal
-self_critiqued: 2026-08-08
+self_critiqued: 2026-09-16
 nucleus: true
 relationships:
   related_to:
@@ -14,7 +14,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Framing a Decision Question
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-09-16
 ---
 
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
@@ -277,6 +277,8 @@ norms, not a converging judgment about grading's value, and no `[E-independent]`
   is warranted by *«As with DRVs»* and by NNR issuing no grades, but NNR never says "our numbers are
   consensus" in the first person.
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Does the separation actually DO anything? The corpus's own pairings `[2026-07-28]`
 
 This page holds GRADE's claim that certainty is **one of four** determinants of strength and not a
@@ -333,10 +335,37 @@ certainty, weak recommendation — occurs zero times**, and so does the rare one
 ### The falsifier, stated in advance
 
 **A guideline whose recommendations vary in values/preferences should produce the off-diagonal** —
-screening decisions, drugs carrying burden or side-effects, interventions with real opportunity cost. and; **if either shows high-certainty conditional
+screening decisions, drugs carrying burden or side-effects, interventions with real opportunity cost.; **if it shows high-certainty conditional
 recommendations, this section's pattern is WHO-and-nutrition-specific and must be narrowed to say so.**
 Recorded as a prediction rather than a conclusion, because a 7-cell single-body sample is exactly the
 size at which a pattern is most tempting and least supported.
+
+### The falsifier can't run against a NON-grading body — ADA 2019 `[2026-09-16]`
+
+The `AWAITS` on ADA is **cashed, and the result is that the cell grid does not exist to test.** ADA's
+2019 nutrition-therapy consensus report is a major body issuing values-laden, individualized
+recommendations — exactly where the off-diagonal (high-certainty conditional) was predicted — but it
+**grades nothing**: no per-outcome certainty rating, no strength grade, no EtD table. Its own method
+statement: «the recommendations presented are the informed, expert opinions of the authors after
+consensus was reached through presentation and discussion of the evidence»
+[@evert2019].
+
+**So ADA neither confirms nor falsifies the WHO-monotone pattern — it sidesteps the grid.** Where WHO
+maps certainty x strength cell-by-cell, ADA dissolves the population recommendation into
+individualization: «there is not an ideal percentage of calories from carbohydrate, protein, and fat
+for all people with or at risk for diabetes; therefore, macronutrient distribution should be based on
+individualized assessment» [@evert2019]. That is
+the values/preferences determinant doing maximal work — it doesn't produce a *weak* graded
+recommendation, it produces *no population recommendation at all* on the macronutrient question,
+handing the weighting to the person -> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
+
+**The narrowing this forces:** the certainty x strength cell grid is a property of bodies that *grade*.
+A consensus body enacts the same underlying logic (high values-variability -> defer to the individual)
+through a different instrument (individualization) that has no cells to inspect. So the monotone-mapping
+finding stays scoped to graded guidance; a body's *absence* of an off-diagonal cell can mean it graded
+and found stable values, OR that it never graded at all. NASEM (still `AWAITS`) remains the live test of
+a body that grades AND has genuinely values-variable recommendations.
+[inferred from @evert2019]
 
 
 
@@ -369,6 +398,17 @@ free sugars <5%E is thinness-driven (more research could) — identical labels, 
 - **WHO issues strength without certainty** [@who2012] — every recommendation is
   «strong», the word *conditional* does not appear in the document, and **no certainty rating is
   attached to any recommendation line**. Certainty exists only in its per-outcome profiles.
+- **EASD-DNSG 2023 is the exact MIRROR — certainty without a formal strength axis** `[2026-09-16]`. It grades
+  every recommendation's certainty with GRADE's ⊕ notation (very low / low / moderate / high) but issues
+  **no strong/conditional label**: «This certainty of evidence determines how recommendations are worded»
+  [@dnsg2023]. Strength is folded into the verb
+  («should» / «can be» / «not recommended»), never graded. So WHO-Sodium and EASD are the two clean
+  single-axis specimens pointing opposite ways — **strength-only** vs **certainty-only** — which is the
+  strongest available demonstration that the two axes are genuinely separable: real bodies issue each one
+  *alone*. What EASD loses by folding strength into wording is the very information this page is about — a
+  reader cannot tell whether a moderate-certainty «not recommended» is a close values call or a firm
+  balance judgement. -> [[Was GRADE Actually Used]]
+  [inferred from @dnsg2023]
 
 **Note what the second one means for the table above: WHO's own practice is not constant across its
 guidelines.** The 2012 sodium guideline attaches no overall certainty; the 2023 SFA guideline states
@@ -397,6 +437,8 @@ generalise it.
 - **Residual:** the strongest unverified step is that WHO's five SFA strength ratings and two sugars
   ratings were each set independently. If a single committee applied one implicit rule across both,
   the seven cells are closer to one observation than to seven.
+
+</div>
 
 ## A body that has NO strength axis at all — USPSTF replaces it with certainty x magnitude `[2026-07-31]`
 

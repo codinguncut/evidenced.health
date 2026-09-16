@@ -1,14 +1,14 @@
 ---
 type: deliverable
 title: Gut Microbiome
-question: 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and which microbiome claims are effectively unfalsifiable?'
+question: 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and where do microbiome claims sit across the four evidence states (benefit / harm / no meaningful effect / insufficient), including which are not testable as stated?'
 aliases: [Microbiome, Gut Health, Probiotics, Prebiotics, FMT, Dysbiosis, Leaky Gut, Candida]
-authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa; van Nood, Els; Keller, Josbert J; Wastyk, Hannah C; Sonnenburg, Justin L]
-sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013, Wastyk - Fermented Foods Microbiota Immune RCT 2021]
+authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa; van Nood, Els; Keller, Josbert J; Wastyk, Hannah C; Sonnenburg, Justin L; Minkoff, Nathan Zev]
+sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013, Wastyk - Fermented Foods Microbiota Immune RCT 2021, Minkoff - Fecal Microbiota Transplantation Recurrent C difficile 2023]
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-27
-self_critiqued: 2026-08-11
+updated: 2026-09-16
+self_critiqued: 2026-09-16
 concrete_subject_audited: 2026-08-27
 ---
 
@@ -17,6 +17,8 @@ The gut microbiome gets invoked for almost everything: immunity, mood, weight, a
 microbiome is genuinely modifiable and genuinely matters in a handful of well-defined places. In most
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
+
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The bottom line
 
@@ -51,10 +53,12 @@ are present — that no one ever follows through to an outcome a person can feel
   quality) that were already ranked without the word *microbiome* attached
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
-Confidence is **medium**. The probiotics-by-indication claims rest on a gold-standard guideline and
-the FMT-for-*C. difficile* claim on a held landmark RCT, but the broad microbiome-and-health story is
-mostly observational, and the field's central confound — which way the causal arrow points — is
-usually unresolved.
+Confidence is **medium**. The probiotics-by-indication claims rest on an authoritative global guideline
+and the FMT-for-*C. difficile* claim on a gold Cochrane meta-analysis of six RCTs, but the broad
+microbiome-and-health story is mostly observational, and the field's central confound — which way the
+causal arrow points — is usually unresolved.
+
+</div>
 
 ## §2 — The one move that decides most of it: composition-shift is a surrogate
 
@@ -189,28 +193,49 @@ fibre evidence ([[Dietary Fibre and Health]]), and a standalone prebiotic supple
 already-adequate fibre intake, is a marginal and mostly-unevidenced increment.
 
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## §6 — FMT: the field's strongest win, and only for one thing so far
 
 Faecal microbiota transplant (FMT — transferring a donor's stool microbes into a patient's gut) is
-the clearest proof that the microbiome can be causal in humans. In the van Nood 2013 open-label RCT,
-in patients with recurrent *C. difficile* infection and mostly elderly, a donor-feces infusion cured
-13 of 16 (81%) on the first infusion and 15 of 16 (94%) overall, against 4 of 13 (31%) for a standard
-14-day course of vancomycin and 3 of 13 (23%) for vancomycin plus bowel lavage.
-[@vannood2013]
-That is roughly a 63 percentage-point absolute gain, a number needed to treat of about 2.
+the clearest proof that the microbiome can be causal in humans, and the fabric now holds the pooled
+gold evidence rather than a single trial. The Minkoff 2023 Cochrane meta-analysis pooled six RCTs
+(320 immunocompetent adults with recurrent *C. difficile*) against control — mostly antibiotics
+(vancomycin or fidaxomicin) or placebo. FMT «likely leads to a large increase in resolution of rCDI
+in the FMT group compared to control (risk ratio (RR) 1.92, 95% confidence interval (CI) 1.36 to
+2.71; P = 0.02, I2 = 63%; 6 studies, 320 participants; number needed to treat for an additional
+beneficial outcome (NNTB) 3; moderate-certainty evidence)»
+[@minkoff2023]. In
+absolute terms, resolution rises from 401 per 1000 (\~40%) with control to 770 per 1000 (\~77%) with
+FMT [@minkoff2023] —
+about a 37 percentage-point gain.
 
-The effect was so large that «The study was stopped after an interim analysis».
-[@vannood2013]
-Early stopping inflates the estimated magnitude, so read the exact size with caution — but the
-direction of a three-to-one cure advantage is not in doubt.
+Safety pooled toward FMT, but imprecisely: serious adverse events RR 0.73 (95% CI 0.38 to 1.41),
+all-cause mortality RR 0.57 (95% CI 0.22 to 1.45), the mortality figure rated low certainty because
+events were few and the interval wide
+[@minkoff2023].
+Certainty on the benefit is moderate, not high (heterogeneity I2 = 63%, risk of bias), so the
+decision-relevant claim is a large, consistent-in-direction benefit at moderate certainty — not a
+precise effect size.
 
-This is the surrogate done right, not a bare composition claim. The same trial measured the microbial
-shift *and* followed it to the clinical cure: Simpson's diversity climbed from about 57 to about 179,
-into the donor range, as patients recovered, and the authors read the mechanism as «the reestablishment
-of the normal microbiota as a host defense against C. difficile».
-[@vannood2013]
-A change in the bacterial census ([[Surrogate Outcomes]]) earns belief here because it was carried
-through to whether the infection cleared.
+The landmark trial sits inside this pool, and the pool bounds its over-estimate. The van Nood 2013
+open-label RCT — one of Minkoff's six — cured 13 of 16 (81%) on the first infusion and 15 of 16 (94%)
+overall, against 4 of 13 (31%) for a standard 14-day course of vancomycin, an effect so large that
+«The study was stopped after an interim analysis»
+[@vannood2013]. Early stopping inflates a
+magnitude, and that is exactly what the meta-analysis shows: the pooled RR of 1.92 sits well below van
+Nood's within-trial cure ratio of roughly three-fold (94% vs 31%), so the single trial over-stated the
+size while getting the direction right. This is a quality-upgrade (type F), not independent corroboration
+(type E) — Minkoff pools van Nood among the six, so the two agree by shared data, and the composite is
+the better anchor.
+
+This is the surrogate done right, not a bare composition claim. The van Nood trial measured the
+microbial shift *and* followed it to the clinical cure: Simpson's diversity climbed from about 57 to
+about 179, into the donor range, as patients recovered, and the authors read the mechanism as «the
+reestablishment of the normal microbiota as a host defense against C. difficile»
+[@vannood2013]. A change in the bacterial
+census ([[Surrogate Outcomes]]) earns belief here because it was carried through to whether the
+infection cleared.
 
 The scope boundary is the decision-relevant part. Recurrent CDI is the one case where the pathology
 *is* the dysbiosis (a disrupted, low-diversity microbial community): antibiotics collapse gut diversity,
@@ -219,6 +244,8 @@ for anything else. The CDI win is no evidence that manipulating the microbiome i
 metabolic disease, where no established dysbiosis-as-cause exists for a transplant to reverse.
 Valdes states the field bound plainly: «For other pathologies, faecal transplants are not yet clinical
 practice but have been explored.» [@valdes2018]
+
+</div>
 
 ## §7 — Antibiotics: a real perturbation, but the outcome question is a gap
 
@@ -263,16 +290,19 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
   no one has resolved whether the disrupted community causes the illness or the illness (and its diet)
   causes the disruption. Flag it; the held evidence does not resolve it.
-- **Several backbone syntheses are unheld.** A Cochrane FMT-for-CDI systematic review would pool the
-  effect that the single, early-stopped van Nood trial over-estimates, with a proper confidence
-  interval. A strain-level probiotics SR, the Camilleri intestinal-permeability review, and a
-  microbiome-and-health umbrella review would each anchor a claim the fabric now carries on thinner
-  ground.
+- **The FMT-for-CDI evidence is now pooled, but several backbone syntheses remain unheld.** The
+  Cochrane FMT-for-CDI meta-analysis the fabric once lacked is now held (Minkoff 2023, §6): it pooled
+  the effect the single early-stopped van Nood trial over-estimated and gave it a proper confidence
+  interval, confirming the wiki's earlier early-stopping-bias caveat. Still missing: a strain-level
+  probiotics SR, the Camilleri intestinal-permeability review, and a microbiome-and-health umbrella
+  review, each of which would anchor a claim the fabric still carries on thinner ground.
 - **No source bears on antibiotics' long-term microbiome harm**, and none on birth mode and early-life
   colonization — both are named gaps, not answered questions.
 - **The trendy ferments are unstudied, not shown inert.** Kimchi, sauerkraut, kombucha and kefir carry
@@ -283,6 +313,8 @@ new decision.
   [inferred from @wastyk2021].
   Fermented *dairy* (yogurt -> type-2 diabetes) is worked separately -> [[Dairy and Cardiometabolic Health]];
   fermented *soy* (miso, tempeh, natto) is a distinct exposure -> [[Soy Products and Health]].
+
+</div>
 
 ## §11 — How this compares to the popular framing (the guidance null)
 
@@ -298,6 +330,8 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
+
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## Caveats
 
@@ -316,10 +350,12 @@ diversity, the boring recommendation that is already made on its own evidence.
 >
 > | | |
 > |---|---|
-> | **Question** | 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and which microbiome claims are effectively unfalsifiable?' |
-> | **Evidence included** | 7 sources — 1 gold, 4 high, 2 moderate |
+> | **Question** | 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and where do microbiome claims sit across the four evidence states (benefit / harm / no meaningful effect / insufficient), including which are not testable as stated?' |
+> | **Evidence included** | 8 sources — 2 gold, 4 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
+
+</div>
 
 ## References

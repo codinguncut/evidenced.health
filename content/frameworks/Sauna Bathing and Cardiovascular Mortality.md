@@ -8,10 +8,11 @@ cluster: heat-exposure
 nucleus: true
 confidence: low
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-16
 self_critiqued: 2026-09-09
 relationships:
   related_to:
+    - Cold-Water Immersion
     - The U-Shaped Association Artifact
     - Cardiorespiratory Fitness and Mortality
     - Blood Pressure Lowering and Cardiovascular Events

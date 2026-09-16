@@ -46,6 +46,21 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   lever, not a big rock. The healthy-adherer check is run (survives fitness/SES adjustment) but residual
   confounding remains.
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## Cold / cold-water exposure
+
+- [[Cold-Water Immersion]] — nucleus of the `cold-exposure` cluster: deliberate cold shower / ice bath
+  / plunge (<=15C, >=30s). Popularity vastly exceeds evidence (ice-bath sales rose from <1000 to
+  &gt;90,000/yr in 12 months). The one meta-analysis held (11 RCTs, n=3177) finds the best-graded acute
+  effect runs AGAINST the fad claim — CWI *raises* inflammation short-term (SMD \~1.0-1.3, Grade B) — and
+  the "stress reduction" is one significant timepoint (12h, SMD -1.00) in an otherwise-null series.
+  Immunity null (Grade D); sleep/QoL/sickness-absence are single-study self-reports. All-surrogate, no
+  hard endpoints, no long-term, mostly single-session and male. Low-confidence peripheral lever; the
+  cold sibling of sauna (parallel, not a tension).
+
+</div>
+
 ## Light and sun (UV) exposure
 
 - [[Sun Exposure UV and Health]] — nucleus of the `sun-uv-exposure` cluster (concept): how much sun/UV

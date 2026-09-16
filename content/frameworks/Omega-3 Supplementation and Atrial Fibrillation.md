@@ -6,7 +6,7 @@ authors: [Gencer, Baris; Djousse, Luc; Al-Ramady, Omar T; Cook, Nancy R; Manson,
 sources: [Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021]
 confidence: medium
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-15
 self_critiqued: 2026-09-02
 relationships:
   related_to:
@@ -25,6 +25,8 @@ This is the off-target counterweight to the ischemic benefit held on
 recommendation — this is an *isolate-supplement* finding.
 [inferred from @gencer2021]
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## The effect — dose-dependent AF risk
 
 Gencer 2021, a gold SR+MA of **7 marine omega-3 CV-outcome RCTs (81,210 patients**, weighted mean age
@@ -41,8 +43,11 @@ Gencer 2021, a gold SR+MA of **7 marine omega-3 CV-outcome RCTs (81,210 patients
 &gt; 1.11 [95% CI, 1.06-1.15]; P=0.001).»
 > [@gencer2021]
 
-- **Overall:** HR **1.25 (1.07-1.46)** — a \~25% relative increase in AF, absolute base rate \~1.3%/yr
-  across the pool. [@gencer2021]
+- **Overall:** HR **1.25 (1.07-1.46)** — a \~25% relative increase in AF
+  [@gencer2021]. Gencer computes RRs
+  from cumulative incidence and states no annual event rate, so a pooled per-year base rate is NOT
+  extractable from it; the absolute excess is nonetheless small because the base rate is low
+  [inferred from @gencer2021]
 - **Dose split (prespecified 1 g/d cutoff):** high-dose >1 g/d **1.49 (1.04-2.15)** vs low-dose
   <=1 g/d **1.12 (1.03-1.22)**, P-interaction <0.001 — the interaction stratification collapsed the
   between-trial heterogeneity (overall I2=54.6% -> low-dose I2<0.01%, high-dose I2=9.9%), which is
@@ -75,6 +80,8 @@ The two statistically-significant single-trial signals (STRENGTH, REDUCE-IT) are
 every low-dose trial is individually non-significant, positive-leaning, and only the pool clears
 significance at 1.12.
 
+</div>
+
 ## The dose-vs-formulation confound — and why it is NOT purely a REDUCE-IT/mineral-oil artifact
 
 The high-dose arm is dominated by EPA-only **REDUCE-IT (4 g icosapent ethyl** vs a contested
@@ -95,6 +102,8 @@ and the EPA-only arm are the same trials). REDUCE-IT's own prior report was the 
 > those randomized to active treatment compared with placebo (3.1% versus 2.1%; P=0.004).»
 > [@gencer2021]
 
+<div class="recent-update" data-last-updated="2026-09-15">
+
 ## Synthesis — a same-exposure benefit/harm split by dose (type-A/G)
 
 The decision-relevant move this opens (present in no single held page before it): omega-3
@@ -105,7 +114,7 @@ benefit **above 1 g/d, concentrated in high-risk statin-treated strata**; Gencer
 the **same rising dose arm**. So the two curves cross the same dose axis in opposite directions:
 
 - **General, replete adult on OTC \~1 g/d:** the CV benefit is near-null (VITAL/low-dose stratum) *and*
-  the AF harm is small (1.12, \~2 extra AF per the low absolute base rate) — a small-lever decision on
+  the AF harm is small (1.12, a small absolute excess given the low base rate) — a small-lever decision on
   both sides. The AF harm does not by itself contraindicate a low-dose capsule, but there is little
   benefit to weigh it against.
 - **High-dose prescription (4 g icosapent ethyl for high-TG established-CVD):** the ischemic benefit is
@@ -123,6 +132,8 @@ The clinical-implication the authors draw is a **disclosure**, dose-graded:
 > [@gencer2021]
 
 [inferred from @gencer2021]
+
+</div>
 
 ## NOT independent of the held omega-3 evidence (shared trial base + authors)
 

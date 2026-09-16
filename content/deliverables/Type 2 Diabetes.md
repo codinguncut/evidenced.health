@@ -3,13 +3,13 @@ type: deliverable
 title: Type 2 Diabetes
 question: 'For an adult at risk of, or living with early, type 2 diabetes, what does the evidence show about the modifiable lifestyle levers on incidence and on remission — direction, magnitude, durability, for whom — how do weight loss, diet composition, total diet replacement, and physical activity compare, and where does lifestyle sit against the standard first-line drug?'
 aliases: [Type 2 Diabetes, T2D, Diabetes Prevention, Diabetes Remission, Reversing Diabetes]
-authors: [Knowler, William C; Tuomilehto, Jaakko; Pan, Xiao-Ren; Hamman, Richard F; Goldberg, Ronald B; Lean, Michael EJ; Taylor, Roy; Goldenberg, Joshua Z; Churuangsuk, Chaitong; Szczerba, Edyta; Jenkins, David J A; Liu, Xiao; Badve, Sunil V; Zhao, Zhuoxian; Liu, Yunan; Reith, Christina]
-sources: [Knowler - Diabetes Prevention Program DPP 2002, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Goldberg - DPPOS Cardiovascular Events 2022, Lean - DiRECT T2D Remission 2018, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Jenkins - Glycaemic Index Load Outcomes Series 2024, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Reith - Statin New-Onset Diabetes 2024]
+authors: [Knowler, William C; Tuomilehto, Jaakko; Pan, Xiao-Ren; Hamman, Richard F; Goldberg, Ronald B; Lean, Michael EJ; Taylor, Roy; Goldenberg, Joshua Z; Churuangsuk, Chaitong; Szczerba, Edyta; Jenkins, David J A; Liu, Xiao; Badve, Sunil V; Zhao, Zhuoxian; Liu, Yunan; Reith, Christina; Evert, Alison B; Dennison, Michelle; Gardner, Christopher D; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [Knowler - Diabetes Prevention Program DPP 2002, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Goldberg - DPPOS Cardiovascular Events 2022, Lean - DiRECT T2D Remission 2018, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Jenkins - Glycaemic Index Load Outcomes Series 2024, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Reith - Statin New-Onset Diabetes 2024, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 confidence: medium
 created: 2026-09-09
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-09-16
+self_critiqued: 2026-09-16
+concrete_subject_audited: 2026-09-16
 ---
 
 Type 2 diabetes hides two separate decisions under one disease name, and the evidence answers them
@@ -320,6 +320,50 @@ over an existing risk score [@liu2022tyg].
 Use it to *place* someone in the insulin-resistant stratum, not as a target to steer down
 -> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## What the guidance bodies say, and the one place they split
+
+Two diabetes-diet guidelines now bracket this evidence — the American Diabetes Association (ADA 2019)
+and Europe's EASD-DNSG (2023). Both rest on the same trials this page is built on: DiRECT, Look AHEAD,
+the same low-carbohydrate meta-analyses. So where they agree, that is shared-evidence agreement, not
+two independent bodies confirming each other.
+
+On the core they agree. Neither endorses a macronutrient formula — ADA finds «there is not an ideal
+percentage of calories from carbohydrate, protein, and fat»
+[@evert2019]. On remission both put weight first:
+EASD grades it High that remission «in people who are overweight or obese can be achieved through
+sustained weight loss» [@dnsg2023], and
+recommends the same total-diet-replacement route DiRECT tested. So the guidance null on remission
+holds — the fabric reaches the guidance conclusion from the same trials, and it would be defeated, if
+at all, by better-warranted agreement, not by divergence.
+
+The bodies split on one thing: very-low-carbohydrate and ketogenic diets. ADA calls
+very-low-carbohydrate eating «a viable approach» for the select adult «not meeting glycemic targets»
+or wanting to cut medications [@evert2019]. EASD
+grades Moderate that «Very low carbohydrate intakes, such as with ketogenic diets, are not
+recommended» [@dnsg2023]. On its face, a
+flat contradiction.
+
+It is not. The two agree on every effect estimate — no long-term glycaemic difference, the same fade
+by twelve months. They differ on two things only: the population default, and how much weight to give
+a harm signal EASD reads as sufficient and ADA as unsettled. EASD weights in cohort data that «low
+(<40% total energy) and high (>70% total energy) intakes of carbohydrate are associated with greater
+premature mortality» [@dnsg2023], together
+with an LDL rise and other safety concerns; ADA treats the cardiovascular question as not yet
+established. And for the individual who chooses very-low-carb, both land together — EASD asks only that
+«it is important this is done with health professional support»
+[@dnsg2023].
+
+So a reader who takes «viable» versus «not recommended» as an evidence conflict has misread it. The
+decision is not who is right about keto. It is whether you want a population default that acts on an
+observational mortality signal (EASD) or one that waits for interventional outcomes (ADA) — and for
+the person who will adhere with monitoring, the two agree. The full parameter table is on
+[[Diets for Weight Management in Type 2 Diabetes]] -> [[The U-Shaped Association Artifact]].
+[inferred from @evert2019; @dnsg2023]
+
+</div>
+
 <div class="recent-update" data-last-updated="2026-09-15">
 
 ## What to do, by where you stand
@@ -345,7 +389,7 @@ where trials routinely exclude people but the mechanism does not.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-15">
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## What the evidence still cannot see
 
@@ -372,10 +416,10 @@ what actually happened to people who followed them.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult at risk of, or living with early, type 2 diabetes, what does the evidence show about the modifiable lifestyle levers on incidence and on remission — direction, magnitude, durability, for whom — how do weight loss, diet composition, total diet replacement, and physical activity compare, and where does lifestyle sit against the standard first-line drug?' |
-> | **Evidence included** | 16 sources — 7 gold, 8 high, 1 moderate |
+> | **Evidence included** | 18 sources — 9 gold, 8 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
 
 </div>
 

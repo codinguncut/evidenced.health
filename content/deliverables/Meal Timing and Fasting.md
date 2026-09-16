@@ -4,13 +4,13 @@ title: Meal Timing and Fasting
 subject: What manipulating when and whether you eat -- time-restricted eating, one-meal-a-day, alternate-day and whole-day fasting, and prolonged therapeutic fasting -- adds beyond the calorie deficit it creates, and where a long fast flips to net harm
 question: For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm?
 aliases: [Fasting, Intermittent Fasting, Fasting Benefits and Risks, Time-Restricted Eating Deliverable, Meal Timing, Is Meal Timing a Life Hack, ADF, 5:2, OMAD, Skipping Breakfast, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting, Meal Frequency, Grazing, Small Frequent Meals]
-authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Association for the Study of the Liver (org); Lean, Michael EJ; Liu, Deying; Refalo, Martin C; Sumithran, Priya; Montani, Jean-Pierre; Capers, Patrice L; Wilding, John P H; Lincoff, A Michael]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
+authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Association for the Study of the Liver (org); Lean, Michael EJ; Liu, Deying; Refalo, Martin C; Sumithran, Priya; Montani, Jean-Pierre; Zou, Huajie; Yu, Xuefeng; Capers, Patrice L; Wilding, John P H; Lincoff, A Michael]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-09-06
-self_critiqued: 2026-09-06
-concrete_subject_audited: 2026-09-06
+updated: 2026-09-16
+self_critiqued: 2026-09-16
+concrete_subject_audited: 2026-09-16
 ---
 
 **When you eat is a smaller lever than almost anyone selling it believes.** In the trials that hold
@@ -170,6 +170,8 @@ longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic 
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 
 Aggressive restriction has real costs, and they scale with how deep and how fast it goes. Three sit on
@@ -184,12 +186,18 @@ the harm side of the ledger.
   problem against a biological headwind -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 - **Muscle is the first casualty of a protein-poor window** (the TREAT/Refalo finding above) -- the
   reason to keep protein high and the deficit modest rather than maximal.
-- **Fear of weight cycling is aimed at the wrong person.** Montani 2015 (a narrative review, held as a
-  labelled counterweight) reports the harm signal is confounded, inconsistent, and concentrated where
-  there is no metabolic reason to diet: it is «more readily seen in people of normal body weight rather
-  than in those who are overweight or obese».
-  [@montani2015cycling] For an obese person,
-  fear of yo-yoing is not a good reason to avoid attempting loss -> [[Weight Cycling and Cardiometabolic Risk]].
+- **Fear of weight cycling is aimed at the wrong person — now pooled, though still observational.** The
+  signal Montani 2015 (narrative, held as a labelled counterweight) called confounded and «more readily seen
+  in people of normal body weight rather than in those who are overweight or obese»
+  [@montani2015cycling] is now pooled by two
+  gold-by-design SR/MAs whose own authors disclaim causation. Zou 2019 (23 cohorts, 441,199 participants) finds the all-cause-mortality signal
+  publication-bias-inflated — RR 1.41 falls to «RR, 1.18, 95% CI 1.05–1.32» after trim-and-fill — and its
+  authors decline the deterrent step: «we cannot conclude whether obese individuals should be deterred from
+  efforts to control their body weight by concerns about the hazards of weight cycling».
+  [@zou2019fluctuation] Zou 2020 (14 cohorts,
+  253,766) finds the T2D association null in the obese stratum (BMI>=30, P=0.08).
+  [@zou2020cycling] For an obese person, fear of yo-yoing is not a
+  good reason to avoid attempting loss -> [[Weight Cycling and Cardiometabolic Risk]].
 
 Those three are harms of a deficit in general. A long *fast* adds one harm the others do not: a
 **sign-flip in the wrong person**. For a generally-healthy adult the schedule is a refinement, but in
@@ -209,6 +217,7 @@ inconsistent effects on integrated energy balance as operationalized by weight c
 compensates; a timing change's naive prediction routinely fails to survive it
 -> [[Sleep and Metabolic Health]].
 
+</div>
 
 ## A drug now dwarfs the biggest effect fasting can offer
 
@@ -238,6 +247,8 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 [inferred from @semnaniazad2025]
 
+
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The bottom line
 
@@ -277,9 +288,11 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 > | | |
 > |---|---|
 > | **Question** | For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm? |
-> | **Evidence included** | 12 sources — 3 gold, 6 high, 2 moderate, 1 weak |
+> | **Evidence included** | 14 sources — 5 gold, 6 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak); Montani (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+
+</div>
 
 ## References

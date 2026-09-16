@@ -3,12 +3,12 @@ type: deliverable
 title: Limits of Evidence
 icon: material-symbols-light:balance
 question: 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?'
-sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024]
+sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024, EASD - DNSG Dietary Management of Diabetes 2023]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-09-16
+self_critiqued: 2026-09-16
+concrete_subject_audited: 2026-09-16
 ---
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
@@ -348,7 +348,7 @@ doesn't work* -- the first leaves the question open under the expectancy test; t
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
 
-<div class="recent-update" data-last-updated="2026-09-15">
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The open loop, and what confidence it leaves
 
@@ -414,6 +414,15 @@ lever is. A cheap, reversible change aimed at a large lever is worth making on a
 expensive, irreversible one aimed at a marginal lever.
 -> [[Acting on a Direction Without a Magnitude]], [[The Estimate-to-Action Gap]]
 
+Real bodies confirm the two dials are separable by issuing each one alone. EASD's 2023 diabetes guidance
+grades every recommendation's certainty (GRADE's very-low-to-high notation) yet attaches no
+strong/conditional label — «This certainty of evidence determines how recommendations are worded»
+[@dnsg2023] — folding strength into the verb,
+the mirror of a body that grades strength but not certainty. What that costs is a limit of presentation: a
+reader cannot tell whether a moderate-certainty *not recommended* is a close values call or a firm balance
+judgement.
+[inferred from @dnsg2023]
+
 A defensible **direction** is often reachable where a **magnitude** is not, and the two failures around
 that gap are mirror images. *Credulity* acts on nothing -- treating an unstudied question as settled or a
 mechanism as an outcome. *Paralysis* waits for a proof this field cannot deliver -- the blinded lifetime
@@ -441,7 +450,7 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-15">
+<div class="recent-update" data-last-updated="2026-09-16">
 
 ## Caveats and boundaries
 
@@ -469,10 +478,10 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | | |
 > |---|---|
 > | **Question** | 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?' |
-> | **Evidence included** | 21 sources — 5 gold, 3 high, 1 moderate |
+> | **Evidence included** | 22 sources — 6 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
 
 </div>
 

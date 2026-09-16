@@ -3,11 +3,11 @@ type: framework
 question: For whom, at what intake, and which species does eating fish/seafood change a patient-important outcome — and where does the methylmercury risk flip the balance?
 aliases: [Fish, Seafood, Oily Fish, Fatty Fish, EPA and DHA from Seafood, Fish and Neurodevelopment, Methylmercury, Fish Consumption]
 authors: [European Food Safety Authority (org); Jayedi, Ahmad; Shab-Bidar, Sakineh; Wei, Bao-Zhen; Xu, Wei; Bechthold, Angela; Schwingshackl, Lukas; Lombardi, Marco; Chiabrando, Juan Guido; Zhong, Victor W]
-sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
+sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, EFSA - Mercury and Methylmercury in Food 2012, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 cluster: fish-seafood
 nucleus: true
 confidence: medium
-self_critiqued: 2026-09-08
+self_critiqued: 2026-09-16
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-09-08
+updated: 2026-09-16
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -170,11 +170,14 @@ rate: at typical European species/intakes, the whole-food net is already positiv
 
 [inferred from @efsaseafood2014]
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## The risk side — methylmercury, and why species is the decision variable
 
-- **Tolerable Weekly Intake = 1.3 µg/kg body weight/week** (EFSA CONTAM 2012), *«expressed as
-  mercury... based on neurodevelopmental endpoints»*, point of departure 11.5 mg/kg maternal hair.
-  [@efsaseafood2014]
+- **Tolerable Weekly Intake = 1.3 µg/kg body weight/week, expressed as mercury** — the methylmercury
+  hazard number, derived in the primary CONTAM 2012 toxicity opinion (point of departure 11.5 mg/kg
+  maternal hair; full derivation below). EFSA 2014 borrowed this figure for the benefit-risk balance.
+  [@efsacontam2012]
 - **Methylmercury biomagnifies up the food chain, so apex predators carry the most.** The pregnancy
   FBDG guidance is a **species** rule, not an intake rule: *«prefer seafood low in pollutants (e.g.
   trout, ocean perch, cisco, sardine, white halibut, salmon, mackerel, herring, sprats, anchovies,
@@ -195,6 +198,76 @@ which is exactly the species the guidance singles out to limit.
 [@efsaseafood2014]
 
 [inferred from @efsaseafood2014]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## The methylmercury hazard arm — the TWI, its derivation, and who exceeds it (CONTAM 2012)
+
+This is the primary toxicity opinion the benefit arm borrowed the TWI from. By its own scope it is the
+pure hazard side: *«This opinion focuses only on the risks related to dietary inorganic mercury and
+methylmercury exposure and does not assess the nutritional benefits linked to certain foods (e.g. fish
+and other seafood).»* [@efsacontam2012]
+
+#### How the TWI was derived — a hazard number, not a dose-response optimum
+
+- **Point of departure = 11.5 mg/kg maternal hair**, the mean of the adjusted Seychelles nutrition-cohort
+  NOEL (11 mg/kg) and the Faroese Cohort-1 BMDL05 at age 7 (12 mg/kg). Hair:blood ratio 250 gives
+  maternal blood 46 µg/L; a one-compartment toxicokinetic model back-calculates a dietary intake of
+  \~1.2 µg/kg b.w. per day at the PoD. [@efsacontam2012]
+- **Total uncertainty factor 6.4** = a data-derived factor of 2 (hair:blood variability) x the standard
+  3.2 for interindividual toxicokinetic variation. 1.2 / 6.4 x 7 -> **TWI 1.3 µg/kg b.w./week** (vs
+  JECFA's PTWI of 1.6). The value carries a margin of \~40 to the rat antibody-response BMDL05.
+  [@efsacontam2012]
+- **The TWI is anchored on prenatal neurodevelopment, not cardiovascular endpoints.** The Panel weighed
+  the CV signal and set it aside: the MI, *«heart rate variability and possibly blood pressure … are of
+  potential importance, they are still not conclusive»*, so *«neurodevelopmental outcomes after prenatal
+  exposure still form the best basis»*. [@efsacontam2012]
+
+#### The crown finding — adjusting for the fish benefit *unmasked* the toxicant, lowering the TWI
+
+JECFA's point of departure for the older PTWI of 1.6 was 14 mg/kg hair — the mean of the *unadjusted*
+Seychelles NOEL (15.3) and the Faroese BMDL05 (12). When the co-consumed n-3 LCPUFA benefit was modelled,
+a methylmercury effect the fish nutrients had been masking appeared: *«at a mercury concentration in
+maternal hair of above approximately 11 mg/kg, the positive effects from n-3 LCPUFA intake can no longer
+outweigh detrimental effects from methylmercury exposure»* — though *«the number of observations above
+this exposure level was low, increasing the uncertainty»*. The adjusted Seychelles NOEL (11) therefore
+replaced the unadjusted one (15.3) while the Faroese 12 stood, so the mean PoD fell from 14 to 11.5 and
+the TWI from 1.6 to 1.3. [@efsacontam2012]
+
+This is the **mirror image of healthy-user confounding**: instead of a co-varying *healthy* behaviour
+inflating an apparent benefit, a co-consumed *beneficial* nutrient was suppressing an apparent harm, so
+controlling for it made the toxicant look worse, not better. The whole benefit-risk architecture on this
+page turns on it — the same fish nutrient that drives the benefit is what hid the risk in the raw data.
+[inferred from @efsacontam2012]
+
+#### Inorganic mercury is a different toxicant with its own TWI
+
+- **TWI (inorganic Hg) = 4 µg/kg b.w./week** (BMDL10 0.06 mg/kg/day for kidney-weight change in male
+  rats, UF 100) — unchanged from JECFA. *«The critical target for toxicity of inorganic mercury is the
+  kidney»*, not the developing brain. [@efsacontam2012]
+- **The two species partition differently in the body:** *«methylmercury is accumulated to a large
+  extent (> 90 %) in the erythrocytes … methylmercury is able to enter the hair follicle, and to cross
+  the placenta as well as the blood-brain and blood-cerebrospinal fluid barriers»*, whereas mercuric
+  mercury sits more in plasma and is excreted mainly via urine. Hence hair/blood are the methylmercury
+  biomarkers; urine is the inorganic one. [@efsacontam2012]
+- **Dietary inorganic Hg alone stays below its TWI, but dental amalgam can push internal exposure over:**
+  *«a high number of amalgam fillings is likely to increase the internal inorganic mercury exposure; thus
+  the TWI might be exceeded»*. [@efsacontam2012]
+
+#### Who actually exceeds the methylmercury TWI
+
+Mean exposure across age groups sits below the 1.3 TWI in most surveys (adult median-of-means \~0.24 µg
+Hg/kg/week), except toddlers and other children, whose means reach \~1.57 in some surveys. The
+95th-percentile is close to or above the TWI in *all* age groups. The binding stratum is high fish
+consumers (intakes roughly twice the total-population estimate): *«The highest dietary exposure of high
+consumers of fish meat … was for other children at 7.48 μg Hg/kg b.w. per week, which is approximately
+six-fold the TWI»*, and adult high-consumers reach \~4.7x. Women 18-45 track the general-adult figures,
+but the **unborn child is the most vulnerable** — the reason the species constraint binds in pregnancy.
+[@efsacontam2012]
+
+</div>
 
 ## The stratum flip — the crown-jewel finding
 
@@ -415,6 +488,8 @@ fragile to single-baseline measurement. It is type-F (a divergent refinement bou
 robustness), not type-E corroboration and not a joined tension; confidence stays **medium**.
 [inferred from @zhong2020meat]
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Limits
 
 - **EFSA could not quantify the benefit with certainty; Jayedi 2020 now can — but only to moderate.**
@@ -427,8 +502,12 @@ robustness), not type-E corroboration and not a joined tension; confidence stays
   null. Confounding by overall diet quality and socioeconomic position is uncontrolled (the
   observed-healthy-population problem).
 - **Intake is FFQ-measured** — the binding constraint -> [[Measurement Error in Dietary Assessment]].
-- **The risk arm is borrowed.** This opinion is the benefit side; the methylmercury toxicity
-  assessment and the TWI derivation are the separate CONTAM 2012 opinion.
+- **The risk arm is now held (CONTAM 2012 ingested 2026-09-16).** EFSA 2014 is the benefit side; the
+  methylmercury toxicity assessment and the TWI derivation are the separate CONTAM 2012 opinion, folded
+  in above (the hazard-arm section). It is a **type-F composite**, not independent type-E corroboration:
+  the two are the same body and 2014 cites 2012, so the toxicity arm completes the one benefit-risk
+  analysis rather than confirming it from a second witness — confidence stays medium.
+  [@efsacontam2012]
 - **Three cohort sources, still not independent on the food signal.** EFSA (benefit-risk guidance) +
   Jayedi 2020 (cohort umbrella, CV/mortality) + Wei 2023 (cohort SR+MA, cognition) — but all three
   share the underlying observational cohort literature and the EPA/DHA mechanism, so confidence stays
@@ -441,10 +520,12 @@ robustness), not type-E corroboration and not a joined tension; confidence stays
   addresses supplemental O3FA dose (LD vs HD vs control), carries the olive-oil comparator caveat, and
   cannot separate dose from EPA-only form or high-risk stratum. So it firms the *supplement* leg (OTC
   1 g/day near-null; benefit only > 1 g/day in high-risk strata) without lifting the *food* signal's
-  observational ceiling. Still owed: an RCT of *food-form* fish (structurally near-impossible), the
-  mercury-toxicity CONTAM 2012 opinion, and ASCEND (not held).
+  observational ceiling. Still owed: an RCT of *food-form* fish (structurally near-impossible) and ASCEND
+  (not held). The mercury-toxicity CONTAM 2012 opinion is now held (folded into the hazard-arm section).
 
 [inferred from @efsaseafood2014]
+
+</div>
 
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 
@@ -477,6 +558,8 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 [@schwingshackl2017htn] Full grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
+<div class="recent-update" data-last-updated="2026-09-16">
+
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 dose-response NMA added]`
 
 - **Not overclaimed.** The dose finding is stated as an *association* of HD (>1 g/day) with the ischemic
@@ -496,5 +579,29 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the omega-3-dose ->
   CV-event association against a realized outcome; the olive-oil/mineral-oil comparator threat is
   flagged as an unresolved bias in the underlying trials.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-16">
+
+## Self-critique `[run 2026-09-16, before commit — CONTAM 2012 methylmercury toxicity arm added]`
+
+- **Not overclaimed.** The TWI is presented as a hazard-based guidance value, not a dose-response
+  optimum — the derivation chain (PoD, UF 6.4, margin \~40) is stated, and the crown finding carries
+  EFSA's own uncertainty caveat (*few observations above 11 mg/kg*). No *fish is dangerous in pregnancy*
+  reading is licensed: the hazard-arm section explicitly hands off to the stratum flip, where low-mercury
+  fish still nets positive and the decision-change is a species swap, not abstention. The confounding-by-
+  benefit / mirror-of-healthy-user framing is marked INFERRED (this page's), the numbers EFSA's.
+- **Not laundered-E.** CONTAM 2012 is filed as a **type-F composite** with EFSA 2014, explicitly NOT
+  independent — same body, and 2014 cites 2012, so the toxicity arm completes the one analysis rather
+  than corroborating it from a second witness. Confidence stays `medium`; `sources:` gains the row only
+  because a distinct extracted claim (the whole TWI derivation) now lives in the body (dual test), not
+  as an E-pad.
+- **Not a fake tension.** No `[[tension]]` filed against the benefit arm; the two arms answer different
+  questions (hazard dose vs net benefit) and are configured, not joined.
+- **Coherence, not validity** (R1): the loop is open — no operation grades the TWI or the
+  methylmercury -> neurodevelopment association against a realized childhood outcome.
+
+</div>
 
 ## References

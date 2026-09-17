@@ -28,6 +28,8 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Supplements — worth taking or not
 
 - [[Vitamin and Mineral Supplements for Disease Prevention]] — for a generally-nourished adult, whether
@@ -42,3 +44,15 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Vitamin B12 Status in Vegetarian and Vegan Diets]] — the repletion mirror: a diet-defined
   shortfall (B12 has no plant source) makes supplementation close to non-optional for vegetarians/vegans;
   serum B12 is the wrong marker (use MMA/holo-TCII); biochemical deficiency is a surrogate, not held harm
+- [[Nutrient Adequacy of Plant-Based Diets]] — the multi-nutrient generalization: which nutrients to
+  watch on a vegan/vegetarian diet, by stratum (B12/omega-3/iodine/zinc/iron-in-women/D/calcium); the
+  intake != bioavailability != status reframe; industry-COI empirical-vs-interpretive split
+- [[Excess Iodine Intake and Thyroid Disease]] — the over-supplementation counterweight for iodine: past
+  sufficiency more is not better — chronic excess raises hypothyroidism risk (adult SCH OR 2.03), hardest
+  in the antibody-positive/autoimmune/nodular stratum; the excess/upper arm of iodine's dose-response U
+- [[Iodine Supplementation in Pregnancy]] — the pregnancy-stratum decision: RCT evidence is insufficient
+  for routine supplementation; benefit concentrates in severe deficiency (child IQ +11.21), null in mild;
+  supplementation cuts postpartum hyperthyroidism (RR 0.32) but raises digestive intolerance and excess
+  intake (RR 4.33) — a type-F refinement of Bougma, not independent (shared author)
+
+</div>

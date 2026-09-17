@@ -97,5 +97,5 @@ would matter most if it turned out true.
 
 <div class="deliverable-grid">
 <a class="dcard dcard-recent" data-last-updated="2026-09-16" href="deliverables/Gut-Microbiome"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:bacteria"></iconify-icon></span><span class="dcard-title">Microbiome</span><span class="dcard-desc">Probiotics, prebiotics, 'leaky gut', candida — which claims are backed by human outcomes, which are 'not yet', and which are not yet testable.</span></a>
-<a class="dcard dcard-recent" data-last-updated="2026-09-16" href="deliverables/Dietary-Supplements"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:medicines"></iconify-icon></span><span class="dcard-title">Supplements</span><span class="dcard-desc">Vitamins, minerals, fish oil, creatine — which few have real evidence, for whom, and how large the effect is.</span></a>
+<a class="dcard dcard-recent" data-last-updated="2026-09-17" href="deliverables/Dietary-Supplements"><span class="hicon-wrap"><iconify-icon class="hicon" icon="healthicons:medicines"></iconify-icon></span><span class="dcard-title">Supplements</span><span class="dcard-desc">Vitamins, minerals, fish oil, creatine — which few have real evidence, for whom, and how large the effect is.</span></a>
 </div>

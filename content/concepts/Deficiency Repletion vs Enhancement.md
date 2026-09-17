@@ -4,12 +4,12 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Neufingerl, Nicole; Eilander, Ans]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017, Neufingerl - Plant-Based Nutrient Status 2021]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-17
+self_critiqued: 2026-09-17
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -19,6 +19,8 @@ relationships:
     - The U-Shaped Association Artifact
     - Surrogate Outcomes
     - Vitamin B12 Status in Vegetarian and Vegan Diets
+    - Excess Iodine Intake and Thyroid Disease
+    - Iodine Supplementation in Pregnancy
 ---
 
 ## The distinction
@@ -374,6 +376,8 @@ instantiate.
 Do not read the `[E-independent]` mark as evidence for either point estimate
 [inferred from @martineau2017; @falkingham2010].
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Third instance — iodine -> child mental development (Bougma 2013)
 
 The lower arm now has a **third, independent** worked instance, and it is the **largest-magnitude**
@@ -463,6 +467,22 @@ the gradient (axis 1) or the exposure misses its gating condition (axis 2), and 
 is **instance-specific, not transferable across nutrients**
 `[inferred from @bougma2013; @falkingham2010; @martineau2017].`
 
+### Synthesis check 3 — iodine is the nutrient with BOTH arms of its U held, on DIFFERENT outcomes
+
+Bougma cannot test *going past replete* (no replete arm), but a second gold SR+MA now holds iodine's
+**upper/excess arm**: chronic excess iodine raises **hypothyroidism** risk (adults SCH OR 2.03, OH OR
+2.78) in iodine-replete free-living populations, corroborated interventionally by an RCT and
+mechanistically by Wolff-Chaikoff escape failure
+[@katagiri2017iodine]. So iodine is the cleanest
+whole-U case the wiki holds — a **genuine dose-response U** (not a [[The U-Shaped Association Artifact]])
+whose two arms sit on **different outcomes**: deficiency -> child neurodevelopment (Bougma, this page)
+and excess -> thyroid disease (Katagiri). The excess arm is a *different decision* (a different
+outcome, stratum, and exposure source — water/salt) and is characterised separately
+-> [[Excess Iodine Intake and Thyroid Disease]]. What it confirms for THIS page's principle: the
+replete-null leg is not merely "no further benefit" — past sufficiency the curve **turns harmful** on a
+second outcome, so *more is not better* has teeth for iodine, not just a plateau.
+[inferred from @katagiri2017iodine]
+
 ### Caveats (symmetric standards) — hold iodine below the vitamin-D certainty
 
 Bougma's design bar is the weakest of the trio: only **2 RCTs** (one, Pretell, with unclear
@@ -478,6 +498,45 @@ mother's provision of positive stimulation rather than the child's iodine suffic
 large and design-robust (consistent across four designs); the *precise* size and the pure-iodine
 attribution carry real uncertainty. The direction and the deficient-benefit leg are secure; hold the
 point estimate loosely.
+
+### Synthesis check 4 — the RCT-restricted refinement (Harding 2017): type F, NOT a fourth independent instance
+
+A Cochrane SR restricted to **RCTs/quasi-RCTs** now partly answers the "big signal on a shaky
+evidence base" caveat — but it is a **type-F refinement of the SAME evidence lineage, not a new
+independent instance**, and must not inflate the E-count. Kimberly B Harding is a **co-author of
+Bougma 2013**, and the two syntheses **share their severe-deficiency child-IQ trials** (Kevany 1969,
+Thilly 1978, Pharoah 1971); a shared author and shared trials defeat independence outright
+[inferred from @harding2017iodine; @bougma2013].
+What Harding *does* add, refining Bougma:
+
+- **RCT-grade confirmation of the deficient-benefit leg.** Pooling the two severe-deficiency injected-
+  iodine trials, «the MD was 11.21 points (95% CI 7.96 to 14.46)» on child IQ, I2=0
+  [@harding2017iodine] — so at RCT grade, in severe
+  deficiency, the signal holds at \~+11 IQ, tightening (not merely re-asserting) Bougma's RCT-only
+  d=0.68 (\~+10.2). The caveat's *direction secure, size loose* is upgraded: the severe-deficiency size
+  is now RCT-anchored.
+- **A mild-moderate-deficiency null, sharpening the gradient.** The one oral RCT in a mild-deficiency
+  setting (Zhou 2015, Bayley-III) was null [@harding2017iodine]
+  — direct RCT evidence that the benefit concentrates where deficiency is *severe*, which Bougma's
+  deficient-only design could only imply.
+- **The RCT-vs-observational divergence is a design artifact, not a tension.** Harding's own gloss:
+  «Findings showed a positive impact of iodine, regardless as to the study design, ranging from 6.9 to
+  10.2 IQ points, whereas our findings on child development were mixed»
+  [@harding2017iodine]. The two verdicts sit on
+  **different evidence bases** (RCT-restricted vs observational-inclusive) and reconcile once matched
+  — where designs overlap (severe-deficiency RCTs) both give \~+10-11 IQ; Bougma's broader 6.9-10.2
+  rides partly on observational designs an RCT-only synthesis discards. A scope-mismatch distinction,
+  not a `[[tension]]`
+  [inferred from @harding2017iodine; @bougma2013].
+
+The maternal-thyroid and adverse-effect arm Harding adds (a pregnancy-stratum decision Bougma does
+not touch) lives on its own page -> [[Iodine Supplementation in Pregnancy]]. Net: this **sharpens the
+deficient-benefit leg to RCT grade and adds a mild-deficiency null — it does not add an independent
+route**, so the trio's `[E-independent]` count stays at three.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-17">
 
 ## A DISTINCT flavor of repletion — periconceptional folic acid and NTDs (window-gated, stratum-DEFINED, not baseline-status-modification)
 
@@ -529,6 +588,13 @@ and in the one study that looked, two-thirds were biochemically deficient with *
 rate is a **surrogate** -> [[Surrogate Outcomes]]. It is repletion-territory (correcting a real dietary
 deficit is cheap insurance), not a quantified lower-arm effect like vit-D/iron/iodine
 [inferred from @pawlak2013].
+Refinement (2026-09-17): a later gold SR now supplies the omnivore comparator Pawlak lacked (B12
+deficiency meat 0-16% vs vegan 4-73%) and generalizes the plant-diet repletion territory from B12 alone
+to a whole animal-sourced panel — iron, zinc, iodine, vitamin D, EPA/DHA, calcium — each a
+repletion-territory shortfall in the vegan stratum whose hard-endpoint transmission stays a gap
+[@neufingerl2021plant]
+-> [[Nutrient Adequacy of Plant-Based Diets]]. The added comparator sharpens the deficit-provenance
+case; the missing outcome effect is unchanged.
 
 **Kept OUT of the `[E-independent]` count, deliberately.** Folate/NTD is **not** a fourth
 baseline-status-modification instance — it does not demonstrate a *measured*-deficient-vs-*measured*-replete
@@ -544,6 +610,8 @@ bottom-of-hierarchy (where the general-population disease-prevention null puts i
 counter-example to *supplements are a distraction*: for **this** stratum, on **this** outcome, a supplement
 clearly works. The population-scale analogue is **folic-acid fortification** of staple foods (delivery vehicle,
 not a different exposure) [@deregil2015].
+
+</div>
 
 ## Guard — this is the REAL dose-response U, not the artifact
 

@@ -3,11 +3,11 @@ type: framework
 question: For someone on a vegetarian or vegan diet, is vitamin B12 supplementation warranted, and how is B12 status actually assessed?
 aliases: [B12 in Vegetarians, Vitamin B12 Deficiency Vegetarians, Cobalamin Vegetarian Diet, B12 Supplementation Vegans, Vegan B12]
 authors: [Pawlak, Roman; Parrott, Scott James; Raj, Sudha; Cullum-Dugan, Diana; Lucus, Debbie]
-sources: [Pawlak - Vitamin B12 Deficiency Vegetarians 2013]
+sources: [Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Neufingerl - Plant-Based Nutrient Status 2021]
 confidence: medium
 created: 2026-09-02
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-17
+self_critiqued: 2026-09-17
 relationships:
   related_to:
     - Deficiency Repletion vs Enhancement
@@ -15,6 +15,7 @@ relationships:
     - Vegetarian Dietary Patterns and Mortality
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
+    - Nutrient Adequacy of Plant-Based Diets
 ---
 
 **The decision.** For someone eating a vegetarian or vegan diet, should they supplement vitamin B12,
@@ -111,6 +112,42 @@ anomalously, vegan supplement users were *more* often deficient (88%) than non-u
 reads as too-infrequent or too-low dosing rather than supplements failing
 [@pawlak2013].
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
+## Neufingerl (2021) adds the omnivore comparator Pawlak lacked — a type-F broadening
+
+A later gold-tier SR of nutrient status across dietary patterns [@neufingerl2021plant] supplies the **meat-eater arm** this review's one-arm prevalences could
+not: it reports B12 deficiency (serum/plasma B12 `<150 pmol/L`, 13 studies) as «In meat-eaters, reported
+prevalence of vitamin B12 deﬁciency ranged between 0–16%, while in vegetarians, prevalence ranged from 0%
+in a national survey of the USA up to 75% in a sample of Chinese older women, and in vegans from 4% in a
+local sample of Spanish adults to 73% in a UK multi-center study» [@neufingerl2021plant], with discussion-level **mean** prevalences of «44%» (vegans) and «32%»
+(vegetarians) [@neufingerl2021plant]. This is **type-F
+broadening / blind-spot coverage, not type-E independent corroboration** — Neufingerl is not a second
+independent witness to Pawlak's one-armed prevalences; it *adds an arm and a panel*, and the composite
+beats either source alone. The broader multi-nutrient panel it opens lives on
+[[Nutrient Adequacy of Plant-Based Diets]].
+
+Parameter table (the cross-source claim is gated on it):
+
+| Parameter | Pawlak 2013 | Neufingerl 2021 | Same quantity? |
+|---|---|---|---|
+| Arms | vegetarians / vegans only (one-arm) | meat / vegetarian / vegan (three-arm) | NO — Neufingerl adds the omnivore comparator |
+| Deficiency biomarker | MMA + holo-TCII (serum B12 rejected as inaccurate) | serum/plasma B12 `<150 pmol/L` | NO — different marker; Neufingerl uses the one Pawlak argues UNDERSTATES deficiency |
+| Vegetarian prevalence | 11-90% (adults, biomarker-restricted) | 0-75% (mean 32%) | overlapping, but marker differs -> not directly poolable |
+| Vegan prevalence | subset of that band (e.g. 43%) | 4-73% (mean 44%) | same caveat |
+| Omnivore prevalence | not reported | 0-16% | Pawlak has no cell here |
+
+**What the composite establishes that neither alone does.** Pawlak quantified the vegetarian/vegan rates
+but could not say how much the *diet* drives them (no comparator). Neufingerl supplies meat-eaters at
+0-16% against vegans at 4-73%, so the diet contrast is now anchored on both ends — and it does so on
+**serum B12**, the very marker Pawlak argues *«likely underestimated the rate of deﬁciency»*
+[@pawlak2013], so the true diet-attributable gap
+is if anything **larger** than the serum-based contrast shows.
+No `[E-independent]` mark: the marker and the arm differ, and the convergence is not two separate routes to
+one number.
+
+</div>
+
 ## CRITICAL — biochemical deficiency is a SURROGATE, not a patient-important outcome
 
 The prevalence numbers measure a **biomarker**, not harm, and the source itself supplies the
@@ -134,6 +171,8 @@ and the one within-study clinical read found zero symptoms. The honest state is 
 evidence** on marker-to-outcome transmission in this stratum, held apart from the well-supported
 prevalence and measurement facts.
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Confidence — graded per claim, not as a blob
 
 - **Prevalence + measurement facts:** well-supported by an appropriately-designed (biomarker-restricted)
@@ -145,7 +184,10 @@ prevalence and measurement facts.
 - **Clinical-harm transmission:** **insufficient evidence** — do not upgrade the prevalence numbers into
   a harm claim.
 
-No `[E-independent]` is claimed: a single descriptive review is one route, not independent convergence.
+No `[E-independent]` is claimed: Pawlak and Neufingerl are in an F relationship (broadening + added
+comparator arm on a different biomarker), not two independent routes converging on one number.
+
+</div>
 
 ## Gaps (G)
 

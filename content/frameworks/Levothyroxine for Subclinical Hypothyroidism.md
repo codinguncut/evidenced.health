@@ -12,6 +12,7 @@ relationships:
     - Rating Outcome Importance
     - Certainty of Evidence vs Strength of Recommendation
     - Antidepressants for Depression
+    - Excess Iodine Intake and Thyroid Disease
 confidence: high
 created: 2026-08-30
 updated: 2026-08-30

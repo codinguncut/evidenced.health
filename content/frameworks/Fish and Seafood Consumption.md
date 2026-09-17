@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -45,6 +45,8 @@ the separate CONTAM 2012 opinion, cited here for the tolerable intake).
   [@efsaseafood2014]
 
 [inferred from @efsaseafood2014]
+
+<div class="recent-update" data-last-updated="2026-09-17">
 
 ## The benefit side — three outcomes, all observational
 
@@ -94,7 +96,10 @@ points»*. [@efsaseafood2014]
   [@efsaseafood2014]
 
 So the neurodevelopment lever is a **deficiency-repletion** lever (DHA and iodine), and it does
-nothing once maternal status is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational
+nothing once maternal status is adequate -> [[Deficiency Repletion vs Enhancement]]. The iodine half of
+that lever is the same decision the supplementation trials answer for a deficient mother
+-> [[Iodine Supplementation in Pregnancy]] (fish supplies iodine that a fish-free diet must replace).
+The observational
 food signal survives while the isolate RCT is null — a design story, not proof the food beats the
 nutrient.
 
@@ -155,6 +160,8 @@ null.
 sentence reports the total-omega-3 dose-response was *«not signiﬁcantly linear»*, and the number sits
 at the upper edge of the observed dietary range. Per the dose-response discipline, treat it as the
 edge of the evidence, not a curve feature -> [[The Underivable Optimum]]; do not state it bare.
+
+</div>
 
 ## The key structural move — the benefit is measured NET of the mercury
 

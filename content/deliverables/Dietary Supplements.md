@@ -4,12 +4,12 @@ title: Dietary Supplements
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer]
+updated: 2026-09-17
+self_critiqued: 2026-09-17
+concrete_subject_audited: 2026-09-17
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika]
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017]
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -210,6 +210,8 @@ colorectal cancer, some trials for other cancer sites have shown potential for u
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Correcting a documented deficiency is a different, real lever
 
 Where a person is genuinely short, repletion moves patient-important outcomes — and the benefit scales
@@ -221,7 +223,7 @@ now demonstrate it, sharing no trials, no group, and no lineage `[E-independent]
 |---|---|---|---|
 | Vitamin D -> acute respiratory infection | OR 0.30 (0.17-0.53), NNT 4 (<25 nmol/L, daily/weekly) | OR 0.75, NNT 15 | GRADE high (25 RCTs) |
 | Iron -> IQ (children) | +2.5 IQ points (1.24-3.76) if anaemic | null, well-powered | moderate (small RCTs) |
-| Iodine -> child IQ | +7.4 IQ points (supplementation trials) | no supplement-the-replete arm | low (2 RCTs) |
+| Iodine -> child IQ | +11.21 IQ (7.96-14.46) in *severe* deficiency, RCT-grade; mild-deficiency oral RCT null | no benefit, and supplementation RAISES excess-intake risk (RR 4.33) — active harm | low / insufficient (Cochrane RCT-only) |
 
 Provenance: vitamin D ARI overall OR 0.88 (0.81-0.96), NNT 33, deficient/replete split (P for
 interaction 0.006) and the null of *bolus* dosing (OR 0.82, 0.51-1.33)
@@ -256,6 +258,25 @@ iodine only inside the fetal-brain window (early pregnancy d 0.51 vs late 0.17)
 [@bougma2013]. Second, **establishing
 the deficiency is a prescriber act** needing this person's labs — out of scope here. The move is *test,
 then replete the confirmed shortfall*, not *supplement broadly and hope*.
+
+Iodine in pregnancy sharpens this discipline to a point: among the repletion-arm nutrients above, it is
+the one where over-supplying the replete does positive harm, not merely nothing (vitamin D and iron fade
+to a smaller benefit or a null there; iodine turns harmful). The RCT-restricted Cochrane synthesis replaces Bougma's
+coarse all-designs figure with a severity-resolved one and adds a harm arm the observational estimate
+never saw. On the benefit side, pooling the severe-deficiency injected-iodine trials, child IQ rose by
+MD +11.21 (95% CI 7.96 to 14.46, I2=0)
+[@harding2017iodine]; the one mild-moderate-deficiency
+oral RCT was null, so a routine neurodevelopment benefit in mild deficiency is insufficient evidence.
+
+On the harm side, supplementing an already-replete pregnancy raised excessive iodine intake (average RR
+4.33, 95% CI 1.24 to 15.07) and digestive intolerance (RR 15.33, 95% CI 2.07 to 113.70, 1 trial)
+[@harding2017iodine], though postpartum hyperthyroidism
+fell (RR 0.32, 95% CI 0.11 to 0.91, I2=0)
+[@harding2017iodine]. Correcting a real deficiency
+helps; over-supplying a replete mother harms — the genuine two-armed U
+-> [[Iodine Supplementation in Pregnancy]].
+
+</div>
 
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 

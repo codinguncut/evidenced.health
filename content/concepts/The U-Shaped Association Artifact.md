@@ -2,18 +2,19 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi]
 sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024,
   Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025,
   Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
   Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
   Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017,
-  Villoz - Dairy Cognitive Decline Dementia 2024, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020]
+  Villoz - Dairy Cognitive Decline Dementia 2024, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020,
+  Katagiri - Excess Iodine Thyroid Diseases 2017]
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-08
-self_critiqued: 2026-09-08
+updated: 2026-09-17
+self_critiqued: 2026-09-17
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -35,6 +36,7 @@ relationships:
     - Heme Iron and Cardiometabolic Risk
     - Dairy and Cognitive Decline
     - Central Adiposity and All-Cause Mortality
+    - Excess Iodine Intake and Thyroid Disease
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -93,6 +95,8 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
+
+<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Where it applies in the wiki
 
@@ -243,6 +247,23 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   no upturn; the outcomes whose upturn lacks a mechanism show one** — plus very-low GRADE, self-reported
   exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
   unbelieved; the lower arm (a small effective dose) is kept.
+- **Iodine excess -> thyroid — an UPPER arm of HARM whose direction the interventional check CONFIRMS
+  `[2026-09-17, Katagiri]` `type-F`.** The mirror flavour of the protective-lower-arm cases: the
+  fragile part here is the *excess* arm of iodine's dose-response U (the deficiency arm ->
+  neurodevelopment is real -> [[Deficiency Repletion vs Enhancement]]). Katagiri's SR+MA finds excess
+  vs adequate iodine raises hypothyroidism — adults OH OR 2.78 (1.47-5.27), SCH OR 2.03 (1.58-2.62)
+  [@katagiri2017iodine] — off **cross-sectional, crude,
+  unadjusted, area-level (ecological)** exposure contrasts, the artifact recipe's confounding leg. But
+  unlike the protective arms above, this harm arm gets the **strong interventional check the decision
+  rule asks for**: a double-blind RCT (Sang) *«proposed that a total intake of 800 μg/ day confers a
+  risk of SCH»* in the already-replete [@katagiri2017iodine], plus a human-corroborated mechanism (Wolff-Chaikoff escape failure via NIS) and a
+  UIC-SCH gradient. So the RCT + mechanism **clear the DIRECTION** (excess harms) while the
+  observational design **caps the MAGNITUDE** — *adjudicate the arm* with the sign believed and the OR
+  discounted. The 300 μg/L cutoff is a WHO definitional cutpoint, not a located knee: the studied
+  excess areas ran 338-1241 μg/L, so *«we were unable to clarify the situation in borderline excess
+  areas.»* [@katagiri2017iodine] Not independent-E (a
+  different exposure sharing the one diagnostic) -> type-F worked-case extension
+  -> [[Excess Iodine Intake and Thyroid Disease]].
 - **Physical activity -> dementia — a protective signal that SURVIVES the reverse-causation check, but only
   the WEAK one `[2026-09-04, Iso-Markku]` `type-F`.** Not a U-curve: PA -> dementia is a *monotone*
   protective association (RR 0.80, 0.77-0.84), but it carries the concept's signature threat — reverse
@@ -869,6 +890,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
+
+</div>
 
 ## Corrections and revision history (dated strata)
 

@@ -291,8 +291,6 @@ programme across all three. The value here is A/F (magnitude × metric assembled
 Marston refines what CTT's LDL-C scaling *is*; Richardson adds the genetic-MR leg), **not** independent
 triangulation — so none of the three is tagged `[E-independent]`.
 
-<div class="recent-update" data-last-updated="2026-09-14">
-
 ## Decision relevance
 
 
@@ -331,8 +329,6 @@ triangulation — so none of the three is tagged `[E-independent]`.
   entry above -> agreement across the three is NOT independent type-E backing.)
 - **Drug route only.** CTT is statin-lowering; the magnitude does **not** transfer to a *dietary* LDL-C
   change (the MCE/Sydney disconnects -> [[Surrogate Outcomes]], [[Linoleic Acid and Cardiovascular Disease]]).
-
-</div>
 
 ## A dietary LDL lever, and why its magnitude does not inherit CTT `[2026-08-29, Landry]`
 

@@ -170,8 +170,6 @@ longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic 
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 
 Aggressive restriction has real costs, and they scale with how deep and how fast it goes. Three sit on
@@ -217,7 +215,6 @@ inconsistent effects on integrated energy balance as operationalized by weight c
 compensates; a timing change's naive prediction routinely fails to survive it
 -> [[Sleep and Metabolic Health]].
 
-</div>
 
 ## A drug now dwarfs the biggest effect fasting can offer
 
@@ -247,8 +244,6 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 [inferred from @semnaniazad2025]
 
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The bottom line
 
@@ -292,7 +287,5 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak); Montani (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
-
-</div>
 
 ## References

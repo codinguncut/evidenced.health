@@ -21,7 +21,6 @@ created: 2026-07-29
 updated: 2026-09-16
 self_critiqued: 2026-09-16
 ---
-<div class="recent-update" data-last-updated="2026-09-16">
 
 **The fabric's microbiome nucleus.** The anchors are **not** the same tier — read each accordingly:
 **WGO 2023, a Global Guideline (gold),** carries the probiotics/prebiotics evidence *by indication*;
@@ -37,7 +36,7 @@ through-line: **the microbiome is
 genuinely modifiable and matters in specific places, but "it altered the microbiome" is a surrogate, and
 most popular interventions are either strain-and-indication-specific or not-yet-evidenced.**
 
-</div>
+
 
 ## The load-bearing epistemics: composition-shift is not an outcome, and causation is the central confound
 
@@ -127,8 +126,6 @@ dose* triples (WGO Tables 8-9). Where the evidence is real:
   a finding" mis-stated the evidence-state and cut in the deflationary direction — corrected 2026-08-08).
   And swallowed probiotics are typically transient colonisers.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## FMT: the field's strongest win, and only for one thing so far
 
 Faecal microbiota transplant is the clearest demonstration that the microbiome is causal in humans — and
@@ -179,10 +176,6 @@ is at once the anchor of *what real microbiome evidence looks like* and a warnin
 clean win as a general microbiome mandate.
 [inferred from @vannood2013; @valdes2018]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Decision relevance
 
 - **The big microbiome lever is diet — specifically fibre/plant diversity** — and it is already the fibre
@@ -198,9 +191,7 @@ clean win as a general microbiome mandate.
   ([[Layer 1 - Ranking Interventions for a Stratum]]). The real levers here are the ones already ranked
   elsewhere (fibre, diet quality).
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## Certainty and gaps
 
@@ -224,7 +215,7 @@ clean win as a general microbiome mandate.
   review that would let the fabric sort real permeability from the syndrome). `AWAITS` those.
   Direction-of-causation for dysbiosis-disease associations is the field's open confound.
 
-</div>
+
 
 ## Self-critique `[run 2026-07-29, before commit]`
 

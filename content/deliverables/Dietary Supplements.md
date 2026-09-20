@@ -436,8 +436,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The bottom line
 
 #### The general-population defaults
@@ -473,10 +471,6 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Caveats
 
 - **The loop is open.** Nothing here grades a supplement against a realized outcome in a real person; the
@@ -500,7 +494,5 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
-
-</div>
 
 ## References

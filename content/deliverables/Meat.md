@@ -166,8 +166,6 @@ it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
 Poultry is a genuinely different exposure, and the evidence keeps it separate from fish (fish is
@@ -235,8 +233,6 @@ substitution inside one FFQ-measured observational cohort: total-meat-constant m
 it does not randomize it, and residual confounding by the whole healthier-diet pattern that travels with
 white-meat preference is exactly the comparator problem. So it narrows the substitution gap — a first
 within-cohort direction and rough magnitude — without closing it. -> [[The Comparator Problem]]
-
-</div>
 
 ## What the meat is measured against decides the answer
 
@@ -329,8 +325,6 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## What the evidence still cannot say
 
 - **Cooking-method hard outcomes** — whether a low-temperature preparation changes any
@@ -368,7 +362,5 @@ cited here.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
-
-</div>
 
 ## References

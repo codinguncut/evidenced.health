@@ -158,8 +158,6 @@ low-carb-remission claim rests on the weakest cell in the table, sharpening the 
   diet comparisons are unlikely to add useful information», redirecting the field to pragmatic /
   practice-based / n-of-1 evidence. [@churuangsuk2022]
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The paired umbrella (Szczerba 2023) — surrogate refinement on shared evidence
 
 Szczerba 2023 (BMJ Medicine) is the **cardiometabolic-surrogate** counterpart to Churuangsuk's
@@ -230,10 +228,6 @@ resulting in underestimation of their actual effect»). [@szczerba2023] [@szczer
 outcomes — 98% sit at moderate-or-below; AMSTAR-2 «low to very low in 77%». Corroborates Churuangsuk's
 finding that the diet-comparison literature is large but mostly low-quality. [@szczerba2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The guidance benchmark on this question — and a cross-body emphasis type-D `[2026-09-16]`
 
 This page's two umbrellas now have a guidance-null test: the wiki holds both the US
@@ -291,8 +285,6 @@ same place**. `[E-independent]` does NOT apply (shared trial base). -> [[Carbohy
   Churuangsuk); agreement is F, the divergence is D. No [E].
 - **Over-read guard:** the standpoint (class-1) flavor is named, so the type-D is not laundered into *one
   body is wrong*. Coherence, not validity — the loop stays open on whether either default improves outcomes.
-
-</div>
 
 ## Limits
 

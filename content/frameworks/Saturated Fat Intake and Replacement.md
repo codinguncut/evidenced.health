@@ -29,8 +29,6 @@ nutrient, and the strength differs across the splits.**
 
 
 [@who2023saturated]
-<div class="recent-update" data-last-updated="2026-09-14">
-
 ## The recommendations, with their strength and certainty
 
 | # | Recommendation | Strength | Overall certainty |
@@ -69,8 +67,6 @@ nutrient, and the strength differs across the splits.**
 
 Trans-fatty acids follow the same shape at a different threshold: reduce to 1% of energy (strong),
 further reduce below 1% (conditional), replace with PUFA or MUFA "primarily from plant sources" (conditional).
-
-</div>
 
 ## What the evidence actually showed
 

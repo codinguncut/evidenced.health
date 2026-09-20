@@ -11,8 +11,6 @@ updated: 2026-09-15
 self_critiqued: 2026-09-15
 concrete_subject_audited: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-15"></div>
-
 
 Milk, cheese, butter and yoghurt carry similar saturated fat, yet the outcomes they touch — heart
 disease, early death, diabetes, bone fracture, cancer, dementia — point in different directions.

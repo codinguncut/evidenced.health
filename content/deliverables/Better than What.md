@@ -80,8 +80,6 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## What is "X", exactly? Specifying the exposure before its comparator
 
 You cannot say "instead of what" until you pin down "what". A food or nutrient label is only a usable
@@ -154,8 +152,6 @@ comparator that is not itself junk-heavy, or does only the exclusion?
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
 
-</div>
-
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
 A mechanism earns a *direction*, never a *magnitude*. The body is a closed loop, not an open one, so the
@@ -218,8 +214,6 @@ for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
 more than one outcome that matters.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## When outcomes compete: laying out the axes instead of summing them
 
 When a substitution moves more than one patient-important outcome, there is no unique optimum without
@@ -275,8 +269,6 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
-
-</div>
 
 ## From estimate to substitution: a region and a direction, not a point
 
@@ -364,8 +356,6 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Caveats and boundaries
 
 - **This is an open loop.** No operation grades a decision here against a realized outcome; the wiki
@@ -394,7 +384,5 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
-
-</div>
 
 ## References

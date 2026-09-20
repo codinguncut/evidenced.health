@@ -5,6 +5,7 @@ aliases: [B12 in Vegetarians, Vitamin B12 Deficiency Vegetarians, Cobalamin Vege
 authors: [Pawlak, Roman; Parrott, Scott James; Raj, Sudha; Cullum-Dugan, Diana; Lucus, Debbie]
 sources: [Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Neufingerl - Plant-Based Nutrient Status 2021]
 confidence: medium
+cluster: deficiency-enhancement
 created: 2026-09-02
 updated: 2026-09-17
 self_critiqued: 2026-09-17

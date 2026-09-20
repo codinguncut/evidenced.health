@@ -270,8 +270,6 @@ process to develop this clinical guideline did not use a risk assessment framewo
 to replace current DRI for vitamin D» [@demay2024vitamind] — a guideline answering the supplement-*decision* question, not the
 DRI-*setting* question EFSA/DRI bodies hold [inferred from @demay2024vitamind].
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## A body with NO EtD table that dissolves the recommendation instead — ADA 2019 `[2026-09-16]`
 
 Every case above either publishes an EtD table (WHO, Demay) or marks its remit boundary (EFSA). **ADA's
@@ -295,10 +293,6 @@ because it is hidden but because the recommendation was dissolved into individua
 weighting was needed. The one comparative claim ADA *does* make — «Reducing overall carbohydrate intake...
 has demonstrated the most evidence for improving glycemia» [@evert2019] — is argued from evidence alone, with no non-evidence domain visibly entering.
 [inferred from @evert2019]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## A third body that discloses environment without an EtD — and withholds a recommendation on graded evidence (EASD 2023) `[2026-09-16]`
 
@@ -329,8 +323,6 @@ is unrecoverable. It is the inverse of the usual worry (a recommendation exceedi
 recommendation is *absent* despite the evidence, and the objective that stayed the panel's hand is
 unprobed. -> [[Portfolio Dietary Pattern and LDL Cholesterol]]
 [inferred from @dnsg2023]
-
-</div>
 
 ## Tests / indicators
 

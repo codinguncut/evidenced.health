@@ -192,8 +192,6 @@ The added glycaemic contribution is therefore **null on a weak test, not cleanly
 excluded**. A person should optimize for the weight loss they can *sustain*, by whichever route they will
 adhere to -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The umbrella review sharpens the reading — no RCT tests low-carb FOR REMISSION at all `[2026-08-04]`
 
 Goldenberg pools low-carb weight and glycaemic outcomes in T2D, and reports remission under its four
@@ -231,10 +229,6 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
   («especially for low carbohydrate and ketogenic diets»). Shared MA base -> F/corroboration, not [E].
   [@szczerba2023] [@szczerba2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Limits
 
 - Small numbers behind the headline: the 6-month remission estimate is **8 trials, n=264**; by 12 months
@@ -247,10 +241,6 @@ LCDs/ketogenic diets for type 2 diabetes remission.»
 - ~~A guidance benchmark is needed to run the guidance-null on this question; the EASD side is staged.~~
   **Cashed 2026-09-16** — both guidance bodies now held (ADA 2019 below; EASD-DNSG 2023 below). The
   cross-body emphasis type-D on very-low-carb is filed on [[Diets for Weight Management in Type 2 Diabetes]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The US guidance benchmark — ADA 2019 `[2026-09-16]`
 
@@ -277,10 +267,6 @@ reading and adds nothing that shifts the effect estimates.**
   VLC interventions (where <26% of calories came from carbohydrate) at 3 and 6 months but not at 12
   and 24 months» [@evert2019] — the same
   attenuation-by-12-months the low-carb evidence shows elsewhere.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The EU guidance benchmark — EASD-DNSG 2023, and the emphasis type-D resolved `[2026-09-16]`
 
@@ -309,7 +295,5 @@ at all (Churuangsuk, above).
 from the same trials — so on the remission question the guidance null is **not defeated by divergence**; it
 would be defeated (if at all) by better-warranted agreement. `[E-independent]` does NOT apply between them
 (shared trial base — DiRECT, Look AHEAD, the same low-carb MAs).
-
-</div>
 
 ## References

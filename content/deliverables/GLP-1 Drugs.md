@@ -283,8 +283,6 @@ this as insufficient evidence on function, not as safe or harmful
   [inferred from @laverde2026]
   -> [[Big Rocks (Elderly)]], [[Protein and Resistance Training for Muscle and Strength]].
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The safety ledger: worry about the gut, not the cancers
 
 Read each entry on two axes at once, because the umbrella evidence grades them on two that routinely
@@ -383,8 +381,6 @@ to higher doses. And the umbrella could not stratify harms by dose or duration. 
 de-risk the *specific compound at the specific dose that accrued them*; the class label stays constant
 while the exposure under it drifts -> [[GLP-1 Non-Cardiometabolic Effects and Safety]].
 
-</div>
-
 ## Stopping the drug gives the weight back — and the benefit with it
 
 The effect lasts only while the drug does. When semaglutide and its lifestyle programme were both
@@ -422,8 +418,6 @@ most exposed — and to stop there, not to net it against the mortality and even
 lifelong cost outweighs a rented benefit is the person's judgment, not a number this evidence supplies
  -> [[Which Objective Moved This Recommendation]].
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## What the current evidence still cannot see
 
 These are gaps — *insufficient evidence*, not *no effect* -> [[The Insufficient-Evidence Statement]].
@@ -451,10 +445,6 @@ decades, and this horizon mismatch is structural — more searching now cannot c
   drifts under a constant label as prescribing moves to newer molecules and higher doses the
   mature record never tested. Accrued years de-risk the specific compound and dose, not the class
   label.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Where you net out
 
@@ -493,7 +483,5 @@ the fabric supplies only the directions and the certainties.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
-
-</div>
 
 ## References

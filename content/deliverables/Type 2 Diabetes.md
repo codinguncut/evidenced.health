@@ -124,8 +124,6 @@ baseline risk. So the honest statement to a low-risk prediabetic person is that 
 diagnosis; the hard-outcome payoff, if any, needs higher risk or a longer horizon than the evidence
 has yet followed -> [[Baseline Risk and the Relative-Absolute Split]].
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The GLP-1 drug class is the strong hard-outcome lever — for a different job than remission
 
 GLP-1 receptor agonists are now a standard drug for this population, and unlike metformin they carry
@@ -152,10 +150,6 @@ lever, which no glucose-lowering drug substitutes for. Which agent, and any dosi
 call outside this appraisal
 -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 [inferred from @badve2024glp1]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Beyond weight, two smaller levers move who develops diabetes
 
@@ -184,8 +178,6 @@ new cases were already in the top quarter of baseline glycaemia), advancing a di
 creating diabetes from nothing. The cardiovascular benefit already
 outweighs it, so this is not a reason to withhold or stop an indicated statin
 -> [[Statins and New-Onset Diabetes]].
-
-</div>
 
 ## For recently diagnosed diabetes, sustained weight loss can drive it into remission
 
@@ -320,8 +312,6 @@ over an existing risk score [@liu2022tyg].
 Use it to *place* someone in the insulin-resistant stratum, not as a target to steer down
 -> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## What the guidance bodies say, and the one place they split
 
 Two diabetes-diet guidelines now bracket this evidence — the American Diabetes Association (ADA 2019)
@@ -362,10 +352,6 @@ the person who will adhere with monitoring, the two agree. The full parameter ta
 [[Diets for Weight Management in Type 2 Diabetes]] -> [[The U-Shaped Association Artifact]].
 [inferred from @evert2019; @dnsg2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## What to do, by where you stand
 
 **If you have prediabetes.** An intensive lifestyle programme is first-line: a \~7% weight-loss goal
@@ -386,10 +372,6 @@ approach you will stick to is defensible, carbohydrate restriction included. Man
 withdrawal with a clinician — the endpoint is normal HbA1c *off* drugs — and expect that the loss must
 be maintained, because remission relapses if the weight returns. This lever also applies below BMI 27,
 where trials routinely exclude people but the mechanism does not.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## What the evidence still cannot see
 
@@ -420,7 +402,5 @@ what actually happened to people who followed them.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
-
-</div>
 
 ## References

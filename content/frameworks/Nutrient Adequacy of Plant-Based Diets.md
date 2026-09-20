@@ -5,6 +5,7 @@ aliases: [Plant-Based Diet Nutrient Adequacy, Vegan Nutrient Deficiency Risk, Ve
 authors: [Neufingerl, Nicole; Eilander, Ans]
 sources: [Neufingerl - Plant-Based Nutrient Status 2021]
 confidence: medium
+cluster: deficiency-enhancement
 created: 2026-09-17
 updated: 2026-09-17
 self_critiqued: 2026-09-17

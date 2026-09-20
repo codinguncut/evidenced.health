@@ -19,8 +19,6 @@ relationships:
 created: 2026-09-15
 updated: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-15"></div>
-
 
 **Nucleus of the `glp1-reward` cluster (three gold sources: substance craving, depression, suicidality).**
 GLP-1-receptor agonists (semaglutide, liraglutide, exenatide/exendin-4, dulaglutide) reduce food craving

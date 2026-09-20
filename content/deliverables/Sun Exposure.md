@@ -26,8 +26,6 @@ benefit in trials. Where the balance lands depends on your skin and your latitud
 fair skin under strong year-round sun, skin-cancer risk dominates; for darker skin at high
 latitude, the same relative risk is a far smaller absolute one.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## For melanoma, the pattern of exposure matters more than the total dose
 
 The single most useful fact about sun and skin cancer is that "sun exposure" is not one
@@ -103,8 +101,6 @@ from blocking UV, not from the sunscreen group avoiding the sun
 [@green2011]. The authors'
 own summary is deliberately hedged: «Melanoma may be preventable by regular sunscreen use in
 adults.»
-
-</div>
 
 ## The "sun-avoiders die sooner" signal is real but weakly grounded
 
@@ -208,8 +204,6 @@ but Lindqvist warns against reading sunblock as a licence to bake for longer. Co
 wrinkling and photo-ageing from cumulative UV — are real, but they sit off the health axis; note
 them, weigh them yourself, and do not let them stand in for a cancer or mortality argument.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## What to do
 
 - **Don't burn — this is the big lever, and it is nearly free.** Sunburn carries the largest
@@ -255,7 +249,5 @@ on it makes any individual better off.
 > | **Overall certainty** | **Low-moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sun%20Exposure.md) |
-
-</div>
 
 ## References

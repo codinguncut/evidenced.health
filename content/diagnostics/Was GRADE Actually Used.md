@@ -213,8 +213,6 @@ system and say so (audit against that system — USPSTF), or (c) use the token "
 entirely (a naming collision, not a method claim). Only (a) is this page's job.
 [inferred from @uspstfmanual2022]
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## A THIRD variant — a systematic evidence base, a CONSENSUS recommendation (ADA 2019) `[2026-09-16]`
 
 USPSTF is a body that grades with a different fully-specified system. **ADA's 2019 nutrition-therapy
@@ -248,10 +246,6 @@ is a different, weaker instrument, and the reader should treat its recommendatio
 resting on a systematic evidence base, not as graded conclusions.
 [inferred from @evert2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## A FIFTH branch — GRADE for CERTAINTY only, no formal strength grade (EASD-DNSG 2023) `[2026-09-16]`
 
 ADA (branch d) grades nothing. **EASD-DNSG 2023 is the positive contrast: a nutrition body that DOES use
@@ -273,8 +267,6 @@ branch (d) (ADA, grades nothing).
 the certainty->strength transmission implicit (folded into wording), so a reader auditing EASD should run
 criteria 1-4 and record 5-7 as *not applicable — no strength axis issued*, not as failures. -> [[Certainty of Evidence vs Strength of Recommendation]]
 [inferred from @dnsg2023]
-
-</div>
 
 ## This checks GRADE conformance; the SR PROCESS has its own standard now `[2026-07-31, IOM]`
 

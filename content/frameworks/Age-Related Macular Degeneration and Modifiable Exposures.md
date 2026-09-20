@@ -20,7 +20,6 @@ relationships:
     - Vitamin and Mineral Supplements for Disease Prevention
     - Deficiency Repletion vs Enhancement
 ---
-<div class="recent-update" data-last-updated="2026-09-15">
 
 AMD is the second age-related eye disease this domain opens on (paired with
 [[Cataract and Modifiable Exposures]]). Unlike cataract, late AMD is **not** routinely reversible —
@@ -40,8 +39,6 @@ carries a class-level harm the general-population supplement evidence has flagge
 This page is built with **per-exposure sections** so each exposure sits as a sibling arm; the
 supplement arm (Evans 2023, AREDS/AREDS2), the diet arm (Mediterranean diet -> AMD) and the
 vascular-risk-factor arm (Babaker 2025) have now landed beside the physical-activity arm.
-
-</div>
 
 ## Physical activity — *insufficient evidence*, not a demonstrated null
 
@@ -174,8 +171,6 @@ infarction and subclinical-CVD risk). AMD and CVD share a vascular/atherosclerot
 precedes which is unresolved — the safe reading is co-occurrence / shared risk substrate, not
 CVD-causes-AMD.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Antioxidant + zinc supplementation (AREDS formula) — RCT-backed *benefit* on progression, defined stratum
 
 Evans 2023 — a gold Cochrane SR+MA — is the first **intervention** arm on this page — RCTs in people who
@@ -224,10 +219,6 @@ well-nourished American population where supplementation is common – can be ex
 settings and populations is unclear.» [@evans2023amdsupp]. Whether the benefit is enhancement or correction of a marginal-intake state
 is untested — a well-nourished cohort cannot separate them.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Decision relevance (Layer 1)
 
 **The supplement arm is the page's one strong lever — and it is narrow.** For a person who **already
@@ -271,8 +262,6 @@ be stated** — a modest relative association on a low-to-moderate baseline AMD 
 absolute effect. And the four significant factors are *prognostic markers*, not proven causal levers
 (route (a), not (b)/(c)) — the honest holding is *these strata carry higher AMD risk*, not *removing
 the factor delivers the OR*.
-
-</div>
 
 ## Limits and misreadings — where this breaks
 

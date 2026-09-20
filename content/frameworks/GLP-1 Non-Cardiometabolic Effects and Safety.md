@@ -203,8 +203,6 @@ follows: the evidence base is «insufficient for definitive conclusions of high 
   right in spirit; Yang converts the gap into *sized, graded* signals rather than closing it.
 
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Gaps this leaves open
 
 - **No dose/duration stratification.** «Inconsistent reporting in primary trials precluded detailed
@@ -238,8 +236,6 @@ follows: the evidence base is «insufficient for definitive conclusions of high 
   reward node. G (narrowed further).
 
 [inferred from @yang2026]
-
-</div>
 
 ## The moving-target problem — why time does not de-risk a drifting exposure
 

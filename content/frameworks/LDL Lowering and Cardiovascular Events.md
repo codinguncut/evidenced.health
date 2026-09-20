@@ -65,8 +65,6 @@ direction, and a worked instance of [[Surrogate Outcomes]]'s counter-exemplar. A
 cancer or non-vascular mortality** even at low LDL, which retires the old low-cholesterol-harm hypothesis
 for the *drug-lowered* range.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The shape — monotone, no threshold, multiplicative
 
 - **No knee, no plateau in the studied range.** «There was no evidence of any threshold within the
@@ -86,10 +84,6 @@ for the *drug-lowered* range.
   vascular events, all-cause mortality and ischaemic/total stroke, but an observational inverse association
   runs the *other* way for the hemorrhagic (intracerebral) stroke subtype -> the counter-signal section
   below.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The hemorrhagic-stroke counter-signal — an observational low-LDL harm arm, subtype-specific and causally unsettled `[2026-09-15, Ma]`
 
@@ -205,8 +199,6 @@ the subtype-specific low-LDL hemorrhagic-stroke *association* (Ma) is **not repr
 RCTs** (Li), so it is most likely non-causal-via-lowering and certainly does not license withholding
 LDL-lowering from a person whose absolute ischaemic/vascular risk dominates. The one residual leg is the
 genetic (lifelong-exposure) check.
-
-</div>
 
 ## The metric — Marston: target apoB *particle number*, not cholesterol content or particle type
 

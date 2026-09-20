@@ -36,8 +36,6 @@ This is where a stratum baseline does the work. Rather than treating to a fixed 
 
 None of this refutes the ceiling on lifestyle levers — it refines it. Blood-pressure lowering's relative benefit is proven where lifestyle weight-loss and GLP-1 cardiovascular benefit are not, but its absolute benefit still scales with baseline risk, which is the ceiling's own mechanism. A constant \~10% per 5 mmHg is worth pulling hard for a hypertensive at high cardiovascular risk and barely worth measuring for a low-risk normotensive.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The lifestyle levers, and how much each moves the number
 
 With that decision rule in hand, here is how much each lifestyle lever actually moves the number. Two things govern how to read the list. First, a millimetre of mercury is not a millimetre of prevented disease: every figure below is a change in the *surrogate* (blood pressure), and whether that drop reaches heart attacks and strokes has been tested separately for each lever. Flag each one's status: **MEASURED** where a randomized trial watched the hard events fall (only the potassium salt substitute clears this bar), **MODELLED** where the events were projected through a risk model rather than counted (alcohol), and **ASSUMED** for every other route — the BP drop is real, its transmission to events borrowed from the drug evidence.
@@ -89,8 +87,6 @@ An 8-week mindfulness-based programme (MBSR) posts the biggest point estimate on
 ### Dietary magnesium — a marker, not a separate lever
 
 Higher dietary magnesium tracks lower stroke and type-2-diabetes risk in cohort studies, but as a blood-pressure lever it is weak and probably not independent. The magnesium-rich foods — wholegrains, leafy greens, nuts, beans — are the same whole-food, plant-rich pattern behind DASH and potassium, and the authors cannot rule out that magnesium is simply a **marker** of that diet rather than the active ingredient [@fang2016magnesium]. The base is observational, with no hard-outcome trial. **Transmission: ASSUMED**, and shakier than the rest. So *eat magnesium-rich whole foods* is fine advice, but it is already carried by the DASH recommendation above — magnesium adds no separate, separately-actionable BP lever. Detail on [[Dietary Magnesium and Cardiometabolic Outcomes]].
-
-</div>
 
 ## For a hypertensive, exercise matches a drug on the number -- but the drug's payoff is the proven one
 

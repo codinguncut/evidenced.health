@@ -78,8 +78,6 @@ divergence tracking industry structure instead. **The two hypotheses make differ
 can be told apart** — which makes this worth holding as a rival to challenge #3 rather than a
 complement to it.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Where it DOES dissolve: the individual standpoint
 
 **One person has their own weights.** Their problem is well-posed even though the population's is not
@@ -129,8 +127,6 @@ ADA is **convergent corroboration of the routing, not independent backing of the
 does not resolve the tangle: ADA still supplies only the health coordinate (glycemia, weight, lipids),
 exactly the one-axis limit this page describes.
 [inferred from @evert2019]
-
-</div>
 
 ## What this wiki can and cannot supply
 

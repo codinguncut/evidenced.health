@@ -10,8 +10,6 @@ created: 2026-08-17
 updated: 2026-09-15
 self_critiqued: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-15"></div>
-
 
 The particle that carries cholesterol into an artery wall, not the cholesterol itself, is what
 drives heart disease — and that this is true is about as settled as anything in nutrition and

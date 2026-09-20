@@ -16,7 +16,6 @@ relationships:
     - Ectopic Fat and Depot-Specific Risk
     - Body Fatness and Cancer Risk
 ---
-<div class="recent-update" data-last-updated="2026-09-15">
 
 A very common belief — *yo-yo dieting is worse than staying heavy, so don't bother trying to lose weight*.
 Three sources now anchor the answer, across two outcome families: a **narrative review** (Montani 2015,
@@ -36,8 +35,6 @@ The two Zou meta-analyses are from the **same Wuhan / Tongji-Huazhong research g
 Zou 2020 cites Zou 2019 as ref 46), so they are **complementary by outcome, never independent confirmation**
 — the agreement below is NOT a type-E robustness claim (see the same-group note in the T2D section and in
 Limits).
-
-</div>
 
 ## The evidence is contested, and the associations attenuate on adjustment
 
@@ -69,8 +66,6 @@ This population split matters because the driver differs: normal-weight cyclers 
 (media/social pressure, weight-sensitive sport), not for a metabolic indication — a confounding structure
 quite unlike an obese patient losing weight on medical advice. It also predicts future weight gain in the
 lean (dose-dependent with cycle count).
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The pooled magnitude — a gold SR/MA that confirms the SHAPE and cashes the confounding
 
@@ -121,10 +116,6 @@ metabolic-syndrome markers, Zou's is on cohort mortality — different outcomes 
 are not joined (they cannot be the same quantity). They do converge weakly in that neither places the
 strongest harm signal in the frankly obese, which is the population the decision is about.
 [inferred from @zou2019fluctuation; @montani2015cycling]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The T2D-incidence arm — a second gold SR/MA (same group, different outcome)
 
@@ -209,8 +200,6 @@ obese stratum where the effect is null. [inferred from @zou2020cycling] No dose-
 curve is estimable: weight cycling is categorical with «no single definition», and the one low-amplitude
 (>4%) cohort (Yokomichi) drove the null reports — a hint that amplitude matters, but not a locatable knee.
 
-</div>
-
 ## The proposed mechanism — *repeated overshoot* (a theory, not an outcome)
 
 Montani's mechanistic frame: weight cycling drives **fluctuations of BP, heart rate, sympathetic activity,
@@ -223,8 +212,6 @@ hypothesis with small human corroboration, not an outcome finding.
 A separate, firmer strand: older dieters regain fat but not fat-free mass, so repeated cycling risks
 **relative sarcopenic obesity** — a function/muscle concern that transports better than the CV one
 -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Decision relevance
 
@@ -246,10 +233,6 @@ A separate, firmer strand: older dieters regain fat but not fat-free mass, so re
 - **Prioritise maintenance design over loss magnitude.** Since the plausible harm is in the *cycling*, the
   lever that matters is a structured maintenance phase that prevents regain, not a bigger initial deficit
   -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Limits
 
@@ -279,7 +262,5 @@ A separate, firmer strand: older dieters regain fat but not fat-free mass, so re
   I2=88.8% and P=0.08 (omitting Yokomichi); this is *insufficient-evidence-of-harm in the obese stratum*, not
   established *no-effect*. It licenses *no measurable T2D deterrent for the obese decider*, not a claim that
   *cycling is proven safe*. [@zou2020cycling]
-
-</div>
 
 ## References

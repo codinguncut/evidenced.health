@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia; Pawlak, Roman]
-sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019, Pawlak - Vitamin B12 Deficiency Vegetarians 2013]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia; Pawlak, Roman; Mazzoli, Riccardo; Hoffmann, Isabelle]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Mazzoli - Fluoride Bone Fracture 2025, Hoffmann - Exercise Major Osteoporotic Fractures 2022]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -25,10 +25,12 @@ relationships:
     - Levothyroxine for Subclinical Hypothyroidism
     - Electronic Cigarettes and Cardiovascular Risk
     - Vitamin B12 Status in Vegetarian and Vegan Diets
+    - Fluoride and Bone Health
+    - Exercise and Bone Mineral Density
 created: 2026-07-25
-updated: 2026-09-02
+updated: 2026-09-19
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
-self_critiqued: 2026-09-02
+self_critiqued: 2026-09-19
 ---
 
 ## Why it matters
@@ -657,6 +659,47 @@ excludes 1 [1.04-1.97], mechanism unknown — a striking instance, not a settled
 
 [inferred from @grade; @snyder2024]
 
+<div class="recent-update" data-last-updated="2026-09-20">
+
+## The SAME surrogate, three exposures, three transmissions — the direction tracks the mechanism
+
+
+
+The TRAVERSE inversion above is not a one-off. The corpus now holds **three** modifiable exposures that
+all raise the *same* GRADE proximate surrogate — «bone mineral density for fractures» — and the
+patient-important outcome moves a **different direction in each**. The surrogate is identical; the
+transmission is not.
+
+| Parameter | Fluoride (Mazzoli 2025) | Testosterone (Snyder/TRAVERSE 2024) | Exercise (Mohebbi 2023 / Hoffmann 2022) | Same quantity? |
+|---|---|---|---|---|
+| The surrogate | areal BMD (hip, spine) | areal + volumetric BMD | areal BMD (LS/FN/TH) | **same GRADE example** (all rated proximate) — but different measured constructs (areal vs +volumetric; site/sex-divergent) |
+| BMD direction | **up** (hip, both sexes; site/sex-divergent) | **up** (prior trials) | **up** (small: SMD 0.27-0.41) | same direction (up) in all three |
+| Fracture outcome | **UP** above \~1.5 mg/L (females >50: RR 1.26 at 1.0 mg/L, CI excl. 1.0) | **UP** (HR 1.43) | **DOWN** (MOF RR 0.75, CI excl. 1.0) | **DIVERGENT** — this is the finding |
+| BMD + fracture on same exposure? | **YES** — both read off one water-fluoride gradient in a single review (Mazzoli); constituent cohorts not confirmed identical | **NO** — BMD transported from prior trials, not measured in TRAVERSE | **PARTLY** — same Erlangen group, overlapping data pool | the cleanest inversion is fluoride's |
+| Why BMD moved | density rises, **bone quality falls** | uncertain (unmeasured in-population) | mechanostat loading (structurally normal bone) | the discriminating variable |
+
+The mechanism column is the whole point. Fluoride states the dissociation in its own terms: «BMD only
+captures bone quantity (density), not bone quality (e.g., architecture, morphology, micro­damage,
+material properties)» «[@mazzoli2025fluoride]». Fluoride adds
+mineral while degrading architecture, so its density gain co-occurs with *more* fracture. Loading
+(exercise) builds structurally normal bone, so its smaller density gain transmits to *fewer* fractures
+(RR 0.75 [@hoffmann2022]). Testosterone's
+inversion is the least clean — its BMD leg was never measured in the population where fractures rose
+(the transport caveat above).
+
+**The emergent claim (type-A): «BMD rose» cannot be read as a fracture benefit without knowing the mechanism that raised it.**
+Two instances invert the surrogate and one honours it, and they sort not by proximity (GRADE rates all
+three the same — proximate, down one level) but by *how* the density was gained. This **refines GRADE's
+own rule rather than overturning it**: proximity is real, but transmission is exposure-conditional, and
+the conditioning variable is bone-quality, which BMD cannot see. Fluoride is the decisive case because
+it is a **within-exposure** inversion (density and fracture read off one water-fluoride gradient in a
+single review, not transported from a separate trial as TRAVERSE's BMD leg was) — so it carries the
+lesson TRAVERSE could only infer across studies. Decision consequence: do not accept a
+BMD gain from *any* new bone exposure as a fracture benefit until the mechanism that produced it is
+known to build quality, not just quantity. -> [[Fluoride and Bone Health]],
+[[Exercise and Bone Mineral Density]], [[Testosterone Adiposity and Muscle]]
+
+</div>
 
 ## A guideline body rewrites its CASE DEFINITION to demote a surrogate `[2026-08-04, EWGSOP2]`
 

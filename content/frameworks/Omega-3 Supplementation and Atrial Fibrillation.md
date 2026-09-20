@@ -2,12 +2,13 @@
 type: framework
 question: Does marine omega-3 supplementation change the risk of incident atrial fibrillation, for whom, and at what dose — and how does that harm weigh against the CV-event benefit?
 aliases: [Omega-3 and AF, Fish Oil and Atrial Fibrillation, Marine Omega-3 AFib Risk, EPA DHA Atrial Fibrillation, Icosapent Ethyl AF]
-authors: [Gencer, Baris; Djousse, Luc; Al-Ramady, Omar T; Cook, Nancy R; Manson, JoAnn E; Albert, Christine M]
-sources: [Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021]
+authors: [Gencer, Baris; Djousse, Luc; Al-Ramady, Omar T; Cook, Nancy R; Manson, JoAnn E; Albert, Christine M; Lombardi, Marco; Carbone, Salvatore]
+sources: [Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Lombardi - Omega-3 Atrial Fibrillation 2021]
 confidence: medium
+cluster: supplements
 created: 2026-09-02
-updated: 2026-09-15
-self_critiqued: 2026-09-02
+updated: 2026-09-17
+self_critiqued: 2026-09-17
 relationships:
   related_to:
     - Fish and Seafood Consumption
@@ -16,16 +17,17 @@ relationships:
     - The U-Shaped Association Artifact
     - Surrogate Outcomes
 ---
+<div class="recent-update" data-last-updated="2026-09-17">
 
 The **harm-channel** on the same exposure whose CV-event *benefit* is dose-dependent: marine omega-3
 *supplementation* raises the risk of **incident atrial fibrillation**, and the risk rises with dose.
 This is the off-target counterweight to the ischemic benefit held on
 [[Vitamin and Mineral Supplements for Disease Prevention]] (VITAL null at 1 g/d; REDUCE-IT positive at
-4 g/d) and [[Fish and Seafood Consumption]] (Lombardi dose-NMA). It does **not** touch the fish-as-food
+4 g/d) and [[Fish and Seafood Consumption]] (Lombardi 2020 CV-NMA). It does **not** touch the fish-as-food
 recommendation — this is an *isolate-supplement* finding.
 [inferred from @gencer2021]
 
-<div class="recent-update" data-last-updated="2026-09-15">
+</div>
 
 ## The effect — dose-dependent AF risk
 
@@ -80,8 +82,6 @@ The two statistically-significant single-trial signals (STRENGTH, REDUCE-IT) are
 every low-dose trial is individually non-significant, positive-leaning, and only the pool clears
 significance at 1.12.
 
-</div>
-
 ## The dose-vs-formulation confound — and why it is NOT purely a REDUCE-IT/mineral-oil artifact
 
 The high-dose arm is dominated by EPA-only **REDUCE-IT (4 g icosapent ethyl** vs a contested
@@ -102,13 +102,110 @@ and the EPA-only arm are the same trials). REDUCE-IT's own prior report was the 
 > those randomized to active treatment compared with placebo (3.1% versus 2.1%; P=0.004).»
 > [@gencer2021]
 
-<div class="recent-update" data-last-updated="2026-09-15">
+<div class="recent-update" data-last-updated="2026-09-17">
+
+## Lombardi 2021 — a second, time-adjusted MA corroborates the AF direction (type-F, 2026-09-17)
+
+Lombardi 2021 (an EHJ-CVP *correspondence*-format updated pairwise MA, systematic search to Nov 2020)
+pooled **5 marine-omega-3 CV-outcome RCTs** (REDUCE-IT, Alpha-Omega/Kromhout, Risk & Prevention,
+STRENGTH, OMEMI) for incident AF, in patients at high CV risk or with established CVD and elevated plasma
+triglycerides:
+
+> «In the random effect model, O3FA supple- mentation was associated with an increased risk of incident
+> AF as compared with placebo [IRR 1.37, 95% CI (1.22–1.54), P < 0.001] (Figure 1). There were no
+> significant statistical heterogeneity between studies and no publica- tion bias, even if the funnel
+> plot suggested some asymmetry.»
+> [@lombardi2021af]
+
+Adding VITAL-Rhythm (from the AHA-2020 abstract) as a sensitivity analysis held the signal at
+**IRR 1.29 (95% CI 1.13-1.48, P=0.0002)** — same direction, same population.
+[@lombardi2021af]
+
+**The metric choice is the type-F contribution.** Lombardi deliberately reports an incidence-rate ratio
+(Poisson person-time), not RR/HR:
+
+> «Incidence rate ratio (IRR) and 95% confidence interval (CI) were chosen over relative risk as outcome
+> measure because of the different follow-up of the selected studies.»
+> [@lombardi2021af]
+
+This lands exactly on the axis the page already flags as a Gencer limit — Gencer computes RRs from
+cumulative incidence and reports no annual event rate, so its pooled figure is not follow-up-adjusted.
+Lombardi's IRR accounts for person-time across trials of unequal duration, so the composite (a
+follow-up-adjusted IRR alongside Gencer's cumulative-incidence HR, both landing \~+25-37%) is a
+better-specified harm metric on the time axis than either alone.
+[inferred from @lombardi2021af]
+
+**Per-trial IRRs are figure-borne, not extractable.** The forest plot (Figure 1) carries the per-trial
+estimates; the readable text gives only the two pooled IRRs above. Do not read per-trial numbers off
+this source's text layer.
+[inferred from @lombardi2021af]
+
+### Parameter commensurability — Gencer HR vs Lombardi IRR are NOT the same quantity
+
+| Parameter | Gencer 2021 | Lombardi 2021 | Same quantity? |
+|---|---|---|---|
+| Effect metric | HR from cumulative incidence | IRR from Poisson person-time regression | **NO** — cumulative-risk ratio vs event-rate ratio; unadjusted vs follow-up-adjusted for exposure time |
+| Pooled point estimate | 1.25 (1.07-1.46) | 1.37 (1.22-1.54); 1.29 (1.13-1.48) +VITAL | same DIRECTION, not poolable |
+| Trial constituency | 7 RCTs (VITAL-Rhythm, ASCEND, GISSI-HF, RP, OMEMI, STRENGTH, REDUCE-IT) | 5 RCTs (REDUCE-IT, Alpha-Omega, RP, STRENGTH, OMEMI); +VITAL-Rhythm in sensitivity | overlapping (4/5 shared), not identical |
+| Population | high CV risk / established CVD | high CV risk or established CVD + elevated TG | \~same |
+| Outcome | incident/adverse-event AF | onset of AF | \~same |
+
+The effect-size row is **NO**: Lombardi corroborates the *direction* (\~+25-37% AF risk) with a
+time-adjusted metric; the magnitudes are **not** pooled or ranked as if identical.
+[inferred from @lombardi2021af; @gencer2021]
+
+### Dose nuance — a refinement of Gencer's formal dose-gradient, NOT a tension
+
+Lombardi remarks qualitatively that the AF signal appears at lower doses too:
+
+> «Even lower doses of O3FA supplementation has shown a potential signal for increased risk for AF,2,4,5
+> proposing that regardless of the dose of O3FA supplementation implemented in the trials and
+> potential-related benefits on CV outcomes, O3FA supplementation may in- crease the risk for AF.»
+> [@lombardi2021af]
+
+Read against Gencer's formal dose split (low-dose 1.12 vs high-dose 1.49, P-interaction <0.001) this
+looks like a softening — the harm is not confined to high dose. But the two are **not joined** and this
+is **not filed as a `[[tension]]`**: Lombardi ran no dose-stratification and no dose-interaction test in
+this 5-trial pairwise correspondence, so the remark is a *qualitative observation at a different
+analytic grain* (a narrative aside vs Gencer's formal meta-regression / interaction estimate) — not the
+same quantity, so it cannot contradict Gencer's interaction. The two are in fact consistent: Gencer's
+low-dose arm is itself positive (1.12, CI excludes 1), so *even low doses signal* and *the slope is
+steeper at high dose* are the same data read at two grains. Record it as an open **refinement** on the
+dose question — the harm may be present across the studied dose range even as it rises with dose —
+explicitly not a competing dose-interaction estimate.
+[inferred from @lombardi2021af]
+
+The AF mechanism is not settled either way: Lombardi notes «the mechanisms through which O3FA
+supplementation may increase the risk for AF remain largely unknown»
+[@lombardi2021af], observing that omega-3 has elsewhere
+been shown to protect against (ventricular) arrhythmias while some studies report higher post-operative
+AF with elevated omega-3 — so direction on AF specifically has no clean mechanistic warrant.
+
+### COI — clean, a relative strength
+
+Only one author discloses (unrelated) industry ties, and no omega-3 manufacturer funded the work:
+
+> «Conflict of interest: G.B.-Z. has consulted for Cardionovum, Innovheart, Meditrial, and Replycare.»
+> [@lombardi2021af]
+
+> «The remaining authors have nothing to disclose.»
+> [@lombardi2021af]
+
+Carbone's funding is an AHA Career Development Award + NIH/VCU (non-commercial); Biondi-Zoccai's
+consultancies are interventional-device / CRO firms unrelated to omega-3 products. Under symmetric
+standards this cuts both ways: a clean-COI MA on a *harm* finding removes one bias channel and is a
+relative strength versus any industry-funded omega-3 *benefit* MA.
+[inferred from @lombardi2021af]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Synthesis — a same-exposure benefit/harm split by dose (type-A/G)
 
 The decision-relevant move this opens (present in no single held page before it): omega-3
 *supplementation* carries a **dose-dependent AF harm that runs opposite its dose-dependent CV-event
-benefit**. The held benefit evidence (Lombardi dose-NMA on [[Fish and Seafood Consumption]];
+benefit**. The held benefit evidence (Lombardi 2020 CV-NMA on [[Fish and Seafood Consumption]];
 REDUCE-IT/VITAL on [[Vitamin and Mineral Supplements for Disease Prevention]]) puts the ischemic
 benefit **above 1 g/d, concentrated in high-risk statin-treated strata**; Gencer puts the AF harm on
 the **same rising dose arm**. So the two curves cross the same dose axis in opposite directions:
@@ -135,6 +232,8 @@ The clinical-implication the authors draw is a **disclosure**, dose-graded:
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## NOT independent of the held omega-3 evidence (shared trial base + authors)
 
 This MA is **not** an independent type-E corroboration of the held omega-3 CV evidence — it re-pools
@@ -153,6 +252,32 @@ not opposed claims (not a filed `[[tension]]`) and not independent backing — d
 one-line side-effect note (Lombardi's AF 1.35 side-effect line on the Fish page; REDUCE-IT's AF-hosp
 3.1% vs 2.1%).
 [inferred from @gencer2021]
+
+### Lombardi 2021 — also NOT clean type-E, on either axis
+
+Lombardi 2021 does not add independent confirmation either, for two distinct reasons:
+
+- **vs Gencer:** the author lists are **disjoint** (no shared author — Lombardi/Carbone/Del Buono/
+  Chiabrando/Vescovo/Camilli/Montone/Vergallo/Abbate/Biondi-Zoccai/Dixon/Crea vs Gencer/Djousse/
+  Al-Ramady/Cook/Manson/Albert), so Lombardi is *author*-independent of Gencer — but its trial base is
+  **heavily shared**: 4 of its 5 primaries (REDUCE-IT, RP, STRENGTH, OMEMI) are among Gencer's 7, and
+  VITAL-Rhythm (also in Gencer) re-enters in Lombardi's sensitivity arm; only Alpha-Omega/Kromhout is
+  not in Gencer. Re-pooling largely the same primaries is not *evidence*-independent, so it does not
+  raise confidence the way a genuinely separate dataset would.
+- **vs the held Lombardi 2020 CV-NMA:** this 2021 paper is the **same core group** (Lombardi,
+  Chiabrando, Vescovo, Del Buono, Carbone, Abbate, Biondi-Zoccai, Dixon are on both) and cites the 2020
+  paper as its ref 2. Across the wiki's omega-3 holdings it is therefore *not* independent of Lombardi
+  2020 either.
+
+So do NOT stamp `[E-independent]` and do NOT treat Lombardi 2021 as independent corroboration. It enters
+as a **type-F second MA**: author-independent-of-Gencer but trial-base-shared, and same-group-as-held-
+Lombardi-2020 — refining the harm metric on the time axis (the IRR above), not adding an independent
+confirmation.
+[inferred from @lombardi2021af]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Limits
 
@@ -175,9 +300,20 @@ one-line side-effect note (Lombardi's AF 1.35 side-effect line on the Fish page;
   (elderly, cardiac-morbid) is a hypothesis, not an estimated effect-modification.
 - **Dose vs formulation not separable** (above); the studied dose range is only 1-4 g/d, so the slope
   says nothing below 1 g/d or above 4.
+- **Lombardi 2021's own stated limits** (which apply to its IRR): no systematic haemorrhagic-risk
+  assessment; «the lack of a systematic search for AF events in the individual studies»; some trials did
+  not prespecify AF, «potentially resulting in under-reporting of AF-related events»; a study-level
+  (not IPD) MA; placebo arms differed across trials (though no heterogeneity was found); and VITAL-Rhythm
+  entered only via the AHA-2020 abstract, «as the fully data have not been disclosed yet».
+  [@lombardi2021af] It is a brief *correspondence*
+  (tier high, not gold) — a 2-page updated MA, not a full PRISMA systematic review.
 - **Coherence, not validity** (R1): the loop is open — no operation here grades the omega-3-dose -> AF
   association against a realized patient outcome, and AF is a mixed endpoint (hard arrhythmia burden
   vs subclinical/monitoring-detected).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Self-critique `[run 2026-09-02, before commit — page minted]`
 
@@ -194,5 +330,37 @@ one-line side-effect note (Lombardi's AF 1.35 side-effect line on the Fish page;
   includes held VITAL/REDUCE-IT) and shared-authorship (Cook/Manson/Albert) tests; no `[E-independent]`
   token; confidence held at `medium` (single gold MA, consistent dose-gradient and surviving-REDUCE-IT
   sensitivity, but heterogeneous unadjudicated AF ascertainment and the dose/form confound).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-17">
+
+## Self-critique `[run 2026-09-17, before commit — Lombardi 2021 IRR MA folded (2nd source)]`
+
+- **Not overclaimed on the corroboration.** Lombardi's IRR 1.37 / 1.29 is stated as *direction*
+  corroboration of Gencer, not as an independent confirmation and not pooled with Gencer's HR. The
+  parameter table marks the effect-size row NO (cumulative-incidence HR vs person-time IRR), so the two
+  magnitudes are never summed or ranked as the same quantity. Confidence deliberately held at `medium`,
+  not bumped: the second MA re-pools a largely-shared trial base (4/5 primaries overlap Gencer) and is
+  same-group as the held Lombardi 2020, so it corroborates without independently confirming — a bump
+  would be exactly the laundered-independence error.
+- **Independence denied on both axes, accurately.** Author-independent-of-Gencer (disjoint lists) but
+  trial-base-shared; and same-core-group as the held Lombardi 2020 CV-NMA (cites it as ref 2). The
+  earlier draft claim that *all 5 Lombardi trials are a subset of Gencer's 7* was corrected against the
+  source: Alpha-Omega/Kromhout (ref 4) is in Lombardi but not Gencer's forest, so it is 4/5 overlap, not
+  a strict subset — stated as 4/5 throughout. No `[E-independent]` token; `sources:` gains Lombardi only
+  because a distinct refining claim (the time-adjusted IRR + its limits) lives in the body (dual test).
+- **Dose nuance is NOT a fake tension.** Lombardi's *regardless of the dose* is a qualitative aside with
+  no dose-stratification or interaction test, at a different analytic grain from Gencer's formal
+  P-interaction<0.001 split — not joined (not the same quantity), and consistent with Gencer once read
+  at two grains (Gencer's low-dose arm is itself positive). Filed as an open refinement, not a
+  `[[tension]]`, no `contradicts:` edge. The mechanism-unknown caveat is carried so the harm direction
+  is not dressed with unwarranted mechanistic support.
+- **COI note is symmetric, not a halo.** The clean-COI point is stated as removing one bias channel on
+  the harm direction, not as raising the finding's grade; it is applied under symmetric standards (a
+  strength here would be a weakness in an industry-funded benefit MA), not as special pleading for a
+  result the page favours.
+
+</div>
 
 ## References

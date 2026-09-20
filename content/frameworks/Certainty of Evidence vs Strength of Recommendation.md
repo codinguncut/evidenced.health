@@ -277,8 +277,6 @@ norms, not a converging judgment about grading's value, and no `[E-independent]`
   is warranted by *«As with DRVs»* and by NNR issuing no grades, but NNR never says "our numbers are
   consensus" in the first person.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Does the separation actually DO anything? The corpus's own pairings `[2026-07-28]`
 
 This page holds GRADE's claim that certainty is **one of four** determinants of strength and not a
@@ -437,8 +435,6 @@ generalise it.
 - **Residual:** the strongest unverified step is that WHO's five SFA strength ratings and two sugars
   ratings were each set independently. If a single committee applied one implicit rule across both,
   the seven cells are closer to one observation than to seven.
-
-</div>
 
 ## A body that has NO strength axis at all — USPSTF replaces it with certainty x magnitude `[2026-07-31]`
 

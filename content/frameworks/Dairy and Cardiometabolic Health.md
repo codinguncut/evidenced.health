@@ -196,8 +196,6 @@ instrument in-source). Note Guo does not invoke Michaelsson's own D-galactose hy
 
 
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Mechanism (candidate, not demonstrated) and the matrix hinge
 
 Both MAs propose the same channels without RCT confirmation: dairy minerals (Ca, K, Mg) lower total/LDL-C
@@ -237,7 +235,7 @@ dairy-fat defender, which is exactly the direction such a sponsor would push. A 
 narrative review is **not** independent robustness backing (NOT-E — no `[E-independent]` with any gold
 source here); it is a mechanistic framing, credited and labelled at point of use.
 
-</div>
+
 
 ## Off-axis endpoint: a minor protective dental-erosion association (cashes HELD-DAIRY-1)
 
@@ -367,8 +365,6 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 
 
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 
 Gijsbers is the dedicated dairy -> T2D **dose-response** MA (22 prospective cohorts, 579,832 individuals,
@@ -470,9 +466,6 @@ the yogurt/low-fat arm; still no hard-outcome RCT.
 - **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
   live-culture and measurement-error gaps are named, not closed.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Vissers 2019 — the genetic-instrument (MR) leg: milk -> T2D is causally null, but only for MILK `[2026-09-15]`
 
@@ -566,7 +559,5 @@ wiki's own strict-E test on the two held sources, not a claim either source make
   witness — so no phantom second source is counted.
 - **Open loop.** MR identifies a causal null for milk; it grades nothing against a realized outcome for
   the yogurt/low-fat arm, which stays observational. The gap is named, not closed.
-
-</div>
 
 ## References

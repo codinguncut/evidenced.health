@@ -177,8 +177,6 @@ rate: at typical European species/intakes, the whole-food net is already positiv
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The risk side — methylmercury, and why species is the decision variable
 
 - **Tolerable Weekly Intake = 1.3 µg/kg body weight/week, expressed as mercury** — the methylmercury
@@ -205,10 +203,6 @@ which is exactly the species the guidance singles out to limit.
 [@efsaseafood2014]
 
 [inferred from @efsaseafood2014]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The methylmercury hazard arm — the TWI, its derivation, and who exceeds it (CONTAM 2012)
 
@@ -273,8 +267,6 @@ consumers of fish meat … was for other children at 7.48 μg Hg/kg b.w. per wee
 six-fold the TWI»*, and adult high-consumers reach \~4.7x. Women 18-45 track the general-adult figures,
 but the **unborn child is the most vulnerable** — the reason the species constraint binds in pregnancy.
 [@efsacontam2012]
-
-</div>
 
 ## The stratum flip — the crown-jewel finding
 
@@ -495,8 +487,6 @@ fragile to single-baseline measurement. It is type-F (a divergent refinement bou
 robustness), not type-E corroboration and not a joined tension; confidence stays **medium**.
 [inferred from @zhong2020meat]
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Limits
 
 - **EFSA could not quantify the benefit with certainty; Jayedi 2020 now can — but only to moderate.**
@@ -532,8 +522,6 @@ robustness), not type-E corroboration and not a joined tension; confidence stays
 
 [inferred from @efsaseafood2014]
 
-</div>
-
 ## Self-critique `[run 2026-08-23, before commit — cognition section added]`
 
 - **Not overclaimed.** The Wei cognition outcome is stated observational throughout; dietary DHA RR 0.82
@@ -565,8 +553,6 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
 [@schwingshackl2017htn] Full grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Self-critique `[run 2026-09-01, before commit — Lombardi 2020 dose-response NMA added]`
 
 - **Not overclaimed.** The dose finding is stated as an *association* of HD (>1 g/day) with the ischemic
@@ -587,10 +573,6 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
   CV-event association against a realized outcome; the olive-oil/mineral-oil comparator threat is
   flagged as an unresolved bias in the underlying trials.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Self-critique `[run 2026-09-16, before commit — CONTAM 2012 methylmercury toxicity arm added]`
 
 - **Not overclaimed.** The TWI is presented as a hazard-based guidance value, not a dose-response
@@ -608,7 +590,5 @@ signal — a caution against reading a mortality/CVD benefit as a whole-metaboli
   questions (hazard dose vs net benefit) and are configured, not joined.
 - **Coherence, not validity** (R1): the loop is open — no operation grades the TWI or the
   methylmercury -> neurodevelopment association against a realized childhood outcome.
-
-</div>
 
 ## References

@@ -47,8 +47,6 @@ different object.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-14">
-
 ## The evidence cuts three ways — and that is the finding
 
 > **Extended 2026-07-28:** a **fourth** case was added at the bottom of this page — a boundary that
@@ -102,8 +100,6 @@ different object.
 
 **This third case is the common one, and it is the dangerous one** — an unresolved category looks
 exactly like a resolved one in a recommendation.
-
-</div>
 
 ## One level up: macronutrient labels, and whether the matrix or the component carries the effect
 

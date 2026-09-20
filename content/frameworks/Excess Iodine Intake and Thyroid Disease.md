@@ -5,6 +5,7 @@ aliases: [Iodine Excess and Thyroid Disease, Iodine Upper Limit, Iodine-Induced 
 authors: [Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Harding, Kimberly B; Pena-Rosas, Juan Pablo; De-Regil, Luz Maria]
 sources: [Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017]
 confidence: low
+cluster: deficiency-enhancement
 created: 2026-09-17
 updated: 2026-09-17
 self_critiqued: 2026-09-17

@@ -347,8 +347,6 @@ deficit (remission), a food component in a high-risk stratum (Mediterranean), or
 in one subgroup (low-carb apoB) -- never the label. Which axis actually carries a dietary difference is
 the next question.
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Trace the difference to a measurable axis, not the label
 
 If the named patterns barely separate on hard outcomes above the floor, the useful question is not
@@ -595,10 +593,6 @@ fabric cannot yet separate from its co-travellers; and the diets people argue ab
 least hard-outcome evidence. So the question is not *which brand* but *what do I actually do* — which is
 where the four axes point.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Get above the floor, then choose the pattern you will keep
 
 **Get above the floor first.** The measurable gain sits in clearing the adequacy/energy screen —
@@ -654,7 +648,5 @@ less than whether a person keeps it.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
-
-</div>
 
 ## References

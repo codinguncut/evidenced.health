@@ -37,8 +37,6 @@ every section below: the loop is open. This guide can tell you whether a well-in
 *would* act this way; it can never tell you whether the person who did ended up better off.
 
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## "How good is the evidence?" and "should I act?" are different questions
 
 Ordinary advice runs two separate judgments together. Pull them apart and the rest falls into
@@ -94,8 +92,6 @@ way to act where a population recommendation is silent: you need to know your ow
 claim the treatment works differently inside you. Claiming *that* — that the relative effect itself
 is different for you — is the expensive route, and it demands direct evidence of an interaction,
 not just a plausible mechanism. -> [[Baseline Risk and the Relative-Absolute Split]]
-
-</div>
 
 ## A direction can be sound without a pooled magnitude
 
@@ -303,8 +299,6 @@ something you don't — do not mistake caution for a verdict.
   comparator already exist and asks which quantile to act on; **this page asks the prior question —
   whether to act at all when the pooled evidence is silent, and how a direction is even reached.**
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Where this nets out
 
 If you are waiting for the meta-analysis before you change anything, ask first whether you are
@@ -330,7 +324,5 @@ says so.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
-
-</div>
 
 ## References

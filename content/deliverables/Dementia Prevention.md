@@ -11,8 +11,6 @@ updated: 2026-09-15
 self_critiqued: 2026-09-15
 concrete_subject_audited: 2026-09-15
 ---
-<div class="recent-page" data-last-updated="2026-09-15"></div>
-
 
 Almost everything that lowers your dementia risk is what already protects your heart: blood pressure,
 blood sugar, weight, cholesterol, not smoking, staying active. Only one of those levers has a

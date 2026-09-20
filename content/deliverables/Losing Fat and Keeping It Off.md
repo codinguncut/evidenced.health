@@ -118,8 +118,6 @@ of body mass, though that figure is exploratory
 matters: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## What each method actually moves
 
 **The drug moves the most weight, and once, moves an outcome.** Semaglutide took off about 12.4
@@ -192,10 +190,6 @@ true. Keep it modest, though: the direct evidence is a two-week surrogate in a h
 density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
 outcome -> [[Energy Density]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Keeping it off is the part that fails
 
 The trajectory is remarkably consistent across methods. Franz's synthesis of one-year-plus trials found
@@ -230,10 +224,6 @@ chronic therapy for a chronic condition, like a blood-pressure pill, rather than
 The single most decision-relevant fact in this whole cut: **adherence is not a footnote to the effect,
 it is most of the effect** — a smaller deficit sustained beats a larger one abandoned.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Regaining some of it is not a reason to skip the attempt
 
 A common fear says the losing-and-regaining cycle is worse than staying heavy, so an obese person should
@@ -258,8 +248,6 @@ opposite population from the folk belief — lean, young, body-image-driven diet
 reason to be dieting at all. The practical reading: pursue loss you can sustain, and treat regain as a
 maintenance problem to design against, not a reason to stay put -> [[Weight Cycling and Cardiometabolic Risk]].
 
-</div>
-
 ## Matching the lever to the person
 
 The ranking is stratum-dependent, and an effective drug changes the size of the lifestyle rock rather
@@ -276,8 +264,6 @@ depot, even for a person on semaglutide. For a younger, well-muscled person with
 lean-mass worry is small and the deficit plus training is enough. For an older or sarcopenia-risk person,
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## How to think about your own choice
 
@@ -300,7 +286,5 @@ open.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
-
-</div>
 
 ## References

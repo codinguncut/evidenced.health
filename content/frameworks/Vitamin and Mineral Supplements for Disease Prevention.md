@@ -553,8 +553,6 @@ page's core: «for most people ... consumption of the right food and drink is mo
 against cancer than consumption of dietary supplements.»
 [@wcrf2018ter]
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The defined-stratum exception — AREDS antioxidants+zinc slow AMD progression `[2026-09-15, Evans Cochrane]`
 
 The antioxidant class that *raises* all-cause mortality in the general population (Bjelakovic, above)
@@ -591,8 +589,6 @@ call, not a general licence for antioxidants. And the pharmacogenetic personaliz
 story promised is a NULL — genotype «do[es] not predict response to antioxidant and zinc
 supplementation» [@evans2023amdsupp];
 stratify by AMD severity, not genes.
-
-</div>
 
 ## The one notable non-primary signal — n-3 and myocardial infarction
 

@@ -2,8 +2,8 @@
 type: framework
 question: Does higher dietary protein harm the kidneys, and in whom?
 aliases: [Protein and Kidney Function, High Protein Kidney Safety, Protein and GFR, Protein Renal Safety, Does Protein Harm the Kidneys, Glomerular Hyperfiltration Protein]
-authors: [Devries, Michaela C; Sithamparapillai, Arjun; Brimble, K Scott; Banfield, Laura; Morton, Robert W; Phillips, Stuart M]
-sources: [Devries - Higher Protein Kidney Function Meta-Analysis 2018]
+authors: [Devries, Michaela C; Sithamparapillai, Arjun; Brimble, K Scott; Banfield, Laura; Morton, Robert W; Phillips, Stuart M; Van Elswyk, Mary E; Weatherford, Charli A; McNeill, Shalene H]
+sources: [Devries - Higher Protein Kidney Function Meta-Analysis 2018, Van Elswyk - Protein Renal Health 2018]
 cluster: muscle
 confidence: medium
 relationships:
@@ -18,8 +18,8 @@ relationships:
     - The Estimate-to-Action Gap
     - Rating Certainty of Evidence
 created: 2026-08-07
-updated: 2026-08-27
-self_critiqued: 2026-08-07
+updated: 2026-09-17
+self_critiqued: 2026-09-17
 ---
 
 The standing objection to a higher-protein target (the \~1.6 g/kg muscle number, the older-adult
@@ -75,6 +75,8 @@ is the more valid estimate, and it is flat.
 
 
 [@devries2018]
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Why the GFR rise is not harm — kidney functional reserve
 
 The worry traces to Brenner (1982): a higher protein load raises GFR (glomerular hyperfiltration), and
@@ -91,12 +93,15 @@ increase solute clearance in response to an increase in solute load», and «thi
 not represent a risk factor for the development of CKD».
 
 The physiological analogues make the point: GFR rises \~65% in **pregnancy** without raising kidney-disease
-risk, and a single kidney after **nephrectomy** hyperfilters yet stays normal for >20 y. So *"protein
-raises GFR"* is a true observation that is **not** evidence of harm — and Devries is explicit that the
+risk, and a single kidney after **nephrectomy** hyperfilters yet stays normal for >20 y. So *protein
+raises GFR* is a true observation that is **not** evidence of harm — and Devries is explicit that the
 raised GFR «alone is not evidence that the risk of CKD is modified».
 
 
 [@devries2018]
+
+</div>
+
 ## Scope — how far the null reaches, and where it stops
 
 The included populations were healthy, obese, hypertensive, and **type-2-diabetic** adults with normal
@@ -115,6 +120,85 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
 [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
 
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
+## The second source (Van Elswyk 2018) — same direction, different lineage, and four new arms
+
+A second 2018 systematic review reaches the same read on the healthy kidney from a **different research
+group and a different study set**, and covers arms Devries's meta-analysis did not. Van Elswyk narratively
+reviewed 26 studies (18 RCTs + 8 observational) of healthy adults above the US RDA but within the AMDR,
+**requiring normal GFR (>=90) and energy balance and excluding weight-loss designs**. Its GFR read is the
+same benign one: of 13 RCTs, «Most (n = 8), but not all (n = 5), RCTs reported signiﬁcantly higher GFRs in
+response to increased protein intake, and all rates were consistent with normal kidney function in healthy
+adults.» — no pooled effect (this is a vote-count narrative synthesis, not a meta-analysis), the highest
+GFRs sitting in short/young/small studies the authors attribute chiefly to subject **age**.
+[@vanelswyk2018]
+
+**Parameter table — is this the same quantity as Devries?** (BLOCKING precondition; the fourth column is
+the point.)
+
+| Parameter | Devries 2018 (SR-MA) | Van Elswyk 2018 (SR, narrative) | Same quantity? |
+|---|---|---|---|
+| Synthesis mode | pooled SMD (meta-analysis) | vote-count + range (no pooling) | NO — different mode; compare DIRECTION, not a shared effect size |
+| Population | adults w/o CKD (healthy/obese/T2D/HTN) | healthy adults, **GFR>=90 + energy balance required, weight-loss excluded** | overlapping; Van Elswyk narrower |
+| Exposure contrast | HP (>=1.5 g/kg / >=20%E / >=100 g/d) vs NLP | >RDA (>=20%E / >=10% more) vs RDA (0.8/10-15%E) | YES — both «higher vs habitual/RDA» |
+| GFR direction | «nonexistent or trivial effect ... on GFR» | «all rates ... consistent with normal kidney function» | YES — modest rise, stays normal |
+| Kidney-damage marker | albumin: 1/8 trials raised AER | blood markers «little or no effect» | YES — markers \~unchanged |
+
+The direction is commensurable (fourth column YES on the load-bearing rows); the effect-size cell is NO,
+so this is **not** a shared magnitude to pool — it is a same-direction arrival from a different dataset.
+
+
+**Independence — method/lineage-independent, but funding-CORRELATED (not a clean type-E).** The two author
+lists are disjoint — Devries/Sithamparapillai/Brimble/Banfield/Morton/Phillips (Phillips/McMaster academic)
+vs Van Elswyk/Weatherford/McNeill (industry consulting + NCBA) — a different lineage and a different study
+set (Van Elswyk adds 8 observational studies incl. two long cohorts; requires energy balance and GFR>=90;
+excludes weight-loss), so the concordance on *GFR rise is benign in healthy kidneys* is a **real robustness
+gain on the direction**. But it is **NOT** a bias-independent type-E second opinion: **both** sources carry
+beef/dairy-industry funding, so the one channel most able to bias the interpretation — commercial interest
+pushing toward *removing a barrier to eating more protein* — runs the **same way in both**. Independence of
+*method and data*, correlated on *incentive*. No `[E-independent]` tag; the robustness is real but bounded.
+
+
+**Type-F refinement — four arms Devries's GFR-only meta-analysis did not cover**
+[@vanelswyk2018]:
+
+- **Blood pressure — no harm, plausibly a benefit.** «Evidence reported here suggests that protein intake
+  above the US RDA has no adverse effect on blood pressure»; the two largest RCTs (DASH, OmniHeart) found
+  higher-protein arms LOWERED BP in mild hypertensives, and the broader evidence base shows an inverse
+  protein-BP relation (esp. when protein replaces carbohydrate), «regardless of source» (animal ≈ plant).
+- **Kidney stones — insufficient evidence, not a null.** «The evidence from the current review is limited
+  and inconsistent with regard to the role of protein intake and the risk of kidney stones» (a Norway
+  evidence-based review likewise: «inconclusive»). This is the *insufficient-evidence* state, not
+  *no effect* — a named sub-gap.
+- **Blood markers of kidney function — little/no effect.** No pattern of abnormality across 10 studies;
+  the lone exception was BUN just past the UL at 3.6 g/kg (4x RDA) in 5 young men, which the authors flag
+  as possibly «real or an artifact» given the tiny sample.
+- **Plant vs animal source — undetermined.** «Data in the current review are insuﬃcient to determine if
+  increased protein intake from a particular source, i.e., plant or animal, inﬂuences kidney health
+  outcomes.» — the source question stays open on both pages.
+
+**Two long cohorts push past the weeks-to-months surrogate (narrows, does not close, the G-gap).** Van
+Elswyk includes the longest-horizon evidence held anywhere on this page — still observational, still eGFR
+/ incidence rather than a randomized hard outcome, but 15-21 years rather than weeks
+[@vanelswyk2018]:
+
+- **Herber-Gast 2016 (Doetinchem, n=3798, 15 y):** total, vegetable, and animal protein «not associated
+  with changes in eGFR over time»; increased **low-fat dairy** associated with *less* eGFR decline
+  (P=0.0004).
+- **Rebholz 2015 (ARIC, n=15792, 21 y):** «Neither total (P = 0.40) nor animal protein (P = 0.10) were
+  associated with increased risk of kidney disease (15.6% during follow-up); vegetable protein was
+  associated (P < 0.004) with an 11% decrease in kidney disease risk» — higher dietary acid load carried
+  an 8% increased risk.
+
+So total and animal protein are null for long-horizon eGFR decline and kidney-disease incidence in two
+large cohorts, and the only *protective* protein signals are for vegetable protein and low-fat dairy —
+consistent with the healthy-kidney null, and if anything nudging the source question toward plant/dairy.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Certainty, lineage, and conflicts — read the null honestly
 
 - **The evidence is low-certainty, and the outcome is a surrogate.** Devries's own GRADE rating is «low
@@ -125,6 +209,14 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
   **G-gap** the [[Protein Intake for Older Adults]] page also names. The direction of the null is robust
   (change analysis, dose, duration, albumin, and mechanism all agree); its *certainty* is low.
   [@devries2018]
+  - **[2026-09-17, Van Elswyk] the G-gap NARROWS but does not close.** Van Elswyk adds two long
+    prospective cohorts — Herber-Gast (15 y, eGFR decline) and Rebholz (21 y, kidney-disease incidence)
+    — both null for total/animal protein. These are the closest thing held to a hard kidney outcome:
+    long-horizon and on incidence/decline rather than a weeks-to-months filtration marker, but still
+    **observational**, not the missing RCT. So the gap is now *no RCT on hard kidney outcomes*, with
+    long-horizon **observational** incidence data present and null — do not read the cohorts as the
+    randomized outcome trial that is still absent.
+    [@vanelswyk2018]
 - **This is NOT independent corroboration of the protein cluster — same lineage.** Devries shares
   authors **Morton and Phillips** with [[Protein and Resistance Training for Muscle and Strength]]
   (Morton 2018), and **Phillips** also co-authors the PROT-AGE consensus that made the parallel renal-
@@ -139,6 +231,22 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
   to eating more protein*. By symmetric standards this discounts the framing and cautions against over-
   reading the null as *proven safe*; it does not by itself overturn a result concordant with independent
   guidance (below). [@devries2018]
+  - **[2026-09-17, Van Elswyk] the second source's COI is STRONGER, and it does not remove the concern —
+    it repeats it.** All three Van Elswyk authors are beef-industry-paid (MEVE/CAW paid consultants; SHM
+    is «the Executive Director of Human Nutrition Research» at the NCBA), and the funding was not
+    arm's-length: «Financial and material support for the writing of this manuscript has been provided by
+    the Beef Checkoff», and «Technical experts employed by the funding source participated in the
+    conception and design of the manuscript and provided critical review». So the two concordant sources
+    share a *commercial-bias direction* — this is why the second source is not counted as bias-independent
+    (above): it discounts the interpretive framing on both, and leaves the underlying renal-marker data as
+    the less bias-exposed part. [@vanelswyk2018]
+- **Confidence decision — held at `medium`, not bumped `[2026-09-17]`.** A second review from a different
+  lineage and dataset, plus two long cohorts null for total/animal protein, genuinely raise the robustness
+  of the *direction*. But three ceilings on *certainty* are unchanged: the shared beef-funding channel
+  (correlated, not independent, bias), the individual-study quality (Van Elswyk: «All included studies were
+  of moderate to high risk of bias» and, but for the two cohorts, «<6 mo»), and the still-missing RCT on
+  hard kidney outcomes (GFR/eGFR remains a surrogate). Robustness up, certainty ceiling unchanged →
+  `medium` holds.
 - **Concordant with guidance (the guidance-null, defeated by agreement-with-warrant, not divergence).**
   The null «are in line with statements from the WHO … and Institute of Medicine … on protein intake and
   kidney function» — bodies outside the Phillips lineage that already dismiss a causal protein→kidney-
@@ -146,6 +254,7 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
   reanalysis and the functional-reserve mechanism, not a new direction.
   [@devries2018]
 
+</div>
 
 ## Decision relevance
 
@@ -165,15 +274,24 @@ that erodes the healthy-adult target. For the drug side of the diseased stratum 
   concordant with independent guidance. That is enough to defuse the objection; it is not enough to say
   *proven safe at any dose indefinitely*.
 
+<div class="recent-update" data-last-updated="2026-09-17">
+
 ## Limits
 
 - **Surrogate, not outcome** — GFR and albumin excretion over weeks-to-months, not hard kidney outcomes
-  over years. No protein→kidney-outcome RCT is held (the G-gap).
+  over years. No protein→kidney-outcome **RCT** is held (the G-gap); two long observational cohorts
+  (Herber-Gast 15 y, Rebholz 21 y, both null for total/animal protein) now sit closer to a hard outcome
+  but are not the missing randomized trial. [@vanelswyk2018]
 - **Low-to-very-low GRADE** — unclear randomization/allocation reporting in most trials; the primary
-  change analysis is «Very low».
-- **Single lineage + commercial funding** — Phillips/McMaster authorship and dairy/beef-council funding;
-  not independent of the protein cluster it reassures.
+  change analysis is «Very low». Van Elswyk agrees on the individual-study quality: «All included studies
+  were of moderate to high risk of bias» and, but for its two cohorts, «<6 mo».
+  [@vanelswyk2018]
+- **Two sources, correlated funding** — the Phillips/McMaster meta-analysis (dairy/beef-council funding)
+  and the NCBA/beef-funded Van Elswyk review agree from different lineages and datasets, but share a
+  commercial-bias direction; robustness of direction, not bias-independence.
 - **CKD and the seriously kidney-impaired are unstudied here** — the null does not transport to them, and
   the standing rule for them runs the other way.
+
+</div>
 
 ## References

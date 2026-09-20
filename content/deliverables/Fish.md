@@ -231,8 +231,6 @@ replace the category with the species properties -> [[Is the Food Category Doing
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The methylmercury risk — and why species is the decision variable
 
 Methylmercury's tolerable weekly intake is 1.3 µg/kg body weight/week, *«expressed as mercury... based on
@@ -277,8 +275,6 @@ The mercury story checks out from a second angle. Cohort studies found no associ
 mercury — the best long-term intake marker — and CVD, and the 2018 AHA statement holds that *«the
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
-
-</div>
 
 ## Origin — freshwater vs marine, wild vs farmed
 
@@ -410,8 +406,6 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## What the evidence here cannot yet answer
 
 - **The methylmercury toxicity arm is now held.** The mercury dose-response and tolerable-intake
@@ -457,7 +451,5 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
-
-</div>
 
 ## References

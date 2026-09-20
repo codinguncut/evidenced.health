@@ -191,8 +191,6 @@ contrasts the two arms directly and they behaved differently — see the refinem
 
 
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Yogurt -> T2D: the one fermented-dairy leg with a located dose-response `[2026-09-05]`
 
 Gijsbers 2016 (dairy -> T2D dose-response MA, 22 cohorts, 43,118 cases; gold) gives fermented dairy its
@@ -227,7 +225,6 @@ related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compa
   [[Dairy and Cardiometabolic Health]] — this section is the fermented-food-side cross-link, not a
   second appraisal.
 
-</div>
 
 ## The protective subtype is outcome-specific — and no subtype is robust across both endpoints
 
@@ -275,8 +272,6 @@ outcome-specific reading still cannot name what in the subtype does the work.
 
 
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Self-critique `[run 2026-08-05, before commit]`
 
 - **Overclaim on the surrogate RCT — the top risk — checked and held down.** The page leads every
@@ -318,7 +313,5 @@ outcome-specific reading still cannot name what in the subtype does the work.
   stays open. The E-vs-F audit is deferred to the dairy nucleus page.
 - **Not-joined.** No tension — milk-MR-null and yogurt-observational-signal are different exposures, so
   silence-not-clash; the note prevents the milk null being mis-read as refuting the yogurt arm.
-
-</div>
 
 ## References

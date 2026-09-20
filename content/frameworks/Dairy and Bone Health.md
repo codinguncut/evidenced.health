@@ -2,13 +2,13 @@
 type: framework
 question: Does more milk/dairy (its calcium and protein) reduce osteoporosis and hip-fracture risk — and why do the protective associations vanish in the strongest observational designs?
 aliases: [Dairy and Bone, Milk and Fracture, Dairy and Osteoporosis, Milk and Hip Fracture, Milk-Fracture Paradox, Dairy and Bone Density, Calcium from Dairy and Fracture]
-authors: [Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad]
-sources: [Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019]
+authors: [Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Bian, Shanshan; Hu, Jingmin; Zhang, Kai; Wang, Yunguo; Yu, Miaohui; Ma, Jie]
+sources: [Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Bian - Dairy Hip Fracture Meta-Analysis 2018]
 cluster: dairy
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-09-18
+self_critiqued: 2026-09-18
 relationships:
   related_to:
     - Dairy and Cardiometabolic Health
@@ -20,14 +20,16 @@ relationships:
     - The Observational-Trial Discordance
     - Layer 1 - Ranking Interventions for a Stratum
 ---
+<div class="recent-update" data-last-updated="2026-09-18">
 
 **Facet of the `dairy` cluster** (nucleus [[Dairy and Cardiometabolic Health]]) — the **bone/fracture**
 endpoint, distinct from the nucleus's cardiometabolic outcomes. Cashes the nucleus's `AWAITS Malmir`
 milk-fracture leg.
 
-**The through-line (one gold observational SR-MA, Malmir 2019, 34 studies, 616k people for fracture):**
-the intuitive story — *dairy is rich in calcium and protein, so more dairy = stronger bones = fewer
-fractures* — **is not supported once you weight studies by design.** The protective associations appear
+**The through-line (two gold observational SR-MAs — Malmir 2019, 34 studies, 616k people; and Bian 2018,
+18 studies, 382k, which reproduces the milk verdict):** the intuitive story — *dairy is rich in calcium
+and protein, so more dairy = stronger bones = fewer fractures* — **is not supported once you weight
+studies by design.** The protective associations appear
 **only in cross-sectional and case-control studies** (reverse-causation-prone); in prospective **cohort**
 studies dairy and milk are **null** for both osteoporosis and hip fracture, and milk trends *toward
 harm* for hip fracture. Malmir's own verdict: «a greater intake of milk and dairy products was not
@@ -46,6 +48,7 @@ supplement — moves fracture risk in someone already replete; the better-eviden
 lever for that stratum runs through **fall prevention** ([[Exercise for Preventing Falls in Older Adults]]),
 not calcium intake.
 
+</div>
 
 ## The design-discordance is the whole finding
 
@@ -133,6 +136,8 @@ only at the level of the null *direction*, not magnitude):
 
 
 
+<div class="recent-update" data-last-updated="2026-09-18">
+
 ## Dairy is a type-B category for bone too — and a dose-response J appears
 
 - **Milk != total dairy for fracture.** Milk trends null-to-harm in cohorts (per-200g 1.09) while total
@@ -148,15 +153,82 @@ only at the level of the null *direction*, not magnitude):
   heterogeneity source and confounder; a flattened or reversed dietary gradient is partly a measurement-
   error signature -> [[Measurement Error in Dietary Assessment]].
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-18">
+
+## A second gold SR-MA (Bian 2018) — by-product decomposition, and a within-cohort milk/fermented sign-split
+
+A second independent group (Bian, Tianjin; 10 cohort + 8 case-control, 381,987 people, search to
+April 2017) reaches the **same milk verdict** as Malmir (Tehran) *and* adds the by-product cells Malmir
+could not pool. The matched-parameter table (highest-vs-lowest hip fracture unless noted):
+
+| Parameter | Bian 2018 (Tianjin) | Malmir 2019 (Tehran) | Same quantity? |
+|---|---|---|---|
+| Milk, cohort, high-vs-low | RR 0.91 (0.74-1.12), NS | RR 0.93 (0.75-1.15), NS | **YES** — both null; concordant |
+| Milk, weak-design, high-vs-low | OR 0.71 (0.55-0.91), sig (case-control only) | 0.75 (0.57-0.99), sig (cross-sec + case-control) | **YES** (weak-design pooled); minor: Bian CC-only |
+| Milk, cohort, per-200 g/day (linear) | RR 1.00 (0.94-1.07), NS | RR 1.09 (1.07-1.11), sig +9% | **YES same quantity — DISCORDANT** (see below) |
+| Total dairy, cohort, high-vs-low | RR 1.02 (0.93-1.12), NS | 0.90 (0.73-1.11), NS | **YES** — both null; concordant |
+| Yogurt, cohort, high-vs-low | RR 0.75 (0.66-0.86), sig | not pooled (too sparse) | **NO** — new cell (F refinement) |
+| Cheese, cohort, high-vs-low | RR 0.68 (0.61-0.77), sig | not pooled (too sparse) | **NO** — new cell (F refinement) |
+| Study base | incl. Michaëlsson 2014 (female milk RR 1.60) | incl. Michaëlsson 2014 (1.60) + 2018 | **PARTIAL OVERLAP** — shared Michaëlsson 2014 |
+
+[@bian2018]. Bian's conclusion:
+«consumption of yogurt and cheese was associated with lower risk of hip fracture in cohort studies.
+However, the consumption of total dairy products and cream was not significantly associated with the
+risk of hip fracture» [@bian2018]; milk was
+«insufficient evidence to deduce the association» [@bian2018].
+
+- **This is type-F refinement + partial-overlap corroboration, NOT independent (type-E) backing.** The
+  milk and total-dairy agreement re-pools a **shared cohort base** — both include Michaëlsson 2014 (the
+  identical female RR 1.60 appears in both), and the milk-fracture prospective literature is small and
+  centred on the same landmark cohorts (Michaëlsson, Feskanich/NHS, Sahni/Framingham), all three of
+  which Bian pools. So the concordance is *second group, largely same studies* — it raises confidence in
+  the **null milk verdict modestly** (two groups independently weight cohort > case-control and reproduce
+  the paradox, with different search dates and analytic choices) but is **not** clean independent
+  corroboration; do not read it as a fresh evidence stream.
+- **The per-200 g discordance CUTS TOWARD the milk-harm signal being fragile.** Bian's independent
+  linear per-200 g milk-cohort estimate is a **dead-flat RR 1.00 (0.94-1.07)** where Malmir reports
+  **+9% (1.09, 1.07-1.11)**. Same quantity, opposite conclusion. The most likely reason is the study
+  set: Malmir adds the later Michaëlsson **2018** high-milk Swedish wave that Bian's April-2017 search
+  predates. A second MA pooling nearly the same cohorts *minus* the extra Michaëlsson wave finds
+  **no per-gram harm** — which strengthens (does not contradict) the page's reading that the +9%/200 g is
+  Michaëlsson-fragile and unadjudicated, not a real milk-breaks-bone gradient. Not filed as a `[[tension]]`:
+  the difference is explained by inclusion + the flat-vs-nonlinear modelling, not a joined clash of backing.
+- **The by-product cells are the genuine new content — and they are Michaëlsson-dominated too.** Bian
+  pools yogurt (0.75) and cheese (0.68) protective in cohorts where Malmir left those fracture cells
+  empty. But yogurt cohort n=3 and cheese cohort n=3, of which the Swedish Michaëlsson cohort supplies
+  \~98% of participants (106,772 of \~109,018; Sahni and Feart yogurt/cheese arms are individually NS). So
+  the pooled by-product protection is **essentially the Michaëlsson estimate**, inheriting the same
+  confounded high-dairy Swedish population that drives the milk-harm signal above.
+- **The emergent point (type-A) — a product-type SIGN REVERSAL inside one confounded cohort.** Within the
+  *same* Michaëlsson population, **milk associates with harm** (female RR 1.60) while **yogurt and cheese
+  associate with protection** (F 0.70 / 0.64). Generic confounding of the whole dairy category (education,
+  smoking, living-alone — the milk-mortality confounders) moves all dairy the **same** direction and
+  cannot produce opposite signs by product type. So the split points to **either** a real
+  fermented-vs-unfermented difference **or** product-specific dietary-pattern confounding (health-conscious
+  people choose yogurt/cheese; heavy milk-drinkers differ) — not the generic confounder. Bian offers the
+  mechanistic hypothesis, marked as mechanism: milk's «lactose and galactose» drive «oxidative stress and
+  inflammation» (the same galactose axis behind the milk-mortality scare on [[Dairy and Cardiometabolic Health]]), while «yogurt and cheese contain probiotics, which can improve bone formation»
+  [EXTRACTED — asserted (Bian - Dairy Hip Fracture Meta-Analysis 2018) chunk 02]. **Directional mechanism
+  only** — no MR, no RCT, the by-product signal is one-cohort-driven and self-report-confounded, so this
+  is a candidate distinction to test, not a finding that fermented dairy protects bone.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-18">
 
 ## Confidence, decision-relevance, gaps
 
-- **`confidence: medium`** — one gold observational SR-MA (Malmir), *independently corroborated on the
-  fracture-null direction* by the supplement RCT evidence, but: all-observational for the food exposure,
-  FFQ-confounded, small heterogeneous effects, absolute risks unrecoverable, and the protective signals
-  design-fragile. The `medium` rests on the **null** verdict (robust across designs when cohorts are
-  weighted), not on any protective or harmful claim.
+- **`confidence: medium`** — now **two** gold observational SR-MAs (Malmir 2019, Bian 2018) reaching the
+  same milk verdict (cohort-null, weak-design-protective, per-gram harm fragile), *and* corroborated on
+  the fracture-null direction by the supplement RCT evidence — but: the two MAs share a cohort base
+  (Michaëlsson), so it is second-group agreement on largely the same studies, not a fresh evidence
+  stream; and the exposure stays all-observational, FFQ-confounded, small heterogeneous effects,
+  absolute risks unrecoverable, protective signals design-fragile. The `medium` rests on the **null**
+  milk verdict (robust across designs and now across two groups when cohorts are weighted), not on any
+  protective or harmful claim; the by-product (yogurt/cheese) protection is **not** promoted to a finding
+  (one-cohort-driven — see below).
 - **Decision-change (per stratum).** For someone with the big rocks handled
   ([[Layer 1 - Ranking Interventions for a Stratum]]) and **no** calcium/vitamin-D deficiency, **dairy is
   not a fracture-prevention lever** — eating more milk/dairy *to protect bone* is not supported by the
@@ -172,10 +244,18 @@ only at the level of the null *direction*, not magnitude):
     benefit secondhand via Cochrane) -> [[Deficiency Repletion vs Enhancement]].
   - **No dairy-food fracture RCT** (and one is hard: whole-food, decades-long, unblindable) — the
     food-source evidence is structurally capped at observational.
+  - **The fermented-vs-unfermented dairy split is a candidate distinction, not a finding.** Bian's
+    yogurt/cheese cohort protection (0.75 / 0.68) rests \~98% on the single Michaëlsson Swedish cohort,
+    so it is one-cohort-driven and self-report-confounded; whether fermented dairy genuinely protects
+    bone (probiotics/vitamin K2) versus milk (galactose) is unresolved and needs a by-product cohort
+    pool that is not Michaëlsson-dominated, or an MR/genetic instrument -> a fermented-dairy
+    by-product hip-fracture SR-MA with leave-one-out on Michaëlsson.
   - **`G (needs aggregation)`:** a confounder-corrected (Michaelsson-adjusted) milk -> fracture pooled
     estimate across designs — a magnitude the fabric cannot compute from Malmir's reported pools.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-09-18">
 
 ## Self-critique `[run 2026-08-06, before commit]`
 
@@ -193,5 +273,30 @@ only at the level of the null *direction*, not magnitude):
   its *not-replete-screened* hedge and the deficient arm is held separate.
 - **Design-discordance is the source's own reading**, not imposed — the author explicitly ranks cohort
   above cross-sectional/case-control and concludes no protective relationship.
+
+### Bian 2018 addition `[run 2026-09-18, before commit]`
+
+- **Independence honoured — filed F, not E.** Bian and Malmir share their cohort base (Michaelsson 2014,
+  identical female milk RR 1.60 in both; the milk-fracture cohort literature is small and centred on
+  Michaelsson/Feskanich/Sahni, all pooled by Bian). Recorded as a type-F refinement plus partial-overlap
+  corroboration, explicitly not `[E-independent]`; the confidence paragraph calls it "a second group
+  agreeing on largely the same studies," a modest lift on the null, not a fresh evidence stream. Full
+  overlap is confirmed only for Michaelsson 2014 (Malmir's full list not in hand), so "shared base" is
+  hedged as inference, not asserted.
+- **No fake tension on the per-200 g discordance.** Bian's flat linear per-200 g milk (RR 1.00) vs
+  Malmir's +9% is not filed as a `[[tension]]`: it is read as *strengthening* the existing
+  *the +9%/200 g is Michaelsson-fragile* claim, and the difference is attributed to study set
+  (Malmir adds Michaelsson 2018, which Bian's Apr-2017 search predates) plus linear-vs-nonlinear
+  modelling — a not-joined distinction, not opposed claims.
+- **No by-product halo.** The yogurt/cheese cohort protection is flagged single-cohort-driven
+  (\~98% Michaelsson) and self-report-confounded, not promoted to a finding. The milk-harm vs
+  fermented-protection sign reversal inside one pool is the type-A point (product-type reversal generic
+  confounding cannot produce), filed as a candidate distinction with an gap, not a
+  resolved mechanism.
+- **sources: earns Bian under the dual test** — distinct extracted content (pooled by-product cells,
+  flat per-200 g, nonlinear rise-then-plateau) lives in the body, not an E-corroboration pad.
+  `confidence:` stays medium: two MAs but a shared cohort base, all observational.
+
+</div>
 
 ## References

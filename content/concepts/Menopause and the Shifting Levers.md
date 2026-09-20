@@ -20,7 +20,7 @@ relationships:
     - Upgrading Observational Evidence
     - Fluoride and Bone Health
 created: 2026-08-01
-updated: 2026-08-14
+updated: 2026-09-18
 self_critiqued: 2026-08-13
 ---
 
@@ -111,6 +111,8 @@ exposure side). So a normal BMI does not clear a menopausal woman of central-adi
 waist.
 
 
+<div class="recent-update" data-last-updated="2026-09-18">
+
 ## Limb 3 — the levers that respond (and the one that does not)
 
 [inferred from @ambikairajah2019; @nams2022]
@@ -133,13 +135,20 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   [@nams2022]
   -> [[Protein and Resistance Training for Muscle and Strength]].
 - **Accelerated bone loss** -> the fracture lever. HRT *does* prevent bone loss and fracture here (a real
-  benefit) -> [[Hormone Therapy After Menopause]]; weight-bearing/balance training is the lifestyle route
-  -> [[Big Rocks (Elderly)]].
+  benefit) -> [[Hormone Therapy After Menopause]]; weight-bearing/resistance training is the lifestyle
+  route ([[Exercise and Bone Mineral Density]] — a real BMD gain, though its transmission to the
+  fracture endpoint stays a surrogate gap), routed with the other elderly levers via
+  [[Big Rocks (Elderly)]]. **Calcium / vitamin-D is not the lever in the replete:** dietary dairy is null
+  for hip fracture and supplemental calcium+D is null for fracture in replete community-dwelling adults,
+  the benefit confined to the deficient / institutionalized -> [[Dairy and Bone Health]],
+  [[Vitamin D and Calcium Supplementation for Fracture Prevention]].
+
 - **HRT on body composition itself is a small adjunct, not a lever:** it attenuates abdominal-fat/weight
   gain but «the effect is small» [@nams2022], and
   the fat-mass MA's HRT subgroup shows lower trunk fat but no prevention of overall gain (observational
   subgroup — a body-line, not a headline).
 
+</div>
 
 ## Synthesis — the sex-symmetry with testosterone (type-A)
 

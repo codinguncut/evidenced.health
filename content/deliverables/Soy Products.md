@@ -23,8 +23,6 @@ evidence — each question below was tested on a different one -> [[Is the Food 
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## The bottom line, per outcome
 
 Read the certainty claim-by-claim, not as one verdict on "soy". Six gold-tier meta-analyses anchor the
@@ -59,9 +57,6 @@ a person feels is a further, separate claim. The one hard-event outcome, mortali
 observational and drawn mostly from high-intake Asian cohorts, so it too is a soft, low-certainty lever
 rather than a demonstrated longevity effect.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## How good is the evidence — read this first
 
@@ -98,8 +93,6 @@ two on LDL share trials and one cites the other), so overall confidence is mediu
 Thyroid (goitrogen) and antinutrient (phytate) fears were not searched. They are named gaps, not outcomes
 scored safe. For how these certainty grades are assigned, see [[Rating Certainty of Evidence]] and
 [[Upgrading Observational Evidence]].
-
-</div>
 
 ## Soy does not shift male reproductive hormones
 
@@ -246,8 +239,6 @@ big rock. For someone already lean, active, and eating a reasonable diet, the de
 real evidence are elsewhere — the modifiable risk factors, not an isoflavone pill
 -> [[Dementia Prevention and Modifiable Risk Factors]].
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Whether soy reaches the outcome that matters most: mortality
 
 Everything above lands on a surrogate or an incidence count — hormone levels, LDL, a memory-test
@@ -303,8 +294,6 @@ signal is soft, and soy protein moves only a survivor breast-cancer endpoint. Th
 the surrogate story above — a modest, mostly-Asian-derived association, not a demonstrated longevity
 intervention for a Western adult adding soy later.
 
-</div>
-
 ## The forms are not interchangeable — specify the exposure
 
 "Soy" names several exposures with different active fractions and different evidence. This is a
@@ -344,8 +333,6 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   the margin of mineral status, not a general harm. This page extracts no soy-specific outcome evidence.
 
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Putting it together
 
 - **Male hormones are unmoved and breast-cancer risk is not raised.** Soy does not lower testosterone — a
@@ -367,9 +354,6 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   soy's case rests on the substitution as much as on anything intrinsic; your sex, menopausal status,
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## What this appraisal cannot yet answer
 
@@ -422,7 +406,5 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
-
-</div>
 
 ## References

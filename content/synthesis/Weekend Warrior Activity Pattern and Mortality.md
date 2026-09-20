@@ -23,8 +23,6 @@ weekly volume?* (bout distribution), an orbiter of the total-dose nucleus
 [[Physical Activity Dose and Mortality]]. The reader it serves is time-pressed: *can I bank the mortality
 benefit in one or two sessions, or must activity be spread across the week?*
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The decision-change
 
 **Concentrating guideline-level activity into 1-2 sessions/week is associated with the same benefit as
@@ -45,8 +43,6 @@ activity (BP/lipid benefits need sustaining) is unrefuted for intermediate outco
 independent group, on an objective instrument, reaches the same equivalence — the reason confidence is
 raised from low to **medium** (below).
 [inferred from @kunutsor2022; @odonovan2024; @khurshid2023]
-
-</div>
 
 ## The two patterns are equivalent — but do NOT equate the two studies' magnitudes
 
@@ -74,8 +70,6 @@ all-cause mortality (P-values for meta-regression: 0.75 and 0.51, respectively)�
 [@kunutsor2022].
 O'Donovan: «the HR (95% CI) was 0.88 (0.83 to 0.93) in the weekend warriors and 0.88 (0.84 to 0.91) in
 the regularly active» [@odonovan2024].
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## The objective-measurement leg — Khurshid 2023 (UK Biobank accelerometer), and why it IS independent
 
@@ -115,8 +109,6 @@ shared magnitude — Khurshid measures CVD morbidity, so it does not triangulate
 (where Kunutsor and O'Donovan themselves diverge on CVD mortality, below); (ii) all three remain
 observational, so the E raises confidence about *measurement-method robustness*, not about causality.
 
-</div>
-
 ## The session-duration floor — O'Donovan's novel refinement (type-F)
 
 **"Weekend warrior" works only if the concentrated sessions are substantial.** Stratifying by
@@ -135,8 +127,6 @@ min.» [@odonovan2024]
 **Decision-change:** the concentration licence has a lower bound — two weekly sessions of at least \~30
 (better 30-60+) minutes, not two brief ones. This is a genuine refinement of Kunutsor's pattern-level
 equivalence, which could not see session duration (no subgroup data). [inferred from @odonovan2024]
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Independence: the Kunutsor/O'Donovan pair is type-F (refinement), NOT type-E
 
@@ -164,8 +154,6 @@ extensions Kunutsor lacked (the duration floor; repeated-measures "becoming a WW
 either source alone without being independent backing.
 [inferred from @kunutsor2022; @odonovan2024]
 
-</div>
-
 ## Transportability — the absolute benefit shrinks where background activity is high
 
 O'Donovan's exercise-vs-non-exercise contrast is **smaller** (\~15% lower all-cause mortality) than the
@@ -175,8 +163,6 @@ are part of everyday life in many cities in Latin America»
 already walks a lot for transport, the marginal benefit of adding structured exercise is compressed —
 the same non-exercise/occupational-PA theme as [[The Physical Activity Paradox]]. So the pattern
 equivalence transports, but the *magnitude* of any-activity-vs-none does not.
-
-<div class="recent-update" data-last-updated="2026-09-15">
 
 ## Caveats and what is NOT resolved
 
@@ -205,7 +191,5 @@ equivalence transports, but the *magnitude* of any-activity-vs-none does not.
   ~~~~ **CASHED 2026-09-15 by Khurshid 2023.**
   Still unheld: a step-pattern version (Inoue 2023, 8000 steps on 1-2 days \~= daily), cited by
   O'Donovan.
-
-</div>
 
 ## References

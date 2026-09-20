@@ -46,8 +46,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   lever, not a big rock. The healthy-adherer check is run (survives fitness/SES adjustment) but residual
   confounding remains.
 
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Cold / cold-water exposure
 
 - [[Cold-Water Immersion]] — nucleus of the `cold-exposure` cluster: deliberate cold shower / ice bath
@@ -58,8 +56,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   Immunity null (Grade D); sleep/QoL/sickness-absence are single-study self-reports. All-surrogate, no
   hard endpoints, no long-term, mostly single-session and male. Low-confidence peripheral lever; the
   cold sibling of sauna (parallel, not a tension).
-
-</div>
 
 ## Light and sun (UV) exposure
 

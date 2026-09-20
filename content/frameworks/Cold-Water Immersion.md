@@ -17,8 +17,6 @@ relationships:
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-page" data-last-updated="2026-09-16"></div>
-
 
 **Peripheral-scope lifestyle lever (cold exposure), and a SMALL, MOSTLY-SURROGATE, HEAVILY
 TIME-DEPENDENT one — not a big rock.** CWI is admitted on the same evidence bar as food or activity,

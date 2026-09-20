@@ -293,8 +293,6 @@ already reachable from the ordinary *highly processed foods drive overconsumptio
 
 [inferred from @schulte2015addictive]
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## Gaps and open questions
 
 - **Construct-validity is adjudicated by a gold SR (Gordon 2018) and prevalence by a gold SR/MA
@@ -329,8 +327,6 @@ already reachable from the ordinary *highly processed foods drive overconsumptio
   convergence on one reward circuit is a coherence pointer, not evidence that the food-addiction construct
   is valid.
   [inferred from @volker2026glp1sud]
-
-</div>
 
 ## Self-critique `[run 2026-08-30, Pursey 2014 prevalence weave, before commit]`
 

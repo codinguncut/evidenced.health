@@ -206,8 +206,6 @@ exits is available, residual confounding stays live, and the honest grade is low
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
 
-<div class="recent-update" data-last-updated="2026-09-15">
-
 ## The outcome is often a surrogate, and effects leak
 
 Much of the evidence a recommendation rests on does not measure the outcome a person cares about. It
@@ -258,8 +256,6 @@ The confidence lesson: a high **stated** certainty is often certainty about the 
 lower. So discount confident surrogate-based advice toward the *outcome's* certainty, and treat a marker
 as a target only where its transmission is shown.
 -> [[The Certainty-Importance Inversion]], [[Indirectness of Evidence]], [[Surrogate Outcomes]]
-
-</div>
 
 ## The literature is filtered and noisy
 
@@ -347,8 +343,6 @@ because «an empty row in an evidence profile can be informative in that it iden
 doesn't work* -- the first leaves the question open under the expectancy test; the second forecloses it.
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
-
-<div class="recent-update" data-last-updated="2026-09-16">
 
 ## The open loop, and what confidence it leaves
 
@@ -448,10 +442,6 @@ class that may not transport, a curve with no locatable peak. Every number carri
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-16">
-
 ## Caveats and boundaries
 
 - **This cut carries no exposure estimates.** Every exposure above is an illustration that links out to
@@ -482,7 +472,5 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
-
-</div>
 
 ## References

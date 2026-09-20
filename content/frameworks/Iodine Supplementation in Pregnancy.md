@@ -4,7 +4,7 @@ aliases: [Iodine in pregnancy, Prenatal iodine supplementation, Maternal iodine 
 authors: [Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; De-Regil, Luz Maria; Bougma, Karim; Aboud, Frances E; Marquis, Grace S]
 sources: [Harding - Iodine Supplementation Pregnancy 2017, Bougma - Iodine Child Mental Development Meta-Analysis 2013]
 question: "Should a woman take iodine before, during, or after pregnancy — and does the answer depend on her baseline iodine status?"
-cluster: deficiency-repletion
+cluster: deficiency-enhancement
 confidence: low
 created: 2026-09-17
 updated: 2026-09-17

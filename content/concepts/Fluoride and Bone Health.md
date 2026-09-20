@@ -8,7 +8,7 @@ cluster: fluoride
 nucleus: false
 confidence: low
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-19
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -20,6 +20,7 @@ relationships:
     - Dairy and Bone Health
     - Surrogate Outcomes
     - Vitamin D and Calcium Supplementation for Fracture Prevention
+    - Exercise and Bone Mineral Density
 ---
 
 Orbiter of the `fluoride` cluster (nucleus: [[Fluoride and Health]]). This page holds the **skeletal
@@ -69,6 +70,8 @@ fluoridation-adjacent dose [@mazzoli2025fluoride]:
   a demonstrated effect-modification interaction — it rests on a single lab's pooled observational
   data. Links to the sex-hormone bone lever on [[Menopause and the Shifting Levers]].
 
+<div class="recent-update" data-last-updated="2026-09-20">
+
 ## BMD and fracture DISSOCIATE — a BMD rise is not a bone benefit here
 
 The classic surrogate trap fires cleanly. Fluoride can *raise* bone mineral density at some sites
@@ -86,8 +89,15 @@ source states the mechanism of the dissociation itself:
   better-RoB female stratum have CIs crossing 0 (+0.04 g/cm², 95% CI −0.03 to 0.12).
 - **Decision consequence:** BMD is a **bad surrogate** for the fracture outcome for this exposure —
   a rise does not transmit to lower fracture risk, and here co-occurs with higher fracture risk. Steer
-  on the fracture endpoint, not the density marker -> [[Surrogate Outcomes]].
+  on the fracture endpoint, not the density marker -> [[Surrogate Outcomes]]. Fluoride is the corpus's
+  **cleanest within-exposure inversion** of this surrogate (density and fracture read off one
+  water-fluoride gradient in a single review, not transported from a separate trial), and the contrast
+  case is [[Exercise and Bone Mineral Density]], where a BMD gain
+  *does* transmit to fewer fractures (MOF RR 0.75) because loading builds structurally normal bone — so
+  the surrogate's direction tracks the *mechanism* that raised BMD, not BMD itself
+  -> [[Surrogate Outcomes]] (the three-exposure cluster).
 
+</div>
 
 ## The U/J shape: the UPPER arm is believed, the protective LOWER arm is NOT
 

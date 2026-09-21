@@ -17,7 +17,6 @@ relationships:
     - The U-Shaped Association Artifact
     - Surrogate Outcomes
 ---
-<div class="recent-update" data-last-updated="2026-09-17">
 
 The **harm-channel** on the same exposure whose CV-event *benefit* is dose-dependent: marine omega-3
 *supplementation* raises the risk of **incident atrial fibrillation**, and the risk rises with dose.
@@ -26,8 +25,6 @@ This is the off-target counterweight to the ischemic benefit held on
 4 g/d) and [[Fish and Seafood Consumption]] (Lombardi 2020 CV-NMA). It does **not** touch the fish-as-food
 recommendation — this is an *isolate-supplement* finding.
 [inferred from @gencer2021]
-
-</div>
 
 ## The effect — dose-dependent AF risk
 
@@ -101,8 +98,6 @@ and the EPA-only arm are the same trials). REDUCE-IT's own prior report was the 
 > «REDUCE-IT also reported an increase in a prespecified tertiary outcome of AF hospitalization in
 > those randomized to active treatment compared with placebo (3.1% versus 2.1%; P=0.004).»
 > [@gencer2021]
-
-<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Lombardi 2021 — a second, time-adjusted MA corroborates the AF direction (type-F, 2026-09-17)
 
@@ -197,10 +192,6 @@ standards this cuts both ways: a clean-COI MA on a *harm* finding removes one bi
 relative strength versus any industry-funded omega-3 *benefit* MA.
 [inferred from @lombardi2021af]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Synthesis — a same-exposure benefit/harm split by dose (type-A/G)
 
 The decision-relevant move this opens (present in no single held page before it): omega-3
@@ -229,10 +220,6 @@ The clinical-implication the authors draw is a **disclosure**, dose-graded:
 > [@gencer2021]
 
 [inferred from @gencer2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
 
 ## NOT independent of the held omega-3 evidence (shared trial base + authors)
 
@@ -275,10 +262,6 @@ Lombardi-2020 — refining the harm metric on the time axis (the IRR above), not
 confirmation.
 [inferred from @lombardi2021af]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Limits
 
 - **AF ascertainment is heterogeneous and mostly not adjudicated.** «differences exist in the AF
@@ -311,10 +294,6 @@ confirmation.
   association against a realized patient outcome, and AF is a mixed endpoint (hard arrhythmia burden
   vs subclinical/monitoring-detected).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Self-critique `[run 2026-09-02, before commit — page minted]`
 
 - **Not overclaimed.** The AF risk is stated as an *association* with a dose-gradient, never a proven
@@ -330,10 +309,6 @@ confirmation.
   includes held VITAL/REDUCE-IT) and shared-authorship (Cook/Manson/Albert) tests; no `[E-independent]`
   token; confidence held at `medium` (single gold MA, consistent dose-gradient and surviving-REDUCE-IT
   sensitivity, but heterogeneous unadjudicated AF ascertainment and the dose/form confound).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Self-critique `[run 2026-09-17, before commit — Lombardi 2021 IRR MA folded (2nd source)]`
 
@@ -360,7 +335,5 @@ confirmation.
   the harm direction, not as raising the finding's grade; it is applied under symmetric standards (a
   strength here would be a weakness in an industry-funded benefit MA), not as special pleading for a
   result the page favours.
-
-</div>
 
 ## References

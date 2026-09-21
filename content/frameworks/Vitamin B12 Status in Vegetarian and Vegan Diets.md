@@ -113,8 +113,6 @@ anomalously, vegan supplement users were *more* often deficient (88%) than non-u
 reads as too-infrequent or too-low dosing rather than supplements failing
 [@pawlak2013].
 
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Neufingerl (2021) adds the omnivore comparator Pawlak lacked — a type-F broadening
 
 A later gold-tier SR of nutrient status across dietary patterns [@neufingerl2021plant] supplies the **meat-eater arm** this review's one-arm prevalences could
@@ -147,8 +145,6 @@ is if anything **larger** than the serum-based contrast shows.
 No `[E-independent]` mark: the marker and the arm differ, and the convergence is not two separate routes to
 one number.
 
-</div>
-
 ## CRITICAL — biochemical deficiency is a SURROGATE, not a patient-important outcome
 
 The prevalence numbers measure a **biomarker**, not harm, and the source itself supplies the
@@ -172,8 +168,6 @@ and the one within-study clinical read found zero symptoms. The honest state is 
 evidence** on marker-to-outcome transmission in this stratum, held apart from the well-supported
 prevalence and measurement facts.
 
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Confidence — graded per claim, not as a blob
 
 - **Prevalence + measurement facts:** well-supported by an appropriately-designed (biomarker-restricted)
@@ -187,8 +181,6 @@ prevalence and measurement facts.
 
 No `[E-independent]` is claimed: Pawlak and Neufingerl are in an F relationship (broadening + added
 comparator arm on a different biomarker), not two independent routes converging on one number.
-
-</div>
 
 ## Gaps (G)
 

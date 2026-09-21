@@ -46,8 +46,6 @@ the separate CONTAM 2012 opinion, cited here for the tolerable intake).
 
 [inferred from @efsaseafood2014]
 
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## The benefit side — three outcomes, all observational
 
 ### Adult cardiovascular: CHD mortality specifically
@@ -160,8 +158,6 @@ null.
 sentence reports the total-omega-3 dose-response was *«not signiﬁcantly linear»*, and the number sits
 at the upper edge of the observed dietary range. Per the dose-response discipline, treat it as the
 edge of the evidence, not a curve feature -> [[The Underivable Optimum]]; do not state it bare.
-
-</div>
 
 ## The key structural move — the benefit is measured NET of the mercury
 

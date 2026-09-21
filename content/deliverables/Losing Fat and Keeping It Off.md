@@ -3,12 +3,12 @@ type: deliverable
 title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+self_critiqued: 2026-09-21
+concrete_subject_audited: 2026-09-21
 created: 2026-09-09
-updated: 2026-09-15
+updated: 2026-09-21
 question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
-sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014]
+sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, NICE - NG246 Evidence Review F]
 ---
 
 ## Intake sets the deficit; how you spend it decides what else you lose
@@ -118,6 +118,8 @@ of body mass, though that figure is exploratory
 matters: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
 
+<div class="recent-update" data-last-updated="2026-09-21">
+
 ## What each method actually moves
 
 **The drug moves the most weight, and once, moves an outcome.** Semaglutide took off about 12.4
@@ -151,6 +153,22 @@ replacement its single GRADE-HIGH cell, with a median 54% remission
 [@churuangsuk2022]. The mechanism is the calorie deficit and
 the weight lost, not the 59%-carbohydrate composition of the formula
 -> [[Total Diet Replacement and Type 2 Diabetes Remission]], [[Type 2 Diabetes]].
+
+NICE's 2025 guideline (NG246) turns that evidence into a recommendation, and the *shape* of the
+recommendation is itself decision-relevant. Low-energy total diet replacement (defined as 800-1200
+kcal/day) is the only diet NICE positively recommends for general weight loss, and only weakly: «low-energy diets could be
+considered as a diet approach to weight loss», «followed for a maximum of 12 weeks», that «should not be
+used as a long-term strategy to manage obesity», and only «within specialist overweight and obesity
+management services». So the recommended TDR is a time-boxed clinical intervention, not a way of eating to
+adopt. [@nice]
+
+NICE made it *weak* rather than *strong* despite judging TDR very likely cost-effective, and did so for a
+harm its trials never measured: «a weak recommendation was preferred to a stronger one» because «weight
+regain could occur rapidly and be harmful if people experience weight cycling».
+[@nice] The downgrade rode on an unmeasured harm, not on the
+cost-effectiveness signal — and it is the exact deterrent this cut's cohort evidence below partly defuses
+for the frankly obese. -> [[Weight Cycling and Cardiometabolic Risk]]
+[inferred from @nice]
 
 **Carbohydrate restriction buys an early edge that fades.** For people with type 2 diabetes, a
 low-carbohydrate diet (<26% of energy, or <130 g/day) raised remission at 6 months (risk difference 0.32,
@@ -189,6 +207,8 @@ deficit with less hunger, and the swap holds up whether or not any reward story 
 true. Keep it modest, though: the direct evidence is a two-week surrogate in a handful of people, energy
 density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
 outcome -> [[Energy Density]].
+
+</div>
 
 ## Keeping it off is the part that fails
 
@@ -265,6 +285,8 @@ lean-mass worry is small and the deficit plus training is enough. For an older o
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
 
+<div class="recent-update" data-last-updated="2026-09-21">
+
 ## How to think about your own choice
 
 Pick the method you can hold, because durability is where nearly every attempt fails. Anchor the deficit
@@ -282,9 +304,11 @@ open.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?' |
-> | **Evidence included** | 28 sources — 12 gold, 15 high, 1 moderate |
+> | **Evidence included** | 29 sources — 13 gold, 15 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+
+</div>
 
 ## References

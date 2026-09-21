@@ -111,8 +111,6 @@ corroborates.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-09-18">
-
 ## The fracture endpoint is now held: exercise reduces major osteoporotic fractures (type-F)
 
 The patient-important outcome the BMD surrogate above only stands in for is directly measured by
@@ -149,7 +147,6 @@ MOF is defined per FRAX (hip, vertebral, forearm/wrist, humerus), a low-trauma /
   outcome** (Hoffmann's progression / duration nulls), the *effect is real but the modifiers do not
   separate* — a consistent route-(b) null across both legs of the same group's work.
 
-</div>
 
 ## The supervision discordance — surrogate silent, real outcome not
 
@@ -161,8 +158,6 @@ fracture benefit
 So a program feature that is **null on the BMD surrogate** may still bear on the **patient-important
 outcome** (adherence, dose fidelity, safety) — a caution against reading *no BMD difference* as *no
 decision difference*. [inferred from @mohebbi2023]
-
-<div class="recent-update" data-last-updated="2026-09-18">
 
 ## Confidence, and the non-independence caveat
 
@@ -188,8 +183,6 @@ confidence. The wiki holds **no independent research group's** exercise-BMD *or*
 meta-analysis yet — a genuine robustness gap for both the surrogate effect and its outcome
 confirmation.
 
-</div>
-
 ## The author's own verdict on meta-analytic precision here
 
 Notably, the source itself doubts that pooling delivers a prescription: «their practical application
@@ -199,8 +192,6 @@ The high between-trial heterogeneity means the *mean* SMD hides wide variation i
 protocols achieve — the pooled number says exercise-in-general nudges BMD, not which program a
 person should do. The load/impact/dose specifics live in the programming frontier
 ([[Resistance Training Prescription - Load Sets and Frequency]]), kept peripheral by Layer-1.
-
-<div class="recent-update" data-last-updated="2026-09-18">
 
 ## Decision relevance
 
@@ -223,7 +214,5 @@ person should do. The load/impact/dose specifics live in the programming frontie
 - **Menopause context:** accelerated post-menopausal bone loss is one of the shifting levers
   ([[Menopause and the Shifting Levers]]); exercise is a modifiable counter-lever on the bone axis,
   weighted alongside the others there.
-
-</div>
 
 ## References

@@ -4,11 +4,11 @@ title: Body Fat
 aliases: [Body Fat, Obesity, Adiposity, Should I Lose Weight, Is My Fat Dangerous, Body Fat Percentage, Visceral Fat, Body Composition, Metabolically Healthy Obesity]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-09-21
+self_critiqued: 2026-09-21
+concrete_subject_audited: 2026-09-21
 question: 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)'
-sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005]
+sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019]
 ---
 
 ## Where fat sits matters more than how much of it there is
@@ -30,6 +30,8 @@ moves which outcome, and whether the loss lasts -- is a separate decision, and i
 
 
 
+
+<div class="recent-update" data-last-updated="2026-09-21">
 
 ## Where fat sits carries the risk — read the depot, not the scale
 
@@ -210,6 +212,24 @@ whole cohort». [@taylor2015pft]
 This is the stratum the remission trials routinely exclude (DiRECT required BMI >=27), yet the depot
 lens says to offer them the lever -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
+### Menopause is where read-the-waist bites hardest
+
+Menopause turns the depot-over-scale rule from advice into a specific instruction for a large stratum. The
+largest meta-analysis of midlife body composition splits two things that get conflated: the *amount* of
+fat a woman gains across the transition tracks **aging, not menopause** — no menopause-by-age interaction
+shows up on any total-fat measure. What menopause more likely adds, on the source's own hedged reading
+(mostly cross-sectional, framed as *possible* rather than established), is a **central redistribution** —
+trunk and visceral fat up, leg fat down — tracking the rising testosterone-to-estradiol ratio.
+[@ambikairajah2019]
+
+That sharpens the measurement rule. In this older group, BMI is confounded not only by depot but by the
+aging changes of bone loss, sarcopenia and height shrinkage — each moves BMI without tracking fat — so a
+normal BMI does not clear a post-menopausal woman of central-adiposity risk: read the waist. The lever is the one already
+ranked — menopause raises the central-fat baseline, so the same visceral-fat drawdown buys more absolute
+benefit (route (a): a shifted baseline, not a new subgroup effect)
+-> [[Menopause and the Shifting Levers]], [[Baseline Risk and the Relative-Absolute Split]].
+[inferred from @ambikairajah2019]
+
 ### The decision
 
 Rank cardiometabolic risk by central adiposity (waist, waist-to-hip ratio) and metabolic status, not by
@@ -226,6 +246,7 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
+</div>
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -546,6 +567,8 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
+<div class="recent-update" data-last-updated="2026-09-21">
+
 ## The decision: read the depot, target it, and know what losing it buys
 
 Put together, the *state* of a person's body fat settles three things and hands off a fourth. **Where the
@@ -576,9 +599,11 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)' |
-> | **Evidence included** | 27 sources — 14 gold, 12 high, 1 moderate |
+> | **Evidence included** | 28 sources — 14 gold, 13 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+
+</div>
 
 ## References

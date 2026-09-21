@@ -75,8 +75,6 @@ is the more valid estimate, and it is flat.
 
 
 [@devries2018]
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Why the GFR rise is not harm — kidney functional reserve
 
 The worry traces to Brenner (1982): a higher protein load raises GFR (glomerular hyperfiltration), and
@@ -99,9 +97,6 @@ raised GFR «alone is not evidence that the risk of CKD is modified».
 
 
 [@devries2018]
-
-</div>
-
 ## Scope — how far the null reaches, and where it stops
 
 The included populations were healthy, obese, hypertensive, and **type-2-diabetic** adults with normal
@@ -119,8 +114,6 @@ contraindication is real and narrow — it is a flip for a defined diseased stra
 that erodes the healthy-adult target. For the drug side of the diseased stratum see
 [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
 
-
-<div class="recent-update" data-last-updated="2026-09-17">
 
 ## The second source (Van Elswyk 2018) — same direction, different lineage, and four new arms
 
@@ -195,9 +188,6 @@ So total and animal protein are null for long-horizon eGFR decline and kidney-di
 large cohorts, and the only *protective* protein signals are for vegetable protein and low-fat dairy —
 consistent with the healthy-kidney null, and if anything nudging the source question toward plant/dairy.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
 
 ## Certainty, lineage, and conflicts — read the null honestly
 
@@ -254,7 +244,6 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   reanalysis and the functional-reserve mechanism, not a new direction.
   [@devries2018]
 
-</div>
 
 ## Decision relevance
 
@@ -274,8 +263,6 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   concordant with independent guidance. That is enough to defuse the objection; it is not enough to say
   *proven safe at any dose indefinitely*.
 
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Limits
 
 - **Surrogate, not outcome** — GFR and albumin excretion over weeks-to-months, not hard kidney outcomes
@@ -291,7 +278,5 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   commercial-bias direction; robustness of direction, not bias-independence.
 - **CKD and the seriously kidney-impaired are unstudied here** — the null does not transport to them, and
   the standing rule for them runs the other way.
-
-</div>
 
 ## References

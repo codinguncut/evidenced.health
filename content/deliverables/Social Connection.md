@@ -8,8 +8,6 @@ concrete_subject_audited: 2026-09-17
 created: 2026-09-17
 updated: 2026-09-17
 ---
-<div class="recent-page" data-last-updated="2026-09-17"></div>
-
 
 Poor social connection is one of the more reliably replicated predictors of an early death that
 epidemiology holds. Across millions of adults, people cut off from others die sooner and develop more

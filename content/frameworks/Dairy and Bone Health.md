@@ -20,7 +20,6 @@ relationships:
     - The Observational-Trial Discordance
     - Layer 1 - Ranking Interventions for a Stratum
 ---
-<div class="recent-update" data-last-updated="2026-09-18">
 
 **Facet of the `dairy` cluster** (nucleus [[Dairy and Cardiometabolic Health]]) — the **bone/fracture**
 endpoint, distinct from the nucleus's cardiometabolic outcomes. Cashes the nucleus's `AWAITS Malmir`
@@ -48,7 +47,6 @@ supplement — moves fracture risk in someone already replete; the better-eviden
 lever for that stratum runs through **fall prevention** ([[Exercise for Preventing Falls in Older Adults]]),
 not calcium intake.
 
-</div>
 
 ## The design-discordance is the whole finding
 
@@ -136,8 +134,6 @@ only at the level of the null *direction*, not magnitude):
 
 
 
-<div class="recent-update" data-last-updated="2026-09-18">
-
 ## Dairy is a type-B category for bone too — and a dose-response J appears
 
 - **Milk != total dairy for fracture.** Milk trends null-to-harm in cohorts (per-200g 1.09) while total
@@ -153,9 +149,7 @@ only at the level of the null *direction*, not magnitude):
   heterogeneity source and confounder; a flattened or reversed dietary gradient is partly a measurement-
   error signature -> [[Measurement Error in Dietary Assessment]].
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-18">
 
 ## A second gold SR-MA (Bian 2018) — by-product decomposition, and a within-cohort milk/fermented sign-split
 
@@ -214,9 +208,6 @@ risk of hip fracture» [@bian2018]; milk was
   only** — no MR, no RCT, the by-product signal is one-cohort-driven and self-report-confounded, so this
   is a candidate distinction to test, not a finding that fermented dairy protects bone.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-18">
 
 ## Confidence, decision-relevance, gaps
 
@@ -253,9 +244,7 @@ risk of hip fracture» [@bian2018]; milk was
   - **`G (needs aggregation)`:** a confounder-corrected (Michaelsson-adjusted) milk -> fracture pooled
     estimate across designs — a magnitude the fabric cannot compute from Malmir's reported pools.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-09-18">
 
 ## Self-critique `[run 2026-08-06, before commit]`
 
@@ -296,7 +285,5 @@ risk of hip fracture» [@bian2018]; milk was
 - **sources: earns Bian under the dual test** — distinct extracted content (pooled by-product cells,
   flat per-200 g, nonlinear rise-then-plateau) lives in the body, not an E-corroboration pad.
   `confidence:` stays medium: two MAs but a shared cohort base, all observational.
-
-</div>
 
 ## References

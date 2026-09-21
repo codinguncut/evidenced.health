@@ -376,8 +376,6 @@ instantiate.
 Do not read the `[E-independent]` mark as evidence for either point estimate
 [inferred from @martineau2017; @falkingham2010].
 
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Third instance — iodine -> child mental development (Bougma 2013)
 
 The lower arm now has a **third, independent** worked instance, and it is the **largest-magnitude**
@@ -534,10 +532,6 @@ not touch) lives on its own page -> [[Iodine Supplementation in Pregnancy]]. Net
 deficient-benefit leg to RCT grade and adds a mild-deficiency null — it does not add an independent
 route**, so the trio's `[E-independent]` count stays at three.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## A DISTINCT flavor of repletion — periconceptional folic acid and NTDs (window-gated, stratum-DEFINED, not baseline-status-modification)
 
 The trio above (vit-D/iron/iodine) are one structural kind: **route-(b) baseline-STATUS modification** — the
@@ -610,8 +604,6 @@ bottom-of-hierarchy (where the general-population disease-prevention null puts i
 counter-example to *supplements are a distraction*: for **this** stratum, on **this** outcome, a supplement
 clearly works. The population-scale analogue is **folic-acid fortification** of staple foods (delivery vehicle,
 not a different exposure) [@deregil2015].
-
-</div>
 
 ## Guard — this is the REAL dose-response U, not the artifact
 

@@ -111,8 +111,6 @@ exposure side). So a normal BMI does not clear a menopausal woman of central-adi
 waist.
 
 
-<div class="recent-update" data-last-updated="2026-09-18">
-
 ## Limb 3 — the levers that respond (and the one that does not)
 
 [inferred from @ambikairajah2019; @nams2022]
@@ -148,7 +146,6 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   the fat-mass MA's HRT subgroup shows lower trunk fat but no prevention of overall gain (observational
   subgroup — a body-line, not a headline).
 
-</div>
 
 ## Synthesis — the sex-symmetry with testosterone (type-A)
 

@@ -13,8 +13,6 @@ relationships:
   related_to: [Excess Iodine Intake and Thyroid Disease]
   extends: [Deficiency Repletion vs Enhancement]
 ---
-<div class="recent-page" data-last-updated="2026-09-17"></div>
-
 
 **The decision this page serves.** Should a woman take supplemental iodine in the
 preconception / pregnancy / postpartum window, and does the answer turn on her **baseline iodine

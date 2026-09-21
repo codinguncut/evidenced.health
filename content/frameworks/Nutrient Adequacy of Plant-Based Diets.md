@@ -20,8 +20,6 @@ relationships:
     - Excess Iodine Intake and Thyroid Disease
     - Iodine Supplementation in Pregnancy
 ---
-<div class="recent-page" data-last-updated="2026-09-17"></div>
-
 
 **The decision.** For someone eating (or transitioning to) a vegetarian or vegan diet, *which* nutrients
 actually need attention — through food pairing, fortification, or a supplement — and *for whom*? This is

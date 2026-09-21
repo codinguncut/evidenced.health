@@ -75,8 +75,6 @@ Lp(a). It does not tell that person to do anything Lp(a)-specific with lifestyle
 is nothing lifestyle does to Lp(a). This keeps Lp(a) firmly a **Layer-2 prognostic input**, not
 a Layer-1 exposure of its own.
 
-<div class="recent-update" data-last-updated="2026-09-18">
-
 ## The causal leg — Mendelian randomization (now held)
 
 ERFC is an **observational** IPD meta-analysis, so its RRs are risk *associations*, corrected for
@@ -233,8 +231,6 @@ refinement, not a third independent route) and explains why the null lowering-RC
 but it does **not** lift the cap: its 22-25% event-reduction figure is a *predicted* trial estimate,
 not an observed one, so `medium` still holds.
 
-</div>
-
 ## Vascular-specificity — a companion contrast, NOT independent corroboration
 
 Lp(a)'s confinement to vascular outcomes (null for cancer and other nonvascular death) contrasts
@@ -243,8 +239,6 @@ comes from the **same** collaboration (the ERFC CRP IPD, erfc2010crp), so it is 
 independent (type-E) backing — a shared body/analysis pipeline defeats independence by
 construction. Treat it as a same-source companion observation, not as convergent evidence
 . -> [[Surrogate Outcomes]] (Lp(a) as a risk marker vs a steering target).
-
-<div class="recent-update" data-last-updated="2026-09-18">
 
 ## What this page does NOT establish
 
@@ -259,7 +253,5 @@ construction. Treat it as a same-source companion observation, not as convergent
   *and* why the existing null trials under-dosed — but **not** a validated treatment target. The
   predicted 22-25% event reduction at \~100-mg/dL lowering is modeled, not observed. Causal existence
   plus a dose-response estimate is still not treatment efficacy.
-
-</div>
 
 ## References

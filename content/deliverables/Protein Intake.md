@@ -4,12 +4,12 @@ title: Protein Intake
 aliases: [Protein, Protein Intake, Dietary Protein, Protein Requirements, How Much Protein, Protein Source]
 question: 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?'
 authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budhathoki, Sanjeev; Moore, Daniel R; Katsanos, Christos S; Food and Agriculture Organization of the United Nations (org); Choi, MoonKi; Song, Zhenzhen; Refalo, Martin C; Wycherley, Thomas P; Kim, Jung Eun; Devries, Michaela C; de Santana, Felipe M; Nachvak, Seyed Mostafa]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-08
-self_critiqued: 2026-09-08
-concrete_subject_audited: 2026-09-08
+updated: 2026-09-21
+self_critiqued: 2026-09-21
+concrete_subject_audited: 2026-09-21
 ---
 
 Ask how much protein to eat and you are really asking four questions at once: how much, from which
@@ -198,6 +198,8 @@ The plant shift costs a few extra grams or a pairing, not a compromise on either
 Who these dials matter for is not uniform. The amount, the timing, and whether supplements help at all
 depend hard on the stratum.
 
+<div class="recent-update" data-last-updated="2026-09-21">
+
 ## Who needs more, and who can stop optimizing
 
 The daily number is not one number. Who should raise protein, who has already pulled the lever, and
@@ -286,6 +288,15 @@ HP consumption on GFR in individuals with normal kidney function»
 protein does produce is benign functional reserve, not damage, so kidney fear is not a reason to hold a
 healthy person below the muscle or older-adult target.
 
+Devries clears the surrogate; a second review clears the endpoint it stands in for. Kelly's 2020 SR of
+modifiable factors for *incident* chronic kidney disease finds higher protein intake carries no signal,
+OR 1.08 (95% CI 0.91 to 1.28), in a reasonably-healthy general population.
+[@kelly2020ckd] So the reassurance does not
+rest on the filtration marker alone: neither GFR (Devries) nor the disease it would predict (Kelly) moves
+with protein in people whose kidneys start healthy. Kelly grades that estimate very-low certainty, so it
+corroborates the direction rather than settling it. This is primary prevention, a different stratum from
+the established-CKD flip below -> [[Chronic Kidney Disease and Modifiable Exposures]].
+
 The one hard flip is established chronic kidney disease. At severe impairment (eGFR below 30, not on
 dialysis), protein is restricted, not liberalized — a genuine route-(c) contraindication that fires for
 a defined diseased stratum and does not erode the healthy-adult target
@@ -303,6 +314,8 @@ a gap, not a scaled-down lean or reference target. Any per-stratum lean scaling 
 sign-uncertain, and never a finding: the obese carry more absolute lean mass, which pushes a per-lean
 target up, not down.
 
+</div>
+
 ## The evidence is mostly on surrogates — the honest ceiling
 
 Almost every number in this appraisal measures a stand-in, not the thing you care about. Muscle mass,
@@ -318,6 +331,8 @@ trial exists [@devries2018]. And the muscle
 case carries its own gap — low muscle mass independently predicts mortality, a link de Santana found is
 not fully explained by muscle strength [@santana2021], but that *raising* mass
 lowers it is unproven.
+
+<div class="recent-update" data-last-updated="2026-09-21">
 
 ## What to do — and the question none of it answers
 
@@ -342,9 +357,11 @@ you function or how long you live.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?' |
-> | **Evidence included** | 16 sources — 9 gold, 4 high, 2 moderate, 1 weak |
+> | **Evidence included** | 17 sources — 10 gold, 4 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-08 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+
+</div>
 
 ## References

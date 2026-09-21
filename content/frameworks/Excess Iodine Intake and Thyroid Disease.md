@@ -19,8 +19,6 @@ relationships:
     - Dietary Supplements
     - Iodine Supplementation in Pregnancy
 ---
-<div class="recent-page" data-last-updated="2026-09-17"></div>
-
 
 Iodine is the textbook deficiency nutrient — its lower arm (deficiency -> impaired child
 neurodevelopment) is held on [[Deficiency Repletion vs Enhancement]]. This page holds the **upper

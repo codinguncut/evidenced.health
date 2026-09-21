@@ -28,8 +28,6 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
-<div class="recent-update" data-last-updated="2026-09-17">
-
 ## Supplements — worth taking or not
 
 - [[Vitamin and Mineral Supplements for Disease Prevention]] — for a generally-nourished adult, whether
@@ -54,5 +52,3 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   for routine supplementation; benefit concentrates in severe deficiency (child IQ +11.21), null in mild;
   supplementation cuts postpartum hyperthyroidism (RR 0.32) but raises digestive intolerance and excess
   intake (RR 4.33) — a type-F refinement of Bougma, not independent (shared author)
-
-</div>

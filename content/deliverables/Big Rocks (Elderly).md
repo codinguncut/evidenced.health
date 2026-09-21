@@ -6,12 +6,13 @@ sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older A
   Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024,
   Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Villoz - Dairy Cognitive Decline Dementia 2024,
   Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025,
-  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024, el Hadouchi - Power vs Strength Older Adults]
+  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024, el Hadouchi - Power vs Strength Older Adults,
+  Zheng - Interventions Prolong Healthspan RCT Systematic Review 2026]
 confidence: low
 created: 2026-08-05
-updated: 2026-09-09
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+updated: 2026-09-21
+self_critiqued: 2026-09-21
+concrete_subject_audited: 2026-09-21
 ---
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
@@ -192,6 +193,8 @@ and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle 
 no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
 (EWGSOP2 sets none) [@cruzjentoft2019].
 
+<div class="recent-update" data-last-updated="2026-09-21">
+
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
 Falls are where fractures, hospitalisation and lost independence actually occur, and here the evidence is
@@ -241,6 +244,21 @@ consensus regarding the definition of frailty, and an absence of core measures t
 attempt to create an optimal intervention will be impeded»
 [@who2020] — so train the measurable
 components and read frailty as the composite that follows -> [[Frailty]].
+
+A 2026 systematic review reframes the same benefit as *healthspan* itself. It operationalizes healthspan
+as **intrinsic capacity** (WHO's composite of cognition, locomotion, vitality, and psychological and
+sensory function) alongside quality of life, outcomes this stratum weights above length of life. Exercise,
+alone or in a multidomain programme, moved them, «reported in 11 of 13 studies», though «the effect sizes
+were generally small».
+[@zheng2026healthspan] Two cautions
+ride with it: the evidence is one recency-discounted SR on self-reported outcomes that «tend to
+overestimate the effects due to reporting bias», and the multidomain benefit «may be predominantly due to
+the exercise component» — so read it as reinforcing the movement rock already ranked, not independent
+support for a cognitive-training or nutrition-alone lever.
+[@zheng2026healthspan]
+-> [[Intrinsic Capacity and Multidimensional Healthspan]]
+
+</div>
 
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
@@ -493,6 +511,8 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
 
+<div class="recent-update" data-last-updated="2026-09-21">
+
 ## Four things this ranking cannot tell you
 
 - **The loop is open.** This page grades whether the reasoning is coherent and faithful to its sources — it
@@ -513,9 +533,11 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 55 sources — 36 gold, 17 high, 2 moderate |
+> | **Evidence included** | 56 sources — 37 gold, 17 high, 2 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+
+</div>
 
 ## References

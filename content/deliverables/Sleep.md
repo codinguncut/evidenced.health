@@ -3,11 +3,11 @@ type: deliverable
 title: Sleep
 question: 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?'
 aliases: [Sleep Duration, Sleep and Health, Sleep Regularity, Sleep Aids, Insomnia Treatment, How Much Sleep, Sleeping Pills, CBT-I Deliverable, Melatonin Deliverable]
-authors: [Cappuccio, Francesco P; Wang, Shanshan; Livingston, Gill; Yin, Jiawei; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; Zhang, Jinhuan; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Yu, Jie; Malhotra, Atul; Xu, Wei]
-sources: [Cappuccio - Sleep Duration and Mortality 2010, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Sleep Problems Cognitive Decline Dementia 2020, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024]
+authors: [Cappuccio, Francesco P; Wang, Shanshan; Livingston, Gill; Yin, Jiawei; Shan, Zhilei; Capers, Patrice L; Windred, Daniel P; Zhang, Jinhuan; van Straten, Annemieke; Kripke, Daniel F; Ferracioli-Oda, Eduardo; Yu, Jie; Malhotra, Atul; Xu, Wei; Singh, Sumeer; Luna-Rangel, Francisco A]
+sources: [Cappuccio - Sleep Duration and Mortality 2010, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Sleep Problems Cognitive Decline Dementia 2020, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Singh - Blue-Light Filtering Lenses 2023, Luna-Rangel - Blue-Light Blocking Glasses Sleep 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-10
+updated: 2026-09-25
 self_critiqued: 2026-09-10
 concrete_subject_audited: 2026-09-10
 ---
@@ -254,6 +254,8 @@ higher baseline risk [[Dementia Prevention and Modifiable Risk Factors]], [[Base
 . Whether fixing broken sleep protects the brain is exactly the untested question — which
 raises the treatment question head-on: once sleep is broken, what actually works?
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## For insomnia, start with therapy, not pills
 
 Three treatments answer that question, and the honest ranking runs opposite to how most people reach
@@ -288,9 +290,27 @@ it a low-stakes adjunct, especially for timing complaints, never a substitute fo
 So do drugs give real sleep? CBT-I restores continuity and efficiency; melatonin nudges timing;
 hypnotics produce drugged sedation whose long-run safety is unestablished — three different things, not
 interchangeable routes to one outcome. (Sedating antihistamines, the other
-over-the-counter reach, are a named gap — no systematic review is held.) Apnea is the remaining
-treatable sleep disorder, and it is the sharpest lesson in why fixing a symptom is not the same as
-changing an outcome.
+over-the-counter reach, are a named gap — no systematic review is held.)
+
+**Blue-light-blocking glasses are not a sleep lever.** The other popular over-the-counter reach is the
+amber lens worn in the evening, sold on the premise that screen blue light suppresses melatonin. Two
+gold syntheses find no demonstrated sleep benefit: a Cochrane review of 17 RCTs rated the effect on
+sleep indeterminate [@singh2023bluelight], and a later
+meta-analysis of evening-worn glasses measured by actigraphy was null across every outcome — onset
+latency, total sleep time, efficiency, wake after onset — on just 49 participants
+[@lunarangel2025bbg].
+
+The two are not independent: they overlap on two of those three actigraphy trials (Shechter, Knufinke),
+which Singh also counted for subjective sleep, so this is largely the same small trials read two ways
+rather than confirmation from separate evidence. Both syntheses are underpowered too, so the honest read
+is no demonstrated benefit, not a proven null -> [[Blue-Light Filtering Lenses]]. The lenses are cheap
+and safe, so the cost is money and false reassurance; the evening-light levers that address the
+mechanism directly are dimming lights and warm display modes.
+
+Apnea is the remaining treatable sleep disorder, and it is the sharpest lesson in why fixing a symptom
+is not the same as changing an outcome.
+
+</div>
 
 ## Treat sleep apnea for its symptoms, not to prevent heart attacks
 
@@ -332,6 +352,8 @@ death -- that expectation is not supported for either the mask or the drug. Trea
 symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
 through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Rank sleep honestly, and act on the arms that hold
 
 Where does sleep rank among the levers? Below the biggest rocks. A person who smokes, carries excess
@@ -370,9 +392,11 @@ urgent, and your attention is better spent on the bigger rocks.
 > | | |
 > |---|---|
 > | **Question** | 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?' |
-> | **Evidence included** | 14 sources — 9 gold, 4 high, 1 moderate |
+> | **Evidence included** | 16 sources — 11 gold, 4 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+
+</div>
 
 ## References

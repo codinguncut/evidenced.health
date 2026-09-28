@@ -3,10 +3,10 @@ type: diagnostic
 question: When guidance and evidence diverge, which objective moved the recommendation — and can I see it?
 aliases: [Evidence to Decision, EtD, EtD Domains, Multiple Objectives, Feasibility and Acceptability, Resource Use, Guidelines Serve Two Masters]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); US Preventive Services Task Force (org); European Food Safety Authority (org); Mach, François; Blumenthal, Roger S; Demay, Marie B; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Total Fat Intake 2023, NASEM - Redesigning the DGA Process, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, NASEM - Finding What Works in Health Care, EFSA - Dietary Sugars Upper Intake Level 2022, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: evidence-appraisal
 confidence: medium
-self_critiqued: 2026-09-16
+self_critiqued: 2026-09-22
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -15,7 +15,7 @@ relationships:
     - Framing a Decision Question
     - Vitamin and Mineral Supplements for Disease Prevention
 created: 2026-07-27
-updated: 2026-09-16
+updated: 2026-09-22
 ---
 
 **A recommendation is not an effect estimate, and was never meant to be.** It is a composite of the
@@ -77,6 +77,39 @@ and incidence of CVDs suggested reduced risk of CVDs with lower SFA intake."*
 **So the claim that multiple objectives make guidance *less stringent* is not entailed, and here is
 falsified.** The
 direction is a per-case question.
+
+## The within-body companion — certainty and strength come apart the OTHER way (WHO Total Fat 2023) `[2026-09-22]`
+
+WHO SFA 2023 is *moderate* certainty carrying a *strong* recommendation. **Its sibling published the
+same year, from the same panel — WHO Total Fat 2023 — is the mirror image: HIGH certainty carrying a
+CONDITIONAL recommendation.** Read as a pair, they show the two determinants are orthogonal in *both*
+directions inside one body, one year, one methodology.
+
+Every domain a strong recommendation needs is checked. Certainty **HIGH** (body weight MD –1.42 kg,
+95% CI –1.73 to –1.10, ㊉㊉㊉㊉; BMI, waist, cholesterol, LDL all HIGH); undesirable effects **none**;
+balance **favours the intervention**; problem a priority. WHO says so: *«the desirable effects
+strongly outweighed the non-existent undesirable effects»*
+[@who2023totalfat]. Yet the recommendation is conditional, and the
+panel states what demoted it — not evidence quality:
+
+> «The recommendation was assessed as conditional because some individuals who reduce their fat intake
+> might replace some of the energy from dietary fat with energy from foods that are undesirable from a
+> dietary quality perspective (e.g. free sugars), reducing the net benefit. ... The evidence did not
+> suggest any undesirable effects with respect to serum lipids, blood pressure or quality of life from
+> lower total fat intake, but rather of small benefits or no effect (all high certainty evidence...).»
+> [@who2023totalfat]
+
+**What moved it is the balance-of-effects determinant, not a feasibility/acceptability domain** — so
+this is *not* the STRENGTH-changing non-evidence-domain case the Limits below still await. Two things
+demoted strong->conditional, both disclosed: the **small absolute effect** (\~1.4 kg), and a
+**comparator concern the trial evidence structurally could not test**. The Cochrane comparator was
+*«usual fat intake»* [@who2023totalfat], but real-world fat reduction
+may be achieved by substituting free sugars — a substitution the trials never randomised, so the panel
+discounts the recommendation for a realistic scenario outside its own evidence base
+-> [[The Comparator Problem]]. **This is the diagnostic working at its cleanest:** the EtD table lets
+you read exactly which determinant broke the certainty->strength link, and here it is the balance under
+a realistic comparator, in the panel's own words.
+[inferred from @who2023totalfat]
 
 ## Direction is indeterminate — the reason the general claim fails
 

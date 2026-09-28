@@ -2,8 +2,8 @@
 type: framework
 question: Does creatine supplementation change a patient-important outcome — for whom, at what dose, and is the ergogenic case the same as the clinical/cognitive one?
 aliases: [Creatine, Creatine Monohydrate, Creatine Loading, Creatine and Muscle, Creatine and Cognition, Creatine Safety]
-authors: [Kreider, Richard B; Kalman, Douglas S; Antonio, Jose; Ziegenfuss, Tim N; Wildman, Robert; Choi, MoonKi; Kim, Hayeon; Bae, Juyeon]
-sources: [Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Choi - Resistance Training Nutritional Intervention Older Adults 2021]
+authors: [Kreider, Richard B; Kalman, Douglas S; Antonio, Jose; Ziegenfuss, Tim N; Wildman, Robert; Choi, MoonKi; Kim, Hayeon; Bae, Juyeon; Forbes, Scott C; Chilibeck, Philip D; Candow, Darren G]
+sources: [Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Forbes - Creatine Resistance Training Bone Density 2018]
 cluster: supplements
 confidence: low
 relationships:
@@ -12,13 +12,14 @@ relationships:
     - Muscle-Strengthening Activity and Mortality
     - Sarcopenia Definition and Diagnosis
     - Surrogate Outcomes
+    - Exercise and Bone Mineral Density
     - Vitamin and Mineral Supplements for Disease Prevention
     - Deficiency Repletion vs Enhancement
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-09-01
-self_critiqued: 2026-09-01
+updated: 2026-09-24
+self_critiqued: 2026-09-24
 ---
 
 *"Creatine works"* is not one claim — it is one **established** claim wearing the clothes of a dozen
@@ -32,6 +33,7 @@ non-systematic, industry-funded document, so the page cannot carry medium confid
 | Claim | State | Basis |
 |---|---|---|
 | **Ergogenic** — high-intensity performance, and lean mass/strength *with resistance training* | **benefit** (surrogates) | consensus of ISSN + ADA + Dietitians of Canada + ACSM; effect from primary trials |
+| **Bone** — BMD *added to* resistance training, older adults | **no meaningful effect** on the BMD surrogate (pooled); **insufficient** on fracture/bone-geometry | gold MA, 5 RCTs n=193, pooled MD \~0 at all four sites (Forbes 2018) |
 | **Safety** — no renal/hepatic harm at 3-30 g/day; only consistent effect is weight gain | **no meaningful harm** | >1000 studies, doses to 0.8 g/kg/day for 5 yr |
 | **Cognition** (working memory; under sleep-deprivation/stress) | **insufficient / emerging** | small human studies, brain creatine +5-15% |
 | **Neuroprotection** (TBI, spinal cord, ischemia) | **insufficient — mechanism** | almost entirely **rodent** models |
@@ -160,6 +162,53 @@ corroborates the DIRECTION on a small pool, not a precise magnitude. This is an
 ([[Big Rocks (Elderly)]]), creatine is a small, evidenced adjunct **on top of** the resistance training
 that remains the driver — never a substitute for it
 [inferred from @kreider2017].
+
+## Bone — the adjunct benefit does NOT extend to BMD (a within-exposure dissociation)
+
+The elderly adjunct story above (creatine adds to resistance training for muscle mass, strength, and
+function) has an intuitive extension — more muscle pull and direct osteoblast/anti-resorptive pathways
+should build **bone** — that the pooled evidence does **not** support. Forbes 2018, a gold meta-analysis
+(5 RCTs, n = 193, adults >50 or postmenopausal, creatine + resistance training vs resistance training +
+placebo, >=12 weeks), found no added bone-density effect at any site:
+«Meta-analyses revealed no greater effect of creatine and resistance training compared to resistance
+training alone on whole body BMD (MD: 0.00, 95% CI −0.01 to 0.01, p = 0.50), hip BMD (MD −0.01, 95% CI
+−0.02 to 0.01, p = 0.26), femoral neck BMD (MD 0.00, 95% CI −0.01 to 0.01, p = 0.71), and lumbar spine
+BMD (MD 0.01, 95% CI −0.01 to 0.03, p = 0.32).»
+[@forbes2018creatine]
+
+- **The dissociation is the finding (type-F sharpening of the adjunct claim).** Every included trial
+  found creatine enhanced muscle mass or strength over placebo, yet «these adaptations did not translate
+  to greater BMD» [@forbes2018creatine]. So
+  creatine's evidenced adjunct value is **outcome-specific** — real on lean mass / strength / function
+  (the section above), absent on bone-mineral density. The plausible bone mechanisms (muscle-pull on
+  bone; direct osteoblast stimulation and reduced bone-resorption markers) are a *directional* prior that
+  the surrogate outcome did not confirm — net-effect-not-intended
+  [inferred from @forbes2018creatine].
+- **Four states, kept apart — a precise surrogate null, but NOT a foreclosed bone case.** The pooled CIs
+  are tight (roughly ±0.01 to 0.03 g/cm² around zero), so on the *specific* question — does creatine add
+  to resistance training for BMD, at studied doses over 12 weeks–1 year — this is **no meaningful
+  effect**, not merely insufficient evidence. It stays **insufficient** (unproven, not disproved) for
+  three things the MA could not settle: (i) longer or higher-frequency / relative-dose protocols — the
+  two relative-dose (0.1 g/kg/d) and higher-frequency (3x/wk) trials showed positive bone signals, a
+  subgroup *hypothesis* generated post-hoc across 5 heterogeneous trials, never tested
+  [@forbes2018creatine]; (ii) **bone geometry
+  / strength** — «Creatine supplementation (10 g·d−1) during 12 months of resistance training (3
+  days/week) decreased femoral neck bone loss and increased femoral shaft subperiosteal width (indicator
+  of bone strength) in postmenopausal women compared to placebo»
+  [@forbes2018creatine], and BMD is blind to
+  such geometric strength gains; (iii) **fracture**, the patient-important endpoint, which no trial
+  measured. The evidence base is also thin and mostly moderate-risk (only 1 of 5 trials low risk of
+  bias), so the null is precise but lightly warranted -> [[Surrogate Outcomes]].
+- **BMD is a surrogate for fracture — so the bone case is doubly limited.** Creatine has neither a BMD
+  effect nor any fracture data, so even the surrogate->outcome transmission step is untestable here. This
+  contrasts with the *exercise* bone lever, where the loading effect on BMD is small-positive AND a
+  fracture MA now closes the transmission step -> [[Exercise and Bone Mineral Density]].
+  a creatine-on-fracture endpoint — a genuine G-gap.
+- **Symmetric-standards note (a friendly-analyst null).** Forbes is by the creatine research community
+  itself (Candow and Chilibeck ran two of the positive individual trials pooled here), so a null from
+  *these* analysts, who had every prior reason to find benefit, carries more weight against the
+  bone-benefit belief than a skeptic's would — the standards cut the same in both directions.
+  [inferred from @forbes2018creatine]
 
 ## The source caveat — a conflicted consensus, held to the recommendation-summary bar
 

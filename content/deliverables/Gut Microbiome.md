@@ -3,13 +3,13 @@ type: deliverable
 title: Gut Microbiome
 question: 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and where do microbiome claims sit across the four evidence states (benefit / harm / no meaningful effect / insufficient), including which are not testable as stated?'
 aliases: [Microbiome, Gut Health, Probiotics, Prebiotics, FMT, Dysbiosis, Leaky Gut, Candida]
-authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa; van Nood, Els; Keller, Josbert J; Wastyk, Hannah C; Sonnenburg, Justin L; Minkoff, Nathan Zev]
-sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013, Wastyk - Fermented Foods Microbiota Immune RCT 2021, Minkoff - Fecal Microbiota Transplantation Recurrent C difficile 2023]
+authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org); Suez, Jotham; Elinav, Eran; Reynolds, Andrew; Brown, Lisa; van Nood, Els; Keller, Josbert J; Wastyk, Hannah C; Sonnenburg, Justin L; Minkoff, Nathan Zev; Ford, Alexander C]
+sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013, Wastyk - Fermented Foods Microbiota Immune RCT 2021, Minkoff - Fecal Microbiota Transplantation Recurrent C difficile 2023, Ford - Probiotics Prebiotics Synbiotics IBS 2018]
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-25
+self_critiqued: 2026-09-25
+concrete_subject_audited: 2026-09-25
 ---
 
 The gut microbiome gets invoked for almost everything: immunity, mood, weight, autoimmune disease,
@@ -135,6 +135,8 @@ Until one does, *fermented foods work
 because of the probiotics* stays a mechanism hypothesis, not a finding — and the Wastyk remodeling
 reading above already cuts against the simple *eat live bacteria -> they take up residence* picture.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
 "Take a probiotic for gut health" is not a claim the evidence supports. The WGO guideline's governing
@@ -161,6 +163,21 @@ death from all causes by treatment with probiotics is 20»
 warns «not all probiotic preparations tested are effective», so this is a strain-quality claim, not a
 blanket endorsement of the category.
 
+The IBS row is worth quantifying, because it shows the strain-specificity rule biting in real numbers.
+The gold meta-analysis underneath it (Ford 2018, 53 probiotic RCTs, 5545 patients) finds a class-average
+benefit: combination probiotics cut the risk of persistent symptoms to RR 0.79 (95% CI 0.68-0.91,
+NNT 7) [@ford2018probiotics]. That pooled figure
+dissolves the moment you ask which organism -- a seven-strain mix helped (RR 0.48, 0.24-0.94) while a
+three-species combination did not (RR 0.92, 0.76-1.11), single genera mostly failed, and the average
+carries heavy heterogeneity (I2 = 72%) and probable publication bias (Egger P = 0.06)
+[@ford2018probiotics].
+
+Ford's own verdict is that «it remains unclear which combination, species, or strain should be preferred
+in the individual patient» [@ford2018probiotics]. So
+which specific product will help is unpredictable -- a generic choice rides on the modest class-average,
+while a strain actually studied for IBS is the one that earns a bounded trial
+-> [[Microbial Therapies for IBS]].
+
 Two caveats travel with every row. First, pooling trials across different strains without a
 shared-mechanism rationale «should be avoided» — a strain-blind meta-analysis can manufacture or wash out
 an effect, the [[Is the Food Category Doing Any Work]] problem at the level of the organism: the strain
@@ -177,6 +194,8 @@ are undercut by the same problem — strain-blind pooling and heterogeneity, wit
 «were not homogeneous ... which limits precise recommendations». The demotion to weak-to-suggestive is
 the wiki's own reading of these two sources — a discounted finding of benefit, not the
 insufficient-evidence state.
+
+</div>
 
 ## §5 — Prebiotics: mostly fibre by another name
 
@@ -319,6 +338,8 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Caveats
 
 - **Open loop.** This appraisal grades the coherence and source-fidelity of the evidence, never
@@ -337,9 +358,11 @@ diversity, the boring recommendation that is already made on its own evidence.
 > | | |
 > |---|---|
 > | **Question** | 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and where do microbiome claims sit across the four evidence states (benefit / harm / no meaningful effect / insufficient), including which are not testable as stated?' |
-> | **Evidence included** | 8 sources — 2 gold, 4 high, 2 moderate |
+> | **Evidence included** | 9 sources — 3 gold, 4 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
+
+</div>
 
 ## References

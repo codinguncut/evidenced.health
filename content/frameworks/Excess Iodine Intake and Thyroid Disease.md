@@ -1,13 +1,13 @@
 ---
 type: framework
 question: Does chronic excess iodine intake raise thyroid-disease risk in iodine-replete populations, for whom, and where does the safe upper bound sit?
-aliases: [Iodine Excess and Thyroid Disease, Iodine Upper Limit, Iodine-Induced Hypothyroidism, Iodine Overconsumption, Excess Iodine Hypothyroidism, Iodine Tolerable Upper Intake Level]
+aliases: [Iodine Excess and Thyroid Disease, Iodine Upper Limit, Iodine-Induced Hypothyroidism, Iodine Overconsumption, Excess Iodine Hypothyroidism, Iodine Tolerable Upper Intake Level, Iodized Salt, Iodine Deficiency from Sea Salt]
 authors: [Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Harding, Kimberly B; Pena-Rosas, Juan Pablo; De-Regil, Luz Maria]
 sources: [Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017]
 confidence: low
 cluster: deficiency-enhancement
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-25
 self_critiqued: 2026-09-17
 relationships:
   related_to:
@@ -154,6 +154,10 @@ into every OR above.
   [@katagiri2017iodine] — water iodine, not only salt,
   is a source of chronic excess; this is an environmental-monitoring decision more than an individual
   one.
+- **The iodized-salt lever cuts both ways — switching to specialty salt removes it.** Because iodized
+  table salt is a main deficiency-correction vehicle, swapping it for non-iodized sea/Himalayan salt
+  (a popular "natural salt is healthier" move) can *lower* iodine intake with no BP benefit -- the salt
+  types carry identical sodium -> [[Sodium Intake and Blood Pressure]].
 - **The vulnerable strata carry the decision.** Antibody-positive / autoimmune / nodular /
   post-thyroidectomy individuals are where excess iodine most plausibly tips SCH -> OH; the general
   replete population's absolute risk is low and imprecisely known.

@@ -28,6 +28,8 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
+<div class="recent-update" data-last-updated="2026-09-27">
+
 ## Supplements — worth taking or not
 
 - [[Vitamin and Mineral Supplements for Disease Prevention]] — for a generally-nourished adult, whether
@@ -36,6 +38,18 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   supplements raise incident-AF risk dose-dependently (overall HR 1.25; >1 g/d 1.49 vs <=1 g/d 1.12)
 - [[Creatine Supplementation]] — which of creatine's many claims are established (and which are not),
   for whom, and at what dose
+- [[Coenzyme Q10 Supplementation for Statin Muscle Symptoms]] — the most-marketed remedy for statin
+  muscle pain: one gold MA reports a fragile, subjective-only benefit that concentrates where
+  statin-attribution is loosest (objective muscle/mitochondrial endpoints null) — safe and cheap to trial,
+  but weakly evidenced and nocebo-confounded
+- [[Dietary Nitrate and Exercise Performance]] — beetroot/nitrate as an ergogenic aid: small
+  low-certainty gains in power/time-to-exhaustion but no effect on time-trial (race) performance or
+  VO2max; effect on economy not capacity; attenuates in elite athletes; distinct outcome from the
+  nitrate-BP page
+- [[Exogenous Ketone Supplements and Blood Glucose]] — ketone monoester/salt supplements acutely lower
+  blood glucose (\~0.5 mM, I2=0%; monoester > salt), but it is a surrogate in the wrong stratum (51/58
+  comparisons healthy) over the wrong horizon (acute); insufficient evidence for any patient-important
+  outcome
 - [[Vitamin C and the Common Cold]] — refuted for general-population incidence (RR 0.97); a real
   route-(b) exception under heavy acute physical stress (RR 0.48); modest duration effect of regular
   use only; therapeutic-at-onset unproven
@@ -52,3 +66,10 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   for routine supplementation; benefit concentrates in severe deficiency (child IQ +11.21), null in mild;
   supplementation cuts postpartum hyperthyroidism (RR 0.32) but raises digestive intolerance and excess
   intake (RR 4.33) — a type-F refinement of Bougma, not independent (shared author)
+- [[Omega-3 Supplementation in Pregnancy]] — the pregnancy-stratum decision for fish oil / DHA-EPA: the
+  crude preterm-birth reduction (RR 0.89) does NOT survive a low-RoB restriction (0.92, NS), and
+  preeclampsia / IUGR / fetal / neonatal death are all null; insufficient-evidence, not no-effect;
+  repletion hook (10-fold ePTB risk at low plasma n-3); avoid >2.7 g/day (bleeding / post-term); the
+  Middleton 2018 Cochrane comparator is not yet held
+
+</div>

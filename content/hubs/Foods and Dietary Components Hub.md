@@ -121,18 +121,39 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   once you stop treating "dairy" as one food. Broadly neutral (CVD/mortality) to modestly inverse (T2D,
   women); the milk-mortality scare is a single-cohort confounding artifact; the matrix mechanism AWAITS
   Thorning. Non-fermented axes only (fermented-dairy CVD lives on the fermented-foods nucleus)
+- [[Microbial Therapies for IBS]] — the `microbial-therapies-ibs` nucleus: probiotics, prebiotics,
+  synbiotics and antibiotics for IBS (Ford 2018 gold MA). Combination probiotics reach RR 0.79 (NNT 7)
+  but with I2=72% + publication bias, and no single strain is robustly proven — strain-blind pooling is
+  the trap; prebiotics/synbiotics are insufficient-not-null; rifaximin is the standard-drug case
+  (RR 0.84, I2=0%, NNT 9 — modest, non-durable, mechanism unclear). Subjective endpoints, industry COIs.
+  Companion to [[Low-FODMAP Diet for IBS]]; refines [[Gut Microbiome and Health]] (same evidence base, not
+  independent-E)
+- [[Low-FODMAP Diet for IBS]] — the low-FODMAP diet as a time-limited, dietitian-supervised
+  elimination->reintroduction->personalization protocol for IBS (van Lanen 2021 gold MA, Unilever-funded).
+  SMD -0.66 on symptom severity, but the IBS-SSS reduction (\~45 pts) straddles the \~50-pt clinical
+  threshold and the QoL gain is below its own threshold; short-term only (<=3 months), confirmed
+  publication bias, and it starves fibre-fermenting bifidobacteria. The fibre-benefit-vs-FODMAP-symptom
+  split is a stratum/scope distinction (general population vs IBS sufferers), not a tension. Sibling IBS
+  lever to [[Microbial Therapies for IBS]]; the appraisal-exemplar view is cross-ref'd in the Evidence
+  Appraisal Hub
 - [[Dairy and Cognitive Decline]] — the `dairy`-cluster cognition/dementia facet (Villoz 2024, first held
   dose-response MA): dairy is NULL for cognitive decline/dementia in the reasonably-healthy Western stratum;
   the one "nadir at \~150 g/d" is an Asia/Europe intake-range pooling artifact, and milk-alone/cheese-alone
   are null. Not a cognition lever. `confidence: low`
 
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Sugars, sweeteners, and seed oils
 
 - [[Free Sugars Intake]] — how much free sugar, and which outcome the limit is actually protecting
+- [[Acute Carbohydrate Effects on Mood]] — does sugar acutely boost mood/energy (the "sugar rush")? No —
+  it does not, and mildly worsens alertness/fatigue within the hour
 - [[Non-Sugar Sweeteners]] — whether artificial sweeteners should be used for weight or NCD risk, and
   against which comparator
 - [[Linoleic Acid and Cardiovascular Disease]] — whether omega-6 linoleic acid (the main fat in seed
   oils) raises or lowers cardiovascular risk
+
+</div>
 
 ## Is the compound-class scare real?
 

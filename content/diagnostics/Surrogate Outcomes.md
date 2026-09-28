@@ -659,8 +659,6 @@ excludes 1 [1.04-1.97], mechanism unknown — a striking instance, not a settled
 
 [inferred from @grade; @snyder2024]
 
-<div class="recent-update" data-last-updated="2026-09-20">
-
 ## The SAME surrogate, three exposures, three transmissions — the direction tracks the mechanism
 
 
@@ -698,8 +696,6 @@ lesson TRAVERSE could only infer across studies. Decision consequence: do not ac
 BMD gain from *any* new bone exposure as a fracture benefit until the mechanism that produced it is
 known to build quality, not just quantity. -> [[Fluoride and Bone Health]],
 [[Exercise and Bone Mineral Density]], [[Testosterone Adiposity and Muscle]]
-
-</div>
 
 ## A guideline body rewrites its CASE DEFINITION to demote a surrogate `[2026-08-04, EWGSOP2]`
 

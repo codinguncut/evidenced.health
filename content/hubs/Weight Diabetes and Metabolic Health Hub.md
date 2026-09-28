@@ -44,6 +44,12 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   metabolically-healthy obese (direct renal-hemodynamic path). Kidney joins CVD/cancer/liver as an
   organ the same weight lever protects; the RR is partly mediator-adjusted, so it under-states the
   total prevention benefit. Onset is in scope; progression is the prescriber boundary
+- [[Kidney Stone Recurrence Prevention]] — the stone-former recurrence NUCLEUS (EAU 2026, single-source
+  scaffolding, confidence low): fluid is the big rock (LE 1a, urine volume >2.5 L, 15/100 fewer events
+  over 5 y vs \~26% baseline); the counterintuitive lever is DON'T restrict dietary calcium (inverse
+  relationship; food calcium binds intestinal oxalate — supplement bolus is the opposite exposure);
+  oxalate/purine restriction is urine-profile-conditional, not universal. Recurrence-prevention is in
+  scope; stone diagnosis/surgery/drug-dosing is the prescriber boundary
 
 ## Is any diet superior for weight loss?
 
@@ -56,6 +62,8 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - [[Time-Restricted Eating]] — whether WHEN you eat, independent of what and how much, changes weight
   or cardiometabolic outcomes
 
+<div class="recent-update" data-last-updated="2026-09-27">
+
 ## Type 2 diabetes — prevention, control, and remission
 
 - [[Lifestyle vs Metformin for Diabetes Prevention]] — in prediabetes, whether an intensive lifestyle
@@ -67,8 +75,24 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   T2D into remission, and whether it lasts
 - [[Total Diet Replacement and Type 2 Diabetes Remission]] — whether an energy-restricted total-diet-
   replacement programme achieves remission, and whether remission scales with weight loss
+- [[HIIT vs Continuous Training for Type 2 Diabetes]] — the exercise-modality refinement within T2D:
+  HIIT beats MICT on fitness (moderate certainty) but its glycaemic edge is low-certainty and contested;
+  a small lever below diet/weight, and HbA1c is a surrogate here
 - [[Periodontitis and Systemic Health]] — does treating periodontitis lower HbA1c (causal, moderate
   certainty), and what the dementia arm can and cannot claim
+- [[Resistant Starch and Glycemic Control]] — whether adding a resistant-starch (fermentable-fibre)
+  supplement improves glucose/insulin markers in overweight/obese adults: a small, surrogate-only signal
+  (confidence low), a marginal lever below diet and weight
+- [[Cinnamon and Glycemic Control]] — cinnamon supplements in T2D/PCOS: statistically significant but
+  clinically trivial HbA1c effect (-0.10%), surrogate-only, no hard-outcome or safety evidence; a small
+  drug-dominated add-on (ceiling-is-a-finding)
+- [[PCOS and Modifiable Exposures]] — the `pcos` nucleus. Inositol vs placebo/metformin (Greff 2023 SR+MA):
+  moves metabolic/androgen surrogates but not HOMA-IR/fasting insulin; primary outcome (cycle norm) very-low
+  GRADE; clinical pregnancy null and live birth/miscarriage never pooled. Real residue = non-inferior to
+  metformin with far fewer GI side effects (7% vs 53%) — a tolerability substitution, surrogate-bounded.
+  Diet/weight-loss/exercise PCOS levers are named gaps
+
+</div>
 
 ## Why maintenance is hard, and drug/monitoring routes
 

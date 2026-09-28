@@ -3,10 +3,10 @@ type: framework
 question: Which modifiable exposures reduce the risk of age-related macular degeneration (AMD), for whom, by how much, and how confident can we be?
 aliases: [AMD, Age-Related Macular Degeneration, Macular Degeneration, AMD Prevention, Macular Degeneration Risk Factors]
 authors: [Aune, Dagfinn; Jayedi, Ahmad; Kazemi, Asma; Soltani, Sepideh; Rezaei, Fatemeh; Leitzmann, Michael F; Marques-Couto, Pedro; Coelho-Costa, Ines; Ferreira-da-Silva, Renato; Andrade, Jose Paulo; Carneiro, Angela; Babaker, Raghad; Alzimami, Lama; Al Ameer, Abdullah; Almutairi, Majed; Alam Aldeen, Rahaf; Alshatti, Hamad; Al-Johani, Najwan; Al Taisan, Abdulaziz; Evans, Jennifer; Lawrenson, John G]
-sources: [Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Evans - Antioxidant Supplements AMD Progression Cochrane 2023]
+sources: [Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Singh - Blue-Light Filtering Lenses 2023]
 confidence: low
 created: 2026-08-27
-updated: 2026-09-15
+updated: 2026-09-26
 self_critiqued: 2026-09-15
 relationships:
   related_to:
@@ -171,6 +171,8 @@ infarction and subclinical-CVD risk). AMD and CVD share a vascular/atherosclerot
 precedes which is unresolved — the safe reading is co-occurrence / shared risk substrate, not
 CVD-causes-AMD.
 
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Antioxidant + zinc supplementation (AREDS formula) — RCT-backed *benefit* on progression, defined stratum
 
 Evans 2023 — a gold Cochrane SR+MA — is the first **intervention** arm on this page — RCTs in people who
@@ -218,6 +220,8 @@ not genotype.
 well-nourished American population where supplementation is common – can be extrapolated to other
 settings and populations is unclear.» [@evans2023amdsupp]. Whether the benefit is enhancement or correction of a marginal-intake state
 is untested — a well-nourished cohort cannot separate them.
+
+</div>
 
 ## Decision relevance (Layer 1)
 
@@ -306,5 +310,13 @@ the factor delivers the OR*.
   ranking. `G`-gap.
 - **Aune/Jayedi coreference** — this and the cataract page share held multi-work authors (Aune,
   Jayedi); any later AMD source sharing them is **F/attribution, never type-E independent** corroboration.
+- **Blue-light-filtering lenses do NOT belong on the AMD-prevention menu** — a widely-marketed claim
+  that blue-blocking spectacle lenses protect the macula has **zero RCT evidence**: a gold Cochrane SR
+  found «we were unable to identify any RCT evidence to support the application of blue-light filtering
+  lenses ... for providing macular protection», and separately that «10 out of the 12 major
+  population-based studies that sought to determine whether there was a relationship between light
+  exposure and AMD did not report a positive association». This is *insufficient evidence* (unstudied),
+  not a benefit arm — kept off the ranked levers above. See [[Blue-Light Filtering Lenses]].
+  [@singh2023bluelight] [@singh2023bluelight]
 
 ## References

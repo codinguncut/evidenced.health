@@ -3,13 +3,13 @@ type: deliverable
 title: Blood Pressure
 aliases: [Blood Pressure, Hypertension, High Blood Pressure, Lowering Blood Pressure, BP]
 question: 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?'
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Peters - Blood Pressure Lowering Dementia 2022, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, GRADE - Handbook, ESC - CVD Prevention Guidelines 2021, Aburto - Potassium Cardiovascular 2013, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Naci - Exercise vs Antihypertensive Drugs 2019, Roerecke - Alcohol Reduction Blood Pressure 2017, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Fang - Dietary Magnesium Cardiovascular Diabetes Mortality Meta-Analysis 2016, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, He - Salt Reduction Blood Pressure 2013]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); SPRINT Research Group (org); Peters, Ruth; Moll van Charante, Eric P; Schünemann, Holger; European Society of Cardiology (org); Aburto, Nancy J; Neal, Bruce; Siervo, Mario; Naci, Huseyin; Roerecke, Michael; Norouzzadeh, Mostafa; Look AHEAD Research Group (org); Ma, Chenhan; Chen, Qiongshan; Fang, Xin; Mente, Andrew; He, Feng J]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Peters - Blood Pressure Lowering Dementia 2022, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, GRADE - Handbook, ESC - CVD Prevention Guidelines 2021, Aburto - Potassium Cardiovascular 2013, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Naci - Exercise vs Antihypertensive Drugs 2019, Roerecke - Alcohol Reduction Blood Pressure 2017, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Fang - Dietary Magnesium Cardiovascular Diabetes Mortality Meta-Analysis 2016, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, He - Salt Reduction Blood Pressure 2013, Dibaba - Magnesium Supplementation Blood Pressure 2017, Zhang - Magnesium Supplementation Blood Pressure 2016]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); SPRINT Research Group (org); Peters, Ruth; Moll van Charante, Eric P; Schünemann, Holger; European Society of Cardiology (org); Aburto, Nancy J; Neal, Bruce; Siervo, Mario; Naci, Huseyin; Roerecke, Michael; Norouzzadeh, Mostafa; Look AHEAD Research Group (org); Ma, Chenhan; Chen, Qiongshan; Fang, Xin; Mente, Andrew; He, Feng J; Dibaba, Daniel T; Zhang, Xi]
 confidence: high
 created: 2026-08-10
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-09-25
+self_critiqued: 2026-09-25
+concrete_subject_audited: 2026-09-25
 ---
 
 Lowering blood pressure is one of the few lifestyle-adjacent levers with a proven payoff on hard disease. Randomized drug trials show that dropping the number cuts heart attacks and strokes, and, on newer evidence, dementia as well. The benefit reaches people who have never had heart disease, and it does not disappear as pressure falls into the normal range; the observational "J-curve" that once seemed to warn against going low turns out to be a study artifact.
@@ -35,6 +35,8 @@ A proven relative effect is not a mandate to lower everyone's number. The \~10%-
 This is where a stratum baseline does the work. Rather than treating to a fixed BP threshold, combine the relative effect with a stratum-specific 10-year cardiovascular risk — the kind SCORE2 supplies and against which ESC sets its treatment bands [@esc2021] -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]. BPLTTC's own authors legislate the same rule: physicians should «emphasise its importance on reducing cardiovascular risk rather than focusing on blood pressure reduction itself» [@bplttc2021]. The exact BP reading matters less than the overall risk it sits inside.
 
 None of this refutes the ceiling on lifestyle levers — it refines it. Blood-pressure lowering's relative benefit is proven where lifestyle weight-loss and GLP-1 cardiovascular benefit are not, but its absolute benefit still scales with baseline risk, which is the ceiling's own mechanism. A constant \~10% per 5 mmHg is worth pulling hard for a hypertensive at high cardiovascular risk and barely worth measuring for a low-risk normotensive.
+
+<div class="recent-update" data-last-updated="2026-09-25">
 
 ## The lifestyle levers, and how much each moves the number
 
@@ -88,6 +90,26 @@ An 8-week mindfulness-based programme (MBSR) posts the biggest point estimate on
 
 Higher dietary magnesium tracks lower stroke and type-2-diabetes risk in cohort studies, but as a blood-pressure lever it is weak and probably not independent. The magnesium-rich foods — wholegrains, leafy greens, nuts, beans — are the same whole-food, plant-rich pattern behind DASH and potassium, and the authors cannot rule out that magnesium is simply a **marker** of that diet rather than the active ingredient [@fang2016magnesium]. The base is observational, with no hard-outcome trial. **Transmission: ASSUMED**, and shakier than the rest. So *eat magnesium-rich whole foods* is fine advice, but it is already carried by the DASH recommendation above — magnesium adds no separate, separately-actionable BP lever. Detail on [[Dietary Magnesium and Cardiometabolic Outcomes]].
 
+**Randomized supplement trials sharpen the picture, and land in the same place.** Two gold meta-analyses
+of placebo-controlled trials now isolate the atom from the diet: magnesium supplementation lowers systolic
+pressure by about 2 mmHg (Zhang 2016, 34 trials, general population, SBP -2.00 mmHg [95% CI -3.58 to
+-0.43], DBP -1.78 [-2.82 to -0.73]
+[@zhang2016magnesiumbp]; Dibaba 2017, 11 trials in a
+metabolically-impaired stratum, between-group SBP -2.22
+[@dibaba2017mg]). So the atom does carry a
+small causal effect on the number -- it is not only a marker of a good diet.
+
+Three things still keep it off the lever list. The effect is small and sits on blood pressure, a surrogate
+with no magnesium events trial behind it. It does not select a stratum: Zhang's baseline-BP, baseline-
+magnesium and medication-history interaction tests were all non-significant, so a hypertensive should not
+expect a bigger drop than a normotensive
+[@zhang2016magnesiumbp]. And the likeliest mechanism
+is repletion of a deficit in low-magnesium people, not a dose-response that transports to the already-
+replete -- so correcting a documented shortfall is a real move, while adding magnesium on top of an
+adequate whole-food intake is not.
+
+</div>
+
 ## For a hypertensive, exercise matches a drug on the number -- but the drug's payoff is the proven one
 
 The honest comparator for any lifestyle BP lever is not nothing; it is a first-line antihypertensive. The best evidence placing the two on one axis is a network meta-analysis of 391 randomized trials -- 197 of exercise, 194 of drugs -- that never ran a head-to-head. Compared against control, drugs looked far stronger (about -8.80 vs -4.84 mmHg). But the two arms were measured in different people: the drug trials enrolled hypertensives at a mean systolic pressure over 150 mmHg, the exercise trials people around 132, mostly normotensive. A blood-pressure drop scales with where you start, so those are not the same quantity. Restrict exercise to the hypertensive trials and its effect nearly doubles, erasing the drug's lead: «We did not observe a difference between the SBP-lowering effects of medications and exercise (0.18, 95% CrI −1.35 to 1.68)». [@naci2019exercise]
@@ -135,6 +157,8 @@ But the same trial priced the target. Serious «hypotension, syncope, electrolyt
 
 Registries show a J-shape — risk lowest around 130/75, apparently higher below — which for years read as a warning against lowering pressure far, especially the diastolic number. Run that lower arm through the artifact diagnostics before believing it ([[The U-Shaped Association Artifact]]). The randomized check erases it: BPLTTC finds benefit down below 120 mmHg systolic with no rising hazard in any low-BP stratum [@bplttc2021], and Peters reports «no evidence of a U-shaped re- lation of the effect at any age» for dementia, monotone down to at least 100/70 [@peters2022bp]. So the observational J is confounding and reverse causation (frail, sick people run low pressure), not a treatment effect. The genuine limit on how low to go is SPRINT's adverse-event side above — not the J-curve.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## The levers, ranked — and what is still unknown
 
 Pulling the decision together: a handful of moves lower blood pressure, they are not equal, and the honest ranking weighs how much each moves the number against how sure we are it reaches disease and how realistically a person can sustain it.
@@ -163,9 +187,11 @@ Four gaps are genuine, and none is closed by an obvious source sitting unread.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?' |
-> | **Evidence included** | 19 sources — 10 gold, 8 high |
+> | **Evidence included** | 21 sources — 12 gold, 8 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+
+</div>
 
 ## References

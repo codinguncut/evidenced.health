@@ -8,8 +8,8 @@ cluster: exposure-and-comparator
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-09-10
-self_critiqued: 2026-08-28
+updated: 2026-09-22
+self_critiqued: 2026-09-22
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
@@ -57,6 +57,12 @@ this page's synthesis.
   and a small sub-clinical effect vs an active comparator (and loses at 6 months), because the loose
   controls leave attention/touch/placebo in the estimate -> [[Massage Therapy for Pain and Function]].
   The comparator gradient here *is* the finding.
+- **Total fat — a guideline body applies the comparator problem to ITSELF.** WHO Total Fat 2023's
+  trials cut fat against a *«usual fat intake»* comparator, but real-world fat reduction may swap in
+  free sugars — a comparator the evidence never tested. WHO demoted its own recommendation from strong
+  to conditional on exactly this: the benefit could be erased by the unmeasured substituting arm. The
+  cleanest instance of the comparator concern entering a recommendation's *strength*, in the body's own
+  words -> [[Which Objective Moved This Recommendation]], [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - **White meat — the benefit may be what it displaces, and the swap itself is unmeasured.** Higher
   poultry intake associates with a small all-cause mortality reduction (neutral on CV mortality and,
   per Ramel 2023, null and WCRF-graded as *substantial effects unlikely* on CVD mortality and T2D), but a

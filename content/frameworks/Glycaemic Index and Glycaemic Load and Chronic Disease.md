@@ -15,8 +15,9 @@ relationships:
     - Free Sugars Intake
     - Continuous Glucose Monitoring as a Health Intervention
     - The Underivable Optimum
+    - Diet and Acne
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-27
 self_critiqued: 2026-08-13
 ---
 

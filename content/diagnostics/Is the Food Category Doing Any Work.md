@@ -1,7 +1,7 @@
 ---
 type: diagnostic
 question: When an exposure is a food category, does the category boundary carry information — or is the estimate an average over a mix that describes nothing?
-aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work]
+aliases: [Food Category, Within-Category Variance, Exposure Heterogeneity, Category Boundary, Is the Category Doing Work, Greens Powder, Greens Powders, AG1, Athletic Greens, Super Greens, Can Greens Powders Replace Vegetables]
 authors: [Scientific Advisory Committee on Nutrition (org); Te Morenga, Lisa; Mallard, Simonette; Mann, Jim; Nordic Council of Ministers (org); Astrup, Arne; Dehghan, Mahshid; Mente, Andrew; Srednicka-Tober, Dominika; Leifert, Carlo; Brown, Lisa; Lane, Melissa M; Hall, Kevin D; Aramburu, Adolfo; Poole, Robin; Bhatt, Deepak L; Manson, JoAnn E; Semba, Richard D; Naghshi, Sina; Guo, Jing; Budhathoki, Sanjeev; Bastide, Nadia M; Pierre, Fabrice H F; Corpet, Denis E; Said Abasse, Kassim; Essien, Eno E; Cote, Andre; Mazidi, Mohsen; Katsiki, Niki; Banach, Maciej; Sesso, Howard D]
 sources: [SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, Willett - Nutritional Epidemiology 3e, WHO - Saturated and Trans Fatty Acid Intake 2023, NNR - Nordic Nutrition Recommendations 2023, Astrup - Saturated Fats Reassessment 2020, Dehghan - PURE Fats Carbohydrate Mortality 2017, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, Aramburu - Ultra-Processed Food RCT Review, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Manson - VITAL Marine Omega-3 2019, Semba - Resveratrol Levels Mortality 2014, Naghshi - Dietary Protein Mortality 2020, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Budhathoki - Animal Plant Protein Mortality 2019, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Mente - PURE Healthy Diet Score 2023, Mazidi - Flavonoid Intake and Mortality 2020, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, WCRF - Meat Fish and Dairy Products and Cancer 2018]
 cluster: exposure-and-comparator
@@ -26,7 +26,7 @@ relationships:
     - Tea Consumption and Cardiovascular Risk
     - What a Diet Removes vs What It Adds
 created: 2026-07-27
-updated: 2026-09-14
+updated: 2026-09-25
 ---
 
 *"Eat fish twice a week."* *"Limit red meat."* *"Choose whole grains."* Each names a **category**, and
@@ -236,6 +236,25 @@ be blinded or dosed, so it stays observational. Same design asymmetry, same trap
 grade is a fact about trialability, not evidence that a psyllium sachet beats a bowl of beans for outcomes
 -> [[Dietary Fibre and Health]]. And the isolate's effect is *small* (Brown: «only a small contribution»),
 so even the well-graded object does not carry a large decision.
+
+### Greens powders — an isolate marketed as a vegetable `[2026-09-25, belief-harvest WS-027]`
+
+The greens-powder product class (AG1 and the like) is the isolate case run in reverse of the fibre one
+above: a heterogeneous powdered blend marketed as *replacing vegetables*, where the fibre isolate at
+least had a dosable trial behind it. Two points from this diagnostic apply directly, neither needing a
+product-specific source — and there is none, because an unblindable proprietary blend is exactly the
+streetlight case where no SR exists:
+
+- **A greens powder is an isolate / reformulation, not the food.** It lacks the intact matrix and most of
+  the fibre the whole-vegetable lever runs through (the matrix argument, this page throughout;
+  [[Dietary Fibre and Health]]), so it inherits the isolate's **unproven-equivalence burden**: the claim
+  that it *substitutes for* vegetables is the matrix claim's opposite, and is unevidenced.
+- **Uniformly favourable marketing across every axis is a halo tell, not evidence** — a product praised
+  on energy, immunity, digestion and micronutrients at once, with no outcome trial, is a fact about the
+  marketing, not the food.
+
+So a greens powder may add specific micronutrients, but *replace vegetables* is not a supported claim.
+
 
 ## A fourth case: the boundary IS predictive and still adds nothing `[2026-07-28]`
 
@@ -790,6 +809,21 @@ hypothesis is why: the same saturated fat may behave differently inside cheese v
 finding read as a cheese finding, or a whole-milk finding as a yogurt finding. Full decomposition +
 verdict -> [[Dairy and Cardiometabolic Health]].
 
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
+## Olive oil — a single-food CHD claim that decomposes into pattern + substitution `[2026-09-25, WS-022]`
+
+*Olive oil reduces heart disease* is a food-label claim the held evidence never isolates. Every leg that
+shows a benefit either cannot separate the oil from the whole Mediterranean pattern (PREDIMED — EVOO
+confounded, HR 0.70 on the pattern) or from the fat it displaces (WHO's SFA -> plant-MUFA swap, where *the
+substitution sets the sign*; Zhang's butter -> olive food-swap, model-based observational). The one
+olive-oil-specific number (Zhang: total mortality 0.81, olive per 5 g/d 0.92) is observational and, on the
+CHD-relevant endpoint, **null** (the swap's CVD-mortality arm 0.94, NS) — the surviving signal is on total
+and cancer mortality. So the food label collects credit that belongs to the pattern it marks and the
+comparator it replaces: an isolated-food claim with no isolable causal evidence.
+
+</div>
 
 ## The inverse case — an aggregate where NO sub-component is load-bearing `[2026-08-25, Mente]`
 

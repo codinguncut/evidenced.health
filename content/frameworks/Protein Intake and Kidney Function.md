@@ -2,8 +2,8 @@
 type: framework
 question: Does higher dietary protein harm the kidneys, and in whom?
 aliases: [Protein and Kidney Function, High Protein Kidney Safety, Protein and GFR, Protein Renal Safety, Does Protein Harm the Kidneys, Glomerular Hyperfiltration Protein]
-authors: [Devries, Michaela C; Sithamparapillai, Arjun; Brimble, K Scott; Banfield, Laura; Morton, Robert W; Phillips, Stuart M; Van Elswyk, Mary E; Weatherford, Charli A; McNeill, Shalene H]
-sources: [Devries - Higher Protein Kidney Function Meta-Analysis 2018, Van Elswyk - Protein Renal Health 2018]
+authors: [Devries, Michaela C; Sithamparapillai, Arjun; Brimble, K Scott; Banfield, Laura; Morton, Robert W; Phillips, Stuart M; Van Elswyk, Mary E; Weatherford, Charli A; McNeill, Shalene H; Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun]
+sources: [Devries - Higher Protein Kidney Function Meta-Analysis 2018, Van Elswyk - Protein Renal Health 2018, Lin - Dietary Lifestyle Nephrolithiasis 2020]
 cluster: muscle
 confidence: medium
 relationships:
@@ -14,12 +14,13 @@ relationships:
     - Dietary Protein and Mortality
     - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
     - Obesity and Chronic Kidney Disease Risk
+    - Kidney Stone Recurrence Prevention
     - Surrogate Outcomes
     - The Estimate-to-Action Gap
     - Rating Certainty of Evidence
 created: 2026-08-07
-updated: 2026-09-17
-self_critiqued: 2026-09-17
+updated: 2026-09-23
+self_critiqued: 2026-09-23
 ---
 
 The standing objection to a higher-protein target (the \~1.6 g/kg muscle number, the older-adult
@@ -160,10 +161,26 @@ pushing toward *removing a barrier to eating more protein* — runs the **same w
   above the US RDA has no adverse effect on blood pressure»; the two largest RCTs (DASH, OmniHeart) found
   higher-protein arms LOWERED BP in mild hypertensives, and the broader evidence base shows an inverse
   protein-BP relation (esp. when protein replaces carbohydrate), «regardless of source» (animal ≈ plant).
-- **Kidney stones — insufficient evidence, not a null.** «The evidence from the current review is limited
-  and inconsistent with regard to the role of protein intake and the risk of kidney stones» (a Norway
-  evidence-based review likewise: «inconclusive»). This is the *insufficient-evidence* state, not
-  *no effect* — a named sub-gap.
+- **Kidney stones — Van Elswyk read it as insufficient; a gold incidence MA now grades it positive.**
+  Van Elswyk: «The evidence from the current review is limited and inconsistent with regard to the role of
+  protein intake and the risk of kidney stones» (a Norway evidence-based review likewise: «inconclusive»)
+  — the *insufficient-evidence* state, not *no effect*.
+  - **[2026-09-23, Lin 2020] refinement — the incidence sub-gap is no longer insufficient.** A gold SR+MA
+    of incident nephrolithiasis pools **animal protein RR 1.1 (1.02-1.19)** (borderline-significant, no
+    heterogeneity) and **total meat RR 1.24 (1.12-1.39)** as risk factors for *first* stones in the general
+    population [@lin2020]. So on the general-
+    population *incidence* stratum, higher animal protein is now a graded (if modest and borderline)
+    positive association, not merely «insufficient» — a type-F upgrade of Van Elswyk's read. The mechanism
+    matches the recurrence one (animal protein -> lower urine citrate/pH, higher uric acid). Still a
+    highest-vs-lowest contrast with no dose-response, so read it as direction + rough size, not a threshold.
+  - **Stratum split, not a contradiction**: the incidence association (Lin, general
+    population) sits beside a *strong, stratum-conditional* recurrence lever — in established stone-formers
+    (esp. hyperuricosuria) the EAU restricts excess animal protein at LE 1b/Strong via specific urinary
+    changes (hypocitraturia, low pH, hyperoxaluria, hyperuricosuria). Different outcomes (incidence vs
+    recurrence) on different strata, concordant in direction, not opposed — the stone-forming lever is
+    stratum-conditional because its mechanism (existing urinary abnormalities) is most active in
+    stone-formers, not a formally-tested effect-modification interaction. See
+    [[Kidney Stone Recurrence Prevention]] for the full incidence-vs-recurrence distinction.
 - **Blood markers of kidney function — little/no effect.** No pattern of abnormality across 10 studies;
   the lone exception was BUN just past the UL at 3.6 g/kg (4x RDA) in 5 young men, which the authors flag
   as possibly «real or an artifact» given the tiny sample.

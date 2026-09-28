@@ -2,8 +2,8 @@
 type: tension
 question: Does dietary carbohydrate, via insulin, drive fat storage and lower energy expenditure independently of calories (a metabolic advantage of carb restriction), or is fat gain governed by energy balance with macronutrient split close to irrelevant at equal calories?
 aliases: [Carbohydrate-Insulin Model, CIM vs EBM, Energy Balance Model of Obesity, Is a Calorie a Calorie, Metabolic Advantage of Low-Carb, Does Insulin Drive Obesity, Carbohydrate Insulin Hypothesis]
-authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D; Szczerba, Edyta; Chung, Mei; Lichtenstein, Alice H]
-sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
+authors: [Hall, Kevin D; Guo, Juen; Ludwig, David S; Farooqi, I Sadaf; Speakman, John R; Gardner, Christopher D; Szczerba, Edyta; Chung, Mei; Lichtenstein, Alice H; Winters-van Eekelen, E; de Mutsert, R]
+sources: [Hall - Obesity Energetics Diet Composition 2017, Hall - Energy Balance Model of Obesity 2022, Ludwig - Carbohydrate-Insulin Model 2021, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -18,8 +18,8 @@ relationships:
     - Fatty Liver MASLD and Weight Loss
     - The Observational-Trial Discordance
 created: 2026-08-01
-updated: 2026-09-03
-self_critiqued: 2026-09-05
+updated: 2026-09-26
+self_critiqued: 2026-09-26
 ---
 
 **The decision this bears on:** for someone choosing what to eat to lose or avoid gaining fat, does the
@@ -216,6 +216,33 @@ caution. [inferred from @chung2014]
 `tension`. It **raises confidence in the energy-balance pole modestly** — a third domain (hepatic fat)
 falls to the isocaloric test — without a clean-[E] tag, because the shared isocaloric-design logic is the
 honest limit on the independence. -> [[Fatty Liver MASLD and Weight Loss]], [[Free Sugars Intake]]
+
+<div class="recent-update" data-last-updated="2026-09-26">
+
+## The IIFYM corollary — "if it fits your macros" is true for the scale, false for the liver and for free-living intake `[2026-09-26]`
+
+The energy-balance verdict is routinely over-generalized into the fitness-culture rule **"if it fits your
+macros (IIFYM), the food source is irrelevant."** The robust pole licenses a *narrow* version of that and
+no more. The belief conflates three different quantities, and the answer flips across them — so the honest
+artifact is a **disambiguation, not a contradiction** (the parameter table's fourth column is NO on every
+row, which is the point).
+
+| What "source is irrelevant" is claimed of | Held evidence | Verdict |
+|---|---|---|
+| **Body composition**, calories AND protein matched, enforced isocalorie | isocaloric-feeding MA: +26 kcal/d EE and +16 g/d fat for lower-*fat*, i.e. macro split near-inert [@hallguo2017] | **TRUE (narrowly)** — the belief's kernel |
+| **Liver fat**, calories matched, *same fat grams*, fatty-acid source swapped | unsaturated-vs-saturated SMD **-0.80 (-1.09; -0.51)**, a large reduction at fixed energy [@winterseekelen2020] | **FALSE** — source moves an organ outcome the scale never shows |
+| **Free-living energy intake**, macros matched, eaten ad libitum | UPF crossover matched calories/macros/sugar/fibre/sodium yet drove **+508 ± 106 kcal/day** and +0.9 kg [@hall2019] | **FALSE** — "fits your macros" does not hold intake constant |
+
+So IIFYM is right about the **scale under enforced isocalorie** and wrong twice over: within-macro source
+still moves **liver fat** (fatty-acid type, same grams -> [[Fatty Liver MASLD and Weight Loss]]), and macro-
+matching does **not** hold **spontaneous intake** constant once eating is free-living (the mechanical rate/
+energy-density channel, not appetite -> [[Ultra-Processed Food and Health Outcomes]]). The macro-*ratio*
+itself is genuinely inert where the belief happens to be checkable directly — Winters' total-fat<->carb swap
+is null (SMD 0.01) — so the failure is not "macros don't matter" but "matched macros do not certify matched
+*outcomes* or matched *intake*."
+[inferred from @winterseekelen2020; @hall2019]
+
+</div>
 
 ## Hidden insight
 

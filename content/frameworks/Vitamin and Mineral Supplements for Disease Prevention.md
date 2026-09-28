@@ -3,7 +3,7 @@ type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E; Pittas, Anastassios G; Evans, Jennifer; Lawrenson, John G]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Lin - Dietary Lifestyle Nephrolithiasis 2020]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -21,9 +21,10 @@ relationships:
     - Exercise for Preventing Falls in Older Adults
     - Vitamin B12 Status in Vegetarian and Vegan Diets
     - Age-Related Macular Degeneration and Modifiable Exposures
+    - Cinnamon and Glycemic Control
 created: 2026-07-30
-updated: 2026-09-15
-self_critiqued: 2026-09-15
+updated: 2026-09-23
+self_critiqued: 2026-09-23
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -455,6 +456,22 @@ association (pooled ARD 0.00%, -0.88 to 0.87) and vitamin D alone was unstudied 
 [@kahwati2018]. So a null-benefit
 supplement here also carries a small, real, moderate-certainty harm — a route-c contraindication signal
 for stone-formers, not merely an opportunity cost.
+
+**The stone harm converges with the nephrolithiasis literature, and the delivery form flips the sign.**
+A separate SR+MA of nephrolithiasis risk factors reaches the same combination-supplement harm, and adds
+the observational and dietary contrast this fracture-review page cannot see: *dietary* calcium is
+**protective** (RR 0.83) while supplemental calcium raises stone risk
+[@lin2020] — the food-vs-supplement sign-flip
+-> [[Kidney Stone Recurrence Prevention]], [[Is the Food Category Doing Any Work]]. The two reviews are
+**not independent evidence** (both rest on WHI CaD as the dominant Ca+D stone RCT), so this is a
+convergence/refinement, not a second confirmation: what Lin states from observational data, Kahwati's RCT
+pool bounds at moderate SoE.
+
+| Parameter | Kahwati 2018 (this page) | Lin 2020 (kidney-stone page) | Same quantity? |
+|---|---|---|---|
+| Ca+D combination -> incident stones, RCT-pooled | RR 1.18 (1.04-1.35), 3 RCTs, moderate SoE | «cosupplementation conferred significant risk» in RCTs | YES — both RCT, both WHI-anchored |
+| Calcium alone -> stones, RCT | null (ARD 0.00%, -0.88 to 0.87) | «not in RCTs» | YES — RCT calcium-alone null |
+| Dietary calcium -> stones | not measured | protective, RR 0.83 | NO — Lin only (food, not supplement) |
 
 **A second harm channel for supplemental calcium — cardiovascular (Bolland 2011, `high`, CONTESTED).**
 Beyond kidney stones, calcium supplements with or without vitamin D carry a disputed **cardiovascular** harm

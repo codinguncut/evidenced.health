@@ -20,8 +20,8 @@ relationships:
     - Upgrading Observational Evidence
     - Fluoride and Bone Health
 created: 2026-08-01
-updated: 2026-09-18
-self_critiqued: 2026-08-13
+updated: 2026-09-26
+self_critiqued: 2026-09-26
 ---
 
 Menopause is a **life-stage stratum**, not a disease and not a fringe topic: it changes *which levers
@@ -111,6 +111,8 @@ exposure side). So a normal BMI does not clear a menopausal woman of central-adi
 waist.
 
 
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Limb 3 — the levers that respond (and the one that does not)
 
 [inferred from @ambikairajah2019; @nams2022]
@@ -131,7 +133,20 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   association with muscle mass ...; therefore, it is likely that interventions other than hormone therapy
   will have to be developed to aid in the retention of muscle in aging women.»
   [@nams2022]
-  -> [[Protein and Resistance Training for Muscle and Strength]].
+  -> [[Protein and Resistance Training for Muscle and Strength]]. **Two guards on the popular "1.6-2.0 g/kg
+  + lifting" prescription for this stratum.** First, **the target is a region, not a point** — Morton's
+  break point is «1.62 (1.03, 2.20)» g/kg/day, a wide CI on a knee whose biphasic fit is itself
+  non-significant (p=0.079) — its *existence* rests on the acute-MPS mechanism, not on a statistically
+  located break — so the move is *reaching* \~1.6, not hitting a decimal or exceeding it; a bare
+  "1.6" launders a non-significant midpoint into a target (the held protein discipline). Second, **a
+  menopause-SPECIFIC elevated requirement — above the general older-adult intake — is an unestablished
+  route-(b) effect-modification claim.** The mechanism is plausible (estrogen withdrawal -> anabolic
+  resistance), but plausibility is not the positive interaction evidence route (b) demands; absent a trial
+  showing the dose-response *differs* by menopausal status, the held general target transports here by
+  route (a) (the lever applies; baseline muscle-loss risk is higher), not by a special dose. So: RT +
+  reaching \~1.6 g/kg is the lever, the exact number stays a region, and "menopausal women need MORE protein
+  than other older adults" is a named gap, not a finding.
+  [inferred from @morton2018]
 - **Accelerated bone loss** -> the fracture lever. HRT *does* prevent bone loss and fracture here (a real
   benefit) -> [[Hormone Therapy After Menopause]]; weight-bearing/resistance training is the lifestyle
   route ([[Exercise and Bone Mineral Density]] — a real BMD gain, though its transmission to the
@@ -146,6 +161,7 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   the fat-mass MA's HRT subgroup shows lower trunk fat but no prevention of overall gain (observational
   subgroup — a body-line, not a headline).
 
+</div>
 
 ## Synthesis — the sex-symmetry with testosterone (type-A)
 

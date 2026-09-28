@@ -193,8 +193,6 @@ and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle 
 no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
 (EWGSOP2 sets none) [@cruzjentoft2019].
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
 Falls are where fractures, hospitalisation and lost independence actually occur, and here the evidence is
@@ -257,8 +255,6 @@ the exercise component» — so read it as reinforcing the movement rock already
 support for a cognitive-training or nutrition-alone lever.
 [@zheng2026healthspan]
 -> [[Intrinsic Capacity and Multidimensional Healthspan]]
-
-</div>
 
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
@@ -511,8 +507,6 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## Four things this ranking cannot tell you
 
 - **The loop is open.** This page grades whether the reasoning is coherent and faithful to its sources — it
@@ -537,7 +531,5 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
-
-</div>
 
 ## References

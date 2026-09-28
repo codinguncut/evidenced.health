@@ -2,13 +2,13 @@
 type: concept
 question: When a large, consistent observational signal meets a null or weak randomized trial, which is right — and why do they disagree?
 aliases: [Observational vs Trial Discordance, Big Observational Weak RCT, Observational-RCT Conflict, Credibility vs GRADE, Convincing but Very Low]
-authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A; Reith, Christina; Cholesterol Treatment Trialists' Collaboration (org)]
-sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Reith - Statin Muscle Symptoms 2022]
+authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A; Reith, Christina; Cholesterol Treatment Trialists' Collaboration (org); Salvo, Elizabeth M; Ferko, Nicole C; Cash, Sarah B; Gonzalez, Ailish; Kahrilas, Peter J]
+sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Reith - Statin Muscle Symptoms 2022, Salvo - Proton Pump Inhibitor Safety Umbrella 2021]
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-07
-self_critiqued: 2026-09-04
+updated: 2026-09-25
+self_critiqued: 2026-09-25
 relationships:
   related_to:
     - Food Groups and Health Outcomes - A Dose-Response Matrix
@@ -54,6 +54,7 @@ this page's.
 | **Total dietary fat** `[2026-08-25; Hooper 2012 pooled 2026-09-04]` | diet-heart-era observational/ecological signal that *total*-fat intake raises CHD | WHI DM Trial (n=48,835) **null** (CHD HR 0.97, stroke 1.02, CVD 0.98) — and the *pooled* RCT class agrees: Hooper 2012's fat-**reduction** subgroup (50,655 pp, containing WHI) is RR 0.97 (0.87-1.08) on CV events, while its fat-**modification** subgroup moved events (RR 0.82/0.83) | the RCTs that tested the **reduction** exposure (total-fat cut, fat->carbohydrate) are null as a *class*, not just in WHI; the RCTs that tested the **right** exposure (fat *modification*, SFA->unsaturated) AGREE with the causal lever. Same wrong-exposure resolution, now generalized from one trial to a moderate-GRADE pooled RCT base — WHI under a diluted \~70%-of-design contrast, \~40% power, is the extreme case of it -> [[Low-Fat Dietary Pattern and Cardiovascular Disease]] |
 | **Hearing aids -> cognition** `[2026-08-28; ACHIEVE first-hand 2026-09-04]` | 8-cohort pool HR 0.81 (0.76-0.87), I2=0% — a 19% lower cognitive-decline hazard among hearing-aid users vs uncorrected hearing loss (Yeo 2023) | ACHIEVE RCT (N=977, first-hand): **null overall** on the continuous 3-year cognition slope (diff 0.002 SD [-0.077 to 0.081], p=0.96); a pre-specified 48% subgroup reduction only in the higher-risk ARIC arm (pinteraction=0.010, lenient alpha<0.10) — Lin/ACHIEVE first-hand, loci on [[Hearing Loss and Dementia]] | **healthy-user self-selection in the intervention arm** (mechanism #3) erases the average effect; a signal survives only where **absolute baseline risk** is high (ARIC). But match quantities first: the overall null is on a *continuous slope* Yeo never estimated, and on the commensurable incidence-HR quantity ACHIEVE (0.90 [0.61-1.33]) *includes* Yeo's 0.81/0.83 — so the RCT is underpowered there, not contradicting. The subgroup interaction is route-(b)-form but hypothesis-generating (contamination: de-novo control drop-in 19.4% vs 7.8%). A confounded-observational + baseline-risk + partly-non-commensurable resolution -> [[Hearing Loss and Dementia]] |
 | **Red meat -> T2D** `[2026-08-29]` (the UNTESTED pole) | NutriGrade "high" per-100 g association, RR 1.17 (1.08-1.26) — robust, consistent, dose-responsive across prospective cohorts (Schwingshackl 2017) | **none held in either direction** — no Mendelian-randomization and no feeding trial isolates red-meat (or heme-iron) -> T2D; the coded exposure is a decontextualized quantity, not a meal or pattern | **UNRESOLVED — held open both ways.** A robust association with *no* natural experiment to null it (as coffee's did) or confirm it (as LDL/BMI's did); healthy-user + guideline-adherence confounding stay unexcluded. Less resolved than coffee, not exonerated -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]] |
+| **PPI adverse outcomes** `[2026-09-25]` (the DRUG case — a *commensurable* RCT exists) | umbrella of 42 SR/MAs, mostly observational: hip fracture RR 1.20, AKI RR 1.61, C. difficile OR 1.99, gastric cancer OR 2.50 — consistent in direction, GRADE very low (Salvo 2021) | COMPASS RCT (Moayyedi, n=17,598, pantoprazole vs placebo, \~3y) — «PPI use was not associated with any of these adverse events with the exception of enteric infections» [@salvo2021ppi] | resolves cleanly TOWARD the RCT — because a **drug is blindable**, the trial tested the *same* exposure the cohorts did, so no wrong-exposure escape applies; the observational signals are **confounding by indication** (sicker patients get PPIs), not drug effect. The one signal both streams share — infection — is the believable one -> [[Proton Pump Inhibitors and Adverse Outcomes]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
 they are three instances of one *appraisal structure*. That is what makes the page a type-A synthesis
@@ -116,6 +117,16 @@ safe" — both skip the missing test.
   measured. A null on the isolate does not refute the pattern; it refutes the isolate. This is the
   telos's *the blindable form is a different exposure* rule and the fibre-isolate-out-grades-fibre-food
   case -> [[Is the Food Category Doing Any Work]].
+  - **The mechanism has a boundary — and a DRUG lies outside it (the PPI case) `[2026-09-25]`.** This
+    escape is available only when the exposure *cannot* be blinded. A **drug** can be blinded and
+    randomized, so its RCT tests the **same** exposure the cohorts measured — the wrong-exposure
+    resolution is unavailable, and a null RCT *is* decisive against the observational signal. PPI harms
+    are the worked instance: the COMPASS RCT nulled nearly every observationally-associated adverse
+    outcome, leaving **confounding by indication** (mechanism #3 — sicker patients get PPIs) as the
+    whole story -> [[Proton Pump Inhibitors and Adverse Outcomes]]. So the drug case is the *positive
+    control* for confounding standing alone: where food discordances stay open because the trial tested
+    a different exposure, the PPI discordance closes because it did not.
+    `[type-F — bounds mechanism #1 by exposure-blindability; the drug case is what the food cases cannot be]`
 - **Duration / latency mismatch.** A months-to-years trial cannot reproduce a lifetime exposure to a
   long-latency outcome (atherosclerosis, cancer). The trial's null can be a *power/duration* null, not
   a *no-effect* null -> [[The Insufficient-Evidence Statement]].

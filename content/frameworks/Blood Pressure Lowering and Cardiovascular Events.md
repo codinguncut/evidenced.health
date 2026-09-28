@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -11,6 +11,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Baseline Risk and the Relative-Absolute Split
     - Sodium Intake and Blood Pressure
+    - Uric Acid Lowering and Blood Pressure
     - The U-Shaped Association Artifact
     - SCORE2 Baseline Risk and the ESC Treatment Thresholds
     - Dementia Prevention and Modifiable Risk Factors
@@ -19,9 +20,12 @@ relationships:
     - Alcohol and Mortality and Vascular Disease
     - Physical Activity Dose and Mortality
     - Cardiorespiratory Fitness and Mortality
+    - Stress Management and Cardiometabolic Health
+    - Garlic and Blood Pressure
+    - Dietary Nitrate and Blood Pressure
 created: 2026-07-29
-updated: 2026-09-04
-self_critiqued: 2026-09-04
+updated: 2026-09-25
+self_critiqued: 2026-09-25
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -282,6 +286,77 @@ levers at once -> [[Vegetarian Dietary Patterns and Mortality]]. Read through th
 transmission transfers — and the vegan diet simultaneously moves LDL, BMI and CRP, so the BP channel is
 not separable as the cause. A dietary-pattern BP association, not a titratable lever; the SBP number is
 a surrogate here as for the sodium/alcohol routes above. [inferred from @landry2024vegetarian]
+
+## A fifth lifestyle BP route — yoga, the least-warranted of them `[2026-09-23, Geiger]`
+
+Geiger's 2025 SR+MA (30 RCTs, 2283 prehypertensive-to-hypertensive adults, gold-tier) adds yoga — a
+stress-mitigation lever ([[Stress Management and Cardiometabolic Health]]) — as a BP route, and it is the
+**weakest-warranted route on this page**, below even the vegan association. The headline against waitlist
+is respectable (SBP «MD = -7.95 mmHg», DBP -4.93) but three things collapse it as a titratable events
+lever: (1) GRADE **very low**, I2=90%; (2) against an *active* control the SBP effect is **not
+significant** (-4.16, 95% CI -10.76 to 2.44, p=0.22); (3) under 24h-ABPM the SBP effect **disappears**
+(only DBP survives) [@geiger2025yoga]. Read through this
+page's \~10%-per-5-mmHg channel, even the waitlist -7.95 would predict \~16% CV-event reduction *if* the
+pharmacological transmission transferred — but that transmission is unproven for any lifestyle route
+(the caveat that governs the sodium/alcohol/vegan routes above), the fair-comparator estimate is null,
+and the SBP fall is partly a clinic-BP measurement artifact. **Layer-1 sizing: yoga is a small, uncertain
+refinement, not a big rock** — its apparent big-rock size (-7.95) is a waitlist/expectancy inflation, and
+net of the best realistic substitute (any supervised activity, which the active-control arms already
+supply) the yoga-specific SBP increment is not distinguishable from zero. It earns a place only as a
+low-cost adjunct for someone who will actually do it, never as a substitute for salt reduction,
+medication, or structured exercise.
+[inferred from @geiger2025yoga; @bplttc2021]
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
+## A sixth route — garlic, a big clean surrogate mover with no hard-outcome warrant `[2026-09-25, weave: Ried + Ma]`
+
+Garlic supplementation is a **supplement** BP route ([[Garlic and Blood Pressure]]), and placing it beside
+the lifestyle routes above exposes a structure they only imply: **among the non-drug BP levers, surrogate
+magnitude and hard-endpoint transmission run inverse — a big office-SBP mover need not be a well-warranted
+route.** In the hypertensive stratum garlic's office SBP effect is large and unusually clean — -8.38 mm Hg
+(-11.13, -5.62), I2=0, placebo-controlled across 4 trials (Ried), replicated at «-8.121, 95% confidence
+interval [CI]: -10.95 to -5.28» mm Hg (Ma, 12 trials)
+[@ried2008; @ma2025garlic]
+— the largest held among placebo-controlled *supplement* levers, and on par with the biggest lifestyle
+movers. It is **not** the single largest non-drug lever: structured exercise restricted to the same
+hypertensive stratum is larger at -8.96 (Naci, above), but exercise is unblindable, so its estimate
+carries an expectancy component garlic's placebo-controlled trials remove — the two are not the same
+quantity (the baseline-and-comparator caution the Naci section already makes). Yet garlic is the *least*
+validated of the set: office BP only (no ambulatory pool), no cardiovascular endpoint ever trialled, and
+publication bias unresolved (Ma's results and limitations sections contradict each other on it). So a
+lever with one of the biggest, cleanest surrogate numbers is the one whose transmission to events — the
+caveat governing every route on this page — is *most* completely unproven.
+
+| Non-drug BP lever (stratum) | Office SBP (mm Hg) | Same quantity? | ABPM tested? | Hard CV endpoint? | Pub-bias clean? |
+|---|---|---|---|---|---|
+| Exercise, hypertensive (Naci) | -8.96 (-10.27, -7.64) | office MD, **unblindable** | -- | observational only | unblindable |
+| Garlic, hypertensive | -8.38 (Ried) / -8.12 (Ma) | office MD, placebo-ctrl | no | never trialled | uncertain |
+| Yoga, mixed | -7.95 waitlist; -4.16 NS active | office MD, waitlist-inflated | vanishes on ABPM | no | -- |
+| Slow breathing | -5.62; -2.14 NS at low RoB | office MD | unreported | no | -- |
+| Nitrate (beetroot) | -4.4 (Norouzzadeh) | office MD | -- | no | -- |
+| Urate lowering | \~-3.3 proxy; primary is SDM 0.321 | NOT mm Hg (SDM) | no | no | Egger asym. p=0.032 |
+| Salt substitution (SSaSS) | -3.34 (Neal) | office MD | -- | **yes, measured** | -- |
+| BP drug (BPLTTC) | per-5-mm-Hg -> \~10% events | events metric | -- | **yes, measured** | -- |
+
+The ordering is the finding, but it must be read by *stratum-matched, comparator-matched* quantities, not
+by the bare number — the same discipline the Naci section applies (restricting exercise to hypertensives
+nearly doubled its effect). Once matched, the inverse pattern is real: the levers with the biggest, cleanest
+office-SBP moves (garlic placebo-controlled; exercise, though unblindable) have the **weakest** endpoint
+warrant — none trialled, or observational only — while the two rows validated on *measured* events (SSaSS
+-3.34; the drug channel) carry **modest** achieved surrogate moves. Big-and-clean on the surrogate and
+strong-on-the-endpoint are different levers. (Urate lowering is the one non-comparable cell: Qu reports
+SDM, so its \~3 mm Hg is a design-discounted proxy from Agarwal 2013, not the same quantity.) **Layer-1
+sizing: garlic ranks as a small rock despite the big surrogate number** — net of a mature low-harm BP drug
+(which *is* validated on events) the marginal hard-outcome benefit garlic adds is unmeasured and, given the
+missing endpoint and unresolved pub-bias, cannot be assumed nonzero; Ma's «further studies are unnecessary»
+claim cannot hold for CV outcomes that were never trialled. Garlic earns a place only as a low-cost adjunct
+in the hypertensive stratum for someone who will take it, never as a substitute for a route with a measured
+endpoint.
+
+[inferred from @ried2008; @ma2025garlic; @naci2019exercise; @geiger2025yoga; @chaddha2019; @norouzzadeh2025nitrate; @qu2017urate; @neal2021; @bplttc2021]
+
+</div>
 
 ## Decision relevance
 

@@ -2,14 +2,14 @@
 type: concept
 question: Does WHERE fat is stored (ectopic / intra-organ vs subcutaneous) determine cardiometabolic risk more than total fat mass — and what follows for who is at risk, and for how the risk reverses?
 aliases: [Ectopic Fat, Depot-Specific Risk, Personal Fat Threshold, PFT, Twin Cycle Hypothesis, Fat Overflow Hypothesis, Adipose Expandability, Intra-organ Fat, Metabolically Healthy Obesity, MHO, Subcutaneous vs Visceral Fat, Fat Storage Location]
-authors: [Taylor, Roy; Holman, Rury R; Kramer, Caroline K; Zinman, Bernard; Retnakaran, Ravi; Yusuf, Salim; Anand, Sonia S; Opio, Jacob; Croker, Emma E; Odongo, George; Attia, John; Wynne, Katie; Rinella, Mary E]
-sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, AASLD - MASLD Practice Guidance 2023]
+authors: [Taylor, Roy; Holman, Rury R; Kramer, Caroline K; Zinman, Bernard; Retnakaran, Ravi; Yusuf, Salim; Anand, Sonia S; Opio, Jacob; Croker, Emma E; Odongo, George; Attia, John; Wynne, Katie; Rinella, Mary E; Mantovani, Alessandro; Byrne, Christopher D; Bonora, Enzo; Targher, Giovanni]
+sources: [Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, AASLD - MASLD Practice Guidance 2023, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
 cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-09-03
-self_critiqued: 2026-09-05
+updated: 2026-09-23
+self_critiqued: 2026-09-23
 relationships:
   related_to:
     - Total Diet Replacement and Type 2 Diabetes Remission
@@ -84,6 +84,43 @@ with intra-organ fat, but a step removed from the depot doing the damage -> [[Su
 (TyG) index — sits one further step removed again: it predicts cardiovascular events but is a marker of
 the atherogenic-dyslipidemia / IR state these depots generate, not the depot or a treatment target
 -> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
+
+### The same marker-vs-cause doubt reaches the intra-organ depot itself `type-F`
+
+The tension above asks whether *visceral* fat is causal or a readout of intra-organ fat. Mantovani's
+cohort meta-analysis pushes the same doubt one level further in — onto **liver fat**, the depot Taylor
+calls «pivotal». NAFLD predicts incident T2D strongly (pooled HR 2.22, 95% CI 1.84-2.60; fully adjusted
+1.85, 1.47-2.22), and the authors argue biological plausibility (hepatic insulin resistance,
+pro-diabetogenic hepatokines) — yet they state, in the same paper, that "It remains uncertain whether
+NAFLD causally increases diabetes risk or is a marker of other shared risk factors" and that "the
+observational design of the eligible studies does not allow for proving causality."
+[@mantovani2018]. Three dissociation lines make
+this a substantive caveat, not boilerplate:
+
+- **Genetic (natural experiment):** carriers of the PNPLA3 variant show "a dissociation between NAFLD
+  and insulin resistance" — high liver fat without the expected IR
+  [@mantovani2018].
+- **Experimental:** "specific manipulation of liver fat is insufficient to affect insulin
+  sensitivity/glycemia" in animal models
+  [@mantovani2018].
+- **Ethnic:** "obese black individuals exhibit a lower prevalence of NAFLD but similar type 2 diabetes
+  prevalence" — liver fat and dysglycemia coming apart across populations
+  [@mantovani2018].
+
+**Why this refines rather than files a new tension.** Mantovani holds *both* positions (plausibility AND
+the dissociation caveat), so it cannot be set as one pole against Taylor's «pivotal» without
+cherry-picking half of a multi-position source (not-joined check (iii)). Read together with the visceral
+tension above, the pattern is consistent: each fat depot on the way in (visceral, then the intra-organ
+depots including liver fat) is a candidate treacherous surrogate — a strong *predictor* whose *causal*
+transmission to dysglycemia is only partly evidenced, with genetic/experimental cuts against a clean
+fat-drives-IR chain. **The decision-relevant residue is the reversal gap:** Mantovani notes "it remains to be
+definitely proven that improving the liver condition in NAFLD decreases risk of developing diabetes"
+[@mantovani2018] — so liver fat earns its place
+as a **prognostic marker and monitoring handle** more firmly than as a validated **treatment target**
+for diabetes prevention. The lever (draw the depots down with an energy deficit) is unchanged, since it
+acts on the shared upstream driver regardless of which depot is the proximate cause
+-> [[Surrogate Outcomes]].
+[inferred from @mantovani2018]
 
 ## Why BMI misleads — the individual-vs-population gap
 

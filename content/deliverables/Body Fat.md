@@ -31,8 +31,6 @@ moves which outcome, and whether the loss lasts -- is a separate decision, and i
 
 
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## Where fat sits carries the risk — read the depot, not the scale
 
 The first decision about body fat is not *how much* but *where*. Cardiometabolic risk tracks the fat
@@ -246,7 +244,6 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
-</div>
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -567,8 +564,6 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## The decision: read the depot, target it, and know what losing it buys
 
 Put together, the *state* of a person's body fat settles three things and hands off a fourth. **Where the
@@ -603,7 +598,5 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
-
-</div>
 
 ## References

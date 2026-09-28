@@ -16,8 +16,10 @@ relationships:
     - Time-Restricted Eating
     - Deficiency Repletion vs Enhancement
     - GLP-1 and Lean Mass
+    - Branched-Chain Amino Acids and Insulin Resistance
+    - Blood Flow Restriction Training
 created: 2026-08-06
-updated: 2026-08-19
+updated: 2026-09-24
 self_critiqued: 2026-08-19
 ---
 
@@ -87,6 +89,14 @@ g/kg/meal, and protein g/kg/day are three different denominators, and the synthe
 because it claims a shared *mechanism*, never a shared value. Do not equate 2.8 g leucine/meal with
 0.40 g/kg/meal with 1.2 g/kg/day — each answers a different question on a different axis. (The
 per-meal-vs-per-day denominator table is on [[Protein Intake for Older Adults]].)
+
+**Do not confuse dietary leucine here with *circulating* BCAA as a disease marker.** This page treats
+ingested leucine/BCAA as an **anabolic trigger to be dosed up** for muscle in older adults — a benefit
+lever. That is a different object from the *fasting circulating* BCAA concentration that tracks insulin
+resistance and diabetes risk, which is a downstream *readout* of the IR state (insulin resistance
+causally raises it), not a dietary-harm signal -> [[Branched-Chain Amino Acids and Insulin Resistance]].
+Same amino acids, opposite decision roles; the confusion would wrongly read *eat more leucine for muscle*
+against *high BCAA predicts diabetes*. [inferred from @wang2017bcaa]
 
 ## Not independent backing — one research programme
 

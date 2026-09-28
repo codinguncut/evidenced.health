@@ -5,11 +5,11 @@ question: What does physical activity and structured exercise do to each patient
 aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs Walking, Exercise and Mortality]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-15
+updated: 2026-09-25
 compiled: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
-sources: [Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, WHO - Physical Activity Web Annex Evidence Profiles 2020, WCRF - Diet Nutrition Activity Cancer 2018, Paluch - Daily Steps Mortality 2022, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Kivimaki - Physical Inactivity Dementia IPD 2019, Livingston - Dementia Prevention 2024, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, Momma - Muscle-Strengthening Activities and Mortality 2022, Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018, Khurshid - Weekend Warrior Accelerometer 2023, Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022, Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Currier - Resistance Training Prescription NMA 2023, Sherrington - Exercise Preventing Falls 2019, el Hadouchi - Power vs Strength Older Adults, Mohebbi - Exercise Bone Mineral Density Postmenopausal Meta-Analysis 2023, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021]
+self_critiqued: 2026-09-22
+concrete_subject_audited: 2026-09-22
+sources: [Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, WHO - Physical Activity Web Annex Evidence Profiles 2020, WCRF - Diet Nutrition Activity Cancer 2018, Paluch - Daily Steps Mortality 2022, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Kivimaki - Physical Inactivity Dementia IPD 2019, Livingston - Dementia Prevention 2024, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, Momma - Muscle-Strengthening Activities and Mortality 2022, Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Khurshid - Weekend Warrior Accelerometer 2023, Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022, Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Currier - Resistance Training Prescription NMA 2023, Sherrington - Exercise Preventing Falls 2019, el Hadouchi - Power vs Strength Older Adults, Mohebbi - Exercise Bone Mineral Density Postmenopausal Meta-Analysis 2023, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Centner - Blood Flow Restriction Strength Hypertrophy Older Adults 2019]
 ---
 
 ## Physical activity is a big rock, and almost nothing you can buy replaces it
@@ -76,8 +76,19 @@ viewing is the worst-behaving form, carrying the strongest link to type 2 diabet
 The two axes interact. High activity substantially offsets the mortality cost of a long sitting day: about
 60-75 minutes of moderate-to-vigorous activity eliminates the excess risk from prolonged sitting, though
 even that does not fully neutralize the harm tied specifically to television time
-[@ekelundsitting2016]. The action is to pull both
-levers — add movement *and* break up sitting — rather than treat one as a substitute for the other.
+[@ekelundsitting2016].
+
+How much movement it takes depends on how you measure it. A later harmonized analysis used accelerometers
+rather than questionnaires (9 cohorts, 44,370 adults). It put the offsetting dose at roughly 30-40 minutes
+of moderate-to-vigorous activity a day (median 34) — about half the self-reported figure
+[@ekelund2020joint]. The most active third, near
+that 34-minute mark, carried no significant penalty from sitting; the risk concentrated in the least
+active third (\~2 minutes a day). These two numbers are not the same quantity: the device estimate
+*attenuates* the sitting-mortality link, the self-report one *eliminates* it. But they point the same way —
+less activity is needed to blunt a long sitting day than questionnaire data implied.
+
+The action is to pull both levers — add movement *and* break up sitting — rather than treat one as a
+substitute for the other.
 
 **And the context of the movement matters.** Leisure-time activity protects, but occupational physical
 activity runs the other way: in men, high job-related activity associated with *higher* mortality
@@ -107,6 +118,8 @@ moderate continuous training on VO2max in head-to-head pooling, though the gap i
 inconsistent — so the real case for intervals is **time-efficiency**, getting a similar fitness return in
 fewer minutes, not a categorically larger one [@poon2024].
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Strength training pays on a separate axis
 
 Muscle-strengthening activity lowers mortality **independent of aerobic exercise**. Any amount associates
@@ -128,6 +141,21 @@ times a week; sex is not a reason to train differently. These are surrogate outc
 size), so they earn their place through function, not through a proven mortality effect — the detail lives
 in [[Resistance Training Prescription - Load Sets and Frequency]] and, for the protein that supports it,
 [[Protein and Resistance Training for Muscle and Strength]].
+
+**When heavy load is off the table, a cuff recovers most of the muscle.** That prescription assumes a
+person who can lift heavy; an older adult with arthritic joints, fragile bone or a post-surgical limb
+often cannot. Adding blood-flow restriction -- a limb cuff that partially occludes flow during light
+exercise -- closes much of the gap. In a meta-analysis restricted to older adults (Centner 2019, 11
+trials, N=238), low-load BFR matched heavy load on muscle mass (ES 0.21, 95% CI -0.14 to 0.56,
+non-significant) while staying below it on strength (ES -0.42, -0.70 to -0.14), and it beat plain light
+load on strength (ES 0.86, 0.42 to 1.30) [@centner2019bfr].
+
+It is a workaround for the load-intolerant, not an upgrade over heavy lifting: the evidence is
+low-certainty and surrogate-only (no falls or function endpoints), and the cuff's interaction with the
+comorbidities that motivate it is understudied, so a cardiovascular screen comes first
+-> [[Blood Flow Restriction Training]].
+
+</div>
 
 ## How to spend a fixed exercise budget
 
@@ -213,6 +241,8 @@ function, and exercise is safe for the arthritic joint [@messier2013idea]
 [@rauschosthoff2018exercise]. If
 fear of movement is the barrier, the evidence says start.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## What this page cannot tell you
 
 The honest limits are as decision-relevant as the effects. The mortality and cardiovascular numbers are
@@ -237,9 +267,11 @@ proven true.
 > | | |
 > |---|---|
 > | **Question** | What does physical activity and structured exercise do to each patient-important outcome, by modality, dose and intensity — what is the dose-response shape, and how do the levers rank for a given person? |
-> | **Evidence included** | 29 sources — 20 gold, 7 high, 2 moderate |
+> | **Evidence included** | 31 sources — 22 gold, 7 high, 2 moderate |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+
+</div>
 
 ## References

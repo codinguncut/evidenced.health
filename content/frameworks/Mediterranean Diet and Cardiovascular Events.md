@@ -1,7 +1,7 @@
 ---
 type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
-aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT]
+aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT, Olive Oil and Heart Disease, Does Olive Oil Reduce CHD, Extra Virgin Olive Oil, Olive Oil Cardiovascular]
 authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco; Aune, Dagfinn]
 sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
 cluster: dietary-patterns
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-09-03
-self_critiqued: 2026-09-05
+updated: 2026-09-25
+self_critiqued: 2026-09-25
 ---
 
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
@@ -95,6 +95,38 @@ than arriving from a separate route, so this is refinement/consistency, not inde
   independent-E (the RCT and the cohort MA are not independent routes to one claim).
 
 
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
+## Is olive oil's benefit separable from the pattern? (the isolated-food CHD claim, WS-022)
+
+*Olive oil reduces heart disease* is among the most-repeated single-food claims, but no held source
+isolates the oil from either the pattern that carries it or the fat it displaces. Three legs, three
+grains of exposure, and not one is a clean olive-oil -> CHD causal estimate:
+
+| Leg | What is actually contrasted | Endpoint | Design / certainty | Isolates olive oil? |
+|---|---|---|---|---|
+| Whole pattern (PREDIMED, this page) | MedDiet+EVOO vs low-fat advice | hard CV events, HR 0.70 | RCT (propensity-repaired) | **NO — EVOO confounded with the whole pattern** |
+| Nutrient swap (WHO, [[Saturated Fat Intake and Replacement]]) | SFA -> plant-MUFA | CVD events | RCT = 1 trial, 52 people, RR 3.00 (very low); the *moderate* grade is observational-only (RR 0.90) | **NO — a nutrient swap, and the lone RCT is a tiny null** |
+| Food swap (Zhang 2025, [[Saturated Fat Intake and Replacement]]) | butter -> olive oil | mortality | observational NHS/HPFS, model-based: total 0.81, but the swap's **CVD-mortality arm is null** (0.94, NS) | **NO — observational, modelled, CVD arm null** |
+
+**The emergent read (type-A).** Every leg that shows a benefit either cannot separate olive oil from the
+pattern (PREDIMED) or from the comparator it displaces (WHO and Zhang — *the substitution sets the sign*,
+not the oil). Where an olive-oil-specific number does exist (Zhang), it is observational and modelled, and
+on the CHD-relevant endpoint it is **null** — the signal that survives sits on *total and cancer*
+mortality, not CVD. So *olive oil reduces CHD* is a **pattern-and-substitution claim wearing a single-food
+label** -> [[Is the Food Category Doing Any Work]], [[What a Diet Removes vs What It Adds]].
+
+**Decision consequence.** Olive oil earns its place two ways the evidence supports: as a good fat to
+**replace butter/SFA with** (the swap carries it), and as a **component of the Mediterranean pattern** that
+as a whole cut events. What the evidence does not support is olive oil as a standalone CHD-lowering act
+poured onto an otherwise-poor diet — the same EVOO-to-a-poor-diet over-read flagged above.
+
+**Gap (type-G).** No trial isolates olive oil against a matched non-olive comparator on CHD; the only
+olive-oil RCT evidence is PREDIMED's whole-pattern arm and WHO's single 52-person trial. An
+isolated-olive-oil hard-CHD RCT is the missing evidence, and is unlikely ever to be run.
+
+</div>
 
 ## The provenance caveat travels with the estimate (symmetric standards)
 
@@ -232,6 +264,8 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
 [@dinu2018] -> [[Is the Food Category Doing Any Work]],
 [[Measurement Error in Dietary Assessment]].
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
@@ -243,8 +277,12 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
   eaters is the open question the authors themselves flag.
 - **Not a component-isolation trial** — it cannot say whether EVOO, nuts, fish, or the whole gestalt
   did the work (the observed-healthy-pattern-is-not-evidence-for-a-component caveat applies).
+- **Mediterranean vs DASH is outcome-specific, not a demonstrated win** — PREDIMED gives Mediterranean the
+  hard-event RCT DASH lacks, but DASH is the better-studied pattern on the BP *surrogate*, and where the
+  two meet on the same endpoint (Ge's network) they are near-equivalent. So "Med is better" is an
+  availability asymmetry (Med was tested on events; DASH was not), not a head-to-head result -> [[Named Diet Programs Compared]] (DASH-vs-Mediterranean section).
 
-
+</div>
 
 ## Self-critique `[run 2026-07-29, before commit]`
 
@@ -295,6 +333,8 @@ the same cardiometabolic effect. Named here only as a cross-link; the caveats li
   point is genuinely new against the SFA single-nutrient LDL argument, so it earns its place (F), and is
   routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## The F&V component leg — the observational estimate PREDIMED cannot isolate `[2026-08-13]`
 
 Fruit and vegetables are a defining MedDiet component, and Aune 2017 supplies the **component-level**
@@ -310,5 +350,25 @@ limit.
   MAs on overlapping cohorts, so their agreement is shared-lineage F, not two independent witnesses to
   the MedDiet's benefit. The RCT (Estruch) and the observational legs remain genuinely different routes;
   the two *observational* legs do not.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
+## Self-critique `[run 2026-09-25, after the olive-oil-isolation section (WS-022)]`
+
+- **No overclaim toward or against olive oil.** The section neither asserts an isolated olive-oil CHD
+  benefit nor denies olive oil is useful — it states precisely what the three legs can and cannot
+  isolate. The one CHD-specific olive number (Zhang's swap CVD arm) is reported as *null*, symmetric with
+  how a plant-oil-harm finding would be read, and the surviving total/cancer signal is kept observational.
+- **No fabricated separability.** The parameter table's *isolates olive oil?* column is NO on every leg,
+  grounded in each source's own design limit (PREDIMED can't decompose the pattern; WHO's MUFA RCT is one
+  52-person trial; Zhang is model-based observational). The claim is an *absence* of isolable evidence,
+  which is the honest type-G gap, not a manufactured verdict.
+- **No laundered extraction.** synthesis over held pages; no new `[EXTRACTED]` minted and no
+  `sources:` added — the WHO and Zhang figures are cross-referenced to [[Saturated Fat Intake and Replacement]],
+  where they are extracted and audited. Every figure re-verified against that page before writing.
+
+</div>
 
 ## References

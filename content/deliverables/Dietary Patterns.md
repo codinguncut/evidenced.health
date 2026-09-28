@@ -1,15 +1,17 @@
 ---
 type: deliverable
 title: Dietary Patterns
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+self_critiqued: 2026-09-25
+concrete_subject_audited: 2026-09-25
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
-authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org); Barnes, Lisa L.; Chiavaroli, Laura; Huang, Liyan; Parvizian, Michael K]
-sources: [Astrup - Saturated Fats Reassessment 2020, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Churuangsuk - Diabetes Diets Umbrella Review 2022, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Barnes - MIND Diet Trial Cognitive Decline, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Huang - MIND Diet Cognitive Function Decline, Parvizian - Dietary Patterns COPD Meta-Analysis 2020]
+authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org); Barnes, Lisa L.; Chiavaroli, Laura; Huang, Liyan; Parvizian, Michael K; Zhang, Yu]
+sources: [Astrup - Saturated Fats Reassessment 2020, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Churuangsuk - Diabetes Diets Umbrella Review 2022, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019,
+  Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015,
+  Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Barnes - MIND Diet Trial Cognitive Decline, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Huang - MIND Diet Cognitive Function Decline, Parvizian - Dietary Patterns COPD Meta-Analysis 2020, Chiavaroli - DASH Cardiometabolic Umbrella Review, Zhang - Butter Plant Oils Mortality 2025]
 confidence: low
 created: 2026-07-30
-updated: 2026-09-15
+updated: 2026-09-25
 ---
 
 ## Above a floor of adequacy, the diet label barely matters
@@ -252,6 +254,8 @@ in that stratum: «no one diet type is superior over others for weight managemen
 The near-null is not the end of the story. It is a race with three finishers that clear it -- and each
 one separates on an energy deficit, a food component, or a risk stratum, never on the label itself.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Three findings clear the near-null, and each is about energy or a component, not a name
 
 Above the floor the label barely matters, but three findings do move a decision. None is a label
@@ -280,6 +284,27 @@ randomisation irregularities, so this is a randomised trial with propensity repa
 contrast. (Ge's network separately flags Mediterranean as the one pattern holding an LDL
 edge at 12 months -- a different, surrogate outcome, so two unrelated designs point at the same pattern
 without either witnessing the other's finding -> [[Named Diet Programs Compared]].)
+
+**But olive oil is not separable from the pattern that carried it.** No held study isolates olive oil
+as a single-food intervention on coronary disease, and the three closest attempts each fail to lift
+the oil out of something else. PREDIMED confounds the oil with the whole diet around it. One 52-person
+RCT tested replacing saturated fat with plant monounsaturated fat: RR 3.00 (0.33-26.99), rated very
+low, with only observational support at RR 0.90 (0.84-0.96)
+[@who2023saturated].
+
+Zhang modelled replacing
+butter with olive oil across three US cohorts -- the one place an olive-oil-specific number exists:
+the swap cut total mortality (HR 0.81, 0.77-0.84), but the cardiovascular-mortality arm of the
+butter-to-plant-oil swap was null (0.94, 0.86-1.03, NS)
+[@zhang2025butter], and the
+estimate is observational and modelled. So the surviving benefit falls on total and cancer mortality,
+not on the coronary endpoint the single-food claim is usually about.
+
+The decision this changes is
+concrete: buying more olive oil and eating the Mediterranean pattern are not the same intervention.
+The single-food claim splits into a pattern (eat the whole diet) plus a substitution (use olive oil
+instead of butter), and the trials back those two acts, not olive oil poured over an otherwise poor
+diet -> [[Is the Food Category Doing Any Work]].
 
 The second whole-pattern RCT on hard events is null, and it does not truly clash with PREDIMED. The WHI
 Dietary Modification trial randomised **48,835 postmenopausal women** to a low-fat pattern — total fat
@@ -346,6 +371,10 @@ Each exception makes the same point from a different direction: what separated t
 deficit (remission), a food component in a high-risk stratum (Mediterranean), or a lipoprotein response
 in one subgroup (low-carb apoB) -- never the label. Which axis actually carries a dietary difference is
 the next question.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-25">
 
 ## Trace the difference to a measurable axis, not the label
 
@@ -516,6 +545,24 @@ blood-pressure effect *independent of* the weight and sodium changes that accomp
 is graded is that DASH lowers blood pressure and atherogenic lipids as a whole pattern — not that any
 one component, nor DASH over another protective pattern, is doing the work.
 
+**DASH and Mediterranean are graded on different endpoints.** The two patterns are routinely set
+against each other, yet they have never met in a trial, and each is best evidenced on a different
+outcome -- DASH on blood pressure (a surrogate, above), Mediterranean on hard events (PREDIMED,
+above). Neither has been shown to beat the other on the other's home endpoint. DASH has no hard-outcome
+RCT, only cohort associations at GRADE low such as incident CVD RR 0.80 (0.76-0.85)
+[@chiavaroli2019], and that umbrella review
+still concludes «there remains a need for large randomized trials of the effect of the DASH dietary
+pattern on clinical CVD outcomes» [@chiavaroli2019].
+
+Where both patterns are measured on the same surrogate, Ge's network sets them side by side as
+moderate-macronutrient diets, their difference below the pre-specified importance bar
+-> [[Named Diet Programs Compared]].
+
+So *which is better, DASH or Mediterranean* is the wrong question:
+the two are graded on different outcomes, and on any shared endpoint they sit near-null against each
+other. Each pattern's evidence tracks which endpoint its trials measured, not which pattern wins.
+
+
 ### The vegetarian pattern: a modest signal that does not reward strictness
 
 The vegetarian leg lands a modest all-cause signal but caps at the same confound the whole class hits.
@@ -593,6 +640,10 @@ fabric cannot yet separate from its co-travellers; and the diets people argue ab
 least hard-outcome evidence. So the question is not *which brand* but *what do I actually do* — which is
 where the four axes point.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Get above the floor, then choose the pattern you will keep
 
 **Get above the floor first.** The measurable gain sits in clearing the adequacy/energy screen —
@@ -644,9 +695,11 @@ less than whether a person keeps it.
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 40 sources — 23 gold, 16 high, 1 weak |
+> | **Evidence included** | 42 sources — 24 gold, 17 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+
+</div>
 
 ## References

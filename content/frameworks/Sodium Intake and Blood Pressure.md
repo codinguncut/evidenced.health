@@ -1,9 +1,9 @@
 ---
 type: framework
 question: How much sodium, and what does reducing it actually buy?
-aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016]
+aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline, Sea Salt, Himalayan Salt, Pink Salt, Is Sea Salt Healthier, Table Salt vs Sea Salt, Specialty Salt, Iodized Salt, Salt Type]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020]
 cluster: sodium-bp
 nucleus: true
 confidence: medium
@@ -17,8 +17,8 @@ relationships:
     - DASH Diet and Blood Pressure
     - Should Sodium Reduction Be Population-Wide or Targeted
 created: 2026-07-26
-updated: 2026-08-27
-self_critiqued: 2026-08-27
+updated: 2026-09-25
+self_critiqued: 2026-09-23
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -502,7 +502,23 @@ g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Populati
 - **Any low- or middle-income-country evidence.** All RCTs were run in Australia, Europe, North America
   and New Zealand; cohorts in Europe, Japan and the USA. The PICO setting is "All countries" and
   transportability is never discussed -- while the guideline's stated motivation is LMIC-framed.
+- **Any salt-provenance distinction.** The guideline treats "salt" as sodium chloride and never
+  addresses whether the *type* of salt matters -- see the standing note below, which the belief that
+  sea/Himalayan salt is healthier makes worth stating.
 
+[inferred from @who2012]
+
+## Salt type does not change the sodium — sea and Himalayan salt carry the same BP burden `[2026-09-25, belief-harvest run 17 B2]`
+
+The BP lever is the **sodium ion**, and all edible salt is sodium chloride whatever its provenance --
+table, sea, and Himalayan salt deliver essentially the same sodium per gram, so specialty salts carry
+the **same BP burden gram-for-gram**. Their trace-mineral content differs, but the amounts are
+nutritionally negligible at culinary doses: to get a meaningful mineral dose from the trace fraction you
+would first have to eat a BP-harmful quantity of salt. The one real difference runs **backwards** for
+the "natural salt is healthier" belief -- table salt is commonly **iodine-fortified** and most specialty
+salts are not, so switching away from iodized salt removes a population deficiency-correction vehicle and
+can *lower* iodine intake -> [[Excess Iodine Intake and Thyroid Disease]] (iodized salt is held there as
+the structural, population-level iodine-deficiency lever).
 
 [inferred from @who2012]
 
@@ -711,5 +727,36 @@ WHO distilled — so it is a guidance-family confirmation of *direction* while c
 number (telos divergence class 1: a population-standpoint threshold pick), not a second independent
 witness. No `[E-independent]`; the surrogate-high / hard-outcome-very-low reading is unchanged.
 [inferred from @nnr2023]
+
+## Sodium is pleiotropic — a second outcome channel: kidney-stone recurrence
+
+Sodium reduction pays on a patient-important outcome beyond blood pressure. In the stone-former
+stratum, high sodium intake raises urinary calcium (reduced tubular reabsorption), lowers urinary
+citrate (bicarbonate loss), and raises sodium-urate crystal risk — so «Calcium stone formation can be
+reduced by restricting sodium and animal protein», and restricted salt is beneficial specifically
+«if there is high urinary sodium excretion» (LE 1b, Strong)
+[@eau2026uro]. Caveat on the causal weight of sodium
+*alone*: the positive sodium-risk correlation was «confirmed only in women» and «There have been no
+prospective clinical trials on the role of sodium restriction as an independent variable in reducing
+the risk of stone formation» [@eau2026uro].
+
+**The incidence channel now carries a gold magnitude `[2026-09-23, Lin 2020]`.** Beyond the EAU
+recurrence lever, a gold SR+MA of *incident* nephrolithiasis in the general population pools high vs low
+dietary sodium at **RR 1.38 (1.21-1.56)** — «high in-take of dietary sodium increased the risk by 38%»,
+via hypercalciuria [@lin2020]. This is a
+type-F magnitude upgrade over the guideline: the EAU statement gave the *direction* for recurrence, Lin
+supplies a *pooled RR* for incidence — but it is **not** an independent second witness (Lin's cohorts
+likely overlap the Curhan/NHS data EAU rests on, and its sodium contrast is highest-vs-lowest
+observational with no dose-response), so it sizes the direction, not a threshold, and `[E-independent]`
+is not claimed. Incidence (Lin) and recurrence (EAU) are a stratum **distinction**, not a tension
+-> [[Kidney Stone Recurrence Prevention]].
+
+**Layer-1 consequence — the same lever, two rocks.** Because sodium reduction moves both BP and stone
+risk, its *marginal* rank rises for anyone in both strata: a stone former already motivated on BP
+gets stone prevention as a co-benefit at no extra adherence cost, and vice versa. This is the
+pleiotropy guard on the drug-substitution rule — a BP drug that captures the blood-pressure benefit
+does **not** shrink the sodium lever's *stone-channel* value (substitution is outcome-specific).
+-> [[Kidney Stone Recurrence Prevention]]
+[inferred from @eau2026uro; @lin2020]
 
 ## References

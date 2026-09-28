@@ -2,13 +2,13 @@
 type: deliverable
 title: Blood Lipids and ApoB
 icon: material-symbols-light:cardiology
-concrete_subject_audited: 2026-09-15
+concrete_subject_audited: 2026-09-25
 question: 'What is the relationship between apoB-containing lipoproteins and atherosclerotic cardiovascular disease — how settled is it, which number best captures a person''s risk and where do the numbers diverge, how much does moving that number change hard events, does it matter whether diet or a drug does the moving, and for whom is acting warranted?'
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, Helgadottir - Cholesterol Not Particle Concentration, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Wood - SAMSON Statin Nocebo 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Livingston - Dementia Prevention 2024, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Kamstrup - Lipoprotein a Mendelian Randomization, Burgess - LPA Variants Coronary Disease Mendelian Randomization 2018]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, Helgadottir - Cholesterol Not Particle Concentration, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Wood - SAMSON Statin Nocebo 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Livingston - Dementia Prevention 2024, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Kamstrup - Lipoprotein a Mendelian Randomization, Burgess - LPA Variants Coronary Disease Mendelian Randomization 2018, Kovacic - Coenzyme Q10 Statin Myopathy Meta-Analysis 2025]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-21
-self_critiqued: 2026-09-21
+updated: 2026-09-25
+self_critiqued: 2026-09-25
 ---
 
 The particle that carries cholesterol into an artery wall, not the cholesterol itself, is what
@@ -152,8 +152,6 @@ That said, real dietary levers on apoB exist — they are just modest and route-
 No head-to-head trial has randomized a diet-lowered versus drug-lowered apoB to hard events — a
 genuine gap, not a settled equivalence.
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## Whether to act is a baseline-risk decision, and imaging can defer it
 
 Because the relative effect is constant, the whole decision turns on **absolute** risk. Estimate a
@@ -205,7 +203,7 @@ absolute requirement is the point: it is why lowering Lp(a) enough to matter is 
 causal-*existence* finding still does not close the treatment question — no Lp(a)-lowering outcome
 trial is yet held. -> [[Lipoprotein(a) and Cardiovascular Risk]]
 
-</div>
+<div class="recent-update" data-last-updated="2026-09-25">
 
 ## The statin's real costs are smaller than its reputation
 
@@ -219,12 +217,30 @@ the symptom burden a statin produced was also produced by an identical placebo �
 the symptom real but not statin-specific. [@wood2020samson]
 Half those patients successfully restarted.
 
+**The supplement people reach for does not fix it.** Coenzyme Q10 is the popular remedy, and the
+mechanistic story is tidy -- statins do lower circulating CoQ10. But the one held meta-analysis
+(Kovacic 2025, seven RCTs, n=389) reports a pain reduction that is statistically significant yet
+fragile: a weighted mean difference of -0.96 on a 0-10 scale with an upper confidence bound of -0.03,
+which turns non-significant when any of several single trials is dropped.
+[@kovacic2025coq10]
+
+The tell is where the benefit sits: it concentrates in trials that did not require a history of statin
+muscle symptoms to enrol, while the trials that did require reported symptoms show no significant
+effect. [@kovacic2025coq10] That
+discordance is consistent with a nocebo or non-specific-pain explanation, read through the held SAMSON
+evidence above; Kovacic reads it instead as dilution masking a small real effect, and the
+subjective-only endpoint cannot separate the two. CoQ10 is cheap and safe, so a time-limited personal
+trial costs little, but it must not delay or replace an effective statin
+-> [[Coenzyme Q10 Supplementation for Statin Muscle Symptoms]].
+
 **New-onset diabetes is real, but small.** Unlike the muscle fear, this is a genuine pharmacological
 effect: statins raise new diabetes diagnoses by \~10% at low/moderate intensity and \~36% at high, an
 absolute excess near 1.2 per 1,000 person-years at standard doses. [@reith2024diabetes]
 It works by nudging glycemia up a fraction, so it lands almost entirely on people already at the
 diabetes threshold — and the cardiovascular benefit already nets it out. Neither harm changes the
 start-or-continue decision for someone with a real indication. -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]]
+
+</div>
 
 ## Eggs and dietary cholesterol: close to a non-lever
 
@@ -251,7 +267,7 @@ dementia incidence (about 8% per 1 mmol/L, midlife-specific), which adds to the 
 without changing the cardiovascular verdict. [@livingston2024]
 -> [[Dementia Prevention and Modifiable Risk Factors]]
 
-<div class="recent-update" data-last-updated="2026-09-21">
+<div class="recent-update" data-last-updated="2026-09-25">
 
 ## What to do with this
 
@@ -279,10 +295,10 @@ baseline risk you bring to it.
 > | | |
 > |---|---|
 > | **Question** | 'What is the relationship between apoB-containing lipoproteins and atherosclerotic cardiovascular disease — how settled is it, which number best captures a person''s risk and where do the numbers diverge, how much does moving that number change hard events, does it matter whether diet or a drug does the moving, and for whom is acting warranted?' |
-> | **Evidence included** | 26 sources — 13 gold, 13 high |
+> | **Evidence included** | 27 sources — 14 gold, 13 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
 
 </div>
 

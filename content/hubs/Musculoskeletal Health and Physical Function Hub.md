@@ -39,6 +39,11 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   vs conventional slow strength) matters for physical function in older adults: power beats strength on
   function tests (SMD 0.43, GRADE HIGH) and on muscle power (0.99), but no trial measured daily-life
   activity or falls, so the function->participation link stays a gap
+- [[Blood Flow Restriction Training]] — the route-(c)/(e) workaround for the person who cannot load
+  heavy (older, comorbid joints/bones, rehab): a limb cuff during light-load work reaches
+  heavy-load-comparable hypertrophy (ES 0.21, ns vs HL) but below-heavy-load strength (ES -0.42), and
+  beats light load alone on strength (ES 0.86); low confidence (11 studies, n=238, mostly PEDro 4),
+  safety in older adults insufficient-evidence
 - [[Exercise Interventions and Sports Injury Prevention]] — which exercise prevents sport injury:
   strength training cuts injuries to <1/3 (RR 0.315, the standout), proprioception helps, STRETCHING
   does not (tight null); RT's one causal-grade patient-important outcome, in young athletes
@@ -52,6 +57,10 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Knee Osteoarthritis and Modifiable Levers]] — for knee OA, which modifiable exposures reduce pain
   and preserve function, and how they rank (weight loss the dominant lever; appraises the risk/function
   levers, not the clinical management of established disease)
+- [[Boswellia for Osteoarthritis]] — the botanical symptom-relief facet of the OA cluster (Yu gold SR-MA,
+  7 RCTs n=545): pain/function WMDs favour Boswellia but I2 up to 99% from product-standardization
+  differences, small/low-quality trials, no NSAID head-to-head — a low-priority marginal adjunct, not a
+  structural lever; specify the AKBA-standardized extract, not the shelf label
 - [[Knee Osteoarthritis Incidence and Risk Factors]] — the DEVELOPING-OA counterpart (Duong gold SR+MA):
   which exposures raise risk of incident knee OA as route-(a) prognostic associations — obesity dominant
   (aOR 1.17/BMI-unit, 77% of the attributable fraction), prior injury (aOR 2.67), occupational load (the

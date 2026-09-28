@@ -2,8 +2,8 @@
 type: framework
 question: Does a healthy dietary PATTERN (the whole diet as the unit, not a single nutrient) lower all-cause mortality, how strong is the evidence, and does the specific pattern label matter?
 aliases: [NESR Dietary Patterns Mortality, DGAC 2020 Dietary Patterns, Healthy Dietary Pattern Mortality, Dietary Pattern Death Risk, Pattern as Unit of Analysis]
-authors: [Boushey, Carol J; Ard, Jamy D; Bazzano, Lydia; Heymsfield, Steven B; Mayer-Davis, Elizabeth J; Sabate, Joan; Snetselaar, Linda; Van Horn, Linda; Schneeman, Barbara O]
-sources: [Boushey - Dietary Patterns All-Cause Mortality 2020]
+authors: [Boushey, Carol J; Ard, Jamy D; Bazzano, Lydia; Heymsfield, Steven B; Mayer-Davis, Elizabeth J; Sabate, Joan; Snetselaar, Linda; Van Horn, Linda; Schneeman, Barbara O; Whalen, Kristine A; Judd, Suzanne; McCullough, Marjorie L; Flanders, W Dana; Hartman, Terryl J; Bostick, Roberd M]
+sources: [Boushey - Dietary Patterns All-Cause Mortality 2020, Whalen - Paleolithic Mediterranean Mortality 2017]
 cluster: dietary-patterns
 confidence: medium
 relationships:
@@ -17,9 +17,10 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Baseline Risk and the Relative-Absolute Split
     - Which Objective Moved This Recommendation
+    - Inflammation as a Modifiable Lever
 created: 2026-09-07
-updated: 2026-09-08
-self_critiqued: 2026-09-07
+updated: 2026-09-24
+self_critiqued: 2026-09-24
 ---
 
 The all-cause-mortality anchor for the `dietary-patterns` cluster, orbiting the nucleus
@@ -90,6 +91,91 @@ classify meat», and the white-vs-red-meat, dairy-type, and refined-carbohydrate
 *least* consistent across the evidence
 [@boushey2020]. Read the grade as attaching
 to the *aggregate pattern*, not to any food inside it.
+
+## The Paleolithic pattern enters — and ranks below Mediterranean in the same cohort (Whalen REGARDS)
+
+This is the **paleo pattern's first appearance in the fabric**, and the exposure is not "eating paleo":
+it is a **derived pattern SCORE** built from a baseline Block-98 FFQ, in which each participant gets a
+sex-specific quintile rank (1-5) on each food group, rewarding foods characteristic of the pattern and
+penalizing uncharacteristic ones [@whalen2017paleo].
+The Paleolithic score (14 components, range 14-70) rewards fruit/vegetable diversity, lean meat, and
+calcium-independent-of-dairy while penalizing dairy, grains, sugar and salt; the Mediterranean score (11
+components, range 11-55) is the more-established comparator and, unlike the paleo score, includes grains,
+moderate alcohol and dairy [@whalen2017paleo]. The
+two scores were moderately correlated (r = 0.64). So a high score marks an overall dietary/lifestyle
+*profile*, not a prescribed diet — the observed-healthy-population caveat applies in full: a pattern
+score cannot isolate any one of its components.
+
+[@whalen2017paleo] — REGARDS prospective cohort,
+n = 21,423 US Black and White adults aged >=45, stroke-belt oversampled; 2,513 deaths over a median
+6.25 y. Fully-adjusted HRs, highest vs lowest quintile (P-trend for each unless noted):
+
+| Outcome | Paleo Q5-v-Q1 | Mediterranean Q5-v-Q1 |
+|---|---|---|
+| All-cause | 0.77 (0.67, 0.89) | 0.64 (0.55, 0.74) |
+| Cancer | 0.72 (0.55, 0.95) | 0.64 (0.48, 0.84) |
+| Cardiovascular | 0.78 (0.61, 1.00) P-trend 0.06 | 0.68 (0.53, 0.88) |
+| Other non-injury | 0.77 (0.60, 0.98) | 0.56 (0.43, 0.74) |
+
+Two decision-relevant reads, both against the held pattern evidence at the margin:
+
+- **The Mediterranean score consistently out-performs the Paleolithic score in the *same* cohort with
+  the *same* method** — a mild *refinement* of Boushey's *label-barely-matters* conclusion, not a
+  contradiction of it. Both labels clear a quality floor and both are protective (the coarse
+  label-agnostic claim survives), but two labels scored identically here still separate by magnitude,
+  and the authors attribute the gap to *what each score includes and how shared components are weighted*
+  rather than to construction artefact [@whalen2017paleo]. Sensitivity analysis located much of the paleo signal in two foods: removing nuts and red
+  and processed meat attenuated the paleo all-cause association by 15.6% and 14.3% (to HR 0.89 and 0.88,
+  CIs now touching 1.0), and the Mediterranean score more modestly (8.6%, 4.5%) — «removal of the nuts
+  and the red and processed meats components attenuated the observed associations for all-cause mortality
+  for those in the fifth relative to those in the first quintile by 15.6% and 14.3%, respectively»
+  [@whalen2017paleo]. So this is not a clean
+  independent verdict on *paleo the diet*; it is a pattern-score profile whose protective signal leans on
+  the same big-rock foods (more nuts, less processed meat) the rest of the fabric already ranks.
+- **Confounder adjustment nearly halved the effect — the healthy-user liability made visible.** From a
+  minimally-adjusted model to the full one, the all-cause reduction fell from 41% to 23% for paleo and
+  from 51% to 36% for Mediterranean, «particularly smoking status»: «risk was statistically significantly
+  41% (HR: 0.59; 95% CI: 0.51, 0.67) and 51% (HR: 0.49; 95% CI: 0.42, 0.56) lower, respectively ... After
+  additional adjustment for potential confounders, particularly smoking status, the association of each
+  score with all-cause mortality was somewhat attenuated [to 23% (HR: 0.77; 95% CI: 0.67, 0.89) and 36%
+  (HR: 0.64; 95% CI: 0.55, 0.74) lower risk ...]» [@whalen2017paleo]. A large, measured move under adjustment is exactly the signature of residual
+  confounding by the health-conscious bundle — the authors name it: «Limitations include the potential
+  for residual confounding from insufficiently characterized or unmeasured aspects of a healthy
+  lifestyle» [@whalen2017paleo].
+
+**Confidence for the paleo facet is LOW despite the source's HIGH tier** — confidence grades total web
+support, not design, and the paleo-pattern -> mortality relationship rests here on a *single* observational
+cohort («the current study is the first investigation of an association of a Paleolithic diet pattern with
+all-cause or cause-specific mortality» [@whalen2017paleo]). The load-bearing limits, none removable by one cohort:
+
+- **Residual confounding** by the healthy-eater/healthy-lifestyle profile is the central threat and is not
+  excluded (see the halving above); HR 0.77 / 0.64 is a signal, not an established causal effect.
+- **Transportability:** REGARDS is US Black and White adults >=45 with the stroke belt oversampled — a
+  specific support-factor profile, and the authors flag that «the results may not be generalizable to the
+  entire US population» [@whalen2017paleo]. This is
+  not a reasonably-healthy general-population sample.
+- **Dietary measurement error:** exposure is a baseline FFQ, the field's binding constraint
+  ([[Measurement Error in Dietary Assessment]]); relative (not absolute) scoring meant «few people were
+  eating a true Mediterranean or Paleolithic diet», which the authors judge «likely resulting in
+  underestimating the potential of the diets» [@whalen2017paleo] — attenuation, not inflation, on this axis.
+- **Cardiovascular arm is the weakest:** the paleo CVD HR crossed 1.00 (P-trend 0.06); a directly-adverse
+  paleo association among *current smokers* reached interaction P = 0.04 but its stratum CIs included 1.0
+  and the authors attribute it to chance — not a route-(b) effect-modification claim the fabric should
+  bank. Median 6.25 y is moderate follow-up.
+
+**Not independent-E of the held Mediterranean base — F/corroboration only.** Whalen's Mediterranean result
+agrees with the held Med-diet evidence, but a single observational FFQ pattern-score cohort sharing the
+same confounding structure as the broad observational Med literature adds no *independent route* — it does
+not earn `[E-independent]`, and its concurrence is corroboration (F), not convergence (E)
+[inferred from @whalen2017paleo].
+
+**Mechanism G-gap (marked, not banked).** The authors propose an inflammation / oxidative-balance pathway —
+«[t]he foods that characterize both diets ... are associated with lower inflammation and less oxidative
+stress, biochemical processes that are associated with cardiovascular disease and cancer»
+[@whalen2017paleo] -> [[Inflammation as a Modifiable Lever]]. A plausible inflammation/oxidative-balance pathway is *suggested* by the same group's
+cross-sectional biomarker work (hsCRP, F2-isoprostanes) but is **not established** — that study is
+cross-sectional and rests on surrogate endpoints, so it is held out of the fabric and its numbers are not
+cited here; the pathway is a candidate mechanism, not an outcome finding.
 
 ## Why the macronutrient-distribution question was ungradeable
 
@@ -187,6 +273,11 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
 - **No magnitude (G, needs aggregation):** a pooled, confounding-adjusted whole-pattern -> all-cause-
   mortality effect size across cohorts — Boushey graded but did not pool, so the fabric still cannot
   state an absolute risk reduction for "a healthy pattern" as such.
+- **Paleolithic pattern -> mortality rests on ONE cohort (G):** Whalen/REGARDS is, by its own account, the
+  first (and here the fabric's only) study of a Paleolithic *pattern score* against mortality — no gold
+  SR/MA pools a paleo-pattern -> mortality body, and the few paleo studies the paper cites are small
+  short-term surrogate-biomarker/weight pilots, not hard-endpoint trials. The paleo facet stays
+  `confidence: low` until an independent-cohort or SR replication lands.
 - **No general-population pattern RCT on mortality:** the one RCT is high-CV-risk secondary prevention
   (PREDIMED); a decades-long whole-diet RCT in the reasonably-healthy is impractical, so this stays a
   named structural absence, not a queue item.

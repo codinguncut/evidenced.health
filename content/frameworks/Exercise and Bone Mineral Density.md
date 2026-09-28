@@ -2,10 +2,10 @@
 type: framework
 question: Does exercise training raise bone mineral density in postmenopausal women, by how much, and does that surrogate gain transmit to fewer fractures?
 aliases: [Exercise BMD Postmenopausal, Exercise Bone Density, Weight-Bearing Exercise Bone Density, Resistance Training Bone Density, Exercise Osteoporosis Prevention BMD, Bone Loading Exercise]
-authors: [Mohebbi, Ramin; Shojaa, Mahdieh; Kohl, Matthias; von Stengel, Simon; Jakob, Franz; Kerschan-Schindl, Katharina; Lange, Uwe; Peters, Stefan; Thomasius, Friederike; Uder, Michael; Kemmler, Wolfgang; Hoffmann, Isabelle; Schoene, Daniel; Sieber, Cornel; Bischoff-Ferrari, Heike A]
-sources: [Mohebbi - Exercise Bone Mineral Density Postmenopausal Meta-Analysis 2023, Hoffmann - Exercise Major Osteoporotic Fractures 2022]
+authors: [Mohebbi, Ramin; Shojaa, Mahdieh; Kohl, Matthias; von Stengel, Simon; Jakob, Franz; Kerschan-Schindl, Katharina; Lange, Uwe; Peters, Stefan; Thomasius, Friederike; Uder, Michael; Kemmler, Wolfgang; Hoffmann, Isabelle; Schoene, Daniel; Sieber, Cornel; Bischoff-Ferrari, Heike A; Forbes, Scott C; Chilibeck, Philip D; Candow, Darren G]
+sources: [Mohebbi - Exercise Bone Mineral Density Postmenopausal Meta-Analysis 2023, Hoffmann - Exercise Major Osteoporotic Fractures 2022, Forbes - Creatine Resistance Training Bone Density 2018]
 confidence: medium-high
-self_critiqued: 2026-09-18
+self_critiqued: 2026-09-24
 relationships:
   related_to:
     - Exercise for Preventing Falls in Older Adults
@@ -18,8 +18,9 @@ relationships:
     - Resistance Training Prescription - Load Sets and Frequency
     - Measurement Error in Dietary Assessment
     - Fluoride and Bone Health
+    - Creatine Supplementation
 created: 2026-08-27
-updated: 2026-09-19
+updated: 2026-09-24
 ---
 
 **The efficacy question for exercise on the bone surrogate in postmenopausal women — and the
@@ -72,8 +73,6 @@ interaction evidence that would license personalizing the *exercise* prescriptio
 menopausal status. The high residual heterogeneity (I2 up to 68%) says trials differ a lot in
 effect, but the measured moderators do not explain it.
 
-<div class="recent-update" data-last-updated="2026-09-20">
-
 ## The load-bearing limit: BMD is a SURROGATE, and transmission to fracture is not shown here
 
 [inferred from @mohebbi2023] — Mohebbi
@@ -108,8 +107,6 @@ favorable effect of supervised exercise protocols on fracture»
 That fracture SR is **now held** (Hoffmann 2022, next section) and closes the surrogate->outcome
 step for the loading channel — but from the **same group**, so it refines rather than independently
 corroborates.
-
-</div>
 
 ## The fracture endpoint is now held: exercise reduces major osteoporotic fractures (type-F)
 
@@ -192,6 +189,24 @@ The high between-trial heterogeneity means the *mean* SMD hides wide variation i
 protocols achieve — the pooled number says exercise-in-general nudges BMD, not which program a
 person should do. The load/impact/dose specifics live in the programming frontier
 ([[Resistance Training Prescription - Load Sets and Frequency]]), kept peripheral by Layer-1.
+
+## The creatine adjunct does not add to loading's BMD effect (bounds the supplement space)
+
+A natural follow-on question — can a supplement *amplify* resistance training's bone effect? — has a
+clean null for the most-touted candidate. Forbes 2018, a gold MA (5 RCTs, n = 193, adults >50 /
+postmenopausal), pooled creatine + resistance training vs resistance training + placebo and found no
+added BMD at any site (whole body, hip, femoral neck, lumbar spine — all pooled MD \~0, CIs within
+about ±0.01–0.03 g/cm²), despite every trial showing creatine enhanced muscle mass or strength:
+«these adaptations did not translate to greater BMD»
+[@forbes2018creatine]. So the loading effect
+above is **not augmentable by creatine on the BMD surrogate** at studied doses — a muscle-yes /
+bone-no dissociation that bounds the adjunct space
+[inferred from @forbes2018creatine]. Two escape hatches stay
+**insufficient** rather than closed: bone *geometry / strength* (one 12-month trial increased femoral
+shaft subperiosteal width, which BMD cannot see) and longer / higher-frequency / relative-dose
+protocols showed positive signals; and no creatine trial measured **fracture**
+[@forbes2018creatine]. Full appraisal:
+[[Creatine Supplementation]] (Bone leg).
 
 ## Decision relevance
 

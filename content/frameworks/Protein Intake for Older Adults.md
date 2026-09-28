@@ -2,8 +2,8 @@
 type: framework
 question: How much protein should an older adult eat — daily (g/kg) and per meal — and what modifies that target?
 aliases: [Protein Older Adults, PROT-AGE, Older Adult Protein Target, Protein for the Elderly, 1.2 g/kg Protein, Protein Intake Elderly]
-authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L; Kim, Jung Eun; Campbell, Wayne W; Coelho-Junior, Helio Jose; Marzetti, Emanuele]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly, Kim - Protein Body Composition After Weight Loss 2016, Coelho-Junior - Relative Protein Intake Physical Function Meta-Analysis 2018]
+authors: [Bauer, Jürgen; Boirie, Yves; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Tagawa, Ryoichi; Miyachi, Motohiko; Devries, Michaela C; Morton, Robert W; Komar, B; Schwingshackl, L; Kim, Jung Eun; Campbell, Wayne W; Coelho-Junior, Helio Jose; Marzetti, Emanuele; Weaver, Ashley A]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Devries - Higher Protein Kidney Function Meta-Analysis 2018, Komar - Leucine-Rich Protein Elderly, Kim - Protein Body Composition After Weight Loss 2016, Coelho-Junior - Relative Protein Intake Physical Function Meta-Analysis 2018, Weaver - Dietary Protein Bone Density Fracture 2021]
 cluster: muscle
 confidence: medium
 relationships:
@@ -19,9 +19,11 @@ relationships:
     - The Estimate-to-Action Gap
     - Deficiency Repletion vs Enhancement
     - Low Muscle Mass and Mortality
+    - Dairy and Bone Health
+    - Exercise and Bone Mineral Density
 created: 2026-08-06
-updated: 2026-08-23
-self_critiqued: 2026-08-23
+updated: 2026-09-24
+self_critiqued: 2026-09-24
 ---
 
 The **target** side of the protein question for the over-65 stratum: how much, and distributed how,
@@ -205,6 +207,55 @@ interventions**, so it estimates *association*, not effect. It both **partly sup
   also invoke the hypothesis that illness/frailty «may require higher protein levels (1.2-1.5 g/kg)».
   A single-study subgroup is a candidate to test, not a stratum rule.
 
+## The bone-outcome facet — higher protein tracks higher BMD and lower vertebral fracture (one cohort, observational)
+
+[@weaver2021protein]
+Every outcome above is muscle or function; **bone** is a separate channel of the same exposure. The
+closest direct test held is Weaver 2021 — a **single prospective observational cohort** (Health ABC,
+n=2160 community-dwelling White and Black adults, mean 73.5 y, 51.5% women, 5-y follow-up), **not** an
+SR/MA. Protein was measured as **% of total energy intake** (108-item FFQ; tertiles <13% / 13-15% /
+&gt;=15% TEI, mapping to \~0.8 / 0.9 / 1.1 g/kg/d), so the upper-vs-lower contrast (\~1.1 vs \~0.8 g/kg) is
+almost exactly the **PROT-AGE-target vs RDA** contrast this page centres. It gives a directional bone
+**signal** at that contrast, but a weak one.
+
+- **Cross-sectional BMD — positive, small.** Upper vs lower tertile: «mean baseline BMD in
+  participants in the upper protein tertile was 1.8% higher for the total hip, and 6.0% (trabecular),
+  2.7% (cortical), and 3.3% (integral) higher for the L3 vertebra» (full-model p<.05, positive linear
+  trends). **Middle vs lower did not differ** — only the widest contrast separated, so no knee at the
+  13-15% band is located -> [[The Underivable Optimum]].
+- **BMD *change* — null.** «Protein intake did not affect change in BMD at any site over the follow-up
+  period» (4-y DXA, 5-y QCT). The cross-sectional advantage did **not** read out as slower bone loss:
+  it is a level difference (lifetime accumulation, or the healthy-eater profile), not a demonstrated
+  effect on the trajectory. This weakens the causal reading of the fracture signal below.
+- **Fracture — vertebral only, overall-null.** «Total protein intake was not associated with 5-year
+  overall fragility fracture risk (Table 4), although reduced risk of clinical vertebral fracture was
+  observed among participants in the upper protein tertile compared to those in the lower protein
+  tertile (hazard ratio: 0.36 [95% confidence interval (CI): 0.14, 0.97], p = .04)». The HR 0.36 rests
+  on **8 vs 14 vertebral events**, CI upper bound 0.97 — barely significant. **Hip fracture was NOT
+  reduced** — «Protein intake did not decrease hip fracture risk in our cohort ... the <1% incidence of
+  hip fracture in our cohort limited the study's power» (insufficient evidence on hip, not no effect).
+
+[inferred from @weaver2021protein]
+
+- **Residual confounding is the load-bearing caveat.** The upper-protein tertile is the textbook
+  healthy-eater profile: «Participants in the upper protein tertile were more likely to be female,
+  White, nonsmokers, nonsedentary, have lower energy intake ... higher dietary calcium and vitamin D
+  intakes, be on calcium, vitamin D, or estrogen supplementation, and have higher cognitive function».
+  Full-model adjustment covered these plus BMI, physical activity, osteoporosis meds and diagnosis —
+  but a single cohort cannot isolate protein from the covarying better-nutrition / higher-SES /
+  less-frail bundle. The authors concede «the observational nature of this study does not allow for
+  evaluation of a causal association between dietary protein intake and changes in BMD and fracture
+  risk» -> [[The U-Shaped Association Artifact]].
+- **Exposure = % TEI, self-reported FFQ.** Protein-as-%-energy indexes a dietary *pattern* (the upper
+  tertile ate less total energy and lower fat/carb %), and FFQ carries the field's binding measurement
+  error -> [[Measurement Error in Dietary Assessment]] (attenuation toward null).
+- **The animal-vs-source signal is likely total-protein, not source.** Animal protein tracked some BMD
+  sites while vegetable protein did not, but Weaver reads this as confounded by dose: «the positive
+  effects on BMD with increased animal protein intake observed in our study may stem from a higher
+  total protein intake, rather than the specific protein source» (and an RCT MA comparing equal
+  animal-vs-vegetable protein found no BMD difference). So this adds no source-choice bone decision
+  -> [[Dietary Protein and Mortality]].
+
 ## Decision relevance
 
 [inferred from @bauer2013; @moore2014]
@@ -225,6 +276,19 @@ interventions**, so it estimates *association*, not effect. It both **partly sup
   low-leucine plant sources needs more grams or deliberate complementation
   -> [[Protein Quality and the DIAAS Score]]. This is a distinct decision from the source-substitution
   (mortality) question on [[Dietary Protein and Mortality]].
+- **Bone is a third weak outcome channel favouring adequate protein — a benefit *signal*, not
+  established benefit.** [inferred from @weaver2021protein] One
+  observational cohort links the PROT-AGE-target intake (>=15% TEI, \~1.1 g/kg) to higher BMD and lower
+  *vertebral* fracture vs the RDA-level intake — but the bone-loss *trajectory* was null, hip fracture
+  was underpowered, and residual confounding is unresolved, so grade this leg **low-confidence**. It
+  corroborates the *adequate protein in older adults* case at a new outcome without settling it; the
+  muscle/function rationale stays the primary warrant. Some pooled protein MAs report an 11-16%
+  hip-fracture reduction (others null) that this single cohort was too small to see — not a joined
+  tension, a power gap; the held *dairy* MAs were themselves null on hip fracture
+  -> [[Dairy and Bone Health]], [[Exercise and Bone Mineral Density]]. Protein's bone effect may run
+  partly through the muscle->bone loading pathway, so this channel is not independent of the muscle
+  target -> [[Protein and Resistance Training for Muscle and Strength]]. **The named gap:** no RCT
+  tests protein -> fracture in this stratum.
 - **The daily amount and the source are two decisions, not one.** This page sets the *amount* and
   *distribution* for the older stratum; the animal-vs-plant *source* choice (mortality) and the
   *hypertrophy* target (RT) are separate -> [[Protein and Resistance Training for Muscle and Strength]].
@@ -250,10 +314,13 @@ interventions**, so it estimates *association*, not effect. It both **partly sup
 [inferred from @bauer2013; @moore2014; @katsanos2006]
 
 - **Surrogate, not patient-important, endpoints.** The targets are set against nitrogen balance, lean
-  body mass, and acute MPS — surrogates. No fracture, disability, or mortality trial shows that hitting
-  1.0-1.2 vs 0.8 g/kg/d changes what the person experiences; muscle *function* and sarcopenia are on the
-  outcome menu, but the causal link from *raising protein* to *better function* is asserted, not proven
-  -> [[Surrogate Outcomes]]. The loop is open.
+  body mass, and acute MPS — surrogates. No fracture, disability, or mortality *trial* shows that
+  hitting 1.0-1.2 vs 0.8 g/kg/d changes what the person experiences; muscle *function* and sarcopenia
+  are on the outcome menu, but the causal link from *raising protein* to *better function* is asserted,
+  not proven -> [[Surrogate Outcomes]]. The loop is open. The one patient-important endpoint now touched
+  is **vertebral fracture** (Weaver, above) — but it is a single observational cohort with an
+  underpowered, barely-significant signal and unresolved confounding, so it moves the bone leg from
+  *surrogate-only* to a *weak observational fracture signal*, not to established benefit.
 - **Consensus + small studies, one programme — partly widened by Komar.** Bauer is a Delphi consensus
   (`recommendation` tier — cite its underlying reviews for any effect/certainty claim); Moore and
   Katsanos are small, acute, male-only metabolic studies. Their agreement is coherence within one

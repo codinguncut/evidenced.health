@@ -8,12 +8,13 @@ cluster: cold-exposure
 nucleus: true
 confidence: low
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-23
 self_critiqued: 2026-09-16
 relationships:
   related_to:
     - Sauna Bathing and Cardiovascular Mortality
     - Stress Management and Cardiometabolic Health
+    - Wim Hof Method
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
 ---
@@ -78,6 +79,14 @@ CI: 0.37, 1.68], p < 0.01) and 1 hour post (SMD: 1.26 [95% CI: 0.59, 1.94], p < 
 These are *large* SMDs, but they measure an acute surrogate (IL-6 / TNF-alpha-class markers), not a
 patient-important outcome, and the acute inflammatory rise is expected physiology, not established
 harm. No study tracks whether it translates to any downstream benefit or harm.
+
+Corroborated from a different exposure literature: the [[Wim Hof Method]] SR (Almahayni 2024,
+disjoint authors) found cold-exposure-alone null on every inflammatory cytokine (TNF/IL-6/IL-8/IL-10,
+all p>0.4) and read the wider immersion literature as showing cold immersion alters inflammation but
+not significantly. Two separate reviews thus point the same way — cold immersion does not *lower*
+inflammation — so the popular *cold-reduces-inflammation* claim is unsupported in both (quote and
+attribution live on the [[Wim Hof Method]] page).
+[inferred from @cain2025cwi]
 
 **Stress — null at every timepoint EXCEPT a single 12h reading (Grade B) [@cain2025cwi].** The headline *CWI reduces stress* is
 one significant timepoint in an otherwise-null series:

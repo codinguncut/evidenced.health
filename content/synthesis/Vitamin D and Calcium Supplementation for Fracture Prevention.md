@@ -2,13 +2,13 @@
 type: synthesis
 question: For whom does supplementing vitamin D and/or calcium reduce fracture risk, and does the fracture benefit survive netting the cardiovascular and kidney-stone harms?
 aliases: [Vitamin D Calcium Fracture, Calcium Supplements and Fracture, D and Calcium for Bone, Calcium Vitamin D Supplementation Fracture, Supplemental Calcium Cardiovascular Risk]
-authors: [Yao, Pang; Bennett, Derrick; Mafham, Marion; Lin, Xu; Chen, Zhengming; Armitage, Jane; Clarke, Robert; Bolland, Mark J; Grey, Andrew; Avenell, Alison; Gamble, Greg D; Reid, Ian R; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won]
-sources: [Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Myung - Calcium Supplements Cardiovascular]
+authors: [Yao, Pang; Bennett, Derrick; Mafham, Marion; Lin, Xu; Chen, Zhengming; Armitage, Jane; Clarke, Robert; Bolland, Mark J; Grey, Andrew; Avenell, Alison; Gamble, Greg D; Reid, Ian R; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun; European Association of Urology (org)]
+sources: [Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Myung - Calcium Supplements Cardiovascular, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020]
 cluster: supplements
 confidence: medium
 created: 2026-08-06
-updated: 2026-08-19
-self_critiqued: 2026-08-19
+updated: 2026-09-23
+self_critiqued: 2026-09-23
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -131,6 +131,29 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
   Held as a **counterweight, not a settled harm**: it is subgroup-derived (WHI women not on personal
   calcium) and WHI investigators + later reviews dispute it — so the direction is credible, the magnitude
   and even the sign contested. Label at point of use.
+- **Food vs supplement — the same nutrient runs OPPOSITE directions on the stone outcome (type-F,
+  EAU 2026).** The kidney-stone harm above is a property of the calcium *supplement bolus*, not of
+  calcium the nutrient. A kidney-stone guideline reaches the mirror-image conclusion for *dietary*
+  calcium: «Calcium should not be restricted, unless there are strong reasons for doing so, due to the
+  inverse relationship between dietary calcium and stone formation», and «Calcium supplements are not
+  recommended, except in enteric hyperoxaluria when additional calcium should be taken with meals to
+  bind intestinal oxalate» [@eau2026uro]. So on the stone
+  channel, food calcium is *protective* (it binds intestinal oxalate, lowering urinary oxalate) while
+  the isolated supplement bolus is a *harm* — a clean instance of the food-matrix-vs-isolate split
+  ([[Is the Food Category Doing Any Work]]): the delivery form flips the sign, so the stone-harm row
+  must not be read as an argument against dietary calcium.
+  -> [[Kidney Stone Recurrence Prevention]]
+  [inferred from @eau2026uro]
+  - **A gold MA reproduces the sign-flip in the INCIDENCE domain — Lin 2020 (type-F, second source).**
+    The EAU claim above is guideline-grade and about *recurrence*; a pooled MA of primary-prevention
+    cohorts reaches the identical form for first-time incident stones in adults without prior
+    nephrolithiasis: dietary calcium is protective (pooled RR 0.83, 0.76-0.90) while supplemental
+    calcium is a risk factor (pooled RR 1.16, 1.00-1.35 observational) [@lin2020]. So the delivery-form sign-flip holds across BOTH strata
+    (incidence and recurrence) and BOTH source tiers (gold MA and guideline) — the composite bounds the
+    claim better than either alone. The supplemental-Ca harm is observational-only: Lin notes the pooled
+    RCT signal for supplemental calcium is null, matching Kahwati's cosupplementation finding, so the
+    harm attaches to the *observed supplement-taker*, not cleanly to the bolus in trial.
+    -> [[Kidney Stone Recurrence Prevention]]
 - **A second pooled MA firms the DIRECTION — Myung 2021 (`high`, type-F, NOT an independent witness).**
   Myung pooled 13 double-blind placebo-controlled RCTs (28,935 participants) with the CV endpoints as
   **pre-specified primary outcomes** (not Bolland's MI subgroup) and reproduced the harm almost exactly:
@@ -225,7 +248,7 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
   match was verified cell-by-cell (exposure, comparator, outcome, effect, pool) before writing.
 - **Independence denied — no laundered-E.** Myung re-pools Bolland's trials, used Bolland's unpublished
   data for 5 of 13 trials, and cites Bolland; `[E-independent]` is explicitly refused and the confidence
-  is **not** raised on "two MAs agree". The one genuinely-independent route (Larsson MR) is marked
+  is **not** raised on *two MAs agree*. The one genuinely-independent route (Larsson MR) is marked
   reported-*via*-Myung and routed to an acquisition gap, not claimed as held backing.
 - **CV harm not overclaimed.** The firming is bounded: leave-one-out WHI-dependence quoted, the
   secondary-endpoint limitation named, "CONTESTED" narrowed-not-closed, magnitude discounted. Confidence

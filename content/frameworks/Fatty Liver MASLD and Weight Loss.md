@@ -2,14 +2,14 @@
 type: framework
 question: For fatty liver (MASLD/NAFLD), what modifiable lever works, at what dose, and what outcome does it actually change?
 aliases: [NAFLD, MASLD, Fatty Liver, MASH, NASH, Hepatic Steatosis, Fatty Liver Disease, MASLD Lifestyle]
-authors: [European Association for the Study of the Liver (org); Rinella, Mary E; Chung, Mei; Lichtenstein, Alice H; Taylor, Roy; Peng, Xiaojuan; Li, Juan; Zhao, Hailiang; Lai, Junlong; Lin, Junqin; Tang, Shaohui; Winters-van Eekelen, E; de Mutsert, R]
-sources: [EASL - MASLD Clinical Practice Guidelines 2024, AASLD - MASLD Practice Guidance 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020]
+authors: [European Association for the Study of the Liver (org); Rinella, Mary E; Chung, Mei; Lichtenstein, Alice H; Taylor, Roy; Peng, Xiaojuan; Li, Juan; Zhao, Hailiang; Lai, Junlong; Lin, Junqin; Tang, Shaohui; Winters-van Eekelen, E; de Mutsert, R; Mantovani, Alessandro; Byrne, Christopher D; Bonora, Enzo; Targher, Giovanni]
+sources: [EASL - MASLD Clinical Practice Guidelines 2024, AASLD - MASLD Practice Guidance 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
 cluster: masld
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-09-23
+self_critiqued: 2026-09-23
 relationships:
   related_to:
     - Saturated Fat Intake and Replacement
@@ -365,6 +365,43 @@ hepatic.** Two guideline facts drive this:
   disease (HR 1.40)», coronary heart disease, heart failure, chronic kidney disease, and «a more than
   two-fold increased risk of an incident diagnosis of T2D».
 [@easl2024]
+
+**Quantifying that "more than two-fold" — Mantovani's cohort meta-analysis puts a number and a shape on
+EASL's bare claim (type-F refinement, shared evidence base).** Pooling **16 cohort studies (n=214,805,
+10,356 incident cases)**, NAFLD carried a **random-effects HR 2.22 (95% CI 1.84-2.60)** for incident
+T2D; restricting to the **10 fully-adjusted studies** attenuated it to **HR 1.85 (95% CI 1.47-2.22)**,
+and the authors note this pooled estimate "was independent of a relatively large number of common risk
+factors and potential confounders." Across all 19 studies the base was 296,439 individuals, 15,751
+incident cases, median 5-year follow-up; Egger's p=0.31 (no publication bias)
+[@mantovani2018]. **The risk is severity-graded, and the gradient is the
+robust part:** more 'severe' NAFLD HR 2.63 (1.57-3.70); a monotone rise across ultrasonographic
+steatosis scores HR 2.15 (1.72-2.58) with **I2=0%**; and high NAFLD fibrosis score HR 4.74 (3.54-5.94,
+single study, no non-Asian data). Heterogeneity (I2>75% overall) collapsed once restricted to the more
+severe forms, so the graded dose-response is the robust part of the finding
+[@mantovani2018]. **Note the outcome-specificity — do not conflate this
+with the steatosis-benign / fibrosis-matters split above.** That split is about *liver-related*
+outcomes (steatosis per se barely raises liver risk). For the *diabetes* outcome the gradient runs
+across BOTH steatosis amount (the steatosis-score arm, HR 2.15) AND fibrosis (NFS, the steepest arm,
+HR 4.74) — so more steatosis does track more diabetes risk, unlike its near-null relation to liver
+outcomes. Shape is outcome-specific: fibrosis marks the steepest diabetes arm, but steatosis is not
+benign *for diabetes* the way it is for the liver.
+
+**Parameter table — is EASL's ">2-fold" the same quantity Mantovani pooled?**
+
+| Parameter | EASL 2024 | Mantovani 2018 | Same quantity? |
+|---|---|---|---|
+| Exposure | MASLD (steatotic liver, cardiometabolic criteria) | NAFLD (mostly ultrasound-diagnosed) | **Yes** — 99.8% MASLD/NAFLD overlap (EASL's own transfer argument) |
+| Outcome | incident diagnosis of T2D | incident T2D | Yes |
+| Direction | liver disease -> downstream T2D (incidence arm) | liver disease -> downstream T2D | Yes |
+| Effect | «more than two-fold» (bare, unquantified) | HR 2.22 (1.84-2.60) primary; 1.85 (1.47-2.22) fully adjusted | **Yes** — Mantovani supplies the CI/shape EASL states bare |
+| Design | guideline summary of borrowed evidence | cohort MA (systematic, pooled) | Same evidence *class*; Mantovani is the underlying-SR grade |
+
+The cells match, so Mantovani legitimately **refines** EASL's claim (type-F: bounds it with a CI, an
+adjusted estimate, and a severity gradient) rather than merely re-asserting it. It is **not type-E**
+(independent backing): both rest on the same observational cohort literature, and the incidence claim
+is the shared object, not two separate routes to it. Author-independence *is* clean (Mantovani, Byrne,
+Bonora, Targher share no author with EASL's panel or the held liver/ectopic-fat sources), but shared
+primary evidence defeats E regardless of author diff.
 
 **So for the metabolic-syndrome stratum, the NAFLD lever is the SAME weight-loss lever already ranked
 #1-2 for cardiometabolic reasons** — MASLD does not add a separate intervention, it adds a reason and a

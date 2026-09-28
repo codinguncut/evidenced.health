@@ -2,17 +2,17 @@
 type: framework
 question: How much sedentary time (total sitting, TV viewing) raises mortality and type-2-diabetes risk, at what dose, and independently of how physically active a person is?
 aliases: [Sitting Time and Mortality, TV Viewing and Health, Sedentary Time, Sedentary Behaviour, Sedentary Behaviour and Mortality]
-authors: [Patterson, Richard; McNamara, Eoin; Tainio, Marko; de Sa, Thiago Herick; Smith, Andrea D; Sharp, Stephen J; Edwards, Phil; Woodcock, James; Brage, Soren; Wijndaele, Katrien]
-sources: [Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018]
+authors: [Patterson, Richard; McNamara, Eoin; Tainio, Marko; de Sa, Thiago Herick; Smith, Andrea D; Sharp, Stephen J; Edwards, Phil; Woodcock, James; Brage, Soren; Wijndaele, Katrien; Ekelund, Ulf; Loh, Roland; Stamatakis, Emmanuel; Folkerts, Dirk; Allgrove, Judith E; Moir, Hannah J]
+sources: [Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Loh - Interrupting Sitting Glucose Insulin 2019]
 cluster: activity
 nucleus: false
 confidence: medium
-self_critiqued: 2026-08-21
+self_critiqued: 2026-09-23
 relationships:
-  related_to: [The Physical Activity Paradox, Measurement Error in Dietary Assessment]
+  related_to: [The Physical Activity Paradox, Measurement Error in Dietary Assessment, Surrogate Outcomes]
   extends: [Physical Activity Dose and Mortality]
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-09-23
 ---
 
 **The decision this page changes:** whether, and how hard, to cut *sitting* and *TV time* — separately
@@ -104,13 +104,65 @@ attenuation mechanism catalogued for diet in [[Measurement Error in Dietary Asse
 sedentary exposure; a null/shallow arm is weak evidence of no gradient. (TV's *better* self-report
 validity is one reason its signal reads larger than total sitting's — measurement, not only biology.)
 
-## What this does NOT settle — the bout/break gap `type-G`
+## The bout/break gap — answered on surrogates, still open on hard outcomes `type-F` `type-G`
 
-None of the 34 studies captured **how sitting is accumulated** — «None of the studies included in this
-meta-analysis took into account accumu- lation pattern of sitting»
+None of Patterson's 34 studies captured **how sitting is accumulated** — «None of the studies included in
+this meta-analysis took into account accumu- lation pattern of sitting»
 [@patterson2018sedentary].
-So the common *break up prolonged sitting every 30 min* advice is **not tested here** — Patterson bears
-on *total volume*, not bout structure. A gap that would need break-pattern trials to close.
+So Patterson bears on *total volume*, not bout structure, and cannot test the common *break up prolonged
+sitting every 30 min* advice. **Loh 2019** (gold SR+MA, 37 controlled crossover trials meta-analysed)
+attacks exactly that axis — but the two are **not the same quantity**, which is why Loh *fills* the gap
+rather than confirming or contradicting Patterson:
+
+| Parameter | Patterson 2018 | Loh 2019 | Same quantity? |
+|---|---|---|---|
+| Exposure | total *volume* of sitting (h/day) | *interruption* of a prolonged sitting bout with PA breaks | **No** — volume vs accumulation pattern |
+| Design | prospective observational cohorts | randomised crossover lab trials (INT vs SIT) | **No** |
+| Outcome | incident T2D, all-cause/CVD/cancer **mortality** | **postprandial glucose / insulin / TAG** (surrogates) | **No** — patient-important vs surrogate |
+
+So Loh answers the *experimental, surrogate* version of the accumulation question, and leaves the
+*patient-important-outcome* version open — the gap splits rather than closes.
+
+**What Loh shows (all on surrogate endpoints).** Interrupting sitting with PA breaks vs continuous
+sitting moderately attenuates postprandial markers: glucose SMD -0.54 (95% CI -0.70, -0.37), insulin
+-0.56 (-0.74, -0.38), and — smallest, and with possible publication bias — TAG -0.26 (-0.44, -0.09;
+corrected to \~-0.20 under severe-selection adjustment).
+[@loh2019] These are all **surrogates, not
+patient-important outcomes** — the translation is explicitly *assumed*: «Assuming that the acute
+metabolic effects we detected translate into long term meta- bolic benefits, PA breaks might be an
+alternative or adjunct to a single structured aerobic exercise bout».
+[@loh2019] -> [[Surrogate Outcomes]]
+
+**Who benefits more — a route-(b) effect-modification signal on BMI.** Meta-regression finds the
+glycaemic effect *grows* with BMI (glucose beta -0.05, 95% CI -0.09, -0.01; insulin -0.05, -0.10,
+-0.006; TAG not associated) — «greater glycaemic attenuation in people with higher BMI».
+[@loh2019] This is positive interaction
+evidence, so it clears the route-(b) bar in principle — but Loh flags it is **summary-data / observational
+across studies**, needing within-subject confirmation, so treat it as a candidate modifier, not a settled
+one. The heavier-sitter / higher-BMI stratum is where this small surrogate lever concentrates.
+
+**Breaks vs one continuous exercise bout — a narrow, isocaloric edge.** When energy expenditure was
+matched, PA breaks beat a single continuous bout only on glucose, and only just — «when EE was matched,
+there was a small and statistically significant effect in favour of regu- lar PA breaks on post-prandial
+glycaemia» (SMD -0.26, 95% CI -0.50, -0.02), with **no** significant difference for insulin (0.35, -0.37,
+1.07) or TAG (0.08, -0.22, 0.37).
+[@loh2019] And the edge is erased by volume:
+«any such advantages are abolished with high amounts of daily exercise».
+[@loh2019] So the decision this licenses is
+narrow — breaks are an **alternative or adjunct for those who will not do structured exercise**
+(especially higher-BMI), not a superior substitute for someone already exercising adequately.
+
+**The patient-important-outcome version of the gap is still open — and the observational break evidence
+is weak/null.** Loh's own discussion notes that breaks measured in cohorts do *not* carry hard outcomes:
+the US Physical Activity Guidelines Advisory Committee «concluded that there was insufficient evidence
+that bouts or breaks in SB are important factors in the relationship between SB and all-cause mortality,
+and incidence of or mortality from CVD, cancer, or incident type 2 diabetes or weight status».
+[@loh2019] So the surrogate lever is real
+and moderate; whether *breaking up* sitting (as opposed to *sitting less in total*, which Patterson does
+evidence) changes a patient-important outcome remains a **named gap** that break-pattern outcome trials
+would need to close. The trials are also unblindable — you cannot blind an exercise break, so every one
+carries performance/detection risk of bias by construction (a design constraint, not a defect).
+[inferred from @loh2019]
 
 ## Acting on it (layer 3)
 
@@ -124,16 +176,37 @@ on *total volume*, not bout structure. A gap that would need break-pattern trial
   it). For a lean, active, low-TV person the sedentary lever is already largely pulled.
 - **Activity partly offsets sitting but does not license it** — high MVPA attenuates the total-sitting/
   mortality association (Ekelund 2016 interaction, on [[Physical Activity Dose and Mortality]]), but TV
-  viewing is only *partly* offset, and offsetting demands a high activity dose (\~60-75 min/day MVPA). Sit
-  less regardless.
+  viewing is only *partly* offset. The offset *dose* is smaller than the self-report figure once it is
+  **device-measured**: Ekelund 2020 (accelerometry, 9 cohorts, 44 370 adults) puts it at «about 30–40 min
+  (median of medians=34 min ...) of MVPA per day» to attenuate the sedentary-mortality association — vs
+  the \~60-75 min/day from self-report — with the high-MVPA third (\~34 min) carrying no significant
+  sitting penalty and the risk concentrated in the low-MVPA third (\~2 min/day, worst cell +263%).
+  [@ekelund2020joint] The two numbers are
+  **not the same quantity** (device vs self-report; attenuate vs eliminate) and the paper attributes the
+  drop partly to measurement, so read this as a **type-F device refinement** of the held offset, not an
+  independent confirmation (same author, overlapping cohorts) — full parameter table and the
+  within-instrument narrowing on [[Physical Activity Dose and Mortality]]. Sit less regardless.
 
 ## Provenance / independence
 
-Single anchor, **Patterson 2018** (gold dose-response MA). It is a **type-F upgrade** of the held Ekelund
-2016 sitting x PA interaction, NOT an independent type-E corroboration: Patterson cites Ekelund 2016 and
-shares the observational sedentary-epidemiology lineage/cohorts, so their agreement is not independent
-backing. `confidence: medium` — gold design and large n, discounted for observational status, near-
-universal self-report, residual confounding, and (for T2D) reverse causation.
+Primary anchor, **Patterson 2018** (gold dose-response MA), plus **Ekelund 2020** as a device-measured
+type-F refinement of the offset dose only (see the offset bullet above). It is a **type-F upgrade** of the
+held Ekelund 2016 sitting x PA interaction, NOT an independent type-E corroboration: Patterson cites
+Ekelund 2016 and shares the observational sedentary-epidemiology lineage/cohorts, and Ekelund 2020 shares
+first-authorship and overlapping cohorts with the held Ekelund MAs — so none of these agreements is
+independent backing (no `[E-independent]` token). `confidence: medium` — gold designs and large n,
+discounted for observational status, near-universal self-report (Patterson), residual confounding, and
+(for T2D) reverse causation; Ekelund 2020's device measurement corrects the offset dose but does not lift
+the page's overall certainty (same lineage).
+
+**Loh 2019** enters as the *experimental / surrogate* leg on a **different question** (bout structure, not
+volume), so it is a **type-F gap-fill, not type-E corroboration** of Patterson — different exposure,
+design, and outcome (the parameter table above). Independence guard, run: co-author **Stamatakis** also
+sits on the held device-PA source ODonovan - Weekend Warrior Accelerometer Mortality 2024, and Loh's
+discussion explicitly *rests on* Ekelund's offset figure — so no agreement here is independent backing
+(no `[E-independent]` token). Loh does **not** move the page's `confidence: medium`: it adds a moderate
+surrogate finding, not a hard-outcome one, and its own hard-outcome (break -> mortality/incidence)
+evidence is weak/null.
 [inferred from @patterson2018sedentary]
 
 ## References

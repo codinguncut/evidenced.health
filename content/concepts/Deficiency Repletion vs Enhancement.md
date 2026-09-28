@@ -4,12 +4,12 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Neufingerl, Nicole; Eilander, Ans]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017, Neufingerl - Plant-Based Nutrient Status 2021]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Neufingerl, Nicole; Eilander, Ans; Deane, Katherine H O; Hooper, Lee; Musazadeh, Vali; Mekary, Rania A; Serra, Ramon; Illanes, Sebastian E]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017, Neufingerl - Plant-Based Nutrient Status 2021, Deane - Omega-3 Prevention Depression 2019, Musazadeh - Vitamin D Depression Umbrella 2023, Serra - Omega 3 Preterm Birth 2021]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-17
-self_critiqued: 2026-09-17
+updated: 2026-09-27
+self_critiqued: 2026-09-27
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -21,6 +21,7 @@ relationships:
     - Vitamin B12 Status in Vegetarian and Vegan Diets
     - Excess Iodine Intake and Thyroid Disease
     - Iodine Supplementation in Pregnancy
+    - Omega-3 Supplementation in Pregnancy
 ---
 
 ## The distinction
@@ -74,6 +75,8 @@ each other: USPSTF 2022 *pools* VITAL, and CARET is a primary trial *inside* bot
 evidence and the Bjelakovic meta-analysis. The value here is not *several sources agree* — it is the
 **structure** the sources jointly imply, which none states alone.
 
+<div class="recent-update" data-last-updated="2026-09-27">
+
 ## Enhancement in the replete tests null-to-harm
 
 Two of the three arms are well-populated, and both land against the supplement:
@@ -96,6 +99,53 @@ Two of the three arms are well-populated, and both land against the supplement:
   [@bjelakovic2007], and CARET's beta-carotene
   arm raised lung cancer (RR 1.28) [@omenn1996].
   *More* was not merely useless; past need it was harmful.
+
+### The enhancement-null generalizes to a NEW outcome domain — omega-3 and MOOD (Deane 2019)
+
+The arm evidence above is physical-outcome (cancer, CV, fractures, mortality). Deane 2019 extends the same
+status-dependent shape to a **mental-health / QoL outcome**, and on the *same nutrient* VITAL dosed:
+increasing long-chain omega-3 in **largely non-depressed** populations (31 RCTs, 41,470 participants) has
+«little or no effect on risk of depression symptoms (RR 1.01, 95% CI 0.92-1.10, I2 = 0%, Fig. 2)»
+[@deane2019omega3] and no effect on anxiety
+(SMD 0.15, 0.05-0.26) — a clean **enhancement plateau** for mood, GRADE moderate, with the good-adherence
+sensitivity even trending toward harm (RR 1.16, 0.99-1.36) and increasing ALA slightly harmful (NNH 1000).
+The mood *treatment* stratum (existing depression) is a different arm and shows a small benefit
+-> [[Depression and Modifiable Exposures]] Lever 3 (Liao 2019).
+
+Crucially Deane names the **repletion arm as untestable** in its data — «increasing LCn3 would be more likely
+to be effective in those with poor baseline intakes» but trials reported baseline status non-comparably
+[@deane2019omega3] — the exact structure this page asserts:
+a null from the replete says nothing about repletion of the deficient. This is a new-outcome
+**type-F extension** of the enhancement-null, not type-E convergence (different outcome, different nutrient
+role than the VITAL CV/cancer arm). [inferred from @deane2019omega3]
+
+**Vitamin D and mood repeats the pattern — from the other side.** [inferred from @musazadeh2023vitd] A vitamin D depression umbrella (Musazadeh 2023, 10 MAs of RCTs) reports a
+*positive* pooled treatment effect — «ESSMD: −0.40; 95 % CI: −0.60, −0.21» (trim-fill −0.33)
+[@musazadeh2023vitd] — but again **cannot separate the
+arms**: baseline vitamin D status was «not considered in the majority of studies», and the authors
+themselves locate the benefit in repletion — «vitamin D is considered beneficial for depressed individuals
+rather than healthy ones ... vitamin D did not affect emotions in healthy subjects»
+[@musazadeh2023vitd]. So omega-3 supplies the
+enhancement-null for mood (Deane) and vitamin D supplies the *repletion-positive* candidate for the same
+outcome, each blind to the other's arm — together they bracket the mood cell exactly as this page's axis
+predicts (null in the replete, benefit expected in the deficient), neither one measuring both.
+-> [[Depression and Modifiable Exposures]] Lever 4.
+
+### The same shape appears for omega-3 and a HARD perinatal outcome — preterm birth (Serra 2021)
+
+Omega-3 in pregnancy repeats the pattern on a **patient-important neonatal endpoint**, not a
+surrogate. Supplementing a **largely replete** Western pregnant population shows a crude preterm-birth
+reduction (RR 0.89, 0.82-0.97) that **does not survive a low-risk-of-bias restriction** (RR 0.92,
+0.83-1.01, NS) [@serra2021omega3] — an enhancement-null once
+the quality filter bites. And the review names the **repletion arm as the untested candidate**:
+«Lower levels of plasma EPA and DHA showed a 10-fold increased risk of ePTB compared to the higher
+plasma levels [8], demonstrating a potential benefit of the supplementation effect during deficiency»
+[@serra2021omega3] — the deficient stratum the pooled RCTs
+neither enrolled nor stratified. Same structure as the mood and iodine instances (null in the replete,
+benefit expected in the deficient, neither arm measured cleanly), now on a hard outcome. Type-F
+extension, not type-E — different outcome, and the baseline-status modifier rests on an observational
+plasma gradient (Olsen 2018, unheld), so it is a route-(b) candidate awaiting in-stratum trial
+evidence. [inferred from @serra2021omega3] -> [[Omega-3 Supplementation in Pregnancy]]
 
 ### The enhancement-null now has a SAME-OUTCOME second witness — vitamin D/calcium and FRACTURES (Kahwati 2018)
 
@@ -219,6 +269,8 @@ VITAL, so not an independent second witness), broadening the enhancement-null to
   -> [[The U-Shaped Association Artifact]]. [inferred from @zhang2019vitd]
   the RCT-vs-cohort divergence is the artifact-check: the cohort HR is not evidence the deficient would
   benefit from repletion on mortality; that arm stays untested here.
+
+</div>
 
 ## The lower (repletion) arm — now demonstrated for one nutrient x outcome
 

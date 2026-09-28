@@ -12,13 +12,15 @@ relationships:
     - Fermented Foods and Health
     - Non-Sugar Sweeteners
     - Dietary Fibre and Health
+    - Low-FODMAP Diet for IBS
+    - Microbial Therapies for IBS
     - Surrogate Outcomes
     - Is the Food Category Doing Any Work
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
     - What a Trustworthy Systematic Review Requires
 created: 2026-07-29
-updated: 2026-09-16
+updated: 2026-09-24
 self_critiqued: 2026-09-16
 ---
 
@@ -180,6 +182,11 @@ clean win as a general microbiome mandate.
 
 - **The big microbiome lever is diet — specifically fibre/plant diversity** — and it is already the fibre
   recommendation ([[Dietary Fibre and Health]]); you do not need a supplement aisle to act on it.
+- **The [[Low-FODMAP Diet for IBS]] runs this lever in reverse — a deliberate, time-limited cost.**
+  Restricting fermentable carbohydrates (a fibre subset) relieves IBS symptoms short-term but reduces
+  bifidobacteria/actinobacteria by starving them of substrate — the same fibre-feeds-resident mechanism,
+  removed on purpose. This is why full long-term FODMAP restriction is not a neutral diet: it sacrifices
+  the prebiotic benefit.
 - **Probiotics: match a specific strain to a specific indication, or don't bother.** They are a real tool
   for AAD, *C. difficile* prevention, NEC in preterm infants, pouchitis, acute infectious diarrhoea, and
   some IBS — at named strains and doses. As a general "gut health" tonic they are unsupported.

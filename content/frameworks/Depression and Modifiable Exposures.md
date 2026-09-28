@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable lifestyle exposures reduce depression, for whom, by how much, and how confident can we be?
 aliases: [Depression, Exercise for Depression, Diet and Depression, Nutritional Psychiatry, Lifestyle Depression, Depression Prevention]
-authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed]
-sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025]
+authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed; Liao, Yuhua; Xie, Bo; Zhang, Huimin; He, Qian; Guo, Lan; Subramanieapillai, Mehala; Fan, Beifang; Lu, Ciyong; McIntyre, Roger S; Deane, Katherine H O; Jimoh, Oluseyi F; Biswas, Priti; O'Brien, Alex; Hanson, Sarah; Abdelhamid, Asmaa S; Fox, Chris; Hooper, Lee; Musazadeh, Vali; Keramati, Majid; Ghalichi, Faezeh; Kavyani, Zeynab; Ghoreishi, Zohre; Abu-Zaid, Ahmed; Zarezadeh, Meysam; Mekary, Rania A]
+sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Liao - Omega-3 PUFA Depression 2019, Deane - Omega-3 Prevention Depression 2019, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Musazadeh - Vitamin D Depression Umbrella 2023, Marx - Saffron Depression Anxiety 2019]
 cluster: depression
 nucleus: true
 confidence: low
@@ -20,17 +20,21 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Antidepressants for Depression
     - GLP-1 and Reward Beyond Food
+    - Deficiency Repletion vs Enhancement
+    - Acute Carbohydrate Effects on Mood
+    - Magnesium Supplementation and Subjective Anxiety
 created: 2026-08-09
-updated: 2026-09-15
-self_critiqued: 2026-08-20
+updated: 2026-09-26
+self_critiqued: 2026-09-26
 ---
+<div class="recent-update" data-last-updated="2026-09-26">
 
 Depression is on the wiki's outcome menu as a **patient-important QoL outcome** (the 2026-08-08
 QoL-extension) and through its **physiological intersection** with physical health — depression
 predicts and worsens cardiovascular disease, and shares the HPA / inflammation / metabolic channels the
 wiki already tracks -> [[Stress Management and Cardiometabolic Health]], [[Inflammation as a Modifiable Lever]]. So *modifiable-exposure -> depression* is a legitimate appraisal claim. But it is held
 **peripherally and proportionately**: physical health is the focus, and this page is one nucleus over
-two levers, not a mental-health sub-domain.
+several modifiable levers, not a mental-health sub-domain.
 
 **The drug facet lives on its own page.** The realistic alternative to these lifestyle levers — the
 antidepressant class, appraised as a standing drug for its efficacy and its limitations — is
@@ -65,29 +69,78 @@ higher-frequency depression-AE endpoint (Bi) and no robust signal on the severe 
 pointing at the same psychiatric-comorbid stratum to monitor. Full appraisal on
 [[GLP-1 and Reward Beyond Food]]. [inferred from @glp1suicidality2025]
 
-**The binding caveat, up front — both levers rest on a SELF-REPORTED symptom-scale surrogate, and both
-literatures carry heterogeneity and publication bias.** Depression symptom scales (BDI, CES-D, HDRS) are
-*not* the patient-important outcome of a diagnosed depressive disorder — they are a
+**The binding caveat, up front — the levers rest on a SELF-REPORTED symptom-scale surrogate, and the
+behavioural literatures carry heterogeneity and publication bias.** Depression symptom scales (BDI, CES-D,
+HDRS, HRSD, MADRS) are *not* the patient-important outcome of a diagnosed depressive disorder — they are a
 [[Surrogate Outcomes|surrogate]] measured with error, and the certainty here is **low**. The direction
-(both levers help, or at least track lower depression) is more secure than the magnitude.
+(the levers help, or at least track lower depression) is more secure than the magnitude.
 
-## The two levers, ranked by warrant
+**One split within that caveat — the SUPPLEMENT levers are the BLINDED ones.** Exercise and diet are
+*unblindable* behaviours, so their self-reported readouts carry expectancy bias on top of the surrogate
+problem (the load-bearing limit below). The three supplement levers — omega-3 (Lever 3), vitamin D
+(Lever 4), and saffron (Lever 5) — are **blindable isolates/extracts**, capsules against an identical
+placebo, so their RCT arms are nominally placebo-controlled in a way the behavioural levers structurally
+cannot be. They all rest on the same symptom-scale surrogate.
 
- — the ranking below is the wiki's own synthesis across the two sources, not a claim in either.
+**But the headline effect size runs INVERSELY to the cleanliness of the evidence base across the three
+supplements — a type-A pattern, exactly what the publication-bias/expectancy critique predicts.**
+ omega-3's placebo-controlled estimate is the *smallest* (SMD −0.28) and its funnel is clean
+(no publication bias, broad multi-region base); saffron's is the *largest* (g ≈ 0.99, \~4x SSRIs) but its
+funnel shows **strong publication bias** and its evidence base is near-single-lab (21/23 trials from Iran,
+13/23 from one research group); vitamin D sits between (SMD −0.40 from an **umbrella of meta-analyses** that
+double-counts primary RCTs). So the lever with the biggest number is the least trustworthy, and the one
+with the smallest is the best-warranted. This is only three data points — a suggestive pattern, not a law —
+but it is the direction the *volume-is-not-independence* and expectancy rules anticipate, and it means the
+supplement levers must be ranked by WARRANT, not by point estimate (the ranking below, and the DECOMPOSITION
+delta).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-26">
+
+## The levers, ranked by warrant
+
+ — the ranking below is the wiki's own synthesis across the sources, not a claim in any one.
 
 | Lever | Best estimate | Design | Certainty | Direction secure? |
 |---|---|---|---|---|
 | **Exercise** (treatment of MDD) | g −0.4 to −0.6 vs active control | NMA of 218 **RCTs** | low / very low | yes |
 | **Diet quality** (incidence of symptoms) | OR \~0.77 highest-vs-lowest | dose-response MA of **prospective cohorts** | low | contested (see diet section) |
+| **Omega-3 / EPA** (treatment of symptoms) | SMD −0.28 (−0.47, −0.09) overall; EPA-specific | MA of 26 **double-blind RCTs** | low | yes (direction); EPA-type/dose fragile |
+| **Omega-3 / LCn3** (*prevention* in non-depressed) | RR 1.01 (0.92, 1.10) — **null** | SR+MA of RCTs >=6mo, n=41,470 | moderate (GRADE) | yes — no prevention effect |
+| **Vitamin D** (treatment of symptoms) | SMD −0.40 (−0.60, −0.21); trim-fill −0.33 | **umbrella** of 10 MAs of RCTs | low | yes (direction); arms unseparated, dose fragile |
+| **Vitamin D** (serum level → incidence/prevalence) | cohort OR 1.60 (1.08, 2.36), **fragile**; cross-sectional null 1.19 | umbrella of **observational** MAs | very low | contested (reverse causation) |
+| **Saffron** (treatment of symptoms) | g 0.99 (0.61, 1.37) vs placebo; **direct vs antidepressants NULL** (g −0.17, p=0.33) | SR+MA of 23 short RCTs (Jadad, no GRADE) | very low | direction only; effect fragile to pub bias + single-lab base |
 
-Exercise is the better-warranted lever: it is **randomised** evidence on **treating** established
-depression, and the effect is **not modified** by baseline severity or comorbidity (equally effective
-across both — a subgroup finding, not a covariate adjustment). Diet quality is
+Exercise and omega-3 are the better-warranted levers by DESIGN, for different reasons: exercise is a large
+body of **randomised** evidence on **treating** established depression (effect **not modified** by baseline
+severity or comorbidity — a subgroup finding, not a covariate adjustment), and omega-3 is **blinded**
+randomised evidence (the expectancy-resistant one) though smaller and more heterogeneous. Diet quality is
 **observational** evidence on **incidence**, and its signal is fragile to the two checks that separate
-association from cause (below). Neither is a *big rock* on the physical-health axis — they enter the
+association from cause (below). None is a *big rock* on the physical-health axis — they enter the
 [[Layer 1 - Ranking Interventions for a Stratum|Layer-1 ranking]] as real but modest, low-certainty
 levers, and *attention is an anti-signal* here (nutritional psychiatry is heavily discussed and thinly
-evidenced).
+evidenced). **Vitamin D** (Lever 4) joins as the second blindable supplement lever: its RCT-arm point
+estimate is the largest on the table, but its warrant is weaker than the number suggests — an umbrella of
+meta-analyses (double-counted RCTs) that never separates repletion from enhancement — so it ranks by
+DESIGN below the primary-RCT levers, not above them.
+
+**DECOMPOSITION delta.** The "supplement lever" is now **three sub-levers** (omega-3, vitamin
+D, saffron), and they cluster along a **warrant axis**, not a single "supplements help mood" claim. Two
+poles:
+
+- **Well-warranted, small effect:** omega-3 (SMD −0.28, clean funnel, broad base) — null for
+  prevention/enhancement in the well (Deane), small treatment signal in the symptomatic (Liao).
+- **Weakly-warranted, large effect:** saffron (g 0.99 vs placebo, but strong publication bias + 13/23
+  trials from one lab + 21/23 from one country + no GRADE) — a large headline number the source itself says
+  cannot yet support a clinical recommendation.
+- **Between:** vitamin D (SMD −0.40 from an umbrella of double-counted MAs) — a treatment signal the authors
+  read as **repletion of the deficient**, enhancement in the replete untested.
+
+The two isolates that carry a repletion-vs-enhancement shape (omega-3, vitamin D) still do so; saffron adds
+the distinct lesson that a *large* pooled effect from a *concentrated* evidence base is weaker than a
+*small* effect from a broad blinded one. Ranking supplements by point estimate would invert the true
+order — hence rank by warrant.
 
 **Update — the diet lever now has a small treatment arm too.** The ranking above places diet as
 *observational-on-incidence* only; that was the state before the SMILES trial. SMILES adds one small,
@@ -99,6 +152,9 @@ claim — see the distinction below).
 
 
 [@noetel2024exercise]
+
+</div>
+
 ## Lever 1 — Exercise treats depression (RCT-grade, low certainty)
 
 A Bayesian network meta-analysis of **218 RCTs / 495 arms / 14,170 participants** with major depressive
@@ -157,6 +213,8 @@ no single modality covers all, and the mediation studies were underpowered. That
 pathway is neuro-affective, not metabolic.
 
 [@molendijk2017diet]
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Lever 2 — Diet quality tracks lower depression incidence (observational, and fragile)
 
 A dose-response meta-analysis of **prospective cohorts only** — 29 articles / 24 cohorts / «1,959,217
@@ -277,14 +335,310 @@ insufficient/promising toward established, and would count as type-E corroborati
 design also rules out expectancy bias.
 
 
+[@liao2019omega3]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-26">
+
+## Lever 3 — Omega-3 (EPA): treats symptoms, but does NOT prevent (the one BLINDED lever, smallest effect)
+
+A meta-analysis of **26 double-blind randomized placebo-controlled trials / 2160 participants** of omega-3
+PUFA supplementation in adults with a clinical depression diagnosis or depressive symptoms (Liao 2019) —
+the **treatment pole** of the omega-3->mood question, and the first supplement lever held on this page.
+Unlike exercise and diet, the exposure is a **blindable capsule against an identical placebo**, so this is
+placebo-controlled and expectancy-resistant. The outcome is again a symptom scale (HRSD/MADRS/BDI/GDS),
+not the disorder itself -> [[Surrogate Outcomes]].
+
+**Overall effect is small and heterogeneous.** «a therapeutic effect of −0.28 (95%CI: −0.47, −0.09) on the
+improvement of depression» (SMD, random-effects, P=0.004)
+[@liao2019omega3]; «the effect sizes were small to modest, and
+substantial evidence of heterogeneity between studies was detected (I² = 75%)»
+[@liao2019omega3]. 12 of 26 trials were individually significant.
+This is the **smallest** of the three levers — that removing expectancy inflation shrinks the estimate is
+itself part of the story.
+
+**EPA, not DHA, and at LOW dose — subgroup-derived (route b), fragile.** The DHA-pure/major subgroups were
+NULL; the EPA-pure/major subgroups were beneficial (SMD −0.48 fixed / −0.33 random, P=0.05). The benefit
+concentrated at EPA **<=1 g/d** (SMD −0.50 fixed; −1.03 random) and vanished above 1 g/d — an
+inverse/non-monotone pattern within the studied 180-4000 mg/d range. Authors' bottom line: omega-3 with EPA
+&gt;=60% at <=1 g/d benefits depression [@liao2019omega3]. Hold these
+as **route-(b) subgroup claims with wide CIs**, not established dosing.
+
+**No publication bias, robust to sensitivity — a contrast with Lever 1.** The funnel plot and Egger's test
+showed no evidence of publication bias (Egger's P=0.17), and the effect held on excluding high-risk /
+unpublished trials (SMD −0.25) and comorbid-physical-disease trials (SMD −0.22)
+[@liao2019omega3]. The exercise NMA above DID detect publication
+bias — so on this axis the omega-3 literature is the cleaner one.
+
+**Effect-modification watch — inflammation subtype (net-effect-not-intended).**
+[inferred from @liao2019omega3] Liao cites a proof-of-concept finding that EPA may
+benefit only MDD *with an inflammatory component* and may be **potentially harmful** where the depression
+has a different physiological basis (Rapaport, cited within Liao — not independently held). This is a
+directional effect-modification signal, not an outcome finding: benefit possibly confined to an
+inflammation subtype -> [[Inflammation as a Modifiable Lever]].
+
+**Repletion vs enhancement is UNTESTED here.** [inferred from @liao2019omega3] Baseline
+plasma omega-3 was not measured (named as an uncontrolled heterogeneity source), so whether this is
+*repletion* of the deficient rather than *enhancement* of the already-replete cannot be told apart
+-> [[Deficiency Repletion vs Enhancement]]. No GRADE/CINeMA was reported and long-term efficacy is
+unestablished by the authors. Held at **low** certainty: direction secure, EPA-type/dose/subtype fragile.
+
+**This is a NEW outcome cell, not an echo of the held omega-3 pages.** The wiki already holds
+omega-3 on *cardiovascular* and *atrial-fibrillation* outcomes ([[Fish and Seafood Consumption]],
+[[Omega-3 Supplementation and Atrial Fibrillation]] — where high-dose EPA *raises* AF risk). Depression is
+a distinct outcome, so this adds a cell rather than re-pooling — and note the **dose divergence**: the
+depression signal sits at <=1 g/d EPA, while the AF harm and the REDUCE-IT CV benefit sit at high dose. A
+lever's shape is outcome-specific.
+
+[@deane2019omega3]
+### The prevention / enhancement counter-pole — omega-3 does NOT lift mood in the non-depressed (Deane 2019)
+
+The both-directions pair is now complete. Liao is the **treatment** pole (already-symptomatic); the
+**prevention / enhancement** pole is a Cochrane-lineage SR+MA (Hooper group, WHO NUGAG series) of RCTs
+&gt;=6 months — 31 LCn3 trials, **41,470 participants** — in **largely non-depressed** populations (17 trials
+chronic-illness/risk-factor, 6 cognitive, 5 healthy, only 4 mental-health, and just **1 of 31** recruited
+only currently-depressed). This is the first-ever SR of *prevention*: «these are the best data available on
+prevention of depression and anxiety, there are no previous systematic reviews of prevention»
+[@deane2019omega3].
+
+**The result is a clean null on incidence.** «Thirteen RCTs (randomising 26 528 participants, reporting 1355
+people developing depression symptoms, median dose 0.95 g/d, range 0.4-3.4 g/d, median duration 12 months,
+range 6-89 months) suggested little or no effect of increasing LCn3 on risk of depression symptoms (RR 1.01,
+95% CI 0.92-1.10, I2 = 0%, Fig. 2).» [@deane2019omega3]
+GRADE **moderate** (downgraded once for imprecision), no heterogeneity, no publication bias (Harbord P=0.27).
+Anxiety symptoms are likewise null: SMD 0.15 (95% CI 0.05-0.26, I²=0%, n=1378, four scales, no low-RoB study)
+— statistically a trivial *harmful*-direction signal, GRADE «increasing LCn3 probably has little or no effect
+on anxiety symptoms» [@deane2019omega3]. Two hints even lean
+*away* from benefit in the well: the good-adherence-only sensitivity trended toward harm
+(RR 1.16, 95% CI 0.99-1.36) and «subgrouping suggested increased depression risk with LCn3 in healthy adults,
+and little or no effect in those with comorbid illnesses» [@deane2019omega3].
+Increasing **ALA** by 2 g/d «may increase risk of depression symptoms very slightly (number needed to harm,
+1000; low-quality evidence)» [@deane2019omega3]; omega-6: no data.
+
+**Liao and Deane are NOT a tension — they answer different questions (a distinction, not a `[[tension]]`).**
+The parameter table shows the compared quantities are not the same (not-joined check ii: different
+population / horizon / metric). Deane BOUNDS the omega-3 lever to the treatment stratum — a type-B scope
+disambiguation + type-F refinement, not a type-D clash. Author lists are disjoint (Deane/Hooper vs Liao's
+group), but different questions mean this is not type-E corroboration either.
+
+| Parameter | Liao 2019 (treatment) | Deane 2019 (prevention) | Same quantity? |
+|---|---|---|---|
+| Question | *treat* existing depression | *prevent* new depression in the non-depressed | **NO** |
+| Population | adults w/ clinical depression or depressive symptoms | mostly non-depressed (1/31 all-depressed) | **NO** |
+| Metric | SMD (continuous symptom-scale change) | RR (dichotomous new depression events) | **NO** |
+| Estimate | «−0.28 (95%CI: −0.47, −0.09)» (benefit) | RR 1.01 (0.92-1.10) (null) | **NO** — incomparable |
+| Duration | mixed, many short trials | >=6mo required, median 12mo | **NO** |
+| Existing-depression severity/remission | (Liao's whole domain) | 2 tiny trials, «very low quality» | closest, but Deane's >=6mo excludes Liao's short trials |
+
+**Deane does not contradict Liao even where they nominally overlap.** On the treatment stratum Deane found
+only 2 tiny long-term trials (n=61 GDS MD -0.94 [-2.27, 0.39]; n=24 Parkinson's) → severity and remission
+«unclear ... very low quality». It explicitly credits the short-term treatment signal Liao's pool captured:
+a prior Cochrane of «shorter trials of LCn3 in people with depression suggested small to modest
+non-clinically beneficial effects but queried risk of bias and publication bias», and another SR
+«suggested efficacy at higher EPA doses and alongside antidepressants»
+[@deane2019omega3]. So the composite is a
+clean **population × duration partition**: short-term treatment of the symptomatic = small benefit (Liao);
+long-term prevention/enhancement in the well = null-to-slightly-harmful (Deane).
+
+**This IS the [[Deficiency Repletion vs Enhancement]] axis, and Deane names the untestable arm.** The null in
+the replete/non-deficient is the *enhancement* arm (no headroom, plateau); repletion of the deficient stays
+untested here because «Baseline intake of LCn3 could alter effectiveness of LCn3 supplementation, as
+increasing LCn3 would be more likely to be effective in those with poor baseline intakes» but trials
+reported baseline status non-comparably [@deane2019omega3] —
+the same uncontrolled parameter Liao flagged. [inferred from @deane2019omega3; @liao2019omega3]
+
+**Decision-change (layer 3):** for a person *without* depression, omega-3 supplementation is not a mood
+lever — the guidance-null-defeating line is the authors' own: «Physicians should not recommend omega-3
+supplements for reducing depression or anxiety risk, and evidence of effectiveness in existing depression is
+of very low quality» [@deane2019omega3]. The "fish oil lifts
+mood" belief is refuted for the well; any residual case is repletion of the deficient (untested) or the
+treatment stratum (Liao, small/fragile). All still on the self-reported symptom-scale
+[[Surrogate Outcomes|surrogate]].
+
+[@musazadeh2023vitd]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-26">
+
+## Lever 4 — Vitamin D: a second BLINDED supplement lever, but the arms are unseparated
+
+An umbrella meta-analysis (Musazadeh 2023) pooling **existing meta-analyses** of vitamin D and depression,
+keeping interventional and observational evidence apart — the second supplement lever here, and like
+omega-3 a **blindable capsule against an identical placebo**, so the RCT arm is expectancy-resistant in a
+way the behavioural levers are not. Quality of included MAs by AMSTAR2; **no GRADE reported**. Outcome is
+again a self-reported symptom scale (BDI/CES-D/HDRS/MADRS) -> [[Surrogate Outcomes]].
+
+**Interventional (RCT) arm — moderate point effect, high heterogeneity.** Pooling 10 MAs of RCTs (24,510
+participants, 49 RCTs): «Vitamin D supplementation had ... a significant effect on decreasing depression
+symptoms (ESSMD: −0.40; 95 % CI: −0.60, −0.21, p < 0.01)»
+[@musazadeh2023vitd], I2 = 89.1 %. Funnel asymmetry hinted
+at a small-study effect but the trim-and-fill re-estimate held: «results remained significant (ESSMD:
+−0.33; 95 % CI: −0.52, −0.13, p < 0.05)» [@musazadeh2023vitd] (Egger p = 0.21, Begg p = 0.78). This SMD is *nominally larger* than omega-3's −0.28, but do not read it
+as the stronger lever (see the two limits below).
+
+**Observational arm — a fragile cohort signal and a NULL cross-sectional signal.** Prospective cohorts (4
+MAs / 5 effect sizes, 38,237 participants): lower serum vitamin D -> higher odds of depression, «Pooled
+ESOR: 1.60; 95 % CI: 1.08, 2.36, p < 0.01» [@musazadeh2023vitd], I2 = 91.3 % — but **fragile**: «using one-study removal analysis, the significance was lost
+(ESOR: 1.43; 95 % CI: 0.98, 2.10), and (ESOR: 1.41; 95 % CI: 0.95, 2.09)»
+[@musazadeh2023vitd] — dropping a single MA collapses it.
+Cross-sectional MAs (66,411 participants) are outright **null**: «no significant protective association ...
+(Pooled ESOR: 1.19; 95 % CI: 0.95, 1.49, p = 0.14)»
+[@musazadeh2023vitd], and the authors invoke reverse
+causation directly — «the reverse causality in which patients who have less exposure to sun end up having
+lower serum vitamin D levels is not ruled out»
+[@musazadeh2023vitd]. So the observational arm is the
+[[The U-Shaped Association Artifact|artifact-first]] story: the association lives in the confounding-prone
+designs and thins under scrutiny.
+
+**The repletion-vs-enhancement arms are UNSEPARATED — the binding caveat.**
+[inferred from @musazadeh2023vitd] The umbrella does NOT stratify by baseline
+vitamin D status (its subgroups are dose, duration, age), and the authors name the gap themselves:
+«individual's baseline vitamin D level was not considered in the majority of studies. Hence ... it is
+possible that individuals who have low serum 25(OH)D level are expected to show greater benefit»
+[@musazadeh2023vitd], «vitamin D is considered beneficial
+for depressed individuals rather than healthy ones ... vitamin D did not affect emotions in healthy
+subjects» [@musazadeh2023vitd], with benefit expected «for
+patients with vitamin D deficiency (< 50 nmol/L serum levels of vitamin D at baseline)»
+[@musazadeh2023vitd]. So the headline «protects against
+depression» is most plausibly **repletion in the deficient / depressed**, not **enhancement in the
+replete** — the exact arm split of [[Deficiency Repletion vs Enhancement]]. The powered
+enhancement-in-the-replete RCT (VITAL-DEP / Okereke 2020, the ancillary depression trial of VITAL) that
+would test the upper arm directly is **not held here**, so the enhancement-null for mood is not asserted
+from this source; the umbrella simply cannot see the arms apart. That trial is the named acquisition gap.
+
+**Dose subgroup is non-monotone and internally inconsistent — no dose-response.**
+[inferred from @musazadeh2023vitd] Table 3: <4000 IU/day SMD −0.09 (NS);
+4000-5000 −0.59; >5000 −0.18 — non-monotone, and the results text says «in dosage of 4000-5000 IU/day ...
+appeared to have a stronger reduction» [@musazadeh2023vitd] while the discussion and conclusion instead credit >5000 IU/day. Table 3 is authoritative, and there
+4000-5000 is clearly the largest cell while >5000 is the *weaker* of the two significant cells — the source
+disagrees with itself. Each dose cell holds only 3-4 MAs; the split is umbrella-of-MAs noise, not a located
+knee (the burden to *locate* a dose optimum is unmet).
+
+**Volume is not independence — the umbrella-of-MAs discount.**
+[inferred from @musazadeh2023vitd] Pooling meta-analyses double-counts primary
+RCTs: the same trials recur across the included MAs, so «10 MAs / 49 RCTs» is far fewer independent tests
+than it reads and the pooled CI is narrower than the true evidence warrants. Hold the −0.40 as a headline,
+not as high precision — this is why the largest point estimate on the ranking table is not the
+best-warranted lever.
+
+**This is a NEW outcome cell, and shares a SCHOOL with a held source.** The wiki holds vitamin
+D on fractures ([[Vitamin D and Calcium Supplementation for Fracture Prevention]]) and disease prevention
+([[Vitamin and Mineral Supplements for Disease Prevention]]); depression is a distinct cell, and this
+umbrella re-pools none of the wiki's held depression MAs (Liao/Deane are omega-3), so it adds a cell rather
+than laundering held evidence. Independence watch: this paper's authors (Musazadeh, Zarezadeh, Mekary)
+overlap the held cinnamon umbrella ([[Cinnamon and Glycemic Control]], Zarezadeh 2023 — same Tabriz group),
+so the two can **never** count as independent type-E corroboration; the topics differ, so no claim overlaps
+today, but the flag stands. Held at **low** (RCT arm) / **very low** (observational arm) certainty:
+direction secure for the deficient/depressed, repletion-vs-enhancement unseparated, dose fragile.
+
+[@marx2019saffron]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-26">
+
+## Lever 5 — Saffron: the large-effect / weak-warrant supplement (very low certainty)
+
+A systematic review and meta-analysis (Marx 2019) of **23 short RCTs / 1237 participants** of saffron
+(*Crocus sativus*) supplementation on depression and anxiety **symptom scales**, monotherapy and adjunct,
+vs placebo or antidepressant. The third supplement lever, and the one whose headline number is largest and
+whose warrant is weakest. The exposure is a **blindable 30 mg extract capsule** (19/23 used 30 mg/d), so
+the RCT arms are nominally placebo-controlled (Jadad 20/23 at 4-5); the outcome is again a self-reported
+symptom scale -> [[Surrogate Outcomes]].
+
+**The pooled effect is large — implausibly so — and publication-biased.** vs placebo for depression:
+«a significant and large positive effect size for saffron 119 reducing symptoms of depression in comparison
+to placebo (g=0.99, 95% CI=0.61 to 1.37, 120 n=14 studies, n=716 participants, p<0.001; Figure 2)»
+[@marx2019saffron], I²=81.9%. Egger's found strong publication
+bias (intercept 6.99, p=0.007), and — atypically — correction did NOT attenuate it: «a trim-and-fill
+analysis increased the effect size of saffron supplementation (g=1.14, 127» 0.74-1.52)
+[@marx2019saffron]. A trim-and-fill that *raises*
+the estimate means the imputed missing studies land on the large-effect side — so the standard
+publication-bias correction offers no reassurance here, unlike the conservative downward correction it
+usually is. Anxiety vs placebo is the same shape: g=0.95 (0.27-1.63), n=6, I²=88.74%, Egger p=0.028,
+trim-fill up to g=1.40 [@marx2019saffron].
+
+**The direct drug comparison is NULL — and it is the cleanest subgroup (layer-3 substitution point).**
+The Discussion frames saffron as considerably greater than standard pharmacotherapy, «such as selective
+serotonin reuptake inhibitors (Cohen's d=0.30)» — but that is an *indirect* cross-trial comparison; the
+DIRECT head-to-head disagrees: «the five trials directly comparing saffron to antidepressant medication
+reported no 203 statistically significant difference (p=0.33)»
+[@marx2019saffron] (g −0.17, n=5, n=210), and this is the ONLY
+low-heterogeneity subgroup (I²=35.1%). So the honest read is **equivalence to antidepressants, not
+superiority** — the large placebo-controlled g does not license "saffron beats SSRIs". The adjunct-to-
+antidepressant subgroup is large but very wide (g 1.23, 95% CI 0.13-2.33, n=4, near the null).
+
+**Volume is NOT independence — the sharpest instance in the corpus.** «Most studies were conducted in Iran
+(21/23)» and «Thirteen studies were conducted by the same 101 research group»
+[@marx2019saffron]. 21/23 trials from one country and 13/23 from
+one lab means the "23 RCTs" are far fewer *independent* tests than the count implies — the
+[[Measurement Error in Dietary Assessment|appraisal]] rule that weights by independence of backing, not by
+study count, applied at its limit. Combined with strong publication bias, short trials (4-12 weeks), small
+n (30-128), Jadad-only RoB and **no GRADE**, the warrant is **very low despite a gold DESIGN tier**.
+
+**Blinding integrity is a residual doubt even where trials are nominally double-blind.**
+Saffron has a distinctive taste and colour, so maintaining blinding against an inert placebo is harder than
+for a tasteless isolate; a Jadad point for "double-blind" does not verify the blind held. This is a
+mechanism-directional caveat, not an outcome finding — but it is one more reason the placebo-controlled g is
+likely inflated relative to the true effect.
+
+**The authors' own bottom line defeats any strong recommendation.** «the strength of this 238 conclusion is
+moderated by the lack of large-scale trials, and significant risk of publication 239 bias among the many
+small- scale pilot trials published on this topic»; the large effects «require replication in further
+clinical trials that address 241 methodological limitations and the lack of regional diversity before
+clinical recommendations 242 can be made» [@marx2019saffron].
+Adverse
+events were few and not raised above placebo/medication, but «all studies to date have been of 197
+relatively short duration», so long-term safety is unestablished. **Evidence state = insufficient /
+promising, NOT established.**
+
+**Shared-school — NOT independent of the diet levers on this page.** This MA is a Deakin Food &
+Mood group product: its byline overlaps the held diet sources — Jacka + Berk co-author the SMILES trial
+(Lever 2), and Lane + Marx + Jacka co-author the held UPF umbrella review (Lane et al.). So saffron and the
+diet levers can **never** be scored as a type-E robustness pairing — they are one research group, not
+separate lines of evidence. It re-pools no held depression MA (Liao/Deane are
+omega-3), so it adds a new outcome cell without laundering held evidence. Its effect-modification hypothesis
+(inflammation-stratified response) cites the *same* Rapaport 2016 proof-of-concept the omega-3 lever cites —
+a shared citation, not a second independent route -> [[Inflammation as a Modifiable Lever]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Synthesis — what this domain does and does not license
 
 
 
-- **The expectancy trap is the load-bearing limit.** An unblindable behaviour (exercise, diet) measured by
-  a self-reported symptom scale is the worst case for expectancy bias, and it is exactly the setup here.
-  That is why direction is held more firmly than magnitude, and why the whole page sits at
-  `confidence: low` despite one lever being RCT-based.
+- **The expectancy trap is the load-bearing limit — for the behavioural levers.** An unblindable behaviour
+  (exercise, diet) measured by a self-reported symptom scale is the worst case for expectancy bias, and it
+  is exactly the setup for Levers 1 and 2. That is why direction is held more firmly than magnitude, and why
+  the page sits at `confidence: low` despite exercise being RCT-based.
+- **Omega-3 is the one lever that escapes the expectancy trap — and it is the smallest.** A blindable
+  capsule can be placebo-controlled, so Lever 3's SMD −0.28 is not inflated by expectancy the way the
+  behavioural readouts are. Reading the three together: the expectancy-resistant lever shows the *smallest*
+  effect, which is the direction the expectancy critique predicts. It still rests on the same symptom-scale
+  surrogate and leaves baseline omega-3 status (repletion-vs-enhancement) untested, so it too stays low
+  certainty.
+- **Vitamin D is the second blindable supplement lever, and its largest-on-the-table number is a warning,
+  not a win.** The −0.40 RCT-arm SMD comes from an umbrella of meta-analyses (double-counted
+  RCTs -> overstated precision) that never separates repletion from enhancement. The authors themselves
+  read the benefit as **repletion of the deficient**, and the powered enhancement RCT in the replete
+  (VITAL-DEP / Okereke) is unheld, so the honest reading is: vitamin D probably helps the *deficient /
+  depressed* and probably does little for the *replete*, but this source cannot prove the second half. The
+  observational arm (cohort OR 1.60) is fragile to one-study removal and null cross-sectionally — an
+  artifact-first signal. Both supplement levers converge on the same shape: a status-dependent curve, not a
+  blanket "supplements lift mood".
+- **Saffron is the large-effect / weak-warrant supplement — and it makes the warrant axis explicit.**
+ Its pooled g ≈ 0.99 is the biggest number on the table (nominally \~4x SSRIs), but the effect
+  is fragile to strong publication bias (correction *raised* it, not lowered it), a near-single-lab base
+  (13/23 trials one group, 21/23 one country), short small trials and no GRADE — and the *direct* comparison
+  to antidepressants is null (equivalence, not superiority). Read across the three supplements, effect size
+  runs INVERSELY to evidence-base quality: the smallest effect (omega-3) is the best-warranted, the largest
+  (saffron) the least. So the layer-3 read is: saffron is a plausible, well-tolerated candidate adjunct at
+  30 mg/d that its own authors say cannot yet ground a clinical recommendation — insufficient/promising, not
+  established, and no more than equivalent to a drug the person could take instead.
 - **Decision-change (layer 3):** for a person with depression who is willing, exercise — favouring
   *intensity* they can sustain, in a *structured* prescription, with strength or yoga if tolerability is
   the binding constraint — is a defensible alternative or adjuvant to psychotherapy/pharmacotherapy, not
@@ -295,8 +649,14 @@ design also rules out expectancy bias.
   dietician-supported dietary improvement is a reasonable low-risk adjunct to consider — while holding
   that one n=67 expectancy-prone trial is insufficient to establish the effect, and that the prevention
   and treatment claims are a distinction, not one finding.
+- **Scope guard — chronic depression is NOT acute mood.** The *carbohydrate-craving self-medication*
+  story belongs to the chronic disorder; the *acute* question (does a sugary snack lift mood/energy in the
+  next hour?) is answered separately and negatively for healthy adults -> [[Acute Carbohydrate Effects on Mood]].
+  Different scope and horizon — a distinction, not a lever on this page.
 - **Open loop:** no operation here grades these against a *realized* patient outcome; the evidence is
   symptom-scale change, and the trajectory/quality-of-life shape depression most degrades is
   under-measured.
+
+</div>
 
 ## References

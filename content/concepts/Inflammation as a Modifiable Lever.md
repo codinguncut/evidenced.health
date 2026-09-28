@@ -2,14 +2,14 @@
 type: concept
 question: Is chronic inflammation a modifiable causal lever for cardiovascular events — and if so, via what target, in whom, and with what limits?
 aliases: [Inflammatory Hypothesis of Atherothrombosis, Residual Inflammatory Risk, Anti-Inflammatory Therapy Cardiovascular, Inflammation and Cardiovascular Disease, IL-1 Beta Atherosclerosis]
-authors: [Ridker, Paul M; Nidorf, Stefan M; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Shivappa, Nitin; Yin, Jia-Li]
-sources: [Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Nidorf - Colchicine Chronic Coronary Disease LoDoCo2 2020, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Shivappa - Dietary Inflammatory Index Cardiovascular Mortality Meta-Analysis 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, WCRF - Dietary Lifestyle Patterns Cancer Prevention 2025, Yin - Dietary Patterns Multiple Cancers Umbrella 2025]
+authors: [Ridker, Paul M; Nidorf, Stefan M; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Shivappa, Nitin; Yin, Jia-Li; Wang, Qin; Liao, Yuhua]
+sources: [Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Nidorf - Colchicine Chronic Coronary Disease LoDoCo2 2020, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Shivappa - Dietary Inflammatory Index Cardiovascular Mortality Meta-Analysis 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, WCRF - Dietary Lifestyle Patterns Cancer Prevention 2025, Yin - Dietary Patterns Multiple Cancers Umbrella 2025, Wang - Insulin Resistance BCAA Mendelian Randomization 2017, Liao - Omega-3 PUFA Depression 2019]
 cluster: inflammation-cvd
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-29
-self_critiqued: 2026-08-29
+updated: 2026-09-26
+self_critiqued: 2026-09-26
 relationships:
   related_to:
     - Surrogate Outcomes
@@ -18,6 +18,7 @@ relationships:
     - The U-Shaped Association Artifact
     - Is the Food Category Doing Any Work
     - Allostatic Load and Mortality
+    - Branched-Chain Amino Acids and Insulin Resistance
 ---
 
 **Nucleus of the `inflammation-cvd` cluster.** Chronic vascular inflammation is a *causal* lever for
@@ -104,6 +105,16 @@ of the value of measurement of circulating C reactive protein in prediction of l
 checks fire: the two answer *different questions* (prediction vs causation) and do not disagree on the one
 they share. This is a distinction, not a joined issue.
 
+**The same marker/lever caution recurs for GlycA on the diabetes axis.** A separate MR finds insulin
+resistance *causally raises* the inflammation marker glycoprotein acetyls (GlycA; 0.47 SD per 1-SD higher
+IR) — «The association that we identify of insulin resistance with GlycA is novel»
+[@wang2017bcaa]. But whether GlycA (or
+inflammation generally) is *causal for type 2 diabetes* is unshown — Wang notes recent MR studies have so
+far failed to support an inflammation -> T2DM effect, and GlycA's own causal role can't yet be probed by MR
+(too few variants). So GlycA sits exactly where CRP sits here: a raised inflammation *readout* of an
+upstream disease process, not a demonstrated onward lever -> [[Branched-Chain Amino Acids and Insulin Resistance]].
+[inferred from @wang2017bcaa]
+
 **These two are NOT independent backing — do not read their agreement as robustness.** ERFC and CCGC
 share the same Cambridge coordinating centre (Kaptoge, Di Angelantonio, S.G. Thompson, Danesh sit on
 both), draw on overlapping cohorts, and CCGC cites ERFC 2010 as antecedent. Their agreement on the
@@ -142,6 +153,8 @@ event-avoidance gets a different answer than the event endpoint alone implies �
 (layer 3), but the wiki must not let the event benefit stand in for a mortality benefit it does not have.
 [inferred from @ridker2017cantos; @nidorf2020lodoco2]
 
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## The "anti-inflammatory diet" is a proxy for known-healthy patterns, not a shown independent lever
 
 The drugs above are the *evidenced* form of the lever, and they are pharmacotherapy — out of reach as a
@@ -177,6 +190,17 @@ DII «OR = 0.81, 95% CI = 0.71 to 0.92» with low heterogeneity
 association does not establish an inflammation-specific pathway either, and the diet->depression link is
 itself suspected to run through the cardiometabolic route -> [[Depression and Modifiable Exposures]].
 
+A **randomized** hint at the same inflammation->depression pathway comes from omega-3 supplementation: a
+meta-analysis of 26 double-blind RCTs found EPA (not DHA) improved depressive symptoms (overall SMD −0.28),
+and cited a proof-of-concept finding that EPA «might beneﬁt only major depressive disorder (MDD) subjects
+with inﬂammation as part of their syndrome and that it may even be potentially harmful for individuals whose
+MDD was due to a different physiological disturbance»
+[@liao2019omega3]. This is a directional route-(b) effect-
+modification signal, not established: it would, if it held, make the inflammation lever's depression facet a
+*subtype* claim (benefit confined to inflammatory MDD) rather than a general one — but it rests on a cited
+secondary source and unmeasured baseline inflammation, so it stays a candidate.
+-> [[Depression and Modifiable Exposures]] [inferred from @liao2019omega3]
+
 **Cross-outcome corroboration (cancer, a different field).** The same caveat surfaces independently in
 WCRF/AICR's 2025 pattern report on **colorectal cancer**: the Empirical Dietary Inflammatory Pattern
 (EDIP) and its insulin-anchored siblings were «graded as 'strong-probable' for their likelihood of
@@ -199,6 +223,8 @@ diet -> CRC direction now shows up across three routes (WCRF's EDIP grade, Yin's
 CVD leg), all carrying the same *the-index-relabels-a-diet-pattern* caveat and none clearing a high
 evidence bar — reinforcing the insufficient-evidence verdict on an *independent* dietary-inflammation
 lever, not lifting it. [inferred from @yin2025cancer]
+
+</div>
 
 ## Where it sits — residual risk, reverse causation, and the open gaps
 

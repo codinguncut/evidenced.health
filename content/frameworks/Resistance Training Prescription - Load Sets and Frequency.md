@@ -1,7 +1,7 @@
 ---
 type: framework
 question: How should resistance training be prescribed — load, sets, weekly frequency, and equipment modality (free-weights vs machines) — for strength versus hypertrophy, what is the minimal effective dose, and does any of it move a health outcome?
-aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training]
+aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training, DOMS, Delayed Onset Muscle Soreness, Muscle Soreness, No Pain No Gain, Is Soreness a Good Sign, Muscle Confusion, Muscle Damage and Growth]
 authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas]
 sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023]
 cluster: muscle
@@ -15,8 +15,9 @@ relationships:
     - Grip Strength and Mortality
     - Low Muscle Mass and Mortality
     - Sarcopenia Definition and Diagnosis
+    - Blood Flow Restriction Training
 created: 2026-08-06
-updated: 2026-09-10
+updated: 2026-09-25
 self_critiqued: 2026-09-10
 ---
 
@@ -73,6 +74,21 @@ the *resistance-training dose* is a **terminological conflation** of two differe
 **different outcomes measured on different instruments** (1RM force vs cross-sectional area / lean mass),
 so *load matters for one and not the other* is not a contradiction to reconcile — it is two curves.
 Filing it as a tension would compare non-commensurable quantities.
+
+### Myth correction — soreness (DOMS) does not track growth, and neither does "muscle confusion" `[2026-09-25, belief-harvest WS-026]`
+
+*"No pain, no gain"* — the belief that delayed-onset muscle soreness (DOMS) marks an effective session —
+runs against the decomposition above. **Hypertrophy is volume-driven, not damage-driven:** Currier found
+training *to failure did not explain* the hypertrophic response in these (mostly untrained) participants,
+and load was largely irrelevant to muscle size (§decomposition) — so the muscle damage that produces
+soreness is not the growth signal. DOMS is a muscle-damage / unfamiliarity signal that **attenuates as
+the muscle adapts to a movement** (the repeated-bout effect) — so soreness fades with training precisely
+while gains continue, and its absence is not evidence of a wasted session. Relatedly, *"muscle confusion"* — constantly varying exercises to
+keep muscles *guessing* — has no separate lever here: the drivers that separated prescriptions were load
+(strength) and volume (size), not novelty; variety earns its place through adherence and joint-health,
+not a distinct growth mechanism. Chase **volume** for size and **load** for strength; do not use soreness
+or novelty as the dose signal.
+
 
 
 [@currier2023]
@@ -307,7 +323,12 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   intervals, tempo, time-under-tension excluded/under-reported.
 - **Unblindable primary trials** — moderate–high risk of bias (strength 22% high; hypertrophy 18% high);
   gold *design*, but the underlying RCTs cannot double-blind exercise.
-- **Healthy adults only** — athletes, comorbidities, frail excluded; older-adult function data sparse.
+- **Healthy adults only** — athletes, comorbidities, frail excluded; older-adult function data sparse. For
+  the person who **cannot load heavy** (older, comorbid joints/bones, rehab), this dial does not apply; the
+  route-(c)/(e) workaround is [[Blood Flow Restriction Training]], which reaches heavy-load-comparable
+  *hypertrophy* at light load (though below-heavy-load *strength*) — and lands the same load-dependence
+  shape from an independent team, corroborating the strength-is-load-driven / hypertrophy-is-not
+  decomposition above.
 - **Single source, shared lineage** — not independent of ACSM 2026 or Morton 2018 (Phillips/McMaster);
   `confidence: low` until an independent line lands.
 - **Equipment facet is thin and tentative (Haugen)** — 13 studies, hypertrophy on only 5-6, none rated

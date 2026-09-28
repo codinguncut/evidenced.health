@@ -3,7 +3,7 @@ type: framework
 question: Does restricting carbohydrate beat a balanced-carbohydrate diet for weight loss, and by how much?
 aliases: [Low-Carb Diets, Low-Carbohydrate Diets, Carbohydrate Restriction, Ketogenic Diet Weight Loss, Low-Carb vs Low-Fat, Balanced-Carbohydrate Diets]
 authors: [Naude, Celeste E; Dehghan, Mahshid; Gardner, Christopher D; Szczerba, Edyta; Seidelmann, Sara B; Qin, Pei; Bo, Yacong]
-sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018, Qin - Carbohydrate Quantity Quality Mortality, Qin - Low-Carbohydrate Diet Cardiovascular Mortality 2023]
+sources: [Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Willett - Nutritional Epidemiology 3e, NICE - NG246 Evidence Review F, Dehghan - PURE Fats Carbohydrate Mortality 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Seidelmann - Carbohydrate Intake Mortality 2018, Qin - Carbohydrate Quantity Quality Mortality, Qin - Low-Carbohydrate Diet Cardiovascular Mortality 2023, WHO - Total Fat Intake 2023]
 cluster: weight-loss-diets
 nucleus: true
 confidence: medium
@@ -15,9 +15,10 @@ relationships:
     - Energy Adjustment and What a Diet Coefficient Means
     - Free Sugars Intake
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-08-26
+    - Ketogenic Diet and Endurance Performance
+self_critiqued: 2026-09-22
 created: 2026-07-26
-updated: 2026-08-26
+updated: 2026-09-23
 ---
 
 **Nucleus of the `weight-management` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
@@ -203,6 +204,9 @@ hard patient-important endpoint the authors carried into them, empty in every st
 reported outcome here is a surrogate** except constipation and participant-reported adverse effects.
 Per the expectancy test this is *unprobed*, not *disproved*, and the authors say why: long follow-up in
 diet trials is impractical.
+
+*Athletic performance is a separate question with its own gold evidence:* the ketogenic form of
+low-carb does not improve aerobic capacity or endurance performance -> [[Ketogenic Diet and Endurance Performance]].
 
 ## Decision relevance
 
@@ -478,6 +482,48 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
   design** — PURE and Seidelmann (above) supply the observational cut but not the interventional one. The
   review points outside its own evidence base to cohort data showing *«harm at the extremes of intake»*
   -- which cuts against **both** diet poles rather than favouring either.
+
+## WHO Total Fat 2023 vs the matched-energy null — a DISTINCTION, not a tension `[2026-09-22]`
+
+WHO Total Fat 2023 recommends adults limit total fat to <=30%E to prevent unhealthy weight gain, on a
+Cochrane SR where reduced-fat arms lost weight vs controls (MD –1.42 kg; 95% CI –1.73 to –1.10; HIGH
+certainty). That *looks* like it should collide with this page's matched-energy finding — that at
+equal calories a fat<->carbohydrate swap is roughly weight-neutral (–0.48 kg, I2=0%, 27 trials). **It
+does not. The op-weave 2a parameter table shows why the two are not the same quantity:**
+
+| Parameter | WHO Total Fat 2023 | Matched-energy swap (this page; Hall-Guo isocaloric feeding) | Same quantity? |
+|---|---|---|---|
+| Exposure contrast | reduce %E from total fat | swap fat <-> carbohydrate, macronutrient ratio changed | near |
+| Comparator | *«usual fat intake (i.e. did not receive a reduced fat intervention)»* | the other macronutrient, **energy matched** | **NO** |
+| Energy condition | ad libitum / free-living; effect *«mediated in part by a reduction in total energy intake»* | energy fixed / matched by design | **NO** |
+| Population | non-dieting healthy adults (weight-gain prevention) | overweight / dieting adults | near |
+| Outcome | body weight, kg (reduced-fat vs usual) | body weight, kg (between-arm difference) | yes |
+| Effect | MD –1.42 kg | \~ –0.48 kg, I2=0% (directionally toward lower-fat) | verdicts differ *because* the energy condition differs |
+
+[@who2023totalfat]
+
+**Cooper not-joined check (ii) fires — different energy condition / unit.** WHO answers *does reducing
+fat lower weight when total energy is free to fall?* (yes, and it falls **because** fat is
+energy-dense); the matched-energy swap answers *does the fat-vs-carb ratio matter at fixed energy?*
+(no). Both are true and consistent, so this is a **DISTINCTION**, not a `[[tension]]`.
+
+**And the two do more than coexist — they reinforce each other, and WHO states the bridge itself.**
+WHO attributes its weight effect to energy reduction: *«the effect of lowering total fat intake on
+body weight might be mediated in part by a reduction in total energy intake»*
+[@who2023totalfat]. That is *precisely* the mechanism the matched-energy
+null predicts: hold energy constant and the macronutrient ratio does almost nothing; let energy fall
+(by cutting the energy-dense macronutrient) and weight drops. So WHO's –1.42 kg and this page's
+–0.48 kg are two readings of one mechanism at two energy conditions — a type-F/A reconciliation across
+a scope gap, not a clash.
+[inferred from @who2023totalfat; @naude2022]
+
+**Endpoint honesty (name the axis, do not price it).** WHO's recommendation rests on a **weight**
+outcome — a surrogate. Whether cutting total fat moves a **hard** outcome (mortality/CVD) is a
+separate claim, and WHO says it depends on fat composition: reducing *unsaturated* fat *«may have an
+impact on body weight but not CVDs»* [@who2023totalfat]. The CVD limb
+is borrowed from the SFA/TFA rule -> [[Saturated Fat Intake and Replacement]]; this page's macronutrient
+question stays about weight, in either direction, per *«Nothing here speaks to mortality or
+cardiovascular events»* above.
 
 ## Held, not filed
 

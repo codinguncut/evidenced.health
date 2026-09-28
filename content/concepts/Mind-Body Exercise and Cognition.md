@@ -15,8 +15,9 @@ relationships:
     - Physical Activity Dose and Mortality
     - Exercise for Preventing Falls in Older Adults
     - Cognitive Stimulation at Work and Dementia
+    - Stress Management and Cardiometabolic Health
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-23
 ---
 
 A 2023 umbrella review (Blomstrand — 20 SR/MAs, 332 primary studies, healthy adults >=55 without MCI

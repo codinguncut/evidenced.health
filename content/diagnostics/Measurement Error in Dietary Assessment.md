@@ -3,10 +3,10 @@ type: diagnostic
 question: How much can measurement error in diet studies hide a real effect, or manufacture a false one?
 aliases: [Measurement Error, Attenuation, Regression Dilution, De-attenuation, Regression Calibration, Validation Study, Differential Misclassification]
 authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org); Li, Jun; Afshin, Ashkan]
-sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019]
+sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Ekelund - Accelerometer Physical Activity Mortality 2019]
 cluster: nutrition-methods
 confidence: medium
-self_critiqued: 2026-09-03
+self_critiqued: 2026-09-22
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
@@ -14,11 +14,12 @@ relationships:
     - Rating Certainty of Evidence
     - Upgrading Observational Evidence
     - Physical Activity Dose and Mortality
+    - Sedentary Behaviour and Chronic Disease Risk
     - Sources of Non-Replicability
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-09-03
+updated: 2026-09-22
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -214,7 +215,43 @@ cross-domain comparison — the laundering surface the gate exists for.
   stated cause; WHO PA: the non-linear shape and its certainty). **Dual test passes.**
 - **The residual risk, stated rather than resolved:** the comparison is n=1 per arm. A second
   device-measured domain, or a self-reported domain that *does* show a knee, would move it either
-  way. `AWAITS` either.
+  way. `AWAITS` either. **`[UPDATED 2026-09-22]` partly cashed — see the next section: the activity
+  domain now supplies a *within-domain paired* self-report-vs-device contrast, which the n=1-per-arm
+  objection assumed was unavailable.**
+
+### The activity domain now supplies the paired contrast the cross-domain table lacked `[2026-09-22, Ekelund accelerometer]`
+
+The objection above — the diet-vs-activity comparison confounds measurement method with everything
+else that separates the two domains, n=1 per arm — is now **partly relieved from inside a single
+domain**. The accelerometer physical-activity literature holds a *paired* self-report-vs-device
+contrast the WHO-PA row could not: the same behaviour and the same outcome, measured both ways.
+
+| Parameter | Self-report activity | Device (accelerometer) activity | Same quantity? |
+|---|---|---|---|
+| Exposure | questionnaire physical activity | accelerometer-measured physical activity | **YES — same behaviour, two instruments** |
+| Outcome | all-cause mortality | all-cause mortality | **YES** |
+| Observed effect size | the self-report literature (the referent Ekelund cites) | «about twice as large» [@ekelundacc2019] | **YES — same association, two instruments** |
+
+Two rows the cross-domain table could not fill now read **YES**: exposure and outcome are matched
+across the two activity literatures while the instrument differs (device cohorts vs self-report
+cohorts — different study sets, not the same people measured twice), so the \~2x gap isolates the
+measurement effect far better than the diet-vs-activity comparison did. A second facet points the same way but is weaker — the
+sitting-offset dose runs \~60-75 min/day (self-report, Ekelund 2016) versus \~30-40 min/day (device,
+Ekelund 2020), roughly halved; that pair is direction-consistent but *magnitude-partial*, because the
+two arms are different cohort pools with different offset endpoints and Ekelund attributes the drop
+only partly to measurement. Held estimates: [[Physical Activity Dose and Mortality]],
+[[Sedentary Behaviour and Chronic Disease Risk]].
+
+**What this cashes, and what it still does not.** This partially answers the section's own `AWAITS` —
+not a second *domain*, but the *within-domain paired contrast* the n=1-per-arm objection assumed was
+unavailable. It **strengthens the mechanism's warrant** — the attenuation is now shown and quantified
+with exposure and outcome held fixed, beyond the diet DLW substudy and Te Morenga's self-attribution.
+It still does **not** license the strong causal reading: the offset-dose arms differ in more than the
+instrument, so residual non-measurement differences remain. Consistent-with, and now better-warranted;
+still not proof. **This is a claim-refinement (type-F), not a robustness lift** — a second instance of
+the same attenuation mechanism, not a separate line of evidence reaching it (the classification the
+WHO-PA row already settled: no `[E-independent]` token is claimed or owed here).
+[inferred from @ekelundacc2019]
 
 ## Two fibre measures that are not interchangeable `[2026-07-27, SACN chunks 08/10]`
 

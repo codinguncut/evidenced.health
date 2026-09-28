@@ -12,8 +12,9 @@ relationships:
     - Statins and New-Onset Diabetes
     - The Observational-Trial Discordance
     - Baseline Risk and the Relative-Absolute Split
+    - Coenzyme Q10 Supplementation for Statin Muscle Symptoms
 created: 2026-09-07
-updated: 2026-09-08
+updated: 2026-09-25
 self_critiqued: 2026-09-08
 ---
 
@@ -141,6 +142,8 @@ a tolerated drug on reported symptoms alone; use a blinded rechallenge or a plac
 separate real pharmacological harm from the nocebo component** -> [[Antidepressants for Depression]],
 [[The Observational-Trial Discordance]].
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Decision relevance — the deprescribing rule
 
 - **A symptom in someone who has tolerated a statin for a year or more is very unlikely the statin.** The
@@ -163,6 +166,12 @@ separate real pharmacological harm from the nocebo component** -> [[Antidepressa
 - **A dose de-escalation is a lever short of stopping.** Because the excess is intensity-graded, a person
   with genuine year-1 intolerance to a high-intensity regimen can often move to a moderate-intensity one
   (smaller excess, most of the LDL benefit) rather than abandoning the drug — a substitution, not a binary.
+- **Coenzyme Q10 is the most-marketed supplement remedy, and its evidence is weak and nocebo-confounded.**
+  The one held meta-analysis reports a fragile, subjective-only pain benefit that concentrates precisely in
+  the trials where the pain was least likely to be the statin's — the pattern the nocebo reading predicts —
+  while the objective muscle/mitochondrial endpoints are null. CoQ10 is safe and cheap, so a time-limited
+  personal trial costs little, but it is a low-rank lever and must not delay continuing the statin
+  -> [[Coenzyme Q10 Supplementation for Statin Muscle Symptoms]].
 - **This sizes the rock (pharmacotherapy taper).** The statin muscle-symptom scare is a large driver of
   non-adherence, and the evidence says the scare is mostly nocebo — so the *tolerability limitation* that
   appears to shrink the statin lever mostly does not. This is the standard-drug LIMITATION appraisal the
@@ -174,6 +183,8 @@ separate real pharmacological harm from the nocebo component** -> [[Antidepressa
   (still-outweighed) metabolic cost to weigh -> [[Statins and New-Onset Diabetes]]. (Both endpoints come
   from the same CTT body, so their appraisal is one lab's work, not independent confirmation.)
   [inferred from @reith2024diabetes]
+
+</div>
 
 ## Limits
 

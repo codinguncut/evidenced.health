@@ -14,6 +14,8 @@ opposite-signed across outcomes. Two through-lines run the whole cluster: most o
 as a marker of underlying health, few are proven treatment targets), and the physical intersection — not
 mood or life-satisfaction as ends in themselves — is what earns each page its place.
 
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Stress and the HPA / allostatic channel
 
 - [[Allostatic Load and Mortality]] — nucleus of the `psychosocial` cluster: whether cumulative
@@ -27,6 +29,12 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
 - [[Antidepressants for Depression]] — the drug facet of the depression cluster: what the antidepressant
   class does and does not do for acute MDD (Cipriani 2018 NMA, all 21 > placebo but SMD 0.30 modest, a
   scale-threshold surrogate at \~8 weeks); the standing-drug alternative to the lifestyle levers
+- [[Magnesium Supplementation and Subjective Anxiety]] — whether magnesium supplementation reduces
+  subjective anxiety/stress, and for whom: one low-warrant non-pooling SR (manufacturer COI, all samples
+  anxiety-vulnerable, positive effects only in Mg + co-ingredient products) — a candidate lever, not a
+  finding; the HPA/stress physiological-intersection admits the mental-health outcome
+
+</div>
 
 ## Connection and meaning
 
@@ -56,6 +64,15 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   Immunity null (Grade D); sleep/QoL/sickness-absence are single-study self-reports. All-surrogate, no
   hard endpoints, no long-term, mostly single-session and male. Low-confidence peripheral lever; the
   cold sibling of sauna (parallel, not a tension).
+- [[Wim Hof Method]] — nucleus of the `wim-hof` cluster: the branded 3-pillar protocol (hyperventilatory
+  breathing + cold + commitment). One SR held (8 tiny trials, n=13-48, 86.4% male, all high risk of bias,
+  no meta-analysis) returns INSUFFICIENT evidence on any patient-important outcome — no hard endpoint,
+  ever. The one repeatable signal is an anti-inflammatory cytokine shift during artificial endotoxemia
+  (a surrogate inside an experimental model), largely from one research group + one paradigm (volume !=
+  independence). Component decomposition: the BREATHING pillar drives the signal; cold-alone is null on
+  every cytokine — the opposite of the cold-centric popular framing. The honest insufficient verdict is
+  itself the decision-change (licenses NOT chasing the fad); weakest-evidenced of the thermal / mind-body
+  levers. Safety flag: hyperventilatory breath-holds must never be done in or near water.
 
 ## Light and sun (UV) exposure
 
@@ -64,6 +81,10 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   cardiovascular mortality — UV has opposite-signed effects on different outcomes
 - [[Melanoma and UV Exposure]] — what *pattern* of UV/sun exposure causes cutaneous melanoma (intermittent
   burning vs cumulative dose are not one exposure), and whether sun protection reduces it
+- [[Blue-Light Filtering Lenses]] — the debunked-premise counterpart: a gold Cochrane SR finds no
+  demonstrated benefit of blue-blocking spectacle lenses for eye strain, visual acuity, sleep, or
+  macular protection (device blue light is \~100-fold below the ocular-damage threshold) — a
+  don't-buy-for-these-purposes result
 
 ## Drinking-water fluoride
 

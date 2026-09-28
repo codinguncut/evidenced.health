@@ -15,8 +15,9 @@ relationships:
     - Fruit and Vegetable Intake and Health
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
+    - Dietary Nitrate and Exercise Performance
 created: 2026-08-28
-updated: 2026-08-31
+updated: 2026-09-24
 self_critiqued: 2026-08-28
 ---
 

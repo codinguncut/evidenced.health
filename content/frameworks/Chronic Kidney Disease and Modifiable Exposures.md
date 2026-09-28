@@ -8,7 +8,7 @@ nucleus: true
 cluster: chronic-kidney-disease
 confidence: low
 created: 2026-08-28
-updated: 2026-08-29
+updated: 2026-09-25
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -22,6 +22,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Layer 1 - Ranking Interventions for a Stratum
     - Shared Modifiable Levers Across Age-Related Diseases
+    - Proton Pump Inhibitors and Adverse Outcomes
 ---
 
 **The decision this page serves.** For a reasonably-healthy person, which lifestyle levers lower the

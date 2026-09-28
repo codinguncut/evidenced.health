@@ -41,6 +41,12 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[Measuring and Raising Cardiorespiratory Fitness]] — how to measure your fitness, how much exercise
   raises it (HIIT vs MICT — HIIT modestly ahead, time-efficiency the real draw), and whether raising it
   actually lowers risk
+- [[HIIT vs Continuous Training for Type 2 Diabetes]] — the modality choice in the T2D stratum: HIIT
+  beats MICT on VO2peak (moderate certainty) but the HbA1c/weight edge is low-certainty and contested
+  (a prior MA found no modality difference); HbA1c is a surrogate, no hard outcomes measured
+- [[Ketogenic Diet and Endurance Performance]] — a gold MA finds keto (K-LCHF) does not improve VO2max,
+  time-to-exhaustion, HRmax or RPE in endurance athletes despite a large fat-oxidation shift (RER) — a
+  surrogate-vs-outcome disconnect; the fat-adaptation performance belief is unsupported
 
 ## The economics of exertion
 

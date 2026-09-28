@@ -8,11 +8,12 @@ cluster: measured-vs-true-effect
 nucleus: false
 confidence: medium
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-25
 self_critiqued: 2026-09-08
 relationships:
   related_to:
     - Statin Muscle Symptoms and the Nocebo Effect
+    - Coenzyme Q10 Supplementation for Statin Muscle Symptoms
     - Antidepressants for Depression
     - The Observational-Trial Discordance
     - The Estimate-to-Action Gap

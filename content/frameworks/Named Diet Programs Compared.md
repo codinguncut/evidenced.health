@@ -16,9 +16,9 @@ relationships:
     - Surrogate Outcomes
     - Rating Certainty of Evidence
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-08-26
+self_critiqued: 2026-09-25
 created: 2026-07-31
-updated: 2026-08-26
+updated: 2026-09-25
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**
@@ -101,6 +101,63 @@ difference compared with usual diet in LDL cholesterol reduction»
 Mediterranean moving hard events -> [[Mediterranean Diet and Cardiovascular Events]]. That two
 independent designs (a named-diet NMA on LDL; PREDIMED on CV events) single out the same pattern is worth
 noting, while keeping the outcomes distinct: Ge does not measure events, PREDIMED does not pool LDL here.
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
+## DASH vs Mediterranean — an outcome-specific split, not a demonstrated winner
+
+A recurring belief pits the two moderate-macronutrient patterns against each other: *DASH lowers blood
+pressure more, Mediterranean gives broader cardiovascular protection.* Read across the held pages, the
+rivalry dissolves into an **outcome-specificity artifact** — each pattern is best-known on the endpoint it
+was measured on, not on one where it beats the other.
+
+**Parameter table (op-weave 2a) — is *DASH better on BP, Med better on events* a head-to-head, or two
+different questions?**
+
+| Parameter | DASH ([[DASH Diet and Blood Pressure]]) | Mediterranean ([[Mediterranean Diet and Cardiovascular Events]]) | Same quantity? |
+|---|---|---|---|
+| Best-evidenced endpoint | BP **surrogate** — a dedicated 20-RCT MA | hard **CV events** — a pattern RCT (PREDIMED) | **NO — different endpoints** |
+| Headline effect | SBP -5.2 (-7.0,-3.4), DBP -2.6 mmHg vs control diet, 2-24 wk | primary composite HR 0.70 (0.55-0.89), \~5 yr, stroke-driven, all-cause null | **NO — a surrogate delta vs an event hazard ratio** |
+| On the OTHER's home endpoint | events: **no RCT** — cohort DASH-score only (CVD RR 0.80, GRADE low) | BP: no dedicated MA; Ge groups Med *with* DASH as moderate-macronutrient | — |
+| On the ONE shared endpoint (Ge's BP surrogate) | \~3.6 kg / near -5 mmHg SBP vs usual diet, 6mo | grouped with DASH, near-equivalent | **YES — difference below the between-diet importance bar** |
+| Population | above-optimal-BP / stage-1 HTN, BMI 23-37 | high-CV-risk primary prevention (\~49% T2D) | overlapping elevated-risk, not identical |
+
+Both halves of the belief fail the same-quantity test, and the two patterns never met in a trial:
+
+- *DASH lowers BP more* — **not supported.** Placed on the same BP endpoint (Ge's network), DASH and
+  Mediterranean sit together as moderate-macronutrient, their difference below Ge's pre-specified
+  importance bar. DASH carries *denser, more specific* BP evidence — a whole MA of its own — not a
+  *larger* effect. An evidence-density gap is being read as an effect-size gap.
+- *Med gives broader event protection* — **half-true, and the true half is an availability asymmetry.**
+  Mediterranean has the hard-event RCT; DASH does not. DASH's event signal is cohort-only at GRADE low —
+  **insufficient-evidence at the RCT level, not no-effect** (a DASH hard-outcome trial was never run, so
+  its silence is not a null; the Chiavaroli umbrella itself still calls for one). Mediterranean is not
+  *demonstrated superior* on events; it is the only one *tested* there.
+
+**Not-joined check (ii) fires -> a distinction, not a tension.** The two claims hold at different unit and
+horizon (a mm Hg surrogate over weeks vs an event hazard over years) and are consistent once the outcome
+is named. No [[tension]] is filed.
+
+**The emergent read (type-A) — a streetlight pattern on the pattern literature.** DASH began as a
+blood-pressure trial (the DASH-Sodium lineage) and its RCT base is BP-surrogate by design; Mediterranean
+drew the one large event RCT. Each pattern is best-known where it was funded to be measured, and the
+*which is better* folklore is downstream of that measurement history, not of any contest between them. The
+two also share most components — high fruit/veg/wholegrain/legume, low red meat and refined carbohydrate,
+Mediterranean adding the EVOO/nuts/fish emphasis DASH lacks — so Ge's finding that the *label* barely
+carries the surrogate effect applies here too -> [[Is the Food Category Doing Any Work]].
+
+**Decision consequence.** On the BP surrogate the two are near-interchangeable, so adherence and
+preference decide. On hard events only Mediterranean is *proven* (in high-risk primary prevention); DASH
+is directionally supported but RCT-untested, so a person already adhering to DASH is not shown to be worse
+off. Neither is demonstrated superior on the other's home endpoint — and if hard-event reduction with the
+strongest warrant is the goal, Mediterranean is the better-evidenced bet only because that is where the
+trial was run.
+
+**Gaps (type-G).** DASH has no hard-outcome RCT (the trial the Chiavaroli umbrella itself calls for), and
+no head-to-head DASH-vs-Med trial exists on either endpoint. A DASH-vs-Med BP head-to-head is a named
+acquisition target (`queue:dash-vs-med-head-to-head-bp`); even that would settle only the surrogate.
+
+</div>
 
 ## Low-carb costs LDL what it buys elsewhere
 
@@ -265,6 +322,8 @@ answer — near-equivalent in the middle (act on adherence); component-ordered a
 measurable component, not the label); and one extreme genuinely under-studied — without asserting any
 hard-outcome pattern ranking the evidence does not license.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Limits
 
 - **Surrogate-only, <=12 months.** The endpoints are weight/BP/lipids/CRP; the longest follow-up is 12
@@ -281,5 +340,25 @@ hard-outcome pattern ranking the evidence does not license.
 - **Gap (type-G): no hard-outcome between-diet comparison exists in this literature** — the durability
   of any 12-month surrogate change into events is untested, and a long-latency head-to-head between named
   diets on mortality/events is impractical to run, so this is a structural absence, not a queue item.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-25">
+
+## Self-critique `[run 2026-09-25, after the DASH-vs-Mediterranean section (WS-023)]`
+
+- **No fake tension.** The DASH-vs-Med contrast is filed as a *distinction*, not a `[[tension]]`: the
+  not-joined check (ii) is stated explicitly (surrogate delta vs event hazard — different unit/horizon),
+  and the parameter table's "same quantity?" column marks the two headlines NO. The one shared endpoint
+  (Ge's BP surrogate) is where they are near-equivalent, which is agreement, not a clash.
+- **No overclaim in either direction.** "DASH lowers BP more" is refused (evidence-density read as
+  effect-size); "Med protects broader" is bounded to an availability asymmetry, with DASH's event gap
+  held as *insufficient-evidence*, not *no-effect* (the expectancy test applied). Mediterranean is called
+  "the only one tested," not "the superior one."
+- **No laundered extraction.** The section mints no `[EXTRACTED]` tags and adds no `sources:` — it is
+ synthesis over three held pages, with every figure cross-referenced to the page where it
+  is extracted and audited. Figures verified against those pages before writing.
+
+</div>
 
 ## References

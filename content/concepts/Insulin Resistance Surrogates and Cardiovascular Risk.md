@@ -8,7 +8,7 @@ cluster: ir-surrogates
 nucleus: true
 confidence: low
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-09-23
 self_critiqued: 2026-08-09
 relationships:
   related_to:
@@ -17,6 +17,7 @@ relationships:
     - Ectopic Fat and Depot-Specific Risk
     - Inflammation as a Modifiable Lever
     - Baseline Risk and the Relative-Absolute Split
+    - Branched-Chain Amino Acids and Insulin Resistance
 ---
 
 Opens the `ir-surrogates` cluster. **The triglyceride-glucose (TyG) index is a cheap fasting readout of
@@ -289,6 +290,11 @@ mechanism) still governs.
   hypertriglyceridemic person, LDL-C can understate the apoB particle burden; TyG flags exactly that
   discordant stratum -> [[LDL ApoB and Cumulative Exposure]]. The lever remains apoB-lowering (and the
   upstream ectopic-fat / energy-balance levers), not the marker.
+- **Circulating BCAA is another downstream readout of the IR state, not a rival dietary lever.** MR
+  shows insulin resistance *causally raises* circulating branched-chain amino acids
+  -> [[Branched-Chain Amino Acids and Insulin Resistance]], so the prospective BCAA->diabetes signal is
+  the same marker-not-lever pattern as TyG here — read it to place someone in the IR stratum, not as a
+  reason to cut protein.
 - **Weight the mortality null honestly; it is not uniform across IR readouts.** For TyG the pooled
   mortality signal is absent (both CIs cross 1) at very-low certainty — no mortality claim can be built
   on *TyG* from this evidence. But the null is not flat across readouts: the HOMA-IR composite carries a

@@ -2,15 +2,15 @@
 type: deliverable
 name: Processed Food
 title: Processed Food
-concrete_subject_audited: 2026-09-04
+concrete_subject_audited: 2026-09-25
 question: 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density, hyper-palatability as an engineered reward property distinct from ultra-processing, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?'
 aliases: [Is Processed Food Bad, Ultra-Processed Food, UPF, NOVA Classification, Processing Aspects]
 authors: [Lane, Melissa M; Hall, Kevin D; Nordic Council of Ministers (org); Te Morenga, Lisa; Scientific Advisory Committee on Nutrition (org); Robinson, Eric; Aramburu, Adolfo; World Health Organization (org); Qin, Pei; Fazzino, Tera L; Sutton, Cassandra A; Schulte, Erica M; Gordon, Eliza L; Pursey, Kirrilly M; Said Abasse, Kassim; Baye, Estifanos; World Cancer Research Fund International (org); Bastide, Nadia M; Johnston, Bradley C; World Cancer Research Fund (org); American Institute for Cancer Research (org); Afshin, Ashkan; Riboli, Elio; Beland, Frederick A; Lachenmeier, Dirk W; Marques, M Matilde; Phillips, David H (IARC Monographs Working Group); Joint FAO WHO Expert Committee on Food Additives (org); Henney, Alex E; Gillespie, Conor S; Alam, Uazman; Hydes, Theresa J; Mackay, Clare E; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah]
-sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, Te Morenga - Dietary Sugars and Body Weight 2013, SACN - Carbohydrates and Health 2015, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Aramburu - Ultra-Processed Food RCT Review, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, Schulte - Which Foods May Be Addictive 2015, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, WHO - Non-Sugar Sweeteners 2023, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Baye - Low AGE Diet Cardiometabolic 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, NutriRECS - Red and Processed Meat Recommendations 2019, WCRF - Diet Nutrition Activity Cancer 2018, Afshin - Health Effects of Dietary Risks GBD 2019, Henney - Ultra-Processed Food Dementia 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025]
+sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, Te Morenga - Dietary Sugars and Body Weight 2013, SACN - Carbohydrates and Health 2015, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Aramburu - Ultra-Processed Food RCT Review, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, Schulte - Which Foods May Be Addictive 2015, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, WHO - Non-Sugar Sweeteners 2023, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Baye - Low AGE Diet Cardiometabolic 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, NutriRECS - Red and Processed Meat Recommendations 2019, WCRF - Diet Nutrition Activity Cancer 2018, Afshin - Health Effects of Dietary Risks GBD 2019, Henney - Ultra-Processed Food Dementia 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: low
 created: 2026-08-01
-updated: 2026-09-04
-self_critiqued: 2026-09-04
+updated: 2026-09-25
+self_critiqued: 2026-09-25
 ---
 
 "Processed" is not one exposure but a dozen. A food's matrix can be broken open, additives
@@ -416,6 +416,8 @@ unresolved-but-plausible signal belongs to the person at layer 3, not to the app
 Which raises the question the additives cannot answer: is there a whole-food *category* that carries
 an evidenced hard-outcome effect? One does.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Processed meat is the one category with an evidenced harm
 
 **Of every category in this document, processed meat is the one with a real, if modest, hard-outcome
@@ -449,9 +451,25 @@ this evidence as warranting a limit — «there is no level of intake that can c
 with a lack of risk of colorectal cancer» — while NutriRECS reads the same cohorts as too
 low-certainty to change what adults do. [@wcrf2018ter] That clash is a grading-and-standpoint disagreement about a shared evidence base, not a dispute
 about the effect size, and it is worked out in full on
-[[Should Adults Reduce Red and Processed Meat]]. So where does the whole decomposition leave
+[[Should Adults Reduce Red and Processed Meat]].
+
+**The cardiovascular and mortality arm points the same way, and is just as small.** A separate
+six-cohort US pool (Zhong 2020; 29,682 adults, median 19-year follow-up) sized the hard-endpoint effect
+in absolute terms: two extra servings of processed meat a week over 30 years mapped to +1.74 percentage
+points of incident cardiovascular disease (95% CI 0.85-2.63) and +0.90 points of all-cause mortality
+(0.43-1.38); unprocessed red meat ran smaller (+0.62 CVD [0.07-1.16], +0.76 mortality [0.19-1.33])
+[@zhong2020meat]. The pool is
+observational, rests on one baseline diet measurement, and «could not establish causality»
+[@zhong2020meat] -- so it adds a
+hard-endpoint outcome to the menu at low certainty without shifting the decomposition.
+
+So where does the whole decomposition leave
 a person deciding what to eat, measured
 against the big rocks?
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-25">
 
 ## What to do — act on the components, against the big rocks
 
@@ -494,9 +512,11 @@ outcome they care about.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density, hyper-palatability as an engineered reward property distinct from ultra-processing, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?' |
-> | **Evidence included** | 26 sources — 14 gold, 9 high, 3 moderate |
+> | **Evidence included** | 27 sources — 14 gold, 10 high, 3 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+
+</div>
 
 ## References

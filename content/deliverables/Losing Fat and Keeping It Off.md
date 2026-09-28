@@ -118,8 +118,6 @@ of body mass, though that figure is exploratory
 matters: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## What each method actually moves
 
 **The drug moves the most weight, and once, moves an outcome.** Semaglutide took off about 12.4
@@ -208,8 +206,6 @@ true. Keep it modest, though: the direct evidence is a two-week surrogate in a h
 density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
 outcome -> [[Energy Density]].
 
-</div>
-
 ## Keeping it off is the part that fails
 
 The trajectory is remarkably consistent across methods. Franz's synthesis of one-year-plus trials found
@@ -285,8 +281,6 @@ lean-mass worry is small and the deficit plus training is enough. For an older o
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
 
-<div class="recent-update" data-last-updated="2026-09-21">
-
 ## How to think about your own choice
 
 Pick the method you can hold, because durability is where nearly every attempt fails. Anchor the deficit
@@ -308,7 +302,5 @@ open.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
-
-</div>
 
 ## References

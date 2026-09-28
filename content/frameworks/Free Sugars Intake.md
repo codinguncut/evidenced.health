@@ -1,24 +1,26 @@
 ---
 type: framework
 question: How much free sugar, and which outcome is the limit actually protecting?
-aliases: [Free Sugars, Added Sugars, Sugar Intake, Sugars, WHO Sugars Guideline, 10% Energy Sugars]
-authors: [World Health Organization (org); European Food Safety Authority (org); Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner]
-sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019]
+aliases: [Free Sugars, Added Sugars, Sugar Intake, Sugars, WHO Sugars Guideline, 10% Energy Sugars, Fruit Juice, 100% Fruit Juice, Is Fruit Juice Healthy, Smoothies, Blended Fruit, Blending vs Juicing, Are Smoothies Bad]
+authors: [World Health Organization (org); European Food Safety Authority (org); Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Ayoub-Charette, Sabrina; Sievenpiper, John L]
+sources: [WHO - Sugars Intake 2015, Te Morenga - Dietary Sugars and Body Weight 2013, Moynihan - Effect of Sugars on Dental Caries 2014, SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, WHO - Non-Sugar Sweeteners 2023, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Qu - Uric Acid Lowering Blood Pressure 2017, Ayoub-Charette - Fructose Sources Uric Acid 2021]
 cluster: sugars-sweeteners
 nucleus: true
 confidence: medium
 relationships:
   related_to:
     - Non-Sugar Sweeteners
+    - Uric Acid Lowering and Blood Pressure
     - Sodium Intake and Blood Pressure
     - What Kind of Evidence Sits Behind a Nutrient Recommendation
     - Energy Adjustment and What a Diet Coefficient Means
     - Upgrading Observational Evidence
     - Certainty of Evidence vs Strength of Recommendation
+    - Acute Carbohydrate Effects on Mood
 created: 2026-07-26
-updated: 2026-08-28
+updated: 2026-09-26
 nosplit: 696@single-exposure nucleus (one how-much-free-sugar-which-outcome question); length is four guidance families accreted on one decision, not multiple decisions
-self_critiqued: 2026-08-28
+self_critiqued: 2026-09-25
 ---
 
 WHO 2015. The headline surprise is **which outcome the limit is protecting**: not body weight, and not
@@ -94,6 +96,35 @@ an effect on body weight"* and declaring them *"beyond the scope of this review"
 null licenses a claim about **the scale**, not about sugar's health effects at large. The wiki's own
 heading above is written in the narrower form for this reason.
 [@te2013]
+
+**The fructose/uric-acid pathway now has BOTH legs evidenced — but the joined chain is still not closed
+`[2026-09-25]`.** Of the two legs of a fructose -> raised urate -> raised BP mechanism:
+
+- **Upstream (food-fructose -> serum urate) — now held.** A gold SR-MA of 47 controlled feeding trials
+  (N=2763) finds the effect is **food-source-specific, not fructose-general**: SSBs raise urate (MD
+  +0.42 mg/dL isocalorically, +0.43 as excess calories, GRADE high) while **100% fruit juice lowers it**
+  (-0.28 mg/dL as excess calories, GRADE high); whole fruit, dried fruit and sweetened dairy are null,
+  and total fructose-containing sugars barely move it (+0.16 mg/dL, very low certainty, and even that is
+  driven by SSBs) [@ayoubcharette2021fructose].
+  **Decision-relevant contrast for this page:** SSB's urate harm is present at **equal energy**
+  (substitution design), unlike SSB's *body-weight* harm, which is energy-mediated and null on
+  isoenergetic exchange (§body weight). So on the urate channel SSB carries a fructose-specific effect
+  the weight evidence does not see; and 100% fruit juice runs *opposite* to SSB here — a further
+  instance of the same-form-different-sign-by-outcome pattern the Aune section below records for vascular
+  endpoints -> [[Uric Acid Lowering and Blood Pressure]].
+- **Downstream (urate -> BP) — held but heavily caveated.** A gold RCT-MA finds urate-lowering therapy
+  (allopurinol) lowers SBP (SDM 0.321) and DBP (SDM 0.260) -> [[Uric Acid Lowering and Blood Pressure]],
+  but the drug is a xanthine-oxidase inhibitor whose BP effect may run through oxidative-stress
+  reduction rather than urate itself, the effect lives in a **hyperuricemic** stratum on a **drug**, and
+  BP is a surrogate.
+
+The chain therefore stays a **candidate, not a shown lever for the sugar decision**: the two legs sit in
+different strata (normouricemic feeding-trial adults upstream vs hyperuricemic drug patients downstream)
+on different endpoints (UA vs BP), and no source runs food-fructose -> BP directly. This strengthens
+mechanistic *plausibility* and sharpens the actionable form to *cut SSBs specifically* (not *cut
+fructose*, and not whole fruit or 100% juice), but closes nothing about whether cutting free sugars
+lowers BP.
+[inferred from @qu2017urate; @ayoubcharette2021fructose]
 
 ### What the primary review adds to these rows
 
@@ -647,6 +678,8 @@ about the shape and direction of the relationship at these levels of intake is h
 page's existing reading that the `<5%` region is carried by the weakest evidence — now from a fourth
 body's own systematic review. [inferred from @efsasugars2022]
 
+<div class="recent-update" data-last-updated="2026-09-26">
+
 ## Decision relevance
 
 - **The 10% limit is a dental recommendation.** If someone's decision is about adiposity or
@@ -668,8 +701,12 @@ body's own systematic review. [inferred from @efsasugars2022]
   the <5% threshold rests on three ecological studies rated *very low* by both the review and the
   guideline [@who2015] — the wiki's clearest live example of a widely-cited number whose own sources claim little
   for it.
+- **No acute mood/energy benefit sits on the other side of the ledger.** The popular "sugar for a quick
+  lift" motive is a phantom: a gold MA of acute CHO-challenge trials finds no mood boost at any
+  time-point (and mildly *worse* alertness/fatigue within the hour) -> [[Acute Carbohydrate Effects on Mood]].
+  So the free-sugars costs above are not offset by an acute upside for this use-case.
 
-
+</div>
 
 ## Limits
 
@@ -741,6 +778,42 @@ processed form instead — so match the scope before reading a clash:
   is matched, so no `[[tension]]` is filed -> [[Fruit and Vegetable Intake and Health]].
 - The whole-vs-processed axis (tinned-fruit harm) is the more robust processing signal in these data
   than a blanket fruit-vs-juice rule.
+
+## Preparation changes the exposure — juice, blending, whole fruit are three foods `[2026-09-25, belief-harvest WS-024/025]`
+
+*"Is fruit juice a healthy way to get your fruit?"* is under-specified until you name **the form** and
+**the outcome** — the same fruit runs different ways on both axes, and a *"get your servings"*
+instruction loses the distinction.
+
+**The form axis — fibre matrix retained or removed.** Whole fruit, a blended smoothie, and 100% juice
+are not one exposure:
+
+- **Juicing removes the insoluble-fibre matrix** — which is why WHO's definition puts fruit juice
+  *inside* free sugars and whole fruit *outside* it (the definition above), and why the MASLD dose+form
+  reading treats juice as a free-fructose vehicle -> *Does fructose's MASLD biochemistry...* below.
+- **Blending is not juicing.** A blended whole fruit **retains all the fibre** — it disrupts cell walls
+  but removes nothing — so a smoothie is not a juice and does not inherit juice's
+  fibre-stripped profile. The common belief that *smoothies are just as bad as juice* conflates the two
+  under "processing"; the retained fibre is the difference. The residual open question is only whether
+  cell-wall disruption raises the glycemic response *modestly* versus the intact fruit — a magnitude not
+  held (a blended-fruit glycemic-response SR is queued, `smoothie-glycemic-response`), and bounded well
+  below the juice case because the fibre is still present.
+ -> [[Is the Food Category Doing Any Work]], [[Dietary Fibre and Health]]
+
+**The outcome axis — the sign of 100% juice flips by endpoint** (the split is worked across this page;
+gathered here because it is one decision question):
+
+- **Metabolic / weight / dental:** juice behaves as a free-sugars, poorly-compensated **liquid-calorie**
+  exposure — inside the harmful bucket (§body weight; the SSB liquid-calorie reading).
+- **Vascular / urate:** 100% fruit juice was **inversely** associated with stroke and CHD in Aune's
+  cohort evidence (§*What CVD/mortality evidence says about the same forms*, above) and **lowers** serum
+  urate where SSB raises it (Ayoub-Charette, §fructose/uric-acid).
+
+So *"is juice healthy?"* has no single answer: net-adverse on the metabolic/dental channel where its
+free-sugar load dominates, plausibly neutral-to-inverse on some vascular markers it still carries
+potassium and flavonoids for. Whole fruit dominates on the satiety/glycemic axis (fibre + chewing) and
+sits outside the free-sugars limit on every axis.
+
 
 ## Refinement — SSB in the DIfE/Boeing 12-food-group series (2026-08-28)
 

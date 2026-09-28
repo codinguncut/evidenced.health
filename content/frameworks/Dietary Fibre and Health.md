@@ -3,7 +3,7 @@ type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
 authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A; Valisoltani, Neda; Ghoreishy, Seyed Mojtaba; Mohammadi, Hamed]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, Wang - Resistant Starch Glucose Insulin 2019]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -20,8 +20,9 @@ relationships:
     - Glycaemic Index and Glycaemic Load and Chronic Disease
     - Dietary Fibre and COPD Risk
     - Dietary Patterns and COPD Risk
+    - Low-FODMAP Diet for IBS
 created: 2026-07-29
-updated: 2026-08-30
+updated: 2026-09-24
 self_critiqued: 2026-08-30
 ---
 
@@ -215,6 +216,19 @@ fibre's other benefits, not a new lever. It is also the *component* refinement o
 bucket). The full estimate, the per-subtype dose-response, the vegetable-arm publication-bias flag,
 and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and COPD Risk]].
 
+## Fibre restriction relieves IBS — the FODMAP inversion, a stratum/scope distinction `[2026-09-24]`
+
+For most of this page fibre is a benefit; for one stratum, *restricting* a fibre subset is the lever. The
+[[Low-FODMAP Diet for IBS]] limits fermentable oligo-/di-/monosaccharides and polyols — fructans, GOS,
+and other short-chain fermentable carbohydrates that are a subset of dietary fibre — and a gold MA (van
+Lanen 2021) finds short-term IBS-symptom relief (SMD -0.66, but the IBS-SSS reduction of 45 points has a
+CI of -77 to -14 that straddles clinical relevance). This is **not a tension with fibre's benefits** —
+applying the not-joined check, the two hold at different strata and outcomes (general-population hard
+endpoints via fermentation vs IBS-sufferer subjective GI relief via removing it) and are consistent once
+matched. The very fermentation that transmits fibre's benefit is what drives IBS symptoms, which is why
+the LFD reduces bifidobacteria — so long-term full restriction *sacrifices* the benefit this page
+documents, and the LFD is properly a time-limited elimination protocol, not a diet.
+
 ## Decision relevance
 
 - **Target \~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
@@ -253,6 +267,11 @@ and the type-F parameter table vs the patterns MA live on [[Dietary Fibre and CO
   short-chain fatty acids, and it is the dominant modifiable lever on microbial diversity — so
   *prebiotics are largely fermentable fibre by another name*, and the prebiotic evidence reduces to the
   fibre evidence on this page -> [[Gut Microbiome and Health]] `[2026-07-29, Valdes + WGO]`.
+- **Resistant starch is one such fermentable-fibre facet, with its own (surrogate-only) glycemic
+  evidence.** A meta-analysis of 13 RCTs (10-45 g/day, overweight/obese adults) finds RS supplementation
+  improves fasting glucose, fasting insulin, HbA1c and HOMA-S% — but all surrogate markers, small short
+  trials, and confidence is low -> [[Resistant Starch and Glycemic Control]]
+  [@wang2019rs].
 
 ## Self-critique `[run 2026-07-29, before commit]`
 

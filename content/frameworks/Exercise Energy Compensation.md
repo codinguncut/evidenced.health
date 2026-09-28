@@ -1,7 +1,7 @@
 ---
 type: framework
 question: Is exercise-induced energy expenditure offset by compensation (reduced non-exercise activity / increased intake), and does higher exertion intensity make the offset worse?
-aliases: [Energy Compensation, Exercise Compensation, NEAT, Non-Exercise Activity Thermogenesis, Constrained Energy Expenditure, Compensatory Eating, Activity Compensation, Out-exercise a Bad Diet, Can You Outrun a Bad Diet, Exercise for Weight Loss]
+aliases: [Energy Compensation, Exercise Compensation, NEAT, Non-Exercise Activity Thermogenesis, Constrained Energy Expenditure, Compensatory Eating, Activity Compensation, Out-exercise a Bad Diet, Can You Outrun a Bad Diet, Exercise for Weight Loss, Fat Burning Zone, Fat-Burning Zone, Does Sweating Burn Fat, Sweating and Fat Loss, Does Cardio Burn Fat]
 authors: [Riou, Marie-Ève; Jomphe-Tremblay, Simon; Lamothe, Gilles; Stacey, Dawn; Szczotka, Agnieszka; Doucet, Éric; Careau, Vincent; Halsey, Lewis G; Pontzer, Herman; Speakman, John R; Recchia, Francesco; Siu, Parco M]
 sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023]
 cluster: activity
@@ -13,7 +13,7 @@ relationships:
     - Does Weight Loss Reduce Cardiovascular Events
     - Exercise vs Caloric Restriction for Visceral Fat
 created: 2026-07-29
-updated: 2026-08-22
+updated: 2026-09-25
 self_critiqued: 2026-08-08
 ---
 
@@ -157,6 +157,27 @@ scale*, not a shared number.
   settled law. To the extent it holds, it is a reason the higher-adiposity person should anchor weight
   change on intake and use exercise for its fitness/function/mortality benefits, which do not run through
   the compensated calories.
+
+
+[inferred from @careau2021]
+## Myth corrections — the fat-burning zone and sweating `[2026-09-25, belief-harvest WS-026]`
+
+Two gym folk-rules follow directly from the finding above that **fat loss is owned by the sustained
+energy deficit, not by the exercise session itself**, yet the fabric stated neither — so a searcher for
+*"fat burning zone"* or *"does sweating burn fat"* found nothing.
+
+- **The "fat-burning zone" is decoupled from fat loss.** Low-intensity exercise does draw a higher
+  *percentage* of its fuel from fat, but body-fat change tracks the **total energy deficit**, not the
+  within-session fuel mix — and higher-intensity work expends more total energy per minute. Choosing low
+  intensity *to burn fat* optimizes the wrong quantity: the substrate oxidized during the hour does not
+  set what happens to fat stores over the week (and compensation, above, blunts even the total deficit).
+  Intensity is a fitness and adherence choice, not a fat-oxidation lever.
+- **Sweating is not fat loss.** Sweat is thermoregulatory water, and the mass lost is regained on
+  rehydration. A hotter room, more clothing, or a sauna raise sweat without raising the energy deficit,
+  so sweat volume is decoupled from fat oxidation — the same principle (fat loss requires an energy
+  deficit) that kills the fat-burning-zone rule.
+
+
 
 
 [inferred from @careau2021]

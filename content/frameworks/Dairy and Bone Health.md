@@ -19,6 +19,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - The Observational-Trial Discordance
     - Layer 1 - Ranking Interventions for a Stratum
+    - Protein Intake for Older Adults
 ---
 
 **Facet of the `dairy` cluster** (nucleus [[Dairy and Cardiometabolic Health]]) — the **bone/fracture**

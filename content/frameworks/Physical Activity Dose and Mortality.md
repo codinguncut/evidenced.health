@@ -3,7 +3,7 @@ type: framework
 question: How much physical activity, of what kind, changes mortality -- and where, if anywhere, does the benefit flatten?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
 authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A; Kivimaki, Mika]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -19,8 +19,8 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Weekend Warrior Activity Pattern and Mortality
 created: 2026-07-27
-updated: 2026-09-10
-self_critiqued: 2026-09-10
+updated: 2026-09-22
+self_critiqued: 2026-09-22
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -408,6 +408,59 @@ least-active + >8 h-sitting group's 58% excess risk «is similar to that of smok
 baseline-ill / early deaths — the weak check, same as Ekelund 2019 and Paluch. So the offset is a
 robust, biologically-plausible *association* (1 h moderate activity improves postprandial lipid/glucose
 after prolonged sitting), not a proven causal cancellation.
+
+### The offset dose, device-measured — the asymmetry narrows on a common instrument `[2026-09-22, Ekelund 2020]` `type-F`
+
+**The self-report offset above (60-75 min/day) is now redone with accelerometry, and the device figure is
+about half.** Ekelund 2020 (harmonised MA, **nine accelerometry cohorts, 44 370 middle-aged/older adults**,
+3451 deaths) cross-tabulates device-measured MVPA x sedentary time — the JOINT-combinations follow-up to
+the SEPARATE-associations Ekelund 2019, so the offset *dose* is a new estimate, not a re-run:
+> «Our joint analysis results suggest that about 30–40 min (median of medians=34 min; IQR: 26–48 min) of
+> MVPA per day (online supplemental table 2) attenuated the risk of death in our most conservative model.»
+> [@ekelund2020joint]
+
+In the highest MVPA third (\~34 min/day) high sedentary time carried no significant excess mortality
+(+40%, 95% CI 0.87-2.26, ns); the risk sat entirely in the low-MVPA third (\~2 min/day), where every
+sedentary combination was elevated, worst cell +263% (95% CI 1.93-3.57).
+[@ekelund2020joint]
+
+**But the device 34 min and the self-report 60-75 min are NOT the same quantity — the parameter table:**
+
+| Parameter | Ekelund 2016 (self-report) | Ekelund 2020 (accelerometer) | Same quantity? |
+|---|---|---|---|
+| Exposure measurement | self-report questionnaire (leisure/recreational, bouts >=10 min) | hip accelerometer (all movement, multiple domains) | **NO** — device captures incidental movement self-report misses |
+| Offsetting dose | \~60-75 min/day moderate-intensity | \~30-40 min/day MVPA (median-of-medians 34) | NO — read off different instruments, not convertible |
+| Verb on the association | «eliminate» the sitting-mortality association | «attenuate» the risk (paper's own word) | NO — eliminate != attenuate |
+| Sedentary contrast | >8 vs <4 h/day (self-report) | tertiles; low <8.5 h/d, high >10.7 h/d (device) | NO — different thresholds and instrument |
+| Grouping | activity quartiles (top >35.5 MET-h/week) | MVPA tertiles (high third median 34 min) | NO — quartile vs tertile |
+| Design / n | >1,000,000 adults, harmonised joint MA | 44 370, 9 cohorts, harmonised joint MA | both joint harmonised MAs — **and Ekelund authors both** |
+
+[@ekelundsitting2016]
+[@ekelund2020joint]
+
+**So *the offset dose halved* is NOT a clean apples-to-apples claim** — and the paper itself says the drop
+«is likely explained in part by differences between self-­reported and accelerometer measured physical
+activity and sedentary behaviour», because «Self-­reported physical activity usually only assesses specific
+domains ... whereas accelerom­eter measures capture more movement across multiple domains».
+[@ekelund2020joint]
+
+**The decision-change is the WITHIN-instrument comparison.** The held asymmetry above — *cancelling heavy
+sitting (60-75 min) asks substantially more than banking the mortality benefit (\~24 min)* — was partly an
+artifact of pitting a **self-report** offset (60-75) against a **device** plateau (\~24 min, Ekelund 2019).
+Device-vs-device, the offset dose (\~34 min) and the mortality-plateau dose (\~24 min) come from the *same*
+accelerometry consortium and are **close** — both near the guideline upper level (150-300 min/week \~=
+21-43 min/day), which is exactly what Ekelund 2020 recommends for heavy sitters. So on a common instrument
+the two doses roughly coincide: enough MVPA to bank most of the mortality benefit is, to a first
+approximation, also enough to attenuate heavy sitting. The earlier *the offset asks more* reading survives
+only against self-report and is largely a measurement gap.
+
+**Independence: type-F, not type-E.** Ekelund 2020 shares first-authorship and overlapping cohorts with
+Ekelund 2016 and 2019 (and co-authors Jefferis / Lee with Paluch 2022), so it is a measurement *refinement*
+of the held self-report offset, **not** an independent instrument — no `[E-independent]` token, no
+`sources:` pad as corroboration. Caveats carry over and add: observational, median follow-up 5.5 y in some
+cohorts (short), ≥40 y so not generalisable to younger/more active or LMIC populations; E-values 2.1-4.63
+mean «uncontrolled confounding would have to be as large in magnitude as smoking to distort our results».
+[inferred from @ekelund2020joint; @ekelundsitting2016; @ekelundacc2019]
 
 ## Older adults — falls, which is a patient-important outcome
 

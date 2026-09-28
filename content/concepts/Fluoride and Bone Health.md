@@ -70,8 +70,6 @@ fluoridation-adjacent dose [@mazzoli2025fluoride]:
   a demonstrated effect-modification interaction — it rests on a single lab's pooled observational
   data. Links to the sex-hormone bone lever on [[Menopause and the Shifting Levers]].
 
-<div class="recent-update" data-last-updated="2026-09-20">
-
 ## BMD and fracture DISSOCIATE — a BMD rise is not a bone benefit here
 
 The classic surrogate trap fires cleanly. Fluoride can *raise* bone mineral density at some sites
@@ -97,7 +95,6 @@ source states the mechanism of the dissociation itself:
   the surrogate's direction tracks the *mechanism* that raised BMD, not BMD itself
   -> [[Surrogate Outcomes]] (the three-exposure cluster).
 
-</div>
 
 ## The U/J shape: the UPPER arm is believed, the protective LOWER arm is NOT
 

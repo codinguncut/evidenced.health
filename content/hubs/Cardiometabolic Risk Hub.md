@@ -18,6 +18,8 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] — when an extra test moves a risk
   estimate enough to change the decision, and why very few modifiers clear the bar
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Blood pressure levers
 
 - [[Blood Pressure Lowering and Cardiovascular Events]] — the one cardiometabolic lever whose
@@ -28,6 +30,9 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
   whole-pattern lever, not double-counted with sodium reduction; DASH->events unproven, rides BP transmission
 - [[Dietary Nitrate and Blood Pressure]] — inorganic nitrate/beetroot lowers resting SBP \~4.4 mmHg
   (surrogate, short-term, ambulatory-disconfirmed); a modest peripheral supplement-class lever
+- [[Garlic and Blood Pressure]] — garlic powder cuts SBP \~4.6 mmHg overall but \~8 mmHg in
+  hypertensives / near-null in normotensives (baseline-BP effect modification); surrogate, short-term,
+  no dose-response, comparable to a single antihypertensive drug
 - [[Dietary Magnesium and Cardiometabolic Outcomes]] — dietary Mg per +100 mg/day tracks lower T2D/stroke/HF/
   mortality (observational); likely a marker of the whole-food pattern, not a separately-actionable lever
 - [[Stress Management and Cardiometabolic Health]] — whether a structured stress-management program
@@ -38,6 +43,10 @@ The wider **psychosocial / HPA-channel exposures** that reach cardiometabolic ri
 social connection, sense of purpose, allostatic load, depression — plus **sun/UV** live in
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-25">
 
 ## Lipids, drugs, and dietary patterns for CV events
 
@@ -53,6 +62,9 @@ BP levers.
 - [[Statin Muscle Symptoms and the Nocebo Effect]] — when someone on a statin reports muscle pain, is the
   statin the cause, and should they stop? (Reith/CTT: RR 1.03, year-1 excess 11/1000 py, >90% not the
   drug; the deprescribing decision)
+  - [[Coenzyme Q10 Supplementation for Statin Muscle Symptoms]] — the most-marketed remedy: weak,
+    fragile, subjective-only MA benefit concentrated where attribution is loosest; safe/cheap to trial
+    but nocebo-confounded (primary home: Protein and Supplements Hub)
 - [[Statins and New-Onset Diabetes]] — does the statin diabetes risk change starting/continuing, and what
   to monitor? (Reith/CTT: a REAL small dose-dependent effect, RR 1.10 low/mod to 1.36 high, concentrated
   near the diagnostic threshold, benefit already nets it out — the metabolic harm-leg, real vs the muscle
@@ -66,6 +78,12 @@ BP levers.
   SCH adult (mildly elevated TSH), levothyroxine normalizes the defining lab but moves no
   patient-important outcome (QoL/symptoms SMD \~0, GRADE high) — a lever not worth starting, bounded away
   from TSH >10, age >80, and high symptom burden
+- [[Proton Pump Inhibitors and Adverse Outcomes]] — the PPI standard-drug HARM ledger and deprescribing
+  anchor: are the widely-feared long-term harms (fractures, kidney, dementia, gastric cancer) real? Salvo
+  2021 umbrella of 42 SR/MAs — direction-consistent observational signals but GRADE very low, small (NNH
+  7-240), and the COMPASS RCT nulled nearly all; dementia/wrist-fracture NULL. Because a drug is
+  blindable the RCT tests the same exposure, so confounding by indication is the whole story -> deprescribe
+  the 25-70% inappropriate use, keep for a genuine acid indication
 
 - [[Portfolio Dietary Pattern and LDL Cholesterol]] — the 4-food cholesterol-lowering pattern (nuts +
   plant protein + viscous fibre + plant sterols) lowers LDL-C −17% / apoB −15% vs NCEP Step II (GRADE
@@ -80,6 +98,8 @@ BP levers.
   (CANTOS canakinumab, LoDoCo2 colchicine) cut CV events with lipids unchanged, but CRP is a marker not a
   cause (MR), the benefit is on events not all-cause mortality, and the anti-inflammatory diet is an
   observational proxy for MedDiet, not a shown independent lever
+
+</div>
 
 ## Behavioural big rocks
 

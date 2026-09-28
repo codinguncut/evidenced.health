@@ -4,12 +4,12 @@ title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
 authors: [Jha, Prabhat; Ekelund, Ulf; Yin, Jiawei]
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Yin - Sleep Duration Mortality Dose-Response 2017]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Yin - Sleep Duration Mortality Dose-Response 2017, Laukkanen - Sauna Bathing Fatal Cardiovascular Mortality, Cain - Cold-Water Immersion Wellbeing 2025]
 confidence: medium
 created: 2026-08-18
-updated: 2026-09-09
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+updated: 2026-09-22
+self_critiqued: 2026-09-22
+concrete_subject_audited: 2026-09-22
 ---
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
@@ -114,6 +114,19 @@ even-handed handle the evidence supports is component-level and measurable -- ap
 markers -- not the pattern label. -> [[Dietary Patterns]]
 
 
+**Heat and cold exposure** are this section's fads: heavy discourse, thin evidence, ranked low. Heat has
+the better endpoint, the worse design. One Finnish cohort of middle-aged men tied frequent sauna to
+lower all-cause mortality (HR 0.60 at 4-7 sessions a week versus one), surviving fitness and income
+adjustment; but one cohort, one demographic, one self-report cannot establish cause.
+[@laukkanen2015sauna] Cold has the better
+design, softer endpoints: eleven trials measure only surrogates, mostly in men, and the one robust
+finding runs against the pitch: cold immersion *raises* short-term inflammation (SMD 1.03 immediately
+post).
+[@cain2025cwi] Neither moves a hard outcome or
+substitutes for the five levers. If you enjoy one already, the harm is small: keep it or skip it, not a
+lever to add.
+-> [[Sauna Bathing and Cardiovascular Mortality]], [[Cold-Water Immersion]]
+
 ## After about 65, the stack shifts
 
 The levers do not change on your birthday, but their order does. Balance and footwork become the
@@ -161,10 +174,9 @@ The per-lever claim pages linked from each directive carry the rest.
 > | | |
 > |---|---|
 > | **Question** | 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?' |
-> | **Type** | Directive pointer card — a sink over [[Big Rocks (Median)]] and [[Big Rocks (Elderly)]], which hold the full evidence base and certainty grading |
-> | **Evidence included** | 3 sources — 2 gold, 1 high (only those quoted in a directive; every other figure is reached by link to the two Big Rocks cuts) |
-> | **Overall certainty** | **Medium** (derived on the Big Rocks pages; see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All three listed are gold or high tier; the derivation for every directive lives on the Big Rocks pages this card fronts. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+> | **Evidence included** | 5 sources — 3 gold, 2 high |
+> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-09-22 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
 
 ## References

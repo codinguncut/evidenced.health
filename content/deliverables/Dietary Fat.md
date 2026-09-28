@@ -3,12 +3,12 @@ type: deliverable
 title: Dietary Fat
 confidence: medium
 created: 2026-08-17
-updated: 2026-09-08
-self_critiqued: 2026-09-07
-concrete_subject_audited: 2026-09-07
+updated: 2026-09-25
+self_critiqued: 2026-09-25
+concrete_subject_audited: 2026-09-25
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024, Zhang - Butter Plant Oils Mortality 2025]
 ---
 
 ## Open on the substitution, not the fat
@@ -178,6 +178,8 @@ biomarker is a clean intake measure** -- a within-fat boundary that carries real
 -> [[Is the Food Category Doing Any Work]]. That measurability is part of why the trans-fat signal is
 the firmest fat finding held here.
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Treat MUFA benefit as thin and pattern-level
 
 Monounsaturated fat has **no dedicated page in the fabric, and the reason is the evidence**. WHO's
@@ -200,8 +202,20 @@ class-level trial of MUFA**. Label the MUFA evidence observational and pattern-l
 olive-oil outcome data actually lives is [[Mediterranean Diet and Cardiovascular Events]] and
 [[Fish and Seafood Consumption]].
 
+**The one olive-oil-specific number does not rescue the class.** Zhang modelled replacing butter with
+olive oil across 221,054 US adults tracked up to 33 years: the swap tracked lower total mortality
+(HR 0.81, 0.77-0.84), but the butter-to-plant-oil swap's cardiovascular-mortality arm was null
+(0.94, 0.86-1.03, NS)
+[@zhang2025butter]. The estimate
+is observational and model-based, and its surviving signal sits on total and cancer mortality, not
+cardiovascular mortality -> [[Saturated Fat Intake and Replacement]]. So the closest
+thing to an olive-oil-alone estimate still leaves the MUFA-for-the-heart case pattern-level and thin.
+
+
 The other polyunsaturated leg, n-6 linoleic acid, is where a **live public controversy** sits -- and it
 is the next section's subject.
+
+</div>
 
 ## Read n-6 linoleic acid as neutral-to-protective as a class
 
@@ -318,6 +332,8 @@ one large RCT tested a single fat->carbohydrate reduction, not a curve), plant o
 named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
 stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
+<div class="recent-update" data-last-updated="2026-09-25">
+
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -344,9 +360,11 @@ evidence does not offer.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?' |
-> | **Evidence included** | 22 sources — 10 gold, 10 high, 1 weak |
+> | **Evidence included** | 23 sources — 10 gold, 11 high, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+
+</div>
 
 ## References

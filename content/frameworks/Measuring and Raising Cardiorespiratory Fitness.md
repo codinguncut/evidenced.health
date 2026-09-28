@@ -13,7 +13,7 @@ relationships:
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-08-06
+updated: 2026-09-24
 self_critiqued: 2026-08-06
 ---
 
@@ -100,6 +100,11 @@ scores», so the direction is robust but the constituent reviews are low-certain
 HIIT→CRF *intervention* reviews — a different question from the held CRF→mortality cohorts (Kodama /
 Mandsager), so it is a type-F upgrade of the raise-it leg, **not** independent backing for the causal leg
 below. [@poon2024]
+
+For the same head-to-head *inside the type-2-diabetes stratum*, see
+[[HIIT vs Continuous Training for Type 2 Diabetes]]: a gold MA (Liu 2019, 13 RCTs) finds HIIT beats MICT
+on VO2peak at moderate certainty (+3.37 ml/kg/min) — concurring with Poon's direction, though on likely-
+overlapping trials (not independent type-E) — while its HbA1c/weight edge stays low-certainty.
 
 
 [@ross2016]

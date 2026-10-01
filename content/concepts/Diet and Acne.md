@@ -21,8 +21,6 @@ created: 2026-09-27
 updated: 2026-09-27
 self_critiqued: 2026-09-27
 ---
-<div class="recent-page" data-last-updated="2026-09-27"></div>
-
 
 Acne vulgaris is a near-universal (lifetime incidence \~100%), puberty-associated skin disorder whose
 lesions are patient-important on the physical-outcome menu — visible appearance, permanent scarring,

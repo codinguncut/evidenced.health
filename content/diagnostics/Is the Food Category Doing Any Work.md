@@ -810,8 +810,6 @@ finding read as a cheese finding, or a whole-milk finding as a yogurt finding. F
 verdict -> [[Dairy and Cardiometabolic Health]].
 
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Olive oil — a single-food CHD claim that decomposes into pattern + substitution `[2026-09-25, WS-022]`
 
 *Olive oil reduces heart disease* is a food-label claim the held evidence never isolates. Every leg that
@@ -823,7 +821,6 @@ CHD-relevant endpoint, **null** (the swap's CVD-mortality arm 0.94, NS) — the 
 and cancer mortality. So the food label collects credit that belongs to the pattern it marks and the
 comparator it replaces: an isolated-food claim with no isolable causal evidence.
 
-</div>
 
 ## The inverse case — an aggregate where NO sub-component is load-bearing `[2026-08-25, Mente]`
 

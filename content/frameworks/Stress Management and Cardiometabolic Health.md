@@ -18,7 +18,6 @@ relationships:
     - Surrogate Outcomes
     - Magnesium Supplementation and Subjective Anxiety
 ---
-<div class="recent-update" data-last-updated="2026-09-25">
 
 A **peripheral lifestyle lever**, admitted through the telos's stress -> physical channel: chronic stress
 raises blood pressure (sympathetic activation), so a program that reduces stress *might* lower BP. The
@@ -39,7 +38,6 @@ first-hand hard-outcome evidence — CHD HR 1.23), while MBSR is one *interventi
 transmission holds; the exposure page already reaches CHD directly — so removing or reducing the driver
 (job strain) has warrant the intervention-on-a-surrogate does not yet earn.
 
-</div>
 
 ## The specified exposure
 
@@ -117,8 +115,6 @@ No dose-response by intervention duration (meta-regression SBP p=0.51, DBP p=0.5
 **adjunct** within multimodal AHT care, and a candidate primary-prevention lever in prehypertensives —
 never a substitute for medication.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## A third mind-body BP lever — slow breathing `[Chaddha 2019]`
 
 Chaddha's 2019 SR+MA (gold-tier, 17 RCTs, 1017 subjects, hypertensive/prehypertensive at *low cardiac
@@ -177,10 +173,6 @@ authors' own verdict is cautious — a «reasonable first treatment for low-risk
 prehypertensive patients who are reluctant to start medication.»
 [@chaddha2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## The emergent pattern — mind-body BP levers share a treacherous-surrogate signature `[type-A, Chen + Geiger + Chaddha]`
 
 Chen (MBI/MBSR), Geiger (yoga) and Chaddha (slow breathing) are **three disjoint author groups on three
@@ -224,10 +216,6 @@ diagnostic: when a mind-body BP trial reports a big effect, ask what it was comp
 measured, in whom, and at what risk of bias.
 [inferred from @chen2024mbi; @geiger2025yoga; @chaddha2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## How the effect compares to established BP levers `[parameter table, op-weave 2a]`
 
 The decision question is not *does MBI lower BP?* but *is it worth doing versus the levers already held?*
@@ -255,10 +243,6 @@ warranted effect.** A person choosing where to spend effort gets more certain BP
 reduction than from an 8-week MBSR course on this evidence.
 [inferred from @chen2024mbi; @he2013; @bplttc2021]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Decision relevance
 
 - **A low-certainty, adjunctive lever — never a substitute for medication or salt reduction.** Chen's
@@ -283,11 +267,6 @@ reduction than from an 8-week MBSR course on this evidence.
 
 
 [inferred from @chen2024mbi]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Limits
 
 - **Three SRs on three mind-body levers (MBI + yoga + slow breathing), still guidance-family-thin**,
@@ -306,7 +285,5 @@ reduction than from an 8-week MBSR course on this evidence.
 - Coherence, not validity (R1): the pooled BP drop is what these mostly-low-quality trials report; the
   warranted effect is smaller than the headline.
 [inferred from @chen2024mbi]
-
-</div>
 
 ## References

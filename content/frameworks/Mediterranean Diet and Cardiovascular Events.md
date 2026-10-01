@@ -96,8 +96,6 @@ than arriving from a separate route, so this is refinement/consistency, not inde
 
 
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Is olive oil's benefit separable from the pattern? (the isolated-food CHD claim, WS-022)
 
 *Olive oil reduces heart disease* is among the most-repeated single-food claims, but no held source
@@ -126,7 +124,7 @@ poured onto an otherwise-poor diet — the same EVOO-to-a-poor-diet over-read fl
 olive-oil RCT evidence is PREDIMED's whole-pattern arm and WHO's single 52-person trial. An
 isolated-olive-oil hard-CHD RCT is the missing evidence, and is unlikely ever to be run.
 
-</div>
+
 
 ## The provenance caveat travels with the estimate (symmetric standards)
 
@@ -264,8 +262,6 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
 [@dinu2018] -> [[Is the Food Category Doing Any Work]],
 [[Measurement Error in Dietary Assessment]].
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
@@ -282,7 +278,7 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
   two meet on the same endpoint (Ge's network) they are near-equivalent. So "Med is better" is an
   availability asymmetry (Med was tested on events; DASH was not), not a head-to-head result -> [[Named Diet Programs Compared]] (DASH-vs-Mediterranean section).
 
-</div>
+
 
 ## Self-critique `[run 2026-07-29, before commit]`
 
@@ -333,8 +329,6 @@ the same cardiometabolic effect. Named here only as a cross-link; the caveats li
   point is genuinely new against the SFA single-nutrient LDL argument, so it earns its place (F), and is
   routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## The F&V component leg — the observational estimate PREDIMED cannot isolate `[2026-08-13]`
 
 Fruit and vegetables are a defining MedDiet component, and Aune 2017 supplies the **component-level**
@@ -351,10 +345,6 @@ limit.
   the MedDiet's benefit. The RCT (Estruch) and the observational legs remain genuinely different routes;
   the two *observational* legs do not.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Self-critique `[run 2026-09-25, after the olive-oil-isolation section (WS-022)]`
 
 - **No overclaim toward or against olive oil.** The section neither asserts an isolated olive-oil CHD
@@ -368,7 +358,5 @@ limit.
 - **No laundered extraction.** synthesis over held pages; no new `[EXTRACTED]` minted and no
   `sources:` added — the WHO and Zhang figures are cross-referenced to [[Saturated Fat Intake and Replacement]],
   where they are extracted and audited. Every figure re-verified against that page before writing.
-
-</div>
 
 ## References

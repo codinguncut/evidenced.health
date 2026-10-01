@@ -3,240 +3,112 @@ type: deliverable
 title: Sun Exposure
 question: 'What does the evidence show about sun / UV exposure across its patient-important outcomes — skin cancer (melanoma and keratinocyte cancers) against the all-cause-mortality and vitamin-D signals — how does each effect vary with dose, skin type, and latitude, and how should a person weigh the trade-off?'
 aliases: [Sun Exposure, Sunlight and Health, How Much Sun, UV Exposure, Sunscreen]
-authors: [Lindqvist, Pelle G; Green, Adèle C; Gandini, Sara; Manson, JoAnn E; Zhang, Yu; Aune, Dagfinn]
-sources: [Lindqvist - Sun Exposure Major Causes of Death 2016, Green - Sunscreen Melanoma Randomized Trial Nambour 2011, Gandini - Cutaneous Melanoma Sun Exposure Meta-Analysis 2005, Manson - VITAL Vitamin D 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026]
+authors: [Lindqvist, Pelle G; Green, Adèle C; Gandini, Sara; Manson, JoAnn E; Zhang, Yu; Aune, Dagfinn; LeBoff, Meryl S]
+sources: [Lindqvist - Sun Exposure Major Causes of Death 2016, Green - Sunscreen Melanoma Randomized Trial Nambour 2011, Gandini - Cutaneous Melanoma Sun Exposure Meta-Analysis 2005, Manson - VITAL Vitamin D 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, LeBoff - VITAL Vitamin D Fractures 2022]
 confidence: low-moderate
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+self_critiqued: 2026-09-30
+concrete_subject_audited: 2026-10-01
 created: 2026-09-09
-updated: 2026-09-15
+updated: 2026-10-01
 ---
+<div class="recent-page" data-last-updated="2026-10-01"></div>
 
-Sunlight sits on both sides of the ledger, and the two sides are known with very
-different confidence. Ultraviolet light causes skin cancer — that part is settled, resting
-on a randomized sunscreen trial and a 57-study meta-analysis. Pulling the other way is a
-stranger finding: in one long Swedish cohort, the women who avoided the sun died sooner, and
-not only of skin cancers. So the practical question is not *sun: good or bad?* but a trade-off
-you can act on. **Avoiding sunburn is the firm move, and it costs almost nothing.**
 
-Whether actively *seeking* sun buys extra years is genuinely unsettled — that signal is a single
-observational study, wide open to the likelihood that sick, frail people simply stay indoors.
-The vitamin-D pill most people reach for to sidestep the whole question does not reproduce the
-benefit in trials. Where the balance lands depends on your skin and your latitude: for
-fair skin under strong year-round sun, skin-cancer risk dominates; for darker skin at high
-latitude, the same relative risk is a far smaller absolute one.
+Sunburn is the exposure to avoid, and it is nearly the whole of the well-evidenced advice. UV clearly raises the risk of melanoma, and the pattern that does the damage is intermittent, intense, burning exposure on unprotected skin. Everything else about the sun is a genuine trade-off, and the evidence behind its two sides is very uneven. A randomized trial and a gold meta-analysis anchor the skin-cancer harm. The much-repeated claim that sun-seekers live longer rests on a single observational cohort of Swedish women, wide open to reverse causation. Oral vitamin D does not stand in for whatever the sun might do, because supplements do not move all-cause mortality. So the verdict is narrow and stratum-dependent: avoid burning, and beyond that, judge how much sun is worth it by your skin type and latitude.
 
-## For melanoma, the pattern of exposure matters more than the total dose
+## Skin cancer: the pattern is the exposure, not the dose
 
-The single most useful fact about sun and skin cancer is that "sun exposure" is not one
-exposure. Short, intense, burning bouts on pale skin drive melanoma; steady day-in-day-out
-exposure does not. Gandini's meta-analysis of 57 studies (38,671 melanoma cases) sorts the
-risk cleanly by pattern [@gandini2005sun]:
+For melanoma, the pattern of UV exposure matters more than the total dose, and reading risk off total dose hides the finding. Gandini's meta-analysis (57 studies, 38,671 cases) splits the exposure into patterns that point in opposite directions [@gandini2005sun]:
 
-| Exposure pattern | Pooled RR (highest vs lowest) | 95% CI | Direction |
-|---|---|---|---|
-| Sunburn history | 2.03 | 1.73-2.37 | strong risk |
-| Intermittent (recreational / holiday) | 1.61 | 1.31-1.99 | risk |
-| Total sun (all kinds) | 1.34 | 1.02-1.77 | weak risk |
-| Chronic / occupational | 0.95 | 0.87-1.04 | null |
+- A history of sunburn carries the largest risk: RR 2.03 (95% CI 1.73-2.37).
+- Intermittent, recreational exposure raises risk: RR 1.61 (1.31-1.99).
+- Total exposure of all kinds is a weak signal: RR 1.34 (1.02-1.77).
+- Chronic, occupational exposure is null, even slightly inverse: RR 0.95 (0.87-1.04).
 
-A history of **sunburn** carries the largest and most actionable signal, and it is worse the
-earlier it happens — childhood sunburn RR 2.24, and the risk climbs with latitude (RR 2.54 at
-50 degrees or higher) [@gandini2005sun].
-On the 19 studies that measured both patterns directly, intermittent exposure (RR 1.46) beat
-chronic (RR 1.09), P=0.015, so the split is not an artifact of comparing different study sets
-[@gandini2005sun]. The
-mechanism fits: an intense burst hits unprotected skin and reaches the melanocytes, while
-regular exposure on tanned, thickened skin is largely blocked at the surface.
+The split is not an artifact of comparing different study sets. On the 19 studies that reported both patterns, intermittent exposure (RR 1.46) exceeded chronic (RR 1.09), P=0.015 [@gandini2005sun]. Sunburn risk climbs with latitude (RR 2.54 at 50 degrees or higher) and with fair skin, and childhood sunburn carries RR 2.24. A funnel-plot asymmetry suggests the sunburn estimate is inflated, but even the trim-and-fill correction (RR 1.73) leaves a clear positive [@gandini2005sun].
 
-One reading to avoid: the near-null for chronic exposure does not mean outdoor work protects
-you. Gandini is explicit that the comparison group is confounded
-[@gandini2005sun]:
+Chronic exposure's null result can mislead, and Gandini flags it directly: it does not mean occupational sun protects. The comparison group for chronic exposure is low-continuous exposure, which itself sweeps in both high-intermittent people and people who get almost no sun at all — a confounded contrast, not a protective effect [@gandini2005sun].
 
-«It is important to stress that it is unlikely that the inverse association with chronic sun
-exposure means that occupational sun exposure protects against melanoma ... The reference
-category for occupational sun exposure is low continuous pattern sun exposure, which will
-include people with high intermittent pattern sun exposure, as well as people with low sun
-exposure of any kind.»
+The mechanism explains why pattern beats dose. An intermittent burst of UV hits pale, unaccustomed skin and reaches the melanocytes; regular exposure falls on tanned, thickened skin that blocks more of it at the epidermis [@gandini2005sun]. That is why the sharpest marker is sunburn — intense UV actually reaching the cells that turn malignant. The estimates are observational, so recall bias and control selection apply, and the analysis treated moles as an intermediate rather than adjusting them away.
 
-Basal and squamous cell carcinomas — the common "keratinocyte" skin cancers — also rise with
-sun exposure [@lindqvist2016], but
-they are rarely fatal and are usually treated locally, so melanoma is the lethal endpoint the
-evidence below quantifies. (The exact keratinocyte-cancer effect sizes are not held in the
-fabric — a named gap.)
+Melanoma is the lethal endpoint the numbers above track, but it is not the only skin cancer UV drives. Nonmelanoma skin cancers (basal- and squamous-cell) also rise with sun exposure [@lindqvist2016]; they are far more common but rarely fatal and are usually treated locally, and the fabric does not hold their effect sizes — a named gap.
 
-The skin is not the only organ UV harms. Ultraviolet light is also an established risk factor for
-age-related **cataract**, the leading global cause of blindness, so the harm side of this trade-off
-includes the eye, not only the skin. Aune's meta-analysis lists UV among the established cataract
-risk factors — alongside diabetes, high BMI, hypertension, smoking, and steroid use — but that paper
-measured *physical activity* against cataract, not UV, so it names UV as a risk factor without sizing
-it [@aune2026vision].
-No held source quantifies a UV -> cataract dose-response, so this arm cannot be weighed
-against the melanoma numbers above — but it licenses one extra, near-free protective move (eye
-protection under strong sun, below). See [[Cataract and Modifiable Exposures]].
+### Sunscreen is the one randomized protection, and it worked without cutting sun time
 
-### Sunscreen is the one protective move tested in a randomized trial
+The Nambour trial is the only randomized test of sunscreen against melanoma. Green randomized 1,621 adults in a predominantly fair-skinned Australian town (Nambour) to daily SPF-16 versus discretionary use from 1992 to 1996 and followed them for about 15 years [@green2011]. All melanoma fell to HR 0.50 (0.24-1.02, P=.051) — a borderline result, 11 cases in 812 people (1.3%) against 22 in 809 (2.7%). Invasive melanoma fell further, HR 0.27 (0.08-0.97), a 73% reduction, though the authors label the invasive subgroup exploratory. In-situ melanoma did not move (HR 0.73, 0.29-1.81).
 
-Everything above is observational. The single randomized test of sun protection against
-melanoma is the Nambour Skin Cancer Prevention Trial: 1,621 fair-skinned Australian adults
-randomized in 1992 to daily broad-spectrum SPF-16 sunscreen or discretionary use, followed
-about 15 years [@green2011].
-Over that span, 11 of 812 in the daily group developed melanoma versus 22 of 809 in the
-discretionary group [@green2011]
-— roughly 1.3% versus 2.7%, an absolute gap near 1.4 percentage points in a sun-drenched,
-fair-skinned population:
+Two features matter for how to read it. Outdoor time was similar in both arms, so the benefit did not come from the sunscreen group simply avoiding the sun — it came from blocking UV while still outside. And it is a single trial with small event counts and a lead author who disclosed L'Oreal research funding, so it is suggestive, not settled.
 
-«Ten years after trial cessation, 11 new primary melanomas had been identified in the daily
-sunscreen group, and 22 had been identified in the discretionary group ... (hazard ratio [HR],
-0.50; 95% CI, 0.24 to 1.02; P .051). The reduction in invasive melanomas was substantial (n 3
-in active v 11 in control group; HR, 0.27; 95% CI, 0.08 to 0.97) compared with that for
-preinvasive melanomas (HR, 0.73; 95% CI, 0.29 to 1.81).»
+This changes the target. The big lever for melanoma is avoiding intermittent burning, not minimizing total time in the sun, and sunburn history is both the largest risk and the most modifiable one. Early-life exposure matters too — migrant studies show risk tracks childhood sun, so burns in childhood carry weight that adult caution cannot fully undo. The risk concentrates in fair skin and at high latitude or high ambient UV, which is where the same behaviour costs the most.
 
-Read this with its limits. The all-melanoma result (HR 0.50) was borderline (P=.051); the
-eye-catching 73% cut in *invasive* melanoma (HR 0.27) rests on 3 versus 11 cases and the
-authors label it exploratory; melanoma was a secondary endpoint; and the lead author disclosed
-L'Oreal research funding. Two things nonetheless hold up. It is the only trial of its kind, and
-the sunscreen and discretionary groups spent **similar** time outdoors — so the protection came
-from blocking UV, not from the sunscreen group avoiding the sun
-[@green2011]. The authors'
-own summary is deliberately hedged: «Melanoma may be preventable by regular sunscreen use in
-adults.»
+Gandini and Green are complementary, not independent confirmation of one number. Gandini establishes that an intermittent UV pattern is associated with melanoma; Green shows that blocking UV reduces it. But an observational risk ratio and a randomized intervention effect are different quantities — you cannot pool them. Their agreement is a convergence of two designs on one direction, not two independent estimates of a single effect. Together they make UV's causal, modifiable role in melanoma hard to dismiss.
 
-## The "sun-avoiders die sooner" signal is real but weakly grounded
+### The eye is a second, smaller UV harm
 
-Now the counterweight. Lindqvist followed 29,518 Swedish women for 20 years and found that the
-ones who avoided the sun did not just get less skin cancer — they died earlier. Compared with
-the highest-exposure group, sun avoiders ran roughly 1.7 to 2 times the all-cause mortality
-(categorical HR about 0.6 for the highest group; 0.7 once exercise was added in a subset), the
-gap widened dose-dependently for cardiovascular death (subdistribution HR 1.5 then 2.3 across
-exposure levels), and avoiders lost an estimated 0.6 to 2.1 years of life expectancy
-[@lindqvist2016]. The authors put the
-magnitude in a startling frame:
+Skin cancer is not the only patient-important harm from UV. UV is an established risk factor for age-related cataract, the leading global cause of blindness, alongside diabetes, higher BMI, hypertension, smoking, and steroid use. The one meta-analysis held here (Aune) names UV among those risk factors but measured *physical activity* against cataract, not UV, so it flags the harm without sizing it [@aune2026vision]. No held source quantifies a UV-to-cataract dose, so this arm cannot be weighed against the melanoma numbers — but it points the same way and licenses one near-free move: eye protection under strong sun ([[Cataract and Modifiable Exposures]]).
 
-«Nonsmokers who avoided sun exposure had a life expectancy similar to smokers in the highest
-sun exposure group, indicating that avoidance of sun exposure is a risk factor for death of a
-similar magnitude as smoking.»
+## All-cause mortality: one Swedish cohort, wide open to reverse causation
 
-That comparison is a life-expectancy contrast drawn *within this one cohort*, not a validated
-causal equivalence between sun avoidance and smoking — treat it as a vivid illustration, not an
-established fact.
+The counterweight to the skin-cancer harm is the claim that people who seek the sun live longer. It comes almost entirely from one study. Lindqvist followed 29,518 Swedish women for 20 years and found that those who avoided the sun had roughly 1.7 to 2 times the all-cause mortality of sun-seekers; the gap widened dose-dependently for cardiovascular death, and avoiders lost an estimated 0.6 to 2.1 years of life expectancy [@lindqvist2016]. Taken at face value, that is a large signal. It should not be taken at face value.
 
-The whole arm sits well below the melanoma evidence in strength, for one
-concrete reason: **the people who avoided the sun were different in ways that also shorten life.**
-They were much older (58.7% aged 55-64 versus 13.9% of the high-exposure group), poorer (45.7%
-low-income versus 14.8%), far more likely to be chronically ill (20.4% comorbid versus 6.7%),
-and less active [@lindqvist2016]. Sick
-and frail people stay indoors, which is exactly the reverse-causation and confounding-by-frailty
-that inflates this kind of protective signal (see [[The U-Shaped Association Artifact]]). The
-association did survive adjustment for age, smoking, education, income, comorbidity and exercise,
-which raises it above a naive correlation — but the authors concede they cannot close the gap:
+The people who avoid the sun in this cohort are not a random slice of it. They are older, poorer, less educated, far more likely to be sick at baseline (comorbidity 20.4% versus 6.7%), and less physically active than the sun-seekers. Sick and frail people avoid the sun — which is the textbook setup for reverse causation and confounding by frailty, where poor health lowers the exposure rather than the exposure protecting health ([[The U-Shaped Association Artifact]]). The association did survive adjustment for age, smoking, education, income, comorbidity, and exercise, which raises its credibility without settling it. The authors are explicit about the limit [@lindqvist2016]:
 
-«First, it is not possible to differentiate between active sun exposure habits and a healthy
-lifestyle, and secondly, the results are of an observational nature; therefore, a causal link
-cannot be proven.»
+«it is not possible to differentiate between active sun exposure habits and a healthy lifestyle, and secondly, the results are of an observational nature; therefore, a causal link cannot be proven.»
 
-There is no randomized trial on this arm, and no second cohort to confirm it. It belongs in the
-**open-question** column: a plausible, adjustment-robust, but unreplicated observational signal
-from a single population of Swedish women — neither taken at face value nor dismissed.
+No randomized trial has tested a sun-seeking versus sun-avoiding strategy against mortality, and none is likely to. The widely-quoted line that sun avoidance is a mortality risk on the scale of smoking only compares life-expectancy estimates within this one cohort; it does not demonstrate a causal equivalence. Under symmetric standards, a counterintuitive observational signal earns no pass for being surprising, exactly as the conventional melanoma harm earns none for being expected. The mortality benefit is plausible and unreplicated; the melanoma harm is randomized and pooled. Do not treat the two as equally established.
 
-There is also a trap in reconciling the two arms. It is tempting to say melanoma comes from
-burning while the mortality benefit comes from gentle regular sun, so a single strategy captures
-both. Lindqvist's data do not support that escape. The sun-exposure score was built entirely
-from **recreational, intermittent** habits — summer sunbathing, winter and mountain sunbathing,
-holidays abroad, and tanning-bed use [@lindqvist2016].
-That is precisely the intermittent pattern Gandini flags as melanoma-causing. So the *same*
-sun-seeking behaviour raises melanoma in one study and tracks lower mortality in the other: a
-genuine trade-off on one habit, not two habits that conveniently separate.
+## Vitamin D: the mechanism everyone reaches for, and why a pill does not reproduce it
 
-## A vitamin-D pill does not stand in for sunlight
+The intuitive explanation for a sun-mortality benefit is vitamin D: sun makes it, low levels track worse health, so more sun should help. But the pill does not reproduce the benefit in people who are already replete. VITAL randomized 25,871 US adults to vitamin D3 2000 IU per day and found no effect on cancer incidence (HR 0.96, 0.88-1.06) or major cardiovascular events (HR 0.97, 0.85-1.12) [@manson2019vitd]; its ancillary fracture trial added no effect on total fractures (HR 0.98, 0.89-1.08) [@leboff2022]. Zhang pooled far more evidence — 50 randomized trials (74,655 participants, GRADE high): vitamin D did not lower all-cause mortality, RR 0.98 (0.95-1.02) [@zhang2019vitd].
 
-The obvious mechanism to explain a sun-mortality benefit is vitamin D, and it is the reason
-people take a supplement instead of going outside. The supplement trials do not cooperate. VITAL
-randomized 25,871 US adults — a population that was largely vitamin-D **replete** — to 2000 IU/day
-of vitamin D, and found no effect on its two primary endpoints: cancer HR 0.96 (95% CI
-0.88-1.06) and major cardiovascular events HR 0.97 (0.85-1.12)
-[@manson2019vitd]. Pooling the whole trial literature tells
-the same story for death itself: across 50 RCTs and 74,655 participants (mostly replete), vitamin
-D did not move all-cause mortality [@zhang2019vitd]:
+One endpoint is not null, and symmetric standards require naming it: the pill does seem to lower cancer death. VITAL put cancer mortality at HR 0.83 (0.67-1.02) [@manson2019vitd], and Zhang's pooled estimate reached significance for cancer death (RR 0.85, 0.74-0.97, I2=0%) [@zhang2019vitd]. That signal is real, but it does not rescue the sun-mortality story. The sun claim is about all-cause mortality, and that stays flat; a supplement that trims cancer death without moving the all-cause total is not the mechanism behind a claimed survival benefit.
 
-«Vitamin D supplementation was not associated with all cause mortality (risk ratio 0.98, 95%
-confidence interval 0.95 to 1.02, I2=0%), cardiovascular mortality (0.98, 0.88 to 1.08, 0%), or
-non-cancer, non-cardiovascular mortality (1.05, 0.93 to 1.18, 0%).»
+This is the surrogate discipline in action ([[Surrogate Outcomes]]). A vitamin-D blood level is a marker; it earns the status of a treatment target only if raising it by supplement actually moves an outcome, and on all-cause mortality it does not. If the sun's mortality signal ran through vitamin D, then supplementing vitamin D should reproduce it — and it fails to. Lindqvist reaches the same conclusion from the other direction [@lindqvist2016]:
 
-In fairness to the mechanism, that same analysis found a 15% reduction in *cancer* death (RR
-0.85, 0.74-0.97) — one positive secondary endpoint, GRADE-high on the all-cause null. But the
-headline outcome, all-cause mortality, did not budge. The logic is straightforward: if
-sunlight's apparent survival benefit ran through vitamin D, a vitamin-D pill should reproduce
-it, and it does not. So whatever the sun is doing here, oral vitamin D is not a substitute for it
-. A supplement is the transmission test a surrogate has to pass to earn its place, and
-vitamin D fails it here (see [[Surrogate Outcomes]]). Those same trials read as an *enhancement*
-null — no benefit from adding more to an already-replete population (see
-[[Deficiency Repletion vs Enhancement]]).
+«Whether the positive effect of sun exposure demonstrated in this observational study is mediated by vitamin D, another mechanism related to UV radiation, or by unmeasured bias cannot be determined from our results. Vitamin D levels might be just a marker of sun exposure.»
 
-If the mortality arm is causal at all, the more likely routes are non-vitamin-D UV pathways — skin
-nitric oxide lowering blood pressure, melatonin, beta-endorphin — which Lindqvist raises and
-which no supplement can deliver [@lindqvist2016].
-Lindqvist puts it plainly: «Vitamin D levels might be just a marker of sun exposure.»
+The supplement trials enrolled largely replete populations, so they test whether adding vitamin D to someone who already has enough buys anything (it does not) — a different question from correcting a genuine deficiency ([[Deficiency Repletion vs Enhancement]]). That distinction matters for the deficient, but it does not rescue the sun-mortality story. It means the pill is not the mechanism. If the sun does anything for mortality, it more likely runs through non-vitamin-D UV pathways — nitric oxide lowering blood pressure, melatonin, skin beta-endorphin — none of which a supplement supplies. So oral vitamin D does not substitute for sun on this question.
 
-## What tips the balance: your skin and your latitude
+## The trade-off: the same habit sits on both arms
 
-The net of a firm harm against a weak possible benefit is not the same for everyone, and most
-of the movement comes from one lever — **your baseline melanoma risk**, which is set mainly by
-skin type and ambient UV. This is the safe kind of stratification: the relative risks above stay
-roughly constant, but the same relative risk becomes a much bigger or smaller *absolute* risk as
-the baseline shifts.
+The tempting resolution is to split the exposure — say that intermittent burning causes melanoma while calm, regular sun lowers mortality, so one strategy captures the benefit and dodges the harm. The sources do not support that escape. Lindqvist built the sun-exposure score entirely from recreational, intermittent items: summer sunbathing, winter and mountain sunbathing, holidays abroad to sunbathe, and tanning-bed use [@lindqvist2016]. That is precisely Gandini's harmful intermittent pattern, and tanning beds are themselves an established melanoma risk. So the same sun-seeking behaviour raises melanoma in Gandini and associates with lower mortality in Lindqvist. This is a real trade-off on one exposure, not two exposures that conveniently separate.
 
-- **Fair skin (Fitzpatrick I-II) under high year-round UV** — Queensland, the sunbelt, a UV index
-  at or above 6 most of the year. Melanoma baseline risk is high, so the harm arm dominates and
-  protection is the clear call. This is the population Nambour was run in, where daily sunscreen
-  measurably cut melanoma.
-- **Darker skin, or high latitude with low UV** — Sweden's UV index stays below 3 for eight or
-  nine months. Melanoma baseline risk is far lower, so the same relative harm is a much smaller
-  absolute harm, and the weak, confounded mortality signal carries relatively more weight.
-  Lindqvist argues that blanket year-round sun-avoidance advice may not serve people in a low-UV,
-  high-latitude country — a baseline-risk argument, not a vitamin-D one.
+Three consequences follow for a person deciding what to do:
 
-Two honest caveats sit on this. The "regular non-burning exposure" that would, in theory, capture
-a mortality benefit without the melanoma cost is a **hypothesis**, because it is not what Lindqvist
-measured — its recreational-habit score cannot separate gentle habitual sun from holiday burning.
-And sunscreen is only a partial escape: in Nambour it cut melanoma without cutting outdoor time,
-but Lindqvist warns against reading sunblock as a licence to bake for longer. Cosmetic effects —
-wrinkling and photo-ageing from cumulative UV — are real, but they sit off the health axis; note
-them, weigh them yourself, and do not let them stand in for a cancer or mortality argument.
+- The one exposure that might sit well on both arms — regular, genuinely non-burning sun — is a hypothesis, not a measured sweet spot. Lindqvist's score cannot tell non-burning habitual sun apart from recreational burning, so do not present it as an evidenced safe zone.
+- Avoiding sunburn is the robust, well-evidenced move, but on this evidence it does not come free of the mortality-arm exposure, because the two are tangled in the same recreational habit.
+- Sunscreen is the partial escape: in Nambour it cut melanoma without cutting outdoor time, so it lets a person keep sun exposure while lowering the burning that carries the risk. It is not, on Lindqvist's caution, a licence to overexpose.
+
+### Skin type and latitude move the balance, mostly through baseline melanoma risk
+
+The net verdict shifts by stratum, and most of the shift is baseline-risk arithmetic ([[Baseline Risk and the Relative-Absolute Split]]). The relative melanoma effect is roughly constant, but the same relative effect is a much larger absolute harm where melanoma is common:
+
+- Fair skin (Fitzpatrick I-II) in high ambient UV — northern Australia, a year-round UV index of 6 or more — puts melanoma harm on top. Protect, and do not burn.
+- Darker skin, or high latitude with low UV — Sweden, where the UV index sits below 3 for eight or nine months — carries a far lower melanoma baseline. The same relative harm is then a much smaller absolute one, and the weak, confounded mortality signal carries relatively more weight. This is where Lindqvist argues that blanket year-round sun avoidance may not help.
+
+The weighting past that point is the person's to make. Melanoma risk, the uncertain mortality signal, and the quality-of-life value of time outdoors sit on one health axis, and no formula collapses them into a single number. A person at high melanoma risk should protect; a person at low melanoma risk in a low-UV country has more room, and the evidence does not force either of them into a corner.
+
+Note one off-axis effect and stop: sun exposure drives skin photoageing and cosmetic damage. That is real, but it is not a health outcome, it carries no data here, and it should not be priced against the melanoma or mortality findings. Name it, and let the person weigh it themselves.
 
 ## What to do
 
-- **Don't burn — this is the big lever, and it is nearly free.** Sunburn carries the largest
-  melanoma signal (RR \~2), childhood sunburn worst of all. Protecting children and avoiding
-  holiday-type burning bouts buys most of the achievable risk reduction.
-- **Use sunscreen and cover up in strong sun.** It is the one protective step shown in a
-  randomized trial to lower melanoma, and it worked without anyone spending less time outside.
-- **Protect the eyes too.** Sunglasses or a brimmed hat in strong sun are near-free, and UV is an
-  established risk factor for cataract — a distinct harm from skin cancer, on the vision/function
-  side of the ledger (how much UV drives cataract is not quantified in the fabric).
-- **Do not treat a vitamin-D pill as a stand-in for sunlight.** Supplement trials in replete
-  people show no all-cause mortality benefit, so the pill does not buy whatever the sun's signal
-  might represent. Repletion of a genuine deficiency is a separate question (see
-  [[Deficiency Repletion vs Enhancement]]).
-- **Let your skin and latitude set the dial.** Fair skin under strong year-round sun: prioritize
-  protection. Darker skin at high latitude: strict year-round avoidance is not clearly warranted,
-  and the modest sun most people get is not the melanoma driver — burning is.
-- **Don't chase the "sun makes you live longer" headline.** It is one unreplicated, confounded
-  observational study; the sunburn-melanoma link is far firmer, and the two attach to the same
-  recreational habit.
+- Do not burn. This is the big lever and it is nearly free: sunburn carries the largest melanoma signal (RR \~2), and childhood sunburn is worst of all, so protecting children and skipping holiday burning bouts buys most of the achievable risk reduction.
+- Use sunscreen and cover up in strong sun. It is the one protective step a randomized trial showed lowers melanoma, and it worked without anyone spending less time outdoors.
+- Protect the eyes too. Sunglasses or a brimmed hat in strong sun cost almost nothing, and UV is an established cataract risk factor — a distinct harm on the vision side.
+- Do not treat a vitamin-D pill as a stand-in for sunlight. Supplement trials in replete people show no all-cause mortality benefit. Correcting a genuine deficiency is a separate question ([[Deficiency Repletion vs Enhancement]]).
+- Weigh skin type and latitude. Fair skin under strong year-round sun: prioritize protection. Darker skin at high latitude: strict year-round avoidance is not clearly warranted, and the modest sun most people get is not the melanoma driver — burning is.
+- Do not chase the *sun makes you live longer* headline. It rests on one unreplicated, confounded cohort, and it attaches to the same recreational habit that raises melanoma.
 
-A related but distinct question — deliberate **heat** exposure (sauna) and cardiovascular risk —
-is a different exposure from UV and is treated separately in [[Sauna Bathing and Cardiovascular Mortality]];
-do not read a sauna finding as a sunlight finding.
+## What the evidence does not settle
 
----
+The loop here is open. No source measures the net effect of a sun-seeking versus sun-avoiding strategy against all-cause mortality in a trial, so the central trade-off is adjudicated by judgment, not by a clean experiment. The specific gaps worth naming:
 
-**The loop is open.** No source here measured the net effect of a sun-seeking versus a
-sun-avoiding *strategy* on all-cause mortality in a randomized trial. The melanoma harm is
-anchored on an RCT and a gold-standard meta-analysis; the mortality benefit is a single
-observational cohort; the vitamin-D null is high-certainty but only tells us what does *not*
-mediate the signal. This deliverable grades the coherence of that evidence, not whether acting
-on it makes any individual better off.
+- The mortality benefit rests on one cohort of Swedish women. A second independent mortality cohort, or a Mendelian-randomization analysis that fixes lifetime UV or vitamin-D exposure, would test whether the Lindqvist signal replicates outside that narrow stratum. Neither is held.
+- The candidate sweet spot — regular, non-burning sun — has never been measured as its own exposure. Lindqvist's recreational score cannot isolate it, so it stays a hypothesis.
+- Circadian and light-exposure effects on sleep and mood are a plausible non-UV channel for daytime outdoor light, but the wiki holds no source on them here, so they are a named gap, not a finding.
+- Sauna and heat exposure are sometimes folded into *sunlight* advice; they are a separate exposure with their own single-cohort evidence base and belong to a different question ([[Sauna Bathing and Cardiovascular Mortality]]), not to the UV trade-off.
+
+Avoiding sunburn is the move the strongest evidence supports. The claimed mortality benefit of sun-seeking is observational, confounded, and unreplicated — plausible but far from established — and a vitamin-D pill does not stand in for it. Where the balance lands beyond *do not burn* depends on skin type, latitude, and what the person values, and the evidence supports saying exactly that rather than manufacturing a number.
 
 
 
@@ -245,9 +117,9 @@ on it makes any individual better off.
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about sun / UV exposure across its patient-important outcomes — skin cancer (melanoma and keratinocyte cancers) against the all-cause-mortality and vitamin-D signals — how does each effect vary with dose, skin type, and latitude, and how should a person weigh the trade-off?' |
-> | **Evidence included** | 6 sources — 3 gold, 3 high |
+> | **Evidence included** | 7 sources — 3 gold, 4 high |
 > | **Overall certainty** | **Low-moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sun%20Exposure.md) |
+> | **Last updated** | 2026-10-01 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sun%20Exposure.md) |
 
 ## References

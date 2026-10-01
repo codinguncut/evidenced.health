@@ -416,8 +416,6 @@ unresolved-but-plausible signal belongs to the person at layer 3, not to the app
 Which raises the question the additives cannot answer: is there a whole-food *category* that carries
 an evidenced hard-outcome effect? One does.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Processed meat is the one category with an evidenced harm
 
 **Of every category in this document, processed meat is the one with a real, if modest, hard-outcome
@@ -467,10 +465,6 @@ So where does the whole decomposition leave
 a person deciding what to eat, measured
 against the big rocks?
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## What to do — act on the components, against the big rocks
 
 **Stop shopping for the NOVA label and buy the properties instead.** The evidence licenses a short,
@@ -516,7 +510,5 @@ outcome they care about.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
-
-</div>
 
 ## References

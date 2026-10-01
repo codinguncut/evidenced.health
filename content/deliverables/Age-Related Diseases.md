@@ -3,8 +3,8 @@ type: deliverable
 title: Age-Related Diseases
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-09
-self_critiqued: 2026-09-09
+updated: 2026-09-29
+self_critiqued: 2026-09-29
 concrete_subject_audited: 2026-09-09
 aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
 question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
@@ -21,7 +21,8 @@ sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors
   Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026,
   Babaker - Risk Factors Age-Related Macular Degeneration 2025,
   Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025,
-  ESC - CVD Prevention Guidelines 2021, Lopez-Bueno - Handgrip Strength Thresholds]
+  ESC - CVD Prevention Guidelines 2021, Lopez-Bueno - Handgrip Strength Thresholds,
+  Hoffmann - Exercise Major Osteoporotic Fractures 2022]
 ---
 
 ## The verdict
@@ -189,6 +190,8 @@ Most of the population's cancer burden sits entirely outside this diet/activity/
 tobacco, infection (HPV, hepatitis, *H. pylori*) and occupational exposure carry a comparable or larger
 share and fall outside this deliverable's lifestyle scope.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## Keeping the body working — frailty, muscle, bone, falls
 
 For the oldest adults the decisive outcome is often not whether a disease arrives but whether the body
@@ -255,8 +258,15 @@ mechanism from the muscle and mortality levers above, not a contradiction of the
 Fracture reduction
 follows downstream, more weakly evidenced (RR 0.73, 0.56-0.95, LOW certainty), because exercise reaches
 bone through two distinct channels and this is only the larger one: preventing the fall, not measurably
-strengthening the bone itself, whose own loading effect is smaller and surrogate-only ->
-[[Exercise and Bone Mineral Density]]. And once someone is already frail this signal weakens — the
+strengthening the bone itself. The bone-loading channel is smaller, but it is no longer
+surrogate-only: a 2022 meta-analysis of 11 controlled exercise studies shows structured exercise cuts
+major osteoporotic fractures directly (RR 0.75, 0.54-0.94)
+[@hoffmann2022], so loading reaches the
+outcome a person cares about and not only bone density -> [[Exercise and Bone Mineral Density]]. That
+fracture meta-analysis comes from the same research group as the density one, so the two legs are not
+independent and the certainty on the loading channel is moderate, not high
+[inferred from @hoffmann2022]. And once someone is already frail
+this signal weakens — the
 frail-only pooling above found no significant fall reduction (RR 0.80, 0.51-1.26, very low certainty)
 even while mobility and frailty status still improved, so balance training earns the most confidence
 started before frailty sets in, not after.
@@ -273,6 +283,8 @@ to the oldest-old without checking which stratum it is being applied to ->
 
 The shared-lever logic is powerful but not universal — two places break it, and the breaks are
 instructive.
+
+</div>
 
 ## Where the shared logic breaks — Parkinson's and the eyes
 
@@ -474,6 +486,8 @@ limit on what a review of separate studies can produce, not a gap a bigger meta-
 closes — closing it would need a single study designed to track the combined outcome directly, and none
 exists.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## What to do
 
 Most people chasing better odds against dementia, cancer and heart disease do not need a different diet
@@ -515,9 +529,11 @@ order, and adjusted as a person ages.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?' |
-> | **Evidence included** | 21 sources — 13 gold, 8 high |
+> | **Evidence included** | 22 sources — 14 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Age-Related%20Diseases.md) |
+
+</div>
 
 ## References

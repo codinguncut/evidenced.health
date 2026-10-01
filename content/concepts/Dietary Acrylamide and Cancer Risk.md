@@ -108,6 +108,8 @@ already-null signal, it cannot manufacture harm (-> [[Measurement Error in Dieta
   combining clinically distinct lymphoma subtypes; the authors call it a signal to interpret «with
   caution» [@filippini2022]. Not a finding.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## Why the null is credible: the dose gap and the mechanism-vs-outcome split
 
 **The exposure sits 4-5 orders of magnitude below where acrylamide is a carcinogen in animals.** Human
@@ -135,7 +137,11 @@ effects stand against inconsistent human epidemiology
 state what evidence the IARC 2A classification itself rests on; the reading below is the wiki's inference:
 the mechanistic/animal carcinogenicity is what a 2A (*probable*) hazard identification turns on, whereas
 the human *dietary-outcome* data — exactly what Filippini supplies and finds null — is a different
-question (hazard identification vs dietary-dose risk), so the two do not conflict.
+question (hazard identification vs dietary-dose risk), so the two do not conflict. This is
+the general appraisal frame -> [[Hazard Identification Is Not Risk Magnitude]]: acrylamide is another
+*probable-hazard, negligible-dietary-risk* instance, alongside night-shift work and aspartame.
+
+</div>
 
 ## The binding constraint and the confounder — and why they cut *toward* the null, not away
 

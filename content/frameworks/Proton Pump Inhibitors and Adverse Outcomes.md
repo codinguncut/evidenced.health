@@ -164,8 +164,6 @@ uncertain, and probably not causal. The realistic alternatives to a PPI (H2-rece
 lifestyle/weight-loss for reflux, surgical anti-reflux procedures) are a separate comparator
 appraisal not held here.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## A constituent MA (Islam 2018) — granularity, not independence
 
 A second PPI-harm meta-analysis, Islam 2018 (SR of 43 + MA of 28 observational studies, search to
@@ -214,10 +212,6 @@ different n.
   been conducted»* [@islam2018ppi] — so it
   cannot make the observational-trial-discordance move; the umbrella does.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Provenance, certainty, and conflict of interest
 
 This page rests on a **single gold-tier umbrella review** (Salvo 2021, 42 SR/MAs); the second
@@ -241,7 +235,5 @@ appraisal caveats bound the umbrella:
 loop against any patient's realized outcome. A second independent gold source on PPI safety (and a
 deprescribing-outcomes SR) would upgrade it
 -> the deprescribing-effect question the umbrella points to but does not answer.
-
-</div>
 
 ## References

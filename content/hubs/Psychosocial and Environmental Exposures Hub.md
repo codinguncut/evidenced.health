@@ -14,8 +14,6 @@ opposite-signed across outcomes. Two through-lines run the whole cluster: most o
 as a marker of underlying health, few are proven treatment targets), and the physical intersection — not
 mood or life-satisfaction as ends in themselves — is what earns each page its place.
 
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## Stress and the HPA / allostatic channel
 
 - [[Allostatic Load and Mortality]] — nucleus of the `psychosocial` cluster: whether cumulative
@@ -33,8 +31,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   subjective anxiety/stress, and for whom: one low-warrant non-pooling SR (manufacturer COI, all samples
   anxiety-vulnerable, positive effects only in Mg + co-ingredient products) — a candidate lever, not a
   finding; the HPA/stress physiological-intersection admits the mental-health outcome
-
-</div>
 
 ## Connection and meaning
 

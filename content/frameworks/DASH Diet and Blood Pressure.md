@@ -257,8 +257,6 @@ framing is this page's; the no-downgrade decision and the component-RCT warrant 
 
 [inferred from @siervo2015; @chiavaroli2019]
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Decision relevance
 
 - **DASH is an evidenced BP-lowering pattern** (-5.2/-2.6 mmHg vs control) with a modest LDL/total-
@@ -283,7 +281,5 @@ framing is this page's; the no-downgrade decision and the component-RCT warrant 
   *surrogate* (here), Mediterranean on hard *events* (PREDIMED); where the two meet on the same BP endpoint
   they are near-equivalent, and DASH's own hard-event RCT is the gap the umbrella still calls for. The
   head-to-head reading -> [[Named Diet Programs Compared]] (DASH-vs-Mediterranean section).
-
-</div>
 
 ## References

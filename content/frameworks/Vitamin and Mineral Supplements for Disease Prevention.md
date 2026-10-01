@@ -2,8 +2,8 @@
 type: framework
 question: For a generally-nourished adult, does supplementing vitamins, minerals, multivitamins, or marine omega-3 prevent cardiovascular disease, cancer, fractures, or death?
 aliases: [Dietary Supplements, Multivitamins, Vitamin D Supplementation, Omega-3 Supplements, Fish Oil Supplements, Beta Carotene, Supplements for Prevention, VITAL Trial, Vitamin Supplements]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E; Pittas, Anastassios G; Evans, Jennifer; Lawrenson, John G]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Lin - Dietary Lifestyle Nephrolithiasis 2020]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; Bhatt, Deepak L; Steg, Philippe Gabriel; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; World Cancer Research Fund International (org); Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Yao, Pang; Clarke, Robert; Bolland, Mark J; Reid, Ian R; Andrieu, Sandrine; Myung, Seung-Kwon; Kim, Hong-Bae; Lee, Yong-Jae; Choi, Yoon-Jung; Oh, Seung-Won; Zhang, Yu; Fang, Fang; Sesso, Howard D; Aragaki, Aaron K; Lombardi, Marco; Chiabrando, Juan Guido; Demay, Marie B; Thompson, Bridie; Neale, Rachel E; Pittas, Anastassios G; Evans, Jennifer; Lawrenson, John G; Hu, Yang; Hu, Frank B]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, WCRF - Diet Nutrition Activity Cancer 2018, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Cardiovascular 2011, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Myung - Calcium Supplements Cardiovascular, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Lombardi - Omega-3 Fatty Acids Cardiovascular Outcomes Network Meta-Analysis 2020, Demay - Vitamin D Prevention Endocrine Society Guideline 2024, Thompson - Vitamin D Cardiovascular Events D-Health 2023, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Lin - Dietary Lifestyle Nephrolithiasis 2020, Hu - Marine Omega-3 Cardiovascular Disease 2019]
 cluster: supplements
 nucleus: true
 confidence: high
@@ -23,8 +23,8 @@ relationships:
     - Age-Related Macular Degeneration and Modifiable Exposures
     - Cinnamon and Glycemic Control
 created: 2026-07-30
-updated: 2026-09-23
-self_critiqued: 2026-09-23
+updated: 2026-09-29
+self_critiqued: 2026-09-29
 ---
 
 **Nucleus of the `supplements` cluster.** For a **generally-nourished adult without a known deficiency**,
@@ -753,6 +753,8 @@ scope limits keep the null honest without overturning it:
 
 
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## REDUCE-IT cashes the high-dose stratum — and it is a DIFFERENT exposure, not a contradiction of VITAL `[2026-08-04, Bhatt]`
 
 The reflex on seeing REDUCE-IT (benefit) beside VITAL (null) is to file a tension: *does omega-3 prevent
@@ -831,6 +833,62 @@ The REDUCE-IT AFib-hospitalization signal (3.1% vs 2.1%) above is now the high-d
 mineral-oil artifact -> [[Omega-3 Supplementation and Atrial Fibrillation]].
 [inferred from @gencer2021]
 [inferred from @lombardi2020]
+
+**Hu 2019 puts a CONTINUOUS dose-response slope behind the split, and shows the benefit is not solely a
+REDUCE-IT artifact (type-F refinement of Lombardi + the VITAL/REDUCE-IT table).** An updated fixed-effect
+(Mantel-Haenszel) meta-analysis of 13 marine-omega-3 CVD-outcome RCTs (n=127,477; mean age 64.3, 59.7%
+male, 39.4% diabetic, 72.6% on cholesterol-lowering drugs; mean follow-up 5.0 y; dose range 376-4000
+mg/d, most trials \~840-866 mg/d) updates Aung 2018's 10-trial base (n=77,917) by adding ASCEND, VITAL and
+REDUCE-IT (+63.6% sample) [@hu2019omega3cvd]. Two
+things it adds beyond Lombardi's categorical HD/LD split:
+
+- **The moderate-dose benefit survives EXCLUDING the 4 g outlier.** Pooling all trials *except* REDUCE-IT
+  (i.e. the mostly \~840 mg/d set) still yields significant reductions: MI RR 0.92 (0.86-0.99), CHD death
+  0.92 (0.86-0.98) [summary Table S1: 0.91 (0.85-0.98)], total CHD 0.95 (0.91-0.99), CVD death 0.93
+  (0.88-0.99), total CVD 0.97 (0.94-0.99); stroke was NULL 1.05 (0.98-1.14) and major vascular events
+  0.97 (0.94-1.00) missed at P=0.058 [@hu2019omega3cvd]. Including REDUCE-IT strengthened every inverse association (MI 0.88 [0.83-0.94]; total CHD 0.93
+  [0.89-0.96]; CVD death 0.92 [0.88-0.97]; total CVD 0.95 [0.92-0.98]; major vascular 0.95 [0.93-0.98])
+  but introduced significant heterogeneity (I2 51-55% for MI / total CHD) [@hu2019omega3cvd]. Conclusion, verbatim: marine omega-3 «lowers risk for
+  myocardial infarction, CHD death, total CHD, CVD death, and total CVD, even after exclusion of
+  REDUCE-IT» [@hu2019omega3cvd].
+- **A continuous per-1000-mg/d slope, robust for exactly two outcomes.** Meta-regression across the
+  376-4000 mg/d range found linear dose-response *persistent with AND without REDUCE-IT* only for total
+  CVD and major vascular events. Excluding REDUCE-IT: each +1000 mg/d lowered total CVD by 17% (CI
+  4-29%) and major vascular events by 17% (CI 3-28%), no heterogeneity; including REDUCE-IT: total CVD
+  RR 0.91 (0.88-0.95), major vascular RR 0.92 (0.89-0.95) per +1000 mg/d [@hu2019omega3cvd]. The MI / total-CHD dose-response appeared *only* with REDUCE-IT
+  (MI -9% [2-15%], total CHD -7% [0-13%] per +1000 mg/d) and none was seen for CHD subtypes without it.
+
+Three bounds keep Hu from overturning the general-population primary-prevention null established by VITAL
+above:
+
+- **The pooled benefit is a secondary-prevention / high-risk average, not a usual-risk one.** Most
+  included trials «comprise patients at high risk of CVD and with advanced atherosclerosis»; Hu names
+  VITAL as «the only trial conducted in a usual-risk population» [@hu2019omega3cvd], and it stayed null on its 3-point MACE. So the exclude-REDUCE-IT
+  benefit does not transport to the replete general-prevention stratum this page's headline row holds —
+  it refines the *high-CV-risk* cell, consistent with Lombardi and REDUCE-IT.
+- **The slope is exploratory and outlier-driven.** Hu flags that «our dose–response analysis was highly
+  exploratory and should be interpreted cautiously» and, because most trials clustered near 850 mg/d,
+  «the slope of the regression line was essentially determined by few distinctive doses within a narrow
+  range»; the with-REDUCE-IT slopes ride on one 4 g trial, since «the marine omega-3 dose of 4000 mg/d
+  was an influential outlier (most trials tested doses ≤1000 mg/d and the second largest dose was 1800
+  mg/d)» [@hu2019omega3cvd]. Only total CVD and major
+  vascular events hold their dose-response when that trial is removed.
+- **NOT independent type-E — shared trial base and shared author.** Hu re-pools VITAL, REDUCE-IT, JELIS,
+  ASCEND, GISSI, ORIGIN et al. already held (and overlaps Lombardi's 14-trial set almost entirely), and
+  JoAnn Manson is both a VITAL principal investigator and an author here. It is a **type-F composite
+  refinement**, not a type-E convergence; it strengthens *confidence in the dose-tracks-benefit reading*
+  only as far as a re-pool of the same trials can.
+
+One local nuance vs the plateau row above: VITAL's authors read a dose-response that «plateaus at 1 g or
+less» for most effects, whereas Hu (same author, Manson) reports a *linear, non-plateauing* clinical
+dose-response for total CVD and major vascular events over 376-4000 mg/d, echoing Mozaffarian's 58-trial
+triglyceride slope that «did not plateau even at 7 g/d». These are not a filed tension — different
+quantities (a biomarker/most-effects plateau vs clinical CVD-event slopes over a far wider dose range) and
+Hu's slope is exploratory and 4-g-driven — but the corpus should note that its one located omega-3
+plateau is contested by a linear clinical dose-response from the same group.
+[inferred from @hu2019omega3cvd; @manson2019n3]
+
+</div>
 
 ## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
 
@@ -936,6 +994,8 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   observation is appraised on [[Which Objective Moved This Recommendation]], not scored against the
   weighting [PRIOR] in this ingest.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## Self-critique `[run 2026-09-04, before commit — Pittas 2023 vitamin-D IPD-MA woven; AWAITS cashed]`
 
 - **AWAITS cashed correctly.** The prediabetes HR 0.85, previously borrowed from Demay's guideline and
@@ -958,5 +1018,29 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   second backing; `confidence: high` unchanged.
 - **Coherence, not validity** (R1): the loop is open; the treat-to-target question and the
   general-population non-transportability are named as gaps, not resolved.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-29">
+
+## Self-critique `[run 2026-09-29, before commit — Hu 2019 marine-omega-3 CVD meta-analysis woven]`
+
+- **Not overclaimed.** Hu's pooled excl-REDUCE-IT benefit is stated as Hu's own verbatim conclusion and
+  bounded three ways in the same breath: it is a secondary-prevention / high-CV-risk average (VITAL, the
+  one usual-risk trial, stayed null on its composite), the dose-response slope is Hu's own «highly
+  exploratory» 4-g-outlier-driven estimate, and it explicitly does NOT transport to the replete
+  general-prevention headline row. No "fish oil prevents CVD" overreach; the general-population null holds.
+- **Not [E-independent].** Marked type-F composite refinement, not a type-E convergence — shared trial
+  base (re-pools VITAL/REDUCE-IT/JELIS/ASCEND, \~full overlap with held Lombardi) and shared author
+  (Manson) stated explicitly; no `[E-independent]` token; `confidence: high` unchanged (a re-pool of held
+  trials adds no independent backing).
+- **Not a fake tension.** The plateau-vs-linear observation (VITAL's ≤1 g plateau for "most effects" vs
+  Hu's linear clinical CVD-event slope over 376-4000 mg/d) is filed as a bounded nuance, NOT a `[[tension]]`
+  — not-joined check (ii): different quantities (biomarker/most-effects plateau vs clinical-event slope,
+  wider dose range) and Hu's slope is exploratory/outlier-driven. Same author (Manson) on both sides, noted.
+- **Counter-passage read.** VITAL's own plateau clause (held on this page) and Hu's dose-response section
+  with its caveats were read end-to-end before the nuance was filed.
+
+</div>
 
 ## References

@@ -102,8 +102,6 @@ Mediterranean moving hard events -> [[Mediterranean Diet and Cardiovascular Even
 independent designs (a named-diet NMA on LDL; PREDIMED on CV events) single out the same pattern is worth
 noting, while keeping the outcomes distinct: Ge does not measure events, PREDIMED does not pool LDL here.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## DASH vs Mediterranean — an outcome-specific split, not a demonstrated winner
 
 A recurring belief pits the two moderate-macronutrient patterns against each other: *DASH lowers blood
@@ -157,7 +155,7 @@ trial was run.
 no head-to-head DASH-vs-Med trial exists on either endpoint. A DASH-vs-Med BP head-to-head is a named
 acquisition target (`queue:dash-vs-med-head-to-head-bp`); even that would settle only the surrogate.
 
-</div>
+
 
 ## Low-carb costs LDL what it buys elsewhere
 
@@ -322,8 +320,6 @@ answer — near-equivalent in the middle (act on adherence); component-ordered a
 measurable component, not the label); and one extreme genuinely under-studied — without asserting any
 hard-outcome pattern ranking the evidence does not license.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Limits
 
 - **Surrogate-only, <=12 months.** The endpoints are weight/BP/lipids/CRP; the longest follow-up is 12
@@ -341,10 +337,6 @@ hard-outcome pattern ranking the evidence does not license.
   of any 12-month surrogate change into events is untested, and a long-latency head-to-head between named
   diets on mortality/events is impractical to run, so this is a structural absence, not a queue item.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Self-critique `[run 2026-09-25, after the DASH-vs-Mediterranean section (WS-023)]`
 
 - **No fake tension.** The DASH-vs-Med contrast is filed as a *distinction*, not a `[[tension]]`: the
@@ -358,7 +350,5 @@ hard-outcome pattern ranking the evidence does not license.
 - **No laundered extraction.** The section mints no `[EXTRACTED]` tags and adds no `sources:` — it is
  synthesis over three held pages, with every figure cross-referenced to the page where it
   is extracted and audited. Figures verified against those pages before writing.
-
-</div>
 
 ## References

@@ -217,8 +217,6 @@ caution. [inferred from @chung2014]
 falls to the isocaloric test — without a clean-[E] tag, because the shared isocaloric-design logic is the
 honest limit on the independence. -> [[Fatty Liver MASLD and Weight Loss]], [[Free Sugars Intake]]
 
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## The IIFYM corollary — "if it fits your macros" is true for the scale, false for the liver and for free-living intake `[2026-09-26]`
 
 The energy-balance verdict is routinely over-generalized into the fitness-culture rule **"if it fits your
@@ -241,8 +239,6 @@ itself is genuinely inert where the belief happens to be checkable directly — 
 is null (SMD 0.01) — so the failure is not "macros don't matter" but "matched macros do not certify matched
 *outcomes* or matched *intake*."
 [inferred from @winterseekelen2020; @hall2019]
-
-</div>
 
 ## Hidden insight
 

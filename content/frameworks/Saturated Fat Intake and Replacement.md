@@ -867,8 +867,6 @@ E%.» [@nnr2023]
   zero* action). No divergence to file — guidance divergence class 1 (a population-communicability
   choice to fold trans fat into the SFA message), not a substantive disagreement.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Butter vs plant oils at the FOOD level — Zhang 2025 partly cashes the food-matrix gap, on mortality `[2026-09-02]`
 
 The food-matrix question this page filed as a WHO **research gap** (*compare the health effects of SFA
@@ -965,8 +963,6 @@ observational, model-based, and — on the CHD-relevant endpoint — **null** (t
 trial, the isolable olive-oil -> CHD causal evidence is essentially absent: *olive oil reduces CHD* is a
 pattern-and-substitution claim wearing a single-food label. Full three-leg synthesis on
 [[Mediterranean Diet and Cardiovascular Events]] (the isolated-food CHD section).
-
-</div>
 
 ## SFA at the NUTRIENT level, on mortality — Ma 2024 adds a clean cancer cell and makes the all-cause null fragile `[2026-09-07]`
 

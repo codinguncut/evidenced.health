@@ -4,11 +4,11 @@ title: Body Fat
 aliases: [Body Fat, Obesity, Adiposity, Should I Lose Weight, Is My Fat Dangerous, Body Fat Percentage, Visceral Fat, Body Composition, Metabolically Healthy Obesity]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-21
-self_critiqued: 2026-09-21
+updated: 2026-09-29
+self_critiqued: 2026-09-29
 concrete_subject_audited: 2026-09-21
 question: 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)'
-sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019]
+sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
 ---
 
 ## Where fat sits matters more than how much of it there is
@@ -410,6 +410,8 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
 Where the excess fat sits is what does the damage, and the most dangerous place is inside the liver and
@@ -421,6 +423,20 @@ adverse metabolic consequences».
 Fatty liver (MASLD, renamed from NAFLD in 2023) is the clinically visible edge of that intra-organ depot,
 so its weight-loss lever is the same depot-drawdown the cardiometabolic pages already rank first
 -> [[Ectopic Fat and Depot-Specific Risk]].
+
+How much does that pivotal depot track with downstream disease? In Mantovani's meta-analysis of 16
+cohort studies (214,805 people, 10,356 new diabetes cases), people with fatty liver had a pooled
+**HR 2.22 (1.84-2.60)** for incident diabetes, holding at **1.85 (1.47-2.22)** across the 10 studies
+with full confounder adjustment [@mantovani2018].
+This is observational, so read it as a risk association, not proof the liver fat causes the diabetes.
+
+The association is **severity-graded**: it rises across ultrasound steatosis scores (HR 2.15, 1.72-2.58,
+I2=0%) and reaches HR 2.63 (1.57-3.70) in more severe NAFLD
+[@mantovani2018]. The headline pool is
+heterogeneous while the steatosis-score gradient is not, so the dose-response is the sturdier signal,
+though it rests on only three studies. The case for *acting* comes from the interventional reversal
+below, not these cohorts: drawing the depot down reverses the liver ladder in dose, which is why it
+ranks as a first-order lever.
 
 The actionable finding is a **dose-response histology ladder**: how much sustained weight loss reverses
 each rung of liver disease. EASL states «a bodyweight reduction of >=5% is required to reduce liver lipid
@@ -449,6 +465,7 @@ weight reduction by lifestyle modification on advanced fibrosis or cirrhosis is 
 works on the *reversible* stages, not once bridging fibrosis or cirrhosis is established.
 [@easl2024]
 
+</div>
 
 ## Composition moves liver fat beyond calories — but it is the fat *type*, not the carbohydrate fraction
 
@@ -564,6 +581,8 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## The decision: read the depot, target it, and know what losing it buys
 
 Put together, the *state* of a person's body fat settles three things and hands off a fourth. **Where the
@@ -594,9 +613,11 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)' |
-> | **Evidence included** | 28 sources — 14 gold, 13 high, 1 moderate |
+> | **Evidence included** | 29 sources — 15 gold, 13 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+
+</div>
 
 ## References

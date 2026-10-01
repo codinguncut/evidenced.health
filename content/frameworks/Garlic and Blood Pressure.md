@@ -20,8 +20,6 @@ created: 2026-09-25
 updated: 2026-09-25
 self_critiqued: 2026-09-25
 ---
-<div class="recent-page" data-last-updated="2026-09-25"></div>
-
 
 Does a garlic supplement lower blood pressure, and if so for whom? Two gold meta-analyses now bear on
 this — Ried 2008 (11 placebo-controlled RCTs, hypertensive + normotensive) and Ma 2025 (12 RCTs, all

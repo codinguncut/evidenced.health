@@ -254,8 +254,6 @@ in that stratum: «no one diet type is superior over others for weight managemen
 The near-null is not the end of the story. It is a race with three finishers that clear it -- and each
 one separates on an energy deficit, a food component, or a risk stratum, never on the label itself.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Three findings clear the near-null, and each is about energy or a component, not a name
 
 Above the floor the label barely matters, but three findings do move a decision. None is a label
@@ -371,10 +369,6 @@ Each exception makes the same point from a different direction: what separated t
 deficit (remission), a food component in a high-risk stratum (Mediterranean), or a lipoprotein response
 in one subgroup (low-carb apoB) -- never the label. Which axis actually carries a dietary difference is
 the next question.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
 
 ## Trace the difference to a measurable axis, not the label
 
@@ -640,10 +634,6 @@ fabric cannot yet separate from its co-travellers; and the diets people argue ab
 least hard-outcome evidence. So the question is not *which brand* but *what do I actually do* — which is
 where the four axes point.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Get above the floor, then choose the pattern you will keep
 
 **Get above the floor first.** The measurable gain sits in clearing the adequacy/energy screen —
@@ -699,7 +689,5 @@ less than whether a person keeps it.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
-
-</div>
 
 ## References

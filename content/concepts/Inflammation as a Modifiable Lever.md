@@ -153,8 +153,6 @@ event-avoidance gets a different answer than the event endpoint alone implies �
 (layer 3), but the wiki must not let the event benefit stand in for a mortality benefit it does not have.
 [inferred from @ridker2017cantos; @nidorf2020lodoco2]
 
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## The "anti-inflammatory diet" is a proxy for known-healthy patterns, not a shown independent lever
 
 The drugs above are the *evidenced* form of the lever, and they are pharmacotherapy — out of reach as a
@@ -223,8 +221,6 @@ diet -> CRC direction now shows up across three routes (WCRF's EDIP grade, Yin's
 CVD leg), all carrying the same *the-index-relabels-a-diet-pattern* caveat and none clearing a high
 evidence bar — reinforcing the insufficient-evidence verdict on an *independent* dietary-inflammation
 lever, not lifting it. [inferred from @yin2025cancer]
-
-</div>
 
 ## Where it sits — residual risk, reverse causation, and the open gaps
 

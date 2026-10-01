@@ -141,8 +141,6 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   the one "nadir at \~150 g/d" is an Asia/Europe intake-range pooling artifact, and milk-alone/cheese-alone
   are null. Not a cognition lever. `confidence: low`
 
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## Sugars, sweeteners, and seed oils
 
 - [[Free Sugars Intake]] — how much free sugar, and which outcome the limit is actually protecting
@@ -152,8 +150,6 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   against which comparator
 - [[Linoleic Acid and Cardiovascular Disease]] — whether omega-6 linoleic acid (the main fat in seed
   oils) raises or lowers cardiovascular risk
-
-</div>
 
 ## Is the compound-class scare real?
 

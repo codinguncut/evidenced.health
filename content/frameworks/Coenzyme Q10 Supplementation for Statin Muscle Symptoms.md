@@ -15,8 +15,6 @@ created: 2026-09-25
 updated: 2026-09-25
 self_critiqued: 2026-09-25
 ---
-<div class="recent-page" data-last-updated="2026-09-25"></div>
-
 
 Statins inhibit the mevalonate pathway upstream of coenzyme Q10 (ubiquinone) synthesis, so a statin
 measurably lowers circulating CoQ10 — a pooled reduction of -0.44 umol/L is cited from Banach's

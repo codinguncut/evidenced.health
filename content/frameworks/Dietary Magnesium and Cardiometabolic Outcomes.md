@@ -93,8 +93,6 @@ only in the **metabolically-impaired / low-Mg** stratum (plausibly deficiency-co
 pattern-vs-component confound therefore stays open for magnesium's *hard-outcome* signal; it is closed only
 for *supplement -> BP -> impaired stratum*.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Dietary is not supplemental — a different exposure
 
 Fang is dietary intake only. The paper *cites* separate trial evidence that oral magnesium **supplements**
@@ -110,10 +108,6 @@ Fang's dietary-cohort hard outcomes, so they do not merge with Fang's numbers �
 table under *Synthesis*. Zhang is the parent general-population pool that Dibaba re-slices to the impaired
 stratum (8/11 shared trials) — so Zhang and Dibaba are the same question at two strata, not independent
 replications.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
 
 ## The supplement-RCT causal leg — magnesium supplementation lowers BP in the impaired stratum (Dibaba 2017)
 
@@ -172,10 +166,6 @@ medications». That transmission is evidenced for *drug-induced* BP lowering, no
 surrogate that moves is not an outcome that moves ([[Surrogate Outcomes]], [[Blood Pressure Lowering and Cardiovascular Events]]).
 [@dibaba2017mg]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## The general-population supplement-RCT arm — Zhang 2016 (the parent pool Dibaba re-sliced)
 
 A gold MA of **34 double-blind placebo-controlled RCTs**, 2028 participants (1010 supplemented, 1018
@@ -215,8 +205,6 @@ deficiency-vs-enhancement rule), but the interaction is **unproven** on either M
 *candidate*, held under the U/J-artifact-style caution that a subgroup point estimate must survive an
 interaction test before it drives a recommendation.
 
-</div>
-
 ## Measurement error and the null arms
 
 Dietary magnesium is FFQ-self-reported, and the authors note «measurement error might occur in dietary
@@ -236,8 +224,6 @@ nulls and the mortality upper bound touching 1.0 are weak evidence of no gradien
 - Publication bias: no significant evidence (funnel/Egger/Begg) across outcomes. NOS mean quality 8.2.
 
 All figures in this section: [@fang2016magnesium]
-
-<div class="recent-update" data-last-updated="2026-09-25">
 
 ## Synthesis — three legs, and which pairs are the same quantity
 
@@ -278,10 +264,6 @@ within-vs-between-group artifact, never in a clean interaction test on either MA
 remains the most plausible *mechanism* if any modification is real, but neither MA establishes it.
 [inferred from @zhang2016magnesiumbp; @dibaba2017mg]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Layer-1 placement (where this ranks)
 
 A modifiable exposure with a plausible relative signal on T2D and stroke (dietary, observational) and a
@@ -298,10 +280,6 @@ between-group comparison (Zhang -2.00 \~ Dibaba impaired -2.22), so the *impaire
 is larger* claim is **not clean** — the deficient/low-Mg subgroup shows a larger point effect but no
 significant interaction. Net: a small surrogate-only lever whose marginal rank does not clearly rise even in
 the impaired stratum.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-26">
 
 ## Gaps (G)
 
@@ -324,7 +302,5 @@ the impaired stratum.
 Magnesium's **anxiety/stress** outcome is a *different cell*, held separately at
 [[Magnesium Supplementation and Subjective Anxiety]] (low warrant) — do not read a cardiometabolic magnesium
 benefit as an anxiety benefit, and vice versa.
-
-</div>
 
 ## References

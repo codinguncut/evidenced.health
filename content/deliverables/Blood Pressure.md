@@ -36,8 +36,6 @@ This is where a stratum baseline does the work. Rather than treating to a fixed 
 
 None of this refutes the ceiling on lifestyle levers — it refines it. Blood-pressure lowering's relative benefit is proven where lifestyle weight-loss and GLP-1 cardiovascular benefit are not, but its absolute benefit still scales with baseline risk, which is the ceiling's own mechanism. A constant \~10% per 5 mmHg is worth pulling hard for a hypertensive at high cardiovascular risk and barely worth measuring for a low-risk normotensive.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## The lifestyle levers, and how much each moves the number
 
 With that decision rule in hand, here is how much each lifestyle lever actually moves the number. Two things govern how to read the list. First, a millimetre of mercury is not a millimetre of prevented disease: every figure below is a change in the *surrogate* (blood pressure), and whether that drop reaches heart attacks and strokes has been tested separately for each lever. Flag each one's status: **MEASURED** where a randomized trial watched the hard events fall (only the potassium salt substitute clears this bar), **MODELLED** where the events were projected through a risk model rather than counted (alcohol), and **ASSUMED** for every other route — the BP drop is real, its transmission to events borrowed from the drug evidence.
@@ -108,8 +106,6 @@ is repletion of a deficit in low-magnesium people, not a dose-response that tran
 replete -- so correcting a documented shortfall is a real move, while adding magnesium on top of an
 adequate whole-food intake is not.
 
-</div>
-
 ## For a hypertensive, exercise matches a drug on the number -- but the drug's payoff is the proven one
 
 The honest comparator for any lifestyle BP lever is not nothing; it is a first-line antihypertensive. The best evidence placing the two on one axis is a network meta-analysis of 391 randomized trials -- 197 of exercise, 194 of drugs -- that never ran a head-to-head. Compared against control, drugs looked far stronger (about -8.80 vs -4.84 mmHg). But the two arms were measured in different people: the drug trials enrolled hypertensives at a mean systolic pressure over 150 mmHg, the exercise trials people around 132, mostly normotensive. A blood-pressure drop scales with where you start, so those are not the same quantity. Restrict exercise to the hypertensive trials and its effect nearly doubles, erasing the drug's lead: «We did not observe a difference between the SBP-lowering effects of medications and exercise (0.18, 95% CrI −1.35 to 1.68)». [@naci2019exercise]
@@ -157,8 +153,6 @@ But the same trial priced the target. Serious «hypotension, syncope, electrolyt
 
 Registries show a J-shape — risk lowest around 130/75, apparently higher below — which for years read as a warning against lowering pressure far, especially the diastolic number. Run that lower arm through the artifact diagnostics before believing it ([[The U-Shaped Association Artifact]]). The randomized check erases it: BPLTTC finds benefit down below 120 mmHg systolic with no rising hazard in any low-BP stratum [@bplttc2021], and Peters reports «no evidence of a U-shaped re- lation of the effect at any age» for dementia, monotone down to at least 100/70 [@peters2022bp]. So the observational J is confounding and reverse causation (frail, sick people run low pressure), not a treatment effect. The genuine limit on how low to go is SPRINT's adverse-event side above — not the J-curve.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## The levers, ranked — and what is still unknown
 
 Pulling the decision together: a handful of moves lower blood pressure, they are not equal, and the honest ranking weighs how much each moves the number against how sure we are it reaches disease and how realistically a person can sustain it.
@@ -191,7 +185,5 @@ Four gaps are genuine, and none is closed by an obvious source sitting unread.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
-
-</div>
 
 ## References

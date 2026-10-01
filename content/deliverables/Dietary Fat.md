@@ -178,8 +178,6 @@ biomarker is a clean intake measure** -- a within-fat boundary that carries real
 -> [[Is the Food Category Doing Any Work]]. That measurability is part of why the trans-fat signal is
 the firmest fat finding held here.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Treat MUFA benefit as thin and pattern-level
 
 Monounsaturated fat has **no dedicated page in the fabric, and the reason is the evidence**. WHO's
@@ -214,8 +212,6 @@ thing to an olive-oil-alone estimate still leaves the MUFA-for-the-heart case pa
 
 The other polyunsaturated leg, n-6 linoleic acid, is where a **live public controversy** sits -- and it
 is the next section's subject.
-
-</div>
 
 ## Read n-6 linoleic acid as neutral-to-protective as a class
 
@@ -332,8 +328,6 @@ one large RCT tested a single fat->carbohydrate reduction, not a curve), plant o
 named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
 stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -364,7 +358,5 @@ evidence does not offer.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
-
-</div>
 
 ## References

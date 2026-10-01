@@ -4,11 +4,11 @@ title: Dairy
 question: 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer, cognition/dementia) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options — add, keep, swap, or cut a dairy food — can be weighed against the big rocks?'
 aliases: [Dairy, Milk and Dairy, Cheese and Butter and Milk]
 authors: [Guo, Jing; Zhang, Kui; Zhang, Yu; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas; Gijsbers, Lieke; Vissers, Linda E T; Thorning, Tanja Kongerslev; Mente, Andrew; Villoz, Fanny]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019, Mente - PURE Healthy Diet Score 2023, Villoz - Dairy Cognitive Decline Dementia 2024, Thorning - Whole Dairy Matrix 2017]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019, Mente - PURE Healthy Diet Score 2023, Villoz - Dairy Cognitive Decline Dementia 2024, Thorning - Whole Dairy Matrix 2017, Bian - Dairy Hip Fracture Meta-Analysis 2018]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-15
-self_critiqued: 2026-09-15
+updated: 2026-09-29
+self_critiqued: 2026-09-29
 concrete_subject_audited: 2026-09-15
 ---
 
@@ -162,6 +162,8 @@ signal lives, and this genetic test cannot refute it. Reading the milk-null as s
 would be the category error the whole decomposition exists to prevent. So the composite is: milk has no
 causal diabetes effect, yoghurt keeps a small observational one, and neither is a big lever.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## Milk is not a bone-fracture lever
 
 The intuitive story — dairy is rich in calcium and protein, so more dairy means stronger bones — does not
@@ -175,12 +177,30 @@ while cohorts show a 9% *higher* risk per 200 g/day (RR 1.09, 1.07-1.11)
 signal is largely driven by the same Michaelsson Swedish cohort behind the milk-mortality scare, so read
 it as confounded and unadjudicated, not as evidence milk breaks bones ([[Dairy and Bone Health]]).
 
+Decomposing dairy by product does not rescue a bone benefit. A second gold meta-analysis (Bian 2018,
+381,987 people across 10 cohorts and 8 case-control studies) reaches Malmir's cohort-null milk result and adds
+the by-product cells Malmir left empty: in cohorts, yogurt (RR 0.75, 0.66-0.86) and cheese (RR 0.68,
+0.61-0.77) both associate with fewer hip fractures
+[@bian2018].
+
+Read alone, those numbers look like
+a fermented-dairy bone lever. They are not: roughly 98% of the pooled yogurt and cheese participants come
+from a single Swedish cohort (Michaelsson), the same confounded high-dairy population behind the milk-harm
+scare, and the individual non-Swedish arms are null
+[inferred from @bian2018]. Within that one cohort milk tracks with harm
+while yogurt and cheese track with protection, which rules out generic dairy confounding but fits
+product-specific dietary-pattern confounding just as well as a real fermented effect. So the by-product
+protection is a candidate distinction to test, not a reason to eat yogurt or cheese for your bones ->
+[[Dairy and Bone Health]].
+
 Two loose ends stay honest. A dose-response J-shape put dairy above 250 g/day at higher osteoporosis risk,
 but it rests on the same reverse-causation-prone designs and is unadjudicated. And the food route lands
 where the supplement route does. Calcium plus vitamin D is also null for fracture in replete adults, so
 neither the glass of milk nor the pill moves fracture risk in someone already well-nourished
 ([[Deficiency Repletion vs Enhancement]]). What prevents falls and fractures in older adults is exercise,
 not dairy intake.
+
+</div>
 
 ## Dairy is not a brain-health lever either
 
@@ -233,6 +253,8 @@ carries its own industry and design caveats. The saturated-fat verdict itself be
 This cut carries only the dairy-specific matrix nuance, which for now points in a plausible direction on a
 surrogate endpoint and no further.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## What to actually do about dairy
 
 Dairy is a small lever, and the attention it gets runs far ahead of the effect. If the big rocks —
@@ -258,9 +280,11 @@ exists, and none is likely, so these verdicts are calibrated small effects, not 
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer, cognition/dementia) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options — add, keep, swap, or cut a dairy food — can be weighed against the big rocks?' |
-> | **Evidence included** | 15 sources — 10 gold, 3 high, 1 moderate, 1 weak |
+> | **Evidence included** | 16 sources — 11 gold, 3 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Thorning (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+
+</div>
 
 ## References

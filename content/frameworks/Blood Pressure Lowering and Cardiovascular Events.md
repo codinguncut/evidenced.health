@@ -307,8 +307,6 @@ low-cost adjunct for someone who will actually do it, never as a substitute for 
 medication, or structured exercise.
 [inferred from @geiger2025yoga; @bplttc2021]
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## A sixth route — garlic, a big clean surrogate mover with no hard-outcome warrant `[2026-09-25, weave: Ried + Ma]`
 
 Garlic supplementation is a **supplement** BP route ([[Garlic and Blood Pressure]]), and placing it beside
@@ -355,8 +353,6 @@ in the hypertensive stratum for someone who will take it, never as a substitute 
 endpoint.
 
 [inferred from @ried2008; @ma2025garlic; @naci2019exercise; @geiger2025yoga; @chaddha2019; @norouzzadeh2025nitrate; @qu2017urate; @neal2021; @bplttc2021]
-
-</div>
 
 ## Decision relevance
 

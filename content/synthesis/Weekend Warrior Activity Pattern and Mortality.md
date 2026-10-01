@@ -23,6 +23,8 @@ weekly volume?* (bout distribution), an orbiter of the total-dose nucleus
 [[Physical Activity Dose and Mortality]]. The reader it serves is time-pressed: *can I bank the mortality
 benefit in one or two sessions, or must activity be spread across the week?*
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## The decision-change
 
 **Concentrating guideline-level activity into 1-2 sessions/week is associated with the same benefit as
@@ -34,6 +36,10 @@ reported *via* O'Donovan, agrees after matching total dose), and objective wrist
 CVD events (Khurshid, UK Biobank). The cleanest test — Khurshid's WW-vs-regular comparison **within MVPA
 decile (matched total dose)** — is null for all four CVD outcomes, isolating pattern from volume.
 
+This is one instance of the general split -> [[Temporal Distribution vs Total Dose]]: for activity, the
+distribution axis is null once volume is matched (unlike sleep, where day-to-day regularity outranks the
+duration total).
+
 **But three floors bound the licence:** (i) the concentrated sessions must be **long enough** — under
 \~30 min/session the mortality benefit disappears (O'Donovan); (ii) **all evidence is observational**
 (healthy-user selection, residual confounding, exposure measured as a single week in Khurshid) — no RCT
@@ -43,6 +49,8 @@ activity (BP/lipid benefits need sustaining) is unrefuted for intermediate outco
 independent group, on an objective instrument, reaches the same equivalence — the reason confidence is
 raised from low to **medium** (below).
 [inferred from @kunutsor2022; @odonovan2024; @khurshid2023]
+
+</div>
 
 ## The two patterns are equivalent — but do NOT equate the two studies' magnitudes
 

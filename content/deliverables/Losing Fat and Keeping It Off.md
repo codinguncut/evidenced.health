@@ -3,12 +3,12 @@ type: deliverable
 title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
-self_critiqued: 2026-09-21
+self_critiqued: 2026-09-29
 concrete_subject_audited: 2026-09-21
 created: 2026-09-09
-updated: 2026-09-21
+updated: 2026-09-29
 question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
-sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, NICE - NG246 Evidence Review F]
+sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, NICE - NG246 Evidence Review F, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020]
 ---
 
 ## Intake sets the deficit; how you spend it decides what else you lose
@@ -28,6 +28,8 @@ Numbers here are population averages for adults with overweight or obesity; a pe
 varies widely. And a caution that runs through everything below — this fabric grades how well the
 evidence hangs together, not whether following it makes you better off. That loop stays open.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## The body defends the deficit, and defends it harder the heavier you are
 
 Exercise does not subtract cleanly from the energy balance. People eat more, move less the rest of the
@@ -43,6 +45,16 @@ at the heaviest [@careau2021]. The person with the most fat
 to lose gets the least deficit back per unit of exercise. That is why intake, not activity, anchors how
 much weight moves — and why exercise is prescribed below for what it does to the depot and to muscle,
 not for the calories it appears to burn -> [[Exercise Energy Compensation]].
+
+Two gym folk-rules fall out of the same principle. The *fat-burning zone* -- training slow because low
+intensity draws a higher *percentage* of fuel from fat -- optimizes the wrong quantity: body fat tracks
+the total energy deficit over the week, not the within-session fuel mix, and harder work spends more
+total energy per minute. And *sweating is not fat loss*: sweat is thermoregulatory water regained on
+rehydration, so a hotter room or a sauna raises sweat without widening the deficit. Both are corollaries
+of the deficit-owns-fat-loss finding above, not separate levers
+-> [[Exercise Energy Compensation]].
+
+</div>
 
 ## How you create the deficit changes where the fat comes off
 
@@ -118,6 +130,8 @@ of body mass, though that figure is exploratory
 matters: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## What each method actually moves
 
 **The drug moves the most weight, and once, moves an outcome.** Semaglutide took off about 12.4
@@ -184,6 +198,13 @@ outpatient trial agrees: DIETFITS found −5.3 kg on low-fat versus −6.0 kg on
 0.7 kg difference (95% CI −0.2 to 1.6), with no benefit from matching the diet to insulin secretion or
 genotype [@gardner2018].
 
+The scale being nearly source-blind does not make the liver so. Holding calories and even total fat grams
+fixed and swapping saturated fat for unsaturated cut liver fat by a wide margin (SMD -0.80, -1.09 to
+-0.51) in Winters-van Eekelen's meta-analysis, while swapping total fat for carbohydrate did nothing
+(SMD 0.01, -0.36 to 0.37) [@winterseekelen2020]. So
+*if it fits your macros* holds for the number on the scale and fails for the liver fat the scale never
+shows -> [[Fatty Liver MASLD and Weight Loss]].
+
 Where composition *does* bite is intake itself — the same investigator's inpatient trial found people ate 508 kcal/day more on an
 ultra-processed diet than a matched unprocessed one, eating freely
 [@hall2019]. So the diet that works is the one that
@@ -205,6 +226,8 @@ deficit with less hunger, and the swap holds up whether or not any reward story 
 true. Keep it modest, though: the direct evidence is a two-week surrogate in a handful of people, energy
 density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
 outcome -> [[Energy Density]].
+
+</div>
 
 ## Keeping it off is the part that fails
 
@@ -281,6 +304,8 @@ lean-mass worry is small and the deficit plus training is enough. For an older o
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## How to think about your own choice
 
 Pick the method you can hold, because durability is where nearly every attempt fails. Anchor the deficit
@@ -298,9 +323,11 @@ open.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?' |
-> | **Evidence included** | 29 sources — 13 gold, 15 high, 1 moderate |
+> | **Evidence included** | 30 sources — 14 gold, 15 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+
+</div>
 
 ## References

@@ -135,8 +135,6 @@ Until one does, *fermented foods work
 because of the probiotics* stays a mechanism hypothesis, not a finding — and the Wastyk remodeling
 reading above already cuts against the simple *eat live bacteria -> they take up residence* picture.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
 "Take a probiotic for gut health" is not a claim the evidence supports. The WGO guideline's governing
@@ -194,8 +192,6 @@ are undercut by the same problem — strain-blind pooling and heterogeneity, wit
 «were not homogeneous ... which limits precise recommendations». The demotion to weak-to-suggestive is
 the wiki's own reading of these two sources — a discounted finding of benefit, not the
 insufficient-evidence state.
-
-</div>
 
 ## §5 — Prebiotics: mostly fibre by another name
 
@@ -338,8 +334,6 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Caveats
 
 - **Open loop.** This appraisal grades the coherence and source-fidelity of the evidence, never
@@ -362,7 +356,5 @@ diversity, the boring recommendation that is already made on its own evidence.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
-
-</div>
 
 ## References

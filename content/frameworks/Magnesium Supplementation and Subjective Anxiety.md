@@ -18,8 +18,6 @@ created: 2026-09-26
 updated: 2026-09-26
 self_critiqued: 2026-09-26
 ---
-<div class="recent-page" data-last-updated="2026-09-26"></div>
-
 
 **One weak source, one honest verdict: suggestive but inconclusive, and only in the already-anxious.**
 The single held source is a narrative systematic review (no pooling, no GRADE) whose authors rate the

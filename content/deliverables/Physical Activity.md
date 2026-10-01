@@ -118,8 +118,6 @@ moderate continuous training on VO2max in head-to-head pooling, though the gap i
 inconsistent — so the real case for intervals is **time-efficiency**, getting a similar fitness return in
 fewer minutes, not a categorically larger one [@poon2024].
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Strength training pays on a separate axis
 
 Muscle-strengthening activity lowers mortality **independent of aerobic exercise**. Any amount associates
@@ -154,8 +152,6 @@ It is a workaround for the load-intolerant, not an upgrade over heavy lifting: t
 low-certainty and surrogate-only (no falls or function endpoints), and the cuff's interaction with the
 comorbidities that motivate it is understudied, so a cardiovascular screen comes first
 -> [[Blood Flow Restriction Training]].
-
-</div>
 
 ## How to spend a fixed exercise budget
 
@@ -241,8 +237,6 @@ function, and exercise is safe for the arthritic joint [@messier2013idea]
 [@rauschosthoff2018exercise]. If
 fear of movement is the barrier, the evidence says start.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## What this page cannot tell you
 
 The honest limits are as decision-relevant as the effects. The mortality and cardiovascular numbers are
@@ -271,7 +265,5 @@ proven true.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
-
-</div>
 
 ## References

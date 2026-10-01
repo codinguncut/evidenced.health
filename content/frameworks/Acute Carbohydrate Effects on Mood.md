@@ -16,8 +16,6 @@ created: 2026-09-26
 updated: 2026-09-26
 self_critiqued: 2026-09-26
 ---
-<div class="recent-page" data-last-updated="2026-09-26"></div>
-
 
 **The *sugar rush* is a myth.** A gold SR+MA of acute carbohydrate (CHO) challenge trials in healthy
 adults finds **no** mood-boosting effect at any time-point — and the only signals that reach significance

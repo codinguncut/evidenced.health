@@ -4,12 +4,12 @@ title: Dietary Supplements
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-25
-self_critiqued: 2026-09-25
+updated: 2026-09-29
+self_critiqued: 2026-09-29
 concrete_subject_audited: 2026-09-25
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T]
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019]
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -42,6 +42,8 @@ The field makes one central error: it runs a trial on one arm and reads the resu
 the other. A null from supplementing the already-replete says nothing about repletion of the
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
+
+<div class="recent-update" data-last-updated="2026-09-29">
 
 ## For the well-nourished, the marketed stack is a null lever
 
@@ -113,12 +115,24 @@ metformin in the Diabetes Prevention Program study)»
 is lifestyle first, then metformin; vitamin D is a cheap, low-harm add-on, not a substitute
 -> [[Lifestyle vs Metformin for Diabetes Prevention]], [[Layer 1 - Ranking Interventions for a Stratum]].
 
-One scope bound on the omega-3 null: the tested dose is the **1 g/day** low-dose consumer form in the replete. It
-does not speak to **high-dose prescription** marine omega-3 (\~4 g/day ethyl ester) in the
-hypertriglyceridaemic, which is a different exposure on a different stratum; the one high-dose benefit
-signal carries a contested comparator, and a clean-comparator outcome trial is not held here -- a named
-gap, not a settled null
-.
+One scope bound on the omega-3 null: the tested dose is the **1 g/day** low-dose consumer form in a
+replete, usual-risk cohort. In higher-CV-risk populations the signal is different. An updated
+meta-analysis of 13 CVD-outcome RCTs (Hu 2019, n=127,477) finds marine omega-3 lowers cardiovascular
+events **even after excluding the 4 g/day REDUCE-IT outlier** — total CVD RR 0.97 (0.94-0.99) and CVD
+death 0.93 (0.88-0.99) across trials dosed mostly near 850 mg/d — with a continuous slope of about
+**17% lower total CVD per additional 1000 mg/d** (CI 4-29%)
+[@hu2019omega3cvd]. So the benefit is not merely a
+contested-comparator REDUCE-IT artifact; a moderate-dose, dose-dependent CVD signal shows up in high-risk
+people.
+
+Two facts keep Hu from moving the healthy-adult verdict. The pooled benefit is a **high-risk,
+secondary-prevention average** — Hu names VITAL as the only usual-risk trial in the set, and VITAL stayed
+null on its 3-point MACE, so the benefit refines the high-CV-risk cell, not the replete general-prevention
+stratum this page holds. And Hu calls its own dose-response «highly exploratory», the slope riding on a few
+trials clustered in a narrow dose band
+[@hu2019omega3cvd]. For a replete adult at usual risk
+the low-dose null stands; the high-CV-risk benefit belongs to a different stratum.
+[inferred from @hu2019omega3cvd; @manson2019n3]
 
 But omega-3 supplementation is not merely inert as the dose rises — it carries a demonstrated harm.
 Gencer's meta-analysis of 7 marine-omega-3 CV-outcome RCTs (81,210 participants) found the supplements
@@ -179,6 +193,8 @@ the cocoa bean ... thus, we cannot disentangle the effects of its individual com
 [@sesso2022cosmos]. A cocoa-extract supplement is
 a different exposure from cocoa the food -> [[Is the Food Category Doing Any Work]].
 
+</div>
+
 ## Some antioxidant supplements shorten lives rather than lengthen them
 
 The harm arm is the sharpest decision-change here, because it runs opposite to the *nutrients are good,
@@ -209,8 +225,6 @@ wrinkle worth the net-effect discipline: «Although taking calcium supplements h
 colorectal cancer, some trials for other cancer sites have shown potential for unexpected adverse
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
-
-<div class="recent-update" data-last-updated="2026-09-25">
 
 ## Correcting a documented deficiency is a different, real lever
 
@@ -301,8 +315,6 @@ TPO-antibody-positive individuals.
 [@katagiri2017iodine] For a replete person the lesson
 generalizes past pregnancy: iodine has no benefit arm left to climb, so more is not better.
 -> [[Excess Iodine Intake and Thyroid Disease]]
-
-</div>
 
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
@@ -447,8 +459,6 @@ are a layer-3 opportunity cost the trial evidence leaves to the person
 loosely regulated: contamination, adulteration and mislabelled dose are a harm vector independent of any
 compound's own evidence.
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## What the evidence here cannot yet say
 
 These are named gaps — absence of held evidence, not evidence of absence
@@ -466,8 +476,6 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **A same-outcome dose-response** traced from a nutrient's deficient edge to its plateau is not held for
   any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
-
-</div>
 
 ## The bottom line
 
@@ -504,7 +512,7 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-<div class="recent-update" data-last-updated="2026-09-25">
+<div class="recent-update" data-last-updated="2026-09-29">
 
 ## Caveats
 
@@ -525,10 +533,10 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 31 sources — 16 gold, 14 high, 1 moderate |
+> | **Evidence included** | 32 sources — 17 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 </div>
 

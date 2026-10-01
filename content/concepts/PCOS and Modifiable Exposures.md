@@ -20,8 +20,6 @@ created: 2026-09-26
 updated: 2026-09-27
 self_critiqued: 2026-09-26
 ---
-<div class="recent-page" data-last-updated="2026-09-27"></div>
-
 
 Polycystic ovary syndrome (PCOS) is a prevalent, insulin-resistance-linked reproductive/metabolic
 condition — it affects 5-20% of women of childbearing age, insulin resistance is present in \~75% of

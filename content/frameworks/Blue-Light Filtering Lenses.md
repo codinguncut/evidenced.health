@@ -99,8 +99,6 @@ and were mostly attributed to wearing glasses generally rather than the filterin
 decision is *no-benefit / wasted money*, not *unsafe*: «there is no clear evidence from reports of
 adverse events that blue-light filtering spectacle lenses are unsafe to wear.» [@singh2023bluelight] [@singh2023bluelight]
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Objective (actigraphic) sleep — evening blue-blocking glasses (Luna-Rangel 2025)
 
 **Scope — a narrower, cleaner exposure than Singh's.** Luna-Rangel pooled only *evening-worn*
@@ -169,8 +167,6 @@ authors position them as «a pragmatic adjunct, not a stand-alone therapy». For
 adult the objective evidence shows no demonstrated benefit at the margin — the realistic substitutes
 for evening light hygiene (dimming lighting, limiting evening screens, warm *night* display modes) are
 the comparators, and behaviour-plus-BBG synergy (e.g. with CBT-I) is untested. [@lunarangel2025bbg]
-
-</div>
 
 ## The marketed premise is itself weak
 

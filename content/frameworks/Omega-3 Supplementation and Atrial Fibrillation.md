@@ -11,6 +11,7 @@ updated: 2026-09-17
 self_critiqued: 2026-09-17
 relationships:
   related_to:
+    - Marine Omega-3 Supplementation Across Outcomes
     - Fish and Seafood Consumption
     - Vitamin and Mineral Supplements for Disease Prevention
     - Baseline Risk and the Relative-Absolute Split

@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable lifestyle exposures reduce depression, for whom, by how much, and how confident can we be?
 aliases: [Depression, Exercise for Depression, Diet and Depression, Nutritional Psychiatry, Lifestyle Depression, Depression Prevention]
-authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed; Liao, Yuhua; Xie, Bo; Zhang, Huimin; He, Qian; Guo, Lan; Subramanieapillai, Mehala; Fan, Beifang; Lu, Ciyong; McIntyre, Roger S; Deane, Katherine H O; Jimoh, Oluseyi F; Biswas, Priti; O'Brien, Alex; Hanson, Sarah; Abdelhamid, Asmaa S; Fox, Chris; Hooper, Lee; Musazadeh, Vali; Keramati, Majid; Ghalichi, Faezeh; Kavyani, Zeynab; Ghoreishi, Zohre; Abu-Zaid, Ahmed; Zarezadeh, Meysam; Mekary, Rania A]
-sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Liao - Omega-3 PUFA Depression 2019, Deane - Omega-3 Prevention Depression 2019, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Musazadeh - Vitamin D Depression Umbrella 2023, Marx - Saffron Depression Anxiety 2019]
+authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed; Liao, Yuhua; Xie, Bo; Zhang, Huimin; He, Qian; Guo, Lan; Subramanieapillai, Mehala; Fan, Beifang; Lu, Ciyong; McIntyre, Roger S; Deane, Katherine H O; Jimoh, Oluseyi F; Biswas, Priti; O'Brien, Alex; Hanson, Sarah; Abdelhamid, Asmaa S; Fox, Chris; Hooper, Lee; Musazadeh, Vali; Keramati, Majid; Ghalichi, Faezeh; Kavyani, Zeynab; Ghoreishi, Zohre; Abu-Zaid, Ahmed; Zarezadeh, Meysam; Mekary, Rania A; Okereke, Olivia I]
+sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Liao - Omega-3 PUFA Depression 2019, Deane - Omega-3 Prevention Depression 2019, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Musazadeh - Vitamin D Depression Umbrella 2023, Marx - Saffron Depression Anxiety 2019, Okereke - VITAL-DEP Vitamin D Depression 2020]
 cluster: depression
 nucleus: true
 confidence: low
@@ -24,10 +24,9 @@ relationships:
     - Acute Carbohydrate Effects on Mood
     - Magnesium Supplementation and Subjective Anxiety
 created: 2026-08-09
-updated: 2026-09-26
-self_critiqued: 2026-09-26
+updated: 2026-09-28
+self_critiqued: 2026-09-28
 ---
-<div class="recent-update" data-last-updated="2026-09-26">
 
 Depression is on the wiki's outcome menu as a **patient-important QoL outcome** (the 2026-08-08
 QoL-extension) and through its **physiological intersection** with physical health — depression
@@ -94,9 +93,7 @@ but it is the direction the *volume-is-not-independence* and expectancy rules an
 supplement levers must be ranked by WARRANT, not by point estimate (the ranking below, and the DECOMPOSITION
 delta).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-26">
+<div class="recent-update" data-last-updated="2026-09-28">
 
 ## The levers, ranked by warrant
 
@@ -110,6 +107,7 @@ delta).
 | **Omega-3 / LCn3** (*prevention* in non-depressed) | RR 1.01 (0.92, 1.10) — **null** | SR+MA of RCTs >=6mo, n=41,470 | moderate (GRADE) | yes — no prevention effect |
 | **Vitamin D** (treatment of symptoms) | SMD −0.40 (−0.60, −0.21); trim-fill −0.33 | **umbrella** of 10 MAs of RCTs | low | yes (direction); arms unseparated, dose fragile |
 | **Vitamin D** (serum level → incidence/prevalence) | cohort OR 1.60 (1.08, 2.36), **fragile**; cross-sectional null 1.19 | umbrella of **observational** MAs | very low | contested (reverse causation) |
+| **Vitamin D** (*prevention*/enhancement in the replete) | HR 0.97 (0.87, 1.09) — **null**; mood MD 0.01 (−0.04, 0.05) | large blinded **RCT**, n=18,353, 5.3y (VITAL-DEP) | moderate | yes — no enhancement effect in the replete |
 | **Saffron** (treatment of symptoms) | g 0.99 (0.61, 1.37) vs placebo; **direct vs antidepressants NULL** (g −0.17, p=0.33) | SR+MA of 23 short RCTs (Jadad, no GRADE) | very low | direction only; effect fragile to pub bias + single-lab base |
 
 Exercise and omega-3 are the better-warranted levers by DESIGN, for different reasons: exercise is a large
@@ -135,7 +133,9 @@ poles:
   trials from one lab + 21/23 from one country + no GRADE) — a large headline number the source itself says
   cannot yet support a clinical recommendation.
 - **Between:** vitamin D (SMD −0.40 from an umbrella of double-counted MAs) — a treatment signal the authors
-  read as **repletion of the deficient**, enhancement in the replete untested.
+  read as **repletion of the deficient**; enhancement in the replete is now **directly tested and null**
+  (VITAL-DEP, HR 0.97), so the lever splits cleanly into a deficient/depressed arm (direction secure, low
+  certainty) and a replete-enhancement arm (null, moderate certainty).
 
 The two isolates that carry a repletion-vs-enhancement shape (omega-3, vitamin D) still do so; saffron adds
 the distinct lesson that a *large* pooled effect from a *concentrated* evidence base is weaker than a
@@ -213,8 +213,6 @@ no single modality covers all, and the mediation studies were underpowered. That
 pathway is neuro-affective, not metabolic.
 
 [@molendijk2017diet]
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## Lever 2 — Diet quality tracks lower depression incidence (observational, and fragile)
 
 A dose-response meta-analysis of **prospective cohorts only** — 29 articles / 24 cohorts / «1,959,217
@@ -336,11 +334,6 @@ design also rules out expectancy bias.
 
 
 [@liao2019omega3]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## Lever 3 — Omega-3 (EPA): treats symptoms, but does NOT prevent (the one BLINDED lever, smallest effect)
 
 A meta-analysis of **26 double-blind randomized placebo-controlled trials / 2160 participants** of omega-3
@@ -457,10 +450,7 @@ treatment stratum (Liao, small/fragile). All still on the self-reported symptom-
 [[Surrogate Outcomes|surrogate]].
 
 [@musazadeh2023vitd]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-26">
+<div class="recent-update" data-last-updated="2026-09-28">
 
 ## Lever 4 — Vitamin D: a second BLINDED supplement lever, but the arms are unseparated
 
@@ -504,9 +494,9 @@ patients with vitamin D deficiency (< 50 nmol/L serum levels of vitamin D at bas
 [@musazadeh2023vitd]. So the headline «protects against
 depression» is most plausibly **repletion in the deficient / depressed**, not **enhancement in the
 replete** — the exact arm split of [[Deficiency Repletion vs Enhancement]]. The powered
-enhancement-in-the-replete RCT (VITAL-DEP / Okereke 2020, the ancillary depression trial of VITAL) that
-would test the upper arm directly is **not held here**, so the enhancement-null for mood is not asserted
-from this source; the umbrella simply cannot see the arms apart. That trial is the named acquisition gap.
+enhancement-in-the-replete RCT that would test the upper arm directly — VITAL-DEP / Okereke 2020, the
+ancillary depression trial of VITAL — **is now held** and lands the enhancement-null the umbrella could not
+see (next subsection).
 
 **Dose subgroup is non-monotone and internally inconsistent — no dose-response.**
 [inferred from @musazadeh2023vitd] Table 3: <4000 IU/day SMD −0.09 (NS);
@@ -533,11 +523,80 @@ so the two can **never** count as independent type-E corroboration; the topics d
 today, but the flag stands. Held at **low** (RCT arm) / **very low** (observational arm) certainty:
 direction secure for the deficient/depressed, repletion-vs-enhancement unseparated, dose fragile.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-09-28">
+
+## Lever 4, the enhancement arm — VITAL-DEP is a large powered RCT-null in the REPLETE (Okereke 2020)
+
+[@okereke2020vitaldep]
+VITAL-DEP is the powered enhancement-in-the-replete RCT the umbrella above named but could not run: D3
+2000 IU/d vs matching placebo, 18,353 adults aged >=50 **without** depression at baseline, median 5.3 years,
+double-blind. Both primary outcomes are **null** — «Risk of depression or clinically relevant depressive
+symptoms was not significantly different between the vitamin D3 group ... and the placebo group ... (hazard
+ratio, 0.97 [95% CI, 0.87 to 1.09]; P = .62); there were no significant differences between groups in
+depression incidence or recurrence. No significant differences were observed between treatment groups for
+change in mood scores over time; mean change in PHQ-8 score was not significantly different from zero (mean
+difference for change in mood scores, 0.01 points [95% CI, −0.04 to 0.05 points])»
+[@okereke2020vitaldep]. Incident HR 0.99 (0.87-1.13) and
+recurrent HR 0.95 (0.76-1.19) were both null [@okereke2020vitaldep]. This is **not an underpowered null**: «The study was designed to have power of 85% or greater»
+to detect HR 0.85, and >99% power for the 0.5-point mood MCID
+[@okereke2020vitaldep] — the mood MD CI (−0.04 to 0.05) sits
+entirely inside +/-0.05 of a scale whose smallest meaningful change is 0.5, a precisely-estimated zero, not
+an absence of data.
+
+**Why this is the enhancement arm, and does NOT contradict Musazadeh.** The trial population is largely
+replete — mean baseline 25(OH)D 30.8 ng/mL, only 11.6% below 20 ng/mL — and the authors flag this as the
+scope limit themselves: «baseline 25-hydroxyvitamin D levels were generally adequate, which limits the
+generalizability for universal prevention»
+[@okereke2020vitaldep], the mean «is already at a threshold
+for extraskeletal health benefits, and so the ability to observe effects ... may have been attenuated»
+[@okereke2020vitaldep]. So VITAL-DEP tests the *upper* arm
+(enhancement in the replete) that Musazadeh's headline could not isolate, and its null **confirms
+Musazadeh's own caveat** («vitamin D did not affect emotions in healthy subjects») rather than clashing with
+it — a scope distinction, not a joined-issue tension (matched by baseline status, the two are consistent).
+The one directly-matched parameter seals it: at **2000 IU/d**, VITAL-DEP's null sits squarely inside
+Musazadeh's own **<4000 IU/d SMD −0.09 (NS)** dose band. [inferred from @okereke2020vitaldep; @musazadeh2023vitd] The headline SMD −0.40 (symptom-severity,
+mixed/unstratified population) and this HR 0.97 (incidence, replete) are **different quantities**, so the
+opposite directions do not net — the parameter table below is what forbids reading a contradiction here.
+
+**Independence bookkeeping — this is type-F, NOT type-E.** VITAL-DEP is an ancillary of the **same VITAL
+parent trial** as the held [[Deficiency Repletion vs Enhancement]] sources Manson 2019 (cancer/CVD) and
+LeBoff 2022 (fractures) — same 25,871-participant randomization, same 2000 IU/d D3, depression is just a
+different endpoint — so it shares participants with them and is **not** an independent witness: it *extends*
+the VITAL enhancement-null to a new outcome (mood/depression). Against Musazadeh the author lists are
+disjoint (Harvard/Brigham vs Tabriz), but as an umbrella-of-MAs Musazadeh may pool VITAL-DEP inside a
+constituent MA (unverifiable from the umbrella text — «okereke»/«vital» absent across its 2 chunks, but an
+umbrella need not name primary trials), so **no `[E-independent]` is claimed** between them; VITAL-DEP's
+contribution is the direct enhancement-arm test, Musazadeh's is the caveat/logic. No `[[tension]]` is filed
+(not-joined check (ii): different scope/population/metric, consistent once matched).
+
+**The observational signal is likely confounded — VITAL-DEP's own post-hoc + MR read.** Within the trial,
+the baseline-25(OH)D-to-depression association vanished, and «meta-analyses of gene variants ... in
+mendelian randomization studies showed no association. Thus, confounding likely played a major role in
+reported associations in observational studies»
+[@okereke2020vitaldep] — «we did not observe better outcomes
+with vitamin D3 supplementation in a rigorous experimental setting»
+[@okereke2020vitaldep]. This corroborates the artifact-first
+reading of Musazadeh's fragile observational arm (ESOR 1.60, significance lost on one-study removal;
+cross-sectional null) -> [[The U-Shaped Association Artifact]].
+
+### Parameter table — VITAL-DEP (Okereke 2020) vs the Musazadeh umbrella (BLOCKING, before any cross-source claim)
+
+| Parameter | VITAL-DEP (Okereke 2020) | Musazadeh umbrella 2023 | Same quantity? |
+|---|---|---|---|
+| Design | single RCT, D3 2000 IU/d vs placebo, 5.3y, n=18,353 | umbrella of MAs of RCTs (interventional: 10 MAs, 49 RCTs, 24,510) | NO — one trial vs pooled meta-of-MAs |
+| Baseline vit-D status | largely replete: mean 30.8 ng/mL, 11.6% <20 | not stratified; caveat locates benefit <50 nmol/L | NO — replete-only vs mixed/unstratified |
+| Effect metric | HR (incidence/recurrence) + MD in PHQ-8 points | SMD (symptom severity) | NO — HR-incidence / raw-MD vs pooled SMD |
+| Headline effect | NULL: HR 0.97 (0.87-1.09); mood MD 0.01 (−0.04, 0.05) | benefit: SMD −0.40 (−0.60, −0.21), trim-fill −0.33 | NO (opposite) — different population + metric, so NOT a contradiction |
+| Dose | 2000 IU/d | <4000 IU/d subgroup SMD −0.09 (NS); higher stronger | OVERLAP — 2000 sits in Musazadeh's own NS band -> CONSISTENT |
+
+The only cell where the quantities match (dose 2000 IU/d) shows **agreement**; every headline cell compares
+**different quantities**, so the apparent umbrella-benefit-vs-RCT-null is a scope distinction, not a tension.
+
 [@marx2019saffron]
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-09-26">
 
 ## Lever 5 — Saffron: the large-effect / weak-warrant supplement (very low certainty)
 
@@ -603,9 +662,7 @@ omega-3), so it adds a new outcome cell without laundering held evidence. Its ef
 (inflammation-stratified response) cites the *same* Rapaport 2016 proof-of-concept the omega-3 lever cites —
 a shared citation, not a second independent route -> [[Inflammation as a Modifiable Lever]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-26">
+<div class="recent-update" data-last-updated="2026-09-28">
 
 ## Synthesis — what this domain does and does not license
 
@@ -625,11 +682,13 @@ a shared citation, not a second independent route -> [[Inflammation as a Modifia
   not a win.** The −0.40 RCT-arm SMD comes from an umbrella of meta-analyses (double-counted
   RCTs -> overstated precision) that never separates repletion from enhancement. The authors themselves
   read the benefit as **repletion of the deficient**, and the powered enhancement RCT in the replete
-  (VITAL-DEP / Okereke) is unheld, so the honest reading is: vitamin D probably helps the *deficient /
-  depressed* and probably does little for the *replete*, but this source cannot prove the second half. The
-  observational arm (cohort OR 1.60) is fragile to one-study removal and null cross-sectionally — an
-  artifact-first signal. Both supplement levers converge on the same shape: a status-dependent curve, not a
-  blanket "supplements lift mood".
+  (VITAL-DEP / Okereke, n=18,353, 5.3y) is now **held and null** (HR 0.97; mood MD 0.01, a precisely-estimated
+  zero), so the honest reading is confirmed on both halves: vitamin D probably helps the *deficient /
+  depressed* (Musazadeh, direction secure) and does **little-to-nothing for the replete** (VITAL-DEP,
+  moderate certainty) — the second half is no longer merely inferred. The observational arm (cohort OR 1.60)
+  is fragile to one-study removal and null cross-sectionally, and VITAL-DEP's own MR/post-hoc read attributes
+  it to confounding — an artifact-first signal. Both supplement levers converge on the same shape: a
+  status-dependent curve, not a blanket "supplements lift mood".
 - **Saffron is the large-effect / weak-warrant supplement — and it makes the warrant axis explicit.**
  Its pooled g ≈ 0.99 is the biggest number on the table (nominally \~4x SSRIs), but the effect
   is fragile to strong publication bias (correction *raised* it, not lowered it), a near-single-lab base

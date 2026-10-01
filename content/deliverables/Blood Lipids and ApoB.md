@@ -203,8 +203,6 @@ absolute requirement is the point: it is why lowering Lp(a) enough to matter is 
 causal-*existence* finding still does not close the treatment question — no Lp(a)-lowering outcome
 trial is yet held. -> [[Lipoprotein(a) and Cardiovascular Risk]]
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## The statin's real costs are smaller than its reputation
 
 Two fears drive people off statins, and the trial evidence sizes both.
@@ -240,8 +238,6 @@ It works by nudging glycemia up a fraction, so it lands almost entirely on peopl
 diabetes threshold — and the cardiovascular benefit already nets it out. Neither harm changes the
 start-or-continue decision for someone with a real indication. -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]]
 
-</div>
-
 ## Eggs and dietary cholesterol: close to a non-lever
 
 The cholesterol *in food* is a weak lever on the cholesterol *in blood* for most people. A medium
@@ -266,8 +262,6 @@ There is also a second outcome beyond the artery: higher LDL-C in midlife tracks
 dementia incidence (about 8% per 1 mmol/L, midlife-specific), which adds to the reasons to lower it
 without changing the cardiovascular verdict. [@livingston2024]
 -> [[Dementia Prevention and Modifiable Risk Factors]]
-
-<div class="recent-update" data-last-updated="2026-09-25">
 
 ## What to do with this
 
@@ -299,7 +293,5 @@ baseline risk you bring to it.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
-
-</div>
 
 ## References

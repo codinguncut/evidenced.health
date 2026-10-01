@@ -143,6 +143,8 @@ definitions, «with several focused on a single profession»
 single-profession (the two Schernhammer Nurses' Health cohorts among them), precisely the evidence
 Travis's prospective MA re-runs and overturns.
 
+<div class="recent-update" data-last-updated="2026-09-29">
+
 ## Hazard vs risk — a not-joined DISTINCTION, not a two-sided tension
 
 With IARC's own basis now readable, the counter-passage check resolves the relation cleanly, and it is
@@ -163,6 +165,11 @@ not by itself address the *animal + mechanism* leg the 2A actually rests on.** T
 why this is hazard-vs-risk rather than a clean refutation.
 [inferred from @travis2016nightshift; @straif2007]
 
+This is the general appraisal frame worked on one exposure — the group label grades *evidence a hazard
+exists*, not the size of the risk -> [[Hazard Identification Is Not Risk Magnitude]], where night-shift
+work is the *probable-hazard, negligible-risk* instance (alcohol, Group 1, is the firm-label-large-risk
+case).
+
 **Where the two DO join issue — the human-evidence question — the difference is a legitimate class, not
 a process defect.** IARC 2007's *limited* human leg and Travis 2016's prospective null are **different
 evidence bases nine years apart**: Travis's five newest prospective studies (0.8M women) postdate the
@@ -171,6 +178,8 @@ meta-analyses IARC relied on. This is the *different-evidence-base* + *lag* guid
 procedure faithfully on the evidence it had; the human evidence simply improved after it reported. On
 that human leg specifically, the current prospective evidence favours Travis.
 [inferred from @travis2016nightshift; @straif2007]
+
+</div>
 
 ## Bearing on the circadian-oncogenesis mechanism
 

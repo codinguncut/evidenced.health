@@ -28,8 +28,6 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
 
-<div class="recent-update" data-last-updated="2026-09-27">
-
 ## Supplements — worth taking or not
 
 - [[Vitamin and Mineral Supplements for Disease Prevention]] — for a generally-nourished adult, whether
@@ -71,5 +69,3 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   preeclampsia / IUGR / fetal / neonatal death are all null; insufficient-evidence, not no-effect;
   repletion hook (10-fold ePTB risk at low plasma n-3); avoid >2.7 g/day (bleeding / post-term); the
   Middleton 2018 Cochrane comparator is not yet held
-
-</div>

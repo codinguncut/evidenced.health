@@ -142,8 +142,6 @@ a tolerated drug on reported symptoms alone; use a blinded rechallenge or a plac
 separate real pharmacological harm from the nocebo component** -> [[Antidepressants for Depression]],
 [[The Observational-Trial Discordance]].
 
-<div class="recent-update" data-last-updated="2026-09-25">
-
 ## Decision relevance — the deprescribing rule
 
 - **A symptom in someone who has tolerated a statin for a year or more is very unlikely the statin.** The
@@ -183,8 +181,6 @@ separate real pharmacological harm from the nocebo component** -> [[Antidepressa
   (still-outweighed) metabolic cost to weigh -> [[Statins and New-Onset Diabetes]]. (Both endpoints come
   from the same CTT body, so their appraisal is one lab's work, not independent confirmation.)
   [inferred from @reith2024diabetes]
-
-</div>
 
 ## Limits
 

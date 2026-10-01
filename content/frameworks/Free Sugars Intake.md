@@ -678,8 +678,6 @@ about the shape and direction of the relationship at these levels of intake is h
 page's existing reading that the `<5%` region is carried by the weakest evidence — now from a fourth
 body's own systematic review. [inferred from @efsasugars2022]
 
-<div class="recent-update" data-last-updated="2026-09-26">
-
 ## Decision relevance
 
 - **The 10% limit is a dental recommendation.** If someone's decision is about adiposity or
@@ -706,7 +704,7 @@ body's own systematic review. [inferred from @efsasugars2022]
   time-point (and mildly *worse* alertness/fatigue within the hour) -> [[Acute Carbohydrate Effects on Mood]].
   So the free-sugars costs above are not offset by an acute upside for this use-case.
 
-</div>
+
 
 ## Limits
 

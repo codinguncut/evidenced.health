@@ -3,311 +3,653 @@ type: deliverable
 title: Added Sugar
 aliases: [Added Sugar and Sugar-Sweetened Beverages, Sugar, Sugar & SSBs, Free Sugars, Sugar-Sweetened Beverages, SSBs, Sugary Drinks, Fructose]
 question: 'For an adult deciding how much added/free sugar and how many sugar-sweetened beverages to consume: what is the effect on each patient-important outcome (dental caries, body weight, type-2 diabetes, cardiovascular disease, liver fat), what is the dose-response shape for each, does any effect persist when sugar is exchanged calorie-for-calorie with other carbohydrate, and are sugar-sweetened beverages a distinct exposure from sugar in solid food?'
-sources: [WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, Moynihan - Effect of Sugars on Dental Caries 2014, Te Morenga - Dietary Sugars and Body Weight 2013, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, EFSA - Dietary Sugars Upper Intake Level 2022, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, WHO - Non-Sugar Sweeteners 2023, NNR - Nordic Nutrition Recommendations 2023]
-confidence: medium
+sources: [WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Moynihan - Effect of Sugars on Dental Caries 2014, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Te Morenga - Dietary Sugars and Body Weight 2013, Willett - Nutritional Epidemiology 3e, Hall - Obesity Energetics Diet Composition 2017, Ayoub-Charette - Fructose Sources Uric Acid 2021, EFSA - Dietary Sugars Upper Intake Level 2022, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, WHO - Non-Sugar Sweeteners 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Qu - Uric Acid Lowering Blood Pressure 2017, AASLD - MASLD Practice Guidance 2023, NNR - Nordic Nutrition Recommendations 2023]
+confidence: moderate
 created: 2026-08-10
-updated: 2026-08-27
-self_critiqued: 2026-08-12
-concrete_subject_audited: 2026-08-27
+updated: 2026-09-29
+self_critiqued: 2026-09-29
+concrete_subject_audited: 2026-09-29
 ---
+<div class="recent-page" data-last-updated="2026-09-29"></div>
 
-The famous limit on sugar was written to protect your teeth. When the World Health Organization tells
-adults to keep free sugars below one-tenth of daily calories, the outcome carrying that number is dental
-caries -- not body weight, and not heart or metabolic disease. That single fact reorganises most of
-what follows.
 
-**The health case against sugar splits cleanly by outcome, and the outcomes do not share a mechanism.**
-Caries is caused by sugar itself, feeding acid-producing bacteria at the tooth surface. Weight, diabetes
-and heart risk move because sugary food and drink add calories that are easy to over-consume -- swap
-sugar for the same calories of other carbohydrate and the weight effect disappears. Liver fat follows
-the calories too, not the fructose molecule on its own.
+## Cut the sugary drink, not the sugar molecule
 
-**The vehicle matters more than the gram count.** A sugar-sweetened drink delivers its calories in a
-form the appetite barely registers, so the strongest and most consistent signals in the whole field
-attach to sugary beverages, not to sugar stirred into solid food.
+This is a general, population-level appraisal for a healthy adult — a read of what added
+sugar does to most people. Where your own risk profile, diet, and goals change the answer,
+that belongs at the end, not the front. Added sugar carries a real health cost, but that
+cost is mostly an **energy cost**, and it concentrates in poorly-compensated liquid
+calories — the sugar-sweetened beverage (SSB) — rather than in the sugar molecule at equal
+calories [[Free Sugars Intake]].
 
-**Four expert bodies looked at overlapping evidence and all said the same direction -- less is better --
-while disagreeing on the number and the reason.** Their disagreement is the honest state of the evidence,
-not a failure of any one body.
+One question organizes every outcome below: **does the harm survive when you swap sugar for
+other calories, gram-for-gram?** Hold calories constant and the weight harm
+disappears. Trials that exchange free sugars for other carbohydrate find body weight barely
+moves — 0.04 kg (95% CI -0.04 to 0.13) [[Free Sugars Intake]]. The weight gain and the
+observational cardiometabolic harm track the calories, not the molecule [[The Comparator Problem]].
 
-## Guidelines regulate free sugars, not all sugar
+Two harms are the exception: they are sugar- or fructose-specific **and** survive the
+calorie-for-calorie test. Dental caries is the classic one — moderate certainty, though no
+trial exists. Serum urate from SSBs is the second, at high certainty. Both are real, but
+serum urate is a **surrogate**, and its chain onward to blood pressure and hard events is
+not closed [[Uric Acid Lowering and Blood Pressure]].
 
-The regulated exposure is *free sugars*: «monosaccharides and disaccharides added to foods and beverages
-by the manufacturer, cook or consumer, and sugars naturally present in honey, syrups, fruit juices and
-fruit juice concentrates»
-[@who2015].
-Two boundaries do real decision work. Sugars locked inside the structure of intact fruit and vegetables
-are *excluded*, and so are milk sugars (lactose, galactose), on the stated ground that neither shows
-reported evidence of adverse effects
-[@who2015].
-Critically, **fruit juice is in and whole fruit is out** -- a food-level distinction that a blanket
-*eat less sugar* instruction erases.
+So the action is narrow: **cut SSBs specifically** — the dominant carrier of free sugars,
+harmful both as poorly-compensated liquid energy and through the isocaloric urate channel.
+Keep whole fruit, which runs null-to-favourable on urate and vascular endpoints and sits
+outside the limit. Treat 100% fruit juice case by case: adverse on metabolic and dental
+outcomes, favourable on urate and vascular ones.
 
-Four sugar constructs get conflated in everyday talk, and they carry different numbers: *total* sugars
-(everything, intrinsic and added alike), *added* sugars (a US-label construct), *free* sugars (the WHO
-target), and *intrinsic* sugars (locked inside whole fruit, vegetables and dairy, deliberately excluded).
-A number is only interpretable once you know which of the four it counts.
+No guidance body has found a safe threshold. WHO's 10%-of-energy limit is a **dental**
+recommendation, not a metabolic one. The four guidance families — WHO, SACN, NNR, EFSA —
+agree on the direction (less is better) and diverge only on where a number attaches and on
+what warrant supports it [[Free Sugars Intake]].
 
-The label is not even stable across bodies. SACN adopted the older 2002 wording, which omits fruit juice
-*concentrates* -- the sweetener of choice in products marketed as *no added sugar* -- so SACN's numerator
-is genuinely narrower than WHO's and NNR's
-[@sacn2015].
-One phrase, two exposures. Anyone reading across guidelines has to ask which construct a given number is
-counting -> [[Free Sugars Intake]], [[Is the Food Category Doing Any Work]].
+Sugar behaves differently outcome by outcome, and three questions stay open
+exactly where the topic is discussed most: sugar-specific isocaloric liver fat rests on one
+study, sugar's effect on hard cardiovascular events has no gold-standard evidence, and
+whether the type-2-diabetes signal persists net of weight is thin.
 
-## The 10% limit protects teeth, not waistlines
+Before any per-outcome number, fix which sugar is the exposure — the word names several
+different objects.
 
-WHO's recommendations, in its own words: «In both adults and children, WHO recommends reducing the
-intake of free sugars to less than 10% of total energy intake (strong recommendation)»
-[@who2015], with a further conditional suggestion to go below 5%.
-The threshold itself is pinned to dental caries. WHO grades the *outcomes* rather than the headline
-recommendation, and the number is located by the caries evidence, not the weight evidence.
+## Fix which sugar you mean before counting it
 
-This is the reframing that changes a decision: if your concern is your waistline or your metabolic risk,
-the 10% figure is answering a different question than the one you are asking. The caries evidence does
-not transfer to those outcomes, and -- as the next section shows -- the weight evidence points at
-calories rather than at sugar as such -> [[Free Sugars Intake]].
+A nutrition label reports *total sugars*; a guideline limit is written against *free sugars*; a
+smoothie and a carton of juice made from the same orange are not the same exposure. These are
+different objects, and the number you should act on is the narrowest of them. WHO 2015 sorts all
+dietary sugar into three buckets: **intrinsic sugars** locked inside the cell walls of intact fruit
+and vegetables, **milk sugars** (lactose and galactose), and **free sugars** — everything added by a
+manufacturer, cook or consumer, plus the sugars in honey, syrups, fruit juices and fruit juice
+concentrates [@who2015]. Only the third bucket is the decision
+exposure. WHO excludes the other two on the stated ground that no adverse effect of either has been
+reported, and the four guidance families that set a limit all write it against free sugars, not total
+sugars.
 
-## Cutting sugar loses weight only by cutting calories
+### Free sugars, not total or added, is the exposure
 
-WHO's own trial evidence on body weight:
+**Free sugars** is the target because it isolates the sugar a diet can shed without giving up fruit,
+vegetables or milk. **Added sugars** — sugar added during processing or preparation — is a slightly
+narrower construct: it counts what a manufacturer or cook stirs in but not the intrinsic sugar a juicer
+frees from fruit. So a glass of 100% orange juice carries free sugars while carrying no *added* sugar
+at all. **Total sugars** is the widest and the least useful, because it folds the milk and whole-fruit
+sugar WHO deliberately left out back into the count [@who2015].
+The load-bearing boundary sits inside the fruit: **fruit juice is in, whole fruit is out**. A limit
+written as *reduce sugar* loses that line entirely -> [[Free Sugars Intake]].
 
-| Contrast | Effect (95% CI) | Design | Certainty |
-|---|---|---|---|
-| Reduced free sugars, adults, ad libitum | **0.80 kg lower** (0.39 to 1.21) | 5 RCTs | Moderate |
-| Increased free sugars, adults | **0.75 kg higher** (0.30 to 1.19) | 10 RCTs | Moderate |
-| **Isoenergetic swap: free sugars for other carbohydrate** | **0.04 kg (-0.04 to 0.13) -- null** | 11 trials | no GRADE profile |
-| Reduced sugars, children | SMD 0.09 (-0.14 to 0.32) -- null | 5 RCTs | Moderate |
-| Highest vs lowest SSB, children | OR 1.55 (1.32 to 1.82) | 5 cohorts | Low |
+### But *free sugars* itself names two different constructs
 
-[@who2015]
+The four guidance families (WHO, SACN, NNR, EFSA) all point the same direction — less free sugar is
+better — and they diverge only on where a number attaches and on what warrant justifies it. At the
+level of the *definition*, though, the divergence starts one step earlier: the phrase **free sugars**
+does not name one quantity across them. WHO's 2015 wording includes **fruit juice concentrates**; NNR
+adopts that same 2015 wording; but SACN adopts WHO's older **2002** definition, which stops at *fruit
+juices* and omits concentrates [@sacn2015]. Fruit juice
+concentrate is the sweetener of choice in products marketed as *no added sugar*, so this is not a
+boundary case — it is a whole category that moves between counted and uncounted depending on whose
+definition is in force.
 
-The third row is load-bearing and it is the one dropped whenever the 10% figure travels alone. Exchange
-free sugars for other carbohydrate at equal calories and body weight barely moves: 0.04 kg, interval
--0.04 to 0.13. WHO draws the conclusion itself -- «The excess body weight associated with free sugars
-intake results from excess energy intake»
-[@who2015].
-So the weight effect of sugar, on the guideline's own evidence, is an *energy* effect, not a
-sugar-specific one. *Cut sugar* and *cut sugar and replace the calories with other carbohydrate* are
-different interventions with different answers
--> [[Energy Adjustment and What a Diet Coefficient Means]].
+The consequence bites when the numbers appear to agree. WHO's conditional `<5%` and SACN's primary
+`<=5%` are numerically identical, but they are computed on **different numerators** — SACN's excludes
+juice concentrates. So the match is not two bodies corroborating one figure; it is two bodies
+measuring two things and landing on the same digit [@sacn2015]. One term naming at least two objects, with the difference flagged by none of the bodies that
+use it, is a textbook disambiguation problem: state which definition is in force whenever concentrates
+are load-bearing -> [[Is the Food Category Doing Any Work]].
 
-And the split is not weight-only. EFSA, from its own systematic review of the cohort evidence, found that
-«prospective cohort studies do not support a positive relationship between the intake of dietary sugars,
-in isocaloric exchange with other macronutrients, and any of the chronic metabolic diseases ... assessed»
-[@efsasugars2022] -- a second body extending the
-energy-not-molecule reading past body weight to type-2 diabetes and cardiovascular disease.
+### Juice, smoothie, and whole fruit are three exposures, not one fruit
 
-Two cautions keep this honest. The isocaloric null bears on **body weight only** -- caries is
-sugar-specific by mechanism, and swapping calories says nothing about it. And the primary review behind
-these rows (Te Morenga) calls energy imbalance «a major determinant» while flagging that other
-mechanisms independent of energy balance -- fructose/uric-acid and ectopic-fat pathways -- were «beyond
-the scope of this review»
-[@te2013].
-The null licenses a claim about *scale*, not a clean bill of health for sugar at large.
+The fibre matrix separates them, and it drives WHO's own decision to split fruit down the
+middle. **Juicing removes the insoluble-fibre matrix**, leaving a poorly-compensated liquid dose of
+free fructose — which is exactly why 100% juice sits *inside* free sugars and whole fruit sits outside
+it [@who2015].
 
-The primary review also thins the headline numbers. Trials lasting beyond eight weeks show a much larger
-effect (2.73 kg, 1.68 to 3.78) than shorter ones (0.52 kg, 0.14 to 0.89), yet few data run past ten
-weeks, so the headline figures are short-term
-[@te2013].
-The child RCT null is an *adherence* null, not an efficacy null: the child trials had low compliance and
-never achieved a sugar contrast, and the child cohort signal (OR 1.55) is almost entirely a *beverage*
-signal -- 14 of 15
-studies measured sugary drinks, and outside that pool there was no association between sugar and
-adiposity
-[@te2013].
-None of this speaks to sugar reduction as an obesity *treatment*: weight-loss trials were excluded by
-design from both the review and the guideline
-[@who2015].
+**Blending is not juicing.** A blended whole fruit
+disrupts the cell walls but removes nothing, so a smoothie **retains all its fibre** and does not
+inherit juice's fibre-stripped profile — the common worry that a smoothie is *just as bad as juice*
+conflates the two under the loose heading of *processing*.
 
-## Dental caries carries the number, on evidence with no trial behind it
+The one residual question is
+whether cell-wall disruption raises the glycaemic response modestly against intact fruit; that
+magnitude is not held (a blended-fruit glycaemic-response review is queued), but it is bounded well
+below the juice case because the fibre is still there -> [[Dietary Fibre and Health]].
 
-Caries is a genuine patient-important outcome, not a surrogate, and it is what the threshold protects.
-Consistency earns the moderate certainty rating: «42 out of 50» child studies and «5 out of 5»
-adult studies reported at least one positive sugar-caries association
-[@moynihan2014].
-And caries is the one outcome with a clean curve feature: WHO observed «a positive log-linear dose-
-response relationship between free sugars intake and dental caries ... at free sugars intakes well below
-10 kg/person/year (i.e. <5% of total energy intake)»
-[@who2015] -- risk keeps rising down into the sub-5% region, so
-sugar never stops damaging teeth at any level, and only the absolute stakes diminish.
+Whole fruit therefore stays outside the limit on every axis. 100% juice is the genuinely
+case-by-case exposure: net-adverse on the metabolic and dental channel where its free-sugar load
+dominates, but not uniformly harmful across outcomes — its urate and vascular signals run the other
+way, taken up per outcome below. The practical upshot of the whole split: a *get your five a day from
+juice* instruction and a *cut free sugars* instruction pull in opposite directions on the same carton,
+and only naming the form resolves it -> [[Free Sugars Intake]].
 
-But the evidence base is unusual. **No RCTs met the inclusion criteria for children; no RCTs or
-longitudinal cohorts for adults**
-[@who2015].
-Certainty reached moderate only by an *upgrade for large effect size* off the observational floor
--> [[Upgrading Observational Evidence]]. The underlying review does contain a magnitude -- a
-cross-design pooled SMD for decayed/missing/filled teeth of 0.82 (0.67 to 0.97)
-[@moynihan2014] --
-but the guideline reports no pooled caries estimate at all.
+### GI and GL: the sugar, or the carbohydrate pattern it stands in for?
 
-The stricter sub-5% suggestion rests on thinner ground still: three ecological (population-level)
-studies rated *very low*, plus a non-evidential argument that caries damage is cumulative and tracks
-from childhood
-[@who2015].
-The commissioned review adds bounds the headline loses: the sub-5% data come from *non-fluoridated*
-populations, hitting the target does not eliminate caries (some decay persisted even below 10% intake),
-and caries was mostly measured late (at cavitation), which understates harm at low intakes because
-pre-cavitation damage occurs below the *safe* level
-[@moynihan2014].
-Adults are near-unstudied; the adult conclusion is carried from child cohorts on a biological warrant,
-not fresh data
-[@moynihan2014] -> [[Free Sugars Intake]].
+One more construct is often folded into the sugar question and should be kept separate. **Glycaemic
+index** measures how much 50 g of carbohydrate in a food raises postprandial blood glucose against a
+glucose standard; **glycaemic load** is that index times the carbohydrate amount. Jenkins' 2024 pooled
+analysis of ten mega-cohorts finds real, consistent associations — high GI tracks a 27% higher risk of
+type 2 diabetes (RR 1.27, 1.21-1.34) and a 15% higher risk of total CVD (1.15, 1.11-1.19), with
+smaller signals for mortality and cancer — but these are extreme-quantile relative risks, mostly graded
+GRADE-low, over a **narrow measured contrast** (mean GI 58 in the lowest quantile versus 67 in the
+highest) [@jenkins2024gi].
 
-## Sugary drinks add risk because the calories arrive un-noticed
+The open question is whether GI is a lever of its own or a proxy. GI, GL, fibre and whole-grain content
+ride together in whole-food diets, and the mutual adjustment that would separate them is almost absent:
+only 12 of 69 GI assessments (17%) controlled for fibre, and no fibre assessment controlled for GI
+[@jenkins2024gi]. On this evidence, steering
+by fibre and whole-grain content captures most of what steering by GI would, so GI/GL is not a separate
+exposure to fix here — it is the same *is the category doing any work?* question applied to a construct
+rather than a food -> [[Is the Food Category Doing Any Work]], [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
 
-The beverage vehicle -- the dominant free-sugars carrier -- has an adult cardiometabolic dose-response
-from a 39-cohort meta-analysis. Per **250 mL/day** increase in sugar-sweetened beverage intake:
+With the exposure fixed — free sugars, carried above all by beverages, with juice a case apart and
+whole fruit outside the line — take each patient-important outcome in turn, starting where the evidence
+is strongest.
+
+## Start where the evidence is strongest: three harms the data actually size
+
+Three outcomes carry a real, sized signal against free sugars: **dental caries**, the
+**sugar-sweetened beverage** gradient to cardiometabolic disease, and **body weight**. Each is
+measured *as sugar is consumed* -- sugar eaten on top of the diet, adding its own calories -- and
+each curve the evidence draws is **monotone over the studied range, with no knee or plateau
+located**. There is no intake below which the harm switches off inside the range anyone has studied
+[[The U-Shaped Association Artifact]]. Take them in order of how well the evidence pins them down.
+
+### Dental caries: the one harm specific to the sugar molecule
+
+Caries is the harm the free-sugars limit is actually built to prevent, and it is
+**sugar-molecule-specific**: oral bacteria ferment free sugars to acid regardless of the calories
+involved, so this harm does not run through energy the way the others do.
+
+WHO rates the evidence
+**moderate certainty**, and does so from an unusual base -- **no randomised trial exists**, in
+children or adults, and no adult cohort study either [@who2015]. The rating climbed to moderate only by an **upgrade for
+large effect** from the observational floor of low [[Upgrading Observational Evidence]], warranted
+by how consistent the studies are: 42 of 50 child studies and 5 of 5 adult studies reported a
+positive association [@who2015].
+
+A pooled magnitude does exist but never reached the guideline: the commissioned review
+pooled caries severity at **SMD 0.82 (95% CI 0.67 to 0.97)** across designs [@moynihan2014].
+
+This is what the **10% limit protects** -- not body weight, not cardiometabolic disease
+[[Free Sugars Intake]]. And the threshold below it is soft in a specific, decision-relevant way.
+The `<5%` recommendation rests on **three ecological studies** (correlations r = 0.6 to 0.8), rated
+**very low** by WHO itself [@who2015]. No study measured a *knee* in the caries curve. The `<5%` number marks the
+**edge of the observed data**, not a point where the dose-response bends -- the first thing to
+suspect of any guideline threshold, and true here. Read `<10%` and `<5%` as where the evidence
+thins, not as a curve feature.
+
+### Sugar-sweetened beverages: a monotone cardiometabolic gradient
+
+The beverage is the dominant free-sugars carrier, and a **39-cohort dose-response meta-analysis**
+(Qin) sizes what it does to cardiometabolic outcomes per **250 mL/day** of extra intake:
 
 | Outcome | RR per 250 mL/day (95% CI) | Shape |
 |---|---|---|
-| Type-2 diabetes | **1.19 (1.13 to 1.25)** | linear (P non-lin 0.706) |
-| Obesity | 1.12 (1.05 to 1.19) | linear (P non-lin 0.359) |
-| Hypertension | 1.10 (1.06 to 1.14) | linear (P non-lin 0.510) |
-| All-cause mortality | 1.04 (1.01 to 1.07) | linear (P non-lin 0.259) |
+| Type 2 diabetes | **1.19 (1.13 to 1.25)** | monotone-linear (P non-lin 0.71) |
+| Obesity | 1.12 (1.05 to 1.19) | monotone-linear |
+| Hypertension | 1.10 (1.06 to 1.14) | monotone-linear |
+| All-cause mortality | 1.04 (1.01 to 1.07) | monotone-linear |
 
 [@qin2020]
 
-Every curve is monotone-linear over the studied range -- no threshold below which risk stops rising, no
-plateau above which more stops mattering
-[@qin2020]
--> [[The U-Shaped Association Artifact]]. Two readings are load-bearing. This is the *additive* arm: Qin
-measures drinks as actually consumed, adding liquid calories on top of the diet, which is fully
-consistent with the isocaloric null above -- sugary drinks harm because they add poorly-compensated
-liquid calories, the same energy story extended past body weight to diabetes and hypertension
-[inferred from @qin2020].
-And this is association, not effect: the authors caution the analyses are cohort-only, with residual
-confounding that «cannot be ruled out» -> [[The Observational-Trial Discordance]]. *Artificially*-sweetened
-drinks carry a similar-sized positive association (T2D 1.15, obesity 1.21, mortality 1.06) -- a
-reverse-causation flag, consistent with diet soda being chosen by the already-at-risk
-[@qin2020]
--> [[Non-Sugar Sweeteners]].
+**Every curve rises linearly across the whole studied range -- no threshold, no plateau, every
+extra serving adds risk.** The type-2-diabetes estimate is the firmest (tightest interval, 19
+cohorts). Placed against eleven other food groups in the DIfE/Boeing series, sugar-sweetened
+beverages sit among the strongest cardiometabolic-harm levers. Yet their all-cause-mortality cell
+is null (RR 1.03, 0.91 to 1.18, low): the harm is cardiometabolic, not a demonstrated
+mortality effect [@schwingshackl2017mort] -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-EFSA reaches the same additive-vs-isocaloric split independently: sugary drinks assessed *without*
-holding calories constant grade «high for obesity, T2DM, HTN and CVD (> 75-100% probability)», far above
-the isocaloric per-cent-energy grades
-[@efsasugars2022].
-Two bodies, one conclusion: the drink is the problem exposure.
+**These are cohort estimates, so read them as association, not effect.** Qin's authors say as much:
+the analysis rests on observational cohorts, not trials, and residual confounding cannot be ruled
+out -- the observational limb of [[The Observational-Trial Discordance]], not a causal magnitude
+[@qin2020].
 
-## Fructose harms the liver as a dose-and-form story, not as a molecule
+### Body weight: sugar as consumed adds roughly a kilogram either way
 
-Fructose has a real hepatic mechanism -- a large free-fructose load drives de novo lipogenesis in the
-liver -- so *fructose is uniquely hepatotoxic* sounds plausible. A meta-analysis of controlled-feeding
-trials defuses it without clearing fructose. When fructose is added *on top* of the diet (hypercaloric),
-pooled liver fat rose 54% (95% CI 29% to 79%, I2 = 0%) -- but baseline liver fat was «much less than
-5.5%» and the comparison is confounded by the accompanying weight gain
-[@chung2014].
-When fructose replaces glucose *at equal calories* (isocaloric), the effect vanishes: «The 2 isocaloric
-fructose and glucose diets did not differ in any hepatic outcome measure»
-[@chung2014].
+Where free sugars are eaten *ad libitum* -- added to the diet, not swapped in -- they move body
+weight symmetrically, on WHO's own trial evidence:
 
-Observational fructose-NAFLD associations rest on high-risk-of-bias case-control studies and are graded
-insufficient
-[@chung2014].
-That isocaloric null is short-term, dosed above habitual intakes, in people whose baseline liver fat sat
-far below the disease threshold -- so it bounds *molecule versus energy*, not the safety of a chronic
-high-free-fructose regime, which remains *insufficient evidence*, not a demonstrated *no effect*
-[inferred from @chung2014].
-
-The decision-relevant reading: the liver-fat lever is *energy and form*, not the fructose molecule. A
-free-fructose bolus from beverages, juice or HFCS drives hepatic fat; the modest fructose in whole fruit,
-packaged in a fibre matrix that slows absorption, does not -- which is exactly why the free-sugars limit
-excludes whole fruit and includes fruit juice
-[inferred from @chung2014]
--> [[Fatty Liver MASLD and Weight Loss]],
-[[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
-
-## Four expert bodies point the same way and pick different numbers
-
-| Body | Lower tier | Upper tier | Primary warrant |
+| Contrast (adults, ad libitum) | Effect (95% CI) | Design | Certainty |
 |---|---|---|---|
-| **WHO 2015** | <5% (conditional) | <10% (strong) | dental caries |
-| **SACN 2015** | <=5% (primary) | absent -- one tier only | caries + total energy |
-| **NNR 2023** | absent -- «preferentially lower» | <10 E% (only tier) | nutrient density / adequacy |
-| **EFSA 2022** | none -- «as low as possible» | none | risk assessment found no threshold |
+| Reduced free sugars | **0.80 kg lower** (0.39 to 1.21) | 5 RCTs | Moderate |
+| Increased free sugars | **0.75 kg higher** (0.30 to 1.19) | 10 RCTs | Moderate |
 
 [@who2015]
-[@sacn2015]
-[@nnr2023]
-[@efsasugars2022]
 
-Read direction and number separately -- they behave differently. All four bodies point one way (less is
-better), so they do not disagree about *direction*. The bodies diverge on where a number attaches and
-on what warrant, and that divergence is itself the finding: where guidance families place thresholds
-differently on the same evidence, the evidence does not determine the number
--> [[Which Objective Moved This Recommendation]].
+About a kilogram in each direction, at moderate certainty. WHO reads this as an **energy effect,
+not a sugar-specific one**: «The excess body weight associated with free sugars intake results from
+excess energy intake.» [@who2015] Sugar consumed as-is moves
+weight because it adds poorly-compensated calories -- which is exactly why the number changes when
+you hold the calories fixed, the test the next section runs.
 
-Three details are worth carrying. First, **agreement is not corroboration here.** WHO and SACN both land
-on 5%, but SACN reached it by *excluding* the ecological studies WHO relied on -- it evaluated GRADE and
-rejected it, keeping only cohorts and RCTs
+### Why these curves look flat, and why the thresholds are soft
+
+One reason no knee shows up in any of these curves is that **the exposure is self-reported and
+badly measured**, which flattens real gradients toward the null. Te Morenga could not fit a
+dose-response to the weight data at all (null metaregression, 0.02 kg, -0.03 to 0.08; P = 0.392)
+and blamed the instrument directly: intake assessment «was associated with a considerable degree of
+measurement error even when using validated methods ... probably one explanation why a
+dose-response effect could not be shown» [@te2013]. Against doubly-labelled water, adults under-report energy intake by about **34%**
 [@sacn2015].
-Two incompatible evidence standards pointing at one number is weaker than independent backing and
-stronger than a lone very-low-quality result.
 
-Second, **NNR's warrant is the genuinely new
-one** -- its 10% threshold is a *displacement* argument (sugar crowds out micronutrients and fibre),
-which is why NNR stratifies it toward children and low-energy-intake people, where a fixed proportion of
-sugar displaces more of a smaller nutrient budget
-[@nnr2023].
+The direction of that error is asymmetric and matters: measurement noise can **hide** a knee by
+pulling extreme intakes toward the mean, but it cannot **manufacture** one
+[[Measurement Error in Dietary Assessment]]. So a measured-flat curve is weak evidence of a truly
+flat one, and the burden sits on anyone claiming a knee to locate it. The same error makes the
+**thresholds inherit it**: food-frequency questionnaires are adequate for *ranking* people, not for
+the *absolute magnitude* a cutpoint needs [@willett], so *is my intake under 10%?* is a question the dominant instrument was never the right tool to answer,
+even where the threshold itself is sound.
 
-Third, **EFSA was asked for a number and could not find one.** Its task was a safe upper level -- a
-threshold below which sugar poses no risk -- and: «A level of sugars intake at which the risk of dental
-caries/chronic metabolic diseases is not increased could not be identified over the range of observed
-intakes, and thus, a UL or a safe level of intake could not be set ... the intake of added and free
-sugars should be as low as possible»
-[@efsasugars2022].
+Every one of these three harms is measured as sugar is consumed -- eaten on top of the diet, with
+its calories attached. Hold the calories constant, swapping sugar for other carbohydrate
+gram-for-gram, and the picture changes sharply. That isocaloric test is the interpretive core of
+the whole question.
 
-EFSA also grades the metabolic outcomes, on RCTs of *surrogate* endpoints (body weight, liver fat,
-fasting glucose, triglycerides, blood pressure): «moderate for obesity and dyslipidaemia (> 50-75%
-probability), low for non-alcoholic fatty liver disease and type 2 diabetes (> 15-50% probability) and
-very low for hypertension (0-15% probability)»
-[@efsasugars2022]
--> [[Surrogate Outcomes]]. And it sharpens where the weakest evidence sits: the relationship «could not
-be adequately explored at levels of intake < 10 E%» -- exactly the region where WHO's conditional 5% and
-SACN's primary 5% both live
-[@efsasugars2022].
-The stricter the target, the thinner the evidence under it.
+## Hold the calories equal, and watch what survives the swap
 
-## Swapping sugar for sweeteners is not the win it looks like
+Every harm number in the previous section was measured against an unstated comparator: sugar *as
+consumed*, adding calories on top of the diet. Change that comparator and the answer changes with it —
+the core move of [[The Comparator Problem]] (*harmful instead of what?*). A feeding trial can fix that
+comparator exactly: swap free sugars for the same number of calories from other carbohydrate, hold
+total energy constant, and ask whether the harm is a property of the **sugar molecule** or of the
+**energy it carries**. This is the isocaloric (calorie-for-calorie) test, and it is the interpretive
+core of the whole answer. What the test does to each outcome differs — and that difference, not any
+single verdict, is the finding.
 
-The obvious next move -- use non-sugar sweeteners to hit the limit -- gets a qualified no. «WHO suggests
-that non-sugar sweeteners not be used as a means of achieving weight control or reducing the risk of
-noncommunicable diseases (conditional recommendation)»
-[@who2023nonsugar].
-The recommendation is a *suggestion against on low-certainty evidence*, not a demonstration of harm,
-and it excludes people with existing diabetes
-[@who2023nonsugar].
-The reasoning that matters for the sugar decision: the comparator sets the effect. Sweeteners lower
-weight only when they *displace* sugar, and the benefit shrinks toward null the closer the trial gets to
-the real question. WHO prefers water, unsweetened foods and whole fruit over the sweetener route, because
-a sugar-to-sweetener swap leaves the overall diet «largely unaffected»
-[@who2023nonsugar] -> [[Non-Sugar Sweeteners]].
+### Body weight and the "metabolic advantage" do not survive
 
-## Measurement error flattens every dose-response you would want
+**At equal energy, the sugar molecule does nothing to body weight.** WHO's own evidence puts the
+isoenergetic exchange of free sugars for other carbohydrate at **0.04 kg (-0.04 to 0.13), 11 trials** —
+a null, and the row that gets dropped whenever the 10% figure is quoted alone
+[@who2015]. WHO reads its own table the same
+way: the excess weight tied to free sugars is excess *energy* -> [[Free Sugars Intake]]. So *reduce
+sugars* and *reduce sugars and replace the calories with other carbohydrate* are two different
+interventions with two different answers — the substitution logic of
+[[Energy Adjustment and What a Diet Coefficient Means]].
 
-A recurring frustration underlies the missing numbers: self-reported sugar intake carries error large
-enough to flatten real dose-response gradients. Te Morenga's failed dose-response analysis is attributed
-directly to it, and the guideline's 10% figure could not be located by formal dose-response modelling of
-the weight data
-[@te2013]
--> [[Measurement Error in Dietary Assessment]]. The practical consequence: a flat or absent dose-response
-is weak evidence of *no* gradient, and a threshold read off such data (the 10%, the 5%) is better treated
-as the edge of the evidence than as a feature of the underlying curve.
+The stronger claim — that carbohydrate does special metabolic harm at equal calories, so cutting it
+confers a **storage-independent metabolic advantage** — fails the same test, and fails harder. Hall and
+Guo pooled 32 controlled-feeding studies (563 subjects) and found energy expenditure and fat loss both
+slightly *greater* on lower-**fat** diets (+26 kcal/d, +16 g/d) — the direction the
+carbohydrate-insulin model predicts, reversed, at a magnitude the authors call «the effect sizes are so
+small as to be physiologically meaningless» [@hallguo2017]. For body fat, a calorie is a calorie. This is a **no-meaningful-effect** result, not
+insufficient evidence: the comparison was run at scale and came back near-null and pointing the wrong
+way for the model -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
-## The bottom line
+### Dental caries and serum urate do survive
 
-- **Cut sugary drinks first.** They are the exposure with the strongest, most consistent signal across
-  diabetes, weight, blood pressure and mortality, because they add liquid calories the appetite does not
-  compensate for. If you change one thing, change this.
-- **Judge sugar against its replacement, not against zero.** Replace sugar with water, unsweetened food
-  or whole fruit -- not with the same calories of other refined carbohydrate (no weight benefit) and not
-  reflexively with sweeteners (the benefit depends entirely on what they displace).
-- **Whole fruit is not the target.** The liver-fat and metabolic concerns are a free-fructose,
-  beverage-dose story; intact fruit sits outside the guideline exposure for good mechanistic reason.
-- **If your goal is your teeth, the 10% limit is aimed at you.** If your goal is weight or metabolic
-  health, the lever is total calories and the drink habit, and less sugar helps mainly by helping there.
-- **Do not chase a precise personal threshold.** Every body that looked found the evidence too thin below
-  10% to locate a safe number; all four agree only on direction. *as low as is comfortable, drinks first* captures what the evidence actually supports.
+**Two harms are sugar- or fructose-specific, and the isocaloric weight null touches neither.**
+
+*Dental caries* is the classic one. Oral bacteria ferment the sugar molecule to acid whatever else is
+on the plate, so swapping sugar calories for starch calories leaves the mechanism intact — the weight
+null is simply silent on it. Caries is what WHO's 10% limit actually protects, at moderate certainty
+and with no trial behind it -> [[Free Sugars Intake]].
+
+*Serum urate* is the new one, and it is this keyframe's core payload. Ayoub-Charette pooled 47
+controlled-feeding trials (N=2763, baseline uric acid \~4.6-5.5 mg/dL — roughly normouricemic) and found
+the effect **runs by food source, not by energy**: «the effects of fructose-containing sugars on uric
+acid were more dependent on the food source than on energy control»
+[@ayoubcharette2021fructose]. The decisive numbers:
+
+- **Sugar-sweetened beverages raise urate +0.42 mg/dL (0.24-0.59) in isocaloric substitution and +0.43
+  (0.23-0.63) as added calories — GRADE high in both.** Because the substitution arm holds energy
+  constant, SSB's urate harm **persists at equal calories**, unlike its body-weight harm, which
+  vanishes on the isoenergetic swap above.
+- **Total fructose-containing sugars barely move urate** (+0.16 mg/dL, 0.06-0.27, very low certainty),
+  and even that is carried by SSBs — drop them and it collapses to +0.02 (-0.07 to 0.1), null.
+- **Whole fruit is null; 100% fruit juice LOWERS urate -0.28 mg/dL (-0.43 to -0.13), GRADE high** — the
+  opposite sign from SSB, in the same review. *Cut fructose* is the wrong instruction; *cut SSBs
+  specifically* is the right one.
+
+[@ayoubcharette2021fructose]
+
+Against the review's own minimally-important difference for urate (±0.113 mg/dL), the SSB rise and the
+juice fall both clear it while the total-sugars move does not. So urate is the one place a
+*fructose-specific*, energy-independent harm shows up on high-certainty trial evidence.
+
+### The isocaloric urate signal stops at the marker
+
+The payoff is the *isocaloric persistence* at the urate step — not any blood-pressure or event
+endpoint. Serum urate is a [[Surrogate Outcomes|surrogate]]: a marker that travels with gout,
+hypertension and cardiovascular disease rather than an outcome a patient feels.
+
+A downstream leg does
+exist — a gold RCT meta-analysis finds urate-lowering therapy lowers blood pressure — but it sits in a
+**different stratum on a different endpoint**: hyperuricemic patients, on a drug (allopurinol), whose
+blood-pressure effect may run through xanthine-oxidase inhibition rather than urate itself
+-> [[Uric Acid Lowering and Blood Pressure]].
+
+The upstream and downstream legs never meet in one
+population, so **SSB -> urate -> blood pressure -> events is not a chain the evidence has closed** — it
+is two disconnected segments, and treating it as settled would overstate what is held. What is held, at
+high certainty, is narrower and still worth acting on: cutting SSBs lowers urate at equal calories.
+
+
+Liver fat runs the same way and lands in the same place. Chung's controlled-feeding trials found
+fructose no worse than glucose for liver fat at equal energy — but as a single low-risk-of-bias study
+that verdict is **insufficient evidence, not proof of no effect**, and it does not license a
+sugar-specific isocaloric liver-fat magnitude. Longer-horizon observational sources (the AASLD reading)
+report molecule-specific liver harm, but over chronic disease *incidence* rather than short-term
+liver-fat *content*, so the two populate different regimes — a distinction, not a contradiction,
+carried into the Open cells below -> [[Fatty Liver MASLD and Weight Loss]].
+[inferred from @chung2014]
+
+### Why the big observational SSB signal is not a counterexample
+
+The previous section's cohort signal — SSB intake tracking type 2 diabetes, obesity and hypertension
+per 250 mL/d — looks like it should have surfaced under the isocaloric test and did not. It did not
+because **the cohorts and the feeding trials are not measuring the same exposure.** The cohorts measured
+SSB *as drunk*, which adds poorly-compensated liquid calories on top of the diet; the isocaloric trials
+tested the sugar molecule with the calories held fixed. That is [[The Observational-Trial Discordance]]
+resolved by exposure non-commensurability: the observational signal is the **added-energy package**,
+confounded by energy — not a molecular effect the isocaloric swap failed to catch.
+
+EFSA states this in its own voice. Its systematic review reports that «prospective cohort studies do not
+support a positive relationship between the intake of dietary sugars, in isocaloric exchange with other
+macronutrients, and any of the chronic metabolic diseases or pregnancy-related endpoints assessed», and
+names the mechanism directly: «Excess energy intake leading to positive energy balance and body weight
+gain appears to be the main mechanism by which the intake of dietary sugars may contribute to the
+development of chronic metabolic diseases»
+[@efsasugars2022]. So the harm the cohorts see is
+real and decision-relevant — it just tracks the calories, not the molecule.
+
+### What the test leaves standing — one exposure, three answers
+
+Sorted by outcome, not by a single verdict, this is the deliverable's interpretive backbone:
+
+- **Body weight and cardiometabolic risk: energy.** Erased by the calorie-for-calorie swap; the lever
+  is the liquid calories, not the sugar.
+- **Serum urate: fructose- and food-source-specific.** Survives the swap at high certainty — but stops
+  at a surrogate.
+- **Dental caries: sugar-molecule-specific.** The isocaloric weight null never spoke to it; it is the
+  mechanism the 10% limit protects.
+
+The urate result is what makes the beverage the sharp end of the whole question: it is the one exposure
+where a harm survives the calorie-for-calorie test cleanly. That raises the next question directly — is
+a sugar-sweetened beverage a distinct exposure from the same sugar in solid food?
+
+## Treat a sugar-sweetened beverage as its own exposure
+
+A sugar-sweetened beverage is not just sugar in liquid form, and the difference changes what to cut.
+Two features set it apart. **The body compensates poorly for calories it drinks**, so a soda adds
+energy on top of the day's intake instead of displacing food. And **the beverage carries a second,
+energy-independent harm** — a rise in serum urate that survives even when the sugar is exchanged
+calorie-for-calorie. That second channel is specific to the drink: whole fruit does not show it, and
+100% juice runs the other way. So the mediation question — *is the harm working through the extra
+calories, or through the sugar molecule itself?* — has no single answer for a beverage. **It splits by
+outcome**, and that split is the reason to name the SSB rather than "sugar" as the exposure.
+
+### Drunk calories slip past the body's compensation
+
+A beverage behaves differently for a mechanical reason, not a metabolic one. A drink is the
+fastest-ingested, lowest-effort form a food can take, and faster ingestion drives higher intake
+*without* a matching rise in hunger. Robinson's meta-analysis of 22 experimental studies found a slower
+eating rate cut energy intake (SMD 0.45, 95% CI 0.25-0.65) while end-of-meal and later hunger stayed
+flat, because a faster rate means less oral sensory exposure per unit of food
+[@robinson2014eatingrate]. A beverage is the
+extreme of that channel — swallowed in seconds, with almost no chewing or taste-duration signal to
+register the load. [inferred from @robinson2014eatingrate]
+
+The satiety-compensation evidence proper lives on [[Free Sugars Intake]]; the consequence here is that
+**liquid sugar adds energy rather than replacing it**, which is why the SSB is the dominant free-sugars
+carrier and the actionable form to remove.
+
+The beverage form also sits *outside* the composition-and-reward constructs used for solid junk food.
+Sutton's supply-scale analysis of [[Hyper-Palatable Foods]] excluded beverages entirely — hyper-
+palatability is defined on the fat/sugar/sodium combinations of solids
+[@sutton2023hpf]. The SSB harm is
+therefore not an HPF story and not a NOVA-processing story: it is a liquid-energy story plus a fructose
+one. The *ultra-processed* label is a category a shopper cannot reliably apply
+-> [[Ultra-Processed Food and Health Outcomes]]. **The sugar-sweetened beverage is the one place that
+fuzzy category resolves into a single, identifiable carrier** — which is what makes *cut the drink*
+more usable advice than *cut ultra-processed food*.
+
+### The mediation splits by outcome
+
+Hold the SSB's outcomes side by side and the mediating channel changes under each one. The observational
+cardiometabolic signal (body weight, type 2 diabetes, hypertension) is the **added-energy package** —
+it tracks the calories the drink piles on, is confounded by energy, and dissolves when sugar is swapped
+for other carbohydrate at equal calories (the isocaloric weight null; EFSA states the energy-balance
+resolution in its own voice) -> [[The Observational-Trial Discordance]],
+[[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
+
+Serum urate is the exception. Because the substitution
+arm holds calories fixed, **this harm does not vanish at equal energy** — it points at fructose-specific
+metabolism (the unregulated fructokinase route, ATP -> AMP -> urate), not at extra calories.
+[inferred from @ayoubcharette2021fructose]
+
+The urate channel is also specific to the *beverage*, not to fructose in general: Ayoub-Charette found
+the uric-acid effect depends more on the food source than on energy control, which is why SSBs raise
+urate while 100% juice lowers it [@ayoubcharette2021fructose].
+So one drink loads two distinct channels, and the mediation answer must be read per outcome:
+
+| SSB outcome | Mediating channel | Survives calorie-for-calorie swap? |
+|---|---|---|
+| Body weight, T2D, hypertension | Adiposity / added energy | **No** — erased at equal calories |
+| Serum urate | Fructose-specific (hepatic) | **Yes** — +0.42 mg/dL isocaloric, GRADE high |
+| Dental caries | Local, sugar-molecule (oral) | **Yes** — untouched by the liquid/solid or energy question |
+
+Urate remains a **surrogate**, not a patient-important outcome — the leg from urate to blood pressure or
+events is measured in a different (hyperuricemic, drug-treated) stratum and is not joined to this dietary
+leg -> [[Uric Acid Lowering and Blood Pressure]]. The isocaloric persistence settles something narrow but
+real: **the beverage carries a sugar-specific harm the calorie-balance story cannot absorb.**
+
+### The diet-soda clue: read the SSB cohort signal with a reverse-causation candidate in view
+
+Artificially-sweetened beverages (ASBs — diet soda) supply the sharpest check on how much of the SSB
+cohort signal is clean causal effect. An ASB carries **no sugar and no calories**, so it should shed the
+energy-mediated harm — yet in WHO's cohort evidence it carries **similar-sized positive associations**
+with the same hard outcomes: incident obesity HR 1.76 (1.25-2.49), type 2 diabetes HR 1.23 (1.14-1.32),
+CVD HR 1.32 (1.17-1.50), all-cause mortality HR 1.12 (1.05-1.19), at low-to-very-low certainty
+[@who2023nonsugar]. **Reverse causation is the first candidate**:
+people already heavy or dysglycaemic switch *to* diet drinks because of their risk status, so the drink
+tracks the illness rather than causing it. This is the [[The Observational-Trial Discordance]] flag on
+beverage cohorts — do not read the ASB association as evidence that diet soda causes disease.
+
+Symmetric standards cut the other way too. WHO ran the reverse-causation checks (adjusting for BMI,
+stratifying by weight, excluding those who lost weight before baseline, dropping early follow-up years)
+and the associations weakened but did not disappear — WHO concluded the evidence «cannot be dismissed as
+being solely a result of reverse causation or residual confounding»
+[@who2023nonsugar]. So the honest ASB verdict is *unexplained and
+open*, not "harmless" and not "harmful." For the sugar decision, the load-bearing point is narrower:
+**the ASB parallel warns that the SSB cohort magnitudes are not all clean causal signal** — part is the
+same confounding — which is exactly why the isocaloric urate finding above matters, being the one SSB
+harm a swap cannot confound away.
+
+### The realistic swap is water, not a diet drink
+
+If the sugary drink goes, what replaces it decides the benefit. WHO's 2023 review suggests **«that
+non-sugar sweeteners not be used as a means of achieving weight control or reducing the risk of
+noncommunicable diseases (conditional recommendation)»** [@who2023nonsugar],
+on low-certainty evidence. Swapping sugar for a diet drink beats the sugar marginally on short-term
+weight, but that benefit attenuates to null in the trials that actually instructed habitual consumers to
+switch (body weight MD -0.61 kg, 95% CI -1.28 to 0.06, NS), and it leaves overall diet quality largely
+unchanged [@who2023nonsugar]. **WHO's preferred replacement is water,
+unsweetened food and drink, and whole fruit** [@who2023nonsugar].
+
+A person who will not move from sugary soda to water is the honest exception: for that person a diet
+drink is still the better of *those two*, since WHO's recommendation optimizes a population question, not
+this individual's next drink (a layer-3 call). The separate question of whether non-sugar sweeteners are themselves safe (the
+aspartame hazard-vs-risk verdict, the microbiome-glycemia signal) is derived in the **Artificial
+Sweeteners deliverable** and not re-opened here -> [[Non-Sugar Sweeteners]].
+
+Two outcomes remain where the evidence thins to insufficient — liver fat under an isocaloric sugar swap,
+and hard cardiovascular events.
+
+## Name the open cells — insufficient evidence is not proof of no effect
+
+Five questions about sugar stay open, and each one is **insufficient evidence, not a demonstrated
+null**. The difference decides how you read the silence. A question nobody has powered a study to
+answer looks, in a database, exactly like a question answered "no" — so apply the expectancy test:
+if a sugar-specific harm were real and large here, could a study realistically have caught it by now?
+Where the answer is no, silence is a gap, not reassurance. Two of the quantities in play — liver-fat
+content and serum urate — are **surrogates**, so even the cells that hold some evidence are capped by
+how far the marker carries the decision -> [[Surrogate Outcomes]].
+
+### Sugar-specific liver fat at equal calories rests on a single study
+
+Only one low-risk-of-bias controlled-feeding study has swapped fructose for glucose
+calorie-for-calorie and measured liver fat, and it found essentially no difference — intrahepatic
+lipid moved +0.11%
+[@chung2014]. Chung reads its
+own result as **insufficient, not as no effect**: the liver-fat associations «appear to be confounded
+by excessive energy intake», and the evidence is «not sufﬁciently robust to draw conclusions
+regarding effects of fructose, HFCS, or sucrose consumption on NAFLD»
+[@chung2014].
+
+The newer isocaloric liver-fat meta-analysis does **not** fill this cell, because it swapped
+*macronutrients*, not sugar for starch. Winters-van Eekelen found that trading saturated for
+unsaturated fat moved liver fat a lot (SMD -0.80, 95% CI -1.09 to -0.51, 4 comparisons) and trading
+carbohydrate for protein moved it moderately (-0.33, -0.54 to -0.12), while the total fat-for-carb
+ratio did nothing (0.01, -0.36 to 0.37)
+[@winterseekelen2020]. None of those
+arms is a sugar-for-starch exchange, so the **sugar-specific isocaloric liver-fat magnitude stays
+unmeasured** — there is no number to headline -> [[Fatty Liver MASLD and Weight Loss]].
+
+AASLD's guidance points the other way, holding that fructose harms the liver independent of calories
+— but it argues from **observational, long-term disease-incidence** data. That populates a different
+regime than Chung's short isocaloric trials, so the two are a **distinction, not a contradiction**:
+they answer different questions (chronic incidence versus liver fat net of energy), and for the
+net-of-energy question the stronger design is Chung's, whose verdict is insufficient. The lever stays
+*cut the liquid energy*, not *avoid the fructose molecule*.
+
+### No held trial links sugar to hard cardiovascular events
+
+No gold source in the fabric connects added sugar or SSBs to **incident cardiovascular events** with
+a dose-response. What is held runs one step short, through surrogates: SSBs raise serum urate,
+urate-lowering lowers blood pressure, and urate and blood pressure are both markers, not events
+-> [[Uric Acid Lowering and Blood Pressure]]. The observational cardiometabolic associations that do
+exist are measured as sugar is consumed and are energy-confounded. So the hard-CVD-event cell is
+**absence of evidence on the endpoint**, filled only by surrogate channels -> [[Surrogate Outcomes]].
+
+### Whether the diabetes signal survives at equal calories is thin
+
+The SSB -> type 2 diabetes association is observational and measured as sugar is consumed, adding
+liquid calories on top of the diet. Whether any diabetes effect **persists under an isocaloric swap,
+net of weight**, is not cleanly held: no gold source isolates a sugar-for-other-carbohydrate exchange
+on diabetes incidence with adiposity held constant. The isocaloric weight swap being null makes an
+energy-mediated reading likely, but that is an inference from the weight cell, not a measured diabetes
+result.
+
+### The caries dose-response has never been tested in a trial
+
+Dental caries is the one clearly sugar-molecule-specific harm, yet no randomized trial has measured
+its dose-response. The evidence is observational and ecological, and the sub-5%-of-energy region rests
+on only a few ecological studies graded very low — so any threshold there marks the **edge of the
+data, not a knee in the curve** -> [[Free Sugars Intake]].
+
+### The joined urate -> blood pressure -> events chain has not been run
+
+Both legs of the fructose -> urate -> blood pressure pathway are held, from different research groups,
+but they do not join. **Upstream**, SSBs raise serum urate even at equal calories (GRADE high) — but
+that is measured on urate only, in roughly normouricemic healthy adults
+[@ayoubcharette2021fructose].
+
+**Downstream**, a
+urate-lowering drug lowers blood pressure — but on blood pressure only, in a hyperuricemic stratum,
+and the drug's xanthine-oxidase route leaves it unclear whether urate itself is the mediator
+[@qu2017urate]. Disjoint strata, disjoint
+endpoints, a drug rather than a food: no source carries food-fructose -> urate -> blood pressure ->
+events end to end in one population. Whether cutting SSBs lowers blood pressure or events in a
+normouricemic person — the default stratum here — is **untested**
+-> [[Uric Acid Lowering and Blood Pressure]].
+
+These five gaps share one structure. Liver-fat content and serum urate are surrogates, and GRADE
+discounts a surrogate by one or two levels precisely because a marker can move while the outcome does
+not -> [[Surrogate Outcomes]]. Even the well-evidenced urate result stops at the marker; the liver-fat
+results sit two steps short of liver-related death, a gap AASLD names in its own voice — the long-term
+link among liver fat, histological response and clinical outcomes is unestablished
+[@aasld2023]. So these cells are not merely unpooled:
+even where a number exists, its transmission to something a person can feel is untested. Which leaves
+the decision, and how it sits against published guidance.
+
+## Cut the drinks, keep the fruit, and mind what replaces them
+
+**Cut sugar-sweetened beverages — specifically.** They are the dominant carrier of free sugars, and
+they act on two channels at once: they add poorly-compensated liquid calories that drive the
+energy-mediated harms (weight, type 2 diabetes and hypertension as consumed), and they carry the one
+isocaloric, fructose-specific signal that survives a calorie-for-calorie swap (serum urate; GRADE high)
+[@ayoubcharette2021fructose]. **Whole fruit stays.** It sits
+outside the free-sugars limit on every axis — the fibre matrix blunts the fructose flux, and it runs
+null-to-favourable on urate and vascular endpoints. **Treat 100% juice case-by-case:** it behaves like
+an SSB on the metabolic and dental channels but *lowers* urate and associates inversely with stroke and
+coronary heart disease, so the call depends on which outcome the person is managing
+-> [[Free Sugars Intake]].
+
+**What you swap in decides the benefit.** An effect is always relative to the replacement
+[[The Comparator Problem]]: swap free sugars for other carbohydrate at equal energy and body weight
+barely moves, so cutting an SSB helps only when you do not put its calories back in another form. Reach
+for **water or an unsweetened drink**, or whole fruit for a sweet craving. Non-sugar sweeteners are not
+the recommended route — WHO advises against using them for weight or disease control and points instead
+to «consumption of foods with naturally occurring sugars, such as fruit, and unsweetened foods and
+beverages» [@who2023nonsugar] -> [[Non-Sugar Sweeteners]] (the
+sweetener-safety question is worked in the companion Artificial Sweeteners deliverable).
+
+### The four guidance bodies agree on direction, not on a number
+
+WHO, SACN, NNR and EFSA all point the same way — *less is better* — and that is the whole of their
+agreement. They diverge on where a number attaches and on what warrant carries it:
+
+- **WHO** sets <10% of energy (strong) and <5% (conditional), warranted by **dental caries**
+  [@who2015].
+- **SACN** sets a single <5%E tier — about 30 g of free sugars a day for a typical adult
+ — warranted by **caries plus total energy intake**
+  [@sacn2015].
+- **NNR** sets <10 E% with no lower tier, warranted by **nutrient density** — sugar crowding out
+  micronutrients and fibre, not a disease dose-response
+  [@nnr2023].
+- **EFSA**, asked for a safe threshold, **found none** and set no number: «the intake of added and free
+  sugars should be as low as possible in the context of a nutritionally adequate diet»
+  [@efsasugars2022].
+
+**These four bodies do not corroborate one another, even where their numbers match.** They read
+overlapping evidence, and where their figures coincide they had excluded each other's evidence and were
+regulating different numerators — SACN's <5% omits fruit-juice concentrates, WHO's does not, so the
+identical number covers different things -> [[Free Sugars Intake]]. EFSA is not *opposed* to WHO either:
+EFSA runs a hazard assessment whose output is a threshold-or-nothing, while WHO issues a communicable
+population target that needs a number whether or not a clean threshold exists. That is a **standpoint
+distinction**, not a disagreement about the evidence -> [[Which Objective Moved This Recommendation]].
+
+**Read any of these numbers as the edge of the evidence, not a safe floor.** EFSA states the sub-10%E
+region is the least-studied stretch — the relationship «could not be adequately explored at levels of
+intake < 10 E% owing to the low number of RCTs available»
+[@efsasugars2022]. That is exactly where WHO's
+conditional <5% and SACN's primary <5% both sit. Those thresholds mark where the data thin out, not a
+knee in a dose-response curve.
+
+**One non-health objective sits inside the guidance, and it stays named, not priced.** NNR's third
+warrant is environmental: «Higher consumption of added and free sugars contributes to a negative
+environmental impact» [@nnr2023]. That load is
+real and pushes the same direction, but this deliverable holds no carbon, land or water data and does
+not weigh it against the health case.
+
+### Where the stratum shifts the call
+
+Three strata change the reading, briefly.
+
+- **Children.** The pooled trials in children came out null largely because they never achieved a real
+  intake contrast — an adherence null, not an efficacy one — and the provision trials that did achieve
+  the contrast confirmed the effect
+  [@te2013]. The child cohorts that found
+  harm (OR 1.55) were measuring beverages: 14 of 15 studies used an SSB exposure. So for children too,
+  the lever is the drink, not sugar at large.
+- **Low energy intake.** NNR's displacement warrant bites hardest here. A fixed *proportion* of energy
+  from sugar crowds out proportionally more of a smaller nutrient budget, so an older adult or a small
+  child who eats little has less room for sugar before micronutrients suffer — which is why NNR flags
+  this stratum by name [@nnr2023].
+- **Hyperuricemic patients.** The urate-lowering trials that also lowered blood pressure enrolled
+  hyperuricemic patients on a drug; that downstream urate -> blood-pressure leg does not transport to a
+  normouricemic person -> [[Uric Acid Lowering and Blood Pressure]]. Do not extend the SSB -> urate
+  finding into a blood-pressure or event claim for the general adult.
+
+**And no acute upside sits on the other side of the ledger.** A gold meta-analysis of acute
+carbohydrate-challenge trials finds no mood or energy boost at any time-point — mildly *worse* alertness
+within the hour — so the *sugar rush* is a phantom -> [[Acute Carbohydrate Effects on Mood]]. Nothing
+offsets the costs above.
+
+**The bottom line.** For a general adult, cut sugar-sweetened beverages and swap in water, an
+unsweetened drink, or whole fruit; keep whole fruit; judge 100% juice by the outcome you care about. No
+guidance body found a safe threshold, the numbers below 5% rest on the thinnest evidence, and the harm
+that a calorie-for-calorie swap cannot erase is narrow — caries and urate — not a general property of
+the sugar molecule.
 
 ## Caveats
 
@@ -327,9 +669,9 @@ as the edge of the evidence than as a feature of the underlying curve.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how much added/free sugar and how many sugar-sweetened beverages to consume: what is the effect on each patient-important outcome (dental caries, body weight, type-2 diabetes, cardiovascular disease, liver fat), what is the dose-response shape for each, does any effect persist when sugar is exchanged calorie-for-calorie with other carbohydrate, and are sugar-sweetened beverages a distinct exposure from sugar in solid food?' |
-> | **Evidence included** | 9 sources — 5 gold, 4 high |
-> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. But WHO and its commissioned reviews (Te Morenga on weight, Moynihan on caries) are one witness for the appraisal, not three; SACN, NNR and EFSA read the same incumbents, so the four bodies are not independent witnesses to the primary data. |
-> | **Last updated** | 2026-08-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Added%20Sugar%20and%20Sugar-Sweetened%20Beverages.md) |
+> | **Evidence included** | 19 sources — 11 gold, 6 high, 1 moderate |
+> | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Sutton (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Added%20Sugar.md) |
 
 ## References

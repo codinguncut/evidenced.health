@@ -62,8 +62,6 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
 - [[Time-Restricted Eating]] — whether WHEN you eat, independent of what and how much, changes weight
   or cardiometabolic outcomes
 
-<div class="recent-update" data-last-updated="2026-09-27">
-
 ## Type 2 diabetes — prevention, control, and remission
 
 - [[Lifestyle vs Metformin for Diabetes Prevention]] — in prediabetes, whether an intensive lifestyle
@@ -91,8 +89,6 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   GRADE; clinical pregnancy null and live birth/miscarriage never pooled. Real residue = non-inferior to
   metformin with far fewer GI side effects (7% vs 53%) — a tolerability substitution, surrogate-bounded.
   Diet/weight-loss/exercise PCOS levers are named gaps
-
-</div>
 
 ## Why maintenance is hard, and drug/monitoring routes
 

@@ -4,12 +4,12 @@ nucleus: true
 cluster: deficiency-enhancement
 question: When does supplementing a nutrient change a patient-important outcome, and for whom — is the person deficient (repletion) or already replete (enhancement)?
 aliases: [Repletion vs Enhancement, Deficiency vs Enhancement, Enhancement in the Replete, Nutrient Status Dependence, Repletion vs Supplementation]
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Neufingerl, Nicole; Eilander, Ans; Deane, Katherine H O; Hooper, Lee; Musazadeh, Vali; Mekary, Rania A; Serra, Ramon; Illanes, Sebastian E]
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017, Neufingerl - Plant-Based Nutrient Status 2021, Deane - Omega-3 Prevention Depression 2019, Musazadeh - Vitamin D Depression Umbrella 2023, Serra - Omega 3 Preterm Birth 2021]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Hooper, Lee; Bougma, Karim; Aboud, Frances E; Harding, Kimberly B; Marquis, Grace S; De-Regil, Luz Maria; Pena-Rosas, Juan Pablo; Fernandez-Gaxiola, Ana C; Rayco-Solon, Pura; Kahwati, Leila C; Weber, Rachel Palmieri; Viswanathan, Meera; Malmir, Hanieh; Larijani, Bagher; Esmaillzadeh, Ahmad; Yao, Pang; Bennett, Derrick; Clarke, Robert; Zhang, Yu; Fang, Fang; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Neufingerl, Nicole; Eilander, Ans; Deane, Katherine H O; Hooper, Lee; Musazadeh, Vali; Mekary, Rania A; Serra, Ramon; Illanes, Sebastian E; Okereke, Olivia I]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017, Neufingerl - Plant-Based Nutrient Status 2021, Deane - Omega-3 Prevention Depression 2019, Musazadeh - Vitamin D Depression Umbrella 2023, Serra - Omega 3 Preterm Birth 2021, Okereke - VITAL-DEP Vitamin D Depression 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-27
-self_critiqued: 2026-09-27
+updated: 2026-09-28
+self_critiqued: 2026-09-28
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -75,7 +75,7 @@ each other: USPSTF 2022 *pools* VITAL, and CARET is a primary trial *inside* bot
 evidence and the Bjelakovic meta-analysis. The value here is not *several sources agree* — it is the
 **structure** the sources jointly imply, which none states alone.
 
-<div class="recent-update" data-last-updated="2026-09-27">
+<div class="recent-update" data-last-updated="2026-09-28">
 
 ## Enhancement in the replete tests null-to-harm
 
@@ -129,6 +129,28 @@ rather than healthy ones ... vitamin D did not affect emotions in healthy subjec
 enhancement-null for mood (Deane) and vitamin D supplies the *repletion-positive* candidate for the same
 outcome, each blind to the other's arm — together they bracket the mood cell exactly as this page's axis
 predicts (null in the replete, benefit expected in the deficient), neither one measuring both.
+-> [[Depression and Modifiable Exposures]] Lever 4.
+
+**The vitamin-D-mood enhancement arm is now DIRECTLY measured — VITAL-DEP is null in the replete
+(Okereke 2020).** [@okereke2020vitaldep] The upper arm Musazadeh could
+not isolate is now held: a large blinded RCT (D3 2000 IU/d vs placebo, 18,353 adults >=50 without depression
+at baseline, median 5.3y) in a **largely replete** population — «baseline 25-hydroxyvitamin D levels were
+generally adequate» (mean 30.8 ng/mL, 11.6% <20)
+[@okereke2020vitaldep] — found **no effect**: «(hazard ratio,
+0.97 [95% CI, 0.87 to 1.09]; P = .62) ... mean change in PHQ-8 score was not significantly different from
+zero (mean difference for change in mood scores, 0.01 points [95% CI, −0.04 to 0.05 points])»
+[@okereke2020vitaldep], powered at 85% for HR 0.85 and >99%
+for the mood MCID — a precisely-estimated zero, not missing data. This converts the mood-cell enhancement
+arm from to **EXTRACTED**: vitamin D repeats the page's structure on both arms now, not just
+the repletion side. **Independence:** VITAL-DEP is an ancillary of the **same VITAL parent trial** as the
+held Manson 2019 and LeBoff 2022 above (shared 25,871-participant randomization, same 2000 IU/d D3), so it is
+**not** an independent witness — it *extends* the VITAL enhancement-null from cancer/CVD/fractures/mortality
+to **mood/depression**, a same-trial new-outcome composition (F/A), no `[E-independent]` claimed
+[inferred from @okereke2020vitaldep; @manson2019vitd; @leboff2022].
+And VITAL-DEP's own MR/post-hoc read attributes the observational vitamin-D-depression signal to confounding
+(«confounding likely played a major role in reported associations in observational studies»)
+[@okereke2020vitaldep], reinforcing the artifact-first reading
+of Musazadeh's fragile observational arm -> [[The U-Shaped Association Artifact]].
 -> [[Depression and Modifiable Exposures]] Lever 4.
 
 ### The same shape appears for omega-3 and a HARD perinatal outcome — preterm birth (Serra 2021)

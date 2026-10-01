@@ -8,18 +8,21 @@ cluster: estimate-to-action
 nucleus: false
 confidence: medium
 created: 2026-09-08
-updated: 2026-09-08
-self_critiqued: 2026-09-08
+updated: 2026-09-29
+self_critiqued: 2026-09-29
 relationships:
   related_to:
     - Non-Sugar Sweeteners
     - Night Shift Work and Breast Cancer
     - Red and Processed Meat and Cancer
+    - Alcohol and Cancer Risk
+    - Dietary Acrylamide and Cancer Risk
     - Baseline Risk and the Relative-Absolute Split
     - Certainty of Evidence vs Strength of Recommendation
 ---
+<div class="recent-update" data-last-updated="2026-09-29">
 
- — this page is the wiki's own appraisal concept, induced across two held IARC instances; the
+ — this page is the wiki's own appraisal concept, induced across the held IARC instances; the
 verbatim classifications and their evidence live on those instance pages, not re-extracted here.
 
 **A carcinogen classification answers *whether* an exposure can cause cancer at some dose, never *how
@@ -29,6 +32,8 @@ two distinct quantities). IARC does **hazard identification**: is the hazard exc
 animal, and mechanistic evidence? It does not do **risk assessment**: what absolute risk this exposure adds
 to a given person at a realistic dose. A Group-1, 2A, or 2B label grades the *strength of evidence that a
 hazard exists*, not the *size of the risk* — so the label alone licenses no avoidance decision.
+
+</div>
 
 ## The two objects, kept apart
 
@@ -52,11 +57,13 @@ fabric routes the processed-meat decision itself through absolute risk, not thro
 -> [[Red and Processed Meat and Cancer]] (the wiki does not hold IARC's processed-meat monograph, so the
 Group-1 label is noted as the public framing, not asserted as a fabric finding).
 
-## Two held instances show the split
+<div class="recent-update" data-last-updated="2026-09-29">
+
+## Held instances show the split — a firm label sits atop a large *or* a negligible risk
 
 
 
-- **Aspartame — Group 2B on limited evidence.** IARC classified aspartame "possibly carcinogenic" on
+- **Aspartame — Group 2B, risk near zero.** IARC classified aspartame "possibly carcinogenic" on
   *limited* human evidence — explicitly a hazard identification, not a dose or risk statement, and JECFA's
   companion intake evaluation left the acceptable daily intake unchanged. The label reads as alarming; the
   risk statement attached to a realistic intake did not move -> [[Non-Sugar Sweeteners]].
@@ -65,6 +72,31 @@ Group-1 label is noted as the public framing, not asserted as a fabric finding).
   analysis then found the exposure has little or no effect on breast-cancer *incidence*. The clearest
   demonstration of the split: an exposure can be firmly classified as a probable hazard and still carry a
   risk magnitude near zero -> [[Night Shift Work and Breast Cancer]].
+- **Dietary acrylamide — Group 2A, risk near zero at dietary dose.** A *probable* carcinogen on
+  genotoxic and animal evidence, yet human dietary exposure sits four-to-five orders of magnitude below
+  the rodent-carcinogenic dose; the page reads the hazard identification and the dietary-dose risk as
+  *different questions that do not conflict* — the same split, reached in this concept's own terms
+  -> [[Dietary Acrylamide and Cancer Risk]].
+- **Alcohol — Group 1, risk large.** The three instances above are all evidence-firm-enough yet
+  magnitude-negligible; alcohol is the held case where a firm label *and* a large risk coincide. It is an
+  *established* (Group 1) carcinogen whose risk magnitude is real and dose-dependent, with no safe
+  threshold for the aerodigestive and breast sites, and it ranks among the leading attributable causes of
+  cancer -> [[Alcohol and Cancer Risk]]. Set beside night-shift work (Group 2A, risk near zero), it makes
+  the point concrete in the decision-relevant direction: **the classification grades the *evidence that a
+  hazard exists*, not its *size*, so the label alone cannot tell you the magnitude — you must look up the
+  absolute risk.** A firmly established hazard (alcohol) can carry a large risk; a probable one (night-shift,
+  acrylamide) can carry near zero.
+
+**The honest limit on what these four instances show.** They happen to line up
+group-with-magnitude — the one large risk is the Group-1 case, the three negligible ones are 2A/2B — so
+they do **not** demonstrate that group and magnitude are *independent* (there is no held Group-1 with a
+small risk, nor a 2A/2B with a large one). What they show is narrower and still decision-relevant: a firm
+label is compatible with either a large or a negligible risk, so the label is not a substitute for the
+risk number. The stronger same-group/different-magnitude illustration — alcohol against the small absolute
+effect of Group-1 processed meat — needs a held Group-1 pair the wiki does not yet carry
+-> [[Red and Processed Meat and Cancer]].
+
+</div>
 
 ## Decision relevance
 

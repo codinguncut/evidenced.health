@@ -8,9 +8,9 @@ sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated F
   Iso-Markku - Physical Activity Dementia 2022, Peters - Blood Pressure Lowering Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-04
+updated: 2026-10-01
 self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-09-04
+concrete_subject_audited: 2026-10-01
 ---
 
 > [!warning] Applies to a specific group
@@ -30,14 +30,15 @@ diseased.** This is a stratum, not a person and not everyone: about 40% of the p
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
 
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## The finding, stated first
 
 For this stratum, two levers dominate: **movement** (any-intensity volume plus
 resistance) and **losing visceral fat** — both large, both robust across the distribution, both acting on
-the whole metabolic cluster the person is drifting through. One correction the newer evidence
-forces on the weight rock: *where* the fat sits carries the risk (spilling into liver
-and pancreas past a personal threshold), not the number on the scale — so **steer by depot and metabolic
-status, not BMI**. The exposures that generate the most argument and content — low-carb versus low-fat,
+the whole metabolic cluster the person is drifting through. The newer evidence forces one correction
+on the weight rock: *where* the fat sits carries the risk (it spills into liver and pancreas past a
+personal threshold), not the number on the scale — so **steer by depot and metabolic status, not BMI**. The exposures that generate the most argument and content — low-carb versus low-fat,
 sugar percentages, saturated-fat fine-tuning — are mostly either small or conditional on metabolic status,
 and should not lead.
 
@@ -48,10 +49,10 @@ small ones contested and loud.
 
 A second reason reinforces that same ordering: the top rocks each lower risk across *several* age-related
 diseases at once, not only this stratum's metabolic drift. Assemble the modifiable-risk-factor lists for
-dementia, cardiovascular disease, cancer and Parkinson's and the same core recurs — physical inactivity,
-adiposity, dysglycaemia, blood pressure, LDL and smoking — so pulling these levers once buys risk
-reduction on several patient-important outcomes simultaneously, which *raises* their Layer-1 rank rather
-than adding competing tasks ([[Shared Modifiable Levers Across Age-Related Diseases]]). Physical activity
+dementia, cardiovascular disease, cancer and Parkinson's, and the same core recurs — physical inactivity,
+adiposity, dysglycaemia, blood pressure, LDL and smoking. Pulling these levers once buys risk reduction
+on several patient-important outcomes at once, which *raises* their Layer-1 rank rather than adding
+competing tasks ([[Shared Modifiable Levers Across Age-Related Diseases]]). Physical activity
 is the broadest: protective for dementia (RR 0.80, 0.77-0.84)
 [@livingston2024], for Parkinson's (RR 0.79, 0.68-0.91)
 [@chen2021pd], and a WCRF-graded
@@ -77,6 +78,8 @@ flavonoid estimate is a re-expression of the same fruit-and-vegetable signal in 
 second independent one. Both plausibly run through the vascular and metabolic channels the big rocks
 already pull, so a better diet is a *route* to those rocks, not a fifteenth separate thing to do.
 
+</div>
+
 ## How the levers are sorted
 
 Every lever below falls into one of three buckets, by what the
@@ -97,6 +100,8 @@ rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is r
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## (a) Robust big rocks — lead here
 
 ### Move more, at any intensity, plus resistance — the largest robust lever
@@ -107,28 +112,27 @@ cohorts, moving from the least-active quarter to the second roughly halved all-c
 Read *total activity* literally: it counts movement at any intensity, and the increment that bought this
 jump was overwhelmingly **light, incidental movement** — standing, walking, chores — with only about
 5 minutes a day of it moderate-to-vigorous over the least-active
-[@ekelundacc2019]. So the actionable
-message is *move more at any intensity and sit less*, not *do more aerobic exercise*; the steepest drop
-is the first step off zero.
+[@ekelundacc2019]. So aim to *move more at any intensity and sit less*, not *do more aerobic exercise*;
+the steepest drop is the first step off zero.
 
-The curve then flattens. Most of the mortality benefit is banked by a modest daily dose of
-moderate-to-vigorous activity, with the most-active quarter at HR 0.27 (0.23-0.32); above the maxima no
-further reduction appears [@ekelundacc2019]
--> [[Physical Activity Dose and Mortality]] (where the plateau dose is stated). The shape that carries the
-decision is a steep low-dose knee — the first movement, at any intensity, banks the most — feeding a broad
-flat zone, not a hard threshold. In steps, the
+The curve then flattens. A modest daily dose of moderate-to-vigorous activity captures most of the
+mortality benefit, with the most-active quarter at HR 0.27 (0.23-0.32); above the maxima no further
+reduction appears [@ekelundacc2019]
+-> [[Physical Activity Dose and Mortality]] (where the plateau dose is stated). A steep low-dose knee
+carries the decision: the first movement, at any intensity, delivers the most, then feeds a broad flat
+zone, not a hard threshold. In steps, the
 plateau sits near 6,000-8,000/day for adults over 60 and 8,000-10,000 for younger adults; 10,000 is a
 marketing number, not a target [@paluch2022].
 
 Add resistance training as a second, additive lever. In a Bayesian network meta-analysis of 178 strength
 and 119 hypertrophy trials, every prescription beat no training, yet the prescriptions barely separated —
 91% of between-protocol comparisons crossed zero [@currier2023].
-The decision that carries the effect is train versus not-train; roughly two sets twice a week captures
-most of the available gain [@currier2023].
+The effect turns on one choice: train or not. Roughly two sets twice a week captures most of the
+available gain [@currier2023].
 
 Resistance training also carries its own mortality and diabetes signal, independent of aerobic activity:
 muscle-strengthening cuts all-cause mortality about 15% (RR 0.85) and type-2 diabetes about 17% (RR 0.83),
-on an L-shaped curve with no harmful upper arm — building skeletal muscle enlarges the body's main glucose
+on an L-shaped curve with no harmful upper arm. Building skeletal muscle enlarges the body's main glucose
 sink, which is why it fits *this* dysglycemic stratum
 [@momma2022]. Meeting both aerobic and
 strengthening guidelines beats neither (HR 0.71) [@who2020].
@@ -136,18 +140,17 @@ Both levers hold across the distribution.
 
 The activity lever also carries a dementia dividend, and the dose evidence is now held first-hand rather
 than borrowed. Across 58 cohorts, being physically active lowers all-cause dementia risk (RR 0.80,
-0.77-0.84) [@isomarkku2022]. The payload that matters
-for reading that number: the association holds even where people were tracked 20 years or more (RR 0.79,
-0.71-0.87), rather than dissolving as prodromal decline lowering activity would predict, and it is not
-modified by ApoE genotype [@isomarkku2022].
-It stays observational — a head-start in cognitive reserve cannot be ruled out — but for a midlife adult,
-with dementia a long-runway outcome and midlife the window the risk-factor model weights most, activity
-buys a second patient-important outcome on the same non-substitutable lever. That breadth raises its rank;
+0.77-0.84) [@isomarkku2022]. That number survives the obvious objection: the association holds even where people were tracked 20
+years or more (RR 0.79, 0.71-0.87), rather than dissolving as prodromal decline lowering activity would
+predict, and it is not modified by ApoE genotype [@isomarkku2022].
+It stays observational — a head-start in cognitive reserve cannot be ruled out. But dementia is a
+long-runway outcome, and midlife is the window the risk-factor model weights most, so for a midlife adult
+activity buys a second patient-important outcome on the same non-substitutable lever. That breadth raises its rank;
 it does not add a competing task.
 
-Track whether the movement lever is working with cardiorespiratory fitness, not a separate intervention: a
-free non-exercise estimate from age, sex, BMI, resting heart rate and activity places you well enough
-[@ross2016]. In this stratum a raised resting
+Use cardiorespiratory fitness to track whether the movement lever is working — not as a separate
+intervention: a free non-exercise estimate from age, sex, BMI, resting heart rate and activity places you
+well enough [@ross2016]. In this stratum a raised resting
 heart rate is a progress marker that falls with aerobic training, not an outcome target — no resting-HR
 cutpoint is held.
 
@@ -202,7 +205,7 @@ cardiovascular disease (HR 1.40) [@easl2024].
 ### Keep protein adequate — defensive, during the deficit
 
 Protein's job here is to defend lean mass while fat comes off. Aim for roughly 1.6 g per kg of body
-weight per day — the break point where the muscle-building benefit flattens in resistance-training trials
+weight per day. The break point where the muscle-building benefit flattens in resistance-training trials
 is a soft, non-significantly-located knee sitting on a wide interval, not a demonstrated threshold
 [@morton2018]
 -> [[Protein and Resistance Training for Muscle and Strength]] (where the break point and its interval are
@@ -210,7 +213,7 @@ stated). That break was measured on *total* body weight in lean, normal-BMI trai
 not as a hard number.
 
 For a centrally-obese adult the caveat bites: 1.62 times total bodyweight over-states the grams, because
-protein needs track lean, not adipose, mass — so scale the target down toward lean mass as a sensible but
+protein needs track lean, not adipose, mass. So scale the target down toward lean mass — a sensible but
 unproven adjustment, since the obese target here is genuinely off-support, a gap rather than a settled
 figure. Treat 1.6 as a floor to reach, not a ceiling to fear — the break's interval runs to 2.2 g/kg and
 modestly higher is low-harm. Typical intake in this
@@ -218,7 +221,7 @@ stratum runs nearer 1.0-1.3 g/kg,
 lower per kg for an obese adult or a lower-protein pattern, so for many the move is a genuine top-up, not
 trimming an excess.
 
-Now the caveat that sharpens this for the stratum. Trials suggesting a higher target in a deficit — around
+Trials suggesting a higher target in a deficit — around
 1.9 g/kg — were run in nonobese, resistance-trained people, and the benefit scaled inversely with body
 fat: leaner people gained more from extra protein
 [@refalo2025]. A centrally-obese adult is
@@ -231,7 +234,7 @@ claim the obese need less.
 
 The fat-quality lever earns its robustness from the replacement, not from mere avoidance. Reducing saturated fat
 and replacing it with polyunsaturated fat — the dominant fat in vegetable and seed oils, nuts, seeds and
-oily fish — is WHO's one strong replacement recommendation, and its relative benefit is constant across
+oily fish — is WHO's one strong replacement recommendation. Its relative benefit is constant across
 baseline risk, sex and duration, so no subgroup claim is needed
 [@who2023saturated].
 
@@ -266,16 +269,18 @@ meta-analysis (low-volume RR 0.97, 0.88-1.07, not significant)
 [@stockwell2016] and Mendelian randomization, a
 genetic natural experiment, both erase the protective arm
 [@millwood2019]. No
-safe-drinking benefit exists to bank. In Zhao the all-cause-mortality signal becomes statistically unmissable at
-about 45 g/day in men and 25 g/day in women — but that is a significance point, **not a permitted
+safe-drinking benefit exists to bank.
+
+In Zhao the all-cause-mortality signal becomes statistically unmissable at
+about 45 g/day in men and 25 g/day in women. But that is a significance point, **not a permitted
 ceiling**: risk is already elevated below it (the 25-44 g/day band in men carries RR 1.05, P=0.28 — not
 zero, just short of significance) [@zhao2023].
 All-cause mortality is the outcome most *favourable* to alcohol; for cancer and vascular disease risk
 rises from low intake with no safe threshold, as the genetic evidence above indicates.
 
 Dementia is a third outcome that reproduces the same J-curve and the same verdict. A dose-response
-meta-analysis draws a protective-looking dip at low intake and a clear harm knee above about 38 g/day, but
-its lower arm is unadjudicated: the abstainer referent is contaminated by sick-quitters, and no genetic or
+meta-analysis draws a protective-looking dip at low intake and a clear harm knee above about 38 g/day.
+But its lower arm is unadjudicated: the abstainer referent is contaminated by sick-quitters, and no genetic or
 referent-correction check was run, so it certifies no safe or protective dose — only the harm at the top
 [@xu2017alcohol]. Same conclusion, one more outcome.
 
@@ -312,6 +317,10 @@ effects in this domain are settled and few; the long tail of refinements shares 
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## (b) Stratum-dependent — conditional on metabolic status
 
 ### Reduce sodium — most useful if your blood pressure is already drifting up
@@ -323,9 +332,9 @@ threefold larger in the already-hypertensive (**4.06 mmHg**) than in the normote
 for a lean, normotensive person the benefit is small and the effort closer to needless.
 
 The hard-outcome
-evidence for sodium itself is very-low certainty, but *pharmacological* blood-pressure lowering is
+evidence for sodium itself is very-low certainty. But *pharmacological* blood-pressure lowering is
 proven to cut events even in primary prevention and even at normal pressure (HR **0.91 per 5 mmHg**),
-so the blood-pressure channel is real — the caveat is that a sodium-induced drop transmitting to events
+so the blood-pressure channel is real. The caveat: a sodium-induced drop transmitting to events
 is an assumption, not the same evidence [@bplttc2021]. Western intake runs \~9-10 g salt against a 5 g target [@esc2021]. Treat on overall risk, not the number.
 
 Blood-pressure lowering also holds the one *randomized* dementia arm the whole cognition literature has.
@@ -362,14 +371,18 @@ healthy it is largely needless. No mainstream body positively recommends any mac
 NICE will positively recommend only an *energy*-defined one (total diet replacement, 800-1200 kcal, up
 to 12 weeks, within a support service) [@nice].
 
-One appraisal note for the dysglycemic end of this stratum, weighted lightly because most people here are
-not yet on any glucose-lowering drug. Among those who are, the drug *class* appears to matter for
+Most people in this stratum are not yet on any glucose-lowering drug, so this note weighs lightly for
+the dysglycemic end of it. Among those who are, the drug *class* appears to matter for
 cognition: metformin, GLP-1 and SGLT2 agents track lower dementia risk (metformin RR 0.83), the older
 sulphonylureas higher (RR 1.39) [@kuatedefo2023].
 The evidence is observational, low-certainty, and heavily confounded by which patients get which drug —
 first-line metformin marks earlier, healthier disease; secretagogues mark later, more severe disease — so
 part of the gap is disease stage, not the pill acting on the brain. This is a drug-versus-drug refinement
 for a prescriber, not a lever that resizes the weight rock, and not one most of this stratum needs.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-01">
 
 ## (c) Over-published, small, or contested — do not lead
 
@@ -389,7 +402,7 @@ colorectal-cancer cause) versus continue current intake (the identical evidence 
 with a realistic cut averting only a handful of cancer deaths per 1000 over a lifetime) [@wcrf2018] [@nutrirecs2019].
 
 The two families disagree over decision theory, not over the evidence — how much
-proof a public recommendation needs, and whose values set the threshold — so the wiki picks neither
+proof a public recommendation needs, and whose values set the threshold. So the wiki picks neither
 side: report the small absolute effect and the low certainty, keep the precautionary option available
 for someone who weights a possible cancer cause heavily, and let the weighting be the person's. Processed
 meat has a firmer footing than unprocessed red meat and should not be treated as one exposure with it.
@@ -401,17 +414,25 @@ the one adequately-powered free-living trial, produced no weight advantage (and 
 muscle) [@lowe2020]. Exact carbohydrate percentages, sodium precision below target, and HIIT-versus-walking are
 second-order refinements. *Doing regular activity at all* and *reducing excess adiposity* come first.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## The ceiling finding — hard heart-attack prevention in a not-yet-high-risk person
 
 **No lever here has a large, proven absolute reduction** for hard cardiovascular *events* in a person who
 is drifting but still at relatively low absolute risk — worth stating plainly, because it licenses
-stopping, not trying harder. Lifestyle weight loss was null on events; an obesity drug's event benefit
-is proven only in established disease; a statin's benefit falls below the action threshold at low risk;
-and even blood-pressure lowering — whose relative benefit *is* proven in primary prevention — buys only
+stopping, not trying harder. Lifestyle weight loss was null on events. An obesity drug's event benefit
+is proven only in established disease. A statin's benefit falls below the action threshold at low risk.
+And even blood-pressure lowering — whose relative benefit *is* proven in primary prevention — buys only
 a small absolute gain when the baseline risk is low, because absolute benefit scales with baseline risk
 [@bplttc2021]. So pursue these levers for the outcomes they *do* move (glycaemia, liver fat, weight,
 function, and the metabolic drift itself), and let the event-prevention case strengthen naturally as
 this stratum's own risk profile is arrested.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-01">
 
 ## Where this sits relative to mainstream guidance
 
@@ -419,25 +440,29 @@ Mostly **agreement, with better calibration** (the guidance-null read; see
 [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]] and
 [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]). It agrees
 with guidance on moving more, losing central adiposity, replacing saturated fat specifically with
-polyunsaturated fat (not merely with any unsaturated fat), and limiting sodium in the hypertension-prone. It diverges in emphasis and honesty: it ranks by held
-magnitude rather than by attention (so it declines
-to lead with sugar and saturated-fat fine-tuning); it reframes the weight rock around fat *depot* rather
-than BMI; it flags that lifestyle weight loss's
-cardiovascular-*event* benefit is unproven and that the saturated-fat benefit is on events, not
-mortality; it treats sodium's and carb-restriction's value as conditional on metabolic status rather
-than universal; and it treats "moderate drinking is protective" as falsified rather than as received
-wisdom.
+polyunsaturated fat (not merely with any unsaturated fat), and limiting sodium in the hypertension-prone. It diverges in emphasis and honesty. It ranks by held magnitude rather than by attention, so it
+declines to lead with sugar and saturated-fat fine-tuning. It reframes the weight rock around fat
+*depot* rather than BMI. It flags that lifestyle weight loss's cardiovascular-*event* benefit is
+unproven, and that the saturated-fat benefit is on events, not mortality. It treats sodium's and
+carb-restriction's value as conditional on metabolic status rather than universal. And it treats
+"moderate drinking is protective" as falsified rather than as received wisdom.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-01">
 
 ## Gaps this cut is honest about
 
-- **Plant-protein quality is thin-to-empty.** The scoring tools for pulse and plant protein (digestible
-  amino-acid content, antinutrients) are staged but not yet ingested — the top acquirable gap for
-  extending the protein lever to plant-heavy diets.
+- **Plant-protein quality resolves only to a surrogate.** The scoring tools are held and woven: FAO's
+  DIAAS score and the antinutrient appraisal both sit on [[Protein Quality and the DIAAS Score]]. What
+  stays open is that DIAAS predicts amino-acid adequacy rather than any patient-important outcome, and
+  that scoring a realistic plant-heavy food-set needs a food-composition database the wiki does not hold
+  (a `G` gap).
 - **Subgroup harm is mostly unquantified.** The "mildly harmful to the leaner 40%" placements in bucket
   (b) are mechanism-plus-conditionality, not measured interaction.
-- **The personal-fat-threshold is mechanism-grade, not outcome-grade.** That risk tracks fat *depot*
-  over BMI is well-corroborated in mechanism and in the normal-weight-diabetic minority, but no held
-  trial *randomizes to a depot target* — it steers the reframe, it does not prove an outcome.
+- **The personal-fat-threshold is mechanism-grade, not outcome-grade.** Risk tracks fat *depot* over
+  BMI, well-corroborated in mechanism and in the normal-weight-diabetic minority. But no held trial
+  *randomizes to a depot target* — it steers the reframe, it does not prove an outcome.
 - **No evidenced anthropometric or resting-HR targets are held** — waist, VO2max and resting heart rate
   are progress markers here, not cutoffs.
 - **Rate of weight loss and the maintenance phase are under-specified.** The one held guideline deleted
@@ -445,6 +470,10 @@ wisdom.
   rapid-regain caution on *unmeasured* weight-cycling harm — a measured rate/maintenance-outcome trial
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-01">
 
 ## Caveats
 
@@ -465,6 +494,8 @@ wisdom.
 > | **Evidence included** | 44 sources — 26 gold, 15 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-04 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+> | **Last updated** | 2026-10-01 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+
+</div>
 
 ## References

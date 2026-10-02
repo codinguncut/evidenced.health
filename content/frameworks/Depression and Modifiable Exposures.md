@@ -93,8 +93,6 @@ but it is the direction the *volume-is-not-independence* and expectancy rules an
 supplement levers must be ranked by WARRANT, not by point estimate (the ranking below, and the DECOMPOSITION
 delta).
 
-<div class="recent-update" data-last-updated="2026-09-28">
-
 ## The levers, ranked by warrant
 
  — the ranking below is the wiki's own synthesis across the sources, not a claim in any one.
@@ -152,9 +150,6 @@ claim — see the distinction below).
 
 
 [@noetel2024exercise]
-
-</div>
-
 ## Lever 1 — Exercise treats depression (RCT-grade, low certainty)
 
 A Bayesian network meta-analysis of **218 RCTs / 495 arms / 14,170 participants** with major depressive
@@ -450,8 +445,6 @@ treatment stratum (Liao, small/fragile). All still on the self-reported symptom-
 [[Surrogate Outcomes|surrogate]].
 
 [@musazadeh2023vitd]
-<div class="recent-update" data-last-updated="2026-09-28">
-
 ## Lever 4 — Vitamin D: a second BLINDED supplement lever, but the arms are unseparated
 
 An umbrella meta-analysis (Musazadeh 2023) pooling **existing meta-analyses** of vitamin D and depression,
@@ -523,10 +516,6 @@ so the two can **never** count as independent type-E corroboration; the topics d
 today, but the flag stands. Held at **low** (RCT arm) / **very low** (observational arm) certainty:
 direction secure for the deficient/depressed, repletion-vs-enhancement unseparated, dose fragile.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-28">
-
 ## Lever 4, the enhancement arm — VITAL-DEP is a large powered RCT-null in the REPLETE (Okereke 2020)
 
 [@okereke2020vitaldep]
@@ -595,9 +584,6 @@ The only cell where the quantities match (dose 2000 IU/d) shows **agreement**; e
 **different quantities**, so the apparent umbrella-benefit-vs-RCT-null is a scope distinction, not a tension.
 
 [@marx2019saffron]
-
-</div>
-
 ## Lever 5 — Saffron: the large-effect / weak-warrant supplement (very low certainty)
 
 A systematic review and meta-analysis (Marx 2019) of **23 short RCTs / 1237 participants** of saffron
@@ -662,8 +648,6 @@ omega-3), so it adds a new outcome cell without laundering held evidence. Its ef
 (inflammation-stratified response) cites the *same* Rapaport 2016 proof-of-concept the omega-3 lever cites —
 a shared citation, not a second independent route -> [[Inflammation as a Modifiable Lever]].
 
-<div class="recent-update" data-last-updated="2026-09-28">
-
 ## Synthesis — what this domain does and does not license
 
 
@@ -715,7 +699,5 @@ a shared citation, not a second independent route -> [[Inflammation as a Modifia
 - **Open loop:** no operation here grades these against a *realized* patient outcome; the evidence is
   symptom-scale change, and the trajectory/quality-of-life shape depression most degrades is
   under-measured.
-
-</div>
 
 ## References

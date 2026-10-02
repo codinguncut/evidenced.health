@@ -75,8 +75,6 @@ each other: USPSTF 2022 *pools* VITAL, and CARET is a primary trial *inside* bot
 evidence and the Bjelakovic meta-analysis. The value here is not *several sources agree* — it is the
 **structure** the sources jointly imply, which none states alone.
 
-<div class="recent-update" data-last-updated="2026-09-28">
-
 ## Enhancement in the replete tests null-to-harm
 
 Two of the three arms are well-populated, and both land against the supplement:
@@ -291,8 +289,6 @@ VITAL, so not an independent second witness), broadening the enhancement-null to
   -> [[The U-Shaped Association Artifact]]. [inferred from @zhang2019vitd]
   the RCT-vs-cohort divergence is the artifact-check: the cohort HR is not evidence the deficient would
   benefit from repletion on mortality; that arm stays untested here.
-
-</div>
 
 ## The lower (repletion) arm — now demonstrated for one nutrient x outcome
 

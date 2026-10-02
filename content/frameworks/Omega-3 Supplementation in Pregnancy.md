@@ -13,7 +13,6 @@ relationships:
   related_to: [Marine Omega-3 Supplementation Across Outcomes, Fish and Seafood Consumption, Omega-3 Supplementation and Atrial Fibrillation, Depression and Modifiable Exposures, Iodine Supplementation in Pregnancy]
   extends: [Deficiency Repletion vs Enhancement]
 ---
-<div class="recent-update" data-last-updated="2026-09-29">
 
 **The decision this page serves.** Should a pregnant woman take omega-3 (fish oil, or DHA/EPA)
 supplements to reduce preterm birth or other adverse perinatal outcomes? The honest top-line
@@ -35,8 +34,6 @@ below.
 (self-reported scales), the primary endpoint here is a **hard, patient-important neonatal
 outcome** — preterm birth (<37 wk) and early preterm birth (<34 wk) — so the finding rests on
 event counts, not questionnaire scores.
-
-</div>
 
 ## The crude signal, and why it does not hold
 
@@ -110,8 +107,6 @@ Omega-3's dose-response is not one curve. On this pregnancy page the harm edge a
 [[Fish and Seafood Consumption]] / [[Depression and Modifiable Exposures]] the relevant doses and
 directions differ again. Same molecule, different outcome, different curve — do not transport a
 dose from one outcome to another.
-
-<div class="recent-update" data-last-updated="2026-09-29">
 
 ## The landmark comparator, now held — Middleton 2018 Cochrane
 
@@ -300,10 +295,6 @@ dominates Serra's pool, while Middleton's HIGH-graded 0.58 predates it. So the e
 Confidence stays `moderate`: two gold syntheses agree on the primary-outcome low-RoB estimate, and the
 ePTB gap is now explained (roster/dating), not an open contradiction.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-28">
-
 ## Bottom line for the decision
 
 - For a **reasonably-nourished** pregnant woman, the low-bias randomized evidence does **not
@@ -328,7 +319,5 @@ ePTB gap is now explained (roster/dating), not an open contradiction.
 - `confidence: moderate` — two gold SR/MAs (one Cochrane, GRADE-rated) now converge on the
   primary-outcome low-RoB estimate; they share an RCT base (not independent) and disagree on the
   verdict-bearing analysis and on early-preterm birth, which caps confidence below high.
-
-</div>
 
 ## References

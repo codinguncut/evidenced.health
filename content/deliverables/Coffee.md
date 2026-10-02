@@ -77,6 +77,8 @@ knee in the curve.
 Shape aside, the substantive question is *which* outcomes coffee moves, in which direction, and how
 certainly.
 
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## What coffee moves, by evidence state (the outcome menu)
 
 The shape tells you how a benefit accrues with dose; it does not tell you which benefits are real.
@@ -130,12 +132,15 @@ non-significant, observational estimates null.
 **Cancer** splits by row. Total cancer *incidence* carries a benefit association (\~0.82), but most
 single sites are null, and the apparent *harms* (lung cancer OR 1.59; cancer mortality among smokers)
 run through smoking rather than coffee. The IARC 2016 monograph that reclassified coffee is not held in
-the fabric, so this appraisal makes no cancer-causation claim in either direction.
+the fabric, so this appraisal makes no cancer-causation
+claim in either direction.
 
 Bone/fracture and the pregnancy harm are stratum-specific and appear with the two real harms below.
 Two of the benefit rows above — all-cause mortality and total cancer — are hostage to a single
 confounder: coffee drinkers are enriched for smokers, and smoking is the dominant driver of both death
 and cancer. Before either can be read as coffee's doing, it needs the smoking correction.
+
+</div>
 
 ## Smoking confounds the curve: Grosso's referent correction
 
@@ -256,6 +261,8 @@ the evidence, so this reading is, not a measured finding.
 Sweetened-versus-unsweetened is one question the evidence cannot yet answer — and it is not the only
 one.
 
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## What the evidence does NOT settle (named gaps)
 
 Three questions stay open, and they are *insufficient evidence*, not evidence of no effect — the distinction the four-state discipline keeps: silence from an unstudied question is not a null.
@@ -267,6 +274,8 @@ Three questions stay open, and they are *insufficient evidence*, not evidence of
 - **Respiratory outcomes and the natural history of established disease.** Respiratory endpoints, and the course of already-diagnosed disease (only one MA, post-MI), rest on too little evidence to state a direction — **insufficient**, held as a gap [@poole2017].
 
 Netting the settled, the confounded, and the still-unknown is what produces the decision.
+
+</div>
 
 ## Decision summary — for whom, what to do
 

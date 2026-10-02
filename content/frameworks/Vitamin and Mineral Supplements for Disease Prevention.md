@@ -753,8 +753,6 @@ scope limits keep the null honest without overturning it:
 
 
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## REDUCE-IT cashes the high-dose stratum — and it is a DIFFERENT exposure, not a contradiction of VITAL `[2026-08-04, Bhatt]`
 
 The reflex on seeing REDUCE-IT (benefit) beside VITAL (null) is to file a tension: *does omega-3 prevent
@@ -888,8 +886,6 @@ Hu's slope is exploratory and 4-g-driven — but the corpus should note that its
 plateau is contested by a linear clinical dose-response from the same group.
 [inferred from @hu2019omega3cvd; @manson2019n3]
 
-</div>
-
 ## The sharpest boundary — the deficient stratum on a DIFFERENT outcome (Martineau, vitamin D x ARI)
 
 The general-population null above is **enhancement in the replete, on fractures/cancer/CVD**. It does not
@@ -994,8 +990,6 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   observation is appraised on [[Which Objective Moved This Recommendation]], not scored against the
   weighting [PRIOR] in this ingest.
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## Self-critique `[run 2026-09-04, before commit — Pittas 2023 vitamin-D IPD-MA woven; AWAITS cashed]`
 
 - **AWAITS cashed correctly.** The prediabetes HR 0.85, previously borrowed from Demay's guideline and
@@ -1019,10 +1013,6 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
 - **Coherence, not validity** (R1): the loop is open; the treat-to-target question and the
   general-population non-transportability are named as gaps, not resolved.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## Self-critique `[run 2026-09-29, before commit — Hu 2019 marine-omega-3 CVD meta-analysis woven]`
 
 - **Not overclaimed.** Hu's pooled excl-REDUCE-IT benefit is stated as Hu's own verbatim conclusion and
@@ -1040,7 +1030,5 @@ is a surrogate-flagged **gap**, not a demonstrated effect like vit-D/iron/iodine
   wider dose range) and Hu's slope is exploratory/outlier-driven. Same author (Manson) on both sides, noted.
 - **Counter-passage read.** VITAL's own plateau clause (held on this page) and Hu's dose-response section
   with its caveats were read end-to-end before the nuance was filed.
-
-</div>
 
 ## References

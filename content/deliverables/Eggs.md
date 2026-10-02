@@ -222,6 +222,8 @@ flags the «uncontrolled risk factors associated with egg consumption (i.e., bac
 [@godos2020] as a live confounder in
 the male heart-failure signal). Judge the meal, framed as a substitution, not the egg on its own.
 
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## The bottom line, as a decision
 
 If you are broadly healthy, **eat eggs freely** — the cardiovascular case for restricting them does not
@@ -237,10 +239,12 @@ and a trial of the breakfast swap. Read the reassurance as **well-founded but lo
 >
 > | | |
 > |---|---|
-> | **Question** | 'What does the evidence show about eating eggs — and the dietary cholesterol they carry — on |
-> | **Evidence included** | 5 sources — 3 gold, 1 high, 1 unregistered |
+> | **Question** | 'What does the evidence show about eating eggs — and the dietary cholesterol they carry — on each patient-important outcome (CHD, stroke, heart failure, CVD and all-cause mortality, type-2 diabetes): in which direction, how large in absolute terms, for whom, and how certain? Does the answer change once dietary cholesterol the nutrient is separated from eggs the food, once one endpoint is read at a time, and once the general population is separated from a dysmetabolic (diabetic / hyperlipidemic) stratum? How large is any effect that survives the observational and dietary-measurement-error caveats, relative to the dominant levers, so the realistic options (eat freely / cap habitual intake / change the breakfast it substitutes for) can be weighed?' |
+> | **Evidence included** | 5 sources — 4 gold, 1 high |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. (1 not yet in the registry.) |
+> | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Eggs.md) |
+
+</div>
 
 ## References

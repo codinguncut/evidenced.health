@@ -8,9 +8,9 @@ sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated F
   Iso-Markku - Physical Activity Dementia 2022, Peters - Blood Pressure Lowering Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-01
-self_critiqued: 2026-09-04
-concrete_subject_audited: 2026-10-01
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
 
 > [!warning] Applies to a specific group
@@ -20,25 +20,29 @@ concrete_subject_audited: 2026-10-01
 > the specifics here may not transfer — mind the conditionality flags, and the population-level picture
 > can differ.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Who this is for
 
-A representative Western adult in their late 40s (roughly 45-50) sitting around
+Picture a representative Western adult in their late 40s (roughly 45-50), sitting around
 the metabolic-drift median: central adiposity, borderline-high blood pressure, borderline-high fasting
 glucose (prediabetes-leaning, not diabetic), elevated triglycerides, low-grade inflammation, a modestly
 raised resting heart rate, drifting toward metabolic syndrome and fatty liver. **Drifting, not
-diseased.** This is a stratum, not a person and not everyone: about 40% of the people this description is
+diseased.** This is a stratum, not a person and not everyone. About 40% of the people this description is
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
 
-<div class="recent-update" data-last-updated="2026-10-01">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The finding, stated first
 
 For this stratum, two levers dominate: **movement** (any-intensity volume plus
 resistance) and **losing visceral fat** — both large, both robust across the distribution, both acting on
-the whole metabolic cluster the person is drifting through. The newer evidence forces one correction
-on the weight rock: *where* the fat sits carries the risk (it spills into liver and pancreas past a
-personal threshold), not the number on the scale — so **steer by depot and metabolic status, not BMI**. The exposures that generate the most argument and content — low-carb versus low-fat,
+the whole metabolic cluster the person is drifting through. Newer evidence forces one correction on the
+weight rock. *Where* the fat sits carries the risk, not the number on the scale: fat spills into liver and
+pancreas past a personal threshold — so **steer by depot and metabolic status, not BMI**. The exposures that generate the most argument and content — low-carb versus low-fat,
 sugar percentages, saturated-fat fine-tuning — are mostly either small or conditional on metabolic status,
 and should not lead.
 
@@ -63,9 +67,9 @@ Adiposity recurs the same way — midlife obesity raises dementia risk (RR 1.31,
 [@livingston2024], and body fatness is a WCRF cause of cancer
 at multiple sites [@wcrf2018ter]. Read these
 per-disease numbers as *breadth*, not one stacked effect: each is a different outcome in a different
-population, co-membership evidence rather than a commensurable magnitude. And breadth does not make the
-diseases interchangeable — the shared logic breaks disease-specifically, and where it flips it is an
-artifact, not a lever: smoking's association even runs *protective* in Parkinson's, an artifact of reverse
+population, co-membership evidence rather than a commensurable magnitude. Breadth does not make the diseases
+interchangeable. The shared logic breaks disease-specifically, and where it flips, the flip is an
+artifact, not a lever: smoking's association even runs *protective* in Parkinson's — an artifact of reverse
 causation over its long prodrome, never a licence to act ([[Shared Modifiable Levers Across Age-Related Diseases]]).
 
 Diet enters the dementia picture the same way — through the levers already counted, not beside them. More
@@ -74,11 +78,13 @@ fruit and vegetables tracks lower cognitive-disorder risk (OR 0.82, 0.75-0.90)
 inside those same foods track better cognitive test scores (OR 0.90, 0.83-0.98) — but that flavonoid
 signal is null on dementia and Alzheimer's diagnoses, moving only the softer decline endpoint
 [@peng2025flavonoid]. Both are observational, and the
-flavonoid estimate is a re-expression of the same fruit-and-vegetable signal in component units, not a
+flavonoid estimate simply re-expresses the same fruit-and-vegetable signal in component units; it is not a
 second independent one. Both plausibly run through the vascular and metabolic channels the big rocks
 already pull, so a better diet is a *route* to those rocks, not a fifteenth separate thing to do.
 
 </div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## How the levers are sorted
 
@@ -93,14 +99,16 @@ evidence shows it does for the drifting majority *and* to the leaner minority:
 - **(c) Over-published, small, or contested** — small effect and/or a live disagreement. Do not lead
   with these, whatever their share of the discourse.
 
-Bucket (b) now has a *mechanism*, not just a pattern: the personal-fat-threshold idea explains why the
-same lever helps the metabolically impaired and does little for the lean — they differ in whether they
+Bucket (b) now has a *mechanism*, not just a pattern. The personal-fat-threshold idea explains why the
+same lever helps the metabolically impaired and does little for the lean: they differ in whether they
 sit above their own storage threshold, not in kilograms. One honest limit remains on the sort: the wiki
 rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is reasoning from mechanism
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
-<div class="recent-update" data-last-updated="2026-10-01">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## (a) Robust big rocks — lead here
 
@@ -118,8 +126,8 @@ the steepest drop is the first step off zero.
 The curve then flattens. A modest daily dose of moderate-to-vigorous activity captures most of the
 mortality benefit, with the most-active quarter at HR 0.27 (0.23-0.32); above the maxima no further
 reduction appears [@ekelundacc2019]
--> [[Physical Activity Dose and Mortality]] (where the plateau dose is stated). A steep low-dose knee
-carries the decision: the first movement, at any intensity, delivers the most, then feeds a broad flat
+-> [[Physical Activity Dose and Mortality]] (where the plateau dose is stated). The first movement carries
+the decision: at any intensity it delivers the most, then feeds a broad flat
 zone, not a hard threshold. In steps, the
 plateau sits near 6,000-8,000/day for adults over 60 and 8,000-10,000 for younger adults; 10,000 is a
 marketing number, not a target [@paluch2022].
@@ -205,8 +213,8 @@ cardiovascular disease (HR 1.40) [@easl2024].
 ### Keep protein adequate — defensive, during the deficit
 
 Protein's job here is to defend lean mass while fat comes off. Aim for roughly 1.6 g per kg of body
-weight per day. The break point where the muscle-building benefit flattens in resistance-training trials
-is a soft, non-significantly-located knee sitting on a wide interval, not a demonstrated threshold
+weight per day. In resistance-training trials, the muscle-building benefit flattens at a soft,
+non-significantly-located knee sitting on a wide interval — not a demonstrated threshold
 [@morton2018]
 -> [[Protein and Resistance Training for Muscle and Strength]] (where the break point and its interval are
 stated). That break was measured on *total* body weight in lean, normal-BMI trainees, so read it loosely,
@@ -292,7 +300,7 @@ and raises incident type-2 diabetes about 9% per hour lost (RR 1.09, 1.04-1.15)
 short sleep; the target is simply adequate sleep (roughly 6 h and up), not a narrow band
 -> [[Sleep Duration and Mortality]]. Long sleep is a marker of illness, not a target to trim.
 
-The cognition evidence points the same way and sharpens which arm is actionable. Short sleep (under 7 h)
+Cognition studies point the same way, and sharpen which arm is actionable. Short sleep (under 7 h)
 tracks cognitive *decline*, not a dementia diagnosis, while the long-sleep-to-dementia signal is most
 likely a preclinical marker — early disease lengthening sleep, not sleep causing disease — so it is no
 reason to trim an 8-hour night [@zhang2025sleep].
@@ -319,7 +327,7 @@ optimizing — itself a decision-change.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-01">
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## (b) Stratum-dependent — conditional on metabolic status
 
@@ -334,8 +342,8 @@ for a lean, normotensive person the benefit is small and the effort closer to ne
 The hard-outcome
 evidence for sodium itself is very-low certainty. But *pharmacological* blood-pressure lowering is
 proven to cut events even in primary prevention and even at normal pressure (HR **0.91 per 5 mmHg**),
-so the blood-pressure channel is real. The caveat: a sodium-induced drop transmitting to events
-is an assumption, not the same evidence [@bplttc2021]. Western intake runs \~9-10 g salt against a 5 g target [@esc2021]. Treat on overall risk, not the number.
+so the blood-pressure channel is real. The caveat: that a sodium-induced drop would transmit to events
+remains an assumption, not the same evidence [@bplttc2021]. Western intake runs \~9-10 g salt against a 5 g target [@esc2021]. Treat on overall risk, not the number.
 
 Blood-pressure lowering also holds the one *randomized* dementia arm the whole cognition literature has.
 Pooling five double-blind placebo-controlled antihypertensive trials, treatment cut incident dementia
@@ -375,21 +383,21 @@ Most people in this stratum are not yet on any glucose-lowering drug, so this no
 the dysglycemic end of it. Among those who are, the drug *class* appears to matter for
 cognition: metformin, GLP-1 and SGLT2 agents track lower dementia risk (metformin RR 0.83), the older
 sulphonylureas higher (RR 1.39) [@kuatedefo2023].
-The evidence is observational, low-certainty, and heavily confounded by which patients get which drug —
-first-line metformin marks earlier, healthier disease; secretagogues mark later, more severe disease — so
+The evidence is observational, low-certainty, and heavily confounded by which patients get which drug.
+First-line metformin marks earlier, healthier disease; secretagogues mark later, more severe disease. So
 part of the gap is disease stage, not the pill acting on the brain. This is a drug-versus-drug refinement
 for a prescriber, not a lever that resizes the weight rock, and not one most of this stratum needs.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-01">
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## (c) Over-published, small, or contested — do not lead
 
-### Free sugars
+### Free sugars — a dental limit, not a weight lever
 
-The famous 10%-of-energy limit is, on the evidence, a **dental** recommendation; on
-body weight the effect is an *energy* effect, not a sugar-specific one — swapping free sugars for other
+The famous 10%-of-energy limit is, on the evidence, a **dental** recommendation. On
+body weight the effect is an *energy* effect, not a sugar-specific one: swapping free sugars for other
 carbohydrate at equal calories moves weight by **0.04 kg** (null) [@who2015]. The real cardiometabolic value of cutting sugar for this stratum is removing
 liquid calories (sugar-sweetened beverages), which belongs to the energy-down big rock above — not to
 hitting a sugar percentage.
@@ -473,7 +481,7 @@ carb-restriction's value as conditional on metabolic status rather than universa
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-01">
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Caveats
 
@@ -494,7 +502,7 @@ carb-restriction's value as conditional on metabolic status rather than universa
 > | **Evidence included** | 44 sources — 26 gold, 15 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-01 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
 
 </div>
 

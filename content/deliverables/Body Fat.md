@@ -245,6 +245,8 @@ benefits how much then runs through baseline risk -> [[Baseline Risk and the Rel
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
 
+<div class="recent-update" data-last-updated="2026-10-01">
+
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
 The intuitive claim is that shedding fat prevents heart attacks and extends life. Tested head-on, the
@@ -409,6 +411,7 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
+</div>
 
 <div class="recent-update" data-last-updated="2026-09-29">
 

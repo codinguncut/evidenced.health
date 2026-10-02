@@ -19,8 +19,6 @@ relationships:
     - Is the Food Category Doing Any Work
 question: "Should someone take marine omega-3 (fish oil / EPA-DHA) supplements 'for health', and does the answer depend entirely on which outcome and what dose?"
 ---
-<div class="recent-page" data-last-updated="2026-09-29"></div>
-
 
 **The decision this page serves.** A person asks whether to take fish oil "for health". That question
 has no answer as posed. Marine omega-3 *supplementation* (the isolate — capsules of EPA/DHA or

@@ -7,9 +7,9 @@ authors: [Knowler, William C; Tuomilehto, Jaakko; Pan, Xiao-Ren; Hamman, Richard
 sources: [Knowler - Diabetes Prevention Program DPP 2002, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Goldberg - DPPOS Cardiovascular Events 2022, Lean - DiRECT T2D Remission 2018, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Jenkins - Glycaemic Index Load Outcomes Series 2024, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Reith - Statin New-Onset Diabetes 2024, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 confidence: medium
 created: 2026-09-09
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
 
 Type 2 diabetes hides two separate decisions under one disease name, and the evidence answers them
@@ -32,12 +32,14 @@ is observational — and remission relapses if the weight comes back.
 One thread runs through both decisions: what you choose has to be something you keep doing. A
 programme that is abandoned reverts, whether it is a prevention curriculum, a formula diet, or a drug.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## For prediabetes, changing how you live out-prevents the drug
 
 The Diabetes Prevention Program (DPP) is the head-to-head. It randomised 3,234 adults with prediabetes
-(mean BMI 34, age 51) to an intensive lifestyle programme — a goal of at least 7% weight loss and 150
-minutes of activity a week, with a 16-lesson curriculum and case managers — to metformin 850 mg twice
-daily, or to placebo, and followed incident diabetes over a mean 2.8 years
+(mean BMI 34, age 51) to one of three arms: an intensive lifestyle programme — a goal of at least 7%
+weight loss and 150 minutes of activity a week, delivered with a 16-lesson curriculum and case managers
+— metformin 850 mg twice daily, or placebo. It then followed incident diabetes over a mean 2.8 years
 [@knowler2002]. Both active arms worked; the
 behaviour change worked better: «The lifestyle intervention reduced the incidence by 58 percent (95
 percent confidence interval, 48 to 66 percent) and metformin by 31 percent (95 percent confidence
@@ -92,6 +94,10 @@ These numbers are the effect of a programme *as actually adhered to*: DPP's life
 its 58% even though only 38% still
 held a 7% loss at the final visit [@knowler2002].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Metformin's ceiling, and why the prevention win is a diagnosis rather than a heart attack
 
 Metformin is the default first-line drug for this stratum, so the lifestyle lever has to be sized *at
@@ -120,9 +126,13 @@ antihypertensives 68-74%), leaving little absolute risk to remove.
 The same prevention question, asked in a **higher-risk** cohort over 30 years (Da Qing), *did* show a
 cardiovascular benefit, MACE HR 0.74 (0.59-0.92)
 [@goldberg2022]. Absolute benefit scales with
-baseline risk. So the honest statement to a low-risk prediabetic person is that lifestyle prevents the
-diagnosis; the hard-outcome payoff, if any, needs higher risk or a longer horizon than the evidence
+baseline risk. So tell a low-risk prediabetic person the honest thing: lifestyle prevents the
+diagnosis. Any hard-outcome payoff needs higher risk or a longer horizon than the evidence
 has yet followed -> [[Baseline Risk and the Relative-Absolute Split]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The GLP-1 drug class is the strong hard-outcome lever — for a different job than remission
 
@@ -142,7 +152,7 @@ The cost is a real adherence tax: discontinuation for adverse events ran higher 
 stopped [@badve2024glp1].
 
 For the T2D stratum this is a mature, effective, low-harm drug, and it shrinks how much
-cardiovascular, renal, and mortality benefit the lifestyle lever must be relied on to add. Two things
+cardiovascular, renal, and mortality benefit the lifestyle lever has to add. Two things
 it does not shrink. The cardiovascular benefit here separates early, before much weight is lost, so it
 is a drug effect rather than a weight-loss effect — this evidence does not show that losing weight
 cuts events. And remission, MASLD regression, and fixing the upstream driver stay with the lifestyle
@@ -150,6 +160,10 @@ lever, which no glucose-lowering drug substitutes for. Which agent, and any dosi
 call outside this appraisal
 -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 [inferred from @badve2024glp1]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Beyond weight, two smaller levers move who develops diabetes
 
@@ -159,8 +173,8 @@ Iron from red meat is one dietary driver with a causal case, not just an associa
 risk. A gold meta-analysis of prospective cohorts put the highest-versus-lowest dietary heme-iron
 intake at RR 1.31 (95% CI 1.21-1.43), homogeneous across studies (I2 0%)
 [@zhao2012hemeiron]. Self-report and
-confounding by the rest of red meat could explain that, so the stronger evidence is a
-Mendelian-randomization study — a genetic natural experiment immune to reverse causation — which found
+confounding by the rest of red meat could explain that association. The stronger evidence is a
+Mendelian-randomization study — a genetic natural experiment immune to reverse causation. It found
 genetically higher body-iron status raised T2D risk \~7% per SD of transferrin saturation
 [@liu2024ironmr].
 The genetic test isolates body iron, not dietary heme specifically, but both point the same way:
@@ -172,12 +186,14 @@ cutting heme-iron intake is a plausible, modest prevention lever
 A statin, the standard drug for cardiovascular risk, slightly raises new-onset diabetes: a low- or
 moderate-intensity statin by 10% (RR 1.10, 95% CI 1.04-1.16), a high-intensity one by 36% (RR 1.36,
 95% CI 1.25-1.48) [@reith2024diabetes]. In absolute terms the
-moderate-dose excess is tiny — about 0.12% a year, roughly one extra case per 1,000 people per year —
-and it falls mostly on people whose blood sugar already sat near the diagnostic line (about 62% of
-new cases were already in the top quarter of baseline glycaemia), advancing a diagnosis rather than
+moderate-dose excess is tiny: about 0.12% a year, roughly one extra case per 1,000 people per year. It
+falls mostly on people whose blood sugar already sat near the diagnostic line — about 62% of new cases
+were already in the top quarter of baseline glycaemia — so a statin advances a diagnosis rather than
 creating diabetes from nothing. The cardiovascular benefit already
 outweighs it, so this is not a reason to withhold or stop an indicated statin
 -> [[Statins and New-Onset Diabetes]].
+
+</div>
 
 ## For recently diagnosed diabetes, sustained weight loss can drive it into remission
 
@@ -239,6 +255,8 @@ or under-two-year disease [@churuangsuk2022]. A
 remission that relapses when weight returns is a smaller benefit than one that holds, and no held
 randomised trial follows remission past about two years — the one five-year signal is observational.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Carbohydrate restriction is one route to the weight loss, not a separate cure
 
 The popular claim is that cutting carbohydrate specifically reverses diabetes. The evidence says the
@@ -271,9 +289,13 @@ remission one. A second gold umbrella review found low-carb (<26% energy) cut Hb
 certainty) and «reduced the use of drug treatments by an additional 24 per 100 individuals» (risk
 difference 0.24, moderate certainty) — the firmest clinical outcome in either umbrella
 [@szczerba2023]. So a person who adheres to
-a low-carb diet can reasonably expect better glycaemia and fewer drugs; a *durable, medication-free
-remission* attributable to the carbohydrate cut, beyond the weight it produces, is not shown
+a low-carb diet can reasonably expect better glycaemia and fewer drugs. But a *durable, medication-free
+remission* attributable to the carbohydrate cut — beyond the weight it produces — is not shown
 -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## For glycaemic control, no macronutrient pattern beats energy balance — with two caveats
 
@@ -304,20 +326,24 @@ whole-grain content — more legumes, intact and minimally-refined carbohydrate,
 ones — captures most of what steering by GI would, and is the same advice
 -> [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
 
-A related point on *measurement*: insulin resistance sits upstream of both prevention and remission,
-and a cheap fasting readout, the triglyceride-glucose (TyG) index, flags the insulin-resistant person
+Measurement matters here too. Insulin resistance sits upstream of both prevention and remission,
+and a cheap fasting readout — the triglyceride-glucose (TyG) index — flags the insulin-resistant person
 from two routine labs. It predicts cardiovascular *incidence* (CAD HR 2.01) but is **null on
 mortality** (CV mortality 1.10, all-cause 1.08, both confidence intervals crossing 1) and adds nothing
 over an existing risk score [@liu2022tyg].
 Use it to *place* someone in the insulin-resistant stratum, not as a target to steer down
 -> [[Insulin Resistance Surrogates and Cardiovascular Risk]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## What the guidance bodies say, and the one place they split
 
 Two diabetes-diet guidelines now bracket this evidence — the American Diabetes Association (ADA 2019)
 and Europe's EASD-DNSG (2023). Both rest on the same trials this page is built on: DiRECT, Look AHEAD,
-the same low-carbohydrate meta-analyses. So where they agree, that is shared-evidence agreement, not
-two independent bodies confirming each other.
+the same low-carbohydrate meta-analyses. So where they agree, they are leaning on the same evidence, not
+independently confirming each other.
 
 On the core they agree. Neither endorses a macronutrient formula — ADA finds «there is not an ideal
 percentage of calories from carbohydrate, protein, and fat»
@@ -352,6 +378,8 @@ the person who will adhere with monitoring, the two agree. The full parameter ta
 [[Diets for Weight Management in Type 2 Diabetes]] -> [[The U-Shaped Association Artifact]].
 [inferred from @evert2019; @dnsg2023]
 
+</div>
+
 ## What to do, by where you stand
 
 **If you have prediabetes.** An intensive lifestyle programme is first-line: a \~7% weight-loss goal
@@ -373,14 +401,16 @@ withdrawal with a clinician — the endpoint is normal HbA1c *off* drugs — and
 be maintained, because remission relapses if the weight returns. This lever also applies below BMI 27,
 where trials routinely exclude people but the mechanism does not.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## What the evidence still cannot see
 
 - **No GLP-1-versus-lifestyle head-to-head for remission.** The class hard-outcome evidence is now
   held (above), and these drugs sharply cut progression from prediabetes to diabetes
-  -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]. What is still missing is a
-  dedicated trial of a GLP-1 drug *versus lifestyle for T2D remission* and its durability; and the
-  strongest-weight-loss agent (tirzepatide) was excluded from the class hard-outcome pool by design
-  and has no hard-outcome trial of its own. Named gap.
+  -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]. Two trials are still missing.
+  One would test a GLP-1 drug *versus lifestyle for T2D remission* and its durability. The other would
+  cover the strongest-weight-loss agent (tirzepatide), excluded from the class hard-outcome pool by
+  design and so without a hard-outcome trial of its own. Named gap.
 - **Bariatric surgery as a remission comparator is not held.** DiRECT argues surgery works through
   weight loss rather than any surgical effect, and surgery anchors a durable mortality benefit
   elsewhere in the fabric -> [[Body Fat]] — but no dedicated source on surgical *remission* rates and
@@ -402,5 +432,7 @@ what actually happened to people who followed them.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+
+</div>
 
 ## References

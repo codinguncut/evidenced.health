@@ -8,14 +8,15 @@ authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Asso
 sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023]
 confidence: low
 created: 2026-08-05
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
-**When you eat is a smaller lever than almost anyone selling it believes.** In the trials that hold
-calories steady and vary only the clock, the eating window adds essentially nothing to the weight and
-metabolic changes that the calorie deficit was already producing. Fasting schedules "work" in the wild
+**When you eat is a smaller lever than almost anyone selling it believes.** When trials hold calories
+steady and vary only the clock, the eating window adds essentially nothing to the weight and metabolic
+changes the calorie deficit was already producing. Fasting schedules "work" in the wild
 mostly because a shorter window makes people eat less and gives them a rule they can follow -- the
 deficit and the adherence are doing the work, not the timing.
 
@@ -31,6 +32,7 @@ protein-poor window preferentially strips lean mass; and after any large loss th
 weight with a hormonal headwind that persists for at least a year. And for the biggest weight lever of
 all, a drug now beats anything fasting can deliver.
 
+</div>
 
 ## Holding calories constant, the eating window adds almost nothing
 
@@ -53,28 +55,33 @@ distinct exposures, and the daily-window version is a delivery vehicle for a def
 independent lever. [inferred from @liu2022; @semnaniazad2025]
 
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Eating more often is not a weight lever either
 
 The same logic settles the *weight* half of the *grazing* belief -- that small, frequent meals stoke
-metabolism and speed weight loss. Meal frequency is the meal-count knob on the identical
+metabolism and speed weight loss. Meal count is just another version of the same
 pattern-versus-total-intake question, and the trials that fixed the eating window held meals at three a
-day as a matched control rather than testing frequency as an exposure. Once calories are fixed, eating
-more often is not a weight lever: the effect lives in the deficit, not the schedule. What the held
-evidence does *not* settle is the narrower mechanistic claim, that more frequent meals raise energy
-expenditure through a more frequent thermic effect of food -- no frequency-specific expenditure trial is
-held, so that arm is insufficient-evidence, neither confirmed nor refuted. The decision answer is clear
-even where the mechanism stays open: do not add meals to burn more.
+day as a matched control, not as an exposure to test. Once calories are fixed, eating more often is not
+a weight lever: the effect lives in the deficit, not the schedule. One narrower claim stays open --
+that more frequent meals raise energy expenditure through a more frequent thermic effect of food. No
+frequency-specific expenditure trial is held, so that arm is insufficient-evidence, neither confirmed
+nor refuted. The decision answer is clear even where the mechanism stays open: do not add meals to burn
+more.
 [inferred from @liu2022]
 -> [[Time-Restricted Eating]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Eating earlier moves a few markers, on the weakest possible evidence
 
 The only weight-independent benefit signal comes from shifting food *earlier*, not from shortening the
-window. In eTRF (Sutton 2018) -- a tightly controlled crossover in 8 prediabetic men, calories matched
-meal-by-meal and weight held stable by design -- eating the same food in an early 6-hour window improved
-insulin sensitivity and lowered blood pressure by about 11/10 mm Hg (p = .03) with no weight change at
-all. [@sutton2018] If real, that is a genuine
+window. eTRF (Sutton 2018) tightly controlled a crossover in 8 prediabetic men: calories matched meal-by-meal,
+weight held stable by design. Eating the same food in an early 6-hour window improved insulin
+sensitivity and lowered blood pressure by about 11/10 mm Hg (p = .03), with no weight change at all.
+[@sutton2018] If real, that is a genuine
 circadian effect: metabolism handles food better in the morning.
 
 Three things keep this from carrying a recommendation. It rests on **n = 8** on **surrogate markers**
@@ -93,6 +100,7 @@ constraint on the eTRF signal, not shielded from it.
 run a window, put it early -- the better-supported bet, but the support is weak
 -> [[Surrogate Outcomes]].
 
+</div>
 
 ## Among fasting styles, alternate-day edges the rest -- by a margin that fades
 
@@ -158,17 +166,23 @@ on liver fat. [@easl2024] Both sources point
 one way: the deficit is the medicine; the timing is packaging.
 
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Prolonged fasting and autophagy are a separate exposure the evidence does not cover
 
-A continuous fast of roughly 48 hours to several days is not a longer daily window; it is a distinct
-intervention, and the wiki holds no human trial reporting its effect on any patient-important outcome.
+A continuous fast of roughly 48 hours to several days is not a longer daily window but a distinct
+intervention. The wiki holds no human trial reporting its effect on any patient-important outcome.
 That is the *insufficient-evidence* state, not a null -- neither the enthusiast's promise nor the
 skeptic's dismissal follows from silence. The popular case rests on **autophagy** (a cellular-recycling
-process) and on longevity signals from animals; but in live humans no held source measures autophagy
+process) and on longevity signals from animals. But in live humans, no held source measures autophagy
 against a patient-important outcome, so autophagy stays a *mechanism*, never a result -- a human-autophagy /
 longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic multi-day low-calorie
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 
@@ -204,9 +218,9 @@ just the size. The fabric holds no evidence to bound the flip, so name the axis 
 glucose-lowering medication or with type 1 diabetes** (the hypoglycaemia axis); **with advanced liver
 disease**; and **when underweight, pregnant, frail-elderly, or carrying a history of an eating
 disorder**. Whether to attempt a fast, how to adjust medication around it, and how to refeed afterwards
-are prescriber acts needing this person's labs and history, out of scope here -- and a refeeding-syndrome
-/ electrolyte-safety source is a **named gap**, which is exactly why the flip cannot be quantified
-.
+are prescriber acts: they need this person's labs and history, and sit out of scope here. A
+refeeding-syndrome / electrolyte-safety source is a **named gap**, which is exactly why the flip cannot
+be quantified.
 
 A cross-domain caution reinforces the theme. When sleep is manipulated -- an adjacent timing lever --
 Capers 2015 found «sleep restriction increases food intake and total energy expenditure with
@@ -215,6 +229,9 @@ inconsistent effects on integrated energy balance as operationalized by weight c
 compensates; a timing change's naive prediction routinely fails to survive it
 -> [[Sleep and Metabolic Health]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## A drug now dwarfs the biggest effect fasting can offer
 
@@ -230,20 +247,25 @@ cardiovascular events in secondary prevention (HR 0.80, 95% CI 0.72-0.90; \~1.5 
 absolute reduction over 3.3 years, NNT \~67).
 [@wilding2021] [@lincoff2023]
 The drug's benefit reverses on stopping and carries a real tolerability tax, so it is a maintained
-commitment, not a one-time fix -- and it is the same weight lever, a different route, combinable with
+commitment, not a one-time fix. And it is the same weight lever by a different route -- combinable with
 diet, not either/or -> [[Semaglutide for Cardiovascular Risk in Obesity]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Meal timing gets attention out of all proportion to its effect
 
-Fasting is discussed far more than its measured effect warrants, and that inversion is itself a signal:
-in a mature area the large, settled levers are boring and the small, contested ones generate content.
+People discuss fasting far more than its measured effect warrants, and that inversion is itself a
+signal: in a mature area the large, settled levers are boring and the small, contested ones generate
+content.
 Everything meal timing reliably moves is a surrogate; its weight effect beyond the deficit is trivial
 and short-lived; and it sits well below the big rocks (smoking, heavy adiposity, inactivity, alcohol,
 chronic sleep loss). Rank it by expected marginal impact, not by how loudly it is marketed
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 [inferred from @semnaniazad2025]
 
+</div>
 
 ## The bottom line
 

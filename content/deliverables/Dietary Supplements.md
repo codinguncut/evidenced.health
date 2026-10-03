@@ -4,20 +4,21 @@ title: Dietary Supplements
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-29
-self_critiqued: 2026-09-29
-concrete_subject_audited: 2026-09-25
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T]
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019]
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
 a daily multivitamin, vitamin D, fish oil, a cocoa-flavanol capsule — do essentially nothing for the
 diseases they are sold against.** In large randomized trials they sit at the bottom of the levers
 worth pulling, and no amount of dosing moves the ranking.
 
-**A short list of supplements are genuine levers — but each earns its place only in a specific
+**A few supplements are genuine levers — but each earns its place only in a specific
 circumstance:** correcting a documented deficiency, the weeks around conception, or a high-risk
 patient taking a drug-strength dose under a clinician. The benefit belongs to the circumstance, not
 to the pill.
@@ -29,6 +30,8 @@ safe default.
 **The rule that sorts all of it:** a supplement that corrects a shortfall in someone who is short
 answers a completely different question from the same pill added to a person who already has enough.
 The marketing rarely marks which question it is answering; the sections below do.
+
+</div>
 
 ## Ask whether the person is short before asking whether the supplement works
 
@@ -43,7 +46,7 @@ the other. A null from supplementing the already-replete says nothing about repl
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
 
-<div class="recent-update" data-last-updated="2026-09-29">
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## For the well-nourished, the marketed stack is a null lever
 
@@ -64,16 +67,16 @@ points.» [@manson2019vitd] Fractures were null too — vitamin D3 did
 not reduce total (HR 0.98, 0.89-1.08) or hip (1.01, 0.70-1.47) fractures
 [@leboff2022].
 
-VITAL's cohort was **not deficient** — the load-bearing fact here: mean baseline 25(OH)D was 30.8
+VITAL's cohort was **not deficient**, and that fact carries the reading: mean baseline 25(OH)D was 30.8
 ng/mL, only 12.7% below 20 ng/mL [@manson2019vitd]. So every null
 reads as *adding a nutrient to someone who already has enough buys nothing* — enhancement, not
 deficiency correction [inferred from @manson2019vitd; @leboff2022].
 
-VITAL is one trial; a pooled anchor settles the mortality endpoint a single trial could not. Zhang's
-meta-analysis of **50 RCTs of vitamin D alone** (calcium-combination trials excluded), 74,655
-participants, found supplementation did **not** lower all-cause mortality — RR **0.98 (0.95-1.02,
-I2=0%)** — and this is a robust null, not an empty one: trial-sequential analysis reached the
-information size to exclude a 7.5-10% relative-risk reduction
+VITAL is one trial; a pooled anchor settles the mortality endpoint a single trial could not. Zhang
+pooled **50 RCTs of vitamin D alone** (calcium-combination trials excluded), 74,655 participants, and
+found supplementation did **not** lower all-cause mortality — RR **0.98 (0.95-1.02, I2=0%)**. This is a
+robust null, not an empty one: trial-sequential analysis reached the information size to exclude a
+7.5-10% relative-risk reduction
 [@zhang2019vitd] ->
 [[Vitamin and Mineral Supplements for Disease Prevention]]. One narrower endpoint did move: cancer
 *mortality* fell 15% (RR **0.85, 0.74-0.97**), a signal confined to vitamin **D3** trials
@@ -84,9 +87,9 @@ evidence [inferred from @zhang2019vitd].
 
 One stratum breaks the vitamin-D null — and it breaks on **baseline disease risk, not on repletion**.
 VITAL recruited by age alone, so its cohort ran at average diabetes risk and was largely
-vitamin-D-replete, and it found nothing. Pittas' 2023 individual-participant meta-analysis instead
-pooled three low-risk-of-bias RCTs built specifically for diabetes prevention (D2d, Tromso, DPVD;
-4,190 adults with **prediabetes**, mean BMI 30, mean baseline 25(OH)D 63 nmol/L \~25 ng/mL), and there
+vitamin-D-replete, and it found nothing. Pittas instead ran a 2023 individual-participant meta-analysis,
+pooling three low-risk-of-bias RCTs built specifically for diabetes prevention (D2d, Tromso, DPVD;
+4,190 adults with **prediabetes**, mean BMI 30, mean baseline 25(OH)D 63 nmol/L \~25 ng/mL). There
 vitamin D slowed progression to type 2 diabetes: «Vitamin D reduced risk for diabetes by 15% (hazard
 ratio, 0.85 [95% CI, 0.75 to 0.96]) in adjusted analyses, with a 3-year absolute risk reduction of 3.3%
 (CI, 0.6% to 6.0%). The effect of vitamin D did not differ in prespeciﬁed subgroups.»
@@ -125,31 +128,31 @@ death 0.93 (0.88-0.99) across trials dosed mostly near 850 mg/d — with a conti
 contested-comparator REDUCE-IT artifact; a moderate-dose, dose-dependent CVD signal shows up in high-risk
 people.
 
-Two facts keep Hu from moving the healthy-adult verdict. The pooled benefit is a **high-risk,
-secondary-prevention average** — Hu names VITAL as the only usual-risk trial in the set, and VITAL stayed
+Two facts keep Hu from moving the healthy-adult verdict. First, the pooled benefit is a **high-risk,
+secondary-prevention average**. Hu names VITAL as the only usual-risk trial in the set, and VITAL stayed
 null on its 3-point MACE, so the benefit refines the high-CV-risk cell, not the replete general-prevention
-stratum this page holds. And Hu calls its own dose-response «highly exploratory», the slope riding on a few
+stratum this page holds. Second, Hu calls its own dose-response «highly exploratory», the slope riding on a few
 trials clustered in a narrow dose band
 [@hu2019omega3cvd]. For a replete adult at usual risk
 the low-dose null stands; the high-CV-risk benefit belongs to a different stratum.
 [inferred from @hu2019omega3cvd; @manson2019n3]
 
 But omega-3 supplementation is not merely inert as the dose rises — it carries a demonstrated harm.
-Gencer's meta-analysis of 7 marine-omega-3 CV-outcome RCTs (81,210 participants) found the supplements
+Gencer pooled 7 marine-omega-3 CV-outcome RCTs (81,210 participants) and found the supplements
 raised **incident atrial fibrillation**, dose-dependently: overall HR 1.25 (1.07-1.46); low-dose
 <=1 g/day HR 1.12 (1.03-1.22); high-dose >1 g/day HR 1.49 (1.04-2.15); and per 1 g/day increment HR
 1.11 (1.06-1.15)
 [@gencer2021]. The signal is robust —
 it survives dropping REDUCE-IT (HR 1.23)
 [@gencer2021]. AF here is an incident,
-patient-important RCT outcome, not a surrogate, so this is a genuine dose-dependent harm arm on the
-supplement (isolate) form — running opposite the dose-dependent CV benefit — and it does not touch any
+patient-important RCT outcome, not a surrogate. So this is a genuine dose-dependent harm arm on the
+supplement (isolate) form, running opposite the dose-dependent CV benefit, and it does not touch any
 fish-as-food claim
  -> [[Omega-3 Supplementation and Atrial Fibrillation]].
 
-An **independent** trial set reaches the same fracture-null. Kahwati's USPSTF review pooled 11 RCTs
-(N=51,419) of community-dwelling adults — using no VITAL trial, its search closing before VITAL
-published — and found vitamin D +/- calcium did not reduce fractures (D+Ca total-fracture ARD -0.35%,
+An **independent** trial set reaches the same fracture-null. Kahwati pooled 11 RCTs
+(N=51,419) of community-dwelling adults for a USPSTF review — using no VITAL trial, its search closing
+before VITAL published — and found vitamin D +/- calcium did not reduce fractures (D+Ca total-fracture ARD -0.35%,
 -1.02 to 0.31) [@kahwati2018]. Because
 the two share no trials, no group, no lineage, this is genuine independent agreement on the
 enhancement-arm fracture-null, scoped to that claim `[E-independent]`
@@ -195,6 +198,8 @@ a different exposure from cocoa the food -> [[Is the Food Category Doing Any Wor
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Some antioxidant supplements shorten lives rather than lengthen them
 
 The harm arm is the sharpest decision-change here, because it runs opposite to the *nutrients are good,
@@ -205,16 +210,16 @@ interval, 1.04 to 1.57 ...» [@omenn1996], with
 all-cause death RR 1.17 and lung-cancer death RR 1.46 in this stratum
 [@omenn1996].
 
-The harm is broader than one nutrient in one stratum. A meta-analysis of antioxidant RCTs found that,
+The harm is broader than one nutrient in one stratum. Bjelakovic pooled antioxidant RCTs and found that,
 restricted to the methodologically sound trials, supplemental antioxidants **raised** all-cause
 mortality: «In 47 low-bias trials with 180 938 participants, the antioxidant supplements significantly
 increased mortality (RR, 1.05; 95% CI, 1.02-1.08) ... beta carotene (RR, 1.07 ...), vitamin A (RR,
 1.16 ...), and vitamin E (RR, 1.04 ...), singly or combined, significantly increased mortality.»
 [@bjelakovic2007] The method lesson is
-load-bearing: the all-trials pool was null (RR 1.02, 0.98-1.06) and the harm surfaced only after
+load-bearing: the all-trials pool was null (RR 1.02, 0.98-1.06), and the harm surfaced only after
 excluding high-bias trials, in which the supplements looked spuriously protective
-[@bjelakovic2007] — risk-of-bias appraisal was
-decision-determining, and the finding is about synthetic isolates, which the authors say «should not be
+[@bjelakovic2007]. Risk-of-bias appraisal
+decided the result. And the finding is about synthetic isolates, which the authors say «should not be
 translated to potential effects of fruits and vegetables»
 [@bjelakovic2007] -> [[Is the Food Category Doing Any Work]].
 
@@ -225,6 +230,10 @@ wrinkle worth the net-effect discipline: «Although taking calcium supplements h
 colorectal cancer, some trials for other cancer sites have shown potential for unexpected adverse
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Correcting a documented deficiency is a different, real lever
 
@@ -251,10 +260,10 @@ baseline vitamin D status is more readily explicable, based on the principle tha
 most deficient in a micronutrient will be the most likely to respond to its replacement.»
 [@martineau2017]
 
-A fourth repletion stratum is defined by the **diet, not a lab value**: vegetarians and vegans have no
-appreciable plant source of vitamin B12, so biochemical depletion is common — though the reported
-prevalence is wide and cutoff-driven, «from about 11 to 90%» across 18 studies using accurate
-biomarkers, with serum B12 itself unreliable (MMA and holo-TCII are the accurate markers)
+The **diet, not a lab value**, defines a fourth repletion stratum: vegetarians and vegans have no
+appreciable plant source of vitamin B12, so biochemical depletion is common. The reported prevalence
+runs wide and cutoff-driven, «from about 11 to 90%» across 18 studies using accurate biomarkers, with
+serum B12 itself unreliable (MMA and holo-TCII are the accurate markers)
 [@pawlak2013].
 
 But this case stops where the three above do not: repletion corrects a **marker**, not a demonstrated
@@ -305,9 +314,9 @@ helps; over-supplying a replete mother harms — the genuine two-armed U
 
 That harm arm is not confined to pregnancy. A 2017 SR+MA of iodine-replete general populations finds
 chronic *excess* intake raises hypothyroidism roughly two- to threefold: overt OR 2.78 (95% CI 1.47 to
-5.27), subclinical OR 2.03 (1.58 to 2.62), with a human-corroborated (though incompletely understood)
-mechanism (failure to escape the Wolff-Chaikoff effect) and a urinary-iodine-vs-hypothyroidism gradient,
-so the direction survives the U-shaped-artifact check.
+5.27), subclinical OR 2.03 (1.58 to 2.62). A human-corroborated (though incompletely understood)
+mechanism — failure to escape the Wolff-Chaikoff effect — and a urinary-iodine-vs-hypothyroidism gradient
+back the direction, so it survives the U-shaped-artifact check.
 [@katagiri2017iodine] Two limits govern how far it carries.
 The pooled studies are cross-sectional and crude, so believe the sign and discount the size (confidence
 low); and the harm fires hardest in a susceptible stratum, «autoimmune thyroiditis or thyroidectomy» and
@@ -315,6 +324,10 @@ TPO-antibody-positive individuals.
 [@katagiri2017iodine] For a replete person the lesson
 generalizes past pregnancy: iodine has no benefit arm left to climb, so more is not better.
 -> [[Excess Iodine Intake and Thyroid Disease]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
@@ -326,15 +339,19 @@ absolute risk **35 -> 11 per 1000**; recurrence RR 0.34; no harm signal (miscarr
 
 It is a distinct *flavour* of repletion, and forcing it into the deficiency-status pattern above would
 misread it [inferred from @deregil2015]. **Life-stage** defines
-the stratum (a woman planning or capable of pregnancy), not a lab value; the protective target sits
+the stratum — a woman planning or capable of pregnancy — not a lab value. The protective target sits
 \~9x *above* the deficiency threshold (optimal RBC folate \~906 nmol/L), so it is not correcting a frank
-shortfall [@deregil2015]; and it is
-window-gated — the neural tube closes within \~28 days of conception, before most women know they are
+shortfall [@deregil2015]. And it is
+window-gated: the neural tube closes within \~28 days of conception, before most women know they are
 pregnant, so supplementation must be in place beforehand
 [@deregil2015]. Higher-risk women
 (prior NTD pregnancy, diabetes, anticonvulsants) take 5 mg/day rather than the general 0.4 mg
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
@@ -347,8 +364,8 @@ they disagree by design [@yao2019]:
 | Vitamin D alone (11 RCTs) | RR 1.06 (0.98-1.14) | RR 1.14 (0.98-1.32) | null (dose-constrained) |
 | Vitamin D + calcium (6 RCTs) | RR 0.94 (0.89-0.99) | RR 0.84 (0.72-0.97) | 6% / 16% reduction |
 
-Vitamin D **alone** does not prevent fracture at the doses trialled; "dose-constrained" is literal —
-the pooled D-alone RCTs never delivered a large 25(OH)D increment, so this null bounds the *studied
+Vitamin D **alone** does not prevent fracture at the doses trialled. "Dose-constrained" is literal:
+the pooled D-alone RCTs never delivered a large 25(OH)D increment. So this null bounds the *studied
 dose range*, not vitamin D as such, and the higher-dose D-alone question stays open
 [inferred from @yao2019].
 The fracture benefit is the **combination**, so calcium is the active co-ingredient — and it
@@ -391,6 +408,8 @@ the whole-strategy ledger runs against the supplement (no benefit + stone harm +
 and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventing Falls in Older Adults]];
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
+
+</div>
 
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
@@ -442,10 +461,12 @@ the training is the driver.
   effective» [@wgo2023]. The strain, not
   the word, is the exposure -> [[Gut Microbiome and Health]].
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Attention runs opposite to effect, and the aisle carries its own risk
 
 The supplements with the most marketing and shelf space are, with few exceptions, the ones with the
-smallest or null effects — attention is an anti-signal here, and ranking by expected effect x certainty
+smallest or null effects. Attention is an anti-signal here: ranking by expected effect x certainty
 puts the whole disease-prevention stack near the bottom of what a well-nourished person should do
 -> [[Layer 1 - Ranking Interventions for a Stratum]]. The contrast with the big rocks is stark: quitting
 smoking, for one, buys back most of a lost decade — «Cessation before the age of 40 years reduces the
@@ -458,6 +479,10 @@ are a layer-3 opportunity cost the trial evidence leaves to the person
 [@uspstf2022supp]. And the industry is
 loosely regulated: contamination, adulteration and mislabelled dose are a harm vector independent of any
 compound's own evidence.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What the evidence here cannot yet say
 
@@ -474,15 +499,19 @@ These are named gaps — absence of held evidence, not evidence of absence
   iron, iodine, calcium) is not held beyond the vitamin-D family, so the repletion sub-question for those
   is anchored only indirectly.
 - **A same-outcome dose-response** traced from a nutrient's deficient edge to its plateau is not held for
-  any single endpoint — the repletion instances above each read the deficient-benefit arm on outcomes
+  any single endpoint. The repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The bottom line
 
 #### The general-population defaults
 
 - **If you are a generally-nourished adult: skip the multivitamin, vitamin D, fish oil, cocoa-flavanol
-  and antioxidant stack for disease prevention** — the best trials show no benefit, and spend the effort on the big rocks
+  and antioxidant stack for disease prevention** — the best trials show no benefit. Spend the effort on the big rocks
   (not smoking, activity, weight, sleep, a decent dietary pattern) instead.
 - **Do not take high-dose antioxidant supplements, beta-carotene especially** — in randomized trials they
   raised cancer and death, not lowered them.
@@ -504,15 +533,15 @@ These are named gaps — absence of held evidence, not evidence of absence
   real, disease-defined benefit.** Evans 2023 (gold Cochrane) finds it «probably slows down progression to
   late AMD» [@evans2023amdsupp] — OR 0.72
   (0.58–0.90), about 78 fewer progressions to late AMD per 1000 treated in intermediate AMD vs \~4/1000 in
-  early AMD, a route-(a) baseline-risk split. Striking because two of its antioxidants — beta-carotene and
-  vitamin E — raise all-cause mortality in the general population, and beta-carotene raises lung-cancer risk
+  early AMD, a route-(a) baseline-risk split. It is striking because two of its antioxidants — beta-carotene and
+  vitamin E — raise all-cause mortality in the general population. And beta-carotene raises lung-cancer risk
   in (former) smokers, for whom the beta-carotene-free (lutein/zeaxanthin) formula is used instead
   [@evans2023amdsupp]. The benefit is
   stratum-specific, not a general supplement case. -> [[Vitamin and Mineral Supplements for Disease Prevention]].
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-<div class="recent-update" data-last-updated="2026-09-29">
+</div>
 
 ## Caveats
 
@@ -537,7 +566,5 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
-
-</div>
 
 ## References

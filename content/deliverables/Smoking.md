@@ -5,9 +5,9 @@ question: What does the evidence show about smoking and patient-important outcom
 sources: [Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Jha - Smoking Hazards Cessation Benefits 2013, Livingston - Dementia Prevention 2024, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-08
-self_critiqued: 2026-09-03
-concrete_subject_audited: 2026-09-03
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 aliases: [Smoking, Tobacco, Quitting Smoking, Smoking Cessation]
 ---
 
@@ -90,11 +90,13 @@ second
 patient-important outcome**: quitting removes the excess dementia risk as it removes the excess mortality
 risk. See [[Dementia Prevention and Modifiable Risk Factors]].
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Smoking also raises the risk of rheumatoid arthritis — dose-dependently
 
 Smoking is also a dose-dependent risk factor for **rheumatoid arthritis (RA)**, a chronic autoimmune
 inflammatory disease. A gold-tier dose-response meta-analysis (10 studies) found incident-RA risk rising
-with cumulative smoking: even light smokers of 1-10 pack-years carried a **26% higher risk than
+with cumulative smoking. Even light smokers of 1-10 pack-years carried a **26% higher risk than
 never-smokers (RR 1.26, 95% CI 1.14 to 1.39)**, climbing to roughly **double the never-smoker risk at
 heavier exposure — RR 1.94 (1.65 to 2.27) at 21-30 pack-years, RR 2.07 (1.15 to 3.73) above 40**
 [@digiuseppe2014smoking].
@@ -105,6 +107,8 @@ there is no safe low level, since the excess is already significant in the light
 evidence is observational (no RA-prevention trial is feasible) and held at low confidence, so RA is a
 modest add-on to smoking's harms rather than a headline effect. See
 [[Autoimmune Disease and Modifiable Risk]].
+
+</div>
 
 ## Why this is held with high confidence — despite being observational
 
@@ -120,16 +124,18 @@ which biases *against* the benefit. The large benefit survives that conservative
 
 
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## What the held evidence does not yet cover
 
 The fabric holds one gold mortality source (Jha 2013) plus Livingston 2024 for dementia. The
 coverage-gap inventory below is the wiki's own appraisal of what the held sources omit, not a claim
-from either source. The inventory is honest about what it does **not** reach:
+from either source. The inventory names what it does **not** reach:
 
-**E-cigarettes / vaping** — the cardiovascular cell is now open
-([[Electronic Cigarettes and Cardiovascular Risk]]) but only on *surrogates*; hard patient-important
-CV outcomes remain insufficient evidence, and the decision is stratum-dependent — an e-cigarette is
-not one thing, and the sign flips with who uses it:
+**E-cigarettes / vaping** — the wiki now holds evidence on vaping's cardiovascular effects
+([[Electronic Cigarettes and Cardiovascular Risk]]), but only on *surrogates*; hard patient-important
+CV outcomes remain insufficient evidence. The sign of the effect flips with who uses it, so the
+decision is stratum-dependent.
 
 **A smoker who switches** (vs continued combustible smoking) gets a harm-reduction *surrogate*
 benefit — blood pressure fell: SBP -7.00 mmHg (95% CI -9.63 to -4.37), DBP -3.65 mmHg (-5.71 to
@@ -153,6 +159,8 @@ is unambiguous added risk.
 - **How to quit** — the comparative efficacy of cessation methods (nicotine replacement,
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
+
+</div>
 
 ## Bottom line — what to do
 

@@ -3,10 +3,10 @@ type: deliverable
 title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
-self_critiqued: 2026-09-29
-concrete_subject_audited: 2026-09-21
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 created: 2026-09-09
-updated: 2026-09-29
+updated: 2026-10-02
 question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
 sources: [Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Lean - DiRECT T2D Remission 2018, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Ge - Named Diets Weight Cardiovascular Network MA 2020, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, NICE - NG246 Evidence Review F, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020]
 ---
@@ -28,7 +28,7 @@ Numbers here are population averages for adults with overweight or obesity; a pe
 varies widely. And a caution that runs through everything below — this fabric grades how well the
 evidence hangs together, not whether following it makes you better off. That loop stays open.
 
-<div class="recent-update" data-last-updated="2026-09-29">
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The body defends the deficit, and defends it harder the heavier you are
 
@@ -46,49 +46,55 @@ to lose gets the least deficit back per unit of exercise. That is why intake, no
 much weight moves — and why exercise is prescribed below for what it does to the depot and to muscle,
 not for the calories it appears to burn -> [[Exercise Energy Compensation]].
 
-Two gym folk-rules fall out of the same principle. The *fat-burning zone* -- training slow because low
-intensity draws a higher *percentage* of fuel from fat -- optimizes the wrong quantity: body fat tracks
-the total energy deficit over the week, not the within-session fuel mix, and harder work spends more
-total energy per minute. And *sweating is not fat loss*: sweat is thermoregulatory water regained on
+Two gym folk-rules fall out of the same principle. Take the *fat-burning zone* -- the pitch is to train
+slow, because low intensity draws a higher *percentage* of fuel from fat. That optimizes the wrong
+quantity. Body fat tracks the total energy deficit over the week, not the within-session fuel mix, and
+harder work spends more total energy per minute. And *sweating is not fat loss*: sweat is thermoregulatory water regained on
 rehydration, so a hotter room or a sauna raises sweat without widening the deficit. Both are corollaries
 of the deficit-owns-fat-loss finding above, not separate levers
 -> [[Exercise Energy Compensation]].
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## How you create the deficit changes where the fat comes off
 
 Two deficits of equal size do not empty the same fat. Recchia's meta-analysis compared exercise-widened
 against diet-created deficits for **visceral** fat specifically. Per unit of energy, exercise showed a
 dose-response on visceral adiposity (−0.15 SD per 1000 kcal/week, 95% CI −0.23 to −0.07) while caloric
-restriction did not (0.03, −0.12 to 0.18, p=0.64); with the size of the deficit held equal, exercise
+restriction did not (0.03, −0.12 to 0.18, p=0.64). With the size of the deficit held equal, exercise
 was the more effective at shifting the visceral depot (standardized effect −0.18, 95% CI −0.33 to
 −0.04, p=0.012) [@recchia2023].
 
-The catch, kept honest: for **total** fat and waist circumference the raw comparison favours diet (waist
-−4.67 cm on restriction vs −3.15 cm on exercise)
+Diet still wins the raw comparison, though. For **total** fat and waist circumference it beats exercise
+(waist −4.67 cm on restriction vs −3.15 cm on exercise)
 [@recchia2023], because people restrict
 harder than they exercise. Both bodies
 of evidence are moderate GRADE, the effects are in standardized units rather than cm² of fat, and the
-compensation problem above means the exercise deficit is the hardest to actually bank. The signal worth
-carrying is directional: exercise buys a visceral-specific benefit that diet alone does not
+compensation problem above means the exercise deficit is the hardest to actually bank. Read it
+directionally: exercise buys a visceral-specific benefit that diet alone does not
 -> [[Exercise vs Caloric Restriction for Visceral Fat]].
 
-**Does losing faster change what you lose?** The rate-of-loss question — crash versus gradual — resolves
-as a minor knob. Faster loss from a steeper deficit takes off more total weight in the window, and the
-worry is that it strips more muscle, but the magnitude of any *extra* lean loss attributable to speed
-has no gold meta-analysis behind it (a named gap). The durability evidence below shows that the rate at
-which weight comes off predicts regain far less than whether the deficit is sustained at all.
+**Does losing faster change what you lose?** Crash versus gradual turns out to be a minor factor. Faster
+loss from a steeper deficit takes off more total weight in the window, and the worry is that it strips
+more muscle. But the magnitude of any *extra* lean loss attributable to speed has no gold meta-analysis
+behind it (a named gap). The durability evidence below shows why: the rate at which weight comes off
+predicts regain far less than whether the deficit is sustained at all.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## You lose lean mass too — the ratio improves while the kilograms fall
 
-Any large weight loss takes muscle with it, and the honest framing holds two facts at once. As a
+Any large weight loss takes muscle with it. Two facts hold at once. As a
 *proportion* of body weight, lean mass goes up on a GLP-1 drug — Laverde's meta-analysis found lean mass
 as a share of total weight rising +1.81% (95% CI 1.10 to 2.52). In *absolute kilograms* it falls:
 −1.74 kg (95% CI −3.04 to −0.45) across the class, and −5.44 kg (about −9.9%) on semaglutide
 [@laverde2026]. Roughly 30% of the weight lost on these
 drugs is lean tissue, a fraction comparable to bariatric surgery, and it varies by agent (semaglutide
-running higher than liraglutide). Laverde's own reading is that this is not a reason to withhold the
+running higher than liraglutide). Laverde does not read this as a reason to withhold the
 drug: «Our results suggest that lean mass loss should not be considered a limitation for the use of
 these drugs in patients with obesity» [@laverde2026] —
 though the same conclusion adds that treatment should be paired with nutrition and exercise.
@@ -98,12 +104,12 @@ Nong's network meta-analysis puts numbers on the spread: tirzepatide −8.3%, su
 -> [[GLP-1 and Lean Mass]].
 
 Whether that lean loss *matters* is where surrogate and outcome part company. Low muscle mass tracks
-mortality — de Santana's meta-analysis found lower appendicular skeletal muscle mass index associated
-with death (SMD −0.18, 95% CI −0.23 to −0.12) — but the grip-strength moderator was non-significant and
+mortality: de Santana's meta-analysis found lower appendicular skeletal muscle mass index associated
+with death (SMD −0.18, 95% CI −0.23 to −0.12). But the grip-strength moderator was non-significant and
 underpowered, and the association is **predictive, not proven causal**
 [@santana2021].
 
-The clinical instruments say the same: EWGSOP2
+The clinical instruments agree. EWGSOP2
 moved strength ahead of mass because «strength is better than mass in predicting adverse outcomes»
 [@cruzjentoft2019], and its cut-offs (grip <27 kg
 men, <16 kg women) are set against healthy young reference values, not validated against outcomes. **No
@@ -117,8 +123,8 @@ Resistance training is the lever with the direct evidence. Adding it plus protei
 (+2.49 kg one-rep-max, 95% CI 0.64 to 4.33) and fat-free mass (+0.30 kg, 95% CI 0.09 to 0.52) in
 Morton's meta-analysis [@morton2018].
 
-Protein is a **modest adjunct with a soft target**: Morton found the resistance-training benefit of added
-protein plateaus, but the break-point was not statistically significant (p=0.079), so the widely-quoted
+Protein is a **modest adjunct with a soft target**. Morton found the resistance-training benefit of added
+protein plateaus, but the break-point was not statistically significant (p=0.079). So the widely-quoted
 *\~1.6 g/kg* is a region, not a settled number, and no study pinned a hard knee — the exact figure and its
 wide interval live on [[Protein and Resistance Training for Muscle and Strength]]
 [@morton2018]. A separate meta-analysis
@@ -126,11 +132,13 @@ using a different quantity put its knee near 1.3 g/kg
 [@tagawa2020]. In an energy deficit the
 requirement to *retain* fat-free mass is likely higher — Refalo's review points toward roughly 1.9 g/kg
 of body mass, though that figure is exploratory
-[@refalo2025]. The order of operations is what
-matters: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
+[@refalo2025]. The sequence matters more than the
+gram: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
 
-<div class="recent-update" data-last-updated="2026-09-29">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What each method actually moves
 
@@ -140,7 +148,7 @@ least 15% [@wilding2021]. Tirzepatide went further in
 SURMOUNT-1 — placebo-adjusted loss of 11.9 to 17.8 points by dose, and 57% losing at least 20% at the
 top dose [@jastreboff2022].
 
-The result that separates the class from every diet is the SELECT trial: in adults with established cardiovascular
+The SELECT trial separates the class from every diet. In adults with established cardiovascular
 disease and obesity, semaglutide cut major adverse cardiovascular events, «hazard ratio, 0.80; 95%
 confidence interval, 0.72 to 0.90; P<0.001»
 [@lincoff2023]. Read that as it was
@@ -152,18 +160,18 @@ not formally confirm. Whether the drug prevents events in lower-risk primary pre
 
 Nong's network meta-analysis is consistent: subcutaneous semaglutide was «the only drug associated with
 reduced all cause mortality (risk ratio 0.81, 95% confidence interval 0.72 to 0.93)»
-[@nong2026obesity]; tirzepatide, despite the
+[@nong2026obesity]. Tirzepatide, despite the
 larger weight loss, reaches only heart-failure signals so far, and its hard-outcome trial is a gap
 -> [[Semaglutide for Cardiovascular Risk in Obesity]], [[Comparing Obesity Drugs]], [[GLP-1 Drugs]].
 
 **Total diet replacement is the strongest lifestyle lever, and for a specific person it can undo a
 disease.** A structured 825-853 kcal/day formula diet drove type-2-diabetes remission in DiRECT — 46%
-of the intervention group versus 4% of controls (odds ratio 19.7, 95% CI 7.8 to 49.8) — and remission
+of the intervention group versus 4% of controls (odds ratio 19.7, 95% CI 7.8 to 49.8). Remission
 tracked how much weight came off, from 0% in those who gained to 86% in those losing 15 kg or more
 [@lean2018]. Churuangsuk's umbrella review makes total diet
 replacement its single GRADE-HIGH cell, with a median 54% remission
-[@churuangsuk2022]. The mechanism is the calorie deficit and
-the weight lost, not the 59%-carbohydrate composition of the formula
+[@churuangsuk2022]. The calorie deficit and the weight lost
+drive remission, not the 59%-carbohydrate composition of the formula
 -> [[Total Diet Replacement and Type 2 Diabetes Remission]], [[Type 2 Diabetes]].
 
 NICE's 2025 guideline (NG246) turns that evidence into a recommendation, and the *shape* of the
@@ -184,7 +192,7 @@ for the frankly obese. -> [[Weight Cycling and Cardiometabolic Risk]]
 
 **Carbohydrate restriction buys an early edge that fades.** For people with type 2 diabetes, a
 low-carbohydrate diet (<26% of energy, or <130 g/day) raised remission at 6 months (risk difference 0.32,
-95% CI 0.17 to 0.47), but by 12 months the medication-free difference was gone (−0.04, 95% CI −0.16 to
+95% CI 0.17 to 0.47). But by 12 months the medication-free difference was gone (−0.04, 95% CI −0.16 to
 0.09) [@goldenberg2021]. The early gain rides on
 weight and on the definitional freedom to count remission while medications are still deprescribed
 -> [[Carbohydrate Restriction and Type 2 Diabetes Remission]].
@@ -192,58 +200,60 @@ weight and on the definitional freedom to count remission while medications are 
 **Once calories are fixed, the macronutrient split barely changes the fat lost.** In tightly controlled
 feeding studies pooled by Hall (32 studies, 563 subjects), lower-*fat* diets produced marginally more
 fat loss than lower-carbohydrate ones at matched calories — greater energy expenditure by 26 kcal/day
-and fat loss by 16 grams/day — the opposite direction the carbohydrate-insulin model predicts, and small
-enough to call a wash [@hallguo2017]. The head-to-head
+and fat loss by 16 grams/day. That is the opposite direction the carbohydrate-insulin model predicts, and
+small enough to call a wash [@hallguo2017]. The head-to-head
 outpatient trial agrees: DIETFITS found −5.3 kg on low-fat versus −6.0 kg on low-carbohydrate, a
 0.7 kg difference (95% CI −0.2 to 1.6), with no benefit from matching the diet to insulin secretion or
 genotype [@gardner2018].
 
-The scale being nearly source-blind does not make the liver so. Holding calories and even total fat grams
-fixed and swapping saturated fat for unsaturated cut liver fat by a wide margin (SMD -0.80, -1.09 to
--0.51) in Winters-van Eekelen's meta-analysis, while swapping total fat for carbohydrate did nothing
+Diet composition barely moves the scale, but it moves the liver. Winters-van Eekelen's meta-analysis
+held calories and even total fat grams fixed: swapping saturated fat for unsaturated cut liver fat by a
+wide margin (SMD -0.80, -1.09 to -0.51), while swapping total fat for carbohydrate did nothing
 (SMD 0.01, -0.36 to 0.37) [@winterseekelen2020]. So
 *if it fits your macros* holds for the number on the scale and fails for the liver fat the scale never
 shows -> [[Fatty Liver MASLD and Weight Loss]].
 
-Where composition *does* bite is intake itself — the same investigator's inpatient trial found people ate 508 kcal/day more on an
+Composition *does* bite in one place: intake itself. The same investigator's inpatient trial found people ate 508 kcal/day more on an
 ultra-processed diet than a matched unprocessed one, eating freely
 [@hall2019]. So the diet that works is the one that
-holds the deficit, and low-carbohydrate diets move LDL cholesterol least among the popular patterns, a
+holds the deficit. Among the popular patterns, low-carbohydrate diets move LDL cholesterol least — a
 minor safety point rather than a weight one
 [@ge2020]
 -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
-**The channel that overeating runs through has a name, and it doubles as a lever.** People eat more
+**Overeating runs through one measurable property, and that property doubles as a lever.** People eat more
 when the same weight of food carries more calories — energy density, kilocalories per gram — which is
 the measurable property the ultra-processed overeating above ran through. It is also the one
 processing-linked property a shopper can read off a label and act on: water and fibre lower it, and low
 energy density is drawn at under about 2 kcal/g
 [@fazzino2019hpf].
 
-Swapping a dry,
-calorie-dense food for a watery or higher-fibre one at similar palatability lets a person hold the same
-deficit with less hunger, and the swap holds up whether or not any reward story about processed food is
+Swap a dry,
+calorie-dense food for a watery or higher-fibre one at similar palatability, and a person holds the same
+deficit with less hunger; the swap holds up whether or not any reward story about processed food is
 true. Keep it modest, though: the direct evidence is a two-week surrogate in a handful of people, energy
 density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
 outcome -> [[Energy Density]].
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Keeping it off is the part that fails
 
 The trajectory is remarkably consistent across methods. Franz's synthesis of one-year-plus trials found
-weight bottoming out around 5 to 8.5 kg (5-9%) by about 6 months, then drifting back — very-low-energy
+weight bottoming out around 5 to 8.5 kg (5-9%) by about 6 months, then drifting back. Very-low-energy
 diets peaked highest (17.9 kg, 16%) and regained most, settling near 5.6 kg by 3 years, while
-diet-alone groups held about 3 kg at 4 years, and **no group returned to baseline**
+diet-alone groups held about 3 kg at 4 years — and **no group returned to baseline**
 [@franz2007]. The body enforces this. After an 8-week
 very-low-energy diet that lost 13.5 kg, Sumithran's participants still had leptin 35.5% below baseline
 and elevated hunger hormones a full year later, with the drive to eat still switched on
-[@sumithran2011] — a defended set-point, not a failure of
+[@sumithran2011]. That is a defended set-point, not a failure of
 willpower -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
 **The popular "food addiction" frame adds little on top of that.** Some readers will suspect the pull
 back toward old eating is an addiction. A gold systematic review reports that its results «generally
-support the validity of food addiction as a diagnostic construct», yet the same review calls its subject
+support the validity of food addiction as a diagnostic construct». Yet the same review calls its subject
 «a highly controversial subject» and rests that verdict on vote-counted, animal-heavy,
 confirmation-bias-flagged evidence [@gordon2018foodaddiction].
 
@@ -256,18 +266,22 @@ highly processed, energy-dense foods -> [[Food Addiction]].
 
 The drug is not exempt; it is dependent. Stopping semaglutide in the STEP-1 extension gave back about
 two-thirds of the lost weight within a year (11.6 points)
-[@wilding2022], and the network evidence puts off-drug regain
+[@wilding2022]. The network evidence puts off-drug regain
 near 0.4 kg/month, back toward baseline within roughly 1.7 years
 [@nong2026obesity]. This reframes the drug as a
 chronic therapy for a chronic condition, like a blood-pressure pill, rather than a course of treatment.
-The single most decision-relevant fact in this whole cut: **adherence is not a footnote to the effect,
+One fact matters more than any other here: **adherence is not a footnote to the effect,
 it is most of the effect** — a smaller deficit sustained beats a larger one abandoned.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Regaining some of it is not a reason to skip the attempt
 
 A common fear says the losing-and-regaining cycle is worse than staying heavy, so an obese person should
 not bother trying. **Two gold meta-analyses of cohort data say otherwise for exactly the person the fear
-is aimed at.** Zou's pooling of 441,199 adults found weight fluctuation associated with higher all-cause
+is aimed at.** Zou pooled 441,199 adults: weight fluctuation was associated with higher all-cause
 mortality (corrected to RR 1.18, 95% CI 1.05 to 1.32 once publication bias is accounted for) and CVD
 mortality (RR 1.36, 1.22 to 1.52) [@zou2019fluctuation]. But
 that link is observational, and it dissolves once fluctuation is restricted to the intentional kind a
@@ -282,29 +296,35 @@ reading: «we cannot conclude whether obese individuals should be deterred from 
 body weight by concerns about the hazards of weight cycling»
 [@zou2019fluctuation].
 
-What caution there is lands on the
-opposite population from the folk belief — lean, young, body-image-driven dieters, who have no metabolic
+Any caution lands on the
+opposite population from the folk belief: lean, young, body-image-driven dieters, who have no metabolic
 reason to be dieting at all. The practical reading: pursue loss you can sustain, and treat regain as a
 maintenance problem to design against, not a reason to stay put -> [[Weight Cycling and Cardiometabolic Risk]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Matching the lever to the person
 
 The ranking is stratum-dependent, and an effective drug changes the size of the lifestyle rock rather
 than removing it. For someone with type 2 diabetes and substantial weight to lose, total diet
 replacement can reach remission and is the strongest lifestyle option on the table. For someone at high
-cardiovascular risk with obesity, the GLP-1 class is the only method with a hard-outcome trial behind it,
-and its rank is net of its own costs — lifelong dependency, cost, gastrointestinal side-effects, and the
+cardiovascular risk with obesity, the GLP-1 class is the only method with a hard-outcome trial behind it.
+But its rank is net of its own costs — lifelong dependency, cost, gastrointestinal side-effects, and the
 fact that it manages weight without fixing whatever drives it.
 
-That last point is why the drug does not retire exercise: **a single-channel drug does not substitute for
-a pleiotropic lever**, so resistance
+This is also why the drug does not retire exercise: **a single-channel drug does not substitute for
+a pleiotropic lever**. Resistance
 training keeps its place for muscle and function, and aerobic exercise keeps its place for the visceral
 depot, even for a person on semaglutide. For a younger, well-muscled person with modest fat to lose, the
 lean-mass worry is small and the deficit plus training is enough. For an older or sarcopenia-risk person,
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
 
-<div class="recent-update" data-last-updated="2026-09-29">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## How to think about your own choice
 
@@ -314,7 +334,7 @@ burn. If you are losing meaningful weight, train against resistance and eat prot
 range (somewhere around 1.6 to 1.9 g/kg while dieting) to keep the loss weighted toward fat. Judge a
 drug against the realistic alternative you would actually sustain, and against its own costs and its
 dependency — and know that stopping it hands most of the weight back. The scale is the easy win; the
-maintenance plan is the decision. What none of this can tell you is whether your particular choice leaves
+maintenance plan is the decision. None of this can tell you whether your particular choice leaves
 you better off years from now — the evidence here is coherent and source-checked, but the outcome loop is
 open.
 

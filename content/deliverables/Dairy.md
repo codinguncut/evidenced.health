@@ -162,8 +162,6 @@ signal lives, and this genetic test cannot refute it. Reading the milk-null as s
 would be the category error the whole decomposition exists to prevent. So the composite is: milk has no
 causal diabetes effect, yoghurt keeps a small observational one, and neither is a big lever.
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## Milk is not a bone-fracture lever
 
 The intuitive story — dairy is rich in calcium and protein, so more dairy means stronger bones — does not
@@ -199,8 +197,6 @@ where the supplement route does. Calcium plus vitamin D is also null for fractur
 neither the glass of milk nor the pill moves fracture risk in someone already well-nourished
 ([[Deficiency Repletion vs Enhancement]]). What prevents falls and fractures in older adults is exercise,
 not dairy intake.
-
-</div>
 
 ## Dairy is not a brain-health lever either
 
@@ -253,8 +249,6 @@ carries its own industry and design caveats. The saturated-fat verdict itself be
 This cut carries only the dairy-specific matrix nuance, which for now points in a plausible direction on a
 surrogate endpoint and no further.
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## What to actually do about dairy
 
 Dairy is a small lever, and the attention it gets runs far ahead of the effect. If the big rocks —
@@ -284,7 +278,5 @@ exists, and none is likely, so these verdicts are calibrated small effects, not 
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Thorning (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
-
-</div>
 
 ## References

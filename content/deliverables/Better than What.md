@@ -6,10 +6,11 @@ question: 'How does the choice of comparator (replace X with what?) change the e
 sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022, EASD - DNSG Dietary Management of Diabetes 2023]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
 would have taken its place. So the useful question is rarely *is butter bad for you?* but *bad
@@ -26,8 +27,7 @@ one a trial assigns.
 Even then, the effect is usually smaller than the biology predicts. The body compensates,
 routines slip, resolve fades; a well-run trial shows the ceiling, not the ordinary week. And
 when a single swap moves several things that matter — easing the heart, say, while costing
-money or effort — this page sets them side by side rather than collapsing them into one grade,
-because how much each outcome weighs is yours to decide, not ours to compute.
+money or effort — this page sets them side by side rather than collapsing them into one grade. How much each outcome weighs is yours to decide, not ours to compute.
 
 So the honest answer is a direction and a range, not a single figure — and which end of the
 range to act on depends on what you would rather be wrong about. Where a real harm is in play,
@@ -36,6 +36,10 @@ In short: choose carefully *where* to act, and settle for roughly right on *how 
 limit outlasts the rest — this page can judge only whether a well-informed advisor *would*
 frame a swap this way, never whether anyone who followed it was better off. That loop stays
 open.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Compared to what? Why an effect has no sign until the alternative is named
 
@@ -71,7 +75,7 @@ must not be promoted into an absolute target — are deferred: surrogate-versus-
 live on [[Metrics for Targeted Health Guidance]].
 
 One misuse shadows the whole move, and it is the most common way the comparator frame launders a real
-harm: because *everything* carries some cost and some benefit, you can turn the frame to relativize a
+harm. Because *everything* carries some cost and some benefit, you can turn the frame to relativize a
 genuine harm away — *it is all a little hormetic, who is to say?* That is not a comparison but the
 unfalsifiable over-generalization the demarcation line rejects. Use the frame to rank among *reasonable*
 options; a large, well-evidenced harm survives every comparator and is never readmitted by it — the
@@ -80,12 +84,16 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## What is "X", exactly? Specifying the exposure before its comparator
 
 You cannot say "instead of what" until you pin down "what". A food or nutrient label is only a usable
 exposure if the boundary it draws carries information — and often it does not. Where **within-category
 variance exceeds between-category variance**, the grouping has no explanatory power and the
-category-level estimate describes no actual food: skinless chicken, fatty pork and lean pasture-raised
+category-level estimate describes no actual food. Skinless chicken, fatty pork and lean pasture-raised
 beef share one label, and the distance within it can exceed the distance to the next label. "Replace
 X" is undefined until X names something real. -> [[Is the Food Category Doing Any Work]]
 
@@ -100,7 +108,7 @@ Two further failures block the comparator before it can be named:
 - **A food's identity drifts under a constant name.** Breeding, processing and reformulation move the
   thing on the plate while the word stays fixed, so evidence attached to a label may not transport to
   the current exposure. Specify implementations, not labels. This is not just tidy
-  practice but a condition for the question to be *well-posed*: a causal effect is defined only against
+  practice but a condition for the question to be *well-posed*. A causal effect is defined only against
   a sufficiently well-defined intervention, and a vague label bundles several *versions of treatment* --
   weight lost by diet versus by illness, fibre from an isolate versus from the whole food -- whose
   effects need not agree. Until the version is pinned there is no single effect to estimate.
@@ -152,6 +160,10 @@ comparator that is not itself junk-heavy, or does only the exclusion?
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
 A mechanism earns a *direction*, never a *magnitude*. The body is a closed loop, not an open one, so the
@@ -164,14 +176,19 @@ do: damp, redirect, or reinforce?* -> [[Net Effect vs Intended Effect]]. The evi
 directions is lopsided: several worked cases show the response damping an effect, only one shows it
 amplifying, so treat *the response can add* as a real caution, not a symmetric law.
 
-One clause each. Added exercise energy is partly offset by eating more and moving less the rest of the day
--> [[Exercise Energy Compensation]]; energy restriction meets a defended set-point that actively regains
--> [[Weight-Loss Maintenance and Metabolic Adaptation]]; a benefit that lasts only while a drug is taken,
-or is cancelled by an offsetting harm on another pathway so the all-cause net is null
--> [[Inflammation as a Modifiable Lever]]; a meal-timing schedule whose effect may be calorie intake under
-another name -> [[Time-Restricted Eating]]. The amplifying mirror runs the other way: a drink's own
-calories go un-compensated *and* it provokes extra eating in the same sitting, so the net surplus exceeds
-the drink alone -> [[Alcohol and Mortality and Vascular Disease]].
+Each compensation gets one clause:
+
+- Added exercise energy is partly offset by eating more and moving less the rest of the day
+  -> [[Exercise Energy Compensation]].
+- Energy restriction meets a defended set-point that actively regains
+  -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+- A benefit lasts only while a drug is taken, or an offsetting harm on another pathway cancels it so the
+  all-cause net is null -> [[Inflammation as a Modifiable Lever]].
+- A meal-timing schedule's effect may be calorie intake under another name -> [[Time-Restricted Eating]].
+
+The amplifying mirror runs the other way: a drink's own calories go un-compensated *and* it provokes extra
+eating in the same sitting, so the net surplus exceeds the drink alone
+-> [[Alcohol and Mortality and Vascular Disease]].
 
 This is why efficacy is not effectiveness. Efficacy is the effect of an *assigned, idealized* exposure
 inside a trial; effectiveness is that same parameter after compensation, execution drift, and adherence
@@ -183,7 +200,7 @@ trial mean as the decision (scientism) nor discard it because it will not land e
 
 Adherence is part of the effect, not a footnote to it: an intervention not done has no effect. Under
 diminishing returns this can invert the naive ranking — a smaller sustained dose beats a larger
-abandoned one. But that is a *condition*, not a slogan, and the condition is curve shape: it holds in a
+abandoned one. But that is a *condition*, not a slogan, and the condition is curve shape. It holds in a
 flat or diminishing-returns region, and fails on a steep rising arm or below a deficiency floor, where
 the larger dose is what clears the outcome and abandonment is the real failure to fix. Which regime
 applies is the floor-and-direction question the region section takes up.
@@ -214,6 +231,10 @@ for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
 more than one outcome that matters.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## When outcomes compete: laying out the axes instead of summing them
 
 When a substitution moves more than one patient-important outcome, there is no unique optimum without
@@ -226,8 +247,8 @@ on the whole field.
 -> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
 
 The wiki's role here is bounded and specific. It supplies each axis's *evidenced transmission* to its
-outcome — the health coordinate, the one an evidence fabric can actually contest — and where a
-substitution loads a non-health axis (carbon, welfare, affordability) it names *that the axis exists and
+outcome — the health coordinate, the one an evidence fabric can actually contest. Where a
+substitution loads a non-health axis (carbon, welfare, affordability), it names *that the axis exists and
 which direction it runs*, then stops. It never prices the axis, never nets it against the health
 finding, and asserts no carbon, water, or welfare magnitude, because it holds no such data. Naming the
 axis is the discipline; supplying a cross-axis exchange rate would be the false objectivity the
@@ -246,8 +267,8 @@ of a recommendation, only one of which is the evidence, and a body publishing an
 table lists its non-evidence considerations by name — WHO's acceptability domain openly includes
 «potential impact on national economies»
 [@who2023saturated]. So *which objective moved this
-recommendation* is a reading skill, not an accusation — and
-its direction is indeterminate until read: feasibility and acceptability push toward stringency as
+recommendation* is a reading skill, not an accusation. Its direction is indeterminate until read:
+feasibility and acceptability push toward stringency as
 readily as toward laxity (an environmental load pushes red-meat guidance harder; a staple's economics
 push the other way). What bodies disclose is the considerations; what stays unpublished is the weight.
 A third body sharpens the limit of that reading skill. EASD's 2023 diabetes guidance names environment
@@ -270,10 +291,14 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## From estimate to substitution: a region and a direction, not a point
 
 In this domain the evidence structurally yields a **floor**, a **direction within the studied range**,
-and — where the curve bounds it — a **harm-ceiling**, but not a point optimum: a study can show *below
+and — where the curve bounds it — a **harm-ceiling**, but not a point optimum. A study can show *below
 here is deficiency*, *more in this range still helps*, *past here it harms*, essentially never *this
 exact intake is best* -> [[The Underivable Optimum]]. *Why* the estimate is a band rather than a point —
 measurement error and the statistical reason an interval is the honest object — is not re-derived here;
@@ -282,14 +307,14 @@ and move the right way within the region, not to land on a peak that was never i
 -> [[The Estimate-to-Action Gap]].
 
 That is not a counsel of despair. It only reads as one if you collapse two jobs into one.
-The fabric **optimizes ALLOCATION** — Layer 1 ranks levers by effect size x certainty and spends
-attention on the largest remediable gap (which lever, magnitudes deferred to the Big Rocks deliverables)
-— and it **satisfices DOSE** — per lever, clear the floor, move in the evidenced direction, stay in
-range rather than chase a point this domain cannot locate. These are a category distinction, not a
+The fabric does two separate jobs. It **optimizes ALLOCATION** — Layer 1 ranks levers by effect size x
+certainty and spends attention on the largest remediable gap (which lever, magnitudes deferred to the Big
+Rocks deliverables). And it **satisfices DOSE** — per lever, clear the floor, move in the evidenced
+direction, stay in range rather than chase a point this domain cannot locate. These are a category distinction, not a
 contradiction: *satisfice* is a claim about the dose, never about where to spend attention, and neither
 bleeds into the other.
 
-The division of labour is the same one the competing-axes section drew: the wiki supplies the
+The division of labour repeats the one the competing-axes section drew. The wiki supplies the
 **coordinate** (each axis's evidenced transmission to its outcome) and the **interval** (the region on
 that axis); the person supplies the cross-axis **weight** and — in the next section — the loss **tail**.
 Coordinate and interval are supplied; weight and tail are elicited. Neither is an estimate the wiki
@@ -315,6 +340,10 @@ to Weave/ingest as residual, not a settled fabric claim.
 
 Once you name a region, one question remains that the region alone cannot answer: *which end* of it
 to act on.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Which end of the interval? Asymmetric loss and the conservative default
 
@@ -347,14 +376,16 @@ Three consequences follow.
   **name whose loss sets the direction** and never present the weighting as though it were in the data
   -> [[The Descriptive-Normative Category Error]] (the don't-smuggle guard).
 
-The loss function is **direction-agnostic**, which is the proof it is bias *away from the costly tail*
-rather than a disguised always-conservative rule: the same rule biases protein *up* toward the upper end
+The loss function is **direction-agnostic** — proof it biases *away from the costly tail*
+rather than running a disguised always-conservative rule. The same rule biases protein *up* toward the upper end
 of its range (overshoot is low-harm for healthy kidneys, under-dosing forfeits the objective)
 -> [[Protein and Resistance Training for Muscle and Strength]] — and biases *further* up for older
 adults, where the cost of under-dosing is higher -> [[Protein Intake for Older Adults]] — while it
 biases training intensity *down* toward the margin (overshoot loads an often-irreversible injury tail).
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
+
+</div>
 
 ## Caveats and boundaries
 

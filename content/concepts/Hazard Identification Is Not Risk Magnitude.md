@@ -20,7 +20,6 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Certainty of Evidence vs Strength of Recommendation
 ---
-<div class="recent-update" data-last-updated="2026-09-29">
 
  — this page is the wiki's own appraisal concept, induced across the held IARC instances; the
 verbatim classifications and their evidence live on those instance pages, not re-extracted here.
@@ -32,8 +31,6 @@ two distinct quantities). IARC does **hazard identification**: is the hazard exc
 animal, and mechanistic evidence? It does not do **risk assessment**: what absolute risk this exposure adds
 to a given person at a realistic dose. A Group-1, 2A, or 2B label grades the *strength of evidence that a
 hazard exists*, not the *size of the risk* — so the label alone licenses no avoidance decision.
-
-</div>
 
 ## The two objects, kept apart
 
@@ -56,8 +53,6 @@ statement about *evidence that a hazard exists*, and it is silent on the risk ea
 fabric routes the processed-meat decision itself through absolute risk, not through its hazard label
 -> [[Red and Processed Meat and Cancer]] (the wiki does not hold IARC's processed-meat monograph, so the
 Group-1 label is noted as the public framing, not asserted as a fabric finding).
-
-<div class="recent-update" data-last-updated="2026-09-29">
 
 ## Held instances show the split — a firm label sits atop a large *or* a negligible risk
 
@@ -95,8 +90,6 @@ label is compatible with either a large or a negligible risk, so the label is no
 risk number. The stronger same-group/different-magnitude illustration — alcohol against the small absolute
 effect of Group-1 processed meat — needs a held Group-1 pair the wiki does not yet carry
 -> [[Red and Processed Meat and Cancer]].
-
-</div>
 
 ## Decision relevance
 

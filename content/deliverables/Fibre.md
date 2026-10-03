@@ -7,9 +7,9 @@ authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; V
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023, Wang - Resistant Starch Glucose Insulin 2019]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-25
-self_critiqued: 2026-09-25
-concrete_subject_audited: 2026-09-25
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
 
 Fibre is a **real but modest supporting lever, not a big rock**. Eating enough of it is worth
@@ -28,6 +28,8 @@ that land on different outcomes.
 The practical upshot is simple even though the evidence is not: **eat more fibre from real food --
 whole grains, beans and lentils, fruit and vegetables -- and stop expecting a miracle from it.**
 The downsides are real but small, and mostly settled in the kitchen.
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The impressive numbers come from watching eaters; the proof-grade effect is small
 
@@ -55,9 +57,9 @@ only a small contribution to dietary therapy to lower cholesterol.»
 [@brown1999]
 
 **These two legs are not the same claim, and stacking them overstates fibre.** The mortality
-numbers and the cholesterol number differ in almost every way that matters -- one is
-observational, the other randomised; one is *total* dietary fibre from whole food, the other a
-*soluble* fibre isolate; one lands on hard outcomes, the other on a marker. The defensible
+numbers and the cholesterol number differ in almost every way that matters. One is observational,
+the other randomised; one is *total* dietary fibre from whole food, the other a *soluble* fibre
+isolate; one lands on hard outcomes, the other on a marker. The defensible
 synthesis is narrow: **the trial leg confirms the direction of the observational leg and supplies
 a mechanism, but the two do not add up to one large causal number.** Fibre is beneficial and at
 least partly causal, with a modest measured effect on the endpoints anyone can actually trial; the
@@ -72,12 +74,11 @@ the incidence of coronary artery disease by <4%»
 fibre, Brown concludes, «may exert only a small effect on the risk of heart disease»
 [@brown1999].
 
-That <4% is
-not the same quantity as the \~24% lower coronary risk the cohorts report -- different exposure,
-dose and contrast, so the two are not subtracted -- but the order of magnitude is the point: the
-pathway anyone can actually trial is roughly ten times smaller than the association it is meant to
-explain. Most of the observational number is left to something other than the trialled effect --
-the healthy-user pattern, the other fibre fractions, or residual confounding
+That <4% is not the same quantity as the \~24% lower coronary risk the cohorts report: different
+exposure, dose and contrast, so the two are not subtracted. But the order of magnitude is the
+point -- the pathway anyone can actually trial is roughly ten times smaller than the association it
+is meant to explain. Most of the observational number is left to something other than the trialled
+effect -- the healthy-user pattern, the other fibre fractions, or residual confounding
 .
 
 **The reason to believe the observational leg is more than correlation is triangulation, not
@@ -104,6 +105,10 @@ The all-cause mortality and CVD magnitudes agree with Reynolds (mortality RR 0.8
 literature re-pooled -- corroboration, not an independent second witness. **The robust core
 is mortality and cardiovascular disease; the long cancer list is weaker.**
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Which fibre you eat decides which outcome moves
 
 **The word *fibre* hides three levers, and each lands on a different outcome.** The
@@ -120,28 +125,36 @@ distinction is not academic -- it is why a bowl of oats and a bran cracker do di
   the microbiome lever (below).
 
 **Because the mechanisms differ, so do the curves.** Brown's LDL-surrogate effect is nonlinear,
-flattening toward the top of the practical 2-10 g/day range -- while Reynolds' hard-outcome curves
-keep climbing with no plateau in the data. *Fibre has no ceiling* is true of the outcomes and false of the
-cholesterol marker; the shape depends on the endpoint you pick, which is exactly why a plateau seen
-on a surrogate must not be read across to the outcome ([[Surrogate Outcomes]])
+flattening toward the top of the practical 2-10 g/day range, while Reynolds' hard-outcome curves
+keep climbing with no plateau in the data. *Fibre has no ceiling* is true of the outcomes and false
+of the cholesterol marker. The shape depends on the endpoint you pick -- which is exactly why a
+plateau seen on a surrogate must not be read across to the outcome ([[Surrogate Outcomes]])
 .
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The supplement grades better because it can be tested, not because it is better
 
 **The strongest-graded fibre evidence sits on the isolate, and that is an artifact of study design,
 not proof that a pill beats a plate.** SACN grades fibre isolates and gum supplements at «Effect •
 Adequate evidence» -- its top strength grade -- while whole-grain benefit is cohort-only and mostly
-«Limited», and SACN attaches the reason in the same breath: the isolate effect is «demonstrated at
+«Limited». SACN attaches the reason in the same breath: the isolate effect is «demonstrated at
 intakes achieved through supplementation»
 [@sacn2015].
 
 **An isolate can be randomised at a chosen dose; a fibre-bearing food mostly cannot, so it is
 observed instead.** The better grade tracks the more trialable *form*, not the better food -- the
 [[Is the Food Category Doing Any Work|food-category]] point in miniature. It does **not** license
-swapping a bowl of beans for a psyllium sachet: the food carries a mix of fibre types and a matrix
+swapping a bowl of beans for a psyllium sachet. The food carries a mix of fibre types and a matrix
 the isolate lacks, and whether added or fortified fibre matches intrinsic whole-food fibre on hard
 outcomes is unproven, not shown equivalent
 .
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Colorectal cancer is the one arm the experts still argue over
 
@@ -155,7 +168,7 @@ the same \~25-30 g target reached on the mortality axis.
 **The umbrella review reads the same associations as weak.** Under strict credibility diagnostics
 the colorectal signal is class III/IV, «largely based on case-control studies that suffer inherent
 limitations including recall bias and inability to examine temporal associations»
-[@veronese2018] -- and where fibre has been
+[@veronese2018]. And where fibre has been
 *trialled* on the precancerous lesion it came back null: «increased dietary fiber intake did not
 reduce the incidence or recurrence of adenomatous polyps in ∼5000 participants»
 [@veronese2018]. **This is a
@@ -163,6 +176,8 @@ grading-and-standpoint disagreement, not a dispute about the data**: a precautio
 calls the cohort evidence strong enough to act on, a strict credibility lens calls it weak, and the
 one randomised test on adenoma found nothing
 .
+
+</div>
 
 ## For inflammatory bowel disease, fibre helps Crohn's but not colitis
 
@@ -184,10 +199,12 @@ fibre-and-produce-rich diet, consistent with fibre's other benefits. And «22 g/
 intake category, not a validated threshold. [[Autoimmune Disease and Modifiable Risk]] carries
 the full cross-disease picture.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Fermentable fibre is the real lever on the gut microbiome
 
 **The dominant modifiable lever on the gut microbiome is diet, and within diet it is fermentable
-fibre** -- the substrate bacteria ferment into short-chain fatty acids. This is also what dissolves
+fibre** -- the substrate bacteria ferment into short-chain fatty acids. It also accounts for
 most of the "prebiotic" aisle: WGO defines a prebiotic as «A selectively fermented ingredient that
 results in specific changes in the composition and/or activity of the gastrointestinal microbiota,
 thus conferring benefit(s) upon host health»
@@ -205,6 +222,10 @@ while a high-fibre arm did not
 [@wastyk2021]. So fibre feeds the
 resident community rather than reliably diversifying it on a short timescale, and a composition
 shift earns belief only when followed through to an outcome ([[Gut Microbiome and Health]]).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Glycaemia, weight and transit move the right way but resist a clean number
 
@@ -230,13 +251,14 @@ plausible and the magnitude is thin or unheld**:
 
 **One fermentable-fibre isolate has been tested head-on, and it moves the glycaemic markers the
 whole-diet HbA1c pool left null.** A 2019 meta-analysis of 13 RCTs (n=428) in overweight or obese
-adults gave resistant starch at 10-45 g/day for 2-12 weeks and found significant drops in fasting
+adults gave resistant starch at 10-45 g/day for 2-12 weeks. It found significant drops in fasting
 insulin (SMD -0.72, 95% CI -1.13 to -0.31), fasting glucose (SMD -0.26, -0.5 to -0.02) and HbA1c
 (SMD -0.43, -0.74 to -0.13) [@wang2019rs].
 
-Three things keep it a candidate outcome, not an action: every endpoint is a surrogate marker, the
-effects are in standardized-deviation units that do not translate to a felt mmol/L change, and RS
-types differ enough that the pooled figure averages over exposures that may not be equivalent. It
+It stays a candidate outcome, not an action, for three reasons. Every endpoint is a surrogate
+marker; the effects are in standardized-deviation units that do not translate to a felt mmol/L
+change; and resistant-starch types differ enough that the pooled figure averages over exposures
+that may not be equivalent. It
 sits below weight loss, diet quality and activity, and whole-food fermentable fibre already carries
 the same fermentation mechanism with its own outcome evidence
 -> [[Resistant Starch and Glycemic Control]].
@@ -247,17 +269,21 @@ fibre intake at a COPD incidence RR of 0.72 (95% CI 0.64-0.80) highest-versus-lo
 fibre (RR 0.76) and fruit fibre (RR 0.75) carrying the signal and vegetable fibre null (RR 0.95)
 [@valisoltani2023fiber]. This is
 observational, FFQ-based, NutriGrade-LOW evidence, so it adds a candidate outcome to fibre's menu
-without raising the target, moving this page's confidence, or changing any gram/day
-recommendation -- and for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates
-this lever by a wide margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
+without raising the target, moving this page's confidence, or changing any gram/day recommendation.
+And for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates this lever by a wide
+margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
 .
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The downsides are real, minor, and mostly settled in the kitchen
 
 **The antinutrient alarm around fibre-rich plant foods is largely mis-scaled, but the genuine
-cautions survive.** A narrative review (Petroski, graded moderate, held to the same scrutiny as the
-alarm it corrects) finds the frightening findings come overwhelmingly from isolated compounds fed
-to animals at high doses, which mostly do not reproduce in humans eating cooked, mixed meals. The
+cautions survive.** Petroski's narrative review (graded moderate, held to the same scrutiny as the alarm it corrects)
+finds the frightening results come overwhelmingly from isolated compounds fed to animals at high
+doses. Those mostly do not reproduce in humans eating cooked, mixed meals. The
 real-world downsides are gas and bloating on a rapid increase, and phytate binding of zinc, iron
 and calcium at monotonous high intakes with marginal mineral status -- each managed by dose and by
 ordinary preparation (soaking, cooking, fermenting).
@@ -269,9 +295,11 @@ required to eliminate lectins, as reduced cooking temperatures do not significan
 content.»
 [@petroski2020] Raw or undercooked kidney
 beans cause documented poisonings; a full boil defuses it. A handful of named strata still warrant
-care -- low iron stores and tannin timing, recurrent kidney-stone formers and oxalate load,
-marginal-iodine status and goitrogens -- but these are stratum-specific cautions, not a reason for
+care: low iron stores and tannin timing, recurrent kidney-stone formers and oxalate load,
+marginal-iodine status and goitrogens. But these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
+
+</div>
 
 ## Thirty grams marks the edge of the data, not a biological threshold
 
@@ -300,13 +328,15 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Where this lands against official guidance
 
 **The guidance families converge on a fibre-rich diet and diverge only on how they phrase the
-target -- and their agreement is not four independent votes.** SACN sets 30 g/day of AOAC fibre;
-WCRF sets at least 30 g/day from food, reached from a cancer endpoint; ESC lists «3045 g of fibre
+target -- and their agreement is not four independent votes.** SACN sets 30 g/day of AOAC fibre.
+WCRF sets at least 30 g/day from food, reached from a cancer endpoint. ESC lists «3045 g of fibre
 of per day, preferably from wholegrains» (a 30-45 g range; the hyphen is lost in the source's OCR)
-[@esc2021]; and NNR sets fibre «at least
+[@esc2021]. And NNR sets fibre «at least
 3 g/MJ ... at least 25 g/d for females and 35 g/d for males»
 [@nnr2023] plus a separate «at least 90
 g/day (dry weight) of whole grains» target
@@ -314,16 +344,18 @@ g/day (dry weight) of whole grains» target
 
 Compare the constructs before the numbers: a point value in one fibre-measurement method is not the
 same quantity as an energy-scaled, sex-split target, a dry-weight whole-grain figure, or an
-unmethodised range -- and NNR is the only body that scales its fibre target to energy intake and
-splits it by sex. NNR also explicitly read SACN among its inputs, so the cross-body convergence is
+unmethodised range. NNR is the only body that scales its fibre target to energy intake and splits
+it by sex. NNR also explicitly read SACN among its inputs, so the cross-body convergence is
 shared-evidence agreement, not independent corroboration
 .
 
 **On one long-standing gap, ESC supplies a first number for pulses:** «A single portion of pulses
 (legumes) a day lowers LDL-C by 0.2 mmol/L and is associated with a lower risk of CHD.»
 [@esc2021] Only the cholesterol half carries a
-magnitude; the events half is associational. So, honestly, a daily portion of
-beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-disease risk.
+magnitude; the events half is associational. So a daily portion of beans or lentils moves LDL by a
+stated amount and plausibly tracks lower heart-disease risk.
+
+</div>
 
 ## The bottom line
 
@@ -343,6 +375,8 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Caveats
 
 - **The hard-outcome benefit is observational.** The 15-30% risk reductions come from cohorts of
@@ -354,7 +388,7 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 - **The near-zero-fibre case does not transport.** In the cohorts, *low fibre* means low within a
   normal mixed diet -- typically the refined, energy-dense end -- so it travels with high
   junk-food intake. Whether fibre's benefit gradient reaches down to a *minimally processed*
-  near-zero-fibre pattern (a meat-based or carnivore diet) is untested: no held source offers that
+  near-zero-fibre pattern (a meat-based or carnivore diet) is untested. No held source offers that
   like-for-like contrast, so the cohort estimate does not transport to that stratum -- a named gap,
   not a verdict either way.
 - **Glycaemia magnitude, gastric emptying, satiety-as-such, and insoluble-fibre effects on transit
@@ -377,5 +411,7 @@ beans or lentils moves LDL by a stated amount and plausibly tracks lower heart-d
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. Valisoltani (gold-tier dose-response MA) supplies a low-certainty (NutriGrade-LOW) COPD outcome-menu note only — not load-bearing, and it changes no recommendation. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
+
+</div>
 
 ## References

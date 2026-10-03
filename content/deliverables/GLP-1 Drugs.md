@@ -1,15 +1,15 @@
 ---
 type: deliverable
 title: GLP-1 Drugs
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 question: 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, kidney, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?'
 aliases: [GLP-1 Receptor Agonists for Weight, Semaglutide, Tirzepatide, Ozempic, Wegovy, Mounjaro, Zepbound, Weight Loss Drugs, GLP-1 Agonists]
 authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Badve, Sunil V; Yang, Kaijie; Laverde, Ligia Patricia; Nong, Kailei; Sumithran, Priya; Sjöström, Lars; Kuate Defo, Alvin; Bi, Zheng; Bushi, Ganesh; Volker, K M]
 sources: [Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Volker - GLP-1 Substance Use Disorders 2026, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
 confidence: medium
 created: 2026-08-17
-updated: 2026-09-15
+updated: 2026-10-03
 ---
 
 > [!warning] Applies to a specific decision
@@ -17,12 +17,14 @@ updated: 2026-09-15
 > baseline cardiometabolic risk — the same drug is a proven hard-outcome lever for one person and a
 > surrogate-only weight change for another. It is not population-wide advice to start or avoid it.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The drug is two decisions wearing one name
 
 A GLP-1 receptor agonist does the same thing to everyone's appetite — it resupplies a satiety signal
-from the outside, so you eat less. But its *value* forks on who takes it, because the benefit that
-matters most — a prevented heart attack, stroke, kidney failure, or death — scales with the risk a
-person already carries. Sort by baseline cardiometabolic risk and the drug resolves into two answers
+from the outside, so you eat less. But its *value* forks on who takes it. The benefit that matters
+most — a prevented heart attack, stroke, kidney failure, or death — scales with the risk a person
+already carries. Sort by baseline cardiometabolic risk and the drug resolves into two answers
 wearing one name.
 
 For a person with obesity **and** established cardiovascular disease, kidney disease, or type-2
@@ -44,6 +46,8 @@ Every section below rests on two facts. The benefit is a **maintained state, not
 it lasts only while the drug is taken. And **the class is not uniform**: tirzepatide takes off more
 weight than semaglutide but has no hard-outcome trial at all, so a bigger number on the scale does
 not carry a bigger proven benefit.
+
+</div>
 
 ## What the drug reliably does is make you eat less
 
@@ -81,10 +85,12 @@ a person actually cares about is a separate evidenced step, never assumed from t
  -> [[Surrogate Outcomes]]. That discipline bites hardest exactly here, where the effect is
 so large and reliable that reading the surrogate *as* the outcome is most tempting.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Hard cardiovascular events fall as a class — but the benefit is proven where risk is high
 
-This is the outcome that turns the drug from a weight intervention into a lever on something people
-care about, and the evidence has grown from one trial to a class.
+This outcome turns the drug from a weight intervention into a lever on something people care about,
+and the evidence has grown from one trial to a class.
 
 **SELECT is the landmark for the obese, non-diabetic stratum.** In 17,604 patients aged 45+ with
 established cardiovascular disease and a BMI ≥27, on top of standard care (90% on statins, 86% on
@@ -103,8 +109,8 @@ high-certainty and consistent regardless of diabetes status
 [@badve2024glp1].
 
 Badve calls the class «the first and only class of medications with proven benefits on composite kidney and cardiovascular outcomes... across a range of cardiovascular risk and chronic kidney disease severity in people with and without diabetes»
-[@badve2024glp1]. This is
-what the single-agent trials could not establish: the CV/mortality benefit is a class property, robust
+[@badve2024glp1]. The
+single-agent trials could not establish this: the CV/mortality benefit is a class property, robust
 to leaving out any one trial -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 
 **But Badve is not a second independent line — it pools SELECT and shares its authors** — so it is
@@ -174,6 +180,8 @@ A record-breaking weight number does not license a hard-outcome claim: Look AHEA
 worked case where a large surrogate improvement bought no measurable event reduction
 -> [[Does Weight Loss Reduce Cardiovascular Events]]. Until SURMOUNT-MMO reports, tirzepatide's
 hard-CV effect is insufficient-evidence, not no-effect.
+
+</div>
 
 ## The kidney is now its own proven leg
 
@@ -283,11 +291,13 @@ this as insufficient evidence on function, not as safe or harmful
   [inferred from @laverde2026]
   -> [[Big Rocks (Elderly)]], [[Protein and Resistance Training for Muscle and Strength]].
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The safety ledger: worry about the gut, not the cancers
 
-Read each entry on two axes at once, because the umbrella evidence grades them on two that routinely
-disagree — **GRADE certainty** (how well the effect is estimated) and **credibility class** (how
-robust the association is to bias) [@yang2026].
+Read each entry on two axes at once. The umbrella evidence grades each harm on two scales that
+routinely disagree — **GRADE certainty** (how well the effect is estimated) and **credibility class**
+(how robust the association is to bias) [@yang2026].
 Within the gastrointestinal cluster, nausea is GRADE-high but credibility-weak, while vomiting is
 GRADE-moderate but highly suggestive — so a headline quoting one number misleads
 -> [[Rating Certainty of Evidence]].
@@ -320,7 +330,7 @@ latency caveat), so absence of a short-term signal is not a long-term all-clear.
 **Between the robust harm and the absent one sits an unsettled middle — each demoted for a different
 reason.** Gallbladder or biliary disease is a *statistically significant* association (OR 1.34,
 1.16-1.55, P<.001), demoted only because its prediction interval sits near the null — a robustness
-caveat, not a doubt about the harm; gastro-oesophageal reflux holds the same posture (OR 2.19,
+caveat, not a doubt about the harm. Gastro-oesophageal reflux holds the same posture (OR 2.19,
 1.65-2.90). Pancreatitis is different in kind: here the demotion is about *causality* — the consensus
 on whether GLP-1 drugs cause it is explicitly unsettled, with a propensity-matched analysis finding no
 excess against a regulatory update flagging rare fatal cases
@@ -333,8 +343,8 @@ serious infections (OR 0.89, 0.87-0.92, the one convincing class-I signal), fewe
 offsets the sarcopenia/fall worry above; the dementia signal, *if real*, is decision-relevant.
 
 But a second umbrella shows the dementia effect is not GLP-1-specific. Across antidiabetic classes, GLP-1
-drugs were associated with lower dementia risk (RR 0.35, 0.16-0.78) — but so were metformin, the
-thiazolidinediones, and SGLT2 inhibitors, while sulphonylureas ran the *other* way, and the estimate
+drugs were associated with lower dementia risk (RR 0.35, 0.16-0.78). But so were metformin, the
+thiazolidinediones, and SGLT2 inhibitors, while sulphonylureas ran the *other* way — and the estimate
 carries near-total heterogeneity (I²=98.5%)
 [@kuatedefo2023]. A protective signal
 shared across unrelated glucose-lowering classes points at glycaemic control or confounding by
@@ -348,9 +358,9 @@ depression-related adverse-event **OR 1.49 (95% CI 1.18-1.88)**
 [@glp1depression2026], which it rated GRADE moderate
 [@glp1depression2026]. On the severe endpoint — suicidality, behind
 the 2023 FDA/EMA scare — a dedicated meta-analysis found no population signal, **RR 0.568 (95% CI
-0.077-4.205)** [@glp1suicidality2025], but the interval runs from
-strong protection to fourfold harm, so it is nearly uninformative rather than reassuring; the same
-severe endpoint rates GRADE low-to-very-low, on serious imprecision from low event rates
+0.077-4.205)** [@glp1suicidality2025]. But the interval runs from
+strong protection to fourfold harm, so the result is nearly uninformative rather than reassuring. The
+same severe endpoint rates GRADE low-to-very-low, on serious imprecision from low event rates
 [@glp1depression2026].
 
 The lone counter-signal is agent- and
@@ -380,6 +390,8 @@ while prescribing moves to agents that add receptor targets it never tested (tir
 to higher doses. And the umbrella could not stratify harms by dose or duration. Accrued safety years
 de-risk the *specific compound at the specific dose that accrued them*; the class label stays constant
 while the exposure under it drifts -> [[GLP-1 Non-Cardiometabolic Effects and Safety]].
+
+</div>
 
 ## Stopping the drug gives the weight back — and the benefit with it
 
@@ -418,6 +430,8 @@ most exposed — and to stop there, not to net it against the mortality and even
 lifelong cost outweighs a rented benefit is the person's judgment, not a number this evidence supplies
  -> [[Which Objective Moved This Recommendation]].
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## What the current evidence still cannot see
 
 These are gaps — *insufficient evidence*, not *no effect* -> [[The Insufficient-Evidence Statement]].
@@ -440,11 +454,15 @@ decades, and this horizon mismatch is structural — more searching now cannot c
   flags is invisible to the clean RCT design, leaving insufficient evidence where the worry
   concentrates.
 - **Unknown unknowns are unquantifiable — so name the two honest proxies.** No list exists of harms
-  nobody has measured. What can be stated is the shape that makes them likely and hard to catch: the
-  evidence-horizon-versus-use-horizon mismatch above, and the moving-target problem — the exposure
+  nobody has measured. Two honest proxies name the shape that makes them likely and hard to catch: the
+  evidence-horizon-versus-use-horizon mismatch above, and the moving-target problem. The exposure
   drifts under a constant label as prescribing moves to newer molecules and higher doses the
   mature record never tested. Accrued years de-risk the specific compound and dose, not the class
   label.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where you net out
 
@@ -465,12 +483,12 @@ cost without touching the weight benefit, most urgently in older or frailty-risk
 -> [[GLP-1 and Lean Mass]].
 
 **Then weigh the trade-off yourself.** The evidence names what the drug moves, in which direction, and
-how certainly — weight and diabetes-progression reliably; hard cardiovascular, kidney, and mortality
-outcomes where baseline risk is high; a manageable gut cost; feared cancers with no robust signal but
-no long-term all-clear; and a low-to-moderate-certainty mood signal that leans harm, alongside a feared
-suicidality scare with no robust population signal — a low-certainty adverse signal, not a proven harm,
-and one to watch mainly if you are psychiatric-comorbid or already on psychotropics. It does not price
-weight change against gastrointestinal burden, lifelong
+how certainly. Weight and diabetes-progression fall reliably. Hard cardiovascular, kidney, and
+mortality outcomes improve where baseline risk is high. The gut cost is manageable. The feared cancers
+show no robust signal but no long-term all-clear. The mood signal is low-to-moderate-certainty and
+leans harm. The feared suicidality scare shows no robust population signal — a low-certainty adverse
+signal, not a proven harm, and one to watch mainly if you are psychiatric-comorbid or already on
+psychotropics. The evidence does not price weight change against gastrointestinal burden, lifelong
 cost, or an event benefit proven for one stratum and unproven for another. Bring your own weighting;
 the fabric supplies only the directions and the certainties.
 
@@ -483,5 +501,7 @@ the fabric supplies only the directions and the certainties.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+
+</div>
 
 ## References

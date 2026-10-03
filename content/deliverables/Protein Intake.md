@@ -7,10 +7,11 @@ authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budh
 sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-21
-self_critiqued: 2026-09-21
-concrete_subject_audited: 2026-09-21
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 Ask how much protein to eat and you are really asking four questions at once: how much, from which
 foods, at what times of day, and whether any of it applies to you. Each has a different answer, and
@@ -24,21 +25,24 @@ needle. What does, modestly, is the source: shifting the protein on your plate f
 plant tracks slightly lower mortality, though only in observational data.
 
 Who you are changes the answer most of all. An older adult who already resistance-trains gains
-little from piling on protein or supplements beyond the training itself — the one thin exception a
-weak grip-strength signal in diagnosed muscle-wasting — while an older adult eating too little
-should still raise and spread out their protein. Underneath all of it sits one caveat: almost every
-number here is measured on muscle size and strength, not on whether people live longer or better,
-and the kidney scare that makes some people ration protein is unfounded unless the kidneys are
-already diseased.
+little from piling on protein or supplements beyond the training itself; the one thin exception is a
+weak grip-strength signal in diagnosed muscle-wasting. An older adult eating too little should still
+raise and spread out their protein. One caveat sits under all of it: almost every number here is
+measured on muscle size and strength, not on whether people live longer or better. And the kidney
+scare that makes some people ration protein is unfounded unless the kidneys are already diseased.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Muscle: a floor worth reaching, a ceiling not worth chasing
 
 Start with the muscle question, because it is the one most people mean. The lever that builds muscle
-is the training, not the protein. Pooling 49 resistance-training trials, Morton found that adding
-protein on top of the lifting bought a further 0.30 kg of lean mass and 2.49 kg on a one-rep-max
-over weeks of training [@morton2018] —
-real, but small increments on what the training already delivered, and it moved neither total body
-weight nor maximal voluntary contraction at all
+is the training, not the protein. Morton pooled 49 resistance-training trials. Adding protein on top
+of the lifting bought a further 0.30 kg of lean mass and 2.49 kg on a one-rep-max over weeks of
+training [@morton2018] — real, but
+small increments on what the training already delivered. It moved neither total body weight nor
+maximal voluntary contraction at all
 [@morton2018]. Protein does not build
 muscle; it lets the training build slightly more.
 
@@ -54,17 +58,16 @@ baseline intake in g/kg of total body mass; fat-free and fat mass are the outcom
 not the yardstick the dose is measured against
 [@morton2018]. In a lean
 person, total and lean weight sit within about 15-20% of each other, so \~1.6 g/kg of total weight is
-usable as-is; in someone with obesity the two diverge roughly two-fold, and the gram target is
+usable as-is. In someone with obesity the two diverge roughly two-fold, and the gram target is
 undefined until you say which kilogram you mean.
 
 Second, the knee is soft. The break-point of 1.62 carries a wide confidence interval of 1.03-2.20
 and was not statistically significant (p=0.079)
 [@morton2018] — it is
 essentially the midpoint of that interval, not a demonstrated threshold. On Morton's own
-baseline-intake axis a straight line fit the data significantly better than a knee, and an
-independent Japanese meta-analysis (Tagawa, 138 trials, no shared authors) placed its
-diminishing-returns inflection lower, at 1.3 g/kg, on a curve that kept rising out to 3.5 g/kg and
-never flattened
+baseline-intake axis, a straight line fit the data significantly better than a knee. An independent
+Japanese meta-analysis (Tagawa, 138 trials, no shared authors) placed its diminishing-returns
+inflection lower, at 1.3 g/kg, on a curve that kept rising out to 3.5 g/kg and never flattened
 [@tagawa2020]. Different
 populations, different estimators, no plateau anyone could pin down: the honest object is a wide
 region, not a point -> [[The Underivable Optimum]].
@@ -78,15 +81,17 @@ the RDA — so the practical move is topping up into the region, not loading far
 
 Where the person leaves Morton's lean, weight-stable, trained sample, the target is not simply
 lower — it is unknown. People with obesity, older adults, and anyone in a caloric deficit sit off
-the evidence's support: Morton reported no obese stratum and no baseline body-fat, so the right move
-is to name the denominator and treat the target as a genuine gap, not to scale a lean number
-downward. A tempting shortcut — dose on lean mass instead — does not even settle its own direction:
+the evidence's support. Morton reported no obese stratum and no baseline body-fat, so the right move
+is to name the denominator and treat the target as a genuine gap — not to scale a lean number
+downward. A tempting shortcut is to dose on lean mass instead. But that does not even settle its own direction:
 heavier people often carry more absolute lean mass, which pushes the gram target up, while anabolic
-resistance may raise the per-kilogram requirement, which pushes it the other way. Sign-uncertain, so
-hold it as mechanism, not a finding.
+resistance may raise the per-kilogram requirement, which pushes it the other way.
+Sign-uncertain, so hold it as mechanism, not a finding.
 
 The 1.6 that matters for muscle is not the only number people quote — and the others answer
 different questions.
+
+</div>
 
 ## The famous numbers each answer a different question
 
@@ -117,6 +122,8 @@ anything.
 
 All three numbers are about amount; for how long you live, the evidence points at source instead.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## For how long you live, the source matters and the amount barely does
 
 All three famous numbers ask *how much* protein. For mortality, the evidence points somewhere else
@@ -135,9 +142,9 @@ substitution decision, not a dose decision.
 
 Two cautions keep the swap honest. First, the animal-protein null is a fact about the *nutrient*, not a
 green light for the *foods* -> [[Is the Food Category Doing Any Work]]. The animal bucket pools red meat
-with fish, poultry, eggs and dairy, and Budhathoki's Japanese cohort — where fish supplies most animal
-protein — shows why the aggregate reads null: protective fish and harmful red and processed meat cancel
-inside one label, a discrepancy the authors trace to «a difference in the main dietary source of animal
+with fish, poultry, eggs and dairy. Budhathoki's Japanese cohort, where fish supplies most animal
+protein, shows why the aggregate reads null: protective fish and harmful red and processed meat cancel
+inside one label — a discrepancy the authors trace to «a difference in the main dietary source of animal
 protein» [@budhathoki2019]. Read *animal protein is null* as
 *name the food* — not as *red meat is fine*.
 
@@ -161,14 +168,18 @@ across shared data is not independent replication, so the page stays `confidence
 Amount and source together set the daily total. Two second-order dials — *when* you eat protein and *what
 quality* it is — matter mainly at the margins, and mainly for older adults.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Spread protein across meals, and let quality matter only until you hit the target
 
 Timing earns its place through one mechanism: [[Anabolic Resistance]]. An older muscle needs a larger
 per-meal stimulus to switch on the same building response a younger one reaches easily. Moore's tracer
 work puts the muscle-protein-synthesis plateau near **0.40 g/kg of body mass per meal in older men,
-\~68% above younger men** [@moore2014], and Katsanos
+\~68% above younger men** [@moore2014]. Katsanos
 found that a **2.8 g leucine** bolus restored a synthesis response that a 1.7 g one did not
-[@katsanos2006] — which the wiki carries as a
+[@katsanos2006]. The wiki carries this as a
 practical **\~25-30 g of protein (about 2.5-2.8 g of leucine) per meal** to clear the raised threshold
 .
 
@@ -189,14 +200,18 @@ acute and per-gram — largest in a single dose, not across a diet. For someone 
 mixed diet with any animal protein or deliberate complementation, the limiting-amino-acid problem is
 already solved at the diet level, and which source supplied the protein barely registers.
 
-These two dials sit on **different axes from the source decision, and you satisfy both at once**. Biasing
-protein toward plants for longevity (the mortality section above) and ensuring quality for muscle are not
-in tension: one is about mortality, the other about muscle, and they meet in a single plan — reach the
-amount, bias the sources plant-ward, and complement for quality where the plants are low-DIAAS.
-The plant shift costs a few extra grams or a pairing, not a compromise on either goal.
+These two dials sit on **different axes from the source decision, and you satisfy both at once**.
+Biasing protein toward plants serves longevity (the mortality section above); ensuring quality serves
+muscle. The two do not pull against each other, and they meet in a single plan: reach the amount, bias
+the sources plant-ward, and complement for quality where the plants are low-DIAAS. The
+plant shift costs a few extra grams or a pairing, not a compromise on either goal.
 
 Who these dials matter for is not uniform. The amount, the timing, and whether supplements help at all
 depend hard on the stratum.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Who needs more, and who can stop optimizing
 
@@ -210,7 +225,7 @@ sides — each held on positive evidence rather than mechanism alone, and each r
 Most older adults eat too little protein, not too much, so the common failure in this stratum is
 undershoot. PROT-AGE sets the healthy-older target at 1.0-1.2 g per kg of body weight per day, 1.2 for
 those who are active, and 1.2-1.5 during acute or chronic illness
-[@bauer2013]. The total is not enough on its own: old
+[@bauer2013]. The total is not enough on its own. Old
 muscle needs roughly 25-30 g of protein at each meal to clear the raised anabolic threshold, so the
 move is to spread protein across breakfast, lunch and dinner rather than back-load it at night
 ([[Anabolic Resistance]]) [@bauer2013].
@@ -223,9 +238,9 @@ and the supplement effect it rests on decays with age
 transport down to justify aiming low in the old; anabolic resistance means older muscle plausibly needs
 at least as much per stimulus, not less.
 
-Where undershoot forfeits the muscle a person is training for, biasing the intake toward the upper end
-of that wide interval is a hedge against missing the target — a Layer-3 decision the person makes under
-the uncertainty, not a claim that more protein raises the average lean-mass effect.
+Undershoot forfeits the muscle a person is training for. So biasing the intake toward the upper end of
+that wide interval hedges against missing the target — a Layer-3 decision the person makes under the
+uncertainty, not a claim that more protein raises the average lean-mass effect.
 
 ### The older adult who already resistance-trains: training is the whole lever
 
@@ -312,6 +327,10 @@ a gap, not a scaled-down lean or reference target. Any per-stratum lean scaling 
 sign-uncertain, and never a finding: the obese carry more absolute lean mass, which pushes a per-lean
 target up, not down.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The evidence is mostly on surrogates — the honest ceiling
 
 Almost every number in this appraisal measures a stand-in, not the thing you care about. Muscle mass,
@@ -323,10 +342,14 @@ or their lives lengthened, so the loop stays open.
 
 The kidney reassurance rests on the same
 footing: trials track GFR over weeks, not kidney failure over years, and no protein-to-hard-kidney-outcome
-trial exists [@devries2018]. And the muscle
-case carries its own gap — low muscle mass independently predicts mortality, a link de Santana found is
-not fully explained by muscle strength [@santana2021], but that *raising* mass
-lowers it is unproven.
+trial exists [@devries2018]. The muscle
+case carries its own gap. Low muscle mass independently predicts mortality — a link de Santana found is
+not fully explained by muscle strength [@santana2021] — but
+that *raising* mass lowers it is unproven.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What to do — and the question none of it answers
 
@@ -343,7 +366,7 @@ toward plant. The stratum decides the rest:
 - Healthy kidneys: kidney worry is no reason to hold protein below target; established chronic kidney
   disease is the one place to restrict.
 
-The honest caveat rides on all of it: no trial yet shows that hitting any of these targets changes how
+One honest caveat covers all of it: no trial yet shows that hitting any of these targets changes how
 you function or how long you live.
 
 > [!info] Evidence box
@@ -355,5 +378,7 @@ you function or how long you live.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+
+</div>
 
 ## References

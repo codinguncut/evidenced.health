@@ -7,9 +7,9 @@ authors: [Valdes, Ana M; Walter, Jens; World Gastroenterology Organisation (org)
 sources: [Valdes - Gut Microbiota Nutrition and Health 2018, WGO - Probiotics and Prebiotics Global Guideline 2023, Suez - Non-Nutritive Sweeteners Glucose Tolerance 2022, Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, van Nood - Donor Feces Recurrent C difficile 2013, Wastyk - Fermented Foods Microbiota Immune RCT 2021, Minkoff - Fecal Microbiota Transplantation Recurrent C difficile 2023, Ford - Probiotics Prebiotics Synbiotics IBS 2018]
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-25
-self_critiqued: 2026-09-25
-concrete_subject_audited: 2026-09-25
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
 
 The gut microbiome gets invoked for almost everything: immunity, mood, weight, autoimmune disease,
@@ -17,6 +17,8 @@ The gut microbiome gets invoked for almost everything: immunity, mood, weight, a
 microbiome is genuinely modifiable and genuinely matters in a handful of well-defined places. In most
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The bottom line
 
@@ -43,18 +45,20 @@ are present — that no one ever follows through to an outcome a person can feel
 - **Faecal microbiota transplant (FMT — transferring a healthy donor's stool microbes) is real
   medicine, but so far for one thing:** recurrent *C. difficile* infection. Everything else is
   experimental.
-- ***Leaky gut syndrome* and *chronic candida overgrowth*** as general, diet-treatable causes of
-  systemic disease fail the basic test — is there a measurable claim on a real outcome? — and must be
+- ***Leaky gut syndrome* and *chronic candida overgrowth***, as general diet-treatable causes of
+  systemic disease, fail the basic test — is there a measurable claim on a real outcome? They must be
   kept separate from the real medical conditions that share their names.
 - **The microbiome is discussed far out of proportion to its established effect sizes.** Here,
   attention is an anti-signal: rank the topic low, and put your effort into the levers (fibre, diet
   quality) that were already ranked without the word *microbiome* attached
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
-Confidence is **medium**. The probiotics-by-indication claims rest on an authoritative global guideline
-and the FMT-for-*C. difficile* claim on a gold Cochrane meta-analysis of six RCTs, but the broad
+Confidence is **medium**. The probiotics-by-indication claims rest on an authoritative global guideline,
+and the FMT-for-*C. difficile* claim on a gold Cochrane meta-analysis of six RCTs. But the broad
 microbiome-and-health story is mostly observational, and the field's central confound — which way the
 causal arrow points — is usually unresolved.
+
+</div>
 
 ## §2 — The one move that decides most of it: composition-shift is a surrogate
 
@@ -85,9 +89,11 @@ personalized, with responders and non-responders in each arm; and causal-on-the-
 causal-on-the-disease. A microbiome study that clears the surrogate bar this cleanly is the exception,
 and it still cannot license a claim about a hard outcome.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## §3 — What actually moves the microbiome: diet, and mostly fibre
 
-The dominant modifiable lever on the microbiome is diet, and within diet, fermentable fibre — the
+Diet is the dominant modifiable lever on the microbiome, and within diet, fermentable fibre — the
 fraction gut bacteria ferment into short-chain fatty acids (SCFA: acetate, propionate, butyrate). But
 the popular shorthand "more fibre, more diversity" is wrong as stated. Valdes is explicitly two-sided:
 «Many short term feeding trials with purified dietary fibres or even whole plant based diets either have
@@ -103,7 +109,7 @@ clinical benefit, not through a simple diversity gradient ([[Dietary Fibre and H
 numbers behind fibre are real but split by evidence grade. The large ones are observational, from
 self-reported intake: highest-versus-lowest fibre tracks roughly 15-30% lower risk — all-cause mortality
 RR 0.85, CHD 0.76, type 2 diabetes 0.84, colorectal cancer 0.84
-[@reynolds2019] — so they carry the
+[@reynolds2019]. These estimates carry the
 healthy-user confound and dietary measurement error ([[Measurement Error in Dietary Assessment]]). The
 trial-grade effects are causal and small: viscous fibre lowers LDL by about -0.057 mmol/L per gram over
 the practical <=10 g/day range (a roughly linear slope that plateaus above \~10 g), and
@@ -126,14 +132,18 @@ fermented foods add microbes and their metabolites (the probiotic route). Both a
 the surrogate level — a diversity shift, not an outcome.
 
 Whether the *live cultures* are the active ingredient is untested. A fermented food differs from its
-unfermented parent in three separable ways — the live cultures, the food matrix, and the biochemistry
-fermentation performs (which survives pasteurization) — and telling them apart needs a live-culture
+unfermented parent in three separable ways: the live cultures, the food matrix, and the biochemistry
+fermentation performs (which survives pasteurization). Telling them apart needs a live-culture
 ferment compared against a pasteurized-after-fermentation version with the cultures killed. No held
 source runs that experiment
 [inferred from @wastyk2021].
 Until one does, *fermented foods work
 because of the probiotics* stays a mechanism hypothesis, not a finding — and the Wastyk remodeling
 reading above already cuts against the simple *eat live bacteria -> they take up residence* picture.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
@@ -177,8 +187,8 @@ while a strain actually studied for IBS is the one that earns a bounded trial
 -> [[Microbial Therapies for IBS]].
 
 Two caveats travel with every row. First, pooling trials across different strains without a
-shared-mechanism rationale «should be avoided» — a strain-blind meta-analysis can manufacture or wash out
-an effect, the [[Is the Food Category Doing Any Work]] problem at the level of the organism: the strain
+shared-mechanism rationale «should be avoided». A strain-blind meta-analysis can manufacture or wash out
+an effect — the [[Is the Food Category Doing Any Work]] problem at the level of the organism: the strain
 is the exposure, not the label. Second, swallowed probiotics are typically transient colonizers — they
 pass through rather than take up permanent residence, so an effect generally lasts only as long as dosing
 does.
@@ -187,11 +197,13 @@ For general immunity and mood the honest state is not "no evidence" — it is we
 heavily discounted. WGO reports «suggestive evidence that several probiotic strains and the prebiotic
 oligofructose are useful in improving the immune response»
 [@wgo2023], and Valdes reports
-meta-analytic benefit for upper-respiratory infection, eczema prevention and depressive symptoms. Both
-are undercut by the same problem — strain-blind pooling and heterogeneity, with Valdes noting the studies
+meta-analytic benefit for upper-respiratory infection, eczema prevention and depressive symptoms. The
+same problem undercuts both: strain-blind pooling and heterogeneity. Valdes notes the studies
 «were not homogeneous ... which limits precise recommendations». The demotion to weak-to-suggestive is
 the wiki's own reading of these two sources — a discounted finding of benefit, not the
 insufficient-evidence state.
+
+</div>
 
 ## §5 — Prebiotics: mostly fibre by another name
 
@@ -203,6 +215,8 @@ the same substrate the fibre evidence already covers. So a prebiotic's outcome e
 fibre evidence ([[Dietary Fibre and Health]]), and a standalone prebiotic supplement, taken on top of an
 already-adequate fibre intake, is a marginal and mostly-unevidenced increment.
 
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## §6 — FMT: the field's strongest win, and only for one thing so far
 
@@ -232,8 +246,8 @@ open-label RCT — one of Minkoff's six — cured 13 of 16 (81%) on the first in
 overall, against 4 of 13 (31%) for a standard 14-day course of vancomycin, an effect so large that
 «The study was stopped after an interim analysis»
 [@vannood2013]. Early stopping inflates a
-magnitude, and that is exactly what the meta-analysis shows: the pooled RR of 1.92 sits well below van
-Nood's within-trial cure ratio of roughly three-fold (94% vs 31%), so the single trial over-stated the
+magnitude, and the meta-analysis shows exactly that. The pooled RR of 1.92 sits well below van
+Nood's within-trial cure ratio of roughly three-fold (94% vs 31%): the single trial over-stated the
 size while getting the direction right. This is a quality-upgrade (type F), not independent corroboration
 (type E) — Minkoff pools van Nood among the six, so the two agree by shared data, and the composite is
 the better anchor.
@@ -253,6 +267,8 @@ for anything else. The CDI win is no evidence that manipulating the microbiome i
 metabolic disease, where no established dysbiosis-as-cause exists for a transplant to reverse.
 Valdes states the field bound plainly: «For other pathologies, faecal transplants are not yet clinical
 practice but have been explored.» [@valdes2018]
+
+</div>
 
 ## §7 — Antibiotics: a real perturbation, but the outcome question is a gap
 
@@ -297,15 +313,17 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
   no one has resolved whether the disrupted community causes the illness or the illness (and its diet)
   causes the disruption. Flag it; the held evidence does not resolve it.
 - **The FMT-for-CDI evidence is now pooled, but several backbone syntheses remain unheld.** The
-  Cochrane FMT-for-CDI meta-analysis the fabric once lacked is now held (Minkoff 2023, §6): it pooled
-  the effect the single early-stopped van Nood trial over-estimated and gave it a proper confidence
-  interval, confirming the wiki's earlier early-stopping-bias caveat. Still missing: a strain-level
+  Cochrane FMT-for-CDI meta-analysis the fabric once lacked is now held (Minkoff 2023, §6). It pooled
+  the effect the single early-stopped van Nood trial over-estimated, gave it a proper confidence
+  interval, and confirmed the wiki's earlier early-stopping-bias caveat. Still missing: a strain-level
   probiotics SR, the Camilleri intestinal-permeability review, and a microbiome-and-health umbrella
   review, each of which would anchor a claim the fabric still carries on thinner ground.
 - **No source bears on antibiotics' long-term microbiome harm**, and none on birth mode and early-life
@@ -318,6 +336,8 @@ new decision.
   [inferred from @wastyk2021].
   Fermented *dairy* (yogurt -> type-2 diabetes) is worked separately -> [[Dairy and Cardiometabolic Health]];
   fermented *soy* (miso, tempeh, natto) is a distinct exposure -> [[Soy Products and Health]].
+
+</div>
 
 ## §11 — How this compares to the popular framing (the guidance null)
 

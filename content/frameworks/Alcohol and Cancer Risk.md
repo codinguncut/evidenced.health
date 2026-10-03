@@ -163,8 +163,6 @@ says *how many* cases that is at population scale — and the two agree on the d
 light-to-moderate drinking is not exempt. This is **not type-E**: Rumgay's RRs are borrowed from WCRF's
 CUP and Bagnardi is part of the same observational base, so they are not independent routes to one claim.
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## The decision
 
 - **Alcohol is a Layer-1 big rock**; cancer is one leg of its harm ledger (mortality · vascular ·
@@ -182,8 +180,6 @@ CUP and Bagnardi is part of the same observational base, so they are not indepen
   label and a real risk line up here. The general point: a carcinogen classification grades the *evidence
   a hazard exists*, not its size, so the label is not a substitute for the absolute-risk number — get the
   number -> [[Hazard Identification Is Not Risk Magnitude]].
-
-</div>
 
 ## Synthesis
 

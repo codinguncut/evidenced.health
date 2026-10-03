@@ -10,8 +10,8 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-page" data-last-updated="2026-10-02"></div>
 
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Cut the sugary drink, not the sugar molecule
 
@@ -52,6 +52,10 @@ whether the type-2-diabetes signal persists net of weight is thin.
 
 Before any per-outcome number, fix which sugar is the exposure — the word names several
 different objects.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Fix which sugar you mean before counting it
 
@@ -142,6 +146,10 @@ rather than a food -> [[Is the Food Category Doing Any Work]], [[Glycaemic Index
 With the exposure fixed — free sugars, carried above all by beverages, with juice a case apart and
 whole fruit outside the line — take each patient-important outcome in turn, starting where the evidence
 is strongest.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Start where the evidence is strongest: three harms the data actually size
 
@@ -242,6 +250,10 @@ Every one of these three harms is measured as sugar is consumed -- eaten on top 
 its calories attached. Hold the calories constant, swapping sugar for other carbohydrate
 gram-for-gram, and the picture changes sharply. That isocaloric test is the interpretive core of
 the whole question.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Hold the calories equal, and watch what survives the swap
 
@@ -366,6 +378,10 @@ The urate result is what makes the beverage the sharp end of the whole question:
 where a harm survives the calorie-for-calorie test cleanly. That raises the next question directly — is
 a sugar-sweetened beverage a distinct exposure from the same sugar in solid food?
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Treat a sugar-sweetened beverage as its own exposure
 
 A sugar-sweetened beverage is not just sugar in liquid form, and the difference changes what to cut.
@@ -474,6 +490,10 @@ Sweeteners deliverable** and not re-opened here -> [[Non-Sugar Sweeteners]].
 Two outcomes remain where the evidence thins to insufficient — liver fat under an isocaloric sugar swap,
 and hard cardiovascular events.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Name the open cells — insufficient evidence is not proof of no effect
 
 Five questions about sugar stay open, and each one is **insufficient evidence, not a demonstrated
@@ -560,6 +580,10 @@ link among liver fat, histological response and clinical outcomes is unestablish
 [@aasld2023]. So these cells are not merely unpooled:
 even where a number exists, its transmission to something a person can feel is untested. Which leaves
 the decision, and how it sits against published guidance.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Cut the drinks, keep the fruit, and mind what replaces them
 
@@ -650,6 +674,8 @@ unsweetened drink, or whole fruit; keep whole fruit; judge 100% juice by the out
 guidance body found a safe threshold, the numbers below 5% rest on the thinnest evidence, and the harm
 that a calorie-for-calorie swap cannot erase is narrow — caries and urate — not a general property of
 the sugar molecule.
+
+</div>
 
 ## Caveats
 

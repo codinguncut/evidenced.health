@@ -25,8 +25,6 @@ two are not the same question. Sleep has at least three separable dimensions —
 (fragmentation) — and a person can score well on one and badly on another.
 [inferred from @windred2023]
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## The finding — regularity out-predicts duration in the same cohort `[EXTRACTED]`
 
 Windred measured both dimensions **objectively** (wrist accelerometry, not self-report) in 60 977 UK
@@ -48,8 +46,6 @@ comparison — no cross-source commensurability question arises.
 
 Sleep is the instance where the distribution axis *dominates* the total -> [[Temporal Distribution vs Total Dose]]: regularity outranks duration here, whereas for physical activity and the eating window the
 temporal pattern is null once the total (volume, calories) is matched.
-
-</div>
 
 ## Why it does not contradict the duration nucleus — a reconciliation, not a tension
 

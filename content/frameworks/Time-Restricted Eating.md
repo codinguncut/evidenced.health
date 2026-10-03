@@ -27,8 +27,6 @@ together they **decompose** the popular claim rather than settling it as a singl
 
 
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## The bottom line, up front
 
 - **The weight-loss rationale for TRE is weak — and this is now RCT-evidenced, not inferred.** The
@@ -63,8 +61,6 @@ together they **decompose** the popular claim rather than settling it as a singl
 Eating bridges the two camps of the distribution-vs-total split -> [[Temporal Distribution vs Total Dose]]: the *window* is a rearrangement of the same calories and is null beyond the deficit, while
 *eating early* is a candidate circadian channel — a fragile, surrogate-only signal (n=8, not reproduced by
 Liu's 12-month RCT), the same weak-tier mechanism line as sleep-timing regularity.
-
-</div>
 
 ## The parameter table — why TREAT and eTRF are NOT the same quantity (op-weave 2a)
 

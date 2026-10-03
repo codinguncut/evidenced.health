@@ -48,8 +48,6 @@ Processed meat's association is significant and consistent. WCRF also records th
 foods... Further analysis of adjustment factors was not performed in the CUP."
 [@wcrf2018]
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## The absolute effect — the number WCRF never states and NutriRECS does
 
 NutriRECS **re-pooled the same body of cohort evidence** into absolute terms — its own de novo
@@ -81,8 +79,6 @@ Processed meat's IARC Group-1 label is the canonical "shares a category with tob
 the general point that the label grades *evidence a hazard exists*, not the risk it adds: a firm
 classification here sits atop a handful-per-1000 absolute effect
 -> [[Hazard Identification Is Not Risk Magnitude]].
-
-</div>
 
 ## The certainty split — the crux, and it is a grading disagreement
 

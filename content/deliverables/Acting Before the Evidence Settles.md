@@ -6,16 +6,17 @@ question: 'When is a lifestyle choice well-founded enough for an INDIVIDUAL to a
 sources: [GRADE - Handbook, Cochrane - Handbook for Systematic Reviews 6.5, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Amrhein - Retire Statistical Significance 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, EASD - DNSG Dietary Management of Diabetes 2023, ADA - Nutrition Therapy for Diabetes 2019]
 confidence: medium
 created: 2026-08-26
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 Sometimes a guideline body holds back while you, deciding for yourself, should act — and not
 because the body knows something you don't. **It is answering a different question.** A guideline
-body writes one rule for millions of people, so its advice has to stay safe applied across all of
-them and plain enough to state in a sentence — constraints you do not share when you are deciding
-for one person. Your own bar for acting rises or falls with three things: **how reversible the
+body writes one rule for millions of people. Its advice has to stay safe applied across all of
+them and plain enough to state in a sentence — constraints you do not share when you decide for
+one person. Your own bar for acting rises or falls with three things: **how reversible the
 choice is, what it costs, and how big the lever is.** None of those is the strength of the
 evidence. Keep the two dials apart, and most of the apparent conflict between you and the guideline
 disappears.
@@ -26,7 +27,7 @@ cohorts, the genetic natural experiments, the dose-response curves and the biolo
 well it fits the question — and back the direction they best support. Biology alone earns a
 *direction*, never a *magnitude*, and it earns even that only once human data back it up. This is
 not open licence to believe what suits you. The floor is firm: **act only on a claim you could
-prove wrong — one that names a human outcome and says, at least roughly, how much it moves** — hold
+prove wrong — one that names a human outcome and says, at least roughly, how much it moves.** Hold
 the evidence you like and the evidence you dislike to the same bar, and call a direction a
 direction instead of dressing it up as a settled effect.
 
@@ -36,6 +37,9 @@ keep your current diet or habit, whose risks go on accruing while you wait. One 
 every section below: the loop is open. This guide can tell you whether a well-informed advisor
 *would* act this way; it can never tell you whether the person who did ended up better off.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## "How good is the evidence?" and "should I act?" are different questions
 
@@ -53,7 +57,7 @@ no strong/conditional label — «This certainty of evidence determines how reco
 verb. ADA 2019 shows the same split on one specific decision: on macronutrient share it sets no population
 target — «there is not an ideal percentage of calories from carbohydrate, protein, and fat» — and hands the
 choice to «individualized assessment of current eating patterns, preferences, and metabolic goals»
-[@evert2019], so that decision turns on the person's
+[@evert2019]. That decision turns on the person's
 values, not a certainty grade. (ADA still issues firm population directives elsewhere — 5% weight loss,
 alcohol in moderation — so this is one decision handed to values, not a whole guideline.) Certainty feeds
 how firmly each body speaks; it does not settle it.
@@ -61,7 +65,7 @@ how firmly each body speaks; it does not settle it.
 
 **A guideline is cautious because of the job it is doing, not because caution is the right answer
 for you.** A guideline body is advising a whole population, so its recommendation has to be safe
-applied broadly and easy to communicate — and a strict or a careful one can be exactly right
+applied broadly and easy to communicate. A strict or a careful one can be exactly right
 *there* and the wrong bar for one person choosing for themselves. This is the single most common
 reason a guideline and a defensible individual decision part ways: they stand in different places,
 and neither is in error. Other pressures move a body's threshold too, ones you do not share: WHO's
@@ -93,14 +97,18 @@ claim the treatment works differently inside you. Claiming *that* — that the r
 is different for you — is the expensive route, and it demands direct evidence of an interaction,
 not just a plausible mechanism. -> [[Baseline Risk and the Relative-Absolute Split]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## A direction can be sound without a pooled magnitude
 
 **Insist on the meta-analysis before you will say anything, and nutrition leaves you almost
 nothing to say.** You cannot blind a person to a whole diet, randomize how they live for forty
 years, or measure what they actually eat with much accuracy — so the long, blinded, whole-diet
-trial mostly cannot be run. Judge evidence by **fit to the question, not by pedigree**: weigh a
+trial mostly cannot be run. Judge evidence by **fit to the question, not by pedigree**. Weigh a
 randomized trial where one exists alongside a cohort, a genetic natural experiment, a dose-response
-curve and a human-corroborated mechanism *together*, each by how well it answers the question, not
+curve and a human-corroborated mechanism *together* — each by how well it answers the question, not
 ranked by a single design. Here, RCT-or-nothing is the wrong bar — and holding to it is itself a
 way to stay stuck.
 
@@ -120,23 +128,25 @@ a few specific cases: a very large effect, a clean dose-response gradient, or co
 should have pushed *against* the finding but did not. The bar for the size case is high. Only an
 effect bigger than roughly a factor of two — «>2 or <0.5»
 [@poole2017] — is large enough that the size
-alone argues for cause, and you judge that against the whole interval, not the point estimate.
+alone argues for cause. Judge it against the whole interval, not the point estimate.
  Most nutritional associations sit well inside that bar — the usual red- and
-processed-meat findings among them — where the association on its own is **insufficient, though not
+processed-meat findings among them. On its own such an association is **insufficient, though not
 false**, and needs triangulation before it can move a decision.
 -> [[Upgrading Observational Evidence]]
 
 **Two routes beat the rest when no trial is available: a genetic natural experiment, and agreement
 across independent methods.** Mendelian randomization uses the genotype you inherited as a proxy
 for lifelong exposure that confounding cannot easily corrupt — a natural experiment, and the
-strongest rung of the mechanistic gradient. And what separated the nutrition findings that lasted
-from the ones that later reversed was not how many studies backed them or how large the effect
-looked — it was whether **independent kinds of evidence agreed**. Folic acid and neural-tube
+strongest rung of the mechanistic gradient. The nutrition findings that lasted, versus the ones
+that later reversed, did not differ by how many studies backed them or how large the effect
+looked. They differed by whether **independent kinds of evidence agreed**. Folic acid and neural-tube
 defects held up because biochemistry, epidemiology, randomized trials and molecular genetics each
 reached it on their own; the findings that reversed rested on many studies of a single method
 class. A mechanism accepted this way still earns only a direction, is marked as mechanism, and can
 still be overturned when the whole body compensates in a way the naive prediction missed.
 -> [[Upgrading Observational Evidence]]
+
+</div>
 
 ## How the methods pin a direction a meta-analysis cannot give
 
@@ -241,6 +251,8 @@ the estimate-layer detail, deferred to [[Reading a Confidence Interval]]. What b
 the decision: a skewed sub-significant signal is actionable under asymmetric costs and
 reversibility, and it is not a finding.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The discipline that keeps this from becoming wishful thinking
 
 Acting on directional evidence is one short step from believing whatever is convenient, and three
@@ -257,9 +269,9 @@ estimate into a decision cuts both ways. Decomposing to the right sub-question, 
 weighting the costly tail, leaning on a mechanism — each is how a careful analyst works *and* the
 cover for "the study doesn't apply to my case." The per-step check is whether the move is
 *evidenced or merely asserted* — the finer category has its own outcome evidence, the mechanism has
-human corroboration, the cost is real rather than conjured. The backstop, because a determined
-rationalizer will always claim each step is evidenced, is the pattern across steps: **if the moves
-always land you where you already wanted to be, that uniformity is the signature, however
+human corroboration, the cost is real rather than conjured. No determined rationalizer is stopped step by
+step — each step, they will claim, is evidenced. The backstop is the pattern across them: **if the
+moves always land you where you already wanted to be, that uniformity is the signature, however
 defensible each one looks alone.** The roughly-right answer is usually the less exciting one.
 -> [[The Estimate-to-Action Gap]]
 
@@ -281,6 +293,10 @@ reasoning. More often, a body is cautious because of where it stands, not becaus
 something you don't — do not mistake caution for a verdict.
 -> [[Which Objective Moved This Recommendation]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Caveats and boundaries
 
 - **This is an open loop, and that limit is structural, not temporary.** No operation here grades a
@@ -289,30 +305,34 @@ something you don't — do not mistake caution for a verdict.
   amount of further evidence closes this loop; it is a property of the question, not a gap to fill.
 
 - **With adherence, trust the direction, not a number.** A change you do not sustain has no effect,
-  and good data on how well a given person will keep it up are sparse — so carry the direction (the
+  and good data on how well a given person will keep it up are sparse. So carry the direction (the
   real-world effect lands below the idealized one) without pretending to a magnitude. Shared with
   [[Better than What]].
 - **Deferrals.** *Why* the evidence has ceilings — measurement error, the unblindable whole diet, the
   dominance of observation, the open loop — is not re-derived here -> [[Limits of Evidence]]. Framing
   the chosen action as a substitution, and picking *which tail* of a known interval to act on, live
-  on [[Better than What]]. The seam is clean: that page presumes a directional estimate and a
+  on [[Better than What]]. The seam is clean. That page presumes a directional estimate and a
   comparator already exist and asks which quantile to act on; **this page asks the prior question —
   whether to act at all when the pooled evidence is silent, and how a direction is even reached.**
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Where this nets out
 
 If you are waiting for the meta-analysis before you change anything, ask first whether you are
 waiting on the *evidence* or on the *standpoint of a body that was never deciding for you*. **Move
 the action threshold, not the certainty grade.** Reach a direction by triangulation — trials,
-cohorts, genetic experiments, dose-response, human-corroborated mechanism — and act on it when the
+cohorts, genetic experiments, dose-response, human-corroborated mechanism. Act on it when the
 change is cheap, reversible, and aimed at a real lever, especially when your own baseline risk
 makes the absolute stakes large.
 
 Hold that permission on a short leash: the same standards for evidence you like and dislike, a
 direction marked as a direction, and only claims that could be shown wrong on a human outcome.
 Where a defensible direction genuinely is not in hand, **name the state as insufficient and say
-so** — that too is a decision, and refusing to conclude is not the same as being careful. What none
-of this can tell you is whether you ended up better off; that loop stays open, and the honest guide
+so** — that too is a decision, and refusing to conclude is not the same as being careful. None of
+this can tell you whether you ended up better off; that loop stays open, and the honest guide
 says so.
 
 > [!info] Evidence box
@@ -324,5 +344,7 @@ says so.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
+
+</div>
 
 ## References

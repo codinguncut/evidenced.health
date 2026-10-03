@@ -5,12 +5,14 @@ question: What does physical activity and structured exercise do to each patient
 aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs Walking, Exercise and Mortality]
 confidence: high
 created: 2026-08-17
-updated: 2026-09-25
+updated: 2026-10-02
 compiled: 2026-09-15
-self_critiqued: 2026-09-22
-concrete_subject_audited: 2026-09-22
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 sources: [Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, WHO - Physical Activity Web Annex Evidence Profiles 2020, WCRF - Diet Nutrition Activity Cancer 2018, Paluch - Daily Steps Mortality 2022, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Kivimaki - Physical Inactivity Dementia IPD 2019, Livingston - Dementia Prevention 2024, Kodama - Cardiorespiratory Fitness and Mortality 2009, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, Momma - Muscle-Strengthening Activities and Mortality 2022, Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Khurshid - Weekend Warrior Accelerometer 2023, Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022, Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019, Riou - Energy Compensation Exercise 2015, Careau - Energy Compensation Adiposity 2021, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Currier - Resistance Training Prescription NMA 2023, Sherrington - Exercise Preventing Falls 2019, el Hadouchi - Power vs Strength Older Adults, Mohebbi - Exercise Bone Mineral Density Postmenopausal Meta-Analysis 2023, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Centner - Blood Flow Restriction Strength Hypertrophy Older Adults 2019]
 ---
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Physical activity is a big rock, and almost nothing you can buy replaces it
 
@@ -20,7 +22,7 @@ mood — and no drug reproduces that whole span. A blood-pressure pill captures 
 nothing on the pharmacy shelf captures exercise's breadth. That non-substitutability is *why* it ranks
 high, not the size of any single effect.
 
-Two honesty labels ride the whole page. First, the mortality and cardiovascular evidence is
+Two honesty labels apply across the page. First, the mortality and cardiovascular evidence is
 **observational** — you cannot randomize a lifetime of activity, so its causal magnitude is a strong
 association, not a trial-proven number [@ekelundacc2019].
 The one place the activity evidence reaches RCT-grade, high-certainty, patient-important proof is **falls
@@ -28,27 +30,30 @@ prevention in older adults** [@sherrington2019]. Second,
 the lever is **stratum-dependent**: for someone already active, the gains left on the table are small,
 and saying so is a real result — it licenses you to stop optimizing.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The first step off the couch buys the most
 
 The dose-response for mortality is steep at the bottom and flat near the top. In device-measured data,
-total activity cuts all-cause mortality hard, and the biggest single drop is the move from the least-active
-quartile to merely a little active — hazard ratios fall from 1.00 in the bottom quartile to 0.48
+total activity cuts all-cause mortality hard. The biggest single drop is the first one — from the least-active
+quartile to merely a little active: hazard ratios fall from 1.00 in the bottom quartile to 0.48
 (0.43-0.54), then 0.34, then 0.27 across rising quartiles
 [@ekelundacc2019]. The curve is
 **monotone-then-flat with no harmful upper arm** — more never hurt, but the marginal return shrinks. The
-practical reading: going from nothing to something is the largest jump available, and maximal
-moderate-to-vigorous benefit is reached at roughly 20-40 minutes a day, after which the line flattens.
+practical reading: going from nothing to something is the largest jump available. Maximal
+moderate-to-vigorous benefit arrives at roughly 20-40 minutes a day, after which the line flattens.
 
 
 **Steps tell the same story, and 10,000 is a marketing number.** Mortality falls with daily steps to an
 overall nadir around 7,000-9,000; in adults under 60 the benefit runs to roughly 8,000-10,000, while in
 adults 60 and over it plateaus earlier, near 6,000-8,000, a significant age-by-steps interaction
-[@paluch2022]. There is no extra survival dividend for
-chasing five figures.
+[@paluch2022]. Chasing five figures buys no extra survival
+dividend.
 
 **Measure movement with a device, not a questionnaire.** Self-report roughly halves the apparent effect
-against accelerometry, because people misremember and misclassify their activity — so the softer numbers
+against accelerometry, because people misremember and misclassify their activity. The softer numbers
 from questionnaire studies are attenuated floors, not the true gradient
 [@ekelundacc2019].
 
@@ -64,6 +69,8 @@ that could settle it bundle exercise with other levers and stay weak — no deme
 no responder subgroup -> [[Multidomain Lifestyle Intervention and Cognitive Decline]],
 [[Does Physical Activity Protect Against Dementia Beyond Ten Years]]. Hold dementia as a plausible but
 unproven benefit, not a settled one.
+
+</div>
 
 ## Sitting is its own lever, not just missing steps
 
@@ -96,17 +103,19 @@ activity runs the other way: in men, high job-related activity associated with *
 low-control, all-day physical work with little recovery is a different exposure from a volitional workout,
 so "I'm on my feet all day at work" does not bank the benefit of exercise.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Fitness is the strongest single number, and it is still just a number
 
 Cardiorespiratory fitness — the capacity measured as VO2max — is the single best-behaved mortality marker
 in this domain. Each 1-MET increment associates with about 13% lower all-cause mortality
 [@kodama2009], and unlike the self-reported
-activity curves it shows **no plateau**: in a large clinical cohort, the least-fit carried several times
-the mortality of the fittest, and low fitness outranked smoking, diabetes and hypertension as a risk
+activity curves, fitness shows **no plateau**. In a large clinical cohort, the least-fit carried several
+times the mortality of the fittest, and low fitness outranked smoking, diabetes and hypertension as a risk
 marker [@mandsager2018].
 
-The catch is that fitness is **part lever, part marker**. It is heritable and lowered by occult illness,
-so a low value partly reflects underlying health rather than under-training — the evidence is
+Yet fitness is **part lever, part marker**. It is heritable and lowered by occult illness,
+so a low value partly reflects underlying health rather than under-training. The evidence is
 observational, and no trial shows that raising VO2max lowers mortality. Read it as a number that places
 you in a risk stratum, not a dial to steer for its own sake
 [@ross2016].
@@ -115,17 +124,21 @@ you in a risk stratum, not a dial to steer for its own sake
 10%, and higher-intensity work raises it more per minute than the same time spent at a gentle pace
 [@ross2016]. Interval training beats
 moderate continuous training on VO2max in head-to-head pooling, though the gap is often small and
-inconsistent — so the real case for intervals is **time-efficiency**, getting a similar fitness return in
+inconsistent. So the real case for intervals is **time-efficiency**: a similar fitness return in
 fewer minutes, not a categorically larger one [@poon2024].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Strength training pays on a separate axis
 
 Muscle-strengthening activity lowers mortality **independent of aerobic exercise**. Any amount associates
 with about 15% lower all-cause mortality, with parallel reductions in cardiovascular disease, cancer and
-diabetes; doing both strength and aerobic work does best of all, at roughly 40% lower all-cause mortality
+diabetes. Doing both strength and aerobic work does best of all, at roughly 40% lower all-cause mortality
 [@momma2022]. The dose curve is
-J-shaped with a nadir near 40 minutes a week — but the apparent uptick past that is treated as an
-artifact of thin high-dose data, not real harm from more strength work, so the operative reading is that
+J-shaped, with a nadir near 40 minutes a week. The apparent uptick past that is treated as an
+artifact of thin high-dose data, not real harm from more strength work — so the operative reading is that
 the return flattens, not that heavy trainers should cut back
 [@momma2022]. This mortality evidence
 is observational and low-certainty; strength training's firmer, better-measured payoff runs through
@@ -136,7 +149,7 @@ margin — the gap between doing it and not dwarfs the gaps between competing pr
 [@currier2023]. Heavier loads drive strength,
 higher total volume drives muscle size, and a minimal effective dose sits near a couple of sets a few
 times a week; sex is not a reason to train differently. These are surrogate outcomes (strength and muscle
-size), so they earn their place through function, not through a proven mortality effect — the detail lives
+size), so they earn their place through function, not through a proven mortality effect. The detail lives
 in [[Resistance Training Prescription - Load Sets and Frequency]] and, for the protein that supports it,
 [[Protein and Resistance Training for Muscle and Strength]].
 
@@ -148,10 +161,12 @@ trials, N=238), low-load BFR matched heavy load on muscle mass (ES 0.21, 95% CI 
 non-significant) while staying below it on strength (ES -0.42, -0.70 to -0.14), and it beat plain light
 load on strength (ES 0.86, 0.42 to 1.30) [@centner2019bfr].
 
-It is a workaround for the load-intolerant, not an upgrade over heavy lifting: the evidence is
+It is a workaround for the load-intolerant, not an upgrade over heavy lifting. The evidence is
 low-certainty and surrogate-only (no falls or function endpoints), and the cuff's interaction with the
-comorbidities that motivate it is understudied, so a cardiovascular screen comes first
+comorbidities that motivate it is understudied — so a cardiovascular screen comes first
 -> [[Blood Flow Restriction Training]].
+
+</div>
 
 ## How to spend a fixed exercise budget
 
@@ -203,10 +218,12 @@ So measure these to check whether the *lever* — the activity — is working, a
 risk. Do not read a low value as a promise that squeezing a dynamometer harder buys years. The activity is
 the lever; the number is the gauge.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## For the older adult, the ranking changes — balance becomes the big rock
 
 Once the aerobic and strength rocks are in place, the highest-value activity lever for an older adult is
-not more volume — it is **balance**. This is where the activity evidence is strongest anywhere: a Cochrane
+not more volume — it is **balance**. This is where the activity evidence is strongest anywhere. A Cochrane
 review of 108 trials found exercise cut the rate of falls to about 0.77 of control and the number of people
 who fall to about 0.85, both at HIGH certainty
 [@sherrington2019]. The active ingredient is
@@ -216,16 +233,16 @@ absolute benefit is largest in those at highest fall risk, but the effect reache
 too.
 
 For the functional tasks upstream of falls, **power** (moving a moderate load quickly) beats
-heavy-slow strength training on chair-rise, gait speed and similar tests, at high certainty — though the
+heavy-slow strength training on chair-rise, gait speed and similar tests, at high certainty. But the
 trials stop at function tests, not fall counts [@elhadouchi2022].
 Weight-bearing exercise also raises bone density modestly, a surrogate whose fracture payoff runs mainly
 through the falls channel above rather than through the density number itself
 [@mohebbi2023].
 
 Two boundaries keep this honest. The high-certainty falls result is for the general older adult, not the
-already-frail, where the falls signal is uncertain and the payoff shifts to mobility — though frailty is
-itself a modifiable lever, more than doubling mortality risk yet improving mobility, daily function and
-frailty status with dosed-down multicomponent activity, at moderate certainty -> [[Frailty]]. And no held
+already-frail, where the falls signal is uncertain and the payoff shifts to mobility. Frailty is itself a
+modifiable lever, though: it more than doubles mortality risk, yet dosed-down multicomponent activity
+improves mobility, daily function and frailty status, at moderate certainty -> [[Frailty]]. And no held
 review measures fall *incidence* for resistance or power training specifically — that is a gap, not a null.
 
 
@@ -237,22 +254,26 @@ function, and exercise is safe for the arthritic joint [@messier2013idea]
 [@rauschosthoff2018exercise]. If
 fear of movement is the barrier, the evidence says start.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## What this page cannot tell you
 
 The honest limits are as decision-relevant as the effects. The mortality and cardiovascular numbers are
-observational — activity cannot be randomized over a lifetime, so reverse causation (sick people move
+observational. Activity cannot be randomized over a lifetime, so reverse causation (sick people move
 less) is never fully excluded, and the large hazard ratios are strong predictors rather than trial-proven
 causal magnitudes [@ekelundacc2019]. The
-dementia benefit is contested [@kivimaki2019inactivity]; the
+dementia benefit is contested [@kivimaki2019inactivity]. The
 occupational-activity paradox means not all movement counts the same way
-[@coenen2018paradox]; and the
+[@coenen2018paradox]. And the
 apparent upper arms of the strength and grip curves are data artifacts, not evidence that more is harmful
 [@momma2022].
 
 Three questions the fabric simply does not hold: the HIIT-versus-moderate trade at matched minutes for
 hard outcomes, the overtraining and central-fatigue ceiling, and the general adverse-event profile of
-exercise, which trials under-report. And the loop stays open — nothing here grades any of this against a
-realized outcome in a real person; it is coherent and faithful to its sources, which is not the same as
+exercise, which trials under-report. And the loop stays open: nothing here grades any of this against a
+realized outcome in a real person. It is coherent and faithful to its sources, which is not the same as
 proven true.
 
 
@@ -265,5 +286,7 @@ proven true.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+
+</div>
 
 ## References

@@ -18,8 +18,6 @@ relationships:
     - Physical Activity Dose and Mortality
     - The U-Shaped Association Artifact
 ---
-<div class="recent-page" data-last-updated="2026-09-29"></div>
-
 
  — this page is the wiki's own appraisal concept, induced across held exposures; the effect
 estimates and their evidence live on the instance pages, not re-extracted here.

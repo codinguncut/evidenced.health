@@ -2,20 +2,21 @@
 type: deliverable
 name: Processed Food
 title: Processed Food
-concrete_subject_audited: 2026-09-25
+concrete_subject_audited: 2026-10-02
 question: 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density, hyper-palatability as an engineered reward property distinct from ultra-processing, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?'
 aliases: [Is Processed Food Bad, Ultra-Processed Food, UPF, NOVA Classification, Processing Aspects]
 authors: [Lane, Melissa M; Hall, Kevin D; Nordic Council of Ministers (org); Te Morenga, Lisa; Scientific Advisory Committee on Nutrition (org); Robinson, Eric; Aramburu, Adolfo; World Health Organization (org); Qin, Pei; Fazzino, Tera L; Sutton, Cassandra A; Schulte, Erica M; Gordon, Eliza L; Pursey, Kirrilly M; Said Abasse, Kassim; Baye, Estifanos; World Cancer Research Fund International (org); Bastide, Nadia M; Johnston, Bradley C; World Cancer Research Fund (org); American Institute for Cancer Research (org); Afshin, Ashkan; Riboli, Elio; Beland, Frederick A; Lachenmeier, Dirk W; Marques, M Matilde; Phillips, David H (IARC Monographs Working Group); Joint FAO WHO Expert Committee on Food Additives (org); Henney, Alex E; Gillespie, Conor S; Alam, Uazman; Hydes, Theresa J; Mackay, Clare E; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah]
 sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, Te Morenga - Dietary Sugars and Body Weight 2013, SACN - Carbohydrates and Health 2015, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Aramburu - Ultra-Processed Food RCT Review, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, Schulte - Which Foods May Be Addictive 2015, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, WHO - Non-Sugar Sweeteners 2023, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Baye - Low AGE Diet Cardiometabolic 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, NutriRECS - Red and Processed Meat Recommendations 2019, WCRF - Diet Nutrition Activity Cancer 2018, Afshin - Health Effects of Dietary Risks GBD 2019, Henney - Ultra-Processed Food Dementia 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: low
 created: 2026-08-01
-updated: 2026-09-25
-self_critiqued: 2026-09-25
+updated: 2026-10-02
+self_critiqued: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 "Processed" is not one exposure but a dozen. A food's matrix can be broken open, additives
 mixed in, a grain stripped and refined, calories packed denser, a recipe tuned for palatability, a
-contaminant formed in the cooking — and folding all of that under one alarming word is the mistake this
+contaminant formed in the cooking. Folding all of that under one alarming word is the mistake this
 decision has to undo. Split the word into its aspects and its food categories first, and most of the fear
 reattaches to nameable things a shopper can already price. The category average that drives the
 headlines — the ultra-processed (UPF) grouping in Lane's 2024 umbrella review — is a broad, consistent
@@ -26,7 +27,7 @@ headlines. [@lane2024upf]
 
 The one randomized foothold points the same way but names the mechanism. Hall's 2019 inpatient trial
 matched an ultra-processed and an unprocessed diet on calories, energy density, macronutrients, sugar,
-sodium and fibre, fed them freely, and found the ultra-processed arm drove **\~500 extra kcal/day and 0.9 kg
+sodium and fibre, then fed them freely. The ultra-processed arm drove **\~500 extra kcal/day and 0.9 kg
 of weight gain**. Processing does independent work on how much people eat — but on a two-week surrogate,
 in 20 people, and it runs through properties you can name: higher energy density, a faster eating rate,
 protein dilution, not "processing magic." [@hall2019] So the honest lever is the components you can price — energy density, how fast a food is eaten,
@@ -43,16 +44,20 @@ category carrying an evidenced, if modest, harm. And against the big rocks — s
 inactivity — none of this is one; if those are unaddressed, no processing precision changes the next
 move.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Split "processed" before you judge it
 
 **Before you can judge a processed food, you have to say which sense of "processed" you mean.** The word
 bundles at least six distinct aspects — a disrupted food matrix, added additives, refining or substrate
-change, higher energy density, engineered hyper-palatability, and processing contaminants — and,
-separately, a dozen food categories that a classification like NOVA sweeps together. A claim that fits
+change, higher energy density, engineered hyper-palatability, and processing contaminants. A classification
+like NOVA also sweeps together a dozen food categories. A claim that fits
 one aspect need not fit another, and a claim about a category is an average over everything inside it.
 
 
-**An average over a heterogeneous mix describes no actual food.** The diagnostic is sharp: when the
+**An average over a heterogeneous mix describes no actual food.** When the
 variation *within* a category exceeds the variation *between* categories, the boundary carries no
 information, and the category-level estimate is not merely imprecise — it describes nothing on any plate.
 
@@ -61,7 +66,7 @@ information, and the category-level estimate is not merely imprecise — it desc
 than composition.** Within a single
 diabetes meta-analysis Lane includes, some ultra-processed subcategories — wholegrain breads, yoghurt,
 some packaged snacks, fruit-based products — were *inversely* associated with risk while others raised
-it, so the category pools foods that help and foods that harm. [@lane2024upf] NNR names the same defect from the other side: the same bread or yoghurt sits
+it. So the category pools foods that help and foods that harm. [@lane2024upf] NNR names the same defect from the other side: the same bread or yoghurt sits
 inside or outside the category depending on how it was manufactured, so even a perfectly informative
 boundary would be one a shopper cannot apply at the shelf. [@nnr2023]
 
@@ -72,6 +77,10 @@ is null on hard outcomes [@sacn2015]. You cannot tell which case
 you are in without splitting. The first
 question the split raises is the sharpest one: does the ultra-processed label carry any causal work of
 its own, beyond the sugar, salt, fat and energy density it travels with?
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The category average is real, but confounded and low-certainty
 
@@ -95,7 +104,7 @@ strongest association — CVD mortality, rated class I *convincing* on the credi
 honest one-line read is broad, consistent associations at low-to-very-low causal certainty.
 
 **Certainty is floored low because the evidence is observational throughout — by necessity.** Lane found
-no pooled randomized trials to draw on; long-term trials feeding ultra-processed diets to hard endpoints
+no pooled randomized trials to draw on. Long-term trials feeding ultra-processed diets to hard endpoints
 like cancer or cardiovascular disease are ethically impossible, so GRADE starts this whole body of
 evidence at low quality, liftable only by a dose-response gradient or a large effect. [@lane2024upf] Underneath even that sits dietary measurement error, large
 enough to be the dominant consideration in reading almost any observational nutrition finding.
@@ -110,24 +119,28 @@ strongest ones do.
 ultra-processed food have poorer overall diets and lower socioeconomic position, both of which
 independently predict the same outcomes — NNR treats ultra-processed intake as a marker of diet quality
 and deprivation, not a clean exposure. [@nnr2023]
-Lane's defence — that adjusting for diet-quality *patterns* leaves the associations standing — does not
-close the gap, because adjusting for a pattern is not the same as matching the sugar, salt, fat and fibre
+Lane defends the associations — adjusting for diet-quality *patterns* leaves them standing — but this
+does not close the gap. Adjusting for a pattern is not the same as matching the sugar, salt, fat and fibre
 profile that makes a food ultra-processed and nutrient-poor at once. [@lane2024upf] An association this confounded needs a design that holds composition fixed
 — and the newest outcome arm, cognition, shows just how much of the association the confounding can swallow.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Dementia and cognition: the signal thins on adjustment
 
 **Add dementia to the outcome list and it behaves the way this whole decomposition predicts — real at
 face value, thinning toward nothing once you hold the metabolic and calorie channels fixed.** The first
 meta-analysis to pool the ultra-processed-food-to-dementia link found high (versus low) intake tracked
-all-cause dementia at **RR 1.44 (95% CI 1.09-1.90)** — but across a study set so disparate the pooled
+all-cause dementia at **RR 1.44 (95% CI 1.09-1.90)**. But the study set was so disparate that the pooled
 figure averages almost anything (I2 = 97%), and moderate intake was flat (RR 1.12, 0.96-1.31), so the
 authors «did not demonstrate a robust dose–response relationship». [@henney2023upf]
 Taken one at a time, every dementia subtype was non-significant — Alzheimer's 1.08 (0.79-1.48), vascular
 2.05 (0.39-10.90), mild cognitive impairment 2.01 (0.75-5.42), dementia excluding MCI 1.24 (0.93-1.65) —
 so only the pooled all-cause number clears significance. [@henney2023upf]
 
-**The telling result is what happens on adjustment.** Restrict the pool to the studies that adjusted for
+**Adjust for diabetes or total calories, and the association loses significance.** Restrict the pool to the studies that adjusted for
 type 2 diabetes and the association is gone (RR 1.47, 0.97-2.00); restrict to those adjusting for total
 energy intake and it is gone again (RR 1.26, 0.95-1.67); it also falls apart above a 10,000-participant
 study-size cutoff, the small-study tell. [@henney2023upf]
@@ -135,23 +148,25 @@ Read against this deliverable's thesis, that is the answer: the dementia signal 
 *through* the cardiometabolic disease and surplus calories ultra-processed food carries, not with a
 processing-specific effect on the brain.
 [inferred from @henney2023upf]
-It is the same decomposition applied to weight and heart disease, reaching the same place for cognition.
+The same decomposition, applied to weight and heart disease, reaches the same place for cognition.
 
 **Widen the outcome from a dementia diagnosis to cognition generally and the picture holds.** A second
 review — a narrative synthesis of five observational studies, still a preprint — took in global cognition,
-individual domains and decline trajectories; three of the five showed an adverse main effect and all five
+individual domains and decline trajectories. Three of the five showed an adverse main effect, all five
 in some subgroup, with no pooled magnitude to rank. [@smith2025upf]
-It is not an independent confirmation: the two reviews share a primary cohort (Li's UK Biobank), and this
-one reports its «results largely align with the two other systematic reviews in the field».
+The second review is not an independent confirmation: the two share a primary cohort (Li's UK Biobank),
+and it reports its «results largely align with the two other systematic reviews in the field».
 [@smith2025upf]
 
-Its one decision-useful addition is a substitution estimate from that shared cohort — replacing 10% of
-ultra-processed food by weight with less-processed food tracked a 19% lower dementia risk (HR 0.81,
+The review adds one decision-useful number — a substitution estimate from that shared cohort. Replacing
+10% of ultra-processed food by weight with less-processed food tracked a 19% lower dementia risk (HR 0.81,
 0.74-0.89), still observational and composition-confounded, but a reminder that the lever is *what
 replaces* the food, not the label. [@smith2025upf]
 Feeding trials to a dementia endpoint are ethically impossible, so this arm stays observational by design.
-The one outcome where a composition-fixed design does exist is intake — and there processing does move
+Intake is the one outcome where a composition-fixed design does exist — and there, processing does move
 the needle.
+
+</div>
 
 ## Processing does move how much you eat — through levers you can name
 
@@ -196,13 +211,15 @@ small, short, unblindable trial with **no confirmatory second feeding study**.
 If the effect runs through nameable properties, the next question is what the "ultra-processed" label
 adds once those properties are priced — and whether the guideline bodies think it adds anything at all.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Price the components and the label mostly dissolves
 
 Once you price the properties Hall named, most of the category's predictive power is already accounted
 for. Two gold bodies make the point as an **incremental-validity** argument. NNR looked at the same
 associations and declined to recommend on the category: the classification «does not add to the already
 existing food classifications and recommendations in NNR2023»
-[@nnr2023], because a processed diet's
+[@nnr2023]. A processed diet's
 predictive power runs through energy density, added sugar, salt, fat and low fibre — every one a
 variable NNR already regulates — plus the intake sub-components Hall isolated. Aramburu reaches the same
 declination from the trial side. **If the category predicts through variables you already act on,
@@ -240,6 +257,8 @@ properties, not the label** a shopper cannot reliably apply.
 
 The sharpest test of whether a processing-linked property is its own lever is a construct built to
 isolate the one Hall could not — the reward property, hyper-palatability.
+
+</div>
 
 ## Hyper-palatability is a real, measurable property — but not yet a proven lever
 
@@ -295,11 +314,13 @@ lever, and it cannot yet enter the intervention ranking.
 HPF asks what the *food* is. A sibling literature asks what the *eater* does — and here the intake
 evidence has actually located a channel.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Rate, not reward, is where the intake evidence lands
 
 When processing drives over-eating, the demonstrated route is how **fast** a food is eaten, not how much
-the eater wants it. Hall's own ratings point away from reward: the appetite scores a reward story
-predicts should separate the diets did **not** — hunger, fullness, satisfaction and capacity-to-eat
+the eater wants it. Hall's own ratings point away from reward. A reward story predicts the appetite scores should separate
+the two diets; they did **not** — hunger, fullness, satisfaction and capacity-to-eat
 «were not signiﬁcant between the diets, suggesting that they did not differ in their subjective
 appetitive properties», and pleasantness ratings did not separate them either.
 [@hall2019] And the eating-rate lever
@@ -310,8 +331,8 @@ intake with **no hunger penalty** — a mechanical, oral-sensory channel, not a 
 as the mechanism Hall's trial left unnamed — a reasonable hypothesis. But Hall's design could not compare
 hyper-palatable against non-hyper-palatable foods, and the palatability ratings it *did* collect came out
 equal. Hall's appetite-null therefore does not refute the HPF hypothesis, and HPF's composition line does
-not explain Hall's rate finding: **the two answer different questions** (does composition drive intake vs
-does processing drive intake at matched composition), so neither settles the other. The honest position is
+not explain Hall's rate finding. **The two answer different questions** — does composition drive intake,
+or does processing drive intake at matched composition — so neither settles the other. The honest position is
 that eating rate is evidenced and reward is unproven — not that reward is ruled out.
 [inferred from @hall2019; @fazzino2019hpf]
 
@@ -348,6 +369,10 @@ covered. [inferred from @pursey2014foodaddiction; @schulte2015addictive]
 
 The remaining aspects — additives and contaminants — are where mechanism runs ahead of human outcome data.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Additives and contaminants: mechanism outruns outcomes
 
 **Every additive on this list has a plausible mechanism and almost none has a hard-outcome
@@ -381,7 +406,7 @@ human evidence that could not rule out chance, bias or confounding — which fla
 compound can cause cancer under *any* condition, not what happens at consumed doses.
 [@iarc2023] JECFA, reviewing the same evidence the
 same week, reaffirmed the acceptable daily intake of 0-40 mg/kg/day and found realistic intake (adults
-\~5 mg/kg/day at the mean, \~12 for high consumers) does not approach it, so a weak
+\~5 mg/kg/day at the mean, \~12 for high consumers) does not approach it. So a weak
 can-it-ever-in-principle hazard signal is fully consistent with safe at the doses people actually eat —
 the risk at consumed intake is not demonstrated.
 [@jecfa2023] -> [[Non-Sugar Sweeteners]]
@@ -415,6 +440,8 @@ state — insufficient evidence, per compound — and the precautionary weightin
 unresolved-but-plausible signal belongs to the person at layer 3, not to the appraisal.
 Which raises the question the additives cannot answer: is there a whole-food *category* that carries
 an evidenced hard-outcome effect? One does.
+
+</div>
 
 ## Processed meat is the one category with an evidenced harm
 
@@ -465,6 +492,8 @@ So where does the whole decomposition leave
 a person deciding what to eat, measured
 against the big rocks?
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## What to do — act on the components, against the big rocks
 
 **Stop shopping for the NOVA label and buy the properties instead.** The evidence licenses a short,
@@ -493,8 +522,8 @@ worked instance of attention running inversely to effect size.
 around ultra-processing is a fact about the field, not about the size of the lever.
 
 **Two honest limits close the account.** First, the outcome many people care about most — the *shape*
-of decline, full function then a rapid end rather than a slow multi-decade loss — is unmeasured here;
-the meat and intake trials count events and surrogates, not trajectories, so the wiki names this as a
+of decline, full function then a rapid end rather than a slow multi-decade loss — is unmeasured here.
+The meat and intake trials count events and surrogates, not trajectories, so the wiki names this as a
 gap rather than letting a survival endpoint stand in for a life well-shaped. Second, for a
 person already lean, active, non-smoking and sleeping well, the big rocks are already pulled and the
 processing question is a small, honest lever — and saying so is itself a result. It licenses that
@@ -510,5 +539,7 @@ outcome they care about.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+
+</div>
 
 ## References

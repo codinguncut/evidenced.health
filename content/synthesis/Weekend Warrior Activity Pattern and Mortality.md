@@ -23,8 +23,6 @@ weekly volume?* (bout distribution), an orbiter of the total-dose nucleus
 [[Physical Activity Dose and Mortality]]. The reader it serves is time-pressed: *can I bank the mortality
 benefit in one or two sessions, or must activity be spread across the week?*
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## The decision-change
 
 **Concentrating guideline-level activity into 1-2 sessions/week is associated with the same benefit as
@@ -49,8 +47,6 @@ activity (BP/lipid benefits need sustaining) is unrefuted for intermediate outco
 independent group, on an objective instrument, reaches the same equivalence — the reason confidence is
 raised from low to **medium** (below).
 [inferred from @kunutsor2022; @odonovan2024; @khurshid2023]
-
-</div>
 
 ## The two patterns are equivalent — but do NOT equate the two studies' magnitudes
 

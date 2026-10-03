@@ -6,10 +6,11 @@ question: 'What can and cannot be established about diet-health effects given th
 sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024, EASD - DNSG Dietary Management of Diabetes 2023]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
 will change that. You cannot blind people to what they eat, cannot measure a real diet without
@@ -25,14 +26,18 @@ is one recurring confusion: *no one has looked* is read as *there is nothing the
 this is careless work; it is the ceiling the best possible study in this field still meets.
 
 
-The response is neither to despair nor to feign certainty, but to triangulate — to weigh
-trials, cohorts, genetic experiments, dose-response curves and biological mechanism by how
-well each fits the question, back the best-supported answer, and state the ceiling that bounds
-it. One bias tilts the whole field the same way: the **streetlight effect**, the pull toward
+Neither despair nor false certainty answers this. The working response is to triangulate:
+weigh trials, cohorts, genetic experiments, dose-response curves and biological mechanism by
+how well each fits the question, back the best-supported answer, and state the ceiling that
+bounds it. One bias tilts the whole field the same way: the **streetlight effect**, the pull toward
 whatever is easy to measure, which keeps the field reading absence of evidence as
 evidence of absence. And one caveat outlives every section below — this page grades how well the evidence
 coheres and how faithfully it is reported, never whether it is true. It can be sound on both
 counts and still be wrong about the world.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The exposure is mismeasured
 
@@ -48,7 +53,7 @@ The error is also not clean random noise: it is **differential** -- «In general
 average were more likely to overreport intake, while those who ate more than the average tended to
 underreport, sometimes referred to as the "flat slope syndrome"»
 [@willett] -- it pulls the tails inward, shortening the
-exposure axis so a true slope reads shallower, and once mismeasured covariates enter, the attenuation is
+exposure axis so a true slope reads shallower. And once mismeasured covariates enter, the attenuation is
 no longer guaranteed to run toward the null.
 
 Correcting for this error can strengthen a real association but cannot manufacture one from a
@@ -77,8 +82,8 @@ its cereal fibre component» [@sacn2015].
 **Named gap -- the unblindable whole-diet / food matrix.** A whole food cannot be blinded the way a pill
 can: disguising it means grinding, extracting, or reformulating it, which disrupts the causally-active
 matrix, so the blindable isolate is a **different exposure** than the food. The corpus shows the edge of
-this -- an isolated nutrient out-grades the food carrying it because the isolate can be dosed and
-controlled -- but the limit itself has **no consolidated claim-page home** in the fabric; it is a
+this: an isolated nutrient out-grades the food carrying it because the isolate can be dosed and
+controlled. But the limit itself has **no consolidated claim-page home** in the fabric; it is a
 structural gap, not a sourced finding here.
 
 **So what.** These three ceilings all cut confidence the same way: a flat or null measured curve cannot
@@ -86,9 +91,13 @@ rule out a real gradient, a bare coefficient cannot say what was traded, and a c
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The design rarely isolates the cause
 
-The evidence base is observational-dominant, and an observational study cannot randomize its
+The evidence base is observational-dominant. An observational study cannot randomize its
 exposure, so a common cause of both exposure and outcome -- confounding -- is never fully removed. The instrument for
 non-randomized studies (ROBINS-I) states the ceiling plainly: «Unmeasured confounding can usually not
 be excluded, because we are seldom certain that we know all the confounding domains»
@@ -112,18 +121,18 @@ who adheres* -- «adherence to drug therapy may be a surrogate marker for overal
 
 So a behaviour-mortality association of order OR \~0.56 -- as large as many real drug effects -- can be
 manufactured by the healthy-adherer bundle with no causal input from the behaviour itself; magnitude
-alone never certifies cause for a guidance-endorsed exposure. The bundle is not omnipotent, though:
-where the adhered-to agent was itself proven harmful, good adherence flipped to «increased mortality
+alone never certifies cause for a guidance-endorsed exposure. The bundle does not bias everything one way,
+though: where the adhered-to agent was itself proven harmful, good adherence flipped to «increased mortality
 (2.90, 1.04 to 8.11)»
 [@simpson2006adherence] -- it biases toward
-benefit but does not paint every adhered-to exposure protective.
+benefit but does not make every adhered-to exposure protective.
 -> [[The Observational-Trial Discordance]]
 
 **A strong cohort signal can meet a null trial -- name why before crowning either.** Three distinct
-diagnoses, not one: (i) *confounding* -- the cohort signal was never causal, and the trial or a genetic
-natural experiment is right; (ii) *indirectness* -- the blindable trial tested a different exposure (an
+diagnoses sit here, not one. *Confounding*: the cohort signal was never causal, and the trial or a genetic
+natural experiment is right. *Indirectness*: the blindable trial tested a different exposure (an
 isolate or a short whole-diet swap) than the decades-long habitual pattern the cohort measured, so its
-null refutes the isolate, not the pattern; (iii) *a narrower question* -- a months-to-years trial cannot
+null refutes the isolate, not the pattern. *A narrower question*: a months-to-years trial cannot
 reproduce a lifetime exposure to a long-latency outcome, so its null may be a power/duration null. The
 discordance is a signal to check exposure-commensurability, never an automatic verdict for the trial.
  -> [[The Observational-Trial Discordance]]
@@ -135,8 +144,8 @@ downward, thereby magnifying the appearance of health benefits from low-level dr
 confounding, unequal between-group precision, or a nadir stitched across cohorts whose intake ranges do
 not overlap.
 
-That last one is subtle: Villoz's dairy-and-dementia curve dips to a knee near 150 g/day, and
-that knee sits on the seam between low-intake Asian cohorts (29-165 g/day, where dairy reads protective)
+The last of those is subtle. Villoz's dairy-and-dementia curve dips to a knee near 150 g/day.
+That knee sits on the seam between low-intake Asian cohorts (29-165 g/day, where dairy reads protective)
 and high-intake European ones (170-711 g/day, null)
 [@villoz2024dairy]. Villoz reads the split as genuine
 regional effect modification; the artifact reading is the wiki's own — the apparent *optimum* is then a
@@ -201,10 +210,14 @@ methods -- and *below-2* means insufficient on its own, **never false**
 scrutiny as a small harmful one, and measurement error usually attenuates toward the null, so a modest RR
 can understate a real effect too. -> [[Upgrading Observational Evidence]]
 
-**So what this does to confidence:** for most modest, single-method nutrition associations, none of the
-exits is available, residual confounding stays live, and the honest grade is low -- recommend
+**So what this does to confidence:** for most modest, single-method nutrition associations, none of those
+upgrade routes is available, residual confounding stays live, and the honest grade is low. Recommend
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The outcome is often a surrogate, and effects leak
 
@@ -214,17 +227,17 @@ too early. GRADE files both under **indirectness** -- the general axis on which 
 question actually being asked: a marker study is indirect, and so is one measuring the outcome at 3
 months rather than 12 [@grade]. A **structural gap** compounds this:
 diet-health effects unfold over decades, longer than most trials run, and the wiki holds no dedicated
-method-page for that *long latency* -- which is what forces reliance on surrogates and observational
-follow-up in the first place.
+method-page for that *long latency*. That long latency is what forces reliance on surrogates and
+observational follow-up in the first place.
 
-The structural *why* a marker may fail to transmit: it captures one step in a long causal chain while
+A marker may fail to transmit for a structural reason: it captures one step in a long causal chain while
 the recommendation asserts something about the endpoint. A body may prove an effect on the marker and
 still not reach the outcome: «The USPSTF gives greater weight to evidence of an effect on health
 outcomes than evidence of an effect on risk factors or intermediate outcomes. The fact that a preventive
 service has a proven effect on an intermediate outcome does not necessarily establish that it can
 improve outcomes that are perceptible to patients.» [@uspstfmanual2022]
 
-Hence the rule this section holds: **a surrogate is a legitimate target only if its causal transmission
+Hence the rule: **a surrogate is a legitimate target only if its causal transmission
 to a named patient-important outcome is itself an evidenced claim -- never assumed.** And
 transmission is **route-specific**: a marker validated when moved one way is not validated when moved
 another, because «some agents that decrease low density lipoprotein have been shown to reduce the risk
@@ -257,14 +270,18 @@ lower. So discount confident surrogate-based advice toward the *outcome's* certa
 as a target only where its transmission is shown.
 -> [[The Certainty-Importance Inversion]], [[Indirectness of Evidence]], [[Surrogate Outcomes]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The literature is filtered and noisy
 
 Set study design aside: the published record is already a biased sample of the studies that were run.
 The filter selects for statistically significant positives, so «This publication bias results in a
 published literature that does not reflect the full range of evidence about a research topic.»
 [@nasem2019] This is a
-body-of-evidence defect, not a single-study one -- each published paper can be impeccable while the
-*set* is skewed -- so it is invisible in any one paper and detectable only across the literature.
+body-of-evidence defect, not a single-study one: each published paper can be impeccable while the
+*set* is skewed. So it is invisible in any one paper and detectable only across the literature.
 
 
 Selection does not only decide *whether* an effect appears; it inflates the *magnitude*:
@@ -301,6 +318,10 @@ therefore comes from convergence of independent methods, not from study count or
 result.
 -> [[Most Published Findings Are False (PPV of a Field)]], [[Confidence in Science Without a Replication Crisis]], [[Publication Bias and Selective Reporting]], [[P-Hacking and Researcher Degrees of Freedom]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## *No evidence* is not *evidence of no effect*
 
 The appraisal frame carries four evidence states -- benefit, harm, no meaningful effect, and
@@ -311,19 +332,19 @@ that the harms outweigh the benefits»; grade I says «the current evidence is i
 balance of benefits and harms of the service. Evidence is lacking, of poor quality, or conflicting»
 [@uspstfmanual2022].
 
-What separates them is certainty, made mechanical: «If the certainty of the evidence is low, the Task Force is unable to assess the magnitude
+Certainty separates them, and USPSTF makes the split mechanical: «If the certainty of the evidence is low, the Task Force is unable to assess the magnitude
 of net benefit of the preventive service.» [@uspstfmanual2022] A null
 point estimate is not enough to conclude no-effect -- you must be *confident* of the null.
 
 **The expectancy test is the guard.** Before writing *there is no evidence that X*, ask: if X were true,
 could we realistically expect to have seen the evidence by now? Absence of evidence carries information
-only relative to what the claim predicts you would see; silence from an unstudied, unobservable, or
+only relative to what the claim predicts you would see. Silence from an unstudied, unobservable, or
 unsearched question is not a null, and such a hypothesis is unproven, not disproved -- kept alive until
 it can actually be ruled out [@heuer].
 
-**This is where the streetlight effect bites hardest.** The evidence base is systematically skewed
+**The streetlight effect bites hardest here.** The evidence base is systematically skewed
 toward the cheap-to-measure -- short-term surrogates, single nutrients, blindable isolates -- because
-those yield clean data; the hard-to-measure -- whole-diet patterns over decades, the food matrix,
+those yield clean data. The hard-to-measure -- whole-diet patterns over decades, the food matrix,
 long-latency and quality-of-life outcomes -- yields little, reads as *no evidence*, and gets discounted.
 The distortion is not random: it pushes conclusions toward whatever sits under the lamp. Certainty
 tracks measurability, not importance, and USPSTF states the cost plainly -- «few preventive
@@ -344,9 +365,13 @@ doesn't work* -- the first leaves the question open under the expectancy test; t
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The open loop, and what confidence it leaves
 
-The deepest ceiling is not any one of the limits above but the fact that none of them can be checked
+The deepest ceiling is not any one of the limits above. It is that none of them can be checked
 from inside. This body of judgment cannot grade itself against realized outcomes: no operation here
 scores a claim against what actually happened to a person. Some knowledge projects bump up against
 reality directly and a wrong contribution fails a real-world test; a body of *claims about* the world
@@ -400,7 +425,7 @@ cannot fix a point optimum, but it can pin the frame around one:
 #### When to act ahead of proof, and when to wait
 
 Certainty and action are two dials, not one. How sure the effect is real and about this big, and how hard
-to act on it, do not track each other -- GRADE was built to keep them apart, so strong evidence can pair
+to act on it, do not track each other. GRADE was built to keep them apart, so strong evidence can pair
 with a weak recommendation and weak evidence can justify strong action when the benefit far outweighs the
 harm -> [[Certainty of Evidence vs Strength of Recommendation]]. Three things move the threshold to act,
 and the certainty grade is not one of them: how reversible the choice is, what it costs, and how big the
@@ -412,7 +437,7 @@ Real bodies confirm the two dials are separable by issuing each one alone. EASD'
 grades every recommendation's certainty (GRADE's very-low-to-high notation) yet attaches no
 strong/conditional label — «This certainty of evidence determines how recommendations are worded»
 [@dnsg2023] — folding strength into the verb,
-the mirror of a body that grades strength but not certainty. What that costs is a limit of presentation: a
+the mirror of a body that grades strength but not certainty. The cost is a limit of presentation: a
 reader cannot tell whether a moderate-certainty *not recommended* is a close values call or a firm balance
 judgement.
 [inferred from @dnsg2023]
@@ -428,7 +453,7 @@ is a triangulated, human-corroborated direction actually in hand, and is the cos
 
 The guard against wishful thinking is a hard admissibility bar. A practice claimed ahead of the formal
 literature is admissible only if it is **falsifiable and quantifiable on a real human outcome, carries a
-mechanism, and survives the self-serving and survivorship check** -- a mechanism reasonable in cells or
+mechanism, and survives the self-serving and survivorship check**. A mechanism reasonable in cells or
 animals but unshown in living people is a candidate under the transportability caveat, not a finding, and a
 fad meets the same bar. Hold evidence you like to the standard you hold evidence you dislike, and mark a
 direction as a direction rather than laundering *the interval leans to benefit* into *benefit is
@@ -441,6 +466,8 @@ with* the ceiling that bounds it -- measurement error here, an unstated comparat
 class that may not transport, a curve with no locatable peak. Every number carries its interval and its
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
+
+</div>
 
 ## Caveats and boundaries
 

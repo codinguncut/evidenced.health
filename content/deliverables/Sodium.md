@@ -6,9 +6,9 @@ question: 'For an adult deciding what to do about dietary sodium and the coupled
 sources: [WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Neal - SSaSS Salt Substitution Cardiovascular 2021, Aburto - Potassium Cardiovascular 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, Afshin - Health Effects of Dietary Risks GBD 2019, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, GRADE - Handbook, Willett - Nutritional Epidemiology 3e]
 confidence: medium
 created: 2026-08-10
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-27
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
 
 **Cutting salt reliably lowers blood pressure. Almost everything past that is less certain.**
@@ -29,6 +29,8 @@ The honest bottom line: cut sodium if your blood pressure or cardiovascular risk
 potassium from fruit, vegetables and pulses, and treat every published gram-target as the edge of
 the evidence rather than a proven cliff.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Cutting sodium lowers blood pressure, and that step is as settled as this field gets
 
 The surrogate is the strong part of the story. Pooling 34 randomised trials (3,230 participants,
@@ -44,11 +46,13 @@ they are different trial sets, not the same analysis restated.
 > individuals, irrespective of sex and ethnic group.»
 > [@he2013]
 
-Sodium is not even the only dietary blood-pressure lever: the whole DASH *pattern* lowers systolic
+Sodium is not even the only dietary blood-pressure lever. The whole DASH *pattern* lowers systolic
 pressure by **5.2 mmHg** (95% CI 3.4 to 7.0) in a 20-trial meta-analysis, and its between-arm sodium
-difference does not predict that fall (P=0.67), so its effect is carried by the pattern, not by its
-incidental salt contrast [@siervo2015].
+difference does not predict that fall (P=0.67) — so the pattern carries the effect, not its incidental
+salt contrast [@siervo2015].
 The two effects act through the same channel and must not be added together.
+
+</div>
 
 ## The blood-pressure fall is biggest in people who already have high blood pressure
 
@@ -97,6 +101,8 @@ surrogate is downgraded «by one, or even two, levels» for indirectness
 [@grade]; the certainty on the outcome a person actually cares about is
 therefore well below the certainty on the marker.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The strongest hard-outcome trial cut sodium and raised potassium at once
 
 The one hard-outcome RCT here is SSaSS: 20,995 high-risk rural-Chinese adults (72.6% with
@@ -111,8 +117,8 @@ potassium +20.6 mmol; sodium -15.2 mmol; systolic pressure -3.34 mmHg), so it mo
 once and its benefit cannot be attributed to sodium reduction alone
 [@neal2021]. SSaSS is strong evidence
 that a *salt substitute* helps a high-risk group; it is not clean evidence that *sodium reduction per
-se* prevents events, and it says nothing about which sodium-to-potassium ratio is best, because it
-used one formulation.
+se* prevents events. And because SSaSS used one formulation, it says nothing about which
+sodium-to-potassium ratio is best.
 
 Two further reads matter. The event benefit slightly *outran* what a 3.34 mmHg fall predicts (RR
 \~0.91 expected from BPLTTC, 0.86 observed), consistent with a blood-pressure-independent potassium
@@ -120,6 +126,10 @@ effect or with the measured pressure fall understating the sustained one. And th
 *absolute* benefit rides on an extreme baseline risk; the \~12-14% relative reductions may transport
 to lower-risk people, but the absolute gain shrinks with them
 -> [[Baseline Risk and the Relative-Absolute Split]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Potassium is the coupled lever, but it only lowers blood pressure in people with hypertension
 
@@ -131,7 +141,7 @@ potassium half:
 > in people with hypertension but not in those without hypertension.»
 > [@aburto2013]
 
-That asymmetry is the decision-relevant point: raising potassium lowered systolic pressure by
+That asymmetry drives the decision: raising potassium lowered systolic pressure by
 **5.32 mmHg** (3.43 to 7.20) in hypertensive participants but by **0.09 mmHg** (-0.77 to 0.95) —
 essentially zero — in normotensive ones
 [@aburto2013]. So *cut sodium* and *raise
@@ -142,11 +152,11 @@ not.
 That normotensive null is not fully settled, and Aburto flags the reason: «However, the studies in
 people without hypertension were of relatively short duration and did not consider the effect that
 increased potassium intake may have over time on the prevention of elevated blood pressure»
-[@aburto2013] — a short-duration limit, so read it as
-*no effect shown over weeks*, not *no effect over a lifetime*. Where potassium does lower pressure the
-dose-response is flat-topped rather than graded: systolic pressure fell «7.16 (1.91 to 12.41) mm Hg
+[@aburto2013]. That is a short-duration limit, so read
+it as *no effect shown over weeks*, not *no effect over a lifetime*. Where potassium does lower pressure
+the dose-response is flat-topped rather than graded: systolic pressure fell «7.16 (1.91 to 12.41) mm Hg
 when the higher potassium intake was 90-120 mmol/day, without any dose response»
-[@aburto2013] — the benefit concentrates at moderate
+[@aburto2013]. The benefit concentrates at moderate
 repletion and does not keep climbing with intake.
 
 As with sodium, stroke is the one hard cohort outcome that reaches significance (RR 0.76, 0.66
@@ -163,13 +173,17 @@ outcome — that figure traces to a 2003 expert consultation, not to this eviden
 [@aburto2013]. SSaSS moved the *joint lever* from
 asserted to partly-evidenced; the *optimal ratio* remains an open, ungraded question on both sides.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## The claim that very low sodium is dangerous has never faced a decisive test
 
 Some cohorts show *higher* event rates at low sodium intake — a J-shaped curve read by some as a
-reason not to cut salt far. This is exactly the pattern the wiki treats with suspicion: a
+reason not to cut salt far. This is exactly the pattern the wiki treats with suspicion. A
 protective-looking or harmful-looking lower arm in observational data is often an artifact of reverse
-causation, sick-quitter bias or confounding by frailty, and must survive a referent-correction or a
-genetic check before it is believed -> [[The U-Shaped Association Artifact]].
+causation, sick-quitter bias or confounding by frailty. It must survive a referent-correction or a
+genetic check before anyone believes it -> [[The U-Shaped Association Artifact]].
 
 The largest direct test of that lower arm is PURE. Mente pooled 133,118 people across 49 countries
 with more than 10,000 hard events (median 4.2 years) and found a **J-shaped** curve on
@@ -177,29 +191,29 @@ death-plus-cardiovascular-events, its nadir at **4-5 g/day** and risk raised at 
 3 g/day the risk rose in hypertensive (HR **1.34**, 1.23 to 1.47) and normotensive participants alike
 (HR **1.26**, 1.10 to 1.45), while above 7 g/day the harm appeared **only in hypertensives** (HR
 **1.23**, 1.11 to 1.37) and was null in everyone else (HR 0.90, 0.76 to 1.08)
-[@mente2016pure]. Because
-that high-intake harm concentrates in hypertensives — who consuming above 7 g/day make up only \~11% of
-the studied population — Mente reads the data as a case for **targeting** salt reduction at high-intake
-hypertensives rather than pushing the whole population toward a low-sodium target
+[@mente2016pure]. That
+high-intake harm concentrates in hypertensives, and hypertensives eating above 7 g/day are only \~11%
+of the studied population. So Mente reads the data as a case for **targeting** salt reduction at
+high-intake hypertensives rather than pushing the whole population toward a low-sodium target
 [@mente2016pure].
 
 That targeting conclusion is genuinely contested, not a verbal dispute, and a filed tension turns on
 it -> [[Should Sodium Reduction Be Population-Wide or Targeted]]. Two counters keep PURE from settling
-the question. First, its exposure is a single fasting spot urine run through the Kawasaki formula, and
-a one-day recovery biomarker is least accurate at the extremes — exactly where the J-arms sit — so
-unequal measurement error can bend a flat relationship into a U with no confounder at all; PURE ran
-only weak artifact checks (excluding early events, prevalent disease and medicated participants) and
-neither a referent-correction nor a Mendelian-randomization analysis of the low arm
+the question. First, PURE estimated each person's intake from a single fasting spot urine run through
+the Kawasaki formula. A one-day recovery biomarker is least accurate at the extremes — exactly where
+the J-arms sit — so unequal measurement error can bend a flat relationship into a U with no confounder
+at all. And PURE ran only weak artifact checks (excluding early events, prevalent disease and medicated
+participants), neither a referent-correction nor a Mendelian-randomization analysis of the low arm
 [@mente2016pure]. Second, the
 targeting case leans on a premise that blood-pressure lowering helps only above 140 mmHg systolic,
 which the larger BPLTTC evidence contradicts — benefit reaches down to normal pressure and no subgroup
 is harmed -> [[Blood Pressure Lowering and Cardiovascular Events]].
 
-The two literatures also partly measure different things: the population-wide case rests on a
-*randomised reduction* against a *surrogate* (blood pressure), PURE on an *estimated habitual level*
-against *directly observed hard outcomes*, and the disputed low arm sits largely outside the reduction
-trials' range — so the shape clash is smaller than it looks while the policy conflict is exactly as
-large. Where the poles agree is the useful part: for a **hypertensive with high intake**,
+The two literatures also partly measure different things. The population-wide case rests on a
+*randomised reduction* against a *surrogate* (blood pressure); PURE rests on an *estimated habitual
+level* against *directly observed hard outcomes*; and the disputed low arm sits largely outside the
+reduction trials' range. So the shape clash is smaller than it looks, while the policy conflict is
+exactly as large. Where the poles agree is the useful part: for a **hypertensive with high intake**,
 both say reduce. The live disagreement is over the **normotensive at moderate intake (3-6 g/day)**, and
 there the honest state is insufficient evidence on the low arm, not a resolved answer.
 
@@ -225,6 +239,10 @@ The blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising i
 one would produce. **Named gap: the wiki holds no Mendelian-randomization or bias-corrected analysis
 that adjudicates the low-sodium arm.** It is unadjudicated, not settled either way.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## There is no proven floor: every realistic reduction still buys some blood-pressure fall
 
 Across the studied range the dose-response is monotone or not-estimable — no plateau or knee has been
@@ -232,9 +250,9 @@ located where a person would actually eat. Larger reductions bought larger falls
 meta-regression (roughly 5.8 mmHg systolic per 100 mmol/24h cut), though the author flags it as
 exploratory and ecological
 [@he2013]. Huang's larger pool
-shows the raw slope is *null* and the dose-response appears only
-after adjusting for trial duration (about 1.10 mmHg per 50 mmol) — the effect is recovered by the
-model, not visible in the raw contrast, but the direction survives down to baseline pressures below
+shows the raw slope is *null*; the dose-response appears only after adjusting for trial duration
+(about 1.10 mmHg per 50 mmol). The model recovers the effect — it is not visible in the raw contrast —
+but the direction survives down to baseline pressures below
 120 mmHg [@huang2020].
 
 The measurement caveat cuts one way here. Short trials *underestimate* the effect:
@@ -248,6 +266,8 @@ Because a large share of the pooled trials ran two weeks or less, the pooled sur
 *lower bound* on the sustained one. Practically: measurement error can hide a plateau but cannot
 manufacture one, so over-shooting a hidden plateau merely fails to help — the operative default is
 that every realistic reduction still pays (the dose-response shape reasoning).
+
+</div>
 
 ## The people who gain most are those at high blood pressure and high cardiovascular risk
 
@@ -272,21 +292,23 @@ person gets little absolute benefit from the same switch.
   only where renal handling is normal; chronic kidney disease
   remains a real contraindication [@aburto2013].
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Guideline targets mark where the data thin, not a proven cliff-edge
 
 WHO recommends reducing sodium to below **2 g/day** (5 g/day salt) as a *strong* recommendation
 [@who2012]. Treat that number first as the edge of the
-evidence rather than a curve feature: no trial directly assessed the threshold against a
-hard outcome, and the claim rests on high-certainty blood-pressure evidence transferred down one
-level plus a handful of indirect cohort comparisons. Which objective set the exact figure
-is not separable from the evidence here, but the achievability load is explicit — typical Western
-intake is 9-10 g/day salt against a 5 g/day target, so the recommendation asks for roughly a
-*halving*, population-wide [@esc2021]
+evidence, not a curve feature. No trial directly assessed the threshold against a hard outcome; the
+claim rests on high-certainty blood-pressure evidence transferred down one level, plus a handful of
+indirect cohort comparisons. Which objective set the exact figure is not separable from the
+evidence here. But the achievability load is explicit: typical Western intake is 9-10 g/day salt
+against a 5 g/day target, so the recommendation asks for roughly a *halving*, population-wide
+[@esc2021]
 -> [[Which Objective Moved This Recommendation]].
 
-Two guidance families reporting a near-identical \~3:1 hypertensive-to-normotensive gradient (WHO and
-ESC) look like independent corroboration but are not: both trace to the same He/MacGregor research
-lineage, so the agreement is shared-source, not a second witness. Read guideline
+Two guidance families report a near-identical \~3:1 hypertensive-to-normotensive gradient (WHO and
+ESC). They look like independent corroboration, but both trace to the same He/MacGregor research
+lineage — so the agreement is shared-source, not a second witness. Read guideline
 convergence here as one programme reaching two committees.
 
 One thing sodium has that most nutrients lack: it is *auditable*. Urinary sodium is one of only four
@@ -299,6 +321,8 @@ recovery biomarkers —
 — so it yields *absolute* intake, and a person can in principle be measured against the 2 g/day
 number in a way a food-frequency-questionnaire nutrient cannot. (A single 24-hour urine still
 captures only one day, so calibration is fixed but day-to-day variation is not.)
+
+</div>
 
 ## The bottom line
 

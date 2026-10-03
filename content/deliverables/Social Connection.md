@@ -4,14 +4,16 @@ question: 'What does the evidence show about social connection and the neighbour
 sources: [Wang - Social Isolation Loneliness Mortality Meta-Analysis 2023, Valtorta - Social Relationships Coronary Stroke Meta-Analysis 2016, Zhao - Living Alone All-Cause Mortality Meta-Analysis 2022, Cohen - Purpose in Life Mortality Cardiovascular Meta-Analysis 2015, Parker - Allostatic Load Mortality Meta-Analysis 2022, Kivimaki - Job Strain Coronary Heart Disease Meta-Analysis 2012, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024]
 authors: [Wang, Fan; Gao, Yu; Han, Zhen; Yu, Yue; Long, Zhiping; Jiang, Xianchen; Wu, Yi; Pei, Bing; Cao, Yukun; Ye, Jingyu; Wang, Maoqing; Zhao, Yashuang; Valtorta, Nicole K; Kanaan, Mona; Gilbody, Simon; Ronzi, Sara; Hanratty, Barbara; Zhao, Yunli; Guyatt, Gordon; Gao, Ya; Hao, Qiukui; Abdullah, Ream; Basmaji, John; Foroutan, Farid; Cohen, Randy; Bavishi, Chirag; Rozanski, Alan; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Kivimaki, Mika; Chen, Qiongshan; Liu, Hui; Du, Shizheng]
 confidence: low
-concrete_subject_audited: 2026-09-17
+concrete_subject_audited: 2026-10-02
+self_critiqued: 2026-10-02
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 Poor social connection is one of the more reliably replicated predictors of an early death that
 epidemiology holds. Across millions of adults, people cut off from others die sooner and develop more
-heart disease and stroke, and the excess risk sits in the range of several classic risk factors: an
+heart disease and stroke. The excess risk sits in the range of several classic risk factors: an
 objectively isolated adult carries about a 32% higher all-cause death rate, and roughly 30% more incident
 coronary heart disease and stroke [@wang2023isolation] [@valtorta2016].
 **The signal is real, it is big, and it replicates.**
@@ -25,10 +27,14 @@ with it; do not promise that the intervention pays.** The one stress-management 
 trial data (structured mindfulness lowering blood pressure) moves a surrogate, not a proven outcome. To
 see why, start with what "social connection" even names -- because it is not one exposure.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Three different things wear the name "social connection," and they don't rank by their raw numbers
 
-The umbrella term hides at least three distinct exposures, measured in completely different ways, and
-conflating them mis-ranks the decision.
+The umbrella term hides at least three distinct exposures, measured in completely different ways.
+Conflate them and you mis-rank the decision.
 
 ### The exposure ladder -- objective, subjective, structural
 
@@ -76,10 +82,12 @@ cohort pools -- so **the raw numbers rank measurements, not exposures.**
 Two nuances worth keeping straight. The isolation-beats-loneliness gap is established for *mortality* but
 untested with power for *incidence* -- only three of Valtorta's papers measured loneliness, so its "no
 difference" finding is insufficient evidence, not proof of equivalence. And the sex effect is
-exposure-specific: it shows up credibly for living alone (a co-resident is a larger share of a man's
-smaller network, so losing it cuts deeper) but not for objective isolation, where a network measure
-already counts a woman's out-of-home ties [@zhao2022livingalone] [@wang2023isolation].
+exposure-specific. It shows up credibly for living alone, where a co-resident is a larger share of a man's
+smaller network, so losing it cuts deeper. It does not show up for objective isolation, where a network
+measure already counts a woman's out-of-home ties [@zhao2022livingalone] [@wang2023isolation].
 Big numbers, then -- but do they license doing anything?
+
+</div>
 
 ## Whether fixing loneliness adds years is still unknown
 
@@ -110,6 +118,8 @@ interval alone suggests, and do not assume the effect is merely reverse causatio
 ([[The U-Shaped Association Artifact]]). The same pattern, and the same unsigned-bias posture, recur
 across the neighbouring exposures.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Purpose, job strain, and the stress they share point the same way
 
 Social connection does not sit alone. Three neighbouring psychosocial exposures show the same shape -- a
@@ -119,9 +129,9 @@ real association, an open lever question -- and appear to run through one physio
 
 **Higher purpose in life predicts lower mortality.** Cohen pooled 10 cohorts (136,265 adults): high versus
 low purpose carried an all-cause relative risk of 0.83 (95% CI 0.75-0.91) and a cardiovascular-event RR of
-0.83 (0.75-0.92) [@cohen2015purpose]
--- inverting to roughly 1.20 for low purpose, the same ballpark as isolation and allostatic load, though
-the exposures are not commensurable. **But purpose and connection are entangled, not independent:**
+0.83 (0.75-0.92) [@cohen2015purpose].
+Inverted, that is roughly 1.20 for low purpose -- the same ballpark as isolation and allostatic load,
+though the exposures are not commensurable. **But purpose and connection are entangled, not independent:**
 volunteering and social ties supply both, and only 5 of Cohen's 10 studies adjusted for social support
 [@cohen2015purpose]. Whether
 purpose predicts mortality *net of* connection is untested. So the two literatures agreeing is
@@ -130,10 +140,10 @@ corroboration within one method, not two independent routes converging.
 ### Job strain
 
 Karasek's job strain -- high demands plus low control -- is the one exposure here with a **first-hand
-hard-outcome result**. Kivimaki's individual-participant meta-analysis (13 European cohorts, 197,473
-workers) found strained workers had 23% more incident coronary heart disease (HR 1.23, 95% CI 1.10-1.37),
-attenuating to 1.17 (1.05-1.31) after adjusting for socioeconomic status and barely moving on further
-adjustment for smoking, weight, and activity [@kivimaki2012jobstrain]. **That the residual survives lifestyle adjustment is consistent with a
+hard-outcome result**. Kivimaki ran an individual-participant meta-analysis of 13 European cohorts (197,473 workers): strained
+workers had 23% more incident coronary heart disease (HR 1.23, 95% CI 1.10-1.37). The effect attenuated to
+1.17 (1.05-1.31) after adjusting for socioeconomic status, and barely moved on further adjustment for
+smoking, weight, and activity [@kivimaki2012jobstrain]. **The residual survives lifestyle adjustment, consistent with a
 direct stress-physiology route, not just strained workers behaving worse** -- though an observational
 attenuation cannot prove which.
 
@@ -152,10 +162,14 @@ index captures -- a plausible common channel from isolation, low purpose, and jo
 outcome.
 
 **But allostatic load is itself a marker, not a demonstrated lever:** no study here shows that lowering it
-lowers mortality, and its role as the *mediator* of the connection-to-death effect is named but never
+lowers mortality. Its role as the *mediator* of the connection-to-death effect is named but never
 measured -- no study captures both the social exposure and a load index on the causal path
 [@parker2022allostatic]. So is there anything to
 actually do?
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What you can actually do with this
 
@@ -163,14 +177,14 @@ Separate the driver you might reduce from the handle you might grab -- and stay 
 reaches all the way to a proven outcome for connection itself.
 
 **Reduce the driver where you can.** Job strain reaches coronary disease directly, so lowering demands or
-raising control at work has warrant that an intervention on a surrogate does not -- though the realistic
-fix is organizational, and no trial has shown that cutting job strain cuts heart attacks.
+raising control at work has warrant that an intervention on a surrogate does not. But the realistic fix
+is organizational, and no trial has shown that cutting job strain cuts heart attacks.
 
 **Grab the handle knowing its limit.** Structured mindfulness (MBSR/MBCT) is the one stress lever with
 trial data, and it moves blood pressure: pooled across 12 trials, systolic pressure fell 9.12 mmHg (95% CI
--12.18 to -6.05) and diastolic 5.66 mmHg (-8.88 to -2.43) [@chen2024mbi]. **But that headline number is the least trustworthy of the
-lot** -- the trials could not be blinded, heterogeneity was extreme, quality was low, and the effect
-vanished in unmedicated patients (systolic change 0.53 mmHg, non-significant), suggesting it may work
+-12.18 to -6.05) and diastolic 5.66 mmHg (-8.88 to -2.43) [@chen2024mbi]. **But that headline number is the least trustworthy of the lot** -- the trials could not be blinded,
+heterogeneity was extreme, and quality was low. The effect vanished in unmedicated patients (systolic
+change 0.53 mmHg, non-significant), suggesting it may work
 through better medication adherence rather than a direct stress-to-pressure drop
 [@chen2024mbi]. Blood pressure
 is a surrogate ([[Surrogate Outcomes]]), and its proven link to fewer events is a *drug* result; whether
@@ -184,10 +198,14 @@ encouragement to keep and build real ties, is what the evidence supports.
 Depression is a common downstream consequence of isolation and a lever in its own right
 ([[Depression and Modifiable Exposures]]).
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Where it nets out
 
 **Poor social connection is a real, sizeable, replicated predictor of earlier death and more
-cardiovascular disease** -- and it is not one exposure but a ladder (objective isolation, felt loneliness,
+cardiovascular disease.** Yet it is not one exposure but a ladder (objective isolation, felt loneliness,
 living alone) whose rungs agree in direction but cannot be ranked by their raw pooled numbers. Objective
 isolation carries the biggest, most robust hazard; living alone bites hardest on younger adults and men.
 
@@ -198,10 +216,10 @@ route to a longer life; it moves a surrogate, mostly in the already-medicated. A
 view: for someone who already doesn't smoke, has controlled blood pressure, and stays active, these
 psychosocial levers are among the smaller remaining gaps, not the next big move.
 
-Three open questions would change the verdict, and are worth watching: **a trial that actually raises
-connection and measures a hard outcome** (the marker-versus-lever question, unresolved by design); a
-powered test of whether isolation and loneliness differ at the incidence endpoint; and a study that
-measures allostatic load on the causal path to confirm it is the mediator. Until then, the loop stays
+Three open questions would change the verdict. First, **a trial that actually raises connection and
+measures a hard outcome** -- the marker-versus-lever question, unresolved by design. Second, a powered
+test of whether isolation and loneliness differ at the incidence endpoint. Third, a study that measures
+allostatic load on the causal path to confirm it is the mediator. Until then, the loop stays
 open: every number here is observational and coherence-graded, not validated against a realized outcome.
 
 > [!info] Evidence box
@@ -213,5 +231,7 @@ open: every number here is observational and coherence-graded, not validated aga
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Social%20Connection.md) |
+
+</div>
 
 ## References

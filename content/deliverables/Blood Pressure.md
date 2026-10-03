@@ -7,14 +7,19 @@ sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021
 authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); SPRINT Research Group (org); Peters, Ruth; Moll van Charante, Eric P; Schünemann, Holger; European Society of Cardiology (org); Aburto, Nancy J; Neal, Bruce; Siervo, Mario; Naci, Huseyin; Roerecke, Michael; Norouzzadeh, Mostafa; Look AHEAD Research Group (org); Ma, Chenhan; Chen, Qiongshan; Fang, Xin; Mente, Andrew; He, Feng J; Dibaba, Daniel T; Zhang, Xi]
 confidence: high
 created: 2026-08-10
-updated: 2026-09-25
-self_critiqued: 2026-09-25
-concrete_subject_audited: 2026-09-25
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
-Lowering blood pressure is one of the few lifestyle-adjacent levers with a proven payoff on hard disease. Randomized drug trials show that dropping the number cuts heart attacks and strokes, and, on newer evidence, dementia as well. The benefit reaches people who have never had heart disease, and it does not disappear as pressure falls into the normal range; the observational "J-curve" that once seemed to warn against going low turns out to be a study artifact.
+Lowering blood pressure is one of the few lifestyle-adjacent levers with a proven payoff on hard disease. Randomized drug trials show that dropping the number cuts heart attacks and strokes, and, on newer evidence, dementia as well. The benefit reaches people who have never had heart disease, and it does not disappear as pressure falls into the normal range. The observational "J-curve" that once seemed to warn against going low turns out to be a study artifact.
 
 That payoff comes with a catch worth stating up front. Blood pressure is a surrogate, so the decision that matters is a person's absolute cardiovascular risk, not whether they hit a particular BP target. And the proven transmission — the step from a lower number to fewer events — has been demonstrated for drug-lowered pressure. Lifestyle levers each move the number a few points, but whether that drop reaches events is mostly an assumption; one diet route, a potassium salt substitute, is the exception that actually measured it. Two framings follow from this. Drugs are the realistic comparator, not the enemy of lifestyle change. And sodium policy stays genuinely contested for someone with normal pressure eating a moderate amount — it is settled only for the hypertensive heavy-salt user.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Moving the number moves the disease — proven for drugs, on two outcomes
 
@@ -24,9 +29,11 @@ One landmark trial operationalizes the finding. SPRINT randomized high-risk hype
 
 A second patient-important outcome now sits alongside cardiovascular events. Pooling five double-blind placebo-controlled antihypertensive trials, Peters 2022 reports «an adjusted odds ratio 0.87 (95% confidence interval: 0.75, 0.99) in favour of antihypertensive treatment reducing risk of incident dementia» [@peters2022bp]. Randomization again erases the observational U: achieved blood pressure showed «a linear relationship between lower risk of dementia and lower BP, down to at least 100 mmHg systolic and 70 mmHg diastolic» [@peters2022bp]. The protective-looking lower arm of the registry curves fails the interventional check here, exactly as it did for cardiovascular events -> [[The U-Shaped Association Artifact]].
 
-Two cautions travel with the dementia result, and both are binding. First, this is a NEW outcome, not independent confirmation of the cardiovascular-events evidence: Peters' five trials sit inside the same meta-analytic base and share author lineage (the George Institute group), so they do not corroborate the blood-pressure-lowering mechanism a second time — it is a new-endpoint extension, not an independent replication. Second, the transmission is proven for DRUG-lowered blood pressure; whether a lifestyle- or sodium-lowered drop reaches dementia is the same assumption already flagged for events.
+Two cautions travel with the dementia result, and both are binding. First, the dementia finding is a NEW outcome, not independent confirmation of the cardiovascular-events evidence: Peters' five trials sit inside the same meta-analytic base and share author lineage (the George Institute group), so they do not corroborate the blood-pressure-lowering mechanism a second time. It is a new-endpoint extension, not an independent replication. Second, the transmission is proven for DRUG-lowered blood pressure; whether a lifestyle- or sodium-lowered drop reaches dementia is the same assumption already flagged for events.
 
 preDIVA sharpens where the dementia benefit lives. In unselected over-70s, six years of nurse-led blood-pressure-lowering vascular care did not reduce dementia overall, but it removed a standing worry — the authors report that «such an intervention is safe, which is in accordance with findings from the recent SPRINT trial» in this age group [@mollvancharante2016]. Any benefit concentrated where hypertension was genuinely untreated — among those adherent to the intervention with untreated hypertension at baseline, a post-hoc effect-modification hypothesis. The lever pays where the deficit is real, not in an already-managed population.
+
+</div>
 
 ## Decide on absolute risk, not on a BP number
 
@@ -36,25 +43,27 @@ This is where a stratum baseline does the work. Rather than treating to a fixed 
 
 None of this refutes the ceiling on lifestyle levers — it refines it. Blood-pressure lowering's relative benefit is proven where lifestyle weight-loss and GLP-1 cardiovascular benefit are not, but its absolute benefit still scales with baseline risk, which is the ceiling's own mechanism. A constant \~10% per 5 mmHg is worth pulling hard for a hypertensive at high cardiovascular risk and barely worth measuring for a low-risk normotensive.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The lifestyle levers, and how much each moves the number
 
-With that decision rule in hand, here is how much each lifestyle lever actually moves the number. Two things govern how to read the list. First, a millimetre of mercury is not a millimetre of prevented disease: every figure below is a change in the *surrogate* (blood pressure), and whether that drop reaches heart attacks and strokes has been tested separately for each lever. Flag each one's status: **MEASURED** where a randomized trial watched the hard events fall (only the potassium salt substitute clears this bar), **MODELLED** where the events were projected through a risk model rather than counted (alcohol), and **ASSUMED** for every other route — the BP drop is real, its transmission to events borrowed from the drug evidence.
+With that decision rule in hand, here is how much each lifestyle lever actually moves the number. Two things govern how to read the list. First, a millimetre of mercury is not a millimetre of prevented disease: every figure below is a change in the *surrogate* (blood pressure), and whether that drop reaches heart attacks and strokes has been tested separately for each lever. Flag each one's status: **MEASURED** where a randomized trial watched the hard events fall (only the potassium salt substitute clears this bar), **MODELLED** where the events were projected through a risk model rather than counted (alcohol), and **ASSUMED** for every other route. In the assumed case, the BP drop is real, but its transmission to events is borrowed from the drug evidence.
 
-Second, a big number is not the same as a good one. Rank the levers by effect *times certainty*, not by the headline mmHg. The two largest point estimates on the page — mindfulness at -9.12 and beetroot at -4.4 — carry the *weakest* evidence (unblinded, hugely heterogeneous, or measured over hours to days on a surrogate), so a smaller-but-solid mover like sodium reduction outranks them for someone deciding where to spend effort. And several of these levers overlap: do not add their mmHg together (below).
+Second, a big number is not the same as a good one. Rank the levers by effect *times certainty*, not by the headline mmHg. The two largest point estimates on the page — mindfulness at -9.12 and beetroot at -4.4 — carry the *weakest* evidence (unblinded, hugely heterogeneous, or measured over hours to days on a surrogate). So a smaller-but-solid mover like sodium reduction outranks them for someone deciding where to spend effort. And several of these levers overlap: do not add their mmHg together (below).
 
 ### Cut sodium — the certain few mmHg
 
-Reducing salt intake lowers systolic BP by about **-4.18 mmHg** (95% CI -5.18 to -3.18) across everyone and **-5.39 mmHg** (-6.62 to -4.15) in people who are already hypertensive [@he2013] — a modest reduction sustained four or more weeks, with **HIGH certainty** on the BP effect itself. The full appraisal (the very-low certainty on hard outcomes, the contested low-intake arm, the salt-sensitivity gradient) lives on [[Sodium Intake and Blood Pressure]]; here it is the best-evidenced dietary BP mover, framed as a substitution: swap the salt-delivering foods (processed meats, bread, restaurant meals) for lower-sodium versions. **Transmission: ASSUMED** — the BP fall is high-certainty, but that it reaches events rests on the drug evidence, not a sodium-reduction outcome trial.
+Reducing salt intake lowers systolic BP by about **-4.18 mmHg** (95% CI -5.18 to -3.18) across everyone and **-5.39 mmHg** (-6.62 to -4.15) in people who are already hypertensive [@he2013] — a modest reduction sustained four or more weeks, with **HIGH certainty** on the BP effect itself. The full appraisal (the very-low certainty on hard outcomes, the contested low-intake arm, the salt-sensitivity gradient) lives on [[Sodium Intake and Blood Pressure]]. Here it is the best-evidenced dietary BP mover, framed as a substitution: swap the salt-delivering foods (processed meats, bread, restaurant meals) for lower-sodium versions. **Transmission: ASSUMED** — the BP fall is high-certainty, but that it reaches events rests on the drug evidence, not a sodium-reduction outcome trial.
 
 ### More potassium — real, but only if your BP is already up
 
 Raising potassium intake lowers systolic BP by **-3.49 mmHg** (95% CI 1.82 to 5.15) on average — but that average hides a clean split. In people with hypertension the fall is **-5.32 mmHg** (3.43 to 7.20); in people with normal BP it is **+0.09 mmHg** (-0.77 to 0.95), essentially zero, not merely smaller [@aburto2013]. So *eat more potassium* is advice for a hypertensive, not a normotensive — the mirror image of sodium, which still moves a normal BP. The electrolyte physiology (the sodium-to-potassium ratio, the CKD contraindication) belongs on [[Sodium Intake and Blood Pressure]] and [[Potassium Intake and Blood Pressure]], not here.
 
-The substitution that carries potassium also carries the page's one **MEASURED** transmission. In SSaSS, swapping regular salt for a 75%-sodium / 25%-potassium substitute cut stroke (RR 0.86), major cardiovascular events (RR 0.87) and death (RR 0.88) over 4.7 years in high-risk rural Chinese adults [@neal2021]. That is the only lifestyle route on this page where a trial actually watched the events fall — but the substitute cuts sodium and raises potassium at once, so the benefit belongs to the *combined* switch, not to potassium alone, and it rides on an extreme baseline risk (72% had a prior stroke).
+The substitution that carries potassium also carries the page's one **MEASURED** transmission. In SSaSS, swapping regular salt for a 75%-sodium / 25%-potassium substitute cut stroke (RR 0.86), major cardiovascular events (RR 0.87) and death (RR 0.88) over 4.7 years in high-risk rural Chinese adults [@neal2021]. That is the only lifestyle route on this page where a trial actually watched the events fall. But the substitute cuts sodium and raises potassium at once, so the benefit belongs to the *combined* switch, not to potassium alone, and it rides on an extreme baseline risk (72% had a prior stroke).
 
 ### Adopt the DASH pattern
 
-Eating the DASH pattern — more fruit, vegetables, low-fat dairy and wholegrains, less red meat, sweets and saturated fat — instead of a typical Western diet lowers systolic BP by **-5.2 mmHg** (95% CI -7.0 to -3.4) and diastolic by **-2.6 mmHg** (-3.5 to -1.7), with a small LDL co-benefit and no effect on glucose or HDL [@siervo2015]. The fall is larger in people who start with higher BP or BMI, and the exposure is the *whole pattern* — the trials cannot pin the effect on any one component, and Siervo's own meta-regression shows it is *not* the incidental sodium difference doing the work. **Transmission: ASSUMED** (surrogate trials, 2-24 weeks; the often-quoted *13% lower CVD risk* is a modelled Framingham projection, not counted events).
+The DASH pattern means more fruit, vegetables, low-fat dairy and wholegrains, and less red meat, sweets and saturated fat. Eaten instead of a typical Western diet, it lowers systolic BP by **-5.2 mmHg** (95% CI -7.0 to -3.4) and diastolic by **-2.6 mmHg** (-3.5 to -1.7), with a small LDL co-benefit and no effect on glucose or HDL [@siervo2015]. The fall is larger in people who start with higher BP or BMI. The exposure is the *whole pattern* — the trials cannot pin the effect on any one component, and Siervo's own meta-regression shows it is *not* the incidental sodium difference doing the work. **Transmission: ASSUMED** (surrogate trials, 2-24 weeks; the often-quoted *13% lower CVD risk* is a modelled Framingham projection, not counted events).
 
 **Do not double-count DASH with sodium or potassium.** The pattern already embeds both minerals, so its -5.2 mmHg overlaps their separate figures — you cannot sum them as independent levers. They *do* stack when deliberately combined (adding salt restriction on top of DASH buys further reduction, as the DASH-Sodium factorial showed), but that is stacking two applied interventions, not attributing DASH's own effect to its salt content.
 
@@ -70,9 +79,9 @@ Cutting alcohol lowers BP, but the effect is confined to heavier drinkers. Below
 
 ### Beetroot and dietary nitrate — a big estimate on thin evidence
 
-Inorganic nitrate (beetroot juice or leafy greens) lowers systolic BP by about **-4.4 mmHg** (95% CI -5.9 to -2.8) versus placebo, with **diastolic BP not moving** (-1.1 mmHg, CI crosses zero); a larger nitrate dose predicts a larger fall, and roughly 8 mmol a day (one big beetroot shot or a large serving of leafy greens) is what reaches a >=2 mmHg drop [@siervo2013nitrate].
+Inorganic nitrate (beetroot juice or leafy greens) lowers systolic BP by about **-4.4 mmHg** (95% CI -5.9 to -2.8) versus placebo, with **diastolic BP not moving** (-1.1 mmHg, CI crosses zero). A larger nitrate dose predicts a larger fall, and roughly 8 mmol a day (one big beetroot shot or a large serving of leafy greens) is what reaches a >=2 mmHg drop [@siervo2013nitrate].
 
-Hold this **LOW-to-moderate**, and do not let the tidy point estimate fool you (the T4 rule in action): the trials ran **hours to fifteen days**, in mostly young healthy men, on resting BP — and the effect was *not* confirmed on 24-hour ambulatory monitoring, precisely in the older, higher-risk people who would benefit. **Transmission: ASSUMED** (surrogate only; the bridge to events is a modelled projection, and the observed drop is below the 5 mmHg that projection assumes).
+Hold this **LOW-to-moderate**, and do not let the tidy point estimate fool you (the T4 rule in action): the trials ran **hours to fifteen days**, in mostly young healthy men, on resting BP. And the effect was *not* confirmed on 24-hour ambulatory monitoring, precisely in the older, higher-risk people who would benefit. **Transmission: ASSUMED** (surrogate only; the bridge to events is a modelled projection, and the observed drop is below the 5 mmHg that projection assumes).
 
 One more feature makes this lever unreliable: dietary nitrate lowers BP only because bacteria on the tongue reduce it to nitrite, the first step toward the nitric oxide that relaxes blood vessels [@siervo2013nitrate]. That makes an ordinary oral commensal an obligatory link in the chain, so a person who uses antibacterial mouthwash daily, or is taking antibiotics, would be expected to blunt or lose the effect entirely — a support factor the beetroot trials never tested [inferred from @siervo2013nitrate].
 
@@ -103,8 +112,12 @@ magnesium and medication-history interaction tests were all non-significant, so 
 expect a bigger drop than a normotensive
 [@zhang2016magnesiumbp]. And the likeliest mechanism
 is repletion of a deficit in low-magnesium people, not a dose-response that transports to the already-
-replete -- so correcting a documented shortfall is a real move, while adding magnesium on top of an
+replete. So correcting a documented shortfall is a real move, while adding magnesium on top of an
 adequate whole-food intake is not.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## For a hypertensive, exercise matches a drug on the number -- but the drug's payoff is the proven one
 
@@ -112,7 +125,9 @@ The honest comparator for any lifestyle BP lever is not nothing; it is a first-l
 
 Read that equivalence with two hedges intact. The authors grant it only «Assuming equally reliable estimates, the SBP-lowering effect of exercise among hypertensive populations appears similar to that of commonly used antihypertensive medications» [@naci2019exercise] -- and the estimates are not equally reliable. The matched exercise stratum rests on 56 trials against the drugs' 194, and most exercise trials carry a high risk of performance and detection bias because you cannot blind a person to whether they are exercising. That weakness is structural, not a fixable oversight. So the finding is not *exercise equals drugs*; it is that at hypertensive baselines a structured exercise programme is a credible-magnitude lever, on thinner and lower-grade evidence.
 
-What breaks the tie is transmission. The drug arm inherits the proven outcome step -- pharmacological BP-lowering cuts major cardiovascular events by about 10% per 5 mmHg [@bplttc2021] -- while the systolic number in the exercise trials is a [[Surrogate Outcomes|surrogate]]: nobody measured events, and whether an exercise-induced drop transmits at the drug's rate is the same assumption flagged for every lifestyle route. Against that, exercise carries structural leverage a pill does not, acting on the driver rather than managing the marker, plus off-target benefits a BP-only comparison ignores. Neither dominates on every axis, so the choice -- drug, exercise, or both -- stays the person's. This is a comparison of levers, not a guide to which agent, dose, or target; that is a prescriber's call and sits outside this appraisal.
+What breaks the tie is transmission. The drug arm inherits the proven outcome step: pharmacological BP-lowering cuts major cardiovascular events by about 10% per 5 mmHg [@bplttc2021]. The systolic number in the exercise trials, by contrast, is a [[Surrogate Outcomes|surrogate]]: nobody measured events, and whether an exercise-induced drop transmits at the drug's rate is the same assumption flagged for every lifestyle route. Against that, exercise carries structural leverage a pill does not, acting on the driver rather than managing the marker, plus off-target benefits a BP-only comparison ignores. Neither dominates on every axis, so the choice -- drug, exercise, or both -- stays the person's. This is a comparison of levers, not a guide to which agent, dose, or target; that is a prescriber's call and sits outside this appraisal.
+
+</div>
 
 ## Cut sodium if you are hypertensive and eat a lot of salt; below that, the evidence runs out
 
@@ -153,9 +168,11 @@ But the same trial priced the target. Serious «hypotension, syncope, electrolyt
 
 Registries show a J-shape — risk lowest around 130/75, apparently higher below — which for years read as a warning against lowering pressure far, especially the diastolic number. Run that lower arm through the artifact diagnostics before believing it ([[The U-Shaped Association Artifact]]). The randomized check erases it: BPLTTC finds benefit down below 120 mmHg systolic with no rising hazard in any low-BP stratum [@bplttc2021], and Peters reports «no evidence of a U-shaped re- lation of the effect at any age» for dementia, monotone down to at least 100/70 [@peters2022bp]. So the observational J is confounding and reverse causation (frail, sick people run low pressure), not a treatment effect. The genuine limit on how low to go is SPRINT's adverse-event side above — not the J-curve.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The levers, ranked — and what is still unknown
 
-Pulling the decision together: a handful of moves lower blood pressure, they are not equal, and the honest ranking weighs how much each moves the number against how sure we are it reaches disease and how realistically a person can sustain it.
+A handful of moves lower blood pressure, but they are not equal. The honest ranking weighs three things: how much each moves the number, how sure we are it reaches disease, and how realistically a person can sustain it.
 
 ### Where to act, in order
 
@@ -185,5 +202,7 @@ Four gaps are genuine, and none is closed by an obvious source sitting unread.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+
+</div>
 
 ## References

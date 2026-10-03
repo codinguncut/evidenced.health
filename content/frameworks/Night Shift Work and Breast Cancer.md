@@ -143,8 +143,6 @@ definitions, «with several focused on a single profession»
 single-profession (the two Schernhammer Nurses' Health cohorts among them), precisely the evidence
 Travis's prospective MA re-runs and overturns.
 
-<div class="recent-update" data-last-updated="2026-09-29">
-
 ## Hazard vs risk — a not-joined DISTINCTION, not a two-sided tension
 
 With IARC's own basis now readable, the counter-passage check resolves the relation cleanly, and it is
@@ -178,8 +176,6 @@ meta-analyses IARC relied on. This is the *different-evidence-base* + *lag* guid
 procedure faithfully on the evidence it had; the human evidence simply improved after it reported. On
 that human leg specifically, the current prospective evidence favours Travis.
 [inferred from @travis2016nightshift; @straif2007]
-
-</div>
 
 ## Bearing on the circadian-oncogenesis mechanism
 

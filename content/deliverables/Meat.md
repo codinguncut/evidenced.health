@@ -6,31 +6,35 @@ question: What does the evidence show about meat's effect on each patient-import
 sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-10-02
+self_critiqued: 2026-10-02
+concrete_subject_audited: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-10-02">
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
 and less certain; poultry carries a small favourable signal you cannot fully credit to the chicken.**
 Read each exposure against each endpoint alone and the picture holds together. Processed meat is the
-most consistently harmful food in the food-group evidence base, and one cell — processed meat and
+most consistently harmful food in the food-group evidence base. One cell — processed meat and
 type-2 diabetes — carries the matrix's one high grade: high certainty that the *association* is
 robust, not proof that meat causes the disease. Unprocessed red meat mirrors it, smaller and with a
-shakier cancer signal. Poultry looks favourable
-because whoever eats more poultry eats less red meat — so the credit belongs to the swap.
+shakier cancer signal. Poultry looks favourable because whoever eats more poultry eats less red meat,
+so the credit belongs to the swap.
 
-The swap is
-the operative lever: what the meat is eaten *instead of* — a substitution, not an abstention — sizes
-any win. For most healthy people the decision ranks below the big rocks (smoking, excess body fat,
-inactivity); the cancer argument is loud because the effect is small and contested, not because it is
-large.
+What the meat is eaten *instead of* sizes any win — a substitution, not an abstention. That swap is
+the operative lever. For most healthy people the decision ranks below the big rocks (smoking, excess
+body fat, inactivity); the cancer argument is loud because the effect is small and contested, not
+because it is large.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Start with processed meat — the clearest harm
 
-Across one coordinated meta-analysis series that applied the same dose-response method to twelve food
-groups, **processed meat is harmful in every outcome family it was tested against**, and it is the
-only harmful food carrying a high-certainty cell. The largest single effect anywhere in that matrix
+One coordinated meta-analysis series applied the same dose-response method to twelve food groups.
+Across it, **processed meat is harmful in every outcome family it was tested against** — the only
+harmful food carrying a high-certainty cell. The largest single effect anywhere in that matrix
 is processed meat and type-2 diabetes: **RR 1.37 (95% CI 1.22-1.55) per 50 g/day, high-certainty**
 [@schwingshackl2017t2d]. All-cause mortality
 rises **1.23 (1.12-1.36) per 50 g/day** [@schwingshackl2017mort];
@@ -39,6 +43,10 @@ coronary heart disease **1.27 (1.09-1.49)**, stroke **1.17 (1.02-1.34)**, heart 
 cancer, the cancer-prevention body WCRF places processed meat at its strongest evidence grade and
 sets the target bluntly: «Consume very little, if any, processed meat»
 [@wcrf2018ter].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Unprocessed red meat: the same direction, smaller and less certain
 
@@ -63,20 +71,24 @@ NutriGrade rates that cell "high" on study count, dose-response, and precision �
 red-meat/diabetes association is real and consistent, not that confounding was excluded, which
 prospective sampling does not achieve. The series codes red meat as a bare per-100-g quantity,
 stripped of the meal around it, so the risk may attach to a Western dietary pattern the meat merely
-marks. And the signal is not stratum-stable: it could not be confirmed pooling two Asian cohorts, and
+marks. And the signal is not stratum-stable. Pooling two Asian cohorts could not confirm it, and
 the Shanghai Women's Health Study found red meat protective in normal-weight women yet harmful in
 obese ones — a flip that tracks body fat, not meat.
 
 A sharper confounder is harder to remove. Because guidance itself tells the health-conscious to cut
 red meat, red-meat avoidance travels with the whole adherence bundle — not smoking, exercising,
 screening, taking prescribed medicine — so the guideline, not the meat, can drive the lower diabetes
-rate. That bundle is not small: in blinded trials, people who adhered well to a *placebo* had «lower
+rate. That bundle is not small. In blinded trials, people who adhered well to a *placebo* had «lower
 mortality (0.56, 0.43 to 0.74)»
 [@simpson2006adherence] — an
 all-cause-mortality odds ratio the healthy-adherer pattern manufactures with zero causal input from
 the pill (a reference magnitude, not a diabetes effect). No Mendelian-randomization study or feeding
 trial isolates red meat against diabetes either way, so the cell stays open in both directions.
  -> [[The Observational-Trial Discordance]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The cancer question splits two expert bodies
 
@@ -103,7 +115,7 @@ meat than in white meat**, catalyses the formation of carcinogenic N-nitroso com
 and is associated with colon cancer at **RR 1.18 (1.06-1.32)** for the highest versus lowest intake
 [@bastide2011heme]. Heme is intrinsic to red
 meat whether or not it is cured — which is why a nitrite-free deli product is not a clean escape, and
-why the red/white boundary is where the cancer signal concentrates. WCRF's own quantified target, for
+why the cancer signal concentrates at the red/white boundary. WCRF's own quantified target, for
 those who eat red meat: «limit consumption to no more than about three portions per week ... about
 350 to 500 grams ... cooked weight» [@wcrf2018ter] (500 g
 cooked is roughly 700-750 g raw).
@@ -125,17 +137,22 @@ observational heme data most likely runs through a non-iron route rather than ir
 the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Preparation matters less than the headlines
 
 ### Cooking method: a mechanism, not yet an outcome
 
-The claim that gentler cooking (steaming, slow-cooking) beats frying and grilling because it makes
-fewer advanced glycation end-products does not reach a patient-important outcome. A meta-analysis of
+Gentler cooking (steaming, slow-cooking) is supposed to beat frying and grilling by making
+fewer advanced glycation end-products. That claim does not reach a patient-important outcome.
+A meta-analysis of
 17 randomized trials found low-AGE diets moved some surrogate markers a little — insulin resistance
 down (mean difference -1.3), LDL down 2.4 mg/dl (a trivially small amount) — but produced
 **no change in weight, fasting or 2-hour glucose, HbA1c, or blood pressure**, and there is no
-hard-outcome or mortality trial at all [@baye2017]. The
-firmer reason to avoid charring is narrower and separate: high-temperature cooking of red and
+hard-outcome or mortality trial at all [@baye2017].
+Charring gives a firmer, narrower reason to worry: high-temperature cooking of red and
 processed meat forms heterocyclic amines and polycyclic aromatic hydrocarbons, a WCRF-graded
 carcinogen mechanism [@wcrf2018]. That bites on
 charred red and processed meat specifically, not on all browning of all foods.
@@ -166,6 +183,10 @@ it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
 Poultry is a genuinely different exposure, and the evidence keeps it separate from fish (fish is
@@ -195,9 +216,9 @@ both cause-specific cells null: CVD mortality **RR 0.95 (95% CI 0.87-1.02), P=0.
 cohorts, and incident type-2 diabetes **RR 0.98 (0.87-1.11)**, though with high heterogeneity,
 **I2=82%** [@ramel2023whitemeat].
 
-Its distinctive move is a formal certainty grade the earlier nulls lacked: it grades CVD mortality and T2D
+Ramel adds a formal certainty grade the earlier nulls lacked. It grades CVD mortality and T2D
 «substantial effects unlikely» — a graded *no meaningful effect*, upgrading Lupoli and Kim's bare
-unrated nulls — while grading incident CHD, stroke, and CVD «limited – no conclusion», i.e. still
+unrated nulls. Incident CHD, stroke, and CVD it grades «limited – no conclusion», i.e. still
 insufficient evidence, distinct from the mortality null
 [@ramel2023whitemeat]. The review finds poultry
 «does not indicate a role, either beneficial or detrimental» for these diseases
@@ -229,17 +250,21 @@ Two limits keep this from closing the gap. Etemadi's aggregate white meat «poul
 [@etemadi2017] includes fish, unlike
 Lupoli, Kim, and Ramel, which exclude it — but it reports poultry (0.93) and fish (0.95) separately, so
 the poultry-only arm stays comparable to the fish-excluding meta-analyses. And this is a statistical
-substitution inside one FFQ-measured observational cohort: total-meat-constant modelling infers the swap,
+substitution inside one FFQ-measured observational cohort. Total-meat-constant modelling infers the swap;
 it does not randomize it, and residual confounding by the whole healthier-diet pattern that travels with
 white-meat preference is exactly the comparator problem. So it narrows the substitution gap — a first
 within-cohort direction and rough magnitude — without closing it. -> [[The Comparator Problem]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What the meat is measured against decides the answer
 
 Because the comparator does the work, the sharpest evidence is about swaps. In a Japanese cohort,
 replacing 3% of energy from red-meat protein with plant protein was associated with a mortality
-hazard ratio of **0.66 (0.55-0.80)** — a 15-year absolute risk reduction of about **3.60%
-(2.10-4.86)** — and a fish-for-red-meat swap with **0.75**
+hazard ratio of **0.66 (0.55-0.80)**, a 15-year absolute risk reduction of about **3.60%
+(2.10-4.86)**; a fish-for-red-meat swap carried **0.75**
 [@budhathoki2019] (single cohort, model-derived — read
 it as scale, not a treatment effect). Meanwhile, animal protein as an isolated *nutrient* is flatly
 null on all-cause mortality, **1.00 (0.94-1.05)**, while plant protein carries a small benefit,
@@ -250,10 +275,10 @@ plant. -> [[Dietary Protein and Mortality]]
 
 The trial evidence sharpens the same point at the lipid level. A pooled analysis of **36 randomized
 trials (1803 participants)** stratified red meat's effect by what replaced it, and the *sign* of the
-effect flipped with the comparator: against high-quality plant protein (legumes, soy, nuts) red meat
-left LDL-C higher — **WMD +0.198 mmol/L (95% CI 0.065-0.330)**, so plant is better — while against
-fish or refined carbohydrate red meat was roughly neutral or better (the fish comparators themselves
-raised LDL, and red meat gave a greater triglyceride decrease than carbohydrate), and against poultry
+effect flipped with the comparator. Against high-quality plant protein (legumes, soy, nuts), red meat
+left LDL-C higher — **WMD +0.198 mmol/L (95% CI 0.065-0.330)** — so plant is the better swap. Against
+fish or refined carbohydrate, red meat came out roughly neutral or better (the fish comparators themselves
+raised LDL, and red meat gave a greater triglyceride decrease than carbohydrate). Against poultry
 there was no differential effect
 [@guaschferre2019redmeat].
 
@@ -264,14 +289,20 @@ apolipoproteins, and blood pressure»
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## What meat gives back
 
 Meat is also a dense source of bioavailable iron, vitamin B12, zinc, and high-quality protein, and
 WCRF's own target is explicitly set «to provide a balance» between those nutrients and the cancer
-risk [@wcrf2018ter]. This is why the decision is a
-substitution and not a blanket subtraction: a plant-forward swap has to make up the grams and the
+risk [@wcrf2018ter]. That is why the decision is a
+substitution, not a blanket subtraction. A plant-forward swap has to make up the grams and the
 amino-acid quality it displaces (plant sources are lower on the digestibility score), or it trades one
 gap for another. -> [[Protein Quality and the DIAAS Score]]
+
+</div>
 
 ## Where meat ranks among the levers
 
@@ -325,6 +356,8 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
+<div class="recent-update" data-last-updated="2026-10-02">
+
 ## What the evidence still cannot say
 
 - **Cooking-method hard outcomes** — whether a low-temperature preparation changes any
@@ -333,7 +366,7 @@ yours to set; the evidence only names which way each option moves each outcome.
   «limited – no conclusion» (too few, mixed studies), an open cell distinct from the graded no-effect
   it reaches on CVD *mortality* and T2D
   [@ramel2023whitemeat]. And the
-  **processed-vs-unprocessed poultry split on T2D** is the leading named gap: only 2 of Ramel's cohorts
+  **processed-vs-unprocessed poultry split on T2D** is the leading named gap. Only 2 of Ramel's cohorts
   isolated unprocessed poultry and 1 split processed from unprocessed (processed -> higher T2D,
   unprocessed neutral-to-lower), so the aggregate T2D null may mask a processed-harm / unprocessed-
   neutral split as in red meat — 2 studies cannot settle it.
@@ -362,5 +395,7 @@ cited here.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+
+</div>
 
 ## References

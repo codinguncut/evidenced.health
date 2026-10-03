@@ -3,13 +3,15 @@ type: deliverable
 title: Dietary Fat
 confidence: medium
 created: 2026-08-17
-updated: 2026-09-25
-self_critiqued: 2026-09-25
-concrete_subject_audited: 2026-09-25
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
 sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024, Zhang - Butter Plant Oils Mortality 2025]
 ---
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Open on the substitution, not the fat
 
@@ -18,12 +20,16 @@ The lay question is *what fats should I eat?* The evidence answers a narrower on
 - **What you replace a fat with decides its effect.** A saturated-fat cut into more refined carbohydrate is a different exposure from the same cut into polyunsaturated oil, and the two do not carry the same sign.
 - **Type, not total amount, is the lever the evidence supports.** The single largest RCT of cutting total fat found no cardiovascular benefit; how the fat is *composed* is what moves the outcome.
 - **Replacing saturated fat with unsaturated fat modestly cuts cardiovascular events and does not change how long you live** — the evidence is strongest for the polyunsaturated swap, thinner and mostly observational for the monounsaturated one.
-- **The events benefit is real but modest, and sensitive to trial quality** — said plainly here, not buried.
+- **The events benefit is real but modest, and sensitive to trial quality.**
 - **Removing industrial trans fat is the single clearest, least-contested action** in the whole picture.
 - **The loud controversies collapse into one quiet move** — seed-oil panic and saturated-fat villainy both resolve to *shift the mix toward whole-food unsaturated fats*; the seed-oil-specific case is handled in its own deliverable.
 - **For a low-risk eater this is a low-cost hedge, not a promised heart-attack reduction** — the honest ceiling.
 
 The most load-bearing of these is the first. So start where the sign is set: **which fat replaces which**.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Replace saturated with unsaturated to set the sign
 
@@ -33,15 +39,19 @@ The **replacement** sets the outcome, not saturated fat on its own. Rank the swa
 
 One caveat keeps the swap honest: **saturated fat is never removed into a vacuum**. WHO scopes its replacement advice to energy balance, and notes that in positive energy balance «SFA intake may be reduced in part or entirely without the need for a replacement nutrient» [@who2023saturated]. So the comparator shifts with the eater's calorie state — *saturated fat versus what* in balance, *saturated fat versus nothing* in surplus.
 
-**And two swaps are not one intervention measured in two groups.** On hard cardiovascular events the two swaps are close in *relative* terms — **polyunsaturated RR 0.79 (95% CI 0.62-1.00), carbohydrate RR 0.84 (0.67-1.06), both Low certainty, both touching or crossing the null** [@who2023saturated]. Their *absolute* gap looks far wider — 50 fewer events per 1000 for the polyunsaturated swap against 12 fewer for the carbohydrate one — but only because the polyunsaturated trials ran at a **23.8% control event rate against 7.6%** for the carbohydrate trials, roughly three times the baseline risk, in disjoint trial sets.
+**And two swaps are not one intervention measured in two groups.** On hard cardiovascular events the two swaps are close in *relative* terms — **polyunsaturated RR 0.79 (95% CI 0.62-1.00), carbohydrate RR 0.84 (0.67-1.06), both Low certainty, both touching or crossing the null** [@who2023saturated]. Their *absolute* gap looks far wider — 50 fewer events per 1000 for the polyunsaturated swap against 12 fewer for the carbohydrate one. But that gap is an artifact of baseline risk: the polyunsaturated trials ran at a **23.8% control event rate against 7.6%** for the carbohydrate trials, roughly three times the risk, in disjoint trial sets.
 
 That makes saturated-fat-to-polyunsaturated and saturated-fat-to-carbohydrate **genuinely different exposures**, not one relative effect read across a clean [[Baseline Risk and the Relative-Absolute Split|baseline-risk]] split. Reading *50 fewer per 1000* against *12 fewer* as polyunsaturated fat beating carbohydrate four-fold compares populations, not nutrients.
 
 The swap that most moves the sign is therefore saturated fat to polyunsaturated fat. So: **what does the hard-outcome evidence actually show** for that move?
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Read the SFA->events evidence as modest and RoB-sensitive
 
-One hard outcome clears the null. Reducing saturated fat cut **combined cardiovascular events to RR 0.83 (95% CI 0.70-0.98) — 15 fewer per 1000, Moderate certainty, 13 RCTs** [@who2023saturated]. In person-count terms that is a **number needed to treat of 56 in primary prevention and 53 in secondary, over about four years** [@hooper2020]. The Cochrane review supplying these RCT numbers is Hooper 2020 — **WHO's trial estimates *are* Hooper's**, one evidence base graded twice, so the two do not count as independent witnesses.
+One hard outcome clears the null. Reducing saturated fat cut **combined cardiovascular events to RR 0.83 (95% CI 0.70-0.98) — 15 fewer per 1000, Moderate certainty, 13 RCTs** [@who2023saturated]. In person-count terms that is a **number needed to treat of 56 in primary prevention and 53 in secondary, over about four years** [@hooper2020]. Hooper 2020 supplies these RCT numbers — **WHO's trial estimates *are* Hooper's**, one evidence base graded twice, so the two do not count as independent witnesses.
 
 **The same review attenuates its own headline, and the attenuation belongs in the same breath as the number.** Restricting to trials at low summary risk of bias weakens the combined-events benefit to «more marginal protection» (Hooper's Analysis 1.36; the exact figure is not narratively reported) [@hooper2020]. For **myocardial infarction specifically, the low-risk-of-bias restriction moves the estimate to a frank null, RR 0.93 (95% CI 0.81-1.08)** [@hooper2020].
 
@@ -52,6 +62,10 @@ The risk-of-bias restriction is the exception, and the **Moderate grade already 
 
 The events benefit is real but modest. The mortality picture is different — and, unusually here, both camps agree on it.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Expect no mortality change from cutting saturated fat
 
 Cutting saturated fat does not measurably change how long people live. **All-cause mortality sits at RR 0.96 (95% CI 0.90-1.03) — 2 fewer per 1000, Moderate certainty** [@who2023saturated]. The cause-specific mortality rows tell the same story: **cardiovascular mortality RR 0.94 (0.78-1.13) and coronary mortality RR 0.97 (0.82-1.16), both spanning no effect** [@who2023saturated]. Every mortality interval crosses the null.
@@ -60,21 +74,25 @@ This is where the reassessment critics and the guideline bodies **converge rathe
 
 WHO's trials and Astrup's reassessment both read saturated fat as a change — something a person cuts. A large observational meta-analysis reads it as a level instead, and reaches a cause of death the trials never isolate. Ma's 2024 dose-response analysis pooled 101 cohort study reports across all macronutrients -- 46 of them on fat and mortality -- and compared high against low saturated-fat intake for each mortality endpoint. On cardiovascular death it agrees the association is null, RR 1.03 (95% CI 0.98-1.08). But for **cancer death, people eating more saturated fat died of cancer more often — RR 1.10 (1.06-1.14) — and the cohorts barely disagreed (I2 = 0.0%)** [@ma2024macro].
 
-That is a low-heterogeneity, cause-specific signal on an endpoint this section was otherwise silent on. Read it for exactly what it is: one observational nutrient-level cell, not a demonstration that saturated fat *causes* cancer. It sits beside the randomized all-cause null, not in place of it — WHO's trials measured a *reduction* against usual intake, Ma measured a *level* across cohorts, so the two are different quantities read side by side, not a contradiction to reconcile.
+That is a low-heterogeneity, cause-specific signal on an endpoint this section was otherwise silent on. Read it for exactly what it is: one observational nutrient-level cell, not a demonstration that saturated fat *causes* cancer. It sits beside the randomized all-cause null, not in place of it. WHO's trials measured a *reduction* against usual intake; Ma measured a *level* across cohorts. The two are different quantities read side by side, not a contradiction to reconcile.
 
 The all-cause null is also less settled than the WHO trial row alone implies. Ma's observational all-cause estimate, RR 1.05 (0.98-1.13), is non-significant and so consistent with WHO — but it pools cohorts that scatter enormously (I2 = 93.6%), so the reassurance rests on a heterogeneous, self-reported base rather than a tight agreement. That scatter is measurement error and cohort mix, not a located effect: across the whole studied range saturated fat is flat on every mortality endpoint (all-cause p = 0.92, cancer p = 0.39, CVD p = 0.78), with no threshold or knee to find [@ma2024macro].
 
 **A Moderate-certainty null is a result, not missing data.** It sits in the *no-meaningful-effect* state, distinct from *insufficient evidence* — the trials were run, the estimate is reasonably graded, and it lands on no effect. So reducing saturated fat is not a longevity move, and should not be sold as one; anyone reading *strong recommendation* as *this measurably saves lives* is reading past the evidence.
 
-Type of fat therefore moves cardiovascular events modestly and overall mortality not at all — with a cause-specific cancer signal now on the record, and heavy heterogeneity in the observational pool tempering how firmly the all-cause null can be held. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
+Type of fat therefore moves cardiovascular events modestly and overall mortality not at all. A cause-specific cancer signal is now on the record, though, and heavy heterogeneity in the observational pool tempers how firmly the all-cause null can be held. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Target the type, not the total amount
 
 The lever the evidence supports is **which** fat, not **how much** fat -- and the largest randomized
 test of cutting total fat says so directly. The WHI Dietary Modification trial randomized 48,835
-postmenopausal women to a low-fat pattern -- total fat cut toward 20% of energy, the displaced calories
-replaced mainly by carbohydrate (more grains, fruit, and vegetables) at constant body weight -- and over
-a mean 8.1 years found **no significant effect on coronary heart disease (HR 0.97, 95% CI 0.90-1.06),
+postmenopausal women to a low-fat pattern: total fat cut toward 20% of energy, the displaced calories
+replaced mainly by carbohydrate (more grains, fruit, and vegetables) at constant body weight. Over a
+mean 8.1 years it found **no significant effect on coronary heart disease (HR 0.97, 95% CI 0.90-1.06),
 stroke (HR 1.02, 0.90-1.15), or total cardiovascular disease (HR 0.98, 0.92-1.05)**
 [@whi2006]. This is a
 **no-meaningful-effect on the tested contrast**, a result and not missing data.
@@ -84,8 +102,8 @@ Read the null precisely -- it bounds the *amount* axis, not fat *quality*. WHI m
 authors say so: «The trial is not a test of the dietary guidelines currently recommended for prevention
 of CVD ... [that specify] replacement of saturated and trans fat with monounsaturated and
 polyunsaturated fat» [@whi2006]. So the
-one large RCT of the quantity lever lands on no cardiovascular benefit, while the fabric's graded
-evidence on **composition** stands untouched -- replacing saturated fat with unsaturated fat modestly
+one large RCT of the quantity lever lands on no cardiovascular benefit. The fabric's graded
+evidence on **composition** stands untouched: replacing saturated fat with unsaturated fat modestly
 moves events and does not move mortality (see [[Saturated Fat Intake and Replacement]],
 [[Low-Fat Dietary Pattern and Cardiovascular Disease]]).
 
@@ -98,9 +116,8 @@ cardiovascular events in studies that compared reduced fat vs usual intake (RR 0
 [@hooper2012reducedfat]. The whole class of
 total-fat-reduction trials lands where WHI did, not one trial alone.
 
-What
-moved events was the *modification* subgroup (saturated fat -> unsaturated: RR 0.82, fixed-effects 0.83),
-and the review's overall 14% events reduction (RR 0.86, 0.77-0.96, moderate GRADE) is carried by the
+The *modification* subgroup moved events (saturated fat -> unsaturated: RR 0.82, fixed-effects 0.83).
+The review's overall 14% events reduction (RR 0.86, 0.77-0.96, moderate GRADE) is carried by the
 modifying arms, not the reducing ones [@hooper2012reducedfat].
 Hooper's own conclusion is this deliverable's thesis at pooled-RCT scale — a benefit «on modification of
 dietary fat, but not reduction of total fat, in longer trials»
@@ -109,6 +126,10 @@ dietary fat, but not reduction of total fat, in longer trials»
 So a low-fat-vs-higher-fat quantity target is not what the evidence recommends chasing; the **swap**
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Trust the LDL/apoB direction, not the diet-to-drug magnitude
 
@@ -126,9 +147,9 @@ The APPROACH trial crossed two background saturated-fat levels against a meat-ve
 swap, and found the two act as **separate, additive levers**: background saturated fat raised LDL-C
 and apoB regardless of the protein source, while «LDL cholesterol and apoB were higher with red and
 white meat than with nonmeat, independent of SFA content»
-[@bergeron2019]. Isolating
-the saturated-fat effect from the protein-source effect inside one trial firms the *direction* the
-swap-the-SFA guidance already asserts — it does not change it. This is a **surrogate (lipid) endpoint;
+[@bergeron2019]. By isolating
+the saturated-fat effect from the protein-source effect inside one trial, APPROACH firms the *direction*
+the swap-the-SFA guidance already asserts — it does not change it. This is a **surrogate (lipid) endpoint;
 no cardiovascular events were measured**, so it strengthens the SFA -> LDL direction without adding a
 hard-outcome claim.
 
@@ -153,6 +174,8 @@ stands in for, so a moving LDL number is a well-warranted signal, not a proven a
 
 
 One exposure, though, needs no surrogate argument at all -- its harm is direct and uncontested.
+
+</div>
 
 ## Cut industrial trans fat -- the one unambiguous harm
 
@@ -213,12 +236,13 @@ thing to an olive-oil-alone estimate still leaves the MUFA-for-the-heart case pa
 The other polyunsaturated leg, n-6 linoleic acid, is where a **live public controversy** sits -- and it
 is the next section's subject.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Read n-6 linoleic acid as neutral-to-protective as a class
 
 Linoleic acid is the main omega-6 fat in bottled seed oils, and the popular
-claim that it drives heart disease is the one place where the evidence is
-loud and the data are quiet. **Every arm the fabric holds points away from
-harm.** An objective-biomarker cohort pool ties higher tissue linoleic acid to
+claim that it drives heart disease runs far ahead of the data. **Every arm the
+fabric holds points away from harm.** An objective-biomarker cohort pool ties higher tissue linoleic acid to
 **lower total cardiovascular disease (HR 0.93, 0.88-0.99) and lower
 cardiovascular mortality (HR 0.78, 0.70-0.85)**
 [@marklund2019].
@@ -258,6 +282,8 @@ extraction, the n-6:n-3 ratio, FADS genotype — are a separate question about a
 processed food, not about the fatty acid, and are appraised in [[Seed Oils]].
 This section holds only the class-level finding.
 
+</div>
+
 ## Split n-3 by form and hold the class evidence thin
 
 n-3 as a single class is under-anchored in the fabric, and for a good reason:
@@ -283,6 +309,8 @@ covered in the fabric — a genuine gap; no direction is inferred here.
 Across every fat class in this cut, two dependencies keep resurfacing: the food
 that carries the fat, and the metabolic state of the person eating it.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Check the food matrix and the eater's metabolic state
 
 The label *saturated fat* sorts foods that behave differently once you eat them. Processed and
@@ -301,13 +329,17 @@ under-states the real particle burden** and apoB becomes the number to trust
 [@ference2017] -> [[LDL ApoB and Cumulative Exposure]]. A raised triglyceride-glucose (TyG) index — «a reliable surrogate marker of insulin
 resistance» [@liu2022tyg] — flags that stratum cheaply.
 
-A boundary runs even **inside** a fat class: the body makes
+A boundary runs even **inside** a fat class. The body makes
 its own even-chain saturated and monounsaturated fat, so «Biomarkers generally perform poorly for fatty
 acids that can be produced endogenously, including even-chained saturated and monounsaturated fatty
-acids» [@willett], while trans fat and the omega-3s,
+acids» [@willett]. Trans fat and the omega-3s,
 which the body cannot synthesise, leave a clean intake signal — a within-category line that carries real
-information. These dependencies set up the harder point: some questions the evidence structurally cannot
+information. These two dependencies point to a harder limit: some questions the evidence structurally cannot
 answer.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Name what the evidence structurally cannot show
 
@@ -323,10 +355,12 @@ linoleic acid, essential and non-synthesizable, the tissue level is a genuine in
 error-laden questionnaire and the biomarker agree
 [@li2020]. For even-chain saturated and
 monounsaturated fat, de novo synthesis blends intake with carbohydrate and energy status, and the
-escape is shut. So the honest inventory: the **total-fat dose-response *shape* is barely estimable** (the
-one large RCT tested a single fat->carbohydrate reduction, not a curve), plant omega-3 (ALA) is a genuine
-named gap, and whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated **benefit**
-stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
+escape is shut. So the honest inventory runs to three items. The **total-fat dose-response *shape* is barely estimable**:
+the one large RCT tested a single fat->carbohydrate reduction, not a curve. Plant omega-3 (ALA) is a
+genuine named gap. And whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated
+**benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
+
+</div>
 
 ## Act on the substitution a low-risk eater can sustain
 

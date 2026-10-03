@@ -492,7 +492,7 @@ So where does the whole decomposition leave
 a person deciding what to eat, measured
 against the big rocks?
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What to do — act on the components, against the big rocks
 
@@ -538,7 +538,7 @@ outcome they care about.
 > | **Evidence included** | 27 sources — 14 gold, 10 high, 3 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
 
 </div>
 

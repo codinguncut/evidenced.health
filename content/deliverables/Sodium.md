@@ -342,6 +342,8 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
   dangerous* is neither established nor disproven, because the low-intake arm has never faced a
   confounder-immune test.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Read this as appraisal, not a prescription
 
 - **The loop is open.** Nothing here has been checked against a realized outcome for any individual;
@@ -365,6 +367,8 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 > | **Evidence included** | 12 sources — 5 gold, 5 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+
+</div>
 
 ## References

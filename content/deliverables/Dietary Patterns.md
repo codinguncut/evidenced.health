@@ -13,7 +13,7 @@ confidence: low
 created: 2026-07-30
 updated: 2026-10-02
 ---
-<div class="recent-page" data-last-updated="2026-10-02"></div>
+<div class="recent-page" data-last-updated="2026-10-03"></div>
 
 
 ## Above a floor of adequacy, the diet label barely matters
@@ -690,6 +690,6 @@ less than whether a person keeps it.
 > | **Evidence included** | 42 sources — 24 gold, 17 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
 
 ## References

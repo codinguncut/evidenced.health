@@ -6,10 +6,11 @@ aliases: [Fish, Seafood, Oily Fish, Fatty Fish, Fish Oil, Eating Fish]
 sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, EFSA - Mercury and Methylmercury in Food 2012]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-16
-self_critiqued: 2026-09-16
-concrete_subject_audited: 2026-09-16
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 This is a general, population-level appraisal of what the evidence says about eating fish for anyone the
 studies speak to. It is not advice for one person; whether and which fish *you* should eat depends on
@@ -17,14 +18,18 @@ your stratum — most of all whether you are pregnant or of childbearing age —
 here.
 
 The short version: **"is fish healthy?" is the wrong question, and "eat fish twice a week" hides the
-answer.** The benefit — a coronary-mortality and all-cause-mortality signal carried by the long-chain
-omega-3s EPA and DHA in *oily marine* fish — and the harm — methylmercury, which builds up the food
-chain and peaks in long-lived apex predators — **decouple across species**. The fish richest in omega-3
+answer.** The benefit and the harm **decouple across species**. The benefit is a coronary-mortality and
+all-cause-mortality signal, carried by the long-chain omega-3s EPA and DHA in *oily marine* fish. The
+harm is methylmercury, which builds up the food chain and peaks in long-lived apex predators. The fish richest in omega-3
 are mostly low in mercury; the high-mercury fish carry little offsetting omega-3. So the decision that
 changes an outcome is almost never *eat fish or not*; it is *which fish*. And the benefit is smaller and
 softer than the public consensus implies: it is essentially all observational, the graded pooled
 magnitudes reach only moderate certainty, and for a healthy replete adult fish is a **pebble, not a big
 rock**.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## How good is the evidence — read this first
 
@@ -33,8 +38,8 @@ cod on a questionnaire, and researchers track who dies of what. The one design t
 from the diet around it — a randomised trial — exists only for omega-3 *supplements*, and those were
 largely null. So no study ever fed people fish, held everything else constant, and counted heart attacks.
 
-Jayedi and Shab-Bidar's 2020 umbrella review sets the ceiling. Pooling 34 meta-analyses, 48 summary
-estimates and 298 primary cohorts, graded by NutriGrade, its headline is a limit:
+Jayedi and Shab-Bidar's 2020 umbrella review sets the ceiling. It pooled 34 meta-analyses, 48 summary
+estimates and 298 primary cohorts, graded by NutriGrade, and landed on a limit:
 *«Overall, there was no high-quality evidence for the relation of fish consumption and the risk of
 chronic disease»* — 8 of 48 estimates reached moderate certainty (17%), the rest low or very low.
 [@jayedi2020fish] The ceiling is
@@ -52,12 +57,16 @@ backing. Jayedi re-pools the same cohort literature EFSA's four CHD meta-analyse
 the identical EPA/DHA mechanism, so its agreement raises detail and certainty, not independence. The
 observational ceiling binds both.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The benefit side — narrower than "fish is good for you"
 
 EFSA's benefit is outcome-specific, not a general glow. It is strong for coronary heart disease mortality
-and inconsistent or null everywhere else — stroke, atrial fibrillation, total CVD events: *«there is
-strong evidence for an effect of n-3 LCPUFA from seafood on the reduction of CHD mortality»*, while the
-arrhythmia and stroke signals are not supported by the RCTs.
+and inconsistent or null everywhere else — stroke, atrial fibrillation, total CVD events. EFSA finds
+*«there is strong evidence for an effect of n-3 LCPUFA from seafood on the reduction of CHD mortality»*,
+while the arrhythmia and stroke signals are not supported by the RCTs.
 [@efsaseafood2014]
 
 Jayedi supplies the pooled magnitudes EFSA could not, each with a NutriGrade certainty grade, all per
@@ -114,6 +123,8 @@ downward for all-cause and total CVD mortality -> [[The U-Shaped Association Art
 default — keep the \~1-2 servings/week target — is unchanged: more buys little on CHD mortality but may
 still help all-cause.
 
+</div>
+
 ## Fetal neurodevelopment — a repletion lever
 
 Maternal fish consumption tracks with a smarter child. Two large cohorts — ALSPAC (\~12,000) and the
@@ -136,18 +147,20 @@ The IQ lever therefore works for a mother whose DHA and iodine are low, and does
 is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational food signal survives while the
 isolate RCT is null — a design story, not proof the food beats the nutrient.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Cognitive decline and dementia — where the dietary and supplement evidence part ways
 
 The fish-versus-fish-oil split that runs through the coronary evidence (the *Fish versus fish-oil
 supplements* section below) returns for the aging brain, and Wei's 2023 review maps it cleanly. This
-gold systematic review and meta-analysis pooled 48 longitudinal studies and 103,651 participants, and where it lands
-depends entirely on how the omega-3 was measured — what people ate, what circulated in their blood, and
-what a capsule delivered give three different answers.
+gold systematic review and meta-analysis pooled 48 longitudinal studies and 103,651 participants.
+Where it lands depends entirely on how the omega-3 was measured: what people ate, what circulated in
+their blood, and what a capsule delivered give three different answers.
 [@wei2023omega3]
 
 **Dietary DHA carries the signal.** People who ate more DHA — and oily fish is its dominant food source —
-had a lower dementia risk: the pooled dietary-DHA estimate was RR 0.82 (95% CI 0.72, 0.93) across 13
-studies, Wei's highest-credibility (Level H) grade — about a 20% lower risk of all-cause dementia or
+had a lower dementia risk. The pooled dietary-DHA estimate was RR 0.82 (95% CI 0.72, 0.93) across 13
+studies, Wei's highest-credibility (Level H) grade: about a 20% lower risk of all-cause dementia or
 cognitive decline, and a steeper 27% lower Alzheimer's specifically (HR 0.73, 0.55-0.97). The signal is
 specific to that one fatty acid: dietary total omega-3 is weaker and borderline (RR 0.91, 0.82-1.00), and
 dietary EPA and ALA show nothing.
@@ -185,6 +198,8 @@ upper edge of the observed intake range.
 data thin out, not a located optimum -> [[The Underivable Optimum]].
 
 [inferred from @wei2023omega3]
+
+</div>
 
 ## The benefit is measured net of the mercury
 
@@ -276,6 +291,8 @@ mercury — the best long-term intake marker — and CVD, and the 2018 AHA state
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Origin — freshwater vs marine, wild vs farmed
 
 Where the fish comes from changes the exposure, though not always the outcome. The omega-3 food chain
@@ -302,12 +319,14 @@ evidence that the difference changes a patient-important outcome. State the dire
   some contaminants can run *higher in wild* fish (local pollutant burden) while others historically ran
   higher in farmed — but no gold-tier meta-analysis ties wild-versus-farmed to a health *outcome*. To
   whatever extent the benefit is carried by EPA and DHA — the **support factor** that mechanism would
-  need — it transports to farmed fish only insofar as farmed fish still delivers them; and since no held
-  source ties wild-versus-farmed to any outcome, no health-outcome basis exists to prefer wild as such.
+  need — it transports to farmed fish only insofar as farmed fish still delivers them. And no held
+  source ties wild-versus-farmed to any outcome, so no health-outcome basis exists to prefer wild as such.
   The real watch-item is feed-driven EPA/DHA dilution as farming shifts toward plant oils (identity drifts
   under a constant name), not a wild-versus-farmed verdict.
 
 [inferred from @efsaseafood2014]
+
+</div>
 
 ## The stratum flip — the crown-jewel weighing
 
@@ -332,6 +351,8 @@ the sensitive stratum cares about most
 
 [inferred from @efsaseafood2014]
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
 A natural move is to skip the fish and take the omega-3. The trial evidence says **the pill is not the
@@ -348,14 +369,14 @@ one word "omega-3" and land on **opposite** results because every input differs:
 VITAL (n=25,871): omega-3 1 g/day *«did not result in a lower incidence of major cardiovascular events or
 cancer than placebo»* [@manson2019n3]. Two secondary signals
 point the same way. Total myocardial infarction fell (HR 0.72, 0.59-0.90, not adjusted for multiple
-testing); and, separately, the primary MACE endpoint showed a benefit concentrated in the prespecified
+testing). Separately, the primary MACE endpoint showed a benefit concentrated in the prespecified
 **low-fish-intake** subgroup (MACE HR 0.81, P for interaction 0.045). Both read as *repletion of a low
 baseline intake*, not a benefit of the pill in people already eating fish
 [@manson2019n3].
 
-REDUCE-IT (n=8179) found a real benefit — a primary-event rate of 17.2% vs 22.0%, **HR 0.75, absolute
+REDUCE-IT (n=8179) found a real benefit: a primary-event rate of 17.2% vs 22.0%, **HR 0.75, absolute
 reduction 4.8 percentage points, number-needed-to-treat 21** over 4.9 years
-[@bhatt2019] — but in a narrow high-risk stratum, at a
+[@bhatt2019]. But it came in a narrow high-risk stratum, at a
 prescription dose and form, with a real harm (atrial-fibrillation hospitalization 3.1% vs 2.1%, P=0.004)
 and an unresolved comparator controversy (the mineral-oil placebo raised LDL \~10%)
 [@bhatt2019]. The authors state the scope directly: the
@@ -370,8 +391,8 @@ fibrillation overall (HR 1.25, 95% CI 1.07-1.46), rising with dose — HR 1.12 a
 [@gencer2021]
 
 The signal survives
-dropping REDUCE-IT (HR 1.23), so neither the EPA-only form nor the mineral-oil-placebo controversy is
-what drives it.
+dropping REDUCE-IT (HR 1.23), so neither the EPA-only form nor the mineral-oil-placebo controversy
+drives it.
 [@gencer2021] This is an
 isolate-supplement harm on the same rising dose arm as the ischemic benefit; it does not touch the
 fish-as-food recommendation, where the atrial-fibrillation associations from eating fish are null
@@ -389,6 +410,8 @@ section above).
 
 [inferred from @manson2019n3; @bhatt2019]
 
+</div>
+
 ## Where fish sits in the ranking — a pebble
 
 For the general replete adult, fish is a pebble, not a big rock. The adult CHD-mortality benefit is
@@ -405,6 +428,8 @@ should do next. The large levers are elsewhere. Fish earns a place on the list o
 handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What the evidence here cannot yet answer
 
@@ -450,6 +475,8 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | **Evidence included** | 7 sources — 5 gold, 2 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+
+</div>
 
 ## References

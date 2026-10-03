@@ -7,6 +7,7 @@ aliases: [Fermented Food, Fermented Foods, Probiotic Foods, Live Cultures, Kefir
 created: 2026-08-05
 updated: 2026-09-09
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 *This page has been folded. Fermented foods are not one exposure — the lay question splits along the
 food that was fermented, and each strand now lives with the food it belongs to.*
@@ -28,3 +29,15 @@ measured.** Fermented dairy carries a modest observational signal that is really
 fashionable ferments have almost no hard-outcome human evidence (insufficient evidence, not a null);
 and whether the *live cultures* are doing the work is untested. Treat the halo as a claim to check, not
 a credential — and note this is a small lever, well below the big rocks.
+
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | 'What does the evidence show about live-fermented foods'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — and where does any effect come from: the live cultures, the food matrix, or the biochemical modification fermentation performs (and must the cultures be alive)?' |
+> | **Evidence included** | 0 sources |
+> | **Overall certainty** | **Not stated** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fermented%20Foods.md) |
+
+</div>

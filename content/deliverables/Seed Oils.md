@@ -8,6 +8,7 @@ created: 2026-08-04
 updated: 2026-08-27
 concrete_subject_audited: 2026-08-27
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 *This page has been folded into [[Dietary Fat]].*
 
@@ -34,3 +35,15 @@ lard) with seed oils is the direction the evidence supports; there is nothing to
 oil to a diet that already has enough fat; and this is a small lever well below the big rocks
 (smoking, body fat, activity).** Provenance — "industrial", "refined" — is not itself a health
 argument, in either direction.
+
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | 'What does the evidence show about bottled seed oils and their linoleic acid on each patient-important outcome — direction, magnitude, for whom, how certain — what is the effect of replacing another fat with seed oils, and does the omega-6 / oxidation / composition mechanism reach a patient-important outcome? Do processing and heating change the answer?' |
+> | **Evidence included** | 0 sources |
+> | **Overall certainty** | **Not stated** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-08-27 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Seed%20Oils.md) |
+
+</div>

@@ -201,7 +201,7 @@ Four gaps are genuine, and none is closed by an obvious source sitting unread.
 > | **Evidence included** | 21 sources — 12 gold, 8 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
 
 </div>
 

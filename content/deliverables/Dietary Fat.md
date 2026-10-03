@@ -362,6 +362,8 @@ genuine named gap. And whether the cardiovascular signal is saturated-fat **harm
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -391,6 +393,8 @@ evidence does not offer.
 > | **Evidence included** | 23 sources — 10 gold, 11 high, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+
+</div>
 
 ## References

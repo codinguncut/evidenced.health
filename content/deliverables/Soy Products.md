@@ -3,25 +3,30 @@ type: deliverable
 title: Soy Products
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-16
-self_critiqued: 2026-09-05
-concrete_subject_audited: 2026-09-05
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 question: 'What does the evidence show about soy products'' effect on each patient-important outcome — direction, magnitude, for whom, how certain — do the forms (whole, fermented, isolated protein) differ, and what do the hormonal, breast-cancer, thyroid and antinutrient effects amount to?'
 aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones, Genistein, Daidzein, Soy Protein, Soy Protein Isolate, Tempeh, Miso, Natto, Fermented Soy, Phytoestrogens, Soy Sauce, Tamari, Does Soy Feminize Men, Does Soy Cause Breast Cancer]
 authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W; Blanco Mejia, Sonia; Cui, Chendi; Nachvak, Seyed Mostafa; Sadeghi, Omid]
 sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
-This is a general, population-level appraisal of what the evidence says about soy for anyone the studies
-speak to. It is not advice for one person; whether and which soy *you* should eat depends on your stratum —
-sex, menopausal status, baseline LDL, iodine status, and the realistic alternative — and belongs at the
-end, not here.
+This page appraises what the evidence says about soy for anyone the studies speak to — general and
+population-level, not advice for one person. Whether and which soy *you* should eat depends on your
+stratum — sex, menopausal status, baseline LDL, iodine status, and the realistic alternative — and that
+belongs at the end, not here.
 
 **Stop treating "soy" as one thing** — that is the single most useful move. The isolated protein, the whole
 bean, the fermented paste, and the soy-sauce condiment are **different exposures** carrying different
 evidence — each question below was tested on a different one -> [[Is the Food Category Doing Any Work]].
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The bottom line, per outcome
 
@@ -49,14 +54,15 @@ page — one each for the hormone, cancer-incidence, cognition and mortality out
 - **What soy actually *does* is modest and form-specific:** isolated soy protein lowers LDL cholesterol,
   mostly in people who already have high cholesterol, and the honest modern magnitude is a few percent.
 
-Two facts bind the whole page. Each outcome rests on effectively one meta-analysis — the two on LDL share
-trials and one cites the other, so they are a revised single estimate, not independent confirmations —
-which is why overall confidence is medium despite six gold sources. And most headline effects are
-**surrogates** — hormone levels, LDL, cognitive-test scores, not events — so their transmission to what
-a person feels is a further, separate claim. The one hard-event outcome, mortality, is entirely
+Two facts bind the whole page. First, each outcome rests on effectively one meta-analysis: the two on LDL
+share trials and one cites the other, so they revise a single estimate rather than confirm it
+independently. That is why overall confidence is medium despite six gold sources. Second, most headline
+effects are **surrogates** — hormone levels, LDL, cognitive-test scores, not events — so whether they
+reach what a person feels is a further, separate claim. The one hard-event outcome, mortality, is entirely
 observational and drawn mostly from high-intake Asian cohorts, so it too is a soft, low-certainty lever
 rather than a demonstrated longevity effect.
 
+</div>
 
 ## How good is the evidence — read this first
 
@@ -141,6 +147,8 @@ mechanism predicts. Hormone
 levels are themselves a surrogate for the endpoints of fertility and feminization -> [[Surrogate Outcomes]].
 [@reed2021]
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Breast cancer: neutral-to-protective, never raised — but design-confounded
 
 Chen 2014 pooled 35 epidemiological studies of high-versus-low isoflavone intake, stratified by menopausal
@@ -159,7 +167,7 @@ stronger prospective cohort and nested case-control studies showed no significan
 premenopausal cohorts OR 0.94 (0.74–1.14), postmenopausal cohorts 0.86 (0.73–1.00), the upper bound
 touching the null. The inverse signal came from retrospective case-control studies, whose recall and
 selection biases systematically inflate a diet-disease association. So the favourable figure tracks the
-weaker designs. This is a weaker-design-inflates-the-favourable-arm pattern — a cousin of
+weaker designs — a cousin of
 [[The U-Shaped Association Artifact]], though the mechanism here is recall and selection bias rather than
 unequal reporting precision.
 [@chen2014]
@@ -172,6 +180,8 @@ across subgroups, with publication bias detected on Egger's test, and the strong
 defensible claim is "not a risk, and plausibly protective under lifelong high intake" — not "soy prevents
 breast cancer".
 [@chen2014]
+
+</div>
 
 ## Isolated soy protein modestly lowers LDL
 
@@ -294,12 +304,13 @@ signal is soft, and soy protein moves only a survivor breast-cancer endpoint. Th
 the surrogate story above — a modest, mostly-Asian-derived association, not a demonstrated longevity
 intervention for a Western adult adding soy later.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The forms are not interchangeable — specify the exposure
 
-"Soy" names several exposures with different active fractions and different evidence. This is a
-terminological disambiguation with decision consequences, and it is [[Is the Food Category Doing Any Work]]
-instantiated: the category "soy" is too coarse to carry one verdict, and the better-designed evidence
-tracks the better-specified exposure.
+"Soy" names several exposures with different active fractions and different evidence, so the word is too
+coarse to carry one verdict — and the better-designed evidence tracks the better-specified exposure
+-> [[Is the Food Category Doing Any Work]].
 
 - **Isolated or textured soy protein** — the LDL-lowering form, and Anderson's exposure. A high-DIAAS
   complete plant protein -> [[Protein Quality and the DIAAS Score]].
@@ -312,10 +323,12 @@ tracks the better-specified exposure.
 - **Soy sauce / tamari** — a condiment and salt vehicle with a negligible isoflavone dose. Do not credit
   it with soy's effects.
 
-The synthesis across the three meta-analyses is that soy's evidence is unusually form-dependent: each
-outcome was tested with a different soy exposure, so the composite answer is not "soy does X" but a
-form-indexed one — the isolated protein moves LDL, the isoflavone-bearing foods leave male hormones
-unmoved and sit neutral-to-protective on breast cancer, and the condiment does nothing.
+Across the three meta-analyses, soy's evidence is unusually form-dependent: each outcome was tested with a
+different soy exposure. So the composite answer is not "soy does X" but a form-indexed one — the isolated
+protein moves LDL, the isoflavone-bearing foods leave male hormones unmoved and sit neutral-to-protective
+on breast cancer, and the condiment does nothing.
+
+</div>
 
 ## Antinutrients and thyroid: named gaps, not findings
 
@@ -333,6 +346,8 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   the margin of mineral status, not a general harm. This page extracts no soy-specific outcome evidence.
 
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Putting it together
 
 - **Male hormones are unmoved and breast-cancer risk is not raised.** Soy does not lower testosterone — a
@@ -343,9 +358,9 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   who already have high cholesterol, and the honest modern magnitude is a few percent — a minor lever, not
   a treatment, and on a surrogate rather than an event.
 - **On death, the signal is soft and observational.** Higher soy intake tracks lower cancer and
-  cardiovascular mortality in cohorts (whole soy \~0.85–0.88), but the all-cause benefit is null overall,
-  the breast-cancer-survival cells are survivor endpoints, and 19 of 23 cohorts are Asian — a modest
-  association, not a proven longevity lever for a Western adult adding soy later.
+  cardiovascular mortality in cohorts (whole soy \~0.85–0.88). But the all-cause benefit is null overall,
+  the breast-cancer-survival cells are survivor endpoints, and 19 of 23 cohorts are Asian. That makes it a
+  modest association, not a proven longevity lever for a Western adult adding soy later.
 - **Match the claim to the form.** The isolated protein moves LDL; the whole-bean foods carry the hormone
   and cancer evidence; the fermented pastes shed the phytate concern; the soy-sauce condiment does nothing.
   A benefit or concern attached to "soy" with no form named has outrun its evidence
@@ -354,6 +369,9 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   soy's case rests on the substitution as much as on anything intrinsic; your sex, menopausal status,
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What this appraisal cannot yet answer
 
@@ -405,6 +423,8 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 > | **Evidence included** | 6 sources — 6 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
+
+</div>
 
 ## References

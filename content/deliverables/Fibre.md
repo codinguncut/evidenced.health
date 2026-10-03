@@ -375,7 +375,7 @@ stated amount and plausibly tracks lower heart-disease risk.
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Caveats
 
@@ -409,8 +409,8 @@ stated amount and plausibly tracks lower heart-disease risk.
 > | **Question** | 'For a person deciding how much dietary fibre to eat and in what form: what does fibre do to each patient-important outcome -- mortality, heart disease, diabetes, cancer, IBD, LDL, glycaemia, weight, the microbiome, gut transit -- for whom, how large, how certain, and does the answer change by fibre type or by isolate-versus-food?' |
 > | **Evidence included** | 14 sources — 8 gold, 4 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. Valisoltani (gold-tier dose-response MA) supplies a low-certainty (NutriGrade-LOW) COPD outcome-menu note only — not load-bearing, and it changes no recommendation. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fibre.md) |
+> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fibre.md) |
 
 </div>
 

@@ -200,7 +200,7 @@ Depression is a common downstream consequence of isolation and a lever in its ow
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where it nets out
 
@@ -230,7 +230,7 @@ open: every number here is observational and coherence-graded, not validated aga
 > | **Evidence included** | 7 sources — 6 gold, 1 high |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-17 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Social%20Connection.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Social%20Connection.md) |
 
 </div>
 

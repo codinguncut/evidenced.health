@@ -4,26 +4,29 @@ question: 'What does the evidence show about eating eggs — and the dietary cho
 sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality, Zhong - Dietary Cholesterol Egg Consumption Cardiovascular Mortality 2019, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017]
 confidence: low
 created: 2026-08-28
-updated: 2026-08-28
-self_critiqued: 2026-08-28
-concrete_subject_audited: 2026-08-28
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 For a reasonably healthy person, eating eggs is close to a **non-lever** for heart disease. The largest
 pooled analyses put the risk of heart attack, stroke, and cardiovascular death within a whisker of no
 effect at any ordinary intake. That is neither the harm the old cholesterol scare predicted nor any real
-protection. So the practical upshot is a **release**, not a warning: **stop counting eggs**, and spend the
+protection. So this is a **release**, not a warning: **stop counting eggs** and spend your
 attention on the levers that actually move heart risk — saturated fat and apoB, the waistline, smoking,
 blood pressure. The scare itself rests on a **category error** — how much cholesterol an egg *contains*
 is not how much it raises the cholesterol *in your blood*.
 
-Two questions stay genuinely open, and they are worth keeping apart from the reassurance. In people **with
+Two questions stay genuinely open, and worth keeping apart from the reassurance. In people **with
 diabetes**, a low-certainty signal suggests the direction may reverse at daily intake. And no trial the
 wiki holds has directly tested whether the cholesterol in an egg moves blood lipids at all — that link
 rests on inference, not a feeding trial. Two further signals are **watch-items, not big rocks**: a small
 all-cause-mortality slope and a heart-failure association that surface only at high habitual intake, both
 at low certainty. And the real comparison is the whole **meal**: eggs versus a refined-carb breakfast is a
 different question than eggs versus bacon.
+
+</div>
 
 ## For your heart, eggs are close to a non-lever
 
@@ -153,6 +156,8 @@ meat) are adjusted, because dietary cholesterol and those foods are too collinea
 Read carefully, Zhong sharpens *why* the headline sounds worse than the pool without overturning it. But
 it raises the real question: does the answer ever change for an actual individual?
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## For someone with diabetes, the direction may flip
 
 People **with diabetes** are the one group the general-population reassurance may not reach. In cohorts
@@ -165,20 +170,22 @@ This is genuine subgroup evidence, not a
 mechanistic guess: a pre-specified stratum of diabetic people with a significant reversed estimate. The
 route matters: this is **effect modification** (a stratum where the relative effect itself changes), the
 false-positive-prone kind of subgroup claim. And it sits at GRADE-low certainty on observational data. So
-it is a **credible flag, not an established interaction**. The conservative move for
-a person with type-2 diabetes is to treat daily egg intake as a non-priority *watch-item* rather than a
-free food; for everyone else, the flat curve stands and there is no reason to restrict.
+it is a **credible flag, not an established interaction**. The conservative move for someone with
+type-2 diabetes: treat daily egg intake as a non-priority *watch-item*, not a free food. For everyone
+else, the flat curve stands and there is no reason to restrict.
 
 One neighbouring signal looks similar and is not the same thing, so keep them apart. Ma's all-cause slope
 strengthened in studies that had **adjusted for hyperlipidemia** — but that is a *study-level* statistical
 covariate, not a group of hyperlipidemic patients. Ma reads it as confounding: dyslipidemic people cut
 their eggs, which drags the crude association toward null, and adjusting for it unmasks a slope for
-*everyone*, not a more-harmed subgroup. So Godos's diabetic reversal (an individual-level stratum where
-risk genuinely reverses) and Ma's hyperlipidemia marker (a confounding correction that reveals a general
-signal) do **not** combine into a single *diabetics-or-high-cholesterol* contraindication. A third,
+*everyone*, not a more-harmed subgroup. So these two do **not** combine into a single *diabetics-or-high-cholesterol* contraindication. Godos's
+diabetic reversal is an individual-level stratum where risk genuinely reverses; Ma's hyperlipidemia marker
+is a confounding correction that reveals a general signal. A third,
 cleaner sub-case is the **hyper-responder**: someone whose serum LDL demonstrably climbs on dietary
 cholesterol. For that person, identified by measuring the response, egg cholesterol becomes a live lever —
 individually, not as a blanket rule.
+
+</div>
 
 ## How much to trust this, and what is missing
 
@@ -205,6 +212,8 @@ Two gaps are worth naming plainly, because a reader should know what the fabric 
   cereal, or refined-carb alternative, followed to hard outcomes. The substitution frame below is
   reasoned, not trial-tested.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Where eggs rank, and what to actually do
 
 Set against the levers that move heart and metabolic risk, the egg question ranks **low** — and its
@@ -213,16 +222,18 @@ dose-response series, eggs read null or insufficient across mortality, diabetes,
 stroke. Processed meat and sugary drinks carry the real cardiometabolic harm; whole grains and fruit
 carry the real protection -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. Eggs are simply
 not where the needle is. The big rocks remain saturated fat and apoB, visceral fat and the waistline,
-smoking, and blood pressure; no attainable precision about egg count changes what someone carrying one of
+smoking, and blood pressure. No attainable precision about egg count changes what someone carrying one of
 those should do first.
 
 And the decision is rarely about the egg in isolation — it is about **what the egg replaces**. Two boiled
 eggs in place of a refined-carbohydrate cereal is a different exposure than two eggs alongside bacon (Godos
 flags the «uncontrolled risk factors associated with egg consumption (i.e., bacon)»
 [@godos2020] as a live confounder in
-the male heart-failure signal). Judge the meal, framed as a substitution, not the egg on its own.
+the male heart-failure signal). Judge the meal as a substitution, not the egg on its own.
 
-<div class="recent-update" data-last-updated="2026-10-01">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The bottom line, as a decision
 
@@ -232,7 +243,7 @@ the big rocks. **If you have type-2 diabetes**, treat daily egg intake as a low-
 question worth a conversation, not a free food — the general-population reassurance may not transport to
 you. **If you are a hyper-responder** (your LDL climbs measurably on dietary cholesterol), egg cholesterol
 is a real lever for you specifically. For everyone, the honest frame is the plate, not the egg: choose what
-the egg stands in for. And note what is still missing — a trial putting egg cholesterol to blood lipids,
+the egg stands in for. And note what is still missing — a trial linking egg cholesterol to blood lipids,
 and a trial of the breakfast swap. Read the reassurance as **well-founded but low-certainty**, not settled.
 
 > [!info] Evidence box
@@ -243,7 +254,7 @@ and a trial of the breakfast swap. Read the reassurance as **well-founded but lo
 > | **Evidence included** | 5 sources — 4 gold, 1 high |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-08-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Eggs.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Eggs.md) |
 
 </div>
 

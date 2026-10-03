@@ -7,9 +7,9 @@ authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutri
 sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Chung - Tea Consumption Cardiovascular Dose-Response 2020, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, Mazidi - Flavonoid Intake and Mortality 2020, NNR - Nordic Nutrition Recommendations 2023, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
 confidence: low
 created: 2026-07-30
-updated: 2026-09-15
-self_critiqued: 2026-09-15
-concrete_subject_audited: 2026-09-15
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
 
 **Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
@@ -32,6 +32,8 @@ juice and sugary drinks, not the fruit bowl.
 **For someone already eating varied whole plant foods, the choice of plant food is a refinement, not a
 big lever.** The levers with room to move are getting fibre up toward the target and cutting free
 sugars — both reachable many ways.
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Most of the evidence is about a pattern, not a single food
 
@@ -63,17 +65,17 @@ is large enough to flatten real gradients toward no effect
 cannot conjure an effect out of a true null, but it can substantially strengthen a real one
 [@willett]. The three F&V cohorts that did
 correct for it saw the association grow, not shrink — in China Kadoorie, cardiovascular death per daily
-portion of fresh fruit moved from RR 0.77 (0.72-0.83) to 0.63 (0.56-0.72) once regression dilution was
-accounted for [@aune2017fv]. So a flat or
+portion of fresh fruit moved from RR 0.77 (0.72-0.83) to 0.63 (0.56-0.72) after correcting for regression dilution
+[@aune2017fv]. So a flat or
 null dose-response is weak evidence of no
 gradient, and the reported effect is, if anything, understated.
 
-One caveat runs the other way, and it is about study design rather than biology. A fibre supplement can
+One caveat runs the other way, and it is about design, not biology. A fibre supplement can
 be dosed and blinded where a bowl of beans cannot, so a blindable isolate is a *different exposure* than
 the food and can earn a better evidence grade on design alone -> [[Dietary Fibre and Health]],
 [[Is the Food Category Doing Any Work]].
 
-A final discipline applies before trusting the *shape* of any of these curves. Where a curve appears to
+Before trusting the *shape* of any of these curves, run one more check. Where a curve appears to
 flatten into a protective plateau, or to bend upward into harm at high intake, that arm can be a
 study-design artifact — reverse causation, confounding, or unequal reporting precision — rather than a
 real feature. Such an arm has to survive an artifact check before it earns a place in a recommendation
@@ -82,9 +84,13 @@ real feature. Such an arm has to survive an artifact check before it earns a pla
 With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
 and where it simply cannot single out any one food.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## What each plant group does, outcome by outcome
 
-An exposure has no single number. Each plant group moves several outcomes by different amounts, with
+No plant group reduces to a single number. Each moves several outcomes by different amounts, with
 different certainty, and the evidence individuates the food itself only sometimes. The sections below
 take each group in turn, outcome by outcome, with the interval and the studied range attached to every figure.
 All of it is observational, dose-response meta-analysis of self-reported eaters — so the ceiling is
@@ -93,7 +99,7 @@ gradient.
 
 ### Fruit and vegetables
 
-Aune's 2017 pooling of 95 cohorts (up to \~2.1 million people) reports per-serving dose-response
+Aune's 2017 meta-analysis pooled 95 cohorts (up to \~2.1 million people) and reports per-serving dose-response
 estimates rather than high-versus-low contrasts. One serving is 80 g; the table is per 200 g/day of
 fruit and vegetables combined.
 [@aune2017fv]
@@ -185,7 +191,7 @@ servings), with all-cause risk lowest at 225 g/day and no plateau or upper harm 
 [@aune2016wg] So 90 g/day is a population median and a
 study-density marker, not an optimum — present it with this effect, interval and shape, never bare.
 
-One outcome the Aune table omits is type 2 diabetes, and the DIfE/Boeing series fills it with the
+The Aune table omits type 2 diabetes. The DIfE/Boeing series fills the gap with the
 best-graded whole-grain arm in the corpus: RR 0.87 (0.82-0.93) per 30 g/day, NutriGrade **high** — one
 of only two high-graded protective cells in that 12-food-group matrix, both belonging to whole grains
 [@schwingshackl2017t2d]. Most of that
@@ -305,11 +311,10 @@ COSMOS, a randomized cocoa-flavanol extract on hard CV events — was **null on 
 The isolating check runs toward the null, as the streetlight critique predicts: chase the foods, not a
 flavonoid supplement.
 
-**Tea — a per-cup signal that vanishes in the best-measured studies.** Chung's 2020 pooling of
-39 prospective cohorts (no RCT met inclusion) reports per-cup relative risks within 1-4% of 1.0 — CVD
+**Tea — a per-cup signal that vanishes in the best-measured studies.** Chung's 2020 meta-analysis pooled
+39 prospective cohorts (no RCT met inclusion) and reports per-cup relative risks within 1-4% of 1.0 — CVD
 mortality 0.96 (0.94-0.98), all-cause 0.98 (0.97-0.99)
-[@chung2020tea]. The decisive fact is a
-risk-of-bias gradient: «Generally, studies with higher ROBs appeared to show larger magnitudes of
+[@chung2020tea]. A risk-of-bias gradient is decisive: «Generally, studies with higher ROBs appeared to show larger magnitudes of
 associations than studies with lower ROBs»
 [@chung2020tea] — and in the studies
 that measured tea best, the all-cause association is exactly null (RR 1.005, 0.972-1.040). The pooled
@@ -326,7 +331,7 @@ plausibly part of why leafy greens carry the tightest CHD/stroke signal above.
 
 But **blood pressure is a
 surrogate**: every endpoint is office BP, plasma nitrate, or a vascular marker, no trial measures events,
-and Siervo 2013's resting-BP benefit was not confirmed on 24-h ambulatory monitoring in the higher-risk
+and Siervo 2013 did not confirm the resting-BP benefit on 24-h ambulatory monitoring in the higher-risk
 strata that matter most [@siervo2013nitrate]
 -> [[Surrogate Outcomes]], [[Dietary Nitrate and Blood Pressure]]. GRADE tops out at Moderate; a single
 generic antihypertensive lowers SBP \~12 mmHg
@@ -335,6 +340,10 @@ BP alone this is a small marginal rock behind a mature drug.
 
 That is the benefit side. The rest of the plant-food question is two worries — antinutrients and fruit
 sugar — and both shrink under the same isolate lens.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The antinutrient scare is mostly mis-scaled — with named exceptions
 
@@ -347,8 +356,8 @@ research uses isolated compounds in animal models that do not represent a balanc
 [@petroski2020]. Whole-food human trials mostly
 do not reproduce the harm.
 
-This is a **transportability failure**. An effect measured in one setting — isolated, raw, animal —
-does not carry to another — matrixed, cooked, human. It is the same error the wiki flags whenever a
+This is a **transportability failure**. An effect measured in one setting (isolated, raw, animal) does not carry to another
+(matrixed, cooked, human). It is the same error the wiki flags whenever a
 food's effect is read off a context it never occurs in
 -> [[Is the Food Category Doing Any Work]], [[Measurement Error in Dietary Assessment]].
 
@@ -395,12 +404,14 @@ whole-food human evidence exists, not on mechanistic optimism. And no patient-im
 either way. The value is **licensing someone to stop avoiding prepared beans and grains**, not a promise
 that eating them treats anything.
 
-One tie-in is worth naming. The digestibility-acting compounds here — phytate, tannins, trypsin
+The digestibility-acting compounds here — phytate, tannins, trypsin
 inhibitors — are the **same set FAO names as the plant-protein digestibility discount**, and the same
 soaking-and-cooking step that lowers the toxicity worry also raises protein quality
 -> [[Protein Quality and the DIAAS Score]].
 
 The other worry is sugar — specifically, whether the sugar in fruit is a problem.
+
+</div>
 
 ## Whole fruit is not a sugar problem
 
@@ -493,6 +504,8 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## What to do
 
 **Pull two levers.** Get fibre up toward \~30 g/day — by any route, a high-fibre
@@ -522,6 +535,8 @@ event benefit.
 > | **Evidence included** | 24 sources — 19 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+
+</div>
 
 ## References

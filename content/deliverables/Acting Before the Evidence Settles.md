@@ -317,7 +317,7 @@ something you don't — do not mistake caution for a verdict.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where this nets out
 
@@ -343,7 +343,7 @@ says so.
 > | **Evidence included** | 8 sources — 4 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
 
 </div>
 

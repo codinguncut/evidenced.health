@@ -594,7 +594,7 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The decision: read the depot, target it, and know what losing it buys
 
@@ -629,7 +629,7 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | **Evidence included** | 29 sources — 15 gold, 13 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 </div>
 

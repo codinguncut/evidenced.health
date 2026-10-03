@@ -356,7 +356,7 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What the evidence still cannot say
 
@@ -394,7 +394,7 @@ cited here.
 > | **Evidence included** | 23 sources — 15 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
 
 </div>
 

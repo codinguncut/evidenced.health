@@ -7,20 +7,23 @@ authors: [Jha, Prabhat; Ekelund, Ulf; Yin, Jiawei]
 sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Yin - Sleep Duration Mortality Dose-Response 2017, Laukkanen - Sauna Bathing Fatal Cardiovascular Mortality, Cain - Cold-Water Immersion Wellbeing 2025]
 confidence: medium
 created: 2026-08-18
-updated: 2026-09-22
-self_critiqued: 2026-09-22
-concrete_subject_audited: 2026-09-22
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
 little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read
-them as a stack, biggest at the base -- and a lever only counts if it applies to you: nothing to quit
+them as a stack, biggest at the base. A lever only counts if it applies to you -- nothing to quit
 if you don't smoke, nothing to lose if you are already lean and metabolically healthy. Pull these five
 and you have captured most of what a lifestyle can buy your health; the rest is real but small. The
 same few levers lower risk across heart disease, dementia, diabetes and cancer at once, so there is no
-separate anti-cancer or anti-dementia diet to run. This card ranks and points; the derivation lives in
+separate anti-cancer or anti-dementia diet to run. This card ranks and points. The derivation lives in
 the two analytic cuts it fronts -- [[Big Rocks (Median)]] (18-65) and [[Big Rocks (Elderly)]] (65+). ->
 [[Shared Modifiable Levers Across Age-Related Diseases]]
+
+</div>
 
 ## The five levers, biggest first
 
@@ -99,19 +102,21 @@ lever harder *and* discuss with your doctor. This page never names or doses a dr
 
 None of these is a sixth lever -- they are the dials on the five you already have.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Where it stops being worth the effort
 
-Once the five big levers are handled -- you don't smoke, you move daily, you are not carrying ectopic
-fat, you drink little, you sleep enough -- the gains that remain are small by construction, and often
-uncertain. That is a finding, not a hole in this page: "there is little left to optimize" is a real
+Once you have handled the five big levers -- you don't smoke, you move daily, you are not carrying
+ectopic fat, you drink little, you sleep enough -- the gains that remain are small by construction,
+and often uncertain. That is a finding, not a hole in this page: "there is little left to optimize" is a real
 result that licenses you to stop.
 
 
 **Whole-diet patterns** -- Mediterranean, DASH and the like -- are not treated here as a single lever.
 The whole-pattern evidence on hard outcomes is genuinely thin, mostly surrogate markers or confounded
 observation, so this is a gap in the literature, not a body of evidence waiting to be pulled in. The
-even-handed handle the evidence supports is component-level and measurable -- apoB and metabolic
-markers -- not the pattern label. -> [[Dietary Patterns]]
+evidence supports a component-level, measurable handle -- apoB and metabolic markers -- not the
+pattern label. -> [[Dietary Patterns]]
 
 
 **Heat and cold exposure** are this section's fads: heavy discourse, thin evidence, ranked low. Heat has
@@ -127,17 +132,22 @@ substitutes for the five levers. If you enjoy one already, the harm is small: ke
 lever to add.
 -> [[Sauna Bathing and Cardiovascular Mortality]], [[Cold-Water Immersion]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## After about 65, the stack shifts
 
 The levers do not change on your birthday, but their order does. Balance and footwork become the
-surest lever -- against falls -- and it is one of the best-evidenced moves in the whole guide; train
-balance specifically, because resistance training alone is not proven to prevent falls. Protein and
-strength work move up too: ageing blunts the muscle's response to protein and makes muscle and bone
-harder to hold, so keeping both up matters more than it did at 40. And some things that look
-protective can flip to harm in older adults -- testosterone, calcium-plus-vitamin-D when you are not
-deficient, the tightest blood-pressure targets, edge-of-evidence statins -- so leave those to a
-clinician working from your labs. -> [[Big Rocks (Elderly)]],
+surest lever against falls -- one of the best-evidenced moves in the whole guide. Train balance
+specifically, because resistance training alone is not proven to prevent falls. Protein and strength
+work move up too. Ageing blunts the muscle's response to protein and makes muscle and bone harder to
+hold, so keeping both up matters more than it did at 40. Some things that look protective can flip to
+harm in older adults -- testosterone, calcium-plus-vitamin-D when you are not deficient, the tightest
+blood-pressure targets, edge-of-evidence statins. Leave those to a clinician working from your labs. -> [[Big Rocks (Elderly)]],
 [[Exercise for Preventing Falls in Older Adults]], [[Protein and Resistance Training for Muscle and Strength]]
+
+</div>
 
 ## The bottom line
 
@@ -161,12 +171,15 @@ it is the goal.
   sources -- not whether following them makes you better off. Treat it as well-sourced reasoning,
   not a guarantee.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Where the evidence lives
 
-The derivation of every directive -- effect sizes, confidence intervals, studied ranges, per-stratum
-modifiers and the trial-versus-observation reasoning behind each figure -- lives in the two analytic
-cuts this card fronts: [[Big Rocks (Median)]] for the adult 18-65 (metabolic status the operative
-modifier) and [[Big Rocks (Elderly)]] for the 65+ stratum (muscle, falls, protein, sign-flippers).
+Every directive here is derived elsewhere. The effect sizes, confidence intervals, studied ranges,
+per-stratum modifiers and the trial-versus-observation reasoning behind each figure live in the two
+analytic cuts this card fronts: [[Big Rocks (Median)]] for the adult 18-65 (metabolic status the
+operative modifier) and [[Big Rocks (Elderly)]] for the 65+ stratum (muscle, falls, protein,
+sign-flippers).
 The per-lever claim pages linked from each directive carry the rest.
 
 > [!info] Evidence box
@@ -177,6 +190,8 @@ The per-lever claim pages linked from each directive carry the rest.
 > | **Evidence included** | 5 sources — 3 gold, 2 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-22 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+
+</div>
 
 ## References

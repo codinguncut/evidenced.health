@@ -349,7 +349,7 @@ that *raising* mass lowers it is unproven.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What to do — and the question none of it answers
 
@@ -377,7 +377,7 @@ you function or how long you live.
 > | **Evidence included** | 17 sources — 10 gold, 4 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-21 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
 
 </div>
 

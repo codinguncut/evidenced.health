@@ -7,9 +7,9 @@ authors: [Guo, Jing; Zhang, Kui; Zhang, Yu; Mishali, Moshe; Malmir, Hanieh; Astr
 sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019, Mente - PURE Healthy Diet Score 2023, Villoz - Dairy Cognitive Decline Dementia 2024, Thorning - Whole Dairy Matrix 2017, Bian - Dairy Hip Fracture Meta-Analysis 2018]
 confidence: medium
 created: 2026-08-10
-updated: 2026-09-29
-self_critiqued: 2026-09-29
-concrete_subject_audited: 2026-09-15
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
 
 Milk, cheese, butter and yoghurt carry similar saturated fat, yet the outcomes they touch — heart
@@ -162,17 +162,19 @@ signal lives, and this genetic test cannot refute it. Reading the milk-null as s
 would be the category error the whole decomposition exists to prevent. So the composite is: milk has no
 causal diabetes effect, yoghurt keeps a small observational one, and neither is a big lever.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Milk is not a bone-fracture lever
 
 The intuitive story — dairy is rich in calcium and protein, so more dairy means stronger bones — does not
-survive the strongest study designs. Malmir's meta-analysis (34 studies, 616,000 people for fracture)
+survive the strongest study designs. Malmir pooled 34 studies (616,000 people for fracture) and
 found the protective associations **only in cross-sectional and case-control studies**, the designs most
 prone to reverse causation; in prospective cohorts, dairy and milk were null for both osteoporosis and
 hip fracture [@malmir2019]. The
 milk-fracture paradox is stark: weaker designs say high milk drinkers have 25% *less* hip fracture,
 while cohorts show a 9% *higher* risk per 200 g/day (RR 1.09, 1.07-1.11)
-[@malmir2019]. That cohort harm
-signal is largely driven by the same Michaelsson Swedish cohort behind the milk-mortality scare, so read
+[@malmir2019]. The same
+Michaelsson Swedish cohort behind the milk-mortality scare largely drives that cohort harm signal, so read
 it as confounded and unadjudicated, not as evidence milk breaks bones ([[Dairy and Bone Health]]).
 
 Decomposing dairy by product does not rescue a bone benefit. A second gold meta-analysis (Bian 2018,
@@ -195,25 +197,30 @@ Two loose ends stay honest. A dose-response J-shape put dairy above 250 g/day at
 but it rests on the same reverse-causation-prone designs and is unadjudicated. And the food route lands
 where the supplement route does. Calcium plus vitamin D is also null for fracture in replete adults, so
 neither the glass of milk nor the pill moves fracture risk in someone already well-nourished
-([[Deficiency Repletion vs Enhancement]]). What prevents falls and fractures in older adults is exercise,
-not dairy intake.
+([[Deficiency Repletion vs Enhancement]]). Exercise prevents falls and fractures in older adults; dairy intake does not.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Dairy is not a brain-health lever either
 
-Villoz's meta-analysis (15 cohorts, 312,580 people, no trials) is the only dose-response evidence on dairy
-and the brain, and its headline is null: highest-versus-lowest intake RR 0.94 (0.82-1.07), with a
-prediction interval (0.61-1.45) so wide a future study could as easily find harm as benefit
+Villoz pooled the only dose-response evidence on dairy and the brain (15 cohorts, 312,580 people, no
+trials), and the headline is null: highest-versus-lowest intake RR 0.94 (0.82-1.07). The prediction
+interval (0.61-1.45) runs so wide that a future study could as easily find harm as benefit
 [@villoz2024dairy].
 
-The one apparent signal — a dose-response *nadir* around 150 g/day — is a **pooling artifact**. The
-protective arm below 150 g/day is drawn by low-intake Asian cohorts (RR 0.83), the flat arm above it by
-high-intake European cohorts (RR 1.01, null), and the nadir sits exactly on the seam between two
-populations sampled at non-overlapping doses
+The one apparent signal — a dose-response *nadir* around 150 g/day — is a **pooling artifact**. Below
+150 g/day, low-intake Asian cohorts draw a protective arm (RR 0.83); above it, high-intake European
+cohorts draw a flat one (RR 1.01, null). The nadir sits exactly on the seam between two populations
+sampled at non-overlapping doses
 [@villoz2024dairy]. Milk alone and cheese alone were
 both null, and the whole association vanished in the studies that adjusted for overall dietary pattern —
 dairy reads as a marker of a healthier diet, not a cause
 [@villoz2024dairy]. For a reasonably healthy adult in
 a Western intake range, there is nothing here to worry about or optimize ([[Dairy and Cognitive Decline]]).
+
+</div>
 
 ## Dairy and cancer is the one endpoint this evidence can't answer
 
@@ -227,10 +234,12 @@ evidence's ([[The Weighting Problem - Why Population Guidance Is Ill-Posed and I
 Anyone using dairy to weigh a personal cancer decision needs the underlying reviews, which this cut does
 not yet hold.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Does the food matrix change what the saturated fat does?
 
-The recurring hypothesis is that the same saturated fat behaves differently inside cheese than inside
-butter — that the food's structure, not just its fat, drives the outcome. A controlled-feeding contrast
+The same saturated fat might behave differently inside cheese than inside butter — the recurring idea
+that a food's structure, not just its fat, drives the outcome. A controlled-feeding contrast
 supports the *direction*: matched for fat, protein and lactose, butter raised LDL-cholesterol more than
 cheese did, with milk in between [@thorning2017]. So the matrix
 plausibly softens what the fat does.
@@ -248,6 +257,10 @@ carries its own industry and design caveats. The saturated-fat verdict itself be
 [[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
 This cut carries only the dairy-specific matrix nuance, which for now points in a plausible direction on a
 surrogate endpoint and no further.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What to actually do about dairy
 
@@ -277,6 +290,8 @@ exists, and none is likely, so these verdicts are calibrated small effects, not 
 > | **Evidence included** | 16 sources — 11 gold, 3 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Thorning (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+
+</div>
 
 ## References

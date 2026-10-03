@@ -7,9 +7,9 @@ authors: [Cappuccio, Francesco P; Wang, Shanshan; Livingston, Gill; Yin, Jiawei;
 sources: [Cappuccio - Sleep Duration and Mortality 2010, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Livingston - Dementia Prevention 2024, Yin - Sleep Duration Mortality Dose-Response 2017, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Windred - Sleep Regularity Mortality 2023, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Sleep Problems Cognitive Decline Dementia 2020, van Straten - CBT for Insomnia Meta-Analysis 2018, Kripke - Hypnotics Mortality Cancer 2012, Ferracioli-Oda - Melatonin Primary Sleep Disorders MA 2013, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Singh - Blue-Light Filtering Lenses 2023, Luna-Rangel - Blue-Light Blocking Glasses Sleep 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-25
-self_critiqued: 2026-09-10
-concrete_subject_audited: 2026-09-10
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
 
 ## The verdict
@@ -92,6 +92,8 @@ symptom, and there is no evidenced harm from sleeping past 8 h to cap against. F
 short sleeper, extending toward \~7-8 h is a lever with mechanism, direction, and genetic support
 behind it.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The same split shows up for diabetes and heart disease
 
 The arm-asymmetry is not a quirk of the mortality data. It repeats on every outcome sleep
@@ -124,8 +126,8 @@ likely stronger» — that, plus simply having more waking hours in which to eat
 leptin/ghrelin as a discounted mechanism, never a demonstrated one; the extra eating is real,
 its hormonal explanation is not.
 
-The heart tells the same story, and Wang 2022 finally brings the strong check the sleep
-literature had been arguing for without. On incidence, the observational curves echo mortality —
+The heart tells the same story, and Wang 2022 finally supplies the strong check the sleep
+literature had argued for but lacked. On incidence, the observational curves echo mortality —
 coronary disease is U-shaped, stroke J-shaped, per extra hour RR 1.13 (1.07-1.20)
 [@wang2022sleep]. Then Wang pools eleven
 Mendelian-randomization studies:
@@ -139,14 +141,18 @@ Mendelian-randomization studies:
   with stroke and CAD in the MR studies» [@wang2022sleep]. But the long-sleep instruments are few and underpowered, so this is
   *insufficient evidence*, not a demonstrated null.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## When you sleep may beat how long
 
 Duration is only one knob. A person can sleep seven hours at ragged, drifting times, and how
 *regular* the timing is may be the bigger lever — the newly-visible one that duration-centric
 sleep advice misses entirely.
 
-Windred measured both dimensions objectively, by wrist accelerometry rather than self-report, in
-one cohort — roughly 61,000 UK Biobank participants — and raced them head-to-head for mortality.
+Windred measured both dimensions objectively — by wrist accelerometry, not self-report — in one
+cohort of roughly 61,000 UK Biobank participants, then raced them head-to-head for mortality.
 Day-to-day regularity, scored as the Sleep Regularity Index, predicted death more strongly than
 how many hours someone slept: the most-regular fifth had a hazard ratio of 0.70 (0.59-0.83)
 against the least regular, versus 0.76 (0.65-0.89) for duration
@@ -157,7 +163,7 @@ risk beyond the variance explained by SRI scores» (nested likelihood-ratio test
 curve is monotonic: steadier is simply better, with no upper turn.
 
 This does not overturn the duration U-curve — it sits beside it. Windred's objective duration
-range is truncated, its longest quintile reaching only past 7.56 h, so it never touches the
+range is truncated — its longest quintile reaches only past 7.56 h — so it never touches the
 &gt;9-10 h long-arm where the illness marker lives, and it confirms the short-sleep associations
 [@windred2023]. Regularity is a complementary axis for
 the person who already sleeps enough but at chaotic times — shift-adjacent schedules, social
@@ -165,13 +171,15 @@ jetlag — not a rival that unseats how-much-sleep. The proposed mechanism is ci
 disruption: irregular timing scatters the body's clock signals, a *when*-not-*how-much* pathway,
 held directionally because the design is correlational.
 
-Two things keep this a candidate lever rather than a settled one. The finding rests on this
+This stays a candidate lever, not a settled one. The finding rests on this
 single cohort, correlational, with no trial yet raising regularity and measuring survival — so
 it ranks below the established sleep levers. But it is concrete and cheap: the top fifth for
 regularity fall asleep and wake within roughly 1-hour windows most days, the bottom fifth within
 \~3-hour windows, and Windred notes regularity «may also be an easier dimension to target through
 interventions» than extending sleep, which is biologically and socially hard to do
 [@windred2023].
+
+</div>
 
 ## For the aging brain, target the disorder — not a duration number
 
@@ -254,10 +262,12 @@ higher baseline risk [[Dementia Prevention and Modifiable Risk Factors]], [[Base
 . Whether fixing broken sleep protects the brain is exactly the untested question — which
 raises the treatment question head-on: once sleep is broken, what actually works?
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## For insomnia, start with therapy, not pills
 
 Three treatments answer that question, and the honest ranking runs opposite to how most people reach
-for them — drug first, behaviour last. The order that follows the evidence is set by **type,
+for them — drug first, behaviour last. The evidence sets the order by **type,
 durability, and harm**, not by the effect size on any single sleep number.
 
 **Cognitive behavioural therapy for insomnia (CBT-I) comes first.** A meta-analysis of 87 randomized
@@ -308,6 +318,8 @@ mechanism directly are dimming lights and warm display modes.
 Apnea is the remaining treatable sleep disorder, and it is the sharpest lesson in why fixing a symptom
 is not the same as changing an outcome.
 
+</div>
+
 ## Treat sleep apnea for its symptoms, not to prevent heart attacks
 
 Sleep apnea tracks with cardiovascular disease in observational data, and CPAP -- the mask that
@@ -348,11 +360,13 @@ death -- that expectation is not supported for either the mask or the drug. Trea
 symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
 through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Rank sleep honestly, and act on the arms that hold
 
 Where does sleep rank among the levers? Below the biggest rocks. A person who smokes, carries excess
-weight, or barely moves gains far more by pulling those first, and for someone already sleeping seven
-or eight regular hours the remaining sleep gains are small. But for two strata sleep is a genuine big
+weight, or barely moves gains far more by pulling those first. For someone already sleeping seven or
+eight regular hours, the remaining sleep gains are small. But for two strata sleep is a genuine big
 rock, not a refinement: the chronic short sleeper, and the person whose sleep-wake timing swings
 widely from day to day. A candidate third arm -- the map of sleep disorders onto cognitive decline --
 is real but still association-grade, with no trial yet showing that treating a disorder prevents
@@ -364,7 +378,7 @@ is plausible, but none is yet backed by the systematic-review evidence this deli
 They are candidate levers, named honestly as gaps rather than graded recommendations. Two the wiki
 treats elsewhere: late-evening eating on [[Meal Timing and Fasting]], and caffeine timing on [[Coffee Consumption and Health]].
 
-Several questions a careful reader will ask, this evidence base cannot yet answer, and naming them is
+A careful reader will ask several questions this evidence base cannot yet answer, and naming them is
 part of the answer. Whether sleep quality, architecture, or within-night continuity change hard
 outcomes at the *same* total hours is not held. A systematic review of light and circadian
 scheduling, and a meta-analysis of exercise's effect on sleep, are not held. Nor is a
@@ -389,6 +403,8 @@ urgent, and your attention is better spent on the bigger rocks.
 > | **Evidence included** | 16 sources — 11 gold, 4 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+
+</div>
 
 ## References

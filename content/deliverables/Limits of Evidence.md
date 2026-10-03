@@ -10,7 +10,8 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-page" data-last-updated="2026-10-03"></div>
+
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
 will change that. You cannot blind people to what they eat, cannot measure a real diet without
@@ -34,10 +35,6 @@ whatever is easy to measure, which keeps the field reading absence of evidence a
 evidence of absence. And one caveat outlives every section below — this page grades how well the evidence
 coheres and how faithfully it is reported, never whether it is true. It can be sound on both
 counts and still be wrong about the world.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The exposure is mismeasured
 
@@ -90,10 +87,6 @@ structural gap, not a sourced finding here.
 rule out a real gradient, a bare coefficient cannot say what was traded, and a category-level number can
 describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
 either direction.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The design rarely isolates the cause
 
@@ -215,10 +208,6 @@ upgrade routes is available, residual confounding stays live, and the honest gra
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The outcome is often a surrogate, and effects leak
 
 Much of the evidence a recommendation rests on does not measure the outcome a person cares about. It
@@ -270,10 +259,6 @@ lower. So discount confident surrogate-based advice toward the *outcome's* certa
 as a target only where its transmission is shown.
 -> [[The Certainty-Importance Inversion]], [[Indirectness of Evidence]], [[Surrogate Outcomes]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The literature is filtered and noisy
 
 Set study design aside: the published record is already a biased sample of the studies that were run.
@@ -318,10 +303,6 @@ therefore comes from convergence of independent methods, not from study count or
 result.
 -> [[Most Published Findings Are False (PPV of a Field)]], [[Confidence in Science Without a Replication Crisis]], [[Publication Bias and Selective Reporting]], [[P-Hacking and Researcher Degrees of Freedom]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## *No evidence* is not *evidence of no effect*
 
 The appraisal frame carries four evidence states -- benefit, harm, no meaningful effect, and
@@ -364,10 +345,6 @@ because «an empty row in an evidence profile can be informative in that it iden
 doesn't work* -- the first leaves the question open under the expectancy test; the second forecloses it.
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The open loop, and what confidence it leaves
 
@@ -467,8 +444,6 @@ class that may not transport, a curve with no locatable peak. Every number carri
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
-</div>
-
 ## Caveats and boundaries
 
 - **This cut carries no exposure estimates.** Every exposure above is an illustration that links out to
@@ -498,6 +473,6 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Evidence included** | 22 sources — 6 gold, 3 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Dehghan (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
 
 ## References

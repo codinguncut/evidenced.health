@@ -324,7 +324,7 @@ optional -> [[Baseline Risk and the Relative-Absolute Split]].
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## How to think about your own choice
 
@@ -346,7 +346,7 @@ open.
 > | **Evidence included** | 30 sources — 14 gold, 15 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
 
 </div>
 

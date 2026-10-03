@@ -8,6 +8,7 @@ created: 2026-07-30
 updated: 2026-09-09
 concrete_subject_audited: 2026-08-27
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 *This page has been folded into [[Losing Fat and Keeping It Off]].*
 
@@ -23,3 +24,15 @@ remain named gaps.
 See [[Losing Fat and Keeping It Off]] for the method-and-durability treatment (which method moves which
 outcome, lean mass, and whether the loss lasts). See [[Body Fat]] for whether a person's fat is actually
 raising their risk and whether losing it reaches hard outcomes.
+
+> [!info] Evidence box
+>
+> | | |
+> |---|---|
+> | **Question** | For an adult who has decided to lose weight, does the rate of loss change regain, muscle loss, and organ harm over and above the amount lost and the method used — and does a diet-created deficit differ from an exercise-widened one for body composition? |
+> | **Evidence included** | 0 sources |
+> | **Overall certainty** | **Not stated** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | All sources are gold or high tier. |
+> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Rapid%20Weight%20Loss.md) |
+
+</div>

@@ -256,7 +256,7 @@ fear of movement is the barrier, the evidence says start.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What this page cannot tell you
 
@@ -285,7 +285,7 @@ proven true.
 > | **Evidence included** | 31 sources — 22 gold, 7 high, 2 moderate |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-25 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
 
 </div>
 

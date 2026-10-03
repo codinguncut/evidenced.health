@@ -1,16 +1,17 @@
 ---
 type: deliverable
 title: Baseline Risk and Absolute Benefit
-self_critiqued: 2026-09-09
-concrete_subject_audited: 2026-09-09
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 question: 'When an intervention has a known relative effect, what does the evidence say about how much it actually helps a given person — how does absolute benefit track baseline risk when the relative effect is roughly constant, when does stratifying by baseline risk change the decision, and how should a person read a relative risk reduction against their own starting risk?'
 aliases: [Baseline Risk and Absolute Benefit, Absolute vs Relative Risk, Number Needed to Treat, How Much Will It Help Me]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); European Society of Cardiology (org); Mach, François; Blumenthal, Roger S; Cholesterol Treatment Trialists' Collaboration (org); Bhatt, Deepak L; Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; US Preventive Services Task Force (org); Zheng, Sean L; Roddick, Alistair J; Khan, Sadiya S; Matsushita, Kunihiro; Knowler, William C; Pittas, Anastassios G; Dawson-Hughes, Bess; Coley, Nicola; Andrieu, Sandrine]
 sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, ESC - CVD Prevention Guidelines 2021, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, USPSTF - Aspirin Primary Prevention 2022, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, Khan - PREVENT Equations 2024, Knowler - Diabetes Prevention Program DPP 2002, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025]
 confidence: high
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
 A relative effect — *cuts your risk by a quarter*, *halves your chance of a heart attack* — sounds
 like a fact about you. It is not. **It is a fact about the treatment.** What the same treatment does
@@ -20,9 +21,11 @@ Multiply the relative reduction by your own baseline risk to get the *absolute* 
 in which a benefit can be weighed against a harm, a cost, or a daily pill.
 
 Everything else follows from that one step: where a baseline
-risk comes from, when an extra test is allowed to move it, why a reassuring ten-year number can hide an
-alarming thirty-year one, and why **a harm that grows alongside the benefit — aspirin's bleeding — can
-cancel it exactly where the benefit looks biggest.**
+risk comes from, when an extra test is allowed to move it, and why a reassuring ten-year number can hide
+an alarming thirty-year one. One twist matters most: **a harm that grows alongside the benefit —
+aspirin's bleeding — can cancel it exactly where the benefit looks biggest.**
+
+</div>
 
 ## A relative effect is a fact about the treatment, not about you
 
@@ -75,6 +78,8 @@ One honest bound: the low-risk arm's point estimate is attenuated (its confidenc
 scaling with a *possible* change in the relative effect, and one trial's subgroups cannot cleanly
 separate the two (interaction P = 0.14). Read it as the worked pair it is, with that caveat attached.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Your baseline risk comes from a model with a home ground
 
 To convert, you need the other factor: a prognostic estimate of your own risk over a stated horizon.
@@ -93,7 +98,7 @@ thresholds turn it into an action, and the bands move with age
 | Treatment generally recommended | >=7.5% | >=10% | >=15% |
 
 The same 10-year risk means different things at different ages — 8% is *very high* under 50 and only
-*high* at 72. The stated reason is that «Age is the major driver of CVD risk»
+*high* at 72. ESC's stated reason: «Age is the major driver of CVD risk»
 [@esc2021], so a single fixed threshold would
 over-treat the old and under-treat the young.
 
@@ -107,9 +112,11 @@ the Pooled Cohort Equations placed *at* the classic 7.5% statin-decision thresho
 treatment-eligible, so the number is only as good as the model that fits your population.
 
 Two limits bound any read-off. Base SCORE2 **excludes people with diabetes** (a diabetes-specific
-extension exists); and the ESC category flips on case inputs a stratum does not contain — smoking
+extension exists). The ESC category also flips on case inputs a stratum does not contain — smoking
 status, a blood-pressure band, a cholesterol band, a region — so the same broad stratum can land in
 different categories once those are filled in.
+
+</div>
 
 ## Two reasons a recommendation differs by group — only one is cheap
 
@@ -185,6 +192,8 @@ to observed rates, since no trial has randomized statins by calcium score. And t
 **age-relative** — a zero score informs only where a non-zero score was expected
 -> [[Statins for Primary Prevention and the Power of Zero CAC]].
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## A low ten-year risk can hide a high lifetime one
 
 A ten-year horizon systematically understates the case for acting in a younger person, and ESC says so
@@ -195,9 +204,9 @@ almost always low over ten years whatever their risk factors.
 
 The same person looks different over a longer window. On the PREVENT equations, a 50-year-old woman
 with a suboptimal risk-factor profile (high cholesterol, treated blood pressure of 160 mmHg, obesity)
-reads about **5.4% over ten years — reassuringly low — and 31% over thirty**, alarming [@khan2024]. The better currency for a
-long-horizon decision is **CVD-free years gained**, built by ESC as exactly this guide's conversion — a
-lifetime baseline risk multiplied by a relative effect, expressed in absolute units
+reads about **5.4% over ten years — reassuringly low — and 31% over thirty**, alarming [@khan2024]. For a long-horizon
+decision the better currency is **CVD-free years gained** — ESC builds it as exactly this guide's
+conversion: a lifetime baseline risk multiplied by a relative effect, expressed in absolute units
 -> [[Lifetime Benefit - The Frame for Younger Adults]]. But it is a **modeled** quantity: no trial
 follows anyone for a lifetime, and its endpoint folds in death, so competing risk makes the years
 gained fall steeply with age.
@@ -207,14 +216,18 @@ why the thresholds rise after 70 — and **it is not a licence to start drugs yo
 the predictions imprecise and redirects to lifestyle. Under 50, ask for the lifetime number before you
 trust a low ten-year one; below 40, the lever is how you live, not a prescription.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## When the harm scales with the benefit, higher risk stops rescuing you
 
 Everything so far scales a *benefit* with baseline risk. But a treatment's *harm* scales too — and
 when the harm runs in the opposite decision direction, **you cannot net the two into one symmetric
 band; each tail has to be weighed on its own.** Aspirin in primary prevention is the clean case.
 
-On the largest trial-level meta-analysis (13 RCTs, 164,225 people), aspirin's cardiovascular benefit
-is real but small — composite CV events HR 0.89, absolute reduction **0.41%** (number-needed-to-treat
+The largest trial-level meta-analysis (13 RCTs, 164,225 people) finds aspirin's cardiovascular benefit
+real but small — composite CV events HR 0.89, absolute reduction **0.41%** (number-needed-to-treat
 241) — and it is «modest and equally balanced by major bleeding events»: major bleeding HR 1.43,
 absolute increase **0.47%** (number-needed-to-harm 210), with no reduction in death
 [@zheng2019aspirin]. The bleeding harm is not
@@ -229,10 +242,14 @@ benefit (high-risk 0.64% versus 0.63%; diabetes 0.80% versus 0.65%)
 is not rescued by the arithmetic** — the escape hatch closes ->
 [[Aspirin for Primary Prevention of Cardiovascular Disease]].
 
-The guidance layer resolves the switch onto **age, not baseline risk**: USPSTF makes aspirin an
+The guidance layer resolves the switch onto **age, not baseline risk**. USPSTF makes aspirin an
 individual decision at 40–59 with a 10-year risk of 10% or more (a small net benefit), and recommends
-*against* initiating it at 60 or older, because the absolute bleeding harm climbs steeply with age even
+*against* initiating it at 60 or older — because the absolute bleeding harm climbs steeply with age even
 though the relative effect does not [@uspstf2022aspirin].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What to carry away
 
@@ -268,6 +285,8 @@ lifetime, and none has randomized statins by calcium score.
 > | **Evidence included** | 12 sources — 5 gold, 6 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Baseline%20Risk%20and%20Absolute%20Benefit.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Baseline%20Risk%20and%20Absolute%20Benefit.md) |
+
+</div>
 
 ## References

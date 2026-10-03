@@ -543,6 +543,8 @@ These are named gaps — absence of held evidence, not evidence of absence
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Caveats
 
 - **The loop is open.** Nothing here grades a supplement against a realized outcome in a real person; the
@@ -565,6 +567,8 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Evidence included** | 32 sources — 17 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-29 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+
+</div>
 
 ## References

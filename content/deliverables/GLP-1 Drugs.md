@@ -500,7 +500,7 @@ the fabric supplies only the directions and the certainties.
 > | **Evidence included** | 15 sources — 7 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-15 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
 
 </div>
 

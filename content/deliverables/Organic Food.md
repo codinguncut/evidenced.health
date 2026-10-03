@@ -7,15 +7,16 @@ authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spa
 sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baudry - Organic Food Consumption Cancer NutriNet 2018]
 confidence: low
 created: 2026-07-30
-updated: 2026-08-27
-self_critiqued: 2026-08-11
-concrete_subject_audited: 2026-08-27
+updated: 2026-10-03
+self_critiqued: 2026-10-03
+concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-10-03">
 
-This page appraises the *health* axis of the *organic* label at the population level: what the measured
-differences between organic and conventional food are, how large they run against a whole diet, and
-whether the *certification* or some *underlying exposure the label only partly captures*
-does the work. It is not advice for one person — your budget and priorities enter later, when you weigh
+This page appraises the *health* axis of the *organic* label at the population level. It asks three
+things: what the measured differences between organic and conventional food are, how large they run
+against a whole diet, and whether the *certification* or some *underlying exposure the label only
+partly captures* does the work. It is not advice for one person — your budget and priorities enter later, when you weigh
 this against everything else. And it appraises health only. Many people buy organic for the environment,
 for animal welfare, or to back a particular farming system; those are legitimate reasons this appraisal
 does not touch and cannot price.
@@ -33,6 +34,8 @@ driven by what the animal ate — grass versus grain — which the organic certi
 No trial shows organic eating makes anyone healthier, and the one large cohort that points that way is
 riddled with the healthy-buyer confound. This is a thin-evidence field by its nature, not because the
 right study is still pending: you cannot blind or randomise a lifetime of buying organic.
+
+</div>
 
 ## The frame: "organic" is a provenance label, not an exposure
 
@@ -53,13 +56,15 @@ not to the certificate. The hard-outcome case is the weakest link and is heavily
 
 
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Sub-question 1 — pesticide / toxin residues: lower on organic, health consequence unproven
 
-Baranski pooled meta-analyses over 343 publications and found "the frequency of occurrence of pesticide
+Baranski pooled meta-analyses over 343 publications: "the frequency of occurrence of pesticide
 residues was found to be four times higher in conventional crops, which also contained significantly
 higher concentrations of the toxic metal Cd."
 [@baranski2014]
-Cadmium ran "The on average 48 % lower Cd concentrations found in organic crops" — but the
+Cadmium was lower too: "The on average 48 % lower Cd concentrations found in organic crops". But the
 percentage-difference interval on Cd was wide (−48%, 95% CI −112, 16), so the *significant* Cd result
 rests on the standardized-mean-difference analysis, not the percentage metric.
 [@baranski2014]
@@ -75,6 +80,8 @@ The one clean safety signal lay elsewhere. Bacteria resistant to three or more a
 on conventional chicken and pork (risk difference 33%), while *Escherichia coli* contamination did not
 differ by farming method.
 [@smithspangler2012]
+
+</div>
 
 ## Sub-question 2 — nutrient content: small differences, running BOTH ways
 
@@ -182,6 +189,8 @@ The design cannot cleanly attribute, and no RCT exists. You cannot blind or rand
 organic eating — the streetlight problem — so the outcome the shopper most wants answered is the one the
 evidence base structurally cannot see.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The net health verdict, and where it ranks
 
 - **Residues:** genuinely lower on organic (about four times lower incidence in crops; contamination
@@ -199,23 +208,31 @@ evidence base structurally cannot see.
 - **Hard outcomes:** one confounded cohort, no trial, no clean attribution.
 
 Ranked against everything else a person could do, *organic* is a small and low-certainty lever. For
-anyone it is dominated by the big rocks — smoking, adiposity, physical activity, and the overall diet
-pattern — and even on the narrow nutrient axis it is out-specified by the grass-versus-grain choice
--> [[Is the Food Category Doing Any Work]]. That the topic draws so much attention is itself a mild
+anyone, the big rocks dominate it — smoking, adiposity, physical activity, and the overall diet
+pattern. Even on the narrow nutrient axis, the grass-versus-grain choice out-specifies it
+-> [[Is the Food Category Doing Any Work]]. The attention the topic draws is itself a mild
 anti-signal: in a mature area the large, settled effects generate little discussion while the small,
 contested ones generate products and content. This appraisal agrees with the mainstream position — buy
 organic if you value the non-health reasons for it, but do not expect a documented population-level
 health benefit. The measured differences are real; their health consequence is unproven.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The non-health reasons are real — and not weighed here
 
 Plenty of people buy organic for the environment, for animal welfare, or to support a farming system, and
 those can be perfectly good reasons. This appraisal simply does not price them: it holds no carbon,
-water, or welfare data and would be inventing a verdict if it pretended to. The pattern is the same one
-that shows up when people cut red and processed meat for reasons that are partly ethical or environmental
+water, or welfare data and would be inventing a verdict if it pretended to. People cut red and
+processed meat for the same mix of reasons — partly ethical or environmental
 rather than purely about their own health -> [[Should Adults Reduce Red and Processed Meat]]. The health
 question and the values question are separate axes, and this appraisal answers only the first. What you do with
 the second is yours, weighed against your budget and priorities.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Caveats
 
@@ -242,6 +259,8 @@ the second is yours, weighed against your budget and priorities.
 > | **Evidence included** | 5 sources — 4 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 5 source(s) below the gold evidence bar feed this page: Baranski (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Smith-Spangler (systematic review, moderate); Baudry (cohort, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-08-11 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Organic%20Food.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Organic%20Food.md) |
+
+</div>
 
 ## References

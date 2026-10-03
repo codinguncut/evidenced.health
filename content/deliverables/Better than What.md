@@ -10,7 +10,8 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-page" data-last-updated="2026-10-03"></div>
+
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
 would have taken its place. So the useful question is rarely *is butter bad for you?* but *bad
@@ -36,10 +37,6 @@ In short: choose carefully *where* to act, and settle for roughly right on *how 
 limit outlasts the rest — this page can judge only whether a well-informed advisor *would*
 frame a swap this way, never whether anyone who followed it was better off. That loop stays
 open.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Compared to what? Why an effect has no sign until the alternative is named
 
@@ -83,10 +80,6 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What is "X", exactly? Specifying the exposure before its comparator
 
@@ -160,10 +153,6 @@ comparator that is not itself junk-heavy, or does only the exclusion?
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
 A mechanism earns a *direction*, never a *magnitude*. The body is a closed loop, not an open one, so the
@@ -231,10 +220,6 @@ for a cheap, reversible choice is deferred -> [[Limits of Evidence]].
 Even a correctly-realized net effect is rarely a single number, because a substitution usually moves
 more than one outcome that matters.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## When outcomes compete: laying out the axes instead of summing them
 
 When a substitution moves more than one patient-important outcome, there is no unique optimum without
@@ -291,10 +276,6 @@ split are deferred -> [[Metrics for Targeted Health Guidance]].
 Even after you lay out the axes, each axis still carries an estimate that is a region — and a
 recommendation has to say what to actually do with a region.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## From estimate to substitution: a region and a direction, not a point
 
 In this domain the evidence structurally yields a **floor**, a **direction within the studied range**,
@@ -341,10 +322,6 @@ to Weave/ingest as residual, not a settled fabric claim.
 Once you name a region, one question remains that the region alone cannot answer: *which end* of it
 to act on.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Which end of the interval? Asymmetric loss and the conservative default
 
 Even a **perfectly symmetric** statistical interval has an **asymmetric** decision-relevant summary, and
@@ -385,8 +362,6 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
-</div>
-
 ## Caveats and boundaries
 
 - **This is an open loop.** No operation grades a decision here against a realized outcome; the wiki
@@ -414,6 +389,6 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Evidence included** | 4 sources — 4 gold |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
 
 ## References

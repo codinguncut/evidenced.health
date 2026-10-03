@@ -431,7 +431,7 @@ what actually happened to people who followed them.
 > | **Evidence included** | 18 sources — 9 gold, 8 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
 
 </div>
 

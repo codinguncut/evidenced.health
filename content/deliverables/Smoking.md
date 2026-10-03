@@ -162,6 +162,8 @@ is unambiguous added risk.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Bottom line — what to do
 
 - **If you smoke, quitting is the top priority — ahead of every diet, exercise, or sleep change.** It is
@@ -181,7 +183,9 @@ is unambiguous added risk.
 > | **Question** | What does the evidence show about smoking and patient-important outcomes — how large is the effect on mortality, life expectancy and specific diseases, how much of any excess risk cessation recovers and how that depends on the age at quitting, and what remains uncertain? |
 > | **Evidence included** | 4 sources — 2 gold, 1 high, 1 moderate |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | Core mortality/cessation evidence is gold or high tier; the e-cigarette note rests on one moderate, surrogate-only meta-analysis and is held at low confidence. |
-> | **Last updated** | 2026-09-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
+> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Skotsimara (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
+
+</div>
 
 ## References

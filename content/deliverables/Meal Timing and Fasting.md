@@ -267,6 +267,8 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## The bottom line
 
 - **Do not choose a fasting schedule for the timing.** Choose the eating pattern -- any pattern --
@@ -308,6 +310,8 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 > | **Evidence included** | 14 sources — 5 gold, 6 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak); Montani (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-09-16 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+
+</div>
 
 ## References

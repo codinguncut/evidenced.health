@@ -16,8 +16,8 @@ relationships:
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-10-04
-self_critiqued: 2026-10-04
+updated: 2026-10-05
+self_critiqued: 2026-10-05
 ---
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
@@ -80,6 +80,80 @@ in one trial near-maximal intervals gave «20.6%» vs «9.4%» for moderate cont
 
 
 [@ross2016]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-05">
+
+## Holding the effort target as you get fitter
+
+**What the target is measured against.** Heart-rate reserve (HRR) is maximum heart rate minus resting
+heart rate; a target of *x% of HRR* is resting HR plus x% of that span (the Karvonen form). Ross uses
+the term (abbreviation list: «HRR, heart rate reserve») but does not define it in the text read.
+[inferred from @ross2016]
+[searched: heart rate reserve / HR reserve across Ross chunks 01-03]
+
+**Training raises fitness without raising maximum heart rate.** Ross: «Because virtually every exercise
+training study, regardless of length or intensity, has reported no change or even a slight decline in HR
+max, increases in CRF occur primarily via increases in stroke volume, arteriovenous O2 difference, or
+both.» [@ross2016]
+
+- **Consequence — a relative target self-progresses.** If HRmax stays put while stroke volume and O2
+  extraction rise, the same heart rate is reached only at a higher absolute work rate (more watts, faster
+  pace) as fitness improves. A target fixed as a % of one's own HRR therefore asks for more absolute work
+  over time, raising the workload without a separate progression rule.
+  [inferred from @ross2016]
+- **What would confirm or refute it:** a trial logging work rate at a fixed %HRR across a training block
+  (absolute work at the target HR should rise in step with measured VO2peak), or showing that a fall in
+  resting HR or HR drift erodes the absolute load the % target implies. No held source reports this.
+  [inferred from @ross2016]
+
+**Why the target is stratified by baseline, and when a step-up is due.** Ross stratified its dose review
+because of «the significant role baseline CRF plays in the absolute intensity of the exercise regimen»
+[@ross2016] — the review bands were
+«(1) low (<9 METs); (2) intermediate (9–14 METs); and (3) high (≥15 METs)», which differ slightly from the
+recommendation bands in the table above (<10 / 10-14 / >14 METs, «The higher the baseline CRF, the more
+vigorous the intensity needed to produce a clinically significant increase in CRF»).
+[@ross2016]
+
+- **Where the relative target must be raised deliberately:** the self-progression above holds within a
+  band. The point where a person needs to raise the *relative* effort (from ≈50% HRR toward 65-85%) is
+  when they leave the <10 MET band and still want further CRF gains.
+  [inferred from @ross2016]
+- **On the mortality evidence that step-up is optional, not required.** Ross: «Most of the lower
+  mortality risk associated with a higher CRF occurs by the time a CRF of 10 to 12 METs is achieved. CRF
+  values >12 METs are associated with a relatively lower impact on risk of all-cause and CVD mortality.»
+  [@ross2016] So staying at ≈50% HRR
+  once past \~10 METs is defensible on mortality grounds rather than a failure; pushing to higher bands
+  buys diminishing mortality return. Whether ≈50% HRR *holds* CRF at that level, and what the step-up
+  does for daily function, no held source reports (see also [[Physical Activity Dose and Mortality]]).
+  [inferred from @ross2016]
+
+**Heart-rate targets on heart-rate-modulating drugs.** Of the submaximal test that estimates CRF from the
+work-rate/HR relation, Ross states: «This method cannot be applied with patients using HR-modulating
+medications (eg, β-blockers).»
+[@ross2016] — said of CRF *estimation*, not of training prescription.
+
+- **Extension to training targets:** by the same mechanism (the drug blunts the HR response to work), a
+  %HRR training target is equally unreliable for someone on a β-blocker, and effort is then gauged by
+  perceived exertion (e.g. a rating-of-perceived-exertion scale) instead.
+  [inferred from @ross2016]
+
+**Gaps (G).** Two questions bear directly on how the target is set and held; the held fabric answers
+neither. This is a gap in what the wiki holds, not a finding about the literature: no literature search
+was run for either question, so it is not known whether head-to-head trials exist, and the absence here
+is not a null result. No direction is asserted.
+
+- **(a) Measured vs age-estimated HRmax.** No held source shows whether anchoring %HRR on a measured
+  (exercise-test) HRmax rather than an age-predicted one changes training outcomes at moderate intensity.
+  Ross uses «age-predicted maximal HR» only inside the submaximal CRF-estimation method (chunk 01).
+  [inferred from @ross2016]
+- **(b) Progressing vs fixed relative intensity.** No held trial compares aerobic training that raises
+  relative intensity over time against training held at a fixed %HRR, nor shows whether CRF plateaus on
+  a fixed relative dose. Held trials include progressive protocols — HERITAGE trained at «55% to 75% of
+  maximal HR» with «session duration and intensity progressively increased approximately every 2 weeks»
+  [@ross2016] — but as a single
+  arm, not a contrast.
 
 </div>
 

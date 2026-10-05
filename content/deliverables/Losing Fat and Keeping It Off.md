@@ -28,8 +28,6 @@ Numbers here are population averages for adults with overweight or obesity; a pe
 varies widely. And a caution that runs through everything below — this fabric grades how well the
 evidence hangs together, not whether following it makes you better off. That loop stays open.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The body defends the deficit, and defends it harder the heavier you are
 
 Exercise does not subtract cleanly from the energy balance. People eat more, move less the rest of the
@@ -54,10 +52,6 @@ rehydration, so a hotter room or a sauna raises sweat without widening the defic
 of the deficit-owns-fat-loss finding above, not separate levers
 -> [[Exercise Energy Compensation]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## How you create the deficit changes where the fat comes off
 
 Two deficits of equal size do not empty the same fat. Recchia's meta-analysis compared exercise-widened
@@ -81,10 +75,6 @@ loss from a steeper deficit takes off more total weight in the window, and the w
 more muscle. But the magnitude of any *extra* lean loss attributable to speed has no gold meta-analysis
 behind it (a named gap). The durability evidence below shows why: the rate at which weight comes off
 predicts regain far less than whether the deficit is sustained at all.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## You lose lean mass too — the ratio improves while the kilograms fall
 
@@ -135,10 +125,6 @@ of body mass, though that figure is exploratory
 [@refalo2025]. The sequence matters more than the
 gram: train against resistance, eat adequate protein in a defensible range, and treat the exact gram
 as fine-tuning -> [[Protein and Resistance Training for Muscle and Strength]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What each method actually moves
 
@@ -235,10 +221,6 @@ true. Keep it modest, though: the direct evidence is a two-week surrogate in a h
 density there is tangled with eating rate and protein, and no systematic review yet ties it to a hard
 outcome -> [[Energy Density]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Keeping it off is the part that fails
 
 The trajectory is remarkably consistent across methods. Franz's synthesis of one-year-plus trials found
@@ -273,10 +255,6 @@ chronic therapy for a chronic condition, like a blood-pressure pill, rather than
 One fact matters more than any other here: **adherence is not a footnote to the effect,
 it is most of the effect** — a smaller deficit sustained beats a larger one abandoned.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Regaining some of it is not a reason to skip the attempt
 
 A common fear says the losing-and-regaining cycle is worse than staying heavy, so an obese person should
@@ -301,10 +279,6 @@ opposite population from the folk belief: lean, young, body-image-driven dieters
 reason to be dieting at all. The practical reading: pursue loss you can sustain, and treat regain as a
 maintenance problem to design against, not a reason to stay put -> [[Weight Cycling and Cardiometabolic Risk]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Matching the lever to the person
 
 The ranking is stratum-dependent, and an effective drug changes the size of the lifestyle rock rather
@@ -321,8 +295,6 @@ depot, even for a person on semaglutide. For a younger, well-muscled person with
 lean-mass worry is small and the deficit plus training is enough. For an older or sarcopenia-risk person,
 the lean-mass loss on a steep deficit is the real hazard, and training becomes non-negotiable rather than
 optional -> [[Baseline Risk and the Relative-Absolute Split]].
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-10-03">
 

@@ -10,8 +10,6 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-page" data-last-updated="2026-10-03"></div>
-
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
 would have taken its place. So the useful question is rarely *is butter bad for you?* but *bad
@@ -362,6 +360,8 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Caveats and boundaries
 
 - **This is an open loop.** No operation grades a decision here against a realized outcome; the wiki
@@ -390,5 +390,7 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+
+</div>
 
 ## References

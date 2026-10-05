@@ -68,7 +68,7 @@ Plain numbers trace to the evidence; a † marks a practical choice the evidence
 | Session | What | How long, how often | How hard, and how measured |
 |---|---|---|---|
 | **Strength A and B** | 5-6 whole-body exercises†: leg press or sit-to-stand, hip hinge, push, pull, loaded carry. **2-3 sets each** (the third set is †). Machines or free weights. | 2x/week on non-consecutive days†, about 30-40 min† | Weeks 1-8†: moderate loads, below 80% of one-repetition maximum (1RM). Then build toward **heavy, above 80% 1RM**. Gauge†: early on, a weight you could lift about 12-15 times; heavy is roughly a weight you could lift no more than about 8 times. Stop 1-2 reps short of failure†. Log the load. |
-| **Moderate aerobic** | Brisk walking, stationary cycling, rowing or water exercise: whichever you will keep doing | **About 150 min/week**, e.g. 5 x 30 min or 3 x 50 min† | **About 50% of heart-rate reserve**, on a heart-rate monitor, with maximum heart rate ideally from an exercise test; otherwise by perceived effort† |
+| **Moderate aerobic** | Brisk walking, stationary cycling, rowing or water exercise: whichever you will keep doing | **About 150 min/week**, e.g. 5 x 30 min or 3 x 50 min† | **About 50% of heart-rate reserve**: a brisk effort, breathing harder but still able to talk†. A heart-rate monitor using an age-estimated maximum is a rough check, not a requirement†. On a heart-rate-lowering drug such as a beta-blocker, go by perceived effort instead |
 | **Everyday movement** | More steps, less sitting, any intensity | Daily | Step count on a phone or tracker |
 | *Optional: intervals* | Swap one aerobic session for intervals | After 8-12 weeks† | Hard effort; not part of the minimum |
 
@@ -77,8 +77,10 @@ Plain numbers trace to the evidence; a † marks a practical choice the evidence
 1. **Weeks 1-8, build-up.** About half the aerobic minutes† and lighter loads, raised in small absolute
    steps.
 2. **Weeks \~8-24, full program.** The whole template, every week.
-3. **Month 6 onward, keep going.** Same dose; no smaller maintenance dose has been tested
-   -> [[Detraining and Residual Effects in Older Adults]].
+3. **Month 6 onward, keep going.** Same weekly minutes at the same heart-rate effort. As you get fitter,
+   that effort takes more resistance or pace, which is the progression. No smaller maintenance
+   dose has been tested -> [[Detraining and Residual Effects in Older Adults]],
+   [[Measuring and Raising Cardiorespiratory Fitness]].
 
 ## Why each piece is in the program, and what you can swap
 
@@ -91,8 +93,9 @@ steps a day in adults under 60 [@paluch2022]. Both findings
 are observational associations. -> [[Physical Activity Dose and Mortality]]
 
 **Do the aerobic work at a moderate effort; intervals are optional.** For adults below 10 METs of
-fitness, about 50% of heart-rate reserve is enough for a gain of at least 1 MET
-[@ross2016]. In the trial closest to
+fitness, about 50% of heart-rate reserve is enough for a gain of at least 1 MET; at 10-14 METs,
+65-85% is likely more effective [@ross2016],
+a step taken for more fitness, not one this program requires. In the trial closest to
 this reader, 300 adults with obesity, about 30 minutes five times a week for 24 weeks raised
 fitness by 9.4% [@ross2016].
 A pooled analysis of exercise in adults with obesity saw gains in the same direction but no statistically

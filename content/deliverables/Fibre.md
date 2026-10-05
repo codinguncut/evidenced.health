@@ -29,8 +29,6 @@ The practical upshot is simple even though the evidence is not: **eat more fibre
 whole grains, beans and lentils, fruit and vegetables -- and stop expecting a miracle from it.**
 The downsides are real but small, and mostly settled in the kitchen.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The impressive numbers come from watching eaters; the proof-grade effect is small
 
 **Fibre's largest numbers ride on its weakest design.** In prospective cohorts -- studies that
@@ -105,10 +103,6 @@ The all-cause mortality and CVD magnitudes agree with Reynolds (mortality RR 0.8
 literature re-pooled -- corroboration, not an independent second witness. **The robust core
 is mortality and cardiovascular disease; the long cancer list is weaker.**
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Which fibre you eat decides which outcome moves
 
 **The word *fibre* hides three levers, and each lands on a different outcome.** The
@@ -131,10 +125,6 @@ of the cholesterol marker. The shape depends on the endpoint you pick -- which i
 plateau seen on a surrogate must not be read across to the outcome ([[Surrogate Outcomes]])
 .
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The supplement grades better because it can be tested, not because it is better
 
 **The strongest-graded fibre evidence sits on the isolate, and that is an artifact of study design,
@@ -151,10 +141,6 @@ swapping a bowl of beans for a psyllium sachet. The food carries a mix of fibre 
 the isolate lacks, and whether added or fortified fibre matches intrinsic whole-food fibre on hard
 outcomes is unproven, not shown equivalent
 .
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Colorectal cancer is the one arm the experts still argue over
 
@@ -177,8 +163,6 @@ calls the cohort evidence strong enough to act on, a strict credibility lens cal
 one randomised test on adenoma found nothing
 .
 
-</div>
-
 ## For inflammatory bowel disease, fibre helps Crohn's but not colitis
 
 **Fibre does not act on inflammatory bowel disease as one effect -- it splits by subtype.**
@@ -198,8 +182,6 @@ changes what people can eat. So IBD-risk reduction is a *plausible additional re
 fibre-and-produce-rich diet, consistent with fibre's other benefits. And «22 g/d» is a studied
 intake category, not a validated threshold. [[Autoimmune Disease and Modifiable Risk]] carries
 the full cross-disease picture.
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Fermentable fibre is the real lever on the gut microbiome
 
@@ -222,10 +204,6 @@ while a high-fibre arm did not
 [@wastyk2021]. So fibre feeds the
 resident community rather than reliably diversifying it on a short timescale, and a composition
 shift earns belief only when followed through to an outcome ([[Gut Microbiome and Health]]).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Glycaemia, weight and transit move the right way but resist a clean number
 
@@ -274,10 +252,6 @@ And for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates 
 margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
 .
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The downsides are real, minor, and mostly settled in the kitchen
 
 **The antinutrient alarm around fibre-rich plant foods is largely mis-scaled, but the genuine
@@ -298,8 +272,6 @@ beans cause documented poisonings; a full boil defuses it. A handful of named st
 care: low iron stores and tannin timing, recurrent kidney-stone formers and oxalate load,
 marginal-iodine status and goitrogens. But these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
-
-</div>
 
 ## Thirty grams marks the edge of the data, not a biological threshold
 
@@ -328,8 +300,6 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Where this lands against official guidance
 
 **The guidance families converge on a fibre-rich diet and diverge only on how they phrase the
@@ -354,8 +324,6 @@ shared-evidence agreement, not independent corroboration
 [@esc2021] Only the cholesterol half carries a
 magnitude; the events half is associational. So a daily portion of beans or lentils moves LDL by a
 stated amount and plausibly tracks lower heart-disease risk.
-
-</div>
 
 ## The bottom line
 

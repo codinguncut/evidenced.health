@@ -13,7 +13,7 @@ sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol 
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-17
+updated: 2026-10-04
 self_critiqued: 2026-09-17
 relationships:
   related_to:
@@ -95,6 +95,8 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
+
+<div class="recent-update" data-last-updated="2026-10-04">
 
 ## Where it applies in the wiki
 
@@ -461,7 +463,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     | What the confounder manufactured | a spurious **benefit** (the protective lower arm of the J) | a spurious **harm** (the smoker-stratum increase that masks a real benefit in the pool) | both a confounder-made signal the correction targets — **yes (as a diagnostic move)** |
     | Direction of the spurious signal | **benefit** | **harm** | **no — opposite** |
     | After correction | benefit vanishes -> monotone **harm** | harm vanishes -> monotone **benefit** (0.98/cup) | **no — opposite directions** |
-    | Adjudication strength | referent-correction **+ MR** (Millwood) = decisive | referent-correction **only** (observational; Poole's MR is null) | coffee is **less** fully adjudicated |
+    | Adjudication strength | referent-correction **+ MR** (Millwood) = decisive | referent-correction **only** (observational; no held MR instrument — Poole 2017 calls for MR studies but reports none) [@poole2017] | coffee is **less** fully adjudicated |
 
     The bottom rows are the payoff: the confounder-correction does not "restore the null by killing a
     protective arm" as a rule — it removes whatever the confounder was *creating*. Smoking manufactured an
@@ -781,13 +783,15 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   plateau — no U, no harmful upper arm** at achievable doses, so the artifact machinery has no protective
   *lower* arm to defend. What the case adds to the concept is the **opposite** of the sick-quitter trap: a
   place where objective measurement *un-does* a self-report artifact rather than creating one. Self-report
-  underestimates the effect \~2-fold (Ekelund: «about twice as large» vs self-report), so the self-report
+  underestimates the effect \~2-fold (Ekelund: «about twice as large» vs self-report
+  [@ekelundacc2019]), so the self-report
   literature's flatter curves and occasional high-volume plateau are partly a *measurement* artifact —
   the same reading the CRF page reaches from objectively-measured fitness (no plateau)
   -> [[Cardiorespiratory Fitness and Mortality]], [[Physical Activity Dose and Mortality]]. **Adjudication
   is the WEAK check only:** all three sources (Ekelund 2019/2016, Paluch) address reverse causation
   (frail-move-less) by excluding early deaths, and it survives — but attenuates, and Paluch's effect is
-  stronger at <6 y follow-up (HR 0.32 vs 0.57), a sick-quitter tell. No MR/genetic instrument, so the
+  stronger at <6 y follow-up (HR 0.32 vs 0.57)
+  [@paluch2022], a sick-quitter tell. No MR/genetic instrument, so the
   monotone benefit is *not-fully-adjudicated causal* but is not purely artifact either. Not independent-E
   of the other instances (shared reverse-causation machinery, new exposure) -> type-F.
 - **Occupational physical activity -> mortality — a spurious-harm-AMPLIFIER via the healthy-worker effect,
@@ -888,6 +892,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
+
+</div>
 
 ## Corrections and revision history (dated strata)
 

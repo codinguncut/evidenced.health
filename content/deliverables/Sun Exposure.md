@@ -11,8 +11,6 @@ concrete_subject_audited: 2026-10-01
 created: 2026-09-09
 updated: 2026-10-01
 ---
-<div class="recent-page" data-last-updated="2026-10-01"></div>
-
 
 Sunburn is the exposure to avoid, and it is nearly the whole of the well-evidenced advice. UV clearly raises the risk of melanoma, and the pattern that does the damage is intermittent, intense, burning exposure on unprotected skin. Everything else about the sun is a genuine trade-off, and the evidence behind its two sides is very uneven. A randomized trial and a gold meta-analysis anchor the skin-cancer harm. The much-repeated claim that sun-seekers live longer rests on a single observational cohort of Swedish women, wide open to reverse causation. Oral vitamin D does not stand in for whatever the sun might do, because supplements do not move all-cause mortality. So the verdict is narrow and stratum-dependent: avoid burning, and beyond that, judge how much sun is worth it by your skin type and latitude.
 

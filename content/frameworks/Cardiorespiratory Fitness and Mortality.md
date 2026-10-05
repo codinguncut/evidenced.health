@@ -8,7 +8,7 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-08-14
+updated: 2026-10-05
 self_critiqued: 2026-08-06
 relationships:
   related_to:
@@ -161,6 +161,8 @@ compound to a personal promise (5 METs -> 0.87^5 \~ 0.50) for two reasons:
 
 
 
+<div class="recent-update" data-last-updated="2026-10-05">
+
 ## The causal discount - VO2max is part lever, part marker (deliverable-critique, 2026-08-01)
 
 The observational gradient is real and large, but a "healthier people are fitter" tautology inflates it as
@@ -179,5 +181,7 @@ association and the effect of raising *your own* fitness:
 Net: VO2max is *part lever, part marker*. The decision-relevant claim survives but shrinks - **escaping the
 low-fitness bottom by training helps** (a real, smaller causal benefit, concentrated at the low end) - it
 is NOT the between-person \~5x read as a personal promise.
+
+</div>
 
 ## References

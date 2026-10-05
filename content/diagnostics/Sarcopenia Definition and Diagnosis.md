@@ -2,8 +2,8 @@
 type: diagnostic
 question: How is sarcopenia defined and diagnosed in an older adult, and what should be measured — muscle mass, strength, or function?
 aliases: [Sarcopenia, EWGSOP2, Muscle Failure, Low Muscle Strength, Sarcopenia Diagnosis, Sarcopenic Obesity, F-A-C-S]
-authors: [Cruz-Jentoft, Alfonso J; Bahat, Gulistan; Bauer, Jurgen; Boirie, Yves; Bruyere, Olivier; de Santana, Felipe M; Song, Zhenzhen; Pan, Ting; Tong, Xin; Yang, Ying; Zhang, Zhijie]
-sources: [Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023]
+authors: [Cruz-Jentoft, Alfonso J; Bahat, Gulistan; Bauer, Jurgen; Boirie, Yves; Bruyere, Olivier; de Santana, Felipe M; Song, Zhenzhen; Pan, Ting; Tong, Xin; Yang, Ying; Zhang, Zhijie; Polo-Ferrero, Luis]
+sources: [Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, de Santana - Low Muscle Mass Mortality 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Polo-Ferrero - Resistance Training Sarcopenic Obesity]
 cluster: muscle
 nucleus: true
 confidence: medium
@@ -19,9 +19,10 @@ relationships:
     - Rating Outcome Importance
     - Big Rocks (Elderly)
     - Frailty
+    - Resistance Training for Sarcopenic Obesity
 created: 2026-08-04
-updated: 2026-09-01
-self_critiqued: 2026-09-01
+updated: 2026-10-04
+self_critiqued: 2026-10-04
 ---
 
 [inferred from @cruzjentoft2019]
@@ -81,6 +82,8 @@ EWGSOP2 «uses low muscle strength as the primary parameter of sarcopenia; muscl
 the most reliable measure of muscle function». Sarcopenia is *probable* on low strength alone — so
 treatment need not wait for imaging.
 
+<div class="recent-update" data-last-updated="2026-10-05">
+
 ## Tests / indicators — the F-A-C-S algorithm
 
 [@cruzjentoft2019]
@@ -96,6 +99,8 @@ treatment need not wait for imaging.
 - **Confirm** quantity — DXA or BIA in clinical care; DXA/MRI/CT in research. (Calf circumference <31 cm
   is a low-resource proxy where no instrument is available.)
 - **Severity** — gait speed (the advised measure), SPPB, TUG, or 400-m walk.
+
+</div>
 
 ## Cut-off points (EWGSOP2 Table 3)
 
@@ -117,6 +122,8 @@ healthy-young-adult reference, usually at **-2 SD** (-2.5 SD for a conservative 
 ease of use — «minor reduction in accuracy» accepted for usability. A threshold quoted here marks the
 edge of a reference distribution, not a knee in a dose-response curve.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Categories
 
 [@cruzjentoft2019]
@@ -134,6 +141,17 @@ edge of a reference distribution, not a knee in a dose-response curve.
   this article» — **EWGSOP2 sets no formal cut-off for it**. So the pages that invoke sarcopenic obesity
   ([[Menopause and the Shifting Levers]], [[Big Rocks (Elderly)]]) rest on a construct with no agreed
   operational definition (`type-G` gap).
+  - **Partial fill (Polo-Ferrero 2025).** A gold-tier RT-in-SO meta-analysis applies one operational SO
+    criterion — obesity (BF% > 30% or BMI > 30 kg/m²) **and** sarcopenia (SMI ≤ 7.76 kg/m², gait speed
+    ≤ 1 m/s, or hand grip ≤ 21 kg), per «recent expert recommendations» — and puts SO prevalence at
+    «approximately 11% of older adults globally»
+    [@poloferrero2025]. This is **a** usable
+    definition, not **the** definition: the same source states «clinical data on SO are still insufficient
+    to support a unified definition», so the `type-G` gap narrows but stands. The intervention evidence in
+    this stratum lives on [[Resistance Training for Sarcopenic Obesity]] (RT -> fat-weighted body-composition
+    + function gains; muscle-mass gain not shown).
+
+</div>
 
 ## Decision relevance
 

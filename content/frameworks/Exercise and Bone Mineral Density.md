@@ -19,8 +19,9 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Fluoride and Bone Health
     - Creatine Supplementation
+    - Stress Fracture Risk Factors in Runners
 created: 2026-08-27
-updated: 2026-09-24
+updated: 2026-10-04
 ---
 
 **The efficacy question for exercise on the bone surrogate in postmenopausal women — and the
@@ -208,6 +209,8 @@ protocols showed positive signals; and no creatine trial measured **fracture**
 [@forbes2018creatine]. Full appraisal:
 [[Creatine Supplementation]] (Bone leg).
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Decision relevance
 
 - **The exposure is worth pulling, and the fracture case is now direct.** For a postmenopausal woman,
@@ -229,5 +232,13 @@ protocols showed positive signals; and no creatine trial measured **fracture**
 - **Menopause context:** accelerated post-menopausal bone loss is one of the shifting levers
   ([[Menopause and the Shifting Levers]]); exercise is a modifiable counter-lever on the bone axis,
   weighted alongside the others there.
+- **The loading->BMD mechanism is the SAME one that inverts stress-fracture risk across strata.** The
+  mechanostat here (load raises BMD) is why a *lean* athlete can be bone-fragile despite exercising — the
+  low-energy-availability runner on [[Stress Fracture Risk Factors in Runners]] has low BMD and high
+  bone-stress risk — while a *high-mass* obese novice loads the skeleton heavily and plausibly has higher
+  BMD, shifting their binding injury constraint to soft tissue/joint rather than bone. Same mechanism,
+  opposite stratum conclusions.
+
+</div>
 
 ## References

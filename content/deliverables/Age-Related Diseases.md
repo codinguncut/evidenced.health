@@ -24,8 +24,6 @@ sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors
   ESC - CVD Prevention Guidelines 2021, Lopez-Bueno - Handgrip Strength Thresholds,
   Hoffmann - Exercise Major Osteoporotic Fractures 2022]
 ---
-<div class="recent-page" data-last-updated="2026-10-02"></div>
-
 
 ## The verdict
 

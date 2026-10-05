@@ -34,6 +34,8 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   breast cancer (RR 0.99, 0.95-1.03), overturning a case-control-driven prior and the IARC 2A *probable
   carcinogen* reading (MEDIUM confidence; a symmetric-standards counterweight)
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Cardiorespiratory fitness — marker and lever
 
 - [[Cardiorespiratory Fitness and Mortality]] — how strongly VO2max predicts mortality, whether there
@@ -44,9 +46,21 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[HIIT vs Continuous Training for Type 2 Diabetes]] — the modality choice in the T2D stratum: HIIT
   beats MICT on VO2peak (moderate certainty) but the HbA1c/weight edge is low-certainty and contested
   (a prior MA found no modality difference); HbA1c is a surrogate, no hard outcomes measured
+- [[Affective Response to High-Intensity Interval Exercise]] — does HIIT feel worse? A gold MA (Niven)
+  finds higher-intensity work is felt as less pleasant in-task than moderate continuous exercise, with no
+  post-exercise rebound — but the aversion tracks intensity, not the interval format, and the step from
+  worse feeling to worse adherence is unproven
 - [[Ketogenic Diet and Endurance Performance]] — a gold MA finds keto (K-LCHF) does not improve VO2max,
   time-to-exhaustion, HRmax or RPE in endurance athletes despite a large fat-oxidation shift (RER) — a
   surrogate-vs-outcome disconnect; the fat-adaptation performance belief is unsupported
+- [[Exercise Snacks and Cardiometabolic Health]] — brief (1-2 min) vigorous bouts spread across the day
+  raise VO2max and lower LDL-C, concentrated in the inactive; body composition does not move; evidence is
+  surrogate-only over <=12 weeks, so a floor-above-nothing entry lever, not a demonstrated substitute for
+  the full activity dose (the authors call it a complement, not a replacement)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-04">
 
 ## The economics of exertion
 
@@ -55,6 +69,16 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 - [[Exercise vs Caloric Restriction for Visceral Fat]] — at a matched weekly energy deficit, exercise
   reduces visceral fat more than diet (dose-dependent; diet's slope flat) — the exercise-vs-diet lever
   for the metabolically-active depot
+- [[Exercise Modality for Body Composition in Obesity]] — the head-to-head NMA ranking (aerobic vs
+  resistance vs combined) for adults with obesity: combined training ranks top, resistance-only worst,
+  and exercise alone barely moves weight (\~1 kg) whatever the modality — fine rankings rest on
+  non-significant differences, CRF on zero
+- [[FatMax Training for Body Composition and Cardiometabolic Health]] — "fat-burning zone" training is
+  individualised light-to-moderate aerobic, not a distinct modality; it beats no-exercise on body
+  composition and glycaemia but has no active comparator to show it beats ordinary moderate aerobic, and
+  its "optimal 2446 min" apex is an unreplicated observational U-curve, not a target
+
+</div>
 
 ## Physical activity and age-related eye disease
 

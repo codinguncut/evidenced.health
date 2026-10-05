@@ -2,13 +2,14 @@
 type: framework
 question: For knee osteoarthritis, which modifiable exposures reduce pain and preserve function, and how do they rank?
 aliases: [Knee Osteoarthritis, Osteoarthritis, Knee OA, OA Modifiable Levers, Weight Loss for Knee OA, Exercise for Osteoarthritis, Arthritis Exercise]
-authors: [Messier, Stephen P; Loeser, Richard F; Rausch Osthoff, Anne-Kathrin; Juhl, Carsten B; Niedermann, Karin]
-sources: [Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018]
+authors: [Messier, Stephen P; Loeser, Richard F; Rausch Osthoff, Anne-Kathrin; Juhl, Carsten B; Niedermann, Karin; Goh, Siew Li; Doherty, Michael; Zhang, Weiya]
+sources: [Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Goh - Exercise Therapy Knee Osteoarthritis]
 cluster: osteoarthritis
 nucleus: true
 confidence: medium
 relationships:
   related_to:
+    - Exercise Therapy for Osteoarthritis Pain and Function
     - Knee Osteoarthritis Incidence and Risk Factors
     - Does Weight Loss Reduce Cardiovascular Events
     - Ectopic Fat and Depot-Specific Risk
@@ -19,8 +20,8 @@ relationships:
     - Sarcopenia Definition and Diagnosis
     - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-08-08
-updated: 2026-08-29
-self_critiqued: 2026-08-08
+updated: 2026-10-04
+self_critiqued: 2026-10-04
 ---
 
 Nucleus of the `osteoarthritis` cluster. **Scope discipline:** this page appraises the *modifiable
@@ -32,6 +33,8 @@ diminished quality of life»; knee OA has «biomechanical and inflammatory origi
 [@messier2013idea] — and both of
 those origins are modifiable, which is what makes it in-scope.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## The lever hierarchy — weight loss and exercise are additive; flexibility is unproven
 
 [inferred from @messier2013idea; @rauschosthoff2018exercise]
@@ -42,7 +45,12 @@ generally, exercise is **safe and effective** on fitness and strength, while **f
 not an *evidenced* lever** — insufficient evidence, not a demonstrated null (below). So the ranking is:
 (1) if overweight, lose weight AND (2) exercise (aerobic + resistance) — together, not either/or; the
 evidenced components are aerobic and resistance, with flexibility work an open question rather than a
-recommended lever.
+recommended lever. **Which exercise MODE is a Layer-3 preference choice, not an efficacy choice** — no
+single mode dominates on OA symptoms -> [[Stationary Cycling for Knee Osteoarthritis]] (and low-impact
+cycling is efficacy-equivalent, so it is the safe default for the obese / deconditioned / previously-
+injured knee that cannot tolerate high-impact loading).
+
+</div>
 
 ## Weight loss + exercise for knee OA (Messier / IDEA RCT — the causal anchor)
 
@@ -106,6 +114,8 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   older adults risks weakness/falls; exercise attenuates it and %lean actually rose. So pair weight loss
   with resistance training -> [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Limits — the open loop
 
 [inferred from @messier2013idea; @rauschosthoff2018exercise]
@@ -116,14 +126,24 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
 - **Short horizons and adherence.** The EULAR MA is short-term (first post-intervention assessment);
   adherence is «one of the most compelling challenges» and declines over time — adherence is part of the
   effect, so a sustained smaller dose can beat an abandoned larger one.
-- **Surrogate vs patient-important split.** The EULAR effects are on fitness/strength surrogates, not
-  pain/function directly; the direct pain/function evidence is IDEA (single-site, which tends to larger
-  effects) and cited secondary MAs. No source here grades the levers against a realized long-term
-  disability trajectory — the loop stays open.
+- **Surrogate vs patient-important split — now partly closed by Goh.** The EULAR effects are on
+  fitness/strength surrogates, not pain/function directly; IDEA carries direct pain/function but in one
+  site and inside a weight-loss arm. The exercise half of the ranking is now anchored on direct
+  patient-important endpoints across 77 RCTs -> [[Exercise Therapy for Osteoarthritis Pain and Function]]: exercise alone vs usual care gives pain SMD 0.56 (0.44-0.68) and function 0.50
+  (0.38-0.63) at 8 weeks, and — decision-relevant here — the effect is **BMI-independent** (obese
+  subgroup 0.56 vs non-obese 0.46, P 0.78), so the exercise lever transports to the obese entry stratum
+  intact and composes with (does not compete with) the weight-loss lever. Two bounds Goh adds that this
+  page should carry: the benefit **decays to no-better-than-usual-care by 9-18 months** unless exercise
+  is sustained (adherence is the effect, and exercise lacks the structural leverage weight loss has),
+  and the hip-OA pain benefit is **unestablished** (8 trials, SMD 0.17, CI crosses 0 — this ranking is
+  knee-grounded). [@goh2019] No source here
+  grades the levers against a realized long-term disability trajectory — the loop stays open.
 - **No knee-OA prevention claim.** These are levers for *established, symptomatic* knee OA; whether they
   prevent incident OA is a separate question — appraised now at [[Knee Osteoarthritis Incidence and Risk Factors]] (route-(a) prognostic associations: obesity aOR 1.17/BMI-unit, prior injury aOR 2.67,
   occupational load; obesity + injury = 14% of radiographic-KOA risk), which finds the *same* obesity
   lever dominant for incidence as this page finds for symptoms — but observational, so preventing
   incidence by modifying it stays untested.
+
+</div>
 
 ## References

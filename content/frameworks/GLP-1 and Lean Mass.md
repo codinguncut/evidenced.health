@@ -13,13 +13,14 @@ relationships:
     - Anabolic Resistance
     - Protein and Resistance Training for Muscle and Strength
     - Protein Intake During Energy Restriction
+    - Resistance Training During Caloric Restriction
     - Protein Intake for Older Adults
     - Exercise vs Caloric Restriction for Visceral Fat
     - Sarcopenia Definition and Diagnosis
     - Surrogate Outcomes
     - Big Rocks (Elderly)
 created: 2026-08-06
-updated: 2026-08-22
+updated: 2026-10-04
 self_critiqued: 2026-08-22
 ---
 

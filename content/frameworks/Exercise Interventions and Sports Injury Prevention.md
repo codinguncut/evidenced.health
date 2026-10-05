@@ -12,9 +12,12 @@ relationships:
     - Muscle-Strengthening Activity and Mortality
     - Physical Activity Dose and Mortality
     - Exercise for Preventing Falls in Older Adults
+    - Tendon Adaptation to Mechanical Loading
+    - Training Load Progression and Running Injury
+    - Stress Fracture Risk Factors in Runners
     - Surrogate Outcomes
 created: 2026-08-25
-updated: 2026-09-03
+updated: 2026-10-04
 ---
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important, not a surrogate**:
@@ -140,6 +143,26 @@ strength arms are eccentric/sport-specific injury-prevention protocols in athlet
 hypertrophy-oriented general RT of the prescription page; reading one as the other is the
 transportability gap above.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
+## The tissue mechanism beneath the strength result
+
+[inferred from @lauersen2013injury] — Lauersen
+gives the *outcome* (strength training cuts injury, overuse injury almost halved) but not the tissue
+mechanism. [[Tendon Adaptation to Mechanical Loading]] (Bohm 2015 SR-MA) supplies a candidate: high
+magnitude loading stiffens and strengthens tendon (stiffness SMD 0.70; high-intensity 0.90 vs
+low-intensity 0.04), a plausible route by which strength-type loading builds overuse-injury tolerance.
+Two caveats keep this a mechanism, not a second line of evidence: Bohm measures tendon *surrogates*
+(stiffness, modulus, CSA), **never injury**; and Bohm also warns that **tendon adapts slower than
+muscle**, so loading ramped faster than the tendon can condition is itself an overload pathway — the
+rate-mismatch that argues for gradual progression, especially in the deconditioned. So strength
+training's injury benefit and its tendon-conditioning mechanism are consistent, but the outcome link
+stays Lauersen's and the mechanism stays Bohm's.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Decision relevance
 
 - **If the goal is preventing sport injury: do strength training, at full single-exposure dose.** It
@@ -154,5 +177,19 @@ transportability gap above.
 - **Scope the claim to active/athletic populations** — the transfer to general or older recreational
   training is unproven (an-class gap), so do not oversell "lifting prevents injury"
   as a universal.
+- **Building tolerance vs managing the ramp are distinct injury levers.** This page answers *which
+  exercise prevents injury* (build tolerance — strength training the standout). A separate decision —
+  *does ramping load too fast cause injury, and is the "10% rule" sound* — lives on
+  [[Training Load Progression and Running Injury]] (Damsted 2018 SR: insufficient evidence for the
+  causal claim, no evidence for the 10% figure). The tolerance lever here has the far stronger evidence
+  base (RCT-MA vs four heterogeneous observational studies); they are complementary, not competing.
+- **The injury *endpoint* also varies by stratum.** This MA's injuries are general sport injuries in
+  young athletes; the *bone* overuse endpoint (stress fracture) has a distinct risk-factor set and a
+  distinct population on [[Stress Fracture Risk Factors in Runners]] (Wright 2016) — only prior fracture
+  (\~5x) and female sex (\~2.3x) are supported, and that lean/often-female host profile does **not**
+  transport to the obese novice (whose binding constraint is soft-tissue/joint, where this page's
+  strength lever applies).
+
+</div>
 
 ## References

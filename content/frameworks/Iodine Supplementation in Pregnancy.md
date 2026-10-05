@@ -7,7 +7,7 @@ question: "Should a woman take iodine before, during, or after pregnancy — and
 cluster: deficiency-enhancement
 confidence: low
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-04
 self_critiqued: 2026-09-17
 relationships:
   related_to: [Excess Iodine Intake and Thyroid Disease]
@@ -74,6 +74,8 @@ read *across* trials (severe-setting trials positive, mild-setting trial null), 
 subgroup contrast. Route-(a)/(b) caveat: this is suggestive effect-modification by baseline status,
 but it rests on between-trial comparison, not a powered interaction test.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## How this refines the held iodine evidence (Bougma 2013) — a type-F advance, NOT independent corroboration
 
 The wiki already holds Bougma 2013 (iodine -> child mental development; the held instance is on
@@ -90,9 +92,9 @@ The parameter table (built before any prose comparison, per the cross-source rul
 |---|---|---|---|
 | Evidence base | RCT / quasi-RCT only | 2 RCT + 8 non-RCT trials + 13 prospective cohorts | **NO** — RCT-restricted subset vs observational-inclusive |
 | Child IQ, severe deficiency, RCT-grade | MD **+11.21** points (7.96-14.46), 2 trials, 174 children | RCT-only pooled **d=0.68 (\~+10.2 IQ)** | **\~YES** — both severe-deficiency RCT estimates; converge \~+10-11 IQ, overlapping trials |
-| Child IQ, all designs pooled | not computed (RCT-restricted) | **d=0.49 = +7.4 IQ** (range 6.9-10.2) | **NO** — Bougma includes observational; Harding excludes it |
+| Child IQ, all designs pooled | not computed (RCT-restricted) | **d=0.49 = +7.4 IQ** (range 6.9-10.2) [@bougma2013] | **NO** — Bougma includes observational; Harding excludes it |
 | Child IQ, mild-moderate deficiency | **null** (Zhou 2015, oral) | not isolated (has timing window: early d=0.51 vs late 0.17) | **NO** — Harding adds a mild-deficiency null Bougma lacks |
-| Overall verdict on child development | «mixed» / insufficient for routine | «positive impact ... regardless as to the study design» | These ARE the divergence — see below |
+| Overall verdict on child development | «mixed» / insufficient for routine | «regardless of study design, iodine deficiency had a substantial impact on mental development» [@bougma2013] | These ARE the divergence — see below |
 
 **The divergence is a design artifact, adjudicated by the source itself — not a tension to file.**
 Harding names the gap and its cause: «Findings showed a positive impact of iodine, regardless as to
@@ -110,6 +112,8 @@ discards. This is scope-mismatch (not-joined check (ii)), a **distinction, not a
 the RCT-grade, severe-deficiency benefit is real and \~+11 IQ, but the broad estimate is inflated by
 observational designs, and in **mild-moderate** deficiency the randomized evidence is null-to-thin.
 The composite is the deficiency-repletion shape, not a universal enhancement.
+
+</div>
 
 ## Supplementation is also a route to iodine EXCESS in pregnancy
 

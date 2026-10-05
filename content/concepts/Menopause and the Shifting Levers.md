@@ -2,8 +2,8 @@
 type: concept
 question: How do the modifiable-exposure levers and risks shift across the menopause transition, and what actually changes versus what merely tracks aging?
 aliases: [Menopause Body Composition, Menopause Visceral Fat, Menopause as a Stratum, Perimenopause Levers, Menopause Cardiometabolic and Bone, Fat Redistribution Menopause]
-authors: [Ambikairajah, Ananthan; Walsh, Erin; Tabatabaei-Jafari, Hossein; Cherbuin, Nicolas; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org); Cruz-Jentoft, Alfonso J]
-sources: [Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019]
+authors: [Ambikairajah, Ananthan; Walsh, Erin; Tabatabaei-Jafari, Hossein; Cherbuin, Nicolas; 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (org); Cruz-Jentoft, Alfonso J; Khalafi, Mousa]
+sources: [Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, NAMS - Hormone Therapy Position Statement 2022, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Khalafi - Exercise Type CRF Postmenopausal]
 cluster: sex-hormones
 nucleus: true
 confidence: medium
@@ -19,9 +19,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Upgrading Observational Evidence
     - Fluoride and Bone Health
+    - Measuring and Raising Cardiorespiratory Fitness
 created: 2026-08-01
-updated: 2026-09-26
-self_critiqued: 2026-09-26
+updated: 2026-10-04
+self_critiqued: 2026-10-04
 ---
 
 Menopause is a **life-stage stratum**, not a disease and not a fringe topic: it changes *which levers
@@ -111,6 +112,8 @@ exposure side). So a normal BMI does not clear a menopausal woman of central-adi
 waist.
 
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Limb 3 — the levers that respond (and the one that does not)
 
 [inferred from @ambikairajah2019; @nams2022]
@@ -126,12 +129,27 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   «possible» claim, not an established one), it moves fat toward the compartment that carries the risk, and
   the waist stays the right thing to measure precisely *as that marker*, a step removed from the fat doing
   the damage.
+- **Cardiorespiratory fitness** -> exercise, and the modality barely matters. CRF declines accelerate
+  across the menopause transition, and in this exact stratum a gold MA (Khalafi 2023, 129 RCTs, 7,141
+  post-menopausal women) finds exercise raises CRF with a large effect regardless of mode: «any mode of
+  exercise, including aerobic, resistance, or combined training is effective in improving the CRF in
+  post-menopausal women.» [@khalafi2023] The full
+  stratum effect sizes, the low-stakes modality decision, and the SMD/surrogate caveats live on
+  [[Measuring and Raising Cardiorespiratory Fitness]]; CRF is a mortality predictor in women
+  ([[Cardiorespiratory Fitness and Mortality]]) but Khalafi measures only exercise->CRF, so the
+  outcome link is cited, not shown here.
 - **Lean-mass / sarcopenia** -> resistance training + adequate protein. Critically, HRT is **not** the
   muscle lever: «Systematic reviews find that hormone therapy had neither a beneficial nor harmful
   association with muscle mass ...; therefore, it is likely that interventions other than hormone therapy
   will have to be developed to aid in the retention of muscle in aging women.»
   [@nams2022]
-  -> [[Protein and Resistance Training for Muscle and Strength]]. **Two guards on the popular "1.6-2.0 g/kg
+  -> [[Protein and Resistance Training for Muscle and Strength]]. **Khalafi quantifies the strength lever
+  in this stratum and sharpens the specificity:** resistance training is the *only* exercise type that
+  raised upper-body strength (SMD 1.20); aerobic and combined raised lower-body strength but weakly
+  (aerobic SMD 0.49, combined 0.61, vs resistance 1.28); and handgrip rose with resistance (WMD 1.72 kg)
+  or combined (1.82 kg) but **not aerobic** [@khalafi2023].
+  So aerobic work is not a substitute for lifting when strength is the target — it corroborates "RT is
+  the muscle/strength lever, not HRT, not cardio." **Two guards on the popular "1.6-2.0 g/kg
   + lifting" prescription for this stratum.** First, **the target is a region, not a point** — Morton's
   break point is «1.62 (1.03, 2.20)» g/kg/day, a wide CI on a knee whose biphasic fit is itself
   non-significant (p=0.079) — its *existence* rests on the acute-MPS mechanism, not on a statistically
@@ -159,6 +177,7 @@ The stratum-specific changes map onto levers the wiki already holds — this is 
   the fat-mass MA's HRT subgroup shows lower trunk fat but no prevention of overall gain (observational
   subgroup — a body-line, not a headline).
 
+</div>
 
 ## Synthesis — the sex-symmetry with testosterone (type-A)
 

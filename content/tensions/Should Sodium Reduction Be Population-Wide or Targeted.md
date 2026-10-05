@@ -15,7 +15,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-10-04
 self_critiqued: 2026-08-27
 ---
 
@@ -28,14 +28,19 @@ joined issue. It does **not** resolve — the deciding check exists on neither s
 seeing that the two literatures partly **measure different things over different ranges**, so the raw
 clash overstates the real disagreement while the policy conclusions genuinely conflict.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Both positions in their own terms
 
 - **Population-wide (WHO 2012 + He/MacGregor + Cochrane lineage).** Sodium -> BP is a **high-certainty,
   roughly linear** dose-response with no plateau in the studied range; WHO transfers that surrogate
   evidence one certainty level down to hard outcomes (Annex 8) and issues a **strong** recommendation to
-  reduce to <2 g/day for everyone. The observed low-sodium-harm signal is read as **artifact** — He 2013
-  attributes it to measurement error, confounding, and reverse causality, and Huang 2020 to «biased
-  estimation of sodium intake» -> [[Sodium Intake and Blood Pressure]].
+  reduce to <2 g/day for everyone [@who2012]. The observed
+  low-sodium-harm signal is read as **artifact** — He 2013
+  attributes it to measurement error, confounding, and reverse causality
+  [@he2013], and Huang 2020 to «biased
+  estimation of sodium intake» [@huang2020]
+  -> [[Sodium Intake and Blood Pressure]].
 - **Targeted (PURE / Mente 2016).** In a pooled analysis of 133,118 people from 49 countries (three
   cohorts; \~10,000 events; median 4.2 y), the sodium -> hard-outcome curve is **J-shaped**: risk lowest
   at 4-5 g/day and **higher at both <3 g/day and >7 g/day**, with the *high*-intake harm **confined to
@@ -43,6 +48,8 @@ clash overstates the real disagreement while the policy conclusions genuinely co
   intake — only \~10% of the studied population had **both** hypertension and >6 g/day intake — and
   argues against a population-wide approach except in very-high-intake regions.
   [@mente2016pure]
+
+</div>
 
 ## Parameter table — is this the same quantity? (op-weave 2a)
 

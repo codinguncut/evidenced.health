@@ -12,8 +12,9 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - Does Weight Loss Reduce Cardiovascular Events
     - Exercise vs Caloric Restriction for Visceral Fat
+    - FatMax Training for Body Composition and Cardiometabolic Health
 created: 2026-07-29
-updated: 2026-09-25
+updated: 2026-10-04
 self_critiqued: 2026-08-08
 ---
 
@@ -222,6 +223,8 @@ energy deficit, not by the exercise session itself**, yet the fabric stated neit
   the dual test.
 
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Reading "18% ± 93%" - it is a standard deviation, not a range (deliverable-critique, 2026-08-01)
 
 The «± 93%» is the **dispersion (SD), not a 7-34% interval** - and it is the actual finding. A mean of 18%
@@ -234,5 +237,22 @@ The estimate also **pools across energy-balance states and durations**, which th
 compensation rises with duration («approached 84%» at \~80 weeks), consistent with the intuition that a
 sustained deficit recruits a stronger compensatory (survival) response - so deficit-vs-maintenance-vs-
 surplus plausibly shifts it, and the pooled 18% hides that.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-04">
+
+## Cross-reference: compensation as the descending arm of the FATmax dose-response (2026-10-04)
+
+A FATmax-training meta-analysis (Jiang 2026) found a U-shaped volume-response for body composition, and
+attributes the *descending* (high-volume) arm — where more training stops helping — to energy
+compensation plus hormonal/overtraining responses -> [[FatMax Training for Body Composition and Cardiometabolic Health]]. This is **directionally consistent** with the compensation picture here
+(compensation rises with sustained volume/duration), but it is weak corroboration, not independent
+backing: Jiang's U-curve is observational, its extremes are driven by a few research groups, and the
+authors themselves flag it as needing independent replication. So it is a mechanistic echo of this
+page's held finding, not a second measurement of it.
+[inferred from @jiang2026]
+
+</div>
 
 ## References

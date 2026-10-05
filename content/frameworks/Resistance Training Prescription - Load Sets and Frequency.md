@@ -16,8 +16,10 @@ relationships:
     - Low Muscle Mass and Mortality
     - Sarcopenia Definition and Diagnosis
     - Blood Flow Restriction Training
+    - Detraining and Residual Effects in Older Adults
+    - Supervised vs Unsupervised Exercise
 created: 2026-08-06
-updated: 2026-09-25
+updated: 2026-10-04
 self_critiqued: 2026-09-10
 ---
 
@@ -92,6 +94,8 @@ or novelty as the dose signal.
 
 
 [@currier2023]
+<div class="recent-update" data-last-updated="2026-10-05">
+
 ## Minimal effective dose — a floor, not a located knee
 
 - «There was a 95% probability that RT with at least two sets or two sessions per week increased
@@ -115,6 +119,17 @@ read the \~2 sets / \~2x per week as a floor, not an optimum.
 
 
 [@currier2023]
+
+**The retention corollary — the floor holds through a layoff.** The MED above is an *acquisition* floor;
+there is also a *retention* side. In older adults, functional-capacity gains from a completed resistance
+or multicomponent program persist at a medium effect over never-trained controls through a 1-2 month
+training cessation (ES = 0.88 [0.47-1.29]), and the residual does not depend on modality or intensity —
+but its decay time-course and any *reduced maintenance dose* are unestimated. So a forced break does not
+reset the prescription clock; see [[Detraining and Residual Effects in Older Adults]] for the retention
+half of the dose question and the maintenance-floor gap. [inferred from @buendiaromero2025]
+
+</div>
+
 ## Effect modifiers — mostly absent (route-b is quiet here)
 
 Network meta-regression found **no** obvious modifying effect on relative RTx effects from age, training
@@ -258,6 +273,8 @@ unblindable primaries, same design ceiling as Currier.
 [@roberts2020sex]
 
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## The surrogate → outcome boundary — the load-bearing honesty
 
 Strength and muscle size are **surrogates** ([[Surrogate Outcomes]]), and Currier is unusually explicit
@@ -278,6 +295,14 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   injury-prevention* protocols in young athletes, NOT the hypertrophy-oriented general RT this page
   prescribes — so the transfer to a recreational/older gym trainer is a transportability gap, not a
   settled property of "RT". [inferred from @lauersen2013injury]
+- **The tissue layer this page is silent on — tendon, which adapts on its OWN schedule.** This page's
+  prescriptions target *muscle*; [[Tendon Adaptation to Mechanical Loading]] shows the connective-tissue
+  parallel and a divergence. Parallel: load **magnitude** is the driver of tendon stiffening too, and
+  contraction *type* is irrelevant — the same *load is the lever* logic. Divergence: **tendon adapts
+  slower than muscle**, so a dose that builds muscle fast can outrun tendon conditioning — the rate
+  mismatch that motivates gradual load progression, mattering most for the deconditioned/obese novice
+  this page's dose might otherwise overload. Tendon outcomes there are surrogates, not injury.
+ (the wiki's cross-page synthesis; the tendon figures and their source are on the linked page)
 - **Hypertrophy → weakest transmission.** Low muscle *mass* predicts mortality
   ([[Low Muscle Mass and Mortality]]), but that raising size via training lowers mortality is unproven —
   hypertrophy is largely a surrogate for a surrogate. **Do not read the 0.66 hypertrophy SMD as a health
@@ -291,6 +316,8 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   higher per-meal protein target ([[Protein Intake for Older Adults]]: \~1.2 g/kg/day for the active
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
+
+</div>
 
 ## Decision relevance
 

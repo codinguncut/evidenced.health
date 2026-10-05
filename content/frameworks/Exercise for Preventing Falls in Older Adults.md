@@ -19,8 +19,9 @@ relationships:
     - Exercise Safety in Osteoporosis
     - Exercise and Bone Mineral Density
     - Rating Outcome Importance
+    - Aquatic Exercise vs Land-Based Exercise for Balance in Older Adults
 created: 2026-08-05
-updated: 2026-09-09
+updated: 2026-10-04
 self_critiqued: 2026-09-09
 ---
 
@@ -162,6 +163,8 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
 (a prescriber act needing this person's status).
 [inferred from @kahwati2018; @sherrington2019]
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Who, and how much — the stratification
 
 - **Route (a), stated by the source:** the *relative* effect does not vary by baseline fall-risk, age
@@ -176,6 +179,10 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
   trained non-health instructor — though a health professional gave a somewhat larger effect (RaR 0.69
   vs 0.82, P=0.04) [@sherrington2019]. This widens
   implementable options (home, group class, supervised).
+  - **Venue/modality is also flexible: the balance work can be done in water.** For the joint-limited or
+    weight-bearing-painful older adult who cannot train well on land, aquatic exercise is a roughly
+    equivalent modality for balance (a possible small overall-balance edge, otherwise a wash) and a
+    safer, lower-pain way to get the dose in -> [[Aquatic Exercise vs Land-Based Exercise for Balance in Older Adults]].
 - **Dose/duration:** a sustained habit, not a course — most programmes ran 12 weeks or more and nearly a
   third lasted a year or more; head-to-head data were too underpowered to set an optimal dose, but
   higher-challenge, higher-dose balance work trended better
@@ -183,6 +190,8 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
 - **Harms:** where reported, predominantly non-serious musculoskeletal; 2 serious events across all 108
   trials (a pelvic stress fracture and a hernia). Adverse-event monitoring was poor (very low certainty),
   but nothing signals net harm — the intervention is low-risk relative to a large benefit.
+
+</div>
 
 ## Ranking the intervention TYPES against each other — the NMA verdict (Pillay 2024)
 

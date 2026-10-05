@@ -18,8 +18,9 @@ relationships:
     - Surrogate Outcomes
     - Frailty
     - Grip Strength and Mortality
+    - Detraining and Residual Effects in Older Adults
 created: 2026-09-08
-updated: 2026-09-09
+updated: 2026-10-04
 self_critiqued: 2026-09-09
 ---
 
@@ -183,6 +184,8 @@ follow-up, which the authors explicitly call for («a direct outcome measure of 
 (post-intervention fall history)»). [inferred from @elhadouchi2022; @jimenezlupion2023]
 
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Intersections — how this refines the held exercise pages
 
 - **It refines *resistance training alone does not reduce falls*.**
@@ -205,11 +208,19 @@ follow-up, which the authors explicitly call for («a direct outcome measure of 
   *strength vs hypertrophy surrogates* in general adults; this page optimizes *training mode* for
   *function* in *older adults*. Complementary decisions, not the same one — which is why this is its own
   nucleus rather than a facet there. [inferred from @elhadouchi2022]
+- **The function gains survive a layoff — mode-agnostically.** Whatever the older adult built,
+  [[Detraining and Residual Effects in Older Adults]] shows functional-capacity adaptations persist at a
+  medium effect over control through a 1-2 month training cessation, and the residual does not differ by
+  modality or intensity (so a velocity-emphasis gain is retained like any other). Older age attenuates the
+  residual, so the oldest-old pay most for a break. The decay time-course and a reduced maintenance dose
+  are unestimated — build the adaptation, then do not assume a stop erases it.
+  [inferred from @elhadouchi2022; @buendiaromero2025]
 - **Mechanistic complement to the protein lever.** The older-adult stratum's blunted anabolic response
   ([[Anabolic Resistance]]) and higher per-meal protein target ([[Protein Intake for Older Adults]]) are
   the nutritional side of defending function; power training is the non-nutritional side, and both act on
   the same fast-twitch-fibre / neuromuscular substrate.
 
+</div>
 
 ## Decision relevance
 

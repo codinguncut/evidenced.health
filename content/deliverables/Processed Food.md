@@ -12,7 +12,6 @@ created: 2026-08-01
 updated: 2026-10-02
 self_critiqued: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
 
 "Processed" is not one exposure but a dozen. A food's matrix can be broken open, additives
 mixed in, a grain stripped and refined, calories packed denser, a recipe tuned for palatability, a
@@ -44,10 +43,6 @@ category carrying an evidenced, if modest, harm. And against the big rocks — s
 inactivity — none of this is one; if those are unaddressed, no processing precision changes the next
 move.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Split "processed" before you judge it
 
 **Before you can judge a processed food, you have to say which sense of "processed" you mean.** The word
@@ -77,10 +72,6 @@ is null on hard outcomes [@sacn2015]. You cannot tell which case
 you are in without splitting. The first
 question the split raises is the sharpest one: does the ultra-processed label carry any causal work of
 its own, beyond the sugar, salt, fat and energy density it travels with?
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The category average is real, but confounded and low-certainty
 
@@ -124,10 +115,6 @@ does not close the gap. Adjusting for a pattern is not the same as matching the 
 profile that makes a food ultra-processed and nutrient-poor at once. [@lane2024upf] An association this confounded needs a design that holds composition fixed
 — and the newest outcome arm, cognition, shows just how much of the association the confounding can swallow.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Dementia and cognition: the signal thins on adjustment
 
 **Add dementia to the outcome list and it behaves the way this whole decomposition predicts — real at
@@ -165,8 +152,6 @@ replaces* the food, not the label. [@smith2025upf]
 Feeding trials to a dementia endpoint are ethically impossible, so this arm stays observational by design.
 Intake is the one outcome where a composition-fixed design does exist — and there, processing does move
 the needle.
-
-</div>
 
 ## Processing does move how much you eat — through levers you can name
 
@@ -210,8 +195,6 @@ small, short, unblindable trial with **no confirmatory second feeding study**.
 
 If the effect runs through nameable properties, the next question is what the "ultra-processed" label
 adds once those properties are priced — and whether the guideline bodies think it adds anything at all.
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Price the components and the label mostly dissolves
 
@@ -257,8 +240,6 @@ properties, not the label** a shopper cannot reliably apply.
 
 The sharpest test of whether a processing-linked property is its own lever is a construct built to
 isolate the one Hall could not — the reward property, hyper-palatability.
-
-</div>
 
 ## Hyper-palatability is a real, measurable property — but not yet a proven lever
 
@@ -314,8 +295,6 @@ lever, and it cannot yet enter the intervention ranking.
 HPF asks what the *food* is. A sibling literature asks what the *eater* does — and here the intake
 evidence has actually located a channel.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Rate, not reward, is where the intake evidence lands
 
 When processing drives over-eating, the demonstrated route is how **fast** a food is eaten, not how much
@@ -368,10 +347,6 @@ distinct from ordinary over-consumption, so no decision turns on it beyond the o
 covered. [inferred from @pursey2014foodaddiction; @schulte2015addictive]
 
 The remaining aspects — additives and contaminants — are where mechanism runs ahead of human outcome data.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Additives and contaminants: mechanism outruns outcomes
 
@@ -440,8 +415,6 @@ state — insufficient evidence, per compound — and the precautionary weightin
 unresolved-but-plausible signal belongs to the person at layer 3, not to the appraisal.
 Which raises the question the additives cannot answer: is there a whole-food *category* that carries
 an evidenced hard-outcome effect? One does.
-
-</div>
 
 ## Processed meat is the one category with an evidenced harm
 

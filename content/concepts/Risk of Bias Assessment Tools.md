@@ -8,7 +8,7 @@ cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-08-08
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-10-04
 relationships:
   related_to:
     - Certainty of Evidence vs Strength of Recommendation
@@ -19,9 +19,11 @@ relationships:
     - Which Objective Moved This Recommendation
     - Measurement Error in Dietary Assessment
 ---
+<div class="recent-update" data-last-updated="2026-10-04">
 
 The fabric invokes *risk of bias* everywhere — it is one of GRADE's five downgrade domains
-([[Rating Certainty of Evidence]]) — but GRADE leaves the term **unspecified as a procedure**. Cochrane
+[@grade] ([[Rating Certainty of Evidence]]) — but GRADE leaves the
+term **unspecified as a procedure**. Cochrane
 supplies the operational instruments: **RoB 2** for randomized trials and **ROBINS-I** for
 non-randomized (observational) studies. This page owns the toolset.
 
@@ -37,6 +39,8 @@ but «it is more appropriate to consider whether a result is at risk of bias rat
 certainty that it is biased». [@cochranehandbook2024]
 Modern tools deliberately isolate *bias* (internal validity) from precision, reporting quality, and
 external validity — the last is [[Indirectness of Evidence]], kept separate on purpose.
+
+</div>
 
 ## RoB 2 — the five domains for a randomized trial
 

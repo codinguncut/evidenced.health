@@ -8,6 +8,7 @@ cluster: muscle
 confidence: medium
 relationships:
   related_to:
+    - Resistance Training During Caloric Restriction
     - Protein and Resistance Training for Muscle and Strength
     - The Underivable Optimum
     - GLP-1 and Lean Mass
@@ -18,7 +19,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-08-07
-updated: 2026-08-27
+updated: 2026-10-04
 self_critiqued: 2026-08-21
 ---
 
@@ -327,6 +328,8 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
 - **Modest dose contrast** — the demonstrated benefit lands at \~1.0-1.5 vs \~0.6-1.0 g/kg/d, so like
   Wycherley it does not speak to whether pushing toward Refalo's \~1.9 g/kg buys more in this population.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Decision relevance
 
 - **Cutting athlete / dieter who must protect lean mass (nonobese, resistance-trained):** aim \~1.9
@@ -335,7 +338,10 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
   This is above the \~1.6 energy-balance target — the deficit raises the requirement.
 - **The RT stimulus and a modest deficit come FIRST.** A well-programmed resistance-training stimulus and
   a \~modest (not \~500 kcal-plus) deficit do more for FFM retention than the protein dial. Do not let the
-  protein number substitute for the training.
+  protein number substitute for the training. The RT lever is quantified for the obese-elderly dieter on
+  [[Resistance Training During Caloric Restriction]] (RT preserves \~0.82 kg lean mass under CR, RMD 0.819
+  kg [0.364-1.273]) — and the one pooled higher-protein trial there preserved more LBM still (RMD 1.3 vs
+  0.6 kg), so RT and protein stack as complementary levers for the same decision.
 - **Sedentary overweight/obese dieter (no training) [@wycherley2012]:** raising protein from \~0.8 to \~1.2-1.3 g/kg/d
   within an isocaloric low-fat deficit still buys a small FFM/FM benefit (FFM +0.43 kg, FM -0.87 kg,
   weight -0.79 kg) — the direction holds even without resistance training, though the magnitude is
@@ -366,5 +372,7 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
   MAs (Wycherley, Kim) show benefit at a LOWER achieved dose (\~1.0-1.25 g/kg). Treat as a well-reasoned
   prior for practice, revisable on controlled higher-vs-lower RCTs powered on function — including the
   sarcopenic-obesity RCT Kim names as unstudied.
+
+</div>
 
 ## References

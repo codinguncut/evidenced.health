@@ -2,8 +2,8 @@
 type: framework
 question: For reducing visceral fat specifically, is exercise or caloric restriction the more effective lever at a matched weekly energy deficit?
 aliases: [Visceral Fat Exercise vs Diet, Visceral Adiposity Intervention, Preferential Visceral Fat Loss, Exercise vs Diet for Belly Fat, Visceral Adipose Tissue Reduction, Deficit-Matched Exercise vs Caloric Restriction]
-authors: [Recchia, Francesco; Leung, Chit K; Yu, Angus P; Siu, Parco M]
-sources: [Recchia - Exercise Caloric Restriction Visceral Adiposity 2023]
+authors: [Recchia, Francesco; Leung, Chit K; Yu, Angus P; Siu, Parco M; O'Donoghue, Grainne]
+sources: [Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, ODonoghue - Exercise Prescription Body Composition]
 cluster: weight-management
 confidence: low
 relationships:
@@ -17,8 +17,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - GLP-1 and Lean Mass
 created: 2026-08-06
-updated: 2026-08-06
-self_critiqued: 2026-08-06
+updated: 2026-10-04
+self_critiqued: 2026-10-04
 ---
 
 **The decision.** Overweight/obese guidelines bundle exercise and caloric restriction as interchangeable
@@ -144,6 +144,8 @@ the smaller number of studies available for analysis, compared with exercise stu
 [@recchia2023] (16 vs 46 effects).
 Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Decision relevance
 
 - **If visceral fat / cardiometabolic risk is the target, weight the deficit toward exercise.** Per unit
@@ -153,6 +155,17 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 - **Combine, don't choose — additively.** The interventions act through partly different tissue mechanisms
   (fat-selective mobilization vs whole-body deficit), so the plausible posture is additive: use exercise
   for the visceral/muscle-sparing edge and diet for deficit magnitude.
+- **A second gold source confirms exercise is a weak *weight* lever — and names the modality for WC.**
+  O'Donoghue 2021, an independent NMA (45 RCTs, 3566 adults with obesity; different authors and dataset
+  from Recchia), found exercise-alone weight loss «minimal, with mean values ranging from −0.05 to −1.01
+  kg» across *every* modality, concluding «for weight loss, exercise alone is not an effective therapy, a
+  hypocaloric balance is necessary» [@odonoghue2020] `[E-independent]`. This corroborates the weight-vs-depot split above by a separate route. It also
+  adds the modality layer Recchia's visceral analysis lacked (Recchia found no modality moderator): for
+  **waist circumference**, O'Donoghue ranks aerobic-containing programmes above resistance-only (best
+  COM-LM −2.76 cm [−4.52, −1.00], AE-M −2.31, AE-V −2.03; resistance-only non-significant) — WC figures in
+  the same ballpark as Recchia's exercise −3.15 cm. The two are compatible, not a tension: both find weak
+  fine-modality separation, and the one robust split (include an aerobic component) is not something
+  Recchia tested against. Full ranking: [[Exercise Modality for Body Composition in Obesity]].
 - **Magnitudes are small.** Recchia calls the exercise effect small (below); this is a *refinement* lever
   in a stratum where the big rock (overall adiposity, inactivity) is already being addressed — rank it by
   effect × certainty, not by how much belly-fat content is marketed ([[Layer 1 - Ranking Interventions for a Stratum]]).
@@ -161,6 +174,8 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
   person's history.
 
 [inferred from @recchia2023]
+
+</div>
 
 ## Limits
 
@@ -178,6 +193,8 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
   compensation and the surrogate warning are the wiki's weave, not independent replication of the
   head-to-head itself.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Self-critique `[run 2026-08-06, before commit]`
 
 - **Surrogate-as-outcome guard:** the visceral-fat ES is explicitly held as a mediator, not a patient
@@ -193,5 +210,20 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
   Recchia's own pool; the "superior" verdict is quoted with its hedge («might be more suitable»).
 - **Overclaim guard:** the CR null dose-response is flagged as a likely power artifact (16 vs 46), not
   asserted as "diet dose is irrelevant"; the effect is repeatedly called small.
+
+### Self-critique addendum `[run 2026-10-04 — O'Donoghue reweave]`
+- **E-independence verified before tagging `[E-independent]`:** O'Donoghue 2021 and Recchia 2023 share no
+  authors (O'Donoghue/Blake/Cunningham/Lennon/Perrotta vs Recchia/Leung/Yu/Siu), use different datasets
+  (45-RCT obesity modality NMA vs 40-RCT deficit-matched exercise-vs-CR MA), and O'Donoghue predates
+  Recchia so neither cites the other as antecedent — a genuine independent route to "exercise alone is a
+  weak weight lever," not a laundered re-pooling `[E-independent]`.
+- **Fake-tension guard (modality):** Recchia found no modality moderator for *visceral fat*; O'Donoghue
+  ranks modalities for *WC* (aerobic-containing > resistance-only). Filed as a compatible distinction
+  (different outcomes; both find weak fine separation), not a tension — Recchia did not test the aerobic-vs-
+  resistance split O'Donoghue reports.
+- **Scope guard:** O'Donoghue's WC figures and the modality ranking carry their CIs and the stratum
+  (adults with obesity); the full ranking is kept on its own page, not duplicated here.
+
+</div>
 
 ## References

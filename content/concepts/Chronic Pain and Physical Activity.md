@@ -10,13 +10,14 @@ confidence: low
 relationships:
   related_to:
     - Knee Osteoarthritis and Modifiable Levers
+    - Exercise Therapy for Osteoarthritis Pain and Function
     - Exercise for Preventing Falls in Older Adults
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
     - Physical Activity Dose and Mortality
     - Massage Therapy for Pain and Function
 created: 2026-08-08
-updated: 2026-08-28
+updated: 2026-10-04
 self_critiqued: 2026-08-08
 ---
 

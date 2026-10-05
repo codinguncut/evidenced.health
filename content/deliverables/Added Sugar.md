@@ -10,8 +10,6 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-page" data-last-updated="2026-10-03"></div>
-
 
 ## Cut the sugary drink, not the sugar molecule
 
@@ -651,6 +649,8 @@ guidance body found a safe threshold, the numbers below 5% rest on the thinnest 
 that a calorie-for-calorie swap cannot erase is narrow — caries and urate — not a general property of
 the sugar molecule.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Caveats
 
 - **The loop is open.** This appraises the published evidence for coherence and fidelity to its sources;
@@ -673,5 +673,7 @@ the sugar molecule.
 > | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Sutton (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Added%20Sugar.md) |
+
+</div>
 
 ## References

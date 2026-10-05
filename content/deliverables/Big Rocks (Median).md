@@ -20,8 +20,6 @@ concrete_subject_audited: 2026-10-02
 > the specifics here may not transfer — mind the conditionality flags, and the population-level picture
 > can differ.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Who this is for
 
 Picture a representative Western adult in their late 40s (roughly 45-50), sitting around
@@ -31,10 +29,6 @@ raised resting heart rate, drifting toward metabolic syndrome and fatty liver. *
 diseased.** This is a stratum, not a person and not everyone. About 40% of the people this description is
 built around differ from it, and the leaner, metabolically-healthier minority need the conditionality
 flags below, not this exact list.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The finding, stated first
 
@@ -82,10 +76,6 @@ flavonoid estimate simply re-expresses the same fruit-and-vegetable signal in co
 second independent one. Both plausibly run through the vascular and metabolic channels the big rocks
 already pull, so a better diet is a *route* to those rocks, not a fifteenth separate thing to do.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## How the levers are sorted
 
 Every lever below falls into one of three buckets, by what the
@@ -105,10 +95,6 @@ sit above their own storage threshold, not in kilograms. One honest limit remain
 rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is reasoning from mechanism
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## (a) Robust big rocks — lead here
 
@@ -325,10 +311,6 @@ effects in this domain are settled and few; the long tail of refinements shares 
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## (b) Stratum-dependent — conditional on metabolic status
 
 ### Reduce sodium — most useful if your blood pressure is already drifting up
@@ -388,10 +370,6 @@ First-line metformin marks earlier, healthier disease; secretagogues mark later,
 part of the gap is disease stage, not the pill acting on the brain. This is a drug-versus-drug refinement
 for a prescriber, not a lever that resizes the weight rock, and not one most of this stratum needs.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## (c) Over-published, small, or contested — do not lead
 
 ### Free sugars — a dental limit, not a weight lever
@@ -422,10 +400,6 @@ the one adequately-powered free-living trial, produced no weight advantage (and 
 muscle) [@lowe2020]. Exact carbohydrate percentages, sodium precision below target, and HIIT-versus-walking are
 second-order refinements. *Doing regular activity at all* and *reducing excess adiposity* come first.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-01">
-
 ## The ceiling finding — hard heart-attack prevention in a not-yet-high-risk person
 
 **No lever here has a large, proven absolute reduction** for hard cardiovascular *events* in a person who
@@ -437,10 +411,6 @@ a small absolute gain when the baseline risk is low, because absolute benefit sc
 [@bplttc2021]. So pursue these levers for the outcomes they *do* move (glycaemia, liver fat, weight,
 function, and the metabolic drift itself), and let the event-prevention case strengthen naturally as
 this stratum's own risk profile is arrested.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-01">
 
 ## Where this sits relative to mainstream guidance
 
@@ -454,10 +424,6 @@ declines to lead with sugar and saturated-fat fine-tuning. It reframes the weigh
 unproven, and that the saturated-fat benefit is on events, not mortality. It treats sodium's and
 carb-restriction's value as conditional on metabolic status rather than universal. And it treats
 "moderate drinking is protective" as falsified rather than as received wisdom.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-01">
 
 ## Gaps this cut is honest about
 
@@ -479,10 +445,6 @@ carb-restriction's value as conditional on metabolic status rather than universa
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Caveats
 
 - **Open loop.** This appraisal grades coherence and fidelity to its sources; it never grades validity. No
@@ -503,7 +465,5 @@ carb-restriction's value as conditional on metabolic status rather than universa
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
-
-</div>
 
 ## References

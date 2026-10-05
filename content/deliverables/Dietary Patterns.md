@@ -13,8 +13,6 @@ confidence: low
 created: 2026-07-30
 updated: 2026-10-02
 ---
-<div class="recent-page" data-last-updated="2026-10-03"></div>
-
 
 ## Above a floor of adequacy, the diet label barely matters
 
@@ -636,6 +634,8 @@ fabric cannot yet separate from its co-travellers; and the diets people argue ab
 least hard-outcome evidence. So the question is not *which brand* but *what do I actually do* — which is
 where the four axes point.
 
+<div class="recent-update" data-last-updated="2026-10-03">
+
 ## Get above the floor, then choose the pattern you will keep
 
 **Get above the floor first.** The measurable gain sits in clearing the adequacy/energy screen —
@@ -691,5 +691,7 @@ less than whether a person keeps it.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+
+</div>
 
 ## References

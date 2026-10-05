@@ -10,6 +10,7 @@ self_critiqued: 2026-08-26
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
+    - Is the Exercise Modality Doing Any Work
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
     - Physical Activity Dose and Mortality
@@ -17,7 +18,7 @@ relationships:
     - Cognitive Stimulation at Work and Dementia
     - Stress Management and Cardiometabolic Health
 created: 2026-08-26
-updated: 2026-09-23
+updated: 2026-10-04
 ---
 
 A 2023 umbrella review (Blomstrand — 20 SR/MAs, 332 primary studies, healthy adults >=55 without MCI

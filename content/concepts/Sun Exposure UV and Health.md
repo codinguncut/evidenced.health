@@ -8,7 +8,7 @@ cluster: sun-uv-exposure
 nucleus: true
 confidence: low
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-10-04
 self_critiqued: 2026-08-06
 relationships:
   related_to:
@@ -25,13 +25,15 @@ true — they are different endpoints, so this is **not a contradiction but a tr
 (type-A). The honest answer is that the net is **genuinely uncertain and stratum-dependent**, and the
 two arms are known with very different confidence.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## The net-effect ledger
 
 type-A — an emergent structure present in no single source:
 
 | Arm | Outcome | Best evidence | Effect | Tier |
 |---|---|---|---|---|
-| HARM | cutaneous melanoma (+ NMSC) | Green RCT + Gandini gold MA | sunscreen HR 0.27-0.50; sunburn RR 2.03, intermittent RR 1.61 (different quantities, not poolable) | RCT + gold |
+| HARM | cutaneous melanoma (+ NMSC) | Green RCT + Gandini gold MA | sunscreen HR 0.27-0.50; sunburn RR 2.03, intermittent RR 1.61 [@gandini2005sun] (different quantities, not poolable) | RCT + gold |
 | BENEFIT | all-cause / CVD / noncancer-non-CVD mortality | Lindqvist single cohort | avoiders \~1.7-2x mortality (HR 0.6 categorical; rate "doubled"); life-expectancy loss 0.6-2.1 y | observational (confounded) |
 
 **The tiers are asymmetric, and this is the whole point.** The harm is anchored on a *randomized*
@@ -51,6 +53,8 @@ Parameter table (BLOCKING — the arms are not the same quantity, so this is a t
 
 Fourth column NO on every row -> the two findings do not *contradict* (not-joined check ii:
 different outcome/scope); they must be **weighed**, not reconciled away.
+
+</div>
 
 ## Why the benefit arm is weak — run the artifact check hard
 

@@ -45,8 +45,6 @@ as it would be at 40.
 - **Several treatments that help younger adults turn neutral or harmful here** — testosterone,
   calcium-plus-vitamin-D, and the most aggressive weight-loss and blood-pressure targets among them.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## If this person smokes, quitting outranks everything else on the page
 
 Nothing modifiable at 70 carries an effect this large. Smoking roughly triples all-cause mortality
@@ -56,10 +54,6 @@ in an age-graded way — the earlier the larger, but the benefit is still substa
 it belongs at the top *only if the person smokes*, and drops off the list entirely if they do not — which
 is exactly why a universal ranking is the wrong object -> [[Layer 1 - Ranking Interventions for a Stratum]],
 [[Smoking and Mortality]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Getting blood pressure down is the best-warranted lever for preventing death and cardiovascular events here
 
@@ -94,10 +88,6 @@ Randomization also erased the observational U-shape — no excess dementia appea
 oldest patients. So blood-pressure lowering buys a second patient-important outcome at this age, and it is
 the one lever here where the drug, not a lifestyle change, carries the randomized dementia evidence
 -> [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
@@ -141,10 +131,6 @@ classes — metformin, GLP-1 receptor agonists — track lower dementia risk in 
 (GLP-1 RA RR 0.35, but I2 98.5% and low certainty), while sulphonylureas run the other way (RR 1.39,
 1.04-1.87) [@kuatedefo2023]. Read that as what an
 existing prescription may incidentally do, not a reason to select an agent — that choice is a prescriber's.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -206,10 +192,6 @@ and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle 
 [[Sarcopenia Definition and Diagnosis]], [[Surrogate Outcomes]]. The one caveat: sarcopenic obesity has
 no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
 (EWGSOP2 sets none) [@cruzjentoft2019].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
@@ -274,10 +256,6 @@ support for a cognitive-training or nutrition-alone lever.
 [@zheng2026healthspan]
 -> [[Intrinsic Capacity and Multidimensional Healthspan]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
 General physical activity carries a real mortality benefit, but its shape matters for how hard to push. The
@@ -296,10 +274,6 @@ followed 20 years or more — so it is not merely early, undiagnosed dementia lo
 depend on APOE genotype. It stays observational (higher baseline cognitive reserve is the confound it
 cannot remove), but it adds a second patient-important outcome to a lever no drug replicates
 -> [[Physical Activity Dose and Mortality]], [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Past these, the remaining levers are smaller and less certain — and that ceiling is itself the finding
 
@@ -380,10 +354,6 @@ already ranked [@babaker2025amd]. So
 AMD is another organ-specific reason to pull the same levers, not a lever of its own
 -> [[Age-Related Macular Degeneration and Modifiable Exposures]],
 [[Shared Modifiable Levers Across Age-Related Diseases]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
@@ -493,10 +463,6 @@ The two harms differ in *kind*: the muscle harm is mostly not real, the diabetes
 outweighed — and both point to the same rule, *do not stop an indicated statin*, for opposite reasons
 -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## What this ranking cannot yet settle
 
  Three gaps bound the confidence above, and naming them is part of the appraisal.
@@ -517,8 +483,6 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
   that pulling any of these levers in *this* stratum prevents dementia, and whether treating a sleep disorder
   or raising diet quality lowers dementia incidence is untested
   -> [[Dementia Prevention and Modifiable Risk Factors]].
-
-</div>
 
 ## The bottom line
 
@@ -542,8 +506,6 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 - **Leave the sign-flipped levers alone or handle them with care:** testosterone, calcium-plus-vitamin-D
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Four things this ranking cannot tell you
 
@@ -569,7 +531,5 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
-
-</div>
 
 ## References

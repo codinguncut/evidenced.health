@@ -2,8 +2,8 @@
 type: framework
 question: How much physical activity, of what kind, changes mortality -- and where, if anywhere, does the benefit flatten?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A; Kivimaki, Mika]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019]
+authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A; Kivimaki, Mika; Wan, Kewen]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Wan - Exercise Snacks Cardiometabolic]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -18,9 +18,11 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Dementia Prevention and Modifiable Risk Factors
     - Weekend Warrior Activity Pattern and Mortality
+    - Exercise Snacks and Cardiometabolic Health
+    - Supervised vs Unsupervised Exercise
 created: 2026-07-27
-updated: 2026-09-22
-self_critiqued: 2026-09-22
+updated: 2026-10-04
+self_critiqued: 2026-10-04
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -526,6 +528,8 @@ person optimizing specifically for cancer risk cannot bank the mortality plateau
 Caveat symmetric with the rest of the page: WCRF's cancer grades are **observational cohort** judgements,
 so reverse causation (illness lowers activity) is not excluded by design.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## What this page does NOT support
 
 - **No compensation analysis exists anywhere in the annex** — *now held on a sibling page.* Whether a
@@ -534,6 +538,13 @@ so reverse causation (illness lowers activity) is not excluded by design.
   long-term) but is driven by adiposity/age/duration, **not** by intensity — so *walking is better
   tolerated than intense exercise* remains unsupported (intensity is not a compensation predictor).
 - **No ranking of modalities.** See above.
+- **No evidence that brief distributed *exercise snacks* change mortality.** For the near-inactive who
+  will not do structured sessions, brief vigorous bouts spread across the day raise CRF and lower LDL-C
+  ([[Exercise Snacks and Cardiometabolic Health]], Wan 2025) — but that evidence is on **surrogates over
+  <=12 weeks**, with no hard-outcome or mortality data, so snacks are a plausible *entry lever* onto this
+  curve, not a demonstrated substitute for the doses this page prices against mortality. The authors
+  themselves cast snacks as a complement, «rather than a replacement for these recommendations».
+  [@wan2025]
 - **Frailty cannot be targeted from this evidence**: WHO reports *«A lack of consensus regarding the
   definition of frailty, and an absence of core measures to assess this means any attempt to create an
   optimal intervention will be impeded.»* An ill-defined construct — distinct from a well-defined
@@ -544,6 +555,8 @@ so reverse causation (illness lowers activity) is not excluded by design.
   cognitive function (b = 0.41; p = 0.002).»* That does not license "improving function improves
   cognition" for a person — the ecological-inference trap.
   [@who2020]
+
+</div>
 
 ## Sedentary behaviour is not the inverse of activity — and devices have type-specific bias `[2026-07-28, Willett ch.10]`
 

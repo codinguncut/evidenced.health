@@ -11,7 +11,6 @@ authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (o
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
 sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019]
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
 a daily multivitamin, vitamin D, fish oil, a cocoa-flavanol capsule — do essentially nothing for the
@@ -31,8 +30,6 @@ safe default.
 answers a completely different question from the same pill added to a person who already has enough.
 The marketing rarely marks which question it is answering; the sections below do.
 
-</div>
-
 ## Ask whether the person is short before asking whether the supplement works
 
 Every supplement decision splits on one prior fact: is this person **deficient** (below the
@@ -45,8 +42,6 @@ The field makes one central error: it runs a trial on one arm and reads the resu
 the other. A null from supplementing the already-replete says nothing about repletion of the
 deficient, and a benefit in the deficient does not license the replete to supplement. Almost every
 dispute about *whether supplements work* dissolves once you fix which arm was actually sampled.
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## For the well-nourished, the marketed stack is a null lever
 
@@ -196,10 +191,6 @@ the cocoa bean ... thus, we cannot disentangle the effects of its individual com
 [@sesso2022cosmos]. A cocoa-extract supplement is
 a different exposure from cocoa the food -> [[Is the Food Category Doing Any Work]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Some antioxidant supplements shorten lives rather than lengthen them
 
 The harm arm is the sharpest decision-change here, because it runs opposite to the *nutrients are good,
@@ -230,10 +221,6 @@ wrinkle worth the net-effect discipline: «Although taking calcium supplements h
 colorectal cancer, some trials for other cancer sites have shown potential for unexpected adverse
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Correcting a documented deficiency is a different, real lever
 
@@ -325,10 +312,6 @@ TPO-antibody-positive individuals.
 generalizes past pregnancy: iodine has no benefit arm left to climb, so more is not better.
 -> [[Excess Iodine Intake and Thyroid Disease]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
 Periconceptional folic acid is the standing counter-example to *supplements are a distraction* — the
@@ -348,10 +331,6 @@ pregnant, so supplementation must be in place beforehand
 (prior NTD pregnancy, diabetes, anticonvulsants) take 5 mg/day rather than the general 0.4 mg
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
@@ -409,8 +388,6 @@ and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventin
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
 
-</div>
-
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
 Two supplements have solid randomized evidence — but on **surrogates** (muscle mass, strength,
@@ -461,8 +438,6 @@ the training is the driver.
   effective» [@wgo2023]. The strain, not
   the word, is the exposure -> [[Gut Microbiome and Health]].
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Attention runs opposite to effect, and the aisle carries its own risk
 
 The supplements with the most marketing and shelf space are, with few exceptions, the ones with the
@@ -479,10 +454,6 @@ are a layer-3 opportunity cost the trial evidence leaves to the person
 [@uspstf2022supp]. And the industry is
 loosely regulated: contamination, adulteration and mislabelled dose are a harm vector independent of any
 compound's own evidence.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## What the evidence here cannot yet say
 
@@ -501,10 +472,6 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **A same-outcome dose-response** traced from a nutrient's deficient edge to its plateau is not held for
   any single endpoint. The repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The bottom line
 
@@ -540,8 +507,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   stratum-specific, not a general supplement case. -> [[Vitamin and Mineral Supplements for Disease Prevention]].
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-10-03">
 

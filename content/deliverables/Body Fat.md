@@ -11,8 +11,6 @@ question: 'For an adult across the body-fat range: does where fat is stored chan
 sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
 ---
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Where fat sits matters more than how much of it there is
 
 Two people can weigh the same and face very different risk. The fat that does the damage sits inside
@@ -28,9 +26,8 @@ diabetes, cardiovascular disease, cancer and the knee. One question stays out of
 take the fat off and keep it off. Diet versus exercise, what happens to muscle, which method moves which
 outcome, whether the loss lasts -- those live in [[Losing Fat and Keeping It Off]].
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+
 
 ## Where fat sits carries the risk — read the depot, not the scale
 
@@ -245,9 +242,6 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -413,9 +407,6 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
@@ -470,9 +461,6 @@ weight reduction by lifestyle modification on advanced fibrosis or cirrhosis is 
 works on the *reversible* stages, not once bridging fibrosis or cirrhosis is established.
 [@easl2024]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Composition moves liver fat beyond calories — but it is the fat *type*, not the carbohydrate fraction
 
@@ -515,10 +503,6 @@ association of sugar-sweetened soda with increased NAFLD risk».
 histological response, and clinical outcomes.»
 [@aasld2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The risk MASLD carries is mostly extrahepatic — it feeds diabetes and cardiovascular disease
 
 For most people with fatty liver, the danger is not the liver. EASL is explicit that «the presence of
@@ -546,8 +530,6 @@ of the same weight-loss lever: «Resolution of NASH without worsening of fibrosi
 [@aasld2023] Full drug/surgery benefit-risk appraisal lives
 in [[GLP-1 Drugs]]; here the point is that the mortality signal, where it exists, tracks large sustained
 loss, not a distinct mechanism.
-
-</div>
 
 ## Downstream disease — the same fat drives cancer and loads the knee
 

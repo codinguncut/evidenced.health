@@ -6,6 +6,7 @@ authors: [Liu, Jing-xin; Zhu, Lin; Li, Pei-jun; Li, Ning; Xu, Yan-bing]
 sources: [Liu - HIIT Glycemic Control Type 2 Diabetes 2019]
 relationships:
   related_to:
+    - Is the Exercise Modality Doing Any Work
     - Measuring and Raising Cardiorespiratory Fitness
     - Cardiorespiratory Fitness and Mortality
     - Diets for Weight Management in Type 2 Diabetes
@@ -16,7 +17,7 @@ relationships:
     - Surrogate Outcomes
 confidence: low
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-04
 self_critiqued: 2026-09-24
 ---
 
@@ -98,13 +99,17 @@ The load-bearing benefit that *does* have a prognostic anchor is the fitness gai
 higher VO2peak is robustly tied to lower mortality (see [[Cardiorespiratory Fitness and Mortality]]),
 and CRF is the one outcome here at moderate certainty.
 
+<div class="recent-update" data-last-updated="2026-10-04">
+
 ## Adherence, safety, and net effect — the substitution caveats
 
 **Adherence is part of the effect** (see the schema's Layer-3 rule): a harder protocol abandoned loses
 to an easier one sustained. This MA cannot speak to it. Trials were **short (11-16 weeks) and
 supervised**; the only compliance proxy is per-trial dropouts (0-10 per arm, Table 1), and there is
 **no free-living or long-term adherence data**. HIIT's real-world edge or deficit versus MICT over years
-is unmeasured.
+is unmeasured. What *is* held is the affective precursor: [[Affective Response to High-Intensity Interval Exercise]] (Niven 2020) finds higher-intensity work felt as less pleasant
+in-task than moderate continuous work — an adherence hazard whose behavioural consequence is still
+unproven, and which tracks intensity rather than the interval format.
 
 **Safety is a named gap.** The MA reports **no adverse-event or hypoglycemia comparison**
 [searched: adverse/hypoglyc across chunks 01-02, 0 hits]. For prescribing high-intensity work to older
@@ -117,6 +122,8 @@ supports.
 time-efficient physical activity program» [@liu2019hiit], but HIIT and MICT protocols were **heterogeneous and not consistently volume-matched** across
 the 13 trials, so this MA does not isolate whether HIIT delivers equal benefit in *less* time. The
 time-efficiency case is plausible and stated, not demonstrated here.
+
+</div>
 
 ## Where this sits in the T2D lever stack
 

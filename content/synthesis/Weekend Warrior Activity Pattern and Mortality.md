@@ -23,6 +23,8 @@ weekly volume?* (bout distribution), an orbiter of the total-dose nucleus
 [[Physical Activity Dose and Mortality]]. The reader it serves is time-pressed: *can I bank the mortality
 benefit in one or two sessions, or must activity be spread across the week?*
 
+<div class="recent-update" data-last-updated="2026-10-05">
+
 ## The decision-change
 
 **Concentrating guideline-level activity into 1-2 sessions/week is associated with the same benefit as
@@ -47,6 +49,8 @@ activity (BP/lipid benefits need sustaining) is unrefuted for intermediate outco
 independent group, on an objective instrument, reaches the same equivalence — the reason confidence is
 raised from low to **medium** (below).
 [inferred from @kunutsor2022; @odonovan2024; @khurshid2023]
+
+</div>
 
 ## The two patterns are equivalent — but do NOT equate the two studies' magnitudes
 
@@ -113,6 +117,8 @@ shared magnitude — Khurshid measures CVD morbidity, so it does not triangulate
 (where Kunutsor and O'Donovan themselves diverge on CVD mortality, below); (ii) all three remain
 observational, so the E raises confidence about *measurement-method robustness*, not about causality.
 
+<div class="recent-update" data-last-updated="2026-10-05">
+
 ## The session-duration floor — O'Donovan's novel refinement (type-F)
 
 **"Weekend warrior" works only if the concentrated sessions are substantial.** Stratifying by
@@ -131,6 +137,8 @@ min.» [@odonovan2024]
 **Decision-change:** the concentration licence has a lower bound — two weekly sessions of at least \~30
 (better 30-60+) minutes, not two brief ones. This is a genuine refinement of Kunutsor's pattern-level
 equivalence, which could not see session duration (no subgroup data). [inferred from @odonovan2024]
+
+</div>
 
 ## Independence: the Kunutsor/O'Donovan pair is type-F (refinement), NOT type-E
 

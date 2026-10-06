@@ -8,7 +8,7 @@ cluster: cold-exposure
 nucleus: true
 confidence: low
 created: 2026-09-16
-updated: 2026-09-23
+updated: 2026-10-06
 self_critiqued: 2026-09-16
 relationships:
   related_to:
@@ -18,6 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 **Peripheral-scope lifestyle lever (cold exposure), and a SMALL, MOSTLY-SURROGATE, HEAVILY
 TIME-DEPENDENT one — not a big rock.** CWI is admitted on the same evidence bar as food or activity,
@@ -32,6 +33,8 @@ The exposure is specifically **cold shower, ice bath, or plunge at water tempera
 &gt;=30s** in healthy adults [@cain2025cwi] — not
 cold-water swimming (which confounds CWI with exercise) and not the athletic-recovery literature the
 term is usually attached to.
+
+</div>
 
 ## The fad gap — popularity vastly exceeds the evidence [@cain2025cwi]
 

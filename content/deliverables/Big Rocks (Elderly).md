@@ -2,24 +2,26 @@
 type: deliverable
 title: "The Biggest Health Levers After 70"
 question: 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?'
-sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017,
+sources: [ESC - CVD Prevention Guidelines 2021, Bauer - PROT-AGE Protein Older Adults 2013, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Celis-Morales - Grip Strength Mortality 2018, de Santana - Low Muscle Mass Mortality 2021, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Corona - Weight Loss Obesity Hypogonadism Meta-Analysis 2013, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT Durability 2 Years 2019,
   Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, USPSTF - Statin Use Primary Prevention 2022, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Lopez Hilario - Androgen Musculoskeletal Umbrella 2026, Snyder - Testosterone Treatment Fractures 2024, Jha - Smoking Hazards Cessation Benefits 2013, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024,
   Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Villoz - Dairy Cognitive Decline Dementia 2024,
   Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025,
-  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024, el Hadouchi - Power vs Strength Older Adults,
+  Reith - Statin Muscle Symptoms 2022, Wood - SAMSON Statin Nocebo 2020, Reith - Statin New-Onset Diabetes 2024, el Hadouchi - Power vs Strength Older Adults, CTT - Statin Therapy Older People 2019,
   Zheng - Interventions Prolong Healthspan RCT Systematic Review 2026]
 confidence: low
 created: 2026-08-05
-updated: 2026-10-02
-self_critiqued: 2026-10-02
-concrete_subject_audited: 2026-10-02
+updated: 2026-10-06
+self_critiqued: 2026-10-06
+concrete_subject_audited: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
+
 > [!warning] Applies to a specific group
 > This appraisal is written for the **obese older adult, \~70, with *sarcopenic obesity*** (excess visceral
 > fat together with muscle loss), in whom hypertension, dysglycemia and fatty liver (MASLD) are common,
 > bone density is already reduced, and several medications are in play. It is *not* written for the frail
-> or institutionalised elderly (for whom the exercise levers must be dosed down and some fall evidence
-> weakens), and *not* for the lean, fit 70-year-old (whose big rocks are already pulled). Which big rocks
+> or institutionalised elderly (for whom the fall-prevention effect of exercise is not established and
+> dosing may need adjusting), and *not* for the lean, fit 70-year-old (whose big rocks are already pulled). Which big rocks
 > are still unpulled for *this* person decides which levers matter — read the order below as the
 > ranking for this stratum, not a universal list.
 
@@ -44,6 +46,8 @@ as it would be at 40.
   reason to pull the same levers, not a new lever to add.
 - **Several treatments that help younger adults turn neutral or harmful here** — testosterone,
   calcium-plus-vitamin-D, and the most aggressive weight-loss and blood-pressure targets among them.
+
+</div>
 
 ## If this person smokes, quitting outranks everything else on the page
 
@@ -89,6 +93,8 @@ oldest patients. So blood-pressure lowering buys a second patient-important outc
 the one lever here where the drug, not a lifestyle change, carries the randomized dementia evidence
 -> [[Dementia Prevention and Modifiable Risk Factors]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Drawing down visceral and liver fat reverses diabetes and fatty liver — but do not expect it to prevent heart attacks
 
 For a sarcopenic-obese person, the fat is the root that feeds the dysglycemia, the hypertension and the
@@ -98,7 +104,17 @@ which outcome you ask about decides whether it is strong or weak.
 **Where it is strong (intermediate and patient-important-but-not-hard outcomes).** Total diet replacement
 produced type-2-diabetes remission in 46% at one year (odds ratio \~19.7 vs control), with a steep
 dose-response on weight lost — from \~0% remission at no loss to \~86% at >=15 kg
-[@lean2018]. Liver fat responds on a graded ladder: roughly
+[@lean2018].
+
+At two years, 53 of 149 people (35.6%) on the programme were in remission against 5 of 149 (3.4%)
+controls, by intention to treat; in a post hoc analysis pooling both arms, remission went with the
+weight kept off, an association, not a tested cause
+[@lean2019]. The trial enrolled people aged 20-65 with
+a BMI of 27-45, diabetes under 6 years and no insulin, so it does not directly cover a 70-year-old;
+the two-year report used here is the authors' manuscript and may differ from the published version
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+Liver fat responds on a graded ladder: roughly
 &gt;=5% body-weight loss clears steatosis, 7-10% reduces inflammation, and >=10% can regress fibrosis
 [@easl2024]. The mechanism underneath both is
 the same: negative energy balance draws fat back out of liver and pancreas once a person drops below
@@ -131,6 +147,8 @@ classes — metformin, GLP-1 receptor agonists — track lower dementia risk in 
 (GLP-1 RA RR 0.35, but I2 98.5% and low certainty), while sulphonylureas run the other way (RR 1.39,
 1.04-1.87) [@kuatedefo2023]. Read that as what an
 existing prescription may incidentally do, not a reason to select an agent — that choice is a prescriber's.
+
+</div>
 
 ## Lift weights and eat enough protein so the weight you lose is fat, not muscle and bone
 
@@ -193,15 +211,19 @@ and *measure* grip to track it -> [[Grip Strength and Mortality]], [[Low Muscle 
 no agreed operational cut-off, so the stratum this whole page centres on is the least well-defined one
 (EWGSOP2 sets none) [@cruzjentoft2019].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Balance-focused exercise, not weights, keeps this person off the floor
 
 Falls are where fractures, hospitalisation and lost independence actually occur, and here the evidence is
 unusually good. Exercise reduces the *rate* of falls in community-dwelling older adults by about 23% (rate
 ratio 0.77, 95% CI 0.71-0.83, high-certainty). The active ingredient is **balance and functional
 training** (RaR 0.76, high-certainty) [@sherrington2019].
-The crucial specificity: **resistance training alone does not reduce falls** (RaR 1.14) — it builds the
-muscle, but balance training prevents the fall, so the two exercise levers are not interchangeable
-. This is the highest-certainty exercise outcome on the page and, for many at this age, the
+The crucial specificity: **resistance training alone has not been shown to reduce falls** (RaR 1.14,
+95% CI 0.67-1.97, five small trials, very low certainty — an interval compatible with benefit or harm, so
+the evidence is insufficient rather than null)
+[@sherrington2019]. Resistance training builds the muscle; balance training is the exercise shown to prevent the
+fall, so the two exercise levers are not interchangeable. This is the highest-certainty exercise outcome on the page and, for many at this age, the
 one weighted above a marginal change in length of life -> [[Exercise for Preventing Falls in Older Adults]].
 
 Concretely, balance training in these trials means transferring bodyweight from one part of the body to
@@ -230,8 +252,14 @@ Pillay «included 125 of 283 studies included in the previous review»
 sharpens Sherrington (type-F refinement), it is not independent (type-E) corroboration.
 
 Two adjacent cautions. **Vitamin D and calcium are not the fall/fracture lever here** — see the sign-flip
-section. And in the *already-frail* (outside this stratum), the fall-prevention signal weakens and the
-programme must be dosed down to avoid causing injury.
+section. And in the *already-frail* (outside this stratum), the fall-prevention effect is not
+established: a meta-analysis in frail and prefrail adults found no significant effect on falls (RR 0.80,
+95% CI 0.51-1.26, seven studies, very low certainty)
+[@racey2021frailtypa], but that
+interval is wide enough to include the 23% reduction seen in the general older population (a differently
+defined falls measure), so the effect is unproven rather than shown absent.
+That the programme may need dosing down for a frail person is a reasonable concern, not a tested finding
+.
 
 But frailty is a lever, not a verdict: activity programmes in pre-frail and frail older adults improve
 mobility (SMD 0.60), activities of daily living (SMD 0.50), cognition (SMD 0.35) and quality of life
@@ -255,6 +283,8 @@ the exercise component». So read it as reinforcing the movement rock already ra
 support for a cognitive-training or nutrition-alone lever.
 [@zheng2026healthspan]
 -> [[Intrinsic Capacity and Multidimensional Healthspan]]
+
+</div>
 
 ## Keep moving — most of the mortality benefit banks in the first steps off the couch
 
@@ -355,14 +385,21 @@ AMD is another organ-specific reason to pull the same levers, not a lever of its
 -> [[Age-Related Macular Degeneration and Modifiable Exposures]],
 [[Shared Modifiable Levers Across Age-Related Diseases]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Some treatments that help younger adults change sign at 70 — the levers to *not* pull, or to pull carefully
 
 These are the traps: interventions with a positive or neutral profile earlier in life whose balance tips
 toward net harm, or toward "not worth it," in this stratum.
 
 **Testosterone for the low-testosterone, obese man: the muscle lever here is training, not a hormone.**
-Testosterone raises lean mass on the scale (+1.6-3.6 kg), but function lags. In the TRAVERSE trial it
-*increased* fractures (HR 1.43, 95% CI 1.04-1.97) — the opposite of the intended effect — alongside more
+Testosterone raises lean mass on the scale (+1.6-3.6 kg), but function lags. Earlier trials showed it
+raising bone density, yet in the TRAVERSE trial, which did not measure bone density, fractures came out
+higher on testosterone (HR 1.43, 95% CI 1.04-1.97, unadjusted for multiple comparisons). The authors
+call it no more than this: «The fracture incidence was numerically higher among men who received
+testosterone than among those who received placebo.»
+[@snyder2024] That is a fracture signal against the
+expected benefit, not a proven harm, and it sits alongside more
 atrial fibrillation, acute kidney injury and pulmonary embolism, with no mortality benefit
 [@snyder2024],
 [@lopezhilario2026]. And much of the low
@@ -386,9 +423,13 @@ own metabolic-adaptation cost -> [[Weight-Loss Maintenance and Metabolic Adaptat
 as unmodified dieting above, now a dominant weight-loss lever in exactly this population.**
 
 Across seven obesity-dose trials, rapid GLP-1 weight loss cut absolute lean mass by −1.74 kg
-(95% CI −3.04 to −0.45, high certainty) — roughly 30% of the weight lost, at or just inside the
-ordinary 20-30% diet-induced band. So on average the drug is not special: rapid weight loss loses
-muscle whatever drives it [@laverde2026]. Lean mass is a
+(95% CI −3.04 to −0.45, high certainty)
+[@laverde2026],
+[@laverde2026]. Laverde reports that an earlier meta-analysis (not itself held here), which it calls consistent with
+its findings, put the class's lean share at «approximately 30%» of the weight lost — at or just inside the ordinary 20-30%
+diet-induced band; semaglutide's «up to 45%» is the top of a range on thin data, not a typical value
+[@laverde2026]. So on average the drug looks
+unremarkable: rapid weight loss loses muscle whatever drives it. Lean mass is a
 surrogate for muscle and for function, and Laverde measured neither strength nor capacity — so this
 is a directional muscle-mass signal, not proven function loss.
 
@@ -401,8 +442,11 @@ intake exactly when defending older muscle needs *more* per-meal protein to clea
 anabolic-resistance threshold — cutting the very protein the muscle now needs more of. Per agent,
 tirzepatide and subcutaneous semaglutide are «among the most harmful» for lean mass while liraglutide
 and oral semaglutide «had little or no effect»
-[@nong2026obesity] — so a frail patient
-is worst served by the strongest agents -> [[Comparing Obesity Drugs]].
+[@nong2026obesity]. For a frail patient
+the strongest agents therefore carry the largest potential muscle cost, though Nong adds that «long term
+functional consequences remain uncertain»
+[@nong2026obesity]
+-> [[Comparing Obesity Drugs]].
 
 The same drugs carry a low-certainty observational signal running the *other* way on the brain: GLP-1
 receptor agonists track lower incident dementia in two umbrella reviews (all-cause dementia OR 0.55,
@@ -432,7 +476,18 @@ titrate the target against those harms rather than push it to a number
 **Statins for primary prevention sit near the edge of the evidence at \~70.** The absolute benefit is
 small (all-cause mortality RR \~0.92), and the U.S. Preventive Services Task Force reaches **no
 recommendation** at age >=76 (insufficient evidence)
-[@uspstf2022]. Guidance confidence tracks the same
+[@uspstf2022].
+
+The trial data split the same way. Pooling 28 statin trials by age, the Cholesterol Treatment
+Trialists found that in people over 75 with no known vascular disease, major vascular events fell by
+an RR of 0.92 per 1.0 mmol/L lower LDL, with a 99% CI of 0.73-1.16 that includes no effect:
+insufficient evidence, not proof of no benefit. Without vascular disease, benefit also tended to
+shrink with age (trend p=0.05; p=0.03 without the heart-failure and dialysis trials), a trend the
+authors call weak, and they judge there were too few such older participants to assess that group
+reliably. Over-75s who already had vascular disease kept the benefit, RR 0.85 (99% CI 0.73-0.98)
+[@ctt2019].
+
+Guidance confidence tracks the same
 edge: at >=70 the European cardiology guideline drops lipid-lowering to **Class IIb («may be considered»)**
 even in the very-high-risk band [@esc2021]. A longevity
 lever buys fewer disease-free years once competing mortality shortens the runway. That is a claim about
@@ -454,14 +509,19 @@ year, is very unlikely the statin, and a blinded rechallenge separates the rare 
 nocebo.
 
 New-onset diabetes is the mirror image: a *real* pharmacological effect, but small and dose-dependent
-(RR 1.10 on low- or moderate-intensity statins, 1.36 on high-intensity). It concentrates in people whose
-glycaemia already sits near the diagnostic threshold, it is driven by a tiny HbA1c shift, and it is
-already netted out of the vascular benefit. So it warrants no routine post-initiation glucose monitoring
-to catch a statin effect (standard diabetes screening continues unchanged), and it does not change the
+(RR 1.10 on low- or moderate-intensity statins, 1.36 on high-intensity). Most of it (about 62% of
+excess cases) arises in people whose glycaemia already sits in the top quarter at baseline, near the
+diagnostic threshold; it is driven by a tiny HbA1c shift; and any *cardiovascular* harm it causes is
+already counted in the trials' net vascular benefit. The diagnosis itself remains a separate, small
+cost, which the source judges «greatly outweighed by the benefits of statins on major vascular events
+when the direct clinical consequences of these outcomes are taken into consideration». So it warrants no
+routine post-initiation glucose monitoring to catch a statin effect (standard diabetes screening continues unchanged), and it does not change the
 start-or-continue decision [@reith2024diabetes].
 The two harms differ in *kind*: the muscle harm is mostly not real, the diabetes harm real but
 outweighed — and both point to the same rule, *do not stop an indicated statin*, for opposite reasons
 -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]].
+
+</div>
 
 ## What this ranking cannot yet settle
 
@@ -484,6 +544,8 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
   or raising diet quality lowers dementia incidence is untested
   -> [[Dementia Prevention and Modifiable Risk Factors]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The bottom line
 
 
@@ -497,7 +559,7 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
   minimum, \~25-30 g per meal, higher under training), so what comes off is fat, not the muscle and bone
   this person cannot spare.
 - **Do balance and functional training for falls** — the highest-certainty lever here; weights build
-  muscle but do not, by themselves, prevent falls.
+  muscle but have not, by themselves, been shown to prevent falls.
 - **Bank the easy activity gains first** (the first daily walk buys most of the benefit) and accept that
   past these levers the remaining returns are small — that ceiling is a result, not a failure.
 - **The same rocks protect the brain.** Getting blood pressure down, staying active and drawing down the
@@ -506,6 +568,10 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 - **Leave the sign-flipped levers alone or handle them with care:** testosterone, calcium-plus-vitamin-D
   in the non-deficient, unmodified aggressive weight loss, the most intensive BP target, and — at the edge
   of the evidence — primary-prevention statins.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Four things this ranking cannot tell you
 
@@ -527,9 +593,11 @@ outweighed — and both point to the same rule, *do not stop an indicated statin
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 56 sources — 37 gold, 17 high, 2 moderate |
+> | **Evidence included** | 58 sources — 38 gold, 18 high, 2 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate); Song (meta-analysis, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+
+</div>
 
 ## References

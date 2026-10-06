@@ -7,7 +7,6 @@ aliases: [Fermented Food, Fermented Foods, Probiotic Foods, Live Cultures, Kefir
 created: 2026-08-05
 updated: 2026-09-09
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 *This page has been folded. Fermented foods are not one exposure — the lay question splits along the
 food that was fermented, and each strand now lives with the food it belongs to.*
@@ -39,5 +38,3 @@ a credential — and note this is a small lever, well below the big rocks.
 > | **Overall certainty** | **Not stated** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fermented%20Foods.md) |
-
-</div>

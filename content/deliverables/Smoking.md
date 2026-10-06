@@ -90,8 +90,6 @@ second
 patient-important outcome**: quitting removes the excess dementia risk as it removes the excess mortality
 risk. See [[Dementia Prevention and Modifiable Risk Factors]].
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Smoking also raises the risk of rheumatoid arthritis — dose-dependently
 
 Smoking is also a dose-dependent risk factor for **rheumatoid arthritis (RA)**, a chronic autoimmune
@@ -108,8 +106,6 @@ evidence is observational (no RA-prevention trial is feasible) and held at low c
 modest add-on to smoking's harms rather than a headline effect. See
 [[Autoimmune Disease and Modifiable Risk]].
 
-</div>
-
 ## Why this is held with high confidence — despite being observational
 
 No one randomizes smoking, so the evidence is observational. But the read is decisive here for reasons
@@ -123,8 +119,6 @@ of recent quitters — by reclassifying anyone who quit within five years of dea
 which biases *against* the benefit. The large benefit survives that conservative handling.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What the held evidence does not yet cover
 
@@ -160,10 +154,6 @@ is unambiguous added risk.
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Bottom line — what to do
 
 - **If you smoke, quitting is the top priority — ahead of every diet, exercise, or sleep change.** It is
@@ -185,7 +175,5 @@ is unambiguous added risk.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Skotsimara (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
-
-</div>
 
 ## References

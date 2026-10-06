@@ -17,9 +17,10 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - GLP-1 Non-Cardiometabolic Effects and Safety
 created: 2026-09-05
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 The GLP-1 receptor agonists are a widely-prescribed standard drug class, so their efficacy and limits on
 hard outcomes are a stratum-level decision in their own right (the *Pharmacotherapy taper*). This page
@@ -34,6 +35,11 @@ CKD or diabetes are OUT (prescriber/frontier zone) and not covered here.
 
 
 [@badve2024glp1]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## What the meta-analysis pooled
 
 A gold-tier aggregate-data meta-analysis of RCTs (PROSPERO-registered, PRISMA, GRADE, all trials low
@@ -54,10 +60,15 @@ cardiovascular outcome — trials with a surrogate primary outcome, and dual GIP
 
 
 [@badve2024glp1]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Cardiovascular outcomes — a robust class effect, high-certainty
 
 In participants with type 2 diabetes, versus placebo (all high-certainty evidence; with-SELECT figures
-in brackets, p-heterogeneity by diabetes status >0.05 throughout):
+in brackets, p-heterogeneity by diabetes status >0.05 except nonfatal MI, 0.02):
 
 | Outcome | HR (95% CI), T2D | With SELECT added | NNT / notes |
 |---|---|---|---|
@@ -68,14 +79,27 @@ in brackets, p-heterogeneity by diabetes status >0.05 throughout):
 | Hospitalisation for heart failure | reduced 13% | — | p-het 0.48 |
 | All-cause death | 0.88 (0.83-0.93), I2=0% | 0.87 (0.82-0.91) | NNT 101 (T2D) / 104 (all) |
 
-Leave-one-out analysis found no single trial drove MACE or all-cause death, and effects were consistent
-across all pre-specified subgroups (age, sex, BMI, CVD, eGFR, agent type, dosing frequency,
-follow-up duration). This is the decision-relevant fact the single-agent pages could not establish: the
-CV/mortality benefit is a **class** property spanning the T2D CVOT programme, not a semaglutide-only or
-obesity-only finding, and it holds regardless of diabetes status.
+Leave-one-out analysis found no single trial drove MACE (or the primary kidney composite; leave-one-out
+was run only for those two outcomes, not for all-cause death). Subgroup analyses, run for MACE and the
+kidney composite only and largely at trial level (no individual-participant data; FLOW lacked
+age/sex/BMI/CVD subgroup data), showed consistent effects across age, sex, BMI, CVD, eGFR, agent type,
+dosing frequency and follow-up duration (the age/sex/BMI/eGFR splits are MACE-only; the kidney composite
+was split by CVD, CKD, agent type, frequency and duration). (corrected 2026-10-06: *no single trial drove MACE or all-cause
+death* -> MACE and kidney composite only, Badve chunk 01; *all pre-specified subgroups* -> MACE + kidney
+composite, trial-level; self-critique.) This is the decision-relevant fact the single-agent pages could
+not establish: the CV/mortality benefit is a **class** property spanning the T2D CVOT programme, not a
+semaglutide-only or obesity-only finding, and it appeared consistent regardless of diabetes status (no
+significant heterogeneity except nonfatal MI, p=0.02, where both subgroups still benefited), though
+SELECT is the only non-diabetic trial. (corrected 2026-10-06: *holds regardless* -> appeared consistent;
+self-critique)
 
 
 [@badve2024glp1]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Kidney outcomes — the class moves a HARD outcome, not just a surrogate (the key refinement)
 
 This is the beyond-the-predecessor move. The prior class meta-analysis (Sattar 2021, not held) reported
@@ -96,18 +120,28 @@ weight loss could *artificially* flatter creatinine-based eGFR — «GLP-1 recep
 loss, which may in turn reduce creatinine generation due to reduced muscle mass and therefore
 artificially improve creatinine-based eGFR measurements. The separately significant reduction in the
 risk of kidney failure provides important reassurance that the kidney benefits of GLP-1 receptor
-agonists are real and clinically important». Kidney failure (dialysis/transplant) is not creatinine-
-confoundable in that way, so its reduction anchors the composite against the muscle-loss artifact. FLOW
+agonists are real and clinically important». Kidney failure is *less* exposed to this artifact than the
+&gt;=50% eGFR fall — it is a late, threshold endpoint, and in four trials it is defined by kidney
+replacement therapy alone — but in the trials carrying most of the weight (incl. FLOW) it still includes
+persistent eGFR <15, so it partly shares the creatinine channel; Badve calls it «important reassurance»,
+not proof. (corrected 2026-10-06: *not creatinine-confoundable* -> less exposed;
+self-critique) FLOW
 carried 49% of the kidney-failure weight, but heterogeneity was 0%, so the direction holds across the
 kidney-risk range.
 
 **Absolute kidney benefit is modest.** Because most trials enrolled low kidney risk, «the observed
 absolute risk reductions were modest with relatively higher NNT than that reported in the dedicated
 kidney disease outcomes trials of SGLT2 inhibitors» (kidney NNT 164 vs MACE NNT 74). The relative
-effect is real; the absolute payoff scales with baseline kidney risk (route (a), [[Baseline Risk and the Relative-Absolute Split]]) and is largest in the FLOW-type high-risk stratum.
+effect is real; the absolute payoff scales with baseline kidney risk (route (a), [[Baseline Risk and the Relative-Absolute Split]]) and so should be largest in the FLOW-type high-risk stratum
+.
 
 
 [@badve2024glp1]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The cost side — net of the drug's own harms
 
 The class benefit must be read net of its costs (the substitution principle: a lever's marginal value is
@@ -120,11 +154,16 @@ net of the alternative's own harms).
   not taken has no effect. The class page for the fuller non-cardiometabolic ledger is [[GLP-1 Non-Cardiometabolic Effects and Safety]].
 - **No signal** for the feared harms: acute pancreatitis, medullary thyroid cancer, pancreatic cancer,
   all cancers, severe hypoglycaemia, retinopathy — all similar to placebo.
-- **Not covered by the drug:** lifelong dependency (benefit decays on stopping — see the withdrawal
-  evidence on [[Semaglutide for Cardiovascular Risk in Obesity]]), cost, and the fact that a drug
-  manages markers without fixing the upstream driver (structural leverage stays with the lifestyle
-  lever).
+- **Not covered by the drug:** lifelong dependency (weight loss and cardiometabolic marker gains
+  revert on stopping — the STEP-1 withdrawal evidence on [[Semaglutide for Cardiovascular Risk in Obesity]];
+  whether the hard CV benefit also decays off-drug is untested), cost, and the fact that a
+  drug manages markers without fixing the upstream driver (structural leverage stays with the lifestyle
+  lever). (corrected 2026-10-06: *benefit decays on stopping* -> weight/marker gains revert; CV-benefit
+  decay untested.)
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Synthesis — Layer-1 sizing: what this shrinks, and what it does NOT
 
@@ -132,7 +171,9 @@ net of the alternative's own harms).
 medications with proven benefits on composite kidney and cardiovascular outcomes, all individual
 components of composite kidney and cardiovascular outcomes, death due to any cause, and hospitalisation
 for heart failure across a range of cardiovascular risk and chronic kidney disease severity in people
-with and without diabetes» [@badve2024glp1]. For the T2D / high-CV-risk stratum this is a mature, effective, low-harm drug that captures
+with and without diabetes»
+[@badve2024glp1]. For the
+T2D / high-CV-risk stratum this is a mature, effective, low-harm drug that captures
 CV-event, mortality, heart-failure and (in high kidney risk) hard-kidney benefit.
 
 **What it shrinks (Layer 1).** A mature effective drug for an outcome shrinks the *marginal* rank of a
@@ -144,11 +185,17 @@ must be relied on to deliver at the margin.
 **What it does NOT shrink — two guards.**
 
 - **Guard (i): substitution is outcome-specific.** The lifestyle weight-loss lever retains its
-  other-channel value that the GLP-1 drug does not substitute — T2D remission ([[Total Diet Replacement and Type 2 Diabetes Remission]]), the all-cause-mortality benefit of intentional weight loss ([[Does Weight Loss Reduce Cardiovascular Events]], Ma 2017), MASLD regression, function. The drug shrinks the
-  lever's rank only for CV events, mortality and kidney outcomes, not for these.
+  other-channel value that the GLP-1 drug does not substitute — T2D remission ([[Total Diet Replacement and Type 2 Diabetes Remission]]), MASLD regression, function. The drug shrinks the lever's rank only
+  for CV events, mortality and kidney outcomes, not for these. The all-cause-mortality benefit of
+  intentional weight loss ([[Does Weight Loss Reduce Cardiovascular Events]], Ma 2017) is *not* on this
+  non-substitutable list: the drug's own all-cause effect (HR 0.88 in T2D) covers the same outcome, so
+  for mortality the two are substitutes to be compared, not separate channels. (corrected 2026-10-06:
+  all-cause mortality removed from the non-substitutable list.)
 - **The CV benefit here is largely weight-INDEPENDENT.** These are glucose-lowering CVOTs with modest
-  weight loss, and GLP-1 CV benefit separates early, before much weight is lost — it is a drug
-  pleiotropic effect, not a weight-loss effect. So this evidence does *not* show that losing weight cuts
+  weight loss; Badve does not report when the curves separate, but in the single trial SELECT benefit
+  separated early, before much weight was lost (extracted on [[Semaglutide for Cardiovascular Risk in Obesity]])
+  — read as a drug pleiotropic effect, not purely a weight-loss effect.
+  (corrected 2026-10-06: early separation was asserted for the class on Badve -> it is SELECT's single-trial finding.) So this evidence does *not* show that losing weight cuts
   CV events; it *reinforces* the [[Does Weight Loss Reduce Cardiovascular Events]] thesis that the route
   matters. [inferred from @badve2024glp1]
 
@@ -156,6 +203,7 @@ must be relied on to deliver at the margin.
 takes the drug, the lifestyle lever, or both is elicited against adherence, cost, GI tolerability and
 reversibility.
 
+</div>
 
 ## Independence — this is refinement (F), NOT independent backing (E)
 

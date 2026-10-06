@@ -16,8 +16,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Semaglutide for Cardiovascular Risk in Obesity
 created: 2026-07-29
-updated: 2026-08-22
-self_critiqued: 2026-08-22
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster's meal-timing facet.** The decision question:
@@ -26,6 +26,8 @@ does *when* you eat — the clock position of the eating window — change weigh
 together they **decompose** the popular claim rather than settling it as a single number.
 
 
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The bottom line, up front
 
@@ -46,14 +48,19 @@ together they **decompose** the popular claim rather than settling it as a singl
   Neither trial randomized protein, so the mechanism is a hypothesis (Lowe's own «it is possible that
   protein intake was altered by TRE ... this clearly warrants future study»), not an established finding
   (refinement below).
-- **But there is a real, weight-INDEPENDENT metabolic signal from eating EARLY.** In a tightly
-  controlled, weight-matched crossover (eTRF, n=8), shifting the same food earlier in the day improved
-  insulin sensitivity, blood pressure and oxidative stress **with no weight change at all.**
+- **But there is a *candidate* weight-INDEPENDENT metabolic signal from eating EARLY — large in point
+  estimate, low in certainty (corrected 2026-10-06: *real* -> candidate; self-critique).** In a tightly
+  controlled, weight-matched crossover (eTRF, n=8, unreplicated, and colliding with Liu's 12-month null
+  below), shifting the same food earlier in the day improved insulin sensitivity and blood pressure **with
+  no weight change at all**; the oxidative-stress gain was relative, driven by the control arm worsening
+  (p = 0.05).
 - **These do not conflict.** They test different exposures: *restrict the window whenever (and eat
   less if you happen to)* vs *shift eating earlier, calories held constant*. The naive *TREAT says TRE
   does nothing / eTRF says it does everything* tension dissolves once the exposures are separated
-  (parameter table below). The lever, where it exists, is **circadian timing**, not the *window* per
-  se — and it is small, short-tested, and on surrogates only.
+  (parameter table below). The lever, where it exists, is *candidate* **circadian timing** — though eTRF
+  varied window length and clock position together, so length is not excluded — and it is low-certainty,
+  short-tested, and on surrogates only (corrected 2026-10-06: *not the window per se ... small* ->
+  candidate timing, length not excluded, low-certainty; self-critique).
 
 
 
@@ -61,6 +68,8 @@ together they **decompose** the popular claim rather than settling it as a singl
 Eating bridges the two camps of the distribution-vs-total split -> [[Temporal Distribution vs Total Dose]]: the *window* is a rearrangement of the same calories and is null beyond the deficit, while
 *eating early* is a candidate circadian channel — a fragile, surrogate-only signal (n=8, not reproduced by
 Liu's 12-month RCT), the same weak-tier mechanism line as sleep-timing regularity.
+
+</div>
 
 ## The parameter table — why TREAT and eTRF are NOT the same quantity (op-weave 2a)
 
@@ -83,6 +92,8 @@ hides at least two distinct exposures that behave differently.
 
 
 [@lowe2020] [@sutton2018]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The decomposition — three separable claims
 
 1. ***Restrict your eating window whenever, change nothing else* → little independent effect on weight.**
@@ -93,13 +104,22 @@ hides at least two distinct exposures that behave differently.
    because the timing itself does something. [@lowe2020]
    The *not-because-timing* attribution is the wiki's inference, not Lowe's data — indeed Lowe found «no
    differences in estimated energy intake between groups» in its own trial. (corrected 2026-08-08)
-2. ***Shift eating EARLY, calories constant* → a real but small weight-independent metabolic signal.**
-   eTRF is the only trial here that isolates timing from energy, and it found improvements in insulin
-   sensitivity, β-cell responsiveness, BP and oxidative stress with **zero** weight change. If real,
+2. ***Shift eating EARLY, calories constant* → a *candidate* weight-independent metabolic signal, large in
+   point estimate but low in certainty (n=8, unreplicated, collides with Liu).** Sutton itself calls the BP
+   drop «surprisingly and dramatically large» for a 5-week diet. eTRF is the only trial here that isolates
+   timing from energy *at weight-maintenance (eucaloric) intake*; Liu isolates the window under a shared
+   deficit and finds no metabolic advantage (corrected 2026-10-06: *real but small*; *only trial ... isolates
+   timing* -> eucaloric scope; self-critique). eTRF found improvements in insulin
+   sensitivity, β-cell responsiveness, BP and oxidative stress with **zero** weight change — the
+   oxidative-stress result relative, at p = 0.05, with significant sequence/period effects: «The relative
+   improvement was driven by a worsening in the control arm». If real,
    this is a genuine circadian effect — metabolism «is optimized for food intake in the morning», so
    eating aligned to it helps. [@sutton2018]
    The mirror is that **late** eating tends to be worse (Sutton cites prior late-TRF trials that were
-   null or harmful) — so direction-of-shift, not window-length, carries the signal.
+   null or harmful) — so direction-of-shift is the *candidate* carrier, but eTRF varied length (6 h vs
+   12 h) and clock position together, and Sutton's own limitations call for trials «to determine the
+   optimal length and timing of the feeding period», so window-length is not excluded
+   (corrected 2026-10-06: *not window-length, carries the signal*; self-critique).
    **But the eTRF ledger is not all wins (added 2026-08-08).** eTRF also *raised* morning fasting lipids:
    «eTRF did increase morning fasting levels of triglycerides by 57 ± 13 mg/dL (p = 0.0007), which
    translated into a 13 ± 5 mg/dL relative increase in morning fasting levels of total cholesterol (p =
@@ -113,9 +133,16 @@ hides at least two distinct exposures that behave differently.
    between-group appendicular-lean-mass deficit — plausibly because a short ad-libitum window cuts
    **protein** intake and protein is eaten mostly at meals. A late/short window that quietly under-feeds
    protein trades fat-loss you wanted for muscle you didn't -> [[Protein and Resistance Training for Muscle and Strength]]. [@lowe2020]
+   Scope the harm: in TREAT's in-person DXA cohort (n=50) **total** lean mass did NOT differ between
+   groups (-0.75 kg, 99.7% CI -1.96 to 0.45, P=.09); the significant between-group deficit is **appendicular**
+   lean mass (-0.47 kg, 95% CI -0.82 to -0.12, P=.009) [@lowe2020] —
+   a signal on one small subsample, not a demonstrated whole-body lean-mass penalty.
 
 
 [@liu2022]
+
+</div>
+
 ## Liu 2022 — the RCT that isolates the schedule from the deficit
 
 The load-bearing gap the page previously named (*a calorie-matched TRE-vs-continuous-restriction test —
@@ -185,6 +212,8 @@ certainty neither source claims.
 
 
 [@semnaniazad2025]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The pooled IF picture (Semnani-Azad 2025 NMA) — confirms Liu, disambiguates the regimens
 
 The IF network-MA the page awaited is now held: **99 RCTs, 6582 adults**, CINeMA/GRADE, EASD-commissioned
@@ -193,7 +222,9 @@ The IF network-MA the page awaited is now held: **99 RCTs, 6582 adults**, CINeMA
 - **(1) It confirms Liu's single-RCT null at the pooled level (type-F, NOT type-E — shared trials).**
   Across the whole TRE evidence base, **TRE adds essentially nothing to a continuous deficit**: the
   TRE-vs-CER difference is a trivial 0.39 kg (the CER:TRE cell, moderate certainty; the tiny edge
-  nominally to CER) — as null as Liu's −1.8 kg. And vs ad-libitum, «TRE showed a
+  nominally to CER) — consistent in direction-of-verdict with Liu's non-significant −1.8 kg, though Liu's
+  point estimate sits near the 2.0 kg MID and its CI (−4.0 to 0.4) does not exclude a \~2 kg benefit
+  (corrected 2026-10-06: *as null as Liu's* -> consistent verdict, Liu's CI wide; self-critique). And vs ad-libitum, «TRE showed a
   trivial reduction (−1.72 kg (−2.21 to −1.22), moderate certainty of evidence)» — below the 2.0 kg MID.
   [@semnaniazad2025]
 - **(2) It disambiguates the IF umbrella (type-B).** "Intermittent fasting" is three distinct regimens
@@ -241,7 +272,7 @@ cites the same external proof-of-concept the page already holds. No independence
 | Parameter | Liu 2022 (single RCT) | Semnani-Azad 2025 (NMA) | Same quantity? |
 |---|---|---|---|
 | Comparison | TRE+deficit vs isocaloric CER | TRE vs CER (network estimate) | **yes** — window vs continuous deficit, weight |
-| Estimate | net −1.8 kg (95% CI −4.0 to 0.4, NS) | 0.39 kg (CER:TRE cell, moderate, NS) | consistent — both trivial/null (nominal signs differ, both non-meaningful) |
+| Estimate | net −1.8 kg (95% CI −4.0 to 0.4, NS) | 0.39 kg (CER:TRE cell, moderate, NS) | consistent — both non-significant; Liu's CI is wide (reaches −4.0 kg, past the 2.0 kg MID) (nominal signs differ) |
 | Evidence | 1 RCT, n=139, 12 mo | pooled TRE arms across 99 RCTs | **NO** — single trial vs pooled (Liu is *inside* the pool) |
 | Horizon | 12 mo | median 12 wk; ≥24 wk stratum also null | partly |
 
@@ -249,6 +280,7 @@ The two nulls agree and are the same conceptual quantity — but they are **not 
 the pooled trials). type-F: the NMA raises the *precision/generality* of Liu's reading, not a second
 witness to it.
 
+</div>
 
 ## Why this is not a filed tension (the not-joined check)
 
@@ -279,12 +311,15 @@ answer is held (meal count is not a weight lever independent of intake); the *me
 is a named gap (G), worth queuing only if a believer-facing deliverable needs the number.
 
 [inferred from @liu2022; @lowe2020]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 - **Do not sell TRE as a weight-loss method on its own.** For someone whose goal is weight, the honest
   message is: a shorter/later window helps *only if it makes you eat less and you can stick to it* — it
-  is a **delivery system for a calorie deficit**, and adherence, not timing, is what it buys
-  ([[Does Weight Loss Reduce Cardiovascular Events]]: weight loss itself is not even a proven hard-CV
+  is a **delivery system for a calorie deficit**, and adherence is what it *might* buy — untested here (Liu
+  found equal adherence, 84.0% vs 83.8%) (corrected 2026-10-06: *adherence ... is what it buys*; self-critique)
+ ([[Does Weight Loss Reduce Cardiovascular Events]]: weight loss itself is not even a proven hard-CV
   lever via lifestyle).
 - **If you do a window, putting it EARLY is the *better-supported* bet — but the support is weak and
   contested (corrected 2026-08-08).** The only weight-independent benefit signal is from *early* eating,
@@ -296,13 +331,16 @@ is a named gap (G), worth queuing only if a believer-facing deliverable needs th
   oxidative-stress improvements *and* its morning-fasting triglyceride/total-cholesterol *rise* are all
   markers with **no hard outcome and no weight change** — legitimate as a *target* only if transmission to
   a patient-important outcome is evidenced, which it is not here ([[Surrogate Outcomes]]).
-- **Ranks LOW as a lever.** Meal timing is heavily discussed relative to a small, surrogate-only,
-  weight-independent effect — the telos's *attention-is-an-anti-signal* rule applies with force
+- **Ranks LOW as a lever.** Meal timing is heavily discussed relative to a low-certainty, surrogate-only,
+  weight-independent candidate effect — the telos's *attention-is-an-anti-signal* rule applies with force
   ([[Layer 1 - Ranking Interventions for a Stratum]]).
 - **Which IF form, if any? ADF > TRE/WDF on weight, but the gap is trivial and short-lived.** If someone
   is set on an IF pattern for weight, the pooled evidence favours **alternate-day fasting** over a daily
   window or 5:2 (ADF vs TRE −1.69 kg, ADF vs WDF −1.05 kg) — but every one of these is below the 2.0 kg
-  clinical threshold and gone by ≥24 weeks. The honest ranking: pick the pattern you will *adhere to*;
+  clinical threshold, and at ≥24 weeks IF strategies are not detected to differ from CER (17 trials; the
+  source flags too few studies; the ≥24-wk ADF-vs-TRE estimate appears only in the Fig 5 summary grid,
+  −1.17 kg, moderate certainty, its significance not stated in the text) (corrected 2026-10-06: *gone by
+  ≥24 weeks*; self-critique). The honest ranking: pick the pattern you will *adhere to*;
   the regimen label is second-order to the deficit and to sticking with it. [@semnaniazad2025]
 - **The realistic pharmacological alternative dwarfs it (Layer 1).** Semnani-Azad's own contrast: «GLP-1
   receptor agonists, such as semaglutide, result in substantial weight reductions of 10-15% body weight
@@ -312,16 +350,20 @@ is a named gap (G), worth queuing only if a believer-facing deliverable needs th
   IF is a small lever beside the drug class ([[Semaglutide for Cardiovascular Risk in Obesity]],
   [[GLP-1 Non-Cardiometabolic Effects and Safety]]).
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Certainty and gaps
 
 - **`confidence: medium` (raised from low on Liu).** The *weak weight-loss rationale* leg is now firm — two
   RCTs, including a 12-month high-tier isocaloric head-to-head (Liu, n=139) that isolates the window and
-  finds it adds nothing. The *real early-timing benefit* leg still rests on a **single n=8 crossover** (eTRF)
+  finds no significant added effect (−1.8 kg, CI −4.0 to 0.4 — a CI that does not exclude a \~2 kg benefit;
+  corrected 2026-10-06 from *adds nothing*; self-critique). The *candidate early-timing benefit* leg still rests on a **single n=8 crossover** (eTRF)
   with the fasting-duration confound and morning-only measurement — genuinely preliminary. **And Liu is a
   disconfirming constraint on it, not out of bearing (corrected 2026-08-08).** Liu ran an early-ish window
-  (8am-4pm) at *matched* calories — the same weight-independent comparison design as eTRF — for 12 months
+  (8am-4pm) at *matched* calories — calorie-matched between arms, like eTRF (though free-living and
+  parallel, with both arms losing weight) — for 12 months
   and found **no between-arm metabolic advantage** on any secondary, including a 12-month systolic-BP
   between-arm difference of «−0.3 (−3.7 to 3.1)», a CI that excludes eTRF's −11 mm Hg. It is not a clean
   refutation (Liu's window is 8 h not 6 h, its control window was itself early-ish \~10 h, and its
@@ -338,7 +380,7 @@ is a named gap (G), worth queuing only if a believer-facing deliverable needs th
   fast, so the efficacious protocol may be the least feasible one — an 8h+ early window is the realistic
   target.
 
-
+</div>
 
 ## Self-critique `[run 2026-07-29, before commit]`
 

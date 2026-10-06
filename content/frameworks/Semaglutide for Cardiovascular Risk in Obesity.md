@@ -21,8 +21,8 @@ relationships:
     - Semaglutide and Kidney Outcomes in Chronic Kidney Disease
     - GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes
 created: 2026-07-28
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The telos puts pharmacotherapy in scope because **a drug is often the realistic alternative to a
@@ -52,6 +52,8 @@ cardiovascular disease and a body-mass index... of 27 or greater but no history 
 **secondary-prevention** population (prior MI, stroke, or symptomatic PAD), non-diabetic, with a placebo
 event rate of 8% over 3.3 years (\~2.4%/yr).
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The primary-prevention gap — stated by the trialists themselves
 
 This is the load-bearing limit, and it is not the wiki's inference — it is the paper's own:
@@ -70,7 +72,7 @@ required) — but its endpoint is weight and cardiometabolic surrogates, not eve
 hard-outcome trial — but only in secondary prevention. So: primary prevention has strong **surrogate**
 evidence and **zero hard-outcome** evidence; secondary prevention has the hard-outcome evidence. **No
 trial delivers a hard-outcome benefit in primary prevention** — the gap is not for want of looking at
-the drug, it is that the one relevant question has never been the endpoint of a trial in this
+the drug, it is that the one relevant question has never been tested for semaglutide in this
 population.
 
 **Two reasons the benefit would be smaller there even if the relative effect transported** — see
@@ -83,6 +85,10 @@ population.
 2. **The relative effect itself may not transport.** Mechanism (plaque already present vs not) differs
    between secondary and primary prevention; SELECT cannot speak to it.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Confirmed vs widely-repeated — the hierarchical-testing catch
 
 Only the **primary composite** is a confirmatory result. The pre-specified gatekeeping hierarchy tested
@@ -93,13 +99,22 @@ downstream is a point estimate, not a confirmed effect:
 - **All-cause mortality «0.81 (0.71 to 0.93)»** and **heart-failure composite «0.82 (0.71 to 0.96)»** —
   directionally favourable, statistically **non-confirmatory**. *Semaglutide reduces mortality* is a
   common but unlicensed reading of this trial.
-- **Non-fatal stroke «0.93 (0.74 to 1.15)» — not reduced.** (An aggregator SR of this literature was
-  seen reporting stroke as the *strongest* effect; reading the trial contradicts it.)
-- **Non-fatal MI «0.72 (0.61 to 0.85)»** and coronary revascularization «0.77 (0.68 to 0.87)» carry
-  most of the composite.
+- **Non-fatal stroke «0.93 (0.74 to 1.15)» — no reduction shown** (supportive, not
+  multiplicity-adjusted; the CI does not exclude a modest benefit). Nong's NMA reads it the same way
+  (likely re-pooling SELECT, so not independent — see below):
+  «Moderate certainty evidence showed that subcutaneous semaglutide probably had little or no effect on
+  the risk of stroke» [@nong2026obesity].
+- **Non-fatal MI «0.72 (0.61 to 0.85)»** carries most of the primary composite; coronary
+  revascularization «0.77 (0.68 to 0.87)» (part of the supportive *expanded* composite only, not the
+  primary one) moves in the same direction.
 
 
 [@lincoff2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Weight loss: the drug route to the biggest lever
 
 > body weight «-9.39» % vs «-0.88» % (difference «-8.51 (-8.75 to -8.27)» percentage points at week 104);
@@ -114,7 +129,7 @@ first to clear the bar. The drug and the lifestyle change are **not either/or** 
 route, combinable.
 
 
-[@lincoff2023]
+[@wilding2021]
 ### STEP-1: the primary-prevention arm — a bigger number, on a surrogate
 
 SELECT's 9.4% was measured in an older, established-CVD population. STEP-1 (Wilding, NEJM 2021) ran the
@@ -144,22 +159,32 @@ The two trials differ on exactly the axes that move weight response, so the comp
 The honest read is **\~15% in a primary-prevention obese adult, \~9% in an older secondary-prevention
 one** — a population-and-window difference, not evidence of a prevention-setting effect on the drug.
 
-Benefit separated «early after the initiation of treatment», before much weight was lost, so «more rapid
-treatment-induced physiological changes beyond the magnitude of body-weight loss may have mediated at
-least part of the cardiovascular benefit» — SBP fell «-3.31» mmHg and hsCRP «-37.82» % on top of high
+Back in SELECT: effects «occurred early after the initiation of treatment», and the authors read the data
+as «consistent with the between-group difference in the incidence of cardiovascular disease emerging
+early in this trial, which suggests that more rapid treatment-induced physiological changes beyond the
+magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit»
+[@lincoff2023] (no weight figure at
+the time of separation is reported; the hedges are the source's) — SBP fell «-3.31» mmHg and hsCRP «-37.82» % on top of high
 statin use. Mechanism is explicitly **speculative** in the source; do not treat any one surrogate as the
 transmission channel.
 
 
-[@wilding2021]
+[@lincoff2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The adherence cost is part of the effect
 
 An intervention not taken has no effect, and semaglutide has a real tolerability tax:
 
 > AE-driven discontinuation «1461 patients (16.6%)» vs «718 patients (8.2%)» (P<0.001), predominantly
 > gastrointestinal («880 patients (10.0%)» vs «172 patients (2.0%)»).
+> [@lincoff2023]
 
-Counter-weight: **serious** adverse events were *lower* on semaglutide («33.4%» vs «36.4%»). And the
+Counter-weight: **serious** adverse events were *lower* on
+semaglutide in SELECT («33.4%» vs «36.4%») [@lincoff2023]. And the
 weight benefit reverses on stopping — so this is a **sustained commitment**, the same
 *return-on-investment* framing [[Lifetime Benefit - The Frame for Younger Adults]] attaches to lifelong
 preventive therapy: a longer horizon is a longer treatment duration, not only a larger gain.
@@ -179,7 +204,15 @@ weight loss, with similar changes in cardiometabolic variables»
 |---|---|---|---|
 | Mean % body-weight change from baseline (sema) | «17.3%» loss | net «5.6%» loss | Yes — same construct, different timepoint |
 | Regain over the off-treatment year (sema) | — | «11.6 percentage points» (≈2/3 of loss) | Yes |
-| Holding ≥5% loss from baseline (sema) | 86.4% | «48.2%» | Yes — same threshold |» at week 68), NOT the Withdrawal 2022 extension the row is tagged to — the extension source contains only the 48.2%/22.6% week-120 figures (verified: 86.4 does not locate in the Withdrawal source; 48.2% of participants (95 of 197) IS the extension's week-120 semaglutide figure). Split the attribution: tag 86.4% to [@wilding2021] and add that slug to sources: (dual test — the row cites a distinct number from it). Route via a Lint/Revisit fabric pass. Surfaced by the GLP-1 Drugs compile.]
+| Holding ≥5% loss from baseline (sema) | «86.4%» (main-trial figure, cited by the extension paper) | «48.2%» (95 of 197, extension set) | Same threshold, **different analysis set** — 86.4% is over the main trial's semaglutide arm (1047 participants reached ≥5%; arm randomized n=1306), 48.2% over the extension subset |
+
+The week-68 cell: the extension paper itself states «although this proportion represented a substantial
+fall from that originally achieved at the end of 68 weeks of treatment (86.4%).»
+[@wilding2022], citing the main trial, where it is
+«1047 participants [86.4%]» [@wilding2021] —
+1047 participants reaching ≥5% in the main trial's semaglutide arm (1306 randomized), not the 197-person
+extension set, so the 86.4 -> 48.2 fall mixes a population
+change with regain. (the population-mix reading)
 
 Cardiometabolic gains reverted too: «Cardiometabolic improvements seen from week 0 to week 68 with
 semaglutide reverted towards baseline at week 120 for most variables» (SBP/DBP back to baseline; CRP,
@@ -190,26 +223,39 @@ treatment is required to maintain improvements in weight and health»
 - **Adherence is the effect, over years not months.** A GLP-1 course is not a one-time correction that
   banks a permanent gain; it is a *maintained state* whose benefit decays on the timescale of stopping.
   The realistic comparator to a lifestyle change must price lifelong cost, tolerability and reversibility.
-- **The regain is defended physiology, not relapse of resolve** -> [[Weight-Loss Maintenance and Metabolic Adaptation]]:
-  removing the exogenous satiety signal lets the post-loss appetite-hormone deficit reassert — the same
-  mechanism that makes *unaided* lifestyle maintenance fail. Note the caveat the source itself flags: the
+- **The regain is largely physiological, not simply relapse of resolve.** The authors attribute the
+  greater potential for regain to «physiological and behavioural factors» plus the withdrawn lifestyle
+  support [@wilding2022]. The appetite-hormone
+  mechanism (removing the exogenous satiety signal lets the post-loss appetite-hormone deficit reassert,
+  as in *unaided* lifestyle maintenance) is held on [[Weight-Loss Maintenance and Metabolic Adaptation]],
+  not measured in this source. Note the caveat the source itself flags: the
   extension also **withdrew the lifestyle support** (unlike STEP-4, which kept it), so part of the rapid
   regain is the loss of *both* props, not the drug alone.
 
 
 [@lincoff2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Diabetes prevention — a secondary signal that fits the prediabetic stratum
 
 Two-thirds of SELECT was prediabetic. Progression to diabetes was cut sharply:
-progression to HbA1c >=6.5% «0.27 (0.24 to 0.31)». STEP-1 shows the same in its younger
+progression to HbA1c >=6.5% «0.27 (0.24 to 0.31)» — a supportive secondary end point, not
+multiplicity-adjusted, which the trial says «should not be used to infer definitive treatment effects»
+[@lincoff2023]. STEP-1 shows the same in its younger
 primary-prevention population: among prediabetics, «84.1%» on semaglutide reverted to normoglycemia by
-week 68 vs «47.8%» on placebo. For an obese, impaired-fasting-glucose person this is a distinct,
+week 68 vs «47.8%» on placebo [@wilding2021]. For an obese, impaired-fasting-glucose person this is a distinct,
 plausibly-relevant benefit — though on a **surrogate** (glycemic threshold), not a patient-important
 outcome, and whether it lowers hard diabetes-related outcomes in primary prevention inherits the same
 caveat.
 
 
 [@jastreboff2022]
+
+</div>
+
 ## Tirzepatide (SURMOUNT-1) — the class efficacy high-water, but surrogate-only and CV-untested
 
 The best-evidenced *drug* on this page is semaglutide, but it is no longer the strongest **weight**
@@ -286,10 +332,13 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
 
 
 [@lincoff2023]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Provenance and limits
 
-- **Industry origin:** both trials were «Funded by Novo Nordisk» and sponsor-designed («The sponsor
-  (Novo Nordisk) designed the trial and oversaw its conduct» — STEP-1). A COI flag on both, not a
+- **Industry origin:** both trials were «Funded by Novo Nordisk»; STEP-1 was sponsor-designed («The sponsor
+  (Novo Nordisk) designed the trial and oversaw its conduct»), SELECT's protocol «was designed by the
+  sponsor, Novo Nordisk, and the academic steering committee». A COI flag on both, not a
   refutation — but the symmetric-standards rule applies, and two sponsor-run trials are not two
   independent lines of evidence.
 - **Two trials, one drug, one sponsor.** SELECT + STEP-1 are both semaglutide 2.4 mg. Tirzepatide (dual
@@ -310,16 +359,22 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
   echo, not independent backing of the obesity result (and Sattar is not held here). **Its successor now
   IS held** — the class CVOT+renal meta-analysis (Badve 2024, 11 trials) updates Sattar 2021 and holds
   the class-level pooled evidence on [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]:
-  the GLP-1 class cuts MACE «HR 0·87, 95% CI 0·81 to 0·93» and all-cause death «HR 0·88, 95% CI 0·83 to
-  0·93» (high-certainty), consistent regardless of diabetes status (p-heterogeneity vs SELECT 0·24 for
-  MACE) [@badve2024glp1]. This still is
-  **not** type-E independent backing of SELECT — Badve *pools SELECT itself* and shares its co-author
-  Colhoun — so it is class-level refinement (F), not corroboration by a separate route. What it changes:
+  in T2D trials (SELECT excluded) the GLP-1 class cuts MACE «HR 0·87, 95% CI 0·81 to 0·93» and all-cause
+  death «HR 0·88, 95% CI 0·83 to 0·93» (high-certainty); with SELECT post hoc included, MACE «HR 0·86,
+  95% CI 0·80 to 0·92» and all-cause death «HR 0·87, 95% CI 0·82 to 0·91», consistent regardless of
+  diabetes status (p-heterogeneity vs SELECT 0·24 for MACE)
+  [@badve2024glp1]. This still is **not** type-E independent backing of
+  SELECT — the T2D pool is a different population, the with-SELECT analysis pools SELECT itself, and
+  Colhoun co-authors both — so it is class-level refinement (F), not corroboration by a separate route. What it changes:
   SELECT is no longer the lone hard-outcome GLP-1 trial the wiki holds; the class effect is robust, but
   SELECT remains the *only* non-diabetic trial in the pool, so the primary-prevention gap this page
   centres is intact.
 
 [inferred from @lincoff2023; @wilding2021]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -327,14 +382,20 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
   MACE over \~3.3 years, on top of statins/antiplatelets, with a net-favourable serious-AE profile.
 - **Obese + primary prevention (low 10-year risk, CAC=0):** the hard-outcome benefit is **unproven** and
   would be **small in absolute terms even if it transported**. What *is* well-evidenced there (STEP-1) is
-  large and reliable: **\~15% weight loss** (half lose ≥15%), waist/BP/CRP improvement, and diabetes
-  prevention (84% revert from prediabetes) — all real, all **surrogate**. Rank the drug for such a person
+  large and reliable: **\~15% weight loss** (half lose ≥15%), waist/BP/CRP improvement, and prediabetes
+  reversion 84% vs 48% placebo (exploratory, on-drug; reverts towards baseline after stopping) — all
+  real, all **surrogate**. Rank the drug for such a person
   on the **weight lever and diabetes prevention**, not on a promised CV-event reduction.
 - **Against lifestyle:** not a substitution question with a fixed answer — same lever, and the swing
   factors are adherence, cost, GI tolerability, and reversibility on stopping, all elicited at layer 3.
 
 
 [inferred from @lincoff2023; @wilding2021]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The non-cardiometabolic ledger has its own home
 
 The CV/weight case above is only half the drug decision; the **non-cardiometabolic effects and harms**
@@ -342,15 +403,20 @@ The CV/weight case above is only half the drug decision; the **non-cardiometabol
 umbrella of 60 meta-analyses and held on [[GLP-1 Non-Cardiometabolic Effects and Safety]]. Three
 findings there bear directly on this page's decision:
 
-- the **GI tolerability tax** carried above (STEP-1 discontinuation) is corroborated at umbrella grade —
-  nausea OR 2.47, vomiting OR 2.78, diarrhea OR 1.94 [@yang2026];
-- the **rodent thyroid-C-cell concern** shows **no robust human signal** (thyroid cancer OR 1.43,
-  0.95-2.13, NS), confirming the transportability read used here [@yang2026];
-- a **protective fracture signal** (OR 0.67, 0.52-0.87) partly offsets the sarcopenia/fall worry that
-  rapid weight loss otherwise raises [@yang2026].
+- the **GI tolerability tax** carried above (SELECT discontinuation 16.6% vs 8.2%; STEP-1 7.0% vs 3.1%)
+  is corroborated at umbrella grade — nausea OR 2.47, vomiting OR 2.78, diarrhea OR 1.94 [@yang2026];
+- the **rodent thyroid-C-cell concern** is **unresolved, not ruled out**: thyroid cancer OR 1.43
+  (0.95-2.13) is «an imprecise, nonstatistically significant estimate compatible with higher odds»
+  [@yang2026];
+- a **possible lower fracture risk** (OR 0.67, 0.52-0.87) — one of the outcomes that «did not reach the
+  prespecified high-credibility threshold» but «showed possible signals», from a mostly-T2D evidence base,
+  so too weak to offset the sarcopenia/fall worry rapid weight loss raises in obese non-diabetic users
+  [@yang2026].
 
 Most other non-cardiometabolic signals are exploratory (single-trial-fragile), so they refine rather
 than reverse the net-benefit picture above.
+
+</div>
 
 ## The cross-drug placement — sole hard-outcome drug, but the signal is this page's own trials `[2026-08-22, Nong]`
 
@@ -376,12 +442,21 @@ the mortality signal remains a **route-(a)** finding concentrated where CV risk 
 [inferred from @nong2026obesity]
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Gaps this opens
 
-- **No primary-prevention CV-outcome trial** for any obesity drug — the single largest hole for applying
-  this to a low-risk stratum. G.
+- **No obesity-drug trial has shown hard-outcome benefit in a primary-prevention population** — earlier
+  obesity-drug CV trials (e.g. naltrexone-bupropion in patients with risk factors; lorcaserin — cited by
+  Lincoff among the trials lacking evidence of CV benefit
+  [@lincoff2023]) produced none, and semaglutide's
+  primary-prevention effect is untested. The single largest hole for applying this to a low-risk
+  stratum. G. (corrected 2026-10-06: *no primary-prevention CV-outcome trial for any obesity drug* ->
+  no trial showing benefit; self-critique)
 - **No head-to-head** of drug vs sustained lifestyle vs bariatric surgery on hard outcomes.
 - **Weight loss on hard outcomes as an exposure in its own right** (independent of the drug) is still
   unheld -> [[Weight Loss and Mortality]] (a future page, not yet a held source).
+
+</div>
 
 ## References

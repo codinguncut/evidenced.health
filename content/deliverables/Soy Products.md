@@ -11,7 +11,6 @@ aliases: [Soy, Soybeans, Soyfoods, Tofu, Edamame, Soy Milk, Soymilk, Isoflavones
 authors: [Reed, Katharine E; Chen, Meinan; Anderson, James W; Blanco Mejia, Sonia; Cui, Chendi; Nachvak, Seyed Mostafa; Sadeghi, Omid]
 sources: [Reed - Soy Isoflavones Male Reproductive Hormones MA 2021, Chen - Soy Isoflavone Breast Cancer Pre Postmenopausal MA 2014, Anderson - Soy Protein Serum Lipids Meta-Analysis 1995, Blanco Mejia - Soy Protein Serum Lipids 2019, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019]
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 This page appraises what the evidence says about soy for anyone the studies speak to — general and
 population-level, not advice for one person. Whether and which soy *you* should eat depends on your
@@ -23,10 +22,6 @@ bean, the fermented paste, and the soy-sauce condiment are **different exposures
 evidence — each question below was tested on a different one -> [[Is the Food Category Doing Any Work]].
 When a benefit or a risk is pinned on "soy" without saying *which* soy, that is the tell it has outrun the
 evidence.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The bottom line, per outcome
 
@@ -62,7 +57,6 @@ reach what a person feels is a further, separate claim. The one hard-event outco
 observational and drawn mostly from high-intake Asian cohorts, so it too is a soft, low-certainty lever
 rather than a demonstrated longevity effect.
 
-</div>
 
 ## How good is the evidence — read this first
 
@@ -147,8 +141,6 @@ mechanism predicts. Hormone
 levels are themselves a surrogate for the endpoints of fertility and feminization -> [[Surrogate Outcomes]].
 [@reed2021]
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Breast cancer: neutral-to-protective, never raised — but design-confounded
 
 Chen 2014 pooled 35 epidemiological studies of high-versus-low isoflavone intake, stratified by menopausal
@@ -180,8 +172,6 @@ across subgroups, with publication bias detected on Egger's test, and the strong
 defensible claim is "not a risk, and plausibly protective under lifelong high intake" — not "soy prevents
 breast cancer".
 [@chen2014]
-
-</div>
 
 ## Isolated soy protein modestly lowers LDL
 
@@ -304,8 +294,6 @@ signal is soft, and soy protein moves only a survivor breast-cancer endpoint. Th
 the surrogate story above — a modest, mostly-Asian-derived association, not a demonstrated longevity
 intervention for a Western adult adding soy later.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The forms are not interchangeable — specify the exposure
 
 "Soy" names several exposures with different active fractions and different evidence, so the word is too
@@ -328,8 +316,6 @@ different soy exposure. So the composite answer is not "soy does X" but a form-i
 protein moves LDL, the isoflavone-bearing foods leave male hormones unmoved and sit neutral-to-protective
 on breast cancer, and the condiment does nothing.
 
-</div>
-
 ## Antinutrients and thyroid: named gaps, not findings
 
 Two recurring soy concerns sit outside the evidence appraised above. Naming them as gaps is a result in
@@ -345,8 +331,6 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   lives at [[Antinutrients in Plant Foods]]: reduced by fermentation and soaking, and a concern only at
   the margin of mineral status, not a general harm. This page extracts no soy-specific outcome evidence.
 
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Putting it together
 
@@ -369,9 +353,6 @@ itself: it keeps "unstudied" apart from "shown safe", and neither is asserted no
   soy's case rests on the substitution as much as on anything intrinsic; your sex, menopausal status,
   baseline LDL, iodine status, and realistic alternative set the individual weighting, at layer 3.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What this appraisal cannot yet answer
 
@@ -424,7 +405,5 @@ The honest edge of this page. Each item is unstudied-here, not scored safe.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Soy%20Products.md) |
-
-</div>
 
 ## References

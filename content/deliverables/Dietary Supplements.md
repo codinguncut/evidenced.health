@@ -5,11 +5,11 @@ aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin,
 confidence: medium
 created: 2026-07-30
 updated: 2026-10-02
-self_critiqued: 2026-10-02
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T; Sherrington, Catherine]
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019, Sherrington - Exercise Preventing Falls 2019]
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -332,6 +332,8 @@ pregnant, so supplementation must be in place beforehand
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
 Bone brings the repletion/enhancement split, the stratum question, and the net-effect ledger
@@ -384,9 +386,13 @@ calcium intake», its proposed mechanism the abrupt serum-calcium spike after a 
 [@bolland2011], so it does not transport to dairy
 -> [[Is the Food Category Doing Any Work]]. Decision by stratum: for the **community-dwelling replete**,
 the whole-strategy ledger runs against the supplement (no benefit + stone harm + a contested CV signal),
-and the fracture lever is **exercise**, not the pill -> [[Exercise for Preventing Falls in Older Adults]];
+and the better-evidenced lever is **exercise**, not the pill: it cuts falls with high certainty, while its
+fracture signal is low-certainty (fall-related fractures RR 0.73, 0.56-0.95, 10 RCTs)
+[@sherrington2019] -> [[Exercise for Preventing Falls in Older Adults]];
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
+
+</div>
 
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
@@ -473,6 +479,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint. The repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The bottom line
 
 #### The general-population defaults
@@ -495,7 +503,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   general population, and it does not revive the multivitamin/vitamin-D case for the well-nourished.
 - **Reserve calcium + vitamin D for the frail/institutionalized/deficient elderly**, where a small
   hip-fracture benefit exists; for a healthy community-dweller it does not, and it carries kidney-stone
-  and contested cardiovascular harms — exercise is the fracture lever.
+  and contested cardiovascular harms — exercise is the better-evidenced lever (high certainty on falls,
+  low certainty on fractures).
 - **If you have intermediate age-related macular degeneration: the AREDS antioxidant+zinc formula is a
   real, disease-defined benefit.** Evans 2023 (gold Cochrane) finds it «probably slows down progression to
   late AMD» [@evans2023amdsupp] — OR 0.72
@@ -508,7 +517,9 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Caveats
 
@@ -529,9 +540,9 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 32 sources — 17 gold, 14 high, 1 moderate |
+> | **Evidence included** | 33 sources — 18 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kreider (consensus, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Kreider (consensus, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 </div>

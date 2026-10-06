@@ -6,7 +6,7 @@ authors: [Aune, Dagfinn; Jayedi, Ahmad; Kazemi, Asma; Soltani, Sepideh; Rezaei, 
 sources: [Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Singh - Blue-Light Filtering Lenses 2023]
 confidence: low
 created: 2026-08-27
-updated: 2026-09-26
+updated: 2026-10-06
 self_critiqued: 2026-09-15
 relationships:
   related_to:
@@ -171,6 +171,8 @@ infarction and subclinical-CVD risk). AMD and CVD share a vascular/atherosclerot
 precedes which is unresolved — the safe reading is co-occurrence / shared risk substrate, not
 CVD-causes-AMD.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Antioxidant + zinc supplementation (AREDS formula) — RCT-backed *benefit* on progression, defined stratum
 
 Evans 2023 — a gold Cochrane SR+MA — is the first **intervention** arm on this page — RCTs in people who
@@ -193,6 +195,12 @@ little evidence for the effectiveness». [@evans2023amdsupp]
   effect vs placebo (late AMD RR 0.94, 0.87–1.01) but is a **suitable beta-carotene replacement** on
   exploratory AREDS2 subgroup analysis (almost all participants also took the base formula, so no clean
   placebo). [@evans2023amdsupp]
+  **Gap — no dietary-intake responder cut is held.** The held Cochrane review reports the AREDS2
+  L/Z-for-beta-carotene subgroup only by outcome, not by baseline dietary L/Z intake
+  [searched: dietary intake/lowest/quintile/low dietary across Evans chunks 01-06 — 0 hits; positive
+  control lutein/subgroup fire], so a route-(b) low-intake responder stratum for L/Z cannot be asserted
+  from held fabric; whether the primary AREDS2 report carries one is unverified here (belief-harvest
+  C7) [inferred from @evans2023amdsupp].
 
 **The net-effect counterweight — the same class the general-population evidence flags as harmful.**
 Beta-carotene raised lung cancer within AREDS2 itself — «increased risk of lung cancer in the
@@ -218,6 +226,8 @@ not genotype.
 well-nourished American population where supplementation is common – can be extrapolated to other
 settings and populations is unclear.» [@evans2023amdsupp]. Whether the benefit is enhancement or correction of a marginal-intake state
 is untested — a well-nourished cohort cannot separate them.
+
+</div>
 
 ## Decision relevance (Layer 1)
 

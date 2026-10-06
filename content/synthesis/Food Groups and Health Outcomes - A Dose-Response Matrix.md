@@ -2,14 +2,14 @@
 type: synthesis
 aliases: [Food Group Dose-Response Matrix, Which Food Groups Move Which Outcomes, DIfE Boeing Food Group Series]
 question: For each of 12 major food groups, which patient-important outcomes does a defined serving increment move, in which direction, by how much, and with what certainty?
-authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Papier, Keren; Knuppel, Anika; Key, Tim J; Zhong, Victor W]
-sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Papier - Meat Ischemic Heart Disease Meta-Analysis 2021, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
+authors: [Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Papier, Keren; Knuppel, Anika; Key, Tim J; Zhong, Victor W; Li, Guangling; Jiang, Jiangang; Li, Zeping]
+sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Papier - Meat Ischemic Heart Disease Meta-Analysis 2021, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020, Li - Red Processed Meat CVD T2D Mendelian Randomization 2024]
 cluster: food-group-dose-response
 nucleus: true
 confidence: moderate
-self_critiqued: 2026-09-08
+self_critiqued: 2026-10-06
 created: 2026-08-28
-updated: 2026-09-08
+updated: 2026-10-06
 relationships:
   related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
@@ -218,6 +218,69 @@ lower arm, so the *every-reduction-pays* default holds for the harmful rows.
 [@zhong2020meat]
 -> [[The U-Shaped Association Artifact]]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Genetic-instrument check on the meat rows (Li 2024 MR) `[2026-10-06]`
+
+A two-sample Mendelian-randomization study instrumented UK Biobank intake of processed meat, pork, beef
+and lamb and tested CAD, hypertension, stroke and T2D. Every IVW estimate was null: «Inverse-variance
+weighted analyses reveal no causal association between the consumption of processed and red meat and the
+incidence of CAD, hypertension, stroke, and T2DM (P > 0.05).»
+[@li2024meatmr]. The question for this
+page is whether that null bears on the matrix cells. It mostly does not, for the reasons below.
+
+### Parameter table — matrix cell vs MR estimate (same quantity?)
+
+| Parameter | Matrix cell (observational dose-response MA) | Li 2024 MR (IVW) | Same quantity? |
+|---|---|---|---|
+| Exposure contrast | per 100 g/d red meat, per 50 g/d processed meat | per unit of genetically predicted UK Biobank intake answer; unit never stated | **No** |
+| Meat definition | red meat pooled; processed meat pooled | pork, beef, lamb separately; processed meat | **No** for red meat |
+| T2D estimate | red 1.17 (1.08-1.26); processed 1.37 (1.22-1.55) | beef 1.803 (0.867-3.750); pork 1.235 (0.362-4.223); lamb 0.929 (0.498-1.733); processed 1.090 (0.714-1.664) | **No** (RR per gram vs OR per unknown unit) |
+| CHD/CAD estimate | red 1.15 (1.08-1.23); processed 1.27 (1.09-1.49) | beef 1.182 (0.702-1.989); processed 0.935 (0.630-1.386) | **No** (same reason) |
+| Confounding control | multivariable adjustment in cohorts | genetic instrument; PhenoScanner screen for SNPs tied to the outcome diseases (Methods) or unnamed *confounding factors* (Results), MR-Egger intercept | different design, not a parameter |
+
+Matrix T2D values [@schwingshackl2017t2d];
+CHD values [@bechthold2019];
+MR values [@li2024meatmr].
+Because no row reaches *yes*, no direct contradiction or confirmation of a matrix cell is claimed here.
+
+### Expectancy test — could this MR have seen the effect?
+
+- **On CAD and T2D, apparently not.** Read heuristically, and only if one genetically predicted unit is
+  roughly one serving (unverifiable, since the unit is unstated): each CAD/T2D interval contains both OR 1
+  and the observational 1.15-1.37 (e.g. processed->T2D 0.71-1.66, beef->T2D 0.87-3.75, beef->CAD
+  0.70-1.99). That
+  is the **insufficient-evidence** state, not *no meaningful effect*.
+- **On hypertension and stroke, the estimates are not interpretable yet.** Their intervals are far
+  narrower than CAD's despite similar or much smaller case counts, which suggests linear-probability
+  outcome betas rather than log-odds; the paper does not state the scale (detail on the source page).
+  The hypothesis cuts both ways: if these betas are in fact log-odds, the hypertension and stroke rows are
+  precise nulls the matrix's HTN and stroke cells would have to answer. It is an open check, not a free
+  pass.
+- **Missing features that would make a null informative:** no stated exposure unit, no power calculation,
+  no F values in the main text (only the F>10 cut-off; supplement unheld), no sample-overlap assessment, no *named* BMI or education
+  pleiotropy screen for instruments the authors themselves describe as «SNPs related to the dietary
+  preference of red and processed meat»
+  [@li2024meatmr]. Weak instruments bias toward the null only when exposure and outcome samples do not
+  overlap; with possible UK Biobank overlap (unassessed) the bias runs toward the confounded observational
+  association, so the direction of weak-instrument bias in this study is unknown.
+- **Symmetric standard.** A harm finding from an MR with the same instruments (preference SNPs, no named
+  BMI/education screen, no overlap handling) would earn the same validity discount.
+  The authors' line that their findings «challenge the prevailing conventional perspective in the field»
+  [@li2024meatmr] outruns their own
+  intervals.
+
+**Net effect on the matrix:** the meat cells keep their grades and their association-not-
+causation caveat. What changes is the description of the gap: a genetic test has been attempted once, at
+a precision that cannot separate the observational effect size from zero. Value: **F** (corrects *no MR in
+either direction*) + **G** (below). Not **D**: the issue is not joined, since the quantities differ and the
+intervals overlap. Not **E**: not concordant, and Li shares its exposure GWAS with the only earlier
+meat->CVD MR it cites (Yang 2023, not held).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 
 This is the Layer-1 input the series was acquired for -> [[Layer 1 - Ranking Interventions for a Stratum]]. Ranking by **direction-consistency x magnitude x certainty**, net of each cell's
@@ -243,12 +306,20 @@ holds this cell OPEN in both directions (untested for causation), not as a demon
 - **Guideline-adherence confounding is a self-fulfilling pathway the design cannot exclude.** Because guidance itself instructs the health-conscious to cut red meat, red-meat *avoidance* is collinear with the whole guideline-adherence bundle (not smoking, exercising, screening, taking prescribed medication). In a population that is heavily prediabetic/dysglycemic, avoiders may develop less T2D partly *because* they are adherent — so the guideline, not the meat, can be the operative cause. This is a sharpened form of healthy-user confounding that is especially hard to adjust away, precisely because the exposure is itself the subject of the guidance. The bundle's manufacturable magnitude is not small: adherence to a *placebo* alone carried «lower mortality (0.56, 0.43 to 0.74)» [@simpson2006adherence] — an all-cause-mortality OR the health-conscious bundle produces with zero causal input -> [[The Observational-Trial Discordance]].
 - **The signal is not stratum-stable.** The red-meat association "could not be confirmed pooling two Asian studies," and the Shanghai Women's Health Study showed "an inverse association between red meat and T2D among normal weight women and an increased risk among obese women" [@schwingshackl2017t2d] — a within-population flip that tracks adiposity, not red meat per se.
 - **No natural experiment either way.** No Mendelian-randomization or feeding trial isolates red-meat (or heme-iron) -> T2D in either direction. So — symmetric with coffee -> T2D, which the fabric downgrades to insufficient-for-causation on a *null* MR — red meat is LESS resolved than coffee (untested, not disconfirmed): held open, neither established-harmful nor shown-benign -> [[The Observational-Trial Discordance]].
+  - *Superseded in part `[2026-10-06, Li 2024]`:* one intake-instrumented MR is now held (processed meat,
+    pork, beef, lamb -> T2D, all IVW null), so *no Mendelian-randomization* no longer holds for red meat.
+    It does not resolve the cell: its intervals contain the observational estimates and its exposure unit is
+    unstated, so the cell moves from *untested* to *tested once, insufficient* and stays open both ways.
+    Still no MR isolates heme iron, and no feeding trial exists
+    -> *Genetic-instrument check on the meat rows* above.
 
 **Weak or null levers (the ceiling-is-a-finding cases).** Refined grains are essentially null
 everywhere except mild adiposity harm at high intake; legumes are null in most **linear** cells
 (protective only non-linearly); vegetables are weak and **null for hypertension and adiposity**;
 eggs are mostly null/insufficient. For a stratum already eating these, the marginal lever is
 small by construction.
+
+</div>
 
 ## Divergence findings — outcome-specificity is the informative signal
 
@@ -267,6 +338,8 @@ already holds. The **divergences** are where the matrix earns its place:
 - **SSB** — strong cardiometabolic harm but **null for all-cause mortality** (the mortality CI
   is wide, 0.91-1.18 — an unmeasured, not a demonstrated-absent, effect).
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Shape honesty — where the curve has a knee or plateau
 
 Most linear cells are **monotone over the studied range only** — do not read more-is-always-better
@@ -279,14 +352,19 @@ past the data edge. Reported non-linear features:
   low intake.
   [@schwingshackl2017mort]
 - **Whole grains** most benefit by \~50 g/d (T2D) to \~100 g/d (CHD).
-- **SSB->T2D** is monotone increasing across the **entire** studied range — no threshold, every
-  increment adds risk.
+- **SSB->T2D** is monotone increasing over the studied range — the included studies' overall intake
+  range is **0-748 mL/d** — non-linear in shape but with risk rising «throughout all the range of SSB
+  investigated»; no threshold is shown within that range, and nothing is said above it
+  (corrected 2026-10-06: *across the entire range, every increment adds risk* -> monotone over 0-748
+  mL/d only).
   [@schwingshackl2017t2d]
 - **Refined grains->adiposity** is J-shaped, harm emerging above \~90 g/d.
 
 The plateaus mean over-shooting a protective food merely fails to add benefit (rarely harms) —
 the *every-reduction-pays* default holds for the harmful foods, whose curves show no protective
 lower arm. -> [[The U-Shaped Association Artifact]]
+
+</div>
 
 ## Cross-source check — the legume row against a dedicated legume SR+MA `[2026-08-28, Thorisdottir]`
 
@@ -328,6 +406,8 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Gaps (type-G)
 
 - All cells are **observational** (prospective cohorts) with self-reported intake; dietary
@@ -336,7 +416,8 @@ they cannot contradict — but laid together they pose the level-of-analysis que
 - No cell isolates a **substitution** (what replaces the food) — the RRs are addition-to-diet
   contrasts, so the Layer-3 replacement question (whole grains *instead of* refined) is unanswered
   here. `G (needs a substitution/network meta-analysis)`.
-- No **genetic (Mendelian-randomization) or feeding-trial** evidence isolates red-meat or heme-iron
+- No **genetic (Mendelian-randomization) or feeding-trial** evidence (superseded in part `[2026-10-06]`, see
+  the sub-bullet) isolates red-meat or heme-iron
   -> T2D in either direction; the red/processed-meat T2D cells rest entirely on observational
   association. Heme iron is now held as an attributed observational channel for *cancer*, *all-cause /
   cause-specific mortality* (the latter via one large cohort's mediation model), AND *T2D* — the T2D leg
@@ -346,6 +427,12 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   T2D is a *natural experiment*: a heme-iron -> T2D Mendelian-randomization or adherence-controlled
   feeding design remains the named decider for whether this cell is causal rather than confounded by red
   meat. `G (needs a genetic/MR or feeding-trial test)`.
+  - *Refined `[2026-10-06]`:* a red/processed-meat intake MR is now held (Li 2024) and is uninformative at
+    the needed precision (see the genetic-instrument section). The gap is now specific: a meat-intake MR
+    that states its exposure unit, reports instrument F values and power against the observational effect
+    size, handles sample overlap, and screens instruments for BMI/education pleiotropy, ideally pooled
+    across MRs — what it would unlock: whether the red/processed-meat T2D and CHD cells are
+    causal.
 - **CASHED for the meat rows `[2026-09-08]`** — the series computes no **absolute** risk, so its RRs
   could not be sized against a drug comparator (Layer-1). Zhong 2020 now supplies a US-adult baseline
   (incident CVD 13.2 / 1000 py, ACM 15.8 / 1000 py) and a 30-year ARD for processed and unprocessed red
@@ -353,5 +440,7 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   for the non-meat rows (whole grains, fruit, vegetables, dairy, nuts, SSB), which have no absolute
   anchor held; the mortality paper's *optimal-combined-intake* -> 56% relative reduction figure is still
   relative-only. `G (needs a baseline-risk source per stratum — non-meat rows)`.
+
+</div>
 
 ## References

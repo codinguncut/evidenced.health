@@ -8,7 +8,6 @@ created: 2026-08-04
 updated: 2026-08-27
 concrete_subject_audited: 2026-08-27
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 *This page has been folded into [[Dietary Fat]].*
 
@@ -45,5 +44,3 @@ argument, in either direction.
 > | **Overall certainty** | **Not stated** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-08-27 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Seed%20Oils.md) |
-
-</div>

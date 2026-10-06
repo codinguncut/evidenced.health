@@ -9,8 +9,8 @@ relationships:
   related_to: [Weight-Loss Maintenance and Metabolic Adaptation, The Disease Model of Obesity, Semaglutide for Cardiovascular Risk in Obesity, Does Weight Loss Reduce Cardiovascular Events, GLP-1 and Lean Mass]
 confidence: medium
 created: 2026-08-22
-updated: 2026-08-22
-self_critiqued: 2026-08-22
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The defended-setpoint model (why diet-induced loss is resisted and regain is the norm) is held on
@@ -31,17 +31,25 @@ The held evidence supports override and (for one intervention) a durable loss th
 standing prop; it gives **no** support for *reset by attrition* — the defended level weakening merely
 because reduced weight is maintained over time.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Does holding weight low weaken the setpoint over time? [EXTRACTED]
 
 **No held human evidence that maintenance duration weakens the defense — and the nearest measurement
-runs the other way.** Sumithran 2011 tracked the appetite-hormone profile to one year into
-maintenance and found the shift still present: «One year after initial weight reduction, levels of
+shows the defense still present at 12 months, in a partly-regaining cohort.** Sumithran 2011 tracked
+the appetite-hormone profile to one year after loss (a maintenance-advice phase during which weight was
+partly regained) and found the shift still present: «One year after initial weight reduction, levels of
 the circulating mediators of appetite that encourage weight regain after diet-induced weight loss do
 not revert to the levels recorded before weight loss...»
 [@sumithran2011]. Twelve months in — twice a
-six-month window — hunger is still up and
-satiety still down. So six months of maintenance should be expected to leave the defense intact, not
-worn down.
+six-month window — hunger is still up and the satiety hormones (PYY, CCK) still down; subjective
+fullness was not significantly below baseline at week 62. But the cohort had regained 5.5 kg of the
+13.5 kg lost between weeks 10 and 62; over that interval ghrelin fell and the leptin:fat-mass ratio
+rose (partial reversion) while PYY fell further — a mixed, regain-confounded pattern, not a clean
+test of *held* weight [@sumithran2011].
+(corrected 2026-10-06: *runs the other way* / *satiety still down* -> still-present-not-yet-gone,
+satiety hormones only; self-critique.) So six months of maintenance gives no reason to expect the
+defense worn down — the held measurement shows it not yet gone.
 
 Four bounds make the *reset* question genuinely open rather than answered *no* — they are the reason
 this page will not assert a permanent defense either
@@ -50,7 +58,9 @@ this page will not assert a permanent defense either
 - **Persistence is measured only to 12 months.** *Permanent* defense is an extrapolation beyond the
   data; the candidate long-term dataset (Biggest Loser 6-year follow-up) was assessed and **cut**
   below the quality bar, so the fabric holds nothing on multi-year persistence.
-- **The still-lighter-body confound.** At 12 months participants were still \~8% below baseline, so
+- **The still-lighter-body confound — and the regain.** At 12 months participants were still \~8% below
+  baseline after regaining \~5.5 kg from the week-10 nadir (so the panel is not measured at *held*
+  weight), so
   every hormone difference is confounded with genuinely being a smaller person. The competing reading
   — that these are simply the hormone levels *appropriate to a lighter body*, not an adaptation *over
   and above* it — is excluded for **leptin only**: «Reductions in leptin lev-els from baseline at
@@ -67,6 +77,10 @@ Bottom line on the direct question: **holding weight low for six months has no h
 weakening the setpoint**, and the mechanism by which time-at-reduced-weight would reset it is not
 established in anything the fabric holds.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The mitigation taxonomy — sorted by what each does to the setpoint
 
 ### Override it — GLP-1/GIP drugs (best-evidenced; not a reset) [EXTRACTED]
@@ -77,7 +91,9 @@ semaglutide after 68 weeks returned most of the lost weight — «Following trea
 semaglutide and placebo participants regained 11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of
 lost weight, respectively, by week 120...» [@wilding2022].
 
-Uniquely among the counters, this route has **hard-outcome** evidence: SELECT cut major
+Uniquely among the counters, this route has **randomised** hard-outcome evidence (surgery's
+mortality evidence, below, is from a matched non-randomised cohort; corrected 2026-10-06: *hard-outcome*
+-> *randomised hard-outcome*; self-critique): SELECT cut major
 cardiovascular events — «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90; P<0.001»
 [@lincoff2023] — but only in
 **established cardiovascular disease (secondary prevention)**, with no hard-outcome evidence in
@@ -88,7 +104,10 @@ setpoint and is then stopped.
 ### Durably lower it — bariatric surgery (the one held durable large loss) [EXTRACTED]
 
 Surgery is the only held intervention that produces a large loss which **holds without a standing
-external agent**: \~14-25% sustained at 10 years -> [[Does Weight Loss Reduce Cardiovascular Events]],
+external agent**: \~14-25% sustained at 10 years (by procedure: gastric bypass 25%, vertical-banded
+gastroplasty 16%, banding 14% — «After 10 years, the weight losses from baseline were stabilized at 25%,
+16%, and 14%, respectively.» [@sjostrom2007])
+-> [[Does Weight Loss Reduce Cardiovascular Events]],
 with an all-cause mortality benefit — «The unadjusted overall hazard ratio was 0.76 in the surgery
 group (P = 0.04)... and the hazard ratio adjusted for sex, age, and risk factors was 0.71 (P =
 0.01).» [@sjostrom2007]. This is the closest
@@ -113,6 +132,8 @@ head-to-head of drug vs sustained lifestyle vs surgery on hard outcomes is held.
   held that the same lever works better earlier), not an evidenced subgroup effect
   -> [[The Disease Model of Obesity]].
 
+</div>
+
 ## Synthesis
 
 **The single load-bearing move:** the held evidence supports *countering* a defended setpoint far
@@ -121,17 +142,17 @@ better than *weakening it by waiting*. Drugs **override** it (and revert on stop
 *reset* is inferred, not proven); protein/resistance training **blunts one arm**; prevention **avoids
 provoking** it. None of these is a *reset by maintenance duration*, and the direct question —
 does six months at reduced weight wear the defense down? — has no held support and a 12-month
-measurement pointing against it.
+measurement (in a partly-regaining cohort) showing the defense not yet gone.
 
 This inverts the intuitive plan. *Hold the line long enough and it gets easier* is the reset model;
 the evidence fits an **override / durably-lower** model instead, where either you keep a standing prop
-in place (drug, environment) or you make a one-time structural change (surgery) — and simply enduring
-does not retire the defense. It is the same lesson [[The Disease Model of Obesity]] draws for the
-willpower model, applied to the *time* axis: duration is not the lever people assume it is.
+in place (drug, environment) or you make a one-time structural change (surgery) — and nothing held shows
+that simply enduring retires the defense. It is the same lesson [[The Disease Model of Obesity]] draws for the
+willpower model, applied to the *time* axis: duration has no held support as the lever people assume it is.
 
 **Honest limits.** The reset-question answer rests on a single small VLCD cohort (Sumithran, 34
 completers — and the hormone panel is conditioned on >=10% achieved loss, so it is measured only in
-strong responders) plus RCTs never designed to test setpoint reset; the *adaptation over and above
+strong responders, who then partly regained) plus RCTs never designed to test setpoint reset; the *adaptation over and above
 current body size* is cleanly established only for leptin; and the loop is open — no operation here
 grades any
 of this against a realized long-term outcome (the wiki grades coherence and source-fidelity, not

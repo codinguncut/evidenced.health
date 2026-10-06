@@ -9,8 +9,8 @@ relationships:
   related_to: [Model Error vs Sampling Error, Net Effect vs Intended Effect, Weight-Loss Maintenance and Metabolic Adaptation, GLP-1 Drugs, Which Questions Get Studied]
 confidence: medium
 created: 2026-08-22
-updated: 2026-08-22
-self_critiqued: 2026-08-22
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **The decision question.** When someone with obesity loses weight and regains it, what does the
@@ -46,24 +46,36 @@ This is the mechanism catalogued in detail on [[Weight-Loss Maintenance and Meta
 the point here is what it means for the *model*: the difficulty of maintenance is a property of the
 regulated system, not a measure of the person's resolve.
 
-## Pharmacology proves the mechanism — and proves the defense is still there underneath [EXTRACTED]
+<div class="recent-update" data-last-updated="2026-10-06">
 
-If obesity were a willpower deficit, a drug acting on appetite biology could not produce the effect
-sizes lifestyle advice cannot. It does. In SURMOUNT-1, tirzepatide (a GIP/GLP-1 agonist) drove: «The
+## Pharmacology is consistent with the mechanism — and with a defense still there underneath [EXTRACTED]
+
+A drug acting on appetite biology produces effect sizes that structured lifestyle programmes do not.
+In SURMOUNT-1, tirzepatide (a GIP/GLP-1 agonist) drove: «The
 mean percentage change in weight at week 72 was -15.0%... -19.5%... and -20.9%... with 15-mg doses
 and -3.1%... with placebo (P<0.001...)»
-[@jastreboff2022]. A pharmacological handle on the endocrine control loop moves weight by an
-order of magnitude more than exhortation does — direct evidence that the loop, not the will, is the
-governing variable.
+[@jastreboff2022]. Both arms received
+lifestyle counselling with a 500 kcal/day deficit and >=150 min/week of activity, so the comparator
+was a structured lifestyle programme, not exhortation.
+[@jastreboff2022] A pharmacological handle on the endocrine
+control loop moves weight roughly 5-7x as much as the placebo-plus-structured-lifestyle arm (15.0-20.9%
+vs 3.1%) — consistent with the loop being the governing variable, though an appetite-lowering drug
+would also help under a restraint-limited reading (see *Evidence status*). (corrected
+2026-10-06: *proves / order of magnitude more than exhortation / direct evidence* -> consistent with,
+\~5-7x vs structured lifestyle; self-critique)
 
-The **withdrawal** result is the clincher, because it shows the defended setpoint was never
-abolished, only suppressed while the drug was present. In the STEP-1 extension, stopping semaglutide
-released the defense: «Following treatment withdrawal, semaglutide and placebo participants regained
-11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of lost weight, respectively, by week 120...»
-[@wilding2022]. Remove the agent that counters
-the biology and the biology reasserts the weight — the same signature Sumithran measured hormonally,
-read out here as regain. This is the regulated-defense reading of the GLP-1 evidence catalogued on
+The **withdrawal** result is the strongest supporting signal, because it is what a defended setpoint
+that was suppressed rather than abolished would predict. In the STEP-1 off-treatment extension — a
+non-randomized follow-up of a subset of the randomized trial, in which drug and lifestyle support were
+stopped together in both arms — «Following treatment withdrawal, semaglutide and placebo participants
+regained 11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of lost weight, respectively, by week
+120...» [@wilding2022]. About two-thirds of the
+drug-induced loss returned within a year, leaving a net loss of 5.6% at week 120
+[@wilding2022] — the same direction
+as the signature Sumithran measured hormonally, read out here as regain. This is the regulated-defense reading of the GLP-1 evidence catalogued on
 [[GLP-1 Drugs]].
+
+</div>
 
 ## The symmetric guard — regulated does NOT mean fated [EXTRACTED]
 
@@ -99,8 +111,10 @@ got, applied symmetrically). The pieces do not all carry the same grade, so sepa
   textbook physiology. That the appetite-hormone shift *persists* about a year after diet-induced
   loss rests on a **single, small cohort** (Sumithran, n\~50) — corroborated by the broader
   metabolic-adaptation literature but not itself high-GRADE (Sumithran enrolled 50, analysed 34
-  completers). That the GLP-1/GIP drugs produce large losses and that stopping them provokes regain
-  are **high-GRADE RCT** findings (SURMOUNT-1, STEP-1).
+  completers). That the GLP-1/GIP drugs produce large losses is a **high-GRADE RCT** finding
+  (SURMOUNT-1, STEP-1); regain after stopping comes from a **non-randomized off-treatment extension**
+  of a randomized STEP-1 subset, with lifestyle support stopped in both arms — lower-grade than the
+  efficacy result. (corrected 2026-10-06: regain was filed as high-GRADE RCT; self-critique)
 - **An interpretation, not a direct test.** The step from "drug works, regain on withdrawal" to
   "therefore a defended setpoint" is an *inference* the evidence is consistent with — not a claim any
   single trial was designed to identify. Regain on withdrawal is what a defended-setpoint model
@@ -128,7 +142,8 @@ advice-based interventions produced small, non-durable effects that looked like 
 rather than model failure.
 
 **The mechanism-vs-outcome structure.** The individual worked sections above are each modest on their
-own (one cohort's hormone panel; two RCTs; a narrative-review framing). Their *value is
+own (one cohort's hormone panel; one RCT's efficacy result plus a non-randomized off-treatment
+extension of another; a narrative-review framing). Their *value is
 configurative*: the hormonal-defense mechanism (Sumithran), the pharmacological effect size
 (Jastreboff), the withdrawal-regain (Wilding), and the regulation-plus-environment framing (Hall)
 **triangulate** on one claim from independent angles — mechanism, intervention, de-intervention, and
@@ -137,7 +152,11 @@ sense of all four at once.
 
 **The compensation link.** The willpower model's cousin on the expenditure side is the naive "calories
 out" model — burn 300 kcal in cardio, lose 300 kcal of fat. The organism compensates: appetite rises,
-non-exercise activity falls, adaptive thermogenesis lowers the resting burn. That is the same
+non-exercise activity falls, and resting expenditure may drop beyond what the lost tissue predicts
+(adaptive thermogenesis) — though that limb is the contested and smaller one: the held energetics review
+flags its persistence as controversial and ranks the intake rise as >3-fold larger than the
+expenditure adaptation -> [[Weight-Loss Maintenance and Metabolic Adaptation]]
+. That is the same
 regulated-defense logic applied to the output side, worked on [[Net Effect vs Intended Effect]] and
 [[Exercise Energy Compensation]] — "you can't outrun a bad diet" is this compensation, not a slogan.
 Both the intake-willpower model and the expenditure-tally model share the defect: they treat a
@@ -175,8 +194,9 @@ established cardiovascular disease (secondary prevention)**. It carries **no** h
 in primary prevention, so "outcome-indicated" does not yet extend to the whole obese population. Three
 guards keep this from becoming "a drug for everyone":
 
-- **Continued, not cured.** The drug works *while taken*; stopping releases the defense and the weight
-  returns (Wilding withdrawal, above). "Pharma indicated" means a **chronic** medication with its own
+- **Continued, not cured.** The drug works *while taken*; after stopping (drug and lifestyle support
+  stopped together), about two-thirds of the loss returned within a year, net -5.6% at week 120
+  (Wilding withdrawal, above). "Pharma indicated" means a **chronic** medication with its own
   cost / side-effect / reversibility ledger — a blood-pressure-style commitment, not a course.
 - **Lifestyle is not null — it is the comparator and the substrate.** SELECT's drug arm sat *on top
   of* lifestyle, not instead of it, and the food environment remains the population driver (Hall,

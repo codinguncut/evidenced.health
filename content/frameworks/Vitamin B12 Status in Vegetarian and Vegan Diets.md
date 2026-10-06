@@ -7,7 +7,7 @@ sources: [Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Neufingerl - Plant-B
 confidence: medium
 cluster: deficiency-enhancement
 created: 2026-09-02
-updated: 2026-09-17
+updated: 2026-10-06
 self_critiqued: 2026-09-17
 relationships:
   related_to:
@@ -29,6 +29,8 @@ plant source — so this sits on the **steep lower (repletion) arm** of
 is a descriptive prevalence review [@pawlak2013];
 its findings are prevalence and measurement facts, **not** an effect estimate on a patient-important
 outcome.
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The actionable core — a genuinely non-optional supplement for this stratum
 
@@ -55,7 +57,10 @@ low, the maintenance dose is far above the 2.4 ug/day RDA — cited secondhand a
 maintenance and \~200x in established deficiency, and `>=250 ug` for best results
 [@pawlak2013]. **Selection/titration is a
 prescriber act** (needs this person's labs) and is out of the wiki's scope; the number is here only to
-size the lever, not to prescribe.
+size the lever, not to prescribe. The figures are cited secondhand (the source's refs 3 and 32), with no
+RCT pooled here, so a same-outcome dose-response for repletion is a named gap (see *Gaps* below) [inferred from @pawlak2013].
+
+</div>
 
 ## Prevalence — high, but cutoff-driven and one-armed
 

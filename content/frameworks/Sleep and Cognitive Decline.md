@@ -8,7 +8,7 @@ cluster: sleep
 nucleus: false
 confidence: low
 created: 2026-09-04
-updated: 2026-09-10
+updated: 2026-10-06
 self_critiqued: 2026-09-10
 relationships:
   related_to:
@@ -59,6 +59,8 @@ awakening were null [@zhang2025sleep]; and the
 consistent with a cerebrovascular route shared with the cardiometabolic big rocks rather than a direct
 amyloid route.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The U-curve is asymmetric AND outcome-specific — adjudicate the arm, not the curve
 
 Sleep duration is a U around a 7-8 h nadir (self-reported: short < 7 h, ideal 7-8 h, long > 8 h)
@@ -90,6 +92,8 @@ sleep arm gets no genetic support on cardiovascular endpoints.
 The short/insomnia/OSA arm is better-footed: it carries a human-corroborated mechanism (glymphatic Aβ/tau
 clearance failure; OSA intermittent-hypoxia cerebrovascular damage) and — crucially — strengthens under
 objective measurement (next section), whereas the long arm has neither.
+
+</div>
 
 ## The measurement check runs the RIGHT way — objective insomnia is STRONGER, not washed out
 

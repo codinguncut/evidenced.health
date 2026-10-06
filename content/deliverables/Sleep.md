@@ -92,8 +92,6 @@ symptom, and there is no evidenced harm from sleeping past 8 h to cap against. F
 short sleeper, extending toward \~7-8 h is a lever with mechanism, direction, and genetic support
 behind it.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The same split shows up for diabetes and heart disease
 
 The arm-asymmetry is not a quirk of the mortality data. It repeats on every outcome sleep
@@ -141,10 +139,6 @@ Mendelian-randomization studies:
   with stroke and CAD in the MR studies» [@wang2022sleep]. But the long-sleep instruments are few and underpowered, so this is
   *insufficient evidence*, not a demonstrated null.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## When you sleep may beat how long
 
 Duration is only one knob. A person can sleep seven hours at ragged, drifting times, and how
@@ -178,8 +172,6 @@ regularity fall asleep and wake within roughly 1-hour windows most days, the bot
 \~3-hour windows, and Windred notes regularity «may also be an easier dimension to target through
 interventions» than extending sleep, which is biologically and socially hard to do
 [@windred2023].
-
-</div>
 
 ## For the aging brain, target the disorder — not a duration number
 
@@ -262,8 +254,6 @@ higher baseline risk [[Dementia Prevention and Modifiable Risk Factors]], [[Base
 . Whether fixing broken sleep protects the brain is exactly the untested question — which
 raises the treatment question head-on: once sleep is broken, what actually works?
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## For insomnia, start with therapy, not pills
 
 Three treatments answer that question, and the honest ranking runs opposite to how most people reach
@@ -318,8 +308,6 @@ mechanism directly are dimming lights and warm display modes.
 Apnea is the remaining treatable sleep disorder, and it is the sharpest lesson in why fixing a symptom
 is not the same as changing an outcome.
 
-</div>
-
 ## Treat sleep apnea for its symptoms, not to prevent heart attacks
 
 Sleep apnea tracks with cardiovascular disease in observational data, and CPAP -- the mask that
@@ -359,8 +347,6 @@ The decision this leaves is clean. Do not treat sleep apnea in order to prevent 
 death -- that expectation is not supported for either the mask or the drug. Treat it to relieve the
 symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
 through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Rank sleep honestly, and act on the arms that hold
 
@@ -404,7 +390,5 @@ urgent, and your attention is better spent on the bigger rocks.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
-
-</div>
 
 ## References

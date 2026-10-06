@@ -1,9 +1,9 @@
 ---
 type: framework
 question: How should resistance training be prescribed — load, sets, weekly frequency, and equipment modality (free-weights vs machines) — for strength versus hypertrophy, what is the minimal effective dose, and does any of it move a health outcome?
-aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training, DOMS, Delayed Onset Muscle Soreness, Muscle Soreness, No Pain No Gain, Is Soreness a Good Sign, Muscle Confusion, Muscle Damage and Growth]
-authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas]
-sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023]
+aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training, DOMS, Delayed Onset Muscle Soreness, Muscle Soreness, No Pain No Gain, Is Soreness a Good Sign, Muscle Confusion, Muscle Damage and Growth, Reps at Percentage of 1RM, REPS \~ %1RM, Repetitions to Failure, RM to 1RM Conversion, Rep Max Load Gauge]
+authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas; Nuzzo, James L; Pinto, Matheus Daros; Nosaka, Kazunori; Steele, James]
+sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023, Nuzzo - Repetitions at Percentages of 1RM 2023]
 cluster: muscle
 confidence: low
 relationships:
@@ -19,8 +19,8 @@ relationships:
     - Detraining and Residual Effects in Older Adults
     - Supervised vs Unsupervised Exercise
 created: 2026-08-06
-updated: 2026-10-04
-self_critiqued: 2026-09-10
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **Peripheral scope** (exercise-programming) — admitted on the same evidence bar as any exposure, kept
@@ -39,11 +39,15 @@ same-lineage source would not raise it. [inferred from @currier2023]
 
 
 [@currier2023]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The big rock: any prescription beats none — the between-prescription differences are second-order
 
 Currier compared 12 prescriptions (load H ≥80% 1RM / L <80%; sets M multiset / S single; frequency
-≥3 / 2 / 1 per week) against non-exercise control (CTRL). **Every one beat CTRL** for both strength (SMD
-0.75–1.60 vs CTRL) and hypertrophy (SMD 0.10–0.66). But once you are training, the choice of prescription
+≥3 / 2 / 1 per week) against non-exercise control (CTRL). **Every estimated node had a positive point
+estimate vs CTRL** — all 12 for strength (SMD 0.75–1.60 vs CTRL) and the 10 with hypertrophy data (SMD
+0.10–0.66; HS1/LS1 are N.D., *no data*, for hypertrophy in Table 2); the 95% CrI excluded zero for all but the
+sparse nodes HS1/LS1 (strength) and HM1/HS2/HS3 (hypertrophy) — see the minimal-dose section. But once you are training, the choice of prescription
 barely separates: «The 95% CrI contained zero for a striking 91% (101/111) of all between-­RTx
 comparisons.» So the decision that carries the effect is **train vs not-train**, not which protocol —
 which is why Currier's own conclusion is that «adults should engage in RT, even if they cannot meet
@@ -53,6 +57,9 @@ tail.
 
 
 [@currier2023]
+
+</div>
+
 ## The decomposition (the value): strength is load-driven, hypertrophy is volume-driven
 
 The one place prescription *does* matter splits by outcome — and the two do not track together, so
@@ -94,14 +101,24 @@ or novelty as the dose signal.
 
 
 [@currier2023]
-<div class="recent-update" data-last-updated="2026-10-05">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Minimal effective dose — a floor, not a located knee
 
 - «There was a 95% probability that RT with at least two sets or two sessions per week increased
   strength ... and training with at least two sets and two sessions per week resulted in hypertrophy.»
 - Lower-CrI floor across prescriptions: «at least a moderate (SMD>0.47)» strength and «small (SMD>0.16)»
-  mass increase — i.e. even the leanest prescription is not trivial.
+  mass increase — **but not for every prescription**, as the next sentence says: «Such certainty is not
+  possible for all prescriptions, though, because the 95% CrI crossed zero for two RTx for strength (HS1
+  and LS1) and three RTx for hypertrophy (HM1, HS2 and HS3), meaning these prescriptions might increase,
+  not change or decrease muscle strength and size.» Currier attributes this to sparse nodes rather than
+  ineffectiveness: «These strength (HS1 and LS1) and hypertrophy (HM1, HS2 and HS3) nodes included <60
+  participants and contrib- uted little direct evidence (figure 2).» So the floor holds for the
+  well-populated prescriptions; for once-weekly single-set (HS1/LS1) and a few hypertrophy nodes the
+  network estimate is too imprecise to show it (within-study, strength rose vs control/baseline in those
+  trials).
+  (corrected 2026-10-06: universal lower-CrI floor -> floor excludes the five zero-crossing nodes;
+  Currier chunk 02)
   [@currier2023]
 
 **The curve's shape is under-determined here, and that is a G-gap, not a plateau.** Currier coded load /
@@ -117,6 +134,24 @@ flat region (its Route 1) plus categorical/measurement under-determination (its 
 under-identification the protein \~1.62 g/kg knee carries: **hold the RT dose numbers loosely too**, and
 read the \~2 sets / \~2x per week as a floor, not an optimum.
 
+**Once-weekly training — what the frequency arm does and does not show** (the popular belief *once-weekly
+RT matches twice-weekly for strength, esp. in older adults*). Currier's strength summary is a disjunction
+— «at least two sets or two sessions per week» — so **once-weekly multiset** training is inside it, while
+the hypertrophy summary is a conjunction («at least two sets and two sessions»). In the network,
+once-weekly multiset strength beat control with CrIs excluding zero (HM1 1.54, 0.81 to 2.30; LM1 1.07,
+0.47 to 1.67 — Table 2); once-weekly *single-set* (HS1, LS1) crossed zero on sparse nodes. Between
+prescriptions, the only strength comparisons that separated (9/66) were HM2/HM3 versus a lower-load RTx —
+none is a once-vs-twice-weekly contrast at matched load and sets — so the network detects no frequency
+difference, on imprecise estimates: not a demonstrated equivalence.
+[@currier2023]
+Neither summary is a necessity claim (it says what was shown to work, not that less fails) and neither
+speaks to function or quality of life; and the older-adult once-weekly case is not separately estimated
+here (age showed no modifying effect in meta-regression, on sparse data). Remaining G-gap: an older-adult
+once-weekly-vs-twice-weekly strength/function head-to-head SR is not held.
+(corrected 2026-10-06: *once-weekly is not covered by the held estimate and is arguably run against by
+it* -> once-weekly multiset is covered for strength; once-weekly single-set is imprecise; Currier chunk 02)
+[inferred from @currier2023]
+
 
 [@currier2023]
 
@@ -130,6 +165,8 @@ half of the dose question and the maintenance-floor gap. [inferred from @buendia
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Effect modifiers — mostly absent (route-b is quiet here)
 
 Network meta-regression found **no** obvious modifying effect on relative RTx effects from age, training
@@ -141,7 +178,123 @@ on preference and constraint (Route e), not on demonstrated effect modification 
 [@currier2023]
 
 
+[@nuzzo2023reps]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## The load gauge — how many reps sit at a given %1RM (operationalizing the 80% cut)
+
+The strength finding above is stated in %1RM, but almost nobody outside a lab knows their 1RM; the
+field proxy is the rep count. Nuzzo meta-regressed **952 repetitions-to-failure tests (7289 people,
+452 groups, 269 studies, 1961-2023)**, admitting only studies where «the 1RM was tested rather than
+estimated» and the reps test was done fresh, and modelled both the **mean** reps and the
+**between-person SD** of reps at each %1RM (natural cubic spline on log means; linear on log SDs).
+Analysed set: 425 groups, 898 tests, 6970 people, traditional concentric-eccentric reps only.
+[@nuzzo2023reps]
+
+**Main-model table, mean reps to failure [95% CI] and between-person SD [95% CI]** — fitted to all
+groups (bench press 42% and leg press 14% of groups); the authors recommend it for exercises other than
+those two, while noting «minimal data» for commonly prescribed lifts such as overhead press and
+pulldown. Values from the Fig. 2 table (p. 308):
+
+| %1RM | Mean reps [95% CI] | Between-person SD [95% CI] |
+|---|---|---|
+| 90 | 4.94 [4.35-5.61] | 1.90 [1.69-2.14] |
+| 85 | 7.15 [6.69-7.65] | 2.19 [1.97-2.42] |
+| 80 | 9.75 [9.32-10.20] | 2.51 [2.29-2.75] |
+| 75 | 12.37 [11.87-12.88] | 2.88 [2.65-3.13] |
+| 70 | 14.80 [14.23-15.40] | 3.31 [3.06-3.58] |
+| 65 | 17.11 [16.36-17.90] | 3.80 [3.51-4.12] |
+| 60 | 19.53 [18.52-20.59] | 4.37 [4.01-4.76] |
+
+[@nuzzo2023reps] Tabulated range 15-95%
+1RM, the range of the data; precision is tight from the heavy end down to 65%: «The precision of
+estimates for both means and SDs are tight up to 65% 1RM range to \~ 1 repeti- tion.» Below that,
+data thin and intervals widen. [@nuzzo2023reps]
+
+- **The between-person spread is the new information, and it grows as the load falls.** «For example,
+  at 80% 1RM, the estimate for the SD about the point estimate is 2.51 repetitions, whereas at 60% 1RM
+  the estimate is 4.36 repetitions.» The authors do not claim the SD is all true person-to-person
+  difference — «Thus, although large SDs could be due to between-individual heterogeneity in
+  repetitions completed, a mathematical phenomenon, or heteroskedas- tic measurement errors, this
+  information is still practically useful because it illustrates the amount of variance that can be
+  expected.» [@nuzzo2023reps]
+- **Exercise is the one moderator that clearly shows up — leg press vs bench press.** «For example, at
+  80% and 70% 1RM, the estimated number of repetitions in the leg press were 13.1 [95% CI 9.8–17.5] and
+  19.0 [95% CI 14.2–25.5], respectively, whereas for the bench» press the figures were 8.8 [95% CI
+  7.7–10.1] and 14.1 [95% CI 12.4–16.1]; separate tables are given for those two lifts, the main table
+  for everything else. The source states the resolved contrast as a load range — fewer mean bench reps
+  «up to \~ 50% 1RM» (and lower bench SDs up to \~35%) — without saying from which end that range runs;
+  at 80% the two exercises' 95% CIs overlap (bench 8.82 [7.72-10.08], leg press 13.05 [9.78-17.41],
+  Figs 3-4 tables).
+  [@nuzzo2023reps]
+- **Sex, age and training status: no resolved moderation (a null on imprecise contrasts, not a
+  demonstrated equivalence).** «The impact of most of the moderators was uncertain based on the
+  precision of estimates for the contrasts.» Almost all contrast-ratio intervals included 1, and the
+  authors conclude «Analysis of moderators suggested little influences of sex, age, or training status
+  on the REPS \~ %1RM relationship, thus the general main model REPS \~ %1RM table can be applied to all
+  individuals and to all exercises other than the bench press and leg press.»
+  [@nuzzo2023reps]
+- **Who the table describes.** Groups were 66% male, 97% healthy, 92% under 59 (median group age 23),
+  60% resistance-trained; «Most data from the REPS \~ %1RM relationship have been collected on healthy
+  individuals who are aged 20–40 years.» Rep duration (1.4-6.0 s, reported by 46% of studies) tended to
+  lower reps when slower, but almost all contrast intervals included 1. Eccentric-only testing was \~1% of
+  the data, so no eccentric table exists. [@nuzzo2023reps]
+- **Design caveats, stated by the authors.** «Our search strategy did not follow standard guidelines for
+  meta-analy- ses.» (a mixed personal-knowledge + keyword + snowball search; data and code are public on
+  OSF). Conflict of interest: «Pinto were pre- viously employed at Vitruvian, a company that designs and
+  sells re- sistance exercise equipment.» (Nuzzo and Pinto). [@nuzzo2023reps]
+- **Not addressed: safety or feasibility of 1RM testing in untrained people.** The paper is a
+  descriptive load-reps model; it reports no injury or adverse-event data for 1RM or reps-to-failure
+  testing [searched: safe/risk/novice/familiar = 0 across chunks 01-02; injur = 1 hit, a reference
+  title only]. The rep gauge replaces a 1RM test with a reps-to-failure test — still a maximal-effort
+  set — so it relocates the safety question for an untrained adult rather than answering it. [inferred from @nuzzo2023reps]
+
+**Parameter table — the coding rule vs the measured relationship.** Currier's NMA converted rep maxima
+to %1RM by %1RM = 100 − 2.5 × RM (quoted under *Limits*); the textbook table Nuzzo set out to update
+also puts 8 reps at 80% (its Table 1: 90% = 4, 80% = 8, 75% = 10, 70% = 11, 65% = 15 reps).
+
+| Parameter | Currier coding rule | Nuzzo main model | Same quantity? |
+|---|---|---|---|
+| What it maps | a reported RM (reps to failure at a fixed load) -> %1RM | %1RM -> mean reps to failure (tested 1RM) | **Yes, inverted direction** — both are reps-to-failure at a load relative to a measured 1RM; Nuzzo's is a population mean curve, so inverting it gives the load at which the *mean* rep count equals that RM (approximately the average person), not any individual's |
+| Reps at 90% | 4 (rule) | 4.94 [4.35-5.61] | yes |
+| Reps at 80% | 8 (rule: 8RM = 80%) | 9.75 [9.32-10.20] | yes |
+| Reps at 75% | 10 | 12.37 [11.87-12.88] | yes |
+| Reps at 70% | 12 | 14.80 [14.23-15.40] | yes |
+| Between-person spread | none (a deterministic rule) | SD 2.51 reps at 80%, 3.31 at 70% | rule has no counterpart |
+| Exercise-specific? | no | yes — leg press higher, bench lower (separate tables) | — |
+
+[@currier2023] (the rule)
+[@nuzzo2023reps] (the measured values)
+
+**What the comparison shows (the wiki's reading, type-F).** The 2.5%-per-rep rule is **close at the heavy
+end and drifts at lighter loads**, always in one direction: at a given %1RM the average person does
+*more* reps than the rule says (80%: \~9.75 vs 8; 70%: \~14.8 vs 12), equivalently a given rep max sits at
+a *heavier* %1RM than the rule assigns. Interpolating the main-model table, an 8-rep max sits near \~83%
+1RM, a 10-rep max near \~80%, 12 reps near \~76% and 15 reps near \~70% (rule: 80 / 75 / 70 / 62.5%).
+So for the strength cut the rule is **conservative**: a person who trains at their 8RM is on average a
+few points *above* 80%, not at it. But the between-person SD (\~2.5 reps at 80%, roughly \~5 %1RM points
+given the local slope of \~0.5 rep per %1RM) means a rep count places the *average* person, not this
+person: for roughly two-thirds of people (if the SD is mostly true between-person spread rather than
+measurement error), an 8RM lies between the high-70s and high-80s %1RM. On point estimates the leg press
+runs higher — its 80% load averages \~13 reps, putting an 8-rep leg-press max near \~90% 1RM — but its
+interval at 80% spans \~10-17 reps (and 90% leg press = 8.69 [3.71-20.39]), so a leg-press 8RM could sit
+anywhere from \~80% to >90%.
+[inferred from @nuzzo2023reps; @currier2023]
+
+- **Does the drift bias Currier's own result? Direction, not size.** For the average person the rule
+  codes an RM load a few points too *light*, so misclassification runs one way — an arm truly at or just
+  above 80% (a 9-10RM) coded L, never a truly light arm coded H. That dilutes the H-L contrast toward the
+  null: if anything Currier's load effect is understated. How many arms sat near the boundary is not
+  reported in the held chunks. [inferred from @currier2023; @nuzzo2023reps]
+
+
 [@haugen2023freeweight]
+
+</div>
+
 ## Equipment modality (free-weights vs machines): specific for the test, equivalent for the outcome
 
 The other much-debated RT dial — barbell/dumbbell vs pin-loaded machine — resolves the same way the
@@ -319,13 +472,19 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 - **The big rock is doing any resistance training at all.** Prescription choice is a second-order refinement
   — 91% of between-protocol comparisons were indistinguishable. Someone not currently training should not
   wait for the *right* scheme.
 - **If the goal is strength:** bias toward **heavier loads (>80% 1RM), multiple sets**, \~2–3×/week. Load is
-  the one variable that reliably buys more.
+  the one variable that reliably buys more. Without a 1RM test, a load you can lift to failure no more
+  than \~8-9 times sits at or above \~80% for the average person on most exercises studied (Nuzzo's table;
+  fewer on the bench, more on the leg press) — counted on a fresh first set (later sets fatigue), from
+  data on mostly healthy 20-40-year-olds; a population gauge with a \~2.5-rep between-person SD, not a
+  personal conversion.
 - **If the goal is size/hypertrophy:** chase **volume (sets)**; load is flexible — lighter loads work if the
   sets are there, and training to failure is not required (untrained). Pairs with the protein lever
   (\~1.6 g/kg/day) on [[Protein and Resistance Training for Muscle and Strength]] — the *other* input to the
@@ -343,9 +502,28 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 [inferred from @currier2023]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Limits
 
 - **Surrogates only** — 1RM and muscle size; no mortality/disease endpoint (Currier states this outright).
+- **"≥80% 1RM" is the trials' label; reps are the field proxy, by a coding rule only.** Currier's
+  eligible strength outcomes include a direct 1RM test, and loads that trials reported as rep maxima were
+  converted: «RT loads reported as repetition maximum (RM) were converted to a percentage of one-repetition
+  maximum (%1RM) with the equation: %1RM=100−(RM(2.5)).»
+  [@currier2023]. On that rule an 8-rep maximum
+  sits at 80%, the heavy/light cut, and 12-15 reps at about 70-62%. So a person with no measured 1RM can
+  aim at the cut by rep count. The equation is an analyst's coding convention taken from an unheld
+  reference, not a validated conversion. Measured against Nuzzo's meta-regression of
+  reps-to-failure at tested %1RM (see *The load gauge* above), the rule is close at the heavy end and
+  under-counts reps at lighter loads, so an 8RM sits on average near \~83% (conservative for the cut); the
+  between-person SD (\~2.5 reps at 80%) and the leg-press/bench difference mean a rep count places the
+  average person, not the individual. Sex, age and training status were not resolved as moderators
+  (imprecise contrasts), and the data are mostly healthy 20-40-year-olds. Still open: whether a maximal
+  test is safe or unsafe for an untrained adult — Nuzzo does not address it, so the fabric holds no data
+  either way. [inferred from @nuzzo2023reps; @currier2023]
 - **Categorical coding** (H/L, M/S, 1/2/3) — cannot locate a continuous knee; periodized programmes, rest
   intervals, tempo, time-under-tension excluded/under-reported.
 - **Unblindable primary trials** — moderate–high risk of bias (strength 22% high; hypertrophy 18% high);
@@ -365,5 +543,7 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 
 [inferred from @currier2023]
+
+</div>
 
 ## References

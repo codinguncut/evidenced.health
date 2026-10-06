@@ -1,17 +1,16 @@
 ---
 type: deliverable
 title: Baseline Risk and Absolute Benefit
-self_critiqued: 2026-10-03
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-03
 question: 'When an intervention has a known relative effect, what does the evidence say about how much it actually helps a given person — how does absolute benefit track baseline risk when the relative effect is roughly constant, when does stratifying by baseline risk change the decision, and how should a person read a relative risk reduction against their own starting risk?'
 aliases: [Baseline Risk and Absolute Benefit, Absolute vs Relative Risk, Number Needed to Treat, How Much Will It Help Me]
 authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); European Society of Cardiology (org); Mach, François; Blumenthal, Roger S; Cholesterol Treatment Trialists' Collaboration (org); Bhatt, Deepak L; Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; US Preventive Services Task Force (org); Zheng, Sean L; Roddick, Alistair J; Khan, Sadiya S; Matsushita, Kunihiro; Knowler, William C; Pittas, Anastassios G; Dawson-Hughes, Bess; Coley, Nicola; Andrieu, Sandrine]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, ESC - CVD Prevention Guidelines 2021, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, USPSTF - Aspirin Primary Prevention 2022, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, Khan - PREVENT Equations 2024, Knowler - Diabetes Prevention Program DPP 2002, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, ESC - CVD Prevention Guidelines 2021, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, USPSTF - Aspirin Primary Prevention 2022, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, Khan - PREVENT Equations 2024, Knowler - Diabetes Prevention Program DPP 2002, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, CTT - Statin Therapy Older People 2019]
 confidence: high
 created: 2026-09-09
-updated: 2026-10-03
+updated: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 A relative effect — *cuts your risk by a quarter*, *halves your chance of a heart attack* — sounds
 like a fact about you. It is not. **It is a fact about the treatment.** What the same treatment does
@@ -25,7 +24,7 @@ risk comes from, when an extra test is allowed to move it, and why a reassuring 
 an alarming thirty-year one. One twist matters most: **a harm that grows alongside the benefit —
 aspirin's bleeding — can cancel it exactly where the benefit looks biggest.**
 
-</div>
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A relative effect is a fact about the treatment, not about you
 
@@ -55,13 +54,35 @@ for every 100 people treated. At a **20% baseline** it buys **5 percentage point
 evidence.
 
 That relative effects really do stay roughly constant across baselines is not an assumption but a
-finding. In the cleanest case the corpus holds, statins cut major vascular events by about a fifth per
+finding. In the cleanest case, statins cut major vascular events by about a fifth per
 1.0 mmol/L of LDL-C lowering «in all types of patient studied ... including those with LDL cholesterol
 lower than 2 mmol/L» (RR 0·78, 95% CI 0·76–0·80), with no material difference across strata — prior
 heart disease or none, diabetes, age over 75, blood pressure, body-mass — whose underlying event
 rates differ substantially [@ctt2010].
 So **the differing absolute benefit across those groups is pure arithmetic, not a different drug
 working differently** -> [[Baseline Risk and the Relative-Absolute Split]].
+
+The same collaboration later re-ran the statin trials by six age groups (28 trials), and the age line
+mostly holds. The relative reduction per 1.0 mmol/L shrank only slightly with age, if at all: RR 0.75
+at 55 or younger and 0.87 (99% CI 0.77–0.99) above 75, a trend short of significance (p = 0.06)
+[@ctt2019].
+
+One cell stays open. Among people with no known vascular disease, the relative benefit tended to
+shrink with age (trend p = 0.05, and p = 0.03 after setting aside the four heart-failure and dialysis
+trials), which the authors call a weak trend. Over 75 in that group the estimate was 0.92 (99% CI
+0.73–1.16), and the authors say there were too few such participants to assess that group reliably on
+its own [@ctt2019]. That cell is insufficient
+evidence: it shows neither a benefit nor the absence of one
+-> [[Baseline Risk and the Relative-Absolute Split]].
+
+CTT's own worked example is the route-(a) arithmetic exactly. Two people aged 63 and 78 with otherwise
+identical risk factors might have projected major-vascular-event rates of 2.5% versus 4.0% a year; a
+1.0 mmol/L LDL cut that removes a fifth of that risk would prevent first events in about 50 versus 80
+of every 10,000 treated each year. These are the authors' projections, not counts: they declined to
+estimate absolute effects from the trials' own event rates, which they judged unrepresentative of any
+contemporary population [@ctt2019]. The example
+is set in primary prevention, so it assumes the one-fifth reduction holds at 78 — the cell the trials
+could not confirm.
 
 ### A worked pair of real numbers
 
@@ -78,7 +99,7 @@ One honest bound: the low-risk arm's point estimate is attenuated (its confidenc
 scaling with a *possible* change in the relative effect, and one trial's subgroups cannot cleanly
 separate the two (interaction P = 0.14). Read it as the worked pair it is, with that caveat attached.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+</div>
 
 ## Your baseline risk comes from a model with a home ground
 
@@ -115,8 +136,6 @@ Two limits bound any read-off. Base SCORE2 **excludes people with diabetes** (a 
 extension exists). The ESC category also flips on case inputs a stratum does not contain — smoking
 status, a blood-pressure band, a cholesterol band, a region — so the same broad stratum can land in
 different categories once those are filled in.
-
-</div>
 
 ## Two reasons a recommendation differs by group — only one is cheap
 
@@ -192,8 +211,6 @@ to observed rates, since no trial has randomized statins by calcium score. And t
 **age-relative** — a zero score informs only where a non-zero score was expected
 -> [[Statins for Primary Prevention and the Power of Zero CAC]].
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## A low ten-year risk can hide a high lifetime one
 
 A ten-year horizon systematically understates the case for acting in a younger person, and ESC says so
@@ -215,10 +232,6 @@ The frame runs both ways and has a floor. It **treats less in the old** — lowe
 why the thresholds rise after 70 — and **it is not a licence to start drugs young**: below 40 ESC calls
 the predictions imprecise and redirects to lifestyle. Under 50, ask for the lifetime number before you
 trust a low ten-year one; below 40, the lever is how you live, not a prescription.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## When the harm scales with the benefit, higher risk stops rescuing you
 
@@ -247,9 +260,7 @@ individual decision at 40–59 with a 10-year risk of 10% or more (a small net b
 *against* initiating it at 60 or older — because the absolute bleeding harm climbs steeply with age even
 though the relative effect does not [@uspstf2022aspirin].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What to carry away
 
@@ -282,10 +293,10 @@ lifetime, and none has randomized statins by calcium score.
 > | | |
 > |---|---|
 > | **Question** | 'When an intervention has a known relative effect, what does the evidence say about how much it actually helps a given person — how does absolute benefit track baseline risk when the relative effect is roughly constant, when does stratifying by baseline risk change the decision, and how should a person read a relative risk reduction against their own starting risk?' |
-> | **Evidence included** | 12 sources — 5 gold, 6 high |
+> | **Evidence included** | 13 sources — 6 gold, 6 high, 1 method |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Baseline%20Risk%20and%20Absolute%20Benefit.md) |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Baseline%20Risk%20and%20Absolute%20Benefit.md) |
 
 </div>
 

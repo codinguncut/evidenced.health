@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A; Valisoltani, Neda; Ghoreishy, Seyed Mojtaba; Mohammadi, Hamed]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, Wang - Resistant Starch Glucose Insulin 2019]
+authors: [Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A; Valisoltani, Neda; Ghoreishy, Seyed Mojtaba; Mohammadi, Hamed]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, Wang - Resistant Starch Glucose Insulin 2019]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -22,8 +22,8 @@ relationships:
     - Dietary Patterns and COPD Risk
     - Low-FODMAP Diet for IBS
 created: 2026-07-29
-updated: 2026-09-24
-self_critiqued: 2026-08-30
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **The fabric's nucleus for fibre.** Fibre content was scattered across the sugar, whole-grain, and
@@ -229,6 +229,115 @@ matched. The very fermentation that transmits fibre's benefit is what drives IBS
 the LFD reduces bifidobacteria — so long-term full restriction *sacrifices* the benefit this page
 documents, and the LFD is properly a time-limited elimination protocol, not a diet.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## The diabetes stratum — same direction, one thin cohort base, a 35 g data edge `[2026-10-06]`
+
+The Reynolds/Mann team re-ran its fibre question for adults who already have prediabetes, type 1 or
+type 2 diabetes, run to inform the EASD/DNSG guideline update (PICO agreed by a DNSG subcommittee): 2 European cohorts (8,300 adults, mean 8.8
+years) for mortality and 42 trials (1,789 adults) for risk factors. Same team as the 2019 anchor, so this
+is a **type-F stratum extension, never independent backing**.
+[@reynolds2020]
+
+**Mortality (cohorts).** Highest vs lowest fibre: all-cause RR **0.55 (0.35-0.86), I2 0%**; CVD
+mortality RR 0.61 (0.26-1.42), wide because events were few. On the spline, «There was a 35% (95% CI
+10%–48%) risk reduction in all-cause mortality associated with an intake of 35 g per day compared with 19
+g per day. This resulted in an absolute risk reduction of 14 (95% CI 4–19) fewer deaths per 1,000
+participants over the duration of the studies included. The plotted relationship was not linear (p =
+0.005).» GRADE moderate, «having been upgraded because of a clear dose response».
+[@reynolds2020]
+
+**Risk factors (trials, higher vs lower fibre, mostly 6-12 weeks).**
+
+| Outcome | Trials | MD (95% CI) | I2 |
+|---|---|---|---|
+| HbA1c | 33 | -2.00 mmol/mol (-3.30 to -0.71) | 98.7% |
+| Fasting glucose | 34 | -0.56 mmol/L (-0.73 to -0.38) | 99.1% |
+| Total cholesterol | 27 | -0.34 mmol/L (-0.46 to -0.22) | 98.0% |
+| LDL cholesterol | 21 | -0.17 mmol/L (-0.27 to -0.08) | 96.2% |
+| Body weight | 18 | -0.56 kg (-0.98 to -0.13) | 98.2% |
+| SBP | 12 | -1.86 mmHg (-4.85 to 1.12), NS | 98.6% |
+| CRP | 7 | SMD -2.80 (-4.52 to -1.09) | 96.9% |
+| Fasting insulin | 19 | SMD -2.03 (-2.92 to -1.13) | 96.4% |
+
+[@reynolds2020]
+
+The authors found no modification by diabetes type, medication, risk of bias, fibre type, trial size or
+duration for HbA1c, glucose, lipids or weight; only 2 trials were in type 1 diabetes, none in gestational
+diabetes, and 1 ran a year. [@reynolds2020]
+
+### Parameter table — 2020 diabetes vs 2019 general population (BLOCKING, op-weave 2a)
+
+| Parameter | Reynolds 2019 | Reynolds 2020 | Same quantity? |
+|---|---|---|---|
+| Stratum | general population | prediabetes / T1D / T2D | **NO** |
+| Cohort base | 185 prospective studies | 2 cohorts (EURODIAB, EPIC diabetes sub-cohort) | **NO** — 2020 is far thinner |
+| All-cause, highest vs lowest | RR 0.85 (0.79-0.91) | RR 0.55 (0.35-0.86) | **PARTLY** — same contrast type, different cohorts' quantile cut-points |
+| Absolute effect | 13 (8-18) fewer per 1000, highest vs lowest | 14 (4-19) fewer per 1000, 35 vs 19 g/d | **NO** — different contrasts and baseline risks |
+| Curve | outcome curves «many of which are linear with no sign of a plateau within the available data» (all-cause per 8 g RR 0.93) | «not linear (p = 0.005)», falling over roughly 14-34 g/d | **NO** — different cohorts and spline fits |
+| Recommended intake | no less than 25-29 g/d | +15 g/d, or 35 g/d | **NO** — 2019: best-populated benefit range, more expected above; 2020: at the top of the plotted data |
+| Trial weight | -0.37 kg (-0.63, -0.11) | -0.56 kg (-0.98 to -0.13) | **YES** metric (MD kg); different stratum and doses; trial overlap not checked |
+| Trial TC / LDL | -0.15 / -0.09 mmol/L | -0.34 / -0.17 mmol/L | **YES** metric; same caveats |
+| Trial SBP | -1.27 (-2.50, -0.04) | -1.86 (-4.85 to 1.12) NS | **YES** metric; 2020 CI crosses 0 |
+| Trial HbA1c | SMD -0.35, NS | MD -2.00 mmol/mol | **NO** — SMD vs MD |
+| Independence | — | same lead and senior authors | **NO** -> type-F |
+
+What the table licenses:
+
+- **No evidence of effect modification by diabetes (route b).** The 2019 point estimate (0.85) lies inside
+  the 2020 interval (0.35-0.86), and the 2020 estimate rests on 2 cohorts. Read the larger 0.55 as
+  *consistent with* the general-population effect, imprecisely estimated, not as fibre working harder in
+  diabetes. The two absolute figures are different contrasts and cannot be ranked against each other.
+- **The 2019 "linear" vs 2020 "not linear" is a distinction, not a tension** (not-joined check ii):
+  different strata, cohorts and spline fits, and both curves keep falling to the top of their data with no
+  plateau shown. The 2020 authors do present non-linearity as a departure: the relationship «was not linear
+  as had been previously been believed to be the case» [@reynolds2020].
+  On 2 cohorts against 185 studies that cannot overturn the general-population shape; it is held as a
+  distinction, not adjudicated, and the Fig 2 spline sits close to the linear fit, so the non-linearity is
+  mild.
+- **35 g is the data edge, not a knee.** The 2020 risk reduction is read «between an average intake of
+  19 g per day [26] and the highest intake for which data were available»
+  [@reynolds2020], and the plotted curve ends at
+  roughly 33-34 g/d. The 35 g target therefore marks where the
+  cohorts stop, the same reading as SACN's 30 g (see the dose-response section above). Monotone over
+  \~14-34 g/d is all the curve shows; 35 g sits at or just past that edge.
+
+### What the diabetes trials do and do not show
+
+- **The HbA1c effect is small; whether it works through weight is unresolved.** -2.00 mmol/mol is about -0.18 percentage
+  points of HbA1c (dividing by 10.929). Meta-regression split it: «MD −2.67 mmol/mol, 95% CI −4.18 to
+  −1.16 from 28 trials» without weight control vs «MD 1.26 mmol/mol, 95% CI −0.15 to 2.68 from 5 trials»
+  with it, and the authors say weight loss «may have been responsible for this effect» while noting
+  «we identified only 5 trials» [@reynolds2020]. The 5 weight-controlled trials pool to a null, point estimate in the opposite direction. But
+  the authors flag that this conflicts with earlier energy-balanced trials in which fibre-rich
+  high-carbohydrate diets improved glycaemic control: «These findings were apparent even when energy
+  balance was rigor- ously controlled. This appears to contradict our findings»
+  [@reynolds2020]. So whether fibre lowers HbA1c
+  independently of weight is unresolved.
+- **The SMDs above 2 are a red flag, not a large effect.** Insulin and CRP SMDs of -2.0 to -2.8 at I2
+  \~96-97% are implausibly large for a fibre change; insulin ran SMD -6.22 in Middle East trials vs -0.65
+  (crossing 0) in Europe [@reynolds2020]. The magnitude
+  cannot be read as a clinical effect size (SMDs pooled across units at I2 \~96-97%, with a region
+  gradient; trim-and-fill left insulin at SMD -2.48); only the direction carries.
+- **Two internal inconsistencies.** The waist influence analysis says removing 2 trials «did not remove
+  the significance of the pooled effect (MD −1.59, 95% CI −3.07 to 0.10 cm)» — an interval that crosses
+  0 (possibly a sign error for -0.10; not checkable without S10-S12). And fasting glucose was graded «high because of the dose response», yet the plotted glucose
+  dose-response CI spans 0 across the range; the GRADE tables
+  (S18) are not held, so the upgrade cannot be checked.
+- **Food, not supplement, carries the mortality claim.** Fibre type did not modify the surrogates, but
+  «the only direct evidence for such benefit derives from fibre as it occurs naturally in food»
+  [@reynolds2020] — the food-vs-isolate line above
+  holds in this stratum too.
+- **Transport limits.** Mortality comes from European cohorts on self-reported intake (the instrument is
+  not stated in the held text) -> [[Measurement Error in Dietary Assessment]]; the trials are short and
+  almost all type 2 or prediabetes. Type 1 diabetes and gestational diabetes are effectively unstudied
+  here, and the review reports no fibre-versus-drug comparison (one included trial, Lalor 1990, co-tested guar and
+  metformin; its design is not described in the held text).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 - **Target \~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
@@ -242,8 +351,12 @@ documents, and the LFD is properly a time-limited elimination protocol, not a di
   Jenkins 2024 partially contests the "weaker" wording — see the GI/GL section below; the ranking
   conclusion survives via collinearity, but the honest phrasing is "GI adds little BEYOND fibre/whole
   grain," not "GI is weaker."]` -> [[Glycaemic Index and Glycaemic Load and Chronic Disease]]
+- **For someone with prediabetes or diabetes, the same food-fibre advice holds** (direction consistent,
+  no evidence the effect differs); the EASD's 35 g/day is the top of two cohorts' data, not a measured
+  optimum. Expect a small glycaemic gain (\~0.2 percentage points HbA1c; whether via weight or directly is unresolved) rather than a
+  glucose-lowering therapy.
 
-
+</div>
 
 ## Certainty and gaps
 

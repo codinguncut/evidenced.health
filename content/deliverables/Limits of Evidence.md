@@ -10,8 +10,6 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-page" data-last-updated="2026-10-03"></div>
-
 
 Some questions about diet and health cannot be settled cleanly, and no volume of new research
 will change that. You cannot blind people to what they eat, cannot measure a real diet without

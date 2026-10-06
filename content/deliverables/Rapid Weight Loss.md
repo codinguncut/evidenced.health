@@ -8,7 +8,6 @@ created: 2026-07-30
 updated: 2026-09-09
 concrete_subject_audited: 2026-08-27
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 *This page has been folded into [[Losing Fat and Keeping It Off]].*
 
@@ -34,5 +33,3 @@ raising their risk and whether losing it reaches hard outcomes.
 > | **Overall certainty** | **Not stated** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-09-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Rapid%20Weight%20Loss.md) |
-
-</div>

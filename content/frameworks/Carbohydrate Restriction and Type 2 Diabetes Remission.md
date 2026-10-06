@@ -2,11 +2,11 @@
 type: framework
 question: Does restricting carbohydrate put type 2 diabetes into remission, and does it last?
 aliases: [T2D Remission, Diabetes Remission, Low-Carb for Diabetes, Carbohydrate Restriction Diabetes, LCD Remission]
-authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Naude, Celeste E; Ge, Long; Szczerba, Edyta; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
-sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
+authors: [Goldenberg, Joshua Z; Lean, Michael EJ; Taylor, Roy; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Naude, Celeste E; Ge, Long; Szczerba, Edyta; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
 cluster: weight-loss-diets
 confidence: medium
-self_critiqued: 2026-09-16
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
@@ -14,13 +14,15 @@ relationships:
     - Rating Outcome Importance
     - Surrogate Outcomes
 created: 2026-07-26
-updated: 2026-09-16
+updated: 2026-10-06
 ---
 
 BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carbohydrate defined  [@goldenberg2021]
 **<26% of energy or <130 g/day** -- materially stricter than the **<45% of total energy** used by
 broader reviews such as Naude 2022.
 [@naude2022]
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The answer depends entirely on what "remission" means
 
@@ -31,10 +33,14 @@ broader reviews such as Naude 2022.
 
 [@goldenberg2021]
 
-**This is the finding.** The headline **32 per 100 more remissions** -- an NNT of about 3 -- is remission
-**with medication allowed to continue**. Under the definition that also requires coming off medication,
-the effect is **never statistically significant at any timepoint, and the 12-month point estimate is
-negative**.
+**This is the finding.** The headline **32 per 100 more reaching HbA1c <6.5%** -- an NNT of about 3 -- counts
+that threshold **with medication allowed to continue**: the review's protocol defines remission «with or without the use
+of diabetes medication» [@goldenberg2021], so
+this is glycaemic *control below the diagnostic threshold*, not remission in the off-drug sense DiRECT
+measures -> [[Total Diet Replacement and Type 2 Diabetes Remission]]. Under the definition
+that also requires coming off medication, the effect is **never statistically significant at any
+timepoint, and the 12-month point estimate is negative**. (corrected 2026-10-06: *32 per 100 more
+remissions* -> HbA1c <6.5% with medication allowed, relabelled per Goldenberg chunk 01)
 
 **But the stratum matters, and this is where the headline needs qualifying.** In trials that
 *excluded* insulin users, medication-free remission **is** significant: **RD 0.20 (0.03 to 0.38), NNT
@@ -55,6 +61,8 @@ And the two definitions do not draw on the same trials. Only **7 of 23 trials (3
 reduction and reported usable data**, so the medication-free estimates come from a structurally
 different set of trial designs, not from a stricter reading of the same evidence.
 [inferred from @goldenberg2021]
+
+</div>
 
 ## Most benefits attenuate by 12 months — but not all
 
@@ -165,6 +173,8 @@ directly.
 
 
 [@goldenberg2021]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The mechanism this review does not isolate — weight loss, not carbohydrate per se
 
 Low-carbohydrate diets cause weight loss, and this review's remission effect **attenuates to null by
@@ -191,6 +201,38 @@ contribution from the weight-loss one.
 The added glycaemic contribution is therefore **null on a weak test, not cleanly tested and not
 excluded**. A person should optimize for the weight loss they can *sustain*, by whichever route they will
 adhere to -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+### Durability: Goldenberg 6 -> 12 months vs DiRECT 12 -> 24 months — not the same quantity
+
+Goldenberg's 12-month attenuation and DiRECT's 24-month gap look like a contrast in durability. They are
+not a like-for-like comparison:
+
+| Parameter | Goldenberg 2021 (low-carb MA) | DiRECT 24 mo (Lean 2019) | Same quantity? |
+|---|---|---|---|
+| Comparator | comparator diets (e.g. low-fat, Mediterranean) | usual primary care (control lost 2.3 kg) | **NO** |
+| Horizon | 6 vs 12 months | 12 vs 24 months | NO |
+| Remission definition | the attenuation (RD 0.32 at 6 mo) is on the medication-permitted definition; drug-free definition was never significant (0.05 at 6 mo) | HbA1c <48 mmol/mol (6.5%) off all antidiabetic drugs for >=2 months (Lean 2019 Figure 2 legend, chunk 02) | **NO** |
+| Remission estimate | between-diet RD at 12 mo, both non-significant: 0.10 (-0.02 to 0.21; 3 RCTs) if remission ignores medication, -0.04 (-0.16 to 0.09; 2 RCTs) if drug-free required | 35.6% vs 3.4% (ITT) at 24 mo, down from 46% in the intervention arm at 12 mo | NO — diet-vs-diet vs programme-vs-usual-care; DiRECT requires drug-free (off all antidiabetic drugs) |
+| Maintenance support | varies by trial; adherence beyond 6 mo not separable | monthly visits + rescue TDR (used by \~half) | NO |
+
+[@lean2019] (DiRECT column)
+[@goldenberg2021] (Goldenberg column)
+
+Goldenberg does not attribute its fade to the diet: «Although improvements noted at six months diminished
+by 12 months, determining with any certainty whether this is related to intensity of intervention and/or
+dietary adherence beyond six months is difficult.»
+[@goldenberg2021]
+DiRECT's 2-year data are consistent with durability tracking weight kept off: 12-month remitters who
+stayed in remission regained 4.25 kg between 12 and 24 months vs 7.09 kg in those who relapsed (p=0.073,
+not significant), and in post-hoc pooled bands remission at 24 months rose with kilograms lost (5.2%
+below 5 kg to 70% at >=15 kg).
+[@lean2019]
+So this is a distinction, not a tension: neither source tests whether a low-carb route holds remission as
+long as an energy-controlled one with the same maintenance support. Both readings are consistent with
+durability tracking maintained weight loss rather than the diet's carbohydrate share.
+[inferred from @goldenberg2021; @lean2019]
+
+</div>
 
 ## The umbrella review sharpens the reading — no RCT tests low-carb FOR REMISSION at all `[2026-08-04]`
 

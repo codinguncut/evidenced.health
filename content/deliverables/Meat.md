@@ -3,14 +3,13 @@ type: deliverable
 title: Meat
 aliases: [Red Meat, Red Meat and Health, Is Red Meat Bad, Red Meat Harm, Processed Meat and Health, Meat and Health, Poultry, White Meat]
 question: What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces?
-sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
+sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Li - Red Processed Meat CVD T2D Mendelian Randomization 2024, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-02
+updated: 2026-10-06
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
 
 **Processed meat is the clearest harm; unprocessed red meat runs the same direction a notch smaller
 and less certain; poultry carries a small favourable signal you cannot fully credit to the chicken.**
@@ -26,10 +25,6 @@ the operative lever. For most healthy people the decision ranks below the big ro
 body fat, inactivity); the cancer argument is loud because the effect is small and contested, not
 because it is large.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Start with processed meat — the clearest harm
 
 One coordinated meta-analysis series applied the same dose-response method to twelve food groups.
@@ -44,9 +39,7 @@ cancer, the cancer-prevention body WCRF places processed meat at its strongest e
 sets the target bluntly: «Consume very little, if any, processed meat»
 [@wcrf2018ter].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Unprocessed red meat: the same direction, smaller and less certain
 
@@ -82,13 +75,23 @@ rate. That bundle is not small. In blinded trials, people who adhered well to a 
 mortality (0.56, 0.43 to 0.74)»
 [@simpson2006adherence] — an
 all-cause-mortality odds ratio the healthy-adherer pattern manufactures with zero causal input from
-the pill (a reference magnitude, not a diabetes effect). No Mendelian-randomization study or feeding
-trial isolates red meat against diabetes either way, so the cell stays open in both directions.
- -> [[The Observational-Trial Discordance]]
+the pill (a reference magnitude, not a diabetes effect).
+
+A genetic test has now been run, and it is too weak to settle this. A Mendelian-randomization study
+used genetic variants for UK Biobank intake of processed meat, pork, beef and lamb and found no
+significant link to type-2 diabetes or coronary disease: processed meat and diabetes **OR 1.090
+(95% CI 0.714-1.664)**, beef and diabetes **1.803 (0.867-3.750)**, processed meat and coronary
+disease **0.935 (0.630-1.386)**
+[@li2024meatmr]. Those intervals
+contain both no effect and the cohort-sized harms above (a rough read, since the units differ).
+The study never states its exposure unit and reports no power calculation, so its null is insufficient evidence, not a refutation of the
+association. No feeding trial tests meat against diabetes either, so the cell stays open in both
+directions. -> [[The Observational-Trial Discordance]],
+[[Food Groups and Health Outcomes - A Dose-Response Matrix]]
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The cancer question splits two expert bodies
 
@@ -128,7 +131,8 @@ type-2 diabetes at **RR 1.31 (95% CI 1.21-1.43)**
 lowest — a consistent direction that makes heme a candidate *shared* lever across several outcomes
 rather than a coincidence of separate associations.
 
-But a Mendelian-randomization study undercuts a unified *harmful iron* story. Genetically-predicted
+But a separate Mendelian-randomization study, of iron stores rather than meat intake, undercuts a
+unified *harmful iron* story. Genetically-predicted
 higher iron stores were **protective for coronary artery disease** (OR 0.86-0.93 per SD) yet
 **adverse for type-2 diabetes**
 [@liu2024ironmr].
@@ -138,8 +142,6 @@ the natural experiment instruments *systemic* iron, not dietary heme, so it narr
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Preparation matters less than the headlines
 
@@ -182,10 +184,6 @@ trimming itself: replacing saturated fat with polyunsaturated fat lowers cardiov
 it with refined carbohydrate does not.
 -> [[Saturated Fat Intake and Replacement]], [[The Comparator Problem]],
 [[Lean Red Meat and Atherogenic Lipoproteins]]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Poultry sits apart — a small signal you can't fully credit to the chicken
 
@@ -255,10 +253,6 @@ it does not randomize it, and residual confounding by the whole healthier-diet p
 white-meat preference is exactly the comparator problem. So it narrows the substitution gap — a first
 within-cohort direction and rough magnitude — without closing it. -> [[The Comparator Problem]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## What the meat is measured against decides the answer
 
 Because the comparator does the work, the sharpest evidence is about swaps. In a Japanese cohort,
@@ -289,10 +283,6 @@ apolipoproteins, and blood pressure»
 So the surrogate win from cutting red meat exists chiefly when plant protein takes its place.
 -> [[Lean Red Meat and Atherogenic Lipoproteins]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## What meat gives back
 
 Meat is also a dense source of bioavailable iron, vitamin B12, zinc, and high-quality protein, and
@@ -301,8 +291,6 @@ risk [@wcrf2018ter]. That is why the decision is a
 substitution, not a blanket subtraction. A plant-forward swap has to make up the grams and the
 amino-acid quality it displaces (plant sources are lower on the digestibility score), or it trades one
 gap for another. -> [[Protein Quality and the DIAAS Score]]
-
-</div>
 
 ## Where meat ranks among the levers
 
@@ -356,7 +344,7 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What the evidence still cannot say
 
@@ -391,10 +379,10 @@ cited here.
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about meat's effect on each patient-important outcome once the category is split into its real exposures — processed vs unprocessed red meat, poultry, cooking method, fat of the cut — and each endpoint is read one at a time; how large is any effect that survives the observational caveats, and how does it depend on what the meat replaces? |
-> | **Evidence included** | 23 sources — 15 gold, 8 high |
+> | **Evidence included** | 24 sources — 15 gold, 9 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
 
 </div>
 

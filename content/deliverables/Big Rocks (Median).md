@@ -4,13 +4,13 @@ title: "The Biggest Health Levers for a Typical Adult"
 question: For a drifting-median Western adult (late 40s, obesity-associated metabolic drift, not diseased), which modifiable diet and lifestyle exposures carry the largest expected effect on patient-important outcomes ranked by effect x certainty, where does the remaining marginal return flatten, and for each lever is it robust across the distribution or conditional on metabolic status?
 aliases: [Big Rocks Median, Drifting Median Big Rocks, Median Western Adult Levers]
 authors: [World Health Organization (org); Hooper, Lee; Ekelund, Ulf; Paluch, Amanda E; Currier, Brad S; Momma, Haruki; Look AHEAD Research Group (org); Ma, Chenhan; Lean, Michael EJ; European Association for the Study of the Liver (org); Recchia, Francesco; Taylor, Roy; Kramer, Caroline K; Goldenberg, Joshua Z; Naude, Celeste E; Morton, Robert W; Refalo, Martin C; European Society of Cardiology (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Jha, Prabhat; Stockwell, Tim; Millwood, Iona Y; Zhao, Jinhui; Cappuccio, Francesco P; Shan, Zhilei; National Institute for Health and Care Excellence (org); Ross, Robert; Messier, Stephen P; World Cancer Research Fund International (org); Johnston, Bradley C; Livingston, Gill; Chen, Yancong; Iso-Markku, Paula; Kujala, Urho M; Peters, Ruth; Zhang, Jinhuan; Xu, Wei; Yu, Jin-Tai; Kuate Defo, Alvin; Daskalopoulou, Stella S; Zhou, Yuhan; Xia, Yang; Peng, Yinshun; Gao, Xiang]
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, EASL - MASLD Clinical Practice Guidelines 2024, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Jha - Smoking Hazards Cessation Benefits 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, NICE - NG246 Evidence Review F, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Lowe - Time-Restricted Eating TREAT 2020, Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018,
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Currier - Resistance Training Prescription NMA 2023, Momma - Muscle-Strengthening Activities and Mortality 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, EASL - MASLD Clinical Practice Guidelines 2024, Recchia - Exercise Caloric Restriction Visceral Adiposity 2023, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Morton - Protein Supplementation and Resistance Training 2018, Refalo - Protein Fat-Free Mass Energy Restriction 2025, WHO - Sugars Intake 2015, WHO - Sodium Intake 2012, ESC - CVD Prevention Guidelines 2021, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Jha - Smoking Hazards Cessation Benefits 2013, Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Cappuccio - Sleep Duration and Mortality 2010, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, NICE - NG246 Evidence Review F, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Lowe - Time-Restricted Eating TREAT 2020, Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018,
   Iso-Markku - Physical Activity Dementia 2022, Peters - Blood Pressure Lowering Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Xu - Alcohol Consumption Dementia 2017, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-02
-self_critiqued: 2026-10-02
-concrete_subject_audited: 2026-10-02
+updated: 2026-10-06
+self_critiqued: 2026-10-06
+concrete_subject_audited: 2026-10-06
 ---
 
 > [!warning] Applies to a specific group
@@ -96,6 +96,8 @@ rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is r
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## (a) Robust big rocks — lead here
 
 ### Move more, at any intensity, plus resistance — the largest robust lever
@@ -170,9 +172,10 @@ threshold — 36% of newly-diagnosed type-2 diabetes had a BMI under 25
 threshold as a mechanism-grade hypothesis with human corroboration, labelled here as such (Taylor is a
 mechanism-tier source) — not a settled law.
 
-How to remove the depot: weight the deficit toward activity. In 40 deficit-matched RCTs, at the same
-weekly energy deficit exercise removed more visceral fat than eating less, and only the exercise arm was
-dose-dependent (-0.15 per 1000 kcal/week; diet 0.03, not significant)
+How to remove the depot: weight the deficit toward activity. A meta-analysis of 40 RCTs controlled for
+weekly energy deficit statistically, in a meta-regression across trials, rather than by matching arms. Per unit of
+deficit, exercise removed more visceral fat than eating less, and only exercise was dose-dependent
+(-0.15 per 1000 kcal/week; diet 0.03, not significant, which the authors say may reflect fewer diet studies)
 [@recchia2023]. These are
 standardized effect sizes, not cm2, and the effects are small
 [@recchia2023]. Combine the two
@@ -189,7 +192,17 @@ weight, function and overall mortality — not for heart attacks avoided.
 The reversal end of the curve is real where the driver is ectopic fat. A total-diet-replacement programme
 put 46% of short-duration type-2 diabetes into remission at 12 months, and remission climbed with
 kilograms lost — 0% among those who gained weight, up to 86% among those losing at least 15 kg
-[@lean2018]. Fatty liver responds on its own graded ladder:
+[@lean2018].
+
+At two years, the same trial counted about one in three in remission: 53 of 149 people started on the
+programme (35.6%) against 5 of 149 (3.4%) on usual care, counting everyone randomized. The trial enrolled adults aged 20-65 with a BMI of 27-45, diabetes for under 6
+years and no insulin [@lean2019]. Remission at two
+years was associated with weight kept off: in a post-hoc look across both arms, 29 of the 45 people who
+kept at least 10 kg off (64%) were in remission [@lean2019].
+These 2-year figures come from the authors' accepted manuscript, which may differ from the published
+version [@lean2019].
+
+Fatty liver responds on its own graded ladder:
 about 5% loss cuts liver fat, 7-10% improves inflammation, and 10% or more improves fibrosis
 [@easl2024]. Read those thresholds as where the
 trials sampled, not as precise cutpoints. And for most people the fatty liver's dominant danger is
@@ -310,6 +323,8 @@ remaining levers are small by construction. That is a result, not a failure to f
 effects in this domain are settled and few; the long tail of refinements shares what little is left. For
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
+
+</div>
 
 ## (b) Stratum-dependent — conditional on metabolic status
 
@@ -445,6 +460,8 @@ carb-restriction's value as conditional on metabolic status rather than universa
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Caveats
 
 - **Open loop.** This appraisal grades coherence and fidelity to its sources; it never grades validity. No
@@ -461,9 +478,11 @@ carb-restriction's value as conditional on metabolic status rather than universa
 > | | |
 > |---|---|
 > | **Question** | For a drifting-median Western adult (late 40s, obesity-associated metabolic drift, not diseased), which modifiable diet and lifestyle exposures carry the largest expected effect on patient-important outcomes ranked by effect x certainty, where does the remaining marginal return flatten, and for each lever is it robust across the distribution or conditional on metabolic status? |
-> | **Evidence included** | 44 sources — 26 gold, 15 high, 3 moderate |
+> | **Evidence included** | 45 sources — 26 gold, 16 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
+
+</div>
 
 ## References

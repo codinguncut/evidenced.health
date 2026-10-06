@@ -2,11 +2,11 @@
 type: framework
 question: Are refined grains harmful, do whole grains help, and does the evidence say anything useful about pulses?
 aliases: [Refined Grains, Whole Grains, Processed Grains, Cereal Fibre, Pulses, Legumes, Beans and Lentils, Grain Quality]
-authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Zargarzadeh, Nikan]
-sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Zargarzadeh - Legume Consumption Mortality]
+authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org); European Society of Cardiology (org); Reynolds, Andrew; Food and Agriculture Organization of the United Nations (org); Afshin, Ashkan; World Cancer Research Fund International (org); Jenkins, David J A; Aune, Dagfinn; Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Boeing, Heiner; Thorisdottir, Birna; Zargarzadeh, Nikan; Akerman, Ashley P]
+sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Zargarzadeh - Legume Consumption Mortality, Reynolds - Fibre Whole Grains Diabetes 2020]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-09-09
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,7 +16,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-27
-updated: 2026-09-09
+updated: 2026-10-06
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -30,6 +30,8 @@ convergence it appears to add is therefore shared-source, not type-E.
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The headline: refined grains are NOT found harmful
 
 | Exposure -> outcome | Estimate | SACN grade |
@@ -37,7 +39,7 @@ convergence it appears to add is therefore shared-source, not type-E.
 | Refined grains -> cardiovascular events | **RR 1.00 (95% CI 0.98, 1.01)** per half serving/day, p=0.5 | `No association · Moderate` |
 | Refined grains -> type 2 diabetes | **RR 1.00 (95% CI 0.98, 1.01)**, p=0.7 | `No association · Moderate` |
 
-[@sacn2015]
+[@sacn2015] (corrected 2026-10-06: locus 7.20-7.25 -> chunk 04 paras 7.9-7.11)
 
 **And the randomised comparisons are null across the board.** SACN states the comparator explicitly —
 «All trials compared whole grain diets to refined grain control diets.» — then reports no effect on
@@ -51,6 +53,8 @@ p=0.14), fasting insulin and insulin sensitivity — several at `Adequate eviden
 95% CI -642, -79; p=0.01)» — graded `Effect · Limited evidence`, and **SACN notes one trial
 contributes 75% of the pooled estimate.**
 [@sacn2015]
+
+</div>
 
 ## The claim that survives is narrower than the popular one
 
@@ -403,6 +407,8 @@ which this page already records as the thing that makes 30 g and 25 g non-compar
 bound of 45 g is the highest figure in the corpus and comes with no stated warrant**, so it is recorded
 as a held position, not as evidence that more is better.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The whole-grain benefit is probably the FIBRE benefit `[2026-07-29, Reynolds]`
 
 Reynolds 2019 (the WHO-commissioned Lancet meta-analysis) tracks whole grains and total fibre in the
@@ -415,6 +421,18 @@ page, now with a magnitude on both sides -> [[Dietary Fibre and Health]]. It als
 fibre is the active fraction, *fibre content* (not the word "whole grain") is what to steer by.
 [@reynolds2019]
 
+**In the diabetes stratum the review does not separate the two `[2026-10-06]`.** The same team's 2020 review
+for adults with prediabetes or diabetes names whole grains in its title, but its trial eligibility admits
+«an increase in whole grains or dietary fibre» as one intervention class, so whole-grain and fibre trials
+are pooled together and no whole-grain-specific estimate is reported in the main text (appendices S4-S17 not held). Fibre type did not modify the
+glycaemic, lipid or weight effects, and the whole-grain advice is practical: «replace refined grain
+products with whole grain foods» as one way to raise fibre, with whole grains listed among good sources
+(«Vegetables, pulses, whole fruits, and whole grains are excellent sources»).
+[@reynolds2020] So in people with diabetes, whether
+whole grains add anything beyond their fibre is untested in the held text — a named gap (G), consistent with, but not
+evidence for, the component-not-category reading above.
+
+</div>
 
 ## Low whole grains tops the GLOBAL burden ranking — but read that as prevalence, not effect size `[2026-08-04, Afshin GBD 2017]`
 

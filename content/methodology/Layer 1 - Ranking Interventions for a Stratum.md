@@ -12,13 +12,26 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-08-28
-self_critiqued: 2026-08-30
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 **Mostly a compilation.** Every row of the table below is copied from a claim page with its own source;
 that part combines nothing. The point of the page is the **shape of what is held and what is missing** —
 per the telos, *the ceiling is itself a finding*.
+
+**Rank at the margin, net of the best realistic substitute.** A lever's Layer-1 rank is not its
+absolute effect but the patient-important benefit it adds over the best alternative the person could
+realistically reach instead — and a mature, effective, low-harm drug for the *same* outcome is one such
+alternative. Three guards: substitution is **outcome-specific** (a single-channel drug shrinks a
+pleiotropic lever's rank only for the outcomes it covers); it is **net of the drug's own costs**
+(tolerability, lifelong dependency, not fixing the upstream driver); and whether a drug is in fact
+mature and low-harm is a finding to appraise, not an assumption. The rule only sizes the marginal
+lever; the choice between lever and drug stays the person's (Layer 3). Worked instance:
+[[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]] (the class drug shrinks the lifestyle
+weight-loss lever's CV/renal/mortality rank in T2D, not its remission or MASLD value).
+
 
 > **Superseded 2026-07-28.** This header previously read *"a compilation, not a synthesis... nothing
 > here combines sources"*, and `sources:` was empty. The final section now carries a source of its own
@@ -37,17 +50,33 @@ would invert that** — the telos is explicit that the wiki *"is never built aro
 situation"*, and that stratification and outcome-weighting belong to **layer 3, per case, after the
 fact**. Any actual person's values live outside the graph, never in it.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The honest answer first
 
 **The wiki cannot yet rank these interventions against one another, and the reason is specific: it
-holds no baseline risk for this stratum, and no magnitude at all for the two largest levers.**
+holds no baseline risk for this stratum, and no absolute effect *at this stratum's baseline* for the two
+largest levers (adiposity, inactivity).** Activity carries only an observational ratio (HR 0.34, see
+below); lifestyle weight loss carries absolute figures only at its trials' own baselines (null on hard CV
+events; a small all-cause mortality benefit in obese adults — see *What this page establishes*).
+(corrected 2026-10-06: *no magnitude at all for the two largest levers* -> no absolute effect at this
+stratum's baseline; both levers now carry some magnitude elsewhere on this page.)
 
 Layer 1 ranks by **effect size x certainty**, and effect size means *absolute* effect at a stated
-baseline risk. Of eight exposures below, **one** has an absolute effect on a hard outcome.
+baseline risk. Of the nine rows below, **three** carry an absolute effect on a hard outcome — quitting
+smoking, reducing SFA to 10%E, replacing SFA with PUFA — and even those three are stated in different
+units at different baselines (\~9-10 years of life for a smoker who quits by about 40; 15 fewer CVD
+events per 1000; 50 fewer per 1000 at a 23.8% control event rate), so they do not rank against one
+another either. Off the table, lifestyle weight loss carries a fourth (all-cause mortality, about six
+fewer deaths per 1000, at its own trials' baseline — item 2 below). (corrected 2026-10-06: *of eight
+exposures, one* -> of nine rows, three; audit 2026-10-06: *\~10 years ... by 40* -> \~9-10, Jha gives
+\~10 for quitting at 25-34 and \~9 at 35-44; off-table weight-loss figure noted.)
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What is held
 
@@ -56,14 +85,15 @@ baseline risk. Of eight exposures below, **one** has an absolute effect on a har
 | **Quit smoking (vs continue)** | **all-cause HR \~3.0; \~10 yr of life recovered if quit by 40 (removes \~90% of excess risk); still pays at any age** | **hard, mortality** | **High** | [[Smoking and Mortality]] |  [@jha2013]
 | **Reduce SFA to 10%E** | **15 fewer CVD events per 1000** (RR 0.83, 0.70-0.98) | **hard, composite** | Moderate | [[Saturated Fat Intake and Replacement]] |
 | Replace SFA with PUFA | 50 fewer CVD per 1000 — **at a 23.8% control event rate** | hard, composite | Low | [[Saturated Fat Intake and Replacement]] |
-| Low-carb for T2D remission | RD 0.32 at 6 mo, **NNT \~3**; attenuates to 0.10 by 12 mo | intermediate (HbA1c-defined) | Moderate | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
+| Low-carb, HbA1c <6.5% **with medication allowed** (not off-drug remission) | RD 0.32 at 6 mo, **NNT \~3**; attenuates to 0.10 by 12 mo; off-medication remission RD 0.05 (NS) at 6 mo | intermediate (HbA1c-defined) | Moderate (off-med: Low) | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] (corrected 2026-10-06: row relabelled from *T2D remission*) |
 | Low-carb, glycaemic control | HbA1c -0.47% at 6 mo | surrogate | **High** | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
 | Very-low-carb (NICE stratum) | weight -2.38 kg at 1 yr; HbA1c -0.38 | intermediate + surrogate | Very low / Low | [[Diets for Weight Loss - What NICE Recommends]] |
 | Low-carb vs balanced-carb, weight | \~1 kg — **judged not clinically important** | intermediate | Moderate | [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]] |
 | Reduce sodium | **-3.39 mmHg** systolic; hard outcomes all **very low** | surrogate | High (BP only) | [[Sodium Intake and Blood Pressure]] |
 | Reduce free sugars | isoenergetic swap for other carbohydrate: **null (0.04 kg)** | intermediate | Moderate | [[Free Sugars Intake]] |
 
-**Read the outcome-type column before the effect column.** Only the first two rows are hard outcomes.
+**Read the outcome-type column before the effect column.** Only the first three rows are hard outcomes
+(corrected 2026-10-06: *first two* -> first three, after the smoking row was added at the top).
 Everything else is an intermediate or a surrogate, and the telos is explicit that a surrogate is not an
 outcome — a marker can move the right way while patients do worse.
 
@@ -75,33 +105,58 @@ consistent harmful levers), while SSB, dairy, fish and eggs are outcome-specific
 input to this stratum ranking; its effects are per-serving RRs on mostly-hard outcomes, all
 observational-grade and from **one shared evidence base** (not independent).
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What is held as a RECOMMENDATION but with no magnitude
 
 - **Total diet replacement, 800-1200 kcal, maximum 12 weeks** — [[Diets for Weight Loss - What NICE Recommends]]
   carries NICE's recommendation, its bounds and its strength, but **not its effect size**. The review
   reports one; this wiki never extracted it. **The cheapest single fix on this page.**
+  **Magnitude now held from the trial route (updated 2026-10-06):** [[Total Diet Replacement and Type 2 Diabetes Remission]] carries DiRECT — 12-month remission 46% vs 4% (OR 19.7, 7.8-49.8), \~36% vs \~3% at
+  24 months, scaling with kg lost. NICE's *own* review figure is still unextracted, but the lever is no
+  longer magnitude-less.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What is EMPTY — and this is the finding
 
 | Lever | Status | Why it is empty |
 |---|---|---|
-| **Physical activity** | **ratios only, no absolutes** | The WHO guideline, its 535-page evidence annex and the 779-page PAGAC report all report hazard and risk ratios and **no absolute effects** for adult mortality/CVD/cancer/T2D. Staged, not ingested |
+| **Physical activity** | **ratios only, no absolutes** | The WHO guideline, its 535-page evidence annex and the 779-page PAGAC report all report hazard and risk ratios and **no absolute effects** for adult mortality/CVD/cancer/T2D. (corrected 2026-10-06: *Staged, not ingested* -> the WHO evidence annex is now held; PAGAC is not. Relative magnitude now held: HR 0.34, see below) |
 | ~~**Weight loss as an exposure on hard outcomes**~~ | **FILLED 2026-07-28 — as a NULL/ceiling** | [[Does Weight Loss Reduce Cardiovascular Events]] (Look AHEAD): lifestyle weight loss did NOT reduce hard CV events in T2D (HR 0.95). The lever is real for many outcomes; its *hard-CV-event* benefit is unproven via the lifestyle route |
 | **Baseline risk** | **FILLED as machinery (2026-07-26)** | [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]] holds the ESC thresholds and a read-off grid. **A stratum defined by age and condition alone cannot use it** — the chart also needs smoking status, a BP band, a cholesterol band and a region, and the ESC category moves between *high* and *very high* across plausible values. Those four are **case inputs, supplied at layer 3**, not fabric |
 | ~~**Pharmacotherapy**~~ | **FILLED 2026-07-28** | [[Semaglutide for Cardiovascular Risk in Obesity]] (SELECT+STEP-1) + [[Statins for Primary Prevention and the Power of Zero CAC]] (USPSTF+Nasir). Both the realistic drug comparators the telos names. Key finding is a ceiling, not a lever: see below |
 | ~~**Alcohol · sleep · smoking**~~ | **ALL HELD 2026-07-29** | Alcohol ([[Alcohol and Mortality and Vascular Disease]]) + sleep ([[Sleep Duration and Mortality]]) + **smoking now ingested ([[Smoking and Mortality]], Jha 2013) — the #1 dominant exposure, all-cause HR \~3.0 and a decade of life, now quantified and at the TOP of the ranked table above** |
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## What this page establishes
 
-1. **The one thing rankable is also the smallest lever on the list.** SFA reduction has the only
-   absolute hard-outcome effect the wiki holds — 15 fewer cardiovascular events per 1000 — and the
-   telos's own *attention-is-an-anti-signal* rule flags dietary fat composition as exactly the
-   contested, heavily-published, small-effect question that literature volume inflates.
-2. **The two largest levers for this stratum are unquantified**, not unfavourable. Adiposity and
-   inactivity are empty rows, and the telos names both as dominant.
+1. **The hard-outcome rows put the dominant lever on top and the most-discussed one at the bottom.**
+   Quitting smoking (all-cause HR \~3.0, \~10 years of life, High certainty) dwarfs the two dietary-fat
+   rows, which act on one composite CVD outcome (15 fewer per 1000 for SFA to 10%E, Moderate; 50 fewer
+   per 1000 for SFA->PUFA, Low, at a 23.8% control rate) with all-cause mortality crossing the null
+   (Annex 6 table below). The telos's *attention-is-an-anti-signal* rule flags dietary fat composition
+   as exactly the contested, heavily-published, small-effect question that literature volume inflates.
+   Smoking's row applies only where smoking is present — for this stratum it is a case input, not a
+   given. (corrected 2026-10-06: *SFA reduction has the only absolute hard-outcome effect the wiki holds
+   ... the smallest lever on the list* -> three hard-outcome rows, smoking dominant, the fat rows the
+   smallest hard-outcome effects held on this page.)
+2. **The two largest levers for this stratum have no absolute effect at its baseline**, which is not
+   the same as unfavourable. Inactivity has a large observational ratio (HR 0.34 at the dose maximum,
+   device-measured, see *Activity enters the hierarchy*) and no absolute layer. Adiposity, via lifestyle
+   weight loss, now has hard-outcome figures at its trials' own baselines: null on CV events (Look AHEAD
+   HR 0.95; the 54-RCT meta-analysis RR 0.93, NS) and all-cause mortality RR 0.82 (0.71-0.95), about six
+   fewer deaths per 1000, in obese adults of mixed glycaemic status
+   -> [[Does Weight Loss Reduce Cardiovascular Events]]. Neither is placed at this stratum's baseline risk, and the telos names both
+   as dominant. (corrected 2026-10-06: *unquantified ... empty rows* -> quantified as ratios or as
+   trial-baseline absolutes, not at this stratum's baseline.)
 3. **The rows are NOT commensurable and must not be read as a ranking.** Different outcomes (CVD events
    vs kg vs mmHg vs HbA1c), different baseline risks (the 50-fewer-per-1000 PUFA row comes from a
    23.8% event-rate population, roughly 3x the 8.5% in the row above it), different populations,
@@ -114,11 +169,12 @@ observational-grade and from **one shared evidence base** (not independent).
    The pharmacotherapy and weight-loss rows filled in 2026-07-28 all land the same way —
    [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]: no cardiometabolic
    intervention the wiki holds (semaglutide, statin, or lifestyle weight loss) has a large, proven
-   reduction in hard CV events for a low-risk primary-prevention person. So item 2 sharpens: the weight
-   lever is no longer *unquantified* on hard CV outcomes — it is *quantified as unproven/null* via the
-   lifestyle route, which is the ceiling itself.
+   reduction in hard CV events for a low-risk primary-prevention person. So item 2 sharpens: on hard CV
+   outcomes the weight lever is *quantified as unproven/null* via the lifestyle route, which is the
+   ceiling itself; its measured hard-outcome benefit is a small all-cause one not routed through the
+   heart. (corrected 2026-10-06: *no longer unquantified* wording aligned with the revised item 2.)
 
-
+</div>
 
 ## What would change the answer
 
@@ -171,6 +227,8 @@ large HR from cohorts does not outrank a smaller one from trials automatically.
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
 NNR is the first source the wiki holds that **publishes an
@@ -212,8 +270,10 @@ second is a unit-of-analysis error, and it is a seductive one because both are h
 
 - **A prevalence-weighted sanity check on where the wiki has spent its attention.** Low whole-grain
   intake ranks **first** and red meat **fourth** in this population, while the wiki's only rankable
-  absolute effect is saturated-fat reduction. That is a coverage signal about the corpus, not a claim
-  about any person.
+  absolute *dietary-composition* effects are saturated-fat reduction and replacement. That is a coverage
+  signal about the corpus, not a claim about any person. (corrected 2026-10-06: *only rankable absolute
+  effect* -> only rankable absolute dietary-composition effects; smoking and energy-restricting
+  weight loss now also carry one.)
 - **Stratum-dependence, demonstrated rather than asserted.** The red-meat rank moves from fourth
   overall to **second in Denmark and Iceland** — the same exposure, the same evidence, a different
   ordering because the population differs. The telos's *"the hierarchy is stratum-dependent, not a
@@ -231,6 +291,8 @@ cancer, ischemic heart disease and type 2 diabetes»*. **So a fourth-place burde
 weak underlying association** — which is the prevalence wedge visible inside NNR's own text, and the
 cleanest available demonstration that a high rank is not a large individual effect.
 [@nnr2023]
+
+</div>
 
 ## Self-critique of the NNR/GBD addition `[run 2026-07-28, before commit]`
 
@@ -402,6 +464,8 @@ guidance body saying so about its own recommendations**, which is stronger than 
   above rather than competing with it.
 [inferred from @esc2021]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The absolute layer arrives for one exposure — and it shrinks the lever `[2026-07-28, WHO SFA Annex 6]`
 
 This page's binding complaint is that it holds almost no absolute effects. **WHO's Annex 6 has now been
@@ -430,6 +494,8 @@ Full profile with relative effects and study counts:
   rankable thing is also the smallest lever on the list, and invoked the telos's
   *attention-is-an-anti-signal* rule. **The annex confirms it from the inside**: the most-studied
   dietary exposure in the corpus yields one significant absolute effect on one composite outcome.
+  (note 2026-10-06: *one rankable thing* predates the smoking row; the summary item it refers to now
+  reads the fat rows as the smallest of three hard-outcome rows.)
 - **The ceiling statement gets firmer.** Combined with the ESC finding above — that the largest relative
   effects attach to social position — **the picture is a small, well-measured dietary lever sitting
   under much larger unmodifiable ones.** That is a result, and the telos says to report it as one.
@@ -437,9 +503,12 @@ Full profile with relative effects and study counts:
 **What is still empty is unchanged.** Physical activity still has ratios without absolutes;
 pharmacotherapy, weight loss as an exposure, alcohol, sleep and smoking remain empty rows. **Annex 6
 filled one cell of one row — the SFA line — and demonstrated how much work an absolute layer takes per
-exposure.**
+exposure.** (superseded 2026-10-06: the *remain empty rows* list is stale — pharmacotherapy
+(semaglutide, GLP-1 class, statins), weight loss as an exposure (Look AHEAD, Ma, DiRECT), alcohol, sleep
+and smoking are all now held; see the EMPTY table above. Physical activity still has ratios without
+absolutes.)
 
-
+</div>
 
 ## A heavily-discussed lever that ranks near the bottom — meal timing `[2026-07-29, TREAT + eTRF]`
 
@@ -457,6 +526,8 @@ effect to rank, which is itself the placement.
 
 
 
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Few high-certainty, high-impact dietary levers — a challenge the assembled fabric confirms, and sharpens `[2026-08-17, Challenge]`
 
@@ -517,7 +588,9 @@ just the confirming):**
 **The sharpening the fabric adds to the doubt's *big* levers — each is real, and each carries an
 evidence-type asterisk the doubt's framing omits:**
 
-- **Movement** is the largest association the vault holds (HR \~0.34 self-report, \~0.27 device) but it is
+- **Movement** is the largest association the vault holds (HR \~0.34 at the dose maximum, \~0.27 top-vs-bottom quartile — both
+  device-measured total activity, Ekelund's accelerometer cohorts; corrected 2026-10-06: *0.34
+  self-report* -> device-measured) but it is
   **observational — structurally unprovable by RCT** for hard CV events; a predictor of large effect, not
   a proven-by-trial one -> [[Physical Activity Dose and Mortality]], [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
 - **Muscle / grip strength** is a **predictor, not a proven treatment target**: grip is *"a number to
@@ -550,8 +623,7 @@ the bias the rule exists to catch. The value added is configurative (the composi
 per-lever certainty-type asterisk), not a new magnitude — the doubt was right, the fabric held it, and
 this section states it once instead of leaving it distributed.
 
-
-
+</div>
 
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 

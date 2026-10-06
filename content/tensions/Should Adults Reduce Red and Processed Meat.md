@@ -2,13 +2,13 @@
 type: tension
 question: Does a small, low-certainty association between meat and cancer warrant a recommendation that adults reduce intake?
 aliases: [Red Meat Tension, WCRF vs NutriRECS, Meat Reduction Disagreement, NutriRECS Controversy]
-authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Guyatt, Gordon H; Zeraatkar, Dena; Vernooij, Robin W M; Valli, Claudia; Zhong, Victor W]
-sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
+authors: [World Cancer Research Fund International (org); Johnston, Bradley C; Guyatt, Gordon H; Zeraatkar, Dena; Vernooij, Robin W M; Valli, Claudia; Zhong, Victor W; Li, Guangling; Jiang, Jiangang; Li, Zeping]
+sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red and Processed Meat Recommendations 2019, Zeraatkar - Red Meat Randomized Trials 2019, Vernooij - Red Meat Consumption Patterns 2019, Valli - Values and Preferences Meat 2019, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020, Li - Red Processed Meat CVD T2D Mendelian Randomization 2024]
 cluster: red-meat
 nucleus: true
 confidence: medium
-updated: 2026-09-08
-self_critiqued: 2026-09-08
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Red and Processed Meat and Cancer
@@ -134,6 +134,8 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The CVD and all-cause-mortality arm of the same decision (Zhong 2020) `[2026-09-08]`
 
 The clash above is framed on **cancer**, but *should adults reduce red/processed meat?* is one decision
@@ -168,6 +170,24 @@ even if the overall quality of their diet was high».
 hypothesis-generating subgroup (many strata tested, exploratory, P<.01 threshold), NOT a stratified
 recommendation — the effect-modification bar (route b: a positive interaction on replicated evidence) is
 not met by one exploratory pass. Recorded as a lead, not a finding.
+
+**A genetic test of the CVD arm, and why it does not settle it `[2026-10-06]`.** A two-sample MR
+instrumented UK Biobank intake of processed meat, pork, beef and lamb and reported no causal association
+with CAD, hypertension, stroke or T2D on IVW (e.g. processed meat -> CAD OR 0.935, 95% CI 0.630-1.386;
+beef -> CAD 1.182, 0.702-1.989) [@li2024meatmr].
+Its own authors read this as a challenge to «the prevailing conventional perspective in the field»
+[@li2024meatmr]. On CAD
+(and T2D) the intervals are wide enough to contain both the null (OR 1) and effects of the small
+observational size this section holds (unit-mismatched against Zhong's per-serving figures, so a heuristic
+reading only); the hypertension and stroke estimates are on an unstated, possibly linear-probability
+scale and are not interpretable yet. Further, the exposure unit is never stated, and there is no power calculation, so it is insufficient
+evidence rather than evidence of no effect (appraisal and parameter table on
+[[Food Groups and Health Outcomes - A Dose-Response Matrix]]). It does not join issue with either pole:
+NutriRECS already concedes a possible «very small causal effect»
+[@nutrirecs2019], a null this imprecise is compatible
+with that concession, and it tests no cancer outcome, so it does not bear on WCRF's cancer-based reading. The decomposition above is unchanged.
+
+</div>
 
 ## The one thing that would move this — and a caveat on NutriRECS
 

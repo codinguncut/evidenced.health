@@ -2,8 +2,8 @@
 type: framework
 question: Which dietary approach to weight loss should be offered, to whom, and for how long?
 aliases: [NICE Weight Loss Diets, Total Diet Replacement, Low Energy Diets, TDR, NG246 Diets, Weight Loss Diet Comparison]
-authors: [National Institute for Health and Care Excellence (org); Lean, Michael EJ]
-sources: [NICE - NG246 Evidence Review F, Lean - DiRECT T2D Remission 2018]
+authors: [National Institute for Health and Care Excellence (org); Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy]
+sources: [NICE - NG246 Evidence Review F, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019]
 cluster: weight-loss-diets
 confidence: medium
 relationships:
@@ -12,14 +12,16 @@ relationships:
     - Carbohydrate Restriction and Type 2 Diabetes Remission
     - Rating Outcome Importance
     - Baseline Risk and the Relative-Absolute Split
-self_critiqued: 2026-07-26
+self_critiqued: 2026-10-06
 created: 2026-07-26
-updated: 2026-08-06
+updated: 2026-10-06
 ---
 
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a
 dose, a duration and a population** — rather than an exposure and an association.
 
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The recommendation
 
@@ -45,6 +47,10 @@ Therefore, a weak recommendation was preferred to a stronger one as, in certain 
 might not be the most appropriate intervention."* Note this is **strength lowered by a harm the
 evidence base did not measure** — not by certainty.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The 600 kcal deficit was deleted for arbitrariness, not disconfirmation
 
 NICE CG189 had recommended a 600 kcal/day deficit. NG246 removes it — *"because they felt this was an
@@ -55,6 +61,10 @@ maintain an energy deficit and this can be achieved by lowering specific macronu
 **No evidence in the review tested 600 against any other deficit.** A number can be withdrawn for
 having no warrant, without anything having shown it wrong — a distinct move from a refuted claim, and
 one the telos's four evidence-states should record as such.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Low carbohydrate: assessed, and left without a recommendation
 
@@ -74,6 +84,10 @@ events of dietary approaches) names both *"Low carbohydrate diet (defined as und
 carbohydrates)"* and *"Very low carbohydrate (defined as under 50g of carbohydrates)"* in its PICO.
 [@nice]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The evidence-vs-practice move, stated openly
 
 > *"While evidence on macronutrient diets (low carbohydrate, very low carbohydrate, or low-fat diets)
@@ -88,6 +102,10 @@ unreferenced practice experience appears four more times, but only here is it us
 Recorded as a **process observation**, not a verdict on the recommendation. Under the telos's five
 divergence classes this is a candidate class-5 (process defect) — and the wiki **cannot currently
 establish class 5**, because that requires an independent institutional standard it does not hold..
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## PARAMETER TABLE — rebuilt 2026-07-26 after the first version was falsified
 
@@ -139,6 +157,10 @@ analysed together"* — the exact lumping this section was worried about.
 carbohydrate*; Naude places the same trial in its **non-ketogenic** subgroup. The bands are not
 co-extensive in application even where their definitions match.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## What the TDR recommendation rests on — DiRECT supplies the trial and the maintenance scaffold
 
 NICE's low-energy TDR "consider" is the recommendation form of the DiRECT-type evidence the wiki now
@@ -155,6 +177,18 @@ achieved 46% diabetes remission with -10 kg mean loss
 - **The weight-cycling harm NICE weighted its recommendation down for is visible in DiRECT** — regain
   begins immediately after the TDR trough, and 24% withdrew — so NICE's "weak not strong" call reads
   as calibrated, not over-cautious.
+- **Year 2 shows what "long term support" has to absorb.** In DiRECT's second year the intervention
+  arm regained 2.6 kg (12 -> 24 months) while the control arm lost 1.3 kg, and «about half required
+  relapse management with brief total diet replacement and the offer of orlistat during the two
+  years» (71/143 of those with treatment-phase data, 49.7%, needed no rescue phase). Remission stood at
+  35.6% vs 3.4% at 24 months, in DiRECT's stratum (T2D diagnosed <6 years, not on insulin).
+  [@lean2019]
+  That stratum is narrower than NICE's TDR population; the regain and rescue data transport more
+  plausibly than the remission rate.  So DiRECT's tested programme put the 12-week TDR at the front of a maintenance phase with a re-entry
+  route for regain; a one-shot 12-week course with no relapse plan is not the intervention DiRECT
+  tested, and whether the re-entry route is needed is untested. [inferred from @lean2019; @nice]
+
+</div>
 
 ## Decision relevance
 

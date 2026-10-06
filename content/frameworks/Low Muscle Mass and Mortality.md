@@ -20,8 +20,8 @@ relationships:
     - Frailty
     - Central Adiposity and All-Cause Mortality
 created: 2026-08-06
-updated: 2026-09-08
-self_critiqued: 2026-09-01
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 This is the **muscle-mass -> hard-outcome (mortality)** leg the elderly-protein / sarcopenia cluster
@@ -57,11 +57,14 @@ metric is a **between-group mean difference in mass, not a hazard ratio per unit
 finding is that lower-mass people die at higher rates, but the page **cannot state an absolute risk or a
 dose-response gradient** from it. It is a discrimination signal of modest size, tight CI.
 
-## The decision-relevant move — mass predicts mortality independent of strength
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## The decision-relevant move — mass predicts mortality; strength did not explain it in a study-level meta-regression
 
 [@santana2021]
 
-The prevailing hypothesis (Li, Newman) was that the low-mass -> mortality link is *entirely* an artifact
+The prevailing hypothesis (Li, Newman) was that the low-mass -> mortality link is *primarily* an artifact
+(corrected 2026-10-06: entirely -> primarily, the source's «primarily driven by low skeletal muscle function»; self-critique)
 of the low muscle *function* (strength/performance) that accompanies it — i.e. mass is a noisy proxy for
 strength, and strength does the real predicting. de Santana tests this in meta-regression and rejects the
 *complete* version: «handgrip strength differences between groups were unable to explain the higher
@@ -81,8 +84,8 @@ mass and strength *within individuals*. So the claim is «not *completely* expla
 independence [inferred from @santana2021].** The grip-strength coefficient
 is non-significant *with a wide interval and a large point estimate* (−0.451, 95% CI −1.470 to 0.564, on
 ≤9 studies) — i.e. strength *could* explain much of the association and the analysis is simply too small
-to tell. de Santana flag exactly this failure mode: «lack of statistical significance for this
-association might simply be a result of underpowered studies». So «not explained by strength» is
+to tell (corrected 2026-10-06: dropped a de Santana underpowering quote that concerns
+primary studies missing the mass-mortality link, not this grip-moderator null; self-critique). So «not explained by strength» is
 absence-of-evidence, not evidence-of-absence: mass carrying *independent* prognostic signal is
 *consistent with* this result, not established by it. (By contrast BMI and site *were* significant
 moderators — it is grip specifically that explained none of the between-study variation.) de Santana also
@@ -90,6 +93,10 @@ reports this agrees with the SDOC consortium (Cawthon 2020, *reported within the
 predicted falls/fractures/mobility/mortality, while muscle mass (ALMI) «was not associated with other
 outcomes, [but] was consistently associated with mortality» — corroboration *within the source*, not an
 independent field (no `[E-independent]`).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Effect modifiers
 
@@ -109,18 +116,24 @@ independent field (no `[E-independent]`).
 
 **Corroborating anthropometric signal (different measure).** A large central-adiposity dose-response MA
 found **larger thigh circumference associated with LOWER all-cause mortality** (HR 0.82 per 5 cm, 3
-studies) — and thigh circumference partly indexes limb skeletal muscle, so a crude limb-muscle proxy
-tracks the same mass -> survival direction this page holds via ASMI. Corroborated by Jayedi 2020
-(chunk 01) `[E-independent]` — an independent measure (limb anthropometry, different cohorts and
-confounding), not a re-estimate of ASMI, so it stays a body line and does not pad `sources:`
--> [[Central Adiposity and All-Cause Mortality]].
+studies; per Jayedi 2020, chunk 01). Thigh
+circumference may partly index limb skeletal muscle, but Jayedi's own reading is
+protective gluteofemoral **fat** («Deposition of fat in gluteofemoral region»), and the measure cannot
+separate muscle from fat — so it is *directionally compatible, not diagnostic* for mass -> survival
+(general-adult population, 3 studies). No `[E-independent]` badge (corrected 2026-10-06: badge dropped;
+self-critique); a body line only, it does not pad `sources:` -> [[Central Adiposity and All-Cause Mortality]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Predictor vs target — the line this page holds
 
 [inferred from @santana2021; @cruzjentoft2019]
 
-- **Established:** low muscle mass **predicts** higher all-cause mortality (prognostic association), and
-  the signal is not merely a shadow of low strength. This partly **cashes the surrogate boundary** — the
+- **Established:** low muscle mass **predicts** higher all-cause mortality (prognostic association).
+  *Consistent with, not demonstrated:* that the signal is not merely a shadow of low strength (an
+  underpowered study-level null — see above; corrected 2026-10-06; self-critique). This partly **cashes the surrogate boundary** — the
   muscle surrogate that RT + protein move ([[Protein and Resistance Training for Muscle and Strength]])
   is no longer only a proxy for function; the *quantity* itself tracks a hard outcome
   -> [[Surrogate Outcomes]].
@@ -133,6 +146,10 @@ confounding), not a re-estimate of ASMI, so it stays a body line and does not pa
 - **So the muscle lever is worth pulling for function, independence, and sarcopenia** (patient-important
   in their own right) and now has an *associational* mortality rationale — but *raise your ASMI to live
   longer* would over-read this evidence.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## How mass relates to strength — refinement, not tension (vs EWGSOP2)
 
@@ -149,10 +166,14 @@ bounds it. The parameter table (are these the same quantity?):
 
 **The fourth column is «No» throughout, so the not-joined check (ii) fires — different scope, consistent
 once matched.** Both hold simultaneously: strength is the *better single predictor* and the easier, more
-reliable measure (so it rightly leads diagnosis), AND mass carries *independent* prognostic signal for
-mortality (so it is not disposable). This is a **claim-refinement (`type-F`)**: de Santana covers the
-blind spot in the *mass is just confirmatory* reading — the composite (*strength primary; mass still
-independently predicts death*) beats either source alone. No `tension` is filed.
+reliable measure (so it rightly leads diagnosis), AND mass predicts mortality and *may* carry residual
+signal beyond strength (an underpowered study-level null), so it is not disposable. This is a
+**claim-refinement (`type-F`)**: de Santana covers the blind spot in the *mass is just confirmatory*
+reading — the composite (*strength primary; mass still prognostic, possibly beyond strength*) beats
+either source alone (corrected 2026-10-06: *independently predicts death* -> *possibly beyond strength*;
+self-critique). No `tension` is filed.
+
+</div>
 
 ## The syndrome as marker — and the function-outcome leg (Zhao 2026, moderate)
 
@@ -202,15 +223,20 @@ extends the *marker family*, not de Santana's finer mass-specific point.
   AWAITS a resistance-training -> mortality/function SR — walled RT->hard-outcome MAs being acquired
   separately; closes when an RCT/SR shows a sarcopenia-reversing intervention moves either outcome.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
-- **Measuring muscle mass in an older adult carries prognostic information** the strength measure does
-  not fully substitute for — «These results reinforce the prognostic importance of assessing muscle mass
+- **Measuring muscle mass in an older adult carries prognostic information** the strength measure *may*
+  not fully substitute for (an underpowered study-level null, above; corrected 2026-10-06 from a flat
+  *does not*; self-critique) — «These results reinforce the prognostic importance of assessing muscle mass
   in older adults». But strength stays the primary screen (cheaper, more reliable, better single
   predictor); mass adds prognostic refinement, especially in the **overweight/obese** older adult where
   the mass-mortality link is strongest.
 - **The mortality signal does not change the levers**, it raises their *stakes*: resistance training +
-  adequate protein (\~1.6 g/kg/day) is the mass/strength lever
+  adequate protein (a region, not a target: the held break-point estimate is \~1.6 g/kg/day with a CI of
+  \~1.0-2.2 and a non-significant fit —)
+  is the mass/strength lever
   -> [[Protein and Resistance Training for Muscle and Strength]]; whether pulling it lowers mortality is
   unproven (predictor≠target). This is orthogonal to the *protein-source* mortality decision
   ([[Dietary Protein and Mortality]]) and to the strength-*activity* mortality association
@@ -225,6 +251,10 @@ extends the *marker family*, not de Santana's finer mass-specific point.
 - **Do not convert the SMD into a personal risk number.** It is a between-group discrimination statistic,
   not a per-SD hazard ratio; it supports *low mass is a bad sign*, not *each kg buys X*.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Limits — the open loop
 
 - **Observational, prognostic — no causal/target claim.** Nine cohorts; the low-mass -> death link may
@@ -233,7 +263,8 @@ extends the *marker family*, not de Santana's finer mass-specific point.
 - **Small effect; the strength-independence rests on an underpowered null.** SMD −0.18; the
   strength-independence and the BMI/ethnicity modifiers are *study-level* meta-regression findings, not
   individual-level adjustments. Crucially the grip-strength moderator is *non-significant with a wide CI*
-  (−0.451, −1.470 to 0.564, ≤9 studies), which de Santana concede may reflect underpowering — so mass's
+  (−0.451, −1.470 to 0.564, ≤9 studies), which may reflect underpowering (corrected
+  2026-10-06: not a de Santana concession; self-critique) — so mass's
   independence from strength is *unrefuted*, not *demonstrated*.
 - **Metric limits decisions.** A dead-vs-living SMD gives no absolute risk, no dose-response shape, and
   no threshold — the number cannot be steered toward.
@@ -245,5 +276,7 @@ extends the *marker family*, not de Santana's finer mass-specific point.
   (EWGSOP2 sets none), so the strongest-modifier stratum is the least operationally defined.
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here
   checks whether raising muscle mass changes what a person experiences.
+
+</div>
 
 ## References

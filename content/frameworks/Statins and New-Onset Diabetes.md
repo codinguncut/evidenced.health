@@ -15,9 +15,10 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Surrogate Outcomes
 created: 2026-09-07
-updated: 2026-09-07
-self_critiqued: 2026-09-07
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 New-onset diabetes is the second-most-cited statin harm after muscle symptoms, and unlike the muscle
 scare it is a **real, small, dose-dependent pharmacological effect** — not a nocebo artifact. The decision
@@ -25,9 +26,14 @@ it bears on is not *do statins raise diabetes risk* (they do) but *does that ris
 with a cardiovascular indication should take the drug, and does it warrant any monitoring change?* The CTT
 Collaboration's individual-participant-data meta-analysis answers all three: the effect is genuine but
 absolutely small, it is concentrated in people whose glycaemia already sits near the diagnostic threshold,
-and the cardiovascular benefit already nets it out. This is the *metabolic* leg of the statin-harms
+and the cardiovascular benefit already nets out any *cardiovascular* harm arising via glycaemia, while
+the diagnosis itself stays a separate, small cost the source judges outweighed. This is the *metabolic* leg of the statin-harms
 decision — a different endpoint, and a different *kind* of harm, from the *tolerability* leg on
 [[Statin Muscle Symptoms and the Nocebo Effect]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The size and the intensity gradient (Reith / CTT 2024)
 
@@ -52,12 +58,16 @@ absolute excess is small at standard doses:
 > proportional increase (... 1·36, 1·25–1·48).» [@reith2024diabetes]
 
 The relative gradient is robust: the RRs «were broadly similar» whether or not biochemical-only diagnoses
-were included, and the more-vs-less-intensive comparison (RR 1.10) plus an indirect high-intensity estimate
-(RR 1.27, 1.11–1.44) reproduce the direct one — so the dose-dependence is a real drug effect, not an
-ascertainment artifact. [@reith2024diabetes]
+were included, and an indirect high-intensity estimate (RR 1.27, 1.11–1.44) is similar to the direct one;
+the more-vs-less-intensive comparison (RR 1.10) is a different contrast, consistent with the gradient. The
+source judges the relative excesses «likely to be robust and generalisable». [@reith2024diabetes]
 
 *The high-intensity **absolute** excess is not \~10x the low/moderate one for a biological reason — see the
 ascertainment caveat next.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The absolute-excess caveat — measurement drives the cross-trial gap, not biology
 
@@ -65,7 +75,7 @@ The most easily-misread number here is the \~10-fold gap between the low/moderat
 high-intensity (1.27%/yr) absolute excess. That gap is **mostly an artifact of how much glycaemia was
 measured**, not of how diabetogenic the higher dose is. The proportion of participants with at least one
 follow-up HbA1c measurement was «much higher in the high-intensity than the low-intensity or
-moderate-intensity trials» (the high-intensity glucose data came largely from JUPITER). Because a
+moderate-intensity trials» (the high-intensity HbA1c measurements were all in JUPITER). Because a
 biochemical HbA1c ≥6.5% counts as a diagnosis, the *placebo* diabetes rate was itself far higher in the
 high-intensity trials (3.5%/yr vs 1.2%/yr), and that same measurement intensity inflated the absolute
 excess in both arms.
@@ -83,7 +93,11 @@ inverse of the usual dietary case where measurement error *attenuates* a gradien
 *inflates* a detected rate -> [[Measurement Error in Dietary Assessment]].
 [inferred from @reith2024diabetes]
 
-## The mechanism — a small glycaemic shift crossing a threshold, not weight gain
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## The mechanism — a small glycaemic shift crossing a threshold, not mainly weight gain
 
 The whole effect is consistent with a **very small upward shift in glycaemia** that pushes people already
 near the diagnostic cut-point over it:
@@ -103,11 +117,17 @@ near the diagnostic cut-point over it:
   move — comparable in size to the statin's — shifts a large *relative* fraction across the threshold in the
   opposite direction, confirming that small glycaemic changes drive large relative diagnosis changes
   -> [[Lifestyle vs Metformin for Diabetes Prevention]].
-- **Weight gain is NOT the mediator.** Statin therapy raised bodyweight by only 0.30 kg at final measurement
+- **Weight gain explains at most a small share.** Statin therapy raised bodyweight by only 0.30 kg at final measurement
   (people without diabetes) — far smaller than the multi-kilogram losses that move diabetes risk in
   prevention trials — so «it therefore seems implausible that such a small change in bodyweight would explain
   more than a small proportion of the observed increase». [@reith2024diabetes]
-  The pathway is a direct small glycaemic effect, not a weight-mediated one.
+  Most of the effect is therefore not weight-mediated (a cross-trial comparison, not a formal mediation
+  analysis; the source does not name the non-weight pathway). (corrected 2026-10-06: *NOT the
+  mediator / direct effect* -> *at most a small share*; self-critique)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The stratum structure is route-(a): constant relative effect, absolute risk near the threshold
 
@@ -115,10 +135,17 @@ The relative effect «did not vary much in different types of participants» —
 history, BMI, eGFR, quartile of glycaemia, or diabetes-risk score. [@reith2024diabetes]
 A constant RR with an absolute excess that scales with baseline glycaemia is a clean **route-(a)** case
 (absolute benefit/harm scales with baseline risk; the relative effect is unchanged, so no subgroup claim is
-needed) -> [[Baseline Risk and the Relative-Absolute Split]]. The decision consequence: the person who will
-be *diagnosed* because of a statin is overwhelmingly someone whose glycaemia was already close to the
-cut-point — the statin advances a diagnosis that baseline risk had already made likely, rather than
-creating diabetes de novo across the risk range.
+needed) -> [[Baseline Risk and the Relative-Absolute Split]]. The decision consequence: «the majority (ie, approximately 62%) of excess cases of new-onset diabetes
+occurred among participants in the highest quarter of the baseline glycaemia distribution» [@reith2024diabetes]
+— so most statin-attributable diagnoses fall in people whose glycaemia was already close to the cut-point.
+The statin plausibly *advances* a diagnosis that baseline risk had already made likely rather than creating
+diabetes de novo — but this is untested: the trials ran \~4-5 years and cannot show whether these cases would
+otherwise have been diagnosed later. (corrected 2026-10-06: *overwhelmingly* + advancement
+asserted as fact -> *majority (\~62%)* + hedged; self-critique)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Worsening glycaemia in people who already have diabetes
 
@@ -130,12 +157,16 @@ The same effect appears as worsening control in baseline diabetes, mirroring the
 > group resulted in a 24% relative increase in worsening glycaemia (... 1·24 [1·06 to 1·44]; absolute annual
 > excess 3·02% [0·73 to 5·69]).» [@reith2024diabetes]
 
-The microvascular consequence is negligible: the statin-induced HbA1c change (0.06–0.08%) is an order of
-magnitude smaller than the 0.9% HbA1c difference that produced «a 20% relative increase in risk of
+The microvascular consequence is negligible: the statin-induced HbA1c change in people with diabetes
+(0.09% low/moderate; 0.24% [0.09–0.38] high-intensity) is roughly 4–10x smaller than the 0.9% HbA1c difference that produced «a 20% relative increase in risk of
 clinically significant renal complications (absolute excess risk 0·4% per year) and a 13% relative increase
 in risk of clinically significant retinal complications (absolute excess risk 0·2% per year)» in
 glucose-control trials — «so the changes induced by a statin are likely to be too small to result in a
 material change in the risk of microvascular disease». [@reith2024diabetes]
+(corrected 2026-10-06: used the no-diabetes 0.06–0.08% and *an order of magnitude* -> the with-diabetes
+shift; self-critique)
+
+</div>
 
 ## The tolerability-vs-metabolic distinction — *statin harm* is not one thing
 
@@ -160,9 +191,12 @@ objects that a single reflex (*side effect -> stop*) wrongly merges. Framed as a
 `[[tension]]`.
 [inferred from @reith2024diabetes]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Not an independent (type-E) corroboration of CTT's benefit
 
-Reith 2024 restates that the cardiovascular benefit already nets out the glycaemic harm — «any theoretical
+Reith 2024 restates that the cardiovascular benefit already nets out the glycaemic harm's *cardiovascular*
+effects — «any theoretical
 adverse effects of statins on cardiovascular risk that might arise from these small increases in glycaemia
 ... are already accounted for in the overall reduction in cardiovascular risk that is seen with statin
 therapy in these trials.» [@reith2024diabetes] This is **not** an
@@ -175,14 +209,21 @@ net-effect call rests on (per 1 mmol/L LDL-C reduction over 5 years, \~25–50 m
 per 1000) is held on [[LDL Lowering and Cardiovascular Events]] / [[Statin Muscle Symptoms and the Nocebo Effect]],
 not established here.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 [inferred from @reith2024diabetes]
 
 - **The diabetes risk does not change the start/continue decision for someone with a CV indication.** The
-  harm is absolutely small and «greatly outweighed by the benefits of statins on major vascular events» —
-  and the vascular benefit already incorporates any glycaemic downside, so it is not a separate cost to
-  subtract again. Do not stop or withhold an indicated statin over diabetes risk.
+  harm is absolutely small. The vascular benefit already incorporates any *cardiovascular* harm arising via
+  glycaemia; the diabetes diagnosis itself (its non-CV consequences) remains a separate, small cost, which the
+  source judges «greatly outweighed by the benefits of statins on major vascular events when the direct
+  clinical consequences of these outcomes are taken into consideration». [@reith2024diabetes]
+  Do not stop or withhold an indicated statin over diabetes risk. (corrected 2026-10-06: *not a separate
+  cost to subtract again* -> CV-only netting; self-critique)
 - **Know who gets diagnosed: the near-threshold person.** \~62% of statin-attributable diabetes arises in the
   top glycaemia quartile. For a person already near the cut-point, a statin may advance a diagnosis that
   baseline risk had made likely — worth stating honestly, but it does not flip the benefit-harm ledger, and
@@ -199,21 +240,28 @@ not established here.
   glycaemic monitoring continue unchanged. [@reith2024diabetes]
 - **Sizing the rock (pharmacotherapy taper).** The diabetes scare is a real but small limitation of the
   standard statin, and appraised it barely dents the lever: it does not shrink the statin's marginal CV
-  benefit (already net of glycaemia) and warrants no monitoring burden — so the *metabolic limitation*, like
+  benefit (already net of glycaemia's *cardiovascular* effects; the diagnosis is a small separate cost)
+  and warrants no monitoring burden — so the *metabolic limitation*, like
   the *tolerability limitation*, keeps the statin's rank high rather than lowering it.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits
 
 - **Trial-enrolled, older, higher-risk population** (mean age 63; 21% with diabetes at baseline); the
   estimate is for the general treated population and transports to similar strata, not to a specific younger
   primary-prevention person outside the trial range.
-- **Ascertainment was heterogeneous and mostly not designed for diabetes** — most trials predate HbA1c as a
-  diagnostic marker (adopted 2011), and few measured post-randomisation HbA1c in the non-diabetic majority;
+- **Ascertainment was heterogeneous and mostly not designed for diabetes** — all trials began before HbA1c was
+  adopted as a diagnostic marker (2011), and few measured post-randomisation HbA1c in the non-diabetic majority;
   this is why the absolute (not relative) cross-trial excess is measurement-driven.
 - **Type of diabetes unascertained** (assumed overwhelmingly type 2 given the age range); microvascular
   outcomes could not be measured directly and are inferred negligible from the small HbA1c change.
 - **The open loop (R1).** No source here randomises a *statin-diabetes management strategy* against
   patient-important outcomes; the *don't monitor for it, don't stop over it* rule is inferred from the
   causal-attribution and net-benefit evidence, not tested as an intervention.
+
+</div>
 
 ## References

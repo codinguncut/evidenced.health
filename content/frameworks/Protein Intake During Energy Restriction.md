@@ -2,8 +2,8 @@
 type: framework
 question: How much dietary protein retains fat-free mass during energy restriction, and how does the requirement differ from the energy-balance target and across strata (resistance-trained vs sedentary, lean vs overweight)?
 aliases: [Protein for Fat-Free Mass Retention, Protein During Weight Loss, Protein FFM Deficit, Protein Cutting Diet, Protein Energy Deficit, FFM Retention Protein Target, Protein During Caloric Deficit, High Protein Weight Loss Diet]
-authors: [Refalo, Martin C; Trexler, Eric T; Helms, Eric R; Wycherley, Thomas P; Moran, Lisa J; Clifton, Peter M; Noakes, Manny; Brinkworth, Grant D; Kim, Jung Eun; O'Connor, Lauren E; Sands, Laura P; Slebodnik, Mary B; Campbell, Wayne W; Hamman, Richard F; Wing, Rena R; Edelstein, Sharon L; Lachin, John M; Bray, George A]
-sources: [Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Hamman - DPP Weight Loss Mediation 2006]
+authors: [Refalo, Martin C; Trexler, Eric T; Helms, Eric R; Wycherley, Thomas P; Moran, Lisa J; Clifton, Peter M; Noakes, Manny; Brinkworth, Grant D; Kim, Jung Eun; O'Connor, Lauren E; Sands, Laura P; Slebodnik, Mary B; Campbell, Wayne W; Hamman, Richard F; Wing, Rena R; Edelstein, Sharon L; Lachin, John M; Bray, George A; Sardeli, Amanda Veiga; Komatsu, Tiemy Rosana; Mori, Marcelo A.; Gaspari, Arthur Fernandes; Chacon-Mikahil, Mara Patricia Traina]
+sources: [Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Hamman - DPP Weight Loss Mediation 2006, Sardeli - Resistance Training Caloric Restriction]
 cluster: muscle
 confidence: medium
 relationships:
@@ -19,8 +19,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-08-07
-updated: 2026-10-04
-self_critiqued: 2026-08-21
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The energy-balance protein target (\~1.6 g/kgBM/day, [[Protein and Resistance Training for Muscle and Strength]]) answers *how much protein to BUILD muscle*. This page answers a **different decision in a
@@ -65,7 +65,9 @@ zero). Furthermore, intakes above these values, up to the highest analyzed intak
 - **The whole thing is on a caloric budget:** more protein necessarily displaces carbohydrate or fat, with
   potential costs to RT performance, sex-hormone levels, and adherence — weighed at Layer 3, not netted here.
 
-## The shape: LINEAR, no knee — reached independently of Morton (type-E), across two populations
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## The shape: LINEAR, no knee — consistent with Morton on *no significant knee* only, across two populations
 
 [@refalo2025]
 Bayes-Factor model comparison found the **linear** model (no additional predictors) beat quadratic and
@@ -73,27 +75,32 @@ cubic: «there was a 97% probability that FFM change becomes more positive as da
 (g/kgBW) increases» (per BM, b=0.07, 95% HDI -0.01 to 0.14), rising to 99% per FFM (below). No knee, no
 plateau over the analyzed range.
 
-This is a **second, independent-lab instance of a monotone-not-knee protein curve**. The parameter table
-below shows it is a *convergence on curve SHAPE*, NOT a *1.6-vs-1.9, deeper-is-more* contrast — the two
+This is a **second, same-lineage instance of a no-significant-knee protein curve** (Helms co-authors both
+papers, and Refalo cites Morton). The parameter table below shows the shared ground is narrow — *no
+statistically-significant knee* — and NOT a *1.6-vs-1.9, deeper-is-more* contrast — the two
 numbers describe **different populations** (energy balance vs deficit), so they are a stratum distinction,
 not a tension.
 
 | Parameter | Morton 2018 — quoted + locus | Refalo 2025 — quoted + locus | Same quantity? |
 |---|---|---|---|
 | Population | «healthy and not energy-restricted» RT adults (energy balance/surplus) [Morton chunk 01] | nonobese, ENERGY-RESTRICTED (fat-mass loss) RT adults, BF% <=27.8%M/<=39.7%F [Refalo chunk 01] | **NO** — opposite energy state |
-| Curve shape | biphasic knee «1.62 g/kg/day, p=0.079», non-significant; on baseline axis «linear regressions explained significantly more variance than biphasic» [Morton chunk 02] | «linear model, without additional predictors, provided the best fit»; «97% probability that FFM change becomes more positive» [Refalo chunk 01] | **YES** — both: no statistically-established knee; a linear/monotone fit wins |
+| Curve shape | biphasic knee «1.62 g/kg/day, p=0.079», non-significant; on baseline axis «linear regressions explained significantly more variance than biphasic» [Morton chunk 02] | «linear model, without additional predictors, provided the best fit»; «97% probability that FFM change becomes more positive» [Refalo chunk 01] | **YES only on** *no statistically-significant knee* — on the total-intake axis Morton's biphasic fit beat linear (p=0.079, ns) whereas Refalo's linear won; Morton's linear-wins result is a different regression (baseline intake; young-adult slope −1.54) |
 | Denominator tested | total body mass only (per-FFM NOT tested) | per-FFM «99 versus 97%» prob; «entirety of the 95% HDI was positive» (0.01-0.12 vs -0.01-0.14) [Refalo chunk 01] | **NO** — Morton did not compare denominators |
 | Target number | \~1.6 g/kgBM plateau (energy balance) | \~1.9 g/kgBM / 2.5 g/kgFFM ES-zero crossing (deficit) | **NO** — different construct AND population |
 
-- **The genuine type-E convergence is the SHAPE row only** — Morton (Phillips lab, McMaster; energy
-  balance) and Refalo (Deakin/AUT; energy deficit) reach *no-established-knee / monotone-wins* by
-  different data, different labs, different populations, with no shared author. `[E-independent]`
+- **The SHAPE row is same-lineage consistency, NOT type-E** — Morton (energy balance) and Refalo (energy
+  deficit) share only *no statistically-significant knee*, and they are not independent: Eric Helms
+  co-authors both, and Refalo cites Morton (its ref 39). Read it as refinement/attribution within one
+  research lineage. (corrected 2026-10-06: *no shared author* + the E-independent token -> same-lineage, not E;
+  self-critique)
 - **The per-FFM denominator point is NOT independent.** Refalo's per-FFM finding rests on Helms 2014's
   speculation — «it may be worthwhile to prescribe protein intake based on FFM versus total body mass in
   athletic populations» — and **Helms is a co-author of Refalo**. So per-FFM-is-better is one lineage's
   idea tested by that lineage, not a cross-lab convergence. Refalo is likewise NOT independent of Helms
   2014 generally (it is an *update* of it, same author).
 [inferred from @refalo2025]
+
+</div>
 
 ## Why per-FFM is the better denominator here
 
@@ -105,7 +112,9 @@ FFM-based target** (2.5 g/kgFFM up to 4.2 for gain). This also means the number 
 denominator is named** — the same trap as the energy-balance page's g/kg-total ambiguity, sharper here
 because per-FFM is the recommended scaling.
 
-## Who benefits more per gram — the BF% moderator (leaner benefit MORE)
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Who benefits more per gram — the BF% ordering (leaner may benefit more; suggestive, not an established moderator)
 
 [@refalo2025]
 «for each additional gram of protein consumed per kilogram of BM and FFM, FFM change increased by 0.14 and
@@ -113,14 +122,23 @@ because per-FFM is the recommended scaling.
 category». Mechanism (Elia's early-starvation review): «lean individuals have 2-fold to 3-fold higher
 rates of urinary nitrogen excretion, leucine oxidation, and contributions of protein to glucose
 production compared with individuals with obesity» — leaner people burn more body protein for energy
-under restriction, so protein defends them more. Protein should therefore **inversely scale with BF%**.
+under restriction, so protein may defend them more. Protein *may* therefore **inversely scale with BF%**
+(suggestive; see the moderator caveat below).
 
 - **This is a REASONING TOOL toward higher-BF people, NOT obese evidence.** The whole sample is nonobese
   (BF% <=27.8%M/<=39.7%F). The BF% gradient and the Elia mechanism *point* to a lower per-gram benefit as
   adiposity rises, but the obese are **off-support** — do not read this as *the obese need less protein*,
   read it as *the obese are unstudied here* -> same gap as [[Protein and Resistance Training for Muscle and Strength]].
-- The Low-BF% cell has only 10 observations, so its slope is the most uncertain — the direction is firmer
-  than the magnitude.
+- The Low-BF% cell has only 10 observations, so its slope is the most uncertain. More broadly, the BF%
+  gradient is **a suggestive ordering, not an established moderator**: every BF% subgroup slope's HDI
+  includes zero (Table 2), «neither model ﬁt was improved by including addi- tional predictors such as
+  intervention duration, energy deﬁcit magnitude, baseline BF%, and participant sex», and the authors call
+  the relationship «somewhat tentative». (corrected 2026-10-06: *the direction is firmer than the
+  magnitude* -> suggestive ordering; self-critique)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Sex, duration, deficit magnitude
 
@@ -131,10 +149,18 @@ under restriction, so protein defends them more. Protein should therefore **inve
   versus 69%) than BM (98 versus 81%)». Far fewer female observations — hold as a signal, not a finding.
 - **Duration:** >4 weeks stronger than <=4 weeks — short interventions are confounded by fluid shifts
   (which also feed the FFM-is-not-muscle caveat below).
-- **Deficit magnitude did NOT clearly moderate** (<=300 vs >300 kcal similar), BUT «Murphy and colleagues
+- **Deficit magnitude did NOT clearly moderate the protein->FFM *slope*** — «The relationship between
+  dietary pro- tein intake and FFM changes were similar between smaller (#300 kcal/ d) and larger (.300
+  kcal/d) energy deﬁcits.» (a median split; the authors note a <=500/>500 cut might differ). That is a
+  statement about the protein dose-response, not that deficit size leaves FFM unaffected (corrected
+  2026-10-06: *deficit did not moderate* -> *did not moderate the protein slope*, Refalo chunk 01). BUT «Murphy and colleagues
   recently suggested that an energy deficit of ;500 kcal per day prevented gains in FFM» — so «individuals
   seeking to avoid FFM losses at all costs should likely implement modest energy restriction». A large
-  deficit is itself a lever on FFM independent of protein.
+  deficit is itself likely a lever on FFM independent of protein.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The load-bearing caveats — do not ship a clean number
 
@@ -146,8 +172,13 @@ under restriction, so protein defends them more. Protein should therefore **inve
   higher-vs-lower RCTs (only 5 such comparisons existed — «insufficient»). Treat the numbers as
   hypotheses for practice, not established targets.
 - **The effect is SMALL vs the RT stimulus.** Lowest-to-highest analyzed intake is «only a "small" ES
-  difference»; «more important for retaining FFM during energy restriction than dietary protein intake»
-  is the RT stimulus and the deficit size. **Worked case:** «Longland and colleagues (30) observed no
+  difference»; a robust RT stimulus is *likely* «more important for retaining FFM during energy restriction
+  than dietary protein intake» (the sentence names RT only; Refalo's «likely» is split from the span by a
+  table insert in the chunk). Deficit size enters via Helms' speculation, reported by Refalo, that «energy
+  deﬁcit magnitude may be more important for FFM retention than pro- tein intake», and Refalo's closing
+  position is that which lever matters most «is likely context-dependent». (corrected 2026-10-06: RT + deficit
+  stated flatly as more important -> RT *likely*, deficit via Helms, ranking context-dependent; self-critique)
+  **Worked case:** «Longland and colleagues (30) observed no
   mean loss of lean body mass (+0.1 6 1.0 kg)» at just 1.2 g/kgBM with hard RT, while the 2.4-g/kgBM
   comparator «gained significantly more lean body mass (+1.2 6 1.0 kg), the difference (1.1 kg) was
   modest». Get the training right first; protein is the adjunct -> [[Protein and Resistance Training for Muscle and Strength]].
@@ -161,6 +192,10 @@ under restriction, so protein defends them more. Protein should therefore **inve
   smears any threshold).
 - **Mild COI** — the authors are tied to the evidence-based-fitness industry (Renaissance Periodization,
   MASS Research Review, 3D Muscle Journey); the method is rigorous, but noted.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The independent contrast MA (Wycherley 2012) — same direction, different design, different stratum
 
@@ -199,7 +234,8 @@ convergence is on the DIRECTION only — the metrics differ, so this is not a po
 Only the last row is the E-claim. A **third** line points the same way inside Wycherley's own
 discussion — Krieger's 2006 meta-regression found FFM retention «tended to increase with each
 successive quartile of dietary protein intake» and «protein intakes .1.05 g·kg21·d21 may improve FFM
-retention» (secondary citation, via Wycherley; Krieger not directly held, so not a `sources:` entry).
+retention» (secondary citation, via Wycherley; Krieger not directly held, so not a `sources:` entry). Krieger is
+also a Morton 2018 co-author, so this line is not independent of the Morton lineage.
 
 ### Type-F: Wycherley broadens the stratum and lowers the demonstrated dose
 
@@ -208,7 +244,7 @@ Two refinements the composite makes that neither source alone does:
 
 - **Stratum extension.** Refalo's evidence is resistance-trained non-obese only; Wycherley's is the
   *sedentary overweight/obese* dieter with exercise excluded — so FFM-sparing by protein under a deficit
-  is now evidenced in a population where the RT stimulus (the bigger lever on this page) is absent. It
+  is now evidenced in a population where the RT stimulus (likely the bigger lever on this page) is absent. It
   holds even without training, though the magnitude is small.
 - **Lower demonstrated dose.** Wycherley's «high protein» arm is only \~1.25 g/kg achieved — BELOW
   Refalo's \~1.9 g/kg ES-zero crossing and below the \~1.6 g/kg energy-balance target — yet the FFM/FM
@@ -249,6 +285,10 @@ dose-response elsewhere, here acting on a between-arm contrast -> [[Measurement 
 - **Older adults are unstudied *within Wycherley's own pool*** (sarcopenia + anabolic resistance flagged
   as a gap) — now closed by Kim 2016, whose age-restricted MA finds the same FFM-sparing direction and
   magnitude in adults >=50 (see the Kim section below).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The older-adult stratum (Kim 2016) — same direction, same magnitude, NOT an independent leg
 
@@ -306,10 +346,13 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
 
 - **Kim explicitly cites and benchmarks Wycherley** (its ref 20) — the convergence is *self-stated*, so a
   RAG over Kim alone reproduces it. The strict-E rule bars a source that restates an earlier one it cites.
-- **Trial-set overlap.** Kim's pool draws on the same HP-weight-loss RCT literature and includes
-  Adelaide/CSIRO trials (Moran 2005, Luscombe-Marsh 2005, Brinkworth 2004, Farnsworth 2003, Parker 2002,
-  Keogh 2007, Wycherley 2010) that Wycherley's own group would have pooled — so the two MAs are not
-  independent samples of trials. (Exact overlap not quantified — Wycherley's 24-trial list is not held.)
+- **Trial-set overlap.** Matching author + year across Kim's trial table and Wycherley's Table 4 trial list,
+  about 7 of Kim's \~20 trials are also Wycherley trials (Belobrajdic 2010, Campbell 2010, Farnsworth 2003,
+  Layman 2003, Leidy 2007, Parker 2002, Wycherley 2010) — so the two MAs are not independent samples of
+  trials. [@kim2016]
+  [@wycherley2012] (corrected 2026-10-06:
+  a speculative Adelaide/CSIRO list incl. trials not in Wycherley + *Wycherley's list is not held* -> the
+  verified shared trials; self-critique)
 
 ### The surrogate + scope caveats persist (unchanged direction, honest ceiling)
 
@@ -328,7 +371,9 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
 - **Modest dose contrast** — the demonstrated benefit lands at \~1.0-1.5 vs \~0.6-1.0 g/kg/d, so like
   Wycherley it does not speak to whether pushing toward Refalo's \~1.9 g/kg buys more in this population.
 
-<div class="recent-update" data-last-updated="2026-10-04">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -337,23 +382,31 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
   g/kgFFM when FFM loss would be genuinely costly (weight-class combat/strength athletes, bodybuilders).
   This is above the \~1.6 energy-balance target — the deficit raises the requirement.
 - **The RT stimulus and a modest deficit come FIRST.** A well-programmed resistance-training stimulus and
-  a \~modest (not \~500 kcal-plus) deficit do more for FFM retention than the protein dial. Do not let the
+  a \~modest (not \~500 kcal-plus) deficit likely do as much or more for FFM retention than the protein dial
+  — Refalo calls the ranking «likely context-dependent» [@refalo2025]. Do not let the
   protein number substitute for the training. The RT lever is quantified for the obese-elderly dieter on
   [[Resistance Training During Caloric Restriction]] (RT preserves \~0.82 kg lean mass under CR, RMD 0.819
-  kg [0.364-1.273]) — and the one pooled higher-protein trial there preserved more LBM still (RMD 1.3 vs
-  0.6 kg), so RT and protein stack as complementary levers for the same decision.
+  kg [0.364-1.273]) — and Sardeli notes the single included trial with higher protein (30% vs 15% of
+  energy) showed lower LBM loss than the others (RMD 1.3 kg vs a main effect the authors give there as
+  RMD 0.6 kg, which does not match the 0.82 kg pooled headline)
+  [@sardeli2018]. That is one trial set against
+  the rest, not a tested protein x RT interaction, so *RT and protein stack as complementary levers* is a
+  single-trial signal
+  (corrected 2026-10-06: *stack as complementary levers* -> single-trial signal, Sardeli chunk 01).
 - **Sedentary overweight/obese dieter (no training) [@wycherley2012]:** raising protein from \~0.8 to \~1.2-1.3 g/kg/d
   within an isocaloric low-fat deficit still buys a small FFM/FM benefit (FFM +0.43 kg, FM -0.87 kg,
   weight -0.79 kg) — the direction holds even without resistance training, though the magnitude is
   modest and the cardiometabolic upside is limited to triglycerides (a surrogate), with lipids/BP/glucose
   unchanged. Treat this as a low-cost adjunct to the deficit, not a large lever.
 - **Older adult (>=50) losing weight [@kim2016]:** raise protein to **>=1.0 g/kg/d** (above the 0.8 RDA) within the deficit —
-  older dieters retain more lean mass and lose more fat at the same total weight loss, at a magnitude
-  (\~0.45 kg lean by %energy, \~0.83 kg by g/kg/d) essentially identical to younger adults. This matters
-  *more* for them (lower baseline lean mass, faster loss during weight loss), even though the contrast
+  older dieters retain more lean mass and lose more fat at the same total weight loss: \~0.45 kg lean by
+  %energy (vs 0.43 kg in Wycherley's all-ages pool); \~0.83 kg by g/kg/d, which Kim calls «comparable» to
+  0.60 kg in younger adults (Krieger, via Kim). (corrected 2026-10-06: *essentially identical* for both
+  metrics -> per-metric comparison; self-critique) This matters
+  *more* for them (lower baseline lean mass, more likely to lose lean mass during weight loss), even though the contrast
   effect is not age-amplified. Prescribe on g/kg/d rather than %energy where possible. Add a resistance
-  stimulus if feasible (the bigger lever, though most trials here were diet-only) -> [[Protein Intake for Older Adults]].
-- **Leaner -> higher target** (BF% inverse scaling, Refalo); the *specific* raised target (\~1.9 g/kg) and
+  stimulus if feasible (likely the bigger lever, though most trials here were diet-only) -> [[Protein Intake for Older Adults]].
+- **Leaner -> plausibly higher target** (a suggestive BF% ordering in Refalo, not an established moderator); the *specific* raised target (\~1.9 g/kg) and
   the per-gram BF% slope remain **off-support for the obese**. But *does more protein help at all under a
   deficit in the overweight/obese?* is now answered *yes, modestly* by Wycherley (a low-dose contrast in
   that population) — so the obese are no longer wholly unstudied on the DIRECTION, only on the dose-response

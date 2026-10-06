@@ -9,7 +9,6 @@ self_critiqued: 2026-10-02
 created: 2026-09-17
 updated: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
 
 Poor social connection is one of the more reliably replicated predictors of an early death that
 epidemiology holds. Across millions of adults, people cut off from others die sooner and develop more
@@ -26,10 +25,6 @@ an open question rather than a settled recommendation. **Take the signal serious
 with it; do not promise that the intervention pays.** The one stress-management handle with anything like
 trial data (structured mindfulness lowering blood pressure) moves a surrogate, not a proven outcome. To
 see why, start with what "social connection" even names -- because it is not one exposure.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Three different things wear the name "social connection," and they don't rank by their raw numbers
 
@@ -87,8 +82,6 @@ smaller network, so losing it cuts deeper. It does not show up for objective iso
 measure already counts a woman's out-of-home ties [@zhao2022livingalone] [@wang2023isolation].
 Big numbers, then -- but do they license doing anything?
 
-</div>
-
 ## Whether fixing loneliness adds years is still unknown
 
 This is the crux, and the honest answer splits in two. **The same association can be high-certainty as a
@@ -117,8 +110,6 @@ estimate **down** [@wang2023isolation].
 interval alone suggests, and do not assume the effect is merely reverse causation
 ([[The U-Shaped Association Artifact]]). The same pattern, and the same unsigned-bias posture, recur
 across the neighbouring exposures.
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Purpose, job strain, and the stress they share point the same way
 
@@ -167,10 +158,6 @@ measured -- no study captures both the social exposure and a load index on the c
 [@parker2022allostatic]. So is there anything to
 actually do?
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## What you can actually do with this
 
 Separate the driver you might reduce from the handle you might grab -- and stay honest that neither
@@ -197,10 +184,6 @@ flags: an isolated adult, or a younger man living alone, is a person to check fo
 encouragement to keep and build real ties, is what the evidence supports.
 Depression is a common downstream consequence of isolation and a lever in its own right
 ([[Depression and Modifiable Exposures]]).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where it nets out
 
@@ -231,7 +214,5 @@ open: every number here is observational and coherence-graded, not validated aga
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Social%20Connection.md) |
-
-</div>
 
 ## References

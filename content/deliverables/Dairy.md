@@ -162,8 +162,6 @@ signal lives, and this genetic test cannot refute it. Reading the milk-null as s
 would be the category error the whole decomposition exists to prevent. So the composite is: milk has no
 causal diabetes effect, yoghurt keeps a small observational one, and neither is a big lever.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Milk is not a bone-fracture lever
 
 The intuitive story — dairy is rich in calcium and protein, so more dairy means stronger bones — does not
@@ -199,10 +197,6 @@ where the supplement route does. Calcium plus vitamin D is also null for fractur
 neither the glass of milk nor the pill moves fracture risk in someone already well-nourished
 ([[Deficiency Repletion vs Enhancement]]). Exercise prevents falls and fractures in older adults; dairy intake does not.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Dairy is not a brain-health lever either
 
 Villoz pooled the only dose-response evidence on dairy and the brain (15 cohorts, 312,580 people, no
@@ -220,8 +214,6 @@ dairy reads as a marker of a healthier diet, not a cause
 [@villoz2024dairy]. For a reasonably healthy adult in
 a Western intake range, there is nothing here to worry about or optimize ([[Dairy and Cognitive Decline]]).
 
-</div>
-
 ## Dairy and cancer is the one endpoint this evidence can't answer
 
 This is a genuine gap, not a null. The dairy chapters of the major cancer report were never extracted into
@@ -233,8 +225,6 @@ for either, and the weighing of a colorectal benefit against a prostate risk is 
 evidence's ([[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]).
 Anyone using dairy to weigh a personal cancer decision needs the underlying reviews, which this cut does
 not yet hold.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Does the food matrix change what the saturated fat does?
 
@@ -257,10 +247,6 @@ carries its own industry and design caveats. The saturated-fat verdict itself be
 [[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
 This cut carries only the dairy-specific matrix nuance, which for now points in a plausible direction on a
 surrogate endpoint and no further.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What to actually do about dairy
 
@@ -291,7 +277,5 @@ exists, and none is likely, so these verdicts are calibrated small effects, not 
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak); Thorning (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
-
-</div>
 
 ## References

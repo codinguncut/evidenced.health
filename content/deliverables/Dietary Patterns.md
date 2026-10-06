@@ -1,13 +1,13 @@
 ---
 type: deliverable
 title: Dietary Patterns
-self_critiqued: 2026-10-02
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
 authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org); Barnes, Lisa L.; Chiavaroli, Laura; Huang, Liyan; Parvizian, Michael K; Zhang, Yu]
 sources: [Astrup - Saturated Fats Reassessment 2020, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Churuangsuk - Diabetes Diets Umbrella Review 2022, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019,
-  Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015,
+  Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015,
   Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Barnes - MIND Diet Trial Cognitive Decline, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Huang - MIND Diet Cognitive Function Decline, Parvizian - Dietary Patterns COPD Meta-Analysis 2020, Chiavaroli - DASH Cardiometabolic Umbrella Review, Zhang - Butter Plant Oils Mortality 2025]
 confidence: low
 created: 2026-07-30
@@ -254,6 +254,8 @@ in that stratum: «no one diet type is superior over others for weight managemen
 The near-null is not the end of the story. Three findings clear it -- and each separates on an energy
 deficit, a food component, or a risk stratum, never on the label itself.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Three findings clear the near-null, and each is about energy or a component, not a name
 
 Above the floor the label barely matters, but three findings do move a decision. None is a label
@@ -332,6 +334,11 @@ A guidance body echoes the same split: NICE
 declines to recommend any macronutrient-defined diet and positively recommends only an energy-defined
 one — total diet replacement at 800-1200 kcal, for 12 weeks, inside a specialist service
 [@nice] -> [[Diets for Weight Loss - What NICE Recommends]].
+DiRECT's second year shows what that course leaves out: remission fell to 35.6% vs 3.4% at 24 months,
+the diet arm regained 2.6 kg, and about half needed relapse management with brief total diet replacement
+and the offer of orlistat [@lean2019]. DiRECT also
+enrolled a narrower group (diagnosed under 6 years, not on insulin) than NICE's, and DiRECT
+tested the 12-week course with a relapse plan behind it, not a one-off course.
 
 A low-carb route to the same weight loss is only weakly grounded for remission itself. Goldenberg's
 review reports **32 more remissions per 100 (risk difference 0.32, 0.17 to 0.47)** only under a
@@ -369,6 +376,10 @@ Each exception makes the same point from a different direction: what separated t
 deficit (remission), a food component in a high-risk stratum (Mediterranean), or a lipoprotein response
 in one subgroup (low-carb apoB) -- never the label. Which axis actually carries a dietary difference is
 the next question.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Trace the difference to a measurable axis, not the label
 
@@ -492,8 +503,10 @@ axis dominates the pattern axis.
 **But weight loss is a proven lever for glycaemia and T2D remission and an unproven one for hard
 cardiovascular events.** The largest, longest lifestyle trial, Look AHEAD, was null on its cardiovascular
 composite, HR 0.95 (0.83-1.09) [@look2013].
-A 54-RCT meta-analysis generalizes that null: CV events RR 0.93, non-significant, while all-cause
-mortality falls RR 0.82 — about 6 fewer deaths per 1000, high quality, by a route that is not the heart
+A 54-RCT meta-analysis of obese adults of mixed glycaemic status, which includes Look AHEAD, also finds
+no effect on CV events (RR 0.93, non-significant), so that null is partly Look AHEAD's own, while all-cause mortality falls RR 0.82 — about 6 fewer
+deaths per 1000, high quality, by a route that is not the heart. Look AHEAD carries 54.6% of the weight
+in that mortality pool, but leaving it out leaves the benefit standing (RR 0.78, 0.63 to 0.96)
 [@ma2017]
 -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
@@ -634,7 +647,9 @@ fabric cannot yet separate from its co-travellers; and the diets people argue ab
 least hard-outcome evidence. So the question is not *which brand* but *what do I actually do* — which is
 where the four axes point.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Get above the floor, then choose the pattern you will keep
 
@@ -687,9 +702,9 @@ less than whether a person keeps it.
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 42 sources — 24 gold, 17 high, 1 weak |
+> | **Evidence included** | 43 sources — 24 gold, 18 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
 
 </div>

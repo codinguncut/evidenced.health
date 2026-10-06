@@ -20,9 +20,10 @@ relationships:
     - Weekend Warrior Activity Pattern and Mortality
     - Exercise Snacks and Cardiometabolic Health
     - Supervised vs Unsupervised Exercise
+    - Wearable Activity Trackers and Physical Activity
 created: 2026-07-27
-updated: 2026-10-04
-self_critiqued: 2026-10-04
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -79,6 +80,8 @@ pattern) or spread across the week appears not to change the mortality benefit
 sessions do not bank it, at low observational certainty).
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Scope — this page is LEISURE / TOTAL PA; occupational PA can run the OTHER way `[2026-08-14, Coenen]`
 
 **Every estimate on this page is leisure-time or total physical activity.** The «more is better»
@@ -111,7 +114,11 @@ reading, it does not raise its confidence as an independent instrument would.
 
 **The refinement: intensity separates the modes, on exactly the CRF axis.** Cycling benefits all five
 outcomes with a dose-response by weekly distance; walking commuting is null for all-cause and cancer
-mortality and lowers CVD risk only above «more than six miles a week»
+mortality but lowers CVD incidence (HR 0.73, 95% CI 0.54-0.99) and CVD mortality (HR 0.64, 0.45-0.91)
+overall; within its weekly-distance gradient the lower CVD incidence is evident only among walkers
+covering «more than six miles a week» (corrected 2026-10-06: *lowers CVD risk only above six miles a
+week* -> overall CVD benefit, with the six-mile qualifier scoped to the distance gradient,
+Celis-Morales 2017 chunk 01)
 [@celismorales2017commuting]. The
 authors attribute the gap to intensity — «approximately 90% of cycle commuters ... achieved current
 physical activity guidelines, only 54% of walk- ing commuters» did
@@ -134,6 +141,8 @@ independent instrument and no `[E-independent]` token is claimed. The benefit is
 *association* with the healthy-user caveat explicit (cyclists leaner/fitter/wealthier at baseline);
 walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
 HRs stay Celis-Morales's, the third-route framing is.
+
+</div>
 
 ## Where the curve bends — named maxima, device-measured
 
@@ -250,6 +259,8 @@ persist»); there is no MR/genetic instrument, so this is the *weak* adjudicatio
 artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
 sitting sections).
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
 **Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
@@ -289,6 +300,18 @@ Peak-30/60-min stepping rate stayed significant after adjusting for volume, but 
 cadence did not — total steps carry the signal, so *count the steps, don't chase the pace*. Reverse
 causation handled by the weak check (effect stronger at <6 y follow-up, HR 0.32, vs >=6 y, 0.57 — a
 sick-quitter tell — but the 2-year exclusion left it significant).
+
+**What an intervention buys on this curve is far smaller than a quartile.** Paluch's quartile medians
+sit about 2000-3000 steps/day apart (3553 / 5801 / 7842 / 10 901). Two partly overlapping gold MAs of app
+and tracker RCTs (GRADE low to low-to-moderate) put the induced gain over control at roughly +600-750 steps/day after a few months, with durability
+unshown. The quartile HRs compare people who habitually differ in steps. They are not the effect of
+adding steps to one person. So a device-driven gain cannot be read off the curve as a hazard ratio.
+Even if the gradient were causal and applied to induced change (neither is shown, and the paragraph
+above notes a sick-quitter tell), \~600-750 steps is roughly a fifth to a third of one inter-quartile
+gap, held for a few months.
+[inferred from @paluch2022; @brickwood2019wearable; @laranjo2020] -> [[Wearable Activity Trackers and Physical Activity]]
+
+</div>
 
 ## These three metrics are NOT interchangeable numbers — a same-quantity check
 
@@ -370,6 +393,8 @@ self-reported-sitting metas — the same self-report/device gap that doubles the
 running in the sitting direction. Read the WHO 6-8 h number as a self-report figure, not the device one.
 [@ekelundacc2019]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Does activity OFFSET sitting? Mostly yes — the Ekelund 2016 interaction
 
 The decision this answers: *if I must sit 8+ hours (desk job, commute), can being active cancel the
@@ -423,7 +448,9 @@ the SEPARATE-associations Ekelund 2019, so the offset *dose* is a new estimate, 
 
 In the highest MVPA third (\~34 min/day) high sedentary time carried no significant excess mortality
 (+40%, 95% CI 0.87-2.26, ns); the risk sat entirely in the low-MVPA third (\~2 min/day), where every
-sedentary combination was elevated, worst cell +263% (95% CI 1.93-3.57).
+sedentary combination was elevated, worst cell HR 2.63, i.e. +163% (95% CI 1.93-3.57; the paper prints it as
+263% against an HR-scale interval, a slip its +65% / +40% cells do not make) (corrected 2026-10-06: +263% ->
++163%, Ekelund 2020 chunk 01).
 [@ekelund2020joint]
 
 **But the device 34 min and the self-report 60-75 min are NOT the same quantity — the parameter table:**
@@ -463,6 +490,8 @@ of the held self-report offset, **not** an independent instrument — no `[E-ind
 cohorts (short), ≥40 y so not generalisable to younger/more active or LMIC populations; E-values 2.1-4.63
 mean «uncontrolled confounding would have to be as large in magnitude as smoking to distort our results».
 [inferred from @ekelund2020joint; @ekelundsitting2016; @ekelundacc2019]
+
+</div>
 
 ## Older adults — falls, which is a patient-important outcome
 
@@ -528,7 +557,7 @@ person optimizing specifically for cancer risk cannot bank the mortality plateau
 Caveat symmetric with the rest of the page: WCRF's cancer grades are **observational cohort** judgements,
 so reverse causation (illness lowers activity) is not excluded by design.
 
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What this page does NOT support
 

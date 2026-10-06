@@ -6,7 +6,7 @@ authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Kh
 sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
 cluster: cvd-risk-estimation
 confidence: high
-self_critiqued: 2026-08-25
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -22,7 +22,7 @@ relationships:
     - Vitamin and Mineral Supplements for Disease Prevention
     - Low-Fat Dietary Pattern and Cardiovascular Disease
 created: 2026-07-28
-updated: 2026-08-25
+updated: 2026-10-06
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -94,6 +94,8 @@ and one the other four do not reach.
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The largest levers are missing from the table — because their evidence is observational
 
 The obvious objection to a ceiling finding is *"but exercise."* It is worth answering, because the
@@ -101,7 +103,9 @@ answer sharpens the ceiling rather than breaking it. The levers with the **large
 hard outcomes are not the four above — they are **activity and fitness**, and they are *absent from the
 proven-lever table on purpose*:
 
-- Aerobic activity: all-cause HR \~**0.34** at the top of the dose-response ([[Physical Activity Dose and Mortality]]) — the single largest association the vault holds, dwarfing every RCT-proven lever here.
+- Physical activity (device-measured *total* activity, accelerometer counts — not aerobic activity
+  specifically): all-cause HR \~**0.34** at the top of the dose-response ([[Physical Activity Dose and Mortality]]) — the single largest association the vault holds, dwarfing every RCT-proven lever here.
+  (corrected 2026-10-06: *aerobic activity* -> device-measured total activity.)
 - Cardiorespiratory fitness: **RR 0.87 per 1-MET** ([[Cardiorespiratory Fitness and Mortality]]).
 - Muscle-strengthening: all-cause **RR 0.85** ([[Muscle-Strengthening Activity and Mortality]]).
 
@@ -118,7 +122,7 @@ small-for-low-risk, and the **large** lever (activity/fitness) is the one whose 
 outcomes is structurally *unprovable by RCT*. So the low-risk person's honest position is unchanged — no
 *proven* large CV-event lever — even after the biggest association in the vault is on the table.
 
-
+</div>
 
 ## The decision-change — this is a ceiling finding
 

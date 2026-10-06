@@ -20,8 +20,8 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
     - Intrinsic Capacity and Multidimensional Healthspan
 created: 2026-08-08
-updated: 2026-08-28
-self_critiqued: 2026-08-08
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 Nucleus of the `frailty` cluster. Frailty is the older-adult syndrome of **reduced physiological
@@ -44,10 +44,16 @@ identifying frailty is decision-changing because the identified stratum has both
 paper alone misses — Vermeiren reads as "frailty is bad prognosis," Racey as "exercise helps the frail";
 the *act-on-it* conclusion is the composite.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## What frailty predicts (Vermeiren — prognostic leg, observational)
 
 [@vermeiren2016frailty]
-31 prospective studies, 158,764 community-dwelling adults >=65. Frail vs robust (pooled OR; HR/RR):
+31 prospective studies, 158,764 community-dwelling adults >=65. (Pre)frail vs robust (pooled OR; HR/RR) —
+the source's overall estimates pool frail-vs-robust and prefrail-vs-robust contrasts (the abstract reports them as
+(pre)frailty estimates); where split out — e.g. mortality — frail RR 2.01 [1.82-2.22] vs prefrail RR 1.47
+[1.32-1.62]. The cognitive-decline row pools 2 studies mixing both contrasts (corrected 2026-10-06:
+*Frail vs robust* -> *(pre)frail vs robust*, Vermeiren chunk 01):
 
 | Outcome (patient-important) | OR [95% CI] | HR/RR [95% CI] |
 |---|---|---|
@@ -68,6 +74,10 @@ the *act-on-it* conclusion is the composite.
   health) but confounded, with high heterogeneity (I2 95-98% for mortality). Frailty here is a *risk
   marker*; the causal test is the intervention leg.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Frailty is modifiable (Racey — intervention leg, RCT/GRADE)
 
 [@racey2021frailtypa]
@@ -86,9 +96,13 @@ small for cognition.
   and balance/flexibility-only are under-studied here — a gap, not a null.
 - **Dose the intervention DOWN for the frail.** «recommended physical activity may be too advanced or
   too intense for a frailer population, put-ting them at risk for falls and injuries» — the general PA
-  guideline does not transport to this stratum; effective programmes were supervised and adjusted
-  (\~29 weeks, 30-60 min, 1-4x/week). Harms were similar to control (no undue harm), but adherence is
+  guideline does not transport to this stratum; the reviewed programmes were typically supervised
+  and adjusted (\~29 weeks, 30-60 min, 1-4x/week) — Racey notes «as was evident from the high level of
+  supervision in the studies in this review» that programmes should engage professionals able to adjust
+  protocols [@racey2021frailtypa]. Harms were similar to control (no undue harm), but adherence is
   poor in the real world (fear of falling, low self-belief) — adherence is part of the effect.
+
+</div>
 
 ## Reconciliation — target the measurable COMPONENTS, read "frailty" as the composite that moves
 

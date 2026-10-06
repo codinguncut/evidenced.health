@@ -2,11 +2,11 @@
 type: framework
 question: For weight management and glycaemic control in someone who already has type 2 diabetes, is any dietary approach clearly superior — and does the certainty-graded evidence favour a macronutrient profile, or an energy-delivery format?
 aliases: [Best Diet for Type 2 Diabetes, Diabetes Diet Umbrella Review, Which Diet for T2D, T2D Weight Management Diets, Diet Type and Diabetes Control, Churuangsuk Umbrella Review]
-authors: [Churuangsuk, Chaitong; Lean, Michael EJ; Reynolds, Andrew; Griffin, Simon J; Szczerba, Edyta; Schlesinger, Sabrina; Schwingshackl, Lukas; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
-sources: [Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023]
+authors: [Churuangsuk, Chaitong; Lean, Michael EJ; Reynolds, Andrew; Akerman, Ashley P; Mann, Jim; Griffin, Simon J; Szczerba, Edyta; Schlesinger, Sabrina; Schwingshackl, Lukas; Evert, Alison B; Diabetes and Nutrition Study Group of the EASD (org)]
+sources: [Churuangsuk - Diabetes Diets Umbrella Review 2022, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, ADA - Nutrition Therapy for Diabetes 2019, EASD - DNSG Dietary Management of Diabetes 2023, Reynolds - Fibre Whole Grains Diabetes 2020]
 cluster: weight-loss-diets
 confidence: medium
-self_critiqued: 2026-09-16
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Named Diet Programs Compared
@@ -18,7 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Diets for Weight Loss - What NICE Recommends
 created: 2026-08-04
-updated: 2026-09-16
+updated: 2026-10-06
 ---
 
 Churuangsuk 2022 (Diabetologia) is the **gold-tier umbrella review** for the T2D-specific version of the
@@ -60,6 +60,8 @@ magnitude-driven**: formula meal replacement (−2.4 kg) separates from the comp
 adherence thesis, the free-living T2D face of the isocaloric-feeding null on
 [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The certainty-graded weight-loss map
 
 Every row is a pooled meta-analytic estimate vs the stated comparator, with AMSTAR-2 MA quality and GRADE
@@ -69,7 +71,7 @@ certainty kept as separate axes. [@churuangsuk2022]
 |---|---|---|---|
 | **VLED** (400-500 kcal, 8-12 wk) vs low-energy diet | **−6.6 kg** (−9.5, −3.7) at 3 mo; −5.7 at 6 mo | high | **low** (2 RCTs, completer data) |
 | **Formula meal replacement** (replace 1-3 meals) vs low-energy diet | **−2.4 kg** (−3.3, −1.4), 12-52 wk | high | **moderate** |
-| **LCD** vs higher-carbohydrate | no difference (<1 to <2.5 kg) | high | **high** (certainty of NO difference) |
+| **LCD** vs higher-carbohydrate | no difference (<1 to <2.5 kg) | high | **low to high** across 4 MAs (certainty of NO difference) |
 | High-protein (>20%E) vs lower-protein | −1.2 kg (−2.2, −0.2) | critically low | very low |
 | Mediterranean vs control | −0.3 to −1.8 kg (greater loss) | low / crit-low | very low / moderate |
 | High-MUFA · vegetarian vs control | −1.6 to −2 kg | low / crit-low | (low) |
@@ -78,14 +80,22 @@ certainty kept as separate axes. [@churuangsuk2022]
 
 **Two structural reads of this table.**
 
-- **The LCD null is the single highest-certainty cell (GRADE high) — a positive *no-meaningful-difference*
-  finding, not "insufficient evidence."** The comparison was run at scale and came back null. This is the
+- **The LCD null is a positive *no-meaningful-difference* finding, not "insufficient evidence."** The
+  comparison was run at scale (four high-quality MAs) and came back null; its certainty is not uniformly
+  high: «GRADE assessment ranged from low to high certainty of evidence. Just one meta-analysis reported
+  greater weight loss with LCD, by 3.5 kg, using complete case data for pooled results [41].»
+  [@churuangsuk2022] — that fifth MA is also one of
+  the review's high-quality set (LCDs, n = 5), so "the high-quality MAs" are null on LCD except for this
+  complete-case outlier. (corrected 2026-10-06: *the
+  single highest-certainty cell (GRADE high)* -> GRADE low-to-high across the four MAs) This is the
   T2D-stratum confirmation of the pairwise Cochrane result on
   [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
-- **The best-graded diets are the ones with null/negative findings.** 12 of 19 MAs were AMSTAR-2
-  «critically low»/«low»; the diets with impressive point estimates (high-protein, Mediterranean,
-  vegetarian) rest on the worst MAs. Certainty tracks study quality, and quality is inversely correlated
-  with the size of the claimed advantage here.
+- **Outside the energy-controlling formats, the impressive point estimates rest on the worst MAs.** 12 of
+  19 MAs were AMSTAR-2 «critically low»/«low»; high-protein, Mediterranean and vegetarian advantages rest
+  on low / critically-low MAs, while the high-quality MAs found either no difference (LCD) or an advantage
+  only for the formats that control energy (VLED, formula meal replacement). reading of the
+  table above. (corrected 2026-10-06: *the best-graded diets are the ones with null/negative findings*
+  -> dropped; VLED and meal replacement are high-quality-MA positives, Churuangsuk chunk 02)
 
 **HbA1c adds nothing separable:** «HbA1c reduction broadly followed weight loss, and differences between
 diet types assessed over 3-12 months were small», and the data «do not permit an individual-level
@@ -94,6 +104,8 @@ regression analysis to quantify weight loss-independent effects on HbA1c.»
 **separable** glycaemic edge — weight-loss-independent effects were small and could not be quantified.
 This is *insufficient evidence* for a composition-specific glycaemic effect, not a demonstrated null: the
 review could not separate the two, so read it as "not shown," not "shown absent."
+
+</div>
 
 ## The remission map — same structure, one clear winner on certainty
 
@@ -122,16 +134,24 @@ figure (20%) is a single non-RCT at GRADE very low with serious risk of bias —
 low-carb-remission claim rests on the weakest cell in the table, sharpening the reading on
 [[Carbohydrate Restriction and Type 2 Diabetes Remission]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Who this changes the recommendation for (stratification)
 
 - **Route (a) — baseline / timing.** Remission scales with *sustained kilograms lost* and with **early
   action**: «remission should be attempted as early as possible from diabetes diagnosis», the highest
-  rates (up to 75%) being in newly-diagnosed / <2-year disease. Longer duration collapses the achievable
-  benefit — a duration-stratified prognosis, not a diet choice. [@churuangsuk2022]
-- **Route (b) — effect modification.** «Participants with shorter type 2 diabetes duration, and Asian
-  ethnicity, were more likely to achieve remission»; South Asians develop T2D younger and at lower BMI and
-  may be more weight-sensitive — a candidate modifier of the weight->remission slope, reported not
-  formally tested. [@churuangsuk2022]
+  rates (up to 75%) being in newly-diagnosed / <2-year disease — a figure from non-randomised single-arm
+  studies: «NRSs (non-RCT, single-arm intervention) reported remis- sion rates ranging from 3% to 75% by
+  ITT, over various follow-up durations.» Longer duration collapses the achievable benefit — a
+  duration-stratified prognosis, not a diet choice. [@churuangsuk2022]
+- **Route (a) prognostic, route (b) only a candidate — duration and ethnicity.** «Participants with
+  shorter type 2 diabetes duration, and Asian ethnicity, were more likely to achieve remission»; the review
+  explored these as «hypothesised effect modi- fiers» via between-study heterogeneity, not a within-trial
+  interaction test, and South Asians «may be more sensi- tive to weight loss».
+  [@churuangsuk2022] A higher remission *rate* in a
+  subgroup is prognostic (route a); positive evidence that the weight->remission *slope* differs (route b)
+  is not held. (corrected 2026-10-06: route (b) effect modification -> route (a) prognosis
+  with a route-(b) candidate)
 - **Route (c) — contraindications, diet-specific.** Harms are *not* interchangeable even when efficacy is:
   ketogenic diets carry thiamine deficiency (heart failure, neurological) and ketoacidosis risk (amplified
   by SGLT2 inhibitors); replacing carbohydrate with red/processed meat raises LDL-cholesterol; high
@@ -141,22 +161,35 @@ low-carb-remission claim rests on the weakest cell in the table, sharpening the 
   efficacy-equivalent diets is decided by the harm profile, cost, and adherence — not by weight-loss
   magnitude.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
-- **Choose the diet the person will sustain.** Since composition does not separate the diets on weight or
-  HbA1c, the operative levers are adherence, cost, harm profile and preference — «Practitioners can
+- **Choose the diet the person will sustain.** Since composition does not *demonstrably* separate the
+  diets on weight — Szczerba's two standouts, meal replacement (high certainty) and plant-based (moderate,
+  anthropometric), read as an energy *format* and an energy-mediated effect respectively (see *The paired
+  umbrella* below;) — the operative levers are adherence, cost, harm profile and preference,
+  with composition mattering only for the glycaemic/lipid surrogates Szczerba separates (e.g. low-carb HbA1c and
+  triglycerides; high-protein, Mediterranean and low-GI on lipids) — «Practitioners can
   therefore be confident that a variety of diet types can all achieve the intended weight losses, and
   potentially remissions of type 2 diabetes, if their patients are able to adhere to the programme
   sufficiently.» [@churuangsuk2022]
+  (corrected 2026-10-06: *composition does not separate the diets on weight or HbA1c* -> weight
+  reconciled with Szczerba's meal-replacement / plant-based findings; HbA1c caveated by Szczerba chunk 02)
 - **If maximal weight loss / remission is the goal, prefer a format that controls energy for the person:**
   VLED or formula total-diet-replacement. The firmest support for this is the **GRADE-high TDR remission
   cell**, not the VLED weight-loss number (which is GRADE low, completer-only, and from COI-exposed
   authors) — so lead with the remission evidence and treat the VLED magnitude as low-certainty.
 - **The popular low-carb-for-diabetes claim is the weakest-supported one on both outcomes:** LCD = higher-
-  carb for weight at GRADE high, and no RCT exists for its remission claim at all.
+  carb for weight (GRADE low to high across the high-quality MAs), and no RCT exists for its remission
+  claim at all.
 - **The review declares the diet-comparison literature effectively saturated:** «future trials of similar
   diet comparisons are unlikely to add useful information», redirecting the field to pragmatic /
   practice-based / n-of-1 evidence. [@churuangsuk2022]
+
+</div>
 
 ## The paired umbrella (Szczerba 2023) — surrogate refinement on shared evidence
 
@@ -285,6 +318,38 @@ same place**. `[E-independent]` does NOT apply (shared trial base). -> [[Carbohy
   Churuangsuk); agreement is F, the divergence is D. No [E].
 - **Over-read guard:** the standpoint (class-1) flavor is named, so the type-D is not laundered into *one
   body is wrong*. Coherence, not validity — the loop stays open on whether either default improves outcomes.
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Fibre — a diet-quality lever under whichever weight diet is chosen `[2026-10-06]`
+
+The umbrellas above rank weight-loss diets; fibre is a separate, smaller axis that sits inside any of them.
+A gold SR+MA in adults with prediabetes, type 1 or type 2 diabetes (42 trials, mostly 6-12 weeks) finds
+higher fibre lowers HbA1c by -2.00 mmol/mol (-3.30 to -0.71; 33 trials), weight by -0.56 kg, and LDL by
+-0.17 mmol/L, with all-cause mortality RR 0.55 (0.35-0.86) highest vs lowest in 2 European cohorts
+[@reynolds2020]. EASD's
+«Dietary fibre intake should be at least 35 g per day (4 g per 1000 kJ). Moderate»
+[@dnsg2023] cites that review as its reference
+70, and the review was commissioned through the same EASD study group — so guideline and review are **one
+witness, not two** (same commissioning group, and Reynolds is the guideline's correspondence contact; no `[E-independent]`); EASD's reference 8 is the same team's 2019
+  review.
+
+
+
+- **Small next to the energy-delivery levers.** About -0.18 percentage points HbA1c, and the effect was
+  not detected in the only 5 trials that controlled weight (a small number, as the authors note) — which the authors note conflicts with earlier
+  energy-balanced trials, so whether fibre's glycaemic gain is independent of weight is unresolved. It does not compete with total
+  diet replacement for remission.
+- **The 35 g is the top of the cohort data, not a located optimum**; the review frames a 15 g/day
+  increase, or reaching 35 g, as «a reasonable target».
+- **A low-carbohydrate pattern can cost fibre.** The review: «for those who choose a reduced intake of
+  total carbohydrates, the inclu- sion of fibre supplements may provide the means of ensuring recommended
+  intake. However, further long-term adequately powered studies will be required to establish whether fibre
+  sup- plements will confer longer term clinical benefit that is comparable with fibre that occurs natu-
+  rally in foods.» [@reynolds2020] A substitution point for anyone taking the low-carb route above, not a reason
+  against it.
+
+</div>
 
 ## Limits
 

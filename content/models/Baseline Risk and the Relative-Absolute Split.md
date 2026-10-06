@@ -2,8 +2,8 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org)]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, CTT - Statin Therapy Older People 2019]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Reading a Confidence Interval
 created: 2026-07-25
-self_critiqued: 2026-09-04
-updated: 2026-09-04
+self_critiqued: 2026-10-06
+updated: 2026-10-06
 ---
 
 ## The decomposition
@@ -440,6 +440,8 @@ repletion) — effect-modification is real *sometimes*, and the discipline is th
 assumed, in either direction.
 [inferred from @coley2025]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
 
 REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
@@ -462,6 +464,71 @@ exactly the split: constant relative effect, absolute benefit tracking baseline 
 needed. The consequence for the statin decision is worked on [[Statins for Primary Prevention and the Power of Zero CAC]]
 and [[LDL Lowering and Cardiovascular Events]].
 [inferred from @ctt2010]
+
+### Age split — route (a) mostly survives, one cell is undecided, and trial mix can mimic route (b) `[2026-10-06, CTT 2019]`
+
+The 2010 constancy across *age (incl. >75)* was one pooled line. CTT 2019 re-ran the analysis by six age
+groups (28 trials, 186,854 people, 14,483 >75 at entry; 2010's trials nested inside plus CORONA and HOPE-3, so this
+is a **type-F refinement by the same collaboration, not independent backing**). Per 1.0 mmol/L, MVE RR ran
+0.75, 0.80, 0.80, 0.76, 0.81 and **0.87 (99% CI 0.77-0.99) at >75**: «Although proportional reductions in
+major vascular events diminished slightly with age, this trend was not statistically significant
+(ptrend=0·06).» [@ctt2019] Three findings sit under
+that headline.
+
+**1. Two age trends weakened once the heart-failure and dialysis trials were removed, which fits confounding by trial mix.** Statins did little in the two
+heart-failure and two dialysis trials (MVE RR 0.95 and 0.95, vs 0.77 in all other trials, heterogeneity
+p<0.0001), and those trials were concentrated in the old: 20% of the >75 group came from the HF trials
+vs 4% of those <=75 [@ctt2019]. The authors flag it: «A dispro­portionate number of patients with heart failure or dialysis were in the older age groups of our overall meta-analysis population, which could confound comparisons between the effects of statin therapy by age.» [@ctt2019]
+Excluding those four trials, the MVE age trend went from p=0.06 to p=0.3 and the >75 RR from 0.87 to 0.82
+(99% CI 0.70-0.95); for vascular death the trend went from p=0.004 to p=0.2 [@ctt2019].
+The authors present these exclusion analyses as exploratory, and the overall MVE trend was never significant to begin with. Two
+other trends did **not** weaken: major coronary events (0.009, then 0.01) and MVE in primary prevention (0.05, then 0.03).
+[@ctt2019]
+The general lesson for route (b), as a heuristic: **a subgroup trend across a pooled trial set can be a trend in which
+trials feed which subgroup.** When a support factor that kills the effect (here, advanced heart or kidney
+failure) is unevenly distributed across the levels of the candidate modifier, the pooled trend
+attributes to age what belongs to the support factor. Check the subgroup's trial composition before
+reading a trend as effect modification. The same paper shows the check cuts both ways: it weakened two
+trends and left two standing, so trial mix is a thing to test, not a default explanation.
+
+**2. Secondary prevention stays route (a) at every age.** With known vascular disease the >75 RR was
+0.85 (99% CI 0.73-0.98) and the age trend p=0.2, p=0.9 after the exclusion [@ctt2019].
+Same relative effect, higher absolute risk with age: the arithmetic this page describes.
+
+**3. Primary prevention in the oldest is a route-(b) candidate that does not meet the bar.** Without
+known vascular disease the RR was 0.84 (99% CI 0.70-1.01) at 71-75 and **0.92 (99% CI 0.73-1.16) at >75**, on 295 vs
+308 events; age trend p=0.05, and 0.03 after the HF/dialysis exclusion [@ctt2019].
+All age-subgroup intervals in this section (0.82, 0.85, 0.84, 0.92) are **99% CIs**: per the paper's
+methods, «all other RRs are presented with 99% CIs» (beyond its headline summary estimates) [@ctt2019].
+(corrected 2026-10-06: CI level unlabelled -> 99%.)
+Against the bar for route (b) (positive interaction evidence): this candidate **passed** the HF/dialysis
+trial-mix check (other trial-composition confounding is untested; no adjusted trend is reported for this
+arm). Where it falls short is precision. The trend p is nominal and is one of
+many subgroup tests (the paper reports subgroup results with 99% CIs to allow for that); the >75 CI is consistent both with the all-age 0.75 and with no
+effect; and the authors themselves say «there were too few such older participants for reliable
+assessment in that group alone» [@ctt2019]. So
+effect modification is **not established, and not excluded**. The cell is in the insufficient-evidence
+state. Route (a) cannot be applied to it with the confidence of the secondary-prevention cell either,
+because the constant-relative-effect premise is exactly what the cell cannot confirm.
+
+**The other surviving trend is on coronary events.** Major coronary events showed ptrend=0.009 (0.69 at <=55
+to 0.82 at >75), surviving the HF/dialysis exclusion. In the Discussion the authors write «The reasons
+underlying this trend are unclear.»; in the Research-in-context panel they state «However, as the
+absolute risk of these events was higher in older people, the absolute benefits were similar to, if not
+greater than, those at younger ages.» [@ctt2019]
+This is the split in miniature: a smaller relative effect on a larger baseline can still be an equal or
+larger absolute effect. But that absolute statement leans on the trials' own event rates, which the next
+paragraph shows CTT treats as unrepresentative, so read it as conditional on the older person's real
+baseline risk.
+
+**Absolute numbers are modelled, not counted.** CTT declined to read absolute benefit off trial event
+rates: «Therefore, we have not produced estimates of the absolute effects of statin therapy directly
+from the numbers of events observed in these trials.» Its worked example (63 vs 78 years, projected
+2.5% vs 4.0% MVE per year in primary prevention, giving \~50 vs \~80 avoided per 10,000 per year per
+mmol/L) is route (a) arithmetic applied to the cell where route (a) is least certain. [@ctt2019]
+Statin decision consequences: [[Statins for Primary Prevention and the Power of Zero CAC]].
+
+</div>
 
 ## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
 

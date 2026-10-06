@@ -8,7 +8,7 @@ cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-04
+updated: 2026-10-06
 self_critiqued: 2026-09-04
 relationships:
   related_to:
@@ -39,6 +39,8 @@ independent methods say the protection is largely not real.
   of all three diseases than non-drinkers or heavier drinkers.»
   [@millwood2019]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Why the lower arm is an artifact — two independent adjudications
 
 **1. Bias-corrected observational (Stockwell).** Correcting for how abstainers are defined erases the
@@ -59,9 +61,12 @@ alcohol tolerance act as instruments free of reverse causation and lifestyle con
 genotype-predicted (causal) relationship is **monotonic, with no protective lower arm**:
 
 - ischaemic stroke RR per 280 g per week 1.27 (1.13-1.43); intracerebral haemorrhage «1.58
-  (1.36-1.84)»; total stroke «1.38 (1.26-1.51)» — «no suggestion of increased stroke risk at very low
-  levels» that would indicate an abstinence penalty, and «no material deviation from log-linear
-  relationships.»
+  (1.36-1.84)»; total stroke «1.38 (1.26-1.51)» — the genotypic analyses showed «no suggestion of
+  increased stroke risk at very low levels of alcohol intake (although in the first of the six
+  categories two-thirds were non-drinkers), or of any material deviation from log- linear
+  relationships» — i.e. no abstinence penalty, with the lowest category caveated by its non-drinker
+  share (corrected 2026-10-06: non-locating *no material deviation from log-linear relationships* quote ->
+  contiguous span with its qualifier, Millwood chunk 01).
 - the causal mechanism is shared by both methods where the observational result *is* real: blood
   pressure rises 4.8 mm Hg (4.5-5.1) per 280 g per week (conventional) and «4.3 mm Hg (3.7-4.9)»
   (genetic) — convergent, so the confounding is specific to the *protective* claim, not to alcohol's
@@ -74,6 +79,8 @@ not mainly caused by alcohol itself, and are largely artifacts of reverse causat
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
 [@millwood2019]
+
+</div>
 
 ## Two independent methods, one conclusion `[E-independent]`
 

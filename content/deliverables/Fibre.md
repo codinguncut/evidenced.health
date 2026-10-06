@@ -4,10 +4,10 @@ title: Fibre
 question: 'For a person deciding how much dietary fibre to eat and in what form: what does fibre do to each patient-important outcome -- mortality, heart disease, diabetes, cancer, IBD, LDL, glycaemia, weight, the microbiome, gut transit -- for whom, how large, how certain, and does the answer change by fibre type or by isolate-versus-food?'
 aliases: [Dietary Fibre, Fiber, Dietary Fiber, Soluble Fibre, Insoluble Fibre, Viscous Fibre, Fermentable Fibre, Roughage, Prebiotic Fibre]
 authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; Valdes, Ana M; Wastyk, Hannah C; Petroski, Weston; Valisoltani, Neda; World Cancer Research Fund (org); European Society of Cardiology (org); World Gastroenterology Organisation (org); Scientific Advisory Committee on Nutrition (org); Nordic Council of Ministers (org)]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023, Wang - Resistant Starch Glucose Insulin 2019]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023, Wang - Resistant Starch Glucose Insulin 2019]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-02
+updated: 2026-10-06
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
@@ -205,6 +205,8 @@ while a high-fibre arm did not
 resident community rather than reliably diversifying it on a short timescale, and a composition
 shift earns belief only when followed through to an outcome ([[Gut Microbiome and Health]]).
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Glycaemia, weight and transit move the right way but resist a clean number
 
 **Fibre nudges the softer outcomes in the expected direction, but the corpus cannot put a
@@ -216,10 +218,14 @@ plausible and the magnitude is thin or unheld**:
 
 - **Glycaemia:** fibre and whole-grain content are better markers of carbohydrate quality than
   glycaemic index or load, which are not worth optimising for on this evidence
-  ([[Free Sugars Intake]]). The one held chronic-glycaemic marker runs null: Reynolds' RCT pool
-  gives HbA1c «SMD -0·35 (-0·73 to 0·03)» at **Low** certainty, the interval crossing zero
-  [@reynolds2019] -- direction
-  plausible, magnitude unproven.
+  ([[Free Sugars Intake]]). In people without chronic disease the HbA1c trial pool runs null:
+  Reynolds' 2019 pool, which excluded trials in people with a chronic disease, gives HbA1c
+  «SMD -0·35 (-0·73 to 0·03)» at **Low** certainty, the interval crossing zero
+  [@reynolds2019]. In adults with
+  prediabetes or diabetes, the same team's 33-trial pool does show a drop, HbA1c MD -2.00 mmol/mol
+  (-3.30 to -0.71), but heterogeneity is extreme (I2 98.7%) and 93% of the trials ran 6 to 12 weeks
+  [@reynolds2020] -- a short-term marker shift,
+  not an outcome.
 - **Satiety and weight:** beyond the 0.37 kg trial figure, the satiety mechanism is not a measured
   endpoint here, so it stays at insufficient evidence.
 - **Transit and constipation:** insoluble fibre's bulking action is real physiology, but no
@@ -228,7 +234,7 @@ plausible and the magnitude is thin or unheld**:
 .
 
 **One fermentable-fibre isolate has been tested head-on, and it moves the glycaemic markers the
-whole-diet HbA1c pool left null.** A 2019 meta-analysis of 13 RCTs (n=428) in overweight or obese
+general-population HbA1c pool left null.** A 2019 meta-analysis of 13 RCTs (n=428) in overweight or obese
 adults gave resistant starch at 10-45 g/day for 2-12 weeks. It found significant drops in fasting
 insulin (SMD -0.72, 95% CI -1.13 to -0.31), fasting glucose (SMD -0.26, -0.5 to -0.02) and HbA1c
 (SMD -0.43, -0.74 to -0.13) [@wang2019rs].
@@ -252,6 +258,8 @@ And for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates 
 margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
 .
 
+</div>
+
 ## The downsides are real, minor, and mostly settled in the kitchen
 
 **The antinutrient alarm around fibre-rich plant foods is largely mis-scaled, but the genuine
@@ -273,6 +281,8 @@ care: low iron stores and tannin timing, recurrent kidney-stone formers and oxal
 marginal-iodine status and goitrogens. But these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Thirty grams marks the edge of the data, not a biological threshold
 
 **Every guidance figure near 25-30 g is best read as where the evidence thins, not where the curve
@@ -284,6 +294,19 @@ with higher intakes.»
 knee; the numbers mark the top of the sampled range. That is why the honest
 default is *more within the studied range still helps* rather than *aim for exactly 30*
 ([[The Underivable Optimum]]).
+
+**In people who already have diabetes, the direction holds, but the mortality figure rests on two
+cohorts.** The same research team re-ran the question for adults with prediabetes, type 1 or type 2
+diabetes. Two multicountry cohorts of 8,300 adults with diabetes, followed for 8.8 years on average,
+put highest-versus-lowest fibre at an all-cause mortality RR of 0.55 (95% CI 0.35 to 0.86); eating
+35 g a day rather than 19 g tracked 14 fewer deaths per 1,000 (95% CI 4 to 19) over the studies. The
+authors measured that reduction only up to the highest intake their cohorts covered
+[@reynolds2020].
+
+So 35 g is again where the data stop, not a located optimum. And the 0.55 is not evidence of a bigger
+effect: the general-population 0.85 sits inside its wide interval, and a review by the same team is
+a refinement, not independent confirmation
+.
 
 **Two forces keep the curve from ever handing over a clean optimum.** Self-reported intake is
 measured badly enough to flatten a real gradient -- a doubly-labelled-water substudy found
@@ -299,6 +322,8 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 [@sacn2015] That is a roughly 40% gap,
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
+
+</div>
 
 ## Where this lands against official guidance
 
@@ -343,7 +368,7 @@ stated amount and plausibly tracks lower heart-disease risk.
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Caveats
 
@@ -375,10 +400,10 @@ stated amount and plausibly tracks lower heart-disease risk.
 > | | |
 > |---|---|
 > | **Question** | 'For a person deciding how much dietary fibre to eat and in what form: what does fibre do to each patient-important outcome -- mortality, heart disease, diabetes, cancer, IBD, LDL, glycaemia, weight, the microbiome, gut transit -- for whom, how large, how certain, and does the answer change by fibre type or by isolate-versus-food?' |
-> | **Evidence included** | 14 sources — 8 gold, 4 high, 2 moderate |
+> | **Evidence included** | 15 sources — 9 gold, 4 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fibre.md) |
+> | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fibre.md) |
 
 </div>
 

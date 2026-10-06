@@ -18,8 +18,6 @@ microbiome is genuinely modifiable and genuinely matters in a handful of well-de
 of the places it is sold for, the evidence stops at a bacterial census — a readout of which microbes
 are present — that no one ever follows through to an outcome a person can feel.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The bottom line
 
 #### The levers, and the surrogate trap
@@ -58,8 +56,6 @@ and the FMT-for-*C. difficile* claim on a gold Cochrane meta-analysis of six RCT
 microbiome-and-health story is mostly observational, and the field's central confound — which way the
 causal arrow points — is usually unresolved.
 
-</div>
-
 ## §2 — The one move that decides most of it: composition-shift is a surrogate
 
 Almost every microbiome study reports a *composition* change — which bacteria are present, and how
@@ -88,8 +84,6 @@ Even this exemplar is narrow. The endpoint is a two-week glycemic response, not 
 personalized, with responders and non-responders in each arm; and causal-on-the-marker is not
 causal-on-the-disease. A microbiome study that clears the surrogate bar this cleanly is the exception,
 and it still cannot license a claim about a hard outcome.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## §3 — What actually moves the microbiome: diet, and mostly fibre
 
@@ -140,10 +134,6 @@ source runs that experiment
 Until one does, *fermented foods work
 because of the probiotics* stays a mechanism hypothesis, not a finding — and the Wastyk remodeling
 reading above already cuts against the simple *eat live bacteria -> they take up residence* picture.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## §4 — Probiotics: strain- and indication-specific, not a general tonic
 
@@ -203,8 +193,6 @@ same problem undercuts both: strain-blind pooling and heterogeneity. Valdes note
 the wiki's own reading of these two sources — a discounted finding of benefit, not the
 insufficient-evidence state.
 
-</div>
-
 ## §5 — Prebiotics: mostly fibre by another name
 
 WGO defines a prebiotic as «Prebiotic A selectively fermented ingredient that results in specific changes
@@ -215,8 +203,6 @@ the same substrate the fibre evidence already covers. So a prebiotic's outcome e
 fibre evidence ([[Dietary Fibre and Health]]), and a standalone prebiotic supplement, taken on top of an
 already-adequate fibre intake, is a marginal and mostly-unevidenced increment.
 
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## §6 — FMT: the field's strongest win, and only for one thing so far
 
@@ -268,8 +254,6 @@ metabolic disease, where no established dysbiosis-as-cause exists for a transpla
 Valdes states the field bound plainly: «For other pathologies, faecal transplants are not yet clinical
 practice but have been explored.» [@valdes2018]
 
-</div>
-
 ## §7 — Antibiotics: a real perturbation, but the outcome question is a gap
 
 Antibiotics genuinely disrupt the gut community — that much is not in question. What is missing is the
@@ -313,8 +297,6 @@ ranked, and ranked without needing the microbiome frame at all. Someone acting o
 plant-diverse diet has captured the actionable part; the microbiome vocabulary adds discussion, not a
 new decision.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## §10 — What the evidence cannot yet answer (the gaps)
 
 - **Direction of causation is the pervasive confound.** For almost every dysbiosis-disease association,
@@ -337,8 +319,6 @@ new decision.
   Fermented *dairy* (yogurt -> type-2 diabetes) is worked separately -> [[Dairy and Cardiometabolic Health]];
   fermented *soy* (miso, tempeh, natto) is a distinct exposure -> [[Soy Products and Health]].
 
-</div>
-
 ## §11 — How this compares to the popular framing (the guidance null)
 
 The popular framing sells the microbiome as a general-purpose health dial: probiotic tonics for
@@ -353,8 +333,6 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Caveats
 
@@ -378,7 +356,5 @@ diversity, the boring recommendation that is already made on its own evidence.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
-
-</div>
 
 ## References

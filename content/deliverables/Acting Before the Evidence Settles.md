@@ -10,7 +10,6 @@ updated: 2026-10-02
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
 
 Sometimes a guideline body holds back while you, deciding for yourself, should act — and not
 because the body knows something you don't. **It is answering a different question.** A guideline
@@ -37,9 +36,6 @@ keep your current diet or habit, whose risks go on accruing while you wait. One 
 every section below: the loop is open. This guide can tell you whether a well-informed advisor
 *would* act this way; it can never tell you whether the person who did ended up better off.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## "How good is the evidence?" and "should I act?" are different questions
 
@@ -97,10 +93,6 @@ claim the treatment works differently inside you. Claiming *that* — that the r
 is different for you — is the expensive route, and it demands direct evidence of an interaction,
 not just a plausible mechanism. -> [[Baseline Risk and the Relative-Absolute Split]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## A direction can be sound without a pooled magnitude
 
 **Insist on the meta-analysis before you will say anything, and nutrition leaves you almost
@@ -145,8 +137,6 @@ reached it on their own; the findings that reversed rested on many studies of a 
 class. A mechanism accepted this way still earns only a direction, is marked as mechanism, and can
 still be overturned when the whole body compensates in a way the naive prediction missed.
 -> [[Upgrading Observational Evidence]]
-
-</div>
 
 ## How the methods pin a direction a meta-analysis cannot give
 
@@ -251,8 +241,6 @@ the estimate-layer detail, deferred to [[Reading a Confidence Interval]]. What b
 the decision: a skewed sub-significant signal is actionable under asymmetric costs and
 reversibility, and it is not a finding.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The discipline that keeps this from becoming wishful thinking
 
 Acting on directional evidence is one short step from believing whatever is convenient, and three
@@ -293,10 +281,6 @@ reasoning. More often, a body is cautious because of where it stands, not becaus
 something you don't — do not mistake caution for a verdict.
 -> [[Which Objective Moved This Recommendation]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Caveats and boundaries
 
 - **This is an open loop, and that limit is structural, not temporary.** No operation here grades a
@@ -314,10 +298,6 @@ something you don't — do not mistake caution for a verdict.
   on [[Better than What]]. The seam is clean. That page presumes a directional estimate and a
   comparator already exist and asks which quantile to act on; **this page asks the prior question —
   whether to act at all when the pooled evidence is silent, and how a direction is even reached.**
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where this nets out
 
@@ -344,7 +324,5 @@ says so.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
-
-</div>
 
 ## References

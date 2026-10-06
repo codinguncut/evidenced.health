@@ -21,7 +21,7 @@ relationships:
     - Frailty
     - Resistance Training for Sarcopenic Obesity
 created: 2026-08-04
-updated: 2026-10-04
+updated: 2026-10-06
 self_critiqued: 2026-10-04
 ---
 
@@ -82,7 +82,7 @@ EWGSOP2 «uses low muscle strength as the primary parameter of sarcopenia; muscl
 the most reliable measure of muscle function». Sarcopenia is *probable* on low strength alone — so
 treatment need not wait for imaging.
 
-<div class="recent-update" data-last-updated="2026-10-05">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Tests / indicators — the F-A-C-S algorithm
 
@@ -92,7 +92,11 @@ treatment need not wait for imaging.
 - **Find** — SARC-F questionnaire (self-reported; high specificity, low-to-moderate sensitivity, so it
   «will mostly detect severe cases»).
 - **Assess** strength — grip strength (calibrated dynamometer; a reliable surrogate for whole-body
-  strength) or chair-stand (five rises, a leg-strength proxy). The prognostic weight behind screening on
+  strength) or chair-stand (time to rise five times from a seated position without using the arms, a
+  leg-strength proxy — which EWGSOP2 calls a qualified but convenient strength measure, since it
+  requires both strength and endurance). The measurement details are EWGSOP2's *Muscle strength*
+  section [@cruzjentoft2019]; chunk 04
+  gives the algorithm step (grip strength and chair stand to identify low strength). The prognostic weight behind screening on
   strength is now held at scale: low grip predicts all-cause + cause-specific mortality (Celis-Morales, UK
   Biobank n=502,293) and adds discrimination to an office-based risk score -> [[Grip Strength and Mortality]];
   Celis-Morales used the near-identical FNIH weakness cut-off (<26 kg men / <16 kg women).

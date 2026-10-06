@@ -20,8 +20,8 @@ relationships:
     - Surrogate Outcomes
     - Big Rocks (Elderly)
 created: 2026-08-06
-updated: 2026-10-04
-self_critiqued: 2026-08-22
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The feared cost of GLP-1 weight-loss drugs, beyond the GI tolerability tax and the durability problem, is
@@ -53,25 +53,40 @@ turns on **which face matters for whom** — the ratio for a young obese adult w
 absolute loss for anyone whose muscle is already the binding constraint (below).
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Is GLP-1 muscle loss worse than ordinary weight loss? Roughly no — on average
 
 The sharpest decision question: does the *drug* shed disproportionate muscle, or is this just what weight
-loss does? Laverde's proportion-of-weight-lost-that-is-lean, matched against the ordinary diet-induced
-figure held elsewhere, says the class average is **ordinary** — with agent-specific exceptions.
+loss does? The class-average proportion-of-weight-lost-that-is-lean (an earlier MA Laverde cites, not Laverde's own
+pool), matched against the ordinary diet-induced figure held elsewhere, says the class average is
+**ordinary** — with agent-specific exceptions (Laverde's per-agent ranges across its included studies).
+(corrected 2026-10-06: *Laverde's proportion* -> the \~30% class figure is Laverde's citation of Beavers
+2025, ref 25; Laverde chunk 02)
 
 | Exposure | Lean as % of weight lost | Quoted locus | Same quantity? |
 |---|---|---|---|
-| GLP-1 RA (class, this MA) | «approximately 30%» — «comparable to that observed after bariatric surgery» | Laverde chunk 02 | — |
+| GLP-1 RA (class — an earlier MA, Beavers 2025, cited by Laverde as its ref 25; not Laverde's own pooled estimate, Laverde says its findings are «consistent» with it) | «approximately 30%» — «comparable to that observed after bariatric surgery» | Laverde chunk 02 (citing ref 25, unheld) | — |
 | Liraglutide | «14–22%» | Laverde chunk 02 | Yes |
 | Tirzepatide | «approximately 26%» | Laverde chunk 02 | Yes |
-| **Semaglutide** | «up to 45%» | Laverde chunk 02 | Yes — the outlier |
+| **Semaglutide** | «up to 45%» | Laverde chunk 02 | Partly — a range maximum, not a typical value; one small DXA substudy |
 | Ordinary diet-induced loss (reference) | \~20-30% (the *normal range*, TREAT/Lowe — held on [[Protein and Resistance Training for Muscle and Strength]]) | held cross-page | Yes — same construct |
 
 So the class sits **at or just inside** the normal 20-30% diet-induced band, and «comparable to ... bariatric
-surgery» — i.e. rapid weight loss loses muscle *whatever* drives it, and GLP-1 is not special on average.
-**Semaglutide is the exception that earns the worry**: up to 45% of its weight loss is lean, above the
-ordinary band. [inferred from @laverde2026]
+surgery» — which the wiki reads as rapid weight loss losing muscle *whatever* drives it, so GLP-1 is not
+special on average.
+**Semaglutide's upper value exceeds the band — on thin data**: «up to 45%» is the top of a range, not a
+typical value, so it is not like-for-like with the 20-30% band (corrected 2026-10-06: *the exception that
+earns the worry* -> upper value on thin data; self-critique). Laverde itself flags the limit and reads the
+opposite face as strongest for this agent: «Similarly, the number of patients and studies with semaglutide
+is limited, so further clinical trials with these drugs are needed to conﬁrm our ﬁndings.»
+[@laverde2026]; the lean/total ratio rises «particularly with
+semaglutide» [@laverde2026]; and «The greater
+reduction observed with semaglutide could be attributed to its increased potency and total weight loss, as
+previously described in studies [24].» [@laverde2026]
+— consistent with *not special*, scaled by more weight lost. [inferred from @laverde2026]
 
+</div>
 
 ## The surrogate/function gap — lean mass is not function
 
@@ -85,6 +100,8 @@ So a reassuring lean-mass ratio does **not** prove function is spared, and a sca
 **not** prove function is lost — the outcome people actually care about (strength, falls, independence) is
 unmeasured on both sides. Held as **insufficient evidence on function**, not as *safe* or *harmful*.
 
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The muscle-preservation bridge — the same machinery the muscle cluster already holds
 
@@ -112,8 +129,17 @@ muscle mass», and «resistance exercise and adequate protein intake during GLP1
 
 The composite beats either alone: Laverde says *lose muscle unless defended*; the muscle cluster says *how*
 to defend it — together they specify the complete strategy (drug + RT + protein), which is a net-effect
-judgment, not the drug in isolation.
+judgment, not the drug in isolation. **Trial context:** the measured loss was *already* partly defended —
+«The results of this meta-analysis should be interpreted with the understanding that the studies included
+run-in periods in which candidates adhered to calorie-restricted diets and physical activity before starting
+GLP1-RA medications and then continued lifestyle intervention measures.»
+[@laverde2026], with counselling in both arms. So the pooled −1.74 kg is the drug's
+increment over diet-and-activity counselling; counselling is not structured RT, so what RT + protein add
+beyond it is the open magnitude.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where the cost inverts — older adults, and a mechanism collision
 
@@ -130,10 +156,16 @@ and total intake — but defending muscle in an older adult requires a *higher* 
 clear the raised anabolic-resistance threshold ([[Anabolic Resistance]]). So the drug cuts the very
 protein intake the older muscle needs more of — an appetite-suppression / anabolic-threshold collision
 that makes deliberate protein targeting and resistance training more important precisely where they are
-hardest to achieve. The counterfactual is not zero loss either: Laverde's placebo arms also lost lean mass
-(«approximately 0.3% and 1% per year» age-related decline) — so the stratum is losing muscle anyway, which
-sharpens rather than softens the case for the defense.
+hardest to achieve. The counterfactual is not zero loss either: Laverde's placebo arms (young,
+low-comorbidity) also lost lean mass, which Laverde *likely* attributes to age-related decline at a
+literature rate (ref 27), not the arms' measured loss: «this reduc- tion is likely attributable to the
+physiological age-related decline, which has been reported to range between approximately 0.3% and 1% per
+year [27].» [@laverde2026]. Extending this to the
+older stratum — which is losing muscle anyway, sharpening rather than softening the case for the defense — is
+the wiki's inference (corrected 2026-10-06: the 0.3-1%/yr was presented as the placebo arms'
+loss -> a literature rate Laverde offers as the likely explanation; self-critique).
 
+</div>
 
 ## Independence — Laverde pools trials the vault already holds
 
@@ -145,10 +177,15 @@ trials — it re-pools them for a body-composition outcome those pages did not r
 Laverde as a second route to *semaglutide causes large weight loss*.
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 - **Young/lean-muscled obese adult:** the ratio face governs — composition improves, absolute muscle loss
-  is minor and recoverable; RT + protein is prudent, not urgent. Rank low.
+  is smaller in relative importance; recovery untested; RT + protein is prudent, not urgent. Rank low
+
+  (corrected 2026-10-06: *minor and recoverable* -> smaller in relative importance, recovery untested;
+  self-critique).
 - **Older / sarcopenia-risk / multimorbid adult:** the absolute face governs — the muscle cost is a
   front-line patient-important harm, the appetite-suppression collision is real, and any GLP-1 weight loss
   must be paired with resistance training and deliberate protein, monitored on function not just weight
@@ -156,30 +193,43 @@ Laverde as a second route to *semaglutide causes large weight loss*.
 - **The complete strategy, not the drug alone:** judge net effect — GLP-1 + RT + adequate protein — never
   the drug's naive body-composition number. Function is unmeasured, so monitor it directly where it matters.
 
-## Class-comparative corroboration — worst-on-weight is worst-on-lean `[2026-08-22, Nong]`
+</div>
 
-A 19-drug network meta-analysis (Nong 2026) corroborates the rank from the class side: the two biggest
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Class-comparative check — worst-on-weight is worst-on-lean `[2026-08-22, Nong]`
+
+A 19-drug network meta-analysis (Nong 2026) agrees on the rank from the class side: the two biggest
 *fat*-loss drugs are the two «most harmful» for lean mass — tirzepatide -8.3% (95% CI -12.9 to -3.7,
 moderate) and subcutaneous semaglutide -5.8% (-8.7 to -2.9, moderate), while liraglutide and oral
 semaglutide «had little or no effect on lean mass loss»
 [@nong2026obesity]. The **rank agrees**
-with Laverde (semaglutide/tirzepatide carry the largest lean-mass cost), but the numbers are **not the
-same quantity**:
+with Laverde (semaglutide/tirzepatide carry the largest lean-mass cost), but the agreement is **probably
+shared-trial, not independent**: Nong's tirzepatide estimate is «one trial, 1273 participants; mean
+difference -8.3%», the same −8.3% treatment difference Laverde reports for SURMOUNT-1 (though the CIs differ: Nong −12.9 to
+−3.7, Laverde −10.6 to −6.1, so the match is not proof of identity) — and Laverde reports
+tirzepatide only narratively, outside its pool («could not be included in the meta-analysis»); Nong's three
+semaglutide trials very likely include STEP-1, Laverde's semaglutide source (corrected
+2026-10-06: rank agreement presented as class-side corroboration -> probably shared-trial; self-critique).
+The point estimates also differ:
 
 | Parameter | Nong NMA | Laverde MA (this page, above) | Same quantity? |
 |---|---|---|---|
-| Semaglutide lean-mass change | -5.8% (subcut, % lean mass, vs lifestyle) | -9.9% / -5.44 kg (vs placebo) | **No** — different comparator (lifestyle vs placebo), scale, and trial set |
-| Qualitative rank | biggest weight/fat loss = biggest lean loss | semaglutide the per-agent outlier | **Yes** — same direction |
+| Semaglutide lean-mass change | -5.8% (-8.7 to -2.9; subcut, % lean mass; lifestyle reference «estimated from placebo arm of original studies») | -9.9% (-14.26 to -6.42; % lean mass vs placebo + lifestyle counselling) | **Plausibly the same quantity**; differs by trial set (Laverde: 1 DXA substudy, SEMA 95 / PL 45; Nong: 3 trials, 2145); CIs overlap — do not equate the point estimates |
+| Qualitative rank | biggest weight/fat loss = biggest lean loss | semaglutide the largest per-agent lean loss | **Yes** — same direction |
 
-So the corroboration is on the **direction and rank**, not the magnitude — do not read Nong's -5.8% and
+So the agreement is on the **direction and rank** (and probably shared-trial), not the magnitude — do not read Nong's -5.8% and
 Laverde's -9.9% as the same figure. And Nong grades lean mass at **moderate** certainty (fewer, larger
-trials) where Laverde graded its pooled absolute change **high** — the tension is comparator and trial
-constituency, not a real disagreement. Nong also names the same stratum this page centres: lean-mass loss
+trials) where Laverde graded its pooled absolute change **high** — the gap is trial constituency, not a
+real disagreement (corrected 2026-10-06: *comparator and trial constituency* -> trial set only; both are %
+lean-mass change against a placebo-arm/lifestyle reference; self-critique). Nong also names the same stratum this page centres: lean-mass loss
 is «an additional potential concern, particularly for older adults or those at risk of frailty», with
 guidelines recommending «structured aerobic and resistance exercise to help preserve muscle mass»
 [@nong2026obesity] — the defense this page
 already holds, reached independently from the class-comparison side. Full comparative appraisal
 -> [[Comparing Obesity Drugs]].
 [inferred from @nong2026obesity]
+
+</div>
 
 ## References

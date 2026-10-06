@@ -17,6 +17,7 @@ sources: [Alentorn-Geli - Running Hip Knee Osteoarthritis,
   Franz - Weight-Loss Outcomes 1-Year SR-MA 2007,
   Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017,
   Goh - Exercise Therapy Knee Osteoarthritis,
+  Goh - Exercise Types NMA Knee Hip OA,
   Gomez-Redondo - Supervised Unsupervised Exercise,
   Haugen - Free Weight vs Machine Strength Training 2023,
   Khalafi - Exercise Type CRF Postmenopausal,
@@ -37,11 +38,11 @@ sources: [Alentorn-Geli - Running Hip Knee Osteoarthritis,
   WHO - Physical Activity Web Annex Evidence Profiles 2020]
 confidence: low
 created: 2026-10-05
-updated: 2026-10-05
-self_critiqued: 2026-10-05
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-05
 ---
-<div class="recent-page" data-last-updated="2026-10-05"></div>
+<div class="recent-page" data-last-updated="2026-10-06"></div>
 
 
 > [!warning] Applies to a specific group
@@ -67,7 +68,7 @@ Plain numbers trace to the evidence; a † marks a practical choice the evidence
 
 | Session | What | How long, how often | How hard, and how measured |
 |---|---|---|---|
-| **Strength A and B** | 5-6 whole-body exercises†: leg press or sit-to-stand, hip hinge, push, pull, loaded carry. **2-3 sets each** (the third set is †). Machines or free weights. | 2x/week on non-consecutive days†, about 30-40 min† | Weeks 1-8†: moderate loads, below 80% of one-repetition maximum (1RM). Then build toward **heavy, above 80% 1RM**. Gauge†: early on, a weight you could lift about 12-15 times; heavy is roughly a weight you could lift no more than about 8 times. Stop 1-2 reps short of failure†. Log the load. |
+| **Strength A and B** | 5-6 whole-body exercises†: leg press or sit-to-stand, hip hinge, push, pull, loaded carry. **2-3 sets each** (the third set is †). Machines or free weights. | 2x/week on non-consecutive days†, about 30-40 min† | Weeks 1-8†: moderate loads. Then build toward **heavy**. **No maximum-lift test is needed†: set the load by reps.** Early on, aim for 12-15 reps per set; later, heavier loads for about 5-8 reps per set†. Stop 1-2 reps short of failure†. When you reach the top of the rep range with more than about 2 reps still in hand, add the smallest step next session†. Log the load. Trials label these loads as below and above 80% of a one-repetition maximum (1RM). A network meta-analysis of 178 strength trials converted rep maxima to %1RM as 100 minus 2.5 per rep, which puts an 8-rep maximum at 80% [@currier2023]. That is a coding rule, not a tested conversion; how much it varies by person or exercise is not known here |
 | **Moderate aerobic** | Brisk walking, stationary cycling, rowing or water exercise: whichever you will keep doing | **About 150 min/week**, e.g. 5 x 30 min or 3 x 50 min† | **About 50% of heart-rate reserve**: a brisk effort, breathing harder but still able to talk†. A heart-rate monitor using an age-estimated maximum is a rough check, not a requirement†. On a heart-rate-lowering drug such as a beta-blocker, go by perceived effort instead |
 | **Everyday movement** | More steps, less sitting, any intensity | Daily | Step count on a phone or tracker |
 | *Optional: intervals* | Swap one aerobic session for intervals | After 8-12 weeks† | Hard effort; not part of the minimum |
@@ -95,27 +96,44 @@ are observational associations. -> [[Physical Activity Dose and Mortality]]
 **Do the aerobic work at a moderate effort; intervals are optional.** For adults below 10 METs of
 fitness, about 50% of heart-rate reserve is enough for a gain of at least 1 MET; at 10-14 METs,
 65-85% is likely more effective [@ross2016],
-a step taken for more fitness, not one this program requires. In the trial closest to
-this reader, 300 adults with obesity, about 30 minutes five times a week for 24 weeks raised
-fitness by 9.4% [@ross2016].
+a step taken for more fitness, not one this program requires.
+
+The trial closest to this reader enrolled 300 adults with obesity. Its 73-person arm doing about 30
+minutes five times a week for 24 weeks raised fitness by roughly 8-9% (Ross's table gives 7.7%, its text 9.4%) [@ross2016].
 A pooled analysis of exercise in adults with obesity saw gains in the same direction but no statistically
 significant improvement [@odonoghue2020], so
 expect a modest rise. -> [[Measuring and Raising Cardiorespiratory Fitness]]
 
 **Pick the mode you will keep doing and are least likely to be hurt doing.** Aerobic, resistance and
-combined training each raised fitness in 129 studies of postmenopausal women
-[@khalafi2023].
-Across reviews, combined aerobic and resistance work ranks at or near the top, which makes it a
-defensible default. Stationary cycling matched other
+combined training each raised fitness in postmenopausal women, in an analysis of 35 training arms from
+25 studies [@khalafi2023]; the review did not test the
+modes against each other.
+
+In 103 trials of knee and hip osteoarthritis, every exercise type beat usual care on pain and function.
+Aerobic and mind-body exercise had the largest effects, but the single types were not shown to differ
+from one another. Programs mixing more than one type ranked last, and worse than aerobic or mind-body
+exercise for pain [@gohtypesnma]. That mixed group also took
+in trials that did not name a single exercise type, so it does not show that combining modes harms; for
+knee and hip osteoarthritis it gives no reason to expect a combined program to beat a single mode
+. The template pairs lifting with aerobic work because each serves a different
+outcome, not because the pair outranks either alone.
+
+**Joint-friendly modes work, and trials in heavier groups showed no smaller benefit.** Stationary cycling matched other
 exercise for knee osteoarthritis [@luan2020], and water
 exercise did at least as well as land exercise on balance and walking tests in older adults
-[@deng2024]. -> [[Is the Exercise Modality Doing Any Work]]
+[@deng2024]. In a companion pooled analysis of knee and hip
+osteoarthritis from the same research group, the pain benefit was no smaller in trials whose participants
+averaged a BMI of 30 or more (0.56 versus 0.46 standardized mean difference, P = 0.78)
+[@goh2019]; a trial-level comparison like this
+cannot rule out a difference. -> [[Is the Exercise Modality Doing Any Work]],
+[[Exercise Therapy for Osteoarthritis Pain and Function]]
 
 **Lift twice a week, two or more sets per exercise.** Across 178 strength trials, at least two sets or two
 sessions a week raised strength, and at least two sets and two sessions raised muscle size, each at 95%
 probability [@currier2023]. That is the lowest
 dose the analysis was confident about, not a measured optimum. Which program you pick matters less than
-starting one: every prescription beat no training, and many performed similarly
+starting one: every well-studied prescription beat no training, a few sparsely studied schemes were
+too imprecise to show it, and most programs could not be told apart from one another
 [@currier2023]. These trials enrolled healthy
 adults, not specifically adults with obesity. -> [[Resistance Training Prescription - Load Sets and Frequency]]
 
@@ -139,8 +157,8 @@ session, and the hard effort, not the interval format, drove the discomfort
 [@niven2020]. They suit someone short of time who tolerates
 hard effort; the minimum does not need them. -> [[Affective Response to High-Intensity Interval Exercise]]
 
-**Use exercise snacks as a way in, not a substitute.** Brief vigorous bouts, usually 1-2 minutes
-[@wan2025], raised VO2max
+**Use exercise snacks as a way in, not a substitute.** Brief vigorous bouts, lasting from about 20 seconds
+to 10 minutes in the 14 studies Wan reviewed [@wan2025], raised VO2max
 at very low certainty, and the authors judge it unlikely that inactive people will reach recommended
 levels through snacks alone [@wan2025]. How you split
 the week matters less than the weekly total: a weekend-warrior pattern carried a similar
@@ -183,9 +201,11 @@ only for knee strength) at the same 81% attendance as home programs
 [@gomezredondo2024], so a home program is a
 reasonable start. -> [[Chronic Pain and Physical Activity]]
 
-**A break does not reset you; stopping for good does.** Older adults were still ahead of untrained
-controls on function after layoffs of 4-36 weeks
-[@buendiaromero2025]. In knee osteoarthritis, though,
+**A planned break does not reset you; stopping for good does.** Older adults who stopped training for
+4-36 weeks (mean about 11), while carrying on with normal daily life, still scored ahead of
+non-exercising controls on function
+[@buendiaromero2025]. A layoff forced by illness, a fall
+or a hospital stay was not studied. In knee osteoarthritis, though,
 exercise benefits peaked at 2 months and were no better than usual care by 9-18 months
 [@goh2019]; the authors suggest the fade may partly
 reflect poor adherence. -> [[Detraining and Residual Effects in Older Adults]]
@@ -268,9 +288,9 @@ injury, adherence and detraining detail sits in [[Tendon Adaptation to Mechanica
 > | | |
 > |---|---|
 > | **Question** | 'For a median obese, sedentary, untrained, inactive middle-aged adult in a developed country whose objectives are quality of life, functional capacity, and a function-held-then-rapid-decline trajectory (the centenary decathlon): what does the evidence show about aerobic AND resistance training, as co-led questions, for cardiorespiratory fitness, strength, and function together; what is the SIMPLEST weekly program that could plausibly be adequate — the minimum that could work — if a dose threshold is even the right framing, across acquisition and maintenance, accounting for modality, frequency / volume / intensity and measurement, adherence, connective-tissue conditioning, injury, impact, and compensation?' |
-> | **Evidence included** | 32 sources — 27 gold, 4 high, 1 moderate |
+> | **Evidence included** | 33 sources — 28 gold, 4 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Ross (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-05 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
 
 ## References

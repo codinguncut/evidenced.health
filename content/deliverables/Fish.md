@@ -10,7 +10,6 @@ updated: 2026-10-03
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 This is a general, population-level appraisal of what the evidence says about eating fish for anyone the
 studies speak to. It is not advice for one person; whether and which fish *you* should eat depends on
@@ -26,10 +25,6 @@ changes an outcome is almost never *eat fish or not*; it is *which fish*. And th
 softer than the public consensus implies: it is essentially all observational, the graded pooled
 magnitudes reach only moderate certainty, and for a healthy replete adult fish is a **pebble, not a big
 rock**.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## How good is the evidence — read this first
 
@@ -56,10 +51,6 @@ Jayedi meets EFSA as a type-F refinement plus shared-data corroboration, not as 
 backing. Jayedi re-pools the same cohort literature EFSA's four CHD meta-analyses drew on and rests on
 the identical EPA/DHA mechanism, so its agreement raises detail and certainty, not independence. The
 observational ceiling binds both.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The benefit side — narrower than "fish is good for you"
 
@@ -123,8 +114,6 @@ downward for all-cause and total CVD mortality -> [[The U-Shaped Association Art
 default — keep the \~1-2 servings/week target — is unchanged: more buys little on CHD mortality but may
 still help all-cause.
 
-</div>
-
 ## Fetal neurodevelopment — a repletion lever
 
 Maternal fish consumption tracks with a smarter child. Two large cohorts — ALSPAC (\~12,000) and the
@@ -146,8 +135,6 @@ maternal requirements are met.»* [@efsaseafood2014]
 The IQ lever therefore works for a mother whose DHA and iodine are low, and does nothing once her status
 is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational food signal survives while the
 isolate RCT is null — a design story, not proof the food beats the nutrient.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Cognitive decline and dementia — where the dietary and supplement evidence part ways
 
@@ -198,8 +185,6 @@ upper edge of the observed intake range.
 data thin out, not a located optimum -> [[The Underivable Optimum]].
 
 [inferred from @wei2023omega3]
-
-</div>
 
 ## The benefit is measured net of the mercury
 
@@ -291,8 +276,6 @@ mercury — the best long-term intake marker — and CVD, and the 2018 AHA state
 benefits of 1-2 servings/wk... outweigh the potential risks associated with mercury content of fish»*.
 [@jayedi2020fish]
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Origin — freshwater vs marine, wild vs farmed
 
 Where the fish comes from changes the exposure, though not always the outcome. The omega-3 food chain
@@ -326,8 +309,6 @@ evidence that the difference changes a patient-important outcome. State the dire
 
 [inferred from @efsaseafood2014]
 
-</div>
-
 ## The stratum flip — the crown-jewel weighing
 
 The balance is not the same for everyone, and the axis it turns on is stratum by species, not a blanket
@@ -350,8 +331,6 @@ the sensitive stratum cares about most
 -> [[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]].
 
 [inferred from @efsaseafood2014]
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Fish versus fish-oil supplements — is the food the same as the isolate?
 
@@ -410,8 +389,6 @@ section above).
 
 [inferred from @manson2019n3; @bhatt2019]
 
-</div>
-
 ## Where fish sits in the ranking — a pebble
 
 For the general replete adult, fish is a pebble, not a big rock. The adult CHD-mortality benefit is
@@ -428,8 +405,6 @@ should do next. The large levers are elsewhere. Fish earns a place on the list o
 handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What the evidence here cannot yet answer
 
@@ -476,7 +451,5 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
-
-</div>
 
 ## References

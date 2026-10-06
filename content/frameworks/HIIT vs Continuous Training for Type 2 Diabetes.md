@@ -1,6 +1,6 @@
 ---
 type: framework
-question: For someone with type 2 diabetes who will do supervised aerobic exercise, does high-intensity interval training (HIIT) beat moderate-intensity continuous training (MICT) on glycemic control and fitness?
+question: For someone with type 2 diabetes who will do structured aerobic exercise, does high-intensity interval training (HIIT) beat moderate-intensity continuous training (MICT) on glycemic control and fitness?
 aliases: [HIIT vs MICT Type 2 Diabetes, Interval Training Type 2 Diabetes, HIIT Glycemic Control Diabetes]
 authors: [Liu, Jing-xin; Zhu, Lin; Li, Pei-jun; Li, Ning; Xu, Yan-bing]
 sources: [Liu - HIIT Glycemic Control Type 2 Diabetes 2019]
@@ -17,9 +17,10 @@ relationships:
     - Surrogate Outcomes
 confidence: low
 created: 2026-09-24
-updated: 2026-10-04
-self_critiqued: 2026-09-24
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 **The decision this page answers.** This is a *substitution* question, not an add-vs-nothing one. The
 person is going to do aerobic exercise; the choice is the *modality* — high-intensity interval training
@@ -28,13 +29,18 @@ that matters is HIIT **minus MICT**, not HIIT minus rest. (Whether to exercise a
 larger decision settled elsewhere — see [[Physical Activity Dose and Mortality]].)
 
 **The headline is narrower than the title.** Liu 2019 is a gold meta-analysis of **13 RCTs, 345
-participants** (163, 47.2%, in HIIT arms) in adults with T2D; HIIT protocols ran 11-16 weeks, 2-5x/week
+participants** (163, 47.2%, in HIIT arms) in people with T2D (mostly middle-aged/older adults; one
+trial, Lee 2015, in adolescents, mean age 15); HIIT protocols ran 11-16 weeks, 2-5x/week
 (median 3) [@liu2019hiit]. The paper is titled
 for glycemic control, but its **only moderate-certainty finding is fitness**, not glucose:
 «The principal finding of the current meta-analysis was that HIIT was more efficient than MICT in
 increasing ­VO2peak in T2D patients; they also found that reduction of BMI, body weight, and HbA1c (%)
 was less conclusive because of low quality of the evidence.»
 [@liu2019hiit]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The effect table — HIIT vs MICT, with certainty
 
@@ -50,13 +56,13 @@ of the *vs-MICT* comparison [@liu2019hiit].
 | Body weight | -1.22 kg [-2.23, -0.18] | 8 | 0% | low | HIIT better |
 | BMI | -0.40 kg/m2 [-0.78, -0.02] | 8 | 0% | low | HIIT better |
 | LDL cholesterol | -0.25 mmol/L [-0.46, -0.04] | 6 | 0% | very low | HIIT better |
-| Fasting glucose | +0.10 [-0.84, 0.65] | 8 | 0% | low | no difference |
-| Fasting insulin | SMD -0.19 [-0.58, 0.20] | 4 | 0% | low | no difference |
-| HOMA-IR | +0.13 [-0.10, 0.36] | 6 | 0% | very low | no difference |
+| Fasting glucose | +0.10 [-0.84, 0.65] | 8 | 0% | low | not significant (wide CI) |
+| Fasting insulin | SMD -0.19 [-0.58, 0.20] | 4 | 0% | low | not significant (wide CI) |
+| HOMA-IR | +0.13 [-0.10, 0.36] | 6 | 0% | very low | not significant (wide CI) |
 | Total cholesterol | -0.18 [-0.44, 0.07] | 7 | 0% | low | no difference |
 | HDL cholesterol | -0.04 [-0.10, 0.02] | 9 | 0% | very low | no difference |
 | Body fat % | -0.50 [-1.18, 0.19] | 5 | 0% | very low | no difference |
-| Waist circumference | -0.15 [-1.21, 0.91] | 6 | 0% | very low | no difference |
+| Waist circumference | -0.15 [-1.21, 0.91] | 6 | 0% | low | no difference |
 
 **What survives the certainty grading.** Only **cardiorespiratory fitness** clears moderate certainty
 (rated up for a large effect, down for inconsistency and imprecision). Everything else is low or very
@@ -67,19 +73,32 @@ T2D, preferable to MICT», while «Results related to other parameters associate
 T2D, such as HbA1c, body weight, and BMI, were not conclusive.»
 [@liu2019hiit]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The glycemic finding is a low-certainty point estimate — and contested
 
 The HbA1c advantage (-0.37% vs MICT) is the only glucose-family signal; **fasting glucose, fasting
-insulin, and HOMA-IR all show no HIIT-over-MICT difference** (table above). A modality that lowered
-HbA1c through better glucose handling would be expected to move at least one of those, so the isolated
-HbA1c point estimate should be read cautiously.
+insulin, and HOMA-IR show no significant HIIT-over-MICT difference** (table above), with CIs too wide to
+exclude one — so the HbA1c signal is *unsupported* by the other glucose markers rather than contradicted
+by them, and the isolated point estimate should be read cautiously. Liu attributes the
+discordance partly to measurement and baseline: «The inconsistent results could partly be explained by
+the difference among methods used to measure insulin sensitivity, as well as the difference in the
+baseline of glycemic control.» [@liu2019hiit]
 
 Liu flags the contest directly: «HIIT showed a 0.37% greater reduction of HbA1c than MICT... This is
 inconsistent with the findings of a meta-analysis conducted by Jelleyman et al.», which found HIIT
 reduced HbA1c but with **no significant difference versus continuous training**
 [@liu2019hiit]. That prior MA is not held here — but the within-literature disagreement on
 the very finding the title emphasizes is itself the honest read: the HIIT-over-MICT glycemic edge is
-**not settled**, and one gold MA against it already exists.
+**not settled**, and an earlier (2015) MA in a broader diabetes + metabolic-syndrome population found no
+significant HIIT-vs-continuous HbA1c difference (unheld; quality and trial overlap unverified)
+(corrected 2026-10-06: *one gold MA against it* -> unheld, broader-population MA; self-critique).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## HbA1c is a surrogate — do not read a hard-outcome benefit off this MA
 
@@ -92,22 +111,36 @@ related to diabetes can be reduced by 21%» [@liu2019hiit]. Two cautions before 
   linear read would imply roughly a **tenth** of those figures, and only *if* the surrogate transmits
   and *if* the point estimate is real (it is low-certainty and contested, above).
 - Surrogate transmission is itself an evidenced claim, not an assumption — and here it is borrowed from
-  UKPDS, a *glucose-lowering-drug* trial, not an exercise-modality trial. Whether a fitness-driven
-  HbA1c change carries the same prognosis is untested by this evidence.
+  UKPDS 35, a prospective observational analysis of glycaemia vs complications (not an intervention
+  contrast, and not an exercise trial) (corrected 2026-10-06: was *a glucose-lowering-drug trial*;
+  self-critique). Whether a fitness-driven HbA1c change carries the same prognosis is untested by this
+  evidence.
 
-The load-bearing benefit that *does* have a prognostic anchor is the fitness gain, not the HbA1c gain:
-higher VO2peak is robustly tied to lower mortality (see [[Cardiorespiratory Fitness and Mortality]]),
-and CRF is the one outcome here at moderate certainty.
+The better-anchored surrogate is fitness: the VO2peak difference is moderate-certainty, and CRF has a
+strong observational mortality gradient (see [[Cardiorespiratory Fitness and Mortality]]). Whether a
+training-induced VO2peak gain transmits to mortality is, like HbA1c, not tested by this MA — Liu treats
+both as predictors: «Both VO2peak and HbA1c are important predictors» of CV events
+[@liu2019hiit].
+(corrected 2026-10-06: was *the load-bearing benefit ... at moderate certainty*, fusing the between-arm
+GRADE with an ungraded transmission; self-critique)
 
-<div class="recent-update" data-last-updated="2026-10-04">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Adherence, safety, and net effect — the substitution caveats
 
 **Adherence is part of the effect** (see the schema's Layer-3 rule): a harder protocol abandoned loses
-to an easier one sustained. This MA cannot speak to it. Trials were **short (11-16 weeks) and
-supervised**; the only compliance proxy is per-trial dropouts (0-10 per arm, Table 1), and there is
+to an easier one sustained. This MA cannot speak to it. Trials were **short (11-16 weeks)**, and the MA
+does not systematically report supervision (the only included trial it describes as supervised is Støa
+2017, ref 15 — corrected 2026-10-06: was *the Stoa background trial*; self-critique); the only compliance proxy is per-trial dropouts (0-10 per arm, Table 1), and there is
 **no free-living or long-term adherence data**. HIIT's real-world edge or deficit versus MICT over years
-is unmeasured. What *is* held is the affective precursor: [[Affective Response to High-Intensity Interval Exercise]] (Niven 2020) finds higher-intensity work felt as less pleasant
+is unmeasured.
+[inferred from @liu2019hiit]
+(corrected
+2026-10-06: *supervised* dropped as a property of the included trials, here and in `question:`; the only
+hit is Støa 2017, an included trial) What *is* held is the affective precursor:
+[[Affective Response to High-Intensity Interval Exercise]] (Niven 2020) finds higher-intensity work felt as less pleasant
 in-task than moderate continuous work — an adherence hazard whose behavioural consequence is still
 unproven, and which tracks intensity rather than the interval format.
 
@@ -125,16 +158,21 @@ time-efficiency case is plausible and stated, not demonstrated here.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Where this sits in the T2D lever stack
 
 For a person with T2D, the big rocks are weight loss, dietary pattern, and getting *any* activity at all
 (see [[Diets for Weight Management in Type 2 Diabetes]], [[Carbohydrate Restriction and Type 2 Diabetes Remission]], [[Lifestyle vs Metformin for Diabetes Prevention]]). Modality choice within aerobic
 exercise is a **refinement below those** — a Layer-1 small lever by construction once the person is
 already exercising. What Liu adds at the margin: if the person is choosing between interval and
-continuous work *and cares about fitness* (a moderate-certainty mortality-linked outcome), HIIT is the
+continuous work *and cares about fitness* (a moderate-certainty fitness gain — a surrogate with a strong observational
+mortality gradient), HIIT is the
 better bet; if the goal is glycemic control specifically, the modality difference is low-certainty and
 contested, so pick on preference, tolerability, and sustainability rather than on an expected HbA1c
 edge.
+
+</div>
 
 ## Independence note
 

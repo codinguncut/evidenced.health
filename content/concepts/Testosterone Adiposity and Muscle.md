@@ -17,8 +17,8 @@ relationships:
     - Menopause and the Shifting Levers
     - Hormone Therapy After Menopause
 created: 2026-08-01
-updated: 2026-08-08
-self_critiqued: 2026-08-08
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **The endocrine-muscle facet of the `weight-management` cluster** (orbits the
@@ -35,17 +35,22 @@ Three limbs, four sources (a meta-analysis, an umbrella review, and two RCTs), o
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The surrogate at the centre
 
 Testosterone declines with age and is suppressed by adiposity, and it is easy to measure — so it is the
 quantity everyone acts on. But T is a marker on the causal chain, not the endpoint. This page holds it to
 the same discipline as LDL or blood pressure -> [[Surrogate Outcomes]]: a marker earns a *target* only if
 its transmission to a named patient-important outcome is itself evidenced. For the muscle/bone endpoints,
-the T->outcome chain **fails that test in the hardest possible way** (limb 3: bone density rose while
-fractures rose). For the CV endpoint the RCT shows **safety, not benefit**. So raising T is licensed
+the T->outcome chain **fails that test** (limb 3: prior trials showed bone density rising; the large
+outcome trial, which did not measure BMD, found fractures numerically higher — a cross-trial
+juxtaposition, not a within-trial inversion; corrected 2026-10-06, self-critique). For the CV endpoint the RCT shows **safety, not benefit**. So raising T is licensed
 narrowly, and the real levers on the outcomes are adiposity reduction and resistance training.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limb 1 — adiposity suppresses testosterone, and weight loss reverses it
 
@@ -65,7 +70,11 @@ The determinant is the weight lost, not the method: «Multiple regression analys
 body weight loss is the best determinant of TT rise (BZ2.50G0.98, PZ0.029)»
 [@corona2013] — bariatric surgery
 wins only because it removes more weight (32% vs \~9.8% of body weight). The androgen rise is larger in
-younger, non-diabetic, more-obese men and those with higher baseline T.
+younger, non-diabetic, more-obese men and those with higher baseline T — though Corona notes «this could
+be due to a greater body weight loss», and with baseline TT, BMI and D-BMI as covariates «only D-BMI
+retained a significant association» with D-TT
+[@corona2013], so these are likely
+proxies for weight lost, not independent effect modifiers.
 
 **The mechanism names why this is central and not incidental.** Obesity-related male hypogonadism is
 **secondary (central), not testicular**: «obesity-related male hypogonadism is now considered as a form of
@@ -102,6 +111,7 @@ the number directly.
   (Bayer Schering Pharma) — noted, not weighted; the finding is a within-subject before/after effect
   robust across 24 studies.
 
+</div>
 
 ## Limb 2 — testosterone therapy builds muscle *mass*, but function lags and it is a surrogate
 
@@ -132,11 +142,13 @@ participants; the body text reports 28,046 (both give 11 SRs / 121 unique RCTs).
 discrepancy; the \~20,846 headline is used and the conflict flagged, not resolved.
 
 
-## Limb 3 — the hard outcomes: cardiovascular SAFETY (not benefit), and fractures UP
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Limb 3 — the hard outcomes: cardiovascular SAFETY (not benefit), and fractures numerically UP
 
 
 
-This is where the surrogate story is refuted by the outcomes, and both come from the **same trial family**
+This is where the surrogate story fails to carry through to the outcomes, and both come from the **same trial family**
 (TRAVERSE), so they are one evidence base read on two endpoints — not independent confirmations.
 
 ### Cardiovascular: non-inferior — a safety clearance, not a benefit
@@ -156,13 +168,17 @@ acute kidney injury, and of pulmonary embolism was observed in the testosterone 
 2.3% vs 1.5%; PE 0.9% vs 0.5%). The trial's own framing is the decision anchor: «because testosterone
 deficiency is not a life-threatening condition, uncertainty about cardiovascular outcomes has weighed on
 treatment decisions» [@lincoff2023traverse]. A
-modified-ITT design (analysing men who took >=1 dose) biases *toward* noninferiority — acknowledged in
-source.
+modified-ITT design (analysing men who took >=1 dose) «may attenuate differences between trial groups»
+and bias toward noninferiority under non-adherence — acknowledged in source, which reports «Similar
+findings were observed in sensitivity analyses in which data on events were censored at various times
+after discontinuation of testosterone or placebo»
+[@lincoff2023traverse].
 
-### Fractures: the surrogate inverted — BMD up, fractures UP
+### Fractures: BMD up in earlier trials, fractures numerically up in TRAVERSE
 
 [@snyder2024]
-The TRAVERSE bone substudy is a striking refutation of a surrogate by its outcome. Prior trials had
+The TRAVERSE bone substudy is a striking challenge to the surrogate's expected payoff (across trials, not
+within one). Prior trials had
 shown T raises bone density — «Testosterone treatment in men with hypogonadism improves bone density and
 quality, but trials with a sufficiently large sample and a sufficiently long duration to determine the
 effect of testosterone on the incidence of fractures are needed.»
@@ -187,8 +203,12 @@ secondary-endpoint CIs cross 1). So this is a directional, unadjusted increase i
 concerning signal that refutes the expected *benefit*, not a settled fracture harm.
  Bone density is exactly the surrogate GRADE names as *proximate* to fractures (rate down only one
 level) — the wiki's methodology point, not from Snyder (corrected 2026-08-08); here the proximate, credentialed
-surrogate moved the "right" way while the patient-important outcome moved the wrong way -> [[Surrogate Outcomes]]. Mechanism is unknown (bone density/structure were not measured in
-this trial; falls and risk-taking were not assessed).
+surrogate moved the "right" way in earlier trials while the patient-important outcome moved the wrong way
+in this one — a cross-trial juxtaposition, not a within-trial measurement -> [[Surrogate Outcomes]].
+Mechanism is unknown: «Bone density and structure were not evaluated, so the effect of testosterone on
+these measures cannot be compared with the results in previous studies»
+[@snyder2024]; falls and risk-taking were not
+assessed.
 
 **Independence note (strict):** TRAVERSE-CV (Lincoff) and the fracture substudy (Snyder) are the **same
 trial**, and the umbrella's CV-safety conclusion pools meta-analyses (e.g. Jaiswal 2024) that plausibly
@@ -197,6 +217,9 @@ independent replication** — no `[E-independent]` is claimed. The genuinely sep
 Corona (a different intervention on a different limb) and the *fracture* endpoint (measured nowhere else
 here).
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Synthesis — the axis, read by outcomes
 
@@ -216,7 +239,7 @@ Line up the three limbs against the outcome menu and the T number stops being th
 in an older or obese man, the lifestyle levers **lead** the hormone on the outcomes that matter (function,
 fractures, survival — muscle *mass* is itself a surrogate): resistance training is the established driver of
 strength and carries no fracture/AFib signal, and losing visceral fat restores T naturally *and* moves
-liver, glycaemia and blood pressure. TRT buys a surrogate (mass) plus a fracture harm, with no mortality
+liver, glycaemia and blood pressure. TRT buys a surrogate (mass) plus a fracture *signal* (numerically higher, unadjusted CIs), with no mortality
 benefit shown and function gains that do not reliably translate. **This is a synthesis across the umbrella
 and the held resistance-training pages, NOT a head-to-head trial** — see the guard below.
 
@@ -237,6 +260,9 @@ separately, and the lifestyle one carries the proven-driver status **without** T
 signals — an evidence-weighting judgment, appropriately, that a head-to-head trial could still
 overturn.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -245,7 +271,7 @@ overturn.
   *structural leverage over point-optimization* (Layer 1).
 - **TRT is a narrow option, not a general anabolic or anti-ageing move.** On the best evidence it improves
   body composition in carefully selected men with *confirmed* hypogonadism; it does not reliably improve
-  physical function, shows no mortality benefit (the safety trial was not powered for it), and in TRAVERSE
+  physical function, shows no mortality benefit (the safety trial was not powered for it — it was powered on MACE noninferiority), and in TRAVERSE
   fractures were *numerically higher* (primary-endpoint HR 1.43, unadjusted CIs — a signal, not a settled harm; corrected 2026-08-08)
   and it added AFib/AKI/PE while being CV-non-inferior. The heavy marketing of testosterone optimization runs inversely
   to its measured outcome benefit (*attention is an anti-signal*).
@@ -255,8 +281,9 @@ overturn.
 - **Out of scope (appraise, do not prescribe):** who is a candidate for TRT, dosing, monitoring
   hematocrit/PSA, managing the AFib/PE/AKI risks — prescriber acts needing this person's labs and history.
 
+</div>
 
-
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits and gaps
 
@@ -269,9 +296,15 @@ overturn.
 - **Function and trajectory under-measured.** Every source grades muscle *mass* well and physical
   *function* poorly (the [[Surrogate Outcomes]] streetlight effect on the outcome side); the outcome a
   person most wants — sustained independence, compressed decline — is the least measured.
-- **No muscle-preserving-weight-loss trial in the elderly** — the trade-off between fat loss and lean/bone
-  loss in older adults is reasoned from mechanism, not measured (`type-G`, also flagged in
-  [[Big Rocks (Elderly)]]).
+- **Muscle-preserving weight loss in the elderly — now partly measured, still surrogate-only.** The
+  lean-mass side of the fat-loss trade-off is now held: in obese older adults, adding resistance training
+  to caloric restriction preserved \~0.82 kg lean mass without changing fat or weight loss
+  -> [[Resistance Training During Caloric Restriction]] (Sardeli; one MA of 6 RCTs, lean mass a
+  surrogate, function under-powered), and RT alone without a deficit is held for sarcopenic obesity
+  -> [[Resistance Training for Sarcopenic Obesity]] (Polo-Ferrero; a different decision — no weight loss).
+  What stays unmeasured is the **bone** side and patient-important function/independence under
+  deliberate weight loss (`type-G`, also flagged in [[Big Rocks (Elderly)]])
+.
 - **Sarcopenia is now a held page** -> [[Sarcopenia Definition and Diagnosis]]. EWGSOP2 (the consensus
   the umbrella cites) resolves the mass-vs-function split limb 2 surfaces in the *opposite* order to the
   older definition: low muscle **strength** is now the primary criterion, low muscle **mass** only
@@ -281,9 +314,11 @@ overturn.
   parameter, not the primary one. Mass is the surrogate; strength is closer to the outcome
   -> [[Surrogate Outcomes]]. (That demoted mass parameter still *independently predicts mortality* —
   [[Low Muscle Mass and Mortality]] — so TRT-driven lean-mass gain moves a marker that tracks a hard
-  outcome; but predictor is not target, and TRT's own outcome record is the fracture *increase* above,
+  outcome; but predictor is not target, and TRT's own outcome record is the fracture *signal* above (numerically higher, unadjusted CIs),
   not a mortality benefit.)
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here
   checks a recommendation against a realized outcome.
+
+</div>
 
 ## References

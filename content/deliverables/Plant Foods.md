@@ -3,12 +3,12 @@ type: deliverable
 title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
-authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna; Peng, Yinshun; Zhou, Yuhan; Mazidi, Mohsen; Sesso, Howard D; Chung, Mei; Norouzzadeh, Mostafa; Siervo, Mario]
-sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Chung - Tea Consumption Cardiovascular Dose-Response 2020, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, Mazidi - Flavonoid Intake and Mortality 2020, NNR - Nordic Nutrition Recommendations 2023, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
+authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna; Peng, Yinshun; Zhou, Yuhan; Mazidi, Mohsen; Sesso, Howard D; Chung, Mei; Norouzzadeh, Mostafa; Siervo, Mario; European Food Safety Authority (org)]
+sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Chung - Tea Consumption Cardiovascular Dose-Response 2020, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, Mazidi - Flavonoid Intake and Mortality 2020, NNR - Nordic Nutrition Recommendations 2023, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, EFSA - Dietary Sugars Upper Intake Level 2022, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
 confidence: low
 created: 2026-07-30
 updated: 2026-10-03
-self_critiqued: 2026-10-03
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-03
 ---
 
@@ -32,8 +32,6 @@ juice and sugary drinks, not the fruit bowl.
 **For someone already eating varied whole plant foods, the choice of plant food is a refinement, not a
 big lever.** The levers with room to move are getting fibre up toward the target and cutting free
 sugars — both reachable many ways.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Most of the evidence is about a pattern, not a single food
 
@@ -83,10 +81,6 @@ real feature. Such an arm has to survive an artifact check before it earns a pla
 
 With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
 and where it simply cannot single out any one food.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## What each plant group does, outcome by outcome
 
@@ -341,10 +335,6 @@ BP alone this is a small marginal rock behind a mature drug.
 That is the benefit side. The rest of the plant-food question is two worries — antinutrients and fruit
 sugar — and both shrink under the same isolate lens.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The antinutrient scare is mostly mis-scaled — with named exceptions
 
 The alarming antinutrient studies share a design. They dose an **isolated compound** — a purified
@@ -411,7 +401,7 @@ soaking-and-cooking step that lowers the toxicity worry also raises protein qual
 
 The other worry is sugar — specifically, whether the sugar in fruit is a problem.
 
-</div>
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Whole fruit is not a sugar problem
 
@@ -421,12 +411,16 @@ intrinsic sugar inside intact fruit and includes the sugar in fruit juice**
 juice sits inside it. A blanket "cut sugar" instruction loses the one distinction that matters here.
 See [[Free Sugars Intake]].
 
-The reason is a **dose-and-form story, not a sugar-content one**. A large free-fructose bolus — from
-sugar-sweetened drinks, fruit juice, or high-fructose corn syrup — drives fat synthesis in the liver
-(hepatic de novo lipogenesis, the MASLD-relevant harm). Whole fruit delivers a modest fructose dose
-wrapped in a fibre matrix that slows absorption and blunts that hepatic flux. So a fruit's
-sugar-to-fibre ratio does not decide its outcome — **the matrix does**. The lever is cutting free
-fructose in beverages, not avoiding whole fruit.
+The reason is a **dose-and-form story, not a sugar-content one**. Fructose feeds fat synthesis in the
+liver (hepatic de novo lipogenesis), so a large free-fructose bolus — from sugar-sweetened drinks, fruit
+juice, or high-fructose corn syrup — points toward liver-fat harm; that is a mechanism, not a measured
+outcome. In controlled-feeding trials, fructose raised liver fat when it added extra calories (low-strength
+evidence); at equal calories it was not shown to do worse than glucose, and the trials were short, small and used loads above
+current intakes [@chung2014].
+So a fructose-specific liver harm is not shown either way. Whole fruit delivers a modest fructose dose
+in a fibre matrix, and its fibre, water and filling bulk cap how much anyone can eat. So a fruit's
+sugar-to-fibre ratio does not decide its outcome — **the matrix and the achievable dose do**. The lever
+is cutting the extra liquid calories in sugary drinks and juice, not avoiding whole fruit.
 
 -> [[Fatty Liver MASLD and Weight Loss]]
 
@@ -441,13 +435,16 @@ stratum, not the population: the already insulin-resistant, where postprandial e
 management finding, not a general-diet lever. See [[Surrogate Outcomes]],
 [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
 
-Fruit juice is the honest complication, and it splits by outcome. On the metabolic, hepatic, and
-dental channel, juice sits **inside** the harmful free-sugar exposure — the same free-fructose bolus,
-plus caries.
+Fruit juice is the honest complication, and it splits by outcome. On the metabolic and dental
+channel, juice sits **inside** the free-sugar exposure: EFSA grades fruit juice -> type 2 diabetes and
+gout at moderate certainty, and -> obesity at very low certainty
+[@efsasugars2022].
 
 Yet on cardiovascular endpoints, Aune's cohort evidence found juice **inversely**
 associated with stroke (high-vs-low RR 0.67 [0.60-0.76]; per-100 g 0.72 [0.63-0.83]) and CHD
-(high-vs-low 0.79 [0.63-0.98]) [@aune2017fv].
+(high-vs-low 0.79 [0.63-0.98]) — two studies per high-vs-low contrast, and the CHD dose-response
+across three studies is null (per 100 g/d 0.93, 0.80-1.08)
+[@aune2017fv].
 Both readings hold once you match the outcome axis, so this is a distinction, not a contradiction.
 **Do not read juice as uniformly fine** — its free-sugar load still dominates the metabolic channel.
 And the robust processing signal in these data is whole-versus-processed, not fruit-versus-juice:
@@ -462,6 +459,8 @@ studies, wide intervals) to rank one fruit against another on outcomes
 whole fruit from processed forms, not one fruit from the next.
 
 So how much does any of this matter, set against the big levers?
+
+</div>
 
 ## Where plant-food choice sits on your list of levers
 
@@ -504,7 +503,7 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What to do
 
@@ -532,9 +531,9 @@ event benefit.
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 24 sources — 19 gold, 3 high, 1 moderate |
+> | **Evidence included** | 26 sources — 21 gold, 3 high, 1 moderate, 1 method |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Petroski (narrative review, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
 
 </div>

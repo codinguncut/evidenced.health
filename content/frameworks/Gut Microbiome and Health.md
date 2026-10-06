@@ -20,7 +20,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - What a Trustworthy Systematic Review Requires
 created: 2026-07-29
-updated: 2026-09-24
+updated: 2026-10-06
 self_critiqued: 2026-09-16
 ---
 
@@ -53,6 +53,8 @@ surrogate that earns belief only when followed through to an outcome ([[Surrogat
 done right is [[Non-Sugar Sweeteners]] (Suez 2022): it did not stop at a microbiome shift — it followed
 through to glucose tolerance and proved cause by transplanting the bacteria into germ-free mice.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## What actually moves the microbiome: diet, and mostly fibre
 
 The dominant modifiable lever is diet, and within diet, **fermentable fibre**: gut bacteria ferment it into
@@ -78,8 +80,9 @@ prebiotic one — corrected 2026-08-08.)
 Valdes's claim that microbial diversity «tracks fibre intake» is a *long-term observational association*.
 The Wastyk 2021 RCT [[Fermented Foods and Health]] supplies a short-term interventional test that
 **refines it**: over a 10-week head-to-head, the high-fermented-foods arm steadily raised alpha
-diversity while the high-fibre arm showed «no cohort-wide microbiota diversity increase»
-[@wastyk2021].
+diversity while in the high-fibre arm alpha diversity «did not change cohort-wide over the course of
+the intervention» [@wastyk2021]
+(corrected 2026-10-06: non-verbatim span re-lifted via cite.py).
 
 This is **not** a contradiction of Valdes (different scope/horizon — a long-term association vs a
 10-week intervention; the not-joined check fires on horizon, so it is a distinction). Wastyk's own
@@ -90,6 +93,8 @@ foods were the more reliable lever — an *indirect* remodeling of the resident 
 colonization by eaten microbes. The prebiotic (fibre-feeds-resident) and probiotic
 (fermented-adds-microbes) routes are genuinely distinct, and both are surrogate-level here.
 [inferred from @wastyk2021]
+
+</div>
 
 ## Probiotics: strain- and indication-specific, NOT a general tonic
 

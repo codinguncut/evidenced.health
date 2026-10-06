@@ -21,8 +21,8 @@ relationships:
     - Rating Outcome Importance
     - Aquatic Exercise vs Land-Based Exercise for Balance in Older Adults
 created: 2026-08-05
-updated: 2026-10-04
-self_critiqued: 2026-09-09
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The nucleus of the **falls / fracture-prevention** cluster — a large, high-lever, patient-important
@@ -30,6 +30,8 @@ outcome for the older stratum that was previously a named-but-empty gap. Falls a
 at least one-third of community-dwelling people over 65 fall each year, and fall-related fracture
 (hip above all) is a direct driver of loss of independence and death. Source: one gold-tier Cochrane
 SR, 108 RCTs / 23,407 participants, mean age 76 [@sherrington2019].
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The headline — exercise prevents falls, and this is HIGH-certainty
 
@@ -44,9 +46,16 @@ Exercise (all types) versus a control not thought to reduce falls
 
 This is a rare thing in this wiki's domain: a **HIGH-certainty, RCT-based, patient-important-outcome**
 effect. Falls are directly observed and hard to game, exercise-vs-control is randomisable, and removing
-the high-risk-of-bias trials left the result essentially unchanged (so non-blinding did not downgrade it)
-[@sherrington2019]. Contrast the physical-activity
+the high-risk-of-bias trials left the result essentially unchanged, so it was not downgraded for risk of
+bias: «There was no downgrading, including for risk of bias, as results were essentially unchanged with
+removal of the trials with a high risk of bias on one or more items.»
+[@sherrington2019] (corrected 2026-10-06: *so
+non-blinding did not downgrade it* -> the source's risk-of-bias wording; self-critique). Contrast the physical-activity
 *mortality* evidence, which is observational and far softer -> [[Physical Activity Dose and Mortality]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Which exercise — the decision is NOT *exercise*, it is *balance*
 
@@ -63,12 +72,14 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
 | Flexibility / endurance | no trials vs control | — | unstudied (not *no effect*) |
 
 - **The active ingredient is safely challenging balance**, not exercise volume as such. The authors'
-  earlier metaregression and an independent network meta-analysis (Tricco 2017) converge on this
+  earlier metaregression and a separate network meta-analysis (Tricco 2017, overlapping trials) converge on this
   [@sherrington2019]. «Exercise programmes that reduce
   falls primarily involve balance and functional exercises, while programmes that probably reduce falls
   include multiple exercise categories (typically balance and functional exercises plus resistance
   exercises).» [@sherrington2019]
-- **Resistance training alone does not reduce falls** here — its point estimate sits *above* 1. This is
+- **Resistance training alone has not been shown to reduce falls** (very low certainty, 5 small RCTs, RaR
+  1.14, CI 0.67-1.97 — compatible with benefit or harm; insufficient evidence, not a null; corrected
+  2026-10-06 from *does not reduce falls*; self-critique). This is
   not a contradiction of resistance training's independent mortality/diabetes signal
   ([[Muscle-Strengthening Activity and Mortality]]) or its role in defending muscle
   ([[Protein and Resistance Training for Muscle and Strength]]): different outcome, different mechanism.
@@ -78,7 +89,7 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
     [[Power Training and Physical Function in Older Adults]] (el Hadouchi 2022, gold SR+MA) finds that
     velocity/power emphasis beats heavy-load strength emphasis on exactly the functional-performance
     tests that predict fall risk (chair rise, gait speed, TUG; generic-function SMD 0.43, GRADE HIGH).
-    That MA measured function tests, **not falls** — so it does not contradict the RT-alone-falls null
+    That MA measured function tests, **not falls** — so it does not bear on the RT-alone-falls uncertainty
     here. The companion power-training MA that *did* target fall-risk-predictor tests still stops at
     **surrogates, not fall incidence**: it pooled the TUG (MD -0.31 s; 95% CI -0.63, 0.00) and the
     30s-STS (MD 1.71 reps; 95% CI -0.26, 3.67), both **below their reported minimal detectable change**
@@ -88,12 +99,16 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
     relevant improvement over other training modalities and their relation to fall risk», and call for
     research «involving a direct outcome measure of fall risk (post-intervention fall history)»
     [@jimenezlupion2023]. So the RT-alone-falls
-    null stands, and whether *any* resistance or power training mode reaches the falls endpoint remains a
+    uncertainty stands, and whether *any* resistance or power training mode reaches the falls endpoint remains a
     named gap — **no held MA measures fall incidence for resistance or power training** (G-gap; would
     need a trial with prospective fall-count follow-up).
     [inferred from @elhadouchi2022; @jimenezlupion2023; @sherrington2019]
 - ***Walk more* is not fall-prevention advice.** Walking programmes have insufficient evidence and are
   not what reduces falls — a substitution worth naming, because it is the intuitive default.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Fractures and injurious falls — the leg to the bone side, honestly lower-certainty
 
@@ -101,7 +116,8 @@ The outcomes people most fear are the worst-measured (streetlight effect on the 
 [@sherrington2019]:
 
 - **Fall-related fractures: RR 0.73 (0.56-0.95), 10 RCTs, LOW certainty** — downgraded two levels for
-  imprecision and likely publication bias. Absolute: 47 vs 64 per 1000 -> \~17 fewer fractures/1000/yr.
+  imprecision and likely publication bias. Absolute: 47 (36-61) vs 64 per 1000 -> \~17 fewer per 1000 over
+  trial follow-up (4-42 months) (corrected 2026-10-06 from */1000/yr*; self-critique).
   For balance+functional specifically RR 0.44 (0.25-0.76), 7 RCTs, still LOW — a larger point estimate on
   thin data.
 - **Falls requiring medical attention: RR 0.61 (0.47-0.79), 5 RCTs, LOW.**
@@ -123,6 +139,10 @@ structurally blind to the falls channel, so BMD *under*-reads exercise's fractur
 small BMD gain does not itself guarantee a fracture reduction ([[Surrogate Outcomes]]). Frame the
 recommendation on the composite of both channels, not on either number alone.
 [inferred from @sherrington2019; @mohebbi2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The other leg — vitamin D / calcium supplements do NOT prevent fractures in the community-dwelling
 
@@ -155,15 +175,17 @@ supplement leg is a **deficiency-repletion** lever, not a community-wide one
 sits as a population DISTINCTION from Kahwati's community-dwelling null).
 
 **The decision-change for the elderly stratum:** the two legs of fracture prevention run **opposite ways**.
-For the generally-nourished, non-osteoporotic community-dwelling older adult, **exercise (balance +
-functional) carries a fracture signal (RR 0.73, LOW) sitting downstream of its HIGH-certainty fall
+For the generally-nourished, non-osteoporotic community-dwelling older adult, **exercise (all types)
+carries a fracture signal (RR 0.73, LOW; balance + functional alone RR 0.44, LOW) sitting downstream of its HIGH-certainty fall
 reduction, while vitamin-D/calcium supplementation shows a fracture null** — so the better-evidenced
 lever is the movement one, reversing the common intuition that the pill is the bone-protective move.
 Supplementation earns its place only in the confirmed-deficient / institutionalized / osteoporotic stratum
 (a prescriber act needing this person's status).
 [inferred from @kahwati2018; @sherrington2019]
 
-<div class="recent-update" data-last-updated="2026-10-04">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Who, and how much — the stratification
 
@@ -184,14 +206,17 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
     equivalent modality for balance (a possible small overall-balance edge, otherwise a wash) and a
     safer, lower-pain way to get the dose in -> [[Aquatic Exercise vs Land-Based Exercise for Balance in Older Adults]].
 - **Dose/duration:** a sustained habit, not a course — most programmes ran 12 weeks or more and nearly a
-  third lasted a year or more; head-to-head data were too underpowered to set an optimal dose, but
-  higher-challenge, higher-dose balance work trended better
+  third lasted a year or more; head-to-head data were too underpowered to set an optimal dose, but within
+  studies «higher doses of exercise were associated with a greater impact» on falls (corrected 2026-10-06:
+  *higher-challenge ... balance work* was the wiki's addition; self-critique)
   [@sherrington2019].
 - **Harms:** where reported, predominantly non-serious musculoskeletal; 2 serious events across all 108
   trials (a pelvic stress fracture and a hernia). Adverse-event monitoring was poor (very low certainty),
   but nothing signals net harm — the intervention is low-risk relative to a large benefit.
 
 </div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Ranking the intervention TYPES against each other — the NMA verdict (Pillay 2024)
 
@@ -202,10 +227,15 @@ education, vitamin D). Pillay's network meta-analysis for the Canadian Task Forc
 by CINeMA and ranking driven by moderate/high certainty on critical outcomes rather than by SUCRA point
 ranks [@pillay2024falls].
 This is a **type-F refinement of the Sherrington verdict, not independent (type-E) corroboration** — Pillay
-«included 125 of 283 studies included in the previous review» and benchmarks its exercise findings against
-the Sherrington exercise Cochrane review [19], so the two share a trial base and the second cannot confirm
-the first as though independent (author lists do not overlap, but shared trials defeat independence anyway)
-[@pillay2024falls].
+benchmarks its exercise findings against the Sherrington exercise Cochrane review [19]
+[@pillay2024falls]; its own
+stated carry-over, «We included 125 of 283 studies included in the previous review [29]», refers to the
+earlier Tricco 2017 review, not Sherrington
+[@pillay2024falls]
+(corrected 2026-10-06: *125 of 283* attributed to Sherrington, chunk 04 -> Tricco [29], chunk 03). Pillay
+does not report its trial-level overlap with Sherrington, but both pool the same community-dwelling exercise-RCT
+literature, so a shared trial base is likely and the second cannot confirm the first as though
+independent (author lists do not overlap).
 
 Of **21 interventions with moderate-or-high certainty for benefit on >=1 outcome, 14 (67%) had a
 structured-exercise focus** [@pillay2024falls]. The ordering confirms and sharpens *the lever is balance*:
@@ -225,13 +255,24 @@ structured-exercise focus** [@pillay2024falls]. The ordering confirms and sharpe
     [@pillay2024falls];
   - «Adding other interventions to exercise does not appear to substantially increase benefits»
     [@pillay2024falls].
-    Together these say the **exercise core does the work** — stacking assessment/home-hazard/education on
-    top of it is not where the benefit lives, and a multifactorial program *without* exercise at its
-    center is not evidenced. The USPSTF reached the same split independently (below).
+    Together these say that **adding components to exercise does not substantially increase fall
+    benefit**, and needs-assessment-only multifactorial programs showed no moderate-certainty benefit. They
+    do not say exercise is the only route: Pillay also lists as beneficial «mixed interventions combining
+    comprehensive multifactorial assessment with home-hazard assessment (HHA), or with HHA plus exercise or
+    education», and mixed multifactorial+HHA/education carries the highest-certainty *fracture* signal in
+    the NMA (below) [@pillay2024falls]
+    (corrected 2026-10-06: *the exercise core does the work ... without exercise at its center is not
+    evidenced* -> scoped; self-critique). The USPSTF, from its own commissioned review of overlapping
+    trials, reached the same exercise-first split (below).
 - **Walking is not fall prevention here either** — «None of the interventions with moderate certainty
   evidence focused on walking», and single-component walking carried potential harm signals warranting
   caution, especially at elevated risk [@pillay2024falls]. This reinforces the
-  *walk-more is not fall-prevention advice* substitution above, now from a second trial base.
+  *walk-more is not fall-prevention advice* substitution above, now from a second synthesis (largely
+  overlapping trials).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Two interventions that INCREASED falls — harm at the type level
 
@@ -246,12 +287,18 @@ The NMA is one of the few sources that catches fall-prevention interventions doi
   [inferred from @pillay2024falls]
 - **A comprehensive multifactorial program (exercise + HHA when indicated)** had moderate certainty for
   **increasing fallers** — but its direct-evidence trials targeted very high-risk elders (mean ages 83, 85;
-  prior fallers; on fall-risk-increasing drugs), so the harm is confounded with frailty and does not
-  transport to the general older adult [@pillay2024falls].
+  prior fallers; on fall-risk-increasing drugs) [@pillay2024falls] —
+  so the harm *may* be confounded with frailty and *may* not transport to the general older adult; Pillay
+  draws no such conclusion (corrected 2026-10-06: inference was under an EXTRACTED tag;
+  self-critique).
 - **The workhorse is low-harm:** «Vitamin D and most single-component exercise interventions are probably
   associated with minimal harm» (two exercise nodes: moderate certainty for small \~5-8/100 any-AE harms,
   little-to-no serious harm) — consistent with Sherrington's 2-serious-events-in-108-trials safety profile
   [@pillay2024falls].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What patients actually value — the outcome-valuation layer (Pillay KQ2)
 
@@ -284,9 +331,13 @@ on a 0 (no HRQoL loss) to 1 (equal to death) scale [@pillay2024falls]:
 - **Where value meets the ranking:** the interventions with some certainty for *reducing fractures*
   (>=0.6 fewer per 100 treated) were mixed multifactorial+HHA/education (moderate/high) and — at low
   certainty — supervised balance/resistance, group tai chi, long-duration CBT, and whole-body vibration
-  [@pillay2024falls]. The most-valued outcome (fracture) is moved best by the same exercise top tier,
-  but the fracture-specific certainty stays low — the honest gap the nucleus already flags on its fracture
-  leg.
+  [@pillay2024falls]. The
+  most-valued outcome (fracture) carries its highest certainty for mixed multifactorial+HHA/education, not
+  the exercise top tier, whose fracture-specific certainty stays low — the honest gap the nucleus already
+  flags on its fracture leg (corrected 2026-10-06: *moved best by the same exercise top tier*; self-critique)
+.
+
+</div>
 
 ## Preference is not efficacy — the delivery-format distinction (Pillay KQ3)
 
@@ -302,6 +353,8 @@ individual rather than group sessions when feasible may be most acceptable»
 [@pillay2024falls]. Group
 delivery remains a legitimate, effective, lower-resource option. [inferred from @pillay2024falls]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Guidance proximity — where this sits against the guidance set
 
 These reviews are *inputs to guidance*, which sharpens the guidance-null test. They fed the **CTFPHC** and
@@ -310,7 +363,7 @@ intermediate -> supervised exercise (>=3 sessions/week, >=12 weeks) on functiona
 or tai chi; high -> multidomain intervention after multifactorial assessment; and single components
 (medication review, VAT, HHA, CBT) «are not recommended unless part of a multidomain intervention»
 [@pillay2024falls]. The
-**USPSTF** independently reached the same exercise-first split: «With a B grade, they recommend exercise
+**USPSTF**, from its own commissioned review of overlapping trials, reached the same exercise-first split: «With a B grade, they recommend exercise
 among those at increased risk for falls, and with a C grade, they recommend clinicians individualize the
 decision to offer multifactorial interventions» — the C grade because routine multifactorial net benefit
 «is small» [@pillay2024falls].
@@ -319,6 +372,8 @@ is **strong** here and this wiki's job is calibrated agreement-with-better-warra
 *mechanism* (balance is the lever), the *harm exceptions* (universal VAT, high-risk multifactorial), and
 the *outcome-valuation* ordering (fracture >> fall), none of which the guideline statements carry on their
 face. [inferred from @pillay2024falls]
+
+</div>
 
 ## Where this sits in the ranking
 
@@ -329,6 +384,8 @@ intervention. It is the strongest outcome class the activity evidence carries fo
 realised outcome, and *appraise, do not prescribe* binds — programme selection, progression and
 fall-risk titration in a specific person are prescriber/coaching acts. [inferred from @sherrington2019]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Caveat — the HIGH-certainty result is for the GENERAL older adult, not the already-frail
 
 [inferred from @racey2021frailtypa]
@@ -337,8 +394,16 @@ In the *identified prefrail/frail* stratum, Racey's SR-MA finds physical activit
 reduce falls (RR 0.80 [0.51-1.26], very low certainty, 7 studies) even while it improves mobility, ADLs
 and frailty status [@racey2021frailtypa].
 This is a distinction, not a contradiction (not-joined check (ii): different population + far thinner
-evidence): balance+functional exercise is the best-evidenced fall lever *before* deep frailty; once
-frailty is established, the falls signal is uncertain, the intervention must be dosed down to avoid
-injury, and the payoff shifts to function/mobility rather than falls -> [[Frailty]].
+evidence): balance+functional exercise is the best-evidenced fall lever *before* deep frailty; in
+identified frailty the falls effect is unestablished, not shown absent — Racey's CI contains Sherrington's
+0.77, on an exercise mix where balance training is among the types that «have not been studied
+sufficiently» (Racey quoting prior frailty reviews), and Sherrington found no subgroup difference by
+fall-risk selection [@sherrington2019]. That the intervention
+must be dosed down to avoid injury (Racey's background concern that recommended activity «may be too
+advanced or too intense for a frailer population»)
+[@racey2021frailtypa] and that the payoff shifts to function/mobility are *hypotheses*, not findings
+ (corrected 2026-10-06: stated as facts; self-critique) -> [[Frailty]].
+
+</div>
 
 ## References

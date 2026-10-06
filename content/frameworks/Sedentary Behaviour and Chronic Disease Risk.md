@@ -7,13 +7,14 @@ sources: [Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-
 cluster: activity
 nucleus: false
 confidence: medium
-self_critiqued: 2026-09-23
+self_critiqued: 2026-10-06
 relationships:
   related_to: [The Physical Activity Paradox, Measurement Error in Dietary Assessment, Surrogate Outcomes]
   extends: [Physical Activity Dose and Mortality]
 created: 2026-08-21
-updated: 2026-09-23
+updated: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 **The decision this page changes:** whether, and how hard, to cut *sitting* and *TV time* — separately
 from the decision about how much to *move*. Sedentary behaviour is a **distinct exposure from physical
@@ -23,9 +24,17 @@ meta-analysis (34 prospective studies, 1,331,468 participants) that gives the pe
 adds incident T2D and cancer, and splits total sitting from TV viewing.
 [@patterson2018sedentary]
 
-The magnitude is **modest per hour and independent of activity, and it accelerates past a threshold** —
-so the levers here rank *below* the big rocks (smoking, obesity, near-total inactivity) but are real,
-and matter most for the heaviest sitters and for T2D risk specifically.
+The magnitude is **modest per hour and persists after adjustment for physical activity** (Patterson),
+though device data concentrate it in the least active (Ekelund 2020); for all-cause and CVD mortality it
+**accelerates past a threshold**, while the TV->T2D point estimate runs the other way (front-loaded below
+\~4 h/day). So the levers here rank *below* the big rocks (smoking, obesity, near-total inactivity) but are
+real, and matter most for the heaviest sitters (mortality) and for population-wide TV reduction (T2D).
+ (corrected 2026-10-06: *independent of activity* + *accelerates past a threshold* unscoped ->
+PA-adjusted, mortality-scoped; self-critique)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Two exposures, not one — total sitting vs TV viewing `type-B`
 
@@ -36,9 +45,17 @@ confounding/mediating patterns».
 [@patterson2018sedentary]
 
 - **Total sitting** — the aggregate; weaker associations, higher self-report error.
-- **TV viewing** — stronger on *every* outcome, because it drags a dietary co-exposure (snacking, higher
-  energy intake) and evening/postprandial timing with it. TV is the sharper lever, not because sitting to
-  watch differs physically but because of *what travels with it*.
+- **TV viewing** — stronger associations on *every* outcome, which Patterson attributes variously to a
+  dietary co-exposure (snacking, higher energy intake), a confounding structure «more difﬁcult to fully
+  account for», better criterion validity of self-reported TV viewing, and evening/postprandial timing.
+  [@patterson2018sedentary]
+  Only the first and last make TV a *sharper causal lever*; the middle two would make it a sharper
+  *signal* only. (corrected 2026-10-06: *TV is the sharper lever because of what travels
+  with it* -> four candidate explanations; self-critique)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Dose-response — an accelerating-harm knee, the MIRROR of the activity plateau
 
@@ -60,18 +77,24 @@ Per 1 h/day, PA-adjusted, RR (95% CI):
 | TV viewing -> all-cause mortality | 1.03 (1.01-1.04) | 1.06 (1.05-1.08) | \~3.5 h/day |
 | TV viewing -> CVD mortality | 1.02 (0.99-1.04) | 1.08 (1.05-1.12) | \~4 h/day |
 | TV viewing -> cancer mortality | linear 1.02 (1.01-1.03) | — | none |
-| TV viewing -> incident T2D | linear 1.09 (1.07-1.12) | — | none |
+| TV viewing -> incident T2D | linear 1.09 (1.07-1.12); point estimate concave: 1.12 (1.08-1.15) below \~4 h | 1.05 (1.03-1.07) above \~4 h | non-linearity «equivocal» (p = 0.066) |
 
 [@patterson2018sedentary]
 [@patterson2018sedentary]
 
-**Threshold = edge-of-evidence first, curve-feature second.** The knots are spline inflections with **no
-CI reported on the knot location**, so read *\~8 h* / *\~3.5 h* as approximate regions, not targets. The
+**Threshold = edge-of-evidence first, curve-feature second.** Patterson's spline knots were fixed a priori
+(«Knots were placed at the 10th, 50th and 90th percentiles»), and the \~8 h / \~3.5 h thresholds are change
+points read off the fitted spline, not estimated parameters, with **no CI**
+[@patterson2018sedentary]
+— so read *\~8 h* / *\~3.5 h* as approximate regions, not targets. (corrected 2026-10-06: *spline
+inflections* -> change points on a fixed-knot spline; self-critique) The
 studied range spans roughly the observed exposure distribution (TV: 75% of the calibration population
 report <4 h/day, so the high-TV arm is thinner). And because 31/34 studies are **self-reported**, the
 threshold inherits measurement error — an objective-device inflection sits *higher* (Ekelund 2019
 accelerometry \~9.5 h/day sitting; see [[Physical Activity Dose and Mortality]]), the same self-report/
 device gap running in the sitting direction.
+
+</div>
 
 ## T2D is the standout — and the most caveated `type-F`
 
@@ -93,16 +116,26 @@ preceded ascer- tainment of exposure data»
 the dietary-mediation mechanism (TV -> snacking -> energy surplus -> T2D) also means part of this is
 *diet acting through TV*, not sitting per se.
 
-## Why believe it less than the point estimates suggest — measurement
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## How far to trust the point estimates — measurement cuts both ways
 
 Sedentary time is mostly self-reported, and «Misclassiﬁcation of sedentary exposure would potentially
 dilute the association in our analysis, resulting in possible underestimation of effect size»
 [@patterson2018sedentary].
-So the honest reading runs **toward larger, not smaller** true effects for total sitting (attenuation
-toward the null) — but with wide uncertainty on WHERE the curve bends. This is the same self-report
+But the same Limitations section notes that covariate measurement (PA, diet, socio-economic position)
+«varied greatly between studies, if included at all, potentially leading to residual confounding»
+[@patterson2018sedentary],
+which can run the other way. So the **net direction of bias is unknown**; what is clear is wide
+uncertainty on WHERE the curve bends. (corrected 2026-10-06: *toward larger, not smaller
+true effects* -> net direction unknown; self-critique) This is the same self-report
 attenuation mechanism catalogued for diet in [[Measurement Error in Dietary Assessment]], transported to
 sedentary exposure; a null/shallow arm is weak evidence of no gradient. (TV's *better* self-report
 validity is one reason its signal reads larger than total sitting's — measurement, not only biology.)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The bout/break gap — answered on surrogates, still open on hard outcomes `type-F` `type-G`
 
@@ -146,9 +179,16 @@ matched, PA breaks beat a single continuous bout only on glucose, and only just 
 there was a small and statistically significant effect in favour of regu- lar PA breaks on post-prandial
 glycaemia» (SMD -0.26, 95% CI -0.50, -0.02), with **no** significant difference for insulin (0.35, -0.37,
 1.07) or TAG (0.08, -0.22, 0.37).
-[@loh2019] And the edge is erased by volume:
-«any such advantages are abolished with high amounts of daily exercise».
-[@loh2019] So the decision this licenses is
+[@loh2019] Loh, juxtaposing its trials with
+Ekelund 2016's self-report cohorts, suggests the edge may vanish at high exercise volume, and flags that
+cross-design comparison for caution: «Taken together, the observational and experimental research suggest
+that PA breaks might have a small advantage over continuous exercise, but any such advantages are abolished
+with high amounts of daily exer- cise. However, such comparisons between cross-sectional controlled
+laboratory studies and observational studies need to be interpreted cautiously, as the results of Ekelund
+et al. cannot rule out possible effects resulting from patterns of accumulated sitting».
+[@loh2019] (corrected 2026-10-06: *the edge
+is erased by volume* + truncated tail quote -> hedged full sentence + caution; self-critique) So the
+decision this licenses is
 narrow — breaks are an **alternative or adjunct for those who will not do structured exercise**
 (especially higher-BMI), not a superior substitute for someone already exercising adequately.
 
@@ -164,6 +204,10 @@ would need to close. The trials are also unblindable — you cannot blind an exe
 carries performance/detection risk of bias by construction (a design constraint, not a defect).
 [inferred from @loh2019]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Acting on it (layer 3)
 
 - **Effect depends on the replacement** — judge against the realistic alternative, not against standing
@@ -171,21 +215,34 @@ carries performance/detection risk of bias by construction (a design constraint,
   compared with walking for pleasure»
   [@patterson2018sedentary].
   Substituting sitting with movement banks the sitting-reduction *and* the activity-gain.
-- **Where the lever is biggest:** the heaviest sitters (past the knee, where per-hour harm has
-  accelerated) and anyone weighting T2D risk (cut TV specifically — the dietary co-exposure rides with
-  it). For a lean, active, low-TV person the sedentary lever is already largely pulled.
+- **Where the lever is biggest — split by outcome:** for **mortality**, the heaviest sitters (past the
+  knee, where per-hour harm has accelerated); for **T2D**, TV reduction across the whole population, since
+  the per-hour TV->T2D increase is largest below \~4 h/day on the point estimate (non-linearity equivocal) — Patterson: «The prevention of T2D would perhaps
+  be best served by reducing TV viewing among the whole population, however, to prevent other outcomes
+  targeting those with highest exposure levels may be more appro- priate».
+  [@patterson2018sedentary]
+  For a lean, active, low-TV person the sedentary *mortality* lever is already largely pulled; the T2D one
+  is not, on the point estimate. (corrected 2026-10-06: *heaviest sitters ... and anyone weighting T2D* ->
+  outcome-split per Patterson; self-critique)
 - **Activity partly offsets sitting but does not license it** — high MVPA attenuates the total-sitting/
   mortality association (Ekelund 2016 interaction, on [[Physical Activity Dose and Mortality]]), but TV
   viewing is only *partly* offset. The offset *dose* is smaller than the self-report figure once it is
   **device-measured**: Ekelund 2020 (accelerometry, 9 cohorts, 44 370 adults) puts it at «about 30–40 min
   (median of medians=34 min ...) of MVPA per day» to attenuate the sedentary-mortality association — vs
   the \~60-75 min/day from self-report — with the high-MVPA third (\~34 min) carrying no significant
-  sitting penalty and the risk concentrated in the low-MVPA third (\~2 min/day, worst cell +263%).
+  sitting penalty and the risk concentrated in the low-MVPA third (\~2 min/day, worst cell HR 2.63, i.e. +163%, 95% CI 1.93-3.57; the paper prints this cell as 263%
+  against an HR-scale interval, an arithmetic slip its +65% / +40% MVPA cells do not make, though its
+  total-activity cells repeat it — 260%, 148%, 240% against HR-scale intervals) (corrected 2026-10-06:
+  +263% -> +163%, Ekelund 2020 chunk 01).
   [@ekelund2020joint] The two numbers are
   **not the same quantity** (device vs self-report; attenuate vs eliminate) and the paper attributes the
   drop partly to measurement, so read this as a **type-F device refinement** of the held offset, not an
   independent confirmation (same author, overlapping cohorts) — full parameter table and the
   within-instrument narrowing on [[Physical Activity Dose and Mortality]]. Sit less regardless.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Provenance / independence
 
@@ -202,11 +259,13 @@ the page's overall certainty (same lineage).
 **Loh 2019** enters as the *experimental / surrogate* leg on a **different question** (bout structure, not
 volume), so it is a **type-F gap-fill, not type-E corroboration** of Patterson — different exposure,
 design, and outcome (the parameter table above). Independence guard, run: co-author **Stamatakis** also
-sits on the held device-PA source ODonovan - Weekend Warrior Accelerometer Mortality 2024, and Loh's
+sits on the held O'Donovan 2024 weekend-warrior cohort (self-report despite its slug), and Loh's
 discussion explicitly *rests on* Ekelund's offset figure — so no agreement here is independent backing
 (no `[E-independent]` token). Loh does **not** move the page's `confidence: medium`: it adds a moderate
 surrogate finding, not a hard-outcome one, and its own hard-outcome (break -> mortality/incidence)
 evidence is weak/null.
 [inferred from @patterson2018sedentary]
+
+</div>
 
 ## References

@@ -17,8 +17,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - GLP-1 and Lean Mass
 created: 2026-08-06
-updated: 2026-10-04
-self_critiqued: 2026-10-04
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **The decision.** Overweight/obese guidelines bundle exercise and caloric restriction as interchangeable
@@ -30,6 +30,8 @@ gold-tier, CC-BY) is the first meta-analysis to compare the two *while controlli
 deficit* — so it isolates the lever from the deficit size.
 [inferred from @recchia2023]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The finding — exercise wins per unit deficit; the raw picture is the opposite
 
 Both interventions cut visceral fat vs eucaloric controls, and there are **two distinct comparisons that
@@ -39,7 +41,8 @@ point opposite ways** — keeping them apart is the whole value:
   «Overall, exercise (ES −0.28 (−0.37 to −0.19); p<0.001; I2=25%) and caloric restriction (ES −0.53 (−0.71
   to −0.35); p<0.001; I2=33%) reduced visceral fat compared with the controls.»
   [@recchia2023]
-- **Deficit-controlled head-to-head: exercise is superior.** In a meta-regression with weekly energy
+- **Deficit-adjusted comparison (between-trial meta-regression, not deficit-matched trials): exercise is
+  superior.** In a meta-regression with weekly energy
   deficit and treatment type as effect modifiers, «exercise had a superior dose–response effect on
   reducing visceral fat compared with caloric restriction (ES −0.18 (−0.33 to −0.04); p=0.012)»
   [@recchia2023].
@@ -48,10 +51,19 @@ point opposite ways** — keeping them apart is the whole value:
   dose-­dependent (ES 0.03 (−0.12 to 0.18); p=0.64)»
   [@recchia2023].
 
-The reconciliation: the raw CR advantage reflects that CR trials tended to run larger deficits, not that
-a matched deficit removes more visceral fat by diet. Once the deficit is held constant, **each extra 1000
-kcal/week spent via exercise buys measurably more visceral-fat loss, and diet's dose-response flattens to
-nothing.**
+The reconciliation: Recchia's stated aim was to compare the interventions «while controlling for the
+weekly energy deficit induced by the interventions» [@recchia2023]
+— *controlling* here is statistical adjustment across trials (weekly deficit as an effect modifier in a
+meta-regression), not trials that matched the deficit between arms. That the raw CR advantage reflects
+CR trials running larger deficits is the wiki's reading, not a figure Recchia reports
+.
+Under that adjustment, **each extra 1000 kcal/week of exercise deficit is associated with measurably more
+visceral-fat loss, while diet shows no detectable dose-response** — and the authors themselves hedge the
+diet null: «Caloric restriction did not demonstrate a dose–response relationship, although this may be
+attributed to the smaller number of studies available for analysis, compared with exercise studies.»
+[@recchia2023] (corrected
+2026-10-06: *once the deficit is held constant ... diet's dose-response flattens to nothing* -> a
+between-trial deficit adjustment with an underpowered diet arm, Recchia chunk 01).
 
 ### The units — these are standardized effect sizes, NOT cm² or cm³
 
@@ -64,16 +76,18 @@ reduction; caloric restriction ES −0.59 = **4.67 cm** [@recchia2023]. And WC d
 *both* interventions (CR WC dose-response ES −0.29 (−0.58 to −0.00); p=0.048), even though CR's *visceral*
 dose-response was flat — so WC is an imperfect stand-in for the visceral depot here.
 
-### Comparison table (deficit-matched is the load-bearing row)
+### Comparison table (the deficit-adjusted row is load-bearing)
 
 | Parameter | Exercise | Caloric restriction | Commensurable? |
 |---|---|---|---|
 | Constituency | 26 studies, k=46 effects | 15 studies, k=16 effects | same dpcc2 scale, but power differs sharply |
 | Overall ES vs control (visceral) | −0.28 (−0.37 to −0.19) | −0.53 (−0.71 to −0.35) | **Yes** — but NOT deficit-matched |
 | Dose-response per 1000 kcal/wk deficit | −0.15 (−0.23 to −0.07), p<0.001 | 0.03 (−0.12 to 0.18), p=0.64 (null) | **Yes** — both per-deficit slopes |
-| Deficit-controlled head-to-head | superior: ES −0.18 (−0.33 to −0.04), p=0.012 (favours exercise) | reference | **Yes** — the isolating comparison |
+| Deficit-adjusted comparison (meta-regression) | superior: ES −0.18 (−0.33 to −0.04), p=0.012 (favours exercise) | reference | **Yes** — the isolating comparison (statistical adjustment, not matched arms) |
 | Waist circumference (absolute) | −3.15 cm | −4.67 cm | Yes — but WC ≠ visceral depot |
 | GRADE certainty | moderate (down 1: bias, heterogeneity) | moderate (down 1: bias) | «moderately confident that the true effects are likely to be close to the estimates» |
+
+</div>
 
 ## Why exercise preferentially targets visceral fat — the mechanism
 
@@ -144,22 +158,28 @@ the smaller number of studies available for analysis, compared with exercise stu
 [@recchia2023] (16 vs 46 effects).
 Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
 - **If visceral fat / cardiometabolic risk is the target, weight the deficit toward exercise.** Per unit
-  of prescribed deficit exercise removes more visceral fat and preserves muscle; diet at a matched deficit
-  removes less and costs lean mass. This is *not* a claim exercise beats diet for the scale — for total
+  of prescribed deficit (between-trial adjustment, not deficit-matched trials) exercise removes more
+  visceral fat and preserves muscle; diet, adjusted to the same deficit, shows no detectable visceral
+  dose-response (fewer trials) and costs lean mass. This is *not* a claim exercise beats diet for the scale — for total
   weight loss diet is at least as good, often better ([[Does Weight Loss Reduce Cardiovascular Events]]).
 - **Combine, don't choose — additively.** The interventions act through partly different tissue mechanisms
   (fat-selective mobilization vs whole-body deficit), so the plausible posture is additive: use exercise
   for the visceral/muscle-sparing edge and diet for deficit magnitude.
 - **A second gold source confirms exercise is a weak *weight* lever — and names the modality for WC.**
-  O'Donoghue 2021, an independent NMA (45 RCTs, 3566 adults with obesity; different authors and dataset
-  from Recchia), found exercise-alone weight loss «minimal, with mean values ranging from −0.05 to −1.01
-  kg» across *every* modality, concluding «for weight loss, exercise alone is not an effective therapy, a
-  hypocaloric balance is necessary» [@odonoghue2020] `[E-independent]`. This corroborates the weight-vs-depot split above by a separate route. It also
+  O'Donoghue 2021, a separately-run NMA (45 RCTs, 3566 adults with obesity; different authors from
+  Recchia, but a partly overlapping trial base — see the audit note below), found exercise-alone weight loss «minimal, with mean values ranging from −0.05 to −1.01
+  kg» across *every* modality, matching earlier MAs that it reports as finding «for weight loss, exercise alone is not an effective therapy, a
+  hypocaloric balance is necessary» [@odonoghue2020]
+  — that quoted sentence is O'Donoghue reporting earlier meta-analyses (their refs 18-19), not its own
+  pooled result; the corroborating backing is the NMA's own −0.05 to −1.01 kg range
+  (corrected 2026-10-06: *concluding* -> citing prior MAs, ODonoghue chunk 02). This corroborates the
+  weight-vs-depot split above — concordant, but **not** independent-E: same method (MA of exercise RCTs)
+  over a partly shared trial base. It also
   adds the modality layer Recchia's visceral analysis lacked (Recchia found no modality moderator): for
   **waist circumference**, O'Donoghue ranks aerobic-containing programmes above resistance-only (best
   COM-LM −2.76 cm [−4.52, −1.00], AE-M −2.31, AE-V −2.03; resistance-only non-significant) — WC figures in
@@ -193,7 +213,7 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
   compensation and the surrogate warning are the wiki's weave, not independent replication of the
   head-to-head itself.
 
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Self-critique `[run 2026-08-06, before commit]`
 
@@ -214,9 +234,16 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 ### Self-critique addendum `[run 2026-10-04 — O'Donoghue reweave]`
 - **E-independence verified before tagging `[E-independent]`:** O'Donoghue 2021 and Recchia 2023 share no
   authors (O'Donoghue/Blake/Cunningham/Lennon/Perrotta vs Recchia/Leung/Yu/Siu), use different datasets
-  (45-RCT obesity modality NMA vs 40-RCT deficit-matched exercise-vs-CR MA), and O'Donoghue predates
+  (45-RCT obesity modality NMA vs 40-RCT deficit-adjusted exercise-vs-CR MA), and O'Donoghue predates
   Recchia so neither cites the other as antecedent — a genuine independent route to "exercise alone is a
-  weak weight lever," not a laundered re-pooling `[E-independent]`.
+  weak weight lever," not a laundered re-pooling ~~`[E-independent]`~~.
+  **Superseded 2026-10-06 (drain cold-audit):** the *different datasets* premise does not hold — at least
+  three primary trials appear in both included sets (Irving — USA 16 wk in O'Donoghue, Irving 2008/2009 in
+  Recchia; Keating — Australia 8 wk in O'Donoghue, Keating 2015/2017 in Recchia;
+  the Danish bike-commuting trial reported as Gram/Quist in O'Donoghue and Blond/Rosenkilde in Recchia —
+  matched by first author, country and duration, not by full reference), and both are the same method (MA
+  of exercise RCTs). Disjoint authorship and no mutual citation hold, but a partly shared trial base by the
+  same method is concordance, not independent-E; the token is withdrawn.
 - **Fake-tension guard (modality):** Recchia found no modality moderator for *visceral fat*; O'Donoghue
   ranks modalities for *WC* (aerobic-containing > resistance-only). Filed as a compatible distinction
   (different outcomes; both find weak fine separation), not a tension — Recchia did not test the aerobic-vs-

@@ -2,8 +2,8 @@
 type: framework
 question: Does intentional weight loss via lifestyle reduce hard cardiovascular events?
 aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle Intervention, Weight Loss Hard Outcomes, Does Losing Weight Prevent Heart Attacks]
-authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Sjöström, Lars; Malhotra, Atul; Badve, Sunil V]
-sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024]
+authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy; Sjöström, Lars; Malhotra, Atul; Badve, Sunil V]
+sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -20,8 +20,8 @@ relationships:
     - Ectopic Fat and Depot-Specific Risk
     - Sleep Apnea Treatment and Cardiovascular Risk
 created: 2026-07-28
-updated: 2026-09-05
-self_critiqued: 2026-09-05
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
@@ -115,16 +115,17 @@ itself, prevents events in a low-risk person.
 ## Ma 2017 — the meta-analysis generalizes the test [@ma2017]: CV-null holds, all-cause mortality falls (non-CV)
 
 Look AHEAD is one (large, important) trial in one population. **The higher-tier evidence on the mortality
-question is the meta-analysis** — Ma et al. 2017 (BMJ) pools **54 RCTs, 30,206 obese adults** (mostly
-non-diabetic), almost all testing weight-reducing diets «usually low in fat and saturated fat»,
-follow-up >=1 year, GRADE-rated. It splits cleanly, and it re-weights this page: the single trial's
+question is the meta-analysis** — Ma et al. 2017 (BMJ) pools **54 RCTs, 30,206 obese adults** (mixed
+glycaemic status — trials ranged from no comorbidity to T2D; Ma reports no diabetic share), almost all testing weight-reducing diets «usually low in fat and saturated fat»,
+follow-up >=1 year, GRADE-rated. (corrected 2026-10-06: *mostly non-diabetic* -> mixed glycaemic
+status, not stated by Ma, Ma chunk 01.) It splits cleanly, and it re-weights this page: the single trial's
 number is now read *inside* the meta-analytic picture, not as the headline.
 
 **Parameter table** (op-weave 2a):
 
 | Parameter | Look AHEAD (1 RCT) | Ma 2017 (54-RCT MA) | Same quantity? |
 |---|---|---|---|
-| Population | T2D, overweight/obese | obese adults, mostly non-diabetic | **NO** |
+| Population | T2D, overweight/obese | obese adults, mixed glycaemic status (incl. T2D) | **NO** |
 | Intervention | intensive lifestyle (calorie + activity) | weight-reducing diets, low-fat/low-SFA, +-exercise | **NO** |
 | CV events | «hazard ratio 0.95; 95% CI 0.83 to 1.09» | «risk ratio 0.93, 95% confidence interval 0.83 to 1.04» (high quality) | **YES — both null on CV events** |
 | CV mortality | (within the composite) | «risk ratio 0.93, 95% confidence interval 0.67 to 1.31» | \~yes — both null |
@@ -142,8 +143,11 @@ reducing low-fat diets modestly reduce all-cause mortality in obese adults, but 
 cardiovascular events*.
 
 **Two honesty notes, and the second strengthens the point.** (1) On CV events the overlap is near-total —
-Look AHEAD *is* one of Ma's 54 trials and «had 54.6% of the weighting in the meta-analysis», so *the MA
-generalizes Look AHEAD* is partly self-containing on the CV strand. (2) But the all-cause benefit is
+Look AHEAD *is* one of Ma's 54 trials, so *the MA generalizes Look AHEAD* is partly self-containing on
+the CV strand (Ma does not report Look AHEAD's weight in the CV-event pool). Its «54.6% of the
+weighting in the meta-analysis» is stated for the **all-cause mortality** pool, which is why the
+leave-out check below matters. (corrected 2026-10-06: the 54.6% weighting was attached to the CV
+strand -> it is the all-cause mortality analysis, Ma chunk 01.) (2) But the all-cause benefit is
 **not** a Look AHEAD artefact: «Without this trial weight loss interventions were still associated with
 decreased all cause mortality (n=33 trials, 309 events; risk ratio 0.78, 95% CI 0.63 to 0.96)» — the
 effect is *larger* with the dominant trial removed, and I^2 = 0%.
@@ -167,7 +171,8 @@ cause-of-death adjudication) in severe obesity (BMI >=34 men / >=38 women). Surg
 **self-selected** («desiring surgery»), so residual selection confounding is not excluded by design —
 «The main limitation of our study was the absence of randomization». The result: 101 vs 129 deaths,
 unadjusted HR 0.76 (95% CI 0.59-0.99, P=0.04); «the hazard ratio adjusted for sex, age, and risk
-factors was 0.71 (P = 0.01)» (95% CI 0.54-0.92). One reassurance on the confounding direction: the
+factors was 0.71 (P = 0.01)» (95% CI 0.54-0.92, Table 3 baseline-examination model)
+[@sjostrom2007]. One reassurance on the confounding direction: the
 surgery arm carried
 baseline *survival disadvantages* (heavier, more smokers), so adjustment **strengthened** the benefit
 (0.76 -> 0.71) rather than eroding it — the opposite of what confounding on *measured* baseline risk
@@ -182,8 +187,8 @@ tension?**
 |---|---|---|---|
 | Design | RCT (LA); 54-RCT MA (Ma) | matched, prospective, **non-randomized** cohort | **NO** — SOS lower internal validity, self-selection |
 | Sustained weight loss | \~2.5 pp (LA); varied (Ma) | «25%, 16%, and 14%» at 10 y by procedure | **NO** — SOS \~3-10x larger |
-| Population | T2D o/w-obese (LA); obese mostly non-diabetic (Ma) | severe obesity, BMI >=34/>=38 | **NO** — SOS more severe, higher baseline risk |
-| **All-cause mortality** | Ma: RR 0.82 (0.71-0.95), high quality | adjusted HR 0.71 (P=0.01), no CI reported | **YES — same quantity, both reductions (convergent)** |
+| Population | T2D o/w-obese (LA); obese, mixed glycaemic status (Ma) | severe obesity, BMI >=34/>=38 | **NO** — SOS more severe, higher baseline risk |
+| **All-cause mortality** | Ma: RR 0.82 (0.71-0.95), high quality | adjusted HR 0.71 (0.54-0.92, Table 3), P=0.01 | **YES — same quantity, both reductions (convergent)** |
 | CV events | null (LA HR 0.95; Ma RR 0.93) | CV deaths 43 vs 53; MI deaths 13 vs 25 (**not** a powered/adjusted endpoint, no HR) | **NO** — SOS reports no CV-event HR |
 
 **Deciding check -> NOT a tension; a dose-response refinement + an independent convergence.** The
@@ -243,6 +248,8 @@ event/mortality evidence AWAITS SURMOUNT-MMO; do not borrow SELECT's benefit for
 molecule, different stratum).
 [@malhotra2024surmount]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The drug route generalizes to a class — and it is weight-INDEPENDENT, which reinforces this page
 
 SELECT is one agent in one non-diabetic population. The class-level meta-analysis (Badve 2024; 11 CVOTs,
@@ -255,8 +262,11 @@ regardless of diabetes status
 CV-event reduction is not a SELECT one-off; it is a robust class effect -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 
 **This does NOT overturn the page's thesis — it sharpens it.** These are glucose-lowering CVOTs with
-*modest* weight loss, and the GLP-1 CV benefit separates early, before much weight is lost — it is a drug
-pleiotropic effect, not a weight-loss effect. So the class result is *not* evidence that shedding weight
+*modest* weight loss. Badve does not report when the curves separate; in the single trial SELECT the
+benefit separated early, before much weight was lost
+([[Semaglutide for Cardiovascular Risk in Obesity]]) — read as a drug pleiotropic effect, not purely a weight-loss effect. (corrected 2026-10-06:
+early separation was asserted for the whole class on Badve -> it is SELECT's single-trial finding; Badve
+chunk 01 reports no timing.) So the class result is *not* evidence that shedding weight
 prevents CV events; it is another instance of **the route matters**: the drug route works via
 drug-specific channels the lifestyle weight-loss route (Look AHEAD, Ma) does not fire. The lifestyle
 CV-event null stands.
@@ -266,15 +276,20 @@ low-harm drug now captures most of the CV-event, mortality and (at high kidney r
 — so it **shrinks the marginal CV/renal/mortality rank of the lifestyle weight-loss lever for those
 outcomes**, net of the drug's own costs (discontinuation for AEs «RR 1·51, 95% CI 1·18 to 1·94»,
 lifelong dependency). But the shrink is **outcome-specific**: the lifestyle lever keeps its
-non-substitutable value on the outcomes the drug does not cover — T2D remission (DiRECT), the all-cause
-mortality benefit above (Ma 0.82), MASLD, function -> [[Layer 1 - Ranking Interventions for a Stratum]].
+non-substitutable value on the outcomes the drug does not cover — T2D remission (DiRECT), MASLD,
+function -> [[Layer 1 - Ranking Interventions for a Stratum]]. The all-cause mortality benefit above
+(Ma 0.82) is *not* on that list: the drug's own all-cause HR 0.88 covers the same outcome, so for
+mortality the two are substitutes to compare. (corrected 2026-10-06: all-cause mortality removed from
+the non-substitutable list, matching [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].)
 [inferred from @badve2024glp1]
 
 
 The sharpest complement to the weight-loss null comes from the whole-diet-pattern side. In PREDIMED
 (Estruch 2018 -> [[Mediterranean Diet and Cardiovascular Events]]), an **energy-unrestricted**
-Mediterranean diet — no calorie target, no promoted exercise, little weight change — cut the CV-event
-composite by \~30% (HR 0.70, 0.55-0.89) in high-risk primary prevention. Set beside the weight-loss
+Mediterranean diet — no calorie target, no promoted exercise, and (inferred from that design; the
+trial reports no between-group weight result) little weight change — cut the CV-event composite by \~30%
+(HR 0.70, 0.55-0.89, both MedDiet arms combined vs control; by arm, adjusted 0.69 and 0.72) in high-risk
+primary prevention [@estruch2018]. Set beside the weight-loss
 trials that moved events little, this separates two channels that lifestyle advice usually bundles:
 
 | Lever | Trial | CV events |
@@ -289,6 +304,10 @@ prevention targeting composition), so this is a reasoned cross-trial contrast, n
 PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's win is on (mostly stroke)
 *events*, not death. [inferred from @estruch2018; @look2013]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 - **Weight loss stays strongly indicated — for the outcomes it demonstrably moves.** Look AHEAD itself
@@ -298,6 +317,19 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
   energy-restricted TDR programme put **46% of short-duration T2D patients into remission** (off drugs)  [@lean2018]
   with a monotone remission-by-weight-loss gradient — a patient-important benefit weight loss plainly
   moves, set against the CV-event null here -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+- **DiRECT's 2-year follow-up does not close the CV-event gap.** Remission was 35.6% vs 3.4% at 24 months
+  (down from 46% at 12) [@lean2019], but «DiRECT was not powered to
+  assess ‘hard’ clinical outcomes, but seeing fewer serious adverse events in the second year of weight
+  management is reassuring, given the past anxiety over safety of older formula diets.»
+  [@lean2019]
+  SAEs over 24 months were 15 in 11 people vs 25 in 19; the text names two strokes, a toe amputation, an
+  aortic aneurysm rupture and a sudden death in the control arm vs one non-fatal MI in the intervention arm.
+  [@lean2019]
+  That apparent vascular imbalance (about 5 vs 1 events) is not CV-outcome evidence: open-label, not
+  powered, SAE reporting rather than adjudicated CV endpoints. Fewer SAEs is a safety reading, not an
+  event-reduction finding; the remission benefit stands on its own, and it is not evidence that the
+  weight loss behind it cuts CV events.
+  [inferred from @lean2019]
 - **The >=10%-responder CV signal has a second mention.** DiRECT independently cites the Look AHEAD
   post-hoc — "a 10% weight loss in the first year... associated with a 21% decrease in occurrence of
   cardiovascular outcomes over a median follow-up of 10.2 years" [@lean2018] — the same Gregg 2016 analysis held above via SELECT. Still a secondary
@@ -317,6 +349,8 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
   the CV benefit that weight loss itself does not reliably confer via the lifestyle route.
 - **Absolute benefit still scales with baseline risk** ([[Baseline Risk and the Relative-Absolute Split]])
   — even if a true small CV effect exists, it is smallest exactly where risk is lowest.
+
+</div>
 
 ## The weight-cycling objection — not a reason to avoid trying (F-refinement)
 

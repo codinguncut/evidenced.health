@@ -19,7 +19,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-09-22
+updated: 2026-10-06
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -151,6 +151,8 @@ authored by a principal of the method.
   moderate degree of measurement error**" — a condition that matters on a page arguing dietary error
   is large.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The cross-domain contrast — and what the parameter table refuses to let us claim
 
 `[2026-07-27, WHO PA Evidence Profiles ingest]` The wiki now holds a domain where exposure is
@@ -252,6 +254,8 @@ still not proof. **This is a claim-refinement (type-F), not a robustness lift** 
 the same attenuation mechanism, not a separate line of evidence reaching it (the classification the
 WHO-PA row already settled: no `[E-independent]` token is claimed or owed here).
 [inferred from @ekelundacc2019]
+
+</div>
 
 ## Two fibre measures that are not interchangeable `[2026-07-27, SACN chunks 08/10]`
 

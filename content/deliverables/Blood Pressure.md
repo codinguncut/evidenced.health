@@ -11,15 +11,10 @@ updated: 2026-10-03
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 Lowering blood pressure is one of the few lifestyle-adjacent levers with a proven payoff on hard disease. Randomized drug trials show that dropping the number cuts heart attacks and strokes, and, on newer evidence, dementia as well. The benefit reaches people who have never had heart disease, and it does not disappear as pressure falls into the normal range. The observational "J-curve" that once seemed to warn against going low turns out to be a study artifact.
 
 That payoff comes with a catch worth stating up front. Blood pressure is a surrogate, so the decision that matters is a person's absolute cardiovascular risk, not whether they hit a particular BP target. And the proven transmission — the step from a lower number to fewer events — has been demonstrated for drug-lowered pressure. Lifestyle levers each move the number a few points, but whether that drop reaches events is mostly an assumption; one diet route, a potassium salt substitute, is the exception that actually measured it. Two framings follow from this. Drugs are the realistic comparator, not the enemy of lifestyle change. And sodium policy stays genuinely contested for someone with normal pressure eating a moderate amount — it is settled only for the hypertensive heavy-salt user.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Moving the number moves the disease — proven for drugs, on two outcomes
 
@@ -33,8 +28,6 @@ Two cautions travel with the dementia result, and both are binding. First, the d
 
 preDIVA sharpens where the dementia benefit lives. In unselected over-70s, six years of nurse-led blood-pressure-lowering vascular care did not reduce dementia overall, but it removed a standing worry — the authors report that «such an intervention is safe, which is in accordance with findings from the recent SPRINT trial» in this age group [@mollvancharante2016]. Any benefit concentrated where hypertension was genuinely untreated — among those adherent to the intervention with untreated hypertension at baseline, a post-hoc effect-modification hypothesis. The lever pays where the deficit is real, not in an already-managed population.
 
-</div>
-
 ## Decide on absolute risk, not on a BP number
 
 A proven relative effect is not a mandate to lower everyone's number. The \~10%-per-5-mmHg reduction is a property of the intervention; what it buys a given person is that same relative reduction applied to their own baseline risk — absolute risk difference = relative risk reduction x baseline risk [@grade]. So the identical drop is a small absolute gain at low risk and a large one at high risk. A modest relative effect can be decisive for someone at high baseline risk and immaterial for someone at low risk, with no disagreement about the evidence -> [[Baseline Risk and the Relative-Absolute Split]].
@@ -42,8 +35,6 @@ A proven relative effect is not a mandate to lower everyone's number. The \~10%-
 This is where a stratum baseline does the work. Rather than treating to a fixed BP threshold, combine the relative effect with a stratum-specific 10-year cardiovascular risk — the kind SCORE2 supplies and against which ESC sets its treatment bands [@esc2021] -> [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]. BPLTTC's own authors legislate the same rule: physicians should «emphasise its importance on reducing cardiovascular risk rather than focusing on blood pressure reduction itself» [@bplttc2021]. The exact BP reading matters less than the overall risk it sits inside.
 
 None of this refutes the ceiling on lifestyle levers — it refines it. Blood-pressure lowering's relative benefit is proven where lifestyle weight-loss and GLP-1 cardiovascular benefit are not, but its absolute benefit still scales with baseline risk, which is the ceiling's own mechanism. A constant \~10% per 5 mmHg is worth pulling hard for a hypertensive at high cardiovascular risk and barely worth measuring for a low-risk normotensive.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The lifestyle levers, and how much each moves the number
 
@@ -115,10 +106,6 @@ is repletion of a deficit in low-magnesium people, not a dose-response that tran
 replete. So correcting a documented shortfall is a real move, while adding magnesium on top of an
 adequate whole-food intake is not.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## For a hypertensive, exercise matches a drug on the number -- but the drug's payoff is the proven one
 
 The honest comparator for any lifestyle BP lever is not nothing; it is a first-line antihypertensive. The best evidence placing the two on one axis is a network meta-analysis of 391 randomized trials -- 197 of exercise, 194 of drugs -- that never ran a head-to-head. Compared against control, drugs looked far stronger (about -8.80 vs -4.84 mmHg). But the two arms were measured in different people: the drug trials enrolled hypertensives at a mean systolic pressure over 150 mmHg, the exercise trials people around 132, mostly normotensive. A blood-pressure drop scales with where you start, so those are not the same quantity. Restrict exercise to the hypertensive trials and its effect nearly doubles, erasing the drug's lead: «We did not observe a difference between the SBP-lowering effects of medications and exercise (0.18, 95% CrI −1.35 to 1.68)». [@naci2019exercise]
@@ -126,8 +113,6 @@ The honest comparator for any lifestyle BP lever is not nothing; it is a first-l
 Read that equivalence with two hedges intact. The authors grant it only «Assuming equally reliable estimates, the SBP-lowering effect of exercise among hypertensive populations appears similar to that of commonly used antihypertensive medications» [@naci2019exercise] -- and the estimates are not equally reliable. The matched exercise stratum rests on 56 trials against the drugs' 194, and most exercise trials carry a high risk of performance and detection bias because you cannot blind a person to whether they are exercising. That weakness is structural, not a fixable oversight. So the finding is not *exercise equals drugs*; it is that at hypertensive baselines a structured exercise programme is a credible-magnitude lever, on thinner and lower-grade evidence.
 
 What breaks the tie is transmission. The drug arm inherits the proven outcome step: pharmacological BP-lowering cuts major cardiovascular events by about 10% per 5 mmHg [@bplttc2021]. The systolic number in the exercise trials, by contrast, is a [[Surrogate Outcomes|surrogate]]: nobody measured events, and whether an exercise-induced drop transmits at the drug's rate is the same assumption flagged for every lifestyle route. Against that, exercise carries structural leverage a pill does not, acting on the driver rather than managing the marker, plus off-target benefits a BP-only comparison ignores. Neither dominates on every axis, so the choice -- drug, exercise, or both -- stays the person's. This is a comparison of levers, not a guide to which agent, dose, or target; that is a prescriber's call and sits outside this appraisal.
-
-</div>
 
 ## Cut sodium if you are hypertensive and eat a lot of salt; below that, the evidence runs out
 
@@ -168,8 +153,6 @@ But the same trial priced the target. Serious «hypotension, syncope, electrolyt
 
 Registries show a J-shape — risk lowest around 130/75, apparently higher below — which for years read as a warning against lowering pressure far, especially the diastolic number. Run that lower arm through the artifact diagnostics before believing it ([[The U-Shaped Association Artifact]]). The randomized check erases it: BPLTTC finds benefit down below 120 mmHg systolic with no rising hazard in any low-BP stratum [@bplttc2021], and Peters reports «no evidence of a U-shaped re- lation of the effect at any age» for dementia, monotone down to at least 100/70 [@peters2022bp]. So the observational J is confounding and reverse causation (frail, sick people run low pressure), not a treatment effect. The genuine limit on how low to go is SPRINT's adverse-event side above — not the J-curve.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The levers, ranked — and what is still unknown
 
 A handful of moves lower blood pressure, but they are not equal. The honest ranking weighs three things: how much each moves the number, how sure we are it reaches disease, and how realistically a person can sustain it.
@@ -202,7 +185,5 @@ Four gaps are genuine, and none is closed by an obvious source sitting unread.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
-
-</div>
 
 ## References

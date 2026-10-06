@@ -3,15 +3,14 @@ type: deliverable
 title: A Lifestyle Guideline in Five Levers
 question: 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?'
 aliases: [Lifestyle Guideline, Five Levers, Whole-Population Lifestyle Guideline]
-authors: [Jha, Prabhat; Ekelund, Ulf; Yin, Jiawei]
-sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Yin - Sleep Duration Mortality Dose-Response 2017, Laukkanen - Sauna Bathing Fatal Cardiovascular Mortality, Cain - Cold-Water Immersion Wellbeing 2025]
+authors: [Jha, Prabhat; Ekelund, Ulf; Yin, Jiawei; Taylor, Roy]
+sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Yin - Sleep Duration Mortality Dose-Response 2017, Laukkanen - Sauna Bathing Fatal Cardiovascular Mortality, Cain - Cold-Water Immersion Wellbeing 2025, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015]
 confidence: medium
 created: 2026-08-18
 updated: 2026-10-03
-self_critiqued: 2026-10-03
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 **Five things move an adult's health more than everything else put together:** not smoking, moving a
 little every day, not carrying excess belly fat, keeping alcohol low, and getting enough sleep. Read
@@ -23,7 +22,7 @@ separate anti-cancer or anti-dementia diet to run. This card ranks and points. T
 the two analytic cuts it fronts -- [[Big Rocks (Median)]] (18-65) and [[Big Rocks (Elderly)]] (65+). ->
 [[Shared Modifiable Levers Across Age-Related Diseases]]
 
-</div>
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The five levers, biggest first
 
@@ -43,8 +42,10 @@ small weekly total, not four trips to the gym. -> [[Physical Activity Dose and M
 [[Muscle-Strengthening Activity and Mortality]], [[Big Rocks (Median)]]
 
 **Don't carry excess belly fat -- clear it, don't chase a number.** The risk is not weight on the
-scale but fat spilling into your liver and around your organs once you pass your own personal fat
-threshold. Steer by the self-verifiable endpoint -- waist coming down, blood sugar and liver markers
+scale but fat stored in your liver, pancreas and around your organs. One researcher, Roy Taylor,
+proposes that each person has a personal fat threshold, unrelated to BMI, above which excess
+fat is stored in the liver and pancreas -- a hypothesis, not a measured cut-off
+[@taylor2015pft]. Steer by the self-verifiable endpoint -- waist coming down, blood sugar and liver markers
 back in range -- which for many people is a modest loss, not a fixed percentage. Keep muscle while you
 do it, with strength work and enough protein. Pull this for blood sugar, liver and function, not on a
 promise it prevents heart attacks -- the trials have not shown that. If you are already lean and
@@ -61,6 +62,8 @@ safe floor, so this lever is only ever a harm to cut, never a rock to add. ->
 night [@yin2017]. The penalty is small
 until sleep drops well below that and bites hardest under about five hours. Sleeping long is a marker
 of underlying illness, not a habit to trim. -> [[Sleep Duration and Mortality]], [[Big Rocks (Median)]]
+
+</div>
 
 ## The smaller levers add a little
 
@@ -81,6 +84,8 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
   effect on cholesterol, and a supplement is no substitute for the food pattern. ->
   [[Dietary Fibre and Health]]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Things to look out for
 
 A handful of readings tell you whether the levers are working and when to escalate. These are
@@ -95,14 +100,14 @@ lever harder *and* discuss with your doctor. This page never names or doses a dr
   is a clinician conversation. -> [[LDL ApoB and Cumulative Exposure]]
 - **Fasting glucose or HbA1c** -- your metabolic-status readout, moved by the adiposity and activity
   levers. A number creeping up is the early warning. -> [[Insulin Resistance Surrogates and Cardiovascular Risk]]
-- **Waist** -- the at-home proxy for your personal fat threshold; steer the belly-fat lever by it, not
-  the bathroom scale. -> [[Ectopic Fat and Depot-Specific Risk]]
+- **Waist** -- the at-home proxy for where your fat sits. It cannot tell you your personal fat
+  threshold, but steer the belly-fat lever by it, not the bathroom scale. -> [[Ectopic Fat and Depot-Specific Risk]]
 - **(65+) grip strength, or how hard it is to rise from a chair** -- the functional readout of how the
   muscle levers are holding. -> [[Grip Strength and Mortality]]
 
 None of these is a sixth lever -- they are the dials on the five you already have.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+</div>
 
 ## Where it stops being worth the effort
 
@@ -132,10 +137,6 @@ substitutes for the five levers. If you enjoy one already, the harm is small: ke
 lever to add.
 -> [[Sauna Bathing and Cardiovascular Mortality]], [[Cold-Water Immersion]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## After about 65, the stack shifts
 
 The levers do not change on your birthday, but their order does. Balance and footwork become the
@@ -146,8 +147,6 @@ hold, so keeping both up matters more than it did at 40. Some things that look p
 harm in older adults -- testosterone, calcium-plus-vitamin-D when you are not deficient, the tightest
 blood-pressure targets, edge-of-evidence statins. Leave those to a clinician working from your labs. -> [[Big Rocks (Elderly)]],
 [[Exercise for Preventing Falls in Older Adults]], [[Protein and Resistance Training for Muscle and Strength]]
-
-</div>
 
 ## The bottom line
 
@@ -171,7 +170,7 @@ it is the goal.
   sources -- not whether following them makes you better off. Treat it as well-sourced reasoning,
   not a guarantee.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where the evidence lives
 
@@ -187,9 +186,9 @@ The per-lever claim pages linked from each directive carry the rest.
 > | | |
 > |---|---|
 > | **Question** | 'For any adult across the whole population -- including metabolic impairment, overweight and obesity, not only the healthy -- which modifiable lifestyle exposures carry the largest expected effect on patient-important outcomes, ranked by effect size x certainty with per-stratum modifiers, stated as short directives, where health effect is the only axis weighed, pharmacotherapy is out of scope, and the whole is assembled bottom-up from held evidence rather than anchored to existing guidance?' |
-> | **Evidence included** | 5 sources — 3 gold, 2 high |
+> | **Evidence included** | 6 sources — 3 gold, 2 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
 
 </div>

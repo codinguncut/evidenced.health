@@ -13,8 +13,8 @@ sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol 
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-04
-self_critiqued: 2026-09-17
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -96,7 +96,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where it applies in the wiki
 
@@ -463,7 +463,7 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     | What the confounder manufactured | a spurious **benefit** (the protective lower arm of the J) | a spurious **harm** (the smoker-stratum increase that masks a real benefit in the pool) | both a confounder-made signal the correction targets — **yes (as a diagnostic move)** |
     | Direction of the spurious signal | **benefit** | **harm** | **no — opposite** |
     | After correction | benefit vanishes -> monotone **harm** | harm vanishes -> monotone **benefit** (0.98/cup) | **no — opposite directions** |
-    | Adjudication strength | referent-correction **+ MR** (Millwood) = decisive | referent-correction **only** (observational; no held MR instrument — Poole 2017 calls for MR studies but reports none) [@poole2017] | coffee is **less** fully adjudicated |
+    | Adjudication strength | referent-correction **+ MR** (Millwood) = decisive | referent-correction **only** for *cancer* (observational; no MR for the cancer outcome — Poole cites coffee MRs only for T2D and all-cause/CV mortality, its ref 123 being the held Nordestgaard, a null not powered at the observational size, and calls for MR on further outcomes) [@poole2017] [@poole2017] (corrected 2026-10-06: *Poole calls for MR studies but reports none* -> cites two, neither on cancer) | coffee is **less** fully adjudicated |
 
     The bottom rows are the payoff: the confounder-correction does not "restore the null by killing a
     protective arm" as a rule — it removes whatever the confounder was *creating*. Smoking manufactured an
@@ -488,17 +488,19 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     null: «genetically coffee intake was not associated with risk of cardiovascular disease or all-cause
     mortality» (Nordestgaard 2016, now held primary — the coffee->mortality MR Poole cited secondhand).
     [@nordestgaard2016] Consistent, not in
-    tension: the per-cup benefit **survives the smoking referent-correction** yet **not the genetic
-    instrument**, so residual *non-smoking* confounding is the live remaining explanation. By the decision
+    tension: the per-cup benefit **survives the smoking referent-correction** yet finds **no support from
+    the genetic instrument**, so residual *non-smoking* confounding is the live remaining explanation. By the decision
     rule the lower-arm benefit stays **not established as causal** — but smoking is no longer a candidate
     for the *whole* association.
-    - **The genetic check has its own two limits** (so it bounds rather than closes the arm): the MR is
-      powered to exclude a causal effect *as large as the observational one* (instrument F=827) but not a
-      small one, and «is based on the assumption of linearity ... [so] will not be capturing non-linear
+    - **The genetic check has its own two limits** (so it bounds rather than closes the arm): the MR has a
+      strong instrument (F=827) but is *not* powered to exclude a causal effect as large as the
+      observational one (\~225,000 cases + 225,000 controls would be needed; it excludes only a much steeper
+      per-allele OR of 0.97 for 8% higher intake) (corrected 2026-10-06: *powered to exclude ... as large as
+      the observational one* -> not powered, Nordestgaard chunk 01), and «is based on the assumption of linearity ... [so] will not be capturing non-linear
       differences» — i.e. an MR **cannot in principle detect a true U**, which is exactly the shape under
       test here. [@nordestgaard2016] So the
-      genetic null is a strong disconfirmation of the *linear* protective reading, not proof of zero
-      effect — the *adjudicate the arm* verdict rests on referent-correction + a bounded genetic check,
+      genetic null excludes only a *steep* linear protective effect — it does not disconfirm one of the
+      observed size, and is not proof of zero effect — the *adjudicate the arm* verdict rests on referent-correction + a bounded genetic check,
       not a decisive instrument (unlike alcohol's Millwood MR).
     -> [[Coffee Consumption and Health]].
   - **Type guard:** Grosso and Poole share the coffee-cohort evidence base (Poole is an umbrella over MAs

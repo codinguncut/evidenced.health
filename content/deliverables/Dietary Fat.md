@@ -11,8 +11,6 @@ question: 'For an adult choosing what fats to eat: what is the effect of the amo
 sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024, Zhang - Butter Plant Oils Mortality 2025]
 ---
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Open on the substitution, not the fat
 
 The lay question is *what fats should I eat?* The evidence answers a narrower one: **what you swap a fat *for*** — and what food carries it, and who is eating it. Appraise the swap, never the fat in a vacuum.
@@ -26,10 +24,6 @@ The lay question is *what fats should I eat?* The evidence answers a narrower on
 - **For a low-risk eater this is a low-cost hedge, not a promised heart-attack reduction** — the honest ceiling.
 
 The most load-bearing of these is the first. So start where the sign is set: **which fat replaces which**.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Replace saturated with unsaturated to set the sign
 
@@ -45,10 +39,6 @@ That makes saturated-fat-to-polyunsaturated and saturated-fat-to-carbohydrate **
 
 The swap that most moves the sign is therefore saturated fat to polyunsaturated fat. So: **what does the hard-outcome evidence actually show** for that move?
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Read the SFA->events evidence as modest and RoB-sensitive
 
 One hard outcome clears the null. Reducing saturated fat cut **combined cardiovascular events to RR 0.83 (95% CI 0.70-0.98) — 15 fewer per 1000, Moderate certainty, 13 RCTs** [@who2023saturated]. In person-count terms that is a **number needed to treat of 56 in primary prevention and 53 in secondary, over about four years** [@hooper2020]. Hooper 2020 supplies these RCT numbers — **WHO's trial estimates *are* Hooper's**, one evidence base graded twice, so the two do not count as independent witnesses.
@@ -61,10 +51,6 @@ The risk-of-bias restriction is the exception, and the **Moderate grade already 
 **Whether the harm is saturated fat's or the benefit is polyunsaturated fat's stays genuinely open** — Hooper's own replacement subgrouping cannot separate them [@astrup2020]. That is why the robust action is the **substitution** — replace saturated fat with polyunsaturated or whole-food unsaturated sources — which is correct under either reading. It licenses neither *avoid all saturated fat* nor *eat more seed oil*.
 
 The events benefit is real but modest. The mortality picture is different — and, unusually here, both camps agree on it.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Expect no mortality change from cutting saturated fat
 
@@ -81,10 +67,6 @@ The all-cause null is also less settled than the WHO trial row alone implies. Ma
 **A Moderate-certainty null is a result, not missing data.** It sits in the *no-meaningful-effect* state, distinct from *insufficient evidence* — the trials were run, the estimate is reasonably graded, and it lands on no effect. So reducing saturated fat is not a longevity move, and should not be sold as one; anyone reading *strong recommendation* as *this measurably saves lives* is reading past the evidence.
 
 Type of fat therefore moves cardiovascular events modestly and overall mortality not at all. A cause-specific cancer signal is now on the record, though, and heavy heterogeneity in the observational pool tempers how firmly the all-cause null can be held. Which raises the next question: does the **amount** of fat — the total, rather than the composition — move anything?
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Target the type, not the total amount
 
@@ -126,10 +108,6 @@ dietary fat, but not reduction of total fat, in longer trials»
 So a low-fat-vs-higher-fat quantity target is not what the evidence recommends chasing; the **swap**
 is. If type matters, it matters through a mechanism -- and for saturated fat that mechanism runs
 through LDL and apoB. How far does that surrogate carry the weight of an averted event?
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Trust the LDL/apoB direction, not the diet-to-drug magnitude
 
@@ -174,8 +152,6 @@ stands in for, so a moving LDL number is a well-warranted signal, not a proven a
 
 
 One exposure, though, needs no surrogate argument at all -- its harm is direct and uncontested.
-
-</div>
 
 ## Cut industrial trans fat -- the one unambiguous harm
 
@@ -236,8 +212,6 @@ thing to an olive-oil-alone estimate still leaves the MUFA-for-the-heart case pa
 The other polyunsaturated leg, n-6 linoleic acid, is where a **live public controversy** sits -- and it
 is the next section's subject.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Read n-6 linoleic acid as neutral-to-protective as a class
 
 Linoleic acid is the main omega-6 fat in bottled seed oils, and the popular
@@ -282,8 +256,6 @@ extraction, the n-6:n-3 ratio, FADS genotype — are a separate question about a
 processed food, not about the fatty acid, and are appraised in [[Seed Oils]].
 This section holds only the class-level finding.
 
-</div>
-
 ## Split n-3 by form and hold the class evidence thin
 
 n-3 as a single class is under-anchored in the fabric, and for a good reason:
@@ -308,8 +280,6 @@ covered in the fabric — a genuine gap; no direction is inferred here.
 
 Across every fat class in this cut, two dependencies keep resurfacing: the food
 that carries the fat, and the metabolic state of the person eating it.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Check the food matrix and the eater's metabolic state
 
@@ -337,10 +307,6 @@ which the body cannot synthesise, leave a clean intake signal — a within-categ
 information. These two dependencies point to a harder limit: some questions the evidence structurally cannot
 answer.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Name what the evidence structurally cannot show
 
 Researchers measure diet by asking people, and the error is large enough to be the dominant fact about
@@ -359,10 +325,6 @@ escape is shut. So the honest inventory runs to three items. The **total-fat dos
 the one large RCT tested a single fat->carbohydrate reduction, not a curve. Plant omega-3 (ALA) is a
 genuine named gap. And whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated
 **benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Act on the substitution a low-risk eater can sustain
 
@@ -394,7 +356,5 @@ evidence does not offer.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
-
-</div>
 
 ## References

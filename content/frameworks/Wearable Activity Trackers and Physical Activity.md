@@ -1,9 +1,9 @@
 ---
 type: framework
-question: Does a consumer wearable activity tracker increase physical-activity participation (and cut sedentary time) enough to be a worthwhile adherence / behaviour-change lever?
-aliases: [Activity Tracker, Fitness Tracker, Wearable Activity Tracker, Fitbit, Step Counter, Wearables and Physical Activity, Pedometer Intervention, Activity Monitor]
-authors: [Brickwood, Katie-Jane; Watson, Greig; O'Brien, Jane; Williams, Andrew D]
-sources: [Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019]
+question: Does a consumer wearable activity tracker or self-monitoring smartphone app increase physical-activity participation (and cut sedentary time) enough to be a worthwhile adherence / behaviour-change lever?
+aliases: [Activity Tracker, Fitness Tracker, Wearable Activity Tracker, Fitbit, Step Counter, Wearables and Physical Activity, Pedometer Intervention, Activity Monitor, Physical Activity App, Smartphone App for Physical Activity, mHealth Physical Activity Intervention, Apps and Activity Trackers]
+authors: [Brickwood, Katie-Jane; Watson, Greig; O'Brien, Jane; Williams, Andrew D; Laranjo, Liliana; Ding, Ding; Heleno, Bruno; Kocaballi, Ahmet Baki; Quiroz, Juan Carlos; Bates, David Westfall]
+sources: [Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019, Laranjo - Apps Activity Trackers Physical Activity 2020]
 cluster: activity
 nucleus: false
 confidence: low
@@ -16,7 +16,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Measurement Error in Dietary Assessment
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **The decision this page changes.** Is a consumer wearable activity tracker (Fitbit, Jawbone, and
@@ -26,13 +27,21 @@ question, not a new dose-response fact about activity itself: the tracker does n
 of activity *does* (that lives at [[Physical Activity Dose and Mortality]]) — it is a candidate tool
 for *reaching and sustaining* the dose.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Verdict — a small, real short-term boost to activity; durability unproven; effect on a surrogate
 
 A consumer tracker moves physical-activity *participation* up by a small-to-moderate amount over the
-short term, but on **low-to-very-low certainty**, and the outcome measured is the activity itself (a
+short term, but on **low-to-moderate certainty at best** (Brickwood: low for steps, very low for MVPA and
+sedentary time; Laranjo: low-to-moderate overall), and the outcome measured is the activity itself (a
 surrogate), not a patient-important endpoint. The one thing the device is *pitched to solve* —
 the well-known decay of activity-intervention effects over time — is exactly what this evidence does
 **not** establish.
+
+A second gold MA covering self-monitoring **apps as well as trackers** (Laranjo 2020, healthy adults,
+mean 13 weeks) lands on the same short-term picture. Its step-measured gain (\~750 steps/day) sits close
+to Brickwood's \~630. Its widely quoted **1850 steps/day** is not a step-measured quantity (see the
+section below). It does not close the durability gap. [inferred from @brickwood2019wearable; @laranjo2020]
 
 Brickwood et al. 2019 (SR + random-effects MA, 28 RCTs / 3646 participants across 9 countries,
 apparently-healthy through chronic-condition adults; trackers used either as the whole intervention
@@ -70,6 +79,90 @@ The abstract reports marginally different pooled SMDs (step 0.24 [0.16-0.33]; MV
 EE 0.28 [0.03-0.54]; sedentary −0.20 [−0.43 to 0.03]) — rounding/recomputation differences from the
 Results-body values quoted above; the direction, significance pattern, and certainty are identical. [inferred from @brickwood2019wearable]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Apps and trackers in healthy adults — Laranjo 2020
+
+Laranjo et al. pooled RCTs of a smartphone app or tracker with *automated, continuous* self-monitoring
+and feedback, in adults 18-65 without chronic disease (high BMI allowed). Comparators were true controls
+(12 trials) or active controls that also had an app or tracker (16). «Thirty-­five studies met inclusion criteria and 28 were included in the meta-­analysis (n=7454 participants, 28% women).»
+«Study duration varied between 2 and 40 weeks (mean duration: 13 weeks).» Eight of the 28 interventions
+were app-only, with no tracker. [@laranjo2020]
+
+### The 1850-steps headline is not a step count
+
+- **The headline figure.** The pooled effect is a standardised difference across *every* outcome type
+  — steps (21 trials), MVPA (4), and self-reported days exercised, total PA or METs (3): «The meta-­analysis showed a positive effect on physical activity favouring interventions, including smartphone apps or activity trackers versus true and active control (SDM 0.350, 95% CI 0.236 to 0.465, p<0.0001, I2=69%, T2=0.051), corre- sponding to an increase of 1850 steps per day (95% CI 1247 to 2457) (figure 3).»
+  [@laranjo2020]
+- **How it was made.** The 1850 is that mixed-outcome SDM converted back into step units: «Estimates of mean physical activity effect sizes were also converted from SDM to number of steps per day for ease of interpretation (online supplemental eMethods 4).»
+  [@laranjo2020]
+- **What the step-measured trials show.** Pooled on their own, the trials that measured steps give
+  less than half: «Grouping of studies by outcome type did, however, reveal a lower raw difference in means for daily step count (21 studies; 753.2, 95% CI 440.4 to 970.7).»
+  The abstract, discussion and conclusion all report 1850. [@laranjo2020]
+- **Decision consequence.** Quote \~750 steps/day (CI \~440-970) as the step gain over a mix of true and
+  active controls, not 1850 (the 13-week mean duration is for all 28 trials). The 1850 is a mixed-outcome
+  standardised effect re-expressed in steps. Why it exceeds the step-only 753 is not shown: the non-step
+  outcomes or the SD used for the conversion (eMethods 4, not held) could drive it. Brickwood's 627 is also a back-conversion, but of a *steps-only* SMD.
+  [inferred from @laranjo2020; @brickwood2019wearable] (type-B)
+
+### Same quantity? Brickwood vs Laranjo
+
+| Parameter | Brickwood 2019 | Laranjo 2020 | Same quantity? |
+|---|---|---|---|
+| Population | healthy through chronic-condition adults | 18-65, no chronic disease (high BMI allowed) | NO — Laranjo narrower |
+| Device | consumer wearable tracker | app OR tracker, automated continuous feedback | PARTLY — Laranjo adds 8 app-only trials |
+| Comparator | intervention without tracker feedback | true control (12) or active app/tracker control (16) | NO — Laranjo includes active controls |
+| Step estimate | SMD 0.23 (0.15-0.32) -> 627 (417-862) steps/d; I2 3% | raw MD 753 (440-971) steps/d, 21 trials | PARTLY — same unit, different contrast (13 of 21 Laranjo step trials are active-control); different estimators |
+| Headline | per-outcome SMDs | SDM 0.350 all outcomes -> "1850 steps/d" | NO — not a step-measured quantity |
+| Horizon | short-term; 2 trials >=12 mo | 2-40 wk, mean 13 | NEAR — both short |
+| Certainty | GRADE low (steps) | GRADE low-to-moderate (overall body) | NO — different graded objects |
+| Trial base | 28 RCTs / 3646 (11 in the step MA) | 28 RCTs / 7454 (21 in the step pool) | 9 shared, all in Brickwood's step MA; 7 in Laranjo's step pool |
+
+[inferred from @brickwood2019wearable; @laranjo2020]
+
+**Classification: type-F, not type-E.** The closest-matched row is the step estimate, and there the two
+MAs agree: roughly +600-750 steps/day over control at a few months. The author lists do not overlap.
+But 9 trials sit in both pools (Ashe, Ashton, Brakenridge, Cadmus-Bertram, Finkelstein, Martin, Melton,
+Poirier, Thorndike), all 9 among the 11 trials of Brickwood's step MA, and Laranjo cites Brickwood as an
+earlier review. Brickwood's 627 therefore rests mostly on trials Laranjo also pools, though 14 of
+Laranjo's 21 step trials are new to it. The agreement is largely shared-data agreement. What Laranjo adds is the extension to apps and to a no-chronic-disease stratum,
+plus the component analysis below. [inferred from @brickwood2019wearable; @laranjo2020]
+
+### Device vs components — what the moderator analysis does and does not show
+
+- **Tracker vs app, device-only vs bundled: no detectable difference.** «Other subgroup analyses were not statistically significant, including analyses of studies where the intervention included an activity tracker or just an app, and studies where the tracker or the app were the only difference between intervention and control groups (online supplemental eTable 15).»
+  [@laranjo2020]
+  These are tests of *difference between subgroups*. They do not show the device-only trials had no
+  effect. Only five trials isolated the device (and the tracker-vs-app split is 20 vs 8), so this is low
+  power, not evidence of equivalence. [inferred from @laranjo2020]
+- **This weakens the bundling reading above.** Brickwood's *multifaceted > wearable-only* (steps SMD
+  0.26 vs 0.20, overlapping CIs) was an «appeared to» comparison. Laranjo's direct subgroup test of
+  device-only vs the rest is null, and its adjusted meta-regression term (Model 4) points the other way,
+  not significantly (+0.374, −0.005 to 0.752, p=0.053). The constructs differ: Brickwood's
+  *wearable-based* arm still includes apps, emails or texts, while Laranjo's variable flags trials where
+  the device was the only between-arm difference. Neither MA shows that bundling *as such* adds effect. [inferred from @brickwood2019wearable; @laranjo2020]
+- **Text messaging, personalisation and retention: exploratory associations.** «Overall, text messaging, personalisa- tion, and retention rate in the intervention were all significantly associated with intervention effectiveness, consistently across several models.»
+  Subgroup SDMs: text messaging 0.495 (0.335-0.654); personalisation 0.541 (0.365-0.718). Laranjo
+  calls all of this exploratory, citing «mass significance and uncontrolled confounding». Six of 27
+  subgroup tests were significant, 11 of the 27 were post hoc, and personalisation was coded from
+  authors' mention of the term or synonyms. Another of the six significant subgroups was trials whose authors mentioned
+  conflicts of interest (SDM 0.529, 0.388-0.671). All are between-trial associations, confounded with
+  whatever else those interventions bundled. [@laranjo2020]
+- **How to use it.** If someone uses an app or tracker, pick one that sends prompts or text messages
+  and sets personalised goals. This is a cheap implementation choice backed by hypothesis-generating
+  evidence. It is not an established effect modifier, so it falls short of the route-(b) bar.
+  [inferred from @laranjo2020]
+- **Outcome measurement.** 14 of 28 trials read the outcome off a consumer app or tracker, 11 used a
+  research-grade accelerometer, and 3 used self-report. [@laranjo2020]
+  Brickwood notes that Fitbit over-counts steps in free-living use (below), so the device-read half of
+  the base deserves a measurement caveat. [inferred from @laranjo2020; @brickwood2019wearable]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Durability — the crux, and it is NOT established
 
 The device is *sold* on solving activity decay, and the source concedes the problem while showing its
@@ -95,6 +188,22 @@ own evidence cannot demonstrate the fix.
   assist health professionals to provide ongoing monitoring and support to patients with minimal
   resource expenditure.» The structural-leverage claim is *conditional on ongoing human contact*, not
   demonstrated for the device alone over the long run. [@brickwood2019wearable]
+- **Laranjo: usage fades even in short trials.** «Furthermore, four studies reported on engagement changes over time, showing progres- sively lower usage43 44 51 55 despite their short duration—a phenomenon known as the law of attrition of health informatics interventions.78 Only one of these studies found a statistically»
+  ... «significant improvement in physical activity at the end of the intervention,55 which suggests the importance of continued engagement for effectiveness.»
+  Retention (the share of the intervention arm completing follow-up, not device use) predicted effect
+  size in the meta-regression (Model 4: +0.022, 0.009-0.036; 0.011-0.013 in Models 1-3).
+  Trial length did not (−0.007, −0.019 to 0.004, p=0.192). [@laranjo2020]
+  Trials ran 2-40 weeks, so the null on duration says nothing about the 12-month question. [inferred from @laranjo2020]
+- **The usage dose is unknown.** «It thus remains unclear what the right ‘dose’ of app or tracker usage may be, or how it might vary for different people and circumstances.»
+  [@laranjo2020]
+- **Both MAs point the same way.** The measured effect is short-term, and both flag falling use over
+  time as the threat to it (Brickwood: lower adherence in the two >=12-month trials; Laranjo: usage
+  decay in four short trials). The trial sets overlap heavily (9 shared, all in Brickwood's step MA). Neither has the long follow-up that would show whether the effect survives once
+  novelty and usage fade. [inferred from @brickwood2019wearable; @laranjo2020]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What the effect is made of, and how to weight it
 
@@ -114,22 +223,59 @@ own evidence cannot demonstrate the fix.
   is the same blinding-is-impossible problem the whole PA-intervention literature carries. [@brickwood2019wearable]
 - **The device's own step counts over-read.** «a recent review into the use of Fitbit activity trackers
   suggests that steps are overestimated in free-living conditions» — a measurement caveat on trackers as
-  measuring instruments (distinct from their behaviour-change role; the trial *outcomes* were mostly on
-  independent accelerometers). [@brickwood2019wearable]
+  measuring instruments (distinct from their behaviour-change role). Brickwood's step outcomes were
+  measured with «a range of accelerometers or pedometers». [@brickwood2019wearable]
+  In Laranjo, 14 of 28 trials read the outcome off the consumer device itself. [@laranjo2020]
 - **Outcome is a surrogate.** Every effect here is on *activity participation*, not on mortality,
   cardiometabolic, or function endpoints. The transmission from "+627 steps/day" to a patient-important
-  outcome runs through [[Physical Activity Dose and Mortality]] (where \~+600-700 steps/day near the
-  low-active end is a meaningful mortality-relevant increment) — but that transmission is an inference,
-  not measured in this MA -> [[Surrogate Outcomes]].
+  outcome would have to run through [[Physical Activity Dose and Mortality]], whose step gradient compares
+  people who habitually differ in steps. A \~600-700-step induced gain is a fraction of one inter-quartile
+  gap there, and no held source shows an induced gain carries the between-person hazard ratio. The
+  transmission is unmeasured -> [[Surrogate Outcomes]].
+- **Laranjo's transmission claim leans on the converted number.** «These results are of public health importance according to recent evidence showing that any physical activity, regardless of inten- sity, is associated with lower mortality risk in a dose–response manner85 and that an increase of 1700 steps/day is significantly associated with lower mortality rates.86»
+  [@laranjo2020]
+  The 1700-steps association comes from a cohort the wiki does not hold (Laranjo's ref 86, Lee 2019, in
+  older women), a population Laranjo's own inclusion criteria exclude. The
+  comparison sets it against the converted 1850, not the step-measured \~750. It also sets a
+  between-person difference in habitual steps against a \~3-month between-arm trial difference. Those
+  are different quantities, and the trial difference has not been shown to last. So "a tracker buys
+  the mortality-relevant increment" is unsupported. What is supported is a \~600-750-step gain for a few
+  months; its mortality relevance is unmeasured. [inferred from @laranjo2020] -> [[Physical Activity Dose and Mortality]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where it sits in the Layer-1 ranking
 
 For a reasonably-healthy, already-somewhat-active person, this is a **small, low-certainty lever**: it
 does not change the activity dose-response, only the odds of reaching/holding a dose, and only the
 short-term odds are shown. It ranks as an *adherence aid*, not a big rock — most useful for a
-near-inactive person (large baseline gap, where +627 steps/day is worth most) and most credible when
+near-inactive person (large baseline gap, where the step-mortality gradient is steepest, if an induced
+gain transfers along it, which is unshown) and most credible when
 paired with human contact rather than as a stand-alone gadget. The device is not a substitute for the
 activity; it is a candidate scaffold for doing it. -> [[Layer 1 - Ranking Interventions for a Stratum]]
+
+Laranjo leaves this ranking where it was. App-only interventions showed no detectable difference from
+tracker interventions (an exploratory subgroup null; equivalence not shown), and for a smartphone owner
+an app is near-free. That lowers the cost side of the
+lever, not its effect size. [inferred from @laranjo2020]
+
+**Confidence: low.** The best-supported element is the direction: app or tracker interventions raise
+step counts over control in the short term (2-40 weeks). The size (\~600-750 steps/day) is low-certainty.
+A second MA does not lift the grade, because on steps it largely re-pools the first one's trials.
+Both MAs find a significant positive short-term effect. Laranjo's all-outcome pooled effect stays
+significant after trim-and-fill despite signs of publication bias in the funnel plot; no bias
+adjustment is reported for the step-only estimate. The two step estimates agree, but 9 trials sit in
+both pools (all of them in Brickwood's step MA), so the agreement is largely shared data: it refines the estimate, it does not corroborate it
+independently. Durability and outcome
+transmission stay low-certainty. Each MA rates its own evidence low (Brickwood steps) or
+low-to-moderate (Laranjo overall). Both carry irreducible performance bias, since a behaviour
+intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2020]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Gaps
 
@@ -137,6 +283,14 @@ activity; it is a candidate scaffold for doing it. -> [[Layer 1 - Ranking Interv
   showed *lower* adherence, and no pooled long-horizon estimate exists. No SR/MA of long-follow-up
   wearable-tracker RCTs is held or known to exist; kept as an open gap, not a tracked await (nothing
   specific to acquire). [@brickwood2019wearable]
+- **Durability is still open after a second MA.** Laranjo's trials ran at most 40 weeks (mean 13).
+  The authors ask for «Longer studies ... to assess the impact of different intervention components on
+  long-term engagement and effectiveness». [@laranjo2020]
+- **The usage-to-effect curve is unmeasured.** Engagement was reported in 18 of 28 trials, with
+  inconsistent metrics. No usage dose-response can be estimated. [@laranjo2020]
+- **Strata outside the evidence.** Laranjo's eligibility is 18-65 (a few trials enrolled to \~70) with
+  no chronic disease, and its pool is 28% women. Brickwood includes chronic-condition adults but is tracker-only. Neither
+  supports an app result for older or chronically ill adults. [inferred from @brickwood2019wearable; @laranjo2020]
 - **No patient-important endpoint** — the MA cannot say whether the activity boost translates into
   mortality, cardiometabolic, or function benefit; that is `G (needs aggregation)` across a different
   evidence base.
@@ -147,5 +301,7 @@ activity; it is a candidate scaffold for doing it. -> [[Layer 1 - Ranking Interv
   effect on a *surrogate* (steps / HbA1c), high heterogeneity, low certainty, and unproven durability.
   Flagged as a candidate concept, **not built** — it needs a second device class beyond these two
   before a cross-source synthesis is warranted. [inferred from @brickwood2019wearable]
+
+</div>
 
 ## References

@@ -3,7 +3,7 @@ type: framework
 question: How much does lowering LDL/apoB reduce hard cardiovascular events, per unit of lowering — and which lipid number should the target be?
 aliases: [LDL Lowering Magnitude, Statin Per mmol Effect, CTT Meta-Analysis, LDL Reduction Events, ApoB vs LDL-C, Which Lipid to Target, LDL-C Event Reduction]
 authors: [Cholesterol Treatment Trialists' Collaboration (org); Marston, Nicholas A; Richardson, Tom G; Sanderson, Eleanor; Palmer, Tom M; Davey Smith, George; Mach, François; Blumenthal, Roger S; Helgadottir, Anna; Landry, Matthew J; Reith, Christina; Ma, Chaoran; Gao, Xiang; Li, Wangwen]
-sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025]
+sources: [CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Helgadottir - Cholesterol Not Particle Concentration, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025, CTT - Statin Therapy Older People 2019]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -23,8 +23,8 @@ relationships:
     - Statins and New-Onset Diabetes
     - The U-Shaped Association Artifact
 created: 2026-08-05
-updated: 2026-09-15
-self_critiqued: 2026-09-15
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 Two separable questions sit under the lipid lever, and two sources answer them. **How much does
@@ -34,6 +34,8 @@ LDL-C in \~430,000 people). This page holds the magnitude and the metric; the ca
 (why LDL/apoB causes disease, why the dose is cumulative) is the nucleus
 [[LDL ApoB and Cumulative Exposure]]. Structural sibling to
 [[Blood Pressure Lowering and Cardiovascular Events]] on the other big cardiometabolic lever.
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The magnitude — CTT per 1.0 mmol/L LDL-C reduction
 
@@ -64,6 +66,45 @@ reduction transmitted all the way to all-cause death in randomised evidence — 
 direction, and a worked instance of [[Surrogate Outcomes]]'s counter-exemplar. And with **no excess
 cancer or non-vascular mortality** even at low LDL, which retires the old low-cholesterol-harm hypothesis
 for the *drug-lowered* range.
+
+### By age — the same per-mmol effect to 75, a thinner and partly confounded signal above it `[2026-10-06, CTT 2019]`
+
+CTT 2019 re-analysed the statin trials by age at entry (28 trials, 186,854 people, median 4.9 y; 14,483
+older than 75). It is the same collaboration and largely the same trials as the 2010 table above (CORONA and HOPE-3
+added), so it refines that table by age rather than corroborating it. Per 1.0 mmol/L LDL-C reduction,
+overall column 95% CIs, >75 column 99% CIs:
+
+| Outcome | All ages (95% CI) | Age trend p | >75 (99% CI) |
+|---|---|---|---|
+| Major vascular events | 0.79 (0.77-0.81) | 0.06 (0.3 without HF/dialysis trials) | 0.87 (0.77-0.99); 0.82 (0.70-0.95) without HF/dialysis |
+| Major coronary events | 0.76 (0.73-0.79) | 0.009 (0.01 without HF/dialysis) | 0.82 (0.70-0.96) |
+| Coronary revascularisation | 0.75 (0.73-0.78) | 0.6 | 1.02 (0.75-1.40), 210 vs 209 procedures |
+| Any stroke | 0.84 (0.80-0.89) | 0.7 | 0.89 (0.71-1.10) |
+| Vascular death | 0.88 (0.85-0.91) | 0.004 (0.2 without HF/dialysis) | 0.95 (0.83-1.07); 0.86 (0.69-1.08) without |
+| MVE, with vascular disease | 0.80 (0.77-0.82) | 0.2 (0.9 without HF/dialysis) | 0.85 (0.73-0.98) |
+| MVE, no known vascular disease | 0.75 (0.71-0.80) | 0.05 (0.03 without HF/dialysis) | 0.92 (0.73-1.16) |
+
+[@ctt2019]
+
+- **The heart-failure and dialysis trials drag the old-age estimates.** Statins barely moved MVE in those
+  four trials (RR 0.95 in each pair vs 0.77 elsewhere), 20% of the >75 group came from the HF trials, and
+  «However, 1014 (53%) of 1906 vascular deaths among people older than 75 years occurred in the four heart failure or dialysis trials.»
+  Without them: «Among people without heart or renal failure, we found little evidence of any diminution of benefit with increasing age on major vascular events (ptrend=0·3) or on vascular death (ptrend=0·2).» [@ctt2019]
+- **No excess non-vascular death or cancer at any age:** «Statin therapy had no effect at any age on non-vascular mortality, cancer death, or cancer incidence.» [@ctt2019]
+  All-cause mortality RR 0.91 (95% CI 0.88-0.93) overall; its age trend (p=0.04) did not persist once the
+  HF/dialysis trials were excluded (p=0.1). Other harms by age (diabetes, cognition) were left to a
+  separate CTT adverse-event analysis, not held. [@ctt2019]
+- **The weak cell is primary prevention past 75**, where the CI spans both the all-age effect and no
+  effect; the authors judge «there were too few such older participants for reliable assessment in that
+  group alone». The route (a)/(b) reading is on [[Baseline Risk and the Relative-Absolute Split]]; the
+  start-a-statin consequence is on [[Statins for Primary Prevention and the Power of Zero CAC]].
+  [@ctt2019]
+- So the 2010 claim that the per-mmol effect held «in all types of patient studied» survives by age where
+  the data are dense (to 75, and secondary prevention past 75), except a modest graded attenuation on
+  major coronary events across all ages (cause unclear), and is **unconfirmed, not refuted**, for
+  the oldest people without vascular disease. [inferred from @ctt2019; @ctt2010]
+
+</div>
 
 ## The shape — monotone, no threshold, multiplicative
 

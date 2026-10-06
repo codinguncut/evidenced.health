@@ -20,10 +20,10 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-10-04
-updated: 2026-10-04
-self_critiqued: 2026-10-04
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
+<div class="recent-page" data-last-updated="2026-10-06"></div>
 
 
 **The decision.** *train in the fat-burning zone* is a popular prescription: exercise at the intensity
@@ -40,18 +40,23 @@ The single most important thing to get right about this literature: **FATmax is 
 an individually-measured intensity target — applied within ordinary aerobic exercise (walking, jogging,
 cycling), not a separate modality.** In this stratum it lands at a low intensity. The recommended target
 is «structured exercise at FATmax inten­ sity (typically 42%–49% ̇VO2 max)»
-[@jiang2026], and the trials that measured it directly
-sat at 34.5-46% VO2max.
+[@jiang2026], and «the trials we included most often
+prescribed or elicited intensities between approximately 35% and 66% ̇VO2 max»
+[@jiang2026]. (corrected 2026-10-06: 34.5-46% -> \~35-66%;
+self-critique)
 
-That band sits at or *below* the bottom of the moderate-aerobic (AE-M, 45-65% VO2max) category ranked by
-[[Exercise Modality for Body Composition in Obesity]]. So FATmax is best understood as **individualised
-light-to-low-moderate aerobic exercise** — the same activity that framework already covers, prescribed by
+That band sits mostly at the lower end of, and overlapping, the moderate-aerobic (AE-M, 45-65% VO2max)
+category ranked by [[Exercise Modality for Body Composition in Obesity]]. So FATmax is best understood as
+**individualised low-to-moderate aerobic exercise** — the same activity that framework already covers, prescribed by
 substrate-crossover intensity rather than a fixed %VO2max. The low band is *not* an obesity-specific
 downshift: «Croci et al. [81] reported no between-­group difference in FATmax intensity expressed as a
 percentage of ̇VO2 max in physically active overweight versus lean men matched for cardiorespiratory
 fit­ ness, suggesting that adiposity per se does not necessarily imply a lower relative FATmax intensity»
-[@jiang2026]. The low intensity reflects the untrained,
-low-fitness population and low-impact modality, not the body fat.
+[@jiang2026]. The low intensity «may more plausibly
+reflect the predominance of untrained/low-­active participants and the frequent use of low-­impact
+modalities (e.g., walking) [83], rather than a universal shift toward lower % ̇VO2 max» (Jiang's hedge)
+[@jiang2026]. (corrected 2026-10-06: flat *reflects* ->
+Jiang's *may more plausibly reflect*; self-critique)
 
 ### Is FATmax distinct from moderate aerobic, or a relabel? — a distinction, not a tension
 
@@ -61,7 +66,7 @@ matched. They are not the same quantity on any axis:
 | Parameter | Jiang (FATmax MA) | O'Donoghue (AE-M, NMA) | Same quantity? |
 |---|---|---|---|
 | Object compared | an intensity-prescription method | an exercise modality category | No |
-| Intensity | 42-49% VO2max (34.5-46% observed) | AE-M = 45-65% VO2max | No — FATmax at/below AE-M floor |
+| Intensity | *typically* \~42-49% VO2max (Jiang's hedge — not a fixed band; \~35-66% observed) | AE-M = 45-65% VO2max | No — overlaps the lower/mid AE-M band |
 | Comparator | non-exercise / diet-only control | network of 6 modalities + control | No |
 | Population | overweight+obese BMI>=25, incl. adolescents, T2D/NAFLD | obesity BMI>=30, adults | No |
 | Body-weight effect | MD -3.66 kg vs control | -0.05 to -1.01 kg across modalities | No — not comparable |
@@ -80,12 +85,18 @@ not a demonstrated benefit.
 ## What FATmax training moves — the pooled effect menu
 
 Across 19 RCTs (N = 644), versus non-exercise or diet-only control, FATmax aerobic training (3-5x/week,
-45-60 min, 8-16 weeks) produced (MD for anthropometry, SMD for cardiometabolic; all p<0.01):
+\~20-90 min/session — most 45-60, the Tunisian paediatric trials 90 — over 8-20 weeks; Table 1
+[@jiang2026]; corrected 2026-10-06 from 45-60 min,
+8-16 weeks; self-critique) produced (MD for anthropometry, SMD for cardiometabolic; all p<0.01):
 
 - **Body composition:** body weight -3.66 kg (95% CI -4.98, -2.35); fat mass -2.86 kg (-3.89, -1.83);
   body fat -2.32% (-3.65, -1.00); waist -4.21 cm (-6.27, -2.16); BMI -1.66 (-2.23, -1.09).
 - **Cardiometabolic:** VO2max SMD 1.45 (0.98, 1.93, large); fasting glucose SMD -1.28 (-1.84, -0.72,
-  large); HOMA-IR -0.57 (-0.83, -0.31); fasting insulin -0.53 (-0.79, -0.27).
+  large); HOMA-IR -0.57 (-0.83, -0.31); fasting insulin -0.53 (-0.79, -0.27). The VO2max gain was larger
+  in under-18s — «greater improvements were observed among participants aged <18 years, those with BMI ≥
+  30 kg/m2, and among African cohorts» [@jiang2026] —
+  who make up 8 of 19 trials (Table 1, chunk 02), and publication bias is flagged for VO2max and fasting
+  glucose, so the adult magnitude is likely smaller.
 - **Weak or null:** the lipid panel (TC, TG, HDL-C, LDL-C) and DBP were non-significant, with at most a
   SBP signal (exact CIs figure-bound).
 
@@ -140,16 +151,20 @@ replicate, not a dosing ceiling to obey.
 ## Decision relevance
 
 - **For an inactive adult with overweight or obesity, the big rock is doing regular aerobic activity at
-  all** -> [[Layer 1 - Ranking Interventions for a Stratum]]. FATmax (individualised light-to-moderate
+  all** -> [[Layer 1 - Ranking Interventions for a Stratum]]. FATmax (individualised low-to-moderate
   aerobic) is a reasonable, well-tolerated way to prescribe that starting dose, and it improves fitness
-  and glycaemic markers substantially. But its *marginal* rank over ordinary moderate aerobic exercise is
+  and glycaemic markers vs control (the fitness gain larger in under-18s, \~8/19 trials; publication bias flagged for
+  VO2max and fasting glucose — the adult magnitude is likely smaller). But its *marginal* rank over ordinary moderate aerobic exercise is
   **not established by this evidence** — there is no head-to-head arm.
 - **Do not sell FATmax as a superior fat-burning method.** The popular framing ("the fat-burning zone
   melts fat fastest") outruns the evidence: the MA shows FATmax beats *doing nothing*, which any aerobic
   exercise does, and part of the fat-loss signal tracks intensity-*measurement* error. Whether the
   crossover-intensity individualisation adds anything is an open gap.
-- **Weight loss still needs a dietary deficit.** The -3.66 kg vs control is inflated by diet
-  co-intervention in some trials and higher training volumes; it does not overturn the held picture that
+- **Weight loss still needs a dietary deficit.** The -3.66 kg vs control *may* partly reflect dietary
+  co-intervention arms (where controls did not diet) and the measurement-artifact moderator above; the
+  source tested dietary restriction as a moderator and reported it as significant for VO2max, not body
+  composition, so this is a hypothesis, not a finding (corrected 2026-10-06: *is inflated by diet
+  co-intervention and higher volumes* -> hypothesis; self-critique). It does not overturn the held picture that
   exercise alone barely moves the scale -> [[Exercise Modality for Body Composition in Obesity]],
   [[Does Weight Loss Reduce Cardiovascular Events]]. Body-composition and fitness, not weight, are where
   aerobic training earns its place.
@@ -171,7 +186,7 @@ replicate, not a dosing ceiling to obey.
   result.
 - **Heterogeneous, non-generalisable sample.** Concentrated in Chinese/Tunisian/French cohorts, mixing
   adolescents and metabolically-ill strata; dietary co-intervention varied; surrogate outcomes only;
-  short interventions (8-16 weeks). Publication bias flagged for VO2max, fasting glucose and DBP.
+  short interventions (8-20 weeks; corrected 2026-10-06 from 8-16, Table 1 chunk 02). Publication bias flagged for VO2max, fasting glucose and DBP.
 
 [inferred from @jiang2026]
 

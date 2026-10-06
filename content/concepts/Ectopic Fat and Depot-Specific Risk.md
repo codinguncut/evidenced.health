@@ -8,8 +8,8 @@ cluster: ectopic-fat
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-09-23
-self_critiqued: 2026-09-23
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Total Diet Replacement and Type 2 Diabetes Remission
@@ -23,22 +23,34 @@ relationships:
     - Menopause and the Shifting Levers
     - Allostatic Load and Mortality
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
 (Taylor's personal-fat-threshold hypothesis) and a population-outcome meta-analysis (Kramer's
-metabolically-healthy-obesity MA): **cardiometabolic risk tracks WHERE fat is stored — overflowing into
-the liver, pancreas and viscera once safe subcutaneous storage is exceeded — more faithfully than it
+metabolically-healthy-obesity MA): **cardiometabolic risk tracks WHERE fat is stored — in the liver,
+pancreas and viscera rather than subcutaneously (the subcutaneous-overflow mechanism is the wiki's
+adipose-expandability reading, not Taylor's stated hypothesis — see below) — more faithfully than it
 tracks total fat mass or BMI.** This reframes three decisions the fat-mass / BMI lens gets wrong: who is
 at risk (some normal-weight people are; some obese people are less so, but not durably safe), what the
 operative variable is (depot / metabolic status, not the scale), and why the risk reverses (drawing
 ectopic fat back down). `type-A`
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The bidirectional energy-toxicity spine
 
-**Forward (accumulation).** Chronic energy surplus fills subcutaneous adipose until an individual's
-storage capacity — the **personal fat threshold (PFT)** — is exceeded; further lipid then deposits
-**ectopically** in liver and pancreas (and viscera), driving hepatic insulin resistance and β-cell
-lipotoxicity, and thence metabolic syndrome / type 2 diabetes. Taylor & Holman state it as a hypothesis:
+**Forward (accumulation).** Taylor & Holman define the **personal fat threshold (PFT)** at the organ
+level: «It is hypothesized that each individual has a PFT (dotted line) above which excess fat is stored
+within the liver and the pancreas.» — set by the extent of intra-organ fat and individual susceptibility
+to its local effects, driving hepatic insulin resistance and β-cell lipotoxicity, and thence type 2
+diabetes. [@taylor2015pft] The
+*subcutaneous-capacity / overflow* reading (surplus fills subcutaneous adipose first, then spills into
+organs and viscera) is a related adipose-expandability model the wiki lays over Taylor's PFT, not his
+stated hypothesis — Taylor never mentions subcutaneous fat. (corrected 2026-10-06:
+overflow-from-subcutaneous framing was tagged to Taylor -> wiki inference; self-critique) Taylor states
+the threshold as a hypothesis:
 «We hypothesize that each individual could have a personal fat threshold (PFT) which de- termines their
 susceptibility to developing T2DM ... Gaining sufﬁcient weight to cross their PFT will trigger the
 condition» — and «the hypothesized PFT is independent of BMI».
@@ -51,10 +63,15 @@ loss diet- ary regimen» — «achievable equally readily by people with lower i
 [@taylor2015pft] The reversal
 arm is separately gold-backed by the held RCT evidence -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The depot distinction — three fat compartments are three different objects `type-B`
 
-- **Subcutaneous** — the safe expandable store; capacity varies by individual (and ethnicity), and is not
-  itself pathogenic.
+- **Subcutaneous** — on the adipose-expandability reading, the safe expandable store, not itself
+  pathogenic (no held source in this spine measures subcutaneous storage capacity; Taylor's
+  ethnicity data are BMI-equivalent *risk* cut-points, not storage capacity — see below).
 - **Intra-organ (intra-hepatic + intra-pancreatic)** — the pathogenic depot. Liver fat is «pivotal» and
   drives hepatic IR; pancreatic fat suppresses glucose-mediated insulin secretion (β-cell lipotoxicity).
 - **Visceral** — commonly treated as *the* villain, but Taylor demotes it to a **marker**: «Extent of
@@ -97,9 +114,11 @@ observational design of the eligible studies does not allow for proving causalit
 [@mantovani2018]. Three dissociation lines make
 this a substantive caveat, not boilerplate:
 
-- **Genetic (natural experiment):** carriers of the PNPLA3 variant show "a dissociation between NAFLD
-  and insulin resistance" — high liver fat without the expected IR
-  [@mantovani2018].
+- **Genetic (natural experiment):** «there may be a dissociation between NAFLD and insulin resistance in
+  humans carrying some genetic variants, such as the patatin‐like phospholipase 3 gene» — possibly high
+  liver fat without the expected IR
+  [@mantovani2018]. (corrected 2026-10-06: carriers
+  *show* -> *may* be dissociated, full clause; self-critique)
 - **Experimental:** "specific manipulation of liver fat is insufficient to affect insulin
   sensitivity/glycemia" in animal models
   [@mantovani2018].
@@ -113,7 +132,16 @@ cherry-picking half of a multi-position source (not-joined check (iii)). Read to
 tension above, the pattern is consistent: each fat depot on the way in (visceral, then the intra-organ
 depots including liver fat) is a candidate treacherous surrogate — a strong *predictor* whose *causal*
 transmission to dysglycemia is only partly evidenced, with genetic/experimental cuts against a clean
-fat-drives-IR chain. **The decision-relevant residue is the reversal gap:** Mantovani notes "it remains to be
+fat-drives-IR chain. **The genetic line is not outside doubt against Taylor, though:** Taylor cites the
+same PNPLA3 study (Kantartzis 2009 — Mantovani's ref 44, Taylor's ref 39) beside «pivotal» and absorbs
+it as variable susceptibility — «The variable effect is illustrated by one known genetic inﬂuence in that
+individuals with the G-allelle of patatin-like phospholipase 3 gene have a higher liver fat level but
+normal hepatic insulin sensitivity [39].»
+[@taylor2015pft] — so the PFT is
+already *extent x susceptibility*, not a one-factor chain, and the genetic line *refines* rather than cuts
+against it; the animal line and Mantovani's black-white liver-fat contrast are not in Taylor (his
+ethnicity data are BMI-equivalent risk cut-points). (corrected 2026-10-06: PNPLA3 line
+framed as a new doubt against Taylor -> shared primary study Taylor already absorbs; self-critique) **The decision-relevant residue is the reversal gap:** Mantovani notes "it remains to be
 definitely proven that improving the liver condition in NAFLD decreases risk of developing diabetes"
 [@mantovani2018] — so liver fat earns its place
 as a **prognostic marker and monitoring handle** more firmly than as a validated **treatment target**
@@ -122,16 +150,23 @@ acts on the shared upstream driver regardless of which depot is the proximate ca
 -> [[Surrogate Outcomes]].
 [inferred from @mantovani2018]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Why BMI misleads — the individual-vs-population gap
 
 BMI is a population statistic misapplied to a person. Taylor's UKPDS distribution is unimodal (no distinct
 non-obese subtype), yet **36% of newly-diagnosed T2DM had BMI <25** (vs 64% <25 in the contemporaneous UK
 population). Taylor's own reading of the strong obesity-T2DM association *today* is that it reflects the
 population BMI distribution shifting right, not that T2DM requires obesity — susceptibility is set by
-whether a person carries more fat than *they* can store safely, not by a population cut-point. The
+whether a person crosses *their own* threshold, not by a population cut-point (corrected 2026-10-06: was
+*more fat than they can store safely* — the overflow framing, not Taylor's; cold-audit). The
 threshold itself shifts by ethnicity: «the equivalent degree of risk for a Caucasian of BMI greater than
 30 kg/m2 is expressed in South Asians at 25.2 kg/m2 and at 27 kg/m2 in African/Caribbeans».
 [@taylor2015pft]
+
+</div>
 
 ## The population signature — Kramer's MHO meta-analysis reads as the same claim at scale `type-A`
 
@@ -193,11 +228,14 @@ E-independence, because Kramer never measures ectopic fat — metabolic-syndrome
 for the depot biology Taylor describes. The convergence raises confidence in the reframe, not in any shared
 number.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The hard-outcome instantiation — INTERHEART maps the depot distinction onto MI `type-F`
 
 Taylor and Kramer are glycemic/metabolic-status sources; INTERHEART extends the depot distinction to a
 **hard cardiovascular endpoint** (first acute MI, 27,098 people, 52 countries) and reads the same shape at
-population scale: **abdominal fat harmful, lower-body fat protective, and BMI the wrong instrument.** Top vs
+population scale: **abdominal girth harmful, larger hips protective (fat or muscle — see below), and BMI the
+wrong instrument.** Top vs
 bottom quintile OR for MI (adjusted for BMI): waist **1.77 (1.59-1.97)** harmful, hip **0.73 (0.66-0.80)**
 protective; waist-to-hip ratio is the single strongest marker (per 1 SD 1.37, 1.34-1.41) while BMI is the
 weakest (1.10, 1.07-1.13) and its whole MI association vanishes after adjusting for WHR (1.44 -> 1.12) then
@@ -214,23 +252,41 @@ Taylor goes one step further and **demotes visceral fat itself to a marker** of 
 two do not fully agree on what the pathogenic depot *is* — INTERHEART stops at visceral-fat-as-key-
 determinant, Taylor pushes past it to intra-organ fat. What they share, from independent endpoints (MI
 events vs glycemic/β-cell biology) and independent author lines (Yusuf's INTERHEART team vs Taylor's
-Newcastle group), is the operative claim one level up: **fat distribution, not BMI, carries the risk, and
-lower-body fat is not merely neutral but protective.** The hip-protective arm is the novel hard-outcome
-facet INTERHEART adds — with the caveat that its case-control design makes that arm the most exposed to
-reverse causation (acute-illness muscle loss).
+Newcastle group), is the operative claim one level up: **fat distribution, not BMI, carries the risk.**
+The hip arm is INTERHEART's alone (Taylor says nothing about lower-body fat): a larger hip
+*circumference* is protective, which the authors themselves say may index gluteal muscle rather than fat —
+«Third, increasing hip measurements might also indicate increased gluteal muscle and could be a marker of
+overall skeletal muscle mass.» [@yusuf2005interheart]
+— and its case-control design makes that arm the most exposed to reverse causation (acute-illness muscle
+loss). (corrected 2026-10-06: *lower-body fat protective* as a shared Taylor+INTERHEART claim -> INTERHEART
+hip-circumference only, muscle reading named; self-critique)
 [inferred from @yusuf2005interheart; @taylor2015pft]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
 - **Measure central adiposity (waist/WHR), not BMI, when ranking cardiometabolic risk.** The depot claim
   now has a hard-CV-outcome instantiation, not only a glycemic one
-  -> [[Waist-to-Hip Ratio and Cardiovascular Risk]]. A normal-weight person with a high WHR is above their
-  personal fat threshold *and* carries elevated MI risk; both lenses point past the scale to fat
-  distribution.
-- **Offer weight loss to normal-weight people with T2D.** They are above their PFT even at BMI <25 — the
-  stratum weight-loss remission trials routinely *exclude* (DiRECT required BMI >=27), yet Taylor's data
-  show they respond, and at a *smaller* required loss (\~13% at normal BMI vs \~21% for the whole cohort)
-  -> [[Total Diet Replacement and Type 2 Diabetes Remission]]. This is the sharpest decision-change here.
+  -> [[Waist-to-Hip Ratio and Cardiovascular Risk]]. In a normal-weight person a high WHR flags elevated MI risk
+  (INTERHEART) and is *consistent with* intra-organ excess; the PFT itself is not measurable from WHR.
+  Both lenses point past the scale to fat distribution. (corrected 2026-10-06: high WHR "is
+  above their PFT" -> consistent with; self-critique)
+- **Offer weight loss to normal-weight people with T2D.** On the PFT hypothesis they may be above their
+  personal threshold even at BMI <25 — a stratum weight-loss effectiveness studies have «typically
+  excluded» — yet Taylor's UKPDS data show their *fasting glucose* responds, and at a *smaller* required
+  loss: in those presenting with plasma glucose 8-10 mmol/l, normoglycaemia came with \~13% loss at normal
+  body weight vs \~21% for the whole cohort, on a 3-4 month diet-only run-in in which 16% of the cohort
+  reached fasting plasma glucose <6.0 mmol/l
+  [@taylor2015pft]. (DiRECT's
+  BMI >=27 entry criterion is not in Taylor — via
+  [[Total Diet Replacement and Type 2 Diabetes Remission]].) (corrected 2026-10-06: glucose-band + 16%
+  base added, DiRECT moved off the Taylor tag, PFT stated as hypothesis; self-critique) That is fasting normoglycaemia, not
+  HbA1c-defined remission off drugs, so the lean-stratum remission dose is unmeasured here. This is the
+  sharpest decision-change here. (corrected 2026-10-06: *they respond* -> fasting-glucose response, Taylor
+  chunk 01)
 - **Metabolically-healthy obesity is not a free pass — and now on the newer, larger anchor.** The
   durability call re-anchors off the dated Kramer 2013 MA onto **Opio 2020** (2020 gold SR+MA, 23 cohorts,
   n = 4.49 M): the excess CVD risk **holds even with zero metabolic risk factors** (MHOW RR 1.51, MHO RR
@@ -260,6 +316,7 @@ reverse causation (acute-illness muscle loss).
   status is genuinely causal for the **glycemic** axis (this spine), and genuinely **not** the CVD lipid
   lever (apoB is); a raised TyG / TG-HDL *flags* the discordance, it does not replace measuring apoB.
 
+</div>
 
 ## Limits
 

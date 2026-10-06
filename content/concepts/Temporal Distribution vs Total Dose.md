@@ -8,8 +8,8 @@ cluster: estimate-to-action
 nucleus: false
 confidence: medium
 created: 2026-09-29
-updated: 2026-09-29
-self_critiqued: 2026-09-29
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Weekend Warrior Activity Pattern and Mortality
@@ -31,16 +31,21 @@ buys little (and this is the robustly-evidenced side), while a pattern that migh
 physiological channel — circadian timing — is where the positive signals cluster, though that side of the
 evidence is markedly weaker. `type-A` (a cross-instance structure no single instance page states).
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The instances split into two camps
 
 
 
-- **Physical activity — distribution is null at matched volume.** Concentrating guideline-level activity
-  into 1-2 sessions ("weekend warrior") carries the same mortality benefit as spreading the same total
-  across the week (observational head-to-heads), and the cleanest isolation — a within-MVPA-decile
-  comparison on incident CVD events — finds no difference between concentrated and spread at matched
-  volume. **Total volume, not its distribution across days, carries the signal** — for mortality and CVD
-  events. Even here the null is outcome-scoped: the acute-effect channel (the BP and lipid benefits that
+- **Physical activity — no detectable effect of distribution at similar volume.** Concentrating
+  guideline-level activity into 1-2 sessions ("weekend warrior") shows a mortality benefit similar to
+  spreading activity across the week (observational head-to-heads), and the cleanest isolation — a
+  within-MVPA-decile comparison on incident CVD events (volume binned, not exactly matched) — finds no
+  significant difference, with CIs that do not exclude modest effects either way (e.g. MI HR 1.12,
+  0.95-1.30, per Khurshid as held on the Weekend Warrior page below). **On present evidence
+  total volume, not its distribution across days, carries the detectable signal** — for mortality and
+  CVD events; an absence of detected difference, not demonstrated equivalence (corrected 2026-10-06:
+  *null at matched volume* -> no detectable difference within volume deciles). Even here the null is outcome-scoped: the acute-effect channel (the BP and lipid benefits that
   need regular sustaining) is unrefuted for intermediate outcomes
   -> [[Weekend Warrior Activity Pattern and Mortality]] (and the total-dose curve itself,
   [[Physical Activity Dose and Mortality]]).
@@ -58,6 +63,10 @@ evidence is markedly weaker. `type-A` (a cross-instance structure no single inst
   is observational (predictor, not established causal lever; see the tiers below)
   -> [[Sleep Regularity and Mortality]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Why the split — the mechanism reads the axis
 
 
@@ -65,13 +74,18 @@ evidence is markedly weaker. `type-A` (a cross-instance structure no single inst
 The two camps line up with *why* a temporal pattern could act. Where the distribution is just a
 **rearrangement of the same total** with no new mechanism — the same MVPA minutes on two days instead of
 five, the same calories in an 8-hour window — the naive expectation is that the total is what the body
-integrates, and that is what the evidence shows: the pattern is null once volume is matched. Where the
+integrates, and that is what the evidence shows: no detectable pattern effect at similar volume (an
+absence of detected difference, not demonstrated equivalence). Where the
 distribution instead **taps a channel the total does not** — day-to-day sleep-timing regularity engages
 circadian alignment, a mechanism largely orthogonal to how many hours are slept — the pattern *may* carry
 its own effect (this is where the positive but weaker signals sit). The lesson is not "pattern matters" or
 "only totals matter"; it is **ask whether the pattern opens a distinct mechanism, or only re-shuffles the
 dose** — and note that the cases where a distinct mechanism is plausible are exactly the ones the evidence
 has isolated least well (below).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The evidence tiers are not symmetric — hold the split lightly
 
@@ -82,12 +96,15 @@ null on CVD events and a 12-month isocaloric RCT — while **both** "distributio
 the weak tier. Sleep regularity is a single observational cohort's *predictor* comparison (its own page
 cautions that being the stronger predictor is not the same as being the stronger causal lever — covariates
 may be partial mediators); eating-early rests on one n=8 crossover that a 12-month calorie-matched RCT
-failed to reproduce. So **every robust result here is a null, and every positive is fragile or contested.**
+failed to reproduce. So **every robust result here is a no-detected-difference (CIs not excluding modest effects), and every
+positive is fragile or contested.**
 That leaves a live alternative to the exposure-specific reading: the split may be partly an artifact of
 **how well each distribution effect was isolated**, not only of the underlying biology. The concept's
 load-bearing caution survives either way (do not transport a distribution finding across exposures — test
 each), but "distribution dominates" should be read as a live hypothesis in sleep and a low-confidence
 preference in eating, not an established effect.
+
+</div>
 
 ## Decision relevance
 

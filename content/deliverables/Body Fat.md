@@ -4,11 +4,11 @@ title: Body Fat
 aliases: [Body Fat, Obesity, Adiposity, Should I Lose Weight, Is My Fat Dangerous, Body Fat Percentage, Visceral Fat, Body Composition, Metabolically Healthy Obesity]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-02
-self_critiqued: 2026-10-02
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 question: 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)'
-sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
+sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
 ---
 
 ## Where fat sits matters more than how much of it there is
@@ -29,10 +29,12 @@ outcome, whether the loss lasts -- those live in [[Losing Fat and Keeping It Off
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Where fat sits carries the risk — read the depot, not the scale
 
 The first decision about body fat is not *how much* but *where*. Cardiometabolic risk tracks the fat
-that overflows into the liver, pancreas and viscera once safe subcutaneous storage is exceeded, far
+stored in the liver, pancreas and viscera, rather than under the skin, far
 more faithfully than it tracks total fat mass or the number on the scale. A normal-weight person can be
 metabolically ill; a heavier person can be, for a time, not. So a total-adiposity reading (BMI, or
 even body-fat percentage) is the wrong instrument, and the familiar U-shaped "overweight is protective"
@@ -98,8 +100,12 @@ top-versus-bottom-quintile odds ratio for MI is **1.77 (1.59-1.97)** for waist (
 (0.66-0.80)** for hip (protective); waist-to-hip ratio is the strongest single marker at **1.37
 (1.34-1.41)** per SD, while BMI is the weakest at **1.10 (1.07-1.13)** and its whole MI association
 vanishes after adjusting for WHR (1.44 -> 1.12) then the other risk factors (-> 0.98).
-[@yusuf2005interheart] Abdominal fat is harmful,
-lower-body fat protective — the depot claim, now on a cardiovascular event rather than a glycemic one.
+[@yusuf2005interheart] A bigger waist is harmful
+— the depot claim, now on a cardiovascular event rather than a glycemic one. The protective hip arm is
+weaker evidence: INTERHEART measured hip circumference, not hip fat, and its authors note that
+«increasing hip measurements might also indicate increased gluteal muscle and could be a marker of overall skeletal muscle mass»
+[@yusuf2005interheart]; it is also the arm most
+exposed to the case-control artifact described below.
 
 INTERHEART read this as proof that clinics should abandon BMI and switch to waist-to-hip ratio. A larger
 prospective test overturns that *marker-ranking* claim while leaving the depot claim intact. ERFC 2011
@@ -192,8 +198,8 @@ coarse screen, not a target.
 
 ### The Personal Fat Threshold — and why reversal happens below BMI 25
 
-Taylor's model gives the individual-versus-population gap a name: each person has a personal fat
-threshold above which lipid spills into the organs, and «the hypothesized PFT is independent of BMI».
+Taylor's model gives the individual-versus-population gap a name, the personal fat threshold (PFT),
+defined at the organ level: «It is hypothesized that each individual has a PFT (dotted line) above which excess fat is stored within the liver and the pancreas.» — and «the hypothesized PFT is independent of BMI».
 [@taylor2015pft] The data bear
 the reframe out — **36% of newly-diagnosed T2DM occurred at BMI <25** (against 64% below 25 in the
 contemporaneous UK population), so diabetes does not require obesity, only carrying more fat than *you*
@@ -233,8 +239,9 @@ BMI and not by a body-fat percentage. Where the full metabolic panel is already 
 the anthropometric marker — waist and WHR earn their keep mainly as a *screen* when blood pressure,
 lipids and glucose are not yet known, and as a reason to look harder
 [@erfc2011whr].
-A normal-BMI person with a high WHR or a bad metabolic panel is above their personal fat threshold and
-carries elevated MI risk; a currently-clean panel in an obese person buys less durable safety than it
+A normal-BMI person with a high WHR carries elevated MI risk, and a high WHR or a bad metabolic panel
+is consistent with fat stored in the organs, though no tape measure can show where their personal
+threshold sits; a currently-clean panel in an obese person buys less durable safety than it
 appears to.
 
 The lever in every case is negative energy balance,
@@ -242,6 +249,9 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -318,12 +328,19 @@ demonstrated drug-route data point.
 That win is not a one-off. A class meta-analysis of 11 cardiovascular-outcome trials (Badve 2024; 85,373
 participants) finds the whole GLP-1 receptor-agonist class cuts hard events — «a 13% reduction in the
 risk of MACE (HR 0·87, 95% CI 0·81 to 0·93; high-certainty evidence)» in the type-2-diabetes trials,
-consistent regardless of diabetes status
-[@badve2024glp1].
+and effects «appeared consistent regardless of diabetes status»
+[@badve2024glp1]. Only
+nonfatal heart attack differed by diabetes status (p-heterogeneity 0.02, both groups still benefiting),
+and SELECT is the only trial without diabetes [@badve2024glp1].
 
-That sharpens the route-matters point rather than crediting weight loss: these were glucose-lowering trials with modest
-weight change, and the CV benefit separates early, before much weight is lost — a drug-specific
-pleiotropic effect, not a weight-loss effect. So the drug route to CV events is robust and class-wide,
+That sharpens the route-matters point rather than crediting weight loss: most of the pooled trials were
+glucose-lowering type 2 diabetes trials with modest weight change. Badve does not report when the curves
+separate. In the single trial SELECT (obesity without diabetes, established CVD) the benefit «occurred
+early after the initiation of treatment», and its authors suggest that physiological changes «beyond the
+magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit», while
+calling the mechanisms speculative
+[@lincoff2023]. That points to a
+drug-specific effect, not purely a weight-loss effect. So the drug route to CV events is robust and class-wide,
 while the lifestyle weight-loss route's CV-event null still stands
 -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 [inferred from @badve2024glp1]
@@ -407,6 +424,7 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
+</div>
 
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
@@ -576,7 +594,7 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The decision: read the depot, target it, and know what losing it buys
 
@@ -608,10 +626,10 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)' |
-> | **Evidence included** | 29 sources — 15 gold, 13 high, 1 moderate |
+> | **Evidence included** | 30 sources — 15 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Taylor (mechanism, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 </div>
 

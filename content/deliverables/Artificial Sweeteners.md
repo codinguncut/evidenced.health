@@ -10,7 +10,6 @@ updated: 2026-10-03
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 This page is a general, population-level appraisal — what the evidence says about non-sugar sweeteners
 for anyone the studies speak to. It is not advice for one person; the right choice for you depends on
@@ -20,8 +19,6 @@ your realistic alternative and your goals, which belong at the end, not here.
 saccharin, acesulfame-K, stevia, neotame, cyclamates, advantame. (Sugar alcohols like erythritol and
 xylitol are a separate category this page does not cover.) The honest one-line answer is: **on current evidence they are not shown to harm your health, nor to help
 it either. Which of those matters depends entirely on what you are drinking instead.** -> [[Non-Sugar Sweeteners]]
-
-</div>
 
 ## The bottom line, up front
 
@@ -157,8 +154,6 @@ intake from sweeteners versus water or placebo (energy intake fell only in the s
 This sub-question sits at **insufficient evidence** — not benefit, not harm — and should stay there until
 outcome data arrives, rather than being upgraded on the strength of the story. -> [[Non-Sugar Sweeteners]]
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Insulin and glucose
 
 Two distinct routes run here — keep them apart.
@@ -192,8 +187,6 @@ Route B does something important: it shows a real biological pathway (sweetener 
 handling) exists in humans, so the long-term cohort worry cannot be waved away as pure statistical
 artifact. What it does **not** do is prove sweeteners cause diabetes or heart disease.
 
-</div>
-
 ## Weight loss — the answer depends on the comparator
 
 - **Versus sugar:** yes, a little, and briefly — the 0.71 kg pooled figure, which weakens to
@@ -220,8 +213,6 @@ A plausible behavioural mechanism — a sweetener keeps the *sweet setpoint* hig
 sweet things. Like the appetite question, this craving mechanism is one the outcome evidence does not yet carry.
 It sits at **insufficient evidence**: flagged as a reasonable hypothesis, not asserted as a finding.
  -> [[Non-Sugar Sweeteners]]
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The elephant: long-term cohorts look worse than the trials
 
@@ -272,8 +263,6 @@ So state it defensibly: **the long-term association is unexplained, cannot be fu
 reverse causation, and is not established as causal.** That irreducible uncertainty — which way the arrow
 points — is exactly why WHO issued a *conditional*, not a strong, recommendation.
 
-</div>
-
 ## Who this changes, specifically
 
 - **People with existing diabetes are outside this verdict entirely** — they were excluded from the
@@ -287,8 +276,6 @@ points — is exactly why WHO issued a *conditional*, not a strong, recommendati
   question.)
 - **Children:** limited data; one RCT showed reduced body-fatness but pooled BMI z-score showed no
   effect; two stevia trials showed better dental-caries markers. [@who2023nonsugar]
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## When they are worth using
 
@@ -305,8 +292,6 @@ The evidence gives no population answer, only a comparator answer (the substitut
 The guideline answers a *population* question — do not build public-health policy on sweeteners as a
 weight tool — and that is not the same as your next drink. For an individual who will not switch to water,
 the sweetener is still the better of *those two* options.
-
-</div>
 
 ## What the evidence structurally cannot tell us yet (gaps, stated plainly)
 
@@ -325,8 +310,6 @@ The assembled sources collectively cannot fill these holes -> [[Non-Sugar Sweete
   not to the wiki's holdings.
 - **Appetite, cravings, and the microbiome-to-disease leap all sit at insufficient evidence** — real
   mechanisms, not yet findings.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Where this sits versus the official bodies (guidance-null)
 
@@ -361,7 +344,5 @@ split, and the trial-versus-cohort tension all in view at once, and refusing to 
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Artificial%20Sweeteners.md) |
-
-</div>
 
 ## References

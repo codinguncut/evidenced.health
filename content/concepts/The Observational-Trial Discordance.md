@@ -2,13 +2,13 @@
 type: concept
 question: When a large, consistent observational signal meets a null or weak randomized trial, which is right — and why do they disagree?
 aliases: [Observational vs Trial Discordance, Big Observational Weak RCT, Observational-RCT Conflict, Credibility vs GRADE, Convincing but Very Low]
-authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A; Reith, Christina; Cholesterol Treatment Trialists' Collaboration (org); Salvo, Elizabeth M; Ferko, Nicole C; Cash, Sarah B; Gonzalez, Ailish; Kahrilas, Peter J]
-sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Reith - Statin Muscle Symptoms 2022, Salvo - Proton Pump Inhibitor Safety Umbrella 2021]
+authors: [Simpson, Scot H; Eurich, Dean T; Majumdar, Sumit R; Padwal, Rajdeep S; Tsuyuki, Ross T; Varney, Janice; Johnson, Jeffrey A; Reith, Christina; Cholesterol Treatment Trialists' Collaboration (org); Salvo, Elizabeth M; Ferko, Nicole C; Cash, Sarah B; Gonzalez, Ailish; Kahrilas, Peter J; Li, Guangling; Jiang, Jiangang; Li, Zeping; Nordestgaard, A T; Nordestgaard, B G; Schwingshackl, Lukas]
+sources: [Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Reith - Statin Muscle Symptoms 2022, Salvo - Proton Pump Inhibitor Safety Umbrella 2021, Li - Red Processed Meat CVD T2D Mendelian Randomization 2024, Nordestgaard - Coffee Mortality Mendelian Randomization, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017]
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-25
-self_critiqued: 2026-09-25
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 relationships:
   related_to:
     - Food Groups and Health Outcomes - A Dose-Response Matrix
@@ -40,6 +40,8 @@ the reason is the single most useful thing this pattern teaches: **the two evide
 not estimating the same exposure.** The discordance is a *diagnostic signal to check
 exposure-commensurability*, not a verdict for the trial.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The pattern is real — three worked instances
 
  — the values below are as established on each linked page; the cross-instance structure is
@@ -48,12 +50,12 @@ this page's.
 | Instance | Observational signal | The randomized / causal test | How it resolves |
 |---|---|---|---|
 | **Ultra-processed food** | CVD-mortality association graded class-I *convincing* on the credibility scale | GRADE very low for that outcome; Hall's inpatient RCT confirms UPF *causes* overeating (the mechanism) — but it is the WHOLE direct-diet RCT base (Aramburu's RCT-only SR: 4 trials, n=455, 30/42 null, all high-RoB) | on the **intake surrogate** the trial tested the right exposure and AGREES; on **hard outcomes** the RCT base is too thin to confirm or refute — INSUFFICIENT, not resolved. Hard-outcome RCTs are ethically ruled out -> [[Ultra-Processed Food and Health Outcomes]] |
-| **Coffee** | all-cause mortality RR \~0.83, CVD \~0.85 — consistent across a large umbrella | mostly GRADE very-low; Mendelian-randomization finds **no** genetic causal signal for coffee->T2D; no lifetime RCT is feasible | the natural experiment (MR) nulls one arm -> that arm is likely confounded; hold as insufficient-for-causation, not confirmed -> [[Coffee Consumption and Health]], [[Upgrading Observational Evidence]] |
+| **Coffee** | all-cause mortality RR \~0.83, CVD \~0.85 — consistent across a large umbrella | mostly GRADE very-low; Mendelian-randomization finds **no** genetic causal signal for coffee->T2D (secondhand, power not stated) or mortality (held, not powered to exclude the observational size); no lifetime RCT is feasible | the natural experiment (MR) finds no support for one arm -> that arm is plausibly confounded; hold as insufficient-for-causation, not confirmed and not disconfirmed -> [[Coffee Consumption and Health]], [[Upgrading Observational Evidence]] |
 | **Mediterranean diet** | CVD/mortality graded *convincing* observationally | pooled whole-diet RCTs mostly null **except diabetes**; the one whole-PATTERN RCT (PREDIMED) moved events, while single-nutrient RCTs (the 54-RCT SFA-events null, Look AHEAD) did not | the RCT that tested the RIGHT exposure (the whole pattern) AGREES; the "null RCTs" tested a DIFFERENT exposure (single nutrients) -> [[Mediterranean Diet and Cardiovascular Events]] |
 | **Sugar / SSB / fructose** `[2026-08-06]` | large monotone SSB dose-response cohort signal (T2DM RR 1.19 per 250 mL/d) + higher fructose in NAFLD cases | isocaloric fructose-for-glucose exchange **null** on liver fat, and isoenergetic sugar exchange **null** on weight (0.04 kg) | the trials tested the commensurable exposure — the **sugar molecule at equal energy** — and found null; so the cohort signal is the **added-energy package** (SSB adds poorly-compensated liquid calories), confounded by energy. Harm tracks the calories, not the molecule -> [[Free Sugars Intake]], [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]] |
 | **Total dietary fat** `[2026-08-25; Hooper 2012 pooled 2026-09-04]` | diet-heart-era observational/ecological signal that *total*-fat intake raises CHD | WHI DM Trial (n=48,835) **null** (CHD HR 0.97, stroke 1.02, CVD 0.98) — and the *pooled* RCT class agrees: Hooper 2012's fat-**reduction** subgroup (50,655 pp, containing WHI) is RR 0.97 (0.87-1.08) on CV events, while its fat-**modification** subgroup moved events (RR 0.82/0.83) | the RCTs that tested the **reduction** exposure (total-fat cut, fat->carbohydrate) are null as a *class*, not just in WHI; the RCTs that tested the **right** exposure (fat *modification*, SFA->unsaturated) AGREE with the causal lever. Same wrong-exposure resolution, now generalized from one trial to a moderate-GRADE pooled RCT base — WHI under a diluted \~70%-of-design contrast, \~40% power, is the extreme case of it -> [[Low-Fat Dietary Pattern and Cardiovascular Disease]] |
 | **Hearing aids -> cognition** `[2026-08-28; ACHIEVE first-hand 2026-09-04]` | 8-cohort pool HR 0.81 (0.76-0.87), I2=0% — a 19% lower cognitive-decline hazard among hearing-aid users vs uncorrected hearing loss (Yeo 2023) | ACHIEVE RCT (N=977, first-hand): **null overall** on the continuous 3-year cognition slope (diff 0.002 SD [-0.077 to 0.081], p=0.96); a pre-specified 48% subgroup reduction only in the higher-risk ARIC arm (pinteraction=0.010, lenient alpha<0.10) — Lin/ACHIEVE first-hand, loci on [[Hearing Loss and Dementia]] | **healthy-user self-selection in the intervention arm** (mechanism #3) erases the average effect; a signal survives only where **absolute baseline risk** is high (ARIC). But match quantities first: the overall null is on a *continuous slope* Yeo never estimated, and on the commensurable incidence-HR quantity ACHIEVE (0.90 [0.61-1.33]) *includes* Yeo's 0.81/0.83 — so the RCT is underpowered there, not contradicting. The subgroup interaction is route-(b)-form but hypothesis-generating (contamination: de-novo control drop-in 19.4% vs 7.8%). A confounded-observational + baseline-risk + partly-non-commensurable resolution -> [[Hearing Loss and Dementia]] |
-| **Red meat -> T2D** `[2026-08-29]` (the UNTESTED pole) | NutriGrade "high" per-100 g association, RR 1.17 (1.08-1.26) — robust, consistent, dose-responsive across prospective cohorts (Schwingshackl 2017) | **none held in either direction** — no Mendelian-randomization and no feeding trial isolates red-meat (or heme-iron) -> T2D; the coded exposure is a decontextualized quantity, not a meal or pattern | **UNRESOLVED — held open both ways.** A robust association with *no* natural experiment to null it (as coffee's did) or confirm it (as LDL/BMI's did); healthy-user + guideline-adherence confounding stay unexcluded. Less resolved than coffee, not exonerated -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]] |
+| **Red meat -> T2D** `[2026-08-29]` (the UNTESTED pole; *superseded in part `[2026-10-06]` — one weak MR now held, see Update below*) | NutriGrade "high" per-100 g association, RR 1.17 (1.08-1.26) — robust, consistent, dose-responsive across prospective cohorts (Schwingshackl 2017) | **none held in either direction** — no Mendelian-randomization and no feeding trial isolates red-meat (or heme-iron) -> T2D; the coded exposure is a decontextualized quantity, not a meal or pattern | **UNRESOLVED — held open both ways.** A robust association with *no* natural experiment to null it (as coffee's did) or confirm it (as LDL/BMI's did); healthy-user + guideline-adherence confounding stay unexcluded. Less resolved than coffee, not exonerated -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]] |
 | **PPI adverse outcomes** `[2026-09-25]` (the DRUG case — a *commensurable* RCT exists) | umbrella of 42 SR/MAs, mostly observational: hip fracture RR 1.20, AKI RR 1.61, C. difficile OR 1.99, gastric cancer OR 2.50 — consistent in direction, GRADE very low (Salvo 2021) | COMPASS RCT (Moayyedi, n=17,598, pantoprazole vs placebo, \~3y) — «PPI use was not associated with any of these adverse events with the exception of enteric infections» [@salvo2021ppi] | resolves cleanly TOWARD the RCT — because a **drug is blindable**, the trial tested the *same* exposure the cohorts did, so no wrong-exposure escape applies; the observational signals are **confounding by indication** (sicker patients get PPIs), not drug effect. The one signal both streams share — infection — is the believable one -> [[Proton Pump Inhibitors and Adverse Outcomes]] |
 
 The instances are **not** independent confirmations of one claim (that would be a laundered type-E) —
@@ -86,6 +88,10 @@ on health.» This corroborates the *structure* (surrogate-validity + triangulati
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
 
  — the contrast case that keeps the pattern honest in the *other* direction. Coffee and
@@ -96,16 +102,58 @@ natural experiment.
 
 | Parameter | Coffee -> T2D | Red meat -> T2D | Same quantity? |
 |---|---|---|---|
-| Observational signal | large umbrella, consistent inverse (all-cause RR \~0.83) | NutriGrade "high", RR 1.17 (1.08-1.26) per 100 g | **yes** — both are large, consistent prospective-cohort associations |
-| Natural experiment (MR) | **null** — no genetic causal signal for the T2D arm | **none held** — untested in either direction | **no** — coffee is *disconfirmed*; red meat is *unexamined* |
-| Resulting state | insufficient-for-causation (a positive disconfirmation) | **unresolved** — held open both ways | **no** — a nulled arm is not an untested arm |
+| Observational signal | large umbrella, consistent inverse (T2D high-vs-low RR 0.70, 0.65-0.75, per [[Coffee Consumption and Health]]; corrected 2026-10-06: was the all-cause RR \~0.83, an off-outcome value) | NutriGrade "high", RR 1.17 (1.08-1.26) per 100 g | **yes** — both are large, consistent prospective-cohort associations |
+| Natural experiment (MR) | **null, weak** — no genetic causal signal for the T2D arm, but that MR is Poole's secondhand citation (unheld, power not stated), and the held coffee MR (Nordestgaard, CVD/mortality) by its own \~225,000-case statement cannot exclude the observational 0.86 (see Update below) | **none held** — untested in either direction (*superseded in part `[2026-10-06]`: one weak, unit-less MR, see Update below*) | **no** — coffee is *MR-tested with a null not powered at the observational size*; red meat is *unexamined* (corrected 2026-10-06: *disconfirmed* -> weak null) |
+| Resulting state | insufficient-for-causation (no causal support; not a disconfirmation) | **unresolved** — held open both ways | **no** — a tested-null arm is not an untested arm, though neither is closed |
 
 So red meat is **less resolved than coffee, not exonerated by analogy to it**: coffee earned its
-downgrade from a *null MR* (evidence the arm was confounded); red meat has no such evidence in
+downgrade from a *null MR* (weak evidence the arm was confounded — the null is not powered to exclude the
+observational effect size, see Update below); red meat has no such evidence in
 either direction, so the honest state is *untested for causation*, neither established-harmful nor
 shown-benign -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]. The symmetric error to
 "the RCT was null, so ignore the observational" is "the food is not proven causal, so treat it as
 safe" — both skip the missing test.
+
+### Update — red meat is now tested once, and the test is too weak to move it `[2026-10-06]`
+
+The table's *none held* cell (and the instance-table row above) is superseded in part: a two-sample MR of
+UK Biobank intake of processed meat, pork, beef and lamb against T2D, CAD, hypertension and stroke is now
+held, and reports every IVW estimate as null
+[@li2024meatmr]. The tempting move is
+to file red meat beside coffee: *MR null, so the cohort signal is confounded.* A matched comparison of the
+two MRs blocks it. Neither MR could exclude an effect of the observational size, but only coffee's says
+so and says what it *can* exclude.
+
+| Parameter | Coffee MR (Nordestgaard; IHD/CVD/mortality outcomes) | Meat MR (Li 2024) | Same quantity? |
+|---|---|---|---|
+| Exposure unit | per allele, \~8% higher coffee intake | not stated (per unit of a genetically predicted UK Biobank intake answer) | **No** |
+| Instrument strength | two-locus allele score (AHR + CYP1A1/2), F = 827 | F>10 cut-off only; per-SNP F in an unheld supplement | **No** (a value vs a threshold) |
+| Power vs observational size | power calculation stated: can exclude OR 0.97 per allele; \~225,000 cases + 225,000 controls would be needed to exclude the observational 0.86 | no power calculation; T2D CIs wide enough to contain the observational RR (processed 0.71-1.66 vs 1.37; beef 0.87-3.75 vs red meat 1.17; unit-mismatched, heuristic only) | **No** |
+| Positive control | ApoE genotype -> IHD recovered | none | **No** |
+| Pleiotropy handling | five variants near three genes gave similar results; funnel plot of 11 caffeine alleles; authors flag AHR/CYP1A1/2 pleiotropy as a limitation | preference SNPs; PhenoScanner screen for outcome diseases and unnamed confounders; MR-Egger intercept | **No** |
+
+Coffee values [@nordestgaard2016] — the power
+statement: «we could exclude odds ratio per allele of 0.97 for 8% higher coffee intake with 80% power
+and two-sided P < 0.05) compared with observational differences in coffee intake (we observed odds ratio of
+0.86 for approximately 350% higher coffee intake), and thus even more individuals and events are required to
+thoroughly exclude a causal associ- ation from moderate coffee intake to reduced risk of CVD and all-cause
+mortality using genetic instruments.» (loci on [[Coffee Consumption and Health]]); meat values
+[@li2024meatmr]; the
+observational RRs from [@schwingshackl2017t2d].
+The coffee MR tests IHD/CVD/mortality, not T2D, so the comparison is of design features, not of one outcome.
+
+ On decisiveness the two MRs are closer than the older table above implies (that table's coffee
+MR is the T2D-arm MR Poole cites secondhand, not Nordestgaard): neither excludes
+the observational effect size. What separates them is how well the null is characterised. Coffee's states
+its unit, an F value, a positive control and an explicit power statement, so a reader knows the design was powered
+(80%) to exclude a per-allele OR of 0.97 and was not powered to exclude the observational one. Li's gives none of these, so a
+reader cannot say what it rules out. Red meat moves from *untested* to *tested once, insufficient*; the cell
+stays open both ways. **Heuristic (induced from two MRs, not a law):** an MR null counts against an
+observational signal only when it is shown powered to exclude the observational effect size, which needs a
+stated exposure unit and adequate instrument strength; a positive control strengthens it. Neither MR here
+meets it. The same instrument-validity weaknesses would discount a positive result from an MR built like Li's.
+
+</div>
 
 ## Why the streams disagree — five mechanisms, not one
 
@@ -197,6 +245,8 @@ safe" — both skip the missing test.
   convincing = GRADE very low* is not a contradiction — it is two instruments measuring two things
   (how consistent vs how causally certain) -> [[Upgrading Observational Evidence]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The resolution — triangulate on the exposure, do not crown the RCT
 
 
@@ -207,14 +257,17 @@ safe" — both skip the missing test.
    applied to *two evidence streams* instead of two sources.)
 2. **Where a natural experiment exists (Mendelian randomization), weight it heavily** — it removes
    healthy-user confounding without needing to blind the food, so an MR null is strong evidence the
-   observational arm was confounded (coffee->T2D), and an MR positive is strong evidence it was causal
+   observational arm was confounded — but only when the MR is shown powered to exclude the observational
+   effect size, which neither held diet MR is (coffee->mortality, meat->T2D: weak nulls), nor is the
+   secondhand coffee->T2D MR shown to be (power not stated) — see the Update above; corrected 2026-10-06: *strong evidence ... (coffee->T2D)* -> qualified) — and an MR
+   positive is strong evidence it was causal
    (LDL/apoB -> ASCVD) -> [[LDL ApoB and Cumulative Exposure]]. The LDL/apoB case is the corpus's cleanest
    MR-positive: *multivariable* MR not only confirms causation but adjudicates *which* correlated trait
    carries it — entered together, only apoB retains a genetic effect while LDL-C reverses to null — the
    natural experiment converging with the RCTs rather than clashing with them (the positive-control end of
    this page's pattern, not a discordance) -> [[LDL Lowering and Cardiovascular Events]].
    - **BMI -> mortality is a second MR-convergence (positive control) `[2026-08-06]`.** Where coffee's MR
-     *nulled* the observational, BMI's MR *corroborates* it: Wade 2018's genetic instrument reproduces the
+     found *no support* for the observational, BMI's MR *corroborates* it: Wade 2018's genetic instrument reproduces the
      causal harm the bias-corrected Global BMI IPD-MA found — significant for CVD-cause mortality,
      directional-but-imprecise for all-cause (MR 1.03, 0.99-1.07) — and shows the observational curve if
      anything **under**-estimated the obesity arm while **over**-estimating the underweight arm (the J's
@@ -229,6 +282,8 @@ safe" — both skip the missing test.
    trials + biochemistry + genetics all converging) is the standard for a survived nutrition finding;
    the two classic reversals (beta-carotene, dietary-fat->breast-cancer) had many studies of *one*
    method class -> [[Upgrading Observational Evidence]] (the triangulation criterion).
+
+</div>
 
 ## The dual-use guard
 

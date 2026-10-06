@@ -3,15 +3,14 @@ type: deliverable
 title: Protein Intake
 aliases: [Protein, Protein Intake, Dietary Protein, Protein Requirements, How Much Protein, Protein Source]
 question: 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?'
-authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budhathoki, Sanjeev; Moore, Daniel R; Katsanos, Christos S; Food and Agriculture Organization of the United Nations (org); Choi, MoonKi; Song, Zhenzhen; Refalo, Martin C; Wycherley, Thomas P; Kim, Jung Eun; Devries, Michaela C; de Santana, Felipe M; Nachvak, Seyed Mostafa]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020]
+authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budhathoki, Sanjeev; Moore, Daniel R; Katsanos, Christos S; Food and Agriculture Organization of the United Nations (org); Choi, MoonKi; Song, Zhenzhen; Refalo, Martin C; Wycherley, Thomas P; Kim, Jung Eun; Devries, Michaela C; de Santana, Felipe M; Nachvak, Seyed Mostafa; Sardeli, Amanda Veiga]
+sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Sardeli - Resistance Training Caloric Restriction]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-02
-self_critiqued: 2026-10-02
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 ---
-<div class="recent-update" data-last-updated="2026-10-02">
 
 Ask how much protein to eat and you are really asking four questions at once: how much, from which
 foods, at what times of day, and whether any of it applies to you. Each has a different answer, and
@@ -30,10 +29,6 @@ weak grip-strength signal in diagnosed muscle-wasting. An older adult eating too
 raise and spread out their protein. One caveat sits under all of it: almost every number here is
 measured on muscle size and strength, not on whether people live longer or better. And the kidney
 scare that makes some people ration protein is unfounded unless the kidneys are already diseased.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Muscle: a floor worth reaching, a ceiling not worth chasing
 
@@ -91,8 +86,6 @@ Sign-uncertain, so hold it as mechanism, not a finding.
 The 1.6 that matters for muscle is not the only number people quote — and the others answer
 different questions.
 
-</div>
-
 ## The famous numbers each answer a different question
 
 Three protein numbers circulate, all in the same units — grams per kilogram of body weight per day —
@@ -121,8 +114,6 @@ of total body weight, so the denominator has to be named each time or the figure
 anything.
 
 All three numbers are about amount; for how long you live, the evidence points at source instead.
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## For how long you live, the source matters and the amount barely does
 
@@ -168,10 +159,6 @@ across shared data is not independent replication, so the page stays `confidence
 Amount and source together set the daily total. Two second-order dials — *when* you eat protein and *what
 quality* it is — matter mainly at the margins, and mainly for older adults.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Spread protein across meals, and let quality matter only until you hit the target
 
 Timing earns its place through one mechanism: [[Anabolic Resistance]]. An older muscle needs a larger
@@ -209,9 +196,7 @@ plant shift costs a few extra grams or a pairing, not a compromise on either goa
 Who these dials matter for is not uniform. The amount, the timing, and whether supplements help at all
 depend hard on the stratum.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Who needs more, and who can stop optimizing
 
@@ -291,6 +276,22 @@ the obese sit off the studied support and are not evidence that they need less
 here than in energy balance, biasing the intake up is the same hedge as above — a decision under the
 wide interval, not a higher mean effect, and whose loss sets it is the dieter's.
 
+The pooled trial evidence cited here on training during a diet comes only from older adults. Sardeli's
+meta-analysis of six RCTs in obese older adults (mean age over 57) found that adding resistance training
+to a calorie-restricted diet kept 0.82 kg more lean mass than the diet alone (95% CI 0.36 to 1.27 kg),
+while fat loss and weight loss came out about the same
+[@sardeli2018]. That is lean mass, not
+function: the study was not designed to test muscle function, and strength per kilogram of lean mass
+only trended better with training (p = 0.07, not significant)
+[@sardeli2018].
+
+The case for stacking protein on training is thinner still. In the one pooled trial that fed more
+protein (the authors give 30% against 15%), training saved about 1.3 kg of lean mass, against 0.6 kg
+across the rest [@sardeli2018]. That is a
+comparison between trials, not a randomised test of protein, and the authors' 0.6 kg does not match
+their own 0.82 kg pooled figure. No younger dieters were pooled
+ -> [[Resistance Training During Caloric Restriction]].
+
 ### Healthy kidneys are not a reason to hold protein back
 
 The standing worry is that higher protein damages the kidneys. For normal kidneys it does not. Devries
@@ -329,8 +330,6 @@ target up, not down.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The evidence is mostly on surrogates — the honest ceiling
 
 Almost every number in this appraisal measures a stand-in, not the thing you care about. Muscle mass,
@@ -347,9 +346,7 @@ case carries its own gap. Low muscle mass independently predicts mortality — a
 not fully explained by muscle strength [@santana2021] — but
 that *raising* mass lowers it is unproven.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What to do — and the question none of it answers
 
@@ -374,10 +371,10 @@ you function or how long you live.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?' |
-> | **Evidence included** | 17 sources — 10 gold, 4 high, 2 moderate, 1 weak |
+> | **Evidence included** | 18 sources — 11 gold, 4 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
 
 </div>
 

@@ -3,7 +3,7 @@ type: framework
 question: For a primary-prevention adult, does a statin help — and does a zero coronary calcium score change that decision?
 aliases: [Statin Primary Prevention, Power of Zero, CAC Zero Statin, Statin CAC, USPSTF Statin, Statin Number Needed to Treat, Statin Deferral]
 authors: [US Preventive Services Task Force (org); Nasir, Khurram; Blaha, Michael J; Budoff, Matthew J; Krumholz, Harlan M; Cholesterol Treatment Trialists' Collaboration (org); Reith, Christina; Blumenthal, Roger S; Wood, Frances A; Howard, James P; Francis, Darrel P]
-sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026, Wood - SAMSON Statin Nocebo 2020, Reith - Statin Muscle Symptoms 2022]
+sources: [USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, ACC-AHA - Dyslipidemia Management 2026, Wood - SAMSON Statin Nocebo 2020, Reith - Statin Muscle Symptoms 2022, CTT - Statin Therapy Older People 2019]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -16,8 +16,8 @@ relationships:
     - LDL Lowering and Cardiovascular Events
     - Statin Muscle Symptoms and the Nocebo Effect
 created: 2026-07-28
-updated: 2026-09-07
-self_critiqued: 2026-09-14
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The statin decision in primary prevention is a **baseline-risk decision**. The relative effect of a
@@ -102,6 +102,85 @@ USPSTF's composite RR 0.72 and Nasir's assumed 0.70 are *per statin regimen* (a 
 not per-mmol). They are complementary, not the same quantity — CTT gives the dose-scaled backbone, USPSTF
 the per-regimen effect a given statin delivers.
 [inferred from @ctt2010]
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Over 75 without known vascular disease — the one cell the constancy premise does not reach `[2026-10-06]`
+
+CTT 2010's *age >75* line above pooled primary and secondary prevention. The CTT 2019 age analysis (28
+trials, 186,854 people, 14,483 of them >75 at entry) splits that line, and the split matters for this
+page, because this page is about people *without* known vascular disease.
+
+- **With vascular disease, the relative effect holds at every age:** >75 RR 0.85 (99% CI 0.73-0.98) per
+  1.0 mmol/L, age trend p=0.2. [@ctt2019]
+- **Without known vascular disease, >75: RR 0.92 (99% CI 0.73-1.16)** on 295 vs 308 events (2.7% vs
+  2.8%/yr), and the 71-75 group was 0.84 (0.70-1.01). [@ctt2019]
+  The age trend in this arm did not depend on the heart-failure/dialysis trials: «However, among participants with no history of vascular disease, we observed a significant trend towards smaller proportional risk reductions with increasing age (ptrend=0·05; figure 4), which persisted after exclusion of the heart failure and dialysis trials (ptrend=0·03; appendix).» [@ctt2019]
+  In the Research-in-context panel the authors call it «a weak trend towards smaller relative risk reductions with increasing age in the
+  primary prevention setting (although there were too few such older participants for reliable
+  assessment in that group alone).» [@ctt2019]
+- Their own conclusion keeps both halves: «There is less definitive direct evidence of benefit in the
+  primary prevention setting among patients older than 75 years, but evidence supports the use of
+  statin therapy in older people considered to have a sufficiently high risk of occlusive vascular
+  events.» [@ctt2019]
+
+**Parameter table — four sources on the >75 cell.**
+
+| Parameter | CTT 2010 | CTT 2019 | USPSTF 2022 | ACC-AHA 2026 | Same quantity? |
+|---|---|---|---|---|---|
+| Object | MVE RR per 1.0 mmol/L | MVE RR per 1.0 mmol/L | recommendation grade | recommendation (COR 2b, LOE B-NR) | 2010 vs 2019: yes. USPSTF, ACC-AHA: no, judgements, not effects |
+| Stratum | >75 at entry, prior vascular disease pooled in | >75 at entry, split by prior vascular disease | >=76, primary prevention, *initiating* | >75, primary prevention, *initiating*, life expectancy >=2.5 y | 2019 primary-prevention row roughly matches the guidance rows (>75 vs >=76) |
+| Value | 16% reduction (99% CI 3-27), i.e. RR \~0.84 | 0.87 (0.77-0.99) all; 0.92 (0.73-1.16) no vascular disease | I statement (insufficient evidence) | «may be reasonable» after a clinician-patient discussion; supporting text cites CTT 2019's *pooled* >=75 figure (13% RRR, coronary-driven) | — |
+| Trials | 26 | 28; 2010 set nested inside, plus CORONA and HOPE-3 | own review; the held recommendation statement does not cite CTT | cites CTT 2019 (pooled >75, not the primary-prevention arm) | 2010 vs 2019 not independent |
+
+Loci: CTT 2010 «16% (99% CI 3–27; p=0·002) in people older than 75 years at entry» [@ctt2010];
+USPSTF «The USPSTF concludes that the current evidence is insufficient to assess the balance of benefits
+and harms of initiating a statin for the primary prevention of CVD events and mortality in adults 76
+years or older.» [@uspstf2022];
+ACC-AHA «RCT data for adults aged >75 years are limited but support primary prevention with statin therapy to reduce ASCVD events, although relative reductions in risk may be lower than in younger populations, and there is no evidence of overall mortality benefit.» [@accaha2026]
+
+**What the table supports.** The 2019 paper refines the 2010 line (type-F, same collaboration and nested
+trials, not independent backing). Pooled, the >75 effect looks like everyone else's; split, the
+primary-prevention half carries a 99% CI running from a 27% reduction to a 16% increase. That is the
+**insufficient-evidence state, not a no-effect finding**. On the expectancy test, silence here tells us
+little: about a fifth of the over-70 events came from people without vascular disease, too few for the
+authors to call the >75 estimate reliable (no power calculation is given). Against that, the attenuation
+trend in this arm is nominally significant and survived removal of the heart-failure/dialysis trials
+(p=0.05, then 0.03), so a smaller relative effect at older ages is a live possibility, not noise to wave
+away; it is one of many subgroup tests, which is why the paper reports subgroup CIs at 99%.
+[inferred from @ctt2019]
+
+**The two guidance bodies lean differently, both at their weakest grade.** USPSTF gives an I statement
+for *starting* a statin at >=76. ACC-AHA 2026 says starting a moderate-intensity statin «may be
+reasonable» (COR 2b) for adults >75 with life expectancy of at least 2.5 years, after a clinician-patient
+discussion: «In adults aged >75 y with an estimated life expectancy of at least 2.5 y, it may be rea­ sonable to initiate moderate-intensity statin therapy after a clinician–patient discussion of potential benefits and risks to reduce ASCVD risk.4–6,7» [@accaha2026]
+Its supporting text leans on CTT 2019's pooled >=75 result (primary and secondary prevention together),
+not on the primary-prevention arm (0.92, 0.73-1.16 [@ctt2019]): «statin therapy in this group produced a 13% RRR in major vascular events per 1.0 mmol/L (38.7 mg/dL) reduction in LDL-C, with reductions driven by fewer major coronary events but not overall mortality, vascular death, or stroke.» [@accaha2026]
+CTT itself concludes the evidence supports statins in older people at sufficiently high risk. CTT and
+USPSTF agree on the *evidence state* (thin, imprecise), not on a verdict. So the difference between the
+bodies is a direction of lean at the lowest grades, not a firm split, and part of ACC-AHA's lean rests on
+a pooled figure that the primary-prevention split does not reproduce. A 99% CI that includes both the
+all-age effect and no effect leaves room for both leans. [inferred from @ctt2019; @uspstf2022; @accaha2026]
+
+**Decision consequence for a >75 person with no vascular disease.** The relative benefit is not shown to
+be absent, and absolute risk is higher at this age, which is why CTT models \~80 vs \~50 events avoided
+per 10,000 per year at 78 vs 63. But that model assumes the relative effect carries over to this exact
+stratum, which is what the trial data cannot confirm. The honest frame is a shared decision in which
+the expected benefit is uncertain and the higher baseline risk is the reason to discuss it at all.
+Continuing a statin someone already takes is a different question from starting one: USPSTF's I statement
+is about *initiating*. CTT does not test stopping; ACC-AHA cites one RCT, in people with estimated life
+expectancy under 1 year (primary and secondary prevention mixed), in which stopping was safe and quality
+of life improved, and it says a CAC score of 0 in older adults *suggests* benefit is unlikely to outweigh
+risk (a COR 2b recommendation that also covers CAC 1-10, which its own text says «remains to be tested in
+prospective clinical trials») [@accaha2026]. That brings this
+page's CAC lever into the >75 cell, as an untested strategy. Ongoing trials in this stratum are named as a gap on the source page. [inferred from @ctt2019; @uspstf2022; @accaha2026]
+
+**Confidence scope.** The page's `confidence: high` covers the constant-relative / baseline-risk logic
+for primary prevention up to about 70 and for secondary prevention at any age. It does **not** extend
+past 70 in primary prevention: CTT found no independently significant reduction in either over-70 group
+(71-75: 0.84, 0.70-1.01; >75: 0.92, 0.73-1.16), and the >75 cell sits in the insufficient-evidence state.
+
+</div>
 
 ## The honesty on both sides — this is not a settled rule
 

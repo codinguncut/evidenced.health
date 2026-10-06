@@ -4,13 +4,12 @@ title: Blood Lipids and ApoB
 icon: material-symbols-light:cardiology
 concrete_subject_audited: 2026-10-03
 question: 'What is the relationship between apoB-containing lipoproteins and atherosclerotic cardiovascular disease — how settled is it, which number best captures a person''s risk and where do the numbers diverge, how much does moving that number change hard events, does it matter whether diet or a drug does the moving, and for whom is acting warranted?'
-sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, Helgadottir - Cholesterol Not Particle Concentration, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Wood - SAMSON Statin Nocebo 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Livingston - Dementia Prevention 2024, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Kamstrup - Lipoprotein a Mendelian Randomization, Burgess - LPA Variants Coronary Disease Mendelian Randomization 2018, Kovacic - Coenzyme Q10 Statin Myopathy Meta-Analysis 2025]
+sources: [Ference - LDL Cause ASCVD EAS Consensus 2017, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Marston - ApoB Containing Lipoproteins Risk 2022, Richardson - ApoB Coronary Mendelian Randomization 2020, Zuber - Multivariable MR ApoB Coronary 2021, Helgadottir - Cholesterol Not Particle Concentration, Li - LDL-Lowering Agents Intracerebral Hemorrhage 2025, Ma - LDL Cholesterol Hemorrhagic Stroke 2019, Emerging Risk Factors Collaboration - Lipoprotein a Vascular Disease 2009, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, ACC-AHA - Dyslipidemia Management 2026, ESC-EAS - Dyslipidaemias Focused Update 2025, Reith - Statin Muscle Symptoms 2022, Reith - Statin New-Onset Diabetes 2024, Wood - SAMSON Statin Nocebo 2020, Ridker - Canakinumab Atherosclerotic Disease CANTOS 2017, Livingston - Dementia Prevention 2024, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Kamstrup - Lipoprotein a Mendelian Randomization, Burgess - LPA Variants Coronary Disease Mendelian Randomization 2018, Kovacic - Coenzyme Q10 Statin Myopathy Meta-Analysis 2025, CTT - Statin Therapy Older People 2019]
 confidence: high
 created: 2026-08-17
-updated: 2026-10-03
+updated: 2026-10-06
 self_critiqued: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 The particle that carries cholesterol into an artery wall, not the cholesterol itself, drives
 heart disease — and that fact is about as settled as anything in nutrition and cardiology gets. The particle is tagged by a protein called **apolipoprotein B (apoB)**: one apoB
@@ -20,10 +19,6 @@ The open questions are narrower than the headlines suggest: **which** number to 
 report, **how much** a given drop buys, and **whether the way you lower it** — food versus a pill —
 changes the payoff. This page walks that chain, from the causal model
 ([[LDL ApoB and Cumulative Exposure]]) to the decision.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## apoB-containing particles cause atherosclerosis, and the evidence is unusually settled
 
@@ -41,10 +36,6 @@ trials point the same way. This is the rare case where a blood marker's transmis
 to the hard outcome is itself proven — the opposite of the usual surrogate, where a number moves
 and patients do not benefit. -> [[LDL ApoB and Cumulative Exposure]], [[Surrogate Outcomes]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The dose is cumulative: how low, times how long
 
 Risk tracks the **area under your apoB curve over a lifetime** — level multiplied by years — not
@@ -57,10 +48,6 @@ consensus states plainly. The cholesterol drop must reflect a real drop in parti
 method must carry no competing harm on another pathway. [@ference2017]
 Those two provisos are not fine print — they separate a drug-lowered number from a diet-lowered
 one, as the rest of this page shows.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Count the particles: apoB beats LDL-C where the two diverge
 
@@ -102,7 +89,7 @@ in the discordant group. It contests only which of *those two* to prefer as the 
 and it is genuinely unresolved. The practical reading: non-HDL-C is free on every panel and captures
 most of what a separate apoB draw would. -> [[ApoB Particle Number vs Cholesterol Content]]
 
-</div>
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Lowering the number with a drug cuts hard events by about a fifth per unit, with no floor
 
@@ -123,6 +110,27 @@ The relative effect is constant across baseline-risk groups, which lets you scal
 without any subgroup guesswork. The same \~22% is a small absolute gain for someone at low risk and
 a large one for someone at high risk. -> [[LDL Lowering and Cardiovascular Events]]
 
+**Age mostly holds that rule, with one gap.** A later CTT pooling of 28 statin trials (186,854 people,
+14,483 of them over 75) found the proportional cut in major vascular events shrank only slightly
+with age, a trend short of significance (p=0.06). The oldest were over-represented in four
+heart-failure and dialysis trials where statins did little; set those aside and the trend faded
+further (p=0.3). [@ctt2019]
+
+People over 75 with known vascular disease benefited much like younger ones (RR 0.85 per 1 mmol/L LDL-C reduction, 99% CI
+0.73-0.98). Without vascular disease, benefit tended to shrink with age (trend p=0.05; p=0.03 without
+the heart-failure and dialysis trials), which the authors call a weak trend. There the over-75
+estimate was RR 0.92 (99% CI 0.73-1.16) and 71-75 was 0.84 (0.70-1.01), and the authors judge there
+were too few such participants to assess that group reliably.
+[@ctt2019]
+
+The authors still expect a *larger* absolute benefit in older people, because untreated risk climbs
+steeply with age. That is their projection from risk arithmetic, not counted events: they declined
+to estimate absolute effects from the trials' own event numbers, which they judged unrepresentative
+of any current population. The projection assumes the relative effect holds into old age, which is
+least certain in exactly the over-75 group without vascular disease.
+[@ctt2019]
+-> [[Baseline Risk and the Relative-Absolute Split]]
+
 ### The one place low LDL might not be benign
 
 An observational signal points the other way for a single stroke subtype: people who already have
@@ -135,7 +143,7 @@ So the observational bleeding-stroke arm is most likely not caused by lowering, 
 justify withholding treatment from someone whose ischemic and vascular risk dominates. One residual
 piece — the lifelong-genetic-exposure question — remains open. -> [[LDL Lowering and Cardiovascular Events]]
 
-<div class="recent-update" data-last-updated="2026-10-03">
+</div>
 
 ## It matters whether diet or a drug does the lowering
 
@@ -167,10 +175,6 @@ That said, real dietary levers on apoB exist — they are just modest and route-
 
 No head-to-head trial has randomized a diet-lowered versus drug-lowered apoB to hard events — a
 genuine gap, not a settled equivalence.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Whether to act is a baseline-risk decision, and imaging can defer it
 
@@ -223,9 +227,7 @@ absolute requirement is the point: it is why lowering Lp(a) enough to matter is 
 causal-*existence* finding still does not close the treatment question — no Lp(a)-lowering outcome
 trial is yet held. -> [[Lipoprotein(a) and Cardiovascular Risk]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The statin's real costs are smaller than its reputation
 
@@ -258,8 +260,11 @@ trial costs little, but it must not delay or replace an effective statin
 **New-onset diabetes is real, but small.** Unlike the muscle fear, this is a genuine pharmacological
 effect: statins raise new diabetes diagnoses by \~10% at low/moderate intensity and \~36% at high, an
 absolute excess near 1.2 per 1,000 person-years at standard doses. [@reith2024diabetes]
-It works by nudging glycemia up a fraction, so it lands almost entirely on people already at the
-diabetes threshold — and the cardiovascular benefit already nets it out. Neither harm changes the
+It works by nudging glycemia up a fraction, so it lands mostly on people already near the diabetes
+threshold: about 62% of the excess cases arose in the top quarter of baseline glycaemia. [@reith2024diabetes]
+The cardiovascular benefit already nets out any cardiovascular harm that runs through higher glucose;
+the diagnosis itself stays a separate, small cost, which the CTT authors judge greatly outweighed by
+the fall in major vascular events. [@reith2024diabetes] Neither harm changes the
 start-or-continue decision for someone with a real indication. -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]]
 
 </div>
@@ -275,8 +280,6 @@ cholesterol. For cardiovascular purposes eggs are close to a non-lever for the g
 and the full appraisal, including the strata and cautions, lives on its own page.
 -> [[Eggs Dietary Cholesterol and Cardiovascular Risk]]
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Lipids are one axis of cardiovascular risk, not the whole of it
 
 Lowering apoB answers the lipid axis, not the whole cardiovascular question. Inflammation is a
@@ -291,9 +294,7 @@ incidence (about 8% per 1 mmol/L, midlife-specific), which adds to the reasons t
 changing the cardiovascular verdict. [@livingston2024]
 -> [[Dementia Prevention and Modifiable Risk Factors]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What to do with this
 
@@ -309,7 +310,8 @@ Rank the levers by size, and the lipid axis sorts itself quickly:
   floor in the studied range, and a drug's per-unit effect is the one actually measured on hard
   events. A diet-lowered number is a real but modest and less-certain version of the same lever.
 - **Do not let the small costs decide it.** Muscle complaints are mostly nocebo; the diabetes risk
-  is real but small and already counted in the benefit.
+  is real but small: its cardiovascular effects are already counted in the benefit, and the diagnosis
+  itself is a minor cost the benefit outweighs.
 - **Spend little worry on eggs.** Dietary cholesterol is a minor input to the number that matters.
 
 The loop stays open: nothing here has been graded against a realized outcome for a specific person.
@@ -321,10 +323,10 @@ are personal.
 > | | |
 > |---|---|
 > | **Question** | 'What is the relationship between apoB-containing lipoproteins and atherosclerotic cardiovascular disease — how settled is it, which number best captures a person''s risk and where do the numbers diverge, how much does moving that number change hard events, does it matter whether diet or a drug does the moving, and for whom is acting warranted?' |
-> | **Evidence included** | 27 sources — 14 gold, 13 high |
+> | **Evidence included** | 28 sources — 15 gold, 13 high |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
 
 </div>
 

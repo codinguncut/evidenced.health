@@ -4,7 +4,7 @@ title: Age-Related Diseases
 confidence: medium
 created: 2026-07-30
 updated: 2026-10-02
-self_critiqued: 2026-10-02
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 aliases: [Diseases of Ageing, Age-Related Disease Prevention, Common Soil Hypothesis, Healthy Ageing, Chronic Disease Prevention]
 question: 'For an adult deciding how to lower their risk of the diseases of ageing -- cardiovascular disease, cancer, dementia, Parkinson''s, frailty/sarcopenia, osteoporosis: which modifiable exposures move which disease, how much, how certainly, do the diseases share a common core of levers or need separate regimens, and how does the ranking shift by age stratum?'
@@ -128,6 +128,8 @@ This is the shared-lever thesis's sharpest test, so it earns a full appraisal of
 highest-risk person, the per-lever ranking, and the diet and sleep candidates that turn out to route
 through the same cardiometabolic rocks rather than adding independent targets.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Cancer, heart disease, diabetes — the increments beyond the rocks
 
 Cancer and the cardiometabolic diseases tell the same shared-rock story with fewer surprises — and a
@@ -150,9 +152,14 @@ average 2.8 years, diabetes incidence fell from 11.0 to 7.8 cases per 100 person
 31% relative reduction, 95% CI 17-43%) and to 4.8 on lifestyle (58%, 48-66%)
 [@knowler2002]. Lifestyle beat the drug outright
 — 39% lower incidence head-to-head — and needed roughly half as many people treated to prevent one case
-(NNT 6.9 vs 13.9 over three years). Metformin's benefit is stratum-specific: near-null in the lean with
-near-normal fasting glucose (3% reduction, CI -36 to 30) and strongest in the more obese and more
-hyperglycemic (53%, 36-65); lifestyle worked broadly across every subgroup tested.
+(NNT 6.9 vs 13.9 over three years). Metformin's benefit varied by stratum in this single trial: the
+point estimate was near-null at a BMI of 22 to under 30 (3% reduction, CI -36 to 30) and largest at a BMI of 35
+or more (53%, 36-65), where it matched lifestyle (51%, 34-63). The test for heterogeneity across BMI
+strata was significant (P<0.05) [@knowler2002],
+but the within-stratum intervals are wide, and the trialists state: «The study had inadequate power to assess the significance of effects within the
+subgroups, nor were such tests planned.» [@knowler2002], so this is a signal to
+replicate, not an established modifier; lifestyle worked broadly across every subgroup
+tested.
 
 Hold the outcome scope honestly, though. Twenty-one years later, the same three arms showed **no
 reduction in hard cardiovascular events** from either intervention — metformin HR 1.03 (0.78-1.37),
@@ -190,6 +197,10 @@ Most of the population's cancer burden sits entirely outside this diet/activity/
 tobacco, infection (HPV, hepatitis, *H. pylori*) and occupational exposure carry a comparable or larger
 share and fall outside this deliverable's lifestyle scope.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Keeping the body working — frailty, muscle, bone, falls
 
 For the oldest adults the decisive outcome is often not whether a disease arrives but whether the body
@@ -199,9 +210,11 @@ three apart rather than folding them into a single healthspan number.
 
 **Frailty is a marker with teeth, and also something you can change.** [[Frailty]] — reduced
 physiological reserve across multiple organ systems — predicts a wide set of patient-important outcomes.
-In Vermeiren's pooled meta-analysis of 31 studies and 158,764 community-dwelling adults over 65, frail
-versus robust carried roughly double the hazard of death (HR 1.83, 95% CI 1.68-1.98), of disability in
-basic activities of daily living (HR 1.62, 1.50-1.76), and a raised hazard of falls (HR 1.24, 1.12-1.37)
+In Vermeiren's pooled meta-analysis of 31 studies and 158,764 community-dwelling adults over 65, the
+frail and prefrail together, versus the robust, carried a raised risk of death (pooled HR/RR 1.83, 95% CI
+1.68-1.98), of disability in basic activities of daily living (HR/RR 1.62, 1.50-1.76), and of falls (HR/RR
+1.24, 1.12-1.37). Split out, the risk of death was roughly double the robust level in the frail (RR 2.01,
+1.82-2.22) and about 1.5 times it in the prefrail (RR 1.47, 1.32-1.62)
 [@vermeiren2016frailty]. That
 alone would make frailty only a stratifier.
 
@@ -209,8 +222,10 @@ Racey pooled 26 trials in prefrail and frail older adults, and that closes the g
 programs moved mobility (standardized mean difference 0.60), activities of daily living (0.50), and
 frailty status itself (risk ratio 0.58, moderate
 certainty) [@racey2021frailtypa].
-The dose has to come down for this stratum — a program built for the general older adult can be too
-intense once someone is already frail. But the direction holds: frailty identifies who has the most to
+Racey raises the concern that activity recommended for the general older adult «may be too advanced or
+too intense for a frailer population»
+[@racey2021frailtypa]; that the dose
+must come down is a reasonable precaution, not a tested finding. But the direction holds: frailty identifies who has the most to
 gain, and training moves the thing identified.
 
 **Grip strength and muscle mass are cheap numbers that track both function and mortality — measurements,
@@ -244,13 +259,15 @@ for older and energy-restricted adults too -> [[Protein and Resistance Training 
 A separate older-adult maintenance target sits lower, around 1.0-1.2 g/kg/day (1.2-1.5 in
 illness) — a different objective, on a different evidence base -> [[Protein Intake for Older Adults]].
 
-**Falls are prevented by balance, not strength, and the effect is unusually solid.** A Cochrane review
+**Falls are prevented by balance training, and the effect is unusually solid.** A Cochrane review
 of 108 trials (23,407 participants, mean age 76) found exercise cut the rate of falls by 23% (rate
 ratio 0.77, 95% CI 0.71-0.83) at HIGH-certainty GRADE
 [@sherrington2019]. That is a rare thing in this
 domain: an RCT-based effect on a directly observed, patient-important outcome. But the active ingredient
 is specifically balance and functional training (rate ratio 0.76, HIGH certainty). Resistance training
-alone showed no fall benefit on its own (rate ratio 1.14, 0.67-1.97, very low certainty) — a different
+alone has not been shown to reduce falls (rate ratio 1.14, 0.67-1.97, five small trials, very low
+certainty — an interval compatible with benefit or harm, so insufficient evidence rather than a null)
+[@sherrington2019] — a different
 mechanism from the muscle and mortality levers above, not a contradiction of them.
 
 Fracture reduction follows downstream, more weakly evidenced (RR 0.73, 0.56-0.95, LOW certainty).
@@ -263,9 +280,12 @@ outcome a person cares about and not only bone density -> [[Exercise and Bone Mi
 fracture meta-analysis comes from the same research group as the density one, so the two legs are not
 independent and the certainty on the loading channel is moderate, not high
 [inferred from @hoffmann2022]. And once someone is already frail,
-this signal weakens: the frail-only pooling above found no significant fall reduction (RR 0.80,
-0.51-1.26, very low certainty) even while mobility and frailty status still improved. So balance
-training earns the most confidence started before frailty sets in, not after.
+the fall effect is not established: the frail-and-prefrail pooling above found no significant fall reduction
+(RR 0.80, 0.51-1.26, very low certainty) even while mobility and frailty status still improved
+[@racey2021frailtypa]. That interval
+is wide enough to include the reduction seen in the general older population (rate ratio 0.77, a
+differently defined falls measure), so the effect is unproven in the frail, not shown absent. Balance training carries its high-certainty evidence for the older adult
+who is not yet frail; in the already-frail it is a reasonable bet on thinner evidence.
 
 **Where the incidence lever inverts: weight loss helps the disease list and can harm the frail.** Losing
 weight is a genuine lever against cancer and cardiometabolic incidence (above) and against knee
@@ -279,6 +299,8 @@ to the oldest-old without checking which stratum it is being applied to ->
 
 The shared-lever logic is powerful but not universal — two places break it, and the breaks are
 instructive.
+
+</div>
 
 ## Where the shared logic breaks — Parkinson's and the eyes
 

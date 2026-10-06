@@ -11,7 +11,6 @@ updated: 2026-10-03
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 This page appraises the *health* axis of the *organic* label at the population level. It asks three
 things: what the measured differences between organic and conventional food are, how large they run
@@ -35,8 +34,6 @@ No trial shows organic eating makes anyone healthier, and the one large cohort t
 riddled with the healthy-buyer confound. This is a thin-evidence field by its nature, not because the
 right study is still pending: you cannot blind or randomise a lifetime of buying organic.
 
-</div>
-
 ## The frame: "organic" is a provenance label, not an exposure
 
 How a food was grown argues health in neither direction. "Natural" or "organic" does not mean healthier,
@@ -55,8 +52,6 @@ Organic milk and meat carry a more desirable fatty-acid profile — but that tra
 not to the certificate. The hard-outcome case is the weakest link and is heavily confounded.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Sub-question 1 — pesticide / toxin residues: lower on organic, health consequence unproven
 
@@ -80,8 +75,6 @@ The one clean safety signal lay elsewhere. Bacteria resistant to three or more a
 on conventional chicken and pork (risk difference 33%), while *Escherichia coli* contamination did not
 differ by farming method.
 [@smithspangler2012]
-
-</div>
 
 ## Sub-question 2 — nutrient content: small differences, running BOTH ways
 
@@ -189,8 +182,6 @@ The design cannot cleanly attribute, and no RCT exists. You cannot blind or rand
 organic eating — the streetlight problem — so the outcome the shopper most wants answered is the one the
 evidence base structurally cannot see.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The net health verdict, and where it ranks
 
 - **Residues:** genuinely lower on organic (about four times lower incidence in crops; contamination
@@ -216,10 +207,6 @@ contested ones generate products and content. This appraisal agrees with the mai
 organic if you value the non-health reasons for it, but do not expect a documented population-level
 health benefit. The measured differences are real; their health consequence is unproven.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## The non-health reasons are real — and not weighed here
 
 Plenty of people buy organic for the environment, for animal welfare, or to support a farming system, and
@@ -229,10 +216,6 @@ processed meat for the same mix of reasons — partly ethical or environmental
 rather than purely about their own health -> [[Should Adults Reduce Red and Processed Meat]]. The health
 question and the values question are separate axes, and this appraisal answers only the first. What you do with
 the second is yours, weighed against your budget and priorities.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Caveats
 
@@ -260,7 +243,5 @@ the second is yours, weighed against your budget and priorities.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 5 source(s) below the gold evidence bar feed this page: Baranski (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Smith-Spangler (systematic review, moderate); Baudry (cohort, weak). Each labelled by tier; none load-bearing for the core claims. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Organic%20Food.md) |
-
-</div>
 
 ## References

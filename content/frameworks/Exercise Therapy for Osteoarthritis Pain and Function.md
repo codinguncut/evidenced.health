@@ -2,8 +2,8 @@
 type: framework
 question: For established knee or hip osteoarthritis, how large and how durable is the pain/function benefit of exercise therapy versus usual care, and for whom does it work best?
 aliases: [Exercise Therapy for OA, Exercise for OA Pain, Exercise Efficacy Osteoarthritis, OA Exercise Effect Size, Exercise Dose Osteoarthritis, Exercise Therapy Knee Hip OA]
-authors: [Goh, Siew Li; Persson, Monica S M; Stocks, Joanne; Hou, Yunfei; Lin, Jianhao; Hall, Michelle C.; Doherty, Michael; Zhang, Weiya]
-sources: [Goh - Exercise Therapy Knee Osteoarthritis]
+authors: [Goh, Siew Li; Persson, Monica S M; Stocks, Joanne; Hou, Yunfei; Welton, Nicky J; Lin, Jianhao; Hall, Michelle C.; Doherty, Michael; Zhang, Weiya]
+sources: [Goh - Exercise Therapy Knee Osteoarthritis, Goh - Exercise Types NMA Knee Hip OA]
 cluster: osteoarthritis
 nucleus: false
 confidence: moderate
@@ -17,10 +17,10 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-10-04
-updated: 2026-10-04
-self_critiqued: 2026-10-04
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
+<div class="recent-page" data-last-updated="2026-10-06"></div>
 
 
 Orbiter of the `osteoarthritis` cluster. **This page characterizes the EXERCISE lever in depth** — how
@@ -79,7 +79,11 @@ depending on the outcome.»
 - **This is a plateau-then-reversal in TIME, not a dose-response plateau** — do not confuse the two.
   It says the effect is contingent on ongoing stimulus, the opposite of a durable structural change
   -> structural-leverage is exactly what exercise-for-OA lacks, unlike weight loss (which removes a
-  standing driver) on the nucleus.
+  standing driver) on the nucleus. — Goh shows the fade, not its cause; the source offers
+  only a hypothesis, «One of the reasons for this decline may be poor exercise adherence, in which
+  personal beliefs, social support, relationship with provider and ease of access to exercise facilities
+  play important roles [30].» [@goh2019] —
+  consistent with, not proof of, *contingent on ongoing stimulus*.
 
 ## Who responds — determinants, and the obesity stratum
 
@@ -93,8 +97,8 @@ pain outcome (overall ES 0.56, I2 74.1%). Univariate SMDs by stratum:
 | Not on TJR waiting list | 0.62 (0.49-0.75) | vs waiting-list: 0.33 (0.04-0.63) | yes (P 0.10) |
 | BMI >= 30 (obese) | 0.56 (0.28-0.84) | vs < 30: 0.46 (0.38-0.60) | **no** (P 0.78) |
 
-- **Obesity does NOT blunt the exercise effect — the transportability finding for the deliverable's
-  obese/sedentary stratum.** The obese subgroup's point estimate is if anything slightly higher (0.56
+- **No evidence that obesity blunts the exercise effect — the transportability finding for the
+  deliverable's obese/sedentary stratum** (study-level subgroup, underpowered for a null). The obese subgroup's point estimate is if anything slightly higher (0.56
   vs 0.46), and the difference is far from significant (P 0.78). Since obesity is the dominant OA risk
   factor -> [[Knee Osteoarthritis Incidence and Risk Factors]], the entry stratum for most OA patients
   IS the obese one, and the exercise lever **transports to it intact**. Combined with the nucleus's
@@ -120,8 +124,9 @@ a deliberately loose P <= 0.10 «to ensure that we would not miss any potential 
 «the aim of this analysis was to generate hypotheses to guide future individual patient-data
 meta-analyses». So these are the false-positive-prone route-(b) signals the method layer warns about —
 the age/joint-site/severity directions are plausible and worth testing in IPD, but **not yet confirmed
-effect modifiers**. The BMI *null* is the more robust read (a null from a subgroup is less prone to
-the multiple-comparison inflation than a positive).
+effect modifiers**. The BMI *null* is less prone to multiple-comparison inflation than a positive,
+but a study-level subgroup null is low-power, so it is *no evidence of modification*, not evidence of
+none (revised 2026-10-06; was: *the more robust read*).
 
 ## Certainty — why this is moderate, not high
 
@@ -146,7 +151,7 @@ the multiple-comparison inflation than a positive).
 
 - **Type-F/E on the nucleus's exercise claim.** The nucleus -> [[Knee Osteoarthritis and Modifiable Levers]] flagged a limit: its exercise evidence was on fitness/strength *surrogates* (EULAR) plus one
   single-site RCT (IDEA). Goh partly closes it with the **direct patient-important** pain/function
-  effect of exercise alone, from 77 independent trials — a different design (large MA vs single-site
+  effect of exercise alone, from 77 trials not including IDEA — a different design (large MA vs single-site
   RCT) reaching a compatible conclusion (independent backing), while **bounding** the claim with the
   durability decay and the small-study inflation the nucleus did not hold.
 - **The obesity convergence, now on the treatment side too.** The incidence orbiter found obesity the
@@ -154,19 +159,101 @@ the multiple-comparison inflation than a positive).
   that the *exercise* lever works **regardless of** obesity — so for the obese OA patient the two levers
   are independent and additive, not competing.
 
+## Which exercise type? The companion network meta-analysis
+
+[@gohtypesnma] The mode comparison the pairwise MA pooled
+away is the remit of a companion Bayesian network meta-analysis from the same project (PROSPERO
+CRD42016033865): 103 RCTs, 9134 participants (76 trials vs usual care, 27 head-to-head), five
+ACSM-based types (aerobic, mind-body, strengthening, flexibility/skill, and **mixed** = more than one
+core type or type unspecified), primary time point 8 weeks. There is no aquatic node: aquatic trials
+are split across the types by content. The effect estimates below come from the paper's Fig. 3
+(journal p. 754), which is an image, not text; they were read from the rendered PDF page.
+
+**Parameter table — the NMA's per-type numbers are NOT the pairwise MA's numbers re-cut.**
+
+| Parameter | Pairwise MA (Goh - Exercise Therapy Knee Osteoarthritis) | NMA (Goh - Exercise Types NMA Knee Hip OA) | Same quantity? |
+|---|---|---|---|
+| Trial base | 77 RCTs, exercise vs usual care | 103 RCTs; 76 vs usual care + 27 head-to-head | largely the same trials (same project) |
+| Effect metric | between-group SMD, frequentist random effects | SMD of change scores, Bayesian random effects, 95% CrI | **no** — different estimators |
+| Exposure | all exercise pooled | five types, each its own node | **no** |
+| Pain vs usual care | 0.56 (0.44-0.68) | 0.47 (mixed) to 1.11 (aerobic, mind-body) | **no** — do not read the NMA's 1.11 as *double the pooled effect* |
+
+So the magnitudes are not comparable across the two papers; the NMA's value is the **contrast between
+types within one model**.
+
+**Effect vs usual care, SMD (95% CrI)** [@gohtypesnma]
+
+| Type | Pain | Function | Performance | QoL |
+|---|---|---|---|---|
+| Aerobic | 1.11 (0.69, 1.54) | 0.59 (0.10, 1.07) | 1.05 (0.63, 1.48) | 0.39 (-0.06, 0.83) |
+| Mind-body | 1.11 (0.63, 1.59) | 0.81 (0.27, 1.36) | 0.53 (0.01, 1.05) | 0.24 (-0.09, 0.58) |
+| Strengthening | 0.73 (0.49, 0.98) | 0.76 (0.48, 1.03) | 0.55 (0.32, 0.78) | 0.26 (0.05, 0.47) |
+| Flexibility/skill | 0.65 (0.29, 1.00) | 0.68 (0.28, 1.09) | 0.68 (0.34, 1.03) | 0.33 (0.03, 0.68) |
+| Mixed | 0.47 (0.26, 0.69) | 0.43 (0.18, 0.69) | 0.48 (0.27, 0.69) | 0.19 (0.04, 0.35) |
+
+**What separates, and what does not.** Of the 40 head-to-head contrasts in Fig. 3, four have a CrI
+excluding zero: aerobic beats mixed on pain (0.64, 0.21 to 1.08) and performance (0.57, 0.14 to 1.00);
+mind-body beats mixed on pain (0.64, 0.14 to 1.13); aerobic beats strengthening on performance (0.50,
+0.05 to 0.96). No contrast among the four single-type modes excludes zero on pain, function or QoL
+(e.g. aerobic vs strengthening, pain 0.38, -0.07 to 0.83) [@gohtypesnma]. The authors' summary: «Mixed exercise was the least effective for all outcomes and had significantly less pain relief than aerobic and mind–body exercises.» [@gohtypesnma] The trend across the ranked types reached significance for pain only (p = 0.01; function 0.07, performance 0.06, QoL 0.65) [@gohtypesnma]; the hierarchy it tests is ordered by the same effect sizes, so it is not an independent check.
+
+**The authors read a hierarchy; the credible intervals do not show one among single types.** The
+authors conclude «Aerobic or mind–body exercise may be the best for pain and function improvements. Strengthening and flexibility/skill exercises may be used for multiple outcomes.» [@gohtypesnma]
+On pain the aerobic and mind-body point estimates (1.11) sit about 0.4 SMD above strengthening (0.73)
+and flexibility/skill (0.65), but every single-type contrast CrI includes zero. The wiki reads that as
+*not shown to differ, low certainty, point estimates favouring aerobic/mind-body on pain* — neither
+equivalence nor an established ranking.
+
+- **The decision read.** In the pooled knee + hip (knee-dominant) network, every single-type programme
+  beats usual care on pain, function and performance at 8 weeks; in hip OA alone, no type's pain or
+  function CrI excludes zero (below). Since the single types are not shown to differ on pain or
+  function, choosing among them is a Layer-3 preference and adherence call made under uncertainty,
+  with a weak lean toward aerobic or mind-body for pain. The mixed category ranked last on every
+  outcome, which argues against *assuming* a multi-component programme is better. But mixed separates
+  only from the two thinnest nodes (aerobic, mind-body), on an outcome with small-study bias; against
+  strengthening, the other large node, it does not separate, 0.26 (-0.04 to 0.57). So part of the
+  mixed deficit may be small-study inflation of the aerobic and mind-body estimates.
+- **Why mixed loses is unexplained.** The authors find «no satisfactory biological explanation» and
+  hypothesise «flawed implementation of the programme, such that intensity of the individual components was insufficient or poorly adhered to due to the complexity of the regimen» [@gohtypesnma].
+  *Mixed* also collects trials whose type was unspecified, so it is partly a reporting-quality bin,
+  not a pure exercise type. The authors offer mixed as a fallback for patients who do not respond to other types, «because it is still better than no exercise control for all four patient-centred outcomes» [@gohtypesnma].
+- **The aerobic edge on performance is plausibly training-specificity.** The performance outcome
+  prioritised gait/walking measures [@gohtypesnma], and
+  several aerobic arms are walking programmes (others include group cycling), so an aerobic lead on
+  walking tests is plausibly close to training the test. Read it as likely specificity, not as a
+  general aerobic superiority.
+- **The top ranks rest on the thinnest evidence.** The pain network has 4 aerobic-vs-usual-care trials
+  (203 participants) and 5 mind-body (244), against 32 mixed (2702) and 24 strengthening (2093)
+  [@gohtypesnma]. The authors concede «the estimates for aero- bic, mind–body and flexibility/skill exercises were open to considerable uncertainty with wide credibility intervals as the number of studies were small» — then add that three ranking methods «were generally in agreement, supporting the trend observed» [@gohtypesnma]. Agreement among rankings drawn from the same estimates does not add independent support.
+- **The ranking depends on how types are drawn.** An earlier NMA (Uthman 2014, not held, reported via
+  Goh) with three types and their combinations found «Strengthening exercise yielded the largest effect size for pain outcomes, whereas a combined intervention of strengthen- ing, flexibility and aerobic exercise had the largest effect size for function.» [@gohtypesnma]
+  The two NMAs differ in classification, trial count (103 vs 60) and comparator (Uthman allowed active
+  non-exercise controls), so a *best mode* read is not stable across category schemes.
+
+**Certainty: low for any between-type ranking** (the wiki's judgment; the paper does no GRADE/CINeMA rating). «Physician and participant blinding was not achieved in any study (ESM Appendix 6).» [@gohtypesnma] «Egger’s statistical test is suggestive of publication bias (p < 0.05) for all outcomes except QoL (ESM Appen- dix 3).» [@gohtypesnma] Model fit was poor for pain, performance and QoL, and the between-study SD (0.25 to 0.74) is the same order as the between-type gaps. On the other side, «No disagreements were found between direct and indirect evidence (ESM Appendix 5) or between estimates from different study designs.» [@gohtypesnma]
+
+**Hip and severity, per type.** In hip OA only strengthening and mixed are estimable for pain, function
+and QoL, and none of those CrIs excludes zero (pain: strengthening 0.53, -0.74 to 1.80; mixed 0.12,
+-0.36 to 0.62); the one hip estimate that does is aerobic on performance, 0.81 (0.23 to 1.42)
+[@gohtypesnma]. This reproduces the pairwise
+MA's hip uncertainty above, from the same project's trials, so it is a refinement, not independent
+confirmation. The awaiting-joint-replacement subgroup likewise shows smaller, uncertain per-type pain
+estimates (strengthening 0.46, -0.28 to 1.18). The authors could not tell «whether the observed differences between exer- cises would persist in the longer term» [@gohtypesnma].
+
 ## Gaps and open threads (type-G)
 
-- **No exercise-MODE ranking here.** Goh pooled *all* exercise types; the comparison of exercise types
-  (aerobic vs strengthening vs aquatic vs mind-body) was the explicit remit of the companion network
-  meta-analysis from the same project (PROSPERO CRD42016033865), not held
-  -> — would answer *which exercise mode is best for OA
-  pain/function*, directly deliverable-relevant. Until then, *any exercise beats usual care* is the
-  held claim; *this mode beats that mode* is not. **Partially addressed (not closed) by
+- **Exercise-MODE ranking — now held, and it ranks types only weakly.** The companion NMA (section
+  above) cashes the gap this page used to carry: among single-type modes no contrast is shown on pain
+  or function (point estimates favour aerobic/mind-body; low certainty); the mixed category is the one
+  distinguishable loser on pain, against the two thinnest nodes only.
+  Still open: aquatic is not a separate node, the comparison is 8-week only, and hip OA is under-powered.
+ **Earlier partial answer from
   Luan** -> [[Stationary Cycling for Knee Osteoarthritis]]: a pairwise MA finds stationary cycling
   neither superior nor inferior to the other modes it was compared with (swimming, treadmill, Tai Chi,
   Baduanjin) on every WOMAC/KOOS outcome — so the working answer *no mode clearly dominates on OA
-  symptoms* now has direct backing (choose mode by preference/cost/impact-tolerance), but the full
-  all-modes relative-efficacy NMA is still owed. (The quote and the per-outcome nulls live on that page,
+  symptoms* had direct backing (choose mode by preference/cost/impact-tolerance) before the all-modes
+  NMA landed; the NMA agrees for the single-type modes (superseded 2026-10-06: "the full all-modes
+  relative-efficacy NMA is still owed"). (The quote and the per-outcome nulls live on that page,
   cited to Luan; this is the cross-page structuring, not a fresh Luan extraction here.)
 - **Is exercise good OR bad for the knee? The causation companion — LANDED.** This page is the *treatment*
   side (exercise relieves established OA); the *causation* side — does running/loading CAUSE or accelerate
@@ -201,9 +288,18 @@ the multiple-comparison inflation than a positive).
   directions are flagged as route-(b) candidates, not confirmed modifiers; the BMI null is given more
   weight than the positive subgroups.
 - **No fabricated mode ranking.** The dispatch framed this as a mode-NMA; the paper is a pairwise
-  exercise-vs-usual-care MA with patient-determinant subgroups. The mode comparison is left as an
-  explicit AWAITS gap, not invented.
+  exercise-vs-usual-care MA with patient-determinant subgroups. The mode comparison was left as an
+  explicit gap, not invented (superseded 2026-10-06: the companion NMA is now held, section above).
 - **Coherence, not validity** (R1): the page reports effect sizes, their decay, and their certainty; it
   does not assert a realized long-term disability benefit — the open loop is named.
+
+## Self-critique `[run 2026-10-06, after the NMA addition]`
+
+- Blind re-critique: PASS-WITH-FIXES, all applied — the single-type contrasts are stated as *not
+  shown to differ* (with the authors' own hierarchy reading and the 0.4-SMD pain gap), not as
+  equivalence; the mixed-loses steer carries the small-study alternative and the mixed vs
+  strengthening null; the pooled result is scoped knee-dominant with the hip exception; the trend test
+  is flagged as ordered by the same estimates; the BMI null is downgraded to *no evidence of
+  modification*. The NMA is labelled type-F on the pairwise MA (same project, 8/9 authors), never E.
 
 ## References

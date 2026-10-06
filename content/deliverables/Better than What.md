@@ -360,8 +360,6 @@ biases training intensity *down* toward the margin (overshoot loads an often-irr
 Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
  -> [[The Estimate-to-Action Gap]].
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Caveats and boundaries
 
 - **This is an open loop.** No operation grades a decision here against a realized outcome; the wiki
@@ -390,7 +388,5 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
-
-</div>
 
 ## References

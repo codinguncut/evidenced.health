@@ -16,8 +16,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Statins and New-Onset Diabetes
 created: 2026-08-07
-updated: 2026-09-07
-self_critiqued: 2026-09-05
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The Diabetes Prevention Program (DPP) is the landmark head-to-head: in people with prediabetes, it
@@ -74,6 +74,8 @@ BMS stock, yet the finding runs *against* the drug the funder sells (the study m
 supplied by Lipha Pharmaceuticals). So the conflict does not undercut the headline.
 [inferred from @knowler2002]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The subgroup split — lifestyle works broadly, metformin works selectively
 
 This is the decision-relevant subgroup structure, and the two arms behave differently:
@@ -81,15 +83,27 @@ This is the decision-relevant subgroup structure, and the two arms behave differ
 - **Lifestyle was effective across essentially every stratum.** «The lifestyle intervention was highly
   effective in all subgroups.» It did not differ significantly by sex or race/ethnic group and was «at
   least as effective in older participants as it was in younger participants» (numerically largest in the
-  oldest: 48% / 59% / 71% at ages 25-44 / 45-59 / >=60). Its one significant modifier: it was stronger at
+  oldest: 48% / 59% / 71% at ages 25-44 / 45-59 / >=60). [@knowler2002] Its one significant modifier: it was stronger at
   *lower* baseline post-load glucose — «Its effect was significantly greater among persons with lower
   base-line glucose concentrations two hours after a glucose load than among those with higher base-line
   glucose values.» [@knowler2002]
-- **Metformin's effect was concentrated in the more obese and more hyperglycemic** — genuine effect
-  modification (significant heterogeneity), near-null at the lean / lower-fasting-glucose end:
+- **Metformin's effect was concentrated in the more obese and more hyperglycemic** — effect
+  modification (significant heterogeneity; caveat below), near-null at the lean / lower-fasting-glucose end:
   > «The effect of metformin was less with a lower body-mass index or a lower fasting glucose concentration
   > than with higher values for those variables. Neither interaction was explained by the other variable or
   > by age.» [@knowler2002]
+
+  DPP separates two things here. The heterogeneity tests stand as evidence that effects differed: «Significant
+  heterogeneity indicates that treatment ef- fects differed according to the values of the covariates.» But
+  the per-stratum estimates are imprecise: «The study had inadequate power to assess the significance of
+  effects within the subgroups, nor were such tests planned.»
+  [@knowler2002] So this is a positive, single-trial
+  route-(b) signal whose within-stratum magnitudes (e.g. the near-null lean end) carry wide intervals, not a
+  replicated modifier. And at BMI >=35 metformin matched lifestyle: lifestyle
+  51% (34 to 63), metformin 53% (36 to 65), lifestyle-vs-metformin -4% (-47 to 26).
+  [@knowler2002]
+  (corrected 2026-10-06: *genuine* effect modification -> single-trial signal with imprecise within-stratum
+  estimates; BMI >=35 parity cell added)
 
   | Metformin vs placebo, by stratum | Reduction (95% CI) |
   |---|---|
@@ -105,10 +119,12 @@ This is the decision-relevant subgroup structure, and the two arms behave differ
   [@knowler2002]
 
 The decision-change: **metformin is a stratum-specific drug for prevention** (worth most in the younger,
-more obese, more hyperglycemic; near-useless in the lean/near-normal-fasting), while **lifestyle is a
+more obese, more hyperglycemic; near-null point estimates, with wide intervals, in the lean/near-normal-fasting), while **lifestyle is a
 broad-spectrum lever** that works across strata. The route-(b) machinery this instantiates is worked on
 [[Baseline Risk and the Relative-Absolute Split]] (one trial showing an arm with modified relative effect
 beside an arm with a roughly constant one). [inferred from @knowler2002]
+
+</div>
 
 ## Outcome scope — diabetes incidence is shown; CV/mortality is NOT this trial
 
@@ -129,6 +145,8 @@ established by DPP** — it depends on «whether the maintenance of these lower 
 outcome». That downstream question is **now answered** by the DPP Outcomes Study (DPPOS) — see below.
 Diabetes-incidence prevention sits one rung below a hard outcome on the [[Surrogate Outcomes]] ladder, and
 DPPOS shows why the page was right not to let the incidence win stand in for a mortality win.
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## DPPOS — the hard-outcome answer: diabetes prevention did NOT reduce CV events over 21 years
 
@@ -164,6 +182,16 @@ antihypertensive agents, and reduction in the use of study metformin together wi
 use over time may have diluted the effects of the interventions.» Study metformin adherence fell «from 77%
 at the end of DPP to 41%»; statins reached 56–62% and antihypertensives 68–74%; «This was therefore a
 relatively low-risk cohort from the standpoint of the prevention of CVD.»
+[@goldberg2022] The statin share is reported twice
+with different floors — 56% to 62% in the Results and «53% to 62%» in the Discussion — and the arms were
+not balanced on it: «use of statins was modestly, albeit significantly lower in the lifestyle, but not in
+the metformin group, compared with the placebo group» — a co-intervention running *against* the lifestyle
+arm. The null also matches the prior trials: «our findings are consistent with the lack of effect on
+cardiovascular events in 2 other studies of lifestyle change on diabetes prevention, namely the 10-year
+Finnish Diabetes Prevention Study14 and the 20-year follow-up of the Da Qing study.15»
+[@goldberg2022] (corrected 2026-10-06: statin range
+reconciled to both reported figures; lifestyle-arm statin imbalance and the Finnish DPS / Da Qing 20-y
+nulls added)
 
 The baseline-risk reading (route-(a), no subgroup claim needed): a longer 30-year Da Qing follow-up *did*
 show a lifestyle MACE benefit, «hazard ratio 0.74 [95% CI, 0.59–0.92]», but «the Da Qing cohort was a
@@ -177,6 +205,10 @@ mortality benefit from diabetes prevention in a *low-risk* prediabetes stratum o
 risk is the concern in such a stratum, the demonstrated levers are the direct ones (statin / BP control —
 heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
 longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Independent replication — Finnish DPS and Da Qing (type-E robustness)
 
@@ -195,11 +227,14 @@ magnitude claim):**
 | Lifestyle target | 7% wt loss, 150 min/wk activity | 5% wt loss, fat <30%E, fiber, 30 min/day | diet and/or exercise (BMI-scaled) | multi-component lifestyle — comparable class |
 | Comparator | placebo | general advice | general info | usual-care/advice — yes |
 | Follow-up | mean 2.8 yr | mean 3.2 yr | 6 yr | **NO — horizon differs** |
-| Metric | Cox RRR on incident diabetes, ITT | Cox RRR (HR 0.4) on incident diabetes, ITT | Cox RRR adj. baseline BMI+FPG, ITT | Cox-derived ITT RRR — **yes** |
+| Metric | Cox RRR on incident diabetes, ITT | Cox RRR (HR 0.4) on incident diabetes, ITT | Cox RRR adj. baseline BMI+FPG; randomized by clinic | **PARTLY** — DPP/DPS individually-randomized ITT; Da Qing clinic-randomized, covariate-adjusted |
 | RRR, full lifestyle vs control | 58% (48-66) | 58% (HR 0.4; CI 0.3-0.7) | 42% combined (diet 31 / exercise 46) | comparable RRR; Da Qing combined = closest match |
 
-The three headline RRRs are the **same quantity** — Cox-model, intention-to-treat relative risk reductions
-on incident diabetes against a usual-care comparator — so they are legitimately comparable. What is **not**
+The DPP and Finnish RRRs are the **same quantity** — Cox-model, intention-to-treat relative risk
+reductions on incident diabetes against a usual-care comparator; Da Qing's is the same *kind* of quantity
+(proportional-hazards RRR) but from a trial «randomized by clinic» and adjusted for baseline BMI and fasting
+glucose, so it compares only approximately. (corrected 2026-10-06: *three same-quantity ITT RRRs* -> two
+plus an adjusted clinic-randomized one, Pan chunk 01) What is **not**
 matched is the follow-up horizon (2.8 / 3.2 / 6 yr) and the baseline adiposity, and those differences
 explain why Da Qing's point estimate is lower without contradicting the others: over 6 years more of the
 control group eventually progresses, compressing the relative reduction. **The defensible claim is
@@ -233,7 +268,10 @@ therefore *three independent trials, concordant direction, RRR 31-58%*, NOT *all
   of diabetes in the active treatment groups was similar when subjects were stratified as lean or overweight
   (BMI < or >25 kg/m2).» So the lifestyle effect is not confined to the obese — it is a broad-spectrum
   lever across the adiposity range (consistent with DPP's «highly effective in all subgroups»). Da Qing's
-  mean BMI 25.8 also *extends the transportability* of the effect below DPP's mean BMI 34.
+  mean BMI 25.8 also *extends the transportability* of the effect below DPP's mean BMI 34 — with one
+  exception in the lean stratum: «significant decreases in the incidence of diabetes (except in the diet
+  arm) were achieved» [@pan1997], so for BMI <25 the support is
+  for exercise-containing arms, not diet alone.
 
 **Independence classification — a genuine `[E-independent]` convergence, with one honest lineage caveat.**
 The three are separate randomized experiments in separate populations, designed in different eras (Da Qing
@@ -254,6 +292,10 @@ continents, neither citing the other as antecedent). The convergence is real and
 lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage thread is why it is marked
 with the caveat rather than as three sealed-off routes.
 [inferred from @tuomilehto2001; @pan1997]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 
@@ -288,18 +330,34 @@ double-counted as one.
   risk, adjusted for changes in diet and activity.» [@hamman2006] In the full multivariate model «Weight loss was the dominant factor ... (HR 0.42 per 5 kg;
   P < 0.0001; R2 = 8.09%)» — and its share of explained variance dwarfs the others: even after correcting
   the diet/activity measures for imprecision, «the proportion of explained variance for weight change
-  remains substantially higher than for either percent fat or physical activity» (partial R2 \~8% for weight
-  vs \~0.1-0.2% for percent-fat and activity). [@hamman2006]
+  remains substantially higher than for either percent fat or physical activity» (partial R2
+  8.09% for weight vs 0.15% for percent-fat and 0.10% for activity after the reliability correction; 0.06%
+  and 0.04% uncorrected). [@hamman2006] (corrected
+  2026-10-06: \~0.1-0.2% -> the source's 0.15% / 0.10%)
 - **But physical activity has a weight-loss-INDEPENDENT effect — and this is where Hamman and Finnish DPS
-  converge (type-E on the sub-claim).** Among DPP participants who *failed* the weight-loss goal, activity
+  agree in direction (concordant, not type-E — see below).** Among DPP participants who *failed* the weight-loss goal, activity
   still cut risk: «Among 495 participants not meeting the weight loss goal at year 1, those who achieved the
   physical activity goal had 44% lower diabetes incidence.» [@hamman2006] The Finnish DPS found the *same* pattern in a *different* cohort: «Among the subjects in
   the intervention group who did not reach the goal of losing 5 percent of their initial weight, the odds
   ratio for diabetes in those who had achieved the goal with respect to exer- cise (more than four hours per
   week) during the first year was 0.2 (95 percent confidence interval, 0.1 to 0.6)» — while losing >5%
   weight itself carried «odds ratio ... 0.3 (95 percent confidence interval, 0.1 to 0.7)».
-  [@tuomilehto2001] Two independent cohorts agreeing that activity
-  prevents diabetes *even without weight loss* is a genuine `[E-independent]` sub-finding.
+  [@tuomilehto2001] Two separate cohorts agree on direction, but this
+  is **concordance, not a type-E independent-backing finding**: both are non-randomised within-arm comparisons by
+  goal attainment, so they share the same self-selection confounding (whoever meets an activity goal
+  differs in other ways); Hamman's activity-goal group was not weight-stable — the effect is stated
+  «independent of the small weight loss (−2.9 kg) that occurred» [@hamman2006];
+  and the Finnish goal-attainment ORs are introduced as «a univariate analysis», adjusted only for baseline
+  BMI in a follow-up step, where the exercise-goal OR stayed significant: «the odds ratio for di- abetes in
+  those in the intervention group who had achieved the exercise goal was still statistically signif- icant
+  (odds ratio, 0.3; 95 percent confidence interval, 0.1 to 0.7).»
+  [@tuomilehto2001] — BMI adjustment does not touch the
+  self-selection confounding. The two trials are also not fully separate in lineage: the DPS
+  acknowledges Knowler (DPP's lead author) «for his important contribution to the planning of our
+  study», and Hamman 2006 cites the DPS as concordant. Read it as a
+  plausible partly-independent channel, not a replicated causal sub-finding. (corrected 2026-10-06:
+  *genuine E-independent sub-finding* -> concordant non-randomised analyses; no shared author, but a
+  planning-lineage tie via Knowler)
 
 **Reconciling the two "dominant lever" readings.** Weight loss explains the most *variance* in who
 progresses (Hamman), yet activity works even in non-losers (Hamman + Finnish), and Da Qing found exercise
@@ -310,6 +368,8 @@ mechanism that sustains weight loss once achieved. This connects to the weight-l
 ([[Does Weight Loss Reduce Cardiovascular Events]]) as mechanism, not as evidence that weight loss *per se*
 is the *sole* mediator.
 [inferred from @hamman2006; @tuomilehto2001]
+
+</div>
 
 ## Adherence and adverse events
 
@@ -325,6 +385,8 @@ Harms were modest and differed by arm: gastrointestinal symptoms highest on metf
 events/100 person-yr on lifestyle), musculoskeletal symptoms highest on lifestyle (24.1). No deaths were
 attributed to any intervention. [@knowler2002]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 [inferred from @knowler2002; @tuomilehto2001; @pan1997; @hamman2006]
@@ -334,7 +396,8 @@ attributed to any intervention. [@knowler2002]
   substitution it is: lifestyle *versus* the drug, on the same outcome, not as an add-on.
 - **Metformin is the realistic alternative where lifestyle is not delivered or not enough** — and its value
   is stratum-dependent: substantial in the younger / more obese / more hyperglycemic, near-null in the lean
-  with near-normal fasting glucose. Prescribing it to the latter buys little.
+  with near-normal fasting glucose (single-trial strata, wide intervals). Prescribing it to the latter
+  likely buys little.
 - **The advice is outcome-scoped.** It prevents/delays the *diagnosis*; whether that averts heart attacks
   or extends life is not shown by DPP and should not be promised on its strength (see Outcome scope above).
 - **Intensity matters.** DPP's lifestyle arm was «systematic and intensive» with individualized case
@@ -347,6 +410,8 @@ attributed to any intervention. [@knowler2002]
   [@pittas2023vitamindipd]. On absolute yield it ranks well
   below both DPP arms — a cheap, low-harm add-on where 25(OH)D is low or BMI is not high, never a
   replacement for the lifestyle or metformin rock -> [[Vitamin and Mineral Supplements for Disease Prevention]].
+
+</div>
 
 ## Limits and provenance
 

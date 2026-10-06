@@ -16,9 +16,10 @@ relationships:
     - Grip Strength and Mortality
     - Low Muscle Mass and Mortality
 created: 2026-07-29
-updated: 2026-09-01
-self_critiqued: 2026-09-01
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
 **independently of aerobic activity**, and it does so at a **small dose**. Three meta-analyses now
@@ -30,14 +31,19 @@ muscle-strengthening pools) — so the later MAs are **refinements, not independ
 not [E-independent]), and the evidence stays **observational, self-reported, higher/very-high risk of bias
 on the exposure**. A real but **weakly-warranted** lever, held one tier below the RCT-grade BP and lipid
 evidence — three concordant re-poolings of one shared cohort base do **not** raise its certainty above
-`low`. What the mortality-specific MAs add is *endpoint resolution* and *dose*, not independence:
-Saeidifard and Shailendra both isolate cardiovascular **mortality** (borderline, CI touches 1) from Momma's
-CVD **incidence** (significant); and Shailendra's larger cancer pool (5 studies vs Saeidifard's 2) turns
+`low`. What the mortality-specific MAs add is *pool composition* and *dose*, not independence: on a
+largely shared endpoint (Momma's CVD and total-cancer pools are themselves mostly **mortality**), the CV
+estimate is significant in Momma's 7-study MSA pool and borderline (CI touches 1) in the RT-labelled
+pools of Saeidifard and Shailendra — a precision/pool difference, not an endpoint difference
+(corrected 2026-10-06: was *Momma's CVD incidence*; self-critique); and Shailendra's larger cancer pool (5 studies vs Saeidifard's 2) turns
 the earlier null cancer-**mortality** estimate **significant** — a precision gain on a shared direction, not
 a reversal (see the cross-source table below).
 
 
 [@momma2022]
+
+</div>
+
 ## The effects — modest, broad, and independent of aerobic exercise
 
 Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activities»:
@@ -58,6 +64,8 @@ is a refinement, not an [E-independent] convergence.
 
 
 [@saeidifard2019]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Saeidifard 2019 — the second MA, endpoint-resolved and mortality-specific
 
 Saeidifard is a SR-MA of «11 (one randomized trial and 10 cohort studies)... totaling 370,256
@@ -75,20 +83,26 @@ mortality-specific question Momma's broad MSA-and-disease pool does not isolate:
 
 Two decision-relevant refinements over Momma:
 
-- **The CV benefit is softer on the harder endpoint.** Momma's «RR 0.83; 95% CI 0.73 to 0.93» is CVD
-  *incidence* (significant); Saeidifard's identical 0.83 point estimate is CV *mortality* and its CI
-  **crosses 1** — so acting on the CV-mortality claim specifically rests on a borderline association, not
-  the clean incidence signal. Same number, different (harder) endpoint, weaker warrant.
-- **Cancer: incidence favourable, mortality null.** Momma finds total-cancer *incidence* «0.88 (0.80 to
-  0.97)»; Saeidifard finds cancer *mortality* «0.81 (0.54–1.20)», non-significant. These are **different
-  endpoints, not a contradiction** — RT's cancer value (if any) is plausibly on incidence and on
-  cancer-patient function/lean-mass, not on lowering death-from-cancer, which the data cannot show.
+- **The CV benefit is softer in the RT-labelled pool.** Momma's «RR 0.83; 95% CI 0.73 to 0.93» is
+  significant; Saeidifard's identical 0.83 point estimate has a CI that **crosses 1**. Momma's CVD pool is
+  itself mostly mortality («Three studies focused on CVD mortality or CVD morbidity,43 44 46 whereas other
+  studies focused on CVD mortality.») [@momma2022],
+  so this is the same number on a largely shared endpoint with a different pool and precision — not a
+  harder endpoint. Acting on the CV-mortality claim rests on a significant-to-borderline association
+  (corrected 2026-10-06: was *CVD incidence ... different (harder) endpoint*; self-critique).
+- **Cancer: Momma favourable, Saeidifard null — mostly the same endpoint.** Momma's total-cancer «0.88
+  (0.80 to 0.97)» is a mostly-**mortality** pool («One study focused on total cancer incidence,50 whereas
+  the other studies focused on total cancer mortality.») [@momma2022];
+  Saeidifard's cancer *mortality* «0.81 (0.54–1.20)» is non-significant on 2 studies. The difference is
+  pool size and precision, not incidence vs mortality (corrected 2026-10-06: was *incidence favourable,
+  mortality null ... different endpoints*; self-critique).
   - **Superseded on the mortality leg (Shailendra 2022):** Saeidifard's cancer-mortality null rested on
     only **2 studies**; Shailendra pools **5** and finds cancer *mortality* «0.86 (0.78, 0.95)»,
     **significant** — a precision gain on the same direction (point estimates 0.81 vs 0.86), not a
     reversal. So the "mortality null" is now read as an underpowered null, not a real absence of effect:
-    RT's cancer signal appears on **both** incidence (Momma) and mortality (Shailendra), still
-    observational and self-reported. See the Shailendra section and the 3-way table below.
+    RT's cancer-mortality signal is now significant in both Momma's mostly-mortality pool and
+    Shailendra's, still observational and self-reported (corrected 2026-10-06: was *both incidence and
+    mortality*; self-critique). See the Shailendra section and the 3-way table below.
 
 **Dose.** Saeidifard's own reading matches Momma's caution against the upper arm: performing «>0 to two
 sessions of resistance training per week is associated with lower all-cause mortality (0.79 (0.66–0.95)),
@@ -101,6 +115,11 @@ resistance training and survival has a U-shape curve.» This is a second-source 
 
 
 [@shailendra2022]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Shailendra 2022 — the third MA: a larger cancer pool and a minutes/week dose curve
 
 Shailendra is the mortality-specific update of Saeidifard: a SR-MA of **10 prospective cohort studies**
@@ -132,17 +151,21 @@ included 4 studies, it should be viewed with caution»*. [@shailendra2022]
 [inferred from @shailendra2022]
 This is a **third instance of the [[The U-Shaped Association Artifact]] reading**, converging with Momma's
 40 min/week J-shape: the *lower* arm (benefit acquired by a small weekly volume, \~40-60 min) is
-believable; the *upper* «U» arm — *more is worse* past \~60 min/week — rests on **only 4 studies**, with
-the spline's upper knot at 150 min (the 90th percentile) so the rising segment sits in the sparse-data
-tail. That is exactly the unequal-precision / sparse-tail region the artifact concept warns against, and
-the point-optimum «\~60 min/week» is a wide imprecise region, not a target (the studied range and the
+believable; the *upper* «U» arm — the benefit *diminishes* past \~60 min/week («smaller or no mortality
+risk reductions»), with no reported excess risk over no RT — rests on **only 4 studies**. The upturn
+begins near the median dose (between the 30- and 150-min knots, \~50th-90th percentile); only the segment
+beyond 150 min is the sparse tail, so the load-bearing caveat is the 4-study base and self-reported
+minutes (corrected 2026-10-06: was *more is worse ... the rising segment sits in the sparse-data tail*;
+self-critique). Those are the caveats the artifact concept warns about, and the point-optimum «\~60 min/week» is a wide imprecise region, not a target (the studied range and the
 4-study base are its two load-bearing caveats). **Do not act on the upper arm; do not chase or fear high
 RT volume for mortality** — the decision-relevant claim is the lower arm.
 
 **Joint RT + MVPA — the triple 0.60 convergence.** Performing both vs neither gives «by 40% (RR=0.60; 95%
 CI=0.54, 0.66)» lower all-cause mortality — matching Momma's «0.60 (0.54 to 0.67)» and Saeidifard's «0.60
-(0.49–0.72)» essentially exactly. Striking, but **F not E**: shared cohorts (Stamatakis, Kamada, Zhao in
-all the joint pools), so the convergence is the *same finding re-pooled*, not three independent roads to
+(0.49–0.72)» essentially exactly. Striking, but **F not E**: shared cohorts (Kamada in all three joint
+pools; Stamatakis and Zhao 2020 shared by Momma and Shailendra; Saeidifard's NHANES studies were excluded
+by Shailendra as overlapping samples — corrected 2026-10-06: Stamatakis is not in Saeidifard's pool;
+self-critique), so the convergence is the *same finding re-pooled*, not three independent roads to
 0.60. [@shailendra2022]
 
 **Exposure quality is the binding limit.** «All the 10 included studies were found to have a higher risk
@@ -153,6 +176,11 @@ constraint is *why* only 4 of 10 studies could enter the dose-response, and it c
 
 
 [inferred from @momma2022; @saeidifard2019; @shailendra2022]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The three MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
 
 The op-weave parameter table, with the same-quantity column doing the work:
@@ -163,15 +191,15 @@ The op-weave parameter table, with the same-quantity column doing the work:
 | Metric | RR | HR (OR→RR) | RR | \~ all hazard-type; comparable |
 | All-cause mort. | «0.85 (0.79 to 0.93)» −15% | «0.79 (0.69–0.91)» −21% | «0.85; 95% CI=0.77, 0.93» −15% | Same construct, overlapping pools (not independent) |
 | Combined + aerobic → all-cause | «0.60 (0.54 to 0.67)» | «0.60 (0.49–0.72)» | «0.60; 95% CI=0.54, 0.66» | Triple point convergence, but **F not E** (shared cohorts) |
-| CVD mort. | «0.83 (0.73 to 0.93)» — **incidence**, sig | «0.83 (0.67–1.03)» — mortality, borderline | «0.81; 95% CI=0.66, 1.00» — mortality, **CI touches 1** | Momma = incidence; both RT MAs = mortality, both borderline |
-| Cancer mort. | «0.88 (0.80 to 0.97)» — **incidence**, favourable | «0.81 (0.54–1.20)» — mortality, **null (2 studies)** | «0.86; 95% CI=0.78, 0.95» — mortality, **sig (5 studies)** | Same endpoint across the RT MAs; the null was underpowered, now resolved sig — a precision gain, not a reversal |
+| CVD mort. | «0.83 (0.73 to 0.93)» — mostly mortality (4 of 7 mortality-only, 3 mortality-or-morbidity), sig | «0.83 (0.67–1.03)» — mortality, borderline | «0.81; 95% CI=0.66, 1.00» — mortality, **CI touches 1** | Largely shared endpoint; sig in Momma's pool, borderline in both RT pools (pool/precision) |
+| Cancer mort. | «0.88 (0.80 to 0.97)» — mostly mortality (5 of 6 studies), favourable | «0.81 (0.54–1.20)» — mortality, **null (2 studies)** | «0.86; 95% CI=0.78, 0.95» — mortality, **sig (5 studies)** | Largely the same endpoint across all three; the null was underpowered, now resolved sig — a precision gain, not a reversal |
 | Dose | J-shape, nadir «40 min/week» | «>0 to two sessions/wk» sig, >2 not; U disowned | «U»-shape, nadir \~60 min/wk (RR 0.74, 0.64-0.86, **4 studies**); diminishing above | Related nonlinear shape; Momma & Shailendra both in minutes/wk, \~40-60 min nadir |
 
 The **cancer-mortality cell is the one genuine refinement** (F): Saeidifard's null and Shailendra's
 significant estimate are the *same quantity* (RT → cancer mortality, RR), and the flip is driven by study
 count (2 → 5), point estimates staying in the 0.81-0.86 band — a precision gain, not a contradiction to
-file as a tension. Every other cell is either the *same finding re-pooled* (F) or a *different endpoint*
-(a distinction), so no cell survives as an [E-independent] convergence.
+file as a tension. Every other cell is the *same finding re-pooled* (F), with pool/precision differences
+on a largely shared endpoint, so no cell survives as an [E-independent] convergence.
 
 **Independence: type-F (refinement) across all three, not [E-independent].** Three defeaters, any one
 sufficient:
@@ -194,6 +222,11 @@ finding re-pooled. No `[E-independent]` stamp — the cluster stays `low`.
 
 
 [@momma2022]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The dose — small, and a J-shape whose upper arm should not be believed yet
 
 The dose-response is the interesting part, and it is a worked case for
@@ -224,7 +257,8 @@ persisting to \~130-140 min/week and the hazard then rising above 1.0 — the J'
   RT is the driver, protein a modest RCT-grade adjunct up to \~1.6 g/kg/day). The mortality dose-response
   and the strength-adaptation question are two things, and *this* source answers only the first.
 
-**Do not act on the upper arm.** Three reasons it is likely an artifact, not a dose feature:
+**Do not act on the upper arm.** Three reasons it may be an artifact rather than a dose feature (none
+diagnostic — corrected 2026-10-06 from *likely an artifact*, to match the third bullet; self-critique):
 
 - **The authors disown it:** «the influence of a higher volume... on all-cause mortality, CVD and total
   cancer is unclear, considering the observed J-shaped associations»; «a higher volume may require
@@ -235,22 +269,29 @@ persisting to \~130-140 min/week and the hazard then rising above 1.0 — the J'
   [[The U-Shaped Association Artifact]] warns about.
 - **The built-in counter-instance:** for **diabetes** the same exposure is **L-shaped, not J** — «the
   risk of diabetes sharply decreasing until up to 60 min/week... followed by a gradual decrease», no
-  upturn, and with a clear muscle-glucose mechanism. The same MSA cannot protect monotonically for
-  diabetes and turn harmful for mortality at high volume unless the mortality upturn is a measurement or
-  confounding artifact.
+  upturn, and with a clear muscle-glucose mechanism. That is *consistent with* an artifactual mortality
+  arm, but not diagnostic of one: a real high-volume CV cost is not excluded — Shailendra notes that
+  high-volume RT «may also result in adverse effects on blood pressure, heart rate, and arterial
+  compliance» [@shailendra2022] — and
+  the diabetes dose curve rests on 3 studies; neither reading is shown (corrected 2026-10-06: was *cannot
+  ... unless ... artifact*; self-critique).
+  [@momma2022]
   - **What the muscle-glucose mechanism IS (Challenge #24, average adult):** skeletal muscle is the
     principal site of insulin-stimulated glucose disposal, so building and using muscle enlarges the
     body's glucose «sink» and improves glucose tolerance. This makes resistance training a **glycaemic
     lever, not only a function/mortality one** — decision-relevant specifically for the dysglycaemic /
     metabolic-syndrome stratum (the drifting-median adult), where the held diabetes L-shape is the
     outcome this mechanism produces. **The exposure whose mechanism is clear (diabetes) shows no upturn; the outcomes
-  whose upturn lacks a mechanism (mortality/CVD/cancer) show one** — the diagnostic signature of an
-  artifactual arm.
+  with an upturn (mortality/CVD/cancer) have only a candidate CV-channel mechanism (above)** — consistent
+  with, not diagnostic of, an artifactual arm (corrected 2026-10-06: was *upturn lacks a mechanism ...
+  diagnostic signature*; self-critique).
 
 **What survives:** the *lower* arm — a real, modest benefit reached by a **modest weekly volume** (a wide,
 imprecise \~30-80+ min/week region; the standard «at least 2 days/week» sits comfortably inside it). What
 does not: any reason to fear or to chase high MSA volume for mortality — nor any reading of an optimal
 *frequency*, which this source cannot supply.
+
+</div>
 
 ## Decision relevance
 
@@ -268,6 +309,8 @@ does not: any reason to fear or to chase high MSA volume for mortality — nor a
 
 
 [inferred from @momma2022]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -291,7 +334,8 @@ value, which runs through better-evidenced channels:
   marker, part lever. The strength-training mortality evidence remains this page's very-low-GRADE number.
 
 So strength training's **weak** card is the mortality evidence; its **strong** card is function/falls
-(held) plus the muscle-mass/strength predictor literature (unheld). For an older or sarcopenia-risk
+(held) plus the muscle-mass/strength predictor literature (now held: [[Grip Strength and Mortality]],
+[[Low Muscle Mass and Mortality]] — predictors, not proof, as above). For an older or sarcopenia-risk
 stratum the case is *stronger* than the very-low mortality number alone implies — the lever's value is
 in keeping function and staying off the floor, not (on current evidence) a proven mortality reduction.
 
@@ -302,12 +346,17 @@ in keeping function and staying off the floor, not (on current evidence) a prove
   speed-emphasis 0.36) — specifying not just *that* strength training defends function but *how* to
   train for maximum functional payoff in this stratum. [inferred from @elhadouchi2022]
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits
 
-- One meta-analysis, observational, «very low» GRADE; mostly US cohorts; self-reported exposure; high
-  heterogeneity (I2 up to 83%); publication bias untestable.
+- Three meta-analyses (Momma, Saeidifard, Shailendra) over a largely shared cohort base — not
+  independent tests (see the 3-way table above); essentially observational (Saeidifard's 11 include one
+  RCT); Momma rates its evidence «very low»
+  GRADE; mostly US cohorts; self-reported exposure; high heterogeneity (I2 up to 83%); publication bias
+  untestable. (corrected 2026-10-06: *One meta-analysis* -> three overlapping MAs.)
 - The dose-response upper arm is not usable (above); the diabetes L-shape is the more trustworthy dose
   curve.
 - Frequency vs total-time could not be separated; the target-dose is a region, not a number.
@@ -315,6 +364,7 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 
 [inferred from @momma2022]
 
+</div>
 
 ## Why the diabetes curve is clean but the mortality curve is not (deliverable-critique, 2026-08-01)
 

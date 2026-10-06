@@ -11,7 +11,6 @@ updated: 2026-10-03
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 Almost everything that lowers your dementia risk is what already protects your heart: blood pressure,
 blood sugar, weight, cholesterol, not smoking, staying active. Only one of those levers has a
@@ -23,10 +22,6 @@ it helps. Single foods, supplements and named diets like MIND show promising ass
 shrink or vanish once anyone runs the experiment. The headline is calibrated uncertainty, not a
 list of confident brain-specific fixes -> [[Age-Related Diseases]], [[Surrogate Outcomes]]. **Do the
 cardiometabolic basics early; skip the supplements.**
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Most of what lowers dementia risk is what protects your heart
 
@@ -47,8 +42,6 @@ addition means asking what it adds *at the margin*, on top of rocks a healthy ad
 **earlier and longer**: midlife hypertension and hearing loss carry more weight than the same factor
 late in life [@livingston2024]. What you *measure* to track
 them is what you already measure for the heart — blood pressure, HbA1c, waist, LDL — not a brain scan.
-
-</div>
 
 ## The dedicated brain-health bundle moves a test score, not the disease
 
@@ -92,8 +85,6 @@ beat the best single ones, and the whole comparison sits on **cognitive-surrogat
 dementia incidence**
 [@mendes2025multidomain]. The bundle's
 appeal is theoretical; the evidence does not reward the stack.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The single levers, ranked by what each actually moves
 
@@ -154,8 +145,6 @@ Higher cognitive engagement across life is associated with lower risk — mental
 **cognitive-reserve** idea but are observational and hard to separate from
 lifelong confounders. Reasonable to favor, weak as a claimed intervention.
 
-</div>
-
 ## Diet and single foods: the signal fades at the diagnosis
 
 ### The MIND diet — an observational benefit a trial did not confirm
@@ -215,8 +204,6 @@ them at the certainty the evidence supports, not above it.
 - **The loop is open** (R1): no source here grades a lever against a realized dementia outcome under a
   lifetime of intervention. A clean appraisal is not a validated promise.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## What to do
 
 **Pull the cardiometabolic rocks early and keep them pulled** — blood pressure, glucose, weight, LDL,
@@ -238,7 +225,5 @@ starting at high cardiovascular risk — worth doing, honestly small.
 > | **Overall certainty** | **Low-moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dementia%20Prevention.md) |
-
-</div>
 
 ## References

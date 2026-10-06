@@ -29,8 +29,6 @@ The honest bottom line: cut sodium if your blood pressure or cardiovascular risk
 potassium from fruit, vegetables and pulses, and treat every published gram-target as the edge of
 the evidence rather than a proven cliff.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## Cutting sodium lowers blood pressure, and that step is as settled as this field gets
 
 The surrogate is the strong part of the story. Pooling 34 randomised trials (3,230 participants,
@@ -51,8 +49,6 @@ pressure by **5.2 mmHg** (95% CI 3.4 to 7.0) in a 20-trial meta-analysis, and it
 difference does not predict that fall (P=0.67) — so the pattern carries the effect, not its incidental
 salt contrast [@siervo2015].
 The two effects act through the same channel and must not be added together.
-
-</div>
 
 ## The blood-pressure fall is biggest in people who already have high blood pressure
 
@@ -101,8 +97,6 @@ surrogate is downgraded «by one, or even two, levels» for indirectness
 [@grade]; the certainty on the outcome a person actually cares about is
 therefore well below the certainty on the marker.
 
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## The strongest hard-outcome trial cut sodium and raised potassium at once
 
 The one hard-outcome RCT here is SSaSS: 20,995 high-risk rural-Chinese adults (72.6% with
@@ -126,10 +120,6 @@ effect or with the measured pressure fall understating the sustained one. And th
 *absolute* benefit rides on an extreme baseline risk; the \~12-14% relative reductions may transport
 to lower-risk people, but the absolute gain shrinks with them
 -> [[Baseline Risk and the Relative-Absolute Split]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Potassium is the coupled lever, but it only lowers blood pressure in people with hypertension
 
@@ -172,10 +162,6 @@ The sodium-to-potassium *ratio* is asserted beneficial near 1:1 but never graded
 outcome — that figure traces to a 2003 expert consultation, not to this evidence
 [@aburto2013]. SSaSS moved the *joint lever* from
 asserted to partly-evidenced; the *optimal ratio* remains an open, ungraded question on both sides.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## The claim that very low sodium is dangerous has never faced a decisive test
 
@@ -239,10 +225,6 @@ The blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising i
 one would produce. **Named gap: the wiki holds no Mendelian-randomization or bias-corrected analysis
 that adjudicates the low-sodium arm.** It is unadjudicated, not settled either way.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-02">
-
 ## There is no proven floor: every realistic reduction still buys some blood-pressure fall
 
 Across the studied range the dose-response is monotone or not-estimable — no plateau or knee has been
@@ -267,8 +249,6 @@ Because a large share of the pooled trials ran two weeks or less, the pooled sur
 manufacture one, so over-shooting a hidden plateau merely fails to help — the operative default is
 that every realistic reduction still pays (the dose-response shape reasoning).
 
-</div>
-
 ## The people who gain most are those at high blood pressure and high cardiovascular risk
 
 Stratify on **baseline risk** first, because it does most of the work with no subgroup claim needed.
@@ -291,8 +271,6 @@ person gets little absolute benefit from the same switch.
   [@neal2021]. So the reassurance holds
   only where renal handling is normal; chronic kidney disease
   remains a real contraindication [@aburto2013].
-
-<div class="recent-update" data-last-updated="2026-10-02">
 
 ## Guideline targets mark where the data thin, not a proven cliff-edge
 
@@ -322,8 +300,6 @@ recovery biomarkers —
 number in a way a food-frequency-questionnaire nutrient cannot. (A single 24-hour urine still
 captures only one day, so calibration is fixed but day-to-day variation is not.)
 
-</div>
-
 ## The bottom line
 
 - **If your blood pressure or overall cardiovascular risk is high, cut sodium.** This is where the
@@ -341,8 +317,6 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 - **Hold the low-sodium harm claim as unresolved, in both directions** — *very low sodium is
   dangerous* is neither established nor disproven, because the low-intake arm has never faced a
   confounder-immune test.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## Read this as appraisal, not a prescription
 
@@ -368,7 +342,5 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
-
-</div>
 
 ## References

@@ -1,23 +1,21 @@
 ---
 type: deliverable
 title: GLP-1 Drugs
-self_critiqued: 2026-10-03
+self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-03
 question: 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, kidney, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?'
 aliases: [GLP-1 Receptor Agonists for Weight, Semaglutide, Tirzepatide, Ozempic, Wegovy, Mounjaro, Zepbound, Weight Loss Drugs, GLP-1 Agonists]
-authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Badve, Sunil V; Yang, Kaijie; Laverde, Ligia Patricia; Nong, Kailei; Sumithran, Priya; Sjöström, Lars; Kuate Defo, Alvin; Bi, Zheng; Bushi, Ganesh; Volker, K M]
-sources: [Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Volker - GLP-1 Substance Use Disorders 2026, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
+authors: [Lincoff, A Michael; Wilding, John P H; Jastreboff, Ania M; Perkovic, Vlado; Badve, Sunil V; Yang, Kaijie; Laverde, Ligia Patricia; Nong, Kailei; Sumithran, Priya; Sjöström, Lars; Kuate Defo, Alvin; Bi, Zheng; Bushi, Ganesh; Volker, K M; Sardeli, Amanda Veiga]
+sources: [Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Perkovic - Semaglutide Chronic Kidney Disease FLOW 2024, Sardeli - Resistance Training Caloric Restriction, Sjostrom - SOS Bariatric Surgery Mortality 2007, Sumithran - Hormonal Adaptation Weight Loss 2011, Volker - GLP-1 Substance Use Disorders 2026, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026]
 confidence: medium
 created: 2026-08-17
-updated: 2026-10-03
+updated: 2026-10-06
 ---
 
 > [!warning] Applies to a specific decision
 > This is a decision-scoped read for a person *considering* a GLP-1 for weight. The answer turns on
 > baseline cardiometabolic risk — the same drug is a proven hard-outcome lever for one person and a
 > surrogate-only weight change for another. It is not population-wide advice to start or avoid it.
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The drug is two decisions wearing one name
 
@@ -46,8 +44,6 @@ Every section below rests on two facts. The benefit is a **maintained state, not
 it lasts only while the drug is taken. And **the class is not uniform**: tirzepatide takes off more
 weight than semaglutide but has no hard-outcome trial at all, so a bigger number on the scale does
 not carry a bigger proven benefit.
-
-</div>
 
 ## What the drug reliably does is make you eat less
 
@@ -85,7 +81,7 @@ a person actually cares about is a separate evidenced step, never assumed from t
  -> [[Surrogate Outcomes]]. That discipline bites hardest exactly here, where the effect is
 so large and reliable that reading the surrogate *as* the outcome is most tempting.
 
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Hard cardiovascular events fall as a class — but the benefit is proven where risk is high
 
@@ -105,8 +101,11 @@ stroke) from **8.0% to 6.5%** over a mean 39.8 months — **HR 0.80 (95% CI 0.72
 cardiovascular-outcome trials (85,373 participants, median follow-up \~2 years) and finds the whole
 GLP-1 receptor agonist class cuts MACE — **HR 0.87 (0.81-0.93)** in type-2 diabetes, **0.86
 (0.80-0.92)** with SELECT added, NNT 74 — and all-cause death **HR 0.88 (0.83-0.93)**, NNT 101, both
-high-certainty and consistent regardless of diabetes status
-[@badve2024glp1].
+high-certainty; Badve reports that effects «appeared consistent regardless of diabetes status»
+[@badve2024glp1]. Only nonfatal heart
+attack differed by diabetes status (p-heterogeneity 0.02), and both groups still benefited
+[@badve2024glp1]; but SELECT is
+the only trial without diabetes, so the non-diabetic side of that comparison is one trial.
 
 Badve calls the class «the first and only class of medications with proven benefits on composite kidney and cardiovascular outcomes... across a range of cardiovascular risk and chronic kidney disease severity in people with and without diabetes»
 [@badve2024glp1]. The
@@ -114,9 +113,13 @@ single-agent trials could not establish this: the CV/mortality benefit is a clas
 to leaving out any one trial -> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]].
 
 **But Badve is not a second independent line — it pools SELECT and shares its authors** — so it is
-refinement of the same evidence, not corroboration by a separate route. And crucially, the
-class benefit is **largely weight-independent**: these are glucose-lowering trials with modest weight
-loss, and the CV benefit separates early, before much weight is lost. So this evidence reinforces —
+refinement of the same evidence, not corroboration by a separate route. The wiki reads the
+class benefit as **largely weight-independent**, because most pooled trials are glucose-lowering
+type 2 diabetes trials with modest weight loss. Badve does not report when the curves
+separate. In the single trial SELECT, the effects «occurred early after the initiation of treatment»,
+and the investigators read this as suggesting that changes «beyond the magnitude of body-weight loss
+may have mediated at least part» of the benefit
+[@lincoff2023]. So this evidence reinforces —
 does not overturn — the finding that losing weight by itself is not a guaranteed cardiovascular lever
 -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
@@ -183,6 +186,8 @@ hard-CV effect is insufficient-evidence, not no-effect.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The kidney is now its own proven leg
 
 Kidney disease is a third distinct benefit, on a different endpoint in a different stratum — and the
@@ -213,7 +218,10 @@ credited a kidney benefit «mainly driven by new-onset macroalbuminuria, a surro
 macroalbuminuria — **HR 0.82 (0.73-0.93), high-certainty, NNT 164** — and, for the first time,
 demonstrates a class-level **kidney-failure** reduction, **HR 0.84 (0.72-0.99), moderate-certainty**
 [@badve2024glp1]. Kidney failure is
-not creatinine-confoundable, which anchors the composite against the muscle-loss artifact:
+less exposed to the muscle-loss artifact than the eGFR-decline endpoint: it is a late, threshold event,
+and four trials define it by dialysis or transplant alone. But in the trials carrying most of the weight,
+FLOW included, it still counts a persistent eGFR below 15, so it partly shares the creatinine channel
+. Badve offers it as reassurance, not proof:
 «The separately significant reduction in the risk of kidney failure provides important reassurance that the kidney benefits of GLP-1 receptor agonists are real and clinically important»
 [@badve2024glp1]. FLOW
 carried 49% of that kidney-failure weight, so this is largely FLOW confirmed at scale, not an
@@ -226,6 +234,8 @@ FLOW's 20 [@perkovic2024]. The relative effect
 is real, but the payoff scales with baseline kidney risk (route (a)) and is decision-moving mainly in
 the FLOW-type stratum. It does not transport to a low-risk, near-normal-BMI person
 -> [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
+
+</div>
 
 ## Progression to diabetes drops sharply
 
@@ -244,29 +254,42 @@ the same insufficient-evidence caveat as the CV case.
 Weight loss of the magnitude these drugs produce improves fatty-liver (MASLD) disease in a
 dose-dependent way; the full steatosis/inflammation/fibrosis threshold ladder lives on [[Body Fat]].
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Muscle comes off with the fat — the ratio improves while absolute mass falls
 
 The dedicated synthesis is a meta-analysis of 7 RCTs at obesity doses (821 patients), and its finding
 has two faces that must be read together [@laverde2026].
 As a *proportion* of total weight, lean mass rises — **+1.81% (95% CI 1.1 to 2.52; I²=7%)** — because
 fat is shed faster than lean, so body composition improves as a ratio. In *absolute* terms, muscle is
-lost — **−1.74 kg (−3.04 to −0.45; I²=98%)**, a −3.06% fall. Semaglutide is the outlier on both
-counts: **−5.44 kg, −9.9%**. The near-98% heterogeneity is itself a reason to hold the absolute figure
+lost — **−1.74 kg (−3.04 to −0.45; I²=98%)**, a −3.06% fall. Semaglutide shows the largest loss,
+**−5.44 kg, −9.9%**, from a single small body-scan substudy. The near-98% heterogeneity is itself a reason to hold the absolute figure
 loosely.
 
 Laverde's own verdict lands on the ratio face — «lean mass loss should not be considered a limitation for the use of these drugs in patients with obesity»
 [@laverde2026] — which is faithful to the
 composition data and not a denial that absolute muscle falls; both are true at once.
 
-**The lost muscle is roughly what any rapid loss costs — not a drug-specific hazard.** Of total mass
-lost, about 30% is lean, «comparable to that observed after bariatric surgery» and at or just inside
-the ordinary 20-30% diet-induced band. Per agent: liraglutide 14-22%, tirzepatide \~26%, semaglutide
-up to 45% — above the band, the one agent that earns a specific worry
-[@laverde2026]. The class network agrees on
-rank: the biggest fat-loss drugs (tirzepatide −8.3%, subcutaneous semaglutide −5.8%, both moderate
+**The lost muscle is roughly what any rapid loss costs — not a drug-specific hazard.** Laverde cites
+an earlier meta-analysis in which about 30% of the mass lost on a GLP-1 drug is lean, «comparable to
+that observed after bariatric surgery»; across the trials Laverde pooled, the share ran by agent:
+liraglutide 14-22%, tirzepatide \~26%, semaglutide up to 45%
+[@laverde2026]. Against the typical 20-30%
+lean share of weight loss, the class sits at or just inside that band. Semaglutide's upper value sits
+above it, but on thin data: 45% is the top of a range from one small body-scan substudy, not a typical
+value, so it does not compare like-for-like with the band
+ -> [[Protein and Resistance Training for Muscle and Strength]]. Laverde puts the larger
+semaglutide loss down to more weight lost overall — «The greater reduction observed with semaglutide could be attributed to its increased potency and total weight loss, as previously described in studies [24].» — and flags the data as sparse: «Similarly, the number of patients and studies with semaglutide is limited, so further clinical trials with these drugs are needed to conﬁrm our ﬁndings.»
+[@laverde2026].
+
+A 19-drug network meta-analysis gives the same rank: the biggest fat-loss drugs (tirzepatide −8.3%, subcutaneous semaglutide −5.8%, both moderate
 certainty) are the worst for lean mass
 [@nong2026obesity] -> [[GLP-1 and Lean Mass]].
-So on the class average the lean loss is generic to rapid weight loss, with semaglutide the exception.
+That is probably the same trials counted twice, not a second line of evidence: Nong's tirzepatide
+figure rests on one trial and matches the −8.3% Laverde reports for SURMOUNT-1, and Nong's semaglutide
+trials very likely include the one Laverde used.
+So on the class average the lean loss looks generic to rapid weight loss, with semaglutide's higher
+figure resting on thin data.
 The wiki holds no head-to-head against a matched, same-magnitude non-drug loss, so the attribution is
 directional, not settled.
 
@@ -281,17 +304,30 @@ this as insufficient evidence on function, not as safe or harmful
 **Which face governs is a matter of stratum, and it inverts.** Laverde ran in «relatively young populations with a low burden of comorbidities» — the wrong population for the worry
 [@laverde2026]:
 
-- **Young, high-BMI adult with abundant muscle:** the ratio face governs — composition improves, the
-  absolute loss is minor and recoverable. Rank the muscle cost low.
+- **Young, high-BMI adult with abundant muscle:** the ratio face governs — composition improves, and
+  the absolute loss matters less for someone with muscle to spare. Whether it comes back is untested;
+  resistance training and protein are prudent, not urgent. Rank the muscle cost low, while
+  noting that Laverde, studying mostly this group, still flags «the potential for clinically signiﬁcant
+  muscle loss during treatment with GLP1-RA»
+  [@laverde2026].
 - **Older / sarcopenia-risk / multimorbid adult:** the absolute face governs — the same kilograms
   become a front-line harm (falls, fractures, lost independence). And the drug's own appetite
   suppression fights the defense, because sparing muscle needs *more* protein exactly when intake is
-  cut. Resistance training and adequate protein lower the functional cost without touching the weight
+  cut. Resistance training and adequate protein lower the lean-mass cost (function unmeasured) without touching the weight
   benefit, but monitor on function, not on weight
   [inferred from @laverde2026]
   -> [[Big Rocks (Elderly)]], [[Protein and Resistance Training for Muscle and Strength]].
 
-<div class="recent-update" data-last-updated="2026-10-03">
+**The resistance-training advice comes from diet trials, not drug trials.** A meta-analysis of six
+RCTs in obese older adults (mean age over 57) losing weight by caloric restriction found that adding
+resistance training kept about 0.8 kg of lean mass the diet alone removed (RMD 0.819 kg, 95% CI 0.364
+to 1.273), while fat and total weight loss came out similar in both arms
+[@sardeli2018]. None of those trials gave a
+GLP-1 drug, and they measured lean mass rather than function. Carrying the result over to drug users
+assumes drug-driven and diet-driven loss respond alike — the open attribution question above
+ -> [[Resistance Training During Caloric Restriction]].
+
+</div>
 
 ## The safety ledger: worry about the gut, not the cancers
 
@@ -391,8 +427,6 @@ to higher doses. And the umbrella could not stratify harms by dose or duration. 
 de-risk the *specific compound at the specific dose that accrued them*; the class label stays constant
 while the exposure under it drifts -> [[GLP-1 Non-Cardiometabolic Effects and Safety]].
 
-</div>
-
 ## Stopping the drug gives the weight back — and the benefit with it
 
 The effect lasts only while the drug does. When semaglutide and its lifestyle programme were both
@@ -430,8 +464,6 @@ most exposed — and to stop there, not to net it against the mortality and even
 lifelong cost outweighs a rented benefit is the person's judgment, not a number this evidence supplies
  -> [[Which Objective Moved This Recommendation]].
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## What the current evidence still cannot see
 
 These are gaps — *insufficient evidence*, not *no effect* -> [[The Insufficient-Evidence Statement]].
@@ -460,9 +492,7 @@ decades, and this horizon mismatch is structural — more searching now cannot c
   mature record never tested. Accrued years de-risk the specific compound and dose, not the class
   label.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where you net out
 
@@ -497,10 +527,10 @@ the fabric supplies only the directions and the certainties.
 > | | |
 > |---|---|
 > | **Question** | 'For a person considering a GLP-1 / GIP-GLP-1 receptor agonist (semaglutide, liraglutide, tirzepatide) primarily for weight: what is the effect on each patient-important outcome -- weight and appetite, glycaemia, cardiovascular events, kidney, adverse effects, lean-mass loss, discontinuation and regain -- for whom, how large, how certain, and how does that answer change by stratum?' |
-> | **Evidence included** | 15 sources — 7 gold, 8 high |
+> | **Evidence included** | 16 sources — 8 gold, 8 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
 
 </div>
 

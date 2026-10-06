@@ -16,8 +16,8 @@ relationships:
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-10-05
-self_critiqued: 2026-10-05
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
@@ -55,7 +55,7 @@ women (20–79 years of age)» — the US normative percentiles (the sibling of 
 grid). About «half of the variance in CRF is considered to be attributable to heritable factors», so a
 fraction of your position is not trainable.
 
-<div class="recent-update" data-last-updated="2026-10-05">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Raise it — the exercise dose → CRF response
 
@@ -70,10 +70,15 @@ must work to gain:
 |---|---|
 | < 10 METs | ≈50% of heart-rate reserve / VO2 reserve is adequate |
 | 10–14 METs | 65–85% of HR reserve / VO2R |
-| > 14 METs | > 85% — and above \~13 METs the goal is «more related to improving performance than health» |
+| > 14 METs | > 85% — and at >=13 METs (Ross's own, slightly lower cutoff for this separate point) the goal is «more related to improving performance than health» |
 
-Worked magnitudes: at fixed 50% intensity, 30 min×5/wk gave a 9.4% CRF rise vs 15.6% for 60 min; raising
-intensity to 75% gave 19.6% (Ross 2015). STRRIDE showed a clean dose gradient — 6% (low amount / moderate
+Worked magnitudes: at fixed 50% intensity — **50% of peak VO2**, a different scale from the HRR / VO2R
+reserve percentages in the table above — 30 min×5/wk gave a 9.4% CRF rise vs 15.6% for 60 min; raising
+intensity to 75% of peak VO2 gave 19.6% (Ross 2015, as reported in Ross's narrative). The same trial's
+row in Ross's Table 7 lists **7.7%** (LALI) and **14.8%** (HALI) for the two 50% arms, with 19.6% (HAHI)
+matching; the source does not reconcile the narrative and table figures, so both are kept here.
+(corrected 2026-10-06: added the peak-VO2 scale and the Table 7 7.7%/14.8% figures beside the narrative
+9.4%/15.6%; Ross chunk 02) STRRIDE showed a clean dose gradient — 6% (low amount / moderate
 intensity), 11% (low / high), 18% (high / high). Interval training beats equal-energy continuous training:
 in one trial near-maximal intervals gave «20.6%» vs «9.4%» for moderate continuous. Older adults gain too
 (a 41-trial meta-analysis: +16.3%).
@@ -157,7 +162,7 @@ is not a null result. No direction is asserted.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## HIIT vs continuous training — the gold umbrella (Poon 2024)
 
@@ -190,16 +195,20 @@ For the same head-to-head *inside the type-2-diabetes stratum*, see
 on VO2peak at moderate certainty (+3.37 ml/kg/min) — concurring with Poon's direction, though on likely-
 overlapping trials (not independent type-E) — while its HbA1c/weight edge stays low-certainty.
 
-**The intensity-over-duration rule survives being pushed to the extreme — distributed 1-2 min *exercise
-snacks* still raise CRF.** A gold SR+MA (Wan 2025, 14 trials, 483 adults) of brief vigorous bouts spread
-across the day found snacks significantly improved VO2max (SMD +1.43, 0.61 to 2.25, but VERY LOW
-certainty and significant only after excluding one high-RoB study) and peak power output (SMD +0.68, 0.00
-to 1.36), with the effect **largest in the physically inactive** and, for PPO, only when each bout
-exceeded 2 min. This is a type-F push of the *«Increases in CRF appear more responsive to increases in
-intensity than ... duration or frequency»* principle: even ultra-short bouts, if vigorous, move CRF. Body
-composition did not respond, and there are no hard-outcome data — full appraisal and the
-sufficiency-vs-floor reading: [[Exercise Snacks and Cardiometabolic Health]].
+**Brief vigorous *exercise snacks* may raise CRF (very low certainty).** A gold SR+MA (Wan 2025, 14
+trials, 483 adults) of short bouts spread across the day (eight trials used bouts of no more than 2 min,
+six used longer bouts) found snacks significantly improved VO2max (SMD +1.43, 0.61 to 2.25, but VERY LOW
+certainty and significant only after excluding one high-RoB study; the primary analysis was null) and
+peak power output (SMD +0.68, 0.00 to 1.36). The PPO gain was confined to physically inactive adults and
+to bouts longer than 2 min; for VO2max the larger effect in the inactive showed no significant
+between-group difference. Body composition did not respond, and there are no hard-outcome data — full
+appraisal and the sufficiency-vs-floor reading: [[Exercise Snacks and Cardiometabolic Health]].
 [@wan2025]
+Reading this as a type-F push of Ross's *«Increases in CRF appear more responsive to increases in
+intensity than ... duration or frequency»* principle is the wiki's link — Wan does not test intensity
+against duration, and the PPO >2-min condition cuts against *ultra-short bouts move CRF*.
+(corrected 2026-10-06: headline *distributed 1-2 min snacks still raise CRF* / *largest in the
+inactive* -> very-low-certainty, PPO-only subgroup limits; type-F link retagged INFERRED; self-critique)
 
 </div>
 
@@ -229,13 +238,15 @@ specify-the-measurement-method point for any CRF target in this stratum.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## In post-menopausal women, every mode raises CRF — and the modality choice is low-stakes
 
 A second large gold MA supplies the parallel modality question for a different, prevalent stratum:
-Khalafi 2023 (129 RCTs, 7,141 post-menopausal women, age \~53-90, BMI 22-35). Exercise raised CRF with a
-**large** overall effect — «exercise training increased CRF (SMD: 1.15; 95% CI: 0.87, 1.42; p = 0.001)»
+Khalafi 2023 (129 RCTs / 7,141 post-menopausal women overall, age \~53-90, BMI 22-35; the CRF analysis
+pools 35 arms from 25 studies). Exercise raised CRF with a **large** overall effect — «Based on the
+results from 35 intervention arms from 25 studies, exercise training increased CRF (SMD: 1.15; 95% CI:
+0.87, 1.42; p = 0.001)» (corrected 2026-10-06: CRF evidence base 129 -> 25 studies; self-critique)
 — and every mode worked: aerobic SMD 1.21, resistance 1.26, combined 1.47, water-based 0.83 (by-type
 p-values all significant). [@khalafi2023] The author
 framing is explicitly against the ACSM specificity default: «the ACSM recommended combination of aerobic
@@ -257,7 +268,7 @@ underivable-optimum discipline — state the interval, not a borrowed absolute).
 has **no CRF estimate** here (a prespecified subgroup with too few arms to run) — a gap in the
 postmenopausal evidence, contrast the HIIT-vs-MICT edge held above for mixed populations.
 
-### The cross-stratum synthesis — modality separation for CRF is weak in BOTH strata `[E-independent]`
+### The cross-stratum synthesis — modality separation for CRF is weak in BOTH strata
 
 Before the claim, the matched-parameter table (NO CELL NO CLAIM):
 
@@ -265,16 +276,24 @@ Before the claim, the matched-parameter table (NO CELL NO CLAIM):
 |---|---|---|---|
 | Population | adults BMI>=30, 76% female | post-menopausal women, BMI 22-35 | NO — different stratum |
 | CRF analysis | NMA, P-score rank of absolute VO2max | pairwise SMD vs non-exercise control | NO — rank vs effect size |
-| vs-control result | no modality reached significance | all types significant, large SMDs | NO — power/design differ |
+| vs-control result | no modality reached significance | all types significant, large SMDs | NO — design differs (CRF study counts similar, 21 vs 25) |
 | Top modality for CRF | COM-HI (combined), P .73 | combined, SMD 1.47 (point est.) | YES — same direction |
 | Inter-modality separation | none significant | no subgroup CIs -> unconfirmed | YES — not robustly separated |
 
-Two independent sources `[E-independent]` (different authors, populations, designs; neither cites the
-other) **converge on the decision even while their magnitudes diverge**: combined sits at or near the top for CRF in both, and
+Two sources with independent authorship and no mutual citation (different populations and designs;
+primary-trial overlap unverified — Khalafi's included-study list is supplementary and not held, and RCTs
+in post-menopausal women with obesity could qualify for both) **converge on the decision even while
+their magnitudes diverge** — a convergence on *absence of demonstrated separation*, which weakly
+discriminates *modality truly doesn't matter* from *both pools were underpowered for between-modality
+contrasts*. (corrected 2026-10-06: `[E-independent]` -> overlap unverified; self-critique) combined sits at or near the top for CRF in both, and
 in **neither** do the between-modality CRF differences separate robustly (obesity: nothing significant;
 post-menopausal: large effects but no CIs to order them). The magnitude gap — O'Donoghue's nulls vs
-Khalafi's large SMDs — is explained by stratum, power (45 vs 129 RCTs), the NMA's indirect comparisons vs
-direct-vs-control, and Khalafi's publication-bias inflation; it is a **distinction, not a contradiction**
+Khalafi's large SMDs — is explained by stratum, design (the NMA's indirect comparisons of absolute VO2
+vs Khalafi's direct-vs-control SMDs), and Khalafi's publication-bias inflation — not by study count,
+which is similar for the CRF analyses (Khalafi 25 studies; O'Donoghue's CRF NMA «Twenty-one studies with
+1689 participants» of its 45 RCTs [@odonoghue2020];
+corrected 2026-10-06: struck *power (45 vs 129 RCTs)*, then matched CRF-analysis to CRF-analysis
+counts; self-critique); it is a **distinction, not a contradiction**
 (the "same quantity?" column fails on magnitude, holds on the decision). The beyond-summary payoff:
 **for CRF, modality choice is low-stakes across both strata — pick for adherence and preference; combined
 is a defensible default, and any aerobic-containing mode substantially works.** Resistance-only is the
@@ -293,6 +312,8 @@ strength findings land on [[Menopause and the Shifting Levers]] (resistance is t
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Does raising it help? — the modifiability evidence
 
 This is the partial answer to the nucleus's predictor-not-lever caveat. **Within-person CRF change** (a
@@ -302,13 +323,18 @@ stronger design than cross-sectional comparison) tracks risk:
   those who stayed unfit (Blair).
 - Maintaining or improving CRF gave «27% and 42% reduced risks for CVD and all-cause mortality» (Lee);
   «Every 1-MET increase in CRF was associated with a 19% lower risk of CVD mortality».
-- The one randomized-trial signal — HF-ACTION in heart-failure patients — found «every 6% increase in CRF
-  (measured peak VO2) over 3 months was associated with a 4% lower risk of cardiovascular mortality or
-  cardiovascular hospitalization».
+- In «The largest randomized trial of exercise training in HF patients» (HF-ACTION), «every 6% increase in
+  CRF (measured peak V⋅ o2) over 3 months was associated with a 4% lower risk of cardiovascular mortality
+  or cardiovascular hospitalization» «after adjustment for potential confounding variables». Patients were
+  randomized to exercise training, not to a CRF change, so this CRF-change result is an adjusted
+  within-trial association carrying the same confounding risk as the cohorts, in heart-failure patients —
+  not a randomized CRF contrast. (corrected 2026-10-06: *the one randomized-trial signal* -> adjusted
+  within-trial association; self-critique)
 
 **Honest boundary — the upgrade is partial, not complete.** The evidence is still overwhelmingly
 observational; within-person change narrows the reverse-causation worry but does not close it (people
-whose health is failing get less fit), and only HF-ACTION is a trial, on a composite that includes
+whose health is failing get less fit), and no leg is a randomized CRF contrast — HF-ACTION's CRF-change
+result is an adjusted within-trial association in heart-failure patients, on a composite that includes
 hospitalization. The statement's own framing is calibrated: CRF «is a variable that is responsive to
 therapy», and improvement «should be communicated to patients» — a modifiable *target*, not a proven
 *cause* of longer life. The **proven lever underneath is physical activity**
@@ -317,6 +343,11 @@ adherence to that lever.
 
 
 [@ross2016]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## CRF sharpens a risk estimate — but only if it reclassifies
 
 Adding CRF to a traditional risk model (age, BMI, SBP, diabetes, cholesterol, smoking) improves
@@ -330,12 +361,18 @@ short-term risk looks equal — e.g. stage-II hypertension with low vs high CRF 
 rule): a strong inverse association is *not* the same as improved prediction. The statement says so —
 «it does not necessarily mean that CRF directly enhances CVD mortality risk prediction»; «For CRF to truly
 be a novel risk marker, it must improve risk prediction beyond traditional markers.» The NRI evidence is
-what earns CRF the reclassification claim; the association alone would not. **CRF is nonetheless absent
-from every current risk model** (SCORE2, Framingham, PREVENT) — a standing gap the statement argues to
-close.
+what earns CRF the reclassification claim; the association alone would not. **CRF was nonetheless
+excluded from the 2013 ACC/AHA risk calculator** («it was excluded from the risk calcula- tor») — a gap
+the statement argues to close.
+[@ross2016] Whether later models (SCORE2, PREVENT) also omit CRF is the wiki's extension,
+not Ross's: a 2016 statement cannot name them [searched: SCORE2 across Ross chunks 01-03, 0 hits]. (corrected 2026-10-06: *absent from every current risk model (SCORE2, Framingham,
+PREVENT)* under a Ross tag -> the 2013 calculator exclusion Ross supports; self-critique)
 
 
 [@ross2016]
+
+</div>
+
 ## The guidance move, and how to read it
 
 The statement's thesis is that CRF should be «an accepted "vital sign"» — the "only major risk factor
@@ -347,7 +384,7 @@ symmetric standards apply to a body making the case for its own risk factor.
 
 
 [@ross2016]
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -360,8 +397,9 @@ symmetric standards apply to a body making the case for its own risk factor.
 - **Track CRF as the measurable proxy for the physical-activity lever**, not as a separate intervention —
   the activity is what has the causal warrant; CRF is how you measure whether it is working.
 - **A low CRF legitimately up-classifies risk** within a stratum (a route-(a)/modifier use), and does so
-  on evidence that meets the reclassification bar — but it is not yet in the risk calculators, so today it
-  informs judgement rather than a computed score.
+  on evidence that meets the reclassification bar — but it was excluded from the 2013 ACC/AHA calculator
+  (whether later models include it is unverified, see above), so it informs judgement rather than a
+  computed score.
 - **HIIT vs walking for the drifting-median adult — the VO2max edge is real but small at the outcome
   level (Challenge #11).** Intervals raise VO2max more than continuous work (20.6% vs 9.4% above), so
   HIIT *wins the surrogate*. But (a) CRF is a predictor, and the *mortality* dose-response front-loads
@@ -378,7 +416,11 @@ symmetric standards apply to a body making the case for its own risk factor.
   the NEAT-downregulation worry is not HIIT-specific. **The affective substrate for the adherence worry
   is now partly held** — [[Affective Response to High-Intensity Interval Exercise]] (Niven 2020, gold MA)
   finds higher-intensity exercise is felt as *less pleasant in-task* than moderate continuous work
-  (Feeling-Scale MD \~-1.1 during and post), with no post-exercise rebound to rescue it; but the aversion
+  (Feeling-Scale MD \~-1.1 during and post), though affect at the end of exercise did not differ (MD
+  -0.72, 95% CI -1.64 to 0.20) and post-exercise *enjoyment* favoured HIIE — «compared to MICE, HIIE is
+  experienced less positively but post- exercise is reported to be more enjoyable», an inconsistency Niven
+  flags as unresolved for behaviour (corrected 2026-10-06: *no post-exercise rebound to rescue it* ->
+  enjoyment favoured HIIE; self-critique); and the aversion
   tracks *intensity* (HIIE ≈ vigorous continuous), not the interval format, and the step from worse
   feeling to worse *behaviour* is explicitly unestablished for HIIE, so **worse-HIIT-adherence-than-
   walking remains unheld as an endpoint** [@niven2020]. Net:
@@ -391,13 +433,15 @@ symmetric standards apply to a body making the case for its own risk factor.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-05">
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits
 
 - **Expert-consensus scientific statement, not a systematic review or GRADE appraisal** — «not intended
   to be a comprehensive review». Its evidence base is overwhelmingly observational.
-- **Causality on hard outcomes is inferred, not established** (HF-ACTION aside) — the modifiability
+- **Causality on hard outcomes is inferred, not established** (HF-ACTION's CRF-change result is an
+  adjusted within-trial association, not a randomized contrast; corrected 2026-10-06: was *HF-ACTION
+  aside*; self-critique) — the modifiability
   finding upgrades but does not resolve the nucleus's predictor caveat.
 - **\~50% of CRF is heritable** — the trainable fraction is real but bounded.
 - One body (AHA), 2016; whether other bodies endorse the vital-sign framing is unprobed.

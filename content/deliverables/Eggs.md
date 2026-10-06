@@ -8,7 +8,6 @@ updated: 2026-10-03
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-03">
 
 For a reasonably healthy person, eating eggs is close to a **non-lever** for heart disease. The largest
 pooled analyses put the risk of heart attack, stroke, and cardiovascular death within a whisker of no
@@ -25,8 +24,6 @@ rests on inference, not a feeding trial. Two further signals are **watch-items, 
 all-cause-mortality slope and a heart-failure association that surface only at high habitual intake, both
 at low certainty. And the real comparison is the whole **meal**: eggs versus a refined-carb breakfast is a
 different question than eggs versus bacon.
-
-</div>
 
 ## For your heart, eggs are close to a non-lever
 
@@ -156,8 +153,6 @@ meat) are adjusted, because dietary cholesterol and those foods are too collinea
 Read carefully, Zhong sharpens *why* the headline sounds worse than the pool without overturning it. But
 it raises the real question: does the answer ever change for an actual individual?
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## For someone with diabetes, the direction may flip
 
 People **with diabetes** are the one group the general-population reassurance may not reach. In cohorts
@@ -185,8 +180,6 @@ cleaner sub-case is the **hyper-responder**: someone whose serum LDL demonstrabl
 cholesterol. For that person, identified by measuring the response, egg cholesterol becomes a live lever —
 individually, not as a blanket rule.
 
-</div>
-
 ## How much to trust this, and what is missing
 
 Not much weight rests on any single number here, and the reasons are structural. **Both meta-analyses are
@@ -212,8 +205,6 @@ Two gaps are worth naming plainly, because a reader should know what the fabric 
   cereal, or refined-carb alternative, followed to hard outcomes. The substitution frame below is
   reasoned, not trial-tested.
 
-<div class="recent-update" data-last-updated="2026-10-03">
-
 ## Where eggs rank, and what to actually do
 
 Set against the levers that move heart and metabolic risk, the egg question ranks **low** — and its
@@ -230,10 +221,6 @@ eggs in place of a refined-carbohydrate cereal is a different exposure than two 
 flags the «uncontrolled risk factors associated with egg consumption (i.e., bacon)»
 [@godos2020] as a live confounder in
 the male heart-failure signal). Judge the meal as a substitution, not the egg on its own.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-03">
 
 ## The bottom line, as a decision
 
@@ -255,7 +242,5 @@ and a trial of the breakfast swap. Read the reassurance as **well-founded but lo
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Eggs.md) |
-
-</div>
 
 ## References
